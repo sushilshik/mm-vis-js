@@ -39,8 +39,8 @@ var schemeData =
 				},
 				"93190b70-40fd-4ed7-8177-2b78d925134b": {
 					"id": "93190b70-40fd-4ed7-8177-2b78d925134b",
-					"x": 1271,
-					"y": 839,
+					"x": 1338,
+					"y": 729,
 					"label": "Пример заметки.",
 					"shape": "box",
 					"link": "",
@@ -50,8 +50,8 @@ var schemeData =
 				},
 				"d5d764d3-1dce-4f92-8d64-e7c20e194f6e": {
 					"id": "d5d764d3-1dce-4f92-8d64-e7c20e194f6e",
-					"x": 1079,
-					"y": 862,
+					"x": 1172,
+					"y": 865,
 					"label": "                                       \n   ",
 					"shape": "box",
 					"borderWidth": "3",
@@ -172,9 +172,20 @@ var schemeData =
 					"x": 731,
 					"y": 793,
 					"label": "2019.10.17"
+				},
+				"62e1abf0-15ec-455a-a4ab-20e021624151": {
+					"id": "62e1abf0-15ec-455a-a4ab-20e021624151",
+					"x": 822,
+					"y": 859,
+					"label": "https://github.com/sushilshik/mm-vis-js",
+					"shape": "box",
+					"link": "https://github.com/sushilshik/mm-vis-js",
+					"color": {
+						"background": ""
+					}
 				}
 			},
-			"length": 17,
+			"length": 18,
 			"_idProp": "id",
 			"_type": {}
 		},
@@ -267,9 +278,14 @@ var schemeData =
 					"from": "1",
 					"to": "77056608-d537-4045-9218-87c0f992eb3a",
 					"id": "87a4e75f-1897-4573-a2fa-bc74ce204134"
+				},
+				"c6a5c932-3083-4b36-9d80-60aa1a029472": {
+					"from": "1",
+					"to": "62e1abf0-15ec-455a-a4ab-20e021624151",
+					"id": "c6a5c932-3083-4b36-9d80-60aa1a029472"
 				}
 			},
-			"length": 15,
+			"length": 16,
 			"_idProp": "id",
 			"_type": {}
 		}
@@ -295,7 +311,7 @@ var schemeData =
 			"_data": {
 				"0": {
 					"id": "0",
-					"x": 1000,
+					"x": 1170,
 					"y": 920,
 					"image": "https://images-na.ssl-images-amazon.com/images/I/91RQuV%2Bu4VL._SX425_.jpg",
 					"shape": "image",
