@@ -8,353 +8,23 @@ var schemeDataMenu = null;
 var schemeDataTextArea = null;
 ///////////////////////////////////
 
-var schemeData = 
-{
-	"canvas1Data": {
-		"nodes": {
-			"_subscribers": {
-				"*": [],
-				"add": [
-				{}
-				],
-				"remove": [
-				{}
-				],
-				"update": [
-				{}
-				]
-			},
-			"_options": {},
-			"_data": {
-				"1": {
-					"id": "1",
-					"x": 604,
-					"y": 492,
-					"label": "mm-vis-js",
-					"shape": "text",
-					"font": {
-						"strokeWidth": 4
-					},
-					"link": ""
-				},
-				"93190b70-40fd-4ed7-8177-2b78d925134b": {
-					"id": "93190b70-40fd-4ed7-8177-2b78d925134b",
-					"x": 1338,
-					"y": 729,
-					"label": "Пример заметки.",
-					"shape": "box",
-					"link": "",
-					"color": {
-						"background": ""
-					}
-				},
-				"d5d764d3-1dce-4f92-8d64-e7c20e194f6e": {
-					"id": "d5d764d3-1dce-4f92-8d64-e7c20e194f6e",
-					"x": 1172,
-					"y": 865,
-					"label": "                                       \n   ",
-					"shape": "box",
-					"borderWidth": "3",
-					"color": {
-						"background": "rgba(255,255,255,0)",
-						"border": "red"
-					},
-					"link": ""
-				},
-				"daaf3999-0238-41fa-948f-9a46c115f00b": {
-					"id": "daaf3999-0238-41fa-948f-9a46c115f00b",
-					"x": 925,
-					"y": 659,
-					"label": "В отличие от стандартного vis.js можно\nстроить схемы с связями\nповерх иллюстраций.",
-					"shape": "box",
-					"link": "",
-					"color": {
-						"background": ""
-					}
-				},
-				"a6fd3d0f-bd20-4470-9806-67267143f507": {
-					"id": "a6fd3d0f-bd20-4470-9806-67267143f507",
-					"x": 721,
-					"y": 694,
-					"label": "Функции",
-					"shape": "box",
-					"link": ""
-				},
-				"ea153d3c-e619-4eea-a53e-399b37c850d1": {
-					"id": "ea153d3c-e619-4eea-a53e-399b37c850d1",
-					"x": 1031,
-					"y": 319,
-					"label": "быстро сделать простой инструмент публикации схем и их редактирования.",
-					"shape": "box",
-					"link": ""
-				},
-				"85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae": {
-					"id": "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae",
-					"x": 717,
-					"y": 458,
-					"label": "Простота"
-				},
-				"2bd3206d-d1ee-4b8f-8225-b81eb9673e74": {
-					"id": "2bd3206d-d1ee-4b8f-8225-b81eb9673e74",
-					"x": 980,
-					"y": 383,
-					"label": "Для работы нужен только браузер и текстовый редактор"
-				},
-				"21f64c6a-2ff1-41b3-bf77-a962fbed3e35": {
-					"id": "21f64c6a-2ff1-41b3-bf77-a962fbed3e35",
-					"x": 909,
-					"y": 428,
-					"label": "Не нужна база данных и веб-сервер."
-				},
-				"3f496169-3281-4163-888c-997690d090d3": {
-					"id": "3f496169-3281-4163-888c-997690d090d3",
-					"x": 948,
-					"y": 484,
-					"label": "Чтобы сохранять работу, код с данными схемы \nнужно копировать вручную \nсо страницы в ее же собственный код.",
-					"shape": "box",
-					"link": "",
-					"color": {
-						"background": ""
-					}
-				},
-				"fc4313f9-0d34-4e53-9db6-9064b2389269": {
-					"id": "fc4313f9-0d34-4e53-9db6-9064b2389269",
-					"x": 722,
-					"y": 570,
-					"label": "Кейсы"
-				},
-				"a52bd703-6566-4b12-8ff8-bb26ce5eaf84": {
-					"id": "a52bd703-6566-4b12-8ff8-bb26ce5eaf84",
-					"x": 935,
-					"y": 545,
-					"label": "Быстро построить схему и положить ее\nна веб-сервер в виде статического файла.",
-					"shape": "box",
-					"link": ""
-				},
-				"757fcd36-6bdc-4777-86d5-a07e9771ce13": {
-					"id": "757fcd36-6bdc-4777-86d5-a07e9771ce13",
-					"x": 1005,
-					"y": 594,
-					"label": "Сохранить из интернета страницу с схемой на свой компьютер,\nотредактировать и опубликовать свою версию.",
-					"shape": "box",
-					"link": ""
-				},
-				"4f8a5b3a-9252-45e5-b3f6-d644e3aef68a": {
-					"id": "4f8a5b3a-9252-45e5-b3f6-d644e3aef68a",
-					"x": 706,
-					"y": 322,
-					"label": "Цель"
-				},
-				"ee7cf4ac-ceca-4805-9299-80d862b7ba4a": {
-					"id": "ee7cf4ac-ceca-4805-9299-80d862b7ba4a",
-					"x": 1200,
-					"y": 657,
-					"label": "В этой версии такие иллюстрации\nнадо хранить в дереве\nданных JSON \"canvas2Data\"",
-					"shape": "box",
-					"link": "",
-					"color": {
-						"background": ""
-					}
-				},
-				"c3a0125c-bcdd-402f-8caf-d431c2870ea7": {
-					"id": "c3a0125c-bcdd-402f-8caf-d431c2870ea7",
-					"x": 952,
-					"y": 726,
-					"label": "Детально редактировать схему можно прямо в\nJSON данных в меню справа страницы.",
-					"shape": "box",
-					"link": "",
-					"color": {
-						"background": ""
-					}
-				},
-				"77056608-d537-4045-9218-87c0f992eb3a": {
-					"id": "77056608-d537-4045-9218-87c0f992eb3a",
-					"x": 731,
-					"y": 793,
-					"label": "2019.10.17"
-				},
-				"62e1abf0-15ec-455a-a4ab-20e021624151": {
-					"id": "62e1abf0-15ec-455a-a4ab-20e021624151",
-					"x": 822,
-					"y": 859,
-					"label": "https://github.com/sushilshik/mm-vis-js",
-					"shape": "box",
-					"link": "https://github.com/sushilshik/mm-vis-js",
-					"color": {
-						"background": ""
-					}
-				}
-			},
-			"length": 18,
-			"_idProp": "id",
-			"_type": {}
-		},
-		"edges": {
-			"_subscribers": {
-				"*": [],
-				"add": [
-				{}
-				],
-				"remove": [
-				{}
-				],
-				"update": [
-				{}
-				]
-			},
-			"_options": {},
-			"_data": {
-				"b4a642a2-9878-483b-9944-081e9d453374": {
-					"from": "93190b70-40fd-4ed7-8177-2b78d925134b",
-					"to": "d5d764d3-1dce-4f92-8d64-e7c20e194f6e",
-					"id": "b4a642a2-9878-483b-9944-081e9d453374"
-				},
-				"5a84c73e-1f36-430b-8d91-a5f19b25aa8b": {
-					"from": "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae",
-					"to": "2bd3206d-d1ee-4b8f-8225-b81eb9673e74",
-					"id": "5a84c73e-1f36-430b-8d91-a5f19b25aa8b"
-				},
-				"ced9a7e3-4168-431e-a43f-e51b917aa43a": {
-					"from": "fc4313f9-0d34-4e53-9db6-9064b2389269",
-					"to": "a52bd703-6566-4b12-8ff8-bb26ce5eaf84",
-					"id": "ced9a7e3-4168-431e-a43f-e51b917aa43a"
-				},
-				"bb3ef3a1-61c6-47bf-a310-8a9589a73f2e": {
-					"from": "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae",
-					"to": "21f64c6a-2ff1-41b3-bf77-a962fbed3e35",
-					"id": "bb3ef3a1-61c6-47bf-a310-8a9589a73f2e"
-				},
-				"371d93cd-d4a2-4959-b3a5-b87e9054cfc5": {
-					"from": "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae",
-					"to": "3f496169-3281-4163-888c-997690d090d3",
-					"id": "371d93cd-d4a2-4959-b3a5-b87e9054cfc5"
-				},
-				"f2a12d5f-4223-4109-815f-9de1b2e83669": {
-					"from": "fc4313f9-0d34-4e53-9db6-9064b2389269",
-					"to": "757fcd36-6bdc-4777-86d5-a07e9771ce13",
-					"id": "f2a12d5f-4223-4109-815f-9de1b2e83669"
-				},
-				"26b29421-8b12-4a73-82e1-93dc4695b461": {
-					"from": "4f8a5b3a-9252-45e5-b3f6-d644e3aef68a",
-					"to": "ea153d3c-e619-4eea-a53e-399b37c850d1",
-					"id": "26b29421-8b12-4a73-82e1-93dc4695b461"
-				},
-				"416a7986-4025-4b02-9564-05124ff1d241": {
-					"from": "a6fd3d0f-bd20-4470-9806-67267143f507",
-					"to": "daaf3999-0238-41fa-948f-9a46c115f00b",
-					"id": "416a7986-4025-4b02-9564-05124ff1d241"
-				},
-				"fcc2246c-8c2e-4c29-8e5e-bc7b4d5390db": {
-					"from": "daaf3999-0238-41fa-948f-9a46c115f00b",
-					"to": "ee7cf4ac-ceca-4805-9299-80d862b7ba4a",
-					"id": "fcc2246c-8c2e-4c29-8e5e-bc7b4d5390db"
-				},
-				"6503ab91-b24c-4b85-a9d7-66cd8d8fb8d5": {
-					"from": "1",
-					"to": "4f8a5b3a-9252-45e5-b3f6-d644e3aef68a",
-					"id": "6503ab91-b24c-4b85-a9d7-66cd8d8fb8d5"
-				},
-				"2c006d61-988f-4729-98eb-8f88b3403b2d": {
-					"from": "1",
-					"to": "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae",
-					"id": "2c006d61-988f-4729-98eb-8f88b3403b2d"
-				},
-				"2fa1f3da-611a-4c02-8903-cb84f6e62383": {
-					"from": "1",
-					"to": "fc4313f9-0d34-4e53-9db6-9064b2389269",
-					"id": "2fa1f3da-611a-4c02-8903-cb84f6e62383"
-				},
-				"92886098-9a7b-49ee-8946-db12fdcd0c1d": {
-					"from": "1",
-					"to": "a6fd3d0f-bd20-4470-9806-67267143f507",
-					"id": "92886098-9a7b-49ee-8946-db12fdcd0c1d"
-				},
-				"27830557-e9d3-443e-868f-f314796444fc": {
-					"from": "a6fd3d0f-bd20-4470-9806-67267143f507",
-					"to": "c3a0125c-bcdd-402f-8caf-d431c2870ea7",
-					"id": "27830557-e9d3-443e-868f-f314796444fc"
-				},
-				"87a4e75f-1897-4573-a2fa-bc74ce204134": {
-					"from": "1",
-					"to": "77056608-d537-4045-9218-87c0f992eb3a",
-					"id": "87a4e75f-1897-4573-a2fa-bc74ce204134"
-				},
-				"c6a5c932-3083-4b36-9d80-60aa1a029472": {
-					"from": "1",
-					"to": "62e1abf0-15ec-455a-a4ab-20e021624151",
-					"id": "c6a5c932-3083-4b36-9d80-60aa1a029472"
-				}
-			},
-			"length": 16,
-			"_idProp": "id",
-			"_type": {}
-		}
-	},
-	"canvas2Data": {
-		"nodes": {
-			"_subscribers": {
-				"*": [],
-				"add": [
-				{},
-				{}
-				],
-				"remove": [
-				{},
-				{}
-				],
-				"update": [
-				{},
-				{}
-				]
-			},
-			"_options": {},
-			"_data": {
-				"0": {
-					"id": "0",
-					"x": 1170,
-					"y": 920,
-					"image": "https://images-na.ssl-images-amazon.com/images/I/91RQuV%2Bu4VL._SX425_.jpg",
-					"shape": "image",
-					"size": "150",
-					"hidden": false
-				}
-			},
-			"length": 1,
-			"_idProp": "id",
-			"_type": {}
-		},
-		"edges": {
-			"_subscribers": {
-				"*": [],
-				"add": [
-				{},
-				{}
-				],
-				"remove": [
-				{},
-				{}
-				],
-				"update": [
-				{},
-				{}
-				]
-			},
-			"_options": {},
-			"_data": {},
-			"length": 0,
-			"_idProp": "id",
-			"_type": {}
-		}
-	},
-	"setup": {
-		"scale": 1,
-		"viewPosition": {
-			"x": 827.4214,
-			"y": 697.1176
-		}
-	}
+function objectToArray(obj) {
+	return Object.keys(obj).map(function (key) {
+		obj[key].id = key;
+		return obj[key];
+	});
 }
-;
+if (typeof code_data1 !== "undefined") {
+	objectToArray(code_data1).forEach(function(item) {
+		schemeData.canvas1Data.nodes._data[item.id] = item;
+	});
+}
+
+if (typeof book_imgs !== "undefined") {
+	objectToArray(book_imgs).forEach(function(item) {
+		schemeData.canvas2Data.nodes._data[item.id] = item;
+	});
+}
 
 var nodes = null;
 var edges = null;
@@ -364,12 +34,6 @@ var data = null;
 var data1 = null;
 var network = null;
 
-function objectToArray(obj) {
-	return Object.keys(obj).map(function (key) {
-		obj[key].id = key;
-		return obj[key];
-	});
-}
 var nodes = new vis.DataSet(objectToArray(schemeData.canvas1Data.nodes._data));
 var edges = new vis.DataSet(objectToArray(schemeData.canvas1Data.edges._data));
 var nodes1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.nodes._data));
@@ -512,6 +176,8 @@ function draw() {
 		var nodeShapeInput = $("input#nodeShapeInput");
 		var nodeLinkInput = $("input#nodeLinkInput");
 		var nodeColorInput = $("input#nodeColorInput");
+		var nodeBorderWidthInput = $("input#nodeBorderWidthInput");
+		var nodeBorderColorInput = $("input#nodeBorderColorInput");
 		var nodeData = network.body.data.nodes._data[properties.nodes[0]];
 		nodeIdInput.val(nodeData.id);
 		nodeLabelTextarea.val(nodeData.label);
@@ -530,6 +196,12 @@ function draw() {
 		if (typeof nodeData.color !== "undefined" && nodeData.color.length > 0) {
 			nodeColorInput.val(nodeData.color.background);
 		}
+		if (typeof nodeData.borderWidth !== "undefined" && nodeData.borderWidth.length > 0) {
+			nodeBorderWidthInput.val(nodeData.borderWidth);
+		}
+		if (typeof nodeData.color !== "undefined" && nodeData.color.length > 0) {
+			nodeBorderColorInput.val(nodeData.color.border);
+		}
 		var saveElementEditButton = $("span#saveElementEditButton");
 		saveElementEditButton.off();
 		saveElementEditButton.click(function() {
@@ -541,6 +213,8 @@ function draw() {
 			nodeData.link = nodeLinkInput.val();
 			nodeData.color = {};
 			nodeData.color.background = nodeColorInput.val();
+			nodeData.borderWidth = nodeBorderWidthInput.val();
+			nodeData.color.border = nodeBorderColorInput.val();
 			draw();
 			objectToArray(network.getPositions()).forEach(function(node) {
 				data.nodes._data[node.id].x = node.x;
@@ -599,6 +273,12 @@ function draw() {
 			});
 		});
 		network.on("dragging", function(event) {
+			//console.log(event);
+			//console.log(event.event.center);
+			//console.log(event.pointer.DOM);
+			//console.log("canvas: " + JSON.stringify(event.pointer.canvas));
+			//console.log(network.getViewPosition());
+			//console.log(network1.getViewPosition());
 			var n1X = parseFloat(network.getViewPosition().x.toFixed(5));
 			var n1Y = parseFloat(network.getViewPosition().y.toFixed(5));
 			var n2X = parseFloat(network1.getViewPosition().x.toFixed(5));
@@ -629,14 +309,42 @@ function draw() {
 		});
 		network.on("zoom", function(event) {
 			//console.log(event);
+			//console.log(event.pointer);
+			//console.log(network.getViewPosition());
+			//console.log(network1.getViewPosition());
+			var scale = network.getScale();
+			var n1X = parseFloat(network.getViewPosition().x.toFixed(5));
+			var n1Y = parseFloat(network.getViewPosition().y.toFixed(5));
+			var positionX = parseFloat((n1X - canvasWidth/(2*event.scale)).toFixed(5));
+			var positionY = parseFloat((n1Y - canvasHeight/(2*event.scale)).toFixed(5));
+			//var positionX = parseFloat((event.pointer.x).toFixed(5));
+			//var positionY = parseFloat((event.pointer.y).toFixed(5));
+			//console.log(positionX + ", " + positionY);
 			network.moveTo({
-				position: {x: event.pointer.x, y: event.pointer.y},
+				position: {x: positionX, y: positionY},
+				offset: {x: -canvasWidth/2, y: -canvasHeight/2},
 				scale: event.scale,
 			});
 			network1.moveTo({
-				position: {x: event.pointer.x, y: event.pointer.y},
+				position: {x: positionX, y: positionY},
+				offset: {x: -canvasWidth/2, y: -canvasHeight/2},
 				scale: event.scale,
 			});
+			/*
+			network.moveTo({
+				position: {x: positionX, y: positionY},
+				offset: {x: -canvasWidth/2, y: -canvasHeight/2},
+				scale: event.scale
+			});
+			network1.moveTo({
+				position: {x: positionX, y: positionY},
+				offset: {x: -canvasWidth/2, y: -canvasHeight/2},
+				scale: event.scale
+			});
+			network.moveTo({
+				scale: event.scale,
+			});
+			 */
 		});
 }
 
@@ -752,6 +460,28 @@ $(document).ready(function() {
 	var nodeColorInput = $("<input type='text' id='nodeColorInput'></input>");
 	eSItem72.append(nodeColorInput);
 
+	var eSRow8 = $("<tr></tr>");
+	elementsSetupTable.append(eSRow8);
+	var eSItem81 = $("<td></td>");
+	var eSItem82 = $("<td></td>");
+	eSRow8.append(eSItem81);
+	eSRow8.append(eSItem82);
+	var nodeBorderWidthInputLabel = $("<div style=''><span>nodeBorderWidth: </span></div>");
+	eSItem81.append(nodeBorderWidthInputLabel);
+	var nodeBorderWidthInput = $("<input type='text' id='nodeBorderWidthInput'></input>");
+	eSItem82.append(nodeBorderWidthInput);
+
+	var eSRow9 = $("<tr></tr>");
+	elementsSetupTable.append(eSRow9);
+	var eSItem91 = $("<td></td>");
+	var eSItem92 = $("<td></td>");
+	eSRow9.append(eSItem91);
+	eSRow9.append(eSItem92);
+	var nodeBorderColorInputLabel = $("<div style=''><span>nodeBorderColor: </span></div>");
+	eSItem91.append(nodeBorderColorInputLabel);
+	var nodeBorderColorInput = $("<input type='text' id='nodeBorderColorInput'></input>");
+	eSItem92.append(nodeBorderColorInput);
+
 	linkOpenButton.click(function() {
 		var link = nodeLinkInput.val();
 		if (link.length > 0) {
@@ -770,6 +500,9 @@ $(document).ready(function() {
 	closeElementEditButton.click(function() {
 		schemeEditElementsMenu.hide();
 	});
+
+	var leftMenuHelpLine1 = $("<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>");
+	schemeEditElementsMenu.append(leftMenuHelpLine1);
 
 	schemeDataMenu = $("<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:grey;z-index:5000; padding: 40px 20px 20px 20px'></div>");
 	schemeDataTextArea = $("<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>");
@@ -883,7 +616,7 @@ $(document).ready(function() {
 		data.forEach(function(node) {
 			node.connections.forEach(function(connId, cIndex, conns) {
 				networkEdges.push({from: node.id, to: connId});
-				let cNode = getNodeById(data, connId);
+				var cNode = getNodeById(data, connId);
 
 				var elementConnections = cNode.connections;
 
