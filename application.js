@@ -8,6 +8,15 @@ var schemeDataMenu = null;
 var schemeDataTextArea = null;
 ///////////////////////////////////
 
+function getUrlVars() {
+	var vars = {};
+	var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+		function(m, key, value) {
+			vars[key] = value;
+		});
+	return vars;
+}
+
 function objectToArray(obj) {
 	return Object.keys(obj).map(function (key) {
 		obj[key].id = key;
@@ -24,6 +33,18 @@ if (typeof book_imgs !== "undefined") {
 	objectToArray(book_imgs).forEach(function(item) {
 		schemeData.canvas2Data.nodes._data[item.id] = item;
 	});
+}
+var scaleFromUrl = getUrlVars()["scale"];
+var xFromUrl = getUrlVars()["x"];
+var yFromUrl = getUrlVars()["y"];
+if (typeof scaleFromUrl !== "undefined") {
+	schemeData.setup.scale = scaleFromUrl;
+}
+if (typeof xFromUrl !== "undefined") {
+	schemeData.setup.viewPosition.x = xFromUrl;
+}
+if (typeof yFromUrl !== "undefined") {
+	schemeData.setup.viewPosition.y = yFromUrl;
 }
 
 var nodes = null;
