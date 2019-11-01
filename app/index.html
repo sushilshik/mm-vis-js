@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<title><%= pageTitle %></title>
+<title>mm-vis-js</title>
 
 <link href="https://visjs.github.io/vis-network/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
@@ -118,7 +118,7 @@ div.table_description {
 </style>
 
 <script type="text/javascript">
-var runUpateMenuFromSchemeAtPageReady = false; 
+var runUpateMenuFromSchemeAtPageReady = true;
 </script>
 
 </head>
@@ -134,12 +134,15 @@ var runUpateMenuFromSchemeAtPageReady = false;
 	<input type="button" value="save" id="saveButton" />
 	<input type="button" value="cancel" id="cancelButton" />
 </div>
+<!--
+<script type="text/javascript" src="https://visjs.github.io/vis-network/dist/vis-network.min.js"></script>
+-->
 <div id="forImage" style="position:fixed;left:0;top:0;"></div>
 <div id="network" style="position:fixed;left:0;top:0;"></div>
 
 <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
 <script type="text/javascript" src="https://unpkg.com/vis-network@6.3.0/standalone/umd/vis-network.min.js"></script>
-<script type="text/javascript" src="<%= pageDataJsFileName %>"></script>
+<script type="text/javascript" src="index.data.js"></script>
 <script type="text/javascript" src="application.js"></script>
 </body>
 </html>
