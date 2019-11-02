@@ -234,7 +234,7 @@ var schemeData =
         },
         "ebe21c81-c6d5-403d-a901-3645a36d578c": {
           "id": "ebe21c81-c6d5-403d-a901-3645a36d578c",
-          "x": 705,
+          "x": 684,
           "y": -4896,
           "label": "Схема \"главная страница\".",
           "shape": "box",
@@ -278,9 +278,9 @@ var schemeData =
         },
         "5754adff-5941-47ed-921b-fac1ba405a8a": {
           "id": "5754adff-5941-47ed-921b-fac1ba405a8a",
-          "x": 645,
-          "y": -5541,
-          "label": "Примеры книги",
+          "x": 668,
+          "y": -5540,
+          "label": "Примеры верстки книг",
           "shape": "box",
           "link": "",
           "font": {
@@ -296,7 +296,7 @@ var schemeData =
           "id": "8f9583f5-1eba-4dc8-a10d-3d7a88368954",
           "x": 1156,
           "y": -5163,
-          "label": "Смотрите схему \"Тестирование mm-vis-js\"",
+          "label": "Схема \"Тестирование mm-vis-js\"",
           "shape": "box",
           "link": "",
           "font": {
@@ -310,15 +310,15 @@ var schemeData =
         },
         "188090d8-3678-4031-ab6f-51eef383b3f1": {
           "id": "188090d8-3678-4031-ab6f-51eef383b3f1",
-          "x": 654,
+          "x": 652,
           "y": -5407,
           "label": "Как пользоваться"
         },
         "a9a1ffb2-c2bf-4023-b25b-8b283cf80f37": {
           "id": "a9a1ffb2-c2bf-4023-b25b-8b283cf80f37",
-          "x": 938,
-          "y": -5409,
-          "label": "Смотрите схему \"Как пользоваться\"",
+          "x": 883,
+          "y": -5415,
+          "label": "Схема \"Как пользоваться\"",
           "shape": "box",
           "link": "",
           "font": {
@@ -556,7 +556,7 @@ var schemeData =
         },
         "5974d2ed-0f65-4fe4-982f-f7293348ab6d": {
           "id": "5974d2ed-0f65-4fe4-982f-f7293348ab6d",
-          "x": 643,
+          "x": 632,
           "y": -5200,
           "label": "Разработка"
         },
@@ -578,7 +578,7 @@ var schemeData =
         },
         "1ce98c63-b782-4a88-b65e-f20401f71fe2": {
           "id": "1ce98c63-b782-4a88-b65e-f20401f71fe2",
-          "x": 1191,
+          "x": 1171,
           "y": -5255,
           "label": "https://github.com/sushilshik/mm-vis-js",
           "shape": "box",
@@ -706,13 +706,13 @@ var schemeData =
         },
         "7b7cc59d-7952-4c22-a466-cf492a6626e9": {
           "id": "7b7cc59d-7952-4c22-a466-cf492a6626e9",
-          "x": 652,
+          "x": 636,
           "y": -5017,
           "label": "Примечания"
         },
         "1a531265-5ea0-420b-aa70-0b4b81d6fd33": {
           "id": "1a531265-5ea0-420b-aa70-0b4b81d6fd33",
-          "x": 931,
+          "x": 927,
           "y": -5020,
           "label": "Уменьшите масштаб, чтобы увидеть другие разделы."
         },
@@ -1016,13 +1016,13 @@ var schemeData =
         },
         "b72ae6ce-59e1-4d64-8f85-c80943f957d7": {
           "id": "b72ae6ce-59e1-4d64-8f85-c80943f957d7",
-          "x": 960,
+          "x": 935,
           "y": -5817,
           "label": "Пока примеряемся с вариантами верстки"
         },
         "88b9258a-634e-428d-a4c3-bc7c04b5ba8a": {
           "id": "88b9258a-634e-428d-a4c3-bc7c04b5ba8a",
-          "x": 1058,
+          "x": 1045,
           "y": -5510,
           "label": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "shape": "box",
@@ -1136,15 +1136,35 @@ var schemeData =
         },
         "a07f49d6-5114-4f7e-aabe-0d63919fd8e1": {
           "id": "a07f49d6-5114-4f7e-aabe-0d63919fd8e1",
-          "x": 966,
-          "y": -5748,
-          "label": "Смотрите схему \"Карты программного кода\""
+          "x": 912,
+          "y": -5752,
+          "label": "Схема \"Карты программного кода\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "4142d149-3b9d-4c0c-b65e-db855d03d582": {
           "id": "4142d149-3b9d-4c0c-b65e-db855d03d582",
-          "x": 886,
+          "x": 845,
           "y": -5576,
-          "label": "Смотрите схему \"Книги\""
+          "label": "Схема \"Книги\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "54a8ccfe-1e5b-4fa6-b8a4-a619778bc847": {
           "id": "54a8ccfe-1e5b-4fa6-b8a4-a619778bc847",
@@ -2062,8 +2082,8 @@ var schemeData =
         },
         "e359f160-b31a-419d-8edf-4beab29db855": {
           "id": "e359f160-b31a-419d-8edf-4beab29db855",
-          "x": 15707,
-          "y": -4995,
+          "x": 15720,
+          "y": -5041,
           "label": "Примечания"
         },
         "25d82c80-2203-4faa-9747-87120f00ae81": {
@@ -2178,9 +2198,9 @@ var schemeData =
         },
         "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9": {
           "id": "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9",
-          "x": 16203,
-          "y": -5266,
-          "label": "Во второй консоли выполните команду",
+          "x": 16204,
+          "y": -5222,
+          "label": "Во второй консоли выполните команды",
           "shape": "box",
           "link": "",
           "font": {
@@ -2226,12 +2246,6 @@ var schemeData =
           "y": -5335,
           "label": "Процесс останется запущенным в консоли"
         },
-        "df94c97c-1d97-4c9f-887e-2251e166787f": {
-          "id": "df94c97c-1d97-4c9f-887e-2251e166787f",
-          "x": 16201,
-          "y": -5161,
-          "label": "В первой консоли выполните команду"
-        },
         "79d0dbf8-19a9-462f-b150-e0ee56523d65": {
           "id": "79d0dbf8-19a9-462f-b150-e0ee56523d65",
           "x": 16476,
@@ -2253,6 +2267,244 @@ var schemeData =
             "border": ""
           },
           "borderWidth": ""
+        },
+        "ecbb486a-5275-4cf9-8b76-9d5cf78756c0": {
+          "id": "ecbb486a-5275-4cf9-8b76-9d5cf78756c0",
+          "x": 16137,
+          "y": -5041,
+          "label": "Схемы строятся на элементе HTML5 - canvas",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "5bedcc3a-3eb0-4189-b5cc-eb832404f7f2": {
+          "id": "5bedcc3a-3eb0-4189-b5cc-eb832404f7f2",
+          "x": 15897,
+          "y": -5038,
+          "label": "Проблемы"
+        },
+        "23c491d2-586e-4c27-a9f6-fea8f4bec969": {
+          "id": "23c491d2-586e-4c27-a9f6-fea8f4bec969",
+          "x": 16627,
+          "y": -5070,
+          "label": "Положение объектов на canvas можно тестировать только как растровую графику",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "22be0fd6-971b-427a-8209-10438d354494": {
+          "id": "22be0fd6-971b-427a-8209-10438d354494",
+          "x": 16570,
+          "y": -5036,
+          "label": "В тестах нужно следить за цветом отдельных пикселей и их групп."
+        },
+        "1e266f7a-37e9-468b-911a-fe271dc204ad": {
+          "id": "1e266f7a-37e9-468b-911a-fe271dc204ad",
+          "x": 16514,
+          "y": -5001,
+          "label": "Можно использовать библиотеки из ряда openCV"
+        },
+        "d01d5904-e285-4ab5-b9be-1aae2ab8091e": {
+          "id": "d01d5904-e285-4ab5-b9be-1aae2ab8091e",
+          "x": 27495,
+          "y": -5276,
+          "label": "mm-vis-js testing",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 400
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "7ccf07a6-d624-4fed-8036-ac39376d0c86": {
+          "id": "7ccf07a6-d624-4fed-8036-ac39376d0c86",
+          "x": 24116,
+          "y": -5135,
+          "label": "mm-vis-js testing",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 40
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "debab744-63d0-45fd-b3ec-8e3be26496ad": {
+          "id": "debab744-63d0-45fd-b3ec-8e3be26496ad",
+          "x": 24576,
+          "y": -4895,
+          "label": "These scheme development"
+        },
+        "47454e0a-f088-42e5-91e0-b909f745fd0e": {
+          "id": "47454e0a-f088-42e5-91e0-b909f745fd0e",
+          "x": 24820,
+          "y": -4892,
+          "label": "init"
+        },
+        "10ad7838-d0bf-4564-83e9-c12fdf6fd5de": {
+          "id": "10ad7838-d0bf-4564-83e9-c12fdf6fd5de",
+          "x": 25035,
+          "y": -4897,
+          "label": "2019-11-01 21:45"
+        },
+        "7a833ace-f047-432d-a42f-c77bf537ac3a": {
+          "id": "7a833ace-f047-432d-a42f-c77bf537ac3a",
+          "x": 24482,
+          "y": -5295,
+          "label": "Themes"
+        },
+        "3a3af8ef-4eeb-4caf-b7bc-cab3c9025926": {
+          "id": "3a3af8ef-4eeb-4caf-b7bc-cab3c9025926",
+          "x": 24687,
+          "y": -5486,
+          "label": "Procedure"
+        },
+        "921dfca8-6406-4aaf-a107-4e6f50288fef": {
+          "id": "921dfca8-6406-4aaf-a107-4e6f50288fef",
+          "x": 24857,
+          "y": -5556,
+          "label": "Install"
+        },
+        "8c692781-3645-49b9-83dd-fc722f4221ba": {
+          "id": "8c692781-3645-49b9-83dd-fc722f4221ba",
+          "x": 24990,
+          "y": -5584,
+          "label": "Docker"
+        },
+        "1436f9f6-c449-4d40-8993-99def1b2f237": {
+          "id": "1436f9f6-c449-4d40-8993-99def1b2f237",
+          "x": 25022,
+          "y": -5532,
+          "label": "docker-compose"
+        },
+        "e9c2a934-a28b-4071-b33d-2d94172b184b": {
+          "id": "e9c2a934-a28b-4071-b33d-2d94172b184b",
+          "x": 25207,
+          "y": -5533,
+          "label": "pip install docker-compose"
+        },
+        "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a": {
+          "id": "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a",
+          "x": 24866,
+          "y": -5421,
+          "label": "Tests run"
+        },
+        "94cf1f83-6efb-4377-a4dc-f03b54a9c338": {
+          "id": "94cf1f83-6efb-4377-a4dc-f03b54a9c338",
+          "x": 25025,
+          "y": -5461,
+          "label": "Open two consoles"
+        },
+        "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202": {
+          "id": "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202",
+          "x": 25003,
+          "y": -5404,
+          "label": "First console"
+        },
+        "29dbe588-d883-4d1d-a6d2-fdc78b299cea": {
+          "id": "29dbe588-d883-4d1d-a6d2-fdc78b299cea",
+          "x": 25177,
+          "y": -5405,
+          "label": "docker-compose up --build."
+        },
+        "3c11d1c8-d28e-4982-8aa2-a5f0ea5d1c20": {
+          "id": "3c11d1c8-d28e-4982-8aa2-a5f0ea5d1c20",
+          "x": 25461,
+          "y": -5420,
+          "label": "Will start container with chrome inside"
+        },
+        "343c1738-b42b-4f8d-b712-83a9873afb6e": {
+          "id": "343c1738-b42b-4f8d-b712-83a9873afb6e",
+          "x": 25426,
+          "y": -5384,
+          "label": "Process will stay in console"
+        },
+        "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706": {
+          "id": "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706",
+          "x": 25013,
+          "y": -5330,
+          "label": "Second console"
+        },
+        "115fa2fa-e68c-4d93-87eb-b45d9309975a": {
+          "id": "115fa2fa-e68c-4d93-87eb-b45d9309975a",
+          "x": 25249,
+          "y": -5333,
+          "label": "docker exec -it app-express npm run test:e2e"
+        },
+        "707d41c8-58ef-4709-beeb-cb327c43afe3": {
+          "id": "707d41c8-58ef-4709-beeb-cb327c43afe3",
+          "x": 25504,
+          "y": -5342,
+          "label": "Tests execution"
+        },
+        "9668f2cc-2d4f-4ca4-ae65-c7b262fbc215": {
+          "id": "9668f2cc-2d4f-4ca4-ae65-c7b262fbc215",
+          "x": 25572,
+          "y": -5309,
+          "label": "Process will exit after tests execution"
+        },
+        "3277fba8-f3ea-42ac-a348-99b8be53a518": {
+          "id": "3277fba8-f3ea-42ac-a348-99b8be53a518",
+          "x": 25176,
+          "y": -5268,
+          "label": "docker-compose down"
+        },
+        "4d7a6dd7-d682-46dc-88ba-e647a2b56dd3": {
+          "id": "4d7a6dd7-d682-46dc-88ba-e647a2b56dd3",
+          "x": 25397,
+          "y": -5263,
+          "label": "First console process will exit"
+        },
+        "7f3cce6a-1abb-4bbb-954f-e28f73b86e69": {
+          "id": "7f3cce6a-1abb-4bbb-954f-e28f73b86e69",
+          "x": 24678,
+          "y": -5118,
+          "label": "Notes"
+        },
+        "e5822941-43d7-4321-adea-2295830fc8f2": {
+          "id": "e5822941-43d7-4321-adea-2295830fc8f2",
+          "x": 24904,
+          "y": -5117,
+          "label": "Schemes are built on canvas - HTML5 elemen"
+        },
+        "560ea7ba-7a74-454e-b05f-5386bcbe1fea": {
+          "id": "560ea7ba-7a74-454e-b05f-5386bcbe1fea",
+          "x": 25346,
+          "y": -5147,
+          "label": "Position of objects on canvas can be tested only as raster graphic"
+        },
+        "e5ce8a89-bdd3-411d-be10-bc922d6cc884": {
+          "id": "e5ce8a89-bdd3-411d-be10-bc922d6cc884",
+          "x": 25257,
+          "y": -5108,
+          "label": "We need to check pixels color canvas"
+        },
+        "8e40d485-6ead-4da2-af05-24584dd6619b": {
+          "id": "8e40d485-6ead-4da2-af05-24584dd6619b",
+          "x": 25241,
+          "y": -5068,
+          "label": "We can use libraries like openCV"
         }
       },
       "length": 0,
@@ -3283,20 +3535,170 @@ var schemeData =
           "to": "9072fccc-888c-4b01-b039-1d0027a1e73a",
           "id": "6434b1c6-b1ef-48fa-9764-e86d4f06edd5"
         },
-        "69dc7af4-6d44-4ccd-afbb-864201885a7c": {
-          "from": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8",
-          "to": "df94c97c-1d97-4c9f-887e-2251e166787f",
-          "id": "69dc7af4-6d44-4ccd-afbb-864201885a7c"
-        },
-        "a827babf-69aa-4721-b2a4-9301b4de9e01": {
-          "from": "df94c97c-1d97-4c9f-887e-2251e166787f",
-          "to": "79d0dbf8-19a9-462f-b150-e0ee56523d65",
-          "id": "a827babf-69aa-4721-b2a4-9301b4de9e01"
-        },
         "16e2043c-ff8a-433b-a74f-b29caee9c30d": {
           "from": "79d0dbf8-19a9-462f-b150-e0ee56523d65",
           "to": "3ea5f8fc-f7db-431e-b3f4-024a28f9313c",
           "id": "16e2043c-ff8a-433b-a74f-b29caee9c30d"
+        },
+        "e54fe966-285b-4540-ad91-85bb3eba42f7": {
+          "from": "e359f160-b31a-419d-8edf-4beab29db855",
+          "to": "5bedcc3a-3eb0-4189-b5cc-eb832404f7f2",
+          "id": "e54fe966-285b-4540-ad91-85bb3eba42f7"
+        },
+        "1b902569-eb6c-4ff4-a001-30a456958fb9": {
+          "from": "5bedcc3a-3eb0-4189-b5cc-eb832404f7f2",
+          "to": "ecbb486a-5275-4cf9-8b76-9d5cf78756c0",
+          "id": "1b902569-eb6c-4ff4-a001-30a456958fb9"
+        },
+        "0a310953-a982-4c4a-baf3-f2970ef68e81": {
+          "from": "ecbb486a-5275-4cf9-8b76-9d5cf78756c0",
+          "to": "23c491d2-586e-4c27-a9f6-fea8f4bec969",
+          "id": "0a310953-a982-4c4a-baf3-f2970ef68e81"
+        },
+        "2e94d475-a1bb-4b61-be64-00c4e3b8ff3f": {
+          "from": "ecbb486a-5275-4cf9-8b76-9d5cf78756c0",
+          "to": "22be0fd6-971b-427a-8209-10438d354494",
+          "id": "2e94d475-a1bb-4b61-be64-00c4e3b8ff3f"
+        },
+        "51d5e06a-bd16-4828-9df0-3ae34827ce3f": {
+          "from": "ecbb486a-5275-4cf9-8b76-9d5cf78756c0",
+          "to": "1e266f7a-37e9-468b-911a-fe271dc204ad",
+          "id": "51d5e06a-bd16-4828-9df0-3ae34827ce3f"
+        },
+        "25f64408-3b7b-4a70-8701-940a3a79ec04": {
+          "from": "7ccf07a6-d624-4fed-8036-ac39376d0c86",
+          "to": "debab744-63d0-45fd-b3ec-8e3be26496ad",
+          "id": "25f64408-3b7b-4a70-8701-940a3a79ec04"
+        },
+        "a5f3e92f-4a73-4e05-972d-0b764d13576c": {
+          "from": "debab744-63d0-45fd-b3ec-8e3be26496ad",
+          "to": "47454e0a-f088-42e5-91e0-b909f745fd0e",
+          "id": "a5f3e92f-4a73-4e05-972d-0b764d13576c"
+        },
+        "1f5be397-b45c-4c8f-87ca-233539a89245": {
+          "from": "47454e0a-f088-42e5-91e0-b909f745fd0e",
+          "to": "10ad7838-d0bf-4564-83e9-c12fdf6fd5de",
+          "id": "1f5be397-b45c-4c8f-87ca-233539a89245"
+        },
+        "321d4f72-d911-4525-8505-8727c996b1a8": {
+          "from": "7ccf07a6-d624-4fed-8036-ac39376d0c86",
+          "to": "7a833ace-f047-432d-a42f-c77bf537ac3a",
+          "id": "321d4f72-d911-4525-8505-8727c996b1a8"
+        },
+        "823ea13f-9eb5-4bb5-9d97-edc269f44e94": {
+          "from": "7a833ace-f047-432d-a42f-c77bf537ac3a",
+          "to": "3a3af8ef-4eeb-4caf-b7bc-cab3c9025926",
+          "id": "823ea13f-9eb5-4bb5-9d97-edc269f44e94"
+        },
+        "c12a3375-a37a-4add-aced-0f16470c1e0c": {
+          "from": "3a3af8ef-4eeb-4caf-b7bc-cab3c9025926",
+          "to": "921dfca8-6406-4aaf-a107-4e6f50288fef",
+          "id": "c12a3375-a37a-4add-aced-0f16470c1e0c"
+        },
+        "b716131c-d04c-42dc-bd76-e7daaa99e9b6": {
+          "from": "921dfca8-6406-4aaf-a107-4e6f50288fef",
+          "to": "8c692781-3645-49b9-83dd-fc722f4221ba",
+          "id": "b716131c-d04c-42dc-bd76-e7daaa99e9b6"
+        },
+        "b9197c31-8873-48d7-a050-24ebc6c64fe7": {
+          "from": "921dfca8-6406-4aaf-a107-4e6f50288fef",
+          "to": "1436f9f6-c449-4d40-8993-99def1b2f237",
+          "id": "b9197c31-8873-48d7-a050-24ebc6c64fe7"
+        },
+        "26636cec-80b7-43a6-8511-549ab4e08bab": {
+          "from": "1436f9f6-c449-4d40-8993-99def1b2f237",
+          "to": "e9c2a934-a28b-4071-b33d-2d94172b184b",
+          "id": "26636cec-80b7-43a6-8511-549ab4e08bab"
+        },
+        "b370d256-fd08-4052-ae96-b42bd5634fb4": {
+          "from": "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9",
+          "to": "79d0dbf8-19a9-462f-b150-e0ee56523d65",
+          "id": "b370d256-fd08-4052-ae96-b42bd5634fb4"
+        },
+        "5b864dee-90fd-4e0d-9bbc-0708b90fed24": {
+          "from": "3a3af8ef-4eeb-4caf-b7bc-cab3c9025926",
+          "to": "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a",
+          "id": "5b864dee-90fd-4e0d-9bbc-0708b90fed24"
+        },
+        "faddd2d2-83cd-4374-95eb-387ccd9bb6df": {
+          "from": "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a",
+          "to": "94cf1f83-6efb-4377-a4dc-f03b54a9c338",
+          "id": "faddd2d2-83cd-4374-95eb-387ccd9bb6df"
+        },
+        "ae4e4417-40f5-44a0-b10f-579ac4cb6d99": {
+          "from": "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a",
+          "to": "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202",
+          "id": "ae4e4417-40f5-44a0-b10f-579ac4cb6d99"
+        },
+        "d21b1d98-4f66-419d-8dfc-0eb56b1fc764": {
+          "from": "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202",
+          "to": "29dbe588-d883-4d1d-a6d2-fdc78b299cea",
+          "id": "d21b1d98-4f66-419d-8dfc-0eb56b1fc764"
+        },
+        "bb605a3d-459e-4582-9f59-1830cd02c4fb": {
+          "from": "29dbe588-d883-4d1d-a6d2-fdc78b299cea",
+          "to": "3c11d1c8-d28e-4982-8aa2-a5f0ea5d1c20",
+          "id": "bb605a3d-459e-4582-9f59-1830cd02c4fb"
+        },
+        "e27909ed-2e21-4bb9-a12f-2848dab5cd8a": {
+          "from": "29dbe588-d883-4d1d-a6d2-fdc78b299cea",
+          "to": "343c1738-b42b-4f8d-b712-83a9873afb6e",
+          "id": "e27909ed-2e21-4bb9-a12f-2848dab5cd8a"
+        },
+        "c84d3a6a-9894-4051-bacc-737b31fe7dd1": {
+          "from": "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a",
+          "to": "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706",
+          "id": "c84d3a6a-9894-4051-bacc-737b31fe7dd1"
+        },
+        "0929c3e1-bac2-4099-868d-591e32e3bab1": {
+          "from": "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706",
+          "to": "115fa2fa-e68c-4d93-87eb-b45d9309975a",
+          "id": "0929c3e1-bac2-4099-868d-591e32e3bab1"
+        },
+        "af80c1f8-d81e-4908-b410-30c24649444e": {
+          "from": "115fa2fa-e68c-4d93-87eb-b45d9309975a",
+          "to": "707d41c8-58ef-4709-beeb-cb327c43afe3",
+          "id": "af80c1f8-d81e-4908-b410-30c24649444e"
+        },
+        "26544de0-e3a0-4a2d-abbd-88ed0672a8d8": {
+          "from": "115fa2fa-e68c-4d93-87eb-b45d9309975a",
+          "to": "9668f2cc-2d4f-4ca4-ae65-c7b262fbc215",
+          "id": "26544de0-e3a0-4a2d-abbd-88ed0672a8d8"
+        },
+        "5668126f-8927-410a-b9a9-0a3113bb7007": {
+          "from": "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706",
+          "to": "3277fba8-f3ea-42ac-a348-99b8be53a518",
+          "id": "5668126f-8927-410a-b9a9-0a3113bb7007"
+        },
+        "3cffb778-49c4-4161-b063-4ac116eea3c2": {
+          "from": "3277fba8-f3ea-42ac-a348-99b8be53a518",
+          "to": "4d7a6dd7-d682-46dc-88ba-e647a2b56dd3",
+          "id": "3cffb778-49c4-4161-b063-4ac116eea3c2"
+        },
+        "0adc9707-087a-4914-9c58-035c8acc59c7": {
+          "from": "7a833ace-f047-432d-a42f-c77bf537ac3a",
+          "to": "7f3cce6a-1abb-4bbb-954f-e28f73b86e69",
+          "id": "0adc9707-087a-4914-9c58-035c8acc59c7"
+        },
+        "4e99e9ed-91aa-43bd-ac7d-1edb72086e63": {
+          "from": "7f3cce6a-1abb-4bbb-954f-e28f73b86e69",
+          "to": "e5822941-43d7-4321-adea-2295830fc8f2",
+          "id": "4e99e9ed-91aa-43bd-ac7d-1edb72086e63"
+        },
+        "953cbe15-5774-4b6e-afed-7620f9bb7b4e": {
+          "from": "e5822941-43d7-4321-adea-2295830fc8f2",
+          "to": "560ea7ba-7a74-454e-b05f-5386bcbe1fea",
+          "id": "953cbe15-5774-4b6e-afed-7620f9bb7b4e"
+        },
+        "07fd08b5-2225-4c43-a67f-9a67240da5ec": {
+          "from": "e5822941-43d7-4321-adea-2295830fc8f2",
+          "to": "e5ce8a89-bdd3-411d-be10-bc922d6cc884",
+          "id": "07fd08b5-2225-4c43-a67f-9a67240da5ec"
+        },
+        "278c4f3c-3f9f-4428-bb26-3be448d3b1ee": {
+          "from": "e5822941-43d7-4321-adea-2295830fc8f2",
+          "to": "8e40d485-6ead-4da2-af05-24584dd6619b",
+          "id": "278c4f3c-3f9f-4428-bb26-3be448d3b1ee"
         }
       },
       "length": 0,
@@ -3343,10 +3745,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.7639106868559643,
+    "scale": 0.8117950300423553,
     "viewPosition": {
-      "x": 913.2550375839884,
-      "y": -5346.699059353829
+      "x": 947.9344845648233,
+      "y": -5331.000320857193
     }
   }
 }
