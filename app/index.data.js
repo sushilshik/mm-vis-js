@@ -674,8 +674,8 @@ var schemeData =
         },
         "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210": {
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210",
-          "x": 3592,
-          "y": -5412,
+          "x": 3802,
+          "y": -5408,
           "label": "\"Главная страница\".\n2019.11.01",
           "shape": "box",
           "link": "",
@@ -988,8 +988,8 @@ var schemeData =
         },
         "22123149-010b-4f10-8d48-614343676646": {
           "id": "22123149-010b-4f10-8d48-614343676646",
-          "x": 15972,
-          "y": -16217,
+          "x": 15954,
+          "y": -16373,
           "label": "Примеры"
         },
         "d72c9ee6-422f-46b9-a2b6-530acbb851c8": {
@@ -1462,16 +1462,10 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "3d9c3105-e088-4447-b934-83ffe52cc28e": {
-          "id": "3d9c3105-e088-4447-b934-83ffe52cc28e",
-          "x": 16158,
-          "y": -16370,
-          "label": "vis-network"
-        },
         "73e001ea-c6ee-4573-9173-50a897bc69f7": {
           "id": "73e001ea-c6ee-4573-9173-50a897bc69f7",
-          "x": 16578,
-          "y": -16372,
+          "x": 16517,
+          "y": -16830,
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vis-network/vis-network.index.html",
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vis-network/vis-network.index.html",
@@ -1484,16 +1478,10 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "2502c5fc-8dfc-48e4-a8d0-37aa16428876": {
-          "id": "2502c5fc-8dfc-48e4-a8d0-37aa16428876",
-          "x": 16131,
-          "y": -16308,
-          "label": "jdk"
-        },
         "148c0f2f-58a0-4278-a284-c4eda5bff4d7": {
           "id": "148c0f2f-58a0-4278-a284-c4eda5bff4d7",
-          "x": 16524,
-          "y": -16313,
+          "x": 16463,
+          "y": -16771,
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/jdk/jdk.index.html",
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/jdk/jdk.index.html",
@@ -1520,8 +1508,8 @@ var schemeData =
         },
         "b1c3bfef-9396-429e-97d6-bfea67857091": {
           "id": "b1c3bfef-9396-429e-97d6-bfea67857091",
-          "x": 16593,
-          "y": -16245,
+          "x": 16532,
+          "y": -16703,
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/apache_httpd/apache_httpd.index.html",
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/apache_httpd/apache_httpd.index.html",
@@ -1536,8 +1524,8 @@ var schemeData =
         },
         "502ba7df-60ac-4226-8aa9-e90a6940e36e": {
           "id": "502ba7df-60ac-4226-8aa9-e90a6940e36e",
-          "x": 16537,
-          "y": -16205,
+          "x": 16476,
+          "y": -16663,
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/bash/bash.index.html",
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/bash/bash.index.html",
@@ -1552,8 +1540,8 @@ var schemeData =
         },
         "94cbd1d4-bafe-46d9-b811-35517c77c30e": {
           "id": "94cbd1d4-bafe-46d9-b811-35517c77c30e",
-          "x": 16569,
-          "y": -16156,
+          "x": 16508,
+          "y": -16614,
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/chromium/chromium.index.html",
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/chromium/chromium.index.html",
@@ -1568,14 +1556,14 @@ var schemeData =
         },
         "f6d9d005-6067-440d-9b62-7e1ad92395f0": {
           "id": "f6d9d005-6067-440d-9b62-7e1ad92395f0",
-          "x": 16554,
-          "y": -16107,
+          "x": 16493,
+          "y": -16565,
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/cpython/cpython.index.hml"
         },
         "298ee61d-a396-47ea-aa7c-ebb565676a2c": {
           "id": "298ee61d-a396-47ea-aa7c-ebb565676a2c",
-          "x": 16548,
-          "y": -16059,
+          "x": 16487,
+          "y": -16517,
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/emacs/emacs.index.html",
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/emacs/emacs.index.html",
@@ -1588,40 +1576,10 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "2990870c-ce73-42b2-b287-f9c5a19c5506": {
-          "id": "2990870c-ce73-42b2-b287-f9c5a19c5506",
-          "x": 16165,
-          "y": -16251,
-          "label": "apache_httpd"
-        },
-        "2bb1fdb3-9d0b-43bd-9cd4-037dc6b2e412": {
-          "id": "2bb1fdb3-9d0b-43bd-9cd4-037dc6b2e412",
-          "x": 16137,
-          "y": -16215,
-          "label": "bash"
-        },
-        "e3e613db-3f77-4298-a623-941df4e85bf5": {
-          "id": "e3e613db-3f77-4298-a623-941df4e85bf5",
-          "x": 16153,
-          "y": -16177,
-          "label": "chromium"
-        },
-        "5ef8beaa-e899-411a-b12c-fb6a2af5a7e0": {
-          "id": "5ef8beaa-e899-411a-b12c-fb6a2af5a7e0",
-          "x": 16147,
-          "y": -16114,
-          "label": "cpython"
-        },
-        "58e8731b-43fa-480c-a4ca-3561b26998e1": {
-          "id": "58e8731b-43fa-480c-a4ca-3561b26998e1",
-          "x": 16143,
-          "y": -16067,
-          "label": "emacs"
-        },
         "b04b14d8-1d14-4acd-a25f-9d5aa64310ec": {
           "id": "b04b14d8-1d14-4acd-a25f-9d5aa64310ec",
-          "x": 16545,
-          "y": -16003,
+          "x": 16484,
+          "y": -16461,
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/firefox/firefox.index.html",
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/firefox/firefox.index.html",
@@ -1634,16 +1592,10 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "ad9a94ec-fac8-4a1c-86a1-26d16666db34": {
-          "id": "ad9a94ec-fac8-4a1c-86a1-26d16666db34",
-          "x": 16142,
-          "y": -16012,
-          "label": "firefox"
-        },
         "6772a2f4-ac34-47d3-b380-ea114411434b": {
           "id": "6772a2f4-ac34-47d3-b380-ea114411434b",
-          "x": 15817,
-          "y": -5052,
+          "x": 15192,
+          "y": -5102,
           "label": "Тестирование mm-vis-js",
           "shape": "box",
           "link": "",
@@ -1665,6 +1617,636 @@ var schemeData =
           "link": "",
           "font": {
             "size": 400
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "35872018-0beb-487b-8de3-9defef972c48": {
+          "id": "35872018-0beb-487b-8de3-9defef972c48",
+          "x": 16467,
+          "y": -16405,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/gcc/gcc.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/gcc/gcc.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "5c2e2e96-836e-4af3-a12e-da75651ed7e8": {
+          "id": "5c2e2e96-836e-4af3-a12e-da75651ed7e8",
+          "x": 16468,
+          "y": -16371,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ghc/ghc.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ghc/ghc.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "74834844-1c42-42bf-969e-03f0a79b44da": {
+          "id": "74834844-1c42-42bf-969e-03f0a79b44da",
+          "x": 16460,
+          "y": -16340,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/git/git.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/git/git.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "b08916db-062a-454b-bd39-8f68213c97ce": {
+          "id": "b08916db-062a-454b-bd39-8f68213c97ce",
+          "x": 16470,
+          "y": -16314,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/julia/julia.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/julia/julia.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "1eede9ae-1653-4dda-9fff-c1455e395bb9": {
+          "id": "1eede9ae-1653-4dda-9fff-c1455e395bb9",
+          "x": 16486,
+          "y": -16270,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/hbase/hbase.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/hbase/hbase.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "df5b3d3b-055e-483e-978e-b61a296a29b0": {
+          "id": "df5b3d3b-055e-483e-978e-b61a296a29b0",
+          "x": 16511,
+          "y": -16232,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/linux-core/linux-core.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/linux-core/linux-core.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "e4495c5a-517f-45e3-a810-be4480d14edf": {
+          "id": "e4495c5a-517f-45e3-a810-be4480d14edf",
+          "x": 16506,
+          "y": -16193,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mm-vis-js/mm-vis-js.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mm-vis-js/mm-vis-js.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "f440e7d4-8921-4590-8671-1a81b7fdc8bf": {
+          "id": "f440e7d4-8921-4590-8671-1a81b7fdc8bf",
+          "x": 16527,
+          "y": -16156,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mysql-server/mysql-server.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mysql-server/mysql-server.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "1266304d-892d-4786-a37a-aec17829d089": {
+          "id": "1266304d-892d-4786-a37a-aec17829d089",
+          "x": 16480,
+          "y": -16121,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/neo4j/neo4j.index.html"
+        },
+        "312f8def-d468-4d38-b3fe-97c856b4d1e2": {
+          "id": "312f8def-d468-4d38-b3fe-97c856b4d1e2",
+          "x": 16473,
+          "y": -16072,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ruby/ruby.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ruby/ruby.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "78f06d8c-497d-4db1-bea9-10775d8338ac": {
+          "id": "78f06d8c-497d-4db1-bea9-10775d8338ac",
+          "x": 16470,
+          "y": -16026,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/sbcl/sbcl.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/sbcl/sbcl.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "f3f4175c-9236-42fd-8757-32ee3ef9bb71": {
+          "id": "f3f4175c-9236-42fd-8757-32ee3ef9bb71",
+          "x": 16480,
+          "y": -15992,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spark/spark.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spark/spark.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "b67fb330-a745-40fe-9bfb-23d326ffdfff": {
+          "id": "b67fb330-a745-40fe-9bfb-23d326ffdfff",
+          "x": 16556,
+          "y": -15962,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spring-framework/spring-framework.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spring-framework/spring-framework.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "82f75612-bc2a-4983-bc1e-3e5b2b5308ef": {
+          "id": "82f75612-bc2a-4983-bc1e-3e5b2b5308ef",
+          "x": 16533,
+          "y": -15939,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/texlive-source/texlive-source.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/texlive-source/texlive-source.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "edae5ee3-c836-4cd6-a969-e7de69f2426e": {
+          "id": "edae5ee3-c836-4cd6-a969-e7de69f2426e",
+          "x": 16488,
+          "y": -15888,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/tomcat/tomcat.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/tomcat/tomcat.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "5e01434b-c6de-4c84-8340-2bca0811fecf": {
+          "id": "5e01434b-c6de-4c84-8340-2bca0811fecf",
+          "x": 16467,
+          "y": -15851,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vim/vim.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vim/vim.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "8e0b73ac-bf1d-43f5-9962-1d293d9c95a2": {
+          "id": "8e0b73ac-bf1d-43f5-9962-1d293d9c95a2",
+          "x": 16490,
+          "y": -15820,
+          "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vscode/vscode.index.html",
+          "shape": "box",
+          "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vscode/vscode.index.html",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "8f1d4ca1-872a-4275-9e5a-c4071e43cfc8": {
+          "id": "8f1d4ca1-872a-4275-9e5a-c4071e43cfc8",
+          "x": 16086,
+          "y": -16844,
+          "label": "vis-network"
+        },
+        "aac55059-2104-48d0-afc9-c3c801076487": {
+          "id": "aac55059-2104-48d0-afc9-c3c801076487",
+          "x": 16059,
+          "y": -16769,
+          "label": "jdk"
+        },
+        "44447f9c-f188-43ba-8164-88bda0aae8e1": {
+          "id": "44447f9c-f188-43ba-8164-88bda0aae8e1",
+          "x": 16093,
+          "y": -16709,
+          "label": "apache_httpd"
+        },
+        "9c3a52cb-55a2-4470-a625-33f10ad15153": {
+          "id": "9c3a52cb-55a2-4470-a625-33f10ad15153",
+          "x": 16065,
+          "y": -16663,
+          "label": "bash"
+        },
+        "54a4b213-9ec2-4ed1-b5db-9220107c9311": {
+          "id": "54a4b213-9ec2-4ed1-b5db-9220107c9311",
+          "x": 16081,
+          "y": -16613,
+          "label": "chromium"
+        },
+        "e9710f68-b042-4451-b90c-2b17fb566ea3": {
+          "id": "e9710f68-b042-4451-b90c-2b17fb566ea3",
+          "x": 16075,
+          "y": -16560,
+          "label": "cpython"
+        },
+        "51f703e5-c66a-401f-a872-69951870b25f": {
+          "id": "51f703e5-c66a-401f-a872-69951870b25f",
+          "x": 16071,
+          "y": -16519,
+          "label": "emacs"
+        },
+        "0115c013-c5ef-4a52-9998-fbc97a360322": {
+          "id": "0115c013-c5ef-4a52-9998-fbc97a360322",
+          "x": 16069,
+          "y": -16470,
+          "label": "firefox"
+        },
+        "497f406a-93a9-4283-9ee2-19e6d204f5a0": {
+          "id": "497f406a-93a9-4283-9ee2-19e6d204f5a0",
+          "x": 16061,
+          "y": -16409,
+          "label": "gcc"
+        },
+        "428995a8-1044-4e2f-ad44-215c841d1a41": {
+          "id": "428995a8-1044-4e2f-ad44-215c841d1a41",
+          "x": 16061,
+          "y": -16373,
+          "label": "ghc"
+        },
+        "01bea31e-6800-4dd3-8ed5-98181a0d62b3": {
+          "id": "01bea31e-6800-4dd3-8ed5-98181a0d62b3",
+          "x": 16057,
+          "y": -16347,
+          "label": "git"
+        },
+        "218467bc-6c3b-4916-9dd2-b537a99c2c7c": {
+          "id": "218467bc-6c3b-4916-9dd2-b537a99c2c7c",
+          "x": 16062,
+          "y": -16318,
+          "label": "julia"
+        },
+        "6c60a515-6507-42f8-8a1e-71861804b45a": {
+          "id": "6c60a515-6507-42f8-8a1e-71861804b45a",
+          "x": 16069,
+          "y": -16272,
+          "label": "hbase"
+        },
+        "a100e6e9-86eb-4753-8338-307eca40a7d4": {
+          "id": "a100e6e9-86eb-4753-8338-307eca40a7d4",
+          "x": 16081,
+          "y": -16240,
+          "label": "linux-core"
+        },
+        "6c1f4913-43d4-4631-8c79-df8ce5a4f63e": {
+          "id": "6c1f4913-43d4-4631-8c79-df8ce5a4f63e",
+          "x": 16080,
+          "y": -16200,
+          "label": "mm-vis-js"
+        },
+        "498482b5-bbdf-40aa-aa3c-452315162413": {
+          "id": "498482b5-bbdf-40aa-aa3c-452315162413",
+          "x": 16091,
+          "y": -16157,
+          "label": "mysql-server"
+        },
+        "6887b62d-a46b-4150-9b53-64bb70e8c850": {
+          "id": "6887b62d-a46b-4150-9b53-64bb70e8c850",
+          "x": 16067,
+          "y": -16118,
+          "label": "neo4j"
+        },
+        "c235ef75-7667-4b06-8b6f-491724d4c4b5": {
+          "id": "c235ef75-7667-4b06-8b6f-491724d4c4b5",
+          "x": 16064,
+          "y": -16082,
+          "label": "ruby"
+        },
+        "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf": {
+          "id": "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf",
+          "x": 16062,
+          "y": -16041,
+          "label": "sbcl"
+        },
+        "f4decd03-bfff-426d-8f3c-40106497e623": {
+          "id": "f4decd03-bfff-426d-8f3c-40106497e623",
+          "x": 16067,
+          "y": -16006,
+          "label": "spark"
+        },
+        "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da": {
+          "id": "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da",
+          "x": 16105,
+          "y": -15974,
+          "label": "spring-framework"
+        },
+        "7b571732-4654-4d9e-a1de-a7f1df712745": {
+          "id": "7b571732-4654-4d9e-a1de-a7f1df712745",
+          "x": 16094,
+          "y": -15938,
+          "label": "texlive-source"
+        },
+        "92fca885-a7ed-49ea-89d1-82fa71c9857e": {
+          "id": "92fca885-a7ed-49ea-89d1-82fa71c9857e",
+          "x": 16071,
+          "y": -15894,
+          "label": "tomcat"
+        },
+        "315153b0-268e-4c6b-9f1b-b0ecf0707073": {
+          "id": "315153b0-268e-4c6b-9f1b-b0ecf0707073",
+          "x": 16061,
+          "y": -15856,
+          "label": "vim"
+        },
+        "28c78af2-c055-4907-b879-b40a312664f7": {
+          "id": "28c78af2-c055-4907-b879-b40a312664f7",
+          "x": 16072,
+          "y": -15825,
+          "label": "vscode"
+        },
+        "73a7e043-4cd4-454a-b808-011a4f163fb3": {
+          "id": "73a7e043-4cd4-454a-b808-011a4f163fb3",
+          "x": 15611,
+          "y": -4782,
+          "label": "Разработка этой схемы"
+        },
+        "d2d6d16f-73eb-4be4-a11b-e52baf19d970": {
+          "id": "d2d6d16f-73eb-4be4-a11b-e52baf19d970",
+          "x": 15775,
+          "y": -4779,
+          "label": "init"
+        },
+        "fd509eec-b81a-4d72-a04c-d9ccd92ea72d": {
+          "id": "fd509eec-b81a-4d72-a04c-d9ccd92ea72d",
+          "x": 15924,
+          "y": -4783,
+          "label": "2019-11-01 21:45"
+        },
+        "a4147672-3022-4782-8a9d-796439e2cb3e": {
+          "id": "a4147672-3022-4782-8a9d-796439e2cb3e",
+          "x": 15558,
+          "y": -5342,
+          "label": "Разделы"
+        },
+        "e359f160-b31a-419d-8edf-4beab29db855": {
+          "id": "e359f160-b31a-419d-8edf-4beab29db855",
+          "x": 15707,
+          "y": -4995,
+          "label": "Примечания"
+        },
+        "25d82c80-2203-4faa-9747-87120f00ae81": {
+          "id": "25d82c80-2203-4faa-9747-87120f00ae81",
+          "x": 15700,
+          "y": -5429,
+          "label": "Процедура"
+        },
+        "179b5dcc-0496-4c74-8451-cbb796144379": {
+          "id": "179b5dcc-0496-4c74-8451-cbb796144379",
+          "x": 15890,
+          "y": -5486,
+          "label": "Предварительно установить",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6fa1e7e0-c5d6-4003-83e1-cea4406fae46": {
+          "id": "6fa1e7e0-c5d6-4003-83e1-cea4406fae46",
+          "x": 16083,
+          "y": -5528,
+          "label": "Docker"
+        },
+        "3263da94-2ce8-402a-8d42-bd22669b945b": {
+          "id": "3263da94-2ce8-402a-8d42-bd22669b945b",
+          "x": 16115,
+          "y": -5473,
+          "label": "docker-compose"
+        },
+        "85e6ba42-7db6-4680-919c-3269559c0fbe": {
+          "id": "85e6ba42-7db6-4680-919c-3269559c0fbe",
+          "x": 16319,
+          "y": -5476,
+          "label": "pip install docker-compose"
+        },
+        "8cfea21a-e1f4-400e-b764-c9ef63fef1c8": {
+          "id": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8",
+          "x": 15870,
+          "y": -5278,
+          "label": "Выполнение тестов"
+        },
+        "c529d633-f904-4990-b1cd-879e8c0b164b": {
+          "id": "c529d633-f904-4990-b1cd-879e8c0b164b",
+          "x": 16182,
+          "y": -5408,
+          "label": "Необходимо открыть два консоли",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "532636aa-db78-49e6-be51-3be6ae888b09": {
+          "id": "532636aa-db78-49e6-be51-3be6ae888b09",
+          "x": 16197,
+          "y": -5351,
+          "label": "В первой консоли выполните команду",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "a2fc6f92-bd21-4679-870f-a3f4d5e301f0": {
+          "id": "a2fc6f92-bd21-4679-870f-a3f4d5e301f0",
+          "x": 16492,
+          "y": -5355,
+          "label": "docker-compose up --build.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "1724f3cb-c073-4014-8a02-8132f6186803": {
+          "id": "1724f3cb-c073-4014-8a02-8132f6186803",
+          "x": 16833,
+          "y": -5367,
+          "label": "Запустится докер-контейнер с браузером chrome внутри.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9": {
+          "id": "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9",
+          "x": 16203,
+          "y": -5266,
+          "label": "Во второй консоли выполните команду",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "3b1b8717-0bfb-4b5f-a9de-aa39f4f825fd": {
+          "id": "3b1b8717-0bfb-4b5f-a9de-aa39f4f825fd",
+          "x": 16548,
+          "y": -5268,
+          "label": "docker exec -it app-express npm run test:e2e"
+        },
+        "e335fc55-69e7-4f38-b4c6-09e133d6688f": {
+          "id": "e335fc55-69e7-4f38-b4c6-09e133d6688f",
+          "x": 16836,
+          "y": -5279,
+          "label": "Выполнятся тесты"
+        },
+        "9072fccc-888c-4b01-b039-1d0027a1e73a": {
+          "id": "9072fccc-888c-4b01-b039-1d0027a1e73a",
+          "x": 16893,
+          "y": -5241,
+          "label": "Процесс выйдет после выполнения.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "76062b6c-58fb-46cc-9370-c59d6f3718c6": {
+          "id": "76062b6c-58fb-46cc-9370-c59d6f3718c6",
+          "x": 16786,
+          "y": -5335,
+          "label": "Процесс останется запущенным в консоли"
+        },
+        "df94c97c-1d97-4c9f-887e-2251e166787f": {
+          "id": "df94c97c-1d97-4c9f-887e-2251e166787f",
+          "x": 16201,
+          "y": -5161,
+          "label": "В первой консоли выполните команду"
+        },
+        "79d0dbf8-19a9-462f-b150-e0ee56523d65": {
+          "id": "79d0dbf8-19a9-462f-b150-e0ee56523d65",
+          "x": 16476,
+          "y": -5163,
+          "label": "docker-compose down"
+        },
+        "3ea5f8fc-f7db-431e-b3f4-024a28f9313c": {
+          "id": "3ea5f8fc-f7db-431e-b3f4-024a28f9313c",
+          "x": 16748,
+          "y": -5164,
+          "label": "Чтобы остановить ее контейнер",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
           },
           "color": {
             "background": "",
@@ -2351,85 +2933,370 @@ var schemeData =
           "to": "682e2e0c-de7a-4218-af14-fe0a3b67e228",
           "id": "eef4d501-00c3-4da0-b63f-cb0c0183a1a2"
         },
-        "7149517e-fda1-4e49-9b91-7518198e0231": {
+        "dc8a56a4-bf82-4e94-bbda-49d228aa5b8d": {
           "from": "22123149-010b-4f10-8d48-614343676646",
-          "to": "3d9c3105-e088-4447-b934-83ffe52cc28e",
-          "id": "7149517e-fda1-4e49-9b91-7518198e0231"
+          "to": "8f1d4ca1-872a-4275-9e5a-c4071e43cfc8",
+          "id": "dc8a56a4-bf82-4e94-bbda-49d228aa5b8d"
         },
-        "6587d1b7-0827-49c8-ad7f-520b56d52f94": {
+        "90c8ecee-276c-486f-8cba-dd22c35d4343": {
           "from": "22123149-010b-4f10-8d48-614343676646",
-          "to": "2502c5fc-8dfc-48e4-a8d0-37aa16428876",
-          "id": "6587d1b7-0827-49c8-ad7f-520b56d52f94"
+          "to": "aac55059-2104-48d0-afc9-c3c801076487",
+          "id": "90c8ecee-276c-486f-8cba-dd22c35d4343"
         },
-        "295ec298-d7c1-4bf7-a9ba-cb8764169a93": {
+        "a2198ac8-ef9d-450a-9359-dadb0571a18f": {
           "from": "22123149-010b-4f10-8d48-614343676646",
-          "to": "2990870c-ce73-42b2-b287-f9c5a19c5506",
-          "id": "295ec298-d7c1-4bf7-a9ba-cb8764169a93"
+          "to": "44447f9c-f188-43ba-8164-88bda0aae8e1",
+          "id": "a2198ac8-ef9d-450a-9359-dadb0571a18f"
         },
-        "90be7174-0998-48b5-886b-8b50f3dccf2d": {
+        "f8872b8e-6d49-4e8c-9e8a-f8e0ca8f4a7c": {
           "from": "22123149-010b-4f10-8d48-614343676646",
-          "to": "2bb1fdb3-9d0b-43bd-9cd4-037dc6b2e412",
-          "id": "90be7174-0998-48b5-886b-8b50f3dccf2d"
+          "to": "9c3a52cb-55a2-4470-a625-33f10ad15153",
+          "id": "f8872b8e-6d49-4e8c-9e8a-f8e0ca8f4a7c"
         },
-        "524cdce3-0800-4630-aaaa-661112432da6": {
+        "8493a6a9-0346-4013-899c-a724cb77ecdf": {
           "from": "22123149-010b-4f10-8d48-614343676646",
-          "to": "e3e613db-3f77-4298-a623-941df4e85bf5",
-          "id": "524cdce3-0800-4630-aaaa-661112432da6"
+          "to": "54a4b213-9ec2-4ed1-b5db-9220107c9311",
+          "id": "8493a6a9-0346-4013-899c-a724cb77ecdf"
         },
-        "d77d420c-889a-4041-b383-e4e84e35e392": {
+        "5987ca03-6bb7-4840-9cfa-ac0f82c3a1bd": {
           "from": "22123149-010b-4f10-8d48-614343676646",
-          "to": "5ef8beaa-e899-411a-b12c-fb6a2af5a7e0",
-          "id": "d77d420c-889a-4041-b383-e4e84e35e392"
+          "to": "e9710f68-b042-4451-b90c-2b17fb566ea3",
+          "id": "5987ca03-6bb7-4840-9cfa-ac0f82c3a1bd"
         },
-        "8526f887-2958-4cea-9710-c905bcb0e2d2": {
+        "824c6652-6f79-4b57-88f2-cc6765fad45e": {
           "from": "22123149-010b-4f10-8d48-614343676646",
-          "to": "58e8731b-43fa-480c-a4ca-3561b26998e1",
-          "id": "8526f887-2958-4cea-9710-c905bcb0e2d2"
+          "to": "51f703e5-c66a-401f-a872-69951870b25f",
+          "id": "824c6652-6f79-4b57-88f2-cc6765fad45e"
         },
-        "21057111-d3e9-4be5-a236-b9651437a4ad": {
-          "from": "58e8731b-43fa-480c-a4ca-3561b26998e1",
-          "to": "298ee61d-a396-47ea-aa7c-ebb565676a2c",
-          "id": "21057111-d3e9-4be5-a236-b9651437a4ad"
+        "cff0e1ec-93cf-4fb0-94f6-136802d3935f": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "0115c013-c5ef-4a52-9998-fbc97a360322",
+          "id": "cff0e1ec-93cf-4fb0-94f6-136802d3935f"
         },
-        "75497a02-9854-409e-ba14-0c7590536e23": {
-          "from": "5ef8beaa-e899-411a-b12c-fb6a2af5a7e0",
-          "to": "f6d9d005-6067-440d-9b62-7e1ad92395f0",
-          "id": "75497a02-9854-409e-ba14-0c7590536e23"
+        "0e01c14b-4d1f-41d1-b177-ee19b34959ce": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "497f406a-93a9-4283-9ee2-19e6d204f5a0",
+          "id": "0e01c14b-4d1f-41d1-b177-ee19b34959ce"
         },
-        "e462599c-4cb6-480e-9046-37e15a24c24e": {
-          "from": "e3e613db-3f77-4298-a623-941df4e85bf5",
-          "to": "94cbd1d4-bafe-46d9-b811-35517c77c30e",
-          "id": "e462599c-4cb6-480e-9046-37e15a24c24e"
+        "b086ae38-f1d6-40e2-a8c8-5a21857eff61": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "428995a8-1044-4e2f-ad44-215c841d1a41",
+          "id": "b086ae38-f1d6-40e2-a8c8-5a21857eff61"
         },
-        "5b082cf2-57ba-44cb-8ed9-3be1ec9a2a90": {
-          "from": "2bb1fdb3-9d0b-43bd-9cd4-037dc6b2e412",
-          "to": "502ba7df-60ac-4226-8aa9-e90a6940e36e",
-          "id": "5b082cf2-57ba-44cb-8ed9-3be1ec9a2a90"
+        "b7da54c8-7f31-43c5-b308-5f09ea26682b": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "01bea31e-6800-4dd3-8ed5-98181a0d62b3",
+          "id": "b7da54c8-7f31-43c5-b308-5f09ea26682b"
         },
-        "1caeb965-838d-4ee4-a52d-d0803fd76232": {
-          "from": "2990870c-ce73-42b2-b287-f9c5a19c5506",
-          "to": "b1c3bfef-9396-429e-97d6-bfea67857091",
-          "id": "1caeb965-838d-4ee4-a52d-d0803fd76232"
+        "0eaab687-5db3-49f3-b30a-42e9fa0b87a2": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "218467bc-6c3b-4916-9dd2-b537a99c2c7c",
+          "id": "0eaab687-5db3-49f3-b30a-42e9fa0b87a2"
         },
-        "a17e28c2-d3e3-43cb-8504-cf5fcb8cc495": {
-          "from": "2502c5fc-8dfc-48e4-a8d0-37aa16428876",
-          "to": "148c0f2f-58a0-4278-a284-c4eda5bff4d7",
-          "id": "a17e28c2-d3e3-43cb-8504-cf5fcb8cc495"
+        "22b115a8-b88f-46b7-b730-ab042027d0ea": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "6c60a515-6507-42f8-8a1e-71861804b45a",
+          "id": "22b115a8-b88f-46b7-b730-ab042027d0ea"
         },
-        "5c63d851-6a91-4fa2-bffa-6c0c66efe949": {
-          "from": "3d9c3105-e088-4447-b934-83ffe52cc28e",
+        "9b1ece27-84c9-4c48-ba22-d7400667e64f": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "a100e6e9-86eb-4753-8338-307eca40a7d4",
+          "id": "9b1ece27-84c9-4c48-ba22-d7400667e64f"
+        },
+        "6908706f-d94b-4bcc-b456-5da59d894649": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "6c1f4913-43d4-4631-8c79-df8ce5a4f63e",
+          "id": "6908706f-d94b-4bcc-b456-5da59d894649"
+        },
+        "bda9e8db-e3a2-4606-8565-4f233dfa3241": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "498482b5-bbdf-40aa-aa3c-452315162413",
+          "id": "bda9e8db-e3a2-4606-8565-4f233dfa3241"
+        },
+        "4e6b93c5-3fe6-428a-aab8-f598c3c30551": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "6887b62d-a46b-4150-9b53-64bb70e8c850",
+          "id": "4e6b93c5-3fe6-428a-aab8-f598c3c30551"
+        },
+        "859ea6e1-9c6f-48a8-972e-53f87e0dbcb2": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "c235ef75-7667-4b06-8b6f-491724d4c4b5",
+          "id": "859ea6e1-9c6f-48a8-972e-53f87e0dbcb2"
+        },
+        "b9b9c1f8-70ed-4e4a-b147-7b7df3c27bb6": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf",
+          "id": "b9b9c1f8-70ed-4e4a-b147-7b7df3c27bb6"
+        },
+        "09acbedd-fc6e-4877-a7ce-03cbdb24db27": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "f4decd03-bfff-426d-8f3c-40106497e623",
+          "id": "09acbedd-fc6e-4877-a7ce-03cbdb24db27"
+        },
+        "88a1ed29-7acb-4da8-96d6-95496a39003c": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da",
+          "id": "88a1ed29-7acb-4da8-96d6-95496a39003c"
+        },
+        "d43dd297-d628-470f-ae20-b5a7d0d7b9aa": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "7b571732-4654-4d9e-a1de-a7f1df712745",
+          "id": "d43dd297-d628-470f-ae20-b5a7d0d7b9aa"
+        },
+        "d4fedb12-9686-4c0e-9e58-7ccf49d99d06": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "92fca885-a7ed-49ea-89d1-82fa71c9857e",
+          "id": "d4fedb12-9686-4c0e-9e58-7ccf49d99d06"
+        },
+        "47807ee2-a972-49c5-82dc-c97c97147381": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "315153b0-268e-4c6b-9f1b-b0ecf0707073",
+          "id": "47807ee2-a972-49c5-82dc-c97c97147381"
+        },
+        "521c42da-79b8-4f0d-af98-9b8c9995a6c2": {
+          "from": "22123149-010b-4f10-8d48-614343676646",
+          "to": "28c78af2-c055-4907-b879-b40a312664f7",
+          "id": "521c42da-79b8-4f0d-af98-9b8c9995a6c2"
+        },
+        "53e7fe60-2a4f-495f-987e-6fc3a8574216": {
+          "from": "8f1d4ca1-872a-4275-9e5a-c4071e43cfc8",
           "to": "73e001ea-c6ee-4573-9173-50a897bc69f7",
-          "id": "5c63d851-6a91-4fa2-bffa-6c0c66efe949"
+          "id": "53e7fe60-2a4f-495f-987e-6fc3a8574216"
         },
-        "ca6d8846-34cf-4d23-aebf-83608f79cc76": {
-          "from": "ad9a94ec-fac8-4a1c-86a1-26d16666db34",
+        "4bc6ea38-3c39-4286-b922-9105852116e8": {
+          "from": "aac55059-2104-48d0-afc9-c3c801076487",
+          "to": "148c0f2f-58a0-4278-a284-c4eda5bff4d7",
+          "id": "4bc6ea38-3c39-4286-b922-9105852116e8"
+        },
+        "c29c008b-63c6-4baa-b89c-0a25c333fc65": {
+          "from": "44447f9c-f188-43ba-8164-88bda0aae8e1",
+          "to": "b1c3bfef-9396-429e-97d6-bfea67857091",
+          "id": "c29c008b-63c6-4baa-b89c-0a25c333fc65"
+        },
+        "828ca058-0ade-4bd2-a01b-09b6eca2ce49": {
+          "from": "9c3a52cb-55a2-4470-a625-33f10ad15153",
+          "to": "502ba7df-60ac-4226-8aa9-e90a6940e36e",
+          "id": "828ca058-0ade-4bd2-a01b-09b6eca2ce49"
+        },
+        "76d210cb-7787-4dc9-b260-d54cc2ff773e": {
+          "from": "54a4b213-9ec2-4ed1-b5db-9220107c9311",
+          "to": "94cbd1d4-bafe-46d9-b811-35517c77c30e",
+          "id": "76d210cb-7787-4dc9-b260-d54cc2ff773e"
+        },
+        "ec71bba8-152c-4c14-abc8-0b86ea62ec4e": {
+          "from": "e9710f68-b042-4451-b90c-2b17fb566ea3",
+          "to": "f6d9d005-6067-440d-9b62-7e1ad92395f0",
+          "id": "ec71bba8-152c-4c14-abc8-0b86ea62ec4e"
+        },
+        "09f271e4-45e8-4376-9694-04bf0134db36": {
+          "from": "51f703e5-c66a-401f-a872-69951870b25f",
+          "to": "298ee61d-a396-47ea-aa7c-ebb565676a2c",
+          "id": "09f271e4-45e8-4376-9694-04bf0134db36"
+        },
+        "70166aff-d629-4dfb-9357-c1683f5cb239": {
+          "from": "0115c013-c5ef-4a52-9998-fbc97a360322",
           "to": "b04b14d8-1d14-4acd-a25f-9d5aa64310ec",
-          "id": "ca6d8846-34cf-4d23-aebf-83608f79cc76"
+          "id": "70166aff-d629-4dfb-9357-c1683f5cb239"
         },
-        "7e296c8f-12db-424b-a3a1-5b9baeedd7c4": {
-          "from": "22123149-010b-4f10-8d48-614343676646",
-          "to": "ad9a94ec-fac8-4a1c-86a1-26d16666db34",
-          "id": "7e296c8f-12db-424b-a3a1-5b9baeedd7c4"
+        "0f8bd277-3736-42f0-9a80-99cab040ff40": {
+          "from": "497f406a-93a9-4283-9ee2-19e6d204f5a0",
+          "to": "35872018-0beb-487b-8de3-9defef972c48",
+          "id": "0f8bd277-3736-42f0-9a80-99cab040ff40"
+        },
+        "613302cf-48c6-4967-94e8-ad62c79f6517": {
+          "from": "428995a8-1044-4e2f-ad44-215c841d1a41",
+          "to": "5c2e2e96-836e-4af3-a12e-da75651ed7e8",
+          "id": "613302cf-48c6-4967-94e8-ad62c79f6517"
+        },
+        "c4648546-d21e-4305-bb7a-e3687df4115c": {
+          "from": "01bea31e-6800-4dd3-8ed5-98181a0d62b3",
+          "to": "74834844-1c42-42bf-969e-03f0a79b44da",
+          "id": "c4648546-d21e-4305-bb7a-e3687df4115c"
+        },
+        "f9158acc-11e4-4b5d-81a3-f569548d5320": {
+          "from": "218467bc-6c3b-4916-9dd2-b537a99c2c7c",
+          "to": "b08916db-062a-454b-bd39-8f68213c97ce",
+          "id": "f9158acc-11e4-4b5d-81a3-f569548d5320"
+        },
+        "dfaf5e32-6ade-4ef2-a002-37b7028d9c6a": {
+          "from": "6c60a515-6507-42f8-8a1e-71861804b45a",
+          "to": "1eede9ae-1653-4dda-9fff-c1455e395bb9",
+          "id": "dfaf5e32-6ade-4ef2-a002-37b7028d9c6a"
+        },
+        "9670432d-8c0b-4e50-95a0-c7fe9052f9e9": {
+          "from": "a100e6e9-86eb-4753-8338-307eca40a7d4",
+          "to": "df5b3d3b-055e-483e-978e-b61a296a29b0",
+          "id": "9670432d-8c0b-4e50-95a0-c7fe9052f9e9"
+        },
+        "7897dda8-63ca-4134-ab21-3b7b7e23484d": {
+          "from": "6c1f4913-43d4-4631-8c79-df8ce5a4f63e",
+          "to": "e4495c5a-517f-45e3-a810-be4480d14edf",
+          "id": "7897dda8-63ca-4134-ab21-3b7b7e23484d"
+        },
+        "e26e00d0-3785-48a5-ae24-93ef92fce20d": {
+          "from": "498482b5-bbdf-40aa-aa3c-452315162413",
+          "to": "f440e7d4-8921-4590-8671-1a81b7fdc8bf",
+          "id": "e26e00d0-3785-48a5-ae24-93ef92fce20d"
+        },
+        "243c6ee4-f02c-4630-9a0d-299fcf05ef07": {
+          "from": "6887b62d-a46b-4150-9b53-64bb70e8c850",
+          "to": "1266304d-892d-4786-a37a-aec17829d089",
+          "id": "243c6ee4-f02c-4630-9a0d-299fcf05ef07"
+        },
+        "a6765240-504e-4fa5-b0fb-eb742b0fbdbd": {
+          "from": "c235ef75-7667-4b06-8b6f-491724d4c4b5",
+          "to": "312f8def-d468-4d38-b3fe-97c856b4d1e2",
+          "id": "a6765240-504e-4fa5-b0fb-eb742b0fbdbd"
+        },
+        "a4c01d69-0ebe-45ad-a8a9-a545886d3f6c": {
+          "from": "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf",
+          "to": "78f06d8c-497d-4db1-bea9-10775d8338ac",
+          "id": "a4c01d69-0ebe-45ad-a8a9-a545886d3f6c"
+        },
+        "390d4b18-8ca3-42b0-b983-4f0c2425d2f6": {
+          "from": "f4decd03-bfff-426d-8f3c-40106497e623",
+          "to": "f3f4175c-9236-42fd-8757-32ee3ef9bb71",
+          "id": "390d4b18-8ca3-42b0-b983-4f0c2425d2f6"
+        },
+        "6d41531e-17ac-47f8-966d-337b777992f7": {
+          "from": "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da",
+          "to": "b67fb330-a745-40fe-9bfb-23d326ffdfff",
+          "id": "6d41531e-17ac-47f8-966d-337b777992f7"
+        },
+        "cb34b49c-8e54-40df-a4a6-ff1789673b68": {
+          "from": "7b571732-4654-4d9e-a1de-a7f1df712745",
+          "to": "82f75612-bc2a-4983-bc1e-3e5b2b5308ef",
+          "id": "cb34b49c-8e54-40df-a4a6-ff1789673b68"
+        },
+        "02a6bc06-24ae-40fa-b260-402f5739ebd2": {
+          "from": "92fca885-a7ed-49ea-89d1-82fa71c9857e",
+          "to": "edae5ee3-c836-4cd6-a969-e7de69f2426e",
+          "id": "02a6bc06-24ae-40fa-b260-402f5739ebd2"
+        },
+        "8a803fa7-7731-431e-8305-e8d51607171a": {
+          "from": "315153b0-268e-4c6b-9f1b-b0ecf0707073",
+          "to": "5e01434b-c6de-4c84-8340-2bca0811fecf",
+          "id": "8a803fa7-7731-431e-8305-e8d51607171a"
+        },
+        "643c77e5-be93-422c-808e-f3158aca5635": {
+          "from": "28c78af2-c055-4907-b879-b40a312664f7",
+          "to": "8e0b73ac-bf1d-43f5-9962-1d293d9c95a2",
+          "id": "643c77e5-be93-422c-808e-f3158aca5635"
+        },
+        "c45d8725-bcef-4f11-8195-0292716b6b9d": {
+          "from": "6772a2f4-ac34-47d3-b380-ea114411434b",
+          "to": "73a7e043-4cd4-454a-b808-011a4f163fb3",
+          "id": "c45d8725-bcef-4f11-8195-0292716b6b9d"
+        },
+        "dde080f5-19c0-48aa-a601-abbcef0ea494": {
+          "from": "73a7e043-4cd4-454a-b808-011a4f163fb3",
+          "to": "d2d6d16f-73eb-4be4-a11b-e52baf19d970",
+          "id": "dde080f5-19c0-48aa-a601-abbcef0ea494"
+        },
+        "3d8d1bf9-1171-4959-8936-6dead7a10631": {
+          "from": "d2d6d16f-73eb-4be4-a11b-e52baf19d970",
+          "to": "fd509eec-b81a-4d72-a04c-d9ccd92ea72d",
+          "id": "3d8d1bf9-1171-4959-8936-6dead7a10631"
+        },
+        "3e1e27cf-d5d2-4613-8526-463fc3aebc98": {
+          "from": "6772a2f4-ac34-47d3-b380-ea114411434b",
+          "to": "a4147672-3022-4782-8a9d-796439e2cb3e",
+          "id": "3e1e27cf-d5d2-4613-8526-463fc3aebc98"
+        },
+        "5b7fc374-0476-4338-94f4-53932b28316f": {
+          "from": "a4147672-3022-4782-8a9d-796439e2cb3e",
+          "to": "e359f160-b31a-419d-8edf-4beab29db855",
+          "id": "5b7fc374-0476-4338-94f4-53932b28316f"
+        },
+        "0172d54e-dbae-4e17-a89c-1ec7e07a386a": {
+          "from": "a4147672-3022-4782-8a9d-796439e2cb3e",
+          "to": "25d82c80-2203-4faa-9747-87120f00ae81",
+          "id": "0172d54e-dbae-4e17-a89c-1ec7e07a386a"
+        },
+        "58f56651-0ac4-4a27-9b5f-42475535a652": {
+          "from": "25d82c80-2203-4faa-9747-87120f00ae81",
+          "to": "179b5dcc-0496-4c74-8451-cbb796144379",
+          "id": "58f56651-0ac4-4a27-9b5f-42475535a652"
+        },
+        "edb8de6f-dd81-48a9-8a9e-22df42e7f765": {
+          "from": "179b5dcc-0496-4c74-8451-cbb796144379",
+          "to": "6fa1e7e0-c5d6-4003-83e1-cea4406fae46",
+          "id": "edb8de6f-dd81-48a9-8a9e-22df42e7f765"
+        },
+        "4d2da645-8190-4049-88bb-1a1cff819915": {
+          "from": "179b5dcc-0496-4c74-8451-cbb796144379",
+          "to": "3263da94-2ce8-402a-8d42-bd22669b945b",
+          "id": "4d2da645-8190-4049-88bb-1a1cff819915"
+        },
+        "236d89ce-84de-49e8-99c5-ff752f2356e0": {
+          "from": "3263da94-2ce8-402a-8d42-bd22669b945b",
+          "to": "85e6ba42-7db6-4680-919c-3269559c0fbe",
+          "id": "236d89ce-84de-49e8-99c5-ff752f2356e0"
+        },
+        "16be88db-07b1-4fb7-be0b-714fcdc196c4": {
+          "from": "25d82c80-2203-4faa-9747-87120f00ae81",
+          "to": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8",
+          "id": "16be88db-07b1-4fb7-be0b-714fcdc196c4"
+        },
+        "34a40ce9-dcb1-4381-830f-f1cfb529b45d": {
+          "from": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8",
+          "to": "532636aa-db78-49e6-be51-3be6ae888b09",
+          "id": "34a40ce9-dcb1-4381-830f-f1cfb529b45d"
+        },
+        "a96bc994-65e5-45a4-8b81-a5a2e3519afa": {
+          "from": "532636aa-db78-49e6-be51-3be6ae888b09",
+          "to": "a2fc6f92-bd21-4679-870f-a3f4d5e301f0",
+          "id": "a96bc994-65e5-45a4-8b81-a5a2e3519afa"
+        },
+        "65682c9e-29c7-46af-b8f5-60c94a5be3d0": {
+          "from": "a2fc6f92-bd21-4679-870f-a3f4d5e301f0",
+          "to": "1724f3cb-c073-4014-8a02-8132f6186803",
+          "id": "65682c9e-29c7-46af-b8f5-60c94a5be3d0"
+        },
+        "1c8cfaee-300e-4a36-ba52-4774151b743a": {
+          "from": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8",
+          "to": "c529d633-f904-4990-b1cd-879e8c0b164b",
+          "id": "1c8cfaee-300e-4a36-ba52-4774151b743a"
+        },
+        "e2a12e9a-82f9-429f-b6fd-4de28350d184": {
+          "from": "a2fc6f92-bd21-4679-870f-a3f4d5e301f0",
+          "to": "76062b6c-58fb-46cc-9370-c59d6f3718c6",
+          "id": "e2a12e9a-82f9-429f-b6fd-4de28350d184"
+        },
+        "95489a10-15d0-4b1f-a614-85b3e5766728": {
+          "from": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8",
+          "to": "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9",
+          "id": "95489a10-15d0-4b1f-a614-85b3e5766728"
+        },
+        "c4e81ca9-d44d-462e-860a-66a9914ba320": {
+          "from": "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9",
+          "to": "3b1b8717-0bfb-4b5f-a9de-aa39f4f825fd",
+          "id": "c4e81ca9-d44d-462e-860a-66a9914ba320"
+        },
+        "511dce64-9210-412d-be48-0ec7fa0e4794": {
+          "from": "3b1b8717-0bfb-4b5f-a9de-aa39f4f825fd",
+          "to": "e335fc55-69e7-4f38-b4c6-09e133d6688f",
+          "id": "511dce64-9210-412d-be48-0ec7fa0e4794"
+        },
+        "6434b1c6-b1ef-48fa-9764-e86d4f06edd5": {
+          "from": "3b1b8717-0bfb-4b5f-a9de-aa39f4f825fd",
+          "to": "9072fccc-888c-4b01-b039-1d0027a1e73a",
+          "id": "6434b1c6-b1ef-48fa-9764-e86d4f06edd5"
+        },
+        "69dc7af4-6d44-4ccd-afbb-864201885a7c": {
+          "from": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8",
+          "to": "df94c97c-1d97-4c9f-887e-2251e166787f",
+          "id": "69dc7af4-6d44-4ccd-afbb-864201885a7c"
+        },
+        "a827babf-69aa-4721-b2a4-9301b4de9e01": {
+          "from": "df94c97c-1d97-4c9f-887e-2251e166787f",
+          "to": "79d0dbf8-19a9-462f-b150-e0ee56523d65",
+          "id": "a827babf-69aa-4721-b2a4-9301b4de9e01"
+        },
+        "16e2043c-ff8a-433b-a74f-b29caee9c30d": {
+          "from": "79d0dbf8-19a9-462f-b150-e0ee56523d65",
+          "to": "3ea5f8fc-f7db-431e-b3f4-024a28f9313c",
+          "id": "16e2043c-ff8a-433b-a74f-b29caee9c30d"
         }
       },
       "length": 0,
@@ -2476,10 +3343,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.7823709534023812,
+    "scale": 0.7639106868559643,
     "viewPosition": {
-      "x": 984.9583467556081,
-      "y": -5339.8444968647345
+      "x": 913.2550375839884,
+      "y": -5346.699059353829
     }
   }
 }
