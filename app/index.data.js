@@ -234,8 +234,8 @@ var schemeData =
         },
         "ebe21c81-c6d5-403d-a901-3645a36d578c": {
           "id": "ebe21c81-c6d5-403d-a901-3645a36d578c",
-          "x": 705,
-          "y": -4896,
+          "x": 656,
+          "y": -4897,
           "label": "Схема \"главная страница\".",
           "shape": "box",
           "link": "",
@@ -250,7 +250,7 @@ var schemeData =
         },
         "2201cf20-76a4-48f8-9ad2-4dcd1d2cac63": {
           "id": "2201cf20-76a4-48f8-9ad2-4dcd1d2cac63",
-          "x": 887,
+          "x": 847,
           "y": -4899,
           "label": "2019.11.01"
         },
@@ -272,14 +272,14 @@ var schemeData =
         },
         "6165adc3-7cfc-47d6-9908-5c906ca36769": {
           "id": "6165adc3-7cfc-47d6-9908-5c906ca36769",
-          "x": 659,
-          "y": -5782,
+          "x": 632,
+          "y": -5779,
           "label": "Примеры карт кода"
         },
         "5754adff-5941-47ed-921b-fac1ba405a8a": {
           "id": "5754adff-5941-47ed-921b-fac1ba405a8a",
-          "x": 645,
-          "y": -5541,
+          "x": 618,
+          "y": -5538,
           "label": "Примеры книги",
           "shape": "box",
           "link": "",
@@ -294,9 +294,9 @@ var schemeData =
         },
         "8f9583f5-1eba-4dc8-a10d-3d7a88368954": {
           "id": "8f9583f5-1eba-4dc8-a10d-3d7a88368954",
-          "x": 1156,
-          "y": -5163,
-          "label": "Смотрите схему \"Тестирование mm-vis-js\"",
+          "x": 1232,
+          "y": -5162,
+          "label": "Схема \"Тестирование mm-vis-js\"",
           "shape": "box",
           "link": "",
           "font": {
@@ -310,15 +310,15 @@ var schemeData =
         },
         "188090d8-3678-4031-ab6f-51eef383b3f1": {
           "id": "188090d8-3678-4031-ab6f-51eef383b3f1",
-          "x": 654,
-          "y": -5407,
+          "x": 624,
+          "y": -5404,
           "label": "Как пользоваться"
         },
         "a9a1ffb2-c2bf-4023-b25b-8b283cf80f37": {
           "id": "a9a1ffb2-c2bf-4023-b25b-8b283cf80f37",
-          "x": 938,
+          "x": 896,
           "y": -5409,
-          "label": "Смотрите схему \"Как пользоваться\"",
+          "label": "Схема \"Как пользоваться\"",
           "shape": "box",
           "link": "",
           "font": {
@@ -332,8 +332,8 @@ var schemeData =
         },
         "d4c5cb55-9c89-43a3-af0e-3a78bd7c98b8": {
           "id": "d4c5cb55-9c89-43a3-af0e-3a78bd7c98b8",
-          "x": 5010,
-          "y": 634,
+          "x": 4471,
+          "y": 690,
           "label": "Схема \"Главная страница\"\nот 2019.10.17",
           "shape": "box",
           "link": "",
@@ -556,15 +556,15 @@ var schemeData =
         },
         "5974d2ed-0f65-4fe4-982f-f7293348ab6d": {
           "id": "5974d2ed-0f65-4fe4-982f-f7293348ab6d",
-          "x": 643,
-          "y": -5200,
+          "x": 605,
+          "y": -5197,
           "label": "Разработка"
         },
         "7480bb63-41ee-4edc-8752-ea41bfe6acbc": {
           "id": "7480bb63-41ee-4edc-8752-ea41bfe6acbc",
-          "x": 859,
-          "y": -5255,
-          "label": "Ссылка на репозиторий с кодом",
+          "x": 949,
+          "y": -5261,
+          "label": "Ссылка на репозиторий с кодом mm-vis-js",
           "shape": "box",
           "link": "",
           "font": {
@@ -578,8 +578,8 @@ var schemeData =
         },
         "1ce98c63-b782-4a88-b65e-f20401f71fe2": {
           "id": "1ce98c63-b782-4a88-b65e-f20401f71fe2",
-          "x": 1191,
-          "y": -5255,
+          "x": 1339,
+          "y": -5254,
           "label": "https://github.com/sushilshik/mm-vis-js",
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
@@ -594,8 +594,8 @@ var schemeData =
         },
         "173fabfe-9055-4500-ac87-1761c1bb1b74": {
           "id": "173fabfe-9055-4500-ac87-1761c1bb1b74",
-          "x": 849,
-          "y": -5163,
+          "x": 906,
+          "y": -5162,
           "label": "Тестирование кода и данных",
           "shape": "box",
           "link": "",
@@ -706,20 +706,20 @@ var schemeData =
         },
         "7b7cc59d-7952-4c22-a466-cf492a6626e9": {
           "id": "7b7cc59d-7952-4c22-a466-cf492a6626e9",
-          "x": 652,
-          "y": -5017,
+          "x": 609,
+          "y": -5014,
           "label": "Примечания"
         },
         "1a531265-5ea0-420b-aa70-0b4b81d6fd33": {
           "id": "1a531265-5ea0-420b-aa70-0b4b81d6fd33",
-          "x": 931,
-          "y": -5020,
+          "x": 985,
+          "y": -5019,
           "label": "Уменьшите масштаб, чтобы увидеть другие разделы."
         },
         "190b3905-69c6-4867-bc2e-8a5608ddbf3a": {
           "id": "190b3905-69c6-4867-bc2e-8a5608ddbf3a",
-          "x": 15383,
-          "y": -8134,
+          "x": 14821,
+          "y": -7405,
           "label": "Как пользоваться",
           "shape": "box",
           "link": "",
@@ -734,8 +734,8 @@ var schemeData =
         },
         "69df842e-8d76-4bae-a1be-03398edbb34d": {
           "id": "69df842e-8d76-4bae-a1be-03398edbb34d",
-          "x": 15781,
-          "y": -6583,
+          "x": 15333,
+          "y": -6671,
           "label": "Разработка этой схемы",
           "shape": "box",
           "link": "",
@@ -750,26 +750,26 @@ var schemeData =
         },
         "75f58e5a-a0d0-4f37-a30a-bc954f310151": {
           "id": "75f58e5a-a0d0-4f37-a30a-bc954f310151",
-          "x": 15920,
-          "y": -6582,
+          "x": 15472,
+          "y": -6670,
           "label": "init"
         },
         "6c08158c-4e66-49f6-a161-a66c3a8d0271": {
           "id": "6c08158c-4e66-49f6-a161-a66c3a8d0271",
-          "x": 16038,
-          "y": -6585,
+          "x": 15590,
+          "y": -6673,
           "label": "2019-11-01 21:45"
         },
         "918cfa6f-1b63-4ef3-b4a4-aa565848f727": {
           "id": "918cfa6f-1b63-4ef3-b4a4-aa565848f727",
-          "x": 15720,
-          "y": -8124,
+          "x": 15272,
+          "y": -8212,
           "label": "Разделы"
         },
         "28606e38-66b9-4360-bd26-57e745089b6c": {
           "id": "28606e38-66b9-4360-bd26-57e745089b6c",
-          "x": 15920,
-          "y": -8321,
+          "x": 15472,
+          "y": -8409,
           "label": "Интерфейс",
           "shape": "box",
           "link": "",
@@ -784,20 +784,20 @@ var schemeData =
         },
         "a7ea9ecf-24b0-49cf-8aeb-cd5f5b83aede": {
           "id": "a7ea9ecf-24b0-49cf-8aeb-cd5f5b83aede",
-          "x": 16094,
-          "y": -8768,
+          "x": 15646,
+          "y": -8856,
           "label": "Создание новой ноды"
         },
         "e315b101-15c2-4d6c-90db-91963877736c": {
           "id": "e315b101-15c2-4d6c-90db-91963877736c",
-          "x": 16468,
-          "y": -8812,
+          "x": 16020,
+          "y": -8900,
           "label": "Кнопка \"Add node\""
         },
         "5c16d8af-d405-4411-ba51-0b94e89e01d9": {
           "id": "5c16d8af-d405-4411-ba51-0b94e89e01d9",
-          "x": 16637,
-          "y": -8746,
+          "x": 16189,
+          "y": -8834,
           "label": "Двойной клик и плюс клик по холсту в точке положения будущей ноды",
           "shape": "box",
           "link": "",
@@ -812,8 +812,8 @@ var schemeData =
         },
         "7c785996-b5d2-4800-804e-63541d3fe704": {
           "id": "7c785996-b5d2-4800-804e-63541d3fe704",
-          "x": 18837,
-          "y": -8679,
+          "x": 18779,
+          "y": -8854,
           "label": "Как пользоваться",
           "shape": "box",
           "link": "",
@@ -868,8 +868,8 @@ var schemeData =
         },
         "e9f35a53-56ce-4e8e-bfc2-d3ff89dfc2ef": {
           "id": "e9f35a53-56ce-4e8e-bfc2-d3ff89dfc2ef",
-          "x": 24633,
-          "y": -8499,
+          "x": 24647,
+          "y": -8694,
           "label": "Interface"
         },
         "6fee1dec-bcae-476d-92b7-8d4f518a0d24": {
@@ -948,14 +948,14 @@ var schemeData =
         },
         "92deda2e-f34f-4a13-941f-3e76f04c4bde": {
           "id": "92deda2e-f34f-4a13-941f-3e76f04c4bde",
-          "x": 16095,
-          "y": -8614,
+          "x": 15647,
+          "y": -8702,
           "label": "Создание новой связи"
         },
         "02196ab4-9960-4540-81fd-4625f8dc43b2": {
           "id": "02196ab4-9960-4540-81fd-4625f8dc43b2",
-          "x": 16092,
-          "y": -8498,
+          "x": 15644,
+          "y": -8586,
           "label": "Открыть ссылку ноды",
           "shape": "box",
           "link": "",
@@ -970,14 +970,14 @@ var schemeData =
         },
         "3579bfa5-85d7-43d5-99fd-c4b61351f5d5": {
           "id": "3579bfa5-85d7-43d5-99fd-c4b61351f5d5",
-          "x": 16344,
-          "y": -8374,
+          "x": 15940,
+          "y": -8464,
           "label": "Выделить рамкой несколько объектов"
         },
         "1a0d0e26-82e6-4c9e-8f16-b1f8a58e06e5": {
           "id": "1a0d0e26-82e6-4c9e-8f16-b1f8a58e06e5",
-          "x": 16110,
-          "y": -8203,
+          "x": 15662,
+          "y": -8291,
           "label": "Работа с json-кодом схемы"
         },
         "8ab5c15c-f8ca-409c-ac8d-693a5265d2e5": {
@@ -1016,7 +1016,7 @@ var schemeData =
         },
         "b72ae6ce-59e1-4d64-8f85-c80943f957d7": {
           "id": "b72ae6ce-59e1-4d64-8f85-c80943f957d7",
-          "x": 960,
+          "x": 948,
           "y": -5817,
           "label": "Пока примеряемся с вариантами верстки"
         },
@@ -1038,14 +1038,14 @@ var schemeData =
         },
         "99792996-9990-4de2-8e7a-c7f95c729ccc": {
           "id": "99792996-9990-4de2-8e7a-c7f95c729ccc",
-          "x": 15964,
-          "y": -7101,
+          "x": 15516,
+          "y": -7189,
           "label": "Оффлайновая работа"
         },
         "541e43ae-9406-4a36-9648-8533fbc16f69": {
           "id": "541e43ae-9406-4a36-9648-8533fbc16f69",
-          "x": 16289,
-          "y": -7156,
+          "x": 15841,
+          "y": -7244,
           "label": "mm-vis-js может работать без доступа к сети",
           "shape": "box",
           "link": "",
@@ -1060,8 +1060,8 @@ var schemeData =
         },
         "533b01fa-6d24-48cc-8581-fbd583383385": {
           "id": "533b01fa-6d24-48cc-8581-fbd583383385",
-          "x": 16283,
-          "y": -6982,
+          "x": 15835,
+          "y": -7070,
           "label": "Нужно сохранить в одну директорию файлы",
           "shape": "box",
           "link": "",
@@ -1076,86 +1076,106 @@ var schemeData =
         },
         "b5b6d8e1-80be-4076-816a-b4af7f7cb38f": {
           "id": "b5b6d8e1-80be-4076-816a-b4af7f7cb38f",
-          "x": 16551,
-          "y": -7079,
+          "x": 16103,
+          "y": -7167,
           "label": "index.html"
         },
         "4474df06-f883-4579-b820-885c3a171780": {
           "id": "4474df06-f883-4579-b820-885c3a171780",
-          "x": 16558,
-          "y": -7049,
+          "x": 16110,
+          "y": -7137,
           "label": "index.data.js"
         },
         "aaa11c87-8cce-4cfa-ad47-d90271340433": {
           "id": "aaa11c87-8cce-4cfa-ad47-d90271340433",
-          "x": 16559,
-          "y": -7007,
+          "x": 16111,
+          "y": -7095,
           "label": "application.js"
         },
         "6bef3a7e-4585-40bf-9de0-6e5152dbe19f": {
           "id": "6bef3a7e-4585-40bf-9de0-6e5152dbe19f",
-          "x": 16991,
-          "y": -6945,
+          "x": 16543,
+          "y": -7033,
           "label": "https://visjs.github.io/vis-network/dist/vis-network.min.css"
         },
         "1090a0ca-0455-443b-b48a-2665a678b1bb": {
           "id": "1090a0ca-0455-443b-b48a-2665a678b1bb",
-          "x": 16580,
-          "y": -6943,
+          "x": 16132,
+          "y": -7031,
           "label": "vis-network.min.css"
         },
         "6fec14ed-3d6e-4967-98bf-9f9f6643facc": {
           "id": "6fec14ed-3d6e-4967-98bf-9f9f6643facc",
-          "x": 16726,
-          "y": -6945,
+          "x": 16278,
+          "y": -7033,
           "label": "Из ссылки"
         },
         "a2895f70-16f6-44ba-bb7f-3b1178cdc965": {
           "id": "a2895f70-16f6-44ba-bb7f-3b1178cdc965",
-          "x": 17035,
-          "y": -6882,
+          "x": 16587,
+          "y": -6970,
           "label": "https://unpkg.com/vis-network@6.3.0/standalone/umd/vis-network.min.js"
         },
         "a93ca548-3213-4562-adca-65ec888cd499": {
           "id": "a93ca548-3213-4562-adca-65ec888cd499",
-          "x": 16575,
-          "y": -6881,
+          "x": 16127,
+          "y": -6969,
           "label": "vis-network.min.js"
         },
         "8406046a-b9c2-4d20-9c51-56c95e904a02": {
           "id": "8406046a-b9c2-4d20-9c51-56c95e904a02",
-          "x": 16726,
-          "y": -6878,
+          "x": 16278,
+          "y": -6966,
           "label": "Из ссылки"
         },
         "0259d9ae-d9a0-43fe-a27d-6ef875c42428": {
           "id": "0259d9ae-d9a0-43fe-a27d-6ef875c42428",
-          "x": 15935,
-          "y": -6736,
+          "x": 15487,
+          "y": -6824,
           "label": "Примечания"
         },
         "a07f49d6-5114-4f7e-aabe-0d63919fd8e1": {
           "id": "a07f49d6-5114-4f7e-aabe-0d63919fd8e1",
-          "x": 966,
+          "x": 925,
           "y": -5748,
-          "label": "Смотрите схему \"Карты программного кода\""
+          "label": "Схема \"Карты программного кода\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "4142d149-3b9d-4c0c-b65e-db855d03d582": {
           "id": "4142d149-3b9d-4c0c-b65e-db855d03d582",
-          "x": 886,
+          "x": 858,
           "y": -5576,
-          "label": "Смотрите схему \"Книги\""
+          "label": "Схема \"Книги\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "54a8ccfe-1e5b-4fa6-b8a4-a619778bc847": {
           "id": "54a8ccfe-1e5b-4fa6-b8a4-a619778bc847",
-          "x": 16458,
-          "y": -8641,
+          "x": 16010,
+          "y": -8729,
           "label": "Кнопа \"Add edge\""
         },
         "c666fa8f-75f7-43f7-a927-6b367c80c362": {
           "id": "c666fa8f-75f7-43f7-a927-6b367c80c362",
-          "x": 16617,
-          "y": -8591,
+          "x": 16169,
+          "y": -8679,
           "label": "Двойной клик с ctrl. И с нажатым курсором соединяем две ноды.",
           "shape": "box",
           "link": "",
@@ -1170,50 +1190,50 @@ var schemeData =
         },
         "abdf70d3-ce50-477b-9846-9dc0416354fd": {
           "id": "abdf70d3-ce50-477b-9846-9dc0416354fd",
-          "x": 16307,
-          "y": -8813,
+          "x": 15849,
+          "y": -8901,
           "label": "Вариант 1"
         },
         "c33cc747-4ea3-44f9-a560-e7084f36fc00": {
           "id": "c33cc747-4ea3-44f9-a560-e7084f36fc00",
-          "x": 16319,
-          "y": -8748,
+          "x": 15849,
+          "y": -8836,
           "label": "Вариант 2"
         },
         "c9c88f8f-6310-41fb-8164-2d7dcbf6462c": {
           "id": "c9c88f8f-6310-41fb-8164-2d7dcbf6462c",
-          "x": 16316,
-          "y": -8641,
+          "x": 15849,
+          "y": -8729,
           "label": "Вариант 1"
         },
         "56e6d52f-eb95-45fc-98f4-0163b5006455": {
           "id": "56e6d52f-eb95-45fc-98f4-0163b5006455",
-          "x": 16314,
-          "y": -8589,
+          "x": 15849,
+          "y": -8677,
           "label": "Вариант 2"
         },
         "954369db-66b6-4e97-be9f-5a0e6febd275": {
           "id": "954369db-66b6-4e97-be9f-5a0e6febd275",
-          "x": 16339,
-          "y": -8493,
+          "x": 15874,
+          "y": -8581,
           "label": "Кликаем по ноде."
         },
         "30bfd8ec-c4c8-4688-8112-87a94a4e2ac4": {
           "id": "30bfd8ec-c4c8-4688-8112-87a94a4e2ac4",
-          "x": 16641,
-          "y": -8489,
+          "x": 16193,
+          "y": -8577,
           "label": "В открывшемся слева меню нажимаем openLinkButton"
         },
         "980b8af5-638f-43da-bae0-564de055219e": {
           "id": "980b8af5-638f-43da-bae0-564de055219e",
-          "x": 16657,
-          "y": -8371,
+          "x": 16253,
+          "y": -8461,
           "label": "Выделяем с нажатой правой кнопкой мыши"
         },
         "a838dc05-c1bb-431a-9dc8-fbcae3f6ebce": {
           "id": "a838dc05-c1bb-431a-9dc8-fbcae3f6ebce",
-          "x": 16582,
-          "y": -8161,
+          "x": 16134,
+          "y": -8249,
           "label": "Кнопка \"updateMenuFromScheme\"",
           "shape": "box",
           "link": "",
@@ -1228,8 +1248,8 @@ var schemeData =
         },
         "b1fd0f91-e446-4241-a959-d3ae25652cb3": {
           "id": "b1fd0f91-e446-4241-a959-d3ae25652cb3",
-          "x": 16884,
-          "y": -8163,
+          "x": 16436,
+          "y": -8251,
           "label": "При клике по кнопке, в json-код сохраняется\nвсе текущее содержание схем на холсте",
           "shape": "box",
           "link": "",
@@ -1244,14 +1264,14 @@ var schemeData =
         },
         "ebe0e752-8821-4566-837d-96acc5cd6f15": {
           "id": "ebe0e752-8821-4566-837d-96acc5cd6f15",
-          "x": 16094,
-          "y": -7931,
+          "x": 15646,
+          "y": -8019,
           "label": "Редактирование ноды"
         },
         "65b1efd3-e93c-409e-971c-584d25b0bc2d": {
           "id": "65b1efd3-e93c-409e-971c-584d25b0bc2d",
-          "x": 16580,
-          "y": -8057,
+          "x": 16132,
+          "y": -8145,
           "label": "Кнопка \"updateSchemeFromMenu\"",
           "shape": "box",
           "link": "",
@@ -1266,8 +1286,8 @@ var schemeData =
         },
         "d823f8a0-5c08-4b90-a6a5-25e3ccde1142": {
           "id": "d823f8a0-5c08-4b90-a6a5-25e3ccde1142",
-          "x": 17273,
-          "y": -8169,
+          "x": 16825,
+          "y": -8257,
           "label": "Если вы работаете с mm-vis-js локально и можете\nредактировать index.data.js. То сохраните этот json-код между\nпервой строкой с \"var schemeData = \" и последней с \";\".\nЧтобы сохранить изменения в схемах до\nследующей перезагрузки страницы.",
           "shape": "box",
           "link": "",
@@ -1282,8 +1302,8 @@ var schemeData =
         },
         "ca85da3e-b99f-40b2-a592-fd4593277618": {
           "id": "ca85da3e-b99f-40b2-a592-fd4593277618",
-          "x": 16418,
-          "y": -8255,
+          "x": 15970,
+          "y": -8343,
           "label": "При загрузке страницы содержание холста\nстроится из данных в файле index.data.js",
           "shape": "box",
           "link": "",
@@ -1298,14 +1318,14 @@ var schemeData =
         },
         "5291a25d-32f3-487c-8e4e-e62d4d054f66": {
           "id": "5291a25d-32f3-487c-8e4e-e62d4d054f66",
-          "x": 16815,
-          "y": -8254,
+          "x": 16367,
+          "y": -8342,
           "label": "Его содержание отображается в меню справа (\"showData\")"
         },
         "c7ca86c7-94ca-446d-946d-d807dc5a3b45": {
           "id": "c7ca86c7-94ca-446d-946d-d807dc5a3b45",
-          "x": 17263,
-          "y": -8255,
+          "x": 16815,
+          "y": -8343,
           "label": "Без первой строки \"var schemeData =\" и строки в конце с \";\".",
           "shape": "box",
           "link": "",
@@ -1320,14 +1340,14 @@ var schemeData =
         },
         "b903d55a-2480-44ae-a2db-1e47cc030965": {
           "id": "b903d55a-2480-44ae-a2db-1e47cc030965",
-          "x": 16339,
-          "y": -8122,
+          "x": 15891,
+          "y": -8210,
           "label": "Меню \"showData\""
         },
         "f833a716-fcb1-4e20-9c35-3367ceae922d": {
           "id": "f833a716-fcb1-4e20-9c35-3367ceae922d",
-          "x": 16941,
-          "y": -8062,
+          "x": 16493,
+          "y": -8150,
           "label": "При клике по кнопке полностью перестраивается содержание\nхолста на основе содержания json-кода.",
           "shape": "box",
           "link": "",
@@ -1342,14 +1362,14 @@ var schemeData =
         },
         "914b0fdb-4bd6-426d-942c-65e258cb6c25": {
           "id": "914b0fdb-4bd6-426d-942c-65e258cb6c25",
-          "x": 17369,
-          "y": -8065,
+          "x": 16921,
+          "y": -8153,
           "label": "Можно редактировать схему, внося правки в json-код."
         },
         "e5744d4a-002d-45a0-984a-bd7a92278abb": {
           "id": "e5744d4a-002d-45a0-984a-bd7a92278abb",
-          "x": 17855,
-          "y": -8064,
+          "x": 17407,
+          "y": -8152,
           "label": "Координаты ноды задают ее центр.",
           "shape": "box",
           "link": "",
@@ -1364,8 +1384,8 @@ var schemeData =
         },
         "b867669f-f79b-4e35-aa89-d2ab38a87951": {
           "id": "b867669f-f79b-4e35-aa89-d2ab38a87951",
-          "x": 17635,
-          "y": -8065,
+          "x": 17187,
+          "y": -8153,
           "label": "Примечания",
           "shape": "box",
           "link": "",
@@ -1380,8 +1400,8 @@ var schemeData =
         },
         "93aab216-ca5c-4c56-9bf7-800cf963c59e": {
           "id": "93aab216-ca5c-4c56-9bf7-800cf963c59e",
-          "x": 16535,
-          "y": -7949,
+          "x": 16087,
+          "y": -8037,
           "label": "При клике по ноде в интерфейсе слева открывается меню ее редактирования.",
           "shape": "box",
           "link": "",
@@ -1396,8 +1416,8 @@ var schemeData =
         },
         "417c60e1-a7ec-4edf-a78d-e2514f7d203d": {
           "id": "417c60e1-a7ec-4edf-a78d-e2514f7d203d",
-          "x": 16379,
-          "y": -7903,
+          "x": 15931,
+          "y": -7991,
           "label": "Кнопка \"saveElementEditButton\"",
           "shape": "box",
           "link": "",
@@ -1412,44 +1432,44 @@ var schemeData =
         },
         "78fb3063-2f01-4e8c-bc4e-d9dd4aab1e15": {
           "id": "78fb3063-2f01-4e8c-bc4e-d9dd4aab1e15",
-          "x": 16595,
-          "y": -7902,
+          "x": 16147,
+          "y": -7990,
           "label": "Сохранить изменения"
         },
         "4f68cb54-6f10-46f0-8a4e-59132970f81a": {
           "id": "4f68cb54-6f10-46f0-8a4e-59132970f81a",
-          "x": 16380,
-          "y": -7846,
+          "x": 15932,
+          "y": -7934,
           "label": "Кнопка \"closeElementEditButton\""
         },
         "d7e6cd8e-610a-499b-8cd1-4685bbc08e69": {
           "id": "d7e6cd8e-610a-499b-8cd1-4685bbc08e69",
-          "x": 16667,
-          "y": -7851,
+          "x": 16219,
+          "y": -7939,
           "label": "Закрыть меню редактирования ноды"
         },
         "68632dc8-5ab0-453f-8bcf-645f603ad3f5": {
           "id": "68632dc8-5ab0-453f-8bcf-645f603ad3f5",
-          "x": 16059,
-          "y": -8413,
+          "x": 15611,
+          "y": -8501,
           "label": "Выделение"
         },
         "7a578828-3cc3-4fe4-82f2-ca9c62f17fe5": {
           "id": "7a578828-3cc3-4fe4-82f2-ca9c62f17fe5",
-          "x": 16393,
-          "y": -8417,
+          "x": 15986,
+          "y": -8507,
           "label": "Несколько объектов можно выделить удерживая ctrl"
         },
         "5466335c-f3c0-4346-946b-fd05ffdcdc8f": {
           "id": "5466335c-f3c0-4346-946b-fd05ffdcdc8f",
-          "x": 16075,
-          "y": -7748,
+          "x": 15627,
+          "y": -7836,
           "label": "Выравнивание"
         },
         "2bb5f8da-7c28-4a79-8ccb-1bec4eac4f29": {
           "id": "2bb5f8da-7c28-4a79-8ccb-1bec4eac4f29",
-          "x": 16466,
-          "y": -7748,
+          "x": 16018,
+          "y": -7836,
           "label": "Выделяем несколько нод и в верхнем меню нажимаем кнопку \"leftAlignNodes\"",
           "shape": "box",
           "link": "",
@@ -2488,14 +2508,14 @@ var schemeData =
         },
         "28056588-8284-4009-9d1d-cbc9d804a95d": {
           "id": "28056588-8284-4009-9d1d-cbc9d804a95d",
-          "x": 16081,
-          "y": -7552,
+          "x": 15633,
+          "y": -7640,
           "label": "Ссылка на холст"
         },
         "6e7616e9-3f7a-4df9-8aac-0c50daf3a3b0": {
           "id": "6e7616e9-3f7a-4df9-8aac-0c50daf3a3b0",
-          "x": 16457,
-          "y": -7609,
+          "x": 16009,
+          "y": -7697,
           "label": "В ссылке можно задать координаты точки на холсте и масштаб просмотра",
           "shape": "box",
           "link": "",
@@ -2510,20 +2530,20 @@ var schemeData =
         },
         "c5d0b881-5d55-454d-adb3-26892dec6b0a": {
           "id": "c5d0b881-5d55-454d-adb3-26892dec6b0a",
-          "x": 16295,
-          "y": -7552,
+          "x": 15847,
+          "y": -7640,
           "label": "В конце ссылки добавить"
         },
         "9db85203-fde1-4ec5-afe2-aeb373d60a55": {
           "id": "9db85203-fde1-4ec5-afe2-aeb373d60a55",
-          "x": 16502,
-          "y": -7551,
+          "x": 16054,
+          "y": -7639,
           "label": "?scale=...&x=...&y=..."
         },
         "00743438-e644-40dd-a573-844be7540f05": {
           "id": "00743438-e644-40dd-a573-844be7540f05",
-          "x": 16321,
-          "y": -7445,
+          "x": 15873,
+          "y": -7533,
           "label": "Получить координаты и масштаб\nтекущего вида холста",
           "shape": "box",
           "link": "",
@@ -2538,20 +2558,20 @@ var schemeData =
         },
         "d4204b1c-b9c1-4b7a-9fbc-2666174ab51e": {
           "id": "d4204b1c-b9c1-4b7a-9fbc-2666174ab51e",
-          "x": 16672,
-          "y": -7486,
+          "x": 16224,
+          "y": -7574,
           "label": "Кликаем updateMenuFromScheme в меню showData"
         },
         "83215916-1c34-4266-b50e-a43be8e19724": {
           "id": "83215916-1c34-4266-b50e-a43be8e19724",
-          "x": 16638,
-          "y": -7448,
+          "x": 16190,
+          "y": -7536,
           "label": "Проматываем окно с кодом вниз до конца"
         },
         "b550d05e-5a1d-4066-9747-126aa669396c": {
           "id": "b550d05e-5a1d-4066-9747-126aa669396c",
-          "x": 16591,
-          "y": -7393,
+          "x": 16143,
+          "y": -7481,
           "label": "Берем параметры из полей",
           "shape": "box",
           "link": "",
@@ -2566,21 +2586,543 @@ var schemeData =
         },
         "e2adc361-24b6-400e-8140-4538000e3041": {
           "id": "e2adc361-24b6-400e-8140-4538000e3041",
-          "x": 16779,
-          "y": -7402,
+          "x": 16331,
+          "y": -7490,
           "label": "setup.scale"
         },
         "d3d62987-0cc6-426d-ab8f-fb5813228773": {
           "id": "d3d62987-0cc6-426d-ab8f-fb5813228773",
-          "x": 16807,
-          "y": -7371,
+          "x": 16359,
+          "y": -7459,
           "label": "setup.viewPosition.x"
         },
         "420f4069-56f9-43d1-8b4e-bed7ba73aff9": {
           "id": "420f4069-56f9-43d1-8b4e-bed7ba73aff9",
-          "x": 16805,
-          "y": -7340,
+          "x": 16357,
+          "y": -7428,
           "label": "setup.viewPosition.y"
+        },
+        "90019792-8278-4ffb-abf1-f3d773b937c4": {
+          "id": "90019792-8278-4ffb-abf1-f3d773b937c4",
+          "x": 15859,
+          "y": -19976,
+          "label": "Как сохранить?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "4c775dd3-7c16-4e12-804a-994917a27aad": {
+          "id": "4c775dd3-7c16-4e12-804a-994917a27aad",
+          "x": 16127,
+          "y": -19976,
+          "label": "Кликните на updateMenuFromScheme\n в меню showData.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "#8aee95",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "369a40d5-12e0-4d85-8879-817e03608d01": {
+          "id": "369a40d5-12e0-4d85-8879-817e03608d01",
+          "x": 15856,
+          "y": -19891,
+          "label": "Как загрузить?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "81dd7c39-58a2-48a0-81f1-a859ed9e5f79": {
+          "id": "81dd7c39-58a2-48a0-81f1-a859ed9e5f79",
+          "x": 16151,
+          "y": -19892,
+          "label": "Кликните по ноде с датой сохранения.\nПотом кликните в ее меню (слева на экране)\nпо loadSavedProjectToMenu.\nПотом кликните updateSchemeFromMenu.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "#8aee95",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "343a2247-18a3-4bea-b1c1-49f0744d7cc2": {
+          "id": "343a2247-18a3-4bea-b1c1-49f0744d7cc2",
+          "x": 16587,
+          "y": -19977,
+          "label": "Json-код схемы обновится в меню и сохранится\nв локальном хранилище браузера. \nДанные остаются в хранилище постоянно.\nРядом с нодой saveCanvasProjectData\nпоявится нода с датой сохранения.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "2bb27899-66c3-4ec8-a0aa-c29a7744e9b4": {
+          "id": "2bb27899-66c3-4ec8-a0aa-c29a7744e9b4",
+          "x": 16572,
+          "y": -19897,
+          "label": "Сначала json-код схемы загрузится в меню.\nПотом из меню обновится схема.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "49408e40-e33c-46d8-b891-8ada89507c28": {
+          "id": "49408e40-e33c-46d8-b891-8ada89507c28",
+          "x": 15709,
+          "y": -19849,
+          "label": "Help"
+        },
+        "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b": {
+          "id": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b",
+          "x": 15852,
+          "y": -19795,
+          "label": "How to save?"
+        },
+        "db88dea5-4ac5-4498-b75f-272e6df65d13": {
+          "id": "db88dea5-4ac5-4498-b75f-272e6df65d13",
+          "x": 15850,
+          "y": -19723,
+          "label": "How to load?"
+        },
+        "6abe4705-ff11-4589-8481-fbe58438ebb4": {
+          "id": "6abe4705-ff11-4589-8481-fbe58438ebb4",
+          "x": 16176,
+          "y": -19799,
+          "label": "Click on updateMenuFromScheme in showData menu.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "#8aee95",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "071aa7d3-3cf2-4f92-9464-97feaf1f67ad": {
+          "id": "071aa7d3-3cf2-4f92-9464-97feaf1f67ad",
+          "x": 16167,
+          "y": -19725,
+          "label": "Click on node with save date. Then click in it's menu\n(on the left of screen) on loadSavedProjectToMenu.\nThen click updateSchemeFromMenu.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "#8aee95",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "199906e3-e0eb-4c0d-b754-177e5dbaed45": {
+          "id": "199906e3-e0eb-4c0d-b754-177e5dbaed45",
+          "x": 16564,
+          "y": -19807,
+          "label": "Scheme json-code will be updated in menu\nand saved in browser local storage.\nData is saved permanently there.\nNear saveCanvasProjectData node\nsave date node will be created.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "b3044a16-ab10-42a2-8575-cd7ae6afcb29": {
+          "id": "b3044a16-ab10-42a2-8575-cd7ae6afcb29",
+          "x": 16583,
+          "y": -19726,
+          "label": "At first scheme json-code will be loaded in menu.\nThen scheme will be updated from menu.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "3dc28efb-58bf-4079-b4bf-fef2db3f2066": {
+          "id": "3dc28efb-58bf-4079-b4bf-fef2db3f2066",
+          "x": 15888,
+          "y": -20410,
+          "label": "META",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 400
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "87acb101-5f15-4dfd-9d17-2b95b9f3a5f5": {
+          "id": "87acb101-5f15-4dfd-9d17-2b95b9f3a5f5",
+          "x": 17273,
+          "y": -20229,
+          "label": "init"
+        },
+        "1fcad7eb-7ee4-4065-8814-8766eab6bcc1": {
+          "id": "1fcad7eb-7ee4-4065-8814-8766eab6bcc1",
+          "x": 17453,
+          "y": -20231,
+          "label": "2019.11.03"
+        },
+        "9c017941-92dc-4c0a-8029-19756d681ee6": {
+          "id": "9c017941-92dc-4c0a-8029-19756d681ee6",
+          "x": 17056,
+          "y": -20227,
+          "label": "Development"
+        },
+        "2701a17b-792c-4cc0-98c7-12a0ae3820d2": {
+          "id": "2701a17b-792c-4cc0-98c7-12a0ae3820d2",
+          "x": 15424,
+          "y": -19593,
+          "label": "saveCanvasProjectData"
+        },
+        "c00144df-8d18-47d6-b3ac-effce2323769": {
+          "id": "c00144df-8d18-47d6-b3ac-effce2323769",
+          "x": 15866,
+          "y": -9267,
+          "label": "Как сохранить?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "7333304b-0641-4095-8128-b3ab5ee7b8a4": {
+          "id": "7333304b-0641-4095-8128-b3ab5ee7b8a4",
+          "x": 15863,
+          "y": -9155,
+          "label": "Как загрузить?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "cc8e6464-8c63-4dff-bd01-cae948551537": {
+          "id": "cc8e6464-8c63-4dff-bd01-cae948551537",
+          "x": 25008,
+          "y": -8886,
+          "label": "How to save?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "e1920ad1-d46d-4b40-af05-a0360cfa6995": {
+          "id": "e1920ad1-d46d-4b40-af05-a0360cfa6995",
+          "x": 25006,
+          "y": -8809,
+          "label": "How to load?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "51235d2d-d4fb-4f0b-a275-77976c6728ae": {
+          "id": "51235d2d-d4fb-4f0b-a275-77976c6728ae",
+          "x": 16188,
+          "y": -9267,
+          "label": "Кликните на updateMenuFromScheme\n в меню showData.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "3a096daf-6a68-49ae-b74b-b20a0e1fd115": {
+          "id": "3a096daf-6a68-49ae-b74b-b20a0e1fd115",
+          "x": 16211,
+          "y": -9159,
+          "label": "Кликните по ноде с датой сохранения.\nПотом кликните в ее меню (слева на экране)\nпо loadSavedProjectToMenu.\nПотом кликните updateSchemeFromMenu.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "7c447d53-2b12-454d-b739-f115e827d65e": {
+          "id": "7c447d53-2b12-454d-b739-f115e827d65e",
+          "x": 25332,
+          "y": -8883,
+          "label": "Click on updateMenuFromScheme in showData menu.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "dcfae344-093e-4b35-830a-b1c73dc9669c": {
+          "id": "dcfae344-093e-4b35-830a-b1c73dc9669c",
+          "x": 25323,
+          "y": -8807,
+          "label": "Click on node with save date. Then click in it's menu\n(on the left of screen) on loadSavedProjectToMenu.\nThen click updateSchemeFromMenu.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "d6d2c067-4802-47b8-9a26-0651849fe1b2": {
+          "id": "d6d2c067-4802-47b8-9a26-0651849fe1b2",
+          "x": 16666,
+          "y": -9268,
+          "label": "Json-код схемы обновится в меню и сохранится\nв локальном хранилище браузера. \nДанные остаются в хранилище постоянно.\nРядом с нодой saveCanvasProjectData\nпоявится нода с датой сохранения.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "1fcaf981-ffce-478f-9d43-4f38323119e0": {
+          "id": "1fcaf981-ffce-478f-9d43-4f38323119e0",
+          "x": 16651,
+          "y": -9168,
+          "label": "Сначала json-код схемы загрузится в меню.\nПотом из меню обновится схема.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "03fdf934-eb51-4d12-b029-d0332d266a04": {
+          "id": "03fdf934-eb51-4d12-b029-d0332d266a04",
+          "x": 25714,
+          "y": -8879,
+          "label": "Scheme json-code will be updated in menu\nand saved in browser local storage.\nData is saved permanently there.\nNear saveCanvasProjectData node\nsave date node will be created.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "e6ca900d-d66c-4253-ae91-d612b13a3a71": {
+          "id": "e6ca900d-d66c-4253-ae91-d612b13a3a71",
+          "x": 25733,
+          "y": -8798,
+          "label": "At first scheme json-code will be loaded in menu.\nThen scheme will be updated from menu.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6f687f53-91cc-4da8-aa26-2ee119ebda82": {
+          "id": "6f687f53-91cc-4da8-aa26-2ee119ebda82",
+          "x": 15649,
+          "y": -9199,
+          "label": "Сохранение и загрузка"
+        },
+        "07a55034-8980-434d-9f67-42c28ed622fe": {
+          "id": "07a55034-8980-434d-9f67-42c28ed622fe",
+          "x": 24832,
+          "y": -8799,
+          "label": "Save and load"
+        },
+        "13d3349a-8ce3-48a7-988f-04179ecb12bf": {
+          "id": "13d3349a-8ce3-48a7-988f-04179ecb12bf",
+          "x": 15727,
+          "y": -19624,
+          "label": "projectSaveId"
+        },
+        "d3f17392-e238-41e6-9a07-4cbcad530e32": {
+          "id": "d3f17392-e238-41e6-9a07-4cbcad530e32",
+          "x": 15931,
+          "y": -19623,
+          "label": "projectSaveId: mainPage1"
+        },
+        "d4a5eef0-c4e7-4347-9ddd-cda5914df0a1": {
+          "id": "d4a5eef0-c4e7-4347-9ddd-cda5914df0a1",
+          "x": 15997,
+          "y": -9044,
+          "label": "Вывести в консоли список ключей browser local storage"
+        },
+        "f824df76-098b-4d25-9987-a5e2ff505841": {
+          "id": "f824df76-098b-4d25-9987-a5e2ff505841",
+          "x": 16356,
+          "y": -9045,
+          "label": "showBrowserLocalStorageKeys()"
+        },
+        "a2e44315-404d-40f8-bb2a-5f788c69e548": {
+          "id": "a2e44315-404d-40f8-bb2a-5f788c69e548",
+          "x": 16016,
+          "y": -8987,
+          "label": "В консоли удалить из browser local storage элемент по ключу"
+        },
+        "e14d58fc-a6ee-40e5-abfa-42be09c2ffb1": {
+          "id": "e14d58fc-a6ee-40e5-abfa-42be09c2ffb1",
+          "x": 16373,
+          "y": -8988,
+          "label": "localStorage.removeItem(keyName)"
+        },
+        "dc83cdd3-80f4-4222-920e-253cd92fc719": {
+          "id": "dc83cdd3-80f4-4222-920e-253cd92fc719",
+          "x": 25131,
+          "y": -8714,
+          "label": "Show in console list of keys in browser local storage.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6248c6c5-2ee7-4480-b958-78347878c9c4": {
+          "id": "6248c6c5-2ee7-4480-b958-78347878c9c4",
+          "x": 25553,
+          "y": -8714,
+          "label": "showBrowserLocalStorageKeys()",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "15256d90-5edf-46e0-9144-876a83237246": {
+          "id": "15256d90-5edf-46e0-9144-876a83237246",
+          "x": 25157,
+          "y": -8654,
+          "label": "In console remove items by keys from browser local storage.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6e39fa25-9234-4d1a-94f9-e3e83425723a": {
+          "id": "6e39fa25-9234-4d1a-94f9-e3e83425723a",
+          "x": 25560,
+          "y": -8658,
+          "label": "localStorage.removeItem(keyName)",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         }
       },
       "length": 0,
@@ -3830,6 +4372,211 @@ var schemeData =
           "from": "28606e38-66b9-4360-bd26-57e745089b6c",
           "to": "28056588-8284-4009-9d1d-cbc9d804a95d",
           "id": "b38e769f-10b2-4e96-8d5f-e892522f8fde"
+        },
+        "71fc66d2-d053-4591-b15f-a3aa65da749c": {
+          "from": "49408e40-e33c-46d8-b891-8ada89507c28",
+          "to": "90019792-8278-4ffb-abf1-f3d773b937c4",
+          "id": "71fc66d2-d053-4591-b15f-a3aa65da749c"
+        },
+        "3f906c6a-2359-4b6a-9101-de6cd8e2274e": {
+          "from": "49408e40-e33c-46d8-b891-8ada89507c28",
+          "to": "369a40d5-12e0-4d85-8879-817e03608d01",
+          "id": "3f906c6a-2359-4b6a-9101-de6cd8e2274e"
+        },
+        "9e18b5f0-54bc-4f9e-a7f4-fa3ad139640c": {
+          "from": "49408e40-e33c-46d8-b891-8ada89507c28",
+          "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b",
+          "id": "9e18b5f0-54bc-4f9e-a7f4-fa3ad139640c"
+        },
+        "7671e17b-3374-4719-a857-4134dc351cdf": {
+          "from": "49408e40-e33c-46d8-b891-8ada89507c28",
+          "to": "db88dea5-4ac5-4498-b75f-272e6df65d13",
+          "id": "7671e17b-3374-4719-a857-4134dc351cdf"
+        },
+        "d6d5805d-81f4-4a32-ab01-7c45f4040fd9": {
+          "from": "db88dea5-4ac5-4498-b75f-272e6df65d13",
+          "to": "071aa7d3-3cf2-4f92-9464-97feaf1f67ad",
+          "id": "d6d5805d-81f4-4a32-ab01-7c45f4040fd9"
+        },
+        "fcf153d9-7bc1-440e-bcfe-6c620980ccbe": {
+          "from": "071aa7d3-3cf2-4f92-9464-97feaf1f67ad",
+          "to": "b3044a16-ab10-42a2-8575-cd7ae6afcb29",
+          "id": "fcf153d9-7bc1-440e-bcfe-6c620980ccbe"
+        },
+        "cbb7d212-fa75-4761-b55a-a6bb7a9b9347": {
+          "from": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b",
+          "to": "6abe4705-ff11-4589-8481-fbe58438ebb4",
+          "id": "cbb7d212-fa75-4761-b55a-a6bb7a9b9347"
+        },
+        "92a5a9a1-b13b-400d-955f-ad23514669b1": {
+          "from": "6abe4705-ff11-4589-8481-fbe58438ebb4",
+          "to": "199906e3-e0eb-4c0d-b754-177e5dbaed45",
+          "id": "92a5a9a1-b13b-400d-955f-ad23514669b1"
+        },
+        "5fdc8c7d-62b2-40d6-9b2c-c5a48b2ef272": {
+          "from": "369a40d5-12e0-4d85-8879-817e03608d01",
+          "to": "81dd7c39-58a2-48a0-81f1-a859ed9e5f79",
+          "id": "5fdc8c7d-62b2-40d6-9b2c-c5a48b2ef272"
+        },
+        "9c71a644-2de6-4df5-b4a8-e588c0fc93f6": {
+          "from": "81dd7c39-58a2-48a0-81f1-a859ed9e5f79",
+          "to": "2bb27899-66c3-4ec8-a0aa-c29a7744e9b4",
+          "id": "9c71a644-2de6-4df5-b4a8-e588c0fc93f6"
+        },
+        "febc3751-5933-4fa0-b62a-1e6982efc4b5": {
+          "from": "90019792-8278-4ffb-abf1-f3d773b937c4",
+          "to": "4c775dd3-7c16-4e12-804a-994917a27aad",
+          "id": "febc3751-5933-4fa0-b62a-1e6982efc4b5"
+        },
+        "51876dc9-3a2d-4cfe-a66a-fa46b934f32f": {
+          "from": "4c775dd3-7c16-4e12-804a-994917a27aad",
+          "to": "343a2247-18a3-4bea-b1c1-49f0744d7cc2",
+          "id": "51876dc9-3a2d-4cfe-a66a-fa46b934f32f"
+        },
+        "75e94800-dfae-4ed9-8a7b-c448f5a72b4c": {
+          "from": "87acb101-5f15-4dfd-9d17-2b95b9f3a5f5",
+          "to": "1fcad7eb-7ee4-4065-8814-8766eab6bcc1",
+          "id": "75e94800-dfae-4ed9-8a7b-c448f5a72b4c"
+        },
+        "79af0987-54f0-4d2c-9bdb-7bfe1fcd9795": {
+          "from": "3dc28efb-58bf-4079-b4bf-fef2db3f2066",
+          "to": "9c017941-92dc-4c0a-8029-19756d681ee6",
+          "id": "79af0987-54f0-4d2c-9bdb-7bfe1fcd9795"
+        },
+        "7ff28628-10a5-4e52-b85b-7ef8845bac66": {
+          "from": "9c017941-92dc-4c0a-8029-19756d681ee6",
+          "to": "87acb101-5f15-4dfd-9d17-2b95b9f3a5f5",
+          "id": "7ff28628-10a5-4e52-b85b-7ef8845bac66"
+        },
+        "db1bf79f-d152-4138-a259-0277a80bdde1": {
+          "from": "2701a17b-792c-4cc0-98c7-12a0ae3820d2",
+          "to": "49408e40-e33c-46d8-b891-8ada89507c28",
+          "id": "db1bf79f-d152-4138-a259-0277a80bdde1"
+        },
+        "b0282833-3bc7-49ff-9e23-343520046a7d": {
+          "from": "3dc28efb-58bf-4079-b4bf-fef2db3f2066",
+          "to": "2701a17b-792c-4cc0-98c7-12a0ae3820d2",
+          "id": "b0282833-3bc7-49ff-9e23-343520046a7d"
+        },
+        "576795b7-78a8-4c14-8343-ee1ff26ae2bc": {
+          "from": "c00144df-8d18-47d6-b3ac-effce2323769",
+          "to": "51235d2d-d4fb-4f0b-a275-77976c6728ae",
+          "id": "576795b7-78a8-4c14-8343-ee1ff26ae2bc"
+        },
+        "7be1ae66-202a-402d-b25e-386883f378b3": {
+          "from": "51235d2d-d4fb-4f0b-a275-77976c6728ae",
+          "to": "d6d2c067-4802-47b8-9a26-0651849fe1b2",
+          "id": "7be1ae66-202a-402d-b25e-386883f378b3"
+        },
+        "4397c9d1-565f-4a48-817e-8e139242d30d": {
+          "from": "7333304b-0641-4095-8128-b3ab5ee7b8a4",
+          "to": "3a096daf-6a68-49ae-b74b-b20a0e1fd115",
+          "id": "4397c9d1-565f-4a48-817e-8e139242d30d"
+        },
+        "e07e9971-5407-475b-b960-81525a61d0f8": {
+          "from": "3a096daf-6a68-49ae-b74b-b20a0e1fd115",
+          "to": "1fcaf981-ffce-478f-9d43-4f38323119e0",
+          "id": "e07e9971-5407-475b-b960-81525a61d0f8"
+        },
+        "ae73f9e3-5b9d-4338-bdf1-e00732693483": {
+          "from": "cc8e6464-8c63-4dff-bd01-cae948551537",
+          "to": "7c447d53-2b12-454d-b739-f115e827d65e",
+          "id": "ae73f9e3-5b9d-4338-bdf1-e00732693483"
+        },
+        "e9520818-5886-4de0-bac4-98aafad82154": {
+          "from": "7c447d53-2b12-454d-b739-f115e827d65e",
+          "to": "03fdf934-eb51-4d12-b029-d0332d266a04",
+          "id": "e9520818-5886-4de0-bac4-98aafad82154"
+        },
+        "b8a3596f-7164-49b5-b958-c5d0d6eba405": {
+          "from": "e1920ad1-d46d-4b40-af05-a0360cfa6995",
+          "to": "dcfae344-093e-4b35-830a-b1c73dc9669c",
+          "id": "b8a3596f-7164-49b5-b958-c5d0d6eba405"
+        },
+        "87a87538-44dc-4a59-b0e2-849c5f310535": {
+          "from": "dcfae344-093e-4b35-830a-b1c73dc9669c",
+          "to": "e6ca900d-d66c-4253-ae91-d612b13a3a71",
+          "id": "87a87538-44dc-4a59-b0e2-849c5f310535"
+        },
+        "a43b512d-fa93-42db-8fa6-b665d345d5aa": {
+          "from": "28606e38-66b9-4360-bd26-57e745089b6c",
+          "to": "6f687f53-91cc-4da8-aa26-2ee119ebda82",
+          "id": "a43b512d-fa93-42db-8fa6-b665d345d5aa"
+        },
+        "e109c73e-2226-4c9f-a3e6-9ef2dbbdca3f": {
+          "from": "6f687f53-91cc-4da8-aa26-2ee119ebda82",
+          "to": "c00144df-8d18-47d6-b3ac-effce2323769",
+          "id": "e109c73e-2226-4c9f-a3e6-9ef2dbbdca3f"
+        },
+        "6d3b4ca0-b3e9-4605-b90e-20de791dd6e2": {
+          "from": "6f687f53-91cc-4da8-aa26-2ee119ebda82",
+          "to": "7333304b-0641-4095-8128-b3ab5ee7b8a4",
+          "id": "6d3b4ca0-b3e9-4605-b90e-20de791dd6e2"
+        },
+        "579b1670-4932-447e-9066-1924125da8fd": {
+          "from": "e9f35a53-56ce-4e8e-bfc2-d3ff89dfc2ef",
+          "to": "07a55034-8980-434d-9f67-42c28ed622fe",
+          "id": "579b1670-4932-447e-9066-1924125da8fd"
+        },
+        "76caec56-139e-41b8-974c-cded54e0a5a6": {
+          "from": "07a55034-8980-434d-9f67-42c28ed622fe",
+          "to": "cc8e6464-8c63-4dff-bd01-cae948551537",
+          "id": "76caec56-139e-41b8-974c-cded54e0a5a6"
+        },
+        "2dd791e7-c9a0-4a7b-8b52-a88c4f05d8cf": {
+          "from": "07a55034-8980-434d-9f67-42c28ed622fe",
+          "to": "e1920ad1-d46d-4b40-af05-a0360cfa6995",
+          "id": "2dd791e7-c9a0-4a7b-8b52-a88c4f05d8cf"
+        },
+        "ba123857-bae8-4cd4-a67f-d85332b08635": {
+          "from": "2701a17b-792c-4cc0-98c7-12a0ae3820d2",
+          "to": "13d3349a-8ce3-48a7-988f-04179ecb12bf",
+          "id": "ba123857-bae8-4cd4-a67f-d85332b08635"
+        },
+        "9703868f-8e77-42f8-9560-748c18dfdddf": {
+          "from": "13d3349a-8ce3-48a7-988f-04179ecb12bf",
+          "to": "d3f17392-e238-41e6-9a07-4cbcad530e32",
+          "id": "9703868f-8e77-42f8-9560-748c18dfdddf"
+        },
+        "b227c34a-fe8d-4e9b-b49d-160e27f9a908": {
+          "from": "6f687f53-91cc-4da8-aa26-2ee119ebda82",
+          "to": "d4a5eef0-c4e7-4347-9ddd-cda5914df0a1",
+          "id": "b227c34a-fe8d-4e9b-b49d-160e27f9a908"
+        },
+        "54d1403f-c982-43c2-aa29-bae5bb5d5ca7": {
+          "from": "d4a5eef0-c4e7-4347-9ddd-cda5914df0a1",
+          "to": "f824df76-098b-4d25-9987-a5e2ff505841",
+          "id": "54d1403f-c982-43c2-aa29-bae5bb5d5ca7"
+        },
+        "39680986-50c9-4de5-8075-72666fbe138e": {
+          "from": "a2e44315-404d-40f8-bb2a-5f788c69e548",
+          "to": "e14d58fc-a6ee-40e5-abfa-42be09c2ffb1",
+          "id": "39680986-50c9-4de5-8075-72666fbe138e"
+        },
+        "6cd91c7a-fffb-46d5-8a94-cb67ca5cb401": {
+          "from": "6f687f53-91cc-4da8-aa26-2ee119ebda82",
+          "to": "a2e44315-404d-40f8-bb2a-5f788c69e548",
+          "id": "6cd91c7a-fffb-46d5-8a94-cb67ca5cb401"
+        },
+        "01c7b071-2b68-447b-a1c5-7d0d922f14d7": {
+          "from": "07a55034-8980-434d-9f67-42c28ed622fe",
+          "to": "dc83cdd3-80f4-4222-920e-253cd92fc719",
+          "id": "01c7b071-2b68-447b-a1c5-7d0d922f14d7"
+        },
+        "fd994ae7-4614-4448-ad9f-ab6c8541b13f": {
+          "from": "07a55034-8980-434d-9f67-42c28ed622fe",
+          "to": "15256d90-5edf-46e0-9144-876a83237246",
+          "id": "fd994ae7-4614-4448-ad9f-ab6c8541b13f"
+        },
+        "80fb7772-966a-4ce5-9069-f0817499cda3": {
+          "from": "15256d90-5edf-46e0-9144-876a83237246",
+          "to": "6e39fa25-9234-4d1a-94f9-e3e83425723a",
+          "id": "80fb7772-966a-4ce5-9069-f0817499cda3"
+        },
+        "91edcffe-68cd-471c-b351-63b9ceb63bfd": {
+          "from": "dc83cdd3-80f4-4222-920e-253cd92fc719",
+          "to": "6248c6c5-2ee7-4480-b958-78347878c9c4",
+          "id": "91edcffe-68cd-471c-b351-63b9ceb63bfd"
         }
       },
       "length": 0,
@@ -3876,10 +4623,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.7283446954993754,
+    "scale": 0.834295689709155,
     "viewPosition": {
-      "x": 900.7656704277979,
-      "y": -5342.6055436978395
+      "x": 845.3818328000199,
+      "y": -5358.5691198865525
     }
   }
 }

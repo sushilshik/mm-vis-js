@@ -20,6 +20,11 @@ var drawingSurfaceImageData;
 var containerJQ = $("div#network");
 var doubleClickTimeThreshold = 300;
 var doubleClick = false;
+var loadSavedProjectToMenuButton;
+var deleteSavedProjectButton;
+var projectSaveNodeNamePrefix = "projectSave_";
+var saveCanvasProjectDataLine = "saveCanvasProjectData";
+var projectSaveIdLine = "projectSaveId";
 ///////////////////////////////////
 
 function getUrlVars() {
@@ -82,6 +87,16 @@ data1 = {
 };
 
 var seed = 2;
+
+function getNodeById(data, id) {
+	for (var n = 0; n < data.length; n++) {
+		if (data[n].id == id) { 
+			return data[n];
+		}
+	};
+
+	throw 'Can not find id \'' + id + '\' in data';
+}
 
 function destroy() {
 	if (network !== null) {
@@ -155,7 +170,10 @@ function draw() {
 				else {
 					callback(data);
 				}
-			}
+			},
+			deleteNode: function (data, callback) {
+				callback(data);
+			},
 		}
 	};
 	var options1 = {
@@ -441,6 +459,15 @@ function draw() {
 		if (typeof nodeD.color !== "undefined" && nodeD.color.length > 0) {
 			nodeBorderColorInput.val(nodeD.color.border);
 		}
+		if (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + ".*")) >= 0) {
+			loadSavedProjectToMenuButton.show();
+			loadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;
+			deleteSavedProjectButton.show();
+			deleteSavedProjectButton.saveProjectLabel = nodeD.label;
+		} else {
+			loadSavedProjectToMenuButton.hide();
+			deleteSavedProjectButton.hide();
+		}
 	});
 	network.on('resize', function(properties) {
 		canvasWidth = properties.width;
@@ -676,6 +703,178 @@ function getStartToEnd(start, theLen) {
     return theLen > 0 ? {start: start, end: start + theLen} : {start: start + theLen, end: start};
 }
 
+function getNodesByRegexSearchInLabel(network, regex) {
+	var nodes = network.body.data.nodes.get();
+	var foundNodes = []
+	for (var n = 0; n < nodes.length; n++) {
+		if ((typeof nodes[n].label !== "undefined") && (nodes[n].label.search(regex) >= 0)) { 
+			foundNodes.push(nodes[n]);
+		}
+	};
+	return foundNodes;
+}
+
+function updateNodePositionData(network, node) {
+	var nodesPositions = objectToArray(network.getPositions());
+	for (var n = 0; n < nodesPositions.length; n++) {
+		if (nodesPositions[n].id == node.id) { 
+			node.x = nodesPositions[n].x;
+			node.y = nodesPositions[n].y;
+		}
+	};
+}
+function makeSaveProjectToBrowserNode(label, positionX, positionY) {
+	network.body.data.nodes.add([{
+		label:label,
+		x:positionX,
+		y:positionY
+	}]);
+}
+function findProjectSavesKeys() {
+	var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveCanvasProjectDataLine + "$"));
+	if (saveCanvasProjectDataNodes.length == 0) {
+		console.log("ERROR: no saveCanvasProjectData node");
+		return;
+	}
+	var saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];
+	var projectSaveId = getProjectId(saveCanvasProjectDataNode, network);
+	var saveNameRegex = new RegExp(projectSaveNodeNamePrefix + projectSaveId + "_.*");
+	var storageItemsSize = localStorage.length;
+	var keys = [];
+	for (var i = 0; i < storageItemsSize; i++) {
+		var storageKey = localStorage.key(i);
+		if (storageKey.search(saveNameRegex) >= 0) {
+			keys.push(localStorage.key(i));
+		}
+	}
+	return keys;
+}
+function deleteNodesIfTheyAreProjectSaves(network, nodes) {
+	var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveCanvasProjectDataLine + "$"));
+	if (saveCanvasProjectDataNodes.length == 0) {
+		console.log("ERROR: no saveCanvasProjectData node");
+		return;
+	}
+	var saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];
+	var projectSaveId = getProjectId(saveCanvasProjectDataNode, network);
+	objectToArray(data.nodes).forEach(function(nodeId) {
+		var node = getNodeById(network.body.data.nodes.get(), nodeId);
+		if (node.label.search(new RegExp(projectSaveNodeNamePrefix + projectSaveId + "_.*")) >= 0) {
+			localStorage.removeItem(node.label);
+		}
+	});
+}
+function removeSaveNodes() {
+	var oldSavesKeys = findProjectSavesKeys();
+	var nodes = network.body.data.nodes;
+	for (var i = 0; i < oldSavesKeys.length; i++) {
+		var key = oldSavesKeys[i];
+		var saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(key));
+		saveCanvasProjectDateNodes.forEach(function(node) {
+			nodes.remove(node.id);
+		});
+	}
+}
+function getProjectId(saveCanvasProjectDataNode, network) {
+	var projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(projectSaveIdLine));
+	if (projectSaveIdNodes.length == 0) {
+		console.log("ERROR: no " + projectSaveIdLine + " node");
+		return;
+	}
+	var projectSaveIdNode = projectSaveIdNodes[0];
+	var connectedNodesIds = network.getConnectedNodes(projectSaveIdNode.id);
+	var projectIdNode;
+	connectedNodesIds.forEach(function(nodeId) {
+		var node = getNodeById(network.body.data.nodes.get(), nodeId);
+		if (node.label.split(": ")[0] == "projectSaveId") {
+			projectIdNode = node;
+		}
+	});
+	return projectIdNode.label.split(": ")[1]; 
+}
+function buildSaveNodesList() {
+	var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveCanvasProjectDataLine + "$"));
+	if (saveCanvasProjectDataNodes.length == 0) {
+		console.log("ERROR: no saveCanvasProjectData node");
+		return;
+	}
+	var saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];
+	updateNodePositionData(network, saveCanvasProjectDataNode);
+	var oldSavesKeys = findProjectSavesKeys();
+	oldSavesKeys.forEach(function(key,i) {
+		makeSaveProjectToBrowserNode(
+			key,
+			saveCanvasProjectDataNode.x + 400, 
+			saveCanvasProjectDataNode.y + 40*i);
+	});
+}
+function deleteProjectLocalStorageSaves(network) {
+	var oldSavesKeys = findProjectSavesKeys();
+	for (var i = 0; i < oldSavesKeys.length; i++) {
+		var key = oldSavesKeys[i];
+		localStorage.removeItem(key);
+	}
+}
+function deleteLocalStorageSavesAndSaveNodes(network) {
+	removeSaveNodes();
+	deleteProjectLocalStorageSaves(network);
+}
+function deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveName) {
+	localStorage.removeItem(saveName);
+	var saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(saveName));
+	saveCanvasProjectDateNodes.forEach(function(node) {
+		nodes.remove(node.id);
+	});
+}
+function loadSavedProjectDataToDataMenuBySaveName(network, saveName) {
+	var jsonString = localStorage.getItem(saveName);
+	$("textarea#schemeDataTextArea").val(jsonString);
+}
+function saveProjectToBrowserLocalStorage(network) {
+	removeSaveNodes();
+	var date = new Date().toLocaleString("ru-RU");
+	date = date.replace(/\./g,"-");
+	date = date.replace(/:/g,"-");
+	date = date.replace(/,/g,"_");
+	date = date.replace(" ","");
+	var projectJson = $("textarea#schemeDataTextArea").val();
+	var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveCanvasProjectDataLine + "$"));
+	if (saveCanvasProjectDataNodes.length == 0) {
+		console.log("ERROR: no saveCanvasProjectData node");
+		return;
+	}
+	var saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];
+	var projectSaveId = getProjectId(saveCanvasProjectDataNode, network);
+	localStorage.setItem(projectSaveNodeNamePrefix + projectSaveId + "_" + date,projectJson);
+	buildSaveNodesList();
+}
+function clearBrowserLocalStorage() {
+	var storageItemsSize = localStorage.length;
+	var keys = [];
+	for (var i = 0; i < storageItemsSize; i++) {
+		keys.push(localStorage.key(i));
+	}
+	for (var i = 0; i < storageItemsSize; i++) {
+		var key = keys[i];
+		localStorage.removeItem(key);
+	}
+}
+function showBrowserLocalStorage() {
+	var storageItemsSize = localStorage.length;
+	for (var i = 0; i < storageItemsSize; i++) {
+		var key = localStorage.key(i);
+		console.log("key: " + key);
+		console.log(localStorage.getItem(key));
+	}
+}
+function showBrowserLocalStorageKeys() {
+	var storageItemsSize = localStorage.length;
+	for (var i = 0; i < storageItemsSize; i++) {
+		var key = localStorage.key(i);
+		console.log("key: " + key);
+	}
+}
+
 $(document).ready(function() {
 	containerJQ[0].oncontextmenu = () => false;
 	//topMenu = $("<div style='margin:0 0 0 0; padding:3px; background-color: black;color:white;z-index:9999'></div>");
@@ -809,7 +1008,7 @@ $(document).ready(function() {
 
 	schemeEditElementsMenu.append(elementsSetupTable);
 
-	var saveElementEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElementEditButton</span></div>");
+	var saveElementEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElement</span></div>");
 	schemeEditElementsMenu.append(saveElementEditButton);
 
 	saveElementEditButton.click(function() {
@@ -844,7 +1043,7 @@ $(document).ready(function() {
 		//console.log(network.body.data.nodes.get(nodeD.id));
 	});
 
-	var closeElementEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeElementEditButton'>closeElementEditButton</span></div>");
+	var closeElementEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeElementEditButton'>closeElement</span></div>");
 	schemeEditElementsMenu.append(closeElementEditButton);
 	closeElementEditButton.click(function() {
 		schemeEditElementsMenu.hide();
@@ -853,11 +1052,53 @@ $(document).ready(function() {
 	var leftMenuHelpLine1 = $("<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>");
 	schemeEditElementsMenu.append(leftMenuHelpLine1);
 
+	loadSavedProjectToMenuButton = $("<div style='cursor:pointer;margin:80px 0 0 0'><span id='loadSavedProjectToMenuButton'>loadSavedProjectToMenu</span></div>");
+	schemeEditElementsMenu.append(loadSavedProjectToMenuButton);
+	loadSavedProjectToMenuButton.hide();
+	loadSavedProjectToMenuButton.click(function() {
+		var saveLabel = loadSavedProjectToMenuButton.saveProjectLabel;
+		loadSavedProjectDataToDataMenuBySaveName(network, saveLabel);
+	});;
+	deleteSavedProjectButton = $("<div style='cursor:pointer;margin:40px 0 0 0'><span id='deleteSavedProjectButton'>!!deleteSavedProject!!</span></div>");
+	schemeEditElementsMenu.append(deleteSavedProjectButton);
+	deleteSavedProjectButton.hide();
+	deleteSavedProjectButton.click(function() {
+		var saveLabel = deleteSavedProjectButton.saveProjectLabel;
+		deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveLabel);
+	});
+
 	schemeDataMenu = $("<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:white;border-left: 1px solid #a3a3a3;z-index:5000; padding: 40px 20px 20px 20px'></div>");
 	//schemeDataMenu.hide()
 	schemeDataTextArea = $("<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>");
 	schemeDataMenu.append(schemeDataTextArea);
+	saveLoadButton = $("<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>");
+	schemeDataMenu.append(saveLoadButton);
 	body.append(schemeDataMenu);
+	saveLoadButton.click(function() {
+		var regex = saveCanvasProjectDataLine;
+		var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + regex + "$"));
+		if ((typeof saveCanvasProjectDataNodes === "undefined") || (saveCanvasProjectDataNodes.length == 0)) {
+			alert("Add node with label '" + saveCanvasProjectDataLine + "' to set position for canvas save information.");
+		} else {
+			var node = saveCanvasProjectDataNodes[0];
+			updateNodePositionData(network, node);
+			var scale = network.getScale();
+			var n1X = parseFloat(node.x.toFixed(5));
+			var n1Y = parseFloat(node.y.toFixed(5));
+			var positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));
+			var positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));
+			network.moveTo({
+				position: {x: positionX, y: positionY},
+				offset: {x: -canvasWidth/2, y: -canvasHeight/2},
+				scale: scale,
+			});
+			network1.moveTo({
+				position: {x: positionX, y: positionY},
+				offset: {x: -canvasWidth/2, y: -canvasHeight/2},
+				scale: scale,
+			});
+		}
+	});
 	showDataButton.click(function() {
 		schemeDataMenu.toggle();
 	});
@@ -865,12 +1106,16 @@ $(document).ready(function() {
 	if (typeof runUpateMenuFromSchemeAtPageReady !== "undefined" && runUpateMenuFromSchemeAtPageReady) {
 		updateMenuFromScheme();
 	}
+	removeSaveNodes();
+	buildSaveNodesList();
 	var updateSchemeFromMenuButton = $("<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateSchemeFromMenuButton' style='background-color:white;color:black;'>updateSchemeFromMenu</span></div>");
 	var updateMenuFromSchemeButton = $("<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateMenuFromSchemeButton' style='background-color:white;color:black;'>updateMenuFromScheme</span></div>");
 	schemeDataMenu.prepend(updateMenuFromSchemeButton);
 	schemeDataMenu.prepend(updateSchemeFromMenuButton);
 	updateSchemeFromMenuButton.click(function() {
 		updateSchemeFromMenu();
+		removeSaveNodes();
+		buildSaveNodesList();
 	});
 
 	function addConnections(elem, index) {
@@ -911,16 +1156,6 @@ $(document).ready(function() {
 		return new vis.DataSet(networkNodes);
 	}
 
-	function getNodeById(data, id) {
-		for (var n = 0; n < data.length; n++) {
-			if (data[n].id == id) { 
-				return data[n];
-			}
-		};
-
-		throw 'Can not find id \'' + id + '\' in data';
-	}
-
 	function getEdgeData(data) {
 		var networkEdges = [];
 
@@ -946,7 +1181,9 @@ $(document).ready(function() {
 	}
 
 	updateMenuFromSchemeButton.click(function() {
+		removeSaveNodes();
 		updateMenuFromScheme();
+		saveProjectToBrowserLocalStorage(network);
 	});
 });
 
