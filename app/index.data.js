@@ -2654,7 +2654,7 @@ var schemeData =
           "id": "81dd7c39-58a2-48a0-81f1-a859ed9e5f79",
           "x": 16151,
           "y": -19892,
-          "label": "Кликните по ноде с датой сохранения.\nПотом кликните в ее меню (слева на экране)\nпо loadSavedProjectToMenu.\nПотом кликните updateSchemeFromMenu.",
+          "label": "Кликните по ноде с датой сохранения.\nПотом кликните в ее меню (слева на экране)\nпо loadSavedProjectToMenu.",
           "shape": "box",
           "link": "",
           "font": {
@@ -2668,7 +2668,7 @@ var schemeData =
         },
         "343a2247-18a3-4bea-b1c1-49f0744d7cc2": {
           "id": "343a2247-18a3-4bea-b1c1-49f0744d7cc2",
-          "x": 16587,
+          "x": 16585,
           "y": -19977,
           "label": "Json-код схемы обновится в меню и сохранится\nв локальном хранилище браузера. \nДанные остаются в хранилище постоянно.\nРядом с нодой saveCanvasProjectData\nпоявится нода с датой сохранения.",
           "shape": "box",
@@ -2684,9 +2684,9 @@ var schemeData =
         },
         "2bb27899-66c3-4ec8-a0aa-c29a7744e9b4": {
           "id": "2bb27899-66c3-4ec8-a0aa-c29a7744e9b4",
-          "x": 16572,
-          "y": -19897,
-          "label": "Сначала json-код схемы загрузится в меню.\nПотом из меню обновится схема.",
+          "x": 16548,
+          "y": -19893,
+          "label": "Json-код схемы загрузится в меню и \nсхема обновится.",
           "shape": "box",
           "link": "",
           "font": {
@@ -2736,7 +2736,7 @@ var schemeData =
           "id": "071aa7d3-3cf2-4f92-9464-97feaf1f67ad",
           "x": 16167,
           "y": -19725,
-          "label": "Click on node with save date. Then click in it's menu\n(on the left of screen) on loadSavedProjectToMenu.\nThen click updateSchemeFromMenu.",
+          "label": "Click on node with save date. Then click in it's menu\n(on the left of screen) on loadSavedProjectToMenu.",
           "shape": "box",
           "link": "",
           "font": {
@@ -2750,7 +2750,7 @@ var schemeData =
         },
         "199906e3-e0eb-4c0d-b754-177e5dbaed45": {
           "id": "199906e3-e0eb-4c0d-b754-177e5dbaed45",
-          "x": 16564,
+          "x": 16563,
           "y": -19807,
           "label": "Scheme json-code will be updated in menu\nand saved in browser local storage.\nData is saved permanently there.\nNear saveCanvasProjectData node\nsave date node will be created.",
           "shape": "box",
@@ -2766,9 +2766,9 @@ var schemeData =
         },
         "b3044a16-ab10-42a2-8575-cd7ae6afcb29": {
           "id": "b3044a16-ab10-42a2-8575-cd7ae6afcb29",
-          "x": 16583,
-          "y": -19726,
-          "label": "At first scheme json-code will be loaded in menu.\nThen scheme will be updated from menu.",
+          "x": 16651,
+          "y": -19723,
+          "label": "Scheme json-code will be loaded to menu and scheme will be updated.",
           "shape": "box",
           "link": "",
           "font": {
@@ -2904,7 +2904,7 @@ var schemeData =
           "id": "3a096daf-6a68-49ae-b74b-b20a0e1fd115",
           "x": 16211,
           "y": -9159,
-          "label": "Кликните по ноде с датой сохранения.\nПотом кликните в ее меню (слева на экране)\nпо loadSavedProjectToMenu.\nПотом кликните updateSchemeFromMenu.",
+          "label": "Кликните по ноде с датой сохранения.\nПотом кликните в ее меню (слева на экране)\nпо loadSavedProjectToMenu.",
           "shape": "box",
           "link": "",
           "font": {
@@ -2936,7 +2936,7 @@ var schemeData =
           "id": "dcfae344-093e-4b35-830a-b1c73dc9669c",
           "x": 25323,
           "y": -8807,
-          "label": "Click on node with save date. Then click in it's menu\n(on the left of screen) on loadSavedProjectToMenu.\nThen click updateSchemeFromMenu.",
+          "label": "Click on node with save date. Then click in it's menu\n(on the left of screen) on loadSavedProjectToMenu.",
           "shape": "box",
           "link": "",
           "font": {
@@ -2966,9 +2966,9 @@ var schemeData =
         },
         "1fcaf981-ffce-478f-9d43-4f38323119e0": {
           "id": "1fcaf981-ffce-478f-9d43-4f38323119e0",
-          "x": 16651,
-          "y": -9168,
-          "label": "Сначала json-код схемы загрузится в меню.\nПотом из меню обновится схема.",
+          "x": 16691,
+          "y": -9161,
+          "label": "Json-код схемы загрузится в меню и схема обновится.",
           "shape": "box",
           "link": "",
           "font": {
@@ -2998,9 +2998,9 @@ var schemeData =
         },
         "e6ca900d-d66c-4253-ae91-d612b13a3a71": {
           "id": "e6ca900d-d66c-4253-ae91-d612b13a3a71",
-          "x": 25733,
-          "y": -8798,
-          "label": "At first scheme json-code will be loaded in menu.\nThen scheme will be updated from menu.",
+          "x": 25803,
+          "y": -8802,
+          "label": "Scheme json-code will be loaded in menu and scheme will be updated.",
           "shape": "box",
           "link": "",
           "font": {
@@ -4623,10 +4623,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.834295689709155,
+    "scale": 0.8209186670213785,
     "viewPosition": {
-      "x": 845.3818328000199,
-      "y": -5358.5691198865525
+      "x": 779.7400744978206,
+      "y": -5354.784418413733
     }
   }
 }

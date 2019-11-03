@@ -1058,6 +1058,9 @@ $(document).ready(function() {
 	loadSavedProjectToMenuButton.click(function() {
 		var saveLabel = loadSavedProjectToMenuButton.saveProjectLabel;
 		loadSavedProjectDataToDataMenuBySaveName(network, saveLabel);
+		updateSchemeFromMenu();
+		removeSaveNodes();
+		buildSaveNodesList();
 	});;
 	deleteSavedProjectButton = $("<div style='cursor:pointer;margin:40px 0 0 0'><span id='deleteSavedProjectButton'>!!deleteSavedProject!!</span></div>");
 	schemeEditElementsMenu.append(deleteSavedProjectButton);
