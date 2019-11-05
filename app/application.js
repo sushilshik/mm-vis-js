@@ -27,6 +27,7 @@ var saveCanvasProjectDataLine = "saveCanvasProjectData";
 var projectSaveIdLine = "projectSaveId";
 var nodesToPaste = [];
 var edgesToPaste = [];
+var themeGraph = false;
 ///////////////////////////////////
 
 function getUrlVars() {
@@ -384,6 +385,27 @@ function draw() {
 		};
 		return network.manipulation.makeNodesFromJsonNode.apply(network.manipulation, arguments);
 	};
+	network.createAddThemeGraphButton = function () {
+		network.manipulation.createAddThemeGraphButton = function() {
+			var addThemeGraphClass;
+
+			addThemeGraphClass = 'vis-button vis-addThemeGraphBtn';
+
+			var button = this._createButton('addThemeGraph', addThemeGraphClass, "addThemeGraph");
+
+			this.manipulationDiv.appendChild(button);
+
+			this._bindHammerToDiv(button, network.addThemeGraph.bind(network.manipulation));
+
+		};
+		return network.manipulation.createAddThemeGraphButton.apply(network.manipulation, arguments);
+	};
+	network.addThemeGraph = function () {
+		network.manipulation.addThemeGraph = function() {
+			themeGraph = true;
+		};
+		return network.manipulation.addThemeGraph.apply(network.manipulation, arguments);
+	};
 	network.showManipulatorToolbar = function () {
 		this.manipulation.showManipulatorToolbar = function () {
 			// restore the state of any bound functions or events, remove control nodes, restore physics
@@ -434,6 +456,9 @@ function draw() {
 				}
 				if (selectedNodeCount == 1) {
 					network.createMakeNodesFromJsonNodeButton();
+				}
+				if (selectedNodeCount == 0) {
+					network.createAddThemeGraphButton();
 				}
 
 				this._bindHammerToDiv(this.closeDiv, this.toggleEditMode.bind(this)); // refresh this bar based on what has been selected
@@ -508,6 +533,89 @@ function draw() {
 			});
 			nodesToPaste = [];
 			edgesToPaste = [];
+		}
+		if (themeGraph) {
+			var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})
+			var newNode1Id = network.body.data.nodes.add({
+				label:"New Theme Name",
+				x: position.x,
+				y: position.y,
+				font: {size: 40},
+				color: {background:"red"}
+			});
+			var newNode2Id = network.body.data.nodes.add({
+				label:"Development",
+				x: position.x+300,
+				y: position.y+200 
+			});
+			network.body.data.edges.add({
+				from:newNode1Id[0],
+				to:newNode2Id[0]
+			});
+			var newNode3Id = network.body.data.nodes.add({
+				label:"init",
+				x: position.x+450,
+				y: position.y+200 
+			});
+			network.body.data.edges.add({
+				from:newNode2Id[0],
+				to:newNode3Id[0]
+			});
+			var newNode4Id = network.body.data.nodes.add({
+				label:(new Date().toLocaleDateString()),
+				x: position.x+550,
+				y: position.y+200 
+			});
+			network.body.data.edges.add({
+				from:newNode3Id[0],
+				to:newNode4Id[0]
+			});
+			var newNode5Id = network.body.data.nodes.add({
+				label:"Details",
+				x: position.x+300,
+				y: position.y-100 
+			});
+			network.body.data.edges.add({
+				from:newNode1Id[0],
+				to:newNode5Id[0]
+			});
+			var newNode6Id = network.body.data.nodes.add({
+				label:"List",
+				x: position.x+450,
+				y: position.y-200 
+			});
+			network.body.data.edges.add({
+				from:newNode5Id[0],
+				to:newNode6Id[0]
+			});
+			var newNode7Id = network.body.data.nodes.add({
+				label:"Notes",
+				x: position.x+450,
+				y: position.y-100
+			});
+			network.body.data.edges.add({
+				from:newNode5Id[0],
+				to:newNode7Id[0]
+			});
+			var newNode8Id = network.body.data.nodes.add({
+				label:"Sections",
+				x: position.x+450,
+				y: position.y
+			});
+			network.body.data.edges.add({
+				from:newNode5Id[0],
+				to:newNode8Id[0]
+			});
+			var newNode9Id = network.body.data.nodes.add({
+				label:"Links",
+				x: position.x+550,
+				y: position.y
+			});
+			network.body.data.edges.add({
+				from:newNode8Id[0],
+				to:newNode9Id[0]
+			});
+			themeGraph = false;
 		}
 	}
 
@@ -1208,6 +1316,8 @@ $(document).ready(function() {
 
 	var leftMenuHelpLine1 = $("<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>");
 	schemeEditElementsMenu.append(leftMenuHelpLine1);
+	var leftMenuHelpLine2 = $("<div style='margin:10px 0 0 0'><span id='leftMenuHelpLine2'>nodes yellow color - #ffc63b</span></div>");
+	schemeEditElementsMenu.append(leftMenuHelpLine2);
 
 	loadSavedProjectToMenuButton = $("<div style='cursor:pointer;margin:80px 0 0 0'><span id='loadSavedProjectToMenuButton'>loadSavedProjectToMenu</span></div>");
 	schemeEditElementsMenu.append(loadSavedProjectToMenuButton);
