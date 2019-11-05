@@ -25,6 +25,8 @@ var deleteSavedProjectButton;
 var projectSaveNodeNamePrefix = "projectSave_";
 var saveCanvasProjectDataLine = "saveCanvasProjectData";
 var projectSaveIdLine = "projectSaveId";
+var nodesToPaste = [];
+var edgesToPaste = [];
 ///////////////////////////////////
 
 function getUrlVars() {
@@ -273,6 +275,115 @@ function draw() {
 		};
 		return network.manipulation.createLeftAlignNodesButton.apply(network.manipulation, arguments);
 	};
+	network.createMakeJsonNodeFromSelectionButton = function () {
+		network.manipulation.createMakeJsonNodeFromSelectionButton = function() {
+			var makeJsonNodeFromSelectionNodesClass;
+
+			makeJsonNodeFromSelectionNodesClass = 'vis-button vis-makeJsonNodeFromSelectionNodesBtn';
+
+			var button = this._createButton('makeJsonNodeFromSelectionNodes', makeJsonNodeFromSelectionNodesClass, "toJson");
+
+			this.manipulationDiv.appendChild(button);
+
+			this._bindHammerToDiv(button, network.makeJsonNodeFromSelectionNodes.bind(network.manipulation));
+
+		};
+		return network.manipulation.createMakeJsonNodeFromSelectionButton.apply(network.manipulation, arguments);
+	};
+	network.makeJsonNodeFromSelectionNodes = function () {
+		network.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes = function() {
+			var selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);
+			var selectedEdges = objectToArray(this.selectionHandler.selectionObj.edges);
+			var nodes = []
+			selectedNodes.forEach(function(node) {
+				nodes.push(network.body.data.nodes.get(node.id));
+			});
+			var edges = []
+			selectedEdges.forEach(function(edge) {
+				edges.push(network.body.data.edges.get(edge.id));
+			});
+			//console.log(nodes);
+			//console.log(edges);
+
+			var data = {
+				nodes: [],
+				edges: []
+			};
+
+			var positions1 = network.getPositions();
+			nodes1ToCopy = {}; 
+			nodes.forEach(function(item) {
+				nodes1ToCopy[item.id.toString()] = item;
+			});
+			selectedNodes.forEach(function(node) {
+				objectToArray(positions1).forEach(function(position) {
+					if (node.id == position.id) {
+						node.x = position.x;
+						node.y = position.y;
+					}
+				});
+			});
+			data.nodes = nodes1ToCopy;
+
+			var edges1ToCopy = {}; 
+			edges.forEach(function(item) {
+				edges1ToCopy[item.id.toString()] = item;
+			});
+			data.edges = edges1ToCopy;
+			var label = JSON.stringify(data, undefined, 1);
+			//var label = JSON.stringify(data);
+			var screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})
+			network.body.data.nodes.add([{
+				label:label,
+				x:screenCenterPosition.x,
+				y:screenCenterPosition.y
+			}]);
+		};
+		return network.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes.apply(network.manipulation, arguments);
+	};
+	network.createMakeNodesFromJsonNodeButton = function () {
+		network.manipulation.createMakeNodesFromJsonNodeButton = function() {
+			var makeNodesFromJsonNodeClass;
+
+			makeNodesFromJsonNodeClass = 'vis-button vis-makeNodesFromJsonNodeBtn';
+
+			var button = this._createButton('makeNodesFromJsonNode', makeNodesFromJsonNodeClass, "fromJson");
+
+			this.manipulationDiv.appendChild(button);
+
+			this._bindHammerToDiv(button, network.makeNodesFromJsonNode.bind(network.manipulation));
+
+		};
+		return network.manipulation.createMakeNodesFromJsonNodeButton.apply(network.manipulation, arguments);
+	};
+	network.makeNodesFromJsonNode = function () {
+		network.manipulation.makeNodesFromJsonNode = function() {
+			var selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);
+			var jsonNode = network.body.data.nodes.get(selectedNodes[0].id);
+			var label = jsonNode.label;
+			var data = JSON.parse(label);
+			var date = new Date();
+			var idPostfix = date.getMilliseconds().toString().substring(-7).toString();
+			objectToArray(data.nodes).forEach(function(node) {
+				node.id = node.id + idPostfix;
+				nodesToPaste.push(node);
+				//var newNode = network.nodesHandler.create(node);
+				//network.body.data.nodes.add(newNode.options);
+			});
+			var screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})
+			network.selectionHandler.unselectAll();
+			network.selectionHandler.updateSelection();
+			objectToArray(data.edges).forEach(function(edge) {
+				edge.id = edge.id + idPostfix;	
+				edge.from = edge.from + idPostfix;
+				edge.to = edge.to + idPostfix;
+				edgesToPaste.push(edge);
+				//var newEdge = network.edgesHandler.create(edge);
+				//network.body.data.edges.add(newEdge.options);
+			});
+		};
+		return network.manipulation.makeNodesFromJsonNode.apply(network.manipulation, arguments);
+	};
 	network.showManipulatorToolbar = function () {
 		this.manipulation.showManipulatorToolbar = function () {
 			// restore the state of any bound functions or events, remove control nodes, restore physics
@@ -317,7 +428,13 @@ function draw() {
 					}
 				} // bind the close button
 				
-				network.createLeftAlignNodesButton();
+				if (selectedNodeCount > 0) {
+					network.createLeftAlignNodesButton();
+					network.createMakeJsonNodeFromSelectionButton();
+				}
+				if (selectedNodeCount == 1) {
+					network.createMakeNodesFromJsonNodeButton();
+				}
 
 				this._bindHammerToDiv(this.closeDiv, this.toggleEditMode.bind(this)); // refresh this bar based on what has been selected
 
@@ -366,6 +483,32 @@ function draw() {
 	}
 
 	function doOnClick(e) {
+		if (nodesToPaste.length > 0) {
+			//console.log(e.event.srcEvent);
+			var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})
+			var topLeftNodeX = nodesToPaste[0].x;
+			var topLeftNodeY = nodesToPaste[0].y;
+			nodesToPaste.forEach(function(node) {
+				if (node.x < topLeftNodeX && node.y < topLeftNodeY) {
+					topLeftNodeX = node.x;
+					topLeftNodeY = node.y;
+				}
+			});
+			nodesToPaste.forEach(function(node) {
+				var shiftX = - topLeftNodeX + parseFloat((position.x).toFixed(5));
+				var shiftY = - topLeftNodeY + parseFloat((position.y).toFixed(5));
+				node.x = node.x + shiftX;
+				node.y = node.y + shiftY;
+				var newNode = network.nodesHandler.create(node);
+				network.body.data.nodes.add(newNode.options);
+			});
+			edgesToPaste.forEach(function(edge) {
+				var newEdge = network.edgesHandler.create(edge);
+				network.body.data.edges.add(newEdge.options);
+			});
+			nodesToPaste = [];
+			edgesToPaste = [];
+		}
 	}
 
 	function onDoubleClick(e) {
@@ -734,7 +877,7 @@ function findProjectSavesKeys() {
 	var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveCanvasProjectDataLine + "$"));
 	if (saveCanvasProjectDataNodes.length == 0) {
 		console.log("ERROR: no saveCanvasProjectData node");
-		return;
+		return [];
 	}
 	var saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];
 	var projectSaveId = getProjectId(saveCanvasProjectDataNode, network);
@@ -831,22 +974,36 @@ function loadSavedProjectDataToDataMenuBySaveName(network, saveName) {
 	$("textarea#schemeDataTextArea").val(jsonString);
 }
 function saveProjectToBrowserLocalStorage(network) {
-	removeSaveNodes();
-	var date = new Date().toLocaleString("ru-RU");
-	date = date.replace(/\./g,"-");
-	date = date.replace(/:/g,"-");
-	date = date.replace(/,/g,"_");
-	date = date.replace(" ","");
-	var projectJson = $("textarea#schemeDataTextArea").val();
-	var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveCanvasProjectDataLine + "$"));
-	if (saveCanvasProjectDataNodes.length == 0) {
-		console.log("ERROR: no saveCanvasProjectData node");
-		return;
+	var regex = saveCanvasProjectDataLine;
+	var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + regex + "$"));
+	var projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + projectSaveIdLine + "$"));
+	var projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + projectSaveIdLine + ":.*$"));
+	//console.log(saveCanvasProjectDataNodes);
+	//console.log(projectSaveIdNodes);
+	//console.log(projectSaveIdWithDataNodes);
+	if ((typeof saveCanvasProjectDataNodes === "undefined") || (saveCanvasProjectDataNodes.length == 0) ||
+		(typeof projectSaveIdNodes === "undefined") || (projectSaveIdNodes.length == 0) ||
+		(typeof projectSaveIdWithDataNodes === "undefined") || (projectSaveIdWithDataNodes.length == 0)) 
+	{
+		alert("Add setup nodes for canvas save information: '" + saveCanvasProjectDataLine + "', '" + projectSaveIdLine + "', '" +  projectSaveIdLine + ": projectName'.");
+	} else {
+		removeSaveNodes();
+		var date = new Date().toLocaleString("ru-RU");
+		date = date.replace(/\./g,"-");
+		date = date.replace(/:/g,"-");
+		date = date.replace(/,/g,"_");
+		date = date.replace(" ","");
+		var projectJson = $("textarea#schemeDataTextArea").val();
+		var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveCanvasProjectDataLine + "$"));
+		if (saveCanvasProjectDataNodes.length == 0) {
+			console.log("ERROR: no saveCanvasProjectData node");
+			return;
+		}
+		var saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];
+		var projectSaveId = getProjectId(saveCanvasProjectDataNode, network);
+		localStorage.setItem(projectSaveNodeNamePrefix + projectSaveId + "_" + date,projectJson);
+		buildSaveNodesList();
 	}
-	var saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];
-	var projectSaveId = getProjectId(saveCanvasProjectDataNode, network);
-	localStorage.setItem(projectSaveNodeNamePrefix + projectSaveId + "_" + date,projectJson);
-	buildSaveNodesList();
 }
 function clearBrowserLocalStorage() {
 	var storageItemsSize = localStorage.length;
@@ -863,15 +1020,15 @@ function showBrowserLocalStorage() {
 	var storageItemsSize = localStorage.length;
 	for (var i = 0; i < storageItemsSize; i++) {
 		var key = localStorage.key(i);
-		console.log("key: " + key);
-		console.log(localStorage.getItem(key));
+		//console.log("key: " + key);
+		//console.log(localStorage.getItem(key));
 	}
 }
 function showBrowserLocalStorageKeys() {
 	var storageItemsSize = localStorage.length;
 	for (var i = 0; i < storageItemsSize; i++) {
 		var key = localStorage.key(i);
-		console.log("key: " + key);
+		//console.log("key: " + key);
 	}
 }
 
@@ -1002,7 +1159,7 @@ $(document).ready(function() {
 		var link = nodeLinkInput.val();
 		if (link.length > 0) {
 			window.open(link, '_blank');
-			console.log(link);
+			//console.log(link);
 		}
 	});
 
@@ -1080,8 +1237,13 @@ $(document).ready(function() {
 	saveLoadButton.click(function() {
 		var regex = saveCanvasProjectDataLine;
 		var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + regex + "$"));
-		if ((typeof saveCanvasProjectDataNodes === "undefined") || (saveCanvasProjectDataNodes.length == 0)) {
-			alert("Add node with label '" + saveCanvasProjectDataLine + "' to set position for canvas save information.");
+		var projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + projectSaveIdLine + "$"));
+		var projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + projectSaveIdLine + ":.*$"));
+		if ((typeof saveCanvasProjectDataNodes === "undefined") || (saveCanvasProjectDataNodes.length == 0) ||
+			(typeof projectSaveIdNodes === "undefined") || (projectSaveIdNodes.length == 0) ||
+			(typeof projectSaveIdWithDataNodes === "undefined") || (projectSaveIdWithDataNodes.length == 0)) 
+			{
+			alert("Add setup nodes for canvas save information: '" + saveCanvasProjectDataLine + "', '" + projectSaveIdLine + "', '" +  projectSaveIdLine + ": projectName'.");
 		} else {
 			var node = saveCanvasProjectDataNodes[0];
 			updateNodePositionData(network, node);
@@ -1204,5 +1366,5 @@ function c(x, y) {
 	var green = imgData.data[index+1];
 	var blue = imgData.data[index+2];
 	var alpha = imgData.data[index+3];
-	console.log('pix x ' + x + ' y ' + y + ' index ' + index + ' COLOR ' + red + ', ' + green + ', ' + blue + ', ' + alpha);
+	//console.log('pix x ' + x + ' y ' + y + ' index ' + index + ' COLOR ' + red + ', ' + green + ', ' + blue + ', ' + alpha);
 }
