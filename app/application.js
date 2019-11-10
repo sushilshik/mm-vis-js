@@ -147,12 +147,28 @@ function draw() {
 		manipulation: {
 			addNode: function (data, callback) {
 				// filling in the popup DOM elements
+				var clickPosition = network.canvasToDOM({x: data.x, y: data.y});
 				document.getElementById('operation').innerHTML = "Add Node";
 				document.getElementById('node-id').value = data.id;
 				document.getElementById('node-label').value = data.label;
 				document.getElementById('saveButton').onclick = saveData.bind(this, data, callback);
 				document.getElementById('cancelButton').onclick = clearPopUp.bind();
 				document.getElementById('network-popUp').style.display = 'block';
+				var schemeDataMenuWidth = 0;
+				if (document.getElementById("schemeDataMenu").style.display != "none") {
+					schemeDataMenuWidth = parseInt(document.getElementById("schemeDataMenu").style.width.replace("px",""), 10);
+				} else {
+					schemeDataMenuWidth = 0;
+				}
+				console.log(schemeDataMenuWidth);
+				if ((clickPosition.x + 390) > (canvasWidth - schemeDataMenuWidth)) {
+					clickPosition.x = clickPosition.x - 340;
+				}
+				if ((clickPosition.y + 240) > canvasHeight) {
+					clickPosition.y = clickPosition.y - 260;
+				}
+				document.getElementById('network-popUp').style.top = (clickPosition.y + 20) + "px";
+				document.getElementById('network-popUp').style.left = (clickPosition.x + 20) + "px";
 			},
 			editNode: function (data, callback) {
 				// filling in the popup DOM elements

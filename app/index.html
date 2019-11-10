@@ -103,11 +103,11 @@ div.table_description {
 #network-popUp {
 	display:none;
 	position:absolute;
-	top:350px;
-	left:170px;
+	top:50%;
+	left:50%;
 	z-index:299;
-	width:250px;
-	height:120px;
+	width:280px;
+	height:200px;
 	background-color: #f9f9f9;
 	border-style:solid;
 	border-width:3px;
@@ -129,7 +129,7 @@ var runUpateMenuFromSchemeAtPageReady = true;
 			<td>id</td><td><input id="node-id" value="new value" /></td>
 		</tr>
 		<tr>
-			<td>label</td><td><input id="node-label" value="new value" /></td>
+			<td>label</td><td><textarea id="node-label" cols='25' rows='6' value="new value" /></textarea>
 	</tr></table>
 	<input type="button" value="save" id="saveButton" />
 	<input type="button" value="cancel" id="cancelButton" />
