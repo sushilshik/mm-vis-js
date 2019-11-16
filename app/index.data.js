@@ -28394,7 +28394,7 @@ var schemeData =
           "x": 17139,
           "y": -19379,
           "shape": "box",
-          "link": "sushilshik.github.com",
+          "link": "https://sushilshik.github.com",
           "borderWidth": ""
         },
         "e93af4ee-6ab3-4857-8283-128dcf629ab3282368": {
@@ -28429,7 +28429,7 @@ var schemeData =
           "x": 17135,
           "y": -19307,
           "shape": "box",
-          "link": "sushilshik.github.com/base.html",
+          "link": "https://sushilshik.github.com/base.html",
           "borderWidth": ""
         },
         "fecf5e72-1e19-410e-87b8-f36ff58504b6282368": {
