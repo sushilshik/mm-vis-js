@@ -45650,7 +45650,7 @@ var schemeData =
           "y": -8668,
           "label": "sushilshik.github.com",
           "shape": "box",
-          "link": "sushilshik.github.com",
+          "link": "https://sushilshik.github.com",
           "font": {
             "size": 14,
             "align": "left"
@@ -45667,7 +45667,7 @@ var schemeData =
           "y": -8597,
           "label": "sushilshik.github.com/base.html",
           "shape": "box",
-          "link": "sushilshik.github.com/base.html",
+          "link": "https://sushilshik.github.com/base.html",
           "font": {
             "size": 14,
             "align": "left"
