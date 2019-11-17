@@ -41426,27 +41426,10 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "20ee7e3b-2667-4bcc-9ced-274a1339299c": {
-          "id": "20ee7e3b-2667-4bcc-9ced-274a1339299c",
-          "x": 123907,
-          "y": -3356,
-          "label": "Anya - Ich zoch mir einen valken (Falkenlied)",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=2EOTs0oKV_0",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
         "e74d8014-a766-4203-9644-02e85edd6207": {
           "id": "e74d8014-a766-4203-9644-02e85edd6207",
           "x": 123896,
-          "y": -3324,
+          "y": -3359,
           "label": "Drink Up Thy Zider - Somerset Folk Song",
           "shape": "box",
           "link": "https://www.youtube.com/watch?v=RWauJ-pSaBk",
@@ -41463,7 +41446,7 @@ var schemeData =
         "9cf44fb8-0815-4541-8e95-08225993ef6c": {
           "id": "9cf44fb8-0815-4541-8e95-08225993ef6c",
           "x": 123902,
-          "y": -3299,
+          "y": -3329,
           "label": "Fado 💝 Mariza 🌹Camané ⏰Ricardo Ribeiro",
           "shape": "box",
           "link": "https://www.youtube.com/watch?v=WDobR97SIQ8",
@@ -71768,11 +71751,6 @@ var schemeData =
           "to": "76e84521-5e0b-451b-8bcb-38e9f2ea49ee",
           "id": "6d8a29fb-30ff-462d-8def-1819fd64e6a3"
         },
-        "cc2f748d-e2a8-4fa7-8b80-aad024442677": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "20ee7e3b-2667-4bcc-9ced-274a1339299c",
-          "id": "cc2f748d-e2a8-4fa7-8b80-aad024442677"
-        },
         "29cfd930-c1e3-448f-92b0-58afacdc997c": {
           "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
           "to": "e74d8014-a766-4203-9644-02e85edd6207",
@@ -74548,10 +74526,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.0071965439837927605,
+    "scale": 0.010196874379130406,
     "viewPosition": {
-      "x": 102944.23505361173,
-      "y": 7843.321206616093
+      "x": 108116.74519307625,
+      "y": 16554.708447440556
     }
   }
 }
