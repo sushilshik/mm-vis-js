@@ -7,7 +7,6 @@ require 'tilt/erb'
 require 'fileutils'
 require 'trollop'
 require 'yaml'
-
 #Code for building vis.js code scheme in mm-vis-js
 
 currentProjects = [
@@ -63,7 +62,6 @@ currentProjects = [
 #neo4j
 #spring-framework
 #tomcat
-
 opts = Trollop::options do
     opt :project, "Source code project name", :short => 'p', :type => String
     opt :list, "List projects", :short => 'l'
@@ -74,7 +72,6 @@ if opts.include?(:list) && !opts[:list].nil? && opts[:list]
 		p project
 	}
 end
-
 class CSharpParser
 	attr_accessor :conf,
 		:fileNameCheckRegex,
@@ -457,7 +454,6 @@ class CParser
 		text
 	end
 end
-
 class CommonLispParser
 	attr_accessor :conf,
 		:fileNameCheckRegex,
@@ -496,7 +492,6 @@ class CommonLispParser
 		text
 	end
 end
-
 class CodeParser
 	attr_accessor :conf,
 		:parsersList
@@ -532,7 +527,6 @@ class CodeParser
 		text
 	end
 end
-
 class SourcesData
 	attr_accessor :sourcesProjectName, 
 		:sourcesDirPath, 
@@ -545,7 +539,6 @@ class SourcesData
 		@fileDataFilterProcsList = []
 	end
 end
-
 class VisJsNode
 	attr_accessor :id,
 		:idStep,
@@ -622,7 +615,6 @@ class VisJsNode
 		line
 	end
 end
-
 class VisJsEdge
 	attr_accessor :id,
 		:from,
@@ -640,7 +632,6 @@ class VisJsEdge
 		edge
 	end
 end
-
 class SourceCodeFile
 	attr_accessor :fileName,
 		:filePath,
@@ -694,7 +685,6 @@ class SourceCodeFile
 		self
 	end
 end
-
 class TreeOnPage
 	attr_accessor :page,
 		:rootNode,
@@ -761,7 +751,6 @@ class TreeOnPage
 		@rootNode.y = @positionY
 	end
 end
-
 class MMVisJsPage
 	attr_accessor :pageDirPath,
 		:pagePrefixName,
@@ -879,7 +868,6 @@ class MMVisJsPage
 		saveDataJsObject(schemeDataObject)
 	end
 end
-
 class SourcesBuilder
 	attr_accessor :sourcesData, 
 		:codeStringsCount,
@@ -1188,7 +1176,6 @@ class SourcesBuilder
 		page.addNodesToNodesListOnPage(node, 30)
 	end
 end
-
 sourcesBuilder = SourcesBuilder.new()
 sourcesData = nil
 
@@ -2088,7 +2075,6 @@ elsif opts[:project] == "firefox"
 	sourcesBuilder.filesToPageLimit = 500 
 	sourcesBuilder.limitFilesToRead = 10000000
 end
-
 exit if opts[:project].nil?
 
 codeFilesHash = nil
@@ -2132,3 +2118,4 @@ sourcesBuilder.buildIndexSchemeFiles(
 sourcesBuilder.buildCodeSchemeFiles(sourcesData.sourcesProjectName, codeNodesPagesList)
 
 sourcesBuilder.stats(codeFilesHash, parsedCodeFilesHash, codeNodesPagesList)
+
