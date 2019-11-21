@@ -295,7 +295,7 @@ var schemeData =
           "y": -9491,
           "label": "sushilshik.github.com",
           "shape": "box",
-          "link": "https://sushilshik.github.com",
+          "link": "index.html",
           "font": {
             "size": 14,
             "align": "left"
@@ -312,7 +312,7 @@ var schemeData =
           "y": -9427,
           "label": "sushilshik.github.com/base.html",
           "shape": "box",
-          "link": "https://sushilshik.github.com/base.html",
+          "link": "base.html",
           "font": {
             "size": 14,
             "align": "left"
@@ -1442,7 +1442,7 @@ var schemeData =
           "x": 65329,
           "y": -9366,
           "shape": "box",
-          "link": "https://sushilshik.github.com/culture.html",
+          "link": "culture.html",
           "borderWidth": ""
         },
         "fecf5e72-1e19-410e-87b8-f36ff58504b6210": {
@@ -35098,10 +35098,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.01615243648591689,
+    "scale": 0.01593795979860152,
     "viewPosition": {
-      "x": 94852.53587101745,
-      "y": 8400.573874102289
+      "x": 95093.08123502936,
+      "y": 6098.947408739013
     }
   }
 }

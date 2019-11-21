@@ -47048,7 +47048,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -47074,14 +47075,15 @@ var schemeData =
           "x": 65388,
           "y": -9632,
           "shape": "box",
-          "link": "https://sushilshik.github.com",
+          "link": "index.html",
           "borderWidth": ""
         },
         "e93af4ee-6ab3-4857-8283-128dcf629ab3272": {
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -47107,7 +47109,7 @@ var schemeData =
           "x": 65425,
           "y": -9568,
           "shape": "box",
-          "link": "https://sushilshik.github.com/base.html",
+          "link": "base.html",
           "borderWidth": ""
         },
         "fecf5e72-1e19-410e-87b8-f36ff58504b6272": {
@@ -47176,7 +47178,7 @@ var schemeData =
           "x": 65426,
           "y": -9505,
           "shape": "box",
-          "link": "https://sushilshik.github.com/culture.html",
+          "link": "culture.html",
           "borderWidth": ""
         },
         "fecf5e72-1e19-410e-87b8-f36ff58504b6210272": {
@@ -77744,10 +77746,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.01172291342773402,
+    "scale": 0.011085773062867801,
     "viewPosition": {
-      "x": 115671.38577556916,
-      "y": 15388.37163109912
+      "x": 117401.22649791407,
+      "y": 16420.62619844626
     }
   }
 }
