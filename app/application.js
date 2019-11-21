@@ -608,7 +608,7 @@ function draw() {
 			});
 			var newNode4Id = network.body.data.nodes.add({
 				label:(new Date().toLocaleDateString()),
-				x: position.x+550,
+				x: position.x+450,
 				y: position.y+450 
 			})[0];
 			network.body.data.edges.add({
@@ -617,7 +617,7 @@ function draw() {
 			});
 			var newNode3Id = network.body.data.nodes.add({
 				label:"init",
-				x: position.x+450,
+				x: position.x+550,
 				y: position.y+450 
 			})[0];
 			network.body.data.edges.add({

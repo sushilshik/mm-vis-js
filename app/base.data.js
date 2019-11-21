@@ -1,4 +1,4 @@
-var schemeData = 
+var schemeData =
 {
   "canvas1Data": {
     "nodes": {
@@ -6960,8 +6960,8 @@ var schemeData =
         },
         "0ca73d64-eabf-4558-8d04-b240259dbb74": {
           "id": "0ca73d64-eabf-4558-8d04-b240259dbb74",
-          "x": 61891,
-          "y": -8523,
+          "x": 60311,
+          "y": -9346,
           "label": "META",
           "shape": "box",
           "link": "",
@@ -6976,20 +6976,20 @@ var schemeData =
         },
         "fbf5e843-15c9-43e7-af6e-5a0d46bd3088": {
           "id": "fbf5e843-15c9-43e7-af6e-5a0d46bd3088",
-          "x": 62970,
-          "y": -8244,
+          "x": 61390,
+          "y": -9067,
           "label": "Разработка"
         },
         "6206492e-02d2-4a2b-897f-11d315f09296": {
           "id": "6206492e-02d2-4a2b-897f-11d315f09296",
-          "x": 63283,
-          "y": -8249,
+          "x": 61703,
+          "y": -9072,
           "label": "init"
         },
         "1aec8e54-aa06-4194-b655-0d0d9bfdbb77": {
           "id": "1aec8e54-aa06-4194-b655-0d0d9bfdbb77",
-          "x": 61435,
-          "y": -7675,
+          "x": 59855,
+          "y": -8498,
           "label": "saveCanvasProjectData",
           "shape": "box",
           "link": "",
@@ -7004,8 +7004,8 @@ var schemeData =
         },
         "719ccd35-55eb-43fe-962b-494d41485f4c": {
           "id": "719ccd35-55eb-43fe-962b-494d41485f4c",
-          "x": 63143,
-          "y": -8247,
+          "x": 61563,
+          "y": -9070,
           "label": "2019.11/16",
           "shape": "box",
           "link": "",
@@ -7021,8 +7021,8 @@ var schemeData =
         },
         "60c2d97b-fdf5-4b9b-b53a-f9d9db63bd6d": {
           "id": "60c2d97b-fdf5-4b9b-b53a-f9d9db63bd6d",
-          "x": 62958,
-          "y": -8822,
+          "x": 61378,
+          "y": -9645,
           "label": "Themes list",
           "shape": "box",
           "link": "",
@@ -7038,14 +7038,14 @@ var schemeData =
         },
         "a20dd0c9-30ce-4abe-a727-8c975855c9a8": {
           "id": "a20dd0c9-30ce-4abe-a727-8c975855c9a8",
-          "x": 61768,
-          "y": -7732,
+          "x": 60188,
+          "y": -8555,
           "label": "projectSaveId"
         },
         "43750806-8645-4177-bffc-caa780c3b005": {
           "id": "43750806-8645-4177-bffc-caa780c3b005",
-          "x": 61925,
-          "y": -7733,
+          "x": 60345,
+          "y": -8556,
           "label": "projectSaveId: base_proj1",
           "shape": "box",
           "link": "",
@@ -7107,7 +7107,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -7124,8 +7124,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Visual\nprogramming\nlanguages",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf218487",
-          "x": 117848,
-          "y": 28696,
+          "x": 119423,
+          "y": 28748,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7336,8 +7336,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Conceptual_model",
           "id": "ca6e6336-5c5d-457f-b3e5-f21d1d44f011856",
-          "x": 67080,
-          "y": -1994,
+          "x": 65547,
+          "y": -1435,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Conceptual_model",
           "borderWidth": ""
@@ -7367,8 +7367,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Концептуальная_модель",
           "id": "c59e85b0-5641-4de6-adbd-fb73cad3e6c7856",
-          "x": 67100,
-          "y": -1961,
+          "x": 65567,
+          "y": -1402,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C",
           "borderWidth": ""
@@ -7401,8 +7401,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Human-computer_interaction",
           "id": "c0984e9e-baf4-435a-80e1-52b9cb1d1a9e856",
-          "x": 77528,
-          "y": 7397,
+          "x": 77371,
+          "y": 11019,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction",
           "borderWidth": ""
@@ -7435,8 +7435,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Человеко-компьютерное_взаимодействие",
           "id": "22cbf9be-3f71-493d-8ff1-24e3c7a1247d856",
-          "x": 77572,
-          "y": 7429,
+          "x": 77415,
+          "y": 11051,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%BE-%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B5_%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5",
           "borderWidth": ""
@@ -7469,8 +7469,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Technical_report",
           "id": "b8bcd78e-023c-49d1-a740-25c44583cf52856",
-          "x": 66849,
-          "y": 7989,
+          "x": 65316,
+          "y": 8548,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Technical_report",
           "borderWidth": ""
@@ -7503,8 +7503,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/White_paper",
           "id": "de215adf-7277-4fe6-97d7-6328730ab3dd856",
-          "x": 66838,
-          "y": 8019,
+          "x": 65305,
+          "y": 8578,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/White_paper",
           "borderWidth": ""
@@ -7537,8 +7537,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Systems_analysis",
           "id": "108a35bc-2d0f-4cb8-9461-2fc2022d8e7a856",
-          "x": 66881,
-          "y": 11430,
+          "x": 65252,
+          "y": 14712,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Systems_analysis",
           "borderWidth": ""
@@ -7571,8 +7571,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Системный_анализ",
           "id": "ed14073f-7564-4fbe-b114-e92d5dbb95ef856",
-          "x": 66888,
-          "y": 11463,
+          "x": 65259,
+          "y": 14745,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7",
           "borderWidth": ""
@@ -7605,8 +7605,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Layout",
           "id": "801df834-e870-42fb-b5ea-88a1caaa655f856",
-          "x": 67139,
-          "y": 14677,
+          "x": 65510,
+          "y": 17959,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Layout",
           "borderWidth": ""
@@ -7639,8 +7639,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Page_layout",
           "id": "bb57d217-1e17-4fba-a05f-80a92a0a15cc856",
-          "x": 67157,
-          "y": 14713,
+          "x": 65528,
+          "y": 17995,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Page_layout",
           "borderWidth": ""
@@ -7673,8 +7673,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Макет_издания",
           "id": "4398929e-462b-4418-a93d-6a49dd432efe856",
-          "x": 67167,
-          "y": 14741,
+          "x": 65538,
+          "y": 18023,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F",
           "borderWidth": ""
@@ -7707,8 +7707,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Вёрстка",
           "id": "4c453388-4506-4072-968d-894ac292ed4e856",
-          "x": 67142,
-          "y": 14770,
+          "x": 65513,
+          "y": 18052,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%92%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0",
           "borderWidth": ""
@@ -7741,8 +7741,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Category:Graphic_design",
           "id": "419e487a-2238-465e-92ec-88eb93775b24856",
-          "x": 67199,
-          "y": 14807,
+          "x": 65570,
+          "y": 18089,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Graphic_design",
           "borderWidth": ""
@@ -7775,8 +7775,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Category:Composition_in_visual_art",
           "id": "da2a2b34-1e71-4b56-9715-7cb47edfe24f856",
-          "x": 67232,
-          "y": 14839,
+          "x": 65603,
+          "y": 18121,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Composition_in_visual_art",
           "borderWidth": ""
@@ -7806,8 +7806,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Integrated_circuit_layout",
           "id": "1515932f-a4e1-4232-a006-51a0ffc68648856",
-          "x": 67196,
-          "y": 14873,
+          "x": 65567,
+          "y": 18155,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Integrated_circuit_layout",
           "borderWidth": ""
@@ -7838,8 +7838,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://e-notabene.ru/istinf/",
           "id": "c227b550-0ccb-4756-ad8d-f255fc3d1602856",
-          "x": 67928,
-          "y": 26086,
+          "x": 66204,
+          "y": 28890,
           "shape": "box",
           "link": "https://e-notabene.ru/istinf/",
           "borderWidth": ""
@@ -7870,8 +7870,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://kleio.asu.ru/",
           "id": "81af928b-2dd0-44ce-98bc-643720f6ba87856",
-          "x": 67900,
-          "y": 26047,
+          "x": 66176,
+          "y": 28851,
           "shape": "box",
           "link": "http://kleio.asu.ru/",
           "borderWidth": ""
@@ -7902,8 +7902,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Журнал \"Историческая информатика\"",
           "id": "edfeff9c-5851-411a-ba30-c2b4902c8830856",
-          "x": 67663,
-          "y": 26070,
+          "x": 65939,
+          "y": 28874,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7980,7 +7980,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -7995,8 +7995,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Conceptual\nmodeling",
           "id": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856",
-          "x": 70011,
-          "y": -3240,
+          "x": 69295,
+          "y": -2636,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8014,7 +8014,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -8027,10 +8027,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Human-Computer\nInteraction (HCI)",
+          "label": "Human-\nComputer\nInteraction\n(HCI)",
           "id": "c18f5264-da9d-4505-8b20-e7d242e74fb8856",
-          "x": 81356,
-          "y": -182,
+          "x": 81146,
+          "y": 4700,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8048,8 +8048,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
-            "align": "center"
+            "size": 1000,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -8061,10 +8061,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Interfaces and graphs",
+          "label": "Interfaces\nand graphs",
           "id": "9c972401-87b2-4a62-a145-28fd26b385f9856",
-          "x": 71637,
-          "y": 3545,
+          "x": 69452,
+          "y": 4579,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8082,7 +8082,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -8095,10 +8095,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Annotations, abstract\nand precis writing",
+          "label": "Annotations,\nabstract\nand precis\nwriting",
           "id": "aab01de5-9386-4edd-b234-681a62e61847856",
-          "x": 71540,
-          "y": 7757,
+          "x": 69648,
+          "y": 9699,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8116,7 +8116,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -8129,10 +8129,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Systems analysis",
+          "label": "Systems\nanalysis",
           "id": "8fa958b3-7410-4396-bcc8-bbe17888784f856",
-          "x": 70958,
-          "y": 11099,
+          "x": 68786,
+          "y": 14426,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8150,7 +8150,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -8163,10 +8163,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Schemes, graphs\nlayout",
+          "label": "Schemes,\ngraphs\nlayout",
           "id": "a8baaf1c-b3f3-4310-ad2f-f6863e54ba79856",
-          "x": 70977,
-          "y": 14457,
+          "x": 69092,
+          "y": 18692,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8184,7 +8184,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -8197,10 +8197,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Institutions and societies\nstudying graphs layout",
+          "label": "Institutions\nand societies\nstudying graphs\nlayout",
           "id": "a5e87029-f7d3-43cf-b66f-680a5f4f7d43856",
-          "x": 72066,
-          "y": 22421,
+          "x": 70398,
+          "y": 24124,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8218,7 +8218,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -8231,10 +8231,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Визуализация в исторической\nинформатике",
+          "label": "Визуализация\nв исторической\nинформатике",
           "id": "2c4e2725-a96e-4987-9ae3-9008857e8ddc856",
-          "x": 73136,
-          "y": 26213,
+          "x": 70432,
+          "y": 29731,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8252,7 +8252,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -8267,8 +8267,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books layout",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856",
-          "x": 92534,
-          "y": -2322,
+          "x": 93722,
+          "y": -3267,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8286,7 +8286,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -8299,18 +8299,18 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Concept mapping\napplications",
+          "label": "Concept\nmapping\napplications",
           "id": "0daacb57-7201-4372-a961-000bb1a99394856",
-          "x": 81314,
-          "y": -2927,
+          "x": 81524,
+          "y": -2087,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "c054a8b8-eaf7-4d53-b3a2-6c2022a4528b": {
           "label": "Conceptual modeling",
-          "x": 65964,
-          "y": -1832,
+          "x": 64431,
+          "y": -1273,
           "font": {
             "size": 72,
             "align": "left"
@@ -8326,14 +8326,14 @@ var schemeData =
         },
         "6107754d-51d3-438f-b1e7-2f9c275c30a0": {
           "label": "Development",
-          "x": 66557,
-          "y": -1297,
+          "x": 65024,
+          "y": -738,
           "id": "6107754d-51d3-438f-b1e7-2f9c275c30a0"
         },
         "5432883a-db3b-4489-aa24-cb55088e3d85": {
           "label": "11/5/2019",
-          "x": 66807,
-          "y": -1297,
+          "x": 65274,
+          "y": -738,
           "id": "5432883a-db3b-4489-aa24-cb55088e3d85",
           "shape": "box",
           "link": "",
@@ -8349,140 +8349,140 @@ var schemeData =
         },
         "129f050f-b6b2-4c0e-9f39-49088f572dec": {
           "label": "init",
-          "x": 66707,
-          "y": -1297,
+          "x": 65174,
+          "y": -738,
           "id": "129f050f-b6b2-4c0e-9f39-49088f572dec"
         },
         "ba69c116-ef99-41c9-83cd-746c3d497a1d": {
           "label": "Notes",
-          "x": 66562,
-          "y": -2273,
+          "x": 65029,
+          "y": -1714,
           "id": "ba69c116-ef99-41c9-83cd-746c3d497a1d"
         },
         "a1ef0ad4-20b2-48a6-9595-86e5cad7d9d1": {
           "label": "Dictionary of\nconcepts",
-          "x": 66699,
-          "y": -3443,
+          "x": 65166,
+          "y": -2884,
           "id": "a1ef0ad4-20b2-48a6-9595-86e5cad7d9d1"
         },
         "9ea0f12a-06b4-4076-aca2-797a89c7b813": {
           "label": "Details, thoughts",
-          "x": 66712,
-          "y": -2273,
+          "x": 65179,
+          "y": -1714,
           "id": "9ea0f12a-06b4-4076-aca2-797a89c7b813"
         },
         "178701d1-cd0c-43bb-81a1-696000a1b395": {
           "label": "Sections",
-          "x": 66710,
-          "y": -1967,
+          "x": 65177,
+          "y": -1408,
           "id": "178701d1-cd0c-43bb-81a1-696000a1b395"
         },
         "401ad372-31d0-4273-a3fb-1abbec9245d9": {
           "label": "Books",
-          "x": 66771,
-          "y": -2173,
+          "x": 65238,
+          "y": -1614,
           "id": "401ad372-31d0-4273-a3fb-1abbec9245d9"
         },
         "9264f31b-8cae-4532-aa80-64af7f6a6a0e": {
           "label": "R&D institutions",
-          "x": 66802,
-          "y": -2148,
+          "x": 65269,
+          "y": -1589,
           "id": "9264f31b-8cae-4532-aa80-64af7f6a6a0e"
         },
         "4a33b03e-7a18-4493-b556-ce1192743afb": {
           "label": "Sites",
-          "x": 66767,
-          "y": -2123,
+          "x": 65234,
+          "y": -1564,
           "id": "4a33b03e-7a18-4493-b556-ce1192743afb"
         },
         "a1a18481-4318-4d6a-a4df-a37549ebdbe2": {
           "label": "Magazines",
-          "x": 66786,
-          "y": -2098,
+          "x": 65253,
+          "y": -1539,
           "id": "a1a18481-4318-4d6a-a4df-a37549ebdbe2"
         },
         "5e8ea179-4687-488c-b510-acc1c947bf82": {
           "label": "Articles",
-          "x": 66775,
-          "y": -2073,
+          "x": 65242,
+          "y": -1514,
           "id": "5e8ea179-4687-488c-b510-acc1c947bf82"
         },
         "80e297d0-df38-4d64-82ca-dedc59c9db36": {
           "label": "Media content",
-          "x": 66797,
-          "y": -2048,
+          "x": 65264,
+          "y": -1489,
           "id": "80e297d0-df38-4d64-82ca-dedc59c9db36"
         },
         "dc5e786c-1786-43e6-a23f-e68d80eebfc9": {
           "label": "Misc. web links",
-          "x": 66799,
-          "y": -1973,
+          "x": 65266,
+          "y": -1414,
           "id": "dc5e786c-1786-43e6-a23f-e68d80eebfc9"
         },
         "db5088f2-bd11-4cef-8248-660906e73784": {
           "label": "Projects",
-          "x": 66777,
-          "y": -1872,
+          "x": 65244,
+          "y": -1313,
           "id": "db5088f2-bd11-4cef-8248-660906e73784"
         },
         "8099bedd-5be9-4869-bbe8-602039fa1b4e": {
           "label": "Tools",
-          "x": 66768,
-          "y": -1847,
+          "x": 65235,
+          "y": -1288,
           "id": "8099bedd-5be9-4869-bbe8-602039fa1b4e"
         },
         "fb69e1d9-8b8e-4877-a825-2ae097389298": {
           "label": "Organizations",
-          "x": 66796,
-          "y": -1822,
+          "x": 65263,
+          "y": -1263,
           "id": "fb69e1d9-8b8e-4877-a825-2ae097389298"
         },
         "cf6d90fa-cff4-4239-b9b4-ec8310a3909b": {
           "label": "Standarts",
-          "x": 66782,
-          "y": -1797,
+          "x": 65249,
+          "y": -1238,
           "id": "cf6d90fa-cff4-4239-b9b4-ec8310a3909b"
         },
         "932e2649-481a-4abb-9385-e4be73716208": {
           "label": "Forums, Groups",
-          "x": 66804,
-          "y": -1772,
+          "x": 65271,
+          "y": -1213,
           "id": "932e2649-481a-4abb-9385-e4be73716208"
         },
         "8ace8122-87a7-40f1-a930-423984d33bc4": {
           "label": "Laws",
-          "x": 66768,
-          "y": -1747,
+          "x": 65235,
+          "y": -1188,
           "id": "8ace8122-87a7-40f1-a930-423984d33bc4"
         },
         "94366f38-aa17-4d04-9c5b-b29ddfbfb156": {
           "label": "Adjacent Themes",
-          "x": 66807,
-          "y": -1722,
+          "x": 65274,
+          "y": -1163,
           "id": "94366f38-aa17-4d04-9c5b-b29ddfbfb156"
         },
         "098523a3-c869-4c63-bffd-519e3ebc15b5": {
           "label": "Questions",
-          "x": 66557,
-          "y": -1597,
+          "x": 65024,
+          "y": -1038,
           "id": "098523a3-c869-4c63-bffd-519e3ebc15b5"
         },
         "9b70fd3e-8f52-4396-9261-998b30b8161d": {
           "label": "Problems",
-          "x": 66557,
-          "y": -1497,
+          "x": 65024,
+          "y": -938,
           "id": "9b70fd3e-8f52-4396-9261-998b30b8161d"
         },
         "0e3f3628-f163-4059-8cd0-792cb8bb53a0": {
           "label": "Goals",
-          "x": 66557,
-          "y": -1397,
+          "x": 65024,
+          "y": -838,
           "id": "0e3f3628-f163-4059-8cd0-792cb8bb53a0"
         },
         "25ba9777-5eb2-474a-8b3c-da4512ce7af8": {
           "label": "Human-Computer Interaction (HCI)",
-          "x": 76195,
-          "y": 7522,
+          "x": 76038,
+          "y": 11144,
           "font": {
             "size": 72,
             "align": "left"
@@ -8498,14 +8498,14 @@ var schemeData =
         },
         "883461a0-58bc-4399-9132-ebb06c46abb1": {
           "label": "Development",
-          "x": 77000,
-          "y": 8086,
+          "x": 76843,
+          "y": 11708,
           "id": "883461a0-58bc-4399-9132-ebb06c46abb1"
         },
         "d6cd08b8-4b48-4b9a-8545-9e9e3d237c0b": {
           "label": "11/5/2019",
-          "x": 77250,
-          "y": 8086,
+          "x": 77093,
+          "y": 11708,
           "id": "d6cd08b8-4b48-4b9a-8545-9e9e3d237c0b",
           "shape": "box",
           "link": "",
@@ -8521,140 +8521,140 @@ var schemeData =
         },
         "33392c2c-7f24-4a61-9fe3-e4dd66dd7263": {
           "label": "init",
-          "x": 77150,
-          "y": 8086,
+          "x": 76993,
+          "y": 11708,
           "id": "33392c2c-7f24-4a61-9fe3-e4dd66dd7263"
         },
         "da5d0972-05e3-4961-a221-28a64badfb70": {
           "label": "Notes",
-          "x": 76995,
-          "y": 7107,
+          "x": 76838,
+          "y": 10729,
           "id": "da5d0972-05e3-4961-a221-28a64badfb70"
         },
         "477ceee5-a396-4ea0-aa88-a08b8a3f720e": {
           "label": "Dictionary of\nconcepts",
-          "x": 77145,
-          "y": 3000,
+          "x": 76988,
+          "y": 6622,
           "id": "477ceee5-a396-4ea0-aa88-a08b8a3f720e"
         },
         "617778ba-3cb8-4944-915b-d7af182c911c": {
           "label": "Details, thoughts",
-          "x": 77145,
-          "y": 7107,
+          "x": 76988,
+          "y": 10729,
           "id": "617778ba-3cb8-4944-915b-d7af182c911c"
         },
         "2c257eec-bd67-4b59-b3e1-1261692ee178": {
           "label": "Sections",
-          "x": 77150,
-          "y": 7486,
+          "x": 76993,
+          "y": 11108,
           "id": "2c257eec-bd67-4b59-b3e1-1261692ee178"
         },
         "5700e4ef-841a-4547-aab6-fd986e72b001": {
           "label": "Books",
-          "x": 77214,
-          "y": 7207,
+          "x": 77057,
+          "y": 10829,
           "id": "5700e4ef-841a-4547-aab6-fd986e72b001"
         },
         "1636ed03-e5e0-42fc-af8f-95b08493f736": {
           "label": "R&D institutions",
-          "x": 77245,
-          "y": 7232,
+          "x": 77088,
+          "y": 10854,
           "id": "1636ed03-e5e0-42fc-af8f-95b08493f736"
         },
         "4a962620-0696-45ea-9e4a-610543929513": {
           "label": "Sites",
-          "x": 77210,
-          "y": 7257,
+          "x": 77053,
+          "y": 10879,
           "id": "4a962620-0696-45ea-9e4a-610543929513"
         },
         "62cfb2e9-0bca-4420-a289-4b310f68abcb": {
           "label": "Magazines",
-          "x": 77229,
-          "y": 7282,
+          "x": 77072,
+          "y": 10904,
           "id": "62cfb2e9-0bca-4420-a289-4b310f68abcb"
         },
         "47a59004-9b8f-43c9-91e2-7c5833152638": {
           "label": "Articles",
-          "x": 77218,
-          "y": 7307,
+          "x": 77061,
+          "y": 10929,
           "id": "47a59004-9b8f-43c9-91e2-7c5833152638"
         },
         "4583e5ab-4b0f-4599-a70c-05d49394134b": {
           "label": "Media content",
-          "x": 77240,
-          "y": 7332,
+          "x": 77083,
+          "y": 10954,
           "id": "4583e5ab-4b0f-4599-a70c-05d49394134b"
         },
         "1228dce2-62ac-4dea-b0be-1c2ea9531aaf": {
           "label": "Misc. web links",
-          "x": 77242,
-          "y": 7421,
+          "x": 77085,
+          "y": 11043,
           "id": "1228dce2-62ac-4dea-b0be-1c2ea9531aaf"
         },
         "84117a50-10a5-4d26-b28c-651100fa028e": {
           "label": "Projects",
-          "x": 77220,
-          "y": 7511,
+          "x": 77063,
+          "y": 11133,
           "id": "84117a50-10a5-4d26-b28c-651100fa028e"
         },
         "88cf6f8a-7fd1-42a1-9fe4-932935aa36f3": {
           "label": "Tools",
-          "x": 77211,
-          "y": 7536,
+          "x": 77054,
+          "y": 11158,
           "id": "88cf6f8a-7fd1-42a1-9fe4-932935aa36f3"
         },
         "366b20c7-f32e-4db2-b6f8-63762eb9506d": {
           "label": "Organizations",
-          "x": 77239,
-          "y": 7561,
+          "x": 77082,
+          "y": 11183,
           "id": "366b20c7-f32e-4db2-b6f8-63762eb9506d"
         },
         "48e950cf-d151-4f96-98dd-64ce7ca1923e": {
           "label": "Standarts",
-          "x": 77225,
-          "y": 7586,
+          "x": 77068,
+          "y": 11208,
           "id": "48e950cf-d151-4f96-98dd-64ce7ca1923e"
         },
         "e2f5ff94-0c7e-4320-830e-e907e0d16fd0": {
           "label": "Forums, Groups",
-          "x": 77247,
-          "y": 7611,
+          "x": 77090,
+          "y": 11233,
           "id": "e2f5ff94-0c7e-4320-830e-e907e0d16fd0"
         },
         "a90984aa-852f-412a-8773-776de8c1c73f": {
           "label": "Laws",
-          "x": 77211,
-          "y": 7636,
+          "x": 77054,
+          "y": 11258,
           "id": "a90984aa-852f-412a-8773-776de8c1c73f"
         },
         "acd45bc4-98d3-4f66-aa85-5be71eb489ec": {
           "label": "Adjacent Themes",
-          "x": 77250,
-          "y": 7661,
+          "x": 77093,
+          "y": 11283,
           "id": "acd45bc4-98d3-4f66-aa85-5be71eb489ec"
         },
         "c8bee9a9-b404-4d6a-baf0-20e80bc60fa0": {
           "label": "Questions",
-          "x": 77000,
-          "y": 7786,
+          "x": 76843,
+          "y": 11408,
           "id": "c8bee9a9-b404-4d6a-baf0-20e80bc60fa0"
         },
         "d9d0a879-34e0-4e0f-9582-b99140450c8d": {
           "label": "Problems",
-          "x": 77000,
-          "y": 7886,
+          "x": 76843,
+          "y": 11508,
           "id": "d9d0a879-34e0-4e0f-9582-b99140450c8d"
         },
         "77714eba-eb61-499e-ae13-b3bcf4274b7e": {
           "label": "Goals",
-          "x": 77000,
-          "y": 7986,
+          "x": 76843,
+          "y": 11608,
           "id": "77714eba-eb61-499e-ae13-b3bcf4274b7e"
         },
         "934fbc07-963b-48d7-a911-36ea7635cc26": {
           "label": "Interfaces and graphs",
-          "x": 65817,
-          "y": 4023,
+          "x": 64284,
+          "y": 4582,
           "font": {
             "size": 72,
             "align": "left"
@@ -8670,14 +8670,14 @@ var schemeData =
         },
         "b6ff077b-c970-4157-b4d3-fdab079d0ec8": {
           "label": "Development",
-          "x": 66436,
-          "y": 4441,
+          "x": 64903,
+          "y": 5000,
           "id": "b6ff077b-c970-4157-b4d3-fdab079d0ec8"
         },
         "37bbb7e7-5ba8-4c98-a2bd-1e05ccf20002": {
           "label": "11/5/2019",
-          "x": 66686,
-          "y": 4441,
+          "x": 65153,
+          "y": 5000,
           "id": "37bbb7e7-5ba8-4c98-a2bd-1e05ccf20002",
           "shape": "box",
           "link": "",
@@ -8693,140 +8693,140 @@ var schemeData =
         },
         "c38e5d63-0cfc-4f53-b809-3d5c1726d09f": {
           "label": "init",
-          "x": 66586,
-          "y": 4441,
+          "x": 65053,
+          "y": 5000,
           "id": "c38e5d63-0cfc-4f53-b809-3d5c1726d09f"
         },
         "45b0acd2-109e-4193-8f98-827911f38533": {
           "label": "Notes",
-          "x": 66436,
-          "y": 3591,
+          "x": 64903,
+          "y": 4150,
           "id": "45b0acd2-109e-4193-8f98-827911f38533"
         },
         "a5fa5808-0ba2-466f-9b49-1658df8aa355": {
           "label": "Dictionary of\nconcepts",
-          "x": 66586,
-          "y": 3341,
+          "x": 65053,
+          "y": 3900,
           "id": "a5fa5808-0ba2-466f-9b49-1658df8aa355"
         },
         "bdbf417b-9b8c-4dbd-a9a5-6243e874066a": {
           "label": "Details, thoughts",
-          "x": 66586,
-          "y": 3591,
+          "x": 65053,
+          "y": 4150,
           "id": "bdbf417b-9b8c-4dbd-a9a5-6243e874066a"
         },
         "56c60277-bf70-4b98-a49d-7006c03b41da": {
           "label": "Sections",
-          "x": 66586,
-          "y": 3841,
+          "x": 65053,
+          "y": 4400,
           "id": "56c60277-bf70-4b98-a49d-7006c03b41da"
         },
         "e2b13d88-122e-47a3-8265-b12b1f9a1e24": {
           "label": "Books",
-          "x": 66650,
-          "y": 3691,
+          "x": 65117,
+          "y": 4250,
           "id": "e2b13d88-122e-47a3-8265-b12b1f9a1e24"
         },
         "4d3acdad-75db-47a5-8b3f-5746b555323e": {
           "label": "R&D institutions",
-          "x": 66681,
-          "y": 3716,
+          "x": 65148,
+          "y": 4275,
           "id": "4d3acdad-75db-47a5-8b3f-5746b555323e"
         },
         "5e80ab41-e18a-4c8b-936f-03252482acf4": {
           "label": "Sites",
-          "x": 66646,
-          "y": 3741,
+          "x": 65113,
+          "y": 4300,
           "id": "5e80ab41-e18a-4c8b-936f-03252482acf4"
         },
         "6da49800-5a6a-4973-a8e7-2815ef9abee4": {
           "label": "Magazines",
-          "x": 66665,
-          "y": 3766,
+          "x": 65132,
+          "y": 4325,
           "id": "6da49800-5a6a-4973-a8e7-2815ef9abee4"
         },
         "0dcc6718-a67f-4641-b112-a5d7ff80aa45": {
           "label": "Articles",
-          "x": 66654,
-          "y": 3791,
+          "x": 65121,
+          "y": 4350,
           "id": "0dcc6718-a67f-4641-b112-a5d7ff80aa45"
         },
         "5ffe0ca9-b68a-416c-ac16-96c16605ae46": {
           "label": "Media content",
-          "x": 66676,
-          "y": 3816,
+          "x": 65143,
+          "y": 4375,
           "id": "5ffe0ca9-b68a-416c-ac16-96c16605ae46"
         },
         "75aa2c2d-cc9a-4f61-8c6f-e35b9e785a8a": {
           "label": "Misc. web links",
-          "x": 66678,
-          "y": 3841,
+          "x": 65145,
+          "y": 4400,
           "id": "75aa2c2d-cc9a-4f61-8c6f-e35b9e785a8a"
         },
         "1dc99f3e-51c3-4456-88bb-c3fa9138c860": {
           "label": "Projects",
-          "x": 66656,
-          "y": 3866,
+          "x": 65123,
+          "y": 4425,
           "id": "1dc99f3e-51c3-4456-88bb-c3fa9138c860"
         },
         "0278a452-bf6f-4f39-8fd9-277d2a57b5f7": {
           "label": "Tools",
-          "x": 66647,
-          "y": 3891,
+          "x": 65114,
+          "y": 4450,
           "id": "0278a452-bf6f-4f39-8fd9-277d2a57b5f7"
         },
         "9041ed77-9d90-4791-bfd7-b5e00f275cd5": {
           "label": "Organizations",
-          "x": 66675,
-          "y": 3916,
+          "x": 65142,
+          "y": 4475,
           "id": "9041ed77-9d90-4791-bfd7-b5e00f275cd5"
         },
         "296d83f8-ca56-48c6-adcb-199e7a81535c": {
           "label": "Standarts",
-          "x": 66661,
-          "y": 3941,
+          "x": 65128,
+          "y": 4500,
           "id": "296d83f8-ca56-48c6-adcb-199e7a81535c"
         },
         "21fd74ce-375d-4b02-9113-574a718ba6ff": {
           "label": "Forums, Groups",
-          "x": 66683,
-          "y": 3966,
+          "x": 65150,
+          "y": 4525,
           "id": "21fd74ce-375d-4b02-9113-574a718ba6ff"
         },
         "f574d6a7-c7dd-454e-aef2-4d0adcc08c88": {
           "label": "Laws",
-          "x": 66647,
-          "y": 3991,
+          "x": 65114,
+          "y": 4550,
           "id": "f574d6a7-c7dd-454e-aef2-4d0adcc08c88"
         },
         "709c3cd0-cb87-48cc-b411-3fec85f3627b": {
           "label": "Adjacent Themes",
-          "x": 66686,
-          "y": 4016,
+          "x": 65153,
+          "y": 4575,
           "id": "709c3cd0-cb87-48cc-b411-3fec85f3627b"
         },
         "0e09e8ed-d247-4e3e-bd77-bb5c683644a9": {
           "label": "Questions",
-          "x": 66436,
-          "y": 4141,
+          "x": 64903,
+          "y": 4700,
           "id": "0e09e8ed-d247-4e3e-bd77-bb5c683644a9"
         },
         "4777bae7-d1c7-4851-af34-e793f222d7ca": {
           "label": "Problems",
-          "x": 66436,
-          "y": 4241,
+          "x": 64903,
+          "y": 4800,
           "id": "4777bae7-d1c7-4851-af34-e793f222d7ca"
         },
         "4f1ca691-8557-442e-ba3b-dfc8c2fc5b0b": {
           "label": "Goals",
-          "x": 66436,
-          "y": 4341,
+          "x": 64903,
+          "y": 4900,
           "id": "4f1ca691-8557-442e-ba3b-dfc8c2fc5b0b"
         },
         "f1fcbc83-4cb5-490a-888b-da70ba0ae8f6": {
           "label": "Annotations, abstract and\nprecis writing",
-          "x": 65785,
-          "y": 8086,
+          "x": 64252,
+          "y": 8645,
           "font": {
             "size": 72,
             "align": "left"
@@ -8842,14 +8842,14 @@ var schemeData =
         },
         "4fbd927d-89e6-4515-8c07-c348e6ed54fc": {
           "label": "Development",
-          "x": 66349,
-          "y": 8681,
+          "x": 64816,
+          "y": 9240,
           "id": "4fbd927d-89e6-4515-8c07-c348e6ed54fc"
         },
         "1b963d9e-f4a8-40a5-af57-42eae0243cba": {
           "label": "11/5/2019",
-          "x": 66599,
-          "y": 8681,
+          "x": 65066,
+          "y": 9240,
           "id": "1b963d9e-f4a8-40a5-af57-42eae0243cba",
           "shape": "box",
           "link": "",
@@ -8865,140 +8865,140 @@ var schemeData =
         },
         "fddee754-c531-4460-b399-2dd8cfe80bb7": {
           "label": "init",
-          "x": 66499,
-          "y": 8681,
+          "x": 64966,
+          "y": 9240,
           "id": "fddee754-c531-4460-b399-2dd8cfe80bb7"
         },
         "688873a2-ad78-4ef4-827e-8303a3ff40f2": {
           "label": "Notes",
-          "x": 66349,
-          "y": 7682,
+          "x": 64816,
+          "y": 8241,
           "id": "688873a2-ad78-4ef4-827e-8303a3ff40f2"
         },
         "fc72ea6a-aa13-4958-bc96-9b3f2e5e4967": {
           "label": "Dictionary of\nconcepts",
-          "x": 66499,
-          "y": 7432,
+          "x": 64966,
+          "y": 7991,
           "id": "fc72ea6a-aa13-4958-bc96-9b3f2e5e4967"
         },
         "114d2031-45bf-427f-a4ff-6918c84229d9": {
           "label": "Details, thoughts",
-          "x": 66499,
-          "y": 7682,
+          "x": 64966,
+          "y": 8241,
           "id": "114d2031-45bf-427f-a4ff-6918c84229d9"
         },
         "c5c467ab-9c07-48d2-a2db-8f9256a1a80a": {
           "label": "Sections",
-          "x": 66499,
-          "y": 8081,
+          "x": 64966,
+          "y": 8640,
           "id": "c5c467ab-9c07-48d2-a2db-8f9256a1a80a"
         },
         "86811b0b-68d6-4e55-a5e4-3c05299bcb0f": {
           "label": "Books",
-          "x": 66563,
-          "y": 7782,
+          "x": 65030,
+          "y": 8341,
           "id": "86811b0b-68d6-4e55-a5e4-3c05299bcb0f"
         },
         "d4617918-a7d3-438e-a440-b2dafb4e376e": {
           "label": "R&D institutions",
-          "x": 66594,
-          "y": 7807,
+          "x": 65061,
+          "y": 8366,
           "id": "d4617918-a7d3-438e-a440-b2dafb4e376e"
         },
         "473bbb19-7e4a-4cd1-81fd-d870824dede3": {
           "label": "Sites",
-          "x": 66559,
-          "y": 7832,
+          "x": 65026,
+          "y": 8391,
           "id": "473bbb19-7e4a-4cd1-81fd-d870824dede3"
         },
         "f0693f3d-2ef2-4d73-b5a3-943553e12529": {
           "label": "Magazines",
-          "x": 66578,
-          "y": 7857,
+          "x": 65045,
+          "y": 8416,
           "id": "f0693f3d-2ef2-4d73-b5a3-943553e12529"
         },
         "ae4ba3a6-af60-4e30-afaa-0fb66ddffe48": {
           "label": "Articles",
-          "x": 66567,
-          "y": 7882,
+          "x": 65034,
+          "y": 8441,
           "id": "ae4ba3a6-af60-4e30-afaa-0fb66ddffe48"
         },
         "c063bb78-08b0-4d19-86d2-2b04ee81c7c4": {
           "label": "Media content",
-          "x": 66589,
-          "y": 7907,
+          "x": 65056,
+          "y": 8466,
           "id": "c063bb78-08b0-4d19-86d2-2b04ee81c7c4"
         },
         "d0bc8d6e-e95b-4d6b-8923-f79088e9cc82": {
           "label": "Misc. web links",
-          "x": 66591,
-          "y": 8003,
+          "x": 65058,
+          "y": 8562,
           "id": "d0bc8d6e-e95b-4d6b-8923-f79088e9cc82"
         },
         "2550822f-c866-462d-b212-9f2c9af27316": {
           "label": "Projects",
-          "x": 66569,
-          "y": 8106,
+          "x": 65036,
+          "y": 8665,
           "id": "2550822f-c866-462d-b212-9f2c9af27316"
         },
         "3e0b9209-2385-4d94-96bd-de7d164fae21": {
           "label": "Tools",
-          "x": 66560,
-          "y": 8131,
+          "x": 65027,
+          "y": 8690,
           "id": "3e0b9209-2385-4d94-96bd-de7d164fae21"
         },
         "6721179b-d7db-473b-9c3d-5870ada62760": {
           "label": "Organizations",
-          "x": 66588,
-          "y": 8156,
+          "x": 65055,
+          "y": 8715,
           "id": "6721179b-d7db-473b-9c3d-5870ada62760"
         },
         "79f21684-6814-4a79-aa76-f5f4d38d0b11": {
           "label": "Standarts",
-          "x": 66574,
-          "y": 8181,
+          "x": 65041,
+          "y": 8740,
           "id": "79f21684-6814-4a79-aa76-f5f4d38d0b11"
         },
         "c155ae76-32d8-45aa-8bae-726280aea807": {
           "label": "Forums, Groups",
-          "x": 66596,
-          "y": 8082,
+          "x": 65063,
+          "y": 8641,
           "id": "c155ae76-32d8-45aa-8bae-726280aea807"
         },
         "4145852b-b2b9-4925-9167-fc2a4e068d2e": {
           "label": "Laws",
-          "x": 66560,
-          "y": 8231,
+          "x": 65027,
+          "y": 8790,
           "id": "4145852b-b2b9-4925-9167-fc2a4e068d2e"
         },
         "b1a757ea-aecc-46ce-b2ba-e1334c053a25": {
           "label": "Adjacent Themes",
-          "x": 66599,
-          "y": 8256,
+          "x": 65066,
+          "y": 8815,
           "id": "b1a757ea-aecc-46ce-b2ba-e1334c053a25"
         },
         "b6c8f693-7a0a-4e9c-ac0a-bbe75d174dca": {
           "label": "Questions",
-          "x": 66349,
-          "y": 8381,
+          "x": 64816,
+          "y": 8940,
           "id": "b6c8f693-7a0a-4e9c-ac0a-bbe75d174dca"
         },
         "36f288af-7b96-4f69-9e17-60df4180e078": {
           "label": "Problems",
-          "x": 66349,
-          "y": 8481,
+          "x": 64816,
+          "y": 9040,
           "id": "36f288af-7b96-4f69-9e17-60df4180e078"
         },
         "0cce9655-d1bf-42a0-810e-5997ed9b3902": {
           "label": "Goals",
-          "x": 66349,
-          "y": 8581,
+          "x": 64816,
+          "y": 9140,
           "id": "0cce9655-d1bf-42a0-810e-5997ed9b3902"
         },
         "23ab6901-3e62-4ae8-a1e5-66d5e8951a80": {
           "label": "Systems analysis",
-          "x": 65940,
-          "y": 11674,
+          "x": 64311,
+          "y": 14956,
           "font": {
             "size": 72,
             "align": "left"
@@ -9014,14 +9014,14 @@ var schemeData =
         },
         "90301b17-1b20-4277-92b9-dc4fc60966b3": {
           "label": "Development",
-          "x": 66362,
-          "y": 12112,
+          "x": 64733,
+          "y": 15394,
           "id": "90301b17-1b20-4277-92b9-dc4fc60966b3"
         },
         "c98e85aa-f56d-4009-a41f-b852085bd0e4": {
           "label": "11/5/2019",
-          "x": 66611,
-          "y": 12111,
+          "x": 64982,
+          "y": 15393,
           "id": "c98e85aa-f56d-4009-a41f-b852085bd0e4",
           "shape": "box",
           "link": "",
@@ -9037,140 +9037,140 @@ var schemeData =
         },
         "38f58b28-f81f-4d68-88f5-cc4545248ec0": {
           "label": "init",
-          "x": 66512,
-          "y": 12112,
+          "x": 64883,
+          "y": 15394,
           "id": "38f58b28-f81f-4d68-88f5-cc4545248ec0"
         },
         "e37b17ce-5f41-4361-99be-8daaab6d5b90": {
           "label": "Notes",
-          "x": 66362,
-          "y": 11142,
+          "x": 64733,
+          "y": 14424,
           "id": "e37b17ce-5f41-4361-99be-8daaab6d5b90"
         },
         "563fc1d6-2c8b-4823-b101-4d728f764693": {
           "label": "Dictionary of\nconcepts",
-          "x": 66512,
-          "y": 10892,
+          "x": 64883,
+          "y": 14174,
           "id": "563fc1d6-2c8b-4823-b101-4d728f764693"
         },
         "76c28b5c-126e-41d7-a9db-7fc7b4d75dff": {
           "label": "Details, thoughts",
-          "x": 66512,
-          "y": 11142,
+          "x": 64883,
+          "y": 14424,
           "id": "76c28b5c-126e-41d7-a9db-7fc7b4d75dff"
         },
         "cfde533f-c758-4d4d-b62d-2ffbc5aff4c6": {
           "label": "Sections",
-          "x": 66512,
-          "y": 11512,
+          "x": 64883,
+          "y": 14794,
           "id": "cfde533f-c758-4d4d-b62d-2ffbc5aff4c6"
         },
         "59ee1a70-7f39-4f20-9e70-650e6aa171a8": {
           "label": "Books",
-          "x": 66576,
-          "y": 11242,
+          "x": 64947,
+          "y": 14524,
           "id": "59ee1a70-7f39-4f20-9e70-650e6aa171a8"
         },
         "c7726258-5cb2-4eb2-85fe-7f32fb4c6c99": {
           "label": "R&D institutions",
-          "x": 66607,
-          "y": 11267,
+          "x": 64978,
+          "y": 14549,
           "id": "c7726258-5cb2-4eb2-85fe-7f32fb4c6c99"
         },
         "bd728d97-0f6b-4fba-accc-9914b122ae90": {
           "label": "Sites",
-          "x": 66572,
-          "y": 11292,
+          "x": 64943,
+          "y": 14574,
           "id": "bd728d97-0f6b-4fba-accc-9914b122ae90"
         },
         "943e024b-bda3-457c-ad57-c214cbb87d92": {
           "label": "Magazines",
-          "x": 66591,
-          "y": 11317,
+          "x": 64962,
+          "y": 14599,
           "id": "943e024b-bda3-457c-ad57-c214cbb87d92"
         },
         "99efbf4e-6dd3-4533-854a-3b1d8fa02eba": {
           "label": "Articles",
-          "x": 66580,
-          "y": 11342,
+          "x": 64951,
+          "y": 14624,
           "id": "99efbf4e-6dd3-4533-854a-3b1d8fa02eba"
         },
         "11322a56-8c0c-4187-b42c-3efbfd44a187": {
           "label": "Media content",
-          "x": 66602,
-          "y": 11367,
+          "x": 64973,
+          "y": 14649,
           "id": "11322a56-8c0c-4187-b42c-3efbfd44a187"
         },
         "bc1ce877-7d05-4871-bdfc-c46eb56957d5": {
           "label": "Misc. web links",
-          "x": 66604,
-          "y": 11447,
+          "x": 64975,
+          "y": 14729,
           "id": "bc1ce877-7d05-4871-bdfc-c46eb56957d5"
         },
         "cfdcd148-1aca-4ad3-9f85-8aebfc27d0a7": {
           "label": "Projects",
-          "x": 66582,
-          "y": 11537,
+          "x": 64953,
+          "y": 14819,
           "id": "cfdcd148-1aca-4ad3-9f85-8aebfc27d0a7"
         },
         "eec3c952-51e0-45a4-8f6d-0e0b05ad8f99": {
           "label": "Tools",
-          "x": 66573,
-          "y": 11562,
+          "x": 64944,
+          "y": 14844,
           "id": "eec3c952-51e0-45a4-8f6d-0e0b05ad8f99"
         },
         "6215f461-0ad3-4077-be1a-836eadcf9b70": {
           "label": "Organizations",
-          "x": 66601,
-          "y": 11587,
+          "x": 64972,
+          "y": 14869,
           "id": "6215f461-0ad3-4077-be1a-836eadcf9b70"
         },
         "141e4b4c-f30a-4d63-ba51-dd8e228dc3d2": {
           "label": "Standarts",
-          "x": 66587,
-          "y": 11612,
+          "x": 64958,
+          "y": 14894,
           "id": "141e4b4c-f30a-4d63-ba51-dd8e228dc3d2"
         },
         "c4903c6e-535a-43ba-9a84-bc6455a1328f": {
           "label": "Forums, Groups",
-          "x": 66609,
-          "y": 11637,
+          "x": 64980,
+          "y": 14919,
           "id": "c4903c6e-535a-43ba-9a84-bc6455a1328f"
         },
         "90d85947-4c1a-45fb-abfc-8ecdb7c68098": {
           "label": "Laws",
-          "x": 66573,
-          "y": 11662,
+          "x": 64944,
+          "y": 14944,
           "id": "90d85947-4c1a-45fb-abfc-8ecdb7c68098"
         },
         "bf9e489f-8c53-473a-9c15-f0c97193fd29": {
           "label": "Adjacent Themes",
-          "x": 66612,
-          "y": 11687,
+          "x": 64983,
+          "y": 14969,
           "id": "bf9e489f-8c53-473a-9c15-f0c97193fd29"
         },
         "6bffe2ff-069f-4f52-9ad3-40fde9952877": {
           "label": "Questions",
-          "x": 66362,
-          "y": 11812,
+          "x": 64733,
+          "y": 15094,
           "id": "6bffe2ff-069f-4f52-9ad3-40fde9952877"
         },
         "498d52b5-5007-45d2-8987-9e7332175cfe": {
           "label": "Problems",
-          "x": 66362,
-          "y": 11912,
+          "x": 64733,
+          "y": 15194,
           "id": "498d52b5-5007-45d2-8987-9e7332175cfe"
         },
         "87ac07ab-8760-4840-aafc-65644beec8ca": {
           "label": "Goals",
-          "x": 66362,
-          "y": 12012,
+          "x": 64733,
+          "y": 15294,
           "id": "87ac07ab-8760-4840-aafc-65644beec8ca"
         },
         "ef6ecee9-9fbb-4c21-885a-a67049ab9358": {
           "label": "Schemes, graphs layout",
-          "x": 66002,
-          "y": 15041,
+          "x": 64373,
+          "y": 18323,
           "font": {
             "size": 72,
             "align": "left"
@@ -9186,14 +9186,14 @@ var schemeData =
         },
         "79d1d961-e5ed-458f-8937-886fac4fe79a": {
           "label": "Development",
-          "x": 66603,
-          "y": 15503,
+          "x": 64974,
+          "y": 18785,
           "id": "79d1d961-e5ed-458f-8937-886fac4fe79a"
         },
         "c7113ae3-9914-44da-b004-f0afda869072": {
           "label": "11/5/2019",
-          "x": 66853,
-          "y": 15503,
+          "x": 65224,
+          "y": 18785,
           "id": "c7113ae3-9914-44da-b004-f0afda869072",
           "shape": "box",
           "link": "",
@@ -9209,140 +9209,140 @@ var schemeData =
         },
         "0c764f8c-203b-402b-9f96-1047b55664dc": {
           "label": "init",
-          "x": 66753,
-          "y": 15503,
+          "x": 65124,
+          "y": 18785,
           "id": "0c764f8c-203b-402b-9f96-1047b55664dc"
         },
         "eff206e2-e69a-447e-ad19-8d5c178c3098": {
           "label": "Notes",
-          "x": 66606,
-          "y": 14392,
+          "x": 64977,
+          "y": 17674,
           "id": "eff206e2-e69a-447e-ad19-8d5c178c3098"
         },
         "69a312c7-0c0e-4341-b711-c94ef08bfc9a": {
           "label": "Dictionary of\nconcepts",
-          "x": 66756,
-          "y": 14142,
+          "x": 65127,
+          "y": 17424,
           "id": "69a312c7-0c0e-4341-b711-c94ef08bfc9a"
         },
         "0c60d477-fc43-4628-8ab4-d94c2970026b": {
           "label": "Details, thoughts",
-          "x": 66756,
-          "y": 14392,
+          "x": 65127,
+          "y": 17674,
           "id": "0c60d477-fc43-4628-8ab4-d94c2970026b"
         },
         "d737b223-4c5c-447d-89e9-d0b30791e146": {
           "label": "Sections",
-          "x": 66753,
-          "y": 14903,
+          "x": 65124,
+          "y": 18185,
           "id": "d737b223-4c5c-447d-89e9-d0b30791e146"
         },
         "0e4f9170-7e37-489f-b3ba-f09af2eeed03": {
           "label": "Books",
-          "x": 66817,
-          "y": 14492,
+          "x": 65188,
+          "y": 17774,
           "id": "0e4f9170-7e37-489f-b3ba-f09af2eeed03"
         },
         "033349ea-33cf-4327-8333-05782d56f711": {
           "label": "R&D institutions",
-          "x": 66848,
-          "y": 14517,
+          "x": 65219,
+          "y": 17799,
           "id": "033349ea-33cf-4327-8333-05782d56f711"
         },
         "bc74b022-bd3a-4ca1-9651-ff2ed6097576": {
           "label": "Sites",
-          "x": 66813,
-          "y": 14542,
+          "x": 65184,
+          "y": 17824,
           "id": "bc74b022-bd3a-4ca1-9651-ff2ed6097576"
         },
         "025cf3be-74ef-4620-8f8c-af0c4caf2646": {
           "label": "Magazines",
-          "x": 66832,
-          "y": 14567,
+          "x": 65203,
+          "y": 17849,
           "id": "025cf3be-74ef-4620-8f8c-af0c4caf2646"
         },
         "5abd4c6d-1052-40c4-a497-a55a2229e717": {
           "label": "Articles",
-          "x": 66821,
-          "y": 14592,
+          "x": 65192,
+          "y": 17874,
           "id": "5abd4c6d-1052-40c4-a497-a55a2229e717"
         },
         "43e671e7-b7f5-4713-9b20-d4454a259ceb": {
           "label": "Media content",
-          "x": 66843,
-          "y": 14617,
+          "x": 65214,
+          "y": 17899,
           "id": "43e671e7-b7f5-4713-9b20-d4454a259ceb"
         },
         "d82727cc-8fac-483a-ab1f-94671e48f58c": {
           "label": "Misc. web links",
-          "x": 66845,
-          "y": 14779,
+          "x": 65216,
+          "y": 18061,
           "id": "d82727cc-8fac-483a-ab1f-94671e48f58c"
         },
         "ae111801-7450-4e72-b568-000c9396c2cb": {
           "label": "Projects",
-          "x": 66823,
-          "y": 14928,
+          "x": 65194,
+          "y": 18210,
           "id": "ae111801-7450-4e72-b568-000c9396c2cb"
         },
         "1cd1eb21-00f7-4ead-8c2d-4bceac512aff": {
           "label": "Tools",
-          "x": 66814,
-          "y": 14953,
+          "x": 65185,
+          "y": 18235,
           "id": "1cd1eb21-00f7-4ead-8c2d-4bceac512aff"
         },
         "608a6fa9-c142-4d48-b932-dd362042b651": {
           "label": "Organizations",
-          "x": 66842,
-          "y": 14978,
+          "x": 65213,
+          "y": 18260,
           "id": "608a6fa9-c142-4d48-b932-dd362042b651"
         },
         "46e181bb-91a2-4212-9cc0-6de2493a1afd": {
           "label": "Standarts",
-          "x": 66828,
-          "y": 15003,
+          "x": 65199,
+          "y": 18285,
           "id": "46e181bb-91a2-4212-9cc0-6de2493a1afd"
         },
         "da17452d-f8dd-46de-ba8e-917b8fc5c28f": {
           "label": "Forums, Groups",
-          "x": 66850,
-          "y": 15028,
+          "x": 65221,
+          "y": 18310,
           "id": "da17452d-f8dd-46de-ba8e-917b8fc5c28f"
         },
         "2ee762aa-5b18-4d6a-b3a7-481f61072908": {
           "label": "Laws",
-          "x": 66814,
-          "y": 15053,
+          "x": 65185,
+          "y": 18335,
           "id": "2ee762aa-5b18-4d6a-b3a7-481f61072908"
         },
         "d8ca27b1-44ac-427e-ab8b-ecfab279202a": {
           "label": "Adjacent Themes",
-          "x": 66853,
-          "y": 15078,
+          "x": 65224,
+          "y": 18360,
           "id": "d8ca27b1-44ac-427e-ab8b-ecfab279202a"
         },
         "9cc0eef2-32a8-4ae4-96a7-75873e363391": {
           "label": "Questions",
-          "x": 66603,
-          "y": 15203,
+          "x": 64974,
+          "y": 18485,
           "id": "9cc0eef2-32a8-4ae4-96a7-75873e363391"
         },
         "86a07abb-eaf6-464b-939c-ffecec9b5638": {
           "label": "Problems",
-          "x": 66603,
-          "y": 15303,
+          "x": 64974,
+          "y": 18585,
           "id": "86a07abb-eaf6-464b-939c-ffecec9b5638"
         },
         "fb7ce239-de8b-4b8f-92c4-2e5d56fb8046": {
           "label": "Goals",
-          "x": 66603,
-          "y": 15403,
+          "x": 64974,
+          "y": 18685,
           "id": "fb7ce239-de8b-4b8f-92c4-2e5d56fb8046"
         },
         "ac623b0c-e5d6-453d-9ce3-2ea47349f187": {
           "label": "Institutions and societies studying\ngraphs layout",
-          "x": 66590,
-          "y": 22303,
+          "x": 65057,
+          "y": 22862,
           "font": {
             "size": 72,
             "align": "center"
@@ -9358,14 +9358,14 @@ var schemeData =
         },
         "6a9041c4-b40a-4514-b5f9-26f0c39c3e33": {
           "label": "Development",
-          "x": 67311,
-          "y": 22781,
+          "x": 65778,
+          "y": 23340,
           "id": "6a9041c4-b40a-4514-b5f9-26f0c39c3e33"
         },
         "b7fef692-c39e-4341-b2b7-eaa1a100d516": {
           "label": "11/5/2019",
-          "x": 67561,
-          "y": 22781,
+          "x": 66028,
+          "y": 23340,
           "id": "b7fef692-c39e-4341-b2b7-eaa1a100d516",
           "shape": "box",
           "link": "",
@@ -9381,140 +9381,140 @@ var schemeData =
         },
         "daa0f8fd-47a7-406a-8c24-73b7de638416": {
           "label": "init",
-          "x": 67461,
-          "y": 22781,
+          "x": 65928,
+          "y": 23340,
           "id": "daa0f8fd-47a7-406a-8c24-73b7de638416"
         },
         "e5ed8e71-3d91-47c9-8f46-58638a1f8e75": {
           "label": "Notes",
-          "x": 67311,
-          "y": 21931,
+          "x": 65778,
+          "y": 22490,
           "id": "e5ed8e71-3d91-47c9-8f46-58638a1f8e75"
         },
         "23aa9a06-0f53-435a-92b4-466c24ebb255": {
           "label": "Dictionary of\nconcepts",
-          "x": 67461,
-          "y": 21681,
+          "x": 65928,
+          "y": 22240,
           "id": "23aa9a06-0f53-435a-92b4-466c24ebb255"
         },
         "6be78f98-d982-4669-a61d-8debd3d65c77": {
           "label": "Details, thoughts",
-          "x": 67461,
-          "y": 21931,
+          "x": 65928,
+          "y": 22490,
           "id": "6be78f98-d982-4669-a61d-8debd3d65c77"
         },
         "b584c289-d38c-414f-9fb1-fc288b2e2be2": {
           "label": "Sections",
-          "x": 67461,
-          "y": 22181,
+          "x": 65928,
+          "y": 22740,
           "id": "b584c289-d38c-414f-9fb1-fc288b2e2be2"
         },
         "af039c1e-909f-4403-b0a2-9aaf7ef1702d": {
           "label": "Books",
-          "x": 67525,
-          "y": 22031,
+          "x": 65992,
+          "y": 22590,
           "id": "af039c1e-909f-4403-b0a2-9aaf7ef1702d"
         },
         "438c2c92-3d22-4179-9f77-ce6d726cc080": {
           "label": "R&D institutions",
-          "x": 67556,
-          "y": 22056,
+          "x": 66023,
+          "y": 22615,
           "id": "438c2c92-3d22-4179-9f77-ce6d726cc080"
         },
         "e91961bd-ad1f-4668-bd23-d3eee742ecee": {
           "label": "Sites",
-          "x": 67521,
-          "y": 22081,
+          "x": 65988,
+          "y": 22640,
           "id": "e91961bd-ad1f-4668-bd23-d3eee742ecee"
         },
         "48a87655-2d1c-4783-a38e-896376885dd5": {
           "label": "Magazines",
-          "x": 67540,
-          "y": 22106,
+          "x": 66007,
+          "y": 22665,
           "id": "48a87655-2d1c-4783-a38e-896376885dd5"
         },
         "edb8b3cf-468d-49e3-80a8-87751ddba3a0": {
           "label": "Articles",
-          "x": 67529,
-          "y": 22131,
+          "x": 65996,
+          "y": 22690,
           "id": "edb8b3cf-468d-49e3-80a8-87751ddba3a0"
         },
         "37eab074-94f8-44c5-b1ec-1642f4b1493d": {
           "label": "Media content",
-          "x": 67551,
-          "y": 22156,
+          "x": 66018,
+          "y": 22715,
           "id": "37eab074-94f8-44c5-b1ec-1642f4b1493d"
         },
         "9bb0d24d-4670-4868-a599-6dc43d73b8d3": {
           "label": "Misc. web links",
-          "x": 67553,
-          "y": 22181,
+          "x": 66020,
+          "y": 22740,
           "id": "9bb0d24d-4670-4868-a599-6dc43d73b8d3"
         },
         "fb13d8a5-a9c7-4670-99a1-a34f1defa6d5": {
           "label": "Projects",
-          "x": 67531,
-          "y": 22206,
+          "x": 65998,
+          "y": 22765,
           "id": "fb13d8a5-a9c7-4670-99a1-a34f1defa6d5"
         },
         "4b06bbfc-af79-4463-84d0-4f9f23f77e60": {
           "label": "Tools",
-          "x": 67522,
-          "y": 22231,
+          "x": 65989,
+          "y": 22790,
           "id": "4b06bbfc-af79-4463-84d0-4f9f23f77e60"
         },
         "69958d2f-b281-46fd-b722-4c62909bdc67": {
           "label": "Organizations",
-          "x": 67550,
-          "y": 22256,
+          "x": 66017,
+          "y": 22815,
           "id": "69958d2f-b281-46fd-b722-4c62909bdc67"
         },
         "c251f832-2bbe-41a0-9d5a-528b66cbd7f2": {
           "label": "Standarts",
-          "x": 67536,
-          "y": 22281,
+          "x": 66003,
+          "y": 22840,
           "id": "c251f832-2bbe-41a0-9d5a-528b66cbd7f2"
         },
         "c727bd4b-7c3f-4392-9cc6-212be046afff": {
           "label": "Forums, Groups",
-          "x": 67558,
-          "y": 22306,
+          "x": 66025,
+          "y": 22865,
           "id": "c727bd4b-7c3f-4392-9cc6-212be046afff"
         },
         "67b161fd-7fe9-42ac-8589-990e43cc5929": {
           "label": "Laws",
-          "x": 67522,
-          "y": 22331,
+          "x": 65989,
+          "y": 22890,
           "id": "67b161fd-7fe9-42ac-8589-990e43cc5929"
         },
         "1a1b3778-a2ad-468f-b8d6-626b7164b6e2": {
           "label": "Adjacent Themes",
-          "x": 67561,
-          "y": 22356,
+          "x": 66028,
+          "y": 22915,
           "id": "1a1b3778-a2ad-468f-b8d6-626b7164b6e2"
         },
         "6b2bded7-7258-45c8-9199-792461476c11": {
           "label": "Questions",
-          "x": 67311,
-          "y": 22481,
+          "x": 65778,
+          "y": 23040,
           "id": "6b2bded7-7258-45c8-9199-792461476c11"
         },
         "a2b3d487-4906-4792-894d-ebfbb9343dc6": {
           "label": "Problems",
-          "x": 67311,
-          "y": 22581,
+          "x": 65778,
+          "y": 23140,
           "id": "a2b3d487-4906-4792-894d-ebfbb9343dc6"
         },
         "0ec5bd8e-9263-4a26-a216-b6138d3108ca": {
           "label": "Goals",
-          "x": 67311,
-          "y": 22681,
+          "x": 65778,
+          "y": 23240,
           "id": "0ec5bd8e-9263-4a26-a216-b6138d3108ca"
         },
         "60e1682f-3415-40ca-84fe-9ef3f4d1db00": {
           "label": "Визуализация в исторической\nинформатике",
-          "x": 66460,
-          "y": 26277,
+          "x": 64736,
+          "y": 29081,
           "font": {
             "size": 72,
             "align": "center"
@@ -9530,14 +9530,14 @@ var schemeData =
         },
         "ae79bdc2-2d5d-4e5f-83d4-e7cec873f3fc": {
           "label": "Development",
-          "x": 67183,
-          "y": 26840,
+          "x": 65459,
+          "y": 29644,
           "id": "ae79bdc2-2d5d-4e5f-83d4-e7cec873f3fc"
         },
         "e5048d81-9a04-467d-be3e-538b71c66c67": {
           "label": "#ffc63b",
-          "x": 67433,
-          "y": 26840,
+          "x": 65709,
+          "y": 29644,
           "id": "e5048d81-9a04-467d-be3e-538b71c66c67",
           "shape": "box",
           "link": "",
@@ -9553,134 +9553,134 @@ var schemeData =
         },
         "33914e34-d8e3-4958-bc89-9cd246ad13ed": {
           "label": "init",
-          "x": 67333,
-          "y": 26840,
+          "x": 65609,
+          "y": 29644,
           "id": "33914e34-d8e3-4958-bc89-9cd246ad13ed"
         },
         "f1b48af2-f9d1-4cdf-a0ff-d309d2112eb1": {
           "label": "Notes",
-          "x": 67183,
-          "y": 25829,
+          "x": 65459,
+          "y": 28633,
           "id": "f1b48af2-f9d1-4cdf-a0ff-d309d2112eb1"
         },
         "fdaacdbe-887c-4529-a82e-dba8df82c68e": {
           "label": "Dictionary of\nconcepts",
-          "x": 67333,
-          "y": 25579,
+          "x": 65609,
+          "y": 28383,
           "id": "fdaacdbe-887c-4529-a82e-dba8df82c68e"
         },
         "5273651b-4054-465b-8090-600b49383822": {
           "label": "Details, thoughts",
-          "x": 67333,
-          "y": 25829,
+          "x": 65609,
+          "y": 28633,
           "id": "5273651b-4054-465b-8090-600b49383822"
         },
         "67bc79b3-84ba-402b-9552-f1ad743d9ea6": {
           "label": "Sections",
-          "x": 67323,
-          "y": 26175,
+          "x": 65599,
+          "y": 28979,
           "id": "67bc79b3-84ba-402b-9552-f1ad743d9ea6"
         },
         "165d80f3-9569-4f93-86ec-410fe61f9a45": {
           "label": "Books",
-          "x": 67397,
-          "y": 25929,
+          "x": 65673,
+          "y": 28733,
           "id": "165d80f3-9569-4f93-86ec-410fe61f9a45"
         },
         "7869969f-5339-46e0-9328-1302ef9258fe": {
           "label": "R&D institutions",
-          "x": 67428,
-          "y": 25954,
+          "x": 65704,
+          "y": 28758,
           "id": "7869969f-5339-46e0-9328-1302ef9258fe"
         },
         "d56b3def-ce8e-4b25-bc08-ce0afbc81fc5": {
           "label": "Sites",
-          "x": 67393,
-          "y": 25979,
+          "x": 65669,
+          "y": 28783,
           "id": "d56b3def-ce8e-4b25-bc08-ce0afbc81fc5"
         },
         "5265902f-333f-4678-9f98-73f62a4e9565": {
           "label": "Magazines",
-          "x": 67412,
-          "y": 26067,
+          "x": 65688,
+          "y": 28871,
           "id": "5265902f-333f-4678-9f98-73f62a4e9565"
         },
         "6f53aa0e-0216-4420-894a-57bd82e6b3e5": {
           "label": "Articles",
-          "x": 67401,
-          "y": 26150,
+          "x": 65677,
+          "y": 28954,
           "id": "6f53aa0e-0216-4420-894a-57bd82e6b3e5"
         },
         "93edd5a0-e0a8-4cee-88af-615fb34fc829": {
           "label": "Media content",
-          "x": 67423,
-          "y": 26175,
+          "x": 65699,
+          "y": 28979,
           "id": "93edd5a0-e0a8-4cee-88af-615fb34fc829"
         },
         "8afdd297-0c41-4c88-899a-b414721e0c0d": {
           "label": "Misc. web links",
-          "x": 67425,
-          "y": 26230,
+          "x": 65701,
+          "y": 29034,
           "id": "8afdd297-0c41-4c88-899a-b414721e0c0d"
         },
         "ff68e85f-b7fd-41fb-8a8f-dfc6f4741367": {
           "label": "Projects",
-          "x": 67403,
-          "y": 26265,
+          "x": 65679,
+          "y": 29069,
           "id": "ff68e85f-b7fd-41fb-8a8f-dfc6f4741367"
         },
         "f0b52541-4514-46f4-b0f8-db89703a7fac": {
           "label": "Tools",
-          "x": 67394,
-          "y": 26290,
+          "x": 65670,
+          "y": 29094,
           "id": "f0b52541-4514-46f4-b0f8-db89703a7fac"
         },
         "17814e72-b700-4d42-a941-56fe0c21b884": {
           "label": "Organizations",
-          "x": 67422,
-          "y": 26315,
+          "x": 65698,
+          "y": 29119,
           "id": "17814e72-b700-4d42-a941-56fe0c21b884"
         },
         "4e3afd28-6f19-48ae-91ac-9cd081958ffd": {
           "label": "Standarts",
-          "x": 67408,
-          "y": 26340,
+          "x": 65684,
+          "y": 29144,
           "id": "4e3afd28-6f19-48ae-91ac-9cd081958ffd"
         },
         "ea38bafd-4d1a-4955-9df0-f9ca6faaaaad": {
           "label": "Forums, Groups",
-          "x": 67430,
-          "y": 26365,
+          "x": 65706,
+          "y": 29169,
           "id": "ea38bafd-4d1a-4955-9df0-f9ca6faaaaad"
         },
         "0b16d1b6-ea5f-4336-b019-eec3e17826b2": {
           "label": "Laws",
-          "x": 67394,
-          "y": 26390,
+          "x": 65670,
+          "y": 29194,
           "id": "0b16d1b6-ea5f-4336-b019-eec3e17826b2"
         },
         "5682bf6d-e31b-407c-ac19-5bc94d4b909d": {
           "label": "Adjacent Themes",
-          "x": 67433,
-          "y": 26415,
+          "x": 65709,
+          "y": 29219,
           "id": "5682bf6d-e31b-407c-ac19-5bc94d4b909d"
         },
         "43f55043-4d99-4703-aee2-cd420c6993f8": {
           "label": "Questions",
-          "x": 67183,
-          "y": 26540,
+          "x": 65459,
+          "y": 29344,
           "id": "43f55043-4d99-4703-aee2-cd420c6993f8"
         },
         "2b59dc95-02d4-40dc-a381-d172968ff231": {
           "label": "Problems",
-          "x": 67183,
-          "y": 26640,
+          "x": 65459,
+          "y": 29444,
           "id": "2b59dc95-02d4-40dc-a381-d172968ff231"
         },
         "af593f1b-6515-47ba-81c0-077da58db284": {
           "label": "Goals",
-          "x": 67183,
-          "y": 26740,
+          "x": 65459,
+          "y": 29544,
           "id": "af593f1b-6515-47ba-81c0-077da58db284"
         },
         "8e25715c-9a40-46af-8cc4-6cc71f24b9d1": {
@@ -10112,2211 +10112,2211 @@ var schemeData =
         "d4e3f8fa-634d-402e-b27e-c4b7dd0b93dd": {
           "label": "Human–computer interaction",
           "link": "https://en.wikipedia.org/wiki/Human–computer interaction",
-          "x": 77929,
-          "y": -756,
+          "x": 77772,
+          "y": 2866,
           "id": "d4e3f8fa-634d-402e-b27e-c4b7dd0b93dd"
         },
         "7bc1f5fe-22fd-486c-9f87-32df72d8f9f5": {
           "label": "Portal:Human–computer interaction",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction",
-          "x": 77949,
-          "y": -731,
+          "x": 77792,
+          "y": 2891,
           "id": "7bc1f5fe-22fd-486c-9f87-32df72d8f9f5"
         },
         "580630d4-4a74-4624-8191-c904509f3baa": {
           "label": "Outline of human–computer interaction",
           "link": "https://en.wikipedia.org/wiki/Outline of human–computer interaction",
-          "x": 77960,
-          "y": -706,
+          "x": 77803,
+          "y": 2916,
           "id": "580630d4-4a74-4624-8191-c904509f3baa"
         },
         "97c94d30-7cad-4101-8d16-f6cc1d89431b": {
           "label": "3D interaction",
           "link": "https://en.wikipedia.org/wiki/3D interaction",
-          "x": 77881,
-          "y": -681,
+          "x": 77724,
+          "y": 2941,
           "id": "97c94d30-7cad-4101-8d16-f6cc1d89431b"
         },
         "95d902f8-5f3e-409b-add4-fb95ee6ae1ee": {
           "label": "3Dconnexion",
           "link": "https://en.wikipedia.org/wiki/3Dconnexion",
-          "x": 77878,
-          "y": -656,
+          "x": 77721,
+          "y": 2966,
           "id": "95d902f8-5f3e-409b-add4-fb95ee6ae1ee"
         },
         "ad928b6c-fbe0-4bf4-8da8-15e94f3d5833": {
           "label": "3D user interaction",
           "link": "https://en.wikipedia.org/wiki/3D user interaction",
-          "x": 77897,
-          "y": -631,
+          "x": 77740,
+          "y": 2991,
           "id": "ad928b6c-fbe0-4bf4-8da8-15e94f3d5833"
         },
         "cc68b4e8-627f-4747-b4f7-de98832f8bb8": {
           "label": "10-foot user interface",
           "link": "https://en.wikipedia.org/wiki/10-foot user interface",
-          "x": 77905,
-          "y": -606,
+          "x": 77748,
+          "y": 3016,
           "id": "cc68b4e8-627f-4747-b4f7-de98832f8bb8"
         },
         "2f72b138-b545-448a-a450-b295321e6e49": {
           "label": "ACM Symposium on User Interface Software and Technology",
           "link": "https://en.wikipedia.org/wiki/ACM Symposium on User Interface Software and Technology",
-          "x": 78031,
-          "y": -581,
+          "x": 77874,
+          "y": 3041,
           "id": "2f72b138-b545-448a-a450-b295321e6e49"
         },
         "67e0625c-5077-45e0-a9cf-13fc8e6b671e": {
           "label": "ACM/IEEE Virtual Reality International Conference",
           "link": "https://en.wikipedia.org/wiki/ACM/IEEE Virtual Reality International Conference",
-          "x": 77996,
-          "y": -556,
+          "x": 77839,
+          "y": 3066,
           "id": "67e0625c-5077-45e0-a9cf-13fc8e6b671e"
         },
         "ca8747f6-53f3-4244-9cdd-616ab9284cf7": {
           "label": "Adaptation (computer science)",
           "link": "https://en.wikipedia.org/wiki/Adaptation (computer science)",
-          "x": 77934,
-          "y": -531,
+          "x": 77777,
+          "y": 3091,
           "id": "ca8747f6-53f3-4244-9cdd-616ab9284cf7"
         },
         "2d317f5e-e36e-4f72-840e-270021b4fe93": {
           "label": "Addiction by Design",
           "link": "https://en.wikipedia.org/wiki/Addiction by Design",
-          "x": 77899,
-          "y": -506,
+          "x": 77742,
+          "y": 3116,
           "id": "2d317f5e-e36e-4f72-840e-270021b4fe93"
         },
         "8458ccea-670c-4167-bf82-075f4e3d3633": {
           "label": "Aesthetic–usability effect",
           "link": "https://en.wikipedia.org/wiki/Aesthetic–usability effect",
-          "x": 77915,
-          "y": -481,
+          "x": 77758,
+          "y": 3141,
           "id": "8458ccea-670c-4167-bf82-075f4e3d3633"
         },
         "0901d391-3379-46a5-94ba-c78aa179b9bd": {
           "label": "Algorithms of Oppression",
           "link": "https://en.wikipedia.org/wiki/Algorithms of Oppression",
-          "x": 77917,
-          "y": -456,
+          "x": 77760,
+          "y": 3166,
           "id": "0901d391-3379-46a5-94ba-c78aa179b9bd"
         },
         "d88d907c-5a17-4f32-9941-20d7dea49e1d": {
           "label": "As We May Think",
           "link": "https://en.wikipedia.org/wiki/As We May Think",
-          "x": 77892,
-          "y": -431,
+          "x": 77735,
+          "y": 3191,
           "id": "d88d907c-5a17-4f32-9941-20d7dea49e1d"
         },
         "e4d7f791-7f4f-4b2a-bbfc-9b266972cf0a": {
           "label": "Augmented cognition",
           "link": "https://en.wikipedia.org/wiki/Augmented cognition",
-          "x": 77904,
-          "y": -406,
+          "x": 77747,
+          "y": 3216,
           "id": "e4d7f791-7f4f-4b2a-bbfc-9b266972cf0a"
         },
         "a6a78f67-f5a9-43e5-bbbe-71fee2e6d2fe": {
           "label": "Automatic identification and data capture",
           "link": "https://en.wikipedia.org/wiki/Automatic identification and data capture",
-          "x": 77966,
-          "y": -381,
+          "x": 77809,
+          "y": 3241,
           "id": "a6a78f67-f5a9-43e5-bbbe-71fee2e6d2fe"
         },
         "04bf8925-f34d-47b2-a45e-63cfe23992cb": {
           "label": "Bad Day (viral video)",
           "link": "https://en.wikipedia.org/wiki/Bad Day (viral video)",
-          "x": 77903,
-          "y": -356,
+          "x": 77746,
+          "y": 3266,
           "id": "04bf8925-f34d-47b2-a45e-63cfe23992cb"
         },
         "56429cb5-1067-4376-9c80-7ad3ec801b82": {
           "label": "Barrier pointing",
           "link": "https://en.wikipedia.org/wiki/Barrier pointing",
-          "x": 77885,
-          "y": -331,
+          "x": 77728,
+          "y": 3291,
           "id": "56429cb5-1067-4376-9c80-7ad3ec801b82"
         },
         "678d23c5-ca0a-410e-8be5-e2c0cbb5e5b4": {
           "label": "Ben Bederson",
           "link": "https://en.wikipedia.org/wiki/Ben Bederson",
-          "x": 77882,
-          "y": -306,
+          "x": 77725,
+          "y": 3316,
           "id": "678d23c5-ca0a-410e-8be5-e2c0cbb5e5b4"
         },
         "ed8aec09-a211-4e94-a1ef-417867490bb2": {
           "label": "BioWall",
           "link": "https://en.wikipedia.org/wiki/BioWall",
-          "x": 77860,
-          "y": -281,
+          "x": 77703,
+          "y": 3341,
           "id": "ed8aec09-a211-4e94-a1ef-417867490bb2"
         },
         "206b4377-d3c7-4a02-b472-5b1e4d098243": {
           "label": "Blended space",
           "link": "https://en.wikipedia.org/wiki/Blended space",
-          "x": 77884,
-          "y": -256,
+          "x": 77727,
+          "y": 3366,
           "id": "206b4377-d3c7-4a02-b472-5b1e4d098243"
         },
         "e1b94a98-0976-427e-8184-af8dd52e04a3": {
           "label": "Bodystorming",
           "link": "https://en.wikipedia.org/wiki/Bodystorming",
-          "x": 77880,
-          "y": -231,
+          "x": 77723,
+          "y": 3391,
           "id": "e1b94a98-0976-427e-8184-af8dd52e04a3"
         },
         "d93dd9ec-53b1-4ec4-8647-733a1df9f9c0": {
           "label": "Brain painting",
           "link": "https://en.wikipedia.org/wiki/Brain painting",
-          "x": 77880,
-          "y": -206,
+          "x": 77723,
+          "y": 3416,
           "id": "d93dd9ec-53b1-4ec4-8647-733a1df9f9c0"
         },
         "50ab1a0e-d3a2-4f1b-8f67-d0a376e18b23": {
           "label": "Brain–computer interface",
           "link": "https://en.wikipedia.org/wiki/Brain–computer interface",
-          "x": 77917,
-          "y": -181,
+          "x": 77760,
+          "y": 3441,
           "id": "50ab1a0e-d3a2-4f1b-8f67-d0a376e18b23"
         },
         "77c3a20a-3882-462b-826f-bc7795c72344": {
           "label": "Brushing and linking",
           "link": "https://en.wikipedia.org/wiki/Brushing and linking",
-          "x": 77901,
-          "y": -156,
+          "x": 77744,
+          "y": 3466,
           "id": "77c3a20a-3882-462b-826f-bc7795c72344"
         },
         "e191dd5f-fbc0-4378-b268-d2bc9d651740": {
           "label": "Card sorting",
           "link": "https://en.wikipedia.org/wiki/Card sorting",
-          "x": 77876,
-          "y": -131,
+          "x": 77719,
+          "y": 3491,
           "id": "e191dd5f-fbc0-4378-b268-d2bc9d651740"
         },
         "e0b13950-9881-4ed6-a46a-aaed121badf4": {
           "label": "Center for Humane Technology",
           "link": "https://en.wikipedia.org/wiki/Center for Humane Technology",
-          "x": 77936,
-          "y": -106,
+          "x": 77779,
+          "y": 3516,
           "id": "e0b13950-9881-4ed6-a46a-aaed121badf4"
         },
         "ae17e471-7acb-41c2-a44e-6c18cfdb0418": {
           "label": "CMN-GOMS",
           "link": "https://en.wikipedia.org/wiki/CMN-GOMS",
-          "x": 77877,
-          "y": -81,
+          "x": 77720,
+          "y": 3541,
           "id": "ae17e471-7acb-41c2-a44e-6c18cfdb0418"
         },
         "b3644af4-d6e5-4c5b-aaa8-30021061b23e": {
           "label": "Marcelo Coelho",
           "link": "https://en.wikipedia.org/wiki/Marcelo Coelho",
-          "x": 77887,
-          "y": -56,
+          "x": 77730,
+          "y": 3566,
           "id": "b3644af4-d6e5-4c5b-aaa8-30021061b23e"
         },
         "0b9975a5-2582-44c7-9f71-f8cec54521b0": {
           "label": "Cognitive complexity",
           "link": "https://en.wikipedia.org/wiki/Cognitive complexity",
-          "x": 77902,
-          "y": -31,
+          "x": 77745,
+          "y": 3591,
           "id": "0b9975a5-2582-44c7-9f71-f8cec54521b0"
         },
         "d60bd413-32e3-42dd-a39b-d3667411bfde": {
           "label": "Cognitive dimensions of notations",
           "link": "https://en.wikipedia.org/wiki/Cognitive dimensions of notations",
-          "x": 77943,
-          "y": -6,
+          "x": 77786,
+          "y": 3616,
           "id": "d60bd413-32e3-42dd-a39b-d3667411bfde"
         },
         "7ce860af-7c28-4c13-9697-6036e2d24220": {
           "label": "Cognitive engineering",
           "link": "https://en.wikipedia.org/wiki/Cognitive engineering",
-          "x": 77906,
-          "y": 19,
+          "x": 77749,
+          "y": 3641,
           "id": "7ce860af-7c28-4c13-9697-6036e2d24220"
         },
         "2d32e759-cf44-4ed2-ad2d-27ca43adca18": {
           "label": "Cognitive ergonomics",
           "link": "https://en.wikipedia.org/wiki/Cognitive ergonomics",
-          "x": 77905,
-          "y": 44,
+          "x": 77748,
+          "y": 3666,
           "id": "2d32e759-cf44-4ed2-ad2d-27ca43adca18"
         },
         "8bba17a3-7f4b-41bf-82a5-c99166266623": {
           "label": "Cognitive infocommunications",
           "link": "https://en.wikipedia.org/wiki/Cognitive infocommunications",
-          "x": 77931,
-          "y": 69,
+          "x": 77774,
+          "y": 3691,
           "id": "8bba17a3-7f4b-41bf-82a5-c99166266623"
         },
         "647b74c0-1ce2-4e54-8a03-f47a737327a6": {
           "label": "Collaborative information seeking",
           "link": "https://en.wikipedia.org/wiki/Collaborative information seeking",
-          "x": 77942,
-          "y": 94,
+          "x": 77785,
+          "y": 3716,
           "id": "647b74c0-1ce2-4e54-8a03-f47a737327a6"
         },
         "7f277ee7-2461-4eb9-8c33-4042470e9cb2": {
           "label": "Comand APS",
           "link": "https://en.wikipedia.org/wiki/Comand APS",
-          "x": 77879,
-          "y": 119,
+          "x": 77722,
+          "y": 3741,
           "id": "7f277ee7-2461-4eb9-8c33-4042470e9cb2"
         },
         "1a3d66a2-0a9a-4ea6-a8a4-5c47ea68716d": {
           "label": "Comparison of usability evaluation methods",
           "link": "https://en.wikipedia.org/wiki/Comparison of usability evaluation methods",
-          "x": 77975,
-          "y": 144,
+          "x": 77818,
+          "y": 3766,
           "id": "1a3d66a2-0a9a-4ea6-a8a4-5c47ea68716d"
         },
         "aeb4b854-98a0-4296-9710-5265faeeb01f": {
           "label": "Computer Graphics International",
           "link": "https://en.wikipedia.org/wiki/Computer Graphics International",
-          "x": 77940,
-          "y": 169,
+          "x": 77783,
+          "y": 3791,
           "id": "aeb4b854-98a0-4296-9710-5265faeeb01f"
         },
         "44549002-b78b-4c09-bd92-aba5deca2834": {
           "label": "Computer processing of body language",
           "link": "https://en.wikipedia.org/wiki/Computer processing of body language",
-          "x": 77962,
-          "y": 194,
+          "x": 77805,
+          "y": 3816,
           "id": "44549002-b78b-4c09-bd92-aba5deca2834"
         },
         "4b18f402-37b6-4219-9357-e0110ee445b2": {
           "label": "Computer-supported cooperative work",
           "link": "https://en.wikipedia.org/wiki/Computer-supported cooperative work",
-          "x": 77959,
-          "y": 219,
+          "x": 77802,
+          "y": 3841,
           "id": "4b18f402-37b6-4219-9357-e0110ee445b2"
         },
         "56621f1f-c3c8-4044-9e7a-ecff65f5adb7": {
           "label": "Computer user satisfaction",
           "link": "https://en.wikipedia.org/wiki/Computer user satisfaction",
-          "x": 77922,
-          "y": 244,
+          "x": 77765,
+          "y": 3866,
           "id": "56621f1f-c3c8-4044-9e7a-ecff65f5adb7"
         },
         "b91845e7-5b58-4231-8584-76f31ea916e4": {
           "label": "Computer-induced medical problems",
           "link": "https://en.wikipedia.org/wiki/Computer-induced medical problems",
-          "x": 77954,
-          "y": 269,
+          "x": 77797,
+          "y": 3891,
           "id": "b91845e7-5b58-4231-8584-76f31ea916e4"
         },
         "c8f7dc59-2491-4df1-b232-8a83c87d3674": {
           "label": "Confederate effect",
           "link": "https://en.wikipedia.org/wiki/Confederate effect",
-          "x": 77896,
-          "y": 294,
+          "x": 77739,
+          "y": 3916,
           "id": "c8f7dc59-2491-4df1-b232-8a83c87d3674"
         },
         "ec4a1316-e792-45e3-98e4-89bea24b1c4e": {
           "label": "Conference on Human Factors in Computing Systems",
           "link": "https://en.wikipedia.org/wiki/Conference on Human Factors in Computing Systems",
-          "x": 78008,
-          "y": 319,
+          "x": 77851,
+          "y": 3941,
           "id": "ec4a1316-e792-45e3-98e4-89bea24b1c4e"
         },
         "711a8715-5f52-4797-b889-4052ade034ba": {
           "label": "Consumability",
           "link": "https://en.wikipedia.org/wiki/Consumability",
-          "x": 77881,
-          "y": 344,
+          "x": 77724,
+          "y": 3966,
           "id": "711a8715-5f52-4797-b889-4052ade034ba"
         },
         "d56e8837-de0c-4759-a70f-800c62504a51": {
           "label": "Context-sensitive user interface",
           "link": "https://en.wikipedia.org/wiki/Context-sensitive user interface",
-          "x": 77937,
-          "y": 369,
+          "x": 77780,
+          "y": 3991,
           "id": "d56e8837-de0c-4759-a70f-800c62504a51"
         },
         "46e31315-bd73-483a-bc9e-e3afc1734cfc": {
           "label": "Contextual design",
           "link": "https://en.wikipedia.org/wiki/Contextual design",
-          "x": 77894,
-          "y": 394,
+          "x": 77737,
+          "y": 4016,
           "id": "46e31315-bd73-483a-bc9e-e3afc1734cfc"
         },
         "5e12fd5f-330a-469b-a4fc-a1d58ee628dc": {
           "label": "Contextual inquiry",
           "link": "https://en.wikipedia.org/wiki/Contextual inquiry",
-          "x": 77894,
-          "y": 419,
+          "x": 77737,
+          "y": 4041,
           "id": "5e12fd5f-330a-469b-a4fc-a1d58ee628dc"
         },
         "f2cfb9f4-33f0-4958-807c-4c94ce35f15a": {
           "label": "Conversational user interfaces",
           "link": "https://en.wikipedia.org/wiki/Conversational user interfaces",
-          "x": 77933,
-          "y": 444,
+          "x": 77776,
+          "y": 4066,
           "id": "f2cfb9f4-33f0-4958-807c-4c94ce35f15a"
         },
         "2d4b8500-ed54-433a-835e-95bf9e1440af": {
           "label": "Mike Cooley (engineer)",
           "link": "https://en.wikipedia.org/wiki/Mike Cooley (engineer)",
-          "x": 77911,
-          "y": 469,
+          "x": 77754,
+          "y": 4091,
           "id": "2d4b8500-ed54-433a-835e-95bf9e1440af"
         },
         "f792c0fb-215b-48e0-aa68-7c22e677b94d": {
           "label": "Cortical modem",
           "link": "https://en.wikipedia.org/wiki/Cortical modem",
-          "x": 77887,
-          "y": 494,
+          "x": 77730,
+          "y": 4116,
           "id": "f792c0fb-215b-48e0-aa68-7c22e677b94d"
         },
         "eddebc7b-8151-4641-850d-90466a3ea77b": {
           "label": "CPM-GOMS",
           "link": "https://en.wikipedia.org/wiki/CPM-GOMS",
-          "x": 77876,
-          "y": 519,
+          "x": 77719,
+          "y": 4141,
           "id": "eddebc7b-8151-4641-850d-90466a3ea77b"
         },
         "2c0fabe5-8997-49da-ae75-523a7c537a16": {
           "label": "CSS framework",
           "link": "https://en.wikipedia.org/wiki/CSS framework",
-          "x": 77886,
-          "y": 544,
+          "x": 77729,
+          "y": 4166,
           "id": "2c0fabe5-8997-49da-ae75-523a7c537a16"
         },
         "0d98f03f-3b66-4ce4-bf80-7cad45236f04": {
           "label": "Dhairya Dand",
           "link": "https://en.wikipedia.org/wiki/Dhairya Dand",
-          "x": 77880,
-          "y": 569,
+          "x": 77723,
+          "y": 4191,
           "id": "0d98f03f-3b66-4ce4-bf80-7cad45236f04"
         },
         "a3f89184-9f0e-4450-ab43-60660babe1f1": {
           "label": "Darcy DiNucci",
           "link": "https://en.wikipedia.org/wiki/Darcy DiNucci",
-          "x": 77881,
-          "y": 594,
+          "x": 77724,
+          "y": 4216,
           "id": "a3f89184-9f0e-4450-ab43-60660babe1f1"
         },
         "c2cfca5a-cfe2-4bb9-ac93-860e991bf37a": {
           "label": "Delimiterless input",
           "link": "https://en.wikipedia.org/wiki/Delimiterless input",
-          "x": 77895,
-          "y": 619,
+          "x": 77738,
+          "y": 4241,
           "id": "c2cfca5a-cfe2-4bb9-ac93-860e991bf37a"
         },
         "ce137955-94be-4427-894b-065c2b08e8b9": {
           "label": "DeviceKit",
           "link": "https://en.wikipedia.org/wiki/DeviceKit",
-          "x": 77866,
-          "y": 644,
+          "x": 77709,
+          "y": 4266,
           "id": "ce137955-94be-4427-894b-065c2b08e8b9"
         },
         "318f978c-ff19-40c0-88ac-1e7e8b0b23e4": {
           "label": "Dextroscope",
           "link": "https://en.wikipedia.org/wiki/Dextroscope",
-          "x": 77877,
-          "y": 669,
+          "x": 77720,
+          "y": 4291,
           "id": "318f978c-ff19-40c0-88ac-1e7e8b0b23e4"
         },
         "8d37a879-9321-44ef-a129-f19cd3613b86": {
           "label": "Dialog manager",
           "link": "https://en.wikipedia.org/wiki/Dialog manager",
-          "x": 77887,
-          "y": 694,
+          "x": 77730,
+          "y": 4316,
           "id": "8d37a879-9321-44ef-a129-f19cd3613b86"
         },
         "13635f38-87de-4616-b5d0-4b7b8df22f0e": {
           "label": "Diary studies",
           "link": "https://en.wikipedia.org/wiki/Diary studies",
-          "x": 77878,
-          "y": 719,
+          "x": 77721,
+          "y": 4341,
           "id": "13635f38-87de-4616-b5d0-4b7b8df22f0e"
         },
         "57be516e-7cd2-4ea0-aa56-d8a323f43de6": {
           "label": "Digital Writing and Research Lab",
           "link": "https://en.wikipedia.org/wiki/Digital Writing and Research Lab",
-          "x": 77941,
-          "y": 744,
+          "x": 77784,
+          "y": 4366,
           "id": "57be516e-7cd2-4ea0-aa56-d8a323f43de6"
         },
         "e8b63082-4ac8-447e-81cd-45c9678b24df": {
           "label": "Don't Make Me Think",
           "link": "https://en.wikipedia.org/wiki/Don't Make Me Think",
-          "x": 77904,
-          "y": 769,
+          "x": 77747,
+          "y": 4391,
           "id": "e8b63082-4ac8-447e-81cd-45c9678b24df"
         },
         "d600e92b-8e3b-46cd-90a7-29d38fb7d95a": {
           "label": "Dynamic Graphics Project",
           "link": "https://en.wikipedia.org/wiki/Dynamic Graphics Project",
-          "x": 77919,
-          "y": 794,
+          "x": 77762,
+          "y": 4416,
           "id": "d600e92b-8e3b-46cd-90a7-29d38fb7d95a"
         },
         "aceee48f-2001-4933-b014-a1523b4a9655": {
           "label": "Ecological interface design",
           "link": "https://en.wikipedia.org/wiki/Ecological interface design",
-          "x": 77921,
-          "y": 819,
+          "x": 77764,
+          "y": 4441,
           "id": "aceee48f-2001-4933-b014-a1523b4a9655"
         },
         "c5b50c71-49c5-4298-a6a2-a35fb3c2638f": {
           "label": "Electronic action",
           "link": "https://en.wikipedia.org/wiki/Electronic action",
-          "x": 77889,
-          "y": 844,
+          "x": 77732,
+          "y": 4466,
           "id": "c5b50c71-49c5-4298-a6a2-a35fb3c2638f"
         },
         "358c4104-22af-487e-909a-b70a058bcc55": {
           "label": "ELIZA effect",
           "link": "https://en.wikipedia.org/wiki/ELIZA effect",
-          "x": 77876,
-          "y": 869,
+          "x": 77719,
+          "y": 4491,
           "id": "358c4104-22af-487e-909a-b70a058bcc55"
         },
         "86e2ab71-670b-488c-8ab8-d1874835de03": {
           "label": "ELMER guidelines",
           "link": "https://en.wikipedia.org/wiki/ELMER guidelines",
-          "x": 77895,
-          "y": 894,
+          "x": 77738,
+          "y": 4516,
           "id": "86e2ab71-670b-488c-8ab8-d1874835de03"
         },
         "ba5056ae-4932-43d6-adef-089192660145": {
           "label": "Emotion-sensitive software",
           "link": "https://en.wikipedia.org/wiki/Emotion-sensitive software",
-          "x": 77922,
-          "y": 919,
+          "x": 77765,
+          "y": 4541,
           "id": "ba5056ae-4932-43d6-adef-089192660145"
         },
         "5b495fb9-331d-463d-9d01-6b29c5a01092": {
           "label": "Empathy in online communities",
           "link": "https://en.wikipedia.org/wiki/Empathy in online communities",
-          "x": 77935,
-          "y": 944,
+          "x": 77778,
+          "y": 4566,
           "id": "5b495fb9-331d-463d-9d01-6b29c5a01092"
         },
         "44f5d343-1d36-498e-b01a-00f0fcff0198": {
           "label": "End-user computing",
           "link": "https://en.wikipedia.org/wiki/End-user computing",
-          "x": 77901,
-          "y": 969,
+          "x": 77744,
+          "y": 4591,
           "id": "44f5d343-1d36-498e-b01a-00f0fcff0198"
         },
         "cc786bd8-dfec-4501-a77b-20e17e30862e": {
           "label": "End-user development",
           "link": "https://en.wikipedia.org/wiki/End-user development",
-          "x": 77909,
-          "y": 994,
+          "x": 77752,
+          "y": 4616,
           "id": "cc786bd8-dfec-4501-a77b-20e17e30862e"
         },
         "37ab6a61-d5d1-4b0d-9c19-cb2751943620": {
           "label": "Error message",
           "link": "https://en.wikipedia.org/wiki/Error message",
-          "x": 77884,
-          "y": 1019,
+          "x": 77727,
+          "y": 4641,
           "id": "37ab6a61-d5d1-4b0d-9c19-cb2751943620"
         },
         "b4c95d8b-eabb-4740-9191-8603da5beb63": {
           "label": "Eugene Goostman",
           "link": "https://en.wikipedia.org/wiki/Eugene Goostman",
-          "x": 77896,
-          "y": 1044,
+          "x": 77739,
+          "y": 4666,
           "id": "b4c95d8b-eabb-4740-9191-8603da5beb63"
         },
         "26812bcb-d653-4a5c-a8a1-39151efdc556": {
           "label": "Example-centric programming",
           "link": "https://en.wikipedia.org/wiki/Example-centric programming",
-          "x": 77932,
-          "y": 1069,
+          "x": 77775,
+          "y": 4691,
           "id": "26812bcb-d653-4a5c-a8a1-39151efdc556"
         },
         "582d9baa-b1e9-441a-b869-21d0b2e4ebe1": {
           "label": "Exploratory search",
           "link": "https://en.wikipedia.org/wiki/Exploratory search",
-          "x": 77896,
-          "y": 1094,
+          "x": 77739,
+          "y": 4716,
           "id": "582d9baa-b1e9-441a-b869-21d0b2e4ebe1"
         },
         "3ba6da1f-5a4f-47e2-9018-c3e3f079d1c3": {
           "label": "Feature integration theory",
           "link": "https://en.wikipedia.org/wiki/Feature integration theory",
-          "x": 77919,
-          "y": 1119,
+          "x": 77762,
+          "y": 4741,
           "id": "3ba6da1f-5a4f-47e2-9018-c3e3f079d1c3"
         },
         "657ce394-4f7f-4e58-ba18-113f78f31c30": {
           "label": "Feminist HCI",
           "link": "https://en.wikipedia.org/wiki/Feminist HCI",
-          "x": 77878,
-          "y": 1144,
+          "x": 77721,
+          "y": 4766,
           "id": "657ce394-4f7f-4e58-ba18-113f78f31c30"
         },
         "4f1b923c-376f-43eb-b39d-99d677944d24": {
           "label": "First-time user experience",
           "link": "https://en.wikipedia.org/wiki/First-time user experience",
-          "x": 77920,
-          "y": 1169,
+          "x": 77763,
+          "y": 4791,
           "id": "4f1b923c-376f-43eb-b39d-99d677944d24"
         },
         "31a972bf-19f0-4dee-8277-9766a82d936b": {
           "label": "Paul Fitts",
           "link": "https://en.wikipedia.org/wiki/Paul Fitts",
-          "x": 77866,
-          "y": 1194,
+          "x": 77709,
+          "y": 4816,
           "id": "31a972bf-19f0-4dee-8277-9766a82d936b"
         },
         "7d2cdcaf-2dde-45d2-b4f5-99f24d3dcbd3": {
           "label": "Fitts's law",
           "link": "https://en.wikipedia.org/wiki/Fitts's law",
-          "x": 77868,
-          "y": 1219,
+          "x": 77711,
+          "y": 4841,
           "id": "7d2cdcaf-2dde-45d2-b4f5-99f24d3dcbd3"
         },
         "21ef5bfa-a9db-4848-9977-693f86f3a433": {
           "label": "Flexibility–usability tradeoff",
           "link": "https://en.wikipedia.org/wiki/Flexibility–usability tradeoff",
-          "x": 77922,
-          "y": 1244,
+          "x": 77765,
+          "y": 4866,
           "id": "21ef5bfa-a9db-4848-9977-693f86f3a433"
         },
         "46af41b9-614e-454c-b0bc-0f36ee41e11c": {
           "label": "Focus group",
           "link": "https://en.wikipedia.org/wiki/Focus group",
-          "x": 77877,
-          "y": 1269,
+          "x": 77720,
+          "y": 4891,
           "id": "46af41b9-614e-454c-b0bc-0f36ee41e11c"
         },
         "8d15378a-a6c9-4f11-ba03-d2cc7ccd384b": {
           "label": "Ford Sync",
           "link": "https://en.wikipedia.org/wiki/Ford Sync",
-          "x": 77869,
-          "y": 1294,
+          "x": 77712,
+          "y": 4916,
           "id": "8d15378a-a6c9-4f11-ba03-d2cc7ccd384b"
         },
         "f0e4ba4a-f943-480c-a005-e501f56ba477": {
           "label": "Gender HCI",
           "link": "https://en.wikipedia.org/wiki/Gender HCI",
-          "x": 77875,
-          "y": 1319,
+          "x": 77718,
+          "y": 4941,
           "id": "f0e4ba4a-f943-480c-a005-e501f56ba477"
         },
         "7d01f101-beb6-44e3-84a3-89b8329db822": {
           "label": "Georgia Institute of Technology School of Interactive Computing",
           "link": "https://en.wikipedia.org/wiki/Georgia Institute of Technology School of Interactive Computing",
-          "x": 78039,
-          "y": 1344,
+          "x": 77882,
+          "y": 4966,
           "id": "7d01f101-beb6-44e3-84a3-89b8329db822"
         },
         "9230fcc6-869f-4e7f-86f5-eae15d99a4d9": {
           "label": "GOMS",
           "link": "https://en.wikipedia.org/wiki/GOMS",
-          "x": 77858,
-          "y": 1369,
+          "x": 77701,
+          "y": 4991,
           "id": "9230fcc6-869f-4e7f-86f5-eae15d99a4d9"
         },
         "12335eb6-cfdd-450f-aba6-3a6ae6dba25b": {
           "label": "Googlearchy",
           "link": "https://en.wikipedia.org/wiki/Googlearchy",
-          "x": 77877,
-          "y": 1394,
+          "x": 77720,
+          "y": 5016,
           "id": "12335eb6-cfdd-450f-aba6-3a6ae6dba25b"
         },
         "5691b2a3-c99c-44f0-a9d9-592559dba728": {
           "label": "Graphics Interface",
           "link": "https://en.wikipedia.org/wiki/Graphics Interface",
-          "x": 77895,
-          "y": 1419,
+          "x": 77738,
+          "y": 5041,
           "id": "5691b2a3-c99c-44f0-a9d9-592559dba728"
         },
         "28a075ed-caf0-4550-b90d-5ef7a87f961e": {
           "label": "GroupLens Research",
           "link": "https://en.wikipedia.org/wiki/GroupLens Research",
-          "x": 77905,
-          "y": 1444,
+          "x": 77748,
+          "y": 5066,
           "id": "28a075ed-caf0-4550-b90d-5ef7a87f961e"
         },
         "c3e78427-1a0d-40d3-bb68-a0b8ef9e3498": {
           "label": "Gulf of evaluation",
           "link": "https://en.wikipedia.org/wiki/Gulf of evaluation",
-          "x": 77892,
-          "y": 1469,
+          "x": 77735,
+          "y": 5091,
           "id": "c3e78427-1a0d-40d3-bb68-a0b8ef9e3498"
         },
         "fbee2107-cec2-4475-97b4-524fe271fbb7": {
           "label": "Gulf of execution",
           "link": "https://en.wikipedia.org/wiki/Gulf of execution",
-          "x": 77890,
-          "y": 1494,
+          "x": 77733,
+          "y": 5116,
           "id": "fbee2107-cec2-4475-97b4-524fe271fbb7"
         },
         "6775770a-89d1-4ae5-8261-4cb45d627cb7": {
           "label": "HAL (software)",
           "link": "https://en.wikipedia.org/wiki/HAL (software)",
-          "x": 77884,
-          "y": 1519,
+          "x": 77727,
+          "y": 5141,
           "id": "6775770a-89d1-4ae5-8261-4cb45d627cb7"
         },
         "5db541b2-5255-4174-a7e4-4b65c9ec17e5": {
           "label": "Hands-on computing",
           "link": "https://en.wikipedia.org/wiki/Hands-on computing",
-          "x": 77903,
-          "y": 1544,
+          "x": 77746,
+          "y": 5166,
           "id": "5db541b2-5255-4174-a7e4-4b65c9ec17e5"
         },
         "f5b3340b-9ff3-470e-99b0-a50437b3fed0": {
           "label": "Hick's law",
           "link": "https://en.wikipedia.org/wiki/Hick's law",
-          "x": 77868,
-          "y": 1569,
+          "x": 77711,
+          "y": 5191,
           "id": "f5b3340b-9ff3-470e-99b0-a50437b3fed0"
         },
         "5233fb90-049d-42e7-b133-06a00d35b2df": {
           "label": "Hogel processing unit",
           "link": "https://en.wikipedia.org/wiki/Hogel processing unit",
-          "x": 77905,
-          "y": 1594,
+          "x": 77748,
+          "y": 5216,
           "id": "5233fb90-049d-42e7-b133-06a00d35b2df"
         },
         "f9369082-1be9-4fb1-bf77-56635490fc8f": {
           "label": "Holus",
           "link": "https://en.wikipedia.org/wiki/Holus",
-          "x": 77855,
-          "y": 1619,
+          "x": 77698,
+          "y": 5241,
           "id": "f9369082-1be9-4fb1-bf77-56635490fc8f"
         },
         "2e91ebd6-9649-4df1-96a4-82dcea99fd34": {
           "label": "Don Hopkins",
           "link": "https://en.wikipedia.org/wiki/Don Hopkins",
-          "x": 77877,
-          "y": 1644,
+          "x": 77720,
+          "y": 5266,
           "id": "2e91ebd6-9649-4df1-96a4-82dcea99fd34"
         },
         "82893ebb-b246-4606-bb0f-3ee1469833dd": {
           "label": "Human action cycle",
           "link": "https://en.wikipedia.org/wiki/Human action cycle",
-          "x": 77899,
-          "y": 1669,
+          "x": 77742,
+          "y": 5291,
           "id": "82893ebb-b246-4606-bb0f-3ee1469833dd"
         },
         "07e61582-c1a6-4524-99b0-2757ec71fcda": {
           "label": "Human interface device",
           "link": "https://en.wikipedia.org/wiki/Human interface device",
-          "x": 77912,
-          "y": 1694,
+          "x": 77755,
+          "y": 5316,
           "id": "07e61582-c1a6-4524-99b0-2757ec71fcda"
         },
         "9ece62f9-c4dc-4720-a0f0-e4246c9b08c4": {
           "label": "Human interface guidelines",
           "link": "https://en.wikipedia.org/wiki/Human interface guidelines",
-          "x": 77923,
-          "y": 1719,
+          "x": 77766,
+          "y": 5341,
           "id": "9ece62f9-c4dc-4720-a0f0-e4246c9b08c4"
         },
         "23825397-317b-4ce3-8e8f-14d0731bbe6b": {
           "label": "Human Media Lab",
           "link": "https://en.wikipedia.org/wiki/Human Media Lab",
-          "x": 77895,
-          "y": 1744,
+          "x": 77738,
+          "y": 5366,
           "id": "23825397-317b-4ce3-8e8f-14d0731bbe6b"
         },
         "e8747ced-4bc6-45b2-bcdc-7652783fc6fa": {
           "label": "Human processor model",
           "link": "https://en.wikipedia.org/wiki/Human processor model",
-          "x": 77915,
-          "y": 1769,
+          "x": 77758,
+          "y": 5391,
           "id": "e8747ced-4bc6-45b2-bcdc-7652783fc6fa"
         },
         "9edf4cac-3dc3-4958-af41-6eb1ed3389ab": {
           "label": "Human-agent team",
           "link": "https://en.wikipedia.org/wiki/Human-agent team",
-          "x": 77898,
-          "y": 1794,
+          "x": 77741,
+          "y": 5416,
           "id": "9edf4cac-3dc3-4958-af41-6eb1ed3389ab"
         },
         "281f8d0a-ca3f-4788-a563-bf257732f8e2": {
           "label": "Human-centered computing",
           "link": "https://en.wikipedia.org/wiki/Human-centered computing",
-          "x": 77925,
-          "y": 1819,
+          "x": 77768,
+          "y": 5441,
           "id": "281f8d0a-ca3f-4788-a563-bf257732f8e2"
         },
         "fe76d32f-85de-4951-9fde-bc4923803c8e": {
           "label": "Human–computer information retrieval",
           "link": "https://en.wikipedia.org/wiki/Human–computer information retrieval",
-          "x": 77959,
-          "y": 1844,
+          "x": 77802,
+          "y": 5466,
           "id": "fe76d32f-85de-4951-9fde-bc4923803c8e"
         },
         "d2a09c0f-7e64-4de3-993b-6abc075cff29": {
           "label": "Human–computer interaction (security)",
           "link": "https://en.wikipedia.org/wiki/Human–computer interaction (security)",
-          "x": 77960,
-          "y": 1869,
+          "x": 77803,
+          "y": 5491,
           "id": "d2a09c0f-7e64-4de3-993b-6abc075cff29"
         },
         "a081223c-7ce4-4333-8e3a-669469b6e04c": {
           "label": "Human-Computer Interaction Institute",
           "link": "https://en.wikipedia.org/wiki/Human-Computer Interaction Institute",
-          "x": 77956,
-          "y": 1894,
+          "x": 77799,
+          "y": 5516,
           "id": "a081223c-7ce4-4333-8e3a-669469b6e04c"
         },
         "4b567073-619a-48e7-938c-e77eb2e10620": {
           "label": "Human–machine system",
           "link": "https://en.wikipedia.org/wiki/Human–machine system",
-          "x": 77915,
-          "y": 1919,
+          "x": 77758,
+          "y": 5541,
           "id": "4b567073-619a-48e7-938c-e77eb2e10620"
         },
         "77935e91-f095-4ad3-aaa1-5ddcdeb32bc7": {
           "label": "Portal:Human–computer interaction/Nominate/Selected article",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction/Nominate/Selected article",
-          "x": 78032,
-          "y": 1944,
+          "x": 77875,
+          "y": 5566,
           "id": "77935e91-f095-4ad3-aaa1-5ddcdeb32bc7"
         },
         "3bd35210-0424-4470-b52a-83010ebb3b51": {
           "label": "Portal:Human–computer interaction/Selected article",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction/Selected article",
-          "x": 78000,
-          "y": 1969,
+          "x": 77843,
+          "y": 5591,
           "id": "3bd35210-0424-4470-b52a-83010ebb3b51"
         },
         "ec93defb-66f2-4e6b-92af-ed56237a9b1b": {
           "label": "Portal:Human–computer interaction/Selected article/2",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction/Selected article/2",
-          "x": 78006,
-          "y": 1994,
+          "x": 77849,
+          "y": 5616,
           "id": "ec93defb-66f2-4e6b-92af-ed56237a9b1b"
         },
         "86bd9acb-338d-4c41-b2fc-a934eb01623b": {
           "label": "Portal:Human–computer interaction/Selected article/3",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction/Selected article/3",
-          "x": 78006,
-          "y": 2019,
+          "x": 77849,
+          "y": 5641,
           "id": "86bd9acb-338d-4c41-b2fc-a934eb01623b"
         },
         "345c7032-6b19-457d-829a-b5b3a2ae76f2": {
           "label": "Humanistic intelligence",
           "link": "https://en.wikipedia.org/wiki/Humanistic intelligence",
-          "x": 77909,
-          "y": 2044,
+          "x": 77752,
+          "y": 5666,
           "id": "345c7032-6b19-457d-829a-b5b3a2ae76f2"
         },
         "97bf6df9-4860-4dc1-8143-9fb9847ce96e": {
           "label": "IBM Common User Access",
           "link": "https://en.wikipedia.org/wiki/IBM Common User Access",
-          "x": 77922,
-          "y": 2069,
+          "x": 77765,
+          "y": 5691,
           "id": "97bf6df9-4860-4dc1-8143-9fb9847ce96e"
         },
         "c8d43ed7-7cc9-4690-9634-2b878dabd1d0": {
           "label": "IDrive",
           "link": "https://en.wikipedia.org/wiki/IDrive",
-          "x": 77855,
-          "y": 2094,
+          "x": 77698,
+          "y": 5716,
           "id": "c8d43ed7-7cc9-4690-9634-2b878dabd1d0"
         },
         "52e20af2-fb62-4084-b1f8-b7bb4470e125": {
           "label": "Immersive design",
           "link": "https://en.wikipedia.org/wiki/Immersive design",
-          "x": 77893,
-          "y": 2119,
+          "x": 77736,
+          "y": 5741,
           "id": "52e20af2-fb62-4084-b1f8-b7bb4470e125"
         },
         "c66fab29-0ef9-4d26-8bb3-6a29f3e4bb47": {
           "label": "Immersive virtual musical instrument",
           "link": "https://en.wikipedia.org/wiki/Immersive virtual musical instrument",
-          "x": 77952,
-          "y": 2144,
+          "x": 77795,
+          "y": 5766,
           "id": "c66fab29-0ef9-4d26-8bb3-6a29f3e4bb47"
         },
         "8e87bacf-4ca5-497b-b456-9887b942e254": {
           "label": "Implicit data collection",
           "link": "https://en.wikipedia.org/wiki/Implicit data collection",
-          "x": 77906,
-          "y": 2169,
+          "x": 77749,
+          "y": 5791,
           "id": "8e87bacf-4ca5-497b-b456-9887b942e254"
         },
         "28db44c3-9b7a-42fb-ae78-4fa939a327f1": {
           "label": "Inclusive design",
           "link": "https://en.wikipedia.org/wiki/Inclusive design",
-          "x": 77887,
-          "y": 2194,
+          "x": 77730,
+          "y": 5816,
           "id": "28db44c3-9b7a-42fb-ae78-4fa939a327f1"
         },
         "0306273c-1170-4813-9a0f-b120225c6239": {
           "label": "Information foraging",
           "link": "https://en.wikipedia.org/wiki/Information foraging",
-          "x": 77901,
-          "y": 2219,
+          "x": 77744,
+          "y": 5841,
           "id": "0306273c-1170-4813-9a0f-b120225c6239"
         },
         "261f2a1e-a0cd-4c84-936d-15cc1061b981": {
           "label": "Interaction design",
           "link": "https://en.wikipedia.org/wiki/Interaction design",
-          "x": 77893,
-          "y": 2244,
+          "x": 77736,
+          "y": 5866,
           "id": "261f2a1e-a0cd-4c84-936d-15cc1061b981"
         },
         "8622362b-76a8-4c71-a307-c0c203812d82": {
           "label": "Interaction Design Foundation",
           "link": "https://en.wikipedia.org/wiki/Interaction Design Foundation",
-          "x": 77932,
-          "y": 2269,
+          "x": 77775,
+          "y": 5891,
           "id": "8622362b-76a8-4c71-a307-c0c203812d82"
         },
         "ef9bcb72-7679-4614-9015-5a772bce4de4": {
           "label": "Interaction technique",
           "link": "https://en.wikipedia.org/wiki/Interaction technique",
-          "x": 77903,
-          "y": 2294,
+          "x": 77746,
+          "y": 5916,
           "id": "ef9bcb72-7679-4614-9015-5a772bce4de4"
         },
         "ce88d208-108d-466f-b51c-b448a10503e9": {
           "label": "Interactive computing",
           "link": "https://en.wikipedia.org/wiki/Interactive computing",
-          "x": 77905,
-          "y": 2319,
+          "x": 77748,
+          "y": 5941,
           "id": "ce88d208-108d-466f-b51c-b448a10503e9"
         },
         "87890edd-00a5-4550-a0cf-5575c1b60227": {
           "label": "The Interactive Institute",
           "link": "https://en.wikipedia.org/wiki/The Interactive Institute",
-          "x": 77911,
-          "y": 2344,
+          "x": 77754,
+          "y": 5966,
           "id": "87890edd-00a5-4550-a0cf-5575c1b60227"
         },
         "a176fc01-bf7c-48ce-9d6d-609567f20f6e": {
           "label": "Interactive machine translation",
           "link": "https://en.wikipedia.org/wiki/Interactive machine translation",
-          "x": 77934,
-          "y": 2369,
+          "x": 77777,
+          "y": 5991,
           "id": "a176fc01-bf7c-48ce-9d6d-609567f20f6e"
         },
         "95c54dea-4c91-4d17-ba83-9edce19d867b": {
           "label": "Interactivity",
           "link": "https://en.wikipedia.org/wiki/Interactivity",
-          "x": 77873,
-          "y": 2394,
+          "x": 77716,
+          "y": 6016,
           "id": "95c54dea-4c91-4d17-ba83-9edce19d867b"
         },
         "561db3dc-a840-4d31-ace9-2513e38f8d94": {
           "label": "Internet addiction disorder",
           "link": "https://en.wikipedia.org/wiki/Internet addiction disorder",
-          "x": 77920,
-          "y": 2419,
+          "x": 77763,
+          "y": 6041,
           "id": "561db3dc-a840-4d31-ace9-2513e38f8d94"
         },
         "e2dd7651-4a4e-41da-b9ef-679d2744429e": {
           "label": "Interruption science",
           "link": "https://en.wikipedia.org/wiki/Interruption science",
-          "x": 77899,
-          "y": 2444,
+          "x": 77742,
+          "y": 6066,
           "id": "e2dd7651-4a4e-41da-b9ef-679d2744429e"
         },
         "f9b37e8a-abf1-4a5f-bcd6-8cffbb3042bc": {
           "label": "J.F. Schouten School for User System Interaction",
           "link": "https://en.wikipedia.org/wiki/J.F. Schouten School for User System Interaction",
-          "x": 77992,
-          "y": 2469,
+          "x": 77835,
+          "y": 6091,
           "id": "f9b37e8a-abf1-4a5f-bcd6-8cffbb3042bc"
         },
         "3b52ce8b-85b3-4978-bb3a-1d7a0003c55a": {
           "label": "Keystroke-level model",
           "link": "https://en.wikipedia.org/wiki/Keystroke-level model",
-          "x": 77907,
-          "y": 2494,
+          "x": 77750,
+          "y": 6116,
           "id": "3b52ce8b-85b3-4978-bb3a-1d7a0003c55a"
         },
         "60266dfd-5854-4a49-9001-643873552e47": {
           "label": "Kia Uvo",
           "link": "https://en.wikipedia.org/wiki/Kia Uvo",
-          "x": 77861,
-          "y": 2519,
+          "x": 77704,
+          "y": 6141,
           "id": "60266dfd-5854-4a49-9001-643873552e47"
         },
         "53e9a544-b143-4625-99c4-6b20480e7b1f": {
           "label": "Steve Kirsch",
           "link": "https://en.wikipedia.org/wiki/Steve Kirsch",
-          "x": 77876,
-          "y": 2544,
+          "x": 77719,
+          "y": 6166,
           "id": "53e9a544-b143-4625-99c4-6b20480e7b1f"
         },
         "3d208605-1394-4224-8d11-56013d3af9c6": {
           "label": "Law of conservation of complexity",
           "link": "https://en.wikipedia.org/wiki/Law of conservation of complexity",
-          "x": 77944,
-          "y": 2569,
+          "x": 77787,
+          "y": 6191,
           "id": "3d208605-1394-4224-8d11-56013d3af9c6"
         },
         "31900520-3925-439f-aef5-46768a0a1cef": {
           "label": "Learner-generated context",
           "link": "https://en.wikipedia.org/wiki/Learner-generated context",
-          "x": 77922,
-          "y": 2594,
+          "x": 77765,
+          "y": 6216,
           "id": "31900520-3925-439f-aef5-46768a0a1cef"
         },
         "e3bec254-d1b7-4c88-8569-febd3b4ffa71": {
           "label": "LIA-UFSCar",
           "link": "https://en.wikipedia.org/wiki/LIA-UFSCar",
-          "x": 77875,
-          "y": 2619,
+          "x": 77718,
+          "y": 6241,
           "id": "e3bec254-d1b7-4c88-8569-febd3b4ffa71"
         },
         "70d9691d-0828-43a5-a279-6d93944dce48": {
           "label": "Lightglove",
           "link": "https://en.wikipedia.org/wiki/Lightglove",
-          "x": 77869,
-          "y": 2644,
+          "x": 77712,
+          "y": 6266,
           "id": "70d9691d-0828-43a5-a279-6d93944dce48"
         },
         "d9bc8af1-da35-476a-958b-6bcb14a2e59f": {
           "label": "List of ubiquitous computing research centers",
           "link": "https://en.wikipedia.org/wiki/List of ubiquitous computing research centers",
-          "x": 77981,
-          "y": 2669,
+          "x": 77824,
+          "y": 6291,
           "id": "d9bc8af1-da35-476a-958b-6bcb14a2e59f"
         },
         "4c6ff2c8-4943-4678-a7d8-47b367e42cc7": {
           "label": "Livescribe",
           "link": "https://en.wikipedia.org/wiki/Livescribe",
-          "x": 77869,
-          "y": 2694,
+          "x": 77712,
+          "y": 6316,
           "id": "4c6ff2c8-4943-4678-a7d8-47b367e42cc7"
         },
         "b66a1063-40e6-4ca1-bf4f-eff285b1b98f": {
           "label": "Living lab",
           "link": "https://en.wikipedia.org/wiki/Living lab",
-          "x": 77867,
-          "y": 2719,
+          "x": 77710,
+          "y": 6341,
           "id": "b66a1063-40e6-4ca1-bf4f-eff285b1b98f"
         },
         "b329f9ce-db1c-4883-a82f-7591a92f1b6d": {
           "label": "Low-key feedback",
           "link": "https://en.wikipedia.org/wiki/Low-key feedback",
-          "x": 77894,
-          "y": 2744,
+          "x": 77737,
+          "y": 6366,
           "id": "b329f9ce-db1c-4883-a82f-7591a92f1b6d"
         },
         "a717300e-82b4-46c2-b7b4-22fbc90fc16e": {
           "label": "The Magical Number Seven, Plus or Minus Two",
           "link": "https://en.wikipedia.org/wiki/The Magical Number Seven, Plus or Minus Two",
-          "x": 77988,
-          "y": 2769,
+          "x": 77831,
+          "y": 6391,
           "id": "a717300e-82b4-46c2-b7b4-22fbc90fc16e"
         },
         "ab526661-d996-4776-8b8d-53f92947bba7": {
           "label": "Manufacture Modules Technologies",
           "link": "https://en.wikipedia.org/wiki/Manufacture Modules Technologies",
-          "x": 77950,
-          "y": 2794,
+          "x": 77793,
+          "y": 6416,
           "id": "ab526661-d996-4776-8b8d-53f92947bba7"
         },
         "b5767685-fbe6-4bd0-8ed3-d43aa754e8ba": {
           "label": "Aaron Marcus",
           "link": "https://en.wikipedia.org/wiki/Aaron Marcus",
-          "x": 77881,
-          "y": 2819,
+          "x": 77724,
+          "y": 6441,
           "id": "b5767685-fbe6-4bd0-8ed3-d43aa754e8ba"
         },
         "b38b392f-ea4e-425c-9ee1-e50ef555949c": {
           "label": "Memex",
           "link": "https://en.wikipedia.org/wiki/Memex",
-          "x": 77860,
-          "y": 2844,
+          "x": 77703,
+          "y": 6466,
           "id": "b38b392f-ea4e-425c-9ee1-e50ef555949c"
         },
         "d179f846-ea9a-4e75-9cea-78bedfcad06b": {
           "label": "Minimally invasive education",
           "link": "https://en.wikipedia.org/wiki/Minimally invasive education",
-          "x": 77927,
-          "y": 2869,
+          "x": 77770,
+          "y": 6491,
           "id": "d179f846-ea9a-4e75-9cea-78bedfcad06b"
         },
         "da23c943-ceb3-4bb6-b393-857ea75d4bfb": {
           "label": "Minimum intelligent signal test",
           "link": "https://en.wikipedia.org/wiki/Minimum intelligent signal test",
-          "x": 77932,
-          "y": 2894,
+          "x": 77775,
+          "y": 6516,
           "id": "da23c943-ceb3-4bb6-b393-857ea75d4bfb"
         },
         "d9de01cf-3673-4d09-a333-1018f640ddf1": {
           "label": "Eduardo Reck Miranda",
           "link": "https://en.wikipedia.org/wiki/Eduardo Reck Miranda",
-          "x": 77910,
-          "y": 2919,
+          "x": 77753,
+          "y": 6541,
           "id": "d9de01cf-3673-4d09-a333-1018f640ddf1"
         },
         "e7649e4b-0930-4912-a5ca-c8b132a8fb7f": {
           "label": "Mobile interaction",
           "link": "https://en.wikipedia.org/wiki/Mobile interaction",
-          "x": 77893,
-          "y": 2944,
+          "x": 77736,
+          "y": 6566,
           "id": "e7649e4b-0930-4912-a5ca-c8b132a8fb7f"
         },
         "b765fee2-cc4e-4384-ac4f-6bfcf3fe367d": {
           "label": "Mobile Life Centre",
           "link": "https://en.wikipedia.org/wiki/Mobile Life Centre",
-          "x": 77895,
-          "y": 2969,
+          "x": 77738,
+          "y": 6591,
           "id": "b765fee2-cc4e-4384-ac4f-6bfcf3fe367d"
         },
         "8ca1d9e4-6a8d-41e6-9ba5-fe7df33ea50f": {
           "label": "MobileHCI",
           "link": "https://en.wikipedia.org/wiki/MobileHCI",
-          "x": 77870,
-          "y": 2994,
+          "x": 77713,
+          "y": 6616,
           "id": "8ca1d9e4-6a8d-41e6-9ba5-fe7df33ea50f"
         },
         "bd8c14cb-2492-4765-9fc0-9ed26afdc83d": {
           "label": "Mode (user interface)",
           "link": "https://en.wikipedia.org/wiki/Mode (user interface)",
-          "x": 77905,
-          "y": 3019,
+          "x": 77748,
+          "y": 6641,
           "id": "bd8c14cb-2492-4765-9fc0-9ed26afdc83d"
         },
         "9573248c-a7b5-4a2d-80a2-5dd9ace2fa75": {
           "label": "Multi Media Interface",
           "link": "https://en.wikipedia.org/wiki/Multi Media Interface",
-          "x": 77903,
-          "y": 3044,
+          "x": 77746,
+          "y": 6666,
           "id": "9573248c-a7b5-4a2d-80a2-5dd9ace2fa75"
         },
         "7098b682-ecbd-4de4-a3c5-2d3c4f20ddfc": {
           "label": "Multi-touch, physics and gestures",
           "link": "https://en.wikipedia.org/wiki/Multi-touch, physics and gestures",
-          "x": 77943,
-          "y": 3069,
+          "x": 77786,
+          "y": 6691,
           "id": "7098b682-ecbd-4de4-a3c5-2d3c4f20ddfc"
         },
         "5469ea6b-8ad9-403d-af5c-318dea38e643": {
           "label": "Multimodal Architecture and Interfaces",
           "link": "https://en.wikipedia.org/wiki/Multimodal Architecture and Interfaces",
-          "x": 77959,
-          "y": 3094,
+          "x": 77802,
+          "y": 6716,
           "id": "5469ea6b-8ad9-403d-af5c-318dea38e643"
         },
         "8607dd60-25c8-4b9e-bb8d-ec9ce84fcb56": {
           "label": "Multiseat desktop virtualization",
           "link": "https://en.wikipedia.org/wiki/Multiseat desktop virtualization",
-          "x": 77934,
-          "y": 3119,
+          "x": 77777,
+          "y": 6741,
           "id": "8607dd60-25c8-4b9e-bb8d-ec9ce84fcb56"
         },
         "53f1d075-ad0d-4ef7-9495-e29966b6cbde": {
           "label": "Needs analysis",
           "link": "https://en.wikipedia.org/wiki/Needs analysis",
-          "x": 77885,
-          "y": 3144,
+          "x": 77728,
+          "y": 6766,
           "id": "53f1d075-ad0d-4ef7-9495-e29966b6cbde"
         },
         "57d17107-1d4d-4392-810f-f7156e049272": {
           "label": "Négone",
           "link": "https://en.wikipedia.org/wiki/Négone",
-          "x": 77862,
-          "y": 3169,
+          "x": 77705,
+          "y": 6791,
           "id": "57d17107-1d4d-4392-810f-f7156e049272"
         },
         "ab40df10-e156-4259-bcbd-12f94c4097dd": {
           "label": "Neural dust",
           "link": "https://en.wikipedia.org/wiki/Neural dust",
-          "x": 77873,
-          "y": 3194,
+          "x": 77716,
+          "y": 6816,
           "id": "ab40df10-e156-4259-bcbd-12f94c4097dd"
         },
         "7e360c0a-8a15-4b8c-b45e-8f2690792967": {
           "label": "New Interfaces for Musical Expression",
           "link": "https://en.wikipedia.org/wiki/New Interfaces for Musical Expression",
-          "x": 77958,
-          "y": 3219,
+          "x": 77801,
+          "y": 6841,
           "id": "7e360c0a-8a15-4b8c-b45e-8f2690792967"
         },
         "f6ea7786-2ba7-48ca-a552-553f24ce162a": {
           "label": "NGOMSL",
           "link": "https://en.wikipedia.org/wiki/NGOMSL",
-          "x": 77867,
-          "y": 3244,
+          "x": 77710,
+          "y": 6866,
           "id": "f6ea7786-2ba7-48ca-a552-553f24ce162a"
         },
         "3973432c-dc51-41ef-b54f-8ff0500e3777": {
           "label": "Notification system",
           "link": "https://en.wikipedia.org/wiki/Notification system",
-          "x": 77896,
-          "y": 3269,
+          "x": 77739,
+          "y": 6891,
           "id": "3973432c-dc51-41ef-b54f-8ff0500e3777"
         },
         "e4adaf42-cab7-48af-8470-36f2c9440511": {
           "label": "Object–action interface",
           "link": "https://en.wikipedia.org/wiki/Object–action interface",
-          "x": 77910,
-          "y": 3294,
+          "x": 77753,
+          "y": 6916,
           "id": "e4adaf42-cab7-48af-8470-36f2c9440511"
         },
         "920d7ed8-00dd-4d68-9b1a-0db7f00891fc": {
           "label": "Office Assistant",
           "link": "https://en.wikipedia.org/wiki/Office Assistant",
-          "x": 77886,
-          "y": 3319,
+          "x": 77729,
+          "y": 6941,
           "id": "920d7ed8-00dd-4d68-9b1a-0db7f00891fc"
         },
         "a35c8b48-c151-4650-bd27-0ec46965fd61": {
           "label": "Judith S. Olson",
           "link": "https://en.wikipedia.org/wiki/Judith S. Olson",
-          "x": 77885,
-          "y": 3344,
+          "x": 77728,
+          "y": 6966,
           "id": "a35c8b48-c151-4650-bd27-0ec46965fd61"
         },
         "51857890-d43f-4f78-b1f4-04340b95987d": {
           "label": "OpenUsability",
           "link": "https://en.wikipedia.org/wiki/OpenUsability",
-          "x": 77881,
-          "y": 3369,
+          "x": 77724,
+          "y": 6991,
           "id": "51857890-d43f-4f78-b1f4-04340b95987d"
         },
         "e2f5456f-74b3-444e-b210-93f7a9c71ab2": {
           "label": "OpenVibe",
           "link": "https://en.wikipedia.org/wiki/OpenVibe",
-          "x": 77868,
-          "y": 3394,
+          "x": 77711,
+          "y": 7016,
           "id": "e2f5456f-74b3-444e-b210-93f7a9c71ab2"
         },
         "79a62b6e-597e-414f-a962-868d168a14ce": {
           "label": "Organic user interface",
           "link": "https://en.wikipedia.org/wiki/Organic user interface",
-          "x": 77907,
-          "y": 3419,
+          "x": 77750,
+          "y": 7041,
           "id": "79a62b6e-597e-414f-a962-868d168a14ce"
         },
         "924d7cb7-1dd4-4b2d-a3d2-5ef88869084d": {
           "label": "Out-of-box experience",
           "link": "https://en.wikipedia.org/wiki/Out-of-box experience",
-          "x": 77908,
-          "y": 3444,
+          "x": 77751,
+          "y": 7066,
           "id": "924d7cb7-1dd4-4b2d-a3d2-5ef88869084d"
         },
         "ed6f3e55-5153-4434-a1c5-4c04ea9238d7": {
           "label": "Out-of-box failure",
           "link": "https://en.wikipedia.org/wiki/Out-of-box failure",
-          "x": 77892,
-          "y": 3469,
+          "x": 77735,
+          "y": 7091,
           "id": "ed6f3e55-5153-4434-a1c5-4c04ea9238d7"
         },
         "6a42862f-845b-41eb-a5f4-3d7fd0780824": {
           "label": "Outside–in software development",
           "link": "https://en.wikipedia.org/wiki/Outside–in software development",
-          "x": 77943,
-          "y": 3494,
+          "x": 77786,
+          "y": 7116,
           "id": "6a42862f-845b-41eb-a5f4-3d7fd0780824"
         },
         "15160a52-8427-4f86-bee2-1a8c3e2dbe37": {
           "label": "PACT (interaction design)",
           "link": "https://en.wikipedia.org/wiki/PACT (interaction design)",
-          "x": 77918,
-          "y": 3519,
+          "x": 77761,
+          "y": 7141,
           "id": "15160a52-8427-4f86-bee2-1a8c3e2dbe37"
         },
         "2f273a19-4537-47f5-8caf-c8080227f94f": {
           "label": "Partial concurrent thinking aloud",
           "link": "https://en.wikipedia.org/wiki/Partial concurrent thinking aloud",
-          "x": 77939,
-          "y": 3544,
+          "x": 77782,
+          "y": 7166,
           "id": "2f273a19-4537-47f5-8caf-c8080227f94f"
         },
         "d0615f79-dc2b-48c0-ba1b-fa3691e7085e": {
           "label": "Pavlok",
           "link": "https://en.wikipedia.org/wiki/Pavlok",
-          "x": 77858,
-          "y": 3569,
+          "x": 77701,
+          "y": 7191,
           "id": "d0615f79-dc2b-48c0-ba1b-fa3691e7085e"
         },
         "040b9d36-336f-4b7b-b6eb-45af2d0d835b": {
           "label": "Peripheral nerve interface",
           "link": "https://en.wikipedia.org/wiki/Peripheral nerve interface",
-          "x": 77919,
-          "y": 3594,
+          "x": 77762,
+          "y": 7216,
           "id": "040b9d36-336f-4b7b-b6eb-45af2d0d835b"
         },
         "1953f5af-6938-43b4-9629-7a195120a2e9": {
           "label": "Persona (user experience)",
           "link": "https://en.wikipedia.org/wiki/Persona (user experience)",
-          "x": 77921,
-          "y": 3619,
+          "x": 77764,
+          "y": 7241,
           "id": "1953f5af-6938-43b4-9629-7a195120a2e9"
         },
         "2bb5c7a1-4d48-4ee6-9da7-1a63b3956e58": {
           "label": "Personal information management",
           "link": "https://en.wikipedia.org/wiki/Personal information management",
-          "x": 77946,
-          "y": 3644,
+          "x": 77789,
+          "y": 7266,
           "id": "2bb5c7a1-4d48-4ee6-9da7-1a63b3956e58"
         },
         "044ea783-a24d-4225-b50e-1e0a4a9ad06d": {
           "label": "Personalization",
           "link": "https://en.wikipedia.org/wiki/Personalization",
-          "x": 77885,
-          "y": 3669,
+          "x": 77728,
+          "y": 7291,
           "id": "044ea783-a24d-4225-b50e-1e0a4a9ad06d"
         },
         "617e51db-9b7e-42f7-a74e-300bf4021091": {
           "label": "Persuasive technology",
           "link": "https://en.wikipedia.org/wiki/Persuasive technology",
-          "x": 77908,
-          "y": 3694,
+          "x": 77751,
+          "y": 7316,
           "id": "617e51db-9b7e-42f7-a74e-300bf4021091"
         },
         "d25829aa-75ec-4caa-8735-03286e80c2e0": {
           "label": "Richard Pew",
           "link": "https://en.wikipedia.org/wiki/Richard Pew",
-          "x": 77877,
-          "y": 3719,
+          "x": 77720,
+          "y": 7341,
           "id": "d25829aa-75ec-4caa-8735-03286e80c2e0"
         },
         "2a793ee5-642e-4543-9214-4727887267b3": {
           "label": "Physical icon",
           "link": "https://en.wikipedia.org/wiki/Physical icon",
-          "x": 77878,
-          "y": 3744,
+          "x": 77721,
+          "y": 7366,
           "id": "2a793ee5-642e-4543-9214-4727887267b3"
         },
         "77569252-f807-4ea9-94c9-42094aad38f4": {
           "label": "Pictive",
           "link": "https://en.wikipedia.org/wiki/Pictive",
-          "x": 77857,
-          "y": 3769,
+          "x": 77700,
+          "y": 7391,
           "id": "77569252-f807-4ea9-94c9-42094aad38f4"
         },
         "83d69fbf-234b-4a51-8cf2-108967b2fd67": {
           "label": "Catherine Plaisant",
           "link": "https://en.wikipedia.org/wiki/Catherine Plaisant",
-          "x": 77895,
-          "y": 3794,
+          "x": 77738,
+          "y": 7416,
           "id": "83d69fbf-234b-4a51-8cf2-108967b2fd67"
         },
         "c688f19f-d358-43af-a7ec-4ff0f374ecd3": {
           "label": "Post-tech",
           "link": "https://en.wikipedia.org/wiki/Post-tech",
-          "x": 77867,
-          "y": 3819,
+          "x": 77710,
+          "y": 7441,
           "id": "c688f19f-d358-43af-a7ec-4ff0f374ecd3"
         },
         "b585da8d-c315-4263-9897-75fb940a08f1": {
           "label": "Presentation semantics",
           "link": "https://en.wikipedia.org/wiki/Presentation semantics",
-          "x": 77911,
-          "y": 3844,
+          "x": 77754,
+          "y": 7466,
           "id": "b585da8d-c315-4263-9897-75fb940a08f1"
         },
         "7ed8a4b4-dee2-4da4-9de1-780db8841ef9": {
           "label": "Presentation–abstraction–control",
           "link": "https://en.wikipedia.org/wiki/Presentation–abstraction–control",
-          "x": 77941,
-          "y": 3869,
+          "x": 77784,
+          "y": 7491,
           "id": "7ed8a4b4-dee2-4da4-9de1-780db8841ef9"
         },
         "90f5ff31-b98c-4dee-b0ba-1a4d462e7932": {
           "label": "Principle of least astonishment",
           "link": "https://en.wikipedia.org/wiki/Principle of least astonishment",
-          "x": 77933,
-          "y": 3894,
+          "x": 77776,
+          "y": 7516,
           "id": "90f5ff31-b98c-4dee-b0ba-1a4d462e7932"
         },
         "656c063f-fa0f-4c58-97d7-3af606c92f9a": {
           "label": "Query by Example",
           "link": "https://en.wikipedia.org/wiki/Query by Example",
-          "x": 77895,
-          "y": 3919,
+          "x": 77738,
+          "y": 7541,
           "id": "656c063f-fa0f-4c58-97d7-3af606c92f9a"
         },
         "f11fec20-e754-45cb-8889-72888573fb90": {
           "label": "Radiodrum",
           "link": "https://en.wikipedia.org/wiki/Radiodrum",
-          "x": 77872,
-          "y": 3944,
+          "x": 77715,
+          "y": 7566,
           "id": "f11fec20-e754-45cb-8889-72888573fb90"
         },
         "5127c79a-85d8-438f-8707-c1dc0b46d284": {
           "label": "Jef Raskin",
           "link": "https://en.wikipedia.org/wiki/Jef Raskin",
-          "x": 77870,
-          "y": 3969,
+          "x": 77713,
+          "y": 7591,
           "id": "5127c79a-85d8-438f-8707-c1dc0b46d284"
         },
         "94dbe579-02c3-4128-b229-58a0de13dff6": {
           "label": "Reading path",
           "link": "https://en.wikipedia.org/wiki/Reading path",
-          "x": 77879,
-          "y": 3994,
+          "x": 77722,
+          "y": 7616,
           "id": "94dbe579-02c3-4128-b229-58a0de13dff6"
         },
         "eb116fda-0b43-4f47-b419-6ace4a530366": {
           "label": "Remote Touch",
           "link": "https://en.wikipedia.org/wiki/Remote Touch",
-          "x": 77883,
-          "y": 4019,
+          "x": 77726,
+          "y": 7641,
           "id": "eb116fda-0b43-4f47-b419-6ace4a530366"
         },
         "042691a9-3f3f-4692-9f0c-b2b73bbd4a7f": {
           "label": "Responsive computer-aided design",
           "link": "https://en.wikipedia.org/wiki/Responsive computer-aided design",
-          "x": 77949,
-          "y": 4044,
+          "x": 77792,
+          "y": 7666,
           "id": "042691a9-3f3f-4692-9f0c-b2b73bbd4a7f"
         },
         "edeb16f9-a19e-4367-8525-22dd1be7a2fe": {
           "label": "Responsive web design",
           "link": "https://en.wikipedia.org/wiki/Responsive web design",
-          "x": 77912,
-          "y": 4069,
+          "x": 77755,
+          "y": 7691,
           "id": "edeb16f9-a19e-4367-8525-22dd1be7a2fe"
         },
         "d68a4543-22ff-4dc4-a940-90383134449e": {
           "label": "Retrospective think aloud",
           "link": "https://en.wikipedia.org/wiki/Retrospective think aloud",
-          "x": 77917,
-          "y": 4094,
+          "x": 77760,
+          "y": 7716,
           "id": "d68a4543-22ff-4dc4-a940-90383134449e"
         },
         "5de02dfb-f20c-457c-8c22-8e857e3e8719": {
           "label": "Role-based collaboration",
           "link": "https://en.wikipedia.org/wiki/Role-based collaboration",
-          "x": 77916,
-          "y": 4119,
+          "x": 77759,
+          "y": 7741,
           "id": "5de02dfb-f20c-457c-8c22-8e857e3e8719"
         },
         "ccf514a3-9d54-43a8-8644-42d978ac2e7a": {
           "label": "Scratch input",
           "link": "https://en.wikipedia.org/wiki/Scratch input",
-          "x": 77878,
-          "y": 4144,
+          "x": 77721,
+          "y": 7766,
           "id": "ccf514a3-9d54-43a8-8644-42d978ac2e7a"
         },
         "7162b3a3-93bf-46c9-87ab-0b3dfa392bb6": {
           "label": "Secondary notation",
           "link": "https://en.wikipedia.org/wiki/Secondary notation",
-          "x": 77898,
-          "y": 4169,
+          "x": 77741,
+          "y": 7791,
           "id": "7162b3a3-93bf-46c9-87ab-0b3dfa392bb6"
         },
         "e7118202-6470-492d-ba0c-7656831cad56": {
           "label": "Ted Selker",
           "link": "https://en.wikipedia.org/wiki/Ted Selker",
-          "x": 77871,
-          "y": 4194,
+          "x": 77714,
+          "y": 7816,
           "id": "e7118202-6470-492d-ba0c-7656831cad56"
         },
         "6979be4f-7b66-4106-8e74-d87c9355bb9a": {
           "label": "Semiotic engineering",
           "link": "https://en.wikipedia.org/wiki/Semiotic engineering",
-          "x": 77903,
-          "y": 4219,
+          "x": 77746,
+          "y": 7841,
           "id": "6979be4f-7b66-4106-8e74-d87c9355bb9a"
         },
         "6b0822e8-13d8-4891-9686-9fba9649d1f8": {
           "label": "Seven stages of action",
           "link": "https://en.wikipedia.org/wiki/Seven stages of action",
-          "x": 77909,
-          "y": 4244,
+          "x": 77752,
+          "y": 7866,
           "id": "6b0822e8-13d8-4891-9686-9fba9649d1f8"
         },
         "26b0a777-ab2c-42b5-b0e2-3ac6676c62c9": {
           "label": "Ben Shneiderman",
           "link": "https://en.wikipedia.org/wiki/Ben Shneiderman",
-          "x": 77894,
-          "y": 4269,
+          "x": 77737,
+          "y": 7891,
           "id": "26b0a777-ab2c-42b5-b0e2-3ac6676c62c9"
         },
         "1dde959f-bd2c-4731-8a22-de0bf3f66a12": {
           "label": "SIGCHI",
           "link": "https://en.wikipedia.org/wiki/SIGCHI",
-          "x": 77861,
-          "y": 4294,
+          "x": 77704,
+          "y": 7916,
           "id": "1dde959f-bd2c-4731-8a22-de0bf3f66a12"
         },
         "b63b50cf-5882-4d3d-8636-1c56f2048ecd": {
           "label": "Sketch recognition",
           "link": "https://en.wikipedia.org/wiki/Sketch recognition",
-          "x": 77895,
-          "y": 4319,
+          "x": 77738,
+          "y": 7941,
           "id": "b63b50cf-5882-4d3d-8636-1c56f2048ecd"
         },
         "f51e4c53-d622-4178-b528-4f9bb8508bf6": {
           "label": "Smart products",
           "link": "https://en.wikipedia.org/wiki/Smart products",
-          "x": 77885,
-          "y": 4344,
+          "x": 77728,
+          "y": 7966,
           "id": "f51e4c53-d622-4178-b528-4f9bb8508bf6"
         },
         "9a1bc462-2fda-4b9c-91eb-9ed489634889": {
           "label": "Smart ring",
           "link": "https://en.wikipedia.org/wiki/Smart ring",
-          "x": 77870,
-          "y": 4369,
+          "x": 77713,
+          "y": 7991,
           "id": "9a1bc462-2fda-4b9c-91eb-9ed489634889"
         },
         "529c98a0-24e6-4289-898d-40de99d93835": {
           "label": "Smart, connected products",
           "link": "https://en.wikipedia.org/wiki/Smart, connected products",
-          "x": 77922,
-          "y": 4394,
+          "x": 77765,
+          "y": 8016,
           "id": "529c98a0-24e6-4289-898d-40de99d93835"
         },
         "4ce18960-33d0-4588-80f8-5f5c389524cf": {
           "label": "Smartglasses",
           "link": "https://en.wikipedia.org/wiki/Smartglasses",
-          "x": 77880,
-          "y": 4419,
+          "x": 77723,
+          "y": 8041,
           "id": "4ce18960-33d0-4588-80f8-5f5c389524cf"
         },
         "84d72322-fabc-492f-b40c-8fc5ee62e1b8": {
           "label": "Smartwatch",
           "link": "https://en.wikipedia.org/wiki/Smartwatch",
-          "x": 77874,
-          "y": 4444,
+          "x": 77717,
+          "y": 8066,
           "id": "84d72322-fabc-492f-b40c-8fc5ee62e1b8"
         },
         "dfd26415-290e-497b-b484-c87a78ad38df": {
           "label": "Social affordance",
           "link": "https://en.wikipedia.org/wiki/Social affordance",
-          "x": 77892,
-          "y": 4469,
+          "x": 77735,
+          "y": 8091,
           "id": "dfd26415-290e-497b-b484-c87a78ad38df"
         },
         "243d29a5-ddb3-4fa3-ae56-4f5b77a46156": {
           "label": "Social translucence",
           "link": "https://en.wikipedia.org/wiki/Social translucence",
-          "x": 77898,
-          "y": 4494,
+          "x": 77741,
+          "y": 8116,
           "id": "243d29a5-ddb3-4fa3-ae56-4f5b77a46156"
         },
         "fe24253c-839c-45cc-877c-79ac418e4394": {
           "label": "Steering law",
           "link": "https://en.wikipedia.org/wiki/Steering law",
-          "x": 77876,
-          "y": 4519,
+          "x": 77719,
+          "y": 8141,
           "id": "fe24253c-839c-45cc-877c-79ac418e4394"
         },
         "c6da3e9f-a3de-4406-ac0e-6a44eac41527": {
           "label": "Stent-electrode recording array",
           "link": "https://en.wikipedia.org/wiki/Stent-electrode recording array",
-          "x": 77936,
-          "y": 4544,
+          "x": 77779,
+          "y": 8166,
           "id": "c6da3e9f-a3de-4406-ac0e-6a44eac41527"
         },
         "1bbd046b-632a-4055-8ed4-9344073dd070": {
           "label": "Stimulus–response compatibility",
           "link": "https://en.wikipedia.org/wiki/Stimulus–response compatibility",
-          "x": 77938,
-          "y": 4569,
+          "x": 77781,
+          "y": 8191,
           "id": "1bbd046b-632a-4055-8ed4-9344073dd070"
         },
         "83e2bdb8-a2c2-4eb6-a44d-d20b446dd56c": {
           "label": "Subgoal labeling",
           "link": "https://en.wikipedia.org/wiki/Subgoal labeling",
-          "x": 77889,
-          "y": 4594,
+          "x": 77732,
+          "y": 8216,
           "id": "83e2bdb8-a2c2-4eb6-a44d-d20b446dd56c"
         },
         "e0cbff3f-ae1a-4f04-8bdc-91fea0527763": {
           "label": "Thanatosensitivity",
           "link": "https://en.wikipedia.org/wiki/Thanatosensitivity",
-          "x": 77894,
-          "y": 4619,
+          "x": 77737,
+          "y": 8241,
           "id": "e0cbff3f-ae1a-4f04-8bdc-91fea0527763"
         },
         "8c121815-21e5-46aa-9d59-ef0cf6e86646": {
           "label": "Think aloud protocol",
           "link": "https://en.wikipedia.org/wiki/Think aloud protocol",
-          "x": 77901,
-          "y": 4644,
+          "x": 77744,
+          "y": 8266,
           "id": "8c121815-21e5-46aa-9d59-ef0cf6e86646"
         },
         "26958320-2dee-4887-b589-2a8fbe553adc": {
           "label": "Time travel debugging",
           "link": "https://en.wikipedia.org/wiki/Time travel debugging",
-          "x": 77908,
-          "y": 4669,
+          "x": 77751,
+          "y": 8291,
           "id": "26958320-2dee-4887-b589-2a8fbe553adc"
         },
         "8652b370-9b61-4f6c-807f-7f0d704e8ac1": {
           "label": "Kentaro Toyama",
           "link": "https://en.wikipedia.org/wiki/Kentaro Toyama",
-          "x": 77889,
-          "y": 4694,
+          "x": 77732,
+          "y": 8316,
           "id": "8652b370-9b61-4f6c-807f-7f0d704e8ac1"
         },
         "9145dca3-2a0b-4622-a169-3dccd88b7b2a": {
           "label": "Transparency (human–computer interaction)",
           "link": "https://en.wikipedia.org/wiki/Transparency (human–computer interaction)",
-          "x": 77979,
-          "y": 4719,
+          "x": 77822,
+          "y": 8341,
           "id": "9145dca3-2a0b-4622-a169-3dccd88b7b2a"
         },
         "4f1a2017-c9f7-4a24-81eb-6de7bd7d3e88": {
           "label": "Transreality gaming",
           "link": "https://en.wikipedia.org/wiki/Transreality gaming",
-          "x": 77900,
-          "y": 4744,
+          "x": 77743,
+          "y": 8366,
           "id": "4f1a2017-c9f7-4a24-81eb-6de7bd7d3e88"
         },
         "2313e2f5-3e5e-40cf-ad37-f99f4a16dfbd": {
           "label": "Turing test",
           "link": "https://en.wikipedia.org/wiki/Turing test",
-          "x": 77871,
-          "y": 4769,
+          "x": 77714,
+          "y": 8391,
           "id": "2313e2f5-3e5e-40cf-ad37-f99f4a16dfbd"
         },
         "9dc17dc3-0b51-4f4c-8550-3e7b17cdf9df": {
           "label": "Turnaround document",
           "link": "https://en.wikipedia.org/wiki/Turnaround document",
-          "x": 77908,
-          "y": 4794,
+          "x": 77751,
+          "y": 8416,
           "id": "9dc17dc3-0b51-4f4c-8550-3e7b17cdf9df"
         },
         "e6e9b514-7d06-4bb7-a91b-2bfca8b26ecb": {
           "label": "Ultra Hal Assistant",
           "link": "https://en.wikipedia.org/wiki/Ultra Hal Assistant",
-          "x": 77895,
-          "y": 4819,
+          "x": 77738,
+          "y": 8441,
           "id": "e6e9b514-7d06-4bb7-a91b-2bfca8b26ecb"
         },
         "4057cd79-0e27-4e1f-a0f4-9b8273c4c3b7": {
           "label": "The Unfinished Revolution",
           "link": "https://en.wikipedia.org/wiki/The Unfinished Revolution",
-          "x": 77920,
-          "y": 4844,
+          "x": 77763,
+          "y": 8466,
           "id": "4057cd79-0e27-4e1f-a0f4-9b8273c4c3b7"
         },
         "6607dee2-8513-4abf-b55e-373cf2020b7a": {
           "label": "Unified Communications Interoperability Forum",
           "link": "https://en.wikipedia.org/wiki/Unified Communications Interoperability Forum",
-          "x": 77986,
-          "y": 4869,
+          "x": 77829,
+          "y": 8491,
           "id": "6607dee2-8513-4abf-b55e-373cf2020b7a"
         },
         "4a6620da-090a-4e85-832f-6370236c9f26": {
           "label": "University of Maryland Human–Computer Interaction Lab",
           "link": "https://en.wikipedia.org/wiki/University of Maryland Human–Computer Interaction Lab",
-          "x": 78017,
-          "y": 4894,
+          "x": 77860,
+          "y": 8516,
           "id": "4a6620da-090a-4e85-832f-6370236c9f26"
         },
         "c7e7c84e-79fd-40e2-9bf8-c405b799051e": {
           "label": "Urban computing",
           "link": "https://en.wikipedia.org/wiki/Urban computing",
-          "x": 77891,
-          "y": 4919,
+          "x": 77734,
+          "y": 8541,
           "id": "c7e7c84e-79fd-40e2-9bf8-c405b799051e"
         },
         "5aab14b2-d0b8-45f2-afa9-dd6ec04768bd": {
           "label": "Urban informatics",
           "link": "https://en.wikipedia.org/wiki/Urban informatics",
-          "x": 77893,
-          "y": 4944,
+          "x": 77736,
+          "y": 8566,
           "id": "5aab14b2-d0b8-45f2-afa9-dd6ec04768bd"
         },
         "adae8287-f773-4f41-86f8-31d487ff5588": {
           "label": "Usability",
           "link": "https://en.wikipedia.org/wiki/Usability",
-          "x": 77863,
-          "y": 4969,
+          "x": 77706,
+          "y": 8591,
           "id": "adae8287-f773-4f41-86f8-31d487ff5588"
         },
         "7d0f71fe-8deb-4844-9e03-5073df429d93": {
           "label": "Usage-centered design",
           "link": "https://en.wikipedia.org/wiki/Usage-centered design",
-          "x": 77911,
-          "y": 4994,
+          "x": 77754,
+          "y": 8616,
           "id": "7d0f71fe-8deb-4844-9e03-5073df429d93"
         },
         "b55f5c9e-8ff7-44df-a945-fed1971a2f55": {
           "label": "User experience",
           "link": "https://en.wikipedia.org/wiki/User experience",
-          "x": 77889,
-          "y": 5019,
+          "x": 77732,
+          "y": 8641,
           "id": "b55f5c9e-8ff7-44df-a945-fed1971a2f55"
         },
         "72136803-9648-4c72-a336-cb593c685f9b": {
           "label": "User experience design",
           "link": "https://en.wikipedia.org/wiki/User experience design",
-          "x": 77912,
-          "y": 5044,
+          "x": 77755,
+          "y": 8666,
           "id": "72136803-9648-4c72-a336-cb593c685f9b"
         },
         "70ae7d6d-1b79-4e34-8250-003374e9730a": {
           "label": "User experience evaluation",
           "link": "https://en.wikipedia.org/wiki/User experience evaluation",
-          "x": 77923,
-          "y": 5069,
+          "x": 77766,
+          "y": 8691,
           "id": "70ae7d6d-1b79-4e34-8250-003374e9730a"
         },
         "513ec442-5501-4e76-a3d7-ebfc99bd70df": {
           "label": "User persona",
           "link": "https://en.wikipedia.org/wiki/User persona",
-          "x": 77880,
-          "y": 5094,
+          "x": 77723,
+          "y": 8716,
           "id": "513ec442-5501-4e76-a3d7-ebfc99bd70df"
         },
         "410d5261-61f9-4736-b750-3c72d874e2ca": {
           "label": "User virtualization",
           "link": "https://en.wikipedia.org/wiki/User virtualization",
-          "x": 77893,
-          "y": 5119,
+          "x": 77736,
+          "y": 8741,
           "id": "410d5261-61f9-4736-b750-3c72d874e2ca"
         },
         "2c9e2ded-02f0-4734-be96-c68fda3d73f8": {
           "label": "User-centered design",
           "link": "https://en.wikipedia.org/wiki/User-centered design",
-          "x": 77905,
-          "y": 5144,
+          "x": 77748,
+          "y": 8766,
           "id": "2c9e2ded-02f0-4734-be96-c68fda3d73f8"
         },
         "7208f5c9-21b4-4420-a9dd-d646bdb9137c": {
           "label": "User-subjective approach",
           "link": "https://en.wikipedia.org/wiki/User-subjective approach",
-          "x": 77918,
-          "y": 5169,
+          "x": 77761,
+          "y": 8791,
           "id": "7208f5c9-21b4-4420-a9dd-d646bdb9137c"
         },
         "48b44d9c-6d86-431d-aff2-9942a8192c23": {
           "label": "Value sensitive design",
           "link": "https://en.wikipedia.org/wiki/Value sensitive design",
-          "x": 77907,
-          "y": 5194,
+          "x": 77750,
+          "y": 8816,
           "id": "48b44d9c-6d86-431d-aff2-9942a8192c23"
         },
         "3e74af4f-a990-4c93-9649-38c011e002ec": {
           "label": "Video game rehabilitation",
           "link": "https://en.wikipedia.org/wiki/Video game rehabilitation",
-          "x": 77917,
-          "y": 5219,
+          "x": 77760,
+          "y": 8841,
           "id": "3e74af4f-a990-4c93-9649-38c011e002ec"
         },
         "e3dcf821-f310-49a4-9e35-5514afd74239": {
           "label": "Fernanda Viégas",
           "link": "https://en.wikipedia.org/wiki/Fernanda Viégas",
-          "x": 77891,
-          "y": 5244,
+          "x": 77734,
+          "y": 8866,
           "id": "e3dcf821-f310-49a4-9e35-5514afd74239"
         },
         "c6c9cb77-223f-4992-8588-a9f92128356b": {
           "label": "Virtual touch screen",
           "link": "https://en.wikipedia.org/wiki/Virtual touch screen",
-          "x": 77900,
-          "y": 5269,
+          "x": 77743,
+          "y": 8891,
           "id": "c6c9cb77-223f-4992-8588-a9f92128356b"
         },
         "2568acc5-ed23-4e92-a3bd-5b0f6acc3ad8": {
           "label": "Visual Turing Test",
           "link": "https://en.wikipedia.org/wiki/Visual Turing Test",
-          "x": 77893,
-          "y": 5294,
+          "x": 77736,
+          "y": 8916,
           "id": "2568acc5-ed23-4e92-a3bd-5b0f6acc3ad8"
         },
         "2f9e7d72-6d45-4dfb-a808-227f2daaf236": {
           "label": "Martin M. Wattenberg",
           "link": "https://en.wikipedia.org/wiki/Martin M. Wattenberg",
-          "x": 77906,
-          "y": 5319,
+          "x": 77749,
+          "y": 8941,
           "id": "2f9e7d72-6d45-4dfb-a808-227f2daaf236"
         },
         "8701edae-8648-4134-be57-9cc0b7c82f0d": {
           "label": "Wearable computer",
           "link": "https://en.wikipedia.org/wiki/Wearable computer",
-          "x": 77899,
-          "y": 5344,
+          "x": 77742,
+          "y": 8966,
           "id": "8701edae-8648-4134-be57-9cc0b7c82f0d"
         },
         "7546df09-f619-404f-8f5f-e45bdf0bca1d": {
           "label": "Wearable Computing Group",
           "link": "https://en.wikipedia.org/wiki/Wearable Computing Group",
-          "x": 77926,
-          "y": 5369,
+          "x": 77769,
+          "y": 8991,
           "id": "7546df09-f619-404f-8f5f-e45bdf0bca1d"
         },
         "8ddf9133-d459-499a-ad99-a7db7e0df194": {
           "label": "Wearable technology",
           "link": "https://en.wikipedia.org/wiki/Wearable technology",
-          "x": 77904,
-          "y": 5394,
+          "x": 77747,
+          "y": 9016,
           "id": "8ddf9133-d459-499a-ad99-a7db7e0df194"
         },
         "d05fc7a5-3072-4975-9f2e-55566a5ea77c": {
           "label": "Wikirating",
           "link": "https://en.wikipedia.org/wiki/Wikirating",
-          "x": 77868,
-          "y": 5419,
+          "x": 77711,
+          "y": 9041,
           "id": "d05fc7a5-3072-4975-9f2e-55566a5ea77c"
         },
         "1eddb122-868d-4353-952e-28925f5b5d86": {
           "label": "Wizard of Oz experiment",
           "link": "https://en.wikipedia.org/wiki/Wizard of Oz experiment",
-          "x": 77915,
-          "y": 5444,
+          "x": 77758,
+          "y": 9066,
           "id": "1eddb122-868d-4353-952e-28925f5b5d86"
         },
         "a37b3bb8-01fd-4321-ba4a-4880b217994b": {
           "label": "World Wide Web",
           "link": "https://en.wikipedia.org/wiki/World Wide Web",
-          "x": 77890,
-          "y": 5469,
+          "x": 77733,
+          "y": 9091,
           "id": "a37b3bb8-01fd-4321-ba4a-4880b217994b"
         },
         "a81271dc-ddc0-4915-9219-a7c2ab55a363": {
           "label": "Category:Affective computing",
           "link": "https://en.wikipedia.org/wiki/Category:Affective computing",
-          "x": 77930,
-          "y": 5494,
+          "x": 77773,
+          "y": 9116,
           "id": "a81271dc-ddc0-4915-9219-a7c2ab55a363"
         },
         "45981516-3ee2-416a-9ca6-4acdc91e3fd9": {
           "label": "Category:Affective haptics",
           "link": "https://en.wikipedia.org/wiki/Category:Affective haptics",
-          "x": 77919,
-          "y": 5519,
+          "x": 77762,
+          "y": 9141,
           "id": "45981516-3ee2-416a-9ca6-4acdc91e3fd9"
         },
         "1b7d1902-94f3-45a6-9e1e-64ddd2a3ada0": {
           "label": "Category:Ambient intelligence",
           "link": "https://en.wikipedia.org/wiki/Category:Ambient intelligence",
-          "x": 77931,
-          "y": 5544,
+          "x": 77774,
+          "y": 9166,
           "id": "1b7d1902-94f3-45a6-9e1e-64ddd2a3ada0"
         },
         "6c994eed-ad04-4a9b-bc0e-4ef00460657f": {
           "label": "Category:Automatic identification and data capture",
           "link": "https://en.wikipedia.org/wiki/Category:Automatic identification and data capture",
-          "x": 77997,
-          "y": 5569,
+          "x": 77840,
+          "y": 9191,
           "id": "6c994eed-ad04-4a9b-bc0e-4ef00460657f"
         },
         "cb30b3ed-478b-4c3d-8bb7-3ec2c6c31289": {
           "label": "Category:Brain–computer interfacing",
           "link": "https://en.wikipedia.org/wiki/Category:Brain–computer interfacing",
-          "x": 77953,
-          "y": 5594,
+          "x": 77796,
+          "y": 9216,
           "id": "cb30b3ed-478b-4c3d-8bb7-3ec2c6c31289"
         },
         "a5732066-7e9b-40b2-81ac-032e39bfeaa5": {
           "label": "Category:Computer error messages",
           "link": "https://en.wikipedia.org/wiki/Category:Computer error messages",
-          "x": 77951,
-          "y": 5619,
+          "x": 77794,
+          "y": 9241,
           "id": "a5732066-7e9b-40b2-81ac-032e39bfeaa5"
         },
         "26e16f7a-7e81-4839-b7de-078f0d7ec7d6": {
           "label": "Category:Computing input devices",
           "link": "https://en.wikipedia.org/wiki/Category:Computing input devices",
-          "x": 77946,
-          "y": 5644,
+          "x": 77789,
+          "y": 9266,
           "id": "26e16f7a-7e81-4839-b7de-078f0d7ec7d6"
         },
         "2e4122b2-6732-40cb-be2e-3fec1ef4fcef": {
           "label": "Category:Ergonomics",
           "link": "https://en.wikipedia.org/wiki/Category:Ergonomics",
-          "x": 77905,
-          "y": 5669,
+          "x": 77748,
+          "y": 9291,
           "id": "2e4122b2-6732-40cb-be2e-3fec1ef4fcef"
         },
         "438ea3da-98ae-456e-802e-ae06f30c03b5": {
           "label": "Category:History of human–computer interaction",
           "link": "https://en.wikipedia.org/wiki/Category:History of human–computer interaction",
-          "x": 77991,
-          "y": 5694,
+          "x": 77834,
+          "y": 9316,
           "id": "438ea3da-98ae-456e-802e-ae06f30c03b5"
         },
         "0f75f80c-4790-45f2-9a0c-c4ff3479cfb9": {
           "label": "Category:Human-based computation",
           "link": "https://en.wikipedia.org/wiki/Category:Human-based computation",
-          "x": 77954,
-          "y": 5719,
+          "x": 77797,
+          "y": 9341,
           "id": "0f75f80c-4790-45f2-9a0c-c4ff3479cfb9"
         },
         "ea0cef24-8158-4328-a833-98c2cb2a23d4": {
           "label": "Category:Human–computer interaction journals",
           "link": "https://en.wikipedia.org/wiki/Category:Human–computer interaction journals",
-          "x": 77987,
-          "y": 5744,
+          "x": 77830,
+          "y": 9366,
           "id": "ea0cef24-8158-4328-a833-98c2cb2a23d4"
         },
         "b15f44c6-eeea-483d-91ec-e761841260c9": {
           "label": "Category:Interactive evolutionary computation",
           "link": "https://en.wikipedia.org/wiki/Category:Interactive evolutionary computation",
-          "x": 77982,
-          "y": 5769,
+          "x": 77825,
+          "y": 9391,
           "id": "b15f44c6-eeea-483d-91ec-e761841260c9"
         },
         "1676db4a-b024-4caa-987b-ab7bffb61743": {
           "label": "Category:Natural language and computing",
           "link": "https://en.wikipedia.org/wiki/Category:Natural language and computing",
-          "x": 77971,
-          "y": 5794,
+          "x": 77814,
+          "y": 9416,
           "id": "1676db4a-b024-4caa-987b-ab7bffb61743"
         },
         "22d6938e-e1b7-454c-ad36-5b33e3ced0c1": {
           "label": "Category:Multimodal interaction",
           "link": "https://en.wikipedia.org/wiki/Category:Multimodal interaction",
-          "x": 77937,
-          "y": 5819,
+          "x": 77780,
+          "y": 9441,
           "id": "22d6938e-e1b7-454c-ad36-5b33e3ced0c1"
         },
         "5844be45-af03-495a-af9c-0e77f83db488": {
           "label": "Category:Human–computer interaction researchers",
           "link": "https://en.wikipedia.org/wiki/Category:Human–computer interaction researchers",
-          "x": 78000,
-          "y": 5844,
+          "x": 77843,
+          "y": 9466,
           "id": "5844be45-af03-495a-af9c-0e77f83db488"
         },
         "76fe0602-24d5-4c99-9b57-0d810849593b": {
           "label": "Category:Responsive web design",
           "link": "https://en.wikipedia.org/wiki/Category:Responsive web design",
-          "x": 77943,
-          "y": 5869,
+          "x": 77786,
+          "y": 9491,
           "id": "76fe0602-24d5-4c99-9b57-0d810849593b"
         },
         "6e9f7107-8a7b-4fb2-a54b-1b560f0b4fb6": {
           "label": "Category:Smart bands",
           "link": "https://en.wikipedia.org/wiki/Category:Smart bands",
-          "x": 77908,
-          "y": 5894,
+          "x": 77751,
+          "y": 9516,
           "id": "6e9f7107-8a7b-4fb2-a54b-1b560f0b4fb6"
         },
         "db6fea19-1495-4434-a5fd-ccefc49336e5": {
           "label": "Category:Speech recognition",
           "link": "https://en.wikipedia.org/wiki/Category:Speech recognition",
-          "x": 77929,
-          "y": 5919,
+          "x": 77772,
+          "y": 9541,
           "id": "db6fea19-1495-4434-a5fd-ccefc49336e5"
         },
         "b110dc1b-1c5c-4a13-9b52-59abf238f371": {
           "label": "Category:Ubiquitous computing",
           "link": "https://en.wikipedia.org/wiki/Category:Ubiquitous computing",
-          "x": 77936,
-          "y": 5944,
+          "x": 77779,
+          "y": 9566,
           "id": "b110dc1b-1c5c-4a13-9b52-59abf238f371"
         },
         "66a4d982-2c86-45c7-ba3c-d59734f6ff13": {
           "label": "Category:Usability",
           "link": "https://en.wikipedia.org/wiki/Category:Usability",
-          "x": 77894,
-          "y": 5969,
+          "x": 77737,
+          "y": 9591,
           "id": "66a4d982-2c86-45c7-ba3c-d59734f6ff13"
         },
         "eb405698-d8c1-487e-88c2-ab0a78190f65": {
           "label": "Category:User interfaces",
           "link": "https://en.wikipedia.org/wiki/Category:User interfaces",
-          "x": 77916,
-          "y": 5994,
+          "x": 77759,
+          "y": 9616,
           "id": "eb405698-d8c1-487e-88c2-ab0a78190f65"
         },
         "2c9bb7c9-4c9f-4484-96af-7c419d4aa63f": {
           "label": "Category:Virtual reality",
           "link": "https://en.wikipedia.org/wiki/Category:Virtual reality",
-          "x": 77909,
-          "y": 6019,
+          "x": 77752,
+          "y": 9641,
           "id": "2c9bb7c9-4c9f-4484-96af-7c419d4aa63f"
         },
         "8d6d0095-a0c7-4ac8-a1d0-97751ea76430": {
           "label": "Category:Voice technology",
           "link": "https://en.wikipedia.org/wiki/Category:Voice technology",
-          "x": 77922,
-          "y": 6044,
+          "x": 77765,
+          "y": 9666,
           "id": "8d6d0095-a0c7-4ac8-a1d0-97751ea76430"
         },
         "c87ef7a7-5731-4bdb-a8a3-a9e76014f9ae": {
           "label": "Category:Wearable devices",
           "link": "https://en.wikipedia.org/wiki/Category:Wearable devices",
-          "x": 77924,
-          "y": 6069,
+          "x": 77767,
+          "y": 9691,
           "id": "c87ef7a7-5731-4bdb-a8a3-a9e76014f9ae"
         },
         "c90b7ac1-dc9b-44d9-9978-34af13fd29d1": {
           "label": "Category:World Wide Web",
           "link": "https://en.wikipedia.org/wiki/Category:World Wide Web",
-          "x": 77921,
-          "y": 6094,
+          "x": 77764,
+          "y": 9716,
           "id": "c90b7ac1-dc9b-44d9-9978-34af13fd29d1"
         },
         "b1a163e2-a601-47fa-b4e1-1d9c00e81746": {
           "label": "File:BCIAward2013.jpg",
           "link": "https://en.wikipedia.org/wiki/File:BCIAward2013.jpg",
-          "x": 77909,
-          "y": 6119,
+          "x": 77752,
+          "y": 9741,
           "id": "b1a163e2-a601-47fa-b4e1-1d9c00e81746"
         },
         "aa24f128-4b75-4fc6-8c6d-d2bec76f9523": {
           "label": "File:BCIAward2015.jpg",
           "link": "https://en.wikipedia.org/wiki/File:BCIAward2015.jpg",
-          "x": 77909,
-          "y": 6144,
+          "x": 77752,
+          "y": 9766,
           "id": "aa24f128-4b75-4fc6-8c6d-d2bec76f9523"
         },
         "17707a0f-0cc4-41a2-b1cb-8c0ff8fb4d26": {
           "label": "File:BCIAwardWinner2014.jpg",
           "link": "https://en.wikipedia.org/wiki/File:BCIAwardWinner2014.jpg",
-          "x": 77932,
-          "y": 6169,
+          "x": 77775,
+          "y": 9791,
           "id": "17707a0f-0cc4-41a2-b1cb-8c0ff8fb4d26"
         },
         "ac4fc3bb-4206-481c-99fd-282e3c2a8719": {
           "id": "ac4fc3bb-4206-481c-99fd-282e3c2a8719",
-          "x": 77512,
-          "y": 3001,
+          "x": 77355,
+          "y": 6623,
           "label": "Category:Human–computer_interaction (Wikipedia)"
         },
         "583bea8e-1bec-41ae-970c-b50e617bd4c8": {
           "label": "Conceptual model",
           "link": "https://en.wikipedia.org/wiki/Conceptual model",
-          "x": 67367,
-          "y": -3903,
+          "x": 65834,
+          "y": -3344,
           "id": "583bea8e-1bec-41ae-970c-b50e617bd4c8"
         },
         "2ed63f02-8a9b-4c16-9509-20a9c8fc8c47": {
           "label": "Acceptability",
           "link": "https://en.wikipedia.org/wiki/Acceptability",
-          "x": 67349,
-          "y": -3878,
+          "x": 65816,
+          "y": -3319,
           "id": "2ed63f02-8a9b-4c16-9509-20a9c8fc8c47"
         },
         "1f1c4413-519d-430a-af5d-485816710b41": {
           "label": "Analogy",
           "link": "https://en.wikipedia.org/wiki/Analogy",
-          "x": 67335,
-          "y": -3853,
+          "x": 65802,
+          "y": -3294,
           "id": "1f1c4413-519d-430a-af5d-485816710b41"
         },
         "c4a5f96f-f5a9-4efb-88c8-91bd51334864": {
           "label": "Conceptual design",
           "link": "https://en.wikipedia.org/wiki/Conceptual design",
-          "x": 67368,
-          "y": -3828,
+          "x": 65835,
+          "y": -3269,
           "id": "c4a5f96f-f5a9-4efb-88c8-91bd51334864"
         },
         "97c921b4-2a73-47a5-b38d-cf1e259fbbf2": {
           "label": "Conceptual framework",
           "link": "https://en.wikipedia.org/wiki/Conceptual framework",
-          "x": 67381,
-          "y": -3803,
+          "x": 65848,
+          "y": -3244,
           "id": "97c921b4-2a73-47a5-b38d-cf1e259fbbf2"
         },
         "6f188b36-09e8-42d2-a7de-a0576a8b4e83": {
           "label": "Conceptual programs in physics",
           "link": "https://en.wikipedia.org/wiki/Conceptual programs in physics",
-          "x": 67411,
-          "y": -3778,
+          "x": 65878,
+          "y": -3219,
           "id": "6f188b36-09e8-42d2-a7de-a0576a8b4e83"
         },
         "a90a0fd0-521c-4986-9b9f-5052a2b1ecab": {
           "label": "Economic model",
           "link": "https://en.wikipedia.org/wiki/Economic model",
-          "x": 67362,
-          "y": -3753,
+          "x": 65829,
+          "y": -3194,
           "id": "a90a0fd0-521c-4986-9b9f-5052a2b1ecab"
         },
         "55d713a0-3d64-4db7-b97b-18a480ab5862": {
           "label": "Ecopath",
           "link": "https://en.wikipedia.org/wiki/Ecopath",
-          "x": 67335,
-          "y": -3728,
+          "x": 65802,
+          "y": -3169,
           "id": "55d713a0-3d64-4db7-b97b-18a480ab5862"
         },
         "ac5c941a-f9e3-4254-84e4-fc8020f77c15": {
           "label": "Explanatory model",
           "link": "https://en.wikipedia.org/wiki/Explanatory model",
-          "x": 67368,
-          "y": -3703,
+          "x": 65835,
+          "y": -3144,
           "id": "ac5c941a-f9e3-4254-84e4-fc8020f77c15"
         },
         "e7fff8e8-846a-462e-aa64-c588a64018f6": {
           "label": "Imago Universi",
           "link": "https://en.wikipedia.org/wiki/Imago Universi",
-          "x": 67357,
-          "y": -3678,
+          "x": 65824,
+          "y": -3119,
           "id": "e7fff8e8-846a-462e-aa64-c588a64018f6"
         },
         "9532dbd1-0689-4f9d-99fc-686d4b68d7c2": {
           "label": "Interpretation (philosophy)",
           "link": "https://en.wikipedia.org/wiki/Interpretation (philosophy)",
-          "x": 67393,
-          "y": -3653,
+          "x": 65860,
+          "y": -3094,
           "id": "9532dbd1-0689-4f9d-99fc-686d4b68d7c2"
         },
         "61436603-ff32-42d2-a700-076fa4bfc125": {
           "label": "Knowledge space (philosophy)",
           "link": "https://en.wikipedia.org/wiki/Knowledge space (philosophy)",
-          "x": 67406,
-          "y": -3628,
+          "x": 65873,
+          "y": -3069,
           "id": "61436603-ff32-42d2-a700-076fa4bfc125"
         },
         "4e879746-f6ce-4080-8f32-f9297b508aa9": {
           "label": "Mathematical model",
           "link": "https://en.wikipedia.org/wiki/Mathematical model",
-          "x": 67373,
-          "y": -3603,
+          "x": 65840,
+          "y": -3044,
           "id": "4e879746-f6ce-4080-8f32-f9297b508aa9"
         },
         "c2516cf0-aa1b-4f46-b68d-470782db1dda": {
           "label": "Mental model",
           "link": "https://en.wikipedia.org/wiki/Mental model",
-          "x": 67352,
-          "y": -3578,
+          "x": 65819,
+          "y": -3019,
           "id": "c2516cf0-aa1b-4f46-b68d-470782db1dda"
         },
         "af301685-5c83-4b6e-b3fe-b067dd09e8f8": {
           "label": "Models of communication",
           "link": "https://en.wikipedia.org/wiki/Models of communication",
-          "x": 67390,
-          "y": -3553,
+          "x": 65857,
+          "y": -2994,
           "id": "af301685-5c83-4b6e-b3fe-b067dd09e8f8"
         },
         "a99ed9e8-fe9f-4a14-a1b7-2586ba6daca9": {
           "label": "Models of scientific inquiry",
           "link": "https://en.wikipedia.org/wiki/Models of scientific inquiry",
-          "x": 67392,
-          "y": -3528,
+          "x": 65859,
+          "y": -2969,
           "id": "a99ed9e8-fe9f-4a14-a1b7-2586ba6daca9"
         },
         "9ad9752b-34e7-4943-b16a-010e3fbcbcc8": {
           "label": "Possible world",
           "link": "https://en.wikipedia.org/wiki/Possible world",
-          "x": 67355,
-          "y": -3503,
+          "x": 65822,
+          "y": -2944,
           "id": "9ad9752b-34e7-4943-b16a-010e3fbcbcc8"
         },
         "6d82bf53-516c-4e97-8c38-76da9bcfb175": {
           "label": "Process reference models",
           "link": "https://en.wikipedia.org/wiki/Process reference models",
-          "x": 67392,
-          "y": -3478,
+          "x": 65859,
+          "y": -2919,
           "id": "6d82bf53-516c-4e97-8c38-76da9bcfb175"
         },
         "4dccf38a-2034-453e-bba3-4921c9d5818e": {
           "label": "Scientific modelling",
           "link": "https://en.wikipedia.org/wiki/Scientific modelling",
-          "x": 67370,
-          "y": -3453,
+          "x": 65837,
+          "y": -2894,
           "id": "4dccf38a-2034-453e-bba3-4921c9d5818e"
         },
         "da4d132f-63a8-4870-be4f-341604ec2e34": {
           "label": "SEQUAL framework",
           "link": "https://en.wikipedia.org/wiki/SEQUAL framework",
-          "x": 67373,
-          "y": -3428,
+          "x": 65840,
+          "y": -2869,
           "id": "da4d132f-63a8-4870-be4f-341604ec2e34"
         },
         "34af6a9a-ae30-4d0e-84ed-011e5b43b209": {
           "label": "Similitude (model)",
           "link": "https://en.wikipedia.org/wiki/Similitude (model)",
-          "x": 67366,
-          "y": -3403,
+          "x": 65833,
+          "y": -2844,
           "id": "34af6a9a-ae30-4d0e-84ed-011e5b43b209"
         },
         "06b5d182-f735-4898-b443-66d0b6a323be": {
           "label": "Thought experiment",
           "link": "https://en.wikipedia.org/wiki/Thought experiment",
-          "x": 67373,
-          "y": -3378,
+          "x": 65840,
+          "y": -2819,
           "id": "06b5d182-f735-4898-b443-66d0b6a323be"
         },
         "0350aa05-333e-4e76-b4e4-bd26c5bb3ef9": {
           "label": "Transient modelling",
           "link": "https://en.wikipedia.org/wiki/Transient modelling",
-          "x": 67371,
-          "y": -3353,
+          "x": 65838,
+          "y": -2794,
           "id": "0350aa05-333e-4e76-b4e4-bd26c5bb3ef9"
         },
         "760a8423-6fa3-4a9c-aef1-0abe27053a91": {
           "label": "World view",
           "link": "https://en.wikipedia.org/wiki/World view",
-          "x": 67343,
-          "y": -3328,
+          "x": 65810,
+          "y": -2769,
           "id": "760a8423-6fa3-4a9c-aef1-0abe27053a91"
         },
         "3d386e01-7544-4862-af3a-6d81227e66d6": {
           "label": "Category:Analogy",
           "link": "https://en.wikipedia.org/wiki/Category:Analogy",
-          "x": 67366,
-          "y": -3303,
+          "x": 65833,
+          "y": -2744,
           "id": "3d386e01-7544-4862-af3a-6d81227e66d6"
         },
         "bf665abf-02fd-48c6-8751-39a97fbf91ef": {
           "label": "Category:Conceptual models",
           "link": "https://en.wikipedia.org/wiki/Category:Conceptual models",
-          "x": 67401,
-          "y": -3278,
+          "x": 65868,
+          "y": -2719,
           "id": "bf665abf-02fd-48c6-8751-39a97fbf91ef"
         },
         "ffcad58c-dcd4-44dd-acb4-6cbe3751b605": {
           "label": "Category:Diagrams",
           "link": "https://en.wikipedia.org/wiki/Category:Diagrams",
-          "x": 67371,
-          "y": -3253,
+          "x": 65838,
+          "y": -2694,
           "id": "ffcad58c-dcd4-44dd-acb4-6cbe3751b605"
         },
         "d96fb432-0bac-4334-9a97-fd6ebf16374c": {
           "label": "Category:Hypothetical objects",
           "link": "https://en.wikipedia.org/wiki/Category:Hypothetical objects",
-          "x": 67404,
-          "y": -3228,
+          "x": 65871,
+          "y": -2669,
           "id": "d96fb432-0bac-4334-9a97-fd6ebf16374c"
         },
         "b2e6448f-e731-4a99-9bd2-6ce92ba1e693": {
           "label": "Category:Interpretation (philosophy)",
           "link": "https://en.wikipedia.org/wiki/Category:Interpretation (philosophy)",
-          "x": 67424,
-          "y": -3203,
+          "x": 65891,
+          "y": -2644,
           "id": "b2e6448f-e731-4a99-9bd2-6ce92ba1e693"
         },
         "da395357-9f57-4013-a130-e4489a7a2b36": {
           "label": "Category:Mathematical modeling",
           "link": "https://en.wikipedia.org/wiki/Category:Mathematical modeling",
-          "x": 67414,
-          "y": -3178,
+          "x": 65881,
+          "y": -2619,
           "id": "da395357-9f57-4013-a130-e4489a7a2b36"
         },
         "45613762-ccab-46f4-ac67-9e4c9971d9c8": {
           "label": "Category:Metaphors",
           "link": "https://en.wikipedia.org/wiki/Category:Metaphors",
-          "x": 67374,
-          "y": -3153,
+          "x": 65841,
+          "y": -2594,
           "id": "45613762-ccab-46f4-ac67-9e4c9971d9c8"
         },
         "39b93765-99e9-40fc-84dc-6e20f05b1324": {
           "label": "Category:Scientific modeling",
           "link": "https://en.wikipedia.org/wiki/Category:Scientific modeling",
-          "x": 67399,
-          "y": -3128,
+          "x": 65866,
+          "y": -2569,
           "id": "39b93765-99e9-40fc-84dc-6e20f05b1324"
         },
         "68867d7f-ba7e-4ecc-b962-050da97f713a": {
           "label": "Category:Software for modeling software",
           "link": "https://en.wikipedia.org/wiki/Category:Software for modeling software",
-          "x": 67439,
-          "y": -3103,
+          "x": 65906,
+          "y": -2544,
           "id": "68867d7f-ba7e-4ecc-b962-050da97f713a"
         },
         "b991a14a-88a7-42b3-9301-f1d69eaabe74": {
           "label": "Category:Software modeling language",
           "link": "https://en.wikipedia.org/wiki/Category:Software modeling language",
-          "x": 67431,
-          "y": -3078,
+          "x": 65898,
+          "y": -2519,
           "id": "b991a14a-88a7-42b3-9301-f1d69eaabe74"
         },
         "84465113-8392-458f-91c3-36ef22d42baf": {
           "label": "Category:Razors (philosophy)",
           "link": "https://en.wikipedia.org/wiki/Category:Razors (philosophy)",
-          "x": 67404,
-          "y": -3053,
+          "x": 65871,
+          "y": -2494,
           "id": "84465113-8392-458f-91c3-36ef22d42baf"
         },
         "859910d6-2ee9-49ea-9ed3-4dcb075e734c": {
           "label": "Category:Thought experiments",
           "link": "https://en.wikipedia.org/wiki/Category:Thought experiments",
-          "x": 67408,
-          "y": -3028,
+          "x": 65875,
+          "y": -2469,
           "id": "859910d6-2ee9-49ea-9ed3-4dcb075e734c"
         },
         "1b9ae47a-72ac-410e-bb6d-11d50f129351": {
           "id": "1b9ae47a-72ac-410e-bb6d-11d50f129351",
-          "x": 66956,
-          "y": -3449,
+          "x": 65423,
+          "y": -2890,
           "label": "Category:Conceptual modelling (Wikipedia)"
         },
         "c6008f0e-c33f-4140-9294-8281453d3cb0237": {
@@ -12464,8 +12464,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Specification languages",
           "id": "5db6b9cb-24a7-4adb-92dc-5c17ac2b0a6a108",
-          "x": 147131,
-          "y": 24702,
+          "x": 142054,
+          "y": 24936,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12498,8 +12498,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Computer languages",
           "id": "d5db5d45-60bd-441a-9a99-cfea4cc340ed108",
-          "x": 143794,
-          "y": 28520,
+          "x": 138717,
+          "y": 28754,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12532,8 +12532,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Notation",
           "id": "e903195f-08d5-4450-81c0-edb7cf9e0aff108",
-          "x": 144012,
-          "y": 29791,
+          "x": 138935,
+          "y": 30025,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12566,8 +12566,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Conceptual systems",
           "id": "a248821a-80e1-4677-baef-a999bf8b0be0108",
-          "x": 143719,
-          "y": 31383,
+          "x": 138642,
+          "y": 31617,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12600,8 +12600,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Written communication",
           "id": "cf395ecf-7cc9-4761-a774-be8c35e50573108",
-          "x": 143836,
-          "y": 32586,
+          "x": 138759,
+          "y": 32820,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13696,407 +13696,407 @@ var schemeData =
         "529a8dac-b1b6-4d8f-a809-15f0ba4f85af": {
           "label": "Specification language",
           "link": "https://en.wikipedia.org/wiki/Specification language",
-          "x": 148205,
-          "y": 24003,
+          "x": 143128,
+          "y": 24237,
           "id": "529a8dac-b1b6-4d8f-a809-15f0ba4f85af"
         },
         "6cdd5256-bc5e-4e3c-b7f3-4d81f5c45c5b": {
           "label": "Algebraic modeling language",
           "link": "https://en.wikipedia.org/wiki/Algebraic modeling language",
-          "x": 148226,
-          "y": 24028,
+          "x": 143149,
+          "y": 24262,
           "id": "6cdd5256-bc5e-4e3c-b7f3-4d81f5c45c5b"
         },
         "6e1842bb-0d51-4347-a77a-7bc6f3353245": {
           "label": "Algebraic Petri net",
           "link": "https://en.wikipedia.org/wiki/Algebraic Petri net",
-          "x": 148192,
-          "y": 24053,
+          "x": 143115,
+          "y": 24287,
           "id": "6e1842bb-0d51-4347-a77a-7bc6f3353245"
         },
         "9c36a458-d783-4eb1-a139-d33986fceda8": {
           "label": "ANSI/ISO C Specification Language",
           "link": "https://en.wikipedia.org/wiki/ANSI/ISO C Specification Language",
-          "x": 148247,
-          "y": 24078,
+          "x": 143170,
+          "y": 24312,
           "id": "9c36a458-d783-4eb1-a139-d33986fceda8"
         },
         "d428fac8-bad0-4415-a0aa-89035f4847ba": {
           "label": "Battle management language",
           "link": "https://en.wikipedia.org/wiki/Battle management language",
-          "x": 148227,
-          "y": 24103,
+          "x": 143150,
+          "y": 24337,
           "id": "d428fac8-bad0-4415-a0aa-89035f4847ba"
         },
         "0b80c9a6-af3d-4798-a241-dd39f89881e6": {
           "label": "Business Process Model and Notation",
           "link": "https://en.wikipedia.org/wiki/Business Process Model and Notation",
-          "x": 148254,
-          "y": 24128,
+          "x": 143177,
+          "y": 24362,
           "id": "0b80c9a6-af3d-4798-a241-dd39f89881e6"
         },
         "4a7a4ae7-d819-47f0-af31-abae4ad51889": {
           "label": "CMS Pipelines",
           "link": "https://en.wikipedia.org/wiki/CMS Pipelines",
-          "x": 148180,
-          "y": 24153,
+          "x": 143103,
+          "y": 24387,
           "id": "4a7a4ae7-d819-47f0-af31-abae4ad51889"
         },
         "0e25bc5a-e054-4845-aa65-ffa01065549d": {
           "label": "CO-OPN",
           "link": "https://en.wikipedia.org/wiki/CO-OPN",
-          "x": 148162,
-          "y": 24178,
+          "x": 143085,
+          "y": 24412,
           "id": "0e25bc5a-e054-4845-aa65-ffa01065549d"
         },
         "e3f0527a-b1b4-40da-b38a-0b03e6c26f7c": {
           "label": "ERIL",
           "link": "https://en.wikipedia.org/wiki/ERIL",
-          "x": 148149,
-          "y": 24203,
+          "x": 143072,
+          "y": 24437,
           "id": "e3f0527a-b1b4-40da-b38a-0b03e6c26f7c"
         },
         "bc858ef0-9cf8-4c9f-a206-1574c6ac3688": {
           "label": "Formal methods",
           "link": "https://en.wikipedia.org/wiki/Formal methods",
-          "x": 148186,
-          "y": 24228,
+          "x": 143109,
+          "y": 24462,
           "id": "bc858ef0-9cf8-4c9f-a206-1574c6ac3688"
         },
         "98cae77b-788c-4d45-acec-2a4d12d437ef": {
           "label": "Framework-specific modeling language",
           "link": "https://en.wikipedia.org/wiki/Framework-specific modeling language",
-          "x": 148258,
-          "y": 24253,
+          "x": 143181,
+          "y": 24487,
           "id": "98cae77b-788c-4d45-acec-2a4d12d437ef"
         },
         "a038366b-d5e2-479e-8dfb-1383ff05aa10": {
           "label": "Franca IDL",
           "link": "https://en.wikipedia.org/wiki/Franca IDL",
-          "x": 148169,
-          "y": 24278,
+          "x": 143092,
+          "y": 24512,
           "id": "a038366b-d5e2-479e-8dfb-1383ff05aa10"
         },
         "67fbc281-bcc4-43b6-bf1b-8d7afc2084b5": {
           "label": "Fundamental modeling concepts",
           "link": "https://en.wikipedia.org/wiki/Fundamental modeling concepts",
-          "x": 148237,
-          "y": 24303,
+          "x": 143160,
+          "y": 24537,
           "id": "67fbc281-bcc4-43b6-bf1b-8d7afc2084b5"
         },
         "2372d1b2-ed49-4ee6-87c4-98a5de5a4c6e": {
           "label": "General-purpose modeling",
           "link": "https://en.wikipedia.org/wiki/General-purpose modeling",
-          "x": 148219,
-          "y": 24328,
+          "x": 143142,
+          "y": 24562,
           "id": "2372d1b2-ed49-4ee6-87c4-98a5de5a4c6e"
         },
         "8b72e552-9e26-40ee-a441-7199f9aaaf4f": {
           "label": "Goal-oriented Requirements Language",
           "link": "https://en.wikipedia.org/wiki/Goal-oriented Requirements Language",
-          "x": 148258,
-          "y": 24353,
+          "x": 143181,
+          "y": 24587,
           "id": "8b72e552-9e26-40ee-a441-7199f9aaaf4f"
         },
         "341f0572-51f1-49c4-aa90-ad884a089d2e": {
           "label": "HOOD method",
           "link": "https://en.wikipedia.org/wiki/HOOD method",
-          "x": 148181,
-          "y": 24378,
+          "x": 143104,
+          "y": 24612,
           "id": "341f0572-51f1-49c4-aa90-ad884a089d2e"
         },
         "d0712666-0031-4968-a05a-a0e352c27fe7": {
           "label": "I*",
           "link": "https://en.wikipedia.org/wiki/I*",
-          "x": 148138,
-          "y": 24403,
+          "x": 143061,
+          "y": 24637,
           "id": "d0712666-0031-4968-a05a-a0e352c27fe7"
         },
         "42d6579a-d8ec-403a-b5d6-9aeccc7bfc56": {
           "label": "IDL specification language",
           "link": "https://en.wikipedia.org/wiki/IDL specification language",
-          "x": 148217,
-          "y": 24428,
+          "x": 143140,
+          "y": 24662,
           "id": "42d6579a-d8ec-403a-b5d6-9aeccc7bfc56"
         },
         "476242f3-30fc-47b3-847a-0f4b2ffb16e4": {
           "label": "Interaction Flow Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Interaction Flow Modeling Language",
-          "x": 148249,
-          "y": 24453,
+          "x": 143172,
+          "y": 24687,
           "id": "476242f3-30fc-47b3-847a-0f4b2ffb16e4"
         },
         "dccaa284-104c-4b05-bc83-6d01bd0651c8": {
           "label": "Interface description language",
           "link": "https://en.wikipedia.org/wiki/Interface description language",
-          "x": 148230,
-          "y": 24478,
+          "x": 143153,
+          "y": 24712,
           "id": "dccaa284-104c-4b05-bc83-6d01bd0651c8"
         },
         "3d23ad6e-f71d-4bdd-b020-73dc50e784ce": {
           "label": "KM3",
           "link": "https://en.wikipedia.org/wiki/KM3",
-          "x": 148148,
-          "y": 24503,
+          "x": 143071,
+          "y": 24737,
           "id": "3d23ad6e-f71d-4bdd-b020-73dc50e784ce"
         },
         "79f929e3-746d-4d19-9a31-8fcae9bddfe0": {
           "label": "Knowledge Based Software Assistant",
           "link": "https://en.wikipedia.org/wiki/Knowledge Based Software Assistant",
-          "x": 148251,
-          "y": 24528,
+          "x": 143174,
+          "y": 24762,
           "id": "79f929e3-746d-4d19-9a31-8fcae9bddfe0"
         },
         "18bc560a-d49e-4346-a8ab-f4a90fcd142f": {
           "label": "LISA (Language for Instruction Set Architecture)",
           "link": "https://en.wikipedia.org/wiki/LISA (Language for Instruction Set Architecture)",
-          "x": 148286,
-          "y": 24553,
+          "x": 143209,
+          "y": 24787,
           "id": "18bc560a-d49e-4346-a8ab-f4a90fcd142f"
         },
         "9a7bc8cd-5ca5-4fab-95bb-636fe34cf5b8": {
           "label": "Lightweight Imaging Device Interface Language",
           "link": "https://en.wikipedia.org/wiki/Lightweight Imaging Device Interface Language",
-          "x": 148285,
-          "y": 24578,
+          "x": 143208,
+          "y": 24812,
           "id": "9a7bc8cd-5ca5-4fab-95bb-636fe34cf5b8"
         },
         "aefc8e68-faca-46c2-b6d1-70db13ebb9bb": {
           "label": "Little b (programming language)",
           "link": "https://en.wikipedia.org/wiki/Little b (programming language)",
-          "x": 148236,
-          "y": 24603,
+          "x": 143159,
+          "y": 24837,
           "id": "aefc8e68-faca-46c2-b6d1-70db13ebb9bb"
         },
         "b80d838c-8e8d-4e4f-8b91-902d86e66b38": {
           "label": "M2M (Eclipse)",
           "link": "https://en.wikipedia.org/wiki/M2M (Eclipse)",
-          "x": 148179,
-          "y": 24628,
+          "x": 143102,
+          "y": 24862,
           "id": "b80d838c-8e8d-4e4f-8b91-902d86e66b38"
         },
         "ceffb27b-e286-4d63-a16a-fbef171f39ad": {
           "label": "Meta-Object Facility",
           "link": "https://en.wikipedia.org/wiki/Meta-Object Facility",
-          "x": 148197,
-          "y": 24653,
+          "x": 143120,
+          "y": 24887,
           "id": "ceffb27b-e286-4d63-a16a-fbef171f39ad"
         },
         "116d60b6-6ef9-4ba6-881d-d7d5dafbc907": {
           "label": "Military Scenario Definition Language",
           "link": "https://en.wikipedia.org/wiki/Military Scenario Definition Language",
-          "x": 148252,
-          "y": 24678,
+          "x": 143175,
+          "y": 24912,
           "id": "116d60b6-6ef9-4ba6-881d-d7d5dafbc907"
         },
         "eeca4188-b9f6-4c64-97ad-c8f4f28e9e3c": {
           "label": "MMT (Eclipse)",
           "link": "https://en.wikipedia.org/wiki/MMT (Eclipse)",
-          "x": 148180,
-          "y": 24703,
+          "x": 143103,
+          "y": 24937,
           "id": "eeca4188-b9f6-4c64-97ad-c8f4f28e9e3c"
         },
         "795565c9-fef9-4288-9f73-0d711b6605ae": {
           "label": "Model transformation language",
           "link": "https://en.wikipedia.org/wiki/Model transformation language",
-          "x": 148233,
-          "y": 24728,
+          "x": 143156,
+          "y": 24962,
           "id": "795565c9-fef9-4288-9f73-0d711b6605ae"
         },
         "7d7e3b58-19e2-48a3-a337-65675d701d53": {
           "label": "Modeling language",
           "link": "https://en.wikipedia.org/wiki/Modeling language",
-          "x": 148194,
-          "y": 24753,
+          "x": 143117,
+          "y": 24987,
           "id": "7d7e3b58-19e2-48a3-a337-65675d701d53"
         },
         "f5717513-e049-4925-92c5-7364e8e037d2": {
           "label": "OASIS TOSCA",
           "link": "https://en.wikipedia.org/wiki/OASIS TOSCA",
-          "x": 148181,
-          "y": 24778,
+          "x": 143104,
+          "y": 25012,
           "id": "f5717513-e049-4925-92c5-7364e8e037d2"
         },
         "11267609-8a4e-4ba7-aab8-e5920dd4dbfe": {
           "label": "Object Process Methodology",
           "link": "https://en.wikipedia.org/wiki/Object Process Methodology",
-          "x": 148225,
-          "y": 24803,
+          "x": 143148,
+          "y": 25037,
           "id": "11267609-8a4e-4ba7-aab8-e5920dd4dbfe"
         },
         "c33ac962-d538-490b-a6fa-dafabbba0f0e": {
           "label": "Object-Z",
           "link": "https://en.wikipedia.org/wiki/Object-Z",
-          "x": 148161,
-          "y": 24828,
+          "x": 143084,
+          "y": 25062,
           "id": "c33ac962-d538-490b-a6fa-dafabbba0f0e"
         },
         "3ee4dbcc-4a63-4103-9bfb-32a19b2bdf71": {
           "label": "OGML",
           "link": "https://en.wikipedia.org/wiki/OGML",
-          "x": 148155,
-          "y": 24853,
+          "x": 143078,
+          "y": 25087,
           "id": "3ee4dbcc-4a63-4103-9bfb-32a19b2bdf71"
         },
         "835cbf79-0c15-4e88-988b-926f9d99749f": {
           "label": "Petriscript",
           "link": "https://en.wikipedia.org/wiki/Petriscript",
-          "x": 148165,
-          "y": 24878,
+          "x": 143088,
+          "y": 25112,
           "id": "835cbf79-0c15-4e88-988b-926f9d99749f"
         },
         "46f5adbd-b62d-4c7e-b7ac-ce73d23ef629": {
           "label": "Promela",
           "link": "https://en.wikipedia.org/wiki/Promela",
-          "x": 148160,
-          "y": 24903,
+          "x": 143083,
+          "y": 25137,
           "id": "46f5adbd-b62d-4c7e-b7ac-ce73d23ef629"
         },
         "84601292-c98e-4ee7-a204-03eab51f427b": {
           "label": "SAP NetWeaver Visual Composer",
           "link": "https://en.wikipedia.org/wiki/SAP NetWeaver Visual Composer",
-          "x": 148240,
-          "y": 24928,
+          "x": 143163,
+          "y": 25162,
           "id": "84601292-c98e-4ee7-a204-03eab51f427b"
         },
         "453b3d96-81e7-4f9c-b4c4-6902f1072575": {
           "label": "Shyster (expert system)",
           "link": "https://en.wikipedia.org/wiki/Shyster (expert system)",
-          "x": 148209,
-          "y": 24953,
+          "x": 143132,
+          "y": 25187,
           "id": "453b3d96-81e7-4f9c-b4c4-6902f1072575"
         },
         "c36054e3-02a3-4105-b6ba-951aa27b8771": {
           "label": "SoaML",
           "link": "https://en.wikipedia.org/wiki/SoaML",
-          "x": 148156,
-          "y": 24978,
+          "x": 143079,
+          "y": 25212,
           "id": "c36054e3-02a3-4105-b6ba-951aa27b8771"
         },
         "1bf5a59e-f397-4501-8c51-1b32ef91f563": {
           "label": "Tefkat",
           "link": "https://en.wikipedia.org/wiki/Tefkat",
-          "x": 148153,
-          "y": 25003,
+          "x": 143076,
+          "y": 25237,
           "id": "1bf5a59e-f397-4501-8c51-1b32ef91f563"
         },
         "bb835043-8bfc-4f59-8729-15816a02c21c": {
           "label": "TLA+",
           "link": "https://en.wikipedia.org/wiki/TLA+",
-          "x": 148151,
-          "y": 25028,
+          "x": 143074,
+          "y": 25262,
           "id": "bb835043-8bfc-4f59-8729-15816a02c21c"
         },
         "60b58930-98f0-47b8-a5fb-ac52cc374f4e": {
           "label": "Type Description Language",
           "link": "https://en.wikipedia.org/wiki/Type Description Language",
-          "x": 148221,
-          "y": 25053,
+          "x": 143144,
+          "y": 25287,
           "id": "60b58930-98f0-47b8-a5fb-ac52cc374f4e"
         },
         "0e63ce46-4a5e-4476-9724-5268c88e4b2d": {
           "label": "Unified Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Unified Modeling Language",
-          "x": 148221,
-          "y": 25078,
+          "x": 143144,
+          "y": 25312,
           "id": "0e63ce46-4a5e-4476-9724-5268c88e4b2d"
         },
         "4538ceb1-1be7-4e94-aaa9-afa8000cc013": {
           "label": "Uninterpreted function",
           "link": "https://en.wikipedia.org/wiki/Uninterpreted function",
-          "x": 148204,
-          "y": 25103,
+          "x": 143127,
+          "y": 25337,
           "id": "4538ceb1-1be7-4e94-aaa9-afa8000cc013"
         },
         "953e0647-9bb9-4b1c-bc16-0f394631add3": {
           "label": "Web IDL",
           "link": "https://en.wikipedia.org/wiki/Web IDL",
-          "x": 148161,
-          "y": 25128,
+          "x": 143084,
+          "y": 25362,
           "id": "953e0647-9bb9-4b1c-bc16-0f394631add3"
         },
         "397b0079-b568-4a37-9fe3-5461538848c1": {
           "label": "WebML",
           "link": "https://en.wikipedia.org/wiki/WebML",
-          "x": 148158,
-          "y": 25153,
+          "x": 143081,
+          "y": 25387,
           "id": "397b0079-b568-4a37-9fe3-5461538848c1"
         },
         "dd2e9ab2-0d7b-4601-91a5-32b393ba2c40": {
           "label": "XPDL",
           "link": "https://en.wikipedia.org/wiki/XPDL",
-          "x": 148152,
-          "y": 25178,
+          "x": 143075,
+          "y": 25412,
           "id": "dd2e9ab2-0d7b-4601-91a5-32b393ba2c40"
         },
         "aa056626-070c-444e-a7f3-1bd2c7165075": {
           "label": "Z notation",
           "link": "https://en.wikipedia.org/wiki/Z notation",
-          "x": 148166,
-          "y": 25203,
+          "x": 143089,
+          "y": 25437,
           "id": "aa056626-070c-444e-a7f3-1bd2c7165075"
         },
         "7d1f8ae8-975f-4242-848c-458bd6d3a786": {
           "label": "Z++",
           "link": "https://en.wikipedia.org/wiki/Z++",
-          "x": 148146,
-          "y": 25228,
+          "x": 143069,
+          "y": 25462,
           "id": "7d1f8ae8-975f-4242-848c-458bd6d3a786"
         },
         "457030de-cfe6-4d37-a7a6-d6866381297c": {
           "label": "Category:Algorithm description languages",
           "link": "https://en.wikipedia.org/wiki/Category:Algorithm description languages",
-          "x": 148266,
-          "y": 25253,
+          "x": 143189,
+          "y": 25487,
           "id": "457030de-cfe6-4d37-a7a6-d6866381297c"
         },
         "ede118f3-6655-436d-8d21-3068e3514e1e": {
           "label": "Category:Data modeling languages",
           "link": "https://en.wikipedia.org/wiki/Category:Data modeling languages",
-          "x": 148246,
-          "y": 25278,
+          "x": 143169,
+          "y": 25512,
           "id": "ede118f3-6655-436d-8d21-3068e3514e1e"
         },
         "932a2bbf-043a-40cc-b3f9-b399c412ee25": {
           "label": "Category:Dependently typed languages",
           "link": "https://en.wikipedia.org/wiki/Category:Dependently typed languages",
-          "x": 148259,
-          "y": 25303,
+          "x": 143182,
+          "y": 25537,
           "id": "932a2bbf-043a-40cc-b3f9-b399c412ee25"
         },
         "0e6c06d8-3d31-493b-8742-43672ba83e5e": {
           "label": "Category:Formal specification languages",
           "link": "https://en.wikipedia.org/wiki/Category:Formal specification languages",
-          "x": 148263,
-          "y": 25328,
+          "x": 143186,
+          "y": 25562,
           "id": "0e6c06d8-3d31-493b-8742-43672ba83e5e"
         },
         "62e3ea4c-4de0-481d-9e91-e8665ca4a6ee": {
           "label": "Category:Hardware description languages",
           "link": "https://en.wikipedia.org/wiki/Category:Hardware description languages",
-          "x": 148267,
-          "y": 25353,
+          "x": 143190,
+          "y": 25587,
           "id": "62e3ea4c-4de0-481d-9e91-e8665ca4a6ee"
         },
         "69d20fc0-db34-4a47-8b7d-e5b52c4f661a": {
           "label": "Category:Software for modeling software",
           "link": "https://en.wikipedia.org/wiki/Category:Software for modeling software",
-          "x": 148263,
-          "y": 25378,
+          "x": 143186,
+          "y": 25612,
           "id": "69d20fc0-db34-4a47-8b7d-e5b52c4f661a"
         },
         "9414c1cb-211f-40c9-98ee-daa5fbd666e6": {
           "label": "Category:Software modeling language",
           "link": "https://en.wikipedia.org/wiki/Category:Software modeling language",
-          "x": 148255,
-          "y": 25403,
+          "x": 143178,
+          "y": 25637,
           "id": "9414c1cb-211f-40c9-98ee-daa5fbd666e6"
         },
         "2c5eb99b-2099-4c47-bafb-a229e2a90d65": {
           "label": "Category:Unified Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Category:Unified Modeling Language",
-          "x": 148252,
-          "y": 25428,
+          "x": 143175,
+          "y": 25662,
           "id": "2c5eb99b-2099-4c47-bafb-a229e2a90d65"
         },
         "457030de-cfe6-4d37-a7a6-d6866381297c666": {
@@ -14127,8 +14127,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Algorithm description languages",
           "link": "https://en.wikipedia.org/wiki/Category:Algorithm description languages",
-          "x": 147231,
-          "y": 25810,
+          "x": 142154,
+          "y": 26044,
           "id": "457030de-cfe6-4d37-a7a6-d6866381297c666",
           "shape": "box",
           "borderWidth": ""
@@ -14161,8 +14161,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Data modeling languages",
           "link": "https://en.wikipedia.org/wiki/Category:Data modeling languages",
-          "x": 147154,
-          "y": 26853,
+          "x": 142077,
+          "y": 27087,
           "id": "ede118f3-6655-436d-8d21-3068e3514e1e666",
           "shape": "box",
           "borderWidth": ""
@@ -14195,8 +14195,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Hardware description languages",
           "link": "https://en.wikipedia.org/wiki/Category:Hardware description languages",
-          "x": 143700,
-          "y": 24533,
+          "x": 138623,
+          "y": 24767,
           "id": "62e3ea4c-4de0-481d-9e91-e8665ca4a6ee666",
           "shape": "box",
           "borderWidth": ""
@@ -14229,8 +14229,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Software for modeling software",
           "link": "https://en.wikipedia.org/wiki/Category:Software for modeling software",
-          "x": 143751,
-          "y": 26637,
+          "x": 138674,
+          "y": 26871,
           "id": "69d20fc0-db34-4a47-8b7d-e5b52c4f661a666",
           "shape": "box",
           "borderWidth": ""
@@ -14263,8 +14263,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Software modeling language",
           "link": "https://en.wikipedia.org/wiki/Category:Software modeling language",
-          "x": 143604,
-          "y": 27455,
+          "x": 138527,
+          "y": 27689,
           "id": "9414c1cb-211f-40c9-98ee-daa5fbd666e6666",
           "shape": "box",
           "borderWidth": ""
@@ -14272,827 +14272,827 @@ var schemeData =
         "e812a326-cc3f-4baf-9c93-3c4f2863baba": {
           "label": "Flowchart",
           "link": "https://en.wikipedia.org/wiki/Flowchart",
-          "x": 148329,
-          "y": 25701,
+          "x": 143252,
+          "y": 25935,
           "id": "e812a326-cc3f-4baf-9c93-3c4f2863baba"
         },
         "3628246a-f810-4f06-8956-ba4ea8e87a44": {
           "label": "Natural-language programming",
           "link": "https://en.wikipedia.org/wiki/Natural-language programming",
-          "x": 148397,
-          "y": 25726,
+          "x": 143320,
+          "y": 25960,
           "id": "3628246a-f810-4f06-8956-ba4ea8e87a44"
         },
         "f32cd623-8470-45e1-9ef7-a0fbfe9860d1": {
           "label": "Pidgin code",
           "link": "https://en.wikipedia.org/wiki/Pidgin code",
-          "x": 148335,
-          "y": 25751,
+          "x": 143258,
+          "y": 25985,
           "id": "f32cd623-8470-45e1-9ef7-a0fbfe9860d1"
         },
         "dd233682-54ac-4581-9efa-5dca857d56b1": {
           "label": "PlusCal",
           "link": "https://en.wikipedia.org/wiki/PlusCal",
-          "x": 148322,
-          "y": 25776,
+          "x": 143245,
+          "y": 26010,
           "id": "dd233682-54ac-4581-9efa-5dca857d56b1"
         },
         "70e0ff8b-dda9-49a4-987b-fe348c43223d": {
           "label": "Program Design Language",
           "link": "https://en.wikipedia.org/wiki/Program Design Language",
-          "x": 148383,
-          "y": 25801,
+          "x": 143306,
+          "y": 26035,
           "id": "70e0ff8b-dda9-49a4-987b-fe348c43223d"
         },
         "dca720bc-d8bb-4546-8f05-d1e9f89efc29": {
           "label": "Pseudocode",
           "link": "https://en.wikipedia.org/wiki/Pseudocode",
-          "x": 148337,
-          "y": 25826,
+          "x": 143260,
+          "y": 26060,
           "id": "dca720bc-d8bb-4546-8f05-d1e9f89efc29"
         },
         "a03d0f50-36e7-4b34-9cdc-6c0b51266bd7": {
           "label": "Structured English",
           "link": "https://en.wikipedia.org/wiki/Structured English",
-          "x": 148356,
-          "y": 25851,
+          "x": 143279,
+          "y": 26085,
           "id": "a03d0f50-36e7-4b34-9cdc-6c0b51266bd7"
         },
         "a4d4cfc1-6201-4fdc-b289-d35ceb31e2c3": {
           "label": "Category:Structured English",
           "link": "https://en.wikipedia.org/wiki/Category:Structured English",
-          "x": 148387,
-          "y": 25876,
+          "x": 143310,
+          "y": 26110,
           "id": "a4d4cfc1-6201-4fdc-b289-d35ceb31e2c3"
         },
         "ba4beea2-6974-4786-ac50-df3256590836": {
           "label": "Abstract Syntax Notation One",
           "link": "https://en.wikipedia.org/wiki/Abstract Syntax Notation One",
-          "x": 148252,
-          "y": 26124,
+          "x": 143175,
+          "y": 26358,
           "id": "ba4beea2-6974-4786-ac50-df3256590836"
         },
         "a7fc2591-bb7b-454c-bfdc-8137c5264f35": {
           "label": "Binary Format Description language",
           "link": "https://en.wikipedia.org/wiki/Binary Format Description language",
-          "x": 148273,
-          "y": 26149,
+          "x": 143196,
+          "y": 26383,
           "id": "a7fc2591-bb7b-454c-bfdc-8137c5264f35"
         },
         "de17ba68-96c2-4daa-b609-7f637f764850": {
           "label": "CODASYL",
           "link": "https://en.wikipedia.org/wiki/CODASYL",
-          "x": 148192,
-          "y": 26174,
+          "x": 143115,
+          "y": 26408,
           "id": "de17ba68-96c2-4daa-b609-7f637f764850"
         },
         "9c895b10-9e0d-40f3-a5f4-08238db6345b": {
           "label": "Cognition enhanced Natural language Information Analysis Method",
           "link": "https://en.wikipedia.org/wiki/Cognition enhanced Natural language Information Analysis Method",
-          "x": 148371,
-          "y": 26199,
+          "x": 143294,
+          "y": 26433,
           "id": "9c895b10-9e0d-40f3-a5f4-08238db6345b"
         },
         "b02b8367-71c8-44ed-807a-9229a576c1c6": {
           "label": "Common Business Communication Language",
           "link": "https://en.wikipedia.org/wiki/Common Business Communication Language",
-          "x": 148304,
-          "y": 26224,
+          "x": 143227,
+          "y": 26458,
           "id": "b02b8367-71c8-44ed-807a-9229a576c1c6"
         },
         "e2c7a563-9287-4e2a-a2e2-3e951e5e46bb": {
           "label": "Control Structure Diagram",
           "link": "https://en.wikipedia.org/wiki/Control Structure Diagram",
-          "x": 148242,
-          "y": 26249,
+          "x": 143165,
+          "y": 26483,
           "id": "e2c7a563-9287-4e2a-a2e2-3e951e5e46bb"
         },
         "17d95179-c310-4ff0-b78a-f54c776ea7d7": {
           "label": "Data Base Task Group",
           "link": "https://en.wikipedia.org/wiki/Data Base Task Group",
-          "x": 148231,
-          "y": 26274,
+          "x": 143154,
+          "y": 26508,
           "id": "17d95179-c310-4ff0-b78a-f54c776ea7d7"
         },
         "a7530f81-a916-49e6-b0fb-df6ff3aedffc": {
           "label": "Data definition language",
           "link": "https://en.wikipedia.org/wiki/Data definition language",
-          "x": 148236,
-          "y": 26299,
+          "x": 143159,
+          "y": 26533,
           "id": "a7530f81-a916-49e6-b0fb-df6ff3aedffc"
         },
         "299e420f-76f3-48b1-b7ba-8e16a2bfa201": {
           "label": "Data Format Description Language",
           "link": "https://en.wikipedia.org/wiki/Data Format Description Language",
-          "x": 148270,
-          "y": 26324,
+          "x": 143193,
+          "y": 26558,
           "id": "299e420f-76f3-48b1-b7ba-8e16a2bfa201"
         },
         "04772291-01fd-45ad-9e26-45219cf2f320": {
           "label": "Document Schema Definition Languages",
           "link": "https://en.wikipedia.org/wiki/Document Schema Definition Languages",
-          "x": 148288,
-          "y": 26349,
+          "x": 143211,
+          "y": 26583,
           "id": "04772291-01fd-45ad-9e26-45219cf2f320"
         },
         "47e6bdcd-96c5-48f8-bfb1-792509537721": {
           "label": "Document Structure Description",
           "link": "https://en.wikipedia.org/wiki/Document Structure Description",
-          "x": 148260,
-          "y": 26374,
+          "x": 143183,
+          "y": 26608,
           "id": "47e6bdcd-96c5-48f8-bfb1-792509537721"
         },
         "82250c24-1ee2-4c94-b82b-c64f77822b8f": {
           "label": "EAST-ADL",
           "link": "https://en.wikipedia.org/wiki/EAST-ADL",
-          "x": 148192,
-          "y": 26399,
+          "x": 143115,
+          "y": 26633,
           "id": "82250c24-1ee2-4c94-b82b-c64f77822b8f"
         },
         "c80b3ba4-a3fc-4e4d-b6c3-b4c32e108fbc": {
           "label": "EbXML",
           "link": "https://en.wikipedia.org/wiki/EbXML",
-          "x": 148182,
-          "y": 26424,
+          "x": 143105,
+          "y": 26658,
           "id": "c80b3ba4-a3fc-4e4d-b6c3-b4c32e108fbc"
         },
         "d092f92e-e1b5-44c8-b3b7-9fe7a84457c8": {
           "label": "Embedded SQL",
           "link": "https://en.wikipedia.org/wiki/Embedded SQL",
-          "x": 148209,
-          "y": 26449,
+          "x": 143132,
+          "y": 26683,
           "id": "d092f92e-e1b5-44c8-b3b7-9fe7a84457c8"
         },
         "3a1e897c-bfc8-4581-abd8-5107c8c968a9": {
           "label": "Enhanced entity–relationship model",
           "link": "https://en.wikipedia.org/wiki/Enhanced entity–relationship model",
-          "x": 148272,
-          "y": 26474,
+          "x": 143195,
+          "y": 26708,
           "id": "3a1e897c-bfc8-4581-abd8-5107c8c968a9"
         },
         "28f3c49a-17eb-4139-9222-ce6cfb0b5df3": {
           "label": "Entity–relationship model",
           "link": "https://en.wikipedia.org/wiki/Entity–relationship model",
-          "x": 148238,
-          "y": 26499,
+          "x": 143161,
+          "y": 26733,
           "id": "28f3c49a-17eb-4139-9222-ce6cfb0b5df3"
         },
         "276656a4-7844-4390-8fca-ba118fc08644": {
           "label": "ERIL",
           "link": "https://en.wikipedia.org/wiki/ERIL",
-          "x": 148174,
-          "y": 26524,
+          "x": 143097,
+          "y": 26758,
           "id": "276656a4-7844-4390-8fca-ba118fc08644"
         },
         "6e294c98-0b53-43a9-9b7b-1cc0516414ed": {
           "label": "EXPRESS (data modeling language)",
           "link": "https://en.wikipedia.org/wiki/EXPRESS (data modeling language)",
-          "x": 148274,
-          "y": 26549,
+          "x": 143197,
+          "y": 26783,
           "id": "6e294c98-0b53-43a9-9b7b-1cc0516414ed"
         },
         "9cd6389f-afba-45ef-8200-52fd6d00815a": {
           "label": "Extensible Forms Description Language",
           "link": "https://en.wikipedia.org/wiki/Extensible Forms Description Language",
-          "x": 148285,
-          "y": 26574,
+          "x": 143208,
+          "y": 26808,
           "id": "9cd6389f-afba-45ef-8200-52fd6d00815a"
         },
         "15c7a9fa-002e-426d-858b-78c8d9527be1": {
           "label": "Extension root",
           "link": "https://en.wikipedia.org/wiki/Extension root",
-          "x": 148204,
-          "y": 26599,
+          "x": 143127,
+          "y": 26833,
           "id": "15c7a9fa-002e-426d-858b-78c8d9527be1"
         },
         "1964c139-bcf8-4fe6-bce3-33d6b9ad2d1f": {
           "label": "External Data Representation",
           "link": "https://en.wikipedia.org/wiki/External Data Representation",
-          "x": 148252,
-          "y": 26624,
+          "x": 143175,
+          "y": 26858,
           "id": "1964c139-bcf8-4fe6-bce3-33d6b9ad2d1f"
         },
         "b5f3e868-3b7b-4c36-8c9a-ac5d2bd09c2e": {
           "label": "Franca IDL",
           "link": "https://en.wikipedia.org/wiki/Franca IDL",
-          "x": 148194,
-          "y": 26649,
+          "x": 143117,
+          "y": 26883,
           "id": "b5f3e868-3b7b-4c36-8c9a-ac5d2bd09c2e"
         },
         "5ff59dfa-3a74-43fc-bdb0-57665e954b0b": {
           "label": "Fundamental modeling concepts",
           "link": "https://en.wikipedia.org/wiki/Fundamental modeling concepts",
-          "x": 148262,
-          "y": 26674,
+          "x": 143185,
+          "y": 26908,
           "id": "5ff59dfa-3a74-43fc-bdb0-57665e954b0b"
         },
         "d99d3bd0-99ce-48a2-8b84-e5a488d40257": {
           "label": "GraphQL",
           "link": "https://en.wikipedia.org/wiki/GraphQL",
-          "x": 148188,
-          "y": 26699,
+          "x": 143111,
+          "y": 26933,
           "id": "d99d3bd0-99ce-48a2-8b84-e5a488d40257"
         },
         "aa88edd2-9414-4b73-b443-67755066a819": {
           "label": "HOOD method",
           "link": "https://en.wikipedia.org/wiki/HOOD method",
-          "x": 148206,
-          "y": 26724,
+          "x": 143129,
+          "y": 26958,
           "id": "aa88edd2-9414-4b73-b443-67755066a819"
         },
         "33560361-9708-44e3-9ecf-68a8101881c1": {
           "label": "IDEF1X",
           "link": "https://en.wikipedia.org/wiki/IDEF1X",
-          "x": 148183,
-          "y": 26749,
+          "x": 143106,
+          "y": 26983,
           "id": "33560361-9708-44e3-9ecf-68a8101881c1"
         },
         "27fe8559-4ee4-46d2-abe5-97da59dd1793": {
           "label": "IDoc",
           "link": "https://en.wikipedia.org/wiki/IDoc",
-          "x": 148173,
-          "y": 26774,
+          "x": 143096,
+          "y": 27008,
           "id": "27fe8559-4ee4-46d2-abe5-97da59dd1793"
         },
         "3511c869-5eae-4cca-9c42-d33936e13c3d": {
           "label": "Information Object Class (ASN.1)",
           "link": "https://en.wikipedia.org/wiki/Information Object Class (ASN.1)",
-          "x": 148264,
-          "y": 26799,
+          "x": 143187,
+          "y": 27033,
           "id": "3511c869-5eae-4cca-9c42-d33936e13c3d"
         },
         "92cba7dd-9796-446c-b9ca-3a2190085f4f": {
           "label": "Interface description language",
           "link": "https://en.wikipedia.org/wiki/Interface description language",
-          "x": 148255,
-          "y": 26824,
+          "x": 143178,
+          "y": 27058,
           "id": "92cba7dd-9796-446c-b9ca-3a2190085f4f"
         },
         "15420914-ad28-4220-9d9c-d685c07dd954": {
           "label": "ISO/IEC 11179",
           "link": "https://en.wikipedia.org/wiki/ISO/IEC 11179",
-          "x": 148206,
-          "y": 26849,
+          "x": 143129,
+          "y": 27083,
           "id": "15420914-ad28-4220-9d9c-d685c07dd954"
         },
         "98c3cd11-a390-4f14-b704-066ab72967e0": {
           "label": "Java Persistence Query Language",
           "link": "https://en.wikipedia.org/wiki/Java Persistence Query Language",
-          "x": 148268,
-          "y": 26874,
+          "x": 143191,
+          "y": 27108,
           "id": "98c3cd11-a390-4f14-b704-066ab72967e0"
         },
         "1e1e9c34-7bda-4ad2-86b7-a3513941b5fe": {
           "label": "List of types of XML schemas",
           "link": "https://en.wikipedia.org/wiki/List of types of XML schemas",
-          "x": 148252,
-          "y": 26899,
+          "x": 143175,
+          "y": 27133,
           "id": "1e1e9c34-7bda-4ad2-86b7-a3513941b5fe"
         },
         "599425ae-4588-4ce8-b808-289e6f93ec2a": {
           "label": "Menthor Editor",
           "link": "https://en.wikipedia.org/wiki/Menthor Editor",
-          "x": 148206,
-          "y": 26924,
+          "x": 143129,
+          "y": 27158,
           "id": "599425ae-4588-4ce8-b808-289e6f93ec2a"
         },
         "de0eac52-715f-4da6-86c5-cba14a9214b3": {
           "label": "Music Encoding Initiative",
           "link": "https://en.wikipedia.org/wiki/Music Encoding Initiative",
-          "x": 148237,
-          "y": 26949,
+          "x": 143160,
+          "y": 27183,
           "id": "de0eac52-715f-4da6-86c5-cba14a9214b3"
         },
         "64be387b-e70b-4a28-8b1a-d714a7648069": {
           "label": "Object Process Methodology",
           "link": "https://en.wikipedia.org/wiki/Object Process Methodology",
-          "x": 148250,
-          "y": 26974,
+          "x": 143173,
+          "y": 27208,
           "id": "64be387b-e70b-4a28-8b1a-d714a7648069"
         },
         "b6156efc-33be-4030-95c0-480c9b482acf": {
           "label": "Object-role modeling",
           "link": "https://en.wikipedia.org/wiki/Object-role modeling",
-          "x": 148225,
-          "y": 26999,
+          "x": 143148,
+          "y": 27233,
           "id": "b6156efc-33be-4030-95c0-480c9b482acf"
         },
         "64fba847-3f80-4ec6-a2c3-6cb6ccdc139f": {
           "label": "OGML",
           "link": "https://en.wikipedia.org/wiki/OGML",
-          "x": 148180,
-          "y": 27024,
+          "x": 143103,
+          "y": 27258,
           "id": "64fba847-3f80-4ec6-a2c3-6cb6ccdc139f"
         },
         "540f5a7d-de48-480b-b737-fbf31b61e244": {
           "label": "Parameter Value Language",
           "link": "https://en.wikipedia.org/wiki/Parameter Value Language",
-          "x": 148246,
-          "y": 27049,
+          "x": 143169,
+          "y": 27283,
           "id": "540f5a7d-de48-480b-b737-fbf31b61e244"
         },
         "68dbd6bf-bddf-4af7-8adb-a9c49a981b0e": {
           "label": "People Finder Interchange Format",
           "link": "https://en.wikipedia.org/wiki/People Finder Interchange Format",
-          "x": 148268,
-          "y": 27074,
+          "x": 143191,
+          "y": 27308,
           "id": "68dbd6bf-bddf-4af7-8adb-a9c49a981b0e"
         },
         "15e9b9e1-546a-4705-9e71-299c8d85ac05": {
           "label": "Apache Pig",
           "link": "https://en.wikipedia.org/wiki/Apache Pig",
-          "x": 148195,
-          "y": 27099,
+          "x": 143118,
+          "y": 27333,
           "id": "15e9b9e1-546a-4705-9e71-299c8d85ac05"
         },
         "37b7477c-4ed7-4ce2-bcc1-f38c44403907": {
           "label": ".QL",
           "link": "https://en.wikipedia.org/wiki/.QL",
-          "x": 148170,
-          "y": 27124,
+          "x": 143093,
+          "y": 27358,
           "id": "37b7477c-4ed7-4ce2-bcc1-f38c44403907"
         },
         "e1b37a7f-7230-4874-8b6f-2a79eb7368f2": {
           "label": "Real-Time Object-Oriented Modeling",
           "link": "https://en.wikipedia.org/wiki/Real-Time Object-Oriented Modeling",
-          "x": 148275,
-          "y": 27149,
+          "x": 143198,
+          "y": 27383,
           "id": "e1b37a7f-7230-4874-8b6f-2a79eb7368f2"
         },
         "6e06feb6-86ef-4667-bee6-aeacef128440": {
           "label": "Regular Language description for XML",
           "link": "https://en.wikipedia.org/wiki/Regular Language description for XML",
-          "x": 148281,
-          "y": 27174,
+          "x": 143204,
+          "y": 27408,
           "id": "6e06feb6-86ef-4667-bee6-aeacef128440"
         },
         "05e7f318-f8f3-408c-a524-66955ad3754c": {
           "label": "RELAX NG",
           "link": "https://en.wikipedia.org/wiki/RELAX NG",
-          "x": 148194,
-          "y": 27199,
+          "x": 143117,
+          "y": 27433,
           "id": "05e7f318-f8f3-408c-a524-66955ad3754c"
         },
         "0c313a1a-b9d7-494d-bda8-ad812a98e533": {
           "label": "Schematron",
           "link": "https://en.wikipedia.org/wiki/Schematron",
-          "x": 148197,
-          "y": 27224,
+          "x": 143120,
+          "y": 27458,
           "id": "0c313a1a-b9d7-494d-bda8-ad812a98e533"
         },
         "b0841748-e077-45ce-bf2a-08e9f22cbcf3": {
           "label": "SDEP",
           "link": "https://en.wikipedia.org/wiki/SDEP",
-          "x": 148177,
-          "y": 27249,
+          "x": 143100,
+          "y": 27483,
           "id": "b0841748-e077-45ce-bf2a-08e9f22cbcf3"
         },
         "31220482-65b2-4522-9771-cdd2df851e6c": {
           "label": "ShEx",
           "link": "https://en.wikipedia.org/wiki/ShEx",
-          "x": 148175,
-          "y": 27274,
+          "x": 143098,
+          "y": 27508,
           "id": "31220482-65b2-4522-9771-cdd2df851e6c"
         },
         "1f004dde-560f-4e80-9471-f9d940c3ab0f": {
           "label": "SoaML",
           "link": "https://en.wikipedia.org/wiki/SoaML",
-          "x": 148181,
-          "y": 27299,
+          "x": 143104,
+          "y": 27533,
           "id": "1f004dde-560f-4e80-9471-f9d940c3ab0f"
         },
         "c86c859d-8778-49b2-a583-055234a7b749": {
           "label": "List of SPARQL implementations",
           "link": "https://en.wikipedia.org/wiki/List of SPARQL implementations",
-          "x": 148261,
-          "y": 27324,
+          "x": 143184,
+          "y": 27558,
           "id": "c86c859d-8778-49b2-a583-055234a7b749"
         },
         "f2b48607-218c-4fc2-b0fb-17ac6b4b98d0": {
           "label": "SPARQL",
           "link": "https://en.wikipedia.org/wiki/SPARQL",
-          "x": 148186,
-          "y": 27349,
+          "x": 143109,
+          "y": 27583,
           "id": "f2b48607-218c-4fc2-b0fb-17ac6b4b98d0"
         },
         "dfb9182f-2230-4bd7-9c06-c784d42c2ed7": {
           "label": "SQL",
           "link": "https://en.wikipedia.org/wiki/SQL",
-          "x": 148173,
-          "y": 27374,
+          "x": 143096,
+          "y": 27608,
           "id": "dfb9182f-2230-4bd7-9c06-c784d42c2ed7"
         },
         "8f7273dc-cb5f-4789-a550-c116ddcd1ae7": {
           "label": "SQL syntax",
           "link": "https://en.wikipedia.org/wiki/SQL syntax",
-          "x": 148195,
-          "y": 27399,
+          "x": 143118,
+          "y": 27633,
           "id": "8f7273dc-cb5f-4789-a550-c116ddcd1ae7"
         },
         "1f8ed268-580b-4cc1-abcc-7d0d85fba215": {
           "label": "SQLf",
           "link": "https://en.wikipedia.org/wiki/SQLf",
-          "x": 148175,
-          "y": 27424,
+          "x": 143098,
+          "y": 27658,
           "id": "1f8ed268-580b-4cc1-abcc-7d0d85fba215"
         },
         "a2329d33-cd8e-4808-97a9-a2c410bb7414": {
           "label": "Standard Generalized Markup Language",
           "link": "https://en.wikipedia.org/wiki/Standard Generalized Markup Language",
-          "x": 148288,
-          "y": 27449,
+          "x": 143211,
+          "y": 27683,
           "id": "a2329d33-cd8e-4808-97a9-a2c410bb7414"
         },
         "85421d46-c99e-4676-b517-980996dc240e": {
           "label": "Temporal expressions",
           "link": "https://en.wikipedia.org/wiki/Temporal expressions",
-          "x": 148229,
-          "y": 27474,
+          "x": 143152,
+          "y": 27708,
           "id": "85421d46-c99e-4676-b517-980996dc240e"
         },
         "dc81f117-cc70-4bf3-8bd7-af315d215aa1": {
           "label": "Text Encoding Initiative",
           "link": "https://en.wikipedia.org/wiki/Text Encoding Initiative",
-          "x": 148232,
-          "y": 27499,
+          "x": 143155,
+          "y": 27733,
           "id": "dc81f117-cc70-4bf3-8bd7-af315d215aa1"
         },
         "06f3fdad-192c-454a-a046-7772ef295b24": {
           "label": "TimeML",
           "link": "https://en.wikipedia.org/wiki/TimeML",
-          "x": 148185,
-          "y": 27524,
+          "x": 143108,
+          "y": 27758,
           "id": "06f3fdad-192c-454a-a046-7772ef295b24"
         },
         "3ea94aa2-9b0b-455f-9cb4-c096c9077977": {
           "label": "Unified Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Unified Modeling Language",
-          "x": 148246,
-          "y": 27549,
+          "x": 143169,
+          "y": 27783,
           "id": "3ea94aa2-9b0b-455f-9cb4-c096c9077977"
         },
         "bf699a20-8abd-4d77-96ac-fda9fca148a5": {
           "label": "XML",
           "link": "https://en.wikipedia.org/wiki/XML",
-          "x": 148173,
-          "y": 27574,
+          "x": 143096,
+          "y": 27808,
           "id": "bf699a20-8abd-4d77-96ac-fda9fca148a5"
         },
         "ad7b13fd-0713-4077-9795-9ee8c27503fa": {
           "label": "XML schema",
           "link": "https://en.wikipedia.org/wiki/XML schema",
-          "x": 148200,
-          "y": 27599,
+          "x": 143123,
+          "y": 27833,
           "id": "ad7b13fd-0713-4077-9795-9ee8c27503fa"
         },
         "7f6c6131-1672-4d05-8744-e1126636ade4": {
           "label": "XML validation",
           "link": "https://en.wikipedia.org/wiki/XML validation",
-          "x": 148205,
-          "y": 27624,
+          "x": 143128,
+          "y": 27858,
           "id": "7f6c6131-1672-4d05-8744-e1126636ade4"
         },
         "c6f29d58-d3c9-4df4-ba17-342c7d88c186": {
           "label": "XSIL",
           "link": "https://en.wikipedia.org/wiki/XSIL",
-          "x": 148174,
-          "y": 27649,
+          "x": 143097,
+          "y": 27883,
           "id": "c6f29d58-d3c9-4df4-ba17-342c7d88c186"
         },
         "0a5df89b-398d-4299-8ffb-a43ff482d13d": {
           "label": "YANG",
           "link": "https://en.wikipedia.org/wiki/YANG",
-          "x": 148178,
-          "y": 27674,
+          "x": 143101,
+          "y": 27908,
           "id": "0a5df89b-398d-4299-8ffb-a43ff482d13d"
         },
         "f9916ce1-34a1-4874-8ea0-83b1b3f8c73a": {
           "label": "Category:SPARQL",
           "link": "https://en.wikipedia.org/wiki/Category:SPARQL",
-          "x": 148217,
-          "y": 27699,
+          "x": 143140,
+          "y": 27933,
           "id": "f9916ce1-34a1-4874-8ea0-83b1b3f8c73a"
         },
         "6c460e14-3786-418c-92e9-05a50e053e79": {
           "label": "Category:Unified Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Category:Unified Modeling Language",
-          "x": 148277,
-          "y": 27724,
+          "x": 143200,
+          "y": 27958,
           "id": "6c460e14-3786-418c-92e9-05a50e053e79"
         },
         "4f52d871-ade1-4139-933c-03287338d1ab": {
           "label": "Category:XML",
           "link": "https://en.wikipedia.org/wiki/Category:XML",
-          "x": 148204,
-          "y": 27749,
+          "x": 143127,
+          "y": 27983,
           "id": "4f52d871-ade1-4139-933c-03287338d1ab"
         },
         "b0567eca-a784-4ae8-8dff-a416042afea6": {
           "label": "Hardware description language",
           "link": "https://en.wikipedia.org/wiki/Hardware description language",
-          "x": 144846,
-          "y": 24008,
+          "x": 139769,
+          "y": 24242,
           "id": "b0567eca-a784-4ae8-8dff-a416042afea6"
         },
         "ea0ac5c8-41fd-4915-ba58-523ed9ffdf7b": {
           "label": "Advanced Boolean Expression Language",
           "link": "https://en.wikipedia.org/wiki/Advanced Boolean Expression Language",
-          "x": 144877,
-          "y": 24033,
+          "x": 139800,
+          "y": 24267,
           "id": "ea0ac5c8-41fd-4915-ba58-523ed9ffdf7b"
         },
         "30148704-b342-4e4e-a458-2d810582a70c": {
           "label": "AHPL",
           "link": "https://en.wikipedia.org/wiki/AHPL",
-          "x": 144765,
-          "y": 24058,
+          "x": 139688,
+          "y": 24292,
           "id": "30148704-b342-4e4e-a458-2d810582a70c"
         },
         "e130925e-0786-4c30-906a-6514baf648fa": {
           "label": "Altera Hardware Description Language",
           "link": "https://en.wikipedia.org/wiki/Altera Hardware Description Language",
-          "x": 144870,
-          "y": 24083,
+          "x": 139793,
+          "y": 24317,
           "id": "e130925e-0786-4c30-906a-6514baf648fa"
         },
         "79090d29-2acc-4675-94c5-0a1eeec03526": {
           "label": "Averest",
           "link": "https://en.wikipedia.org/wiki/Averest",
-          "x": 144771,
-          "y": 24108,
+          "x": 139694,
+          "y": 24342,
           "id": "79090d29-2acc-4675-94c5-0a1eeec03526"
         },
         "7ed8bfe3-c3d6-465a-b412-b1398995f3ea": {
           "label": "C to HDL",
           "link": "https://en.wikipedia.org/wiki/C to HDL",
-          "x": 144776,
-          "y": 24133,
+          "x": 139699,
+          "y": 24367,
           "id": "7ed8bfe3-c3d6-465a-b412-b1398995f3ea"
         },
         "8df27873-f5a9-4a91-926e-5f6c9125eeca": {
           "label": "Delta delay",
           "link": "https://en.wikipedia.org/wiki/Delta delay",
-          "x": 144782,
-          "y": 24158,
+          "x": 139705,
+          "y": 24392,
           "id": "8df27873-f5a9-4a91-926e-5f6c9125eeca"
         },
         "9b751234-b71c-472e-9c9f-abf5bc40d390": {
           "label": "ELLA (programming language)",
           "link": "https://en.wikipedia.org/wiki/ELLA (programming language)",
-          "x": 144845,
-          "y": 24183,
+          "x": 139768,
+          "y": 24417,
           "id": "9b751234-b71c-472e-9c9f-abf5bc40d390"
         },
         "f62a104c-f0aa-47c3-b24a-2f876c49589c": {
           "label": "Embedded C++",
           "link": "https://en.wikipedia.org/wiki/Embedded C++",
-          "x": 144796,
-          "y": 24208,
+          "x": 139719,
+          "y": 24442,
           "id": "f62a104c-f0aa-47c3-b24a-2f876c49589c"
         },
         "10730ea6-4a75-4eba-b95f-0e6d71d0f695": {
           "label": "Esterel",
           "link": "https://en.wikipedia.org/wiki/Esterel",
-          "x": 144769,
-          "y": 24233,
+          "x": 139692,
+          "y": 24467,
           "id": "10730ea6-4a75-4eba-b95f-0e6d71d0f695"
         },
         "0f39c12b-a0c6-4249-b55e-e5139e7c8b39": {
           "label": "Flow to HDL",
           "link": "https://en.wikipedia.org/wiki/Flow to HDL",
-          "x": 144786,
-          "y": 24258,
+          "x": 139709,
+          "y": 24492,
           "id": "0f39c12b-a0c6-4249-b55e-e5139e7c8b39"
         },
         "50f2fa26-c9d9-4231-983e-e313fb1335e5": {
           "label": "Four-valued logic",
           "link": "https://en.wikipedia.org/wiki/Four-valued logic",
-          "x": 144802,
-          "y": 24283,
+          "x": 139725,
+          "y": 24517,
           "id": "50f2fa26-c9d9-4231-983e-e313fb1335e5"
         },
         "87828412-776b-4d7a-a9fa-c7a76adf7b01": {
           "label": "Gezel",
           "link": "https://en.wikipedia.org/wiki/Gezel",
-          "x": 144765,
-          "y": 24308,
+          "x": 139688,
+          "y": 24542,
           "id": "87828412-776b-4d7a-a9fa-c7a76adf7b01"
         },
         "1709ba7b-adcf-411f-bec0-5a00eaf0d776": {
           "label": "Handel-C",
           "link": "https://en.wikipedia.org/wiki/Handel-C",
-          "x": 144777,
-          "y": 24333,
+          "x": 139700,
+          "y": 24567,
           "id": "1709ba7b-adcf-411f-bec0-5a00eaf0d776"
         },
         "94435a7d-d1d6-479f-a4ab-7c7fe2e2b75c": {
           "label": "IEEE 1164",
           "link": "https://en.wikipedia.org/wiki/IEEE 1164",
-          "x": 144780,
-          "y": 24358,
+          "x": 139703,
+          "y": 24592,
           "id": "94435a7d-d1d6-479f-a4ab-7c7fe2e2b75c"
         },
         "56117567-a625-44ed-aa5d-2f0c7c32ac4d": {
           "label": "Interoperable PDK Libraries",
           "link": "https://en.wikipedia.org/wiki/Interoperable PDK Libraries",
-          "x": 144835,
-          "y": 24383,
+          "x": 139758,
+          "y": 24617,
           "id": "56117567-a625-44ed-aa5d-2f0c7c32ac4d"
         },
         "6de3f5ce-be8b-4365-bedb-f45cc6193866": {
           "label": "JHDL",
           "link": "https://en.wikipedia.org/wiki/JHDL",
-          "x": 144764,
-          "y": 24408,
+          "x": 139687,
+          "y": 24642,
           "id": "6de3f5ce-be8b-4365-bedb-f45cc6193866"
         },
         "532b7a3a-b530-46cf-bf43-e74e35532947": {
           "label": "List of HDL simulators",
           "link": "https://en.wikipedia.org/wiki/List of HDL simulators",
-          "x": 144816,
-          "y": 24433,
+          "x": 139739,
+          "y": 24667,
           "id": "532b7a3a-b530-46cf-bf43-e74e35532947"
         },
         "7ca3d8d7-b6c7-4762-9bba-252c4394306e": {
           "label": "Lola (computing)",
           "link": "https://en.wikipedia.org/wiki/Lola (computing)",
-          "x": 144800,
-          "y": 24458,
+          "x": 139723,
+          "y": 24692,
           "id": "7ca3d8d7-b6c7-4762-9bba-252c4394306e"
         },
         "ab593752-178e-4d5a-a0d1-8b3fe2a0f607": {
           "label": "Lustre (programming language)",
           "link": "https://en.wikipedia.org/wiki/Lustre (programming language)",
-          "x": 144848,
-          "y": 24483,
+          "x": 139771,
+          "y": 24717,
           "id": "ab593752-178e-4d5a-a0d1-8b3fe2a0f607"
         },
         "cb220edf-5622-40eb-b00a-cce538f23eb9": {
           "label": "MyHDL",
           "link": "https://en.wikipedia.org/wiki/MyHDL",
-          "x": 144770,
-          "y": 24508,
+          "x": 139693,
+          "y": 24742,
           "id": "cb220edf-5622-40eb-b00a-cce538f23eb9"
         },
         "7a666fe0-bdf0-4005-81b4-e26cf098340d": {
           "label": "Network Definition Language",
           "link": "https://en.wikipedia.org/wiki/Network Definition Language",
-          "x": 144838,
-          "y": 24533,
+          "x": 139761,
+          "y": 24767,
           "id": "7a666fe0-bdf0-4005-81b4-e26cf098340d"
         },
         "53d504cd-08b2-4d72-a4de-7f15dfce475a": {
           "label": "Network Description Language",
           "link": "https://en.wikipedia.org/wiki/Network Description Language",
-          "x": 144844,
-          "y": 24558,
+          "x": 139767,
+          "y": 24792,
           "id": "53d504cd-08b2-4d72-a4de-7f15dfce475a"
         },
         "b696d50a-aab2-4436-921a-552a497d35c3": {
           "label": "Numeric std",
           "link": "https://en.wikipedia.org/wiki/Numeric std",
-          "x": 144785,
-          "y": 24583,
+          "x": 139708,
+          "y": 24817,
           "id": "b696d50a-aab2-4436-921a-552a497d35c3"
         },
         "8f89afe5-4f13-4e23-aede-2626d246aef3": {
           "label": "Open Verification Library",
           "link": "https://en.wikipedia.org/wiki/Open Verification Library",
-          "x": 144825,
-          "y": 24608,
+          "x": 139748,
+          "y": 24842,
           "id": "8f89afe5-4f13-4e23-aede-2626d246aef3"
         },
         "0e8ad597-8071-4fff-95e4-48eb260be71c": {
           "label": "PALASM",
           "link": "https://en.wikipedia.org/wiki/PALASM",
-          "x": 144774,
-          "y": 24633,
+          "x": 139697,
+          "y": 24867,
           "id": "0e8ad597-8071-4fff-95e4-48eb260be71c"
         },
         "204838ba-2b58-4547-9b6b-e55e5d2a6513": {
           "label": "Register transfer notation",
           "link": "https://en.wikipedia.org/wiki/Register transfer notation",
-          "x": 144827,
-          "y": 24658,
+          "x": 139750,
+          "y": 24892,
           "id": "204838ba-2b58-4547-9b6b-e55e5d2a6513"
         },
         "5118c239-1df2-456b-86c7-5c809a4c69a4": {
           "label": "Ruby (hardware description language)",
           "link": "https://en.wikipedia.org/wiki/Ruby (hardware description language)",
-          "x": 144868,
-          "y": 24683,
+          "x": 139791,
+          "y": 24917,
           "id": "5118c239-1df2-456b-86c7-5c809a4c69a4"
         },
         "3d926660-16f1-4e0f-b23a-a4eb20c1bdaa": {
           "label": "SIGNAL (programming language)",
           "link": "https://en.wikipedia.org/wiki/SIGNAL (programming language)",
-          "x": 144853,
-          "y": 24708,
+          "x": 139776,
+          "y": 24942,
           "id": "3d926660-16f1-4e0f-b23a-a4eb20c1bdaa"
         },
         "96eba254-8f7a-4485-949f-423856d260f9": {
           "label": "SpecC",
           "link": "https://en.wikipedia.org/wiki/SpecC",
-          "x": 144768,
-          "y": 24733,
+          "x": 139691,
+          "y": 24967,
           "id": "96eba254-8f7a-4485-949f-423856d260f9"
         },
         "9a46f93d-7bce-4fc5-9fa7-050cc00b57b7": {
           "label": "SystemC",
           "link": "https://en.wikipedia.org/wiki/SystemC",
-          "x": 144775,
-          "y": 24758,
+          "x": 139698,
+          "y": 24992,
           "id": "9a46f93d-7bce-4fc5-9fa7-050cc00b57b7"
         },
         "4e2b2915-614b-49fd-a60f-7ccca3e7ada8": {
           "label": "SystemC AMS",
           "link": "https://en.wikipedia.org/wiki/SystemC AMS",
-          "x": 144792,
-          "y": 24783,
+          "x": 139715,
+          "y": 25017,
           "id": "4e2b2915-614b-49fd-a60f-7ccca3e7ada8"
         },
         "fa5de7f8-d06a-4775-ba0a-d1763fef6c79": {
           "label": "SystemRDL",
           "link": "https://en.wikipedia.org/wiki/SystemRDL",
-          "x": 144784,
-          "y": 24808,
+          "x": 139707,
+          "y": 25042,
           "id": "fa5de7f8-d06a-4775-ba0a-d1763fef6c79"
         },
         "4ac9ce7f-35de-4d03-b750-68ca0617ae6d": {
           "label": "SystemVerilog",
           "link": "https://en.wikipedia.org/wiki/SystemVerilog",
-          "x": 144792,
-          "y": 24833,
+          "x": 139715,
+          "y": 25067,
           "id": "4ac9ce7f-35de-4d03-b750-68ca0617ae6d"
         },
         "7114ed26-fa4b-4ccf-abe5-73fca9e07d72": {
           "label": "Tensilica Instruction Extension",
           "link": "https://en.wikipedia.org/wiki/Tensilica Instruction Extension",
-          "x": 144842,
-          "y": 24858,
+          "x": 139765,
+          "y": 25092,
           "id": "7114ed26-fa4b-4ccf-abe5-73fca9e07d72"
         },
         "19e92370-9375-43a7-ba52-bacd36c016a6": {
           "label": "Verilog",
           "link": "https://en.wikipedia.org/wiki/Verilog",
-          "x": 144769,
-          "y": 24883,
+          "x": 139692,
+          "y": 25117,
           "id": "19e92370-9375-43a7-ba52-bacd36c016a6"
         },
         "a2be4f98-5725-40b8-91f6-cd88ace26191": {
           "label": "Verilog-A",
           "link": "https://en.wikipedia.org/wiki/Verilog-A",
-          "x": 144776,
-          "y": 24908,
+          "x": 139699,
+          "y": 25142,
           "id": "a2be4f98-5725-40b8-91f6-cd88ace26191"
         },
         "b309c416-3378-4d4c-8f49-fb3fe8a5b848": {
           "label": "Verilog-AMS",
           "link": "https://en.wikipedia.org/wiki/Verilog-AMS",
-          "x": 144786,
-          "y": 24933,
+          "x": 139709,
+          "y": 25167,
           "id": "b309c416-3378-4d4c-8f49-fb3fe8a5b848"
         },
         "848d589b-01a1-4c27-a7f2-0d6a68aae8ed": {
           "label": "VerilogCSP",
           "link": "https://en.wikipedia.org/wiki/VerilogCSP",
-          "x": 144783,
-          "y": 24958,
+          "x": 139706,
+          "y": 25192,
           "id": "848d589b-01a1-4c27-a7f2-0d6a68aae8ed"
         },
         "bb894b83-d5dd-45d1-9e49-07c829b68bec": {
           "label": "VHDL",
           "link": "https://en.wikipedia.org/wiki/VHDL",
-          "x": 144765,
-          "y": 24983,
+          "x": 139688,
+          "y": 25217,
           "id": "bb894b83-d5dd-45d1-9e49-07c829b68bec"
         },
         "759f71d5-5672-4d13-ac12-7ff8cddfb8ba": {
           "label": "VHDL-AMS",
           "link": "https://en.wikipedia.org/wiki/VHDL-AMS",
-          "x": 144783,
-          "y": 25008,
+          "x": 139706,
+          "y": 25242,
           "id": "759f71d5-5672-4d13-ac12-7ff8cddfb8ba"
         },
         "7fa18bc2-b2e8-4dd9-b447-58ae367ac60b": {
           "label": "VHDL-VITAL",
           "link": "https://en.wikipedia.org/wiki/VHDL-VITAL",
-          "x": 144787,
-          "y": 25033,
+          "x": 139710,
+          "y": 25267,
           "id": "7fa18bc2-b2e8-4dd9-b447-58ae367ac60b"
         },
         "143d527a-8e6c-4fdc-8a06-25574e14b5ee": {
           "label": "Category:Hardware verification languages",
           "link": "https://en.wikipedia.org/wiki/Category:Hardware verification languages",
-          "x": 144880,
-          "y": 25058,
+          "x": 139803,
+          "y": 25292,
           "id": "143d527a-8e6c-4fdc-8a06-25574e14b5ee"
         },
         "9bfe0b09-35bd-4640-b368-cc91880af162": {
           "label": "Category:System description languages",
           "link": "https://en.wikipedia.org/wiki/Category:System description languages",
-          "x": 144873,
-          "y": 25083,
+          "x": 139796,
+          "y": 25317,
           "id": "9bfe0b09-35bd-4640-b368-cc91880af162"
         },
         "143d527a-8e6c-4fdc-8a06-25574e14b5ee799": {
@@ -15123,8 +15123,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Hardware verification languages",
           "link": "https://en.wikipedia.org/wiki/Category:Hardware verification languages",
-          "x": 143650,
-          "y": 25635,
+          "x": 138573,
+          "y": 25869,
           "id": "143d527a-8e6c-4fdc-8a06-25574e14b5ee799",
           "shape": "box",
           "borderWidth": ""
@@ -15157,8 +15157,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:System description languages",
           "link": "https://en.wikipedia.org/wiki/Category:System description languages",
-          "x": 143763,
-          "y": 26086,
+          "x": 138686,
+          "y": 26320,
           "id": "9bfe0b09-35bd-4640-b368-cc91880af162799",
           "shape": "box",
           "borderWidth": ""
@@ -15166,1170 +15166,1170 @@ var schemeData =
         "a4fd14aa-c742-4cc9-9677-01d7427e9ed7": {
           "label": "Hardware verification language",
           "link": "https://en.wikipedia.org/wiki/Hardware verification language",
-          "x": 144880,
-          "y": 25514,
+          "x": 139803,
+          "y": 25748,
           "id": "a4fd14aa-c742-4cc9-9677-01d7427e9ed7"
         },
         "f216aabe-719c-46e3-9f42-5f1c54620d26": {
           "label": "E (verification language)",
           "link": "https://en.wikipedia.org/wiki/E (verification language)",
-          "x": 144859,
-          "y": 25539,
+          "x": 139782,
+          "y": 25773,
           "id": "f216aabe-719c-46e3-9f42-5f1c54620d26"
         },
         "608d1634-26ae-4010-b2fa-ba5b3a86cf81": {
           "label": "E Reuse Methodology",
           "link": "https://en.wikipedia.org/wiki/E Reuse Methodology",
-          "x": 144852,
-          "y": 25564,
+          "x": 139775,
+          "y": 25798,
           "id": "608d1634-26ae-4010-b2fa-ba5b3a86cf81"
         },
         "d5e630c1-0cba-4f12-bf36-06cbf821f0c7": {
           "label": "OpenVera",
           "link": "https://en.wikipedia.org/wiki/OpenVera",
-          "x": 144814,
-          "y": 25589,
+          "x": 139737,
+          "y": 25823,
           "id": "d5e630c1-0cba-4f12-bf36-06cbf821f0c7"
         },
         "b165e13d-8727-4d58-ab02-37c58c7c0ecb": {
           "label": "Property Specification Language",
           "link": "https://en.wikipedia.org/wiki/Property Specification Language",
-          "x": 144885,
-          "y": 25614,
+          "x": 139808,
+          "y": 25848,
           "id": "b165e13d-8727-4d58-ab02-37c58c7c0ecb"
         },
         "34abf7cb-275d-4f46-9da9-0667590070dc": {
           "label": "Reference Verification Methodology",
           "link": "https://en.wikipedia.org/wiki/Reference Verification Methodology",
-          "x": 144894,
-          "y": 25639,
+          "x": 139817,
+          "y": 25873,
           "id": "34abf7cb-275d-4f46-9da9-0667590070dc"
         },
         "b81522a4-958a-4e48-acc8-022038f09be1": {
           "label": "Specman",
           "link": "https://en.wikipedia.org/wiki/Specman",
-          "x": 144812,
-          "y": 25664,
+          "x": 139735,
+          "y": 25898,
           "id": "b81522a4-958a-4e48-acc8-022038f09be1"
         },
         "ad617674-486f-4fe1-b7d2-b9113f1cfea8": {
           "label": "SystemC",
           "link": "https://en.wikipedia.org/wiki/SystemC",
-          "x": 144810,
-          "y": 25689,
+          "x": 139733,
+          "y": 25923,
           "id": "ad617674-486f-4fe1-b7d2-b9113f1cfea8"
         },
         "a7a94721-1540-4946-87f5-081f1cfc0eec": {
           "label": "SystemC AMS",
           "link": "https://en.wikipedia.org/wiki/SystemC AMS",
-          "x": 144827,
-          "y": 25714,
+          "x": 139750,
+          "y": 25948,
           "id": "a7a94721-1540-4946-87f5-081f1cfc0eec"
         },
         "d9488aa5-f09d-484e-9370-6b3a72b14bac": {
           "label": "SystemVerilog",
           "link": "https://en.wikipedia.org/wiki/SystemVerilog",
-          "x": 144827,
-          "y": 25739,
+          "x": 139750,
+          "y": 25973,
           "id": "d9488aa5-f09d-484e-9370-6b3a72b14bac"
         },
         "a4cea8de-25fe-4a96-801d-2d000fd75627": {
           "label": "SystemVerilog DPI",
           "link": "https://en.wikipedia.org/wiki/SystemVerilog DPI",
-          "x": 144840,
-          "y": 25764,
+          "x": 139763,
+          "y": 25998,
           "id": "a4cea8de-25fe-4a96-801d-2d000fd75627"
         },
         "80484e50-face-4033-9f8c-eb456d9ab963": {
           "label": "SpecC",
           "link": "https://en.wikipedia.org/wiki/SpecC",
-          "x": 144856,
-          "y": 26053,
+          "x": 139779,
+          "y": 26287,
           "id": "80484e50-face-4033-9f8c-eb456d9ab963"
         },
         "ef1255ac-b9f7-419c-9d5b-1e7eb6c154ea": {
           "label": "SystemC",
           "link": "https://en.wikipedia.org/wiki/SystemC",
-          "x": 144864,
-          "y": 26078,
+          "x": 139787,
+          "y": 26312,
           "id": "ef1255ac-b9f7-419c-9d5b-1e7eb6c154ea"
         },
         "1ff2f4c8-3a9b-4b6d-a7c0-b552512478bf": {
           "label": "SystemC AMS",
           "link": "https://en.wikipedia.org/wiki/SystemC AMS",
-          "x": 144881,
-          "y": 26103,
+          "x": 139804,
+          "y": 26337,
           "id": "1ff2f4c8-3a9b-4b6d-a7c0-b552512478bf"
         },
         "ca7d14cf-65c5-47b9-9316-5cb06bc8667d": {
           "label": "SystemVerilog",
           "link": "https://en.wikipedia.org/wiki/SystemVerilog",
-          "x": 144880,
-          "y": 26128,
+          "x": 139803,
+          "y": 26362,
           "id": "ca7d14cf-65c5-47b9-9316-5cb06bc8667d"
         },
         "6961a823-eac1-435f-8edf-a6133e82f333": {
           "label": "Interactive Disassembler",
           "link": "https://en.wikipedia.org/wiki/Interactive Disassembler",
-          "x": 144879,
-          "y": 26561,
+          "x": 139802,
+          "y": 26795,
           "id": "6961a823-eac1-435f-8edf-a6133e82f333"
         },
         "8bff9622-9754-403d-8d9d-f695f249bd7f": {
           "label": "JEB decompiler",
           "link": "https://en.wikipedia.org/wiki/JEB decompiler",
-          "x": 144850,
-          "y": 26586,
+          "x": 139773,
+          "y": 26820,
           "id": "8bff9622-9754-403d-8d9d-f695f249bd7f"
         },
         "a2c0dfec-35f0-49bd-9e79-ab1ecf30ed4b": {
           "label": "MetaCASE tool",
           "link": "https://en.wikipedia.org/wiki/MetaCASE tool",
-          "x": 144849,
-          "y": 26611,
+          "x": 139772,
+          "y": 26845,
           "id": "a2c0dfec-35f0-49bd-9e79-ab1ecf30ed4b"
         },
         "5638a7ac-024b-462d-a2ef-25de92cddcea": {
           "label": "MetaDONE",
           "link": "https://en.wikipedia.org/wiki/MetaDONE",
-          "x": 144837,
-          "y": 26636,
+          "x": 139760,
+          "y": 26870,
           "id": "5638a7ac-024b-462d-a2ef-25de92cddcea"
         },
         "5bbe7ab2-4463-4e53-8052-d4e9c1d89a26": {
           "label": "Rigi (software)",
           "link": "https://en.wikipedia.org/wiki/Rigi (software)",
-          "x": 144847,
-          "y": 26661,
+          "x": 139770,
+          "y": 26895,
           "id": "5bbe7ab2-4463-4e53-8052-d4e9c1d89a26"
         },
         "4ba4e591-9a80-4b0c-9cb5-9097d13a99cc": {
           "label": "PragmaDev Studio",
           "link": "https://en.wikipedia.org/wiki/PragmaDev Studio",
-          "x": 144860,
-          "y": 26686,
+          "x": 139783,
+          "y": 26920,
           "id": "4ba4e591-9a80-4b0c-9cb5-9097d13a99cc"
         },
         "643b8df6-7dce-4157-a980-fa8ad53a552c": {
           "label": "Category:UML tools",
           "link": "https://en.wikipedia.org/wiki/Category:UML tools",
-          "x": 144864,
-          "y": 26711,
+          "x": 139787,
+          "y": 26945,
           "id": "643b8df6-7dce-4157-a980-fa8ad53a552c"
         },
         "989ad060-12db-4281-8731-bbfe84602bfd": {
           "label": "Architecture Analysis & Design Language",
           "link": "https://en.wikipedia.org/wiki/Architecture Analysis & Design Language",
-          "x": 144832,
-          "y": 27223,
+          "x": 139755,
+          "y": 27457,
           "id": "989ad060-12db-4281-8731-bbfe84602bfd"
         },
         "9baa9832-edd9-45e5-9086-3dc7e37db515": {
           "label": "DADiSP",
           "link": "https://en.wikipedia.org/wiki/DADiSP",
-          "x": 144727,
-          "y": 27248,
+          "x": 139650,
+          "y": 27482,
           "id": "9baa9832-edd9-45e5-9086-3dc7e37db515"
         },
         "084d9485-0f61-4297-9a13-84da6fd2878a": {
           "label": "ERIL",
           "link": "https://en.wikipedia.org/wiki/ERIL",
-          "x": 144717,
-          "y": 27273,
+          "x": 139640,
+          "y": 27507,
           "id": "084d9485-0f61-4297-9a13-84da6fd2878a"
         },
         "0abc2d5b-bba4-461b-8fd7-c437a523bc52": {
           "label": "LabVIEW",
           "link": "https://en.wikipedia.org/wiki/LabVIEW",
-          "x": 144731,
-          "y": 27298,
+          "x": 139654,
+          "y": 27532,
           "id": "0abc2d5b-bba4-461b-8fd7-c437a523bc52"
         },
         "7497ac52-f954-4a53-aabc-af04198cc8b3": {
           "label": "Lustre (programming language)",
           "link": "https://en.wikipedia.org/wiki/Lustre (programming language)",
-          "x": 144803,
-          "y": 27323,
+          "x": 139726,
+          "y": 27557,
           "id": "7497ac52-f954-4a53-aabc-af04198cc8b3"
         },
         "8b4cb20e-4bd2-449a-b278-66f645febee7": {
           "label": "Maple (software)",
           "link": "https://en.wikipedia.org/wiki/Maple (software)",
-          "x": 144755,
-          "y": 27348,
+          "x": 139678,
+          "y": 27582,
           "id": "8b4cb20e-4bd2-449a-b278-66f645febee7"
         },
         "d380703f-801d-49a3-88ef-d0d1edec6ac1": {
           "label": "MATLAB",
           "link": "https://en.wikipedia.org/wiki/MATLAB",
-          "x": 144729,
-          "y": 27373,
+          "x": 139652,
+          "y": 27607,
           "id": "d380703f-801d-49a3-88ef-d0d1edec6ac1"
         },
         "b9096b16-e7d5-4f96-811b-c002f9d187b9": {
           "label": "Menthor Editor",
           "link": "https://en.wikipedia.org/wiki/Menthor Editor",
-          "x": 144749,
-          "y": 27398,
+          "x": 139672,
+          "y": 27632,
           "id": "b9096b16-e7d5-4f96-811b-c002f9d187b9"
         },
         "d737ae8a-04b1-437c-91e0-4d72b97a6066": {
           "label": "Message sequence chart",
           "link": "https://en.wikipedia.org/wiki/Message sequence chart",
-          "x": 144782,
-          "y": 27423,
+          "x": 139705,
+          "y": 27657,
           "id": "d737ae8a-04b1-437c-91e0-4d72b97a6066"
         },
         "9b5c74f0-b19a-43cd-87a9-850bd1befd6b": {
           "label": "Nets within Nets",
           "link": "https://en.wikipedia.org/wiki/Nets within Nets",
-          "x": 144753,
-          "y": 27448,
+          "x": 139676,
+          "y": 27682,
           "id": "9b5c74f0-b19a-43cd-87a9-850bd1befd6b"
         },
         "fb6f7c5a-a021-4ec6-9f11-d2e8bd42d671": {
           "label": "Petri net",
           "link": "https://en.wikipedia.org/wiki/Petri net",
-          "x": 144728,
-          "y": 27473,
+          "x": 139651,
+          "y": 27707,
           "id": "fb6f7c5a-a021-4ec6-9f11-d2e8bd42d671"
         },
         "c2c77a11-3e62-495a-9e19-643d12c9b2b8": {
           "label": "Real-Time Object-Oriented Modeling",
           "link": "https://en.wikipedia.org/wiki/Real-Time Object-Oriented Modeling",
-          "x": 144818,
-          "y": 27498,
+          "x": 139741,
+          "y": 27732,
           "id": "c2c77a11-3e62-495a-9e19-643d12c9b2b8"
         },
         "61100f9f-cb4e-4644-a81e-7411d3dff975": {
           "label": "SIGNAL (programming language)",
           "link": "https://en.wikipedia.org/wiki/SIGNAL (programming language)",
-          "x": 144808,
-          "y": 27523,
+          "x": 139731,
+          "y": 27757,
           "id": "61100f9f-cb4e-4644-a81e-7411d3dff975"
         },
         "1017ab7f-b779-410b-ad65-c081ff1544cd": {
           "label": "Specification and Description Language",
           "link": "https://en.wikipedia.org/wiki/Specification and Description Language",
-          "x": 144827,
-          "y": 27548,
+          "x": 139750,
+          "y": 27782,
           "id": "1017ab7f-b779-410b-ad65-c081ff1544cd"
         },
         "bcbd7dbe-2284-4126-ace5-74436f91b750": {
           "label": "Unified Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Unified Modeling Language",
-          "x": 144789,
-          "y": 27573,
+          "x": 139712,
+          "y": 27807,
           "id": "bcbd7dbe-2284-4126-ace5-74436f91b750"
         },
         "791098a6-953e-4039-af7a-6d093266a9c7": {
           "label": "Vector addition system",
           "link": "https://en.wikipedia.org/wiki/Vector addition system",
-          "x": 144773,
-          "y": 27598,
+          "x": 139696,
+          "y": 27832,
           "id": "791098a6-953e-4039-af7a-6d093266a9c7"
         },
         "11ccdb0e-52f6-4bb0-82c6-2829c3afa5ed": {
           "label": "Wolfram Language",
           "link": "https://en.wikipedia.org/wiki/Wolfram Language",
-          "x": 144762,
-          "y": 27623,
+          "x": 139685,
+          "y": 27857,
           "id": "11ccdb0e-52f6-4bb0-82c6-2829c3afa5ed"
         },
         "01214c11-ea95-4be7-88fc-5ec9abb382cc": {
           "label": "Category:Unified Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Category:Unified Modeling Language",
-          "x": 144820,
-          "y": 27648,
+          "x": 139743,
+          "y": 27882,
           "id": "01214c11-ea95-4be7-88fc-5ec9abb382cc"
         },
         "f146a6a7-614d-494f-a921-3c91eec71ba8": {
           "label": "Computer language",
           "link": "https://en.wikipedia.org/wiki/Computer language",
-          "x": 144821,
-          "y": 28120,
+          "x": 139744,
+          "y": 28354,
           "id": "f146a6a7-614d-494f-a921-3c91eec71ba8"
         },
         "8061311c-4d15-45a9-a94e-3d8d773a4e8b": {
           "label": "AIMACO",
           "link": "https://en.wikipedia.org/wiki/AIMACO",
-          "x": 144786,
-          "y": 28145,
+          "x": 139709,
+          "y": 28379,
           "id": "8061311c-4d15-45a9-a94e-3d8d773a4e8b"
         },
         "556e7d8d-ed1c-4c93-80e6-8e5b298843a8": {
           "label": "Architecture description language",
           "link": "https://en.wikipedia.org/wiki/Architecture description language",
-          "x": 144864,
-          "y": 28170,
+          "x": 139787,
+          "y": 28404,
           "id": "556e7d8d-ed1c-4c93-80e6-8e5b298843a8"
         },
         "6a42065d-3fd5-42d7-8399-98887613c2b5": {
           "label": "Böhm's language",
           "link": "https://en.wikipedia.org/wiki/Böhm's language",
-          "x": 144813,
-          "y": 28195,
+          "x": 139736,
+          "y": 28429,
           "id": "6a42065d-3fd5-42d7-8399-98887613c2b5"
         },
         "d7e3abfe-dd1e-4e57-b550-8f722c774a19": {
           "label": "BURS",
           "link": "https://en.wikipedia.org/wiki/BURS",
-          "x": 144777,
-          "y": 28220,
+          "x": 139700,
+          "y": 28454,
           "id": "d7e3abfe-dd1e-4e57-b550-8f722c774a19"
         },
         "678e0780-5e48-4043-ad93-d645af8d60b3": {
           "label": "General-purpose language",
           "link": "https://en.wikipedia.org/wiki/General-purpose language",
-          "x": 144844,
-          "y": 28245,
+          "x": 139767,
+          "y": 28479,
           "id": "678e0780-5e48-4043-ad93-d645af8d60b3"
         },
         "a11e9361-4e09-429b-92c9-775432532f9d": {
           "label": "Inter-Language Unification",
           "link": "https://en.wikipedia.org/wiki/Inter-Language Unification",
-          "x": 144842,
-          "y": 28270,
+          "x": 139765,
+          "y": 28504,
           "id": "a11e9361-4e09-429b-92c9-775432532f9d"
         },
         "ff1fd895-8265-481d-a7f4-09ad6bc24973": {
           "label": "A Language for Process Specification",
           "link": "https://en.wikipedia.org/wiki/A Language for Process Specification",
-          "x": 144877,
-          "y": 28295,
+          "x": 139800,
+          "y": 28529,
           "id": "ff1fd895-8265-481d-a7f4-09ad6bc24973"
         },
         "09a455da-f30d-4065-b3da-33474f3bc720": {
           "label": "META II",
           "link": "https://en.wikipedia.org/wiki/META II",
-          "x": 144783,
-          "y": 28320,
+          "x": 139706,
+          "y": 28554,
           "id": "09a455da-f30d-4065-b3da-33474f3bc720"
         },
         "3e2b46a6-c2ea-44b7-b573-4a91710d9216": {
           "label": "Planning Domain Definition Language",
           "link": "https://en.wikipedia.org/wiki/Planning Domain Definition Language",
-          "x": 144878,
-          "y": 28345,
+          "x": 139801,
+          "y": 28579,
           "id": "3e2b46a6-c2ea-44b7-b573-4a91710d9216"
         },
         "0699b9e0-f095-4ced-82ee-665c5690219c": {
           "label": "PWCT (software)",
           "link": "https://en.wikipedia.org/wiki/PWCT (software)",
-          "x": 144813,
-          "y": 28370,
+          "x": 139736,
+          "y": 28604,
           "id": "0699b9e0-f095-4ced-82ee-665c5690219c"
         },
         "865c0b36-4b83-4977-8c46-381d54b27527": {
           "label": "Query language",
           "link": "https://en.wikipedia.org/wiki/Query language",
-          "x": 144809,
-          "y": 28395,
+          "x": 139732,
+          "y": 28629,
           "id": "865c0b36-4b83-4977-8c46-381d54b27527"
         },
         "08770855-6910-4dc9-840e-490581828e9e": {
           "label": "Rich Representation Language",
           "link": "https://en.wikipedia.org/wiki/Rich Representation Language",
-          "x": 144857,
-          "y": 28420,
+          "x": 139780,
+          "y": 28654,
           "id": "08770855-6910-4dc9-840e-490581828e9e"
         },
         "c6a3b0b0-6655-48e8-aacd-e77d76f9bd09": {
           "label": "SecPAL",
           "link": "https://en.wikipedia.org/wiki/SecPAL",
-          "x": 144783,
-          "y": 28445,
+          "x": 139706,
+          "y": 28679,
           "id": "c6a3b0b0-6655-48e8-aacd-e77d76f9bd09"
         },
         "8a0b851a-0a3e-4cb9-b8ec-68c91dcefaf4": {
           "label": "List of SPARQL implementations",
           "link": "https://en.wikipedia.org/wiki/List of SPARQL implementations",
-          "x": 144861,
-          "y": 28470,
+          "x": 139784,
+          "y": 28704,
           "id": "8a0b851a-0a3e-4cb9-b8ec-68c91dcefaf4"
         },
         "fed15dc2-e912-4ed3-afa0-613fad09d641": {
           "label": "Specification language",
           "link": "https://en.wikipedia.org/wiki/Specification language",
-          "x": 144830,
-          "y": 28495,
+          "x": 139753,
+          "y": 28729,
           "id": "fed15dc2-e912-4ed3-afa0-613fad09d641"
         },
         "d92b3d1f-a4c0-446d-90ac-b184056b5fb4": {
           "label": "SQR",
           "link": "https://en.wikipedia.org/wiki/SQR",
-          "x": 144773,
-          "y": 28520,
+          "x": 139696,
+          "y": 28754,
           "id": "d92b3d1f-a4c0-446d-90ac-b184056b5fb4"
         },
         "984b0911-9174-4f0a-bbbb-a993dca9feb0": {
           "label": "Ten15",
           "link": "https://en.wikipedia.org/wiki/Ten15",
-          "x": 144778,
-          "y": 28545,
+          "x": 139701,
+          "y": 28779,
           "id": "984b0911-9174-4f0a-bbbb-a993dca9feb0"
         },
         "b9fe9d01-ea61-415b-a441-eccd842283f2": {
           "label": "WebMethods Flow",
           "link": "https://en.wikipedia.org/wiki/WebMethods Flow",
-          "x": 144817,
-          "y": 28570,
+          "x": 139740,
+          "y": 28804,
           "id": "b9fe9d01-ea61-415b-a441-eccd842283f2"
         },
         "b0f9233a-f344-419f-86fb-a1ad7bc29b22": {
           "label": "Category:Lists of computer languages",
           "link": "https://en.wikipedia.org/wiki/Category:Lists of computer languages",
-          "x": 144879,
-          "y": 28595,
+          "x": 139802,
+          "y": 28829,
           "id": "b0f9233a-f344-419f-86fb-a1ad7bc29b22"
         },
         "455fbac8-90b0-4347-beb5-39775ecce0de": {
           "label": "Category:Architecture description language",
           "link": "https://en.wikipedia.org/wiki/Category:Architecture description language",
-          "x": 144895,
-          "y": 28620,
+          "x": 139818,
+          "y": 28854,
           "id": "455fbac8-90b0-4347-beb5-39775ecce0de"
         },
         "44722c76-bfb5-450f-8c3e-bc00b49d04b7": {
           "label": "Category:Data modeling languages",
           "link": "https://en.wikipedia.org/wiki/Category:Data modeling languages",
-          "x": 144870,
-          "y": 28645,
+          "x": 139793,
+          "y": 28879,
           "id": "44722c76-bfb5-450f-8c3e-bc00b49d04b7"
         },
         "d98d6d64-cf35-4d15-b2a5-e8f8f6b45ae2": {
           "label": "Category:Data types",
           "link": "https://en.wikipedia.org/wiki/Category:Data types",
-          "x": 144823,
-          "y": 28670,
+          "x": 139746,
+          "y": 28904,
           "id": "d98d6d64-cf35-4d15-b2a5-e8f8f6b45ae2"
         },
         "ebe7a25a-3121-4fe7-9134-3ee79dba1165": {
           "label": "Category:Graph description languages",
           "link": "https://en.wikipedia.org/wiki/Category:Graph description languages",
-          "x": 144881,
-          "y": 28695,
+          "x": 139804,
+          "y": 28929,
           "id": "ebe7a25a-3121-4fe7-9134-3ee79dba1165"
         },
         "978bdc3a-54ce-4c98-87c1-c6aae1c4c486": {
           "label": "Category:Markup languages",
           "link": "https://en.wikipedia.org/wiki/Category:Markup languages",
-          "x": 144848,
-          "y": 28720,
+          "x": 139771,
+          "y": 28954,
           "id": "978bdc3a-54ce-4c98-87c1-c6aae1c4c486"
         },
         "a770e627-27f9-42da-a523-3f310244be3c": {
           "label": "Category:Modeling languages",
           "link": "https://en.wikipedia.org/wiki/Category:Modeling languages",
-          "x": 144853,
-          "y": 28745,
+          "x": 139776,
+          "y": 28979,
           "id": "a770e627-27f9-42da-a523-3f310244be3c"
         },
         "195d02b0-75fd-4d46-88e3-28589927898a": {
           "label": "Category:Programming language topics",
           "link": "https://en.wikipedia.org/wiki/Category:Programming language topics",
-          "x": 144884,
-          "y": 28770,
+          "x": 139807,
+          "y": 29004,
           "id": "195d02b0-75fd-4d46-88e3-28589927898a"
         },
         "7c529091-32f9-4a17-a966-b2c899e8513f": {
           "label": "Category:Programming languages",
           "link": "https://en.wikipedia.org/wiki/Category:Programming languages",
-          "x": 144867,
-          "y": 28795,
+          "x": 139790,
+          "y": 29029,
           "id": "7c529091-32f9-4a17-a966-b2c899e8513f"
         },
         "81bc1225-a6d7-42db-a189-2e4bca3b7d00": {
           "label": "Category:Specification languages",
           "link": "https://en.wikipedia.org/wiki/Category:Specification languages",
-          "x": 144864,
-          "y": 28820,
+          "x": 139787,
+          "y": 29054,
           "id": "81bc1225-a6d7-42db-a189-2e4bca3b7d00"
         },
         "761781f8-4400-4978-a5ca-2889df110285": {
           "label": "Category:Stylesheet languages",
           "link": "https://en.wikipedia.org/wiki/Category:Stylesheet languages",
-          "x": 144857,
-          "y": 28845,
+          "x": 139780,
+          "y": 29079,
           "id": "761781f8-4400-4978-a5ca-2889df110285"
         },
         "715f6a21-87b0-4c66-a1a9-340e7cc13e6b": {
           "label": "Category:Test items in computer languages",
           "link": "https://en.wikipedia.org/wiki/Category:Test items in computer languages",
-          "x": 144896,
-          "y": 28870,
+          "x": 139819,
+          "y": 29104,
           "id": "715f6a21-87b0-4c66-a1a9-340e7cc13e6b"
         },
         "bb6a34c9-e7ce-467a-a773-e48af08b3874": {
           "label": "Category:Transformation languages",
           "link": "https://en.wikipedia.org/wiki/Category:Transformation languages",
-          "x": 144872,
-          "y": 28895,
+          "x": 139795,
+          "y": 29129,
           "id": "bb6a34c9-e7ce-467a-a773-e48af08b3874"
         },
         "bc7c42ab-74c9-4296-ac0f-2388d1987710": {
           "label": "Category:Workflow languages",
           "link": "https://en.wikipedia.org/wiki/Category:Workflow languages",
-          "x": 144853,
-          "y": 28920,
+          "x": 139776,
+          "y": 29154,
           "id": "bc7c42ab-74c9-4296-ac0f-2388d1987710"
         },
         "05b22335-6a80-48af-a33c-6d0471164ec0": {
           "label": "Notation",
           "link": "https://en.wikipedia.org/wiki/Notation",
-          "x": 144788,
-          "y": 29255,
+          "x": 139711,
+          "y": 29489,
           "id": "05b22335-6a80-48af-a33c-6d0471164ec0"
         },
         "f7c7c627-9536-4576-bb41-c26ed7fb0484": {
           "label": "Aresti Catalog",
           "link": "https://en.wikipedia.org/wiki/Aresti Catalog",
-          "x": 144806,
-          "y": 29280,
+          "x": 139729,
+          "y": 29514,
           "id": "f7c7c627-9536-4576-bb41-c26ed7fb0484"
         },
         "e2e8944e-67ab-4c84-982e-a92dd0a30afc": {
           "label": "Business Process Model and Notation",
           "link": "https://en.wikipedia.org/wiki/Business Process Model and Notation",
-          "x": 144882,
-          "y": 29305,
+          "x": 139805,
+          "y": 29539,
           "id": "e2e8944e-67ab-4c84-982e-a92dd0a30afc"
         },
         "54b4c5fd-5974-4d14-a651-e846669a3e60": {
           "label": "Cement chemist notation",
           "link": "https://en.wikipedia.org/wiki/Cement chemist notation",
-          "x": 144841,
-          "y": 29330,
+          "x": 139764,
+          "y": 29564,
           "id": "54b4c5fd-5974-4d14-a651-e846669a3e60"
         },
         "44f4580f-bf1c-479a-b893-1914730e66f1": {
           "label": "Chemical formula",
           "link": "https://en.wikipedia.org/wiki/Chemical formula",
-          "x": 144817,
-          "y": 29355,
+          "x": 139740,
+          "y": 29589,
           "id": "44f4580f-bf1c-479a-b893-1914730e66f1"
         },
         "6cdc65f4-5808-4ee5-aad4-ac798cfbc9c9": {
           "label": "Chess notation",
           "link": "https://en.wikipedia.org/wiki/Chess notation",
-          "x": 144809,
-          "y": 29380,
+          "x": 139732,
+          "y": 29614,
           "id": "6cdc65f4-5808-4ee5-aad4-ac798cfbc9c9"
         },
         "01af011a-6ccd-413b-8f7e-58d6ecf624bb": {
           "label": "Cognitive dimensions of notations",
           "link": "https://en.wikipedia.org/wiki/Cognitive dimensions of notations",
-          "x": 144868,
-          "y": 29405,
+          "x": 139791,
+          "y": 29639,
           "id": "01af011a-6ccd-413b-8f7e-58d6ecf624bb"
         },
         "f96cd895-7575-4ea9-b373-f23b91716306": {
           "label": "Dance notation",
           "link": "https://en.wikipedia.org/wiki/Dance notation",
-          "x": 144810,
-          "y": 29430,
+          "x": 139733,
+          "y": 29664,
           "id": "f96cd895-7575-4ea9-b373-f23b91716306"
         },
         "9f71f60d-76af-4325-9281-3ef25aef2e36": {
           "label": "Dice notation",
           "link": "https://en.wikipedia.org/wiki/Dice notation",
-          "x": 144803,
-          "y": 29455,
+          "x": 139726,
+          "y": 29689,
           "id": "9f71f60d-76af-4325-9281-3ef25aef2e36"
         },
         "045561e2-846a-4998-8bdd-24574c42d820": {
           "label": "Double subscript notation",
           "link": "https://en.wikipedia.org/wiki/Double subscript notation",
-          "x": 144842,
-          "y": 29480,
+          "x": 139765,
+          "y": 29714,
           "id": "045561e2-846a-4998-8bdd-24574c42d820"
         },
         "93ec3131-9520-4e93-a8d7-360d062c2b18": {
           "label": "Engineering notation",
           "link": "https://en.wikipedia.org/wiki/Engineering notation",
-          "x": 144827,
-          "y": 29505,
+          "x": 139750,
+          "y": 29739,
           "id": "93ec3131-9520-4e93-a8d7-360d062c2b18"
         },
         "bacb647c-8335-4a03-b4c0-80b0d47bb274": {
           "label": "Formal notation",
           "link": "https://en.wikipedia.org/wiki/Formal notation",
-          "x": 144812,
-          "y": 29530,
+          "x": 139735,
+          "y": 29764,
           "id": "bacb647c-8335-4a03-b4c0-80b0d47bb274"
         },
         "6cab8afc-4371-43a7-a48c-e2cc567a2903": {
           "label": "Goal Structuring Notation",
           "link": "https://en.wikipedia.org/wiki/Goal Structuring Notation",
-          "x": 144842,
-          "y": 29555,
+          "x": 139765,
+          "y": 29789,
           "id": "6cab8afc-4371-43a7-a48c-e2cc567a2903"
         },
         "e2c8abe2-d4a8-478f-b8fd-6dde3ac56e5f": {
           "label": "International Business Communication Standards",
           "link": "https://en.wikipedia.org/wiki/International Business Communication Standards",
-          "x": 144918,
-          "y": 29580,
+          "x": 139841,
+          "y": 29814,
           "id": "e2c8abe2-d4a8-478f-b8fd-6dde3ac56e5f"
         },
         "c7857697-1ab7-44c9-b260-084b3e1e227e": {
           "label": "Juggling notation",
           "link": "https://en.wikipedia.org/wiki/Juggling notation",
-          "x": 144816,
-          "y": 29605,
+          "x": 139739,
+          "y": 29839,
           "id": "c7857697-1ab7-44c9-b260-084b3e1e227e"
         },
         "35992b7b-dde6-445b-b96b-000c0bf395f6": {
           "label": "Kröger–Vink notation",
           "link": "https://en.wikipedia.org/wiki/Kröger–Vink notation",
-          "x": 144828,
-          "y": 29630,
+          "x": 139751,
+          "y": 29864,
           "id": "35992b7b-dde6-445b-b96b-000c0bf395f6"
         },
         "6bcea10e-4161-439f-93d8-bb50eae2872c": {
           "label": "Kunkunshi",
           "link": "https://en.wikipedia.org/wiki/Kunkunshi",
-          "x": 144795,
-          "y": 29655,
+          "x": 139718,
+          "y": 29889,
           "id": "6bcea10e-4161-439f-93d8-bb50eae2872c"
         },
         "cd82f4f2-40bd-4dd9-9139-47beffc4f4ad": {
           "label": "Line notation",
           "link": "https://en.wikipedia.org/wiki/Line notation",
-          "x": 144803,
-          "y": 29680,
+          "x": 139726,
+          "y": 29914,
           "id": "cd82f4f2-40bd-4dd9-9139-47beffc4f4ad"
         },
         "3719a16d-8c07-488a-b5f2-13ad5f8c4e62": {
           "label": "Modified Stave Notation",
           "link": "https://en.wikipedia.org/wiki/Modified Stave Notation",
-          "x": 144837,
-          "y": 29705,
+          "x": 139760,
+          "y": 29939,
           "id": "3719a16d-8c07-488a-b5f2-13ad5f8c4e62"
         },
         "b1192afc-bf9b-4859-9699-2e75fb13e26d": {
           "label": "Nucleic acid notation",
           "link": "https://en.wikipedia.org/wiki/Nucleic acid notation",
-          "x": 144827,
-          "y": 29730,
+          "x": 139750,
+          "y": 29964,
           "id": "b1192afc-bf9b-4859-9699-2e75fb13e26d"
         },
         "ac26d617-f539-4558-a1a5-5d6460bdb051": {
           "label": "Phase factor",
           "link": "https://en.wikipedia.org/wiki/Phase factor",
-          "x": 144802,
-          "y": 29755,
+          "x": 139725,
+          "y": 29989,
           "id": "ac26d617-f539-4558-a1a5-5d6460bdb051"
         },
         "589df0dc-a86b-4cd6-a0d1-cec405453ab3": {
           "label": "Portable Draughts Notation",
           "link": "https://en.wikipedia.org/wiki/Portable Draughts Notation",
-          "x": 144848,
-          "y": 29780,
+          "x": 139771,
+          "y": 30014,
           "id": "589df0dc-a86b-4cd6-a0d1-cec405453ab3"
         },
         "8f996332-ec96-40a3-8879-7c8b5405d70c": {
           "label": "Programming language",
           "link": "https://en.wikipedia.org/wiki/Programming language",
-          "x": 144836,
-          "y": 29805,
+          "x": 139759,
+          "y": 30039,
           "id": "8f996332-ec96-40a3-8879-7c8b5405d70c"
         },
         "734dae82-d599-426c-b685-da91353d5f38": {
           "label": "Leon Schidlowsky",
           "link": "https://en.wikipedia.org/wiki/Leon Schidlowsky",
-          "x": 144818,
-          "y": 29830,
+          "x": 139741,
+          "y": 30064,
           "id": "734dae82-d599-426c-b685-da91353d5f38"
         },
         "e67d30b9-b061-40ad-8c97-ba95f45fb148": {
           "label": "Secondary notation",
           "link": "https://en.wikipedia.org/wiki/Secondary notation",
-          "x": 144823,
-          "y": 29855,
+          "x": 139746,
+          "y": 30089,
           "id": "e67d30b9-b061-40ad-8c97-ba95f45fb148"
         },
         "f752c858-f850-4514-b46d-e3e50d14268d": {
           "label": "Shogi notation",
           "link": "https://en.wikipedia.org/wiki/Shogi notation",
-          "x": 144807,
-          "y": 29880,
+          "x": 139730,
+          "y": 30114,
           "id": "f752c858-f850-4514-b46d-e3e50d14268d"
         },
         "70ea7374-c516-4ade-ba66-d761503d40db": {
           "label": "Siteswap",
           "link": "https://en.wikipedia.org/wiki/Siteswap",
-          "x": 144790,
-          "y": 29905,
+          "x": 139713,
+          "y": 30139,
           "id": "70ea7374-c516-4ade-ba66-d761503d40db"
         },
         "c3d74321-f4b5-4c2c-bdbd-2bd1fcf6bc6b": {
           "label": "Software language",
           "link": "https://en.wikipedia.org/wiki/Software language",
-          "x": 144821,
-          "y": 29930,
+          "x": 139744,
+          "y": 30164,
           "id": "c3d74321-f4b5-4c2c-bdbd-2bd1fcf6bc6b"
         },
         "d7289cf9-cbce-4002-9410-078ebb9d1af4": {
           "label": "Symbol",
           "link": "https://en.wikipedia.org/wiki/Symbol",
-          "x": 144785,
-          "y": 29955,
+          "x": 139708,
+          "y": 30189,
           "id": "d7289cf9-cbce-4002-9410-078ebb9d1af4"
         },
         "31fa42c1-ca22-40d1-b356-70d9a3e7ae88": {
           "label": "Symbols and conventions used in welding documentation",
           "link": "https://en.wikipedia.org/wiki/Symbols and conventions used in welding documentation",
-          "x": 144943,
-          "y": 29980,
+          "x": 139866,
+          "y": 30214,
           "id": "31fa42c1-ca22-40d1-b356-70d9a3e7ae88"
         },
         "0c94c8b4-297c-49cd-8a81-8626e419a6ec": {
           "label": "Systems Biology Graphical Notation",
           "link": "https://en.wikipedia.org/wiki/Systems Biology Graphical Notation",
-          "x": 144875,
-          "y": 30005,
+          "x": 139798,
+          "y": 30239,
           "id": "0c94c8b4-297c-49cd-8a81-8626e419a6ec"
         },
         "570b8046-3e91-42fc-ad62-60b4ad6ad10f": {
           "label": "Whyte notation",
           "link": "https://en.wikipedia.org/wiki/Whyte notation",
-          "x": 144809,
-          "y": 30030,
+          "x": 139732,
+          "y": 30264,
           "id": "570b8046-3e91-42fc-ad62-60b4ad6ad10f"
         },
         "8f136603-8366-4d32-9b9a-fd1b0ce73902": {
           "label": "Category:Chemical formulas",
           "link": "https://en.wikipedia.org/wiki/Category:Chemical formulas",
-          "x": 144852,
-          "y": 30055,
+          "x": 139775,
+          "y": 30289,
           "id": "8f136603-8366-4d32-9b9a-fd1b0ce73902"
         },
         "02179921-4bda-4de0-b13e-d8182bcef496": {
           "label": "Category:Chess notation",
           "link": "https://en.wikipedia.org/wiki/Category:Chess notation",
-          "x": 144840,
-          "y": 30080,
+          "x": 139763,
+          "y": 30314,
           "id": "02179921-4bda-4de0-b13e-d8182bcef496"
         },
         "4471762f-2c66-446b-820c-10647d57789a": {
           "label": "Category:Computer languages",
           "link": "https://en.wikipedia.org/wiki/Category:Computer languages",
-          "x": 144859,
-          "y": 30105,
+          "x": 139782,
+          "y": 30339,
           "id": "4471762f-2c66-446b-820c-10647d57789a"
         },
         "a0ef6949-260a-4bb9-82b8-2615ccc061be": {
           "label": "Category:Dance notation",
           "link": "https://en.wikipedia.org/wiki/Category:Dance notation",
-          "x": 144841,
-          "y": 30130,
+          "x": 139764,
+          "y": 30364,
           "id": "a0ef6949-260a-4bb9-82b8-2615ccc061be"
         },
         "4fc957ef-461e-4fcd-a38a-bacd2c6b852d": {
           "label": "Category:Encodings",
           "link": "https://en.wikipedia.org/wiki/Category:Encodings",
-          "x": 144826,
-          "y": 30155,
+          "x": 139749,
+          "y": 30389,
           "id": "4fc957ef-461e-4fcd-a38a-bacd2c6b852d"
         },
         "7cc9b554-9877-41ff-86dc-b3443c4e1bc8": {
           "label": "Category:Logic symbols",
           "link": "https://en.wikipedia.org/wiki/Category:Logic symbols",
-          "x": 144838,
-          "y": 30180,
+          "x": 139761,
+          "y": 30414,
           "id": "7cc9b554-9877-41ff-86dc-b3443c4e1bc8"
         },
         "edd6cdcf-7cbf-4a73-88c7-c3f5bd9a5e4d": {
           "label": "Category:Mathematical notation",
           "link": "https://en.wikipedia.org/wiki/Category:Mathematical notation",
-          "x": 144863,
-          "y": 30205,
+          "x": 139786,
+          "y": 30439,
           "id": "edd6cdcf-7cbf-4a73-88c7-c3f5bd9a5e4d"
         },
         "bf5378c3-e6be-47a2-8dd3-204f089d1b2f": {
           "label": "Category:Musical notation",
           "link": "https://en.wikipedia.org/wiki/Category:Musical notation",
-          "x": 144844,
-          "y": 30230,
+          "x": 139767,
+          "y": 30464,
           "id": "bf5378c3-e6be-47a2-8dd3-204f089d1b2f"
         },
         "0650033e-0d4b-47c7-93ee-70669f28705b": {
           "label": "Category:Symbols",
           "link": "https://en.wikipedia.org/wiki/Category:Symbols",
-          "x": 144820,
-          "y": 30255,
+          "x": 139743,
+          "y": 30489,
           "id": "0650033e-0d4b-47c7-93ee-70669f28705b"
         },
         "350334bb-40d7-4b36-a41c-1e31833cf259": {
           "label": "Category:Systems of units",
           "link": "https://en.wikipedia.org/wiki/Category:Systems of units",
-          "x": 144845,
-          "y": 30280,
+          "x": 139768,
+          "y": 30514,
           "id": "350334bb-40d7-4b36-a41c-1e31833cf259"
         },
         "42e5c121-633f-4ffb-840d-9e87d375a6da": {
           "label": "Category:Writing systems",
           "link": "https://en.wikipedia.org/wiki/Category:Writing systems",
-          "x": 144843,
-          "y": 30305,
+          "x": 139766,
+          "y": 30539,
           "id": "42e5c121-633f-4ffb-840d-9e87d375a6da"
         },
         "bd86ba92-9bca-4e71-9049-1151461a5d14": {
           "label": "Conceptual system",
           "link": "https://en.wikipedia.org/wiki/Conceptual system",
-          "x": 144834,
-          "y": 30965,
+          "x": 139757,
+          "y": 31199,
           "id": "bd86ba92-9bca-4e71-9049-1151461a5d14"
         },
         "bd09785c-9de8-4384-82a8-ff6c7483c479": {
           "label": "AeroVironment Global Observer",
           "link": "https://en.wikipedia.org/wiki/AeroVironment Global Observer",
-          "x": 144875,
-          "y": 30990,
+          "x": 139798,
+          "y": 31224,
           "id": "bd09785c-9de8-4384-82a8-ff6c7483c479"
         },
         "602808fb-f996-463b-8400-b7beae8f8639": {
           "label": "Systems art",
           "link": "https://en.wikipedia.org/wiki/Systems art",
-          "x": 144811,
-          "y": 31015,
+          "x": 139734,
+          "y": 31249,
           "id": "602808fb-f996-463b-8400-b7beae8f8639"
         },
         "bb5aef91-7da9-4ac5-a993-ffe4981e10e4": {
           "label": "Axiomatic system",
           "link": "https://en.wikipedia.org/wiki/Axiomatic system",
-          "x": 144828,
-          "y": 31040,
+          "x": 139751,
+          "y": 31274,
           "id": "bb5aef91-7da9-4ac5-a993-ffe4981e10e4"
         },
         "7ad77adf-ca6f-4009-93a5-471ce302eef3": {
           "label": "Boehm system",
           "link": "https://en.wikipedia.org/wiki/Boehm system",
-          "x": 144820,
-          "y": 31065,
+          "x": 139743,
+          "y": 31299,
           "id": "7ad77adf-ca6f-4009-93a5-471ce302eef3"
         },
         "0418fc91-872d-483c-b575-6c8aecc0cef4": {
           "label": "Comstock–Needham system",
           "link": "https://en.wikipedia.org/wiki/Comstock–Needham system",
-          "x": 144864,
-          "y": 31090,
+          "x": 139787,
+          "y": 31324,
           "id": "0418fc91-872d-483c-b575-6c8aecc0cef4"
         },
         "351a1eba-d291-4ef0-89b1-6500c583bb48": {
           "label": "Crystal structure",
           "link": "https://en.wikipedia.org/wiki/Crystal structure",
-          "x": 144825,
-          "y": 31115,
+          "x": 139748,
+          "y": 31349,
           "id": "351a1eba-d291-4ef0-89b1-6500c583bb48"
         },
         "a5313760-a621-413c-89bb-b4537061bba5": {
           "label": "Digital ecosystem",
           "link": "https://en.wikipedia.org/wiki/Digital ecosystem",
-          "x": 144829,
-          "y": 31140,
+          "x": 139752,
+          "y": 31374,
           "id": "a5313760-a621-413c-89bb-b4537061bba5"
         },
         "4d225a02-14fb-481f-8a36-acce5e48a0ae": {
           "label": "Experimental system",
           "link": "https://en.wikipedia.org/wiki/Experimental system",
-          "x": 144839,
-          "y": 31165,
+          "x": 139762,
+          "y": 31399,
           "id": "4d225a02-14fb-481f-8a36-acce5e48a0ae"
         },
         "c11d5568-20bd-4ed3-93d4-eb682b9631c3": {
           "label": "Health management system",
           "link": "https://en.wikipedia.org/wiki/Health management system",
-          "x": 144862,
-          "y": 31190,
+          "x": 139785,
+          "y": 31424,
           "id": "c11d5568-20bd-4ed3-93d4-eb682b9631c3"
         },
         "a22aa366-26e2-4839-aa5b-b151ad6637cf": {
           "label": "League system",
           "link": "https://en.wikipedia.org/wiki/League system",
-          "x": 144822,
-          "y": 31215,
+          "x": 139745,
+          "y": 31449,
           "id": "a22aa366-26e2-4839-aa5b-b151ad6637cf"
         },
         "58a7eb1c-fa52-4ce5-ab66-cde1f8904241": {
           "label": "Meta-system",
           "link": "https://en.wikipedia.org/wiki/Meta-system",
-          "x": 144814,
-          "y": 31240,
+          "x": 139737,
+          "y": 31474,
           "id": "58a7eb1c-fa52-4ce5-ab66-cde1f8904241"
         },
         "f6fe778d-3bb1-4576-ba77-1cc876e1208a": {
           "label": "System of measurement",
           "link": "https://en.wikipedia.org/wiki/System of measurement",
-          "x": 144851,
-          "y": 31265,
+          "x": 139774,
+          "y": 31499,
           "id": "f6fe778d-3bb1-4576-ba77-1cc876e1208a"
         },
         "21684d47-c663-4229-8d88-61bb5f113655": {
           "label": "Theory",
           "link": "https://en.wikipedia.org/wiki/Theory",
-          "x": 144796,
-          "y": 31290,
+          "x": 139719,
+          "y": 31524,
           "id": "21684d47-c663-4229-8d88-61bb5f113655"
         },
         "33ca83d0-860f-4aaf-a93e-69c1f2ff804d": {
           "label": "Tree of knowledge system",
           "link": "https://en.wikipedia.org/wiki/Tree of knowledge system",
-          "x": 144857,
-          "y": 31315,
+          "x": 139780,
+          "y": 31549,
           "id": "33ca83d0-860f-4aaf-a93e-69c1f2ff804d"
         },
         "673f5753-3ce1-4883-8466-b8b1491d198a": {
           "label": "Trusted system",
           "link": "https://en.wikipedia.org/wiki/Trusted system",
-          "x": 144822,
-          "y": 31340,
+          "x": 139745,
+          "y": 31574,
           "id": "673f5753-3ce1-4883-8466-b8b1491d198a"
         },
         "374f6f52-da30-49f0-afd6-4b893da87ba4": {
           "label": "Category:Classification systems",
           "link": "https://en.wikipedia.org/wiki/Category:Classification systems",
-          "x": 144874,
-          "y": 31365,
+          "x": 139797,
+          "y": 31599,
           "id": "374f6f52-da30-49f0-afd6-4b893da87ba4"
         },
         "8408c929-6d25-4f2e-9deb-1c1898e5baa2": {
           "label": "Category:Complex systems theory",
           "link": "https://en.wikipedia.org/wiki/Category:Complex systems theory",
-          "x": 144882,
-          "y": 31390,
+          "x": 139805,
+          "y": 31624,
           "id": "8408c929-6d25-4f2e-9deb-1c1898e5baa2"
         },
         "6a1acd41-5f00-4674-b3c8-240439357ea0": {
           "label": "Category:Coordinate systems",
           "link": "https://en.wikipedia.org/wiki/Category:Coordinate systems",
-          "x": 144867,
-          "y": 31415,
+          "x": 139790,
+          "y": 31649,
           "id": "6a1acd41-5f00-4674-b3c8-240439357ea0"
         },
         "330a4ac1-0fff-4f4b-9e69-a29e4ba2f4bc": {
           "label": "Category:Language",
           "link": "https://en.wikipedia.org/wiki/Category:Language",
-          "x": 144836,
-          "y": 31440,
+          "x": 139759,
+          "y": 31674,
           "id": "330a4ac1-0fff-4f4b-9e69-a29e4ba2f4bc"
         },
         "2cdb4105-4433-4466-84e9-718ceda4877c": {
           "label": "Category:Legal systems",
           "link": "https://en.wikipedia.org/wiki/Category:Legal systems",
-          "x": 144850,
-          "y": 31465,
+          "x": 139773,
+          "y": 31699,
           "id": "2cdb4105-4433-4466-84e9-718ceda4877c"
         },
         "acfbb8db-28db-4a83-a49f-2866ba134869": {
           "label": "Category:Mathematical modeling",
           "link": "https://en.wikipedia.org/wiki/Category:Mathematical modeling",
-          "x": 144878,
-          "y": 31490,
+          "x": 139801,
+          "y": 31724,
           "id": "acfbb8db-28db-4a83-a49f-2866ba134869"
         },
         "b6011771-ea03-41ec-acdc-4560bed8ad2d": {
           "label": "Category:Scientific modeling",
           "link": "https://en.wikipedia.org/wiki/Category:Scientific modeling",
-          "x": 144863,
-          "y": 31515,
+          "x": 139786,
+          "y": 31749,
           "id": "b6011771-ea03-41ec-acdc-4560bed8ad2d"
         },
         "66e31a73-9ac6-4580-9eef-58aeaa2d187e": {
           "label": "Category:Notation",
           "link": "https://en.wikipedia.org/wiki/Category:Notation",
-          "x": 144831,
-          "y": 31540,
+          "x": 139754,
+          "y": 31774,
           "id": "66e31a73-9ac6-4580-9eef-58aeaa2d187e"
         },
         "6af79687-34da-4b1c-9fde-88b3d087e1dc": {
           "label": "Category:Systems of probability distributions",
           "link": "https://en.wikipedia.org/wiki/Category:Systems of probability distributions",
-          "x": 144914,
-          "y": 31565,
+          "x": 139837,
+          "y": 31799,
           "id": "6af79687-34da-4b1c-9fde-88b3d087e1dc"
         },
         "7ac29a83-afb6-46d8-a6c0-24e84a5e142e": {
           "label": "Category:Role-playing game systems",
           "link": "https://en.wikipedia.org/wiki/Category:Role-playing game systems",
-          "x": 144892,
-          "y": 31590,
+          "x": 139815,
+          "y": 31824,
           "id": "7ac29a83-afb6-46d8-a6c0-24e84a5e142e"
         },
         "7b7938ab-e339-4124-bed9-30856e05034a": {
           "label": "Category:Systems of set theory",
           "link": "https://en.wikipedia.org/wiki/Category:Systems of set theory",
-          "x": 144873,
-          "y": 31615,
+          "x": 139796,
+          "y": 31849,
           "id": "7b7938ab-e339-4124-bed9-30856e05034a"
         },
         "db43af02-6031-41f7-95f8-b07f42676e66": {
           "label": "Category:Systems of units",
           "link": "https://en.wikipedia.org/wiki/Category:Systems of units",
-          "x": 144856,
-          "y": 31640,
+          "x": 139779,
+          "y": 31874,
           "id": "db43af02-6031-41f7-95f8-b07f42676e66"
         },
         "d838a97c-aa85-48d2-8333-d317e6919bbf": {
           "label": "Category:Theories",
           "link": "https://en.wikipedia.org/wiki/Category:Theories",
-          "x": 144832,
-          "y": 31665,
+          "x": 139755,
+          "y": 31899,
           "id": "d838a97c-aa85-48d2-8333-d317e6919bbf"
         },
         "d7c3242a-4400-483c-b264-0c2406d8333f": {
           "label": "Category:Time measurement systems",
           "link": "https://en.wikipedia.org/wiki/Category:Time measurement systems",
-          "x": 144894,
-          "y": 31690,
+          "x": 139817,
+          "y": 31924,
           "id": "d7c3242a-4400-483c-b264-0c2406d8333f"
         },
         "b3da98f1-ccee-449c-a52b-d444dbb97476": {
           "label": "Category:Tournament systems",
           "link": "https://en.wikipedia.org/wiki/Category:Tournament systems",
-          "x": 144871,
-          "y": 31715,
+          "x": 139794,
+          "y": 31949,
           "id": "b3da98f1-ccee-449c-a52b-d444dbb97476"
         },
         "7327cad7-52d7-49fb-8cdd-c2582bbec54e": {
           "label": "Category:Writing systems",
           "link": "https://en.wikipedia.org/wiki/Category:Writing systems",
-          "x": 144854,
-          "y": 31740,
+          "x": 139777,
+          "y": 31974,
           "id": "7327cad7-52d7-49fb-8cdd-c2582bbec54e"
         },
         "17dbab9a-8e14-408b-b7ed-a47e1cd1cb45": {
           "label": "Banknote",
           "link": "https://en.wikipedia.org/wiki/Banknote",
-          "x": 144826,
-          "y": 32353,
+          "x": 139749,
+          "y": 32587,
           "id": "17dbab9a-8e14-408b-b7ed-a47e1cd1cb45"
         },
         "d130e162-4894-47bd-8eba-3e8349c82598": {
           "label": "List of National Treasures of Japan (writings: others)",
           "link": "https://en.wikipedia.org/wiki/List of National Treasures of Japan (writings: others)",
-          "x": 144961,
-          "y": 32378,
+          "x": 139884,
+          "y": 32612,
           "id": "d130e162-4894-47bd-8eba-3e8349c82598"
         },
         "b48bb39f-cd3f-4e38-b6f2-e166a25c2d38": {
           "label": "Multigenre research paper",
           "link": "https://en.wikipedia.org/wiki/Multigenre research paper",
-          "x": 144880,
-          "y": 32403,
+          "x": 139803,
+          "y": 32637,
           "id": "b48bb39f-cd3f-4e38-b6f2-e166a25c2d38"
         },
         "1a17237e-d0dd-4273-9d2b-0b7c1e1ecc79": {
           "label": "Personal organizer",
           "link": "https://en.wikipedia.org/wiki/Personal organizer",
-          "x": 144856,
-          "y": 32428,
+          "x": 139779,
+          "y": 32662,
           "id": "1a17237e-d0dd-4273-9d2b-0b7c1e1ecc79"
         },
         "1c760300-b186-4155-b126-d713bf9b4620": {
           "label": "Category:Blogging",
           "link": "https://en.wikipedia.org/wiki/Category:Blogging",
-          "x": 144854,
-          "y": 32453,
+          "x": 139777,
+          "y": 32687,
           "id": "1c760300-b186-4155-b126-d713bf9b4620"
         },
         "79d27fe5-d61d-4fa2-9cad-dcc40f1d3fed": {
           "label": "Category:Books",
           "link": "https://en.wikipedia.org/wiki/Category:Books",
-          "x": 144846,
-          "y": 32478,
+          "x": 139769,
+          "y": 32712,
           "id": "79d27fe5-d61d-4fa2-9cad-dcc40f1d3fed"
         },
         "19247e88-d714-4e7f-9e40-fb69386f57be": {
           "label": "Category:Documents",
           "link": "https://en.wikipedia.org/wiki/Category:Documents",
-          "x": 144863,
-          "y": 32503,
+          "x": 139786,
+          "y": 32737,
           "id": "19247e88-d714-4e7f-9e40-fb69386f57be"
         },
         "c654c38f-e9bf-47c9-bc86-39beb36cdc15": {
           "label": "Category:Dyslexia",
           "link": "https://en.wikipedia.org/wiki/Category:Dyslexia",
-          "x": 144853,
-          "y": 32528,
+          "x": 139776,
+          "y": 32762,
           "id": "c654c38f-e9bf-47c9-bc86-39beb36cdc15"
         },
         "a4d98ae3-16fe-41cb-b79e-8d0e707491fd": {
           "label": "Category:Ephemera",
           "link": "https://en.wikipedia.org/wiki/Category:Ephemera",
-          "x": 144860,
-          "y": 32553,
+          "x": 139783,
+          "y": 32787,
           "id": "a4d98ae3-16fe-41cb-b79e-8d0e707491fd"
         },
         "f4dcb2ec-aa98-417b-8b67-60370bba88cd": {
           "label": "Category:Graffiti and unauthorised signage",
           "link": "https://en.wikipedia.org/wiki/Category:Graffiti and unauthorised signage",
-          "x": 144932,
-          "y": 32578,
+          "x": 139855,
+          "y": 32812,
           "id": "f4dcb2ec-aa98-417b-8b67-60370bba88cd"
         },
         "3a32ca18-9b9f-48d5-9140-b6c3819669c2": {
           "label": "Category:Identifiers",
           "link": "https://en.wikipedia.org/wiki/Category:Identifiers",
-          "x": 144858,
-          "y": 32603,
+          "x": 139781,
+          "y": 32837,
           "id": "3a32ca18-9b9f-48d5-9140-b6c3819669c2"
         },
         "9bd505f1-2626-41bb-8382-78559dab09f8": {
           "label": "Category:Letters (message)",
           "link": "https://en.wikipedia.org/wiki/Category:Letters (message)",
-          "x": 144885,
-          "y": 32628,
+          "x": 139808,
+          "y": 32862,
           "id": "9bd505f1-2626-41bb-8382-78559dab09f8"
         },
         "f95ed525-b690-4a4d-9b12-e625bf76cda5": {
           "label": "Category:Literature",
           "link": "https://en.wikipedia.org/wiki/Category:Literature",
-          "x": 144857,
-          "y": 32653,
+          "x": 139780,
+          "y": 32887,
           "id": "f95ed525-b690-4a4d-9b12-e625bf76cda5"
         },
         "e437c4b3-5fba-43ad-9f35-5ab2ad28786c": {
           "label": "Category:Notation",
           "link": "https://en.wikipedia.org/wiki/Category:Notation",
-          "x": 144853,
-          "y": 32678,
+          "x": 139776,
+          "y": 32912,
           "id": "e437c4b3-5fba-43ad-9f35-5ab2ad28786c"
         },
         "5ccde31f-6b2b-4c93-8fbd-4e44d98fe438": {
           "label": "Category:Postal system",
           "link": "https://en.wikipedia.org/wiki/Category:Postal system",
-          "x": 144871,
-          "y": 32703,
+          "x": 139794,
+          "y": 32937,
           "id": "5ccde31f-6b2b-4c93-8fbd-4e44d98fe438"
         },
         "56f05106-ea08-41e6-bded-a1104bd51ee5": {
           "label": "Category:Publications",
           "link": "https://en.wikipedia.org/wiki/Category:Publications",
-          "x": 144865,
-          "y": 32728,
+          "x": 139788,
+          "y": 32962,
           "id": "56f05106-ea08-41e6-bded-a1104bd51ee5"
         },
         "c53063ab-e8ac-4727-b9bc-ef3e92705c19": {
           "label": "Category:Publishing",
           "link": "https://en.wikipedia.org/wiki/Category:Publishing",
-          "x": 144859,
-          "y": 32753,
+          "x": 139782,
+          "y": 32987,
           "id": "c53063ab-e8ac-4727-b9bc-ef3e92705c19"
         },
         "94f0e2cc-5ec1-49b7-ba69-a1bc60a908c4": {
           "label": "Category:Restaurant menus",
           "link": "https://en.wikipedia.org/wiki/Category:Restaurant menus",
-          "x": 144885,
-          "y": 32778,
+          "x": 139808,
+          "y": 33012,
           "id": "94f0e2cc-5ec1-49b7-ba69-a1bc60a908c4"
         },
         "699e7960-bf69-4c97-96f6-64d7a8f5c7bc": {
           "label": "Category:Technical communication",
           "link": "https://en.wikipedia.org/wiki/Category:Technical communication",
-          "x": 144906,
-          "y": 32803,
+          "x": 139829,
+          "y": 33037,
           "id": "699e7960-bf69-4c97-96f6-64d7a8f5c7bc"
         },
         "9fcbce60-e298-425a-880f-bc8b8487140d": {
@@ -17932,8 +17932,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Text rendering libraries",
           "id": "fd7230dd-6e6b-401a-b3cd-d6e33cadd84b108953",
-          "x": 135839,
-          "y": 25489
+          "x": 130762,
+          "y": 25723
         },
         "a2aa1801-c513-4897-9ae5-24bdeb1c4d18108953": {
           "color": {
@@ -17962,8 +17962,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Typewriters",
           "id": "a2aa1801-c513-4897-9ae5-24bdeb1c4d18108953",
-          "x": 136027,
-          "y": 26569
+          "x": 130950,
+          "y": 26803
         },
         "904dbb5e-01ee-4454-b9b5-7881c42e0fd6108953": {
           "color": {
@@ -17992,8 +17992,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Writing implements",
           "id": "904dbb5e-01ee-4454-b9b5-7881c42e0fd6108953",
-          "x": 135911,
-          "y": 28747
+          "x": 130834,
+          "y": 28981
         },
         "1c977a85-d98b-4b6f-826a-aaa7132ba0ea108953": {
           "color": {
@@ -18142,8 +18142,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Writing systems",
           "id": "26f3f6cf-97cc-40c2-8920-db7bb6d63420108953",
-          "x": 139636,
-          "y": 25590
+          "x": 134559,
+          "y": 25824
         },
         "496e555f-06c1-4be9-b784-89ca8d0e8145108953": {
           "color": {
@@ -18832,8 +18832,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Encyclopedism",
           "id": "bd3bf804-f882-4d39-8c2e-6af378f949ae108953",
-          "x": 139746,
-          "y": 29417
+          "x": 134669,
+          "y": 29651
         },
         "f4bbf0fb-e3b8-42cf-a35d-1469704d6c4b108953": {
           "color": {
@@ -18862,8 +18862,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Educational materials",
           "id": "f4bbf0fb-e3b8-42cf-a35d-1469704d6c4b108953",
-          "x": 139439,
-          "y": 32794
+          "x": 134362,
+          "y": 33028
         },
         "c4990402-c9d6-4026-9cb7-1f036ead1983108953": {
           "color": {
@@ -18892,8 +18892,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Reference works",
           "id": "c4990402-c9d6-4026-9cb7-1f036ead1983108953",
-          "x": 139772,
-          "y": 30655
+          "x": 134695,
+          "y": 30889
         },
         "3c67e9b6-27f5-42a1-8ef8-78b9250ecac4108953": {
           "color": {
@@ -18922,8 +18922,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Bodies of knowledge",
           "id": "3c67e9b6-27f5-42a1-8ef8-78b9250ecac4108953",
-          "x": 132275,
-          "y": 24085
+          "x": 127198,
+          "y": 24319
         },
         "356f3c9d-82f0-41c8-9195-3fbe07e871c8108392": {
           "color": {
@@ -19104,8 +19104,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Reference management software",
           "link": "https://en.wikipedia.org/wiki/Category:Reference management software",
-          "x": 139200,
-          "y": 28209,
+          "x": 134123,
+          "y": 28443,
           "id": "5d7e88aa-6943-40a1-bbf2-c1a32f1ddaf9584392"
         },
         "d8f1645d-246b-4db7-8971-c64250f5f71e584392": {
@@ -21427,274 +21427,274 @@ var schemeData =
         "4fefc38b-cea0-4340-8cc5-6282113055e3": {
           "label": "Reference management software",
           "link": "https://en.wikipedia.org/wiki/Reference management software",
-          "x": 140532,
-          "y": 27733,
+          "x": 135455,
+          "y": 27967,
           "id": "4fefc38b-cea0-4340-8cc5-6282113055e3"
         },
         "686541df-c3b3-43fb-a66d-5db923c25de2": {
           "label": "Comparison of reference management software",
           "link": "https://en.wikipedia.org/wiki/Comparison of reference management software",
-          "x": 140578,
-          "y": 27758,
+          "x": 135501,
+          "y": 27992,
           "id": "686541df-c3b3-43fb-a66d-5db923c25de2"
         },
         "472025ce-633e-4d77-8d28-53a7511be226": {
           "label": "2collab",
           "link": "https://en.wikipedia.org/wiki/2collab",
-          "x": 140448,
-          "y": 27783,
+          "x": 135371,
+          "y": 28017,
           "id": "472025ce-633e-4d77-8d28-53a7511be226"
         },
         "86d87406-b2ab-4196-b058-aad031dea325": {
           "label": "BibBase",
           "link": "https://en.wikipedia.org/wiki/BibBase",
-          "x": 140452,
-          "y": 27808,
+          "x": 135375,
+          "y": 28042,
           "id": "86d87406-b2ab-4196-b058-aad031dea325"
         },
         "85483742-b6ee-47da-aac9-2a51a01257c8": {
           "label": "BibDesk",
           "link": "https://en.wikipedia.org/wiki/BibDesk",
-          "x": 140452,
-          "y": 27833,
+          "x": 135375,
+          "y": 28067,
           "id": "85483742-b6ee-47da-aac9-2a51a01257c8"
         },
         "45c81ea2-9874-4a38-83e3-303570bf6e27": {
           "label": "Biblioscape",
           "link": "https://en.wikipedia.org/wiki/Biblioscape",
-          "x": 140462,
-          "y": 27858,
+          "x": 135385,
+          "y": 28092,
           "id": "45c81ea2-9874-4a38-83e3-303570bf6e27"
         },
         "8334267a-4d68-4c75-9d59-4ad47c82be36": {
           "label": "BibSonomy",
           "link": "https://en.wikipedia.org/wiki/BibSonomy",
-          "x": 140462,
-          "y": 27883,
+          "x": 135385,
+          "y": 28117,
           "id": "8334267a-4d68-4c75-9d59-4ad47c82be36"
         },
         "0d265b46-0f97-412b-9f3f-b80f4fd42b77": {
           "label": "Bookends (software)",
           "link": "https://en.wikipedia.org/wiki/Bookends (software)",
-          "x": 140491,
-          "y": 27908,
+          "x": 135414,
+          "y": 28142,
           "id": "0d265b46-0f97-412b-9f3f-b80f4fd42b77"
         },
         "6f03ca3e-c8d6-4dc0-b673-fe89a23a194e": {
           "label": "CD-ROM encyclopedia",
           "link": "https://en.wikipedia.org/wiki/CD-ROM encyclopedia",
-          "x": 140498,
-          "y": 27933,
+          "x": 135421,
+          "y": 28167,
           "id": "6f03ca3e-c8d6-4dc0-b673-fe89a23a194e"
         },
         "165301c3-0292-4c2a-b8f0-eab27a6a5a6e": {
           "label": "Citavi",
           "link": "https://en.wikipedia.org/wiki/Citavi",
-          "x": 140443,
-          "y": 27958,
+          "x": 135366,
+          "y": 28192,
           "id": "165301c3-0292-4c2a-b8f0-eab27a6a5a6e"
         },
         "e114a0c3-3423-4e99-9d0a-3097294f6f55": {
           "label": "CiteProc",
           "link": "https://en.wikipedia.org/wiki/CiteProc",
-          "x": 140453,
-          "y": 27983,
+          "x": 135376,
+          "y": 28217,
           "id": "e114a0c3-3423-4e99-9d0a-3097294f6f55"
         },
         "8f69fdac-73a1-43dd-918c-10f774cb2a20": {
           "label": "CiteULike",
           "link": "https://en.wikipedia.org/wiki/CiteULike",
-          "x": 140456,
-          "y": 28008,
+          "x": 135379,
+          "y": 28242,
           "id": "8f69fdac-73a1-43dd-918c-10f774cb2a20"
         },
         "10617583-bad3-440a-831f-ca0659869bd2": {
           "label": "Colwiz",
           "link": "https://en.wikipedia.org/wiki/Colwiz",
-          "x": 140446,
-          "y": 28033,
+          "x": 135369,
+          "y": 28267,
           "id": "10617583-bad3-440a-831f-ca0659869bd2"
         },
         "3937db3f-dc16-4e51-8569-af02647bcb31": {
           "label": "EndNote",
           "link": "https://en.wikipedia.org/wiki/EndNote",
-          "x": 140453,
-          "y": 28058,
+          "x": 135376,
+          "y": 28292,
           "id": "3937db3f-dc16-4e51-8569-af02647bcb31"
         },
         "0357e5b8-7d0e-4bd6-9f24-075d53291118": {
           "label": "JabRef",
           "link": "https://en.wikipedia.org/wiki/JabRef",
-          "x": 140448,
-          "y": 28083,
+          "x": 135371,
+          "y": 28317,
           "id": "0357e5b8-7d0e-4bd6-9f24-075d53291118"
         },
         "56d138e1-5704-4292-8335-d091361ccb14": {
           "label": "KnightCite",
           "link": "https://en.wikipedia.org/wiki/KnightCite",
-          "x": 140458,
-          "y": 28108,
+          "x": 135381,
+          "y": 28342,
           "id": "56d138e1-5704-4292-8335-d091361ccb14"
         },
         "de6451c4-8777-430a-87ba-6a48b9384f18": {
           "label": "Mendeley",
           "link": "https://en.wikipedia.org/wiki/Mendeley",
-          "x": 140457,
-          "y": 28133,
+          "x": 135380,
+          "y": 28367,
           "id": "de6451c4-8777-430a-87ba-6a48b9384f18"
         },
         "8eed2a90-40e2-42c2-9a51-9623d33c03eb": {
           "label": "Open Rev.",
           "link": "https://en.wikipedia.org/wiki/Open Rev.",
-          "x": 140459,
-          "y": 28158,
+          "x": 135382,
+          "y": 28392,
           "id": "8eed2a90-40e2-42c2-9a51-9623d33c03eb"
         },
         "d7970997-95fc-4d63-b3e4-ca87f2d5a58c": {
           "label": "OttoBib",
           "link": "https://en.wikipedia.org/wiki/OttoBib",
-          "x": 140449,
-          "y": 28183,
+          "x": 135372,
+          "y": 28417,
           "id": "d7970997-95fc-4d63-b3e4-ca87f2d5a58c"
         },
         "07c8b2f4-2919-4262-9ee9-df2426432282": {
           "label": "Paperpile",
           "link": "https://en.wikipedia.org/wiki/Paperpile",
-          "x": 140456,
-          "y": 28208,
+          "x": 135379,
+          "y": 28442,
           "id": "07c8b2f4-2919-4262-9ee9-df2426432282"
         },
         "056594af-c74f-4a83-a2f2-61f0e94998b3": {
           "label": "Papers (software)",
           "link": "https://en.wikipedia.org/wiki/Papers (software)",
-          "x": 140482,
-          "y": 28233,
+          "x": 135405,
+          "y": 28467,
           "id": "056594af-c74f-4a83-a2f2-61f0e94998b3"
         },
         "d4d3d18e-bc78-48cf-82bb-4018a14a9e4d": {
           "label": "ProCite",
           "link": "https://en.wikipedia.org/wiki/ProCite",
-          "x": 140449,
-          "y": 28258,
+          "x": 135372,
+          "y": 28492,
           "id": "d4d3d18e-bc78-48cf-82bb-4018a14a9e4d"
         },
         "75e6b337-0f4c-4dc1-a676-acc851d65e08": {
           "label": "Pybliographer",
           "link": "https://en.wikipedia.org/wiki/Pybliographer",
-          "x": 140470,
-          "y": 28283,
+          "x": 135393,
+          "y": 28517,
           "id": "75e6b337-0f4c-4dc1-a676-acc851d65e08"
         },
         "dd187fbf-7bf0-4b07-8c57-989520fd05de": {
           "label": "Qiqqa",
           "link": "https://en.wikipedia.org/wiki/Qiqqa",
-          "x": 140445,
-          "y": 28308,
+          "x": 135368,
+          "y": 28542,
           "id": "dd187fbf-7bf0-4b07-8c57-989520fd05de"
         },
         "bfc0f5f3-60eb-49f1-b7ed-1fc96c4d2913": {
           "label": "ReadCube",
           "link": "https://en.wikipedia.org/wiki/ReadCube",
-          "x": 140460,
-          "y": 28333,
+          "x": 135383,
+          "y": 28567,
           "id": "bfc0f5f3-60eb-49f1-b7ed-1fc96c4d2913"
         },
         "bd0d5b8e-8f87-4694-b914-ed20da767188": {
           "label": "Refer (software)",
           "link": "https://en.wikipedia.org/wiki/Refer (software)",
-          "x": 140477,
-          "y": 28358,
+          "x": 135400,
+          "y": 28592,
           "id": "bd0d5b8e-8f87-4694-b914-ed20da767188"
         },
         "4cde9399-8e9a-413f-83eb-bad024bf205d": {
           "label": "Reference Manager",
           "link": "https://en.wikipedia.org/wiki/Reference Manager",
-          "x": 140489,
-          "y": 28383,
+          "x": 135412,
+          "y": 28617,
           "id": "4cde9399-8e9a-413f-83eb-bad024bf205d"
         },
         "9743f0d4-87b3-45d1-85db-432c3a66c29c": {
           "label": "RefME",
           "link": "https://en.wikipedia.org/wiki/RefME",
-          "x": 140447,
-          "y": 28408,
+          "x": 135370,
+          "y": 28642,
           "id": "9743f0d4-87b3-45d1-85db-432c3a66c29c"
         },
         "56acf277-dcca-4826-b817-dafdfa64cdb4": {
           "label": "RefWorks",
           "link": "https://en.wikipedia.org/wiki/RefWorks",
-          "x": 140457,
-          "y": 28433,
+          "x": 135380,
+          "y": 28667,
           "id": "56acf277-dcca-4826-b817-dafdfa64cdb4"
         },
         "aaa7ac62-77a2-4a8f-9a3d-18fe528eea30": {
           "label": "RIS (file format)",
           "link": "https://en.wikipedia.org/wiki/RIS (file format)",
-          "x": 140476,
-          "y": 28458,
+          "x": 135399,
+          "y": 28692,
           "id": "aaa7ac62-77a2-4a8f-9a3d-18fe528eea30"
         },
         "73c2c94b-29eb-4714-8b81-f115cc8b1884": {
           "label": "Scholar's Aid",
           "link": "https://en.wikipedia.org/wiki/Scholar's Aid",
-          "x": 140467,
-          "y": 28483,
+          "x": 135390,
+          "y": 28717,
           "id": "73c2c94b-29eb-4714-8b81-f115cc8b1884"
         },
         "24fdff27-3699-40c1-85d3-65c7e7c47467": {
           "label": "SciRef",
           "link": "https://en.wikipedia.org/wiki/SciRef",
-          "x": 140446,
-          "y": 28508,
+          "x": 135369,
+          "y": 28742,
           "id": "24fdff27-3699-40c1-85d3-65c7e7c47467"
         },
         "225fcc48-d94b-4b22-9c27-3bdb45491ec8": {
           "label": "Sente (software)",
           "link": "https://en.wikipedia.org/wiki/Sente (software)",
-          "x": 140478,
-          "y": 28533,
+          "x": 135401,
+          "y": 28767,
           "id": "225fcc48-d94b-4b22-9c27-3bdb45491ec8"
         },
         "cb1d47bd-7b05-46eb-b170-750f97397d2d": {
           "label": "Tropy",
           "link": "https://en.wikipedia.org/wiki/Tropy",
-          "x": 140444,
-          "y": 28558,
+          "x": 135367,
+          "y": 28792,
           "id": "cb1d47bd-7b05-46eb-b170-750f97397d2d"
         },
         "c823c0be-ff2b-44ec-89e0-84a28159858f": {
           "label": "Wikindx",
           "link": "https://en.wikipedia.org/wiki/Wikindx",
-          "x": 140450,
-          "y": 28583,
+          "x": 135373,
+          "y": 28817,
           "id": "c823c0be-ff2b-44ec-89e0-84a28159858f"
         },
         "b0516fe1-1a2c-47c7-a0d2-fa102d16c55e": {
           "label": "WizFolio",
           "link": "https://en.wikipedia.org/wiki/WizFolio",
-          "x": 140453,
-          "y": 28608,
+          "x": 135376,
+          "y": 28842,
           "id": "b0516fe1-1a2c-47c7-a0d2-fa102d16c55e"
         },
         "e3be6d38-28b4-497f-b144-adc33c8f20a8": {
           "label": "Zotero",
           "link": "https://en.wikipedia.org/wiki/Zotero",
-          "x": 140447,
-          "y": 28633,
+          "x": 135370,
+          "y": 28867,
           "id": "e3be6d38-28b4-497f-b144-adc33c8f20a8"
         },
         "2677bbcf-ad4b-4238-b7a9-cce755862401": {
           "label": "Category:BibTeX",
           "link": "https://en.wikipedia.org/wiki/Category:BibTeX",
-          "x": 140479,
-          "y": 28658,
+          "x": 135402,
+          "y": 28892,
           "id": "2677bbcf-ad4b-4238-b7a9-cce755862401"
         },
         "8e0e53a3-0b7a-4728-82cb-6f3677302315": {
           "label": "Category:Free reference management software",
           "link": "https://en.wikipedia.org/wiki/Category:Free reference management software",
-          "x": 140577,
-          "y": 28683,
+          "x": 135500,
+          "y": 28917,
           "id": "8e0e53a3-0b7a-4728-82cb-6f3677302315"
         },
         "4f3c8c25-53aa-44a7-84a2-cb42f671001e": {
@@ -25876,8 +25876,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Catalogues",
           "link": "https://en.wikipedia.org/wiki/Category:Catalogues",
-          "x": 135974,
-          "y": 24215,
+          "x": 130897,
+          "y": 24449,
           "id": "c80bd334-b60c-4868-ae4e-f0c57af0b219402"
         },
         "9b55c90d-ccdb-48bf-8b44-df6b0916e979402": {
@@ -26339,211 +26339,211 @@ var schemeData =
         "e9d924b9-8b2d-4d15-8830-f0db3180cc4c": {
           "label": "Cataloging",
           "link": "https://en.wikipedia.org/wiki/Cataloging",
-          "x": 136681,
-          "y": 23867,
+          "x": 131604,
+          "y": 24101,
           "id": "e9d924b9-8b2d-4d15-8830-f0db3180cc4c"
         },
         "04ac159e-0606-490d-b4b9-6f9bf7ff772b": {
           "label": "AFI Catalog of Feature Films",
           "link": "https://en.wikipedia.org/wiki/AFI Catalog of Feature Films",
-          "x": 136739,
-          "y": 23892,
+          "x": 131662,
+          "y": 24126,
           "id": "04ac159e-0606-490d-b4b9-6f9bf7ff772b"
         },
         "999b0db5-6fae-4a9f-b0a4-ab1a3b4010b2": {
           "label": "Ascher: Fabric, Art, Fashion",
           "link": "https://en.wikipedia.org/wiki/Ascher: Fabric, Art, Fashion",
-          "x": 136736,
-          "y": 23917,
+          "x": 131659,
+          "y": 24151,
           "id": "999b0db5-6fae-4a9f-b0a4-ab1a3b4010b2"
         },
         "dbca45ab-fc41-4ec8-9c44-c0bc77ed80d9": {
           "label": "Atelier national de reproduction des thèses",
           "link": "https://en.wikipedia.org/wiki/Atelier national de reproduction des thèses",
-          "x": 136783,
-          "y": 23942,
+          "x": 131706,
+          "y": 24176,
           "id": "dbca45ab-fc41-4ec8-9c44-c0bc77ed80d9"
         },
         "8e49fb49-f026-4910-8d1f-95dea105c403": {
           "label": "Auction catalog",
           "link": "https://en.wikipedia.org/wiki/Auction catalog",
-          "x": 136696,
-          "y": 23967,
+          "x": 131619,
+          "y": 24201,
           "id": "8e49fb49-f026-4910-8d1f-95dea105c403"
         },
         "a10e6550-1f94-4cea-a702-41cfc57f670d": {
           "label": "Catalogue of Oriental Manuscripts, Xylographs etc. in Danish Collections, COMDC",
           "link": "https://en.wikipedia.org/wiki/Catalogue of Oriental Manuscripts, Xylographs etc. in Danish Collections, COMDC",
-          "x": 136907,
-          "y": 23992,
+          "x": 131830,
+          "y": 24226,
           "id": "a10e6550-1f94-4cea-a702-41cfc57f670d"
         },
         "735d2062-7be3-4a64-a42e-7397867f1dd2": {
           "label": "Catalogue of Political and Personal Satires Preserved in the Department of Prints and Drawings in the British Museum",
           "link": "https://en.wikipedia.org/wiki/Catalogue of Political and Personal Satires Preserved in the Department of Prints and Drawings in the British Museum",
-          "x": 137019,
-          "y": 24017,
+          "x": 131942,
+          "y": 24251,
           "id": "735d2062-7be3-4a64-a42e-7397867f1dd2"
         },
         "471c0883-7bc9-4fcc-a2cf-0591223fde74": {
           "label": "Catalogue of Works in Refutation of Methodism",
           "link": "https://en.wikipedia.org/wiki/Catalogue of Works in Refutation of Methodism",
-          "x": 136797,
-          "y": 24042,
+          "x": 131720,
+          "y": 24276,
           "id": "471c0883-7bc9-4fcc-a2cf-0591223fde74"
         },
         "24a3f648-cdf4-45fb-a6ac-17520adf4700": {
           "label": "Colorado Alliance of Research Libraries",
           "link": "https://en.wikipedia.org/wiki/Colorado Alliance of Research Libraries",
-          "x": 136773,
-          "y": 24067,
+          "x": 131696,
+          "y": 24301,
           "id": "24a3f648-cdf4-45fb-a6ac-17520adf4700"
         },
         "091e8ae0-e2f2-4d71-854e-b8bbc07278ff": {
           "label": "Copyright Catalog",
           "link": "https://en.wikipedia.org/wiki/Copyright Catalog",
-          "x": 136704,
-          "y": 24092,
+          "x": 131627,
+          "y": 24326,
           "id": "091e8ae0-e2f2-4d71-854e-b8bbc07278ff"
         },
         "90e52648-a0a2-420e-9a88-14b7e466eb3c": {
           "label": "Digital Scriptorium",
           "link": "https://en.wikipedia.org/wiki/Digital Scriptorium",
-          "x": 136705,
-          "y": 24117,
+          "x": 131628,
+          "y": 24351,
           "id": "90e52648-a0a2-420e-9a88-14b7e466eb3c"
         },
         "53d02c6b-9183-4c99-937c-0f4fda083851": {
           "label": "Egg Collecting and Bird Life of Australia",
           "link": "https://en.wikipedia.org/wiki/Egg Collecting and Bird Life of Australia",
-          "x": 136772,
-          "y": 24142,
+          "x": 131695,
+          "y": 24376,
           "id": "53d02c6b-9183-4c99-937c-0f4fda083851"
         },
         "cb4efceb-c344-480f-bc3e-41711b260577": {
           "label": "EPSG Geodetic Parameter Dataset",
           "link": "https://en.wikipedia.org/wiki/EPSG Geodetic Parameter Dataset",
-          "x": 136759,
-          "y": 24167,
+          "x": 131682,
+          "y": 24401,
           "id": "cb4efceb-c344-480f-bc3e-41711b260577"
         },
         "bd8cb485-45f6-404b-8e4b-ac9c1599fa8d": {
           "label": "Film Superlist",
           "link": "https://en.wikipedia.org/wiki/Film Superlist",
-          "x": 136690,
-          "y": 24192,
+          "x": 131613,
+          "y": 24426,
           "id": "bd8cb485-45f6-404b-8e4b-ac9c1599fa8d"
         },
         "fb8eaab1-d813-4f43-90dd-ae92c884570f": {
           "label": "Font catalog",
           "link": "https://en.wikipedia.org/wiki/Font catalog",
-          "x": 136687,
-          "y": 24217,
+          "x": 131610,
+          "y": 24451,
           "id": "fb8eaab1-d813-4f43-90dd-ae92c884570f"
         },
         "7a58d8aa-c9fe-4f9d-af32-e90103942d59": {
           "label": "IKEA Catalogue",
           "link": "https://en.wikipedia.org/wiki/IKEA Catalogue",
-          "x": 136697,
-          "y": 24242,
+          "x": 131620,
+          "y": 24476,
           "id": "7a58d8aa-c9fe-4f9d-af32-e90103942d59"
         },
         "7fc3d58f-bb17-43da-8947-d81716dd9d81": {
           "label": "Kokusho Sōmokuroku",
           "link": "https://en.wikipedia.org/wiki/Kokusho Sōmokuroku",
-          "x": 136717,
-          "y": 24267,
+          "x": 131640,
+          "y": 24501,
           "id": "7fc3d58f-bb17-43da-8947-d81716dd9d81"
         },
         "ea752682-3086-4c49-996b-894264e5c83f": {
           "label": "Libro de los Epítomes",
           "link": "https://en.wikipedia.org/wiki/Libro de los Epítomes",
-          "x": 136716,
-          "y": 24292,
+          "x": 131639,
+          "y": 24526,
           "id": "ea752682-3086-4c49-996b-894264e5c83f"
         },
         "b68ac65e-815a-495c-b5c2-1c8e876035ea": {
           "label": "Official Marvel Index",
           "link": "https://en.wikipedia.org/wiki/Official Marvel Index",
-          "x": 136712,
-          "y": 24317,
+          "x": 131635,
+          "y": 24551,
           "id": "b68ac65e-815a-495c-b5c2-1c8e876035ea"
         },
         "69dd0776-cda2-430e-8622-bf6b3ef32603": {
           "label": "The Shaker Quarterly",
           "link": "https://en.wikipedia.org/wiki/The Shaker Quarterly",
-          "x": 136716,
-          "y": 24342,
+          "x": 131639,
+          "y": 24576,
           "id": "69dd0776-cda2-430e-8622-bf6b3ef32603"
         },
         "987fe081-0d50-4149-8687-0eaf74a42665": {
           "label": "Short Title Catalogue Flanders (STCV)",
           "link": "https://en.wikipedia.org/wiki/Short Title Catalogue Flanders (STCV)",
-          "x": 136769,
-          "y": 24367,
+          "x": 131692,
+          "y": 24601,
           "id": "987fe081-0d50-4149-8687-0eaf74a42665"
         },
         "3d6aa878-ee79-4eff-8f9b-8aee280b86a9": {
           "label": "Taxonomic database",
           "link": "https://en.wikipedia.org/wiki/Taxonomic database",
-          "x": 136713,
-          "y": 24392,
+          "x": 131636,
+          "y": 24626,
           "id": "3d6aa878-ee79-4eff-8f9b-8aee280b86a9"
         },
         "30f77161-4eb2-4afa-8bb2-53a2acebc84a": {
           "label": "Term Catalogue",
           "link": "https://en.wikipedia.org/wiki/Term Catalogue",
-          "x": 136698,
-          "y": 24417,
+          "x": 131621,
+          "y": 24651,
           "id": "30f77161-4eb2-4afa-8bb2-53a2acebc84a"
         },
         "c8b43707-46d8-471f-b8b7-d8b76ee55548": {
           "label": "Theatrum Pictorium",
           "link": "https://en.wikipedia.org/wiki/Theatrum Pictorium",
-          "x": 136710,
-          "y": 24442,
+          "x": 131633,
+          "y": 24676,
           "id": "c8b43707-46d8-471f-b8b7-d8b76ee55548"
         },
         "f5a464a7-3513-4af3-bb5a-4fb2b5c6c1d7": {
           "label": "VD 16",
           "link": "https://en.wikipedia.org/wiki/VD 16",
-          "x": 136667,
-          "y": 24467,
+          "x": 131590,
+          "y": 24701,
           "id": "f5a464a7-3513-4af3-bb5a-4fb2b5c6c1d7"
         },
         "4a045015-64d0-4c8e-a332-9fcb55bb12e0": {
           "label": "Williams-Sonoma",
           "link": "https://en.wikipedia.org/wiki/Williams-Sonoma",
-          "x": 136702,
-          "y": 24492,
+          "x": 131625,
+          "y": 24726,
           "id": "4a045015-64d0-4c8e-a332-9fcb55bb12e0"
         },
         "de8cf312-efdd-4c30-bc22-82bafd59ff25": {
           "label": "Category:Astronomical catalogues",
           "link": "https://en.wikipedia.org/wiki/Category:Astronomical catalogues",
-          "x": 136756,
-          "y": 24517,
+          "x": 131679,
+          "y": 24751,
           "id": "de8cf312-efdd-4c30-bc22-82bafd59ff25"
         },
         "ff2e9d9c-c77d-4523-93c5-feb67899e179": {
           "label": "Category:Library catalogues",
           "link": "https://en.wikipedia.org/wiki/Category:Library catalogues",
-          "x": 136737,
-          "y": 24542,
+          "x": 131660,
+          "y": 24776,
           "id": "ff2e9d9c-c77d-4523-93c5-feb67899e179"
         },
         "f05f15f8-a8c6-4078-939a-09f8ef22a260": {
           "label": "Category:Music catalogues",
           "link": "https://en.wikipedia.org/wiki/Category:Music catalogues",
-          "x": 136733,
-          "y": 24567,
+          "x": 131656,
+          "y": 24801,
           "id": "f05f15f8-a8c6-4078-939a-09f8ef22a260"
         },
         "19a4c0cc-fee7-4e08-b466-9d0714f1a477": {
           "label": "Category:Short title catalogues",
           "link": "https://en.wikipedia.org/wiki/Category:Short title catalogues",
-          "x": 136745,
-          "y": 24592,
+          "x": 131668,
+          "y": 24826,
           "id": "19a4c0cc-fee7-4e08-b466-9d0714f1a477"
         },
         "d4f07e8b-b3fc-4373-8d11-f3effcfade82": {
@@ -26864,1023 +26864,1023 @@ var schemeData =
         "6c28b0eb-5136-4ee9-8b19-d83a3366ac15": {
           "label": "Apple Advanced Typography",
           "link": "https://en.wikipedia.org/wiki/Apple Advanced Typography",
-          "x": 136741,
-          "y": 25337,
+          "x": 131664,
+          "y": 25571,
           "id": "6c28b0eb-5136-4ee9-8b19-d83a3366ac15"
         },
         "83d421e5-5393-4331-8c78-043f37dbf773": {
           "label": "Apple Type Services for Unicode Imaging",
           "link": "https://en.wikipedia.org/wiki/Apple Type Services for Unicode Imaging",
-          "x": 136781,
-          "y": 25362,
+          "x": 131704,
+          "y": 25596,
           "id": "83d421e5-5393-4331-8c78-043f37dbf773"
         },
         "0f260855-1487-4370-93e4-b01ee48271c0": {
           "label": "Core Text",
           "link": "https://en.wikipedia.org/wiki/Core Text",
-          "x": 136681,
-          "y": 25387,
+          "x": 131604,
+          "y": 25621,
           "id": "0f260855-1487-4370-93e4-b01ee48271c0"
         },
         "48566537-c2bb-4e7c-be1f-bf86b0af4f77": {
           "label": "DirectWrite",
           "link": "https://en.wikipedia.org/wiki/DirectWrite",
-          "x": 136685,
-          "y": 25412,
+          "x": 131608,
+          "y": 25646,
           "id": "48566537-c2bb-4e7c-be1f-bf86b0af4f77"
         },
         "d50a04a8-61f3-4393-89ee-15275886698e": {
           "label": "FreeType",
           "link": "https://en.wikipedia.org/wiki/FreeType",
-          "x": 136681,
-          "y": 25437,
+          "x": 131604,
+          "y": 25671,
           "id": "d50a04a8-61f3-4393-89ee-15275886698e"
         },
         "fa0e65e9-d415-435f-a471-7f08f9a585d8": {
           "label": "Graphite (SIL)",
           "link": "https://en.wikipedia.org/wiki/Graphite (SIL)",
-          "x": 136695,
-          "y": 25462,
+          "x": 131618,
+          "y": 25696,
           "id": "fa0e65e9-d415-435f-a471-7f08f9a585d8"
         },
         "1379e2f5-bfdf-4dae-aad6-4859c5f19302": {
           "label": "HarfBuzz",
           "link": "https://en.wikipedia.org/wiki/HarfBuzz",
-          "x": 136679,
-          "y": 25487,
+          "x": 131602,
+          "y": 25721,
           "id": "1379e2f5-bfdf-4dae-aad6-4859c5f19302"
         },
         "8cbfcc1b-0549-4bbc-be59-44a0c9d3d852": {
           "label": "Pango",
           "link": "https://en.wikipedia.org/wiki/Pango",
-          "x": 136671,
-          "y": 25512,
+          "x": 131594,
+          "y": 25746,
           "id": "8cbfcc1b-0549-4bbc-be59-44a0c9d3d852"
         },
         "2d02da09-98a1-45ec-9fa2-8b9d698f6f56": {
           "label": "Uniscribe",
           "link": "https://en.wikipedia.org/wiki/Uniscribe",
-          "x": 136680,
-          "y": 25537,
+          "x": 131603,
+          "y": 25771,
           "id": "2d02da09-98a1-45ec-9fa2-8b9d698f6f56"
         },
         "78e68363-23d2-4613-ade3-5bd05222659b": {
           "label": "WorldScript",
           "link": "https://en.wikipedia.org/wiki/WorldScript",
-          "x": 136687,
-          "y": 25562,
+          "x": 131610,
+          "y": 25796,
           "id": "78e68363-23d2-4613-ade3-5bd05222659b"
         },
         "3bad14d6-351c-41ee-9415-31ca8d9a3f11": {
           "label": "Typewriter",
           "link": "https://en.wikipedia.org/wiki/Typewriter",
-          "x": 136674,
-          "y": 25898,
+          "x": 131597,
+          "y": 26132,
           "id": "3bad14d6-351c-41ee-9415-31ca8d9a3f11"
         },
         "9791f67e-a58e-49c4-9952-ef6a6bce79a8": {
           "label": "Blickensderfer typewriter",
           "link": "https://en.wikipedia.org/wiki/Blickensderfer typewriter",
-          "x": 136719,
-          "y": 25923,
+          "x": 131642,
+          "y": 26157,
           "id": "9791f67e-a58e-49c4-9952-ef6a6bce79a8"
         },
         "c32e9eda-353a-4775-b873-6801a23a1e50": {
           "label": "Chinese typewriter",
           "link": "https://en.wikipedia.org/wiki/Chinese typewriter",
-          "x": 136700,
-          "y": 25948,
+          "x": 131623,
+          "y": 26182,
           "id": "c32e9eda-353a-4775-b873-6801a23a1e50"
         },
         "3df9c12c-4e5e-442f-a391-bf52b4fec8ce": {
           "label": "Correction paper",
           "link": "https://en.wikipedia.org/wiki/Correction paper",
-          "x": 136694,
-          "y": 25973,
+          "x": 131617,
+          "y": 26207,
           "id": "3df9c12c-4e5e-442f-a391-bf52b4fec8ce"
         },
         "f337b012-b58d-42c5-bd52-6de4c0d06715": {
           "label": "Correction tape",
           "link": "https://en.wikipedia.org/wiki/Correction tape",
-          "x": 136690,
-          "y": 25998,
+          "x": 131613,
+          "y": 26232,
           "id": "f337b012-b58d-42c5-bd52-6de4c0d06715"
         },
         "71431e4f-61db-49c9-abfd-3c8a2d51449c": {
           "label": "Lucien Stephen Crandall",
           "link": "https://en.wikipedia.org/wiki/Lucien Stephen Crandall",
-          "x": 136719,
-          "y": 26023,
+          "x": 131642,
+          "y": 26257,
           "id": "71431e4f-61db-49c9-abfd-3c8a2d51449c"
         },
         "d7a6346e-0308-4fda-88fd-5d4a765431de": {
           "label": "Data Recall Diamond",
           "link": "https://en.wikipedia.org/wiki/Data Recall Diamond",
-          "x": 136708,
-          "y": 26048,
+          "x": 131631,
+          "y": 26282,
           "id": "d7a6346e-0308-4fda-88fd-5d4a765431de"
         },
         "85f8ae8f-2515-4311-ab7f-8fac9b16c96a": {
           "label": "James Densmore",
           "link": "https://en.wikipedia.org/wiki/James Densmore",
-          "x": 136697,
-          "y": 26073,
+          "x": 131620,
+          "y": 26307,
           "id": "85f8ae8f-2515-4311-ab7f-8fac9b16c96a"
         },
         "6a9acb11-ea22-45a8-9836-30caddf6e7d5": {
           "label": "Dot matrix teletypewriter",
           "link": "https://en.wikipedia.org/wiki/Dot matrix teletypewriter",
-          "x": 136718,
-          "y": 26098,
+          "x": 131641,
+          "y": 26332,
           "id": "6a9acb11-ea22-45a8-9836-30caddf6e7d5"
         },
         "23a7ce3b-46f0-48d9-b8f3-969e95dc6932": {
           "label": "E. Remington and Sons",
           "link": "https://en.wikipedia.org/wiki/E. Remington and Sons",
-          "x": 136716,
-          "y": 26123,
+          "x": 131639,
+          "y": 26357,
           "id": "23a7ce3b-46f0-48d9-b8f3-969e95dc6932"
         },
         "ca998abf-783d-49db-985a-7a090c6f3b65": {
           "label": "Emmet Densmore",
           "link": "https://en.wikipedia.org/wiki/Emmet Densmore",
-          "x": 136698,
-          "y": 26148,
+          "x": 131621,
+          "y": 26382,
           "id": "ca998abf-783d-49db-985a-7a090c6f3b65"
         },
         "734d2700-b200-405c-a5a1-987ab657c6a6": {
           "label": "Ford Typewriter",
           "link": "https://en.wikipedia.org/wiki/Ford Typewriter",
-          "x": 136691,
-          "y": 26173,
+          "x": 131614,
+          "y": 26407,
           "id": "734d2700-b200-405c-a5a1-987ab657c6a6"
         },
         "a51d3b7f-936d-4407-bb3d-00e6dc70a033": {
           "label": "Friden Flexowriter",
           "link": "https://en.wikipedia.org/wiki/Friden Flexowriter",
-          "x": 136698,
-          "y": 26198,
+          "x": 131621,
+          "y": 26432,
           "id": "a51d3b7f-936d-4407-bb3d-00e6dc70a033"
         },
         "cbbb17a5-7f32-4b4c-8bfb-b10cef86debf": {
           "label": "Carlos Glidden",
           "link": "https://en.wikipedia.org/wiki/Carlos Glidden",
-          "x": 136688,
-          "y": 26223,
+          "x": 131611,
+          "y": 26457,
           "id": "cbbb17a5-7f32-4b4c-8bfb-b10cef86debf"
         },
         "f6121112-1fca-401d-b0ef-16c05d7643f8": {
           "label": "Groma Büromaschinen",
           "link": "https://en.wikipedia.org/wiki/Groma Büromaschinen",
-          "x": 136714,
-          "y": 26248,
+          "x": 131637,
+          "y": 26482,
           "id": "f6121112-1fca-401d-b0ef-16c05d7643f8"
         },
         "ff960e83-e4d1-4558-bcec-d29c2a88b90a": {
           "label": "Halda",
           "link": "https://en.wikipedia.org/wiki/Halda",
-          "x": 136659,
-          "y": 26273,
+          "x": 131582,
+          "y": 26507,
           "id": "ff960e83-e4d1-4558-bcec-d29c2a88b90a"
         },
         "b47c99d0-56c8-47df-bf31-866e2067e3c2": {
           "label": "Frank Haven Hall",
           "link": "https://en.wikipedia.org/wiki/Frank Haven Hall",
-          "x": 136696,
-          "y": 26298,
+          "x": 131619,
+          "y": 26532,
           "id": "b47c99d0-56c8-47df-bf31-866e2067e3c2"
         },
         "9befa51d-c22a-4b9e-aed7-1cd921b3f3d2": {
           "label": "Hammond Typewriter",
           "link": "https://en.wikipedia.org/wiki/Hammond Typewriter",
-          "x": 136709,
-          "y": 26323,
+          "x": 131632,
+          "y": 26557,
           "id": "9befa51d-c22a-4b9e-aed7-1cd921b3f3d2"
         },
         "6011756f-3ecd-4eb2-9583-5e293974a123": {
           "label": "Hansen Writing Ball",
           "link": "https://en.wikipedia.org/wiki/Hansen Writing Ball",
-          "x": 136703,
-          "y": 26348,
+          "x": 131626,
+          "y": 26582,
           "id": "6011756f-3ecd-4eb2-9583-5e293974a123"
         },
         "0600503a-420d-4696-93f7-662529ad42d1": {
           "label": "Hellschreiber",
           "link": "https://en.wikipedia.org/wiki/Hellschreiber",
-          "x": 136682,
-          "y": 26373,
+          "x": 131605,
+          "y": 26607,
           "id": "0600503a-420d-4696-93f7-662529ad42d1"
         },
         "467d4684-ed28-40b5-9f40-a4dd06c0d2a6": {
           "label": "Hermes 3000",
           "link": "https://en.wikipedia.org/wiki/Hermes 3000",
-          "x": 136684,
-          "y": 26398,
+          "x": 131607,
+          "y": 26632,
           "id": "467d4684-ed28-40b5-9f40-a4dd06c0d2a6"
         },
         "f02e7816-8966-4f07-8922-588308d70e15": {
           "label": "Imperial Typewriter Company",
           "link": "https://en.wikipedia.org/wiki/Imperial Typewriter Company",
-          "x": 136734,
-          "y": 26423,
+          "x": 131657,
+          "y": 26657,
           "id": "f02e7816-8966-4f07-8922-588308d70e15"
         },
         "e62bc95a-081c-4b76-8573-3308c2e2299c": {
           "label": "Japanese typewriter",
           "link": "https://en.wikipedia.org/wiki/Japanese typewriter",
-          "x": 136705,
-          "y": 26448,
+          "x": 131628,
+          "y": 26682,
           "id": "e62bc95a-081c-4b76-8573-3308c2e2299c"
         },
         "e67df75f-f8db-49d5-a8db-e96c7ee3e30b": {
           "label": "Rasmus Malling-Hansen",
           "link": "https://en.wikipedia.org/wiki/Rasmus Malling-Hansen",
-          "x": 136718,
-          "y": 26473,
+          "x": 131641,
+          "y": 26707,
           "id": "e67df75f-f8db-49d5-a8db-e96c7ee3e30b"
         },
         "d079a769-4d5a-4d13-a1c6-fc81c3b49a49": {
           "label": "Henry Mill",
           "link": "https://en.wikipedia.org/wiki/Henry Mill",
-          "x": 136672,
-          "y": 26498,
+          "x": 131595,
+          "y": 26732,
           "id": "d079a769-4d5a-4d13-a1c6-fc81c3b49a49"
         },
         "1cf53d41-3dfc-49f3-a400-a9b39b115624": {
           "label": "Oliver Typewriter Company",
           "link": "https://en.wikipedia.org/wiki/Oliver Typewriter Company",
-          "x": 136727,
-          "y": 26523,
+          "x": 131650,
+          "y": 26757,
           "id": "1cf53d41-3dfc-49f3-a400-a9b39b115624"
         },
         "0a4a1a48-a34d-4abd-8fb0-818f88c223f0": {
           "label": "Pitch (typewriter)",
           "link": "https://en.wikipedia.org/wiki/Pitch (typewriter)",
-          "x": 136694,
-          "y": 26548,
+          "x": 131617,
+          "y": 26782,
           "id": "0a4a1a48-a34d-4abd-8fb0-818f88c223f0"
         },
         "83e60038-d64e-4b10-a426-6ea3c64d1853": {
           "label": "PKT printer",
           "link": "https://en.wikipedia.org/wiki/PKT printer",
-          "x": 136677,
-          "y": 26573,
+          "x": 131600,
+          "y": 26807,
           "id": "83e60038-d64e-4b10-a426-6ea3c64d1853"
         },
         "7c004e23-d287-4941-99a2-727b5f321020": {
           "label": "Remington-Rand Quiet-Riter.",
           "link": "https://en.wikipedia.org/wiki/Remington-Rand Quiet-Riter.",
-          "x": 136733,
-          "y": 26598,
+          "x": 131656,
+          "y": 26832,
           "id": "7c004e23-d287-4941-99a2-727b5f321020"
         },
         "56514c34-d874-412d-9aaf-f1df22417da2": {
           "label": "Royal Futura",
           "link": "https://en.wikipedia.org/wiki/Royal Futura",
-          "x": 136682,
-          "y": 26623,
+          "x": 131605,
+          "y": 26857,
           "id": "56514c34-d874-412d-9aaf-f1df22417da2"
         },
         "3eb23f20-ce22-453d-8ba3-0a1fcf101ddb": {
           "label": "Royal Quiet Deluxe",
           "link": "https://en.wikipedia.org/wiki/Royal Quiet Deluxe",
-          "x": 136702,
-          "y": 26648,
+          "x": 131625,
+          "y": 26882,
           "id": "3eb23f20-ce22-453d-8ba3-0a1fcf101ddb"
         },
         "db75510d-9477-4a21-9baa-a7e2dd4cef42": {
           "label": "Royal Typewriter Company",
           "link": "https://en.wikipedia.org/wiki/Royal Typewriter Company",
-          "x": 136726,
-          "y": 26673,
+          "x": 131649,
+          "y": 26907,
           "id": "db75510d-9477-4a21-9baa-a7e2dd4cef42"
         },
         "fa8a8bac-dca8-4bb5-a870-d726db08031c": {
           "label": "Clarence Seamans",
           "link": "https://en.wikipedia.org/wiki/Clarence Seamans",
-          "x": 136701,
-          "y": 26698,
+          "x": 131624,
+          "y": 26932,
           "id": "fa8a8bac-dca8-4bb5-a870-d726db08031c"
         },
         "05d5043d-9622-479b-ac42-056da1c7f174": {
           "label": "Sholes and Glidden typewriter",
           "link": "https://en.wikipedia.org/wiki/Sholes and Glidden typewriter",
-          "x": 136736,
-          "y": 26723,
+          "x": 131659,
+          "y": 26957,
           "id": "05d5043d-9622-479b-ac42-056da1c7f174"
         },
         "9a7ab9b8-9369-443e-b6f4-127cec7ab508": {
           "label": "Christopher Latham Sholes",
           "link": "https://en.wikipedia.org/wiki/Christopher Latham Sholes",
-          "x": 136727,
-          "y": 26748,
+          "x": 131650,
+          "y": 26982,
           "id": "9a7ab9b8-9369-443e-b6f4-127cec7ab508"
         },
         "8445347f-e10c-4960-930c-fa222974b47b": {
           "label": "James Fields Smathers",
           "link": "https://en.wikipedia.org/wiki/James Fields Smathers",
-          "x": 136715,
-          "y": 26773,
+          "x": 131638,
+          "y": 27007,
           "id": "8445347f-e10c-4960-930c-fa222974b47b"
         },
         "d593c7e0-1125-4b88-9769-b29e9d1b5b42": {
           "label": "Smith Corona",
           "link": "https://en.wikipedia.org/wiki/Smith Corona",
-          "x": 136684,
-          "y": 26798,
+          "x": 131607,
+          "y": 27032,
           "id": "d593c7e0-1125-4b88-9769-b29e9d1b5b42"
         },
         "1b6d6997-d43e-4af9-a182-b965685f5c98": {
           "label": "Stenotype",
           "link": "https://en.wikipedia.org/wiki/Stenotype",
-          "x": 136673,
-          "y": 26823,
+          "x": 131596,
+          "y": 27057,
           "id": "1b6d6997-d43e-4af9-a182-b965685f5c98"
         },
         "cdff896c-74e4-4e2f-943b-ecb782f6ee96": {
           "label": "Kyota Sugimoto",
           "link": "https://en.wikipedia.org/wiki/Kyota Sugimoto",
-          "x": 136691,
-          "y": 26848,
+          "x": 131614,
+          "y": 27082,
           "id": "cdff896c-74e4-4e2f-943b-ecb782f6ee96"
         },
         "e2c40f32-287b-4f05-8dc0-031e05ecce08": {
           "label": "Swissa",
           "link": "https://en.wikipedia.org/wiki/Swissa",
-          "x": 136663,
-          "y": 26873,
+          "x": 131586,
+          "y": 27107,
           "id": "e2c40f32-287b-4f05-8dc0-031e05ecce08"
         },
         "b029a58e-f1c9-48d9-be64-1a55ef35162a": {
           "label": "Tab stop",
           "link": "https://en.wikipedia.org/wiki/Tab stop",
-          "x": 136668,
-          "y": 26898,
+          "x": 131591,
+          "y": 27132,
           "id": "b029a58e-f1c9-48d9-be64-1a55ef35162a"
         },
         "ffa61198-4e14-408d-b381-b306afb6c934": {
           "label": "Teleprinter",
           "link": "https://en.wikipedia.org/wiki/Teleprinter",
-          "x": 136675,
-          "y": 26923,
+          "x": 131598,
+          "y": 27157,
           "id": "ffa61198-4e14-408d-b381-b306afb6c934"
         },
         "96678547-42d9-4756-a4d9-15df5675584c": {
           "label": "Teletype Corporation",
           "link": "https://en.wikipedia.org/wiki/Teletype Corporation",
-          "x": 136707,
-          "y": 26948,
+          "x": 131630,
+          "y": 27182,
           "id": "96678547-42d9-4756-a4d9-15df5675584c"
         },
         "b173934c-4de3-4231-8b07-6f7e41b4e94f": {
           "label": "Teletype writer 7 stylus 35 dot matrix",
           "link": "https://en.wikipedia.org/wiki/Teletype writer 7 stylus 35 dot matrix",
-          "x": 136757,
-          "y": 26973,
+          "x": 131680,
+          "y": 27207,
           "id": "b173934c-4de3-4231-8b07-6f7e41b4e94f"
         },
         "a2c31a19-ec05-44e9-bde7-421b0aa376cc": {
           "label": "Type-In",
           "link": "https://en.wikipedia.org/wiki/Type-In",
-          "x": 136665,
-          "y": 26998,
+          "x": 131588,
+          "y": 27232,
           "id": "a2c31a19-ec05-44e9-bde7-421b0aa376cc"
         },
         "d1590c9e-2f1d-4563-90fc-e0de08902463": {
           "label": "Typewriter mystery game",
           "link": "https://en.wikipedia.org/wiki/Typewriter mystery game",
-          "x": 136721,
-          "y": 27023,
+          "x": 131644,
+          "y": 27257,
           "id": "d1590c9e-2f1d-4563-90fc-e0de08902463"
         },
         "55d840bc-7ed6-4e81-81e8-116e10cf4a81": {
           "label": "Typewriter ribbon",
           "link": "https://en.wikipedia.org/wiki/Typewriter ribbon",
-          "x": 136696,
-          "y": 27048,
+          "x": 131619,
+          "y": 27282,
           "id": "55d840bc-7ed6-4e81-81e8-116e10cf4a81"
         },
         "d5406f48-cec2-43ec-ac51-36182ed28e51": {
           "label": "The Typewriter",
           "link": "https://en.wikipedia.org/wiki/The Typewriter",
-          "x": 136688,
-          "y": 27073,
+          "x": 131611,
+          "y": 27307,
           "id": "d5406f48-cec2-43ec-ac51-36182ed28e51"
         },
         "99264779-82f9-404d-8e31-b8a128d6f72f": {
           "label": "Typewriting Behavior",
           "link": "https://en.wikipedia.org/wiki/Typewriting Behavior",
-          "x": 136707,
-          "y": 27098,
+          "x": 131630,
+          "y": 27332,
           "id": "99264779-82f9-404d-8e31-b8a128d6f72f"
         },
         "47044cab-e0f9-4056-b6d8-45f2b51dd244": {
           "label": "Typographer (typewriter)",
           "link": "https://en.wikipedia.org/wiki/Typographer (typewriter)",
-          "x": 136719,
-          "y": 27123,
+          "x": 131642,
+          "y": 27357,
           "id": "47044cab-e0f9-4056-b6d8-45f2b51dd244"
         },
         "5a6ce7f6-2bb4-4368-80c3-78f3f326864b": {
           "label": "Martin Tytell",
           "link": "https://en.wikipedia.org/wiki/Martin Tytell",
-          "x": 136679,
-          "y": 27148,
+          "x": 131602,
+          "y": 27382,
           "id": "5a6ce7f6-2bb4-4368-80c3-78f3f326864b"
         },
         "a17449f6-2978-4bc1-af59-f48674526578": {
           "label": "Underwood Typewriter Company",
           "link": "https://en.wikipedia.org/wiki/Underwood Typewriter Company",
-          "x": 136745,
-          "y": 27173,
+          "x": 131668,
+          "y": 27407,
           "id": "a17449f6-2978-4bc1-af59-f48674526578"
         },
         "ef20ac79-1cb4-4ab5-850f-6cdc9e36d407": {
           "label": "Category:IBM typewriters",
           "link": "https://en.wikipedia.org/wiki/Category:IBM typewriters",
-          "x": 136721,
-          "y": 27198,
+          "x": 131644,
+          "y": 27432,
           "id": "ef20ac79-1cb4-4ab5-850f-6cdc9e36d407"
         },
         "49858127-5623-40a9-ac32-34e9ad9e985b": {
           "label": "Category:Keyboard layouts",
           "link": "https://en.wikipedia.org/wiki/Category:Keyboard layouts",
-          "x": 136727,
-          "y": 27223,
+          "x": 131650,
+          "y": 27457,
           "id": "49858127-5623-40a9-ac32-34e9ad9e985b"
         },
         "c31ff65b-7d4f-464b-8b52-c6b44540e72d": {
           "label": "Category:Olivetti typewriters",
           "link": "https://en.wikipedia.org/wiki/Category:Olivetti typewriters",
-          "x": 136730,
-          "y": 27248,
+          "x": 131653,
+          "y": 27482,
           "id": "c31ff65b-7d4f-464b-8b52-c6b44540e72d"
         },
         "2a28f57a-fe5a-4e97-9e7f-72e841fa7719": {
           "label": "Category:Typing",
           "link": "https://en.wikipedia.org/wiki/Category:Typing",
-          "x": 136693,
-          "y": 27273,
+          "x": 131616,
+          "y": 27507,
           "id": "2a28f57a-fe5a-4e97-9e7f-72e841fa7719"
         },
         "74447d41-7f60-48f5-b40b-3bf30f6523c0": {
           "label": "Writing implement",
           "link": "https://en.wikipedia.org/wiki/Writing implement",
-          "x": 136754,
-          "y": 27781,
+          "x": 131677,
+          "y": 28015,
           "id": "74447d41-7f60-48f5-b40b-3bf30f6523c0"
         },
         "efb164b6-094e-4ec1-8e72-39ed65b04775": {
           "label": "Ballograf",
           "link": "https://en.wikipedia.org/wiki/Ballograf",
-          "x": 136725,
-          "y": 27806,
+          "x": 131648,
+          "y": 28040,
           "id": "efb164b6-094e-4ec1-8e72-39ed65b04775"
         },
         "ab7af3e9-95a4-4717-aafe-7f09f445310b": {
           "label": "Reynolds International Pen Company",
           "link": "https://en.wikipedia.org/wiki/Reynolds International Pen Company",
-          "x": 136815,
-          "y": 27831,
+          "x": 131738,
+          "y": 28065,
           "id": "ab7af3e9-95a4-4717-aafe-7f09f445310b"
         },
         "fa2b6811-ab44-4229-9ca8-f518beba6db4": {
           "label": "Berol",
           "link": "https://en.wikipedia.org/wiki/Berol",
-          "x": 136713,
-          "y": 27856,
+          "x": 131636,
+          "y": 28090,
           "id": "fa2b6811-ab44-4229-9ca8-f518beba6db4"
         },
         "c0d07857-7eef-46f4-92a0-d6989d8f2c9d": {
           "label": "Bic Cristal",
           "link": "https://en.wikipedia.org/wiki/Bic Cristal",
-          "x": 136728,
-          "y": 27881,
+          "x": 131651,
+          "y": 28115,
           "id": "c0d07857-7eef-46f4-92a0-d6989d8f2c9d"
         },
         "fec2d357-7b0b-4bd7-9548-65ae8beca1d7": {
           "label": "Birmingham pen trade",
           "link": "https://en.wikipedia.org/wiki/Birmingham pen trade",
-          "x": 136767,
-          "y": 27906,
+          "x": 131690,
+          "y": 28140,
           "id": "fec2d357-7b0b-4bd7-9548-65ae8beca1d7"
         },
         "9aa863cd-a3e1-4f3f-8695-4af41d4de087": {
           "label": "László Bíró",
           "link": "https://en.wikipedia.org/wiki/László Bíró",
-          "x": 136732,
-          "y": 27931,
+          "x": 131655,
+          "y": 28165,
           "id": "9aa863cd-a3e1-4f3f-8695-4af41d4de087"
         },
         "a08fb4ca-5e65-4bef-b09d-4142bb814ab8": {
           "label": "C. Howard Hunt",
           "link": "https://en.wikipedia.org/wiki/C. Howard Hunt",
-          "x": 136747,
-          "y": 27956,
+          "x": 131670,
+          "y": 28190,
           "id": "a08fb4ca-5e65-4bef-b09d-4142bb814ab8"
         },
         "d1ee81a2-4b08-46ec-8989-eb9b763e0c34": {
           "label": "Chalkboard eraser",
           "link": "https://en.wikipedia.org/wiki/Chalkboard eraser",
-          "x": 136756,
-          "y": 27981,
+          "x": 131679,
+          "y": 28215,
           "id": "d1ee81a2-4b08-46ec-8989-eb9b763e0c34"
         },
         "05c8d530-55f5-4afa-9223-c664870b758c": {
           "label": "Classmate Stationery",
           "link": "https://en.wikipedia.org/wiki/Classmate Stationery",
-          "x": 136764,
-          "y": 28006,
+          "x": 131687,
+          "y": 28240,
           "id": "05c8d530-55f5-4afa-9223-c664870b758c"
         },
         "3725db32-a43b-4df0-9d81-460c1cc2a3d9": {
           "label": "Connector pen",
           "link": "https://en.wikipedia.org/wiki/Connector pen",
-          "x": 136744,
-          "y": 28031,
+          "x": 131667,
+          "y": 28265,
           "id": "3725db32-a43b-4df0-9d81-460c1cc2a3d9"
         },
         "4479a73c-191e-4042-8f23-f5ebef9fece4": {
           "label": "Conway Stewart",
           "link": "https://en.wikipedia.org/wiki/Conway Stewart",
-          "x": 136748,
-          "y": 28056,
+          "x": 131671,
+          "y": 28290,
           "id": "4479a73c-191e-4042-8f23-f5ebef9fece4"
         },
         "d0989ac5-9bff-4f93-b095-5306a8407a87": {
           "label": "Copying pencil",
           "link": "https://en.wikipedia.org/wiki/Copying pencil",
-          "x": 136743,
-          "y": 28081,
+          "x": 131666,
+          "y": 28315,
           "id": "d0989ac5-9bff-4f93-b095-5306a8407a87"
         },
         "e3bb7779-085b-4cb9-a3b3-5a4c4f119978": {
           "label": "Counterfeit banknote detection pen",
           "link": "https://en.wikipedia.org/wiki/Counterfeit banknote detection pen",
-          "x": 136808,
-          "y": 28106,
+          "x": 131731,
+          "y": 28340,
           "id": "e3bb7779-085b-4cb9-a3b3-5a4c4f119978"
         },
         "28039e19-b4e5-40c5-81e4-777bda0d294c": {
           "label": "Cretacolor",
           "link": "https://en.wikipedia.org/wiki/Cretacolor",
-          "x": 136730,
-          "y": 28131,
+          "x": 131653,
+          "y": 28365,
           "id": "28039e19-b4e5-40c5-81e4-777bda0d294c"
         },
         "63704e80-95d8-43ec-b3d5-d592c465dde3": {
           "label": "Curtis Australia",
           "link": "https://en.wikipedia.org/wiki/Curtis Australia",
-          "x": 136745,
-          "y": 28156,
+          "x": 131668,
+          "y": 28390,
           "id": "63704e80-95d8-43ec-b3d5-d592c465dde3"
         },
         "ee418e12-a591-4c21-b2bb-47f2dabc6fbd": {
           "label": "Decoder pen",
           "link": "https://en.wikipedia.org/wiki/Decoder pen",
-          "x": 136738,
-          "y": 28181,
+          "x": 131661,
+          "y": 28415,
           "id": "ee418e12-a591-4c21-b2bb-47f2dabc6fbd"
         },
         "6ab9a62c-11e5-4c1e-bd04-f606878e2664": {
           "label": "Digital pen",
           "link": "https://en.wikipedia.org/wiki/Digital pen",
-          "x": 136730,
-          "y": 28206,
+          "x": 131653,
+          "y": 28440,
           "id": "6ab9a62c-11e5-4c1e-bd04-f606878e2664"
         },
         "80e79edb-4478-46c5-837e-f0e9f6e33b1d": {
           "label": "Dip pen",
           "link": "https://en.wikipedia.org/wiki/Dip pen",
-          "x": 136721,
-          "y": 28231,
+          "x": 131644,
+          "y": 28465,
           "id": "80e79edb-4478-46c5-837e-f0e9f6e33b1d"
         },
         "db905aa3-0db4-427e-a4d5-354cb3d17496": {
           "label": "Edding",
           "link": "https://en.wikipedia.org/wiki/Edding",
-          "x": 136719,
-          "y": 28256,
+          "x": 131642,
+          "y": 28490,
           "id": "db905aa3-0db4-427e-a4d5-354cb3d17496"
         },
         "6ce29bff-62b0-4829-82d1-bba742887365": {
           "label": "Eraser",
           "link": "https://en.wikipedia.org/wiki/Eraser",
-          "x": 136718,
-          "y": 28281,
+          "x": 131641,
+          "y": 28515,
           "id": "6ce29bff-62b0-4829-82d1-bba742887365"
         },
         "78811763-4c35-4d77-a513-2a78ee5f5e02": {
           "label": "Faber-Castell",
           "link": "https://en.wikipedia.org/wiki/Faber-Castell",
-          "x": 136740,
-          "y": 28306,
+          "x": 131663,
+          "y": 28540,
           "id": "78811763-4c35-4d77-a513-2a78ee5f5e02"
         },
         "4322811d-241c-4f9c-a3f9-5ce9098b5760": {
           "label": "Ferrule",
           "link": "https://en.wikipedia.org/wiki/Ferrule",
-          "x": 136720,
-          "y": 28331,
+          "x": 131643,
+          "y": 28565,
           "id": "4322811d-241c-4f9c-a3f9-5ce9098b5760"
         },
         "bcab94f7-bb9c-4eab-9618-154fe22d3be8": {
           "label": "Fountain pen",
           "link": "https://en.wikipedia.org/wiki/Fountain pen",
-          "x": 136739,
-          "y": 28356,
+          "x": 131662,
+          "y": 28590,
           "id": "bcab94f7-bb9c-4eab-9618-154fe22d3be8"
         },
         "5e2379d6-dc18-4664-b350-155c7d10e619": {
           "label": "Four Treasures of the Study",
           "link": "https://en.wikipedia.org/wiki/Four Treasures of the Study",
-          "x": 136786,
-          "y": 28381,
+          "x": 131709,
+          "y": 28615,
           "id": "5e2379d6-dc18-4664-b350-155c7d10e619"
         },
         "b044b05e-a406-4cc4-9b07-c2137fa0de4e": {
           "label": "Fudepen",
           "link": "https://en.wikipedia.org/wiki/Fudepen",
-          "x": 136725,
-          "y": 28406,
+          "x": 131648,
+          "y": 28640,
           "id": "b044b05e-a406-4cc4-9b07-c2137fa0de4e"
         },
         "6a967104-461c-4ad8-8aec-9f6cbf04d6e5": {
           "label": "Gel pen",
           "link": "https://en.wikipedia.org/wiki/Gel pen",
-          "x": 136722,
-          "y": 28431,
+          "x": 131645,
+          "y": 28665,
           "id": "6a967104-461c-4ad8-8aec-9f6cbf04d6e5"
         },
         "c5ee23c2-1777-46b1-b222-dc525a07b505": {
           "label": "Graf von Faber-Castell",
           "link": "https://en.wikipedia.org/wiki/Graf von Faber-Castell",
-          "x": 136769,
-          "y": 28456,
+          "x": 131692,
+          "y": 28690,
           "id": "c5ee23c2-1777-46b1-b222-dc525a07b505"
         },
         "96fe7b73-cd71-42df-89f3-55a0fb05d16a": {
           "label": "Grease pencil",
           "link": "https://en.wikipedia.org/wiki/Grease pencil",
-          "x": 136741,
-          "y": 28481,
+          "x": 131664,
+          "y": 28715,
           "id": "96fe7b73-cd71-42df-89f3-55a0fb05d16a"
         },
         "52cce782-2a99-4b4b-9aca-ad17e02c5566": {
           "label": "Highlighter",
           "link": "https://en.wikipedia.org/wiki/Highlighter",
-          "x": 136731,
-          "y": 28506,
+          "x": 131654,
+          "y": 28740,
           "id": "52cce782-2a99-4b4b-9aca-ad17e02c5566"
         },
         "297f4ffc-f990-4019-b139-970a2844ebee": {
           "label": "Ink brush",
           "link": "https://en.wikipedia.org/wiki/Ink brush",
-          "x": 136726,
-          "y": 28531,
+          "x": 131649,
+          "y": 28765,
           "id": "297f4ffc-f990-4019-b139-970a2844ebee"
         },
         "6a0869f0-a5c4-4f77-8f4c-6042551680e1": {
           "label": "Ink eraser",
           "link": "https://en.wikipedia.org/wiki/Ink eraser",
-          "x": 136729,
-          "y": 28556,
+          "x": 131652,
+          "y": 28790,
           "id": "6a0869f0-a5c4-4f77-8f4c-6042551680e1"
         },
         "aec82daa-d849-4c47-b718-fd7f5c01e452": {
           "label": "Inkstand",
           "link": "https://en.wikipedia.org/wiki/Inkstand",
-          "x": 136724,
-          "y": 28581,
+          "x": 131647,
+          "y": 28815,
           "id": "aec82daa-d849-4c47-b718-fd7f5c01e452"
         },
         "44f7fa35-d46d-485a-8e69-94cb63c20506": {
           "label": "Inkwell",
           "link": "https://en.wikipedia.org/wiki/Inkwell",
-          "x": 136718,
-          "y": 28606,
+          "x": 131641,
+          "y": 28840,
           "id": "44f7fa35-d46d-485a-8e69-94cb63c20506"
         },
         "f4f53b87-6b1e-411f-b266-807991946e98": {
           "label": "Kalamos",
           "link": "https://en.wikipedia.org/wiki/Kalamos",
-          "x": 136724,
-          "y": 28631,
+          "x": 131647,
+          "y": 28865,
           "id": "f4f53b87-6b1e-411f-b266-807991946e98"
         },
         "70c5adb5-b60e-45d1-a770-d55489e0ef8e": {
           "label": "Koh-i-Noor Hardtmuth",
           "link": "https://en.wikipedia.org/wiki/Koh-i-Noor Hardtmuth",
-          "x": 136767,
-          "y": 28656,
+          "x": 131690,
+          "y": 28890,
           "id": "70c5adb5-b60e-45d1-a770-d55489e0ef8e"
         },
         "4f48cb57-d268-40f7-b5c8-4852d5440efc": {
           "label": "Kores (company)",
           "link": "https://en.wikipedia.org/wiki/Kores (company)",
-          "x": 136751,
-          "y": 28681,
+          "x": 131674,
+          "y": 28915,
           "id": "4f48cb57-d268-40f7-b5c8-4852d5440efc"
         },
         "32e75ba0-b07e-42ad-bc9a-26dad8d479fc": {
           "label": "Lamy",
           "link": "https://en.wikipedia.org/wiki/Lamy",
-          "x": 136714,
-          "y": 28706,
+          "x": 131637,
+          "y": 28940,
           "id": "32e75ba0-b07e-42ad-bc9a-26dad8d479fc"
         },
         "5bbd7506-ec10-49f7-96ee-bd2adf01bf08": {
           "label": "D. Leonardt & Co.",
           "link": "https://en.wikipedia.org/wiki/D. Leonardt & Co.",
-          "x": 136754,
-          "y": 28731,
+          "x": 131677,
+          "y": 28965,
           "id": "5bbd7506-ec10-49f7-96ee-bd2adf01bf08"
         },
         "d2f665a4-abcd-45a7-ab17-4da5383aca8d": {
           "label": "Livescribe",
           "link": "https://en.wikipedia.org/wiki/Livescribe",
-          "x": 136729,
-          "y": 28756,
+          "x": 131652,
+          "y": 28990,
           "id": "d2f665a4-abcd-45a7-ab17-4da5383aca8d"
         },
         "f0c0a459-21a1-49b0-9b27-772b3462e236": {
           "label": "Josiah Mason",
           "link": "https://en.wikipedia.org/wiki/Josiah Mason",
-          "x": 136741,
-          "y": 28781,
+          "x": 131664,
+          "y": 29015,
           "id": "f0c0a459-21a1-49b0-9b27-772b3462e236"
         },
         "9830ac13-8273-43d7-827b-0db724b2e2fc": {
           "label": "Mean Streak (marker)",
           "link": "https://en.wikipedia.org/wiki/Mean Streak (marker)",
-          "x": 136767,
-          "y": 28806,
+          "x": 131690,
+          "y": 29040,
           "id": "9830ac13-8273-43d7-827b-0db724b2e2fc"
         },
         "c5bd8728-c676-4014-81e4-c45627b935f8": {
           "label": "Mechanical pencil",
           "link": "https://en.wikipedia.org/wiki/Mechanical pencil",
-          "x": 136753,
-          "y": 28831,
+          "x": 131676,
+          "y": 29065,
           "id": "c5bd8728-c676-4014-81e4-c45627b935f8"
         },
         "dbc6ee00-997a-4e39-b110-3c7a9c5ec9c9": {
           "label": "Montegrappa",
           "link": "https://en.wikipedia.org/wiki/Montegrappa",
-          "x": 136739,
-          "y": 28856,
+          "x": 131662,
+          "y": 29090,
           "id": "dbc6ee00-997a-4e39-b110-3c7a9c5ec9c9"
         },
         "d8f309bf-2bdd-4285-98f0-381ac03e337e": {
           "label": "Namiki",
           "link": "https://en.wikipedia.org/wiki/Namiki",
-          "x": 136718,
-          "y": 28881,
+          "x": 131641,
+          "y": 29115,
           "id": "d8f309bf-2bdd-4285-98f0-381ac03e337e"
         },
         "04624303-6811-4be1-b741-cd9a5f970277": {
           "label": "Narayam",
           "link": "https://en.wikipedia.org/wiki/Narayam",
-          "x": 136726,
-          "y": 28906,
+          "x": 131649,
+          "y": 29140,
           "id": "04624303-6811-4be1-b741-cd9a5f970277"
         },
         "5a24ca2b-2a1a-4807-833f-6e034476f88a": {
           "label": "Negro (lead pencil)",
           "link": "https://en.wikipedia.org/wiki/Negro (lead pencil)",
-          "x": 136757,
-          "y": 28931,
+          "x": 131680,
+          "y": 29165,
           "id": "5a24ca2b-2a1a-4807-833f-6e034476f88a"
         },
         "f969f680-f572-4cf1-adc0-ab2cc0fc375a": {
           "label": "Noctograph",
           "link": "https://en.wikipedia.org/wiki/Noctograph",
-          "x": 136734,
-          "y": 28956,
+          "x": 131657,
+          "y": 29190,
           "id": "f969f680-f572-4cf1-adc0-ab2cc0fc375a"
         },
         "4c6be4f7-a884-4e55-8f8e-33c791164537": {
           "label": "Ohto",
           "link": "https://en.wikipedia.org/wiki/Ohto",
-          "x": 136712,
-          "y": 28981,
+          "x": 131635,
+          "y": 29215,
           "id": "4c6be4f7-a884-4e55-8f8e-33c791164537"
         },
         "6f02a7d7-4972-4400-ab2b-b7ad71fc289e": {
           "label": "Paint marker",
           "link": "https://en.wikipedia.org/wiki/Paint marker",
-          "x": 136737,
-          "y": 29006,
+          "x": 131660,
+          "y": 29240,
           "id": "6f02a7d7-4972-4400-ab2b-b7ad71fc289e"
         },
         "bdbf3b8a-635c-4b99-9b24-98149469cbd4": {
           "label": "Parker Jotter",
           "link": "https://en.wikipedia.org/wiki/Parker Jotter",
-          "x": 136738,
-          "y": 29031,
+          "x": 131661,
+          "y": 29265,
           "id": "bdbf3b8a-635c-4b99-9b24-98149469cbd4"
         },
         "45186d15-f59e-4358-a2b8-0a0f1f7e1824": {
           "label": "Pencil",
           "link": "https://en.wikipedia.org/wiki/Pencil",
-          "x": 136716,
-          "y": 29056,
+          "x": 131639,
+          "y": 29290,
           "id": "45186d15-f59e-4358-a2b8-0a0f1f7e1824"
         },
         "8c4cf831-9575-4cea-80dd-75f19dfe6f25": {
           "label": "Pencil extender",
           "link": "https://en.wikipedia.org/wiki/Pencil extender",
-          "x": 136746,
-          "y": 29081,
+          "x": 131669,
+          "y": 29315,
           "id": "8c4cf831-9575-4cea-80dd-75f19dfe6f25"
         },
         "8cf554c5-dfff-4edf-9f60-e74bd4350faa": {
           "label": "Permanent marker",
           "link": "https://en.wikipedia.org/wiki/Permanent marker",
-          "x": 136756,
-          "y": 29106,
+          "x": 131679,
+          "y": 29340,
           "id": "8cf554c5-dfff-4edf-9f60-e74bd4350faa"
         },
         "c9d8ceb8-bc19-4938-b674-33cf7a77778c": {
           "label": "Project Eden (company)",
           "link": "https://en.wikipedia.org/wiki/Project Eden (company)",
-          "x": 136773,
-          "y": 29131,
+          "x": 131696,
+          "y": 29365,
           "id": "c9d8ceb8-bc19-4938-b674-33cf7a77778c"
         },
         "c322b008-85a1-4386-ad60-e750d67d4044": {
           "label": "Pyrography",
           "link": "https://en.wikipedia.org/wiki/Pyrography",
-          "x": 136733,
-          "y": 29156,
+          "x": 131656,
+          "y": 29390,
           "id": "c322b008-85a1-4386-ad60-e750d67d4044"
         },
         "e1ec179b-9f9e-47da-9978-c2a26f8522f7": {
           "label": "Quill",
           "link": "https://en.wikipedia.org/wiki/Quill",
-          "x": 136711,
-          "y": 29181,
+          "x": 131634,
+          "y": 29415,
           "id": "e1ec179b-9f9e-47da-9978-c2a26f8522f7"
         },
         "84d11ab7-1f46-40f5-a470-cd8d0ff78b07": {
           "label": "Quink",
           "link": "https://en.wikipedia.org/wiki/Quink",
-          "x": 136715,
-          "y": 29206,
+          "x": 131638,
+          "y": 29440,
           "id": "84d11ab7-1f46-40f5-a470-cd8d0ff78b07"
         },
         "be1e6737-bea0-4a0c-be8c-250b81cb6b54": {
           "label": "Rastrum",
           "link": "https://en.wikipedia.org/wiki/Rastrum",
-          "x": 136724,
-          "y": 29231,
+          "x": 131647,
+          "y": 29465,
           "id": "be1e6737-bea0-4a0c-be8c-250b81cb6b54"
         },
         "9a91306d-3cc5-44e6-914c-2190aee0ba0b": {
           "label": "Reed pen",
           "link": "https://en.wikipedia.org/wiki/Reed pen",
-          "x": 136728,
-          "y": 29256,
+          "x": 131651,
+          "y": 29490,
           "id": "9a91306d-3cc5-44e6-914c-2190aee0ba0b"
         },
         "6b631823-c43b-40b4-879f-e79a68ec81d9": {
           "label": "Schwan-Stabilo",
           "link": "https://en.wikipedia.org/wiki/Schwan-Stabilo",
-          "x": 136746,
-          "y": 29281,
+          "x": 131669,
+          "y": 29515,
           "id": "6b631823-c43b-40b4-879f-e79a68ec81d9"
         },
         "ea6ae4bc-c235-48c6-ad7f-e6fab5390c37": {
           "label": "Scripto",
           "link": "https://en.wikipedia.org/wiki/Scripto",
-          "x": 136719,
-          "y": 29306,
+          "x": 131642,
+          "y": 29540,
           "id": "ea6ae4bc-c235-48c6-ad7f-e6fab5390c37"
         },
         "75a80115-8977-46d1-8d43-0153f9ed6850": {
           "label": "Sharpie (marker)",
           "link": "https://en.wikipedia.org/wiki/Sharpie (marker)",
-          "x": 136751,
-          "y": 29331,
+          "x": 131674,
+          "y": 29565,
           "id": "75a80115-8977-46d1-8d43-0153f9ed6850"
         },
         "109bfe60-a855-4a8e-9d91-fa1418da87d6": {
           "label": "Sidewalk chalk",
           "link": "https://en.wikipedia.org/wiki/Sidewalk chalk",
-          "x": 136743,
-          "y": 29356,
+          "x": 131666,
+          "y": 29590,
           "id": "109bfe60-a855-4a8e-9d91-fa1418da87d6"
         },
         "48e159c8-61c1-40c6-826b-eed9ab6d8f00": {
           "label": "Silverpoint",
           "link": "https://en.wikipedia.org/wiki/Silverpoint",
-          "x": 136730,
-          "y": 29381,
+          "x": 131653,
+          "y": 29615,
           "id": "48e159c8-61c1-40c6-826b-eed9ab6d8f00"
         },
         "3f1daa3d-d646-4a54-8ab6-25e196c26501": {
           "label": "Skywriting",
           "link": "https://en.wikipedia.org/wiki/Skywriting",
-          "x": 136729,
-          "y": 29406,
+          "x": 131652,
+          "y": 29640,
           "id": "3f1daa3d-d646-4a54-8ab6-25e196c26501"
         },
         "cbedfa1e-a79d-4cef-8ebd-1414ab9cd74f": {
           "label": "Société Bic",
           "link": "https://en.wikipedia.org/wiki/Société Bic",
-          "x": 136732,
-          "y": 29431,
+          "x": 131655,
+          "y": 29665,
           "id": "cbedfa1e-a79d-4cef-8ebd-1414ab9cd74f"
         },
         "bd8558d0-1ad6-42af-84c3-f735d4598cd2": {
           "label": "Stylus",
           "link": "https://en.wikipedia.org/wiki/Stylus",
-          "x": 136716,
-          "y": 29456,
+          "x": 131639,
+          "y": 29690,
           "id": "bd8558d0-1ad6-42af-84c3-f735d4598cd2"
         },
         "1e0e087e-788d-4ba0-80aa-a9512b6de22b": {
           "label": "Syng inkstand",
           "link": "https://en.wikipedia.org/wiki/Syng inkstand",
-          "x": 136741,
-          "y": 29481,
+          "x": 131664,
+          "y": 29715,
           "id": "1e0e087e-788d-4ba0-80aa-a9512b6de22b"
         },
         "94e036fb-5c40-4e6b-8392-42bab216da95": {
           "label": "Von World Pens Hall",
           "link": "https://en.wikipedia.org/wiki/Von World Pens Hall",
-          "x": 136761,
-          "y": 29506,
+          "x": 131684,
+          "y": 29740,
           "id": "94e036fb-5c40-4e6b-8392-42bab216da95"
         },
         "3a36daa2-934f-42b8-bbf8-8def910e3674": {
           "label": "Wet-wipe marker",
           "link": "https://en.wikipedia.org/wiki/Wet-wipe marker",
-          "x": 136751,
-          "y": 29531,
+          "x": 131674,
+          "y": 29765,
           "id": "3a36daa2-934f-42b8-bbf8-8def910e3674"
         },
         "3abf23cb-23d4-49c2-b53b-530fc53a0058": {
           "label": "Writing center assessment",
           "link": "https://en.wikipedia.org/wiki/Writing center assessment",
-          "x": 136781,
-          "y": 29556,
+          "x": 131704,
+          "y": 29790,
           "id": "3abf23cb-23d4-49c2-b53b-530fc53a0058"
         },
         "878684bc-0437-401c-9afd-b7c64dadeb29": {
           "label": "Yatate",
           "link": "https://en.wikipedia.org/wiki/Yatate",
-          "x": 136717,
-          "y": 29581,
+          "x": 131640,
+          "y": 29815,
           "id": "878684bc-0437-401c-9afd-b7c64dadeb29"
         },
         "70329a52-597a-491a-988c-949fe47595a4": {
           "label": "Zebra (pen manufacturer)",
           "link": "https://en.wikipedia.org/wiki/Zebra (pen manufacturer)",
-          "x": 136779,
-          "y": 29606,
+          "x": 131702,
+          "y": 29840,
           "id": "70329a52-597a-491a-988c-949fe47595a4"
         },
         "e25cfe8d-5ac6-4bd0-b4fb-c4fb5d85925c": {
           "label": "Category:Computer keyboards",
           "link": "https://en.wikipedia.org/wiki/Category:Computer keyboards",
-          "x": 136794,
-          "y": 29631,
+          "x": 131717,
+          "y": 29865,
           "id": "e25cfe8d-5ac6-4bd0-b4fb-c4fb5d85925c"
         },
         "06954ad9-ed73-45bc-acf4-4083670b1e4a": {
           "label": "Category:Correction instruments",
           "link": "https://en.wikipedia.org/wiki/Category:Correction instruments",
-          "x": 136800,
-          "y": 29656,
+          "x": 131723,
+          "y": 29890,
           "id": "06954ad9-ed73-45bc-acf4-4083670b1e4a"
         },
         "9f38d2b0-ea92-4aad-b885-c5a26e7eb284": {
           "label": "Category:Inks",
           "link": "https://en.wikipedia.org/wiki/Category:Inks",
-          "x": 136741,
-          "y": 29681,
+          "x": 131664,
+          "y": 29915,
           "id": "9f38d2b0-ea92-4aad-b885-c5a26e7eb284"
         },
         "a6baa83d-ce8c-403b-adec-e32001be5f49": {
           "label": "Category:Pencils",
           "link": "https://en.wikipedia.org/wiki/Category:Pencils",
-          "x": 136750,
-          "y": 29706,
+          "x": 131673,
+          "y": 29940,
           "id": "a6baa83d-ce8c-403b-adec-e32001be5f49"
         },
         "961ff37f-c17e-4651-bfc7-a363b24d8dc7": {
           "label": "Category:Pens",
           "link": "https://en.wikipedia.org/wiki/Category:Pens",
-          "x": 136744,
-          "y": 29731,
+          "x": 131667,
+          "y": 29965,
           "id": "961ff37f-c17e-4651-bfc7-a363b24d8dc7"
         },
         "991b416b-b53e-4190-8246-0ef017e9b5d5": {
           "label": "Category:Typewriters",
           "link": "https://en.wikipedia.org/wiki/Category:Typewriters",
-          "x": 136765,
-          "y": 29756,
+          "x": 131688,
+          "y": 29990,
           "id": "991b416b-b53e-4190-8246-0ef017e9b5d5"
         },
         "a0c4ca1e-146d-4718-8c2f-8ccf5f1df302": {
@@ -29006,904 +29006,904 @@ var schemeData =
         "e9ec686f-b5e2-453e-a6cf-c4854ae6e183": {
           "label": "List of writing systems",
           "link": "https://en.wikipedia.org/wiki/List of writing systems",
-          "x": 140453,
-          "y": 23996,
+          "x": 135376,
+          "y": 24230,
           "id": "e9ec686f-b5e2-453e-a6cf-c4854ae6e183"
         },
         "72ca1d05-81eb-4cc7-b466-d22d68b8f779": {
           "label": "Logophonetic",
           "link": "https://en.wikipedia.org/wiki/Logophonetic",
-          "x": 140426,
-          "y": 24021,
+          "x": 135349,
+          "y": 24255,
           "id": "72ca1d05-81eb-4cc7-b466-d22d68b8f779"
         },
         "a3d0f660-693d-4b57-a288-c3adcf9e9b06": {
           "label": "Semasiography",
           "link": "https://en.wikipedia.org/wiki/Semasiography",
-          "x": 140433,
-          "y": 24046,
+          "x": 135356,
+          "y": 24280,
           "id": "a3d0f660-693d-4b57-a288-c3adcf9e9b06"
         },
         "23aac4f2-ebfe-4e9c-ac89-8d110d7b49ce": {
           "label": "List of languages by writing system",
           "link": "https://en.wikipedia.org/wiki/List of languages by writing system",
-          "x": 140494,
-          "y": 24071,
+          "x": 135417,
+          "y": 24305,
           "id": "23aac4f2-ebfe-4e9c-ac89-8d110d7b49ce"
         },
         "400a3c34-46ea-4f68-b412-1a8f489f0fc2": {
           "label": "Allography",
           "link": "https://en.wikipedia.org/wiki/Allography",
-          "x": 140417,
-          "y": 24096,
+          "x": 135340,
+          "y": 24330,
           "id": "400a3c34-46ea-4f68-b412-1a8f489f0fc2"
         },
         "850af86d-abed-49fa-a875-b92e11ce1925": {
           "label": "Alsószentmihály inscription",
           "link": "https://en.wikipedia.org/wiki/Alsószentmihály inscription",
-          "x": 140468,
-          "y": 24121,
+          "x": 135391,
+          "y": 24355,
           "id": "850af86d-abed-49fa-a875-b92e11ce1925"
         },
         "60e012ce-d839-4de7-8068-a967e339e3a0": {
           "label": "Anga Lipi",
           "link": "https://en.wikipedia.org/wiki/Anga Lipi",
-          "x": 140413,
-          "y": 24146,
+          "x": 135336,
+          "y": 24380,
           "id": "60e012ce-d839-4de7-8068-a967e339e3a0"
         },
         "b737670e-83c6-4385-a054-238ef060942d": {
           "label": "Asemic writing",
           "link": "https://en.wikipedia.org/wiki/Asemic writing",
-          "x": 140429,
-          "y": 24171,
+          "x": 135352,
+          "y": 24405,
           "id": "b737670e-83c6-4385-a054-238ef060942d"
         },
         "b502db9a-4807-4eac-b2f6-1529b4318ba9": {
           "label": "Blockchain",
           "link": "https://en.wikipedia.org/wiki/Blockchain",
-          "x": 140417,
-          "y": 24196,
+          "x": 135340,
+          "y": 24430,
           "id": "b502db9a-4807-4eac-b2f6-1529b4318ba9"
         },
         "b239cd19-0189-41fb-8b00-240ffad9f2e3": {
           "label": "Bopomofo",
           "link": "https://en.wikipedia.org/wiki/Bopomofo",
-          "x": 140416,
-          "y": 24221,
+          "x": 135339,
+          "y": 24455,
           "id": "b239cd19-0189-41fb-8b00-240ffad9f2e3"
         },
         "6a18398f-7edc-4d0c-9bb8-b31a9ee3595a": {
           "label": "Carian alphabets",
           "link": "https://en.wikipedia.org/wiki/Carian alphabets",
-          "x": 140437,
-          "y": 24246,
+          "x": 135360,
+          "y": 24480,
           "id": "6a18398f-7edc-4d0c-9bb8-b31a9ee3595a"
         },
         "4f57588b-6fee-42e5-8a2e-d18d325fbb6e": {
           "label": "Celtiberian script",
           "link": "https://en.wikipedia.org/wiki/Celtiberian script",
-          "x": 140436,
-          "y": 24271,
+          "x": 135359,
+          "y": 24505,
           "id": "4f57588b-6fee-42e5-8a2e-d18d325fbb6e"
         },
         "767c22fa-1aa7-48a8-b93f-a5d76a2121bc": {
           "label": "Chinese bronze inscriptions",
           "link": "https://en.wikipedia.org/wiki/Chinese bronze inscriptions",
-          "x": 140471,
-          "y": 24296,
+          "x": 135394,
+          "y": 24530,
           "id": "767c22fa-1aa7-48a8-b93f-a5d76a2121bc"
         },
         "21e33267-1108-4181-9b00-641b83added3": {
           "label": "Chinese family of scripts",
           "link": "https://en.wikipedia.org/wiki/Chinese family of scripts",
-          "x": 140460,
-          "y": 24321,
+          "x": 135383,
+          "y": 24555,
           "id": "21e33267-1108-4181-9b00-641b83added3"
         },
         "986668dc-5d6c-4233-998d-5c153b626dfa": {
           "label": "Chữ khoa đẩu",
           "link": "https://en.wikipedia.org/wiki/Chữ khoa đẩu",
-          "x": 140429,
-          "y": 24346,
+          "x": 135352,
+          "y": 24580,
           "id": "986668dc-5d6c-4233-998d-5c153b626dfa"
         },
         "092d6d82-f77d-4530-bc81-d53d33b328f6": {
           "label": "Chữ Nôm",
           "link": "https://en.wikipedia.org/wiki/Chữ Nôm",
-          "x": 140414,
-          "y": 24371,
+          "x": 135337,
+          "y": 24605,
           "id": "092d6d82-f77d-4530-bc81-d53d33b328f6"
         },
         "1df21a2f-3f05-41f4-9ffd-189f1753eddf": {
           "label": "Clerical script",
           "link": "https://en.wikipedia.org/wiki/Clerical script",
-          "x": 140426,
-          "y": 24396,
+          "x": 135349,
+          "y": 24630,
           "id": "1df21a2f-3f05-41f4-9ffd-189f1753eddf"
         },
         "c0e519a2-23a7-4f2f-9048-ed9322c106c1": {
           "label": "Codework",
           "link": "https://en.wikipedia.org/wiki/Codework",
-          "x": 140415,
-          "y": 24421,
+          "x": 135338,
+          "y": 24655,
           "id": "c0e519a2-23a7-4f2f-9048-ed9322c106c1"
         },
         "c5eebf3d-0b52-47ee-bd59-65fd9cfbd094": {
           "label": "Communication access real-time translation",
           "link": "https://en.wikipedia.org/wiki/Communication access real-time translation",
-          "x": 140522,
-          "y": 24446,
+          "x": 135445,
+          "y": 24680,
           "id": "c5eebf3d-0b52-47ee-bd59-65fd9cfbd094"
         },
         "8c9bb4ee-3407-4cb2-b39c-8f082e52c592": {
           "label": "Conjunct consonant",
           "link": "https://en.wikipedia.org/wiki/Conjunct consonant",
-          "x": 140446,
-          "y": 24471,
+          "x": 135369,
+          "y": 24705,
           "id": "8c9bb4ee-3407-4cb2-b39c-8f082e52c592"
         },
         "39e39440-4ef5-4a9e-970e-103b8569d107": {
           "label": "Coorgi–Cox alphabet",
           "link": "https://en.wikipedia.org/wiki/Coorgi–Cox alphabet",
-          "x": 140450,
-          "y": 24496,
+          "x": 135373,
+          "y": 24730,
           "id": "39e39440-4ef5-4a9e-970e-103b8569d107"
         },
         "0a4fcc5d-84d9-40ad-b31b-9e298651e01c": {
           "label": "Cursive script (East Asia)",
           "link": "https://en.wikipedia.org/wiki/Cursive script (East Asia)",
-          "x": 140463,
-          "y": 24521,
+          "x": 135386,
+          "y": 24755,
           "id": "0a4fcc5d-84d9-40ad-b31b-9e298651e01c"
         },
         "019500f2-ffc8-4875-9264-c5987980d2f1": {
           "label": "Decipherment",
           "link": "https://en.wikipedia.org/wiki/Decipherment",
-          "x": 140428,
-          "y": 24546,
+          "x": 135351,
+          "y": 24780,
           "id": "019500f2-ffc8-4875-9264-c5987980d2f1"
         },
         "43a4291c-5a6c-4789-a015-93d8a0d87777": {
           "label": "Digraphia",
           "link": "https://en.wikipedia.org/wiki/Digraphia",
-          "x": 140414,
-          "y": 24571,
+          "x": 135337,
+          "y": 24805,
           "id": "43a4291c-5a6c-4789-a015-93d8a0d87777"
         },
         "b0fc3c0f-11f4-44af-a515-577d85ec6d31": {
           "label": "Elifba alphabet",
           "link": "https://en.wikipedia.org/wiki/Elifba alphabet",
-          "x": 140430,
-          "y": 24596,
+          "x": 135353,
+          "y": 24830,
           "id": "b0fc3c0f-11f4-44af-a515-577d85ec6d31"
         },
         "63cfb1d2-a54f-4a81-a397-a1f9c101179b": {
           "label": "Ersu Shaba script",
           "link": "https://en.wikipedia.org/wiki/Ersu Shaba script",
-          "x": 140439,
-          "y": 24621,
+          "x": 135362,
+          "y": 24855,
           "id": "63cfb1d2-a54f-4a81-a397-a1f9c101179b"
         },
         "3d3f21dc-7d96-47d9-8c72-2a33e7efc458": {
           "label": "Template:European calligraphy",
           "link": "https://en.wikipedia.org/wiki/Template:European calligraphy",
-          "x": 140482,
-          "y": 24646,
+          "x": 135405,
+          "y": 24880,
           "id": "3d3f21dc-7d96-47d9-8c72-2a33e7efc458"
         },
         "2fb0b110-96f2-436e-b00f-b0857a783836": {
           "label": "Featural writing system",
           "link": "https://en.wikipedia.org/wiki/Featural writing system",
-          "x": 140457,
-          "y": 24671,
+          "x": 135380,
+          "y": 24905,
           "id": "2fb0b110-96f2-436e-b00f-b0857a783836"
         },
         "c362817c-c4a4-438e-b442-ff65cfa9a161": {
           "label": "Final form",
           "link": "https://en.wikipedia.org/wiki/Final form",
-          "x": 140415,
-          "y": 24696,
+          "x": 135338,
+          "y": 24930,
           "id": "c362817c-c4a4-438e-b442-ff65cfa9a161"
         },
         "93e6da11-1963-479b-81b4-84ec99795fa2": {
           "label": "General Chinese",
           "link": "https://en.wikipedia.org/wiki/General Chinese",
-          "x": 140437,
-          "y": 24721,
+          "x": 135360,
+          "y": 24955,
           "id": "93e6da11-1963-479b-81b4-84ec99795fa2"
         },
         "1036dfe9-b1b4-4eb4-9027-d0c26491c19b": {
           "label": "Gjirokastër alphabet",
           "link": "https://en.wikipedia.org/wiki/Gjirokastër alphabet",
-          "x": 140447,
-          "y": 24746,
+          "x": 135370,
+          "y": 24980,
           "id": "1036dfe9-b1b4-4eb4-9027-d0c26491c19b"
         },
         "e7d96e3c-6e14-4428-88fd-e6b3669fda30": {
           "label": "Gondi writing",
           "link": "https://en.wikipedia.org/wiki/Gondi writing",
-          "x": 140425,
-          "y": 24771,
+          "x": 135348,
+          "y": 25005,
           "id": "e7d96e3c-6e14-4428-88fd-e6b3669fda30"
         },
         "5614a30e-d71a-4031-8581-ab12edb649a5": {
           "label": "Greco-Iberian alphabet",
           "link": "https://en.wikipedia.org/wiki/Greco-Iberian alphabet",
-          "x": 140457,
-          "y": 24796,
+          "x": 135380,
+          "y": 25030,
           "id": "5614a30e-d71a-4031-8581-ab12edb649a5"
         },
         "3b6323e4-dc48-478e-954d-f8344f40ee5c": {
           "label": "Greek minuscule",
           "link": "https://en.wikipedia.org/wiki/Greek minuscule",
-          "x": 140437,
-          "y": 24821,
+          "x": 135360,
+          "y": 25055,
           "id": "3b6323e4-dc48-478e-954d-f8344f40ee5c"
         },
         "ed78ac1d-b0a1-49e2-a62f-147aa285ba62": {
           "label": "History of writing in Vietnam",
           "link": "https://en.wikipedia.org/wiki/History of writing in Vietnam",
-          "x": 140471,
-          "y": 24846,
+          "x": 135394,
+          "y": 25080,
           "id": "ed78ac1d-b0a1-49e2-a62f-147aa285ba62"
         },
         "7ff6e55c-0884-4671-a90c-26278a9545dd": {
           "label": "Hanja",
           "link": "https://en.wikipedia.org/wiki/Hanja",
-          "x": 140402,
-          "y": 24871,
+          "x": 135325,
+          "y": 25105,
           "id": "7ff6e55c-0884-4671-a90c-26278a9545dd"
         },
         "2d22f0dc-1c2b-4043-a173-e23a4869240a": {
           "label": "Heterogram (linguistics)",
           "link": "https://en.wikipedia.org/wiki/Heterogram (linguistics)",
-          "x": 140459,
-          "y": 24896,
+          "x": 135382,
+          "y": 25130,
           "id": "2d22f0dc-1c2b-4043-a173-e23a4869240a"
         },
         "37348524-ac96-42cb-aaa6-d91a28263215": {
           "label": "Hieratic",
           "link": "https://en.wikipedia.org/wiki/Hieratic",
-          "x": 140407,
-          "y": 24921,
+          "x": 135330,
+          "y": 25155,
           "id": "37348524-ac96-42cb-aaa6-d91a28263215"
         },
         "5eb0efd1-13bd-4763-8096-50cdaa3f8524": {
           "label": "Hill system",
           "link": "https://en.wikipedia.org/wiki/Hill system",
-          "x": 140417,
-          "y": 24946,
+          "x": 135340,
+          "y": 25180,
           "id": "5eb0efd1-13bd-4763-8096-50cdaa3f8524"
         },
         "1836e838-9893-4232-a41b-bba790b538aa": {
           "label": "Ideogram",
           "link": "https://en.wikipedia.org/wiki/Ideogram",
-          "x": 140414,
-          "y": 24971,
+          "x": 135337,
+          "y": 25205,
           "id": "1836e838-9893-4232-a41b-bba790b538aa"
         },
         "ae97805b-f381-42b7-82ea-3ca87fee02e7": {
           "label": "Ideography",
           "link": "https://en.wikipedia.org/wiki/Ideography",
-          "x": 140419,
-          "y": 24996,
+          "x": 135342,
+          "y": 25230,
           "id": "ae97805b-f381-42b7-82ea-3ca87fee02e7"
         },
         "6507109f-5296-49eb-a5c4-5a3fe9d23637": {
           "label": "IMFI",
           "link": "https://en.wikipedia.org/wiki/IMFI",
-          "x": 140398,
-          "y": 25021,
+          "x": 135321,
+          "y": 25255,
           "id": "6507109f-5296-49eb-a5c4-5a3fe9d23637"
         },
         "b13f6047-1334-4a47-a2f8-4331260d6114": {
           "label": "International Movement Writing Alphabet",
           "link": "https://en.wikipedia.org/wiki/International Movement Writing Alphabet",
-          "x": 140512,
-          "y": 25046,
+          "x": 135435,
+          "y": 25280,
           "id": "b13f6047-1334-4a47-a2f8-4331260d6114"
         },
         "f63d996a-f7fc-4781-9e24-6e9ff8195c55": {
           "label": "ISO 15924",
           "link": "https://en.wikipedia.org/wiki/ISO 15924",
-          "x": 140417,
-          "y": 25071,
+          "x": 135340,
+          "y": 25305,
           "id": "f63d996a-f7fc-4781-9e24-6e9ff8195c55"
         },
         "de07f399-862d-4666-af64-0edefe1babe4": {
           "label": "Kanji",
           "link": "https://en.wikipedia.org/wiki/Kanji",
-          "x": 140399,
-          "y": 25096,
+          "x": 135322,
+          "y": 25330,
           "id": "de07f399-862d-4666-af64-0edefe1babe4"
         },
         "19f2e2d0-bdae-43f2-bedc-5bccfaa55965": {
           "label": "Karamanli Turkish",
           "link": "https://en.wikipedia.org/wiki/Karamanli Turkish",
-          "x": 140441,
-          "y": 25121,
+          "x": 135364,
+          "y": 25355,
           "id": "19f2e2d0-bdae-43f2-bedc-5bccfaa55965"
         },
         "b1340788-4117-425a-af4f-bdb34ec8f375": {
           "label": "Khitan scripts",
           "link": "https://en.wikipedia.org/wiki/Khitan scripts",
-          "x": 140426,
-          "y": 25146,
+          "x": 135349,
+          "y": 25380,
           "id": "b1340788-4117-425a-af4f-bdb34ec8f375"
         },
         "df57de47-7479-4fa4-95a3-c3664248b383": {
           "label": "Khom script",
           "link": "https://en.wikipedia.org/wiki/Khom script",
-          "x": 140421,
-          "y": 25171,
+          "x": 135344,
+          "y": 25405,
           "id": "df57de47-7479-4fa4-95a3-c3664248b383"
         },
         "34bf7419-528a-4eb1-ad3c-d7163c151514": {
           "label": "KtbDarija",
           "link": "https://en.wikipedia.org/wiki/KtbDarija",
-          "x": 140412,
-          "y": 25196,
+          "x": 135335,
+          "y": 25430,
           "id": "34bf7419-528a-4eb1-ad3c-d7163c151514"
         },
         "9eeb9284-1faa-4c00-b59a-cd81eb46fa6e": {
           "label": "List of Chinese–Japanese false friends",
           "link": "https://en.wikipedia.org/wiki/List of Chinese–Japanese false friends",
-          "x": 140506,
-          "y": 25221,
+          "x": 135429,
+          "y": 25455,
           "id": "9eeb9284-1faa-4c00-b59a-cd81eb46fa6e"
         },
         "b5ab6c6c-0fdb-4597-bd9c-f303d19992cf": {
           "label": "List of scripts with no ISO 15924 code",
           "link": "https://en.wikipedia.org/wiki/List of scripts with no ISO 15924 code",
-          "x": 140503,
-          "y": 25246,
+          "x": 135426,
+          "y": 25480,
           "id": "b5ab6c6c-0fdb-4597-bd9c-f303d19992cf"
         },
         "348109a4-391b-4f1c-ac02-f4bf35950404": {
           "label": "Litema",
           "link": "https://en.wikipedia.org/wiki/Litema",
-          "x": 140405,
-          "y": 25271,
+          "x": 135328,
+          "y": 25505,
           "id": "348109a4-391b-4f1c-ac02-f4bf35950404"
         },
         "6464c623-3781-45db-aaa1-1556bc1477ed": {
           "label": "Lycian alphabet",
           "link": "https://en.wikipedia.org/wiki/Lycian alphabet",
-          "x": 140433,
-          "y": 25296,
+          "x": 135356,
+          "y": 25530,
           "id": "6464c623-3781-45db-aaa1-1556bc1477ed"
         },
         "0692fbca-8c68-44d2-bc3f-37f39192a3bd": {
           "label": "Lydian alphabet",
           "link": "https://en.wikipedia.org/wiki/Lydian alphabet",
-          "x": 140434,
-          "y": 25321,
+          "x": 135357,
+          "y": 25555,
           "id": "0692fbca-8c68-44d2-bc3f-37f39192a3bd"
         },
         "9309f327-4c1f-4a16-a18e-e45dbf44b766": {
           "label": "Maldivian writing systems",
           "link": "https://en.wikipedia.org/wiki/Maldivian writing systems",
-          "x": 140464,
-          "y": 25346,
+          "x": 135387,
+          "y": 25580,
           "id": "9309f327-4c1f-4a16-a18e-e45dbf44b766"
         },
         "52c4f0d3-d865-4ee2-9937-37e8d4a9b4d5": {
           "label": "Morphogram",
           "link": "https://en.wikipedia.org/wiki/Morphogram",
-          "x": 140424,
-          "y": 25371,
+          "x": 135347,
+          "y": 25605,
           "id": "52c4f0d3-d865-4ee2-9937-37e8d4a9b4d5"
         },
         "0e0dcafe-bcdf-4e98-b2f5-614c36f1677b": {
           "label": "Naxi script",
           "link": "https://en.wikipedia.org/wiki/Naxi script",
-          "x": 140416,
-          "y": 25396,
+          "x": 135339,
+          "y": 25630,
           "id": "0e0dcafe-bcdf-4e98-b2f5-614c36f1677b"
         },
         "7bd4017d-5b1a-492a-a0bd-c75ed51e78d1": {
           "label": "Nepalese scripts",
           "link": "https://en.wikipedia.org/wiki/Nepalese scripts",
-          "x": 140436,
-          "y": 25421,
+          "x": 135359,
+          "y": 25655,
           "id": "7bd4017d-5b1a-492a-a0bd-c75ed51e78d1"
         },
         "cd70d72b-22dd-4297-a3f6-053cdbec9c04": {
           "label": "Northeastern Iberian script",
           "link": "https://en.wikipedia.org/wiki/Northeastern Iberian script",
-          "x": 140468,
-          "y": 25446,
+          "x": 135391,
+          "y": 25680,
           "id": "cd70d72b-22dd-4297-a3f6-053cdbec9c04"
         },
         "b9689a58-9f5b-4c2b-bd0e-425dcf7e46fd": {
           "label": "Numeral system",
           "link": "https://en.wikipedia.org/wiki/Numeral system",
-          "x": 140435,
-          "y": 25471,
+          "x": 135358,
+          "y": 25705,
           "id": "b9689a58-9f5b-4c2b-bd0e-425dcf7e46fd"
         },
         "3d9f9425-3514-441f-9e52-abef2f8bb553": {
           "label": "Nyctography",
           "link": "https://en.wikipedia.org/wiki/Nyctography",
-          "x": 140423,
-          "y": 25496,
+          "x": 135346,
+          "y": 25730,
           "id": "3d9f9425-3514-441f-9e52-abef2f8bb553"
         },
         "615e5267-fc9b-432e-934e-0c22ffa9d4c0": {
           "label": "Okinawan scripts",
           "link": "https://en.wikipedia.org/wiki/Okinawan scripts",
-          "x": 140437,
-          "y": 25521,
+          "x": 135360,
+          "y": 25755,
           "id": "615e5267-fc9b-432e-934e-0c22ffa9d4c0"
         },
         "e48197b3-a01f-4005-ad8a-28a5f6427f2d": {
           "label": "Pahawh Hmong",
           "link": "https://en.wikipedia.org/wiki/Pahawh Hmong",
-          "x": 140434,
-          "y": 25546,
+          "x": 135357,
+          "y": 25780,
           "id": "e48197b3-a01f-4005-ad8a-28a5f6427f2d"
         },
         "b62190f4-4250-4e77-a1fc-a35490dba269": {
           "label": "Paleohispanic scripts",
           "link": "https://en.wikipedia.org/wiki/Paleohispanic scripts",
-          "x": 140450,
-          "y": 25571,
+          "x": 135373,
+          "y": 25805,
           "id": "b62190f4-4250-4e77-a1fc-a35490dba269"
         },
         "4bd5dc12-55f1-45a0-a239-493b9211a04d": {
           "label": "Pasigraphy",
           "link": "https://en.wikipedia.org/wiki/Pasigraphy",
-          "x": 140419,
-          "y": 25596,
+          "x": 135342,
+          "y": 25830,
           "id": "4bd5dc12-55f1-45a0-a239-493b9211a04d"
         },
         "2d9328aa-a02d-4163-83ed-9ed7fd2e0b5e": {
           "label": "Pazend",
           "link": "https://en.wikipedia.org/wiki/Pazend",
-          "x": 140407,
-          "y": 25621,
+          "x": 135330,
+          "y": 25855,
           "id": "2d9328aa-a02d-4163-83ed-9ed7fd2e0b5e"
         },
         "257985d3-f2d9-448e-a25b-f39e6685c9bf": {
           "label": "Reading",
           "link": "https://en.wikipedia.org/wiki/Reading",
-          "x": 140410,
-          "y": 25646,
+          "x": 135333,
+          "y": 25880,
           "id": "257985d3-f2d9-448e-a25b-f39e6685c9bf"
         },
         "30adc21f-8d32-49e9-a414-c0172ed88dbb": {
           "label": "Reading education in the United States",
           "link": "https://en.wikipedia.org/wiki/Reading education in the United States",
-          "x": 140507,
-          "y": 25671,
+          "x": 135430,
+          "y": 25905,
           "id": "30adc21f-8d32-49e9-a414-c0172ed88dbb"
         },
         "d880e736-6c55-4462-b882-62c84b0b25dd": {
           "label": "Regular script",
           "link": "https://en.wikipedia.org/wiki/Regular script",
-          "x": 140427,
-          "y": 25696,
+          "x": 135350,
+          "y": 25930,
           "id": "d880e736-6c55-4462-b882-62c84b0b25dd"
         },
         "c9d3f682-2317-4833-b746-a39aa215ff25": {
           "label": "Romanagari",
           "link": "https://en.wikipedia.org/wiki/Romanagari",
-          "x": 140422,
-          "y": 25721,
+          "x": 135345,
+          "y": 25955,
           "id": "c9d3f682-2317-4833-b746-a39aa215ff25"
         },
         "53f2ea45-f413-40d7-b04d-94f5fcb02973": {
           "label": "Scriptio continua",
           "link": "https://en.wikipedia.org/wiki/Scriptio continua",
-          "x": 140436,
-          "y": 25746,
+          "x": 135359,
+          "y": 25980,
           "id": "53f2ea45-f413-40d7-b04d-94f5fcb02973"
         },
         "b3e3a5c5-83b5-4d65-a8c1-7a97e9205041": {
           "label": "Seal script",
           "link": "https://en.wikipedia.org/wiki/Seal script",
-          "x": 140416,
-          "y": 25771,
+          "x": 135339,
+          "y": 26005,
           "id": "b3e3a5c5-83b5-4d65-a8c1-7a97e9205041"
         },
         "329c26c9-328b-4926-913b-6e54f98f12a5": {
           "label": "Semi-cursive script",
           "link": "https://en.wikipedia.org/wiki/Semi-cursive script",
-          "x": 140443,
-          "y": 25796,
+          "x": 135366,
+          "y": 26030,
           "id": "329c26c9-328b-4926-913b-6e54f98f12a5"
         },
         "4262caea-95a2-40fb-a3a2-b8b2c302791c": {
           "label": "Southeastern Iberian script",
           "link": "https://en.wikipedia.org/wiki/Southeastern Iberian script",
-          "x": 140469,
-          "y": 25821,
+          "x": 135392,
+          "y": 26055,
           "id": "4262caea-95a2-40fb-a3a2-b8b2c302791c"
         },
         "a62ab7a4-05d7-47fb-afb8-2130cfd60fe6": {
           "label": "Speedwriting",
           "link": "https://en.wikipedia.org/wiki/Speedwriting",
-          "x": 140424,
-          "y": 25846,
+          "x": 135347,
+          "y": 26080,
           "id": "a62ab7a4-05d7-47fb-afb8-2130cfd60fe6"
         },
         "65e4a031-28e3-461b-aafa-aa909cb3c0b2": {
           "label": "Stiefografie",
           "link": "https://en.wikipedia.org/wiki/Stiefografie",
-          "x": 140419,
-          "y": 25871,
+          "x": 135342,
+          "y": 26105,
           "id": "65e4a031-28e3-461b-aafa-aa909cb3c0b2"
         },
         "909df45b-ecac-4762-b50a-22272b3afed9": {
           "label": "SuperWrite",
           "link": "https://en.wikipedia.org/wiki/SuperWrite",
-          "x": 140419,
-          "y": 25896,
+          "x": 135342,
+          "y": 26130,
           "id": "909df45b-ecac-4762-b50a-22272b3afed9"
         },
         "d6f05329-da4c-47da-8f51-f2a9d7369237": {
           "label": "Suyat",
           "link": "https://en.wikipedia.org/wiki/Suyat",
-          "x": 140401,
-          "y": 25921,
+          "x": 135324,
+          "y": 26155,
           "id": "d6f05329-da4c-47da-8f51-f2a9d7369237"
         },
         "7513471c-8d65-4f5f-b5fc-aa4aac355612": {
           "label": "Syllabogram",
           "link": "https://en.wikipedia.org/wiki/Syllabogram",
-          "x": 140423,
-          "y": 25946,
+          "x": 135346,
+          "y": 26180,
           "id": "7513471c-8d65-4f5f-b5fc-aa4aac355612"
         },
         "18d4df5f-c750-43f5-9832-4f48b9c34389": {
           "label": "Symbolic language (engineering)",
           "link": "https://en.wikipedia.org/wiki/Symbolic language (engineering)",
-          "x": 140488,
-          "y": 25971,
+          "x": 135411,
+          "y": 26205,
           "id": "18d4df5f-c750-43f5-9832-4f48b9c34389"
         },
         "d844c171-168b-472c-9de3-80948e97f2a8": {
           "label": "Symbolic language (mathematics)",
           "link": "https://en.wikipedia.org/wiki/Symbolic language (mathematics)",
-          "x": 140491,
-          "y": 25996,
+          "x": 135414,
+          "y": 26230,
           "id": "d844c171-168b-472c-9de3-80948e97f2a8"
         },
         "ced6cb82-8fff-44a7-8728-de4a760c466b": {
           "label": "Symbolic language (programming)",
           "link": "https://en.wikipedia.org/wiki/Symbolic language (programming)",
-          "x": 140493,
-          "y": 26021,
+          "x": 135416,
+          "y": 26255,
           "id": "ced6cb82-8fff-44a7-8728-de4a760c466b"
         },
         "0afaa250-c36d-4ad5-b8c7-0d88183402b6": {
           "label": "Szarvas inscription",
           "link": "https://en.wikipedia.org/wiki/Szarvas inscription",
-          "x": 140443,
-          "y": 26046,
+          "x": 135366,
+          "y": 26280,
           "id": "0afaa250-c36d-4ad5-b8c7-0d88183402b6"
         },
         "623c1c48-e4a8-4196-91f5-327d95200112": {
           "label": "Tally stick",
           "link": "https://en.wikipedia.org/wiki/Tally stick",
-          "x": 140414,
-          "y": 26071,
+          "x": 135337,
+          "y": 26305,
           "id": "623c1c48-e4a8-4196-91f5-327d95200112"
         },
         "04ea32d5-cc58-4a6a-afeb-69342cbd983a": {
           "label": "Tata-tonga",
           "link": "https://en.wikipedia.org/wiki/Tata-tonga",
-          "x": 140418,
-          "y": 26096,
+          "x": 135341,
+          "y": 26330,
           "id": "04ea32d5-cc58-4a6a-afeb-69342cbd983a"
         },
         "2e374e9a-9286-41fb-9beb-16a4c80e3b13": {
           "label": "Telugu-Kannada alphabet",
           "link": "https://en.wikipedia.org/wiki/Telugu-Kannada alphabet",
-          "x": 140465,
-          "y": 26121,
+          "x": 135388,
+          "y": 26355,
           "id": "2e374e9a-9286-41fb-9beb-16a4c80e3b13"
         },
         "149de2c6-a81c-48e6-a380-66c3a84fd088": {
           "label": "Tirhuta",
           "link": "https://en.wikipedia.org/wiki/Tirhuta",
-          "x": 140406,
-          "y": 26146,
+          "x": 135329,
+          "y": 26380,
           "id": "149de2c6-a81c-48e6-a380-66c3a84fd088"
         },
         "f478f90a-c9ba-4cba-a5a9-fe05159982a9": {
           "label": "Tittle",
           "link": "https://en.wikipedia.org/wiki/Tittle",
-          "x": 140399,
-          "y": 26171,
+          "x": 135322,
+          "y": 26405,
           "id": "f478f90a-c9ba-4cba-a5a9-fe05159982a9"
         },
         "e91c7827-dc66-4f6a-b7dd-2b8332a85f11": {
           "label": "Tocharian alphabet",
           "link": "https://en.wikipedia.org/wiki/Tocharian alphabet",
-          "x": 140444,
-          "y": 26196,
+          "x": 135367,
+          "y": 26430,
           "id": "e91c7827-dc66-4f6a-b7dd-2b8332a85f11"
         },
         "2ca91599-b59d-491f-bc8a-74af4d0cb92a": {
           "label": "Todhri alphabet",
           "link": "https://en.wikipedia.org/wiki/Todhri alphabet",
-          "x": 140433,
-          "y": 26221,
+          "x": 135356,
+          "y": 26455,
           "id": "2ca91599-b59d-491f-bc8a-74af4d0cb92a"
         },
         "1681f9ea-c0aa-437e-9b05-12753c17c825": {
           "label": "Tone letter",
           "link": "https://en.wikipedia.org/wiki/Tone letter",
-          "x": 140417,
-          "y": 26246,
+          "x": 135340,
+          "y": 26480,
           "id": "1681f9ea-c0aa-437e-9b05-12753c17c825"
         },
         "e90b2562-8a70-4198-85c0-fdde249138e7": {
           "label": "Unicase",
           "link": "https://en.wikipedia.org/wiki/Unicase",
-          "x": 140409,
-          "y": 26271,
+          "x": 135332,
+          "y": 26505,
           "id": "e90b2562-8a70-4198-85c0-fdde249138e7"
         },
         "afdb1128-a88b-4e9c-af87-92105db0784d": {
           "label": "Vellara alphabet",
           "link": "https://en.wikipedia.org/wiki/Vellara alphabet",
-          "x": 140435,
-          "y": 26296,
+          "x": 135358,
+          "y": 26530,
           "id": "afdb1128-a88b-4e9c-af87-92105db0784d"
         },
         "0dfa402a-874c-4dab-a238-2df87e589719": {
           "label": "Visible Language",
           "link": "https://en.wikipedia.org/wiki/Visible Language",
-          "x": 140438,
-          "y": 26321,
+          "x": 135361,
+          "y": 26555,
           "id": "0dfa402a-874c-4dab-a238-2df87e589719"
         },
         "d61861b7-3ed2-491c-aeda-14e577fb3e1e": {
           "label": "Vithkuqi script",
           "link": "https://en.wikipedia.org/wiki/Vithkuqi script",
-          "x": 140427,
-          "y": 26346,
+          "x": 135350,
+          "y": 26580,
           "id": "d61861b7-3ed2-491c-aeda-14e577fb3e1e"
         },
         "55805075-cf60-4069-bc72-c15d82e33204": {
           "label": "Writing system",
           "link": "https://en.wikipedia.org/wiki/Writing system",
-          "x": 140430,
-          "y": 26371,
+          "x": 135353,
+          "y": 26605,
           "id": "55805075-cf60-4069-bc72-c15d82e33204"
         },
         "7c42a064-fd24-4f34-9dad-e36a6f6c7ef2": {
           "label": "Writing systems of Southeast Asia",
           "link": "https://en.wikipedia.org/wiki/Writing systems of Southeast Asia",
-          "x": 140491,
-          "y": 26396,
+          "x": 135414,
+          "y": 26630,
           "id": "7c42a064-fd24-4f34-9dad-e36a6f6c7ef2"
         },
         "3c6f90cf-aa45-4e7b-bf22-be923f822fb5": {
           "label": "Category:Writing systems of Africa",
           "link": "https://en.wikipedia.org/wiki/Category:Writing systems of Africa",
-          "x": 140492,
-          "y": 26421,
+          "x": 135415,
+          "y": 26655,
           "id": "3c6f90cf-aa45-4e7b-bf22-be923f822fb5"
         },
         "6f403927-e6f7-424f-9210-bdecf865111f": {
           "label": "Category:Writing systems of the Americas",
           "link": "https://en.wikipedia.org/wiki/Category:Writing systems of the Americas",
-          "x": 140516,
-          "y": 26446,
+          "x": 135439,
+          "y": 26680,
           "id": "6f403927-e6f7-424f-9210-bdecf865111f"
         },
         "7535c413-969b-4795-bb97-2f79efb674ab": {
           "label": "Category:Writing systems of Asia",
           "link": "https://en.wikipedia.org/wiki/Category:Writing systems of Asia",
-          "x": 140488,
-          "y": 26471,
+          "x": 135411,
+          "y": 26705,
           "id": "7535c413-969b-4795-bb97-2f79efb674ab"
         },
         "068c5a86-4048-4060-96e6-0a92f9510390": {
           "label": "Category:Bronze Age writing systems",
           "link": "https://en.wikipedia.org/wiki/Category:Bronze Age writing systems",
-          "x": 140502,
-          "y": 26496,
+          "x": 135425,
+          "y": 26730,
           "id": "068c5a86-4048-4060-96e6-0a92f9510390"
         },
         "a7c87ba8-4848-498b-bf6a-6de613336a84": {
           "label": "Category:Creators of writing systems",
           "link": "https://en.wikipedia.org/wiki/Category:Creators of writing systems",
-          "x": 140500,
-          "y": 26521,
+          "x": 135423,
+          "y": 26755,
           "id": "a7c87ba8-4848-498b-bf6a-6de613336a84"
         },
         "1f9292c8-ae48-4787-b7a2-a8d7115b1c96": {
           "label": "Category:Writing direction",
           "link": "https://en.wikipedia.org/wiki/Category:Writing direction",
-          "x": 140465,
-          "y": 26546,
+          "x": 135388,
+          "y": 26780,
           "id": "1f9292c8-ae48-4787-b7a2-a8d7115b1c96"
         },
         "d9e539cc-5148-4f92-8c0c-264fe6004938": {
           "label": "Category:Glyphs",
           "link": "https://en.wikipedia.org/wiki/Category:Glyphs",
-          "x": 140436,
-          "y": 26571,
+          "x": 135359,
+          "y": 26805,
           "id": "d9e539cc-5148-4f92-8c0c-264fe6004938"
         },
         "abeedb03-a559-4aea-ac0f-bc2b0c06617c": {
           "label": "Category:Graphemes",
           "link": "https://en.wikipedia.org/wiki/Category:Graphemes",
-          "x": 140452,
-          "y": 26596,
+          "x": 135375,
+          "y": 26830,
           "id": "abeedb03-a559-4aea-ac0f-bc2b0c06617c"
         },
         "af52bdc4-c4bb-4106-b16e-8215f3dc7fb5": {
           "label": "Category:Hellenic scripts",
           "link": "https://en.wikipedia.org/wiki/Category:Hellenic scripts",
-          "x": 140462,
-          "y": 26621,
+          "x": 135385,
+          "y": 26855,
           "id": "af52bdc4-c4bb-4106-b16e-8215f3dc7fb5"
         },
         "a4b73968-40d7-479e-8496-a6901f016adf": {
           "label": "Category:Hieroglyphs",
           "link": "https://en.wikipedia.org/wiki/Category:Hieroglyphs",
-          "x": 140452,
-          "y": 26646,
+          "x": 135375,
+          "y": 26880,
           "id": "a4b73968-40d7-479e-8496-a6901f016adf"
         },
         "50d50ad3-9759-41cb-803d-f822ecc4afe8": {
           "label": "Category:ISO 15924",
           "link": "https://en.wikipedia.org/wiki/Category:ISO 15924",
-          "x": 140448,
-          "y": 26671,
+          "x": 135371,
+          "y": 26905,
           "id": "50d50ad3-9759-41cb-803d-f822ecc4afe8"
         },
         "a5398684-d8d7-4b51-bd70-6daa2ae59a4c": {
           "label": "Category:Languages by script",
           "link": "https://en.wikipedia.org/wiki/Category:Languages by script",
-          "x": 140478,
-          "y": 26696,
+          "x": 135401,
+          "y": 26930,
           "id": "a5398684-d8d7-4b51-bd70-6daa2ae59a4c"
         },
         "d4df035f-b7dc-4d36-a55e-75b6bbcc5b81": {
           "label": "Category:Leet",
           "link": "https://en.wikipedia.org/wiki/Category:Leet",
-          "x": 140428,
-          "y": 26721,
+          "x": 135351,
+          "y": 26955,
           "id": "d4df035f-b7dc-4d36-a55e-75b6bbcc5b81"
         },
         "fbec6612-fcc2-48cd-8a31-bcfd23b3dfad": {
           "label": "Category:Letters with final form",
           "link": "https://en.wikipedia.org/wiki/Category:Letters with final form",
-          "x": 140482,
-          "y": 26746,
+          "x": 135405,
+          "y": 26980,
           "id": "fbec6612-fcc2-48cd-8a31-bcfd23b3dfad"
         },
         "c3d3ca4b-04cb-41f6-972d-6e308b89baa6": {
           "label": "Category:Manuscripts by script",
           "link": "https://en.wikipedia.org/wiki/Category:Manuscripts by script",
-          "x": 140481,
-          "y": 26771,
+          "x": 135404,
+          "y": 27005,
           "id": "c3d3ca4b-04cb-41f6-972d-6e308b89baa6"
         },
         "11b7ab67-5c04-4058-90bf-793b4c3943bb": {
           "label": "Category:Medieval scripts",
           "link": "https://en.wikipedia.org/wiki/Category:Medieval scripts",
-          "x": 140465,
-          "y": 26796,
+          "x": 135388,
+          "y": 27030,
           "id": "11b7ab67-5c04-4058-90bf-793b4c3943bb"
         },
         "765cda86-b631-4b59-8e85-3f8e3e2845a6": {
           "label": "Category:Mesoamerican writing systems",
           "link": "https://en.wikipedia.org/wiki/Category:Mesoamerican writing systems",
-          "x": 140512,
-          "y": 26821,
+          "x": 135435,
+          "y": 27055,
           "id": "765cda86-b631-4b59-8e85-3f8e3e2845a6"
         },
         "6a12457f-a02e-4ed3-b67b-32999b3a1546": {
           "label": "Category:Obsolete writing systems",
           "link": "https://en.wikipedia.org/wiki/Category:Obsolete writing systems",
-          "x": 140493,
-          "y": 26846,
+          "x": 135416,
+          "y": 27080,
           "id": "6a12457f-a02e-4ed3-b67b-32999b3a1546"
         },
         "34152d94-8666-4b4b-ba1a-e53e8d7a440d": {
           "label": "Category:Orthography",
           "link": "https://en.wikipedia.org/wiki/Category:Orthography",
-          "x": 140454,
-          "y": 26871,
+          "x": 135377,
+          "y": 27105,
           "id": "34152d94-8666-4b4b-ba1a-e53e8d7a440d"
         },
         "24088546-d778-4854-a43d-89302cf12a4d": {
           "label": "Category:Palaeographers",
           "link": "https://en.wikipedia.org/wiki/Category:Palaeographers",
-          "x": 140465,
-          "y": 26896,
+          "x": 135388,
+          "y": 27130,
           "id": "24088546-d778-4854-a43d-89302cf12a4d"
         },
         "edb86475-caf4-495a-8238-5fc0db4ec1ee": {
           "label": "Category:Palaeography",
           "link": "https://en.wikipedia.org/wiki/Category:Palaeography",
-          "x": 140458,
-          "y": 26921,
+          "x": 135381,
+          "y": 27155,
           "id": "edb86475-caf4-495a-8238-5fc0db4ec1ee"
         },
         "0db96944-d913-4817-9de5-09c3644f2e7c": {
           "label": "Category:Sign language notation",
           "link": "https://en.wikipedia.org/wiki/Category:Sign language notation",
-          "x": 140487,
-          "y": 26946,
+          "x": 135410,
+          "y": 27180,
           "id": "0db96944-d913-4817-9de5-09c3644f2e7c"
         },
         "4644dec5-510b-4710-9946-e223fae670fb": {
           "label": "Category:Transliteration",
           "link": "https://en.wikipedia.org/wiki/Category:Transliteration",
-          "x": 140460,
-          "y": 26971,
+          "x": 135383,
+          "y": 27205,
           "id": "4644dec5-510b-4710-9946-e223fae670fb"
         },
         "c43ec3d2-a3a0-441e-8969-e157af36aa4e": {
           "label": "Category:Typefaces by script",
           "link": "https://en.wikipedia.org/wiki/Category:Typefaces by script",
-          "x": 140476,
-          "y": 26996,
+          "x": 135399,
+          "y": 27230,
           "id": "c43ec3d2-a3a0-441e-8969-e157af36aa4e"
         },
         "847e52a0-e9a0-420e-981d-6a13c4bbabfa": {
           "label": "Category:Types of writing systems",
           "link": "https://en.wikipedia.org/wiki/Category:Types of writing systems",
-          "x": 140492,
-          "y": 27021,
+          "x": 135415,
+          "y": 27255,
           "id": "847e52a0-e9a0-420e-981d-6a13c4bbabfa"
         },
         "b6ba7887-99bf-4478-9f45-4ba5457b7486": {
           "label": "Category:Typography",
           "link": "https://en.wikipedia.org/wiki/Category:Typography",
-          "x": 140452,
-          "y": 27046,
+          "x": 135375,
+          "y": 27280,
           "id": "b6ba7887-99bf-4478-9f45-4ba5457b7486"
         },
         "1a7d822d-26f3-4c74-a8ac-f265ad630ead": {
           "label": "Category:Undeciphered writing systems",
           "link": "https://en.wikipedia.org/wiki/Category:Undeciphered writing systems",
-          "x": 140509,
-          "y": 27071,
+          "x": 135432,
+          "y": 27305,
           "id": "1a7d822d-26f3-4c74-a8ac-f265ad630ead"
         },
         "84a053e1-fcf0-4866-ae7f-42c6145adfb2": {
           "label": "Category:Writing system specialists",
           "link": "https://en.wikipedia.org/wiki/Category:Writing system specialists",
-          "x": 140495,
-          "y": 27096,
+          "x": 135418,
+          "y": 27330,
           "id": "84a053e1-fcf0-4866-ae7f-42c6145adfb2"
         },
         "1dc87463-edee-40a1-aa23-63190d7804ab": {
           "label": "Category:Writing systems by date of introduction",
           "link": "https://en.wikipedia.org/wiki/Category:Writing systems by date of introduction",
-          "x": 140537,
-          "y": 27121,
+          "x": 135460,
+          "y": 27355,
           "id": "1dc87463-edee-40a1-aa23-63190d7804ab"
         },
         "23791abe-c649-4f1f-8b06-f63139f5b109": {
           "label": "Category:Writing systems by origin",
           "link": "https://en.wikipedia.org/wiki/Category:Writing systems by origin",
-          "x": 140493,
-          "y": 27146,
+          "x": 135416,
+          "y": 27380,
           "id": "23791abe-c649-4f1f-8b06-f63139f5b109"
         },
         "7533e6f6-aa26-413f-aaa1-4e187409d85b": {
           "label": "Category:Writing systems without word boundaries",
           "link": "https://en.wikipedia.org/wiki/Category:Writing systems without word boundaries",
-          "x": 140544,
-          "y": 27171,
+          "x": 135467,
+          "y": 27405,
           "id": "7533e6f6-aa26-413f-aaa1-4e187409d85b"
         },
         "975c8b35-56f5-4c2c-ac76-4a9a8e28a5ab": {
           "label": "Category:Writing system stubs",
           "link": "https://en.wikipedia.org/wiki/Category:Writing system stubs",
-          "x": 140480,
-          "y": 27196,
+          "x": 135403,
+          "y": 27430,
           "id": "975c8b35-56f5-4c2c-ac76-4a9a8e28a5ab"
         },
         "d1999b77-7c75-4a98-8d2f-38ba203c7595": {
@@ -36118,498 +36118,498 @@ var schemeData =
         "edf03373-6c5b-4bd0-acef-53146d2c1e73": {
           "label": "African-American Baseline Essays",
           "link": "https://en.wikipedia.org/wiki/African-American Baseline Essays",
-          "x": 140463,
-          "y": 31956,
+          "x": 135386,
+          "y": 32190,
           "id": "edf03373-6c5b-4bd0-acef-53146d2c1e73"
         },
         "558ba326-c5e8-4296-b0eb-75d2ce5b567a": {
           "label": "The American Field Trip",
           "link": "https://en.wikipedia.org/wiki/The American Field Trip",
-          "x": 140432,
-          "y": 31981,
+          "x": 135355,
+          "y": 32215,
           "id": "558ba326-c5e8-4296-b0eb-75d2ce5b567a"
         },
         "c991189f-5867-47ce-a90a-cc5d1613ebe0": {
           "label": "Assignment cover sheet",
           "link": "https://en.wikipedia.org/wiki/Assignment cover sheet",
-          "x": 140431,
-          "y": 32006,
+          "x": 135354,
+          "y": 32240,
           "id": "c991189f-5867-47ce-a90a-cc5d1613ebe0"
         },
         "d25c1ecd-19b5-44e7-aed1-abdcc1a8785a": {
           "label": "Baby video",
           "link": "https://en.wikipedia.org/wiki/Baby video",
-          "x": 140390,
-          "y": 32031,
+          "x": 135313,
+          "y": 32265,
           "id": "d25c1ecd-19b5-44e7-aed1-abdcc1a8785a"
         },
         "144ca29b-79c2-4df2-b7c9-102e1824637f": {
           "label": "Book-and-record set",
           "link": "https://en.wikipedia.org/wiki/Book-and-record set",
-          "x": 140420,
-          "y": 32056,
+          "x": 135343,
+          "y": 32290,
           "id": "144ca29b-79c2-4df2-b7c9-102e1824637f"
         },
         "1bde08a1-e7c0-4578-a8cc-e9bf99c7af89": {
           "label": "Cheat sheet",
           "link": "https://en.wikipedia.org/wiki/Cheat sheet",
-          "x": 140394,
-          "y": 32081,
+          "x": 135317,
+          "y": 32315,
           "id": "1bde08a1-e7c0-4578-a8cc-e9bf99c7af89"
         },
         "4b3fca85-7b67-4f86-aef9-07c7c3483073": {
           "label": "Coloring book",
           "link": "https://en.wikipedia.org/wiki/Coloring book",
-          "x": 140399,
-          "y": 32106,
+          "x": 135322,
+          "y": 32340,
           "id": "4b3fca85-7b67-4f86-aef9-07c7c3483073"
         },
         "3deb1290-e9bf-424e-aa86-40bc84da55b8": {
           "label": "Coursepacks",
           "link": "https://en.wikipedia.org/wiki/Coursepacks",
-          "x": 140397,
-          "y": 32131,
+          "x": 135320,
+          "y": 32365,
           "id": "3deb1290-e9bf-424e-aa86-40bc84da55b8"
         },
         "c1d38d41-d4e5-4323-adcc-059d97b4912d": {
           "label": "Digital learning assets",
           "link": "https://en.wikipedia.org/wiki/Digital learning assets",
-          "x": 140425,
-          "y": 32156,
+          "x": 135348,
+          "y": 32390,
           "id": "c1d38d41-d4e5-4323-adcc-059d97b4912d"
         },
         "8460ee3c-55a6-4e75-bb95-33a798cecb41": {
           "label": "Education Resources Information Center",
           "link": "https://en.wikipedia.org/wiki/Education Resources Information Center",
-          "x": 140484,
-          "y": 32181,
+          "x": 135407,
+          "y": 32415,
           "id": "8460ee3c-55a6-4e75-bb95-33a798cecb41"
         },
         "ae2fecc5-7143-4b56-8fc9-5dbcb542b138": {
           "label": "Educational entertainment",
           "link": "https://en.wikipedia.org/wiki/Educational entertainment",
-          "x": 140438,
-          "y": 32206,
+          "x": 135361,
+          "y": 32440,
           "id": "ae2fecc5-7143-4b56-8fc9-5dbcb542b138"
         },
         "d8a2634d-e974-427e-b859-914e3e88aa1f": {
           "label": "Electronic portfolio",
           "link": "https://en.wikipedia.org/wiki/Electronic portfolio",
-          "x": 140414,
-          "y": 32231,
+          "x": 135337,
+          "y": 32465,
           "id": "d8a2634d-e974-427e-b859-914e3e88aa1f"
         },
         "c1667cd0-6f12-4ae5-94bf-47a136067d84": {
           "label": "Entertainment in education",
           "link": "https://en.wikipedia.org/wiki/Entertainment in education",
-          "x": 140440,
-          "y": 32256,
+          "x": 135363,
+          "y": 32490,
           "id": "c1667cd0-6f12-4ae5-94bf-47a136067d84"
         },
         "b5f87709-d6d6-4520-9868-8f266ece6925": {
           "label": "Filmstrip",
           "link": "https://en.wikipedia.org/wiki/Filmstrip",
-          "x": 140382,
-          "y": 32281,
+          "x": 135305,
+          "y": 32515,
           "id": "b5f87709-d6d6-4520-9868-8f266ece6925"
         },
         "7519dba5-9f12-4219-b733-71b2f21d79f7": {
           "label": "Flashnotes",
           "link": "https://en.wikipedia.org/wiki/Flashnotes",
-          "x": 140390,
-          "y": 32306,
+          "x": 135313,
+          "y": 32540,
           "id": "7519dba5-9f12-4219-b733-71b2f21d79f7"
         },
         "5a0f2e2f-23dd-4509-bb63-9f65059e9879": {
           "label": "Frames of Reference",
           "link": "https://en.wikipedia.org/wiki/Frames of Reference",
-          "x": 140423,
-          "y": 32331,
+          "x": 135346,
+          "y": 32565,
           "id": "5a0f2e2f-23dd-4509-bb63-9f65059e9879"
         },
         "6216e018-48aa-49b6-a533-12b83bf0305d": {
           "label": "Fronimo Dialogo",
           "link": "https://en.wikipedia.org/wiki/Fronimo Dialogo",
-          "x": 140408,
-          "y": 32356,
+          "x": 135331,
+          "y": 32590,
           "id": "6216e018-48aa-49b6-a533-12b83bf0305d"
         },
         "71c8ae96-4513-4285-b1c8-1e23b33bd75f": {
           "label": "Geometry template",
           "link": "https://en.wikipedia.org/wiki/Geometry template",
-          "x": 140416,
-          "y": 32381,
+          "x": 135339,
+          "y": 32615,
           "id": "71c8ae96-4513-4285-b1c8-1e23b33bd75f"
         },
         "5154d4cf-407e-40de-8e90-9dd053e69d9a": {
           "label": "Gleducar",
           "link": "https://en.wikipedia.org/wiki/Gleducar",
-          "x": 140384,
-          "y": 32406,
+          "x": 135307,
+          "y": 32640,
           "id": "5154d4cf-407e-40de-8e90-9dd053e69d9a"
         },
         "1a786ddf-b797-4460-9109-08fd0f0a397f": {
           "label": "Handbook of Latin American Studies",
           "link": "https://en.wikipedia.org/wiki/Handbook of Latin American Studies",
-          "x": 140471,
-          "y": 32431,
+          "x": 135394,
+          "y": 32665,
           "id": "1a786ddf-b797-4460-9109-08fd0f0a397f"
         },
         "b0744f51-e2f5-4d5a-bc3d-ac4a7693abeb": {
           "label": "Instructional animation",
           "link": "https://en.wikipedia.org/wiki/Instructional animation",
-          "x": 140427,
-          "y": 32456,
+          "x": 135350,
+          "y": 32690,
           "id": "b0744f51-e2f5-4d5a-bc3d-ac4a7693abeb"
         },
         "e208b9d6-e83e-4438-a99e-40c64c713acd": {
           "label": "Instructional materials",
           "link": "https://en.wikipedia.org/wiki/Instructional materials",
-          "x": 140425,
-          "y": 32481,
+          "x": 135348,
+          "y": 32715,
           "id": "e208b9d6-e83e-4438-a99e-40c64c713acd"
         },
         "dc8223b5-65d0-4ec8-8caa-13d7294920f9": {
           "label": "Learning object",
           "link": "https://en.wikipedia.org/wiki/Learning object",
-          "x": 140404,
-          "y": 32506,
+          "x": 135327,
+          "y": 32740,
           "id": "dc8223b5-65d0-4ec8-8caa-13d7294920f9"
         },
         "b383e50a-5108-46a6-a8d9-e85b8c48fc6a": {
           "label": "Learning store",
           "link": "https://en.wikipedia.org/wiki/Learning store",
-          "x": 140401,
-          "y": 32531,
+          "x": 135324,
+          "y": 32765,
           "id": "b383e50a-5108-46a6-a8d9-e85b8c48fc6a"
         },
         "c0a0c18b-0da0-42ec-a52e-ef2f472f8959": {
           "label": "Let's Go (textbooks)",
           "link": "https://en.wikipedia.org/wiki/Let's Go (textbooks)",
-          "x": 140419,
-          "y": 32556,
+          "x": 135342,
+          "y": 32790,
           "id": "c0a0c18b-0da0-42ec-a52e-ef2f472f8959"
         },
         "d282a024-100a-4550-8479-01727a993c79": {
           "label": "Mashup (education)",
           "link": "https://en.wikipedia.org/wiki/Mashup (education)",
-          "x": 140419,
-          "y": 32581,
+          "x": 135342,
+          "y": 32815,
           "id": "d282a024-100a-4550-8479-01727a993c79"
         },
         "6f6e4675-b4dd-4036-91d1-64fe0e292712": {
           "label": "Mock election",
           "link": "https://en.wikipedia.org/wiki/Mock election",
-          "x": 140399,
-          "y": 32606,
+          "x": 135322,
+          "y": 32840,
           "id": "6f6e4675-b4dd-4036-91d1-64fe0e292712"
         },
         "b822316a-5596-41fc-a7a0-54f0bd3fab48": {
           "label": "Mr. Know It Owl",
           "link": "https://en.wikipedia.org/wiki/Mr. Know It Owl",
-          "x": 140405,
-          "y": 32631,
+          "x": 135328,
+          "y": 32865,
           "id": "b822316a-5596-41fc-a7a0-54f0bd3fab48"
         },
         "3f21c59a-0768-4668-8649-9cf839e9b5a5": {
           "label": "National Repository of Open Educational Resources",
           "link": "https://en.wikipedia.org/wiki/National Repository of Open Educational Resources",
-          "x": 140520,
-          "y": 32656,
+          "x": 135443,
+          "y": 32890,
           "id": "3f21c59a-0768-4668-8649-9cf839e9b5a5"
         },
         "ca5424a1-7660-4b5d-a157-1331f8fdd5ce": {
           "label": "Norwegian Digital Learning Arena",
           "link": "https://en.wikipedia.org/wiki/Norwegian Digital Learning Arena",
-          "x": 140462,
-          "y": 32681,
+          "x": 135385,
+          "y": 32915,
           "id": "ca5424a1-7660-4b5d-a157-1331f8fdd5ce"
         },
         "d35be279-d2a9-4b3d-b1af-0f40e066f72f": {
           "label": "The Novel: An Introduction",
           "link": "https://en.wikipedia.org/wiki/The Novel: An Introduction",
-          "x": 140440,
-          "y": 32706,
+          "x": 135363,
+          "y": 32940,
           "id": "d35be279-d2a9-4b3d-b1af-0f40e066f72f"
         },
         "be2fa1f2-9fe8-40e0-9322-0392ab3fcf5c": {
           "label": "Open educational practices in Australia",
           "link": "https://en.wikipedia.org/wiki/Open educational practices in Australia",
-          "x": 140479,
-          "y": 32731,
+          "x": 135402,
+          "y": 32965,
           "id": "be2fa1f2-9fe8-40e0-9322-0392ab3fcf5c"
         },
         "54b969b9-8c40-4867-bb43-ce68ebadfc04": {
           "label": "Open educational resources",
           "link": "https://en.wikipedia.org/wiki/Open educational resources",
-          "x": 140445,
-          "y": 32756,
+          "x": 135368,
+          "y": 32990,
           "id": "54b969b9-8c40-4867-bb43-ce68ebadfc04"
         },
         "ef542109-4c56-46ee-b3f5-200fe8cbbe1a": {
           "label": "OER Commons",
           "link": "https://en.wikipedia.org/wiki/OER Commons",
-          "x": 140405,
-          "y": 32781,
+          "x": 135328,
+          "y": 33015,
           "id": "ef542109-4c56-46ee-b3f5-200fe8cbbe1a"
         },
         "1b820e50-d4b1-4b5e-83d0-f944b7c663c6": {
           "label": "Open Course Library",
           "link": "https://en.wikipedia.org/wiki/Open Course Library",
-          "x": 140422,
-          "y": 32806,
+          "x": 135345,
+          "y": 33040,
           "id": "1b820e50-d4b1-4b5e-83d0-f944b7c663c6"
         },
         "5b28401e-3a9c-4d65-a050-4f832c31a1a9": {
           "label": "Open educational resources in Canada",
           "link": "https://en.wikipedia.org/wiki/Open educational resources in Canada",
-          "x": 140479,
-          "y": 32831,
+          "x": 135402,
+          "y": 33065,
           "id": "5b28401e-3a9c-4d65-a050-4f832c31a1a9"
         },
         "db5a69c1-904b-4d89-9184-b10f81161e3e": {
           "label": "Open educational resources policy",
           "link": "https://en.wikipedia.org/wiki/Open educational resources policy",
-          "x": 140465,
-          "y": 32856,
+          "x": 135388,
+          "y": 33090,
           "id": "db5a69c1-904b-4d89-9184-b10f81161e3e"
         },
         "8cb4b584-f950-4356-874b-0423c4ef01c1": {
           "label": "Pointer (rod)",
           "link": "https://en.wikipedia.org/wiki/Pointer (rod)",
-          "x": 140395,
-          "y": 32881,
+          "x": 135318,
+          "y": 33115,
           "id": "8cb4b584-f950-4356-874b-0423c4ef01c1"
         },
         "8b87f778-4752-4688-948d-a31807af0b64": {
           "label": "Realia (education)",
           "link": "https://en.wikipedia.org/wiki/Realia (education)",
-          "x": 140413,
-          "y": 32906,
+          "x": 135336,
+          "y": 33140,
           "id": "8b87f778-4752-4688-948d-a31807af0b64"
         },
         "8b717f2f-38fa-4009-bcc6-d236a26f62f4": {
           "label": "Sally Ride Science",
           "link": "https://en.wikipedia.org/wiki/Sally Ride Science",
-          "x": 140414,
-          "y": 32931,
+          "x": 135337,
+          "y": 33165,
           "id": "8b717f2f-38fa-4009-bcc6-d236a26f62f4"
         },
         "995829c3-692f-4ec1-b988-8e374ea3197b": {
           "label": "The Social Seminar",
           "link": "https://en.wikipedia.org/wiki/The Social Seminar",
-          "x": 140417,
-          "y": 32956,
+          "x": 135340,
+          "y": 33190,
           "id": "995829c3-692f-4ec1-b988-8e374ea3197b"
         },
         "4f47bfdc-6c1e-49bd-8d7b-241c38c556a0": {
           "label": "Strahlendes Klima",
           "link": "https://en.wikipedia.org/wiki/Strahlendes Klima",
-          "x": 140413,
-          "y": 32981,
+          "x": 135336,
+          "y": 33215,
           "id": "4f47bfdc-6c1e-49bd-8d7b-241c38c556a0"
         },
         "293aafd8-504f-48a5-9130-7867afb2847c": {
           "label": "Syllabus",
           "link": "https://en.wikipedia.org/wiki/Syllabus",
-          "x": 140382,
-          "y": 33006,
+          "x": 135305,
+          "y": 33240,
           "id": "293aafd8-504f-48a5-9130-7867afb2847c"
         },
         "6356e249-8847-4581-b49f-d8278b625f07": {
           "label": "Teaching with Calvin and Hobbes",
           "link": "https://en.wikipedia.org/wiki/Teaching with Calvin and Hobbes",
-          "x": 140461,
-          "y": 33031,
+          "x": 135384,
+          "y": 33265,
           "id": "6356e249-8847-4581-b49f-d8278b625f07"
         },
         "c2f7a07e-a82a-4105-b501-cbc9db3ee355": {
           "label": "Textbook",
           "link": "https://en.wikipedia.org/wiki/Textbook",
-          "x": 140384,
-          "y": 33056,
+          "x": 135307,
+          "y": 33290,
           "id": "c2f7a07e-a82a-4105-b501-cbc9db3ee355"
         },
         "b3be83e4-c6e1-4827-babf-48e0b377389c": {
           "label": "Thinkswap",
           "link": "https://en.wikipedia.org/wiki/Thinkswap",
-          "x": 140389,
-          "y": 33081,
+          "x": 135312,
+          "y": 33315,
           "id": "b3be83e4-c6e1-4827-babf-48e0b377389c"
         },
         "bc2b4c91-cb14-4041-9b2d-e6f71c5f34b2": {
           "label": "Uni in the USA",
           "link": "https://en.wikipedia.org/wiki/Uni in the USA",
-          "x": 140401,
-          "y": 33106,
+          "x": 135324,
+          "y": 33340,
           "id": "bc2b4c91-cb14-4041-9b2d-e6f71c5f34b2"
         },
         "5714621d-2c1e-4b30-9095-b68a30f57663": {
           "label": "Unikkausivut: Sharing Our Stories",
           "link": "https://en.wikipedia.org/wiki/Unikkausivut: Sharing Our Stories",
-          "x": 140462,
-          "y": 33131,
+          "x": 135385,
+          "y": 33365,
           "id": "5714621d-2c1e-4b30-9095-b68a30f57663"
         },
         "4562ebc6-7a2a-49d8-83d1-28443544867e": {
           "label": "Video lesson",
           "link": "https://en.wikipedia.org/wiki/Video lesson",
-          "x": 140396,
-          "y": 33156,
+          "x": 135319,
+          "y": 33390,
           "id": "4562ebc6-7a2a-49d8-83d1-28443544867e"
         },
         "dbb4d6b4-81e6-4aad-99d3-5ec2b1664db7": {
           "label": "Writing Commons",
           "link": "https://en.wikipedia.org/wiki/Writing Commons",
-          "x": 140412,
-          "y": 33181,
+          "x": 135335,
+          "y": 33415,
           "id": "dbb4d6b4-81e6-4aad-99d3-5ec2b1664db7"
         },
         "51aae8d2-53e1-4aa3-a150-35f51437bd91": {
           "label": "Category:Educational media awards",
           "link": "https://en.wikipedia.org/wiki/Category:Educational media awards",
-          "x": 140470,
-          "y": 33206,
+          "x": 135393,
+          "y": 33440,
           "id": "51aae8d2-53e1-4aa3-a150-35f51437bd91"
         },
         "33dd0f4c-2c08-4099-8005-ce4576493c2b": {
           "label": "Category:Educational comics",
           "link": "https://en.wikipedia.org/wiki/Category:Educational comics",
-          "x": 140447,
-          "y": 33231,
+          "x": 135370,
+          "y": 33465,
           "id": "33dd0f4c-2c08-4099-8005-ce4576493c2b"
         },
         "a32bdca2-584a-43dd-b43c-e345ea575bc2": {
           "label": "Category:Early childhood education materials",
           "link": "https://en.wikipedia.org/wiki/Category:Early childhood education materials",
-          "x": 140499,
-          "y": 33256,
+          "x": 135422,
+          "y": 33490,
           "id": "a32bdca2-584a-43dd-b43c-e345ea575bc2"
         },
         "88c723a4-7154-45ce-8a88-8e83da65d8a9": {
           "label": "Category:Educational podcasts",
           "link": "https://en.wikipedia.org/wiki/Category:Educational podcasts",
-          "x": 140454,
-          "y": 33281,
+          "x": 135377,
+          "y": 33515,
           "id": "88c723a4-7154-45ce-8a88-8e83da65d8a9"
         },
         "997b8f0f-826d-4c14-92d2-81c1bf3c6a8d": {
           "label": "Category:Educational publishing companies",
           "link": "https://en.wikipedia.org/wiki/Category:Educational publishing companies",
-          "x": 140494,
-          "y": 33306,
+          "x": 135417,
+          "y": 33540,
           "id": "997b8f0f-826d-4c14-92d2-81c1bf3c6a8d"
         },
         "d7227594-4d0e-4616-ab64-8f18d263f63e": {
           "label": "Category:Educational films",
           "link": "https://en.wikipedia.org/wiki/Category:Educational films",
-          "x": 140440,
-          "y": 33331,
+          "x": 135363,
+          "y": 33565,
           "id": "d7227594-4d0e-4616-ab64-8f18d263f63e"
         },
         "190304cc-350f-4b49-8d3a-3513b2b2c751": {
           "label": "Category:Educational games",
           "link": "https://en.wikipedia.org/wiki/Category:Educational games",
-          "x": 140447,
-          "y": 33356,
+          "x": 135370,
+          "y": 33590,
           "id": "190304cc-350f-4b49-8d3a-3513b2b2c751"
         },
         "3f6fbb74-c3d4-4007-8556-6dd1cb25e99c": {
           "label": "Category:History resources",
           "link": "https://en.wikipedia.org/wiki/Category:History resources",
-          "x": 140442,
-          "y": 33381,
+          "x": 135365,
+          "y": 33615,
           "id": "3f6fbb74-c3d4-4007-8556-6dd1cb25e99c"
         },
         "bbb0938f-602a-4095-a585-b6a857aa5214": {
           "label": "Category:Language education materials",
           "link": "https://en.wikipedia.org/wiki/Category:Language education materials",
-          "x": 140482,
-          "y": 33406,
+          "x": 135405,
+          "y": 33640,
           "id": "bbb0938f-602a-4095-a585-b6a857aa5214"
         },
         "9da90415-75d0-4657-a622-9da74d2b017a": {
           "label": "Category:Education magazines",
           "link": "https://en.wikipedia.org/wiki/Category:Education magazines",
-          "x": 140454,
-          "y": 33431,
+          "x": 135377,
+          "y": 33665,
           "id": "9da90415-75d0-4657-a622-9da74d2b017a"
         },
         "d07bef88-4434-4228-bee7-3a3ec279776d": {
           "label": "Category:Mathematical manipulatives",
           "link": "https://en.wikipedia.org/wiki/Category:Mathematical manipulatives",
-          "x": 140474,
-          "y": 33456,
+          "x": 135397,
+          "y": 33690,
           "id": "d07bef88-4434-4228-bee7-3a3ec279776d"
         },
         "742454e3-2a04-4655-88eb-229d8911ab8b": {
           "label": "Category:Museum educational materials",
           "link": "https://en.wikipedia.org/wiki/Category:Museum educational materials",
-          "x": 140483,
-          "y": 33481,
+          "x": 135406,
+          "y": 33715,
           "id": "742454e3-2a04-4655-88eb-229d8911ab8b"
         },
         "d4cf6924-8772-4238-bf4b-f99becf31da5": {
           "label": "Category:Online edutainment",
           "link": "https://en.wikipedia.org/wiki/Category:Online edutainment",
-          "x": 140448,
-          "y": 33506,
+          "x": 135371,
+          "y": 33740,
           "id": "d4cf6924-8772-4238-bf4b-f99becf31da5"
         },
         "dcf7915b-2129-4a0e-8145-f61c5e543508": {
           "label": "Category:Open educational resources",
           "link": "https://en.wikipedia.org/wiki/Category:Open educational resources",
-          "x": 140476,
-          "y": 33531,
+          "x": 135399,
+          "y": 33765,
           "id": "dcf7915b-2129-4a0e-8145-f61c5e543508"
         },
         "80a985be-8d1a-468e-b5b9-4746cf01357e": {
           "label": "Category:Reference works",
           "link": "https://en.wikipedia.org/wiki/Category:Reference works",
-          "x": 140440,
-          "y": 33556,
+          "x": 135363,
+          "y": 33790,
           "id": "80a985be-8d1a-468e-b5b9-4746cf01357e"
         },
         "575b7516-110a-43da-a847-b8fd03ed011d": {
           "label": "Category:Science education materials",
           "link": "https://en.wikipedia.org/wiki/Category:Science education materials",
-          "x": 140475,
-          "y": 33581,
+          "x": 135398,
+          "y": 33815,
           "id": "575b7516-110a-43da-a847-b8fd03ed011d"
         },
         "2b0341b4-ca7e-4c20-bc6a-c31dbc767b51": {
           "label": "Category:Educational software",
           "link": "https://en.wikipedia.org/wiki/Category:Educational software",
-          "x": 140452,
-          "y": 33606,
+          "x": 135375,
+          "y": 33840,
           "id": "2b0341b4-ca7e-4c20-bc6a-c31dbc767b51"
         },
         "9c94bb62-fbf1-4993-9cd0-105ef35f00c9": {
           "label": "Category:Educational television",
           "link": "https://en.wikipedia.org/wiki/Category:Educational television",
-          "x": 140455,
-          "y": 33631,
+          "x": 135378,
+          "y": 33865,
           "id": "9c94bb62-fbf1-4993-9cd0-105ef35f00c9"
         },
         "cfb7b270-c4e2-4320-817a-15a871d595c7": {
           "label": "Category:Textbook business",
           "link": "https://en.wikipedia.org/wiki/Category:Textbook business",
-          "x": 140445,
-          "y": 33656,
+          "x": 135368,
+          "y": 33890,
           "id": "cfb7b270-c4e2-4320-817a-15a871d595c7"
         },
         "e978ff08-8e94-46d9-aec0-8ccc1f7d6100": {
           "label": "Category:Textbooks",
           "link": "https://en.wikipedia.org/wiki/Category:Textbooks",
-          "x": 140419,
-          "y": 33681,
+          "x": 135342,
+          "y": 33915,
           "id": "e978ff08-8e94-46d9-aec0-8ccc1f7d6100"
         },
         "cbdafb79-5d8b-435a-9438-9a8ce9d0aa3c": {
           "label": "Category:Educational websites",
           "link": "https://en.wikipedia.org/wiki/Category:Educational websites",
-          "x": 140453,
-          "y": 33706,
+          "x": 135376,
+          "y": 33940,
           "id": "cbdafb79-5d8b-435a-9438-9a8ce9d0aa3c"
         },
         "29bcabf4-fc69-4835-a850-d204b567cef8": {
@@ -37217,525 +37217,525 @@ var schemeData =
         "80ea8aac-d289-41cd-9af7-da33987e7a75": {
           "label": "Encyclopedism",
           "link": "https://en.wikipedia.org/wiki/Encyclopedism",
-          "x": 140493,
-          "y": 29275,
+          "x": 135416,
+          "y": 29509,
           "id": "80ea8aac-d289-41cd-9af7-da33987e7a75"
         },
         "44db0840-6bb6-431b-bc15-8b6bc59f97ac": {
           "label": "Encyclopedic novel",
           "link": "https://en.wikipedia.org/wiki/Encyclopedic novel",
-          "x": 140506,
-          "y": 29300,
+          "x": 135429,
+          "y": 29534,
           "id": "44db0840-6bb6-431b-bc15-8b6bc59f97ac"
         },
         "514f5c8c-a785-48e1-91e9-4a2c17d3223b": {
           "label": "The Encyclopedic Palace of the World",
           "link": "https://en.wikipedia.org/wiki/The Encyclopedic Palace of the World",
-          "x": 140565,
-          "y": 29325,
+          "x": 135488,
+          "y": 29559,
           "id": "514f5c8c-a785-48e1-91e9-4a2c17d3223b"
         },
         "cd5044ae-c12e-4e36-b467-8a10aea83ee2": {
           "label": "Encyclopédistes",
           "link": "https://en.wikipedia.org/wiki/Encyclopédistes",
-          "x": 140496,
-          "y": 29350,
+          "x": 135419,
+          "y": 29584,
           "id": "cd5044ae-c12e-4e36-b467-8a10aea83ee2"
         },
         "296c8373-29d1-424d-9fd2-39e947b74a98": {
           "label": "History of the Encyclopædia Britannica",
           "link": "https://en.wikipedia.org/wiki/History of the Encyclopædia Britannica",
-          "x": 140567,
-          "y": 29375,
+          "x": 135490,
+          "y": 29609,
           "id": "296c8373-29d1-424d-9fd2-39e947b74a98"
         },
         "4ce97824-560b-4839-8fbf-e5daec884b4a": {
           "label": "History of Wikipedia",
           "link": "https://en.wikipedia.org/wiki/History of Wikipedia",
-          "x": 140508,
-          "y": 29400,
+          "x": 135431,
+          "y": 29634,
           "id": "4ce97824-560b-4839-8fbf-e5daec884b4a"
         },
         "c5118305-e63f-46a5-b95f-29fee0bbf963": {
           "label": "International Encyclopedia of Unified Science",
           "link": "https://en.wikipedia.org/wiki/International Encyclopedia of Unified Science",
-          "x": 140588,
-          "y": 29425,
+          "x": 135511,
+          "y": 29659,
           "id": "c5118305-e63f-46a5-b95f-29fee0bbf963"
         },
         "b5da2249-75ff-41a8-8e46-c14a1a082786": {
           "label": "Mundaneum",
           "link": "https://en.wikipedia.org/wiki/Mundaneum",
-          "x": 140485,
-          "y": 29450,
+          "x": 135408,
+          "y": 29684,
           "id": "b5da2249-75ff-41a8-8e46-c14a1a082786"
         },
         "57ad83e1-8902-4c38-beec-de0e0cba85d1": {
           "label": "The Order of Things (Kipfer book)",
           "link": "https://en.wikipedia.org/wiki/The Order of Things (Kipfer book)",
-          "x": 140553,
-          "y": 29475,
+          "x": 135476,
+          "y": 29709,
           "id": "57ad83e1-8902-4c38-beec-de0e0cba85d1"
         },
         "34ba5b83-b6ab-451a-b442-8af7d7623187": {
           "label": "World Brain",
           "link": "https://en.wikipedia.org/wiki/World Brain",
-          "x": 140482,
-          "y": 29500,
+          "x": 135405,
+          "y": 29734,
           "id": "34ba5b83-b6ab-451a-b442-8af7d7623187"
         },
         "f93024a5-8fc8-49b9-b17b-7816912a8e5e": {
           "label": "Reference work",
           "link": "https://en.wikipedia.org/wiki/Reference work",
-          "x": 140492,
-          "y": 30017,
+          "x": 135415,
+          "y": 30251,
           "id": "f93024a5-8fc8-49b9-b17b-7816912a8e5e"
         },
         "15c67406-2cf5-4df7-8c89-02463f541c80": {
           "label": "A Glossary of the Construction, Decoration, and Use of Arms and Armor in All Countries and in All Times",
           "link": "https://en.wikipedia.org/wiki/A Glossary of the Construction, Decoration, and Use of Arms and Armor in All Countries and in All Times",
-          "x": 140771,
-          "y": 30042,
+          "x": 135694,
+          "y": 30276,
           "id": "15c67406-2cf5-4df7-8c89-02463f541c80"
         },
         "c0700977-b1ef-41bd-a5ba-fde6c3d29d97": {
           "label": "Almanac",
           "link": "https://en.wikipedia.org/wiki/Almanac",
-          "x": 140469,
-          "y": 30067,
+          "x": 135392,
+          "y": 30301,
           "id": "c0700977-b1ef-41bd-a5ba-fde6c3d29d97"
         },
         "07ac544f-e777-4c3b-960f-05c91f1d88de": {
           "label": "America B.C.: Ancient Settlers in the New World",
           "link": "https://en.wikipedia.org/wiki/America B.C.: Ancient Settlers in the New World",
-          "x": 140593,
-          "y": 30092,
+          "x": 135516,
+          "y": 30326,
           "id": "07ac544f-e777-4c3b-960f-05c91f1d88de"
         },
         "450868db-14d1-4388-967b-6388aad20523": {
           "label": "Bible (screenwriting)",
           "link": "https://en.wikipedia.org/wiki/Bible (screenwriting)",
-          "x": 140506,
-          "y": 30117,
+          "x": 135429,
+          "y": 30351,
           "id": "450868db-14d1-4388-967b-6388aad20523"
         },
         "aa3b1781-313e-4972-8a67-2a4771772696": {
           "label": "Brand Book",
           "link": "https://en.wikipedia.org/wiki/Brand Book",
-          "x": 140479,
-          "y": 30142,
+          "x": 135402,
+          "y": 30376,
           "id": "aa3b1781-313e-4972-8a67-2a4771772696"
         },
         "c03629b1-e84e-430e-9530-7219341f0fde": {
           "label": "Compendium",
           "link": "https://en.wikipedia.org/wiki/Compendium",
-          "x": 140484,
-          "y": 30167,
+          "x": 135407,
+          "y": 30401,
           "id": "c03629b1-e84e-430e-9530-7219341f0fde"
         },
         "b3f5f539-d673-4ff0-85db-201b7da929d8": {
           "label": "Dictionary",
           "link": "https://en.wikipedia.org/wiki/Dictionary",
-          "x": 140473,
-          "y": 30192,
+          "x": 135396,
+          "y": 30426,
           "id": "b3f5f539-d673-4ff0-85db-201b7da929d8"
         },
         "22ed4c1d-2ff2-41d2-88d5-b47095528d13": {
           "label": "Field guide",
           "link": "https://en.wikipedia.org/wiki/Field guide",
-          "x": 140477,
-          "y": 30217,
+          "x": 135400,
+          "y": 30451,
           "id": "22ed4c1d-2ff2-41d2-88d5-b47095528d13"
         },
         "db178b33-4e82-4209-9813-c200513af387": {
           "label": "Guide to information sources",
           "link": "https://en.wikipedia.org/wiki/Guide to information sources",
-          "x": 140533,
-          "y": 30242,
+          "x": 135456,
+          "y": 30476,
           "id": "db178b33-4e82-4209-9813-c200513af387"
         },
         "04f90e6b-d977-4d9b-9ae5-3d058fc38371": {
           "label": "Handbook",
           "link": "https://en.wikipedia.org/wiki/Handbook",
-          "x": 140474,
-          "y": 30267,
+          "x": 135397,
+          "y": 30501,
           "id": "04f90e6b-d977-4d9b-9ae5-3d058fc38371"
         },
         "f933ebd0-01ee-4c5a-af19-512d321765c6": {
           "label": "Hey's Mineral Index",
           "link": "https://en.wikipedia.org/wiki/Hey's Mineral Index",
-          "x": 140504,
-          "y": 30292,
+          "x": 135427,
+          "y": 30526,
           "id": "f933ebd0-01ee-4c5a-af19-512d321765c6"
         },
         "79d9de4e-172c-4679-bd42-9da6ac340cc0": {
           "label": "International Who's Who of Authors and Writers",
           "link": "https://en.wikipedia.org/wiki/International Who's Who of Authors and Writers",
-          "x": 140592,
-          "y": 30317,
+          "x": 135515,
+          "y": 30551,
           "id": "79d9de4e-172c-4679-bd42-9da6ac340cc0"
         },
         "c3667cf2-ae79-4f20-9f0f-5bc8f03d4a82": {
           "label": "Leishu",
           "link": "https://en.wikipedia.org/wiki/Leishu",
-          "x": 140463,
-          "y": 30342,
+          "x": 135386,
+          "y": 30576,
           "id": "c3667cf2-ae79-4f20-9f0f-5bc8f03d4a82"
         },
         "5337a6be-2b3c-48b7-9f2b-eb1cfc848aee": {
           "label": "Metabibliography",
           "link": "https://en.wikipedia.org/wiki/Metabibliography",
-          "x": 140496,
-          "y": 30367,
+          "x": 135419,
+          "y": 30601,
           "id": "5337a6be-2b3c-48b7-9f2b-eb1cfc848aee"
         },
         "88fb0096-a71c-4fbf-b4c2-42a69571f213": {
           "label": "Microsoft Bookshelf",
           "link": "https://en.wikipedia.org/wiki/Microsoft Bookshelf",
-          "x": 140504,
-          "y": 30392,
+          "x": 135427,
+          "y": 30626,
           "id": "88fb0096-a71c-4fbf-b4c2-42a69571f213"
         },
         "00260c0c-7dbb-4add-b9f9-723faea087d4": {
           "label": "Observer's Books",
           "link": "https://en.wikipedia.org/wiki/Observer's Books",
-          "x": 140498,
-          "y": 30417,
+          "x": 135421,
+          "y": 30651,
           "id": "00260c0c-7dbb-4add-b9f9-723faea087d4"
         },
         "100ffede-4e53-4546-bed2-68248e352df1": {
           "label": "Sixpenny Library",
           "link": "https://en.wikipedia.org/wiki/Sixpenny Library",
-          "x": 140495,
-          "y": 30442,
+          "x": 135418,
+          "y": 30676,
           "id": "100ffede-4e53-4546-bed2-68248e352df1"
         },
         "f60cc402-814b-46ea-baa3-a2b69719ad1c": {
           "label": "Thesaurus",
           "link": "https://en.wikipedia.org/wiki/Thesaurus",
-          "x": 140476,
-          "y": 30467,
+          "x": 135399,
+          "y": 30701,
           "id": "f60cc402-814b-46ea-baa3-a2b69719ad1c"
         },
         "914e34a2-a982-4fc1-9198-2d2934e7ac69": {
           "label": "Vertical file",
           "link": "https://en.wikipedia.org/wiki/Vertical file",
-          "x": 140476,
-          "y": 30492,
+          "x": 135399,
+          "y": 30726,
           "id": "914e34a2-a982-4fc1-9198-2d2934e7ac69"
         },
         "7d155471-ef02-43a9-92de-db2cb6c9b4f6": {
           "label": "Category:Lists of reference books",
           "link": "https://en.wikipedia.org/wiki/Category:Lists of reference books",
-          "x": 140549,
-          "y": 30517,
+          "x": 135472,
+          "y": 30751,
           "id": "7d155471-ef02-43a9-92de-db2cb6c9b4f6"
         },
         "03a36438-f904-45cc-9e2b-30948bbd83d1": {
           "label": "Category:Reference works by subject",
           "link": "https://en.wikipedia.org/wiki/Category:Reference works by subject",
-          "x": 140560,
-          "y": 30542,
+          "x": 135483,
+          "y": 30776,
           "id": "03a36438-f904-45cc-9e2b-30948bbd83d1"
         },
         "e1abc51a-f1f6-4af2-b154-a5cf8d7ee3bb": {
           "label": "Category:Almanacs",
           "link": "https://en.wikipedia.org/wiki/Category:Almanacs",
-          "x": 140504,
-          "y": 30567,
+          "x": 135427,
+          "y": 30801,
           "id": "e1abc51a-f1f6-4af2-b154-a5cf8d7ee3bb"
         },
         "e1df2b40-a545-4db6-963d-bde2517b86d8": {
           "label": "Category:Atlases",
           "link": "https://en.wikipedia.org/wiki/Category:Atlases",
-          "x": 140496,
-          "y": 30592,
+          "x": 135419,
+          "y": 30826,
           "id": "e1df2b40-a545-4db6-963d-bde2517b86d8"
         },
         "be44ffcf-cbdd-4926-8164-1f700f6395af": {
           "label": "Category:Bibliographies",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographies",
-          "x": 140517,
-          "y": 30617,
+          "x": 135440,
+          "y": 30851,
           "id": "be44ffcf-cbdd-4926-8164-1f700f6395af"
         },
         "d5a3048e-1701-40e5-9e49-847177fe4f5a": {
           "label": "Category:Bodies of knowledge",
           "link": "https://en.wikipedia.org/wiki/Category:Bodies of knowledge",
-          "x": 140538,
-          "y": 30642,
+          "x": 135461,
+          "y": 30876,
           "id": "d5a3048e-1701-40e5-9e49-847177fe4f5a"
         },
         "90bcd3b5-011b-410b-9558-d74152cdc3a7": {
           "label": "Category:Chinese literary reference works",
           "link": "https://en.wikipedia.org/wiki/Category:Chinese literary reference works",
-          "x": 140575,
-          "y": 30667,
+          "x": 135498,
+          "y": 30901,
           "id": "90bcd3b5-011b-410b-9558-d74152cdc3a7"
         },
         "6cc407ba-8f99-4348-b354-abe668c1a25b": {
           "label": "Category:Chronicles",
           "link": "https://en.wikipedia.org/wiki/Category:Chronicles",
-          "x": 140506,
-          "y": 30692,
+          "x": 135429,
+          "y": 30926,
           "id": "6cc407ba-8f99-4348-b354-abe668c1a25b"
         },
         "237ddcd9-2789-4bd5-b18e-40faa05e2df2": {
           "label": "Category:Citation indices",
           "link": "https://en.wikipedia.org/wiki/Category:Citation indices",
-          "x": 140521,
-          "y": 30717,
+          "x": 135444,
+          "y": 30951,
           "id": "237ddcd9-2789-4bd5-b18e-40faa05e2df2"
         },
         "309f5959-b8a7-4d45-8e27-394503f52aba": {
           "label": "Category:Concordances (publishing)",
           "link": "https://en.wikipedia.org/wiki/Category:Concordances (publishing)",
-          "x": 140558,
-          "y": 30742,
+          "x": 135481,
+          "y": 30976,
           "id": "309f5959-b8a7-4d45-8e27-394503f52aba"
         },
         "9714ef4a-697c-49aa-889e-a9490f0e1723": {
           "label": "Category:Consumer guides",
           "link": "https://en.wikipedia.org/wiki/Category:Consumer guides",
-          "x": 140529,
-          "y": 30767,
+          "x": 135452,
+          "y": 31001,
           "id": "9714ef4a-697c-49aa-889e-a9490f0e1723"
         },
         "ba0b1f09-4681-40db-bf0a-3110f8719f40": {
           "label": "Category:Dictionaries",
           "link": "https://en.wikipedia.org/wiki/Category:Dictionaries",
-          "x": 140510,
-          "y": 30792,
+          "x": 135433,
+          "y": 31026,
           "id": "ba0b1f09-4681-40db-bf0a-3110f8719f40"
         },
         "5bb2cb34-ab7a-44ec-aa55-fd0a8146479f": {
           "label": "Category:Directories",
           "link": "https://en.wikipedia.org/wiki/Category:Directories",
-          "x": 140507,
-          "y": 30817,
+          "x": 135430,
+          "y": 31051,
           "id": "5bb2cb34-ab7a-44ec-aa55-fd0a8146479f"
         },
         "7d049d86-9b3c-4121-a4d2-1f74e821ea3d": {
           "label": "Category:Encyclopedias",
           "link": "https://en.wikipedia.org/wiki/Category:Encyclopedias",
-          "x": 140518,
-          "y": 30842,
+          "x": 135441,
+          "y": 31076,
           "id": "7d049d86-9b3c-4121-a4d2-1f74e821ea3d"
         },
         "78d2eea2-67c4-4ae2-a2e1-cc37ca42f268": {
           "label": "Category:Florae (publication)",
           "link": "https://en.wikipedia.org/wiki/Category:Florae (publication)",
-          "x": 140534,
-          "y": 30867,
+          "x": 135457,
+          "y": 31101,
           "id": "78d2eea2-67c4-4ae2-a2e1-cc37ca42f268"
         },
         "ec6964e0-fa1e-41f2-8fdc-8efcddcddb8b": {
           "label": "Category:Gazetteers",
           "link": "https://en.wikipedia.org/wiki/Category:Gazetteers",
-          "x": 140508,
-          "y": 30892,
+          "x": 135431,
+          "y": 31126,
           "id": "ec6964e0-fa1e-41f2-8fdc-8efcddcddb8b"
         },
         "cba0702d-553c-43bd-84c4-a3bded66de73": {
           "label": "Category:Glossaries",
           "link": "https://en.wikipedia.org/wiki/Category:Glossaries",
-          "x": 140506,
-          "y": 30917,
+          "x": 135429,
+          "y": 31151,
           "id": "cba0702d-553c-43bd-84c4-a3bded66de73"
         },
         "8e905d4e-3565-4b48-a66d-c6aaf272e900": {
           "label": "Category:Guinness World Records",
           "link": "https://en.wikipedia.org/wiki/Category:Guinness World Records",
-          "x": 140552,
-          "y": 30942,
+          "x": 135475,
+          "y": 31176,
           "id": "8e905d4e-3565-4b48-a66d-c6aaf272e900"
         },
         "ab87a97f-3b72-4ff5-bb55-18d23204623e": {
           "label": "Category:Handbooks and manuals",
           "link": "https://en.wikipedia.org/wiki/Category:Handbooks and manuals",
-          "x": 140552,
-          "y": 30967,
+          "x": 135475,
+          "y": 31201,
           "id": "ab87a97f-3b72-4ff5-bb55-18d23204623e"
         },
         "43162634-7bea-4b95-82a8-5ce995007032": {
           "label": "Category:Labels",
           "link": "https://en.wikipedia.org/wiki/Category:Labels",
-          "x": 140494,
-          "y": 30992,
+          "x": 135417,
+          "y": 31226,
           "id": "43162634-7bea-4b95-82a8-5ce995007032"
         },
         "cb4c43dc-b0d4-4c26-a999-5608d84ac732": {
           "label": "Category:Online databases",
           "link": "https://en.wikipedia.org/wiki/Category:Online databases",
-          "x": 140528,
-          "y": 31017,
+          "x": 135451,
+          "y": 31251,
           "id": "cb4c43dc-b0d4-4c26-a999-5608d84ac732"
         },
         "bcfafebb-91ca-4abf-abc8-df091f524661": {
           "label": "Category:Oxford University Press reference books",
           "link": "https://en.wikipedia.org/wiki/Category:Oxford University Press reference books",
-          "x": 140601,
-          "y": 31042,
+          "x": 135524,
+          "y": 31276,
           "id": "bcfafebb-91ca-4abf-abc8-df091f524661"
         },
         "f3c41156-a5bc-40bb-a82d-210c7cf02d9c": {
           "label": "Category:Reference works in the public domain",
           "link": "https://en.wikipedia.org/wiki/Category:Reference works in the public domain",
-          "x": 140592,
-          "y": 31067,
+          "x": 135515,
+          "y": 31301,
           "id": "f3c41156-a5bc-40bb-a82d-210c7cf02d9c"
         },
         "e9970c17-0986-4ef1-b064-02a2c04b5ae0": {
           "label": "Category:Books of quotations",
           "link": "https://en.wikipedia.org/wiki/Category:Books of quotations",
-          "x": 140535,
-          "y": 31092,
+          "x": 135458,
+          "y": 31326,
           "id": "e9970c17-0986-4ef1-b064-02a2c04b5ae0"
         },
         "0d8ead5e-67b8-4168-a671-fdf297b27784": {
           "label": "Category:Reference publishers",
           "link": "https://en.wikipedia.org/wiki/Category:Reference publishers",
-          "x": 140540,
-          "y": 31117,
+          "x": 135463,
+          "y": 31351,
           "id": "0d8ead5e-67b8-4168-a671-fdf297b27784"
         },
         "58f84486-7252-43f5-b6e2-0cbbd80b404a": {
           "label": "Category:Rolls of arms",
           "link": "https://en.wikipedia.org/wiki/Category:Rolls of arms",
-          "x": 140514,
-          "y": 31142,
+          "x": 135437,
+          "y": 31376,
           "id": "58f84486-7252-43f5-b6e2-0cbbd80b404a"
         },
         "aef5ab46-8683-4fb4-b37c-516bc8d7a144": {
           "label": "Category:Single-volume general reference works",
           "link": "https://en.wikipedia.org/wiki/Category:Single-volume general reference works",
-          "x": 140597,
-          "y": 31167,
+          "x": 135520,
+          "y": 31401,
           "id": "aef5ab46-8683-4fb4-b37c-516bc8d7a144"
         },
         "586ed5a7-89d6-4a33-a149-c51fdcd85fb2": {
           "label": "Category:Standards",
           "link": "https://en.wikipedia.org/wiki/Category:Standards",
-          "x": 140505,
-          "y": 31192,
+          "x": 135428,
+          "y": 31426,
           "id": "586ed5a7-89d6-4a33-a149-c51fdcd85fb2"
         },
         "734f6c48-b72f-4233-96fd-911592002973": {
           "label": "Category:Style guides",
           "link": "https://en.wikipedia.org/wiki/Category:Style guides",
-          "x": 140511,
-          "y": 31217,
+          "x": 135434,
+          "y": 31451,
           "id": "734f6c48-b72f-4233-96fd-911592002973"
         },
         "6037c68c-d3a6-4ac8-9b4e-e9fd18ff12ac": {
           "label": "Category:Thesauri",
           "link": "https://en.wikipedia.org/wiki/Category:Thesauri",
-          "x": 140501,
-          "y": 31242,
+          "x": 135424,
+          "y": 31476,
           "id": "6037c68c-d3a6-4ac8-9b4e-e9fd18ff12ac"
         },
         "58f0defa-0c7e-47c5-91fa-a3b222dea485": {
           "label": "Category:Trivia books",
           "link": "https://en.wikipedia.org/wiki/Category:Trivia books",
-          "x": 140511,
-          "y": 31267,
+          "x": 135434,
+          "y": 31501,
           "id": "58f0defa-0c7e-47c5-91fa-a3b222dea485"
         },
         "dde5c33a-d92c-402c-84e3-e4b6c16c8843": {
           "label": "Category:World record databases",
           "link": "https://en.wikipedia.org/wiki/Category:World record databases",
-          "x": 140549,
-          "y": 31292,
+          "x": 135472,
+          "y": 31526,
           "id": "dde5c33a-d92c-402c-84e3-e4b6c16c8843"
         },
         "d85ab44e-e0d7-46da-8b3b-b4e517d9e26a": {
           "label": "Category:Yearbooks",
           "link": "https://en.wikipedia.org/wiki/Category:Yearbooks",
-          "x": 140506,
-          "y": 31317,
+          "x": 135429,
+          "y": 31551,
           "id": "d85ab44e-e0d7-46da-8b3b-b4e517d9e26a"
         },
         "23e99f14-edc3-4d49-9da3-6c3734673a30": {
           "label": "Category:Reference book stubs",
           "link": "https://en.wikipedia.org/wiki/Category:Reference book stubs",
-          "x": 140542,
-          "y": 31342,
+          "x": 135465,
+          "y": 31576,
           "id": "23e99f14-edc3-4d49-9da3-6c3734673a30"
         },
         "308362a6-3a1c-4ed9-a5ff-73cda6dd1742": {
           "label": "Body of knowledge",
           "link": "https://en.wikipedia.org/wiki/Body of knowledge",
-          "x": 133202,
-          "y": 23979,
+          "x": 128125,
+          "y": 24213,
           "id": "308362a6-3a1c-4ed9-a5ff-73cda6dd1742"
         },
         "a373362e-5a6c-461a-af00-8975c3b0b614": {
           "label": "A Guide to the Business Analysis Body of Knowledge",
           "link": "https://en.wikipedia.org/wiki/A Guide to the Business Analysis Body of Knowledge",
-          "x": 133309,
-          "y": 24004,
+          "x": 128232,
+          "y": 24238,
           "id": "a373362e-5a6c-461a-af00-8975c3b0b614"
         },
         "5c67ffb7-6426-448a-b78c-34b963053127": {
           "label": "Canadian IT Body of Knowledge",
           "link": "https://en.wikipedia.org/wiki/Canadian IT Body of Knowledge",
-          "x": 133244,
-          "y": 24029,
+          "x": 128167,
+          "y": 24263,
           "id": "5c67ffb7-6426-448a-b78c-34b963053127"
         },
         "814bec84-ed04-4619-844a-3abc93f4453a": {
           "label": "Civil Engineering Body of Knowledge",
           "link": "https://en.wikipedia.org/wiki/Civil Engineering Body of Knowledge",
-          "x": 133258,
-          "y": 24054,
+          "x": 128181,
+          "y": 24288,
           "id": "814bec84-ed04-4619-844a-3abc93f4453a"
         },
         "713ca0f2-153f-49f5-a8ac-c92523e1d9a6": {
           "label": "Common Body of Knowledge",
           "link": "https://en.wikipedia.org/wiki/Common Body of Knowledge",
-          "x": 133234,
-          "y": 24079,
+          "x": 128157,
+          "y": 24313,
           "id": "713ca0f2-153f-49f5-a8ac-c92523e1d9a6"
         },
         "abdd9d0f-b800-4332-ab53-28f403f40c78": {
           "label": "Enterprise Architecture Body of Knowledge",
           "link": "https://en.wikipedia.org/wiki/Enterprise Architecture Body of Knowledge",
-          "x": 133277,
-          "y": 24104,
+          "x": 128200,
+          "y": 24338,
           "id": "abdd9d0f-b800-4332-ab53-28f403f40c78"
         },
         "d04016fb-8417-4290-83ea-d2c40d2f31ec": {
           "label": "Geographic Information Science and Technology Body of Knowledge",
           "link": "https://en.wikipedia.org/wiki/Geographic Information Science and Technology Body of Knowledge",
-          "x": 133359,
-          "y": 24129,
+          "x": 128282,
+          "y": 24363,
           "id": "d04016fb-8417-4290-83ea-d2c40d2f31ec"
         },
         "45b4fc63-774d-4e92-9543-dafd4533c317": {
           "label": "Project Management Body of Knowledge",
           "link": "https://en.wikipedia.org/wiki/Project Management Body of Knowledge",
-          "x": 133271,
-          "y": 24154,
+          "x": 128194,
+          "y": 24388,
           "id": "45b4fc63-774d-4e92-9543-dafd4533c317"
         },
         "80f2805d-dbaa-4837-ad94-77a83c2558ad": {
           "label": "Software Engineering Body of Knowledge",
           "link": "https://en.wikipedia.org/wiki/Software Engineering Body of Knowledge",
-          "x": 133273,
-          "y": 24179,
+          "x": 128196,
+          "y": 24413,
           "id": "80f2805d-dbaa-4837-ad94-77a83c2558ad"
         },
         "eb5aff37-3de3-4e27-95b9-e8379ee22ca5": {
           "label": "Systems Engineering Body of Knowledge",
           "link": "https://en.wikipedia.org/wiki/Systems Engineering Body of Knowledge",
-          "x": 133272,
-          "y": 24204,
+          "x": 128195,
+          "y": 24438,
           "id": "eb5aff37-3de3-4e27-95b9-e8379ee22ca5"
         },
         "20b06b00-3b4f-4f29-a7f0-2af307c346a5": {
           "id": "20b06b00-3b4f-4f29-a7f0-2af307c346a5",
-          "x": 132668,
-          "y": 25906,
+          "x": 127591,
+          "y": 26140,
           "label": "Category:Editing",
           "font": {
             "size": 100
@@ -37743,8 +37743,8 @@ var schemeData =
         },
         "46027b9b-4f87-4d9f-bb81-d94814f375da": {
           "id": "46027b9b-4f87-4d9f-bb81-d94814f375da",
-          "x": 132473,
-          "y": 26551,
+          "x": 127396,
+          "y": 26785,
           "label": "Category:Proofreading",
           "font": {
             "size": 100
@@ -37752,8 +37752,8 @@ var schemeData =
         },
         "60af40c1-d998-45ec-88f4-65d3d4db00a2": {
           "id": "60af40c1-d998-45ec-88f4-65d3d4db00a2",
-          "x": 132436,
-          "y": 27336,
+          "x": 127359,
+          "y": 27570,
           "label": "Category:Self-publishing",
           "font": {
             "size": 100
@@ -37761,8 +37761,8 @@ var schemeData =
         },
         "1ec51f3f-2bde-4e2b-b7f3-0deeb0abf0bf": {
           "id": "1ec51f3f-2bde-4e2b-b7f3-0deeb0abf0bf",
-          "x": 132252,
-          "y": 24844,
+          "x": 127175,
+          "y": 25078,
           "label": "Category:Conceptual systems",
           "font": {
             "size": 100
@@ -37942,7 +37942,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -37959,7 +37959,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Publishing",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459",
-          "x": 105498,
+          "x": 106019,
           "y": -3349,
           "shape": "box",
           "link": "",
@@ -38461,7 +38461,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -38478,8 +38478,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Printing",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459759",
-          "x": 105127,
-          "y": 15307,
+          "x": 105460,
+          "y": 14992,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -38497,7 +38497,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -38514,8 +38514,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930",
-          "x": 117124,
-          "y": 12147,
+          "x": 117867,
+          "y": 12199,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -38533,7 +38533,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -38550,8 +38550,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Library",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930474",
-          "x": 117218,
-          "y": 2380,
+          "x": 118006,
+          "y": 2432,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -38730,7 +38730,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -38747,8 +38747,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Bibliography",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879",
-          "x": 92465,
-          "y": 20041,
+          "x": 93610,
+          "y": 20146,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -39088,7 +39088,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -39105,8 +39105,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "UML",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879152",
-          "x": 91287,
-          "y": 8457,
+          "x": 91915,
+          "y": 8614,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -39124,7 +39124,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -39139,9 +39139,9 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "Software requirements",
+          "label": "Software\nrequirements",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879152445",
-          "x": 93926,
+          "x": 93777,
           "y": 14556,
           "shape": "box",
           "link": "",
@@ -39321,7 +39321,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -39338,7 +39338,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Typography",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459759663",
-          "x": 105485,
+          "x": 106325,
           "y": 23568,
           "shape": "box",
           "link": "",
@@ -39518,7 +39518,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -39535,8 +39535,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Visual\ninformation\nlayout",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856726",
-          "x": 92177,
-          "y": 4254,
+          "x": 93332,
+          "y": 4097,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -39715,7 +39715,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -39732,8 +39732,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Text",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497",
-          "x": 116732,
-          "y": -3262,
+          "x": 117395,
+          "y": -3210,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -39826,8 +39826,8 @@ var schemeData =
         },
         "9e98fb51-b071-4325-ac24-a30e39da0cba": {
           "id": "9e98fb51-b071-4325-ac24-a30e39da0cba",
-          "x": 143894,
-          "y": -3703,
+          "x": 138844,
+          "y": -3678,
           "label": "https://www.crossref.org/",
           "shape": "box",
           "link": "https://www.crossref.org/",
@@ -39843,14 +39843,14 @@ var schemeData =
         },
         "ce46e1e9-5ae5-4d37-9d08-44377be047b6": {
           "id": "ce46e1e9-5ae5-4d37-9d08-44377be047b6",
-          "x": 144155,
-          "y": -3703,
+          "x": 139105,
+          "y": -3678,
           "label": "API"
         },
         "3f77bafb-f788-44a1-be62-623c7d5797dd": {
           "id": "3f77bafb-f788-44a1-be62-623c7d5797dd",
-          "x": 144396,
-          "y": -3693,
+          "x": 139346,
+          "y": -3668,
           "label": "https://github.com/CrossRef/rest-api-doc",
           "shape": "box",
           "link": "https://github.com/CrossRef/rest-api-doc",
@@ -39866,140 +39866,140 @@ var schemeData =
         },
         "79d1cf0a-36cc-4687-9298-f6ee4ab67f99": {
           "id": "79d1cf0a-36cc-4687-9298-f6ee4ab67f99",
-          "x": 131896,
-          "y": 2936,
+          "x": 126819,
+          "y": 4495,
           "label": "BibTeX"
         },
         "5b114bc7-4843-432f-a09b-6c36d4db4a17": {
           "id": "5b114bc7-4843-432f-a09b-6c36d4db4a17",
-          "x": 132165,
-          "y": 2686,
+          "x": 127088,
+          "y": 4245,
           "label": ".bib"
         },
         "0c7bc15f-5f25-4bb4-89e7-e8b16760cd62": {
           "id": "0c7bc15f-5f25-4bb4-89e7-e8b16760cd62",
-          "x": 143485,
-          "y": -3520,
+          "x": 138435,
+          "y": -3495,
           "label": "Online scientific catalogues"
         },
         "99a8a47b-0a3b-42c2-b384-930eea44455d": {
           "label": "ACM Portal",
-          "x": 143704,
-          "y": -3845,
+          "x": 138654,
+          "y": -3820,
           "id": "99a8a47b-0a3b-42c2-b384-930eea44455d"
         },
         "35c9dbe6-1791-48fb-b9e2-18076b483fa5": {
           "label": "CiteSeer",
-          "x": 143695,
-          "y": -3821,
+          "x": 138645,
+          "y": -3796,
           "id": "35c9dbe6-1791-48fb-b9e2-18076b483fa5"
         },
         "10fbde2b-ffee-4306-b74a-3f4550dd8cc2": {
           "label": "CrossRef",
-          "x": 143694,
-          "y": -3704,
+          "x": 138644,
+          "y": -3679,
           "id": "10fbde2b-ffee-4306-b74a-3f4550dd8cc2"
         },
         "e1e1c0f5-5b8c-474f-b7c7-48ebc3f19e25": {
           "label": "DBLP",
-          "x": 143687,
-          "y": -3592,
+          "x": 138637,
+          "y": -3567,
           "id": "e1e1c0f5-5b8c-474f-b7c7-48ebc3f19e25"
         },
         "3aad919c-4885-4490-b54c-fefbfb1ff5dd": {
           "label": "DOAJ",
-          "x": 143687,
-          "y": -3568,
+          "x": 138637,
+          "y": -3543,
           "id": "3aad919c-4885-4490-b54c-fefbfb1ff5dd"
         },
         "b08dad2a-04f7-4d59-b2ed-56c25d58339e": {
           "label": "GVK",
-          "x": 143683,
-          "y": -3544,
+          "x": 138633,
+          "y": -3519,
           "id": "b08dad2a-04f7-4d59-b2ed-56c25d58339e"
         },
         "b4db273d-d7cd-4fff-b0e0-8085f977138a": {
           "label": "Google Scholar",
-          "x": 143718,
-          "y": -3520,
+          "x": 138668,
+          "y": -3495,
           "id": "b4db273d-d7cd-4fff-b0e0-8085f977138a"
         },
         "3884ec02-a982-4058-9b48-4191295415dc": {
           "label": "IEEEXplore",
-          "x": 143705,
-          "y": -3496,
+          "x": 138655,
+          "y": -3471,
           "id": "3884ec02-a982-4058-9b48-4191295415dc"
         },
         "b1e0cf03-10a6-4bb8-9c85-d5b32a1123d8": {
           "label": "INSPIRE-HEP",
-          "x": 143713,
-          "y": -3472,
+          "x": 138663,
+          "y": -3447,
           "id": "b1e0cf03-10a6-4bb8-9c85-d5b32a1123d8"
         },
         "2a48a5de-7804-4fb9-8f97-68e3f6f4a372": {
           "label": "Medline",
-          "x": 143694,
-          "y": -3448,
+          "x": 138644,
+          "y": -3423,
           "id": "2a48a5de-7804-4fb9-8f97-68e3f6f4a372"
         },
         "a176901c-ce31-4981-81c5-ab6bea13e749": {
           "label": "MathSciNet",
-          "x": 143705,
-          "y": -3424,
+          "x": 138655,
+          "y": -3399,
           "id": "a176901c-ce31-4981-81c5-ab6bea13e749"
         },
         "a87e3659-3d3d-46dc-968f-390e80e8bf8c": {
           "label": "SAO/NASA Astrophysics Data System",
-          "x": 143788,
-          "y": -3400,
+          "x": 138738,
+          "y": -3375,
           "id": "a87e3659-3d3d-46dc-968f-390e80e8bf8c"
         },
         "4cf24db2-bbf5-4e29-ae9e-6df2e2ce8534": {
           "label": "Springer",
-          "x": 143696,
-          "y": -3376,
+          "x": 138646,
+          "y": -3351,
           "id": "4cf24db2-bbf5-4e29-ae9e-6df2e2ce8534"
         },
         "80131918-29a9-4c06-9bb6-37ed3e3cc17d": {
           "label": "arXiv",
-          "x": 143685,
-          "y": -3352,
+          "x": 138635,
+          "y": -3327,
           "id": "80131918-29a9-4c06-9bb6-37ed3e3cc17d"
         },
         "4b546120-df6c-4bbc-8246-69a62b985e87": {
           "label": "zbMATH",
-          "x": 143696,
-          "y": -3328,
+          "x": 138646,
+          "y": -3303,
           "id": "4b546120-df6c-4bbc-8246-69a62b985e87"
         },
         "075c6d9c-996b-4cb6-90c6-7194008f4e58": {
           "id": "075c6d9c-996b-4cb6-90c6-7194008f4e58",
-          "x": 143336,
-          "y": -979,
+          "x": 138259,
+          "y": -745,
           "label": "Mediawiki"
         },
         "2217dac4-346f-4a04-99e2-0a094905fdf5": {
           "id": "2217dac4-346f-4a04-99e2-0a094905fdf5",
-          "x": 143556,
-          "y": -1003,
+          "x": 138479,
+          "y": -769,
           "label": "Citoid"
         },
         "5956534a-f302-4a48-8ffc-8bd3b2db6bac": {
           "id": "5956534a-f302-4a48-8ffc-8bd3b2db6bac",
-          "x": 143783,
-          "y": -1003,
+          "x": 138706,
+          "y": -769,
           "label": "https://www.mediawiki.org/wiki/Citoid"
         },
         "ad9adb86-a5ad-401d-a363-c5c4a6204693": {
           "id": "ad9adb86-a5ad-401d-a363-c5c4a6204693",
-          "x": 143793,
-          "y": -952,
+          "x": 138716,
+          "y": -718,
           "label": "https://www.mediawiki.org/wiki/Citoid/API"
         },
         "f7f5f3b7-a369-485f-a45f-62c48742f56b": {
           "id": "f7f5f3b7-a369-485f-a45f-62c48742f56b",
-          "x": 132264,
-          "y": 2775,
+          "x": 127187,
+          "y": 4334,
           "label": "https://en.wikipedia.org/wiki/BibTeX",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/BibTeX",
@@ -40015,8 +40015,8 @@ var schemeData =
         },
         "6c232a6b-eda0-4438-8037-a8179bba835d": {
           "id": "6c232a6b-eda0-4438-8037-a8179bba835d",
-          "x": 132263,
-          "y": 2816,
+          "x": 127186,
+          "y": 4375,
           "label": "https://ru.wikipedia.org/wiki/BibTeX",
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/BibTeX",
@@ -40032,8 +40032,8 @@ var schemeData =
         },
         "830fca61-d28d-42ed-bdd9-221ff37eaaa8": {
           "id": "830fca61-d28d-42ed-bdd9-221ff37eaaa8",
-          "x": 143901,
-          "y": -831,
+          "x": 138824,
+          "y": -597,
           "label": "https://en.wikipedia.org/api/rest_v1/#/Citation/getCitation",
           "shape": "box",
           "link": "https://en.wikipedia.org/api/rest_v1/#/Citation/getCitation",
@@ -40049,62 +40049,62 @@ var schemeData =
         },
         "3488e3a9-06f8-4072-89f6-e67afaeb67d9": {
           "id": "3488e3a9-06f8-4072-89f6-e67afaeb67d9",
-          "x": 143596,
-          "y": -829,
+          "x": 138519,
+          "y": -595,
           "label": "Wikimedia REST API"
         },
         "896131c1-99eb-429f-8278-9b18a38554d8": {
           "id": "896131c1-99eb-429f-8278-9b18a38554d8",
-          "x": 143869,
-          "y": 7859,
+          "x": 138792,
+          "y": 8093,
           "label": "Identifier Schemes"
         },
         "5e24f435-c76a-4cb6-9414-2496f557c78d": {
           "label": "DOI is a system, managed by the International DOI Foundation, for assigning permanent identifiers to digital resources.",
-          "x": 144474,
-          "y": 7793,
+          "x": 139397,
+          "y": 8027,
           "id": "5e24f435-c76a-4cb6-9414-2496f557c78d"
         },
         "6224f324-e42f-4dd4-9e43-d88421f4d2ae": {
           "label": "ArXiv is an archive, maintained by Cornell University, for research in the field of physics, mathematics, computer science and statistics.",
-          "x": 144521,
-          "y": 7817,
+          "x": 139444,
+          "y": 8051,
           "id": "6224f324-e42f-4dd4-9e43-d88421f4d2ae"
         },
         "6d9a0f31-b5be-4f29-9193-93a71fd52284": {
           "label": "PubMed is a database of biomedical literature and research in life sciences.",
-          "x": 144336,
-          "y": 7841,
+          "x": 139259,
+          "y": 8075,
           "id": "6d9a0f31-b5be-4f29-9193-93a71fd52284"
         },
         "957d1113-1595-4767-b474-53eea8add3c2": {
           "label": "ISBN is the International Standard Book Number assigned to all commercially published books",
-          "x": 144395,
-          "y": 7865,
+          "x": 139318,
+          "y": 8099,
           "id": "957d1113-1595-4767-b474-53eea8add3c2"
         },
         "fe7eae6b-21f2-4bbf-b742-45f4176799db": {
           "label": "ISSN is the International Standard Serial Number assigned to a journal or magazine.",
-          "x": 144364,
-          "y": 7889,
+          "x": 139287,
+          "y": 8123,
           "id": "fe7eae6b-21f2-4bbf-b742-45f4176799db"
         },
         "6bfcb22e-ec05-490b-a122-f2dd4ec1e448": {
           "label": "Scopus is a database of abstracts and citations from peer-reviewed literature.",
-          "x": 144342,
-          "y": 7913,
+          "x": 139265,
+          "y": 8147,
           "id": "6bfcb22e-ec05-490b-a122-f2dd4ec1e448"
         },
         "647e1acd-d5c3-43eb-a096-da0863d28f83": {
           "id": "647e1acd-d5c3-43eb-a096-da0863d28f83",
-          "x": 131992,
-          "y": 5950,
+          "x": 126915,
+          "y": 7509,
           "label": "DOI"
         },
         "aa6fd21b-cc43-40e4-a769-f9e8fcfba7d3": {
           "id": "aa6fd21b-cc43-40e4-a769-f9e8fcfba7d3",
-          "x": 144112,
-          "y": 3247,
+          "x": 139035,
+          "y": 3481,
           "label": "https://dev.mendeley.com/code/core_quick_start_guides.html",
           "shape": "box",
           "link": "https://dev.mendeley.com/code/core_quick_start_guides.html",
@@ -40120,8 +40120,8 @@ var schemeData =
         },
         "1cd7d378-b1d0-4d55-a22d-2f7d1c08f25a": {
           "id": "1cd7d378-b1d0-4d55-a22d-2f7d1c08f25a",
-          "x": 144097,
-          "y": 3209,
+          "x": 139020,
+          "y": 3443,
           "label": "https://dev.mendeley.com/overview/core_resources.html",
           "shape": "box",
           "link": "https://dev.mendeley.com/overview/core_resources.html",
@@ -40137,8 +40137,8 @@ var schemeData =
         },
         "3adf88f0-64bf-4796-bc5f-14a9933d26eb": {
           "id": "3adf88f0-64bf-4796-bc5f-14a9933d26eb",
-          "x": 144046,
-          "y": 3170,
+          "x": 138969,
+          "y": 3404,
           "label": "https://api.mendeley.com/apidocs/docs",
           "shape": "box",
           "link": "https://api.mendeley.com/apidocs/docs",
@@ -40154,8 +40154,8 @@ var schemeData =
         },
         "c4999b63-ac8c-4d69-ba0a-1a0c8ee9aace": {
           "id": "c4999b63-ac8c-4d69-ba0a-1a0c8ee9aace",
-          "x": 132006,
-          "y": 6044,
+          "x": 126929,
+          "y": 7603,
           "label": "doi.org",
           "shape": "box",
           "link": "doi.org",
@@ -40171,80 +40171,80 @@ var schemeData =
         },
         "d5247934-331a-4222-bd99-6d7e36397e4c": {
           "id": "d5247934-331a-4222-bd99-6d7e36397e4c",
-          "x": 132440,
-          "y": 6049,
+          "x": 127363,
+          "y": 7608,
           "label": "curl -LH \"Accept: application/citeproc+json\" http://dx.doi.org/10.1038/nrd842"
         },
         "fe5756ee-f75e-4d7d-8e98-3dd9ef7507f7": {
           "label": "Zotero RDF",
-          "x": 132160,
-          "y": -1511,
+          "x": 127059,
+          "y": -1281,
           "id": "fe5756ee-f75e-4d7d-8e98-3dd9ef7507f7"
         },
         "4986e66d-bd16-4bf6-9d25-80cd7de3965d": {
           "label": "CSL JSON",
-          "x": 132156,
-          "y": -1487,
+          "x": 127055,
+          "y": -1257,
           "id": "4986e66d-bd16-4bf6-9d25-80cd7de3965d"
         },
         "55e69923-ee6e-484d-b11b-67a4940ac8fe": {
           "label": "MODS (Metadata Object Description Schema)",
-          "x": 132268,
-          "y": -1463,
+          "x": 127167,
+          "y": -1233,
           "id": "55e69923-ee6e-484d-b11b-67a4940ac8fe"
         },
         "73aa9050-6970-4d01-b2cf-2d7bdb9a9299": {
           "label": "BibTeX",
-          "x": 132144,
-          "y": -1439,
+          "x": 127043,
+          "y": -1209,
           "id": "73aa9050-6970-4d01-b2cf-2d7bdb9a9299"
         },
         "52e752f9-aaa8-41ae-af48-92d7e3ba978f": {
           "label": "RIS",
-          "x": 132134,
-          "y": -1415,
+          "x": 127033,
+          "y": -1185,
           "id": "52e752f9-aaa8-41ae-af48-92d7e3ba978f"
         },
         "e0edbea2-669b-4ea8-914e-96c25e3228a7": {
           "label": "Refer/BibIX",
-          "x": 132158,
-          "y": -1391,
+          "x": 127057,
+          "y": -1161,
           "id": "e0edbea2-669b-4ea8-914e-96c25e3228a7"
         },
         "798eb8b5-9064-42f0-95da-9f7da725dca6": {
           "label": "Unqualified Dublin Core RDF",
-          "x": 132214,
-          "y": -1367,
+          "x": 127113,
+          "y": -1137,
           "id": "798eb8b5-9064-42f0-95da-9f7da725dca6"
         },
         "1c3399cd-87e5-4842-864d-37e1d159d4ad": {
           "label": "Endnote XML",
-          "x": 132165,
-          "y": -1343,
+          "x": 127064,
+          "y": -1113,
           "id": "1c3399cd-87e5-4842-864d-37e1d159d4ad"
         },
         "c3cfebaa-8e15-4315-a3dd-bcb5c8396980": {
           "label": "XML ContextObject",
-          "x": 132184,
-          "y": -1319,
+          "x": 127083,
+          "y": -1089,
           "id": "c3cfebaa-8e15-4315-a3dd-bcb5c8396980"
         },
         "c9b58e01-e071-4ec9-996c-bd6140457fec": {
           "label": "Web of Science Tagged",
-          "x": 132197,
-          "y": -1295,
+          "x": 127096,
+          "y": -1065,
           "id": "c9b58e01-e071-4ec9-996c-bd6140457fec"
         },
         "5b800463-bf6f-422b-ab4a-b616b06ce5dd": {
           "label": "MEDLINE/nbib",
-          "x": 132169,
-          "y": -1271,
+          "x": 127068,
+          "y": -1041,
           "id": "5b800463-bf6f-422b-ab4a-b616b06ce5dd"
         },
         "db64b3cd-8acb-4e80-874d-cc372aec719b": {
           "id": "db64b3cd-8acb-4e80-874d-cc372aec719b",
-          "x": 144021,
-          "y": -3812,
+          "x": 138971,
+          "y": -3787,
           "label": "https://citeseerx.ist.psu.edu/index",
           "shape": "box",
           "link": "https://citeseerx.ist.psu.edu/index",
@@ -40260,8 +40260,8 @@ var schemeData =
         },
         "a35651f6-f3b3-425a-9774-4bfa6cabb276": {
           "id": "a35651f6-f3b3-425a-9774-4bfa6cabb276",
-          "x": 132295,
-          "y": 5942,
+          "x": 127218,
+          "y": 7501,
           "label": "https://en.wikipedia.org/wiki/Digital_object_identifier",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Digital_object_identifier",
@@ -40277,158 +40277,158 @@ var schemeData =
         },
         "ea72e0f9-7d3a-450c-8248-f0f3d0ad416f": {
           "id": "ea72e0f9-7d3a-450c-8248-f0f3d0ad416f",
-          "x": 132285,
-          "y": 2857,
+          "x": 127208,
+          "y": 4416,
           "label": "http://www.tug.org/pracjourn/2006-4/fenn/"
         },
         "3d89c114-7f43-4843-b45d-39c7c685d762": {
           "label": "NASA Astrophysics Data System – The ADS is an online database of over eight million astronomy and physics papers and provides BibTeX format citations.",
-          "x": 132910,
-          "y": 2971,
+          "x": 127833,
+          "y": 4530,
           "id": "3d89c114-7f43-4843-b45d-39c7c685d762"
         },
         "f18b9ca3-e006-49c4-8b1e-0051b41ae80e": {
           "label": "INSPIRE-HEP – The INSPIRE High-Energy Physics literature database provides BibTeX format citations for over one million high-energy physics papers.",
-          "x": 132900,
-          "y": 2995,
+          "x": 127823,
+          "y": 4554,
           "id": "f18b9ca3-e006-49c4-8b1e-0051b41ae80e"
         },
         "9ce1ca84-f43d-4d6a-a49e-f667c8d75a1f": {
           "label": "BibSonomy – A social bookmark and publication management system based on BibTeX.",
-          "x": 132697,
-          "y": 3019,
+          "x": 127620,
+          "y": 4578,
           "id": "9ce1ca84-f43d-4d6a-a49e-f667c8d75a1f"
         },
         "765947d6-70bf-476e-a201-211de256be42": {
           "label": "Citavi - Reference manager. Works with various TeX-Editors and supports BibTeX input and output.",
-          "x": 132731,
-          "y": 3043,
+          "x": 127654,
+          "y": 4602,
           "id": "765947d6-70bf-476e-a201-211de256be42"
         },
         "1f50207f-c9ea-4c08-a3ab-115723227513": {
           "label": "CiteSeer – An online database of research publications which can produce BibTeX format citations.",
-          "x": 132731,
-          "y": 3067,
+          "x": 127654,
+          "y": 4626,
           "id": "1f50207f-c9ea-4c08-a3ab-115723227513"
         },
         "10a92485-66ae-4030-8202-f5cfa621d163": {
           "label": "CiteULike – A community based bibliography database with BibTeX input and output.",
-          "x": 132686,
-          "y": 3091,
+          "x": 127609,
+          "y": 4650,
           "id": "10a92485-66ae-4030-8202-f5cfa621d163"
         },
         "11adab33-5f59-4273-90ee-9f3a7046b279": {
           "label": "The Collection of Computer Science Bibliographies – uses BibTeX as internal data format, search results and contributions primarily in BibTeX.",
-          "x": 132868,
-          "y": 3115,
+          "x": 127791,
+          "y": 4674,
           "id": "11adab33-5f59-4273-90ee-9f3a7046b279"
         },
         "fec1898b-360f-4edf-a609-08795b9c1089": {
           "label": "Connotea – Open-source social bookmark style publication management system.",
-          "x": 132676,
-          "y": 3139,
+          "x": 127599,
+          "y": 4698,
           "id": "fec1898b-360f-4edf-a609-08795b9c1089"
         },
         "d003afad-6d5e-4658-abf4-a33fa78d212f": {
           "label": "Digital Bibliography & Library Project – A bibliography website that lists more than 910,000 articles in the computer science field.",
-          "x": 132822,
-          "y": 3163,
+          "x": 127745,
+          "y": 4722,
           "id": "d003afad-6d5e-4658-abf4-a33fa78d212f"
         },
         "67cc2a55-3136-4038-837e-a3a0ecc91663": {
           "label": "Google Books - The bibliographic information for each book is exportable in BibTeX format via the 'Export Citation' feature.",
-          "x": 132805,
-          "y": 3187,
+          "x": 127728,
+          "y": 4746,
           "id": "67cc2a55-3136-4038-837e-a3a0ecc91663"
         },
         "de5568b7-2a7f-4bdc-af38-5656c3882383": {
           "label": "Google Scholar – Google's system for searching scholarly literature provides BibTeX format citations if you enable the option in 'Scholar Preferences'.",
-          "x": 132891,
-          "y": 3211,
+          "x": 127814,
+          "y": 4770,
           "id": "de5568b7-2a7f-4bdc-af38-5656c3882383"
         },
         "93b2c585-8928-4e3d-ab0d-bb83d6bef104": {
           "label": "Google Research – Housed within the artificial intelligence division of Google is a compilation of publications by Google staff with BibTeX citation links.",
-          "x": 132890,
-          "y": 3235,
+          "x": 127813,
+          "y": 4794,
           "id": "93b2c585-8928-4e3d-ab0d-bb83d6bef104"
         },
         "e0d7890d-612c-4db9-ae64-af3ff586d557": {
           "label": "HubMed – A versatile PubMed interface including BibTeX output.",
-          "x": 132623,
-          "y": 3259,
+          "x": 127546,
+          "y": 4818,
           "id": "e0d7890d-612c-4db9-ae64-af3ff586d557"
         },
         "538e0782-e603-4f22-a40d-32e69b75fd88": {
           "label": "MathSciNet – Database by the American Mathematical Society (subscription), choose BibTeX in the \"Select alternative format\" box",
-          "x": 132830,
-          "y": 3283,
+          "x": 127753,
+          "y": 4842,
           "id": "538e0782-e603-4f22-a40d-32e69b75fd88"
         },
         "4362d295-605d-4b45-bcfa-02d306b5a9ad": {
           "label": "Mendeley – Reference Manager, for collecting papers. It supports exporting collections into bib files and keep them synchronized with its own database.[6]",
-          "x": 132906,
-          "y": 3307,
+          "x": 127829,
+          "y": 4866,
           "id": "4362d295-605d-4b45-bcfa-02d306b5a9ad"
         },
         "e3ba4c4f-6e0f-40c3-8e80-3f9cad138a53": {
           "label": "Qiqqa – Provides a fully featured BibTeX editor and validator, along with tools for automatically populating BibTeX records for your PDFs.",
-          "x": 132849,
-          "y": 3331,
+          "x": 127772,
+          "y": 4890,
           "id": "e3ba4c4f-6e0f-40c3-8e80-3f9cad138a53"
         },
         "b2399ce3-d75b-4d3d-bc5d-4d9d55221a3f": {
           "label": "refbase – Open source reference manager for institutional repositories and self archiving with BibTeX input and output.",
-          "x": 132794,
-          "y": 3355,
+          "x": 127717,
+          "y": 4914,
           "id": "b2399ce3-d75b-4d3d-bc5d-4d9d55221a3f"
         },
         "38d4dec4-3133-4d0e-93fa-697d568cd290": {
           "label": "RefTeX – Emacs based reference manager.",
-          "x": 132558,
-          "y": 3379,
+          "x": 127481,
+          "y": 4938,
           "id": "38d4dec4-3133-4d0e-93fa-697d568cd290"
         },
         "93ee4ccd-d730-4c0b-908b-5fde8b74b4cc": {
           "label": "Wikindx – Open source Virtual Research Environment/enhanced bibliography manager including BibTeX input and output.",
-          "x": 132803,
-          "y": 3403,
+          "x": 127726,
+          "y": 4962,
           "id": "93ee4ccd-d730-4c0b-908b-5fde8b74b4cc"
         },
         "2ca80e5a-d27d-4a76-93b6-3f5fa2cd1f01": {
           "label": "Wikipedia - Pressing cite this page on the side of an article provides a BibTeX format citation.",
-          "x": 132712,
-          "y": 3427,
+          "x": 127635,
+          "y": 4986,
           "id": "2ca80e5a-d27d-4a76-93b6-3f5fa2cd1f01"
         },
         "04c014f6-2158-4039-b400-fd590e78af66": {
           "label": "Zentralblatt MATH – Database by the European Mathematical Society, FIZ Karlsruhe and Heidelberg Academy (subscription, 3 free entries); choose BibTeX button or format.",
-          "x": 132965,
-          "y": 3451,
+          "x": 127888,
+          "y": 5010,
           "id": "04c014f6-2158-4039-b400-fd590e78af66"
         },
         "fcea315d-2301-4ac6-a7ef-564c79df8580": {
           "label": "Zotero – Open source reference manager [7]with advanced features such as synchronization between different computers, social bookmarking, searching inside saved PDFs and BibTeX output.",
-          "x": 133029,
-          "y": 3475,
+          "x": 127952,
+          "y": 5034,
           "id": "fcea315d-2301-4ac6-a7ef-564c79df8580"
         },
         "d1f1c0ce-ce5f-45a6-9777-5e4600006176": {
           "label": "Docx2LaTeX Google docs addon – Free google docs addon [8]with advanced features such as adding manually, citing from a website, PubMed and arxiv, searching inside and adding from local library.",
-          "x": 133051,
-          "y": 3499,
+          "x": 127974,
+          "y": 5058,
           "id": "d1f1c0ce-ce5f-45a6-9777-5e4600006176"
         },
         "79d3372d-8d4d-4aed-9c5b-f96f98a6698b": {
           "id": "79d3372d-8d4d-4aed-9c5b-f96f98a6698b",
-          "x": 132172,
-          "y": 3219,
+          "x": 127095,
+          "y": 4778,
           "label": "Users"
         },
         "9e46f461-cc78-43a9-bbaa-9b630887c641": {
           "id": "9e46f461-cc78-43a9-bbaa-9b630887c641",
-          "x": 132697,
-          "y": 8095,
+          "x": 127571,
+          "y": 9555,
           "label": "Bibliography manager"
         },
         "3d0d3479-6d31-4a87-af52-415655760af2": {
@@ -40439,8 +40439,8 @@ var schemeData =
         },
         "6da3c62f-9d68-4579-bbb3-2741df392a4b": {
           "id": "6da3c62f-9d68-4579-bbb3-2741df392a4b",
-          "x": 132757,
-          "y": 8197,
+          "x": 127631,
+          "y": 9657,
           "label": "https://en.wikipedia.org/wiki/Reference_software",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Reference_software",
@@ -40488,7 +40488,4032 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "9b3efb03-8848-425b-ae4a-eb617b00cddc918": {
+        "9e953b74-c482-4762-a4aa-74385376023b": {
+          "label": "Conceptual system",
+          "link": "https://en.wikipedia.org/wiki/Conceptual system",
+          "x": 128118,
+          "y": 24718,
+          "id": "9e953b74-c482-4762-a4aa-74385376023b"
+        },
+        "34dc6bce-e605-4b98-9339-f9ef835335ea": {
+          "label": "AeroVironment Global Observer",
+          "link": "https://en.wikipedia.org/wiki/AeroVironment Global Observer",
+          "x": 128159,
+          "y": 24743,
+          "id": "34dc6bce-e605-4b98-9339-f9ef835335ea"
+        },
+        "5ba1e7c5-deab-4741-9d49-6f2e70610e69": {
+          "label": "Systems art",
+          "link": "https://en.wikipedia.org/wiki/Systems art",
+          "x": 128095,
+          "y": 24768,
+          "id": "5ba1e7c5-deab-4741-9d49-6f2e70610e69"
+        },
+        "55fc59f5-b5df-46ee-978f-9c54deea27a0": {
+          "label": "Axiomatic system",
+          "link": "https://en.wikipedia.org/wiki/Axiomatic system",
+          "x": 128113,
+          "y": 24793,
+          "id": "55fc59f5-b5df-46ee-978f-9c54deea27a0"
+        },
+        "82b0dde9-c64d-406a-be12-629bb70e5951": {
+          "label": "Boehm system",
+          "link": "https://en.wikipedia.org/wiki/Boehm system",
+          "x": 128105,
+          "y": 24818,
+          "id": "82b0dde9-c64d-406a-be12-629bb70e5951"
+        },
+        "60f60557-2636-45b7-8263-46bb27093cd2": {
+          "label": "Comstock–Needham system",
+          "link": "https://en.wikipedia.org/wiki/Comstock–Needham system",
+          "x": 128149,
+          "y": 24843,
+          "id": "60f60557-2636-45b7-8263-46bb27093cd2"
+        },
+        "b92cb22e-eb97-418f-b272-ae7b6c731efa": {
+          "label": "Crystal structure",
+          "link": "https://en.wikipedia.org/wiki/Crystal structure",
+          "x": 128110,
+          "y": 24868,
+          "id": "b92cb22e-eb97-418f-b272-ae7b6c731efa"
+        },
+        "0877d468-41f7-4534-85ea-45a5f5554960": {
+          "label": "Digital ecosystem",
+          "link": "https://en.wikipedia.org/wiki/Digital ecosystem",
+          "x": 128113,
+          "y": 24893,
+          "id": "0877d468-41f7-4534-85ea-45a5f5554960"
+        },
+        "bb08f08d-b5cf-4cb8-806d-0aafe0bd2ea5": {
+          "label": "Experimental system",
+          "link": "https://en.wikipedia.org/wiki/Experimental system",
+          "x": 128124,
+          "y": 24918,
+          "id": "bb08f08d-b5cf-4cb8-806d-0aafe0bd2ea5"
+        },
+        "f7485f8a-b9d5-4a50-a434-7aca9586ec7d": {
+          "label": "Health management system",
+          "link": "https://en.wikipedia.org/wiki/Health management system",
+          "x": 128147,
+          "y": 24943,
+          "id": "f7485f8a-b9d5-4a50-a434-7aca9586ec7d"
+        },
+        "ae40e651-c03e-44b8-8b08-671edc258d48": {
+          "label": "League system",
+          "link": "https://en.wikipedia.org/wiki/League system",
+          "x": 128106,
+          "y": 24968,
+          "id": "ae40e651-c03e-44b8-8b08-671edc258d48"
+        },
+        "761f85e5-0ea6-49df-a492-bb1135af18f4": {
+          "label": "Meta-system",
+          "link": "https://en.wikipedia.org/wiki/Meta-system",
+          "x": 128099,
+          "y": 24993,
+          "id": "761f85e5-0ea6-49df-a492-bb1135af18f4"
+        },
+        "2e1951f9-2de5-4ff0-8451-49df2209b3ed": {
+          "label": "System of measurement",
+          "link": "https://en.wikipedia.org/wiki/System of measurement",
+          "x": 128135,
+          "y": 25018,
+          "id": "2e1951f9-2de5-4ff0-8451-49df2209b3ed"
+        },
+        "cc33504b-3abe-40f4-8049-357840501d51": {
+          "label": "Theory",
+          "link": "https://en.wikipedia.org/wiki/Theory",
+          "x": 128080,
+          "y": 25043,
+          "id": "cc33504b-3abe-40f4-8049-357840501d51"
+        },
+        "8fad313e-8844-42ce-b334-8b9aafbb5774": {
+          "label": "Tree of knowledge system",
+          "link": "https://en.wikipedia.org/wiki/Tree of knowledge system",
+          "x": 128141,
+          "y": 25068,
+          "id": "8fad313e-8844-42ce-b334-8b9aafbb5774"
+        },
+        "68274d0d-d814-473a-b76e-25e295c64912": {
+          "label": "Trusted system",
+          "link": "https://en.wikipedia.org/wiki/Trusted system",
+          "x": 128107,
+          "y": 25093,
+          "id": "68274d0d-d814-473a-b76e-25e295c64912"
+        },
+        "c858b9b8-f8a6-485a-a984-e581a747fc50": {
+          "label": "Category:Classification systems",
+          "link": "https://en.wikipedia.org/wiki/Category:Classification systems",
+          "x": 128158,
+          "y": 25118,
+          "id": "c858b9b8-f8a6-485a-a984-e581a747fc50"
+        },
+        "268032f0-8876-44c5-bcff-c9db4fb1a73c": {
+          "label": "Category:Complex systems theory",
+          "link": "https://en.wikipedia.org/wiki/Category:Complex systems theory",
+          "x": 128167,
+          "y": 25143,
+          "id": "268032f0-8876-44c5-bcff-c9db4fb1a73c"
+        },
+        "164ca11e-eead-4e43-9be0-775c011725d9": {
+          "label": "Category:Coordinate systems",
+          "link": "https://en.wikipedia.org/wiki/Category:Coordinate systems",
+          "x": 128152,
+          "y": 25168,
+          "id": "164ca11e-eead-4e43-9be0-775c011725d9"
+        },
+        "3b35fdfd-e23c-45c8-954a-5c14216fbca0": {
+          "label": "Category:Language",
+          "link": "https://en.wikipedia.org/wiki/Category:Language",
+          "x": 128121,
+          "y": 25193,
+          "id": "3b35fdfd-e23c-45c8-954a-5c14216fbca0"
+        },
+        "8f9a697e-eacd-4c2d-ae48-3e49fc8494c3": {
+          "label": "Category:Legal systems",
+          "link": "https://en.wikipedia.org/wiki/Category:Legal systems",
+          "x": 128134,
+          "y": 25218,
+          "id": "8f9a697e-eacd-4c2d-ae48-3e49fc8494c3"
+        },
+        "9ceaf70e-e0f2-4010-937a-737fefe31ce7": {
+          "label": "Category:Mathematical modeling",
+          "link": "https://en.wikipedia.org/wiki/Category:Mathematical modeling",
+          "x": 128162,
+          "y": 25243,
+          "id": "9ceaf70e-e0f2-4010-937a-737fefe31ce7"
+        },
+        "04f0332a-ccd9-4249-bea0-4b520d188491": {
+          "label": "Category:Scientific modeling",
+          "link": "https://en.wikipedia.org/wiki/Category:Scientific modeling",
+          "x": 128148,
+          "y": 25268,
+          "id": "04f0332a-ccd9-4249-bea0-4b520d188491"
+        },
+        "d91f0117-fe49-4ae3-a9ac-bed4936b2fb8": {
+          "label": "Category:Notation",
+          "link": "https://en.wikipedia.org/wiki/Category:Notation",
+          "x": 128115,
+          "y": 25293,
+          "id": "d91f0117-fe49-4ae3-a9ac-bed4936b2fb8"
+        },
+        "cfc712d4-4a7b-4825-b429-23b800bdf63c": {
+          "label": "Category:Systems of probability distributions",
+          "link": "https://en.wikipedia.org/wiki/Category:Systems of probability distributions",
+          "x": 128198,
+          "y": 25318,
+          "id": "cfc712d4-4a7b-4825-b429-23b800bdf63c"
+        },
+        "b2571501-8a89-4b32-aed4-417073b90957": {
+          "label": "Category:Role-playing game systems",
+          "link": "https://en.wikipedia.org/wiki/Category:Role-playing game systems",
+          "x": 128176,
+          "y": 25343,
+          "id": "b2571501-8a89-4b32-aed4-417073b90957"
+        },
+        "14bca352-522c-4f54-b002-2833da23b7c4": {
+          "label": "Category:Systems of set theory",
+          "link": "https://en.wikipedia.org/wiki/Category:Systems of set theory",
+          "x": 128157,
+          "y": 25368,
+          "id": "14bca352-522c-4f54-b002-2833da23b7c4"
+        },
+        "1ea990cf-3431-46bd-ae89-cb20af470ae6": {
+          "label": "Category:Systems of units",
+          "link": "https://en.wikipedia.org/wiki/Category:Systems of units",
+          "x": 128141,
+          "y": 25393,
+          "id": "1ea990cf-3431-46bd-ae89-cb20af470ae6"
+        },
+        "29fd9c3d-ec8c-4111-af0e-bf5929825b65": {
+          "label": "Category:Theories",
+          "link": "https://en.wikipedia.org/wiki/Category:Theories",
+          "x": 128117,
+          "y": 25418,
+          "id": "29fd9c3d-ec8c-4111-af0e-bf5929825b65"
+        },
+        "97303d77-85d8-42cf-a707-d11a570fa3c6": {
+          "label": "Category:Time measurement systems",
+          "link": "https://en.wikipedia.org/wiki/Category:Time measurement systems",
+          "x": 128179,
+          "y": 25443,
+          "id": "97303d77-85d8-42cf-a707-d11a570fa3c6"
+        },
+        "a60ddba0-a125-486b-8b69-a1ed45d0d73b": {
+          "label": "Category:Tournament systems",
+          "link": "https://en.wikipedia.org/wiki/Category:Tournament systems",
+          "x": 128155,
+          "y": 25468,
+          "id": "a60ddba0-a125-486b-8b69-a1ed45d0d73b"
+        },
+        "a4fbe581-a0c1-47b0-bd1c-c804d4e6e16a": {
+          "label": "Category:Writing systems",
+          "link": "https://en.wikipedia.org/wiki/Category:Writing systems",
+          "x": 128139,
+          "y": 25493,
+          "id": "a4fbe581-a0c1-47b0-bd1c-c804d4e6e16a"
+        },
+        "47fb4b87-6e1b-4e27-9976-b45b6bd63c7a": {
+          "label": "Editing",
+          "link": "https://en.wikipedia.org/wiki/Editing",
+          "x": 128152,
+          "y": 25962,
+          "id": "47fb4b87-6e1b-4e27-9976-b45b6bd63c7a"
+        },
+        "d97b1942-88de-4a07-a322-eff60dec5fc9": {
+          "label": "Abridgement",
+          "link": "https://en.wikipedia.org/wiki/Abridgement",
+          "x": 128171,
+          "y": 25987,
+          "id": "d97b1942-88de-4a07-a322-eff60dec5fc9"
+        },
+        "ae2e4675-35be-4930-b1b9-38d38a9d1f6a": {
+          "label": "Author editing",
+          "link": "https://en.wikipedia.org/wiki/Author editing",
+          "x": 128175,
+          "y": 26012,
+          "id": "ae2e4675-35be-4930-b1b9-38d38a9d1f6a"
+        },
+        "44c3a1af-d0b4-4e7c-a6a4-af105477d1be": {
+          "label": "Collaborative editing",
+          "link": "https://en.wikipedia.org/wiki/Collaborative editing",
+          "x": 128195,
+          "y": 26037,
+          "id": "44c3a1af-d0b4-4e7c-a6a4-af105477d1be"
+        },
+        "08bbe975-5e56-4219-ad0f-5f4c99bf399c": {
+          "label": "Developmental editing",
+          "link": "https://en.wikipedia.org/wiki/Developmental editing",
+          "x": 128201,
+          "y": 26062,
+          "id": "08bbe975-5e56-4219-ad0f-5f4c99bf399c"
+        },
+        "f538a5ab-64a5-458f-b79d-9edd0ef72fb2": {
+          "label": "Editorial board",
+          "link": "https://en.wikipedia.org/wiki/Editorial board",
+          "x": 128177,
+          "y": 26087,
+          "id": "f538a5ab-64a5-458f-b79d-9edd0ef72fb2"
+        },
+        "22463021-7e73-4f5f-b9b2-325ebda229c9": {
+          "label": "Genetic editing",
+          "link": "https://en.wikipedia.org/wiki/Genetic editing",
+          "x": 128178,
+          "y": 26112,
+          "id": "22463021-7e73-4f5f-b9b2-325ebda229c9"
+        },
+        "b97cb078-3c01-49fa-b126-97e7eae9383a": {
+          "label": "Wikipedia:How Wikipedia looks to newbies",
+          "link": "https://en.wikipedia.org/wiki/Wikipedia:How Wikipedia looks to newbies",
+          "x": 128264,
+          "y": 26137,
+          "id": "b97cb078-3c01-49fa-b126-97e7eae9383a"
+        },
+        "5c6841f5-509b-4f46-88a8-ce0ce2b4c7dc": {
+          "label": "Markup (legislation)",
+          "link": "https://en.wikipedia.org/wiki/Markup (legislation)",
+          "x": 128193,
+          "y": 26162,
+          "id": "5c6841f5-509b-4f46-88a8-ce0ce2b4c7dc"
+        },
+        "ec19e9c7-f690-4a04-b105-7bae5848b797": {
+          "label": "Victoria Mixon",
+          "link": "https://en.wikipedia.org/wiki/Victoria Mixon",
+          "x": 128175,
+          "y": 26187,
+          "id": "ec19e9c7-f690-4a04-b105-7bae5848b797"
+        },
+        "f4d0a8ad-7927-4af9-b5ba-5dd5e4027414": {
+          "label": "Redaction",
+          "link": "https://en.wikipedia.org/wiki/Redaction",
+          "x": 128163,
+          "y": 26212,
+          "id": "f4d0a8ad-7927-4af9-b5ba-5dd5e4027414"
+        },
+        "5749f5a9-1737-4a81-b85f-89c3ecc912c2": {
+          "label": "WePapers",
+          "link": "https://en.wikipedia.org/wiki/WePapers",
+          "x": 128164,
+          "y": 26237,
+          "id": "5749f5a9-1737-4a81-b85f-89c3ecc912c2"
+        },
+        "5ca163b1-0aa4-4b6f-99ec-e141298668ba": {
+          "label": "Working title",
+          "link": "https://en.wikipedia.org/wiki/Working title",
+          "x": 128170,
+          "y": 26262,
+          "id": "5ca163b1-0aa4-4b6f-99ec-e141298668ba"
+        },
+        "d0965a24-3cef-4099-b3a1-68aa9af6d716": {
+          "label": "Category:Editors",
+          "link": "https://en.wikipedia.org/wiki/Category:Editors",
+          "x": 128184,
+          "y": 26287,
+          "id": "d0965a24-3cef-4099-b3a1-68aa9af6d716"
+        },
+        "b73a2356-0465-442a-9683-3240b56f10a8": {
+          "label": "Category:Copy editing",
+          "link": "https://en.wikipedia.org/wiki/Category:Copy editing",
+          "x": 128201,
+          "y": 26312,
+          "id": "b73a2356-0465-442a-9683-3240b56f10a8"
+        },
+        "663b21de-f40a-4051-9ecb-72d34fe7a926": {
+          "label": "Category:Film editing",
+          "link": "https://en.wikipedia.org/wiki/Category:Film editing",
+          "x": 128198,
+          "y": 26337,
+          "id": "663b21de-f40a-4051-9ecb-72d34fe7a926"
+        },
+        "624c5230-79b0-4db1-a5b8-02a2d2e4892e": {
+          "label": "Category:Editing software",
+          "link": "https://en.wikipedia.org/wiki/Category:Editing software",
+          "x": 128212,
+          "y": 26362,
+          "id": "624c5230-79b0-4db1-a5b8-02a2d2e4892e"
+        },
+        "fdbcc349-0d18-4845-82cf-e938abe1dc0e": {
+          "label": "Proofreading",
+          "link": "https://en.wikipedia.org/wiki/Proofreading",
+          "x": 128159,
+          "y": 26674,
+          "id": "fdbcc349-0d18-4845-82cf-e938abe1dc0e"
+        },
+        "46f3cde7-8f0f-417c-af8c-626cbd7f7688": {
+          "label": "Distributed Proofreaders",
+          "link": "https://en.wikipedia.org/wiki/Distributed Proofreaders",
+          "x": 128195,
+          "y": 26699,
+          "id": "46f3cde7-8f0f-417c-af8c-626cbd7f7688"
+        },
+        "4c41d5cb-d79f-4cc0-bbbd-d39347a14cee": {
+          "label": "Dittography",
+          "link": "https://en.wikipedia.org/wiki/Dittography",
+          "x": 128154,
+          "y": 26724,
+          "id": "4c41d5cb-d79f-4cc0-bbbd-d39347a14cee"
+        },
+        "573e7645-e58b-438f-9e5f-0d923bea2f84": {
+          "label": "EAngel",
+          "link": "https://en.wikipedia.org/wiki/EAngel",
+          "x": 128140,
+          "y": 26749,
+          "id": "573e7645-e58b-438f-9e5f-0d923bea2f84"
+        },
+        "f71854a9-0e7a-400b-bdae-0bfba13f719a": {
+          "label": "Galley proof",
+          "link": "https://en.wikipedia.org/wiki/Galley proof",
+          "x": 128156,
+          "y": 26774,
+          "id": "f71854a9-0e7a-400b-bdae-0bfba13f719a"
+        },
+        "bfecc946-0894-4d00-a682-faa2cf396954": {
+          "label": "Haplography",
+          "link": "https://en.wikipedia.org/wiki/Haplography",
+          "x": 128158,
+          "y": 26799,
+          "id": "bfecc946-0894-4d00-a682-faa2cf396954"
+        },
+        "a2f77e5b-fcac-459b-9c41-7d952fa62ed5": {
+          "label": "ISO 5776",
+          "link": "https://en.wikipedia.org/wiki/ISO 5776",
+          "x": 128148,
+          "y": 26824,
+          "id": "a2f77e5b-fcac-459b-9c41-7d952fa62ed5"
+        },
+        "a6dc3d1f-7fc0-4617-84f5-5e6a27023c5a": {
+          "label": "Levels of edit",
+          "link": "https://en.wikipedia.org/wiki/Levels of edit",
+          "x": 128160,
+          "y": 26849,
+          "id": "a6dc3d1f-7fc0-4617-84f5-5e6a27023c5a"
+        },
+        "89acf49d-5641-4df9-936e-a53af8e32a6b": {
+          "label": "List of proofreader's marks",
+          "link": "https://en.wikipedia.org/wiki/List of proofreader's marks",
+          "x": 128203,
+          "y": 26874,
+          "id": "89acf49d-5641-4df9-936e-a53af8e32a6b"
+        },
+        "a3f7b3f5-16bd-4482-a45e-d5e526d19149": {
+          "label": "Press check (printing)",
+          "link": "https://en.wikipedia.org/wiki/Press check (printing)",
+          "x": 128187,
+          "y": 26899,
+          "id": "a3f7b3f5-16bd-4482-a45e-d5e526d19149"
+        },
+        "59c3809f-a182-40ee-9978-ffee18b1eb97": {
+          "label": "Typographical syntax",
+          "link": "https://en.wikipedia.org/wiki/Typographical syntax",
+          "x": 128185,
+          "y": 26924,
+          "id": "59c3809f-a182-40ee-9978-ffee18b1eb97"
+        },
+        "c0dc22a3-15b5-4ff8-8c00-a9b0f6e11baa": {
+          "label": "Wikisource",
+          "link": "https://en.wikipedia.org/wiki/Wikisource",
+          "x": 128152,
+          "y": 26949,
+          "id": "c0dc22a3-15b5-4ff8-8c00-a9b0f6e11baa"
+        },
+        "28837743-2282-413a-adec-10f702f1ebf6": {
+          "label": "Category:Language mechanics",
+          "link": "https://en.wikipedia.org/wiki/Category:Language mechanics",
+          "x": 128217,
+          "y": 26974,
+          "id": "28837743-2282-413a-adec-10f702f1ebf6"
+        },
+        "a46262b3-7eea-4797-a4c4-8e7218126651": {
+          "label": "Self-publishing",
+          "link": "https://en.wikipedia.org/wiki/Self-publishing",
+          "x": 128224,
+          "y": 27340,
+          "id": "a46262b3-7eea-4797-a4c4-8e7218126651"
+        },
+        "811daba8-e02b-4ce3-8ade-065297c240f6": {
+          "label": "Alternative media",
+          "link": "https://en.wikipedia.org/wiki/Alternative media",
+          "x": 128233,
+          "y": 27365,
+          "id": "811daba8-e02b-4ce3-8ade-065297c240f6"
+        },
+        "34e4f4f0-d2f8-409e-b0d7-ea9e794c0602": {
+          "label": "Business of webcomics",
+          "link": "https://en.wikipedia.org/wiki/Business of webcomics",
+          "x": 128251,
+          "y": 27390,
+          "id": "34e4f4f0-d2f8-409e-b0d7-ea9e794c0602"
+        },
+        "119ee283-f51a-49ab-b3a4-6ad35fc563f4": {
+          "label": "Dōjin",
+          "link": "https://en.wikipedia.org/wiki/Dōjin",
+          "x": 128194,
+          "y": 27415,
+          "id": "119ee283-f51a-49ab-b3a4-6ad35fc563f4"
+        },
+        "f3aee3d3-fa94-40b4-8f23-1fd286133370": {
+          "label": "Hay House",
+          "link": "https://en.wikipedia.org/wiki/Hay House",
+          "x": 128213,
+          "y": 27440,
+          "id": "f3aee3d3-fa94-40b4-8f23-1fd286133370"
+        },
+        "70cbb661-ea4f-475a-8beb-ec68c7de7ede": {
+          "label": "Independent music",
+          "link": "https://en.wikipedia.org/wiki/Independent music",
+          "x": 128238,
+          "y": 27465,
+          "id": "70cbb661-ea4f-475a-8beb-ec68c7de7ede"
+        },
+        "99d62a03-1673-4168-b2a3-79eefc087bb0": {
+          "label": "Independent Publishing Resource Center",
+          "link": "https://en.wikipedia.org/wiki/Independent Publishing Resource Center",
+          "x": 128308,
+          "y": 27490,
+          "id": "99d62a03-1673-4168-b2a3-79eefc087bb0"
+        },
+        "e837ccf8-6912-40c0-b15b-d70519d6f940": {
+          "label": "List of self-publishing companies",
+          "link": "https://en.wikipedia.org/wiki/List of self-publishing companies",
+          "x": 128281,
+          "y": 27515,
+          "id": "e837ccf8-6912-40c0-b15b-d70519d6f940"
+        },
+        "4f3344c5-3b51-49a4-8de8-480d4ce20863": {
+          "label": "Self-Publishing Review",
+          "link": "https://en.wikipedia.org/wiki/Self-Publishing Review",
+          "x": 128250,
+          "y": 27540,
+          "id": "4f3344c5-3b51-49a4-8de8-480d4ce20863"
+        },
+        "822a9b5e-f4aa-486b-98c8-e7ca7e1d2dbb": {
+          "label": "Writer's Digest",
+          "link": "https://en.wikipedia.org/wiki/Writer's Digest",
+          "x": 128223,
+          "y": 27565,
+          "id": "822a9b5e-f4aa-486b-98c8-e7ca7e1d2dbb"
+        },
+        "16616237-bf4f-489d-a3a3-7caa61779fe9": {
+          "label": "Category:Self-released albums",
+          "link": "https://en.wikipedia.org/wiki/Category:Self-released albums",
+          "x": 128276,
+          "y": 27590,
+          "id": "16616237-bf4f-489d-a3a3-7caa61779fe9"
+        },
+        "638879a5-8b89-4118-8e85-1a4e18f404c2": {
+          "label": "Category:Alternative media",
+          "link": "https://en.wikipedia.org/wiki/Category:Alternative media",
+          "x": 128264,
+          "y": 27615,
+          "id": "638879a5-8b89-4118-8e85-1a4e18f404c2"
+        },
+        "16eb8094-e566-43b2-bfc9-365b4bd8f94d": {
+          "label": "Category:Self-published authors",
+          "link": "https://en.wikipedia.org/wiki/Category:Self-published authors",
+          "x": 128280,
+          "y": 27640,
+          "id": "16eb8094-e566-43b2-bfc9-365b4bd8f94d"
+        },
+        "9d4d680b-dc23-4c71-819c-30f80922cb43": {
+          "label": "Category:Self-published books",
+          "link": "https://en.wikipedia.org/wiki/Category:Self-published books",
+          "x": 128275,
+          "y": 27665,
+          "id": "9d4d680b-dc23-4c71-819c-30f80922cb43"
+        },
+        "948eda47-7ee7-47bb-b9a9-425a42387e18": {
+          "label": "Category:Self-publishing companies",
+          "link": "https://en.wikipedia.org/wiki/Category:Self-publishing companies",
+          "x": 128292,
+          "y": 27690,
+          "id": "948eda47-7ee7-47bb-b9a9-425a42387e18"
+        },
+        "ba35d17f-2fae-40f6-90ab-a4a26b370e53": {
+          "label": "Category:Dōjinshi",
+          "link": "https://en.wikipedia.org/wiki/Category:Dōjinshi",
+          "x": 128234,
+          "y": 27715,
+          "id": "ba35d17f-2fae-40f6-90ab-a4a26b370e53"
+        },
+        "a4d8aa8f-19a7-440a-8425-78686b60e8b9": {
+          "label": "Category:Indie role-playing games",
+          "link": "https://en.wikipedia.org/wiki/Category:Indie role-playing games",
+          "x": 128287,
+          "y": 27740,
+          "id": "a4d8aa8f-19a7-440a-8425-78686b60e8b9"
+        },
+        "48f6493b-531d-4a6f-bb7c-8463eab80249": {
+          "label": "BibTeX",
+          "x": 126130,
+          "y": 6029,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "48f6493b-531d-4a6f-bb7c-8463eab80249",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "9cccf9a2-bd07-470a-b97a-60760b15be8c": {
+          "label": "Development",
+          "x": 126430,
+          "y": 6479,
+          "id": "9cccf9a2-bd07-470a-b97a-60760b15be8c"
+        },
+        "c946d303-b753-4c1c-8432-92d9118b79f0": {
+          "label": "11/16/2019",
+          "x": 126680,
+          "y": 6479,
+          "id": "c946d303-b753-4c1c-8432-92d9118b79f0"
+        },
+        "a260e6f0-eace-4bce-8e76-1ffac5a09047": {
+          "label": "init",
+          "x": 126580,
+          "y": 6479,
+          "id": "a260e6f0-eace-4bce-8e76-1ffac5a09047"
+        },
+        "3657b907-d0b6-4b0b-ae19-f00cb7445432": {
+          "label": "Notes",
+          "x": 126430,
+          "y": 5629,
+          "id": "3657b907-d0b6-4b0b-ae19-f00cb7445432"
+        },
+        "304cfe52-ea4f-4d10-8e58-fc6c9784db10": {
+          "label": "Dictionary of\nconcepts",
+          "x": 126567,
+          "y": 4509,
+          "id": "304cfe52-ea4f-4d10-8e58-fc6c9784db10"
+        },
+        "20fb3fd4-f4d6-4cda-ae11-17a39a25b81e": {
+          "label": "Details, thoughts",
+          "x": 126580,
+          "y": 5629,
+          "id": "20fb3fd4-f4d6-4cda-ae11-17a39a25b81e"
+        },
+        "6e1560c2-3786-4cf9-b9e5-4eaabb42c1c7": {
+          "label": "Sections",
+          "x": 126580,
+          "y": 5879,
+          "id": "6e1560c2-3786-4cf9-b9e5-4eaabb42c1c7"
+        },
+        "daf92ad3-da6b-4051-855d-bed76f88a52b": {
+          "label": "Books",
+          "x": 126644,
+          "y": 5729,
+          "id": "daf92ad3-da6b-4051-855d-bed76f88a52b"
+        },
+        "bb7a937c-fa3c-4615-ae92-cae35fc16a5a": {
+          "label": "R&D institutions",
+          "x": 126674,
+          "y": 5754,
+          "id": "bb7a937c-fa3c-4615-ae92-cae35fc16a5a"
+        },
+        "53bd0566-091c-4b07-8a28-3cc90ee55daa": {
+          "label": "Sites",
+          "x": 126640,
+          "y": 5779,
+          "id": "53bd0566-091c-4b07-8a28-3cc90ee55daa"
+        },
+        "4e58857c-6433-4ed2-804f-5bb8e18d1fa5": {
+          "label": "Magazines",
+          "x": 126659,
+          "y": 5804,
+          "id": "4e58857c-6433-4ed2-804f-5bb8e18d1fa5"
+        },
+        "127d1815-5daf-462b-9dff-20f422f193e1": {
+          "label": "Articles",
+          "x": 126647,
+          "y": 5829,
+          "id": "127d1815-5daf-462b-9dff-20f422f193e1"
+        },
+        "b3032c04-d40c-491a-9b80-1d41e73490e6": {
+          "label": "Media content",
+          "x": 126669,
+          "y": 5854,
+          "id": "b3032c04-d40c-491a-9b80-1d41e73490e6"
+        },
+        "248b1ab0-cff1-4aeb-8698-0e6cbb741515": {
+          "label": "Misc. web links",
+          "x": 126672,
+          "y": 5879,
+          "id": "248b1ab0-cff1-4aeb-8698-0e6cbb741515"
+        },
+        "bcc73568-d3ee-4b1e-92c3-f82e869df3c6": {
+          "label": "Projects",
+          "x": 126650,
+          "y": 5904,
+          "id": "bcc73568-d3ee-4b1e-92c3-f82e869df3c6"
+        },
+        "6a662abc-c221-4021-a028-13cfb1759616": {
+          "label": "Tools",
+          "x": 126641,
+          "y": 5929,
+          "id": "6a662abc-c221-4021-a028-13cfb1759616"
+        },
+        "6b94d499-a693-43ac-8aa9-2c25f934aceb": {
+          "label": "Organizations",
+          "x": 126668,
+          "y": 5954,
+          "id": "6b94d499-a693-43ac-8aa9-2c25f934aceb"
+        },
+        "e5e72806-bcd6-4af8-99e3-b4022f71b111": {
+          "label": "Standarts",
+          "x": 126655,
+          "y": 5979,
+          "id": "e5e72806-bcd6-4af8-99e3-b4022f71b111"
+        },
+        "ddb53559-464a-4025-85e9-bb728fda56b1": {
+          "label": "Forums, Groups",
+          "x": 126676,
+          "y": 6004,
+          "id": "ddb53559-464a-4025-85e9-bb728fda56b1"
+        },
+        "f4378d3d-86d5-4462-9516-7cc7ef23ce84": {
+          "label": "Laws",
+          "x": 126641,
+          "y": 6029,
+          "id": "f4378d3d-86d5-4462-9516-7cc7ef23ce84"
+        },
+        "62ff98f0-de89-4e14-8809-1cc6c0a31d5c": {
+          "label": "Adjacent Themes",
+          "x": 126680,
+          "y": 6054,
+          "id": "62ff98f0-de89-4e14-8809-1cc6c0a31d5c"
+        },
+        "390f4a9e-ce10-45cb-a0df-34bffd965360": {
+          "label": "Questions",
+          "x": 126430,
+          "y": 6179,
+          "id": "390f4a9e-ce10-45cb-a0df-34bffd965360"
+        },
+        "ab802b64-1684-49a4-9da0-a4bd77d5c404": {
+          "label": "Problems",
+          "x": 126430,
+          "y": 6279,
+          "id": "ab802b64-1684-49a4-9da0-a4bd77d5c404"
+        },
+        "8ba6bc6a-6aee-416f-bc20-0c1827e81829": {
+          "label": "Goals",
+          "x": 126430,
+          "y": 6379,
+          "id": "8ba6bc6a-6aee-416f-bc20-0c1827e81829"
+        },
+        "89fe8901-1999-46ab-a7dc-2a08890f0e44": {
+          "label": "Online scientific catalogues",
+          "x": 137366,
+          "y": -2647,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "89fe8901-1999-46ab-a7dc-2a08890f0e44",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d9215af7-fe53-44d9-8b88-9c09a5b9a957": {
+          "label": "Development",
+          "x": 138070,
+          "y": -2220,
+          "id": "d9215af7-fe53-44d9-8b88-9c09a5b9a957"
+        },
+        "d2396e50-43fa-4a00-a49c-747430877c70": {
+          "label": "11/16/2019",
+          "x": 138320,
+          "y": -2220,
+          "id": "d2396e50-43fa-4a00-a49c-747430877c70"
+        },
+        "5fb24578-58a7-46c9-8c1b-3244df55092d": {
+          "label": "init",
+          "x": 138220,
+          "y": -2220,
+          "id": "5fb24578-58a7-46c9-8c1b-3244df55092d"
+        },
+        "5426f1c3-837f-43ee-93a0-75be7982fef7": {
+          "label": "Notes",
+          "x": 138070,
+          "y": -3070,
+          "id": "5426f1c3-837f-43ee-93a0-75be7982fef7"
+        },
+        "7ba8589f-b738-4c66-8685-7c8df3673360": {
+          "label": "Dictionary of\nconcepts",
+          "x": 138182,
+          "y": -3490,
+          "id": "7ba8589f-b738-4c66-8685-7c8df3673360"
+        },
+        "73965738-28e2-4b4a-a1ea-de1a3d3d63cf": {
+          "label": "Details, thoughts",
+          "x": 138220,
+          "y": -3070,
+          "id": "73965738-28e2-4b4a-a1ea-de1a3d3d63cf"
+        },
+        "1b1d7e05-5821-4e61-b378-2c30b982df32": {
+          "label": "Sections",
+          "x": 138220,
+          "y": -2820,
+          "id": "1b1d7e05-5821-4e61-b378-2c30b982df32"
+        },
+        "172fbdb7-bb87-4a51-a744-9e2c68480f94": {
+          "label": "Books",
+          "x": 138283,
+          "y": -2970,
+          "id": "172fbdb7-bb87-4a51-a744-9e2c68480f94"
+        },
+        "6848f6d3-5397-434e-99d7-0bd2980a59aa": {
+          "label": "R&D institutions",
+          "x": 138314,
+          "y": -2945,
+          "id": "6848f6d3-5397-434e-99d7-0bd2980a59aa"
+        },
+        "ba316de8-cb29-44f4-bdbf-f98ac9dc5c60": {
+          "label": "Sites",
+          "x": 138279,
+          "y": -2920,
+          "id": "ba316de8-cb29-44f4-bdbf-f98ac9dc5c60"
+        },
+        "6b566c33-ba3c-45b8-823a-7c0609cf31c1": {
+          "label": "Magazines",
+          "x": 138298,
+          "y": -2895,
+          "id": "6b566c33-ba3c-45b8-823a-7c0609cf31c1"
+        },
+        "b2c9083f-8e98-4ff0-b8ec-ee3f40c5d7c1": {
+          "label": "Articles",
+          "x": 138287,
+          "y": -2870,
+          "id": "b2c9083f-8e98-4ff0-b8ec-ee3f40c5d7c1"
+        },
+        "936bc752-f5ee-4f92-bc4c-916c6253241e": {
+          "label": "Media content",
+          "x": 138309,
+          "y": -2845,
+          "id": "936bc752-f5ee-4f92-bc4c-916c6253241e"
+        },
+        "b98e57fd-3b81-46f4-81c4-18837adc3612": {
+          "label": "Misc. web links",
+          "x": 138311,
+          "y": -2820,
+          "id": "b98e57fd-3b81-46f4-81c4-18837adc3612"
+        },
+        "01a263bf-e4aa-4f4f-80df-6bbefa1d8ec1": {
+          "label": "Projects",
+          "x": 138289,
+          "y": -2795,
+          "id": "01a263bf-e4aa-4f4f-80df-6bbefa1d8ec1"
+        },
+        "99bc1fed-941e-47a4-b0b7-3df043690632": {
+          "label": "Tools",
+          "x": 138281,
+          "y": -2770,
+          "id": "99bc1fed-941e-47a4-b0b7-3df043690632"
+        },
+        "5fb4d80e-f395-454e-ae82-325905d76a40": {
+          "label": "Organizations",
+          "x": 138308,
+          "y": -2745,
+          "id": "5fb4d80e-f395-454e-ae82-325905d76a40"
+        },
+        "93e8639b-6db8-4caa-9c31-d85af60a6d04": {
+          "label": "Standarts",
+          "x": 138294,
+          "y": -2720,
+          "id": "93e8639b-6db8-4caa-9c31-d85af60a6d04"
+        },
+        "6a131a30-7a94-49a2-b2f5-c59d9a9c33bf": {
+          "label": "Forums, Groups",
+          "x": 138316,
+          "y": -2695,
+          "id": "6a131a30-7a94-49a2-b2f5-c59d9a9c33bf"
+        },
+        "13acffcb-1561-43d2-b158-17e4480bfe47": {
+          "label": "Laws",
+          "x": 138280,
+          "y": -2670,
+          "id": "13acffcb-1561-43d2-b158-17e4480bfe47"
+        },
+        "ddf57d4a-30d7-4679-82d2-bb66075fdc65": {
+          "label": "Adjacent Themes",
+          "x": 138319,
+          "y": -2645,
+          "id": "ddf57d4a-30d7-4679-82d2-bb66075fdc65"
+        },
+        "557163dd-4726-4c9a-a10d-7e0b81dc4ff5": {
+          "label": "Questions",
+          "x": 138070,
+          "y": -2520,
+          "id": "557163dd-4726-4c9a-a10d-7e0b81dc4ff5"
+        },
+        "c576a520-6ee8-4680-aa02-5cc395d4e337": {
+          "label": "Problems",
+          "x": 138070,
+          "y": -2420,
+          "id": "c576a520-6ee8-4680-aa02-5cc395d4e337"
+        },
+        "3c406cc9-e7d6-4829-9ca9-5b6e772c8d73": {
+          "label": "Goals",
+          "x": 138070,
+          "y": -2320,
+          "id": "3c406cc9-e7d6-4829-9ca9-5b6e772c8d73"
+        },
+        "1d11e21f-a70a-4846-b149-ee846f620ac4": {
+          "label": "Mediawiki",
+          "x": 137550,
+          "y": -14,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "1d11e21f-a70a-4846-b149-ee846f620ac4",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "09a78a32-dbbd-4688-9d59-4cd1af75473a": {
+          "label": "Development",
+          "x": 137850,
+          "y": 436,
+          "id": "09a78a32-dbbd-4688-9d59-4cd1af75473a"
+        },
+        "cfe3120b-a124-41b5-9191-75b846d891af": {
+          "label": "11/16/2019",
+          "x": 138100,
+          "y": 436,
+          "id": "cfe3120b-a124-41b5-9191-75b846d891af"
+        },
+        "a880454a-a307-43bd-8302-06a82942e505": {
+          "label": "init",
+          "x": 138000,
+          "y": 436,
+          "id": "a880454a-a307-43bd-8302-06a82942e505"
+        },
+        "732672b4-7aae-4789-97d9-838bc99502b7": {
+          "label": "Notes",
+          "x": 137850,
+          "y": -414,
+          "id": "732672b4-7aae-4789-97d9-838bc99502b7"
+        },
+        "17ee9eef-f955-447c-99ab-42d220ef6e9b": {
+          "label": "Dictionary of\nconcepts",
+          "x": 138000,
+          "y": -664,
+          "id": "17ee9eef-f955-447c-99ab-42d220ef6e9b"
+        },
+        "545da88b-ec75-45dc-92cf-2e7c7332d8a4": {
+          "label": "Details, thoughts",
+          "x": 138000,
+          "y": -414,
+          "id": "545da88b-ec75-45dc-92cf-2e7c7332d8a4"
+        },
+        "5f005f48-2222-4f76-b3c8-fbfd37cd61a1": {
+          "label": "Sections",
+          "x": 138000,
+          "y": -164,
+          "id": "5f005f48-2222-4f76-b3c8-fbfd37cd61a1"
+        },
+        "e103d26f-498a-4320-b26f-245cd8a51d63": {
+          "label": "Books",
+          "x": 138064,
+          "y": -314,
+          "id": "e103d26f-498a-4320-b26f-245cd8a51d63"
+        },
+        "690b576a-5588-4d14-be83-8cc7962147c0": {
+          "label": "R&D institutions",
+          "x": 138094,
+          "y": -289,
+          "id": "690b576a-5588-4d14-be83-8cc7962147c0"
+        },
+        "d999a554-c8d3-45fa-b80a-18d2ae0f06f5": {
+          "label": "Sites",
+          "x": 138060,
+          "y": -264,
+          "id": "d999a554-c8d3-45fa-b80a-18d2ae0f06f5"
+        },
+        "2f638c2b-f2bd-4b58-8af3-b44569366067": {
+          "label": "Magazines",
+          "x": 138079,
+          "y": -239,
+          "id": "2f638c2b-f2bd-4b58-8af3-b44569366067"
+        },
+        "e31bd440-5793-472c-9f21-e88bf51e9fa8": {
+          "label": "Articles",
+          "x": 138067,
+          "y": -214,
+          "id": "e31bd440-5793-472c-9f21-e88bf51e9fa8"
+        },
+        "d015c10f-639f-4843-8087-523e32386324": {
+          "label": "Media content",
+          "x": 138089,
+          "y": -189,
+          "id": "d015c10f-639f-4843-8087-523e32386324"
+        },
+        "e228ef7f-d385-4f43-90d4-1525bb7dde0e": {
+          "label": "Misc. web links",
+          "x": 138092,
+          "y": -164,
+          "id": "e228ef7f-d385-4f43-90d4-1525bb7dde0e"
+        },
+        "bda60395-deac-46d2-b505-7217a1917d53": {
+          "label": "Projects",
+          "x": 138070,
+          "y": -139,
+          "id": "bda60395-deac-46d2-b505-7217a1917d53"
+        },
+        "a2042f1a-3a60-44a2-9d57-52aa824f0423": {
+          "label": "Tools",
+          "x": 138061,
+          "y": -114,
+          "id": "a2042f1a-3a60-44a2-9d57-52aa824f0423"
+        },
+        "b7212c9c-7efb-4436-bff2-9729126bae64": {
+          "label": "Organizations",
+          "x": 138088,
+          "y": -89,
+          "id": "b7212c9c-7efb-4436-bff2-9729126bae64"
+        },
+        "864bbea1-50c7-438c-8224-b581c6091bc2": {
+          "label": "Standarts",
+          "x": 138075,
+          "y": -64,
+          "id": "864bbea1-50c7-438c-8224-b581c6091bc2"
+        },
+        "38634fc3-4d6f-4238-9eef-6b32acc387cd": {
+          "label": "Forums, Groups",
+          "x": 138096,
+          "y": -39,
+          "id": "38634fc3-4d6f-4238-9eef-6b32acc387cd"
+        },
+        "fb77f6ee-879d-40d5-b5e0-d2dd0397fe4e": {
+          "label": "Laws",
+          "x": 138061,
+          "y": -14,
+          "id": "fb77f6ee-879d-40d5-b5e0-d2dd0397fe4e"
+        },
+        "74735518-b540-4ade-a442-3df924e5be3c": {
+          "label": "Adjacent Themes",
+          "x": 138100,
+          "y": 11,
+          "id": "74735518-b540-4ade-a442-3df924e5be3c"
+        },
+        "6ce012fd-29ff-4114-9bef-941617cbd697": {
+          "label": "Questions",
+          "x": 137850,
+          "y": 136,
+          "id": "6ce012fd-29ff-4114-9bef-941617cbd697"
+        },
+        "de41ea49-5baf-40d0-acc1-154781231aba": {
+          "label": "Problems",
+          "x": 137850,
+          "y": 236,
+          "id": "de41ea49-5baf-40d0-acc1-154781231aba"
+        },
+        "b9944f1a-94c9-4c7f-a8c2-116eb8c81384": {
+          "label": "Goals",
+          "x": 137850,
+          "y": 336,
+          "id": "b9944f1a-94c9-4c7f-a8c2-116eb8c81384"
+        },
+        "5d352db8-ebe8-4543-8ebb-2a60cceb91d1": {
+          "label": "DOI",
+          "x": 126273,
+          "y": 8329,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "5d352db8-ebe8-4543-8ebb-2a60cceb91d1",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "017acb45-c851-45b9-be2e-9c768f54babb": {
+          "label": "Development",
+          "x": 126573,
+          "y": 8779,
+          "id": "017acb45-c851-45b9-be2e-9c768f54babb"
+        },
+        "38171bd5-7df5-4171-8587-03e93e6ee400": {
+          "label": "11/16/2019",
+          "x": 126823,
+          "y": 8779,
+          "id": "38171bd5-7df5-4171-8587-03e93e6ee400"
+        },
+        "6b0c5a03-ab0a-4f6e-a8a2-72eec2af3526": {
+          "label": "init",
+          "x": 126723,
+          "y": 8779,
+          "id": "6b0c5a03-ab0a-4f6e-a8a2-72eec2af3526"
+        },
+        "a5695dcc-8ddb-4e18-9239-97fa8088f30d": {
+          "label": "Notes",
+          "x": 126573,
+          "y": 7929,
+          "id": "a5695dcc-8ddb-4e18-9239-97fa8088f30d"
+        },
+        "71f6a7ee-24e6-4784-ad6d-3f3547370a66": {
+          "label": "Dictionary of\nconcepts",
+          "x": 126723,
+          "y": 7679,
+          "id": "71f6a7ee-24e6-4784-ad6d-3f3547370a66"
+        },
+        "2e047069-0232-49a2-9fa2-3e3948cdb5c8": {
+          "label": "Details, thoughts",
+          "x": 126723,
+          "y": 7929,
+          "id": "2e047069-0232-49a2-9fa2-3e3948cdb5c8"
+        },
+        "17f7a91b-b04d-43bb-9c38-1a6890606302": {
+          "label": "Sections",
+          "x": 126723,
+          "y": 8179,
+          "id": "17f7a91b-b04d-43bb-9c38-1a6890606302"
+        },
+        "a03ddbcc-ed49-4274-9f99-5c93aea850ec": {
+          "label": "Books",
+          "x": 126787,
+          "y": 8029,
+          "id": "a03ddbcc-ed49-4274-9f99-5c93aea850ec"
+        },
+        "9d82f53c-9f0a-4e3a-aec6-8c0fc7716da7": {
+          "label": "R&D institutions",
+          "x": 126818,
+          "y": 8054,
+          "id": "9d82f53c-9f0a-4e3a-aec6-8c0fc7716da7"
+        },
+        "ebbe68a3-1449-4591-ac2c-8994f9323759": {
+          "label": "Sites",
+          "x": 126783,
+          "y": 8079,
+          "id": "ebbe68a3-1449-4591-ac2c-8994f9323759"
+        },
+        "1668694c-c82b-45ec-a05b-94635182dbe0": {
+          "label": "Magazines",
+          "x": 126802,
+          "y": 8104,
+          "id": "1668694c-c82b-45ec-a05b-94635182dbe0"
+        },
+        "08eeb7b0-8165-46cf-a732-84b30cbbc66e": {
+          "label": "Articles",
+          "x": 126791,
+          "y": 8129,
+          "id": "08eeb7b0-8165-46cf-a732-84b30cbbc66e"
+        },
+        "9407c536-a151-4759-a913-4d9b3abf3f6d": {
+          "label": "Media content",
+          "x": 126813,
+          "y": 8154,
+          "id": "9407c536-a151-4759-a913-4d9b3abf3f6d"
+        },
+        "59ad259a-bb33-4809-bfe6-c801d420f207": {
+          "label": "Misc. web links",
+          "x": 126815,
+          "y": 8179,
+          "id": "59ad259a-bb33-4809-bfe6-c801d420f207"
+        },
+        "c408afa6-301f-4042-9f1c-e1be5d9031f9": {
+          "label": "Projects",
+          "x": 126793,
+          "y": 8204,
+          "id": "c408afa6-301f-4042-9f1c-e1be5d9031f9"
+        },
+        "0fe7735e-9ebc-4152-bc84-222a5e808259": {
+          "label": "Tools",
+          "x": 126785,
+          "y": 8229,
+          "id": "0fe7735e-9ebc-4152-bc84-222a5e808259"
+        },
+        "dfe4a265-6c89-4892-9368-64d2e4f8652e": {
+          "label": "Organizations",
+          "x": 126812,
+          "y": 8254,
+          "id": "dfe4a265-6c89-4892-9368-64d2e4f8652e"
+        },
+        "46ce265b-a0e4-42de-a1d1-7ebd12bd5adf": {
+          "label": "Standarts",
+          "x": 126798,
+          "y": 8279,
+          "id": "46ce265b-a0e4-42de-a1d1-7ebd12bd5adf"
+        },
+        "ba8e48b9-c41b-431a-8726-15baf4790c99": {
+          "label": "Forums, Groups",
+          "x": 126820,
+          "y": 8304,
+          "id": "ba8e48b9-c41b-431a-8726-15baf4790c99"
+        },
+        "e382e11e-8cbc-492f-9fda-fbf5870e411d": {
+          "label": "Laws",
+          "x": 126784,
+          "y": 8329,
+          "id": "e382e11e-8cbc-492f-9fda-fbf5870e411d"
+        },
+        "a1d4cb5b-bdc6-4a4d-adb7-ed8ae48cbc34": {
+          "label": "Adjacent Themes",
+          "x": 126823,
+          "y": 8354,
+          "id": "a1d4cb5b-bdc6-4a4d-adb7-ed8ae48cbc34"
+        },
+        "0033fdec-1bb3-429c-a545-e00bd4e0f99f": {
+          "label": "Questions",
+          "x": 126573,
+          "y": 8479,
+          "id": "0033fdec-1bb3-429c-a545-e00bd4e0f99f"
+        },
+        "a18d19be-eeb4-44b1-ac7c-b4bb641b7385": {
+          "label": "Problems",
+          "x": 126573,
+          "y": 8579,
+          "id": "a18d19be-eeb4-44b1-ac7c-b4bb641b7385"
+        },
+        "150bf1c2-6807-4c2f-bc13-7d0a0739a8c0": {
+          "label": "Goals",
+          "x": 126573,
+          "y": 8679,
+          "id": "150bf1c2-6807-4c2f-bc13-7d0a0739a8c0"
+        },
+        "c8a86e1b-679c-46c2-b1b2-b36cdd9675df": {
+          "label": "mendeley.com",
+          "x": 138002,
+          "y": 4153,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "c8a86e1b-679c-46c2-b1b2-b36cdd9675df",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "b3f2a720-31f1-426c-8d56-c8d03371e21e": {
+          "label": "Development",
+          "x": 138535,
+          "y": 4588,
+          "id": "b3f2a720-31f1-426c-8d56-c8d03371e21e"
+        },
+        "ac23a345-9cd5-416e-a218-02e7d79331aa": {
+          "label": "11/16/2019",
+          "x": 138785,
+          "y": 4588,
+          "id": "ac23a345-9cd5-416e-a218-02e7d79331aa"
+        },
+        "948664cf-c9e5-4785-a914-b44d1c1163d8": {
+          "label": "init",
+          "x": 138685,
+          "y": 4588,
+          "id": "948664cf-c9e5-4785-a914-b44d1c1163d8"
+        },
+        "02a09033-8097-4a4e-ae27-e8ffa51c099e": {
+          "label": "Notes",
+          "x": 138535,
+          "y": 3738,
+          "id": "02a09033-8097-4a4e-ae27-e8ffa51c099e"
+        },
+        "954a8b33-0bbf-4366-afec-8cc8ee3627e9": {
+          "label": "Dictionary of\nconcepts",
+          "x": 138685,
+          "y": 3488,
+          "id": "954a8b33-0bbf-4366-afec-8cc8ee3627e9"
+        },
+        "b976f76f-a598-42c4-9e5d-0c62635145c4": {
+          "label": "Details, thoughts",
+          "x": 138685,
+          "y": 3738,
+          "id": "b976f76f-a598-42c4-9e5d-0c62635145c4"
+        },
+        "72e8a7ac-e271-431d-acd3-28253e553e12": {
+          "label": "Sections",
+          "x": 138685,
+          "y": 3988,
+          "id": "72e8a7ac-e271-431d-acd3-28253e553e12"
+        },
+        "272d3305-c39a-4096-abc1-af563fdbde6b": {
+          "label": "Books",
+          "x": 138749,
+          "y": 3838,
+          "id": "272d3305-c39a-4096-abc1-af563fdbde6b"
+        },
+        "8a89fb1d-41ed-4bf1-bb4c-134a2622b52d": {
+          "label": "R&D institutions",
+          "x": 138779,
+          "y": 3863,
+          "id": "8a89fb1d-41ed-4bf1-bb4c-134a2622b52d"
+        },
+        "081e1a1e-66e4-4645-bcec-0c63aa9ac73a": {
+          "label": "Sites",
+          "x": 138745,
+          "y": 3888,
+          "id": "081e1a1e-66e4-4645-bcec-0c63aa9ac73a"
+        },
+        "4458d6ae-f8a8-478d-aac1-5482db4e7b12": {
+          "label": "Magazines",
+          "x": 138764,
+          "y": 3913,
+          "id": "4458d6ae-f8a8-478d-aac1-5482db4e7b12"
+        },
+        "b0dc634b-64cf-446f-b3ed-9c17b86b43c2": {
+          "label": "Articles",
+          "x": 138752,
+          "y": 3938,
+          "id": "b0dc634b-64cf-446f-b3ed-9c17b86b43c2"
+        },
+        "57e97124-4ce1-47e0-9faf-db234e6a8b96": {
+          "label": "Media content",
+          "x": 138774,
+          "y": 3963,
+          "id": "57e97124-4ce1-47e0-9faf-db234e6a8b96"
+        },
+        "3eb9cf48-7844-4df8-8602-c59b9c6bae50": {
+          "label": "Misc. web links",
+          "x": 138777,
+          "y": 3988,
+          "id": "3eb9cf48-7844-4df8-8602-c59b9c6bae50"
+        },
+        "82aafad5-11e0-40b2-bf0b-36d8ec5620a6": {
+          "label": "Projects",
+          "x": 138755,
+          "y": 4013,
+          "id": "82aafad5-11e0-40b2-bf0b-36d8ec5620a6"
+        },
+        "7d002af3-caa4-4e7c-b211-284281bb9527": {
+          "label": "Tools",
+          "x": 138746,
+          "y": 4038,
+          "id": "7d002af3-caa4-4e7c-b211-284281bb9527"
+        },
+        "5f983d5b-1185-4428-83bb-984339c9368e": {
+          "label": "Organizations",
+          "x": 138773,
+          "y": 4063,
+          "id": "5f983d5b-1185-4428-83bb-984339c9368e"
+        },
+        "b8c43f16-56e7-4b41-b218-7028dd2e1778": {
+          "label": "Standarts",
+          "x": 138760,
+          "y": 4088,
+          "id": "b8c43f16-56e7-4b41-b218-7028dd2e1778"
+        },
+        "eaaa1a17-ddc0-441e-b12f-b9e8250cd8f2": {
+          "label": "Forums, Groups",
+          "x": 138781,
+          "y": 4113,
+          "id": "eaaa1a17-ddc0-441e-b12f-b9e8250cd8f2"
+        },
+        "de3a5bdf-6220-4e60-b560-36dc2c10bd3a": {
+          "label": "Laws",
+          "x": 138746,
+          "y": 4138,
+          "id": "de3a5bdf-6220-4e60-b560-36dc2c10bd3a"
+        },
+        "eadb2770-8b5c-4e47-9a16-9f9528b3c15d": {
+          "label": "Adjacent Themes",
+          "x": 138785,
+          "y": 4163,
+          "id": "eadb2770-8b5c-4e47-9a16-9f9528b3c15d"
+        },
+        "ce3c4fec-5d91-4591-8043-61cb6106a8bc": {
+          "label": "Questions",
+          "x": 138535,
+          "y": 4288,
+          "id": "ce3c4fec-5d91-4591-8043-61cb6106a8bc"
+        },
+        "0cac9823-2c55-48a8-87a0-68b6949486f9": {
+          "label": "Problems",
+          "x": 138535,
+          "y": 4388,
+          "id": "0cac9823-2c55-48a8-87a0-68b6949486f9"
+        },
+        "e129a58b-7202-4fc3-8bc1-6a94ae33a953": {
+          "label": "Goals",
+          "x": 138535,
+          "y": 4488,
+          "id": "e129a58b-7202-4fc3-8bc1-6a94ae33a953"
+        },
+        "69aac351-be9d-4c06-a8ac-04205d8964e1": {
+          "label": "zbib.org",
+          "x": 126414,
+          "y": 14756,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "69aac351-be9d-4c06-a8ac-04205d8964e1",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "51a9aa75-5142-4cc1-860e-c7e1ba4b58f5": {
+          "label": "Development",
+          "x": 126714,
+          "y": 15206,
+          "id": "51a9aa75-5142-4cc1-860e-c7e1ba4b58f5"
+        },
+        "8bdd88e8-ddbe-401e-b4d0-9948ccff5ed3": {
+          "label": "11/16/2019",
+          "x": 126964,
+          "y": 15206,
+          "id": "8bdd88e8-ddbe-401e-b4d0-9948ccff5ed3"
+        },
+        "3a3eb576-3a23-4afc-a834-4c379de94d21": {
+          "label": "init",
+          "x": 126864,
+          "y": 15206,
+          "id": "3a3eb576-3a23-4afc-a834-4c379de94d21"
+        },
+        "5adbb08a-cfbe-42fe-91c9-a918a2af5c35": {
+          "label": "Notes",
+          "x": 126719,
+          "y": 14206,
+          "id": "5adbb08a-cfbe-42fe-91c9-a918a2af5c35"
+        },
+        "ac755080-6537-4d18-9dcc-e52edabaa11e": {
+          "label": "Dictionary of\nconcepts",
+          "x": 126869,
+          "y": 13956,
+          "id": "ac755080-6537-4d18-9dcc-e52edabaa11e"
+        },
+        "7a3462d4-d6ca-41d6-ab34-08aefda8599b": {
+          "label": "Details, thoughts",
+          "x": 126869,
+          "y": 14206,
+          "id": "7a3462d4-d6ca-41d6-ab34-08aefda8599b"
+        },
+        "72300d2e-0ebb-4e3b-ad5e-2de5c9a18348": {
+          "label": "Sections",
+          "x": 126864,
+          "y": 14606,
+          "id": "72300d2e-0ebb-4e3b-ad5e-2de5c9a18348"
+        },
+        "f747fdde-1f90-46c8-9c67-5f3e6cd54810": {
+          "label": "Books",
+          "x": 126927,
+          "y": 14306,
+          "id": "f747fdde-1f90-46c8-9c67-5f3e6cd54810"
+        },
+        "37dee7a3-9d1d-4a7d-91c2-f72bb60aaf59": {
+          "label": "R&D institutions",
+          "x": 126958,
+          "y": 14331,
+          "id": "37dee7a3-9d1d-4a7d-91c2-f72bb60aaf59"
+        },
+        "50ee27f0-0ba0-42d4-a2ad-d05c62569b6a": {
+          "label": "Sites",
+          "x": 126923,
+          "y": 14356,
+          "id": "50ee27f0-0ba0-42d4-a2ad-d05c62569b6a"
+        },
+        "a63e9f75-def0-447f-8042-861ee7a5178d": {
+          "label": "Magazines",
+          "x": 126942,
+          "y": 14381,
+          "id": "a63e9f75-def0-447f-8042-861ee7a5178d"
+        },
+        "9905760e-0b1b-424d-9d4e-ac2495fd1737": {
+          "label": "Articles",
+          "x": 126931,
+          "y": 14406,
+          "id": "9905760e-0b1b-424d-9d4e-ac2495fd1737"
+        },
+        "96f688c1-229b-4e84-aad7-f4fe1d2e1e7d": {
+          "label": "Media content",
+          "x": 126953,
+          "y": 14431,
+          "id": "96f688c1-229b-4e84-aad7-f4fe1d2e1e7d"
+        },
+        "4bed8221-cdf3-4c84-b54f-b18c7ff0588b": {
+          "label": "Misc. web links",
+          "x": 126955,
+          "y": 14538,
+          "id": "4bed8221-cdf3-4c84-b54f-b18c7ff0588b"
+        },
+        "0203205a-d3d3-4a2d-b524-210606963b0b": {
+          "label": "Projects",
+          "x": 126933,
+          "y": 14631,
+          "id": "0203205a-d3d3-4a2d-b524-210606963b0b"
+        },
+        "12ac1562-3f79-4703-b1c8-dc3a25fe15f4": {
+          "label": "Tools",
+          "x": 126924,
+          "y": 14656,
+          "id": "12ac1562-3f79-4703-b1c8-dc3a25fe15f4"
+        },
+        "bface27c-0711-4e98-b76d-6d0bc1a95ad1": {
+          "label": "Organizations",
+          "x": 126952,
+          "y": 14681,
+          "id": "bface27c-0711-4e98-b76d-6d0bc1a95ad1"
+        },
+        "2fcb8691-1f96-4b5e-b9ce-0b290c0641fb": {
+          "label": "Standarts",
+          "x": 126938,
+          "y": 14706,
+          "id": "2fcb8691-1f96-4b5e-b9ce-0b290c0641fb"
+        },
+        "eb958f95-12c3-4c8e-90e7-04571fb640a1": {
+          "label": "Forums, Groups",
+          "x": 126960,
+          "y": 14731,
+          "id": "eb958f95-12c3-4c8e-90e7-04571fb640a1"
+        },
+        "35cbf31c-d091-4a5e-85b6-829cc664bb13": {
+          "label": "Laws",
+          "x": 126924,
+          "y": 14756,
+          "id": "35cbf31c-d091-4a5e-85b6-829cc664bb13"
+        },
+        "22a106b9-3879-42c8-99c3-3c165f5b6c83": {
+          "label": "Adjacent Themes",
+          "x": 126963,
+          "y": 14781,
+          "id": "22a106b9-3879-42c8-99c3-3c165f5b6c83"
+        },
+        "3a9fbf6f-018e-46ec-a733-738d66385d6b": {
+          "label": "Questions",
+          "x": 126714,
+          "y": 14906,
+          "id": "3a9fbf6f-018e-46ec-a733-738d66385d6b"
+        },
+        "4fb9aabd-e739-4869-9d15-b8b763ea807b": {
+          "label": "Problems",
+          "x": 126714,
+          "y": 15006,
+          "id": "4fb9aabd-e739-4869-9d15-b8b763ea807b"
+        },
+        "fc27d73e-54e4-49c6-9014-4abf8c4387f8": {
+          "label": "Goals",
+          "x": 126714,
+          "y": 15106,
+          "id": "fc27d73e-54e4-49c6-9014-4abf8c4387f8"
+        },
+        "cb3c8e71-ec8d-41f8-9f81-2cf8a5de9235": {
+          "id": "cb3c8e71-ec8d-41f8-9f81-2cf8a5de9235",
+          "x": 127170,
+          "y": 14538,
+          "label": "https://zbib.org/",
+          "shape": "box",
+          "link": "https://zbib.org/",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "cc111b0c-7dbe-41af-bb50-e6942d0ff305": {
+          "label": "dblp.org",
+          "x": 126199,
+          "y": 19671,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "cc111b0c-7dbe-41af-bb50-e6942d0ff305",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "c7a6162d-11cb-46cf-82d8-6079f0bb2f4f": {
+          "label": "Development",
+          "x": 126499,
+          "y": 20121,
+          "id": "c7a6162d-11cb-46cf-82d8-6079f0bb2f4f"
+        },
+        "172eb55f-f275-4b89-9ae6-f539ee4acdf5": {
+          "label": "11/16/2019",
+          "x": 126749,
+          "y": 20121,
+          "id": "172eb55f-f275-4b89-9ae6-f539ee4acdf5"
+        },
+        "d50d5254-90da-4e96-ae06-3a0c3e75efd4": {
+          "label": "init",
+          "x": 126649,
+          "y": 20121,
+          "id": "d50d5254-90da-4e96-ae06-3a0c3e75efd4"
+        },
+        "67e6154d-1cd4-4465-b924-d36944a01557": {
+          "label": "Notes",
+          "x": 126501,
+          "y": 19162,
+          "id": "67e6154d-1cd4-4465-b924-d36944a01557"
+        },
+        "809e2aca-f8c3-47fa-9198-75993fe08ec6": {
+          "label": "Dictionary of\nconcepts",
+          "x": 126651,
+          "y": 18912,
+          "id": "809e2aca-f8c3-47fa-9198-75993fe08ec6"
+        },
+        "32d0bae4-ea14-48e0-ba49-63b25e38da5b": {
+          "label": "Details, thoughts",
+          "x": 126651,
+          "y": 19162,
+          "id": "32d0bae4-ea14-48e0-ba49-63b25e38da5b"
+        },
+        "225371be-8103-4749-9566-dc58190e261c": {
+          "label": "Sections",
+          "x": 126649,
+          "y": 19521,
+          "id": "225371be-8103-4749-9566-dc58190e261c"
+        },
+        "a497d453-d861-446f-a840-32079ade76aa": {
+          "label": "Books",
+          "x": 126715,
+          "y": 19262,
+          "id": "a497d453-d861-446f-a840-32079ade76aa"
+        },
+        "9b00c6be-f52b-4613-9836-343c25adec43": {
+          "label": "R&D institutions",
+          "x": 126746,
+          "y": 19287,
+          "id": "9b00c6be-f52b-4613-9836-343c25adec43"
+        },
+        "fe15cda6-8665-47ae-94ab-d1f4e9c6d939": {
+          "label": "Sites",
+          "x": 126711,
+          "y": 19312,
+          "id": "fe15cda6-8665-47ae-94ab-d1f4e9c6d939"
+        },
+        "9a615da3-dbe0-4b3c-8ddd-29b6b7e96c19": {
+          "label": "Magazines",
+          "x": 126730,
+          "y": 19337,
+          "id": "9a615da3-dbe0-4b3c-8ddd-29b6b7e96c19"
+        },
+        "f47bec03-5934-4c0b-8935-e1166f9c8faf": {
+          "label": "Articles",
+          "x": 126719,
+          "y": 19362,
+          "id": "f47bec03-5934-4c0b-8935-e1166f9c8faf"
+        },
+        "98d0ae02-8c51-40bd-8fa4-183f0eadad02": {
+          "label": "Media content",
+          "x": 126741,
+          "y": 19387,
+          "id": "98d0ae02-8c51-40bd-8fa4-183f0eadad02"
+        },
+        "7cac5ff0-f8c6-4739-8d87-84e88fa89c41": {
+          "label": "Misc. web links",
+          "x": 126747,
+          "y": 19480,
+          "id": "7cac5ff0-f8c6-4739-8d87-84e88fa89c41"
+        },
+        "827d141d-468f-4639-9239-dabbf666f1ec": {
+          "label": "Projects",
+          "x": 126719,
+          "y": 19546,
+          "id": "827d141d-468f-4639-9239-dabbf666f1ec"
+        },
+        "27fa9b57-475e-4403-afbc-fc2c1881506e": {
+          "label": "Tools",
+          "x": 126710,
+          "y": 19571,
+          "id": "27fa9b57-475e-4403-afbc-fc2c1881506e"
+        },
+        "6213e760-3812-489b-832f-3611c48eef50": {
+          "label": "Organizations",
+          "x": 126737,
+          "y": 19596,
+          "id": "6213e760-3812-489b-832f-3611c48eef50"
+        },
+        "abc3bc54-0190-4dd3-9bfb-079a58f6c8b4": {
+          "label": "Standarts",
+          "x": 126724,
+          "y": 19621,
+          "id": "abc3bc54-0190-4dd3-9bfb-079a58f6c8b4"
+        },
+        "911b80a0-5c71-42aa-9f01-d766f64828db": {
+          "label": "Forums, Groups",
+          "x": 126745,
+          "y": 19646,
+          "id": "911b80a0-5c71-42aa-9f01-d766f64828db"
+        },
+        "12be49b4-1b81-4f4c-8e21-e8bffefe823d": {
+          "label": "Laws",
+          "x": 126710,
+          "y": 19671,
+          "id": "12be49b4-1b81-4f4c-8e21-e8bffefe823d"
+        },
+        "3f3fc5bf-dbbe-43cd-b383-beac49a8abee": {
+          "label": "Adjacent Themes",
+          "x": 126749,
+          "y": 19696,
+          "id": "3f3fc5bf-dbbe-43cd-b383-beac49a8abee"
+        },
+        "e64a0f29-7713-4b6b-8447-490cc6e48c19": {
+          "label": "Questions",
+          "x": 126499,
+          "y": 19821,
+          "id": "e64a0f29-7713-4b6b-8447-490cc6e48c19"
+        },
+        "8094ae3e-241e-4469-902b-7f6e23cbc408": {
+          "label": "Problems",
+          "x": 126499,
+          "y": 19921,
+          "id": "8094ae3e-241e-4469-902b-7f6e23cbc408"
+        },
+        "774100ef-7d9b-4f0f-abea-3ae60b14816c": {
+          "label": "Goals",
+          "x": 126499,
+          "y": 20021,
+          "id": "774100ef-7d9b-4f0f-abea-3ae60b14816c"
+        },
+        "6ce8e83a-c178-412d-9054-b40c65057288": {
+          "id": "6ce8e83a-c178-412d-9054-b40c65057288",
+          "x": 127001,
+          "y": 19474,
+          "label": "https://dblp.org/",
+          "shape": "box",
+          "link": "https://dblp.org/",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "3f37986e-04c9-43be-9148-fdd40512c2b1": {
+          "label": "Identifier\nschemes",
+          "x": 137752,
+          "y": 8796,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "3f37986e-04c9-43be-9148-fdd40512c2b1",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "61195348-ed3b-44c5-8b0e-18e77733651c": {
+          "label": "Development",
+          "x": 138426,
+          "y": 9192,
+          "id": "61195348-ed3b-44c5-8b0e-18e77733651c"
+        },
+        "12391135-6b6a-4350-8315-629421fcf8f7": {
+          "label": "11/16/2019",
+          "x": 138676,
+          "y": 9192,
+          "id": "12391135-6b6a-4350-8315-629421fcf8f7"
+        },
+        "e6893db8-d474-4e32-9169-10f847fb9a46": {
+          "label": "init",
+          "x": 138576,
+          "y": 9192,
+          "id": "e6893db8-d474-4e32-9169-10f847fb9a46"
+        },
+        "6c723b83-abbd-4ef1-8488-bfde2049d993": {
+          "label": "Notes",
+          "x": 138426,
+          "y": 8342,
+          "id": "6c723b83-abbd-4ef1-8488-bfde2049d993"
+        },
+        "5d531dae-af1b-4d54-88bb-187268a70941": {
+          "label": "Dictionary of\nconcepts",
+          "x": 138576,
+          "y": 8092,
+          "id": "5d531dae-af1b-4d54-88bb-187268a70941"
+        },
+        "4b78d9e9-29d1-4171-9641-4e5a134adf61": {
+          "label": "Details, thoughts",
+          "x": 138576,
+          "y": 8342,
+          "id": "4b78d9e9-29d1-4171-9641-4e5a134adf61"
+        },
+        "bd6169d2-5d49-4ab3-8073-22414d1ca51a": {
+          "label": "Sections",
+          "x": 138576,
+          "y": 8592,
+          "id": "bd6169d2-5d49-4ab3-8073-22414d1ca51a"
+        },
+        "cff60fb9-279c-4dd8-ae12-8e6a569b79e9": {
+          "label": "Books",
+          "x": 138640,
+          "y": 8442,
+          "id": "cff60fb9-279c-4dd8-ae12-8e6a569b79e9"
+        },
+        "f904e7fc-f599-43de-baac-c6b245a8d20d": {
+          "label": "R&D institutions",
+          "x": 138671,
+          "y": 8467,
+          "id": "f904e7fc-f599-43de-baac-c6b245a8d20d"
+        },
+        "20b35ffa-e1d8-4d74-8307-623d4c677f70": {
+          "label": "Sites",
+          "x": 138636,
+          "y": 8492,
+          "id": "20b35ffa-e1d8-4d74-8307-623d4c677f70"
+        },
+        "6d0298f7-6bd2-4d17-b010-27b535885c9e": {
+          "label": "Magazines",
+          "x": 138655,
+          "y": 8517,
+          "id": "6d0298f7-6bd2-4d17-b010-27b535885c9e"
+        },
+        "1fffb409-d244-4cb2-89e7-42be544dab4f": {
+          "label": "Articles",
+          "x": 138644,
+          "y": 8542,
+          "id": "1fffb409-d244-4cb2-89e7-42be544dab4f"
+        },
+        "53858a9e-97c3-4b83-85ea-9d3214c340aa": {
+          "label": "Media content",
+          "x": 138666,
+          "y": 8567,
+          "id": "53858a9e-97c3-4b83-85ea-9d3214c340aa"
+        },
+        "3d2ca4a1-1196-4ab3-9baa-c6c24a64720a": {
+          "label": "Misc. web links",
+          "x": 138668,
+          "y": 8592,
+          "id": "3d2ca4a1-1196-4ab3-9baa-c6c24a64720a"
+        },
+        "d9dc554e-b2c2-4972-bb9d-c6254de38927": {
+          "label": "Projects",
+          "x": 138646,
+          "y": 8617,
+          "id": "d9dc554e-b2c2-4972-bb9d-c6254de38927"
+        },
+        "f724cc44-5682-4a19-9477-f665f15cbe1a": {
+          "label": "Tools",
+          "x": 138638,
+          "y": 8642,
+          "id": "f724cc44-5682-4a19-9477-f665f15cbe1a"
+        },
+        "25e2fca0-ab0f-4dba-94d0-3db9c6b0df53": {
+          "label": "Organizations",
+          "x": 138665,
+          "y": 8667,
+          "id": "25e2fca0-ab0f-4dba-94d0-3db9c6b0df53"
+        },
+        "d9fae2a1-e6a5-4379-bccb-dc56f0eb64c6": {
+          "label": "Standarts",
+          "x": 138651,
+          "y": 8692,
+          "id": "d9fae2a1-e6a5-4379-bccb-dc56f0eb64c6"
+        },
+        "0086ceec-2914-4066-8c95-98b333a3a068": {
+          "label": "Forums, Groups",
+          "x": 138673,
+          "y": 8717,
+          "id": "0086ceec-2914-4066-8c95-98b333a3a068"
+        },
+        "e504a61e-11b2-4317-a60c-897aae131dfb": {
+          "label": "Laws",
+          "x": 138637,
+          "y": 8742,
+          "id": "e504a61e-11b2-4317-a60c-897aae131dfb"
+        },
+        "3697b658-380d-4ccd-9044-4dec70692cd0": {
+          "label": "Adjacent Themes",
+          "x": 138676,
+          "y": 8767,
+          "id": "3697b658-380d-4ccd-9044-4dec70692cd0"
+        },
+        "8dbbf0a9-24b4-48e0-85da-987030775653": {
+          "label": "Questions",
+          "x": 138426,
+          "y": 8892,
+          "id": "8dbbf0a9-24b4-48e0-85da-987030775653"
+        },
+        "6a5d19da-86a3-4ccb-91b7-8e35bd537d00": {
+          "label": "Problems",
+          "x": 138426,
+          "y": 8992,
+          "id": "6a5d19da-86a3-4ccb-91b7-8e35bd537d00"
+        },
+        "e5959cb4-dcbd-4783-b4c6-003dab736418": {
+          "label": "Goals",
+          "x": 138426,
+          "y": 9092,
+          "id": "e5959cb4-dcbd-4783-b4c6-003dab736418"
+        },
+        "a7c16c60-1960-4f85-bda2-d931517a931c": {
+          "label": "Scopus",
+          "x": 137816,
+          "y": 10878,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "a7c16c60-1960-4f85-bda2-d931517a931c",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "576631e7-d626-44ef-bedd-fca3382057cf": {
+          "label": "Development",
+          "x": 138116,
+          "y": 11328,
+          "id": "576631e7-d626-44ef-bedd-fca3382057cf"
+        },
+        "53145a45-8031-47d9-843f-1288e3c854d4": {
+          "label": "11/16/2019",
+          "x": 138366,
+          "y": 11328,
+          "id": "53145a45-8031-47d9-843f-1288e3c854d4"
+        },
+        "adf510cd-fa16-4e98-805f-8379ad33d90f": {
+          "label": "init",
+          "x": 138266,
+          "y": 11328,
+          "id": "adf510cd-fa16-4e98-805f-8379ad33d90f"
+        },
+        "3981fd80-249d-4bec-beef-0cbba2eff8ab": {
+          "label": "Notes",
+          "x": 138116,
+          "y": 10478,
+          "id": "3981fd80-249d-4bec-beef-0cbba2eff8ab"
+        },
+        "312531a5-f3f3-427f-8426-f71697d7bcc2": {
+          "label": "Dictionary of\nconcepts",
+          "x": 138266,
+          "y": 10228,
+          "id": "312531a5-f3f3-427f-8426-f71697d7bcc2"
+        },
+        "a4730ec3-6abf-487b-9a0d-5554ed55f25a": {
+          "label": "Details, thoughts",
+          "x": 138266,
+          "y": 10478,
+          "id": "a4730ec3-6abf-487b-9a0d-5554ed55f25a"
+        },
+        "42118606-8ca2-4c60-bae5-f7fa755f1aef": {
+          "label": "Sections",
+          "x": 138266,
+          "y": 10728,
+          "id": "42118606-8ca2-4c60-bae5-f7fa755f1aef"
+        },
+        "90e1d4ac-4130-4dd9-a36b-06ebbda128bf": {
+          "label": "Books",
+          "x": 138330,
+          "y": 10578,
+          "id": "90e1d4ac-4130-4dd9-a36b-06ebbda128bf"
+        },
+        "be42f1b6-785c-4237-8260-cbc299a7d4f0": {
+          "label": "R&D institutions",
+          "x": 138360,
+          "y": 10603,
+          "id": "be42f1b6-785c-4237-8260-cbc299a7d4f0"
+        },
+        "010388c3-d173-44cb-adb6-9a1149af1f6b": {
+          "label": "Sites",
+          "x": 138326,
+          "y": 10628,
+          "id": "010388c3-d173-44cb-adb6-9a1149af1f6b"
+        },
+        "3caa1683-9795-47c7-b51f-4e6a811e5d35": {
+          "label": "Magazines",
+          "x": 138345,
+          "y": 10653,
+          "id": "3caa1683-9795-47c7-b51f-4e6a811e5d35"
+        },
+        "3ce57f77-19f3-4f5b-8ae4-44608dc7944b": {
+          "label": "Articles",
+          "x": 138333,
+          "y": 10678,
+          "id": "3ce57f77-19f3-4f5b-8ae4-44608dc7944b"
+        },
+        "94cc329d-1334-4474-8d3e-1722bc89da71": {
+          "label": "Media content",
+          "x": 138355,
+          "y": 10703,
+          "id": "94cc329d-1334-4474-8d3e-1722bc89da71"
+        },
+        "45c48749-3839-4cdc-b4de-2e3b09567fb5": {
+          "label": "Misc. web links",
+          "x": 138358,
+          "y": 10728,
+          "id": "45c48749-3839-4cdc-b4de-2e3b09567fb5"
+        },
+        "a1f3281d-73a4-4a16-937c-e3640a2dd080": {
+          "label": "Projects",
+          "x": 138336,
+          "y": 10753,
+          "id": "a1f3281d-73a4-4a16-937c-e3640a2dd080"
+        },
+        "93db881d-3fba-499a-8f9d-8608eee45042": {
+          "label": "Tools",
+          "x": 138327,
+          "y": 10778,
+          "id": "93db881d-3fba-499a-8f9d-8608eee45042"
+        },
+        "d7a53775-e2e2-47aa-8c66-360934da0520": {
+          "label": "Organizations",
+          "x": 138354,
+          "y": 10803,
+          "id": "d7a53775-e2e2-47aa-8c66-360934da0520"
+        },
+        "00bd17ff-9da6-4d92-b7bd-a1a1333bcbc4": {
+          "label": "Standarts",
+          "x": 138341,
+          "y": 10828,
+          "id": "00bd17ff-9da6-4d92-b7bd-a1a1333bcbc4"
+        },
+        "d5fd240c-8ca3-474d-a188-74366c538695": {
+          "label": "Forums, Groups",
+          "x": 138362,
+          "y": 10853,
+          "id": "d5fd240c-8ca3-474d-a188-74366c538695"
+        },
+        "027deacf-1867-4c9e-8473-613beadf480c": {
+          "label": "Laws",
+          "x": 138327,
+          "y": 10878,
+          "id": "027deacf-1867-4c9e-8473-613beadf480c"
+        },
+        "6d0e2714-9839-42d1-a1ad-e76b2d6254cd": {
+          "label": "Adjacent Themes",
+          "x": 138366,
+          "y": 10903,
+          "id": "6d0e2714-9839-42d1-a1ad-e76b2d6254cd"
+        },
+        "3bc8c95a-77c0-4956-860d-235e4755bf94": {
+          "label": "Questions",
+          "x": 138116,
+          "y": 11028,
+          "id": "3bc8c95a-77c0-4956-860d-235e4755bf94"
+        },
+        "5f5fbfc5-2138-497a-98ec-0e576af3f88e": {
+          "label": "Problems",
+          "x": 138116,
+          "y": 11128,
+          "id": "5f5fbfc5-2138-497a-98ec-0e576af3f88e"
+        },
+        "c3e43ccd-5a67-40b7-bdf8-9696d33e4aa5": {
+          "label": "Goals",
+          "x": 138116,
+          "y": 11228,
+          "id": "c3e43ccd-5a67-40b7-bdf8-9696d33e4aa5"
+        },
+        "d2ec7412-951d-4dc3-b022-7c0aa39eab32": {
+          "label": "ISSN",
+          "x": 137904,
+          "y": 13160,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "d2ec7412-951d-4dc3-b022-7c0aa39eab32",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "216231c2-5a4b-4776-b1db-446ee7098212": {
+          "label": "Development",
+          "x": 138204,
+          "y": 13610,
+          "id": "216231c2-5a4b-4776-b1db-446ee7098212"
+        },
+        "28f6559e-3b3e-478d-bc92-36f3dd80d893": {
+          "label": "11/16/2019",
+          "x": 138454,
+          "y": 13610,
+          "id": "28f6559e-3b3e-478d-bc92-36f3dd80d893"
+        },
+        "2b767b93-dd88-481b-997c-b61766b0822a": {
+          "label": "init",
+          "x": 138354,
+          "y": 13610,
+          "id": "2b767b93-dd88-481b-997c-b61766b0822a"
+        },
+        "252bbce5-baf7-4d43-a6eb-fd5908fa0a55": {
+          "label": "Notes",
+          "x": 138204,
+          "y": 12760,
+          "id": "252bbce5-baf7-4d43-a6eb-fd5908fa0a55"
+        },
+        "e8b2056f-ecc0-41e8-af1a-5e5396f8a8d0": {
+          "label": "Dictionary of\nconcepts",
+          "x": 138354,
+          "y": 12510,
+          "id": "e8b2056f-ecc0-41e8-af1a-5e5396f8a8d0"
+        },
+        "cb66a849-3c14-48be-8370-67f563de42ab": {
+          "label": "Details, thoughts",
+          "x": 138354,
+          "y": 12760,
+          "id": "cb66a849-3c14-48be-8370-67f563de42ab"
+        },
+        "b0cc29bf-5ee2-45d7-b8ef-032b8c5de636": {
+          "label": "Sections",
+          "x": 138354,
+          "y": 13010,
+          "id": "b0cc29bf-5ee2-45d7-b8ef-032b8c5de636"
+        },
+        "014249e3-69a5-465c-a6f8-9ea05856ce3f": {
+          "label": "Books",
+          "x": 138418,
+          "y": 12860,
+          "id": "014249e3-69a5-465c-a6f8-9ea05856ce3f"
+        },
+        "a6217215-950c-455a-a0f4-7896bc47fa10": {
+          "label": "R&D institutions",
+          "x": 138449,
+          "y": 12885,
+          "id": "a6217215-950c-455a-a0f4-7896bc47fa10"
+        },
+        "ed3d96a5-1703-48df-8c78-781dad38f17f": {
+          "label": "Sites",
+          "x": 138414,
+          "y": 12910,
+          "id": "ed3d96a5-1703-48df-8c78-781dad38f17f"
+        },
+        "bd1c00c6-9b06-4aae-b69b-fc672c716ab5": {
+          "label": "Magazines",
+          "x": 138433,
+          "y": 12935,
+          "id": "bd1c00c6-9b06-4aae-b69b-fc672c716ab5"
+        },
+        "9c8d8dd4-d64e-45d6-ae15-54847c5319f7": {
+          "label": "Articles",
+          "x": 138422,
+          "y": 12960,
+          "id": "9c8d8dd4-d64e-45d6-ae15-54847c5319f7"
+        },
+        "c1836471-f5af-4421-bc86-eb856c3451b8": {
+          "label": "Media content",
+          "x": 138444,
+          "y": 12985,
+          "id": "c1836471-f5af-4421-bc86-eb856c3451b8"
+        },
+        "94d08276-0858-4b25-93e1-c2eee69e0af0": {
+          "label": "Misc. web links",
+          "x": 138446,
+          "y": 13010,
+          "id": "94d08276-0858-4b25-93e1-c2eee69e0af0"
+        },
+        "8cd7fcdc-dd96-4138-a0f4-1be889446c10": {
+          "label": "Projects",
+          "x": 138424,
+          "y": 13035,
+          "id": "8cd7fcdc-dd96-4138-a0f4-1be889446c10"
+        },
+        "7e50c528-41e6-48d7-8104-d19a2d09a823": {
+          "label": "Tools",
+          "x": 138415,
+          "y": 13060,
+          "id": "7e50c528-41e6-48d7-8104-d19a2d09a823"
+        },
+        "6d9e7692-38eb-4698-9b40-125887f811e1": {
+          "label": "Organizations",
+          "x": 138443,
+          "y": 13085,
+          "id": "6d9e7692-38eb-4698-9b40-125887f811e1"
+        },
+        "f9656f35-1774-42a2-98ed-9c5871fcda42": {
+          "label": "Standarts",
+          "x": 138429,
+          "y": 13110,
+          "id": "f9656f35-1774-42a2-98ed-9c5871fcda42"
+        },
+        "79f476b0-4eef-4898-8755-99f14e7e2f6d": {
+          "label": "Forums, Groups",
+          "x": 138451,
+          "y": 13135,
+          "id": "79f476b0-4eef-4898-8755-99f14e7e2f6d"
+        },
+        "79a7888f-9af7-4f08-8224-398054f2dca7": {
+          "label": "Laws",
+          "x": 138415,
+          "y": 13160,
+          "id": "79a7888f-9af7-4f08-8224-398054f2dca7"
+        },
+        "21af7534-3b7a-4f1f-8409-e6dcf733cb8c": {
+          "label": "Adjacent Themes",
+          "x": 138454,
+          "y": 13185,
+          "id": "21af7534-3b7a-4f1f-8409-e6dcf733cb8c"
+        },
+        "8b677b44-e670-425b-b689-9575a6ebe1b0": {
+          "label": "Questions",
+          "x": 138204,
+          "y": 13310,
+          "id": "8b677b44-e670-425b-b689-9575a6ebe1b0"
+        },
+        "34f8a044-ae82-4874-aced-0283e9ebe36b": {
+          "label": "Problems",
+          "x": 138204,
+          "y": 13410,
+          "id": "34f8a044-ae82-4874-aced-0283e9ebe36b"
+        },
+        "c88bd6f8-3d60-45ee-bd5b-55d84f67f117": {
+          "label": "Goals",
+          "x": 138204,
+          "y": 13510,
+          "id": "c88bd6f8-3d60-45ee-bd5b-55d84f67f117"
+        },
+        "c5ccee30-e431-49c7-ae7d-b7a0b62763d2": {
+          "label": "ISBN",
+          "x": 137955,
+          "y": 6194,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "c5ccee30-e431-49c7-ae7d-b7a0b62763d2",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "78daf658-daad-4f51-91f4-99d70764e4a0": {
+          "label": "Development",
+          "x": 138254,
+          "y": 6644,
+          "id": "78daf658-daad-4f51-91f4-99d70764e4a0"
+        },
+        "72746d97-9a69-49f0-8ca1-3471101f21c6": {
+          "label": "11/16/2019",
+          "x": 138504,
+          "y": 6644,
+          "id": "72746d97-9a69-49f0-8ca1-3471101f21c6"
+        },
+        "f7a9be7a-b851-4d9e-8bf6-a9e54ddeb245": {
+          "label": "init",
+          "x": 138404,
+          "y": 6644,
+          "id": "f7a9be7a-b851-4d9e-8bf6-a9e54ddeb245"
+        },
+        "07b614c6-ec6d-496c-a172-08cb04d9f889": {
+          "label": "Notes",
+          "x": 138254,
+          "y": 5794,
+          "id": "07b614c6-ec6d-496c-a172-08cb04d9f889"
+        },
+        "b1712159-0040-489f-9518-327039d9f9f2": {
+          "label": "Dictionary of\nconcepts",
+          "x": 138404,
+          "y": 5544,
+          "id": "b1712159-0040-489f-9518-327039d9f9f2"
+        },
+        "0bfd3bb2-15d0-4c02-ac5a-9175c944e269": {
+          "label": "Details, thoughts",
+          "x": 138404,
+          "y": 5794,
+          "id": "0bfd3bb2-15d0-4c02-ac5a-9175c944e269"
+        },
+        "c699103c-dfe8-4af9-8057-709571c94d2e": {
+          "label": "Sections",
+          "x": 138404,
+          "y": 6044,
+          "id": "c699103c-dfe8-4af9-8057-709571c94d2e"
+        },
+        "cf4a2ef9-bd18-4f0f-9fd7-a58aa98abf99": {
+          "label": "Books",
+          "x": 138468,
+          "y": 5894,
+          "id": "cf4a2ef9-bd18-4f0f-9fd7-a58aa98abf99"
+        },
+        "cac2d0f8-c098-4930-98e7-a0e1d452a3cf": {
+          "label": "R&D institutions",
+          "x": 138499,
+          "y": 5919,
+          "id": "cac2d0f8-c098-4930-98e7-a0e1d452a3cf"
+        },
+        "4d677e6c-b04d-4e35-9ca8-3ea8eb9113a5": {
+          "label": "Sites",
+          "x": 138464,
+          "y": 5944,
+          "id": "4d677e6c-b04d-4e35-9ca8-3ea8eb9113a5"
+        },
+        "a1c6fdab-d531-4913-b69f-bdd8e1c31a28": {
+          "label": "Magazines",
+          "x": 138483,
+          "y": 5969,
+          "id": "a1c6fdab-d531-4913-b69f-bdd8e1c31a28"
+        },
+        "5dec6887-ba92-4f3f-9dcc-b31de27df521": {
+          "label": "Articles",
+          "x": 138472,
+          "y": 5994,
+          "id": "5dec6887-ba92-4f3f-9dcc-b31de27df521"
+        },
+        "c7848ea6-c88d-4b62-b2e7-88ba8edbcce1": {
+          "label": "Media content",
+          "x": 138494,
+          "y": 6019,
+          "id": "c7848ea6-c88d-4b62-b2e7-88ba8edbcce1"
+        },
+        "2fdc2788-11ce-4595-b082-e303fafadbdf": {
+          "label": "Misc. web links",
+          "x": 138496,
+          "y": 6044,
+          "id": "2fdc2788-11ce-4595-b082-e303fafadbdf"
+        },
+        "9b81af91-3e24-4fd5-a9c6-60b827e3e3f2": {
+          "label": "Projects",
+          "x": 138474,
+          "y": 6069,
+          "id": "9b81af91-3e24-4fd5-a9c6-60b827e3e3f2"
+        },
+        "b21c4840-a3f9-4773-8811-17bf577b445f": {
+          "label": "Tools",
+          "x": 138465,
+          "y": 6094,
+          "id": "b21c4840-a3f9-4773-8811-17bf577b445f"
+        },
+        "afb215ef-787e-464d-bffc-5d3380e0a810": {
+          "label": "Organizations",
+          "x": 138493,
+          "y": 6119,
+          "id": "afb215ef-787e-464d-bffc-5d3380e0a810"
+        },
+        "37123f37-225f-41d7-bfd6-4acfb463e5a8": {
+          "label": "Standarts",
+          "x": 138479,
+          "y": 6144,
+          "id": "37123f37-225f-41d7-bfd6-4acfb463e5a8"
+        },
+        "4edea5a8-ccdd-47c8-9bbc-97d0203cb5d9": {
+          "label": "Forums, Groups",
+          "x": 138501,
+          "y": 6169,
+          "id": "4edea5a8-ccdd-47c8-9bbc-97d0203cb5d9"
+        },
+        "8e8ee60f-c254-4458-9189-c9a0434c1db1": {
+          "label": "Laws",
+          "x": 138465,
+          "y": 6194,
+          "id": "8e8ee60f-c254-4458-9189-c9a0434c1db1"
+        },
+        "3887aeab-6311-49fc-a0c3-dab29a701686": {
+          "label": "Adjacent Themes",
+          "x": 138504,
+          "y": 6219,
+          "id": "3887aeab-6311-49fc-a0c3-dab29a701686"
+        },
+        "f875e2b4-24e4-43cf-a150-f6c3da92e9cb": {
+          "label": "Questions",
+          "x": 138254,
+          "y": 6344,
+          "id": "f875e2b4-24e4-43cf-a150-f6c3da92e9cb"
+        },
+        "c7711d96-8f07-4c7d-ba32-010d1fbd2b65": {
+          "label": "Problems",
+          "x": 138254,
+          "y": 6444,
+          "id": "c7711d96-8f07-4c7d-ba32-010d1fbd2b65"
+        },
+        "295d0a03-dfa8-45ad-b30c-4e6594883826": {
+          "label": "Goals",
+          "x": 138254,
+          "y": 6544,
+          "id": "295d0a03-dfa8-45ad-b30c-4e6594883826"
+        },
+        "949dc90a-a158-4c59-acac-33e0ffff809d": {
+          "label": "ArXiv",
+          "x": 126343,
+          "y": 17077,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "949dc90a-a158-4c59-acac-33e0ffff809d",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "dc15ffe0-a00c-4ceb-8d9a-07b56210c0cb": {
+          "label": "Development",
+          "x": 126643,
+          "y": 17527,
+          "id": "dc15ffe0-a00c-4ceb-8d9a-07b56210c0cb"
+        },
+        "1250fba5-488f-47c1-9b57-d9f9a37fe5c9": {
+          "label": "11/16/2019",
+          "x": 126893,
+          "y": 17527,
+          "id": "1250fba5-488f-47c1-9b57-d9f9a37fe5c9"
+        },
+        "de20597b-47ca-4530-bb26-3b323c3997de": {
+          "label": "init",
+          "x": 126793,
+          "y": 17527,
+          "id": "de20597b-47ca-4530-bb26-3b323c3997de"
+        },
+        "a79f82ea-d677-4fc5-8d7a-edea16a3534a": {
+          "label": "Notes",
+          "x": 126643,
+          "y": 16677,
+          "id": "a79f82ea-d677-4fc5-8d7a-edea16a3534a"
+        },
+        "77e3861f-bbce-4062-99a9-3f4d1a4a75a2": {
+          "label": "Dictionary of\nconcepts",
+          "x": 126793,
+          "y": 16427,
+          "id": "77e3861f-bbce-4062-99a9-3f4d1a4a75a2"
+        },
+        "de5e5acf-74c4-4522-8117-2aaac8447f34": {
+          "label": "Details, thoughts",
+          "x": 126793,
+          "y": 16677,
+          "id": "de5e5acf-74c4-4522-8117-2aaac8447f34"
+        },
+        "bfbbaf80-d36f-4ce5-9fc1-ac33527b18f5": {
+          "label": "Sections",
+          "x": 126793,
+          "y": 16927,
+          "id": "bfbbaf80-d36f-4ce5-9fc1-ac33527b18f5"
+        },
+        "28efbee1-a556-4034-95bc-7956bd728761": {
+          "label": "Books",
+          "x": 126857,
+          "y": 16777,
+          "id": "28efbee1-a556-4034-95bc-7956bd728761"
+        },
+        "12e96c3b-c775-47bf-b363-1df77f58cc9a": {
+          "label": "R&D institutions",
+          "x": 126888,
+          "y": 16802,
+          "id": "12e96c3b-c775-47bf-b363-1df77f58cc9a"
+        },
+        "32ba02b2-d764-4b43-9a14-42e27b645152": {
+          "label": "Sites",
+          "x": 126853,
+          "y": 16827,
+          "id": "32ba02b2-d764-4b43-9a14-42e27b645152"
+        },
+        "548488a6-1b4e-4396-b87a-6effdcfb80a0": {
+          "label": "Magazines",
+          "x": 126872,
+          "y": 16852,
+          "id": "548488a6-1b4e-4396-b87a-6effdcfb80a0"
+        },
+        "90520ecd-96d3-43d6-8718-8298eca04bbf": {
+          "label": "Articles",
+          "x": 126861,
+          "y": 16877,
+          "id": "90520ecd-96d3-43d6-8718-8298eca04bbf"
+        },
+        "edac2408-0162-4da4-a96b-7da4008f1890": {
+          "label": "Media content",
+          "x": 126883,
+          "y": 16902,
+          "id": "edac2408-0162-4da4-a96b-7da4008f1890"
+        },
+        "142cc082-fdc0-4725-b620-bdeb9605cb08": {
+          "label": "Misc. web links",
+          "x": 126885,
+          "y": 16927,
+          "id": "142cc082-fdc0-4725-b620-bdeb9605cb08"
+        },
+        "6586197a-1562-4a62-94c9-7cd5ac2dd7d5": {
+          "label": "Projects",
+          "x": 126863,
+          "y": 16952,
+          "id": "6586197a-1562-4a62-94c9-7cd5ac2dd7d5"
+        },
+        "248bc929-1b9e-44dc-8f5c-b3cc5204cb97": {
+          "label": "Tools",
+          "x": 126854,
+          "y": 16977,
+          "id": "248bc929-1b9e-44dc-8f5c-b3cc5204cb97"
+        },
+        "5d9ff32d-5bf0-424f-ac05-2d9a8dc10d38": {
+          "label": "Organizations",
+          "x": 126882,
+          "y": 17002,
+          "id": "5d9ff32d-5bf0-424f-ac05-2d9a8dc10d38"
+        },
+        "21fa180f-6a90-4d4d-aff0-8ffe6f768647": {
+          "label": "Standarts",
+          "x": 126868,
+          "y": 17027,
+          "id": "21fa180f-6a90-4d4d-aff0-8ffe6f768647"
+        },
+        "4f089c0b-9a40-47be-b766-c892e7406f8d": {
+          "label": "Forums, Groups",
+          "x": 126890,
+          "y": 17052,
+          "id": "4f089c0b-9a40-47be-b766-c892e7406f8d"
+        },
+        "05099b2d-c889-4151-9f1f-21a96b7b9d4c": {
+          "label": "Laws",
+          "x": 126854,
+          "y": 17077,
+          "id": "05099b2d-c889-4151-9f1f-21a96b7b9d4c"
+        },
+        "e99e991f-a9d1-41d3-b853-e3b4b425ecaa": {
+          "label": "Adjacent Themes",
+          "x": 126893,
+          "y": 17102,
+          "id": "e99e991f-a9d1-41d3-b853-e3b4b425ecaa"
+        },
+        "6fb2556a-52bf-4f5b-8b6a-bca856a909a6": {
+          "label": "Questions",
+          "x": 126643,
+          "y": 17227,
+          "id": "6fb2556a-52bf-4f5b-8b6a-bca856a909a6"
+        },
+        "d064976e-6226-4cdd-be6c-564309f462f5": {
+          "label": "Problems",
+          "x": 126643,
+          "y": 17327,
+          "id": "d064976e-6226-4cdd-be6c-564309f462f5"
+        },
+        "6cb186c5-9282-4148-aed0-f78b348997cd": {
+          "label": "Goals",
+          "x": 126643,
+          "y": 17427,
+          "id": "6cb186c5-9282-4148-aed0-f78b348997cd"
+        },
+        "05d95b5b-2d89-4b8c-8278-01a4316575e3": {
+          "label": "PubMed",
+          "x": 137800,
+          "y": 2003,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "05d95b5b-2d89-4b8c-8278-01a4316575e3",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "4dca00a2-1f6f-48ba-8d5e-6a21719dab3f": {
+          "label": "Development",
+          "x": 138100,
+          "y": 2453,
+          "id": "4dca00a2-1f6f-48ba-8d5e-6a21719dab3f"
+        },
+        "9d3b229d-2781-4843-9bda-96a70fbc726e": {
+          "label": "11/16/2019",
+          "x": 138350,
+          "y": 2453,
+          "id": "9d3b229d-2781-4843-9bda-96a70fbc726e"
+        },
+        "e6486e81-76eb-407e-892b-23dec2c95356": {
+          "label": "init",
+          "x": 138250,
+          "y": 2453,
+          "id": "e6486e81-76eb-407e-892b-23dec2c95356"
+        },
+        "8f1f008e-d06b-4534-8a77-52817b16afa0": {
+          "label": "Notes",
+          "x": 138100,
+          "y": 1603,
+          "id": "8f1f008e-d06b-4534-8a77-52817b16afa0"
+        },
+        "2de165c8-9df2-4978-a4f6-0134e620331b": {
+          "label": "Dictionary of\nconcepts",
+          "x": 138250,
+          "y": 1353,
+          "id": "2de165c8-9df2-4978-a4f6-0134e620331b"
+        },
+        "3a0d331c-eccc-4ee5-a696-1fa76723cb41": {
+          "label": "Details, thoughts",
+          "x": 138250,
+          "y": 1603,
+          "id": "3a0d331c-eccc-4ee5-a696-1fa76723cb41"
+        },
+        "d9a5e0ad-f570-4ba6-936b-ab20d63afe25": {
+          "label": "Sections",
+          "x": 138250,
+          "y": 1853,
+          "id": "d9a5e0ad-f570-4ba6-936b-ab20d63afe25"
+        },
+        "84717e59-dcf7-4a2a-88fe-99a37dc7b2b3": {
+          "label": "Books",
+          "x": 138314,
+          "y": 1703,
+          "id": "84717e59-dcf7-4a2a-88fe-99a37dc7b2b3"
+        },
+        "be1c0b33-4579-4f8b-a227-f4928a2b8c9d": {
+          "label": "R&D institutions",
+          "x": 138345,
+          "y": 1728,
+          "id": "be1c0b33-4579-4f8b-a227-f4928a2b8c9d"
+        },
+        "93f1f62d-cd20-4d99-acd0-8bfc683e715d": {
+          "label": "Sites",
+          "x": 138310,
+          "y": 1753,
+          "id": "93f1f62d-cd20-4d99-acd0-8bfc683e715d"
+        },
+        "4970786d-d150-4b0e-a509-367d678328d2": {
+          "label": "Magazines",
+          "x": 138329,
+          "y": 1778,
+          "id": "4970786d-d150-4b0e-a509-367d678328d2"
+        },
+        "7556ff0e-d9b0-4371-99df-e940b3e826fb": {
+          "label": "Articles",
+          "x": 138318,
+          "y": 1803,
+          "id": "7556ff0e-d9b0-4371-99df-e940b3e826fb"
+        },
+        "03305a2e-5836-475d-a372-f440f5692129": {
+          "label": "Media content",
+          "x": 138340,
+          "y": 1828,
+          "id": "03305a2e-5836-475d-a372-f440f5692129"
+        },
+        "391530fb-7bf1-4df7-b206-528dceaf42c5": {
+          "label": "Misc. web links",
+          "x": 138342,
+          "y": 1853,
+          "id": "391530fb-7bf1-4df7-b206-528dceaf42c5"
+        },
+        "19dd66ff-1e95-4153-a8f1-218a1f94ed2d": {
+          "label": "Projects",
+          "x": 138320,
+          "y": 1878,
+          "id": "19dd66ff-1e95-4153-a8f1-218a1f94ed2d"
+        },
+        "aa7c0398-7230-4c02-9928-f663b2078a86": {
+          "label": "Tools",
+          "x": 138312,
+          "y": 1903,
+          "id": "aa7c0398-7230-4c02-9928-f663b2078a86"
+        },
+        "f83a96e0-eaef-47bf-a672-11bb0850026c": {
+          "label": "Organizations",
+          "x": 138339,
+          "y": 1928,
+          "id": "f83a96e0-eaef-47bf-a672-11bb0850026c"
+        },
+        "65f89882-e2ea-44d8-9d9c-8400ea0225d2": {
+          "label": "Standarts",
+          "x": 138325,
+          "y": 1953,
+          "id": "65f89882-e2ea-44d8-9d9c-8400ea0225d2"
+        },
+        "3d116944-2aed-4c9a-8f05-d1fc66a10419": {
+          "label": "Forums, Groups",
+          "x": 138347,
+          "y": 1978,
+          "id": "3d116944-2aed-4c9a-8f05-d1fc66a10419"
+        },
+        "fb34823b-9d92-48a3-9061-5002254d7209": {
+          "label": "Laws",
+          "x": 138311,
+          "y": 2003,
+          "id": "fb34823b-9d92-48a3-9061-5002254d7209"
+        },
+        "b399e1eb-3b01-41b5-8ef2-c8c6e10b176d": {
+          "label": "Adjacent Themes",
+          "x": 138350,
+          "y": 2028,
+          "id": "b399e1eb-3b01-41b5-8ef2-c8c6e10b176d"
+        },
+        "98f7ce0d-fc3d-4a22-ada2-f3b31fafd7fa": {
+          "label": "Questions",
+          "x": 138100,
+          "y": 2153,
+          "id": "98f7ce0d-fc3d-4a22-ada2-f3b31fafd7fa"
+        },
+        "ba7ea102-add4-4725-9e68-e1ef4cffa580": {
+          "label": "Problems",
+          "x": 138100,
+          "y": 2253,
+          "id": "ba7ea102-add4-4725-9e68-e1ef4cffa580"
+        },
+        "4a9eac1e-a886-48f6-a042-8ef05f882118": {
+          "label": "Goals",
+          "x": 138100,
+          "y": 2353,
+          "id": "4a9eac1e-a886-48f6-a042-8ef05f882118"
+        },
+        "ba8a6080-6ce2-4999-bbff-27717adede01": {
+          "label": "Bibliographic\nfile formats",
+          "x": 126236,
+          "y": -445,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "ba8a6080-6ce2-4999-bbff-27717adede01",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "0119a5f0-933c-4471-a341-e2f133f83dea": {
+          "label": "Development",
+          "x": 126536,
+          "y": 5,
+          "id": "0119a5f0-933c-4471-a341-e2f133f83dea"
+        },
+        "cb20fa88-8c7b-4166-855a-0a9fa45fc13e": {
+          "label": "11/16/2019",
+          "x": 126786,
+          "y": 5,
+          "id": "cb20fa88-8c7b-4166-855a-0a9fa45fc13e"
+        },
+        "f536fef0-a6ea-4a00-85c8-f454457a89e8": {
+          "label": "init",
+          "x": 126686,
+          "y": 5,
+          "id": "f536fef0-a6ea-4a00-85c8-f454457a89e8"
+        },
+        "b2de88d0-4902-4159-86bb-44dd7a1b57b2": {
+          "label": "Notes",
+          "x": 126536,
+          "y": -845,
+          "id": "b2de88d0-4902-4159-86bb-44dd7a1b57b2"
+        },
+        "44f714e0-7b32-4165-a6ba-8837c7f84df1": {
+          "label": "Dictionary of\nconcepts",
+          "x": 126686,
+          "y": -1095,
+          "id": "44f714e0-7b32-4165-a6ba-8837c7f84df1"
+        },
+        "d7d76db8-91c0-4c2d-aa80-90e0864a6db2": {
+          "label": "Details, thoughts",
+          "x": 126686,
+          "y": -845,
+          "id": "d7d76db8-91c0-4c2d-aa80-90e0864a6db2"
+        },
+        "c12bb7e5-2a1a-48d3-bf53-9e83ab6cefe9": {
+          "label": "Sections",
+          "x": 126686,
+          "y": -595,
+          "id": "c12bb7e5-2a1a-48d3-bf53-9e83ab6cefe9"
+        },
+        "1a6fc9cf-f891-4a03-ad50-0dcfc91f60cd": {
+          "label": "Books",
+          "x": 126750,
+          "y": -745,
+          "id": "1a6fc9cf-f891-4a03-ad50-0dcfc91f60cd"
+        },
+        "b1661226-9001-45bd-a316-3feb5ea708f1": {
+          "label": "R&D institutions",
+          "x": 126780,
+          "y": -720,
+          "id": "b1661226-9001-45bd-a316-3feb5ea708f1"
+        },
+        "5f160df3-3984-4a3c-9609-f12d4d6dd836": {
+          "label": "Sites",
+          "x": 126746,
+          "y": -695,
+          "id": "5f160df3-3984-4a3c-9609-f12d4d6dd836"
+        },
+        "f93b8ef7-e6cc-4b4c-be26-4162cceaa349": {
+          "label": "Magazines",
+          "x": 126765,
+          "y": -670,
+          "id": "f93b8ef7-e6cc-4b4c-be26-4162cceaa349"
+        },
+        "8260b1f0-cb91-4aa1-b9ec-3bf47cf64981": {
+          "label": "Articles",
+          "x": 126753,
+          "y": -645,
+          "id": "8260b1f0-cb91-4aa1-b9ec-3bf47cf64981"
+        },
+        "80425f4b-3bf6-4a5c-807c-64a598d3734c": {
+          "label": "Media content",
+          "x": 126775,
+          "y": -620,
+          "id": "80425f4b-3bf6-4a5c-807c-64a598d3734c"
+        },
+        "3699ca7a-8758-4255-ab43-3e7a287587ff": {
+          "label": "Misc. web links",
+          "x": 126778,
+          "y": -595,
+          "id": "3699ca7a-8758-4255-ab43-3e7a287587ff"
+        },
+        "67c94dff-d40e-483b-b11e-2cced9f6574c": {
+          "label": "Projects",
+          "x": 126756,
+          "y": -570,
+          "id": "67c94dff-d40e-483b-b11e-2cced9f6574c"
+        },
+        "b1a11d0e-74d0-409f-a174-0823f0f06c31": {
+          "label": "Tools",
+          "x": 126747,
+          "y": -545,
+          "id": "b1a11d0e-74d0-409f-a174-0823f0f06c31"
+        },
+        "e790c3ed-9431-4679-8861-bde0e95642a3": {
+          "label": "Organizations",
+          "x": 126774,
+          "y": -520,
+          "id": "e790c3ed-9431-4679-8861-bde0e95642a3"
+        },
+        "f8baaab6-f457-4819-a368-e391b315d5bf": {
+          "label": "Standarts",
+          "x": 126761,
+          "y": -495,
+          "id": "f8baaab6-f457-4819-a368-e391b315d5bf"
+        },
+        "4fbec3de-25ae-401b-9d7b-1a21b7e8cf07": {
+          "label": "Forums, Groups",
+          "x": 126782,
+          "y": -470,
+          "id": "4fbec3de-25ae-401b-9d7b-1a21b7e8cf07"
+        },
+        "8a3b9864-7ce4-46a3-bb2d-b8e8b093f54f": {
+          "label": "Laws",
+          "x": 126747,
+          "y": -445,
+          "id": "8a3b9864-7ce4-46a3-bb2d-b8e8b093f54f"
+        },
+        "84244c0f-5ef8-41b2-9554-9b420453ea18": {
+          "label": "Adjacent Themes",
+          "x": 126786,
+          "y": -420,
+          "id": "84244c0f-5ef8-41b2-9554-9b420453ea18"
+        },
+        "6970ebef-5d17-4a58-ab1b-12ddb6125054": {
+          "label": "Questions",
+          "x": 126536,
+          "y": -295,
+          "id": "6970ebef-5d17-4a58-ab1b-12ddb6125054"
+        },
+        "ba0fce81-4021-457c-be73-c9611118e320": {
+          "label": "Problems",
+          "x": 126536,
+          "y": -195,
+          "id": "ba0fce81-4021-457c-be73-c9611118e320"
+        },
+        "03f5a16d-59b2-4784-89ec-2e236b8e3ee3": {
+          "label": "Goals",
+          "x": 126536,
+          "y": -95,
+          "id": "03f5a16d-59b2-4784-89ec-2e236b8e3ee3"
+        },
+        "f4e64383-250f-4ee3-be7e-301ac977dd78": {
+          "id": "f4e64383-250f-4ee3-be7e-301ac977dd78",
+          "x": 126903,
+          "y": -1173,
+          "label": "List"
+        },
+        "64509484-e5a2-4487-b532-0b858ed2a123": {
+          "label": "Open-access\narchives",
+          "x": 126073,
+          "y": -2874,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "64509484-e5a2-4487-b532-0b858ed2a123",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "3cceb6d0-2a0b-42e2-866b-d0a2dabec675": {
+          "label": "Development",
+          "x": 126618,
+          "y": -2427,
+          "id": "3cceb6d0-2a0b-42e2-866b-d0a2dabec675"
+        },
+        "7b3bb8fc-78ed-43fb-adcd-76ae5bc62aeb": {
+          "label": "11/16/2019",
+          "x": 126868,
+          "y": -2427,
+          "id": "7b3bb8fc-78ed-43fb-adcd-76ae5bc62aeb"
+        },
+        "f899a7a0-1139-4f28-bbea-7cb8de7f07f0": {
+          "label": "init",
+          "x": 126768,
+          "y": -2427,
+          "id": "f899a7a0-1139-4f28-bbea-7cb8de7f07f0"
+        },
+        "756b6944-a79e-43db-9698-133c649b08a8": {
+          "label": "Notes",
+          "x": 126618,
+          "y": -3277,
+          "id": "756b6944-a79e-43db-9698-133c649b08a8"
+        },
+        "b0fba484-6bf4-47f5-9da2-659333b9152a": {
+          "label": "Dictionary of\nconcepts",
+          "x": 126768,
+          "y": -3527,
+          "id": "b0fba484-6bf4-47f5-9da2-659333b9152a"
+        },
+        "939aa5b7-56fc-4e2c-9635-aba93f25aa3a": {
+          "label": "Details, thoughts",
+          "x": 126768,
+          "y": -3277,
+          "id": "939aa5b7-56fc-4e2c-9635-aba93f25aa3a"
+        },
+        "cdbd1bfb-d7fa-4f38-bcd3-ff38738d96b4": {
+          "label": "Sections",
+          "x": 126768,
+          "y": -3027,
+          "id": "cdbd1bfb-d7fa-4f38-bcd3-ff38738d96b4"
+        },
+        "73c7b7ed-e79c-491d-afe4-802a0655e364": {
+          "label": "Books",
+          "x": 126832,
+          "y": -3177,
+          "id": "73c7b7ed-e79c-491d-afe4-802a0655e364"
+        },
+        "8cb5edaf-725e-41dd-bcd3-65e8748c2638": {
+          "label": "R&D institutions",
+          "x": 126862,
+          "y": -3152,
+          "id": "8cb5edaf-725e-41dd-bcd3-65e8748c2638"
+        },
+        "2dd57c44-51bb-4020-83bd-24eb72e9eb76": {
+          "label": "Sites",
+          "x": 126828,
+          "y": -3127,
+          "id": "2dd57c44-51bb-4020-83bd-24eb72e9eb76"
+        },
+        "17a585be-75c3-481b-815a-713b4c608bca": {
+          "label": "Magazines",
+          "x": 126847,
+          "y": -3102,
+          "id": "17a585be-75c3-481b-815a-713b4c608bca"
+        },
+        "e201eef2-fe79-4640-949f-ecf46706a460": {
+          "label": "Articles",
+          "x": 126835,
+          "y": -3077,
+          "id": "e201eef2-fe79-4640-949f-ecf46706a460"
+        },
+        "e3d418fd-d4cf-40e0-b7be-8636cee37d5f": {
+          "label": "Media content",
+          "x": 126857,
+          "y": -3052,
+          "id": "e3d418fd-d4cf-40e0-b7be-8636cee37d5f"
+        },
+        "8e78b4ee-d68c-48bc-a121-07d7888a4975": {
+          "label": "Misc. web links",
+          "x": 126860,
+          "y": -3027,
+          "id": "8e78b4ee-d68c-48bc-a121-07d7888a4975"
+        },
+        "b3e37e18-49e6-4031-8c3a-c9a5f6ed788f": {
+          "label": "Projects",
+          "x": 126838,
+          "y": -3002,
+          "id": "b3e37e18-49e6-4031-8c3a-c9a5f6ed788f"
+        },
+        "0a155e63-e4ff-4b81-9f2a-57437f580e33": {
+          "label": "Tools",
+          "x": 126829,
+          "y": -2977,
+          "id": "0a155e63-e4ff-4b81-9f2a-57437f580e33"
+        },
+        "c5c55534-bee2-47f7-90ac-db414924e813": {
+          "label": "Organizations",
+          "x": 126856,
+          "y": -2952,
+          "id": "c5c55534-bee2-47f7-90ac-db414924e813"
+        },
+        "a20102e3-b04b-4c8d-9189-4b13de1908af": {
+          "label": "Standarts",
+          "x": 126843,
+          "y": -2927,
+          "id": "a20102e3-b04b-4c8d-9189-4b13de1908af"
+        },
+        "ec7c8297-3930-49d1-aa2c-88499bce0587": {
+          "label": "Forums, Groups",
+          "x": 126864,
+          "y": -2902,
+          "id": "ec7c8297-3930-49d1-aa2c-88499bce0587"
+        },
+        "978791ce-f360-4f3e-99b6-6d4b9644e316": {
+          "label": "Laws",
+          "x": 126829,
+          "y": -2877,
+          "id": "978791ce-f360-4f3e-99b6-6d4b9644e316"
+        },
+        "22176203-8b86-41c0-bd19-4b53689219ad": {
+          "label": "Adjacent Themes",
+          "x": 126868,
+          "y": -2852,
+          "id": "22176203-8b86-41c0-bd19-4b53689219ad"
+        },
+        "6ee1e8dd-5158-4f36-b67f-6c03f64c73e8": {
+          "label": "Questions",
+          "x": 126618,
+          "y": -2727,
+          "id": "6ee1e8dd-5158-4f36-b67f-6c03f64c73e8"
+        },
+        "12181864-ab73-4bc5-a749-81ed2e35c9f9": {
+          "label": "Problems",
+          "x": 126618,
+          "y": -2627,
+          "id": "12181864-ab73-4bc5-a749-81ed2e35c9f9"
+        },
+        "267f7b0c-f09f-4035-80ab-ac19a0a60331": {
+          "label": "Goals",
+          "x": 126618,
+          "y": -2527,
+          "id": "267f7b0c-f09f-4035-80ab-ac19a0a60331"
+        },
+        "d70eeefb-a184-448a-929c-56ffea58ee95": {
+          "id": "d70eeefb-a184-448a-929c-56ffea58ee95",
+          "x": 127070,
+          "y": -3553,
+          "label": "Category:Open-access_archives"
+        },
+        "7fc701b1-2486-4cbc-9fe8-2f246f6e804f": {
+          "label": "Scholarly search\nservices",
+          "x": 126489,
+          "y": 2072,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "7fc701b1-2486-4cbc-9fe8-2f246f6e804f",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f16a66af-0460-45ef-8209-548110ec3621": {
+          "label": "Development",
+          "x": 127203,
+          "y": 2486,
+          "id": "f16a66af-0460-45ef-8209-548110ec3621"
+        },
+        "4eb1505a-9733-4d4f-a9ae-84eae348fd9b": {
+          "label": "11/16/2019",
+          "x": 127453,
+          "y": 2486,
+          "id": "4eb1505a-9733-4d4f-a9ae-84eae348fd9b"
+        },
+        "2996e9a3-52de-4a25-81a4-aa96e93109a3": {
+          "label": "init",
+          "x": 127353,
+          "y": 2486,
+          "id": "2996e9a3-52de-4a25-81a4-aa96e93109a3"
+        },
+        "34a3c80d-d11f-41dd-9a24-4739ee65c260": {
+          "label": "Notes",
+          "x": 127203,
+          "y": 1636,
+          "id": "34a3c80d-d11f-41dd-9a24-4739ee65c260"
+        },
+        "6c837a84-e0d2-45f8-8e07-e2c1fffcf6a0": {
+          "label": "Dictionary of\nconcepts",
+          "x": 127353,
+          "y": 1386,
+          "id": "6c837a84-e0d2-45f8-8e07-e2c1fffcf6a0"
+        },
+        "b77abb42-977a-4d11-94de-0503152175ff": {
+          "label": "Details, thoughts",
+          "x": 127353,
+          "y": 1636,
+          "id": "b77abb42-977a-4d11-94de-0503152175ff"
+        },
+        "4b98327c-7f61-4eab-8f8b-8c3be7f1df98": {
+          "label": "Sections",
+          "x": 127353,
+          "y": 1886,
+          "id": "4b98327c-7f61-4eab-8f8b-8c3be7f1df98"
+        },
+        "0909cca9-75e6-470f-8d69-f25dacf51e6b": {
+          "label": "Books",
+          "x": 127417,
+          "y": 1736,
+          "id": "0909cca9-75e6-470f-8d69-f25dacf51e6b"
+        },
+        "8b884483-4366-4eb8-8a36-044fe4c2c42d": {
+          "label": "R&D institutions",
+          "x": 127448,
+          "y": 1761,
+          "id": "8b884483-4366-4eb8-8a36-044fe4c2c42d"
+        },
+        "98e8c96c-a970-4bca-b269-12b071b2b4bc": {
+          "label": "Sites",
+          "x": 127413,
+          "y": 1786,
+          "id": "98e8c96c-a970-4bca-b269-12b071b2b4bc"
+        },
+        "4faf528a-bd14-4800-9d83-ff9ba37ae105": {
+          "label": "Magazines",
+          "x": 127432,
+          "y": 1811,
+          "id": "4faf528a-bd14-4800-9d83-ff9ba37ae105"
+        },
+        "1dfb04ef-ca57-44d4-b9c6-8021b4094929": {
+          "label": "Articles",
+          "x": 127421,
+          "y": 1836,
+          "id": "1dfb04ef-ca57-44d4-b9c6-8021b4094929"
+        },
+        "988d70be-c88b-4115-806a-b95ff02d21c5": {
+          "label": "Media content",
+          "x": 127443,
+          "y": 1861,
+          "id": "988d70be-c88b-4115-806a-b95ff02d21c5"
+        },
+        "89bb4a1c-2681-411a-b25d-2c35bcf4cd4e": {
+          "label": "Misc. web links",
+          "x": 127445,
+          "y": 1886,
+          "id": "89bb4a1c-2681-411a-b25d-2c35bcf4cd4e"
+        },
+        "b83733ce-33ac-44f4-b047-6006a9fc6106": {
+          "label": "Projects",
+          "x": 127423,
+          "y": 1911,
+          "id": "b83733ce-33ac-44f4-b047-6006a9fc6106"
+        },
+        "219d637d-5c46-4fb5-be26-d8fe479af1b7": {
+          "label": "Tools",
+          "x": 127415,
+          "y": 1936,
+          "id": "219d637d-5c46-4fb5-be26-d8fe479af1b7"
+        },
+        "34fa2286-9f80-4c88-8aa4-6ae8c60f75e0": {
+          "label": "Organizations",
+          "x": 127442,
+          "y": 1961,
+          "id": "34fa2286-9f80-4c88-8aa4-6ae8c60f75e0"
+        },
+        "eced7254-c7a5-4aae-81d5-e4482ce983ba": {
+          "label": "Standarts",
+          "x": 127428,
+          "y": 1986,
+          "id": "eced7254-c7a5-4aae-81d5-e4482ce983ba"
+        },
+        "b90a514e-f5a0-466a-956a-c50c8a580c0a": {
+          "label": "Forums, Groups",
+          "x": 127450,
+          "y": 2011,
+          "id": "b90a514e-f5a0-466a-956a-c50c8a580c0a"
+        },
+        "1da4cdb5-c110-4191-a06f-72fc783acc17": {
+          "label": "Laws",
+          "x": 127414,
+          "y": 2036,
+          "id": "1da4cdb5-c110-4191-a06f-72fc783acc17"
+        },
+        "3c67a003-7018-40da-93d3-523a78d33c95": {
+          "label": "Adjacent Themes",
+          "x": 127453,
+          "y": 2061,
+          "id": "3c67a003-7018-40da-93d3-523a78d33c95"
+        },
+        "818ebc39-84f8-4fbd-93aa-f1f8fce99d5d": {
+          "label": "Questions",
+          "x": 127203,
+          "y": 2186,
+          "id": "818ebc39-84f8-4fbd-93aa-f1f8fce99d5d"
+        },
+        "762696f5-317c-4c4d-840c-ad7343d6438d": {
+          "label": "Problems",
+          "x": 127203,
+          "y": 2286,
+          "id": "762696f5-317c-4c4d-840c-ad7343d6438d"
+        },
+        "54822d06-c689-429e-a304-5bee5ba2969f": {
+          "label": "Goals",
+          "x": 127203,
+          "y": 2386,
+          "id": "54822d06-c689-429e-a304-5bee5ba2969f"
+        },
+        "8d0e4a98-cdc4-4203-be8b-9252a9f42dbc": {
+          "id": "8d0e4a98-cdc4-4203-be8b-9252a9f42dbc",
+          "x": 127652,
+          "y": 1355,
+          "label": "Category:Scholarly search services"
+        },
+        "4d58594d-6107-4897-ae25-e60465f2c24e": {
+          "label": "Reference\nmanagement\nsoftware",
+          "x": 126486,
+          "y": 10304,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "4d58594d-6107-4897-ae25-e60465f2c24e",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "3e0a138a-51a1-4d4e-a591-e6c7fc928377": {
+          "label": "Development",
+          "x": 127199,
+          "y": 10669,
+          "id": "3e0a138a-51a1-4d4e-a591-e6c7fc928377"
+        },
+        "7572faf4-9d09-44c6-a22b-1c0cabacccb7": {
+          "label": "11/16/2019",
+          "x": 127449,
+          "y": 10669,
+          "id": "7572faf4-9d09-44c6-a22b-1c0cabacccb7"
+        },
+        "5fb57f7a-c180-4b31-942a-a1ad8b8d694a": {
+          "label": "init",
+          "x": 127349,
+          "y": 10669,
+          "id": "5fb57f7a-c180-4b31-942a-a1ad8b8d694a"
+        },
+        "162207e5-86d1-4c5b-8ab4-9fdd74dc0a0d": {
+          "label": "Notes",
+          "x": 127199,
+          "y": 9819,
+          "id": "162207e5-86d1-4c5b-8ab4-9fdd74dc0a0d"
+        },
+        "e24ae18b-ee04-41d5-8300-08a0fa8ee4da": {
+          "label": "Dictionary of\nconcepts",
+          "x": 127349,
+          "y": 9569,
+          "id": "e24ae18b-ee04-41d5-8300-08a0fa8ee4da"
+        },
+        "1ff0eaa4-8317-49db-9b79-fe5a036870e9": {
+          "label": "Details, thoughts",
+          "x": 127349,
+          "y": 9819,
+          "id": "1ff0eaa4-8317-49db-9b79-fe5a036870e9"
+        },
+        "0ab4641e-7078-45a8-b95b-ba52064a96ef": {
+          "label": "Sections",
+          "x": 127349,
+          "y": 10069,
+          "id": "0ab4641e-7078-45a8-b95b-ba52064a96ef"
+        },
+        "737ccec8-96a6-408c-905b-c496b1e53eb3": {
+          "label": "Books",
+          "x": 127413,
+          "y": 9919,
+          "id": "737ccec8-96a6-408c-905b-c496b1e53eb3"
+        },
+        "daca7e62-0890-4342-9a7f-ea6f890a267f": {
+          "label": "R&D institutions",
+          "x": 127444,
+          "y": 9944,
+          "id": "daca7e62-0890-4342-9a7f-ea6f890a267f"
+        },
+        "b672d86c-dd9d-40a7-85c3-ec48add5114b": {
+          "label": "Sites",
+          "x": 127409,
+          "y": 9969,
+          "id": "b672d86c-dd9d-40a7-85c3-ec48add5114b"
+        },
+        "e97e1909-4d63-4897-9be6-28c1fc3f3bfc": {
+          "label": "Magazines",
+          "x": 127428,
+          "y": 9994,
+          "id": "e97e1909-4d63-4897-9be6-28c1fc3f3bfc"
+        },
+        "3a7306bc-6192-43ba-a12b-9025a9f4bfbe": {
+          "label": "Articles",
+          "x": 127417,
+          "y": 10019,
+          "id": "3a7306bc-6192-43ba-a12b-9025a9f4bfbe"
+        },
+        "16a8e013-19e7-46b4-9269-4dc20a835031": {
+          "label": "Media content",
+          "x": 127439,
+          "y": 10044,
+          "id": "16a8e013-19e7-46b4-9269-4dc20a835031"
+        },
+        "b642a6be-4fe6-4732-b860-808355619c68": {
+          "label": "Misc. web links",
+          "x": 127441,
+          "y": 10069,
+          "id": "b642a6be-4fe6-4732-b860-808355619c68"
+        },
+        "6dd52cf6-5514-44b8-b6d4-8b01be9e1beb": {
+          "label": "Projects",
+          "x": 127419,
+          "y": 10094,
+          "id": "6dd52cf6-5514-44b8-b6d4-8b01be9e1beb"
+        },
+        "067a3652-363f-4377-b722-cfa16b5514fb": {
+          "label": "Tools",
+          "x": 127410,
+          "y": 10119,
+          "id": "067a3652-363f-4377-b722-cfa16b5514fb"
+        },
+        "93932afc-a004-464c-8cd6-921dc303929a": {
+          "label": "Organizations",
+          "x": 127438,
+          "y": 10144,
+          "id": "93932afc-a004-464c-8cd6-921dc303929a"
+        },
+        "5bf7a919-73a4-4ee1-b317-e5587dcd6a47": {
+          "label": "Standarts",
+          "x": 127424,
+          "y": 10169,
+          "id": "5bf7a919-73a4-4ee1-b317-e5587dcd6a47"
+        },
+        "34a6c1f7-a3b5-4b25-8166-5a0511afa5aa": {
+          "label": "Forums, Groups",
+          "x": 127446,
+          "y": 10194,
+          "id": "34a6c1f7-a3b5-4b25-8166-5a0511afa5aa"
+        },
+        "ed1e1525-23bd-47f4-bbfb-a86c579def30": {
+          "label": "Laws",
+          "x": 127410,
+          "y": 10219,
+          "id": "ed1e1525-23bd-47f4-bbfb-a86c579def30"
+        },
+        "800dafba-b08a-42ad-abeb-549741a057e8": {
+          "label": "Adjacent Themes",
+          "x": 127449,
+          "y": 10244,
+          "id": "800dafba-b08a-42ad-abeb-549741a057e8"
+        },
+        "abc64b85-163a-4c04-93cf-572d8519972c": {
+          "label": "Questions",
+          "x": 127199,
+          "y": 10369,
+          "id": "abc64b85-163a-4c04-93cf-572d8519972c"
+        },
+        "c4f388c0-58d7-4926-a0cb-df01eed4ed0a": {
+          "label": "Problems",
+          "x": 127199,
+          "y": 10469,
+          "id": "c4f388c0-58d7-4926-a0cb-df01eed4ed0a"
+        },
+        "3f0a5dc0-6f79-4acb-a0b6-10c05c2f5e8e": {
+          "label": "Goals",
+          "x": 127199,
+          "y": 10569,
+          "id": "3f0a5dc0-6f79-4acb-a0b6-10c05c2f5e8e"
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Online scientific\ncatalogues",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392",
+          "x": 143511,
+          "y": -2870,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Mediawiki",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816",
+          "x": 142204,
+          "y": -332,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "PubMed",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528",
+          "x": 141872,
+          "y": 1798,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mendeley.com",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100",
+          "x": 143224,
+          "y": 3881,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "ISBN",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425",
+          "x": 141177,
+          "y": 6045,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "ISSN",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783",
+          "x": 141177,
+          "y": 12925,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783212": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Identifier\nschemes",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783212",
+          "x": 142010,
+          "y": 8416,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Scopus",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234",
+          "x": 141677,
+          "y": 10822,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "ArXiv",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521",
+          "x": 129969,
+          "y": 16805,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "dblp.org",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541",
+          "x": 130581,
+          "y": 19181,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "zbib.org",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113",
+          "x": 130553,
+          "y": 14371,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Reference\nmanagement\nsoftware",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701",
+          "x": 131692,
+          "y": 11001,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "DOI",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924",
+          "x": 129712,
+          "y": 7712,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Scholarly search\nservices",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652",
+          "x": 132519,
+          "y": 2268,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "BibTeX",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477",
+          "x": 130407,
+          "y": 4388,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477473": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Bibliographic\nfile formats",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477473",
+          "x": 131685,
+          "y": -392,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477473414": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Bibliography",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477473414",
+          "x": 131574,
+          "y": -2874,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e2f5fadc-cfd2-490c-add2-5798d42dc6268564598793928165281004257832123452154111370192465247747341452": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Open-access\narchives",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc6268564598793928165281004257832123452154111370192465247747341452",
+          "x": 131769,
+          "y": -2874,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Canvases list",
+          "id": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558",
+          "x": 69739,
+          "y": -9154,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "9aa8ef85-6b82-4547-9d37-4474b0e41dd2602": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -40513,15 +44538,15 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Music",
-          "x": 122939,
-          "y": -2574,
-          "id": "9b3efb03-8848-425b-ae4a-eb617b00cddc918",
+          "label": "Linguistics",
+          "x": 138053,
+          "y": 15606,
+          "id": "9aa8ef85-6b82-4547-9d37-4474b0e41dd2602",
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
-        "db6eaf5f-3bb9-46f7-b997-c99da0239586918": {
+        "6adc9792-0678-461f-8dc0-6b228cd1be16602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40544,11 +44569,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 123239,
-          "y": -2124,
-          "id": "db6eaf5f-3bb9-46f7-b997-c99da0239586918"
+          "x": 138353,
+          "y": 16057,
+          "id": "6adc9792-0678-461f-8dc0-6b228cd1be16602"
         },
-        "249162de-ee0f-4a3b-b643-3b032d71b593918": {
+        "dcdf8aaa-0422-4c16-abb0-23f1ad8f414e602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40570,12 +44595,12 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "11/15/2019",
-          "x": 123489,
-          "y": -2124,
-          "id": "249162de-ee0f-4a3b-b643-3b032d71b593918"
+          "label": "11/21/2019",
+          "x": 138603,
+          "y": 16057,
+          "id": "dcdf8aaa-0422-4c16-abb0-23f1ad8f414e602"
         },
-        "2b31b63f-7658-4656-8157-5a1550e773d1918": {
+        "c68e232a-350f-43e4-ba86-c3aba1a5a597602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40598,11 +44623,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 123389,
-          "y": -2124,
-          "id": "2b31b63f-7658-4656-8157-5a1550e773d1918"
+          "x": 138503,
+          "y": 16057,
+          "id": "c68e232a-350f-43e4-ba86-c3aba1a5a597602"
         },
-        "83e18b67-092b-4953-aa64-7685d50db694918": {
+        "8199eafb-cd27-4408-973a-d8aaa8614dd2602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40625,11 +44650,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 123239,
-          "y": -2974,
-          "id": "83e18b67-092b-4953-aa64-7685d50db694918"
+          "x": 138350,
+          "y": 15025,
+          "id": "8199eafb-cd27-4408-973a-d8aaa8614dd2602"
         },
-        "e01cf997-5a0c-4f03-8b21-34861ae6dd1d918": {
+        "c97d56e8-4725-4676-b4e9-25f5e264f0d1602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40652,11 +44677,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 123337,
-          "y": -3536,
-          "id": "e01cf997-5a0c-4f03-8b21-34861ae6dd1d918"
+          "x": 138500,
+          "y": 14775,
+          "id": "c97d56e8-4725-4676-b4e9-25f5e264f0d1602"
         },
-        "81418d44-93f0-4ed1-af5b-15abb6be959a918": {
+        "ef92198e-b0c6-4d56-8732-b20739552d67602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40679,11 +44704,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 123389,
-          "y": -2974,
-          "id": "81418d44-93f0-4ed1-af5b-15abb6be959a918"
+          "x": 138500,
+          "y": 15025,
+          "id": "ef92198e-b0c6-4d56-8732-b20739552d67602"
         },
-        "c7695889-ca11-4aca-8800-caa1e71478a8918": {
+        "d35cb372-026a-4735-98b9-8007214bf90e602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40706,11 +44731,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 123389,
-          "y": -2724,
-          "id": "c7695889-ca11-4aca-8800-caa1e71478a8918"
+          "x": 138503,
+          "y": 15457,
+          "id": "d35cb372-026a-4735-98b9-8007214bf90e602"
         },
-        "576f13ea-ffde-4232-bf4e-574715bca14d918": {
+        "41421c92-0d60-420c-9a61-0928c80cac89602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40733,11 +44758,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 123453,
-          "y": -2874,
-          "id": "576f13ea-ffde-4232-bf4e-574715bca14d918"
+          "x": 138564,
+          "y": 15125,
+          "id": "41421c92-0d60-420c-9a61-0928c80cac89602"
         },
-        "5bb0a01c-a58c-43df-b938-d59c2e3a1ca1918": {
+        "46ffdf1c-ecc6-44b4-8ac0-fdf1180c3ce4602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40760,11 +44785,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 123484,
-          "y": -2849,
-          "id": "5bb0a01c-a58c-43df-b938-d59c2e3a1ca1918"
+          "x": 138595,
+          "y": 15150,
+          "id": "46ffdf1c-ecc6-44b4-8ac0-fdf1180c3ce4602"
         },
-        "7cf861da-d309-4ee3-b757-750c814c49a3918": {
+        "fd828961-d9ed-4eda-b5cb-bc2db5bd66a7602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40787,11 +44812,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 123449,
-          "y": -2824,
-          "id": "7cf861da-d309-4ee3-b757-750c814c49a3918"
+          "x": 138560,
+          "y": 15175,
+          "id": "fd828961-d9ed-4eda-b5cb-bc2db5bd66a7602"
         },
-        "4073074b-3cc4-4918-87cd-19ada594d720918": {
+        "6d971409-3ffc-4266-8823-36243c05450b602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40814,11 +44839,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 123468,
-          "y": -2799,
-          "id": "4073074b-3cc4-4918-87cd-19ada594d720918"
+          "x": 138579,
+          "y": 15200,
+          "id": "6d971409-3ffc-4266-8823-36243c05450b602"
         },
-        "7ddec01a-b14f-4647-a846-2141700bfc27918": {
+        "847b3771-1102-4d4a-bffd-628854641a36602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40841,11 +44866,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 123457,
-          "y": -2774,
-          "id": "7ddec01a-b14f-4647-a846-2141700bfc27918"
+          "x": 138573,
+          "y": 15304,
+          "id": "847b3771-1102-4d4a-bffd-628854641a36602"
         },
-        "b4f32ca6-cc93-4f2f-a9cf-783922320437918": {
+        "b722ba7d-019e-4e6b-9777-f2a58058a28a602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40868,11 +44893,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 123479,
-          "y": -2749,
-          "id": "b4f32ca6-cc93-4f2f-a9cf-783922320437918"
+          "x": 138592,
+          "y": 15432,
+          "id": "b722ba7d-019e-4e6b-9777-f2a58058a28a602"
         },
-        "40cca37e-581d-4746-829e-2b2eaa9bf5b5918": {
+        "4fa93509-3f15-41cc-aab8-340f2e1fb97e602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40895,11 +44920,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 123481,
-          "y": -2724,
-          "id": "40cca37e-581d-4746-829e-2b2eaa9bf5b5918"
+          "x": 138595,
+          "y": 15457,
+          "id": "4fa93509-3f15-41cc-aab8-340f2e1fb97e602"
         },
-        "0aaf3a76-08d8-4128-9bf6-cb98ab26b581918": {
+        "c03347c5-e084-4081-a03e-1707384316d8602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40922,11 +44947,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 123459,
-          "y": -2699,
-          "id": "0aaf3a76-08d8-4128-9bf6-cb98ab26b581918"
+          "x": 138573,
+          "y": 15482,
+          "id": "c03347c5-e084-4081-a03e-1707384316d8602"
         },
-        "07897026-d40a-4fd8-9899-a39a3584d14c918": {
+        "5df2c783-cd5a-46df-8b04-d3d469252248602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40949,11 +44974,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 123450,
-          "y": -2674,
-          "id": "07897026-d40a-4fd8-9899-a39a3584d14c918"
+          "x": 138564,
+          "y": 15507,
+          "id": "5df2c783-cd5a-46df-8b04-d3d469252248602"
         },
-        "ce74c9dd-07ef-4535-98d1-993695608d6e918": {
+        "e5fa97f5-54d0-4455-9131-b334a64d1135602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -40976,11 +45001,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 123478,
-          "y": -2649,
-          "id": "ce74c9dd-07ef-4535-98d1-993695608d6e918"
+          "x": 138591,
+          "y": 15532,
+          "id": "e5fa97f5-54d0-4455-9131-b334a64d1135602"
         },
-        "85b15060-2342-4435-a82e-72f447e67e64918": {
+        "5d668c5a-3650-4687-be9c-40bfe3bd8dd3602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -41003,11 +45028,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 123464,
-          "y": -2624,
-          "id": "85b15060-2342-4435-a82e-72f447e67e64918"
+          "x": 138578,
+          "y": 15557,
+          "id": "5d668c5a-3650-4687-be9c-40bfe3bd8dd3602"
         },
-        "6da698d3-a672-4e8a-a402-3f732aad3a6b918": {
+        "d1ee8e54-e357-456e-8d68-c51418a62b97602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -41030,11 +45055,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 123486,
-          "y": -2599,
-          "id": "6da698d3-a672-4e8a-a402-3f732aad3a6b918"
+          "x": 138599,
+          "y": 15582,
+          "id": "d1ee8e54-e357-456e-8d68-c51418a62b97602"
         },
-        "9859cc43-6c38-4e17-92ee-3cd95e34bb61918": {
+        "928fd436-e3e9-4f53-8156-6cb3139ccafa602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -41057,11 +45082,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 123450,
-          "y": -2574,
-          "id": "9859cc43-6c38-4e17-92ee-3cd95e34bb61918"
+          "x": 138564,
+          "y": 15607,
+          "id": "928fd436-e3e9-4f53-8156-6cb3139ccafa602"
         },
-        "f2075833-7500-4b70-ae17-f695ff7929bd918": {
+        "43c6ca38-b50d-460c-9ab5-b9ba88031c5c602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -41084,11 +45109,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 123489,
-          "y": -2549,
-          "id": "f2075833-7500-4b70-ae17-f695ff7929bd918"
+          "x": 138603,
+          "y": 15632,
+          "id": "43c6ca38-b50d-460c-9ab5-b9ba88031c5c602"
         },
-        "30b07eda-84da-4a75-9c09-d9499bdd903d918": {
+        "b2d0a379-1099-49b4-a8a3-440a4ba3d943602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -41111,11 +45136,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 123239,
-          "y": -2424,
-          "id": "30b07eda-84da-4a75-9c09-d9499bdd903d918"
+          "x": 138353,
+          "y": 15757,
+          "id": "b2d0a379-1099-49b4-a8a3-440a4ba3d943602"
         },
-        "a63e8339-2c90-465d-9e0e-9431e4f4fd80918": {
+        "c5536a87-6edc-4210-8d6f-96861d379350602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -41138,11 +45163,11 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 123239,
-          "y": -2324,
-          "id": "a63e8339-2c90-465d-9e0e-9431e4f4fd80918"
+          "x": 138353,
+          "y": 15857,
+          "id": "c5536a87-6edc-4210-8d6f-96861d379350602"
         },
-        "1eadec6c-05ef-4718-8518-dddc3f792522918": {
+        "71b84551-5fcf-402a-ba78-b8958316d5c8602": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -41165,16 +45190,42 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 123239,
-          "y": -2224,
-          "id": "1eadec6c-05ef-4718-8518-dddc3f792522918"
+          "x": 138353,
+          "y": 15957,
+          "id": "71b84551-5fcf-402a-ba78-b8958316d5c8602"
         },
-        "481644ba-5ec3-417d-a012-58acd46e648e918": {
+        "fb93c7a5-7ce5-4824-9022-d055ae257f19602": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "misc. content",
+          "id": "fb93c7a5-7ce5-4824-9022-d055ae257f19602",
+          "x": 138839,
+          "y": 15300
+        },
+        "554670c2-ad53-427f-9252-fc5037709eba602": {
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "",
-            "border": ""
+            "background": "#ffd570"
           },
           "fixed": {},
           "font": {
@@ -41195,4190 +45246,15 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "List",
-          "id": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "x": 123614,
-          "y": -3548,
+          "label": "https://www.l2f.inesc-id.pt/~david/wiki/en/index.php/Publications",
+          "id": "554670c2-ad53-427f-9252-fc5037709eba602",
+          "x": 139142,
+          "y": 15300,
           "shape": "box",
-          "link": "",
+          "link": "https://www.l2f.inesc-id.pt/~david/wiki/en/index.php/Publications",
           "borderWidth": ""
         },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Music",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563",
-          "x": 125918,
-          "y": -3517,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d7293239-9d6c-4e18-8f51-97c10c78519e": {
-          "id": "d7293239-9d6c-4e18-8f51-97c10c78519e",
-          "x": 123887,
-          "y": -3737,
-          "label": "L'amour Est Bleu - Vicky Leandro lyrics",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=u68Z2B36-3c",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "93c38ca7-4587-4d02-b801-338ba842c832": {
-          "id": "93c38ca7-4587-4d02-b801-338ba842c832",
-          "x": 123937,
-          "y": -3699,
-          "label": "Saxon - \"I've Got to Rock (To Stay Alive)\" SPV Records",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=YF4_YciUVKA",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "7035358a-96f7-4a17-9b95-8301f84f2e36": {
-          "id": "7035358a-96f7-4a17-9b95-8301f84f2e36",
-          "x": 123945,
-          "y": -3667,
-          "label": "Bryan Ferry & Todd Terje - Johnny & Mary [Official Video]",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=Din_eWjJWe0",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "deef224a-3258-46c0-82ab-b894b22593d6": {
-          "id": "deef224a-3258-46c0-82ab-b894b22593d6",
-          "x": 123826,
-          "y": -3630,
-          "label": "Come with Me Now",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=Hq_J-XVOucg",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "e009e7e6-82e5-4efe-8a34-adf0d762b2cc": {
-          "id": "e009e7e6-82e5-4efe-8a34-adf0d762b2cc",
-          "x": 123861,
-          "y": -3599,
-          "label": "Bound for Botany Bay + words",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=6F8WVs_0gpg",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "a0e24aea-29a6-46c2-8e11-f047961df42d": {
-          "id": "a0e24aea-29a6-46c2-8e11-f047961df42d",
-          "x": 124002,
-          "y": -3559,
-          "label": "MARIACHI VARGAS - PUROS SONES MIX - PARA TUS FIESTAS PATRIAS",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=aMeimwRHVng",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "7226aca0-8a52-49cb-9cc6-e0d369cc5d9d": {
-          "id": "7226aca0-8a52-49cb-9cc6-e0d369cc5d9d",
-          "x": 123853,
-          "y": -3526,
-          "label": "Es waren zwei Königskinder",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=EsKLgU3Kdvo",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "d6e27485-273a-4f4d-8e8a-3a8bc5be9779": {
-          "id": "d6e27485-273a-4f4d-8e8a-3a8bc5be9779",
-          "x": 123848,
-          "y": -3494,
-          "label": "BAILANDO EL FOX TROT",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=tUwALUx_xpU",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "a94c60d4-cee1-43c8-8f66-3147dadd948d": {
-          "id": "a94c60d4-cee1-43c8-8f66-3147dadd948d",
-          "x": 123853,
-          "y": -3462,
-          "label": "Ray Conniff - It's Impossible",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=YPEKlH7NK6o",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "386c3eb3-ed5e-480a-9c69-bb80037d815b": {
-          "id": "386c3eb3-ed5e-480a-9c69-bb80037d815b",
-          "x": 123910,
-          "y": -3427,
-          "label": "Jennifer Warnes - Let The Sunshine In (1969)",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=6RmXXTPrOgA",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "76e84521-5e0b-451b-8bcb-38e9f2ea49ee": {
-          "id": "76e84521-5e0b-451b-8bcb-38e9f2ea49ee",
-          "x": 123986,
-          "y": -3391,
-          "label": "Rebecca Ferguson - Glitter & Gold (Live in Göttingen, Germany 2012)",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=nwKSXE638Gs",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "e74d8014-a766-4203-9644-02e85edd6207": {
-          "id": "e74d8014-a766-4203-9644-02e85edd6207",
-          "x": 123896,
-          "y": -3359,
-          "label": "Drink Up Thy Zider - Somerset Folk Song",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=RWauJ-pSaBk",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "9cf44fb8-0815-4541-8e95-08225993ef6c": {
-          "id": "9cf44fb8-0815-4541-8e95-08225993ef6c",
-          "x": 123902,
-          "y": -3329,
-          "label": "Fado 💝 Mariza 🌹Camané ⏰Ricardo Ribeiro",
-          "shape": "box",
-          "link": "https://www.youtube.com/watch?v=WDobR97SIQ8",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "9e953b74-c482-4762-a4aa-74385376023b": {
-          "label": "Conceptual system",
-          "link": "https://en.wikipedia.org/wiki/Conceptual system",
-          "x": 133195,
-          "y": 24484,
-          "id": "9e953b74-c482-4762-a4aa-74385376023b"
-        },
-        "34dc6bce-e605-4b98-9339-f9ef835335ea": {
-          "label": "AeroVironment Global Observer",
-          "link": "https://en.wikipedia.org/wiki/AeroVironment Global Observer",
-          "x": 133236,
-          "y": 24509,
-          "id": "34dc6bce-e605-4b98-9339-f9ef835335ea"
-        },
-        "5ba1e7c5-deab-4741-9d49-6f2e70610e69": {
-          "label": "Systems art",
-          "link": "https://en.wikipedia.org/wiki/Systems art",
-          "x": 133172,
-          "y": 24534,
-          "id": "5ba1e7c5-deab-4741-9d49-6f2e70610e69"
-        },
-        "55fc59f5-b5df-46ee-978f-9c54deea27a0": {
-          "label": "Axiomatic system",
-          "link": "https://en.wikipedia.org/wiki/Axiomatic system",
-          "x": 133190,
-          "y": 24559,
-          "id": "55fc59f5-b5df-46ee-978f-9c54deea27a0"
-        },
-        "82b0dde9-c64d-406a-be12-629bb70e5951": {
-          "label": "Boehm system",
-          "link": "https://en.wikipedia.org/wiki/Boehm system",
-          "x": 133182,
-          "y": 24584,
-          "id": "82b0dde9-c64d-406a-be12-629bb70e5951"
-        },
-        "60f60557-2636-45b7-8263-46bb27093cd2": {
-          "label": "Comstock–Needham system",
-          "link": "https://en.wikipedia.org/wiki/Comstock–Needham system",
-          "x": 133226,
-          "y": 24609,
-          "id": "60f60557-2636-45b7-8263-46bb27093cd2"
-        },
-        "b92cb22e-eb97-418f-b272-ae7b6c731efa": {
-          "label": "Crystal structure",
-          "link": "https://en.wikipedia.org/wiki/Crystal structure",
-          "x": 133187,
-          "y": 24634,
-          "id": "b92cb22e-eb97-418f-b272-ae7b6c731efa"
-        },
-        "0877d468-41f7-4534-85ea-45a5f5554960": {
-          "label": "Digital ecosystem",
-          "link": "https://en.wikipedia.org/wiki/Digital ecosystem",
-          "x": 133190,
-          "y": 24659,
-          "id": "0877d468-41f7-4534-85ea-45a5f5554960"
-        },
-        "bb08f08d-b5cf-4cb8-806d-0aafe0bd2ea5": {
-          "label": "Experimental system",
-          "link": "https://en.wikipedia.org/wiki/Experimental system",
-          "x": 133201,
-          "y": 24684,
-          "id": "bb08f08d-b5cf-4cb8-806d-0aafe0bd2ea5"
-        },
-        "f7485f8a-b9d5-4a50-a434-7aca9586ec7d": {
-          "label": "Health management system",
-          "link": "https://en.wikipedia.org/wiki/Health management system",
-          "x": 133224,
-          "y": 24709,
-          "id": "f7485f8a-b9d5-4a50-a434-7aca9586ec7d"
-        },
-        "ae40e651-c03e-44b8-8b08-671edc258d48": {
-          "label": "League system",
-          "link": "https://en.wikipedia.org/wiki/League system",
-          "x": 133183,
-          "y": 24734,
-          "id": "ae40e651-c03e-44b8-8b08-671edc258d48"
-        },
-        "761f85e5-0ea6-49df-a492-bb1135af18f4": {
-          "label": "Meta-system",
-          "link": "https://en.wikipedia.org/wiki/Meta-system",
-          "x": 133176,
-          "y": 24759,
-          "id": "761f85e5-0ea6-49df-a492-bb1135af18f4"
-        },
-        "2e1951f9-2de5-4ff0-8451-49df2209b3ed": {
-          "label": "System of measurement",
-          "link": "https://en.wikipedia.org/wiki/System of measurement",
-          "x": 133212,
-          "y": 24784,
-          "id": "2e1951f9-2de5-4ff0-8451-49df2209b3ed"
-        },
-        "cc33504b-3abe-40f4-8049-357840501d51": {
-          "label": "Theory",
-          "link": "https://en.wikipedia.org/wiki/Theory",
-          "x": 133157,
-          "y": 24809,
-          "id": "cc33504b-3abe-40f4-8049-357840501d51"
-        },
-        "8fad313e-8844-42ce-b334-8b9aafbb5774": {
-          "label": "Tree of knowledge system",
-          "link": "https://en.wikipedia.org/wiki/Tree of knowledge system",
-          "x": 133218,
-          "y": 24834,
-          "id": "8fad313e-8844-42ce-b334-8b9aafbb5774"
-        },
-        "68274d0d-d814-473a-b76e-25e295c64912": {
-          "label": "Trusted system",
-          "link": "https://en.wikipedia.org/wiki/Trusted system",
-          "x": 133184,
-          "y": 24859,
-          "id": "68274d0d-d814-473a-b76e-25e295c64912"
-        },
-        "c858b9b8-f8a6-485a-a984-e581a747fc50": {
-          "label": "Category:Classification systems",
-          "link": "https://en.wikipedia.org/wiki/Category:Classification systems",
-          "x": 133235,
-          "y": 24884,
-          "id": "c858b9b8-f8a6-485a-a984-e581a747fc50"
-        },
-        "268032f0-8876-44c5-bcff-c9db4fb1a73c": {
-          "label": "Category:Complex systems theory",
-          "link": "https://en.wikipedia.org/wiki/Category:Complex systems theory",
-          "x": 133244,
-          "y": 24909,
-          "id": "268032f0-8876-44c5-bcff-c9db4fb1a73c"
-        },
-        "164ca11e-eead-4e43-9be0-775c011725d9": {
-          "label": "Category:Coordinate systems",
-          "link": "https://en.wikipedia.org/wiki/Category:Coordinate systems",
-          "x": 133229,
-          "y": 24934,
-          "id": "164ca11e-eead-4e43-9be0-775c011725d9"
-        },
-        "3b35fdfd-e23c-45c8-954a-5c14216fbca0": {
-          "label": "Category:Language",
-          "link": "https://en.wikipedia.org/wiki/Category:Language",
-          "x": 133198,
-          "y": 24959,
-          "id": "3b35fdfd-e23c-45c8-954a-5c14216fbca0"
-        },
-        "8f9a697e-eacd-4c2d-ae48-3e49fc8494c3": {
-          "label": "Category:Legal systems",
-          "link": "https://en.wikipedia.org/wiki/Category:Legal systems",
-          "x": 133211,
-          "y": 24984,
-          "id": "8f9a697e-eacd-4c2d-ae48-3e49fc8494c3"
-        },
-        "9ceaf70e-e0f2-4010-937a-737fefe31ce7": {
-          "label": "Category:Mathematical modeling",
-          "link": "https://en.wikipedia.org/wiki/Category:Mathematical modeling",
-          "x": 133239,
-          "y": 25009,
-          "id": "9ceaf70e-e0f2-4010-937a-737fefe31ce7"
-        },
-        "04f0332a-ccd9-4249-bea0-4b520d188491": {
-          "label": "Category:Scientific modeling",
-          "link": "https://en.wikipedia.org/wiki/Category:Scientific modeling",
-          "x": 133225,
-          "y": 25034,
-          "id": "04f0332a-ccd9-4249-bea0-4b520d188491"
-        },
-        "d91f0117-fe49-4ae3-a9ac-bed4936b2fb8": {
-          "label": "Category:Notation",
-          "link": "https://en.wikipedia.org/wiki/Category:Notation",
-          "x": 133192,
-          "y": 25059,
-          "id": "d91f0117-fe49-4ae3-a9ac-bed4936b2fb8"
-        },
-        "cfc712d4-4a7b-4825-b429-23b800bdf63c": {
-          "label": "Category:Systems of probability distributions",
-          "link": "https://en.wikipedia.org/wiki/Category:Systems of probability distributions",
-          "x": 133275,
-          "y": 25084,
-          "id": "cfc712d4-4a7b-4825-b429-23b800bdf63c"
-        },
-        "b2571501-8a89-4b32-aed4-417073b90957": {
-          "label": "Category:Role-playing game systems",
-          "link": "https://en.wikipedia.org/wiki/Category:Role-playing game systems",
-          "x": 133253,
-          "y": 25109,
-          "id": "b2571501-8a89-4b32-aed4-417073b90957"
-        },
-        "14bca352-522c-4f54-b002-2833da23b7c4": {
-          "label": "Category:Systems of set theory",
-          "link": "https://en.wikipedia.org/wiki/Category:Systems of set theory",
-          "x": 133234,
-          "y": 25134,
-          "id": "14bca352-522c-4f54-b002-2833da23b7c4"
-        },
-        "1ea990cf-3431-46bd-ae89-cb20af470ae6": {
-          "label": "Category:Systems of units",
-          "link": "https://en.wikipedia.org/wiki/Category:Systems of units",
-          "x": 133218,
-          "y": 25159,
-          "id": "1ea990cf-3431-46bd-ae89-cb20af470ae6"
-        },
-        "29fd9c3d-ec8c-4111-af0e-bf5929825b65": {
-          "label": "Category:Theories",
-          "link": "https://en.wikipedia.org/wiki/Category:Theories",
-          "x": 133194,
-          "y": 25184,
-          "id": "29fd9c3d-ec8c-4111-af0e-bf5929825b65"
-        },
-        "97303d77-85d8-42cf-a707-d11a570fa3c6": {
-          "label": "Category:Time measurement systems",
-          "link": "https://en.wikipedia.org/wiki/Category:Time measurement systems",
-          "x": 133256,
-          "y": 25209,
-          "id": "97303d77-85d8-42cf-a707-d11a570fa3c6"
-        },
-        "a60ddba0-a125-486b-8b69-a1ed45d0d73b": {
-          "label": "Category:Tournament systems",
-          "link": "https://en.wikipedia.org/wiki/Category:Tournament systems",
-          "x": 133232,
-          "y": 25234,
-          "id": "a60ddba0-a125-486b-8b69-a1ed45d0d73b"
-        },
-        "a4fbe581-a0c1-47b0-bd1c-c804d4e6e16a": {
-          "label": "Category:Writing systems",
-          "link": "https://en.wikipedia.org/wiki/Category:Writing systems",
-          "x": 133216,
-          "y": 25259,
-          "id": "a4fbe581-a0c1-47b0-bd1c-c804d4e6e16a"
-        },
-        "47fb4b87-6e1b-4e27-9976-b45b6bd63c7a": {
-          "label": "Editing",
-          "link": "https://en.wikipedia.org/wiki/Editing",
-          "x": 133229,
-          "y": 25728,
-          "id": "47fb4b87-6e1b-4e27-9976-b45b6bd63c7a"
-        },
-        "d97b1942-88de-4a07-a322-eff60dec5fc9": {
-          "label": "Abridgement",
-          "link": "https://en.wikipedia.org/wiki/Abridgement",
-          "x": 133248,
-          "y": 25753,
-          "id": "d97b1942-88de-4a07-a322-eff60dec5fc9"
-        },
-        "ae2e4675-35be-4930-b1b9-38d38a9d1f6a": {
-          "label": "Author editing",
-          "link": "https://en.wikipedia.org/wiki/Author editing",
-          "x": 133252,
-          "y": 25778,
-          "id": "ae2e4675-35be-4930-b1b9-38d38a9d1f6a"
-        },
-        "44c3a1af-d0b4-4e7c-a6a4-af105477d1be": {
-          "label": "Collaborative editing",
-          "link": "https://en.wikipedia.org/wiki/Collaborative editing",
-          "x": 133272,
-          "y": 25803,
-          "id": "44c3a1af-d0b4-4e7c-a6a4-af105477d1be"
-        },
-        "08bbe975-5e56-4219-ad0f-5f4c99bf399c": {
-          "label": "Developmental editing",
-          "link": "https://en.wikipedia.org/wiki/Developmental editing",
-          "x": 133278,
-          "y": 25828,
-          "id": "08bbe975-5e56-4219-ad0f-5f4c99bf399c"
-        },
-        "f538a5ab-64a5-458f-b79d-9edd0ef72fb2": {
-          "label": "Editorial board",
-          "link": "https://en.wikipedia.org/wiki/Editorial board",
-          "x": 133254,
-          "y": 25853,
-          "id": "f538a5ab-64a5-458f-b79d-9edd0ef72fb2"
-        },
-        "22463021-7e73-4f5f-b9b2-325ebda229c9": {
-          "label": "Genetic editing",
-          "link": "https://en.wikipedia.org/wiki/Genetic editing",
-          "x": 133255,
-          "y": 25878,
-          "id": "22463021-7e73-4f5f-b9b2-325ebda229c9"
-        },
-        "b97cb078-3c01-49fa-b126-97e7eae9383a": {
-          "label": "Wikipedia:How Wikipedia looks to newbies",
-          "link": "https://en.wikipedia.org/wiki/Wikipedia:How Wikipedia looks to newbies",
-          "x": 133341,
-          "y": 25903,
-          "id": "b97cb078-3c01-49fa-b126-97e7eae9383a"
-        },
-        "5c6841f5-509b-4f46-88a8-ce0ce2b4c7dc": {
-          "label": "Markup (legislation)",
-          "link": "https://en.wikipedia.org/wiki/Markup (legislation)",
-          "x": 133270,
-          "y": 25928,
-          "id": "5c6841f5-509b-4f46-88a8-ce0ce2b4c7dc"
-        },
-        "ec19e9c7-f690-4a04-b105-7bae5848b797": {
-          "label": "Victoria Mixon",
-          "link": "https://en.wikipedia.org/wiki/Victoria Mixon",
-          "x": 133252,
-          "y": 25953,
-          "id": "ec19e9c7-f690-4a04-b105-7bae5848b797"
-        },
-        "f4d0a8ad-7927-4af9-b5ba-5dd5e4027414": {
-          "label": "Redaction",
-          "link": "https://en.wikipedia.org/wiki/Redaction",
-          "x": 133240,
-          "y": 25978,
-          "id": "f4d0a8ad-7927-4af9-b5ba-5dd5e4027414"
-        },
-        "5749f5a9-1737-4a81-b85f-89c3ecc912c2": {
-          "label": "WePapers",
-          "link": "https://en.wikipedia.org/wiki/WePapers",
-          "x": 133241,
-          "y": 26003,
-          "id": "5749f5a9-1737-4a81-b85f-89c3ecc912c2"
-        },
-        "5ca163b1-0aa4-4b6f-99ec-e141298668ba": {
-          "label": "Working title",
-          "link": "https://en.wikipedia.org/wiki/Working title",
-          "x": 133247,
-          "y": 26028,
-          "id": "5ca163b1-0aa4-4b6f-99ec-e141298668ba"
-        },
-        "d0965a24-3cef-4099-b3a1-68aa9af6d716": {
-          "label": "Category:Editors",
-          "link": "https://en.wikipedia.org/wiki/Category:Editors",
-          "x": 133261,
-          "y": 26053,
-          "id": "d0965a24-3cef-4099-b3a1-68aa9af6d716"
-        },
-        "b73a2356-0465-442a-9683-3240b56f10a8": {
-          "label": "Category:Copy editing",
-          "link": "https://en.wikipedia.org/wiki/Category:Copy editing",
-          "x": 133278,
-          "y": 26078,
-          "id": "b73a2356-0465-442a-9683-3240b56f10a8"
-        },
-        "663b21de-f40a-4051-9ecb-72d34fe7a926": {
-          "label": "Category:Film editing",
-          "link": "https://en.wikipedia.org/wiki/Category:Film editing",
-          "x": 133275,
-          "y": 26103,
-          "id": "663b21de-f40a-4051-9ecb-72d34fe7a926"
-        },
-        "624c5230-79b0-4db1-a5b8-02a2d2e4892e": {
-          "label": "Category:Editing software",
-          "link": "https://en.wikipedia.org/wiki/Category:Editing software",
-          "x": 133289,
-          "y": 26128,
-          "id": "624c5230-79b0-4db1-a5b8-02a2d2e4892e"
-        },
-        "fdbcc349-0d18-4845-82cf-e938abe1dc0e": {
-          "label": "Proofreading",
-          "link": "https://en.wikipedia.org/wiki/Proofreading",
-          "x": 133236,
-          "y": 26440,
-          "id": "fdbcc349-0d18-4845-82cf-e938abe1dc0e"
-        },
-        "46f3cde7-8f0f-417c-af8c-626cbd7f7688": {
-          "label": "Distributed Proofreaders",
-          "link": "https://en.wikipedia.org/wiki/Distributed Proofreaders",
-          "x": 133272,
-          "y": 26465,
-          "id": "46f3cde7-8f0f-417c-af8c-626cbd7f7688"
-        },
-        "4c41d5cb-d79f-4cc0-bbbd-d39347a14cee": {
-          "label": "Dittography",
-          "link": "https://en.wikipedia.org/wiki/Dittography",
-          "x": 133231,
-          "y": 26490,
-          "id": "4c41d5cb-d79f-4cc0-bbbd-d39347a14cee"
-        },
-        "573e7645-e58b-438f-9e5f-0d923bea2f84": {
-          "label": "EAngel",
-          "link": "https://en.wikipedia.org/wiki/EAngel",
-          "x": 133217,
-          "y": 26515,
-          "id": "573e7645-e58b-438f-9e5f-0d923bea2f84"
-        },
-        "f71854a9-0e7a-400b-bdae-0bfba13f719a": {
-          "label": "Galley proof",
-          "link": "https://en.wikipedia.org/wiki/Galley proof",
-          "x": 133233,
-          "y": 26540,
-          "id": "f71854a9-0e7a-400b-bdae-0bfba13f719a"
-        },
-        "bfecc946-0894-4d00-a682-faa2cf396954": {
-          "label": "Haplography",
-          "link": "https://en.wikipedia.org/wiki/Haplography",
-          "x": 133235,
-          "y": 26565,
-          "id": "bfecc946-0894-4d00-a682-faa2cf396954"
-        },
-        "a2f77e5b-fcac-459b-9c41-7d952fa62ed5": {
-          "label": "ISO 5776",
-          "link": "https://en.wikipedia.org/wiki/ISO 5776",
-          "x": 133225,
-          "y": 26590,
-          "id": "a2f77e5b-fcac-459b-9c41-7d952fa62ed5"
-        },
-        "a6dc3d1f-7fc0-4617-84f5-5e6a27023c5a": {
-          "label": "Levels of edit",
-          "link": "https://en.wikipedia.org/wiki/Levels of edit",
-          "x": 133237,
-          "y": 26615,
-          "id": "a6dc3d1f-7fc0-4617-84f5-5e6a27023c5a"
-        },
-        "89acf49d-5641-4df9-936e-a53af8e32a6b": {
-          "label": "List of proofreader's marks",
-          "link": "https://en.wikipedia.org/wiki/List of proofreader's marks",
-          "x": 133280,
-          "y": 26640,
-          "id": "89acf49d-5641-4df9-936e-a53af8e32a6b"
-        },
-        "a3f7b3f5-16bd-4482-a45e-d5e526d19149": {
-          "label": "Press check (printing)",
-          "link": "https://en.wikipedia.org/wiki/Press check (printing)",
-          "x": 133264,
-          "y": 26665,
-          "id": "a3f7b3f5-16bd-4482-a45e-d5e526d19149"
-        },
-        "59c3809f-a182-40ee-9978-ffee18b1eb97": {
-          "label": "Typographical syntax",
-          "link": "https://en.wikipedia.org/wiki/Typographical syntax",
-          "x": 133262,
-          "y": 26690,
-          "id": "59c3809f-a182-40ee-9978-ffee18b1eb97"
-        },
-        "c0dc22a3-15b5-4ff8-8c00-a9b0f6e11baa": {
-          "label": "Wikisource",
-          "link": "https://en.wikipedia.org/wiki/Wikisource",
-          "x": 133229,
-          "y": 26715,
-          "id": "c0dc22a3-15b5-4ff8-8c00-a9b0f6e11baa"
-        },
-        "28837743-2282-413a-adec-10f702f1ebf6": {
-          "label": "Category:Language mechanics",
-          "link": "https://en.wikipedia.org/wiki/Category:Language mechanics",
-          "x": 133294,
-          "y": 26740,
-          "id": "28837743-2282-413a-adec-10f702f1ebf6"
-        },
-        "a46262b3-7eea-4797-a4c4-8e7218126651": {
-          "label": "Self-publishing",
-          "link": "https://en.wikipedia.org/wiki/Self-publishing",
-          "x": 133301,
-          "y": 27106,
-          "id": "a46262b3-7eea-4797-a4c4-8e7218126651"
-        },
-        "811daba8-e02b-4ce3-8ade-065297c240f6": {
-          "label": "Alternative media",
-          "link": "https://en.wikipedia.org/wiki/Alternative media",
-          "x": 133310,
-          "y": 27131,
-          "id": "811daba8-e02b-4ce3-8ade-065297c240f6"
-        },
-        "34e4f4f0-d2f8-409e-b0d7-ea9e794c0602": {
-          "label": "Business of webcomics",
-          "link": "https://en.wikipedia.org/wiki/Business of webcomics",
-          "x": 133328,
-          "y": 27156,
-          "id": "34e4f4f0-d2f8-409e-b0d7-ea9e794c0602"
-        },
-        "119ee283-f51a-49ab-b3a4-6ad35fc563f4": {
-          "label": "Dōjin",
-          "link": "https://en.wikipedia.org/wiki/Dōjin",
-          "x": 133271,
-          "y": 27181,
-          "id": "119ee283-f51a-49ab-b3a4-6ad35fc563f4"
-        },
-        "f3aee3d3-fa94-40b4-8f23-1fd286133370": {
-          "label": "Hay House",
-          "link": "https://en.wikipedia.org/wiki/Hay House",
-          "x": 133290,
-          "y": 27206,
-          "id": "f3aee3d3-fa94-40b4-8f23-1fd286133370"
-        },
-        "70cbb661-ea4f-475a-8beb-ec68c7de7ede": {
-          "label": "Independent music",
-          "link": "https://en.wikipedia.org/wiki/Independent music",
-          "x": 133315,
-          "y": 27231,
-          "id": "70cbb661-ea4f-475a-8beb-ec68c7de7ede"
-        },
-        "99d62a03-1673-4168-b2a3-79eefc087bb0": {
-          "label": "Independent Publishing Resource Center",
-          "link": "https://en.wikipedia.org/wiki/Independent Publishing Resource Center",
-          "x": 133385,
-          "y": 27256,
-          "id": "99d62a03-1673-4168-b2a3-79eefc087bb0"
-        },
-        "e837ccf8-6912-40c0-b15b-d70519d6f940": {
-          "label": "List of self-publishing companies",
-          "link": "https://en.wikipedia.org/wiki/List of self-publishing companies",
-          "x": 133358,
-          "y": 27281,
-          "id": "e837ccf8-6912-40c0-b15b-d70519d6f940"
-        },
-        "4f3344c5-3b51-49a4-8de8-480d4ce20863": {
-          "label": "Self-Publishing Review",
-          "link": "https://en.wikipedia.org/wiki/Self-Publishing Review",
-          "x": 133327,
-          "y": 27306,
-          "id": "4f3344c5-3b51-49a4-8de8-480d4ce20863"
-        },
-        "822a9b5e-f4aa-486b-98c8-e7ca7e1d2dbb": {
-          "label": "Writer's Digest",
-          "link": "https://en.wikipedia.org/wiki/Writer's Digest",
-          "x": 133300,
-          "y": 27331,
-          "id": "822a9b5e-f4aa-486b-98c8-e7ca7e1d2dbb"
-        },
-        "16616237-bf4f-489d-a3a3-7caa61779fe9": {
-          "label": "Category:Self-released albums",
-          "link": "https://en.wikipedia.org/wiki/Category:Self-released albums",
-          "x": 133353,
-          "y": 27356,
-          "id": "16616237-bf4f-489d-a3a3-7caa61779fe9"
-        },
-        "638879a5-8b89-4118-8e85-1a4e18f404c2": {
-          "label": "Category:Alternative media",
-          "link": "https://en.wikipedia.org/wiki/Category:Alternative media",
-          "x": 133341,
-          "y": 27381,
-          "id": "638879a5-8b89-4118-8e85-1a4e18f404c2"
-        },
-        "16eb8094-e566-43b2-bfc9-365b4bd8f94d": {
-          "label": "Category:Self-published authors",
-          "link": "https://en.wikipedia.org/wiki/Category:Self-published authors",
-          "x": 133357,
-          "y": 27406,
-          "id": "16eb8094-e566-43b2-bfc9-365b4bd8f94d"
-        },
-        "9d4d680b-dc23-4c71-819c-30f80922cb43": {
-          "label": "Category:Self-published books",
-          "link": "https://en.wikipedia.org/wiki/Category:Self-published books",
-          "x": 133352,
-          "y": 27431,
-          "id": "9d4d680b-dc23-4c71-819c-30f80922cb43"
-        },
-        "948eda47-7ee7-47bb-b9a9-425a42387e18": {
-          "label": "Category:Self-publishing companies",
-          "link": "https://en.wikipedia.org/wiki/Category:Self-publishing companies",
-          "x": 133369,
-          "y": 27456,
-          "id": "948eda47-7ee7-47bb-b9a9-425a42387e18"
-        },
-        "ba35d17f-2fae-40f6-90ab-a4a26b370e53": {
-          "label": "Category:Dōjinshi",
-          "link": "https://en.wikipedia.org/wiki/Category:Dōjinshi",
-          "x": 133311,
-          "y": 27481,
-          "id": "ba35d17f-2fae-40f6-90ab-a4a26b370e53"
-        },
-        "a4d8aa8f-19a7-440a-8425-78686b60e8b9": {
-          "label": "Category:Indie role-playing games",
-          "link": "https://en.wikipedia.org/wiki/Category:Indie role-playing games",
-          "x": 133364,
-          "y": 27506,
-          "id": "a4d8aa8f-19a7-440a-8425-78686b60e8b9"
-        },
-        "48f6493b-531d-4a6f-bb7c-8463eab80249": {
-          "label": "BibTeX",
-          "x": 131207,
-          "y": 4470,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "48f6493b-531d-4a6f-bb7c-8463eab80249",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "9cccf9a2-bd07-470a-b97a-60760b15be8c": {
-          "label": "Development",
-          "x": 131507,
-          "y": 4920,
-          "id": "9cccf9a2-bd07-470a-b97a-60760b15be8c"
-        },
-        "c946d303-b753-4c1c-8432-92d9118b79f0": {
-          "label": "11/16/2019",
-          "x": 131757,
-          "y": 4920,
-          "id": "c946d303-b753-4c1c-8432-92d9118b79f0"
-        },
-        "a260e6f0-eace-4bce-8e76-1ffac5a09047": {
-          "label": "init",
-          "x": 131657,
-          "y": 4920,
-          "id": "a260e6f0-eace-4bce-8e76-1ffac5a09047"
-        },
-        "3657b907-d0b6-4b0b-ae19-f00cb7445432": {
-          "label": "Notes",
-          "x": 131507,
-          "y": 4070,
-          "id": "3657b907-d0b6-4b0b-ae19-f00cb7445432"
-        },
-        "304cfe52-ea4f-4d10-8e58-fc6c9784db10": {
-          "label": "Dictionary of\nconcepts",
-          "x": 131644,
-          "y": 2950,
-          "id": "304cfe52-ea4f-4d10-8e58-fc6c9784db10"
-        },
-        "20fb3fd4-f4d6-4cda-ae11-17a39a25b81e": {
-          "label": "Details, thoughts",
-          "x": 131657,
-          "y": 4070,
-          "id": "20fb3fd4-f4d6-4cda-ae11-17a39a25b81e"
-        },
-        "6e1560c2-3786-4cf9-b9e5-4eaabb42c1c7": {
-          "label": "Sections",
-          "x": 131657,
-          "y": 4320,
-          "id": "6e1560c2-3786-4cf9-b9e5-4eaabb42c1c7"
-        },
-        "daf92ad3-da6b-4051-855d-bed76f88a52b": {
-          "label": "Books",
-          "x": 131721,
-          "y": 4170,
-          "id": "daf92ad3-da6b-4051-855d-bed76f88a52b"
-        },
-        "bb7a937c-fa3c-4615-ae92-cae35fc16a5a": {
-          "label": "R&D institutions",
-          "x": 131751,
-          "y": 4195,
-          "id": "bb7a937c-fa3c-4615-ae92-cae35fc16a5a"
-        },
-        "53bd0566-091c-4b07-8a28-3cc90ee55daa": {
-          "label": "Sites",
-          "x": 131717,
-          "y": 4220,
-          "id": "53bd0566-091c-4b07-8a28-3cc90ee55daa"
-        },
-        "4e58857c-6433-4ed2-804f-5bb8e18d1fa5": {
-          "label": "Magazines",
-          "x": 131736,
-          "y": 4245,
-          "id": "4e58857c-6433-4ed2-804f-5bb8e18d1fa5"
-        },
-        "127d1815-5daf-462b-9dff-20f422f193e1": {
-          "label": "Articles",
-          "x": 131724,
-          "y": 4270,
-          "id": "127d1815-5daf-462b-9dff-20f422f193e1"
-        },
-        "b3032c04-d40c-491a-9b80-1d41e73490e6": {
-          "label": "Media content",
-          "x": 131746,
-          "y": 4295,
-          "id": "b3032c04-d40c-491a-9b80-1d41e73490e6"
-        },
-        "248b1ab0-cff1-4aeb-8698-0e6cbb741515": {
-          "label": "Misc. web links",
-          "x": 131749,
-          "y": 4320,
-          "id": "248b1ab0-cff1-4aeb-8698-0e6cbb741515"
-        },
-        "bcc73568-d3ee-4b1e-92c3-f82e869df3c6": {
-          "label": "Projects",
-          "x": 131727,
-          "y": 4345,
-          "id": "bcc73568-d3ee-4b1e-92c3-f82e869df3c6"
-        },
-        "6a662abc-c221-4021-a028-13cfb1759616": {
-          "label": "Tools",
-          "x": 131718,
-          "y": 4370,
-          "id": "6a662abc-c221-4021-a028-13cfb1759616"
-        },
-        "6b94d499-a693-43ac-8aa9-2c25f934aceb": {
-          "label": "Organizations",
-          "x": 131745,
-          "y": 4395,
-          "id": "6b94d499-a693-43ac-8aa9-2c25f934aceb"
-        },
-        "e5e72806-bcd6-4af8-99e3-b4022f71b111": {
-          "label": "Standarts",
-          "x": 131732,
-          "y": 4420,
-          "id": "e5e72806-bcd6-4af8-99e3-b4022f71b111"
-        },
-        "ddb53559-464a-4025-85e9-bb728fda56b1": {
-          "label": "Forums, Groups",
-          "x": 131753,
-          "y": 4445,
-          "id": "ddb53559-464a-4025-85e9-bb728fda56b1"
-        },
-        "f4378d3d-86d5-4462-9516-7cc7ef23ce84": {
-          "label": "Laws",
-          "x": 131718,
-          "y": 4470,
-          "id": "f4378d3d-86d5-4462-9516-7cc7ef23ce84"
-        },
-        "62ff98f0-de89-4e14-8809-1cc6c0a31d5c": {
-          "label": "Adjacent Themes",
-          "x": 131757,
-          "y": 4495,
-          "id": "62ff98f0-de89-4e14-8809-1cc6c0a31d5c"
-        },
-        "390f4a9e-ce10-45cb-a0df-34bffd965360": {
-          "label": "Questions",
-          "x": 131507,
-          "y": 4620,
-          "id": "390f4a9e-ce10-45cb-a0df-34bffd965360"
-        },
-        "ab802b64-1684-49a4-9da0-a4bd77d5c404": {
-          "label": "Problems",
-          "x": 131507,
-          "y": 4720,
-          "id": "ab802b64-1684-49a4-9da0-a4bd77d5c404"
-        },
-        "8ba6bc6a-6aee-416f-bc20-0c1827e81829": {
-          "label": "Goals",
-          "x": 131507,
-          "y": 4820,
-          "id": "8ba6bc6a-6aee-416f-bc20-0c1827e81829"
-        },
-        "89fe8901-1999-46ab-a7dc-2a08890f0e44": {
-          "label": "Online scientific catalogues",
-          "x": 142416,
-          "y": -2672,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "89fe8901-1999-46ab-a7dc-2a08890f0e44",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d9215af7-fe53-44d9-8b88-9c09a5b9a957": {
-          "label": "Development",
-          "x": 143120,
-          "y": -2245,
-          "id": "d9215af7-fe53-44d9-8b88-9c09a5b9a957"
-        },
-        "d2396e50-43fa-4a00-a49c-747430877c70": {
-          "label": "11/16/2019",
-          "x": 143370,
-          "y": -2245,
-          "id": "d2396e50-43fa-4a00-a49c-747430877c70"
-        },
-        "5fb24578-58a7-46c9-8c1b-3244df55092d": {
-          "label": "init",
-          "x": 143270,
-          "y": -2245,
-          "id": "5fb24578-58a7-46c9-8c1b-3244df55092d"
-        },
-        "5426f1c3-837f-43ee-93a0-75be7982fef7": {
-          "label": "Notes",
-          "x": 143120,
-          "y": -3095,
-          "id": "5426f1c3-837f-43ee-93a0-75be7982fef7"
-        },
-        "7ba8589f-b738-4c66-8685-7c8df3673360": {
-          "label": "Dictionary of\nconcepts",
-          "x": 143232,
-          "y": -3515,
-          "id": "7ba8589f-b738-4c66-8685-7c8df3673360"
-        },
-        "73965738-28e2-4b4a-a1ea-de1a3d3d63cf": {
-          "label": "Details, thoughts",
-          "x": 143270,
-          "y": -3095,
-          "id": "73965738-28e2-4b4a-a1ea-de1a3d3d63cf"
-        },
-        "1b1d7e05-5821-4e61-b378-2c30b982df32": {
-          "label": "Sections",
-          "x": 143270,
-          "y": -2845,
-          "id": "1b1d7e05-5821-4e61-b378-2c30b982df32"
-        },
-        "172fbdb7-bb87-4a51-a744-9e2c68480f94": {
-          "label": "Books",
-          "x": 143333,
-          "y": -2995,
-          "id": "172fbdb7-bb87-4a51-a744-9e2c68480f94"
-        },
-        "6848f6d3-5397-434e-99d7-0bd2980a59aa": {
-          "label": "R&D institutions",
-          "x": 143364,
-          "y": -2970,
-          "id": "6848f6d3-5397-434e-99d7-0bd2980a59aa"
-        },
-        "ba316de8-cb29-44f4-bdbf-f98ac9dc5c60": {
-          "label": "Sites",
-          "x": 143329,
-          "y": -2945,
-          "id": "ba316de8-cb29-44f4-bdbf-f98ac9dc5c60"
-        },
-        "6b566c33-ba3c-45b8-823a-7c0609cf31c1": {
-          "label": "Magazines",
-          "x": 143348,
-          "y": -2920,
-          "id": "6b566c33-ba3c-45b8-823a-7c0609cf31c1"
-        },
-        "b2c9083f-8e98-4ff0-b8ec-ee3f40c5d7c1": {
-          "label": "Articles",
-          "x": 143337,
-          "y": -2895,
-          "id": "b2c9083f-8e98-4ff0-b8ec-ee3f40c5d7c1"
-        },
-        "936bc752-f5ee-4f92-bc4c-916c6253241e": {
-          "label": "Media content",
-          "x": 143359,
-          "y": -2870,
-          "id": "936bc752-f5ee-4f92-bc4c-916c6253241e"
-        },
-        "b98e57fd-3b81-46f4-81c4-18837adc3612": {
-          "label": "Misc. web links",
-          "x": 143361,
-          "y": -2845,
-          "id": "b98e57fd-3b81-46f4-81c4-18837adc3612"
-        },
-        "01a263bf-e4aa-4f4f-80df-6bbefa1d8ec1": {
-          "label": "Projects",
-          "x": 143339,
-          "y": -2820,
-          "id": "01a263bf-e4aa-4f4f-80df-6bbefa1d8ec1"
-        },
-        "99bc1fed-941e-47a4-b0b7-3df043690632": {
-          "label": "Tools",
-          "x": 143331,
-          "y": -2795,
-          "id": "99bc1fed-941e-47a4-b0b7-3df043690632"
-        },
-        "5fb4d80e-f395-454e-ae82-325905d76a40": {
-          "label": "Organizations",
-          "x": 143358,
-          "y": -2770,
-          "id": "5fb4d80e-f395-454e-ae82-325905d76a40"
-        },
-        "93e8639b-6db8-4caa-9c31-d85af60a6d04": {
-          "label": "Standarts",
-          "x": 143344,
-          "y": -2745,
-          "id": "93e8639b-6db8-4caa-9c31-d85af60a6d04"
-        },
-        "6a131a30-7a94-49a2-b2f5-c59d9a9c33bf": {
-          "label": "Forums, Groups",
-          "x": 143366,
-          "y": -2720,
-          "id": "6a131a30-7a94-49a2-b2f5-c59d9a9c33bf"
-        },
-        "13acffcb-1561-43d2-b158-17e4480bfe47": {
-          "label": "Laws",
-          "x": 143330,
-          "y": -2695,
-          "id": "13acffcb-1561-43d2-b158-17e4480bfe47"
-        },
-        "ddf57d4a-30d7-4679-82d2-bb66075fdc65": {
-          "label": "Adjacent Themes",
-          "x": 143369,
-          "y": -2670,
-          "id": "ddf57d4a-30d7-4679-82d2-bb66075fdc65"
-        },
-        "557163dd-4726-4c9a-a10d-7e0b81dc4ff5": {
-          "label": "Questions",
-          "x": 143120,
-          "y": -2545,
-          "id": "557163dd-4726-4c9a-a10d-7e0b81dc4ff5"
-        },
-        "c576a520-6ee8-4680-aa02-5cc395d4e337": {
-          "label": "Problems",
-          "x": 143120,
-          "y": -2445,
-          "id": "c576a520-6ee8-4680-aa02-5cc395d4e337"
-        },
-        "3c406cc9-e7d6-4829-9ca9-5b6e772c8d73": {
-          "label": "Goals",
-          "x": 143120,
-          "y": -2345,
-          "id": "3c406cc9-e7d6-4829-9ca9-5b6e772c8d73"
-        },
-        "1d11e21f-a70a-4846-b149-ee846f620ac4": {
-          "label": "Mediawiki",
-          "x": 142627,
-          "y": -248,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "1d11e21f-a70a-4846-b149-ee846f620ac4",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "09a78a32-dbbd-4688-9d59-4cd1af75473a": {
-          "label": "Development",
-          "x": 142927,
-          "y": 202,
-          "id": "09a78a32-dbbd-4688-9d59-4cd1af75473a"
-        },
-        "cfe3120b-a124-41b5-9191-75b846d891af": {
-          "label": "11/16/2019",
-          "x": 143177,
-          "y": 202,
-          "id": "cfe3120b-a124-41b5-9191-75b846d891af"
-        },
-        "a880454a-a307-43bd-8302-06a82942e505": {
-          "label": "init",
-          "x": 143077,
-          "y": 202,
-          "id": "a880454a-a307-43bd-8302-06a82942e505"
-        },
-        "732672b4-7aae-4789-97d9-838bc99502b7": {
-          "label": "Notes",
-          "x": 142927,
-          "y": -648,
-          "id": "732672b4-7aae-4789-97d9-838bc99502b7"
-        },
-        "17ee9eef-f955-447c-99ab-42d220ef6e9b": {
-          "label": "Dictionary of\nconcepts",
-          "x": 143077,
-          "y": -898,
-          "id": "17ee9eef-f955-447c-99ab-42d220ef6e9b"
-        },
-        "545da88b-ec75-45dc-92cf-2e7c7332d8a4": {
-          "label": "Details, thoughts",
-          "x": 143077,
-          "y": -648,
-          "id": "545da88b-ec75-45dc-92cf-2e7c7332d8a4"
-        },
-        "5f005f48-2222-4f76-b3c8-fbfd37cd61a1": {
-          "label": "Sections",
-          "x": 143077,
-          "y": -398,
-          "id": "5f005f48-2222-4f76-b3c8-fbfd37cd61a1"
-        },
-        "e103d26f-498a-4320-b26f-245cd8a51d63": {
-          "label": "Books",
-          "x": 143141,
-          "y": -548,
-          "id": "e103d26f-498a-4320-b26f-245cd8a51d63"
-        },
-        "690b576a-5588-4d14-be83-8cc7962147c0": {
-          "label": "R&D institutions",
-          "x": 143171,
-          "y": -523,
-          "id": "690b576a-5588-4d14-be83-8cc7962147c0"
-        },
-        "d999a554-c8d3-45fa-b80a-18d2ae0f06f5": {
-          "label": "Sites",
-          "x": 143137,
-          "y": -498,
-          "id": "d999a554-c8d3-45fa-b80a-18d2ae0f06f5"
-        },
-        "2f638c2b-f2bd-4b58-8af3-b44569366067": {
-          "label": "Magazines",
-          "x": 143156,
-          "y": -473,
-          "id": "2f638c2b-f2bd-4b58-8af3-b44569366067"
-        },
-        "e31bd440-5793-472c-9f21-e88bf51e9fa8": {
-          "label": "Articles",
-          "x": 143144,
-          "y": -448,
-          "id": "e31bd440-5793-472c-9f21-e88bf51e9fa8"
-        },
-        "d015c10f-639f-4843-8087-523e32386324": {
-          "label": "Media content",
-          "x": 143166,
-          "y": -423,
-          "id": "d015c10f-639f-4843-8087-523e32386324"
-        },
-        "e228ef7f-d385-4f43-90d4-1525bb7dde0e": {
-          "label": "Misc. web links",
-          "x": 143169,
-          "y": -398,
-          "id": "e228ef7f-d385-4f43-90d4-1525bb7dde0e"
-        },
-        "bda60395-deac-46d2-b505-7217a1917d53": {
-          "label": "Projects",
-          "x": 143147,
-          "y": -373,
-          "id": "bda60395-deac-46d2-b505-7217a1917d53"
-        },
-        "a2042f1a-3a60-44a2-9d57-52aa824f0423": {
-          "label": "Tools",
-          "x": 143138,
-          "y": -348,
-          "id": "a2042f1a-3a60-44a2-9d57-52aa824f0423"
-        },
-        "b7212c9c-7efb-4436-bff2-9729126bae64": {
-          "label": "Organizations",
-          "x": 143165,
-          "y": -323,
-          "id": "b7212c9c-7efb-4436-bff2-9729126bae64"
-        },
-        "864bbea1-50c7-438c-8224-b581c6091bc2": {
-          "label": "Standarts",
-          "x": 143152,
-          "y": -298,
-          "id": "864bbea1-50c7-438c-8224-b581c6091bc2"
-        },
-        "38634fc3-4d6f-4238-9eef-6b32acc387cd": {
-          "label": "Forums, Groups",
-          "x": 143173,
-          "y": -273,
-          "id": "38634fc3-4d6f-4238-9eef-6b32acc387cd"
-        },
-        "fb77f6ee-879d-40d5-b5e0-d2dd0397fe4e": {
-          "label": "Laws",
-          "x": 143138,
-          "y": -248,
-          "id": "fb77f6ee-879d-40d5-b5e0-d2dd0397fe4e"
-        },
-        "74735518-b540-4ade-a442-3df924e5be3c": {
-          "label": "Adjacent Themes",
-          "x": 143177,
-          "y": -223,
-          "id": "74735518-b540-4ade-a442-3df924e5be3c"
-        },
-        "6ce012fd-29ff-4114-9bef-941617cbd697": {
-          "label": "Questions",
-          "x": 142927,
-          "y": -98,
-          "id": "6ce012fd-29ff-4114-9bef-941617cbd697"
-        },
-        "de41ea49-5baf-40d0-acc1-154781231aba": {
-          "label": "Problems",
-          "x": 142927,
-          "y": 2,
-          "id": "de41ea49-5baf-40d0-acc1-154781231aba"
-        },
-        "b9944f1a-94c9-4c7f-a8c2-116eb8c81384": {
-          "label": "Goals",
-          "x": 142927,
-          "y": 102,
-          "id": "b9944f1a-94c9-4c7f-a8c2-116eb8c81384"
-        },
-        "5d352db8-ebe8-4543-8ebb-2a60cceb91d1": {
-          "label": "DOI",
-          "x": 131350,
-          "y": 6770,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "5d352db8-ebe8-4543-8ebb-2a60cceb91d1",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "017acb45-c851-45b9-be2e-9c768f54babb": {
-          "label": "Development",
-          "x": 131650,
-          "y": 7220,
-          "id": "017acb45-c851-45b9-be2e-9c768f54babb"
-        },
-        "38171bd5-7df5-4171-8587-03e93e6ee400": {
-          "label": "11/16/2019",
-          "x": 131900,
-          "y": 7220,
-          "id": "38171bd5-7df5-4171-8587-03e93e6ee400"
-        },
-        "6b0c5a03-ab0a-4f6e-a8a2-72eec2af3526": {
-          "label": "init",
-          "x": 131800,
-          "y": 7220,
-          "id": "6b0c5a03-ab0a-4f6e-a8a2-72eec2af3526"
-        },
-        "a5695dcc-8ddb-4e18-9239-97fa8088f30d": {
-          "label": "Notes",
-          "x": 131650,
-          "y": 6370,
-          "id": "a5695dcc-8ddb-4e18-9239-97fa8088f30d"
-        },
-        "71f6a7ee-24e6-4784-ad6d-3f3547370a66": {
-          "label": "Dictionary of\nconcepts",
-          "x": 131800,
-          "y": 6120,
-          "id": "71f6a7ee-24e6-4784-ad6d-3f3547370a66"
-        },
-        "2e047069-0232-49a2-9fa2-3e3948cdb5c8": {
-          "label": "Details, thoughts",
-          "x": 131800,
-          "y": 6370,
-          "id": "2e047069-0232-49a2-9fa2-3e3948cdb5c8"
-        },
-        "17f7a91b-b04d-43bb-9c38-1a6890606302": {
-          "label": "Sections",
-          "x": 131800,
-          "y": 6620,
-          "id": "17f7a91b-b04d-43bb-9c38-1a6890606302"
-        },
-        "a03ddbcc-ed49-4274-9f99-5c93aea850ec": {
-          "label": "Books",
-          "x": 131864,
-          "y": 6470,
-          "id": "a03ddbcc-ed49-4274-9f99-5c93aea850ec"
-        },
-        "9d82f53c-9f0a-4e3a-aec6-8c0fc7716da7": {
-          "label": "R&D institutions",
-          "x": 131895,
-          "y": 6495,
-          "id": "9d82f53c-9f0a-4e3a-aec6-8c0fc7716da7"
-        },
-        "ebbe68a3-1449-4591-ac2c-8994f9323759": {
-          "label": "Sites",
-          "x": 131860,
-          "y": 6520,
-          "id": "ebbe68a3-1449-4591-ac2c-8994f9323759"
-        },
-        "1668694c-c82b-45ec-a05b-94635182dbe0": {
-          "label": "Magazines",
-          "x": 131879,
-          "y": 6545,
-          "id": "1668694c-c82b-45ec-a05b-94635182dbe0"
-        },
-        "08eeb7b0-8165-46cf-a732-84b30cbbc66e": {
-          "label": "Articles",
-          "x": 131868,
-          "y": 6570,
-          "id": "08eeb7b0-8165-46cf-a732-84b30cbbc66e"
-        },
-        "9407c536-a151-4759-a913-4d9b3abf3f6d": {
-          "label": "Media content",
-          "x": 131890,
-          "y": 6595,
-          "id": "9407c536-a151-4759-a913-4d9b3abf3f6d"
-        },
-        "59ad259a-bb33-4809-bfe6-c801d420f207": {
-          "label": "Misc. web links",
-          "x": 131892,
-          "y": 6620,
-          "id": "59ad259a-bb33-4809-bfe6-c801d420f207"
-        },
-        "c408afa6-301f-4042-9f1c-e1be5d9031f9": {
-          "label": "Projects",
-          "x": 131870,
-          "y": 6645,
-          "id": "c408afa6-301f-4042-9f1c-e1be5d9031f9"
-        },
-        "0fe7735e-9ebc-4152-bc84-222a5e808259": {
-          "label": "Tools",
-          "x": 131862,
-          "y": 6670,
-          "id": "0fe7735e-9ebc-4152-bc84-222a5e808259"
-        },
-        "dfe4a265-6c89-4892-9368-64d2e4f8652e": {
-          "label": "Organizations",
-          "x": 131889,
-          "y": 6695,
-          "id": "dfe4a265-6c89-4892-9368-64d2e4f8652e"
-        },
-        "46ce265b-a0e4-42de-a1d1-7ebd12bd5adf": {
-          "label": "Standarts",
-          "x": 131875,
-          "y": 6720,
-          "id": "46ce265b-a0e4-42de-a1d1-7ebd12bd5adf"
-        },
-        "ba8e48b9-c41b-431a-8726-15baf4790c99": {
-          "label": "Forums, Groups",
-          "x": 131897,
-          "y": 6745,
-          "id": "ba8e48b9-c41b-431a-8726-15baf4790c99"
-        },
-        "e382e11e-8cbc-492f-9fda-fbf5870e411d": {
-          "label": "Laws",
-          "x": 131861,
-          "y": 6770,
-          "id": "e382e11e-8cbc-492f-9fda-fbf5870e411d"
-        },
-        "a1d4cb5b-bdc6-4a4d-adb7-ed8ae48cbc34": {
-          "label": "Adjacent Themes",
-          "x": 131900,
-          "y": 6795,
-          "id": "a1d4cb5b-bdc6-4a4d-adb7-ed8ae48cbc34"
-        },
-        "0033fdec-1bb3-429c-a545-e00bd4e0f99f": {
-          "label": "Questions",
-          "x": 131650,
-          "y": 6920,
-          "id": "0033fdec-1bb3-429c-a545-e00bd4e0f99f"
-        },
-        "a18d19be-eeb4-44b1-ac7c-b4bb641b7385": {
-          "label": "Problems",
-          "x": 131650,
-          "y": 7020,
-          "id": "a18d19be-eeb4-44b1-ac7c-b4bb641b7385"
-        },
-        "150bf1c2-6807-4c2f-bc13-7d0a0739a8c0": {
-          "label": "Goals",
-          "x": 131650,
-          "y": 7120,
-          "id": "150bf1c2-6807-4c2f-bc13-7d0a0739a8c0"
-        },
-        "c8a86e1b-679c-46c2-b1b2-b36cdd9675df": {
-          "label": "mendeley.com",
-          "x": 143079,
-          "y": 3919,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "c8a86e1b-679c-46c2-b1b2-b36cdd9675df",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "b3f2a720-31f1-426c-8d56-c8d03371e21e": {
-          "label": "Development",
-          "x": 143612,
-          "y": 4354,
-          "id": "b3f2a720-31f1-426c-8d56-c8d03371e21e"
-        },
-        "ac23a345-9cd5-416e-a218-02e7d79331aa": {
-          "label": "11/16/2019",
-          "x": 143862,
-          "y": 4354,
-          "id": "ac23a345-9cd5-416e-a218-02e7d79331aa"
-        },
-        "948664cf-c9e5-4785-a914-b44d1c1163d8": {
-          "label": "init",
-          "x": 143762,
-          "y": 4354,
-          "id": "948664cf-c9e5-4785-a914-b44d1c1163d8"
-        },
-        "02a09033-8097-4a4e-ae27-e8ffa51c099e": {
-          "label": "Notes",
-          "x": 143612,
-          "y": 3504,
-          "id": "02a09033-8097-4a4e-ae27-e8ffa51c099e"
-        },
-        "954a8b33-0bbf-4366-afec-8cc8ee3627e9": {
-          "label": "Dictionary of\nconcepts",
-          "x": 143762,
-          "y": 3254,
-          "id": "954a8b33-0bbf-4366-afec-8cc8ee3627e9"
-        },
-        "b976f76f-a598-42c4-9e5d-0c62635145c4": {
-          "label": "Details, thoughts",
-          "x": 143762,
-          "y": 3504,
-          "id": "b976f76f-a598-42c4-9e5d-0c62635145c4"
-        },
-        "72e8a7ac-e271-431d-acd3-28253e553e12": {
-          "label": "Sections",
-          "x": 143762,
-          "y": 3754,
-          "id": "72e8a7ac-e271-431d-acd3-28253e553e12"
-        },
-        "272d3305-c39a-4096-abc1-af563fdbde6b": {
-          "label": "Books",
-          "x": 143826,
-          "y": 3604,
-          "id": "272d3305-c39a-4096-abc1-af563fdbde6b"
-        },
-        "8a89fb1d-41ed-4bf1-bb4c-134a2622b52d": {
-          "label": "R&D institutions",
-          "x": 143856,
-          "y": 3629,
-          "id": "8a89fb1d-41ed-4bf1-bb4c-134a2622b52d"
-        },
-        "081e1a1e-66e4-4645-bcec-0c63aa9ac73a": {
-          "label": "Sites",
-          "x": 143822,
-          "y": 3654,
-          "id": "081e1a1e-66e4-4645-bcec-0c63aa9ac73a"
-        },
-        "4458d6ae-f8a8-478d-aac1-5482db4e7b12": {
-          "label": "Magazines",
-          "x": 143841,
-          "y": 3679,
-          "id": "4458d6ae-f8a8-478d-aac1-5482db4e7b12"
-        },
-        "b0dc634b-64cf-446f-b3ed-9c17b86b43c2": {
-          "label": "Articles",
-          "x": 143829,
-          "y": 3704,
-          "id": "b0dc634b-64cf-446f-b3ed-9c17b86b43c2"
-        },
-        "57e97124-4ce1-47e0-9faf-db234e6a8b96": {
-          "label": "Media content",
-          "x": 143851,
-          "y": 3729,
-          "id": "57e97124-4ce1-47e0-9faf-db234e6a8b96"
-        },
-        "3eb9cf48-7844-4df8-8602-c59b9c6bae50": {
-          "label": "Misc. web links",
-          "x": 143854,
-          "y": 3754,
-          "id": "3eb9cf48-7844-4df8-8602-c59b9c6bae50"
-        },
-        "82aafad5-11e0-40b2-bf0b-36d8ec5620a6": {
-          "label": "Projects",
-          "x": 143832,
-          "y": 3779,
-          "id": "82aafad5-11e0-40b2-bf0b-36d8ec5620a6"
-        },
-        "7d002af3-caa4-4e7c-b211-284281bb9527": {
-          "label": "Tools",
-          "x": 143823,
-          "y": 3804,
-          "id": "7d002af3-caa4-4e7c-b211-284281bb9527"
-        },
-        "5f983d5b-1185-4428-83bb-984339c9368e": {
-          "label": "Organizations",
-          "x": 143850,
-          "y": 3829,
-          "id": "5f983d5b-1185-4428-83bb-984339c9368e"
-        },
-        "b8c43f16-56e7-4b41-b218-7028dd2e1778": {
-          "label": "Standarts",
-          "x": 143837,
-          "y": 3854,
-          "id": "b8c43f16-56e7-4b41-b218-7028dd2e1778"
-        },
-        "eaaa1a17-ddc0-441e-b12f-b9e8250cd8f2": {
-          "label": "Forums, Groups",
-          "x": 143858,
-          "y": 3879,
-          "id": "eaaa1a17-ddc0-441e-b12f-b9e8250cd8f2"
-        },
-        "de3a5bdf-6220-4e60-b560-36dc2c10bd3a": {
-          "label": "Laws",
-          "x": 143823,
-          "y": 3904,
-          "id": "de3a5bdf-6220-4e60-b560-36dc2c10bd3a"
-        },
-        "eadb2770-8b5c-4e47-9a16-9f9528b3c15d": {
-          "label": "Adjacent Themes",
-          "x": 143862,
-          "y": 3929,
-          "id": "eadb2770-8b5c-4e47-9a16-9f9528b3c15d"
-        },
-        "ce3c4fec-5d91-4591-8043-61cb6106a8bc": {
-          "label": "Questions",
-          "x": 143612,
-          "y": 4054,
-          "id": "ce3c4fec-5d91-4591-8043-61cb6106a8bc"
-        },
-        "0cac9823-2c55-48a8-87a0-68b6949486f9": {
-          "label": "Problems",
-          "x": 143612,
-          "y": 4154,
-          "id": "0cac9823-2c55-48a8-87a0-68b6949486f9"
-        },
-        "e129a58b-7202-4fc3-8bc1-6a94ae33a953": {
-          "label": "Goals",
-          "x": 143612,
-          "y": 4254,
-          "id": "e129a58b-7202-4fc3-8bc1-6a94ae33a953"
-        },
-        "69aac351-be9d-4c06-a8ac-04205d8964e1": {
-          "label": "zbib.org",
-          "x": 131540,
-          "y": 12841,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "69aac351-be9d-4c06-a8ac-04205d8964e1",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "51a9aa75-5142-4cc1-860e-c7e1ba4b58f5": {
-          "label": "Development",
-          "x": 131840,
-          "y": 13291,
-          "id": "51a9aa75-5142-4cc1-860e-c7e1ba4b58f5"
-        },
-        "8bdd88e8-ddbe-401e-b4d0-9948ccff5ed3": {
-          "label": "11/16/2019",
-          "x": 132090,
-          "y": 13291,
-          "id": "8bdd88e8-ddbe-401e-b4d0-9948ccff5ed3"
-        },
-        "3a3eb576-3a23-4afc-a834-4c379de94d21": {
-          "label": "init",
-          "x": 131990,
-          "y": 13291,
-          "id": "3a3eb576-3a23-4afc-a834-4c379de94d21"
-        },
-        "5adbb08a-cfbe-42fe-91c9-a918a2af5c35": {
-          "label": "Notes",
-          "x": 131845,
-          "y": 12291,
-          "id": "5adbb08a-cfbe-42fe-91c9-a918a2af5c35"
-        },
-        "ac755080-6537-4d18-9dcc-e52edabaa11e": {
-          "label": "Dictionary of\nconcepts",
-          "x": 131995,
-          "y": 12041,
-          "id": "ac755080-6537-4d18-9dcc-e52edabaa11e"
-        },
-        "7a3462d4-d6ca-41d6-ab34-08aefda8599b": {
-          "label": "Details, thoughts",
-          "x": 131995,
-          "y": 12291,
-          "id": "7a3462d4-d6ca-41d6-ab34-08aefda8599b"
-        },
-        "72300d2e-0ebb-4e3b-ad5e-2de5c9a18348": {
-          "label": "Sections",
-          "x": 131990,
-          "y": 12691,
-          "id": "72300d2e-0ebb-4e3b-ad5e-2de5c9a18348"
-        },
-        "f747fdde-1f90-46c8-9c67-5f3e6cd54810": {
-          "label": "Books",
-          "x": 132053,
-          "y": 12391,
-          "id": "f747fdde-1f90-46c8-9c67-5f3e6cd54810"
-        },
-        "37dee7a3-9d1d-4a7d-91c2-f72bb60aaf59": {
-          "label": "R&D institutions",
-          "x": 132084,
-          "y": 12416,
-          "id": "37dee7a3-9d1d-4a7d-91c2-f72bb60aaf59"
-        },
-        "50ee27f0-0ba0-42d4-a2ad-d05c62569b6a": {
-          "label": "Sites",
-          "x": 132049,
-          "y": 12441,
-          "id": "50ee27f0-0ba0-42d4-a2ad-d05c62569b6a"
-        },
-        "a63e9f75-def0-447f-8042-861ee7a5178d": {
-          "label": "Magazines",
-          "x": 132068,
-          "y": 12466,
-          "id": "a63e9f75-def0-447f-8042-861ee7a5178d"
-        },
-        "9905760e-0b1b-424d-9d4e-ac2495fd1737": {
-          "label": "Articles",
-          "x": 132057,
-          "y": 12491,
-          "id": "9905760e-0b1b-424d-9d4e-ac2495fd1737"
-        },
-        "96f688c1-229b-4e84-aad7-f4fe1d2e1e7d": {
-          "label": "Media content",
-          "x": 132079,
-          "y": 12516,
-          "id": "96f688c1-229b-4e84-aad7-f4fe1d2e1e7d"
-        },
-        "4bed8221-cdf3-4c84-b54f-b18c7ff0588b": {
-          "label": "Misc. web links",
-          "x": 132081,
-          "y": 12623,
-          "id": "4bed8221-cdf3-4c84-b54f-b18c7ff0588b"
-        },
-        "0203205a-d3d3-4a2d-b524-210606963b0b": {
-          "label": "Projects",
-          "x": 132059,
-          "y": 12716,
-          "id": "0203205a-d3d3-4a2d-b524-210606963b0b"
-        },
-        "12ac1562-3f79-4703-b1c8-dc3a25fe15f4": {
-          "label": "Tools",
-          "x": 132050,
-          "y": 12741,
-          "id": "12ac1562-3f79-4703-b1c8-dc3a25fe15f4"
-        },
-        "bface27c-0711-4e98-b76d-6d0bc1a95ad1": {
-          "label": "Organizations",
-          "x": 132078,
-          "y": 12766,
-          "id": "bface27c-0711-4e98-b76d-6d0bc1a95ad1"
-        },
-        "2fcb8691-1f96-4b5e-b9ce-0b290c0641fb": {
-          "label": "Standarts",
-          "x": 132064,
-          "y": 12791,
-          "id": "2fcb8691-1f96-4b5e-b9ce-0b290c0641fb"
-        },
-        "eb958f95-12c3-4c8e-90e7-04571fb640a1": {
-          "label": "Forums, Groups",
-          "x": 132086,
-          "y": 12816,
-          "id": "eb958f95-12c3-4c8e-90e7-04571fb640a1"
-        },
-        "35cbf31c-d091-4a5e-85b6-829cc664bb13": {
-          "label": "Laws",
-          "x": 132050,
-          "y": 12841,
-          "id": "35cbf31c-d091-4a5e-85b6-829cc664bb13"
-        },
-        "22a106b9-3879-42c8-99c3-3c165f5b6c83": {
-          "label": "Adjacent Themes",
-          "x": 132089,
-          "y": 12866,
-          "id": "22a106b9-3879-42c8-99c3-3c165f5b6c83"
-        },
-        "3a9fbf6f-018e-46ec-a733-738d66385d6b": {
-          "label": "Questions",
-          "x": 131840,
-          "y": 12991,
-          "id": "3a9fbf6f-018e-46ec-a733-738d66385d6b"
-        },
-        "4fb9aabd-e739-4869-9d15-b8b763ea807b": {
-          "label": "Problems",
-          "x": 131840,
-          "y": 13091,
-          "id": "4fb9aabd-e739-4869-9d15-b8b763ea807b"
-        },
-        "fc27d73e-54e4-49c6-9014-4abf8c4387f8": {
-          "label": "Goals",
-          "x": 131840,
-          "y": 13191,
-          "id": "fc27d73e-54e4-49c6-9014-4abf8c4387f8"
-        },
-        "cb3c8e71-ec8d-41f8-9f81-2cf8a5de9235": {
-          "id": "cb3c8e71-ec8d-41f8-9f81-2cf8a5de9235",
-          "x": 132296,
-          "y": 12623,
-          "label": "https://zbib.org/",
-          "shape": "box",
-          "link": "https://zbib.org/",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "cc111b0c-7dbe-41af-bb50-e6942d0ff305": {
-          "label": "dblp.org",
-          "x": 131325,
-          "y": 17443,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "cc111b0c-7dbe-41af-bb50-e6942d0ff305",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "c7a6162d-11cb-46cf-82d8-6079f0bb2f4f": {
-          "label": "Development",
-          "x": 131625,
-          "y": 17893,
-          "id": "c7a6162d-11cb-46cf-82d8-6079f0bb2f4f"
-        },
-        "172eb55f-f275-4b89-9ae6-f539ee4acdf5": {
-          "label": "11/16/2019",
-          "x": 131875,
-          "y": 17893,
-          "id": "172eb55f-f275-4b89-9ae6-f539ee4acdf5"
-        },
-        "d50d5254-90da-4e96-ae06-3a0c3e75efd4": {
-          "label": "init",
-          "x": 131775,
-          "y": 17893,
-          "id": "d50d5254-90da-4e96-ae06-3a0c3e75efd4"
-        },
-        "67e6154d-1cd4-4465-b924-d36944a01557": {
-          "label": "Notes",
-          "x": 131627,
-          "y": 16934,
-          "id": "67e6154d-1cd4-4465-b924-d36944a01557"
-        },
-        "809e2aca-f8c3-47fa-9198-75993fe08ec6": {
-          "label": "Dictionary of\nconcepts",
-          "x": 131777,
-          "y": 16684,
-          "id": "809e2aca-f8c3-47fa-9198-75993fe08ec6"
-        },
-        "32d0bae4-ea14-48e0-ba49-63b25e38da5b": {
-          "label": "Details, thoughts",
-          "x": 131777,
-          "y": 16934,
-          "id": "32d0bae4-ea14-48e0-ba49-63b25e38da5b"
-        },
-        "225371be-8103-4749-9566-dc58190e261c": {
-          "label": "Sections",
-          "x": 131775,
-          "y": 17293,
-          "id": "225371be-8103-4749-9566-dc58190e261c"
-        },
-        "a497d453-d861-446f-a840-32079ade76aa": {
-          "label": "Books",
-          "x": 131841,
-          "y": 17034,
-          "id": "a497d453-d861-446f-a840-32079ade76aa"
-        },
-        "9b00c6be-f52b-4613-9836-343c25adec43": {
-          "label": "R&D institutions",
-          "x": 131872,
-          "y": 17059,
-          "id": "9b00c6be-f52b-4613-9836-343c25adec43"
-        },
-        "fe15cda6-8665-47ae-94ab-d1f4e9c6d939": {
-          "label": "Sites",
-          "x": 131837,
-          "y": 17084,
-          "id": "fe15cda6-8665-47ae-94ab-d1f4e9c6d939"
-        },
-        "9a615da3-dbe0-4b3c-8ddd-29b6b7e96c19": {
-          "label": "Magazines",
-          "x": 131856,
-          "y": 17109,
-          "id": "9a615da3-dbe0-4b3c-8ddd-29b6b7e96c19"
-        },
-        "f47bec03-5934-4c0b-8935-e1166f9c8faf": {
-          "label": "Articles",
-          "x": 131845,
-          "y": 17134,
-          "id": "f47bec03-5934-4c0b-8935-e1166f9c8faf"
-        },
-        "98d0ae02-8c51-40bd-8fa4-183f0eadad02": {
-          "label": "Media content",
-          "x": 131867,
-          "y": 17159,
-          "id": "98d0ae02-8c51-40bd-8fa4-183f0eadad02"
-        },
-        "7cac5ff0-f8c6-4739-8d87-84e88fa89c41": {
-          "label": "Misc. web links",
-          "x": 131873,
-          "y": 17252,
-          "id": "7cac5ff0-f8c6-4739-8d87-84e88fa89c41"
-        },
-        "827d141d-468f-4639-9239-dabbf666f1ec": {
-          "label": "Projects",
-          "x": 131845,
-          "y": 17318,
-          "id": "827d141d-468f-4639-9239-dabbf666f1ec"
-        },
-        "27fa9b57-475e-4403-afbc-fc2c1881506e": {
-          "label": "Tools",
-          "x": 131836,
-          "y": 17343,
-          "id": "27fa9b57-475e-4403-afbc-fc2c1881506e"
-        },
-        "6213e760-3812-489b-832f-3611c48eef50": {
-          "label": "Organizations",
-          "x": 131863,
-          "y": 17368,
-          "id": "6213e760-3812-489b-832f-3611c48eef50"
-        },
-        "abc3bc54-0190-4dd3-9bfb-079a58f6c8b4": {
-          "label": "Standarts",
-          "x": 131850,
-          "y": 17393,
-          "id": "abc3bc54-0190-4dd3-9bfb-079a58f6c8b4"
-        },
-        "911b80a0-5c71-42aa-9f01-d766f64828db": {
-          "label": "Forums, Groups",
-          "x": 131871,
-          "y": 17418,
-          "id": "911b80a0-5c71-42aa-9f01-d766f64828db"
-        },
-        "12be49b4-1b81-4f4c-8e21-e8bffefe823d": {
-          "label": "Laws",
-          "x": 131836,
-          "y": 17443,
-          "id": "12be49b4-1b81-4f4c-8e21-e8bffefe823d"
-        },
-        "3f3fc5bf-dbbe-43cd-b383-beac49a8abee": {
-          "label": "Adjacent Themes",
-          "x": 131875,
-          "y": 17468,
-          "id": "3f3fc5bf-dbbe-43cd-b383-beac49a8abee"
-        },
-        "e64a0f29-7713-4b6b-8447-490cc6e48c19": {
-          "label": "Questions",
-          "x": 131625,
-          "y": 17593,
-          "id": "e64a0f29-7713-4b6b-8447-490cc6e48c19"
-        },
-        "8094ae3e-241e-4469-902b-7f6e23cbc408": {
-          "label": "Problems",
-          "x": 131625,
-          "y": 17693,
-          "id": "8094ae3e-241e-4469-902b-7f6e23cbc408"
-        },
-        "774100ef-7d9b-4f0f-abea-3ae60b14816c": {
-          "label": "Goals",
-          "x": 131625,
-          "y": 17793,
-          "id": "774100ef-7d9b-4f0f-abea-3ae60b14816c"
-        },
-        "6ce8e83a-c178-412d-9054-b40c65057288": {
-          "id": "6ce8e83a-c178-412d-9054-b40c65057288",
-          "x": 132127,
-          "y": 17246,
-          "label": "https://dblp.org/",
-          "shape": "box",
-          "link": "https://dblp.org/",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "3f37986e-04c9-43be-9148-fdd40512c2b1": {
-          "label": "Identifier\nschemes",
-          "x": 142829,
-          "y": 8562,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "3f37986e-04c9-43be-9148-fdd40512c2b1",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "61195348-ed3b-44c5-8b0e-18e77733651c": {
-          "label": "Development",
-          "x": 143503,
-          "y": 8958,
-          "id": "61195348-ed3b-44c5-8b0e-18e77733651c"
-        },
-        "12391135-6b6a-4350-8315-629421fcf8f7": {
-          "label": "11/16/2019",
-          "x": 143753,
-          "y": 8958,
-          "id": "12391135-6b6a-4350-8315-629421fcf8f7"
-        },
-        "e6893db8-d474-4e32-9169-10f847fb9a46": {
-          "label": "init",
-          "x": 143653,
-          "y": 8958,
-          "id": "e6893db8-d474-4e32-9169-10f847fb9a46"
-        },
-        "6c723b83-abbd-4ef1-8488-bfde2049d993": {
-          "label": "Notes",
-          "x": 143503,
-          "y": 8108,
-          "id": "6c723b83-abbd-4ef1-8488-bfde2049d993"
-        },
-        "5d531dae-af1b-4d54-88bb-187268a70941": {
-          "label": "Dictionary of\nconcepts",
-          "x": 143653,
-          "y": 7858,
-          "id": "5d531dae-af1b-4d54-88bb-187268a70941"
-        },
-        "4b78d9e9-29d1-4171-9641-4e5a134adf61": {
-          "label": "Details, thoughts",
-          "x": 143653,
-          "y": 8108,
-          "id": "4b78d9e9-29d1-4171-9641-4e5a134adf61"
-        },
-        "bd6169d2-5d49-4ab3-8073-22414d1ca51a": {
-          "label": "Sections",
-          "x": 143653,
-          "y": 8358,
-          "id": "bd6169d2-5d49-4ab3-8073-22414d1ca51a"
-        },
-        "cff60fb9-279c-4dd8-ae12-8e6a569b79e9": {
-          "label": "Books",
-          "x": 143717,
-          "y": 8208,
-          "id": "cff60fb9-279c-4dd8-ae12-8e6a569b79e9"
-        },
-        "f904e7fc-f599-43de-baac-c6b245a8d20d": {
-          "label": "R&D institutions",
-          "x": 143748,
-          "y": 8233,
-          "id": "f904e7fc-f599-43de-baac-c6b245a8d20d"
-        },
-        "20b35ffa-e1d8-4d74-8307-623d4c677f70": {
-          "label": "Sites",
-          "x": 143713,
-          "y": 8258,
-          "id": "20b35ffa-e1d8-4d74-8307-623d4c677f70"
-        },
-        "6d0298f7-6bd2-4d17-b010-27b535885c9e": {
-          "label": "Magazines",
-          "x": 143732,
-          "y": 8283,
-          "id": "6d0298f7-6bd2-4d17-b010-27b535885c9e"
-        },
-        "1fffb409-d244-4cb2-89e7-42be544dab4f": {
-          "label": "Articles",
-          "x": 143721,
-          "y": 8308,
-          "id": "1fffb409-d244-4cb2-89e7-42be544dab4f"
-        },
-        "53858a9e-97c3-4b83-85ea-9d3214c340aa": {
-          "label": "Media content",
-          "x": 143743,
-          "y": 8333,
-          "id": "53858a9e-97c3-4b83-85ea-9d3214c340aa"
-        },
-        "3d2ca4a1-1196-4ab3-9baa-c6c24a64720a": {
-          "label": "Misc. web links",
-          "x": 143745,
-          "y": 8358,
-          "id": "3d2ca4a1-1196-4ab3-9baa-c6c24a64720a"
-        },
-        "d9dc554e-b2c2-4972-bb9d-c6254de38927": {
-          "label": "Projects",
-          "x": 143723,
-          "y": 8383,
-          "id": "d9dc554e-b2c2-4972-bb9d-c6254de38927"
-        },
-        "f724cc44-5682-4a19-9477-f665f15cbe1a": {
-          "label": "Tools",
-          "x": 143715,
-          "y": 8408,
-          "id": "f724cc44-5682-4a19-9477-f665f15cbe1a"
-        },
-        "25e2fca0-ab0f-4dba-94d0-3db9c6b0df53": {
-          "label": "Organizations",
-          "x": 143742,
-          "y": 8433,
-          "id": "25e2fca0-ab0f-4dba-94d0-3db9c6b0df53"
-        },
-        "d9fae2a1-e6a5-4379-bccb-dc56f0eb64c6": {
-          "label": "Standarts",
-          "x": 143728,
-          "y": 8458,
-          "id": "d9fae2a1-e6a5-4379-bccb-dc56f0eb64c6"
-        },
-        "0086ceec-2914-4066-8c95-98b333a3a068": {
-          "label": "Forums, Groups",
-          "x": 143750,
-          "y": 8483,
-          "id": "0086ceec-2914-4066-8c95-98b333a3a068"
-        },
-        "e504a61e-11b2-4317-a60c-897aae131dfb": {
-          "label": "Laws",
-          "x": 143714,
-          "y": 8508,
-          "id": "e504a61e-11b2-4317-a60c-897aae131dfb"
-        },
-        "3697b658-380d-4ccd-9044-4dec70692cd0": {
-          "label": "Adjacent Themes",
-          "x": 143753,
-          "y": 8533,
-          "id": "3697b658-380d-4ccd-9044-4dec70692cd0"
-        },
-        "8dbbf0a9-24b4-48e0-85da-987030775653": {
-          "label": "Questions",
-          "x": 143503,
-          "y": 8658,
-          "id": "8dbbf0a9-24b4-48e0-85da-987030775653"
-        },
-        "6a5d19da-86a3-4ccb-91b7-8e35bd537d00": {
-          "label": "Problems",
-          "x": 143503,
-          "y": 8758,
-          "id": "6a5d19da-86a3-4ccb-91b7-8e35bd537d00"
-        },
-        "e5959cb4-dcbd-4783-b4c6-003dab736418": {
-          "label": "Goals",
-          "x": 143503,
-          "y": 8858,
-          "id": "e5959cb4-dcbd-4783-b4c6-003dab736418"
-        },
-        "a7c16c60-1960-4f85-bda2-d931517a931c": {
-          "label": "Scopus",
-          "x": 142893,
-          "y": 10644,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "a7c16c60-1960-4f85-bda2-d931517a931c",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "576631e7-d626-44ef-bedd-fca3382057cf": {
-          "label": "Development",
-          "x": 143193,
-          "y": 11094,
-          "id": "576631e7-d626-44ef-bedd-fca3382057cf"
-        },
-        "53145a45-8031-47d9-843f-1288e3c854d4": {
-          "label": "11/16/2019",
-          "x": 143443,
-          "y": 11094,
-          "id": "53145a45-8031-47d9-843f-1288e3c854d4"
-        },
-        "adf510cd-fa16-4e98-805f-8379ad33d90f": {
-          "label": "init",
-          "x": 143343,
-          "y": 11094,
-          "id": "adf510cd-fa16-4e98-805f-8379ad33d90f"
-        },
-        "3981fd80-249d-4bec-beef-0cbba2eff8ab": {
-          "label": "Notes",
-          "x": 143193,
-          "y": 10244,
-          "id": "3981fd80-249d-4bec-beef-0cbba2eff8ab"
-        },
-        "312531a5-f3f3-427f-8426-f71697d7bcc2": {
-          "label": "Dictionary of\nconcepts",
-          "x": 143343,
-          "y": 9994,
-          "id": "312531a5-f3f3-427f-8426-f71697d7bcc2"
-        },
-        "a4730ec3-6abf-487b-9a0d-5554ed55f25a": {
-          "label": "Details, thoughts",
-          "x": 143343,
-          "y": 10244,
-          "id": "a4730ec3-6abf-487b-9a0d-5554ed55f25a"
-        },
-        "42118606-8ca2-4c60-bae5-f7fa755f1aef": {
-          "label": "Sections",
-          "x": 143343,
-          "y": 10494,
-          "id": "42118606-8ca2-4c60-bae5-f7fa755f1aef"
-        },
-        "90e1d4ac-4130-4dd9-a36b-06ebbda128bf": {
-          "label": "Books",
-          "x": 143407,
-          "y": 10344,
-          "id": "90e1d4ac-4130-4dd9-a36b-06ebbda128bf"
-        },
-        "be42f1b6-785c-4237-8260-cbc299a7d4f0": {
-          "label": "R&D institutions",
-          "x": 143437,
-          "y": 10369,
-          "id": "be42f1b6-785c-4237-8260-cbc299a7d4f0"
-        },
-        "010388c3-d173-44cb-adb6-9a1149af1f6b": {
-          "label": "Sites",
-          "x": 143403,
-          "y": 10394,
-          "id": "010388c3-d173-44cb-adb6-9a1149af1f6b"
-        },
-        "3caa1683-9795-47c7-b51f-4e6a811e5d35": {
-          "label": "Magazines",
-          "x": 143422,
-          "y": 10419,
-          "id": "3caa1683-9795-47c7-b51f-4e6a811e5d35"
-        },
-        "3ce57f77-19f3-4f5b-8ae4-44608dc7944b": {
-          "label": "Articles",
-          "x": 143410,
-          "y": 10444,
-          "id": "3ce57f77-19f3-4f5b-8ae4-44608dc7944b"
-        },
-        "94cc329d-1334-4474-8d3e-1722bc89da71": {
-          "label": "Media content",
-          "x": 143432,
-          "y": 10469,
-          "id": "94cc329d-1334-4474-8d3e-1722bc89da71"
-        },
-        "45c48749-3839-4cdc-b4de-2e3b09567fb5": {
-          "label": "Misc. web links",
-          "x": 143435,
-          "y": 10494,
-          "id": "45c48749-3839-4cdc-b4de-2e3b09567fb5"
-        },
-        "a1f3281d-73a4-4a16-937c-e3640a2dd080": {
-          "label": "Projects",
-          "x": 143413,
-          "y": 10519,
-          "id": "a1f3281d-73a4-4a16-937c-e3640a2dd080"
-        },
-        "93db881d-3fba-499a-8f9d-8608eee45042": {
-          "label": "Tools",
-          "x": 143404,
-          "y": 10544,
-          "id": "93db881d-3fba-499a-8f9d-8608eee45042"
-        },
-        "d7a53775-e2e2-47aa-8c66-360934da0520": {
-          "label": "Organizations",
-          "x": 143431,
-          "y": 10569,
-          "id": "d7a53775-e2e2-47aa-8c66-360934da0520"
-        },
-        "00bd17ff-9da6-4d92-b7bd-a1a1333bcbc4": {
-          "label": "Standarts",
-          "x": 143418,
-          "y": 10594,
-          "id": "00bd17ff-9da6-4d92-b7bd-a1a1333bcbc4"
-        },
-        "d5fd240c-8ca3-474d-a188-74366c538695": {
-          "label": "Forums, Groups",
-          "x": 143439,
-          "y": 10619,
-          "id": "d5fd240c-8ca3-474d-a188-74366c538695"
-        },
-        "027deacf-1867-4c9e-8473-613beadf480c": {
-          "label": "Laws",
-          "x": 143404,
-          "y": 10644,
-          "id": "027deacf-1867-4c9e-8473-613beadf480c"
-        },
-        "6d0e2714-9839-42d1-a1ad-e76b2d6254cd": {
-          "label": "Adjacent Themes",
-          "x": 143443,
-          "y": 10669,
-          "id": "6d0e2714-9839-42d1-a1ad-e76b2d6254cd"
-        },
-        "3bc8c95a-77c0-4956-860d-235e4755bf94": {
-          "label": "Questions",
-          "x": 143193,
-          "y": 10794,
-          "id": "3bc8c95a-77c0-4956-860d-235e4755bf94"
-        },
-        "5f5fbfc5-2138-497a-98ec-0e576af3f88e": {
-          "label": "Problems",
-          "x": 143193,
-          "y": 10894,
-          "id": "5f5fbfc5-2138-497a-98ec-0e576af3f88e"
-        },
-        "c3e43ccd-5a67-40b7-bdf8-9696d33e4aa5": {
-          "label": "Goals",
-          "x": 143193,
-          "y": 10994,
-          "id": "c3e43ccd-5a67-40b7-bdf8-9696d33e4aa5"
-        },
-        "d2ec7412-951d-4dc3-b022-7c0aa39eab32": {
-          "label": "ISSN",
-          "x": 142981,
-          "y": 12926,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "d2ec7412-951d-4dc3-b022-7c0aa39eab32",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "216231c2-5a4b-4776-b1db-446ee7098212": {
-          "label": "Development",
-          "x": 143281,
-          "y": 13376,
-          "id": "216231c2-5a4b-4776-b1db-446ee7098212"
-        },
-        "28f6559e-3b3e-478d-bc92-36f3dd80d893": {
-          "label": "11/16/2019",
-          "x": 143531,
-          "y": 13376,
-          "id": "28f6559e-3b3e-478d-bc92-36f3dd80d893"
-        },
-        "2b767b93-dd88-481b-997c-b61766b0822a": {
-          "label": "init",
-          "x": 143431,
-          "y": 13376,
-          "id": "2b767b93-dd88-481b-997c-b61766b0822a"
-        },
-        "252bbce5-baf7-4d43-a6eb-fd5908fa0a55": {
-          "label": "Notes",
-          "x": 143281,
-          "y": 12526,
-          "id": "252bbce5-baf7-4d43-a6eb-fd5908fa0a55"
-        },
-        "e8b2056f-ecc0-41e8-af1a-5e5396f8a8d0": {
-          "label": "Dictionary of\nconcepts",
-          "x": 143431,
-          "y": 12276,
-          "id": "e8b2056f-ecc0-41e8-af1a-5e5396f8a8d0"
-        },
-        "cb66a849-3c14-48be-8370-67f563de42ab": {
-          "label": "Details, thoughts",
-          "x": 143431,
-          "y": 12526,
-          "id": "cb66a849-3c14-48be-8370-67f563de42ab"
-        },
-        "b0cc29bf-5ee2-45d7-b8ef-032b8c5de636": {
-          "label": "Sections",
-          "x": 143431,
-          "y": 12776,
-          "id": "b0cc29bf-5ee2-45d7-b8ef-032b8c5de636"
-        },
-        "014249e3-69a5-465c-a6f8-9ea05856ce3f": {
-          "label": "Books",
-          "x": 143495,
-          "y": 12626,
-          "id": "014249e3-69a5-465c-a6f8-9ea05856ce3f"
-        },
-        "a6217215-950c-455a-a0f4-7896bc47fa10": {
-          "label": "R&D institutions",
-          "x": 143526,
-          "y": 12651,
-          "id": "a6217215-950c-455a-a0f4-7896bc47fa10"
-        },
-        "ed3d96a5-1703-48df-8c78-781dad38f17f": {
-          "label": "Sites",
-          "x": 143491,
-          "y": 12676,
-          "id": "ed3d96a5-1703-48df-8c78-781dad38f17f"
-        },
-        "bd1c00c6-9b06-4aae-b69b-fc672c716ab5": {
-          "label": "Magazines",
-          "x": 143510,
-          "y": 12701,
-          "id": "bd1c00c6-9b06-4aae-b69b-fc672c716ab5"
-        },
-        "9c8d8dd4-d64e-45d6-ae15-54847c5319f7": {
-          "label": "Articles",
-          "x": 143499,
-          "y": 12726,
-          "id": "9c8d8dd4-d64e-45d6-ae15-54847c5319f7"
-        },
-        "c1836471-f5af-4421-bc86-eb856c3451b8": {
-          "label": "Media content",
-          "x": 143521,
-          "y": 12751,
-          "id": "c1836471-f5af-4421-bc86-eb856c3451b8"
-        },
-        "94d08276-0858-4b25-93e1-c2eee69e0af0": {
-          "label": "Misc. web links",
-          "x": 143523,
-          "y": 12776,
-          "id": "94d08276-0858-4b25-93e1-c2eee69e0af0"
-        },
-        "8cd7fcdc-dd96-4138-a0f4-1be889446c10": {
-          "label": "Projects",
-          "x": 143501,
-          "y": 12801,
-          "id": "8cd7fcdc-dd96-4138-a0f4-1be889446c10"
-        },
-        "7e50c528-41e6-48d7-8104-d19a2d09a823": {
-          "label": "Tools",
-          "x": 143492,
-          "y": 12826,
-          "id": "7e50c528-41e6-48d7-8104-d19a2d09a823"
-        },
-        "6d9e7692-38eb-4698-9b40-125887f811e1": {
-          "label": "Organizations",
-          "x": 143520,
-          "y": 12851,
-          "id": "6d9e7692-38eb-4698-9b40-125887f811e1"
-        },
-        "f9656f35-1774-42a2-98ed-9c5871fcda42": {
-          "label": "Standarts",
-          "x": 143506,
-          "y": 12876,
-          "id": "f9656f35-1774-42a2-98ed-9c5871fcda42"
-        },
-        "79f476b0-4eef-4898-8755-99f14e7e2f6d": {
-          "label": "Forums, Groups",
-          "x": 143528,
-          "y": 12901,
-          "id": "79f476b0-4eef-4898-8755-99f14e7e2f6d"
-        },
-        "79a7888f-9af7-4f08-8224-398054f2dca7": {
-          "label": "Laws",
-          "x": 143492,
-          "y": 12926,
-          "id": "79a7888f-9af7-4f08-8224-398054f2dca7"
-        },
-        "21af7534-3b7a-4f1f-8409-e6dcf733cb8c": {
-          "label": "Adjacent Themes",
-          "x": 143531,
-          "y": 12951,
-          "id": "21af7534-3b7a-4f1f-8409-e6dcf733cb8c"
-        },
-        "8b677b44-e670-425b-b689-9575a6ebe1b0": {
-          "label": "Questions",
-          "x": 143281,
-          "y": 13076,
-          "id": "8b677b44-e670-425b-b689-9575a6ebe1b0"
-        },
-        "34f8a044-ae82-4874-aced-0283e9ebe36b": {
-          "label": "Problems",
-          "x": 143281,
-          "y": 13176,
-          "id": "34f8a044-ae82-4874-aced-0283e9ebe36b"
-        },
-        "c88bd6f8-3d60-45ee-bd5b-55d84f67f117": {
-          "label": "Goals",
-          "x": 143281,
-          "y": 13276,
-          "id": "c88bd6f8-3d60-45ee-bd5b-55d84f67f117"
-        },
-        "c5ccee30-e431-49c7-ae7d-b7a0b62763d2": {
-          "label": "ISBN",
-          "x": 143032,
-          "y": 5960,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "c5ccee30-e431-49c7-ae7d-b7a0b62763d2",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "78daf658-daad-4f51-91f4-99d70764e4a0": {
-          "label": "Development",
-          "x": 143331,
-          "y": 6410,
-          "id": "78daf658-daad-4f51-91f4-99d70764e4a0"
-        },
-        "72746d97-9a69-49f0-8ca1-3471101f21c6": {
-          "label": "11/16/2019",
-          "x": 143581,
-          "y": 6410,
-          "id": "72746d97-9a69-49f0-8ca1-3471101f21c6"
-        },
-        "f7a9be7a-b851-4d9e-8bf6-a9e54ddeb245": {
-          "label": "init",
-          "x": 143481,
-          "y": 6410,
-          "id": "f7a9be7a-b851-4d9e-8bf6-a9e54ddeb245"
-        },
-        "07b614c6-ec6d-496c-a172-08cb04d9f889": {
-          "label": "Notes",
-          "x": 143331,
-          "y": 5560,
-          "id": "07b614c6-ec6d-496c-a172-08cb04d9f889"
-        },
-        "b1712159-0040-489f-9518-327039d9f9f2": {
-          "label": "Dictionary of\nconcepts",
-          "x": 143481,
-          "y": 5310,
-          "id": "b1712159-0040-489f-9518-327039d9f9f2"
-        },
-        "0bfd3bb2-15d0-4c02-ac5a-9175c944e269": {
-          "label": "Details, thoughts",
-          "x": 143481,
-          "y": 5560,
-          "id": "0bfd3bb2-15d0-4c02-ac5a-9175c944e269"
-        },
-        "c699103c-dfe8-4af9-8057-709571c94d2e": {
-          "label": "Sections",
-          "x": 143481,
-          "y": 5810,
-          "id": "c699103c-dfe8-4af9-8057-709571c94d2e"
-        },
-        "cf4a2ef9-bd18-4f0f-9fd7-a58aa98abf99": {
-          "label": "Books",
-          "x": 143545,
-          "y": 5660,
-          "id": "cf4a2ef9-bd18-4f0f-9fd7-a58aa98abf99"
-        },
-        "cac2d0f8-c098-4930-98e7-a0e1d452a3cf": {
-          "label": "R&D institutions",
-          "x": 143576,
-          "y": 5685,
-          "id": "cac2d0f8-c098-4930-98e7-a0e1d452a3cf"
-        },
-        "4d677e6c-b04d-4e35-9ca8-3ea8eb9113a5": {
-          "label": "Sites",
-          "x": 143541,
-          "y": 5710,
-          "id": "4d677e6c-b04d-4e35-9ca8-3ea8eb9113a5"
-        },
-        "a1c6fdab-d531-4913-b69f-bdd8e1c31a28": {
-          "label": "Magazines",
-          "x": 143560,
-          "y": 5735,
-          "id": "a1c6fdab-d531-4913-b69f-bdd8e1c31a28"
-        },
-        "5dec6887-ba92-4f3f-9dcc-b31de27df521": {
-          "label": "Articles",
-          "x": 143549,
-          "y": 5760,
-          "id": "5dec6887-ba92-4f3f-9dcc-b31de27df521"
-        },
-        "c7848ea6-c88d-4b62-b2e7-88ba8edbcce1": {
-          "label": "Media content",
-          "x": 143571,
-          "y": 5785,
-          "id": "c7848ea6-c88d-4b62-b2e7-88ba8edbcce1"
-        },
-        "2fdc2788-11ce-4595-b082-e303fafadbdf": {
-          "label": "Misc. web links",
-          "x": 143573,
-          "y": 5810,
-          "id": "2fdc2788-11ce-4595-b082-e303fafadbdf"
-        },
-        "9b81af91-3e24-4fd5-a9c6-60b827e3e3f2": {
-          "label": "Projects",
-          "x": 143551,
-          "y": 5835,
-          "id": "9b81af91-3e24-4fd5-a9c6-60b827e3e3f2"
-        },
-        "b21c4840-a3f9-4773-8811-17bf577b445f": {
-          "label": "Tools",
-          "x": 143542,
-          "y": 5860,
-          "id": "b21c4840-a3f9-4773-8811-17bf577b445f"
-        },
-        "afb215ef-787e-464d-bffc-5d3380e0a810": {
-          "label": "Organizations",
-          "x": 143570,
-          "y": 5885,
-          "id": "afb215ef-787e-464d-bffc-5d3380e0a810"
-        },
-        "37123f37-225f-41d7-bfd6-4acfb463e5a8": {
-          "label": "Standarts",
-          "x": 143556,
-          "y": 5910,
-          "id": "37123f37-225f-41d7-bfd6-4acfb463e5a8"
-        },
-        "4edea5a8-ccdd-47c8-9bbc-97d0203cb5d9": {
-          "label": "Forums, Groups",
-          "x": 143578,
-          "y": 5935,
-          "id": "4edea5a8-ccdd-47c8-9bbc-97d0203cb5d9"
-        },
-        "8e8ee60f-c254-4458-9189-c9a0434c1db1": {
-          "label": "Laws",
-          "x": 143542,
-          "y": 5960,
-          "id": "8e8ee60f-c254-4458-9189-c9a0434c1db1"
-        },
-        "3887aeab-6311-49fc-a0c3-dab29a701686": {
-          "label": "Adjacent Themes",
-          "x": 143581,
-          "y": 5985,
-          "id": "3887aeab-6311-49fc-a0c3-dab29a701686"
-        },
-        "f875e2b4-24e4-43cf-a150-f6c3da92e9cb": {
-          "label": "Questions",
-          "x": 143331,
-          "y": 6110,
-          "id": "f875e2b4-24e4-43cf-a150-f6c3da92e9cb"
-        },
-        "c7711d96-8f07-4c7d-ba32-010d1fbd2b65": {
-          "label": "Problems",
-          "x": 143331,
-          "y": 6210,
-          "id": "c7711d96-8f07-4c7d-ba32-010d1fbd2b65"
-        },
-        "295d0a03-dfa8-45ad-b30c-4e6594883826": {
-          "label": "Goals",
-          "x": 143331,
-          "y": 6310,
-          "id": "295d0a03-dfa8-45ad-b30c-4e6594883826"
-        },
-        "949dc90a-a158-4c59-acac-33e0ffff809d": {
-          "label": "ArXiv",
-          "x": 131446,
-          "y": 15162,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "949dc90a-a158-4c59-acac-33e0ffff809d",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "dc15ffe0-a00c-4ceb-8d9a-07b56210c0cb": {
-          "label": "Development",
-          "x": 131746,
-          "y": 15612,
-          "id": "dc15ffe0-a00c-4ceb-8d9a-07b56210c0cb"
-        },
-        "1250fba5-488f-47c1-9b57-d9f9a37fe5c9": {
-          "label": "11/16/2019",
-          "x": 131996,
-          "y": 15612,
-          "id": "1250fba5-488f-47c1-9b57-d9f9a37fe5c9"
-        },
-        "de20597b-47ca-4530-bb26-3b323c3997de": {
-          "label": "init",
-          "x": 131896,
-          "y": 15612,
-          "id": "de20597b-47ca-4530-bb26-3b323c3997de"
-        },
-        "a79f82ea-d677-4fc5-8d7a-edea16a3534a": {
-          "label": "Notes",
-          "x": 131746,
-          "y": 14762,
-          "id": "a79f82ea-d677-4fc5-8d7a-edea16a3534a"
-        },
-        "77e3861f-bbce-4062-99a9-3f4d1a4a75a2": {
-          "label": "Dictionary of\nconcepts",
-          "x": 131896,
-          "y": 14512,
-          "id": "77e3861f-bbce-4062-99a9-3f4d1a4a75a2"
-        },
-        "de5e5acf-74c4-4522-8117-2aaac8447f34": {
-          "label": "Details, thoughts",
-          "x": 131896,
-          "y": 14762,
-          "id": "de5e5acf-74c4-4522-8117-2aaac8447f34"
-        },
-        "bfbbaf80-d36f-4ce5-9fc1-ac33527b18f5": {
-          "label": "Sections",
-          "x": 131896,
-          "y": 15012,
-          "id": "bfbbaf80-d36f-4ce5-9fc1-ac33527b18f5"
-        },
-        "28efbee1-a556-4034-95bc-7956bd728761": {
-          "label": "Books",
-          "x": 131960,
-          "y": 14862,
-          "id": "28efbee1-a556-4034-95bc-7956bd728761"
-        },
-        "12e96c3b-c775-47bf-b363-1df77f58cc9a": {
-          "label": "R&D institutions",
-          "x": 131991,
-          "y": 14887,
-          "id": "12e96c3b-c775-47bf-b363-1df77f58cc9a"
-        },
-        "32ba02b2-d764-4b43-9a14-42e27b645152": {
-          "label": "Sites",
-          "x": 131956,
-          "y": 14912,
-          "id": "32ba02b2-d764-4b43-9a14-42e27b645152"
-        },
-        "548488a6-1b4e-4396-b87a-6effdcfb80a0": {
-          "label": "Magazines",
-          "x": 131975,
-          "y": 14937,
-          "id": "548488a6-1b4e-4396-b87a-6effdcfb80a0"
-        },
-        "90520ecd-96d3-43d6-8718-8298eca04bbf": {
-          "label": "Articles",
-          "x": 131964,
-          "y": 14962,
-          "id": "90520ecd-96d3-43d6-8718-8298eca04bbf"
-        },
-        "edac2408-0162-4da4-a96b-7da4008f1890": {
-          "label": "Media content",
-          "x": 131986,
-          "y": 14987,
-          "id": "edac2408-0162-4da4-a96b-7da4008f1890"
-        },
-        "142cc082-fdc0-4725-b620-bdeb9605cb08": {
-          "label": "Misc. web links",
-          "x": 131988,
-          "y": 15012,
-          "id": "142cc082-fdc0-4725-b620-bdeb9605cb08"
-        },
-        "6586197a-1562-4a62-94c9-7cd5ac2dd7d5": {
-          "label": "Projects",
-          "x": 131966,
-          "y": 15037,
-          "id": "6586197a-1562-4a62-94c9-7cd5ac2dd7d5"
-        },
-        "248bc929-1b9e-44dc-8f5c-b3cc5204cb97": {
-          "label": "Tools",
-          "x": 131957,
-          "y": 15062,
-          "id": "248bc929-1b9e-44dc-8f5c-b3cc5204cb97"
-        },
-        "5d9ff32d-5bf0-424f-ac05-2d9a8dc10d38": {
-          "label": "Organizations",
-          "x": 131985,
-          "y": 15087,
-          "id": "5d9ff32d-5bf0-424f-ac05-2d9a8dc10d38"
-        },
-        "21fa180f-6a90-4d4d-aff0-8ffe6f768647": {
-          "label": "Standarts",
-          "x": 131971,
-          "y": 15112,
-          "id": "21fa180f-6a90-4d4d-aff0-8ffe6f768647"
-        },
-        "4f089c0b-9a40-47be-b766-c892e7406f8d": {
-          "label": "Forums, Groups",
-          "x": 131993,
-          "y": 15137,
-          "id": "4f089c0b-9a40-47be-b766-c892e7406f8d"
-        },
-        "05099b2d-c889-4151-9f1f-21a96b7b9d4c": {
-          "label": "Laws",
-          "x": 131957,
-          "y": 15162,
-          "id": "05099b2d-c889-4151-9f1f-21a96b7b9d4c"
-        },
-        "e99e991f-a9d1-41d3-b853-e3b4b425ecaa": {
-          "label": "Adjacent Themes",
-          "x": 131996,
-          "y": 15187,
-          "id": "e99e991f-a9d1-41d3-b853-e3b4b425ecaa"
-        },
-        "6fb2556a-52bf-4f5b-8b6a-bca856a909a6": {
-          "label": "Questions",
-          "x": 131746,
-          "y": 15312,
-          "id": "6fb2556a-52bf-4f5b-8b6a-bca856a909a6"
-        },
-        "d064976e-6226-4cdd-be6c-564309f462f5": {
-          "label": "Problems",
-          "x": 131746,
-          "y": 15412,
-          "id": "d064976e-6226-4cdd-be6c-564309f462f5"
-        },
-        "6cb186c5-9282-4148-aed0-f78b348997cd": {
-          "label": "Goals",
-          "x": 131746,
-          "y": 15512,
-          "id": "6cb186c5-9282-4148-aed0-f78b348997cd"
-        },
-        "05d95b5b-2d89-4b8c-8278-01a4316575e3": {
-          "label": "PubMed",
-          "x": 142868,
-          "y": 1833,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "05d95b5b-2d89-4b8c-8278-01a4316575e3",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "4dca00a2-1f6f-48ba-8d5e-6a21719dab3f": {
-          "label": "Development",
-          "x": 143168,
-          "y": 2283,
-          "id": "4dca00a2-1f6f-48ba-8d5e-6a21719dab3f"
-        },
-        "9d3b229d-2781-4843-9bda-96a70fbc726e": {
-          "label": "11/16/2019",
-          "x": 143418,
-          "y": 2283,
-          "id": "9d3b229d-2781-4843-9bda-96a70fbc726e"
-        },
-        "e6486e81-76eb-407e-892b-23dec2c95356": {
-          "label": "init",
-          "x": 143318,
-          "y": 2283,
-          "id": "e6486e81-76eb-407e-892b-23dec2c95356"
-        },
-        "8f1f008e-d06b-4534-8a77-52817b16afa0": {
-          "label": "Notes",
-          "x": 143168,
-          "y": 1433,
-          "id": "8f1f008e-d06b-4534-8a77-52817b16afa0"
-        },
-        "2de165c8-9df2-4978-a4f6-0134e620331b": {
-          "label": "Dictionary of\nconcepts",
-          "x": 143318,
-          "y": 1183,
-          "id": "2de165c8-9df2-4978-a4f6-0134e620331b"
-        },
-        "3a0d331c-eccc-4ee5-a696-1fa76723cb41": {
-          "label": "Details, thoughts",
-          "x": 143318,
-          "y": 1433,
-          "id": "3a0d331c-eccc-4ee5-a696-1fa76723cb41"
-        },
-        "d9a5e0ad-f570-4ba6-936b-ab20d63afe25": {
-          "label": "Sections",
-          "x": 143318,
-          "y": 1683,
-          "id": "d9a5e0ad-f570-4ba6-936b-ab20d63afe25"
-        },
-        "84717e59-dcf7-4a2a-88fe-99a37dc7b2b3": {
-          "label": "Books",
-          "x": 143382,
-          "y": 1533,
-          "id": "84717e59-dcf7-4a2a-88fe-99a37dc7b2b3"
-        },
-        "be1c0b33-4579-4f8b-a227-f4928a2b8c9d": {
-          "label": "R&D institutions",
-          "x": 143413,
-          "y": 1558,
-          "id": "be1c0b33-4579-4f8b-a227-f4928a2b8c9d"
-        },
-        "93f1f62d-cd20-4d99-acd0-8bfc683e715d": {
-          "label": "Sites",
-          "x": 143378,
-          "y": 1583,
-          "id": "93f1f62d-cd20-4d99-acd0-8bfc683e715d"
-        },
-        "4970786d-d150-4b0e-a509-367d678328d2": {
-          "label": "Magazines",
-          "x": 143397,
-          "y": 1608,
-          "id": "4970786d-d150-4b0e-a509-367d678328d2"
-        },
-        "7556ff0e-d9b0-4371-99df-e940b3e826fb": {
-          "label": "Articles",
-          "x": 143386,
-          "y": 1633,
-          "id": "7556ff0e-d9b0-4371-99df-e940b3e826fb"
-        },
-        "03305a2e-5836-475d-a372-f440f5692129": {
-          "label": "Media content",
-          "x": 143408,
-          "y": 1658,
-          "id": "03305a2e-5836-475d-a372-f440f5692129"
-        },
-        "391530fb-7bf1-4df7-b206-528dceaf42c5": {
-          "label": "Misc. web links",
-          "x": 143410,
-          "y": 1683,
-          "id": "391530fb-7bf1-4df7-b206-528dceaf42c5"
-        },
-        "19dd66ff-1e95-4153-a8f1-218a1f94ed2d": {
-          "label": "Projects",
-          "x": 143388,
-          "y": 1708,
-          "id": "19dd66ff-1e95-4153-a8f1-218a1f94ed2d"
-        },
-        "aa7c0398-7230-4c02-9928-f663b2078a86": {
-          "label": "Tools",
-          "x": 143380,
-          "y": 1733,
-          "id": "aa7c0398-7230-4c02-9928-f663b2078a86"
-        },
-        "f83a96e0-eaef-47bf-a672-11bb0850026c": {
-          "label": "Organizations",
-          "x": 143407,
-          "y": 1758,
-          "id": "f83a96e0-eaef-47bf-a672-11bb0850026c"
-        },
-        "65f89882-e2ea-44d8-9d9c-8400ea0225d2": {
-          "label": "Standarts",
-          "x": 143393,
-          "y": 1783,
-          "id": "65f89882-e2ea-44d8-9d9c-8400ea0225d2"
-        },
-        "3d116944-2aed-4c9a-8f05-d1fc66a10419": {
-          "label": "Forums, Groups",
-          "x": 143415,
-          "y": 1808,
-          "id": "3d116944-2aed-4c9a-8f05-d1fc66a10419"
-        },
-        "fb34823b-9d92-48a3-9061-5002254d7209": {
-          "label": "Laws",
-          "x": 143379,
-          "y": 1833,
-          "id": "fb34823b-9d92-48a3-9061-5002254d7209"
-        },
-        "b399e1eb-3b01-41b5-8ef2-c8c6e10b176d": {
-          "label": "Adjacent Themes",
-          "x": 143418,
-          "y": 1858,
-          "id": "b399e1eb-3b01-41b5-8ef2-c8c6e10b176d"
-        },
-        "98f7ce0d-fc3d-4a22-ada2-f3b31fafd7fa": {
-          "label": "Questions",
-          "x": 143168,
-          "y": 1983,
-          "id": "98f7ce0d-fc3d-4a22-ada2-f3b31fafd7fa"
-        },
-        "ba7ea102-add4-4725-9e68-e1ef4cffa580": {
-          "label": "Problems",
-          "x": 143168,
-          "y": 2083,
-          "id": "ba7ea102-add4-4725-9e68-e1ef4cffa580"
-        },
-        "4a9eac1e-a886-48f6-a042-8ef05f882118": {
-          "label": "Goals",
-          "x": 143168,
-          "y": 2183,
-          "id": "4a9eac1e-a886-48f6-a042-8ef05f882118"
-        },
-        "ba8a6080-6ce2-4999-bbff-27717adede01": {
-          "label": "Bibliographic\nfile formats",
-          "x": 131337,
-          "y": -675,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "ba8a6080-6ce2-4999-bbff-27717adede01",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "0119a5f0-933c-4471-a341-e2f133f83dea": {
-          "label": "Development",
-          "x": 131637,
-          "y": -225,
-          "id": "0119a5f0-933c-4471-a341-e2f133f83dea"
-        },
-        "cb20fa88-8c7b-4166-855a-0a9fa45fc13e": {
-          "label": "11/16/2019",
-          "x": 131887,
-          "y": -225,
-          "id": "cb20fa88-8c7b-4166-855a-0a9fa45fc13e"
-        },
-        "f536fef0-a6ea-4a00-85c8-f454457a89e8": {
-          "label": "init",
-          "x": 131787,
-          "y": -225,
-          "id": "f536fef0-a6ea-4a00-85c8-f454457a89e8"
-        },
-        "b2de88d0-4902-4159-86bb-44dd7a1b57b2": {
-          "label": "Notes",
-          "x": 131637,
-          "y": -1075,
-          "id": "b2de88d0-4902-4159-86bb-44dd7a1b57b2"
-        },
-        "44f714e0-7b32-4165-a6ba-8837c7f84df1": {
-          "label": "Dictionary of\nconcepts",
-          "x": 131787,
-          "y": -1325,
-          "id": "44f714e0-7b32-4165-a6ba-8837c7f84df1"
-        },
-        "d7d76db8-91c0-4c2d-aa80-90e0864a6db2": {
-          "label": "Details, thoughts",
-          "x": 131787,
-          "y": -1075,
-          "id": "d7d76db8-91c0-4c2d-aa80-90e0864a6db2"
-        },
-        "c12bb7e5-2a1a-48d3-bf53-9e83ab6cefe9": {
-          "label": "Sections",
-          "x": 131787,
-          "y": -825,
-          "id": "c12bb7e5-2a1a-48d3-bf53-9e83ab6cefe9"
-        },
-        "1a6fc9cf-f891-4a03-ad50-0dcfc91f60cd": {
-          "label": "Books",
-          "x": 131851,
-          "y": -975,
-          "id": "1a6fc9cf-f891-4a03-ad50-0dcfc91f60cd"
-        },
-        "b1661226-9001-45bd-a316-3feb5ea708f1": {
-          "label": "R&D institutions",
-          "x": 131881,
-          "y": -950,
-          "id": "b1661226-9001-45bd-a316-3feb5ea708f1"
-        },
-        "5f160df3-3984-4a3c-9609-f12d4d6dd836": {
-          "label": "Sites",
-          "x": 131847,
-          "y": -925,
-          "id": "5f160df3-3984-4a3c-9609-f12d4d6dd836"
-        },
-        "f93b8ef7-e6cc-4b4c-be26-4162cceaa349": {
-          "label": "Magazines",
-          "x": 131866,
-          "y": -900,
-          "id": "f93b8ef7-e6cc-4b4c-be26-4162cceaa349"
-        },
-        "8260b1f0-cb91-4aa1-b9ec-3bf47cf64981": {
-          "label": "Articles",
-          "x": 131854,
-          "y": -875,
-          "id": "8260b1f0-cb91-4aa1-b9ec-3bf47cf64981"
-        },
-        "80425f4b-3bf6-4a5c-807c-64a598d3734c": {
-          "label": "Media content",
-          "x": 131876,
-          "y": -850,
-          "id": "80425f4b-3bf6-4a5c-807c-64a598d3734c"
-        },
-        "3699ca7a-8758-4255-ab43-3e7a287587ff": {
-          "label": "Misc. web links",
-          "x": 131879,
-          "y": -825,
-          "id": "3699ca7a-8758-4255-ab43-3e7a287587ff"
-        },
-        "67c94dff-d40e-483b-b11e-2cced9f6574c": {
-          "label": "Projects",
-          "x": 131857,
-          "y": -800,
-          "id": "67c94dff-d40e-483b-b11e-2cced9f6574c"
-        },
-        "b1a11d0e-74d0-409f-a174-0823f0f06c31": {
-          "label": "Tools",
-          "x": 131848,
-          "y": -775,
-          "id": "b1a11d0e-74d0-409f-a174-0823f0f06c31"
-        },
-        "e790c3ed-9431-4679-8861-bde0e95642a3": {
-          "label": "Organizations",
-          "x": 131875,
-          "y": -750,
-          "id": "e790c3ed-9431-4679-8861-bde0e95642a3"
-        },
-        "f8baaab6-f457-4819-a368-e391b315d5bf": {
-          "label": "Standarts",
-          "x": 131862,
-          "y": -725,
-          "id": "f8baaab6-f457-4819-a368-e391b315d5bf"
-        },
-        "4fbec3de-25ae-401b-9d7b-1a21b7e8cf07": {
-          "label": "Forums, Groups",
-          "x": 131883,
-          "y": -700,
-          "id": "4fbec3de-25ae-401b-9d7b-1a21b7e8cf07"
-        },
-        "8a3b9864-7ce4-46a3-bb2d-b8e8b093f54f": {
-          "label": "Laws",
-          "x": 131848,
-          "y": -675,
-          "id": "8a3b9864-7ce4-46a3-bb2d-b8e8b093f54f"
-        },
-        "84244c0f-5ef8-41b2-9554-9b420453ea18": {
-          "label": "Adjacent Themes",
-          "x": 131887,
-          "y": -650,
-          "id": "84244c0f-5ef8-41b2-9554-9b420453ea18"
-        },
-        "6970ebef-5d17-4a58-ab1b-12ddb6125054": {
-          "label": "Questions",
-          "x": 131637,
-          "y": -525,
-          "id": "6970ebef-5d17-4a58-ab1b-12ddb6125054"
-        },
-        "ba0fce81-4021-457c-be73-c9611118e320": {
-          "label": "Problems",
-          "x": 131637,
-          "y": -425,
-          "id": "ba0fce81-4021-457c-be73-c9611118e320"
-        },
-        "03f5a16d-59b2-4784-89ec-2e236b8e3ee3": {
-          "label": "Goals",
-          "x": 131637,
-          "y": -325,
-          "id": "03f5a16d-59b2-4784-89ec-2e236b8e3ee3"
-        },
-        "f4e64383-250f-4ee3-be7e-301ac977dd78": {
-          "id": "f4e64383-250f-4ee3-be7e-301ac977dd78",
-          "x": 132004,
-          "y": -1403,
-          "label": "List"
-        },
-        "64509484-e5a2-4487-b532-0b858ed2a123": {
-          "label": "Open-access\narchives",
-          "x": 131150,
-          "y": -3108,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "64509484-e5a2-4487-b532-0b858ed2a123",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "3cceb6d0-2a0b-42e2-866b-d0a2dabec675": {
-          "label": "Development",
-          "x": 131695,
-          "y": -2661,
-          "id": "3cceb6d0-2a0b-42e2-866b-d0a2dabec675"
-        },
-        "7b3bb8fc-78ed-43fb-adcd-76ae5bc62aeb": {
-          "label": "11/16/2019",
-          "x": 131945,
-          "y": -2661,
-          "id": "7b3bb8fc-78ed-43fb-adcd-76ae5bc62aeb"
-        },
-        "f899a7a0-1139-4f28-bbea-7cb8de7f07f0": {
-          "label": "init",
-          "x": 131845,
-          "y": -2661,
-          "id": "f899a7a0-1139-4f28-bbea-7cb8de7f07f0"
-        },
-        "756b6944-a79e-43db-9698-133c649b08a8": {
-          "label": "Notes",
-          "x": 131695,
-          "y": -3511,
-          "id": "756b6944-a79e-43db-9698-133c649b08a8"
-        },
-        "b0fba484-6bf4-47f5-9da2-659333b9152a": {
-          "label": "Dictionary of\nconcepts",
-          "x": 131845,
-          "y": -3761,
-          "id": "b0fba484-6bf4-47f5-9da2-659333b9152a"
-        },
-        "939aa5b7-56fc-4e2c-9635-aba93f25aa3a": {
-          "label": "Details, thoughts",
-          "x": 131845,
-          "y": -3511,
-          "id": "939aa5b7-56fc-4e2c-9635-aba93f25aa3a"
-        },
-        "cdbd1bfb-d7fa-4f38-bcd3-ff38738d96b4": {
-          "label": "Sections",
-          "x": 131845,
-          "y": -3261,
-          "id": "cdbd1bfb-d7fa-4f38-bcd3-ff38738d96b4"
-        },
-        "73c7b7ed-e79c-491d-afe4-802a0655e364": {
-          "label": "Books",
-          "x": 131909,
-          "y": -3411,
-          "id": "73c7b7ed-e79c-491d-afe4-802a0655e364"
-        },
-        "8cb5edaf-725e-41dd-bcd3-65e8748c2638": {
-          "label": "R&D institutions",
-          "x": 131939,
-          "y": -3386,
-          "id": "8cb5edaf-725e-41dd-bcd3-65e8748c2638"
-        },
-        "2dd57c44-51bb-4020-83bd-24eb72e9eb76": {
-          "label": "Sites",
-          "x": 131905,
-          "y": -3361,
-          "id": "2dd57c44-51bb-4020-83bd-24eb72e9eb76"
-        },
-        "17a585be-75c3-481b-815a-713b4c608bca": {
-          "label": "Magazines",
-          "x": 131924,
-          "y": -3336,
-          "id": "17a585be-75c3-481b-815a-713b4c608bca"
-        },
-        "e201eef2-fe79-4640-949f-ecf46706a460": {
-          "label": "Articles",
-          "x": 131912,
-          "y": -3311,
-          "id": "e201eef2-fe79-4640-949f-ecf46706a460"
-        },
-        "e3d418fd-d4cf-40e0-b7be-8636cee37d5f": {
-          "label": "Media content",
-          "x": 131934,
-          "y": -3286,
-          "id": "e3d418fd-d4cf-40e0-b7be-8636cee37d5f"
-        },
-        "8e78b4ee-d68c-48bc-a121-07d7888a4975": {
-          "label": "Misc. web links",
-          "x": 131937,
-          "y": -3261,
-          "id": "8e78b4ee-d68c-48bc-a121-07d7888a4975"
-        },
-        "b3e37e18-49e6-4031-8c3a-c9a5f6ed788f": {
-          "label": "Projects",
-          "x": 131915,
-          "y": -3236,
-          "id": "b3e37e18-49e6-4031-8c3a-c9a5f6ed788f"
-        },
-        "0a155e63-e4ff-4b81-9f2a-57437f580e33": {
-          "label": "Tools",
-          "x": 131906,
-          "y": -3211,
-          "id": "0a155e63-e4ff-4b81-9f2a-57437f580e33"
-        },
-        "c5c55534-bee2-47f7-90ac-db414924e813": {
-          "label": "Organizations",
-          "x": 131933,
-          "y": -3186,
-          "id": "c5c55534-bee2-47f7-90ac-db414924e813"
-        },
-        "a20102e3-b04b-4c8d-9189-4b13de1908af": {
-          "label": "Standarts",
-          "x": 131920,
-          "y": -3161,
-          "id": "a20102e3-b04b-4c8d-9189-4b13de1908af"
-        },
-        "ec7c8297-3930-49d1-aa2c-88499bce0587": {
-          "label": "Forums, Groups",
-          "x": 131941,
-          "y": -3136,
-          "id": "ec7c8297-3930-49d1-aa2c-88499bce0587"
-        },
-        "978791ce-f360-4f3e-99b6-6d4b9644e316": {
-          "label": "Laws",
-          "x": 131906,
-          "y": -3111,
-          "id": "978791ce-f360-4f3e-99b6-6d4b9644e316"
-        },
-        "22176203-8b86-41c0-bd19-4b53689219ad": {
-          "label": "Adjacent Themes",
-          "x": 131945,
-          "y": -3086,
-          "id": "22176203-8b86-41c0-bd19-4b53689219ad"
-        },
-        "6ee1e8dd-5158-4f36-b67f-6c03f64c73e8": {
-          "label": "Questions",
-          "x": 131695,
-          "y": -2961,
-          "id": "6ee1e8dd-5158-4f36-b67f-6c03f64c73e8"
-        },
-        "12181864-ab73-4bc5-a749-81ed2e35c9f9": {
-          "label": "Problems",
-          "x": 131695,
-          "y": -2861,
-          "id": "12181864-ab73-4bc5-a749-81ed2e35c9f9"
-        },
-        "267f7b0c-f09f-4035-80ab-ac19a0a60331": {
-          "label": "Goals",
-          "x": 131695,
-          "y": -2761,
-          "id": "267f7b0c-f09f-4035-80ab-ac19a0a60331"
-        },
-        "d70eeefb-a184-448a-929c-56ffea58ee95": {
-          "id": "d70eeefb-a184-448a-929c-56ffea58ee95",
-          "x": 132147,
-          "y": -3787,
-          "label": "Category:Open-access_archives"
-        },
-        "7fc701b1-2486-4cbc-9fe8-2f246f6e804f": {
-          "label": "Scholarly search\nservices",
-          "x": 131633,
-          "y": 1203,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "7fc701b1-2486-4cbc-9fe8-2f246f6e804f",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "f16a66af-0460-45ef-8209-548110ec3621": {
-          "label": "Development",
-          "x": 132347,
-          "y": 1617,
-          "id": "f16a66af-0460-45ef-8209-548110ec3621"
-        },
-        "4eb1505a-9733-4d4f-a9ae-84eae348fd9b": {
-          "label": "11/16/2019",
-          "x": 132597,
-          "y": 1617,
-          "id": "4eb1505a-9733-4d4f-a9ae-84eae348fd9b"
-        },
-        "2996e9a3-52de-4a25-81a4-aa96e93109a3": {
-          "label": "init",
-          "x": 132497,
-          "y": 1617,
-          "id": "2996e9a3-52de-4a25-81a4-aa96e93109a3"
-        },
-        "34a3c80d-d11f-41dd-9a24-4739ee65c260": {
-          "label": "Notes",
-          "x": 132347,
-          "y": 767,
-          "id": "34a3c80d-d11f-41dd-9a24-4739ee65c260"
-        },
-        "6c837a84-e0d2-45f8-8e07-e2c1fffcf6a0": {
-          "label": "Dictionary of\nconcepts",
-          "x": 132497,
-          "y": 517,
-          "id": "6c837a84-e0d2-45f8-8e07-e2c1fffcf6a0"
-        },
-        "b77abb42-977a-4d11-94de-0503152175ff": {
-          "label": "Details, thoughts",
-          "x": 132497,
-          "y": 767,
-          "id": "b77abb42-977a-4d11-94de-0503152175ff"
-        },
-        "4b98327c-7f61-4eab-8f8b-8c3be7f1df98": {
-          "label": "Sections",
-          "x": 132497,
-          "y": 1017,
-          "id": "4b98327c-7f61-4eab-8f8b-8c3be7f1df98"
-        },
-        "0909cca9-75e6-470f-8d69-f25dacf51e6b": {
-          "label": "Books",
-          "x": 132561,
-          "y": 867,
-          "id": "0909cca9-75e6-470f-8d69-f25dacf51e6b"
-        },
-        "8b884483-4366-4eb8-8a36-044fe4c2c42d": {
-          "label": "R&D institutions",
-          "x": 132592,
-          "y": 892,
-          "id": "8b884483-4366-4eb8-8a36-044fe4c2c42d"
-        },
-        "98e8c96c-a970-4bca-b269-12b071b2b4bc": {
-          "label": "Sites",
-          "x": 132557,
-          "y": 917,
-          "id": "98e8c96c-a970-4bca-b269-12b071b2b4bc"
-        },
-        "4faf528a-bd14-4800-9d83-ff9ba37ae105": {
-          "label": "Magazines",
-          "x": 132576,
-          "y": 942,
-          "id": "4faf528a-bd14-4800-9d83-ff9ba37ae105"
-        },
-        "1dfb04ef-ca57-44d4-b9c6-8021b4094929": {
-          "label": "Articles",
-          "x": 132565,
-          "y": 967,
-          "id": "1dfb04ef-ca57-44d4-b9c6-8021b4094929"
-        },
-        "988d70be-c88b-4115-806a-b95ff02d21c5": {
-          "label": "Media content",
-          "x": 132587,
-          "y": 992,
-          "id": "988d70be-c88b-4115-806a-b95ff02d21c5"
-        },
-        "89bb4a1c-2681-411a-b25d-2c35bcf4cd4e": {
-          "label": "Misc. web links",
-          "x": 132589,
-          "y": 1017,
-          "id": "89bb4a1c-2681-411a-b25d-2c35bcf4cd4e"
-        },
-        "b83733ce-33ac-44f4-b047-6006a9fc6106": {
-          "label": "Projects",
-          "x": 132567,
-          "y": 1042,
-          "id": "b83733ce-33ac-44f4-b047-6006a9fc6106"
-        },
-        "219d637d-5c46-4fb5-be26-d8fe479af1b7": {
-          "label": "Tools",
-          "x": 132559,
-          "y": 1067,
-          "id": "219d637d-5c46-4fb5-be26-d8fe479af1b7"
-        },
-        "34fa2286-9f80-4c88-8aa4-6ae8c60f75e0": {
-          "label": "Organizations",
-          "x": 132586,
-          "y": 1092,
-          "id": "34fa2286-9f80-4c88-8aa4-6ae8c60f75e0"
-        },
-        "eced7254-c7a5-4aae-81d5-e4482ce983ba": {
-          "label": "Standarts",
-          "x": 132572,
-          "y": 1117,
-          "id": "eced7254-c7a5-4aae-81d5-e4482ce983ba"
-        },
-        "b90a514e-f5a0-466a-956a-c50c8a580c0a": {
-          "label": "Forums, Groups",
-          "x": 132594,
-          "y": 1142,
-          "id": "b90a514e-f5a0-466a-956a-c50c8a580c0a"
-        },
-        "1da4cdb5-c110-4191-a06f-72fc783acc17": {
-          "label": "Laws",
-          "x": 132558,
-          "y": 1167,
-          "id": "1da4cdb5-c110-4191-a06f-72fc783acc17"
-        },
-        "3c67a003-7018-40da-93d3-523a78d33c95": {
-          "label": "Adjacent Themes",
-          "x": 132597,
-          "y": 1192,
-          "id": "3c67a003-7018-40da-93d3-523a78d33c95"
-        },
-        "818ebc39-84f8-4fbd-93aa-f1f8fce99d5d": {
-          "label": "Questions",
-          "x": 132347,
-          "y": 1317,
-          "id": "818ebc39-84f8-4fbd-93aa-f1f8fce99d5d"
-        },
-        "762696f5-317c-4c4d-840c-ad7343d6438d": {
-          "label": "Problems",
-          "x": 132347,
-          "y": 1417,
-          "id": "762696f5-317c-4c4d-840c-ad7343d6438d"
-        },
-        "54822d06-c689-429e-a304-5bee5ba2969f": {
-          "label": "Goals",
-          "x": 132347,
-          "y": 1517,
-          "id": "54822d06-c689-429e-a304-5bee5ba2969f"
-        },
-        "8d0e4a98-cdc4-4203-be8b-9252a9f42dbc": {
-          "id": "8d0e4a98-cdc4-4203-be8b-9252a9f42dbc",
-          "x": 132796,
-          "y": 486,
-          "label": "Category:Scholarly search services"
-        },
-        "4d58594d-6107-4897-ae25-e60465f2c24e": {
-          "label": "Reference\nmanagement\nsoftware",
-          "x": 131612,
-          "y": 8844,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "4d58594d-6107-4897-ae25-e60465f2c24e",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "3e0a138a-51a1-4d4e-a591-e6c7fc928377": {
-          "label": "Development",
-          "x": 132325,
-          "y": 9209,
-          "id": "3e0a138a-51a1-4d4e-a591-e6c7fc928377"
-        },
-        "7572faf4-9d09-44c6-a22b-1c0cabacccb7": {
-          "label": "11/16/2019",
-          "x": 132575,
-          "y": 9209,
-          "id": "7572faf4-9d09-44c6-a22b-1c0cabacccb7"
-        },
-        "5fb57f7a-c180-4b31-942a-a1ad8b8d694a": {
-          "label": "init",
-          "x": 132475,
-          "y": 9209,
-          "id": "5fb57f7a-c180-4b31-942a-a1ad8b8d694a"
-        },
-        "162207e5-86d1-4c5b-8ab4-9fdd74dc0a0d": {
-          "label": "Notes",
-          "x": 132325,
-          "y": 8359,
-          "id": "162207e5-86d1-4c5b-8ab4-9fdd74dc0a0d"
-        },
-        "e24ae18b-ee04-41d5-8300-08a0fa8ee4da": {
-          "label": "Dictionary of\nconcepts",
-          "x": 132475,
-          "y": 8109,
-          "id": "e24ae18b-ee04-41d5-8300-08a0fa8ee4da"
-        },
-        "1ff0eaa4-8317-49db-9b79-fe5a036870e9": {
-          "label": "Details, thoughts",
-          "x": 132475,
-          "y": 8359,
-          "id": "1ff0eaa4-8317-49db-9b79-fe5a036870e9"
-        },
-        "0ab4641e-7078-45a8-b95b-ba52064a96ef": {
-          "label": "Sections",
-          "x": 132475,
-          "y": 8609,
-          "id": "0ab4641e-7078-45a8-b95b-ba52064a96ef"
-        },
-        "737ccec8-96a6-408c-905b-c496b1e53eb3": {
-          "label": "Books",
-          "x": 132539,
-          "y": 8459,
-          "id": "737ccec8-96a6-408c-905b-c496b1e53eb3"
-        },
-        "daca7e62-0890-4342-9a7f-ea6f890a267f": {
-          "label": "R&D institutions",
-          "x": 132570,
-          "y": 8484,
-          "id": "daca7e62-0890-4342-9a7f-ea6f890a267f"
-        },
-        "b672d86c-dd9d-40a7-85c3-ec48add5114b": {
-          "label": "Sites",
-          "x": 132535,
-          "y": 8509,
-          "id": "b672d86c-dd9d-40a7-85c3-ec48add5114b"
-        },
-        "e97e1909-4d63-4897-9be6-28c1fc3f3bfc": {
-          "label": "Magazines",
-          "x": 132554,
-          "y": 8534,
-          "id": "e97e1909-4d63-4897-9be6-28c1fc3f3bfc"
-        },
-        "3a7306bc-6192-43ba-a12b-9025a9f4bfbe": {
-          "label": "Articles",
-          "x": 132543,
-          "y": 8559,
-          "id": "3a7306bc-6192-43ba-a12b-9025a9f4bfbe"
-        },
-        "16a8e013-19e7-46b4-9269-4dc20a835031": {
-          "label": "Media content",
-          "x": 132565,
-          "y": 8584,
-          "id": "16a8e013-19e7-46b4-9269-4dc20a835031"
-        },
-        "b642a6be-4fe6-4732-b860-808355619c68": {
-          "label": "Misc. web links",
-          "x": 132567,
-          "y": 8609,
-          "id": "b642a6be-4fe6-4732-b860-808355619c68"
-        },
-        "6dd52cf6-5514-44b8-b6d4-8b01be9e1beb": {
-          "label": "Projects",
-          "x": 132545,
-          "y": 8634,
-          "id": "6dd52cf6-5514-44b8-b6d4-8b01be9e1beb"
-        },
-        "067a3652-363f-4377-b722-cfa16b5514fb": {
-          "label": "Tools",
-          "x": 132536,
-          "y": 8659,
-          "id": "067a3652-363f-4377-b722-cfa16b5514fb"
-        },
-        "93932afc-a004-464c-8cd6-921dc303929a": {
-          "label": "Organizations",
-          "x": 132564,
-          "y": 8684,
-          "id": "93932afc-a004-464c-8cd6-921dc303929a"
-        },
-        "5bf7a919-73a4-4ee1-b317-e5587dcd6a47": {
-          "label": "Standarts",
-          "x": 132550,
-          "y": 8709,
-          "id": "5bf7a919-73a4-4ee1-b317-e5587dcd6a47"
-        },
-        "34a6c1f7-a3b5-4b25-8166-5a0511afa5aa": {
-          "label": "Forums, Groups",
-          "x": 132572,
-          "y": 8734,
-          "id": "34a6c1f7-a3b5-4b25-8166-5a0511afa5aa"
-        },
-        "ed1e1525-23bd-47f4-bbfb-a86c579def30": {
-          "label": "Laws",
-          "x": 132536,
-          "y": 8759,
-          "id": "ed1e1525-23bd-47f4-bbfb-a86c579def30"
-        },
-        "800dafba-b08a-42ad-abeb-549741a057e8": {
-          "label": "Adjacent Themes",
-          "x": 132575,
-          "y": 8784,
-          "id": "800dafba-b08a-42ad-abeb-549741a057e8"
-        },
-        "abc64b85-163a-4c04-93cf-572d8519972c": {
-          "label": "Questions",
-          "x": 132325,
-          "y": 8909,
-          "id": "abc64b85-163a-4c04-93cf-572d8519972c"
-        },
-        "c4f388c0-58d7-4926-a0cb-df01eed4ed0a": {
-          "label": "Problems",
-          "x": 132325,
-          "y": 9009,
-          "id": "c4f388c0-58d7-4926-a0cb-df01eed4ed0a"
-        },
-        "3f0a5dc0-6f79-4acb-a0b6-10c05c2f5e8e": {
-          "label": "Goals",
-          "x": 132325,
-          "y": 9109,
-          "id": "3f0a5dc0-6f79-4acb-a0b6-10c05c2f5e8e"
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Online scientific\ncatalogues",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392",
-          "x": 147404,
-          "y": -3213,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Mediawiki",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816",
-          "x": 146490,
-          "y": -675,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "PubMed",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528",
-          "x": 146256,
-          "y": 1455,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mendeley.com",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100",
-          "x": 147202,
-          "y": 3538,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "ISBN",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425",
-          "x": 145770,
-          "y": 5702,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "ISSN",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783",
-          "x": 145770,
-          "y": 12582,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783212": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Identifier\nschemes",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783212",
-          "x": 146353,
-          "y": 8073,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Scopus",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234",
-          "x": 146120,
-          "y": 10479,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "ArXiv",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521",
-          "x": 134097,
-          "y": 14749,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "dblp.org",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541",
-          "x": 134524,
-          "y": 16830,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "zbib.org",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113",
-          "x": 134505,
-          "y": 12315,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Reference\nmanagement\nsoftware",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701",
-          "x": 135302,
-          "y": 8945,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "DOI",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924",
-          "x": 133882,
-          "y": 6198,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Scholarly search\nservices",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652",
-          "x": 135847,
-          "y": 754,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "BibTeX",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477",
-          "x": 134370,
-          "y": 2874,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477473": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 700,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Bibliographic\nfile formats",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477473",
-          "x": 135264,
-          "y": -1119,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477473414": {
+        "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783245602": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45390,7 +45266,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 1000,
             "align": "left"
           },
           "icon": {},
@@ -45405,19 +45281,19 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "Bibliography",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645987939281652810042578321234521541113701924652477473414",
-          "x": 135186,
-          "y": -3063,
+          "label": "Linguistics",
+          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879392816528100425783245602",
+          "x": 142344,
+          "y": 15170,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
-        "e2f5fadc-cfd2-490c-add2-5798d42dc6268564598793928165281004257832123452154111370192465247747341452": {
+        "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204": {
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffc63b",
+            "background": "#ffd570",
             "border": ""
           },
           "fixed": {},
@@ -45426,7 +45302,7 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 14,
             "align": "left"
           },
           "icon": {},
@@ -45441,257 +45317,28 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "Open-access\narchives",
-          "id": "e2f5fadc-cfd2-490c-add2-5798d42dc6268564598793928165281004257832123452154111370192465247747341452",
-          "x": 135321,
-          "y": -3063,
+          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"http://localhost:1337\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/base.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"base_proj1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
+          "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204",
+          "x": 65740,
+          "y": -6463,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
-        "b0ab9a5c-3969-4305-b107-d656ef662765": {
-          "label": "Canvases list",
-          "x": 65709,
-          "y": -7978,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
+        "5f08e9b3-be39-411a-9b7a-67703314f3e9709204": {
           "color": {
+            "highlight": {},
+            "hover": {},
             "background": "red",
             "border": ""
           },
-          "id": "b0ab9a5c-3969-4305-b107-d656ef662765",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e": {
-          "label": "Development",
-          "x": 66185,
-          "y": -7538,
-          "id": "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e"
-        },
-        "c8fff93b-99a7-4e44-b775-013dd5b18cd0": {
-          "label": "11/16/2019",
-          "x": 66435,
-          "y": -7538,
-          "id": "c8fff93b-99a7-4e44-b775-013dd5b18cd0"
-        },
-        "244022c3-df85-4859-b198-983acf2a904c": {
-          "label": "init",
-          "x": 66335,
-          "y": -7538,
-          "id": "244022c3-df85-4859-b198-983acf2a904c"
-        },
-        "7b984b0f-df05-4527-8ac8-8706b9691d36": {
-          "label": "Notes",
-          "x": 66185,
-          "y": -8388,
-          "id": "7b984b0f-df05-4527-8ac8-8706b9691d36"
-        },
-        "556f77a1-e03a-4cc9-88d9-2dda8655e7f1": {
-          "label": "Dictionary of\nconcepts",
-          "x": 66335,
-          "y": -8638,
-          "id": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1"
-        },
-        "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc": {
-          "label": "Details, thoughts",
-          "x": 66335,
-          "y": -8388,
-          "id": "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc"
-        },
-        "3c74d4bd-608b-4744-b18c-1cc508a41bcd": {
-          "label": "Sections",
-          "x": 66335,
-          "y": -8138,
-          "id": "3c74d4bd-608b-4744-b18c-1cc508a41bcd"
-        },
-        "50b02362-4c2e-4801-b250-bbb084bf9bb2": {
-          "label": "Books",
-          "x": 66399,
-          "y": -8288,
-          "id": "50b02362-4c2e-4801-b250-bbb084bf9bb2"
-        },
-        "92f53a00-cf65-456f-bfcf-6f6c88119d5b": {
-          "label": "R&D institutions",
-          "x": 66430,
-          "y": -8263,
-          "id": "92f53a00-cf65-456f-bfcf-6f6c88119d5b"
-        },
-        "75ff23b4-3d0f-4c06-8061-4069494a326f": {
-          "label": "Sites",
-          "x": 66395,
-          "y": -8238,
-          "id": "75ff23b4-3d0f-4c06-8061-4069494a326f"
-        },
-        "1bc92ea3-79ba-4d40-816c-35cedc1c74bf": {
-          "label": "Magazines",
-          "x": 66414,
-          "y": -8213,
-          "id": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf"
-        },
-        "2d9049d8-feaf-41cd-afb1-87515557983e": {
-          "label": "Articles",
-          "x": 66403,
-          "y": -8188,
-          "id": "2d9049d8-feaf-41cd-afb1-87515557983e"
-        },
-        "51a5b447-fa28-4997-80ca-b7a96a69ef9e": {
-          "label": "Media content",
-          "x": 66425,
-          "y": -8163,
-          "id": "51a5b447-fa28-4997-80ca-b7a96a69ef9e"
-        },
-        "8a139418-94d2-4121-94a4-8d2a26213d24": {
-          "label": "Misc. web links",
-          "x": 66427,
-          "y": -8138,
-          "id": "8a139418-94d2-4121-94a4-8d2a26213d24"
-        },
-        "76fc5be1-7bae-46ec-a649-1bc6509b378d": {
-          "label": "Projects",
-          "x": 66405,
-          "y": -8113,
-          "id": "76fc5be1-7bae-46ec-a649-1bc6509b378d"
-        },
-        "21dc8bf2-6e0c-42cf-b702-d47f24af173a": {
-          "label": "Tools",
-          "x": 66396,
-          "y": -8088,
-          "id": "21dc8bf2-6e0c-42cf-b702-d47f24af173a"
-        },
-        "1f9b98e7-ca75-443c-952d-a1d0ba476652": {
-          "label": "Organizations",
-          "x": 66424,
-          "y": -8063,
-          "id": "1f9b98e7-ca75-443c-952d-a1d0ba476652"
-        },
-        "f9c77b6e-13d7-4687-9d7f-e858e5cf5685": {
-          "label": "Standarts",
-          "x": 66410,
-          "y": -8038,
-          "id": "f9c77b6e-13d7-4687-9d7f-e858e5cf5685"
-        },
-        "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661": {
-          "label": "Forums, Groups",
-          "x": 66432,
-          "y": -8013,
-          "id": "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661"
-        },
-        "f13fa072-1d46-45b2-b2b1-679177d88ba6": {
-          "label": "Laws",
-          "x": 66396,
-          "y": -7988,
-          "id": "f13fa072-1d46-45b2-b2b1-679177d88ba6"
-        },
-        "ab382182-58b3-4799-ad70-5340f6f6e88d": {
-          "label": "Adjacent Themes",
-          "x": 66435,
-          "y": -7963,
-          "id": "ab382182-58b3-4799-ad70-5340f6f6e88d"
-        },
-        "a8fd2573-44a2-4d77-9721-81e1457bc1f0": {
-          "label": "Questions",
-          "x": 66185,
-          "y": -7838,
-          "id": "a8fd2573-44a2-4d77-9721-81e1457bc1f0"
-        },
-        "48a4c37a-5708-48fc-9e33-37312999d807": {
-          "label": "Problems",
-          "x": 66185,
-          "y": -7738,
-          "id": "48a4c37a-5708-48fc-9e33-37312999d807"
-        },
-        "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46": {
-          "label": "Goals",
-          "x": 66185,
-          "y": -7638,
-          "id": "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46"
-        },
-        "849f7b5d-b9aa-4aa2-a527-8b8a5f654712": {
-          "id": "849f7b5d-b9aa-4aa2-a527-8b8a5f654712",
-          "x": 66608,
-          "y": -8666,
-          "label": "mm-vis-js main canvas",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661": {
-          "id": "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661",
-          "x": 66864,
-          "y": -8668,
-          "label": "sushilshik.github.com",
-          "shape": "box",
-          "link": "https://sushilshik.github.com",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "e93af4ee-6ab3-4857-8283-128dcf629ab3": {
-          "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3",
-          "x": 66901,
-          "y": -8597,
-          "label": "sushilshik.github.com/base.html",
-          "shape": "box",
-          "link": "https://sushilshik.github.com/base.html",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "fecf5e72-1e19-410e-87b8-f36ff58504b6": {
-          "id": "fecf5e72-1e19-410e-87b8-f36ff58504b6",
-          "x": 66588,
-          "y": -8601,
-          "label": "Adjacent themes",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
           "fixed": {},
           "font": {
             "bold": {},
             "boldital": {},
             "ital": {},
             "mono": {},
-            "size": 700,
+            "size": 72,
             "align": "left"
           },
           "icon": {},
@@ -45706,10 +45353,1862 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
+          "label": "mm-vis-js\nbase save",
+          "x": 64042,
+          "y": -4898,
+          "id": "5f08e9b3-be39-411a-9b7a-67703314f3e9709204",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "fc346e19-9d86-4596-835b-11f1f755d865709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Development",
+          "x": 64457,
+          "y": -4476,
+          "id": "fc346e19-9d86-4596-835b-11f1f755d865709204"
+        },
+        "4e8d23e0-2916-468f-ab10-7887edd29781709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "11/16/2019",
+          "x": 64707,
+          "y": -4476,
+          "id": "4e8d23e0-2916-468f-ab10-7887edd29781709204"
+        },
+        "9e05bed3-bcfb-461c-8782-cbb50e700f2b709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "init",
+          "x": 64607,
+          "y": -4476,
+          "id": "9e05bed3-bcfb-461c-8782-cbb50e700f2b709204"
+        },
+        "56b1d0ac-f667-4a67-948e-fe51b137da35709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Notes",
+          "x": 64457,
+          "y": -5326,
+          "id": "56b1d0ac-f667-4a67-948e-fe51b137da35709204"
+        },
+        "f9d3919c-5ba4-4e33-afd7-f6321b559d96709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Dictionary of\nconcepts",
+          "x": 64627,
+          "y": -6420,
+          "id": "f9d3919c-5ba4-4e33-afd7-f6321b559d96709204"
+        },
+        "52715514-7cae-4783-a55f-e207e1ce5e23709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Details, thoughts",
+          "x": 64617,
+          "y": -5443,
+          "id": "52715514-7cae-4783-a55f-e207e1ce5e23709204"
+        },
+        "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sections",
+          "x": 64607,
+          "y": -5076,
+          "id": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204"
+        },
+        "43c7b180-f8c6-452f-9346-94265b43c0bc709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Books",
+          "x": 64671,
+          "y": -5226,
+          "id": "43c7b180-f8c6-452f-9346-94265b43c0bc709204"
+        },
+        "a6573a2a-17e3-4e51-803a-c79be735c907709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "R&D institutions",
+          "x": 64701,
+          "y": -5201,
+          "id": "a6573a2a-17e3-4e51-803a-c79be735c907709204"
+        },
+        "5957177d-5884-4cdf-a0a2-95fedfd8f6ce709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sites",
+          "x": 64667,
+          "y": -5176,
+          "id": "5957177d-5884-4cdf-a0a2-95fedfd8f6ce709204"
+        },
+        "71d85620-d7c1-4f72-b9b3-178f20566934709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Magazines",
+          "x": 64686,
+          "y": -5151,
+          "id": "71d85620-d7c1-4f72-b9b3-178f20566934709204"
+        },
+        "8261ea62-4460-4d13-856e-11a89da34460709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Articles",
+          "x": 64674,
+          "y": -5126,
+          "id": "8261ea62-4460-4d13-856e-11a89da34460709204"
+        },
+        "c9e649eb-9d6f-4a97-a581-25bc23fb2dc6709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Media content",
+          "x": 64696,
+          "y": -5101,
+          "id": "c9e649eb-9d6f-4a97-a581-25bc23fb2dc6709204"
+        },
+        "87acae29-26a1-4dae-aa6c-dad83e7b8983709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Misc. web links",
+          "x": 64699,
+          "y": -5076,
+          "id": "87acae29-26a1-4dae-aa6c-dad83e7b8983709204"
+        },
+        "7ca3ffa3-5554-46fb-9e4c-21aaa8768493709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Projects",
+          "x": 64677,
+          "y": -5051,
+          "id": "7ca3ffa3-5554-46fb-9e4c-21aaa8768493709204"
+        },
+        "b850ef03-dd7d-48b9-ba43-0ab91574cb14709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Tools",
+          "x": 64668,
+          "y": -5026,
+          "id": "b850ef03-dd7d-48b9-ba43-0ab91574cb14709204"
+        },
+        "42b59714-b915-4351-8615-f73dea998d39709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Organizations",
+          "x": 64695,
+          "y": -5001,
+          "id": "42b59714-b915-4351-8615-f73dea998d39709204"
+        },
+        "f2417b15-6f28-4533-8d5c-9e91123a14b2709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Standarts",
+          "x": 64682,
+          "y": -4976,
+          "id": "f2417b15-6f28-4533-8d5c-9e91123a14b2709204"
+        },
+        "e99e9a6f-f6e1-4312-b003-5878d908f3ce709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Forums, Groups",
+          "x": 64703,
+          "y": -4951,
+          "id": "e99e9a6f-f6e1-4312-b003-5878d908f3ce709204"
+        },
+        "f9a78cba-3904-49d3-b0da-72dbf64df687709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Laws",
+          "x": 64668,
+          "y": -4926,
+          "id": "f9a78cba-3904-49d3-b0da-72dbf64df687709204"
+        },
+        "518a2b66-f38b-49a4-9220-52cbdd3a9370709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Adjacent Themes",
+          "x": 64707,
+          "y": -4901,
+          "id": "518a2b66-f38b-49a4-9220-52cbdd3a9370709204"
+        },
+        "675504dd-4410-45b0-a5ec-0bac8ce4a540709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Questions",
+          "x": 64457,
+          "y": -4776,
+          "id": "675504dd-4410-45b0-a5ec-0bac8ce4a540709204"
+        },
+        "51096979-4e09-49c1-bed3-08a4925d2ebf709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Problems",
+          "x": 64457,
+          "y": -4676,
+          "id": "51096979-4e09-49c1-bed3-08a4925d2ebf709204"
+        },
+        "224747ed-bc32-4069-ab0d-8c3f13f8a51a709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Goals",
+          "x": 64457,
+          "y": -4576,
+          "id": "224747ed-bc32-4069-ab0d-8c3f13f8a51a709204"
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709204": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mv-vis-js\nbase save",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709204",
+          "x": 69045,
+          "y": -6272,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Save operations code",
+          "id": "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709204",
+          "x": 65056,
+          "y": -6484
+        },
+        "ea25b7ca-7308-4e5d-8d23-becf10837170204": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "How to save canvas with script.\n(Like \"Save\" operation\nin desktop program.)",
+          "id": "ea25b7ca-7308-4e5d-8d23-becf10837170204",
+          "x": 64924,
+          "y": -5466,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d6a2f6ee-56a5-4221-be38-49c0a8364a7196204": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "start mvj-serv.js from mm-vis-js/utils/",
+          "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a7196204",
+          "x": 65286,
+          "y": -5487
+        },
+        "52aee244-a92a-41a3-8b71-373d541e660d96204": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "$ node mvj-serv.js",
+          "id": "52aee244-a92a-41a3-8b71-373d541e660d96204",
+          "x": 65533,
+          "y": -5484,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "8dcd7da6-9174-4a9a-92df-19ac2ef2574596204": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "check port number in mvj-serv.js script - 1337. Change it in mvj-serv.js and in build script above, if you need.",
+          "id": "8dcd7da6-9174-4a9a-92df-19ac2ef2574596204",
+          "x": 65817,
+          "y": -5521,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "604289ab-7ae3-4401-afdc-44d012b2609c96204": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "center"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Click big node above with code in it - to select it.",
+          "id": "604289ab-7ae3-4401-afdc-44d012b2609c96204",
+          "x": 65323,
+          "y": -5440,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced96204": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Click \"runNodeCode\" in this node menu - on the left.",
+          "id": "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced96204",
+          "x": 65337,
+          "y": -5401,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "aa154269-2eca-4f6f-9f7c-39e2b6981af3": {
+          "id": "aa154269-2eca-4f6f-9f7c-39e2b6981af3",
+          "x": 83257,
+          "y": -8660,
+          "label": "var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n\nvar nodes = [];\nselectedNodes.forEach(function(node) {\n   nodes.push(network.body.data.nodes.get(node.id));\n});\nnodes.forEach(function(n) {\nconsole.log(n);\n   var node = network.body.data.nodes.get(n.id);\n   var pNode = network.getPositions()[node.id];\n   if (typeof node.font === \"undefined\") node.font={};\n   node.font.size = 1000;\n   node.font.align = \"left\";\n   node.x = pNode.x;\n   node.y = pNode.y;\n   network.body.data.nodes.update(node);\n});\n"
+        },
+        "b0ab9a5c-3969-4305-b107-d656ef662765272": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 72,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
           "label": "Canvases list",
-          "id": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558",
-          "x": 70281,
-          "y": -8376,
+          "x": 64233,
+          "y": -8942,
+          "id": "b0ab9a5c-3969-4305-b107-d656ef662765272",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Development",
+          "x": 64709,
+          "y": -8502,
+          "id": "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e272"
+        },
+        "c8fff93b-99a7-4e44-b775-013dd5b18cd0272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "11/16/2019",
+          "x": 64959,
+          "y": -8502,
+          "id": "c8fff93b-99a7-4e44-b775-013dd5b18cd0272"
+        },
+        "244022c3-df85-4859-b198-983acf2a904c272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "init",
+          "x": 64859,
+          "y": -8502,
+          "id": "244022c3-df85-4859-b198-983acf2a904c272"
+        },
+        "7b984b0f-df05-4527-8ac8-8706b9691d36272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Notes",
+          "x": 64709,
+          "y": -9352,
+          "id": "7b984b0f-df05-4527-8ac8-8706b9691d36272"
+        },
+        "556f77a1-e03a-4cc9-88d9-2dda8655e7f1272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Dictionary of\nconcepts",
+          "x": 64859,
+          "y": -9602,
+          "id": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1272"
+        },
+        "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Details, thoughts",
+          "x": 64859,
+          "y": -9352,
+          "id": "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc272"
+        },
+        "3c74d4bd-608b-4744-b18c-1cc508a41bcd272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Sections",
+          "x": 64859,
+          "y": -9102,
+          "id": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272"
+        },
+        "50b02362-4c2e-4801-b250-bbb084bf9bb2272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Books",
+          "x": 64923,
+          "y": -9252,
+          "id": "50b02362-4c2e-4801-b250-bbb084bf9bb2272"
+        },
+        "92f53a00-cf65-456f-bfcf-6f6c88119d5b272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "R&D institutions",
+          "x": 64954,
+          "y": -9227,
+          "id": "92f53a00-cf65-456f-bfcf-6f6c88119d5b272"
+        },
+        "75ff23b4-3d0f-4c06-8061-4069494a326f272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Sites",
+          "x": 64919,
+          "y": -9202,
+          "id": "75ff23b4-3d0f-4c06-8061-4069494a326f272"
+        },
+        "1bc92ea3-79ba-4d40-816c-35cedc1c74bf272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Magazines",
+          "x": 64938,
+          "y": -9177,
+          "id": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf272"
+        },
+        "2d9049d8-feaf-41cd-afb1-87515557983e272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Articles",
+          "x": 64927,
+          "y": -9152,
+          "id": "2d9049d8-feaf-41cd-afb1-87515557983e272"
+        },
+        "51a5b447-fa28-4997-80ca-b7a96a69ef9e272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Media content",
+          "x": 64949,
+          "y": -9127,
+          "id": "51a5b447-fa28-4997-80ca-b7a96a69ef9e272"
+        },
+        "8a139418-94d2-4121-94a4-8d2a26213d24272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Misc. web links",
+          "x": 64951,
+          "y": -9102,
+          "id": "8a139418-94d2-4121-94a4-8d2a26213d24272"
+        },
+        "76fc5be1-7bae-46ec-a649-1bc6509b378d272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Projects",
+          "x": 64929,
+          "y": -9077,
+          "id": "76fc5be1-7bae-46ec-a649-1bc6509b378d272"
+        },
+        "21dc8bf2-6e0c-42cf-b702-d47f24af173a272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Tools",
+          "x": 64920,
+          "y": -9052,
+          "id": "21dc8bf2-6e0c-42cf-b702-d47f24af173a272"
+        },
+        "1f9b98e7-ca75-443c-952d-a1d0ba476652272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Organizations",
+          "x": 64948,
+          "y": -9027,
+          "id": "1f9b98e7-ca75-443c-952d-a1d0ba476652272"
+        },
+        "f9c77b6e-13d7-4687-9d7f-e858e5cf5685272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Standarts",
+          "x": 64934,
+          "y": -9002,
+          "id": "f9c77b6e-13d7-4687-9d7f-e858e5cf5685272"
+        },
+        "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Forums, Groups",
+          "x": 64956,
+          "y": -8977,
+          "id": "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661272"
+        },
+        "f13fa072-1d46-45b2-b2b1-679177d88ba6272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Laws",
+          "x": 64920,
+          "y": -8952,
+          "id": "f13fa072-1d46-45b2-b2b1-679177d88ba6272"
+        },
+        "ab382182-58b3-4799-ad70-5340f6f6e88d272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Adjacent Themes",
+          "x": 64959,
+          "y": -8927,
+          "id": "ab382182-58b3-4799-ad70-5340f6f6e88d272"
+        },
+        "a8fd2573-44a2-4d77-9721-81e1457bc1f0272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Questions",
+          "x": 64709,
+          "y": -8802,
+          "id": "a8fd2573-44a2-4d77-9721-81e1457bc1f0272"
+        },
+        "48a4c37a-5708-48fc-9e33-37312999d807272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Problems",
+          "x": 64709,
+          "y": -8702,
+          "id": "48a4c37a-5708-48fc-9e33-37312999d807272"
+        },
+        "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46272": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Goals",
+          "x": 64709,
+          "y": -8602,
+          "id": "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46272"
+        },
+        "849f7b5d-b9aa-4aa2-a527-8b8a5f654712272": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "mm-vis-js main canvas",
+          "id": "849f7b5d-b9aa-4aa2-a527-8b8a5f654712272",
+          "x": 65132,
+          "y": -9630,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661272": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "sushilshik.github.com",
+          "id": "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661272",
+          "x": 65388,
+          "y": -9632,
+          "shape": "box",
+          "link": "https://sushilshik.github.com",
+          "borderWidth": ""
+        },
+        "e93af4ee-6ab3-4857-8283-128dcf629ab3272": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "sushilshik.github.com/base.html",
+          "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3272",
+          "x": 65425,
+          "y": -9568,
+          "shape": "box",
+          "link": "https://sushilshik.github.com/base.html",
+          "borderWidth": ""
+        },
+        "fecf5e72-1e19-410e-87b8-f36ff58504b6272": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Adjacent themes",
+          "id": "fecf5e72-1e19-410e-87b8-f36ff58504b6272",
+          "x": 65112,
+          "y": -9565,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e93af4ee-6ab3-4857-8283-128dcf629ab3210272": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "sushilshik.github.com/culture.html",
+          "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210272",
+          "x": 65426,
+          "y": -9505,
+          "shape": "box",
+          "link": "https://sushilshik.github.com/base.html",
+          "borderWidth": ""
+        },
+        "fecf5e72-1e19-410e-87b8-f36ff58504b6210272": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Culture themes",
+          "id": "fecf5e72-1e19-410e-87b8-f36ff58504b6210272",
+          "x": 65112,
+          "y": -9504,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -71071,696 +72570,6 @@ var schemeData =
           "to": "79d3372d-8d4d-4aed-9c5b-f96f98a6698b",
           "id": "ccbca67f-fbd5-4a3d-b11b-834b67146006"
         },
-        "73eda067-e77b-47ce-b926-ccb9b48b8e79918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "73eda067-e77b-47ce-b926-ccb9b48b8e79918",
-          "from": "9b3efb03-8848-425b-ae4a-eb617b00cddc918",
-          "to": "db6eaf5f-3bb9-46f7-b997-c99da0239586918"
-        },
-        "a896408e-260f-43d2-b72c-f15e9bebc199918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "a896408e-260f-43d2-b72c-f15e9bebc199918",
-          "from": "9b3efb03-8848-425b-ae4a-eb617b00cddc918",
-          "to": "83e18b67-092b-4953-aa64-7685d50db694918"
-        },
-        "ea1a97ed-79c6-4308-b0f5-6210a1bbc02b918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "ea1a97ed-79c6-4308-b0f5-6210a1bbc02b918",
-          "from": "9b3efb03-8848-425b-ae4a-eb617b00cddc918",
-          "to": "30b07eda-84da-4a75-9c09-d9499bdd903d918"
-        },
-        "7519e7da-622e-4393-8d35-da391b568999918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "7519e7da-622e-4393-8d35-da391b568999918",
-          "from": "9b3efb03-8848-425b-ae4a-eb617b00cddc918",
-          "to": "a63e8339-2c90-465d-9e0e-9431e4f4fd80918"
-        },
-        "b08b4aa5-fe95-4d32-b205-77e49d8db9c1918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "b08b4aa5-fe95-4d32-b205-77e49d8db9c1918",
-          "from": "9b3efb03-8848-425b-ae4a-eb617b00cddc918",
-          "to": "1eadec6c-05ef-4718-8518-dddc3f792522918"
-        },
-        "cce31905-9c50-4dc3-950a-740151b9fcdc918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "cce31905-9c50-4dc3-950a-740151b9fcdc918",
-          "from": "db6eaf5f-3bb9-46f7-b997-c99da0239586918",
-          "to": "249162de-ee0f-4a3b-b643-3b032d71b593918"
-        },
-        "6e33e120-1adc-4b4d-8593-1cd23f5ca06c918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "6e33e120-1adc-4b4d-8593-1cd23f5ca06c918",
-          "from": "249162de-ee0f-4a3b-b643-3b032d71b593918",
-          "to": "2b31b63f-7658-4656-8157-5a1550e773d1918"
-        },
-        "00fa8ce8-d1e4-4066-8498-3e556d370f8c918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "00fa8ce8-d1e4-4066-8498-3e556d370f8c918",
-          "from": "83e18b67-092b-4953-aa64-7685d50db694918",
-          "to": "e01cf997-5a0c-4f03-8b21-34861ae6dd1d918"
-        },
-        "1c4ea7ec-2851-4154-95f3-f0811c13cff3918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "1c4ea7ec-2851-4154-95f3-f0811c13cff3918",
-          "from": "83e18b67-092b-4953-aa64-7685d50db694918",
-          "to": "81418d44-93f0-4ed1-af5b-15abb6be959a918"
-        },
-        "9ce3debc-5fe7-4add-a30f-93f8be9c4fd5918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "9ce3debc-5fe7-4add-a30f-93f8be9c4fd5918",
-          "from": "83e18b67-092b-4953-aa64-7685d50db694918",
-          "to": "c7695889-ca11-4aca-8800-caa1e71478a8918"
-        },
-        "2a650cb4-ac9e-4c1a-bd5e-60bf6c7cef66918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "2a650cb4-ac9e-4c1a-bd5e-60bf6c7cef66918",
-          "from": "e01cf997-5a0c-4f03-8b21-34861ae6dd1d918",
-          "to": "481644ba-5ec3-417d-a012-58acd46e648e918"
-        },
-        "d1f7afa2-a019-47ce-9b5b-a874f7ad6def918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "d1f7afa2-a019-47ce-9b5b-a874f7ad6def918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "576f13ea-ffde-4232-bf4e-574715bca14d918"
-        },
-        "60add442-4b8c-42fd-811a-4cea7255d4ee918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "60add442-4b8c-42fd-811a-4cea7255d4ee918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "5bb0a01c-a58c-43df-b938-d59c2e3a1ca1918"
-        },
-        "43ce849f-5294-485f-a110-b4004f1442cf918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "43ce849f-5294-485f-a110-b4004f1442cf918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "7cf861da-d309-4ee3-b757-750c814c49a3918"
-        },
-        "7f68af4e-c41b-4cfb-ae93-b0c1a920dfac918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "7f68af4e-c41b-4cfb-ae93-b0c1a920dfac918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "4073074b-3cc4-4918-87cd-19ada594d720918"
-        },
-        "ce166882-fdf5-42bd-98d0-8990e1617403918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "ce166882-fdf5-42bd-98d0-8990e1617403918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "7ddec01a-b14f-4647-a846-2141700bfc27918"
-        },
-        "93bfa944-5b8e-4a11-b828-21258827443e918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "93bfa944-5b8e-4a11-b828-21258827443e918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "b4f32ca6-cc93-4f2f-a9cf-783922320437918"
-        },
-        "b1193b7c-c5b9-4911-8840-616615611aac918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "b1193b7c-c5b9-4911-8840-616615611aac918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "40cca37e-581d-4746-829e-2b2eaa9bf5b5918"
-        },
-        "f197651f-0d55-42d5-b728-9fd1ad6aff13918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "f197651f-0d55-42d5-b728-9fd1ad6aff13918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "0aaf3a76-08d8-4128-9bf6-cb98ab26b581918"
-        },
-        "4f6edc90-cf2e-40bd-a532-ade5ce16efe7918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "4f6edc90-cf2e-40bd-a532-ade5ce16efe7918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "07897026-d40a-4fd8-9899-a39a3584d14c918"
-        },
-        "ef7dfa06-d176-4a67-aa12-8e3353c1999e918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "ef7dfa06-d176-4a67-aa12-8e3353c1999e918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "ce74c9dd-07ef-4535-98d1-993695608d6e918"
-        },
-        "8d1db3d4-cf29-4c3a-8170-333a56b129b4918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "8d1db3d4-cf29-4c3a-8170-333a56b129b4918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "85b15060-2342-4435-a82e-72f447e67e64918"
-        },
-        "1c434e93-151e-4b67-a4b3-db2b9628e2cb918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "1c434e93-151e-4b67-a4b3-db2b9628e2cb918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "6da698d3-a672-4e8a-a402-3f732aad3a6b918"
-        },
-        "ef4a3bbd-7a88-4205-a932-88fd4ef22104918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "ef4a3bbd-7a88-4205-a932-88fd4ef22104918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "9859cc43-6c38-4e17-92ee-3cd95e34bb61918"
-        },
-        "52c608aa-8217-42cd-ad3a-c526f0382ec2918": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "52c608aa-8217-42cd-ad3a-c526f0382ec2918",
-          "from": "c7695889-ca11-4aca-8800-caa1e71478a8918",
-          "to": "f2075833-7500-4b70-ae17-f695ff7929bd918"
-        },
-        "15438fb9-ee36-4503-9e50-a9569fcc7675": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "d7293239-9d6c-4e18-8f51-97c10c78519e",
-          "id": "15438fb9-ee36-4503-9e50-a9569fcc7675"
-        },
-        "98a4daea-c431-4e27-91f2-6191c3c11ae3": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "93c38ca7-4587-4d02-b801-338ba842c832",
-          "id": "98a4daea-c431-4e27-91f2-6191c3c11ae3"
-        },
-        "081837b7-791a-4682-8de7-2e1ab6c72948": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "7035358a-96f7-4a17-9b95-8301f84f2e36",
-          "id": "081837b7-791a-4682-8de7-2e1ab6c72948"
-        },
-        "3fa32b0f-d5fa-411f-bd4e-e2f48cf11370": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "deef224a-3258-46c0-82ab-b894b22593d6",
-          "id": "3fa32b0f-d5fa-411f-bd4e-e2f48cf11370"
-        },
-        "62601342-7ab1-4d90-990c-d2d25242f1ef": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "e009e7e6-82e5-4efe-8a34-adf0d762b2cc",
-          "id": "62601342-7ab1-4d90-990c-d2d25242f1ef"
-        },
-        "b4c4c614-54d3-471d-9f2c-6f84df8658da": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "a0e24aea-29a6-46c2-8e11-f047961df42d",
-          "id": "b4c4c614-54d3-471d-9f2c-6f84df8658da"
-        },
-        "d9a4acef-5d69-4b1e-b88d-6e49d6abdc25": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "7226aca0-8a52-49cb-9cc6-e0d369cc5d9d",
-          "id": "d9a4acef-5d69-4b1e-b88d-6e49d6abdc25"
-        },
-        "c4b8d0c9-124b-4cc6-be9a-ccf52ce2cc78": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "d6e27485-273a-4f4d-8e8a-3a8bc5be9779",
-          "id": "c4b8d0c9-124b-4cc6-be9a-ccf52ce2cc78"
-        },
-        "95ba418b-465f-459a-af74-0892e360447f": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "a94c60d4-cee1-43c8-8f66-3147dadd948d",
-          "id": "95ba418b-465f-459a-af74-0892e360447f"
-        },
-        "b4e385c7-964a-4ad7-9d0c-1aa716c1e37e": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "386c3eb3-ed5e-480a-9c69-bb80037d815b",
-          "id": "b4e385c7-964a-4ad7-9d0c-1aa716c1e37e"
-        },
-        "6d8a29fb-30ff-462d-8def-1819fd64e6a3": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "76e84521-5e0b-451b-8bcb-38e9f2ea49ee",
-          "id": "6d8a29fb-30ff-462d-8def-1819fd64e6a3"
-        },
-        "29cfd930-c1e3-448f-92b0-58afacdc997c": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "e74d8014-a766-4203-9644-02e85edd6207",
-          "id": "29cfd930-c1e3-448f-92b0-58afacdc997c"
-        },
-        "0efd7ed4-9969-4ae4-badf-c185a607a73a": {
-          "from": "481644ba-5ec3-417d-a012-58acd46e648e918",
-          "to": "9cf44fb8-0815-4541-8e95-08225993ef6c",
-          "id": "0efd7ed4-9969-4ae4-badf-c185a607a73a"
-        },
         "268a2d11-690b-4ddb-acf4-3f0b3a37682a": {
           "from": "1ec51f3f-2bde-4e2b-b7f3-0deeb0abf0bf",
           "to": "9e953b74-c482-4762-a4aa-74385376023b",
@@ -74351,145 +75160,2553 @@ var schemeData =
           "to": "04ef199c-1a1a-4c90-985f-75a68fc219da",
           "id": "7b35a4be-6404-4ea9-a61e-13a640196e4e"
         },
-        "e066a4b5-9b02-4d20-bf5d-dea0740e20e3": {
-          "from": "b0ab9a5c-3969-4305-b107-d656ef662765",
-          "to": "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e",
-          "id": "e066a4b5-9b02-4d20-bf5d-dea0740e20e3"
+        "ee2df60e-0f1f-4f6f-9b6a-a2d14775c0f8602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ee2df60e-0f1f-4f6f-9b6a-a2d14775c0f8602",
+          "from": "9aa8ef85-6b82-4547-9d37-4474b0e41dd2602",
+          "to": "6adc9792-0678-461f-8dc0-6b228cd1be16602"
         },
-        "7dc51589-12e9-42fc-9d7a-ac9fd1bd6c0c": {
-          "from": "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e",
-          "to": "c8fff93b-99a7-4e44-b775-013dd5b18cd0",
-          "id": "7dc51589-12e9-42fc-9d7a-ac9fd1bd6c0c"
+        "a0b236d4-f07b-4529-900c-d53a44494e80602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "a0b236d4-f07b-4529-900c-d53a44494e80602",
+          "from": "9aa8ef85-6b82-4547-9d37-4474b0e41dd2602",
+          "to": "8199eafb-cd27-4408-973a-d8aaa8614dd2602"
         },
-        "959a5fd5-e59e-4da5-a181-d02bb181695a": {
-          "from": "c8fff93b-99a7-4e44-b775-013dd5b18cd0",
-          "to": "244022c3-df85-4859-b198-983acf2a904c",
-          "id": "959a5fd5-e59e-4da5-a181-d02bb181695a"
+        "8b22fd81-3dbb-4b73-8303-154757550a45602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8b22fd81-3dbb-4b73-8303-154757550a45602",
+          "from": "9aa8ef85-6b82-4547-9d37-4474b0e41dd2602",
+          "to": "b2d0a379-1099-49b4-a8a3-440a4ba3d943602"
         },
-        "4b764583-ea7e-405b-93dd-82437c3d14fc": {
-          "from": "b0ab9a5c-3969-4305-b107-d656ef662765",
-          "to": "7b984b0f-df05-4527-8ac8-8706b9691d36",
-          "id": "4b764583-ea7e-405b-93dd-82437c3d14fc"
+        "c0317a70-bc0d-490e-869d-eeca49fd96ea602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c0317a70-bc0d-490e-869d-eeca49fd96ea602",
+          "from": "9aa8ef85-6b82-4547-9d37-4474b0e41dd2602",
+          "to": "c5536a87-6edc-4210-8d6f-96861d379350602"
         },
-        "cdee0a75-1f93-4928-a613-6d6fa17255cf": {
-          "from": "7b984b0f-df05-4527-8ac8-8706b9691d36",
-          "to": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1",
-          "id": "cdee0a75-1f93-4928-a613-6d6fa17255cf"
+        "6ad20414-d3fb-49a6-bde8-f362b6fe1619602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6ad20414-d3fb-49a6-bde8-f362b6fe1619602",
+          "from": "9aa8ef85-6b82-4547-9d37-4474b0e41dd2602",
+          "to": "71b84551-5fcf-402a-ba78-b8958316d5c8602"
         },
-        "8e730a1a-d7d3-4ff7-a077-ab21ade7b336": {
-          "from": "7b984b0f-df05-4527-8ac8-8706b9691d36",
-          "to": "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc",
-          "id": "8e730a1a-d7d3-4ff7-a077-ab21ade7b336"
+        "36c7681d-9602-450d-92b3-cba92b113ae3602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "36c7681d-9602-450d-92b3-cba92b113ae3602",
+          "from": "6adc9792-0678-461f-8dc0-6b228cd1be16602",
+          "to": "dcdf8aaa-0422-4c16-abb0-23f1ad8f414e602"
         },
-        "cf6482eb-88af-4e5d-9bb0-c6822605df82": {
-          "from": "7b984b0f-df05-4527-8ac8-8706b9691d36",
-          "to": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "id": "cf6482eb-88af-4e5d-9bb0-c6822605df82"
+        "0290bfb8-dcb1-442a-bb47-f8418102aac5602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "0290bfb8-dcb1-442a-bb47-f8418102aac5602",
+          "from": "dcdf8aaa-0422-4c16-abb0-23f1ad8f414e602",
+          "to": "c68e232a-350f-43e4-ba86-c3aba1a5a597602"
         },
-        "fa3b45b2-67cc-41b2-ae68-0b60c853c165": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "50b02362-4c2e-4801-b250-bbb084bf9bb2",
-          "id": "fa3b45b2-67cc-41b2-ae68-0b60c853c165"
+        "20bf1787-17fa-4468-a2e2-23bbca80dc33602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "20bf1787-17fa-4468-a2e2-23bbca80dc33602",
+          "from": "8199eafb-cd27-4408-973a-d8aaa8614dd2602",
+          "to": "c97d56e8-4725-4676-b4e9-25f5e264f0d1602"
         },
-        "3eb1ae02-bd28-4287-8d8b-59afd8a4e505": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "92f53a00-cf65-456f-bfcf-6f6c88119d5b",
-          "id": "3eb1ae02-bd28-4287-8d8b-59afd8a4e505"
+        "612e474b-35bc-4dc5-91ac-f0bd0dc9eb2f602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "612e474b-35bc-4dc5-91ac-f0bd0dc9eb2f602",
+          "from": "8199eafb-cd27-4408-973a-d8aaa8614dd2602",
+          "to": "ef92198e-b0c6-4d56-8732-b20739552d67602"
         },
-        "efe0adc4-61a1-4262-8d2a-65d18ffadc8c": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "75ff23b4-3d0f-4c06-8061-4069494a326f",
-          "id": "efe0adc4-61a1-4262-8d2a-65d18ffadc8c"
+        "5f67439c-f4ac-43de-9574-38e2397637ab602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "5f67439c-f4ac-43de-9574-38e2397637ab602",
+          "from": "8199eafb-cd27-4408-973a-d8aaa8614dd2602",
+          "to": "d35cb372-026a-4735-98b9-8007214bf90e602"
         },
-        "253b7fcf-ff8e-4265-8b94-3e88c4ce1a62": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf",
-          "id": "253b7fcf-ff8e-4265-8b94-3e88c4ce1a62"
+        "090dca74-cc83-4511-8313-fae0c09a30d7602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "090dca74-cc83-4511-8313-fae0c09a30d7602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "41421c92-0d60-420c-9a61-0928c80cac89602"
         },
-        "0c47a90e-9ea9-4986-836f-c2b548b1cd73": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "2d9049d8-feaf-41cd-afb1-87515557983e",
-          "id": "0c47a90e-9ea9-4986-836f-c2b548b1cd73"
+        "d3794721-cd8e-4dd1-b1bd-858c3d96cec6602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d3794721-cd8e-4dd1-b1bd-858c3d96cec6602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "46ffdf1c-ecc6-44b4-8ac0-fdf1180c3ce4602"
         },
-        "33778b12-0835-4236-8c9c-52b54f5a29ac": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "51a5b447-fa28-4997-80ca-b7a96a69ef9e",
-          "id": "33778b12-0835-4236-8c9c-52b54f5a29ac"
+        "d8ac55f2-79e9-4371-a2d7-fef7cf30e1ba602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d8ac55f2-79e9-4371-a2d7-fef7cf30e1ba602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "fd828961-d9ed-4eda-b5cb-bc2db5bd66a7602"
         },
-        "6e01bd8f-acc8-412b-83e8-10bd07a814fa": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "8a139418-94d2-4121-94a4-8d2a26213d24",
-          "id": "6e01bd8f-acc8-412b-83e8-10bd07a814fa"
+        "c917a309-366e-4c1d-a19b-c12d663c3c06602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c917a309-366e-4c1d-a19b-c12d663c3c06602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "6d971409-3ffc-4266-8823-36243c05450b602"
         },
-        "27b60b32-37af-479a-b82d-cc805b852598": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "76fc5be1-7bae-46ec-a649-1bc6509b378d",
-          "id": "27b60b32-37af-479a-b82d-cc805b852598"
+        "aa65f543-13cd-44ab-8d90-7336f4a97b81602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "aa65f543-13cd-44ab-8d90-7336f4a97b81602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "847b3771-1102-4d4a-bffd-628854641a36602"
         },
-        "eea59217-97f9-4a82-bddd-fb106b2413b4": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "21dc8bf2-6e0c-42cf-b702-d47f24af173a",
-          "id": "eea59217-97f9-4a82-bddd-fb106b2413b4"
+        "743404bd-333a-49ef-a0bd-b7655a4533fa602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "743404bd-333a-49ef-a0bd-b7655a4533fa602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "b722ba7d-019e-4e6b-9777-f2a58058a28a602"
         },
-        "2f95f151-0818-4049-978c-02441fad6f58": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "1f9b98e7-ca75-443c-952d-a1d0ba476652",
-          "id": "2f95f151-0818-4049-978c-02441fad6f58"
+        "38f7548d-7e1b-4289-9ce9-3e25bee161f2602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "38f7548d-7e1b-4289-9ce9-3e25bee161f2602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "4fa93509-3f15-41cc-aab8-340f2e1fb97e602"
         },
-        "9e3ea040-5186-4ec9-9077-df776b960700": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "f9c77b6e-13d7-4687-9d7f-e858e5cf5685",
-          "id": "9e3ea040-5186-4ec9-9077-df776b960700"
+        "4dc214a4-855b-41dd-9c31-d2cf1b3fd1c4602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "4dc214a4-855b-41dd-9c31-d2cf1b3fd1c4602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "c03347c5-e084-4081-a03e-1707384316d8602"
         },
-        "b8c89a15-fdcf-479e-bcd7-7f93e1b70ea5": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661",
-          "id": "b8c89a15-fdcf-479e-bcd7-7f93e1b70ea5"
+        "11ac9ac0-f173-4db0-9135-c90bb151fd7e602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "11ac9ac0-f173-4db0-9135-c90bb151fd7e602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "5df2c783-cd5a-46df-8b04-d3d469252248602"
         },
-        "cad0faf8-849b-4d8c-818d-0ea29a92cf32": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "f13fa072-1d46-45b2-b2b1-679177d88ba6",
-          "id": "cad0faf8-849b-4d8c-818d-0ea29a92cf32"
+        "a6aa82e4-114c-44c5-87a3-b49f5e6100cf602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "a6aa82e4-114c-44c5-87a3-b49f5e6100cf602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "e5fa97f5-54d0-4455-9131-b334a64d1135602"
         },
-        "236967f7-aa99-4f6a-b3e8-bca9d217d768": {
-          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd",
-          "to": "ab382182-58b3-4799-ad70-5340f6f6e88d",
-          "id": "236967f7-aa99-4f6a-b3e8-bca9d217d768"
+        "f81db233-1d39-4e79-acf1-ca89eca54861602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "f81db233-1d39-4e79-acf1-ca89eca54861602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "5d668c5a-3650-4687-be9c-40bfe3bd8dd3602"
         },
-        "46e573b2-afe1-4939-b210-cbbf6a690e86": {
-          "from": "b0ab9a5c-3969-4305-b107-d656ef662765",
-          "to": "a8fd2573-44a2-4d77-9721-81e1457bc1f0",
-          "id": "46e573b2-afe1-4939-b210-cbbf6a690e86"
+        "a9b73d7f-1cc0-49bb-8850-8db4b0b93a09602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "a9b73d7f-1cc0-49bb-8850-8db4b0b93a09602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "d1ee8e54-e357-456e-8d68-c51418a62b97602"
         },
-        "86091c85-7a02-4b44-9133-36d8c06b3e90": {
-          "from": "b0ab9a5c-3969-4305-b107-d656ef662765",
-          "to": "48a4c37a-5708-48fc-9e33-37312999d807",
-          "id": "86091c85-7a02-4b44-9133-36d8c06b3e90"
+        "fbc3b85b-4e6f-4e8f-bed3-746e33d4c4a6602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fbc3b85b-4e6f-4e8f-bed3-746e33d4c4a6602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "928fd436-e3e9-4f53-8156-6cb3139ccafa602"
         },
-        "8b967eec-9d2a-4463-bb49-e1143ac45fc4": {
-          "from": "b0ab9a5c-3969-4305-b107-d656ef662765",
-          "to": "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46",
-          "id": "8b967eec-9d2a-4463-bb49-e1143ac45fc4"
+        "65114a07-f1a8-4acf-871d-bbb0e27ea5ea602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "65114a07-f1a8-4acf-871d-bbb0e27ea5ea602",
+          "from": "d35cb372-026a-4735-98b9-8007214bf90e602",
+          "to": "43c6ca38-b50d-460c-9ab5-b9ba88031c5c602"
         },
-        "c541abe4-1701-4266-9053-10c9c6984b75": {
-          "from": "849f7b5d-b9aa-4aa2-a527-8b8a5f654712",
-          "to": "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661",
-          "id": "c541abe4-1701-4266-9053-10c9c6984b75"
+        "4dc0ed35-b602-46c3-bf94-5e3e0a1b1181602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "4dc0ed35-b602-46c3-bf94-5e3e0a1b1181602",
+          "from": "847b3771-1102-4d4a-bffd-628854641a36602",
+          "to": "fb93c7a5-7ce5-4824-9022-d055ae257f19602"
         },
-        "d5ecb3a4-026d-4d01-8ebd-03ac56b0a8ad": {
-          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1",
-          "to": "849f7b5d-b9aa-4aa2-a527-8b8a5f654712",
-          "id": "d5ecb3a4-026d-4d01-8ebd-03ac56b0a8ad"
+        "b6e92766-740b-427f-ba7f-195331bf98e2602": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b6e92766-740b-427f-ba7f-195331bf98e2602",
+          "from": "fb93c7a5-7ce5-4824-9022-d055ae257f19602",
+          "to": "554670c2-ad53-427f-9252-fc5037709eba602"
         },
-        "c8123b27-7bde-453e-89ad-9ffc716d189f": {
-          "from": "fecf5e72-1e19-410e-87b8-f36ff58504b6",
-          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3",
-          "id": "c8123b27-7bde-453e-89ad-9ffc716d189f"
+        "739488d1-f473-4b27-ae2d-f64b8cae9121709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "739488d1-f473-4b27-ae2d-f64b8cae9121709204",
+          "from": "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709204",
+          "to": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204"
         },
-        "8dcb3bae-502c-4dc4-afe0-f35522353573": {
-          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1",
-          "to": "fecf5e72-1e19-410e-87b8-f36ff58504b6",
-          "id": "8dcb3bae-502c-4dc4-afe0-f35522353573"
+        "9fbed09f-c6d4-4f98-ad69-ca8152fd9545709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "9fbed09f-c6d4-4f98-ad69-ca8152fd9545709204",
+          "from": "5f08e9b3-be39-411a-9b7a-67703314f3e9709204",
+          "to": "fc346e19-9d86-4596-835b-11f1f755d865709204"
+        },
+        "0f0e9853-be20-4714-93d2-c1be964aced9709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0f0e9853-be20-4714-93d2-c1be964aced9709204",
+          "from": "5f08e9b3-be39-411a-9b7a-67703314f3e9709204",
+          "to": "56b1d0ac-f667-4a67-948e-fe51b137da35709204"
+        },
+        "fe3b1e66-77e3-4a39-bf0c-64967c5c7008709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "fe3b1e66-77e3-4a39-bf0c-64967c5c7008709204",
+          "from": "5f08e9b3-be39-411a-9b7a-67703314f3e9709204",
+          "to": "675504dd-4410-45b0-a5ec-0bac8ce4a540709204"
+        },
+        "3834ea5f-b5c0-4a92-a688-a9d54cd9b189709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "3834ea5f-b5c0-4a92-a688-a9d54cd9b189709204",
+          "from": "5f08e9b3-be39-411a-9b7a-67703314f3e9709204",
+          "to": "51096979-4e09-49c1-bed3-08a4925d2ebf709204"
+        },
+        "1da14520-f617-4a2b-92db-00ecc258f30e709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "1da14520-f617-4a2b-92db-00ecc258f30e709204",
+          "from": "5f08e9b3-be39-411a-9b7a-67703314f3e9709204",
+          "to": "224747ed-bc32-4069-ab0d-8c3f13f8a51a709204"
+        },
+        "7a5dc97a-5172-46c5-abfc-907e59dd3f57709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "7a5dc97a-5172-46c5-abfc-907e59dd3f57709204",
+          "from": "fc346e19-9d86-4596-835b-11f1f755d865709204",
+          "to": "4e8d23e0-2916-468f-ab10-7887edd29781709204"
+        },
+        "b47cf956-4fc8-410c-a27b-890a2b8ce99d709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b47cf956-4fc8-410c-a27b-890a2b8ce99d709204",
+          "from": "4e8d23e0-2916-468f-ab10-7887edd29781709204",
+          "to": "9e05bed3-bcfb-461c-8782-cbb50e700f2b709204"
+        },
+        "e447e12f-0b96-4856-b01e-a6127cb4d22a709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e447e12f-0b96-4856-b01e-a6127cb4d22a709204",
+          "from": "56b1d0ac-f667-4a67-948e-fe51b137da35709204",
+          "to": "f9d3919c-5ba4-4e33-afd7-f6321b559d96709204"
+        },
+        "a4e76f47-ad11-4d3e-998e-29f72021036a709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "a4e76f47-ad11-4d3e-998e-29f72021036a709204",
+          "from": "56b1d0ac-f667-4a67-948e-fe51b137da35709204",
+          "to": "52715514-7cae-4783-a55f-e207e1ce5e23709204"
+        },
+        "cc912388-91a2-4f5b-a1c1-57e5bffbf4ed709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "cc912388-91a2-4f5b-a1c1-57e5bffbf4ed709204",
+          "from": "56b1d0ac-f667-4a67-948e-fe51b137da35709204",
+          "to": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204"
+        },
+        "42f95ef8-a15c-4c49-b82a-aaa895bb5413709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "42f95ef8-a15c-4c49-b82a-aaa895bb5413709204",
+          "from": "f9d3919c-5ba4-4e33-afd7-f6321b559d96709204",
+          "to": "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709204"
+        },
+        "bbac013a-5252-4fdc-b13d-e06e65527337204": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "bbac013a-5252-4fdc-b13d-e06e65527337204",
+          "from": "52715514-7cae-4783-a55f-e207e1ce5e23709204",
+          "to": "ea25b7ca-7308-4e5d-8d23-becf10837170204"
+        },
+        "8ce62bba-3a0d-4c42-ab7c-f96fb6868cf4709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "8ce62bba-3a0d-4c42-ab7c-f96fb6868cf4709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "43c7b180-f8c6-452f-9346-94265b43c0bc709204"
+        },
+        "5531c984-3c8c-4897-a6c6-6fd1b7ce4433709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5531c984-3c8c-4897-a6c6-6fd1b7ce4433709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "a6573a2a-17e3-4e51-803a-c79be735c907709204"
+        },
+        "6d7ebde2-d92a-487d-886a-c63e56b8a63b709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "6d7ebde2-d92a-487d-886a-c63e56b8a63b709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "5957177d-5884-4cdf-a0a2-95fedfd8f6ce709204"
+        },
+        "ee986d87-b78e-42d6-87a7-c5fa82e00e29709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "ee986d87-b78e-42d6-87a7-c5fa82e00e29709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "71d85620-d7c1-4f72-b9b3-178f20566934709204"
+        },
+        "d344eb8f-c464-4808-9675-2e2b262137cd709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d344eb8f-c464-4808-9675-2e2b262137cd709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "8261ea62-4460-4d13-856e-11a89da34460709204"
+        },
+        "1a63709c-2e5e-4488-bb06-681fd7c79ce6709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "1a63709c-2e5e-4488-bb06-681fd7c79ce6709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "c9e649eb-9d6f-4a97-a581-25bc23fb2dc6709204"
+        },
+        "025e0784-ca61-4ed5-956a-07f8d2a851bb709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "025e0784-ca61-4ed5-956a-07f8d2a851bb709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "87acae29-26a1-4dae-aa6c-dad83e7b8983709204"
+        },
+        "a159d71b-6977-4cd4-a80b-68c7a9beec8c709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "a159d71b-6977-4cd4-a80b-68c7a9beec8c709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "7ca3ffa3-5554-46fb-9e4c-21aaa8768493709204"
+        },
+        "f0cbc2f2-39bb-4ed9-9c08-d9e10e37bc15709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "f0cbc2f2-39bb-4ed9-9c08-d9e10e37bc15709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "b850ef03-dd7d-48b9-ba43-0ab91574cb14709204"
+        },
+        "cc3ebd03-ee47-49b1-88ef-3b652e8d7534709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "cc3ebd03-ee47-49b1-88ef-3b652e8d7534709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "42b59714-b915-4351-8615-f73dea998d39709204"
+        },
+        "03e29177-189b-4608-831a-ea6006e6f3c5709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "03e29177-189b-4608-831a-ea6006e6f3c5709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "f2417b15-6f28-4533-8d5c-9e91123a14b2709204"
+        },
+        "4a26487d-7f87-4cba-abab-2131a5ad32f2709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "4a26487d-7f87-4cba-abab-2131a5ad32f2709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "e99e9a6f-f6e1-4312-b003-5878d908f3ce709204"
+        },
+        "b394c4e1-0ee6-4349-9e83-be63c4764833709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b394c4e1-0ee6-4349-9e83-be63c4764833709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "f9a78cba-3904-49d3-b0da-72dbf64df687709204"
+        },
+        "f3cbc39e-8e6c-457d-a2cc-cdae5d5e0a35709204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "f3cbc39e-8e6c-457d-a2cc-cdae5d5e0a35709204",
+          "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204",
+          "to": "518a2b66-f38b-49a4-9220-52cbdd3a9370709204"
+        },
+        "db39f683-ed11-4611-9619-302a19c837b7204": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "db39f683-ed11-4611-9619-302a19c837b7204",
+          "from": "ea25b7ca-7308-4e5d-8d23-becf10837170204",
+          "to": "d6a2f6ee-56a5-4221-be38-49c0a8364a7196204"
+        },
+        "66696604-9e7d-4bef-b9d0-dc9a36d210e7204": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "66696604-9e7d-4bef-b9d0-dc9a36d210e7204",
+          "from": "ea25b7ca-7308-4e5d-8d23-becf10837170204",
+          "to": "604289ab-7ae3-4401-afdc-44d012b2609c96204"
+        },
+        "0678e313-93f8-4397-b556-b227cbae79ef204": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "0678e313-93f8-4397-b556-b227cbae79ef204",
+          "from": "ea25b7ca-7308-4e5d-8d23-becf10837170204",
+          "to": "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced96204"
+        },
+        "66e8d904-5b93-444b-a686-54e1db475a2f96204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "66e8d904-5b93-444b-a686-54e1db475a2f96204",
+          "from": "d6a2f6ee-56a5-4221-be38-49c0a8364a7196204",
+          "to": "52aee244-a92a-41a3-8b71-373d541e660d96204"
+        },
+        "207e187e-3dbe-4189-a331-3f0f212580f596204": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "207e187e-3dbe-4189-a331-3f0f212580f596204",
+          "from": "d6a2f6ee-56a5-4221-be38-49c0a8364a7196204",
+          "to": "8dcd7da6-9174-4a9a-92df-19ac2ef2574596204"
+        },
+        "e066a4b5-9b02-4d20-bf5d-dea0740e20e3272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "e066a4b5-9b02-4d20-bf5d-dea0740e20e3272",
+          "from": "b0ab9a5c-3969-4305-b107-d656ef662765272",
+          "to": "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e272"
+        },
+        "4b764583-ea7e-405b-93dd-82437c3d14fc272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "4b764583-ea7e-405b-93dd-82437c3d14fc272",
+          "from": "b0ab9a5c-3969-4305-b107-d656ef662765272",
+          "to": "7b984b0f-df05-4527-8ac8-8706b9691d36272"
+        },
+        "46e573b2-afe1-4939-b210-cbbf6a690e86272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "46e573b2-afe1-4939-b210-cbbf6a690e86272",
+          "from": "b0ab9a5c-3969-4305-b107-d656ef662765272",
+          "to": "a8fd2573-44a2-4d77-9721-81e1457bc1f0272"
+        },
+        "86091c85-7a02-4b44-9133-36d8c06b3e90272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "86091c85-7a02-4b44-9133-36d8c06b3e90272",
+          "from": "b0ab9a5c-3969-4305-b107-d656ef662765272",
+          "to": "48a4c37a-5708-48fc-9e33-37312999d807272"
+        },
+        "8b967eec-9d2a-4463-bb49-e1143ac45fc4272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8b967eec-9d2a-4463-bb49-e1143ac45fc4272",
+          "from": "b0ab9a5c-3969-4305-b107-d656ef662765272",
+          "to": "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46272"
+        },
+        "7dc51589-12e9-42fc-9d7a-ac9fd1bd6c0c272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7dc51589-12e9-42fc-9d7a-ac9fd1bd6c0c272",
+          "from": "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e272",
+          "to": "c8fff93b-99a7-4e44-b775-013dd5b18cd0272"
+        },
+        "959a5fd5-e59e-4da5-a181-d02bb181695a272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "959a5fd5-e59e-4da5-a181-d02bb181695a272",
+          "from": "c8fff93b-99a7-4e44-b775-013dd5b18cd0272",
+          "to": "244022c3-df85-4859-b198-983acf2a904c272"
+        },
+        "cdee0a75-1f93-4928-a613-6d6fa17255cf272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "cdee0a75-1f93-4928-a613-6d6fa17255cf272",
+          "from": "7b984b0f-df05-4527-8ac8-8706b9691d36272",
+          "to": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1272"
+        },
+        "8e730a1a-d7d3-4ff7-a077-ab21ade7b336272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8e730a1a-d7d3-4ff7-a077-ab21ade7b336272",
+          "from": "7b984b0f-df05-4527-8ac8-8706b9691d36272",
+          "to": "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc272"
+        },
+        "cf6482eb-88af-4e5d-9bb0-c6822605df82272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "cf6482eb-88af-4e5d-9bb0-c6822605df82272",
+          "from": "7b984b0f-df05-4527-8ac8-8706b9691d36272",
+          "to": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272"
+        },
+        "d5ecb3a4-026d-4d01-8ebd-03ac56b0a8ad272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d5ecb3a4-026d-4d01-8ebd-03ac56b0a8ad272",
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1272",
+          "to": "849f7b5d-b9aa-4aa2-a527-8b8a5f654712272"
+        },
+        "8dcb3bae-502c-4dc4-afe0-f35522353573272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8dcb3bae-502c-4dc4-afe0-f35522353573272",
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1272",
+          "to": "fecf5e72-1e19-410e-87b8-f36ff58504b6272"
+        },
+        "84d39fb9-3ee1-4405-90bb-780a7701a6a7272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "84d39fb9-3ee1-4405-90bb-780a7701a6a7272",
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1272",
+          "to": "fecf5e72-1e19-410e-87b8-f36ff58504b6210272"
+        },
+        "fa3b45b2-67cc-41b2-ae68-0b60c853c165272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fa3b45b2-67cc-41b2-ae68-0b60c853c165272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "50b02362-4c2e-4801-b250-bbb084bf9bb2272"
+        },
+        "3eb1ae02-bd28-4287-8d8b-59afd8a4e505272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "3eb1ae02-bd28-4287-8d8b-59afd8a4e505272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "92f53a00-cf65-456f-bfcf-6f6c88119d5b272"
+        },
+        "efe0adc4-61a1-4262-8d2a-65d18ffadc8c272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "efe0adc4-61a1-4262-8d2a-65d18ffadc8c272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "75ff23b4-3d0f-4c06-8061-4069494a326f272"
+        },
+        "253b7fcf-ff8e-4265-8b94-3e88c4ce1a62272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "253b7fcf-ff8e-4265-8b94-3e88c4ce1a62272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf272"
+        },
+        "0c47a90e-9ea9-4986-836f-c2b548b1cd73272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "0c47a90e-9ea9-4986-836f-c2b548b1cd73272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "2d9049d8-feaf-41cd-afb1-87515557983e272"
+        },
+        "33778b12-0835-4236-8c9c-52b54f5a29ac272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "33778b12-0835-4236-8c9c-52b54f5a29ac272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "51a5b447-fa28-4997-80ca-b7a96a69ef9e272"
+        },
+        "6e01bd8f-acc8-412b-83e8-10bd07a814fa272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6e01bd8f-acc8-412b-83e8-10bd07a814fa272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "8a139418-94d2-4121-94a4-8d2a26213d24272"
+        },
+        "27b60b32-37af-479a-b82d-cc805b852598272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "27b60b32-37af-479a-b82d-cc805b852598272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "76fc5be1-7bae-46ec-a649-1bc6509b378d272"
+        },
+        "eea59217-97f9-4a82-bddd-fb106b2413b4272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "eea59217-97f9-4a82-bddd-fb106b2413b4272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "21dc8bf2-6e0c-42cf-b702-d47f24af173a272"
+        },
+        "2f95f151-0818-4049-978c-02441fad6f58272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "2f95f151-0818-4049-978c-02441fad6f58272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "1f9b98e7-ca75-443c-952d-a1d0ba476652272"
+        },
+        "9e3ea040-5186-4ec9-9077-df776b960700272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "9e3ea040-5186-4ec9-9077-df776b960700272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "f9c77b6e-13d7-4687-9d7f-e858e5cf5685272"
+        },
+        "b8c89a15-fdcf-479e-bcd7-7f93e1b70ea5272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b8c89a15-fdcf-479e-bcd7-7f93e1b70ea5272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661272"
+        },
+        "cad0faf8-849b-4d8c-818d-0ea29a92cf32272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "cad0faf8-849b-4d8c-818d-0ea29a92cf32272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "f13fa072-1d46-45b2-b2b1-679177d88ba6272"
+        },
+        "236967f7-aa99-4f6a-b3e8-bca9d217d768272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "236967f7-aa99-4f6a-b3e8-bca9d217d768272",
+          "from": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272",
+          "to": "ab382182-58b3-4799-ad70-5340f6f6e88d272"
+        },
+        "c541abe4-1701-4266-9053-10c9c6984b75272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c541abe4-1701-4266-9053-10c9c6984b75272",
+          "from": "849f7b5d-b9aa-4aa2-a527-8b8a5f654712272",
+          "to": "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661272"
+        },
+        "c8123b27-7bde-453e-89ad-9ffc716d189f272": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c8123b27-7bde-453e-89ad-9ffc716d189f272",
+          "from": "fecf5e72-1e19-410e-87b8-f36ff58504b6272",
+          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3272"
+        },
+        "c8123b27-7bde-453e-89ad-9ffc716d189f210272": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "c8123b27-7bde-453e-89ad-9ffc716d189f210272",
+          "from": "fecf5e72-1e19-410e-87b8-f36ff58504b6210272",
+          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210272"
         }
       },
       "length": 0,
@@ -74526,10 +77743,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.010196874379130406,
+    "scale": 0.010657548360660445,
     "viewPosition": {
-      "x": 108116.74519307625,
-      "y": 16554.708447440556
+      "x": 119169.82006149503,
+      "y": 18048.53297686935
     }
   }
 }
