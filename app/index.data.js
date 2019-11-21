@@ -35570,7 +35570,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -35598,7 +35599,7 @@ var schemeData =
           "x": 15104,
           "y": -20066,
           "shape": "box",
-          "link": "https://sushilshik.github.com/base.html",
+          "link": "https://sushilshik.github.com/culture.html",
           "borderWidth": ""
         },
         "fecf5e72-1e19-410e-87b8-f36ff58504b6210609": {
@@ -67768,10 +67769,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.00975681190374291,
+    "scale": 0.008892232397294308,
     "viewPosition": {
-      "x": 67802.58594853719,
-      "y": 8321.37607831782
+      "x": 67876.68557018337,
+      "y": 8028.352297698774
     }
   }
 }
