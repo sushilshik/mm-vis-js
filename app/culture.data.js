@@ -1442,7 +1442,7 @@ var schemeData =
           "x": 65329,
           "y": -9366,
           "shape": "box",
-          "link": "file:///home/mike/progr/repo/mm-vis-js/app/culture.html",
+          "link": "https://sushilshik.github.com/culture.html",
           "borderWidth": ""
         },
         "fecf5e72-1e19-410e-87b8-f36ff58504b6210": {
@@ -35098,10 +35098,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.015878023096150953,
+    "scale": 0.01615243648591689,
     "viewPosition": {
-      "x": 95924.01983646993,
-      "y": 7118.7842479772335
+      "x": 94852.53587101745,
+      "y": 8400.573874102289
     }
   }
 }
