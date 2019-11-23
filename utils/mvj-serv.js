@@ -1,6 +1,9 @@
+//openssl req -nodes -new -x509 -keyout server.key -out server.cert
 var fs = require("fs");
+var https = require('https');
 var host = "127.0.0.1";
 var port = 1337;
+var httpsPort = 3001;
 var express = require("express");
 
 var mvjCodePath = "/home/mike/progr/repo/mm-vis-js/utils/mvj-code.js";
@@ -80,3 +83,11 @@ app.get("/", function(request, response){ //root dir
 });
 
 app.listen(port, host);
+
+var options = {
+  key: fs.readFileSync('server.key'),
+  cert: fs.readFileSync('server.cert')
+};
+https.createServer( options, function(req,res) {
+    app.handle( req, res );
+}).listen(httpsPort);
