@@ -32,6 +32,8 @@ var themeGraph = false;
 var cancelNodeEdit = false;
 var showCursorCoordinates = false;
 var pathDelimiter = "/";
+var lastEditedNodesIds = [];
+var lastClickPosition = null;
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -50,7 +52,6 @@ function objectToArray(obj) {
 		return obj[key];
 	});
 }
-
 if (typeof code_data1 !== "undefined") {
 	objectToArray(code_data1).forEach(function(item) {
 		schemeData.canvas1Data.nodes._data[item.id] = item;
@@ -114,6 +115,14 @@ function destroy() {
 		network = null;
 	}
 }
+function addNodeOnCanvas(label, link, position, shiftX, shiftY, network) {
+	return network.body.data.nodes.add({
+		label:label,
+		link: link,
+		x: position.x + shiftX,
+		y: position.y + shiftY
+	});
+}
 function alignNodesLeft(nodes) {
 	var minLeft;
 	nodes.forEach(function(node) {
@@ -154,6 +163,17 @@ function alignNodesLeft(nodes) {
 		scale: scale,
 	});
 }
+function showAlert(alertLine, rightShift, width) {
+        var schemeDataMenuWidth = 0;
+        if (document.getElementById("schemeDataMenu").style.display != "none") {
+                schemeDataMenuWidth = parseInt(document.getElementById("schemeDataMenu").style.width.replace("px",""), 10);
+        } else {
+                schemeDataMenuWidth = 59;
+        }
+        var saveAlertWidget = $("<div id='alertLine' style='z-index:9999;position: fixed;right:" + String(schemeDataMenuWidth + rightShift) + "px;top:0;font-family:sans-serif;font-size:14px; margin:5px; width:" + String(width) + "px;'>" + alertLine + "</div>");
+        $("body").append(saveAlertWidget);
+        setTimeout(() => $("#alertLine").remove(), 5000);
+}
 function mkdirRecursiveSync(path, pathDelimiter) {
     var paths = path.split(pathDelimiter);
     var fullPath = '';
@@ -166,6 +186,35 @@ function mkdirRecursiveSync(path, pathDelimiter) {
         }
     });
 };
+function collectCodeNodesContent(rootCodeNodeId) {
+	var codeNode = network.body.data.nodes.get(rootCodeNodeId).label + "\n";
+	var nodeEdges = network.body.nodes[rootCodeNodeId].edges;
+	var codeEdges = [];
+	nodeEdges.forEach(function(edge) {
+		if (edge.options.label == "code" && edge.fromId == rootCodeNodeId) {
+			codeEdges.push(edge);
+		}
+	});
+	var branchCodeNodes = [];
+	codeEdges.forEach(function(codeEdge) {
+		branchCodeNodes.push(network.body.data.nodes.get(codeEdge.toId));
+	});
+	function compare( a, b ) {
+		if ( a.y < b.y ){
+			return -1;
+		}
+		if ( a.y > b.y ){
+			return 1;
+		}
+		return 0;
+	}
+
+	var branchCodeNodes = branchCodeNodes.sort(compare);
+	branchCodeNodes.forEach(function(branchNode) {
+		codeNode = codeNode + collectCodeNodesContent(branchNode.id);
+	});
+	return codeNode;
+}
 
 function draw() {
 	destroy();
@@ -195,7 +244,10 @@ function draw() {
 				background: "#ffd570"
 			},
 			labelHighlightBold: false,
-			borderWidth: 0
+			borderWidth: 0,
+                        font: {
+                           align: "left"
+                        }
 		},
 		autoResize: true,
 		interaction: {
@@ -231,15 +283,19 @@ function draw() {
 				document.getElementById('network-popUp').style.top = (clickPosition.y + 20) + "px";
 				document.getElementById('network-popUp').style.left = (clickPosition.x + 20) + "px";
 				$("textarea#node-label").focus();
+                                lastEditedNodesIds = [];
+                                lastClickPosition = null;
 			},
 			editNode: function (data, callback) {
 				// filling in the popup DOM elements
 				document.getElementById('operation').innerHTML = "Edit Node";
 				document.getElementById('node-id').value = data.id;
+                                if (typeof data.label === "undefined") data.label = "";
 				document.getElementById('node-label').value = data.label;
 				document.getElementById('saveButton').onclick = saveData.bind(this, data, callback);
 				document.getElementById('cancelButton').onclick = cancelEdit.bind(this,callback);
 				document.getElementById('network-popUp').style.display = 'block';
+                                $("#node-label").focus();
 			},
 			addEdge: function (data, callback) {
 				if (data.from == data.to) {
@@ -252,11 +308,57 @@ function draw() {
 					callback(data);
 				}
 			},
+                        editEdge: {
+                           editWithoutDrag: function(data, callback) {
+                              document.getElementById('edge-operation').innerHTML = "Edit Edge";
+                              editEdgeWithoutDrag(data,callback);
+                                var schemeDataMenuWidth = 0;
+                                if (document.getElementById("schemeDataMenu").style.display != "none") {
+                                        schemeDataMenuWidth = parseInt(document.getElementById("schemeDataMenu").style.width.replace("px",""), 10);
+                                } else {
+                                        schemeDataMenuWidth = 0;
+                                }
+                                var positionX = (canvasWidth - schemeDataMenuWidth)/2;
+                                var positionY = (canvasHeight)/2;
+                                document.getElementById('edge-popUp').style.top = (positionY - 30) + "px";
+                                document.getElementById('edge-popUp').style.left = (positionX - 125) + "px";
+                                $("input#edge-label").focus();
+
+                           }
+                        },
 			deleteNode: function (data, callback) {
 				callback(data);
-			},
+			}
 		}
 	};
+    function editEdgeWithoutDrag(data, callback) {
+      // filling in the popup DOM elements
+      document.getElementById('edge-label').value = data.label;
+      document.getElementById('edge-saveButton').onclick = saveEdgeData.bind(this, data, callback);
+      document.getElementById('edge-cancelButton').onclick = cancelEdgeEdit.bind(this,callback);
+      document.getElementById('edge-popUp').style.display = 'block';
+    }
+
+    function clearEdgePopUp() {
+      document.getElementById('edge-saveButton').onclick = null;
+      document.getElementById('edge-cancelButton').onclick = null;
+      document.getElementById('edge-popUp').style.display = 'none';
+    }
+
+    function cancelEdgeEdit(callback) {
+      clearEdgePopUp();
+      callback(null);
+    }
+
+    function saveEdgeData(data, callback) {
+      if (typeof data.to === 'object')
+        data.to = data.to.id
+      if (typeof data.from === 'object')
+        data.from = data.from.id
+      data.label = document.getElementById('edge-label').value;
+      clearEdgePopUp();
+      callback(data);
+    }
 	var options1 = {
 		height: canvasHeightSetup + '%',
 		width: canvasWidthSetup + '%',
@@ -460,6 +562,51 @@ function draw() {
 		};
 		return network.manipulation.addThemeGraph.apply(network.manipulation, arguments);
 	};
+
+  /**
+   * connect two nodes with a new edge.
+   *
+   * @param {Node.id} sourceNodeId
+   * @param {Node.id} targetNodeId
+   * @private
+   */
+  network.manipulation._performEditEdge = function(sourceNodeId, targetNodeId) {
+    let defaultData = {id: network.manipulation.edgeBeingEditedId, from: sourceNodeId, to: targetNodeId, label: network.body.data.edges.get(network.manipulation.edgeBeingEditedId).label };
+    let eeFunct = network.manipulation.options.editEdge;
+    if (typeof eeFunct === 'object') {
+      eeFunct = eeFunct.editWithoutDrag;
+    }
+    if (typeof eeFunct === 'function') {
+      if (eeFunct.length === 2) {
+        eeFunct(defaultData, (finalizedData) => {
+          if (finalizedData === null || finalizedData === undefined || network.manipulation.inMode !== 'editEdge') { // if for whatever reason the mode has changes (due to dataset change) disregard the callback) {
+            network.manipulation.body.edges[defaultData.id].updateEdgeType();
+            network.manipulation.body.emitter.emit('_redraw');
+            network.manipulation.showManipulatorToolbar();
+          } else {
+            var tmpNodeVar;
+            if (finalizedData.label == "") {
+               tmpNodeVar = true;
+               finalizedData.label = " ";
+            }
+            network.manipulation.body.data.edges.getDataSet().update(finalizedData);
+            if (tmpNodeVar) finalizedData.label = "";
+            network.manipulation.body.data.edges.getDataSet().update(finalizedData);
+            network.manipulation.selectionHandler.unselectAll();
+            network.manipulation.showManipulatorToolbar();
+          }
+        });
+      } else {
+        throw new Error('The function for edit does not support two arguments (data, callback)');
+      }
+    } else {
+      network.manipulation.body.data.edges.getDataSet().update(defaultData);
+      network.manipulation.selectionHandler.unselectAll();
+      network.manipulation.showManipulatorToolbar();
+    }
+    network.edgesHandler.reconnectEdges();
+  }
+
 	network.showManipulatorToolbar = function () {
 		this.manipulation.showManipulatorToolbar = function () {
 			// restore the state of any bound functions or events, remove control nodes, restore physics
@@ -813,9 +960,53 @@ function draw() {
 				from:newNode1Id,
 				to:goalsNodeId
 			});
-			themeGraph = false;
-		}
-	}
+                        newNodesIds1 = [
+                           booksNodeId,
+                           rDInstitutionsNodeId,
+                           sitesNodeId,
+                           magazinesNodeId,
+                           articlesNodeId,
+                           mediaContentNodeId,
+                           miscWebLinksNodeId,
+                           projectsNodeId,
+                           toolsNodeId,
+                           organizationsNodeId,
+                           standartsNodeId,
+                           forumsGroupsNodeId,
+                           lawsNodeId,
+                           adjacentThemesNodeId
+                        ];
+                        var nodes1 = [];
+                        newNodesIds1.forEach(function(nodeId) {
+                           nodes1.push(network.body.nodes[nodeId]);
+                        });
+                        alignNodesLeft(nodes1);
+                        newNodesIds2 = [
+                           newNode5Id,
+                           questionsNodeId,
+                           problemsNodeId,
+                           goalsNodeId,
+                           newNode2Id
+                        ];
+                        var nodes2 = [];
+                        newNodesIds2.forEach(function(nodeId) {
+                           nodes2.push(network.body.nodes[nodeId]);
+                        });
+                        alignNodesLeft(nodes2);
+                        newNodesIds3 = [
+                           newNode6Id,
+                           newNode7Id,
+                           sectionsNodeId,
+                           newNode4Id
+                        ];
+                        var nodes3 = [];
+                        newNodesIds3.forEach(function(nodeId) {
+                           nodes3.push(network.body.nodes[nodeId]);
+                        });
+                        alignNodesLeft(nodes3);
+         themeGraph = false;
+      }
+   }
 	function onDoubleClick(e) {
 		if (e.event.srcEvent.ctrlKey) {
 			network.addEdgeMode();
@@ -823,7 +1014,126 @@ function draw() {
 			network.addNodeMode();
 		}
 	}
-	$("#network").keyup(function (event) {
+   function findParentNodeId(nodeId) {
+      var edges = network.body.nodes[nodeId].edges;
+      if ((typeof edges === "undefined") || (edges.length == 0)) {
+         return nodeId;
+      }
+      var parentNodeId;
+      for (var key in edges) {
+         if (edges[key].toId == nodeId) {
+            parentNodeId = edges[key].from.id;
+         }
+      }
+      return parentNodeId;
+   }
+   function findTreeRootNodeId(branchNodeId) {
+      var parentNodeId = findParentNodeId(branchNodeId);
+      if (typeof parentNodeId !== "undefined") {
+         return findTreeRootNodeId(parentNodeId);   
+      } else {
+         return branchNodeId;
+      }
+   }
+   $("#network").keyup(function (event) {
+      //Add new node under cursor. alt+n
+      if (event.altKey && event.keyCode === 78) {
+         var schemeDataMenuWidth = 0;
+         if (document.getElementById("schemeDataMenu").style.display != "none") {
+            schemeDataMenuWidth = parseInt(document.getElementById("schemeDataMenu").style.width.replace("px",""), 10);
+         } else {
+            schemeDataMenuWidth = 0;
+         }
+         var lastEditedNodeId;
+         var lastEditedNode;
+         var position;
+         if (lastEditedNodesIds.length == 0) {
+            if (lastClickPosition == null) {
+               position = {
+                  x: (canvasWidth - schemeDataMenuWidth)/2,
+                  y: canvasHeight/2
+               };
+            } else {
+               position = {
+                  x: lastClickPosition.x,
+                  y: lastClickPosition.y
+               };
+            }
+            position = network.canvas.DOMtoCanvas(position);
+         } else {
+            var lastEditedNodeId = lastEditedNodesIds[lastEditedNodesIds.length - 1];
+            var lastEditedNode = network.body.data.nodes.get(lastEditedNodeId)[0];
+            var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);
+            position = {
+               x: lastEditedNode.x,
+               y: nodeBBox["top"] + 28 + 28*lastEditedNode.label.split("\n").length/2
+            };
+         }
+         var nodeId = addNodeOnCanvas("", "", position, 0, 0, network);
+         var node = network.body.nodes[nodeId];
+         network.selectionHandler.selectObject(node);
+         lastEditedNodesIds.push(nodeId);
+         network.manipulation.editNode();
+      }
+      //Build project. alt+b
+      if (event.altKey && event.keyCode === 66) {
+         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);
+         if (selectedNodes.length != 1) {
+            console.log("Select one node");
+            showAlert("Select one node", 80, 150);
+            return;
+         }
+         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);
+         var rootNode = network.body.data.nodes.get(rootNodeId);
+         var projectName = rootNode.label.replace("mvj code file for project name: ","");
+			var buildProjectParentNode;
+			var buildProjectParentNodeName = "buildProject code: " + projectName;
+			var nodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + buildProjectParentNodeName + "$"));
+			if (nodes.length == 0) {
+				console.log("ERROR: no " + buildProjectParentNodeName + " node");
+				return;
+			}
+			buildProjectParentNode = nodes[0];
+			var edges = network.body.nodes[buildProjectParentNode.id].edges;
+			var buildProjectCodeNode;
+			for (var key in edges) {
+				if (edges[key].fromId == buildProjectParentNode.id) {
+					buildProjectCodeNode = edges[key].to;
+				}
+			}	
+			if (typeof buildProjectCodeNode === "undefined") {
+				console.log("ERROR: no buildProjectCodeNode");
+				return;
+			}
+			var code = collectCodeNodesContent(buildProjectCodeNode.id);
+			var codeFunction = new Function('codeNodeId', code);
+			codeFunction(buildProjectCodeNode.id);
+		}
+                //Save canvas. Ctrl+alt+s
+		if (event.ctrlKey && event.altKey && event.keyCode === 83) {
+			var saveOperationsParentNode;
+			var saveOperationsParentNodeName = "Save operations code";
+			var nodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveOperationsParentNodeName + "$"));
+			if (nodes.length == 0) {
+				console.log("ERROR: no " + saveOperationsParentNodeName + " node");
+				return;
+			}
+			saveOperationsParentNode = nodes[0];
+			var edges = network.body.nodes[saveOperationsParentNode.id].edges;
+			var saveOperationsCodeNode;
+			for (var key in edges) {
+				if (edges[key].fromId == saveOperationsParentNode.id) {
+					saveOperationsCodeNode = edges[key].to;
+				}
+			}	
+			if (typeof saveOperationsCodeNode === "undefined") {
+				console.log("ERROR: no saveOperationsCodeNode");
+				return;
+			}
+			var code = collectCodeNodesContent(saveOperationsCodeNode.id);
+			var codeFunction = new Function('codeNodeId', code);
+			codeFunction(saveOperationsCodeNode.id);
+		}
 		//Duplicate. Ctrl+alt+d.
 		if (event.ctrlKey && event.altKey && event.keyCode === 68) {
 			var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
@@ -891,6 +1201,33 @@ function draw() {
 			network.selectionHandler.setSelection(network.selectionHandler.getSelection());
 		}
 	});
+   $("div#network").keydown(function (event) {
+      //Left align nodes. alt + LeftArrow
+      if (event.altKey && event.keyCode === 37) {
+         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+         alignNodesLeft(nodes);
+      }
+   });
+   $("div#network").keydown(function (event) {
+      //Zoom out. shift+alt+d
+      if (event.shiftKey && event.altKey && event.keyCode === 68) {
+         var scale = network.getScale();
+         var newScale = scale * 0.3;
+         var position = network.getViewPosition();
+         position = network.canvasToDOM(position);
+         network.interactionHandler.zoom(newScale, position);
+      }
+   });
+   $("div#network").keydown(function (event) {
+      //Zoom in. shfit+alt+f
+      if (event.shiftKey && event.altKey && event.keyCode === 70) {
+         var scale = network.getScale();
+         var newScale = scale * 3;
+         var position = network.getViewPosition();
+         position = network.canvasToDOM(position);
+         network.interactionHandler.zoom(newScale, position);
+      }
+   });
 	$("#network").keydown(function (event) {
 		//Delete or Backspace
 		//if (event.ctrlKey && event.keyCode === 13) {
@@ -911,6 +1248,37 @@ function draw() {
 			cancelNodeEdit = true;
 		}
 	});
+   $("div#schemeEditElementsMenu").keydown(function (event) {
+      //saveElement. alt+Enter
+      if (event.altKey && event.keyCode === 13) {
+         $("span#saveElementEditButton").click();
+      }
+   });
+   $("div#schemeEditElementsMenu").keydown(function (event) {
+      //saveElement and closeElement. ctrl+Enter
+      if (event.ctrlKey && event.keyCode === 13) {
+         $("span#saveElementEditButton").click();
+         $("span#closeElementEditButton").click();
+      }
+   });
+   $("div#schemeEditElementsMenu").keydown(function (event) {
+      //Esc
+      if (event.keyCode === 27) {
+         network.disableEditMode();
+         network.selectionHandler.unselectAll();
+         $("span#closeElementEditButton").click();
+         network.editNode();
+      }
+   });
+   $("div#network").keydown(function (event) {
+      //Esc
+      if (event.keyCode === 27 && document.getElementsByClassName("vis-back").length == 0) {
+         network.disableEditMode();
+         network.selectionHandler.unselectAll();
+         $("span#closeElementEditButton").click();
+         network.editNode();
+      }
+   });
 	$(document).keydown(function (event) {
 		//Esc
 		if (event.keyCode === 27) {
@@ -965,6 +1333,7 @@ function draw() {
 		}
 	});
 	containerJQ.on("mousedown", function(e) {
+                lastClickPosition = {x: e.pageX, y: e.pageY};
 		if (e.button == 2) { 
 			selectedNodes = e.ctrlKey ? network.getSelectedNodes() : null;
 			saveDrawingSurface();
@@ -992,7 +1361,7 @@ function draw() {
 		var nodeXInput = $("input#nodeXInput");
 		var nodeYInput = $("input#nodeYInput");
 		var nodeShapeInput = $("input#nodeShapeInput");
-		var nodeLinkInput = $("input#nodeLinkInput");
+		var nodeLinkTextarea = $("textarea#nodeLinkTextarea");
 		var nodeFontSizeInput = $("input#nodeFontSizeInput");
 		var nodeFontAlignInput = $("input#nodeFontAlignInput");
 		var nodeColorInput = $("input#nodeColorInput");
@@ -1010,9 +1379,9 @@ function draw() {
 			nodeShapeInput.val("box");
 		}
 		if (typeof nodeD.link !== "undefined" && nodeD.link.length > 0) {
-			nodeLinkInput.val(nodeD.link);
+			nodeLinkTextarea.val(nodeD.link);
 		} else {
-			nodeLinkInput.val("");
+			nodeLinkTextarea.val("");
 		}
 		if (typeof nodeD.font !== "undefined" && typeof nodeD.font.size !== "undefined") {
 			nodeFontSizeInput.val(nodeD.font.size);
@@ -1051,11 +1420,6 @@ function draw() {
 		canvasWidth = properties.width;
 		canvasHeight = properties.height;
 	});
-	network.on('deselectNode', function (properties) {
-		schemeEditElementsMenu.hide();
-		$(".vis-separator-line").remove();
-		$(".vis-close").remove();
-	});
 	network.on('deselectEdge', function (properties) {
 		$(".vis-separator-line").remove();
 		$(".vis-close").remove();
@@ -1064,6 +1428,11 @@ function draw() {
 	});
 
 	network.on("blurNode", function(params) {
+	});
+	network.on('deselectNode', function (properties) {
+		schemeEditElementsMenu.hide();
+		$(".vis-separator-line").remove();
+		$(".vis-close").remove();
 	});
 	var lastPositionX = "a";
 	var startN1X = null;
@@ -1231,6 +1600,8 @@ function clearPopUp() {
 	document.getElementById('saveButton').onclick = null;
 	document.getElementById('cancelButton').onclick = null;
 	document.getElementById('network-popUp').style.display = 'none';
+        network.selectionHandler.unselectAll();
+        $("#network div.vis-network").focus();
 }
 function cancelEdit(callback) {
 	clearPopUp();
@@ -1240,16 +1611,25 @@ function saveData(data,callback) {
 	data.id = document.getElementById('node-id').value;
 	data.label = document.getElementById('node-label').value;
 	clearPopUp();
+        if (data.label.split("\n").length > 1) {
+           var labelHeightShift = 14*data.label.split("\n").length/2 - 7;
+           lastEditedNodesIds.forEach(function(nodeId) {
+              var nodeD = network.body.data.nodes.get(nodeId)[0];
+              var pNode = network.getPositions()[nodeId];
+              nodeD.x = pNode.x;
+              nodeD.y = pNode.y - labelHeightShift;
+              network.nodesHandler.moveNode(nodeD.id, nodeD.x, nodeD.y);
+           });
+        }
+
 	callback(data);
 }
 function init() {
 	draw();
 }
-
 function saveDrawingSurface() {
    drawingSurfaceImageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
 }
-
 function restoreDrawingSurface() {
     ctx.putImageData(drawingSurfaceImageData, 0, 0);
 }
@@ -1527,10 +1907,10 @@ $(document).ready(function() {
 	var eSItem62 = $("<td></td>");
 	eSRow6.append(eSItem61);
 	eSRow6.append(eSItem62);
-	var nodeLinkInputLabel = $("<div style=''><span>nodeLink: </span></div>");
-	eSItem61.append(nodeLinkInputLabel);
-	var nodeLinkInput = $("<input type='text' id='nodeLinkInput'></input>");
-	eSItem62.append(nodeLinkInput);
+	var nodeLinkTextareaLabel = $("<div style=''><span>nodeLink: </span></div>");
+	eSItem61.append(nodeLinkTextareaLabel);
+	var nodeLinkTextarea = $("<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>");
+	eSItem62.append(nodeLinkTextarea);
 	var linkOpenButton = $("<div style='cursor:pointer;margin: 4px 0 2px 0;'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>");
 	eSItem62.append(linkOpenButton);
 
@@ -1589,7 +1969,7 @@ $(document).ready(function() {
 	var nodeFontAlignInput = $("<input type='text' id='nodeFontAlignInput'></input>");
 	eSItem112.append(nodeFontAlignInput);
 	linkOpenButton.click(function() {
-		var link = nodeLinkInput.val();
+		var link = nodeLinkTextarea.val();
 		if (link.length > 0) {
 			window.open(link, '_blank');
 		}
@@ -1605,7 +1985,7 @@ $(document).ready(function() {
 		var nodeXInput = schemeEditElementsMenu.find("input#nodeXInput");
 		var nodeYInput = schemeEditElementsMenu.find("input#nodeYInput");
 		var nodeShapeInput = schemeEditElementsMenu.find("input#nodeShapeInput");
-		var nodeLinkInput = schemeEditElementsMenu.find("input#nodeLinkInput");
+		var nodeLinkTextarea = schemeEditElementsMenu.find("textarea#nodeLinkTextarea");
 		var nodeFontSizeInput = schemeEditElementsMenu.find("input#nodeFontSizeInput");
 		var nodeFontAlignInput = schemeEditElementsMenu.find("input#nodeFontAlignInput");
 		var nodeColorInput = schemeEditElementsMenu.find("input#nodeColorInput");
@@ -1620,7 +2000,7 @@ $(document).ready(function() {
 		nodeD.x = pNode.x;
 		nodeD.y = pNode.y;
 		nodeD.shape = nodeShapeInput.val();
-		nodeD.link = nodeLinkInput.val();
+		nodeD.link = nodeLinkTextarea.val();
 		if (typeof nodeD.font === "undefined") nodeD.font = {size: 14};
 		nodeD.font.size = parseInt(nodeFontSizeInput.val(),10);
 		nodeD.font.align = nodeFontAlignInput.val();
@@ -1636,63 +2016,60 @@ $(document).ready(function() {
 	closeElementEditButton.click(function() {
 		schemeEditElementsMenu.hide();
 	});
-	var splitNodeListLabelButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>");
-	schemeEditElementsMenu.append(splitNodeListLabelButton);
+   var splitNodeListLabelButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>");
+   schemeEditElementsMenu.append(splitNodeListLabelButton);
 
-	splitNodeListLabelButton.click(function() {
-		var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
-		var sourceNode = network.body.data.nodes.get(nodeIdInput);
-		var nodeLabel = sourceNode.label;
-		var pNode = network.getPositions()[nodeIdInput];
-		var labelLines;
-		if (nodeLabel.split("!@!@").length > 1) {
-			labelLines = nodeLabel.split("\n!@!@\n");
-		} else {
-			labelLines = nodeLabel.split("\n");
-		}
-		var nodeBBox = network.nodesHandler.getBoundingBox(nodeIdInput);
-		var y = nodeBBox["top"];
-		labelLines.forEach(function(line,index) {
-			network.body.data.nodes.add({
-				label:line,
-				x: pNode.x + 300,
-				y: y + (14*line.split("\n").length)/2
-			});
-			y = y + 14*line.split("\n").length + 10;
-		});
-	});
+   splitNodeListLabelButton.click(function() {
+      var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
+      var sourceNode = network.body.data.nodes.get(nodeIdInput);
+      var nodeLabel = sourceNode.label;
+      var pNode = network.getPositions()[nodeIdInput];
+      var labelLines;
+      if (nodeLabel.split("!@!@").length > 1) {
+         labelLines = nodeLabel.split("\n!@!@\n");
+      } else {
+         labelLines = nodeLabel.split("\n");
+      }
+      var nodeBBox = network.nodesHandler.getBoundingBox(nodeIdInput);
+      var y = nodeBBox["top"];
+      var newNodesIds = [];
+      if (labelLines[0] == "to") {
+         labelLines.shift();
+         labelLines.forEach(function(line,index) {
+            var position = {
+               x: pNode.x + 300,
+               y: y + (14*line.split("\n").length)/2
+            };
+            var labelAndLink = line.split(" (http");
+            var label = labelAndLink[0].trim();
+            var link = "";
+            if (typeof labelAndLink[1] !== "undefined") {
+               link = "http" + labelAndLink[1].slice(0,-1);
+            }
+            var nodeId = addNodeOnCanvas(label, link, position, 0, 0, network);
+            newNodesIds.push(nodeId);
+            y = y + 14*line.split("\n").length + 10;
+         });
+      } else {
+         labelLines.forEach(function(line,index) {
+            var position = {
+               x: pNode.x + 300,
+               y: y + (14*line.split("\n").length)/2
+            };
+            var nodeId = addNodeOnCanvas(line, "", position, 0, 0, network);
+            newNodesIds.push(nodeId);
+            y = y + 14*line.split("\n").length + 10;
+         });
+      }
+      var nodes = [];
+      newNodesIds.forEach(function(nodeId) {      
+         nodes.push(network.body.nodes[nodeId]);
+      });
+      alignNodesLeft(nodes);
+   });
 	var runNodeCodeButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='runNodeCodeButton'>runNodeCode</span></div>");
 
 	schemeEditElementsMenu.append(runNodeCodeButton);
-	function collectCodeNodesContent(rootCodeNodeId) {
-		var codeNode = network.body.data.nodes.get(rootCodeNodeId).label + "\n";
-		var nodeEdges = network.body.nodes[rootCodeNodeId].edges;
-		var codeEdges = [];
-		nodeEdges.forEach(function(edge) {
-			if (edge.options.label == "code" && edge.fromId == rootCodeNodeId) {
-				codeEdges.push(edge);
-			}
-		});
-		var branchCodeNodes = [];
-		codeEdges.forEach(function(codeEdge) {
-			branchCodeNodes.push(network.body.data.nodes.get(codeEdge.toId));
-		});
-		function compare( a, b ) {
-			if ( a.y < b.y ){
-				return -1;
-			}
-			if ( a.y > b.y ){
-				return 1;
-			}
-			return 0;
-		}
-
-		var branchCodeNodes = branchCodeNodes.sort(compare);
-		branchCodeNodes.forEach(function(branchNode) {
-			codeNode = codeNode + collectCodeNodesContent(branchNode.id);
-		});
-		return codeNode;
-	}
 	runNodeCodeButton.click(function() {
 		var nodeId = schemeEditElementsMenu.find("input#nodeIdInput").val();
 		var code = collectCodeNodesContent(nodeId);
@@ -1855,6 +2232,7 @@ $(document).ready(function() {
 			$("#canvasCursorCoordinates").text((canvasPosition.x).toFixed(0) + "x" + (canvasPosition.y).toFixed(0));
 		});
 	}
+	$("#network div.vis-network").focus();
 });
 function c(x, y) {
 	var imgData = false;
@@ -1912,14 +2290,6 @@ function makeNodeJsonLine(id, label, link, x, y) {
 	json += "\"link\": \"" + link + "\"";
 	json += "}";
 	return json;
-}
-function addNodeOnCanvas(label, link, position, shiftX, shiftY, network) {
-	return network.body.data.nodes.add({
-		label:label,
-		link: link,
-		x: position.x + shiftX,
-		y: position.y + shiftY
-	});
 }
 function countSelectedNodesAndEdges() {
 	var nodes = objectToArray(network.body.data.nodes);

@@ -23218,10 +23218,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/index.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"mainPage1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
+          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/index.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"mainPage1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709",
-          "x": 1660,
-          "y": -19921,
+          "x": 1639,
+          "y": -19837,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24651,10 +24651,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "    if (Object.keys(saveData[saveJobKey]).length == dataChunksLength) {\n\t//var saveData = Object.keys(saveData)\n\t//    .sort(function(a,b) { return +b - +a })\n\t//    .map(function(k) { return { key: k, value: saveData[k] };});\n        var orderedSaveData = {};\n        Object.keys(saveData[saveJobKey]).sort().forEach(function(key) {\n           orderedSaveData[key] = saveData[saveJobKey][key];\n           });\n\tvar data = \"\";\n        for (var key in orderedSaveData) {\n           data += orderedSaveData[key];\n        }\n        console.log(\"data.length: \" + data.length);\n        console.log(\"path: \" + path);\n        data = \"var schemeData =\\n\" + data + \"\\n;\";\n\tvar backupDirPath = rootBackupDirPath + projectName + \"/\";\n\tif (!fs.existsSync(backupDirPath)){\n\t\tfs.mkdirSync(backupDirPath);\n\t}\n\tvar date = new Date();\n\tfs.writeFileSync(backupDirPath + date + \"_\" + saveTime + \"_data.js\", data)\n\tfs.writeFileSync(path, data)\n\tsaveData[saveJobKey] = {};\n",
+          "label": "    if (Object.keys(saveData[saveJobKey]).length == dataChunksLength) {\n        answerLine = JSON.stringify(\"save\");\n\t//var saveData = Object.keys(saveData)\n\t//    .sort(function(a,b) { return +b - +a })\n\t//    .map(function(k) { return { key: k, value: saveData[k] };});\n        var orderedSaveData = {};\n        Object.keys(saveData[saveJobKey]).sort().forEach(function(key) {\n           orderedSaveData[key] = saveData[saveJobKey][key];\n           });\n\tvar data = \"\";\n        for (var key in orderedSaveData) {\n           data += orderedSaveData[key];\n        }\n        console.log(\"data.length: \" + data.length);\n        console.log(\"path: \" + path);\n        data = \"var schemeData =\\n\" + data + \"\\n;\";\n\tvar backupDirPath = rootBackupDirPath + projectName + \"/\";\n\tif (!fs.existsSync(backupDirPath)){\n\t\tfs.mkdirSync(backupDirPath);\n\t}\n\tvar date = new Date();\n\tfs.writeFileSync(backupDirPath + date + \"_\" + saveTime + \"_data.js\", data)\n\tfs.writeFileSync(path, data)\n\tsaveData[saveJobKey] = {};\n",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602482361",
-          "x": 67338,
-          "y": -4303,
+          "x": 67340,
+          "y": -4267,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24687,10 +24687,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "\tif (typeof buildProjectName !== \"undefined\") {\n\t\tvar exec = require(\"child_process\").exec;\n\t\tvar script = exec(mvjCodePath + \" '\" + path + \"' '\" + buildProjectName + \"'\",\n\t\t\t(error, stdout, stderr) => {\n\t\t\t    console.log(stdout);\n\t\t\t    console.log(stderr);\n\t\t\t    if (error !== null) {\n\t\t\t\tconsole.log(`exec error: ${error}`);\n\t\t\t    }\n\t\t\t});\n\t}",
+          "label": "\tif (typeof buildProjectName !== \"undefined\") {\n\t\tvar exec = require(\"child_process\").exec;\n\t\tvar script = exec(mvjCodePath + \" '\" + path + \"' '\" + buildProjectName + \"'\",\n\t\t\t(error, stdout, stderr) => {\n\t\t\t    console.log(stdout);\n\t\t\t    console.log(stderr);\n\t\t\t    if (error !== null) {\n\t\t\t\tconsole.log(`exec error: ${error}`);\n\t\t\t    }\n\t\t\t});\n                answerLine = JSON.stringify(\"saveAndBuild: \" + buildProjectName);\n\t}",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602482199361",
-          "x": 67339,
-          "y": -4037,
+          "x": 67347,
+          "y": -3957,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24724,7 +24724,7 @@ var schemeData =
           "label": "    }\n    response.send(answerLine);\n});\n\napp.listen(port, host);\n\nvar options = {\n  key: fs.readFileSync('server.key'),\n  cert: fs.readFileSync('server.cert')\n};\nhttps.createServer( options, function(req,res) {\n    app.handle( req, res );\n}).listen(httpsPort);",
           "id": "074f4931-22dc-48a3-8383-e3d90dbbc6b8361",
           "x": 67248,
-          "y": -3841,
+          "y": -3757,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24758,8 +24758,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206486",
-          "x": 36799,
-          "y": -13574,
+          "x": 36876,
+          "y": -9619,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24794,8 +24794,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "file path: ./app/application.js",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206486",
-          "x": 37824,
-          "y": -13581,
+          "x": 37901,
+          "y": -9626,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24826,8 +24826,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206486",
-          "x": 38343,
-          "y": -13595
+          "x": 38420,
+          "y": -9640
         },
         "ee38a01b-7b68-4bd4-8b3a-eee22629d252486": {
           "color": {
@@ -24855,9 +24855,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar drag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n///////////////////////////////////",
-          "x": 38808,
-          "y": -13534,
+          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar drag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n///////////////////////////////////",
+          "x": 38915,
+          "y": -9782,
           "id": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
           "shape": "box",
           "link": "",
@@ -24887,14 +24887,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function getUrlVars() {\n\tvar vars = {};\n\tvar parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,\n\t\tfunction(m, key, value) {\n\t\t\tvars[key] = value;\n\t\t});\n\treturn vars;\n}",
-          "x": 39706,
-          "y": -13208,
+          "x": 39783,
+          "y": -9253,
           "id": "db8817cf-9360-4031-ad9a-4f94541500f3486"
         },
         "982a5710-863b-40df-884d-70b558608e9b486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -24902,7 +24904,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -24914,10 +24917,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "function objectToArray(obj) {\n\treturn Object.keys(obj).map(function (key) {\n\t\tobj[key].id = key;\n\t\treturn obj[key];\n\t});\n}\n\nif (typeof code_data1 !== \"undefined\") {\n\tobjectToArray(code_data1).forEach(function(item) {\n\t\tschemeData.canvas1Data.nodes._data[item.id] = item;\n\t});\n}\n\nif (typeof book_imgs !== \"undefined\") {\n\tobjectToArray(book_imgs).forEach(function(item) {\n\t\tschemeData.canvas2Data.nodes._data[item.id] = item;\n\t});\n}",
-          "x": 39677,
-          "y": -13016,
-          "id": "982a5710-863b-40df-884d-70b558608e9b486"
+          "label": "if (typeof code_data1 !== \"undefined\") {\n\tobjectToArray(code_data1).forEach(function(item) {\n\t\tschemeData.canvas1Data.nodes._data[item.id] = item;\n\t});\n}\n\nif (typeof book_imgs !== \"undefined\") {\n\tobjectToArray(book_imgs).forEach(function(item) {\n\t\tschemeData.canvas2Data.nodes._data[item.id] = item;\n\t});\n}",
+          "x": 39754,
+          "y": -8920,
+          "id": "982a5710-863b-40df-884d-70b558608e9b486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "6ef24456-515e-4dab-b0cd-bd6547f9e9ea486": {
           "color": {
@@ -24943,8 +24949,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "var scaleFromUrl = getUrlVars()[\"scale\"];\nvar xFromUrl = getUrlVars()[\"x\"];\nvar yFromUrl = getUrlVars()[\"y\"];\n\nif (typeof scaleFromUrl !== \"undefined\") {\n\tschemeData.setup.scale = scaleFromUrl;\n}\n\nif (typeof xFromUrl !== \"undefined\") {\n\tschemeData.setup.viewPosition.x = xFromUrl;\n}\n\nif (typeof yFromUrl !== \"undefined\") {\n\tschemeData.setup.viewPosition.y = yFromUrl;\n}",
-          "x": 39647,
-          "y": -12775,
+          "x": 39724,
+          "y": -8718,
           "id": "6ef24456-515e-4dab-b0cd-bd6547f9e9ea486"
         },
         "dd335ed4-e289-4094-9b02-33c3d12ede97486": {
@@ -24971,8 +24977,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "var nodes = null;\nvar edges = null;\nvar nodes1 = null;\nvar edges1 = null;\nvar data = null;\nvar data1 = null;\n\nvar nodes = new vis.DataSet(objectToArray(schemeData.canvas1Data.nodes._data));\nvar edges = new vis.DataSet(objectToArray(schemeData.canvas1Data.edges._data));\nvar nodes1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.nodes._data));\nvar edges1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.edges._data));",
-          "x": 39775,
-          "y": -12581,
+          "x": 39852,
+          "y": -8524,
           "id": "dd335ed4-e289-4094-9b02-33c3d12ede97486"
         },
         "0c22bdb1-0345-498b-94bd-db8fae854b84486": {
@@ -24999,8 +25005,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "data = {\n\tnodes: nodes,\n\tedges: edges\n};\n\ndata1 = {\n\tnodes: nodes1,\n\tedges: edges1\n};\n\nvar seed = 2;",
-          "x": 40705,
-          "y": -12412,
+          "x": 40785,
+          "y": -8334,
           "id": "0c22bdb1-0345-498b-94bd-db8fae854b84486"
         },
         "27a85b50-7b54-4434-a753-f2455b46b846486": {
@@ -25027,14 +25033,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function getNodeById(data, id) {\n\tfor (var n = 0; n < data.length; n++) {\n\t\tif (data[n].id == id) { \n\t\t\treturn data[n];\n\t\t}\n\t};\n\n\tthrow 'Can not find id \\'' + id + '\\' in data';\n}",
-          "x": 40783,
-          "y": -12262,
+          "x": 40855,
+          "y": -8149,
           "id": "27a85b50-7b54-4434-a753-f2455b46b846486"
         },
         "5f3eb8b7-ba33-4d15-938a-2eb50fca0147486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -25042,7 +25050,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -25055,9 +25064,12 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function destroy() {\n\tif (network !== null) {\n\t\tnetwork.destroy();\n\t\tnetwork = null;\n\t}\n}",
-          "x": 40721,
-          "y": -12147,
-          "id": "5f3eb8b7-ba33-4d15-938a-2eb50fca0147486"
+          "x": 40796,
+          "y": -7979,
+          "id": "5f3eb8b7-ba33-4d15-938a-2eb50fca0147486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "0df46278-b6f2-44b4-a9ca-bd3f5d276a03486": {
           "color": {
@@ -25083,8 +25095,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function alignNodesLeft(nodes) {\n\tvar minLeft;\n\tnodes.forEach(function(node) {\n\t\tvar nodeD = network.body.data.nodes.get(node.id);\n\t\tvar pNode = network.getPositions()[node.id];\n\t\tnodeD.x = pNode.x;\n\t\tnodeD.y = pNode.y;\n\t\tnetwork.body.data.nodes.update(nodeD);\n\t});\n\n\tfor (i = 0; i < nodes.length; i++) {\n\t\tif (i == 0) minLeft = nodes[i].shape.left;\n\t\tif (minLeft > nodes[i].shape.left) {\n\t\t\tminLeft = nodes[i].shape.left;\n\t\t};\n\t}\n\n\tfor (i = 0; i < nodes.length; i++) {\n\t\tvar leftDiff = nodes[i].shape.left - parseFloat(minLeft.toFixed(5));\n\t\tnetwork.body.nodes[nodes[i].id].x = nodes[i].x - leftDiff;\n\t}\n\n\tvar scale = network.getScale();\n\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\tvar positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n\tvar positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\n\tnetwork.moveTo({\n\t\tposition: {x: positionX, y: positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: scale,\n\t});\n\n\tnetwork1.moveTo({\n\t\tposition: {x: positionX, y: positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: scale,\n\t});\n}",
-          "x": 40877,
-          "y": -11815,
+          "x": 40959,
+          "y": -7289,
           "id": "0df46278-b6f2-44b4-a9ca-bd3f5d276a03486"
         },
         "200bf789-2d9a-4de6-8068-2c291572d19f486": {
@@ -25111,14 +25123,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function draw() {\n\tdestroy();\n\t// create a network\n\tvar container = document.getElementById('network');\n\tvar container1 = document.getElementById('forImage');\n\n\t//Colors:\n\t//\"#ffc63b\"\n\t//\"#FFD570\"",
-          "x": 40839,
-          "y": -10809,
+          "x": 40841,
+          "y": -5127,
           "id": "200bf789-2d9a-4de6-8068-2c291572d19f486"
         },
         "ad67e6a8-2a73-4042-aa3a-23ab75241eee486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -25126,7 +25140,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -25138,10 +25153,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tvar options = {\n\t\theight: canvasHeightSetup + '%',\n\t\twidth: canvasWidthSetup + '%',\n\t\tlayout: {randomSeed:seed}, \n\t\tphysics: {enabled: false},\n\t\tedges: { \n\t\t\tsmooth: { \n\t\t\t\tenabled: false, \n\t\t\t\ttype: \"dynamic\", \n\t\t\t\troundness: 0.5 \n\t\t\t}, \n\t\t\tcolor: \"#404040\"\n\t\t},\n\t\tnodes: { \n\t\t\tshape: \"box\",\n\t\t\tcolor: {\n\t\t\t\tbackground: \"#ffd570\"\n\t\t\t},\n\t\t\tlabelHighlightBold: false,\n\t\t\tborderWidth: 0\n\t\t},\n\t\tautoResize: true,\n\t\tinteraction: {\n\t\t\tdragNodes: true,\n\t\t\tzoomView: true, \n\t\t\tdragView: true, \n\t\t\thover: false,\n\t\t\tmultiselect: true\n\t\t},\n\t\tmanipulation: {\n\t\t\taddNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tvar clickPosition = network.canvasToDOM({x: data.x, y: data.y});\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Add Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n\t\t\t\t//document.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('node-label').value = \"\";\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = clearPopUp.bind();\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n\t\t\t\tvar schemeDataMenuWidth = 0;\n\t\t\t\tif (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n\t\t\t\t\tschemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n\t\t\t\t} else {\n\t\t\t\t\tschemeDataMenuWidth = 0;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.x + 390) > (canvasWidth - schemeDataMenuWidth)) {\n\t\t\t\t\tclickPosition.x = clickPosition.x - 340;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.y + 240) > canvasHeight) {\n\t\t\t\t\tclickPosition.y = clickPosition.y - 260;\n\t\t\t\t}\n\t\t\t\tdocument.getElementById('network-popUp').style.top = (clickPosition.y + 20) + \"px\";\n\t\t\t\tdocument.getElementById('network-popUp').style.left = (clickPosition.x + 20) + \"px\";\n\t\t\t\t$(\"textarea#node-label\").focus();\n\t\t\t},\n\t\t\teditNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Edit Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n\t\t\t\tdocument.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = cancelEdit.bind(this,callback);\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n\t\t\t},\n\t\t\taddEdge: function (data, callback) {\n\t\t\t\tif (data.from == data.to) {\n\t\t\t\t\tvar r = confirm(\"Do you want to connect the node to itself?\");\n\t\t\t\t\tif (r == true) {\n\t\t\t\t\t\tcallback(data);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tcallback(data);\n\t\t\t\t}\n\t\t\t},\n\t\t\tdeleteNode: function (data, callback) {\n\t\t\t\tcallback(data);\n\t\t\t},\n\t\t}\n\t};",
-          "x": 41985,
-          "y": -10147,
-          "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486"
+          "label": "\tvar options = {\n\t\theight: canvasHeightSetup + '%',\n\t\twidth: canvasWidthSetup + '%',\n\t\tlayout: {randomSeed:seed}, \n\t\tphysics: {enabled: false},\n\t\tedges: { \n\t\t\tsmooth: { \n\t\t\t\tenabled: false, \n\t\t\t\ttype: \"dynamic\", \n\t\t\t\troundness: 0.5 \n\t\t\t}, \n\t\t\tcolor: \"#404040\"\n\t\t},\n\t\tnodes: { \n\t\t\tshape: \"box\",\n\t\t\tcolor: {\n\t\t\t\tbackground: \"#ffd570\"\n\t\t\t},\n\t\t\tlabelHighlightBold: false,\n\t\t\tborderWidth: 0,\n                        font: {\n                           align: \"left\"\n                        }\n\t\t},\n\t\tautoResize: true,\n\t\tinteraction: {\n\t\t\tdragNodes: true,\n\t\t\tzoomView: true, \n\t\t\tdragView: true, \n\t\t\thover: false,\n\t\t\tmultiselect: true\n\t\t},\n\t\tmanipulation: {\n\t\t\taddNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tvar clickPosition = network.canvasToDOM({x: data.x, y: data.y});\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Add Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n\t\t\t\t//document.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('node-label').value = \"\";\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = clearPopUp.bind();\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n\t\t\t\tvar schemeDataMenuWidth = 0;\n\t\t\t\tif (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n\t\t\t\t\tschemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n\t\t\t\t} else {\n\t\t\t\t\tschemeDataMenuWidth = 0;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.x + 390) > (canvasWidth - schemeDataMenuWidth)) {\n\t\t\t\t\tclickPosition.x = clickPosition.x - 340;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.y + 240) > canvasHeight) {\n\t\t\t\t\tclickPosition.y = clickPosition.y - 260;\n\t\t\t\t}\n\t\t\t\tdocument.getElementById('network-popUp').style.top = (clickPosition.y + 20) + \"px\";\n\t\t\t\tdocument.getElementById('network-popUp').style.left = (clickPosition.x + 20) + \"px\";\n\t\t\t\t$(\"textarea#node-label\").focus();\n                                lastEditedNodesIds = [];\n                                lastClickPosition = null;\n\t\t\t},\n\t\t\teditNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Edit Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n                                if (typeof data.label === \"undefined\") data.label = \"\";\n\t\t\t\tdocument.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = cancelEdit.bind(this,callback);\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n                                $(\"#node-label\").focus();\n\t\t\t},\n\t\t\taddEdge: function (data, callback) {\n\t\t\t\tif (data.from == data.to) {\n\t\t\t\t\tvar r = confirm(\"Do you want to connect the node to itself?\");\n\t\t\t\t\tif (r == true) {\n\t\t\t\t\t\tcallback(data);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tcallback(data);\n\t\t\t\t}\n\t\t\t},\n                        editEdge: {\n                           editWithoutDrag: function(data, callback) {\n                              document.getElementById('edge-operation').innerHTML = \"Edit Edge\";\n                              editEdgeWithoutDrag(data,callback);\n                                var schemeDataMenuWidth = 0;\n                                if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n                                        schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n                                } else {\n                                        schemeDataMenuWidth = 0;\n                                }\n                                var positionX = (canvasWidth - schemeDataMenuWidth)/2;\n                                var positionY = (canvasHeight)/2;\n                                document.getElementById('edge-popUp').style.top = (positionY - 30) + \"px\";\n                                document.getElementById('edge-popUp').style.left = (positionX - 125) + \"px\";\n                                $(\"input#edge-label\").focus();\n\n                           }\n                        },\n\t\t\tdeleteNode: function (data, callback) {\n\t\t\t\tcallback(data);\n\t\t\t}\n\t\t}\n\t};\n    function editEdgeWithoutDrag(data, callback) {\n      // filling in the popup DOM elements\n      document.getElementById('edge-label').value = data.label;\n      document.getElementById('edge-saveButton').onclick = saveEdgeData.bind(this, data, callback);\n      document.getElementById('edge-cancelButton').onclick = cancelEdgeEdit.bind(this,callback);\n      document.getElementById('edge-popUp').style.display = 'block';\n    }\n\n    function clearEdgePopUp() {\n      document.getElementById('edge-saveButton').onclick = null;\n      document.getElementById('edge-cancelButton').onclick = null;\n      document.getElementById('edge-popUp').style.display = 'none';\n    }\n\n    function cancelEdgeEdit(callback) {\n      clearEdgePopUp();\n      callback(null);\n    }\n\n    function saveEdgeData(data, callback) {\n      if (typeof data.to === 'object')\n        data.to = data.to.id\n      if (typeof data.from === 'object')\n        data.from = data.from.id\n      data.label = document.getElementById('edge-label').value;\n      clearEdgePopUp();\n      callback(data);\n    }",
+          "x": 42070,
+          "y": -3982,
+          "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "ea77a73e-cae7-4e8d-b3b4-c87f266b706f486": {
           "color": {
@@ -25167,8 +25185,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar options1 = {\n\t\theight: canvasHeightSetup + '%',\n\t\twidth: canvasWidthSetup + '%',\n\t\tlayout: {randomSeed:seed},\n\t\tphysics: {enabled: false},\n\t\tedges: { \n\t\t\tsmooth: { \n\t\t\t\tenabled: false, \n\t\t\t\ttype: \"dynamic\", \n\t\t\t\troundness: 0.5 \n\t\t\t}, \n\t\t\tcolor: \"#404040\"\n\t\t},\n\t\tnodes: { \n\t\t\tshape: \"box\",\n\t\t\tcolor: {\n\t\t\t\tbackground: \"#FFD570\"\n\t\t\t},\n\t\t\tlabelHighlightBold: false,\n\t\t\tborderWidth: 0\n\t\t},\n\t\tautoResize: true,\n\t\tinteraction: {\n\t\t\tdragNodes: true,\n\t\t\tzoomView: true, \n\t\t\tdragView: true  \n\t\t},\n\t\tmanipulation: {\n\t\t\tenabled: false\n\t\t}\n\t};",
-          "x": 41718,
-          "y": -9353,
+          "x": 41735,
+          "y": -2756,
           "id": "ea77a73e-cae7-4e8d-b3b4-c87f266b706f486"
         },
         "197518c9-c994-4b2d-8e91-28d12e81aab3486": {
@@ -25195,8 +25213,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork = new vis.Network(container, data, options);\n\tnetwork1 = new vis.Network(container1, data1, options1);\n\n\tnetwork.defaultOptions.labelHighlightBold = false;\n\tnetwork1.defaultOptions.labelHighlightBold = false;",
-          "x": 40846,
-          "y": -9100,
+          "x": 40878,
+          "y": -2573,
           "id": "197518c9-c994-4b2d-8e91-28d12e81aab3486"
         },
         "a7f72bfd-d43b-4f91-bb2d-e7e8bc8c2616486": {
@@ -25223,8 +25241,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t/*\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t\tnode = network.body.data.nodes.get(item.id);\n\t\t//node.labelHighlightBold = false;\n\t\tif (typeof node.color === \"undefined\") node.color = {};\n\t\tnode.color.background = \"#ffc63b\";\n\t\t//node.borderWidth = 0;\n\t\t//node.color = \"#404040\";\n\t\tnode = network.body.data.nodes.update(node);\n\t});\n\t*/",
-          "x": 41785,
-          "y": -8969,
+          "x": 41817,
+          "y": -2442,
           "id": "a7f72bfd-d43b-4f91-bb2d-e7e8bc8c2616486"
         },
         "08ad669e-9383-494e-acca-304d62d9b66d486": {
@@ -25251,8 +25269,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.leftAlignNodes = function () {\n\t\tnetwork.manipulation.leftAlignNodes = function() {\n\t\t\t//var selectedNodesCount = this.selectionHandler._getSelectedNodeCount();\n\t\t\tvar nodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\talignNodesLeft(nodes);\n\n\t\t};\n\n\n\t\treturn network.manipulation.leftAlignNodes.apply(network.manipulation, arguments);\n\t};",
-          "x": 41881,
-          "y": -8805,
+          "x": 41913,
+          "y": -2278,
           "id": "08ad669e-9383-494e-acca-304d62d9b66d486"
         },
         "a7e9dac8-0281-4db9-ab2c-0ab78f3d7871486": {
@@ -25279,8 +25297,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.createLeftAlignNodesButton = function () {\n\t\tnetwork.manipulation.createLeftAlignNodesButton = function() {\n\t\t\tvar leftAlignBtnClass;\n\n\t\t\tleftAlignBtnClass = 'vis-button vis-leftAlignBtn';\n\n\t\t\tvar button = this._createButton('leftAlignNodesButton', leftAlignBtnClass, \"leftAlignNodes\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.leftAlignNodes.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createLeftAlignNodesButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41924,
-          "y": -8613,
+          "x": 41956,
+          "y": -2086,
           "id": "a7e9dac8-0281-4db9-ab2c-0ab78f3d7871486"
         },
         "ce078f09-2392-4b82-a026-c8270861e701486": {
@@ -25307,8 +25325,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.createMakeJsonNodeFromSelectionButton = function () {\n\t\tnetwork.manipulation.createMakeJsonNodeFromSelectionButton = function() {\n\t\t\tvar makeJsonNodeFromSelectionNodesClass;\n\n\t\t\tmakeJsonNodeFromSelectionNodesClass = 'vis-button vis-makeJsonNodeFromSelectionNodesBtn';\n\n\t\t\tvar button = this._createButton('makeJsonNodeFromSelectionNodes', makeJsonNodeFromSelectionNodesClass, \"toJson\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.makeJsonNodeFromSelectionNodes.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createMakeJsonNodeFromSelectionButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 42007,
-          "y": -8393,
+          "x": 42039,
+          "y": -1866,
           "id": "ce078f09-2392-4b82-a026-c8270861e701486"
         },
         "a56558cd-3cd0-4987-8241-732e4fcf21de486": {
@@ -25335,8 +25353,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.makeJsonNodeFromSelectionNodes = function () {\n\t\tnetwork.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes = function() {\n\t\t\tvar selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\tvar selectedEdges = objectToArray(this.selectionHandler.selectionObj.edges);\n\t\t\tvar nodes = []\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tnodes.push(network.body.data.nodes.get(node.id));\n\t\t\t});\n\t\t\tvar edges = []\n\t\t\tselectedEdges.forEach(function(edge) {\n\t\t\t\tedges.push(network.body.data.edges.get(edge.id));\n\t\t\t});\n\t\t\t//console.log(nodes);\n\t\t\t//console.log(edges);\n\n\t\t\tvar data = {\n\t\t\t\tnodes: [],\n\t\t\t\tedges: []\n\t\t\t};\n\n\t\t\tvar positions1 = network.getPositions();\n\t\t\tnodes1ToCopy = {}; \n\t\t\tnodes.forEach(function(item) {\n\t\t\t\tnodes1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tobjectToArray(positions1).forEach(function(position) {\n\t\t\t\t\tif (node.id == position.id) {\n\t\t\t\t\t\tnode.x = position.x;\n\t\t\t\t\t\tnode.y = position.y;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t});\n\t\t\tdata.nodes = nodes1ToCopy;\n\n\t\t\tvar edges1ToCopy = {}; \n\t\t\tedges.forEach(function(item) {\n\t\t\t\tedges1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.edges = edges1ToCopy;\n\t\t\tvar label = JSON.stringify(data, undefined, 1);\n\t\t\t//var label = JSON.stringify(data);\n\t\t\tvar screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n\t\t\tnetwork.body.data.nodes.add([{\n\t\t\t\tlabel:label,\n\t\t\t\tx:screenCenterPosition.x,\n\t\t\t\ty:screenCenterPosition.y\n\t\t\t}]);\n\t\t};\n\t\treturn network.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes.apply(network.manipulation, arguments);\n\t};",
-          "x": 41997,
-          "y": -7921,
+          "x": 42030,
+          "y": -1394,
           "id": "a56558cd-3cd0-4987-8241-732e4fcf21de486"
         },
         "219cf15e-e8b8-4100-87d3-25aca5f31803486": {
@@ -25363,8 +25381,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.createMakeNodesFromJsonNodeButton = function () {\n\t\tnetwork.manipulation.createMakeNodesFromJsonNodeButton = function() {\n\t\t\tvar makeNodesFromJsonNodeClass;\n\n\t\t\tmakeNodesFromJsonNodeClass = 'vis-button vis-makeNodesFromJsonNodeBtn';\n\n\t\t\tvar button = this._createButton('makeNodesFromJsonNode', makeNodesFromJsonNodeClass, \"fromJson\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.makeNodesFromJsonNode.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createMakeNodesFromJsonNodeButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41963,
-          "y": -7449,
+          "x": 41995,
+          "y": -922,
           "id": "219cf15e-e8b8-4100-87d3-25aca5f31803486"
         },
         "dd14b2ca-7613-4018-a0b5-86bbaa16d28e486": {
@@ -25391,8 +25409,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.makeNodesFromJsonNode = function () {\n\t\tnetwork.manipulation.makeNodesFromJsonNode = function() {\n\t\t\tvar selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\tvar jsonNode = network.body.data.nodes.get(selectedNodes[0].id);\n\t\t\tvar label = jsonNode.label;\n\t\t\tvar data = JSON.parse(label);\n\t\t\tvar date = new Date();\n\t\t\tvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\t\t\tobjectToArray(data.nodes).forEach(function(node) {\n\t\t\t\tnode.id = node.id + idPostfix;\n\t\t\t\tnodesToPaste.push(node);\n\t\t\t\t//var newNode = network.nodesHandler.create(node);\n\t\t\t\t//network.body.data.nodes.add(newNode.options);\n\t\t\t});\n\t\t\tvar screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\tnetwork.selectionHandler.updateSelection();\n\t\t\tobjectToArray(data.edges).forEach(function(edge) {\n\t\t\t\tedge.id = edge.id + idPostfix;\t\n\t\t\t\tedge.from = edge.from + idPostfix;\n\t\t\t\tedge.to = edge.to + idPostfix;\n\t\t\t\tedgesToPaste.push(edge);\n\t\t\t\t//var newEdge = network.edgesHandler.create(edge);\n\t\t\t\t//network.body.data.edges.add(newEdge.options);\n\t\t\t});\n\t\t};\n\t\treturn network.manipulation.makeNodesFromJsonNode.apply(network.manipulation, arguments);\n\t};",
-          "x": 41923,
-          "y": -7138,
+          "x": 41955,
+          "y": -611,
           "id": "dd14b2ca-7613-4018-a0b5-86bbaa16d28e486"
         },
         "bec6836e-e13a-4860-a0da-ed2d40f39f18486": {
@@ -25419,14 +25437,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.createAddThemeGraphButton = function () {\n\t\tnetwork.manipulation.createAddThemeGraphButton = function() {\n\t\t\tvar addThemeGraphClass;\n\n\t\t\taddThemeGraphClass = 'vis-button vis-addThemeGraphBtn';\n\n\t\t\tvar button = this._createButton('addThemeGraph', addThemeGraphClass, \"addThemeGraph\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.addThemeGraph.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createAddThemeGraphButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41931,
-          "y": -6827,
+          "x": 41966,
+          "y": -286,
           "id": "bec6836e-e13a-4860-a0da-ed2d40f39f18486"
         },
         "9e734091-2228-441b-9647-49c5df5e4dce486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -25434,7 +25454,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -25446,10 +25467,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tnetwork.addThemeGraph = function () {\n\t\tnetwork.manipulation.addThemeGraph = function() {\n\t\t\tthemeGraph = true;\n\t\t};\n\t\treturn network.manipulation.addThemeGraph.apply(network.manipulation, arguments);\n\t};",
-          "x": 40942,
-          "y": -6684,
-          "id": "9e734091-2228-441b-9647-49c5df5e4dce486"
+          "label": "\tnetwork.addThemeGraph = function () {\n\t\tnetwork.manipulation.addThemeGraph = function() {\n\t\t\tthemeGraph = true;\n\t\t};\n\t\treturn network.manipulation.addThemeGraph.apply(network.manipulation, arguments);\n\t};\n\n  /**\n   * connect two nodes with a new edge.\n   *\n   * @param {Node.id} sourceNodeId\n   * @param {Node.id} targetNodeId\n   * @private\n   */\n  network.manipulation._performEditEdge = function(sourceNodeId, targetNodeId) {\n    let defaultData = {id: network.manipulation.edgeBeingEditedId, from: sourceNodeId, to: targetNodeId, label: network.body.data.edges.get(network.manipulation.edgeBeingEditedId).label };\n    let eeFunct = network.manipulation.options.editEdge;\n    if (typeof eeFunct === 'object') {\n      eeFunct = eeFunct.editWithoutDrag;\n    }\n    if (typeof eeFunct === 'function') {\n      if (eeFunct.length === 2) {\n        eeFunct(defaultData, (finalizedData) => {\n          if (finalizedData === null || finalizedData === undefined || network.manipulation.inMode !== 'editEdge') { // if for whatever reason the mode has changes (due to dataset change) disregard the callback) {\n            network.manipulation.body.edges[defaultData.id].updateEdgeType();\n            network.manipulation.body.emitter.emit('_redraw');\n            network.manipulation.showManipulatorToolbar();\n          } else {\n            var tmpNodeVar;\n            if (finalizedData.label == \"\") {\n               tmpNodeVar = true;\n               finalizedData.label = \" \";\n            }\n            network.manipulation.body.data.edges.getDataSet().update(finalizedData);\n            if (tmpNodeVar) finalizedData.label = \"\";\n            network.manipulation.body.data.edges.getDataSet().update(finalizedData);\n            network.manipulation.selectionHandler.unselectAll();\n            network.manipulation.showManipulatorToolbar();\n          }\n        });\n      } else {\n        throw new Error('The function for edit does not support two arguments (data, callback)');\n      }\n    } else {\n      network.manipulation.body.data.edges.getDataSet().update(defaultData);\n      network.manipulation.selectionHandler.unselectAll();\n      network.manipulation.showManipulatorToolbar();\n    }\n    network.edgesHandler.reconnectEdges();\n  }\n",
+          "x": 41032,
+          "y": 277,
+          "id": "9e734091-2228-441b-9647-49c5df5e4dce486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "9cd8ff75-f730-40b0-97b1-4ab6544491c7486": {
           "color": {
@@ -25475,8 +25499,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.showManipulatorToolbar = function () {\n\t\tthis.manipulation.showManipulatorToolbar = function () {\n\t\t\t// restore the state of any bound functions or events, remove control nodes, restore physics\n\t\t\tthis._clean(); // reset global variables\n\n\t\t\tthis.manipulationDOM = {}; // if the gui is enabled, draw all elements.\n\n\t\t\tif (this.guiEnabled === true) {\n\t\t\t\t// a _restore will hide these menus\n\t\t\t\tthis.editMode = true;\n\t\t\t\tthis.manipulationDiv.style.display = 'block';\n\t\t\t\tthis.closeDiv.style.display = 'block';\n\n\t\t\t\tvar selectedNodeCount = this.selectionHandler._getSelectedNodeCount();\n\n\t\t\t\tvar selectedEdgeCount = this.selectionHandler._getSelectedEdgeCount();\n\n\t\t\t\tvar selectedTotalCount = selectedNodeCount + selectedEdgeCount;\n\t\t\t\tvar locale = this.options.locales[this.options.locale];\n\t\t\t\tvar needSeperator = false;\n\n\t\t\t\tif (this.options.addNode !== false) {\n\t\t\t\t\tthis._createAddNodeButton(locale);\n\t\t\t\t}\n\n\t\t\t\tif (this.options.addEdge !== false) {\n\t\t\t\t\tthis._createAddEdgeButton(locale);\n\t\t\t\t}\n\n\t\t\t\tif (selectedNodeCount === 1 && typeof this.options.editNode === 'function') {\n\t\t\t\t\tthis._createEditNodeButton(locale);\n\t\t\t\t} else if (selectedEdgeCount === 1 && selectedNodeCount === 0 && this.options.editEdge !== false) {\n\t\t\t\t\tthis._createEditEdgeButton(locale);\n\t\t\t\t} // remove buttons\n\n\n\t\t\t\tif (selectedTotalCount !== 0) {\n\t\t\t\t\tif (selectedNodeCount > 0 && this.options.deleteNode !== false) {\n\t\t\t\t\t\tthis._createDeleteButton(locale);\n\t\t\t\t\t} else if (selectedNodeCount === 0 && this.options.deleteEdge !== false) {\n\t\t\t\t\t\tthis._createDeleteButton(locale);\n\t\t\t\t\t}\n\t\t\t\t} // bind the close button\n\t\t\t\t\n\t\t\t\tif (selectedNodeCount > 0) {\n\t\t\t\t\tnetwork.createLeftAlignNodesButton();\n\t\t\t\t\tnetwork.createMakeJsonNodeFromSelectionButton();\n\t\t\t\t}\n\t\t\t\tif (selectedNodeCount == 1) {\n\t\t\t\t\tnetwork.createMakeNodesFromJsonNodeButton();\n\t\t\t\t}\n\t\t\t\tif (selectedNodeCount == 0) {\n\t\t\t\t\tnetwork.createAddThemeGraphButton();\n\t\t\t\t}\n\n\t\t\t\tthis._bindHammerToDiv(this.closeDiv, this.toggleEditMode.bind(this)); // refresh this bar based on what has been selected\n\n\n\t\t\t\tthis._temporaryBindEvent('select', this.showManipulatorToolbar.bind(this));\n\t\t\t} // redraw to show any possible changes\n\n\n\t\t\tthis.body.emitter.emit('_redraw');\n\t\t}\n\t\treturn this.manipulation.showManipulatorToolbar.apply(this.manipulation, arguments);\n\t};",
-          "x": 42002,
-          "y": -6156,
+          "x": 42105,
+          "y": 1058,
           "id": "9cd8ff75-f730-40b0-97b1-4ab6544491c7486"
         },
         "d5fe0aa0-3f26-4c0c-9b08-fc116f68b15d486": {
@@ -25503,8 +25527,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.showManipulatorToolbar();\n\n\tcanvas = network.canvas.frame.canvas;\n\tctx = canvas.getContext('2d');\n\n\tvar setup = schemeData.setup;\n\tvar positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));\n\tvar positionY = parseFloat((setup.viewPosition.y - canvasHeight/(2*setup.scale)).toFixed(5));\n",
-          "x": 40956,
-          "y": -5630,
+          "x": 41013,
+          "y": 1596,
           "id": "d5fe0aa0-3f26-4c0c-9b08-fc116f68b15d486"
         },
         "b344086f-96f1-45b9-be1f-a0cebf63b275486": {
@@ -25531,8 +25555,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\n\tnetwork1.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});",
-          "x": 41761,
-          "y": -5471,
+          "x": 41818,
+          "y": 1881,
           "id": "b344086f-96f1-45b9-be1f-a0cebf63b275486"
         },
         "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486": {
@@ -25559,8 +25583,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on('click', function(e) {\n\t\t onClick(e)\n\t});\n\n\tnetwork.on('doubleClick', function(e) {\n\t\tonDoubleClick(e)\n\t});",
-          "x": 40783,
-          "y": -5356,
+          "x": 40840,
+          "y": 1996,
           "id": "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486"
         },
         "165bd511-eaf1-40c4-963f-3d4312ea50fc486": {
@@ -25587,8 +25611,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction onClick(e) {\n\t  setTimeout(function () {\n\t    if (doubleClick == false) {\n\t      doOnClick(e);\n\t    }\n\t    else {doubleClick = false;}\n\t},doubleClickTimeThreshold);\n\t}",
-          "x": 41699,
-          "y": -5216,
+          "x": 41756,
+          "y": 2171,
           "id": "165bd511-eaf1-40c4-963f-3d4312ea50fc486"
         },
         "e6b2c612-3d90-4b4d-a42e-cf3a14b07f55486": {
@@ -25615,14 +25639,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction doOnClick(e) {\n\t\tif (nodesToPaste.length > 0) {\n\t\t\t//console.log(e.event.srcEvent);\n\t\t\tvar position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})\n\t\t\tvar topLeftNodeX = nodesToPaste[0].x;\n\t\t\tvar topLeftNodeY = nodesToPaste[0].y;\n\t\t\tnodesToPaste.forEach(function(node) {\n\t\t\t\tif (node.x < topLeftNodeX && node.y < topLeftNodeY) {\n\t\t\t\t\ttopLeftNodeX = node.x;\n\t\t\t\t\ttopLeftNodeY = node.y;\n\t\t\t\t}\n\t\t\t});\n\t\t\tnodesToPaste.forEach(function(node) {\n\t\t\t\tvar shiftX = - topLeftNodeX + parseFloat((position.x).toFixed(5));\n\t\t\t\tvar shiftY = - topLeftNodeY + parseFloat((position.y).toFixed(5));\n\t\t\t\tnode.x = node.x + shiftX;\n\t\t\t\tnode.y = node.y + shiftY;\n\t\t\t\tvar newNode = network.nodesHandler.create(node);\n\t\t\t\tnetwork.body.data.nodes.add(newNode.options);\n\t\t\t});\n\t\t\tedgesToPaste.forEach(function(edge) {\n\t\t\t\tvar newEdge = network.edgesHandler.create(edge);\n\t\t\t\tnetwork.body.data.edges.add(newEdge.options);\n\t\t\t});\n\t\t\tnodesToPaste = [];\n\t\t\tedgesToPaste = [];\n\t\t}",
-          "x": 41898,
-          "y": -4965,
+          "x": 41947,
+          "y": 2455,
           "id": "e6b2c612-3d90-4b4d-a42e-cf3a14b07f55486"
         },
         "a0b6e8f4-c46c-4faf-9e58-60c14cd2d4b1486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -25630,7 +25656,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -25642,10 +25669,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\t\tif (themeGraph) {\n\t\t\tvar position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})\n\t\t\tvar newNode1Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"New Theme Name\",\n\t\t\t\tx: position.x,\n\t\t\t\ty: position.y,\n\t\t\t\tfont: {size: 72},\n\t\t\t\tcolor: {background:\"red\"}\n\t\t\t})[0];\n\t\t\tvar newNode2Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Development\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+450 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:newNode2Id\n\t\t\t});\n\t\t\tvar newNode4Id = network.body.data.nodes.add({\n\t\t\t\tlabel:(new Date().toLocaleDateString()),\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y+450 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode2Id,\n\t\t\t\tto:newNode4Id\n\t\t\t});\n\t\t\tvar newNode3Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"init\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y+450 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode4Id,\n\t\t\t\tto:newNode3Id\n\t\t\t});\n\t\t\tvar newNode5Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Notes\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y-400 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:newNode5Id\n\t\t\t});\n\t\t\tvar newNode6Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Dictionary of\\nconcepts\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y-650 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode5Id,\n\t\t\t\tto:newNode6Id\n\t\t\t});\n\t\t\tvar newNode7Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Details, thoughts\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y-400\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode5Id,\n\t\t\t\tto:newNode7Id\n\t\t\t});\n\t\t\tvar sectionsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Sections\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y-150\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode5Id,\n\t\t\t\tto:sectionsNodeId\n\t\t\t});\n\t\t\tvar booksNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Books\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-300\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:booksNodeId\n\t\t\t});\n\t\t\tvar rDInstitutionsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"R&D institutions\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-275\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:rDInstitutionsNodeId\n\t\t\t});\n\t\t\tvar sitesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Sites\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-250\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:sitesNodeId\n\t\t\t});\n\t\t\tvar magazinesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Magazines\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-225\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:magazinesNodeId\n\t\t\t});\n\t\t\tvar articlesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Articles\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-200\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:articlesNodeId\n\t\t\t});\n\t\t\tvar mediaContentNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Media content\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-175\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:mediaContentNodeId\n\t\t\t});\n\t\t\tvar miscWebLinksNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Misc. web links\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-150\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:miscWebLinksNodeId\n\t\t\t});\n\t\t\tvar projectsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Projects\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-125\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:projectsNodeId\n\t\t\t});\n\t\t\tvar toolsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Tools\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-100\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:toolsNodeId\n\t\t\t});\n\t\t\tvar organizationsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Organizations\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-75\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:organizationsNodeId\n\t\t\t});\n\t\t\tvar standartsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Standarts\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-50\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:standartsNodeId\n\t\t\t});\n\t\t\tvar forumsGroupsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Forums, Groups\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-25\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:forumsGroupsNodeId\n\t\t\t});\n\t\t\tvar lawsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Laws\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:lawsNodeId\n\t\t\t});\n\t\t\tvar adjacentThemesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Adjacent Themes\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y+25\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:adjacentThemesNodeId\n\t\t\t});\n\t\t\tvar questionsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Questions\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+150\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:questionsNodeId\n\t\t\t});\n\t\t\tvar problemsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Problems\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+250\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:problemsNodeId\n\t\t\t});\n\t\t\tvar goalsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Goals\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+350\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:goalsNodeId\n\t\t\t});\n\t\t\tthemeGraph = false;\n\t\t}\n\t}",
-          "x": 41899,
-          "y": -3170,
-          "id": "a0b6e8f4-c46c-4faf-9e58-60c14cd2d4b1486"
+          "label": "\t\tif (themeGraph) {\n\t\t\tvar position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})\n\t\t\tvar newNode1Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"New Theme Name\",\n\t\t\t\tx: position.x,\n\t\t\t\ty: position.y,\n\t\t\t\tfont: {size: 72},\n\t\t\t\tcolor: {background:\"red\"}\n\t\t\t})[0];\n\t\t\tvar newNode2Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Development\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+450 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:newNode2Id\n\t\t\t});\n\t\t\tvar newNode4Id = network.body.data.nodes.add({\n\t\t\t\tlabel:(new Date().toLocaleDateString()),\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y+450 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode2Id,\n\t\t\t\tto:newNode4Id\n\t\t\t});\n\t\t\tvar newNode3Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"init\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y+450 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode4Id,\n\t\t\t\tto:newNode3Id\n\t\t\t});\n\t\t\tvar newNode5Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Notes\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y-400 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:newNode5Id\n\t\t\t});\n\t\t\tvar newNode6Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Dictionary of\\nconcepts\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y-650 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode5Id,\n\t\t\t\tto:newNode6Id\n\t\t\t});\n\t\t\tvar newNode7Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Details, thoughts\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y-400\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode5Id,\n\t\t\t\tto:newNode7Id\n\t\t\t});\n\t\t\tvar sectionsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Sections\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y-150\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode5Id,\n\t\t\t\tto:sectionsNodeId\n\t\t\t});\n\t\t\tvar booksNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Books\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-300\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:booksNodeId\n\t\t\t});\n\t\t\tvar rDInstitutionsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"R&D institutions\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-275\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:rDInstitutionsNodeId\n\t\t\t});\n\t\t\tvar sitesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Sites\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-250\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:sitesNodeId\n\t\t\t});\n\t\t\tvar magazinesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Magazines\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-225\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:magazinesNodeId\n\t\t\t});\n\t\t\tvar articlesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Articles\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-200\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:articlesNodeId\n\t\t\t});\n\t\t\tvar mediaContentNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Media content\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-175\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:mediaContentNodeId\n\t\t\t});\n\t\t\tvar miscWebLinksNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Misc. web links\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-150\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:miscWebLinksNodeId\n\t\t\t});\n\t\t\tvar projectsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Projects\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-125\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:projectsNodeId\n\t\t\t});\n\t\t\tvar toolsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Tools\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-100\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:toolsNodeId\n\t\t\t});\n\t\t\tvar organizationsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Organizations\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-75\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:organizationsNodeId\n\t\t\t});\n\t\t\tvar standartsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Standarts\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-50\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:standartsNodeId\n\t\t\t});\n\t\t\tvar forumsGroupsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Forums, Groups\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-25\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:forumsGroupsNodeId\n\t\t\t});\n\t\t\tvar lawsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Laws\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:lawsNodeId\n\t\t\t});\n\t\t\tvar adjacentThemesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Adjacent Themes\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y+25\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:adjacentThemesNodeId\n\t\t\t});\n\t\t\tvar questionsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Questions\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+150\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:questionsNodeId\n\t\t\t});\n\t\t\tvar problemsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Problems\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+250\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:problemsNodeId\n\t\t\t});\n\t\t\tvar goalsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Goals\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+350\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:goalsNodeId\n\t\t\t});\n                        newNodesIds1 = [\n                           booksNodeId,\n                           rDInstitutionsNodeId,\n                           sitesNodeId,\n                           magazinesNodeId,\n                           articlesNodeId,\n                           mediaContentNodeId,\n                           miscWebLinksNodeId,\n                           projectsNodeId,\n                           toolsNodeId,\n                           organizationsNodeId,\n                           standartsNodeId,\n                           forumsGroupsNodeId,\n                           lawsNodeId,\n                           adjacentThemesNodeId\n                        ];\n                        var nodes1 = [];\n                        newNodesIds1.forEach(function(nodeId) {\n                           nodes1.push(network.body.nodes[nodeId]);\n                        });\n                        alignNodesLeft(nodes1);\n                        newNodesIds2 = [\n                           newNode5Id,\n                           questionsNodeId,\n                           problemsNodeId,\n                           goalsNodeId,\n                           newNode2Id\n                        ];\n                        var nodes2 = [];\n                        newNodesIds2.forEach(function(nodeId) {\n                           nodes2.push(network.body.nodes[nodeId]);\n                        });\n                        alignNodesLeft(nodes2);\n                        newNodesIds3 = [\n                           newNode6Id,\n                           newNode7Id,\n                           sectionsNodeId,\n                           newNode4Id\n                        ];\n                        var nodes3 = [];\n                        newNodesIds3.forEach(function(nodeId) {\n                           nodes3.push(network.body.nodes[nodeId]);\n                        });\n                        alignNodesLeft(nodes3);\n         themeGraph = false;\n      }\n   }",
+          "x": 41944,
+          "y": 4590,
+          "id": "a0b6e8f4-c46c-4faf-9e58-60c14cd2d4b1486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "af60ed74-46e4-4099-9adc-5ecc9d9aef01486": {
           "color": {
@@ -25671,8 +25701,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction onDoubleClick(e) {\n\t\tif (e.event.srcEvent.ctrlKey) {\n\t\t\tnetwork.addEdgeMode();\n\t\t} else {\n\t\t\tnetwork.addNodeMode();\n\t\t}\n\t}",
-          "x": 41701,
-          "y": -1513,
+          "x": 41750,
+          "y": 6567,
           "id": "af60ed74-46e4-4099-9adc-5ecc9d9aef01486"
         },
         "b1e665eb-079b-4a16-8fb4-2054b5c70fc2486": {
@@ -25699,8 +25729,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//ctrl+Enter\n\t\tif (event.ctrlKey && event.keyCode === 13) {\n\t\t\t$(\"#saveButton\").click();\n\t\t}\n\t});",
-          "x": 41774,
-          "y": -340,
+          "x": 41829,
+          "y": 10649,
           "id": "b1e665eb-079b-4a16-8fb4-2054b5c70fc2486"
         },
         "6d7af570-fdce-465e-a2f1-60445c56afa4486": {
@@ -25727,14 +25757,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\t$(\"input#cancelButton\").click();\n\t\t\tcancelNodeEdit = true;\n\t\t}\n\t});",
-          "x": 41774,
-          "y": -239,
+          "x": 41829,
+          "y": 10786,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486"
         },
         "02dc1f64-b3e0-4714-afd3-a46325785228486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -25742,7 +25774,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -25755,9 +25788,12 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(document).keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\tif (document.getElementById('network-popUp').style.display == \"none\" && cancelNodeEdit == false) {\n\t\t\t\tnetwork.disableEditMode();\n\t\t\t\tnetwork.editNode();\n\t\t\t} else {\n\t\t\t\tcancelNodeEdit = false;\n\t\t\t}\n\t\t}\n\t});",
-          "x": 41934,
-          "y": -103,
-          "id": "02dc1f64-b3e0-4714-afd3-a46325785228486"
+          "x": 41989,
+          "y": 11618,
+          "id": "02dc1f64-b3e0-4714-afd3-a46325785228486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "306b8d2b-e500-4e08-bb72-131a63a59872486": {
           "color": {
@@ -25783,8 +25819,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(document).keydown(function (event) {\n\t\t//Connect nodes. ctrl+alt+c.\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 67) {\n                        var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();\n\t\t\tif (selectedNodesCount < 2) return;\n                        var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar rootNodeId;\n                        var minLeft;\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (i == 0) {\n\t\t\t\t\tminLeft = nodes[0].x;\n\t\t\t\t\trootNodeId = nodes[0].id;\n\t\t\t\t}\n                                if (minLeft > nodes[i].x) {\n                                        minLeft = nodes[i].x;\n\t\t\t\t\trootNodeId = nodes[i].id;\n                                };\n                        }\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (nodes[i].id != rootNodeId) {\n\t\t\t\t\tvar edgeData = {from: rootNodeId, to: nodes[i].id};\n\t\t\t\t\tnetwork.body.data.edges.getDataSet().add(edgeData);\n\t\t\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\t\t}\n                        }\n\t\t}\n\t});",
-          "x": 41910,
-          "y": 173,
+          "x": 41965,
+          "y": 11990,
           "id": "306b8d2b-e500-4e08-bb72-131a63a59872486"
         },
         "603509b0-5c5b-491e-9e05-8b464a9a6ce8486": {
@@ -25811,14 +25847,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tcontainerJQ.on(\"mousemove\", function(e) {\n\t\tif (drag) { \n\t\t\trestoreDrawingSurface();\n\t\t\trect.w = (e.pageX - this.offsetLeft) - rect.startX;\n\t\t\trect.h = (e.pageY - this.offsetTop) - rect.startY ;\n\n\t\t\t//ctx.setLineDash([5]);\n\t\t\tctx.lineWidth = 1;\n\t\t\tctx.strokeStyle = \"gray\";\n\t\t\tctx.strokeRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t\tctx.setLineDash([]);\n\t\t\tctx.fillStyle = \"rgba(255, 255, 255, 0)\";\n\t\t\tctx.fillRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t}\n\t});",
-          "x": 40832,
-          "y": 471,
+          "x": 40959,
+          "y": 12326,
           "id": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486"
         },
         "3552edb9-2544-4402-8945-e803a851781f486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -25826,7 +25864,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -25838,10 +25877,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tcontainerJQ.on(\"mousedown\", function(e) {\n\t\tif (e.button == 2) { \n\t\t\tselectedNodes = e.ctrlKey ? network.getSelectedNodes() : null;\n\t\t\tsaveDrawingSurface();\n\t\t\tvar that = this;\n\t\t\trect.startX = e.pageX - this.offsetLeft;\n\t\t\trect.startY = e.pageY - this.offsetTop;\n\t\t\tdrag = true;\n\t\t\tcontainerJQ[0].style.cursor = \"crosshair\";\n\t\t}\n\t}); ",
-          "x": 41815,
-          "y": 669,
-          "id": "3552edb9-2544-4402-8945-e803a851781f486"
+          "label": "\tcontainerJQ.on(\"mousedown\", function(e) {\n                lastClickPosition = {x: e.pageX, y: e.pageY};\n\t\tif (e.button == 2) { \n\t\t\tselectedNodes = e.ctrlKey ? network.getSelectedNodes() : null;\n\t\t\tsaveDrawingSurface();\n\t\t\tvar that = this;\n\t\t\trect.startX = e.pageX - this.offsetLeft;\n\t\t\trect.startY = e.pageY - this.offsetTop;\n\t\t\tdrag = true;\n\t\t\tcontainerJQ[0].style.cursor = \"crosshair\";\n\t\t}\n\t}); ",
+          "x": 41870,
+          "y": 12674,
+          "id": "3552edb9-2544-4402-8945-e803a851781f486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "7eff0af2-6a42-4ca5-b505-4592543db41b486": {
           "color": {
@@ -25867,14 +25909,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tcontainerJQ.on(\"mouseup\", function(e) {\n\t\tif (e.button == 2) { \n\t\t\trestoreDrawingSurface();\n\t\t\tdrag = false;\n\n\t\t\tcontainerJQ[0].style.cursor = \"default\";\n\t\t\tselectNodesFromHighlight();\n\t\t\tnetwork.showManipulatorToolbar();\n\t\t}\n\t});",
-          "x": 41740,
-          "y": 826,
+          "x": 41795,
+          "y": 13003,
           "id": "7eff0af2-6a42-4ca5-b505-4592543db41b486"
         },
         "04168eaf-52bc-40eb-8063-3a083d7f46f8486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -25882,7 +25926,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -25894,10 +25939,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tnetwork.on('selectNode', function (properties) {\n\t\tschemeEditElementsMenu.show();\n\t\tvar nodeIdInput = $(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = $(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = $(\"input#nodeXInput\");\n\t\tvar nodeYInput = $(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = $(\"input#nodeShapeInput\");\n\t\tvar nodeLinkInput = $(\"input#nodeLinkInput\");\n\t\tvar nodeFontSizeInput = $(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = $(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = $(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = $(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = $(\"input#nodeBorderColorInput\");\n\t\tvar nodeD = network.body.data.nodes.get(properties.nodes[0]);\n\t\tnodeIdInput.val(nodeD.id);\n\t\tnodeLabelTextarea.val(nodeD.label);\n\t\tpNode = network.getPositions()[nodeD.id];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tif (typeof nodeD.shape !== \"undefined\" && nodeD.shape.length > 0) {\n\t\t\tnodeShapeInput.val(nodeD.shape);\n\t\t} else {\n\t\t\tnodeShapeInput.val(\"box\");\n\t\t}\n\t\tif (typeof nodeD.link !== \"undefined\" && nodeD.link.length > 0) {\n\t\t\tnodeLinkInput.val(nodeD.link);\n\t\t} else {\n\t\t\tnodeLinkInput.val(\"\");\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.size !== \"undefined\") {\n\t\t\tnodeFontSizeInput.val(nodeD.font.size);\n\t\t} else {\n\t\t\tnodeFontSizeInput.val(14);\n\t\t\tnodeD.font = {size: 14};\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.align !== \"undefined\") {\n\t\t\tnodeFontAlignInput.val(nodeD.font.align);\n\t\t} else {\n\t\t\tnodeFontAlignInput.val(\"left\");\n\t\t\tnodeD.font = {align: \"left\"};\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && typeof nodeD.color.background !== \"undefined\") {\n\t\t\tnodeColorInput.val(nodeD.color.background);\n\t\t} else {\n\t\t\tnodeD.color = {background: \"\", border: \"\"};\n\t\t}\n\t\tif (typeof nodeD.borderWidth !== \"undefined\" && nodeD.borderWidth.length > 0) {\n\t\t\tnodeBorderWidthInput.val(nodeD.borderWidth);\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && nodeD.color.length > 0) {\n\t\t\tnodeBorderColorInput.val(nodeD.color.border);\n\t\t}\n\t\tif (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + \".*\")) >= 0) {\n\t\t\tloadSavedProjectToMenuButton.show();\n\t\t\tloadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;\n\t\t\tdeleteSavedProjectButton.show();\n\t\t\tdeleteSavedProjectButton.saveProjectLabel = nodeD.label;\n\t\t} else {\n\t\t\tloadSavedProjectToMenuButton.hide();\n\t\t\tdeleteSavedProjectButton.hide();\n\t\t}\n\t});",
-          "x": 41902,
-          "y": 1340,
-          "id": "04168eaf-52bc-40eb-8063-3a083d7f46f8486"
+          "label": "\tnetwork.on('selectNode', function (properties) {\n\t\tschemeEditElementsMenu.show();\n\t\tvar nodeIdInput = $(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = $(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = $(\"input#nodeXInput\");\n\t\tvar nodeYInput = $(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = $(\"input#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = $(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = $(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = $(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = $(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = $(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = $(\"input#nodeBorderColorInput\");\n\t\tvar nodeD = network.body.data.nodes.get(properties.nodes[0]);\n\t\tnodeIdInput.val(nodeD.id);\n\t\tnodeLabelTextarea.val(nodeD.label);\n\t\tpNode = network.getPositions()[nodeD.id];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tif (typeof nodeD.shape !== \"undefined\" && nodeD.shape.length > 0) {\n\t\t\tnodeShapeInput.val(nodeD.shape);\n\t\t} else {\n\t\t\tnodeShapeInput.val(\"box\");\n\t\t}\n\t\tif (typeof nodeD.link !== \"undefined\" && nodeD.link.length > 0) {\n\t\t\tnodeLinkTextarea.val(nodeD.link);\n\t\t} else {\n\t\t\tnodeLinkTextarea.val(\"\");\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.size !== \"undefined\") {\n\t\t\tnodeFontSizeInput.val(nodeD.font.size);\n\t\t} else {\n\t\t\tnodeFontSizeInput.val(14);\n\t\t\tnodeD.font = {size: 14};\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.align !== \"undefined\") {\n\t\t\tnodeFontAlignInput.val(nodeD.font.align);\n\t\t} else {\n\t\t\tnodeFontAlignInput.val(\"left\");\n\t\t\tnodeD.font = {align: \"left\"};\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && typeof nodeD.color.background !== \"undefined\") {\n\t\t\tnodeColorInput.val(nodeD.color.background);\n\t\t} else {\n\t\t\tnodeD.color = {background: \"\", border: \"\"};\n\t\t}\n\t\tif (typeof nodeD.borderWidth !== \"undefined\" && nodeD.borderWidth.length > 0) {\n\t\t\tnodeBorderWidthInput.val(nodeD.borderWidth);\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && nodeD.color.length > 0) {\n\t\t\tnodeBorderColorInput.val(nodeD.color.border);\n\t\t}\n\t\tif (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + \".*\")) >= 0) {\n\t\t\tloadSavedProjectToMenuButton.show();\n\t\t\tloadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;\n\t\t\tdeleteSavedProjectButton.show();\n\t\t\tdeleteSavedProjectButton.saveProjectLabel = nodeD.label;\n\t\t} else {\n\t\t\tloadSavedProjectToMenuButton.hide();\n\t\t\tdeleteSavedProjectButton.hide();\n\t\t}\n\t});",
+          "x": 41957,
+          "y": 13572,
+          "id": "04168eaf-52bc-40eb-8063-3a083d7f46f8486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "d9ba8cd8-7835-42b5-96d7-5fcedd329225486": {
           "color": {
@@ -25923,8 +25971,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on('resize', function(properties) {\n\t\tcanvasWidth = properties.width;\n\t\tcanvasHeight = properties.height;\n\t});",
-          "x": 41742,
-          "y": 1812,
+          "x": 41797,
+          "y": 14108,
           "id": "d9ba8cd8-7835-42b5-96d7-5fcedd329225486"
         },
         "32c6bae5-5fe6-448c-b389-db4f0ee1e281486": {
@@ -25951,8 +25999,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on('deselectNode', function (properties) {\n\t\tschemeEditElementsMenu.hide();\n\t\t$(\".vis-separator-line\").remove();\n\t\t$(\".vis-close\").remove();\n\t});",
-          "x": 41768,
-          "y": 1885,
+          "x": 41823,
+          "y": 14390,
           "id": "32c6bae5-5fe6-448c-b389-db4f0ee1e281486"
         },
         "0a4aaf03-c68b-46ef-a61e-bc142f791d28486": {
@@ -25979,8 +26027,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on('deselectEdge', function (properties) {\n\t\t$(\".vis-separator-line\").remove();\n\t\t$(\".vis-close\").remove();\n\t});\n\tnetwork.on(\"hoverNode\", function(params) {\n\t});\n\n\tnetwork.on(\"blurNode\", function(params) {\n\t});",
-          "x": 41768,
-          "y": 1993,
+          "x": 41823,
+          "y": 14252,
           "id": "0a4aaf03-c68b-46ef-a61e-bc142f791d28486"
         },
         "8d17375a-60ee-42e3-b536-55ea40a1d0e1486": {
@@ -26007,8 +26055,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar lastPositionX = \"a\";\n\tvar startN1X = null;\n\tvar startN1Y = null;\n\tvar startN2X = null;\n\tvar startN2Y = null;\n\tnetwork.on(\"release\", function(event) {\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\t//От окончательного положения драга отнимаем начальное положение\n\t\tvar diffN1X = parseFloat((n1X-startN1X).toFixed(5));\n\t\tvar diffN1Y = parseFloat((n1Y-startN1Y).toFixed(5));\n\t\t//Прибавляем к начальному положению нижней network дифф из предыдущег подсчета.\n\t\t//Чтобы сдвинуть нижний network на тот же шаг\n\t\tvar lastN2X = parseFloat((startN2X+diffN1X).toFixed(5));\n\t\tvar lastN2Y = parseFloat((startN2Y+diffN1Y).toFixed(5));\n\t\tvar network1Scale = network1.getScale();\n\t\tvar positionX = parseFloat((lastN2X - canvasWidth/(2*network1Scale)).toFixed(5));\n\t\tvar positionY = parseFloat((lastN2Y - canvasHeight/(2*network1Scale)).toFixed(5));\n\t\tnetwork1.moveTo({\n\t\t\tposition: {x:positionX, y:positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: network1Scale,\n\t\t});\n\t});",
-          "x": 40958,
-          "y": 2234,
+          "x": 41094,
+          "y": 14638,
           "id": "8d17375a-60ee-42e3-b536-55ea40a1d0e1486"
         },
         "36d89910-f39d-4917-be0a-74407a6a278a486": {
@@ -26035,8 +26083,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on(\"dragging\", function(event) {\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\tvar n2X = parseFloat(network1.getViewPosition().x.toFixed(5));\n\t\tvar n2Y = parseFloat(network1.getViewPosition().y.toFixed(5));\n\t\tif ($.type(startN1X) == \"null\") {startN1X = n1X;}\n\t\tif ($.type(startN1Y) == \"null\") {startN1Y = n1Y;}\n\t\tif ($.type(startN2X) == \"null\") {startN2X = n2X;}\n\t\tif ($.type(startN2Y) == \"null\") {startN2Y = n2Y;}\n\t\tif (n1X != n2X && n1Y != n2Y) {\n\t\t\tvar eventCenterX = event.event.center.x;\n\t\t\tvar eventCenterY = event.event.center.y;\n\t\t\tvar network1Scale = network1.getScale();\n\t\t\t//var positionX = parseFloat((lastN2X - canvasWidth/(2*network1Scale)).toFixed(5));\n\t\t\t//var positionY = parseFloat((lastN2Y - canvasHeight/(2*network1Scale)).toFixed(5));\n\t\t\tvar positionX = (n1X - n2X) - (network1.body.view.translation.x*(1/network1Scale));\n\t\t\tvar positionY = (n1Y - n2Y) - (network1.body.view.translation.y*(1/network1Scale));\n\t\t\tnetwork1.moveTo({\n\t\t\t\tposition: {x:positionX, y:positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: network1Scale,\n\t\t\t});\n\t\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\t\tvar n2X = parseFloat(network1.getViewPosition().x.toFixed(5));\n\t\t\tvar n2Y = parseFloat(network1.getViewPosition().y.toFixed(5));\n\t\t\tlastPositionX = positionX;\n\t\t} else {\n\t\t}\n\t});",
-          "x": 41883,
-          "y": 2622,
+          "x": 41938,
+          "y": 15095,
           "id": "36d89910-f39d-4917-be0a-74407a6a278a486"
         },
         "610d4222-77c1-4624-8652-bd79b449b283486": {
@@ -26063,8 +26111,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on(\"zoom\", function(event) {\n\t\tvar scale = network.getScale();\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*event.scale)).toFixed(5));\n\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*event.scale)).toFixed(5));\n\t\t//var positionX = parseFloat((event.pointer.x).toFixed(5));\n\t\t//var positionY = parseFloat((event.pointer.y).toFixed(5));\n\t\tnetwork.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t\tnetwork1.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t});",
-          "x": 41855,
-          "y": 2975,
+          "x": 41910,
+          "y": 15528,
           "id": "610d4222-77c1-4624-8652-bd79b449b283486"
         },
         "d2d3f771-3cd1-4c27-8376-b4cced8fce37486": {
@@ -26091,8 +26139,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t//network.editNode();\n\t$(\".vis-separator-line\").remove();\n\t$(\".vis-close\").remove();\n}",
-          "x": 41716,
-          "y": 3146,
+          "x": 41771,
+          "y": 15747,
           "id": "d2d3f771-3cd1-4c27-8376-b4cced8fce37486"
         },
         "1a000cd9-3ff1-4645-9f4c-b2752385ba07486": {
@@ -26119,8 +26167,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function updateSchemeFromMenu() {\n\tvar schemeDataJsonFromMenu = $(\"textarea#schemeDataTextArea\").val();\n\tvar schemeData = JSON.parse(schemeDataJsonFromMenu);\n\tvar nodes = new vis.DataSet(objectToArray(schemeData.canvas1Data.nodes._data));\n\tvar edges = new vis.DataSet(objectToArray(schemeData.canvas1Data.edges._data));\n\tvar nodes1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.nodes._data));\n\tvar edges1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.edges._data));\n\tdata = {\n\t\tnodes: nodes,\n\t\tedges: edges\n\t};\n\tdata1 = {\n\t\tnodes: nodes1,\n\t\tedges: edges1\n\t};\n\tdraw();\n\tvar setup = schemeData.setup;\n\tvar positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));\n\tvar positionY = parseFloat((setup.viewPosition.y - canvasHeight/(2*setup.scale)).toFixed(5));\n\tnetwork.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\tnetwork1.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\tconsole.log(\"Scheme updated\");\n}",
-          "x": 39802,
-          "y": 4332,
+          "x": 39899,
+          "y": 17048,
           "id": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486"
         },
         "1e98723b-79dd-48ff-b641-e241ebb725fe486": {
@@ -26147,14 +26195,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function updateMenuFromScheme() {\n\tvar scale = network.getScale();\n\tvar viewPosition = network.getViewPosition();\n\tvar data = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar data1 = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar schemeData = {\n\t\tcanvas1Data: data,\n\t\tcanvas2Data: data1,\n\t\tsetup: {\n\t\t\tscale: scale,\n\t\t\tviewPosition: viewPosition\n\t\t}\n\t};\n\tvar positions1 = network.getPositions();\n\tvar positions2 = network1.getPositions();\n\tnodes1ToSave = {}; \n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t\tnodes1ToSave[item.id.toString()] = item;\n\t});\n\tobjectToArray(positions1).forEach(function(position) {\n\t\tvar node = nodes1ToSave[position.id.toString()];\n\t\tnode.x = position.x;\n\t\tnode.y = position.y;\n\t});\n\tschemeData.canvas1Data.nodes._data = nodes1ToSave;\n\tvar edges1ToSave = {}; \n\tnetwork.body.data.edges.get().forEach(function(item) {\n\t\tedges1ToSave[item.id.toString()] = item;\n\t});\n\tschemeData.canvas1Data.edges._data = edges1ToSave;\n\tvar nodes2ToSave = {}; \n\tnetwork1.body.data.nodes.get().forEach(function(item) {\n\t\tnodes2ToSave[item.id.toString()] = item;\n\t});\n\tobjectToArray(positions2).forEach(function(position) {\n\t\tvar node = nodes2ToSave[position.id.toString()];\n\t\tnode.x = position.x;\n\t\tnode.y = position.y;\n\t});\n\tschemeData.canvas2Data.nodes._data = nodes2ToSave;\n\tvar edges2ToSave = {}; \n\tnetwork1.body.data.edges.get().forEach(function(item) {\n\t\tedges2ToSave[item.id.toString()] = item;\n\t});\n\tschemeData.canvas2Data.edges._data = edges2ToSave;\n\tvar schemeDataJson = JSON.stringify(schemeData, undefined, 2);\n\t$(\"textarea#schemeDataTextArea\").val(schemeDataJson);\n}",
-          "x": 40902,
-          "y": 4938,
+          "x": 40999,
+          "y": 17651,
           "id": "1e98723b-79dd-48ff-b641-e241ebb725fe486"
         },
         "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -26162,7 +26212,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -26174,10 +26225,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "function clearPopUp() {\n\tdocument.getElementById('saveButton').onclick = null;\n\tdocument.getElementById('cancelButton').onclick = null;\n\tdocument.getElementById('network-popUp').style.display = 'none';\n}",
-          "x": 40901,
-          "y": 5361,
-          "id": "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486"
+          "label": "function clearPopUp() {\n\tdocument.getElementById('saveButton').onclick = null;\n\tdocument.getElementById('cancelButton').onclick = null;\n\tdocument.getElementById('network-popUp').style.display = 'none';\n        network.selectionHandler.unselectAll();\n        $(\"#network div.vis-network\").focus();\n}",
+          "x": 41001,
+          "y": 18101,
+          "id": "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "9d63b1f7-179d-4f64-b690-8da48388c7c4486": {
           "color": {
@@ -26203,14 +26257,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function cancelEdit(callback) {\n\tclearPopUp();\n\tcallback(null);\n}",
-          "x": 40784,
-          "y": 5434,
+          "x": 40884,
+          "y": 18214,
           "id": "9d63b1f7-179d-4f64-b690-8da48388c7c4486"
         },
         "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -26218,7 +26274,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -26230,15 +26287,20 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "function saveData(data,callback) {\n\tdata.id = document.getElementById('node-id').value;\n\tdata.label = document.getElementById('node-label').value;\n\tclearPopUp();\n\tcallback(data);\n}",
-          "x": 40877,
-          "y": 5513,
-          "id": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486"
+          "label": "function saveData(data,callback) {\n\tdata.id = document.getElementById('node-id').value;\n\tdata.label = document.getElementById('node-label').value;\n\tclearPopUp();\n        if (data.label.split(\"\\n\").length > 1) {\n           var labelHeightShift = 14*data.label.split(\"\\n\").length/2 - 7;\n           lastEditedNodesIds.forEach(function(nodeId) {\n              var nodeD = network.body.data.nodes.get(nodeId)[0];\n              var pNode = network.getPositions()[nodeId];\n              nodeD.x = pNode.x;\n              nodeD.y = pNode.y - labelHeightShift;\n              network.nodesHandler.moveNode(nodeD.id, nodeD.x, nodeD.y);\n           });\n        }\n\n\tcallback(data);\n}",
+          "x": 41017,
+          "y": 18399,
+          "id": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "67d57766-61d3-4278-bd82-50b7bc0fd759486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -26246,7 +26308,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -26258,10 +26321,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "function init() {\n\tdraw();\n}\n\nfunction saveDrawingSurface() {\n   drawingSurfaceImageData = ctx.getImageData(0, 0, canvas.width, canvas.height);\n}\n\nfunction restoreDrawingSurface() {\n    ctx.putImageData(drawingSurfaceImageData, 0, 0);\n}",
-          "x": 39774,
-          "y": 5644,
-          "id": "67d57766-61d3-4278-bd82-50b7bc0fd759486"
+          "label": "function init() {\n\tdraw();\n}",
+          "x": 39845,
+          "y": 18722,
+          "id": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "95440e5d-e2ab-4275-aea3-7084e5e08ef5486": {
           "color": {
@@ -26287,8 +26353,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function selectNodesFromHighlight() {\n    var fromX, toX, fromY, toY;\n    var nodesIdInDrawing = [];\n    var xRange = getStartToEnd(rect.startX, rect.w);\n    var yRange = getStartToEnd(rect.startY, rect.h);\n\n    var allNodes = network.body.data.nodes.get();\n    for (var i = 0; i < allNodes.length; i++) {\n        var curNode = allNodes[i];\n        var nodePosition = network.getPositions([curNode.id]);\n        var nodeXY = network.canvasToDOM({x: nodePosition[curNode.id].x, y: nodePosition[curNode.id].y});\n        if (xRange.start <= nodeXY.x && nodeXY.x <= xRange.end && yRange.start <= nodeXY.y && nodeXY.y <= yRange.end) {\n            nodesIdInDrawing.push(curNode.id);\n        }\n    }\n    network.selectNodes(nodesIdInDrawing);\n}",
-          "x": 41084,
-          "y": 5848,
+          "x": 41133,
+          "y": 19318,
           "id": "95440e5d-e2ab-4275-aea3-7084e5e08ef5486"
         },
         "d0f10764-b98d-4f26-8850-0d98258edd68486": {
@@ -26315,8 +26381,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function getStartToEnd(start, theLen) {\n    return theLen > 0 ? {start: start, end: start + theLen} : {start: start + theLen, end: start};\n}",
-          "x": 40971,
-          "y": 5998,
+          "x": 41010,
+          "y": 19600,
           "id": "d0f10764-b98d-4f26-8850-0d98258edd68486"
         },
         "c0f333be-7c73-49ff-9ce9-acd69d498858486": {
@@ -26343,8 +26409,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function getNodesByRegexSearchInLabel(network, regex) {\n\tvar nodes = network.body.data.nodes.get();\n\tvar foundNodes = []\n\tfor (var n = 0; n < nodes.length; n++) {\n\t\tif ((typeof nodes[n].label !== \"undefined\") && (nodes[n].label.search(regex) >= 0)) { \n\t\t\tfoundNodes.push(nodes[n]);\n\t\t}\n\t};\n\treturn foundNodes;\n}",
-          "x": 40957,
-          "y": 6099,
+          "x": 40998,
+          "y": 19801,
           "id": "c0f333be-7c73-49ff-9ce9-acd69d498858486"
         },
         "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b486": {
@@ -26371,8 +26437,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function updateNodePositionData(network, node) {\n\tvar nodesPositions = objectToArray(network.getPositions());\n\tfor (var n = 0; n < nodesPositions.length; n++) {\n\t\tif (nodesPositions[n].id == node.id) { \n\t\t\tnode.x = nodesPositions[n].x;\n\t\t\tnode.y = nodesPositions[n].y;\n\t\t}\n\t};\n}",
-          "x": 40876,
-          "y": 6245,
+          "x": 40928,
+          "y": 20079,
           "id": "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b486"
         },
         "399c5df4-d887-464d-8bad-d081f1623e44486": {
@@ -26399,8 +26465,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function makeSaveProjectToBrowserNode(label, positionX, positionY) {\n\tnetwork.body.data.nodes.add([{\n\t\tlabel:label,\n\t\tx:positionX,\n\t\ty:positionY\n\t}]);\n}",
-          "x": 39731,
-          "y": 6362,
+          "x": 39810,
+          "y": 20345,
           "id": "399c5df4-d887-464d-8bad-d081f1623e44486"
         },
         "92f8f188-413d-47c9-bc96-f290485c46ee486": {
@@ -26427,8 +26493,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function findProjectSavesKeys() {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn [];\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\tvar saveNameRegex = new RegExp(projectSaveNodeNamePrefix + projectSaveId + \"_.*\");\n\tvar storageItemsSize = localStorage.length;\n\tvar keys = [];\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar storageKey = localStorage.key(i);\n\t\tif (storageKey.search(saveNameRegex) >= 0) {\n\t\t\tkeys.push(localStorage.key(i));\n\t\t}\n\t}\n\treturn keys;\n}",
-          "x": 41117,
-          "y": 6556,
+          "x": 41149,
+          "y": 20873,
           "id": "92f8f188-413d-47c9-bc96-f290485c46ee486"
         },
         "329c31d6-4840-47ce-97d1-48d6bd801404486": {
@@ -26455,8 +26521,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function deleteNodesIfTheyAreProjectSaves(network, nodes) {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn;\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\tobjectToArray(data.nodes).forEach(function(nodeId) {\n\t\tvar node = getNodeById(network.body.data.nodes.get(), nodeId);\n\t\tif (node.label.search(new RegExp(projectSaveNodeNamePrefix + projectSaveId + \"_.*\")) >= 0) {\n\t\t\tlocalStorage.removeItem(node.label);\n\t\t}\n\t});\n}",
-          "x": 41117,
-          "y": 6804,
+          "x": 41149,
+          "y": 21303,
           "id": "329c31d6-4840-47ce-97d1-48d6bd801404486"
         },
         "6740287a-c540-43ff-91f0-669cb96f10f3486": {
@@ -26483,8 +26549,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function removeSaveNodes() {\n\tvar oldSavesKeys = findProjectSavesKeys();\n\tvar nodes = network.body.data.nodes;\n\tfor (var i = 0; i < oldSavesKeys.length; i++) {\n\t\tvar key = oldSavesKeys[i];\n\t\tvar saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(key));\n\t\tsaveCanvasProjectDateNodes.forEach(function(node) {\n\t\t\tnodes.remove(node.id);\n\t\t});\n\t}\n}",
-          "x": 41007,
-          "y": 6996,
+          "x": 41039,
+          "y": 21637,
           "id": "6740287a-c540-43ff-91f0-669cb96f10f3486"
         },
         "59635c29-9e7a-45ca-8525-2a37dbb488a7486": {
@@ -26511,8 +26577,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function getProjectId(saveCanvasProjectDataNode, network) {\n\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(projectSaveIdLine));\n\tif (projectSaveIdNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no \" + projectSaveIdLine + \" node\");\n\t\treturn;\n\t}\n\tvar projectSaveIdNode = projectSaveIdNodes[0];\n\tvar connectedNodesIds = network.getConnectedNodes(projectSaveIdNode.id);\n\tvar projectIdNode;\n\tconnectedNodesIds.forEach(function(nodeId) {\n\t\tvar node = getNodeById(network.body.data.nodes.get(), nodeId);\n\t\tif (node.label.split(\": \")[0] == \"projectSaveId\") {\n\t\t\tprojectIdNode = node;\n\t\t}\n\t});\n\treturn projectIdNode.label.split(\": \")[1]; \n}",
-          "x": 41019,
-          "y": 7202,
+          "x": 41056,
+          "y": 22008,
           "id": "59635c29-9e7a-45ca-8525-2a37dbb488a7486"
         },
         "da40667d-7034-434c-96d9-aac61e394e23486": {
@@ -26539,8 +26605,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function buildSaveNodesList() {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn;\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tupdateNodePositionData(network, saveCanvasProjectDataNode);\n\tvar oldSavesKeys = findProjectSavesKeys();\n\toldSavesKeys.forEach(function(key,i) {\n\t\tmakeSaveProjectToBrowserNode(\n\t\t\tkey,\n\t\t\tsaveCanvasProjectDataNode.x + 400, \n\t\t\tsaveCanvasProjectDataNode.y + 40*i);\n\t});\n}",
-          "x": 41117,
-          "y": 7443,
+          "x": 41154,
+          "y": 22402,
           "id": "da40667d-7034-434c-96d9-aac61e394e23486"
         },
         "3b49c915-fb27-47ab-bae5-20a308497725486": {
@@ -26567,8 +26633,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function deleteProjectLocalStorageSaves(network) {\n\tvar oldSavesKeys = findProjectSavesKeys();\n\tfor (var i = 0; i < oldSavesKeys.length; i++) {\n\t\tvar key = oldSavesKeys[i];\n\t\tlocalStorage.removeItem(key);\n\t}\n}",
-          "x": 40854,
-          "y": 7614,
+          "x": 40891,
+          "y": 22696,
           "id": "3b49c915-fb27-47ab-bae5-20a308497725486"
         },
         "c08a7ff5-92f1-482b-a55e-5e4aa4210022486": {
@@ -26595,8 +26661,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function deleteLocalStorageSavesAndSaveNodes(network) {\n\tremoveSaveNodes();\n\tdeleteProjectLocalStorageSaves(network);\n}",
-          "x": 40881,
-          "y": 7701,
+          "x": 40918,
+          "y": 22880,
           "id": "c08a7ff5-92f1-482b-a55e-5e4aa4210022486"
         },
         "8ae3245a-50b6-4a3b-bace-03ff73f40545486": {
@@ -26623,8 +26689,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveName) {\n\tlocalStorage.removeItem(saveName);\n\tvar saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(saveName));\n\tsaveCanvasProjectDateNodes.forEach(function(node) {\n\t\tnodes.remove(node.id);\n\t});\n}",
-          "x": 41028,
-          "y": 7788,
+          "x": 41060,
+          "y": 23063,
           "id": "8ae3245a-50b6-4a3b-bace-03ff73f40545486"
         },
         "5caa6892-9023-4d77-8aa0-ff564a51cf58486": {
@@ -26651,8 +26717,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function loadSavedProjectDataToDataMenuBySaveName(network, saveName) {\n\tvar jsonString = localStorage.getItem(saveName);\n\t$(\"textarea#schemeDataTextArea\").val(jsonString);\n}",
-          "x": 40943,
-          "y": 7875,
+          "x": 40982,
+          "y": 23264,
           "id": "5caa6892-9023-4d77-8aa0-ff564a51cf58486"
         },
         "11d30fee-175d-4da8-b2d8-069850fe9400486": {
@@ -26679,8 +26745,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function saveProjectToBrowserLocalStorage(network) {\n\tvar regex = saveCanvasProjectDataLine;\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + regex + \"$\"));\n\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \"$\"));\n\tvar projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \":.*$\"));\n\tif ((typeof saveCanvasProjectDataNodes === \"undefined\") || (saveCanvasProjectDataNodes.length == 0) ||\n\t\t(typeof projectSaveIdNodes === \"undefined\") || (projectSaveIdNodes.length == 0) ||\n\t\t(typeof projectSaveIdWithDataNodes === \"undefined\") || (projectSaveIdWithDataNodes.length == 0)) \n\t{\n\t\talert(\"Add setup nodes for canvas save information: '\" + saveCanvasProjectDataLine + \"', '\" + projectSaveIdLine + \"', '\" +  projectSaveIdLine + \": projectName'.\");\n\t} else {\n\t\tremoveSaveNodes();\n\t\tvar date = new Date().toLocaleString(\"ru-RU\");\n\t\tdate = date.replace(/\\./g,\"-\");\n\t\tdate = date.replace(/:/g,\"-\");\n\t\tdate = date.replace(/,/g,\"_\");\n\t\tdate = date.replace(\" \",\"\");\n\t\tvar projectJson = $(\"textarea#schemeDataTextArea\").val();\n\t\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\t\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\t\treturn;\n\t\t}\n\t\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\t\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\t\tlocalStorage.setItem(projectSaveNodeNamePrefix + projectSaveId + \"_\" + date,projectJson);\n\t\tbuildSaveNodesList();\n\t}\n}",
-          "x": 41199,
-          "y": 8116,
+          "x": 41238,
+          "y": 23585,
           "id": "11d30fee-175d-4da8-b2d8-069850fe9400486"
         },
         "315819bf-0c74-42bf-a4f6-177dd930ed60486": {
@@ -26707,8 +26773,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function clearBrowserLocalStorage() {\n\tvar storageItemsSize = localStorage.length;\n\tvar keys = [];\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tkeys.push(localStorage.key(i));\n\t}\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = keys[i];\n\t\tlocalStorage.removeItem(key);\n\t}\n}",
-          "x": 40830,
-          "y": 8406,
+          "x": 40867,
+          "y": 23957,
           "id": "315819bf-0c74-42bf-a4f6-177dd930ed60486"
         },
         "6248ca66-72f9-4e9d-b5e2-f9f68abc3f37486": {
@@ -26735,8 +26801,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function showBrowserLocalStorage() {\n\tvar storageItemsSize = localStorage.length;\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = localStorage.key(i);\n\t}\n}",
-          "x": 40830,
-          "y": 8535,
+          "x": 40862,
+          "y": 24158,
           "id": "6248ca66-72f9-4e9d-b5e2-f9f68abc3f37486"
         },
         "f7d23b14-e520-46cb-aef4-85a0e79044c7486": {
@@ -26763,8 +26829,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function showBrowserLocalStorageKeys() {\n\tvar storageItemsSize = localStorage.length;\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = localStorage.key(i);\n\t}\n}",
-          "x": 40830,
-          "y": 8629,
+          "x": 40860,
+          "y": 24311,
           "id": "f7d23b14-e520-46cb-aef4-85a0e79044c7486"
         },
         "5541e730-dc41-48fb-9666-86590c704c68486": {
@@ -26791,14 +26857,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "$(document).ready(function() {\n\n\tcontainerJQ[0].oncontextmenu = () => false;\n\t//topMenu = $(\"<div style='margin:0 0 0 0; padding:3px; background-color: black;color:white;z-index:9999'></div>\");\n\t\n\tbody = $(\"body\");\n\n\tshowDataButton = $(\"<div id='showData' style='cursor:pointer;color:black;float:right;position:fixed;top:3px; line-height: 0;right:0;z-index:9999;padding: 15px;margin:-5px 0 5px 0; background-color:white;border: 1px solid #a3a3a3;font-size:12px'>showData</div>\");\n\tbody.append(showDataButton);\n\n\tschemeEditElementsMenu = $(\"<div id='schemeEditElementsMenu' style='height:100%; width:300px; position:fixed; left:0; top:29px;border-right: 1px solid #a3a3a3; background-color:white;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n\tschemeEditElementsMenu.hide();\n\tbody.append(schemeEditElementsMenu);\n\n\tvar elementsSetupTable = $(\"<table id='elementsSetupTable'></table>\");",
-          "x": 40335,
-          "y": 9082,
+          "x": 40374,
+          "y": 24919,
           "id": "5541e730-dc41-48fb-9666-86590c704c68486"
         },
         "7206a9f0-1dcf-4435-89e7-67b6913ada0a486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -26806,7 +26874,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -26818,15 +26887,20 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tvar eSRow1 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow1);\n\tvar eSItem11 = $(\"<td></td>\");\n\tvar eSItem12 = $(\"<td></td>\");\n\teSRow1.append(eSItem11);\n\teSRow1.append(eSItem12);\n\tvar nodeIdInputLabel = $(\"<div style=''><span>nodeId: </span></div>\");\n\teSItem11.append(nodeIdInputLabel);\n\tvar nodeIdInput = $(\"<input type='text' id='nodeIdInput'></input>\");\n\teSItem12.append(nodeIdInput);\n\n\tvar eSRow2 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow2);\n\tvar eSItem21 = $(\"<td></td>\");\n\tvar eSItem22 = $(\"<td></td>\");\n\teSRow2.append(eSItem21);\n\teSRow2.append(eSItem22);\n\tvar nodeLabelInputLabel = $(\"<div style=''><span>nodeLabel: </span></div>\");\n\teSItem21.append(nodeLabelInputLabel);\n\tvar nodeLabelTextarea = $(\"<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>\");\n\teSItem22.append(nodeLabelTextarea);\n\n\tvar eSRow3 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow3);\n\tvar eSItem31 = $(\"<td></td>\");\n\tvar eSItem32 = $(\"<td></td>\");\n\teSRow3.append(eSItem31);\n\teSRow3.append(eSItem32);\n\tvar nodeXInputLabel = $(\"<div style=''><span>nodeX: </span></div>\");\n\teSItem31.append(nodeXInputLabel);\n\tvar nodeXInput = $(\"<input type='text' id='nodeXInput'></input>\");\n\teSItem32.append(nodeXInput);\n\n\tvar eSRow4 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow4);\n\tvar eSItem41 = $(\"<td></td>\");\n\tvar eSItem42 = $(\"<td></td>\");\n\teSRow4.append(eSItem41);\n\teSRow4.append(eSItem42);\n\tvar nodeYInputLabel = $(\"<div style=''><span>nodeY: </span></div>\");\n\teSItem41.append(nodeYInputLabel);\n\tvar nodeYInput = $(\"<input type='text' id='nodeYInput'></input>\");\n\teSItem42.append(nodeYInput);\n\n\tvar eSRow5 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow5);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5.append(eSItem51);\n\teSRow5.append(eSItem52);\n\tvar nodeShapeInputLabel = $(\"<div style=''><span>nodeShape: </span></div>\");\n\teSItem51.append(nodeShapeInputLabel);\n\tvar nodeShapeInput = $(\"<input type='text' id='nodeShapeInput'></input>\");\n\teSItem52.append(nodeShapeInput);\n\n\tvar eSRow6 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow6);\n\tvar eSItem61 = $(\"<td></td>\");\n\tvar eSItem62 = $(\"<td></td>\");\n\teSRow6.append(eSItem61);\n\teSRow6.append(eSItem62);\n\tvar nodeLinkInputLabel = $(\"<div style=''><span>nodeLink: </span></div>\");\n\teSItem61.append(nodeLinkInputLabel);\n\tvar nodeLinkInput = $(\"<input type='text' id='nodeLinkInput'></input>\");\n\teSItem62.append(nodeLinkInput);\n\tvar linkOpenButton = $(\"<div style='cursor:pointer;margin: 4px 0 2px 0;'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>\");\n\teSItem62.append(linkOpenButton);\n\n\tvar eSRow7 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow7);\n\tvar eSItem71 = $(\"<td></td>\");\n\tvar eSItem72 = $(\"<td></td>\");\n\teSRow7.append(eSItem71);\n\teSRow7.append(eSItem72);\n\tvar nodeColorInputLabel = $(\"<div style=''><span>nodeColor: </span></div>\");\n\teSItem71.append(nodeColorInputLabel);\n\tvar nodeColorInput = $(\"<input type='text' id='nodeColorInput'></input>\");\n\teSItem72.append(nodeColorInput);\n\n\tvar eSRow8 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow8);\n\tvar eSItem81 = $(\"<td></td>\");\n\tvar eSItem82 = $(\"<td></td>\");\n\teSRow8.append(eSItem81);\n\teSRow8.append(eSItem82);\n\tvar nodeBorderWidthInputLabel = $(\"<div style=''><span>nodeBorderWidth: </span></div>\");\n\teSItem81.append(nodeBorderWidthInputLabel);\n\tvar nodeBorderWidthInput = $(\"<input type='text' id='nodeBorderWidthInput'></input>\");\n\teSItem82.append(nodeBorderWidthInput);\n\n\tvar eSRow9 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow9);\n\tvar eSItem91 = $(\"<td></td>\");\n\tvar eSItem92 = $(\"<td></td>\");\n\teSRow9.append(eSItem91);\n\teSRow9.append(eSItem92);\n\tvar nodeBorderColorInputLabel = $(\"<div style=''><span>nodeBorderColor: </span></div>\");\n\teSItem91.append(nodeBorderColorInputLabel);\n\tvar nodeBorderColorInput = $(\"<input type='text' id='nodeBorderColorInput'></input>\");\n\teSItem92.append(nodeBorderColorInput);\n\n\tvar eSRow10 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow10);\n\tvar eSItem101 = $(\"<td></td>\");\n\tvar eSItem102 = $(\"<td></td>\");\n\teSRow10.append(eSItem101);\n\teSRow10.append(eSItem102);\n\tvar nodeFontSizeInputLabel = $(\"<div style=''><span>nodeFontSize: </span></div>\");\n\teSItem101.append(nodeFontSizeInputLabel);\n\tvar nodeFontSizeInput = $(\"<input type='text' id='nodeFontSizeInput'></input>\");\n\teSItem102.append(nodeFontSizeInput);\n\n\tvar eSRow11 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow11);\n\tvar eSItem111 = $(\"<td></td>\");\n\tvar eSItem112 = $(\"<td></td>\");\n\teSRow11.append(eSItem111);\n\teSRow11.append(eSItem112);\n\tvar nodeFontAlignInputLabel = $(\"<div style=''><span>nodeFontAlign: </span></div>\");\n\teSItem111.append(nodeFontAlignInputLabel);\n\tvar nodeFontAlignInput = $(\"<input type='text' id='nodeFontAlignInput'></input>\");\n\teSItem112.append(nodeFontAlignInput);",
-          "x": 41197,
-          "y": 10100,
-          "id": "7206a9f0-1dcf-4435-89e7-67b6913ada0a486"
+          "label": "\tvar eSRow1 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow1);\n\tvar eSItem11 = $(\"<td></td>\");\n\tvar eSItem12 = $(\"<td></td>\");\n\teSRow1.append(eSItem11);\n\teSRow1.append(eSItem12);\n\tvar nodeIdInputLabel = $(\"<div style=''><span>nodeId: </span></div>\");\n\teSItem11.append(nodeIdInputLabel);\n\tvar nodeIdInput = $(\"<input type='text' id='nodeIdInput'></input>\");\n\teSItem12.append(nodeIdInput);\n\n\tvar eSRow2 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow2);\n\tvar eSItem21 = $(\"<td></td>\");\n\tvar eSItem22 = $(\"<td></td>\");\n\teSRow2.append(eSItem21);\n\teSRow2.append(eSItem22);\n\tvar nodeLabelInputLabel = $(\"<div style=''><span>nodeLabel: </span></div>\");\n\teSItem21.append(nodeLabelInputLabel);\n\tvar nodeLabelTextarea = $(\"<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>\");\n\teSItem22.append(nodeLabelTextarea);\n\n\tvar eSRow3 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow3);\n\tvar eSItem31 = $(\"<td></td>\");\n\tvar eSItem32 = $(\"<td></td>\");\n\teSRow3.append(eSItem31);\n\teSRow3.append(eSItem32);\n\tvar nodeXInputLabel = $(\"<div style=''><span>nodeX: </span></div>\");\n\teSItem31.append(nodeXInputLabel);\n\tvar nodeXInput = $(\"<input type='text' id='nodeXInput'></input>\");\n\teSItem32.append(nodeXInput);\n\n\tvar eSRow4 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow4);\n\tvar eSItem41 = $(\"<td></td>\");\n\tvar eSItem42 = $(\"<td></td>\");\n\teSRow4.append(eSItem41);\n\teSRow4.append(eSItem42);\n\tvar nodeYInputLabel = $(\"<div style=''><span>nodeY: </span></div>\");\n\teSItem41.append(nodeYInputLabel);\n\tvar nodeYInput = $(\"<input type='text' id='nodeYInput'></input>\");\n\teSItem42.append(nodeYInput);\n\n\tvar eSRow5 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow5);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5.append(eSItem51);\n\teSRow5.append(eSItem52);\n\tvar nodeShapeInputLabel = $(\"<div style=''><span>nodeShape: </span></div>\");\n\teSItem51.append(nodeShapeInputLabel);\n\tvar nodeShapeInput = $(\"<input type='text' id='nodeShapeInput'></input>\");\n\teSItem52.append(nodeShapeInput);\n\n\tvar eSRow6 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow6);\n\tvar eSItem61 = $(\"<td></td>\");\n\tvar eSItem62 = $(\"<td></td>\");\n\teSRow6.append(eSItem61);\n\teSRow6.append(eSItem62);\n\tvar nodeLinkTextareaLabel = $(\"<div style=''><span>nodeLink: </span></div>\");\n\teSItem61.append(nodeLinkTextareaLabel);\n\tvar nodeLinkTextarea = $(\"<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>\");\n\teSItem62.append(nodeLinkTextarea);\n\tvar linkOpenButton = $(\"<div style='cursor:pointer;margin: 4px 0 2px 0;'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>\");\n\teSItem62.append(linkOpenButton);\n\n\tvar eSRow7 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow7);\n\tvar eSItem71 = $(\"<td></td>\");\n\tvar eSItem72 = $(\"<td></td>\");\n\teSRow7.append(eSItem71);\n\teSRow7.append(eSItem72);\n\tvar nodeColorInputLabel = $(\"<div style=''><span>nodeColor: </span></div>\");\n\teSItem71.append(nodeColorInputLabel);\n\tvar nodeColorInput = $(\"<input type='text' id='nodeColorInput'></input>\");\n\teSItem72.append(nodeColorInput);\n\n\tvar eSRow8 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow8);\n\tvar eSItem81 = $(\"<td></td>\");\n\tvar eSItem82 = $(\"<td></td>\");\n\teSRow8.append(eSItem81);\n\teSRow8.append(eSItem82);\n\tvar nodeBorderWidthInputLabel = $(\"<div style=''><span>nodeBorderWidth: </span></div>\");\n\teSItem81.append(nodeBorderWidthInputLabel);\n\tvar nodeBorderWidthInput = $(\"<input type='text' id='nodeBorderWidthInput'></input>\");\n\teSItem82.append(nodeBorderWidthInput);\n\n\tvar eSRow9 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow9);\n\tvar eSItem91 = $(\"<td></td>\");\n\tvar eSItem92 = $(\"<td></td>\");\n\teSRow9.append(eSItem91);\n\teSRow9.append(eSItem92);\n\tvar nodeBorderColorInputLabel = $(\"<div style=''><span>nodeBorderColor: </span></div>\");\n\teSItem91.append(nodeBorderColorInputLabel);\n\tvar nodeBorderColorInput = $(\"<input type='text' id='nodeBorderColorInput'></input>\");\n\teSItem92.append(nodeBorderColorInput);\n\n\tvar eSRow10 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow10);\n\tvar eSItem101 = $(\"<td></td>\");\n\tvar eSItem102 = $(\"<td></td>\");\n\teSRow10.append(eSItem101);\n\teSRow10.append(eSItem102);\n\tvar nodeFontSizeInputLabel = $(\"<div style=''><span>nodeFontSize: </span></div>\");\n\teSItem101.append(nodeFontSizeInputLabel);\n\tvar nodeFontSizeInput = $(\"<input type='text' id='nodeFontSizeInput'></input>\");\n\teSItem102.append(nodeFontSizeInput);\n\n\tvar eSRow11 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow11);\n\tvar eSItem111 = $(\"<td></td>\");\n\tvar eSItem112 = $(\"<td></td>\");\n\teSRow11.append(eSItem111);\n\teSRow11.append(eSItem112);\n\tvar nodeFontAlignInputLabel = $(\"<div style=''><span>nodeFontAlign: </span></div>\");\n\teSItem111.append(nodeFontAlignInputLabel);\n\tvar nodeFontAlignInput = $(\"<input type='text' id='nodeFontAlignInput'></input>\");\n\teSItem112.append(nodeFontAlignInput);",
+          "x": 41236,
+          "y": 25937,
+          "id": "7206a9f0-1dcf-4435-89e7-67b6913ada0a486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -26834,7 +26908,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -26846,15 +26921,20 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tlinkOpenButton.click(function() {\n\t\tvar link = nodeLinkInput.val();\n\t\tif (link.length > 0) {\n\t\t\twindow.open(link, '_blank');\n\t\t}\n\t});\n\n\tschemeEditElementsMenu.append(elementsSetupTable);\n\n\tvar saveElementEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElement</span></div>\");\n\tschemeEditElementsMenu.append(saveElementEditButton);",
-          "x": 41131,
-          "y": 11079,
-          "id": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486"
+          "label": "\tlinkOpenButton.click(function() {\n\t\tvar link = nodeLinkTextarea.val();\n\t\tif (link.length > 0) {\n\t\t\twindow.open(link, '_blank');\n\t\t}\n\t});\n\n\tschemeEditElementsMenu.append(elementsSetupTable);\n\n\tvar saveElementEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElement</span></div>\");\n\tschemeEditElementsMenu.append(saveElementEditButton);",
+          "x": 41170,
+          "y": 26916,
+          "id": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "f61061d2-ae48-4aa6-bc30-1b87952ccbcd486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -26862,7 +26942,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -26874,10 +26955,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tsaveElementEditButton.click(function() {\n\t\tvar nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = schemeEditElementsMenu.find(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = schemeEditElementsMenu.find(\"input#nodeXInput\");\n\t\tvar nodeYInput = schemeEditElementsMenu.find(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = schemeEditElementsMenu.find(\"input#nodeShapeInput\");\n\t\tvar nodeLinkInput = schemeEditElementsMenu.find(\"input#nodeLinkInput\");\n\t\tvar nodeFontSizeInput = schemeEditElementsMenu.find(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = schemeEditElementsMenu.find(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = schemeEditElementsMenu.find(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = schemeEditElementsMenu.find(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = schemeEditElementsMenu.find(\"input#nodeBorderColorInput\");\n\t\tvar nodeD = network.body.data.nodes.get(nodeIdInput.val());\n\t\tvar pNode = network.getPositions()[nodeIdInput.val()];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tnodeD.id = nodeIdInput.val();\n\t\tnodeD.label = nodeLabelTextarea.val();\n\t\tnodeD.x = pNode.x;\n\t\tnodeD.y = pNode.y;\n\t\tnodeD.shape = nodeShapeInput.val();\n\t\tnodeD.link = nodeLinkInput.val();\n\t\tif (typeof nodeD.font === \"undefined\") nodeD.font = {size: 14};\n\t\tnodeD.font.size = parseInt(nodeFontSizeInput.val(),10);\n\t\tnodeD.font.align = nodeFontAlignInput.val();\n\t\tif (typeof nodeD.color === \"undefined\") nodeD.color = {};\n\t\tnodeD.color.background = nodeColorInput.val();\n\t\tnodeD.color.border = nodeBorderColorInput.val();\n\t\tnodeD.borderWidth = nodeBorderWidthInput.val();\n\t\tnetwork.body.data.nodes.update(nodeD);\n\t});",
-          "x": 42024,
-          "y": 11436,
-          "id": "f61061d2-ae48-4aa6-bc30-1b87952ccbcd486"
+          "label": "\tsaveElementEditButton.click(function() {\n\t\tvar nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = schemeEditElementsMenu.find(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = schemeEditElementsMenu.find(\"input#nodeXInput\");\n\t\tvar nodeYInput = schemeEditElementsMenu.find(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = schemeEditElementsMenu.find(\"input#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = schemeEditElementsMenu.find(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = schemeEditElementsMenu.find(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = schemeEditElementsMenu.find(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = schemeEditElementsMenu.find(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = schemeEditElementsMenu.find(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = schemeEditElementsMenu.find(\"input#nodeBorderColorInput\");\n\t\tvar nodeD = network.body.data.nodes.get(nodeIdInput.val());\n\t\tvar pNode = network.getPositions()[nodeIdInput.val()];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tnodeD.id = nodeIdInput.val();\n\t\tnodeD.label = nodeLabelTextarea.val();\n\t\tnodeD.x = pNode.x;\n\t\tnodeD.y = pNode.y;\n\t\tnodeD.shape = nodeShapeInput.val();\n\t\tnodeD.link = nodeLinkTextarea.val();\n\t\tif (typeof nodeD.font === \"undefined\") nodeD.font = {size: 14};\n\t\tnodeD.font.size = parseInt(nodeFontSizeInput.val(),10);\n\t\tnodeD.font.align = nodeFontAlignInput.val();\n\t\tif (typeof nodeD.color === \"undefined\") nodeD.color = {};\n\t\tnodeD.color.background = nodeColorInput.val();\n\t\tnodeD.color.border = nodeBorderColorInput.val();\n\t\tnodeD.borderWidth = nodeBorderWidthInput.val();\n\t\tnetwork.body.data.nodes.update(nodeD);\n\t});",
+          "x": 42063,
+          "y": 27273,
+          "id": "f61061d2-ae48-4aa6-bc30-1b87952ccbcd486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "19662c04-ac5d-4a11-a4fd-a3547d193e13486": {
           "color": {
@@ -26903,14 +26987,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar closeElementEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeElementEditButton'>closeElement</span></div>\");\n\tschemeEditElementsMenu.append(closeElementEditButton);\n\n\tcloseElementEditButton.click(function() {\n\t\tschemeEditElementsMenu.hide();\n\t});",
-          "x": 42185,
-          "y": 11705,
+          "x": 42221,
+          "y": 27583,
           "id": "19662c04-ac5d-4a11-a4fd-a3547d193e13486"
         },
         "6275abb8-d031-4098-851b-0e023b1aba05486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -26918,7 +27004,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -26930,10 +27017,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tvar splitNodeListLabelButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>\");\n\tschemeEditElementsMenu.append(splitNodeListLabelButton);\n\n\tsplitNodeListLabelButton.click(function() {\n\t\tvar nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n\t\tvar sourceNode = network.body.data.nodes.get(nodeIdInput);\n\t\tvar nodeLabel = sourceNode.label;\n\t\tvar pNode = network.getPositions()[nodeIdInput];\n\t\tvar labelLines;\n\t\tif (nodeLabel.split(\"!@!@\").length > 1) {\n\t\t\tlabelLines = nodeLabel.split(\"\\n!@!@\\n\");\n\t\t} else {\n\t\t\tlabelLines = nodeLabel.split(\"\\n\");\n\t\t}\n\t\tvar nodeBBox = network.nodesHandler.getBoundingBox(nodeIdInput);\n\t\tvar y = nodeBBox[\"top\"];\n\t\tlabelLines.forEach(function(line,index) {\n\t\t\tnetwork.body.data.nodes.add({\n\t\t\t\tlabel:line,\n\t\t\t\tx: pNode.x + 300,\n\t\t\t\ty: y + (14*line.split(\"\\n\").length)/2\n\t\t\t});\n\t\t\ty = y + 14*line.split(\"\\n\").length + 10;\n\t\t});\n\t});",
-          "x": 42207,
-          "y": 11932,
-          "id": "6275abb8-d031-4098-851b-0e023b1aba05486"
+          "label": "   var splitNodeListLabelButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>\");\n   schemeEditElementsMenu.append(splitNodeListLabelButton);\n\n   splitNodeListLabelButton.click(function() {\n      var nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n      var sourceNode = network.body.data.nodes.get(nodeIdInput);\n      var nodeLabel = sourceNode.label;\n      var pNode = network.getPositions()[nodeIdInput];\n      var labelLines;\n      if (nodeLabel.split(\"!@!@\").length > 1) {\n         labelLines = nodeLabel.split(\"\\n!@!@\\n\");\n      } else {\n         labelLines = nodeLabel.split(\"\\n\");\n      }\n      var nodeBBox = network.nodesHandler.getBoundingBox(nodeIdInput);\n      var y = nodeBBox[\"top\"];\n      var newNodesIds = [];\n      if (labelLines[0] == \"to\") {\n         labelLines.shift();\n         labelLines.forEach(function(line,index) {\n            var position = {\n               x: pNode.x + 300,\n               y: y + (14*line.split(\"\\n\").length)/2\n            };\n            var labelAndLink = line.split(\" (http\");\n            var label = labelAndLink[0].trim();\n            var link = \"\";\n            if (typeof labelAndLink[1] !== \"undefined\") {\n               link = \"http\" + labelAndLink[1].slice(0,-1);\n            }\n            var nodeId = addNodeOnCanvas(label, link, position, 0, 0, network);\n            newNodesIds.push(nodeId);\n            y = y + 14*line.split(\"\\n\").length + 10;\n         });\n      } else {\n         labelLines.forEach(function(line,index) {\n            var position = {\n               x: pNode.x + 300,\n               y: y + (14*line.split(\"\\n\").length)/2\n            };\n            var nodeId = addNodeOnCanvas(line, \"\", position, 0, 0, network);\n            newNodesIds.push(nodeId);\n            y = y + 14*line.split(\"\\n\").length + 10;\n         });\n      }\n      var nodes = [];\n      newNodesIds.forEach(function(nodeId) {      \n         nodes.push(network.body.nodes[nodeId]);\n      });\n      alignNodesLeft(nodes);\n   });",
+          "x": 42240,
+          "y": 28004,
+          "id": "6275abb8-d031-4098-851b-0e023b1aba05486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "716a50bb-4bcd-4b76-9786-935f4a51dd3f486": {
           "color": {
@@ -26959,37 +27049,9 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar runNodeCodeButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='runNodeCodeButton'>runNodeCode</span></div>\");\n\n\tschemeEditElementsMenu.append(runNodeCodeButton);",
-          "x": 42167,
-          "y": 12138,
+          "x": 42196,
+          "y": 28490,
           "id": "716a50bb-4bcd-4b76-9786-935f4a51dd3f486"
-        },
-        "e8e475c1-8966-408d-9e9f-ecdaa887044b486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tfunction collectCodeNodesContent(rootCodeNodeId) {\n\t\tvar codeNode = network.body.data.nodes.get(rootCodeNodeId).label + \"\\n\";\n\t\tvar nodeEdges = network.body.nodes[rootCodeNodeId].edges;\n\t\tvar codeEdges = [];\n\t\tnodeEdges.forEach(function(edge) {\n\t\t\tif (edge.options.label == \"code\" && edge.fromId == rootCodeNodeId) {\n\t\t\t\tcodeEdges.push(edge);\n\t\t\t}\n\t\t});\n\t\tvar branchCodeNodes = [];\n\t\tcodeEdges.forEach(function(codeEdge) {\n\t\t\tbranchCodeNodes.push(network.body.data.nodes.get(codeEdge.toId));\n\t\t});\n\t\tfunction compare( a, b ) {\n\t\t\tif ( a.y < b.y ){\n\t\t\t\treturn -1;\n\t\t\t}\n\t\t\tif ( a.y > b.y ){\n\t\t\t\treturn 1;\n\t\t\t}\n\t\t\treturn 0;\n\t\t}\n\n\t\tvar branchCodeNodes = branchCodeNodes.sort(compare);\n\t\tbranchCodeNodes.forEach(function(branchNode) {\n\t\t\tcodeNode = codeNode + collectCodeNodesContent(branchNode.id);\n\t\t});\n\t\treturn codeNode;\n\t}",
-          "x": 41971,
-          "y": 12372,
-          "id": "e8e475c1-8966-408d-9e9f-ecdaa887044b486"
         },
         "12528d0c-0743-4f7a-83a8-3160b804fc96486": {
           "color": {
@@ -27015,8 +27077,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\trunNodeCodeButton.click(function() {\n\t\tvar nodeId = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n\t\tvar code = collectCodeNodesContent(nodeId);\n\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\tcodeFunction(nodeId);\n\t});",
-          "x": 41957,
-          "y": 12627,
+          "x": 41986,
+          "y": 28571,
           "id": "12528d0c-0743-4f7a-83a8-3160b804fc96486"
         },
         "963ce1eb-5c03-4df6-8305-6a9f1d28cc8d486": {
@@ -27043,8 +27105,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar leftMenuHelpLine1 = $(\"<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>\");\n\tschemeEditElementsMenu.append(leftMenuHelpLine1);\n\t//#FFD570\n\t//#ffc63b\n\tvar leftMenuHelpLine2 = $(\"<div style='margin:10px 0 0 0'><span id='leftMenuHelpLine2'>nodes yellow color - #ffd570</span></div>\");\n\tschemeEditElementsMenu.append(leftMenuHelpLine2);",
-          "x": 42167,
-          "y": 12721,
+          "x": 42196,
+          "y": 28665,
           "id": "963ce1eb-5c03-4df6-8305-6a9f1d28cc8d486"
         },
         "3c05b8b7-4e2d-41b6-bda6-be03883ea398486": {
@@ -27071,8 +27133,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tloadSavedProjectToMenuButton = $(\"<div style='cursor:pointer;margin:80px 0 0 0'><span id='loadSavedProjectToMenuButton'>loadSavedProjectToMenu</span></div>\");\n\tschemeEditElementsMenu.append(loadSavedProjectToMenuButton);\n\tloadSavedProjectToMenuButton.hide();\n\tloadSavedProjectToMenuButton.click(function() {\n\t\tvar saveLabel = loadSavedProjectToMenuButton.saveProjectLabel;\n\t\tloadSavedProjectDataToDataMenuBySaveName(network, saveLabel);\n\t\tupdateSchemeFromMenu();\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
-          "x": 42265,
-          "y": 12843,
+          "x": 42294,
+          "y": 28787,
           "id": "3c05b8b7-4e2d-41b6-bda6-be03883ea398486"
         },
         "851038ac-04bc-4373-99ce-445e9d30fdd0486": {
@@ -27099,8 +27161,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tdeleteSavedProjectButton = $(\"<div style='cursor:pointer;margin:40px 0 0 0'><span id='deleteSavedProjectButton'>!!deleteSavedProject!!</span></div>\");\n\tschemeEditElementsMenu.append(deleteSavedProjectButton);\n\tdeleteSavedProjectButton.hide();\n\tdeleteSavedProjectButton.click(function() {\n\t\tvar saveLabel = deleteSavedProjectButton.saveProjectLabel;\n\t\tdeleteLocalStorageSaveAndSaveNodeBySaveName(network, saveLabel);\n\t});",
-          "x": 42214,
-          "y": 12972,
+          "x": 42243,
+          "y": 28916,
           "id": "851038ac-04bc-4373-99ce-445e9d30fdd0486"
         },
         "a119be82-a76d-4edb-96c4-34bbf43f614c486": {
@@ -27127,8 +27189,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tschemeDataMenu = $(\"<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:white;border-left: 1px solid #a3a3a3;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n\t//schemeDataMenu.hide()\n\tschemeDataTextArea = $(\"<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>\");\n\tschemeDataMenu.append(schemeDataTextArea);\n\tsaveLoadButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>\");\n\tschemeDataMenu.append(saveLoadButton);\n\tbody.append(schemeDataMenu);",
-          "x": 42434,
-          "y": 13080,
+          "x": 42463,
+          "y": 29024,
           "id": "a119be82-a76d-4edb-96c4-34bbf43f614c486"
         },
         "998c7235-6bbf-4e48-bbed-61b6d38602ee486": {
@@ -27155,8 +27217,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tsaveLoadButton.click(function() {\n\t\tvar regex = saveCanvasProjectDataLine;\n\t\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + regex + \"$\"));\n\t\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \"$\"));\n\t\tvar projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \":.*$\"));\n\t\tif ((typeof saveCanvasProjectDataNodes === \"undefined\") || (saveCanvasProjectDataNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdNodes === \"undefined\") || (projectSaveIdNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdWithDataNodes === \"undefined\") || (projectSaveIdWithDataNodes.length == 0)) \n\t\t\t{\n\t\t\talert(\"Add setup nodes for canvas save information: '\" + saveCanvasProjectDataLine + \"', '\" + projectSaveIdLine + \"', '\" +  projectSaveIdLine + \": projectName'.\");\n\t\t} else {\n\t\t\tvar node = saveCanvasProjectDataNodes[0];\n\t\t\tupdateNodePositionData(network, node);\n\t\t\tvar scale = network.getScale();\n\t\t\tvar n1X = parseFloat(node.x.toFixed(5));\n\t\t\tvar n1Y = parseFloat(node.y.toFixed(5));\n\t\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n\t\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\t\t\tnetwork.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t\tnetwork1.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t}\n\t});",
-          "x": 42239,
-          "y": 13349,
+          "x": 42268,
+          "y": 29293,
           "id": "998c7235-6bbf-4e48-bbed-61b6d38602ee486"
         },
         "e08d8881-f4b9-4565-97da-d3f87ce1fdb0486": {
@@ -27183,8 +27245,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tshowDataButton.click(function() {\n\t\tschemeDataMenu.toggle();\n\t});",
-          "x": 41834,
-          "y": 13590,
+          "x": 41863,
+          "y": 29534,
           "id": "e08d8881-f4b9-4565-97da-d3f87ce1fdb0486"
         },
         "d89b86a0-bff8-4360-80b9-3636def7dcbe486": {
@@ -27211,8 +27273,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tdraw();\n\tif (typeof runUpateMenuFromSchemeAtPageReady !== \"undefined\" && runUpateMenuFromSchemeAtPageReady) {\n\t\tupdateMenuFromScheme();\n\t}\n\tremoveSaveNodes();\n\tbuildSaveNodesList();",
-          "x": 41026,
-          "y": 13870,
+          "x": 41080,
+          "y": 29858,
           "id": "d89b86a0-bff8-4360-80b9-3636def7dcbe486"
         },
         "fa8926fb-1ed4-4c5a-819d-5edf7fc101e2486": {
@@ -27239,8 +27301,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar updateSchemeFromMenuButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateSchemeFromMenuButton' style='background-color:white;color:black;'>updateSchemeFromMenu</span></div>\");\n\tvar updateMenuFromSchemeButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateMenuFromSchemeButton' style='background-color:white;color:black;'>updateMenuFromScheme</span></div>\");\n\tschemeDataMenu.prepend(updateMenuFromSchemeButton);\n\tschemeDataMenu.prepend(updateSchemeFromMenuButton);\n\tupdateSchemeFromMenuButton.click(function() {\n\t\tupdateSchemeFromMenu();\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
-          "x": 42218,
-          "y": 14010,
+          "x": 42261,
+          "y": 30055,
           "id": "fa8926fb-1ed4-4c5a-819d-5edf7fc101e2486"
         },
         "85af1170-a5a1-4103-a973-0a3d5b2d371a486": {
@@ -27267,8 +27329,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction addConnections(elem, index) {\n\t\telem.connections = network.getConnectedNodes(index);\n\t}\n\tfunction exportNetwork() {\n\t\tvar nodes = objectToArray(network.getPositions());\n\t\tvar positions = network.getPositions(item.id);\n\t\titem.positionX = positions[item.id].x;\n\t\titem.positionY = positions[item.id].y;\n\n\t\tnodes.forEach(addConnections);\n\n\t\tvar exportValue = JSON.stringify(nodes, undefined, 2);\n\n\t\treturn exportValue;\n\t}",
-          "x": 41707,
-          "y": 14188,
+          "x": 41744,
+          "y": 30335,
           "id": "85af1170-a5a1-4103-a973-0a3d5b2d371a486"
         },
         "072e065d-822d-4715-8443-5bf850e6a75f486": {
@@ -27295,8 +27357,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction importNetwork() {\n\t\tvar inputValue = exportArea.value;\n\t\tvar inputData = JSON.parse(inputValue);\n\n\t\tvar data = {\n\t\t\tnodes: getNodeData(inputData),\n\t\t\tedges: getEdgeData(inputData)\n\t\t}\n\n\t\tnetwork = new vis.Network(container, data, {});\n\t}",
-          "x": 41675,
-          "y": 14380,
+          "x": 41708,
+          "y": 30627,
           "id": "072e065d-822d-4715-8443-5bf850e6a75f486"
         },
         "f240ef3f-be64-4718-8708-cce54a9a12e6486": {
@@ -27323,8 +27385,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction getNodeData(data) {\n\t\tvar networkNodes = [];\n\n\t\tdata.forEach(function(elem, index, array) {\n\t\t\tnetworkNodes.push({id: elem.id, label: elem.id, x: elem.x, y: elem.y});\n\t\t});\n\n\t\treturn new vis.DataSet(networkNodes);\n\t}",
-          "x": 41748,
-          "y": 14530,
+          "x": 41797,
+          "y": 30898,
           "id": "f240ef3f-be64-4718-8708-cce54a9a12e6486"
         },
         "7413f257-38d2-49c0-aeab-10af492b6ea5486": {
@@ -27351,14 +27413,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction getEdgeData(data) {\n\t\tvar networkEdges = [];\n\n\t\tdata.forEach(function(node) {\n\t\t\tnode.connections.forEach(function(connId, cIndex, conns) {\n\t\t\t\tnetworkEdges.push({from: node.id, to: connId});\n\t\t\t\tvar cNode = getNodeById(data, connId);\n\n\t\t\t\tvar elementConnections = cNode.connections;\n\n\t\t\t\t// remove the connection from the other node to prevent duplicate connections\n\t\t\t\tvar duplicateIndex = elementConnections.findIndex(function(connection) {\n\t\t\t\t\treturn connection == node.id; // double equals since id can be numeric or string\n\t\t\t\t});\n\n\t\t\t\tif (duplicateIndex != -1) {\n\t\t\t\t\telementConnections.splice(duplicateIndex, 1);\n\t\t\t\t};\n\t\t\t});\n\t\t});\n\n\t\treturn new vis.DataSet(networkEdges);\n\t}",
-          "x": 41784,
-          "y": 14764,
+          "x": 41833,
+          "y": 31307,
           "id": "7413f257-38d2-49c0-aeab-10af492b6ea5486"
         },
         "4081ba82-a323-4e4f-946f-daa1d303b2b4486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -27366,7 +27430,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -27378,10 +27443,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tupdateMenuFromSchemeButton.click(function() {\n\t\tremoveSaveNodes();\n\t\tupdateMenuFromScheme();\n\t\t//saveProjectToBrowserLocalStorage(network);\n\t\tlocalStorageSpace();\n\t});\n\tif (showCursorCoordinates) {\n\t\tvar cursorCoordinatesWidget = $(\"<div style='position: fixed;right:330px;font-size:12px'>\" +\n\t\t\t\"<div id='domCursorCoordinates'></div>\" +\n\t\t\t\"<div id='canvasCursorCoordinates'></div>\" +\n\t\t\t\"</div>\");\n\t\t$(\"body\").append(cursorCoordinatesWidget);\n\t\t$(document).mousemove(function(event) {\n\t\t\t$(\"#domCursorCoordinates\").text(event.pageX.toString() + \"x\" + event.pageY.toString());\n\t\t\tvar domX = (event.pageX - containerJQ.position().left).toFixed(0);\n\t\t\tvar domY = (event.pageY - containerJQ.position().top).toFixed(0);\n\t\t\tvar canvasPosition = network.canvas.DOMtoCanvas({x: domX,y: domY});\n\t\t\t$(\"#canvasCursorCoordinates\").text((canvasPosition.x).toFixed(0) + \"x\" + (canvasPosition.y).toFixed(0));\n\t\t});\n\t}\n});",
-          "x": 41860,
-          "y": 15082,
-          "id": "4081ba82-a323-4e4f-946f-daa1d303b2b4486"
+          "label": "\tupdateMenuFromSchemeButton.click(function() {\n\t\tremoveSaveNodes();\n\t\tupdateMenuFromScheme();\n\t\t//saveProjectToBrowserLocalStorage(network);\n\t\tlocalStorageSpace();\n\t});\n\tif (showCursorCoordinates) {\n\t\tvar cursorCoordinatesWidget = $(\"<div style='position: fixed;right:330px;font-size:12px'>\" +\n\t\t\t\"<div id='domCursorCoordinates'></div>\" +\n\t\t\t\"<div id='canvasCursorCoordinates'></div>\" +\n\t\t\t\"</div>\");\n\t\t$(\"body\").append(cursorCoordinatesWidget);\n\t\t$(document).mousemove(function(event) {\n\t\t\t$(\"#domCursorCoordinates\").text(event.pageX.toString() + \"x\" + event.pageY.toString());\n\t\t\tvar domX = (event.pageX - containerJQ.position().left).toFixed(0);\n\t\t\tvar domY = (event.pageY - containerJQ.position().top).toFixed(0);\n\t\t\tvar canvasPosition = network.canvas.DOMtoCanvas({x: domX,y: domY});\n\t\t\t$(\"#canvasCursorCoordinates\").text((canvasPosition.x).toFixed(0) + \"x\" + (canvasPosition.y).toFixed(0));\n\t\t});\n\t}\n\t$(\"#network div.vis-network\").focus();\n});",
+          "x": 41904,
+          "y": 31779,
+          "id": "4081ba82-a323-4e4f-946f-daa1d303b2b4486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "f5f9ec15-27c8-4eba-aa98-273066ed1813486": {
           "color": {
@@ -27407,8 +27475,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function c(x, y) {\n\tvar imgData = false;\n\tvar ctxColor;\n\tif (imgData === false) {\n\t\t//console.log(document.getElementById(\"network\").getContext('2d'));\n\t\t//ctxColor = document.getElementById(\"network\").getContext(\"2d\");\n\t\tctxColor = canvas.getContext('2d');\n\t\timgData = ctxColor.getImageData(0,0,canvas.width, canvas.height);\n\t}\t\n\tvar index = (y * imgData.width + x) * 4;\n\tvar red = imgData.data[index];\n\tvar green = imgData.data[index+1];\n\tvar blue = imgData.data[index+2];\n\tvar alpha = imgData.data[index+3];\n\t//console.log('pix x ' + x + ' y ' + y + ' index ' + index + ' COLOR ' + red + ', ' + green + ', ' + blue + ', ' + alpha);\n}",
-          "x": 39852,
-          "y": 15655,
+          "x": 39876,
+          "y": 32704,
           "id": "f5f9ec15-27c8-4eba-aa98-273066ed1813486"
         },
         "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486": {
@@ -27435,8 +27503,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function rdf() {\n\tvar store = $rdf.graph();\n\tconsole.log($rdf);\n\tconsole.log(store);\n\tconsole.log(network);\n\tnetwork.body.data.nodes.get().forEach(function(node) {\n\t\tstore.add($rdf.literal(node.id), FOAF('name'), $rdf.literal(node.id));\n\t\t//store.add(node.id, \"name\",);\n\t});\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t});\n\tconsole.log(store.length);\n}",
-          "x": 40896,
-          "y": 15864,
+          "x": 40920,
+          "y": 33036,
           "id": "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486"
         },
         "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486": {
@@ -27463,8 +27531,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function localStorageSpace() {\n    var data = '';\n\n    console.log('Current local storage: ');\n\n    for(var key in window.localStorage){\n\n        if(window.localStorage.hasOwnProperty(key)){\n            data += window.localStorage[key];\n            console.log( key + \" = \" + ((window.localStorage[key].length * 16)/(8 * 1024)).toFixed(2) + ' KB' );\n        }\n\n    }\n\n    console.log(data ? '\\n' + 'Total space used: ' + ((data.length * 16)/(8 * 1024)).toFixed(2) + ' KB' : 'Empty (0 KB)');\n    console.log(data ? 'Approx. space remaining: ' + (5120 - ((data.length * 16)/(8 * 1024)).toFixed(2)) + ' KB' : '5 MB');\n};",
-          "x": 41057,
-          "y": 16085,
+          "x": 41087,
+          "y": 33389,
           "id": "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486"
         },
         "e68d70a9-0e47-4168-ae35-bb44461b4110486": {
@@ -27491,8 +27559,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function makeNodeJsonLine(id, label, link, x, y) {\n\tlabel = label.replace(\":\",\"\\:\");\n\tlink = link.replace(\":\",\"\\:\");\n\tvar json = \"\";\n\tjson += \"\\\"\" + id + \"\\\": { \\\"id\\\": \\\"\" + id + \"\\\",\";\n\tjson += \"\\\"x\\\": \" + x.toString() + \", \\\"y\\\": \" + y.toString() + \",\";\n\tjson += \"\\\"label\\\": \\\"\" + label + \"\\\",\";\n\tjson += \"\\\"link\\\": \\\"\" + link + \"\\\"\";\n\tjson += \"}\";\n\treturn json;\n}",
-          "x": 40871,
-          "y": 16291,
+          "x": 40901,
+          "y": 33732,
           "id": "e68d70a9-0e47-4168-ae35-bb44461b4110486"
         },
         "880081bc-e7c3-48c1-9fa7-1e638b8d8548486": {
@@ -27519,8 +27587,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function addNodeOnCanvas(label, link, position, shiftX, shiftY, network) {\n\treturn network.body.data.nodes.add({\n\t\tlabel:label,\n\t\tlink: link,\n\t\tx: position.x + shiftX,\n\t\ty: position.y + shiftY\n\t});\n}",
-          "x": 40915,
-          "y": 16434,
+          "x": 40957,
+          "y": -7742,
           "id": "880081bc-e7c3-48c1-9fa7-1e638b8d8548486"
         },
         "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486": {
@@ -27547,8 +27615,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function countSelectedNodesAndEdges() {\n\tvar nodes = objectToArray(network.body.data.nodes);\n\tvar edges = objectToArray(network.body.data.edges);\n\tconsole.log(\"All nodes: \" + nodes.length);\n\tconsole.log(\"All edges: \" + edges.length);\n\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\tconsole.log(\"Selected nodes: \" + selectedNodes.length);\n\tconsole.log(\"Selected edges: \" + selectedEdges.length);\n}",
-          "x": 40948,
-          "y": 16570,
+          "x": 40962,
+          "y": 34251,
           "id": "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486"
         },
         "20602b12-993a-42bc-8dd6-008215220e01486": {
@@ -27575,15 +27643,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function help() {\n\tconsole.log(\"localStorageSpace()\");\n\tconsole.log(\"countSelectedNodesAndEdges()\");\n}\n",
-          "x": 40840,
-          "y": 16685,
+          "x": 40864,
+          "y": 34497,
           "id": "20602b12-993a-42bc-8dd6-008215220e01486"
         },
         "fcdd0bec-d9eb-412f-810f-075698893dbf486": {
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -27604,9 +27673,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\t$(\"#network\").keyup(function (event) {\n\t\t//Duplicate. Ctrl+alt+d.\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 68) {\n\t\t\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\t\t\tvar nodes = []\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tvar nodeD = network.body.data.nodes.get(node.id);\n\t\t\t\tpNode = network.getPositions()[node.id];\n\t\t\t\tnodeD.x = pNode.x;\n\t\t\t\tnodeD.y = pNode.y;\n\t\t\t\tnetwork.body.data.nodes.update(nodeD);\n\n\t\t\t\tnodes.push(network.body.data.nodes.get(node.id));\n\t\t\t});\n\t\t\tvar edges = []\n\t\t\tselectedEdges.forEach(function(edge) {\n\t\t\t\tedges.push(network.body.data.edges.get(edge.id));\n\t\t\t});\n\n\t\t\tvar data = {\n\t\t\t\tnodes: {},\n\t\t\t\tedges: {}\n\t\t\t};\n\t\t\t\n\t\t\tvar positions1 = network.getPositions();\n\t\t\tnodes1ToCopy = {}; \n\t\t\tnodes.forEach(function(item) {\n\t\t\t\tnodes1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tobjectToArray(positions1).forEach(function(position) {\n\t\t\t\t\tif (node.id == position.id) {\n\t\t\t\t\t\tnode.x = position.x;\n\t\t\t\t\t\tnode.y = position.y;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t});\n\t\t\tdata.nodes = nodes1ToCopy;\n\n\t\t\tvar edges1ToCopy = {}; \n\t\t\tedges.forEach(function(item) {\n\t\t\t\tedges1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.edges = edges1ToCopy;\n\t\t\tvar label = JSON.stringify(data, undefined, 1);\n\t\t\tvar data = JSON.parse(label);\n\t\t\tvar date = new Date();\n\t\t\tvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\tobjectToArray(data.nodes).forEach(function(node) {\n\t\t\t\tnode.id = node.id + idPostfix;\n\t\t\t\tnode.y = node.y; \n\t\t\t\tvar newNode = network.nodesHandler.create(node);\n\t\t\t\tnetwork.body.data.nodes.add(newNode.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newNode);\n\t\t\t});\n\t\t\tobjectToArray(data.edges).forEach(function(edge) {\n\t\t\t\tedge.id = edge.id + idPostfix;\t\n\t\t\t\tedge.from = edge.from + idPostfix;\n\t\t\t\tedge.to = edge.to + idPostfix;\n\t\t\t\tvar newEdge = network.edgesHandler.create(edge);\n\t\t\t\tnetwork.body.data.edges.add(newEdge.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newEdge);\n\t\t\t});\n\t\t\tnetwork.selectionHandler.setSelection(network.selectionHandler.getSelection());\n\t\t}\n\t});",
-          "x": 40927,
-          "y": -980,
+          "label": "   $(\"#network\").keyup(function (event) {\n      //Add new node under cursor. alt+n\n      if (event.altKey && event.keyCode === 78) {\n         var schemeDataMenuWidth = 0;\n         if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n            schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n         } else {\n            schemeDataMenuWidth = 0;\n         }\n         var lastEditedNodeId;\n         var lastEditedNode;\n         var position;\n         if (lastEditedNodesIds.length == 0) {\n            if (lastClickPosition == null) {\n               position = {\n                  x: (canvasWidth - schemeDataMenuWidth)/2,\n                  y: canvasHeight/2\n               };\n            } else {\n               position = {\n                  x: lastClickPosition.x,\n                  y: lastClickPosition.y\n               };\n            }\n            position = network.canvas.DOMtoCanvas(position);\n         } else {\n            var lastEditedNodeId = lastEditedNodesIds[lastEditedNodesIds.length - 1];\n            var lastEditedNode = network.body.data.nodes.get(lastEditedNodeId)[0];\n            var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);\n            position = {\n               x: lastEditedNode.x,\n               y: nodeBBox[\"top\"] + 28 + 28*lastEditedNode.label.split(\"\\n\").length/2\n            };\n         }\n         var nodeId = addNodeOnCanvas(\"\", \"\", position, 0, 0, network);\n         var node = network.body.nodes[nodeId];\n         network.selectionHandler.selectObject(node);\n         lastEditedNodesIds.push(nodeId);\n         network.manipulation.editNode();\n      }\n      //Build project. alt+b\n      if (event.altKey && event.keyCode === 66) {\n         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 1) {\n            console.log(\"Select one node\");\n            showAlert(\"Select one node\", 80, 150);\n            return;\n         }\n         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);\n         var rootNode = network.body.data.nodes.get(rootNodeId);\n         var projectName = rootNode.label.replace(\"mvj code file for project name: \",\"\");\n\t\t\tvar buildProjectParentNode;\n\t\t\tvar buildProjectParentNodeName = \"buildProject code: \" + projectName;\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + buildProjectParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + buildProjectParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tbuildProjectParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[buildProjectParentNode.id].edges;\n\t\t\tvar buildProjectCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == buildProjectParentNode.id) {\n\t\t\t\t\tbuildProjectCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof buildProjectCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no buildProjectCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(buildProjectCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(buildProjectCodeNode.id);\n\t\t}\n                //Save canvas. Ctrl+alt+s\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 83) {\n\t\t\tvar saveOperationsParentNode;\n\t\t\tvar saveOperationsParentNodeName = \"Save operations code\";\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveOperationsParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + saveOperationsParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tsaveOperationsParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[saveOperationsParentNode.id].edges;\n\t\t\tvar saveOperationsCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == saveOperationsParentNode.id) {\n\t\t\t\t\tsaveOperationsCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof saveOperationsCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no saveOperationsCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(saveOperationsCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(saveOperationsCodeNode.id);\n\t\t}\n\t\t//Duplicate. Ctrl+alt+d.\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 68) {\n\t\t\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\t\t\tvar nodes = []\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tvar nodeD = network.body.data.nodes.get(node.id);\n\t\t\t\tpNode = network.getPositions()[node.id];\n\t\t\t\tnodeD.x = pNode.x;\n\t\t\t\tnodeD.y = pNode.y;\n\t\t\t\tnetwork.body.data.nodes.update(nodeD);\n\n\t\t\t\tnodes.push(network.body.data.nodes.get(node.id));\n\t\t\t});\n\t\t\tvar edges = []\n\t\t\tselectedEdges.forEach(function(edge) {\n\t\t\t\tedges.push(network.body.data.edges.get(edge.id));\n\t\t\t});\n\n\t\t\tvar data = {\n\t\t\t\tnodes: {},\n\t\t\t\tedges: {}\n\t\t\t};\n\t\t\t\n\t\t\tvar positions1 = network.getPositions();\n\t\t\tnodes1ToCopy = {}; \n\t\t\tnodes.forEach(function(item) {\n\t\t\t\tnodes1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tobjectToArray(positions1).forEach(function(position) {\n\t\t\t\t\tif (node.id == position.id) {\n\t\t\t\t\t\tnode.x = position.x;\n\t\t\t\t\t\tnode.y = position.y;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t});\n\t\t\tdata.nodes = nodes1ToCopy;\n\n\t\t\tvar edges1ToCopy = {}; \n\t\t\tedges.forEach(function(item) {\n\t\t\t\tedges1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.edges = edges1ToCopy;\n\t\t\tvar label = JSON.stringify(data, undefined, 1);\n\t\t\tvar data = JSON.parse(label);\n\t\t\tvar date = new Date();\n\t\t\tvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\tobjectToArray(data.nodes).forEach(function(node) {\n\t\t\t\tnode.id = node.id + idPostfix;\n\t\t\t\tnode.y = node.y; \n\t\t\t\tvar newNode = network.nodesHandler.create(node);\n\t\t\t\tnetwork.body.data.nodes.add(newNode.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newNode);\n\t\t\t});\n\t\t\tobjectToArray(data.edges).forEach(function(edge) {\n\t\t\t\tedge.id = edge.id + idPostfix;\t\n\t\t\t\tedge.from = edge.from + idPostfix;\n\t\t\t\tedge.to = edge.to + idPostfix;\n\t\t\t\tvar newEdge = network.edgesHandler.create(edge);\n\t\t\t\tnetwork.body.data.edges.add(newEdge.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newEdge);\n\t\t\t});\n\t\t\tnetwork.selectionHandler.setSelection(network.selectionHandler.getSelection());\n\t\t}\n\t});",
+          "x": 41189,
+          "y": 8405,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
           "shape": "box",
           "link": "",
@@ -27638,8 +27707,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"#network\").keydown(function (event) {\n\t\t//Delete or Backspace\n\t\t//if (event.ctrlKey && event.keyCode === 13) {\n\t\tif (event.keyCode === 46 || event.keyCode === 8) {\n\t\t\tnetwork.manipulation.deleteSelected();\n\t\t}\n\t});",
-          "x": 41771,
-          "y": -440,
+          "x": 41831,
+          "y": 10505,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486",
           "shape": "box",
           "link": "",
@@ -27675,8 +27744,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js:\n./app/\napplication.js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939318955559920683486",
-          "x": 45503,
-          "y": -12405,
+          "x": 45392,
+          "y": -12201,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28481,7 +28550,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "var dataSourcePath = \"/home/mike/progr/repo/mm-vis-js/app/index.data.js\";\nvar url = \"http://localhost:1337\";\nvar canvasProjectName = \"mainPage1\";\nvar buildProjectName = \"mm-vis-js\";\n\nupdateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nfunction fetchData(url, params) {\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n   });\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: dataSourcePath,\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: canvasProjectName,\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       buildProjectName: buildProjectName,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
+          "label": "var dataSourcePath = \"/home/mike/progr/repo/mm-vis-js/app/index.data.js\";\nvar url = \"https://localhost:3001\";\nvar canvasProjectName = \"mainPage1\";\nvar buildProjectName = \"mm-vis-js\";\n\nupdateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nfunction fetchData(url, params) {\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 30, 170);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n   });\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: dataSourcePath,\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: canvasProjectName,\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       buildProjectName: buildProjectName,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f554206369486",
           "x": 41555,
           "y": -16822,
@@ -28492,14 +28561,18 @@ var schemeData =
         "19cad5a8-bf31-4dc2-833f-94018d9bc12c369486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "",
+            "border": ""
           },
           "fixed": {},
           "font": {
             "bold": {},
             "boldital": {},
             "ital": {},
-            "mono": {}
+            "mono": {},
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -28513,10 +28586,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "buildProject",
+          "label": "buildProject code: mm-vis-js",
           "id": "19cad5a8-bf31-4dc2-833f-94018d9bc12c369486",
           "x": 40835,
-          "y": -16875
+          "y": -16875,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "24ae259c-16ca-4400-acff-c6b8465a30c0978206200486": {
           "color": {
@@ -29365,9 +29441,9 @@ var schemeData =
         },
         "b9f0ff34-99a9-496b-b5a9-1922a75a864f": {
           "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f",
-          "x": 40813,
-          "y": -11411,
-          "label": "function mkdirRecursiveSync(path, pathDelimiter) {\n    var paths = path.split(pathDelimiter);\n    var fullPath = '';\n    paths.forEach((path) => {\n\n        fullPath = fullPath + path + pathDelimiter;\n\n        if (!fs.existsSync(fullPath)) {\n            fs.mkdirSync(fullPath);\n        }\n    });\n};\n",
+          "x": 41523,
+          "y": -6877,
+          "label": "function showAlert(alertLine, rightShift, width) {\n        var schemeDataMenuWidth = 0;\n        if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n                schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n        } else {\n                schemeDataMenuWidth = 59;\n        }\n        var saveAlertWidget = $(\"<div id='alertLine' style='z-index:9999;position: fixed;right:\" + String(schemeDataMenuWidth + rightShift) + \"px;top:0;font-family:sans-serif;font-size:14px; margin:5px; width:\" + String(width) + \"px;'>\" + alertLine + \"</div>\");\n        $(\"body\").append(saveAlertWidget);\n        setTimeout(() => $(\"#alertLine\").remove(), 5000);\n}",
           "shape": "box",
           "link": "",
           "font": {
@@ -30494,9 +30570,9 @@ var schemeData =
           "borderWidth": ""
         },
         "d80e4d87-43fe-4457-835f-0cbbbb8b3358": {
-          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n</style>",
-          "x": 67537,
-          "y": 3163,
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "x": 67548,
+          "y": 3270,
           "id": "d80e4d87-43fe-4457-835f-0cbbbb8b3358",
           "shape": "box",
           "link": "",
@@ -30511,9 +30587,9 @@ var schemeData =
           "borderWidth": ""
         },
         "69e1c992-010c-4a23-9c38-eb54979a89de": {
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"index.data.js?3\"></script>\n<script type=\"text/javascript\" src=\"application.js?3\"></script>\n\n</body>\n</html>",
-          "x": 67821,
-          "y": 3690,
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"index.data.js?10\"></script>\n<script type=\"text/javascript\" src=\"application.js?10\"></script>\n\n</body>\n</html>",
+          "x": 67826,
+          "y": 3977,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de",
           "shape": "box",
           "link": "",
@@ -30767,7 +30843,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -30788,9 +30865,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n</style>",
-          "x": 67609,
-          "y": 6461,
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "x": 67619,
+          "y": 6567,
           "id": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232",
           "shape": "box",
           "link": "",
@@ -30822,9 +30899,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?3\"></script>\n<script type=\"text/javascript\" src=\"application.js?3\"></script>\n\n</body>\n</html>",
-          "x": 67893,
-          "y": 6988,
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?3\"></script>\n<script type=\"text/javascript\" src=\"application.js?3\"></script>\n\n</body>\n</html>",
+          "x": 67897,
+          "y": 7289,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de232",
           "shape": "box",
           "link": "",
@@ -30860,8 +30937,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "file path: ./utils/templates/index.data.js.erb",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792",
-          "x": 66877,
-          "y": 8374,
+          "x": 66810,
+          "y": 14611,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -30895,8 +30972,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "var schemeData = \n{\n\t\"canvas1Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"canvas2Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"setup\": {\n\t\t\"scale\": 1,\n\t\t\"viewPosition\": {\n\t\t\t\"x\": 827.4214000000001,\n\t\t\t\"y\": 697.1176\n\t\t}\n\t}\n}\n;",
-          "x": 68092,
-          "y": 9092,
+          "x": 68025,
+          "y": 15329,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486792",
           "shape": "box",
           "link": "",
@@ -30932,8 +31009,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js:\n./utils/templates/\nindex.data.js.erb",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486792",
-          "x": 72668,
-          "y": 9592,
+          "x": 72601,
+          "y": 15829,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -30967,8 +31044,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792",
-          "x": 65860,
-          "y": 8357,
+          "x": 65793,
+          "y": 14594,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -30999,8 +31076,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792",
-          "x": 67614,
-          "y": 8373
+          "x": 67547,
+          "y": 14610
         },
         "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792768": {
           "color": {
@@ -31032,8 +31109,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "file path: ./utils/templates/index.html.erb",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792768",
-          "x": 65990,
-          "y": 12495,
+          "x": 65923,
+          "y": 18732,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -31068,8 +31145,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js:\n./utils/templates/\nindex.html.erb",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486792768",
-          "x": 72600,
-          "y": 13848,
+          "x": 72533,
+          "y": 20085,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -31103,8 +31180,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792768",
-          "x": 64972,
-          "y": 12478,
+          "x": 64905,
+          "y": 18715,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -31135,13 +31212,13 @@ var schemeData =
           "shapeProperties": {},
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792768",
-          "x": 66726,
-          "y": 12494
+          "x": 66659,
+          "y": 18731
         },
         "1a74b08c-1e5c-47e7-809e-6518e2836a96": {
           "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title><%= pageTitle %></title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
-          "x": 67261,
-          "y": 12464,
+          "x": 67194,
+          "y": 18701,
           "id": "1a74b08c-1e5c-47e7-809e-6518e2836a96",
           "shape": "box",
           "link": "",
@@ -31157,8 +31234,8 @@ var schemeData =
         },
         "6190653d-7e88-4726-901c-5d440d98f241": {
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
-          "x": 67694,
-          "y": 12791,
+          "x": 67627,
+          "y": 19028,
           "id": "6190653d-7e88-4726-901c-5d440d98f241",
           "shape": "box",
           "link": "",
@@ -31174,8 +31251,8 @@ var schemeData =
         },
         "67d06945-9b99-4fc8-a120-402da3f48e67": {
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
-          "x": 67867,
-          "y": 13305,
+          "x": 67800,
+          "y": 19542,
           "id": "67d06945-9b99-4fc8-a120-402da3f48e67",
           "shape": "box",
           "link": "",
@@ -31191,8 +31268,8 @@ var schemeData =
         },
         "6d48e6c8-b142-406f-8cdd-5d875dc0db8b": {
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:350px;\n\tleft:170px;\n\tz-index:299;\n\twidth:250px;\n\theight:120px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n</style>",
-          "x": 67709,
-          "y": 13868,
+          "x": 67642,
+          "y": 20105,
           "id": "6d48e6c8-b142-406f-8cdd-5d875dc0db8b",
           "shape": "box",
           "link": "",
@@ -31208,8 +31285,8 @@ var schemeData =
         },
         "e0ba3c9d-76de-4d9c-97d9-ef5181e5b3fa": {
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = false; \n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><input id=\"node-label\" value=\"new value\" /></td>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.0/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"<%= pageDataJsFileName %>\"></script>\n<script type=\"text/javascript\" src=\"application.js\"></script>\n</body>\n</html>",
-          "x": 67993,
-          "y": 14333,
+          "x": 67926,
+          "y": 20570,
           "id": "e0ba3c9d-76de-4d9c-97d9-ef5181e5b3fa",
           "shape": "box",
           "link": "",
@@ -32274,8 +32351,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "file path: ./e2eTests/common_test.js",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953",
-          "x": 66136,
-          "y": 17237,
+          "x": 66069,
+          "y": 23474,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32309,8 +32386,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Feature('Basic test');\n\nScenario('navigate to homepage', I => {\n  I.amOnPage('http://app-express:3000/index.html');\n  I.saveScreenshot('frontpageScreenshot.png');\n  I.see('showData');\n});",
-          "x": 67262,
-          "y": 17243,
+          "x": 67195,
+          "y": 23480,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953",
           "shape": "box",
           "link": "",
@@ -32346,8 +32423,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js:\n./e2eTests/\ncommon_test.js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953",
-          "x": 72559,
-          "y": 18344,
+          "x": 72492,
+          "y": 24581,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32381,8 +32458,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953",
-          "x": 65158,
-          "y": 17237,
+          "x": 65091,
+          "y": 23474,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32413,8 +32490,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953",
-          "x": 66771,
-          "y": 17226
+          "x": 66704,
+          "y": 23463
         },
         "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613": {
           "color": {
@@ -32446,8 +32523,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "file path: ./e2eTests/docker.conf.js",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613",
-          "x": 66151,
-          "y": 21273,
+          "x": 66084,
+          "y": 27510,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32481,8 +32558,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "exports.config = {\n  tests: './*-test.js',\n  output: './output',\n  helpers: {\n    WebDriver: {\n      url: 'http://app-express:3000',\n      host: 'chrome-container',\n      browser: 'chrome',\n      smartWait: 5000,\n      restart: false,\n      waitForTimeout: 10000,\n      timeouts: {\n        script: 60000,\n        'page load': 60000,\n      },\n      coloredLogs: true,\n      desiredCapabilities: {\n        chromeOptions: {\n          // https://peter.sh/experiments/chromium-command-line-switches/\n          args: [\n            '--headless',\n            '--disable-gpu', // Temporarily needed if running headless on Windows\n            // '--no-sandbox',\n            // '--disable-setuid-sandbox',\n          ],\n        },\n      },\n    },\n  },\n  bootstrap: false,\n  mocha: {},\n  name: 'codeceptjs-docker',\n};",
-          "x": 67304,
-          "y": 21459,
+          "x": 67237,
+          "y": 27696,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613",
           "shape": "box",
           "link": "",
@@ -32518,8 +32595,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js:\n./e2eTests/\ndocker.conf.js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953613",
-          "x": 72115,
-          "y": 22581,
+          "x": 72048,
+          "y": 28818,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32553,8 +32630,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613",
-          "x": 65173,
-          "y": 21273,
+          "x": 65106,
+          "y": 27510,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32585,8 +32662,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613",
-          "x": 66786,
-          "y": 21262
+          "x": 66719,
+          "y": 27499
         },
         "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613127": {
           "color": {
@@ -32618,8 +32695,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "file path: ./e2eTests/testServer.js",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613127",
-          "x": 66192,
-          "y": 25525,
+          "x": 66125,
+          "y": 31762,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32653,8 +32730,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "const express = require('express');\n\nconst app = express();\n\nvar path = require('path');\n\napp.use(express.static(\"/home/node/public\"));\napp.get('/', function(req, res) {\n\tres.sendFile(path.join(__dirname, \"home/node/public\", \"index.html\"));\n});\n\nconst server = app.listen(3000, () => {\n  const { port } = server.address();\n  console.log(`Example app listening on port ${port}`);\n});",
-          "x": 67313,
-          "y": 25603,
+          "x": 67246,
+          "y": 31840,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613127",
           "shape": "box",
           "link": "",
@@ -32690,8 +32767,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js:\n./e2eTests/\ntestServer.js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953613127",
-          "x": 71809,
-          "y": 26833,
+          "x": 71742,
+          "y": 33070,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32725,8 +32802,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613127",
-          "x": 65214,
-          "y": 25525,
+          "x": 65147,
+          "y": 31762,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32757,8 +32834,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613127",
-          "x": 66827,
-          "y": 25514
+          "x": 66760,
+          "y": 31751
         },
         "9088af90-19d5-413b-803b-388e74467610": {
           "label": "vis.js",
@@ -33519,8 +33596,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 14537,
-          "y": -20163,
+          "x": 14539,
+          "y": -20286,
           "id": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609"
         },
         "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc609": {
@@ -34063,8 +34140,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js main canvas",
           "id": "849f7b5d-b9aa-4aa2-a527-8b8a5f654712609",
-          "x": 14810,
-          "y": -20191,
+          "x": 14812,
+          "y": -20314,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -34097,8 +34174,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com",
           "id": "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661609",
-          "x": 15065,
-          "y": -20193,
+          "x": 15067,
+          "y": -20316,
           "shape": "box",
           "link": "index.html",
           "borderWidth": ""
@@ -34131,8 +34208,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/base.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3609",
-          "x": 15098,
-          "y": -20129,
+          "x": 15100,
+          "y": -20252,
           "shape": "box",
           "link": "base.html",
           "borderWidth": ""
@@ -34164,8 +34241,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent themes",
           "id": "fecf5e72-1e19-410e-87b8-f36ff58504b6609",
-          "x": 14790,
-          "y": -20126,
+          "x": 14792,
+          "y": -20249,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -34200,8 +34277,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/culture.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609",
-          "x": 15104,
-          "y": -20066,
+          "x": 15106,
+          "y": -20189,
           "shape": "box",
           "link": "culture.html",
           "borderWidth": ""
@@ -34235,8 +34312,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Culture themes",
           "id": "fecf5e72-1e19-410e-87b8-f36ff58504b6210609",
-          "x": 14786,
-          "y": -20065,
+          "x": 14788,
+          "y": -20188,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -36250,6 +36327,2760 @@ var schemeData =
             "background": "#ffd570",
             "border": ""
           },
+          "borderWidth": ""
+        },
+        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501",
+          "x": 65117,
+          "y": 8050,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/culture.html",
+          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501",
+          "x": 66142,
+          "y": 8043,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501",
+          "x": 66661,
+          "y": 8029
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232501": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/culture.html",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232501",
+          "x": 72821,
+          "y": 8737,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js - Culture</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "x": 67231,
+          "y": 7971,
+          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "46ca27cc-0371-4111-a4c2-6db8795d0e65232501": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "x": 67640,
+          "y": 8293,
+          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "061899dc-a185-4eaf-a3ac-c8e943203b3e232501": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "x": 67810,
+          "y": 8823,
+          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "x": 67660,
+          "y": 9523,
+          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "69e1c992-010c-4a23-9c38-eb54979a89de232501": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"culture.data.js?3\"></script>\n<script type=\"text/javascript\" src=\"application.js?3\"></script>\n\n</body>\n</html>",
+          "x": 67928,
+          "y": 10270,
+          "id": "69e1c992-010c-4a23-9c38-eb54979a89de232501",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438": {
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438",
+          "x": 44317,
+          "y": 16962,
+          "label": "updateSchemeFromMenu()",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438560": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "updateMenuFromScheme()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560",
+          "x": 44317,
+          "y": 17395,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "clearPopUp()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110",
+          "x": 43999,
+          "y": 18096,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "cancelEdit(callback)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983",
+          "x": 44149,
+          "y": 18242,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "saveData(data,callback)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836",
+          "x": 44242,
+          "y": 18395,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "init()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734",
+          "x": 43801,
+          "y": 18781,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "9504eef0-ca25-4f87-903f-5eb982771d0a": {
+          "id": "9504eef0-ca25-4f87-903f-5eb982771d0a",
+          "x": 41016,
+          "y": 18934,
+          "label": "function saveDrawingSurface() {\n   drawingSurfaceImageData = ctx.getImageData(0, 0, canvas.width, canvas.height);\n}",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "75ea4d00-4513-4b9b-84c6-99d3b899fd47": {
+          "id": "75ea4d00-4513-4b9b-84c6-99d3b899fd47",
+          "x": 40916,
+          "y": 19083,
+          "label": "function restoreDrawingSurface() {\n    ctx.putImageData(drawingSurfaceImageData, 0, 0);\n}",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "saveDrawingSurface()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697",
+          "x": 44199,
+          "y": 18974,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "restoreDrawingSurface()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594",
+          "x": 44249,
+          "y": 19111,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "selectNodesFromHighlight()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567",
+          "x": 44324,
+          "y": 19278,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "getStartToEnd(start, theLen)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775",
+          "x": 44335,
+          "y": 19606,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "getNodesByRegexSearchInLabel(network, regex)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891",
+          "x": 44808,
+          "y": 19766,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891944": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "updateNodePositionData(network, node)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891944",
+          "x": 44611,
+          "y": 20052,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "makeSaveProjectToBrowserNode(label, positionX, positionY)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453",
+          "x": 45061,
+          "y": 20442,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "findProjectSavesKeys()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756",
+          "x": 44225,
+          "y": 20778,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "deleteNodesIfTheyAreProjectSaves(network, nodes)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984",
+          "x": 44872,
+          "y": 21239,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "removeSaveNodes()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321",
+          "x": 44163,
+          "y": 21576,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321681": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "removeSaveNodes()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321681",
+          "x": 44163,
+          "y": 21912,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74": {
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74",
+          "x": 44866,
+          "y": 22257,
+          "label": "getProjectId(saveCanvasProjectDataNode, network)",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "deleteProjectLocalStorageSaves(network)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132",
+          "x": 44641,
+          "y": 22707,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "deleteLocalStorageSavesAndSaveNodes(network)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457",
+          "x": 44834,
+          "y": 22870,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveName)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414",
+          "x": 45358,
+          "y": 23055,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "loadSavedProjectDataToDataMenuBySaveName(network, saveName)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594",
+          "x": 45270,
+          "y": 23283,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "saveProjectToBrowserLocalStorage(network)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904",
+          "x": 44707,
+          "y": 23428,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "clearBrowserLocalStorage()",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816",
+          "x": 44325,
+          "y": 23917,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "showBrowserLocalStorage()",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571",
+          "x": 44333,
+          "y": 24138,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "showBrowserLocalStorageKeys()",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617",
+          "x": 44445,
+          "y": 24311,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "addConnections(elem, index)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883",
+          "x": 44366,
+          "y": 30325,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "importNetwork()",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465",
+          "x": 44069,
+          "y": 30636,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465666": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "getNodeData(data)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465666",
+          "x": 44140,
+          "y": 30831,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "getEdgeData(data)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697",
+          "x": 44138,
+          "y": 31198,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "c(x, y)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725",
+          "x": 43849,
+          "y": 32592,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "rdf()",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732",
+          "x": 43805,
+          "y": 33015,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "localStorageSpace()",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864",
+          "x": 44168,
+          "y": 33354,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "makeNodeJsonLine(id, label, link, x, y)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375",
+          "x": 44572,
+          "y": 33719,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375532": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "addNodeOnCanvas(label, link, position, shiftX, shiftY, network)",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375532",
+          "x": 44569,
+          "y": -7776,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "countSelectedNodesAndEdges()",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144",
+          "x": 44442,
+          "y": 34234,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144737": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "help()",
+          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144737",
+          "x": 43841,
+          "y": 34481,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438612": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "getUrlVars()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612",
+          "x": 43446,
+          "y": -9299,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "982a5710-863b-40df-884d-70b558608e9b486889": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "align": "left",
+            "size": 14
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "function objectToArray(obj) {\n\treturn Object.keys(obj).map(function (key) {\n\t\tobj[key].id = key;\n\t\treturn obj[key];\n\t});\n}",
+          "x": 39716,
+          "y": -9093,
+          "id": "982a5710-863b-40df-884d-70b558608e9b486889",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438612702": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "objectToArray(obj)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702",
+          "x": 43587,
+          "y": -9129,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "getNodeById(data, id)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138",
+          "x": 43669,
+          "y": -8263,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "destroy()",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348",
+          "x": 43378,
+          "y": -8011,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348974": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "alignNodesLeft(nodes)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348974",
+          "x": 43686,
+          "y": -7477,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "b9f0ff34-99a9-496b-b5a9-1922a75a864f531": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "function mkdirRecursiveSync(path, pathDelimiter) {\n    var paths = path.split(pathDelimiter);\n    var fullPath = '';\n    paths.forEach((path) => {\n\n        fullPath = fullPath + path + pathDelimiter;\n\n        if (!fs.existsSync(fullPath)) {\n            fs.mkdirSync(fullPath);\n        }\n    });\n};",
+          "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531",
+          "x": 40902,
+          "y": -6683,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "b9f0ff34-99a9-496b-b5a9-1922a75a864f531105": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "function collectCodeNodesContent(rootCodeNodeId) {\n\tvar codeNode = network.body.data.nodes.get(rootCodeNodeId).label + \"\\n\";\n\tvar nodeEdges = network.body.nodes[rootCodeNodeId].edges;\n\tvar codeEdges = [];\n\tnodeEdges.forEach(function(edge) {\n\t\tif (edge.options.label == \"code\" && edge.fromId == rootCodeNodeId) {\n\t\t\tcodeEdges.push(edge);\n\t\t}\n\t});\n\tvar branchCodeNodes = [];\n\tcodeEdges.forEach(function(codeEdge) {\n\t\tbranchCodeNodes.push(network.body.data.nodes.get(codeEdge.toId));\n\t});\n\tfunction compare( a, b ) {\n\t\tif ( a.y < b.y ){\n\t\t\treturn -1;\n\t\t}\n\t\tif ( a.y > b.y ){\n\t\t\treturn 1;\n\t\t}\n\t\treturn 0;\n\t}\n\n\tvar branchCodeNodes = branchCodeNodes.sort(compare);\n\tbranchCodeNodes.forEach(function(branchNode) {\n\t\tcodeNode = codeNode + collectCodeNodesContent(branchNode.id);\n\t});\n\treturn codeNode;\n}\n",
+          "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531105",
+          "x": 40984,
+          "y": -6359,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "showAlert(alertLine, rightShift, width)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476",
+          "x": 43997,
+          "y": -6941,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mkdirRecursiveSync(path, pathDelimiter)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305",
+          "x": 44091,
+          "y": -6700,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305115": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "collectCodeNodesContent(rootCodeNodeId)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305115",
+          "x": 44165,
+          "y": -6487,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501969": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501969",
+          "x": 65072,
+          "y": 11419,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/ruby.html",
+          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969",
+          "x": 66097,
+          "y": 11412,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969",
+          "x": 66616,
+          "y": 11398
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232501969": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/ruby.html",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232501969",
+          "x": 72256,
+          "y": 12106,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js - Ruby</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "x": 67186,
+          "y": 11340,
+          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "46ca27cc-0371-4111-a4c2-6db8795d0e65232501969": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "x": 67595,
+          "y": 11662,
+          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501969",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "061899dc-a185-4eaf-a3ac-c8e943203b3e232501969": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "x": 67765,
+          "y": 12192,
+          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501969",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501969": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "x": 67615,
+          "y": 12892,
+          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501969",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "69e1c992-010c-4a23-9c38-eb54979a89de232501969": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"ruby.data.js?3\"></script>\n<script type=\"text/javascript\" src=\"application.js?3\"></script>\n\n</body>\n</html>",
+          "x": 67883,
+          "y": 13639,
+          "id": "69e1c992-010c-4a23-9c38-eb54979a89de232501969",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f98845b0-a393-4a51-ba8d-299765f501f2": {
+          "id": "f98845b0-a393-4a51-ba8d-299765f501f2",
+          "x": 14782,
+          "y": -20133,
+          "label": "Ruby themes"
+        },
+        "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "sushilshik.github.com/ruby.html",
+          "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247",
+          "x": 15099,
+          "y": -20134,
+          "shape": "box",
+          "link": "ruby.html",
+          "borderWidth": ""
+        },
+        "f3d14ff2-381e-4414-b827-281e3a874d8d": {
+          "id": "f3d14ff2-381e-4414-b827-281e3a874d8d",
+          "x": 41022,
+          "y": 6914,
+          "label": "   function findParentNodeId(nodeId) {\n      var edges = network.body.nodes[nodeId].edges;\n      if ((typeof edges === \"undefined\") || (edges.length == 0)) {\n         return nodeId;\n      }\n      var parentNodeId;\n      for (var key in edges) {\n         if (edges[key].toId == nodeId) {\n            parentNodeId = edges[key].from.id;\n         }\n      }\n      return parentNodeId;\n   }",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "733b5c00-aede-4745-94aa-1b37be84161f": {
+          "id": "733b5c00-aede-4745-94aa-1b37be84161f",
+          "x": 41009,
+          "y": 7091,
+          "label": "   function findTreeRootNodeId(branchNodeId) {\n      var parentNodeId = findParentNodeId(branchNodeId);\n      if (typeof parentNodeId !== \"undefined\") {\n         return findTreeRootNodeId(parentNodeId);   \n      } else {\n         return branchNodeId;\n      }\n   }",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d438130": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "findParentNodeId(nodeId)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438130",
+          "x": 44299,
+          "y": 6934,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "300b60d1-7c07-4f9b-be47-0adfcff5d43813098": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "findTreeRootNodeId(branchNodeId)",
+          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43813098",
+          "x": 44520,
+          "y": 7111,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "7e39abb2-44d4-4d3c-a65b-56de4051a233": {
+          "label": "",
+          "link": "",
+          "x": 753,
+          "y": 370,
+          "id": "7e39abb2-44d4-4d3c-a65b-56de4051a233"
+        },
+        "fbdc8df6-13cf-42a3-8140-215ebb6f514e": {
+          "label": "",
+          "link": "",
+          "x": 28677,
+          "y": -2990,
+          "id": "fbdc8df6-13cf-42a3-8140-215ebb6f514e"
+        },
+        "6d7af570-fdce-465e-a2f1-60445c56afa4486711": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "align": "left",
+            "size": 14
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
+          "x": 41869,
+          "y": 11246,
+          "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "6d7af570-fdce-465e-a2f1-60445c56afa4486711766": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "align": "left",
+            "size": 14
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement. alt+Enter\n      if (event.altKey && event.keyCode === 13) {\n         $(\"span#saveElementEditButton\").click();\n      }\n   });",
+          "x": 41869,
+          "y": 10922,
+          "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711766",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "6d7af570-fdce-465e-a2f1-60445c56afa448671176664": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "align": "left",
+            "size": 14
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement and closeElement. ctrl+Enter\n      if (event.ctrlKey && event.keyCode === 13) {\n         $(\"span#saveElementEditButton\").click();\n         $(\"span#closeElementEditButton\").click();\n      }\n   });",
+          "x": 41869,
+          "y": 11081,
+          "id": "6d7af570-fdce-465e-a2f1-60445c56afa448671176664",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "6d7af570-fdce-465e-a2f1-60445c56afa4486711685": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "align": "left",
+            "size": 14
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(\"div#network\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27 && document.getElementsByClassName(\"vis-back\").length == 0) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
+          "x": 41967,
+          "y": 11418,
+          "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711685",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "83256af2-2780-4edb-87da-35273c359d5e486446": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom out. shift+alt+d\n      if (event.shiftKey && event.altKey && event.keyCode === 68) {\n         var scale = network.getScale();\n         var newScale = scale * 0.3;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
+          "x": 41869,
+          "y": 10072,
+          "id": "83256af2-2780-4edb-87da-35273c359d5e486446",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "83256af2-2780-4edb-87da-35273c359d5e486446908": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom in. shfit+alt+f\n      if (event.shiftKey && event.altKey && event.keyCode === 70) {\n         var scale = network.getScale();\n         var newScale = scale * 3;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
+          "x": 41869,
+          "y": 10290,
+          "id": "83256af2-2780-4edb-87da-35273c359d5e486446908",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "83256af2-2780-4edb-87da-35273c359d5e486446933": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(\"div#network\").keydown(function (event) {\n      //Left align nodes. alt + LeftArrow\n      if (event.altKey && event.keyCode === 37) {\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         alignNodesLeft(nodes);\n      }\n   });",
+          "x": 41915,
+          "y": 9870,
+          "id": "83256af2-2780-4edb-87da-35273c359d5e486446933",
+          "shape": "box",
+          "link": "",
           "borderWidth": ""
         }
       },
@@ -61321,32 +64152,6 @@ var schemeData =
           "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
           "to": "716a50bb-4bcd-4b76-9786-935f4a51dd3f486"
         },
-        "f9d4e6b9-9f3c-4574-a789-52c57ef7f4d5486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "f9d4e6b9-9f3c-4574-a789-52c57ef7f4d5486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "e8e475c1-8966-408d-9e9f-ecdaa887044b486"
-        },
         "03e59279-9c5e-4881-9167-e3eaf43cb39b486": {
           "arrows": {
             "to": {},
@@ -61762,32 +64567,6 @@ var schemeData =
           "id": "23e3c71f-5e7e-4af8-b661-0cc4cb9d3cb6486",
           "from": "f5f9ec15-27c8-4eba-aa98-273066ed1813486",
           "to": "e68d70a9-0e47-4168-ae35-bb44461b4110486"
-        },
-        "c808bcc3-a2ac-4bee-959b-e0de4bfabb41486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "c808bcc3-a2ac-4bee-959b-e0de4bfabb41486",
-          "from": "f5f9ec15-27c8-4eba-aa98-273066ed1813486",
-          "to": "880081bc-e7c3-48c1-9fa7-1e638b8d8548486"
         },
         "aef95956-3bf8-4f4f-baec-b15d7e159826486": {
           "arrows": {
@@ -68403,6 +71182,1598 @@ var schemeData =
           "from": "40094eeb-74f5-470e-934c-3f852e4d1bd9953446",
           "to": "bc6ee279-38e5-4358-8539-181730157c04",
           "id": "c4132164-8075-49f4-b145-53c4b568ff3f"
+        },
+        "68cecf73-586d-4b26-866f-d179fd6b9398953446274": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "68cecf73-586d-4b26-866f-d179fd6b9398953446274",
+          "from": "c468fc67-428c-4750-a9e4-c1ce00e83e60953446274",
+          "to": "c83cbd27-9a1d-42c3-a653-4eeabbf9de31953446274"
+        },
+        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501",
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501",
+          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501"
+        },
+        "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501",
+          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501",
+          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501"
+        },
+        "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501",
+          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501",
+          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501"
+        },
+        "280d28f8-535c-4c88-a2f0-87e762ee1663232501": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "280d28f8-535c-4c88-a2f0-87e762ee1663232501",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
+          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501"
+        },
+        "ee63df6f-1921-46e9-9700-34b89669bba6232501": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "ee63df6f-1921-46e9-9700-34b89669bba6232501",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
+          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501"
+        },
+        "3e13284c-fe14-4274-8f65-922e56fc6f11232501": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "3e13284c-fe14-4274-8f65-922e56fc6f11232501",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
+          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501"
+        },
+        "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
+          "to": "69e1c992-010c-4a23-9c38-eb54979a89de232501"
+        },
+        "6c5fea79-3626-44c5-9422-1df4638176a8": {
+          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438",
+          "id": "6c5fea79-3626-44c5-9422-1df4638176a8"
+        },
+        "6c5fea79-3626-44c5-9422-1df4638176a8560": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6c5fea79-3626-44c5-9422-1df4638176a8560",
+          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486560",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560"
+        },
+        "71922a01-d33c-45d3-9caa-4ad72eaf6dcd": {
+          "from": "1e98723b-79dd-48ff-b641-e241ebb725fe486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560",
+          "id": "71922a01-d33c-45d3-9caa-4ad72eaf6dcd"
+        },
+        "71922a01-d33c-45d3-9caa-4ad72eaf6dcd110": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "71922a01-d33c-45d3-9caa-4ad72eaf6dcd110",
+          "from": "1e98723b-79dd-48ff-b641-e241ebb725fe486110",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110"
+        },
+        "8df0d8ef-b22f-453c-856f-a47a2a7c66c8": {
+          "from": "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110",
+          "id": "8df0d8ef-b22f-453c-856f-a47a2a7c66c8"
+        },
+        "8df0d8ef-b22f-453c-856f-a47a2a7c66c8983": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8df0d8ef-b22f-453c-856f-a47a2a7c66c8983",
+          "from": "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486983",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983"
+        },
+        "47fe7597-70dc-4338-83e9-e47ce9a8eb1c": {
+          "from": "9d63b1f7-179d-4f64-b690-8da48388c7c4486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983",
+          "id": "47fe7597-70dc-4338-83e9-e47ce9a8eb1c"
+        },
+        "47fe7597-70dc-4338-83e9-e47ce9a8eb1c6": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "47fe7597-70dc-4338-83e9-e47ce9a8eb1c6",
+          "from": "9d63b1f7-179d-4f64-b690-8da48388c7c44866",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836"
+        },
+        "ab4e0c51-d2ba-42ce-83ea-e48b8e41d744486755": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "ab4e0c51-d2ba-42ce-83ea-e48b8e41d744486755",
+          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486755",
+          "to": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486755"
+        },
+        "f513b0b6-6d9d-4c89-933e-d159c64da6cd": {
+          "from": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836",
+          "id": "f513b0b6-6d9d-4c89-933e-d159c64da6cd"
+        },
+        "f513b0b6-6d9d-4c89-933e-d159c64da6cd734": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "f513b0b6-6d9d-4c89-933e-d159c64da6cd734",
+          "from": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486734",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734"
+        },
+        "59b78d9c-0fbf-4b36-9379-e547d054f4ce": {
+          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
+          "to": "9504eef0-ca25-4f87-903f-5eb982771d0a",
+          "id": "59b78d9c-0fbf-4b36-9379-e547d054f4ce",
+          "label": "code"
+        },
+        "c3df1c1f-8dde-4beb-9f62-db313547f741": {
+          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
+          "to": "75ea4d00-4513-4b9b-84c6-99d3b899fd47",
+          "id": "c3df1c1f-8dde-4beb-9f62-db313547f741",
+          "label": "code"
+        },
+        "0b3f81f5-df2c-411e-9f10-17f5091a55f0": {
+          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734",
+          "id": "0b3f81f5-df2c-411e-9f10-17f5091a55f0"
+        },
+        "0b3f81f5-df2c-411e-9f10-17f5091a55f0697": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "0b3f81f5-df2c-411e-9f10-17f5091a55f0697",
+          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486697",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697"
+        },
+        "6996c788-f6df-4556-94d1-71364bb36269": {
+          "from": "9504eef0-ca25-4f87-903f-5eb982771d0a",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697",
+          "id": "6996c788-f6df-4556-94d1-71364bb36269"
+        },
+        "6996c788-f6df-4556-94d1-71364bb36269594": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6996c788-f6df-4556-94d1-71364bb36269594",
+          "from": "9504eef0-ca25-4f87-903f-5eb982771d0a594",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594"
+        },
+        "b0b62129-46d0-4e84-a553-9b4549733318": {
+          "from": "75ea4d00-4513-4b9b-84c6-99d3b899fd47",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594",
+          "id": "b0b62129-46d0-4e84-a553-9b4549733318"
+        },
+        "b0b62129-46d0-4e84-a553-9b4549733318567": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b0b62129-46d0-4e84-a553-9b4549733318567",
+          "from": "75ea4d00-4513-4b9b-84c6-99d3b899fd47567",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567"
+        },
+        "9933f1ff-7303-4ed4-9fc3-e2a67aa77fce": {
+          "from": "d0f10764-b98d-4f26-8850-0d98258edd68486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775",
+          "id": "9933f1ff-7303-4ed4-9fc3-e2a67aa77fce"
+        },
+        "ba7fdbae-f05a-456c-9fc4-2d2ec0f54113": {
+          "from": "95440e5d-e2ab-4275-aea3-7084e5e08ef5486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567",
+          "id": "ba7fdbae-f05a-456c-9fc4-2d2ec0f54113"
+        },
+        "0b68bec8-db8e-498b-865b-f22f64fa74a5": {
+          "from": "c0f333be-7c73-49ff-9ce9-acd69d498858486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891",
+          "id": "0b68bec8-db8e-498b-865b-f22f64fa74a5"
+        },
+        "538c776d-6f28-4b6b-97b1-52fab6edf7ce": {
+          "from": "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891944",
+          "id": "538c776d-6f28-4b6b-97b1-52fab6edf7ce"
+        },
+        "538c776d-6f28-4b6b-97b1-52fab6edf7ce53": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "538c776d-6f28-4b6b-97b1-52fab6edf7ce53",
+          "from": "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b48653",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453"
+        },
+        "e684969d-1d16-4af4-a09d-049f8077ac4c": {
+          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453",
+          "id": "e684969d-1d16-4af4-a09d-049f8077ac4c"
+        },
+        "adf5129b-499f-4359-97bf-06f21fe1c043": {
+          "from": "92f8f188-413d-47c9-bc96-f290485c46ee486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756",
+          "id": "adf5129b-499f-4359-97bf-06f21fe1c043"
+        },
+        "2d0095dc-a84d-419a-b745-58129e5372d1": {
+          "from": "329c31d6-4840-47ce-97d1-48d6bd801404486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984",
+          "id": "2d0095dc-a84d-419a-b745-58129e5372d1"
+        },
+        "5e6d261d-e35d-4dfe-b127-bb2ebb741676": {
+          "from": "6740287a-c540-43ff-91f0-669cb96f10f3486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321",
+          "id": "5e6d261d-e35d-4dfe-b127-bb2ebb741676"
+        },
+        "ed03e960-3239-4ac6-898b-b48eaad5a218": {
+          "from": "59635c29-9e7a-45ca-8525-2a37dbb488a7486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321681",
+          "id": "ed03e960-3239-4ac6-898b-b48eaad5a218"
+        },
+        "f6356b73-dd69-41d8-bb24-5f70fe636b1d": {
+          "from": "da40667d-7034-434c-96d9-aac61e394e23486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74",
+          "id": "f6356b73-dd69-41d8-bb24-5f70fe636b1d"
+        },
+        "747652ae-b6e3-4d5b-81f4-996c777f0373": {
+          "from": "3b49c915-fb27-47ab-bae5-20a308497725486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132",
+          "id": "747652ae-b6e3-4d5b-81f4-996c777f0373"
+        },
+        "dca9e718-772b-4c64-b732-f15487efcf89": {
+          "from": "c08a7ff5-92f1-482b-a55e-5e4aa4210022486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457",
+          "id": "dca9e718-772b-4c64-b732-f15487efcf89"
+        },
+        "cca870f4-ab24-4037-964a-fef9a85618db": {
+          "from": "8ae3245a-50b6-4a3b-bace-03ff73f40545486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414",
+          "id": "cca870f4-ab24-4037-964a-fef9a85618db"
+        },
+        "0959c444-b0b5-408d-ba41-0f5a4a491b5a": {
+          "from": "5caa6892-9023-4d77-8aa0-ff564a51cf58486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594",
+          "id": "0959c444-b0b5-408d-ba41-0f5a4a491b5a"
+        },
+        "71719fe4-1e16-498c-9539-fd994f669995": {
+          "from": "11d30fee-175d-4da8-b2d8-069850fe9400486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904",
+          "id": "71719fe4-1e16-498c-9539-fd994f669995"
+        },
+        "fc7b17b9-380f-49c8-abcf-32c8788fdcef": {
+          "from": "315819bf-0c74-42bf-a4f6-177dd930ed60486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816",
+          "id": "fc7b17b9-380f-49c8-abcf-32c8788fdcef"
+        },
+        "50c72851-7065-42f5-8499-3ae6f7242ff8": {
+          "from": "6248ca66-72f9-4e9d-b5e2-f9f68abc3f37486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571",
+          "id": "50c72851-7065-42f5-8499-3ae6f7242ff8"
+        },
+        "ba1b9db8-b24a-4877-bfa4-93403b650ad7": {
+          "from": "f7d23b14-e520-46cb-aef4-85a0e79044c7486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617",
+          "id": "ba1b9db8-b24a-4877-bfa4-93403b650ad7"
+        },
+        "ba1b9db8-b24a-4877-bfa4-93403b650ad7883": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ba1b9db8-b24a-4877-bfa4-93403b650ad7883",
+          "from": "f7d23b14-e520-46cb-aef4-85a0e79044c7486883",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883"
+        },
+        "33c6a8cd-881e-4341-9cf4-77aa32df2cda": {
+          "from": "7413f257-38d2-49c0-aeab-10af492b6ea5486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697",
+          "id": "33c6a8cd-881e-4341-9cf4-77aa32df2cda"
+        },
+        "e3d84434-fd29-49ee-9821-40bb37ef70dc": {
+          "from": "f240ef3f-be64-4718-8708-cce54a9a12e6486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465666",
+          "id": "e3d84434-fd29-49ee-9821-40bb37ef70dc"
+        },
+        "35a92ac8-9cd4-44b0-9c1d-fea03536402e": {
+          "from": "072e065d-822d-4715-8443-5bf850e6a75f486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465",
+          "id": "35a92ac8-9cd4-44b0-9c1d-fea03536402e"
+        },
+        "8f91a0e3-59b9-4d11-af70-1112c5e4f648": {
+          "from": "85af1170-a5a1-4103-a973-0a3d5b2d371a486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883",
+          "id": "8f91a0e3-59b9-4d11-af70-1112c5e4f648"
+        },
+        "33c6a8cd-881e-4341-9cf4-77aa32df2cda725": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "33c6a8cd-881e-4341-9cf4-77aa32df2cda725",
+          "from": "7413f257-38d2-49c0-aeab-10af492b6ea5486725",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725"
+        },
+        "356eee69-4e09-4ee5-b0c0-d685272d60ae": {
+          "from": "20602b12-993a-42bc-8dd6-008215220e01486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144737",
+          "id": "356eee69-4e09-4ee5-b0c0-d685272d60ae"
+        },
+        "aa486ba6-eab9-4234-8e03-aae8c85ed507": {
+          "from": "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144",
+          "id": "aa486ba6-eab9-4234-8e03-aae8c85ed507"
+        },
+        "dfd2ed3e-f15a-46fc-b3f5-ab2d92a73bcb": {
+          "from": "880081bc-e7c3-48c1-9fa7-1e638b8d8548486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375532",
+          "id": "dfd2ed3e-f15a-46fc-b3f5-ab2d92a73bcb"
+        },
+        "a8fd8c2a-e9fd-4794-a566-46893be727ed": {
+          "from": "e68d70a9-0e47-4168-ae35-bb44461b4110486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375",
+          "id": "a8fd8c2a-e9fd-4794-a566-46893be727ed"
+        },
+        "d1706197-3be8-4127-8f42-4db89dd674a7": {
+          "from": "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864",
+          "id": "d1706197-3be8-4127-8f42-4db89dd674a7"
+        },
+        "c4135c5e-b036-44bd-bfd5-d65f3098acc8": {
+          "from": "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732",
+          "id": "c4135c5e-b036-44bd-bfd5-d65f3098acc8"
+        },
+        "ab0e83d0-9343-4785-9396-a6b4d55dfd53": {
+          "from": "f5f9ec15-27c8-4eba-aa98-273066ed1813486",
+          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725",
+          "id": "ab0e83d0-9343-4785-9396-a6b4d55dfd53"
+        },
+        "6c5fea79-3626-44c5-9422-1df4638176a8612": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6c5fea79-3626-44c5-9422-1df4638176a8612",
+          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486612",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612"
+        },
+        "fe89ba4f-6c48-442f-9b84-fd190552516b486889": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "fe89ba4f-6c48-442f-9b84-fd190552516b486889",
+          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486889",
+          "to": "982a5710-863b-40df-884d-70b558608e9b486889"
+        },
+        "a193f3ab-77fd-41fc-accb-e36385b0ce40": {
+          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
+          "to": "982a5710-863b-40df-884d-70b558608e9b486889",
+          "id": "a193f3ab-77fd-41fc-accb-e36385b0ce40",
+          "label": "code"
+        },
+        "dff6994e-6110-455e-9455-a5b7fb0763a3": {
+          "from": "27a85b50-7b54-4434-a753-f2455b46b846486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138",
+          "id": "dff6994e-6110-455e-9455-a5b7fb0763a3"
+        },
+        "63771777-d9a4-4ccf-95dc-9fea9fb42fc4": {
+          "from": "db8817cf-9360-4031-ad9a-4f94541500f3486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612",
+          "id": "63771777-d9a4-4ccf-95dc-9fea9fb42fc4"
+        },
+        "30d29fd7-853e-40c7-bf18-1279c5f542c4": {
+          "from": "982a5710-863b-40df-884d-70b558608e9b486889",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702",
+          "id": "30d29fd7-853e-40c7-bf18-1279c5f542c4"
+        },
+        "dff6994e-6110-455e-9455-a5b7fb0763a3348": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "dff6994e-6110-455e-9455-a5b7fb0763a3348",
+          "from": "27a85b50-7b54-4434-a753-f2455b46b846486348",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348"
+        },
+        "537eed04-3785-4af4-b1aa-005d9ef93de3": {
+          "from": "5f3eb8b7-ba33-4d15-938a-2eb50fca0147486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348",
+          "id": "537eed04-3785-4af4-b1aa-005d9ef93de3"
+        },
+        "3c224f04-43ae-4025-a661-016d557ba47d": {
+          "from": "0df46278-b6f2-44b4-a9ca-bd3f5d276a03486",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348974",
+          "id": "3c224f04-43ae-4025-a661-016d557ba47d"
+        },
+        "7c56dd98-48c0-4e59-b646-ae92aa377605531": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "7c56dd98-48c0-4e59-b646-ae92aa377605531",
+          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486531",
+          "to": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531"
+        },
+        "e2011cd1-812c-4bfd-ba96-a2161a11512a": {
+          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
+          "to": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531",
+          "id": "e2011cd1-812c-4bfd-ba96-a2161a11512a",
+          "label": "code"
+        },
+        "e96827b0-3885-4479-92d3-fa819b6ada55": {
+          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
+          "to": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531105",
+          "id": "e96827b0-3885-4479-92d3-fa819b6ada55",
+          "label": "code"
+        },
+        "3c224f04-43ae-4025-a661-016d557ba47d76": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "3c224f04-43ae-4025-a661-016d557ba47d76",
+          "from": "0df46278-b6f2-44b4-a9ca-bd3f5d276a0348676",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476"
+        },
+        "562ea951-5079-4187-832d-1b2a5fa69a62": {
+          "from": "b9f0ff34-99a9-496b-b5a9-1922a75a864f",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476",
+          "id": "562ea951-5079-4187-832d-1b2a5fa69a62"
+        },
+        "378b2e2b-2c2f-4dee-9c95-11927cc41acd": {
+          "from": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305",
+          "id": "378b2e2b-2c2f-4dee-9c95-11927cc41acd"
+        },
+        "7b912791-e860-4a99-baaf-c98afd12a774": {
+          "from": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531105",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305115",
+          "id": "7b912791-e860-4a99-baaf-c98afd12a774"
+        },
+        "cdcc4f42-0708-43d4-a129-27f8cb2fbb01": {
+          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
+          "to": "880081bc-e7c3-48c1-9fa7-1e638b8d8548486",
+          "id": "cdcc4f42-0708-43d4-a129-27f8cb2fbb01",
+          "label": "code"
+        },
+        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501969": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501969",
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501969",
+          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969"
+        },
+        "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501969": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501969",
+          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969",
+          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969"
+        },
+        "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501969": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501969",
+          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969",
+          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969"
+        },
+        "280d28f8-535c-4c88-a2f0-87e762ee1663232501969": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "280d28f8-535c-4c88-a2f0-87e762ee1663232501969",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
+          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501969"
+        },
+        "ee63df6f-1921-46e9-9700-34b89669bba6232501969": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "ee63df6f-1921-46e9-9700-34b89669bba6232501969",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
+          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501969"
+        },
+        "3e13284c-fe14-4274-8f65-922e56fc6f11232501969": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "3e13284c-fe14-4274-8f65-922e56fc6f11232501969",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
+          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501969"
+        },
+        "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501969": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501969",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
+          "to": "69e1c992-010c-4a23-9c38-eb54979a89de232501969"
+        },
+        "c8123b27-7bde-453e-89ad-9ffc716d189f210609247": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "c8123b27-7bde-453e-89ad-9ffc716d189f210609247",
+          "from": "fecf5e72-1e19-410e-87b8-f36ff58504b6210609247",
+          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247"
+        },
+        "c547ff72-3797-413b-8790-d0c0e97cf289": {
+          "from": "f98845b0-a393-4a51-ba8d-299765f501f2",
+          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247",
+          "id": "c547ff72-3797-413b-8790-d0c0e97cf289"
+        },
+        "23ebf29c-c249-47f7-9e67-158c728083b5": {
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2",
+          "id": "23ebf29c-c249-47f7-9e67-158c728083b5"
+        },
+        "c2610e7f-8a41-44ae-8ffb-051a49afed58": {
+          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
+          "to": "733b5c00-aede-4745-94aa-1b37be84161f",
+          "id": "c2610e7f-8a41-44ae-8ffb-051a49afed58",
+          "label": "code"
+        },
+        "c1668aa0-66c3-40f5-972d-479c3e27633d": {
+          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
+          "to": "f3d14ff2-381e-4414-b827-281e3a874d8d",
+          "id": "c1668aa0-66c3-40f5-972d-479c3e27633d",
+          "label": "code"
+        },
+        "6c5fea79-3626-44c5-9422-1df4638176a8130": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6c5fea79-3626-44c5-9422-1df4638176a8130",
+          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486130",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438130"
+        },
+        "17ed46f4-4f1b-4c74-ae36-e1ac13b9a36b": {
+          "from": "f3d14ff2-381e-4414-b827-281e3a874d8d",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438130",
+          "id": "17ed46f4-4f1b-4c74-ae36-e1ac13b9a36b"
+        },
+        "be367021-1404-49ba-ad60-d1b8beca6e74": {
+          "from": "733b5c00-aede-4745-94aa-1b37be84161f",
+          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43813098",
+          "id": "be367021-1404-49ba-ad60-d1b8beca6e74"
+        },
+        "ecfcf1a6-8cfa-49e0-ace9-56017ca9d739486711": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "ecfcf1a6-8cfa-49e0-ace9-56017ca9d739486711",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486711",
+          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711"
+        },
+        "cf4b2a17-72a8-4edb-9d3a-a55a52398ece": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711",
+          "id": "cf4b2a17-72a8-4edb-9d3a-a55a52398ece",
+          "label": "code"
+        },
+        "cf4b2a17-72a8-4edb-9d3a-a55a52398ece766": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "cf4b2a17-72a8-4edb-9d3a-a55a52398ece766",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486766",
+          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711766"
+        },
+        "b36435d2-ccf3-47ab-9504-d55ab900a29b": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711766",
+          "id": "b36435d2-ccf3-47ab-9504-d55ab900a29b",
+          "label": "code"
+        },
+        "b36435d2-ccf3-47ab-9504-d55ab900a29b64": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "b36435d2-ccf3-47ab-9504-d55ab900a29b64",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf48664",
+          "to": "6d7af570-fdce-465e-a2f1-60445c56afa448671176664"
+        },
+        "ab83d81c-05fb-4978-b1db-72a78c5e7ea1": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "6d7af570-fdce-465e-a2f1-60445c56afa448671176664",
+          "id": "ab83d81c-05fb-4978-b1db-72a78c5e7ea1",
+          "label": "code"
+        },
+        "cf4b2a17-72a8-4edb-9d3a-a55a52398ece685": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "cf4b2a17-72a8-4edb-9d3a-a55a52398ece685",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486685",
+          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711685"
+        },
+        "ddea986f-3324-4b46-8065-60827d352150": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711685",
+          "id": "ddea986f-3324-4b46-8065-60827d352150",
+          "label": "code"
+        },
+        "8395e91f-93da-44a4-9804-adc7310102bd486446": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "8395e91f-93da-44a4-9804-adc7310102bd486446",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486446",
+          "to": "83256af2-2780-4edb-87da-35273c359d5e486446"
+        },
+        "e987e361-b290-4c13-809a-cd62993d90bb": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "83256af2-2780-4edb-87da-35273c359d5e486446",
+          "id": "e987e361-b290-4c13-809a-cd62993d90bb",
+          "label": "code"
+        },
+        "a9e14e73-c241-4fd9-b5a8-eda92f9439af": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "83256af2-2780-4edb-87da-35273c359d5e486446908",
+          "id": "a9e14e73-c241-4fd9-b5a8-eda92f9439af",
+          "label": "code"
+        },
+        "e987e361-b290-4c13-809a-cd62993d90bb933": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "e987e361-b290-4c13-809a-cd62993d90bb933",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486933",
+          "to": "83256af2-2780-4edb-87da-35273c359d5e486446933"
+        },
+        "4dfa6aea-ab7a-402f-9827-4d1dc8a9aeff": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "83256af2-2780-4edb-87da-35273c359d5e486446933",
+          "id": "4dfa6aea-ab7a-402f-9827-4d1dc8a9aeff",
+          "label": "code"
         }
       },
       "length": 0,
@@ -68449,10 +72820,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.009679963724206176,
+    "scale": 0.010527055301811245,
     "viewPosition": {
-      "x": 65440.60024489338,
-      "y": 1951.8196714477297
+      "x": 66184.38321457534,
+      "y": 13199.276228915174
     }
   }
 }

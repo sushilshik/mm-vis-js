@@ -115,6 +115,21 @@ div.table_description {
 	padding:10px;
 	text-align: center;
 }
+#edge-popUp {
+      display:none;
+      position:absolute;
+      top:350px;
+      left:170px;
+      z-index:299;
+      width:250px;
+      height:90px;
+      background-color: #f9f9f9;
+      border-style:solid;
+      border-width:3px;
+      border-color: #5394ed;
+      padding:10px;
+      text-align: center;
+    }
 </style>
 <script type="text/javascript">
 var runUpateMenuFromSchemeAtPageReady = true;
@@ -133,6 +148,15 @@ var runUpateMenuFromSchemeAtPageReady = true;
 	<input type="button" value="save" id="saveButton" />
 	<input type="button" value="cancel" id="cancelButton" />
 </div>
+<div id="edge-popUp">
+  <span id="edge-operation">edge</span> <br>
+  <table style="margin:auto;">
+    <tr>
+      <td>label</td><td><input id="edge-label" value="new value" /></td>
+    </tr></table>
+  <input type="button" value="save" id="edge-saveButton" />
+  <input type="button" value="cancel" id="edge-cancelButton" />
+</div>
 <!--
 <script type="text/javascript" src="https://visjs.github.io/vis-network/dist/vis-network.min.js"></script>
 -->
@@ -142,8 +166,8 @@ var runUpateMenuFromSchemeAtPageReady = true;
 <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js"></script>
 <script type="text/javascript" src="https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js"></script>
-<script type="text/javascript" src="base.data.js?5"></script>
-<script type="text/javascript" src="application.js?5"></script>
+<script type="text/javascript" src="base.data.js?3"></script>
+<script type="text/javascript" src="application.js?3"></script>
 
 </body>
 </html>

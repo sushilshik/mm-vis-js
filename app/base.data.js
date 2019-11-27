@@ -47066,7 +47066,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com",
           "id": "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661272",
-          "x": 65388,
+          "x": 65387,
           "y": -9632,
           "shape": "box",
           "link": "index.html",
@@ -47100,7 +47100,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/base.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3272",
-          "x": 65425,
+          "x": 65420,
           "y": -9568,
           "shape": "box",
           "link": "base.html",
@@ -56192,6 +56192,68 @@ var schemeData =
             "background": "#ffd570",
             "border": ""
           },
+          "borderWidth": ""
+        },
+        "f98845b0-a393-4a51-ba8d-299765f501f2771": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Ruby themes",
+          "id": "f98845b0-a393-4a51-ba8d-299765f501f2771",
+          "x": 65106,
+          "y": -9443
+        },
+        "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247771": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "sushilshik.github.com/ruby.html",
+          "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247771",
+          "x": 65418,
+          "y": -9439,
+          "shape": "box",
+          "link": "ruby.html",
           "borderWidth": ""
         }
       },
@@ -93709,6 +93771,61 @@ var schemeData =
           "from": "cbd0d550-2a56-47ef-b7e6-e5f187f7496893",
           "to": "3b8082ea-24b1-4646-970b-c057fa93701e",
           "id": "83cc5a1a-91f4-417d-ba4a-3ea21202a578"
+        },
+        "c547ff72-3797-413b-8790-d0c0e97cf289771": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c547ff72-3797-413b-8790-d0c0e97cf289771",
+          "from": "f98845b0-a393-4a51-ba8d-299765f501f2771",
+          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247771"
+        },
+        "23ebf29c-c249-47f7-9e67-158c728083b5771": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "23ebf29c-c249-47f7-9e67-158c728083b5771",
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609771",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2771"
+        },
+        "df38c984-8050-4843-9380-8863b9adc241": {
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1272",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2771",
+          "id": "df38c984-8050-4843-9380-8863b9adc241"
         }
       },
       "length": 0,
@@ -93745,10 +93862,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.011578441171349568,
+    "scale": 1.197782802532614,
     "viewPosition": {
-      "x": 115995.25835689908,
-      "y": 20845.895969081248
+      "x": 65276.97377362621,
+      "y": -9472.014385538556
     }
   }
 }

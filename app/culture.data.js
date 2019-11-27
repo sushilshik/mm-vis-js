@@ -404,7 +404,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/culture.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"culture_proj1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
+          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/culture.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"culture_proj1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204",
           "x": 65740,
           "y": -6470,
@@ -13745,7 +13745,7 @@ var schemeData =
           "label": "Youtube:\nканалы",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375936",
           "x": 104567,
-          "y": 3860,
+          "y": 4407,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13776,8 +13776,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Классическая\nмузыка",
-          "x": 100435,
-          "y": 10313,
+          "x": 100579,
+          "y": 16229,
           "id": "88e61b27-682b-4374-86fd-a6c74dbdb08a936",
           "shape": "box",
           "link": "",
@@ -13806,8 +13806,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 100735,
-          "y": 10762,
+          "x": 100879,
+          "y": 16678,
           "id": "0b3587a6-6ccd-4b74-9b94-357fa8db6e51936"
         },
         "e25716c8-4292-42ef-b829-f8df8b20a5d8936": {
@@ -13833,8 +13833,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 100913,
-          "y": 10763,
+          "x": 101057,
+          "y": 16679,
           "id": "e25716c8-4292-42ef-b829-f8df8b20a5d8936"
         },
         "75257022-bd37-47eb-a35f-a8d5cd20a9bf936": {
@@ -13860,8 +13860,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 101026,
-          "y": 10765,
+          "x": 101170,
+          "y": 16681,
           "id": "75257022-bd37-47eb-a35f-a8d5cd20a9bf936"
         },
         "60919639-0658-4e8a-b9d1-7ac32c4b9151936": {
@@ -13887,8 +13887,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 100735,
-          "y": 9912,
+          "x": 100879,
+          "y": 15828,
           "id": "60919639-0658-4e8a-b9d1-7ac32c4b9151936"
         },
         "8ddec554-49ac-4c43-8237-2bf949891af8936": {
@@ -13914,8 +13914,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 100885,
-          "y": 9662,
+          "x": 101029,
+          "y": 15578,
           "id": "8ddec554-49ac-4c43-8237-2bf949891af8936"
         },
         "565f44be-3f95-4ee3-8c13-e961415042fe936": {
@@ -13941,8 +13941,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 100885,
-          "y": 9912,
+          "x": 101029,
+          "y": 15828,
           "id": "565f44be-3f95-4ee3-8c13-e961415042fe936"
         },
         "0d332d20-79ee-4f5a-9213-e493f7a555bd936": {
@@ -13968,8 +13968,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 100885,
-          "y": 10162,
+          "x": 101029,
+          "y": 16078,
           "id": "0d332d20-79ee-4f5a-9213-e493f7a555bd936"
         },
         "e60b04f7-8986-4d13-8793-c086f0cce19a936": {
@@ -13995,8 +13995,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 100949,
-          "y": 10013,
+          "x": 101093,
+          "y": 15929,
           "id": "e60b04f7-8986-4d13-8793-c086f0cce19a936"
         },
         "cfa752ce-1166-40a4-a698-18350e8503ec936": {
@@ -14022,8 +14022,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 100980,
-          "y": 10038,
+          "x": 101124,
+          "y": 15954,
           "id": "cfa752ce-1166-40a4-a698-18350e8503ec936"
         },
         "f8aa118a-8b15-4aef-a5c5-86f9fda5c895936": {
@@ -14049,8 +14049,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 100945,
-          "y": 10063,
+          "x": 101089,
+          "y": 15979,
           "id": "f8aa118a-8b15-4aef-a5c5-86f9fda5c895936"
         },
         "f3451325-f46e-4057-9e9c-7ee9bc95d71d936": {
@@ -14076,8 +14076,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 100964,
-          "y": 10088,
+          "x": 101108,
+          "y": 16004,
           "id": "f3451325-f46e-4057-9e9c-7ee9bc95d71d936"
         },
         "0b0ab63e-68af-4a1f-96ed-39ffc8dca90e936": {
@@ -14103,8 +14103,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 100953,
-          "y": 10113,
+          "x": 101097,
+          "y": 16029,
           "id": "0b0ab63e-68af-4a1f-96ed-39ffc8dca90e936"
         },
         "cfcd9321-724a-4c68-8f03-343b6ea5e7fd936": {
@@ -14130,8 +14130,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 100975,
-          "y": 10138,
+          "x": 101119,
+          "y": 16054,
           "id": "cfcd9321-724a-4c68-8f03-343b6ea5e7fd936"
         },
         "f25c6a3d-5437-472e-89c5-25ce1ab976e4936": {
@@ -14157,8 +14157,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 100977,
-          "y": 10163,
+          "x": 101121,
+          "y": 16079,
           "id": "f25c6a3d-5437-472e-89c5-25ce1ab976e4936"
         },
         "75012142-78a7-45f9-ba0d-ab441194eeee936": {
@@ -14184,8 +14184,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 100955,
-          "y": 10188,
+          "x": 101099,
+          "y": 16104,
           "id": "75012142-78a7-45f9-ba0d-ab441194eeee936"
         },
         "39af7797-d04c-4f0e-b97e-e023c273c52f936": {
@@ -14211,8 +14211,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 100947,
-          "y": 10213,
+          "x": 101091,
+          "y": 16129,
           "id": "39af7797-d04c-4f0e-b97e-e023c273c52f936"
         },
         "1895e137-56d4-474c-b973-c2961374e8eb936": {
@@ -14238,8 +14238,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 100974,
-          "y": 10238,
+          "x": 101118,
+          "y": 16154,
           "id": "1895e137-56d4-474c-b973-c2961374e8eb936"
         },
         "57f8cd4b-a804-48fd-aec2-356e07409862936": {
@@ -14265,8 +14265,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 100960,
-          "y": 10263,
+          "x": 101104,
+          "y": 16179,
           "id": "57f8cd4b-a804-48fd-aec2-356e07409862936"
         },
         "1c2070c2-1a29-4e92-a903-f653353e3bfa936": {
@@ -14292,8 +14292,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 100982,
-          "y": 10288,
+          "x": 101126,
+          "y": 16204,
           "id": "1c2070c2-1a29-4e92-a903-f653353e3bfa936"
         },
         "fd109147-8a7c-4bbc-8b9d-e5ef5f25a690936": {
@@ -14319,8 +14319,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 100946,
-          "y": 10313,
+          "x": 101090,
+          "y": 16229,
           "id": "fd109147-8a7c-4bbc-8b9d-e5ef5f25a690936"
         },
         "a8db5e19-5779-40b4-b1b5-844fd65e17bb936": {
@@ -14346,8 +14346,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 100985,
-          "y": 10338,
+          "x": 101129,
+          "y": 16254,
           "id": "a8db5e19-5779-40b4-b1b5-844fd65e17bb936"
         },
         "96389abf-6e4f-45c4-921e-475d335d919b936": {
@@ -14373,8 +14373,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 100735,
-          "y": 10462,
+          "x": 100879,
+          "y": 16378,
           "id": "96389abf-6e4f-45c4-921e-475d335d919b936"
         },
         "734f8d0f-6bad-49d5-b71d-b31eae6797fb936": {
@@ -14400,8 +14400,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 100735,
-          "y": 10562,
+          "x": 100879,
+          "y": 16478,
           "id": "734f8d0f-6bad-49d5-b71d-b31eae6797fb936"
         },
         "56833e2f-0e40-48ad-8a15-6a291296c7b6936": {
@@ -14427,8 +14427,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 100735,
-          "y": 10662,
+          "x": 100879,
+          "y": 16578,
           "id": "56833e2f-0e40-48ad-8a15-6a291296c7b6936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107936": {
@@ -14460,8 +14460,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Классическая\nмузыка",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107936",
-          "x": 105721,
-          "y": 10626,
+          "x": 105865,
+          "y": 16542,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14492,8 +14492,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Достопримечательности",
-          "x": 100396,
-          "y": 7974,
+          "x": 100540,
+          "y": 13890,
           "id": "69963d2a-1011-4452-a720-3af41bcb5eb5936",
           "shape": "box",
           "link": "",
@@ -14522,8 +14522,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 100696,
-          "y": 8423,
+          "x": 100840,
+          "y": 14339,
           "id": "c2a2d1c6-a55a-4d0e-9215-51bf2232076a936"
         },
         "a3fbc6c0-ce2c-446e-9d75-bab31675b4d3936": {
@@ -14549,8 +14549,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 100880,
-          "y": 8419,
+          "x": 101024,
+          "y": 14335,
           "id": "a3fbc6c0-ce2c-446e-9d75-bab31675b4d3936"
         },
         "a3bb92bc-bd33-47d0-9492-bcadbabcc97e936": {
@@ -14576,8 +14576,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 101013,
-          "y": 8416,
+          "x": 101157,
+          "y": 14332,
           "id": "a3bb92bc-bd33-47d0-9492-bcadbabcc97e936"
         },
         "219b2358-7005-480f-9951-619a625411a9936": {
@@ -14603,8 +14603,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 100690,
-          "y": 7447,
+          "x": 100834,
+          "y": 13363,
           "id": "219b2358-7005-480f-9951-619a625411a9936"
         },
         "caef02fe-f6fb-4f2a-8c95-f80773af05fa936": {
@@ -14630,8 +14630,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 100840,
-          "y": 7197,
+          "x": 100984,
+          "y": 13113,
           "id": "caef02fe-f6fb-4f2a-8c95-f80773af05fa936"
         },
         "c68451cf-141a-41e2-b085-f7ce90234023936": {
@@ -14657,8 +14657,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 100840,
-          "y": 7447,
+          "x": 100984,
+          "y": 13363,
           "id": "c68451cf-141a-41e2-b085-f7ce90234023936"
         },
         "708d8a13-ac7b-44cf-8b97-39a12c1f6cc6936": {
@@ -14684,8 +14684,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 100846,
-          "y": 7823,
+          "x": 100990,
+          "y": 13739,
           "id": "708d8a13-ac7b-44cf-8b97-39a12c1f6cc6936"
         },
         "e5556c63-147b-4b01-b6fe-3933170f7da0936": {
@@ -14711,8 +14711,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 100910,
-          "y": 7674,
+          "x": 101054,
+          "y": 13590,
           "id": "e5556c63-147b-4b01-b6fe-3933170f7da0936"
         },
         "0e8a6617-2fa7-48d2-b7aa-180ac9eecd21936": {
@@ -14738,8 +14738,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 100941,
-          "y": 7699,
+          "x": 101085,
+          "y": 13615,
           "id": "0e8a6617-2fa7-48d2-b7aa-180ac9eecd21936"
         },
         "9a143758-5749-4f07-9c46-fca416123c33936": {
@@ -14765,8 +14765,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 100906,
-          "y": 7724,
+          "x": 101050,
+          "y": 13640,
           "id": "9a143758-5749-4f07-9c46-fca416123c33936"
         },
         "61ba5523-f7ca-426c-9cf5-e5b0ed98fc22936": {
@@ -14792,8 +14792,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 100925,
-          "y": 7749,
+          "x": 101069,
+          "y": 13665,
           "id": "61ba5523-f7ca-426c-9cf5-e5b0ed98fc22936"
         },
         "a1d98ea5-853a-43e1-b074-7bde5ca2269c936": {
@@ -14819,8 +14819,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 100914,
-          "y": 7774,
+          "x": 101058,
+          "y": 13690,
           "id": "a1d98ea5-853a-43e1-b074-7bde5ca2269c936"
         },
         "5362c478-8bf8-489f-81ac-da9f1c4ef79f936": {
@@ -14846,8 +14846,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 100936,
-          "y": 7799,
+          "x": 101080,
+          "y": 13715,
           "id": "5362c478-8bf8-489f-81ac-da9f1c4ef79f936"
         },
         "c222e7a5-e73f-40c6-9239-011c1a873f6d936": {
@@ -14873,8 +14873,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 100938,
-          "y": 7824,
+          "x": 101082,
+          "y": 13740,
           "id": "c222e7a5-e73f-40c6-9239-011c1a873f6d936"
         },
         "572e7d64-3428-4a63-9c9b-69a946e74c8e936": {
@@ -14900,8 +14900,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 100916,
-          "y": 7849,
+          "x": 101060,
+          "y": 13765,
           "id": "572e7d64-3428-4a63-9c9b-69a946e74c8e936"
         },
         "e285c8ed-505b-4813-8558-9ba124f94236936": {
@@ -14927,8 +14927,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 100907,
-          "y": 7874,
+          "x": 101051,
+          "y": 13790,
           "id": "e285c8ed-505b-4813-8558-9ba124f94236936"
         },
         "67f86951-ffa4-4813-9a25-336b8e27778c936": {
@@ -14954,8 +14954,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 100935,
-          "y": 7899,
+          "x": 101079,
+          "y": 13815,
           "id": "67f86951-ffa4-4813-9a25-336b8e27778c936"
         },
         "995e5ea4-d373-40b5-9d7a-747b7561fdf6936": {
@@ -14981,8 +14981,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 100921,
-          "y": 7924,
+          "x": 101065,
+          "y": 13840,
           "id": "995e5ea4-d373-40b5-9d7a-747b7561fdf6936"
         },
         "41ac9997-8fe3-458f-a379-86a32ce1d862936": {
@@ -15008,8 +15008,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 100943,
-          "y": 7949,
+          "x": 101087,
+          "y": 13865,
           "id": "41ac9997-8fe3-458f-a379-86a32ce1d862936"
         },
         "415cf700-cc3d-4fc6-9828-78320d665a25936": {
@@ -15035,8 +15035,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 100907,
-          "y": 7974,
+          "x": 101051,
+          "y": 13890,
           "id": "415cf700-cc3d-4fc6-9828-78320d665a25936"
         },
         "88c01e25-3f0c-4de0-baa9-48febce8c139936": {
@@ -15062,8 +15062,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 100946,
-          "y": 7999,
+          "x": 101090,
+          "y": 13915,
           "id": "88c01e25-3f0c-4de0-baa9-48febce8c139936"
         },
         "1bde38d4-84c3-4880-912f-e2d37107384d936": {
@@ -15089,8 +15089,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 100696,
-          "y": 8123,
+          "x": 100840,
+          "y": 14039,
           "id": "1bde38d4-84c3-4880-912f-e2d37107384d936"
         },
         "42757fc4-658e-49bb-97c2-7a5104680fb9936": {
@@ -15116,8 +15116,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 100696,
-          "y": 8223,
+          "x": 100840,
+          "y": 14139,
           "id": "42757fc4-658e-49bb-97c2-7a5104680fb9936"
         },
         "65d89d33-948c-4593-87c1-32553aab8985936": {
@@ -15143,8 +15143,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 100696,
-          "y": 8323,
+          "x": 100840,
+          "y": 14239,
           "id": "65d89d33-948c-4593-87c1-32553aab8985936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107126936": {
@@ -15176,8 +15176,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Достопримечательности",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107126936",
-          "x": 108197,
-          "y": 7672,
+          "x": 108341,
+          "y": 13588,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -15702,8 +15702,8 @@ var schemeData =
         },
         "391de9aa-fbfc-4752-b6b1-b1fb85d7c9ef": {
           "label": "Youtube:\nканалы",
-          "x": 100383,
-          "y": 4282,
+          "x": 98923,
+          "y": 8223,
           "font": {
             "size": 72,
             "align": "left"
@@ -15719,146 +15719,146 @@ var schemeData =
         },
         "551493ca-b9b4-45d7-9eb2-e82cd93c1703": {
           "label": "Development",
-          "x": 100683,
-          "y": 4732,
+          "x": 99223,
+          "y": 8673,
           "id": "551493ca-b9b4-45d7-9eb2-e82cd93c1703"
         },
         "e6511912-6ae4-49c6-b6ab-379b945ac712": {
           "label": "11/21/2019",
-          "x": 100933,
-          "y": 4732,
+          "x": 99473,
+          "y": 8673,
           "id": "e6511912-6ae4-49c6-b6ab-379b945ac712"
         },
         "fcf5d99e-31fb-4dae-8bb4-9e61ddc8cd16": {
           "label": "init",
-          "x": 100833,
-          "y": 4732,
+          "x": 99373,
+          "y": 8673,
           "id": "fcf5d99e-31fb-4dae-8bb4-9e61ddc8cd16"
         },
         "ee8669df-1bfa-4e77-bfa3-20362bdb20f4": {
           "label": "Notes",
-          "x": 100683,
-          "y": 3882,
+          "x": 99223,
+          "y": 7823,
           "id": "ee8669df-1bfa-4e77-bfa3-20362bdb20f4"
         },
         "22a05ca8-9b14-422c-b989-f92c33b9debb": {
           "label": "Dictionary of\nconcepts",
-          "x": 100828,
-          "y": 3440,
+          "x": 99656,
+          "y": 4373,
           "id": "22a05ca8-9b14-422c-b989-f92c33b9debb"
         },
         "bdce3203-6973-4429-a6c7-ddd96c729a05": {
           "label": "Details, thoughts",
-          "x": 100843,
-          "y": 3829,
+          "x": 99383,
+          "y": 7770,
           "id": "bdce3203-6973-4429-a6c7-ddd96c729a05"
         },
         "769328bb-f5e7-4f30-81f2-202c9c5386f1": {
           "label": "Sections",
-          "x": 100833,
-          "y": 4132,
+          "x": 99373,
+          "y": 8073,
           "id": "769328bb-f5e7-4f30-81f2-202c9c5386f1"
         },
         "906cc93d-49f7-459c-a0b3-f7c1bbe6e3e5": {
           "label": "Books",
-          "x": 100897,
-          "y": 3982,
+          "x": 99437,
+          "y": 7923,
           "id": "906cc93d-49f7-459c-a0b3-f7c1bbe6e3e5"
         },
         "d72eb9ae-1607-43e0-b0a3-191ef0b246b0": {
           "label": "R&D institutions",
-          "x": 100927,
-          "y": 4007,
+          "x": 99467,
+          "y": 7948,
           "id": "d72eb9ae-1607-43e0-b0a3-191ef0b246b0"
         },
         "7cc355d8-7e8b-4866-a35b-c79e5d441e82": {
           "label": "Sites",
-          "x": 100893,
-          "y": 4032,
+          "x": 99433,
+          "y": 7973,
           "id": "7cc355d8-7e8b-4866-a35b-c79e5d441e82"
         },
         "8ac161e5-38a5-4cef-b0bd-a1da9a2fb2c0": {
           "label": "Magazines",
-          "x": 100912,
-          "y": 4057,
+          "x": 99452,
+          "y": 7998,
           "id": "8ac161e5-38a5-4cef-b0bd-a1da9a2fb2c0"
         },
         "f0b5cf72-12c9-4cfc-9829-5b6ef0ca9e2c": {
           "label": "Articles",
-          "x": 100900,
-          "y": 4082,
+          "x": 99440,
+          "y": 8023,
           "id": "f0b5cf72-12c9-4cfc-9829-5b6ef0ca9e2c"
         },
         "6e81c0e0-859d-4db7-9ce1-9d8df32c849f": {
           "label": "Media content",
-          "x": 100922,
-          "y": 4107,
+          "x": 99462,
+          "y": 8048,
           "id": "6e81c0e0-859d-4db7-9ce1-9d8df32c849f"
         },
         "3220d4d8-c223-4a30-a7be-c92ac6fc522f": {
           "label": "Misc. web links",
-          "x": 100925,
-          "y": 4132,
+          "x": 99465,
+          "y": 8073,
           "id": "3220d4d8-c223-4a30-a7be-c92ac6fc522f"
         },
         "8dd6e62f-4174-4f55-83cd-6412bdc5bdea": {
           "label": "Projects",
-          "x": 100903,
-          "y": 4157,
+          "x": 99443,
+          "y": 8098,
           "id": "8dd6e62f-4174-4f55-83cd-6412bdc5bdea"
         },
         "26d3569c-f47c-4e59-83d7-6c39b72fd71e": {
           "label": "Tools",
-          "x": 100894,
-          "y": 4182,
+          "x": 99434,
+          "y": 8123,
           "id": "26d3569c-f47c-4e59-83d7-6c39b72fd71e"
         },
         "4a887f06-e4f6-42b1-a01b-eb06aac34a4e": {
           "label": "Organizations",
-          "x": 100921,
-          "y": 4207,
+          "x": 99461,
+          "y": 8148,
           "id": "4a887f06-e4f6-42b1-a01b-eb06aac34a4e"
         },
         "14f421b7-ea4c-44d8-b415-6485abe8feb0": {
           "label": "Standarts",
-          "x": 100908,
-          "y": 4232,
+          "x": 99448,
+          "y": 8173,
           "id": "14f421b7-ea4c-44d8-b415-6485abe8feb0"
         },
         "d3d27ec4-c24f-47cf-87d3-d81e41d82ee1": {
           "label": "Forums, Groups",
-          "x": 100929,
-          "y": 4257,
+          "x": 99469,
+          "y": 8198,
           "id": "d3d27ec4-c24f-47cf-87d3-d81e41d82ee1"
         },
         "45ec6d10-625e-4e55-a13a-023942b50ec4": {
           "label": "Laws",
-          "x": 100894,
-          "y": 4282,
+          "x": 99434,
+          "y": 8223,
           "id": "45ec6d10-625e-4e55-a13a-023942b50ec4"
         },
         "e3b844cb-d0e0-41ff-a342-67c1f851ee64": {
           "label": "Adjacent Themes",
-          "x": 100933,
-          "y": 4307,
+          "x": 99473,
+          "y": 8248,
           "id": "e3b844cb-d0e0-41ff-a342-67c1f851ee64"
         },
         "7d383949-c5ef-48f2-a78b-512a887196d6": {
           "label": "Questions",
-          "x": 100683,
-          "y": 4432,
+          "x": 99223,
+          "y": 8373,
           "id": "7d383949-c5ef-48f2-a78b-512a887196d6"
         },
         "c72d659d-eb16-40ff-86a9-5fd1347a0fde": {
           "label": "Problems",
-          "x": 100683,
-          "y": 4532,
+          "x": 99223,
+          "y": 8473,
           "id": "c72d659d-eb16-40ff-86a9-5fd1347a0fde"
         },
         "14cce472-7abf-4d7e-af77-08390f41aab4": {
           "label": "Goals",
-          "x": 100683,
-          "y": 4632,
+          "x": 99223,
+          "y": 8573,
           "id": "14cce472-7abf-4d7e-af77-08390f41aab4"
         },
         "2fe50647-80d4-4a27-86a6-4d5f56887b54": {
@@ -16244,14 +16244,14 @@ var schemeData =
         },
         "736dc201-e416-4f23-ab1c-08bba7673b94": {
           "id": "736dc201-e416-4f23-ab1c-08bba7673b94",
-          "x": 101121,
-          "y": 3814,
+          "x": 99661,
+          "y": 7755,
           "label": "Коллекции ссылок по темам"
         },
         "8dcb4e11-8e44-4bd9-9b8a-3be14b4101de": {
           "id": "8dcb4e11-8e44-4bd9-9b8a-3be14b4101de",
-          "x": 101056,
-          "y": 9899,
+          "x": 101200,
+          "y": 15815,
           "label": "Па-па-па-бам!"
         },
         "de33059a-2b21-4eb7-98e4-81d28c1fa878": {
@@ -17580,6 +17580,472 @@ var schemeData =
             "background": "#af55f4",
             "border": ""
           },
+          "borderWidth": ""
+        },
+        "bdae53e6-8110-46db-a080-95ec75397375": {
+          "id": "bdae53e6-8110-46db-a080-95ec75397375",
+          "x": 99927,
+          "y": 3836,
+          "label": "Channels collection"
+        },
+        "f7377021-5507-4037-b68c-009887753dd0": {
+          "id": "f7377021-5507-4037-b68c-009887753dd0",
+          "x": 100505,
+          "y": 4475,
+          "label": "Programming",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "0ce1f560-4ca2-4776-a8bb-19b6af9beec2": {
+          "label": "Build Stuff - YouTube",
+          "link": "https://www.youtube.com/channel/UCis5B3Zru-vymPRcbpM1NEA",
+          "x": 100788,
+          "y": 3939,
+          "id": "0ce1f560-4ca2-4776-a8bb-19b6af9beec2"
+        },
+        "396698a6-e7c9-4d4e-9ae8-2cddcdfb5ca3": {
+          "label": "I Like To Make Stuff - YouTube",
+          "link": "https://www.youtube.com/user/iliketomakestuffcom",
+          "x": 100819,
+          "y": 3963,
+          "id": "396698a6-e7c9-4d4e-9ae8-2cddcdfb5ca3"
+        },
+        "9ca8c81e-e7b1-4860-8a50-d25e1af31c99": {
+          "label": "code::dive conference - YouTube",
+          "link": "https://www.youtube.com/channel/UCU0Rt8VHO5-YNQXwIjkf-1g",
+          "x": 100826,
+          "y": 3987,
+          "id": "9ca8c81e-e7b1-4860-8a50-d25e1af31c99"
+        },
+        "bde00a4e-7645-41be-bb05-11f2de58a870": {
+          "label": "PolyConf - YouTube",
+          "link": "https://www.youtube.com/user/polyconf",
+          "x": 100785,
+          "y": 4011,
+          "id": "bde00a4e-7645-41be-bb05-11f2de58a870"
+        },
+        "011c441e-9535-4d4e-a854-bfb05f8e2544": {
+          "label": "JSNation - YouTube",
+          "link": "https://www.youtube.com/channel/UCQM428Hwrvxla8DCgjGONSQ",
+          "x": 100785,
+          "y": 4035,
+          "id": "011c441e-9535-4d4e-a854-bfb05f8e2544"
+        },
+        "f2241e49-c0b6-4f60-93b1-ce33a2bf1a12": {
+          "label": "Coding Tech - YouTube",
+          "link": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ",
+          "x": 100796,
+          "y": 4059,
+          "id": "f2241e49-c0b6-4f60-93b1-ce33a2bf1a12"
+        },
+        "5aa1cd94-d627-4b35-80f7-d8e0105d45d6": {
+          "label": "GitNation React Conferences - YouTube",
+          "link": "https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw",
+          "x": 100849,
+          "y": 4083,
+          "id": "5aa1cd94-d627-4b35-80f7-d8e0105d45d6"
+        },
+        "77a4ea17-f61e-4643-9bcd-8f4f98461867": {
+          "label": "ReactiveConf - YouTube",
+          "link": "https://www.youtube.com/channel/UCBHdUnixTWymmXBIw12Y8Qg",
+          "x": 100799,
+          "y": 4107,
+          "id": "77a4ea17-f61e-4643-9bcd-8f4f98461867"
+        },
+        "7103b00d-c232-4fcd-9d10-b9a60ab8f246": {
+          "label": "Jazoon TechDays - YouTube",
+          "link": "https://www.youtube.com/channel/UC9kq7rpecrCX7S_ptuA20OA",
+          "x": 100812,
+          "y": 4131,
+          "id": "7103b00d-c232-4fcd-9d10-b9a60ab8f246"
+        },
+        "5684730b-05c1-4230-8642-0656fb19b57e": {
+          "label": "SFNode - YouTube",
+          "link": "https://www.youtube.com/channel/UCbWHWaCKZqIm5pE5hSD7KFw",
+          "x": 100782,
+          "y": 4179,
+          "id": "5684730b-05c1-4230-8642-0656fb19b57e"
+        },
+        "13a96638-0c28-4b7b-b2a4-fefbc3d85e8c": {
+          "label": "CppCon - YouTube",
+          "link": "https://www.youtube.com/user/CppCon",
+          "x": 100782,
+          "y": 4203,
+          "id": "13a96638-0c28-4b7b-b2a4-fefbc3d85e8c"
+        },
+        "e75704d3-8850-44da-b532-f6a0b8aa3f1d": {
+          "label": "Infinite Red - YouTube",
+          "link": "https://www.youtube.com/channel/UCwpSzVt7QpLDbCnPXqR97-g",
+          "x": 100792,
+          "y": 4227,
+          "id": "e75704d3-8850-44da-b532-f6a0b8aa3f1d"
+        },
+        "57c28b63-ef7f-4d38-aa8a-cf9242ae5086": {
+          "label": "GDG Lviv - YouTube",
+          "link": "https://www.youtube.com/channel/UC5nknQj-2llSNd-jqXr4d_w",
+          "x": 100787,
+          "y": 4251,
+          "id": "57c28b63-ef7f-4d38-aa8a-cf9242ae5086"
+        },
+        "323655b3-985a-46fa-9d29-83a98adea1be": {
+          "label": "mibuso.com - YouTube",
+          "link": "https://www.youtube.com/channel/UCeFUrL4JZsOa39TQVmrw2ww",
+          "x": 100795,
+          "y": 4275,
+          "id": "323655b3-985a-46fa-9d29-83a98adea1be"
+        },
+        "f79ba645-7aab-4e06-b379-f8a41c63508f": {
+          "label": "You Gotta Love Frontend - YouTube",
+          "link": "https://www.youtube.com/channel/UCU-fOxx_kT5OARG0KiksiCA",
+          "x": 100836,
+          "y": 4299,
+          "id": "f79ba645-7aab-4e06-b379-f8a41c63508f"
+        },
+        "0a294902-d340-42cf-8ab4-00989b0bde9a": {
+          "label": "Callstack Engineers - YouTube",
+          "link": "https://www.youtube.com/channel/UCbvLih553T7f5OAGTfbsJkQ",
+          "x": 100819,
+          "y": 4323,
+          "id": "0a294902-d340-42cf-8ab4-00989b0bde9a"
+        },
+        "8ed8a12b-f41e-4bb4-8541-a0d208232fb5": {
+          "label": "Coding Tech - YouTube",
+          "link": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ",
+          "x": 100796,
+          "y": 4347,
+          "id": "8ed8a12b-f41e-4bb4-8541-a0d208232fb5"
+        },
+        "601f8088-5894-4521-9396-fd589a83b189": {
+          "label": "node.js - YouTube",
+          "link": "https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ",
+          "x": 100779,
+          "y": 4371,
+          "id": "601f8088-5894-4521-9396-fd589a83b189"
+        },
+        "fd069b4f-60a9-4264-8c16-df83f06b20e4": {
+          "label": "InfoQ - YouTube",
+          "link": "https://www.youtube.com/user/MarakanaTechTV",
+          "x": 100774,
+          "y": 4395,
+          "id": "fd069b4f-60a9-4264-8c16-df83f06b20e4"
+        },
+        "db2b001b-a93a-4af2-8a38-c52a239f488d": {
+          "label": "SiliconANGLE theCUBE - YouTube",
+          "link": "https://www.youtube.com/user/siliconangle",
+          "x": 100831,
+          "y": 4419,
+          "id": "db2b001b-a93a-4af2-8a38-c52a239f488d"
+        },
+        "5751bef1-4712-43dd-8be4-fa76deb090a6": {
+          "label": "freeCodeCamp.org - YouTube",
+          "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
+          "x": 100817,
+          "y": 4443,
+          "id": "5751bef1-4712-43dd-8be4-fa76deb090a6"
+        },
+        "cdd0e91a-c626-466f-837b-2b7e79c33a03": {
+          "label": "Traversy Media - YouTube",
+          "link": "https://www.youtube.com/user/TechGuyWeb",
+          "x": 100805,
+          "y": 4467,
+          "id": "cdd0e91a-c626-466f-837b-2b7e79c33a03"
+        },
+        "6cb065b9-b418-4e29-906e-25c3a34328b0": {
+          "label": "Web Dev Simplified - YouTube",
+          "link": "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw",
+          "x": 100817,
+          "y": 4491,
+          "id": "6cb065b9-b418-4e29-906e-25c3a34328b0"
+        },
+        "f7210b4b-8589-429f-9ee5-db7c07a7f4c0": {
+          "label": "meet.js - YouTube",
+          "link": "https://www.youtube.com/channel/UC2aX7cPDv8Stij0kBCM_qgg",
+          "x": 100779,
+          "y": 4515,
+          "id": "f7210b4b-8589-429f-9ee5-db7c07a7f4c0"
+        },
+        "b377db52-32a2-4cd8-a315-f9a9cca0e267": {
+          "label": "Google Developers - YouTube",
+          "link": "https://www.youtube.com/user/GoogleDevelopers",
+          "x": 100817,
+          "y": 4539,
+          "id": "b377db52-32a2-4cd8-a315-f9a9cca0e267"
+        },
+        "42076348-71d3-4611-a803-390eab5096d7": {
+          "label": "ScotlandJS - YouTube",
+          "link": "https://www.youtube.com/channel/UCpW0Vh7QKPA7n0oJfrizlsw",
+          "x": 100792,
+          "y": 4563,
+          "id": "42076348-71d3-4611-a803-390eab5096d7"
+        },
+        "61b50ded-8875-4d6b-b8ac-483bdb3d3deb": {
+          "label": "NearForm - YouTube",
+          "link": "https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A",
+          "x": 100789,
+          "y": 4587,
+          "id": "61b50ded-8875-4d6b-b8ac-483bdb3d3deb"
+        },
+        "8e2f1c74-03cd-4aba-bb6f-4af629659947": {
+          "label": "Coders Field - YouTube",
+          "link": "https://www.youtube.com/channel/UC1f5LPSlHSoFoUFqjrUPaTA",
+          "x": 100797,
+          "y": 4611,
+          "id": "8e2f1c74-03cd-4aba-bb6f-4af629659947"
+        },
+        "7d314324-d903-42da-a92e-c6f563457c59": {
+          "label": "Josh Thomas - YouTube",
+          "link": "https://www.youtube.com/user/jthoms81",
+          "x": 100799,
+          "y": 4635,
+          "id": "7d314324-d903-42da-a92e-c6f563457c59"
+        },
+        "3e8c6094-9199-4196-b086-b0bcf648aa4c": {
+          "label": "Cian O'Maidin - YouTube",
+          "link": "https://www.youtube.com/user/NodeDublin",
+          "x": 100801,
+          "y": 4659,
+          "id": "3e8c6094-9199-4196-b086-b0bcf648aa4c"
+        },
+        "1e25034a-f032-447f-9939-6036f41b2db1": {
+          "label": "Espruino - YouTube",
+          "link": "https://www.youtube.com/user/Espruino",
+          "x": 100784,
+          "y": 4683,
+          "id": "1e25034a-f032-447f-9939-6036f41b2db1"
+        },
+        "140f9d7e-4cd5-4116-ae28-09c749f3e5f7": {
+          "label": "ConFoo Developer Conference - YouTube",
+          "link": "https://www.youtube.com/user/confooca",
+          "x": 100855,
+          "y": 4707,
+          "id": "140f9d7e-4cd5-4116-ae28-09c749f3e5f7"
+        },
+        "d9d097a6-a0c9-4c7c-af63-16619021b8d2": {
+          "label": "Pixels Camp - YouTube",
+          "link": "https://www.youtube.com/channel/UCw569JcaFKdvIHAuEXoH7Kg",
+          "x": 100796,
+          "y": 4731,
+          "id": "d9d097a6-a0c9-4c7c-af63-16619021b8d2"
+        },
+        "73d437ca-125d-4506-a1ea-fc138e5a1c13": {
+          "label": "javascriptla - YouTube",
+          "link": "https://www.youtube.com/user/beachtutorials",
+          "x": 100792,
+          "y": 4755,
+          "id": "73d437ca-125d-4506-a1ea-fc138e5a1c13"
+        },
+        "dafb8d10-03f8-4566-b994-0f5a875dc458": {
+          "label": "The Linux Foundation - YouTube",
+          "link": "https://www.youtube.com/user/TheLinuxFoundation",
+          "x": 100826,
+          "y": 4779,
+          "id": "dafb8d10-03f8-4566-b994-0f5a875dc458"
+        },
+        "811399fa-c1c3-4221-aeec-c3785a447176": {
+          "label": "Øredev Conference - YouTube",
+          "link": "https://www.youtube.com/channel/UC0XtR2kcXnqtfrGSsxM8oAg",
+          "x": 100819,
+          "y": 4803,
+          "id": "811399fa-c1c3-4221-aeec-c3785a447176"
+        },
+        "38ae6906-0609-49eb-b812-5dc4b9730aa6": {
+          "label": "Techlahoma - YouTube",
+          "link": "https://www.youtube.com/channel/UCnLf0pfqIpSfKuPZ0e9iiNQ",
+          "x": 100795,
+          "y": 4851,
+          "id": "38ae6906-0609-49eb-b812-5dc4b9730aa6"
+        },
+        "9a7243de-6f89-418b-83e5-63e8e898a97c": {
+          "label": "fitcevents - YouTube",
+          "link": "https://www.youtube.com/user/fitcevents",
+          "x": 100786,
+          "y": 4875,
+          "id": "9a7243de-6f89-418b-83e5-63e8e898a97c"
+        },
+        "460f95b9-741d-4689-8ab2-db1880ebba24": {
+          "id": "460f95b9-741d-4689-8ab2-db1880ebba24",
+          "x": 100514,
+          "y": 3510,
+          "label": "Сельская жизнь"
+        },
+        "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a": {
+          "id": "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a",
+          "x": 100882,
+          "y": 3514,
+          "label": "Идиллия",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "b4a4d7e0-22f4-4aac-8a84-1676aae185df": {
+          "label": "酒鬼小莉 Drunkard Lee - YouTube",
+          "link": "https://www.youtube.com/channel/UCT4_rFXULf5E1rWtJC8Kk3w/videos",
+          "x": 101143,
+          "y": 3508,
+          "id": "b4a4d7e0-22f4-4aac-8a84-1676aae185df"
+        },
+        "af37af37-8667-4bbe-a0fa-d3dca582796a": {
+          "id": "af37af37-8667-4bbe-a0fa-d3dca582796a",
+          "x": 100542,
+          "y": 3217,
+          "label": "Традиционные ремесла"
+        },
+        "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4": {
+          "id": "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4",
+          "x": 100870,
+          "y": 3226,
+          "label": "Франция"
+        },
+        "2de60fa0-9afc-4e28-80ed-9a4cb4125501": {
+          "label": "meteoalacartelemag - YouTube",
+          "link": "https://www.youtube.com/user/meteoalacartelemag/videos",
+          "x": 101104,
+          "y": 3224,
+          "id": "2de60fa0-9afc-4e28-80ed-9a4cb4125501"
+        },
+        "79bcc2c6-fea8-4d0c-b61e-4fdedfd0915f": {
+          "label": "野小妹wild girl - YouTube",
+          "link": "https://www.youtube.com/channel/UCf8zNN8N7U2BEm4WBQnWBIw/videos",
+          "x": 101115,
+          "y": 3533,
+          "id": "79bcc2c6-fea8-4d0c-b61e-4fdedfd0915f"
+        },
+        "45d4ffa5-a2eb-4d32-931c-356268ccf205": {
+          "id": "45d4ffa5-a2eb-4d32-931c-356268ccf205",
+          "x": 100493,
+          "y": 3793,
+          "label": "Hardware"
+        },
+        "c0ad1469-8f17-46b1-9607-9a6c49dea6aa": {
+          "id": "c0ad1469-8f17-46b1-9607-9a6c49dea6aa",
+          "x": 100187,
+          "y": 4178,
+          "label": "IT"
+        },
+        "bfc1979b-cb4b-4672-bd9a-ccf01a6b3449": {
+          "label": "freeCodeCamp.org - YouTube",
+          "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/videos",
+          "x": 100816,
+          "y": 3915,
+          "id": "bfc1979b-cb4b-4672-bd9a-ccf01a6b3449"
+        },
+        "c67af52f-4c79-417d-8b17-e7558137f1f4": {
+          "label": "ExplainingComputers - YouTube",
+          "link": "https://www.youtube.com/user/explainingcomputers/videos",
+          "x": 100818,
+          "y": 3788,
+          "id": "c67af52f-4c79-417d-8b17-e7558137f1f4"
+        },
+        "44ea468f-1cce-4c92-85f2-99ad4790dde2": {
+          "id": "44ea468f-1cce-4c92-85f2-99ad4790dde2",
+          "x": 100505,
+          "y": 3058,
+          "label": "Documentary"
+        },
+        "7ab2844e-d2c3-43b6-a59e-1432aa0d4936": {
+          "label": "British Pathé - YouTube",
+          "link": "https://www.youtube.com/user/britishpathe/featured",
+          "x": 100890,
+          "y": 3063,
+          "id": "7ab2844e-d2c3-43b6-a59e-1432aa0d4936"
+        },
+        "928af6c5-c3c7-4b51-adc0-6072c6a5de96": {
+          "label": "PyData - YouTube",
+          "link": "https://www.youtube.com/user/PyDataTV/videos",
+          "x": 100778,
+          "y": 3867,
+          "id": "928af6c5-c3c7-4b51-adc0-6072c6a5de96"
+        },
+        "f00c6bcb-1fa5-484b-96e3-395ac93c48f3": {
+          "label": "MLconf - YouTube",
+          "link": "https://www.youtube.com/channel/UCjeM1xxYb_37bZfyparLS3Q/videos",
+          "x": 100779,
+          "y": 3891,
+          "id": "f00c6bcb-1fa5-484b-96e3-395ac93c48f3"
+        },
+        "8a416181-f373-4fef-8989-a819915c66cc": {
+          "id": "8a416181-f373-4fef-8989-a819915c66cc",
+          "x": 100222,
+          "y": 3362,
+          "label": "Развлечения"
+        },
+        "f98845b0-a393-4a51-ba8d-299765f501f2365": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Ruby themes",
+          "id": "f98845b0-a393-4a51-ba8d-299765f501f2365",
+          "x": 65000,
+          "y": -9308
+        },
+        "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247365": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "sushilshik.github.com/ruby.html",
+          "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247365",
+          "x": 65320,
+          "y": -9310,
+          "shape": "box",
+          "link": "ruby.html",
           "borderWidth": ""
         }
       },
@@ -35062,6 +35528,378 @@ var schemeData =
           "from": "413e357e-0778-491f-9ceb-3def6c2d0fcc936",
           "to": "66ad461f-62cf-40fb-9110-104c2484874c690",
           "id": "279150c9-99f2-4e3d-a744-66078af23bcd"
+        },
+        "739488d1-f473-4b27-ae2d-f64b8cae9121709204339": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "739488d1-f473-4b27-ae2d-f64b8cae9121709204339",
+          "from": "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709204339",
+          "to": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204339"
+        },
+        "fbb24404-072d-486b-b76a-51126cff1669": {
+          "from": "22a05ca8-9b14-422c-b989-f92c33b9debb",
+          "to": "bdae53e6-8110-46db-a080-95ec75397375",
+          "id": "fbb24404-072d-486b-b76a-51126cff1669"
+        },
+        "d1bacdd0-3dc8-467d-8c6d-e5eef2a51f1b": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "0ce1f560-4ca2-4776-a8bb-19b6af9beec2",
+          "id": "d1bacdd0-3dc8-467d-8c6d-e5eef2a51f1b"
+        },
+        "39957055-7d3b-41c1-ab1c-16c467153bab": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "396698a6-e7c9-4d4e-9ae8-2cddcdfb5ca3",
+          "id": "39957055-7d3b-41c1-ab1c-16c467153bab"
+        },
+        "ffef8b15-4564-4c1c-8d19-530734c5303f": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "9ca8c81e-e7b1-4860-8a50-d25e1af31c99",
+          "id": "ffef8b15-4564-4c1c-8d19-530734c5303f"
+        },
+        "81e8a0b2-3f16-4f4a-a661-b20e4c0d5168": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "bde00a4e-7645-41be-bb05-11f2de58a870",
+          "id": "81e8a0b2-3f16-4f4a-a661-b20e4c0d5168"
+        },
+        "c1f69949-5538-4043-a131-d196b544203e": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "011c441e-9535-4d4e-a854-bfb05f8e2544",
+          "id": "c1f69949-5538-4043-a131-d196b544203e"
+        },
+        "c2e26539-b11c-465e-a2c0-79f62c6ce034": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "f2241e49-c0b6-4f60-93b1-ce33a2bf1a12",
+          "id": "c2e26539-b11c-465e-a2c0-79f62c6ce034"
+        },
+        "f570dee9-9691-46fb-a372-cd1c046638e2": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "5aa1cd94-d627-4b35-80f7-d8e0105d45d6",
+          "id": "f570dee9-9691-46fb-a372-cd1c046638e2"
+        },
+        "675538d5-c3cf-4fde-9329-4ce9365a83a7": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "77a4ea17-f61e-4643-9bcd-8f4f98461867",
+          "id": "675538d5-c3cf-4fde-9329-4ce9365a83a7"
+        },
+        "6c817570-984b-4dd7-83bc-3a8f1ecb46a4": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "7103b00d-c232-4fcd-9d10-b9a60ab8f246",
+          "id": "6c817570-984b-4dd7-83bc-3a8f1ecb46a4"
+        },
+        "180b5234-89d6-4b74-9d83-099af241f415": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "5684730b-05c1-4230-8642-0656fb19b57e",
+          "id": "180b5234-89d6-4b74-9d83-099af241f415"
+        },
+        "0aa3ca84-4adb-4c1a-93e9-57a7860e57c1": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "13a96638-0c28-4b7b-b2a4-fefbc3d85e8c",
+          "id": "0aa3ca84-4adb-4c1a-93e9-57a7860e57c1"
+        },
+        "94faaf4a-30fb-449a-84c1-194de8952d05": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "e75704d3-8850-44da-b532-f6a0b8aa3f1d",
+          "id": "94faaf4a-30fb-449a-84c1-194de8952d05"
+        },
+        "a4ae5367-d81a-4fff-9e24-269199a83448": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "57c28b63-ef7f-4d38-aa8a-cf9242ae5086",
+          "id": "a4ae5367-d81a-4fff-9e24-269199a83448"
+        },
+        "e8116f5a-e49b-4e84-b822-f428f86b79f2": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "323655b3-985a-46fa-9d29-83a98adea1be",
+          "id": "e8116f5a-e49b-4e84-b822-f428f86b79f2"
+        },
+        "8cd3db74-f531-438e-a661-5fd86c5bb896": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "f79ba645-7aab-4e06-b379-f8a41c63508f",
+          "id": "8cd3db74-f531-438e-a661-5fd86c5bb896"
+        },
+        "b098bfd8-1965-40ce-8c6e-9a8f8b16772a": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "0a294902-d340-42cf-8ab4-00989b0bde9a",
+          "id": "b098bfd8-1965-40ce-8c6e-9a8f8b16772a"
+        },
+        "28da3bd2-7afb-4794-858e-3a8a8ccbc241": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "8ed8a12b-f41e-4bb4-8541-a0d208232fb5",
+          "id": "28da3bd2-7afb-4794-858e-3a8a8ccbc241"
+        },
+        "89a738f5-93bc-4390-b948-e85dbfa6cc57": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "601f8088-5894-4521-9396-fd589a83b189",
+          "id": "89a738f5-93bc-4390-b948-e85dbfa6cc57"
+        },
+        "b71661d2-dab8-4b57-8866-c452b1cfa057": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "fd069b4f-60a9-4264-8c16-df83f06b20e4",
+          "id": "b71661d2-dab8-4b57-8866-c452b1cfa057"
+        },
+        "cd897534-8a06-4eee-9bf9-0740c603f38a": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "db2b001b-a93a-4af2-8a38-c52a239f488d",
+          "id": "cd897534-8a06-4eee-9bf9-0740c603f38a"
+        },
+        "810a6615-a0c7-4e87-8464-1325802e29ed": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "5751bef1-4712-43dd-8be4-fa76deb090a6",
+          "id": "810a6615-a0c7-4e87-8464-1325802e29ed"
+        },
+        "cffd309a-d13a-4b24-96ac-8d66149731c3": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "cdd0e91a-c626-466f-837b-2b7e79c33a03",
+          "id": "cffd309a-d13a-4b24-96ac-8d66149731c3"
+        },
+        "031e1979-3ad0-4534-9a75-3b38dabd8d7f": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "6cb065b9-b418-4e29-906e-25c3a34328b0",
+          "id": "031e1979-3ad0-4534-9a75-3b38dabd8d7f"
+        },
+        "f08e0137-7d2b-4e82-8241-a27e4bf153ba": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "f7210b4b-8589-429f-9ee5-db7c07a7f4c0",
+          "id": "f08e0137-7d2b-4e82-8241-a27e4bf153ba"
+        },
+        "6db4c904-fe99-49f0-86cc-e1093427a784": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "b377db52-32a2-4cd8-a315-f9a9cca0e267",
+          "id": "6db4c904-fe99-49f0-86cc-e1093427a784"
+        },
+        "f5eb4025-d15a-4843-9150-0c1539fa6668": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "42076348-71d3-4611-a803-390eab5096d7",
+          "id": "f5eb4025-d15a-4843-9150-0c1539fa6668"
+        },
+        "4328d006-023f-42f9-97f1-915a7c895c52": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "61b50ded-8875-4d6b-b8ac-483bdb3d3deb",
+          "id": "4328d006-023f-42f9-97f1-915a7c895c52"
+        },
+        "7287aa41-6506-490c-a3d5-b3cdb77af9f0": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "8e2f1c74-03cd-4aba-bb6f-4af629659947",
+          "id": "7287aa41-6506-490c-a3d5-b3cdb77af9f0"
+        },
+        "82421775-c83c-4480-93d3-21e8f1fb5990": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "7d314324-d903-42da-a92e-c6f563457c59",
+          "id": "82421775-c83c-4480-93d3-21e8f1fb5990"
+        },
+        "5d3342a4-7cf1-4ba2-8039-92a0c5988adb": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "3e8c6094-9199-4196-b086-b0bcf648aa4c",
+          "id": "5d3342a4-7cf1-4ba2-8039-92a0c5988adb"
+        },
+        "0832fbc0-d36b-41a4-9e1c-e0b55cc6b161": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "1e25034a-f032-447f-9939-6036f41b2db1",
+          "id": "0832fbc0-d36b-41a4-9e1c-e0b55cc6b161"
+        },
+        "ca828ac2-8889-48a1-878f-1b6ff9d47825": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "140f9d7e-4cd5-4116-ae28-09c749f3e5f7",
+          "id": "ca828ac2-8889-48a1-878f-1b6ff9d47825"
+        },
+        "acb0e31d-2004-4779-a3a2-cc1e49aab7d5": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "d9d097a6-a0c9-4c7c-af63-16619021b8d2",
+          "id": "acb0e31d-2004-4779-a3a2-cc1e49aab7d5"
+        },
+        "7dc4fb8b-b94f-4538-b3ab-7b60be0f33da": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "73d437ca-125d-4506-a1ea-fc138e5a1c13",
+          "id": "7dc4fb8b-b94f-4538-b3ab-7b60be0f33da"
+        },
+        "4387ed09-509f-46b7-b771-f93783603cea": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "dafb8d10-03f8-4566-b994-0f5a875dc458",
+          "id": "4387ed09-509f-46b7-b771-f93783603cea"
+        },
+        "83482da3-4339-45a1-986e-810ed229e0ca": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "811399fa-c1c3-4221-aeec-c3785a447176",
+          "id": "83482da3-4339-45a1-986e-810ed229e0ca"
+        },
+        "70dfc39d-49ac-4e6f-8bda-a57a2518a80e": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "38ae6906-0609-49eb-b812-5dc4b9730aa6",
+          "id": "70dfc39d-49ac-4e6f-8bda-a57a2518a80e"
+        },
+        "d172a9ad-9c14-42a8-8153-00ba862425e0": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "9a7243de-6f89-418b-83e5-63e8e898a97c",
+          "id": "d172a9ad-9c14-42a8-8153-00ba862425e0"
+        },
+        "66844560-1803-47a2-850f-3390b7b55c90": {
+          "from": "460f95b9-741d-4689-8ab2-db1880ebba24",
+          "to": "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a",
+          "id": "66844560-1803-47a2-850f-3390b7b55c90"
+        },
+        "92ecf820-fe5f-4320-a8af-5cffa9093830": {
+          "from": "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a",
+          "to": "b4a4d7e0-22f4-4aac-8a84-1676aae185df",
+          "id": "92ecf820-fe5f-4320-a8af-5cffa9093830"
+        },
+        "19bafccc-1bc2-4bb9-861b-cf2ad023cefc": {
+          "from": "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4",
+          "to": "2de60fa0-9afc-4e28-80ed-9a4cb4125501",
+          "id": "19bafccc-1bc2-4bb9-861b-cf2ad023cefc"
+        },
+        "0a37109a-9eae-43b6-8c7f-ef2c9f065e58": {
+          "from": "af37af37-8667-4bbe-a0fa-d3dca582796a",
+          "to": "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4",
+          "id": "0a37109a-9eae-43b6-8c7f-ef2c9f065e58"
+        },
+        "59cf3af0-245a-4e0b-9a93-190567f7f16d": {
+          "from": "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a",
+          "to": "79bcc2c6-fea8-4d0c-b61e-4fdedfd0915f",
+          "id": "59cf3af0-245a-4e0b-9a93-190567f7f16d"
+        },
+        "738f9f32-776a-46f4-bf73-32b5da9c76c2": {
+          "from": "c0ad1469-8f17-46b1-9607-9a6c49dea6aa",
+          "to": "f7377021-5507-4037-b68c-009887753dd0",
+          "id": "738f9f32-776a-46f4-bf73-32b5da9c76c2"
+        },
+        "908ac307-2ab1-4c4f-9e9c-8228f1901b91": {
+          "from": "c0ad1469-8f17-46b1-9607-9a6c49dea6aa",
+          "to": "45d4ffa5-a2eb-4d32-931c-356268ccf205",
+          "id": "908ac307-2ab1-4c4f-9e9c-8228f1901b91"
+        },
+        "920d8ea9-0322-4b90-8523-64efce5b2f6e": {
+          "from": "bdae53e6-8110-46db-a080-95ec75397375",
+          "to": "c0ad1469-8f17-46b1-9607-9a6c49dea6aa",
+          "id": "920d8ea9-0322-4b90-8523-64efce5b2f6e"
+        },
+        "76fa7a24-3e18-45e4-8cb8-f8ff5c69720c": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "bfc1979b-cb4b-4672-bd9a-ccf01a6b3449",
+          "id": "76fa7a24-3e18-45e4-8cb8-f8ff5c69720c"
+        },
+        "cac6fe9d-8c18-48fe-a6b3-794b122b0244": {
+          "from": "45d4ffa5-a2eb-4d32-931c-356268ccf205",
+          "to": "c67af52f-4c79-417d-8b17-e7558137f1f4",
+          "id": "cac6fe9d-8c18-48fe-a6b3-794b122b0244"
+        },
+        "164363d1-6c0c-4d8d-934f-d07f82eb9d1c": {
+          "from": "44ea468f-1cce-4c92-85f2-99ad4790dde2",
+          "to": "7ab2844e-d2c3-43b6-a59e-1432aa0d4936",
+          "id": "164363d1-6c0c-4d8d-934f-d07f82eb9d1c"
+        },
+        "9bc47ed3-91b4-458d-9ca3-e2fd46d26ecc": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "928af6c5-c3c7-4b51-adc0-6072c6a5de96",
+          "id": "9bc47ed3-91b4-458d-9ca3-e2fd46d26ecc"
+        },
+        "08ce134e-2376-4136-8c10-e6605f3293e8": {
+          "from": "f7377021-5507-4037-b68c-009887753dd0",
+          "to": "f00c6bcb-1fa5-484b-96e3-395ac93c48f3",
+          "id": "08ce134e-2376-4136-8c10-e6605f3293e8"
+        },
+        "bbedac8e-51ee-49a1-aef3-34650abe6ad5": {
+          "from": "bdae53e6-8110-46db-a080-95ec75397375",
+          "to": "8a416181-f373-4fef-8989-a819915c66cc",
+          "id": "bbedac8e-51ee-49a1-aef3-34650abe6ad5"
+        },
+        "d91b8667-683c-4fdf-b240-0b3a0bd40fa0": {
+          "from": "8a416181-f373-4fef-8989-a819915c66cc",
+          "to": "460f95b9-741d-4689-8ab2-db1880ebba24",
+          "id": "d91b8667-683c-4fdf-b240-0b3a0bd40fa0"
+        },
+        "e52b0179-4c95-4339-9757-c09852dfec06": {
+          "from": "8a416181-f373-4fef-8989-a819915c66cc",
+          "to": "af37af37-8667-4bbe-a0fa-d3dca582796a",
+          "id": "e52b0179-4c95-4339-9757-c09852dfec06"
+        },
+        "600a3f06-4467-4031-9aca-7760b10480a2": {
+          "from": "8a416181-f373-4fef-8989-a819915c66cc",
+          "to": "44ea468f-1cce-4c92-85f2-99ad4790dde2",
+          "id": "600a3f06-4467-4031-9aca-7760b10480a2"
+        },
+        "c547ff72-3797-413b-8790-d0c0e97cf289365": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c547ff72-3797-413b-8790-d0c0e97cf289365",
+          "from": "f98845b0-a393-4a51-ba8d-299765f501f2365",
+          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247365"
+        },
+        "23ebf29c-c249-47f7-9e67-158c728083b5365": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "23ebf29c-c249-47f7-9e67-158c728083b5365",
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609365",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2365"
+        },
+        "5156ddd6-b0f0-4c56-b05e-4e2ec384c7f9": {
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2365",
+          "id": "5156ddd6-b0f0-4c56-b05e-4e2ec384c7f9"
         }
       },
       "length": 0,
@@ -35098,10 +35936,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.013860190416581717,
+    "scale": 0.25237488497904825,
     "viewPosition": {
-      "x": 96667.59504243538,
-      "y": 8169.975692315635
+      "x": 65295.70762440675,
+      "y": -9508.469828804915
     }
   }
 }

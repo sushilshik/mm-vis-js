@@ -44,6 +44,7 @@ app.get("/", function(request, response){ //root dir
 
     console.log(dataPartNumber + ": " + saveTime + ", " + dataChunksLength + ", " + Object.keys(saveData[saveJobKey]).length);
     if (Object.keys(saveData[saveJobKey]).length == dataChunksLength) {
+        answerLine = JSON.stringify("save");
 	//var saveData = Object.keys(saveData)
 	//    .sort(function(a,b) { return +b - +a })
 	//    .map(function(k) { return { key: k, value: saveData[k] };});
@@ -77,6 +78,7 @@ app.get("/", function(request, response){ //root dir
 				console.log(`exec error: ${error}`);
 			    }
 			});
+                answerLine = JSON.stringify("saveAndBuild: " + buildProjectName);
 	}
     }
     response.send(answerLine);
