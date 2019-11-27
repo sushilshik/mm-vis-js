@@ -1202,8 +1202,8 @@ function draw() {
 		}
 	});
    $("div#network").keydown(function (event) {
-      //Left align nodes. alt + LeftArrow
-      if (event.altKey && event.keyCode === 37) {
+      //Left align nodes. shift+alt+LeftArrow
+      if (event.shiftKey && event.altKey && event.keyCode === 37) {
          var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
          alignNodesLeft(nodes);
       }

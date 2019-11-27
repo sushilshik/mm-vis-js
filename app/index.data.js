@@ -39075,9 +39075,9 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(\"div#network\").keydown(function (event) {\n      //Left align nodes. alt + LeftArrow\n      if (event.altKey && event.keyCode === 37) {\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         alignNodesLeft(nodes);\n      }\n   });",
-          "x": 41915,
-          "y": 9870,
+          "label": "   $(\"div#network\").keydown(function (event) {\n      //Left align nodes. shift+alt+LeftArrow\n      if (event.shiftKey && event.altKey && event.keyCode === 37) {\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         alignNodesLeft(nodes);\n      }\n   });",
+          "x": 41911,
+          "y": 9866,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446933",
           "shape": "box",
           "link": "",
@@ -72820,10 +72820,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.010527055301811245,
+    "scale": 0.009851394361615943,
     "viewPosition": {
-      "x": 66184.38321457534,
-      "y": 13199.276228915174
+      "x": 66467.92572443082,
+      "y": 8779.678947255983
     }
   }
 }
