@@ -17,6 +17,8 @@ Features:
 * Work online and offline
 * Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)
 
+https://sushilshik.github.io/imgs/mm-vis-js_index_2019.11.30.png
+
 ### Tests:
 
 Install:
