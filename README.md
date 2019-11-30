@@ -7,7 +7,7 @@ Code based on vis.js.
 Example: https://sushilshik.github.io/
 
 Features:
-* No need to install anything.
+* No need to install.
 * No need to register in online services to edit schemes
 * Schemes data can be edited from it's text representation
 * Code (e.q. from github projects) can be converted to mm-vis-js schemes for visual research
@@ -17,7 +17,7 @@ Features:
 * Work online and offline
 * Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)
 
-#Tests:
+### Tests:
 
 Install:
 * docker
