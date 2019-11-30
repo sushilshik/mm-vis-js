@@ -1,12 +1,12 @@
 # mm-vis-js
 
-mm-vis-js - IDE and schemes editor.
+mm-vis-js &mdash; IDE and schemes editor.
 
 Code based on vis.js.
 
 Example: https://sushilshik.github.io/
 
-Features:
+###### Features:
 * No need to install.
 * No need to register in online services to edit schemes
 * Schemes data can be edited from it's text representation
@@ -17,7 +17,18 @@ Features:
 * Work online and offline
 * Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)
 
-https://sushilshik.github.io/imgs/mm-vis-js_index_2019.11.30.png
+###### Screenshots
+
+sushilshik.github.io/index.html screenshot 2019.11.30
+
+![sushilshik.github.io/index.html screenshot 2019.11.30](https://sushilshik.github.io/imgs/mm-vis-js_index_2019.11.30.png)
+
+###### List of pages on 2019.11.30:
+
+* https://sushilshik.github.io/index.html
+* https://sushilshik.github.io/base.html
+* https://sushilshik.github.io/culture.html
+* https://sushilshik.github.io/ruby.html
 
 ### Tests:
 
