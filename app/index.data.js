@@ -29335,7 +29335,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -29358,7 +29359,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "# mm-vis-js\nРедактор схем на основе vis.js\n\nПример: https://sushilshik.github.io/\n\nTests:\n\nInstall:\n* docker\n* docker-compose. pip install docker-compose\n\nRun:\n1) Open first terminal.\n2) Run: docker-compose up --build. It will start chrome docker container.\n3) Open second terminal.\n4) Run: docker exec -it app-express npm run test:e2e. Command will exit after process finish.\n5) Run: docker-compose down. It will shut down chrome container in first terminal.",
+          "label": "# mm-vis-js\n\nmm-vis-js - IDE and schemes editor.\n\nCode based on vis.js.\n\nExample: https://sushilshik.github.io/\n\nFeatures:\n* No need to install anything.\n* No need to register in online services to edit schemes\n* Schemes data can be edited from it's text representation\n* Code (e.q. from github projects) can be converted to mm-vis-js schemes for visual research\n* Write programs in familiar programming languages and in visual graphs of nodes with code\n* Build files with code (like project building in make and maven) from graphs of nodes with code\n* Place books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content\n* Work online and offline\n* Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)\n\n#Tests:\n\nInstall:\n* docker\n* docker-compose. pip install docker-compose\n\nRun:\n1) Open first terminal.\n2) Run: docker-compose up --build. It will start chrome docker container.\n3) Open second terminal.\n4) Run: docker exec -it app-express npm run test:e2e. Command will exit after process finish.\n5) Run: docker-compose down. It will shut down chrome container in first terminal.",
           "x": 67366,
           "y": -7594,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486",
@@ -74453,10 +74454,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.009695317673283587,
+    "scale": 0.009315038423089268,
     "viewPosition": {
-      "x": 64579.538732869856,
-      "y": 11719.830501603565
+      "x": 66394.00751902538,
+      "y": 14846.185365190448
     }
   }
 }
