@@ -1172,7 +1172,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "mv-vis-js\nculture save",
+          "label": "mm-vis-js\nculture save",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709204",
           "x": 69486,
           "y": -5770,
@@ -13745,7 +13745,7 @@ var schemeData =
           "label": "Youtube:\nканалы",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375936",
           "x": 104567,
-          "y": 4407,
+          "y": 4005,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -35936,10 +35936,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.01555389678966833,
+    "scale": 0.01420049011006604,
     "viewPosition": {
-      "x": 97608.05274243392,
-      "y": 10935.372815423523
+      "x": 97446.71322704476,
+      "y": 11935.689107442737
     }
   }
 }

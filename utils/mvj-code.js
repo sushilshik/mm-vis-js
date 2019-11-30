@@ -73,6 +73,17 @@ function collectCodeNodesContent(rootCodeNodeId, nodes, edges) {
 	nodeBranchesNodesIds.forEach(function(branchNodeId) {
 		branchCodeNodes.push(nodes[branchNodeId]);
 	});
+        if (branchCodeNodes.length > 0 && typeof branchCodeNodes[0] === "undefined") {
+           var z = [];
+           nodeBranchesNodesIds.forEach(function(nodeId) {
+                for(var key1 in edges) {
+                        if (edges[key1].to == nodeId) {
+                                z.push(key1);
+                        }
+                }
+           });
+                console.log(z);
+        }
 
 	function compare( a, b ) {
 		if ( a.y < b.y ){

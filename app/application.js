@@ -37,6 +37,7 @@ var lastClickPosition = null;
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
+//"#af55f4" - goals and questions
 ///////////////////////////////////
 function getUrlVars() {
 	var vars = {};
@@ -109,6 +110,15 @@ function getNodeById(data, id) {
 
 	throw 'Can not find id \'' + id + '\' in data';
 }
+function getNodeFromNetworkDataById(id) {
+   var node;
+   if (Array.isArray(network.body.data.nodes.get(id))) {
+      node = network.body.data.nodes.get(id)[0];
+   } else {
+      node = network.body.data.nodes.get(id);
+   }
+   return node;
+}
 function destroy() {
 	if (network !== null) {
 		network.destroy();
@@ -126,7 +136,7 @@ function addNodeOnCanvas(label, link, position, shiftX, shiftY, network) {
 function alignNodesLeft(nodes) {
 	var minLeft;
 	nodes.forEach(function(node) {
-		var nodeD = network.body.data.nodes.get(node.id);
+                var nodeD = getNodeFromNetworkDataById(node.id);
 		var pNode = network.getPositions()[node.id];
 		nodeD.x = pNode.x;
 		nodeD.y = pNode.y;
@@ -187,7 +197,7 @@ function mkdirRecursiveSync(path, pathDelimiter) {
     });
 };
 function collectCodeNodesContent(rootCodeNodeId) {
-	var codeNode = network.body.data.nodes.get(rootCodeNodeId).label + "\n";
+	var codeNode = getNodeFromNetworkDataById(rootCodeNodeId).label + "\n";
 	var nodeEdges = network.body.nodes[rootCodeNodeId].edges;
 	var codeEdges = [];
 	nodeEdges.forEach(function(edge) {
@@ -197,7 +207,7 @@ function collectCodeNodesContent(rootCodeNodeId) {
 	});
 	var branchCodeNodes = [];
 	codeEdges.forEach(function(codeEdge) {
-		branchCodeNodes.push(network.body.data.nodes.get(codeEdge.toId));
+		branchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));
 	});
 	function compare( a, b ) {
 		if ( a.y < b.y ){
@@ -283,7 +293,7 @@ function draw() {
 				document.getElementById('network-popUp').style.top = (clickPosition.y + 20) + "px";
 				document.getElementById('network-popUp').style.left = (clickPosition.x + 20) + "px";
 				$("textarea#node-label").focus();
-                                lastEditedNodesIds = [];
+                                lastEditedNodesIds = [data.id];
                                 lastClickPosition = null;
 			},
 			editNode: function (data, callback) {
@@ -338,18 +348,15 @@ function draw() {
       document.getElementById('edge-cancelButton').onclick = cancelEdgeEdit.bind(this,callback);
       document.getElementById('edge-popUp').style.display = 'block';
     }
-
     function clearEdgePopUp() {
       document.getElementById('edge-saveButton').onclick = null;
       document.getElementById('edge-cancelButton').onclick = null;
       document.getElementById('edge-popUp').style.display = 'none';
     }
-
     function cancelEdgeEdit(callback) {
       clearEdgePopUp();
       callback(null);
     }
-
     function saveEdgeData(data, callback) {
       if (typeof data.to === 'object')
         data.to = data.to.id
@@ -453,7 +460,7 @@ function draw() {
 			var selectedEdges = objectToArray(this.selectionHandler.selectionObj.edges);
 			var nodes = []
 			selectedNodes.forEach(function(node) {
-				nodes.push(network.body.data.nodes.get(node.id));
+				nodes.push(getNodeFromNetworkDataById(node.id));
 			});
 			var edges = []
 			selectedEdges.forEach(function(edge) {
@@ -516,7 +523,7 @@ function draw() {
 	network.makeNodesFromJsonNode = function () {
 		network.manipulation.makeNodesFromJsonNode = function() {
 			var selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);
-			var jsonNode = network.body.data.nodes.get(selectedNodes[0].id);
+			var jsonNode = getNodeFromNetworkDataById(selectedNodes[0].id);
 			var label = jsonNode.label;
 			var data = JSON.parse(label);
 			var date = new Date();
@@ -1062,12 +1069,23 @@ function draw() {
             position = network.canvas.DOMtoCanvas(position);
          } else {
             var lastEditedNodeId = lastEditedNodesIds[lastEditedNodesIds.length - 1];
-            var lastEditedNode = network.body.data.nodes.get(lastEditedNodeId)[0];
-            var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);
-            position = {
-               x: lastEditedNode.x,
-               y: nodeBBox["top"] + 28 + 28*lastEditedNode.label.split("\n").length/2
-            };
+            var lastEditedNode = getNodeFromNetworkDataById(lastEditedNodeId);
+            var lastEditDOMPosition = network.canvasToDOM({x: lastEditedNode.x, y: lastEditedNode.y});
+            if (lastEditDOMPosition.x < 0 || 
+               lastEditDOMPosition.x > canvasWidth || 
+               lastEditDOMPosition.y < 0 || 
+               lastEditDOMPosition.y > canvasHeight) {
+               position = {
+                  x: (canvasWidth - schemeDataMenuWidth)/2,
+                  y: canvasHeight/2
+               };
+            } else {
+               var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);
+               position = {
+                  x: lastEditedNode.x,
+                  y: nodeBBox["top"] + 28 + 28*lastEditedNode.label.split("\n").length/2
+               };
+            }
          }
          var nodeId = addNodeOnCanvas("", "", position, 0, 0, network);
          var node = network.body.nodes[nodeId];
@@ -1075,6 +1093,8 @@ function draw() {
          lastEditedNodesIds.push(nodeId);
          network.manipulation.editNode();
       }
+   });
+   $("#network").keyup(function (event) {
       //Build project. alt+b
       if (event.altKey && event.keyCode === 66) {
          var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);
@@ -1084,7 +1104,7 @@ function draw() {
             return;
          }
          var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);
-         var rootNode = network.body.data.nodes.get(rootNodeId);
+         var rootNode = getNodeFromNetworkDataById(rootNodeId);
          var projectName = rootNode.label.replace("mvj code file for project name: ","");
 			var buildProjectParentNode;
 			var buildProjectParentNodeName = "buildProject code: " + projectName;
@@ -1109,6 +1129,8 @@ function draw() {
 			var codeFunction = new Function('codeNodeId', code);
 			codeFunction(buildProjectCodeNode.id);
 		}
+	});
+   $("#network").keyup(function (event) {
                 //Save canvas. Ctrl+alt+s
 		if (event.ctrlKey && event.altKey && event.keyCode === 83) {
 			var saveOperationsParentNode;
@@ -1134,19 +1156,21 @@ function draw() {
 			var codeFunction = new Function('codeNodeId', code);
 			codeFunction(saveOperationsCodeNode.id);
 		}
+	});
+   $("#network").keyup(function (event) {
 		//Duplicate. Ctrl+alt+d.
 		if (event.ctrlKey && event.altKey && event.keyCode === 68) {
 			var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
 			var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
 			var nodes = []
 			selectedNodes.forEach(function(node) {
-				var nodeD = network.body.data.nodes.get(node.id);
+				var nodeD = getNodeFromNetworkDataById(node.id);
 				pNode = network.getPositions()[node.id];
 				nodeD.x = pNode.x;
 				nodeD.y = pNode.y;
 				network.body.data.nodes.update(nodeD);
 
-				nodes.push(network.body.data.nodes.get(node.id));
+				nodes.push(getNodeFromNetworkDataById(node.id));
 			});
 			var edges = []
 			selectedEdges.forEach(function(edge) {
@@ -1201,6 +1225,21 @@ function draw() {
 			network.selectionHandler.setSelection(network.selectionHandler.getSelection());
 		}
 	});
+   var expanded = false;
+   $("div#network").keydown(function (event) {
+      //Toggle nodeLabel textarea expansion. ctrl+Space
+      if (event.ctrlKey && event.keyCode === 32) {
+         if (expanded) {
+            $("textarea#nodeLabelTextarea").css("width", "167px");
+            $("textarea#nodeLabelTextarea").css("height", "45px");
+            expanded = false;
+         } else {
+            $("textarea#nodeLabelTextarea").css("width", "940px");
+            $("textarea#nodeLabelTextarea").css("height", "580px");
+            expanded = true;
+         }
+      }
+   });
    $("div#network").keydown(function (event) {
       //Left align nodes. shift+alt+LeftArrow
       if (event.shiftKey && event.altKey && event.keyCode === 37) {
@@ -1212,7 +1251,7 @@ function draw() {
       //Zoom out. shift+alt+d
       if (event.shiftKey && event.altKey && event.keyCode === 68) {
          var scale = network.getScale();
-         var newScale = scale * 0.3;
+         var newScale = scale / 1.5;
          var position = network.getViewPosition();
          position = network.canvasToDOM(position);
          network.interactionHandler.zoom(newScale, position);
@@ -1222,7 +1261,7 @@ function draw() {
       //Zoom in. shfit+alt+f
       if (event.shiftKey && event.altKey && event.keyCode === 70) {
          var scale = network.getScale();
-         var newScale = scale * 3;
+         var newScale = scale * 1.5;
          var position = network.getViewPosition();
          position = network.canvasToDOM(position);
          network.interactionHandler.zoom(newScale, position);
@@ -1367,7 +1406,7 @@ function draw() {
 		var nodeColorInput = $("input#nodeColorInput");
 		var nodeBorderWidthInput = $("input#nodeBorderWidthInput");
 		var nodeBorderColorInput = $("input#nodeBorderColorInput");
-		var nodeD = network.body.data.nodes.get(properties.nodes[0]);
+                var nodeD = getNodeFromNetworkDataById(properties.nodes[0]);
 		nodeIdInput.val(nodeD.id);
 		nodeLabelTextarea.val(nodeD.label);
 		pNode = network.getPositions()[nodeD.id];
@@ -1614,15 +1653,19 @@ function saveData(data,callback) {
         if (data.label.split("\n").length > 1) {
            var labelHeightShift = 14*data.label.split("\n").length/2 - 7;
            lastEditedNodesIds.forEach(function(nodeId) {
-              var nodeD = network.body.data.nodes.get(nodeId)[0];
-              var pNode = network.getPositions()[nodeId];
-              nodeD.x = pNode.x;
-              nodeD.y = pNode.y - labelHeightShift;
-              network.nodesHandler.moveNode(nodeD.id, nodeD.x, nodeD.y);
+              var nodeD = getNodeFromNetworkDataById(nodeId);
+              if (typeof nodeD !== "undefined" && nodeD !== null) {
+                 var pNode = network.getPositions()[nodeId];
+                 nodeD.x = pNode.x;
+                 nodeD.y = pNode.y - labelHeightShift;
+                 network.nodesHandler.moveNode(nodeD.id, nodeD.x, nodeD.y);
+              }
            });
         }
-
-	callback(data);
+   if (data.label.lastIndexOf("http", 0) === 0) {
+      data.link = data.label.trim();
+   }
+   callback(data);
 }
 function init() {
 	draw();
@@ -1991,7 +2034,7 @@ $(document).ready(function() {
 		var nodeColorInput = schemeEditElementsMenu.find("input#nodeColorInput");
 		var nodeBorderWidthInput = schemeEditElementsMenu.find("input#nodeBorderWidthInput");
 		var nodeBorderColorInput = schemeEditElementsMenu.find("input#nodeBorderColorInput");
-		var nodeD = network.body.data.nodes.get(nodeIdInput.val());
+                var nodeD = getNodeFromNetworkDataById(nodeIdInput.val());
 		var pNode = network.getPositions()[nodeIdInput.val()];
 		nodeXInput.val(pNode.x);
 		nodeYInput.val(pNode.y);
@@ -2021,7 +2064,7 @@ $(document).ready(function() {
 
    splitNodeListLabelButton.click(function() {
       var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
-      var sourceNode = network.body.data.nodes.get(nodeIdInput);
+      var sourceNode = getNodeFromNetworkDataById(nodeIdInput);
       var nodeLabel = sourceNode.label;
       var pNode = network.getPositions()[nodeIdInput];
       var labelLines;

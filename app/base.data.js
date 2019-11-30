@@ -6960,8 +6960,8 @@ var schemeData =
         },
         "0ca73d64-eabf-4558-8d04-b240259dbb74": {
           "id": "0ca73d64-eabf-4558-8d04-b240259dbb74",
-          "x": 60311,
-          "y": -9346,
+          "x": 60389,
+          "y": -3315,
           "label": "META",
           "shape": "box",
           "link": "",
@@ -6976,20 +6976,20 @@ var schemeData =
         },
         "fbf5e843-15c9-43e7-af6e-5a0d46bd3088": {
           "id": "fbf5e843-15c9-43e7-af6e-5a0d46bd3088",
-          "x": 61390,
-          "y": -9067,
+          "x": 61468,
+          "y": -3036,
           "label": "Разработка"
         },
         "6206492e-02d2-4a2b-897f-11d315f09296": {
           "id": "6206492e-02d2-4a2b-897f-11d315f09296",
-          "x": 61703,
-          "y": -9072,
+          "x": 61781,
+          "y": -3041,
           "label": "init"
         },
         "1aec8e54-aa06-4194-b655-0d0d9bfdbb77": {
           "id": "1aec8e54-aa06-4194-b655-0d0d9bfdbb77",
-          "x": 59855,
-          "y": -8498,
+          "x": 59933,
+          "y": -2467,
           "label": "saveCanvasProjectData",
           "shape": "box",
           "link": "",
@@ -7004,8 +7004,8 @@ var schemeData =
         },
         "719ccd35-55eb-43fe-962b-494d41485f4c": {
           "id": "719ccd35-55eb-43fe-962b-494d41485f4c",
-          "x": 61563,
-          "y": -9070,
+          "x": 61641,
+          "y": -3039,
           "label": "2019.11/16",
           "shape": "box",
           "link": "",
@@ -7021,8 +7021,8 @@ var schemeData =
         },
         "60c2d97b-fdf5-4b9b-b53a-f9d9db63bd6d": {
           "id": "60c2d97b-fdf5-4b9b-b53a-f9d9db63bd6d",
-          "x": 61378,
-          "y": -9645,
+          "x": 61456,
+          "y": -3614,
           "label": "Themes list",
           "shape": "box",
           "link": "",
@@ -7038,14 +7038,14 @@ var schemeData =
         },
         "a20dd0c9-30ce-4abe-a727-8c975855c9a8": {
           "id": "a20dd0c9-30ce-4abe-a727-8c975855c9a8",
-          "x": 60188,
-          "y": -8555,
+          "x": 60266,
+          "y": -2524,
           "label": "projectSaveId"
         },
         "43750806-8645-4177-bffc-caa780c3b005": {
           "id": "43750806-8645-4177-bffc-caa780c3b005",
-          "x": 60345,
-          "y": -8556,
+          "x": 60423,
+          "y": -2525,
           "label": "projectSaveId: base_proj1",
           "shape": "box",
           "link": "",
@@ -7336,8 +7336,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Conceptual_model",
           "id": "ca6e6336-5c5d-457f-b3e5-f21d1d44f011856",
-          "x": 65547,
-          "y": -1435,
+          "x": 65686,
+          "y": 7049,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Conceptual_model",
           "borderWidth": ""
@@ -7367,8 +7367,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Концептуальная_модель",
           "id": "c59e85b0-5641-4de6-adbd-fb73cad3e6c7856",
-          "x": 65567,
-          "y": -1402,
+          "x": 65706,
+          "y": 7082,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C",
           "borderWidth": ""
@@ -7401,8 +7401,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Human-computer_interaction",
           "id": "c0984e9e-baf4-435a-80e1-52b9cb1d1a9e856",
-          "x": 77371,
-          "y": 11019,
+          "x": 78338,
+          "y": 8928,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction",
           "borderWidth": ""
@@ -7435,8 +7435,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Человеко-компьютерное_взаимодействие",
           "id": "22cbf9be-3f71-493d-8ff1-24e3c7a1247d856",
-          "x": 77415,
-          "y": 11051,
+          "x": 78382,
+          "y": 8960,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%BE-%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B5_%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5",
           "borderWidth": ""
@@ -7469,8 +7469,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Technical_report",
           "id": "b8bcd78e-023c-49d1-a740-25c44583cf52856",
-          "x": 64378,
-          "y": 10252,
+          "x": 64334,
+          "y": 15477,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Technical_report",
           "borderWidth": ""
@@ -7503,8 +7503,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/White_paper",
           "id": "de215adf-7277-4fe6-97d7-6328730ab3dd856",
-          "x": 64367,
-          "y": 10282,
+          "x": 64323,
+          "y": 15507,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/White_paper",
           "borderWidth": ""
@@ -7537,8 +7537,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Systems_analysis",
           "id": "108a35bc-2d0f-4cb8-9461-2fc2022d8e7a856",
-          "x": 65252,
-          "y": 14712,
+          "x": 65208,
+          "y": 19937,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Systems_analysis",
           "borderWidth": ""
@@ -7571,8 +7571,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Системный_анализ",
           "id": "ed14073f-7564-4fbe-b114-e92d5dbb95ef856",
-          "x": 65259,
-          "y": 14745,
+          "x": 65215,
+          "y": 19970,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7",
           "borderWidth": ""
@@ -7605,8 +7605,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Layout",
           "id": "801df834-e870-42fb-b5ea-88a1caaa655f856",
-          "x": 65510,
-          "y": 17959,
+          "x": 65466,
+          "y": 23184,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Layout",
           "borderWidth": ""
@@ -7639,8 +7639,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Page_layout",
           "id": "bb57d217-1e17-4fba-a05f-80a92a0a15cc856",
-          "x": 65528,
-          "y": 17995,
+          "x": 65484,
+          "y": 23220,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Page_layout",
           "borderWidth": ""
@@ -7673,8 +7673,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Макет_издания",
           "id": "4398929e-462b-4418-a93d-6a49dd432efe856",
-          "x": 65538,
-          "y": 18023,
+          "x": 65494,
+          "y": 23248,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82_%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F",
           "borderWidth": ""
@@ -7707,8 +7707,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://ru.wikipedia.org/wiki/Вёрстка",
           "id": "4c453388-4506-4072-968d-894ac292ed4e856",
-          "x": 65513,
-          "y": 18052,
+          "x": 65469,
+          "y": 23277,
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%92%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0",
           "borderWidth": ""
@@ -7741,8 +7741,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Category:Graphic_design",
           "id": "419e487a-2238-465e-92ec-88eb93775b24856",
-          "x": 65570,
-          "y": 18089,
+          "x": 65526,
+          "y": 23314,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Graphic_design",
           "borderWidth": ""
@@ -7775,8 +7775,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Category:Composition_in_visual_art",
           "id": "da2a2b34-1e71-4b56-9715-7cb47edfe24f856",
-          "x": 65603,
-          "y": 18121,
+          "x": 65559,
+          "y": 23346,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Composition_in_visual_art",
           "borderWidth": ""
@@ -7806,8 +7806,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Integrated_circuit_layout",
           "id": "1515932f-a4e1-4232-a006-51a0ffc68648856",
-          "x": 65567,
-          "y": 18155,
+          "x": 65523,
+          "y": 23380,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Integrated_circuit_layout",
           "borderWidth": ""
@@ -7838,8 +7838,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://e-notabene.ru/istinf/",
           "id": "c227b550-0ccb-4756-ad8d-f255fc3d1602856",
-          "x": 66204,
-          "y": 28890,
+          "x": 66160,
+          "y": 34115,
           "shape": "box",
           "link": "https://e-notabene.ru/istinf/",
           "borderWidth": ""
@@ -7870,8 +7870,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://kleio.asu.ru/",
           "id": "81af928b-2dd0-44ce-98bc-643720f6ba87856",
-          "x": 66176,
-          "y": 28851,
+          "x": 66132,
+          "y": 34076,
           "shape": "box",
           "link": "http://kleio.asu.ru/",
           "borderWidth": ""
@@ -7902,8 +7902,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Журнал \"Историческая информатика\"",
           "id": "edfeff9c-5851-411a-ba30-c2b4902c8830856",
-          "x": 65939,
-          "y": 28874,
+          "x": 65895,
+          "y": 34099,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7932,7 +7932,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Visual Understanding Environment (VUE)",
           "id": "d3209fb4-af43-4b11-bdfa-bbe8deaaf31a856",
-          "x": 77531,
+          "x": 78498,
           "y": -3521
         },
         "f2494828-0a5d-4814-89a5-a27d9e2d41c1856": {
@@ -7961,7 +7961,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Visual_Understanding_Environment",
           "id": "f2494828-0a5d-4814-89a5-a27d9e2d41c1856",
-          "x": 77956,
+          "x": 78923,
           "y": -3518,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Visual_Understanding_Environment",
@@ -7995,8 +7995,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Conceptual\nmodeling",
           "id": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856",
-          "x": 69295,
-          "y": -2636,
+          "x": 69434,
+          "y": 5848,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8029,8 +8029,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Human-\nComputer\nInteraction\n(HCI)",
           "id": "c18f5264-da9d-4505-8b20-e7d242e74fb8856",
-          "x": 81146,
-          "y": 4700,
+          "x": 82113,
+          "y": 2609,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8063,8 +8063,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Interfaces\nand graphs",
           "id": "9c972401-87b2-4a62-a145-28fd26b385f9856",
-          "x": 69452,
-          "y": 4579,
+          "x": 69408,
+          "y": 9804,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8097,8 +8097,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Annotations,\nabstract\nand precis\nwriting",
           "id": "aab01de5-9386-4edd-b234-681a62e61847856",
-          "x": 69648,
-          "y": 9699,
+          "x": 69604,
+          "y": 14924,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8131,8 +8131,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Systems\nanalysis",
           "id": "8fa958b3-7410-4396-bcc8-bbe17888784f856",
-          "x": 68786,
-          "y": 14426,
+          "x": 68742,
+          "y": 19651,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8165,8 +8165,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Schemes,\ngraphs\nlayout",
           "id": "a8baaf1c-b3f3-4310-ad2f-f6863e54ba79856",
-          "x": 69092,
-          "y": 18692,
+          "x": 69048,
+          "y": 23917,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8199,8 +8199,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Institutions\nand societies\nstudying graphs\nlayout",
           "id": "a5e87029-f7d3-43cf-b66f-680a5f4f7d43856",
-          "x": 70398,
-          "y": 24124,
+          "x": 70354,
+          "y": 29349,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8233,8 +8233,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Визуализация\nв исторической\nинформатике",
           "id": "2c4e2725-a96e-4987-9ae3-9008857e8ddc856",
-          "x": 70432,
-          "y": 29731,
+          "x": 70388,
+          "y": 34956,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8267,8 +8267,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books layout",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856",
-          "x": 93722,
-          "y": -3267,
+          "x": 82666,
+          "y": 12406,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8301,7 +8301,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Concept\nmapping\napplications",
           "id": "0daacb57-7201-4372-a961-000bb1a99394856",
-          "x": 81452,
+          "x": 82419,
           "y": -2087,
           "shape": "box",
           "link": "",
@@ -8309,8 +8309,8 @@ var schemeData =
         },
         "c054a8b8-eaf7-4d53-b3a2-6c2022a4528b": {
           "label": "Conceptual modeling",
-          "x": 64431,
-          "y": -1273,
+          "x": 64570,
+          "y": 7211,
           "font": {
             "size": 72,
             "align": "left"
@@ -8326,14 +8326,14 @@ var schemeData =
         },
         "6107754d-51d3-438f-b1e7-2f9c275c30a0": {
           "label": "Development",
-          "x": 65024,
-          "y": -738,
+          "x": 65163,
+          "y": 7746,
           "id": "6107754d-51d3-438f-b1e7-2f9c275c30a0"
         },
         "5432883a-db3b-4489-aa24-cb55088e3d85": {
           "label": "11/5/2019",
-          "x": 65274,
-          "y": -738,
+          "x": 65413,
+          "y": 7746,
           "id": "5432883a-db3b-4489-aa24-cb55088e3d85",
           "shape": "box",
           "link": "",
@@ -8349,140 +8349,140 @@ var schemeData =
         },
         "129f050f-b6b2-4c0e-9f39-49088f572dec": {
           "label": "init",
-          "x": 65174,
-          "y": -738,
+          "x": 65313,
+          "y": 7746,
           "id": "129f050f-b6b2-4c0e-9f39-49088f572dec"
         },
         "ba69c116-ef99-41c9-83cd-746c3d497a1d": {
           "label": "Notes",
-          "x": 65029,
-          "y": -1714,
+          "x": 65168,
+          "y": 6770,
           "id": "ba69c116-ef99-41c9-83cd-746c3d497a1d"
         },
         "a1ef0ad4-20b2-48a6-9595-86e5cad7d9d1": {
           "label": "Dictionary of\nconcepts",
-          "x": 65166,
-          "y": -2884,
+          "x": 65305,
+          "y": 5600,
           "id": "a1ef0ad4-20b2-48a6-9595-86e5cad7d9d1"
         },
         "9ea0f12a-06b4-4076-aca2-797a89c7b813": {
           "label": "Details, thoughts",
-          "x": 65179,
-          "y": -1714,
+          "x": 65318,
+          "y": 6770,
           "id": "9ea0f12a-06b4-4076-aca2-797a89c7b813"
         },
         "178701d1-cd0c-43bb-81a1-696000a1b395": {
           "label": "Sections",
-          "x": 65177,
-          "y": -1408,
+          "x": 65316,
+          "y": 7076,
           "id": "178701d1-cd0c-43bb-81a1-696000a1b395"
         },
         "401ad372-31d0-4273-a3fb-1abbec9245d9": {
           "label": "Books",
-          "x": 65238,
-          "y": -1614,
+          "x": 65377,
+          "y": 6870,
           "id": "401ad372-31d0-4273-a3fb-1abbec9245d9"
         },
         "9264f31b-8cae-4532-aa80-64af7f6a6a0e": {
           "label": "R&D institutions",
-          "x": 65269,
-          "y": -1589,
+          "x": 65408,
+          "y": 6895,
           "id": "9264f31b-8cae-4532-aa80-64af7f6a6a0e"
         },
         "4a33b03e-7a18-4493-b556-ce1192743afb": {
           "label": "Sites",
-          "x": 65234,
-          "y": -1564,
+          "x": 65373,
+          "y": 6920,
           "id": "4a33b03e-7a18-4493-b556-ce1192743afb"
         },
         "a1a18481-4318-4d6a-a4df-a37549ebdbe2": {
           "label": "Magazines",
-          "x": 65253,
-          "y": -1539,
+          "x": 65392,
+          "y": 6945,
           "id": "a1a18481-4318-4d6a-a4df-a37549ebdbe2"
         },
         "5e8ea179-4687-488c-b510-acc1c947bf82": {
           "label": "Articles",
-          "x": 65242,
-          "y": -1514,
+          "x": 65381,
+          "y": 6970,
           "id": "5e8ea179-4687-488c-b510-acc1c947bf82"
         },
         "80e297d0-df38-4d64-82ca-dedc59c9db36": {
           "label": "Media content",
-          "x": 65264,
-          "y": -1489,
+          "x": 65403,
+          "y": 6995,
           "id": "80e297d0-df38-4d64-82ca-dedc59c9db36"
         },
         "dc5e786c-1786-43e6-a23f-e68d80eebfc9": {
           "label": "Misc. web links",
-          "x": 65266,
-          "y": -1414,
+          "x": 65405,
+          "y": 7070,
           "id": "dc5e786c-1786-43e6-a23f-e68d80eebfc9"
         },
         "db5088f2-bd11-4cef-8248-660906e73784": {
           "label": "Projects",
-          "x": 65244,
-          "y": -1313,
+          "x": 65383,
+          "y": 7171,
           "id": "db5088f2-bd11-4cef-8248-660906e73784"
         },
         "8099bedd-5be9-4869-bbe8-602039fa1b4e": {
           "label": "Tools",
-          "x": 65235,
-          "y": -1288,
+          "x": 65374,
+          "y": 7196,
           "id": "8099bedd-5be9-4869-bbe8-602039fa1b4e"
         },
         "fb69e1d9-8b8e-4877-a825-2ae097389298": {
           "label": "Organizations",
-          "x": 65263,
-          "y": -1263,
+          "x": 65402,
+          "y": 7221,
           "id": "fb69e1d9-8b8e-4877-a825-2ae097389298"
         },
         "cf6d90fa-cff4-4239-b9b4-ec8310a3909b": {
           "label": "Standarts",
-          "x": 65249,
-          "y": -1238,
+          "x": 65388,
+          "y": 7246,
           "id": "cf6d90fa-cff4-4239-b9b4-ec8310a3909b"
         },
         "932e2649-481a-4abb-9385-e4be73716208": {
           "label": "Forums, Groups",
-          "x": 65271,
-          "y": -1213,
+          "x": 65410,
+          "y": 7271,
           "id": "932e2649-481a-4abb-9385-e4be73716208"
         },
         "8ace8122-87a7-40f1-a930-423984d33bc4": {
           "label": "Laws",
-          "x": 65235,
-          "y": -1188,
+          "x": 65374,
+          "y": 7296,
           "id": "8ace8122-87a7-40f1-a930-423984d33bc4"
         },
         "94366f38-aa17-4d04-9c5b-b29ddfbfb156": {
           "label": "Adjacent Themes",
-          "x": 65274,
-          "y": -1163,
+          "x": 65413,
+          "y": 7321,
           "id": "94366f38-aa17-4d04-9c5b-b29ddfbfb156"
         },
         "098523a3-c869-4c63-bffd-519e3ebc15b5": {
           "label": "Questions",
-          "x": 65024,
-          "y": -1038,
+          "x": 65163,
+          "y": 7446,
           "id": "098523a3-c869-4c63-bffd-519e3ebc15b5"
         },
         "9b70fd3e-8f52-4396-9261-998b30b8161d": {
           "label": "Problems",
-          "x": 65024,
-          "y": -938,
+          "x": 65163,
+          "y": 7546,
           "id": "9b70fd3e-8f52-4396-9261-998b30b8161d"
         },
         "0e3f3628-f163-4059-8cd0-792cb8bb53a0": {
           "label": "Goals",
-          "x": 65024,
-          "y": -838,
+          "x": 65163,
+          "y": 7646,
           "id": "0e3f3628-f163-4059-8cd0-792cb8bb53a0"
         },
         "25ba9777-5eb2-474a-8b3c-da4512ce7af8": {
           "label": "Human-Computer Interaction (HCI)",
-          "x": 76038,
-          "y": 11144,
+          "x": 77005,
+          "y": 9053,
           "font": {
             "size": 72,
             "align": "left"
@@ -8498,14 +8498,14 @@ var schemeData =
         },
         "883461a0-58bc-4399-9132-ebb06c46abb1": {
           "label": "Development",
-          "x": 76843,
-          "y": 11708,
+          "x": 77810,
+          "y": 9617,
           "id": "883461a0-58bc-4399-9132-ebb06c46abb1"
         },
         "d6cd08b8-4b48-4b9a-8545-9e9e3d237c0b": {
           "label": "11/5/2019",
-          "x": 77093,
-          "y": 11708,
+          "x": 78060,
+          "y": 9617,
           "id": "d6cd08b8-4b48-4b9a-8545-9e9e3d237c0b",
           "shape": "box",
           "link": "",
@@ -8521,140 +8521,140 @@ var schemeData =
         },
         "33392c2c-7f24-4a61-9fe3-e4dd66dd7263": {
           "label": "init",
-          "x": 76993,
-          "y": 11708,
+          "x": 77960,
+          "y": 9617,
           "id": "33392c2c-7f24-4a61-9fe3-e4dd66dd7263"
         },
         "da5d0972-05e3-4961-a221-28a64badfb70": {
           "label": "Notes",
-          "x": 76838,
-          "y": 10729,
+          "x": 77805,
+          "y": 8638,
           "id": "da5d0972-05e3-4961-a221-28a64badfb70"
         },
         "477ceee5-a396-4ea0-aa88-a08b8a3f720e": {
           "label": "Dictionary of\nconcepts",
-          "x": 76988,
-          "y": 6622,
+          "x": 77955,
+          "y": 4531,
           "id": "477ceee5-a396-4ea0-aa88-a08b8a3f720e"
         },
         "617778ba-3cb8-4944-915b-d7af182c911c": {
           "label": "Details, thoughts",
-          "x": 76988,
-          "y": 10729,
+          "x": 77955,
+          "y": 8638,
           "id": "617778ba-3cb8-4944-915b-d7af182c911c"
         },
         "2c257eec-bd67-4b59-b3e1-1261692ee178": {
           "label": "Sections",
-          "x": 76993,
-          "y": 11108,
+          "x": 77960,
+          "y": 9017,
           "id": "2c257eec-bd67-4b59-b3e1-1261692ee178"
         },
         "5700e4ef-841a-4547-aab6-fd986e72b001": {
           "label": "Books",
-          "x": 77057,
-          "y": 10829,
+          "x": 78024,
+          "y": 8738,
           "id": "5700e4ef-841a-4547-aab6-fd986e72b001"
         },
         "1636ed03-e5e0-42fc-af8f-95b08493f736": {
           "label": "R&D institutions",
-          "x": 77088,
-          "y": 10854,
+          "x": 78055,
+          "y": 8763,
           "id": "1636ed03-e5e0-42fc-af8f-95b08493f736"
         },
         "4a962620-0696-45ea-9e4a-610543929513": {
           "label": "Sites",
-          "x": 77053,
-          "y": 10879,
+          "x": 78020,
+          "y": 8788,
           "id": "4a962620-0696-45ea-9e4a-610543929513"
         },
         "62cfb2e9-0bca-4420-a289-4b310f68abcb": {
           "label": "Magazines",
-          "x": 77072,
-          "y": 10904,
+          "x": 78039,
+          "y": 8813,
           "id": "62cfb2e9-0bca-4420-a289-4b310f68abcb"
         },
         "47a59004-9b8f-43c9-91e2-7c5833152638": {
           "label": "Articles",
-          "x": 77061,
-          "y": 10929,
+          "x": 78028,
+          "y": 8838,
           "id": "47a59004-9b8f-43c9-91e2-7c5833152638"
         },
         "4583e5ab-4b0f-4599-a70c-05d49394134b": {
           "label": "Media content",
-          "x": 77083,
-          "y": 10954,
+          "x": 78050,
+          "y": 8863,
           "id": "4583e5ab-4b0f-4599-a70c-05d49394134b"
         },
         "1228dce2-62ac-4dea-b0be-1c2ea9531aaf": {
           "label": "Misc. web links",
-          "x": 77085,
-          "y": 11043,
+          "x": 78052,
+          "y": 8952,
           "id": "1228dce2-62ac-4dea-b0be-1c2ea9531aaf"
         },
         "84117a50-10a5-4d26-b28c-651100fa028e": {
           "label": "Projects",
-          "x": 77063,
-          "y": 11133,
+          "x": 78030,
+          "y": 9042,
           "id": "84117a50-10a5-4d26-b28c-651100fa028e"
         },
         "88cf6f8a-7fd1-42a1-9fe4-932935aa36f3": {
           "label": "Tools",
-          "x": 77054,
-          "y": 11158,
+          "x": 78021,
+          "y": 9067,
           "id": "88cf6f8a-7fd1-42a1-9fe4-932935aa36f3"
         },
         "366b20c7-f32e-4db2-b6f8-63762eb9506d": {
           "label": "Organizations",
-          "x": 77082,
-          "y": 11183,
+          "x": 78049,
+          "y": 9092,
           "id": "366b20c7-f32e-4db2-b6f8-63762eb9506d"
         },
         "48e950cf-d151-4f96-98dd-64ce7ca1923e": {
           "label": "Standarts",
-          "x": 77068,
-          "y": 11208,
+          "x": 78035,
+          "y": 9117,
           "id": "48e950cf-d151-4f96-98dd-64ce7ca1923e"
         },
         "e2f5ff94-0c7e-4320-830e-e907e0d16fd0": {
           "label": "Forums, Groups",
-          "x": 77090,
-          "y": 11233,
+          "x": 78057,
+          "y": 9142,
           "id": "e2f5ff94-0c7e-4320-830e-e907e0d16fd0"
         },
         "a90984aa-852f-412a-8773-776de8c1c73f": {
           "label": "Laws",
-          "x": 77054,
-          "y": 11258,
+          "x": 78021,
+          "y": 9167,
           "id": "a90984aa-852f-412a-8773-776de8c1c73f"
         },
         "acd45bc4-98d3-4f66-aa85-5be71eb489ec": {
           "label": "Adjacent Themes",
-          "x": 77093,
-          "y": 11283,
+          "x": 78060,
+          "y": 9192,
           "id": "acd45bc4-98d3-4f66-aa85-5be71eb489ec"
         },
         "c8bee9a9-b404-4d6a-baf0-20e80bc60fa0": {
           "label": "Questions",
-          "x": 76843,
-          "y": 11408,
+          "x": 77810,
+          "y": 9317,
           "id": "c8bee9a9-b404-4d6a-baf0-20e80bc60fa0"
         },
         "d9d0a879-34e0-4e0f-9582-b99140450c8d": {
           "label": "Problems",
-          "x": 76843,
-          "y": 11508,
+          "x": 77810,
+          "y": 9417,
           "id": "d9d0a879-34e0-4e0f-9582-b99140450c8d"
         },
         "77714eba-eb61-499e-ae13-b3bcf4274b7e": {
           "label": "Goals",
-          "x": 76843,
-          "y": 11608,
+          "x": 77810,
+          "y": 9517,
           "id": "77714eba-eb61-499e-ae13-b3bcf4274b7e"
         },
         "934fbc07-963b-48d7-a911-36ea7635cc26": {
           "label": "Interfaces and graphs",
-          "x": 64284,
-          "y": 4582,
+          "x": 64289,
+          "y": 9588,
           "font": {
             "size": 72,
             "align": "left"
@@ -8670,14 +8670,14 @@ var schemeData =
         },
         "b6ff077b-c970-4157-b4d3-fdab079d0ec8": {
           "label": "Development",
-          "x": 64903,
-          "y": 5000,
+          "x": 64908,
+          "y": 10006,
           "id": "b6ff077b-c970-4157-b4d3-fdab079d0ec8"
         },
         "37bbb7e7-5ba8-4c98-a2bd-1e05ccf20002": {
           "label": "11/5/2019",
-          "x": 65153,
-          "y": 5000,
+          "x": 65158,
+          "y": 10006,
           "id": "37bbb7e7-5ba8-4c98-a2bd-1e05ccf20002",
           "shape": "box",
           "link": "",
@@ -8693,140 +8693,140 @@ var schemeData =
         },
         "c38e5d63-0cfc-4f53-b809-3d5c1726d09f": {
           "label": "init",
-          "x": 65053,
-          "y": 5000,
+          "x": 65058,
+          "y": 10006,
           "id": "c38e5d63-0cfc-4f53-b809-3d5c1726d09f"
         },
         "45b0acd2-109e-4193-8f98-827911f38533": {
           "label": "Notes",
-          "x": 64903,
-          "y": 4150,
+          "x": 64908,
+          "y": 9156,
           "id": "45b0acd2-109e-4193-8f98-827911f38533"
         },
         "a5fa5808-0ba2-466f-9b49-1658df8aa355": {
           "label": "Dictionary of\nconcepts",
-          "x": 65053,
-          "y": 3900,
+          "x": 65058,
+          "y": 8906,
           "id": "a5fa5808-0ba2-466f-9b49-1658df8aa355"
         },
         "bdbf417b-9b8c-4dbd-a9a5-6243e874066a": {
           "label": "Details, thoughts",
-          "x": 65053,
-          "y": 4150,
+          "x": 65058,
+          "y": 9156,
           "id": "bdbf417b-9b8c-4dbd-a9a5-6243e874066a"
         },
         "56c60277-bf70-4b98-a49d-7006c03b41da": {
           "label": "Sections",
-          "x": 65053,
-          "y": 4400,
+          "x": 65058,
+          "y": 9406,
           "id": "56c60277-bf70-4b98-a49d-7006c03b41da"
         },
         "e2b13d88-122e-47a3-8265-b12b1f9a1e24": {
           "label": "Books",
-          "x": 65117,
-          "y": 4250,
+          "x": 65122,
+          "y": 9256,
           "id": "e2b13d88-122e-47a3-8265-b12b1f9a1e24"
         },
         "4d3acdad-75db-47a5-8b3f-5746b555323e": {
           "label": "R&D institutions",
-          "x": 65148,
-          "y": 4275,
+          "x": 65153,
+          "y": 9281,
           "id": "4d3acdad-75db-47a5-8b3f-5746b555323e"
         },
         "5e80ab41-e18a-4c8b-936f-03252482acf4": {
           "label": "Sites",
-          "x": 65113,
-          "y": 4300,
+          "x": 65118,
+          "y": 9306,
           "id": "5e80ab41-e18a-4c8b-936f-03252482acf4"
         },
         "6da49800-5a6a-4973-a8e7-2815ef9abee4": {
           "label": "Magazines",
-          "x": 65132,
-          "y": 4325,
+          "x": 65137,
+          "y": 9331,
           "id": "6da49800-5a6a-4973-a8e7-2815ef9abee4"
         },
         "0dcc6718-a67f-4641-b112-a5d7ff80aa45": {
           "label": "Articles",
-          "x": 65121,
-          "y": 4350,
+          "x": 65126,
+          "y": 9356,
           "id": "0dcc6718-a67f-4641-b112-a5d7ff80aa45"
         },
         "5ffe0ca9-b68a-416c-ac16-96c16605ae46": {
           "label": "Media content",
-          "x": 65143,
-          "y": 4375,
+          "x": 65148,
+          "y": 9381,
           "id": "5ffe0ca9-b68a-416c-ac16-96c16605ae46"
         },
         "75aa2c2d-cc9a-4f61-8c6f-e35b9e785a8a": {
           "label": "Misc. web links",
-          "x": 65145,
-          "y": 4400,
+          "x": 65150,
+          "y": 9406,
           "id": "75aa2c2d-cc9a-4f61-8c6f-e35b9e785a8a"
         },
         "1dc99f3e-51c3-4456-88bb-c3fa9138c860": {
           "label": "Projects",
-          "x": 65123,
-          "y": 4425,
+          "x": 65128,
+          "y": 9431,
           "id": "1dc99f3e-51c3-4456-88bb-c3fa9138c860"
         },
         "0278a452-bf6f-4f39-8fd9-277d2a57b5f7": {
           "label": "Tools",
-          "x": 65114,
-          "y": 4450,
+          "x": 65119,
+          "y": 9456,
           "id": "0278a452-bf6f-4f39-8fd9-277d2a57b5f7"
         },
         "9041ed77-9d90-4791-bfd7-b5e00f275cd5": {
           "label": "Organizations",
-          "x": 65142,
-          "y": 4475,
+          "x": 65147,
+          "y": 9481,
           "id": "9041ed77-9d90-4791-bfd7-b5e00f275cd5"
         },
         "296d83f8-ca56-48c6-adcb-199e7a81535c": {
           "label": "Standarts",
-          "x": 65128,
-          "y": 4500,
+          "x": 65133,
+          "y": 9506,
           "id": "296d83f8-ca56-48c6-adcb-199e7a81535c"
         },
         "21fd74ce-375d-4b02-9113-574a718ba6ff": {
           "label": "Forums, Groups",
-          "x": 65150,
-          "y": 4525,
+          "x": 65155,
+          "y": 9531,
           "id": "21fd74ce-375d-4b02-9113-574a718ba6ff"
         },
         "f574d6a7-c7dd-454e-aef2-4d0adcc08c88": {
           "label": "Laws",
-          "x": 65114,
-          "y": 4550,
+          "x": 65119,
+          "y": 9556,
           "id": "f574d6a7-c7dd-454e-aef2-4d0adcc08c88"
         },
         "709c3cd0-cb87-48cc-b411-3fec85f3627b": {
           "label": "Adjacent Themes",
-          "x": 65153,
-          "y": 4575,
+          "x": 65158,
+          "y": 9581,
           "id": "709c3cd0-cb87-48cc-b411-3fec85f3627b"
         },
         "0e09e8ed-d247-4e3e-bd77-bb5c683644a9": {
           "label": "Questions",
-          "x": 64903,
-          "y": 4700,
+          "x": 64908,
+          "y": 9706,
           "id": "0e09e8ed-d247-4e3e-bd77-bb5c683644a9"
         },
         "4777bae7-d1c7-4851-af34-e793f222d7ca": {
           "label": "Problems",
-          "x": 64903,
-          "y": 4800,
+          "x": 64908,
+          "y": 9806,
           "id": "4777bae7-d1c7-4851-af34-e793f222d7ca"
         },
         "4f1ca691-8557-442e-ba3b-dfc8c2fc5b0b": {
           "label": "Goals",
-          "x": 64903,
-          "y": 4900,
+          "x": 64908,
+          "y": 9906,
           "id": "4f1ca691-8557-442e-ba3b-dfc8c2fc5b0b"
         },
         "f1fcbc83-4cb5-490a-888b-da70ba0ae8f6": {
           "label": "Annotations, abstract and\nprecis writing",
-          "x": 63314,
-          "y": 10349,
+          "x": 63270,
+          "y": 15574,
           "font": {
             "size": 72,
             "align": "left"
@@ -8842,14 +8842,14 @@ var schemeData =
         },
         "4fbd927d-89e6-4515-8c07-c348e6ed54fc": {
           "label": "Development",
-          "x": 63878,
-          "y": 10944,
+          "x": 63834,
+          "y": 16169,
           "id": "4fbd927d-89e6-4515-8c07-c348e6ed54fc"
         },
         "1b963d9e-f4a8-40a5-af57-42eae0243cba": {
           "label": "11/5/2019",
-          "x": 64128,
-          "y": 10944,
+          "x": 64084,
+          "y": 16169,
           "id": "1b963d9e-f4a8-40a5-af57-42eae0243cba",
           "shape": "box",
           "link": "",
@@ -8865,140 +8865,140 @@ var schemeData =
         },
         "fddee754-c531-4460-b399-2dd8cfe80bb7": {
           "label": "init",
-          "x": 64028,
-          "y": 10944,
+          "x": 63984,
+          "y": 16169,
           "id": "fddee754-c531-4460-b399-2dd8cfe80bb7"
         },
         "688873a2-ad78-4ef4-827e-8303a3ff40f2": {
           "label": "Notes",
-          "x": 63878,
-          "y": 9945,
+          "x": 63834,
+          "y": 15170,
           "id": "688873a2-ad78-4ef4-827e-8303a3ff40f2"
         },
         "fc72ea6a-aa13-4958-bc96-9b3f2e5e4967": {
           "label": "Dictionary of\nconcepts",
-          "x": 64109,
-          "y": 8132,
+          "x": 64065,
+          "y": 13357,
           "id": "fc72ea6a-aa13-4958-bc96-9b3f2e5e4967"
         },
         "114d2031-45bf-427f-a4ff-6918c84229d9": {
           "label": "Details, thoughts",
-          "x": 64028,
-          "y": 9945,
+          "x": 63984,
+          "y": 15170,
           "id": "114d2031-45bf-427f-a4ff-6918c84229d9"
         },
         "c5c467ab-9c07-48d2-a2db-8f9256a1a80a": {
           "label": "Sections",
-          "x": 64028,
-          "y": 10344,
+          "x": 63984,
+          "y": 15569,
           "id": "c5c467ab-9c07-48d2-a2db-8f9256a1a80a"
         },
         "86811b0b-68d6-4e55-a5e4-3c05299bcb0f": {
           "label": "Books",
-          "x": 64092,
-          "y": 10045,
+          "x": 64048,
+          "y": 15270,
           "id": "86811b0b-68d6-4e55-a5e4-3c05299bcb0f"
         },
         "d4617918-a7d3-438e-a440-b2dafb4e376e": {
           "label": "R&D institutions",
-          "x": 64123,
-          "y": 10070,
+          "x": 64079,
+          "y": 15295,
           "id": "d4617918-a7d3-438e-a440-b2dafb4e376e"
         },
         "473bbb19-7e4a-4cd1-81fd-d870824dede3": {
           "label": "Sites",
-          "x": 64088,
-          "y": 10095,
+          "x": 64044,
+          "y": 15320,
           "id": "473bbb19-7e4a-4cd1-81fd-d870824dede3"
         },
         "f0693f3d-2ef2-4d73-b5a3-943553e12529": {
           "label": "Magazines",
-          "x": 64107,
-          "y": 10120,
+          "x": 64063,
+          "y": 15345,
           "id": "f0693f3d-2ef2-4d73-b5a3-943553e12529"
         },
         "ae4ba3a6-af60-4e30-afaa-0fb66ddffe48": {
           "label": "Articles",
-          "x": 64096,
-          "y": 10145,
+          "x": 64052,
+          "y": 15370,
           "id": "ae4ba3a6-af60-4e30-afaa-0fb66ddffe48"
         },
         "c063bb78-08b0-4d19-86d2-2b04ee81c7c4": {
           "label": "Media content",
-          "x": 64118,
-          "y": 10170,
+          "x": 64074,
+          "y": 15395,
           "id": "c063bb78-08b0-4d19-86d2-2b04ee81c7c4"
         },
         "d0bc8d6e-e95b-4d6b-8923-f79088e9cc82": {
           "label": "Misc. web links",
-          "x": 64120,
-          "y": 10266,
+          "x": 64076,
+          "y": 15491,
           "id": "d0bc8d6e-e95b-4d6b-8923-f79088e9cc82"
         },
         "2550822f-c866-462d-b212-9f2c9af27316": {
           "label": "Projects",
-          "x": 64098,
-          "y": 10369,
+          "x": 64054,
+          "y": 15594,
           "id": "2550822f-c866-462d-b212-9f2c9af27316"
         },
         "3e0b9209-2385-4d94-96bd-de7d164fae21": {
           "label": "Tools",
-          "x": 64089,
-          "y": 10394,
+          "x": 64045,
+          "y": 15619,
           "id": "3e0b9209-2385-4d94-96bd-de7d164fae21"
         },
         "6721179b-d7db-473b-9c3d-5870ada62760": {
           "label": "Organizations",
-          "x": 64117,
-          "y": 10419,
+          "x": 64073,
+          "y": 15644,
           "id": "6721179b-d7db-473b-9c3d-5870ada62760"
         },
         "79f21684-6814-4a79-aa76-f5f4d38d0b11": {
           "label": "Standarts",
-          "x": 64103,
-          "y": 10444,
+          "x": 64059,
+          "y": 15669,
           "id": "79f21684-6814-4a79-aa76-f5f4d38d0b11"
         },
         "c155ae76-32d8-45aa-8bae-726280aea807": {
           "label": "Forums, Groups",
-          "x": 64125,
-          "y": 10345,
+          "x": 64081,
+          "y": 15570,
           "id": "c155ae76-32d8-45aa-8bae-726280aea807"
         },
         "4145852b-b2b9-4925-9167-fc2a4e068d2e": {
           "label": "Laws",
-          "x": 64089,
-          "y": 10494,
+          "x": 64045,
+          "y": 15719,
           "id": "4145852b-b2b9-4925-9167-fc2a4e068d2e"
         },
         "b1a757ea-aecc-46ce-b2ba-e1334c053a25": {
           "label": "Adjacent Themes",
-          "x": 64128,
-          "y": 10519,
+          "x": 64084,
+          "y": 15744,
           "id": "b1a757ea-aecc-46ce-b2ba-e1334c053a25"
         },
         "b6c8f693-7a0a-4e9c-ac0a-bbe75d174dca": {
           "label": "Questions",
-          "x": 63878,
-          "y": 10644,
+          "x": 63834,
+          "y": 15869,
           "id": "b6c8f693-7a0a-4e9c-ac0a-bbe75d174dca"
         },
         "36f288af-7b96-4f69-9e17-60df4180e078": {
           "label": "Problems",
-          "x": 63878,
-          "y": 10744,
+          "x": 63834,
+          "y": 15969,
           "id": "36f288af-7b96-4f69-9e17-60df4180e078"
         },
         "0cce9655-d1bf-42a0-810e-5997ed9b3902": {
           "label": "Goals",
-          "x": 63878,
-          "y": 10844,
+          "x": 63834,
+          "y": 16069,
           "id": "0cce9655-d1bf-42a0-810e-5997ed9b3902"
         },
         "23ab6901-3e62-4ae8-a1e5-66d5e8951a80": {
           "label": "Systems analysis",
-          "x": 64311,
-          "y": 14956,
+          "x": 64267,
+          "y": 20181,
           "font": {
             "size": 72,
             "align": "left"
@@ -9014,14 +9014,14 @@ var schemeData =
         },
         "90301b17-1b20-4277-92b9-dc4fc60966b3": {
           "label": "Development",
-          "x": 64733,
-          "y": 15394,
+          "x": 64689,
+          "y": 20619,
           "id": "90301b17-1b20-4277-92b9-dc4fc60966b3"
         },
         "c98e85aa-f56d-4009-a41f-b852085bd0e4": {
           "label": "11/5/2019",
-          "x": 64982,
-          "y": 15393,
+          "x": 64938,
+          "y": 20618,
           "id": "c98e85aa-f56d-4009-a41f-b852085bd0e4",
           "shape": "box",
           "link": "",
@@ -9037,140 +9037,140 @@ var schemeData =
         },
         "38f58b28-f81f-4d68-88f5-cc4545248ec0": {
           "label": "init",
-          "x": 64883,
-          "y": 15394,
+          "x": 64839,
+          "y": 20619,
           "id": "38f58b28-f81f-4d68-88f5-cc4545248ec0"
         },
         "e37b17ce-5f41-4361-99be-8daaab6d5b90": {
           "label": "Notes",
-          "x": 64733,
-          "y": 14424,
+          "x": 64689,
+          "y": 19649,
           "id": "e37b17ce-5f41-4361-99be-8daaab6d5b90"
         },
         "563fc1d6-2c8b-4823-b101-4d728f764693": {
           "label": "Dictionary of\nconcepts",
-          "x": 64883,
-          "y": 14174,
+          "x": 64839,
+          "y": 19399,
           "id": "563fc1d6-2c8b-4823-b101-4d728f764693"
         },
         "76c28b5c-126e-41d7-a9db-7fc7b4d75dff": {
           "label": "Details, thoughts",
-          "x": 64883,
-          "y": 14424,
+          "x": 64839,
+          "y": 19649,
           "id": "76c28b5c-126e-41d7-a9db-7fc7b4d75dff"
         },
         "cfde533f-c758-4d4d-b62d-2ffbc5aff4c6": {
           "label": "Sections",
-          "x": 64883,
-          "y": 14794,
+          "x": 64839,
+          "y": 20019,
           "id": "cfde533f-c758-4d4d-b62d-2ffbc5aff4c6"
         },
         "59ee1a70-7f39-4f20-9e70-650e6aa171a8": {
           "label": "Books",
-          "x": 64947,
-          "y": 14524,
+          "x": 64903,
+          "y": 19749,
           "id": "59ee1a70-7f39-4f20-9e70-650e6aa171a8"
         },
         "c7726258-5cb2-4eb2-85fe-7f32fb4c6c99": {
           "label": "R&D institutions",
-          "x": 64978,
-          "y": 14549,
+          "x": 64934,
+          "y": 19774,
           "id": "c7726258-5cb2-4eb2-85fe-7f32fb4c6c99"
         },
         "bd728d97-0f6b-4fba-accc-9914b122ae90": {
           "label": "Sites",
-          "x": 64943,
-          "y": 14574,
+          "x": 64899,
+          "y": 19799,
           "id": "bd728d97-0f6b-4fba-accc-9914b122ae90"
         },
         "943e024b-bda3-457c-ad57-c214cbb87d92": {
           "label": "Magazines",
-          "x": 64962,
-          "y": 14599,
+          "x": 64918,
+          "y": 19824,
           "id": "943e024b-bda3-457c-ad57-c214cbb87d92"
         },
         "99efbf4e-6dd3-4533-854a-3b1d8fa02eba": {
           "label": "Articles",
-          "x": 64951,
-          "y": 14624,
+          "x": 64907,
+          "y": 19849,
           "id": "99efbf4e-6dd3-4533-854a-3b1d8fa02eba"
         },
         "11322a56-8c0c-4187-b42c-3efbfd44a187": {
           "label": "Media content",
-          "x": 64973,
-          "y": 14649,
+          "x": 64929,
+          "y": 19874,
           "id": "11322a56-8c0c-4187-b42c-3efbfd44a187"
         },
         "bc1ce877-7d05-4871-bdfc-c46eb56957d5": {
           "label": "Misc. web links",
-          "x": 64975,
-          "y": 14729,
+          "x": 64931,
+          "y": 19954,
           "id": "bc1ce877-7d05-4871-bdfc-c46eb56957d5"
         },
         "cfdcd148-1aca-4ad3-9f85-8aebfc27d0a7": {
           "label": "Projects",
-          "x": 64953,
-          "y": 14819,
+          "x": 64909,
+          "y": 20044,
           "id": "cfdcd148-1aca-4ad3-9f85-8aebfc27d0a7"
         },
         "eec3c952-51e0-45a4-8f6d-0e0b05ad8f99": {
           "label": "Tools",
-          "x": 64944,
-          "y": 14844,
+          "x": 64900,
+          "y": 20069,
           "id": "eec3c952-51e0-45a4-8f6d-0e0b05ad8f99"
         },
         "6215f461-0ad3-4077-be1a-836eadcf9b70": {
           "label": "Organizations",
-          "x": 64972,
-          "y": 14869,
+          "x": 64928,
+          "y": 20094,
           "id": "6215f461-0ad3-4077-be1a-836eadcf9b70"
         },
         "141e4b4c-f30a-4d63-ba51-dd8e228dc3d2": {
           "label": "Standarts",
-          "x": 64958,
-          "y": 14894,
+          "x": 64914,
+          "y": 20119,
           "id": "141e4b4c-f30a-4d63-ba51-dd8e228dc3d2"
         },
         "c4903c6e-535a-43ba-9a84-bc6455a1328f": {
           "label": "Forums, Groups",
-          "x": 64980,
-          "y": 14919,
+          "x": 64936,
+          "y": 20144,
           "id": "c4903c6e-535a-43ba-9a84-bc6455a1328f"
         },
         "90d85947-4c1a-45fb-abfc-8ecdb7c68098": {
           "label": "Laws",
-          "x": 64944,
-          "y": 14944,
+          "x": 64900,
+          "y": 20169,
           "id": "90d85947-4c1a-45fb-abfc-8ecdb7c68098"
         },
         "bf9e489f-8c53-473a-9c15-f0c97193fd29": {
           "label": "Adjacent Themes",
-          "x": 64983,
-          "y": 14969,
+          "x": 64939,
+          "y": 20194,
           "id": "bf9e489f-8c53-473a-9c15-f0c97193fd29"
         },
         "6bffe2ff-069f-4f52-9ad3-40fde9952877": {
           "label": "Questions",
-          "x": 64733,
-          "y": 15094,
+          "x": 64689,
+          "y": 20319,
           "id": "6bffe2ff-069f-4f52-9ad3-40fde9952877"
         },
         "498d52b5-5007-45d2-8987-9e7332175cfe": {
           "label": "Problems",
-          "x": 64733,
-          "y": 15194,
+          "x": 64689,
+          "y": 20419,
           "id": "498d52b5-5007-45d2-8987-9e7332175cfe"
         },
         "87ac07ab-8760-4840-aafc-65644beec8ca": {
           "label": "Goals",
-          "x": 64733,
-          "y": 15294,
+          "x": 64689,
+          "y": 20519,
           "id": "87ac07ab-8760-4840-aafc-65644beec8ca"
         },
         "ef6ecee9-9fbb-4c21-885a-a67049ab9358": {
           "label": "Schemes, graphs layout",
-          "x": 64373,
-          "y": 18323,
+          "x": 64329,
+          "y": 23548,
           "font": {
             "size": 72,
             "align": "left"
@@ -9186,14 +9186,14 @@ var schemeData =
         },
         "79d1d961-e5ed-458f-8937-886fac4fe79a": {
           "label": "Development",
-          "x": 64974,
-          "y": 18785,
+          "x": 64930,
+          "y": 24010,
           "id": "79d1d961-e5ed-458f-8937-886fac4fe79a"
         },
         "c7113ae3-9914-44da-b004-f0afda869072": {
           "label": "11/5/2019",
-          "x": 65224,
-          "y": 18785,
+          "x": 65180,
+          "y": 24010,
           "id": "c7113ae3-9914-44da-b004-f0afda869072",
           "shape": "box",
           "link": "",
@@ -9209,140 +9209,140 @@ var schemeData =
         },
         "0c764f8c-203b-402b-9f96-1047b55664dc": {
           "label": "init",
-          "x": 65124,
-          "y": 18785,
+          "x": 65080,
+          "y": 24010,
           "id": "0c764f8c-203b-402b-9f96-1047b55664dc"
         },
         "eff206e2-e69a-447e-ad19-8d5c178c3098": {
           "label": "Notes",
-          "x": 64977,
-          "y": 17674,
+          "x": 64933,
+          "y": 22899,
           "id": "eff206e2-e69a-447e-ad19-8d5c178c3098"
         },
         "69a312c7-0c0e-4341-b711-c94ef08bfc9a": {
           "label": "Dictionary of\nconcepts",
-          "x": 65127,
-          "y": 17424,
+          "x": 65083,
+          "y": 22649,
           "id": "69a312c7-0c0e-4341-b711-c94ef08bfc9a"
         },
         "0c60d477-fc43-4628-8ab4-d94c2970026b": {
           "label": "Details, thoughts",
-          "x": 65127,
-          "y": 17674,
+          "x": 65083,
+          "y": 22899,
           "id": "0c60d477-fc43-4628-8ab4-d94c2970026b"
         },
         "d737b223-4c5c-447d-89e9-d0b30791e146": {
           "label": "Sections",
-          "x": 65124,
-          "y": 18185,
+          "x": 65080,
+          "y": 23410,
           "id": "d737b223-4c5c-447d-89e9-d0b30791e146"
         },
         "0e4f9170-7e37-489f-b3ba-f09af2eeed03": {
           "label": "Books",
-          "x": 65188,
-          "y": 17774,
+          "x": 65144,
+          "y": 22999,
           "id": "0e4f9170-7e37-489f-b3ba-f09af2eeed03"
         },
         "033349ea-33cf-4327-8333-05782d56f711": {
           "label": "R&D institutions",
-          "x": 65219,
-          "y": 17799,
+          "x": 65175,
+          "y": 23024,
           "id": "033349ea-33cf-4327-8333-05782d56f711"
         },
         "bc74b022-bd3a-4ca1-9651-ff2ed6097576": {
           "label": "Sites",
-          "x": 65184,
-          "y": 17824,
+          "x": 65140,
+          "y": 23049,
           "id": "bc74b022-bd3a-4ca1-9651-ff2ed6097576"
         },
         "025cf3be-74ef-4620-8f8c-af0c4caf2646": {
           "label": "Magazines",
-          "x": 65203,
-          "y": 17849,
+          "x": 65159,
+          "y": 23074,
           "id": "025cf3be-74ef-4620-8f8c-af0c4caf2646"
         },
         "5abd4c6d-1052-40c4-a497-a55a2229e717": {
           "label": "Articles",
-          "x": 65192,
-          "y": 17874,
+          "x": 65148,
+          "y": 23099,
           "id": "5abd4c6d-1052-40c4-a497-a55a2229e717"
         },
         "43e671e7-b7f5-4713-9b20-d4454a259ceb": {
           "label": "Media content",
-          "x": 65214,
-          "y": 17899,
+          "x": 65170,
+          "y": 23124,
           "id": "43e671e7-b7f5-4713-9b20-d4454a259ceb"
         },
         "d82727cc-8fac-483a-ab1f-94671e48f58c": {
           "label": "Misc. web links",
-          "x": 65216,
-          "y": 18061,
+          "x": 65172,
+          "y": 23286,
           "id": "d82727cc-8fac-483a-ab1f-94671e48f58c"
         },
         "ae111801-7450-4e72-b568-000c9396c2cb": {
           "label": "Projects",
-          "x": 65194,
-          "y": 18210,
+          "x": 65150,
+          "y": 23435,
           "id": "ae111801-7450-4e72-b568-000c9396c2cb"
         },
         "1cd1eb21-00f7-4ead-8c2d-4bceac512aff": {
           "label": "Tools",
-          "x": 65185,
-          "y": 18235,
+          "x": 65141,
+          "y": 23460,
           "id": "1cd1eb21-00f7-4ead-8c2d-4bceac512aff"
         },
         "608a6fa9-c142-4d48-b932-dd362042b651": {
           "label": "Organizations",
-          "x": 65213,
-          "y": 18260,
+          "x": 65169,
+          "y": 23485,
           "id": "608a6fa9-c142-4d48-b932-dd362042b651"
         },
         "46e181bb-91a2-4212-9cc0-6de2493a1afd": {
           "label": "Standarts",
-          "x": 65199,
-          "y": 18285,
+          "x": 65155,
+          "y": 23510,
           "id": "46e181bb-91a2-4212-9cc0-6de2493a1afd"
         },
         "da17452d-f8dd-46de-ba8e-917b8fc5c28f": {
           "label": "Forums, Groups",
-          "x": 65221,
-          "y": 18310,
+          "x": 65177,
+          "y": 23535,
           "id": "da17452d-f8dd-46de-ba8e-917b8fc5c28f"
         },
         "2ee762aa-5b18-4d6a-b3a7-481f61072908": {
           "label": "Laws",
-          "x": 65185,
-          "y": 18335,
+          "x": 65141,
+          "y": 23560,
           "id": "2ee762aa-5b18-4d6a-b3a7-481f61072908"
         },
         "d8ca27b1-44ac-427e-ab8b-ecfab279202a": {
           "label": "Adjacent Themes",
-          "x": 65224,
-          "y": 18360,
+          "x": 65180,
+          "y": 23585,
           "id": "d8ca27b1-44ac-427e-ab8b-ecfab279202a"
         },
         "9cc0eef2-32a8-4ae4-96a7-75873e363391": {
           "label": "Questions",
-          "x": 64974,
-          "y": 18485,
+          "x": 64930,
+          "y": 23710,
           "id": "9cc0eef2-32a8-4ae4-96a7-75873e363391"
         },
         "86a07abb-eaf6-464b-939c-ffecec9b5638": {
           "label": "Problems",
-          "x": 64974,
-          "y": 18585,
+          "x": 64930,
+          "y": 23810,
           "id": "86a07abb-eaf6-464b-939c-ffecec9b5638"
         },
         "fb7ce239-de8b-4b8f-92c4-2e5d56fb8046": {
           "label": "Goals",
-          "x": 64974,
-          "y": 18685,
+          "x": 64930,
+          "y": 23910,
           "id": "fb7ce239-de8b-4b8f-92c4-2e5d56fb8046"
         },
         "ac623b0c-e5d6-453d-9ce3-2ea47349f187": {
           "label": "Institutions and societies studying\ngraphs layout",
-          "x": 65057,
-          "y": 22862,
+          "x": 65013,
+          "y": 28087,
           "font": {
             "size": 72,
             "align": "center"
@@ -9358,14 +9358,14 @@ var schemeData =
         },
         "6a9041c4-b40a-4514-b5f9-26f0c39c3e33": {
           "label": "Development",
-          "x": 65778,
-          "y": 23340,
+          "x": 65734,
+          "y": 28565,
           "id": "6a9041c4-b40a-4514-b5f9-26f0c39c3e33"
         },
         "b7fef692-c39e-4341-b2b7-eaa1a100d516": {
           "label": "11/5/2019",
-          "x": 66028,
-          "y": 23340,
+          "x": 65984,
+          "y": 28565,
           "id": "b7fef692-c39e-4341-b2b7-eaa1a100d516",
           "shape": "box",
           "link": "",
@@ -9381,140 +9381,140 @@ var schemeData =
         },
         "daa0f8fd-47a7-406a-8c24-73b7de638416": {
           "label": "init",
-          "x": 65928,
-          "y": 23340,
+          "x": 65884,
+          "y": 28565,
           "id": "daa0f8fd-47a7-406a-8c24-73b7de638416"
         },
         "e5ed8e71-3d91-47c9-8f46-58638a1f8e75": {
           "label": "Notes",
-          "x": 65778,
-          "y": 22490,
+          "x": 65734,
+          "y": 27715,
           "id": "e5ed8e71-3d91-47c9-8f46-58638a1f8e75"
         },
         "23aa9a06-0f53-435a-92b4-466c24ebb255": {
           "label": "Dictionary of\nconcepts",
-          "x": 65928,
-          "y": 22240,
+          "x": 65884,
+          "y": 27465,
           "id": "23aa9a06-0f53-435a-92b4-466c24ebb255"
         },
         "6be78f98-d982-4669-a61d-8debd3d65c77": {
           "label": "Details, thoughts",
-          "x": 65928,
-          "y": 22490,
+          "x": 65884,
+          "y": 27715,
           "id": "6be78f98-d982-4669-a61d-8debd3d65c77"
         },
         "b584c289-d38c-414f-9fb1-fc288b2e2be2": {
           "label": "Sections",
-          "x": 65928,
-          "y": 22740,
+          "x": 65884,
+          "y": 27965,
           "id": "b584c289-d38c-414f-9fb1-fc288b2e2be2"
         },
         "af039c1e-909f-4403-b0a2-9aaf7ef1702d": {
           "label": "Books",
-          "x": 65992,
-          "y": 22590,
+          "x": 65948,
+          "y": 27815,
           "id": "af039c1e-909f-4403-b0a2-9aaf7ef1702d"
         },
         "438c2c92-3d22-4179-9f77-ce6d726cc080": {
           "label": "R&D institutions",
-          "x": 66023,
-          "y": 22615,
+          "x": 65979,
+          "y": 27840,
           "id": "438c2c92-3d22-4179-9f77-ce6d726cc080"
         },
         "e91961bd-ad1f-4668-bd23-d3eee742ecee": {
           "label": "Sites",
-          "x": 65988,
-          "y": 22640,
+          "x": 65944,
+          "y": 27865,
           "id": "e91961bd-ad1f-4668-bd23-d3eee742ecee"
         },
         "48a87655-2d1c-4783-a38e-896376885dd5": {
           "label": "Magazines",
-          "x": 66007,
-          "y": 22665,
+          "x": 65963,
+          "y": 27890,
           "id": "48a87655-2d1c-4783-a38e-896376885dd5"
         },
         "edb8b3cf-468d-49e3-80a8-87751ddba3a0": {
           "label": "Articles",
-          "x": 65996,
-          "y": 22690,
+          "x": 65952,
+          "y": 27915,
           "id": "edb8b3cf-468d-49e3-80a8-87751ddba3a0"
         },
         "37eab074-94f8-44c5-b1ec-1642f4b1493d": {
           "label": "Media content",
-          "x": 66018,
-          "y": 22715,
+          "x": 65974,
+          "y": 27940,
           "id": "37eab074-94f8-44c5-b1ec-1642f4b1493d"
         },
         "9bb0d24d-4670-4868-a599-6dc43d73b8d3": {
           "label": "Misc. web links",
-          "x": 66020,
-          "y": 22740,
+          "x": 65976,
+          "y": 27965,
           "id": "9bb0d24d-4670-4868-a599-6dc43d73b8d3"
         },
         "fb13d8a5-a9c7-4670-99a1-a34f1defa6d5": {
           "label": "Projects",
-          "x": 65998,
-          "y": 22765,
+          "x": 65954,
+          "y": 27990,
           "id": "fb13d8a5-a9c7-4670-99a1-a34f1defa6d5"
         },
         "4b06bbfc-af79-4463-84d0-4f9f23f77e60": {
           "label": "Tools",
-          "x": 65989,
-          "y": 22790,
+          "x": 65945,
+          "y": 28015,
           "id": "4b06bbfc-af79-4463-84d0-4f9f23f77e60"
         },
         "69958d2f-b281-46fd-b722-4c62909bdc67": {
           "label": "Organizations",
-          "x": 66017,
-          "y": 22815,
+          "x": 65973,
+          "y": 28040,
           "id": "69958d2f-b281-46fd-b722-4c62909bdc67"
         },
         "c251f832-2bbe-41a0-9d5a-528b66cbd7f2": {
           "label": "Standarts",
-          "x": 66003,
-          "y": 22840,
+          "x": 65959,
+          "y": 28065,
           "id": "c251f832-2bbe-41a0-9d5a-528b66cbd7f2"
         },
         "c727bd4b-7c3f-4392-9cc6-212be046afff": {
           "label": "Forums, Groups",
-          "x": 66025,
-          "y": 22865,
+          "x": 65981,
+          "y": 28090,
           "id": "c727bd4b-7c3f-4392-9cc6-212be046afff"
         },
         "67b161fd-7fe9-42ac-8589-990e43cc5929": {
           "label": "Laws",
-          "x": 65989,
-          "y": 22890,
+          "x": 65945,
+          "y": 28115,
           "id": "67b161fd-7fe9-42ac-8589-990e43cc5929"
         },
         "1a1b3778-a2ad-468f-b8d6-626b7164b6e2": {
           "label": "Adjacent Themes",
-          "x": 66028,
-          "y": 22915,
+          "x": 65984,
+          "y": 28140,
           "id": "1a1b3778-a2ad-468f-b8d6-626b7164b6e2"
         },
         "6b2bded7-7258-45c8-9199-792461476c11": {
           "label": "Questions",
-          "x": 65778,
-          "y": 23040,
+          "x": 65734,
+          "y": 28265,
           "id": "6b2bded7-7258-45c8-9199-792461476c11"
         },
         "a2b3d487-4906-4792-894d-ebfbb9343dc6": {
           "label": "Problems",
-          "x": 65778,
-          "y": 23140,
+          "x": 65734,
+          "y": 28365,
           "id": "a2b3d487-4906-4792-894d-ebfbb9343dc6"
         },
         "0ec5bd8e-9263-4a26-a216-b6138d3108ca": {
           "label": "Goals",
-          "x": 65778,
-          "y": 23240,
+          "x": 65734,
+          "y": 28465,
           "id": "0ec5bd8e-9263-4a26-a216-b6138d3108ca"
         },
         "60e1682f-3415-40ca-84fe-9ef3f4d1db00": {
           "label": "Визуализация в исторической\nинформатике",
-          "x": 64736,
-          "y": 29081,
+          "x": 64692,
+          "y": 34306,
           "font": {
             "size": 72,
             "align": "center"
@@ -9530,14 +9530,14 @@ var schemeData =
         },
         "ae79bdc2-2d5d-4e5f-83d4-e7cec873f3fc": {
           "label": "Development",
-          "x": 65459,
-          "y": 29644,
+          "x": 65415,
+          "y": 34869,
           "id": "ae79bdc2-2d5d-4e5f-83d4-e7cec873f3fc"
         },
         "e5048d81-9a04-467d-be3e-538b71c66c67": {
           "label": "#ffc63b",
-          "x": 65709,
-          "y": 29644,
+          "x": 65665,
+          "y": 34869,
           "id": "e5048d81-9a04-467d-be3e-538b71c66c67",
           "shape": "box",
           "link": "",
@@ -9553,140 +9553,140 @@ var schemeData =
         },
         "33914e34-d8e3-4958-bc89-9cd246ad13ed": {
           "label": "init",
-          "x": 65609,
-          "y": 29644,
+          "x": 65565,
+          "y": 34869,
           "id": "33914e34-d8e3-4958-bc89-9cd246ad13ed"
         },
         "f1b48af2-f9d1-4cdf-a0ff-d309d2112eb1": {
           "label": "Notes",
-          "x": 65459,
-          "y": 28633,
+          "x": 65415,
+          "y": 33858,
           "id": "f1b48af2-f9d1-4cdf-a0ff-d309d2112eb1"
         },
         "fdaacdbe-887c-4529-a82e-dba8df82c68e": {
           "label": "Dictionary of\nconcepts",
-          "x": 65609,
-          "y": 28383,
+          "x": 65565,
+          "y": 33608,
           "id": "fdaacdbe-887c-4529-a82e-dba8df82c68e"
         },
         "5273651b-4054-465b-8090-600b49383822": {
           "label": "Details, thoughts",
-          "x": 65609,
-          "y": 28633,
+          "x": 65565,
+          "y": 33858,
           "id": "5273651b-4054-465b-8090-600b49383822"
         },
         "67bc79b3-84ba-402b-9552-f1ad743d9ea6": {
           "label": "Sections",
-          "x": 65599,
-          "y": 28979,
+          "x": 65555,
+          "y": 34204,
           "id": "67bc79b3-84ba-402b-9552-f1ad743d9ea6"
         },
         "165d80f3-9569-4f93-86ec-410fe61f9a45": {
           "label": "Books",
-          "x": 65673,
-          "y": 28733,
+          "x": 65629,
+          "y": 33958,
           "id": "165d80f3-9569-4f93-86ec-410fe61f9a45"
         },
         "7869969f-5339-46e0-9328-1302ef9258fe": {
           "label": "R&D institutions",
-          "x": 65704,
-          "y": 28758,
+          "x": 65660,
+          "y": 33983,
           "id": "7869969f-5339-46e0-9328-1302ef9258fe"
         },
         "d56b3def-ce8e-4b25-bc08-ce0afbc81fc5": {
           "label": "Sites",
-          "x": 65669,
-          "y": 28783,
+          "x": 65625,
+          "y": 34008,
           "id": "d56b3def-ce8e-4b25-bc08-ce0afbc81fc5"
         },
         "5265902f-333f-4678-9f98-73f62a4e9565": {
           "label": "Magazines",
-          "x": 65688,
-          "y": 28871,
+          "x": 65644,
+          "y": 34096,
           "id": "5265902f-333f-4678-9f98-73f62a4e9565"
         },
         "6f53aa0e-0216-4420-894a-57bd82e6b3e5": {
           "label": "Articles",
-          "x": 65677,
-          "y": 28954,
+          "x": 65633,
+          "y": 34179,
           "id": "6f53aa0e-0216-4420-894a-57bd82e6b3e5"
         },
         "93edd5a0-e0a8-4cee-88af-615fb34fc829": {
           "label": "Media content",
-          "x": 65699,
-          "y": 28979,
+          "x": 65655,
+          "y": 34204,
           "id": "93edd5a0-e0a8-4cee-88af-615fb34fc829"
         },
         "8afdd297-0c41-4c88-899a-b414721e0c0d": {
           "label": "Misc. web links",
-          "x": 65701,
-          "y": 29034,
+          "x": 65657,
+          "y": 34259,
           "id": "8afdd297-0c41-4c88-899a-b414721e0c0d"
         },
         "ff68e85f-b7fd-41fb-8a8f-dfc6f4741367": {
           "label": "Projects",
-          "x": 65679,
-          "y": 29069,
+          "x": 65635,
+          "y": 34294,
           "id": "ff68e85f-b7fd-41fb-8a8f-dfc6f4741367"
         },
         "f0b52541-4514-46f4-b0f8-db89703a7fac": {
           "label": "Tools",
-          "x": 65670,
-          "y": 29094,
+          "x": 65626,
+          "y": 34319,
           "id": "f0b52541-4514-46f4-b0f8-db89703a7fac"
         },
         "17814e72-b700-4d42-a941-56fe0c21b884": {
           "label": "Organizations",
-          "x": 65698,
-          "y": 29119,
+          "x": 65654,
+          "y": 34344,
           "id": "17814e72-b700-4d42-a941-56fe0c21b884"
         },
         "4e3afd28-6f19-48ae-91ac-9cd081958ffd": {
           "label": "Standarts",
-          "x": 65684,
-          "y": 29144,
+          "x": 65640,
+          "y": 34369,
           "id": "4e3afd28-6f19-48ae-91ac-9cd081958ffd"
         },
         "ea38bafd-4d1a-4955-9df0-f9ca6faaaaad": {
           "label": "Forums, Groups",
-          "x": 65706,
-          "y": 29169,
+          "x": 65662,
+          "y": 34394,
           "id": "ea38bafd-4d1a-4955-9df0-f9ca6faaaaad"
         },
         "0b16d1b6-ea5f-4336-b019-eec3e17826b2": {
           "label": "Laws",
-          "x": 65670,
-          "y": 29194,
+          "x": 65626,
+          "y": 34419,
           "id": "0b16d1b6-ea5f-4336-b019-eec3e17826b2"
         },
         "5682bf6d-e31b-407c-ac19-5bc94d4b909d": {
           "label": "Adjacent Themes",
-          "x": 65709,
-          "y": 29219,
+          "x": 65665,
+          "y": 34444,
           "id": "5682bf6d-e31b-407c-ac19-5bc94d4b909d"
         },
         "43f55043-4d99-4703-aee2-cd420c6993f8": {
           "label": "Questions",
-          "x": 65459,
-          "y": 29344,
+          "x": 65415,
+          "y": 34569,
           "id": "43f55043-4d99-4703-aee2-cd420c6993f8"
         },
         "2b59dc95-02d4-40dc-a381-d172968ff231": {
           "label": "Problems",
-          "x": 65459,
-          "y": 29444,
+          "x": 65415,
+          "y": 34669,
           "id": "2b59dc95-02d4-40dc-a381-d172968ff231"
         },
         "af593f1b-6515-47ba-81c0-077da58db284": {
           "label": "Goals",
-          "x": 65459,
-          "y": 29544,
+          "x": 65415,
+          "y": 34769,
           "id": "af593f1b-6515-47ba-81c0-077da58db284"
         },
         "8e25715c-9a40-46af-8cc4-6cc71f24b9d1": {
           "label": "Books layout",
-          "x": 87874,
-          "y": -448,
+          "x": 76818,
+          "y": 15225,
           "font": {
             "size": 72,
             "align": "left"
@@ -9702,14 +9702,14 @@ var schemeData =
         },
         "b418fbba-f912-426c-bff5-01c91e7857c9": {
           "label": "Development",
-          "x": 88463,
-          "y": -10,
+          "x": 77407,
+          "y": 15663,
           "id": "b418fbba-f912-426c-bff5-01c91e7857c9"
         },
         "eb4e33e0-b19f-41d3-9a55-8f91d51bbda9": {
           "label": "11/5/2019",
-          "x": 88713,
-          "y": -10,
+          "x": 77657,
+          "y": 15663,
           "id": "eb4e33e0-b19f-41d3-9a55-8f91d51bbda9",
           "shape": "box",
           "link": "",
@@ -9725,139 +9725,139 @@ var schemeData =
         },
         "4ad22ca2-01cc-4426-912a-6300c5f836e0": {
           "label": "init",
-          "x": 88613,
-          "y": -10,
+          "x": 77557,
+          "y": 15663,
           "id": "4ad22ca2-01cc-4426-912a-6300c5f836e0"
         },
         "f9ccb77f-aeb2-4cac-a525-3e76c500c44a": {
           "label": "Notes",
-          "x": 88463,
-          "y": -860,
+          "x": 77407,
+          "y": 14813,
           "id": "f9ccb77f-aeb2-4cac-a525-3e76c500c44a"
         },
         "b4161e18-b4a1-4c59-ad17-fbf3a8dc3e3e": {
           "label": "Dictionary of\nconcepts",
-          "x": 88627,
-          "y": -2615,
+          "x": 77571,
+          "y": 13058,
           "id": "b4161e18-b4a1-4c59-ad17-fbf3a8dc3e3e"
         },
         "a494a0a5-a54f-47c2-bc3d-f114fe9144a6": {
           "label": "Details, thoughts",
-          "x": 88613,
-          "y": -860,
+          "x": 77557,
+          "y": 14813,
           "id": "a494a0a5-a54f-47c2-bc3d-f114fe9144a6"
         },
         "0015b175-d885-4aba-9954-54de15f5a86e": {
           "label": "Sections",
-          "x": 88613,
-          "y": -610,
+          "x": 77557,
+          "y": 15063,
           "id": "0015b175-d885-4aba-9954-54de15f5a86e"
         },
         "472d4273-7ea6-4850-b22f-59e9dfe64e7d": {
           "label": "Books",
-          "x": 88677,
-          "y": -760,
+          "x": 77621,
+          "y": 14913,
           "id": "472d4273-7ea6-4850-b22f-59e9dfe64e7d"
         },
         "5580f5b6-c703-4c6f-818b-17972f37cdf5": {
           "label": "R&D institutions",
-          "x": 88708,
-          "y": -735,
+          "x": 77652,
+          "y": 14938,
           "id": "5580f5b6-c703-4c6f-818b-17972f37cdf5"
         },
         "99ce08bd-ae84-4fed-a967-d77ed0ae9563": {
           "label": "Sites",
-          "x": 88673,
-          "y": -710,
+          "x": 77617,
+          "y": 14963,
           "id": "99ce08bd-ae84-4fed-a967-d77ed0ae9563"
         },
         "76e1a66b-4c5f-4d5a-b361-0375489d0edd": {
           "label": "Magazines",
-          "x": 88692,
-          "y": -685,
+          "x": 77636,
+          "y": 14988,
           "id": "76e1a66b-4c5f-4d5a-b361-0375489d0edd"
         },
         "80be47e7-918f-4b52-bb9b-a7acf57db684": {
           "label": "Articles",
-          "x": 88681,
-          "y": -660,
+          "x": 77625,
+          "y": 15013,
           "id": "80be47e7-918f-4b52-bb9b-a7acf57db684"
         },
         "ab9458cf-3f6e-4bad-8921-2d1c805b8838": {
           "label": "Media content",
-          "x": 88703,
-          "y": -635,
+          "x": 77647,
+          "y": 15038,
           "id": "ab9458cf-3f6e-4bad-8921-2d1c805b8838"
         },
         "252740b9-aa0b-4807-b2af-28e315f91b57": {
           "label": "Misc. web links",
-          "x": 88705,
-          "y": -610,
+          "x": 77649,
+          "y": 15063,
           "id": "252740b9-aa0b-4807-b2af-28e315f91b57"
         },
         "af53c26b-f190-4454-a066-f9e2a66c89e4": {
           "label": "Projects",
-          "x": 88683,
-          "y": -585,
+          "x": 77627,
+          "y": 15088,
           "id": "af53c26b-f190-4454-a066-f9e2a66c89e4"
         },
         "0d69a324-d900-40a9-bfb5-c58161ff6271": {
           "label": "Tools",
-          "x": 88674,
-          "y": -560,
+          "x": 77618,
+          "y": 15113,
           "id": "0d69a324-d900-40a9-bfb5-c58161ff6271"
         },
         "061027ea-1677-4779-beda-295d19eb8004": {
           "label": "Organizations",
-          "x": 88702,
-          "y": -535,
+          "x": 77646,
+          "y": 15138,
           "id": "061027ea-1677-4779-beda-295d19eb8004"
         },
         "434fd00a-d698-4499-a713-ead323506288": {
           "label": "Standarts",
-          "x": 88688,
-          "y": -510,
+          "x": 77632,
+          "y": 15163,
           "id": "434fd00a-d698-4499-a713-ead323506288"
         },
         "0c298d2e-170f-4175-9726-23696104e9b0": {
           "label": "Forums, Groups",
-          "x": 88710,
-          "y": -485,
+          "x": 77654,
+          "y": 15188,
           "id": "0c298d2e-170f-4175-9726-23696104e9b0"
         },
         "91ecc85c-7452-48d7-bd82-4ee9e2632acf": {
           "label": "Laws",
-          "x": 88674,
-          "y": -460,
+          "x": 77618,
+          "y": 15213,
           "id": "91ecc85c-7452-48d7-bd82-4ee9e2632acf"
         },
         "38c94462-f1d1-42fd-b9ee-e416b739175a": {
           "label": "Adjacent Themes",
-          "x": 88713,
-          "y": -435,
+          "x": 77657,
+          "y": 15238,
           "id": "38c94462-f1d1-42fd-b9ee-e416b739175a"
         },
         "dc118dcf-99d4-44b2-b4e4-6bc043744748": {
           "label": "Questions",
-          "x": 88463,
-          "y": -310,
+          "x": 77407,
+          "y": 15363,
           "id": "dc118dcf-99d4-44b2-b4e4-6bc043744748"
         },
         "fb19e393-8e06-4fad-ab2c-f1af9af46a0f": {
           "label": "Problems",
-          "x": 88463,
-          "y": -210,
+          "x": 77407,
+          "y": 15463,
           "id": "fb19e393-8e06-4fad-ab2c-f1af9af46a0f"
         },
         "bb16c593-f144-46b5-8b17-e94d3ee27bde": {
           "label": "Goals",
-          "x": 88463,
-          "y": -110,
+          "x": 77407,
+          "y": 15563,
           "id": "bb16c593-f144-46b5-8b17-e94d3ee27bde"
         },
         "2b96e4ca-3a2c-4048-8d13-dada4bc1a046": {
           "label": "Concept mapping\napplications",
-          "x": 76267,
+          "x": 77234,
           "y": -2836,
           "font": {
             "size": 72,
@@ -9874,13 +9874,13 @@ var schemeData =
         },
         "144ea955-3ede-4ef9-97f8-31210008d3c3": {
           "label": "Development",
-          "x": 76759,
+          "x": 77726,
           "y": -2412,
           "id": "144ea955-3ede-4ef9-97f8-31210008d3c3"
         },
         "51ac3bf5-e235-4338-a559-ddd6f65fc3dc": {
           "label": "11/5/2019",
-          "x": 77009,
+          "x": 77976,
           "y": -2412,
           "id": "51ac3bf5-e235-4338-a559-ddd6f65fc3dc",
           "shape": "box",
@@ -9897,139 +9897,139 @@ var schemeData =
         },
         "b753bde0-19ff-4af1-8efa-acbc73d95432": {
           "label": "init",
-          "x": 76909,
+          "x": 77876,
           "y": -2412,
           "id": "b753bde0-19ff-4af1-8efa-acbc73d95432"
         },
         "87e8b8cb-6f63-4a31-aa69-4086121fde8a": {
           "label": "Notes",
-          "x": 76759,
+          "x": 77726,
           "y": -3262,
           "id": "87e8b8cb-6f63-4a31-aa69-4086121fde8a"
         },
         "ce13ceef-e25c-48fb-8b59-964f782300b7": {
           "label": "Dictionary of\nconcepts",
-          "x": 76909,
+          "x": 77876,
           "y": -3512,
           "id": "ce13ceef-e25c-48fb-8b59-964f782300b7"
         },
         "6510dccd-8064-442a-8600-8c26569e7ee8": {
           "label": "Details, thoughts",
-          "x": 76909,
+          "x": 77876,
           "y": -3262,
           "id": "6510dccd-8064-442a-8600-8c26569e7ee8"
         },
         "cd2c4001-3310-4232-ab58-50585825b6ac": {
           "label": "Sections",
-          "x": 76909,
+          "x": 77876,
           "y": -3012,
           "id": "cd2c4001-3310-4232-ab58-50585825b6ac"
         },
         "010252ec-6bda-4588-ab2e-d94abcc15ddb": {
           "label": "Books",
-          "x": 76973,
+          "x": 77940,
           "y": -3162,
           "id": "010252ec-6bda-4588-ab2e-d94abcc15ddb"
         },
         "4b347dfc-9573-4afc-84d8-5a132cb3fa13": {
           "label": "R&D institutions",
-          "x": 77004,
+          "x": 77971,
           "y": -3137,
           "id": "4b347dfc-9573-4afc-84d8-5a132cb3fa13"
         },
         "12943d2d-aff0-47ba-af2c-cad950a211ea": {
           "label": "Sites",
-          "x": 76969,
+          "x": 77936,
           "y": -3112,
           "id": "12943d2d-aff0-47ba-af2c-cad950a211ea"
         },
         "90f45c07-59e1-4265-aae6-cfa2c4c7f208": {
           "label": "Magazines",
-          "x": 76988,
+          "x": 77955,
           "y": -3087,
           "id": "90f45c07-59e1-4265-aae6-cfa2c4c7f208"
         },
         "60d0ddd2-bba8-4fcf-9393-dd8a007d659a": {
           "label": "Articles",
-          "x": 76977,
+          "x": 77944,
           "y": -3062,
           "id": "60d0ddd2-bba8-4fcf-9393-dd8a007d659a"
         },
         "e1b33ac0-8071-458a-b816-47edd5cde30b": {
           "label": "Media content",
-          "x": 76999,
+          "x": 77966,
           "y": -3037,
           "id": "e1b33ac0-8071-458a-b816-47edd5cde30b"
         },
         "d9a46153-6b7f-46e1-aca3-454b0221bf27": {
           "label": "Misc. web links",
-          "x": 77001,
+          "x": 77968,
           "y": -3012,
           "id": "d9a46153-6b7f-46e1-aca3-454b0221bf27"
         },
         "5b3bcea9-ec8a-4a56-8f18-6cd22a0f0edd": {
           "label": "Projects",
-          "x": 76979,
+          "x": 77946,
           "y": -2987,
           "id": "5b3bcea9-ec8a-4a56-8f18-6cd22a0f0edd"
         },
         "9e7a3dda-5b19-4320-a585-9da89a0aecdd": {
           "label": "Tools",
-          "x": 76970,
+          "x": 77937,
           "y": -2962,
           "id": "9e7a3dda-5b19-4320-a585-9da89a0aecdd"
         },
         "0d5b3b39-1e00-4700-8102-bfa3a236f440": {
           "label": "Organizations",
-          "x": 76998,
+          "x": 77965,
           "y": -2937,
           "id": "0d5b3b39-1e00-4700-8102-bfa3a236f440"
         },
         "f73acb1f-3e69-493a-b055-29af015cfd8f": {
           "label": "Standarts",
-          "x": 76984,
+          "x": 77951,
           "y": -2912,
           "id": "f73acb1f-3e69-493a-b055-29af015cfd8f"
         },
         "45c6e8a0-b57a-4971-8157-9116f94361b7": {
           "label": "Forums, Groups",
-          "x": 77006,
+          "x": 77973,
           "y": -2887,
           "id": "45c6e8a0-b57a-4971-8157-9116f94361b7"
         },
         "b827ca96-210b-4b93-acf5-30df377d0c97": {
           "label": "Laws",
-          "x": 76970,
+          "x": 77937,
           "y": -2862,
           "id": "b827ca96-210b-4b93-acf5-30df377d0c97"
         },
         "d4a8d8dc-ebf2-4b0b-ab86-b78869969d22": {
           "label": "Adjacent Themes",
-          "x": 77009,
+          "x": 77976,
           "y": -2837,
           "id": "d4a8d8dc-ebf2-4b0b-ab86-b78869969d22"
         },
         "b57f3057-4d2f-45a7-9aba-1f1cfd007775": {
           "label": "Questions",
-          "x": 76759,
+          "x": 77726,
           "y": -2712,
           "id": "b57f3057-4d2f-45a7-9aba-1f1cfd007775"
         },
         "7acfd1fd-2cc5-4b45-8bf3-6881268d074a": {
           "label": "Problems",
-          "x": 76759,
+          "x": 77726,
           "y": -2612,
           "id": "7acfd1fd-2cc5-4b45-8bf3-6881268d074a"
         },
         "78111d5e-c9a5-43cf-a246-1142bca76528": {
           "label": "Goals",
-          "x": 76759,
+          "x": 77726,
           "y": -2512,
           "id": "78111d5e-c9a5-43cf-a246-1142bca76528"
         },
         "b9e8305b-b899-4596-9aab-731e5dff476c": {
           "id": "b9e8305b-b899-4596-9aab-731e5dff476c",
-          "x": 77195,
+          "x": 78162,
           "y": -3517,
           "label": "Programs list (Wikipedia)"
         },
@@ -10112,2211 +10112,2211 @@ var schemeData =
         "d4e3f8fa-634d-402e-b27e-c4b7dd0b93dd": {
           "label": "Human–computer interaction",
           "link": "https://en.wikipedia.org/wiki/Human–computer interaction",
-          "x": 77772,
-          "y": 2866,
+          "x": 78739,
+          "y": 775,
           "id": "d4e3f8fa-634d-402e-b27e-c4b7dd0b93dd"
         },
         "7bc1f5fe-22fd-486c-9f87-32df72d8f9f5": {
           "label": "Portal:Human–computer interaction",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction",
-          "x": 77792,
-          "y": 2891,
+          "x": 78759,
+          "y": 800,
           "id": "7bc1f5fe-22fd-486c-9f87-32df72d8f9f5"
         },
         "580630d4-4a74-4624-8191-c904509f3baa": {
           "label": "Outline of human–computer interaction",
           "link": "https://en.wikipedia.org/wiki/Outline of human–computer interaction",
-          "x": 77803,
-          "y": 2916,
+          "x": 78770,
+          "y": 825,
           "id": "580630d4-4a74-4624-8191-c904509f3baa"
         },
         "97c94d30-7cad-4101-8d16-f6cc1d89431b": {
           "label": "3D interaction",
           "link": "https://en.wikipedia.org/wiki/3D interaction",
-          "x": 77724,
-          "y": 2941,
+          "x": 78691,
+          "y": 850,
           "id": "97c94d30-7cad-4101-8d16-f6cc1d89431b"
         },
         "95d902f8-5f3e-409b-add4-fb95ee6ae1ee": {
           "label": "3Dconnexion",
           "link": "https://en.wikipedia.org/wiki/3Dconnexion",
-          "x": 77721,
-          "y": 2966,
+          "x": 78688,
+          "y": 875,
           "id": "95d902f8-5f3e-409b-add4-fb95ee6ae1ee"
         },
         "ad928b6c-fbe0-4bf4-8da8-15e94f3d5833": {
           "label": "3D user interaction",
           "link": "https://en.wikipedia.org/wiki/3D user interaction",
-          "x": 77740,
-          "y": 2991,
+          "x": 78707,
+          "y": 900,
           "id": "ad928b6c-fbe0-4bf4-8da8-15e94f3d5833"
         },
         "cc68b4e8-627f-4747-b4f7-de98832f8bb8": {
           "label": "10-foot user interface",
           "link": "https://en.wikipedia.org/wiki/10-foot user interface",
-          "x": 77748,
-          "y": 3016,
+          "x": 78715,
+          "y": 925,
           "id": "cc68b4e8-627f-4747-b4f7-de98832f8bb8"
         },
         "2f72b138-b545-448a-a450-b295321e6e49": {
           "label": "ACM Symposium on User Interface Software and Technology",
           "link": "https://en.wikipedia.org/wiki/ACM Symposium on User Interface Software and Technology",
-          "x": 77874,
-          "y": 3041,
+          "x": 78841,
+          "y": 950,
           "id": "2f72b138-b545-448a-a450-b295321e6e49"
         },
         "67e0625c-5077-45e0-a9cf-13fc8e6b671e": {
           "label": "ACM/IEEE Virtual Reality International Conference",
           "link": "https://en.wikipedia.org/wiki/ACM/IEEE Virtual Reality International Conference",
-          "x": 77839,
-          "y": 3066,
+          "x": 78806,
+          "y": 975,
           "id": "67e0625c-5077-45e0-a9cf-13fc8e6b671e"
         },
         "ca8747f6-53f3-4244-9cdd-616ab9284cf7": {
           "label": "Adaptation (computer science)",
           "link": "https://en.wikipedia.org/wiki/Adaptation (computer science)",
-          "x": 77777,
-          "y": 3091,
+          "x": 78744,
+          "y": 1000,
           "id": "ca8747f6-53f3-4244-9cdd-616ab9284cf7"
         },
         "2d317f5e-e36e-4f72-840e-270021b4fe93": {
           "label": "Addiction by Design",
           "link": "https://en.wikipedia.org/wiki/Addiction by Design",
-          "x": 77742,
-          "y": 3116,
+          "x": 78709,
+          "y": 1025,
           "id": "2d317f5e-e36e-4f72-840e-270021b4fe93"
         },
         "8458ccea-670c-4167-bf82-075f4e3d3633": {
           "label": "Aesthetic–usability effect",
           "link": "https://en.wikipedia.org/wiki/Aesthetic–usability effect",
-          "x": 77758,
-          "y": 3141,
+          "x": 78725,
+          "y": 1050,
           "id": "8458ccea-670c-4167-bf82-075f4e3d3633"
         },
         "0901d391-3379-46a5-94ba-c78aa179b9bd": {
           "label": "Algorithms of Oppression",
           "link": "https://en.wikipedia.org/wiki/Algorithms of Oppression",
-          "x": 77760,
-          "y": 3166,
+          "x": 78727,
+          "y": 1075,
           "id": "0901d391-3379-46a5-94ba-c78aa179b9bd"
         },
         "d88d907c-5a17-4f32-9941-20d7dea49e1d": {
           "label": "As We May Think",
           "link": "https://en.wikipedia.org/wiki/As We May Think",
-          "x": 77735,
-          "y": 3191,
+          "x": 78702,
+          "y": 1100,
           "id": "d88d907c-5a17-4f32-9941-20d7dea49e1d"
         },
         "e4d7f791-7f4f-4b2a-bbfc-9b266972cf0a": {
           "label": "Augmented cognition",
           "link": "https://en.wikipedia.org/wiki/Augmented cognition",
-          "x": 77747,
-          "y": 3216,
+          "x": 78714,
+          "y": 1125,
           "id": "e4d7f791-7f4f-4b2a-bbfc-9b266972cf0a"
         },
         "a6a78f67-f5a9-43e5-bbbe-71fee2e6d2fe": {
           "label": "Automatic identification and data capture",
           "link": "https://en.wikipedia.org/wiki/Automatic identification and data capture",
-          "x": 77809,
-          "y": 3241,
+          "x": 78776,
+          "y": 1150,
           "id": "a6a78f67-f5a9-43e5-bbbe-71fee2e6d2fe"
         },
         "04bf8925-f34d-47b2-a45e-63cfe23992cb": {
           "label": "Bad Day (viral video)",
           "link": "https://en.wikipedia.org/wiki/Bad Day (viral video)",
-          "x": 77746,
-          "y": 3266,
+          "x": 78713,
+          "y": 1175,
           "id": "04bf8925-f34d-47b2-a45e-63cfe23992cb"
         },
         "56429cb5-1067-4376-9c80-7ad3ec801b82": {
           "label": "Barrier pointing",
           "link": "https://en.wikipedia.org/wiki/Barrier pointing",
-          "x": 77728,
-          "y": 3291,
+          "x": 78695,
+          "y": 1200,
           "id": "56429cb5-1067-4376-9c80-7ad3ec801b82"
         },
         "678d23c5-ca0a-410e-8be5-e2c0cbb5e5b4": {
           "label": "Ben Bederson",
           "link": "https://en.wikipedia.org/wiki/Ben Bederson",
-          "x": 77725,
-          "y": 3316,
+          "x": 78692,
+          "y": 1225,
           "id": "678d23c5-ca0a-410e-8be5-e2c0cbb5e5b4"
         },
         "ed8aec09-a211-4e94-a1ef-417867490bb2": {
           "label": "BioWall",
           "link": "https://en.wikipedia.org/wiki/BioWall",
-          "x": 77703,
-          "y": 3341,
+          "x": 78670,
+          "y": 1250,
           "id": "ed8aec09-a211-4e94-a1ef-417867490bb2"
         },
         "206b4377-d3c7-4a02-b472-5b1e4d098243": {
           "label": "Blended space",
           "link": "https://en.wikipedia.org/wiki/Blended space",
-          "x": 77727,
-          "y": 3366,
+          "x": 78694,
+          "y": 1275,
           "id": "206b4377-d3c7-4a02-b472-5b1e4d098243"
         },
         "e1b94a98-0976-427e-8184-af8dd52e04a3": {
           "label": "Bodystorming",
           "link": "https://en.wikipedia.org/wiki/Bodystorming",
-          "x": 77723,
-          "y": 3391,
+          "x": 78690,
+          "y": 1300,
           "id": "e1b94a98-0976-427e-8184-af8dd52e04a3"
         },
         "d93dd9ec-53b1-4ec4-8647-733a1df9f9c0": {
           "label": "Brain painting",
           "link": "https://en.wikipedia.org/wiki/Brain painting",
-          "x": 77723,
-          "y": 3416,
+          "x": 78690,
+          "y": 1325,
           "id": "d93dd9ec-53b1-4ec4-8647-733a1df9f9c0"
         },
         "50ab1a0e-d3a2-4f1b-8f67-d0a376e18b23": {
           "label": "Brain–computer interface",
           "link": "https://en.wikipedia.org/wiki/Brain–computer interface",
-          "x": 77760,
-          "y": 3441,
+          "x": 78727,
+          "y": 1350,
           "id": "50ab1a0e-d3a2-4f1b-8f67-d0a376e18b23"
         },
         "77c3a20a-3882-462b-826f-bc7795c72344": {
           "label": "Brushing and linking",
           "link": "https://en.wikipedia.org/wiki/Brushing and linking",
-          "x": 77744,
-          "y": 3466,
+          "x": 78711,
+          "y": 1375,
           "id": "77c3a20a-3882-462b-826f-bc7795c72344"
         },
         "e191dd5f-fbc0-4378-b268-d2bc9d651740": {
           "label": "Card sorting",
           "link": "https://en.wikipedia.org/wiki/Card sorting",
-          "x": 77719,
-          "y": 3491,
+          "x": 78686,
+          "y": 1400,
           "id": "e191dd5f-fbc0-4378-b268-d2bc9d651740"
         },
         "e0b13950-9881-4ed6-a46a-aaed121badf4": {
           "label": "Center for Humane Technology",
           "link": "https://en.wikipedia.org/wiki/Center for Humane Technology",
-          "x": 77779,
-          "y": 3516,
+          "x": 78746,
+          "y": 1425,
           "id": "e0b13950-9881-4ed6-a46a-aaed121badf4"
         },
         "ae17e471-7acb-41c2-a44e-6c18cfdb0418": {
           "label": "CMN-GOMS",
           "link": "https://en.wikipedia.org/wiki/CMN-GOMS",
-          "x": 77720,
-          "y": 3541,
+          "x": 78687,
+          "y": 1450,
           "id": "ae17e471-7acb-41c2-a44e-6c18cfdb0418"
         },
         "b3644af4-d6e5-4c5b-aaa8-30021061b23e": {
           "label": "Marcelo Coelho",
           "link": "https://en.wikipedia.org/wiki/Marcelo Coelho",
-          "x": 77730,
-          "y": 3566,
+          "x": 78697,
+          "y": 1475,
           "id": "b3644af4-d6e5-4c5b-aaa8-30021061b23e"
         },
         "0b9975a5-2582-44c7-9f71-f8cec54521b0": {
           "label": "Cognitive complexity",
           "link": "https://en.wikipedia.org/wiki/Cognitive complexity",
-          "x": 77745,
-          "y": 3591,
+          "x": 78712,
+          "y": 1500,
           "id": "0b9975a5-2582-44c7-9f71-f8cec54521b0"
         },
         "d60bd413-32e3-42dd-a39b-d3667411bfde": {
           "label": "Cognitive dimensions of notations",
           "link": "https://en.wikipedia.org/wiki/Cognitive dimensions of notations",
-          "x": 77786,
-          "y": 3616,
+          "x": 78753,
+          "y": 1525,
           "id": "d60bd413-32e3-42dd-a39b-d3667411bfde"
         },
         "7ce860af-7c28-4c13-9697-6036e2d24220": {
           "label": "Cognitive engineering",
           "link": "https://en.wikipedia.org/wiki/Cognitive engineering",
-          "x": 77749,
-          "y": 3641,
+          "x": 78716,
+          "y": 1550,
           "id": "7ce860af-7c28-4c13-9697-6036e2d24220"
         },
         "2d32e759-cf44-4ed2-ad2d-27ca43adca18": {
           "label": "Cognitive ergonomics",
           "link": "https://en.wikipedia.org/wiki/Cognitive ergonomics",
-          "x": 77748,
-          "y": 3666,
+          "x": 78715,
+          "y": 1575,
           "id": "2d32e759-cf44-4ed2-ad2d-27ca43adca18"
         },
         "8bba17a3-7f4b-41bf-82a5-c99166266623": {
           "label": "Cognitive infocommunications",
           "link": "https://en.wikipedia.org/wiki/Cognitive infocommunications",
-          "x": 77774,
-          "y": 3691,
+          "x": 78741,
+          "y": 1600,
           "id": "8bba17a3-7f4b-41bf-82a5-c99166266623"
         },
         "647b74c0-1ce2-4e54-8a03-f47a737327a6": {
           "label": "Collaborative information seeking",
           "link": "https://en.wikipedia.org/wiki/Collaborative information seeking",
-          "x": 77785,
-          "y": 3716,
+          "x": 78752,
+          "y": 1625,
           "id": "647b74c0-1ce2-4e54-8a03-f47a737327a6"
         },
         "7f277ee7-2461-4eb9-8c33-4042470e9cb2": {
           "label": "Comand APS",
           "link": "https://en.wikipedia.org/wiki/Comand APS",
-          "x": 77722,
-          "y": 3741,
+          "x": 78689,
+          "y": 1650,
           "id": "7f277ee7-2461-4eb9-8c33-4042470e9cb2"
         },
         "1a3d66a2-0a9a-4ea6-a8a4-5c47ea68716d": {
           "label": "Comparison of usability evaluation methods",
           "link": "https://en.wikipedia.org/wiki/Comparison of usability evaluation methods",
-          "x": 77818,
-          "y": 3766,
+          "x": 78785,
+          "y": 1675,
           "id": "1a3d66a2-0a9a-4ea6-a8a4-5c47ea68716d"
         },
         "aeb4b854-98a0-4296-9710-5265faeeb01f": {
           "label": "Computer Graphics International",
           "link": "https://en.wikipedia.org/wiki/Computer Graphics International",
-          "x": 77783,
-          "y": 3791,
+          "x": 78750,
+          "y": 1700,
           "id": "aeb4b854-98a0-4296-9710-5265faeeb01f"
         },
         "44549002-b78b-4c09-bd92-aba5deca2834": {
           "label": "Computer processing of body language",
           "link": "https://en.wikipedia.org/wiki/Computer processing of body language",
-          "x": 77805,
-          "y": 3816,
+          "x": 78772,
+          "y": 1725,
           "id": "44549002-b78b-4c09-bd92-aba5deca2834"
         },
         "4b18f402-37b6-4219-9357-e0110ee445b2": {
           "label": "Computer-supported cooperative work",
           "link": "https://en.wikipedia.org/wiki/Computer-supported cooperative work",
-          "x": 77802,
-          "y": 3841,
+          "x": 78769,
+          "y": 1750,
           "id": "4b18f402-37b6-4219-9357-e0110ee445b2"
         },
         "56621f1f-c3c8-4044-9e7a-ecff65f5adb7": {
           "label": "Computer user satisfaction",
           "link": "https://en.wikipedia.org/wiki/Computer user satisfaction",
-          "x": 77765,
-          "y": 3866,
+          "x": 78732,
+          "y": 1775,
           "id": "56621f1f-c3c8-4044-9e7a-ecff65f5adb7"
         },
         "b91845e7-5b58-4231-8584-76f31ea916e4": {
           "label": "Computer-induced medical problems",
           "link": "https://en.wikipedia.org/wiki/Computer-induced medical problems",
-          "x": 77797,
-          "y": 3891,
+          "x": 78764,
+          "y": 1800,
           "id": "b91845e7-5b58-4231-8584-76f31ea916e4"
         },
         "c8f7dc59-2491-4df1-b232-8a83c87d3674": {
           "label": "Confederate effect",
           "link": "https://en.wikipedia.org/wiki/Confederate effect",
-          "x": 77739,
-          "y": 3916,
+          "x": 78706,
+          "y": 1825,
           "id": "c8f7dc59-2491-4df1-b232-8a83c87d3674"
         },
         "ec4a1316-e792-45e3-98e4-89bea24b1c4e": {
           "label": "Conference on Human Factors in Computing Systems",
           "link": "https://en.wikipedia.org/wiki/Conference on Human Factors in Computing Systems",
-          "x": 77851,
-          "y": 3941,
+          "x": 78818,
+          "y": 1850,
           "id": "ec4a1316-e792-45e3-98e4-89bea24b1c4e"
         },
         "711a8715-5f52-4797-b889-4052ade034ba": {
           "label": "Consumability",
           "link": "https://en.wikipedia.org/wiki/Consumability",
-          "x": 77724,
-          "y": 3966,
+          "x": 78691,
+          "y": 1875,
           "id": "711a8715-5f52-4797-b889-4052ade034ba"
         },
         "d56e8837-de0c-4759-a70f-800c62504a51": {
           "label": "Context-sensitive user interface",
           "link": "https://en.wikipedia.org/wiki/Context-sensitive user interface",
-          "x": 77780,
-          "y": 3991,
+          "x": 78747,
+          "y": 1900,
           "id": "d56e8837-de0c-4759-a70f-800c62504a51"
         },
         "46e31315-bd73-483a-bc9e-e3afc1734cfc": {
           "label": "Contextual design",
           "link": "https://en.wikipedia.org/wiki/Contextual design",
-          "x": 77737,
-          "y": 4016,
+          "x": 78704,
+          "y": 1925,
           "id": "46e31315-bd73-483a-bc9e-e3afc1734cfc"
         },
         "5e12fd5f-330a-469b-a4fc-a1d58ee628dc": {
           "label": "Contextual inquiry",
           "link": "https://en.wikipedia.org/wiki/Contextual inquiry",
-          "x": 77737,
-          "y": 4041,
+          "x": 78704,
+          "y": 1950,
           "id": "5e12fd5f-330a-469b-a4fc-a1d58ee628dc"
         },
         "f2cfb9f4-33f0-4958-807c-4c94ce35f15a": {
           "label": "Conversational user interfaces",
           "link": "https://en.wikipedia.org/wiki/Conversational user interfaces",
-          "x": 77776,
-          "y": 4066,
+          "x": 78743,
+          "y": 1975,
           "id": "f2cfb9f4-33f0-4958-807c-4c94ce35f15a"
         },
         "2d4b8500-ed54-433a-835e-95bf9e1440af": {
           "label": "Mike Cooley (engineer)",
           "link": "https://en.wikipedia.org/wiki/Mike Cooley (engineer)",
-          "x": 77754,
-          "y": 4091,
+          "x": 78721,
+          "y": 2000,
           "id": "2d4b8500-ed54-433a-835e-95bf9e1440af"
         },
         "f792c0fb-215b-48e0-aa68-7c22e677b94d": {
           "label": "Cortical modem",
           "link": "https://en.wikipedia.org/wiki/Cortical modem",
-          "x": 77730,
-          "y": 4116,
+          "x": 78697,
+          "y": 2025,
           "id": "f792c0fb-215b-48e0-aa68-7c22e677b94d"
         },
         "eddebc7b-8151-4641-850d-90466a3ea77b": {
           "label": "CPM-GOMS",
           "link": "https://en.wikipedia.org/wiki/CPM-GOMS",
-          "x": 77719,
-          "y": 4141,
+          "x": 78686,
+          "y": 2050,
           "id": "eddebc7b-8151-4641-850d-90466a3ea77b"
         },
         "2c0fabe5-8997-49da-ae75-523a7c537a16": {
           "label": "CSS framework",
           "link": "https://en.wikipedia.org/wiki/CSS framework",
-          "x": 77729,
-          "y": 4166,
+          "x": 78696,
+          "y": 2075,
           "id": "2c0fabe5-8997-49da-ae75-523a7c537a16"
         },
         "0d98f03f-3b66-4ce4-bf80-7cad45236f04": {
           "label": "Dhairya Dand",
           "link": "https://en.wikipedia.org/wiki/Dhairya Dand",
-          "x": 77723,
-          "y": 4191,
+          "x": 78690,
+          "y": 2100,
           "id": "0d98f03f-3b66-4ce4-bf80-7cad45236f04"
         },
         "a3f89184-9f0e-4450-ab43-60660babe1f1": {
           "label": "Darcy DiNucci",
           "link": "https://en.wikipedia.org/wiki/Darcy DiNucci",
-          "x": 77724,
-          "y": 4216,
+          "x": 78691,
+          "y": 2125,
           "id": "a3f89184-9f0e-4450-ab43-60660babe1f1"
         },
         "c2cfca5a-cfe2-4bb9-ac93-860e991bf37a": {
           "label": "Delimiterless input",
           "link": "https://en.wikipedia.org/wiki/Delimiterless input",
-          "x": 77738,
-          "y": 4241,
+          "x": 78705,
+          "y": 2150,
           "id": "c2cfca5a-cfe2-4bb9-ac93-860e991bf37a"
         },
         "ce137955-94be-4427-894b-065c2b08e8b9": {
           "label": "DeviceKit",
           "link": "https://en.wikipedia.org/wiki/DeviceKit",
-          "x": 77709,
-          "y": 4266,
+          "x": 78676,
+          "y": 2175,
           "id": "ce137955-94be-4427-894b-065c2b08e8b9"
         },
         "318f978c-ff19-40c0-88ac-1e7e8b0b23e4": {
           "label": "Dextroscope",
           "link": "https://en.wikipedia.org/wiki/Dextroscope",
-          "x": 77720,
-          "y": 4291,
+          "x": 78687,
+          "y": 2200,
           "id": "318f978c-ff19-40c0-88ac-1e7e8b0b23e4"
         },
         "8d37a879-9321-44ef-a129-f19cd3613b86": {
           "label": "Dialog manager",
           "link": "https://en.wikipedia.org/wiki/Dialog manager",
-          "x": 77730,
-          "y": 4316,
+          "x": 78697,
+          "y": 2225,
           "id": "8d37a879-9321-44ef-a129-f19cd3613b86"
         },
         "13635f38-87de-4616-b5d0-4b7b8df22f0e": {
           "label": "Diary studies",
           "link": "https://en.wikipedia.org/wiki/Diary studies",
-          "x": 77721,
-          "y": 4341,
+          "x": 78688,
+          "y": 2250,
           "id": "13635f38-87de-4616-b5d0-4b7b8df22f0e"
         },
         "57be516e-7cd2-4ea0-aa56-d8a323f43de6": {
           "label": "Digital Writing and Research Lab",
           "link": "https://en.wikipedia.org/wiki/Digital Writing and Research Lab",
-          "x": 77784,
-          "y": 4366,
+          "x": 78751,
+          "y": 2275,
           "id": "57be516e-7cd2-4ea0-aa56-d8a323f43de6"
         },
         "e8b63082-4ac8-447e-81cd-45c9678b24df": {
           "label": "Don't Make Me Think",
           "link": "https://en.wikipedia.org/wiki/Don't Make Me Think",
-          "x": 77747,
-          "y": 4391,
+          "x": 78714,
+          "y": 2300,
           "id": "e8b63082-4ac8-447e-81cd-45c9678b24df"
         },
         "d600e92b-8e3b-46cd-90a7-29d38fb7d95a": {
           "label": "Dynamic Graphics Project",
           "link": "https://en.wikipedia.org/wiki/Dynamic Graphics Project",
-          "x": 77762,
-          "y": 4416,
+          "x": 78729,
+          "y": 2325,
           "id": "d600e92b-8e3b-46cd-90a7-29d38fb7d95a"
         },
         "aceee48f-2001-4933-b014-a1523b4a9655": {
           "label": "Ecological interface design",
           "link": "https://en.wikipedia.org/wiki/Ecological interface design",
-          "x": 77764,
-          "y": 4441,
+          "x": 78731,
+          "y": 2350,
           "id": "aceee48f-2001-4933-b014-a1523b4a9655"
         },
         "c5b50c71-49c5-4298-a6a2-a35fb3c2638f": {
           "label": "Electronic action",
           "link": "https://en.wikipedia.org/wiki/Electronic action",
-          "x": 77732,
-          "y": 4466,
+          "x": 78699,
+          "y": 2375,
           "id": "c5b50c71-49c5-4298-a6a2-a35fb3c2638f"
         },
         "358c4104-22af-487e-909a-b70a058bcc55": {
           "label": "ELIZA effect",
           "link": "https://en.wikipedia.org/wiki/ELIZA effect",
-          "x": 77719,
-          "y": 4491,
+          "x": 78686,
+          "y": 2400,
           "id": "358c4104-22af-487e-909a-b70a058bcc55"
         },
         "86e2ab71-670b-488c-8ab8-d1874835de03": {
           "label": "ELMER guidelines",
           "link": "https://en.wikipedia.org/wiki/ELMER guidelines",
-          "x": 77738,
-          "y": 4516,
+          "x": 78705,
+          "y": 2425,
           "id": "86e2ab71-670b-488c-8ab8-d1874835de03"
         },
         "ba5056ae-4932-43d6-adef-089192660145": {
           "label": "Emotion-sensitive software",
           "link": "https://en.wikipedia.org/wiki/Emotion-sensitive software",
-          "x": 77765,
-          "y": 4541,
+          "x": 78732,
+          "y": 2450,
           "id": "ba5056ae-4932-43d6-adef-089192660145"
         },
         "5b495fb9-331d-463d-9d01-6b29c5a01092": {
           "label": "Empathy in online communities",
           "link": "https://en.wikipedia.org/wiki/Empathy in online communities",
-          "x": 77778,
-          "y": 4566,
+          "x": 78745,
+          "y": 2475,
           "id": "5b495fb9-331d-463d-9d01-6b29c5a01092"
         },
         "44f5d343-1d36-498e-b01a-00f0fcff0198": {
           "label": "End-user computing",
           "link": "https://en.wikipedia.org/wiki/End-user computing",
-          "x": 77744,
-          "y": 4591,
+          "x": 78711,
+          "y": 2500,
           "id": "44f5d343-1d36-498e-b01a-00f0fcff0198"
         },
         "cc786bd8-dfec-4501-a77b-20e17e30862e": {
           "label": "End-user development",
           "link": "https://en.wikipedia.org/wiki/End-user development",
-          "x": 77752,
-          "y": 4616,
+          "x": 78719,
+          "y": 2525,
           "id": "cc786bd8-dfec-4501-a77b-20e17e30862e"
         },
         "37ab6a61-d5d1-4b0d-9c19-cb2751943620": {
           "label": "Error message",
           "link": "https://en.wikipedia.org/wiki/Error message",
-          "x": 77727,
-          "y": 4641,
+          "x": 78694,
+          "y": 2550,
           "id": "37ab6a61-d5d1-4b0d-9c19-cb2751943620"
         },
         "b4c95d8b-eabb-4740-9191-8603da5beb63": {
           "label": "Eugene Goostman",
           "link": "https://en.wikipedia.org/wiki/Eugene Goostman",
-          "x": 77739,
-          "y": 4666,
+          "x": 78706,
+          "y": 2575,
           "id": "b4c95d8b-eabb-4740-9191-8603da5beb63"
         },
         "26812bcb-d653-4a5c-a8a1-39151efdc556": {
           "label": "Example-centric programming",
           "link": "https://en.wikipedia.org/wiki/Example-centric programming",
-          "x": 77775,
-          "y": 4691,
+          "x": 78742,
+          "y": 2600,
           "id": "26812bcb-d653-4a5c-a8a1-39151efdc556"
         },
         "582d9baa-b1e9-441a-b869-21d0b2e4ebe1": {
           "label": "Exploratory search",
           "link": "https://en.wikipedia.org/wiki/Exploratory search",
-          "x": 77739,
-          "y": 4716,
+          "x": 78706,
+          "y": 2625,
           "id": "582d9baa-b1e9-441a-b869-21d0b2e4ebe1"
         },
         "3ba6da1f-5a4f-47e2-9018-c3e3f079d1c3": {
           "label": "Feature integration theory",
           "link": "https://en.wikipedia.org/wiki/Feature integration theory",
-          "x": 77762,
-          "y": 4741,
+          "x": 78729,
+          "y": 2650,
           "id": "3ba6da1f-5a4f-47e2-9018-c3e3f079d1c3"
         },
         "657ce394-4f7f-4e58-ba18-113f78f31c30": {
           "label": "Feminist HCI",
           "link": "https://en.wikipedia.org/wiki/Feminist HCI",
-          "x": 77721,
-          "y": 4766,
+          "x": 78688,
+          "y": 2675,
           "id": "657ce394-4f7f-4e58-ba18-113f78f31c30"
         },
         "4f1b923c-376f-43eb-b39d-99d677944d24": {
           "label": "First-time user experience",
           "link": "https://en.wikipedia.org/wiki/First-time user experience",
-          "x": 77763,
-          "y": 4791,
+          "x": 78730,
+          "y": 2700,
           "id": "4f1b923c-376f-43eb-b39d-99d677944d24"
         },
         "31a972bf-19f0-4dee-8277-9766a82d936b": {
           "label": "Paul Fitts",
           "link": "https://en.wikipedia.org/wiki/Paul Fitts",
-          "x": 77709,
-          "y": 4816,
+          "x": 78676,
+          "y": 2725,
           "id": "31a972bf-19f0-4dee-8277-9766a82d936b"
         },
         "7d2cdcaf-2dde-45d2-b4f5-99f24d3dcbd3": {
           "label": "Fitts's law",
           "link": "https://en.wikipedia.org/wiki/Fitts's law",
-          "x": 77711,
-          "y": 4841,
+          "x": 78678,
+          "y": 2750,
           "id": "7d2cdcaf-2dde-45d2-b4f5-99f24d3dcbd3"
         },
         "21ef5bfa-a9db-4848-9977-693f86f3a433": {
           "label": "Flexibility–usability tradeoff",
           "link": "https://en.wikipedia.org/wiki/Flexibility–usability tradeoff",
-          "x": 77765,
-          "y": 4866,
+          "x": 78732,
+          "y": 2775,
           "id": "21ef5bfa-a9db-4848-9977-693f86f3a433"
         },
         "46af41b9-614e-454c-b0bc-0f36ee41e11c": {
           "label": "Focus group",
           "link": "https://en.wikipedia.org/wiki/Focus group",
-          "x": 77720,
-          "y": 4891,
+          "x": 78687,
+          "y": 2800,
           "id": "46af41b9-614e-454c-b0bc-0f36ee41e11c"
         },
         "8d15378a-a6c9-4f11-ba03-d2cc7ccd384b": {
           "label": "Ford Sync",
           "link": "https://en.wikipedia.org/wiki/Ford Sync",
-          "x": 77712,
-          "y": 4916,
+          "x": 78679,
+          "y": 2825,
           "id": "8d15378a-a6c9-4f11-ba03-d2cc7ccd384b"
         },
         "f0e4ba4a-f943-480c-a005-e501f56ba477": {
           "label": "Gender HCI",
           "link": "https://en.wikipedia.org/wiki/Gender HCI",
-          "x": 77718,
-          "y": 4941,
+          "x": 78685,
+          "y": 2850,
           "id": "f0e4ba4a-f943-480c-a005-e501f56ba477"
         },
         "7d01f101-beb6-44e3-84a3-89b8329db822": {
           "label": "Georgia Institute of Technology School of Interactive Computing",
           "link": "https://en.wikipedia.org/wiki/Georgia Institute of Technology School of Interactive Computing",
-          "x": 77882,
-          "y": 4966,
+          "x": 78849,
+          "y": 2875,
           "id": "7d01f101-beb6-44e3-84a3-89b8329db822"
         },
         "9230fcc6-869f-4e7f-86f5-eae15d99a4d9": {
           "label": "GOMS",
           "link": "https://en.wikipedia.org/wiki/GOMS",
-          "x": 77701,
-          "y": 4991,
+          "x": 78668,
+          "y": 2900,
           "id": "9230fcc6-869f-4e7f-86f5-eae15d99a4d9"
         },
         "12335eb6-cfdd-450f-aba6-3a6ae6dba25b": {
           "label": "Googlearchy",
           "link": "https://en.wikipedia.org/wiki/Googlearchy",
-          "x": 77720,
-          "y": 5016,
+          "x": 78687,
+          "y": 2925,
           "id": "12335eb6-cfdd-450f-aba6-3a6ae6dba25b"
         },
         "5691b2a3-c99c-44f0-a9d9-592559dba728": {
           "label": "Graphics Interface",
           "link": "https://en.wikipedia.org/wiki/Graphics Interface",
-          "x": 77738,
-          "y": 5041,
+          "x": 78705,
+          "y": 2950,
           "id": "5691b2a3-c99c-44f0-a9d9-592559dba728"
         },
         "28a075ed-caf0-4550-b90d-5ef7a87f961e": {
           "label": "GroupLens Research",
           "link": "https://en.wikipedia.org/wiki/GroupLens Research",
-          "x": 77748,
-          "y": 5066,
+          "x": 78715,
+          "y": 2975,
           "id": "28a075ed-caf0-4550-b90d-5ef7a87f961e"
         },
         "c3e78427-1a0d-40d3-bb68-a0b8ef9e3498": {
           "label": "Gulf of evaluation",
           "link": "https://en.wikipedia.org/wiki/Gulf of evaluation",
-          "x": 77735,
-          "y": 5091,
+          "x": 78702,
+          "y": 3000,
           "id": "c3e78427-1a0d-40d3-bb68-a0b8ef9e3498"
         },
         "fbee2107-cec2-4475-97b4-524fe271fbb7": {
           "label": "Gulf of execution",
           "link": "https://en.wikipedia.org/wiki/Gulf of execution",
-          "x": 77733,
-          "y": 5116,
+          "x": 78700,
+          "y": 3025,
           "id": "fbee2107-cec2-4475-97b4-524fe271fbb7"
         },
         "6775770a-89d1-4ae5-8261-4cb45d627cb7": {
           "label": "HAL (software)",
           "link": "https://en.wikipedia.org/wiki/HAL (software)",
-          "x": 77727,
-          "y": 5141,
+          "x": 78694,
+          "y": 3050,
           "id": "6775770a-89d1-4ae5-8261-4cb45d627cb7"
         },
         "5db541b2-5255-4174-a7e4-4b65c9ec17e5": {
           "label": "Hands-on computing",
           "link": "https://en.wikipedia.org/wiki/Hands-on computing",
-          "x": 77746,
-          "y": 5166,
+          "x": 78713,
+          "y": 3075,
           "id": "5db541b2-5255-4174-a7e4-4b65c9ec17e5"
         },
         "f5b3340b-9ff3-470e-99b0-a50437b3fed0": {
           "label": "Hick's law",
           "link": "https://en.wikipedia.org/wiki/Hick's law",
-          "x": 77711,
-          "y": 5191,
+          "x": 78678,
+          "y": 3100,
           "id": "f5b3340b-9ff3-470e-99b0-a50437b3fed0"
         },
         "5233fb90-049d-42e7-b133-06a00d35b2df": {
           "label": "Hogel processing unit",
           "link": "https://en.wikipedia.org/wiki/Hogel processing unit",
-          "x": 77748,
-          "y": 5216,
+          "x": 78715,
+          "y": 3125,
           "id": "5233fb90-049d-42e7-b133-06a00d35b2df"
         },
         "f9369082-1be9-4fb1-bf77-56635490fc8f": {
           "label": "Holus",
           "link": "https://en.wikipedia.org/wiki/Holus",
-          "x": 77698,
-          "y": 5241,
+          "x": 78665,
+          "y": 3150,
           "id": "f9369082-1be9-4fb1-bf77-56635490fc8f"
         },
         "2e91ebd6-9649-4df1-96a4-82dcea99fd34": {
           "label": "Don Hopkins",
           "link": "https://en.wikipedia.org/wiki/Don Hopkins",
-          "x": 77720,
-          "y": 5266,
+          "x": 78687,
+          "y": 3175,
           "id": "2e91ebd6-9649-4df1-96a4-82dcea99fd34"
         },
         "82893ebb-b246-4606-bb0f-3ee1469833dd": {
           "label": "Human action cycle",
           "link": "https://en.wikipedia.org/wiki/Human action cycle",
-          "x": 77742,
-          "y": 5291,
+          "x": 78709,
+          "y": 3200,
           "id": "82893ebb-b246-4606-bb0f-3ee1469833dd"
         },
         "07e61582-c1a6-4524-99b0-2757ec71fcda": {
           "label": "Human interface device",
           "link": "https://en.wikipedia.org/wiki/Human interface device",
-          "x": 77755,
-          "y": 5316,
+          "x": 78722,
+          "y": 3225,
           "id": "07e61582-c1a6-4524-99b0-2757ec71fcda"
         },
         "9ece62f9-c4dc-4720-a0f0-e4246c9b08c4": {
           "label": "Human interface guidelines",
           "link": "https://en.wikipedia.org/wiki/Human interface guidelines",
-          "x": 77766,
-          "y": 5341,
+          "x": 78733,
+          "y": 3250,
           "id": "9ece62f9-c4dc-4720-a0f0-e4246c9b08c4"
         },
         "23825397-317b-4ce3-8e8f-14d0731bbe6b": {
           "label": "Human Media Lab",
           "link": "https://en.wikipedia.org/wiki/Human Media Lab",
-          "x": 77738,
-          "y": 5366,
+          "x": 78705,
+          "y": 3275,
           "id": "23825397-317b-4ce3-8e8f-14d0731bbe6b"
         },
         "e8747ced-4bc6-45b2-bcdc-7652783fc6fa": {
           "label": "Human processor model",
           "link": "https://en.wikipedia.org/wiki/Human processor model",
-          "x": 77758,
-          "y": 5391,
+          "x": 78725,
+          "y": 3300,
           "id": "e8747ced-4bc6-45b2-bcdc-7652783fc6fa"
         },
         "9edf4cac-3dc3-4958-af41-6eb1ed3389ab": {
           "label": "Human-agent team",
           "link": "https://en.wikipedia.org/wiki/Human-agent team",
-          "x": 77741,
-          "y": 5416,
+          "x": 78708,
+          "y": 3325,
           "id": "9edf4cac-3dc3-4958-af41-6eb1ed3389ab"
         },
         "281f8d0a-ca3f-4788-a563-bf257732f8e2": {
           "label": "Human-centered computing",
           "link": "https://en.wikipedia.org/wiki/Human-centered computing",
-          "x": 77768,
-          "y": 5441,
+          "x": 78735,
+          "y": 3350,
           "id": "281f8d0a-ca3f-4788-a563-bf257732f8e2"
         },
         "fe76d32f-85de-4951-9fde-bc4923803c8e": {
           "label": "Human–computer information retrieval",
           "link": "https://en.wikipedia.org/wiki/Human–computer information retrieval",
-          "x": 77802,
-          "y": 5466,
+          "x": 78769,
+          "y": 3375,
           "id": "fe76d32f-85de-4951-9fde-bc4923803c8e"
         },
         "d2a09c0f-7e64-4de3-993b-6abc075cff29": {
           "label": "Human–computer interaction (security)",
           "link": "https://en.wikipedia.org/wiki/Human–computer interaction (security)",
-          "x": 77803,
-          "y": 5491,
+          "x": 78770,
+          "y": 3400,
           "id": "d2a09c0f-7e64-4de3-993b-6abc075cff29"
         },
         "a081223c-7ce4-4333-8e3a-669469b6e04c": {
           "label": "Human-Computer Interaction Institute",
           "link": "https://en.wikipedia.org/wiki/Human-Computer Interaction Institute",
-          "x": 77799,
-          "y": 5516,
+          "x": 78766,
+          "y": 3425,
           "id": "a081223c-7ce4-4333-8e3a-669469b6e04c"
         },
         "4b567073-619a-48e7-938c-e77eb2e10620": {
           "label": "Human–machine system",
           "link": "https://en.wikipedia.org/wiki/Human–machine system",
-          "x": 77758,
-          "y": 5541,
+          "x": 78725,
+          "y": 3450,
           "id": "4b567073-619a-48e7-938c-e77eb2e10620"
         },
         "77935e91-f095-4ad3-aaa1-5ddcdeb32bc7": {
           "label": "Portal:Human–computer interaction/Nominate/Selected article",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction/Nominate/Selected article",
-          "x": 77875,
-          "y": 5566,
+          "x": 78842,
+          "y": 3475,
           "id": "77935e91-f095-4ad3-aaa1-5ddcdeb32bc7"
         },
         "3bd35210-0424-4470-b52a-83010ebb3b51": {
           "label": "Portal:Human–computer interaction/Selected article",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction/Selected article",
-          "x": 77843,
-          "y": 5591,
+          "x": 78810,
+          "y": 3500,
           "id": "3bd35210-0424-4470-b52a-83010ebb3b51"
         },
         "ec93defb-66f2-4e6b-92af-ed56237a9b1b": {
           "label": "Portal:Human–computer interaction/Selected article/2",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction/Selected article/2",
-          "x": 77849,
-          "y": 5616,
+          "x": 78816,
+          "y": 3525,
           "id": "ec93defb-66f2-4e6b-92af-ed56237a9b1b"
         },
         "86bd9acb-338d-4c41-b2fc-a934eb01623b": {
           "label": "Portal:Human–computer interaction/Selected article/3",
           "link": "https://en.wikipedia.org/wiki/Portal:Human–computer interaction/Selected article/3",
-          "x": 77849,
-          "y": 5641,
+          "x": 78816,
+          "y": 3550,
           "id": "86bd9acb-338d-4c41-b2fc-a934eb01623b"
         },
         "345c7032-6b19-457d-829a-b5b3a2ae76f2": {
           "label": "Humanistic intelligence",
           "link": "https://en.wikipedia.org/wiki/Humanistic intelligence",
-          "x": 77752,
-          "y": 5666,
+          "x": 78719,
+          "y": 3575,
           "id": "345c7032-6b19-457d-829a-b5b3a2ae76f2"
         },
         "97bf6df9-4860-4dc1-8143-9fb9847ce96e": {
           "label": "IBM Common User Access",
           "link": "https://en.wikipedia.org/wiki/IBM Common User Access",
-          "x": 77765,
-          "y": 5691,
+          "x": 78732,
+          "y": 3600,
           "id": "97bf6df9-4860-4dc1-8143-9fb9847ce96e"
         },
         "c8d43ed7-7cc9-4690-9634-2b878dabd1d0": {
           "label": "IDrive",
           "link": "https://en.wikipedia.org/wiki/IDrive",
-          "x": 77698,
-          "y": 5716,
+          "x": 78665,
+          "y": 3625,
           "id": "c8d43ed7-7cc9-4690-9634-2b878dabd1d0"
         },
         "52e20af2-fb62-4084-b1f8-b7bb4470e125": {
           "label": "Immersive design",
           "link": "https://en.wikipedia.org/wiki/Immersive design",
-          "x": 77736,
-          "y": 5741,
+          "x": 78703,
+          "y": 3650,
           "id": "52e20af2-fb62-4084-b1f8-b7bb4470e125"
         },
         "c66fab29-0ef9-4d26-8bb3-6a29f3e4bb47": {
           "label": "Immersive virtual musical instrument",
           "link": "https://en.wikipedia.org/wiki/Immersive virtual musical instrument",
-          "x": 77795,
-          "y": 5766,
+          "x": 78762,
+          "y": 3675,
           "id": "c66fab29-0ef9-4d26-8bb3-6a29f3e4bb47"
         },
         "8e87bacf-4ca5-497b-b456-9887b942e254": {
           "label": "Implicit data collection",
           "link": "https://en.wikipedia.org/wiki/Implicit data collection",
-          "x": 77749,
-          "y": 5791,
+          "x": 78716,
+          "y": 3700,
           "id": "8e87bacf-4ca5-497b-b456-9887b942e254"
         },
         "28db44c3-9b7a-42fb-ae78-4fa939a327f1": {
           "label": "Inclusive design",
           "link": "https://en.wikipedia.org/wiki/Inclusive design",
-          "x": 77730,
-          "y": 5816,
+          "x": 78697,
+          "y": 3725,
           "id": "28db44c3-9b7a-42fb-ae78-4fa939a327f1"
         },
         "0306273c-1170-4813-9a0f-b120225c6239": {
           "label": "Information foraging",
           "link": "https://en.wikipedia.org/wiki/Information foraging",
-          "x": 77744,
-          "y": 5841,
+          "x": 78711,
+          "y": 3750,
           "id": "0306273c-1170-4813-9a0f-b120225c6239"
         },
         "261f2a1e-a0cd-4c84-936d-15cc1061b981": {
           "label": "Interaction design",
           "link": "https://en.wikipedia.org/wiki/Interaction design",
-          "x": 77736,
-          "y": 5866,
+          "x": 78703,
+          "y": 3775,
           "id": "261f2a1e-a0cd-4c84-936d-15cc1061b981"
         },
         "8622362b-76a8-4c71-a307-c0c203812d82": {
           "label": "Interaction Design Foundation",
           "link": "https://en.wikipedia.org/wiki/Interaction Design Foundation",
-          "x": 77775,
-          "y": 5891,
+          "x": 78742,
+          "y": 3800,
           "id": "8622362b-76a8-4c71-a307-c0c203812d82"
         },
         "ef9bcb72-7679-4614-9015-5a772bce4de4": {
           "label": "Interaction technique",
           "link": "https://en.wikipedia.org/wiki/Interaction technique",
-          "x": 77746,
-          "y": 5916,
+          "x": 78713,
+          "y": 3825,
           "id": "ef9bcb72-7679-4614-9015-5a772bce4de4"
         },
         "ce88d208-108d-466f-b51c-b448a10503e9": {
           "label": "Interactive computing",
           "link": "https://en.wikipedia.org/wiki/Interactive computing",
-          "x": 77748,
-          "y": 5941,
+          "x": 78715,
+          "y": 3850,
           "id": "ce88d208-108d-466f-b51c-b448a10503e9"
         },
         "87890edd-00a5-4550-a0cf-5575c1b60227": {
           "label": "The Interactive Institute",
           "link": "https://en.wikipedia.org/wiki/The Interactive Institute",
-          "x": 77754,
-          "y": 5966,
+          "x": 78721,
+          "y": 3875,
           "id": "87890edd-00a5-4550-a0cf-5575c1b60227"
         },
         "a176fc01-bf7c-48ce-9d6d-609567f20f6e": {
           "label": "Interactive machine translation",
           "link": "https://en.wikipedia.org/wiki/Interactive machine translation",
-          "x": 77777,
-          "y": 5991,
+          "x": 78744,
+          "y": 3900,
           "id": "a176fc01-bf7c-48ce-9d6d-609567f20f6e"
         },
         "95c54dea-4c91-4d17-ba83-9edce19d867b": {
           "label": "Interactivity",
           "link": "https://en.wikipedia.org/wiki/Interactivity",
-          "x": 77716,
-          "y": 6016,
+          "x": 78683,
+          "y": 3925,
           "id": "95c54dea-4c91-4d17-ba83-9edce19d867b"
         },
         "561db3dc-a840-4d31-ace9-2513e38f8d94": {
           "label": "Internet addiction disorder",
           "link": "https://en.wikipedia.org/wiki/Internet addiction disorder",
-          "x": 77763,
-          "y": 6041,
+          "x": 78730,
+          "y": 3950,
           "id": "561db3dc-a840-4d31-ace9-2513e38f8d94"
         },
         "e2dd7651-4a4e-41da-b9ef-679d2744429e": {
           "label": "Interruption science",
           "link": "https://en.wikipedia.org/wiki/Interruption science",
-          "x": 77742,
-          "y": 6066,
+          "x": 78709,
+          "y": 3975,
           "id": "e2dd7651-4a4e-41da-b9ef-679d2744429e"
         },
         "f9b37e8a-abf1-4a5f-bcd6-8cffbb3042bc": {
           "label": "J.F. Schouten School for User System Interaction",
           "link": "https://en.wikipedia.org/wiki/J.F. Schouten School for User System Interaction",
-          "x": 77835,
-          "y": 6091,
+          "x": 78802,
+          "y": 4000,
           "id": "f9b37e8a-abf1-4a5f-bcd6-8cffbb3042bc"
         },
         "3b52ce8b-85b3-4978-bb3a-1d7a0003c55a": {
           "label": "Keystroke-level model",
           "link": "https://en.wikipedia.org/wiki/Keystroke-level model",
-          "x": 77750,
-          "y": 6116,
+          "x": 78717,
+          "y": 4025,
           "id": "3b52ce8b-85b3-4978-bb3a-1d7a0003c55a"
         },
         "60266dfd-5854-4a49-9001-643873552e47": {
           "label": "Kia Uvo",
           "link": "https://en.wikipedia.org/wiki/Kia Uvo",
-          "x": 77704,
-          "y": 6141,
+          "x": 78671,
+          "y": 4050,
           "id": "60266dfd-5854-4a49-9001-643873552e47"
         },
         "53e9a544-b143-4625-99c4-6b20480e7b1f": {
           "label": "Steve Kirsch",
           "link": "https://en.wikipedia.org/wiki/Steve Kirsch",
-          "x": 77719,
-          "y": 6166,
+          "x": 78686,
+          "y": 4075,
           "id": "53e9a544-b143-4625-99c4-6b20480e7b1f"
         },
         "3d208605-1394-4224-8d11-56013d3af9c6": {
           "label": "Law of conservation of complexity",
           "link": "https://en.wikipedia.org/wiki/Law of conservation of complexity",
-          "x": 77787,
-          "y": 6191,
+          "x": 78754,
+          "y": 4100,
           "id": "3d208605-1394-4224-8d11-56013d3af9c6"
         },
         "31900520-3925-439f-aef5-46768a0a1cef": {
           "label": "Learner-generated context",
           "link": "https://en.wikipedia.org/wiki/Learner-generated context",
-          "x": 77765,
-          "y": 6216,
+          "x": 78732,
+          "y": 4125,
           "id": "31900520-3925-439f-aef5-46768a0a1cef"
         },
         "e3bec254-d1b7-4c88-8569-febd3b4ffa71": {
           "label": "LIA-UFSCar",
           "link": "https://en.wikipedia.org/wiki/LIA-UFSCar",
-          "x": 77718,
-          "y": 6241,
+          "x": 78685,
+          "y": 4150,
           "id": "e3bec254-d1b7-4c88-8569-febd3b4ffa71"
         },
         "70d9691d-0828-43a5-a279-6d93944dce48": {
           "label": "Lightglove",
           "link": "https://en.wikipedia.org/wiki/Lightglove",
-          "x": 77712,
-          "y": 6266,
+          "x": 78679,
+          "y": 4175,
           "id": "70d9691d-0828-43a5-a279-6d93944dce48"
         },
         "d9bc8af1-da35-476a-958b-6bcb14a2e59f": {
           "label": "List of ubiquitous computing research centers",
           "link": "https://en.wikipedia.org/wiki/List of ubiquitous computing research centers",
-          "x": 77824,
-          "y": 6291,
+          "x": 78791,
+          "y": 4200,
           "id": "d9bc8af1-da35-476a-958b-6bcb14a2e59f"
         },
         "4c6ff2c8-4943-4678-a7d8-47b367e42cc7": {
           "label": "Livescribe",
           "link": "https://en.wikipedia.org/wiki/Livescribe",
-          "x": 77712,
-          "y": 6316,
+          "x": 78679,
+          "y": 4225,
           "id": "4c6ff2c8-4943-4678-a7d8-47b367e42cc7"
         },
         "b66a1063-40e6-4ca1-bf4f-eff285b1b98f": {
           "label": "Living lab",
           "link": "https://en.wikipedia.org/wiki/Living lab",
-          "x": 77710,
-          "y": 6341,
+          "x": 78677,
+          "y": 4250,
           "id": "b66a1063-40e6-4ca1-bf4f-eff285b1b98f"
         },
         "b329f9ce-db1c-4883-a82f-7591a92f1b6d": {
           "label": "Low-key feedback",
           "link": "https://en.wikipedia.org/wiki/Low-key feedback",
-          "x": 77737,
-          "y": 6366,
+          "x": 78704,
+          "y": 4275,
           "id": "b329f9ce-db1c-4883-a82f-7591a92f1b6d"
         },
         "a717300e-82b4-46c2-b7b4-22fbc90fc16e": {
           "label": "The Magical Number Seven, Plus or Minus Two",
           "link": "https://en.wikipedia.org/wiki/The Magical Number Seven, Plus or Minus Two",
-          "x": 77831,
-          "y": 6391,
+          "x": 78798,
+          "y": 4300,
           "id": "a717300e-82b4-46c2-b7b4-22fbc90fc16e"
         },
         "ab526661-d996-4776-8b8d-53f92947bba7": {
           "label": "Manufacture Modules Technologies",
           "link": "https://en.wikipedia.org/wiki/Manufacture Modules Technologies",
-          "x": 77793,
-          "y": 6416,
+          "x": 78760,
+          "y": 4325,
           "id": "ab526661-d996-4776-8b8d-53f92947bba7"
         },
         "b5767685-fbe6-4bd0-8ed3-d43aa754e8ba": {
           "label": "Aaron Marcus",
           "link": "https://en.wikipedia.org/wiki/Aaron Marcus",
-          "x": 77724,
-          "y": 6441,
+          "x": 78691,
+          "y": 4350,
           "id": "b5767685-fbe6-4bd0-8ed3-d43aa754e8ba"
         },
         "b38b392f-ea4e-425c-9ee1-e50ef555949c": {
           "label": "Memex",
           "link": "https://en.wikipedia.org/wiki/Memex",
-          "x": 77703,
-          "y": 6466,
+          "x": 78670,
+          "y": 4375,
           "id": "b38b392f-ea4e-425c-9ee1-e50ef555949c"
         },
         "d179f846-ea9a-4e75-9cea-78bedfcad06b": {
           "label": "Minimally invasive education",
           "link": "https://en.wikipedia.org/wiki/Minimally invasive education",
-          "x": 77770,
-          "y": 6491,
+          "x": 78737,
+          "y": 4400,
           "id": "d179f846-ea9a-4e75-9cea-78bedfcad06b"
         },
         "da23c943-ceb3-4bb6-b393-857ea75d4bfb": {
           "label": "Minimum intelligent signal test",
           "link": "https://en.wikipedia.org/wiki/Minimum intelligent signal test",
-          "x": 77775,
-          "y": 6516,
+          "x": 78742,
+          "y": 4425,
           "id": "da23c943-ceb3-4bb6-b393-857ea75d4bfb"
         },
         "d9de01cf-3673-4d09-a333-1018f640ddf1": {
           "label": "Eduardo Reck Miranda",
           "link": "https://en.wikipedia.org/wiki/Eduardo Reck Miranda",
-          "x": 77753,
-          "y": 6541,
+          "x": 78720,
+          "y": 4450,
           "id": "d9de01cf-3673-4d09-a333-1018f640ddf1"
         },
         "e7649e4b-0930-4912-a5ca-c8b132a8fb7f": {
           "label": "Mobile interaction",
           "link": "https://en.wikipedia.org/wiki/Mobile interaction",
-          "x": 77736,
-          "y": 6566,
+          "x": 78703,
+          "y": 4475,
           "id": "e7649e4b-0930-4912-a5ca-c8b132a8fb7f"
         },
         "b765fee2-cc4e-4384-ac4f-6bfcf3fe367d": {
           "label": "Mobile Life Centre",
           "link": "https://en.wikipedia.org/wiki/Mobile Life Centre",
-          "x": 77738,
-          "y": 6591,
+          "x": 78705,
+          "y": 4500,
           "id": "b765fee2-cc4e-4384-ac4f-6bfcf3fe367d"
         },
         "8ca1d9e4-6a8d-41e6-9ba5-fe7df33ea50f": {
           "label": "MobileHCI",
           "link": "https://en.wikipedia.org/wiki/MobileHCI",
-          "x": 77713,
-          "y": 6616,
+          "x": 78680,
+          "y": 4525,
           "id": "8ca1d9e4-6a8d-41e6-9ba5-fe7df33ea50f"
         },
         "bd8c14cb-2492-4765-9fc0-9ed26afdc83d": {
           "label": "Mode (user interface)",
           "link": "https://en.wikipedia.org/wiki/Mode (user interface)",
-          "x": 77748,
-          "y": 6641,
+          "x": 78715,
+          "y": 4550,
           "id": "bd8c14cb-2492-4765-9fc0-9ed26afdc83d"
         },
         "9573248c-a7b5-4a2d-80a2-5dd9ace2fa75": {
           "label": "Multi Media Interface",
           "link": "https://en.wikipedia.org/wiki/Multi Media Interface",
-          "x": 77746,
-          "y": 6666,
+          "x": 78713,
+          "y": 4575,
           "id": "9573248c-a7b5-4a2d-80a2-5dd9ace2fa75"
         },
         "7098b682-ecbd-4de4-a3c5-2d3c4f20ddfc": {
           "label": "Multi-touch, physics and gestures",
           "link": "https://en.wikipedia.org/wiki/Multi-touch, physics and gestures",
-          "x": 77786,
-          "y": 6691,
+          "x": 78753,
+          "y": 4600,
           "id": "7098b682-ecbd-4de4-a3c5-2d3c4f20ddfc"
         },
         "5469ea6b-8ad9-403d-af5c-318dea38e643": {
           "label": "Multimodal Architecture and Interfaces",
           "link": "https://en.wikipedia.org/wiki/Multimodal Architecture and Interfaces",
-          "x": 77802,
-          "y": 6716,
+          "x": 78769,
+          "y": 4625,
           "id": "5469ea6b-8ad9-403d-af5c-318dea38e643"
         },
         "8607dd60-25c8-4b9e-bb8d-ec9ce84fcb56": {
           "label": "Multiseat desktop virtualization",
           "link": "https://en.wikipedia.org/wiki/Multiseat desktop virtualization",
-          "x": 77777,
-          "y": 6741,
+          "x": 78744,
+          "y": 4650,
           "id": "8607dd60-25c8-4b9e-bb8d-ec9ce84fcb56"
         },
         "53f1d075-ad0d-4ef7-9495-e29966b6cbde": {
           "label": "Needs analysis",
           "link": "https://en.wikipedia.org/wiki/Needs analysis",
-          "x": 77728,
-          "y": 6766,
+          "x": 78695,
+          "y": 4675,
           "id": "53f1d075-ad0d-4ef7-9495-e29966b6cbde"
         },
         "57d17107-1d4d-4392-810f-f7156e049272": {
           "label": "Négone",
           "link": "https://en.wikipedia.org/wiki/Négone",
-          "x": 77705,
-          "y": 6791,
+          "x": 78672,
+          "y": 4700,
           "id": "57d17107-1d4d-4392-810f-f7156e049272"
         },
         "ab40df10-e156-4259-bcbd-12f94c4097dd": {
           "label": "Neural dust",
           "link": "https://en.wikipedia.org/wiki/Neural dust",
-          "x": 77716,
-          "y": 6816,
+          "x": 78683,
+          "y": 4725,
           "id": "ab40df10-e156-4259-bcbd-12f94c4097dd"
         },
         "7e360c0a-8a15-4b8c-b45e-8f2690792967": {
           "label": "New Interfaces for Musical Expression",
           "link": "https://en.wikipedia.org/wiki/New Interfaces for Musical Expression",
-          "x": 77801,
-          "y": 6841,
+          "x": 78768,
+          "y": 4750,
           "id": "7e360c0a-8a15-4b8c-b45e-8f2690792967"
         },
         "f6ea7786-2ba7-48ca-a552-553f24ce162a": {
           "label": "NGOMSL",
           "link": "https://en.wikipedia.org/wiki/NGOMSL",
-          "x": 77710,
-          "y": 6866,
+          "x": 78677,
+          "y": 4775,
           "id": "f6ea7786-2ba7-48ca-a552-553f24ce162a"
         },
         "3973432c-dc51-41ef-b54f-8ff0500e3777": {
           "label": "Notification system",
           "link": "https://en.wikipedia.org/wiki/Notification system",
-          "x": 77739,
-          "y": 6891,
+          "x": 78706,
+          "y": 4800,
           "id": "3973432c-dc51-41ef-b54f-8ff0500e3777"
         },
         "e4adaf42-cab7-48af-8470-36f2c9440511": {
           "label": "Object–action interface",
           "link": "https://en.wikipedia.org/wiki/Object–action interface",
-          "x": 77753,
-          "y": 6916,
+          "x": 78720,
+          "y": 4825,
           "id": "e4adaf42-cab7-48af-8470-36f2c9440511"
         },
         "920d7ed8-00dd-4d68-9b1a-0db7f00891fc": {
           "label": "Office Assistant",
           "link": "https://en.wikipedia.org/wiki/Office Assistant",
-          "x": 77729,
-          "y": 6941,
+          "x": 78696,
+          "y": 4850,
           "id": "920d7ed8-00dd-4d68-9b1a-0db7f00891fc"
         },
         "a35c8b48-c151-4650-bd27-0ec46965fd61": {
           "label": "Judith S. Olson",
           "link": "https://en.wikipedia.org/wiki/Judith S. Olson",
-          "x": 77728,
-          "y": 6966,
+          "x": 78695,
+          "y": 4875,
           "id": "a35c8b48-c151-4650-bd27-0ec46965fd61"
         },
         "51857890-d43f-4f78-b1f4-04340b95987d": {
           "label": "OpenUsability",
           "link": "https://en.wikipedia.org/wiki/OpenUsability",
-          "x": 77724,
-          "y": 6991,
+          "x": 78691,
+          "y": 4900,
           "id": "51857890-d43f-4f78-b1f4-04340b95987d"
         },
         "e2f5456f-74b3-444e-b210-93f7a9c71ab2": {
           "label": "OpenVibe",
           "link": "https://en.wikipedia.org/wiki/OpenVibe",
-          "x": 77711,
-          "y": 7016,
+          "x": 78678,
+          "y": 4925,
           "id": "e2f5456f-74b3-444e-b210-93f7a9c71ab2"
         },
         "79a62b6e-597e-414f-a962-868d168a14ce": {
           "label": "Organic user interface",
           "link": "https://en.wikipedia.org/wiki/Organic user interface",
-          "x": 77750,
-          "y": 7041,
+          "x": 78717,
+          "y": 4950,
           "id": "79a62b6e-597e-414f-a962-868d168a14ce"
         },
         "924d7cb7-1dd4-4b2d-a3d2-5ef88869084d": {
           "label": "Out-of-box experience",
           "link": "https://en.wikipedia.org/wiki/Out-of-box experience",
-          "x": 77751,
-          "y": 7066,
+          "x": 78718,
+          "y": 4975,
           "id": "924d7cb7-1dd4-4b2d-a3d2-5ef88869084d"
         },
         "ed6f3e55-5153-4434-a1c5-4c04ea9238d7": {
           "label": "Out-of-box failure",
           "link": "https://en.wikipedia.org/wiki/Out-of-box failure",
-          "x": 77735,
-          "y": 7091,
+          "x": 78702,
+          "y": 5000,
           "id": "ed6f3e55-5153-4434-a1c5-4c04ea9238d7"
         },
         "6a42862f-845b-41eb-a5f4-3d7fd0780824": {
           "label": "Outside–in software development",
           "link": "https://en.wikipedia.org/wiki/Outside–in software development",
-          "x": 77786,
-          "y": 7116,
+          "x": 78753,
+          "y": 5025,
           "id": "6a42862f-845b-41eb-a5f4-3d7fd0780824"
         },
         "15160a52-8427-4f86-bee2-1a8c3e2dbe37": {
           "label": "PACT (interaction design)",
           "link": "https://en.wikipedia.org/wiki/PACT (interaction design)",
-          "x": 77761,
-          "y": 7141,
+          "x": 78728,
+          "y": 5050,
           "id": "15160a52-8427-4f86-bee2-1a8c3e2dbe37"
         },
         "2f273a19-4537-47f5-8caf-c8080227f94f": {
           "label": "Partial concurrent thinking aloud",
           "link": "https://en.wikipedia.org/wiki/Partial concurrent thinking aloud",
-          "x": 77782,
-          "y": 7166,
+          "x": 78749,
+          "y": 5075,
           "id": "2f273a19-4537-47f5-8caf-c8080227f94f"
         },
         "d0615f79-dc2b-48c0-ba1b-fa3691e7085e": {
           "label": "Pavlok",
           "link": "https://en.wikipedia.org/wiki/Pavlok",
-          "x": 77701,
-          "y": 7191,
+          "x": 78668,
+          "y": 5100,
           "id": "d0615f79-dc2b-48c0-ba1b-fa3691e7085e"
         },
         "040b9d36-336f-4b7b-b6eb-45af2d0d835b": {
           "label": "Peripheral nerve interface",
           "link": "https://en.wikipedia.org/wiki/Peripheral nerve interface",
-          "x": 77762,
-          "y": 7216,
+          "x": 78729,
+          "y": 5125,
           "id": "040b9d36-336f-4b7b-b6eb-45af2d0d835b"
         },
         "1953f5af-6938-43b4-9629-7a195120a2e9": {
           "label": "Persona (user experience)",
           "link": "https://en.wikipedia.org/wiki/Persona (user experience)",
-          "x": 77764,
-          "y": 7241,
+          "x": 78731,
+          "y": 5150,
           "id": "1953f5af-6938-43b4-9629-7a195120a2e9"
         },
         "2bb5c7a1-4d48-4ee6-9da7-1a63b3956e58": {
           "label": "Personal information management",
           "link": "https://en.wikipedia.org/wiki/Personal information management",
-          "x": 77789,
-          "y": 7266,
+          "x": 78756,
+          "y": 5175,
           "id": "2bb5c7a1-4d48-4ee6-9da7-1a63b3956e58"
         },
         "044ea783-a24d-4225-b50e-1e0a4a9ad06d": {
           "label": "Personalization",
           "link": "https://en.wikipedia.org/wiki/Personalization",
-          "x": 77728,
-          "y": 7291,
+          "x": 78695,
+          "y": 5200,
           "id": "044ea783-a24d-4225-b50e-1e0a4a9ad06d"
         },
         "617e51db-9b7e-42f7-a74e-300bf4021091": {
           "label": "Persuasive technology",
           "link": "https://en.wikipedia.org/wiki/Persuasive technology",
-          "x": 77751,
-          "y": 7316,
+          "x": 78718,
+          "y": 5225,
           "id": "617e51db-9b7e-42f7-a74e-300bf4021091"
         },
         "d25829aa-75ec-4caa-8735-03286e80c2e0": {
           "label": "Richard Pew",
           "link": "https://en.wikipedia.org/wiki/Richard Pew",
-          "x": 77720,
-          "y": 7341,
+          "x": 78687,
+          "y": 5250,
           "id": "d25829aa-75ec-4caa-8735-03286e80c2e0"
         },
         "2a793ee5-642e-4543-9214-4727887267b3": {
           "label": "Physical icon",
           "link": "https://en.wikipedia.org/wiki/Physical icon",
-          "x": 77721,
-          "y": 7366,
+          "x": 78688,
+          "y": 5275,
           "id": "2a793ee5-642e-4543-9214-4727887267b3"
         },
         "77569252-f807-4ea9-94c9-42094aad38f4": {
           "label": "Pictive",
           "link": "https://en.wikipedia.org/wiki/Pictive",
-          "x": 77700,
-          "y": 7391,
+          "x": 78667,
+          "y": 5300,
           "id": "77569252-f807-4ea9-94c9-42094aad38f4"
         },
         "83d69fbf-234b-4a51-8cf2-108967b2fd67": {
           "label": "Catherine Plaisant",
           "link": "https://en.wikipedia.org/wiki/Catherine Plaisant",
-          "x": 77738,
-          "y": 7416,
+          "x": 78705,
+          "y": 5325,
           "id": "83d69fbf-234b-4a51-8cf2-108967b2fd67"
         },
         "c688f19f-d358-43af-a7ec-4ff0f374ecd3": {
           "label": "Post-tech",
           "link": "https://en.wikipedia.org/wiki/Post-tech",
-          "x": 77710,
-          "y": 7441,
+          "x": 78677,
+          "y": 5350,
           "id": "c688f19f-d358-43af-a7ec-4ff0f374ecd3"
         },
         "b585da8d-c315-4263-9897-75fb940a08f1": {
           "label": "Presentation semantics",
           "link": "https://en.wikipedia.org/wiki/Presentation semantics",
-          "x": 77754,
-          "y": 7466,
+          "x": 78721,
+          "y": 5375,
           "id": "b585da8d-c315-4263-9897-75fb940a08f1"
         },
         "7ed8a4b4-dee2-4da4-9de1-780db8841ef9": {
           "label": "Presentation–abstraction–control",
           "link": "https://en.wikipedia.org/wiki/Presentation–abstraction–control",
-          "x": 77784,
-          "y": 7491,
+          "x": 78751,
+          "y": 5400,
           "id": "7ed8a4b4-dee2-4da4-9de1-780db8841ef9"
         },
         "90f5ff31-b98c-4dee-b0ba-1a4d462e7932": {
           "label": "Principle of least astonishment",
           "link": "https://en.wikipedia.org/wiki/Principle of least astonishment",
-          "x": 77776,
-          "y": 7516,
+          "x": 78743,
+          "y": 5425,
           "id": "90f5ff31-b98c-4dee-b0ba-1a4d462e7932"
         },
         "656c063f-fa0f-4c58-97d7-3af606c92f9a": {
           "label": "Query by Example",
           "link": "https://en.wikipedia.org/wiki/Query by Example",
-          "x": 77738,
-          "y": 7541,
+          "x": 78705,
+          "y": 5450,
           "id": "656c063f-fa0f-4c58-97d7-3af606c92f9a"
         },
         "f11fec20-e754-45cb-8889-72888573fb90": {
           "label": "Radiodrum",
           "link": "https://en.wikipedia.org/wiki/Radiodrum",
-          "x": 77715,
-          "y": 7566,
+          "x": 78682,
+          "y": 5475,
           "id": "f11fec20-e754-45cb-8889-72888573fb90"
         },
         "5127c79a-85d8-438f-8707-c1dc0b46d284": {
           "label": "Jef Raskin",
           "link": "https://en.wikipedia.org/wiki/Jef Raskin",
-          "x": 77713,
-          "y": 7591,
+          "x": 78680,
+          "y": 5500,
           "id": "5127c79a-85d8-438f-8707-c1dc0b46d284"
         },
         "94dbe579-02c3-4128-b229-58a0de13dff6": {
           "label": "Reading path",
           "link": "https://en.wikipedia.org/wiki/Reading path",
-          "x": 77722,
-          "y": 7616,
+          "x": 78689,
+          "y": 5525,
           "id": "94dbe579-02c3-4128-b229-58a0de13dff6"
         },
         "eb116fda-0b43-4f47-b419-6ace4a530366": {
           "label": "Remote Touch",
           "link": "https://en.wikipedia.org/wiki/Remote Touch",
-          "x": 77726,
-          "y": 7641,
+          "x": 78693,
+          "y": 5550,
           "id": "eb116fda-0b43-4f47-b419-6ace4a530366"
         },
         "042691a9-3f3f-4692-9f0c-b2b73bbd4a7f": {
           "label": "Responsive computer-aided design",
           "link": "https://en.wikipedia.org/wiki/Responsive computer-aided design",
-          "x": 77792,
-          "y": 7666,
+          "x": 78759,
+          "y": 5575,
           "id": "042691a9-3f3f-4692-9f0c-b2b73bbd4a7f"
         },
         "edeb16f9-a19e-4367-8525-22dd1be7a2fe": {
           "label": "Responsive web design",
           "link": "https://en.wikipedia.org/wiki/Responsive web design",
-          "x": 77755,
-          "y": 7691,
+          "x": 78722,
+          "y": 5600,
           "id": "edeb16f9-a19e-4367-8525-22dd1be7a2fe"
         },
         "d68a4543-22ff-4dc4-a940-90383134449e": {
           "label": "Retrospective think aloud",
           "link": "https://en.wikipedia.org/wiki/Retrospective think aloud",
-          "x": 77760,
-          "y": 7716,
+          "x": 78727,
+          "y": 5625,
           "id": "d68a4543-22ff-4dc4-a940-90383134449e"
         },
         "5de02dfb-f20c-457c-8c22-8e857e3e8719": {
           "label": "Role-based collaboration",
           "link": "https://en.wikipedia.org/wiki/Role-based collaboration",
-          "x": 77759,
-          "y": 7741,
+          "x": 78726,
+          "y": 5650,
           "id": "5de02dfb-f20c-457c-8c22-8e857e3e8719"
         },
         "ccf514a3-9d54-43a8-8644-42d978ac2e7a": {
           "label": "Scratch input",
           "link": "https://en.wikipedia.org/wiki/Scratch input",
-          "x": 77721,
-          "y": 7766,
+          "x": 78688,
+          "y": 5675,
           "id": "ccf514a3-9d54-43a8-8644-42d978ac2e7a"
         },
         "7162b3a3-93bf-46c9-87ab-0b3dfa392bb6": {
           "label": "Secondary notation",
           "link": "https://en.wikipedia.org/wiki/Secondary notation",
-          "x": 77741,
-          "y": 7791,
+          "x": 78708,
+          "y": 5700,
           "id": "7162b3a3-93bf-46c9-87ab-0b3dfa392bb6"
         },
         "e7118202-6470-492d-ba0c-7656831cad56": {
           "label": "Ted Selker",
           "link": "https://en.wikipedia.org/wiki/Ted Selker",
-          "x": 77714,
-          "y": 7816,
+          "x": 78681,
+          "y": 5725,
           "id": "e7118202-6470-492d-ba0c-7656831cad56"
         },
         "6979be4f-7b66-4106-8e74-d87c9355bb9a": {
           "label": "Semiotic engineering",
           "link": "https://en.wikipedia.org/wiki/Semiotic engineering",
-          "x": 77746,
-          "y": 7841,
+          "x": 78713,
+          "y": 5750,
           "id": "6979be4f-7b66-4106-8e74-d87c9355bb9a"
         },
         "6b0822e8-13d8-4891-9686-9fba9649d1f8": {
           "label": "Seven stages of action",
           "link": "https://en.wikipedia.org/wiki/Seven stages of action",
-          "x": 77752,
-          "y": 7866,
+          "x": 78719,
+          "y": 5775,
           "id": "6b0822e8-13d8-4891-9686-9fba9649d1f8"
         },
         "26b0a777-ab2c-42b5-b0e2-3ac6676c62c9": {
           "label": "Ben Shneiderman",
           "link": "https://en.wikipedia.org/wiki/Ben Shneiderman",
-          "x": 77737,
-          "y": 7891,
+          "x": 78704,
+          "y": 5800,
           "id": "26b0a777-ab2c-42b5-b0e2-3ac6676c62c9"
         },
         "1dde959f-bd2c-4731-8a22-de0bf3f66a12": {
           "label": "SIGCHI",
           "link": "https://en.wikipedia.org/wiki/SIGCHI",
-          "x": 77704,
-          "y": 7916,
+          "x": 78671,
+          "y": 5825,
           "id": "1dde959f-bd2c-4731-8a22-de0bf3f66a12"
         },
         "b63b50cf-5882-4d3d-8636-1c56f2048ecd": {
           "label": "Sketch recognition",
           "link": "https://en.wikipedia.org/wiki/Sketch recognition",
-          "x": 77738,
-          "y": 7941,
+          "x": 78705,
+          "y": 5850,
           "id": "b63b50cf-5882-4d3d-8636-1c56f2048ecd"
         },
         "f51e4c53-d622-4178-b528-4f9bb8508bf6": {
           "label": "Smart products",
           "link": "https://en.wikipedia.org/wiki/Smart products",
-          "x": 77728,
-          "y": 7966,
+          "x": 78695,
+          "y": 5875,
           "id": "f51e4c53-d622-4178-b528-4f9bb8508bf6"
         },
         "9a1bc462-2fda-4b9c-91eb-9ed489634889": {
           "label": "Smart ring",
           "link": "https://en.wikipedia.org/wiki/Smart ring",
-          "x": 77713,
-          "y": 7991,
+          "x": 78680,
+          "y": 5900,
           "id": "9a1bc462-2fda-4b9c-91eb-9ed489634889"
         },
         "529c98a0-24e6-4289-898d-40de99d93835": {
           "label": "Smart, connected products",
           "link": "https://en.wikipedia.org/wiki/Smart, connected products",
-          "x": 77765,
-          "y": 8016,
+          "x": 78732,
+          "y": 5925,
           "id": "529c98a0-24e6-4289-898d-40de99d93835"
         },
         "4ce18960-33d0-4588-80f8-5f5c389524cf": {
           "label": "Smartglasses",
           "link": "https://en.wikipedia.org/wiki/Smartglasses",
-          "x": 77723,
-          "y": 8041,
+          "x": 78690,
+          "y": 5950,
           "id": "4ce18960-33d0-4588-80f8-5f5c389524cf"
         },
         "84d72322-fabc-492f-b40c-8fc5ee62e1b8": {
           "label": "Smartwatch",
           "link": "https://en.wikipedia.org/wiki/Smartwatch",
-          "x": 77717,
-          "y": 8066,
+          "x": 78684,
+          "y": 5975,
           "id": "84d72322-fabc-492f-b40c-8fc5ee62e1b8"
         },
         "dfd26415-290e-497b-b484-c87a78ad38df": {
           "label": "Social affordance",
           "link": "https://en.wikipedia.org/wiki/Social affordance",
-          "x": 77735,
-          "y": 8091,
+          "x": 78702,
+          "y": 6000,
           "id": "dfd26415-290e-497b-b484-c87a78ad38df"
         },
         "243d29a5-ddb3-4fa3-ae56-4f5b77a46156": {
           "label": "Social translucence",
           "link": "https://en.wikipedia.org/wiki/Social translucence",
-          "x": 77741,
-          "y": 8116,
+          "x": 78708,
+          "y": 6025,
           "id": "243d29a5-ddb3-4fa3-ae56-4f5b77a46156"
         },
         "fe24253c-839c-45cc-877c-79ac418e4394": {
           "label": "Steering law",
           "link": "https://en.wikipedia.org/wiki/Steering law",
-          "x": 77719,
-          "y": 8141,
+          "x": 78686,
+          "y": 6050,
           "id": "fe24253c-839c-45cc-877c-79ac418e4394"
         },
         "c6da3e9f-a3de-4406-ac0e-6a44eac41527": {
           "label": "Stent-electrode recording array",
           "link": "https://en.wikipedia.org/wiki/Stent-electrode recording array",
-          "x": 77779,
-          "y": 8166,
+          "x": 78746,
+          "y": 6075,
           "id": "c6da3e9f-a3de-4406-ac0e-6a44eac41527"
         },
         "1bbd046b-632a-4055-8ed4-9344073dd070": {
           "label": "Stimulus–response compatibility",
           "link": "https://en.wikipedia.org/wiki/Stimulus–response compatibility",
-          "x": 77781,
-          "y": 8191,
+          "x": 78748,
+          "y": 6100,
           "id": "1bbd046b-632a-4055-8ed4-9344073dd070"
         },
         "83e2bdb8-a2c2-4eb6-a44d-d20b446dd56c": {
           "label": "Subgoal labeling",
           "link": "https://en.wikipedia.org/wiki/Subgoal labeling",
-          "x": 77732,
-          "y": 8216,
+          "x": 78699,
+          "y": 6125,
           "id": "83e2bdb8-a2c2-4eb6-a44d-d20b446dd56c"
         },
         "e0cbff3f-ae1a-4f04-8bdc-91fea0527763": {
           "label": "Thanatosensitivity",
           "link": "https://en.wikipedia.org/wiki/Thanatosensitivity",
-          "x": 77737,
-          "y": 8241,
+          "x": 78704,
+          "y": 6150,
           "id": "e0cbff3f-ae1a-4f04-8bdc-91fea0527763"
         },
         "8c121815-21e5-46aa-9d59-ef0cf6e86646": {
           "label": "Think aloud protocol",
           "link": "https://en.wikipedia.org/wiki/Think aloud protocol",
-          "x": 77744,
-          "y": 8266,
+          "x": 78711,
+          "y": 6175,
           "id": "8c121815-21e5-46aa-9d59-ef0cf6e86646"
         },
         "26958320-2dee-4887-b589-2a8fbe553adc": {
           "label": "Time travel debugging",
           "link": "https://en.wikipedia.org/wiki/Time travel debugging",
-          "x": 77751,
-          "y": 8291,
+          "x": 78718,
+          "y": 6200,
           "id": "26958320-2dee-4887-b589-2a8fbe553adc"
         },
         "8652b370-9b61-4f6c-807f-7f0d704e8ac1": {
           "label": "Kentaro Toyama",
           "link": "https://en.wikipedia.org/wiki/Kentaro Toyama",
-          "x": 77732,
-          "y": 8316,
+          "x": 78699,
+          "y": 6225,
           "id": "8652b370-9b61-4f6c-807f-7f0d704e8ac1"
         },
         "9145dca3-2a0b-4622-a169-3dccd88b7b2a": {
           "label": "Transparency (human–computer interaction)",
           "link": "https://en.wikipedia.org/wiki/Transparency (human–computer interaction)",
-          "x": 77822,
-          "y": 8341,
+          "x": 78789,
+          "y": 6250,
           "id": "9145dca3-2a0b-4622-a169-3dccd88b7b2a"
         },
         "4f1a2017-c9f7-4a24-81eb-6de7bd7d3e88": {
           "label": "Transreality gaming",
           "link": "https://en.wikipedia.org/wiki/Transreality gaming",
-          "x": 77743,
-          "y": 8366,
+          "x": 78710,
+          "y": 6275,
           "id": "4f1a2017-c9f7-4a24-81eb-6de7bd7d3e88"
         },
         "2313e2f5-3e5e-40cf-ad37-f99f4a16dfbd": {
           "label": "Turing test",
           "link": "https://en.wikipedia.org/wiki/Turing test",
-          "x": 77714,
-          "y": 8391,
+          "x": 78681,
+          "y": 6300,
           "id": "2313e2f5-3e5e-40cf-ad37-f99f4a16dfbd"
         },
         "9dc17dc3-0b51-4f4c-8550-3e7b17cdf9df": {
           "label": "Turnaround document",
           "link": "https://en.wikipedia.org/wiki/Turnaround document",
-          "x": 77751,
-          "y": 8416,
+          "x": 78718,
+          "y": 6325,
           "id": "9dc17dc3-0b51-4f4c-8550-3e7b17cdf9df"
         },
         "e6e9b514-7d06-4bb7-a91b-2bfca8b26ecb": {
           "label": "Ultra Hal Assistant",
           "link": "https://en.wikipedia.org/wiki/Ultra Hal Assistant",
-          "x": 77738,
-          "y": 8441,
+          "x": 78705,
+          "y": 6350,
           "id": "e6e9b514-7d06-4bb7-a91b-2bfca8b26ecb"
         },
         "4057cd79-0e27-4e1f-a0f4-9b8273c4c3b7": {
           "label": "The Unfinished Revolution",
           "link": "https://en.wikipedia.org/wiki/The Unfinished Revolution",
-          "x": 77763,
-          "y": 8466,
+          "x": 78730,
+          "y": 6375,
           "id": "4057cd79-0e27-4e1f-a0f4-9b8273c4c3b7"
         },
         "6607dee2-8513-4abf-b55e-373cf2020b7a": {
           "label": "Unified Communications Interoperability Forum",
           "link": "https://en.wikipedia.org/wiki/Unified Communications Interoperability Forum",
-          "x": 77829,
-          "y": 8491,
+          "x": 78796,
+          "y": 6400,
           "id": "6607dee2-8513-4abf-b55e-373cf2020b7a"
         },
         "4a6620da-090a-4e85-832f-6370236c9f26": {
           "label": "University of Maryland Human–Computer Interaction Lab",
           "link": "https://en.wikipedia.org/wiki/University of Maryland Human–Computer Interaction Lab",
-          "x": 77860,
-          "y": 8516,
+          "x": 78827,
+          "y": 6425,
           "id": "4a6620da-090a-4e85-832f-6370236c9f26"
         },
         "c7e7c84e-79fd-40e2-9bf8-c405b799051e": {
           "label": "Urban computing",
           "link": "https://en.wikipedia.org/wiki/Urban computing",
-          "x": 77734,
-          "y": 8541,
+          "x": 78701,
+          "y": 6450,
           "id": "c7e7c84e-79fd-40e2-9bf8-c405b799051e"
         },
         "5aab14b2-d0b8-45f2-afa9-dd6ec04768bd": {
           "label": "Urban informatics",
           "link": "https://en.wikipedia.org/wiki/Urban informatics",
-          "x": 77736,
-          "y": 8566,
+          "x": 78703,
+          "y": 6475,
           "id": "5aab14b2-d0b8-45f2-afa9-dd6ec04768bd"
         },
         "adae8287-f773-4f41-86f8-31d487ff5588": {
           "label": "Usability",
           "link": "https://en.wikipedia.org/wiki/Usability",
-          "x": 77706,
-          "y": 8591,
+          "x": 78673,
+          "y": 6500,
           "id": "adae8287-f773-4f41-86f8-31d487ff5588"
         },
         "7d0f71fe-8deb-4844-9e03-5073df429d93": {
           "label": "Usage-centered design",
           "link": "https://en.wikipedia.org/wiki/Usage-centered design",
-          "x": 77754,
-          "y": 8616,
+          "x": 78721,
+          "y": 6525,
           "id": "7d0f71fe-8deb-4844-9e03-5073df429d93"
         },
         "b55f5c9e-8ff7-44df-a945-fed1971a2f55": {
           "label": "User experience",
           "link": "https://en.wikipedia.org/wiki/User experience",
-          "x": 77732,
-          "y": 8641,
+          "x": 78699,
+          "y": 6550,
           "id": "b55f5c9e-8ff7-44df-a945-fed1971a2f55"
         },
         "72136803-9648-4c72-a336-cb593c685f9b": {
           "label": "User experience design",
           "link": "https://en.wikipedia.org/wiki/User experience design",
-          "x": 77755,
-          "y": 8666,
+          "x": 78722,
+          "y": 6575,
           "id": "72136803-9648-4c72-a336-cb593c685f9b"
         },
         "70ae7d6d-1b79-4e34-8250-003374e9730a": {
           "label": "User experience evaluation",
           "link": "https://en.wikipedia.org/wiki/User experience evaluation",
-          "x": 77766,
-          "y": 8691,
+          "x": 78733,
+          "y": 6600,
           "id": "70ae7d6d-1b79-4e34-8250-003374e9730a"
         },
         "513ec442-5501-4e76-a3d7-ebfc99bd70df": {
           "label": "User persona",
           "link": "https://en.wikipedia.org/wiki/User persona",
-          "x": 77723,
-          "y": 8716,
+          "x": 78690,
+          "y": 6625,
           "id": "513ec442-5501-4e76-a3d7-ebfc99bd70df"
         },
         "410d5261-61f9-4736-b750-3c72d874e2ca": {
           "label": "User virtualization",
           "link": "https://en.wikipedia.org/wiki/User virtualization",
-          "x": 77736,
-          "y": 8741,
+          "x": 78703,
+          "y": 6650,
           "id": "410d5261-61f9-4736-b750-3c72d874e2ca"
         },
         "2c9e2ded-02f0-4734-be96-c68fda3d73f8": {
           "label": "User-centered design",
           "link": "https://en.wikipedia.org/wiki/User-centered design",
-          "x": 77748,
-          "y": 8766,
+          "x": 78715,
+          "y": 6675,
           "id": "2c9e2ded-02f0-4734-be96-c68fda3d73f8"
         },
         "7208f5c9-21b4-4420-a9dd-d646bdb9137c": {
           "label": "User-subjective approach",
           "link": "https://en.wikipedia.org/wiki/User-subjective approach",
-          "x": 77761,
-          "y": 8791,
+          "x": 78728,
+          "y": 6700,
           "id": "7208f5c9-21b4-4420-a9dd-d646bdb9137c"
         },
         "48b44d9c-6d86-431d-aff2-9942a8192c23": {
           "label": "Value sensitive design",
           "link": "https://en.wikipedia.org/wiki/Value sensitive design",
-          "x": 77750,
-          "y": 8816,
+          "x": 78717,
+          "y": 6725,
           "id": "48b44d9c-6d86-431d-aff2-9942a8192c23"
         },
         "3e74af4f-a990-4c93-9649-38c011e002ec": {
           "label": "Video game rehabilitation",
           "link": "https://en.wikipedia.org/wiki/Video game rehabilitation",
-          "x": 77760,
-          "y": 8841,
+          "x": 78727,
+          "y": 6750,
           "id": "3e74af4f-a990-4c93-9649-38c011e002ec"
         },
         "e3dcf821-f310-49a4-9e35-5514afd74239": {
           "label": "Fernanda Viégas",
           "link": "https://en.wikipedia.org/wiki/Fernanda Viégas",
-          "x": 77734,
-          "y": 8866,
+          "x": 78701,
+          "y": 6775,
           "id": "e3dcf821-f310-49a4-9e35-5514afd74239"
         },
         "c6c9cb77-223f-4992-8588-a9f92128356b": {
           "label": "Virtual touch screen",
           "link": "https://en.wikipedia.org/wiki/Virtual touch screen",
-          "x": 77743,
-          "y": 8891,
+          "x": 78710,
+          "y": 6800,
           "id": "c6c9cb77-223f-4992-8588-a9f92128356b"
         },
         "2568acc5-ed23-4e92-a3bd-5b0f6acc3ad8": {
           "label": "Visual Turing Test",
           "link": "https://en.wikipedia.org/wiki/Visual Turing Test",
-          "x": 77736,
-          "y": 8916,
+          "x": 78703,
+          "y": 6825,
           "id": "2568acc5-ed23-4e92-a3bd-5b0f6acc3ad8"
         },
         "2f9e7d72-6d45-4dfb-a808-227f2daaf236": {
           "label": "Martin M. Wattenberg",
           "link": "https://en.wikipedia.org/wiki/Martin M. Wattenberg",
-          "x": 77749,
-          "y": 8941,
+          "x": 78716,
+          "y": 6850,
           "id": "2f9e7d72-6d45-4dfb-a808-227f2daaf236"
         },
         "8701edae-8648-4134-be57-9cc0b7c82f0d": {
           "label": "Wearable computer",
           "link": "https://en.wikipedia.org/wiki/Wearable computer",
-          "x": 77742,
-          "y": 8966,
+          "x": 78709,
+          "y": 6875,
           "id": "8701edae-8648-4134-be57-9cc0b7c82f0d"
         },
         "7546df09-f619-404f-8f5f-e45bdf0bca1d": {
           "label": "Wearable Computing Group",
           "link": "https://en.wikipedia.org/wiki/Wearable Computing Group",
-          "x": 77769,
-          "y": 8991,
+          "x": 78736,
+          "y": 6900,
           "id": "7546df09-f619-404f-8f5f-e45bdf0bca1d"
         },
         "8ddf9133-d459-499a-ad99-a7db7e0df194": {
           "label": "Wearable technology",
           "link": "https://en.wikipedia.org/wiki/Wearable technology",
-          "x": 77747,
-          "y": 9016,
+          "x": 78714,
+          "y": 6925,
           "id": "8ddf9133-d459-499a-ad99-a7db7e0df194"
         },
         "d05fc7a5-3072-4975-9f2e-55566a5ea77c": {
           "label": "Wikirating",
           "link": "https://en.wikipedia.org/wiki/Wikirating",
-          "x": 77711,
-          "y": 9041,
+          "x": 78678,
+          "y": 6950,
           "id": "d05fc7a5-3072-4975-9f2e-55566a5ea77c"
         },
         "1eddb122-868d-4353-952e-28925f5b5d86": {
           "label": "Wizard of Oz experiment",
           "link": "https://en.wikipedia.org/wiki/Wizard of Oz experiment",
-          "x": 77758,
-          "y": 9066,
+          "x": 78725,
+          "y": 6975,
           "id": "1eddb122-868d-4353-952e-28925f5b5d86"
         },
         "a37b3bb8-01fd-4321-ba4a-4880b217994b": {
           "label": "World Wide Web",
           "link": "https://en.wikipedia.org/wiki/World Wide Web",
-          "x": 77733,
-          "y": 9091,
+          "x": 78700,
+          "y": 7000,
           "id": "a37b3bb8-01fd-4321-ba4a-4880b217994b"
         },
         "a81271dc-ddc0-4915-9219-a7c2ab55a363": {
           "label": "Category:Affective computing",
           "link": "https://en.wikipedia.org/wiki/Category:Affective computing",
-          "x": 77773,
-          "y": 9116,
+          "x": 78740,
+          "y": 7025,
           "id": "a81271dc-ddc0-4915-9219-a7c2ab55a363"
         },
         "45981516-3ee2-416a-9ca6-4acdc91e3fd9": {
           "label": "Category:Affective haptics",
           "link": "https://en.wikipedia.org/wiki/Category:Affective haptics",
-          "x": 77762,
-          "y": 9141,
+          "x": 78729,
+          "y": 7050,
           "id": "45981516-3ee2-416a-9ca6-4acdc91e3fd9"
         },
         "1b7d1902-94f3-45a6-9e1e-64ddd2a3ada0": {
           "label": "Category:Ambient intelligence",
           "link": "https://en.wikipedia.org/wiki/Category:Ambient intelligence",
-          "x": 77774,
-          "y": 9166,
+          "x": 78741,
+          "y": 7075,
           "id": "1b7d1902-94f3-45a6-9e1e-64ddd2a3ada0"
         },
         "6c994eed-ad04-4a9b-bc0e-4ef00460657f": {
           "label": "Category:Automatic identification and data capture",
           "link": "https://en.wikipedia.org/wiki/Category:Automatic identification and data capture",
-          "x": 77840,
-          "y": 9191,
+          "x": 78807,
+          "y": 7100,
           "id": "6c994eed-ad04-4a9b-bc0e-4ef00460657f"
         },
         "cb30b3ed-478b-4c3d-8bb7-3ec2c6c31289": {
           "label": "Category:Brain–computer interfacing",
           "link": "https://en.wikipedia.org/wiki/Category:Brain–computer interfacing",
-          "x": 77796,
-          "y": 9216,
+          "x": 78763,
+          "y": 7125,
           "id": "cb30b3ed-478b-4c3d-8bb7-3ec2c6c31289"
         },
         "a5732066-7e9b-40b2-81ac-032e39bfeaa5": {
           "label": "Category:Computer error messages",
           "link": "https://en.wikipedia.org/wiki/Category:Computer error messages",
-          "x": 77794,
-          "y": 9241,
+          "x": 78761,
+          "y": 7150,
           "id": "a5732066-7e9b-40b2-81ac-032e39bfeaa5"
         },
         "26e16f7a-7e81-4839-b7de-078f0d7ec7d6": {
           "label": "Category:Computing input devices",
           "link": "https://en.wikipedia.org/wiki/Category:Computing input devices",
-          "x": 77789,
-          "y": 9266,
+          "x": 78756,
+          "y": 7175,
           "id": "26e16f7a-7e81-4839-b7de-078f0d7ec7d6"
         },
         "2e4122b2-6732-40cb-be2e-3fec1ef4fcef": {
           "label": "Category:Ergonomics",
           "link": "https://en.wikipedia.org/wiki/Category:Ergonomics",
-          "x": 77748,
-          "y": 9291,
+          "x": 78715,
+          "y": 7200,
           "id": "2e4122b2-6732-40cb-be2e-3fec1ef4fcef"
         },
         "438ea3da-98ae-456e-802e-ae06f30c03b5": {
           "label": "Category:History of human–computer interaction",
           "link": "https://en.wikipedia.org/wiki/Category:History of human–computer interaction",
-          "x": 77834,
-          "y": 9316,
+          "x": 78801,
+          "y": 7225,
           "id": "438ea3da-98ae-456e-802e-ae06f30c03b5"
         },
         "0f75f80c-4790-45f2-9a0c-c4ff3479cfb9": {
           "label": "Category:Human-based computation",
           "link": "https://en.wikipedia.org/wiki/Category:Human-based computation",
-          "x": 77797,
-          "y": 9341,
+          "x": 78764,
+          "y": 7250,
           "id": "0f75f80c-4790-45f2-9a0c-c4ff3479cfb9"
         },
         "ea0cef24-8158-4328-a833-98c2cb2a23d4": {
           "label": "Category:Human–computer interaction journals",
           "link": "https://en.wikipedia.org/wiki/Category:Human–computer interaction journals",
-          "x": 77830,
-          "y": 9366,
+          "x": 78797,
+          "y": 7275,
           "id": "ea0cef24-8158-4328-a833-98c2cb2a23d4"
         },
         "b15f44c6-eeea-483d-91ec-e761841260c9": {
           "label": "Category:Interactive evolutionary computation",
           "link": "https://en.wikipedia.org/wiki/Category:Interactive evolutionary computation",
-          "x": 77825,
-          "y": 9391,
+          "x": 78792,
+          "y": 7300,
           "id": "b15f44c6-eeea-483d-91ec-e761841260c9"
         },
         "1676db4a-b024-4caa-987b-ab7bffb61743": {
           "label": "Category:Natural language and computing",
           "link": "https://en.wikipedia.org/wiki/Category:Natural language and computing",
-          "x": 77814,
-          "y": 9416,
+          "x": 78781,
+          "y": 7325,
           "id": "1676db4a-b024-4caa-987b-ab7bffb61743"
         },
         "22d6938e-e1b7-454c-ad36-5b33e3ced0c1": {
           "label": "Category:Multimodal interaction",
           "link": "https://en.wikipedia.org/wiki/Category:Multimodal interaction",
-          "x": 77780,
-          "y": 9441,
+          "x": 78747,
+          "y": 7350,
           "id": "22d6938e-e1b7-454c-ad36-5b33e3ced0c1"
         },
         "5844be45-af03-495a-af9c-0e77f83db488": {
           "label": "Category:Human–computer interaction researchers",
           "link": "https://en.wikipedia.org/wiki/Category:Human–computer interaction researchers",
-          "x": 77843,
-          "y": 9466,
+          "x": 78810,
+          "y": 7375,
           "id": "5844be45-af03-495a-af9c-0e77f83db488"
         },
         "76fe0602-24d5-4c99-9b57-0d810849593b": {
           "label": "Category:Responsive web design",
           "link": "https://en.wikipedia.org/wiki/Category:Responsive web design",
-          "x": 77786,
-          "y": 9491,
+          "x": 78753,
+          "y": 7400,
           "id": "76fe0602-24d5-4c99-9b57-0d810849593b"
         },
         "6e9f7107-8a7b-4fb2-a54b-1b560f0b4fb6": {
           "label": "Category:Smart bands",
           "link": "https://en.wikipedia.org/wiki/Category:Smart bands",
-          "x": 77751,
-          "y": 9516,
+          "x": 78718,
+          "y": 7425,
           "id": "6e9f7107-8a7b-4fb2-a54b-1b560f0b4fb6"
         },
         "db6fea19-1495-4434-a5fd-ccefc49336e5": {
           "label": "Category:Speech recognition",
           "link": "https://en.wikipedia.org/wiki/Category:Speech recognition",
-          "x": 77772,
-          "y": 9541,
+          "x": 78739,
+          "y": 7450,
           "id": "db6fea19-1495-4434-a5fd-ccefc49336e5"
         },
         "b110dc1b-1c5c-4a13-9b52-59abf238f371": {
           "label": "Category:Ubiquitous computing",
           "link": "https://en.wikipedia.org/wiki/Category:Ubiquitous computing",
-          "x": 77779,
-          "y": 9566,
+          "x": 78746,
+          "y": 7475,
           "id": "b110dc1b-1c5c-4a13-9b52-59abf238f371"
         },
         "66a4d982-2c86-45c7-ba3c-d59734f6ff13": {
           "label": "Category:Usability",
           "link": "https://en.wikipedia.org/wiki/Category:Usability",
-          "x": 77737,
-          "y": 9591,
+          "x": 78704,
+          "y": 7500,
           "id": "66a4d982-2c86-45c7-ba3c-d59734f6ff13"
         },
         "eb405698-d8c1-487e-88c2-ab0a78190f65": {
           "label": "Category:User interfaces",
           "link": "https://en.wikipedia.org/wiki/Category:User interfaces",
-          "x": 77759,
-          "y": 9616,
+          "x": 78726,
+          "y": 7525,
           "id": "eb405698-d8c1-487e-88c2-ab0a78190f65"
         },
         "2c9bb7c9-4c9f-4484-96af-7c419d4aa63f": {
           "label": "Category:Virtual reality",
           "link": "https://en.wikipedia.org/wiki/Category:Virtual reality",
-          "x": 77752,
-          "y": 9641,
+          "x": 78719,
+          "y": 7550,
           "id": "2c9bb7c9-4c9f-4484-96af-7c419d4aa63f"
         },
         "8d6d0095-a0c7-4ac8-a1d0-97751ea76430": {
           "label": "Category:Voice technology",
           "link": "https://en.wikipedia.org/wiki/Category:Voice technology",
-          "x": 77765,
-          "y": 9666,
+          "x": 78732,
+          "y": 7575,
           "id": "8d6d0095-a0c7-4ac8-a1d0-97751ea76430"
         },
         "c87ef7a7-5731-4bdb-a8a3-a9e76014f9ae": {
           "label": "Category:Wearable devices",
           "link": "https://en.wikipedia.org/wiki/Category:Wearable devices",
-          "x": 77767,
-          "y": 9691,
+          "x": 78734,
+          "y": 7600,
           "id": "c87ef7a7-5731-4bdb-a8a3-a9e76014f9ae"
         },
         "c90b7ac1-dc9b-44d9-9978-34af13fd29d1": {
           "label": "Category:World Wide Web",
           "link": "https://en.wikipedia.org/wiki/Category:World Wide Web",
-          "x": 77764,
-          "y": 9716,
+          "x": 78731,
+          "y": 7625,
           "id": "c90b7ac1-dc9b-44d9-9978-34af13fd29d1"
         },
         "b1a163e2-a601-47fa-b4e1-1d9c00e81746": {
           "label": "File:BCIAward2013.jpg",
           "link": "https://en.wikipedia.org/wiki/File:BCIAward2013.jpg",
-          "x": 77752,
-          "y": 9741,
+          "x": 78719,
+          "y": 7650,
           "id": "b1a163e2-a601-47fa-b4e1-1d9c00e81746"
         },
         "aa24f128-4b75-4fc6-8c6d-d2bec76f9523": {
           "label": "File:BCIAward2015.jpg",
           "link": "https://en.wikipedia.org/wiki/File:BCIAward2015.jpg",
-          "x": 77752,
-          "y": 9766,
+          "x": 78719,
+          "y": 7675,
           "id": "aa24f128-4b75-4fc6-8c6d-d2bec76f9523"
         },
         "17707a0f-0cc4-41a2-b1cb-8c0ff8fb4d26": {
           "label": "File:BCIAwardWinner2014.jpg",
           "link": "https://en.wikipedia.org/wiki/File:BCIAwardWinner2014.jpg",
-          "x": 77775,
-          "y": 9791,
+          "x": 78742,
+          "y": 7700,
           "id": "17707a0f-0cc4-41a2-b1cb-8c0ff8fb4d26"
         },
         "ac4fc3bb-4206-481c-99fd-282e3c2a8719": {
           "id": "ac4fc3bb-4206-481c-99fd-282e3c2a8719",
-          "x": 77355,
-          "y": 6623,
+          "x": 78322,
+          "y": 4532,
           "label": "Category:Human–computer_interaction (Wikipedia)"
         },
         "583bea8e-1bec-41ae-970c-b50e617bd4c8": {
           "label": "Conceptual model",
           "link": "https://en.wikipedia.org/wiki/Conceptual model",
-          "x": 65834,
-          "y": -3344,
+          "x": 65973,
+          "y": 5140,
           "id": "583bea8e-1bec-41ae-970c-b50e617bd4c8"
         },
         "2ed63f02-8a9b-4c16-9509-20a9c8fc8c47": {
           "label": "Acceptability",
           "link": "https://en.wikipedia.org/wiki/Acceptability",
-          "x": 65816,
-          "y": -3319,
+          "x": 65955,
+          "y": 5165,
           "id": "2ed63f02-8a9b-4c16-9509-20a9c8fc8c47"
         },
         "1f1c4413-519d-430a-af5d-485816710b41": {
           "label": "Analogy",
           "link": "https://en.wikipedia.org/wiki/Analogy",
-          "x": 65802,
-          "y": -3294,
+          "x": 65941,
+          "y": 5190,
           "id": "1f1c4413-519d-430a-af5d-485816710b41"
         },
         "c4a5f96f-f5a9-4efb-88c8-91bd51334864": {
           "label": "Conceptual design",
           "link": "https://en.wikipedia.org/wiki/Conceptual design",
-          "x": 65835,
-          "y": -3269,
+          "x": 65974,
+          "y": 5215,
           "id": "c4a5f96f-f5a9-4efb-88c8-91bd51334864"
         },
         "97c921b4-2a73-47a5-b38d-cf1e259fbbf2": {
           "label": "Conceptual framework",
           "link": "https://en.wikipedia.org/wiki/Conceptual framework",
-          "x": 65848,
-          "y": -3244,
+          "x": 65987,
+          "y": 5240,
           "id": "97c921b4-2a73-47a5-b38d-cf1e259fbbf2"
         },
         "6f188b36-09e8-42d2-a7de-a0576a8b4e83": {
           "label": "Conceptual programs in physics",
           "link": "https://en.wikipedia.org/wiki/Conceptual programs in physics",
-          "x": 65878,
-          "y": -3219,
+          "x": 66017,
+          "y": 5265,
           "id": "6f188b36-09e8-42d2-a7de-a0576a8b4e83"
         },
         "a90a0fd0-521c-4986-9b9f-5052a2b1ecab": {
           "label": "Economic model",
           "link": "https://en.wikipedia.org/wiki/Economic model",
-          "x": 65829,
-          "y": -3194,
+          "x": 65968,
+          "y": 5290,
           "id": "a90a0fd0-521c-4986-9b9f-5052a2b1ecab"
         },
         "55d713a0-3d64-4db7-b97b-18a480ab5862": {
           "label": "Ecopath",
           "link": "https://en.wikipedia.org/wiki/Ecopath",
-          "x": 65802,
-          "y": -3169,
+          "x": 65941,
+          "y": 5315,
           "id": "55d713a0-3d64-4db7-b97b-18a480ab5862"
         },
         "ac5c941a-f9e3-4254-84e4-fc8020f77c15": {
           "label": "Explanatory model",
           "link": "https://en.wikipedia.org/wiki/Explanatory model",
-          "x": 65835,
-          "y": -3144,
+          "x": 65974,
+          "y": 5340,
           "id": "ac5c941a-f9e3-4254-84e4-fc8020f77c15"
         },
         "e7fff8e8-846a-462e-aa64-c588a64018f6": {
           "label": "Imago Universi",
           "link": "https://en.wikipedia.org/wiki/Imago Universi",
-          "x": 65824,
-          "y": -3119,
+          "x": 65963,
+          "y": 5365,
           "id": "e7fff8e8-846a-462e-aa64-c588a64018f6"
         },
         "9532dbd1-0689-4f9d-99fc-686d4b68d7c2": {
           "label": "Interpretation (philosophy)",
           "link": "https://en.wikipedia.org/wiki/Interpretation (philosophy)",
-          "x": 65860,
-          "y": -3094,
+          "x": 65999,
+          "y": 5390,
           "id": "9532dbd1-0689-4f9d-99fc-686d4b68d7c2"
         },
         "61436603-ff32-42d2-a700-076fa4bfc125": {
           "label": "Knowledge space (philosophy)",
           "link": "https://en.wikipedia.org/wiki/Knowledge space (philosophy)",
-          "x": 65873,
-          "y": -3069,
+          "x": 66012,
+          "y": 5415,
           "id": "61436603-ff32-42d2-a700-076fa4bfc125"
         },
         "4e879746-f6ce-4080-8f32-f9297b508aa9": {
           "label": "Mathematical model",
           "link": "https://en.wikipedia.org/wiki/Mathematical model",
-          "x": 65840,
-          "y": -3044,
+          "x": 65979,
+          "y": 5440,
           "id": "4e879746-f6ce-4080-8f32-f9297b508aa9"
         },
         "c2516cf0-aa1b-4f46-b68d-470782db1dda": {
           "label": "Mental model",
           "link": "https://en.wikipedia.org/wiki/Mental model",
-          "x": 65819,
-          "y": -3019,
+          "x": 65958,
+          "y": 5465,
           "id": "c2516cf0-aa1b-4f46-b68d-470782db1dda"
         },
         "af301685-5c83-4b6e-b3fe-b067dd09e8f8": {
           "label": "Models of communication",
           "link": "https://en.wikipedia.org/wiki/Models of communication",
-          "x": 65857,
-          "y": -2994,
+          "x": 65996,
+          "y": 5490,
           "id": "af301685-5c83-4b6e-b3fe-b067dd09e8f8"
         },
         "a99ed9e8-fe9f-4a14-a1b7-2586ba6daca9": {
           "label": "Models of scientific inquiry",
           "link": "https://en.wikipedia.org/wiki/Models of scientific inquiry",
-          "x": 65859,
-          "y": -2969,
+          "x": 65998,
+          "y": 5515,
           "id": "a99ed9e8-fe9f-4a14-a1b7-2586ba6daca9"
         },
         "9ad9752b-34e7-4943-b16a-010e3fbcbcc8": {
           "label": "Possible world",
           "link": "https://en.wikipedia.org/wiki/Possible world",
-          "x": 65822,
-          "y": -2944,
+          "x": 65961,
+          "y": 5540,
           "id": "9ad9752b-34e7-4943-b16a-010e3fbcbcc8"
         },
         "6d82bf53-516c-4e97-8c38-76da9bcfb175": {
           "label": "Process reference models",
           "link": "https://en.wikipedia.org/wiki/Process reference models",
-          "x": 65859,
-          "y": -2919,
+          "x": 65998,
+          "y": 5565,
           "id": "6d82bf53-516c-4e97-8c38-76da9bcfb175"
         },
         "4dccf38a-2034-453e-bba3-4921c9d5818e": {
           "label": "Scientific modelling",
           "link": "https://en.wikipedia.org/wiki/Scientific modelling",
-          "x": 65837,
-          "y": -2894,
+          "x": 65976,
+          "y": 5590,
           "id": "4dccf38a-2034-453e-bba3-4921c9d5818e"
         },
         "da4d132f-63a8-4870-be4f-341604ec2e34": {
           "label": "SEQUAL framework",
           "link": "https://en.wikipedia.org/wiki/SEQUAL framework",
-          "x": 65840,
-          "y": -2869,
+          "x": 65979,
+          "y": 5615,
           "id": "da4d132f-63a8-4870-be4f-341604ec2e34"
         },
         "34af6a9a-ae30-4d0e-84ed-011e5b43b209": {
           "label": "Similitude (model)",
           "link": "https://en.wikipedia.org/wiki/Similitude (model)",
-          "x": 65833,
-          "y": -2844,
+          "x": 65972,
+          "y": 5640,
           "id": "34af6a9a-ae30-4d0e-84ed-011e5b43b209"
         },
         "06b5d182-f735-4898-b443-66d0b6a323be": {
           "label": "Thought experiment",
           "link": "https://en.wikipedia.org/wiki/Thought experiment",
-          "x": 65840,
-          "y": -2819,
+          "x": 65979,
+          "y": 5665,
           "id": "06b5d182-f735-4898-b443-66d0b6a323be"
         },
         "0350aa05-333e-4e76-b4e4-bd26c5bb3ef9": {
           "label": "Transient modelling",
           "link": "https://en.wikipedia.org/wiki/Transient modelling",
-          "x": 65838,
-          "y": -2794,
+          "x": 65977,
+          "y": 5690,
           "id": "0350aa05-333e-4e76-b4e4-bd26c5bb3ef9"
         },
         "760a8423-6fa3-4a9c-aef1-0abe27053a91": {
           "label": "World view",
           "link": "https://en.wikipedia.org/wiki/World view",
-          "x": 65810,
-          "y": -2769,
+          "x": 65949,
+          "y": 5715,
           "id": "760a8423-6fa3-4a9c-aef1-0abe27053a91"
         },
         "3d386e01-7544-4862-af3a-6d81227e66d6": {
           "label": "Category:Analogy",
           "link": "https://en.wikipedia.org/wiki/Category:Analogy",
-          "x": 65833,
-          "y": -2744,
+          "x": 65972,
+          "y": 5740,
           "id": "3d386e01-7544-4862-af3a-6d81227e66d6"
         },
         "bf665abf-02fd-48c6-8751-39a97fbf91ef": {
           "label": "Category:Conceptual models",
           "link": "https://en.wikipedia.org/wiki/Category:Conceptual models",
-          "x": 65868,
-          "y": -2719,
+          "x": 66007,
+          "y": 5765,
           "id": "bf665abf-02fd-48c6-8751-39a97fbf91ef"
         },
         "ffcad58c-dcd4-44dd-acb4-6cbe3751b605": {
           "label": "Category:Diagrams",
           "link": "https://en.wikipedia.org/wiki/Category:Diagrams",
-          "x": 65838,
-          "y": -2694,
+          "x": 65977,
+          "y": 5790,
           "id": "ffcad58c-dcd4-44dd-acb4-6cbe3751b605"
         },
         "d96fb432-0bac-4334-9a97-fd6ebf16374c": {
           "label": "Category:Hypothetical objects",
           "link": "https://en.wikipedia.org/wiki/Category:Hypothetical objects",
-          "x": 65871,
-          "y": -2669,
+          "x": 66010,
+          "y": 5815,
           "id": "d96fb432-0bac-4334-9a97-fd6ebf16374c"
         },
         "b2e6448f-e731-4a99-9bd2-6ce92ba1e693": {
           "label": "Category:Interpretation (philosophy)",
           "link": "https://en.wikipedia.org/wiki/Category:Interpretation (philosophy)",
-          "x": 65891,
-          "y": -2644,
+          "x": 66030,
+          "y": 5840,
           "id": "b2e6448f-e731-4a99-9bd2-6ce92ba1e693"
         },
         "da395357-9f57-4013-a130-e4489a7a2b36": {
           "label": "Category:Mathematical modeling",
           "link": "https://en.wikipedia.org/wiki/Category:Mathematical modeling",
-          "x": 65881,
-          "y": -2619,
+          "x": 66020,
+          "y": 5865,
           "id": "da395357-9f57-4013-a130-e4489a7a2b36"
         },
         "45613762-ccab-46f4-ac67-9e4c9971d9c8": {
           "label": "Category:Metaphors",
           "link": "https://en.wikipedia.org/wiki/Category:Metaphors",
-          "x": 65841,
-          "y": -2594,
+          "x": 65980,
+          "y": 5890,
           "id": "45613762-ccab-46f4-ac67-9e4c9971d9c8"
         },
         "39b93765-99e9-40fc-84dc-6e20f05b1324": {
           "label": "Category:Scientific modeling",
           "link": "https://en.wikipedia.org/wiki/Category:Scientific modeling",
-          "x": 65866,
-          "y": -2569,
+          "x": 66005,
+          "y": 5915,
           "id": "39b93765-99e9-40fc-84dc-6e20f05b1324"
         },
         "68867d7f-ba7e-4ecc-b962-050da97f713a": {
           "label": "Category:Software for modeling software",
           "link": "https://en.wikipedia.org/wiki/Category:Software for modeling software",
-          "x": 65906,
-          "y": -2544,
+          "x": 66045,
+          "y": 5940,
           "id": "68867d7f-ba7e-4ecc-b962-050da97f713a"
         },
         "b991a14a-88a7-42b3-9301-f1d69eaabe74": {
           "label": "Category:Software modeling language",
           "link": "https://en.wikipedia.org/wiki/Category:Software modeling language",
-          "x": 65898,
-          "y": -2519,
+          "x": 66037,
+          "y": 5965,
           "id": "b991a14a-88a7-42b3-9301-f1d69eaabe74"
         },
         "84465113-8392-458f-91c3-36ef22d42baf": {
           "label": "Category:Razors (philosophy)",
           "link": "https://en.wikipedia.org/wiki/Category:Razors (philosophy)",
-          "x": 65871,
-          "y": -2494,
+          "x": 66010,
+          "y": 5990,
           "id": "84465113-8392-458f-91c3-36ef22d42baf"
         },
         "859910d6-2ee9-49ea-9ed3-4dcb075e734c": {
           "label": "Category:Thought experiments",
           "link": "https://en.wikipedia.org/wiki/Category:Thought experiments",
-          "x": 65875,
-          "y": -2469,
+          "x": 66014,
+          "y": 6015,
           "id": "859910d6-2ee9-49ea-9ed3-4dcb075e734c"
         },
         "1b9ae47a-72ac-410e-bb6d-11d50f129351": {
           "id": "1b9ae47a-72ac-410e-bb6d-11d50f129351",
-          "x": 65423,
-          "y": -2890,
+          "x": 65562,
+          "y": 5594,
           "label": "Category:Conceptual modelling (Wikipedia)"
         },
         "c6008f0e-c33f-4140-9294-8281453d3cb0237": {
@@ -12430,8 +12430,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Software requirements",
           "id": "fe89498b-1143-4625-85e9-cbfa050f660f108",
-          "x": 88836,
-          "y": 14850,
+          "x": 89507,
+          "y": 17913,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12736,8 +12736,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Bibliography",
           "id": "0cea3f1a-6404-4d97-bded-787249d4b75f108",
-          "x": 89254,
-          "y": 20698,
+          "x": 89925,
+          "y": 23761,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12745,918 +12745,918 @@ var schemeData =
         "6019a761-8d26-40e0-a81a-d39658fed418": {
           "label": "Requirements analysis",
           "link": "https://en.wikipedia.org/wiki/Requirements analysis",
-          "x": 89791,
-          "y": 14229,
+          "x": 90462,
+          "y": 17292,
           "id": "6019a761-8d26-40e0-a81a-d39658fed418"
         },
         "aee47b94-09ab-4aec-b59e-e8bea5d46495": {
           "label": "AC 20-115",
           "link": "https://en.wikipedia.org/wiki/AC 20-115",
-          "x": 89753,
-          "y": 14254,
+          "x": 90424,
+          "y": 17317,
           "id": "aee47b94-09ab-4aec-b59e-e8bea5d46495"
         },
         "560d5312-019a-44b8-a884-05356ebd741d": {
           "label": "AC 20-152",
           "link": "https://en.wikipedia.org/wiki/AC 20-152",
-          "x": 89753,
-          "y": 14279,
+          "x": 90424,
+          "y": 17342,
           "id": "560d5312-019a-44b8-a884-05356ebd741d"
         },
         "667e0ca7-f41b-4fb9-9431-33d6f8a3865e": {
           "label": "Business requirements",
           "link": "https://en.wikipedia.org/wiki/Business requirements",
-          "x": 89791,
-          "y": 14304,
+          "x": 90462,
+          "y": 17367,
           "id": "667e0ca7-f41b-4fb9-9431-33d6f8a3865e"
         },
         "468af7a9-2f5b-4bab-8818-e6964144344a": {
           "label": "Conceptual model (computer science)",
           "link": "https://en.wikipedia.org/wiki/Conceptual model (computer science)",
-          "x": 89839,
-          "y": 14329,
+          "x": 90510,
+          "y": 17392,
           "id": "468af7a9-2f5b-4bab-8818-e6964144344a"
         },
         "3ae63e1c-ed6e-4d66-9ecc-0207fb89db0c": {
           "label": "DO-178B",
           "link": "https://en.wikipedia.org/wiki/DO-178B",
-          "x": 89748,
-          "y": 14354,
+          "x": 90419,
+          "y": 17417,
           "id": "3ae63e1c-ed6e-4d66-9ecc-0207fb89db0c"
         },
         "5636489a-f3f2-42ca-bcd8-7a9fd0ca5c56": {
           "label": "DO-178C",
           "link": "https://en.wikipedia.org/wiki/DO-178C",
-          "x": 89749,
-          "y": 14379,
+          "x": 90420,
+          "y": 17442,
           "id": "5636489a-f3f2-42ca-bcd8-7a9fd0ca5c56"
         },
         "60e2a868-524e-4457-9850-9678c04fc7c8": {
           "label": "Domain model",
           "link": "https://en.wikipedia.org/wiki/Domain model",
-          "x": 89765,
-          "y": 14404,
+          "x": 90436,
+          "y": 17467,
           "id": "60e2a868-524e-4457-9850-9678c04fc7c8"
         },
         "b037bfc4-1821-49eb-b788-61bbcc3a766d": {
           "label": "Endeavour Software Project Management",
           "link": "https://en.wikipedia.org/wiki/Endeavour Software Project Management",
-          "x": 89851,
-          "y": 14429,
+          "x": 90522,
+          "y": 17492,
           "id": "b037bfc4-1821-49eb-b788-61bbcc3a766d"
         },
         "a0499dc6-22de-44be-97ea-fa82fdf0f80f": {
           "label": "ERequirements",
           "link": "https://en.wikipedia.org/wiki/ERequirements",
-          "x": 89768,
-          "y": 14454,
+          "x": 90439,
+          "y": 17517,
           "id": "a0499dc6-22de-44be-97ea-fa82fdf0f80f"
         },
         "076debbb-9ee7-4f13-afad-17bc5f32c6f5": {
           "label": "Event partitioning",
           "link": "https://en.wikipedia.org/wiki/Event partitioning",
-          "x": 89774,
-          "y": 14479,
+          "x": 90445,
+          "y": 17542,
           "id": "076debbb-9ee7-4f13-afad-17bc5f32c6f5"
         },
         "c35fe7c8-5bb7-4ae6-9a89-b62bc3efb9eb": {
           "label": "Feature creep",
           "link": "https://en.wikipedia.org/wiki/Feature creep",
-          "x": 89764,
-          "y": 14504,
+          "x": 90435,
+          "y": 17567,
           "id": "c35fe7c8-5bb7-4ae6-9a89-b62bc3efb9eb"
         },
         "cdb63522-4065-419d-b281-f60ccb797488": {
           "label": "Feature model",
           "link": "https://en.wikipedia.org/wiki/Feature model",
-          "x": 89765,
-          "y": 14529,
+          "x": 90436,
+          "y": 17592,
           "id": "cdb63522-4065-419d-b281-f60ccb797488"
         },
         "ecd005d7-2011-47ce-be21-cf6238fb35eb": {
           "label": "Functional requirement",
           "link": "https://en.wikipedia.org/wiki/Functional requirement",
-          "x": 89792,
-          "y": 14554,
+          "x": 90463,
+          "y": 17617,
           "id": "ecd005d7-2011-47ce-be21-cf6238fb35eb"
         },
         "573c5386-3a23-4f76-9356-0bf7eeea2ba7": {
           "label": "FURPS",
           "link": "https://en.wikipedia.org/wiki/FURPS",
-          "x": 89742,
-          "y": 14579,
+          "x": 90413,
+          "y": 17642,
           "id": "573c5386-3a23-4f76-9356-0bf7eeea2ba7"
         },
         "52d071d4-3bb8-4bbf-aafd-784dd8cd6259": {
           "label": "Gap analysis",
           "link": "https://en.wikipedia.org/wiki/Gap analysis",
-          "x": 89760,
-          "y": 14604,
+          "x": 90431,
+          "y": 17667,
           "id": "52d071d4-3bb8-4bbf-aafd-784dd8cd6259"
         },
         "c2b5e25d-27b2-475b-abc6-fe72b77ed2d3": {
           "label": "Goal modeling",
           "link": "https://en.wikipedia.org/wiki/Goal modeling",
-          "x": 89765,
-          "y": 14629,
+          "x": 90436,
+          "y": 17692,
           "id": "c2b5e25d-27b2-475b-abc6-fe72b77ed2d3"
         },
         "caa23326-72ca-488d-aa56-966818edc388": {
           "label": "Goal-oriented Requirements Language",
           "link": "https://en.wikipedia.org/wiki/Goal-oriented Requirements Language",
-          "x": 89843,
-          "y": 14654,
+          "x": 90514,
+          "y": 17717,
           "id": "caa23326-72ca-488d-aa56-966818edc388"
         },
         "65265101-e032-4a35-9c92-0278a8d2efec": {
           "label": "Hardware compatibility list",
           "link": "https://en.wikipedia.org/wiki/Hardware compatibility list",
-          "x": 89801,
-          "y": 14679,
+          "x": 90472,
+          "y": 17742,
           "id": "65265101-e032-4a35-9c92-0278a8d2efec"
         },
         "c19b8981-3ee4-4ca8-8df5-af260fa23b06": {
           "label": "I*",
           "link": "https://en.wikipedia.org/wiki/I*",
-          "x": 89723,
-          "y": 14704,
+          "x": 90394,
+          "y": 17767,
           "id": "c19b8981-3ee4-4ca8-8df5-af260fa23b06"
         },
         "ff281e2e-c9b1-43f4-bdbf-8f66b3e4388e": {
           "label": "International Requirements Engineering Board",
           "link": "https://en.wikipedia.org/wiki/International Requirements Engineering Board",
-          "x": 89866,
-          "y": 14729,
+          "x": 90537,
+          "y": 17792,
           "id": "ff281e2e-c9b1-43f4-bdbf-8f66b3e4388e"
         },
         "ec1b0243-13e0-408e-bb80-1157d273e47a": {
           "label": "Joint application design",
           "link": "https://en.wikipedia.org/wiki/Joint application design",
-          "x": 89793,
-          "y": 14754,
+          "x": 90464,
+          "y": 17817,
           "id": "ec1b0243-13e0-408e-bb80-1157d273e47a"
         },
         "54be8000-ce59-45ee-b4a4-89f6831fc8c3": {
           "label": "KAOS (software development)",
           "link": "https://en.wikipedia.org/wiki/KAOS (software development)",
-          "x": 89815,
-          "y": 14779,
+          "x": 90486,
+          "y": 17842,
           "id": "54be8000-ce59-45ee-b4a4-89f6831fc8c3"
         },
         "c25fcc8b-cfcf-48c8-9e30-edf358422008": {
           "label": "Lifecycle Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Lifecycle Modeling Language",
-          "x": 89811,
-          "y": 14804,
+          "x": 90482,
+          "y": 17867,
           "id": "c25fcc8b-cfcf-48c8-9e30-edf358422008"
         },
         "fb06dcc9-4aa3-49fd-a2e6-df5e4af48f75": {
           "label": "List of system quality attributes",
           "link": "https://en.wikipedia.org/wiki/List of system quality attributes",
-          "x": 89816,
-          "y": 14829,
+          "x": 90487,
+          "y": 17892,
           "id": "fb06dcc9-4aa3-49fd-a2e6-df5e4af48f75"
         },
         "05b5b80e-c867-4daf-b912-26dcfa35c508": {
           "label": "Misuse case",
           "link": "https://en.wikipedia.org/wiki/Misuse case",
-          "x": 89758,
-          "y": 14854,
+          "x": 90429,
+          "y": 17917,
           "id": "05b5b80e-c867-4daf-b912-26dcfa35c508"
         },
         "a7c42b6a-a20e-4725-9a7b-91e5f76df58a": {
           "label": "MoReq2",
           "link": "https://en.wikipedia.org/wiki/MoReq2",
-          "x": 89746,
-          "y": 14879,
+          "x": 90417,
+          "y": 17942,
           "id": "a7c42b6a-a20e-4725-9a7b-91e5f76df58a"
         },
         "68ffe537-bc07-4abf-9d6d-b77f1255a33a": {
           "label": "Needs analysis",
           "link": "https://en.wikipedia.org/wiki/Needs analysis",
-          "x": 89767,
-          "y": 14904,
+          "x": 90438,
+          "y": 17967,
           "id": "68ffe537-bc07-4abf-9d6d-b77f1255a33a"
         },
         "e40d2bb8-e625-4fb4-ab9d-f91f5321d22c": {
           "label": "Non-functional requirement",
           "link": "https://en.wikipedia.org/wiki/Non-functional requirement",
-          "x": 89805,
-          "y": 14929,
+          "x": 90476,
+          "y": 17992,
           "id": "e40d2bb8-e625-4fb4-ab9d-f91f5321d22c"
         },
         "f57d3d7d-70a6-4fc4-a713-0358764d1ecf": {
           "label": "Non-functional requirements framework",
           "link": "https://en.wikipedia.org/wiki/Non-functional requirements framework",
-          "x": 89844,
-          "y": 14954,
+          "x": 90515,
+          "y": 18017,
           "id": "f57d3d7d-70a6-4fc4-a713-0358764d1ecf"
         },
         "45026d15-0151-46ce-abb4-e0ab94eb1b20": {
           "label": "Problem frames approach",
           "link": "https://en.wikipedia.org/wiki/Problem frames approach",
-          "x": 89801,
-          "y": 14979,
+          "x": 90472,
+          "y": 18042,
           "id": "45026d15-0151-46ce-abb4-e0ab94eb1b20"
         },
         "578699ae-82bd-4f67-9036-1a25438661dc": {
           "label": "Product requirements document",
           "link": "https://en.wikipedia.org/wiki/Product requirements document",
-          "x": 89821,
-          "y": 15004,
+          "x": 90492,
+          "y": 18067,
           "id": "578699ae-82bd-4f67-9036-1a25438661dc"
         },
         "64ede9b5-dc76-4034-bfc2-3e7224881963": {
           "label": "Rational DOORS",
           "link": "https://en.wikipedia.org/wiki/Rational DOORS",
-          "x": 89772,
-          "y": 15029,
+          "x": 90443,
+          "y": 18092,
           "id": "64ede9b5-dc76-4034-bfc2-3e7224881963"
         },
         "498d1897-c330-4530-9ff0-a556ade1e69d": {
           "label": "Requirement",
           "link": "https://en.wikipedia.org/wiki/Requirement",
-          "x": 89760,
-          "y": 15054,
+          "x": 90431,
+          "y": 18117,
           "id": "498d1897-c330-4530-9ff0-a556ade1e69d"
         },
         "063430a0-269e-4ba0-80c6-22bc591a46f7": {
           "label": "Requirement Diagram",
           "link": "https://en.wikipedia.org/wiki/Requirement Diagram",
-          "x": 89789,
-          "y": 15079,
+          "x": 90460,
+          "y": 18142,
           "id": "063430a0-269e-4ba0-80c6-22bc591a46f7"
         },
         "6f7355c3-b829-44e0-90c2-c4b0368b084a": {
           "label": "Requirement prioritization",
           "link": "https://en.wikipedia.org/wiki/Requirement prioritization",
-          "x": 89800,
-          "y": 15104,
+          "x": 90471,
+          "y": 18167,
           "id": "6f7355c3-b829-44e0-90c2-c4b0368b084a"
         },
         "6d6583e0-5df9-4b0d-b1c0-bf7d65e2b0fe": {
           "label": "Requirements elicitation",
           "link": "https://en.wikipedia.org/wiki/Requirements elicitation",
-          "x": 89795,
-          "y": 15129,
+          "x": 90466,
+          "y": 18192,
           "id": "6d6583e0-5df9-4b0d-b1c0-bf7d65e2b0fe"
         },
         "d376ef0a-6161-4228-ab36-23c71a2149d7": {
           "label": "Requirements engineering",
           "link": "https://en.wikipedia.org/wiki/Requirements engineering",
-          "x": 89803,
-          "y": 15154,
+          "x": 90474,
+          "y": 18217,
           "id": "d376ef0a-6161-4228-ab36-23c71a2149d7"
         },
         "bb8af7b3-2cfa-40ea-967f-849a9c01a3b7": {
           "label": "Requirements management",
           "link": "https://en.wikipedia.org/wiki/Requirements management",
-          "x": 89807,
-          "y": 15179,
+          "x": 90478,
+          "y": 18242,
           "id": "bb8af7b3-2cfa-40ea-967f-849a9c01a3b7"
         },
         "34a1fa72-dd8c-4283-a8ba-afeb456a0e9f": {
           "label": "Requirements Modeling Framework",
           "link": "https://en.wikipedia.org/wiki/Requirements Modeling Framework",
-          "x": 89832,
-          "y": 15204,
+          "x": 90503,
+          "y": 18267,
           "id": "34a1fa72-dd8c-4283-a8ba-afeb456a0e9f"
         },
         "c6088716-7eea-4a80-8af3-970d2673d49a": {
           "label": "Requirements traceability",
           "link": "https://en.wikipedia.org/wiki/Requirements traceability",
-          "x": 89799,
-          "y": 15229,
+          "x": 90470,
+          "y": 18292,
           "id": "c6088716-7eea-4a80-8af3-970d2673d49a"
         },
         "20919a89-e140-473e-9ae7-28fb04ece170": {
           "label": "Scenario (computing)",
           "link": "https://en.wikipedia.org/wiki/Scenario (computing)",
-          "x": 89787,
-          "y": 15254,
+          "x": 90458,
+          "y": 18317,
           "id": "20919a89-e140-473e-9ae7-28fb04ece170"
         },
         "3a65c9e0-fb1c-49ca-85be-4e3b567f6237": {
           "label": "Soft goal",
           "link": "https://en.wikipedia.org/wiki/Soft goal",
-          "x": 89747,
-          "y": 15279,
+          "x": 90418,
+          "y": 18342,
           "id": "3a65c9e0-fb1c-49ca-85be-4e3b567f6237"
         },
         "402aee2b-878a-4122-88a7-65ca752ac3d8": {
           "label": "Software requirements",
           "link": "https://en.wikipedia.org/wiki/Software requirements",
-          "x": 89791,
-          "y": 15304,
+          "x": 90462,
+          "y": 18367,
           "id": "402aee2b-878a-4122-88a7-65ca752ac3d8"
         },
         "b180276b-ab4f-403f-841c-9eb0b94b1cac": {
           "label": "Software requirements specification",
           "link": "https://en.wikipedia.org/wiki/Software requirements specification",
-          "x": 89832,
-          "y": 15329,
+          "x": 90503,
+          "y": 18392,
           "id": "b180276b-ab4f-403f-841c-9eb0b94b1cac"
         },
         "0796e318-b99c-4a4d-b5fa-f32f9b1bb9a5": {
           "label": "System requirements",
           "link": "https://en.wikipedia.org/wiki/System requirements",
-          "x": 89786,
-          "y": 15354,
+          "x": 90457,
+          "y": 18417,
           "id": "0796e318-b99c-4a4d-b5fa-f32f9b1bb9a5"
         },
         "3ddfac60-3990-45ca-87de-0fa567bd18bd": {
           "label": "Traceability matrix",
           "link": "https://en.wikipedia.org/wiki/Traceability matrix",
-          "x": 89776,
-          "y": 15379,
+          "x": 90447,
+          "y": 18442,
           "id": "3ddfac60-3990-45ca-87de-0fa567bd18bd"
         },
         "3515d73b-9478-465f-8ac2-ed2befce0eed": {
           "label": "Use case",
           "link": "https://en.wikipedia.org/wiki/Use case",
-          "x": 89748,
-          "y": 15404,
+          "x": 90419,
+          "y": 18467,
           "id": "3515d73b-9478-465f-8ac2-ed2befce0eed"
         },
         "23fd6896-4ab6-4d6d-8bd5-6ee7aa2a3db4": {
           "label": "Use case diagram",
           "link": "https://en.wikipedia.org/wiki/Use case diagram",
-          "x": 89776,
-          "y": 15429,
+          "x": 90447,
+          "y": 18492,
           "id": "23fd6896-4ab6-4d6d-8bd5-6ee7aa2a3db4"
         },
         "dbd6b5df-bb35-47bd-b6c6-f657c2ed3447": {
           "label": "Use case survey",
           "link": "https://en.wikipedia.org/wiki/Use case survey",
-          "x": 89771,
-          "y": 15454,
+          "x": 90442,
+          "y": 18517,
           "id": "dbd6b5df-bb35-47bd-b6c6-f657c2ed3447"
         },
         "28cb8c5c-e0c2-42f3-bb2d-a71cb4eecb17": {
           "label": "Use-case analysis",
           "link": "https://en.wikipedia.org/wiki/Use-case analysis",
-          "x": 89776,
-          "y": 15479,
+          "x": 90447,
+          "y": 18542,
           "id": "28cb8c5c-e0c2-42f3-bb2d-a71cb4eecb17"
         },
         "5cc7b577-8bf1-459f-84f9-c2e94e137ddb": {
           "label": "User requirements document",
           "link": "https://en.wikipedia.org/wiki/User requirements document",
-          "x": 89811,
-          "y": 15504,
+          "x": 90482,
+          "y": 18567,
           "id": "5cc7b577-8bf1-459f-84f9-c2e94e137ddb"
         },
         "3d814d45-686b-48f1-acbc-ac4a88c3bbfa": {
           "label": "User story",
           "link": "https://en.wikipedia.org/wiki/User story",
-          "x": 89751,
-          "y": 15529,
+          "x": 90422,
+          "y": 18592,
           "id": "3d814d45-686b-48f1-acbc-ac4a88c3bbfa"
         },
         "bc2880ef-cb85-4b9c-99d1-f0998eb43c09": {
           "label": "Vision document",
           "link": "https://en.wikipedia.org/wiki/Vision document",
-          "x": 89771,
-          "y": 15554,
+          "x": 90442,
+          "y": 18617,
           "id": "bc2880ef-cb85-4b9c-99d1-f0998eb43c09"
         },
         "2b5a7e21-bbe0-4e0b-87b1-6a5cac35d9be": {
           "label": "Category:Unified Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Category:Unified Modeling Language",
-          "x": 89837,
-          "y": 15579,
+          "x": 90508,
+          "y": 18642,
           "id": "2b5a7e21-bbe0-4e0b-87b1-6a5cac35d9be"
         },
         "7b38fbca-8b91-49e3-abe6-105c7b96fa88": {
           "label": "Unified Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Unified Modeling Language",
-          "x": 90061,
-          "y": 8124,
+          "x": 90495,
+          "y": 1857,
           "id": "7b38fbca-8b91-49e3-abe6-105c7b96fa88"
         },
         "133dc10e-b6e0-4f9e-a679-7f8e7982a908": {
           "label": "Action (UML)",
           "link": "https://en.wikipedia.org/wiki/Action (UML)",
-          "x": 90016,
-          "y": 8149,
+          "x": 90450,
+          "y": 1882,
           "id": "133dc10e-b6e0-4f9e-a679-7f8e7982a908"
         },
         "d856a0b8-3b70-47c2-9403-d700c0ebcbcd": {
           "label": "Activity (UML)",
           "link": "https://en.wikipedia.org/wiki/Activity (UML)",
-          "x": 90018,
-          "y": 8174,
+          "x": 90452,
+          "y": 1907,
           "id": "d856a0b8-3b70-47c2-9403-d700c0ebcbcd"
         },
         "848ed348-d2ee-4025-828e-1a14687d2c8d": {
           "label": "Actor (UML)",
           "link": "https://en.wikipedia.org/wiki/Actor (UML)",
-          "x": 90013,
-          "y": 8199,
+          "x": 90447,
+          "y": 1932,
           "id": "848ed348-d2ee-4025-828e-1a14687d2c8d"
         },
         "902866de-704f-4cab-9094-297fb4354cc1": {
           "label": "Applications of UML",
           "link": "https://en.wikipedia.org/wiki/Applications of UML",
-          "x": 90037,
-          "y": 8224,
+          "x": 90471,
+          "y": 1957,
           "id": "902866de-704f-4cab-9094-297fb4354cc1"
         },
         "24520014-9ef6-40f5-b706-fb39bcaf6732": {
           "label": "Artifact (UML)",
           "link": "https://en.wikipedia.org/wiki/Artifact (UML)",
-          "x": 90018,
-          "y": 8249,
+          "x": 90452,
+          "y": 1982,
           "id": "24520014-9ef6-40f5-b706-fb39bcaf6732"
         },
         "3332ce06-e9be-4461-a103-d4d1b74aa105": {
           "label": "ATLAS Transformation Language",
           "link": "https://en.wikipedia.org/wiki/ATLAS Transformation Language",
-          "x": 90080,
-          "y": 8274,
+          "x": 90514,
+          "y": 2007,
           "id": "3332ce06-e9be-4461-a103-d4d1b74aa105"
         },
         "901b5ea3-bd88-483a-b45e-aeaada58e694": {
           "label": "Grady Booch",
           "link": "https://en.wikipedia.org/wiki/Grady Booch",
-          "x": 90016,
-          "y": 8299,
+          "x": 90450,
+          "y": 2032,
           "id": "901b5ea3-bd88-483a-b45e-aeaada58e694"
         },
         "ad862083-e5d0-4fc7-8c6f-81ac54a9993a": {
           "label": "Classifier (UML)",
           "link": "https://en.wikipedia.org/wiki/Classifier (UML)",
-          "x": 90025,
-          "y": 8324,
+          "x": 90459,
+          "y": 2057,
           "id": "ad862083-e5d0-4fc7-8c6f-81ac54a9993a"
         },
         "16ea749f-78fa-405e-bb55-d2efb2448c60": {
           "label": "Clock Constraints Specification Language",
           "link": "https://en.wikipedia.org/wiki/Clock Constraints Specification Language",
-          "x": 90106,
-          "y": 8349,
+          "x": 90540,
+          "y": 2082,
           "id": "16ea749f-78fa-405e-bb55-d2efb2448c60"
         },
         "0e69f4a4-1a28-4dc3-b0c5-8f6203205ba4": {
           "label": "Component (UML)",
           "link": "https://en.wikipedia.org/wiki/Component (UML)",
-          "x": 90033,
-          "y": 8374,
+          "x": 90467,
+          "y": 2107,
           "id": "0e69f4a4-1a28-4dc3-b0c5-8f6203205ba4"
         },
         "dd98e821-0ffd-451c-9f3a-611b61e5e30f": {
           "label": "Dependency (UML)",
           "link": "https://en.wikipedia.org/wiki/Dependency (UML)",
-          "x": 90036,
-          "y": 8399,
+          "x": 90470,
+          "y": 2132,
           "id": "dd98e821-0ffd-451c-9f3a-611b61e5e30f"
         },
         "5e7ef5c8-b54a-4a7a-b625-b58961901486": {
           "label": "Element (UML)",
           "link": "https://en.wikipedia.org/wiki/Element (UML)",
-          "x": 90022,
-          "y": 8424,
+          "x": 90456,
+          "y": 2157,
           "id": "5e7ef5c8-b54a-4a7a-b625-b58961901486"
         },
         "1949d5a8-39df-400a-8034-513f148113a7": {
           "label": "Enterprise Distributed Object Computing",
           "link": "https://en.wikipedia.org/wiki/Enterprise Distributed Object Computing",
-          "x": 90102,
-          "y": 8449,
+          "x": 90536,
+          "y": 2182,
           "id": "1949d5a8-39df-400a-8034-513f148113a7"
         },
         "ea47715d-efce-4adf-87a9-6874e4325aa4": {
           "label": "Event (UML)",
           "link": "https://en.wikipedia.org/wiki/Event (UML)",
-          "x": 90014,
-          "y": 8474,
+          "x": 90448,
+          "y": 2207,
           "id": "ea47715d-efce-4adf-87a9-6874e4325aa4"
         },
         "3b13089f-f8cf-449a-af67-036f4325ec5c": {
           "label": "Executable UML",
           "link": "https://en.wikipedia.org/wiki/Executable UML",
-          "x": 90026,
-          "y": 8499,
+          "x": 90460,
+          "y": 2232,
           "id": "3b13089f-f8cf-449a-af67-036f4325ec5c"
         },
         "276848ba-a9bd-4283-9c53-57daf13a87da": {
           "label": "Gentleware",
           "link": "https://en.wikipedia.org/wiki/Gentleware",
-          "x": 90011,
-          "y": 8524,
+          "x": 90445,
+          "y": 2257,
           "id": "276848ba-a9bd-4283-9c53-57daf13a87da"
         },
         "acbafa2e-9959-4b91-9df0-ef87e024659b": {
           "label": "Glossary of Unified Modeling Language terms",
           "link": "https://en.wikipedia.org/wiki/Glossary of Unified Modeling Language terms",
-          "x": 90119,
-          "y": 8549,
+          "x": 90553,
+          "y": 2282,
           "id": "acbafa2e-9959-4b91-9df0-ef87e024659b"
         },
         "1427c76f-f198-415d-a781-2e8c054acfcb": {
           "label": "David Harel",
           "link": "https://en.wikipedia.org/wiki/David Harel",
-          "x": 90011,
-          "y": 8574,
+          "x": 90445,
+          "y": 2307,
           "id": "1427c76f-f198-415d-a781-2e8c054acfcb"
         },
         "9c2a19b6-31cd-4b1b-9439-bdf29ec53a9d": {
           "label": "Inner class",
           "link": "https://en.wikipedia.org/wiki/Inner class",
-          "x": 90009,
-          "y": 8599,
+          "x": 90443,
+          "y": 2332,
           "id": "9c2a19b6-31cd-4b1b-9439-bdf29ec53a9d"
         },
         "26ebb9cf-793e-4c5d-93a0-54236d4e7ac4": {
           "label": "Ivar Jacobson",
           "link": "https://en.wikipedia.org/wiki/Ivar Jacobson",
-          "x": 90019,
-          "y": 8624,
+          "x": 90453,
+          "y": 2357,
           "id": "26ebb9cf-793e-4c5d-93a0-54236d4e7ac4"
         },
         "dde9531f-cef1-4a61-b91b-60e307e546eb": {
           "label": "Kermeta",
           "link": "https://en.wikipedia.org/wiki/Kermeta",
-          "x": 90001,
-          "y": 8649,
+          "x": 90435,
+          "y": 2382,
           "id": "dde9531f-cef1-4a61-b91b-60e307e546eb"
         },
         "7c7775a2-c4a9-4d4b-830a-c2bdfe6cd6c8": {
           "label": "Philippe Kruchten",
           "link": "https://en.wikipedia.org/wiki/Philippe Kruchten",
-          "x": 90030,
-          "y": 8674,
+          "x": 90464,
+          "y": 2407,
           "id": "7c7775a2-c4a9-4d4b-830a-c2bdfe6cd6c8"
         },
         "b8f42c33-3d19-494f-9cad-6220c87c4e32": {
           "label": "Meta-Object Facility",
           "link": "https://en.wikipedia.org/wiki/Meta-Object Facility",
-          "x": 90037,
-          "y": 8699,
+          "x": 90471,
+          "y": 2432,
           "id": "b8f42c33-3d19-494f-9cad-6220c87c4e32"
         },
         "e8c08de0-1ef3-4673-8aa6-15ae7d5dc1d7": {
           "label": "Meta-process modeling",
           "link": "https://en.wikipedia.org/wiki/Meta-process modeling",
-          "x": 90049,
-          "y": 8724,
+          "x": 90483,
+          "y": 2457,
           "id": "e8c08de0-1ef3-4673-8aa6-15ae7d5dc1d7"
         },
         "13411809-e4e5-4698-8a86-4207a849bc3e": {
           "label": "Metadata modeling",
           "link": "https://en.wikipedia.org/wiki/Metadata modeling",
-          "x": 90035,
-          "y": 8749,
+          "x": 90469,
+          "y": 2482,
           "id": "13411809-e4e5-4698-8a86-4207a849bc3e"
         },
         "8e6dea03-c858-4e41-873c-208ae36ecb5c": {
           "label": "Model transformation",
           "link": "https://en.wikipedia.org/wiki/Model transformation",
-          "x": 90042,
-          "y": 8774,
+          "x": 90476,
+          "y": 2507,
           "id": "8e6dea03-c858-4e41-873c-208ae36ecb5c"
         },
         "9b33f4ed-af10-4a63-a962-99f89fb4c387": {
           "label": "Model-based systems engineering",
           "link": "https://en.wikipedia.org/wiki/Model-based systems engineering",
-          "x": 90083,
-          "y": 8799,
+          "x": 90517,
+          "y": 2532,
           "id": "9b33f4ed-af10-4a63-a962-99f89fb4c387"
         },
         "d1a83761-3bd5-4e0c-b348-c6a1e8af8f21": {
           "label": "Model-driven architecture",
           "link": "https://en.wikipedia.org/wiki/Model-driven architecture",
-          "x": 90055,
-          "y": 8824,
+          "x": 90489,
+          "y": 2557,
           "id": "d1a83761-3bd5-4e0c-b348-c6a1e8af8f21"
         },
         "abd6fdc9-a8be-4af5-aeff-380fbf1ac1ea": {
           "label": "Model-driven engineering",
           "link": "https://en.wikipedia.org/wiki/Model-driven engineering",
-          "x": 90055,
-          "y": 8849,
+          "x": 90489,
+          "y": 2582,
           "id": "abd6fdc9-a8be-4af5-aeff-380fbf1ac1ea"
         },
         "17133993-78ab-4c0d-9606-db36c8d8093f": {
           "label": "Model-driven integration",
           "link": "https://en.wikipedia.org/wiki/Model-driven integration",
-          "x": 90051,
-          "y": 8874,
+          "x": 90485,
+          "y": 2607,
           "id": "17133993-78ab-4c0d-9606-db36c8d8093f"
         },
         "26e2ff6b-c220-4757-9636-c90974e578b9": {
           "label": "Modeling and Analysis of Real Time and Embedded systems",
           "link": "https://en.wikipedia.org/wiki/Modeling and Analysis of Real Time and Embedded systems",
-          "x": 90166,
-          "y": 8899,
+          "x": 90600,
+          "y": 2632,
           "id": "26e2ff6b-c220-4757-9636-c90974e578b9"
         },
         "ccdf74c3-68cb-4e8e-ad73-37cffafd7382": {
           "label": "Modeling Maturity Levels",
           "link": "https://en.wikipedia.org/wiki/Modeling Maturity Levels",
-          "x": 90053,
-          "y": 8924,
+          "x": 90487,
+          "y": 2657,
           "id": "ccdf74c3-68cb-4e8e-ad73-37cffafd7382"
         },
         "8f3be2b5-02ea-4b25-bce4-4216cea6da9b": {
           "label": "Node (UML)",
           "link": "https://en.wikipedia.org/wiki/Node (UML)",
-          "x": 90013,
-          "y": 8949,
+          "x": 90447,
+          "y": 2682,
           "id": "8f3be2b5-02ea-4b25-bce4-4216cea6da9b"
         },
         "84716e1f-e82c-4922-9956-25f90b701a75": {
           "label": "Object aggregation",
           "link": "https://en.wikipedia.org/wiki/Object aggregation",
-          "x": 90035,
-          "y": 8974,
+          "x": 90469,
+          "y": 2707,
           "id": "84716e1f-e82c-4922-9956-25f90b701a75"
         },
         "b7c0bff2-aa8a-4585-b793-d1d709a11fae": {
           "label": "Object composition",
           "link": "https://en.wikipedia.org/wiki/Object composition",
-          "x": 90035,
-          "y": 8999,
+          "x": 90469,
+          "y": 2732,
           "id": "b7c0bff2-aa8a-4585-b793-d1d709a11fae"
         },
         "bb98fa2d-b790-47da-a8c6-010b0bc238ea": {
           "label": "Object Constraint Language",
           "link": "https://en.wikipedia.org/wiki/Object Constraint Language",
-          "x": 90063,
-          "y": 9024,
+          "x": 90497,
+          "y": 2757,
           "id": "bb98fa2d-b790-47da-a8c6-010b0bc238ea"
         },
         "40e171c2-503c-4e76-9bf1-64c09a883e4a": {
           "label": "Object Management Group",
           "link": "https://en.wikipedia.org/wiki/Object Management Group",
-          "x": 90061,
-          "y": 9049,
+          "x": 90495,
+          "y": 2782,
           "id": "40e171c2-503c-4e76-9bf1-64c09a883e4a"
         },
         "3cd48c46-9513-4a0b-9de5-386b6a27b7fa": {
           "label": "Object-modeling technique",
           "link": "https://en.wikipedia.org/wiki/Object-modeling technique",
-          "x": 90059,
-          "y": 9074,
+          "x": 90493,
+          "y": 2807,
           "id": "3cd48c46-9513-4a0b-9de5-386b6a27b7fa"
         },
         "a338e6be-d2c6-453e-bd58-66c56ceabcd2": {
           "label": "Object-oriented software engineering",
           "link": "https://en.wikipedia.org/wiki/Object-oriented software engineering",
-          "x": 90092,
-          "y": 9099,
+          "x": 90526,
+          "y": 2832,
           "id": "a338e6be-d2c6-453e-bd58-66c56ceabcd2"
         },
         "01226bbc-1783-47ea-876f-5fb0f7f040c7": {
           "label": "ObjecTime Developer",
           "link": "https://en.wikipedia.org/wiki/ObjecTime Developer",
-          "x": 90043,
-          "y": 9124,
+          "x": 90477,
+          "y": 2857,
           "id": "01226bbc-1783-47ea-876f-5fb0f7f040c7"
         },
         "f15916bb-7beb-4d74-acaa-2a4c717643a1": {
           "label": "Package (UML)",
           "link": "https://en.wikipedia.org/wiki/Package (UML)",
-          "x": 90024,
-          "y": 9149,
+          "x": 90458,
+          "y": 2882,
           "id": "f15916bb-7beb-4d74-acaa-2a4c717643a1"
         },
         "e9e2b9b2-01d7-4fa1-a866-d773247224f0": {
           "label": "Pathway Systems",
           "link": "https://en.wikipedia.org/wiki/Pathway Systems",
-          "x": 90030,
-          "y": 9174,
+          "x": 90464,
+          "y": 2907,
           "id": "e9e2b9b2-01d7-4fa1-a866-d773247224f0"
         },
         "ebfc5c8f-6c5c-45c7-bc01-357460de5a8d": {
           "label": "Powertype (UML)",
           "link": "https://en.wikipedia.org/wiki/Powertype (UML)",
-          "x": 90030,
-          "y": 9199,
+          "x": 90464,
+          "y": 2932,
           "id": "ebfc5c8f-6c5c-45c7-bc01-357460de5a8d"
         },
         "716aedfd-6c19-41c2-a15c-a7ecd65fbfb6": {
           "label": "Process-data diagram",
           "link": "https://en.wikipedia.org/wiki/Process-data diagram",
-          "x": 90044,
-          "y": 9224,
+          "x": 90478,
+          "y": 2957,
           "id": "716aedfd-6c19-41c2-a15c-a7ecd65fbfb6"
         },
         "c401cf92-5087-448d-9251-4ca8c6b8ee0e": {
           "label": "Production Rule Representation",
           "link": "https://en.wikipedia.org/wiki/Production Rule Representation",
-          "x": 90075,
-          "y": 9249,
+          "x": 90509,
+          "y": 2982,
           "id": "c401cf92-5087-448d-9251-4ca8c6b8ee0e"
         },
         "28450225-b277-4994-8dc3-0eccd7dd7d9f": {
           "label": "Profile (UML)",
           "link": "https://en.wikipedia.org/wiki/Profile (UML)",
-          "x": 90016,
-          "y": 9274,
+          "x": 90450,
+          "y": 3007,
           "id": "28450225-b277-4994-8dc3-0eccd7dd7d9f"
         },
         "751ee406-74a8-4600-901d-21faf6a599ee": {
           "label": "QVT",
           "link": "https://en.wikipedia.org/wiki/QVT",
-          "x": 89989,
-          "y": 9299,
+          "x": 90423,
+          "y": 3032,
           "id": "751ee406-74a8-4600-901d-21faf6a599ee"
         },
         "d7a43543-c5be-4542-b01e-a2b7ab082feb": {
           "label": "Reich Technologies",
           "link": "https://en.wikipedia.org/wiki/Reich Technologies",
-          "x": 90036,
-          "y": 9324,
+          "x": 90470,
+          "y": 3057,
           "id": "d7a43543-c5be-4542-b01e-a2b7ab082feb"
         },
         "9cb6ff19-1092-4ae8-9405-3670bf01b96a": {
           "label": "Role Class Model",
           "link": "https://en.wikipedia.org/wiki/Role Class Model",
-          "x": 90030,
-          "y": 9349,
+          "x": 90464,
+          "y": 3082,
           "id": "9cb6ff19-1092-4ae8-9405-3670bf01b96a"
         },
         "97a1e5a6-7f92-4f92-aea6-8b6b3b917613": {
           "label": "James Rumbaugh",
           "link": "https://en.wikipedia.org/wiki/James Rumbaugh",
-          "x": 90032,
-          "y": 9374,
+          "x": 90466,
+          "y": 3107,
           "id": "97a1e5a6-7f92-4f92-aea6-8b6b3b917613"
         },
         "30e4b71a-c6f4-4903-8a3f-967d1149315b": {
           "label": "Semantics of Business Vocabulary and Business Rules",
           "link": "https://en.wikipedia.org/wiki/Semantics of Business Vocabulary and Business Rules",
-          "x": 90147,
-          "y": 9399,
+          "x": 90581,
+          "y": 3132,
           "id": "30e4b71a-c6f4-4903-8a3f-967d1149315b"
         },
         "67df4bcf-3962-4a50-aebb-3bb4763f9dff": {
           "label": "SoaML",
           "link": "https://en.wikipedia.org/wiki/SoaML",
-          "x": 89997,
-          "y": 9424,
+          "x": 90431,
+          "y": 3157,
           "id": "67df4bcf-3962-4a50-aebb-3bb4763f9dff"
         },
         "cca2dd7b-63e2-4ed6-9c22-3d9429c8b876": {
           "label": "Software analysis pattern",
           "link": "https://en.wikipedia.org/wiki/Software analysis pattern",
-          "x": 90054,
-          "y": 9449,
+          "x": 90488,
+          "y": 3182,
           "id": "cca2dd7b-63e2-4ed6-9c22-3d9429c8b876"
         },
         "c5b31b39-e651-48a7-a3b2-3ab9ba4cbdfa": {
           "label": "Stereotype (UML)",
           "link": "https://en.wikipedia.org/wiki/Stereotype (UML)",
-          "x": 90031,
-          "y": 9474,
+          "x": 90465,
+          "y": 3207,
           "id": "c5b31b39-e651-48a7-a3b2-3ab9ba4cbdfa"
         },
         "1b4ebe08-e545-4ca3-97d6-eda83e50be32": {
           "label": "Swim lane",
           "link": "https://en.wikipedia.org/wiki/Swim lane",
-          "x": 90007,
-          "y": 9499,
+          "x": 90441,
+          "y": 3232,
           "id": "1b4ebe08-e545-4ca3-97d6-eda83e50be32"
         },
         "44d6d9d5-f7b8-43ad-abdd-a1255e47d90a": {
           "label": "Systems Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Systems Modeling Language",
-          "x": 90066,
-          "y": 9524,
+          "x": 90500,
+          "y": 3257,
           "id": "44d6d9d5-f7b8-43ad-abdd-a1255e47d90a"
         },
         "79331e64-0cd9-4044-b2f7-03b40a952fb7": {
           "label": "Telelogic",
           "link": "https://en.wikipedia.org/wiki/Telelogic",
-          "x": 90002,
-          "y": 9549,
+          "x": 90436,
+          "y": 3282,
           "id": "79331e64-0cd9-4044-b2f7-03b40a952fb7"
         },
         "66535a7a-866d-4860-b7e2-cd4edc8dca4d": {
           "label": "Object Modeling in Color",
           "link": "https://en.wikipedia.org/wiki/Object Modeling in Color",
-          "x": 90052,
-          "y": 9574,
+          "x": 90486,
+          "y": 3307,
           "id": "66535a7a-866d-4860-b7e2-cd4edc8dca4d"
         },
         "a8098dfa-48ec-4d47-b671-798837299613": {
           "label": "UML Partners",
           "link": "https://en.wikipedia.org/wiki/UML Partners",
-          "x": 90018,
-          "y": 9599,
+          "x": 90452,
+          "y": 3332,
           "id": "a8098dfa-48ec-4d47-b671-798837299613"
         },
         "cfdee26b-84a8-45e0-87fd-3bfe85365f4e": {
           "label": "UML tool",
           "link": "https://en.wikipedia.org/wiki/UML tool",
-          "x": 90003,
-          "y": 9624,
+          "x": 90437,
+          "y": 3357,
           "id": "cfdee26b-84a8-45e0-87fd-3bfe85365f4e"
         },
         "4fbc65ff-7b3d-4df0-9d17-27d090165644": {
           "label": "UML-based web engineering",
           "link": "https://en.wikipedia.org/wiki/UML-based web engineering",
-          "x": 90066,
-          "y": 9649,
+          "x": 90500,
+          "y": 3382,
           "id": "4fbc65ff-7b3d-4df0-9d17-27d090165644"
         },
         "a6ad14e1-1f24-432e-9d0d-5bd998473044": {
           "label": "UMLsec",
           "link": "https://en.wikipedia.org/wiki/UMLsec",
-          "x": 90000,
-          "y": 9674,
+          "x": 90434,
+          "y": 3407,
           "id": "a6ad14e1-1f24-432e-9d0d-5bd998473044"
         },
         "95ef7bed-2023-401e-abce-de01308f9b18": {
           "label": "Umple",
           "link": "https://en.wikipedia.org/wiki/Umple",
-          "x": 89995,
-          "y": 9699,
+          "x": 90429,
+          "y": 3432,
           "id": "95ef7bed-2023-401e-abce-de01308f9b18"
         },
         "a9fc7019-a27f-41aa-836f-2c87412d0d75": {
           "label": "Unified Modeling Language for Interactive Systems",
           "link": "https://en.wikipedia.org/wiki/Unified Modeling Language for Interactive Systems",
-          "x": 90136,
-          "y": 9724,
+          "x": 90570,
+          "y": 3457,
           "id": "a9fc7019-a27f-41aa-836f-2c87412d0d75"
         },
         "4cf8d8c5-7689-4677-bfa4-a987ebd44dab": {
           "label": "UPDM",
           "link": "https://en.wikipedia.org/wiki/UPDM",
-          "x": 89995,
-          "y": 9749,
+          "x": 90429,
+          "y": 3482,
           "id": "4cf8d8c5-7689-4677-bfa4-a987ebd44dab"
         },
         "6cdd4204-7b36-497e-abc1-f5ec66802454": {
           "label": "Use case",
           "link": "https://en.wikipedia.org/wiki/Use case",
-          "x": 90004,
-          "y": 9774,
+          "x": 90438,
+          "y": 3507,
           "id": "6cdd4204-7b36-497e-abc1-f5ec66802454"
         },
         "240a08c2-0e07-4c50-b828-019192ed0a80": {
           "label": "Use case diagram",
           "link": "https://en.wikipedia.org/wiki/Use case diagram",
-          "x": 90032,
-          "y": 9799,
+          "x": 90466,
+          "y": 3532,
           "id": "240a08c2-0e07-4c50-b828-019192ed0a80"
         },
         "f5cb6e1f-1364-49ad-ad53-46d0c4337528": {
           "label": "UXF",
           "link": "https://en.wikipedia.org/wiki/UXF",
-          "x": 89988,
-          "y": 9824,
+          "x": 90422,
+          "y": 3557,
           "id": "f5cb6e1f-1364-49ad-ad53-46d0c4337528"
         },
         "dccf85ce-992c-4ccd-94c1-8511c80d92b8": {
           "label": "VIATRA",
           "link": "https://en.wikipedia.org/wiki/VIATRA",
-          "x": 89999,
-          "y": 9849,
+          "x": 90433,
+          "y": 3582,
           "id": "dccf85ce-992c-4ccd-94c1-8511c80d92b8"
         },
         "05acc26a-600e-4350-9429-b88a77847fbe": {
           "label": "Visual modeling",
           "link": "https://en.wikipedia.org/wiki/Visual modeling",
-          "x": 90024,
-          "y": 9874,
+          "x": 90458,
+          "y": 3607,
           "id": "05acc26a-600e-4350-9429-b88a77847fbe"
         },
         "f8668d0e-f921-40ad-b900-b31534671996": {
           "label": "XML Metadata Interchange",
           "link": "https://en.wikipedia.org/wiki/XML Metadata Interchange",
-          "x": 90061,
-          "y": 9899,
+          "x": 90495,
+          "y": 3632,
           "id": "f8668d0e-f921-40ad-b900-b31534671996"
         },
         "fa83f99c-d4a2-4262-bd39-5bb5d55ea0aa": {
           "label": "Category:Systems Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Category:Systems Modeling Language",
-          "x": 90097,
-          "y": 9924,
+          "x": 90531,
+          "y": 3657,
           "id": "fa83f99c-d4a2-4262-bd39-5bb5d55ea0aa"
         },
         "443efd32-1728-4780-b573-a6c535ca2f8c": {
           "label": "Category:UML tools",
           "link": "https://en.wikipedia.org/wiki/Category:UML tools",
-          "x": 90037,
-          "y": 9949,
+          "x": 90471,
+          "y": 3682,
           "id": "443efd32-1728-4780-b573-a6c535ca2f8c"
         },
         "16bb504a-8a47-4fdf-aaca-49c5615da0c3": {
           "label": "Category:Unified Modeling Language diagrams",
           "link": "https://en.wikipedia.org/wiki/Category:Unified Modeling Language diagrams",
-          "x": 90124,
-          "y": 9974,
+          "x": 90558,
+          "y": 3707,
           "id": "16bb504a-8a47-4fdf-aaca-49c5615da0c3"
         },
         "d9e2a09c-df67-4ef1-8873-b66098d06154": {
           "label": "Category:Unified Modeling Language stubs",
           "link": "https://en.wikipedia.org/wiki/Category:Unified Modeling Language stubs",
-          "x": 90111,
-          "y": 9999,
+          "x": 90545,
+          "y": 3732,
           "id": "d9e2a09c-df67-4ef1-8873-b66098d06154"
         },
         "2b5a7e21-bbe0-4e0b-87b1-6a5cac35d9be339": {
@@ -13687,8 +13687,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Unified Modeling Language",
           "link": "https://en.wikipedia.org/wiki/Category:Unified Modeling Language",
-          "x": 88936,
-          "y": 9092,
+          "x": 89370,
+          "y": 2825,
           "id": "2b5a7e21-bbe0-4e0b-87b1-6a5cac35d9be339",
           "shape": "box",
           "borderWidth": ""
@@ -17860,8 +17860,8 @@ var schemeData =
         },
         "37bb9617-7fa4-456e-af47-83f0a9a6b091": {
           "id": "37bb9617-7fa4-456e-af47-83f0a9a6b091",
-          "x": 88548,
-          "y": 24634,
+          "x": 89219,
+          "y": 27697,
           "label": "Category:Bibliographic databases and indexes",
           "shape": "box",
           "link": "",
@@ -18112,8 +18112,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Typesetting software",
           "id": "b612032f-ea01-4f64-92c1-3de4ec43ff72108953",
-          "x": 88521,
-          "y": 3743
+          "x": 88955,
+          "y": -2524
         },
         "26f3f6cf-97cc-40c2-8920-db7bb6d63420108953": {
           "color": {
@@ -18952,8 +18952,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Book design",
           "id": "356f3c9d-82f0-41c8-9195-3fbe07e871c8108392",
-          "x": 89349,
-          "y": -2721
+          "x": 78293,
+          "y": 12952
         },
         "07106f03-eb70-4a6d-9965-7ed8b02a726c108392": {
           "color": {
@@ -18982,8 +18982,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Page layout",
           "id": "07106f03-eb70-4a6d-9965-7ed8b02a726c108392",
-          "x": 88771,
-          "y": 2816
+          "x": 89205,
+          "y": -3451
         },
         "462ab5f9-ef3c-427e-8277-d5d317d15ee5108392": {
           "color": {
@@ -19042,8 +19042,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Bibliographies",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographies",
-          "x": 89055,
-          "y": 31759,
+          "x": 89726,
+          "y": 34822,
           "id": "d510d77a-7df9-49d1-a5c7-a1e0f64e40d4584392"
         },
         "5a22a7a8-8a48-4e88-9aff-b6c68fae7a35584392": {
@@ -19073,8 +19073,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Bibliography file formats",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliography file formats",
-          "x": 88941,
-          "y": 31122,
+          "x": 89612,
+          "y": 34185,
           "id": "5a22a7a8-8a48-4e88-9aff-b6c68fae7a35584392"
         },
         "5d7e88aa-6943-40a1-bbf2-c1a32f1ddaf9584392": {
@@ -19166,561 +19166,561 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Free reference management software",
           "link": "https://en.wikipedia.org/wiki/Category:Free reference management software",
-          "x": 88792,
-          "y": 28171,
+          "x": 89463,
+          "y": 31234,
           "id": "cd6e7667-3f46-45fd-8ddc-65c680fe7b18330431533392"
         },
         "14c8a402-0a48-4296-ab7c-6db4c4706f99": {
           "label": "Bibliography",
           "link": "https://en.wikipedia.org/wiki/Bibliography",
-          "x": 90031,
-          "y": 19750,
+          "x": 90702,
+          "y": 22813,
           "id": "14c8a402-0a48-4296-ab7c-6db4c4706f99"
         },
         "1a41066a-3eb1-40fe-b50e-9903ce7c421b": {
           "label": "McKenzie Lectures",
           "link": "https://en.wikipedia.org/wiki/McKenzie Lectures",
-          "x": 90052,
-          "y": 19775,
+          "x": 90723,
+          "y": 22838,
           "id": "1a41066a-3eb1-40fe-b50e-9903ce7c421b"
         },
         "29c196e5-b719-4b41-b7e5-f2935333b8f1": {
           "label": "Panizzi Lectures",
           "link": "https://en.wikipedia.org/wiki/Panizzi Lectures",
-          "x": 90044,
-          "y": 19800,
+          "x": 90715,
+          "y": 22863,
           "id": "29c196e5-b719-4b41-b7e5-f2935333b8f1"
         },
         "ab6116c8-f5a6-4c77-966d-6a4e18929ff9": {
           "label": "Sandars Lectures",
           "link": "https://en.wikipedia.org/wiki/Sandars Lectures",
-          "x": 90048,
-          "y": 19825,
+          "x": 90719,
+          "y": 22888,
           "id": "ab6116c8-f5a6-4c77-966d-6a4e18929ff9"
         },
         "fd1d7961-c5f7-4b3f-9870-97af335b5c06": {
           "label": "ACS style",
           "link": "https://en.wikipedia.org/wiki/ACS style",
-          "x": 90022,
-          "y": 19850,
+          "x": 90693,
+          "y": 22913,
           "id": "fd1d7961-c5f7-4b3f-9870-97af335b5c06"
         },
         "d4ba3fa2-b141-4621-86e1-985ad1a44e9a": {
           "label": "ALWD Guide to Legal Citation",
           "link": "https://en.wikipedia.org/wiki/ALWD Guide to Legal Citation",
-          "x": 90086,
-          "y": 19875,
+          "x": 90757,
+          "y": 22938,
           "id": "d4ba3fa2-b141-4621-86e1-985ad1a44e9a"
         },
         "207bec1c-b65d-4e62-a063-b772e34bf12b": {
           "label": "Annotated bibliography",
           "link": "https://en.wikipedia.org/wiki/Annotated bibliography",
-          "x": 90065,
-          "y": 19900,
+          "x": 90736,
+          "y": 22963,
           "id": "207bec1c-b65d-4e62-a063-b772e34bf12b"
         },
         "fbafd863-8a79-4e26-bc6e-766eec10bf80": {
           "label": "ASA style",
           "link": "https://en.wikipedia.org/wiki/ASA style",
-          "x": 90022,
-          "y": 19925,
+          "x": 90693,
+          "y": 22988,
           "id": "fbafd863-8a79-4e26-bc6e-766eec10bf80"
         },
         "5fbc3e09-7976-43c2-8244-cf4c0749edba": {
           "label": "Athanasios Asimakopulos",
           "link": "https://en.wikipedia.org/wiki/Athanasios Asimakopulos",
-          "x": 90073,
-          "y": 19950,
+          "x": 90744,
+          "y": 23013,
           "id": "5fbc3e09-7976-43c2-8244-cf4c0749edba"
         },
         "37fed01b-0def-4a54-9a5a-95f3b342b045": {
           "label": "Bay Area Reference Center",
           "link": "https://en.wikipedia.org/wiki/Bay Area Reference Center",
-          "x": 90079,
-          "y": 19975,
+          "x": 90750,
+          "y": 23038,
           "id": "37fed01b-0def-4a54-9a5a-95f3b342b045"
         },
         "e3b8e920-e911-4311-b1ee-8c863191ed42": {
           "label": "Beaumont and Fletcher folios",
           "link": "https://en.wikipedia.org/wiki/Beaumont and Fletcher folios",
-          "x": 90085,
-          "y": 20000,
+          "x": 90756,
+          "y": 23063,
           "id": "e3b8e920-e911-4311-b1ee-8c863191ed42"
         },
         "dff497cf-1a1a-4010-a946-2ba62e614163": {
           "label": "Bibliographical Society",
           "link": "https://en.wikipedia.org/wiki/Bibliographical Society",
-          "x": 90063,
-          "y": 20025,
+          "x": 90734,
+          "y": 23088,
           "id": "dff497cf-1a1a-4010-a946-2ba62e614163"
         },
         "60dbe043-eec8-41f0-af54-6828c9681d44": {
           "label": "Bibliographical Society of America",
           "link": "https://en.wikipedia.org/wiki/Bibliographical Society of America",
-          "x": 90099,
-          "y": 20050,
+          "x": 90770,
+          "y": 23113,
           "id": "60dbe043-eec8-41f0-af54-6828c9681d44"
         },
         "0f9eccf3-05d6-443f-abbb-d66f007a73ad": {
           "label": "Bibliographical Society of the University of Virginia",
           "link": "https://en.wikipedia.org/wiki/Bibliographical Society of the University of Virginia",
-          "x": 90149,
-          "y": 20075,
+          "x": 90820,
+          "y": 23138,
           "id": "0f9eccf3-05d6-443f-abbb-d66f007a73ad"
         },
         "87d44f02-c2aa-4115-b1a0-68217e681440": {
           "label": "Bibliography of 18th–19th century Royal Naval history",
           "link": "https://en.wikipedia.org/wiki/Bibliography of 18th–19th century Royal Naval history",
-          "x": 90161,
-          "y": 20100,
+          "x": 90832,
+          "y": 23163,
           "id": "87d44f02-c2aa-4115-b1a0-68217e681440"
         },
         "21f51f24-aa1e-43af-80f8-e62be4ba894e": {
           "label": "Bibliography of Aeolian Research",
           "link": "https://en.wikipedia.org/wiki/Bibliography of Aeolian Research",
-          "x": 90097,
-          "y": 20125,
+          "x": 90768,
+          "y": 23188,
           "id": "21f51f24-aa1e-43af-80f8-e62be4ba894e"
         },
         "89fa7bc5-81f8-457e-be38-7a9f74cf4c3c": {
           "label": "Bibliography of early United States naval history",
           "link": "https://en.wikipedia.org/wiki/Bibliography of early United States naval history",
-          "x": 90143,
-          "y": 20150,
+          "x": 90814,
+          "y": 23213,
           "id": "89fa7bc5-81f8-457e-be38-7a9f74cf4c3c"
         },
         "29c798f3-c3ac-4b19-a3bd-21740a5d9eda": {
           "label": "Bibliography of Music Literature",
           "link": "https://en.wikipedia.org/wiki/Bibliography of Music Literature",
-          "x": 90092,
-          "y": 20175,
+          "x": 90763,
+          "y": 23238,
           "id": "29c798f3-c3ac-4b19-a3bd-21740a5d9eda"
         },
         "38e5adda-d57c-41d4-9fed-1e216c47f01f": {
           "label": "Bibliophobia",
           "link": "https://en.wikipedia.org/wiki/Bibliophobia",
-          "x": 90030,
-          "y": 20200,
+          "x": 90701,
+          "y": 23263,
           "id": "38e5adda-d57c-41d4-9fed-1e216c47f01f"
         },
         "a344faca-b85d-4613-9b34-ef168094d0b6": {
           "label": "Bluebook",
           "link": "https://en.wikipedia.org/wiki/Bluebook",
-          "x": 90021,
-          "y": 20225,
+          "x": 90692,
+          "y": 23288,
           "id": "a344faca-b85d-4613-9b34-ef168094d0b6"
         },
         "1f32dc0c-a3b9-4e9d-9686-1d033a025679": {
           "label": "Bureau of Diplomatic Security bibliography",
           "link": "https://en.wikipedia.org/wiki/Bureau of Diplomatic Security bibliography",
-          "x": 90126,
-          "y": 20250,
+          "x": 90797,
+          "y": 23313,
           "id": "1f32dc0c-a3b9-4e9d-9686-1d033a025679"
         },
         "2307fd71-52c0-46ac-b8a0-2527ed376fcc": {
           "label": "Citation",
           "link": "https://en.wikipedia.org/wiki/Citation",
-          "x": 90016,
-          "y": 20275,
+          "x": 90687,
+          "y": 23338,
           "id": "2307fd71-52c0-46ac-b8a0-2527ed376fcc"
         },
         "4b0680b3-b03d-46b1-826c-15a6268d65f0": {
           "label": "Council of Science Editors",
           "link": "https://en.wikipedia.org/wiki/Council of Science Editors",
-          "x": 90074,
-          "y": 20300,
+          "x": 90745,
+          "y": 23363,
           "id": "4b0680b3-b03d-46b1-826c-15a6268d65f0"
         },
         "cc494ec6-2426-4f1d-9f5a-edfb2af3507e": {
           "label": "Critical apparatus",
           "link": "https://en.wikipedia.org/wiki/Critical apparatus",
-          "x": 90047,
-          "y": 20325,
+          "x": 90718,
+          "y": 23388,
           "id": "cc494ec6-2426-4f1d-9f5a-edfb2af3507e"
         },
         "a6b4771f-01e6-4410-908f-b686dd82580e": {
           "label": "Crux (literary)",
           "link": "https://en.wikipedia.org/wiki/Crux (literary)",
-          "x": 90035,
-          "y": 20350,
+          "x": 90706,
+          "y": 23413,
           "id": "a6b4771f-01e6-4410-908f-b686dd82580e"
         },
         "1564a095-50f4-43c1-b099-e9760f998519": {
           "label": "E. A. Lowe Lectures",
           "link": "https://en.wikipedia.org/wiki/E. A. Lowe Lectures",
-          "x": 90055,
-          "y": 20375,
+          "x": 90726,
+          "y": 23438,
           "id": "1564a095-50f4-43c1-b099-e9760f998519"
         },
         "1629d2cb-6ffe-4ce1-88b7-d9157ca61bbb": {
           "label": "EASE Guidelines for Authors and Translators of Scientific Articles",
           "link": "https://en.wikipedia.org/wiki/EASE Guidelines for Authors and Translators of Scientific Articles",
-          "x": 90197,
-          "y": 20400,
+          "x": 90868,
+          "y": 23463,
           "id": "1629d2cb-6ffe-4ce1-88b7-d9157ca61bbb"
         },
         "73fb83fc-6ad4-4b97-8331-82edffa908c4": {
           "label": "Edition (book)",
           "link": "https://en.wikipedia.org/wiki/Edition (book)",
-          "x": 90036,
-          "y": 20425,
+          "x": 90707,
+          "y": 23488,
           "id": "73fb83fc-6ad4-4b97-8331-82edffa908c4"
         },
         "83f45e23-3e8f-44d8-b8bc-517879653830": {
           "label": "English Short Title Catalogue",
           "link": "https://en.wikipedia.org/wiki/English Short Title Catalogue",
-          "x": 90083,
-          "y": 20450,
+          "x": 90754,
+          "y": 23513,
           "id": "83f45e23-3e8f-44d8-b8bc-517879653830"
         },
         "e1d3610d-13c7-4fd4-8932-fea1a8710544": {
           "label": "Epitome",
           "link": "https://en.wikipedia.org/wiki/Epitome",
-          "x": 90018,
-          "y": 20475,
+          "x": 90689,
+          "y": 23538,
           "id": "e1d3610d-13c7-4fd4-8932-fea1a8710544"
         },
         "eeb2d60c-4fa0-4101-989a-c6627d4ce65e": {
           "label": "Jack Firestein",
           "link": "https://en.wikipedia.org/wiki/Jack Firestein",
-          "x": 90036,
-          "y": 20500,
+          "x": 90707,
+          "y": 23563,
           "id": "eeb2d60c-4fa0-4101-989a-c6627d4ce65e"
         },
         "39a4e22b-5544-4e0f-bc4c-4fa0b0fb3e9c": {
           "label": "False Folio",
           "link": "https://en.wikipedia.org/wiki/False Folio",
-          "x": 90027,
-          "y": 20525,
+          "x": 90698,
+          "y": 23588,
           "id": "39a4e22b-5544-4e0f-bc4c-4fa0b0fb3e9c"
         },
         "d2494b91-340e-477d-84a3-ccc9c865ad0d": {
           "label": "First Folio",
           "link": "https://en.wikipedia.org/wiki/First Folio",
-          "x": 90023,
-          "y": 20550,
+          "x": 90694,
+          "y": 23613,
           "id": "d2494b91-340e-477d-84a3-ccc9c865ad0d"
         },
         "bd353800-a620-4add-b3f5-0d76ad219873": {
           "label": "Fortsas hoax",
           "link": "https://en.wikipedia.org/wiki/Fortsas hoax",
-          "x": 90033,
-          "y": 20575,
+          "x": 90704,
+          "y": 23638,
           "id": "bd353800-a620-4add-b3f5-0d76ad219873"
         },
         "0eb9478a-759f-4908-92ac-2f3fb2a1a8ff": {
           "label": "Guide to information sources",
           "link": "https://en.wikipedia.org/wiki/Guide to information sources",
-          "x": 90083,
-          "y": 20600,
+          "x": 90754,
+          "y": 23663,
           "id": "0eb9478a-759f-4908-92ac-2f3fb2a1a8ff"
         },
         "b9cf9b17-c713-4fe7-bbbf-04320a926817": {
           "label": "Handbook of Latin American Studies",
           "link": "https://en.wikipedia.org/wiki/Handbook of Latin American Studies",
-          "x": 90107,
-          "y": 20625,
+          "x": 90778,
+          "y": 23688,
           "id": "b9cf9b17-c713-4fe7-bbbf-04320a926817"
         },
         "17bba4d2-4b41-4e45-99ae-17e773622a6f": {
           "label": "Hessian Bibliography",
           "link": "https://en.wikipedia.org/wiki/Hessian Bibliography",
-          "x": 90058,
-          "y": 20650,
+          "x": 90729,
+          "y": 23713,
           "id": "17bba4d2-4b41-4e45-99ae-17e773622a6f"
         },
         "ed2b14f5-c03f-4a4e-8206-3b711acf552e": {
           "label": "Hinman collator",
           "link": "https://en.wikipedia.org/wiki/Hinman collator",
-          "x": 90041,
-          "y": 20675,
+          "x": 90712,
+          "y": 23738,
           "id": "ed2b14f5-c03f-4a4e-8206-3b711acf552e"
         },
         "7573f8f2-6865-44e1-b66a-483bc934d039": {
           "label": "Iberian Books",
           "link": "https://en.wikipedia.org/wiki/Iberian Books",
-          "x": 90035,
-          "y": 20700,
+          "x": 90706,
+          "y": 23763,
           "id": "7573f8f2-6865-44e1-b66a-483bc934d039"
         },
         "abfb6cd7-cd08-43b4-b9e1-8f8f77fd2a33": {
           "label": "Ibid.",
           "link": "https://en.wikipedia.org/wiki/Ibid.",
-          "x": 90005,
-          "y": 20725,
+          "x": 90676,
+          "y": 23788,
           "id": "abfb6cd7-cd08-43b4-b9e1-8f8f77fd2a33"
         },
         "44fac896-27e7-4ea0-b90a-70ce1819f6c3": {
           "label": "Idem",
           "link": "https://en.wikipedia.org/wiki/Idem",
-          "x": 90008,
-          "y": 20750,
+          "x": 90679,
+          "y": 23813,
           "id": "44fac896-27e7-4ea0-b90a-70ce1819f6c3"
         },
         "76084ea9-07ac-4087-a9cd-4324dca45563": {
           "label": "IEEE style",
           "link": "https://en.wikipedia.org/wiki/IEEE style",
-          "x": 90024,
-          "y": 20775,
+          "x": 90695,
+          "y": 23838,
           "id": "76084ea9-07ac-4087-a9cd-4324dca45563"
         },
         "438aac1b-53cd-46f6-b9fc-14fa8d84fd69": {
           "label": "Incunabula Short Title Catalogue",
           "link": "https://en.wikipedia.org/wiki/Incunabula Short Title Catalogue",
-          "x": 90095,
-          "y": 20800,
+          "x": 90766,
+          "y": 23863,
           "id": "438aac1b-53cd-46f6-b9fc-14fa8d84fd69"
         },
         "093a0fff-6edb-46a5-9b12-1ed9dd477fb3": {
           "label": "ISO 690",
           "link": "https://en.wikipedia.org/wiki/ISO 690",
-          "x": 90018,
-          "y": 20825,
+          "x": 90689,
+          "y": 23888,
           "id": "093a0fff-6edb-46a5-9b12-1ed9dd477fb3"
         },
         "283fc32c-6418-43ee-a3d0-84617df16aa4": {
           "label": "Mitch Joel",
           "link": "https://en.wikipedia.org/wiki/Mitch Joel",
-          "x": 90024,
-          "y": 20850,
+          "x": 90695,
+          "y": 23913,
           "id": "283fc32c-6418-43ee-a3d0-84617df16aa4"
         },
         "81d3f195-5923-4ca4-91bf-c2e661de6a9e": {
           "label": "John Bare",
           "link": "https://en.wikipedia.org/wiki/John Bare",
-          "x": 90024,
-          "y": 20875,
+          "x": 90695,
+          "y": 23938,
           "id": "81d3f195-5923-4ca4-91bf-c2e661de6a9e"
         },
         "e54fe9fb-bc2e-4ba4-930e-caad71a76b56": {
           "label": "Ben Jonson folios",
           "link": "https://en.wikipedia.org/wiki/Ben Jonson folios",
-          "x": 90048,
-          "y": 20900,
+          "x": 90719,
+          "y": 23963,
           "id": "e54fe9fb-bc2e-4ba4-930e-caad71a76b56"
         },
         "2dd0b19e-d363-4b3d-9d8a-66dadbecd254": {
           "label": "Legal bibliography",
           "link": "https://en.wikipedia.org/wiki/Legal bibliography",
-          "x": 90050,
-          "y": 20925,
+          "x": 90721,
+          "y": 23988,
           "id": "2dd0b19e-d363-4b3d-9d8a-66dadbecd254"
         },
         "b4285eac-0bfd-4201-9acf-f10551e0b765": {
           "label": "Loc. cit.",
           "link": "https://en.wikipedia.org/wiki/Loc. cit.",
-          "x": 90016,
-          "y": 20950,
+          "x": 90687,
+          "y": 24013,
           "id": "b4285eac-0bfd-4201-9acf-f10551e0b765"
         },
         "ffbb8c90-a589-49f2-b461-29e053f51df3": {
           "label": "Lyell Lectures",
           "link": "https://en.wikipedia.org/wiki/Lyell Lectures",
-          "x": 90035,
-          "y": 20975,
+          "x": 90706,
+          "y": 24038,
           "id": "ffbb8c90-a589-49f2-b461-29e053f51df3"
         },
         "f9adf433-3632-4471-8f8e-6e5df28214ac": {
           "label": "Metabibliography",
           "link": "https://en.wikipedia.org/wiki/Metabibliography",
-          "x": 90046,
-          "y": 21000,
+          "x": 90717,
+          "y": 24063,
           "id": "f9adf433-3632-4471-8f8e-6e5df28214ac"
         },
         "31c4c1d8-3662-4bef-b0aa-123e4592aca5": {
           "label": "The News Letter of the LXIVmos",
           "link": "https://en.wikipedia.org/wiki/The News Letter of the LXIVmos",
-          "x": 90095,
-          "y": 21025,
+          "x": 90766,
+          "y": 24088,
           "id": "31c4c1d8-3662-4bef-b0aa-123e4592aca5"
         },
         "3a7fc385-d750-4aa4-bd92-883e624d7f90": {
           "label": "Note (typography)",
           "link": "https://en.wikipedia.org/wiki/Note (typography)",
-          "x": 90049,
-          "y": 21050,
+          "x": 90720,
+          "y": 24113,
           "id": "3a7fc385-d750-4aa4-bd92-883e624d7f90"
         },
         "1b470381-8292-46ce-bc63-54aad1147417": {
           "label": "Op. cit.",
           "link": "https://en.wikipedia.org/wiki/Op. cit.",
-          "x": 90014,
-          "y": 21075,
+          "x": 90685,
+          "y": 24138,
           "id": "1b470381-8292-46ce-bc63-54aad1147417"
         },
         "f37232c1-4da8-4402-b552-e81eaf056941": {
           "label": "OttoBib",
           "link": "https://en.wikipedia.org/wiki/OttoBib",
-          "x": 90015,
-          "y": 21100,
+          "x": 90686,
+          "y": 24163,
           "id": "f37232c1-4da8-4402-b552-e81eaf056941"
         },
         "8c48d271-407e-44ad-ace7-54830e15d22f": {
           "label": "Parenthetical referencing",
           "link": "https://en.wikipedia.org/wiki/Parenthetical referencing",
-          "x": 90071,
-          "y": 21125,
+          "x": 90742,
+          "y": 24188,
           "id": "8c48d271-407e-44ad-ace7-54830e15d22f"
         },
         "c2523726-1878-4f5a-a9aa-1746963af044": {
           "label": "Pathfinder (library science)",
           "link": "https://en.wikipedia.org/wiki/Pathfinder (library science)",
-          "x": 90077,
-          "y": 21150,
+          "x": 90748,
+          "y": 24213,
           "id": "c2523726-1878-4f5a-a9aa-1746963af044"
         },
         "994407ee-dac6-4b06-8462-db1844bb6782": {
           "label": "Performance Writing",
           "link": "https://en.wikipedia.org/wiki/Performance Writing",
-          "x": 90057,
-          "y": 21175,
+          "x": 90728,
+          "y": 24238,
           "id": "994407ee-dac6-4b06-8462-db1844bb6782"
         },
         "19877451-6eaa-4b06-8804-6c907e02ac43": {
           "label": "Printing and the Mind of Man",
           "link": "https://en.wikipedia.org/wiki/Printing and the Mind of Man",
-          "x": 90083,
-          "y": 21200,
+          "x": 90754,
+          "y": 24263,
           "id": "19877451-6eaa-4b06-8804-6c907e02ac43"
         },
         "8a7a166d-48be-4f60-aab3-e23964aa6e93": {
           "label": "Bad quarto",
           "link": "https://en.wikipedia.org/wiki/Bad quarto",
-          "x": 90027,
-          "y": 21225,
+          "x": 90698,
+          "y": 24288,
           "id": "8a7a166d-48be-4f60-aab3-e23964aa6e93"
         },
         "941f72b9-dc62-4db5-b1c1-c3e67cf787ea": {
           "label": "RefME",
           "link": "https://en.wikipedia.org/wiki/RefME",
-          "x": 90013,
-          "y": 21250,
+          "x": 90684,
+          "y": 24313,
           "id": "941f72b9-dc62-4db5-b1c1-c3e67cf787ea"
         },
         "85f7dd74-e599-40ac-966f-ea1e59db3549": {
           "label": "Short-title catalogue",
           "link": "https://en.wikipedia.org/wiki/Short-title catalogue",
-          "x": 90055,
-          "y": 21275,
+          "x": 90726,
+          "y": 24338,
           "id": "85f7dd74-e599-40ac-966f-ea1e59db3549"
         },
         "bc3512ac-041b-43b2-bd1b-25440acb52ca": {
           "label": "Siku Quanshu Zongmu Tiyao",
           "link": "https://en.wikipedia.org/wiki/Siku Quanshu Zongmu Tiyao",
-          "x": 90084,
-          "y": 21300,
+          "x": 90755,
+          "y": 24363,
           "id": "bc3512ac-041b-43b2-bd1b-25440acb52ca"
         },
         "773833f3-814e-4ad9-b92c-c4b8ed0adbcd": {
           "label": "Stationers' Register",
           "link": "https://en.wikipedia.org/wiki/Stationers' Register",
-          "x": 90054,
-          "y": 21325,
+          "x": 90725,
+          "y": 24388,
           "id": "773833f3-814e-4ad9-b92c-c4b8ed0adbcd"
         },
         "86b48482-6d6c-4625-8c0f-b9c960e2f1c7": {
           "label": "Style guide",
           "link": "https://en.wikipedia.org/wiki/Style guide",
-          "x": 90027,
-          "y": 21350,
+          "x": 90698,
+          "y": 24413,
           "id": "86b48482-6d6c-4625-8c0f-b9c960e2f1c7"
         },
         "9f6d2432-a580-4515-891e-2796e3f4d232": {
           "label": "Supra (grammar)",
           "link": "https://en.wikipedia.org/wiki/Supra (grammar)",
-          "x": 90047,
-          "y": 21375,
+          "x": 90718,
+          "y": 24438,
           "id": "9f6d2432-a580-4515-891e-2796e3f4d232"
         },
         "91247fd2-d2c5-460b-b81d-bbe7e78d1229": {
           "label": "Textual criticism",
           "link": "https://en.wikipedia.org/wiki/Textual criticism",
-          "x": 90042,
-          "y": 21400,
+          "x": 90713,
+          "y": 24463,
           "id": "91247fd2-d2c5-460b-b81d-bbe7e78d1229"
         },
         "3958600c-6c45-460c-a410-f6362e2caa1b": {
           "label": "ICMJE recommendations",
           "link": "https://en.wikipedia.org/wiki/ICMJE recommendations",
-          "x": 90072,
-          "y": 21425,
+          "x": 90743,
+          "y": 24488,
           "id": "3958600c-6c45-460c-a410-f6362e2caa1b"
         },
         "ca05700a-7009-49db-8eba-3f0b334182c1": {
           "label": "Universal Short Title Catalogue",
           "link": "https://en.wikipedia.org/wiki/Universal Short Title Catalogue",
-          "x": 90090,
-          "y": 21450,
+          "x": 90761,
+          "y": 24513,
           "id": "ca05700a-7009-49db-8eba-3f0b334182c1"
         },
         "941bb874-c3f1-4a2f-a282-7acfcf372bb5": {
           "label": "Vancouver system",
           "link": "https://en.wikipedia.org/wiki/Vancouver system",
-          "x": 90050,
-          "y": 21475,
+          "x": 90721,
+          "y": 24538,
           "id": "941bb874-c3f1-4a2f-a282-7acfcf372bb5"
         },
         "349fffa0-eb9e-41ab-ac18-fb96008d959d": {
           "label": "Variorum",
           "link": "https://en.wikipedia.org/wiki/Variorum",
-          "x": 90020,
-          "y": 21500,
+          "x": 90691,
+          "y": 24563,
           "id": "349fffa0-eb9e-41ab-ac18-fb96008d959d"
         },
         "2b371556-7ef3-4258-9618-39effb24c88d": {
           "label": "Various authors",
           "link": "https://en.wikipedia.org/wiki/Various authors",
-          "x": 90041,
-          "y": 21525,
+          "x": 90712,
+          "y": 24588,
           "id": "2b371556-7ef3-4258-9618-39effb24c88d"
         },
         "58ac4fd6-07be-496c-8569-a70bfdd9d9cc": {
           "label": "Volume (bibliography)",
           "link": "https://en.wikipedia.org/wiki/Volume (bibliography)",
-          "x": 90061,
-          "y": 21550,
+          "x": 90732,
+          "y": 24613,
           "id": "58ac4fd6-07be-496c-8569-a70bfdd9d9cc"
         },
         "9793e1dc-ecd3-4ada-a3fb-5ba8ce0bb9e8": {
           "label": "Category:Bibliographers",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographers",
-          "x": 90068,
-          "y": 21575,
+          "x": 90739,
+          "y": 24638,
           "id": "9793e1dc-ecd3-4ada-a3fb-5ba8ce0bb9e8"
         },
         "ac39beba-f210-4801-ac55-782e2d30087e": {
           "label": "Category:Bibliographic databases and indexes",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographic databases and indexes",
-          "x": 90139,
-          "y": 21600,
+          "x": 90810,
+          "y": 24663,
           "id": "ac39beba-f210-4801-ac55-782e2d30087e"
         },
         "bbf30744-cfa1-42a6-84ee-48420775d348": {
           "label": "Category:Bibliographies",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographies",
-          "x": 90067,
-          "y": 21625,
+          "x": 90738,
+          "y": 24688,
           "id": "bbf30744-cfa1-42a6-84ee-48420775d348"
         },
         "52215052-6cdb-4e2a-9e55-3f6f8e630858": {
           "label": "Category:Bibliography file formats",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliography file formats",
-          "x": 90099,
-          "y": 21650,
+          "x": 90770,
+          "y": 24713,
           "id": "52215052-6cdb-4e2a-9e55-3f6f8e630858"
         },
         "cfc5f3f6-b7ac-4043-aaa8-12d5d8043ab6": {
           "label": "Category:Reference management software",
           "link": "https://en.wikipedia.org/wiki/Category:Reference management software",
-          "x": 90129,
-          "y": 21675,
+          "x": 90800,
+          "y": 24738,
           "id": "cfc5f3f6-b7ac-4043-aaa8-12d5d8043ab6"
         },
         "02956d6f-0b5c-442e-ac11-05eddfbac4d9": {
           "label": "Category:Textual criticism",
           "link": "https://en.wikipedia.org/wiki/Category:Textual criticism",
-          "x": 90073,
-          "y": 21700,
+          "x": 90744,
+          "y": 24763,
           "id": "02956d6f-0b5c-442e-ac11-05eddfbac4d9"
         },
         "d95e17c3-8062-4fcd-8cfb-6555fa691bf7": {
@@ -20216,78 +20216,78 @@ var schemeData =
         "fd2ad048-17b6-4986-a720-7fa8b581ec8d": {
           "label": "BibDesk",
           "link": "https://en.wikipedia.org/wiki/BibDesk",
-          "x": 90009,
-          "y": 28048,
+          "x": 90680,
+          "y": 31111,
           "id": "fd2ad048-17b6-4986-a720-7fa8b581ec8d"
         },
         "8f1fb3ae-b645-45dd-8cba-cde1e6c82c5b": {
           "label": "JabRef",
           "link": "https://en.wikipedia.org/wiki/JabRef",
-          "x": 90005,
-          "y": 28073,
+          "x": 90676,
+          "y": 31136,
           "id": "8f1fb3ae-b645-45dd-8cba-cde1e6c82c5b"
         },
         "0384a23b-73b2-454f-ad98-a48b2cbb7eaa": {
           "label": "Pybliographer",
           "link": "https://en.wikipedia.org/wiki/Pybliographer",
-          "x": 90027,
-          "y": 28098,
+          "x": 90698,
+          "y": 31161,
           "id": "0384a23b-73b2-454f-ad98-a48b2cbb7eaa"
         },
         "93fe7731-7f9c-469b-9117-30c7d5c72c5f": {
           "label": "Refbase",
           "link": "https://en.wikipedia.org/wiki/Refbase",
-          "x": 90009,
-          "y": 28123,
+          "x": 90680,
+          "y": 31186,
           "id": "93fe7731-7f9c-469b-9117-30c7d5c72c5f"
         },
         "e45691c4-be68-4b83-9eb4-eb3824793d03": {
           "label": "RefDB",
           "link": "https://en.wikipedia.org/wiki/RefDB",
-          "x": 90003,
-          "y": 28148,
+          "x": 90674,
+          "y": 31211,
           "id": "e45691c4-be68-4b83-9eb4-eb3824793d03"
         },
         "d11ea607-b714-4eda-bd01-775fd54af223": {
           "label": "Referencer",
           "link": "https://en.wikipedia.org/wiki/Referencer",
-          "x": 90018,
-          "y": 28173,
+          "x": 90689,
+          "y": 31236,
           "id": "d11ea607-b714-4eda-bd01-775fd54af223"
         },
         "356f50a5-68c7-4f05-9c68-e03239c028bd": {
           "label": "TagTeam (software)",
           "link": "https://en.wikipedia.org/wiki/TagTeam (software)",
-          "x": 90046,
-          "y": 28198,
+          "x": 90717,
+          "y": 31261,
           "id": "356f50a5-68c7-4f05-9c68-e03239c028bd"
         },
         "004398ae-6db5-4e73-adde-a723c18052c7": {
           "label": "Tropy",
           "link": "https://en.wikipedia.org/wiki/Tropy",
-          "x": 90001,
-          "y": 28223,
+          "x": 90672,
+          "y": 31286,
           "id": "004398ae-6db5-4e73-adde-a723c18052c7"
         },
         "a4a4e283-ecc7-45d1-84d1-7cafff4c6ba0": {
           "label": "Wikindx",
           "link": "https://en.wikipedia.org/wiki/Wikindx",
-          "x": 90007,
-          "y": 28248,
+          "x": 90678,
+          "y": 31311,
           "id": "a4a4e283-ecc7-45d1-84d1-7cafff4c6ba0"
         },
         "113c4691-b200-4c5e-b8dc-c3d061e7beef": {
           "label": "Zotero",
           "link": "https://en.wikipedia.org/wiki/Zotero",
-          "x": 90004,
-          "y": 28273,
+          "x": 90675,
+          "y": 31336,
           "id": "113c4691-b200-4c5e-b8dc-c3d061e7beef"
         },
         "5505900c-3442-4817-9647-01f65fcd8866": {
           "label": "Category:Free BibTeX software",
           "link": "https://en.wikipedia.org/wiki/Category:Free BibTeX software",
-          "x": 90082,
-          "y": 28298,
+          "x": 90753,
+          "y": 31361,
           "id": "5505900c-3442-4817-9647-01f65fcd8866"
         },
         "87039f5d-2899-4703-9b25-5dd439ad7d1c": {
@@ -20790,638 +20790,638 @@ var schemeData =
         "52e513e1-2d73-43e6-acd3-22e2a71d713e": {
           "label": "Book design",
           "link": "https://en.wikipedia.org/wiki/Book design",
-          "x": 90147,
-          "y": -3735,
+          "x": 79091,
+          "y": 11938,
           "id": "52e513e1-2d73-43e6-acd3-22e2a71d713e"
         },
         "5b40e893-365c-4940-88af-42c2fec7c564": {
           "label": "Afterword",
           "link": "https://en.wikipedia.org/wiki/Afterword",
-          "x": 90138,
-          "y": -3710,
+          "x": 79082,
+          "y": 11963,
           "id": "5b40e893-365c-4940-88af-42c2fec7c564"
         },
         "aabe965e-5e7c-4cac-8d00-0cba8baefce2": {
           "label": "Annotated bibliography",
           "link": "https://en.wikipedia.org/wiki/Annotated bibliography",
-          "x": 90181,
-          "y": -3685,
+          "x": 79125,
+          "y": 11988,
           "id": "aabe965e-5e7c-4cac-8d00-0cba8baefce2"
         },
         "c466d78f-77fb-4386-b89e-318179e1f418": {
           "label": "List of book arts centers",
           "link": "https://en.wikipedia.org/wiki/List of book arts centers",
-          "x": 90184,
-          "y": -3660,
+          "x": 79128,
+          "y": 12013,
           "id": "c466d78f-77fb-4386-b89e-318179e1f418"
         },
         "02bc8d88-ba34-4863-b23f-e4a8a77f0bf9": {
           "label": "Bibliography",
           "link": "https://en.wikipedia.org/wiki/Bibliography",
-          "x": 90147,
-          "y": -3635,
+          "x": 79091,
+          "y": 12038,
           "id": "02bc8d88-ba34-4863-b23f-e4a8a77f0bf9"
         },
         "6d73d9c3-9b23-43fc-8d06-86ce860e60c6": {
           "label": "Blurb",
           "link": "https://en.wikipedia.org/wiki/Blurb",
-          "x": 90124,
-          "y": -3610,
+          "x": 79068,
+          "y": 12063,
           "id": "6d73d9c3-9b23-43fc-8d06-86ce860e60c6"
         },
         "665ef1d6-f560-4adc-9d43-dc8bda77994e": {
           "label": "Body matter",
           "link": "https://en.wikipedia.org/wiki/Body matter",
-          "x": 90146,
-          "y": -3585,
+          "x": 79090,
+          "y": 12088,
           "id": "665ef1d6-f560-4adc-9d43-dc8bda77994e"
         },
         "934a6fce-6dfd-4ae0-ae4b-28c22f7993f8": {
           "label": "Body text",
           "link": "https://en.wikipedia.org/wiki/Body text",
-          "x": 90137,
-          "y": -3560,
+          "x": 79081,
+          "y": 12113,
           "id": "934a6fce-6dfd-4ae0-ae4b-28c22f7993f8"
         },
         "fc5ceccb-cfb5-4998-93be-fc3aaba5bd8e": {
           "label": "Book cover",
           "link": "https://en.wikipedia.org/wiki/Book cover",
-          "x": 90143,
-          "y": -3535,
+          "x": 79087,
+          "y": 12138,
           "id": "fc5ceccb-cfb5-4998-93be-fc3aaba5bd8e"
         },
         "7cf5a6da-94de-473e-9e1f-941c87a2c359": {
           "label": "Book frontispiece",
           "link": "https://en.wikipedia.org/wiki/Book frontispiece",
-          "x": 90162,
-          "y": -3510,
+          "x": 79106,
+          "y": 12163,
           "id": "7cf5a6da-94de-473e-9e1f-941c87a2c359"
         },
         "7ce00d3f-844d-42a1-afa3-3cd362ca175c": {
           "label": "Book illustration",
           "link": "https://en.wikipedia.org/wiki/Book illustration",
-          "x": 90158,
-          "y": -3485,
+          "x": 79102,
+          "y": 12188,
           "id": "7ce00d3f-844d-42a1-afa3-3cd362ca175c"
         },
         "de4ac517-47e4-4287-a311-cb48850fe66a": {
           "label": "Book size",
           "link": "https://en.wikipedia.org/wiki/Book size",
-          "x": 90138,
-          "y": -3460,
+          "x": 79082,
+          "y": 12213,
           "id": "de4ac517-47e4-4287-a311-cb48850fe66a"
         },
         "849a8b20-a814-412b-894c-577457ea654b": {
           "label": "Bookbinding",
           "link": "https://en.wikipedia.org/wiki/Bookbinding",
-          "x": 90147,
-          "y": -3435,
+          "x": 79091,
+          "y": 12238,
           "id": "849a8b20-a814-412b-894c-577457ea654b"
         },
         "60916bea-7395-4e15-b541-7daaa9b3d3c5": {
           "label": "Bookplate",
           "link": "https://en.wikipedia.org/wiki/Bookplate",
-          "x": 90139,
-          "y": -3410,
+          "x": 79083,
+          "y": 12263,
           "id": "60916bea-7395-4e15-b541-7daaa9b3d3c5"
         },
         "cfdba6b5-296b-4d0d-a5cb-0221ef99b968": {
           "label": "Boriswood",
           "link": "https://en.wikipedia.org/wiki/Boriswood",
-          "x": 90141,
-          "y": -3385,
+          "x": 79085,
+          "y": 12288,
           "id": "cfdba6b5-296b-4d0d-a5cb-0221ef99b968"
         },
         "67560067-83b2-49e3-b491-e7d7dddf2fa1": {
           "label": "Canons of page construction",
           "link": "https://en.wikipedia.org/wiki/Canons of page construction",
-          "x": 90199,
-          "y": -3360,
+          "x": 79143,
+          "y": 12313,
           "id": "67560067-83b2-49e3-b491-e7d7dddf2fa1"
         },
         "277c5700-b5e5-441e-9c86-f6e9168de86e": {
           "label": "Carpet page",
           "link": "https://en.wikipedia.org/wiki/Carpet page",
-          "x": 90147,
-          "y": -3335,
+          "x": 79091,
+          "y": 12338,
           "id": "277c5700-b5e5-441e-9c86-f6e9168de86e"
         },
         "c9207b69-d361-4466-a2df-1499c51f0254": {
           "label": "Chapter (books)",
           "link": "https://en.wikipedia.org/wiki/Chapter (books)",
-          "x": 90159,
-          "y": -3310,
+          "x": 79103,
+          "y": 12363,
           "id": "c9207b69-d361-4466-a2df-1499c51f0254"
         },
         "4db44ba6-9ecf-471c-a271-24911b6ea798": {
           "label": "Codex Vaticanus Ottobonianus Latinus 1829",
           "link": "https://en.wikipedia.org/wiki/Codex Vaticanus Ottobonianus Latinus 1829",
-          "x": 90248,
-          "y": -3285,
+          "x": 79192,
+          "y": 12388,
           "id": "4db44ba6-9ecf-471c-a271-24911b6ea798"
         },
         "0a841737-ae30-4b06-ae0c-9a8a3ba8c574": {
           "label": "Colophon (publishing)",
           "link": "https://en.wikipedia.org/wiki/Colophon (publishing)",
-          "x": 90177,
-          "y": -3260,
+          "x": 79121,
+          "y": 12413,
           "id": "0a841737-ae30-4b06-ae0c-9a8a3ba8c574"
         },
         "63a28102-c134-47b6-9653-617c6139ed9f": {
           "label": "The Colophon, A Book Collectors' Quarterly",
           "link": "https://en.wikipedia.org/wiki/The Colophon, A Book Collectors' Quarterly",
-          "x": 90246,
-          "y": -3235,
+          "x": 79190,
+          "y": 12438,
           "id": "63a28102-c134-47b6-9653-617c6139ed9f"
         },
         "c146d9a4-4ba7-4fbb-9119-deee1580aa71": {
           "label": "Concealing objects in a book",
           "link": "https://en.wikipedia.org/wiki/Concealing objects in a book",
-          "x": 90199,
-          "y": -3210,
+          "x": 79143,
+          "y": 12463,
           "id": "c146d9a4-4ba7-4fbb-9119-deee1580aa71"
         },
         "4bf0c48e-8d51-4309-8ff7-685eae154c8b": {
           "label": "Conclusion (book)",
           "link": "https://en.wikipedia.org/wiki/Conclusion (book)",
-          "x": 90165,
-          "y": -3185,
+          "x": 79109,
+          "y": 12488,
           "id": "4bf0c48e-8d51-4309-8ff7-685eae154c8b"
         },
         "05cb44d4-a01a-4993-b60b-dba97aabcbd7": {
           "label": "Dedication (publishing)",
           "link": "https://en.wikipedia.org/wiki/Dedication (publishing)",
-          "x": 90180,
-          "y": -3160,
+          "x": 79124,
+          "y": 12513,
           "id": "05cb44d4-a01a-4993-b60b-dba97aabcbd7"
         },
         "bbfe6648-ce4e-4cef-872e-d486426cc2d9": {
           "label": "The Design of Books",
           "link": "https://en.wikipedia.org/wiki/The Design of Books",
-          "x": 90174,
-          "y": -3135,
+          "x": 79118,
+          "y": 12538,
           "id": "bbfe6648-ce4e-4cef-872e-d486426cc2d9"
         },
         "5cf02c3e-bb69-4e2b-a98b-4aeb94de6414": {
           "label": "Die neue Typographie",
           "link": "https://en.wikipedia.org/wiki/Die neue Typographie",
-          "x": 90178,
-          "y": -3110,
+          "x": 79122,
+          "y": 12563,
           "id": "5cf02c3e-bb69-4e2b-a98b-4aeb94de6414"
         },
         "c29415b2-af6b-4aaa-aa90-dc6cdf80dbb8": {
           "label": "Digital Scriptorium",
           "link": "https://en.wikipedia.org/wiki/Digital Scriptorium",
-          "x": 90165,
-          "y": -3085,
+          "x": 79109,
+          "y": 12588,
           "id": "c29415b2-af6b-4aaa-aa90-dc6cdf80dbb8"
         },
         "07a6c786-9f7c-4e50-8c97-1f5518e95626": {
           "label": "RR Donnelley",
           "link": "https://en.wikipedia.org/wiki/RR Donnelley",
-          "x": 90151,
-          "y": -3060,
+          "x": 79095,
+          "y": 12613,
           "id": "07a6c786-9f7c-4e50-8c97-1f5518e95626"
         },
         "09b95391-282f-4c38-baca-2bf8ca4e1e2b": {
           "label": "Dust jacket",
           "link": "https://en.wikipedia.org/wiki/Dust jacket",
-          "x": 90143,
-          "y": -3035,
+          "x": 79087,
+          "y": 12638,
           "id": "09b95391-282f-4c38-baca-2bf8ca4e1e2b"
         },
         "683a5963-3043-4cf2-935b-89e1f92bc16f": {
           "label": "Edge index",
           "link": "https://en.wikipedia.org/wiki/Edge index",
-          "x": 90143,
-          "y": -3010,
+          "x": 79087,
+          "y": 12663,
           "id": "683a5963-3043-4cf2-935b-89e1f92bc16f"
         },
         "8f7fe4c1-76ea-473e-bbf5-160f2c8925fd": {
           "label": "Epigraph (literature)",
           "link": "https://en.wikipedia.org/wiki/Epigraph (literature)",
-          "x": 90171,
-          "y": -2985,
+          "x": 79115,
+          "y": 12688,
           "id": "8f7fe4c1-76ea-473e-bbf5-160f2c8925fd"
         },
         "1b66a95e-5ad6-4dcc-be30-dfa88e90c643": {
           "label": "Epilogue",
           "link": "https://en.wikipedia.org/wiki/Epilogue",
-          "x": 90135,
-          "y": -2960,
+          "x": 79079,
+          "y": 12713,
           "id": "1b66a95e-5ad6-4dcc-be30-dfa88e90c643"
         },
         "bdf80500-7916-41d9-a991-b292ea80353d": {
           "label": "Everything Will Be OK (book)",
           "link": "https://en.wikipedia.org/wiki/Everything Will Be OK (book)",
-          "x": 90199,
-          "y": -2935,
+          "x": 79143,
+          "y": 12738,
           "id": "bdf80500-7916-41d9-a991-b292ea80353d"
         },
         "e5c8434f-0591-477a-bb70-78fcce63b971": {
           "label": "Fontana Modern Masters",
           "link": "https://en.wikipedia.org/wiki/Fontana Modern Masters",
-          "x": 90188,
-          "y": -2910,
+          "x": 79132,
+          "y": 12763,
           "id": "e5c8434f-0591-477a-bb70-78fcce63b971"
         },
         "7ef7db54-fc47-4897-acb9-1c1e9cad40ba": {
           "label": "Fore-edge painting",
           "link": "https://en.wikipedia.org/wiki/Fore-edge painting",
-          "x": 90168,
-          "y": -2885,
+          "x": 79112,
+          "y": 12788,
           "id": "7ef7db54-fc47-4897-acb9-1c1e9cad40ba"
         },
         "3119a39c-c98a-413c-a822-3f1952e9b393": {
           "label": "Foreword",
           "link": "https://en.wikipedia.org/wiki/Foreword",
-          "x": 90138,
-          "y": -2860,
+          "x": 79082,
+          "y": 12813,
           "id": "3119a39c-c98a-413c-a822-3f1952e9b393"
         },
         "4fa9972d-2b0d-48ff-9efd-088430c86bdf": {
           "label": "Gevil",
           "link": "https://en.wikipedia.org/wiki/Gevil",
-          "x": 90124,
-          "y": -2835,
+          "x": 79068,
+          "y": 12838,
           "id": "4fa9972d-2b0d-48ff-9efd-088430c86bdf"
         },
         "5cc39383-bb16-4625-a430-a39ea119dff8": {
           "label": "Girdle book",
           "link": "https://en.wikipedia.org/wiki/Girdle book",
-          "x": 90144,
-          "y": -2810,
+          "x": 79088,
+          "y": 12863,
           "id": "5cc39383-bb16-4625-a430-a39ea119dff8"
         },
         "60eb0298-e846-48e5-84c9-211780485721": {
           "label": "Gloss (annotation)",
           "link": "https://en.wikipedia.org/wiki/Gloss (annotation)",
-          "x": 90166,
-          "y": -2785,
+          "x": 79110,
+          "y": 12888,
           "id": "60eb0298-e846-48e5-84c9-211780485721"
         },
         "4db38254-6574-4f88-b8e1-6330e5f53053": {
           "label": "Glossary",
           "link": "https://en.wikipedia.org/wiki/Glossary",
-          "x": 90136,
-          "y": -2760,
+          "x": 79080,
+          "y": 12913,
           "id": "4db38254-6574-4f88-b8e1-6330e5f53053"
         },
         "e3f51ad3-daf6-4c4e-9005-10f643150845": {
           "label": "Half-title",
           "link": "https://en.wikipedia.org/wiki/Half-title",
-          "x": 90134,
-          "y": -2735,
+          "x": 79078,
+          "y": 12938,
           "id": "e3f51ad3-daf6-4c4e-9005-10f643150845"
         },
         "a8a3bd5d-fcd0-4f40-906e-97ed4de1143a": {
           "label": "Headpiece (book illustration)",
           "link": "https://en.wikipedia.org/wiki/Headpiece (book illustration)",
-          "x": 90198,
-          "y": -2710,
+          "x": 79142,
+          "y": 12963,
           "id": "a8a3bd5d-fcd0-4f40-906e-97ed4de1143a"
         },
         "8503b539-5faa-4054-987a-385055b3c555": {
           "label": "Historiated initial",
           "link": "https://en.wikipedia.org/wiki/Historiated initial",
-          "x": 90160,
-          "y": -2685,
+          "x": 79104,
+          "y": 12988,
           "id": "8503b539-5faa-4054-987a-385055b3c555"
         },
         "7074957f-c877-4076-b6c3-5ceba1d49332": {
           "label": "Iconophor",
           "link": "https://en.wikipedia.org/wiki/Iconophor",
-          "x": 90140,
-          "y": -2660,
+          "x": 79084,
+          "y": 13013,
           "id": "7074957f-c877-4076-b6c3-5ceba1d49332"
         },
         "daeff205-d444-4dc1-93b3-992112d5ab01": {
           "label": "Illuminated manuscript",
           "link": "https://en.wikipedia.org/wiki/Illuminated manuscript",
-          "x": 90179,
-          "y": -2635,
+          "x": 79123,
+          "y": 13038,
           "id": "daeff205-d444-4dc1-93b3-992112d5ab01"
         },
         "4ebc9854-910f-4e57-ab51-9b92d71a4575": {
           "label": "Index (publishing)",
           "link": "https://en.wikipedia.org/wiki/Index (publishing)",
-          "x": 90164,
-          "y": -2610,
+          "x": 79108,
+          "y": 13063,
           "id": "4ebc9854-910f-4e57-ab51-9b92d71a4575"
         },
         "ed09743b-015d-4e50-8aeb-13e3e35e7b79": {
           "label": "Indexing software",
           "link": "https://en.wikipedia.org/wiki/Indexing software",
-          "x": 90164,
-          "y": -2585,
+          "x": 79108,
+          "y": 13088,
           "id": "ed09743b-015d-4e50-8aeb-13e3e35e7b79"
         },
         "c6d156c2-e091-4a67-af2d-ff35a95396cf": {
           "label": "Inhabited initial",
           "link": "https://en.wikipedia.org/wiki/Inhabited initial",
-          "x": 90155,
-          "y": -2560,
+          "x": 79099,
+          "y": 13113,
           "id": "c6d156c2-e091-4a67-af2d-ff35a95396cf"
         },
         "79fcd4ab-4940-4891-9a8e-e5b352ddb8d9": {
           "label": "Initial",
           "link": "https://en.wikipedia.org/wiki/Initial",
-          "x": 90124,
-          "y": -2535,
+          "x": 79068,
+          "y": 13138,
           "id": "79fcd4ab-4940-4891-9a8e-e5b352ddb8d9"
         },
         "62ef967c-d5bf-4236-944b-4964d8504e34": {
           "label": "Intentionally blank page",
           "link": "https://en.wikipedia.org/wiki/Intentionally blank page",
-          "x": 90183,
-          "y": -2510,
+          "x": 79127,
+          "y": 13163,
           "id": "62ef967c-d5bf-4236-944b-4964d8504e34"
         },
         "3f71e9d6-253e-4baa-90f8-3368dc7a25dd": {
           "label": "Limp binding",
           "link": "https://en.wikipedia.org/wiki/Limp binding",
-          "x": 90148,
-          "y": -2485,
+          "x": 79092,
+          "y": 13188,
           "id": "3f71e9d6-253e-4baa-90f8-3368dc7a25dd"
         },
         "0000a9ca-8fc7-4ecb-b2a0-65815c2f4bbe": {
           "label": "Marginalia",
           "link": "https://en.wikipedia.org/wiki/Marginalia",
-          "x": 90141,
-          "y": -2460,
+          "x": 79085,
+          "y": 13213,
           "id": "0000a9ca-8fc7-4ecb-b2a0-65815c2f4bbe"
         },
         "5d073b0a-ec2e-4ebd-812c-ef2d5158f6cd": {
           "label": "Alice Cordelia Morse",
           "link": "https://en.wikipedia.org/wiki/Alice Cordelia Morse",
-          "x": 90173,
-          "y": -2435,
+          "x": 79117,
+          "y": 13238,
           "id": "5d073b0a-ec2e-4ebd-812c-ef2d5158f6cd"
         },
         "1f0ed015-2543-4145-b54d-f9bfc9777b7a": {
           "label": "Louise Odes Neaderland",
           "link": "https://en.wikipedia.org/wiki/Louise Odes Neaderland",
-          "x": 90187,
-          "y": -2410,
+          "x": 79131,
+          "y": 13263,
           "id": "1f0ed015-2543-4145-b54d-f9bfc9777b7a"
         },
         "09869b1d-a782-477a-bfd6-787db5f3f099": {
           "label": "The New Typography",
           "link": "https://en.wikipedia.org/wiki/The New Typography",
-          "x": 90176,
-          "y": -2385,
+          "x": 79120,
+          "y": 13288,
           "id": "09869b1d-a782-477a-bfd6-787db5f3f099"
         },
         "ab7728c9-903e-48ab-a79a-142f72e5521f": {
           "label": "Ninety from the Nineties",
           "link": "https://en.wikipedia.org/wiki/Ninety from the Nineties",
-          "x": 90184,
-          "y": -2360,
+          "x": 79128,
+          "y": 13313,
           "id": "ab7728c9-903e-48ab-a79a-142f72e5521f"
         },
         "06c78581-5655-4039-a9de-7b7764724a1e": {
           "label": "Obi (publishing)",
           "link": "https://en.wikipedia.org/wiki/Obi (publishing)",
-          "x": 90158,
-          "y": -2335,
+          "x": 79102,
+          "y": 13338,
           "id": "06c78581-5655-4039-a9de-7b7764724a1e"
         },
         "f6d8052d-5073-48fa-bd15-5025cd220bec": {
           "label": "Outro (literary)",
           "link": "https://en.wikipedia.org/wiki/Outro (literary)",
-          "x": 90154,
-          "y": -2310,
+          "x": 79098,
+          "y": 13363,
           "id": "f6d8052d-5073-48fa-bd15-5025cd220bec"
         },
         "3f11f0d1-5045-4334-bb68-9dde44b16394": {
           "label": "Page numbering",
           "link": "https://en.wikipedia.org/wiki/Page numbering",
-          "x": 90160,
-          "y": -2285,
+          "x": 79104,
+          "y": 13388,
           "id": "3f11f0d1-5045-4334-bb68-9dde44b16394"
         },
         "a036211e-8d98-4ce9-b197-021daf8a31db": {
           "label": "Paper drilling",
           "link": "https://en.wikipedia.org/wiki/Paper drilling",
-          "x": 90149,
-          "y": -2260,
+          "x": 79093,
+          "y": 13413,
           "id": "a036211e-8d98-4ce9-b197-021daf8a31db"
         },
         "f4a151df-1933-4f0a-88f1-df977df5a21e": {
           "label": "Paper size",
           "link": "https://en.wikipedia.org/wiki/Paper size",
-          "x": 90141,
-          "y": -2235,
+          "x": 79085,
+          "y": 13438,
           "id": "f4a151df-1933-4f0a-88f1-df977df5a21e"
         },
         "f7d6eece-431d-4b04-b60b-38d0ab025e93": {
           "label": "Parchment",
           "link": "https://en.wikipedia.org/wiki/Parchment",
-          "x": 90142,
-          "y": -2210,
+          "x": 79086,
+          "y": 13463,
           "id": "f7d6eece-431d-4b04-b60b-38d0ab025e93"
         },
         "15440b64-c1f4-4172-b55d-f18b7402d865": {
           "label": "Picture cover",
           "link": "https://en.wikipedia.org/wiki/Picture cover",
-          "x": 90149,
-          "y": -2185,
+          "x": 79093,
+          "y": 13488,
           "id": "15440b64-c1f4-4172-b55d-f18b7402d865"
         },
         "f71aa558-708d-4d00-9927-4a080e8624c1": {
           "label": "Postface",
           "link": "https://en.wikipedia.org/wiki/Postface",
-          "x": 90135,
-          "y": -2160,
+          "x": 79079,
+          "y": 13513,
           "id": "f71aa558-708d-4d00-9927-4a080e8624c1"
         },
         "7660e628-73e5-40c6-9936-a868f6c92e06": {
           "label": "Postscript",
           "link": "https://en.wikipedia.org/wiki/Postscript",
-          "x": 90139,
-          "y": -2135,
+          "x": 79083,
+          "y": 13538,
           "id": "7660e628-73e5-40c6-9936-a868f6c92e06"
         },
         "5db5a477-b9b6-476b-b82b-d68d8d11fc53": {
           "label": "Preface",
           "link": "https://en.wikipedia.org/wiki/Preface",
-          "x": 90132,
-          "y": -2110,
+          "x": 79076,
+          "y": 13563,
           "id": "5db5a477-b9b6-476b-b82b-d68d8d11fc53"
         },
         "6e159357-0103-45c4-9582-51aec9c76b5b": {
           "label": "Printer's key",
           "link": "https://en.wikipedia.org/wiki/Printer's key",
-          "x": 90147,
-          "y": -2085,
+          "x": 79091,
+          "y": 13588,
           "id": "6e159357-0103-45c4-9582-51aec9c76b5b"
         },
         "2b9c987a-d74f-4e16-a569-4063d4631e12": {
           "label": "Printer's mark",
           "link": "https://en.wikipedia.org/wiki/Printer's mark",
-          "x": 90152,
-          "y": -2060,
+          "x": 79096,
+          "y": 13613,
           "id": "2b9c987a-d74f-4e16-a569-4063d4631e12"
         },
         "c1ecf2a0-863d-4fe3-81d8-6a53645b3d10": {
           "label": "Recto and verso",
           "link": "https://en.wikipedia.org/wiki/Recto and verso",
-          "x": 90160,
-          "y": -2035,
+          "x": 79104,
+          "y": 13638,
           "id": "c1ecf2a0-863d-4fe3-81d8-6a53645b3d10"
         },
         "ebc343d5-edbb-4209-913b-2c7352a8e8c9": {
           "label": "Section (typography)",
           "link": "https://en.wikipedia.org/wiki/Section (typography)",
-          "x": 90174,
-          "y": -2010,
+          "x": 79118,
+          "y": 13663,
           "id": "ebc343d5-edbb-4209-913b-2c7352a8e8c9"
         },
         "6c264af0-caed-4943-bbcc-1b78d9cfdfdc": {
           "label": "Slipcase",
           "link": "https://en.wikipedia.org/wiki/Slipcase",
-          "x": 90134,
-          "y": -1985,
+          "x": 79078,
+          "y": 13688,
           "id": "6c264af0-caed-4943-bbcc-1b78d9cfdfdc"
         },
         "d59422a3-63b1-4b9e-867b-40b65e179f34": {
           "label": "Subtitle (titling)",
           "link": "https://en.wikipedia.org/wiki/Subtitle (titling)",
-          "x": 90155,
-          "y": -1960,
+          "x": 79099,
+          "y": 13713,
           "id": "d59422a3-63b1-4b9e-867b-40b65e179f34"
         },
         "b4676914-8570-46a5-a6b2-44c535b5942e": {
           "label": "Supralibros",
           "link": "https://en.wikipedia.org/wiki/Supralibros",
-          "x": 90144,
-          "y": -1935,
+          "x": 79088,
+          "y": 13738,
           "id": "b4676914-8570-46a5-a6b2-44c535b5942e"
         },
         "b9ae370e-323b-49ef-a487-d211a096288c": {
           "label": "Table of contents",
           "link": "https://en.wikipedia.org/wiki/Table of contents",
-          "x": 90162,
-          "y": -1910,
+          "x": 79106,
+          "y": 13763,
           "id": "b9ae370e-323b-49ef-a487-d211a096288c"
         },
         "ff00851a-2b91-4643-879c-24470981bdcc": {
           "label": "Text annotation",
           "link": "https://en.wikipedia.org/wiki/Text annotation",
-          "x": 90157,
-          "y": -1885,
+          "x": 79101,
+          "y": 13788,
           "id": "ff00851a-2b91-4643-879c-24470981bdcc"
         },
         "02d37eb7-18ee-4507-87e8-1d9d75cb33d1": {
           "label": "Thumb index",
           "link": "https://en.wikipedia.org/wiki/Thumb index",
-          "x": 90149,
-          "y": -1860,
+          "x": 79093,
+          "y": 13813,
           "id": "02d37eb7-18ee-4507-87e8-1d9d75cb33d1"
         },
         "b1207f57-f557-4be8-abbb-9bd6466a5ee9": {
           "label": "Tipped-in page",
           "link": "https://en.wikipedia.org/wiki/Tipped-in page",
-          "x": 90156,
-          "y": -1835,
+          "x": 79100,
+          "y": 13838,
           "id": "b1207f57-f557-4be8-abbb-9bd6466a5ee9"
         },
         "b6b8c7a5-a2fb-42c8-9a87-d15edc880c22": {
           "label": "Title (publishing)",
           "link": "https://en.wikipedia.org/wiki/Title (publishing)",
-          "x": 90160,
-          "y": -1810,
+          "x": 79104,
+          "y": 13863,
           "id": "b6b8c7a5-a2fb-42c8-9a87-d15edc880c22"
         },
         "d77d7414-8f5a-4653-95e5-2417375ef554": {
           "label": "Title page",
           "link": "https://en.wikipedia.org/wiki/Title page",
-          "x": 90139,
-          "y": -1785,
+          "x": 79083,
+          "y": 13888,
           "id": "d77d7414-8f5a-4653-95e5-2417375ef554"
         },
         "56fb2705-9dfe-4036-a05f-c914c6e2a7b7": {
           "label": "Titling capitals",
           "link": "https://en.wikipedia.org/wiki/Titling capitals",
-          "x": 90153,
-          "y": -1760,
+          "x": 79097,
+          "y": 13913,
           "id": "56fb2705-9dfe-4036-a05f-c914c6e2a7b7"
         },
         "94c65dc9-5975-42ef-b4aa-cc4ee62539ca": {
           "label": "Treasure binding",
           "link": "https://en.wikipedia.org/wiki/Treasure binding",
-          "x": 90162,
-          "y": -1735,
+          "x": 79106,
+          "y": 13938,
           "id": "94c65dc9-5975-42ef-b4aa-cc4ee62539ca"
         },
         "cb6e4d1f-0f09-4aa2-8348-af16dac3d8e4": {
           "label": "Vellum",
           "link": "https://en.wikipedia.org/wiki/Vellum",
-          "x": 90129,
-          "y": -1710,
+          "x": 79073,
+          "y": 13963,
           "id": "cb6e4d1f-0f09-4aa2-8348-af16dac3d8e4"
         },
         "64c0e7e7-e7a2-419f-ad77-0053d06ed84a": {
           "label": "The Very Hungry Caterpillar",
           "link": "https://en.wikipedia.org/wiki/The Very Hungry Caterpillar",
-          "x": 90196,
-          "y": -1685,
+          "x": 79140,
+          "y": 13988,
           "id": "64c0e7e7-e7a2-419f-ad77-0053d06ed84a"
         },
         "d1166283-fce6-43a7-994e-9c92cf9999be": {
           "label": "Wallbook",
           "link": "https://en.wikipedia.org/wiki/Wallbook",
-          "x": 90137,
-          "y": -1660,
+          "x": 79081,
+          "y": 14013,
           "id": "d1166283-fce6-43a7-994e-9c92cf9999be"
         },
         "2d903a4e-93c6-4a3f-9207-e3c952c46452": {
           "label": "Woodblock printing",
           "link": "https://en.wikipedia.org/wiki/Woodblock printing",
-          "x": 90168,
-          "y": -1635,
+          "x": 79112,
+          "y": 14038,
           "id": "2d903a4e-93c6-4a3f-9207-e3c952c46452"
         },
         "acec7ec6-a8ef-4951-bf44-c8911c5ea893": {
           "label": "Category:Bibliography",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliography",
-          "x": 90178,
-          "y": -1610,
+          "x": 79122,
+          "y": 14063,
           "id": "acec7ec6-a8ef-4951-bf44-c8911c5ea893"
         },
         "d3df28a8-fd65-4719-8735-355861d2c52f": {
           "label": "Category:Book designers",
           "link": "https://en.wikipedia.org/wiki/Category:Book designers",
-          "x": 90188,
-          "y": -1585,
+          "x": 79132,
+          "y": 14088,
           "id": "d3df28a8-fd65-4719-8735-355861d2c52f"
         },
         "ebe12fb8-f6fe-470b-8c0b-fce2b56eddcf": {
           "label": "Category:Book terminology",
           "link": "https://en.wikipedia.org/wiki/Category:Book terminology",
-          "x": 90194,
-          "y": -1560,
+          "x": 79138,
+          "y": 14113,
           "id": "ebe12fb8-f6fe-470b-8c0b-fce2b56eddcf"
         },
         "8d3a903e-6f9e-4ea6-8cdc-f7793f0b0cc4": {
           "label": "Category:Bookbinding",
           "link": "https://en.wikipedia.org/wiki/Category:Bookbinding",
-          "x": 90178,
-          "y": -1535,
+          "x": 79122,
+          "y": 14138,
           "id": "8d3a903e-6f9e-4ea6-8cdc-f7793f0b0cc4"
         },
         "e59bda1f-6bd4-48bc-8c0d-318f1d7adc91": {
           "label": "Category:Book formats",
           "link": "https://en.wikipedia.org/wiki/Category:Book formats",
-          "x": 90181,
-          "y": -1510,
+          "x": 79125,
+          "y": 14163,
           "id": "e59bda1f-6bd4-48bc-8c0d-318f1d7adc91"
         },
         "7c00b20e-f805-4546-b0b1-47e5fa44cd0a": {
           "label": "Category:Page layout",
           "link": "https://en.wikipedia.org/wiki/Category:Page layout",
-          "x": 90176,
-          "y": -1485,
+          "x": 79120,
+          "y": 14188,
           "id": "7c00b20e-f805-4546-b0b1-47e5fa44cd0a"
         },
         "4fefc38b-cea0-4340-8cc5-6282113055e3": {
@@ -21700,204 +21700,204 @@ var schemeData =
         "4f3c8c25-53aa-44a7-84a2-cb42f671001e": {
           "label": "BIBFRAME",
           "link": "https://en.wikipedia.org/wiki/BIBFRAME",
-          "x": 89973,
-          "y": 30857,
+          "x": 90644,
+          "y": 33920,
           "id": "4f3c8c25-53aa-44a7-84a2-cb42f671001e"
         },
         "4c246ec8-82f8-432c-9c8d-9df248eb672f": {
           "label": "BibTeX",
           "link": "https://en.wikipedia.org/wiki/BibTeX",
-          "x": 89959,
-          "y": 30882,
+          "x": 90630,
+          "y": 33945,
           "id": "4c246ec8-82f8-432c-9c8d-9df248eb672f"
         },
         "b3d7a53e-b9ca-43d2-8465-99031daf6995": {
           "label": "Bookends (software)",
           "link": "https://en.wikipedia.org/wiki/Bookends (software)",
-          "x": 90003,
-          "y": 30907,
+          "x": 90674,
+          "y": 33970,
           "id": "b3d7a53e-b9ca-43d2-8465-99031daf6995"
         },
         "794b0eb3-637e-46a2-a11c-cedace7fa296": {
           "label": "Citation Style Language",
           "link": "https://en.wikipedia.org/wiki/Citation Style Language",
-          "x": 90013,
-          "y": 30932,
+          "x": 90684,
+          "y": 33995,
           "id": "794b0eb3-637e-46a2-a11c-cedace7fa296"
         },
         "c9cf156a-028d-437c-88c1-087f7c9997ab": {
           "label": "Colwiz",
           "link": "https://en.wikipedia.org/wiki/Colwiz",
-          "x": 89958,
-          "y": 30957,
+          "x": 90629,
+          "y": 34020,
           "id": "c9cf156a-028d-437c-88c1-087f7c9997ab"
         },
         "27bd9d11-0dba-4d04-83ee-a9faa15d441d": {
           "label": "Dublin Core",
           "link": "https://en.wikipedia.org/wiki/Dublin Core",
-          "x": 89975,
-          "y": 30982,
+          "x": 90646,
+          "y": 34045,
           "id": "27bd9d11-0dba-4d04-83ee-a9faa15d441d"
         },
         "de2235a6-59ff-4a3c-8030-a4d3d8185054": {
           "label": "EndNote",
           "link": "https://en.wikipedia.org/wiki/EndNote",
-          "x": 89965,
-          "y": 31007,
+          "x": 90636,
+          "y": 34070,
           "id": "de2235a6-59ff-4a3c-8030-a4d3d8185054"
         },
         "7a400782-182b-43f7-96d1-a7e81e2673a7": {
           "label": "ISO 2709",
           "link": "https://en.wikipedia.org/wiki/ISO 2709",
-          "x": 89967,
-          "y": 31032,
+          "x": 90638,
+          "y": 34095,
           "id": "7a400782-182b-43f7-96d1-a7e81e2673a7"
         },
         "64d703ce-5686-438e-9f22-cf698743d230": {
           "label": "ISO-TimeML",
           "link": "https://en.wikipedia.org/wiki/ISO-TimeML",
-          "x": 89977,
-          "y": 31057,
+          "x": 90648,
+          "y": 34120,
           "id": "64d703ce-5686-438e-9f22-cf698743d230"
         },
         "b3f368b9-6224-44c9-87b1-f06df94b24d7": {
           "label": "MARC standards",
           "link": "https://en.wikipedia.org/wiki/MARC standards",
-          "x": 89991,
-          "y": 31082,
+          "x": 90662,
+          "y": 34145,
           "id": "b3f368b9-6224-44c9-87b1-f06df94b24d7"
         },
         "c0b2f4da-7216-4bee-b34e-82ab33bfcba0": {
           "label": "Metadata Authority Description Schema",
           "link": "https://en.wikipedia.org/wiki/Metadata Authority Description Schema",
-          "x": 90063,
-          "y": 31107,
+          "x": 90734,
+          "y": 34170,
           "id": "c0b2f4da-7216-4bee-b34e-82ab33bfcba0"
         },
         "7171100a-a540-4ffb-8b92-bb832b97c54e": {
           "label": "Metadata Object Description Schema",
           "link": "https://en.wikipedia.org/wiki/Metadata Object Description Schema",
-          "x": 90055,
-          "y": 31132,
+          "x": 90726,
+          "y": 34195,
           "id": "7171100a-a540-4ffb-8b92-bb832b97c54e"
         },
         "d49c2a54-3496-4341-994a-d2bb9b3d6e95": {
           "label": "ONIX (publishing protocol)",
           "link": "https://en.wikipedia.org/wiki/ONIX (publishing protocol)",
-          "x": 90021,
-          "y": 31157,
+          "x": 90692,
+          "y": 34220,
           "id": "d49c2a54-3496-4341-994a-d2bb9b3d6e95"
         },
         "49b8ecfa-98a0-4f45-b393-e29361c4e505": {
           "label": "ONIX for Books",
           "link": "https://en.wikipedia.org/wiki/ONIX for Books",
-          "x": 89986,
-          "y": 31182,
+          "x": 90657,
+          "y": 34245,
           "id": "49b8ecfa-98a0-4f45-b393-e29361c4e505"
         },
         "f256b9cc-becd-4033-b1ad-cd77ac3ac842": {
           "label": "Paperpile",
           "link": "https://en.wikipedia.org/wiki/Paperpile",
-          "x": 89967,
-          "y": 31207,
+          "x": 90638,
+          "y": 34270,
           "id": "f256b9cc-becd-4033-b1ad-cd77ac3ac842"
         },
         "b2d1599d-5504-4b46-8525-46a953181b64": {
           "label": "Plaine & Easie Code",
           "link": "https://en.wikipedia.org/wiki/Plaine & Easie Code",
-          "x": 90002,
-          "y": 31232,
+          "x": 90673,
+          "y": 34295,
           "id": "b2d1599d-5504-4b46-8525-46a953181b64"
         },
         "f59c9807-4b0b-462c-b940-6430abf1d58c": {
           "label": "Refer (software)",
           "link": "https://en.wikipedia.org/wiki/Refer (software)",
-          "x": 89989,
-          "y": 31257,
+          "x": 90660,
+          "y": 34320,
           "id": "f59c9807-4b0b-462c-b940-6430abf1d58c"
         },
         "23a62670-66ca-44d8-bd01-a1a227458c77": {
           "label": "Resource Description Framework",
           "link": "https://en.wikipedia.org/wiki/Resource Description Framework",
-          "x": 90043,
-          "y": 31282,
+          "x": 90714,
+          "y": 34345,
           "id": "23a62670-66ca-44d8-bd01-a1a227458c77"
         },
         "546fd99a-aa3c-445a-a9c5-fe1e78dfae26": {
           "label": "RIS (file format)",
           "link": "https://en.wikipedia.org/wiki/RIS (file format)",
-          "x": 89987,
-          "y": 31307,
+          "x": 90658,
+          "y": 34370,
           "id": "546fd99a-aa3c-445a-a9c5-fe1e78dfae26"
         },
         "fb411903-69a9-484d-b3ce-0ac4b586273a": {
           "label": "TimeML",
           "link": "https://en.wikipedia.org/wiki/TimeML",
-          "x": 89963,
-          "y": 31332,
+          "x": 90634,
+          "y": 34395,
           "id": "fb411903-69a9-484d-b3ce-0ac4b586273a"
         },
         "40c348ad-2f95-4466-b48b-723a6f388122": {
           "label": "WizFolio",
           "link": "https://en.wikipedia.org/wiki/WizFolio",
-          "x": 89964,
-          "y": 31357,
+          "x": 90635,
+          "y": 34420,
           "id": "40c348ad-2f95-4466-b48b-723a6f388122"
         },
         "7e17d8e2-5a85-47ea-b7bd-f6dbf395fac6": {
           "label": "XML",
           "link": "https://en.wikipedia.org/wiki/XML",
-          "x": 89952,
-          "y": 31382,
+          "x": 90623,
+          "y": 34445,
           "id": "7e17d8e2-5a85-47ea-b7bd-f6dbf395fac6"
         },
         "dc125612-c235-4368-80cd-557972720bf0": {
           "label": "Bibliography of works on James Bond",
           "link": "https://en.wikipedia.org/wiki/Bibliography of works on James Bond",
-          "x": 89914,
-          "y": 31701,
+          "x": 90585,
+          "y": 34764,
           "id": "dc125612-c235-4368-80cd-557972720bf0"
         },
         "4332b9d5-b822-442f-a7a4-f14e08087183": {
           "label": "Bibliography on Artemisia Gentileschi",
           "link": "https://en.wikipedia.org/wiki/Bibliography on Artemisia Gentileschi",
-          "x": 89913,
-          "y": 31726,
+          "x": 90584,
+          "y": 34789,
           "id": "4332b9d5-b822-442f-a7a4-f14e08087183"
         },
         "4bd6529f-f7b5-4ded-aae1-cbd521740501": {
           "label": "Das deutsche Schrifttum über den Völkerbund",
           "link": "https://en.wikipedia.org/wiki/Das deutsche Schrifttum über den Völkerbund",
-          "x": 89941,
-          "y": 31751,
+          "x": 90612,
+          "y": 34814,
           "id": "4bd6529f-f7b5-4ded-aae1-cbd521740501"
         },
         "73ec4f05-0650-4d57-a2db-157306842d8f": {
           "label": "List of works about the Dutch East India Company",
           "link": "https://en.wikipedia.org/wiki/List of works about the Dutch East India Company",
-          "x": 89953,
-          "y": 31776,
+          "x": 90624,
+          "y": 34839,
           "id": "73ec4f05-0650-4d57-a2db-157306842d8f"
         },
         "092f42c2-c51c-41e2-ab9b-1cf07c82c931": {
           "label": "Brian Moore (novelist)",
           "link": "https://en.wikipedia.org/wiki/Brian Moore (novelist)",
-          "x": 89865,
-          "y": 31801,
+          "x": 90536,
+          "y": 34864,
           "id": "092f42c2-c51c-41e2-ab9b-1cf07c82c931"
         },
         "43aa5f14-dbcf-44ca-af0f-745b38a33798": {
           "label": "Category:Published bibliographies",
           "link": "https://en.wikipedia.org/wiki/Category:Published bibliographies",
-          "x": 89903,
-          "y": 31826,
+          "x": 90574,
+          "y": 34889,
           "id": "43aa5f14-dbcf-44ca-af0f-745b38a33798"
         },
         "3fb093c8-15c8-4d2a-8bdb-e1743da57dd6": {
           "label": "Category:Wikipedia bibliographies",
           "link": "https://en.wikipedia.org/wiki/Category:Wikipedia bibliographies",
-          "x": 89903,
-          "y": 31851,
+          "x": 90574,
+          "y": 34914,
           "id": "3fb093c8-15c8-4d2a-8bdb-e1743da57dd6"
         },
         "84e76354-6833-4f0c-a1bf-4a78ca49ba89": {
@@ -24010,1758 +24010,1758 @@ var schemeData =
         "f6c05471-159d-4482-8fbd-2b5f1ca1a5cb": {
           "label": "Page (paper)",
           "link": "https://en.wikipedia.org/wiki/Page (paper)",
-          "x": 89508,
-          "y": 2560,
+          "x": 89942,
+          "y": -3707,
           "id": "f6c05471-159d-4482-8fbd-2b5f1ca1a5cb"
         },
         "b8ddb870-4c1a-4a95-b3ab-bd2afba90c19": {
           "label": "Page layout",
           "link": "https://en.wikipedia.org/wiki/Page layout",
-          "x": 89504,
-          "y": 2585,
+          "x": 89938,
+          "y": -3682,
           "id": "b8ddb870-4c1a-4a95-b3ab-bd2afba90c19"
         },
         "c2fc5662-4a0b-471a-b2e6-49bf8e4ee5e9": {
           "label": "Boxout",
           "link": "https://en.wikipedia.org/wiki/Boxout",
-          "x": 89488,
-          "y": 2610,
+          "x": 89922,
+          "y": -3657,
           "id": "c2fc5662-4a0b-471a-b2e6-49bf8e4ee5e9"
         },
         "a1fc7298-ed9b-4f6a-b581-330d5441fd21": {
           "label": "Canons of page construction",
           "link": "https://en.wikipedia.org/wiki/Canons of page construction",
-          "x": 89557,
-          "y": 2635,
+          "x": 89991,
+          "y": -3632,
           "id": "a1fc7298-ed9b-4f6a-b581-330d5441fd21"
         },
         "b4556501-8809-4b48-942f-acf7130bab9e": {
           "label": "Column (typography)",
           "link": "https://en.wikipedia.org/wiki/Column (typography)",
-          "x": 89533,
-          "y": 2660,
+          "x": 89967,
+          "y": -3607,
           "id": "b4556501-8809-4b48-942f-acf7130bab9e"
         },
         "a300765e-9bb8-488a-946f-74fe52e78e61": {
           "label": "Double truck",
           "link": "https://en.wikipedia.org/wiki/Double truck",
-          "x": 89506,
-          "y": 2685,
+          "x": 89940,
+          "y": -3582,
           "id": "a300765e-9bb8-488a-946f-74fe52e78e61"
         },
         "42af168b-33af-4874-94c9-fe0a1ffb66ba": {
           "label": "Flatplan",
           "link": "https://en.wikipedia.org/wiki/Flatplan",
-          "x": 89492,
-          "y": 2710,
+          "x": 89926,
+          "y": -3557,
           "id": "42af168b-33af-4874-94c9-fe0a1ffb66ba"
         },
         "424c80dd-9976-4e86-8e7a-b438cca70fd8": {
           "label": "Grid (graphic design)",
           "link": "https://en.wikipedia.org/wiki/Grid (graphic design)",
-          "x": 89533,
-          "y": 2735,
+          "x": 89967,
+          "y": -3532,
           "id": "424c80dd-9976-4e86-8e7a-b438cca70fd8"
         },
         "0b212eb7-06ae-4714-8646-3a7660b27dd8": {
           "label": "Margin (typography)",
           "link": "https://en.wikipedia.org/wiki/Margin (typography)",
-          "x": 89531,
-          "y": 2760,
+          "x": 89965,
+          "y": -3507,
           "id": "0b212eb7-06ae-4714-8646-3a7660b27dd8"
         },
         "7c8bd11e-c98a-4d38-b843-20880ec6c476": {
           "label": "Page footer",
           "link": "https://en.wikipedia.org/wiki/Page footer",
-          "x": 89503,
-          "y": 2785,
+          "x": 89937,
+          "y": -3482,
           "id": "7c8bd11e-c98a-4d38-b843-20880ec6c476"
         },
         "ab4e809b-cbb1-4766-a6af-47d09727f9c6": {
           "label": "Page header",
           "link": "https://en.wikipedia.org/wiki/Page header",
-          "x": 89507,
-          "y": 2810,
+          "x": 89941,
+          "y": -3457,
           "id": "ab4e809b-cbb1-4766-a6af-47d09727f9c6"
         },
         "775aab73-b066-42a1-9357-0a7171087431": {
           "label": "Page Interchange Language",
           "link": "https://en.wikipedia.org/wiki/Page Interchange Language",
-          "x": 89557,
-          "y": 2835,
+          "x": 89991,
+          "y": -3432,
           "id": "775aab73-b066-42a1-9357-0a7171087431"
         },
         "d1e2166e-29d3-4332-b63c-cb9ed219e841": {
           "label": "Page orientation",
           "link": "https://en.wikipedia.org/wiki/Page orientation",
-          "x": 89518,
-          "y": 2860,
+          "x": 89952,
+          "y": -3407,
           "id": "d1e2166e-29d3-4332-b63c-cb9ed219e841"
         },
         "205141ab-d310-427d-b662-958cf2fd06bd": {
           "label": "Pagination",
           "link": "https://en.wikipedia.org/wiki/Pagination",
-          "x": 89500,
-          "y": 2885,
+          "x": 89934,
+          "y": -3382,
           "id": "205141ab-d310-427d-b662-958cf2fd06bd"
         },
         "81f9fbbe-f0b6-4886-aab8-f15f01e8364c": {
           "label": "Pull quote",
           "link": "https://en.wikipedia.org/wiki/Pull quote",
-          "x": 89498,
-          "y": 2910,
+          "x": 89932,
+          "y": -3357,
           "id": "81f9fbbe-f0b6-4886-aab8-f15f01e8364c"
         },
         "c98091e2-4fad-4fbe-8e78-ca2c7e81f288": {
           "label": "Sidebar (publishing)",
           "link": "https://en.wikipedia.org/wiki/Sidebar (publishing)",
-          "x": 89530,
-          "y": 2935,
+          "x": 89964,
+          "y": -3332,
           "id": "c98091e2-4fad-4fbe-8e78-ca2c7e81f288"
         },
         "17605cc3-b7bf-48e4-9294-c8da4128ad67": {
           "label": "Signature mark",
           "link": "https://en.wikipedia.org/wiki/Signature mark",
-          "x": 89515,
-          "y": 2960,
+          "x": 89949,
+          "y": -3307,
           "id": "17605cc3-b7bf-48e4-9294-c8da4128ad67"
         },
         "f30c9ae7-e86b-464b-9e7d-c8cee3b9d2d2": {
           "label": "Template generator",
           "link": "https://en.wikipedia.org/wiki/Template generator",
-          "x": 89528,
-          "y": 2985,
+          "x": 89962,
+          "y": -3282,
           "id": "f30c9ae7-e86b-464b-9e7d-c8cee3b9d2d2"
         },
         "eb3f5585-4a0a-41ac-a979-e49d016409b2": {
           "label": "Visual hierarchy",
           "link": "https://en.wikipedia.org/wiki/Visual hierarchy",
-          "x": 89516,
-          "y": 3010,
+          "x": 89950,
+          "y": -3257,
           "id": "eb3f5585-4a0a-41ac-a979-e49d016409b2"
         },
         "14ca8ae3-cc62-4c46-964c-2ab882dd166a": {
           "label": "Category:Template generators",
           "link": "https://en.wikipedia.org/wiki/Category:Template generators",
-          "x": 89563,
-          "y": 3035,
+          "x": 89997,
+          "y": -3232,
           "id": "14ca8ae3-cc62-4c46-964c-2ab882dd166a"
         },
         "7415f35b-53cf-4d10-94e8-e78a1e16f138": {
           "label": "Bibliographic database",
           "link": "https://en.wikipedia.org/wiki/Bibliographic database",
-          "x": 90081,
-          "y": 21986,
+          "x": 90752,
+          "y": 25049,
           "id": "7415f35b-53cf-4d10-94e8-e78a1e16f138"
         },
         "e3dc41e9-9a58-4a79-83b6-b2261c980682": {
           "label": "Academic Search",
           "link": "https://en.wikipedia.org/wiki/Academic Search",
-          "x": 90064,
-          "y": 22011,
+          "x": 90735,
+          "y": 25074,
           "id": "e3dc41e9-9a58-4a79-83b6-b2261c980682"
         },
         "1d1bd41a-d43e-43eb-82ba-a1c022075100": {
           "label": "AfricaBib",
           "link": "https://en.wikipedia.org/wiki/AfricaBib",
-          "x": 90037,
-          "y": 22036,
+          "x": 90708,
+          "y": 25099,
           "id": "1d1bd41a-d43e-43eb-82ba-a1c022075100"
         },
         "ee358728-d5a8-49e2-b5a6-f82d2b194e52": {
           "label": "African Studies Abstracts Online",
           "link": "https://en.wikipedia.org/wiki/African Studies Abstracts Online",
-          "x": 90110,
-          "y": 22061,
+          "x": 90781,
+          "y": 25124,
           "id": "ee358728-d5a8-49e2-b5a6-f82d2b194e52"
         },
         "a42fa73c-f011-450d-a7ab-3df502cf4cd5": {
           "label": "AGRICOLA",
           "link": "https://en.wikipedia.org/wiki/AGRICOLA",
-          "x": 90045,
-          "y": 22086,
+          "x": 90716,
+          "y": 25149,
           "id": "a42fa73c-f011-450d-a7ab-3df502cf4cd5"
         },
         "6fb4ed54-e8d7-47bf-8739-12c8d52e10be": {
           "label": "Air University Library Index to Military Periodicals",
           "link": "https://en.wikipedia.org/wiki/Air University Library Index to Military Periodicals",
-          "x": 90163,
-          "y": 22111,
+          "x": 90834,
+          "y": 25174,
           "id": "6fb4ed54-e8d7-47bf-8739-12c8d52e10be"
         },
         "8a4d24a9-56f2-4655-a9e2-d14c86f4cddc": {
           "label": "Analytical Sciences Digital Library",
           "link": "https://en.wikipedia.org/wiki/Analytical Sciences Digital Library",
-          "x": 90115,
-          "y": 22136,
+          "x": 90786,
+          "y": 25199,
           "id": "8a4d24a9-56f2-4655-a9e2-d14c86f4cddc"
         },
         "8027d405-4071-44bf-b9ec-b1cf0a68a32a": {
           "label": "L'Année philologique",
           "link": "https://en.wikipedia.org/wiki/L'Année philologique",
-          "x": 90075,
-          "y": 22161,
+          "x": 90746,
+          "y": 25224,
           "id": "8027d405-4071-44bf-b9ec-b1cf0a68a32a"
         },
         "9119068c-9d1c-4f61-b8c8-59dc321034bb": {
           "label": "Annual Bibliography of English Language and Literature",
           "link": "https://en.wikipedia.org/wiki/Annual Bibliography of English Language and Literature",
-          "x": 90185,
-          "y": 22186,
+          "x": 90856,
+          "y": 25249,
           "id": "9119068c-9d1c-4f61-b8c8-59dc321034bb"
         },
         "314036d5-2978-477a-89e5-e81c8752f948": {
           "label": "Anthropological Literature",
           "link": "https://en.wikipedia.org/wiki/Anthropological Literature",
-          "x": 90090,
-          "y": 22211,
+          "x": 90761,
+          "y": 25274,
           "id": "314036d5-2978-477a-89e5-e81c8752f948"
         },
         "7296d57d-6d7c-423a-b150-4a7169f08fb6": {
           "label": "Aquatic Sciences and Fisheries Abstracts",
           "link": "https://en.wikipedia.org/wiki/Aquatic Sciences and Fisheries Abstracts",
-          "x": 90139,
-          "y": 22236,
+          "x": 90810,
+          "y": 25299,
           "id": "7296d57d-6d7c-423a-b150-4a7169f08fb6"
         },
         "043f15a1-47d8-4b65-9073-31c4382cd171": {
           "label": "Arachne (archaeological database)",
           "link": "https://en.wikipedia.org/wiki/Arachne (archaeological database)",
-          "x": 90120,
-          "y": 22261,
+          "x": 90791,
+          "y": 25324,
           "id": "043f15a1-47d8-4b65-9073-31c4382cd171"
         },
         "a3935f3e-946d-422d-b222-827614ec3d31": {
           "label": "ArchiveGrid",
           "link": "https://en.wikipedia.org/wiki/ArchiveGrid",
-          "x": 90046,
-          "y": 22286,
+          "x": 90717,
+          "y": 25349,
           "id": "a3935f3e-946d-422d-b222-827614ec3d31"
         },
         "a8301844-25d5-4910-8df0-0d092a67f230": {
           "label": "Astrophysics Data System",
           "link": "https://en.wikipedia.org/wiki/Astrophysics Data System",
-          "x": 90091,
-          "y": 22311,
+          "x": 90762,
+          "y": 25374,
           "id": "a8301844-25d5-4910-8df0-0d092a67f230"
         },
         "d3bc99ec-6d6a-43aa-9633-ee81a173184f": {
           "label": "Atla Religion Database",
           "link": "https://en.wikipedia.org/wiki/Atla Religion Database",
-          "x": 90081,
-          "y": 22336,
+          "x": 90752,
+          "y": 25399,
           "id": "d3bc99ec-6d6a-43aa-9633-ee81a173184f"
         },
         "d48df767-263e-4290-9c3d-bd70e02ecbe8": {
           "label": "ATLASerials",
           "link": "https://en.wikipedia.org/wiki/ATLASerials",
-          "x": 90047,
-          "y": 22361,
+          "x": 90718,
+          "y": 25424,
           "id": "d48df767-263e-4290-9c3d-bd70e02ecbe8"
         },
         "b7fdba56-7943-472e-a2a1-f58cc21eaf65": {
           "label": "Australian Bibliographic Network",
           "link": "https://en.wikipedia.org/wiki/Australian Bibliographic Network",
-          "x": 90111,
-          "y": 22386,
+          "x": 90782,
+          "y": 25449,
           "id": "b7fdba56-7943-472e-a2a1-f58cc21eaf65"
         },
         "a2637fc0-f828-4d6f-92ab-9bc949d771dd": {
           "label": "Authors Guild, Inc. v. HathiTrust",
           "link": "https://en.wikipedia.org/wiki/Authors Guild, Inc. v. HathiTrust",
-          "x": 90109,
-          "y": 22411,
+          "x": 90780,
+          "y": 25474,
           "id": "a2637fc0-f828-4d6f-92ab-9bc949d771dd"
         },
         "a04e6445-3888-43e9-9faf-1756cc7bc19e": {
           "label": "BARTOC",
           "link": "https://en.wikipedia.org/wiki/BARTOC",
-          "x": 90037,
-          "y": 22436,
+          "x": 90708,
+          "y": 25499,
           "id": "a04e6445-3888-43e9-9faf-1756cc7bc19e"
         },
         "fe236d86-bb7f-462f-9ae9-b302aaf726f4": {
           "label": "BASE (search engine)",
           "link": "https://en.wikipedia.org/wiki/BASE (search engine)",
-          "x": 90079,
-          "y": 22461,
+          "x": 90750,
+          "y": 25524,
           "id": "fe236d86-bb7f-462f-9ae9-b302aaf726f4"
         },
         "b88c5e43-9ada-459f-b041-6f57c8bb696f": {
           "label": "Beilstein database",
           "link": "https://en.wikipedia.org/wiki/Beilstein database",
-          "x": 90067,
-          "y": 22486,
+          "x": 90738,
+          "y": 25549,
           "id": "b88c5e43-9ada-459f-b041-6f57c8bb696f"
         },
         "33416abb-70b6-4ab5-b99f-88beffe23b1f": {
           "label": "Bibliographic Index",
           "link": "https://en.wikipedia.org/wiki/Bibliographic Index",
-          "x": 90069,
-          "y": 22511,
+          "x": 90740,
+          "y": 25574,
           "id": "33416abb-70b6-4ab5-b99f-88beffe23b1f"
         },
         "40150368-a6c5-46af-bc2d-61e252e32502": {
           "label": "Bibliographic index",
           "link": "https://en.wikipedia.org/wiki/Bibliographic index",
-          "x": 90068,
-          "y": 22536,
+          "x": 90739,
+          "y": 25599,
           "id": "40150368-a6c5-46af-bc2d-61e252e32502"
         },
         "464eabf3-1475-40a5-a72d-d8f189919f0f": {
           "label": "Bibliographic record",
           "link": "https://en.wikipedia.org/wiki/Bibliographic record",
-          "x": 90072,
-          "y": 22561,
+          "x": 90743,
+          "y": 25624,
           "id": "464eabf3-1475-40a5-a72d-d8f189919f0f"
         },
         "63c1cc21-2944-410b-a48e-52f1c0090141": {
           "label": "Bibliographie de civilisation médiévale",
           "link": "https://en.wikipedia.org/wiki/Bibliographie de civilisation médiévale",
-          "x": 90128,
-          "y": 22586,
+          "x": 90799,
+          "y": 25649,
           "id": "63c1cc21-2944-410b-a48e-52f1c0090141"
         },
         "e297cc63-1ecd-4bff-8114-390ad668a386": {
           "label": "Bibliography and Index of Geology",
           "link": "https://en.wikipedia.org/wiki/Bibliography and Index of Geology",
-          "x": 90118,
-          "y": 22611,
+          "x": 90789,
+          "y": 25674,
           "id": "e297cc63-1ecd-4bff-8114-390ad668a386"
         },
         "f8f55cdf-32f3-424e-a13b-6a5abed84815": {
           "label": "BiblioPage.com",
           "link": "https://en.wikipedia.org/wiki/BiblioPage.com",
-          "x": 90058,
-          "y": 22636,
+          "x": 90729,
+          "y": 25699,
           "id": "f8f55cdf-32f3-424e-a13b-6a5abed84815"
         },
         "3496ca17-9249-4702-99f7-4b39a95729d8": {
           "label": "Biblioteca Virtual en Salud",
           "link": "https://en.wikipedia.org/wiki/Biblioteca Virtual en Salud",
-          "x": 90091,
-          "y": 22661,
+          "x": 90762,
+          "y": 25724,
           "id": "3496ca17-9249-4702-99f7-4b39a95729d8"
         },
         "85344c80-4b5e-4a44-839d-7f1c308ff4dd": {
           "label": "Bibliotek.dk",
           "link": "https://en.wikipedia.org/wiki/Bibliotek.dk",
-          "x": 90045,
-          "y": 22686,
+          "x": 90716,
+          "y": 25749,
           "id": "85344c80-4b5e-4a44-839d-7f1c308ff4dd"
         },
         "f9691de7-45ea-43ed-ae12-842d8c648a11": {
           "label": "Biblioteksentralen",
           "link": "https://en.wikipedia.org/wiki/Biblioteksentralen",
-          "x": 90065,
-          "y": 22711,
+          "x": 90736,
+          "y": 25774,
           "id": "f9691de7-45ea-43ed-ae12-842d8c648a11"
         },
         "53095fa2-c8df-4374-beb9-fcc35554ff84": {
           "label": "Biography and Genealogy Master Index",
           "link": "https://en.wikipedia.org/wiki/Biography and Genealogy Master Index",
-          "x": 90135,
-          "y": 22736,
+          "x": 90806,
+          "y": 25799,
           "id": "53095fa2-c8df-4374-beb9-fcc35554ff84"
         },
         "16341b7e-7370-4028-9d6c-40f2c9fac6c4": {
           "label": "Biography Index",
           "link": "https://en.wikipedia.org/wiki/Biography Index",
-          "x": 90060,
-          "y": 22761,
+          "x": 90731,
+          "y": 25824,
           "id": "16341b7e-7370-4028-9d6c-40f2c9fac6c4"
         },
         "df65e6fa-1017-4545-8ed7-e4f7a13e0e2f": {
           "label": "Biological Abstracts",
           "link": "https://en.wikipedia.org/wiki/Biological Abstracts",
-          "x": 90070,
-          "y": 22786,
+          "x": 90741,
+          "y": 25849,
           "id": "df65e6fa-1017-4545-8ed7-e4f7a13e0e2f"
         },
         "ca57e36e-e4e8-4b34-963e-459e3b051654": {
           "label": "BioOne",
           "link": "https://en.wikipedia.org/wiki/BioOne",
-          "x": 90032,
-          "y": 22811,
+          "x": 90703,
+          "y": 25874,
           "id": "ca57e36e-e4e8-4b34-963e-459e3b051654"
         },
         "54620e80-f4d5-4700-b86c-d067696cdb43": {
           "label": "BIOSIS Previews",
           "link": "https://en.wikipedia.org/wiki/BIOSIS Previews",
-          "x": 90062,
-          "y": 22836,
+          "x": 90733,
+          "y": 25899,
           "id": "54620e80-f4d5-4700-b86c-d067696cdb43"
         },
         "875e934e-5e0c-4b7d-98b8-9b735f1bc78e": {
           "label": "BlackPast.org",
           "link": "https://en.wikipedia.org/wiki/BlackPast.org",
-          "x": 90052,
-          "y": 22861,
+          "x": 90723,
+          "y": 25924,
           "id": "875e934e-5e0c-4b7d-98b8-9b735f1bc78e"
         },
         "ae041bdd-ec37-42d6-872a-d82803743286": {
           "label": "Book Citation Index",
           "link": "https://en.wikipedia.org/wiki/Book Citation Index",
-          "x": 90070,
-          "y": 22886,
+          "x": 90741,
+          "y": 25949,
           "id": "ae041bdd-ec37-42d6-872a-d82803743286"
         },
         "3576f969-9c3c-4536-a84c-9f8eaf6e1ae9": {
           "label": "Book Review Index",
           "link": "https://en.wikipedia.org/wiki/Book Review Index",
-          "x": 90069,
-          "y": 22911,
+          "x": 90740,
+          "y": 25974,
           "id": "3576f969-9c3c-4536-a84c-9f8eaf6e1ae9"
         },
         "390bbde5-8560-4aeb-b1c8-42bc68199ee0": {
           "label": "Books In Print",
           "link": "https://en.wikipedia.org/wiki/Books In Print",
-          "x": 90053,
-          "y": 22936,
+          "x": 90724,
+          "y": 25999,
           "id": "390bbde5-8560-4aeb-b1c8-42bc68199ee0"
         },
         "4e1a393f-41a5-49b5-8d73-2e6d5d309d47": {
           "label": "British Humanities Index",
           "link": "https://en.wikipedia.org/wiki/British Humanities Index",
-          "x": 90085,
-          "y": 22961,
+          "x": 90756,
+          "y": 26024,
           "id": "4e1a393f-41a5-49b5-8d73-2e6d5d309d47"
         },
         "0f0e3142-b46d-48b4-a9ec-636abddd2feb": {
           "label": "British Nursing Index",
           "link": "https://en.wikipedia.org/wiki/British Nursing Index",
-          "x": 90074,
-          "y": 22986,
+          "x": 90745,
+          "y": 26049,
           "id": "0f0e3142-b46d-48b4-a9ec-636abddd2feb"
         },
         "99fb7235-3337-4beb-b7fb-efaf5ee7e1d4": {
           "label": "Buddhist Digital Resource Center",
           "link": "https://en.wikipedia.org/wiki/Buddhist Digital Resource Center",
-          "x": 90114,
-          "y": 23011,
+          "x": 90785,
+          "y": 26074,
           "id": "99fb7235-3337-4beb-b7fb-efaf5ee7e1d4"
         },
         "84821b7d-0bd4-4765-b7df-ae6232e59d84": {
           "label": "CAB Direct (database)",
           "link": "https://en.wikipedia.org/wiki/CAB Direct (database)",
-          "x": 90080,
-          "y": 23036,
+          "x": 90751,
+          "y": 26099,
           "id": "84821b7d-0bd4-4765-b7df-ae6232e59d84"
         },
         "352cc1f9-f9dc-478a-b434-cc5b288bdf9b": {
           "label": "Cabell's blacklist",
           "link": "https://en.wikipedia.org/wiki/Cabell's blacklist",
-          "x": 90061,
-          "y": 23061,
+          "x": 90732,
+          "y": 26124,
           "id": "352cc1f9-f9dc-478a-b434-cc5b288bdf9b"
         },
         "6fbfe2d6-4b2d-4576-8d3c-0e01694115da": {
           "label": "Catalogue of Scientific Papers",
           "link": "https://en.wikipedia.org/wiki/Catalogue of Scientific Papers",
-          "x": 90104,
-          "y": 23086,
+          "x": 90775,
+          "y": 26149,
           "id": "6fbfe2d6-4b2d-4576-8d3c-0e01694115da"
         },
         "6b9998c9-745d-4ecb-998a-82f77146c412": {
           "label": "Central and Eastern European Online Library",
           "link": "https://en.wikipedia.org/wiki/Central and Eastern European Online Library",
-          "x": 90152,
-          "y": 23111,
+          "x": 90823,
+          "y": 26174,
           "id": "6b9998c9-745d-4ecb-998a-82f77146c412"
         },
         "05eadc0e-047a-42e3-94ab-3d3b0834e609": {
           "label": "Chemical Abstracts Service",
           "link": "https://en.wikipedia.org/wiki/Chemical Abstracts Service",
-          "x": 90095,
-          "y": 23136,
+          "x": 90766,
+          "y": 26199,
           "id": "05eadc0e-047a-42e3-94ab-3d3b0834e609"
         },
         "28a86d21-ae93-4419-89d0-eb2b86e6524f": {
           "label": "ChemInform",
           "link": "https://en.wikipedia.org/wiki/ChemInform",
-          "x": 90048,
-          "y": 23161,
+          "x": 90719,
+          "y": 26224,
           "id": "28a86d21-ae93-4419-89d0-eb2b86e6524f"
         },
         "0fd29455-d2af-4b35-b99e-92282c9715dd": {
           "label": "ChemXSeer",
           "link": "https://en.wikipedia.org/wiki/ChemXSeer",
-          "x": 90047,
-          "y": 23186,
+          "x": 90718,
+          "y": 26249,
           "id": "0fd29455-d2af-4b35-b99e-92282c9715dd"
         },
         "dcdcdf4e-f64a-4516-ad96-b7027848549c": {
           "label": "China Biographical Database",
           "link": "https://en.wikipedia.org/wiki/China Biographical Database",
-          "x": 90101,
-          "y": 23211,
+          "x": 90772,
+          "y": 26274,
           "id": "dcdcdf4e-f64a-4516-ad96-b7027848549c"
         },
         "ae4b73f0-cddd-4bb8-95e4-4a821dfbe2cc": {
           "label": "Chinese Science Citation Database",
           "link": "https://en.wikipedia.org/wiki/Chinese Science Citation Database",
-          "x": 90120,
-          "y": 23236,
+          "x": 90791,
+          "y": 26299,
           "id": "ae4b73f0-cddd-4bb8-95e4-4a821dfbe2cc"
         },
         "a9433c37-62f8-44bd-81e7-0711d2ec7f24": {
           "label": "Chinese Social Sciences Citation Index",
           "link": "https://en.wikipedia.org/wiki/Chinese Social Sciences Citation Index",
-          "x": 90132,
-          "y": 23261,
+          "x": 90803,
+          "y": 26324,
           "id": "a9433c37-62f8-44bd-81e7-0711d2ec7f24"
         },
         "94c73661-a376-4b43-94bb-64a77033127f": {
           "label": "CINAHL",
           "link": "https://en.wikipedia.org/wiki/CINAHL",
-          "x": 90034,
-          "y": 23286,
+          "x": 90705,
+          "y": 26349,
           "id": "94c73661-a376-4b43-94bb-64a77033127f"
         },
         "c76669cd-678c-4661-96f3-c7a417072ac1": {
           "label": "CiNii",
           "link": "https://en.wikipedia.org/wiki/CiNii",
-          "x": 90023,
-          "y": 23311,
+          "x": 90694,
+          "y": 26374,
           "id": "c76669cd-678c-4661-96f3-c7a417072ac1"
         },
         "c817c155-0715-4c6d-8067-46f2b1614434": {
           "label": "Circumpolar Health Bibliographic Database",
           "link": "https://en.wikipedia.org/wiki/Circumpolar Health Bibliographic Database",
-          "x": 90145,
-          "y": 23336,
+          "x": 90816,
+          "y": 26399,
           "id": "c817c155-0715-4c6d-8067-46f2b1614434"
         },
         "cebec66f-c47c-4ea7-a6ba-4c5acbd93786": {
           "label": "Citation index",
           "link": "https://en.wikipedia.org/wiki/Citation index",
-          "x": 90052,
-          "y": 23361,
+          "x": 90723,
+          "y": 26424,
           "id": "cebec66f-c47c-4ea7-a6ba-4c5acbd93786"
         },
         "4f0abbde-6b25-4156-9d2b-7fef7bca3f67": {
           "label": "Citebase",
           "link": "https://en.wikipedia.org/wiki/Citebase",
-          "x": 90037,
-          "y": 23386,
+          "x": 90708,
+          "y": 26449,
           "id": "4f0abbde-6b25-4156-9d2b-7fef7bca3f67"
         },
         "10730008-9933-4ba8-9a84-6801e98b39e7": {
           "label": "Cochrane Library",
           "link": "https://en.wikipedia.org/wiki/Cochrane Library",
-          "x": 90064,
-          "y": 23411,
+          "x": 90735,
+          "y": 26474,
           "id": "10730008-9933-4ba8-9a84-6801e98b39e7"
         },
         "4a372fdc-1543-4dda-88d7-bd3209401b38": {
           "label": "CogPrints",
           "link": "https://en.wikipedia.org/wiki/CogPrints",
-          "x": 90040,
-          "y": 23436,
+          "x": 90711,
+          "y": 26499,
           "id": "4a372fdc-1543-4dda-88d7-bd3209401b38"
         },
         "c0b6bd24-f155-4f77-9d30-5840eb3368ad": {
           "label": "Comparison of research networking tools and research profiling systems",
           "link": "https://en.wikipedia.org/wiki/Comparison of research networking tools and research profiling systems",
-          "x": 90238,
-          "y": 23461,
+          "x": 90909,
+          "y": 26524,
           "id": "c0b6bd24-f155-4f77-9d30-5840eb3368ad"
         },
         "12f4346f-dbef-44ea-9bab-2de6f9a8c429": {
           "label": "Copac",
           "link": "https://en.wikipedia.org/wiki/Copac",
-          "x": 90029,
-          "y": 23486,
+          "x": 90700,
+          "y": 26549,
           "id": "12f4346f-dbef-44ea-9bab-2de6f9a8c429"
         },
         "5d77f1b0-67f6-4ac7-bc39-761922f2da57": {
           "label": "CRIStin",
           "link": "https://en.wikipedia.org/wiki/CRIStin",
-          "x": 90033,
-          "y": 23511,
+          "x": 90704,
+          "y": 26574,
           "id": "5d77f1b0-67f6-4ac7-bc39-761922f2da57"
         },
         "698f8a7e-12b1-42f8-af5f-60ffb1e737ef": {
           "label": "Current Contents",
           "link": "https://en.wikipedia.org/wiki/Current Contents",
-          "x": 90063,
-          "y": 23536,
+          "x": 90734,
+          "y": 26599,
           "id": "698f8a7e-12b1-42f8-af5f-60ffb1e737ef"
         },
         "118af3dc-02a2-4009-9645-7eff9006f574": {
           "label": "Current Index to Statistics",
           "link": "https://en.wikipedia.org/wiki/Current Index to Statistics",
-          "x": 90090,
-          "y": 23561,
+          "x": 90761,
+          "y": 26624,
           "id": "118af3dc-02a2-4009-9645-7eff9006f574"
         },
         "6b1d157c-0b0e-4ee9-950c-42a379768ba2": {
           "label": "Darenet",
           "link": "https://en.wikipedia.org/wiki/Darenet",
-          "x": 90034,
-          "y": 23586,
+          "x": 90705,
+          "y": 26649,
           "id": "6b1d157c-0b0e-4ee9-950c-42a379768ba2"
         },
         "659b78c0-f68c-4f56-a73d-003cd3bee4bc": {
           "label": "DBLP",
           "link": "https://en.wikipedia.org/wiki/DBLP",
-          "x": 90027,
-          "y": 23611,
+          "x": 90698,
+          "y": 26674,
           "id": "659b78c0-f68c-4f56-a73d-003cd3bee4bc"
         },
         "d71e807a-ce5e-48b6-8b9b-aeb474cd546f": {
           "label": "Deaf Bibliography",
           "link": "https://en.wikipedia.org/wiki/Deaf Bibliography",
-          "x": 90065,
-          "y": 23636,
+          "x": 90736,
+          "y": 26699,
           "id": "d71e807a-ce5e-48b6-8b9b-aeb474cd546f"
         },
         "bcd278f1-7ff9-4c5b-8faa-532d9b343c1a": {
           "label": "Dialnet (bibliographic database)",
           "link": "https://en.wikipedia.org/wiki/Dialnet (bibliographic database)",
-          "x": 90109,
-          "y": 23661,
+          "x": 90780,
+          "y": 26724,
           "id": "bcd278f1-7ff9-4c5b-8faa-532d9b343c1a"
         },
         "ab63b9ea-148c-41f3-bc2b-a4d5cd6ecbd7": {
           "label": "Dietary Supplements (database)",
           "link": "https://en.wikipedia.org/wiki/Dietary Supplements (database)",
-          "x": 90111,
-          "y": 23686,
+          "x": 90782,
+          "y": 26749,
           "id": "ab63b9ea-148c-41f3-bc2b-a4d5cd6ecbd7"
         },
         "ea29ca67-314e-4e34-9e0f-53bedbdb7fda": {
           "label": "Digital Library of Slovenia",
           "link": "https://en.wikipedia.org/wiki/Digital Library of Slovenia",
-          "x": 90089,
-          "y": 23711,
+          "x": 90760,
+          "y": 26774,
           "id": "ea29ca67-314e-4e34-9e0f-53bedbdb7fda"
         },
         "dec72fb8-d2bc-47e8-b955-0062767beb2f": {
           "label": "Discovery layer",
           "link": "https://en.wikipedia.org/wiki/Discovery layer",
-          "x": 90057,
-          "y": 23736,
+          "x": 90728,
+          "y": 26799,
           "id": "dec72fb8-d2bc-47e8-b955-0062767beb2f"
         },
         "7799a6b1-5d89-4f3e-9cc1-ae697c009ae4": {
           "label": "Dissertation Abstracts",
           "link": "https://en.wikipedia.org/wiki/Dissertation Abstracts",
-          "x": 90078,
-          "y": 23761,
+          "x": 90749,
+          "y": 26824,
           "id": "7799a6b1-5d89-4f3e-9cc1-ae697c009ae4"
         },
         "ccc17588-24ed-47d2-9ec5-99c665386334": {
           "label": "DOGE (database)",
           "link": "https://en.wikipedia.org/wiki/DOGE (database)",
-          "x": 90066,
-          "y": 23786,
+          "x": 90737,
+          "y": 26849,
           "id": "ccc17588-24ed-47d2-9ec5-99c665386334"
         },
         "18b67085-b2bd-4e09-9eb1-43f65eacf89f": {
           "label": "E-Theses Online Service",
           "link": "https://en.wikipedia.org/wiki/E-Theses Online Service",
-          "x": 90087,
-          "y": 23811,
+          "x": 90758,
+          "y": 26874,
           "id": "18b67085-b2bd-4e09-9eb1-43f65eacf89f"
         },
         "64ecb181-aeac-4349-9a4d-aef024778579": {
           "label": "EconLit",
           "link": "https://en.wikipedia.org/wiki/EconLit",
-          "x": 90032,
-          "y": 23836,
+          "x": 90703,
+          "y": 26899,
           "id": "64ecb181-aeac-4349-9a4d-aef024778579"
         },
         "cb256598-bbeb-4698-b0fa-e169be8ac326": {
           "label": "Education Resources Information Center",
           "link": "https://en.wikipedia.org/wiki/Education Resources Information Center",
-          "x": 90138,
-          "y": 23861,
+          "x": 90809,
+          "y": 26924,
           "id": "cb256598-bbeb-4698-b0fa-e169be8ac326"
         },
         "8ac5c9c8-0960-460f-9317-86a2f381e702": {
           "label": "Embase",
           "link": "https://en.wikipedia.org/wiki/Embase",
-          "x": 90035,
-          "y": 23886,
+          "x": 90706,
+          "y": 26949,
           "id": "8ac5c9c8-0960-460f-9317-86a2f381e702"
         },
         "9ad5aeca-95fc-4257-ab32-dd3204f8cbab": {
           "label": "EMBiology",
           "link": "https://en.wikipedia.org/wiki/EMBiology",
-          "x": 90042,
-          "y": 23911,
+          "x": 90713,
+          "y": 26974,
           "id": "9ad5aeca-95fc-4257-ab32-dd3204f8cbab"
         },
         "745d55b7-507f-483a-857b-3f579ebbe9a1": {
           "label": "Energy Citations Database",
           "link": "https://en.wikipedia.org/wiki/Energy Citations Database",
-          "x": 90093,
-          "y": 23936,
+          "x": 90764,
+          "y": 26999,
           "id": "745d55b7-507f-483a-857b-3f579ebbe9a1"
         },
         "f4e1bc1c-fb3d-420a-8ae2-234867e25c68": {
           "label": "Energy Science and Technology Database",
           "link": "https://en.wikipedia.org/wiki/Energy Science and Technology Database",
-          "x": 90143,
-          "y": 23961,
+          "x": 90814,
+          "y": 27024,
           "id": "f4e1bc1c-fb3d-420a-8ae2-234867e25c68"
         },
         "15134842-5e0e-4f5b-8add-1ccaea13b4b3": {
           "label": "Energy Technology Data Exchange",
           "link": "https://en.wikipedia.org/wiki/Energy Technology Data Exchange",
-          "x": 90120,
-          "y": 23986,
+          "x": 90791,
+          "y": 27049,
           "id": "15134842-5e0e-4f5b-8add-1ccaea13b4b3"
         },
         "7d98b832-dea9-4793-b1c3-d2b47306dc1c": {
           "label": "ERIH PLUS",
           "link": "https://en.wikipedia.org/wiki/ERIH PLUS",
-          "x": 90045,
-          "y": 24011,
+          "x": 90716,
+          "y": 27074,
           "id": "7d98b832-dea9-4793-b1c3-d2b47306dc1c"
         },
         "1c67d9f5-d046-44a2-be29-c4f0fc17b9f3": {
           "label": "ETBLAST",
           "link": "https://en.wikipedia.org/wiki/ETBLAST",
-          "x": 90040,
-          "y": 24036,
+          "x": 90711,
+          "y": 27099,
           "id": "1c67d9f5-d046-44a2-be29-c4f0fc17b9f3"
         },
         "0b730263-47bf-4836-8684-6859d5c47e98": {
           "label": "Eureka (OPAC)",
           "link": "https://en.wikipedia.org/wiki/Eureka (OPAC)",
-          "x": 90057,
-          "y": 24061,
+          "x": 90728,
+          "y": 27124,
           "id": "0b730263-47bf-4836-8684-6859d5c47e98"
         },
         "45a85962-9330-404d-837e-cf339da28b2e": {
           "label": "Europe PubMed Central",
           "link": "https://en.wikipedia.org/wiki/Europe PubMed Central",
-          "x": 90085,
-          "y": 24086,
+          "x": 90756,
+          "y": 27149,
           "id": "45a85962-9330-404d-837e-cf339da28b2e"
         },
         "1cfee0c0-4011-4b21-ba53-402c5d85e2d6": {
           "label": "European AIS Database",
           "link": "https://en.wikipedia.org/wiki/European AIS Database",
-          "x": 90085,
-          "y": 24111,
+          "x": 90756,
+          "y": 27174,
           "id": "1cfee0c0-4011-4b21-ba53-402c5d85e2d6"
         },
         "1402090b-0f07-4318-a52d-05724b7d6543": {
           "label": "FiledBy",
           "link": "https://en.wikipedia.org/wiki/FiledBy",
-          "x": 90032,
-          "y": 24136,
+          "x": 90703,
+          "y": 27199,
           "id": "1402090b-0f07-4318-a52d-05724b7d6543"
         },
         "7256eeb1-6545-45a5-aa90-280e5b082dad": {
           "label": "FindArticles",
           "link": "https://en.wikipedia.org/wiki/FindArticles",
-          "x": 90046,
-          "y": 24161,
+          "x": 90717,
+          "y": 27224,
           "id": "7256eeb1-6545-45a5-aa90-280e5b082dad"
         },
         "e29af84b-92c5-42ef-bdb3-a2c535a58d64": {
           "label": "Food Science and Technology Abstracts",
           "link": "https://en.wikipedia.org/wiki/Food Science and Technology Abstracts",
-          "x": 90136,
-          "y": 24186,
+          "x": 90807,
+          "y": 27249,
           "id": "e29af84b-92c5-42ef-bdb3-a2c535a58d64"
         },
         "53007c96-8cc2-4c83-ae79-1ee900fea041": {
           "label": "FRANCIS",
           "link": "https://en.wikipedia.org/wiki/FRANCIS",
-          "x": 90039,
-          "y": 24211,
+          "x": 90710,
+          "y": 27274,
           "id": "53007c96-8cc2-4c83-ae79-1ee900fea041"
         },
         "6747e2fd-4358-435f-bbcd-e9a21196f01f": {
           "label": "GENESIS",
           "link": "https://en.wikipedia.org/wiki/GENESIS",
-          "x": 90039,
-          "y": 24236,
+          "x": 90710,
+          "y": 27299,
           "id": "6747e2fd-4358-435f-bbcd-e9a21196f01f"
         },
         "91562516-675f-4030-8f10-0742eff262d9": {
           "label": "Genetics Abstracts",
           "link": "https://en.wikipedia.org/wiki/Genetics Abstracts",
-          "x": 90068,
-          "y": 24261,
+          "x": 90739,
+          "y": 27324,
           "id": "91562516-675f-4030-8f10-0742eff262d9"
         },
         "e55bb86e-c678-478d-b0cd-e3a4ab2bf3d4": {
           "label": "GEOBASE",
           "link": "https://en.wikipedia.org/wiki/GEOBASE",
-          "x": 90042,
-          "y": 24286,
+          "x": 90713,
+          "y": 27349,
           "id": "e55bb86e-c678-478d-b0cd-e3a4ab2bf3d4"
         },
         "e3a6f09e-73fc-49a7-9075-d7103cb16333": {
           "label": "GeoRef",
           "link": "https://en.wikipedia.org/wiki/GeoRef",
-          "x": 90033,
-          "y": 24311,
+          "x": 90704,
+          "y": 27374,
           "id": "e3a6f09e-73fc-49a7-9075-d7103cb16333"
         },
         "555ee842-f1d0-4b7c-9e9d-67e63807750e": {
           "label": "Global Library of Women's Medicine",
           "link": "https://en.wikipedia.org/wiki/Global Library of Women's Medicine",
-          "x": 90123,
-          "y": 24336,
+          "x": 90794,
+          "y": 27399,
           "id": "555ee842-f1d0-4b7c-9e9d-67e63807750e"
         },
         "f619e20c-d80f-4e6c-8eb1-512a48c4c8e2": {
           "label": "Glottolog",
           "link": "https://en.wikipedia.org/wiki/Glottolog",
-          "x": 90037,
-          "y": 24361,
+          "x": 90708,
+          "y": 27424,
           "id": "f619e20c-d80f-4e6c-8eb1-512a48c4c8e2"
         },
         "34d8aedf-d795-498c-af63-05ff4c7fd0e3": {
           "label": "Google Scholar",
           "link": "https://en.wikipedia.org/wiki/Google Scholar",
-          "x": 90058,
-          "y": 24386,
+          "x": 90729,
+          "y": 27449,
           "id": "34d8aedf-d795-498c-af63-05ff4c7fd0e3"
         },
         "a3085468-7691-4e0b-9bcb-ddd396e5ef39": {
           "label": "HCI Bibliography",
           "link": "https://en.wikipedia.org/wiki/HCI Bibliography",
-          "x": 90062,
-          "y": 24411,
+          "x": 90733,
+          "y": 27474,
           "id": "a3085468-7691-4e0b-9bcb-ddd396e5ef39"
         },
         "527bcc6e-7fd1-4829-801b-734173a40950": {
           "label": "History Cooperative",
           "link": "https://en.wikipedia.org/wiki/History Cooperative",
-          "x": 90071,
-          "y": 24436,
+          "x": 90742,
+          "y": 27499,
           "id": "527bcc6e-7fd1-4829-801b-734173a40950"
         },
         "c03f19b2-6eb7-4f5f-8431-fc8f821352e4": {
           "label": "HubMed",
           "link": "https://en.wikipedia.org/wiki/HubMed",
-          "x": 90036,
-          "y": 24461,
+          "x": 90707,
+          "y": 27524,
           "id": "c03f19b2-6eb7-4f5f-8431-fc8f821352e4"
         },
         "39a6d346-7f5c-43b0-82cd-377288c61370": {
           "label": "Hyper Articles en Ligne",
           "link": "https://en.wikipedia.org/wiki/Hyper Articles en Ligne",
-          "x": 90082,
-          "y": 24486,
+          "x": 90753,
+          "y": 27549,
           "id": "39a6d346-7f5c-43b0-82cd-377288c61370"
         },
         "14756553-3068-4b03-b8a7-cbc214937f29": {
           "label": "IdeaList",
           "link": "https://en.wikipedia.org/wiki/IdeaList",
-          "x": 90034,
-          "y": 24511,
+          "x": 90705,
+          "y": 27574,
           "id": "14756553-3068-4b03-b8a7-cbc214937f29"
         },
         "2d43fbd3-2c67-4de5-b1a9-34da049ac6fc": {
           "label": "Index Islamicus",
           "link": "https://en.wikipedia.org/wiki/Index Islamicus",
-          "x": 90058,
-          "y": 24536,
+          "x": 90729,
+          "y": 27599,
           "id": "2d43fbd3-2c67-4de5-b1a9-34da049ac6fc"
         },
         "c59f7e6c-78da-4b99-b15f-cc399ca6cdb8": {
           "label": "Index Medicus",
           "link": "https://en.wikipedia.org/wiki/Index Medicus",
-          "x": 90055,
-          "y": 24561,
+          "x": 90726,
+          "y": 27624,
           "id": "c59f7e6c-78da-4b99-b15f-cc399ca6cdb8"
         },
         "56763bff-e0ab-434e-bf0d-bf94b9db28d2": {
           "label": "Index of Middle English Verse",
           "link": "https://en.wikipedia.org/wiki/Index of Middle English Verse",
-          "x": 90102,
-          "y": 24586,
+          "x": 90773,
+          "y": 27649,
           "id": "56763bff-e0ab-434e-bf0d-bf94b9db28d2"
         },
         "958c7312-5f16-4c82-8201-159bb764c477": {
           "label": "Index Theologicus",
           "link": "https://en.wikipedia.org/wiki/Index Theologicus",
-          "x": 90067,
-          "y": 24611,
+          "x": 90738,
+          "y": 27674,
           "id": "958c7312-5f16-4c82-8201-159bb764c477"
         },
         "7bbfe8e6-f383-47f8-8d2b-77a49e2e43e6": {
           "label": "Index to Foreign Legal Periodicals",
           "link": "https://en.wikipedia.org/wiki/Index to Foreign Legal Periodicals",
-          "x": 90117,
-          "y": 24636,
+          "x": 90788,
+          "y": 27699,
           "id": "7bbfe8e6-f383-47f8-8d2b-77a49e2e43e6"
         },
         "0b7b2a6f-a268-42af-94e9-6408eb8b9603": {
           "label": "Index to Scientific & Technical Proceedings",
           "link": "https://en.wikipedia.org/wiki/Index to Scientific & Technical Proceedings",
-          "x": 90144,
-          "y": 24661,
+          "x": 90815,
+          "y": 27724,
           "id": "0b7b2a6f-a268-42af-94e9-6408eb8b9603"
         },
         "82837c6e-e3bd-4ff0-9863-0a3fba87fb3f": {
           "label": "Indexing and abstracting service",
           "link": "https://en.wikipedia.org/wiki/Indexing and abstracting service",
-          "x": 90111,
-          "y": 24686,
+          "x": 90782,
+          "y": 27749,
           "id": "82837c6e-e3bd-4ff0-9863-0a3fba87fb3f"
         },
         "c75847d6-81dd-46e6-9a04-550749e9b93c": {
           "label": "Indian Citation Index",
           "link": "https://en.wikipedia.org/wiki/Indian Citation Index",
-          "x": 90074,
-          "y": 24711,
+          "x": 90745,
+          "y": 27774,
           "id": "c75847d6-81dd-46e6-9a04-550749e9b93c"
         },
         "166302d7-221e-4e2e-ae30-acc832e86ee4": {
           "label": "InfoTrac",
           "link": "https://en.wikipedia.org/wiki/InfoTrac",
-          "x": 90035,
-          "y": 24736,
+          "x": 90706,
+          "y": 27799,
           "id": "166302d7-221e-4e2e-ae30-acc832e86ee4"
         },
         "4860fc82-77a8-4301-a28d-de180385dd2b": {
           "label": "Initiative for Open Citations",
           "link": "https://en.wikipedia.org/wiki/Initiative for Open Citations",
-          "x": 90094,
-          "y": 24761,
+          "x": 90765,
+          "y": 27824,
           "id": "4860fc82-77a8-4301-a28d-de180385dd2b"
         },
         "abd1b926-eb23-4080-b182-3a8f80df85ad": {
           "label": "INSPIRE-HEP",
           "link": "https://en.wikipedia.org/wiki/INSPIRE-HEP",
-          "x": 90053,
-          "y": 24786,
+          "x": 90724,
+          "y": 27849,
           "id": "abd1b926-eb23-4080-b182-3a8f80df85ad"
         },
         "379347a7-8c9d-4d67-829a-ab932349102c": {
           "label": "International Bibliography of Humanism and the Renaissance",
           "link": "https://en.wikipedia.org/wiki/International Bibliography of Humanism and the Renaissance",
-          "x": 90202,
-          "y": 24811,
+          "x": 90873,
+          "y": 27874,
           "id": "379347a7-8c9d-4d67-829a-ab932349102c"
         },
         "efab8f1a-ec10-44df-9bcd-1a0136a97e5f": {
           "label": "International Bibliography of Periodical Literature",
           "link": "https://en.wikipedia.org/wiki/International Bibliography of Periodical Literature",
-          "x": 90163,
-          "y": 24836,
+          "x": 90834,
+          "y": 27899,
           "id": "efab8f1a-ec10-44df-9bcd-1a0136a97e5f"
         },
         "e291b575-1872-43c4-88c2-bd13134e3481": {
           "label": "International Bibliography of the Social Sciences",
           "link": "https://en.wikipedia.org/wiki/International Bibliography of the Social Sciences",
-          "x": 90161,
-          "y": 24861,
+          "x": 90832,
+          "y": 27924,
           "id": "e291b575-1872-43c4-88c2-bd13134e3481"
         },
         "dbb1e3d0-7113-42bc-b191-d4255e30acff": {
           "label": "International Catalogue of Scientific Literature",
           "link": "https://en.wikipedia.org/wiki/International Catalogue of Scientific Literature",
-          "x": 90153,
-          "y": 24886,
+          "x": 90824,
+          "y": 27949,
           "id": "dbb1e3d0-7113-42bc-b191-d4255e30acff"
         },
         "6404c70e-d148-40fa-abf9-40203acb2b64": {
           "label": "International Directory of Philosophy",
           "link": "https://en.wikipedia.org/wiki/International Directory of Philosophy",
-          "x": 90123,
-          "y": 24911,
+          "x": 90794,
+          "y": 27974,
           "id": "6404c70e-d148-40fa-abf9-40203acb2b64"
         },
         "66726a1f-1044-4176-9c0e-83b0e73de781": {
           "label": "International Medieval Bibliography",
           "link": "https://en.wikipedia.org/wiki/International Medieval Bibliography",
-          "x": 90120,
-          "y": 24936,
+          "x": 90791,
+          "y": 27999,
           "id": "66726a1f-1044-4176-9c0e-83b0e73de781"
         },
         "99258e4a-0f14-46ec-9f5a-8f28fd27995d": {
           "label": "International Nuclear Information System",
           "link": "https://en.wikipedia.org/wiki/International Nuclear Information System",
-          "x": 90138,
-          "y": 24961,
+          "x": 90809,
+          "y": 28024,
           "id": "99258e4a-0f14-46ec-9f5a-8f28fd27995d"
         },
         "418fe5b8-c8fb-4e8a-b183-7714490b0c36": {
           "label": "International Philosophical Bibliography",
           "link": "https://en.wikipedia.org/wiki/International Philosophical Bibliography",
-          "x": 90133,
-          "y": 24986,
+          "x": 90804,
+          "y": 28049,
           "id": "418fe5b8-c8fb-4e8a-b183-7714490b0c36"
         },
         "9ef4e4c8-effd-4806-a9bd-0d5bbd73a29f": {
           "label": "Internet Speculative Fiction Database",
           "link": "https://en.wikipedia.org/wiki/Internet Speculative Fiction Database",
-          "x": 90127,
-          "y": 25011,
+          "x": 90798,
+          "y": 28074,
           "id": "9ef4e4c8-effd-4806-a9bd-0d5bbd73a29f"
         },
         "ac352ab5-c42d-4fa4-94ab-1a9717102968": {
           "label": "Islamic World Science Citation Database",
           "link": "https://en.wikipedia.org/wiki/Islamic World Science Citation Database",
-          "x": 90136,
-          "y": 25036,
+          "x": 90807,
+          "y": 28099,
           "id": "ac352ab5-c42d-4fa4-94ab-1a9717102968"
         },
         "7956b61b-f7b5-4dc6-82a5-91eb825084eb": {
           "label": "JAIRO",
           "link": "https://en.wikipedia.org/wiki/JAIRO",
-          "x": 90029,
-          "y": 25061,
+          "x": 90700,
+          "y": 28124,
           "id": "7956b61b-f7b5-4dc6-82a5-91eb825084eb"
         },
         "6e86be0d-1e66-41dd-bc89-de539b1571a6": {
           "label": "Jointly Administered Knowledge Environment",
           "link": "https://en.wikipedia.org/wiki/Jointly Administered Knowledge Environment",
-          "x": 90151,
-          "y": 25086,
+          "x": 90822,
+          "y": 28149,
           "id": "6e86be0d-1e66-41dd-bc89-de539b1571a6"
         },
         "319e86f7-ef34-47a6-899b-d2790e73318a": {
           "label": "JournalSeek",
           "link": "https://en.wikipedia.org/wiki/JournalSeek",
-          "x": 90048,
-          "y": 25111,
+          "x": 90719,
+          "y": 28174,
           "id": "319e86f7-ef34-47a6-899b-d2790e73318a"
         },
         "82982f69-a78a-41c4-a0e2-b8bd6dc6e07d": {
           "label": "Jurn",
           "link": "https://en.wikipedia.org/wiki/Jurn",
-          "x": 90023,
-          "y": 25136,
+          "x": 90694,
+          "y": 28199,
           "id": "82982f69-a78a-41c4-a0e2-b8bd6dc6e07d"
         },
         "4a2ebb2b-14b6-4944-ad84-5fc9900403a7": {
           "label": "Kennisbank Filosofie Nederland",
           "link": "https://en.wikipedia.org/wiki/Kennisbank Filosofie Nederland",
-          "x": 90109,
-          "y": 25161,
+          "x": 90780,
+          "y": 28224,
           "id": "4a2ebb2b-14b6-4944-ad84-5fc9900403a7"
         },
         "3d128245-bbde-47d4-bf42-f87d5b3b56bc": {
           "label": "Korea Citation Index",
           "link": "https://en.wikipedia.org/wiki/Korea Citation Index",
-          "x": 90073,
-          "y": 25186,
+          "x": 90744,
+          "y": 28249,
           "id": "3d128245-bbde-47d4-bf42-f87d5b3b56bc"
         },
         "bf37a1ca-805f-478d-a633-3d6905d1e424": {
           "label": "Latin American Bibliography",
           "link": "https://en.wikipedia.org/wiki/Latin American Bibliography",
-          "x": 90097,
-          "y": 25211,
+          "x": 90768,
+          "y": 28274,
           "id": "bf37a1ca-805f-478d-a633-3d6905d1e424"
         },
         "b9285953-0fa5-42de-9d57-6c096f26b573": {
           "label": "Latindex",
           "link": "https://en.wikipedia.org/wiki/Latindex",
-          "x": 90036,
-          "y": 25236,
+          "x": 90707,
+          "y": 28299,
           "id": "b9285953-0fa5-42de-9d57-6c096f26b573"
         },
         "249f09da-7156-4290-96d7-2310d98f75e2": {
           "label": "Leuven Database of Ancient Books",
           "link": "https://en.wikipedia.org/wiki/Leuven Database of Ancient Books",
-          "x": 90120,
-          "y": 25261,
+          "x": 90791,
+          "y": 28324,
           "id": "249f09da-7156-4290-96d7-2310d98f75e2"
         },
         "3766112b-89d4-40c9-9ee4-4ec46f7a63bd": {
           "label": "LexisNexis",
           "link": "https://en.wikipedia.org/wiki/LexisNexis",
-          "x": 90043,
-          "y": 25286,
+          "x": 90714,
+          "y": 28349,
           "id": "3766112b-89d4-40c9-9ee4-4ec46f7a63bd"
         },
         "205ff2cf-cc03-496e-b902-aa9eb06cdd4d": {
           "label": "Library and Information Science Abstracts",
           "link": "https://en.wikipedia.org/wiki/Library and Information Science Abstracts",
-          "x": 90141,
-          "y": 25311,
+          "x": 90812,
+          "y": 28374,
           "id": "205ff2cf-cc03-496e-b902-aa9eb06cdd4d"
         },
         "c630495a-1d4f-4771-ac09-6ceff5232903": {
           "label": "Library Literature and Information Science",
           "link": "https://en.wikipedia.org/wiki/Library Literature and Information Science",
-          "x": 90142,
-          "y": 25336,
+          "x": 90813,
+          "y": 28399,
           "id": "c630495a-1d4f-4771-ac09-6ceff5232903"
         },
         "33c85d4b-d7db-4655-97e9-cbd0c8bfa118": {
           "label": "Library, Information Science & Technology Abstracts",
           "link": "https://en.wikipedia.org/wiki/Library, Information Science & Technology Abstracts",
-          "x": 90173,
-          "y": 25361,
+          "x": 90844,
+          "y": 28424,
           "id": "33c85d4b-d7db-4655-97e9-cbd0c8bfa118"
         },
         "44eb1424-cd3f-4fbe-9a94-351e60325923": {
           "label": "List of academic databases and search engines",
           "link": "https://en.wikipedia.org/wiki/List of academic databases and search engines",
-          "x": 90160,
-          "y": 25386,
+          "x": 90831,
+          "y": 28449,
           "id": "44eb1424-cd3f-4fbe-9a94-351e60325923"
         },
         "10483d13-bc4b-4297-a4a2-7178131cdabf": {
           "label": "List of international databases on individual student achievement tests",
           "link": "https://en.wikipedia.org/wiki/List of international databases on individual student achievement tests",
-          "x": 90230,
-          "y": 25411,
+          "x": 90901,
+          "y": 28474,
           "id": "10483d13-bc4b-4297-a4a2-7178131cdabf"
         },
         "d75e25d5-f701-4e3b-9667-24a8d1614345": {
           "label": "Literatura Latino-Americana e do Caribe em Ciências da Saúde",
           "link": "https://en.wikipedia.org/wiki/Literatura Latino-Americana e do Caribe em Ciências da Saúde",
-          "x": 90210,
-          "y": 25436,
+          "x": 90881,
+          "y": 28499,
           "id": "d75e25d5-f701-4e3b-9667-24a8d1614345"
         },
         "cff596c5-88f8-4528-87c0-3e51aeb354c9": {
           "label": "Live Search Academic",
           "link": "https://en.wikipedia.org/wiki/Live Search Academic",
-          "x": 90079,
-          "y": 25461,
+          "x": 90750,
+          "y": 28524,
           "id": "cff596c5-88f8-4528-87c0-3e51aeb354c9"
         },
         "30eb761b-86f7-41eb-9379-8db671d7f048": {
           "label": "Mantis database",
           "link": "https://en.wikipedia.org/wiki/Mantis database",
-          "x": 90061,
-          "y": 25486,
+          "x": 90732,
+          "y": 28549,
           "id": "30eb761b-86f7-41eb-9379-8db671d7f048"
         },
         "58d8509d-3064-436d-952d-a4e65285c0db": {
           "label": "Materials Science Citation Index",
           "link": "https://en.wikipedia.org/wiki/Materials Science Citation Index",
-          "x": 90110,
-          "y": 25511,
+          "x": 90781,
+          "y": 28574,
           "id": "58d8509d-3064-436d-952d-a4e65285c0db"
         },
         "f3a78e12-1d20-4952-86d8-f2a8c69de794": {
           "label": "MathSciNet",
           "link": "https://en.wikipedia.org/wiki/MathSciNet",
-          "x": 90045,
-          "y": 25536,
+          "x": 90716,
+          "y": 28599,
           "id": "f3a78e12-1d20-4952-86d8-f2a8c69de794"
         },
         "4712fcbe-ef6b-4621-8fe9-f6f6531ed754": {
           "label": "MEDLINE",
           "link": "https://en.wikipedia.org/wiki/MEDLINE",
-          "x": 90040,
-          "y": 25561,
+          "x": 90711,
+          "y": 28624,
           "id": "4712fcbe-ef6b-4621-8fe9-f6f6531ed754"
         },
         "f4cbc7d5-7a66-41a0-bf45-5eab90b1cd22": {
           "label": "Meteorological & Geoastrophysical Abstracts",
           "link": "https://en.wikipedia.org/wiki/Meteorological & Geoastrophysical Abstracts",
-          "x": 90150,
-          "y": 25586,
+          "x": 90821,
+          "y": 28649,
           "id": "f4cbc7d5-7a66-41a0-bf45-5eab90b1cd22"
         },
         "0955abc8-9b0b-48a5-a921-e8d5b4ff09c5": {
           "label": "Mineralogical Abstracts",
           "link": "https://en.wikipedia.org/wiki/Mineralogical Abstracts",
-          "x": 90082,
-          "y": 25611,
+          "x": 90753,
+          "y": 28674,
           "id": "0955abc8-9b0b-48a5-a921-e8d5b4ff09c5"
         },
         "ae8e451a-5289-400d-8318-1e4512baf2fb": {
           "label": "Modernist Journals Project",
           "link": "https://en.wikipedia.org/wiki/Modernist Journals Project",
-          "x": 90093,
-          "y": 25636,
+          "x": 90764,
+          "y": 28699,
           "id": "ae8e451a-5289-400d-8318-1e4512baf2fb"
         },
         "641d74f9-ccbb-46a2-88ed-531a843a04d8": {
           "label": "National Agricultural Safety Database",
           "link": "https://en.wikipedia.org/wiki/National Agricultural Safety Database",
-          "x": 90127,
-          "y": 25661,
+          "x": 90798,
+          "y": 28724,
           "id": "641d74f9-ccbb-46a2-88ed-531a843a04d8"
         },
         "78d40465-1b1e-4a71-9105-77edc21a5e9b": {
           "label": "National Criminal Justice Reference Service",
           "link": "https://en.wikipedia.org/wiki/National Criminal Justice Reference Service",
-          "x": 90147,
-          "y": 25686,
+          "x": 90818,
+          "y": 28749,
           "id": "78d40465-1b1e-4a71-9105-77edc21a5e9b"
         },
         "bc37d1f1-4814-4d4a-a5b0-727ac17f0270": {
           "label": "National Science Digital Library",
           "link": "https://en.wikipedia.org/wiki/National Science Digital Library",
-          "x": 90107,
-          "y": 25711,
+          "x": 90778,
+          "y": 28774,
           "id": "bc37d1f1-4814-4d4a-a5b0-727ac17f0270"
         },
         "8a4bf0ff-c424-4347-a4ee-7fbcd2bb561f": {
           "label": "National Social Science Documentation Centre",
           "link": "https://en.wikipedia.org/wiki/National Social Science Documentation Centre",
-          "x": 90156,
-          "y": 25736,
+          "x": 90827,
+          "y": 28799,
           "id": "8a4bf0ff-c424-4347-a4ee-7fbcd2bb561f"
         },
         "6086c1a6-8e34-4bdb-acb2-bd3be849b144": {
           "label": "Nederlandse Centrale Catalogus",
           "link": "https://en.wikipedia.org/wiki/Nederlandse Centrale Catalogus",
-          "x": 90112,
-          "y": 25761,
+          "x": 90783,
+          "y": 28824,
           "id": "6086c1a6-8e34-4bdb-acb2-bd3be849b144"
         },
         "cad21edf-336c-49ec-8961-ccfd0a301361": {
           "label": "Neurosciences Abstracts",
           "link": "https://en.wikipedia.org/wiki/Neurosciences Abstracts",
-          "x": 90087,
-          "y": 25786,
+          "x": 90758,
+          "y": 28849,
           "id": "cad21edf-336c-49ec-8961-ccfd0a301361"
         },
         "c46fe01c-4fa6-4eaa-8470-82559aee6a54": {
           "label": "NewsBank",
           "link": "https://en.wikipedia.org/wiki/NewsBank",
-          "x": 90042,
-          "y": 25811,
+          "x": 90713,
+          "y": 28874,
           "id": "c46fe01c-4fa6-4eaa-8470-82559aee6a54"
         },
         "2efde01f-0a17-48a4-b4fa-4cfc7141f740": {
           "label": "OAIster",
           "link": "https://en.wikipedia.org/wiki/OAIster",
-          "x": 90033,
-          "y": 25836,
+          "x": 90704,
+          "y": 28899,
           "id": "2efde01f-0a17-48a4-b4fa-4cfc7141f740"
         },
         "f8751e9e-4143-45dc-bbd7-c957863f5cc2": {
           "label": "Official DC Index",
           "link": "https://en.wikipedia.org/wiki/Official DC Index",
-          "x": 90061,
-          "y": 25861,
+          "x": 90732,
+          "y": 28924,
           "id": "f8751e9e-4143-45dc-bbd7-c957863f5cc2"
         },
         "c0270b3e-eabf-48ab-9c7a-6036b2148594": {
           "label": "Official Marvel Index",
           "link": "https://en.wikipedia.org/wiki/Official Marvel Index",
-          "x": 90073,
-          "y": 25886,
+          "x": 90744,
+          "y": 28949,
           "id": "c0270b3e-eabf-48ab-9c7a-6036b2148594"
         },
         "f38ccf15-1f98-45a2-882b-18e54079532d": {
           "label": "Open J-Gate",
           "link": "https://en.wikipedia.org/wiki/Open J-Gate",
-          "x": 90050,
-          "y": 25911,
+          "x": 90721,
+          "y": 28974,
           "id": "f38ccf15-1f98-45a2-882b-18e54079532d"
         },
         "03a7d1fe-0515-4d62-b14b-bb37c75473dc": {
           "label": "OpenCitations",
           "link": "https://en.wikipedia.org/wiki/OpenCitations",
-          "x": 90054,
-          "y": 25936,
+          "x": 90725,
+          "y": 28999,
           "id": "03a7d1fe-0515-4d62-b14b-bb37c75473dc"
         },
         "cdb4f6ef-1b58-4d15-b66e-1673362cd75f": {
           "label": "OpenSIGLE",
           "link": "https://en.wikipedia.org/wiki/OpenSIGLE",
-          "x": 90047,
-          "y": 25961,
+          "x": 90718,
+          "y": 29024,
           "id": "cdb4f6ef-1b58-4d15-b66e-1673362cd75f"
         },
         "d8c8bd6c-0d24-43f8-bfbe-d1388b95b299": {
           "label": "Oxford Forum",
           "link": "https://en.wikipedia.org/wiki/Oxford Forum",
-          "x": 90053,
-          "y": 25986,
+          "x": 90724,
+          "y": 29049,
           "id": "d8c8bd6c-0d24-43f8-bfbe-d1388b95b299"
         },
         "750b1fae-1d3e-4980-9764-04bc1eace8f2": {
           "label": "PANGAEA (data library)",
           "link": "https://en.wikipedia.org/wiki/PANGAEA (data library)",
-          "x": 90083,
-          "y": 26011,
+          "x": 90754,
+          "y": 29074,
           "id": "750b1fae-1d3e-4980-9764-04bc1eace8f2"
         },
         "d87402f2-4e24-45c3-a6eb-490e2b67cf7a": {
           "label": "Paperity",
           "link": "https://en.wikipedia.org/wiki/Paperity",
-          "x": 90035,
-          "y": 26036,
+          "x": 90706,
+          "y": 29099,
           "id": "d87402f2-4e24-45c3-a6eb-490e2b67cf7a"
         },
         "73ace4c2-1efc-4e5f-9deb-f5ae7c174ad0": {
           "label": "PASCAL (database)",
           "link": "https://en.wikipedia.org/wiki/PASCAL (database)",
-          "x": 90071,
-          "y": 26061,
+          "x": 90742,
+          "y": 29124,
           "id": "73ace4c2-1efc-4e5f-9deb-f5ae7c174ad0"
         },
         "004aac63-f105-4576-8f8b-33458914abfd": {
           "label": "Philippine E-Journals",
           "link": "https://en.wikipedia.org/wiki/Philippine E-Journals",
-          "x": 90075,
-          "y": 26086,
+          "x": 90746,
+          "y": 29149,
           "id": "004aac63-f105-4576-8f8b-33458914abfd"
         },
         "14d779e3-608a-4a91-b606-1134e0d69bf7": {
           "label": "Philosopher's Information Center",
           "link": "https://en.wikipedia.org/wiki/Philosopher's Information Center",
-          "x": 90113,
-          "y": 26111,
+          "x": 90784,
+          "y": 29174,
           "id": "14d779e3-608a-4a91-b606-1134e0d69bf7"
         },
         "a5185098-1319-40a6-8e41-3fba0a615ef8": {
           "label": "Philosophy Research Index",
           "link": "https://en.wikipedia.org/wiki/Philosophy Research Index",
-          "x": 90095,
-          "y": 26136,
+          "x": 90766,
+          "y": 29199,
           "id": "a5185098-1319-40a6-8e41-3fba0a615ef8"
         },
         "afa46a15-ec7e-497b-9917-4886f17e83ff": {
           "label": "PhilPapers",
           "link": "https://en.wikipedia.org/wiki/PhilPapers",
-          "x": 90043,
-          "y": 26161,
+          "x": 90714,
+          "y": 29224,
           "id": "afa46a15-ec7e-497b-9917-4886f17e83ff"
         },
         "6832c4e2-4661-4935-81d2-4de52317dde8": {
           "label": "Polymer Library",
           "link": "https://en.wikipedia.org/wiki/Polymer Library",
-          "x": 90059,
-          "y": 26186,
+          "x": 90730,
+          "y": 29249,
           "id": "6832c4e2-4661-4935-81d2-4de52317dde8"
         },
         "9ca132b3-06e8-44e1-8190-07d326959e7f": {
           "label": "POPLINE",
           "link": "https://en.wikipedia.org/wiki/POPLINE",
-          "x": 90039,
-          "y": 26211,
+          "x": 90710,
+          "y": 29274,
           "id": "9ca132b3-06e8-44e1-8190-07d326959e7f"
         },
         "6bd3414f-904e-4939-9b74-2b699af3c26a": {
           "label": "Post-Reformation Digital Library",
           "link": "https://en.wikipedia.org/wiki/Post-Reformation Digital Library",
-          "x": 90110,
-          "y": 26236,
+          "x": 90781,
+          "y": 29299,
           "id": "6bd3414f-904e-4939-9b74-2b699af3c26a"
         },
         "12ea5e63-ae1a-49c1-9b6c-d786a137d1f0": {
           "label": "Projekt Dyabola",
           "link": "https://en.wikipedia.org/wiki/Projekt Dyabola",
-          "x": 90059,
-          "y": 26261,
+          "x": 90730,
+          "y": 29324,
           "id": "12ea5e63-ae1a-49c1-9b6c-d786a137d1f0"
         },
         "2cc3ff1f-76b9-4894-9a1d-f902a7d7362a": {
           "label": "ProQuest Dialog",
           "link": "https://en.wikipedia.org/wiki/ProQuest Dialog",
-          "x": 90061,
-          "y": 26286,
+          "x": 90732,
+          "y": 29349,
           "id": "2cc3ff1f-76b9-4894-9a1d-f902a7d7362a"
         },
         "63c5f989-d01b-4615-b23c-d68ef4614c27": {
           "label": "ProQuest Dissertations and Theses",
           "link": "https://en.wikipedia.org/wiki/ProQuest Dissertations and Theses",
-          "x": 90121,
-          "y": 26311,
+          "x": 90792,
+          "y": 29374,
           "id": "63c5f989-d01b-4615-b23c-d68ef4614c27"
         },
         "c6240316-f283-4021-bd8c-372d01b002db": {
           "label": "PsycCRITIQUES",
           "link": "https://en.wikipedia.org/wiki/PsycCRITIQUES",
-          "x": 90062,
-          "y": 26336,
+          "x": 90733,
+          "y": 29399,
           "id": "c6240316-f283-4021-bd8c-372d01b002db"
         },
         "d6dbb5f1-6762-46e7-b8df-33d3fa992620": {
           "label": "Psychological Abstracts",
           "link": "https://en.wikipedia.org/wiki/Psychological Abstracts",
-          "x": 90083,
-          "y": 26361,
+          "x": 90754,
+          "y": 29424,
           "id": "d6dbb5f1-6762-46e7-b8df-33d3fa992620"
         },
         "0a96d54d-2f18-477a-9d75-bd05df6ca380": {
           "label": "PsycINFO",
           "link": "https://en.wikipedia.org/wiki/PsycINFO",
-          "x": 90041,
-          "y": 26386,
+          "x": 90712,
+          "y": 29449,
           "id": "0a96d54d-2f18-477a-9d75-bd05df6ca380"
         },
         "c3fda6f7-3e9e-4693-bcf0-735c5fca7e0e": {
           "label": "PsycLIT",
           "link": "https://en.wikipedia.org/wiki/PsycLIT",
-          "x": 90034,
-          "y": 26411,
+          "x": 90705,
+          "y": 29474,
           "id": "c3fda6f7-3e9e-4693-bcf0-735c5fca7e0e"
         },
         "8454ea89-bd61-482c-a992-5eea2b7ceeef": {
           "label": "PubMed",
           "link": "https://en.wikipedia.org/wiki/PubMed",
-          "x": 90035,
-          "y": 26436,
+          "x": 90706,
+          "y": 29499,
           "id": "8454ea89-bd61-482c-a992-5eea2b7ceeef"
         },
         "d18daa56-045d-40e4-a500-85629fe0f80e": {
           "label": "PubMed Central",
           "link": "https://en.wikipedia.org/wiki/PubMed Central",
-          "x": 90060,
-          "y": 26461,
+          "x": 90731,
+          "y": 29524,
           "id": "d18daa56-045d-40e4-a500-85629fe0f80e"
         },
         "6058db17-92fd-4ce8-b74d-22bbf5341d8a": {
           "label": "PubMed Central Canada",
           "link": "https://en.wikipedia.org/wiki/PubMed Central Canada",
-          "x": 90087,
-          "y": 26486,
+          "x": 90758,
+          "y": 29549,
           "id": "6058db17-92fd-4ce8-b74d-22bbf5341d8a"
         },
         "f08f86c1-69f8-44b8-a1f1-68bd4781242e": {
           "label": "PubPsych",
           "link": "https://en.wikipedia.org/wiki/PubPsych",
-          "x": 90040,
-          "y": 26511,
+          "x": 90711,
+          "y": 29574,
           "id": "f08f86c1-69f8-44b8-a1f1-68bd4781242e"
         },
         "207533f4-41d8-44cd-b0c2-cfcde1c98db9": {
           "label": "Qualis (CAPES)",
           "link": "https://en.wikipedia.org/wiki/Qualis (CAPES)",
-          "x": 90059,
-          "y": 26536,
+          "x": 90730,
+          "y": 29599,
           "id": "207533f4-41d8-44cd-b0c2-cfcde1c98db9"
         },
         "cc06cc86-b101-470d-9489-71bafdb0aae7": {
           "label": "Readers' Guide to Periodical Literature",
           "link": "https://en.wikipedia.org/wiki/Readers' Guide to Periodical Literature",
-          "x": 90132,
-          "y": 26561,
+          "x": 90803,
+          "y": 29624,
           "id": "cc06cc86-b101-470d-9489-71bafdb0aae7"
         },
         "c0064f3b-8007-4fd0-96b3-b8eeaa8c28e4": {
           "label": "Reaxys",
           "link": "https://en.wikipedia.org/wiki/Reaxys",
-          "x": 90032,
-          "y": 26586,
+          "x": 90703,
+          "y": 29649,
           "id": "c0064f3b-8007-4fd0-96b3-b8eeaa8c28e4"
         },
         "ad86317b-79f8-47e8-bf7d-f1d1ffe9291d": {
           "label": "Red de Revistas Científicas de América Latina y el Caribe, España y Portugal",
           "link": "https://en.wikipedia.org/wiki/Red de Revistas Científicas de América Latina y el Caribe, España y Portugal",
-          "x": 90253,
-          "y": 26611,
+          "x": 90924,
+          "y": 29674,
           "id": "ad86317b-79f8-47e8-bf7d-f1d1ffe9291d"
         },
         "cb08a2ad-1527-402c-a45a-1cb042952a28": {
           "label": "Redalyc",
           "link": "https://en.wikipedia.org/wiki/Redalyc",
-          "x": 90034,
-          "y": 26636,
+          "x": 90705,
+          "y": 29699,
           "id": "cb08a2ad-1527-402c-a45a-1cb042952a28"
         },
         "bbac7d75-a1e6-4911-949b-b4b6e56eabf6": {
           "label": "RedLightGreen",
           "link": "https://en.wikipedia.org/wiki/RedLightGreen",
-          "x": 90057,
-          "y": 26661,
+          "x": 90728,
+          "y": 29724,
           "id": "bbac7d75-a1e6-4911-949b-b4b6e56eabf6"
         },
         "644c8aed-0114-4e5c-8e07-4852a152591b": {
           "label": "Reed Tech",
           "link": "https://en.wikipedia.org/wiki/Reed Tech",
-          "x": 90043,
-          "y": 26686,
+          "x": 90714,
+          "y": 29749,
           "id": "644c8aed-0114-4e5c-8e07-4852a152591b"
         },
         "68d64ba8-1162-4972-88ca-f5badad0f965": {
           "label": "RePEc",
           "link": "https://en.wikipedia.org/wiki/RePEc",
-          "x": 90030,
-          "y": 26711,
+          "x": 90701,
+          "y": 29774,
           "id": "68d64ba8-1162-4972-88ca-f5badad0f965"
         },
         "e1f8aabd-977e-476e-9543-8c78734d50da": {
           "label": "Research Papers in Economics",
           "link": "https://en.wikipedia.org/wiki/Research Papers in Economics",
-          "x": 90108,
-          "y": 26736,
+          "x": 90779,
+          "y": 29799,
           "id": "e1f8aabd-977e-476e-9543-8c78734d50da"
         },
         "f6a27fda-5226-476c-98ed-3a35b70c1811": {
           "label": "SafetyLit",
           "link": "https://en.wikipedia.org/wiki/SafetyLit",
-          "x": 90036,
-          "y": 26761,
+          "x": 90707,
+          "y": 29824,
           "id": "f6a27fda-5226-476c-98ed-3a35b70c1811"
         },
         "d6bbb623-e69e-41f0-903a-2c79a7527c19": {
           "label": "ScholarSpace",
           "link": "https://en.wikipedia.org/wiki/ScholarSpace",
-          "x": 90053,
-          "y": 26786,
+          "x": 90724,
+          "y": 29849,
           "id": "d6bbb623-e69e-41f0-903a-2c79a7527c19"
         },
         "95839234-9ce4-45a4-ba9e-c30d10e343f7": {
           "label": "Schools Catalogue Information Service",
           "link": "https://en.wikipedia.org/wiki/Schools Catalogue Information Service",
-          "x": 90132,
-          "y": 26811,
+          "x": 90803,
+          "y": 29874,
           "id": "95839234-9ce4-45a4-ba9e-c30d10e343f7"
         },
         "c914afe8-d25a-4698-814f-31cb6d43f75c": {
           "label": "SciELO",
           "link": "https://en.wikipedia.org/wiki/SciELO",
-          "x": 90032,
-          "y": 26836,
+          "x": 90703,
+          "y": 29899,
           "id": "c914afe8-d25a-4698-814f-31cb6d43f75c"
         },
         "0d03b9fc-1d17-4f60-9aea-d5f65c84cd38": {
           "label": "Scirus",
           "link": "https://en.wikipedia.org/wiki/Scirus",
-          "x": 90028,
-          "y": 26861,
+          "x": 90699,
+          "y": 29924,
           "id": "0d03b9fc-1d17-4f60-9aea-d5f65c84cd38"
         },
         "84731b5e-def1-4d8e-957a-dbeb373a7090": {
           "label": "Scopus",
           "link": "https://en.wikipedia.org/wiki/Scopus",
-          "x": 90032,
-          "y": 26886,
+          "x": 90703,
+          "y": 29949,
           "id": "84731b5e-def1-4d8e-957a-dbeb373a7090"
         },
         "3dab146b-1445-484f-a22b-68896211316d": {
           "label": "Serbian Citation Index",
           "link": "https://en.wikipedia.org/wiki/Serbian Citation Index",
-          "x": 90079,
-          "y": 26911,
+          "x": 90750,
+          "y": 29974,
           "id": "3dab146b-1445-484f-a22b-68896211316d"
         },
         "a05d91a5-b9f0-45c2-bd08-fc16d1505525": {
           "label": "Short Title Catalogue Flanders (STCV)",
           "link": "https://en.wikipedia.org/wiki/Short Title Catalogue Flanders (STCV)",
-          "x": 90131,
-          "y": 26936,
+          "x": 90802,
+          "y": 29999,
           "id": "a05d91a5-b9f0-45c2-bd08-fc16d1505525"
         },
         "69d35f1e-1424-4e65-847d-d4d50d5df979": {
           "label": "Smithsonian Research Online",
           "link": "https://en.wikipedia.org/wiki/Smithsonian Research Online",
-          "x": 90103,
-          "y": 26961,
+          "x": 90774,
+          "y": 30024,
           "id": "69d35f1e-1424-4e65-847d-d4d50d5df979"
         },
         "33375755-75f8-46e1-a85c-afe619001bf3": {
           "label": "Socolar",
           "link": "https://en.wikipedia.org/wiki/Socolar",
-          "x": 90033,
-          "y": 26986,
+          "x": 90704,
+          "y": 30049,
           "id": "33375755-75f8-46e1-a85c-afe619001bf3"
         },
         "0f27a8ec-9284-4bfc-867b-f8e26b223a14": {
           "label": "South Asia Union Catalogue",
           "link": "https://en.wikipedia.org/wiki/South Asia Union Catalogue",
-          "x": 90098,
-          "y": 27011,
+          "x": 90769,
+          "y": 30074,
           "id": "0f27a8ec-9284-4bfc-867b-f8e26b223a14"
         },
         "a0c32dc0-08e3-436d-ade5-e749dc6094bf": {
           "label": "SPIN bibliographic database",
           "link": "https://en.wikipedia.org/wiki/SPIN bibliographic database",
-          "x": 90098,
-          "y": 27036,
+          "x": 90769,
+          "y": 30099,
           "id": "a0c32dc0-08e3-436d-ade5-e749dc6094bf"
         },
         "07e188f7-17de-47f6-a249-8d6c365fa38f": {
           "label": "Stanford Physics Information Retrieval System",
           "link": "https://en.wikipedia.org/wiki/Stanford Physics Information Retrieval System",
-          "x": 90155,
-          "y": 27061,
+          "x": 90826,
+          "y": 30124,
           "id": "07e188f7-17de-47f6-a249-8d6c365fa38f"
         },
         "974d08ca-855a-473b-ba93-f01752909837": {
           "label": "Stuttgart Database of Scientific Illustrators 1450–1950",
           "link": "https://en.wikipedia.org/wiki/Stuttgart Database of Scientific Illustrators 1450–1950",
-          "x": 90179,
-          "y": 27086,
+          "x": 90850,
+          "y": 30149,
           "id": "974d08ca-855a-473b-ba93-f01752909837"
         },
         "d9db38eb-5393-487a-99dc-a7fa006a2ad8": {
           "label": "Synthetic Reaction Updates",
           "link": "https://en.wikipedia.org/wiki/Synthetic Reaction Updates",
-          "x": 90096,
-          "y": 27111,
+          "x": 90767,
+          "y": 30174,
           "id": "d9db38eb-5393-487a-99dc-a7fa006a2ad8"
         },
         "9cac8634-558d-4100-b2da-4c2dcb297f60": {
           "label": "System for Information on Grey Literature in Europe",
           "link": "https://en.wikipedia.org/wiki/System for Information on Grey Literature in Europe",
-          "x": 90173,
-          "y": 27136,
+          "x": 90844,
+          "y": 30199,
           "id": "9cac8634-558d-4100-b2da-4c2dcb297f60"
         },
         "35de8ed3-3b1e-4ea0-959d-2f94ec225d96": {
           "label": "Technical Information Project",
           "link": "https://en.wikipedia.org/wiki/Technical Information Project",
-          "x": 90100,
-          "y": 27161,
+          "x": 90771,
+          "y": 30224,
           "id": "35de8ed3-3b1e-4ea0-959d-2f94ec225d96"
         },
         "01391530-483f-411e-9ef7-cdb15d3e0566": {
           "label": "Text Creation Partnership",
           "link": "https://en.wikipedia.org/wiki/Text Creation Partnership",
-          "x": 90089,
-          "y": 27186,
+          "x": 90760,
+          "y": 30249,
           "id": "01391530-483f-411e-9ef7-cdb15d3e0566"
         },
         "6540d29f-9597-4e9f-8550-43a27a4073ad": {
           "label": "TreeBASE",
           "link": "https://en.wikipedia.org/wiki/TreeBASE",
-          "x": 90041,
-          "y": 27211,
+          "x": 90712,
+          "y": 30274,
           "id": "6540d29f-9597-4e9f-8550-43a27a4073ad"
         },
         "937a4394-99fe-4ee4-9324-d5a78451401a": {
           "label": "TRIS online",
           "link": "https://en.wikipedia.org/wiki/TRIS online",
-          "x": 90046,
-          "y": 27236,
+          "x": 90717,
+          "y": 30299,
           "id": "937a4394-99fe-4ee4-9324-d5a78451401a"
         },
         "7a4036ca-49a5-48c3-aa80-1b84f34b066b": {
           "label": "Trove",
           "link": "https://en.wikipedia.org/wiki/Trove",
-          "x": 90027,
-          "y": 27261,
+          "x": 90698,
+          "y": 30324,
           "id": "7a4036ca-49a5-48c3-aa80-1b84f34b066b"
         },
         "990f0567-3459-4f88-8813-2069dc5d5652": {
           "label": "Uchronia: The Alternate History List",
           "link": "https://en.wikipedia.org/wiki/Uchronia: The Alternate History List",
-          "x": 90121,
-          "y": 27286,
+          "x": 90792,
+          "y": 30349,
           "id": "990f0567-3459-4f88-8813-2069dc5d5652"
         },
         "0066aeaa-5f92-4f7e-8c5d-a469b86b12a5": {
           "label": "UK Educational Evidence Portal",
           "link": "https://en.wikipedia.org/wiki/UK Educational Evidence Portal",
-          "x": 90109,
-          "y": 27311,
+          "x": 90780,
+          "y": 30374,
           "id": "0066aeaa-5f92-4f7e-8c5d-a469b86b12a5"
         },
         "3e42af23-07d6-41aa-a08a-d5888065568b": {
           "label": "Ulrich's Periodicals Directory",
           "link": "https://en.wikipedia.org/wiki/Ulrich's Periodicals Directory",
-          "x": 90099,
-          "y": 27336,
+          "x": 90770,
+          "y": 30399,
           "id": "3e42af23-07d6-41aa-a08a-d5888065568b"
         },
         "d221324d-9dc1-4de5-9dff-397958c916f5": {
           "label": "Vascoda",
           "link": "https://en.wikipedia.org/wiki/Vascoda",
-          "x": 90035,
-          "y": 27361,
+          "x": 90706,
+          "y": 30424,
           "id": "d221324d-9dc1-4de5-9dff-397958c916f5"
         },
         "26f10c4f-141d-4bda-b555-3ef2be4f2eba": {
           "label": "VET-Bib",
           "link": "https://en.wikipedia.org/wiki/VET-Bib",
-          "x": 90034,
-          "y": 27386,
+          "x": 90705,
+          "y": 30449,
           "id": "26f10c4f-141d-4bda-b555-3ef2be4f2eba"
         },
         "ce855abb-0453-46ab-8726-ad88e2722fc0": {
           "label": "VINITI Database RAS",
           "link": "https://en.wikipedia.org/wiki/VINITI Database RAS",
-          "x": 90077,
-          "y": 27411,
+          "x": 90748,
+          "y": 30474,
           "id": "ce855abb-0453-46ab-8726-ad88e2722fc0"
         },
         "05eee130-49ca-4137-8263-715ecb4d5830": {
           "label": "Virtual Health Library",
           "link": "https://en.wikipedia.org/wiki/Virtual Health Library",
-          "x": 90075,
-          "y": 27436,
+          "x": 90746,
+          "y": 30499,
           "id": "05eee130-49ca-4137-8263-715ecb4d5830"
         },
         "5191da8c-e1a2-43bb-bf85-98e5331cdcc6": {
           "label": "Web of Science",
           "link": "https://en.wikipedia.org/wiki/Web of Science",
-          "x": 90058,
-          "y": 27461,
+          "x": 90729,
+          "y": 30524,
           "id": "5191da8c-e1a2-43bb-bf85-98e5331cdcc6"
         },
         "0d411fdf-8669-4e42-a6e9-f38db15ce554": {
           "label": "World Shakespeare Bibliography",
           "link": "https://en.wikipedia.org/wiki/World Shakespeare Bibliography",
-          "x": 90112,
-          "y": 27486,
+          "x": 90783,
+          "y": 30549,
           "id": "0d411fdf-8669-4e42-a6e9-f38db15ce554"
         },
         "bde51a8c-bbbe-4e2c-84fd-4677df67accd": {
           "label": "WorldCat",
           "link": "https://en.wikipedia.org/wiki/WorldCat",
-          "x": 90038,
-          "y": 27511,
+          "x": 90709,
+          "y": 30574,
           "id": "bde51a8c-bbbe-4e2c-84fd-4677df67accd"
         },
         "93765f75-8d0f-472b-bd34-d9a5843f5df8": {
           "label": "Zentralblatt MATH",
           "link": "https://en.wikipedia.org/wiki/Zentralblatt MATH",
-          "x": 90066,
-          "y": 27536,
+          "x": 90737,
+          "y": 30599,
           "id": "93765f75-8d0f-472b-bd34-d9a5843f5df8"
         },
         "21cbc0e5-a7c6-43c2-af1b-78b41fc74243": {
           "label": "The Zoological Record",
           "link": "https://en.wikipedia.org/wiki/The Zoological Record",
-          "x": 90081,
-          "y": 27561,
+          "x": 90752,
+          "y": 30624,
           "id": "21cbc0e5-a7c6-43c2-af1b-78b41fc74243"
         },
         "bff5cbe5-a160-4aa2-bdda-d4715e58842c": {
           "label": "Category:Citation indices",
           "link": "https://en.wikipedia.org/wiki/Category:Citation indices",
-          "x": 90088,
-          "y": 27586,
+          "x": 90759,
+          "y": 30649,
           "id": "bff5cbe5-a160-4aa2-bdda-d4715e58842c"
         },
         "0d9b0c9d-5846-4d1d-9b44-fd073848c4ba": {
           "label": "Category:Bibliographic database providers",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographic database providers",
-          "x": 90143,
-          "y": 27611,
+          "x": 90814,
+          "y": 30674,
           "id": "0d9b0c9d-5846-4d1d-9b44-fd073848c4ba"
         },
         "77ad5196-96c8-4172-b9c3-f0588b30032a": {
           "label": "Category:Bibliographic databases in computer science",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographic databases in computer science",
-          "x": 90181,
-          "y": 27636,
+          "x": 90852,
+          "y": 30699,
           "id": "77ad5196-96c8-4172-b9c3-f0588b30032a"
         },
         "ec5a58b9-22fe-49c5-8872-3e0c6b0f951b": {
           "label": "Category:Bibliographic databases in engineering",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographic databases in engineering",
-          "x": 90162,
-          "y": 27661,
+          "x": 90833,
+          "y": 30724,
           "id": "ec5a58b9-22fe-49c5-8872-3e0c6b0f951b"
         },
         "c80bd334-b60c-4868-ae4e-f0c57af0b219": {
           "label": "Category:Catalogues",
           "link": "https://en.wikipedia.org/wiki/Category:Catalogues",
-          "x": 90076,
-          "y": 27686,
+          "x": 90747,
+          "y": 30749,
           "id": "c80bd334-b60c-4868-ae4e-f0c57af0b219"
         },
         "9b55c90d-ccdb-48bf-8b44-df6b0916e979": {
           "label": "Category:Early modern printing databases",
           "link": "https://en.wikipedia.org/wiki/Category:Early modern printing databases",
-          "x": 90143,
-          "y": 27711,
+          "x": 90814,
+          "y": 30774,
           "id": "9b55c90d-ccdb-48bf-8b44-df6b0916e979"
         },
         "2a0a167a-6f4d-454f-a050-2cf1180881bd": {
           "label": "File:Biography Index low res cover.png",
           "link": "https://en.wikipedia.org/wiki/File:Biography Index low res cover.png",
-          "x": 90131,
-          "y": 27736,
+          "x": 90802,
+          "y": 30799,
           "id": "2a0a167a-6f4d-454f-a050-2cf1180881bd"
         },
         "0d9b0c9d-5846-4d1d-9b44-fd073848c4ba402": {
@@ -25789,8 +25789,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Bibliographic database providers",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographic database providers",
-          "x": 88838,
-          "y": 29989,
+          "x": 89509,
+          "y": 33052,
           "id": "0d9b0c9d-5846-4d1d-9b44-fd073848c4ba402"
         },
         "77ad5196-96c8-4172-b9c3-f0588b30032a402": {
@@ -25818,8 +25818,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Bibliographic databases in computer science",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographic databases in computer science",
-          "x": 88672,
-          "y": 28654,
+          "x": 89343,
+          "y": 31717,
           "id": "77ad5196-96c8-4172-b9c3-f0588b30032a402"
         },
         "ec5a58b9-22fe-49c5-8872-3e0c6b0f951b402": {
@@ -25847,8 +25847,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Bibliographic databases in engineering",
           "link": "https://en.wikipedia.org/wiki/Category:Bibliographic databases in engineering",
-          "x": 88736,
-          "y": 29135,
+          "x": 89407,
+          "y": 32198,
           "id": "ec5a58b9-22fe-49c5-8872-3e0c6b0f951b402"
         },
         "c80bd334-b60c-4868-ae4e-f0c57af0b219402": {
@@ -25912,428 +25912,428 @@ var schemeData =
         "ba9659df-7070-4ef5-badd-8268194ab5d8": {
           "label": "ABC-CLIO",
           "link": "https://en.wikipedia.org/wiki/ABC-CLIO",
-          "x": 89935,
-          "y": 29471,
+          "x": 90606,
+          "y": 32534,
           "id": "ba9659df-7070-4ef5-badd-8268194ab5d8"
         },
         "0e52ba48-ce59-4e9a-b3c5-0ba694f2b877": {
           "label": "American Geosciences Institute",
           "link": "https://en.wikipedia.org/wiki/American Geosciences Institute",
-          "x": 90002,
-          "y": 29496,
+          "x": 90673,
+          "y": 32559,
           "id": "0e52ba48-ce59-4e9a-b3c5-0ba694f2b877"
         },
         "d014722c-167a-4982-a321-68b964f83dba": {
           "label": "American Theological Library Association",
           "link": "https://en.wikipedia.org/wiki/American Theological Library Association",
-          "x": 90033,
-          "y": 29521,
+          "x": 90704,
+          "y": 32584,
           "id": "d014722c-167a-4982-a321-68b964f83dba"
         },
         "3bdf505d-dfaf-414a-ac09-04f04089666f": {
           "label": "Annual Bibliography of English Language and Literature",
           "link": "https://en.wikipedia.org/wiki/Annual Bibliography of English Language and Literature",
-          "x": 90079,
-          "y": 29546,
+          "x": 90750,
+          "y": 32609,
           "id": "3bdf505d-dfaf-414a-ac09-04f04089666f"
         },
         "1d5cb45f-4f1d-40e6-b522-2c85774f92c8": {
           "label": "Biblioteksentralen",
           "link": "https://en.wikipedia.org/wiki/Biblioteksentralen",
-          "x": 89958,
-          "y": 29571,
+          "x": 90629,
+          "y": 32634,
           "id": "1d5cb45f-4f1d-40e6-b522-2c85774f92c8"
         },
         "7a2843a9-c710-42a8-98c2-4f112b60a5ed": {
           "label": "BioOne",
           "link": "https://en.wikipedia.org/wiki/BioOne",
-          "x": 89926,
-          "y": 29596,
+          "x": 90597,
+          "y": 32659,
           "id": "7a2843a9-c710-42a8-98c2-4f112b60a5ed"
         },
         "18008429-4394-43d5-a695-072a8c24807f": {
           "label": "Centre for Agriculture and Bioscience International",
           "link": "https://en.wikipedia.org/wiki/Centre for Agriculture and Bioscience International",
-          "x": 90062,
-          "y": 29621,
+          "x": 90733,
+          "y": 32684,
           "id": "18008429-4394-43d5-a695-072a8c24807f"
         },
         "f8293341-49e1-4004-8ef0-29ac94600cde": {
           "label": "Colorado Alliance of Research Libraries",
           "link": "https://en.wikipedia.org/wiki/Colorado Alliance of Research Libraries",
-          "x": 90028,
-          "y": 29646,
+          "x": 90699,
+          "y": 32709,
           "id": "f8293341-49e1-4004-8ef0-29ac94600cde"
         },
         "c2aa381d-4cb7-47d4-9e34-bd2ff43ad0ae": {
           "label": "Consortium of European Research Libraries",
           "link": "https://en.wikipedia.org/wiki/Consortium of European Research Libraries",
-          "x": 90042,
-          "y": 29671,
+          "x": 90713,
+          "y": 32734,
           "id": "c2aa381d-4cb7-47d4-9e34-bd2ff43ad0ae"
         },
         "6b1862da-65b4-45a9-a8df-84c4f693ccc9": {
           "label": "CSA (database company)",
           "link": "https://en.wikipedia.org/wiki/CSA (database company)",
-          "x": 89984,
-          "y": 29696,
+          "x": 90655,
+          "y": 32759,
           "id": "6b1862da-65b4-45a9-a8df-84c4f693ccc9"
         },
         "7a0a6fef-e666-4c50-8eb9-395f8d4ba7e0": {
           "label": "EBSCO Information Services",
           "link": "https://en.wikipedia.org/wiki/EBSCO Information Services",
-          "x": 89993,
-          "y": 29721,
+          "x": 90664,
+          "y": 32784,
           "id": "7a0a6fef-e666-4c50-8eb9-395f8d4ba7e0"
         },
         "cb819a5f-b41c-4071-8373-87513ae92c62": {
           "label": "Elsevier",
           "link": "https://en.wikipedia.org/wiki/Elsevier",
-          "x": 89927,
-          "y": 29746,
+          "x": 90598,
+          "y": 32809,
           "id": "cb819a5f-b41c-4071-8373-87513ae92c62"
         },
         "1138730c-42a1-4e98-9070-4ac8c186c6b8": {
           "label": "Energy Technology Data Exchange",
           "link": "https://en.wikipedia.org/wiki/Energy Technology Data Exchange",
-          "x": 90014,
-          "y": 29771,
+          "x": 90685,
+          "y": 32834,
           "id": "1138730c-42a1-4e98-9070-4ac8c186c6b8"
         },
         "724c88b1-acca-4ada-8df1-064f2e63257b": {
           "label": "Gale (publisher)",
           "link": "https://en.wikipedia.org/wiki/Gale (publisher)",
-          "x": 89953,
-          "y": 29796,
+          "x": 90624,
+          "y": 32859,
           "id": "724c88b1-acca-4ada-8df1-064f2e63257b"
         },
         "8614ee39-bf8e-4722-b7fd-2f12305b0d01": {
           "label": "H. W. Wilson Company",
           "link": "https://en.wikipedia.org/wiki/H. W. Wilson Company",
-          "x": 89975,
-          "y": 29821,
+          "x": 90646,
+          "y": 32884,
           "id": "8614ee39-bf8e-4722-b7fd-2f12305b0d01"
         },
         "a9f70566-64d4-4da9-90bb-d7367ebf0ddc": {
           "label": "Healthgrades",
           "link": "https://en.wikipedia.org/wiki/Healthgrades",
-          "x": 89945,
-          "y": 29846,
+          "x": 90616,
+          "y": 32909,
           "id": "a9f70566-64d4-4da9-90bb-d7367ebf0ddc"
         },
         "abd0584e-60a2-43f6-a8cd-bd2197576a87": {
           "label": "HighWire Press",
           "link": "https://en.wikipedia.org/wiki/HighWire Press",
-          "x": 89951,
-          "y": 29871,
+          "x": 90622,
+          "y": 32934,
           "id": "abd0584e-60a2-43f6-a8cd-bd2197576a87"
         },
         "fa9e5ea4-770f-46e2-ba43-df3bafdd06e5": {
           "label": "Institute for Scientific Information",
           "link": "https://en.wikipedia.org/wiki/Institute for Scientific Information",
-          "x": 90006,
-          "y": 29896,
+          "x": 90677,
+          "y": 32959,
           "id": "fa9e5ea4-770f-46e2-ba43-df3bafdd06e5"
         },
         "096ce4ba-0312-4b1e-bc17-9935c1c093d9": {
           "label": "Institution of Engineering and Technology",
           "link": "https://en.wikipedia.org/wiki/Institution of Engineering and Technology",
-          "x": 90033,
-          "y": 29921,
+          "x": 90704,
+          "y": 32984,
           "id": "096ce4ba-0312-4b1e-bc17-9935c1c093d9"
         },
         "176cf891-7e23-4cbf-bda5-226fe83082ee": {
           "label": "Ithaka Harbors",
           "link": "https://en.wikipedia.org/wiki/Ithaka Harbors",
-          "x": 89949,
-          "y": 29946,
+          "x": 90620,
+          "y": 33009,
           "id": "176cf891-7e23-4cbf-bda5-226fe83082ee"
         },
         "27e7f6f4-20d2-4262-8144-0b2652e45fce": {
           "label": "Journal@rchive",
           "link": "https://en.wikipedia.org/wiki/Journal@rchive",
-          "x": 89952,
-          "y": 29971,
+          "x": 90623,
+          "y": 33034,
           "id": "27e7f6f4-20d2-4262-8144-0b2652e45fce"
         },
         "5ade2717-8d61-4e82-a882-1d99780fe208": {
           "label": "Latin American and Caribbean Center on Health Sciences Information",
           "link": "https://en.wikipedia.org/wiki/Latin American and Caribbean Center on Health Sciences Information",
-          "x": 90123,
-          "y": 29996,
+          "x": 90794,
+          "y": 33059,
           "id": "5ade2717-8d61-4e82-a882-1d99780fe208"
         },
         "f6bf8751-7805-4ad7-a690-1014beb697f1": {
           "label": "LexisNexis",
           "link": "https://en.wikipedia.org/wiki/LexisNexis",
-          "x": 89936,
-          "y": 30021,
+          "x": 90607,
+          "y": 33084,
           "id": "f6bf8751-7805-4ad7-a690-1014beb697f1"
         },
         "99d95f29-0e60-4ad5-9de9-a1e9da8f5977": {
           "label": "Modern Language Association",
           "link": "https://en.wikipedia.org/wiki/Modern Language Association",
-          "x": 89999,
-          "y": 30046,
+          "x": 90670,
+          "y": 33109,
           "id": "99d95f29-0e60-4ad5-9de9-a1e9da8f5977"
         },
         "de7efbde-ca98-4c78-afd8-dcf336c18e1b": {
           "label": "National Institute of Informatics",
           "link": "https://en.wikipedia.org/wiki/National Institute of Informatics",
-          "x": 90000,
-          "y": 30071,
+          "x": 90671,
+          "y": 33134,
           "id": "de7efbde-ca98-4c78-afd8-dcf336c18e1b"
         },
         "b406618d-5813-4688-bdae-5b77f157af38": {
           "label": "NewsBank",
           "link": "https://en.wikipedia.org/wiki/NewsBank",
-          "x": 89936,
-          "y": 30096,
+          "x": 90607,
+          "y": 33159,
           "id": "b406618d-5813-4688-bdae-5b77f157af38"
         },
         "2c2970c3-c687-4d6a-8e7b-ba36d581963c": {
           "label": "OCLC",
           "link": "https://en.wikipedia.org/wiki/OCLC",
-          "x": 89922,
-          "y": 30121,
+          "x": 90593,
+          "y": 33184,
           "id": "2c2970c3-c687-4d6a-8e7b-ba36d581963c"
         },
         "60b86365-aecb-41c4-a760-7dd97b0995b2": {
           "label": "Ovid Technologies",
           "link": "https://en.wikipedia.org/wiki/Ovid Technologies",
-          "x": 89961,
-          "y": 30146,
+          "x": 90632,
+          "y": 33209,
           "id": "60b86365-aecb-41c4-a760-7dd97b0995b2"
         },
         "7cb5a570-9a7a-461a-961a-65257facbfa7": {
           "label": "Philosopher's Information Center",
           "link": "https://en.wikipedia.org/wiki/Philosopher's Information Center",
-          "x": 90006,
-          "y": 30171,
+          "x": 90677,
+          "y": 33234,
           "id": "7cb5a570-9a7a-461a-961a-65257facbfa7"
         },
         "fc8e0ea9-e9fd-4e1f-b05a-f7a1c6d4950a": {
           "label": "Philosophy Documentation Center",
           "link": "https://en.wikipedia.org/wiki/Philosophy Documentation Center",
-          "x": 90010,
-          "y": 30196,
+          "x": 90681,
+          "y": 33259,
           "id": "fc8e0ea9-e9fd-4e1f-b05a-f7a1c6d4950a"
         },
         "2b9ed938-cb4b-48ba-910e-dbd862a046e2": {
           "label": "ProQuest",
           "link": "https://en.wikipedia.org/wiki/ProQuest",
-          "x": 89932,
-          "y": 30221,
+          "x": 90603,
+          "y": 33284,
           "id": "2b9ed938-cb4b-48ba-910e-dbd862a046e2"
         },
         "9d6e4725-9b9a-45f2-8619-ad01ef7c3166": {
           "label": "R.R. Bowker",
           "link": "https://en.wikipedia.org/wiki/R.R. Bowker",
-          "x": 89942,
-          "y": 30246,
+          "x": 90613,
+          "y": 33309,
           "id": "9d6e4725-9b9a-45f2-8619-ad01ef7c3166"
         },
         "1de2c0db-4dc1-4bfd-b086-38fa0703d1ab": {
           "label": "Religious and Theological Abstracts",
           "link": "https://en.wikipedia.org/wiki/Religious and Theological Abstracts",
-          "x": 90015,
-          "y": 30271,
+          "x": 90686,
+          "y": 33334,
           "id": "1de2c0db-4dc1-4bfd-b086-38fa0703d1ab"
         },
         "d2f5b7a3-09c4-4f48-8715-c79ab5a32e0c": {
           "label": "RELX",
           "link": "https://en.wikipedia.org/wiki/RELX",
-          "x": 89920,
-          "y": 30296,
+          "x": 90591,
+          "y": 33359,
           "id": "d2f5b7a3-09c4-4f48-8715-c79ab5a32e0c"
         },
         "5673a86b-8710-43d0-9160-602dba16dae6": {
           "label": "Research Libraries Group",
           "link": "https://en.wikipedia.org/wiki/Research Libraries Group",
-          "x": 89984,
-          "y": 30321,
+          "x": 90655,
+          "y": 33384,
           "id": "5673a86b-8710-43d0-9160-602dba16dae6"
         },
         "61ba7ba6-999c-458b-9f23-667158ea142b": {
           "label": "Source (International Information Support Centre)",
           "link": "https://en.wikipedia.org/wiki/Source (International Information Support Centre)",
-          "x": 90060,
-          "y": 30346,
+          "x": 90731,
+          "y": 33409,
           "id": "61ba7ba6-999c-458b-9f23-667158ea142b"
         },
         "c4fc2ac9-7410-4d4b-9ad7-301fe2cd4afd": {
           "label": "Thomson Reuters",
           "link": "https://en.wikipedia.org/wiki/Thomson Reuters",
-          "x": 89959,
-          "y": 30371,
+          "x": 90630,
+          "y": 33434,
           "id": "c4fc2ac9-7410-4d4b-9ad7-301fe2cd4afd"
         },
         "06823897-8bf1-427c-8530-a1485585058f": {
           "label": "United States National Agricultural Library",
           "link": "https://en.wikipedia.org/wiki/United States National Agricultural Library",
-          "x": 90034,
-          "y": 30396,
+          "x": 90705,
+          "y": 33459,
           "id": "06823897-8bf1-427c-8530-a1485585058f"
         },
         "756a5fb7-0701-48db-b82b-c9c2ffc1f4d8": {
           "label": "United States National Library of Medicine",
           "link": "https://en.wikipedia.org/wiki/United States National Library of Medicine",
-          "x": 90035,
-          "y": 30421,
+          "x": 90706,
+          "y": 33484,
           "id": "756a5fb7-0701-48db-b82b-c9c2ffc1f4d8"
         },
         "43ac64d1-aefc-42dd-9312-4470b045dfe3": {
           "label": "VINITI",
           "link": "https://en.wikipedia.org/wiki/VINITI",
-          "x": 89922,
-          "y": 30446,
+          "x": 90593,
+          "y": 33509,
           "id": "43ac64d1-aefc-42dd-9312-4470b045dfe3"
         },
         "2cbd9c2c-c46c-42af-b8ee-a9582858bdb0": {
           "label": "West (publisher)",
           "link": "https://en.wikipedia.org/wiki/West (publisher)",
-          "x": 89954,
-          "y": 30471,
+          "x": 90625,
+          "y": 33534,
           "id": "2cbd9c2c-c46c-42af-b8ee-a9582858bdb0"
         },
         "49b9eeb3-e210-4031-83f8-3a0fc81050b0": {
           "label": "Wiley (publisher)",
           "link": "https://en.wikipedia.org/wiki/Wiley (publisher)",
-          "x": 89955,
-          "y": 30496,
+          "x": 90626,
+          "y": 33559,
           "id": "49b9eeb3-e210-4031-83f8-3a0fc81050b0"
         },
         "79e46450-93a8-48e7-88ac-7a159b81176b": {
           "label": "Category:Clarivate Analytics",
           "link": "https://en.wikipedia.org/wiki/Category:Clarivate Analytics",
-          "x": 89991,
-          "y": 30521,
+          "x": 90662,
+          "y": 33584,
           "id": "79e46450-93a8-48e7-88ac-7a159b81176b"
         },
         "e4e8640f-c4ca-4778-9a87-460311934d04": {
           "label": "Category:EBSCO Industries",
           "link": "https://en.wikipedia.org/wiki/Category:EBSCO Industries",
-          "x": 89990,
-          "y": 30546,
+          "x": 90661,
+          "y": 33609,
           "id": "e4e8640f-c4ca-4778-9a87-460311934d04"
         },
         "7b49c44f-11b3-42d8-8b2b-7bf740fa725a": {
           "label": "Category:Institute of Electrical and Electronics Engineers",
           "link": "https://en.wikipedia.org/wiki/Category:Institute of Electrical and Electronics Engineers",
-          "x": 90081,
-          "y": 30571,
+          "x": 90752,
+          "y": 33634,
           "id": "7b49c44f-11b3-42d8-8b2b-7bf740fa725a"
         },
         "a4e50b18-7381-4381-858d-6f0eb6255fd8": {
           "label": "Category:ProQuest",
           "link": "https://en.wikipedia.org/wiki/Category:ProQuest",
-          "x": 89963,
-          "y": 30596,
+          "x": 90634,
+          "y": 33659,
           "id": "a4e50b18-7381-4381-858d-6f0eb6255fd8"
         },
         "63aaa333-671e-4e18-8ba2-4f94181f03ae": {
           "label": "Category:Thomson Reuters",
           "link": "https://en.wikipedia.org/wiki/Category:Thomson Reuters",
-          "x": 89990,
-          "y": 30621,
+          "x": 90661,
+          "y": 33684,
           "id": "63aaa333-671e-4e18-8ba2-4f94181f03ae"
         },
         "5232a9ab-478e-4ba9-8496-9dfd7535e513": {
           "label": "ACM Guide to Computing Literature",
           "link": "https://en.wikipedia.org/wiki/ACM Guide to Computing Literature",
-          "x": 90111,
-          "y": 28594,
+          "x": 90782,
+          "y": 31657,
           "id": "5232a9ab-478e-4ba9-8496-9dfd7535e513"
         },
         "4b502658-0001-445b-bf80-f01eb8de4fa9": {
           "label": "CiteSeerX",
           "link": "https://en.wikipedia.org/wiki/CiteSeerX",
-          "x": 90029,
-          "y": 28619,
+          "x": 90700,
+          "y": 31682,
           "id": "4b502658-0001-445b-bf80-f01eb8de4fa9"
         },
         "5fb6062d-1c25-495e-8ec1-8eccc957ad83": {
           "label": "Collection of Computer Science Bibliographies",
           "link": "https://en.wikipedia.org/wiki/Collection of Computer Science Bibliographies",
-          "x": 90143,
-          "y": 28644,
+          "x": 90814,
+          "y": 31707,
           "id": "5fb6062d-1c25-495e-8ec1-8eccc957ad83"
         },
         "c57ee882-d57f-4c47-a7b4-a63eacc2b8c6": {
           "label": "CompuMath Citation Index",
           "link": "https://en.wikipedia.org/wiki/CompuMath Citation Index",
-          "x": 90082,
-          "y": 28669,
+          "x": 90753,
+          "y": 31732,
           "id": "c57ee882-d57f-4c47-a7b4-a63eacc2b8c6"
         },
         "fa3046e3-299f-4bb8-b3a4-4b18d5ea82a6": {
           "label": "DBLP",
           "link": "https://en.wikipedia.org/wiki/DBLP",
-          "x": 90015,
-          "y": 28694,
+          "x": 90686,
+          "y": 31757,
           "id": "fa3046e3-299f-4bb8-b3a4-4b18d5ea82a6"
         },
         "a6a1b5c8-e8b5-44a0-b659-e65e643c4a05": {
           "label": "IEEE Xplore",
           "link": "https://en.wikipedia.org/wiki/IEEE Xplore",
-          "x": 90035,
-          "y": 28719,
+          "x": 90706,
+          "y": 31782,
           "id": "a6a1b5c8-e8b5-44a0-b659-e65e643c4a05"
         },
         "1a773d68-a541-43cb-a127-1b64f7198c5e": {
           "label": "MathSciNet",
           "link": "https://en.wikipedia.org/wiki/MathSciNet",
-          "x": 90034,
-          "y": 28744,
+          "x": 90705,
+          "y": 31807,
           "id": "1a773d68-a541-43cb-a127-1b64f7198c5e"
         },
         "8639e36e-d468-4fcd-a305-a6415c5dabaf": {
           "label": "Semantic Scholar",
           "link": "https://en.wikipedia.org/wiki/Semantic Scholar",
-          "x": 90053,
-          "y": 28769,
+          "x": 90724,
+          "y": 31832,
           "id": "8639e36e-d468-4fcd-a305-a6415c5dabaf"
         },
         "d291cdf7-d905-4de4-a9eb-27bf17da0b35": {
           "label": "Chemical Engineering and Biotechnology Abstracts",
           "link": "https://en.wikipedia.org/wiki/Chemical Engineering and Biotechnology Abstracts",
-          "x": 90179,
-          "y": 29077,
+          "x": 90850,
+          "y": 32140,
           "id": "d291cdf7-d905-4de4-a9eb-27bf17da0b35"
         },
         "741e7d94-9b78-4102-9d5f-a822ee49e94c": {
           "label": "Ei Compendex",
           "link": "https://en.wikipedia.org/wiki/Ei Compendex",
-          "x": 90064,
-          "y": 29102,
+          "x": 90735,
+          "y": 32165,
           "id": "741e7d94-9b78-4102-9d5f-a822ee49e94c"
         },
         "69535974-9095-4fa2-950f-33b402bcd965": {
           "label": "Espacenet",
           "link": "https://en.wikipedia.org/wiki/Espacenet",
-          "x": 90051,
-          "y": 29127,
+          "x": 90722,
+          "y": 32190,
           "id": "69535974-9095-4fa2-950f-33b402bcd965"
         },
         "770b0344-fdd8-4096-b53e-3b79da242cd7": {
           "label": "FLUIDEX",
           "link": "https://en.wikipedia.org/wiki/FLUIDEX",
-          "x": 90047,
-          "y": 29152,
+          "x": 90718,
+          "y": 32215,
           "id": "770b0344-fdd8-4096-b53e-3b79da242cd7"
         },
         "f5bfb1a3-f88f-4c75-ba41-532fc2329696": {
           "label": "IEEE Xplore",
           "link": "https://en.wikipedia.org/wiki/IEEE Xplore",
-          "x": 90055,
-          "y": 29177,
+          "x": 90726,
+          "y": 32240,
           "id": "f5bfb1a3-f88f-4c75-ba41-532fc2329696"
         },
         "8dc43544-babb-4d2e-9941-e4a24833136a": {
           "label": "Inspec",
           "link": "https://en.wikipedia.org/wiki/Inspec",
-          "x": 90038,
-          "y": 29202,
+          "x": 90709,
+          "y": 32265,
           "id": "8dc43544-babb-4d2e-9941-e4a24833136a"
         },
         "e9d924b9-8b2d-4d15-8830-f0db3180cc4c": {
@@ -28796,211 +28796,211 @@ var schemeData =
         "96d77f3d-ded3-487e-96e8-66636f367806": {
           "label": "Adobe Creative Suite",
           "link": "https://en.wikipedia.org/wiki/Adobe Creative Suite",
-          "x": 89504,
-          "y": 3376,
+          "x": 89938,
+          "y": -2891,
           "id": "96d77f3d-ded3-487e-96e8-66636f367806"
         },
         "70952743-bc59-4693-8342-4276adc4baf6": {
           "label": "Adobe FrameMaker",
           "link": "https://en.wikipedia.org/wiki/Adobe FrameMaker",
-          "x": 89500,
-          "y": 3401,
+          "x": 89934,
+          "y": -2866,
           "id": "70952743-bc59-4693-8342-4276adc4baf6"
         },
         "22b7d75b-38d5-465a-a686-b21c8b9abd9a": {
           "label": "Adobe InCopy",
           "link": "https://en.wikipedia.org/wiki/Adobe InCopy",
-          "x": 89482,
-          "y": 3426,
+          "x": 89916,
+          "y": -2841,
           "id": "22b7d75b-38d5-465a-a686-b21c8b9abd9a"
         },
         "88b77997-1eb8-4750-9f5d-5e3640feb8f6": {
           "label": "Adobe InDesign",
           "link": "https://en.wikipedia.org/wiki/Adobe InDesign",
-          "x": 89487,
-          "y": 3451,
+          "x": 89921,
+          "y": -2816,
           "id": "88b77997-1eb8-4750-9f5d-5e3640feb8f6"
         },
         "2b93bb6d-f385-4866-989b-044e83ab9d90": {
           "label": "Antenna House Formatter",
           "link": "https://en.wikipedia.org/wiki/Antenna House Formatter",
-          "x": 89519,
-          "y": 3476,
+          "x": 89953,
+          "y": -2791,
           "id": "2b93bb6d-f385-4866-989b-044e83ab9d90"
         },
         "6ac360ec-25c1-4cc2-b036-59efab3a50f0": {
           "label": "Arbortext Advanced Print Publisher",
           "link": "https://en.wikipedia.org/wiki/Arbortext Advanced Print Publisher",
-          "x": 89547,
-          "y": 3501,
+          "x": 89981,
+          "y": -2766,
           "id": "6ac360ec-25c1-4cc2-b036-59efab3a50f0"
         },
         "32339015-57a7-4078-963d-e7776e1a1f5a": {
           "label": "Computers and Typesetting",
           "link": "https://en.wikipedia.org/wiki/Computers and Typesetting",
-          "x": 89524,
-          "y": 3526,
+          "x": 89958,
+          "y": -2741,
           "id": "32339015-57a7-4078-963d-e7776e1a1f5a"
         },
         "0dde87c2-2e99-4373-8e28-a8d5b07d2308": {
           "label": "Adobe Creative Cloud",
           "link": "https://en.wikipedia.org/wiki/Adobe Creative Cloud",
-          "x": 89506,
-          "y": 3551,
+          "x": 89940,
+          "y": -2716,
           "id": "0dde87c2-2e99-4373-8e28-a8d5b07d2308"
         },
         "0745e612-686f-45ca-bd51-8cd35793dd86": {
           "label": "DocBook XSL",
           "link": "https://en.wikipedia.org/wiki/DocBook XSL",
-          "x": 89480,
-          "y": 3576,
+          "x": 89914,
+          "y": -2691,
           "id": "0745e612-686f-45ca-bd51-8cd35793dd86"
         },
         "d506b77b-ffe5-4869-a21a-9356a9b69b9c": {
           "label": "IBooks Author",
           "link": "https://en.wikipedia.org/wiki/IBooks Author",
-          "x": 89481,
-          "y": 3601,
+          "x": 89915,
+          "y": -2666,
           "id": "d506b77b-ffe5-4869-a21a-9356a9b69b9c"
         },
         "c75ced23-f7bc-4859-a46c-ffbf9ab6638e": {
           "label": "Ikarus (typography software)",
           "link": "https://en.wikipedia.org/wiki/Ikarus (typography software)",
-          "x": 89528,
-          "y": 3626,
+          "x": 89962,
+          "y": -2641,
           "id": "c75ced23-f7bc-4859-a46c-ffbf9ab6638e"
         },
         "a8138fe1-2709-472a-bfc9-d257aff6a99b": {
           "label": "Playwrite (software)",
           "link": "https://en.wikipedia.org/wiki/Playwrite (software)",
-          "x": 89499,
-          "y": 3651,
+          "x": 89933,
+          "y": -2616,
           "id": "a8138fe1-2709-472a-bfc9-d257aff6a99b"
         },
         "41a2cf43-0569-4c8a-878e-096d31a582c2": {
           "label": "Prince (software)",
           "link": "https://en.wikipedia.org/wiki/Prince (software)",
-          "x": 89491,
-          "y": 3676,
+          "x": 89925,
+          "y": -2591,
           "id": "41a2cf43-0569-4c8a-878e-096d31a582c2"
         },
         "57bb6ab8-77c0-49ee-b63f-8668ec8463c7": {
           "label": "Quark CopyDesk",
           "link": "https://en.wikipedia.org/wiki/Quark CopyDesk",
-          "x": 89491,
-          "y": 3701,
+          "x": 89925,
+          "y": -2566,
           "id": "57bb6ab8-77c0-49ee-b63f-8668ec8463c7"
         },
         "f765d1aa-8a96-46ae-a3c6-da86791b1411": {
           "label": "Roff (computer program)",
           "link": "https://en.wikipedia.org/wiki/Roff (computer program)",
-          "x": 89516,
-          "y": 3726,
+          "x": 89950,
+          "y": -2541,
           "id": "f765d1aa-8a96-46ae-a3c6-da86791b1411"
         },
         "bf8d2a64-90f2-428f-915a-9617c5ec9f74": {
           "label": "Scantext",
           "link": "https://en.wikipedia.org/wiki/Scantext",
-          "x": 89464,
-          "y": 3751,
+          "x": 89898,
+          "y": -2516,
           "id": "bf8d2a64-90f2-428f-915a-9617c5ec9f74"
         },
         "df6c4775-d09f-4467-9a12-420ccd8b174e": {
           "label": "SCRIPT (markup)",
           "link": "https://en.wikipedia.org/wiki/SCRIPT (markup)",
-          "x": 89493,
-          "y": 3776,
+          "x": 89927,
+          "y": -2491,
           "id": "df6c4775-d09f-4467-9a12-420ccd8b174e"
         },
         "914ecbd0-c1aa-4a2d-a49f-e474b6fa9234": {
           "label": "Sigil (application)",
           "link": "https://en.wikipedia.org/wiki/Sigil (application)",
-          "x": 89491,
-          "y": 3801,
+          "x": 89925,
+          "y": -2466,
           "id": "914ecbd0-c1aa-4a2d-a49f-e474b6fa9234"
         },
         "8741c8b5-8b25-4d65-94ea-44ea2f1c9417": {
           "label": "STIX Fonts project",
           "link": "https://en.wikipedia.org/wiki/STIX Fonts project",
-          "x": 89496,
-          "y": 3826,
+          "x": 89930,
+          "y": -2441,
           "id": "8741c8b5-8b25-4d65-94ea-44ea2f1c9417"
         },
         "744ca325-c8b0-4bf4-81ce-13d7e94ba635": {
           "label": "Tasmeem",
           "link": "https://en.wikipedia.org/wiki/Tasmeem",
-          "x": 89468,
-          "y": 3851,
+          "x": 89902,
+          "y": -2416,
           "id": "744ca325-c8b0-4bf4-81ce-13d7e94ba635"
         },
         "c5fec736-6bff-4b0c-b376-35062937caf6": {
           "label": "TeleType Co.",
           "link": "https://en.wikipedia.org/wiki/TeleType Co.",
-          "x": 89479,
-          "y": 3876,
+          "x": 89913,
+          "y": -2391,
           "id": "c5fec736-6bff-4b0c-b376-35062937caf6"
         },
         "9a8c7a39-daff-4e8a-8dd3-84beda6c4006": {
           "label": "TeX",
           "link": "https://en.wikipedia.org/wiki/TeX",
-          "x": 89449,
-          "y": 3901,
+          "x": 89883,
+          "y": -2366,
           "id": "9a8c7a39-daff-4e8a-8dd3-84beda6c4006"
         },
         "9bf03f15-8145-475c-8359-7e85b42a6caa": {
           "label": "TJ-2",
           "link": "https://en.wikipedia.org/wiki/TJ-2",
-          "x": 89451,
-          "y": 3926,
+          "x": 89885,
+          "y": -2341,
           "id": "9bf03f15-8145-475c-8359-7e85b42a6caa"
         },
         "2aa49c81-e796-4526-825d-1db0d2df4319": {
           "label": "XML Professional Publisher",
           "link": "https://en.wikipedia.org/wiki/XML Professional Publisher",
-          "x": 89524,
-          "y": 3951,
+          "x": 89958,
+          "y": -2316,
           "id": "2aa49c81-e796-4526-825d-1db0d2df4319"
         },
         "f26da9f1-5eb0-4e6d-b2db-26cd1151049b": {
           "label": "Category:DTP for MacOS",
           "link": "https://en.wikipedia.org/wiki/Category:DTP for MacOS",
-          "x": 89518,
-          "y": 3976,
+          "x": 89952,
+          "y": -2291,
           "id": "f26da9f1-5eb0-4e6d-b2db-26cd1151049b"
         },
         "4f349534-723a-487e-8330-f6423b8540a2": {
           "label": "Category:DTP for Windows",
           "link": "https://en.wikipedia.org/wiki/Category:DTP for Windows",
-          "x": 89523,
-          "y": 4001,
+          "x": 89957,
+          "y": -2266,
           "id": "4f349534-723a-487e-8330-f6423b8540a2"
         },
         "e7aac814-d755-4e04-af32-f32c6dc6cfdf": {
           "label": "Category:EPUB readers",
           "link": "https://en.wikipedia.org/wiki/Category:EPUB readers",
-          "x": 89513,
-          "y": 4026,
+          "x": 89947,
+          "y": -2241,
           "id": "e7aac814-d755-4e04-af32-f32c6dc6cfdf"
         },
         "971b55b1-96c9-46a4-8d4e-a1207ea4871d": {
           "label": "Category:Free typesetting software",
           "link": "https://en.wikipedia.org/wiki/Category:Free typesetting software",
-          "x": 89548,
-          "y": 4051,
+          "x": 89982,
+          "y": -2216,
           "id": "971b55b1-96c9-46a4-8d4e-a1207ea4871d"
         },
         "e39f57b0-431b-476c-b629-274fa1ace77c": {
           "label": "Category:Page description languages",
           "link": "https://en.wikipedia.org/wiki/Category:Page description languages",
-          "x": 89556,
-          "y": 4076,
+          "x": 89990,
+          "y": -2191,
           "id": "e39f57b0-431b-476c-b629-274fa1ace77c"
         },
         "82fccfd1-fb92-47b7-a350-0ed73fbafe1a": {
           "label": "Category:Typesetting programming languages",
           "link": "https://en.wikipedia.org/wiki/Category:Typesetting programming languages",
-          "x": 89584,
-          "y": 4101,
+          "x": 90018,
+          "y": -2166,
           "id": "82fccfd1-fb92-47b7-a350-0ed73fbafe1a"
         },
         "e9ec686f-b5e2-453e-a6cf-c4854ae6e183": {
@@ -38558,8 +38558,8 @@ var schemeData =
         },
         "f8b050c8-3fde-4978-b50b-13296d028e36": {
           "label": "Bibliography",
-          "x": 86111,
-          "y": 35240,
+          "x": 86782,
+          "y": 38303,
           "font": {
             "size": 72,
             "align": "left"
@@ -38575,146 +38575,146 @@ var schemeData =
         },
         "23dfb281-6247-4b90-87d2-55ce1e29789e": {
           "label": "Development",
-          "x": 86460,
-          "y": 35671,
+          "x": 87131,
+          "y": 38734,
           "id": "23dfb281-6247-4b90-87d2-55ce1e29789e"
         },
         "6a6da458-2ec6-4f72-9a46-fa50eb38d125": {
           "label": "11/14/2019",
-          "x": 86710,
-          "y": 35671,
+          "x": 87381,
+          "y": 38734,
           "id": "6a6da458-2ec6-4f72-9a46-fa50eb38d125"
         },
         "e58f48c5-fa38-4a2f-9224-6b80f84961b4": {
           "label": "init",
-          "x": 86610,
-          "y": 35671,
+          "x": 87281,
+          "y": 38734,
           "id": "e58f48c5-fa38-4a2f-9224-6b80f84961b4"
         },
         "199ca490-0cee-4590-a383-d880b8f724e7": {
           "label": "Notes",
-          "x": 86460,
-          "y": 34821,
+          "x": 87131,
+          "y": 37884,
           "id": "199ca490-0cee-4590-a383-d880b8f724e7"
         },
         "d005d56a-cbc0-40d3-85ff-74f8d0649467": {
           "label": "Dictionary of\nconcepts",
-          "x": 86865,
-          "y": 26542,
+          "x": 87536,
+          "y": 29605,
           "id": "d005d56a-cbc0-40d3-85ff-74f8d0649467"
         },
         "06b117e3-bde2-402a-bab4-75a00f3e7525": {
           "label": "Details, thoughts",
-          "x": 86610,
-          "y": 34821,
+          "x": 87281,
+          "y": 37884,
           "id": "06b117e3-bde2-402a-bab4-75a00f3e7525"
         },
         "e4250493-b5e6-4961-8c1d-9763e822a5b4": {
           "label": "Sections",
-          "x": 86610,
-          "y": 35071,
+          "x": 87281,
+          "y": 38134,
           "id": "e4250493-b5e6-4961-8c1d-9763e822a5b4"
         },
         "b2f84022-5da0-476d-a4d3-c10a2659398b": {
           "label": "Books",
-          "x": 86710,
-          "y": 34921,
+          "x": 87381,
+          "y": 37984,
           "id": "b2f84022-5da0-476d-a4d3-c10a2659398b"
         },
         "3298fe08-b5a3-4b37-8a47-1d58532c8f72": {
           "label": "R&D institutions",
-          "x": 86710,
-          "y": 34946,
+          "x": 87381,
+          "y": 38009,
           "id": "3298fe08-b5a3-4b37-8a47-1d58532c8f72"
         },
         "0749b754-9088-4e22-8595-578329708395": {
           "label": "Sites",
-          "x": 86710,
-          "y": 34971,
+          "x": 87381,
+          "y": 38034,
           "id": "0749b754-9088-4e22-8595-578329708395"
         },
         "bb8deb16-c35d-4db5-9a9d-00ec1333352f": {
           "label": "Magazines",
-          "x": 86710,
-          "y": 34996,
+          "x": 87381,
+          "y": 38059,
           "id": "bb8deb16-c35d-4db5-9a9d-00ec1333352f"
         },
         "d84b7f39-7065-4196-b213-c1e6ba8578ab": {
           "label": "Articles",
-          "x": 86710,
-          "y": 35021,
+          "x": 87381,
+          "y": 38084,
           "id": "d84b7f39-7065-4196-b213-c1e6ba8578ab"
         },
         "96afd6e4-e0da-4330-876c-0acfbe4a367d": {
           "label": "Media content",
-          "x": 86710,
-          "y": 35046,
+          "x": 87381,
+          "y": 38109,
           "id": "96afd6e4-e0da-4330-876c-0acfbe4a367d"
         },
         "47ff0958-497d-47da-8666-1c6d1bf90084": {
           "label": "Misc. web links",
-          "x": 86710,
-          "y": 35071,
+          "x": 87381,
+          "y": 38134,
           "id": "47ff0958-497d-47da-8666-1c6d1bf90084"
         },
         "146cf655-d7ab-41b3-99ce-9a35a967f045": {
           "label": "Projects",
-          "x": 86710,
-          "y": 35096,
+          "x": 87381,
+          "y": 38159,
           "id": "146cf655-d7ab-41b3-99ce-9a35a967f045"
         },
         "2bddfbac-6d7f-4825-b476-893dead355ba": {
           "label": "Tools",
-          "x": 86710,
-          "y": 35121,
+          "x": 87381,
+          "y": 38184,
           "id": "2bddfbac-6d7f-4825-b476-893dead355ba"
         },
         "852e2ee1-6bb3-41f1-b17a-872ab6b661c5": {
           "label": "Organizations",
-          "x": 86710,
-          "y": 35146,
+          "x": 87381,
+          "y": 38209,
           "id": "852e2ee1-6bb3-41f1-b17a-872ab6b661c5"
         },
         "1a3dd8f5-cd21-4fdc-84eb-739efd3c057c": {
           "label": "Standarts",
-          "x": 86710,
-          "y": 35171,
+          "x": 87381,
+          "y": 38234,
           "id": "1a3dd8f5-cd21-4fdc-84eb-739efd3c057c"
         },
         "bd45b23a-7306-465f-9028-e3f659db18a4": {
           "label": "Forums, Groups",
-          "x": 86710,
-          "y": 35196,
+          "x": 87381,
+          "y": 38259,
           "id": "bd45b23a-7306-465f-9028-e3f659db18a4"
         },
         "cf5d09da-e892-4e99-93fc-07e4a35387ac": {
           "label": "Laws",
-          "x": 86710,
-          "y": 35221,
+          "x": 87381,
+          "y": 38284,
           "id": "cf5d09da-e892-4e99-93fc-07e4a35387ac"
         },
         "86aec1a5-3020-4adf-8c91-e26d3fab4bc9": {
           "label": "Adjacent Themes",
-          "x": 86710,
-          "y": 35246,
+          "x": 87381,
+          "y": 38309,
           "id": "86aec1a5-3020-4adf-8c91-e26d3fab4bc9"
         },
         "f80dbb16-634c-4401-af98-b9ad0a18f096": {
           "label": "Questions",
-          "x": 86460,
-          "y": 35371,
+          "x": 87131,
+          "y": 38434,
           "id": "f80dbb16-634c-4401-af98-b9ad0a18f096"
         },
         "917283b2-00cc-4a12-9ae1-7667dfdc32da": {
           "label": "Problems",
-          "x": 86460,
-          "y": 35471,
+          "x": 87131,
+          "y": 38534,
           "id": "917283b2-00cc-4a12-9ae1-7667dfdc32da"
         },
         "1b4baaf4-9c59-4d1a-9800-f77d6691881b": {
           "label": "Goals",
-          "x": 86460,
-          "y": 35571,
+          "x": 87131,
+          "y": 38634,
           "id": "1b4baaf4-9c59-4d1a-9800-f77d6691881b"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879": {
@@ -38747,16 +38747,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Bibliography",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879",
-          "x": 93610,
-          "y": 20146,
+          "x": 94281,
+          "y": 23209,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "230a4d65-d56a-4a8f-ab93-8c252545eab9": {
           "label": "UML",
-          "x": 87361,
-          "y": 10691,
+          "x": 87795,
+          "y": 4424,
           "font": {
             "size": 72,
             "align": "left"
@@ -38772,152 +38772,152 @@ var schemeData =
         },
         "570cf627-5346-4238-b4ea-0c87bbb712a0": {
           "label": "Development",
-          "x": 87661,
-          "y": 11141,
+          "x": 88095,
+          "y": 4874,
           "id": "570cf627-5346-4238-b4ea-0c87bbb712a0"
         },
         "db24a95e-a5e0-426c-8f45-9d49b8dc4f75": {
           "label": "11/14/2019",
-          "x": 87911,
-          "y": 11141,
+          "x": 88345,
+          "y": 4874,
           "id": "db24a95e-a5e0-426c-8f45-9d49b8dc4f75"
         },
         "a2f71402-aaa7-48eb-8ae5-6a4fdbbca2da": {
           "label": "init",
-          "x": 87811,
-          "y": 11141,
+          "x": 88245,
+          "y": 4874,
           "id": "a2f71402-aaa7-48eb-8ae5-6a4fdbbca2da"
         },
         "991dc687-ebe5-4a92-ab40-2e7227947348": {
           "label": "Notes",
-          "x": 87661,
-          "y": 10291,
+          "x": 88095,
+          "y": 4024,
           "id": "991dc687-ebe5-4a92-ab40-2e7227947348"
         },
         "4063fd13-5efa-4587-945a-46fdf92008c1": {
           "label": "Dictionary of\nconcepts",
-          "x": 87849,
-          "y": 9095,
+          "x": 88283,
+          "y": 2828,
           "id": "4063fd13-5efa-4587-945a-46fdf92008c1"
         },
         "cf1db573-c925-44a1-816a-3bd794eae1ef": {
           "label": "Details, thoughts",
-          "x": 87811,
-          "y": 10291,
+          "x": 88245,
+          "y": 4024,
           "id": "cf1db573-c925-44a1-816a-3bd794eae1ef"
         },
         "829ba7b7-4cfd-429b-a74f-3ba89c993d76": {
           "label": "Sections",
-          "x": 87811,
-          "y": 10541,
+          "x": 88245,
+          "y": 4274,
           "id": "829ba7b7-4cfd-429b-a74f-3ba89c993d76"
         },
         "5a0d4d14-517e-40d8-8971-bcecc7e3f180": {
           "label": "Books",
-          "x": 87911,
-          "y": 10391,
+          "x": 88345,
+          "y": 4124,
           "id": "5a0d4d14-517e-40d8-8971-bcecc7e3f180"
         },
         "02349cbc-198a-4a61-9ac2-7139f47d3ed6": {
           "label": "R&D institutions",
-          "x": 87911,
-          "y": 10416,
+          "x": 88345,
+          "y": 4149,
           "id": "02349cbc-198a-4a61-9ac2-7139f47d3ed6"
         },
         "a5b3ff9d-a53e-435e-8010-cb52ceea9d39": {
           "label": "Sites",
-          "x": 87911,
-          "y": 10441,
+          "x": 88345,
+          "y": 4174,
           "id": "a5b3ff9d-a53e-435e-8010-cb52ceea9d39"
         },
         "b01aac0f-6ecc-44af-b1cd-1a3c692ba565": {
           "label": "Magazines",
-          "x": 87911,
-          "y": 10466,
+          "x": 88345,
+          "y": 4199,
           "id": "b01aac0f-6ecc-44af-b1cd-1a3c692ba565"
         },
         "d8cc3fdf-02d8-4731-9851-9960a3eac2d7": {
           "label": "Articles",
-          "x": 87911,
-          "y": 10491,
+          "x": 88345,
+          "y": 4224,
           "id": "d8cc3fdf-02d8-4731-9851-9960a3eac2d7"
         },
         "a8eec6fc-847c-4a22-bb9f-a327a742bafb": {
           "label": "Media content",
-          "x": 87911,
-          "y": 10516,
+          "x": 88345,
+          "y": 4249,
           "id": "a8eec6fc-847c-4a22-bb9f-a327a742bafb"
         },
         "30384e86-0e73-4bef-9b08-840f4413d19a": {
           "label": "Misc. web links",
-          "x": 87911,
-          "y": 10541,
+          "x": 88345,
+          "y": 4274,
           "id": "30384e86-0e73-4bef-9b08-840f4413d19a"
         },
         "b1d9664f-8e10-4357-a845-97f4de00ff81": {
           "label": "Projects",
-          "x": 87911,
-          "y": 10566,
+          "x": 88345,
+          "y": 4299,
           "id": "b1d9664f-8e10-4357-a845-97f4de00ff81"
         },
         "52dea245-dea9-4a2f-a75d-d2d252696859": {
           "label": "Tools",
-          "x": 87911,
-          "y": 10591,
+          "x": 88345,
+          "y": 4324,
           "id": "52dea245-dea9-4a2f-a75d-d2d252696859"
         },
         "f6e02491-2cb5-4646-8d6e-2c272eb5aba5": {
           "label": "Organizations",
-          "x": 87911,
-          "y": 10616,
+          "x": 88345,
+          "y": 4349,
           "id": "f6e02491-2cb5-4646-8d6e-2c272eb5aba5"
         },
         "abc02a11-1862-4562-b28f-cca485feb192": {
           "label": "Standarts",
-          "x": 87911,
-          "y": 10641,
+          "x": 88345,
+          "y": 4374,
           "id": "abc02a11-1862-4562-b28f-cca485feb192"
         },
         "f5dfa3da-0445-4f15-81da-b803e14bbf62": {
           "label": "Forums, Groups",
-          "x": 87911,
-          "y": 10666,
+          "x": 88345,
+          "y": 4399,
           "id": "f5dfa3da-0445-4f15-81da-b803e14bbf62"
         },
         "c42061f5-150e-4434-a2fd-d68ec03117b9": {
           "label": "Laws",
-          "x": 87911,
-          "y": 10691,
+          "x": 88345,
+          "y": 4424,
           "id": "c42061f5-150e-4434-a2fd-d68ec03117b9"
         },
         "037fbf27-c504-4bd9-84ce-59cf81316065": {
           "label": "Adjacent Themes",
-          "x": 87911,
-          "y": 10716,
+          "x": 88345,
+          "y": 4449,
           "id": "037fbf27-c504-4bd9-84ce-59cf81316065"
         },
         "8b061562-cb36-4a32-98db-62399c984e51": {
           "label": "Questions",
-          "x": 87661,
-          "y": 10841,
+          "x": 88095,
+          "y": 4574,
           "id": "8b061562-cb36-4a32-98db-62399c984e51"
         },
         "d6fa87ee-f2d1-418f-aa4c-738fbb9ee158": {
           "label": "Problems",
-          "x": 87661,
-          "y": 10941,
+          "x": 88095,
+          "y": 4674,
           "id": "d6fa87ee-f2d1-418f-aa4c-738fbb9ee158"
         },
         "a28c1183-1217-41b7-967b-edad09ec9118": {
           "label": "Goals",
-          "x": 87661,
-          "y": 11041,
+          "x": 88095,
+          "y": 4774,
           "id": "a28c1183-1217-41b7-967b-edad09ec9118"
         },
         "c70bb90b-a184-4cab-89c2-02b402d23694": {
           "label": "Software requirements",
-          "x": 86993,
-          "y": 17247,
+          "x": 87664,
+          "y": 20310,
           "font": {
             "size": 72,
             "align": "left"
@@ -38933,146 +38933,146 @@ var schemeData =
         },
         "5853c161-7077-40ac-8e4a-7dc9f7741f3b": {
           "label": "Development",
-          "x": 87585,
-          "y": 17575,
+          "x": 88256,
+          "y": 20638,
           "id": "5853c161-7077-40ac-8e4a-7dc9f7741f3b"
         },
         "1b0be161-3e24-4a1b-b967-18847999d962": {
           "label": "11/14/2019",
-          "x": 87835,
-          "y": 17575,
+          "x": 88506,
+          "y": 20638,
           "id": "1b0be161-3e24-4a1b-b967-18847999d962"
         },
         "ea4a972e-ab09-4657-8aac-88a9aabee8d7": {
           "label": "init",
-          "x": 87735,
-          "y": 17575,
+          "x": 88406,
+          "y": 20638,
           "id": "ea4a972e-ab09-4657-8aac-88a9aabee8d7"
         },
         "1b9dbf62-1053-4039-a9fa-5b3dd5f8ae24": {
           "label": "Notes",
-          "x": 87585,
-          "y": 16725,
+          "x": 88256,
+          "y": 19788,
           "id": "1b9dbf62-1053-4039-a9fa-5b3dd5f8ae24"
         },
         "e0548bd5-d6db-4758-a6eb-a069facdc0e8": {
           "label": "Dictionary of\nconcepts",
-          "x": 87816,
-          "y": 15070,
+          "x": 88487,
+          "y": 18133,
           "id": "e0548bd5-d6db-4758-a6eb-a069facdc0e8"
         },
         "159fa3c1-a6b2-4bfc-8fca-b6812da595cc": {
           "label": "Details, thoughts",
-          "x": 87735,
-          "y": 16725,
+          "x": 88406,
+          "y": 19788,
           "id": "159fa3c1-a6b2-4bfc-8fca-b6812da595cc"
         },
         "969957c9-51d0-4ab5-a4ea-a365b761b603": {
           "label": "Sections",
-          "x": 87735,
-          "y": 16975,
+          "x": 88406,
+          "y": 20038,
           "id": "969957c9-51d0-4ab5-a4ea-a365b761b603"
         },
         "c8089bad-1311-4feb-8e56-af5c243637e8": {
           "label": "Books",
-          "x": 87835,
-          "y": 16825,
+          "x": 88506,
+          "y": 19888,
           "id": "c8089bad-1311-4feb-8e56-af5c243637e8"
         },
         "5f468eee-2bcc-4c0e-b224-d5fcedf6b16e": {
           "label": "R&D institutions",
-          "x": 87835,
-          "y": 16850,
+          "x": 88506,
+          "y": 19913,
           "id": "5f468eee-2bcc-4c0e-b224-d5fcedf6b16e"
         },
         "2555efdb-3a35-4db5-9f23-1fe35b14a725": {
           "label": "Sites",
-          "x": 87835,
-          "y": 16875,
+          "x": 88506,
+          "y": 19938,
           "id": "2555efdb-3a35-4db5-9f23-1fe35b14a725"
         },
         "c7353363-6300-46cc-8c62-97a6cd016a94": {
           "label": "Magazines",
-          "x": 87835,
-          "y": 16900,
+          "x": 88506,
+          "y": 19963,
           "id": "c7353363-6300-46cc-8c62-97a6cd016a94"
         },
         "530beed6-3233-4629-9b6f-eded116ab4dc": {
           "label": "Articles",
-          "x": 87835,
-          "y": 16925,
+          "x": 88506,
+          "y": 19988,
           "id": "530beed6-3233-4629-9b6f-eded116ab4dc"
         },
         "b6d746d6-779b-49f9-a34f-33504492977d": {
           "label": "Media content",
-          "x": 87835,
-          "y": 16950,
+          "x": 88506,
+          "y": 20013,
           "id": "b6d746d6-779b-49f9-a34f-33504492977d"
         },
         "4d2c0d06-bf83-41e4-9080-31b047ca8d24": {
           "label": "Misc. web links",
-          "x": 87835,
-          "y": 16975,
+          "x": 88506,
+          "y": 20038,
           "id": "4d2c0d06-bf83-41e4-9080-31b047ca8d24"
         },
         "fdf1fbdf-db32-4d78-88fc-f25bc1be0a88": {
           "label": "Projects",
-          "x": 87835,
-          "y": 17000,
+          "x": 88506,
+          "y": 20063,
           "id": "fdf1fbdf-db32-4d78-88fc-f25bc1be0a88"
         },
         "6b95d9a3-a45a-4185-ba04-178909f882b9": {
           "label": "Tools",
-          "x": 87835,
-          "y": 17025,
+          "x": 88506,
+          "y": 20088,
           "id": "6b95d9a3-a45a-4185-ba04-178909f882b9"
         },
         "a1f28653-a498-40dd-8195-ff6b60ccef33": {
           "label": "Organizations",
-          "x": 87835,
-          "y": 17050,
+          "x": 88506,
+          "y": 20113,
           "id": "a1f28653-a498-40dd-8195-ff6b60ccef33"
         },
         "6dad7c5b-2f89-463b-9a74-c56d5c0a4062": {
           "label": "Standarts",
-          "x": 87835,
-          "y": 17075,
+          "x": 88506,
+          "y": 20138,
           "id": "6dad7c5b-2f89-463b-9a74-c56d5c0a4062"
         },
         "5e3d1d8a-5519-4c55-8bf4-1f96d964171f": {
           "label": "Forums, Groups",
-          "x": 87835,
-          "y": 17100,
+          "x": 88506,
+          "y": 20163,
           "id": "5e3d1d8a-5519-4c55-8bf4-1f96d964171f"
         },
         "7618db92-50f8-4b44-adaf-e1247f89e814": {
           "label": "Laws",
-          "x": 87835,
-          "y": 17125,
+          "x": 88506,
+          "y": 20188,
           "id": "7618db92-50f8-4b44-adaf-e1247f89e814"
         },
         "1f417b8e-24b5-4596-aa81-5bfd40c3a52b": {
           "label": "Adjacent Themes",
-          "x": 87835,
-          "y": 17150,
+          "x": 88506,
+          "y": 20213,
           "id": "1f417b8e-24b5-4596-aa81-5bfd40c3a52b"
         },
         "a992c92d-3478-441e-b638-7b9c31802b40": {
           "label": "Questions",
-          "x": 87585,
-          "y": 17275,
+          "x": 88256,
+          "y": 20338,
           "id": "a992c92d-3478-441e-b638-7b9c31802b40"
         },
         "a0241dba-0a79-48b9-b15d-ebfbb37361f5": {
           "label": "Problems",
-          "x": 87585,
-          "y": 17375,
+          "x": 88256,
+          "y": 20438,
           "id": "a0241dba-0a79-48b9-b15d-ebfbb37361f5"
         },
         "3f0eab3b-e9c8-45a7-a91d-edf8471598fc": {
           "label": "Goals",
-          "x": 87585,
-          "y": 17475,
+          "x": 88256,
+          "y": 20538,
           "id": "3f0eab3b-e9c8-45a7-a91d-edf8471598fc"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879152": {
@@ -39105,8 +39105,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "UML",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879152",
-          "x": 91915,
-          "y": 8614,
+          "x": 92349,
+          "y": 2347,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -39141,8 +39141,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Software\nrequirements",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856459879152445",
-          "x": 93777,
-          "y": 14556,
+          "x": 94448,
+          "y": 17619,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -39346,8 +39346,8 @@ var schemeData =
         },
         "21e74d2e-f5e6-4186-aae2-eaab63f25579": {
           "label": "Visual information layout",
-          "x": 86552,
-          "y": 5364,
+          "x": 86986,
+          "y": -903,
           "font": {
             "size": 72,
             "align": "left"
@@ -39363,146 +39363,146 @@ var schemeData =
         },
         "ca214b91-f051-4a77-9a19-4c3bd2387777": {
           "label": "Development",
-          "x": 87350,
-          "y": 5788,
+          "x": 87784,
+          "y": -479,
           "id": "ca214b91-f051-4a77-9a19-4c3bd2387777"
         },
         "a90a71b9-2020-47f3-8a4f-c49ff21915a7": {
           "label": "11/14/2019",
-          "x": 87600,
-          "y": 5788,
+          "x": 88034,
+          "y": -479,
           "id": "a90a71b9-2020-47f3-8a4f-c49ff21915a7"
         },
         "739d3a6a-8bf1-42be-a411-7b4fd8ee24b6": {
           "label": "init",
-          "x": 87500,
-          "y": 5788,
+          "x": 87934,
+          "y": -479,
           "id": "739d3a6a-8bf1-42be-a411-7b4fd8ee24b6"
         },
         "52dffa5d-bd9f-4741-bef8-b02bd140de6f": {
           "label": "Notes",
-          "x": 87350,
-          "y": 4938,
+          "x": 87784,
+          "y": -1329,
           "id": "52dffa5d-bd9f-4741-bef8-b02bd140de6f"
         },
         "e0f9d948-d07d-4376-bd72-61a3c4d6f9f7": {
           "label": "Dictionary of\nconcepts",
-          "x": 87518,
-          "y": 3365,
+          "x": 87952,
+          "y": -2902,
           "id": "e0f9d948-d07d-4376-bd72-61a3c4d6f9f7"
         },
         "f1c4038d-ff78-41a8-8459-206cac88c711": {
           "label": "Details, thoughts",
-          "x": 87500,
-          "y": 4938,
+          "x": 87934,
+          "y": -1329,
           "id": "f1c4038d-ff78-41a8-8459-206cac88c711"
         },
         "701002a7-5df6-4703-897c-a88db06137c6": {
           "label": "Sections",
-          "x": 87500,
-          "y": 5188,
+          "x": 87934,
+          "y": -1079,
           "id": "701002a7-5df6-4703-897c-a88db06137c6"
         },
         "10aacc40-51db-4a97-accc-80cb5b7ac3b6": {
           "label": "Books",
-          "x": 87600,
-          "y": 5038,
+          "x": 88034,
+          "y": -1229,
           "id": "10aacc40-51db-4a97-accc-80cb5b7ac3b6"
         },
         "584ae0a8-8781-4cdb-b883-54d0c7ec1087": {
           "label": "R&D institutions",
-          "x": 87600,
-          "y": 5063,
+          "x": 88034,
+          "y": -1204,
           "id": "584ae0a8-8781-4cdb-b883-54d0c7ec1087"
         },
         "72893c71-f9aa-432a-8870-e55ccc417024": {
           "label": "Sites",
-          "x": 87600,
-          "y": 5088,
+          "x": 88034,
+          "y": -1179,
           "id": "72893c71-f9aa-432a-8870-e55ccc417024"
         },
         "113cc522-2436-4ea7-8d83-027d4783bbed": {
           "label": "Magazines",
-          "x": 87600,
-          "y": 5113,
+          "x": 88034,
+          "y": -1154,
           "id": "113cc522-2436-4ea7-8d83-027d4783bbed"
         },
         "e82e649c-71ba-4804-a25e-80f7eb1bd226": {
           "label": "Articles",
-          "x": 87600,
-          "y": 5138,
+          "x": 88034,
+          "y": -1129,
           "id": "e82e649c-71ba-4804-a25e-80f7eb1bd226"
         },
         "62f49f27-4b68-4398-99a5-220903a991ae": {
           "label": "Media content",
-          "x": 87600,
-          "y": 5163,
+          "x": 88034,
+          "y": -1104,
           "id": "62f49f27-4b68-4398-99a5-220903a991ae"
         },
         "660e7759-d047-4459-9c2c-aed11c2b47e0": {
           "label": "Misc. web links",
-          "x": 87600,
-          "y": 5188,
+          "x": 88034,
+          "y": -1079,
           "id": "660e7759-d047-4459-9c2c-aed11c2b47e0"
         },
         "0160f8bd-f44e-4435-a70d-5afd99d5af83": {
           "label": "Projects",
-          "x": 87600,
-          "y": 5213,
+          "x": 88034,
+          "y": -1054,
           "id": "0160f8bd-f44e-4435-a70d-5afd99d5af83"
         },
         "71c352aa-afcd-4b34-8041-d0b52844e4ed": {
           "label": "Tools",
-          "x": 87600,
-          "y": 5238,
+          "x": 88034,
+          "y": -1029,
           "id": "71c352aa-afcd-4b34-8041-d0b52844e4ed"
         },
         "6406d7a3-ea21-49cc-ac24-29b990c79568": {
           "label": "Organizations",
-          "x": 87600,
-          "y": 5263,
+          "x": 88034,
+          "y": -1004,
           "id": "6406d7a3-ea21-49cc-ac24-29b990c79568"
         },
         "7bfcdee0-b65d-4fdb-ac0a-8d20c3a59523": {
           "label": "Standarts",
-          "x": 87600,
-          "y": 5288,
+          "x": 88034,
+          "y": -979,
           "id": "7bfcdee0-b65d-4fdb-ac0a-8d20c3a59523"
         },
         "3c91bd54-a910-48d9-8b1d-d0bdbe314065": {
           "label": "Forums, Groups",
-          "x": 87600,
-          "y": 5313,
+          "x": 88034,
+          "y": -954,
           "id": "3c91bd54-a910-48d9-8b1d-d0bdbe314065"
         },
         "351fd4c4-5dbb-4b10-8b95-4c83ea2b5b02": {
           "label": "Laws",
-          "x": 87600,
-          "y": 5338,
+          "x": 88034,
+          "y": -929,
           "id": "351fd4c4-5dbb-4b10-8b95-4c83ea2b5b02"
         },
         "dbca29b4-a855-426b-97ab-c830f26623cb": {
           "label": "Adjacent Themes",
-          "x": 87600,
-          "y": 5363,
+          "x": 88034,
+          "y": -904,
           "id": "dbca29b4-a855-426b-97ab-c830f26623cb"
         },
         "87e2d7ae-b234-44d8-8f45-7ad26c753268": {
           "label": "Questions",
-          "x": 87350,
-          "y": 5488,
+          "x": 87784,
+          "y": -779,
           "id": "87e2d7ae-b234-44d8-8f45-7ad26c753268"
         },
         "afa17799-25c9-4fee-9b3d-83a380ff6500": {
           "label": "Problems",
-          "x": 87350,
-          "y": 5588,
+          "x": 87784,
+          "y": -679,
           "id": "afa17799-25c9-4fee-9b3d-83a380ff6500"
         },
         "f78694cc-2032-431d-96cc-f3b847e266b2": {
           "label": "Goals",
-          "x": 87350,
-          "y": 5688,
+          "x": 87784,
+          "y": -579,
           "id": "f78694cc-2032-431d-96cc-f3b847e266b2"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc626856726": {
@@ -39535,8 +39535,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Visual\ninformation\nlayout",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc626856726",
-          "x": 93332,
-          "y": 4097,
+          "x": 93766,
+          "y": -2170,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -39740,8 +39740,8 @@ var schemeData =
         },
         "fb001fea-3d64-4749-be5b-2d6b8672dfb4": {
           "id": "fb001fea-3d64-4749-be5b-2d6b8672dfb4",
-          "x": 87421,
-          "y": 32427,
+          "x": 88092,
+          "y": 35490,
           "label": "https://en.wikipedia.org/wiki/Bibliography",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Bibliography",
@@ -39757,14 +39757,14 @@ var schemeData =
         },
         "4203cc0d-afd3-47d6-ba51-fdc9efa37776": {
           "label": "Currently, the field of bibliography has expanded to include studies that consider the book as a material object.",
-          "x": 88007,
-          "y": 32389,
+          "x": 88678,
+          "y": 35452,
           "id": "4203cc0d-afd3-47d6-ba51-fdc9efa37776"
         },
         "ed1e7c0b-d68d-4846-babb-d3b9430f0bb5": {
           "label": "Bibliography, in its systematic pursuit of understanding the past and the present through written and printed documents, \ndescribes a way and means of extracting information from this material.",
-          "x": 88038,
-          "y": 32427,
+          "x": 88709,
+          "y": 35490,
           "id": "ed1e7c0b-d68d-4846-babb-d3b9430f0bb5",
           "shape": "box",
           "link": "",
@@ -39780,8 +39780,8 @@ var schemeData =
         },
         "0336c42e-e69b-4b47-8805-fdcdb4fa23c6": {
           "label": "Bibliographers are interested in comparing versions of texts to each other\nrather than in interpreting their meaning or assessing their significance.",
-          "x": 87891,
-          "y": 32469,
+          "x": 88562,
+          "y": 35532,
           "id": "0336c42e-e69b-4b47-8805-fdcdb4fa23c6",
           "shape": "box",
           "link": "",
@@ -39797,8 +39797,8 @@ var schemeData =
         },
         "27308327-3933-4b13-a30d-5d7f61981896": {
           "id": "27308327-3933-4b13-a30d-5d7f61981896",
-          "x": 88265,
-          "y": 32869,
+          "x": 88936,
+          "y": 35932,
           "label": "var doi = \"10.1002/(sici)1097-0274(199709)32:3<190::aid-ajim2>3.0.co;2-1\";\nvar url = \"https://api.crossref.org/works/\" + encodeURIComponent(doi);\n\nvar codeNode = network.body.data.nodes.get(codeNodeId);\nvar pNode = network.getPositions()[codeNodeId];\n\nvar nodeId;\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\n        console.log(response);\n        var message = response.message;\n        var label = JSON.stringify(message);\n        label = label.replace(/({\\\".*?\\\":)/g, \"\\n\\1\");\n            nodeId = addNodeOnCanvas(\n               label, \n               \"\",\n               {x:pNode.x, y:pNode.y}, \n               1600, \n               0, \n               network)[0];\n         console.log(message.title);\n})\n    .then(function(response) {\n        var node = network.body.data.nodes.get(nodeId);\n        var pNode = network.getPositions()[node.id];\n        if (typeof node.font === \"undefined\") node.font={};\n        node.font.align = \"left\";\n        node.x = pNode.x;\n        node.y = pNode.y;\n        network.body.data.nodes.update(node);\n    })\n    .catch(function(error){console.log(error);});\n",
           "shape": "box",
           "link": "",
@@ -39814,14 +39814,14 @@ var schemeData =
         },
         "35336801-d493-4fe9-b8f5-0c66741eb70b": {
           "id": "35336801-d493-4fe9-b8f5-0c66741eb70b",
-          "x": 87311,
-          "y": 32849,
+          "x": 87982,
+          "y": 35912,
           "label": "Code"
         },
         "40bf905e-4a43-46f7-bda0-319978d14f20": {
           "id": "40bf905e-4a43-46f7-bda0-319978d14f20",
-          "x": 87732,
-          "y": 32854,
+          "x": 88403,
+          "y": 35917,
           "label": "Get JSON reference by DOI"
         },
         "9e98fb51-b071-4325-ac24-a30e39da0cba": {
@@ -40433,8 +40433,8 @@ var schemeData =
         },
         "3d0d3479-6d31-4a87-af52-415655760af2": {
           "id": "3d0d3479-6d31-4a87-af52-415655760af2",
-          "x": 87482,
-          "y": 33489,
+          "x": 88153,
+          "y": 36552,
           "label": "Системы управления библиографической информацией"
         },
         "6da3c62f-9d68-4579-bbb3-2741df392a4b": {
@@ -40456,8 +40456,8 @@ var schemeData =
         },
         "49df4407-a028-4cc5-9b97-19a5910f0a34": {
           "id": "49df4407-a028-4cc5-9b97-19a5910f0a34",
-          "x": 87535,
-          "y": 33557,
+          "x": 88206,
+          "y": 36620,
           "label": "https://en.wikipedia.org/wiki/International_Catalogue_of_Scientific_Literature",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/International_Catalogue_of_Scientific_Literature",
@@ -40473,8 +40473,8 @@ var schemeData =
         },
         "04ef199c-1a1a-4c90-985f-75a68fc219da": {
           "id": "04ef199c-1a1a-4c90-985f-75a68fc219da",
-          "x": 87459,
-          "y": 33610,
+          "x": 88130,
+          "y": 36673,
           "label": "https://en.wikipedia.org/wiki/Document_classification",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Document_classification",
@@ -44507,8 +44507,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Canvases list",
           "id": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558",
-          "x": 69739,
-          "y": -9154,
+          "x": 69817,
+          "y": -3123,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -45317,10 +45317,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/base.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"base_proj1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
+          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/base.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"base_proj1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204",
-          "x": 65740,
-          "y": -6463,
+          "x": 65818,
+          "y": -432,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -45354,8 +45354,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "mm-vis-js\nbase save",
-          "x": 64042,
-          "y": -4898,
+          "x": 64120,
+          "y": 1133,
           "id": "5f08e9b3-be39-411a-9b7a-67703314f3e9709204",
           "shape": "box",
           "link": "",
@@ -45386,8 +45386,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 64457,
-          "y": -4476,
+          "x": 64535,
+          "y": 1555,
           "id": "fc346e19-9d86-4596-835b-11f1f755d865709204"
         },
         "4e8d23e0-2916-468f-ab10-7887edd29781709204": {
@@ -45415,8 +45415,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/16/2019",
-          "x": 64707,
-          "y": -4476,
+          "x": 64785,
+          "y": 1555,
           "id": "4e8d23e0-2916-468f-ab10-7887edd29781709204"
         },
         "9e05bed3-bcfb-461c-8782-cbb50e700f2b709204": {
@@ -45444,8 +45444,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 64607,
-          "y": -4476,
+          "x": 64685,
+          "y": 1555,
           "id": "9e05bed3-bcfb-461c-8782-cbb50e700f2b709204"
         },
         "56b1d0ac-f667-4a67-948e-fe51b137da35709204": {
@@ -45473,8 +45473,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 64457,
-          "y": -5326,
+          "x": 64535,
+          "y": 705,
           "id": "56b1d0ac-f667-4a67-948e-fe51b137da35709204"
         },
         "f9d3919c-5ba4-4e33-afd7-f6321b559d96709204": {
@@ -45502,8 +45502,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 64627,
-          "y": -6420,
+          "x": 64705,
+          "y": -389,
           "id": "f9d3919c-5ba4-4e33-afd7-f6321b559d96709204"
         },
         "52715514-7cae-4783-a55f-e207e1ce5e23709204": {
@@ -45531,8 +45531,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 64617,
-          "y": -5443,
+          "x": 64695,
+          "y": 588,
           "id": "52715514-7cae-4783-a55f-e207e1ce5e23709204"
         },
         "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204": {
@@ -45560,8 +45560,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 64607,
-          "y": -5076,
+          "x": 64685,
+          "y": 955,
           "id": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709204"
         },
         "43c7b180-f8c6-452f-9346-94265b43c0bc709204": {
@@ -45589,8 +45589,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 64671,
-          "y": -5226,
+          "x": 64749,
+          "y": 805,
           "id": "43c7b180-f8c6-452f-9346-94265b43c0bc709204"
         },
         "a6573a2a-17e3-4e51-803a-c79be735c907709204": {
@@ -45618,8 +45618,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 64701,
-          "y": -5201,
+          "x": 64779,
+          "y": 830,
           "id": "a6573a2a-17e3-4e51-803a-c79be735c907709204"
         },
         "5957177d-5884-4cdf-a0a2-95fedfd8f6ce709204": {
@@ -45647,8 +45647,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 64667,
-          "y": -5176,
+          "x": 64745,
+          "y": 855,
           "id": "5957177d-5884-4cdf-a0a2-95fedfd8f6ce709204"
         },
         "71d85620-d7c1-4f72-b9b3-178f20566934709204": {
@@ -45676,8 +45676,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 64686,
-          "y": -5151,
+          "x": 64764,
+          "y": 880,
           "id": "71d85620-d7c1-4f72-b9b3-178f20566934709204"
         },
         "8261ea62-4460-4d13-856e-11a89da34460709204": {
@@ -45705,8 +45705,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 64674,
-          "y": -5126,
+          "x": 64752,
+          "y": 905,
           "id": "8261ea62-4460-4d13-856e-11a89da34460709204"
         },
         "c9e649eb-9d6f-4a97-a581-25bc23fb2dc6709204": {
@@ -45734,8 +45734,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 64696,
-          "y": -5101,
+          "x": 64774,
+          "y": 930,
           "id": "c9e649eb-9d6f-4a97-a581-25bc23fb2dc6709204"
         },
         "87acae29-26a1-4dae-aa6c-dad83e7b8983709204": {
@@ -45763,8 +45763,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 64699,
-          "y": -5076,
+          "x": 64777,
+          "y": 955,
           "id": "87acae29-26a1-4dae-aa6c-dad83e7b8983709204"
         },
         "7ca3ffa3-5554-46fb-9e4c-21aaa8768493709204": {
@@ -45792,8 +45792,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 64677,
-          "y": -5051,
+          "x": 64755,
+          "y": 980,
           "id": "7ca3ffa3-5554-46fb-9e4c-21aaa8768493709204"
         },
         "b850ef03-dd7d-48b9-ba43-0ab91574cb14709204": {
@@ -45821,8 +45821,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 64668,
-          "y": -5026,
+          "x": 64746,
+          "y": 1005,
           "id": "b850ef03-dd7d-48b9-ba43-0ab91574cb14709204"
         },
         "42b59714-b915-4351-8615-f73dea998d39709204": {
@@ -45850,8 +45850,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 64695,
-          "y": -5001,
+          "x": 64773,
+          "y": 1030,
           "id": "42b59714-b915-4351-8615-f73dea998d39709204"
         },
         "f2417b15-6f28-4533-8d5c-9e91123a14b2709204": {
@@ -45879,8 +45879,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 64682,
-          "y": -4976,
+          "x": 64760,
+          "y": 1055,
           "id": "f2417b15-6f28-4533-8d5c-9e91123a14b2709204"
         },
         "e99e9a6f-f6e1-4312-b003-5878d908f3ce709204": {
@@ -45908,8 +45908,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 64703,
-          "y": -4951,
+          "x": 64781,
+          "y": 1080,
           "id": "e99e9a6f-f6e1-4312-b003-5878d908f3ce709204"
         },
         "f9a78cba-3904-49d3-b0da-72dbf64df687709204": {
@@ -45937,8 +45937,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 64668,
-          "y": -4926,
+          "x": 64746,
+          "y": 1105,
           "id": "f9a78cba-3904-49d3-b0da-72dbf64df687709204"
         },
         "518a2b66-f38b-49a4-9220-52cbdd3a9370709204": {
@@ -45966,8 +45966,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 64707,
-          "y": -4901,
+          "x": 64785,
+          "y": 1130,
           "id": "518a2b66-f38b-49a4-9220-52cbdd3a9370709204"
         },
         "675504dd-4410-45b0-a5ec-0bac8ce4a540709204": {
@@ -45995,8 +45995,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 64457,
-          "y": -4776,
+          "x": 64535,
+          "y": 1255,
           "id": "675504dd-4410-45b0-a5ec-0bac8ce4a540709204"
         },
         "51096979-4e09-49c1-bed3-08a4925d2ebf709204": {
@@ -46024,8 +46024,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 64457,
-          "y": -4676,
+          "x": 64535,
+          "y": 1355,
           "id": "51096979-4e09-49c1-bed3-08a4925d2ebf709204"
         },
         "224747ed-bc32-4069-ab0d-8c3f13f8a51a709204": {
@@ -46053,8 +46053,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 64457,
-          "y": -4576,
+          "x": 64535,
+          "y": 1455,
           "id": "224747ed-bc32-4069-ab0d-8c3f13f8a51a709204"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709204": {
@@ -46085,10 +46085,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "mv-vis-js\nbase save",
+          "label": "mm-vis-js\nbase save",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709204",
-          "x": 69045,
-          "y": -6272,
+          "x": 69123,
+          "y": -241,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -46119,8 +46119,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Save operations code",
           "id": "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709204",
-          "x": 65056,
-          "y": -6484
+          "x": 65134,
+          "y": -453
         },
         "ea25b7ca-7308-4e5d-8d23-becf10837170204": {
           "color": {
@@ -46149,8 +46149,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "How to save canvas with script.\n(Like \"Save\" operation\nin desktop program.)",
           "id": "ea25b7ca-7308-4e5d-8d23-becf10837170204",
-          "x": 64924,
-          "y": -5466,
+          "x": 65002,
+          "y": 565,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -46181,8 +46181,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "start mvj-serv.js from mm-vis-js/utils/",
           "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a7196204",
-          "x": 65286,
-          "y": -5487
+          "x": 65364,
+          "y": 544
         },
         "52aee244-a92a-41a3-8b71-373d541e660d96204": {
           "color": {
@@ -46213,8 +46213,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "$ node mvj-serv.js",
           "id": "52aee244-a92a-41a3-8b71-373d541e660d96204",
-          "x": 65533,
-          "y": -5484,
+          "x": 65611,
+          "y": 547,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -46248,8 +46248,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "check port number in mvj-serv.js script - 1337. Change it in mvj-serv.js and in build script above, if you need.",
           "id": "8dcd7da6-9174-4a9a-92df-19ac2ef2574596204",
-          "x": 65817,
-          "y": -5521,
+          "x": 65895,
+          "y": 510,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -46283,8 +46283,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click big node above with code in it - to select it.",
           "id": "604289ab-7ae3-4401-afdc-44d012b2609c96204",
-          "x": 65323,
-          "y": -5440,
+          "x": 65401,
+          "y": 591,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -46318,8 +46318,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click \"runNodeCode\" in this node menu - on the left.",
           "id": "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced96204",
-          "x": 65337,
-          "y": -5401,
+          "x": 65415,
+          "y": 630,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -46350,8 +46350,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Canvases list",
-          "x": 64233,
-          "y": -8942,
+          "x": 64311,
+          "y": -2911,
           "id": "b0ab9a5c-3969-4305-b107-d656ef662765272",
           "shape": "box",
           "link": "",
@@ -46380,8 +46380,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 64709,
-          "y": -8502,
+          "x": 64787,
+          "y": -2471,
           "id": "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e272"
         },
         "c8fff93b-99a7-4e44-b775-013dd5b18cd0272": {
@@ -46407,8 +46407,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/16/2019",
-          "x": 64959,
-          "y": -8502,
+          "x": 65037,
+          "y": -2471,
           "id": "c8fff93b-99a7-4e44-b775-013dd5b18cd0272"
         },
         "244022c3-df85-4859-b198-983acf2a904c272": {
@@ -46434,8 +46434,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 64859,
-          "y": -8502,
+          "x": 64937,
+          "y": -2471,
           "id": "244022c3-df85-4859-b198-983acf2a904c272"
         },
         "7b984b0f-df05-4527-8ac8-8706b9691d36272": {
@@ -46461,8 +46461,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 64709,
-          "y": -9352,
+          "x": 64787,
+          "y": -3321,
           "id": "7b984b0f-df05-4527-8ac8-8706b9691d36272"
         },
         "556f77a1-e03a-4cc9-88d9-2dda8655e7f1272": {
@@ -46488,8 +46488,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 64859,
-          "y": -9602,
+          "x": 64937,
+          "y": -3571,
           "id": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1272"
         },
         "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc272": {
@@ -46515,8 +46515,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 64859,
-          "y": -9352,
+          "x": 64937,
+          "y": -3321,
           "id": "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc272"
         },
         "3c74d4bd-608b-4744-b18c-1cc508a41bcd272": {
@@ -46542,8 +46542,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 64859,
-          "y": -9102,
+          "x": 64937,
+          "y": -3071,
           "id": "3c74d4bd-608b-4744-b18c-1cc508a41bcd272"
         },
         "50b02362-4c2e-4801-b250-bbb084bf9bb2272": {
@@ -46569,8 +46569,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 64923,
-          "y": -9252,
+          "x": 65001,
+          "y": -3221,
           "id": "50b02362-4c2e-4801-b250-bbb084bf9bb2272"
         },
         "92f53a00-cf65-456f-bfcf-6f6c88119d5b272": {
@@ -46596,8 +46596,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 64954,
-          "y": -9227,
+          "x": 65032,
+          "y": -3196,
           "id": "92f53a00-cf65-456f-bfcf-6f6c88119d5b272"
         },
         "75ff23b4-3d0f-4c06-8061-4069494a326f272": {
@@ -46623,8 +46623,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 64919,
-          "y": -9202,
+          "x": 64997,
+          "y": -3171,
           "id": "75ff23b4-3d0f-4c06-8061-4069494a326f272"
         },
         "1bc92ea3-79ba-4d40-816c-35cedc1c74bf272": {
@@ -46650,8 +46650,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 64938,
-          "y": -9177,
+          "x": 65016,
+          "y": -3146,
           "id": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf272"
         },
         "2d9049d8-feaf-41cd-afb1-87515557983e272": {
@@ -46677,8 +46677,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 64927,
-          "y": -9152,
+          "x": 65005,
+          "y": -3121,
           "id": "2d9049d8-feaf-41cd-afb1-87515557983e272"
         },
         "51a5b447-fa28-4997-80ca-b7a96a69ef9e272": {
@@ -46704,8 +46704,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 64949,
-          "y": -9127,
+          "x": 65027,
+          "y": -3096,
           "id": "51a5b447-fa28-4997-80ca-b7a96a69ef9e272"
         },
         "8a139418-94d2-4121-94a4-8d2a26213d24272": {
@@ -46731,8 +46731,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 64951,
-          "y": -9102,
+          "x": 65029,
+          "y": -3071,
           "id": "8a139418-94d2-4121-94a4-8d2a26213d24272"
         },
         "76fc5be1-7bae-46ec-a649-1bc6509b378d272": {
@@ -46758,8 +46758,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 64929,
-          "y": -9077,
+          "x": 65007,
+          "y": -3046,
           "id": "76fc5be1-7bae-46ec-a649-1bc6509b378d272"
         },
         "21dc8bf2-6e0c-42cf-b702-d47f24af173a272": {
@@ -46785,8 +46785,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 64920,
-          "y": -9052,
+          "x": 64998,
+          "y": -3021,
           "id": "21dc8bf2-6e0c-42cf-b702-d47f24af173a272"
         },
         "1f9b98e7-ca75-443c-952d-a1d0ba476652272": {
@@ -46812,8 +46812,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 64948,
-          "y": -9027,
+          "x": 65026,
+          "y": -2996,
           "id": "1f9b98e7-ca75-443c-952d-a1d0ba476652272"
         },
         "f9c77b6e-13d7-4687-9d7f-e858e5cf5685272": {
@@ -46839,8 +46839,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 64934,
-          "y": -9002,
+          "x": 65012,
+          "y": -2971,
           "id": "f9c77b6e-13d7-4687-9d7f-e858e5cf5685272"
         },
         "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661272": {
@@ -46866,8 +46866,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 64956,
-          "y": -8977,
+          "x": 65034,
+          "y": -2946,
           "id": "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661272"
         },
         "f13fa072-1d46-45b2-b2b1-679177d88ba6272": {
@@ -46893,8 +46893,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 64920,
-          "y": -8952,
+          "x": 64998,
+          "y": -2921,
           "id": "f13fa072-1d46-45b2-b2b1-679177d88ba6272"
         },
         "ab382182-58b3-4799-ad70-5340f6f6e88d272": {
@@ -46920,8 +46920,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 64959,
-          "y": -8927,
+          "x": 65037,
+          "y": -2896,
           "id": "ab382182-58b3-4799-ad70-5340f6f6e88d272"
         },
         "a8fd2573-44a2-4d77-9721-81e1457bc1f0272": {
@@ -46947,8 +46947,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 64709,
-          "y": -8802,
+          "x": 64787,
+          "y": -2771,
           "id": "a8fd2573-44a2-4d77-9721-81e1457bc1f0272"
         },
         "48a4c37a-5708-48fc-9e33-37312999d807272": {
@@ -46974,8 +46974,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 64709,
-          "y": -8702,
+          "x": 64787,
+          "y": -2671,
           "id": "48a4c37a-5708-48fc-9e33-37312999d807272"
         },
         "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46272": {
@@ -47001,8 +47001,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 64709,
-          "y": -8602,
+          "x": 64787,
+          "y": -2571,
           "id": "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46272"
         },
         "849f7b5d-b9aa-4aa2-a527-8b8a5f654712272": {
@@ -47032,8 +47032,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js main canvas",
           "id": "849f7b5d-b9aa-4aa2-a527-8b8a5f654712272",
-          "x": 65132,
-          "y": -9630,
+          "x": 65210,
+          "y": -3599,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -47066,8 +47066,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com",
           "id": "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661272",
-          "x": 65387,
-          "y": -9632,
+          "x": 65465,
+          "y": -3601,
           "shape": "box",
           "link": "index.html",
           "borderWidth": ""
@@ -47100,8 +47100,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/base.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3272",
-          "x": 65420,
-          "y": -9568,
+          "x": 65498,
+          "y": -3537,
           "shape": "box",
           "link": "base.html",
           "borderWidth": ""
@@ -47133,8 +47133,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent themes",
           "id": "fecf5e72-1e19-410e-87b8-f36ff58504b6272",
-          "x": 65112,
-          "y": -9565,
+          "x": 65190,
+          "y": -3534,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -47169,8 +47169,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/culture.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210272",
-          "x": 65426,
-          "y": -9505,
+          "x": 65504,
+          "y": -3474,
           "shape": "box",
           "link": "culture.html",
           "borderWidth": ""
@@ -47204,16 +47204,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Culture themes",
           "id": "fecf5e72-1e19-410e-87b8-f36ff58504b6210272",
-          "x": 65112,
-          "y": -9504,
+          "x": 65190,
+          "y": -3473,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "0a641df2-dce4-42e5-83ba-0366e0f6b594": {
           "label": "Ergonomics",
-          "x": 61022,
-          "y": 51971,
+          "x": 75217,
+          "y": 35791,
           "font": {
             "size": 72,
             "align": "left"
@@ -47229,146 +47229,146 @@ var schemeData =
         },
         "224cb055-a604-4158-8545-c9e116d3e41d": {
           "label": "Development",
-          "x": 61322,
-          "y": 52421,
+          "x": 75517,
+          "y": 36241,
           "id": "224cb055-a604-4158-8545-c9e116d3e41d"
         },
         "cfaa1a7f-c00c-4734-83a0-dfe027981931": {
           "label": "11/22/2019",
-          "x": 61472,
-          "y": 52421,
+          "x": 75667,
+          "y": 36241,
           "id": "cfaa1a7f-c00c-4734-83a0-dfe027981931"
         },
         "e0b2922b-ac99-4c12-8684-85aaacd9d492": {
           "label": "init",
-          "x": 61572,
-          "y": 52421,
+          "x": 75767,
+          "y": 36241,
           "id": "e0b2922b-ac99-4c12-8684-85aaacd9d492"
         },
         "219a41f4-f057-4d9c-b67e-0e245d1825cc": {
           "label": "Notes",
-          "x": 61320,
-          "y": 50099,
+          "x": 75515,
+          "y": 33919,
           "id": "219a41f4-f057-4d9c-b67e-0e245d1825cc"
         },
         "73093bbc-8750-42ca-9113-827f5a908a26": {
           "label": "Dictionary of\nconcepts",
-          "x": 61872,
-          "y": 43539,
+          "x": 76067,
+          "y": 27359,
           "id": "73093bbc-8750-42ca-9113-827f5a908a26"
         },
         "d9a12252-751d-48be-92e2-3b0cffd37026": {
           "label": "Details, thoughts",
-          "x": 61470,
-          "y": 50099,
+          "x": 75665,
+          "y": 33919,
           "id": "d9a12252-751d-48be-92e2-3b0cffd37026"
         },
         "6aadb542-a03b-457c-bc99-a9efd990d6de": {
           "label": "Sections",
-          "x": 61472,
-          "y": 51821,
+          "x": 75667,
+          "y": 35641,
           "id": "6aadb542-a03b-457c-bc99-a9efd990d6de"
         },
         "6dd01377-2ce6-4733-96c6-68f22cf875b1": {
           "label": "Books",
-          "x": 61533,
-          "y": 50636,
+          "x": 75728,
+          "y": 34456,
           "id": "6dd01377-2ce6-4733-96c6-68f22cf875b1"
         },
         "d44dd517-faf6-481e-a6ac-7e3d18a1b463": {
           "label": "R&D institutions",
-          "x": 61560,
-          "y": 50922,
+          "x": 75755,
+          "y": 34742,
           "id": "d44dd517-faf6-481e-a6ac-7e3d18a1b463"
         },
         "9b8a1ec6-e0f4-4345-8262-ace10970cd6d": {
           "label": "Sites",
-          "x": 61525,
-          "y": 50947,
+          "x": 75720,
+          "y": 34767,
           "id": "9b8a1ec6-e0f4-4345-8262-ace10970cd6d"
         },
         "39aaba17-a3e6-4b1a-855d-c515abc94b0a": {
           "label": "Magazines",
-          "x": 61544,
-          "y": 50972,
+          "x": 75739,
+          "y": 34792,
           "id": "39aaba17-a3e6-4b1a-855d-c515abc94b0a"
         },
         "376e1145-a3dc-49f7-a17d-4ee788778428": {
           "label": "Articles",
-          "x": 61534,
-          "y": 51008,
+          "x": 75729,
+          "y": 34828,
           "id": "376e1145-a3dc-49f7-a17d-4ee788778428"
         },
         "40ab62f2-1071-41fa-8ffe-86dcab309a71": {
           "label": "Media content",
-          "x": 61547,
-          "y": 51324,
+          "x": 75742,
+          "y": 35144,
           "id": "40ab62f2-1071-41fa-8ffe-86dcab309a71"
         },
         "9c16f778-ffc7-4737-9cd2-53a3c723c606": {
           "label": "Misc. web links",
-          "x": 61559,
-          "y": 51520,
+          "x": 75754,
+          "y": 35340,
           "id": "9c16f778-ffc7-4737-9cd2-53a3c723c606"
         },
         "8dd45402-4041-4bf4-b47b-42358331a333": {
           "label": "Projects",
-          "x": 61542,
-          "y": 51846,
+          "x": 75737,
+          "y": 35666,
           "id": "8dd45402-4041-4bf4-b47b-42358331a333"
         },
         "df55ab5c-eb9e-4e54-89c3-ab3176793534": {
           "label": "Tools",
-          "x": 61533,
-          "y": 51871,
+          "x": 75728,
+          "y": 35691,
           "id": "df55ab5c-eb9e-4e54-89c3-ab3176793534"
         },
         "23da2c43-5f36-46a7-89e4-25f3a7faaf8f": {
           "label": "Organizations",
-          "x": 61560,
-          "y": 51896,
+          "x": 75755,
+          "y": 35716,
           "id": "23da2c43-5f36-46a7-89e4-25f3a7faaf8f"
         },
         "31e12393-e5d9-491b-9b25-5c9c1f983872": {
           "label": "Standarts",
-          "x": 61547,
-          "y": 51921,
+          "x": 75742,
+          "y": 35741,
           "id": "31e12393-e5d9-491b-9b25-5c9c1f983872"
         },
         "88212b75-e96a-4f9d-b19c-8ddab77ecb8d": {
           "label": "Forums, Groups",
-          "x": 61568,
-          "y": 51946,
+          "x": 75763,
+          "y": 35766,
           "id": "88212b75-e96a-4f9d-b19c-8ddab77ecb8d"
         },
         "e9b42bad-1c0c-4d31-a2b7-b445bef2528a": {
           "label": "Laws",
-          "x": 61533,
-          "y": 51971,
+          "x": 75728,
+          "y": 35791,
           "id": "e9b42bad-1c0c-4d31-a2b7-b445bef2528a"
         },
         "2ca841df-b805-489d-be89-9c9dac9ccbf7": {
           "label": "Adjacent Themes",
-          "x": 61572,
-          "y": 51996,
+          "x": 75767,
+          "y": 35816,
           "id": "2ca841df-b805-489d-be89-9c9dac9ccbf7"
         },
         "198eddf2-965c-47d2-a0e7-a837f3605f89": {
           "label": "Questions",
-          "x": 61322,
-          "y": 52121,
+          "x": 75517,
+          "y": 35941,
           "id": "198eddf2-965c-47d2-a0e7-a837f3605f89"
         },
         "8a684f13-3bdd-40e4-a800-f62e4b25e240": {
           "label": "Problems",
-          "x": 61322,
-          "y": 52221,
+          "x": 75517,
+          "y": 36041,
           "id": "8a684f13-3bdd-40e4-a800-f62e4b25e240"
         },
         "31372bba-f726-43f3-b2f9-d47de45907fe": {
           "label": "Goals",
-          "x": 61322,
-          "y": 52321,
+          "x": 75517,
+          "y": 36141,
           "id": "31372bba-f726-43f3-b2f9-d47de45907fe"
         },
         "2c4e2725-a96e-4987-9ae3-9008857e8ddc856133": {
@@ -47401,16 +47401,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Ergonomics",
           "id": "2c4e2725-a96e-4987-9ae3-9008857e8ddc856133",
-          "x": 69542,
-          "y": 34476,
+          "x": 82437,
+          "y": 18465,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "9e046db8-c499-4a14-a928-1ee00ba50e5b": {
           "id": "9e046db8-c499-4a14-a928-1ee00ba50e5b",
-          "x": 61908,
-          "y": 51369,
+          "x": 76103,
+          "y": 35189,
           "label": "https://en.wikipedia.org/wiki/Human_factors_and_ergonomics",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Human_factors_and_ergonomics",
@@ -47426,8 +47426,8 @@ var schemeData =
         },
         "f8c6b368-19df-406b-91c9-1344547395c3": {
           "id": "f8c6b368-19df-406b-91c9-1344547395c3",
-          "x": 61840,
-          "y": 51462,
+          "x": 76035,
+          "y": 35282,
           "label": "https://ru.wikipedia.org/wiki/Эргономика",
           "shape": "box",
           "link": "https://ru.wikipedia.org/wiki/%D0%AD%D1%80%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0",
@@ -47443,8 +47443,8 @@ var schemeData =
         },
         "4f2013fb-a85f-4cd2-86d6-6465ecc40f36": {
           "id": "4f2013fb-a85f-4cd2-86d6-6465ecc40f36",
-          "x": 61869,
-          "y": 51499,
+          "x": 76064,
+          "y": 35319,
           "label": "https://en.wikipedia.org/wiki/Systems_psychology",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Systems_psychology",
@@ -47460,8 +47460,8 @@ var schemeData =
         },
         "b2343b4a-1a2d-4f8f-8437-943aa9c62be7": {
           "id": "b2343b4a-1a2d-4f8f-8437-943aa9c62be7",
-          "x": 61880,
-          "y": 51582,
+          "x": 76075,
+          "y": 35402,
           "label": "https://en.wikipedia.org/wiki/Engineering_psychology",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Engineering_psychology",
@@ -47477,8 +47477,8 @@ var schemeData =
         },
         "297d7c8a-d45e-4880-8a31-e7530898edde": {
           "id": "297d7c8a-d45e-4880-8a31-e7530898edde",
-          "x": 61873,
-          "y": 51617,
+          "x": 76068,
+          "y": 35437,
           "label": "https://en.wikipedia.org/wiki/Cognitive_ergonomics",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Cognitive_ergonomics",
@@ -47494,8 +47494,8 @@ var schemeData =
         },
         "2948c516-179c-4444-9e76-69b0cb9c855d": {
           "id": "2948c516-179c-4444-9e76-69b0cb9c855d",
-          "x": 61882,
-          "y": 51654,
+          "x": 76077,
+          "y": 35474,
           "label": "https://en.wikipedia.org/wiki/User_interface_modeling",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/User_interface_modeling",
@@ -47511,8 +47511,8 @@ var schemeData =
         },
         "7329647b-435f-4536-b321-2ad2de181e45": {
           "id": "7329647b-435f-4536-b321-2ad2de181e45",
-          "x": 61945,
-          "y": 51691,
+          "x": 76140,
+          "y": 35511,
           "label": "https://en.wikipedia.org/wiki/Category:User_interface_markup_languages",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:User_interface_markup_languages",
@@ -47528,8 +47528,8 @@ var schemeData =
         },
         "8e3b766d-4712-4818-a878-5c2c1faef0ca": {
           "id": "8e3b766d-4712-4818-a878-5c2c1faef0ca",
-          "x": 61917,
-          "y": 51717,
+          "x": 76112,
+          "y": 35537,
           "label": "https://en.wikipedia.org/wiki/Category:Graphical_user_interfaces",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Graphical_user_interfaces",
@@ -47545,8 +47545,8 @@ var schemeData =
         },
         "76fb7695-6861-4769-9c48-b2a649be59e9": {
           "id": "76fb7695-6861-4769-9c48-b2a649be59e9",
-          "x": 61880,
-          "y": 51742,
+          "x": 76075,
+          "y": 35562,
           "label": "https://en.wikipedia.org/wiki/Cognitive_work_analysis",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Cognitive_work_analysis",
@@ -47562,8 +47562,8 @@ var schemeData =
         },
         "2ad3e768-2d56-4793-ba16-b3b7b5c420a4": {
           "id": "2ad3e768-2d56-4793-ba16-b3b7b5c420a4",
-          "x": 61891,
-          "y": 51770,
+          "x": 76086,
+          "y": 35590,
           "label": "https://en.wikipedia.org/wiki/Ecological_interface_design",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Ecological_interface_design",
@@ -47579,8 +47579,8 @@ var schemeData =
         },
         "a23f1806-defd-416e-aac1-9ffbb0a56e1b": {
           "id": "a23f1806-defd-416e-aac1-9ffbb0a56e1b",
-          "x": 61871,
-          "y": 51417,
+          "x": 76066,
+          "y": 35237,
           "label": "https://en.wikipedia.org/wiki/Category:Ergonomics",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Ergonomics",
@@ -47596,8 +47596,8 @@ var schemeData =
         },
         "91abbd8f-0116-4406-b58b-3517bc00e4f7": {
           "id": "91abbd8f-0116-4406-b58b-3517bc00e4f7",
-          "x": 61900,
-          "y": 51539,
+          "x": 76095,
+          "y": 35359,
           "label": "https://en.wikipedia.org/wiki/Category:Systems_psychology",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Systems_psychology",
@@ -47639,8 +47639,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Ergonomics",
           "id": "a23f1806-defd-416e-aac1-9ffbb0a56e1b371",
-          "x": 64983,
-          "y": 43221,
+          "x": 78755,
+          "y": 27045,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Ergonomics",
           "borderWidth": ""
@@ -47673,8 +47673,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Systems_psychology",
           "id": "91abbd8f-0116-4406-b58b-3517bc00e4f7371",
-          "x": 64792,
-          "y": 44888,
+          "x": 78564,
+          "y": 28712,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Systems_psychology",
           "borderWidth": ""
@@ -47707,8 +47707,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:User_interface_markup_languages",
           "id": "7329647b-435f-4536-b321-2ad2de181e45371",
-          "x": 64402,
-          "y": 46222,
+          "x": 78174,
+          "y": 30046,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:User_interface_markup_languages",
           "borderWidth": ""
@@ -47741,8 +47741,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:Graphical_user_interfaces",
           "id": "8e3b766d-4712-4818-a878-5c2c1faef0ca371",
-          "x": 64641,
-          "y": 48205,
+          "x": 78413,
+          "y": 32029,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Category:Graphical_user_interfaces",
           "borderWidth": ""
@@ -47750,1687 +47750,1687 @@ var schemeData =
         "cd643f2d-0d45-4760-a33d-9702b3362d3a": {
           "label": "3D body scanning",
           "link": "https://en.wikipedia.org/wiki/3D body scanning",
-          "x": 65770,
-          "y": 42113,
+          "x": 79542,
+          "y": 25937,
           "id": "cd643f2d-0d45-4760-a33d-9702b3362d3a"
         },
         "097e8fd2-e4a5-495b-a9ca-b1ec3bebaf89": {
           "label": "Accessibility",
           "link": "https://en.wikipedia.org/wiki/Accessibility",
-          "x": 65751,
-          "y": 42138,
+          "x": 79523,
+          "y": 25962,
           "id": "097e8fd2-e4a5-495b-a9ca-b1ec3bebaf89"
         },
         "029c51e3-09c1-42da-8847-604d6d3a0cec": {
           "label": "Active sitting",
           "link": "https://en.wikipedia.org/wiki/Active sitting",
-          "x": 65753,
-          "y": 42163,
+          "x": 79525,
+          "y": 25987,
           "id": "029c51e3-09c1-42da-8847-604d6d3a0cec"
         },
         "1a406597-276e-4df6-abbb-1cf93d509d0a": {
           "label": "Activity-centered ergonomics",
           "link": "https://en.wikipedia.org/wiki/Activity-centered ergonomics",
-          "x": 65805,
-          "y": 42188,
+          "x": 79577,
+          "y": 26012,
           "id": "1a406597-276e-4df6-abbb-1cf93d509d0a"
         },
         "c959bff9-06ec-46fa-bdba-f9b75dc171ce": {
           "label": "Adapted automobile",
           "link": "https://en.wikipedia.org/wiki/Adapted automobile",
-          "x": 65777,
-          "y": 42213,
+          "x": 79549,
+          "y": 26037,
           "id": "c959bff9-06ec-46fa-bdba-f9b75dc171ce"
         },
         "d458d4e8-69c1-4a66-9cfb-74ed8a9b82f3": {
           "label": "Anthropometry",
           "link": "https://en.wikipedia.org/wiki/Anthropometry",
-          "x": 65760,
-          "y": 42238,
+          "x": 79532,
+          "y": 26062,
           "id": "d458d4e8-69c1-4a66-9cfb-74ed8a9b82f3"
         },
         "3a59a28e-b4eb-4990-86a3-79935eb4ca97": {
           "label": "Armrest",
           "link": "https://en.wikipedia.org/wiki/Armrest",
-          "x": 65738,
-          "y": 42263,
+          "x": 79510,
+          "y": 26087,
           "id": "3a59a28e-b4eb-4990-86a3-79935eb4ca97"
         },
         "376e5708-1965-4342-b152-0159c52fb56f": {
           "label": "Augmented cognition",
           "link": "https://en.wikipedia.org/wiki/Augmented cognition",
-          "x": 65780,
-          "y": 42288,
+          "x": 79552,
+          "y": 26112,
           "id": "376e5708-1965-4342-b152-0159c52fb56f"
         },
         "3c64ab2b-90a2-4cb8-8499-61a1e091f5f7": {
           "label": "Back belt",
           "link": "https://en.wikipedia.org/wiki/Back belt",
-          "x": 65742,
-          "y": 42313,
+          "x": 79514,
+          "y": 26137,
           "id": "3c64ab2b-90a2-4cb8-8499-61a1e091f5f7"
         },
         "27ac5f00-4869-4fbb-9ba0-3cda22945bf1": {
           "label": "Board of Certification in Professional Ergonomics",
           "link": "https://en.wikipedia.org/wiki/Board of Certification in Professional Ergonomics",
-          "x": 65868,
-          "y": 42338,
+          "x": 79640,
+          "y": 26162,
           "id": "27ac5f00-4869-4fbb-9ba0-3cda22945bf1"
         },
         "c440eb3c-83ce-4574-9e8c-824ee5ff2a64": {
           "label": "Bungee chair",
           "link": "https://en.wikipedia.org/wiki/Bungee chair",
-          "x": 65755,
-          "y": 42363,
+          "x": 79527,
+          "y": 26187,
           "id": "c440eb3c-83ce-4574-9e8c-824ee5ff2a64"
         },
         "3e0bfc99-ca06-4ba5-81e1-9d82f38cfba7": {
           "label": "CEN/CENELEC Guide 6",
           "link": "https://en.wikipedia.org/wiki/CEN/CENELEC Guide 6",
-          "x": 65789,
-          "y": 42388,
+          "x": 79561,
+          "y": 26212,
           "id": "3e0bfc99-ca06-4ba5-81e1-9d82f38cfba7"
         },
         "aa33f142-cec2-4e78-bd28-b1a8d453c291": {
           "label": "Cognitive work analysis",
           "link": "https://en.wikipedia.org/wiki/Cognitive work analysis",
-          "x": 65787,
-          "y": 42413,
+          "x": 79559,
+          "y": 26237,
           "id": "aa33f142-cec2-4e78-bd28-b1a8d453c291"
         },
         "c254cf8d-ff50-409f-a0c7-a66016b1d850": {
           "label": "Computer desk",
           "link": "https://en.wikipedia.org/wiki/Computer desk",
-          "x": 65762,
-          "y": 42438,
+          "x": 79534,
+          "y": 26262,
           "id": "c254cf8d-ff50-409f-a0c7-a66016b1d850"
         },
         "91d18a4f-2f43-4ef3-910b-4f80ed41cb52": {
           "label": "Computer-aided ergonomics",
           "link": "https://en.wikipedia.org/wiki/Computer-aided ergonomics",
-          "x": 65804,
-          "y": 42463,
+          "x": 79576,
+          "y": 26287,
           "id": "91d18a4f-2f43-4ef3-910b-4f80ed41cb52"
         },
         "f6e2802f-8a73-46bd-a850-497030b12850": {
           "label": "Computer-induced medical problems",
           "link": "https://en.wikipedia.org/wiki/Computer-induced medical problems",
-          "x": 65830,
-          "y": 42488,
+          "x": 79602,
+          "y": 26312,
           "id": "f6e2802f-8a73-46bd-a850-497030b12850"
         },
         "339b5aa2-f080-4611-b74b-dd86c4916500": {
           "label": "Context-sensitive user interface",
           "link": "https://en.wikipedia.org/wiki/Context-sensitive user interface",
-          "x": 65813,
-          "y": 42513,
+          "x": 79585,
+          "y": 26337,
           "id": "339b5aa2-f080-4611-b74b-dd86c4916500"
         },
         "8203814f-72f8-423e-8069-01db5d96e986": {
           "label": "Mike Cooley (engineer)",
           "link": "https://en.wikipedia.org/wiki/Mike Cooley (engineer)",
-          "x": 65787,
-          "y": 42538,
+          "x": 79559,
+          "y": 26362,
           "id": "8203814f-72f8-423e-8069-01db5d96e986"
         },
         "f4786e67-e82d-4c59-a89b-fb5de7686c08": {
           "label": "Dvorak keyboard layout",
           "link": "https://en.wikipedia.org/wiki/Dvorak keyboard layout",
-          "x": 65788,
-          "y": 42563,
+          "x": 79560,
+          "y": 26387,
           "id": "f4786e67-e82d-4c59-a89b-fb5de7686c08"
         },
         "7a18a0eb-6fa0-43de-a867-d87f676ab6b1": {
           "label": "Ecological interface design",
           "link": "https://en.wikipedia.org/wiki/Ecological interface design",
-          "x": 65798,
-          "y": 42588,
+          "x": 79570,
+          "y": 26412,
           "id": "7a18a0eb-6fa0-43de-a867-d87f676ab6b1"
         },
         "b681aa2f-b025-4e66-99af-107a0238ba54": {
           "label": "Engineering psychology",
           "link": "https://en.wikipedia.org/wiki/Engineering psychology",
-          "x": 65789,
-          "y": 42613,
+          "x": 79561,
+          "y": 26437,
           "id": "b681aa2f-b025-4e66-99af-107a0238ba54"
         },
         "7fe6c917-bf63-4c0f-9a90-951d76d516d1": {
           "label": "Ergonomic glove",
           "link": "https://en.wikipedia.org/wiki/Ergonomic glove",
-          "x": 65766,
-          "y": 42638,
+          "x": 79538,
+          "y": 26462,
           "id": "7fe6c917-bf63-4c0f-9a90-951d76d516d1"
         },
         "315c57de-070b-4758-b3fa-7fdd1ebb57c3": {
           "label": "Ergonomic hazard",
           "link": "https://en.wikipedia.org/wiki/Ergonomic hazard",
-          "x": 65771,
-          "y": 42663,
+          "x": 79543,
+          "y": 26487,
           "id": "315c57de-070b-4758-b3fa-7fdd1ebb57c3"
         },
         "688d2c3e-b9f0-480f-b8d6-c1ea10b9dd1b": {
           "label": "Ergonomics for manual material handling",
           "link": "https://en.wikipedia.org/wiki/Ergonomics for manual material handling",
-          "x": 65843,
-          "y": 42688,
+          "x": 79615,
+          "y": 26512,
           "id": "688d2c3e-b9f0-480f-b8d6-c1ea10b9dd1b"
         },
         "59e6c8d0-fbf7-4099-a64a-d6266f2fc6f1": {
           "label": "Ergonomics in Canada",
           "link": "https://en.wikipedia.org/wiki/Ergonomics in Canada",
-          "x": 65785,
-          "y": 42713,
+          "x": 79557,
+          "y": 26537,
           "id": "59e6c8d0-fbf7-4099-a64a-d6266f2fc6f1"
         },
         "b2a70c35-430d-4645-ae90-d8aa6260aac3": {
           "label": "FilterKeys",
           "link": "https://en.wikipedia.org/wiki/FilterKeys",
-          "x": 65745,
-          "y": 42738,
+          "x": 79517,
+          "y": 26562,
           "id": "b2a70c35-430d-4645-ae90-d8aa6260aac3"
         },
         "dfcdb6f1-3064-426c-aa81-23d322c2ea34": {
           "label": "First Conference on Scientific Organization of Labour",
           "link": "https://en.wikipedia.org/wiki/First Conference on Scientific Organization of Labour",
-          "x": 65881,
-          "y": 42763,
+          "x": 79653,
+          "y": 26587,
           "id": "dfcdb6f1-3064-426c-aa81-23d322c2ea34"
         },
         "8a3082d1-54a1-4d45-83ab-33ab5b39afbd": {
           "label": "Full-spectrum light",
           "link": "https://en.wikipedia.org/wiki/Full-spectrum light",
-          "x": 65772,
-          "y": 42788,
+          "x": 79544,
+          "y": 26612,
           "id": "8a3082d1-54a1-4d45-83ab-33ab5b39afbd"
         },
         "fb7617b9-71dc-47df-b4c8-de1028e10cc5": {
           "label": "Handle",
           "link": "https://en.wikipedia.org/wiki/Handle",
-          "x": 65736,
-          "y": 42813,
+          "x": 79508,
+          "y": 26637,
           "id": "fb7617b9-71dc-47df-b4c8-de1028e10cc5"
         },
         "e7d2e2b3-171c-461b-8eac-93e52754b389": {
           "label": "Human factors and ergonomics",
           "link": "https://en.wikipedia.org/wiki/Human factors and ergonomics",
-          "x": 65813,
-          "y": 42838,
+          "x": 79585,
+          "y": 26662,
           "id": "e7d2e2b3-171c-461b-8eac-93e52754b389"
         },
         "e540077e-9dae-4c61-b5b4-b92fb72876a2": {
           "label": "Human Factors in Engineering and Design",
           "link": "https://en.wikipedia.org/wiki/Human Factors in Engineering and Design",
-          "x": 65848,
-          "y": 42863,
+          "x": 79620,
+          "y": 26687,
           "id": "e540077e-9dae-4c61-b5b4-b92fb72876a2"
         },
         "3a5d3767-9fa4-4f2e-ade0-3bfb847208d0": {
           "label": "Human factors integration",
           "link": "https://en.wikipedia.org/wiki/Human factors integration",
-          "x": 65795,
-          "y": 42888,
+          "x": 79567,
+          "y": 26712,
           "id": "3a5d3767-9fa4-4f2e-ade0-3bfb847208d0"
         },
         "d83dc678-06ca-4cdb-9140-9be5a5217e72": {
           "label": "Human performance technology",
           "link": "https://en.wikipedia.org/wiki/Human performance technology",
-          "x": 65815,
-          "y": 42913,
+          "x": 79587,
+          "y": 26737,
           "id": "d83dc678-06ca-4cdb-9140-9be5a5217e72"
         },
         "3c3ffb4a-fc73-47e6-a517-c753c8e77a0b": {
           "label": "Human–machine system",
           "link": "https://en.wikipedia.org/wiki/Human–machine system",
-          "x": 65792,
-          "y": 42938,
+          "x": 79564,
+          "y": 26762,
           "id": "3c3ffb4a-fc73-47e6-a517-c753c8e77a0b"
         },
         "ab26ee6f-8ed8-4be6-8639-c80888e903b0": {
           "label": "Lift table",
           "link": "https://en.wikipedia.org/wiki/Lift table",
-          "x": 65740,
-          "y": 42963,
+          "x": 79512,
+          "y": 26787,
           "id": "ab26ee6f-8ed8-4be6-8639-c80888e903b0"
         },
         "81f64fac-8941-4dce-b64d-e798168d6c21": {
           "label": "The Chartered Institute of Ergonomics and Human Factors",
           "link": "https://en.wikipedia.org/wiki/The Chartered Institute of Ergonomics and Human Factors",
-          "x": 65899,
-          "y": 42988,
+          "x": 79671,
+          "y": 26812,
           "id": "81f64fac-8941-4dce-b64d-e798168d6c21"
         },
         "b2ec46f0-e79b-42e2-b122-b41b85743989": {
           "label": "International Conference on Applied Human Factors and Ergonomics",
           "link": "https://en.wikipedia.org/wiki/International Conference on Applied Human Factors and Ergonomics",
-          "x": 65932,
-          "y": 43013,
+          "x": 79704,
+          "y": 26837,
           "id": "b2ec46f0-e79b-42e2-b122-b41b85743989"
         },
         "57b905ba-e8ae-4ea2-a9da-5f7f35160640": {
           "label": "International Ergonomics Association",
           "link": "https://en.wikipedia.org/wiki/International Ergonomics Association",
-          "x": 65830,
-          "y": 43038,
+          "x": 79602,
+          "y": 26862,
           "id": "57b905ba-e8ae-4ea2-a9da-5f7f35160640"
         },
         "9f3e2170-7f9c-4b40-9585-3430264fb424": {
           "label": "ISO 6385",
           "link": "https://en.wikipedia.org/wiki/ISO 6385",
-          "x": 65743,
-          "y": 43063,
+          "x": 79515,
+          "y": 26887,
           "id": "9f3e2170-7f9c-4b40-9585-3430264fb424"
         },
         "30cf7ae6-0ed2-43c2-bca1-5cb85a031b6c": {
           "label": "Kinesiology",
           "link": "https://en.wikipedia.org/wiki/Kinesiology",
-          "x": 65749,
-          "y": 43088,
+          "x": 79521,
+          "y": 26912,
           "id": "30cf7ae6-0ed2-43c2-bca1-5cb85a031b6c"
         },
         "686e5f2b-8c6b-4b95-b72f-04007bcc9932": {
           "label": "Kitchen work triangle",
           "link": "https://en.wikipedia.org/wiki/Kitchen work triangle",
-          "x": 65779,
-          "y": 43113,
+          "x": 79551,
+          "y": 26937,
           "id": "686e5f2b-8c6b-4b95-b72f-04007bcc9932"
         },
         "af7db2d8-3a2f-473e-a81a-d882c0070538": {
           "label": "Kneeling chair",
           "link": "https://en.wikipedia.org/wiki/Kneeling chair",
-          "x": 65758,
-          "y": 43138,
+          "x": 79530,
+          "y": 26962,
           "id": "af7db2d8-3a2f-473e-a81a-d882c0070538"
         },
         "7cd21227-65ec-45d0-a065-354c6e867fdc": {
           "label": "Light ergonomics",
           "link": "https://en.wikipedia.org/wiki/Light ergonomics",
-          "x": 65768,
-          "y": 43163,
+          "x": 79540,
+          "y": 26987,
           "id": "7cd21227-65ec-45d0-a065-354c6e867fdc"
         },
         "b2ab235e-b115-417f-a8ce-84dbd236553e": {
           "label": "Long-term complications of standing",
           "link": "https://en.wikipedia.org/wiki/Long-term complications of standing",
-          "x": 65828,
-          "y": 43188,
+          "x": 79600,
+          "y": 27012,
           "id": "b2ab235e-b115-417f-a8ce-84dbd236553e"
         },
         "8f4c4f05-b17b-4777-9350-65b4387dcf34": {
           "label": "Manual handling of loads",
           "link": "https://en.wikipedia.org/wiki/Manual handling of loads",
-          "x": 65793,
-          "y": 43213,
+          "x": 79565,
+          "y": 27037,
           "id": "8f4c4f05-b17b-4777-9350-65b4387dcf34"
         },
         "5c62f36b-c121-4742-81ea-7a46af671895": {
           "label": "Matte display",
           "link": "https://en.wikipedia.org/wiki/Matte display",
-          "x": 65755,
-          "y": 43238,
+          "x": 79527,
+          "y": 27062,
           "id": "5c62f36b-c121-4742-81ea-7a46af671895"
         },
         "1a721f43-3639-45ad-9f31-fb7bfc1ab191": {
           "label": "Monitor filter",
           "link": "https://en.wikipedia.org/wiki/Monitor filter",
-          "x": 65753,
-          "y": 43263,
+          "x": 79525,
+          "y": 27087,
           "id": "1a721f43-3639-45ad-9f31-fb7bfc1ab191"
         },
         "cee5f175-d707-4f6d-9acb-19202ff8dd8e": {
           "label": "Mouse keys",
           "link": "https://en.wikipedia.org/wiki/Mouse keys",
-          "x": 65751,
-          "y": 43288,
+          "x": 79523,
+          "y": 27112,
           "id": "cee5f175-d707-4f6d-9acb-19202ff8dd8e"
         },
         "bf1fb615-b3ad-40c7-ad16-bf53e47db7a4": {
           "label": "Hywel Murrell",
           "link": "https://en.wikipedia.org/wiki/Hywel Murrell",
-          "x": 65756,
-          "y": 43313,
+          "x": 79528,
+          "y": 27137,
           "id": "bf1fb615-b3ad-40c7-ad16-bf53e47db7a4"
         },
         "6d6d2ef9-192d-485e-bdb5-d653bfd4f665": {
           "label": "Musculoskeletal disorder",
           "link": "https://en.wikipedia.org/wiki/Musculoskeletal disorder",
-          "x": 65792,
-          "y": 43338,
+          "x": 79564,
+          "y": 27162,
           "id": "6d6d2ef9-192d-485e-bdb5-d653bfd4f665"
         },
         "478d846b-651b-44ad-a802-ab187298e07a": {
           "label": "Needs analysis",
           "link": "https://en.wikipedia.org/wiki/Needs analysis",
-          "x": 65761,
-          "y": 43363,
+          "x": 79533,
+          "y": 27187,
           "id": "478d846b-651b-44ad-a802-ab187298e07a"
         },
         "45bdf47f-eca9-4335-a468-a32bcf34682d": {
           "label": "Neuroergonomics",
           "link": "https://en.wikipedia.org/wiki/Neuroergonomics",
-          "x": 65770,
-          "y": 43388,
+          "x": 79542,
+          "y": 27212,
           "id": "45bdf47f-eca9-4335-a468-a32bcf34682d"
         },
         "b1a9c9b6-c33d-46d3-a112-489f7a8f0c5f": {
           "label": "Neutral spine",
           "link": "https://en.wikipedia.org/wiki/Neutral spine",
-          "x": 65755,
-          "y": 43413,
+          "x": 79527,
+          "y": 27237,
           "id": "b1a9c9b6-c33d-46d3-a112-489f7a8f0c5f"
         },
         "34a5f4e1-4fa0-4087-994d-380ebfbefc86": {
           "label": "Office chair",
           "link": "https://en.wikipedia.org/wiki/Office chair",
-          "x": 65749,
-          "y": 43438,
+          "x": 79521,
+          "y": 27262,
           "id": "34a5f4e1-4fa0-4087-994d-380ebfbefc86"
         },
         "0c18abff-6311-40b1-95ec-f29652d111c0": {
           "label": "Package handle",
           "link": "https://en.wikipedia.org/wiki/Package handle",
-          "x": 65764,
-          "y": 43463,
+          "x": 79536,
+          "y": 27287,
           "id": "0c18abff-6311-40b1-95ec-f29652d111c0"
         },
         "fa94d7e8-c956-4d77-93e5-28491c936f1e": {
           "label": "Participatory ergonomics",
           "link": "https://en.wikipedia.org/wiki/Participatory ergonomics",
-          "x": 65792,
-          "y": 43488,
+          "x": 79564,
+          "y": 27312,
           "id": "fa94d7e8-c956-4d77-93e5-28491c936f1e"
         },
         "2ec853fb-39dd-41e3-aa19-1f2d77a671fb": {
           "label": "Poor posture",
           "link": "https://en.wikipedia.org/wiki/Poor posture",
-          "x": 65754,
-          "y": 43513,
+          "x": 79526,
+          "y": 27337,
           "id": "2ec853fb-39dd-41e3-aa19-1f2d77a671fb"
         },
         "d70e7fca-c97c-451e-b631-c694d777d366": {
           "label": "Principle of least astonishment",
           "link": "https://en.wikipedia.org/wiki/Principle of least astonishment",
-          "x": 65810,
-          "y": 43538,
+          "x": 79582,
+          "y": 27362,
           "id": "d70e7fca-c97c-451e-b631-c694d777d366"
         },
         "417d096e-b316-4956-baa2-149c7803c368": {
           "label": "Principles of motion economy",
           "link": "https://en.wikipedia.org/wiki/Principles of motion economy",
-          "x": 65806,
-          "y": 43563,
+          "x": 79578,
+          "y": 27387,
           "id": "417d096e-b316-4956-baa2-149c7803c368"
         },
         "c114d44c-c609-434b-995b-16c25266ed5a": {
           "label": "Recliner",
           "link": "https://en.wikipedia.org/wiki/Recliner",
-          "x": 65739,
-          "y": 43588,
+          "x": 79511,
+          "y": 27412,
           "id": "c114d44c-c609-434b-995b-16c25266ed5a"
         },
         "0a96b4fa-b9de-4fe4-9e54-6997d0b7324f": {
           "label": "Redshift (software)",
           "link": "https://en.wikipedia.org/wiki/Redshift (software)",
-          "x": 65773,
-          "y": 43613,
+          "x": 79545,
+          "y": 27437,
           "id": "0a96b4fa-b9de-4fe4-9e54-6997d0b7324f"
         },
         "3929afbd-5a47-48fc-8575-6e9f3c73d760": {
           "label": "Riding-like sitting",
           "link": "https://en.wikipedia.org/wiki/Riding-like sitting",
-          "x": 65767,
-          "y": 43638,
+          "x": 79539,
+          "y": 27462,
           "id": "3929afbd-5a47-48fc-8575-6e9f3c73d760"
         },
         "ce9f01b7-a206-4cc4-a14b-e261fbfc75cf": {
           "label": "Rohmert's law",
           "link": "https://en.wikipedia.org/wiki/Rohmert's law",
-          "x": 65758,
-          "y": 43663,
+          "x": 79530,
+          "y": 27487,
           "id": "ce9f01b7-a206-4cc4-a14b-e261fbfc75cf"
         },
         "8f461ba4-5d84-44e1-8f93-6998c251e6f8": {
           "label": "Saddle chair",
           "link": "https://en.wikipedia.org/wiki/Saddle chair",
-          "x": 65753,
-          "y": 43688,
+          "x": 79525,
+          "y": 27512,
           "id": "8f461ba4-5d84-44e1-8f93-6998c251e6f8"
         },
         "1ba247f1-549d-4009-a8aa-897a36664b3e": {
           "label": "Soft ergonomics",
           "link": "https://en.wikipedia.org/wiki/Soft ergonomics",
-          "x": 65765,
-          "y": 43713,
+          "x": 79537,
+          "y": 27537,
           "id": "1ba247f1-549d-4009-a8aa-897a36664b3e"
         },
         "4684aa76-aa34-413a-b542-288e323a84a6": {
           "label": "Speech recognition software for Linux",
           "link": "https://en.wikipedia.org/wiki/Speech recognition software for Linux",
-          "x": 65833,
-          "y": 43738,
+          "x": 79605,
+          "y": 27562,
           "id": "4684aa76-aa34-413a-b542-288e323a84a6"
         },
         "d5aea608-bb31-4b46-824b-b459d364848f": {
           "label": "Standing chair",
           "link": "https://en.wikipedia.org/wiki/Standing chair",
-          "x": 65759,
-          "y": 43763,
+          "x": 79531,
+          "y": 27587,
           "id": "d5aea608-bb31-4b46-824b-b459d364848f"
         },
         "49ef3a0c-549d-48f5-b537-b9ae43b7d3f4": {
           "label": "Neville A. Stanton",
           "link": "https://en.wikipedia.org/wiki/Neville A. Stanton",
-          "x": 65769,
-          "y": 43788,
+          "x": 79541,
+          "y": 27612,
           "id": "49ef3a0c-549d-48f5-b537-b9ae43b7d3f4"
         },
         "51bd92e8-3b62-4274-a73e-e8b643e79924": {
           "label": "Sticky keys",
           "link": "https://en.wikipedia.org/wiki/Sticky keys",
-          "x": 65748,
-          "y": 43813,
+          "x": 79520,
+          "y": 27637,
           "id": "51bd92e8-3b62-4274-a73e-e8b643e79924"
         },
         "8de97d1d-73b8-40ae-83a8-0a627e86a9c5": {
           "label": "Stress ball",
           "link": "https://en.wikipedia.org/wiki/Stress ball",
-          "x": 65746,
-          "y": 43838,
+          "x": 79518,
+          "y": 27662,
           "id": "8de97d1d-73b8-40ae-83a8-0a627e86a9c5"
         },
         "3095928b-5e57-40e4-95de-c45367a09e88": {
           "label": "ToggleKeys",
           "link": "https://en.wikipedia.org/wiki/ToggleKeys",
-          "x": 65750,
-          "y": 43863,
+          "x": 79522,
+          "y": 27687,
           "id": "3095928b-5e57-40e4-95de-c45367a09e88"
         },
         "e376053e-b8d7-444a-8e1a-b2652e4d1938": {
           "label": "Treadmill desk",
           "link": "https://en.wikipedia.org/wiki/Treadmill desk",
-          "x": 65759,
-          "y": 43888,
+          "x": 79531,
+          "y": 27712,
           "id": "e376053e-b8d7-444a-8e1a-b2652e4d1938"
         },
         "4e859267-90e6-45d8-940c-9008179913cd": {
           "label": "Usage model",
           "link": "https://en.wikipedia.org/wiki/Usage model",
-          "x": 65755,
-          "y": 43913,
+          "x": 79527,
+          "y": 27737,
           "id": "4e859267-90e6-45d8-940c-9008179913cd"
         },
         "f7a38ddf-435f-439e-b87a-e2e218bd277d": {
           "label": "Usage perspective development",
           "link": "https://en.wikipedia.org/wiki/Usage perspective development",
-          "x": 65815,
-          "y": 43938,
+          "x": 79587,
+          "y": 27762,
           "id": "f7a38ddf-435f-439e-b87a-e2e218bd277d"
         },
         "b3045786-2407-421e-8e6a-8a485eaccd02": {
           "label": "Use-centered design",
           "link": "https://en.wikipedia.org/wiki/Use-centered design",
-          "x": 65779,
-          "y": 43963,
+          "x": 79551,
+          "y": 27787,
           "id": "b3045786-2407-421e-8e6a-8a485eaccd02"
         },
         "00904b9c-0c07-49dd-8981-39458f7c917e": {
           "label": "Alain Wisner",
           "link": "https://en.wikipedia.org/wiki/Alain Wisner",
-          "x": 65753,
-          "y": 43988,
+          "x": 79525,
+          "y": 27812,
           "id": "00904b9c-0c07-49dd-8981-39458f7c917e"
         },
         "49d3b632-416a-4d99-a67a-fb1f16530234": {
           "label": "World Engineering Anthropometry Resource",
           "link": "https://en.wikipedia.org/wiki/World Engineering Anthropometry Resource",
-          "x": 65853,
-          "y": 44013,
+          "x": 79625,
+          "y": 27837,
           "id": "49d3b632-416a-4d99-a67a-fb1f16530234"
         },
         "23db2ec6-f0f7-4cce-bbce-a7b08c693b07": {
           "label": "Category:Accessibility",
           "link": "https://en.wikipedia.org/wiki/Category:Accessibility",
-          "x": 65782,
-          "y": 44038,
+          "x": 79554,
+          "y": 27862,
           "id": "23db2ec6-f0f7-4cce-bbce-a7b08c693b07"
         },
         "2c3b8774-d9d8-4603-91fd-b6d9f04c0e7c": {
           "label": "Category:Adapted automobiles",
           "link": "https://en.wikipedia.org/wiki/Category:Adapted automobiles",
-          "x": 65811,
-          "y": 44063,
+          "x": 79583,
+          "y": 27887,
           "id": "2c3b8774-d9d8-4603-91fd-b6d9f04c0e7c"
         },
         "83a5a101-4a73-4f83-8ded-437b9330852b": {
           "label": "Category:Anthropometry",
           "link": "https://en.wikipedia.org/wiki/Category:Anthropometry",
-          "x": 65791,
-          "y": 44088,
+          "x": 79563,
+          "y": 27912,
           "id": "83a5a101-4a73-4f83-8ded-437b9330852b"
         },
         "a0cf1b53-939f-4f7b-b6f1-28b83a52e5bd": {
           "label": "Category:Cognitive ergonomics",
           "link": "https://en.wikipedia.org/wiki/Category:Cognitive ergonomics",
-          "x": 65813,
-          "y": 44113,
+          "x": 79585,
+          "y": 27937,
           "id": "a0cf1b53-939f-4f7b-b6f1-28b83a52e5bd"
         },
         "125d917f-da73-4356-8f4f-cfc22dfc43b8": {
           "label": "Category:Ergonomics companies",
           "link": "https://en.wikipedia.org/wiki/Category:Ergonomics companies",
-          "x": 65818,
-          "y": 44138,
+          "x": 79590,
+          "y": 27962,
           "id": "125d917f-da73-4356-8f4f-cfc22dfc43b8"
         },
         "7680af06-f53c-4a44-8c52-a47dba55676e": {
           "label": "Category:Organizational ergonomics",
           "link": "https://en.wikipedia.org/wiki/Category:Organizational ergonomics",
-          "x": 65829,
-          "y": 44163,
+          "x": 79601,
+          "y": 27987,
           "id": "7680af06-f53c-4a44-8c52-a47dba55676e"
         },
         "aa919cf2-aa3f-456b-8694-4eea5b3d0e4e": {
           "label": "Category:Physical ergonomics",
           "link": "https://en.wikipedia.org/wiki/Category:Physical ergonomics",
-          "x": 65809,
-          "y": 44188,
+          "x": 79581,
+          "y": 28012,
           "id": "aa919cf2-aa3f-456b-8694-4eea5b3d0e4e"
         },
         "fbeb5052-91d0-4bff-8f8b-13294cffc4f6": {
           "label": "Category:Posture",
           "link": "https://en.wikipedia.org/wiki/Category:Posture",
-          "x": 65769,
-          "y": 44213,
+          "x": 79541,
+          "y": 28037,
           "id": "fbeb5052-91d0-4bff-8f8b-13294cffc4f6"
         },
         "15620112-98fc-445a-9a58-a3a4095e51d9": {
           "label": "Category:Usability",
           "link": "https://en.wikipedia.org/wiki/Category:Usability",
-          "x": 65771,
-          "y": 44238,
+          "x": 79543,
+          "y": 28062,
           "id": "15620112-98fc-445a-9a58-a3a4095e51d9"
         },
         "cef89851-4880-4e59-9127-6d10976e99de": {
           "label": "Systems psychology",
           "link": "https://en.wikipedia.org/wiki/Systems psychology",
-          "x": 65795,
-          "y": 44551,
+          "x": 79567,
+          "y": 28375,
           "id": "cef89851-4880-4e59-9127-6d10976e99de"
         },
         "2a8e2a92-1126-4152-95b2-b3a874d350a2": {
           "label": "Awareness",
           "link": "https://en.wikipedia.org/wiki/Awareness",
-          "x": 65765,
-          "y": 44576,
+          "x": 79537,
+          "y": 28400,
           "id": "2a8e2a92-1126-4152-95b2-b3a874d350a2"
         },
         "373c4f40-0675-4f60-b345-41c6cc44c9cf": {
           "label": "Behavior settings",
           "link": "https://en.wikipedia.org/wiki/Behavior settings",
-          "x": 65785,
-          "y": 44601,
+          "x": 79557,
+          "y": 28425,
           "id": "373c4f40-0675-4f60-b345-41c6cc44c9cf"
         },
         "684cac44-6c98-4f83-9b22-d43da28ef0eb": {
           "label": "Bioecological model",
           "link": "https://en.wikipedia.org/wiki/Bioecological model",
-          "x": 65793,
-          "y": 44626,
+          "x": 79565,
+          "y": 28450,
           "id": "684cac44-6c98-4f83-9b22-d43da28ef0eb"
         },
         "7edea2f3-8316-49a5-9c15-388ce70f7668": {
           "label": "Tomas Chamorro-Premuzic",
           "link": "https://en.wikipedia.org/wiki/Tomas Chamorro-Premuzic",
-          "x": 65817,
-          "y": 44651,
+          "x": 79589,
+          "y": 28475,
           "id": "7edea2f3-8316-49a5-9c15-388ce70f7668"
         },
         "cc115a90-baa6-4a45-94c0-497a907c1ecf": {
           "label": "Cary Cooper",
           "link": "https://en.wikipedia.org/wiki/Cary Cooper",
-          "x": 65771,
-          "y": 44676,
+          "x": 79543,
+          "y": 28500,
           "id": "cc115a90-baa6-4a45-94c0-497a907c1ecf"
         },
         "1ee33ad7-85ec-4a73-88d7-80b49f71f985": {
           "label": "D'Aveni's 7S framework",
           "link": "https://en.wikipedia.org/wiki/D'Aveni's 7S framework",
-          "x": 65805,
-          "y": 44701,
+          "x": 79577,
+          "y": 28525,
           "id": "1ee33ad7-85ec-4a73-88d7-80b49f71f985"
         },
         "fcf5a07b-7c69-429e-ae2d-de2d2ff6f7dc": {
           "label": "Double bind",
           "link": "https://en.wikipedia.org/wiki/Double bind",
-          "x": 65768,
-          "y": 44726,
+          "x": 79540,
+          "y": 28550,
           "id": "fcf5a07b-7c69-429e-ae2d-de2d2ff6f7dc"
         },
         "a3f3d146-dd86-4570-898a-9d329e0a16d1": {
           "label": "Ecological systems theory",
           "link": "https://en.wikipedia.org/wiki/Ecological systems theory",
-          "x": 65812,
-          "y": 44751,
+          "x": 79584,
+          "y": 28575,
           "id": "a3f3d146-dd86-4570-898a-9d329e0a16d1"
         },
         "e18109a7-ae31-4ddd-b18e-3676b56f131f": {
           "label": "Engineering psychology",
           "link": "https://en.wikipedia.org/wiki/Engineering psychology",
-          "x": 65806,
-          "y": 44776,
+          "x": 79578,
+          "y": 28600,
           "id": "e18109a7-ae31-4ddd-b18e-3676b56f131f"
         },
         "2e8bba52-789a-4442-9485-88d88bc7562f": {
           "label": "Group-dynamic game",
           "link": "https://en.wikipedia.org/wiki/Group-dynamic game",
-          "x": 65799,
-          "y": 44801,
+          "x": 79571,
+          "y": 28625,
           "id": "2e8bba52-789a-4442-9485-88d88bc7562f"
         },
         "c39f22e7-d4dd-4dee-8cf2-bf27f9095bba": {
           "label": "Human factors and ergonomics",
           "link": "https://en.wikipedia.org/wiki/Human factors and ergonomics",
-          "x": 65830,
-          "y": 44826,
+          "x": 79602,
+          "y": 28650,
           "id": "c39f22e7-d4dd-4dee-8cf2-bf27f9095bba"
         },
         "7bbea647-87ab-4f74-802a-612fed05d74b": {
           "label": "Human Factors in Engineering and Design",
           "link": "https://en.wikipedia.org/wiki/Human Factors in Engineering and Design",
-          "x": 65865,
-          "y": 44851,
+          "x": 79637,
+          "y": 28675,
           "id": "7bbea647-87ab-4f74-802a-612fed05d74b"
         },
         "e4172066-7ea3-4bf8-8b50-808cfcfe6517": {
           "label": "Human relations movement",
           "link": "https://en.wikipedia.org/wiki/Human relations movement",
-          "x": 65818,
-          "y": 44876,
+          "x": 79590,
+          "y": 28700,
           "id": "e4172066-7ea3-4bf8-8b50-808cfcfe6517"
         },
         "aa561759-dc08-4199-9f03-ffa61deeb4f0": {
           "label": "Human systems engineering",
           "link": "https://en.wikipedia.org/wiki/Human systems engineering",
-          "x": 65821,
-          "y": 44901,
+          "x": 79593,
+          "y": 28725,
           "id": "aa561759-dc08-4199-9f03-ffa61deeb4f0"
         },
         "2bd7ed97-435c-45ad-873c-81a1cba27be3": {
           "label": "Industrial and organizational psychology",
           "link": "https://en.wikipedia.org/wiki/Industrial and organizational psychology",
-          "x": 65857,
-          "y": 44926,
+          "x": 79629,
+          "y": 28750,
           "id": "2bd7ed97-435c-45ad-873c-81a1cba27be3"
         },
         "61cc277a-abf9-468a-943e-42ddef536f33": {
           "label": "Job design",
           "link": "https://en.wikipedia.org/wiki/Job design",
-          "x": 65765,
-          "y": 44951,
+          "x": 79537,
+          "y": 28775,
           "id": "61cc277a-abf9-468a-943e-42ddef536f33"
         },
         "fb9aad99-2955-463d-a5ed-cdca9c92cb34": {
           "label": "Needs analysis",
           "link": "https://en.wikipedia.org/wiki/Needs analysis",
-          "x": 65778,
-          "y": 44976,
+          "x": 79550,
+          "y": 28800,
           "id": "fb9aad99-2955-463d-a5ed-cdca9c92cb34"
         },
         "5de25b71-a2a9-4911-8e54-ffe44dde78af": {
           "label": "Perceptual control theory",
           "link": "https://en.wikipedia.org/wiki/Perceptual control theory",
-          "x": 65810,
-          "y": 45001,
+          "x": 79582,
+          "y": 28825,
           "id": "5de25b71-a2a9-4911-8e54-ffe44dde78af"
         },
         "7aec6fa0-6e8d-44e5-ade3-99e83bebb76e": {
           "label": "Personnel selection",
           "link": "https://en.wikipedia.org/wiki/Personnel selection",
-          "x": 65792,
-          "y": 45026,
+          "x": 79564,
+          "y": 28850,
           "id": "7aec6fa0-6e8d-44e5-ade3-99e83bebb76e"
         },
         "f3940ff4-a3aa-48a9-93cc-7eb7a0ef9889": {
           "label": "Psychosynthesis",
           "link": "https://en.wikipedia.org/wiki/Psychosynthesis",
-          "x": 65783,
-          "y": 45051,
+          "x": 79555,
+          "y": 28875,
           "id": "f3940ff4-a3aa-48a9-93cc-7eb7a0ef9889"
         },
         "ecd8619a-004b-4618-89da-0425397aaf20": {
           "label": "Hunter B. Shirley",
           "link": "https://en.wikipedia.org/wiki/Hunter B. Shirley",
-          "x": 65784,
-          "y": 45076,
+          "x": 79556,
+          "y": 28900,
           "id": "ecd8619a-004b-4618-89da-0425397aaf20"
         },
         "c4b265db-84c2-4e90-8dc6-9dfcae798e4f": {
           "label": "Social uterus",
           "link": "https://en.wikipedia.org/wiki/Social uterus",
-          "x": 65771,
-          "y": 45101,
+          "x": 79543,
+          "y": 28925,
           "id": "c4b265db-84c2-4e90-8dc6-9dfcae798e4f"
         },
         "3ff25333-9e29-4c17-87d8-f4b3c66920d5": {
           "label": "Sociotechnical system",
           "link": "https://en.wikipedia.org/wiki/Sociotechnical system",
-          "x": 65800,
-          "y": 45126,
+          "x": 79572,
+          "y": 28950,
           "id": "3ff25333-9e29-4c17-87d8-f4b3c66920d5"
         },
         "2ee9a5b2-56fe-43f3-a566-fe36be7cd30e": {
           "label": "Tavistock Institute",
           "link": "https://en.wikipedia.org/wiki/Tavistock Institute",
-          "x": 65786,
-          "y": 45151,
+          "x": 79558,
+          "y": 28975,
           "id": "2ee9a5b2-56fe-43f3-a566-fe36be7cd30e"
         },
         "f30ed3ce-8d19-4d09-81e4-c7f0a051ae82": {
           "label": "Systemic therapy (psychotherapy)",
           "link": "https://en.wikipedia.org/wiki/Systemic therapy (psychotherapy)",
-          "x": 65838,
-          "y": 45176,
+          "x": 79610,
+          "y": 29000,
           "id": "f30ed3ce-8d19-4d09-81e4-c7f0a051ae82"
         },
         "01f3d975-4161-433f-a143-d2869db59cf9": {
           "label": "Usage model",
           "link": "https://en.wikipedia.org/wiki/Usage model",
-          "x": 65772,
-          "y": 45201,
+          "x": 79544,
+          "y": 29025,
           "id": "01f3d975-4161-433f-a143-d2869db59cf9"
         },
         "6c0a5c15-8a4b-43fe-aa3e-1d8b89a274c7": {
           "label": "Usage perspective development",
           "link": "https://en.wikipedia.org/wiki/Usage perspective development",
-          "x": 65832,
-          "y": 45226,
+          "x": 79604,
+          "y": 29050,
           "id": "6c0a5c15-8a4b-43fe-aa3e-1d8b89a274c7"
         },
         "4da7c730-b71e-4e0d-9ce5-fb5045655ddd": {
           "label": "Category:Ergonomics",
           "link": "https://en.wikipedia.org/wiki/Category:Ergonomics",
-          "x": 65799,
-          "y": 45251,
+          "x": 79571,
+          "y": 29075,
           "id": "4da7c730-b71e-4e0d-9ce5-fb5045655ddd"
         },
         "13b9b520-8314-48a2-9487-270f3bbbfe66": {
           "label": "Category:Family therapy",
           "link": "https://en.wikipedia.org/wiki/Category:Family therapy",
-          "x": 65808,
-          "y": 45276,
+          "x": 79580,
+          "y": 29100,
           "id": "13b9b520-8314-48a2-9487-270f3bbbfe66"
         },
         "6e15a0bd-1b35-4e5e-b433-4a81de8e77e0": {
           "label": "Category:Human reliability",
           "link": "https://en.wikipedia.org/wiki/Category:Human reliability",
-          "x": 65814,
-          "y": 45301,
+          "x": 79586,
+          "y": 29125,
           "id": "6e15a0bd-1b35-4e5e-b433-4a81de8e77e0"
         },
         "12aeb523-8e3c-451f-92b5-fa7419932f9b": {
           "label": "Category:Industrial and organizational psychology",
           "link": "https://en.wikipedia.org/wiki/Category:Industrial and organizational psychology",
-          "x": 65888,
-          "y": 45326,
+          "x": 79660,
+          "y": 29150,
           "id": "12aeb523-8e3c-451f-92b5-fa7419932f9b"
         },
         "5591b761-87fc-4934-b6aa-69c103ab330d": {
           "label": "Category:Systems psychologists",
           "link": "https://en.wikipedia.org/wiki/Category:Systems psychologists",
-          "x": 65833,
-          "y": 45351,
+          "x": 79605,
+          "y": 29175,
           "id": "5591b761-87fc-4934-b6aa-69c103ab330d"
         },
         "a9d2982c-d7a3-403a-97e9-08f1fd458c73": {
           "label": "User interface markup language",
           "link": "https://en.wikipedia.org/wiki/User interface markup language",
-          "x": 65818,
-          "y": 45873,
+          "x": 79590,
+          "y": 29697,
           "id": "a9d2982c-d7a3-403a-97e9-08f1fd458c73"
         },
         "315cceba-49cd-41ea-ab7e-521e698ae220": {
           "label": "Comparison of user interface markup languages",
           "link": "https://en.wikipedia.org/wiki/Comparison of user interface markup languages",
-          "x": 65869,
-          "y": 45898,
+          "x": 79641,
+          "y": 29722,
           "id": "315cceba-49cd-41ea-ab7e-521e698ae220"
         },
         "53ec573d-f2e7-4e7f-9dde-488de2b53644": {
           "label": "List of user interface markup languages",
           "link": "https://en.wikipedia.org/wiki/List of user interface markup languages",
-          "x": 65842,
-          "y": 45923,
+          "x": 79614,
+          "y": 29747,
           "id": "53ec573d-f2e7-4e7f-9dde-488de2b53644"
         },
         "85e7fe4a-8d40-4893-8917-1caa379717b2": {
           "label": "DisplayML",
           "link": "https://en.wikipedia.org/wiki/DisplayML",
-          "x": 65749,
-          "y": 45948,
+          "x": 79521,
+          "y": 29772,
           "id": "85e7fe4a-8d40-4893-8917-1caa379717b2"
         },
         "8d26ffa6-a42c-4f35-9181-51432efcc11f": {
           "label": "EMML (Motorola)",
           "link": "https://en.wikipedia.org/wiki/EMML (Motorola)",
-          "x": 65772,
-          "y": 45973,
+          "x": 79544,
+          "y": 29797,
           "id": "8d26ffa6-a42c-4f35-9181-51432efcc11f"
         },
         "d23e0a8e-c57e-4c83-8fd2-3e6d8bfc09ef": {
           "label": "Enterprise Mashup Markup Language",
           "link": "https://en.wikipedia.org/wiki/Enterprise Mashup Markup Language",
-          "x": 65836,
-          "y": 45998,
+          "x": 79608,
+          "y": 29822,
           "id": "d23e0a8e-c57e-4c83-8fd2-3e6d8bfc09ef"
         },
         "299ebb81-2e12-4ea4-a620-871dbb7f391a": {
           "label": "Extensible Application Markup Language",
           "link": "https://en.wikipedia.org/wiki/Extensible Application Markup Language",
-          "x": 65845,
-          "y": 46023,
+          "x": 79617,
+          "y": 29847,
           "id": "299ebb81-2e12-4ea4-a620-871dbb7f391a"
         },
         "8904fa52-0c0d-4cf3-8bf6-8bb6d4c61de9": {
           "label": "EXtensible Server Pages",
           "link": "https://en.wikipedia.org/wiki/EXtensible Server Pages",
-          "x": 65795,
-          "y": 46048,
+          "x": 79567,
+          "y": 29872,
           "id": "8904fa52-0c0d-4cf3-8bf6-8bb6d4c61de9"
         },
         "2162ddac-041d-49b7-9417-0f8b3394ff8b": {
           "label": "FIXatdl",
           "link": "https://en.wikipedia.org/wiki/FIXatdl",
-          "x": 65739,
-          "y": 46073,
+          "x": 79511,
+          "y": 29897,
           "id": "2162ddac-041d-49b7-9417-0f8b3394ff8b"
         },
         "dc5cbd5f-591e-4ef0-83fb-832cd8d1cf49": {
           "label": "FXML",
           "link": "https://en.wikipedia.org/wiki/FXML",
-          "x": 65735,
-          "y": 46098,
+          "x": 79507,
+          "y": 29922,
           "id": "dc5cbd5f-591e-4ef0-83fb-832cd8d1cf49"
         },
         "68a007ef-ec4a-423b-9df9-eb713432e11f": {
           "label": "Glade Interface Designer",
           "link": "https://en.wikipedia.org/wiki/Glade Interface Designer",
-          "x": 65796,
-          "y": 46123,
+          "x": 79568,
+          "y": 29947,
           "id": "68a007ef-ec4a-423b-9df9-eb713432e11f"
         },
         "d788252c-fbdf-435d-aea2-8cebd968fe76": {
           "label": "GtkBuilder",
           "link": "https://en.wikipedia.org/wiki/GtkBuilder",
-          "x": 65749,
-          "y": 46148,
+          "x": 79521,
+          "y": 29972,
           "id": "d788252c-fbdf-435d-aea2-8cebd968fe76"
         },
         "99394e71-e8b6-40d1-a0c8-42e77558bee6": {
           "label": "HTML Application",
           "link": "https://en.wikipedia.org/wiki/HTML Application",
-          "x": 65772,
-          "y": 46173,
+          "x": 79544,
+          "y": 29997,
           "id": "99394e71-e8b6-40d1-a0c8-42e77558bee6"
         },
         "da743548-900f-44e8-86f7-1723f28104d2": {
           "label": "MARIA XML",
           "link": "https://en.wikipedia.org/wiki/MARIA XML",
-          "x": 65755,
-          "y": 46198,
+          "x": 79527,
+          "y": 30022,
           "id": "da743548-900f-44e8-86f7-1723f28104d2"
         },
         "6bc1c282-6d8b-4d19-a046-453429d5b754": {
           "label": "Morfik",
           "link": "https://en.wikipedia.org/wiki/Morfik",
-          "x": 65736,
-          "y": 46223,
+          "x": 79508,
+          "y": 30047,
           "id": "6bc1c282-6d8b-4d19-a046-453429d5b754"
         },
         "129556ec-fc17-434e-95c3-3dc3d32ff0bd": {
           "label": "MXML",
           "link": "https://en.wikipedia.org/wiki/MXML",
-          "x": 65737,
-          "y": 46248,
+          "x": 79509,
+          "y": 30072,
           "id": "129556ec-fc17-434e-95c3-3dc3d32ff0bd"
         },
         "dc8b59fb-7305-4b90-9b33-d41c51bfee51": {
           "label": "OpenLaszlo",
           "link": "https://en.wikipedia.org/wiki/OpenLaszlo",
-          "x": 65754,
-          "y": 46273,
+          "x": 79526,
+          "y": 30097,
           "id": "dc8b59fb-7305-4b90-9b33-d41c51bfee51"
         },
         "64f644ae-fd3f-425b-85db-99fe99073334": {
           "label": "QML",
           "link": "https://en.wikipedia.org/wiki/QML",
-          "x": 65732,
-          "y": 46298,
+          "x": 79504,
+          "y": 30122,
           "id": "64f644ae-fd3f-425b-85db-99fe99073334"
         },
         "856ae257-20d9-4c1b-933f-09a9117cff52": {
           "label": "UIML",
           "link": "https://en.wikipedia.org/wiki/UIML",
-          "x": 65733,
-          "y": 46323,
+          "x": 79505,
+          "y": 30147,
           "id": "856ae257-20d9-4c1b-933f-09a9117cff52"
         },
         "82859dd1-6a61-4267-8979-9abf9ee16c92": {
           "label": "Universal Remote Console",
           "link": "https://en.wikipedia.org/wiki/Universal Remote Console",
-          "x": 65801,
-          "y": 46348,
+          "x": 79573,
+          "y": 30172,
           "id": "82859dd1-6a61-4267-8979-9abf9ee16c92"
         },
         "9b6533cf-bf56-43e4-ad97-37efc92bbda3": {
           "label": "User interface modeling",
           "link": "https://en.wikipedia.org/wiki/User interface modeling",
-          "x": 65792,
-          "y": 46373,
+          "x": 79564,
+          "y": 30197,
           "id": "9b6533cf-bf56-43e4-ad97-37efc92bbda3"
         },
         "f443b2fb-ec0e-4d56-a88d-fb35cc6acdef": {
           "label": "UsiXML",
           "link": "https://en.wikipedia.org/wiki/UsiXML",
-          "x": 65741,
-          "y": 46398,
+          "x": 79513,
+          "y": 30222,
           "id": "f443b2fb-ec0e-4d56-a88d-fb35cc6acdef"
         },
         "872430d1-d00c-468e-bb8f-b44605a363a4": {
           "label": "Vector Markup Language",
           "link": "https://en.wikipedia.org/wiki/Vector Markup Language",
-          "x": 65796,
-          "y": 46423,
+          "x": 79568,
+          "y": 30247,
           "id": "872430d1-d00c-468e-bb8f-b44605a363a4"
         },
         "30f53040-b078-41f2-b7c4-7d1b4c712f8b": {
           "label": "Vexi",
           "link": "https://en.wikipedia.org/wiki/Vexi",
-          "x": 65729,
-          "y": 46448,
+          "x": 79501,
+          "y": 30272,
           "id": "30f53040-b078-41f2-b7c4-7d1b4c712f8b"
         },
         "fc59ca9f-306f-4e42-b678-0934c54dde8c": {
           "label": "VTML",
           "link": "https://en.wikipedia.org/wiki/VTML",
-          "x": 65735,
-          "y": 46473,
+          "x": 79507,
+          "y": 30297,
           "id": "fc59ca9f-306f-4e42-b678-0934c54dde8c"
         },
         "e69774bb-b8ed-4138-bf7c-6cc1c6077e6f": {
           "label": "WxFormBuilder",
           "link": "https://en.wikipedia.org/wiki/WxFormBuilder",
-          "x": 65765,
-          "y": 46498,
+          "x": 79537,
+          "y": 30322,
           "id": "e69774bb-b8ed-4138-bf7c-6cc1c6077e6f"
         },
         "ada16e1b-179d-444e-a81f-aef69b3aac42": {
           "label": "Xaml",
           "link": "https://en.wikipedia.org/wiki/Xaml",
-          "x": 65732,
-          "y": 46523,
+          "x": 79504,
+          "y": 30347,
           "id": "ada16e1b-179d-444e-a81f-aef69b3aac42"
         },
         "12c3352f-c53d-45d2-a7e5-c7407c7a203e": {
           "label": "XForms",
           "link": "https://en.wikipedia.org/wiki/XForms",
-          "x": 65741,
-          "y": 46548,
+          "x": 79513,
+          "y": 30372,
           "id": "12c3352f-c53d-45d2-a7e5-c7407c7a203e"
         },
         "57327783-eea8-4135-98a8-52c1ae7aec8a": {
           "label": "XFrames",
           "link": "https://en.wikipedia.org/wiki/XFrames",
-          "x": 65745,
-          "y": 46573,
+          "x": 79517,
+          "y": 30397,
           "id": "57327783-eea8-4135-98a8-52c1ae7aec8a"
         },
         "e01d7868-8cd0-4fd7-a85a-6fe1f083d3a1": {
           "label": "XML Resource",
           "link": "https://en.wikipedia.org/wiki/XML Resource",
-          "x": 65763,
-          "y": 46598,
+          "x": 79535,
+          "y": 30422,
           "id": "e01d7868-8cd0-4fd7-a85a-6fe1f083d3a1"
         },
         "a7d1cf20-1952-44c2-b33f-c17d5e90fd0c": {
           "label": "XMLGUI",
           "link": "https://en.wikipedia.org/wiki/XMLGUI",
-          "x": 65743,
-          "y": 46623,
+          "x": 79515,
+          "y": 30447,
           "id": "a7d1cf20-1952-44c2-b33f-c17d5e90fd0c"
         },
         "4aa92924-5bc0-48ee-b2c6-da2a5c1d97fc": {
           "label": "XUL",
           "link": "https://en.wikipedia.org/wiki/XUL",
-          "x": 65730,
-          "y": 46648,
+          "x": 79502,
+          "y": 30472,
           "id": "4aa92924-5bc0-48ee-b2c6-da2a5c1d97fc"
         },
         "66c3fd4d-ccc6-4ae9-9313-190e29cfb202": {
           "label": "ZK (framework)",
           "link": "https://en.wikipedia.org/wiki/ZK (framework)",
-          "x": 65766,
-          "y": 46673,
+          "x": 79538,
+          "y": 30497,
           "id": "66c3fd4d-ccc6-4ae9-9313-190e29cfb202"
         },
         "9f870728-9ddb-41a4-a90a-aebbd06fdb81": {
           "label": "Graphical user interface",
           "link": "https://en.wikipedia.org/wiki/Graphical user interface",
-          "x": 65792,
-          "y": 47148,
+          "x": 79564,
+          "y": 30972,
           "id": "9f870728-9ddb-41a4-a90a-aebbd06fdb81"
         },
         "5b9d12da-9de9-4cdf-8505-9f1181777539": {
           "label": "History of the graphical user interface",
           "link": "https://en.wikipedia.org/wiki/History of the graphical user interface",
-          "x": 65835,
-          "y": 47173,
+          "x": 79607,
+          "y": 30997,
           "id": "5b9d12da-9de9-4cdf-8505-9f1181777539"
         },
         "baa1e812-b474-4089-853e-fbc04fec8e1d": {
           "label": "10-foot user interface",
           "link": "https://en.wikipedia.org/wiki/10-foot user interface",
-          "x": 65784,
-          "y": 47198,
+          "x": 79556,
+          "y": 31022,
           "id": "baa1e812-b474-4089-853e-fbc04fec8e1d"
         },
         "5a173a53-dc40-4017-a617-1ab685125cef": {
           "label": "Active window",
           "link": "https://en.wikipedia.org/wiki/Active window",
-          "x": 65761,
-          "y": 47223,
+          "x": 79533,
+          "y": 31047,
           "id": "5a173a53-dc40-4017-a617-1ab685125cef"
         },
         "9fe0b377-64ca-4fb9-b763-9db6a752f8ea": {
           "label": "Adaptive user interface",
           "link": "https://en.wikipedia.org/wiki/Adaptive user interface",
-          "x": 65789,
-          "y": 47248,
+          "x": 79561,
+          "y": 31072,
           "id": "9fe0b377-64ca-4fb9-b763-9db6a752f8ea"
         },
         "2acbe208-cfeb-4601-b412-e2a8d39f553e": {
           "label": "Windows Aero",
           "link": "https://en.wikipedia.org/wiki/Windows Aero",
-          "x": 65762,
-          "y": 47273,
+          "x": 79534,
+          "y": 31097,
           "id": "2acbe208-cfeb-4601-b412-e2a8d39f553e"
         },
         "5cb7881e-8173-4a27-b5ae-804ace97764a": {
           "label": "Appearance Manager",
           "link": "https://en.wikipedia.org/wiki/Appearance Manager",
-          "x": 65785,
-          "y": 47298,
+          "x": 79557,
+          "y": 31122,
           "id": "5cb7881e-8173-4a27-b5ae-804ace97764a"
         },
         "07e61aa8-8df2-425d-bc26-55d1c7644673": {
           "label": "Aqua (user interface)",
           "link": "https://en.wikipedia.org/wiki/Aqua (user interface)",
-          "x": 65783,
-          "y": 47323,
+          "x": 79555,
+          "y": 31147,
           "id": "07e61aa8-8df2-425d-bc26-55d1c7644673"
         },
         "9ccadb8b-cf3e-4a71-bfc5-2ca3f390dfde": {
           "label": "ARINC 661",
           "link": "https://en.wikipedia.org/wiki/ARINC 661",
-          "x": 65752,
-          "y": 47348,
+          "x": 79524,
+          "y": 31172,
           "id": "9ccadb8b-cf3e-4a71-bfc5-2ca3f390dfde"
         },
         "d3df4b28-63b4-484d-bb47-583ef24e6dca": {
           "label": "CEGUI",
           "link": "https://en.wikipedia.org/wiki/CEGUI",
-          "x": 65738,
-          "y": 47373,
+          "x": 79510,
+          "y": 31197,
           "id": "d3df4b28-63b4-484d-bb47-583ef24e6dca"
         },
         "dcbe18a2-895f-4cc1-bfae-a201c2eb5018": {
           "label": "Clickable",
           "link": "https://en.wikipedia.org/wiki/Clickable",
-          "x": 65745,
-          "y": 47398,
+          "x": 79517,
+          "y": 31222,
           "id": "dcbe18a2-895f-4cc1-bfae-a201c2eb5018"
         },
         "f02bc430-110f-42b9-ba37-e84fe17b0455": {
           "label": "Compositing window manager",
           "link": "https://en.wikipedia.org/wiki/Compositing window manager",
-          "x": 65812,
-          "y": 47423,
+          "x": 79584,
+          "y": 31247,
           "id": "f02bc430-110f-42b9-ba37-e84fe17b0455"
         },
         "323d7ce2-a4d6-4ed7-9f58-571903969601": {
           "label": "Desk accessory",
           "link": "https://en.wikipedia.org/wiki/Desk accessory",
-          "x": 65766,
-          "y": 47448,
+          "x": 79538,
+          "y": 31272,
           "id": "323d7ce2-a4d6-4ed7-9f58-571903969601"
         },
         "42193ad2-13e1-4a05-a52e-4e6e3ff0234e": {
           "label": "Desktop metaphor",
           "link": "https://en.wikipedia.org/wiki/Desktop metaphor",
-          "x": 65775,
-          "y": 47473,
+          "x": 79547,
+          "y": 31297,
           "id": "42193ad2-13e1-4a05-a52e-4e6e3ff0234e"
         },
         "ae2556c4-018f-4ca7-b1bd-a24c988daf52": {
           "label": "Fast forward",
           "link": "https://en.wikipedia.org/wiki/Fast forward",
-          "x": 65756,
-          "y": 47498,
+          "x": 79528,
+          "y": 31322,
           "id": "ae2556c4-018f-4ca7-b1bd-a24c988daf52"
         },
         "13ad18f4-9c04-4dc5-8214-df99a3f5551b": {
           "label": "File viewer",
           "link": "https://en.wikipedia.org/wiki/File viewer",
-          "x": 65750,
-          "y": 47523,
+          "x": 79522,
+          "y": 31347,
           "id": "13ad18f4-9c04-4dc5-8214-df99a3f5551b"
         },
         "43757934-33fc-432e-b27f-92ff9845e00b": {
           "label": "FireMonkey",
           "link": "https://en.wikipedia.org/wiki/FireMonkey",
-          "x": 65754,
-          "y": 47548,
+          "x": 79526,
+          "y": 31372,
           "id": "43757934-33fc-432e-b27f-92ff9845e00b"
         },
         "8120a996-75b2-4451-becb-77731a796c38": {
           "label": "FIXatdl",
           "link": "https://en.wikipedia.org/wiki/FIXatdl",
-          "x": 65739,
-          "y": 47573,
+          "x": 79511,
+          "y": 31397,
           "id": "8120a996-75b2-4451-becb-77731a796c38"
         },
         "3ed4bb4e-6e30-4516-8895-9477756ba334": {
           "label": "Flat design",
           "link": "https://en.wikipedia.org/wiki/Flat design",
-          "x": 65751,
-          "y": 47598,
+          "x": 79523,
+          "y": 31422,
           "id": "3ed4bb4e-6e30-4516-8895-9477756ba334"
         },
         "08b5753f-f5c6-4337-bbd2-5df06db5cf42": {
           "label": "Fluent Design System",
           "link": "https://en.wikipedia.org/wiki/Fluent Design System",
-          "x": 65786,
-          "y": 47623,
+          "x": 79558,
+          "y": 31447,
           "id": "08b5753f-f5c6-4337-bbd2-5df06db5cf42"
         },
         "62472b62-f905-445f-8d6f-8d37e6d5b6dd": {
           "label": "Focus (computing)",
           "link": "https://en.wikipedia.org/wiki/Focus (computing)",
-          "x": 65776,
-          "y": 47648,
+          "x": 79548,
+          "y": 31472,
           "id": "62472b62-f905-445f-8d6f-8d37e6d5b6dd"
         },
         "d6ad7e09-4d48-43aa-b6ed-835fd70ce2a7": {
           "label": "Focus stealing",
           "link": "https://en.wikipedia.org/wiki/Focus stealing",
-          "x": 65762,
-          "y": 47673,
+          "x": 79534,
+          "y": 31497,
           "id": "d6ad7e09-4d48-43aa-b6ed-835fd70ce2a7"
         },
         "1d73aa77-ed97-489a-aa1c-9af9f8f02b2f": {
           "label": "GEOS (8-bit operating system)",
           "link": "https://en.wikipedia.org/wiki/GEOS (8-bit operating system)",
-          "x": 65814,
-          "y": 47698,
+          "x": 79586,
+          "y": 31522,
           "id": "1d73aa77-ed97-489a-aa1c-9af9f8f02b2f"
         },
         "52d670b6-5eb0-4ac3-8e2b-1ded2891f39e": {
           "label": "GEOS (16-bit operating system)",
           "link": "https://en.wikipedia.org/wiki/GEOS (16-bit operating system)",
-          "x": 65818,
-          "y": 47723,
+          "x": 79590,
+          "y": 31547,
           "id": "52d670b6-5eb0-4ac3-8e2b-1ded2891f39e"
         },
         "16aad9d1-946f-426c-b8ae-73f48a8422d1": {
           "label": "GPE Palmtop Environment",
           "link": "https://en.wikipedia.org/wiki/GPE Palmtop Environment",
-          "x": 65801,
-          "y": 47748,
+          "x": 79573,
+          "y": 31572,
           "id": "16aad9d1-946f-426c-b8ae-73f48a8422d1"
         },
         "ea52797c-613a-47ec-9a55-cf2e20994480": {
           "label": "Graphical user interface builder",
           "link": "https://en.wikipedia.org/wiki/Graphical user interface builder",
-          "x": 65816,
-          "y": 47773,
+          "x": 79588,
+          "y": 31597,
           "id": "ea52797c-613a-47ec-9a55-cf2e20994480"
         },
         "bc20af12-73c1-44cc-83d6-c261aafb89c1": {
           "label": "Graphical widget",
           "link": "https://en.wikipedia.org/wiki/Graphical widget",
-          "x": 65769,
-          "y": 47798,
+          "x": 79541,
+          "y": 31622,
           "id": "bc20af12-73c1-44cc-83d6-c261aafb89c1"
         },
         "33eea061-6c05-4df6-bcb6-5076b31e35ee": {
           "label": "Human interface guidelines",
           "link": "https://en.wikipedia.org/wiki/Human interface guidelines",
-          "x": 65803,
-          "y": 47823,
+          "x": 79575,
+          "y": 31647,
           "id": "33eea061-6c05-4df6-bcb6-5076b31e35ee"
         },
         "dfa885aa-f781-48cd-85c5-6eb0423ee111": {
           "label": "Immediate Mode GUI",
           "link": "https://en.wikipedia.org/wiki/Immediate Mode GUI",
-          "x": 65784,
-          "y": 47848,
+          "x": 79556,
+          "y": 31672,
           "id": "dfa885aa-f781-48cd-85c5-6eb0423ee111"
         },
         "cb90970b-35a6-47aa-9537-9762b6ff0cae": {
           "label": "Integrated Computer Solutions",
           "link": "https://en.wikipedia.org/wiki/Integrated Computer Solutions",
-          "x": 65813,
-          "y": 47873,
+          "x": 79585,
+          "y": 31697,
           "id": "cb90970b-35a6-47aa-9537-9762b6ff0cae"
         },
         "a0f30138-8b5b-4d57-bb67-f5bdffa6fc12": {
           "label": "Interaction technique",
           "link": "https://en.wikipedia.org/wiki/Interaction technique",
-          "x": 65783,
-          "y": 47898,
+          "x": 79555,
+          "y": 31722,
           "id": "a0f30138-8b5b-4d57-bb67-f5bdffa6fc12"
         },
         "5af04f89-0133-4426-bbf7-e722ec516b96": {
           "label": "Kiosk software",
           "link": "https://en.wikipedia.org/wiki/Kiosk software",
-          "x": 65762,
-          "y": 47923,
+          "x": 79534,
+          "y": 31747,
           "id": "5af04f89-0133-4426-bbf7-e722ec516b96"
         },
         "e7e2bf34-1b86-4a33-b29b-73f77aa759db": {
           "label": "Layout manager",
           "link": "https://en.wikipedia.org/wiki/Layout manager",
-          "x": 65768,
-          "y": 47948,
+          "x": 79540,
+          "y": 31772,
           "id": "e7e2bf34-1b86-4a33-b29b-73f77aa759db"
         },
         "95c2209c-6d4a-40c1-bb43-a630900b1a32": {
           "label": "Look and feel",
           "link": "https://en.wikipedia.org/wiki/Look and feel",
-          "x": 65759,
-          "y": 47973,
+          "x": 79531,
+          "y": 31797,
           "id": "95c2209c-6d4a-40c1-bb43-a630900b1a32"
         },
         "bcd6a9b9-52ef-49d8-9299-f9c5db2baad2": {
           "label": "Magic Cap",
           "link": "https://en.wikipedia.org/wiki/Magic Cap",
-          "x": 65750,
-          "y": 47998,
+          "x": 79522,
+          "y": 31822,
           "id": "bcd6a9b9-52ef-49d8-9299-f9c5db2baad2"
         },
         "16d7cd64-bf69-4d91-95e8-f5ddd31689e7": {
           "label": "Master–detail interface",
           "link": "https://en.wikipedia.org/wiki/Master–detail interface",
-          "x": 65789,
-          "y": 48023,
+          "x": 79561,
+          "y": 31847,
           "id": "16d7cd64-bf69-4d91-95e8-f5ddd31689e7"
         },
         "6c939d72-3994-46f6-a11c-4e2c601903fc": {
           "label": "Material Design",
           "link": "https://en.wikipedia.org/wiki/Material Design",
-          "x": 65766,
-          "y": 48048,
+          "x": 79538,
+          "y": 31872,
           "id": "6c939d72-3994-46f6-a11c-4e2c601903fc"
         },
         "3671530c-06d8-457a-bf50-c0fd257ccc9e": {
           "label": "Metro (design language)",
           "link": "https://en.wikipedia.org/wiki/Metro (design language)",
-          "x": 65794,
-          "y": 48073,
+          "x": 79566,
+          "y": 31897,
           "id": "3671530c-06d8-457a-bf50-c0fd257ccc9e"
         },
         "5b98039f-4c32-42fa-a764-c0ec8eb0bb7d": {
           "label": "Microsoft PixelSense",
           "link": "https://en.wikipedia.org/wiki/Microsoft PixelSense",
-          "x": 65782,
-          "y": 48098,
+          "x": 79554,
+          "y": 31922,
           "id": "5b98039f-4c32-42fa-a764-c0ec8eb0bb7d"
         },
         "09aa5bc4-4a07-4665-949c-27e0f2870cc3": {
           "label": "MiniGUI",
           "link": "https://en.wikipedia.org/wiki/MiniGUI",
-          "x": 65742,
-          "y": 48123,
+          "x": 79514,
+          "y": 31947,
           "id": "09aa5bc4-4a07-4665-949c-27e0f2870cc3"
         },
         "2476e18a-734a-48d2-af26-57d914dda76a": {
           "label": "Multiple-document interface",
           "link": "https://en.wikipedia.org/wiki/Multiple-document interface",
-          "x": 65804,
-          "y": 48148,
+          "x": 79576,
+          "y": 31972,
           "id": "2476e18a-734a-48d2-af26-57d914dda76a"
         },
         "3e434fbc-349d-4e40-be09-2d97abd86110": {
           "label": "Navigation bar",
           "link": "https://en.wikipedia.org/wiki/Navigation bar",
-          "x": 65762,
-          "y": 48173,
+          "x": 79534,
+          "y": 31997,
           "id": "3e434fbc-349d-4e40-be09-2d97abd86110"
         },
         "654ddbbb-6b6c-4d54-a7c2-a3f86a8181d6": {
           "label": "Nokia Fastlane",
           "link": "https://en.wikipedia.org/wiki/Nokia Fastlane",
-          "x": 65764,
-          "y": 48198,
+          "x": 79536,
+          "y": 32022,
           "id": "654ddbbb-6b6c-4d54-a7c2-a3f86a8181d6"
         },
         "351eaf9c-c453-4ffc-849f-6ce0752187d6": {
           "label": "Notebook interface",
           "link": "https://en.wikipedia.org/wiki/Notebook interface",
-          "x": 65776,
-          "y": 48223,
+          "x": 79548,
+          "y": 32047,
           "id": "351eaf9c-c453-4ffc-849f-6ce0752187d6"
         },
         "3f77d302-d1d6-4f1a-946e-90eb1e3980f6": {
           "label": "Post-WIMP",
           "link": "https://en.wikipedia.org/wiki/Post-WIMP",
-          "x": 65752,
-          "y": 48248,
+          "x": 79524,
+          "y": 32072,
           "id": "3f77d302-d1d6-4f1a-946e-90eb1e3980f6"
         },
         "4752ba90-19f0-4e01-ad30-57e197a1a401": {
           "label": "Presentation Manager",
           "link": "https://en.wikipedia.org/wiki/Presentation Manager",
-          "x": 65787,
-          "y": 48273,
+          "x": 79559,
+          "y": 32097,
           "id": "4752ba90-19f0-4e01-ad30-57e197a1a401"
         },
         "88d309cf-60c7-48d1-81d8-c814ccb70e1d": {
           "label": "Program Manager",
           "link": "https://en.wikipedia.org/wiki/Program Manager",
-          "x": 65774,
-          "y": 48298,
+          "x": 79546,
+          "y": 32122,
           "id": "88d309cf-60c7-48d1-81d8-c814ccb70e1d"
         },
         "e7962ace-0a3d-433a-a018-6141adb1f0dd": {
           "label": "Quick Menu",
           "link": "https://en.wikipedia.org/wiki/Quick Menu",
-          "x": 65754,
-          "y": 48323,
+          "x": 79526,
+          "y": 32147,
           "id": "e7962ace-0a3d-433a-a018-6141adb1f0dd"
         },
         "471e2cdc-c6d5-4f08-9197-9713b3e13923": {
           "label": "Scrapbook (Mac OS)",
           "link": "https://en.wikipedia.org/wiki/Scrapbook (Mac OS)",
-          "x": 65783,
-          "y": 48348,
+          "x": 79555,
+          "y": 32172,
           "id": "471e2cdc-c6d5-4f08-9197-9713b3e13923"
         },
         "0623b213-6d44-4efe-bfff-b57035d0f415": {
           "label": "Screencast",
           "link": "https://en.wikipedia.org/wiki/Screencast",
-          "x": 65752,
-          "y": 48373,
+          "x": 79524,
+          "y": 32197,
           "id": "0623b213-6d44-4efe-bfff-b57035d0f415"
         },
         "0b2bf093-c839-4439-89f7-a911ba8d798c": {
           "label": "Screenshot",
           "link": "https://en.wikipedia.org/wiki/Screenshot",
-          "x": 65752,
-          "y": 48398,
+          "x": 79524,
+          "y": 32222,
           "id": "0b2bf093-c839-4439-89f7-a911ba8d798c"
         },
         "3e56de8e-9928-424c-8878-7b4f20e0670b": {
           "label": "SixthSense",
           "link": "https://en.wikipedia.org/wiki/SixthSense",
-          "x": 65752,
-          "y": 48423,
+          "x": 79524,
+          "y": 32247,
           "id": "3e56de8e-9928-424c-8878-7b4f20e0670b"
         },
         "68e7d342-b90e-40e1-adaf-5a5a4457388a": {
           "label": "Sketchpad",
           "link": "https://en.wikipedia.org/wiki/Sketchpad",
-          "x": 65750,
-          "y": 48448,
+          "x": 79522,
+          "y": 32272,
           "id": "68e7d342-b90e-40e1-adaf-5a5a4457388a"
         },
         "187714b1-4851-4e0e-9411-48c087189a5e": {
           "label": "Skeuomorph",
           "link": "https://en.wikipedia.org/wiki/Skeuomorph",
-          "x": 65757,
-          "y": 48473,
+          "x": 79529,
+          "y": 32297,
           "id": "187714b1-4851-4e0e-9411-48c087189a5e"
         },
         "79cf4095-91ff-42ad-8352-e028154e7026": {
           "label": "Skin (computing)",
           "link": "https://en.wikipedia.org/wiki/Skin (computing)",
-          "x": 65770,
-          "y": 48498,
+          "x": 79542,
+          "y": 32322,
           "id": "79cf4095-91ff-42ad-8352-e028154e7026"
         },
         "b8228895-2dce-4049-ba8d-0040affebc07": {
           "label": "Software widget",
           "link": "https://en.wikipedia.org/wiki/Software widget",
-          "x": 65767,
-          "y": 48523,
+          "x": 79539,
+          "y": 32347,
           "id": "b8228895-2dce-4049-ba8d-0040affebc07"
         },
         "039c05f3-4eb6-4ac7-9e5c-4c28415a20af": {
           "label": "StyleXP",
           "link": "https://en.wikipedia.org/wiki/StyleXP",
-          "x": 65741,
-          "y": 48548,
+          "x": 79513,
+          "y": 32372,
           "id": "039c05f3-4eb6-4ac7-9e5c-4c28415a20af"
         },
         "d619a00b-8003-469f-abb3-da107890f038": {
           "label": "Surface computing",
           "link": "https://en.wikipedia.org/wiki/Surface computing",
-          "x": 65776,
-          "y": 48573,
+          "x": 79548,
+          "y": 32397,
           "id": "d619a00b-8003-469f-abb3-da107890f038"
         },
         "51d8d1c5-3754-43bf-bd04-fe87d5f2586e": {
           "label": "Theme (computing)",
           "link": "https://en.wikipedia.org/wiki/Theme (computing)",
-          "x": 65779,
-          "y": 48598,
+          "x": 79551,
+          "y": 32422,
           "id": "51d8d1c5-3754-43bf-bd04-fe87d5f2586e"
         },
         "32957bfb-956a-4ff8-861f-160530b5c1e7": {
           "label": "Three-pane interface",
           "link": "https://en.wikipedia.org/wiki/Three-pane interface",
-          "x": 65783,
-          "y": 48623,
+          "x": 79555,
+          "y": 32447,
           "id": "32957bfb-956a-4ff8-861f-160530b5c1e7"
         },
         "86e9f567-8323-4964-b9d1-26d3de21ad33": {
           "label": "Touch user interface",
           "link": "https://en.wikipedia.org/wiki/Touch user interface",
-          "x": 65781,
-          "y": 48648,
+          "x": 79553,
+          "y": 32472,
           "id": "86e9f567-8323-4964-b9d1-26d3de21ad33"
         },
         "4c5ec19f-d0fa-45cc-b85a-54b1619396bf": {
           "label": "TouchFLO 3D",
           "link": "https://en.wikipedia.org/wiki/TouchFLO 3D",
-          "x": 65761,
-          "y": 48673,
+          "x": 79533,
+          "y": 32497,
           "id": "4c5ec19f-d0fa-45cc-b85a-54b1619396bf"
         },
         "2e3ee014-3eb5-4e56-aaa8-5efcb60d7dc7": {
           "label": "Unity (user interface)",
           "link": "https://en.wikipedia.org/wiki/Unity (user interface)",
-          "x": 65783,
-          "y": 48698,
+          "x": 79555,
+          "y": 32522,
           "id": "2e3ee014-3eb5-4e56-aaa8-5efcb60d7dc7"
         },
         "9e625339-e2c5-48b6-96d6-dfa71b32f943": {
           "label": "User interface modeling",
           "link": "https://en.wikipedia.org/wiki/User interface modeling",
-          "x": 65792,
-          "y": 48723,
+          "x": 79564,
+          "y": 32547,
           "id": "9e625339-e2c5-48b6-96d6-dfa71b32f943"
         },
         "6c127e99-6fdb-4119-974f-2c84c29825b2": {
           "label": "ViewMAX",
           "link": "https://en.wikipedia.org/wiki/ViewMAX",
-          "x": 65746,
-          "y": 48748,
+          "x": 79518,
+          "y": 32572,
           "id": "6c127e99-6fdb-4119-974f-2c84c29825b2"
         },
         "a9cd9dcf-d6e7-4dd6-8134-796ecfa84c68": {
           "label": "Virtual desktop",
           "link": "https://en.wikipedia.org/wiki/Virtual desktop",
-          "x": 65763,
-          "y": 48773,
+          "x": 79535,
+          "y": 32597,
           "id": "a9cd9dcf-d6e7-4dd6-8134-796ecfa84c68"
         },
         "febc0d24-cf9a-409e-83ea-02e5b35c7f51": {
           "label": "Widget toolkit",
           "link": "https://en.wikipedia.org/wiki/Widget toolkit",
-          "x": 65759,
-          "y": 48798,
+          "x": 79531,
+          "y": 32622,
           "id": "febc0d24-cf9a-409e-83ea-02e5b35c7f51"
         },
         "db42aebb-7bb5-46ee-816a-4cba6bbe52dc": {
           "label": "WIMP (computing)",
           "link": "https://en.wikipedia.org/wiki/WIMP (computing)",
-          "x": 65775,
-          "y": 48823,
+          "x": 79547,
+          "y": 32647,
           "id": "db42aebb-7bb5-46ee-816a-4cba6bbe52dc"
         },
         "c7ce56a4-4b6c-4f0d-a174-5283c3810dfe": {
           "label": "Window manager",
           "link": "https://en.wikipedia.org/wiki/Window manager",
-          "x": 65772,
-          "y": 48848,
+          "x": 79544,
+          "y": 32672,
           "id": "c7ce56a4-4b6c-4f0d-a174-5283c3810dfe"
         },
         "c2f07919-7d9a-45e8-b330-0b56326dba3d": {
           "label": "Windows shell",
           "link": "https://en.wikipedia.org/wiki/Windows shell",
-          "x": 65761,
-          "y": 48873,
+          "x": 79533,
+          "y": 32697,
           "id": "c2f07919-7d9a-45e8-b330-0b56326dba3d"
         },
         "aa50287c-d870-4816-9baf-7e3d3621170c": {
           "label": "Workbench (AmigaOS)",
           "link": "https://en.wikipedia.org/wiki/Workbench (AmigaOS)",
-          "x": 65789,
-          "y": 48898,
+          "x": 79561,
+          "y": 32722,
           "id": "aa50287c-d870-4816-9baf-7e3d3621170c"
         },
         "bbe54c08-5060-41ce-b0dc-0a9ff7921466": {
           "label": "X window manager",
           "link": "https://en.wikipedia.org/wiki/X window manager",
-          "x": 65777,
-          "y": 48923,
+          "x": 79549,
+          "y": 32747,
           "id": "bbe54c08-5060-41ce-b0dc-0a9ff7921466"
         },
         "6918d214-1aa9-47a2-8546-458427926e5a": {
           "label": "X.desktop",
           "link": "https://en.wikipedia.org/wiki/X.desktop",
-          "x": 65748,
-          "y": 48948,
+          "x": 79520,
+          "y": 32772,
           "id": "6918d214-1aa9-47a2-8546-458427926e5a"
         },
         "7c04580c-5db8-42be-b4e7-0dd2c2a13505": {
           "label": "X/GEM",
           "link": "https://en.wikipedia.org/wiki/X/GEM",
-          "x": 65739,
-          "y": 48973,
+          "x": 79511,
+          "y": 32797,
           "id": "7c04580c-5db8-42be-b4e7-0dd2c2a13505"
         },
         "1e90dcd9-bbd7-4138-903e-fc8f38714172": {
           "label": "XrossMediaBar",
           "link": "https://en.wikipedia.org/wiki/XrossMediaBar",
-          "x": 65765,
-          "y": 48998,
+          "x": 79537,
+          "y": 32822,
           "id": "1e90dcd9-bbd7-4138-903e-fc8f38714172"
         },
         "cb29bc6b-f4ee-4e34-ac3c-0afea4853e36": {
           "label": "Zooming user interface",
           "link": "https://en.wikipedia.org/wiki/Zooming user interface",
-          "x": 65790,
-          "y": 49023,
+          "x": 79562,
+          "y": 32847,
           "id": "cb29bc6b-f4ee-4e34-ac3c-0afea4853e36"
         },
         "91f6b464-e8a1-4a74-82b2-3c43bfabea8b": {
           "label": "Category:User interface builders",
           "link": "https://en.wikipedia.org/wiki/Category:User interface builders",
-          "x": 65819,
-          "y": 49048,
+          "x": 79591,
+          "y": 32872,
           "id": "91f6b464-e8a1-4a74-82b2-3c43bfabea8b"
         },
         "0dda5ff0-0011-4d55-a876-7b7803245cef": {
           "label": "Category:Desktop environments",
           "link": "https://en.wikipedia.org/wiki/Category:Desktop environments",
-          "x": 65818,
-          "y": 49073,
+          "x": 79590,
+          "y": 32897,
           "id": "0dda5ff0-0011-4d55-a876-7b7803245cef"
         },
         "1facfc3f-85e0-4462-9da8-ae50496b2ab7": {
           "label": "Category:Graphical user interface elements",
           "link": "https://en.wikipedia.org/wiki/Category:Graphical user interface elements",
-          "x": 65854,
-          "y": 49098,
+          "x": 79626,
+          "y": 32922,
           "id": "1facfc3f-85e0-4462-9da8-ae50496b2ab7"
         },
         "317ddd56-310a-485f-891b-7a40477670c7": {
           "label": "Category:Mac OS user interface",
           "link": "https://en.wikipedia.org/wiki/Category:Mac OS user interface",
-          "x": 65818,
-          "y": 49123,
+          "x": 79590,
+          "y": 32947,
           "id": "317ddd56-310a-485f-891b-7a40477670c7"
         },
         "dd8ca063-51eb-4ca5-a3d4-8a4f5e02d636": {
           "label": "Category:User interface markup languages",
           "link": "https://en.wikipedia.org/wiki/Category:User interface markup languages",
-          "x": 65853,
-          "y": 49148,
+          "x": 79625,
+          "y": 32972,
           "id": "dd8ca063-51eb-4ca5-a3d4-8a4f5e02d636"
         },
         "d5299164-0260-4764-acf3-6284021826a0": {
           "label": "Category:Surface computing",
           "link": "https://en.wikipedia.org/wiki/Category:Surface computing",
-          "x": 65807,
-          "y": 49173,
+          "x": 79579,
+          "y": 32997,
           "id": "d5299164-0260-4764-acf3-6284021826a0"
         },
         "19f94bfa-0cf4-4520-9b3b-0cb78e88c557": {
           "label": "Category:User interface techniques",
           "link": "https://en.wikipedia.org/wiki/Category:User interface techniques",
-          "x": 65828,
-          "y": 49198,
+          "x": 79600,
+          "y": 33022,
           "id": "19f94bfa-0cf4-4520-9b3b-0cb78e88c557"
         },
         "b783f10f-a413-4c23-853c-0b07d73b6216": {
           "label": "Category:Graphical user interface testing",
           "link": "https://en.wikipedia.org/wiki/Category:Graphical user interface testing",
-          "x": 65846,
-          "y": 49223,
+          "x": 79618,
+          "y": 33047,
           "id": "b783f10f-a413-4c23-853c-0b07d73b6216"
         },
         "f69cf977-5079-44f1-8d3f-8e1c53d18754": {
           "label": "Category:Widget toolkits",
           "link": "https://en.wikipedia.org/wiki/Category:Widget toolkits",
-          "x": 65793,
-          "y": 49248,
+          "x": 79565,
+          "y": 33072,
           "id": "f69cf977-5079-44f1-8d3f-8e1c53d18754"
         },
         "91dbdfe0-e6b3-4f9c-9597-26658745192e": {
           "label": "Category:Touch user interfaces",
           "link": "https://en.wikipedia.org/wiki/Category:Touch user interfaces",
-          "x": 65816,
-          "y": 49273,
+          "x": 79588,
+          "y": 33097,
           "id": "91dbdfe0-e6b3-4f9c-9597-26658745192e"
         },
         "e3ed2ee4-f754-4c63-a97c-1487f28ab4fb": {
           "label": "Category:Web applications",
           "link": "https://en.wikipedia.org/wiki/Category:Web applications",
-          "x": 65801,
-          "y": 49298,
+          "x": 79573,
+          "y": 33122,
           "id": "e3ed2ee4-f754-4c63-a97c-1487f28ab4fb"
         },
         "b507bcda-d7be-46d6-9f7f-eb0758c4eee3": {
           "label": "Category:Windowing systems",
           "link": "https://en.wikipedia.org/wiki/Category:Windowing systems",
-          "x": 65810,
-          "y": 49323,
+          "x": 79582,
+          "y": 33147,
           "id": "b507bcda-d7be-46d6-9f7f-eb0758c4eee3"
         },
         "0844f3de-76a9-4420-a260-dce3910ad234": {
           "id": "0844f3de-76a9-4420-a260-dce3910ad234",
-          "x": 63432,
-          "y": 37073,
+          "x": 77204,
+          "y": 20897,
           "label": "Список литературы, References",
           "font": {
             "size": 14,
@@ -49447,8 +49447,8 @@ var schemeData =
         "b577a7c2-3542-4656-b5a1-3d07f8c43174": {
           "label": "<a rel=\"mw:ExtLink\" href=\"http://opac.vimaru.edu.vn/edata/EBook/An%20i\nntruduction%20to%20human%20factors%20engineering.pdf\" class=\"external \nautonumber\"></a> in <a href=\"./An_Introduction_to_Human_Factors_Engine\nering._Wickens,_Gordon,_Liu,_1997.\" title=\"An Introduction to Human Fa\nctors Engineering. Wickens, Gordon, Liu, 1997.\" class=\"new\">An Introdu\nction to Human Factors Engineering. Wickens, Gordon, Liu, 1997.</a>. T\nype: generic",
           "link": "",
-          "x": 64714,
-          "y": 34191,
+          "x": 78486,
+          "y": 18015,
           "id": "b577a7c2-3542-4656-b5a1-3d07f8c43174",
           "font": {
             "align": "left"
@@ -49457,8 +49457,8 @@ var schemeData =
         "1ce34d3e-85aa-4e4b-bd1e-f6a40b978218": {
           "label": "<a href=\"./ISO_6385\" title=\"ISO 6385\">ISO 6385</a> defines \"ergonomics\n\" and the \"study of human factors\" similarly, as the \"scientific disci\npline concerned with the understanding of interactions among humans an\nd other elements of a system, and the profession that applies theory, \nprinciples and methods to design to optimize overall human performance\n.\". Type: generic",
           "link": "",
-          "x": 64703,
-          "y": 34307,
+          "x": 78475,
+          "y": 18131,
           "id": "1ce34d3e-85aa-4e4b-bd1e-f6a40b978218",
           "font": {
             "align": "left"
@@ -49467,8 +49467,8 @@ var schemeData =
         "3b1bc716-1472-4bdb-aaf4-ee8cdd4b8add": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"http://www.ergono\nmics.org.uk/learning/what-ergonomics/\" class=\"external text\">\"What is \nergonomics?\"</a>. <a href=\"./Institute_of_Ergonomics_and_Human_Factors\n\" title=\"Institute of Ergonomics and Human Factors\" class=\"mw-redirect\n\">Institute of Ergonomics and Human Factors</a>. <q>Essentially yes, t\nhey are different terms with the same meaning but one term may be more\n in favour in one country or in one industry than another. They can be\n used interchangeably.</q></cite><style data-mw-deduplicate=\"TemplateS\ntyles:r886058088\" typeof=\"mw:Extension/templatestyles\">.mw-parser-outp\nut cite.citation{font-style:inherit}.mw-parser-output .citation q{quot\nes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation .cs1-lock-free a{backgro\nund:url(\"//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-gree\nn.svg/9px-Lock-green.svg.png\")no-repeat;background-position:right .1em\n center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-out\nput .citation .cs1-lock-registration a{background:url(\"//upload.wikime\ndia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray\n-alt-2.svg.png\")no-repeat;background-position:right .1em center}.mw-pa\nrser-output .citation .cs1-lock-subscription a{background:url(\"//uploa\nd.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lo\nck-red-alt-2.svg.png\")no-repeat;background-position:right .1em center}\n.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registratio\nn{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-outpu\nt .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-pars\ner-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipe\ndia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.pn\ng\")no-repeat;background-position:right .1em center}.mw-parser-output c\node.cs1-code{color:inherit;background:inherit;border:inherit;padding:i\nnherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%\n}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output\n .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-ou\ntput .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-\noutput .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-\nparser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .\ncs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2e\nm}</style>. Type: web",
           "link": "",
-          "x": 64711,
-          "y": 34619,
+          "x": 78483,
+          "y": 18443,
           "id": "3b1bc716-1472-4bdb-aaf4-ee8cdd4b8add",
           "font": {
             "align": "left"
@@ -49477,8 +49477,8 @@ var schemeData =
         "2f0485d0-9904-4b80-8478-8559f6d5c31c": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"https://www.sinte\nf.no/upload/Teknologi_og_samfunn/Sikkerhet%20og%20p%c3%a5litelighet/Pr\nosjekter/CRIOP/CRIOPReport.pdf\" class=\"external text\">\"CRIOP\"</a> <spa\nn class=\"cs1-format\">(PDF)</span>. SINTEF. <q>Ergonomics is a scientif\nic discipline that applies systematic methods and knowledge about peop\nle to evaluate and approve the interaction between individuals, techno\nlogy and organisation. The aim is to create a working environment and \nthe tools in them for maximum work efficiency and maximum worker healt\nh and safety ... Human factors is a scientific discipline that applies\n systematic methods and knowledge about people to evaluate and improve\n the interaction between individuals, technology and organisations. Th\ne aim is to create a working environment (that to the largest extent p\nossible) contributes to achieving healthy, effective and safe operatio\nns.</q></cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:T\nemplateStyles:r886058088\" about=\"#mwt8\">. Type: web",
           "link": "",
-          "x": 64715,
-          "y": 34994,
+          "x": 78487,
+          "y": 18818,
           "id": "2f0485d0-9904-4b80-8478-8559f6d5c31c",
           "font": {
             "align": "left"
@@ -49487,8 +49487,8 @@ var schemeData =
         "cdf849cb-f7c1-4618-b6c0-2d00e6faab1c": {
           "label": "International Ergonomics Association. <a rel=\"mw:ExtLink\" href=\"http:/\n/www.iea.cc/whats/index.html\" class=\"external text\"><i>What is Ergonom\nics</i></a>. Website. Retrieved 17 March 2014.. Type: generic",
           "link": "",
-          "x": 64698,
-          "y": 35145,
+          "x": 78470,
+          "y": 18969,
           "id": "cdf849cb-f7c1-4618-b6c0-2d00e6faab1c",
           "font": {
             "align": "left"
@@ -49497,8 +49497,8 @@ var schemeData =
         "dc1904f4-c7f0-42ad-8ee1-0ccb5995ce7f": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"https://www.osha.\ngov/SLTC/ergonomics/\" class=\"external text\">\"Safety and Health Topics \n| Ergonomics | Occupational Safety and Health Administration\"</a>. <i>\nwww.osha.gov</i><span class=\"reference-accessdate\">. Retrieved <span c\nlass=\"nowrap\">28 March</span> 2019</span>.</cite><link rel=\"mw-dedupli\ncated-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" about=\"#m\nwt19\">. Type: web",
           "link": "",
-          "x": 64708,
-          "y": 35240,
+          "x": 78480,
+          "y": 19064,
           "id": "dc1904f4-c7f0-42ad-8ee1-0ccb5995ce7f",
           "font": {
             "align": "left"
@@ -49507,8 +49507,8 @@ var schemeData =
         "bda40df5-9ccd-442b-a504-5aa1b703586f": {
           "label": "<a rel=\"mw:ExtLink\" href=\"http://www.fees-network.org/what-is-ergonomi\ncs/\" class=\"external text\">Wojciech Jastrzębowski</a>. Type: generic",
           "link": "",
-          "x": 64699,
-          "y": 35328,
+          "x": 78471,
+          "y": 19152,
           "id": "bda40df5-9ccd-442b-a504-5aa1b703586f",
           "font": {
             "align": "left"
@@ -49517,8 +49517,8 @@ var schemeData =
         "dd9e865d-d72d-476b-8ef0-a0f9c3e67ca4": {
           "label": "<a rel=\"mw:ExtLink\" href=\"http://www.ergonomics.org.uk/awards/hywel-mu\nrrell\" class=\"external text\">Hywel Murrell</a>. Type: generic",
           "link": "",
-          "x": 64705,
-          "y": 35381,
+          "x": 78477,
+          "y": 19205,
           "id": "dd9e865d-d72d-476b-8ef0-a0f9c3e67ca4",
           "font": {
             "align": "left"
@@ -49527,8 +49527,8 @@ var schemeData =
         "2ebc19a0-71ea-4bd4-a910-135c410d274e": {
           "label": "<cite class=\"citation web\">Swain, A.D.; Guttmann, H.E. (1983). <a rel=\n\"mw:ExtLink\" href=\"http://pbadupws.nrc.gov/docs/ML0712/ML071210299.pdf\n\" class=\"external text\">\"Handbook of Human Reliability Analysis with E\nmphasis on Nuclear Power Plant Applications. NUREG/CR-1278\"</a> <span \nclass=\"cs1-format\">(PDF)</span>. USNRC. <q>Human Factors Engineering, \nHuman Engineering, Human Factors, and Ergonomics ... describe a discip\nline concerned with designing machines, operations, and work environme\nnts so that they match human capacities and limitations ... The first \nthree terms are used most widely in the United States ... The last ter\nm, ergonomics, is used most frequently in other countries but is now b\necoming popular in the United States as well.</q></cite><link rel=\"mw-\ndeduplicated-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" ab\nout=\"#mwt24\">. Type: web",
           "link": "",
-          "x": 64714,
-          "y": 35511,
+          "x": 78486,
+          "y": 19335,
           "id": "2ebc19a0-71ea-4bd4-a910-135c410d274e",
           "font": {
             "align": "left"
@@ -49537,8 +49537,8 @@ var schemeData =
         "00bca81a-931a-4302-b8d1-dd0b6c1cecc7": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"http://www.enviro\nnmental-ergonomics.org/\" class=\"external text\">\"Home Page of Environme\nntal Ergonomics Society\"</a>. Environmental-ergonomics.org<span class=\n\"reference-accessdate\">. Retrieved <span class=\"nowrap\">6 April</span>\n 2012</span>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-\ndata:TemplateStyles:r886058088\" about=\"#mwt34\">. Type: web",
           "link": "",
-          "x": 64705,
-          "y": 35669,
+          "x": 78477,
+          "y": 19493,
           "id": "00bca81a-931a-4302-b8d1-dd0b6c1cecc7",
           "font": {
             "align": "left"
@@ -49547,8 +49547,8 @@ var schemeData =
         "a4bb85c5-2d21-4a5b-b17f-f0f83c9bd107": {
           "label": "<cite class=\"citation book\">John L. Campbell; Monica G. Lichty;  et al\n. (2012). <i>National Cooperative Highway Research Project Report 600:\n Human Factors Guidelines for Road Systems (Second Edition)</i>. Washi\nngton, D.C.: Transportation Research Board.</cite><link rel=\"mw-dedupl\nicated-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" about=\"#\nmwt35\">. Type: book",
           "link": "",
-          "x": 64704,
-          "y": 35778,
+          "x": 78476,
+          "y": 19602,
           "id": "a4bb85c5-2d21-4a5b-b17f-f0f83c9bd107",
           "font": {
             "align": "left"
@@ -49557,8 +49557,8 @@ var schemeData =
         "d1171eb0-af12-4d9b-9717-653553f6c157": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"https://www.faac.\ncom/realtime-technologies/solutions/research-simulation-distracted-dri\nving/\" class=\"external text\">\"Research Simulation For Distracted Drivi\nng\"</a>. <i>faac.com</i>. FAAC / Realtime Technologies<span class=\"ref\nerence-accessdate\">. Retrieved <span class=\"nowrap\">18 November</span>\n 2019</span>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-\ndata:TemplateStyles:r886058088\" about=\"#mwt36\">. Type: web",
           "link": "",
-          "x": 64715,
-          "y": 35894,
+          "x": 78487,
+          "y": 19718,
           "id": "d1171eb0-af12-4d9b-9717-653553f6c157",
           "font": {
             "align": "left"
@@ -49567,8 +49567,8 @@ var schemeData =
         "d276a821-c40d-45a1-a235-60417a7c8795": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"http://www.ehscp.\norg/resources/Documents/Ergonomics/Final%20Version%2011-06-07.pdf\" cla\nss=\"external text\">\"Ergonomic Guidelines for Common Job Functions With\nin The Telecommunication Industry\"</a> <span class=\"cs1-format\">(PDF)<\n/span>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:T\nemplateStyles:r886058088\" about=\"#mwt40\">. Type: web",
           "link": "",
-          "x": 64715,
-          "y": 36010,
+          "x": 78487,
+          "y": 19834,
           "id": "d276a821-c40d-45a1-a235-60417a7c8795",
           "font": {
             "align": "left"
@@ -49577,8 +49577,8 @@ var schemeData =
         "ace58333-6661-455c-a951-5fc1a4ee7140": {
           "label": "<cite class=\"citation journal\">Walsh, Isabel A P.; Oishi, Jorge; Coury\n, Helenice J C Gil (2008). \"Clinical and functional aspects of work-re\nlated musculoskeletal disorders among active workers\". <i>Revista de S\naúde Pública</i>. <b>42</b> (1): 108–116. <a href=\"./Digital_object_id\nentifier\" title=\"Digital object identifier\">doi</a>:<a rel=\"mw:ExtLink\n\" href=\"//doi.org/10.1590%2Fs0034-89102008000100014\" class=\"external t\next\">10.1590/s0034-89102008000100014</a>. <a href=\"./PubMed_Identifier\n\" title=\"PubMed Identifier\" class=\"mw-redirect\">PMID</a><span>&nbsp;</\nspan><a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pubmed/18200347\"\n class=\"external text\">18200347</a>.</cite><link rel=\"mw-deduplicated-\ninline-style\" href=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt50\">\n. Type: journal",
           "link": "",
-          "x": 64712,
-          "y": 36161,
+          "x": 78484,
+          "y": 19985,
           "id": "ace58333-6661-455c-a951-5fc1a4ee7140",
           "font": {
             "align": "left"
@@ -49587,8 +49587,8 @@ var schemeData =
         "8eaa8f85-0787-4497-bcde-6409dbe79178": {
           "label": "<cite class=\"citation news\">Charles N. Jeffress (27 October 2000). \"BE\nACON Biodynamics and Ergonomics Symposium\". University of Connecticut,\n Farmington, Conn.</cite><link rel=\"mw-deduplicated-inline-style\" href\n=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt51\">. Type: news",
           "link": "",
-          "x": 64711,
-          "y": 36298,
+          "x": 78483,
+          "y": 20122,
           "id": "8eaa8f85-0787-4497-bcde-6409dbe79178",
           "font": {
             "align": "left"
@@ -49597,8 +49597,8 @@ var schemeData =
         "f240bef8-d9aa-4f33-a489-283fa8ec9c0c": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"http://www.buildi\nngs.com/articles/detail.aspx?contentID=1563\" class=\"external text\">\"Wo\nrkplace Ergonomics: NIOSH Provides Steps to Minimize Musculoskeletal D\nisorders\"</a>. 2003<span class=\"reference-accessdate\">. Retrieved <spa\nn class=\"nowrap\">23 April</span> 2008</span>.</cite><link rel=\"mw-dedu\nplicated-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" about=\n\"#mwt52\">. Type: web",
           "link": "",
-          "x": 64705,
-          "y": 36400,
+          "x": 78477,
+          "y": 20224,
           "id": "f240bef8-d9aa-4f33-a489-283fa8ec9c0c",
           "font": {
             "align": "left"
@@ -49607,8 +49607,8 @@ var schemeData =
         "032ccb86-af9d-42fe-bba2-cc0dc5f7c12e": {
           "label": "<cite class=\"citation book\">Charles N. Jeffress (27 October 2000). <i>\nBEACON Biodynamics and Ergonomics Symposium</i>. University of Connect\nicut, Farmington, Conn.</cite><link rel=\"mw-deduplicated-inline-style\"\n href=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt53\">. Type: book",
           "link": "",
-          "x": 64716,
-          "y": 36502,
+          "x": 78488,
+          "y": 20326,
           "id": "032ccb86-af9d-42fe-bba2-cc0dc5f7c12e",
           "font": {
             "align": "left"
@@ -49617,8 +49617,8 @@ var schemeData =
         "2687e0e1-67b8-47cb-8ac7-67d645bb49cc": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"http://www.ehscp.\norg/resources/Documents/Ergonomics/Final%20Version%2011-06-07.pdf\" cla\nss=\"external text\">\"Ergonomic Guidelines for Common Job Functions With\nin The Telecommunication Industry\"</a> <span class=\"cs1-format\">(PDF)<\n/span>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:T\nemplateStyles:r886058088\" about=\"#mwt54\">. Type: web",
           "link": "",
-          "x": 64715,
-          "y": 36597,
+          "x": 78487,
+          "y": 20421,
           "id": "2687e0e1-67b8-47cb-8ac7-67d645bb49cc",
           "font": {
             "align": "left"
@@ -49627,8 +49627,8 @@ var schemeData =
         "5861c3d7-bd9b-44aa-a5b2-12a20645ecfc": {
           "label": "<cite class=\"citation journal\">Neuhaus, M.; Eakin, E. G.; Straker, L.;\n Owen, N.; Dunstan, D. W.; Reid, N.; Healy, G. N. (October 2014). <a r\nel=\"mw:ExtLink\" href=\"http://espace.library.uq.edu.au/view/UQ:342216/O\nAUQ342216.pdf\" class=\"external text\">\"Reducing occupational sedentary \ntime: a systematic review and meta-analysis of evidence on activity-pe\nrmissive workstations\"</a> <span class=\"cs1-format\">(PDF)</span>. <i>O\nbesity Reviews</i>. <b>15</b> (10): 822–838. <a href=\"./Digital_object\n_identifier\" title=\"Digital object identifier\">doi</a>:<a rel=\"mw:ExtL\nink\" href=\"//doi.org/10.1111%2Fobr.12201\" class=\"external text\">10.111\n1/obr.12201</a>. <a href=\"./International_Standard_Serial_Number\" titl\ne=\"International Standard Serial Number\">ISSN</a><span>&nbsp;</span><a\n rel=\"mw:ExtLink\" href=\"//www.worldcat.org/issn/1467-789X\" class=\"exte\nrnal text\">1467-789X</a>. <a href=\"./PubMed_Identifier\" title=\"PubMed \nIdentifier\" class=\"mw-redirect\">PMID</a><span>&nbsp;</span><a rel=\"mw:\nExtLink\" href=\"//www.ncbi.nlm.nih.gov/pubmed/25040784\" class=\"external\n text\">25040784</a>.</cite><link rel=\"mw-deduplicated-inline-style\" hr\nef=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt58\">. Type: journal",
           "link": "",
-          "x": 64713,
-          "y": 36783,
+          "x": 78485,
+          "y": 20607,
           "id": "5861c3d7-bd9b-44aa-a5b2-12a20645ecfc",
           "font": {
             "align": "left"
@@ -49637,8 +49637,8 @@ var schemeData =
         "5cc61af2-95d8-461c-8bc3-2988d4fd2c75": {
           "label": "Dart, R. A. (1960). The Bone Tool‐Manufacturing Ability of Australopit\nhecus Prometheus. American Anthropologist, 62(1), 134-138.\n. Type: generic",
           "link": "",
-          "x": 64688,
-          "y": 36948,
+          "x": 78460,
+          "y": 20772,
           "id": "5cc61af2-95d8-461c-8bc3-2988d4fd2c75",
           "font": {
             "align": "left"
@@ -49647,8 +49647,8 @@ var schemeData =
         "417cbe42-c7f0-4041-bd8c-2728b08e6513": {
           "label": "<cite class=\"citation journal\">Marmaras, N.; Poulakakis, G.; Papakosto\npoulos, V. (August 1999). \"Ergonomic design in ancient Greece\". <i>App\nlied Ergonomics</i>. <b>30</b> (4): 361–368. <a href=\"./Digital_object\n_identifier\" title=\"Digital object identifier\">doi</a>:<a rel=\"mw:ExtL\nink\" href=\"//doi.org/10.1016%2FS0003-6870%2898%2900050-7\" class=\"exter\nnal text\">10.1016/S0003-6870(98)00050-7</a>. <a href=\"./PubMed_Identif\nier\" title=\"PubMed Identifier\" class=\"mw-redirect\">PMID</a><span>&nbsp\n;</span><a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pubmed/104168\n49\" class=\"external text\">10416849</a>.</cite><link rel=\"mw-deduplicat\ned-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt7\n1\">. Type: journal",
           "link": "",
-          "x": 64715,
-          "y": 37071,
+          "x": 78487,
+          "y": 20895,
           "id": "417cbe42-c7f0-4041-bd8c-2728b08e6513",
           "font": {
             "align": "left"
@@ -49657,8 +49657,8 @@ var schemeData =
         "054dc22b-5c50-42c5-b099-fe76d67a2469": {
           "label": "<cite class=\"citation journal\">Franco, Giuliano; Franco, Francesca (20\n01). <a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pmc/articles/PMC\n1446786\" class=\"external text\">\"Bernardino Ramazzini: The Father of Oc\ncupational Medicine\"</a>. <i>American Journal of Public Health</i>. <b\n>91</b> (9): 1382. <a href=\"./Digital_object_identifier\" title=\"Digita\nl object identifier\">doi</a>:<a rel=\"mw:ExtLink\" href=\"//doi.org/10.21\n05%2FAJPH.91.9.1382\" class=\"external text\">10.2105/AJPH.91.9.1382</a>.\n <a href=\"./PubMed_Central\" title=\"PubMed Central\">PMC</a><span>&nbsp;\n</span><span class=\"cs1-lock-free\"><a rel=\"mw:ExtLink\" href=\"//www.ncb\ni.nlm.nih.gov/pmc/articles/PMC1446786\" class=\"external text\">1446786</\na></span>. <a href=\"./PubMed_Identifier\" title=\"PubMed Identifier\" cla\nss=\"mw-redirect\">PMID</a><span>&nbsp;</span><a rel=\"mw:ExtLink\" href=\"\n//www.ncbi.nlm.nih.gov/pubmed/11527763\" class=\"external text\">11527763\n</a>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:Tem\nplateStyles:r886058088\" about=\"#mwt77\">. Type: journal",
           "link": "",
-          "x": 64713,
-          "y": 37278,
+          "x": 78485,
+          "y": 21102,
           "id": "054dc22b-5c50-42c5-b099-fe76d67a2469",
           "font": {
             "align": "left"
@@ -49667,8 +49667,8 @@ var schemeData =
         "cc67160c-e5e8-45c1-8316-e49b52831031": {
           "label": "<a rel=\"mw:ExtLink\" href=\"http://www.quVladimir\" class=\"external text\"\n>Nikolayevich Myasishchev estia.com/library/1358216/the-history-of-hum\nan-factors-and-ergonomics The History of Human Factors and Ergonomics<\n/a>, David Meister. Type: generic",
           "link": "",
-          "x": 64710,
-          "y": 37436,
+          "x": 78482,
+          "y": 21260,
           "id": "cc67160c-e5e8-45c1-8316-e49b52831031",
           "font": {
             "align": "left"
@@ -49677,8 +49677,8 @@ var schemeData =
         "f5ecb661-c569-4fe1-b12a-f1b497f03582": {
           "label": "<cite id=\"CITEREFNeville_Moray2005\" class=\"citation\"><a href=\"./Nevill\ne_Moray\" title=\"Neville Moray\">Neville Moray</a> (2005), <i>Ergonomics\n: The history and scope of human factors</i>, Routledge, <a href=\"./In\nternational_Standard_Book_Number\" title=\"International Standard Book N\number\">ISBN</a><span>&nbsp;</span><a href=\"./Special:BookSources/97804\n15322577\" title=\"Special:BookSources/9780415322577\"><bdi>9780415322577\n</bdi></a>, <a href=\"./OCLC\" title=\"OCLC\">OCLC</a><span>&nbsp;</span><\na rel=\"mw:ExtLink\" href=\"//www.worldcat.org/oclc/54974550\" class=\"exte\nrnal text\">54974550</a>, <a href=\"./Open_Library\" title=\"Open Library\"\n>OL</a><span>&nbsp;</span><a rel=\"mw:ExtLink\" href=\"//openlibrary.org/\nbooks/OL7491513M\" class=\"external text\">7491513M</a>, 041532257X</cite\n><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles\n:r886058088\" about=\"#mwt83\">. Type: generic",
           "link": "",
-          "x": 64720,
-          "y": 37580,
+          "x": 78492,
+          "y": 21404,
           "id": "f5ecb661-c569-4fe1-b12a-f1b497f03582",
           "font": {
             "align": "left"
@@ -49687,8 +49687,8 @@ var schemeData =
         "e66f07b7-b84b-450b-9b98-03c2e261312d": {
           "label": "Porter, Elias H. (1964). <i>Manpower Development: The System Training \nConcept</i>. New York: Harper and Row, p. xiii.. Type: generic",
           "link": "",
-          "x": 64702,
-          "y": 37710,
+          "x": 78474,
+          "y": 21534,
           "id": "e66f07b7-b84b-450b-9b98-03c2e261312d",
           "font": {
             "align": "left"
@@ -49697,8 +49697,8 @@ var schemeData =
         "b317140a-fe60-418d-a106-d7fdb07e7a5c": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"https://msis.jsc.\nnasa.gov/sections/section01.htm\" class=\"external text\">\"NASA-STD-3000\"\n</a>. <q>1.2 OVERVIEW.</q></cite><link rel=\"mw-deduplicated-inline-sty\nle\" href=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt102\">. Type: w\neb",
           "link": "",
-          "x": 64710,
-          "y": 37784,
+          "x": 78482,
+          "y": 21608,
           "id": "b317140a-fe60-418d-a106-d7fdb07e7a5c",
           "font": {
             "align": "left"
@@ -49707,8 +49707,8 @@ var schemeData =
         "54e78422-feb9-4125-ad0a-4897f81e605e": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"https://ace-ergoc\nanada.ca/about/about-ace/index.html\" class=\"external text\">\"Associatio\nn of Canadian Ergonomists - about us\"</a>. <i>Association of Canadian \nErgonomists</i>. 2017<span class=\"reference-accessdate\">. Retrieved <s\npan class=\"nowrap\">16 May</span> 2018</span>.</cite><link rel=\"mw-dedu\nplicated-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" about=\n\"#mwt105\">. Type: web",
           "link": "",
-          "x": 64712,
-          "y": 37893,
+          "x": 78484,
+          "y": 21717,
           "id": "54e78422-feb9-4125-ad0a-4897f81e605e",
           "font": {
             "align": "left"
@@ -49717,8 +49717,8 @@ var schemeData =
         "0390576a-5422-42a2-a4f9-710fbf3cd92a": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"https://ace-ergoc\nanada.ca/about/governance/mission.html\" class=\"external text\">\"Mission\n\"</a>. <i>Association of Canadian Ergonomists</i>. 2017<span class=\"re\nference-accessdate\">. Retrieved <span class=\"nowrap\">16 May</span> 201\n8</span>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data\n:TemplateStyles:r886058088\" about=\"#mwt106\">. Type: web",
           "link": "",
-          "x": 64712,
-          "y": 38009,
+          "x": 78484,
+          "y": 21833,
           "id": "0390576a-5422-42a2-a4f9-710fbf3cd92a",
           "font": {
             "align": "left"
@@ -49727,8 +49727,8 @@ var schemeData =
         "be8b7a8f-692d-47d9-b2a4-433538b031cc": {
           "label": "Smithsonian Education. Carbon to Computers. (1998) A Short History of \nthe Birth and Growth of the American Offic.  <a rel=\"mw:ExtLink\" href=\n\"http://www.smithsonianeducation.org/scitech/carbons/text/birth.html\" \nclass=\"external free\">http://www.smithsonianeducation.org/scitech/carb\nons/text/birth.html</a>. Type: generic",
           "link": "",
-          "x": 64699,
-          "y": 38111,
+          "x": 78471,
+          "y": 21935,
           "id": "be8b7a8f-692d-47d9-b2a4-433538b031cc",
           "font": {
             "align": "left"
@@ -49737,8 +49737,8 @@ var schemeData =
         "1259f2c0-362b-48ec-897c-fd3b0c84f11d": {
           "label": "Jastrzębowski, W. B., Koradecka, D., (2000) An outline of ergonomics, \nor the science of work based upon the truths drawn from the Science of\n Nature: 1857 International Ergonomics Association., &amp; Human Facto\nrs and Ergonomics Society. (2000).. Warsaw: Central Institute for Labo\nur Protection.\n. Type: generic",
           "link": "",
-          "x": 64703,
-          "y": 38213,
+          "x": 78475,
+          "y": 22037,
           "id": "1259f2c0-362b-48ec-897c-fd3b0c84f11d",
           "font": {
             "align": "left"
@@ -49747,8 +49747,8 @@ var schemeData =
         "e0f1ba83-35b4-44b2-a39b-0927a38532e4": {
           "label": "Hewes, G. (1955). World Distribution of Certain Postural Habits. Ameri\ncan Anthropologist, 57(2), new series, 231-244. Retrieved from <a rel=\n\"mw:ExtLink\" href=\"http://www.jstor.org/stable/666393\" class=\"external\n free\">http://www.jstor.org/stable/666393</a>. Type: generic",
           "link": "",
-          "x": 64693,
-          "y": 38308,
+          "x": 78465,
+          "y": 22132,
           "id": "e0f1ba83-35b4-44b2-a39b-0927a38532e4",
           "font": {
             "align": "left"
@@ -49757,8 +49757,8 @@ var schemeData =
         "da87716b-e635-41c2-b980-ab19e57347fe": {
           "label": "C. Dimitri, A. Effland, and N. Conklin, (2005) The 20th Century Transf\normation of U.S. Agriculture and Farm Policy, Economic Information Bul\nletin Number. Type: generic",
           "link": "",
-          "x": 64695,
-          "y": 38382,
+          "x": 78467,
+          "y": 22206,
           "id": "da87716b-e635-41c2-b980-ab19e57347fe",
           "font": {
             "align": "left"
@@ -49767,8 +49767,8 @@ var schemeData =
         "cb316728-9f47-42a9-8fe8-4eaae5e0a1a7": {
           "label": "Wyatt, I. D. (2006). Occupational changes during the 20th century. Mon\nthly Lab. Rev., 129, 35.\n. Type: generic",
           "link": "",
-          "x": 64695,
-          "y": 38449,
+          "x": 78467,
+          "y": 22273,
           "id": "cb316728-9f47-42a9-8fe8-4eaae5e0a1a7",
           "font": {
             "align": "left"
@@ -49777,8 +49777,8 @@ var schemeData =
         "8b6c39d2-bf2d-49a0-9ddc-31292d7cd862": {
           "label": "<cite id=\"CITEREFRoughton2003\" class=\"citation\">Roughton, James E. (20\n03), \"Occupational Injury and Illness Recording and Reporting Requirem\nents, Part 1904\", <i>OSHA 2002 Recordkeeping Simplified</i>, Elsevier,\n pp.<span>&nbsp;</span>48–147, <a href=\"./Digital_object_identifier\" t\nitle=\"Digital object identifier\">doi</a>:<a rel=\"mw:ExtLink\" href=\"//d\noi.org/10.1016%2Fb978-075067559-8%2F50029-6\" class=\"external text\">10.\n1016/b978-075067559-8/50029-6</a>, <a href=\"./International_Standard_B\nook_Number\" title=\"International Standard Book Number\">ISBN</a><span>&\nnbsp;</span><a href=\"./Special:BookSources/9780750675598\" title=\"Speci\nal:BookSources/9780750675598\"><bdi>9780750675598</bdi></a></cite><link\n rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r8860\n58088\" about=\"#mwt117\">. Type: generic",
           "link": "",
-          "x": 64718,
-          "y": 38579,
+          "x": 78490,
+          "y": 22403,
           "id": "8b6c39d2-bf2d-49a0-9ddc-31292d7cd862",
           "font": {
             "align": "left"
@@ -49787,8 +49787,8 @@ var schemeData =
         "bf44f146-04a6-427a-a547-5bd82413f689": {
           "label": "<cite class=\"citation journal\">de Rezende, Leandro Fornias Machado; Re\ny-López, Juan Pablo; Matsudo, Victor Keihan Rodrigues; do Carmo Luiz, \nOlinda (9 April 2014). <a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.go\nv/pmc/articles/PMC4021060\" class=\"external text\">\"Sedentary behavior a\nnd health outcomes among older adults: a systematic review\"</a>. <i>BM\nC Public Health</i>. <b>14</b>: 333. <a href=\"./Digital_object_identif\nier\" title=\"Digital object identifier\">doi</a>:<a rel=\"mw:ExtLink\" hre\nf=\"//doi.org/10.1186%2F1471-2458-14-333\" class=\"external text\">10.1186\n/1471-2458-14-333</a>. <a href=\"./International_Standard_Serial_Number\n\" title=\"International Standard Serial Number\">ISSN</a><span>&nbsp;</s\npan><a rel=\"mw:ExtLink\" href=\"//www.worldcat.org/issn/1471-2458\" class\n=\"external text\">1471-2458</a>. <a href=\"./PubMed_Central\" title=\"PubM\ned Central\">PMC</a><span>&nbsp;</span><span class=\"cs1-lock-free\"><a r\nel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pmc/articles/PMC4021060\" \nclass=\"external text\">4021060</a></span>. <a href=\"./PubMed_Identifier\n\" title=\"PubMed Identifier\" class=\"mw-redirect\">PMID</a><span>&nbsp;</\nspan><a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pubmed/24712381\"\n class=\"external text\">24712381</a>.</cite><link rel=\"mw-deduplicated-\ninline-style\" href=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt118\"\n>. Type: journal",
           "link": "",
-          "x": 64713,
-          "y": 38828,
+          "x": 78485,
+          "y": 22652,
           "id": "bf44f146-04a6-427a-a547-5bd82413f689",
           "font": {
             "align": "left"
@@ -49797,8 +49797,8 @@ var schemeData =
         "51c53502-fbfc-4726-b990-8a02c8416e0d": {
           "label": "<cite class=\"citation journal\">Parry, Sharon; Straker, Leon (2013). <a\n rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pmc/articles/PMC3651291\n\" class=\"external text\">\"The contribution of office work to sedentary \nbehaviour associated risk\"</a>. <i>BMC Public Health</i>. <b>13</b>: 2\n96. <a href=\"./Digital_object_identifier\" title=\"Digital object identi\nfier\">doi</a>:<a rel=\"mw:ExtLink\" href=\"//doi.org/10.1186%2F1471-2458-\n13-296\" class=\"external text\">10.1186/1471-2458-13-296</a>. <a href=\".\n/PubMed_Central\" title=\"PubMed Central\">PMC</a><span>&nbsp;</span><spa\nn class=\"cs1-lock-free\"><a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.g\nov/pmc/articles/PMC3651291\" class=\"external text\">3651291</a></span>. \n<a href=\"./PubMed_Identifier\" title=\"PubMed Identifier\" class=\"mw-redi\nrect\">PMID</a><span>&nbsp;</span><a rel=\"mw:ExtLink\" href=\"//www.ncbi.\nnlm.nih.gov/pubmed/23557495\" class=\"external text\">23557495</a>.</cite\n><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles\n:r886058088\" about=\"#mwt126\">. Type: journal",
           "link": "",
-          "x": 64721,
-          "y": 39098,
+          "x": 78493,
+          "y": 22922,
           "id": "51c53502-fbfc-4726-b990-8a02c8416e0d",
           "font": {
             "align": "left"
@@ -49807,8 +49807,8 @@ var schemeData =
         "8ca7ebb6-6db1-41f8-9c23-b3b5e1234829": {
           "label": "Canadian Centre for Occupational Health. (2019, March 15). (none). Ret\nrieved February, 2019, from <a rel=\"mw:ExtLink\" href=\"https://www.ccoh\ns.ca/oshanswers/ergonomics/sitting/sitting_overview.html\" class=\"exter\nnal free\">https://www.ccohs.ca/oshanswers/ergonomics/sitting/sitting_o\nverview.html</a>. Type: generic",
           "link": "",
-          "x": 64699,
-          "y": 39263,
+          "x": 78471,
+          "y": 23087,
           "id": "8ca7ebb6-6db1-41f8-9c23-b3b5e1234829",
           "font": {
             "align": "left"
@@ -49817,8 +49817,8 @@ var schemeData =
         "8eca17f7-92df-4539-b7c4-b2c01cd6af7f": {
           "label": "<cite class=\"citation journal\">Konevic, S.; Martinovic, J.; Djonovic, \nN. (2015). <a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pmc/articl\nes/PMC4645725\" class=\"external text\">\"Association of Socioeconomic Fac\ntors and Sedentary Lifestyle in Belgrade's Suburb, Working Class Commu\nnity\"</a>. <i>Iranian Journal of Public Health</i>. <b>44</b> (8): 105\n3–60. <a href=\"./PubMed_Central\" title=\"PubMed Central\">PMC</a><span>&\nnbsp;</span><span class=\"cs1-lock-free\"><a rel=\"mw:ExtLink\" href=\"//ww\nw.ncbi.nlm.nih.gov/pmc/articles/PMC4645725\" class=\"external text\">4645\n725</a></span>. <a href=\"./PubMed_Identifier\" title=\"PubMed Identifier\n\" class=\"mw-redirect\">PMID</a><span>&nbsp;</span><a rel=\"mw:ExtLink\" h\nref=\"//www.ncbi.nlm.nih.gov/pubmed/26587469\" class=\"external text\">265\n87469</a>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-dat\na:TemplateStyles:r886058088\" about=\"#mwt145\">. Type: journal",
           "link": "",
-          "x": 64713,
-          "y": 39414,
+          "x": 78485,
+          "y": 23238,
           "id": "8eca17f7-92df-4539-b7c4-b2c01cd6af7f",
           "font": {
             "align": "left"
@@ -49827,8 +49827,8 @@ var schemeData =
         "e8bdb165-70ac-4f58-9d6b-1e181c7f8851": {
           "label": "<cite class=\"citation journal\">Yang, Lin; Hipp, J. Aaron; Lee, Jung Ae\n; Tabak, Rachel G.; Dodson, Elizabeth A.; Marx, Christine M.; Brownson\n, Ross C. (2017). <a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pmc\n/articles/PMC5374873\" class=\"external text\">\"Work-related correlates o\nf occupational sitting in a diverse sample of employees in Midwest met\nropolitan cities\"</a>. <i>Preventive Medicine Reports</i>. <b>6</b>: 1\n97–202. <a href=\"./Digital_object_identifier\" title=\"Digital object id\nentifier\">doi</a>:<a rel=\"mw:ExtLink\" href=\"//doi.org/10.1016%2Fj.pmed\nr.2017.03.008\" class=\"external text\">10.1016/j.pmedr.2017.03.008</a>. \n<a href=\"./PubMed_Central\" title=\"PubMed Central\">PMC</a><span>&nbsp;<\n/span><span class=\"cs1-lock-free\"><a rel=\"mw:ExtLink\" href=\"//www.ncbi\n.nlm.nih.gov/pmc/articles/PMC5374873\" class=\"external text\">5374873</a\n></span>. <a href=\"./PubMed_Identifier\" title=\"PubMed Identifier\" clas\ns=\"mw-redirect\">PMID</a><span>&nbsp;</span><a rel=\"mw:ExtLink\" href=\"/\n/www.ncbi.nlm.nih.gov/pubmed/28373929\" class=\"external text\">28373929<\n/a>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:Temp\nlateStyles:r886058088\" about=\"#mwt146\">. Type: journal",
           "link": "",
-          "x": 64715,
-          "y": 39649,
+          "x": 78487,
+          "y": 23473,
           "id": "e8bdb165-70ac-4f58-9d6b-1e181c7f8851",
           "font": {
             "align": "left"
@@ -49837,8 +49837,8 @@ var schemeData =
         "b4a4bb06-326a-492a-aade-c2afccfd0e96": {
           "label": "<cite class=\"citation journal\">Polanyi, M. F.; Cole, D. C.; Ferrier, S\n. E.; Facey, M.; Worksite Upper Extremity Research Group (March 2005).\n \"Paddling upstream: A contextual analysis of implementation of a work\nplace ergonomic policy at a large newspaper\". <i>Applied Ergonomics</i\n>. <b>36</b> (2): 231–239. <a href=\"./Digital_object_identifier\" title\n=\"Digital object identifier\">doi</a>:<a rel=\"mw:ExtLink\" href=\"//doi.o\nrg/10.1016%2Fj.apergo.2004.10.011\" class=\"external text\">10.1016/j.ape\nrgo.2004.10.011</a>. <a href=\"./PubMed_Identifier\" title=\"PubMed Ident\nifier\" class=\"mw-redirect\">PMID</a><span>&nbsp;</span><a rel=\"mw:ExtLi\nnk\" href=\"//www.ncbi.nlm.nih.gov/pubmed/15694078\" class=\"external text\n\">15694078</a>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"m\nw-data:TemplateStyles:r886058088\" about=\"#mwt153\">. Type: journal",
           "link": "",
-          "x": 64707,
-          "y": 39877,
+          "x": 78479,
+          "y": 23701,
           "id": "b4a4bb06-326a-492a-aade-c2afccfd0e96",
           "font": {
             "align": "left"
@@ -49847,8 +49847,8 @@ var schemeData =
         "f6542406-8998-4a75-a32c-90c0852c297e": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"http://risk.nv.go\nv/LP/ErgoPolicy/\" class=\"external text\">\"Ergonomics Policy\"</a>. <i>ri\nsk.nv.gov</i><span class=\"reference-accessdate\">. Retrieved <span clas\ns=\"nowrap\">28 March</span> 2019</span>.</cite><link rel=\"mw-deduplicat\ned-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt1\n59\">. Type: web",
           "link": "",
-          "x": 64708,
-          "y": 40028,
+          "x": 78480,
+          "y": 23852,
           "id": "f6542406-8998-4a75-a32c-90c0852c297e",
           "font": {
             "align": "left"
@@ -49857,8 +49857,8 @@ var schemeData =
         "a3a2f4e1-36ff-4786-9211-1912d8b736f3": {
           "label": "<cite class=\"citation book\">Stanton, N.; Salmon, P.; Walker G.; Baber,\n C.; Jenkins, D. (2005). <i>Human Factors Methods; A Practical Guide F\nor Engineering and Design</i>. Aldershot, Hampshire: Ashgate Publishin\ng Limited. <a href=\"./International_Standard_Book_Number\" title=\"Inter\nnational Standard Book Number\">ISBN</a><span>&nbsp;</span><a href=\"./S\npecial:BookSources/978-0-7546-4661-7\" title=\"Special:BookSources/978-0\n-7546-4661-7\"><bdi>978-0-7546-4661-7</bdi></a>.</cite><link rel=\"mw-de\nduplicated-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" abou\nt=\"#mwt165\">. Type: book",
           "link": "",
-          "x": 64716,
-          "y": 40158,
+          "x": 78488,
+          "y": 23982,
           "id": "a3a2f4e1-36ff-4786-9211-1912d8b736f3",
           "font": {
             "align": "left"
@@ -49867,8 +49867,8 @@ var schemeData =
         "873ff57e-2dde-4d9d-b46d-1f016fa7a570": {
           "label": "<cite class=\"citation journal\">Carrol, J.M. (1997). \"Human-Computer In\nteraction: Psychology as a Science of Design\". <i>Annual Review of Psy\nchology</i>. <b>48</b>: 61–83. <a href=\"./CiteSeerX\" title=\"CiteSeerX\"\n>CiteSeerX</a><span>&nbsp;</span><span class=\"cs1-lock-free\"><a rel=\"m\nw:ExtLink\" href=\"//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.24\n.5979\" class=\"external text\">10.1.1.24.5979</a></span>. <a href=\"./Dig\nital_object_identifier\" title=\"Digital object identifier\">doi</a>:<a r\nel=\"mw:ExtLink\" href=\"//doi.org/10.1146%2Fannurev.psych.48.1.61\" class\n=\"external text\">10.1146/annurev.psych.48.1.61</a>. <a href=\"./PubMed_\nIdentifier\" title=\"PubMed Identifier\" class=\"mw-redirect\">PMID</a><spa\nn>&nbsp;</span><a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pubmed\n/15012476\" class=\"external text\">15012476</a>.</cite><link rel=\"mw-ded\nuplicated-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" about\n=\"#mwt167\">. Type: journal",
           "link": "",
-          "x": 64712,
-          "y": 40344,
+          "x": 78484,
+          "y": 24168,
           "id": "873ff57e-2dde-4d9d-b46d-1f016fa7a570",
           "font": {
             "align": "left"
@@ -49877,8 +49877,8 @@ var schemeData =
         "0a68b577-f88b-460a-8a93-74ab073e53de": {
           "label": "<cite class=\"citation web\"><a rel=\"mw:ExtLink\" href=\"http://www.better\noffice.net/articles/survey-methods-pros-cons/16\" class=\"external text\"\n>\"Survey Methods, Pros &amp; Cons\"</a>. Better Office.net<span class=\"\nreference-accessdate\">. Retrieved <span class=\"nowrap\">17 April</span>\n 2014</span>.</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-\ndata:TemplateStyles:r886058088\" about=\"#mwt170\">. Type: web",
           "link": "",
-          "x": 64705,
-          "y": 40509,
+          "x": 78477,
+          "y": 24333,
           "id": "0a68b577-f88b-460a-8a93-74ab073e53de",
           "font": {
             "align": "left"
@@ -49887,8 +49887,8 @@ var schemeData =
         "62ee9be2-43a8-409d-bb3c-edd4c706a1a8": {
           "label": "Wickens, C.D.; Lee J.D.; Liu Y.; Gorden Becker S.E. (1997). An Introdu\nction to Human Factors Engineering, 2nd Edition. Prentice Hall. <link \nrel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r88605\n8088\" about=\"#mwt171\"><a href=\"./International_Standard_Book_Number\" t\nitle=\"International Standard Book Number\">ISBN</a><span>&nbsp;</span><\na href=\"./Special:BookSources/0-321-01229-1\" title=\"Special:BookSource\ns/0-321-01229-1\">0-321-01229-1</a>.. Type: generic",
           "link": "",
-          "x": 64712,
-          "y": 40625,
+          "x": 78484,
+          "y": 24449,
           "id": "62ee9be2-43a8-409d-bb3c-edd4c706a1a8",
           "font": {
             "align": "left"
@@ -49897,8 +49897,8 @@ var schemeData =
         "2e33e351-1d14-473c-848f-4c024634ac70": {
           "label": "<cite class=\"citation journal\">Kuusela, H.; Paul, P. (2000). \"A compar\nison of concurrent and retrospective verbal protocol analysis\". <i>The\n American Journal of Psychology</i>. <b>113</b> (3): 387–404. <a href=\n\"./Digital_object_identifier\" title=\"Digital object identifier\">doi</a\n>:<a rel=\"mw:ExtLink\" href=\"//doi.org/10.2307%2F1423365\" class=\"extern\nal text\">10.2307/1423365</a>. <a href=\"./JSTOR\" title=\"JSTOR\">JSTOR</a\n><span>&nbsp;</span><a rel=\"mw:ExtLink\" href=\"//www.jstor.org/stable/1\n423365\" class=\"external text\">1423365</a>. <a href=\"./PubMed_Identifie\nr\" title=\"PubMed Identifier\" class=\"mw-redirect\">PMID</a><span>&nbsp;<\n/span><a rel=\"mw:ExtLink\" href=\"//www.ncbi.nlm.nih.gov/pubmed/10997234\n\" class=\"external text\">10997234</a>.</cite><link rel=\"mw-deduplicated\n-inline-style\" href=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt186\n\">. Type: journal",
           "link": "",
-          "x": 64709,
-          "y": 40790,
+          "x": 78481,
+          "y": 24614,
           "id": "2e33e351-1d14-473c-848f-4c024634ac70",
           "font": {
             "align": "left"
@@ -49907,8 +49907,8 @@ var schemeData =
         "ce1c60c3-20ae-4512-b623-28bf1fc377af": {
           "label": "<cite class=\"citation book\">Thomas J. Armstrong (2007). <i>Measurement\n and Design of Work</i>.</cite><link rel=\"mw-deduplicated-inline-style\n\" href=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt191\">. Type: boo\nk",
           "link": "",
-          "x": 64711,
-          "y": 40934,
+          "x": 78483,
+          "y": 24758,
           "id": "ce1c60c3-20ae-4512-b623-28bf1fc377af",
           "font": {
             "align": "left"
@@ -49917,8 +49917,8 @@ var schemeData =
         "11cf4c4f-540b-4522-8765-9162c683437c": {
           "label": "Brookhuis, K., Hedge, A., Hendrick, H., Salas, E., and Stanton, N. (20\n05). Handbook of Human Factors and Ergonomics Models. Florida: CRC Pre\nss.. Type: generic",
           "link": "",
-          "x": 64712,
-          "y": 41008,
+          "x": 78484,
+          "y": 24832,
           "id": "11cf4c4f-540b-4522-8765-9162c683437c",
           "font": {
             "align": "left"
@@ -49927,8 +49927,8 @@ var schemeData =
         "0e9ebbb7-1015-4617-8d86-4f50f0d7e060": {
           "label": "Ben-Gal et al. (2002), The Ergonomic Design of Workstation Using Rapid\n Prototyping and Response Surface Methodology. IIE Transactions on Des\nign and Manufacturing, 34(4), 375–391. Available at: <a rel=\"mw:ExtLin\nk\" href=\"http://www.eng.tau.ac.il/~bengal/Ergonomics_Paper.pdf\" class=\n\"external free\">http://www.eng.tau.ac.il/~bengal/Ergonomics_Paper.pdf<\n/a>. Type: generic",
           "link": "",
-          "x": 64704,
-          "y": 41096,
+          "x": 78476,
+          "y": 24920,
           "id": "0e9ebbb7-1015-4617-8d86-4f50f0d7e060",
           "font": {
             "align": "left"
@@ -49937,8 +49937,8 @@ var schemeData =
         "4d9d2623-37cc-458e-9db3-ccfc5f6ad217": {
           "label": "<cite class=\"citation journal\">Hornbaek, K (2006). \"Current Practice i\nn Measuring Usability: Challenges to Usability Studies and Research\". \n<i>International Journal of Human-Computer Studies</i>. <b>64</b> (2):\n 79–102. <a href=\"./Digital_object_identifier\" title=\"Digital object i\ndentifier\">doi</a>:<a rel=\"mw:ExtLink\" href=\"//doi.org/10.1016%2Fj.ijh\ncs.2005.06.002\" class=\"external text\">10.1016/j.ijhcs.2005.06.002</a>.\n</cite><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:Template\nStyles:r886058088\" about=\"#mwt230\">. Type: journal",
           "link": "",
-          "x": 64699,
-          "y": 41219,
+          "x": 78471,
+          "y": 25043,
           "id": "4d9d2623-37cc-458e-9db3-ccfc5f6ad217",
           "font": {
             "align": "left"
@@ -49947,8 +49947,8 @@ var schemeData =
         "c780d29b-2706-42de-b946-3328a3c55436": {
           "label": "<cite class=\"citation book\">Dumas, J. S.; Salzman, M.C. (2006). <i>Rev\niews of Human Factors and Ergonomics</i>. <b>2</b>. Human Factors and \nErgonomics Society.</cite><link rel=\"mw-deduplicated-inline-style\" hre\nf=\"mw-data:TemplateStyles:r886058088\" about=\"#mwt232\">. Type: book",
           "link": "",
-          "x": 64710,
-          "y": 41328,
+          "x": 78482,
+          "y": 25152,
           "id": "c780d29b-2706-42de-b946-3328a3c55436",
           "font": {
             "align": "left"
@@ -49956,8 +49956,8 @@ var schemeData =
         },
         "1fb8ccf8-0b70-4a4c-9dcd-b23dd798bdad": {
           "id": "1fb8ccf8-0b70-4a4c-9dcd-b23dd798bdad",
-          "x": 62747,
-          "y": 45673,
+          "x": 76519,
+          "y": 29497,
           "label": "Wikipedia categories",
           "shape": "box",
           "link": "",
@@ -49973,14 +49973,14 @@ var schemeData =
         },
         "051afdf6-c64c-4549-9ba2-7fc111dcb901": {
           "id": "051afdf6-c64c-4549-9ba2-7fc111dcb901",
-          "x": 62757,
-          "y": 37063,
+          "x": 76529,
+          "y": 20887,
           "label": "https://en.wikipedia.org/wiki/Human_factors_and_ergonomics"
         },
         "dbc5ae0a-1569-41c9-a0bd-62fb27b261c6": {
           "id": "dbc5ae0a-1569-41c9-a0bd-62fb27b261c6",
-          "x": 62316,
-          "y": 50564,
+          "x": 76511,
+          "y": 34384,
           "label": "https://archive.org/search.php?query=ergonomics%20mediatype%3A%28texts%29",
           "shape": "box",
           "link": "https://archive.org/search.php?query=ergonomics%20mediatype%3A%28texts%29",
@@ -49996,32 +49996,32 @@ var schemeData =
         },
         "1521c6f9-7add-4907-9e8e-60fcee873af9": {
           "id": "1521c6f9-7add-4907-9e8e-60fcee873af9",
-          "x": 61698,
-          "y": 50560,
+          "x": 75893,
+          "y": 34380,
           "label": "arhive.org"
         },
         "932b4bf1-a1a2-45b8-86b3-c506a6ae9a61": {
           "id": "932b4bf1-a1a2-45b8-86b3-c506a6ae9a61",
-          "x": 61905,
-          "y": 50566,
+          "x": 76100,
+          "y": 34386,
           "label": "ergonomics mediatype:(texts)"
         },
         "6d2aa765-fb22-4c43-93c5-0e101474ade1": {
           "id": "6d2aa765-fb22-4c43-93c5-0e101474ade1",
-          "x": 61689,
-          "y": 50665,
+          "x": 75884,
+          "y": 34485,
           "label": "libgen"
         },
         "088e27db-2376-48bb-9ce1-d7a6cb22a369": {
           "id": "088e27db-2376-48bb-9ce1-d7a6cb22a369",
-          "x": 61863,
-          "y": 50664,
+          "x": 76058,
+          "y": 34484,
           "label": "ergonomics"
         },
         "64095707-5dde-4c10-a6da-32107a50b969": {
           "id": "64095707-5dde-4c10-a6da-32107a50b969",
-          "x": 62411,
-          "y": 50665,
+          "x": 76606,
+          "y": 34485,
           "label": "http://libgen.is/search.php?req=ergonomics&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def",
           "shape": "box",
           "link": "http://libgen.is/search.php?req=ergonomics&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def",
@@ -50037,20 +50037,20 @@ var schemeData =
         },
         "985fb72c-4d35-4156-a963-5d708d7f6e9f": {
           "id": "985fb72c-4d35-4156-a963-5d708d7f6e9f",
-          "x": 61731,
-          "y": 51015,
+          "x": 75926,
+          "y": 34835,
           "label": "libgen"
         },
         "60a41851-edd8-46e1-a04c-c7e0380987ec": {
           "id": "60a41851-edd8-46e1-a04c-c7e0380987ec",
-          "x": 61878,
-          "y": 51015,
+          "x": 76073,
+          "y": 34835,
           "label": "ergonomics"
         },
         "d165b135-58f0-406e-a47c-77891be6c4d9": {
           "id": "d165b135-58f0-406e-a47c-77891be6c4d9",
-          "x": 62147,
-          "y": 51022,
+          "x": 76342,
+          "y": 34842,
           "label": "http://libgen.is/scimag/?q=ergonomics",
           "shape": "box",
           "link": "http://libgen.is/scimag/?q=ergonomics",
@@ -50327,8 +50327,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Precis writing books compilation",
           "id": "48328339-c71d-4a11-8be6-408b30b01c4b869",
-          "x": 64439,
-          "y": 8137
+          "x": 64395,
+          "y": 13362
         },
         "c7002fdc-6b6c-48d7-acda-5bb29cb4d40e869": {
           "color": {
@@ -50353,8 +50353,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Modern studies in indexing and precis of correspondence",
-          "x": 64909,
-          "y": 7726,
+          "x": 64865,
+          "y": 12951,
           "id": "c7002fdc-6b6c-48d7-acda-5bb29cb4d40e869"
         },
         "bb00ed3d-8e90-44ba-9401-c57e6a12423c869": {
@@ -50384,8 +50384,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/modernstudiesin00huntgoog",
-          "x": 65653,
-          "y": 7732,
+          "x": 65609,
+          "y": 12957,
           "id": "bb00ed3d-8e90-44ba-9401-c57e6a12423c869",
           "shape": "box",
           "link": "https://archive.org/details/modernstudiesin00huntgoog",
@@ -50414,8 +50414,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Indexing and précis writing",
-          "x": 64812,
-          "y": 7774,
+          "x": 64768,
+          "y": 12999,
           "id": "3d7af1fd-d446-4511-823b-4d891e80824e869"
         },
         "332dfbb6-e2be-4f81-8f7b-97c9901cdd12869": {
@@ -50445,8 +50445,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/indexingprcisw00beakrich",
-          "x": 65644,
-          "y": 7773,
+          "x": 65600,
+          "y": 12998,
           "id": "332dfbb6-e2be-4f81-8f7b-97c9901cdd12869",
           "shape": "box",
           "link": "https://archive.org/details/indexingprcisw00beakrich",
@@ -50475,8 +50475,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "The Principles of Precis",
-          "x": 64802,
-          "y": 7822,
+          "x": 64758,
+          "y": 13047,
           "id": "23a5c250-79a8-4fba-99e7-5cf18a9fbf27869"
         },
         "7fd59115-dd6e-4047-820a-9d3dfa18a675869": {
@@ -50504,8 +50504,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "md5=5380E1EA828DAE0D81A3B988995EB272",
-          "x": 65634,
-          "y": 7819,
+          "x": 65590,
+          "y": 13044,
           "id": "7fd59115-dd6e-4047-820a-9d3dfa18a675869",
           "shape": "box",
           "link": "",
@@ -50534,8 +50534,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Modern Business Correspondence And Precis Writing",
-          "x": 64897,
-          "y": 7870,
+          "x": 64853,
+          "y": 13095,
           "id": "75a720a6-8230-47c6-bf69-7326d3e7e93f869"
         },
         "884dc055-897a-4b2e-96a4-156df1181c30869": {
@@ -50565,8 +50565,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/in.ernet.dli.2015.114472",
-          "x": 65640,
-          "y": 7862,
+          "x": 65596,
+          "y": 13087,
           "id": "884dc055-897a-4b2e-96a4-156df1181c30869",
           "shape": "box",
           "link": "https://archive.org/details/in.ernet.dli.2015.114472",
@@ -50595,8 +50595,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Civil service examinations. An introduction to the writing of précis or digests. [With] Key",
-          "x": 65001,
-          "y": 7918,
+          "x": 64957,
+          "y": 13143,
           "id": "fa463c4a-c052-4025-9859-49fb985dcce1869"
         },
         "d86024e7-8e73-4115-ae31-184411adbb2a869": {
@@ -50626,8 +50626,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/civilserviceexa02huntgoog",
-          "x": 65646,
-          "y": 7915,
+          "x": 65602,
+          "y": 13140,
           "id": "d86024e7-8e73-4115-ae31-184411adbb2a869",
           "shape": "box",
           "link": "https://archive.org/details/civilserviceexa02huntgoog",
@@ -50656,8 +50656,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Key to Hunter's Introduction to the Writing of Précis Or Digests",
-          "x": 64924,
-          "y": 7966,
+          "x": 64880,
+          "y": 13191,
           "id": "19882fb8-dba2-42b4-896a-5ff33692ac1a869"
         },
         "270e6ee0-bc66-47c4-9a2d-10694f536aec869": {
@@ -50687,8 +50687,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/keytohuntersint00huntgoog",
-          "x": 65649,
-          "y": 7973,
+          "x": 65605,
+          "y": 13198,
           "id": "270e6ee0-bc66-47c4-9a2d-10694f536aec869",
           "shape": "box",
           "link": "https://archive.org/details/keytohuntersint00huntgoog",
@@ -50717,8 +50717,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Civil service précis",
-          "x": 64786,
-          "y": 8014,
+          "x": 64742,
+          "y": 13239,
           "id": "b10d017b-aa6d-40d1-859a-4fc5281d4123869"
         },
         "8bf532b3-0bb0-4825-8699-f8fc886e9b5c869": {
@@ -50748,8 +50748,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/civilserviceprc01johngoog",
-          "x": 65644,
-          "y": 8017,
+          "x": 65600,
+          "y": 13242,
           "id": "8bf532b3-0bb0-4825-8699-f8fc886e9b5c869",
           "shape": "box",
           "link": "https://archive.org/details/civilserviceprc01johngoog",
@@ -50778,8 +50778,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "A progressive course of précis writing",
-          "x": 64846,
-          "y": 8062,
+          "x": 64802,
+          "y": 13287,
           "id": "4c9a7898-6655-4dba-8e69-e27f2e617309869"
         },
         "b29ab6f9-910a-4a0d-9260-ae3659e5130a869": {
@@ -50809,8 +50809,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/progressivecours00roberich",
-          "x": 65651,
-          "y": 8058,
+          "x": 65607,
+          "y": 13283,
           "id": "b29ab6f9-910a-4a0d-9260-ae3659e5130a869",
           "shape": "box",
           "link": "https://archive.org/details/progressivecours00roberich",
@@ -50839,8 +50839,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Precis-writing",
-          "x": 64770,
-          "y": 8110,
+          "x": 64726,
+          "y": 13335,
           "id": "366ffb57-9ddf-4d73-813f-f69887b66855869"
         },
         "1f3e2758-06ca-4286-a30c-823c33c49de8869": {
@@ -50870,8 +50870,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/in.ernet.dli.2015.19604",
-          "x": 65636,
-          "y": 8101,
+          "x": 65592,
+          "y": 13326,
           "id": "1f3e2758-06ca-4286-a30c-823c33c49de8869",
           "shape": "box",
           "link": "https://archive.org/details/in.ernet.dli.2015.19604",
@@ -50900,8 +50900,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Practical indexing and précis writing",
-          "x": 64840,
-          "y": 8158,
+          "x": 64796,
+          "y": 13383,
           "id": "8f84e9ac-808c-4952-b33a-b6e6a25f601b869"
         },
         "b232e9c6-488b-45e4-b2be-e762e71aaf4d869": {
@@ -50931,8 +50931,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/practicalindexin00sker",
-          "x": 65633,
-          "y": 8146,
+          "x": 65589,
+          "y": 13371,
           "id": "b232e9c6-488b-45e4-b2be-e762e71aaf4d869",
           "shape": "box",
           "link": "https://archive.org/details/practicalindexin00sker",
@@ -50961,8 +50961,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "The précis book: or Lessons in accuracy of statement [&c.]. [With] Key",
-          "x": 64949,
-          "y": 8206,
+          "x": 64905,
+          "y": 13431,
           "id": "0a22b54e-2751-4861-b377-677126fc2b7a869"
         },
         "92aff6c1-f68b-4839-9fc3-eaf73e04b742869": {
@@ -50992,8 +50992,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/prcisbookorless00monkgoog",
-          "x": 65654,
-          "y": 8194,
+          "x": 65610,
+          "y": 13419,
           "id": "92aff6c1-f68b-4839-9fc3-eaf73e04b742869",
           "shape": "box",
           "link": "https://archive.org/details/prcisbookorless00monkgoog",
@@ -51022,8 +51022,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Précis writing for American schools: methods of abridging, summarizing, condensing, with copious exercises",
-          "x": 65069,
-          "y": 8254,
+          "x": 65025,
+          "y": 13479,
           "id": "b99a3042-6e47-49ea-9016-ae2a89a89dd2869"
         },
         "b7f10e46-8943-471b-8ea0-62d1ab06e465869": {
@@ -51053,8 +51053,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/prciswritingfora00thur",
-          "x": 65631,
-          "y": 8246,
+          "x": 65587,
+          "y": 13471,
           "id": "b7f10e46-8943-471b-8ea0-62d1ab06e465869",
           "shape": "box",
           "link": "https://archive.org/details/prciswritingfora00thur",
@@ -51083,8 +51083,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Precis writing for army classes, civil service candidates, etc.",
-          "x": 64915,
-          "y": 8302,
+          "x": 64871,
+          "y": 13527,
           "id": "b6ecd8b8-c38d-4b60-81e8-2ab6fbbb4ae2869"
         },
         "0c3c8b7a-c8fe-4eee-bb60-37ee53da28e4869": {
@@ -51114,8 +51114,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/preciswritingfo00compgoog",
-          "x": 65650,
-          "y": 8291,
+          "x": 65606,
+          "y": 13516,
           "id": "0c3c8b7a-c8fe-4eee-bb60-37ee53da28e4869",
           "shape": "box",
           "link": "https://archive.org/details/preciswritingfo00compgoog",
@@ -51144,8 +51144,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Précis writing for beginners",
-          "x": 64813,
-          "y": 8350,
+          "x": 64769,
+          "y": 13575,
           "id": "103d9b1a-7bf4-4727-b13d-da184b03311f869"
         },
         "af1e5de3-4b71-436c-9450-7c6cf0d59dad869": {
@@ -51175,8 +51175,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/prciswritingfo00poco",
-          "x": 65628,
-          "y": 8348,
+          "x": 65584,
+          "y": 13573,
           "id": "af1e5de3-4b71-436c-9450-7c6cf0d59dad869",
           "shape": "box",
           "link": "https://archive.org/details/prciswritingfo00poco",
@@ -51205,8 +51205,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Precis Writing Part Ii",
-          "x": 64791,
-          "y": 8398,
+          "x": 64747,
+          "y": 13623,
           "id": "e5b5ed4f-15de-4eef-a83c-a0aca2dcb625869"
         },
         "79906921-3795-454c-8fad-f0040bedb7e7869": {
@@ -51236,8 +51236,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/in.ernet.dli.2015.90617",
-          "x": 65636,
-          "y": 8396,
+          "x": 65592,
+          "y": 13621,
           "id": "79906921-3795-454c-8fad-f0040bedb7e7869",
           "shape": "box",
           "link": "https://archive.org/details/in.ernet.dli.2015.90617",
@@ -51266,8 +51266,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Precis Writing Part Iii",
-          "x": 64793,
-          "y": 8446,
+          "x": 64749,
+          "y": 13671,
           "id": "3bab809a-371f-4565-beb6-f608ce3494d0869"
         },
         "a9d0dec4-13f2-4a22-9be9-907337bf5b81869": {
@@ -51297,8 +51297,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/in.ernet.dli.2015.90666",
-          "x": 65636,
-          "y": 8437,
+          "x": 65592,
+          "y": 13662,
           "id": "a9d0dec4-13f2-4a22-9be9-907337bf5b81869",
           "shape": "box",
           "link": "https://archive.org/details/in.ernet.dli.2015.90666",
@@ -51327,8 +51327,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Precis Pie",
-          "x": 64759,
-          "y": 8494,
+          "x": 64715,
+          "y": 13719,
           "id": "f5703310-351e-4ea7-a6b9-cc313c533b39869"
         },
         "7199bf26-5d93-4768-9140-b16713c71f13869": {
@@ -51358,8 +51358,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/in.ernet.dli.2015.136264",
-          "x": 65640,
-          "y": 8478,
+          "x": 65596,
+          "y": 13703,
           "id": "7199bf26-5d93-4768-9140-b16713c71f13869",
           "shape": "box",
           "link": "https://archive.org/details/in.ernet.dli.2015.136264",
@@ -51388,8 +51388,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Precis Notes And Summaries",
-          "x": 64820,
-          "y": 8542,
+          "x": 64776,
+          "y": 13767,
           "id": "718185c8-7b27-4f8f-9129-4bd2ba22c803869"
         },
         "37381617-3750-409b-a95c-e00bbc78909e869": {
@@ -51419,8 +51419,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/in.ernet.dli.2015.214672",
-          "x": 65640,
-          "y": 8526,
+          "x": 65596,
+          "y": 13751,
           "id": "37381617-3750-409b-a95c-e00bbc78909e869",
           "shape": "box",
           "link": "https://archive.org/details/in.ernet.dli.2015.214672",
@@ -51449,8 +51449,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "A Key To Wilsons Precis Notes And Summaries",
-          "x": 64876,
-          "y": 8590,
+          "x": 64832,
+          "y": 13815,
           "id": "e7e8521d-33c0-4afa-90fd-d03c8659b253869"
         },
         "21f34b09-5845-460c-ac6e-1b15b8fff8da869": {
@@ -51480,8 +51480,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/in.ernet.dli.2015.214632",
-          "x": 65640,
-          "y": 8567,
+          "x": 65596,
+          "y": 13792,
           "id": "21f34b09-5845-460c-ac6e-1b15b8fff8da869",
           "shape": "box",
           "link": "https://archive.org/details/in.ernet.dli.2015.214632",
@@ -51510,8 +51510,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Precis Writing",
-          "x": 64771,
-          "y": 8638,
+          "x": 64727,
+          "y": 13863,
           "id": "a3ba673a-3423-44fc-8197-a0dae75d6516869"
         },
         "ab5469b9-52f9-414d-a300-e12249740017869": {
@@ -51541,8 +51541,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "https://archive.org/details/in.ernet.dli.2015.81029",
-          "x": 65636,
-          "y": 8617,
+          "x": 65592,
+          "y": 13842,
           "id": "ab5469b9-52f9-414d-a300-e12249740017869",
           "shape": "box",
           "link": "https://archive.org/details/in.ernet.dli.2015.81029",
@@ -51576,8 +51576,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "RDF",
-          "x": 77041,
-          "y": 14379,
+          "x": 88934,
+          "y": 6795,
           "id": "d45603bf-3a49-439a-ba51-32eabad9bdf836872493",
           "shape": "box",
           "link": "",
@@ -51608,8 +51608,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 77341,
-          "y": 14829,
+          "x": 89234,
+          "y": 7245,
           "id": "bebfc265-af1a-4bd3-b618-b996f8c6fc4736872493"
         },
         "05b6b61f-4316-4159-b4e9-76964da76fd736872493": {
@@ -51637,8 +51637,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 77591,
-          "y": 14829,
+          "x": 89484,
+          "y": 7245,
           "id": "05b6b61f-4316-4159-b4e9-76964da76fd736872493"
         },
         "61a53196-311b-4bf1-9028-cd0327ad2b4936872493": {
@@ -51666,8 +51666,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 77491,
-          "y": 14829,
+          "x": 89384,
+          "y": 7245,
           "id": "61a53196-311b-4bf1-9028-cd0327ad2b4936872493"
         },
         "a4be31b6-786a-45f8-adb6-995d112e9fa136872493": {
@@ -51695,8 +51695,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 77341,
-          "y": 13979,
+          "x": 89234,
+          "y": 6395,
           "id": "a4be31b6-786a-45f8-adb6-995d112e9fa136872493"
         },
         "ea5d2bca-b6d3-4dd1-a85b-a50a3e81b49d36872493": {
@@ -51724,8 +51724,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 77491,
-          "y": 13729,
+          "x": 89384,
+          "y": 6145,
           "id": "ea5d2bca-b6d3-4dd1-a85b-a50a3e81b49d36872493"
         },
         "e41163c3-0f7f-484d-ac29-58c52dc3cc4b36872493": {
@@ -51753,8 +51753,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 77491,
-          "y": 13979,
+          "x": 89384,
+          "y": 6395,
           "id": "e41163c3-0f7f-484d-ac29-58c52dc3cc4b36872493"
         },
         "852e67a0-de17-41bd-b734-070a27c24def36872493": {
@@ -51782,8 +51782,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 77491,
-          "y": 14229,
+          "x": 89384,
+          "y": 6645,
           "id": "852e67a0-de17-41bd-b734-070a27c24def36872493"
         },
         "fbafbced-35b6-4848-aef2-5c5829d19f4636872493": {
@@ -51811,8 +51811,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 77555,
-          "y": 14079,
+          "x": 89448,
+          "y": 6495,
           "id": "fbafbced-35b6-4848-aef2-5c5829d19f4636872493"
         },
         "7aab11ff-b7f9-4207-9150-1c27094350d536872493": {
@@ -51840,8 +51840,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 77586,
-          "y": 14104,
+          "x": 89479,
+          "y": 6520,
           "id": "7aab11ff-b7f9-4207-9150-1c27094350d536872493"
         },
         "cd0f71af-c40a-44ce-ae3e-b7111929c59136872493": {
@@ -51869,8 +51869,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 77551,
-          "y": 14129,
+          "x": 89444,
+          "y": 6545,
           "id": "cd0f71af-c40a-44ce-ae3e-b7111929c59136872493"
         },
         "ad2e64e2-9c09-4575-aaa2-9a69747e028b36872493": {
@@ -51898,8 +51898,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 77570,
-          "y": 14154,
+          "x": 89463,
+          "y": 6570,
           "id": "ad2e64e2-9c09-4575-aaa2-9a69747e028b36872493"
         },
         "380aff22-6dc8-484b-b4ee-dea554db36f636872493": {
@@ -51927,8 +51927,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 77559,
-          "y": 14179,
+          "x": 89452,
+          "y": 6595,
           "id": "380aff22-6dc8-484b-b4ee-dea554db36f636872493"
         },
         "a00e146d-9b15-4404-9186-a0ed4409187236872493": {
@@ -51956,8 +51956,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 77581,
-          "y": 14204,
+          "x": 89474,
+          "y": 6620,
           "id": "a00e146d-9b15-4404-9186-a0ed4409187236872493"
         },
         "d7421b13-0ac9-4f34-92bc-82684b1734e936872493": {
@@ -51985,8 +51985,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 77583,
-          "y": 14229,
+          "x": 89476,
+          "y": 6645,
           "id": "d7421b13-0ac9-4f34-92bc-82684b1734e936872493"
         },
         "b944f0b1-03d1-44cb-9ae3-43821400717836872493": {
@@ -52014,8 +52014,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 77561,
-          "y": 14254,
+          "x": 89454,
+          "y": 6670,
           "id": "b944f0b1-03d1-44cb-9ae3-43821400717836872493"
         },
         "b5490c56-1213-40c0-b054-c8d224c857ca36872493": {
@@ -52043,8 +52043,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 77552,
-          "y": 14279,
+          "x": 89445,
+          "y": 6695,
           "id": "b5490c56-1213-40c0-b054-c8d224c857ca36872493"
         },
         "aae77d28-ab39-40ca-8879-5848d2a07bb236872493": {
@@ -52072,8 +52072,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 77580,
-          "y": 14304,
+          "x": 89473,
+          "y": 6720,
           "id": "aae77d28-ab39-40ca-8879-5848d2a07bb236872493"
         },
         "8f17f651-79a2-4f02-af47-5d094eaa61c836872493": {
@@ -52101,8 +52101,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 77566,
-          "y": 14329,
+          "x": 89459,
+          "y": 6745,
           "id": "8f17f651-79a2-4f02-af47-5d094eaa61c836872493"
         },
         "a7d69bbf-13c8-4830-a2e1-6ff7fe89512a36872493": {
@@ -52130,8 +52130,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 77588,
-          "y": 14354,
+          "x": 89481,
+          "y": 6770,
           "id": "a7d69bbf-13c8-4830-a2e1-6ff7fe89512a36872493"
         },
         "46447f69-f59b-42a3-9788-49abc2b5bd4e36872493": {
@@ -52159,8 +52159,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 77552,
-          "y": 14379,
+          "x": 89445,
+          "y": 6795,
           "id": "46447f69-f59b-42a3-9788-49abc2b5bd4e36872493"
         },
         "cdaa7787-2b29-49f8-b2e8-71aa482a4a6b36872493": {
@@ -52188,8 +52188,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 77591,
-          "y": 14404,
+          "x": 89484,
+          "y": 6820,
           "id": "cdaa7787-2b29-49f8-b2e8-71aa482a4a6b36872493"
         },
         "cc72c521-c59e-4a03-9607-fe4fd1f2506736872493": {
@@ -52217,8 +52217,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 77341,
-          "y": 14529,
+          "x": 89234,
+          "y": 6945,
           "id": "cc72c521-c59e-4a03-9607-fe4fd1f2506736872493"
         },
         "db3146fe-8ec6-4f24-ac7a-9f05efcffa4936872493": {
@@ -52246,8 +52246,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 77341,
-          "y": 14629,
+          "x": 89234,
+          "y": 7045,
           "id": "db3146fe-8ec6-4f24-ac7a-9f05efcffa4936872493"
         },
         "fd17ade9-7b15-4cea-9c53-189aa20c38a636872493": {
@@ -52275,8 +52275,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 77341,
-          "y": 14729,
+          "x": 89234,
+          "y": 7145,
           "id": "fd17ade9-7b15-4cea-9c53-189aa20c38a636872493"
         },
         "d21fa3e2-fe64-4ef5-bbd3-89d4a9ded9ed36872493": {
@@ -52307,8 +52307,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Semantics IT",
-          "x": 75089,
-          "y": 22062,
+          "x": 87658,
+          "y": 14558,
           "id": "d21fa3e2-fe64-4ef5-bbd3-89d4a9ded9ed36872493",
           "shape": "box",
           "link": "",
@@ -52339,8 +52339,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 75580,
-          "y": 22471,
+          "x": 88149,
+          "y": 14967,
           "id": "e242adb4-77ba-452a-81c6-d29edd11707536872493"
         },
         "8dcc3618-6f71-44bb-8984-17d445725f1c36872493": {
@@ -52368,8 +52368,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 75830,
-          "y": 22471,
+          "x": 88399,
+          "y": 14967,
           "id": "8dcc3618-6f71-44bb-8984-17d445725f1c36872493"
         },
         "f3ecf617-8825-4055-a7cd-ac67001d141136872493": {
@@ -52397,8 +52397,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 75730,
-          "y": 22471,
+          "x": 88299,
+          "y": 14967,
           "id": "f3ecf617-8825-4055-a7cd-ac67001d141136872493"
         },
         "ab18673b-0441-4828-8c38-1f22228818cb36872493": {
@@ -52426,8 +52426,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 75580,
-          "y": 21621,
+          "x": 88149,
+          "y": 14117,
           "id": "ab18673b-0441-4828-8c38-1f22228818cb36872493"
         },
         "17bb4af9-8daf-4062-92c3-6af73ebad04236872493": {
@@ -52455,8 +52455,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 75725,
-          "y": 19215,
+          "x": 88294,
+          "y": 11711,
           "id": "17bb4af9-8daf-4062-92c3-6af73ebad04236872493"
         },
         "050c80ae-8af8-428e-a0ec-0aa9cc00a45336872493": {
@@ -52484,8 +52484,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 75730,
-          "y": 21621,
+          "x": 88299,
+          "y": 14117,
           "id": "050c80ae-8af8-428e-a0ec-0aa9cc00a45336872493"
         },
         "c0e542d8-39f6-4f18-9c48-b8f5380ef57c36872493": {
@@ -52513,8 +52513,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 75730,
-          "y": 21871,
+          "x": 88299,
+          "y": 14367,
           "id": "c0e542d8-39f6-4f18-9c48-b8f5380ef57c36872493"
         },
         "2e143173-196f-47ae-b28a-1544ff46cf4c36872493": {
@@ -52542,8 +52542,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 75794,
-          "y": 21721,
+          "x": 88363,
+          "y": 14217,
           "id": "2e143173-196f-47ae-b28a-1544ff46cf4c36872493"
         },
         "57747a67-a380-4c8a-b2e6-879539dd9c0936872493": {
@@ -52571,8 +52571,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 75825,
-          "y": 21746,
+          "x": 88394,
+          "y": 14242,
           "id": "57747a67-a380-4c8a-b2e6-879539dd9c0936872493"
         },
         "eb26c62f-0303-43f8-8098-1ddcaaf78eee36872493": {
@@ -52600,8 +52600,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 75790,
-          "y": 21771,
+          "x": 88359,
+          "y": 14267,
           "id": "eb26c62f-0303-43f8-8098-1ddcaaf78eee36872493"
         },
         "bea3698d-6bb7-43d5-8293-a05b892be21736872493": {
@@ -52629,8 +52629,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 75809,
-          "y": 21796,
+          "x": 88378,
+          "y": 14292,
           "id": "bea3698d-6bb7-43d5-8293-a05b892be21736872493"
         },
         "ea25e0df-4ecc-42b9-bd38-03e2a4ea34bc36872493": {
@@ -52658,8 +52658,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 75798,
-          "y": 21821,
+          "x": 88367,
+          "y": 14317,
           "id": "ea25e0df-4ecc-42b9-bd38-03e2a4ea34bc36872493"
         },
         "b2e9be5e-bdd3-42e0-8fdf-290bc2344bd036872493": {
@@ -52687,8 +52687,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 75820,
-          "y": 21846,
+          "x": 88389,
+          "y": 14342,
           "id": "b2e9be5e-bdd3-42e0-8fdf-290bc2344bd036872493"
         },
         "eb119a25-ebbd-402c-8f71-69fb4208183f36872493": {
@@ -52716,8 +52716,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 75822,
-          "y": 21871,
+          "x": 88391,
+          "y": 14367,
           "id": "eb119a25-ebbd-402c-8f71-69fb4208183f36872493"
         },
         "052dfeac-80c7-41ac-af96-1e4ff3aafd8136872493": {
@@ -52745,8 +52745,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 75800,
-          "y": 21896,
+          "x": 88369,
+          "y": 14392,
           "id": "052dfeac-80c7-41ac-af96-1e4ff3aafd8136872493"
         },
         "c117bd41-9a1e-4e6a-be6d-f644f526952436872493": {
@@ -52774,8 +52774,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 75791,
-          "y": 21921,
+          "x": 88360,
+          "y": 14417,
           "id": "c117bd41-9a1e-4e6a-be6d-f644f526952436872493"
         },
         "8f6a0528-d5b1-42b1-9e1c-688847e3f39936872493": {
@@ -52803,8 +52803,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 75819,
-          "y": 21946,
+          "x": 88388,
+          "y": 14442,
           "id": "8f6a0528-d5b1-42b1-9e1c-688847e3f39936872493"
         },
         "adefccc4-7a83-44fa-b365-7ad981675ce836872493": {
@@ -52832,8 +52832,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 75805,
-          "y": 21971,
+          "x": 88374,
+          "y": 14467,
           "id": "adefccc4-7a83-44fa-b365-7ad981675ce836872493"
         },
         "62babb64-4e5c-4022-b5e5-eb34571d4bb136872493": {
@@ -52861,8 +52861,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 75827,
-          "y": 21996,
+          "x": 88396,
+          "y": 14492,
           "id": "62babb64-4e5c-4022-b5e5-eb34571d4bb136872493"
         },
         "f7d85f02-6129-4014-84bd-822dde96237a36872493": {
@@ -52890,8 +52890,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 75791,
-          "y": 22021,
+          "x": 88360,
+          "y": 14517,
           "id": "f7d85f02-6129-4014-84bd-822dde96237a36872493"
         },
         "bec3937f-b19b-476f-ad33-48d53dfa936e36872493": {
@@ -52919,8 +52919,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 75830,
-          "y": 22046,
+          "x": 88399,
+          "y": 14542,
           "id": "bec3937f-b19b-476f-ad33-48d53dfa936e36872493"
         },
         "b88d763f-3f02-4590-aa42-b5f138d1d6d136872493": {
@@ -52948,8 +52948,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 75580,
-          "y": 22171,
+          "x": 88149,
+          "y": 14667,
           "id": "b88d763f-3f02-4590-aa42-b5f138d1d6d136872493"
         },
         "5adc140a-4307-4c4b-ad4a-a31f2f27d7f036872493": {
@@ -52977,8 +52977,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 75580,
-          "y": 22271,
+          "x": 88149,
+          "y": 14767,
           "id": "5adc140a-4307-4c4b-ad4a-a31f2f27d7f036872493"
         },
         "94fa4c3d-89fc-43ad-8eff-5a7f044e8e2536872493": {
@@ -53006,8 +53006,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 75580,
-          "y": 22371,
+          "x": 88149,
+          "y": 14867,
           "id": "94fa4c3d-89fc-43ad-8eff-5a7f044e8e2536872493"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259936872493": {
@@ -53039,8 +53039,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "RDF",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259936872493",
-          "x": 79839,
-          "y": 14061,
+          "x": 92408,
+          "y": 6557,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -53074,8 +53074,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Semantics IT",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939318936872493",
-          "x": 81729,
-          "y": 18084,
+          "x": 94298,
+          "y": 10580,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -53104,8 +53104,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Ontology books compilation",
           "id": "097a8840-51d7-4b5b-9ead-64efa76fc0a993",
-          "x": 76143,
-          "y": 19205
+          "x": 88712,
+          "y": 11701
         },
         "851e2605-d7d2-4474-8b82-c6e7eaf75f7593": {
           "color": {
@@ -53130,8 +53130,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "applied_ontology_engineering_in_cloud_services",
-          "x": 76882,
-          "y": 17655,
+          "x": 89451,
+          "y": 10151,
           "id": "851e2605-d7d2-4474-8b82-c6e7eaf75f7593"
         },
         "2c370cd0-583d-4fad-8302-395d48abbcb893": {
@@ -53157,8 +53157,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "approaches_to_legal_ontologies",
-          "x": 76829,
-          "y": 17700,
+          "x": 89398,
+          "y": 10196,
           "id": "2c370cd0-583d-4fad-8302-395d48abbcb893"
         },
         "2b048867-f821-4e99-9d96-8d422669975193": {
@@ -53184,8 +53184,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "building_ontologies_with_basic_formal_ontology",
-          "x": 76879,
-          "y": 17747,
+          "x": 89448,
+          "y": 10243,
           "id": "2b048867-f821-4e99-9d96-8d422669975193"
         },
         "acfbc972-539f-45bb-b32f-3dad137753af93": {
@@ -53211,8 +53211,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "business_systems_analysis_with_ontologies",
-          "x": 76866,
-          "y": 17794,
+          "x": 89435,
+          "y": 10290,
           "id": "acfbc972-539f-45bb-b32f-3dad137753af93"
         },
         "9edea98e-3b87-4901-8055-fbcdebcd9f4893": {
@@ -53238,8 +53238,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "computable_models_of_the_law",
-          "x": 76828,
-          "y": 17840,
+          "x": 89397,
+          "y": 10336,
           "id": "9edea98e-3b87-4901-8055-fbcdebcd9f4893"
         },
         "436c6d60-49e7-4b2f-9a04-8feb8992810793": {
@@ -53265,8 +53265,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "concepts_ontologies_and_knowledge_representation",
-          "x": 76895,
-          "y": 17889,
+          "x": 89464,
+          "y": 10385,
           "id": "436c6d60-49e7-4b2f-9a04-8feb8992810793"
         },
         "7066fd30-151c-416e-af00-a28ea351cb8393": {
@@ -53292,8 +53292,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "creating_new_medical_ontologies",
-          "x": 76833,
-          "y": 17928,
+          "x": 89402,
+          "y": 10424,
           "id": "7066fd30-151c-416e-af00-a28ea351cb8393"
         },
         "edbfbead-165c-4b81-b340-7cae8fa624d193": {
@@ -53319,8 +53319,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "data_mining_in_biomedicine_using_ontologies",
-          "x": 76874,
-          "y": 17971,
+          "x": 89443,
+          "y": 10467,
           "id": "edbfbead-165c-4b81-b340-7cae8fa624d193"
         },
         "a8a505ac-a0a3-4d23-ac09-ef88210119a493": {
@@ -53346,8 +53346,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "data_mining_with_ontologies",
-          "x": 76818,
-          "y": 18015,
+          "x": 89387,
+          "y": 10511,
           "id": "a8a505ac-a0a3-4d23-ac09-ef88210119a493"
         },
         "7beccef7-cb80-4436-986c-105f2c3c7f3993": {
@@ -53373,8 +53373,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "enterprise_ontology_theory_and_methodology",
-          "x": 76874,
-          "y": 18054,
+          "x": 89443,
+          "y": 10550,
           "id": "7beccef7-cb80-4436-986c-105f2c3c7f3993"
         },
         "29120fda-7b04-456d-921f-89192ef38a1593": {
@@ -53400,8 +53400,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "enterprise_service_ontologies_models_and_frameworks",
-          "x": 76905,
-          "y": 18095,
+          "x": 89474,
+          "y": 10591,
           "id": "29120fda-7b04-456d-921f-89192ef38a1593"
         },
         "8084b4fd-a4e7-46d2-8c07-ccd5919f637d93": {
@@ -53427,8 +53427,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "e-ontologies_for_agents_theory_and_experiences",
-          "x": 76885,
-          "y": 18132,
+          "x": 89454,
+          "y": 10628,
           "id": "8084b4fd-a4e7-46d2-8c07-ccd5919f637d93"
         },
         "0b189603-99c3-4b5c-95ca-2a4f0d04800d93": {
@@ -53454,8 +53454,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "formal_ontology_in_information_systems",
-          "x": 76856,
-          "y": 18171,
+          "x": 89425,
+          "y": 10667,
           "id": "0b189603-99c3-4b5c-95ca-2a4f0d04800d93"
         },
         "8d0ccc07-35ad-4e0d-8891-8d048c72be0793": {
@@ -53481,8 +53481,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "formal_ontology_in_info_systems",
-          "x": 76832,
-          "y": 18211,
+          "x": 89401,
+          "y": 10707,
           "id": "8d0ccc07-35ad-4e0d-8891-8d048c72be0793"
         },
         "95c06cca-e92a-47bb-add9-d725ae1a327293": {
@@ -53508,8 +53508,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "fuzzy_computational_ontologies",
-          "x": 76827,
-          "y": 18248,
+          "x": 89396,
+          "y": 10744,
           "id": "95c06cca-e92a-47bb-add9-d725ae1a327293"
         },
         "3cefd41d-bed8-4c0a-b245-ae15fc14d3a393": {
@@ -53535,8 +53535,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "gellish_extensible_ontological_language",
-          "x": 76853,
-          "y": 18287,
+          "x": 89422,
+          "y": 10783,
           "id": "3cefd41d-bed8-4c0a-b245-ae15fc14d3a393"
         },
         "01337dc7-5a0e-4c94-b0ca-a20e3c8fa56b93": {
@@ -53562,8 +53562,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "handbook_of_metadata_semantics_and_ontologies",
-          "x": 76890,
-          "y": 18326,
+          "x": 89459,
+          "y": 10822,
           "id": "01337dc7-5a0e-4c94-b0ca-a20e3c8fa56b93"
         },
         "9dc9edab-0bf0-4c33-a823-fc6e159716b293": {
@@ -53589,8 +53589,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "handbook_of_ontologies",
-          "x": 76804,
-          "y": 18366,
+          "x": 89373,
+          "y": 10862,
           "id": "9dc9edab-0bf0-4c33-a823-fc6e159716b293"
         },
         "8b1a359c-de9b-4f6b-9e6e-46f5b255f30593": {
@@ -53616,8 +53616,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "innovation_and_ontologies",
-          "x": 76811,
-          "y": 18403,
+          "x": 89380,
+          "y": 10899,
           "id": "8b1a359c-de9b-4f6b-9e6e-46f5b255f30593"
         },
         "88732cd6-a93a-47b3-8d90-06fe0a02292093": {
@@ -53643,8 +53643,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "introduction_to_bio-ontologies",
-          "x": 76821,
-          "y": 18443,
+          "x": 89390,
+          "y": 10939,
           "id": "88732cd6-a93a-47b3-8d90-06fe0a02292093"
         },
         "ae71eb79-d46f-4a71-934b-399e03ec0ea593": {
@@ -53670,8 +53670,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "legal_ontology_engineering_judicial_knowledge",
-          "x": 76877,
-          "y": 18485,
+          "x": 89446,
+          "y": 10981,
           "id": "ae71eb79-d46f-4a71-934b-399e03ec0ea593"
         },
         "e5720e0d-f5a1-4bfa-9ab2-968c5fa6170f93": {
@@ -53697,8 +53697,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "mathematics_of_modelling_metamodelling_ontologies",
-          "x": 76898,
-          "y": 18532,
+          "x": 89467,
+          "y": 11028,
           "id": "e5720e0d-f5a1-4bfa-9ab2-968c5fa6170f93"
         },
         "32291495-5c31-4744-be46-7a3fcfde965393": {
@@ -53724,8 +53724,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "model_driven_engineering_and_ontology_develoment",
-          "x": 76898,
-          "y": 18578,
+          "x": 89467,
+          "y": 11074,
           "id": "32291495-5c31-4744-be46-7a3fcfde965393"
         },
         "6c27e597-a7f7-4158-ba47-e0b69e830aa893": {
@@ -53751,8 +53751,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "modular_ontologies",
-          "x": 76788,
-          "y": 18630,
+          "x": 89357,
+          "y": 11126,
           "id": "6c27e597-a7f7-4158-ba47-e0b69e830aa893"
         },
         "c906ed6f-4473-4d65-aa4d-86de59fc6ba593": {
@@ -53778,8 +53778,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "multimedia_ontology_representation_and_applications",
-          "x": 76899,
-          "y": 18693,
+          "x": 89468,
+          "y": 11189,
           "id": "c906ed6f-4473-4d65-aa4d-86de59fc6ba593"
         },
         "42f73781-5219-4822-b392-31a50161264f93": {
@@ -53805,8 +53805,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "new_trends_of_research_ontologies",
-          "x": 76841,
-          "y": 18749,
+          "x": 89410,
+          "y": 11245,
           "id": "42f73781-5219-4822-b392-31a50161264f93"
         },
         "ad6808c1-e91b-42c6-8ca6-a0418a1cb03993": {
@@ -53832,8 +53832,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontolinguistics",
-          "x": 76770,
-          "y": 18794,
+          "x": 89339,
+          "y": 11290,
           "id": "ad6808c1-e91b-42c6-8ca6-a0418a1cb03993"
         },
         "2c1fe398-cd92-41f4-a999-eff46157d16893": {
@@ -53859,8 +53859,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontological_approaches_to_semantic_integration",
-          "x": 76881,
-          "y": 18841,
+          "x": 89450,
+          "y": 11337,
           "id": "2c1fe398-cd92-41f4-a999-eff46157d16893"
         },
         "756e25fe-5955-4b3c-bb89-3590962cd08f93": {
@@ -53886,8 +53886,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontological_engineering_with_examples",
-          "x": 76852,
-          "y": 18888,
+          "x": 89421,
+          "y": 11384,
           "id": "756e25fe-5955-4b3c-bb89-3590962cd08f93"
         },
         "3bf538eb-a85d-450c-b209-9fd5935649ff93": {
@@ -53913,8 +53913,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologically_controlled_autonomous_systems",
-          "x": 76873,
-          "y": 18929,
+          "x": 89442,
+          "y": 11425,
           "id": "3bf538eb-a85d-450c-b209-9fd5935649ff93"
         },
         "94f71397-944a-458d-bd2f-0693eb69ae7393": {
@@ -53940,8 +53940,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontological_qualitative_and_quantitative_analyses",
-          "x": 76884,
-          "y": 18969,
+          "x": 89453,
+          "y": 11465,
           "id": "94f71397-944a-458d-bd2f-0693eb69ae7393"
         },
         "2aef2120-6472-4d55-b40a-d43da12a48b693": {
@@ -53967,8 +53967,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologicheskaia_semantika",
-          "x": 76815,
-          "y": 19010,
+          "x": 89384,
+          "y": 11506,
           "id": "2aef2120-6472-4d55-b40a-d43da12a48b693"
         },
         "5ce2007b-6c8b-4772-950b-9febf4c88ee093": {
@@ -53994,8 +53994,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologicheskii_inginiring_znanii_v_protege",
-          "x": 76863,
-          "y": 19053,
+          "x": 89432,
+          "y": 11549,
           "id": "5ce2007b-6c8b-4772-950b-9febf4c88ee093"
         },
         "2fae3b49-09db-41a1-9993-c745b5a3092793": {
@@ -54021,8 +54021,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologies-based_business_integration",
-          "x": 76850,
-          "y": 19101,
+          "x": 89419,
+          "y": 11597,
           "id": "2fae3b49-09db-41a1-9993-c745b5a3092793"
         },
         "2c26f4ba-172f-4a0b-9c18-e9c08b0e162793": {
@@ -54048,8 +54048,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologies-based_databases_and_info_systems",
-          "x": 76879,
-          "y": 19149,
+          "x": 89448,
+          "y": 11645,
           "id": "2c26f4ba-172f-4a0b-9c18-e9c08b0e162793"
         },
         "22242d34-9b68-4166-b25f-365e6189dbe193": {
@@ -54075,8 +54075,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologies_for_effective_information_retrieval",
-          "x": 76870,
-          "y": 19191,
+          "x": 89439,
+          "y": 11687,
           "id": "22242d34-9b68-4166-b25f-365e6189dbe193"
         },
         "27ae3496-da4e-4c97-9db6-92048e1dcaef93": {
@@ -54102,8 +54102,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologies_for_software_engineering",
-          "x": 76843,
-          "y": 19240,
+          "x": 89412,
+          "y": 11736,
           "id": "27ae3496-da4e-4c97-9db6-92048e1dcaef93"
         },
         "0e803763-618d-4be1-9461-1f1358be4dec93": {
@@ -54129,8 +54129,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologies_for_urban_development",
-          "x": 76838,
-          "y": 19289,
+          "x": 89407,
+          "y": 11785,
           "id": "0e803763-618d-4be1-9461-1f1358be4dec93"
         },
         "7c9a8a37-1ad7-49e7-a0e2-20109e749b8893": {
@@ -54156,8 +54156,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologies_handbook_of_principals_concepts_applications",
-          "x": 76912,
-          "y": 19336,
+          "x": 89481,
+          "y": 11832,
           "id": "7c9a8a37-1ad7-49e7-a0e2-20109e749b8893"
         },
         "9d4ac429-64f9-4cbe-ae06-4da1f0620fa493": {
@@ -54183,8 +54183,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologies_silver_bullet_for_knowledge_management",
-          "x": 76896,
-          "y": 19377,
+          "x": 89465,
+          "y": 11873,
           "id": "9d4ac429-64f9-4cbe-ae06-4da1f0620fa493"
         },
         "f03ce057-304e-49a8-a664-90046ee3e2df93": {
@@ -54210,8 +54210,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologies_web_services_and_semantic_web",
-          "x": 76871,
-          "y": 19425,
+          "x": 89440,
+          "y": 11921,
           "id": "f03ce057-304e-49a8-a664-90046ee3e2df93"
         },
         "5e60b668-af55-4378-85b0-17834fedc83793": {
@@ -54237,8 +54237,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontologii_i_tezaurusi_modeli_instrumenti",
-          "x": 76855,
-          "y": 19471,
+          "x": 89424,
+          "y": 11967,
           "id": "5e60b668-af55-4378-85b0-17834fedc83793"
         },
         "10ad108b-737a-4737-877d-18aee7eb133b93": {
@@ -54264,8 +54264,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_alignment",
-          "x": 76788,
-          "y": 19512,
+          "x": 89357,
+          "y": 12008,
           "id": "10ad108b-737a-4737-877d-18aee7eb133b93"
         },
         "a2b4e469-a7bc-4303-8a6d-c580e663a2ee93": {
@@ -54291,8 +54291,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_and_the_semantic_web",
-          "x": 76832,
-          "y": 19560,
+          "x": 89401,
+          "y": 12056,
           "id": "a2b4e469-a7bc-4303-8a6d-c580e663a2ee93"
         },
         "5f2b4e97-3850-42ea-a8c2-8085813775a393": {
@@ -54318,8 +54318,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_based_apllication_integration",
-          "x": 76849,
-          "y": 19608,
+          "x": 89418,
+          "y": 12104,
           "id": "5f2b4e97-3850-42ea-a8c2-8085813775a393"
         },
         "fade772e-44cf-4435-9b2a-48e5d906926d93": {
@@ -54345,8 +54345,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology-based_interpretation_of_natural_language",
-          "x": 76890,
-          "y": 19655,
+          "x": 89459,
+          "y": 12151,
           "id": "fade772e-44cf-4435-9b2a-48e5d906926d93"
         },
         "2a1d77d4-e303-47f2-bd08-bf5970d182d293": {
@@ -54372,8 +54372,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology-based_multi-agent_systems",
-          "x": 76844,
-          "y": 19709,
+          "x": 89413,
+          "y": 12205,
           "id": "2a1d77d4-e303-47f2-bd08-bf5970d182d293"
         },
         "b2366349-a817-492f-aeac-cb9b7998aca793": {
@@ -54399,8 +54399,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology-based_procedural_modeling",
-          "x": 76846,
-          "y": 19753,
+          "x": 89415,
+          "y": 12249,
           "id": "b2366349-a817-492f-aeac-cb9b7998aca793"
         },
         "43f66af2-bce8-4b22-9422-cf68adda912493": {
@@ -54426,8 +54426,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_based_query_processing",
-          "x": 76837,
-          "y": 19803,
+          "x": 89406,
+          "y": 12299,
           "id": "43f66af2-bce8-4b22-9422-cf68adda912493"
         },
         "03b4c49f-482f-4a02-a5ad-4746361c564b93": {
@@ -54453,8 +54453,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_conceptualization_and_epostemology",
-          "x": 76876,
-          "y": 19849,
+          "x": 89445,
+          "y": 12345,
           "id": "03b4c49f-482f-4a02-a5ad-4746361c564b93"
         },
         "373bc996-babc-42ad-a17a-c4495ba7902e93": {
@@ -54480,8 +54480,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology-driven_knowledge_management",
-          "x": 76859,
-          "y": 19894,
+          "x": 89428,
+          "y": 12390,
           "id": "373bc996-babc-42ad-a17a-c4495ba7902e93"
         },
         "5073576d-24be-4f8e-aa3e-2dc1745bb23893": {
@@ -54507,8 +54507,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology-driven_software_development",
-          "x": 76851,
-          "y": 19948,
+          "x": 89420,
+          "y": 12444,
           "id": "5073576d-24be-4f8e-aa3e-2dc1745bb23893"
         },
         "50c00ef8-84bc-4419-8a74-030c4687545593": {
@@ -54534,8 +54534,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_engineering_in_networked_world",
-          "x": 76862,
-          "y": 19995,
+          "x": 89431,
+          "y": 12491,
           "id": "50c00ef8-84bc-4419-8a74-030c4687545593"
         },
         "7e5e2f4e-97ed-42a0-90bf-9ed8ffd3615d93": {
@@ -54561,8 +54561,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_for_chemical_process_engineering",
-          "x": 76868,
-          "y": 20042,
+          "x": 89437,
+          "y": 12538,
           "id": "7e5e2f4e-97ed-42a0-90bf-9ed8ffd3615d93"
         },
         "fa18d73a-3574-44c8-bcd8-9f25fc00ba9493": {
@@ -54588,8 +54588,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_in_the_aec_industry",
-          "x": 76821,
-          "y": 20089,
+          "x": 89390,
+          "y": 12585,
           "id": "fa18d73a-3574-44c8-bcd8-9f25fc00ba9493"
         },
         "a7a8f9da-cd48-4713-8244-1c482df5a78e93": {
@@ -54615,8 +54615,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_learning_and_population_from_text",
-          "x": 76869,
-          "y": 20131,
+          "x": 89438,
+          "y": 12627,
           "id": "a7a8f9da-cd48-4713-8244-1c482df5a78e93"
         },
         "4158c1e2-063b-4a92-844c-2fa81c3c58d393": {
@@ -54642,8 +54642,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_learning_for_the_semantic_web",
-          "x": 76858,
-          "y": 20188,
+          "x": 89427,
+          "y": 12684,
           "id": "4158c1e2-063b-4a92-844c-2fa81c3c58d393"
         },
         "336081ba-cb3f-4bad-a706-f020671d25b393": {
@@ -54669,8 +54669,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_management",
-          "x": 76799,
-          "y": 20242,
+          "x": 89368,
+          "y": 12738,
           "id": "336081ba-cb3f-4bad-a706-f020671d25b393"
         },
         "9c0ddae2-106d-4fd6-88af-1a206972704b93": {
@@ -54696,8 +54696,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_matchin",
-          "x": 76782,
-          "y": 20301,
+          "x": 89351,
+          "y": 12797,
           "id": "9c0ddae2-106d-4fd6-88af-1a206972704b93"
         },
         "3d050ab9-fcee-4d7d-a6e4-59ebe9d582ad93": {
@@ -54723,8 +54723,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_modelling_for_information_search",
-          "x": 76865,
-          "y": 20354,
+          "x": 89434,
+          "y": 12850,
           "id": "3d050ab9-fcee-4d7d-a6e4-59ebe9d582ad93"
         },
         "d90f4850-ab4e-4681-9e58-8b7c795220ec93": {
@@ -54750,8 +54750,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "ontology_theory_management_design",
-          "x": 76848,
-          "y": 20407,
+          "x": 89417,
+          "y": 12903,
           "id": "d90f4850-ab4e-4681-9e58-8b7c795220ec93"
         },
         "8dee952f-fa3c-4c3c-97d5-37e7dd72319f93": {
@@ -54777,8 +54777,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "scalable_ontological_eai_and_e-business_integration",
-          "x": 76895,
-          "y": 20462,
+          "x": 89464,
+          "y": 12958,
           "id": "8dee952f-fa3c-4c3c-97d5-37e7dd72319f93"
         },
         "f59015a0-1ec1-41cb-a924-9bd164eb559493": {
@@ -54804,8 +54804,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "semantic_investigation_in_distributed_ontologies",
-          "x": 76881,
-          "y": 20506,
+          "x": 89450,
+          "y": 13002,
           "id": "f59015a0-1ec1-41cb-a924-9bd164eb559493"
         },
         "61e09828-6ad2-4a52-9ba2-8205f7c49b5193": {
@@ -54831,8 +54831,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "semantic_knowledge_management",
-          "x": 76838,
-          "y": 20557,
+          "x": 89407,
+          "y": 13053,
           "id": "61e09828-6ad2-4a52-9ba2-8205f7c49b5193"
         },
         "47997d4d-2c92-412c-85e5-c6ea74d849e693": {
@@ -54862,8 +54862,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "semantic knowledge management",
-          "x": 76834,
-          "y": 20605,
+          "x": 89403,
+          "y": 13101,
           "id": "47997d4d-2c92-412c-85e5-c6ea74d849e693",
           "shape": "box",
           "link": "",
@@ -54892,8 +54892,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "semantic_web_for_the_working_ontologist",
-          "x": 76861,
-          "y": 20653,
+          "x": 89430,
+          "y": 13149,
           "id": "1ce46aae-af81-4862-99a6-2aaae48a6ea593"
         },
         "7ad88a98-cf22-4497-afd2-68a3f1a992d593": {
@@ -54919,8 +54919,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "sentiment_analysis_and_ontology_engineering",
-          "x": 76875,
-          "y": 20701,
+          "x": 89444,
+          "y": 13197,
           "id": "7ad88a98-cf22-4497-afd2-68a3f1a992d593"
         },
         "97baba8a-4a2e-462e-996c-d855799dea5f93": {
@@ -54946,8 +54946,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "soft_computing_in_ontologies_and_semantic_web",
-          "x": 76886,
-          "y": 20753,
+          "x": 89455,
+          "y": 13249,
           "id": "97baba8a-4a2e-462e-996c-d855799dea5f93"
         },
         "ae8aa49c-e09d-4fd6-be07-86fc974e475c93": {
@@ -54973,8 +54973,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "spatial_temporal_information_systems",
-          "x": 76848,
-          "y": 20803,
+          "x": 89417,
+          "y": 13299,
           "id": "ae8aa49c-e09d-4fd6-be07-86fc974e475c93"
         },
         "e5123acb-8891-4794-a8f0-ea55a3ee621693": {
@@ -55000,8 +55000,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "terminological_ontologies",
-          "x": 76806,
-          "y": 20856,
+          "x": 89375,
+          "y": 13352,
           "id": "e5123acb-8891-4794-a8f0-ea55a3ee621693"
         },
         "4ff94a26-6aa4-4aff-b83a-705c41337a7e93": {
@@ -55027,8 +55027,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "trends_and_research_in_ontology-based_systems",
-          "x": 76886,
-          "y": 20904,
+          "x": 89455,
+          "y": 13400,
           "id": "4ff94a26-6aa4-4aff-b83a-705c41337a7e93"
         },
         "8a710b32-2954-400e-8b83-765fae1cadd393": {
@@ -55054,8 +55054,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "visual_knowledge_modeling_for_semantic_web",
-          "x": 76877,
-          "y": 20954,
+          "x": 89446,
+          "y": 13450,
           "id": "8a710b32-2954-400e-8b83-765fae1cadd393"
         },
         "a2379954-7aac-4d94-af42-43a17ad4fc9193": {
@@ -55081,8 +55081,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "web_semantics_and_ontology",
-          "x": 76822,
-          "y": 21005,
+          "x": 89391,
+          "y": 13501,
           "id": "a2379954-7aac-4d94-af42-43a17ad4fc9193"
         },
         "cbd0d550-2a56-47ef-b7e6-e5f187f7496893": {
@@ -55108,14 +55108,14 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "web_service_modeling_ontology",
-          "x": 76829,
-          "y": 21057,
+          "x": 89398,
+          "y": 13553,
           "id": "cbd0d550-2a56-47ef-b7e6-e5f187f7496893"
         },
         "4553cc63-15ca-4fc5-a5c5-4a3528e466ea": {
           "id": "4553cc63-15ca-4fc5-a5c5-4a3528e466ea",
-          "x": 77519,
-          "y": 17656,
+          "x": 90088,
+          "y": 10152,
           "label": "https://www.amazon.com/Ontology-Engineering-Services-Networks-Management-ebook/dp/B00A9YG9LG",
           "shape": "box",
           "link": "https://www.amazon.com/Ontology-Engineering-Services-Networks-Management-ebook/dp/B00A9YG9LG",
@@ -55131,8 +55131,8 @@ var schemeData =
         },
         "35c0e01b-36ab-4102-a654-1dfe3dc88dd2": {
           "id": "35c0e01b-36ab-4102-a654-1dfe3dc88dd2",
-          "x": 77526,
-          "y": 17695,
+          "x": 90095,
+          "y": 10191,
           "label": "https://www.amazon.com/Approaches-Legal-Ontologies-Methodologies-Governance-ebook/dp/B00F8K7898",
           "shape": "box",
           "link": "https://www.amazon.com/Approaches-Legal-Ontologies-Methodologies-Governance-ebook/dp/B00F8K7898",
@@ -55148,8 +55148,8 @@ var schemeData =
         },
         "54b1d380-be48-41e1-ba4b-bcfc9a93c4ef": {
           "id": "54b1d380-be48-41e1-ba4b-bcfc9a93c4ef",
-          "x": 77479,
-          "y": 17742,
+          "x": 90048,
+          "y": 10238,
           "label": "https://www.amazon.com/Building-Ontologies-Basic-Formal-Ontology-ebook/dp/B013FHC8IG",
           "shape": "box",
           "link": "https://www.amazon.com/Building-Ontologies-Basic-Formal-Ontology-ebook/dp/B013FHC8IG",
@@ -55165,20 +55165,20 @@ var schemeData =
         },
         "a358cc9d-c48c-4a43-a230-0543608e6334": {
           "id": "a358cc9d-c48c-4a43-a230-0543608e6334",
-          "x": 77341,
-          "y": 17798,
+          "x": 89910,
+          "y": 10294,
           "label": "md5=A95DB95DD2BB75E23BED21380C1F9BD5"
         },
         "81d99e8a-4fb4-43b5-9454-f804c54a5c1d": {
           "id": "81d99e8a-4fb4-43b5-9454-f804c54a5c1d",
-          "x": 77338,
-          "y": 17835,
+          "x": 89907,
+          "y": 10331,
           "label": "md5=AFDED22442550238E604E2C05AD1494B"
         },
         "b756f374-4135-460c-8fcb-7e1b25dbf619": {
           "id": "b756f374-4135-460c-8fcb-7e1b25dbf619",
-          "x": 77547,
-          "y": 17885,
+          "x": 90116,
+          "y": 10381,
           "label": "https://www.amazon.com/Concepts-Ontologies-Knowledge-Representation-SpringerBriefs-ebook/dp/B00DK27G3O",
           "shape": "box",
           "link": "https://www.amazon.com/Concepts-Ontologies-Knowledge-Representation-SpringerBriefs-ebook/dp/B00DK27G3O",
@@ -55194,8 +55194,8 @@ var schemeData =
         },
         "d9edb406-1568-423b-a710-7db3d5c392b2": {
           "id": "d9edb406-1568-423b-a710-7db3d5c392b2",
-          "x": 77496,
-          "y": 17921,
+          "x": 90065,
+          "y": 10417,
           "label": "https://www.amazon.com/Creating-Medical-Ontologies-Image-Annotation-ebook/dp/B007EM6LGE/",
           "shape": "box",
           "link": "https://www.amazon.com/Creating-Medical-Ontologies-Image-Annotation-ebook/dp/B007EM6LGE/",
@@ -55211,8 +55211,8 @@ var schemeData =
         },
         "2e95c083-1d8c-473d-aa82-2dd6b4d59efc": {
           "id": "2e95c083-1d8c-473d-aa82-2dd6b4d59efc",
-          "x": 77532,
-          "y": 17972,
+          "x": 90101,
+          "y": 10468,
           "label": "https://www.amazon.com/Biomedicine-Ontologies-Bioinformatics-Biomedical-Imaging-ebook/dp/B004L9MAOK",
           "shape": "box",
           "link": "https://www.amazon.com/Biomedicine-Ontologies-Bioinformatics-Biomedical-Imaging-ebook/dp/B004L9MAOK",
@@ -55228,14 +55228,14 @@ var schemeData =
         },
         "453d2c9f-58d6-4ba0-a8df-13cc053a6a05": {
           "id": "453d2c9f-58d6-4ba0-a8df-13cc053a6a05",
-          "x": 77338,
-          "y": 18008,
+          "x": 89907,
+          "y": 10504,
           "label": "md5=98ED8FF754C36C5B46D43179D2826B60"
         },
         "44fba7b2-d494-4017-a871-491694073e7f": {
           "id": "44fba7b2-d494-4017-a871-491694073e7f",
-          "x": 77483,
-          "y": 18042,
+          "x": 90052,
+          "y": 10538,
           "label": "https://www.amazon.com/Enterprise-Ontology-Methodology-Jan-Dietz-ebook/dp/B000V2RRB2",
           "shape": "box",
           "link": "https://www.amazon.com/Enterprise-Ontology-Methodology-Jan-Dietz-ebook/dp/B000V2RRB2",
@@ -55251,26 +55251,26 @@ var schemeData =
         },
         "cfa482ec-a07e-45f3-911c-c60e60a46864": {
           "id": "cfa482ec-a07e-45f3-911c-c60e60a46864",
-          "x": 77335,
-          "y": 18097,
+          "x": 89904,
+          "y": 10593,
           "label": "md5=F654D6B6A2010490190465966A53A3AE"
         },
         "b25eae61-b78b-4ae0-a602-05bb97f5b781": {
           "id": "b25eae61-b78b-4ae0-a602-05bb97f5b781",
-          "x": 77337,
-          "y": 18130,
+          "x": 89906,
+          "y": 10626,
           "label": "md5=2DF30350AD445C98A9577DAF86778646"
         },
         "b52eeed5-104a-49b9-b678-b9dbd7c334a4": {
           "id": "b52eeed5-104a-49b9-b678-b9dbd7c334a4",
-          "x": 77338,
-          "y": 18169,
+          "x": 89907,
+          "y": 10665,
           "label": "md5=7BF3A3FBD601B67662E6347966EC07D6"
         },
         "058d12c0-10f1-485b-9cd6-428ee74523bd": {
           "id": "058d12c0-10f1-485b-9cd6-428ee74523bd",
-          "x": 77491,
-          "y": 18204,
+          "x": 90060,
+          "y": 10700,
           "label": "https://www.amazon.com/Information-Frontiers-Artificial-Intelligence-Applications/dp/9051993994",
           "shape": "box",
           "link": "https://www.amazon.com/Information-Frontiers-Artificial-Intelligence-Applications/dp/9051993994",
@@ -55286,8 +55286,8 @@ var schemeData =
         },
         "db586d6a-5b77-4700-a894-9e77d65d907f": {
           "id": "db586d6a-5b77-4700-a894-9e77d65d907f",
-          "x": 77503,
-          "y": 18245,
+          "x": 90072,
+          "y": 10741,
           "label": "https://www.amazon.com/Fuzzy-Computational-Ontologies-Contexts-Representation/dp/3642254551",
           "shape": "box",
           "link": "https://www.amazon.com/Fuzzy-Computational-Ontologies-Contexts-Representation/dp/3642254551",
@@ -55303,8 +55303,8 @@ var schemeData =
         },
         "49589649-7442-4ec1-bf79-9ae922026a3a": {
           "id": "49589649-7442-4ec1-bf79-9ae922026a3a",
-          "x": 77481,
-          "y": 18279,
+          "x": 90050,
+          "y": 10775,
           "label": "https://www.amazon.com/Gellish-Extensible-Ontological-Application-Universal/dp/9040725977",
           "shape": "box",
           "link": "https://www.amazon.com/Gellish-Extensible-Ontological-Application-Universal/dp/9040725977",
@@ -55320,8 +55320,8 @@ var schemeData =
         },
         "eb356bb4-4bb9-4188-a8df-97295b3dc06b": {
           "id": "eb356bb4-4bb9-4188-a8df-97295b3dc06b",
-          "x": 77538,
-          "y": 18326,
+          "x": 90107,
+          "y": 10822,
           "label": "https://www.amazon.com/Handbook-Metadata-Semantics-Ontologies-MIGUEL-ANGEL-ebook/dp/B00U0RYNO2",
           "shape": "box",
           "link": "https://www.amazon.com/Handbook-Metadata-Semantics-Ontologies-MIGUEL-ANGEL-ebook/dp/B00U0RYNO2",
@@ -55337,8 +55337,8 @@ var schemeData =
         },
         "1816535d-78b1-4eec-a240-b2906274e489": {
           "id": "1816535d-78b1-4eec-a240-b2906274e489",
-          "x": 77533,
-          "y": 18365,
+          "x": 90102,
+          "y": 10861,
           "label": "https://www.amazon.com/Handbook-Ontologies-International-Handbooks-Information-ebook/dp/B000TTQYBQ",
           "shape": "box",
           "link": "https://www.amazon.com/Handbook-Ontologies-International-Handbooks-Information-ebook/dp/B000TTQYBQ",
@@ -55354,8 +55354,8 @@ var schemeData =
         },
         "7e70a8c5-effc-40ec-8db0-510b6923db52": {
           "id": "7e70a8c5-effc-40ec-8db0-510b6923db52",
-          "x": 77557,
-          "y": 18397,
+          "x": 90126,
+          "y": 10893,
           "label": "https://www.amazon.com/Innovation-Ontologies-Structuring-Unternehmensentwicklung-Organisations/dp/3834912492",
           "shape": "box",
           "link": "https://www.amazon.com/Innovation-Ontologies-Structuring-Unternehmensentwicklung-Organisations/dp/3834912492",
@@ -55371,8 +55371,8 @@ var schemeData =
         },
         "1170e306-e79a-42c3-884f-9e4323df9ba3": {
           "id": "1170e306-e79a-42c3-884f-9e4323df9ba3",
-          "x": 77556,
-          "y": 18433,
+          "x": 90125,
+          "y": 10929,
           "label": "https://www.amazon.com/Introduction-Bio-Ontologies-Chapman-Mathematical-Computational-ebook/dp/B00I60M2CU",
           "shape": "box",
           "link": "https://www.amazon.com/Introduction-Bio-Ontologies-Chapman-Mathematical-Computational-ebook/dp/B00I60M2CU",
@@ -55388,8 +55388,8 @@ var schemeData =
         },
         "96744247-a842-4aae-8906-6f025c061652": {
           "id": "96744247-a842-4aae-8906-6f025c061652",
-          "x": 77523,
-          "y": 18483,
+          "x": 90092,
+          "y": 10979,
           "label": "https://www.amazon.com/Legal-Ontology-Engineering-Methodologies-Professional-ebook/dp/B00F8KJALM",
           "shape": "box",
           "link": "https://www.amazon.com/Legal-Ontology-Engineering-Methodologies-Professional-ebook/dp/B00F8KJALM",
@@ -55405,8 +55405,8 @@ var schemeData =
         },
         "79d2ab8f-3e24-4ca5-88fe-e1b549461a5c": {
           "id": "79d2ab8f-3e24-4ca5-88fe-e1b549461a5c",
-          "x": 77553,
-          "y": 18534,
+          "x": 90122,
+          "y": 11030,
           "label": "https://www.amazon.com/Mathematics-Modelling-Metamodelling-Ontologies-SpringerBriefs-ebook/dp/B00A9YGNVW",
           "shape": "box",
           "link": "https://www.amazon.com/Mathematics-Modelling-Metamodelling-Ontologies-SpringerBriefs-ebook/dp/B00A9YGNVW",
@@ -55422,14 +55422,14 @@ var schemeData =
         },
         "49c7534b-257a-4449-a575-d43d1ba1ab1c": {
           "id": "49c7534b-257a-4449-a575-d43d1ba1ab1c",
-          "x": 77335,
-          "y": 18583,
+          "x": 89904,
+          "y": 11079,
           "label": "md5=4821E4CFA1EB8208B20B2F4586218656"
         },
         "c9a07e02-eb3e-4c16-95a1-3f1a59a32757": {
           "id": "c9a07e02-eb3e-4c16-95a1-3f1a59a32757",
-          "x": 77505,
-          "y": 18632,
+          "x": 90074,
+          "y": 11128,
           "label": "https://www.amazon.com/Modular-Ontologies-Techniques-Knowledge-Modularization/dp/3642019064",
           "shape": "box",
           "link": "https://www.amazon.com/Modular-Ontologies-Techniques-Knowledge-Modularization/dp/3642019064",
@@ -55445,8 +55445,8 @@ var schemeData =
         },
         "4266a23d-46bf-4e23-8004-0594c473481f": {
           "id": "4266a23d-46bf-4e23-8004-0594c473481f",
-          "x": 77527,
-          "y": 18700,
+          "x": 90096,
+          "y": 11196,
           "label": "https://www.amazon.com/Multimedia-Ontology-Representation-Santanu-Chaudhury-ebook/dp/B010ACW672",
           "shape": "box",
           "link": "https://www.amazon.com/Multimedia-Ontology-Representation-Santanu-Chaudhury-ebook/dp/B010ACW672",
@@ -55462,8 +55462,8 @@ var schemeData =
         },
         "0eea7397-bb48-45ff-a2e3-db2dd9b67a68": {
           "id": "0eea7397-bb48-45ff-a2e3-db2dd9b67a68",
-          "x": 77496,
-          "y": 18739,
+          "x": 90065,
+          "y": 11235,
           "label": "https://www.amazon.com/Trends-Research-Ontologies-Lexical-Resources-ebook/dp/B00BLSEERK",
           "shape": "box",
           "link": "https://www.amazon.com/Trends-Research-Ontologies-Lexical-Resources-ebook/dp/B00BLSEERK",
@@ -55479,8 +55479,8 @@ var schemeData =
         },
         "56858f93-696a-4cac-a6ef-e7b1617fc700": {
           "id": "56858f93-696a-4cac-a6ef-e7b1617fc700",
-          "x": 77512,
-          "y": 18784,
+          "x": 90081,
+          "y": 11280,
           "label": "https://www.amazon.com/Ontolinguistics-Ontological-Linguistic-Linguistics-Monographs/dp/3110189976",
           "shape": "box",
           "link": "https://www.amazon.com/Ontolinguistics-Ontological-Linguistic-Linguistics-Monographs/dp/3110189976",
@@ -55496,8 +55496,8 @@ var schemeData =
         },
         "13b9d2a3-ec00-487b-a355-5cc6df9ab4b2": {
           "id": "13b9d2a3-ec00-487b-a355-5cc6df9ab4b2",
-          "x": 77517,
-          "y": 18833,
+          "x": 90086,
+          "y": 11329,
           "label": "https://www.amazon.com/Theories-Geographic-Concepts-Ontological-Integration-ebook/dp/B00918NMIO",
           "shape": "box",
           "link": "https://www.amazon.com/Theories-Geographic-Concepts-Ontological-Integration-ebook/dp/B00918NMIO",
@@ -55513,8 +55513,8 @@ var schemeData =
         },
         "ab21f6e5-0f07-46bd-8451-7f19e0dadecb": {
           "id": "ab21f6e5-0f07-46bd-8451-7f19e0dadecb",
-          "x": 77514,
-          "y": 18873,
+          "x": 90083,
+          "y": 11369,
           "label": "https://www.amazon.com/Ontological-Engineering-Management-Commerce-Information/dp/1852335513",
           "shape": "box",
           "link": "https://www.amazon.com/Ontological-Engineering-Management-Commerce-Information/dp/1852335513",
@@ -55530,8 +55530,8 @@ var schemeData =
         },
         "785c87e5-3b60-4650-8d01-707afd90a8c0": {
           "id": "785c87e5-3b60-4650-8d01-707afd90a8c0",
-          "x": 77506,
-          "y": 18923,
+          "x": 90075,
+          "y": 11419,
           "label": "https://www.amazon.com/Ontologically-Controlled-Autonomous-Systems-Architecture/dp/0792380355",
           "shape": "box",
           "link": "https://www.amazon.com/Ontologically-Controlled-Autonomous-Systems-Architecture/dp/0792380355",
@@ -55547,8 +55547,8 @@ var schemeData =
         },
         "12f273ee-6d98-48e2-ac84-ea165b63c1ef": {
           "id": "12f273ee-6d98-48e2-ac84-ea165b63c1ef",
-          "x": 77491,
-          "y": 18962,
+          "x": 90060,
+          "y": 11458,
           "label": "https://www.amazon.com/Evaluations-Process-Modeling-Grammars-Quantitative/dp/364218359X",
           "shape": "box",
           "link": "https://www.amazon.com/Evaluations-Process-Modeling-Grammars-Quantitative/dp/364218359X",
@@ -55564,20 +55564,20 @@ var schemeData =
         },
         "2e5aa65a-faf1-4211-afe5-c81717228cc2": {
           "id": "2e5aa65a-faf1-4211-afe5-c81717228cc2",
-          "x": 77338,
-          "y": 19000,
+          "x": 89907,
+          "y": 11496,
           "label": "md5=90229232C2DC4306045DD59438F2F0BA"
         },
         "7f51fb09-f6e5-4153-adad-fa2b26a5ea67": {
           "id": "7f51fb09-f6e5-4153-adad-fa2b26a5ea67",
-          "x": 77335,
-          "y": 19042,
+          "x": 89904,
+          "y": 11538,
           "label": "md5=3EDF858424F1E73082EB61550083B007"
         },
         "c27a85e0-695a-42ac-8b2e-f3968010dfde": {
           "id": "c27a85e0-695a-42ac-8b2e-f3968010dfde",
-          "x": 77501,
-          "y": 19095,
+          "x": 90070,
+          "y": 11591,
           "label": "https://www.amazon.com/Ontologies-Based-Business-Integration-Michael-Rebstock/dp/3540752293",
           "shape": "box",
           "link": "https://www.amazon.com/Ontologies-Based-Business-Integration-Michael-Rebstock/dp/3540752293",
@@ -55593,8 +55593,8 @@ var schemeData =
         },
         "564a3e5a-cb61-4518-9567-3802a6a845e8": {
           "id": "564a3e5a-cb61-4518-9567-3802a6a845e8",
-          "x": 77345,
-          "y": 19147,
+          "x": 89914,
+          "y": 11643,
           "label": "https://www.springer.com/gp/book/9783540754732",
           "shape": "box",
           "link": "https://www.springer.com/gp/book/9783540754732",
@@ -55610,14 +55610,14 @@ var schemeData =
         },
         "0868978b-45d3-47ed-bccf-64cf8162b0ba": {
           "id": "0868978b-45d3-47ed-bccf-64cf8162b0ba",
-          "x": 77337,
-          "y": 19186,
+          "x": 89906,
+          "y": 11682,
           "label": "md5=634DD94BA5854617C025F9B523BE01F7"
         },
         "4b5bfdf2-b4e8-4267-8b56-03395d7e3fec": {
           "id": "4b5bfdf2-b4e8-4267-8b56-03395d7e3fec",
-          "x": 77461,
-          "y": 19232,
+          "x": 90030,
+          "y": 11728,
           "label": "https://www.amazon.com/Ontologies-Software-Engineering-Technology/dp/3540345175",
           "shape": "box",
           "link": "https://www.amazon.com/Ontologies-Software-Engineering-Technology/dp/3540345175",
@@ -55633,8 +55633,8 @@ var schemeData =
         },
         "2d53c640-712d-40e6-a3f9-42b26d2519d8": {
           "id": "2d53c640-712d-40e6-a3f9-42b26d2519d8",
-          "x": 77510,
-          "y": 19279,
+          "x": 90079,
+          "y": 11775,
           "label": "https://www.amazon.com/Ontologies-Development-Studies-Computational-Intelligence/dp/354071975X",
           "shape": "box",
           "link": "https://www.amazon.com/Ontologies-Development-Studies-Computational-Intelligence/dp/354071975X",
@@ -55650,8 +55650,8 @@ var schemeData =
         },
         "8d247b9e-8fd4-4a24-87c0-bf223da83dc6": {
           "id": "8d247b9e-8fd4-4a24-87c0-bf223da83dc6",
-          "x": 77345,
-          "y": 19334,
+          "x": 89914,
+          "y": 11830,
           "label": "https://www.springer.com/gp/book/9780387370194",
           "shape": "box",
           "link": "https://www.springer.com/gp/book/9780387370194",
@@ -55667,8 +55667,8 @@ var schemeData =
         },
         "5ab6fbef-8416-4a8a-9bf9-a674bab5a45a": {
           "id": "5ab6fbef-8416-4a8a-9bf9-a674bab5a45a",
-          "x": 77505,
-          "y": 19370,
+          "x": 90074,
+          "y": 11866,
           "label": "https://www.amazon.com/Ontologies-Knowledge-Management-Electronic-Commerce/dp/3642055583",
           "shape": "box",
           "link": "https://www.amazon.com/Ontologies-Knowledge-Management-Electronic-Commerce/dp/3642055583",
@@ -55684,20 +55684,20 @@ var schemeData =
         },
         "1b331c14-7ed6-42c1-86aa-10441417557c": {
           "id": "1b331c14-7ed6-42c1-86aa-10441417557c",
-          "x": 77338,
-          "y": 19430,
+          "x": 89907,
+          "y": 11926,
           "label": "md5=F8999B140C5201AEE413567007CED6BE"
         },
         "29cbd6de-b06c-4a90-a14e-8b775ee30ba1": {
           "id": "29cbd6de-b06c-4a90-a14e-8b775ee30ba1",
-          "x": 77341,
-          "y": 19471,
+          "x": 89910,
+          "y": 11967,
           "label": "md5=25CA7AD7D457F22E6DB5A47D8E31A60C"
         },
         "e8091bd5-0b6c-4b41-b06b-b8ac629865b4": {
           "id": "e8091bd5-0b6c-4b41-b06b-b8ac629865b4",
-          "x": 77468,
-          "y": 19515,
+          "x": 90037,
+          "y": 12011,
           "label": "https://www.amazon.com/Ontology-Alignment-Bridging-Semantic-Beyond/dp/038732805X",
           "shape": "box",
           "link": "https://www.amazon.com/Ontology-Alignment-Bridging-Semantic-Beyond/dp/038732805X",
@@ -55713,14 +55713,14 @@ var schemeData =
         },
         "1631b10d-10dc-4b25-8fda-3bd7fc421bc3": {
           "id": "1631b10d-10dc-4b25-8fda-3bd7fc421bc3",
-          "x": 77337,
-          "y": 19559,
+          "x": 89906,
+          "y": 12055,
           "label": "md5=ECFD8192A9E79405578FF9907E878E95"
         },
         "e560a2c5-a70c-4498-8c23-f5b329120e1d": {
           "id": "e560a2c5-a70c-4498-8c23-f5b329120e1d",
-          "x": 77345,
-          "y": 19604,
+          "x": 89914,
+          "y": 12100,
           "label": "https://www.springer.com/gp/book/9781461414292",
           "shape": "box",
           "link": "https://www.springer.com/gp/book/9781461414292",
@@ -55736,8 +55736,8 @@ var schemeData =
         },
         "127a2d60-540d-4c9c-a5f8-78643209ef27": {
           "id": "127a2d60-540d-4c9c-a5f8-78643209ef27",
-          "x": 77525,
-          "y": 19647,
+          "x": 90094,
+          "y": 12143,
           "label": "https://www.amazon.com/Ontology-Based-Interpretation-Language-Synthesis-Technologies/dp/1608459896",
           "shape": "box",
           "link": "https://www.amazon.com/Ontology-Based-Interpretation-Language-Synthesis-Technologies/dp/1608459896",
@@ -55753,8 +55753,8 @@ var schemeData =
         },
         "0788eb70-e1d0-4170-a6c1-0e56949ff4e0": {
           "id": "0788eb70-e1d0-4170-a6c1-0e56949ff4e0",
-          "x": 77544,
-          "y": 19706,
+          "x": 90113,
+          "y": 12202,
           "label": "https://www.amazon.com/Ontology-Based-Multi-Agent-Systems-Computational-Intelligence-ebook/dp/B01JAIYIZA",
           "shape": "box",
           "link": "https://www.amazon.com/Ontology-Based-Multi-Agent-Systems-Computational-Intelligence-ebook/dp/B01JAIYIZA",
@@ -55770,8 +55770,8 @@ var schemeData =
         },
         "21e2083b-55c8-43ce-9dc4-a9c7aae6f635": {
           "id": "21e2083b-55c8-43ce-9dc4-a9c7aae6f635",
-          "x": 77518,
-          "y": 19747,
+          "x": 90087,
+          "y": 12243,
           "label": "https://www.amazon.in/Ontology-based-Procedural-Modelling-Traversable-SpringerBriefs/dp/3319423711",
           "shape": "box",
           "link": "https://www.amazon.in/Ontology-based-Procedural-Modelling-Traversable-SpringerBriefs/dp/3319423711",
@@ -55787,8 +55787,8 @@ var schemeData =
         },
         "097771b5-5879-4844-aae3-8208c0615ad8": {
           "id": "097771b5-5879-4844-aae3-8208c0615ad8",
-          "x": 77519,
-          "y": 19797,
+          "x": 90088,
+          "y": 12293,
           "label": "https://www.amazon.in/Ontology-Based-Processing-Information-International-Engineering/dp/0792373758",
           "shape": "box",
           "link": "https://www.amazon.in/Ontology-Based-Processing-Information-International-Engineering/dp/0792373758",
@@ -55804,8 +55804,8 @@ var schemeData =
         },
         "f6919ecf-2656-4439-b12f-408b58f3edb8": {
           "id": "f6919ecf-2656-4439-b12f-408b58f3edb8",
-          "x": 77369,
-          "y": 19839,
+          "x": 89938,
+          "y": 12335,
           "label": "https://link.springer.com/book/10.1007/978-3-642-16496-5",
           "shape": "box",
           "link": "https://link.springer.com/book/10.1007/978-3-642-16496-5",
@@ -55821,8 +55821,8 @@ var schemeData =
         },
         "3d18a16b-51f1-4346-9024-4483205ddd08": {
           "id": "3d18a16b-51f1-4346-9024-4483205ddd08",
-          "x": 77483,
-          "y": 19897,
+          "x": 90052,
+          "y": 12393,
           "label": "https://www.amazon.in/Towards-Semantic-Web-Ontology-driven-Management/dp/0470848677",
           "shape": "box",
           "link": "https://www.amazon.in/Towards-Semantic-Web-Ontology-driven-Management/dp/0470848677",
@@ -55838,8 +55838,8 @@ var schemeData =
         },
         "5e8d1732-ddc2-41f2-90e8-e903bc29121d": {
           "id": "5e8d1732-ddc2-41f2-90e8-e903bc29121d",
-          "x": 77465,
-          "y": 19947,
+          "x": 90034,
+          "y": 12443,
           "label": "https://www.amazon.in/Ontology-Driven-Software-Development-Jeff-Pan/dp/3642428959",
           "shape": "box",
           "link": "https://www.amazon.in/Ontology-Driven-Software-Development-Jeff-Pan/dp/3642428959",
@@ -55855,8 +55855,8 @@ var schemeData =
         },
         "3c3a2f75-4d35-40c9-bcdb-98f242473b63": {
           "id": "3c3a2f75-4d35-40c9-bcdb-98f242473b63",
-          "x": 77499,
-          "y": 19991,
+          "x": 90068,
+          "y": 12487,
           "label": "https://www.amazon.in/Ontology-Engineering-Networked-Carmen-Suarez-Figueroa/dp/3642247938",
           "shape": "box",
           "link": "https://www.amazon.in/Ontology-Engineering-Networked-Carmen-Suarez-Figueroa/dp/3642247938",
@@ -55872,8 +55872,8 @@ var schemeData =
         },
         "930c9b8a-762b-4d59-9f39-9ba9ba3640f3": {
           "id": "930c9b8a-762b-4d59-9f39-9ba9ba3640f3",
-          "x": 77496,
-          "y": 20032,
+          "x": 90065,
+          "y": 12528,
           "label": "https://www.amazon.in/OntoCAPE-Re-Usable-Ontology-Engineering-RWTHedition/dp/3642262228",
           "shape": "box",
           "link": "https://www.amazon.in/OntoCAPE-Re-Usable-Ontology-Engineering-RWTHedition/dp/3642262228",
@@ -55889,8 +55889,8 @@ var schemeData =
         },
         "deec3748-1131-45da-9991-32ec1220466e": {
           "id": "deec3748-1131-45da-9991-32ec1220466e",
-          "x": 77466,
-          "y": 20069,
+          "x": 90035,
+          "y": 12565,
           "label": "https://www.amazon.in/Ontology-AEC-Industry-Architecture-Construction/dp/0784413908",
           "shape": "box",
           "link": "https://www.amazon.in/Ontology-AEC-Industry-Architecture-Construction/dp/0784413908",
@@ -55906,8 +55906,8 @@ var schemeData =
         },
         "1d267b44-29b9-4ba3-a61e-34047fc68816": {
           "id": "1d267b44-29b9-4ba3-a61e-34047fc68816",
-          "x": 77461,
-          "y": 20117,
+          "x": 90030,
+          "y": 12613,
           "label": "https://www.amazon.in/Ontology-Learning-Population-Text-Applications/dp/0387306323",
           "shape": "box",
           "link": "https://www.amazon.in/Ontology-Learning-Population-Text-Applications/dp/0387306323",
@@ -55923,8 +55923,8 @@ var schemeData =
         },
         "f42cd0a7-b5d0-4105-b250-d20cc65f1f95": {
           "id": "f42cd0a7-b5d0-4105-b250-d20cc65f1f95",
-          "x": 77483,
-          "y": 20189,
+          "x": 90052,
+          "y": 12685,
           "label": "https://www.amazon.in/Ontology-Learning-Semantic-International-Engineering/dp/0792376560",
           "shape": "box",
           "link": "https://www.amazon.in/Ontology-Learning-Semantic-International-Engineering/dp/0792376560",
@@ -55940,14 +55940,14 @@ var schemeData =
         },
         "74821440-1bf1-4a23-a247-c4cefbe6e787": {
           "id": "74821440-1bf1-4a23-a247-c4cefbe6e787",
-          "x": 77337,
-          "y": 20225,
+          "x": 89906,
+          "y": 12721,
           "label": "md5=E3115576FC9BD0BD0E3938458E711B52"
         },
         "70b17663-27ba-4cd5-a189-d2103992a005": {
           "id": "70b17663-27ba-4cd5-a189-d2103992a005",
-          "x": 77345,
-          "y": 20290,
+          "x": 89914,
+          "y": 12786,
           "label": "https://www.springer.com/gp/book/9783642387203",
           "shape": "box",
           "link": "https://www.springer.com/gp/book/9783642387203",
@@ -55963,8 +55963,8 @@ var schemeData =
         },
         "9bece4e4-1061-4f2e-a7c5-44f4cd6b863b": {
           "id": "9bece4e4-1061-4f2e-a7c5-44f4cd6b863b",
-          "x": 77486,
-          "y": 20350,
+          "x": 90055,
+          "y": 12846,
           "label": "https://www.amazon.in/Knowledge-Seeker-Information-Management-Intelligent/dp/3642266916",
           "shape": "box",
           "link": "https://www.amazon.in/Knowledge-Seeker-Information-Management-Intelligent/dp/3642266916",
@@ -55980,14 +55980,14 @@ var schemeData =
         },
         "1333bcc2-b606-47f2-92a2-1e3de0483a4f": {
           "id": "1333bcc2-b606-47f2-92a2-1e3de0483a4f",
-          "x": 77340,
-          "y": 20395,
+          "x": 89909,
+          "y": 12891,
           "label": "md5=4122C80E0C23ECA69C5D85DB4A975F83"
         },
         "4011e0b5-d898-4c26-aebb-8da738b3385b": {
           "id": "4011e0b5-d898-4c26-aebb-8da738b3385b",
-          "x": 77456,
-          "y": 20463,
+          "x": 90025,
+          "y": 12959,
           "label": "https://www.amazon.in/Scalable-Ontological-EAI-Business-Integration/dp/3866445210",
           "shape": "box",
           "link": "https://www.amazon.in/Scalable-Ontological-EAI-Business-Integration/dp/3866445210",
@@ -56003,8 +56003,8 @@ var schemeData =
         },
         "2b58a672-2a9d-4ec3-ac82-d2e902b5d99d": {
           "id": "2b58a672-2a9d-4ec3-ac82-d2e902b5d99d",
-          "x": 77359,
-          "y": 20502,
+          "x": 89928,
+          "y": 12998,
           "label": "http://dai.fmph.uniba.sk/~homola/papers/phd-thesis.pdf",
           "shape": "box",
           "link": "http://dai.fmph.uniba.sk/~homola/papers/phd-thesis.pdf",
@@ -56020,8 +56020,8 @@ var schemeData =
         },
         "5cbaf7ba-5d6d-47a5-87d8-494c32d3ece5": {
           "id": "5cbaf7ba-5d6d-47a5-87d8-494c32d3ece5",
-          "x": 77502,
-          "y": 20552,
+          "x": 90071,
+          "y": 13048,
           "label": "https://www.amazon.in/Semantic-Knowledge-Management-Integrating-Technologies/dp/3642100287",
           "shape": "box",
           "link": "https://www.amazon.in/Semantic-Knowledge-Management-Integrating-Technologies/dp/3642100287",
@@ -56037,8 +56037,8 @@ var schemeData =
         },
         "58335042-39b6-425b-b70b-590b69243ec9": {
           "id": "58335042-39b6-425b-b70b-590b69243ec9",
-          "x": 77521,
-          "y": 20600,
+          "x": 90090,
+          "y": 13096,
           "label": "https://www.amazon.com/Semantic-Knowledge-Management-Ontology-based-Framework/dp/1605660345",
           "shape": "box",
           "link": "https://www.amazon.com/Semantic-Knowledge-Management-Ontology-based-Framework/dp/1605660345",
@@ -56054,8 +56054,8 @@ var schemeData =
         },
         "0bdc91bd-8d94-4c54-b3a5-1f2c8e4c2ac7": {
           "id": "0bdc91bd-8d94-4c54-b3a5-1f2c8e4c2ac7",
-          "x": 77456,
-          "y": 20646,
+          "x": 90025,
+          "y": 13142,
           "label": "https://www.amazon.com/Semantic-Web-Working-Ontologist-Effective/dp/0123859654",
           "shape": "box",
           "link": "https://www.amazon.com/Semantic-Web-Working-Ontologist-Effective/dp/0123859654",
@@ -56071,8 +56071,8 @@ var schemeData =
         },
         "e2ce8660-94fe-4f7d-b7ae-96ac2e1f3e7f": {
           "id": "e2ce8660-94fe-4f7d-b7ae-96ac2e1f3e7f",
-          "x": 77498,
-          "y": 20702,
+          "x": 90067,
+          "y": 13198,
           "label": "https://www.amazon.com/Sentiment-Analysis-Ontology-Engineering-Computational/dp/3319303171",
           "shape": "box",
           "link": "https://www.amazon.com/Sentiment-Analysis-Ontology-Engineering-Computational/dp/3319303171",
@@ -56088,8 +56088,8 @@ var schemeData =
         },
         "931622bb-8e4c-4108-b8b3-6ee08f00df7d": {
           "id": "931622bb-8e4c-4108-b8b3-6ee08f00df7d",
-          "x": 77460,
-          "y": 20746,
+          "x": 90029,
+          "y": 13242,
           "label": "https://www.amazon.com/Soft-Computing-Ontologies-Semantic-Author/dp/B0140EYLDI",
           "shape": "box",
           "link": "https://www.amazon.com/Soft-Computing-Ontologies-Semantic-Author/dp/B0140EYLDI",
@@ -56105,8 +56105,8 @@ var schemeData =
         },
         "34ed5a28-67bd-4191-9fa9-ce669b638595": {
           "id": "34ed5a28-67bd-4191-9fa9-ce669b638595",
-          "x": 77505,
-          "y": 20798,
+          "x": 90074,
+          "y": 13294,
           "label": "https://www.amazon.com/Spatial-Temporal-Information-Systems-Ontological-ebook/dp/B00GM0E3XC",
           "shape": "box",
           "link": "https://www.amazon.com/Spatial-Temporal-Information-Systems-Ontological-ebook/dp/B00GM0E3XC",
@@ -56122,8 +56122,8 @@ var schemeData =
         },
         "01b0047a-693b-4b6d-aec4-776b9d5c4eba": {
           "id": "01b0047a-693b-4b6d-aec4-776b9d5c4eba",
-          "x": 77541,
-          "y": 20854,
+          "x": 90110,
+          "y": 13350,
           "label": "https://www.amazon.com/Terminological-Ontologies-Management-Practical-Applications-ebook/dp/B00F5TB3PM",
           "shape": "box",
           "link": "https://www.amazon.com/Terminological-Ontologies-Management-Practical-Applications-ebook/dp/B00F5TB3PM",
@@ -56139,8 +56139,8 @@ var schemeData =
         },
         "78b71662-010c-44bc-bcf2-7eb2bdc2ffb6": {
           "id": "78b71662-010c-44bc-bcf2-7eb2bdc2ffb6",
-          "x": 77522,
-          "y": 20891,
+          "x": 90091,
+          "y": 13387,
           "label": "https://www.amazon.com/Semantic-Web-Technologies-Research-Ontology-based-ebook/dp/B000QEVHPC",
           "shape": "box",
           "link": "https://www.amazon.com/Semantic-Web-Technologies-Research-Ontology-based-ebook/dp/B000QEVHPC",
@@ -56156,8 +56156,8 @@ var schemeData =
         },
         "24aa1f4b-8b73-479f-97ec-04bd8f0f95fd": {
           "id": "24aa1f4b-8b73-479f-97ec-04bd8f0f95fd",
-          "x": 77482,
-          "y": 20951,
+          "x": 90051,
+          "y": 13447,
           "label": "https://www.amazon.com/Visual-Knowledge-Modeling-Semantic-Technologies/dp/1615208399",
           "shape": "box",
           "link": "https://www.amazon.com/Visual-Knowledge-Modeling-Semantic-Technologies/dp/1615208399",
@@ -56173,14 +56173,14 @@ var schemeData =
         },
         "cf3a2a59-5a6a-4e1d-b1c7-cd9d750e0508": {
           "id": "cf3a2a59-5a6a-4e1d-b1c7-cd9d750e0508",
-          "x": 77338,
-          "y": 20995,
+          "x": 89907,
+          "y": 13491,
           "label": "md5=373B9BB19FEF35A0BF60D3E893FA5C38"
         },
         "3b8082ea-24b1-4646-970b-c057fa93701e": {
           "id": "3b8082ea-24b1-4646-970b-c057fa93701e",
-          "x": 77480,
-          "y": 21049,
+          "x": 90049,
+          "y": 13545,
           "label": "https://www.amazon.com/Enabling-Semantic-Web-Services-Modeling-ebook/dp/B000S1MRK2",
           "shape": "box",
           "link": "https://www.amazon.com/Enabling-Semantic-Web-Services-Modeling-ebook/dp/B000S1MRK2",
@@ -56218,8 +56218,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Ruby themes",
           "id": "f98845b0-a393-4a51-ba8d-299765f501f2771",
-          "x": 65106,
-          "y": -9443
+          "x": 65184,
+          "y": -3412
         },
         "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247771": {
           "color": {
@@ -56250,8 +56250,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/ruby.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247771",
-          "x": 65418,
-          "y": -9439,
+          "x": 65496,
+          "y": -3408,
           "shape": "box",
           "link": "ruby.html",
           "borderWidth": ""
@@ -93862,10 +93862,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 1.197782802532614,
+    "scale": 0.011215378713663697,
     "viewPosition": {
-      "x": 65276.97377362621,
-      "y": -9472.014385538556
+      "x": 116810.9854965847,
+      "y": 22547.306602989414
     }
   }
 }
