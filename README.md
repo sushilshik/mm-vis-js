@@ -29,6 +29,7 @@ sushilshik.github.io/index.html screenshot 2019.11.30
 * https://sushilshik.github.io/base.html
 * https://sushilshik.github.io/culture.html
 * https://sushilshik.github.io/ruby.html
+* https://sushilshik.github.io/javascript.html
 
 ### Tests:
 

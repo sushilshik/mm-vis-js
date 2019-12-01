@@ -12371,8 +12371,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "* [[AppWare]], also known as MicroBrew, icon based programming for [[classic Mac OS]] and [[Microsoft Windows]]\n* [[Macromedia Authorware]] - flowchart based programming language\n* [[Helix (database)|Helix]] and Double Helix, a pioneering database management system for the Apple Macintosh platform, created in 1983\n* [[Illumination Software Creator]], a language and IDE for visually creating desktop and mobile software\n* [[ThingLab]]",
           "id": "a041529a-7ce0-436e-a317-0c0daa8bfb17399446",
-          "x": 26532,
-          "y": -15459,
+          "x": 28058,
+          "y": -16439,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12405,8 +12405,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "function rdf1() {\n        var store = $rdf.graph();\n        console.log($rdf);\n        console.log(store);\n        console.log(network);\n        network.body.data.nodes.get().forEach(function(node) {\n                store.add($rdf.literal(node.id), \"some link\", $rdf.literal(node.id));\n                //store.add(node.id, \"name\",);\n        });\n        network.body.data.nodes.get().forEach(function(item) {\n        });\nreturn store;\n}\n\nconsole.log(\"asdf111122\");\nvar store1 = rdf1();\nconsole.log(store1.length);",
           "id": "b795ddf2-fb74-4d87-afc4-b6be98b13eff399446",
-          "x": 26035,
-          "y": -16487,
+          "x": 27561,
+          "y": -17467,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12441,8 +12441,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();\nif (selectedNodesCount < 2) return;\nvar nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\nvar rootNodeId;\nvar minLeft;\nfor (i = 0; i < selectedNodesCount; i++) {\n\tif (i == 0) {\n\t\tminLeft = nodes[0].x;\n\t\trootNodeId = nodes[0].id;\n\t}\n\tif (minLeft > nodes[i].x) {\n\t\tminLeft = nodes[i].x;\n\t\trootNodeId = nodes[i].id;\n\t};\n}\nfor (i = 0; i < selectedNodesCount; i++) {\n\tif (nodes[i].id != rootNodeId) {\n\t\tvar edgeData = {\n\t\t\tlabel: \"code\",\n\t\t\tfrom: rootNodeId, \n\t\t\tto: nodes[i].id\n\t\t};\n\t\tnetwork.body.data.edges.getDataSet().add(edgeData);\n\t\tnetwork.selectionHandler.unselectAll();\n\t}\n}",
           "id": "e14b01dd-2c74-49f5-a1f1-3f43c71260e9399446",
-          "x": 26271,
-          "y": -14151,
+          "x": 27797,
+          "y": -15131,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12475,8 +12475,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "console.log(\"1\");",
           "id": "6752d54a-ef2d-4cd8-ac17-049a0f02a51e399446",
-          "x": 26718,
-          "y": -14188,
+          "x": 28244,
+          "y": -15168,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12509,8 +12509,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "console.log(\"2\");",
           "id": "33154e6a-8f57-429d-b4ff-82c2ba43ba13399446",
-          "x": 26994,
-          "y": -14185,
+          "x": 28520,
+          "y": -15165,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12544,8 +12544,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Make edge with \"code\" label between two code nodes.",
           "id": "940f667a-13a1-44ab-8317-0378bb46bd88399446",
-          "x": 25791,
-          "y": -14141,
+          "x": 27317,
+          "y": -15121,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12578,8 +12578,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "$.ajax({\n   method: \"GET\",\n   url: \"http://localhost:3000/saveJsonForMVJProject\",\n   dataType: \"jsonp\",\n   data: {\n      savePath: \"path1\",\n      projectName: \"projectName1\"\n   }\n}).done(function(msg) {\n   console.log(\"save complete: \" + msg);\n});",
           "id": "d3454ab9-a273-4420-ad38-0b06f5997f82752399446",
-          "x": 26543,
-          "y": -14714,
+          "x": 28069,
+          "y": -15694,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12612,8 +12612,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Подход по сохранению json схемы через jsonp запрос\nк локальному серверу. Чтобы он уже сохранил\nданные в data.js.",
           "id": "f81f4061-a7cc-4f5d-9983-e660f227ce8f752399446",
-          "x": 26106,
-          "y": -14608,
+          "x": 27632,
+          "y": -15588,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12644,8 +12644,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "jsonp - через GET",
           "id": "b325aca8-97d1-448b-b66d-610218681ae3752399446",
-          "x": 26526,
-          "y": -14553
+          "x": 28052,
+          "y": -15533
         },
         "ca291bb0-6af7-4e40-87c5-864030e51163752399446": {
           "color": {
@@ -12675,8 +12675,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "JSON этого холста уже больше 150 кб",
           "id": "ca291bb0-6af7-4e40-87c5-864030e51163752399446",
-          "x": 26592,
-          "y": -14525,
+          "x": 28118,
+          "y": -15505,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12707,8 +12707,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Надо нарезать и посылать кусками?",
           "id": "872c2761-b1ac-4b96-83fb-285fd8158180752399446",
-          "x": 26586,
-          "y": -14492
+          "x": 28112,
+          "y": -15472
         },
         "1cd537f0-df33-4713-9b58-7ab0b6cdac06399446": {
           "color": {
@@ -12736,8 +12736,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js visual code",
           "id": "1cd537f0-df33-4713-9b58-7ab0b6cdac06399446",
-          "x": 25391,
-          "y": -15157
+          "x": 26917,
+          "y": -16137
         },
         "cc57b1fb-3b9d-4763-ba1a-312ede343b12399446": {
           "color": {
@@ -12765,8 +12765,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "RDF",
           "id": "cc57b1fb-3b9d-4763-ba1a-312ede343b12399446",
-          "x": 25620,
-          "y": -16499
+          "x": 27146,
+          "y": -17479
         },
         "a082762d-0cb5-45dd-9eec-df70da33d4ef399446": {
           "color": {
@@ -12794,8 +12794,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Wikipedia",
           "id": "a082762d-0cb5-45dd-9eec-df70da33d4ef399446",
-          "x": 25639,
-          "y": -16130
+          "x": 27165,
+          "y": -17110
         },
         "54c2bf7f-7bf2-4bdf-afcf-42dc0660caa2399446": {
           "color": {
@@ -12823,8 +12823,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Save mvj json with local server",
           "id": "54c2bf7f-7bf2-4bdf-afcf-42dc0660caa2399446",
-          "x": 25744,
-          "y": -14611
+          "x": 27270,
+          "y": -15591
         },
         "ffd5c822-a623-4020-8b14-8a2c450d5e9f399446": {
           "color": {
@@ -12852,8 +12852,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "wikipediaData1",
           "id": "ffd5c822-a623-4020-8b14-8a2c450d5e9f399446",
-          "x": 25839,
-          "y": -15437
+          "x": 27365,
+          "y": -16417
         },
         "9903a242-2c5d-499c-92d9-995ef46f8a37878399446": {
           "color": {
@@ -12884,8 +12884,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var codeNode = network.body.data.nodes.get(codeNodeId);\nvar pNode = network.getPositions()[codeNodeId];\nvar allNodes = network.body.data.nodes.get();\nvar rootDataNode;\nallNodes.forEach(function(node) {\n   if (node.label == \"wikipediaData1\") {\n      rootDataNode = node;\n   }\n});\n\nvar connectedNodesIds = network.nodesHandler.getConnectedNodes(rootDataNode.id);\n\nvar dataNode = network.body.data.nodes.get(connectedNodesIds[0]);\n\n",
           "id": "9903a242-2c5d-499c-92d9-995ef46f8a37878399446",
-          "x": 26043,
-          "y": -16051,
+          "x": 27569,
+          "y": -17031,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12918,8 +12918,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "function addResultNode(label, pNode, network) {\n   network.body.data.nodes.add({\n     label:label,\n     x: pNode.x + 2800,\n     y: pNode.y\n   });\n}\n\naddResultNode(resultLabel, pNode, network);",
           "id": "92c1576f-4811-4b8e-a6b9-ee6d22c62a5a878399446",
-          "x": 26624,
-          "y": -15705,
+          "x": 28150,
+          "y": -16685,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12952,8 +12952,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var dataLabel = dataNode.label;\nvar labelLines = dataLabel.split(\"\\n\");\nvar filteredLines = [];\nlabelLines.forEach(function(line) {\n   var lineName = line.replace(/.*?\\[\\[(.+?)\\]\\].*/,\"$1\");\n   var lineDesc = line.replace(/.*?\\[\\[(.+?)\\]\\], (.*)/,\"$2\");\n   var linkNamePart = lineName.split(\"|\")[0];\n   var link = \"https://en.wikipedia.org/wiki/\" + linkNamePart;\n   filteredLines.push([lineName, link, lineDesc]);\n});",
           "id": "10edfbfa-9872-41cf-90d6-d2f4ffa2cf11878399446",
-          "x": 26652,
-          "y": -16300,
+          "x": 28178,
+          "y": -17280,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12987,8 +12987,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var date = new Date();\nvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\nlabelLinesAsJson = [];\nfilteredLines.forEach(function(line, index) {\n   var id = idPostfix + index.toString() + \"1\";\n   var x = 0;\n   var y = 25 * index;\n   var lineName = line[0].replace(\":\",\"\\:\");\n   lineName = lineName.replace(\"\\\"\",\"\\\\\\\"\");\n   var lineLink = line[1].replace(\":\",\"\\:\");\n   var json = makeNodeJsonLine(id, lineName, lineLink, x, y);\n   labelLinesAsJson.push(json); \n   var id = idPostfix + index.toString() + \"2\";\n   var x = 300;\n   var y = 25 * index;\n   var lineDesk = line[2].replace(\":\",\"\\:\");\n   lineDesk = lineDesk.replace(/\\\"/g,\"\\\\\\\"\");\n   var json = makeNodeJsonLine(id, lineDesk, \"\", x, y);\n   labelLinesAsJson.push(json);\n});\n\nlabelLinesAsJson = labelLinesAsJson.join(\",\\n\");\n\nvar resultLabel = \"{\\\"nodes\\\": {\" + labelLinesAsJson + \"}, \\\"edges\\\": {} }\";",
           "id": "10edfbfa-9872-41cf-90d6-d2f4ffa2cf11559878399446",
-          "x": 26682,
-          "y": -16021,
+          "x": 28208,
+          "y": -17001,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13019,8 +13019,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "mm-vis-js visual code",
-          "x": 24121,
-          "y": -12924,
+          "x": 25647,
+          "y": -13904,
           "id": "466128fb-4b9c-4211-ad11-b20c2ac8daaa446",
           "shape": "box",
           "link": "",
@@ -13049,8 +13049,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 24781,
-          "y": -12526,
+          "x": 26307,
+          "y": -13506,
           "id": "da060102-38d3-42ce-b515-92ddeae80f99446"
         },
         "695446f5-e5ec-4934-9288-356396f52598446": {
@@ -13076,8 +13076,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 25031,
-          "y": -12526,
+          "x": 26557,
+          "y": -13506,
           "id": "695446f5-e5ec-4934-9288-356396f52598446"
         },
         "d4633524-d8f0-4c08-b16c-dd52a1279907446": {
@@ -13103,8 +13103,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 24931,
-          "y": -12526,
+          "x": 26457,
+          "y": -13506,
           "id": "d4633524-d8f0-4c08-b16c-dd52a1279907446"
         },
         "db7ef0f9-2b86-42a6-b625-5f2f23868af0446": {
@@ -13130,8 +13130,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 24781,
-          "y": -13376,
+          "x": 26307,
+          "y": -14356,
           "id": "db7ef0f9-2b86-42a6-b625-5f2f23868af0446"
         },
         "3ef49aa1-3da7-4288-b7c3-88416bef0dc3446": {
@@ -13157,8 +13157,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 24941,
-          "y": -15178,
+          "x": 26467,
+          "y": -16158,
           "id": "3ef49aa1-3da7-4288-b7c3-88416bef0dc3446"
         },
         "ea0b1855-e3d9-4845-80cc-5861bc87bff8446": {
@@ -13184,8 +13184,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 24931,
-          "y": -13376,
+          "x": 26457,
+          "y": -14356,
           "id": "ea0b1855-e3d9-4845-80cc-5861bc87bff8446"
         },
         "49d78a49-af58-4048-ab64-373b04abebc6446": {
@@ -13211,8 +13211,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 24931,
-          "y": -13126,
+          "x": 26457,
+          "y": -14106,
           "id": "49d78a49-af58-4048-ab64-373b04abebc6446"
         },
         "653c9353-96dc-466b-bfbe-93a23958f4a0446": {
@@ -13238,8 +13238,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 24995,
-          "y": -13276,
+          "x": 26521,
+          "y": -14256,
           "id": "653c9353-96dc-466b-bfbe-93a23958f4a0446"
         },
         "fd1b78da-72e4-4995-9542-16f640bb4010446": {
@@ -13265,8 +13265,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 25026,
-          "y": -13251,
+          "x": 26552,
+          "y": -14231,
           "id": "fd1b78da-72e4-4995-9542-16f640bb4010446"
         },
         "1821ddac-725b-4f7e-ba9f-2e444671518d446": {
@@ -13292,8 +13292,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 24991,
-          "y": -13226,
+          "x": 26517,
+          "y": -14206,
           "id": "1821ddac-725b-4f7e-ba9f-2e444671518d446"
         },
         "5bc32c5c-de0f-4f03-96a8-efdc38604b16446": {
@@ -13319,8 +13319,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 25010,
-          "y": -13201,
+          "x": 26536,
+          "y": -14181,
           "id": "5bc32c5c-de0f-4f03-96a8-efdc38604b16446"
         },
         "3d5938d2-08bc-47d4-836a-ac373cf5808e446": {
@@ -13346,8 +13346,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 24999,
-          "y": -13176,
+          "x": 26525,
+          "y": -14156,
           "id": "3d5938d2-08bc-47d4-836a-ac373cf5808e446"
         },
         "4edf3a1e-3c2d-4059-97d7-66af1380f742446": {
@@ -13373,8 +13373,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 25021,
-          "y": -13151,
+          "x": 26547,
+          "y": -14131,
           "id": "4edf3a1e-3c2d-4059-97d7-66af1380f742446"
         },
         "12e62717-25f0-4cb5-ab5e-175fb5bdb87c446": {
@@ -13400,8 +13400,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 25023,
-          "y": -13126,
+          "x": 26549,
+          "y": -14106,
           "id": "12e62717-25f0-4cb5-ab5e-175fb5bdb87c446"
         },
         "e5609cbe-04ce-4796-bdc6-c632421b9101446": {
@@ -13427,8 +13427,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 25001,
-          "y": -13101,
+          "x": 26527,
+          "y": -14081,
           "id": "e5609cbe-04ce-4796-bdc6-c632421b9101446"
         },
         "73806660-14e6-412a-8f4b-289971361406446": {
@@ -13454,8 +13454,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 24992,
-          "y": -13076,
+          "x": 26518,
+          "y": -14056,
           "id": "73806660-14e6-412a-8f4b-289971361406446"
         },
         "d1335a2b-27aa-4c23-a9e3-9cc7000fa8d2446": {
@@ -13481,8 +13481,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 25020,
-          "y": -13051,
+          "x": 26546,
+          "y": -14031,
           "id": "d1335a2b-27aa-4c23-a9e3-9cc7000fa8d2446"
         },
         "cc4b2527-41a1-4d6e-93c0-a28a81f88801446": {
@@ -13508,8 +13508,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 25006,
-          "y": -13026,
+          "x": 26532,
+          "y": -14006,
           "id": "cc4b2527-41a1-4d6e-93c0-a28a81f88801446"
         },
         "2b425589-61ad-488a-a7c3-ace6a4ae7430446": {
@@ -13535,8 +13535,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 25028,
-          "y": -13001,
+          "x": 26554,
+          "y": -13981,
           "id": "2b425589-61ad-488a-a7c3-ace6a4ae7430446"
         },
         "24825918-99ad-48c8-bd5b-5afa0e29c0aa446": {
@@ -13562,8 +13562,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 24992,
-          "y": -12976,
+          "x": 26518,
+          "y": -13956,
           "id": "24825918-99ad-48c8-bd5b-5afa0e29c0aa446"
         },
         "0ec1c7dd-4373-499a-9e7c-1e5788c7682b446": {
@@ -13589,8 +13589,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 25031,
-          "y": -12951,
+          "x": 26557,
+          "y": -13931,
           "id": "0ec1c7dd-4373-499a-9e7c-1e5788c7682b446"
         },
         "4503c153-70e3-4ee7-ae71-1283b9715ef5446": {
@@ -13616,8 +13616,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 24781,
-          "y": -12826,
+          "x": 26307,
+          "y": -13806,
           "id": "4503c153-70e3-4ee7-ae71-1283b9715ef5446"
         },
         "3c4f5ef9-7e5b-47c8-a06c-b219dedeb382446": {
@@ -13643,8 +13643,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 24781,
-          "y": -12726,
+          "x": 26307,
+          "y": -13706,
           "id": "3c4f5ef9-7e5b-47c8-a06c-b219dedeb382446"
         },
         "788a6127-81ce-4f93-8c27-d77c00ad8876446": {
@@ -13670,8 +13670,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 24781,
-          "y": -12626,
+          "x": 26307,
+          "y": -13606,
           "id": "788a6127-81ce-4f93-8c27-d77c00ad8876446"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2514446": {
@@ -13704,8 +13704,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js\nvisual\ncode",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2514446",
-          "x": 30997,
-          "y": -15880,
+          "x": 32513,
+          "y": -16217,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13736,8 +13736,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "API",
           "id": "04ea97c1-f3ac-47f4-885b-e8b66cc61b4e953446",
-          "x": 25446,
-          "y": -445
+          "x": 26962,
+          "y": -782
         },
         "b4726440-0f4a-4d37-944f-5d4d4e6aca0b953446": {
           "color": {
@@ -13765,8 +13765,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Categories",
           "id": "b4726440-0f4a-4d37-944f-5d4d4e6aca0b953446",
-          "x": 26111,
-          "y": -1695
+          "x": 27627,
+          "y": -2032
         },
         "7eba903e-480c-4604-a071-464edc0989fe953446": {
           "color": {
@@ -13797,8 +13797,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Получить список страниц и категорий связанных с данной категорией",
           "id": "7eba903e-480c-4604-a071-464edc0989fe953446",
-          "x": 26577,
-          "y": -2510,
+          "x": 28093,
+          "y": -2847,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13832,8 +13832,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var url = \"https://en.wikipedia.org/w/api.php\"; \n\nvar params = {\n    action: \"query\",\n    format: \"json\",\n    prop: \"categories\",\n    titles: \"Janelle Monáe\"\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\n        var pages = response.query.pages;\n        for (var p in pages) {\n            for (var cat of pages[p].categories) {\n                console.log(cat.title);\n            }\n        }\n    })\n    .catch(function(error){console.log(error);});",
           "id": "c468fc67-428c-4750-a9e4-c1ce00e83e60953446",
-          "x": 27153,
-          "y": -1650,
+          "x": 28669,
+          "y": -1987,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13864,8 +13864,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Получить список категорий данной страницы",
           "id": "c83cbd27-9a1d-42c3-a653-4eeabbf9de31953446",
-          "x": 26448,
-          "y": -1673
+          "x": 27964,
+          "y": -2010
         },
         "6bf6f5d6-6e79-4c1d-92ce-c11658c9b02d953446": {
           "color": {
@@ -13893,8 +13893,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нужен список всех категорий в Wikipedia",
           "id": "6bf6f5d6-6e79-4c1d-92ce-c11658c9b02d953446",
-          "x": 26448,
-          "y": -2799
+          "x": 27964,
+          "y": -3136
         },
         "fbc01f69-627c-46e0-b484-d2ec09f1365b953446": {
           "color": {
@@ -13925,8 +13925,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Где это в API Mediawiki?",
           "id": "fbc01f69-627c-46e0-b484-d2ec09f1365b953446",
-          "x": 26979,
-          "y": -2796,
+          "x": 28495,
+          "y": -3133,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13960,8 +13960,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var url = \"https://en.wikipedia.org/w/api.php\"; \n\nvar params = {\n    action: \"query\",\n    prop: \"categoryinfo\",\n    titles: \"Category:Foo|Category:Infobox templates\",\n    format: \"json\"\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\n        var pages = response.query.pages;\n        for (var page in pages) {\n            console.log(pages[page].title + \" has \" + pages[page].categoryinfo.pages + \" pages.\" );\n        }\n    })\n    .catch(function(error){console.log(error);});",
           "id": "c8399e46-42dc-4da9-a342-f7f2eab6f633953446",
-          "x": 27185,
-          "y": -1249,
+          "x": 28701,
+          "y": -1586,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13992,8 +13992,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Получить информацию по нескольким категориям",
           "id": "e3672d36-d501-41f6-a3eb-388d854ba03c953446",
-          "x": 26466,
-          "y": -1243
+          "x": 27982,
+          "y": -1580
         },
         "2f9e9c4c-afbf-4e29-9e74-8db7a2de3204953446": {
           "color": {
@@ -14021,8 +14021,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/w/api.php?action=query&titles=Albert%20Einstein&prop=templates",
           "id": "2f9e9c4c-afbf-4e29-9e74-8db7a2de3204953446",
-          "x": 27179,
-          "y": -507
+          "x": 28695,
+          "y": -844
         },
         "c8399e46-42dc-4da9-a342-f7f2eab6f63328953446": {
           "color": {
@@ -14053,8 +14053,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var url = \"https://en.wikipedia.org/w/api.php\"; \nvar titlesLine = \"Albert%20Einstein\";\nvar titlesLine = \"physics\";\nvar params = {\n    action: \"query\",\n    format: \"json\",\n    prop: \"templates\",\n    titles: titlesLine,\n    tllimit: \"500\"\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\nconsole.log(url);\n\n//console.log(fetch(url));\n/*\nvar resultLabel = \"\";\nfunction addResultNode(label, pNode, network) {\n   network.body.data.nodes.add({\n     label:label,\n     x: pNode.x + 1000,\n     y: pNode.y\n   });\n}\nfetch(url).then(function(response){\nresultLabel = response.text();\nconsole.log(response);\nconsole.log(resultLabel);\naddResultNode(resultLabel, pNode, network);\n});\n*/\nfetch(url)\n    .then(function(response){\nreturn response.json();})\n    .then(function(response) {\nconsole.log(response);\n        var pages = response.query.pages;\n        for (var key in pages) {\n            //console.log(pages[page].title + \" has \" + pages[page].categoryinfo.pages + \" pages.\" );\n           for (var t in pages[key].templates) {\n              var template = pages[key].templates[t];\n              console.log(template.title);\n           }\n        }\n    }).catch(function(error){console.log(error);});",
           "id": "c8399e46-42dc-4da9-a342-f7f2eab6f63328953446",
-          "x": 27186,
-          "y": -274,
+          "x": 28702,
+          "y": -611,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14088,8 +14088,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Код возвращает список темплейтов связанных с страницей.",
           "id": "e2590cc9-a98a-4329-bf44-fbe14c243232953446",
-          "x": 26487,
-          "y": -195,
+          "x": 28003,
+          "y": -532,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14120,8 +14120,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Я пока не понимаю, что это за темплейты",
           "id": "649813e1-200e-434f-aeac-109457c0a6f8953446",
-          "x": 27016,
-          "y": 73
+          "x": 28532,
+          "y": -264
         },
         "50a01332-3aca-4cda-97e9-ba4c8b2cac65953446": {
           "color": {
@@ -14152,8 +14152,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Среди них есть те самые навбоксы, которые внизу страницы.",
           "id": "50a01332-3aca-4cda-97e9-ba4c8b2cac65953446",
-          "x": 27403,
-          "y": 77,
+          "x": 28919,
+          "y": -260,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14184,8 +14184,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Templates",
           "id": "59f0a300-be10-4f97-a6d4-90fdf0527c29953446",
-          "x": 26104,
-          "y": -192
+          "x": 27620,
+          "y": -529
         },
         "c8399e46-42dc-4da9-a342-f7f2eab6f633472953446": {
           "color": {
@@ -14216,8 +14216,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var url = \"https://en.wikipedia.org/w/api.php\"; \n\nvar params = {\n    action: \"query\",\n    apfrom: \"frog\",\n    list: \"allpages\",\n    aplimit: \"500\",\n    format: \"json\"\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\nconsole.log(url);\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\nconsole.log(response);\n        var pages = response.query.allpages;\n        for (var key in pages) {\n            console.log(pages[key].title);\n        }\nconsole.log(\"size: \" + pages.length);\n    })\n    .catch(function(error){console.log(error);});",
           "id": "c8399e46-42dc-4da9-a342-f7f2eab6f633472953446",
-          "x": 27190,
-          "y": 338,
+          "x": 28706,
+          "y": 1,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14248,8 +14248,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "aplimit - не более 500",
           "id": "de9be0a4-067e-40f4-b151-d401efecd654953446",
-          "x": 27586,
-          "y": 331
+          "x": 29102,
+          "y": -6
         },
         "223c9da5-05b6-48f4-9f42-504924444219953446": {
           "color": {
@@ -14277,8 +14277,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Поиск страниц по части названия",
           "id": "223c9da5-05b6-48f4-9f42-504924444219953446",
-          "x": 26400,
-          "y": 330
+          "x": 27916,
+          "y": -7
         },
         "c997a919-94f4-44a2-9a6c-feece35c2516953446": {
           "color": {
@@ -14310,8 +14310,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.mediawiki.org/wiki/API:Lists/All",
           "id": "c997a919-94f4-44a2-9a6c-feece35c2516953446",
-          "x": 26165,
-          "y": -7980,
+          "x": 27681,
+          "y": -8317,
           "shape": "box",
           "link": "https://www.mediawiki.org/wiki/API:Lists/All",
           "borderWidth": ""
@@ -14346,8 +14346,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.mediawiki.org/wiki/API:Categories",
           "id": "37158ef6-268a-48ff-9acf-b60227a3f3b2953446",
-          "x": 26349,
-          "y": -3876,
+          "x": 27865,
+          "y": -4213,
           "shape": "box",
           "link": "https://www.mediawiki.org/wiki/API:Categories",
           "borderWidth": ""
@@ -14382,8 +14382,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.mediawiki.org/wiki/API:Categoryinfo",
           "id": "b0dcd9b7-5fbc-4cfd-af34-b55ee5e9bd22953446",
-          "x": 26355,
-          "y": -3846,
+          "x": 27871,
+          "y": -4183,
           "shape": "box",
           "link": "https://www.mediawiki.org/wiki/API:Categoryinfo",
           "borderWidth": ""
@@ -14418,8 +14418,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.mediawiki.org/wiki/API:Templates",
           "id": "a70ffe3f-fcf5-4377-b74a-553359ec2855953446",
-          "x": 26347,
-          "y": -3818,
+          "x": 27863,
+          "y": -4155,
           "shape": "box",
           "link": "https://www.mediawiki.org/wiki/API:Templates",
           "borderWidth": ""
@@ -14453,8 +14453,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var url = \"https://en.wikipedia.org/w/api.php\"; \n\nvar acfromLine = \"15th-century caliphs\";\nvar acfromLine = \"metall\";\nvar params = {\n    action: \"query\",\n    format: \"json\",\n    list: \"allcategories\",\n    acfrom: acfromLine\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\n        var categories = response.query.allcategories;\n        for (var cat in categories) {\n            console.log(categories[cat][\"*\"]);\n        }\n    })\n    .catch(function(error){console.log(error);});",
           "id": "3cd5385b-6321-4e80-bf40-cb9023dc98e2953446",
-          "x": 27142,
-          "y": -828,
+          "x": 28658,
+          "y": -1165,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14488,8 +14488,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var url = \"https://en.wikipedia.org/w/api.php\"; \n\nvar params = {\n    action: \"query\",\n    generator: \"alltransclusions\",\n    gatfrom: \"B\",\n    format: \"json\"\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\n        var pages = response.query.pages;\n\n        for (var key in pages) {\n            console.log(pages[key].title);\n        }\n    })\n    .catch(function(error){console.log(error);});",
           "id": "3cd5385b-6321-4e80-bf40-cb9023dc98e2481953446",
-          "x": 27180,
-          "y": 774,
+          "x": 28696,
+          "y": 437,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14523,8 +14523,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Все вставки на страницах",
           "id": "92e9fba4-d0c7-4d43-b1c5-aa06e745a076953446",
-          "x": 26337,
-          "y": 758,
+          "x": 27853,
+          "y": 421,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14554,8 +14554,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "API:Transcludedin - <translate> Find all pages that transclude the given pages.</translate>",
-          "x": 26491,
-          "y": -3751,
+          "x": 28007,
+          "y": -4088,
           "id": "590eae96-93d8-4bdf-92e0-b6eb3d6feef1953446"
         },
         "316f18a0-c17e-4d3c-a170-868001722bd2953446": {
@@ -14583,8 +14583,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "API:Templates - <translate> Returns all pages transcluded on the given pages.</translate>",
-          "x": 26490,
-          "y": -3724,
+          "x": 28006,
+          "y": -4061,
           "id": "316f18a0-c17e-4d3c-a170-868001722bd2953446"
         },
         "aa4718fa-c4ce-4051-abdb-a1087aac68c0953446": {
@@ -14615,8 +14615,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "API:Alltransclusions - <translate> Part of <tvar|1>API:Alllinks</> module.</translate> <translate>\nThis API gets a list all transclusions (pages embedded using <tvar|1>{{x}}</>),\nincluding non-existing.</translate>",
-          "x": 26506,
-          "y": -3680,
+          "x": 28022,
+          "y": -4017,
           "id": "aa4718fa-c4ce-4051-abdb-a1087aac68c0953446",
           "shape": "box",
           "link": "",
@@ -14647,8 +14647,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "API:Parsing_wikitext - <translate> Parse content of a page and obtain the output.</translate>",
-          "x": 26497,
-          "y": -3641,
+          "x": 28013,
+          "y": -3978,
           "id": "2aa7fe02-0f7f-4b6d-90b2-db8981551123953446"
         },
         "b6f383ee-8bdf-407f-a776-838d21d7254f953446": {
@@ -14677,8 +14677,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Найти все страницы, которые transcluded данную страницу",
           "id": "b6f383ee-8bdf-407f-a776-838d21d7254f953446",
-          "x": 27044,
-          "y": -3751
+          "x": 28560,
+          "y": -4088
         },
         "ffdb2a9a-f33c-49d9-89d0-54f03349f967953446": {
           "color": {
@@ -14706,8 +14706,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Возвращается все страницы transcluded на данных страницах",
           "id": "ffdb2a9a-f33c-49d9-89d0-54f03349f967953446",
-          "x": 27053,
-          "y": -3724
+          "x": 28569,
+          "y": -4061
         },
         "cb0707c2-7f20-4247-9faf-195d3b6d283c953446": {
           "color": {
@@ -14735,8 +14735,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Примечания",
           "id": "cb0707c2-7f20-4247-9faf-195d3b6d283c953446",
-          "x": 25616,
-          "y": -11510
+          "x": 27132,
+          "y": -11847
         },
         "9003ecd1-d254-4f84-9ccb-dc9ee43d9737953446": {
           "color": {
@@ -14764,8 +14764,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Пока самое интересное, что страницы navbox открываются по ссылке такого вида - https://en.wikipedia.org/wiki/Template:Branches_of_physics",
           "id": "9003ecd1-d254-4f84-9ccb-dc9ee43d9737953446",
-          "x": 26347,
-          "y": -11508
+          "x": 27863,
+          "y": -11845
         },
         "15d161ad-e1cb-41de-a603-4d6064f9f6ea953446": {
           "color": {
@@ -14796,8 +14796,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var url = \"https://en.wikipedia.org/w/api.php\"; \n\nvar params = {\n    action: \"parse\",\n    page: \"Template:Branches of physics\",\n    format: \"json\",\n    contentmodel: \"wikitext\",\n    prop: \"text\"\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\n        console.log(response.parse.text[\"*\"]);\n    })\n    .catch(function(error){console.log(error);});",
           "id": "15d161ad-e1cb-41de-a603-4d6064f9f6ea953446",
-          "x": 27174,
-          "y": 1165,
+          "x": 28690,
+          "y": 828,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14828,8 +14828,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Получить текст страницы",
           "id": "30b7a186-5254-4bb9-8523-867cc7a781a4953446",
-          "x": 26347,
-          "y": 1221
+          "x": 27863,
+          "y": 884
         },
         "ecb040c7-d59f-4034-8bbc-1efedd3dfa33953446": {
           "color": {
@@ -14857,8 +14857,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Так можно получать навбоксы",
           "id": "ecb040c7-d59f-4034-8bbc-1efedd3dfa33953446",
-          "x": 27009,
-          "y": 1310
+          "x": 28525,
+          "y": 973
         },
         "b5fcb4c1-fec4-4065-a8b3-5cee46bfa0db953446": {
           "color": {
@@ -14886,8 +14886,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Поиск категорий по началу названия",
           "id": "b5fcb4c1-fec4-4065-a8b3-5cee46bfa0db953446",
-          "x": 26461,
-          "y": -809
+          "x": 27977,
+          "y": -1146
         },
         "40094eeb-74f5-470e-934c-3f852e4d1bd9953446": {
           "color": {
@@ -14915,8 +14915,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Pages",
           "id": "40094eeb-74f5-470e-934c-3f852e4d1bd9953446",
-          "x": 26078,
-          "y": 824
+          "x": 27594,
+          "y": 487
         },
         "eadf4d5b-f471-4b50-86e5-a75531f6dff0953446": {
           "color": {
@@ -14944,8 +14944,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js code for Wikipedia API",
           "id": "eadf4d5b-f471-4b50-86e5-a75531f6dff0953446",
-          "x": 25784,
-          "y": -257
+          "x": 27300,
+          "y": -594
         },
         "dd7d53f7-a8cb-4538-aded-dc295a72c8e5953446": {
           "color": {
@@ -14973,8 +14973,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Примечания",
           "id": "dd7d53f7-a8cb-4538-aded-dc295a72c8e5953446",
-          "x": 25759,
-          "y": -4423
+          "x": 27275,
+          "y": -4760
         },
         "3f58014f-11a3-4d70-88ee-3665f0871dfa953446": {
           "color": {
@@ -15004,8 +15004,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Wikipedia",
-          "x": 24382,
-          "y": 3290,
+          "x": 25898,
+          "y": 2953,
           "id": "3f58014f-11a3-4d70-88ee-3665f0871dfa953446",
           "shape": "box",
           "link": "",
@@ -15036,8 +15036,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 24819,
-          "y": 3666,
+          "x": 26335,
+          "y": 3329,
           "id": "3d2b6ccf-2d48-4a23-aa09-2ddbcb615c30953446"
         },
         "28e93c18-9592-40db-be4c-fb394f9d0ca4953446": {
@@ -15065,8 +15065,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 25069,
-          "y": 3666,
+          "x": 26585,
+          "y": 3329,
           "id": "28e93c18-9592-40db-be4c-fb394f9d0ca4953446"
         },
         "1c4bb168-00d3-4c58-90a8-7ab11050632e953446": {
@@ -15094,8 +15094,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 24969,
-          "y": 3666,
+          "x": 26485,
+          "y": 3329,
           "id": "1c4bb168-00d3-4c58-90a8-7ab11050632e953446"
         },
         "b5a1cecc-5242-4ed8-856f-8096449027c2953446": {
@@ -15123,8 +15123,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 24819,
-          "y": 2816,
+          "x": 26335,
+          "y": 2479,
           "id": "b5a1cecc-5242-4ed8-856f-8096449027c2953446"
         },
         "ad034335-6b50-4382-bc18-349915c50066953446": {
@@ -15152,8 +15152,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 25126,
-          "y": -2314,
+          "x": 26642,
+          "y": -2651,
           "id": "ad034335-6b50-4382-bc18-349915c50066953446"
         },
         "7f5a43a6-1bc0-424f-8b90-c4d6ed1c8a92953446": {
@@ -15181,8 +15181,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 24969,
-          "y": 2816,
+          "x": 26485,
+          "y": 2479,
           "id": "7f5a43a6-1bc0-424f-8b90-c4d6ed1c8a92953446"
         },
         "71c9f5b6-d46b-4d2c-8ec7-91185cb9a3b3953446": {
@@ -15210,8 +15210,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 24969,
-          "y": 3066,
+          "x": 26485,
+          "y": 2729,
           "id": "71c9f5b6-d46b-4d2c-8ec7-91185cb9a3b3953446"
         },
         "556da35c-1923-47f4-9e35-313647c84b40953446": {
@@ -15239,8 +15239,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 25033,
-          "y": 2916,
+          "x": 26549,
+          "y": 2579,
           "id": "556da35c-1923-47f4-9e35-313647c84b40953446"
         },
         "42e54e9f-8e94-49d9-a0ff-6e1717ef368d953446": {
@@ -15268,8 +15268,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 25064,
-          "y": 2941,
+          "x": 26580,
+          "y": 2604,
           "id": "42e54e9f-8e94-49d9-a0ff-6e1717ef368d953446"
         },
         "46e5780c-8e53-461e-952a-bf57f555fb00953446": {
@@ -15297,8 +15297,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 25029,
-          "y": 2966,
+          "x": 26545,
+          "y": 2629,
           "id": "46e5780c-8e53-461e-952a-bf57f555fb00953446"
         },
         "1adbfd98-3506-499e-8f41-b5bf619d6824953446": {
@@ -15326,8 +15326,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 25048,
-          "y": 2991,
+          "x": 26564,
+          "y": 2654,
           "id": "1adbfd98-3506-499e-8f41-b5bf619d6824953446"
         },
         "456189e9-5dee-4647-94e6-f6bb15c50574953446": {
@@ -15355,8 +15355,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 25037,
-          "y": 3016,
+          "x": 26553,
+          "y": 2679,
           "id": "456189e9-5dee-4647-94e6-f6bb15c50574953446"
         },
         "7635a183-6f89-42c8-8888-f7ced066c798953446": {
@@ -15384,8 +15384,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 25059,
-          "y": 3041,
+          "x": 26575,
+          "y": 2704,
           "id": "7635a183-6f89-42c8-8888-f7ced066c798953446"
         },
         "7ae9f74c-a57c-4701-847b-ad123800aa98953446": {
@@ -15413,8 +15413,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 25061,
-          "y": 3066,
+          "x": 26577,
+          "y": 2729,
           "id": "7ae9f74c-a57c-4701-847b-ad123800aa98953446"
         },
         "6160e04a-1a28-4921-8c4f-99a7ba0a653e953446": {
@@ -15442,8 +15442,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 25039,
-          "y": 3091,
+          "x": 26555,
+          "y": 2754,
           "id": "6160e04a-1a28-4921-8c4f-99a7ba0a653e953446"
         },
         "fb1d7198-e6aa-441d-836b-538b4367b4c1953446": {
@@ -15471,8 +15471,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 25030,
-          "y": 3116,
+          "x": 26546,
+          "y": 2779,
           "id": "fb1d7198-e6aa-441d-836b-538b4367b4c1953446"
         },
         "315209ad-8902-4cad-b00c-a917b682112b953446": {
@@ -15500,8 +15500,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 25058,
-          "y": 3141,
+          "x": 26574,
+          "y": 2804,
           "id": "315209ad-8902-4cad-b00c-a917b682112b953446"
         },
         "a83da7e9-e926-4adc-91e7-532ac71a9f0b953446": {
@@ -15529,8 +15529,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 25044,
-          "y": 3166,
+          "x": 26560,
+          "y": 2829,
           "id": "a83da7e9-e926-4adc-91e7-532ac71a9f0b953446"
         },
         "b9d2d4a3-e05b-4eef-b7cc-0f3504a0b61a953446": {
@@ -15558,8 +15558,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 25066,
-          "y": 3191,
+          "x": 26582,
+          "y": 2854,
           "id": "b9d2d4a3-e05b-4eef-b7cc-0f3504a0b61a953446"
         },
         "c258783b-f196-4bbd-a761-732dd9eb3e81953446": {
@@ -15587,8 +15587,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 25030,
-          "y": 3216,
+          "x": 26546,
+          "y": 2879,
           "id": "c258783b-f196-4bbd-a761-732dd9eb3e81953446"
         },
         "282c9903-f9ae-4620-843d-3195372da402953446": {
@@ -15616,8 +15616,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 25069,
-          "y": 3241,
+          "x": 26585,
+          "y": 2904,
           "id": "282c9903-f9ae-4620-843d-3195372da402953446"
         },
         "2e4773c1-7d57-4b4c-adbd-03890b984c45953446": {
@@ -15645,8 +15645,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 24819,
-          "y": 3366,
+          "x": 26335,
+          "y": 3029,
           "id": "2e4773c1-7d57-4b4c-adbd-03890b984c45953446"
         },
         "b004b35e-081b-47a1-997e-04c5d034207d953446": {
@@ -15674,8 +15674,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 24819,
-          "y": 3466,
+          "x": 26335,
+          "y": 3129,
           "id": "b004b35e-081b-47a1-997e-04c5d034207d953446"
         },
         "0436ddd8-6db2-44dc-9453-dad5f5130288953446": {
@@ -15703,8 +15703,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 24819,
-          "y": 3566,
+          "x": 26335,
+          "y": 3229,
           "id": "0436ddd8-6db2-44dc-9453-dad5f5130288953446"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2514215953446": {
@@ -15736,8 +15736,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Wikipedia",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2514215953446",
-          "x": 31018,
-          "y": -11428,
+          "x": 32534,
+          "y": -11765,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -15771,8 +15771,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "console.clear();\nvar name;\n//name = \"Category:Technical_communication_tools\";\n//name = \"Category:Human–computer_interaction\";\n//name = \"Category:Conceptual modelling\";\nvar selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\nif (selectedNodes.length != 1) return;\nname = selectedNodes[0].options.label;\n",
           "id": "a7a52c30-e1c7-4e9a-a6ea-cdee76d2bd74580182953446",
-          "x": 27164,
-          "y": -2518,
+          "x": 28680,
+          "y": -2855,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -15806,8 +15806,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var codeNode = network.body.data.nodes.get(codeNodeId);\nvar pNode = network.getPositions()[codeNodeId];\nvar url = \"https://en.wikipedia.org/w/api.php\"; \nvar params = {\n    action: \"query\",\n    list: \"categorymembers\",\n    cmtitle: name,\n    cmlimit: \"2000\",\n    format: \"json\"\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nvar newNodesIds = [];\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\n        var pages = response.query.categorymembers;\n        var i = 0;\n        for (var page in pages) {\n            console.log(pages[page].title);\n            var link = \"https://en.wikipedia.org/wiki/\" + pages[page].title;\n            var nodeId = addNodeOnCanvas(\n               pages[page].title, \n               link,\n               {x:pNode.x, y:pNode.y}, \n               4500, \n               25*i, \n               network)[0];\n               newNodesIds.push(nodeId);\n               var edgeData = {from: selectedNodes[0].id, to: nodeId};\n               network.body.data.edges.getDataSet().add(edgeData);\n\n            i++;\n        }\n    })\n    .then(function(response) {\n       var nodes = [];\n       newNodesIds.forEach(function(nodeId) {      \n          nodes.push(network.body.nodes[nodeId]);\n       });\n       alignNodesLeft(nodes);\n    })\n    .catch(function(error){console.log(error);});\n\nvar node = network.body.data.nodes.get(selectedNodes[0].id);\nvar pNode = network.getPositions()[node.id];\nif (typeof node.font === \"undefined\") node.font = {};\nnode.font.size = 100;\nnode.x = pNode.x + 3000;\nnetwork.body.data.nodes.update(node);\n",
           "id": "a7a52c30-e1c7-4e9a-a6ea-cdee76d2bd745808182953446",
-          "x": 27739,
-          "y": -2353,
+          "x": 29255,
+          "y": -2690,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -15842,8 +15842,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n\nvar nodes = [];\nselectedNodes.forEach(function(node) {\n   nodes.push(network.body.data.nodes.get(node.id));\n});\nnodes.forEach(function(n) {\nconsole.log(n);\n   var node = network.body.data.nodes.get(n.id);\n   var pNode = network.getPositions()[node.id];\n   if (typeof node.font === \"undefined\") node.font={};\n   node.font.size = 1000;\n   node.font.align = \"left\";\n   node.x = pNode.x;\n   node.y = pNode.y;\n   network.body.data.nodes.update(node);\n});\n",
           "id": "a7a52c30-e1c7-4e9a-a6ea-cdee76d2bd74580182953251446",
-          "x": 26265,
-          "y": -13802,
+          "x": 27791,
+          "y": -14782,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -15875,65 +15875,11 @@ var schemeData =
           "shapeProperties": {},
           "label": "Group nodes edit",
           "id": "edd048a8-a25b-4b2a-aed1-be86d772d57e446",
-          "x": 25683,
-          "y": -13803,
+          "x": 27209,
+          "y": -14783,
           "shape": "box",
           "link": "",
           "borderWidth": ""
-        },
-        "ec24d8c8-0ea8-43bb-b0be-24c4b6bb7e47368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "CheatSheets",
-          "id": "ec24d8c8-0ea8-43bb-b0be-24c4b6bb7e47368",
-          "x": 14677,
-          "y": -14563
-        },
-        "e55008fb-b8f0-4c82-9558-1a58f8a0d4c8368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Add images",
-          "id": "e55008fb-b8f0-4c82-9558-1a58f8a0d4c8368",
-          "x": 14807,
-          "y": -14571
         },
         "a78b241c-9214-43ba-9441-5ac8a68d24ad368": {
           "color": {
@@ -15959,8 +15905,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vim regexes",
           "id": "a78b241c-9214-43ba-9441-5ac8a68d24ad368",
-          "x": 15065,
-          "y": -1131
+          "x": 14885,
+          "y": -12888
         },
         "aa0764f4-1bfc-455b-9c84-8f88dc928c91368": {
           "color": {
@@ -15987,8 +15933,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Edit text befor import\nas nodes",
           "id": "aa0764f4-1bfc-455b-9c84-8f88dc928c91368",
-          "x": 14872,
-          "y": -1126,
+          "x": 14692,
+          "y": -12883,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16017,8 +15963,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "%s/\\(.\\{-}\\), \\(.*\\)/\\1\\r\\2/g",
           "id": "e725d3fe-e16e-4b14-8950-a74025869458368",
-          "x": 15269,
-          "y": -1124
+          "x": 15089,
+          "y": -12881
         },
         "1f70789f-57ab-4f62-82b2-62f79427ef26368": {
           "color": {
@@ -16045,8 +15991,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "new line by first comma",
           "id": "1f70789f-57ab-4f62-82b2-62f79427ef26368",
-          "x": 15491,
-          "y": -1124,
+          "x": 15311,
+          "y": -12881,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16079,8 +16025,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Group nodes operations\ncode snippets.",
           "id": "901aab7c-7285-4ad1-8f46-e6cede12355f368",
-          "x": 14883,
-          "y": -988,
+          "x": 14703,
+          "y": -12745,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16110,8 +16056,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes)",
           "id": "54f4f2f1-b816-412d-a39b-e9d75b4e246a368",
-          "x": 15328,
-          "y": -1056,
+          "x": 15148,
+          "y": -12813,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16144,234 +16090,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "selectedNodes.forEach(function(n) {\nvar node = network.body.data.nodes.get(n.id);\nconsole.log(node);\nnode.link=\"some_link\";\nnetwork.body.data.nodes.update(node);\n});",
           "id": "d839f62d-df50-4e2f-8f05-b60e71f1a38d368",
-          "x": 15216,
-          "y": -969,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e6b5f50b-f167-48ae-89eb-86f50785d5ce368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "LocalStorage",
-          "id": "e6b5f50b-f167-48ae-89eb-86f50785d5ce368",
-          "x": 14678,
-          "y": -14396
-        },
-        "2af738e0-6f72-486d-815d-eefc3de1392e368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "JSON.stringify(localStorage).length",
-          "id": "2af738e0-6f72-486d-815d-eefc3de1392e368",
-          "x": 15117,
-          "y": -14518
-        },
-        "82dc3f3a-899c-49d9-9606-19c82e2b65fb368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Check size",
-          "id": "82dc3f3a-899c-49d9-9606-19c82e2b65fb368",
-          "x": 14876,
-          "y": -14522
-        },
-        "1b7b289c-3d19-47fa-8cec-6d8f68728710368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "var localStorageSpace = function(){\n    var data = '';\n\n    console.log('Current local storage: ');\n\n    for(var key in window.localStorage){\n\n        if(window.localStorage.hasOwnProperty(key)){\n            data += window.localStorage[key];\n            console.log( key + \" = \" + ((window.localStorage[key].length * 16)/(8 * 1024)).toFixed(2) + ' KB' );\n        }\n\n    }\n\n    console.log(data ? '\\n' + 'Total space used: ' + ((data.length * 16)/(8 * 1024)).toFixed(2) + ' KB' : 'Empty (0 KB)');\n    console.log(data ? 'Approx. space remaining: ' + (5120 - ((data.length * 16)/(8 * 1024)).toFixed(2)) + ' KB' : '5 MB');\n};",
-          "id": "1b7b289c-3d19-47fa-8cec-6d8f68728710368",
-          "x": 15225,
-          "y": -14359,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "1ec52606-54cc-4ceb-a70d-e890e1b5ea74368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Сколько места осталось",
-          "id": "1ec52606-54cc-4ceb-a70d-e890e1b5ea74368",
-          "x": 15751,
-          "y": -14361
-        },
-        "fbeef731-2ef7-4735-8602-3fa9feef331b368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "localStorage.clear();",
-          "id": "fbeef731-2ef7-4735-8602-3fa9feef331b368",
-          "x": 14912,
-          "y": -14193
-        },
-        "728fbe49-68a7-4a86-a88a-c751e95f9f19368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Exceptions",
-          "id": "728fbe49-68a7-4a86-a88a-c751e95f9f19368",
-          "x": 14671,
-          "y": -14093
-        },
-        "15b6c848-803c-48bc-bedf-d64cc85412a2368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "try {\n  nonExistentFunction();\n}\ncatch(error) {\n  console.error(error);\n  // expected output: ReferenceError: nonExistentFunction is not defined\n  // Note - error messages will vary depending on browser\n}",
-          "id": "15b6c848-803c-48bc-bedf-d64cc85412a2368",
-          "x": 15073,
-          "y": -14085,
+          "x": 15036,
+          "y": -12726,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16400,8 +16120,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "date",
           "id": "09a442a5-2e13-4247-bb99-f292b28c6e75368",
-          "x": 14847,
-          "y": 3315
+          "x": 14667,
+          "y": -8442
         },
         "31b14812-7f03-417e-aa5e-95201adb463f368": {
           "color": {
@@ -16427,8 +16147,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "date +%Y-%m-%d_%H-%M-%S",
           "id": "31b14812-7f03-417e-aa5e-95201adb463f368",
-          "x": 15082,
-          "y": 3306
+          "x": 14902,
+          "y": -8451
         },
         "2f4a7513-b97b-4d59-847c-4010476d31e6368": {
           "color": {
@@ -16456,8 +16176,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Bash",
-          "x": 13994,
-          "y": 4117,
+          "x": 13814,
+          "y": -7640,
           "id": "2f4a7513-b97b-4d59-847c-4010476d31e6368",
           "shape": "box",
           "link": "",
@@ -16486,8 +16206,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 14294,
-          "y": 4567,
+          "x": 14114,
+          "y": -7190,
           "id": "540a9870-0529-4b06-9de0-e4de2bc3fc87368"
         },
         "4bfd28de-6c27-4912-b451-a94c7b92eb4a368": {
@@ -16513,8 +16233,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 14544,
-          "y": 4567,
+          "x": 14364,
+          "y": -7190,
           "id": "4bfd28de-6c27-4912-b451-a94c7b92eb4a368"
         },
         "26fdd104-5926-4271-8de1-a8f040ef30b1368": {
@@ -16540,8 +16260,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 14444,
-          "y": 4567,
+          "x": 14264,
+          "y": -7190,
           "id": "26fdd104-5926-4271-8de1-a8f040ef30b1368"
         },
         "30247f6c-7ed4-4829-af83-9f67b204193f368": {
@@ -16567,8 +16287,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 14294,
-          "y": 3717,
+          "x": 14114,
+          "y": -8040,
           "id": "30247f6c-7ed4-4829-af83-9f67b204193f368"
         },
         "e9e2a1ed-edda-4111-8f13-c22b57eb1329368": {
@@ -16594,8 +16314,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 14444,
-          "y": 3467,
+          "x": 14264,
+          "y": -8290,
           "id": "e9e2a1ed-edda-4111-8f13-c22b57eb1329368"
         },
         "ca5e67d7-fc67-43bf-a9f1-671d2b157879368": {
@@ -16621,8 +16341,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 14444,
-          "y": 3717,
+          "x": 14264,
+          "y": -8040,
           "id": "ca5e67d7-fc67-43bf-a9f1-671d2b157879368"
         },
         "4b254591-0862-48bd-8c9c-0a62b9eb15cc368": {
@@ -16648,8 +16368,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 14444,
-          "y": 3967,
+          "x": 14264,
+          "y": -7790,
           "id": "4b254591-0862-48bd-8c9c-0a62b9eb15cc368"
         },
         "15caeab3-87cf-4cef-8854-74f156a5376e368": {
@@ -16675,8 +16395,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 14508,
-          "y": 3817,
+          "x": 14328,
+          "y": -7940,
           "id": "15caeab3-87cf-4cef-8854-74f156a5376e368"
         },
         "a4e8d1b2-365e-4ed5-bdba-e48abc25608c368": {
@@ -16702,8 +16422,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 14539,
-          "y": 3842,
+          "x": 14359,
+          "y": -7915,
           "id": "a4e8d1b2-365e-4ed5-bdba-e48abc25608c368"
         },
         "c98994ab-2eb1-4e52-a6b3-990f84527641368": {
@@ -16729,8 +16449,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 14504,
-          "y": 3867,
+          "x": 14324,
+          "y": -7890,
           "id": "c98994ab-2eb1-4e52-a6b3-990f84527641368"
         },
         "49163c19-6ae8-48f7-a05e-a4f7fe4625ee368": {
@@ -16756,8 +16476,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 14523,
-          "y": 3892,
+          "x": 14343,
+          "y": -7865,
           "id": "49163c19-6ae8-48f7-a05e-a4f7fe4625ee368"
         },
         "6f39acd2-eff1-4deb-b12b-6297a7022d40368": {
@@ -16783,8 +16503,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 14512,
-          "y": 3917,
+          "x": 14332,
+          "y": -7840,
           "id": "6f39acd2-eff1-4deb-b12b-6297a7022d40368"
         },
         "1c6fa446-c82b-4bc7-b147-e964685a93c6368": {
@@ -16810,8 +16530,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 14534,
-          "y": 3942,
+          "x": 14354,
+          "y": -7815,
           "id": "1c6fa446-c82b-4bc7-b147-e964685a93c6368"
         },
         "cd114083-3852-4d4c-9f19-4bb3bb72835f368": {
@@ -16837,8 +16557,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 14536,
-          "y": 3967,
+          "x": 14356,
+          "y": -7790,
           "id": "cd114083-3852-4d4c-9f19-4bb3bb72835f368"
         },
         "6792ca16-5a85-4e3d-a594-62e2dfc31a32368": {
@@ -16864,8 +16584,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 14514,
-          "y": 3992,
+          "x": 14334,
+          "y": -7765,
           "id": "6792ca16-5a85-4e3d-a594-62e2dfc31a32368"
         },
         "a5525f2a-b81b-4071-b968-bf93e532890a368": {
@@ -16891,8 +16611,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 14505,
-          "y": 4017,
+          "x": 14325,
+          "y": -7740,
           "id": "a5525f2a-b81b-4071-b968-bf93e532890a368"
         },
         "ce0e1475-9597-46fd-a9cf-b75157dc5076368": {
@@ -16918,8 +16638,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 14533,
-          "y": 4042,
+          "x": 14353,
+          "y": -7715,
           "id": "ce0e1475-9597-46fd-a9cf-b75157dc5076368"
         },
         "28d38888-f69e-49c7-be4a-d0246678e63b368": {
@@ -16945,8 +16665,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 14519,
-          "y": 4067,
+          "x": 14339,
+          "y": -7690,
           "id": "28d38888-f69e-49c7-be4a-d0246678e63b368"
         },
         "62f60f74-a2a9-4446-9e57-5cba7035104b368": {
@@ -16972,8 +16692,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 14541,
-          "y": 4092,
+          "x": 14361,
+          "y": -7665,
           "id": "62f60f74-a2a9-4446-9e57-5cba7035104b368"
         },
         "ec25e0a2-8017-4660-b8f3-52a753729442368": {
@@ -16999,8 +16719,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 14505,
-          "y": 4117,
+          "x": 14325,
+          "y": -7640,
           "id": "ec25e0a2-8017-4660-b8f3-52a753729442368"
         },
         "9ee5b955-1a9f-41c6-bc69-76e62a4fd1cb368": {
@@ -17026,8 +16746,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 14544,
-          "y": 4142,
+          "x": 14364,
+          "y": -7615,
           "id": "9ee5b955-1a9f-41c6-bc69-76e62a4fd1cb368"
         },
         "485dcd25-0443-407d-8b32-fc640154cad1368": {
@@ -17053,8 +16773,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 14294,
-          "y": 4267,
+          "x": 14114,
+          "y": -7490,
           "id": "485dcd25-0443-407d-8b32-fc640154cad1368"
         },
         "e9c944d0-9a94-419c-8108-8b8c0ca732a1368": {
@@ -17080,8 +16800,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 14294,
-          "y": 4367,
+          "x": 14114,
+          "y": -7390,
           "id": "e9c944d0-9a94-419c-8108-8b8c0ca732a1368"
         },
         "ef20c817-4e5b-4850-a554-1a10f9f8a586368": {
@@ -17107,8 +16827,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 14294,
-          "y": 4467,
+          "x": 14114,
+          "y": -7290,
           "id": "ef20c817-4e5b-4850-a554-1a10f9f8a586368"
         },
         "9721d5ea-6739-4156-9d72-c20126a1de38368": {
@@ -17135,8 +16855,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Commands",
           "id": "9721d5ea-6739-4156-9d72-c20126a1de38368",
-          "x": 14683,
-          "y": 3315
+          "x": 14503,
+          "y": -8442
         },
         "10b9961b-6483-4e18-bb33-b120de86f739368": {
           "color": {
@@ -17166,8 +16886,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Bash",
           "id": "10b9961b-6483-4e18-bb33-b120de86f739368",
-          "x": 17283,
-          "y": 3537,
+          "x": 17103,
+          "y": -8220,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17198,8 +16918,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "SPARQL",
-          "x": 13964,
-          "y": 7682,
+          "x": 13784,
+          "y": -4075,
           "id": "a9ea6206-d12d-4e22-8a59-e30e75966367368",
           "shape": "box",
           "link": "",
@@ -17228,8 +16948,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 14434,
-          "y": 8125,
+          "x": 14254,
+          "y": -3632,
           "id": "45a42c5a-9f8e-4aa0-804c-4b03bb72a254368"
         },
         "20927c4c-cab4-4231-9dff-72239eba1092368": {
@@ -17255,8 +16975,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 14684,
-          "y": 8125,
+          "x": 14504,
+          "y": -3632,
           "id": "20927c4c-cab4-4231-9dff-72239eba1092368"
         },
         "c0706433-4142-4a33-82fa-b7e5f7cb73b0368": {
@@ -17282,8 +17002,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 14584,
-          "y": 8125,
+          "x": 14404,
+          "y": -3632,
           "id": "c0706433-4142-4a33-82fa-b7e5f7cb73b0368"
         },
         "00e5dcc0-f072-44be-8583-bff8b541528c368": {
@@ -17309,8 +17029,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 14434,
-          "y": 7275,
+          "x": 14254,
+          "y": -4482,
           "id": "00e5dcc0-f072-44be-8583-bff8b541528c368"
         },
         "37b19ceb-5d94-436f-8668-9f25be0b0e5c368": {
@@ -17336,8 +17056,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 14584,
-          "y": 7025,
+          "x": 14404,
+          "y": -4732,
           "id": "37b19ceb-5d94-436f-8668-9f25be0b0e5c368"
         },
         "96e6254a-d824-4ec6-a0ca-0c53b440bf40368": {
@@ -17363,8 +17083,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 14584,
-          "y": 7275,
+          "x": 14404,
+          "y": -4482,
           "id": "96e6254a-d824-4ec6-a0ca-0c53b440bf40368"
         },
         "8917bd9a-e1d1-408c-99c0-c6241c444b73368": {
@@ -17390,8 +17110,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 14584,
-          "y": 7525,
+          "x": 14404,
+          "y": -4232,
           "id": "8917bd9a-e1d1-408c-99c0-c6241c444b73368"
         },
         "d01d81c2-1076-4f20-afdc-12bbb315ee64368": {
@@ -17417,8 +17137,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 14648,
-          "y": 7375,
+          "x": 14468,
+          "y": -4382,
           "id": "d01d81c2-1076-4f20-afdc-12bbb315ee64368"
         },
         "f8de2d1d-ad1b-4c45-9b15-047f9204ff4f368": {
@@ -17444,8 +17164,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 14679,
-          "y": 7400,
+          "x": 14499,
+          "y": -4357,
           "id": "f8de2d1d-ad1b-4c45-9b15-047f9204ff4f368"
         },
         "d9456866-3cb0-424b-9e06-08bc774f1708368": {
@@ -17471,8 +17191,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 14644,
-          "y": 7425,
+          "x": 14464,
+          "y": -4332,
           "id": "d9456866-3cb0-424b-9e06-08bc774f1708368"
         },
         "e7bed983-791d-4522-9d93-ed7e7957e5d7368": {
@@ -17498,8 +17218,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 14663,
-          "y": 7450,
+          "x": 14483,
+          "y": -4307,
           "id": "e7bed983-791d-4522-9d93-ed7e7957e5d7368"
         },
         "16dc7f47-e7c0-4e9f-b707-5bb7e4c27833368": {
@@ -17525,8 +17245,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 14652,
-          "y": 7475,
+          "x": 14472,
+          "y": -4282,
           "id": "16dc7f47-e7c0-4e9f-b707-5bb7e4c27833368"
         },
         "90a954e3-a02f-41c3-83ea-ca628701ba24368": {
@@ -17552,8 +17272,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 14674,
-          "y": 7500,
+          "x": 14494,
+          "y": -4257,
           "id": "90a954e3-a02f-41c3-83ea-ca628701ba24368"
         },
         "f9ca0ff4-94f8-4d59-9e33-8628b6674f32368": {
@@ -17579,8 +17299,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 14676,
-          "y": 7525,
+          "x": 14496,
+          "y": -4232,
           "id": "f9ca0ff4-94f8-4d59-9e33-8628b6674f32368"
         },
         "69f93d0d-8303-4885-b77c-6e1e5f16a40c368": {
@@ -17606,8 +17326,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 14654,
-          "y": 7550,
+          "x": 14474,
+          "y": -4207,
           "id": "69f93d0d-8303-4885-b77c-6e1e5f16a40c368"
         },
         "7880793d-9ae9-4cd1-b3ab-a580dc2a1325368": {
@@ -17633,8 +17353,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 14645,
-          "y": 7575,
+          "x": 14465,
+          "y": -4182,
           "id": "7880793d-9ae9-4cd1-b3ab-a580dc2a1325368"
         },
         "8064f683-fe8d-4cc8-a8b4-adb75c973aa2368": {
@@ -17660,8 +17380,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 14673,
-          "y": 7600,
+          "x": 14493,
+          "y": -4157,
           "id": "8064f683-fe8d-4cc8-a8b4-adb75c973aa2368"
         },
         "b5eda999-a26c-4e57-af05-51940a8e08b3368": {
@@ -17687,8 +17407,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 14659,
-          "y": 7625,
+          "x": 14479,
+          "y": -4132,
           "id": "b5eda999-a26c-4e57-af05-51940a8e08b3368"
         },
         "d17d7ef7-19d4-45c6-a187-cc8df7d65038368": {
@@ -17714,8 +17434,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 14681,
-          "y": 7650,
+          "x": 14501,
+          "y": -4107,
           "id": "d17d7ef7-19d4-45c6-a187-cc8df7d65038368"
         },
         "c1ed293e-5a64-4cc5-bd80-779b2fbac4c9368": {
@@ -17741,8 +17461,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 14645,
-          "y": 7675,
+          "x": 14465,
+          "y": -4082,
           "id": "c1ed293e-5a64-4cc5-bd80-779b2fbac4c9368"
         },
         "715b4c56-0f12-4047-93d8-3dcc3699689a368": {
@@ -17768,8 +17488,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 14684,
-          "y": 7700,
+          "x": 14504,
+          "y": -4057,
           "id": "715b4c56-0f12-4047-93d8-3dcc3699689a368"
         },
         "b64e6583-4e97-4012-8b59-45605fcf3c30368": {
@@ -17795,8 +17515,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 14434,
-          "y": 7825,
+          "x": 14254,
+          "y": -3932,
           "id": "b64e6583-4e97-4012-8b59-45605fcf3c30368"
         },
         "c7e5c182-bcce-4215-9a2f-f042f5567d95368": {
@@ -17822,8 +17542,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 14434,
-          "y": 7925,
+          "x": 14254,
+          "y": -3832,
           "id": "c7e5c182-bcce-4215-9a2f-f042f5567d95368"
         },
         "bdc909ad-7a0a-4b7c-9ddb-350d61a3cb28368": {
@@ -17849,1371 +17569,9 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 14434,
-          "y": 8025,
+          "x": 14254,
+          "y": -3732,
           "id": "bdc909ad-7a0a-4b7c-9ddb-350d61a3cb28368"
-        },
-        "9d163881-fd3c-4c28-83d7-6b94fdfed42a368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "red"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 72,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "rdflib.js",
-          "x": 13882,
-          "y": -16662,
-          "id": "9d163881-fd3c-4c28-83d7-6b94fdfed42a368",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "00a0641a-c61f-46bc-bd60-e81d02e75ad9368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Development",
-          "x": 14182,
-          "y": -16212,
-          "id": "00a0641a-c61f-46bc-bd60-e81d02e75ad9368"
-        },
-        "93c84b55-3018-4f0a-97b1-9df9cf3cdf20368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "11/12/2019",
-          "x": 14432,
-          "y": -16212,
-          "id": "93c84b55-3018-4f0a-97b1-9df9cf3cdf20368"
-        },
-        "f8944a79-52dd-43d5-b81b-eb62d0eb9082368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "init",
-          "x": 14332,
-          "y": -16212,
-          "id": "f8944a79-52dd-43d5-b81b-eb62d0eb9082368"
-        },
-        "67990e1d-413a-4116-8e64-33fa6fa616a5368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Notes",
-          "x": 14182,
-          "y": -17062,
-          "id": "67990e1d-413a-4116-8e64-33fa6fa616a5368"
-        },
-        "f34cbc78-d5cf-4fb1-a872-0349d93fe81f368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Dictionary of\nconcepts",
-          "x": 14332,
-          "y": -17312,
-          "id": "f34cbc78-d5cf-4fb1-a872-0349d93fe81f368"
-        },
-        "ab2a7190-bff0-41de-b9d3-1657f7cf0467368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Details, thoughts",
-          "x": 14332,
-          "y": -17062,
-          "id": "ab2a7190-bff0-41de-b9d3-1657f7cf0467368"
-        },
-        "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Sections",
-          "x": 14332,
-          "y": -16812,
-          "id": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368"
-        },
-        "dea820fb-44c4-4aef-8bf9-63fdd0314a58368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Books",
-          "x": 14396,
-          "y": -16962,
-          "id": "dea820fb-44c4-4aef-8bf9-63fdd0314a58368"
-        },
-        "947c875f-c439-42d8-9301-05414a584978368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "R&D institutions",
-          "x": 14427,
-          "y": -16937,
-          "id": "947c875f-c439-42d8-9301-05414a584978368"
-        },
-        "55ae2f87-f678-47b3-bc9f-539bb9082124368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Sites",
-          "x": 14392,
-          "y": -16912,
-          "id": "55ae2f87-f678-47b3-bc9f-539bb9082124368"
-        },
-        "3c7fde60-c63c-4973-a05d-19bb7b7971be368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Magazines",
-          "x": 14411,
-          "y": -16887,
-          "id": "3c7fde60-c63c-4973-a05d-19bb7b7971be368"
-        },
-        "337fe5dc-9a3c-4a92-b4d3-986d5a08d636368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Articles",
-          "x": 14400,
-          "y": -16862,
-          "id": "337fe5dc-9a3c-4a92-b4d3-986d5a08d636368"
-        },
-        "1a301903-d98c-4f8b-be62-e90b5e8fd66d368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Media content",
-          "x": 14422,
-          "y": -16837,
-          "id": "1a301903-d98c-4f8b-be62-e90b5e8fd66d368"
-        },
-        "03a4bbe9-b668-4095-8798-a9f1837fc75e368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Misc. web links",
-          "x": 14424,
-          "y": -16812,
-          "id": "03a4bbe9-b668-4095-8798-a9f1837fc75e368"
-        },
-        "e3fcecff-e1a2-4bb9-aa2c-e4b72600a02a368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Projects",
-          "x": 14402,
-          "y": -16787,
-          "id": "e3fcecff-e1a2-4bb9-aa2c-e4b72600a02a368"
-        },
-        "286e2b33-80e1-4fe2-89b6-6a8aa9d3f703368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Tools",
-          "x": 14393,
-          "y": -16762,
-          "id": "286e2b33-80e1-4fe2-89b6-6a8aa9d3f703368"
-        },
-        "a6e65a28-5b57-4dd8-99e7-0705ef548132368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Organizations",
-          "x": 14421,
-          "y": -16737,
-          "id": "a6e65a28-5b57-4dd8-99e7-0705ef548132368"
-        },
-        "d15678e2-7e53-439d-a43e-314b2b103db4368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Standarts",
-          "x": 14407,
-          "y": -16712,
-          "id": "d15678e2-7e53-439d-a43e-314b2b103db4368"
-        },
-        "d8a992bc-ba44-4419-8f83-062dd21bb89a368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Forums, Groups",
-          "x": 14429,
-          "y": -16687,
-          "id": "d8a992bc-ba44-4419-8f83-062dd21bb89a368"
-        },
-        "1ea53d14-ea9c-4b11-950c-f95dbb87d4ae368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Laws",
-          "x": 14393,
-          "y": -16662,
-          "id": "1ea53d14-ea9c-4b11-950c-f95dbb87d4ae368"
-        },
-        "bb9baee0-aea1-4b0f-b618-9f0e43723848368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Adjacent Themes",
-          "x": 14432,
-          "y": -16637,
-          "id": "bb9baee0-aea1-4b0f-b618-9f0e43723848368"
-        },
-        "e00c5d93-cc4f-43a3-b22f-ebab9d8b9cda368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Questions",
-          "x": 14182,
-          "y": -16512,
-          "id": "e00c5d93-cc4f-43a3-b22f-ebab9d8b9cda368"
-        },
-        "35189674-5251-47c2-8acb-ba0ca3a38a26368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Problems",
-          "x": 14182,
-          "y": -16412,
-          "id": "35189674-5251-47c2-8acb-ba0ca3a38a26368"
-        },
-        "b4397b69-3768-41f5-bedf-b1ffc2de9d66368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Goals",
-          "x": 14182,
-          "y": -16312,
-          "id": "b4397b69-3768-41f5-bedf-b1ffc2de9d66368"
-        },
-        "a7e59b44-e221-4e14-9b03-b1c09087a05c368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "red"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 72,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "JavaScript",
-          "x": 13902,
-          "y": -12942,
-          "id": "a7e59b44-e221-4e14-9b03-b1c09087a05c368",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "cac322b9-d1bc-4eaf-be51-ae4c583bd337368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Development",
-          "x": 14202,
-          "y": -12492,
-          "id": "cac322b9-d1bc-4eaf-be51-ae4c583bd337368"
-        },
-        "b8aabfeb-919d-45e7-8a48-0d04277b52f5368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "11/12/2019",
-          "x": 14452,
-          "y": -12492,
-          "id": "b8aabfeb-919d-45e7-8a48-0d04277b52f5368"
-        },
-        "dcfee1d9-77e1-40ce-a843-2be8aae7911d368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "init",
-          "x": 14352,
-          "y": -12492,
-          "id": "dcfee1d9-77e1-40ce-a843-2be8aae7911d368"
-        },
-        "c71b6ede-4669-4326-a206-63742e8af265368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Notes",
-          "x": 14200,
-          "y": -13707,
-          "id": "c71b6ede-4669-4326-a206-63742e8af265368"
-        },
-        "9044727f-dde6-4528-8817-3d8f65e2ecea368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Dictionary of\nconcepts",
-          "x": 14363,
-          "y": -14365,
-          "id": "9044727f-dde6-4528-8817-3d8f65e2ecea368"
-        },
-        "576ec91f-f8f2-4d2f-9846-d5d14482f94b368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Details, thoughts",
-          "x": 14350,
-          "y": -13707,
-          "id": "576ec91f-f8f2-4d2f-9846-d5d14482f94b368"
-        },
-        "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Sections",
-          "x": 14352,
-          "y": -13092,
-          "id": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368"
-        },
-        "2a351dd6-cab3-4833-ba0a-605662ccd40b368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Books",
-          "x": 14414,
-          "y": -13607,
-          "id": "2a351dd6-cab3-4833-ba0a-605662ccd40b368"
-        },
-        "a903fd3f-232f-4c69-90b8-f6adeb535caf368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "R&D institutions",
-          "x": 14445,
-          "y": -13582,
-          "id": "a903fd3f-232f-4c69-90b8-f6adeb535caf368"
-        },
-        "6683b55c-537b-4e1a-a635-b9a068983312368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Sites",
-          "x": 14410,
-          "y": -13557,
-          "id": "6683b55c-537b-4e1a-a635-b9a068983312368"
-        },
-        "17ec9ccb-9ea5-436b-b932-29a87eb19adf368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Magazines",
-          "x": 14429,
-          "y": -13532,
-          "id": "17ec9ccb-9ea5-436b-b932-29a87eb19adf368"
-        },
-        "5d01ff30-e15c-4662-b115-a864d3b529e3368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Articles",
-          "x": 14418,
-          "y": -13507,
-          "id": "5d01ff30-e15c-4662-b115-a864d3b529e3368"
-        },
-        "0c0f768f-66f2-43ca-a600-6d84ac4a39c7368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Media content",
-          "x": 14440,
-          "y": -13482,
-          "id": "0c0f768f-66f2-43ca-a600-6d84ac4a39c7368"
-        },
-        "e15313ee-1ebb-4cd1-9c35-b0dde99c76cc368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Misc. web links",
-          "x": 14444,
-          "y": -13294,
-          "id": "e15313ee-1ebb-4cd1-9c35-b0dde99c76cc368"
-        },
-        "22ec8b1b-3ec5-4721-8ddb-b77e1bff6900368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Projects",
-          "x": 14422,
-          "y": -13067,
-          "id": "22ec8b1b-3ec5-4721-8ddb-b77e1bff6900368"
-        },
-        "1e2d5611-23c7-42a4-9a28-52fe3abfd813368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Tools",
-          "x": 14413,
-          "y": -13042,
-          "id": "1e2d5611-23c7-42a4-9a28-52fe3abfd813368"
-        },
-        "fdf0ff19-61ab-45ee-b039-b8afa69ee10e368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Organizations",
-          "x": 14441,
-          "y": -13017,
-          "id": "fdf0ff19-61ab-45ee-b039-b8afa69ee10e368"
-        },
-        "745273ed-5050-45d7-a7a2-e23d1423035f368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Standarts",
-          "x": 14427,
-          "y": -12992,
-          "id": "745273ed-5050-45d7-a7a2-e23d1423035f368"
-        },
-        "9d3452ab-41d3-4834-8197-e8b37708b10a368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Forums, Groups",
-          "x": 14449,
-          "y": -12967,
-          "id": "9d3452ab-41d3-4834-8197-e8b37708b10a368"
-        },
-        "ff0dbdaf-5ba0-431c-8459-63cd279ff6aa368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Laws",
-          "x": 14413,
-          "y": -12942,
-          "id": "ff0dbdaf-5ba0-431c-8459-63cd279ff6aa368"
-        },
-        "ee592839-4333-401f-bbd3-d6798ce84c45368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Adjacent Themes",
-          "x": 14452,
-          "y": -12917,
-          "id": "ee592839-4333-401f-bbd3-d6798ce84c45368"
-        },
-        "d8e65f72-2f61-47d5-8e6e-d970b389546d368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Questions",
-          "x": 14202,
-          "y": -12792,
-          "id": "d8e65f72-2f61-47d5-8e6e-d970b389546d368"
-        },
-        "1315cca2-e03a-4a68-932d-7e05b684b177368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Problems",
-          "x": 14202,
-          "y": -12692,
-          "id": "1315cca2-e03a-4a68-932d-7e05b684b177368"
-        },
-        "a23a4bc4-0f26-496e-8284-45480d76785e368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Goals",
-          "x": 14202,
-          "y": -12592,
-          "id": "a23a4bc4-0f26-496e-8284-45480d76785e368"
         },
         "a0f419d9-bc1f-468f-9088-336690e82d8e368": {
           "color": {
@@ -19241,8 +17599,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "HTML",
-          "x": 13764,
-          "y": -4740,
+          "x": 13584,
+          "y": -16497,
           "id": "a0f419d9-bc1f-468f-9088-336690e82d8e368",
           "shape": "box",
           "link": "",
@@ -19271,8 +17629,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 14227,
-          "y": -4315,
+          "x": 14047,
+          "y": -16072,
           "id": "2aafb4ef-0844-4800-98cc-51b8a998a39b368"
         },
         "e142ffda-bc5d-44ca-af82-c11a5f109780368": {
@@ -19298,8 +17656,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 14477,
-          "y": -4315,
+          "x": 14297,
+          "y": -16072,
           "id": "e142ffda-bc5d-44ca-af82-c11a5f109780368"
         },
         "7f9e277a-a077-427d-b3b4-c96b1ba6d6a3368": {
@@ -19325,8 +17683,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 14377,
-          "y": -4315,
+          "x": 14197,
+          "y": -16072,
           "id": "7f9e277a-a077-427d-b3b4-c96b1ba6d6a3368"
         },
         "d7d7962a-5c28-4418-becb-354b4c65fe67368": {
@@ -19352,8 +17710,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 14227,
-          "y": -5165,
+          "x": 14047,
+          "y": -16922,
           "id": "d7d7962a-5c28-4418-becb-354b4c65fe67368"
         },
         "6f19c42e-aaf8-4dd2-829e-da35d0e54a8d368": {
@@ -19379,8 +17737,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 14377,
-          "y": -5415,
+          "x": 14197,
+          "y": -17172,
           "id": "6f19c42e-aaf8-4dd2-829e-da35d0e54a8d368"
         },
         "81537f1c-0029-49b7-8bee-bbc0cb862a75368": {
@@ -19406,8 +17764,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 14377,
-          "y": -5165,
+          "x": 14197,
+          "y": -16922,
           "id": "81537f1c-0029-49b7-8bee-bbc0cb862a75368"
         },
         "ee134b47-b906-4525-9aa3-2d821e2e4176368": {
@@ -19433,8 +17791,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 14377,
-          "y": -4915,
+          "x": 14197,
+          "y": -16672,
           "id": "ee134b47-b906-4525-9aa3-2d821e2e4176368"
         },
         "066bc96a-d8e0-4cc8-b155-b373e6015be1368": {
@@ -19460,8 +17818,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 14441,
-          "y": -5065,
+          "x": 14261,
+          "y": -16822,
           "id": "066bc96a-d8e0-4cc8-b155-b373e6015be1368"
         },
         "3262c8da-2cb8-42df-9d3d-d9b7212965ec368": {
@@ -19487,8 +17845,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 14472,
-          "y": -5040,
+          "x": 14292,
+          "y": -16797,
           "id": "3262c8da-2cb8-42df-9d3d-d9b7212965ec368"
         },
         "42c86984-b7cb-4b38-9786-135256083d70368": {
@@ -19514,8 +17872,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 14437,
-          "y": -5015,
+          "x": 14257,
+          "y": -16772,
           "id": "42c86984-b7cb-4b38-9786-135256083d70368"
         },
         "66488496-5fd9-43f3-bcf2-4bf2ece39379368": {
@@ -19541,8 +17899,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 14456,
-          "y": -4990,
+          "x": 14276,
+          "y": -16747,
           "id": "66488496-5fd9-43f3-bcf2-4bf2ece39379368"
         },
         "97a22566-8905-4fb7-8b14-e7bbd389a31c368": {
@@ -19568,8 +17926,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 14445,
-          "y": -4965,
+          "x": 14265,
+          "y": -16722,
           "id": "97a22566-8905-4fb7-8b14-e7bbd389a31c368"
         },
         "d7236f5a-7f44-4e59-a31e-e7a1e19b77f3368": {
@@ -19595,8 +17953,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 14467,
-          "y": -4940,
+          "x": 14287,
+          "y": -16697,
           "id": "d7236f5a-7f44-4e59-a31e-e7a1e19b77f3368"
         },
         "7b2373bc-4ca8-48b9-a176-cbf051b7de65368": {
@@ -19622,8 +17980,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 14469,
-          "y": -4915,
+          "x": 14289,
+          "y": -16672,
           "id": "7b2373bc-4ca8-48b9-a176-cbf051b7de65368"
         },
         "ad6481f5-1993-46bd-a171-4a8645c7758e368": {
@@ -19649,8 +18007,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 14447,
-          "y": -4890,
+          "x": 14267,
+          "y": -16647,
           "id": "ad6481f5-1993-46bd-a171-4a8645c7758e368"
         },
         "ff765ee0-1264-4e07-ac26-c5277357c4e1368": {
@@ -19676,8 +18034,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 14438,
-          "y": -4865,
+          "x": 14258,
+          "y": -16622,
           "id": "ff765ee0-1264-4e07-ac26-c5277357c4e1368"
         },
         "62398c8b-b53e-4791-a4cb-166e4faab20f368": {
@@ -19703,8 +18061,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 14466,
-          "y": -4840,
+          "x": 14286,
+          "y": -16597,
           "id": "62398c8b-b53e-4791-a4cb-166e4faab20f368"
         },
         "db0385f5-6ba3-4a9a-91cc-25c0f937bf9d368": {
@@ -19730,8 +18088,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 14452,
-          "y": -4815,
+          "x": 14272,
+          "y": -16572,
           "id": "db0385f5-6ba3-4a9a-91cc-25c0f937bf9d368"
         },
         "9841c5be-7ed8-4a2c-bc0f-a6ef2f8011a9368": {
@@ -19757,8 +18115,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 14474,
-          "y": -4790,
+          "x": 14294,
+          "y": -16547,
           "id": "9841c5be-7ed8-4a2c-bc0f-a6ef2f8011a9368"
         },
         "1c3072b8-cfe9-4e31-8df8-15ba8d10db62368": {
@@ -19784,8 +18142,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 14438,
-          "y": -4765,
+          "x": 14258,
+          "y": -16522,
           "id": "1c3072b8-cfe9-4e31-8df8-15ba8d10db62368"
         },
         "ee54c961-2505-475e-b73b-6c66cbf6c78f368": {
@@ -19811,8 +18169,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 14477,
-          "y": -4740,
+          "x": 14297,
+          "y": -16497,
           "id": "ee54c961-2505-475e-b73b-6c66cbf6c78f368"
         },
         "06ec767f-d46a-422b-afd8-9c976177546d368": {
@@ -19838,8 +18196,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 14227,
-          "y": -4615,
+          "x": 14047,
+          "y": -16372,
           "id": "06ec767f-d46a-422b-afd8-9c976177546d368"
         },
         "9426e27d-7952-4737-bde7-d18abb70d1b8368": {
@@ -19865,8 +18223,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 14227,
-          "y": -4515,
+          "x": 14047,
+          "y": -16272,
           "id": "9426e27d-7952-4737-bde7-d18abb70d1b8368"
         },
         "2ddaedcd-38fc-41dd-8761-cfa59af3be65368": {
@@ -19892,8 +18250,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 14227,
-          "y": -4415,
+          "x": 14047,
+          "y": -16172,
           "id": "2ddaedcd-38fc-41dd-8761-cfa59af3be65368"
         },
         "c7f13dce-ee97-4ccf-8620-44f8812e1809368": {
@@ -19922,8 +18280,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "CSS",
-          "x": 13890,
-          "y": -2637,
+          "x": 13710,
+          "y": -14394,
           "id": "c7f13dce-ee97-4ccf-8620-44f8812e1809368",
           "shape": "box",
           "link": "",
@@ -19952,8 +18310,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 14190,
-          "y": -2187,
+          "x": 14010,
+          "y": -13944,
           "id": "005e3a03-ee76-4234-957f-724274eb48e8368"
         },
         "8811616d-2380-4572-9fd0-1754f915da69368": {
@@ -19979,8 +18337,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 14440,
-          "y": -2187,
+          "x": 14260,
+          "y": -13944,
           "id": "8811616d-2380-4572-9fd0-1754f915da69368"
         },
         "8f8d1862-d55f-4e20-8fd7-7aeb056e568b368": {
@@ -20006,8 +18364,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 14340,
-          "y": -2187,
+          "x": 14160,
+          "y": -13944,
           "id": "8f8d1862-d55f-4e20-8fd7-7aeb056e568b368"
         },
         "1dfe2726-cc38-4f05-98c0-cebe0af44fcc368": {
@@ -20033,8 +18391,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 14190,
-          "y": -3037,
+          "x": 14010,
+          "y": -14794,
           "id": "1dfe2726-cc38-4f05-98c0-cebe0af44fcc368"
         },
         "6b6b6bb6-c963-4faa-82e7-5bd5e662e9fd368": {
@@ -20060,8 +18418,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 14340,
-          "y": -3287,
+          "x": 14160,
+          "y": -15044,
           "id": "6b6b6bb6-c963-4faa-82e7-5bd5e662e9fd368"
         },
         "06d5afba-aeea-4516-a713-8221ca1497c6368": {
@@ -20087,8 +18445,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 14340,
-          "y": -3037,
+          "x": 14160,
+          "y": -14794,
           "id": "06d5afba-aeea-4516-a713-8221ca1497c6368"
         },
         "458401fb-2d79-4a22-be94-01a35104e103368": {
@@ -20114,8 +18472,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 14340,
-          "y": -2787,
+          "x": 14160,
+          "y": -14544,
           "id": "458401fb-2d79-4a22-be94-01a35104e103368"
         },
         "8bac1fc6-6e4c-4dfc-8abf-62941842664e368": {
@@ -20141,8 +18499,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 14404,
-          "y": -2937,
+          "x": 14224,
+          "y": -14694,
           "id": "8bac1fc6-6e4c-4dfc-8abf-62941842664e368"
         },
         "456ca56e-d96c-4d1d-ba6b-0ddff9b6c50f368": {
@@ -20168,8 +18526,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 14435,
-          "y": -2912,
+          "x": 14255,
+          "y": -14669,
           "id": "456ca56e-d96c-4d1d-ba6b-0ddff9b6c50f368"
         },
         "7f843ecf-614b-4e29-9b2d-86d51b1c1132368": {
@@ -20195,8 +18553,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 14400,
-          "y": -2887,
+          "x": 14220,
+          "y": -14644,
           "id": "7f843ecf-614b-4e29-9b2d-86d51b1c1132368"
         },
         "d157cac6-f506-4df5-8248-dcf6a0e85e43368": {
@@ -20222,8 +18580,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 14419,
-          "y": -2862,
+          "x": 14239,
+          "y": -14619,
           "id": "d157cac6-f506-4df5-8248-dcf6a0e85e43368"
         },
         "9c0eced9-8b4e-4f4b-9b6d-00b578bc6434368": {
@@ -20249,8 +18607,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 14408,
-          "y": -2837,
+          "x": 14228,
+          "y": -14594,
           "id": "9c0eced9-8b4e-4f4b-9b6d-00b578bc6434368"
         },
         "65a0789a-4c04-4f29-ac6f-a09715f61bc5368": {
@@ -20276,8 +18634,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 14430,
-          "y": -2812,
+          "x": 14250,
+          "y": -14569,
           "id": "65a0789a-4c04-4f29-ac6f-a09715f61bc5368"
         },
         "4f491365-7b61-458c-baee-b3f62041af84368": {
@@ -20303,8 +18661,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 14432,
-          "y": -2787,
+          "x": 14252,
+          "y": -14544,
           "id": "4f491365-7b61-458c-baee-b3f62041af84368"
         },
         "f32c228a-1b13-4449-8cab-e57d248d1983368": {
@@ -20330,8 +18688,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 14410,
-          "y": -2762,
+          "x": 14230,
+          "y": -14519,
           "id": "f32c228a-1b13-4449-8cab-e57d248d1983368"
         },
         "61af8a29-2fd6-4ee6-94fe-c23f397efd2d368": {
@@ -20357,8 +18715,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 14401,
-          "y": -2737,
+          "x": 14221,
+          "y": -14494,
           "id": "61af8a29-2fd6-4ee6-94fe-c23f397efd2d368"
         },
         "953c3cbb-a711-4842-ac9e-43e24a0e3238368": {
@@ -20384,8 +18742,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 14429,
-          "y": -2712,
+          "x": 14249,
+          "y": -14469,
           "id": "953c3cbb-a711-4842-ac9e-43e24a0e3238368"
         },
         "55cb2e28-618b-4dc6-9fee-17cc8c08a9ff368": {
@@ -20411,8 +18769,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 14415,
-          "y": -2687,
+          "x": 14235,
+          "y": -14444,
           "id": "55cb2e28-618b-4dc6-9fee-17cc8c08a9ff368"
         },
         "41a4fac3-1977-4843-bc81-162dd973dacf368": {
@@ -20438,8 +18796,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 14437,
-          "y": -2662,
+          "x": 14257,
+          "y": -14419,
           "id": "41a4fac3-1977-4843-bc81-162dd973dacf368"
         },
         "7d6ee17d-9fe1-4dff-a61b-e52b7ccb9afc368": {
@@ -20465,8 +18823,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 14401,
-          "y": -2637,
+          "x": 14221,
+          "y": -14394,
           "id": "7d6ee17d-9fe1-4dff-a61b-e52b7ccb9afc368"
         },
         "77bc4ed0-677f-4f16-9e7b-3f4c47a51313368": {
@@ -20492,8 +18850,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 14440,
-          "y": -2612,
+          "x": 14260,
+          "y": -14369,
           "id": "77bc4ed0-677f-4f16-9e7b-3f4c47a51313368"
         },
         "f718316c-a935-4aae-b4ac-37007d7f48bf368": {
@@ -20519,8 +18877,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 14190,
-          "y": -2487,
+          "x": 14010,
+          "y": -14244,
           "id": "f718316c-a935-4aae-b4ac-37007d7f48bf368"
         },
         "0888aae1-0912-4263-8c50-084634a983c5368": {
@@ -20546,8 +18904,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 14190,
-          "y": -2387,
+          "x": 14010,
+          "y": -14144,
           "id": "0888aae1-0912-4263-8c50-084634a983c5368"
         },
         "d0553eab-fb1d-4205-8086-4d0e65caeeb5368": {
@@ -20573,8 +18931,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 14190,
-          "y": -2287,
+          "x": 14010,
+          "y": -14044,
           "id": "d0553eab-fb1d-4205-8086-4d0e65caeeb5368"
         },
         "f7a6d7a0-c0a3-408c-810c-56303babed77368": {
@@ -20603,8 +18961,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "How to work with schemes\non mm-vis-js canvas",
-          "x": 13752,
-          "y": -208,
+          "x": 13572,
+          "y": -11965,
           "id": "f7a6d7a0-c0a3-408c-810c-56303babed77368",
           "shape": "box",
           "link": "",
@@ -20633,8 +18991,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 14473,
-          "y": 259,
+          "x": 14293,
+          "y": -11498,
           "id": "94821b7c-d6f0-4095-a834-bc1607785cc7368"
         },
         "3aab07a8-c83c-42b5-9675-4592c8768c0e368": {
@@ -20660,8 +19018,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 14723,
-          "y": 259,
+          "x": 14543,
+          "y": -11498,
           "id": "3aab07a8-c83c-42b5-9675-4592c8768c0e368"
         },
         "d250c40a-f442-4516-b822-f1393a6898b3368": {
@@ -20687,8 +19045,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 14623,
-          "y": 259,
+          "x": 14443,
+          "y": -11498,
           "id": "d250c40a-f442-4516-b822-f1393a6898b3368"
         },
         "5d497d7e-3ed2-48a0-a64b-d03ac83c3a72368": {
@@ -20714,8 +19072,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 14473,
-          "y": -591,
+          "x": 14293,
+          "y": -12348,
           "id": "5d497d7e-3ed2-48a0-a64b-d03ac83c3a72368"
         },
         "d90f31a9-e49f-44e8-ba3b-f0907e0d1fbd368": {
@@ -20741,8 +19099,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 14640,
-          "y": -1137,
+          "x": 14460,
+          "y": -12894,
           "id": "d90f31a9-e49f-44e8-ba3b-f0907e0d1fbd368"
         },
         "2b4b95c1-5389-4ad4-a850-ab36b827a1ef368": {
@@ -20768,8 +19126,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 14623,
-          "y": -591,
+          "x": 14443,
+          "y": -12348,
           "id": "2b4b95c1-5389-4ad4-a850-ab36b827a1ef368"
         },
         "b5659a12-bafe-4e2b-a9b6-000d705b30b4368": {
@@ -20795,8 +19153,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 14623,
-          "y": -341,
+          "x": 14443,
+          "y": -12098,
           "id": "b5659a12-bafe-4e2b-a9b6-000d705b30b4368"
         },
         "c1ab8948-129f-44a6-8e86-d5567fc2da1a368": {
@@ -20822,8 +19180,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 14687,
-          "y": -491,
+          "x": 14507,
+          "y": -12248,
           "id": "c1ab8948-129f-44a6-8e86-d5567fc2da1a368"
         },
         "44a68bf9-f1e9-4ba8-979c-2e065a069e9c368": {
@@ -20849,8 +19207,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 14718,
-          "y": -466,
+          "x": 14538,
+          "y": -12223,
           "id": "44a68bf9-f1e9-4ba8-979c-2e065a069e9c368"
         },
         "4815436e-edb6-43f8-91d7-bdc5df1c8735368": {
@@ -20876,8 +19234,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 14683,
-          "y": -441,
+          "x": 14503,
+          "y": -12198,
           "id": "4815436e-edb6-43f8-91d7-bdc5df1c8735368"
         },
         "efdbc55b-7d32-40e9-809a-8f0ae12dde2f368": {
@@ -20903,8 +19261,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 14702,
-          "y": -416,
+          "x": 14522,
+          "y": -12173,
           "id": "efdbc55b-7d32-40e9-809a-8f0ae12dde2f368"
         },
         "0cd161fa-b4e2-4623-8b5f-9f4f8eb2f8dd368": {
@@ -20930,8 +19288,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 14691,
-          "y": -391,
+          "x": 14511,
+          "y": -12148,
           "id": "0cd161fa-b4e2-4623-8b5f-9f4f8eb2f8dd368"
         },
         "18147dec-0ca6-4b7a-b276-746870d52612368": {
@@ -20957,8 +19315,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 14713,
-          "y": -366,
+          "x": 14533,
+          "y": -12123,
           "id": "18147dec-0ca6-4b7a-b276-746870d52612368"
         },
         "3118dff1-882b-4f81-a3b4-caff866620c2368": {
@@ -20984,8 +19342,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 14715,
-          "y": -341,
+          "x": 14535,
+          "y": -12098,
           "id": "3118dff1-882b-4f81-a3b4-caff866620c2368"
         },
         "e9b2257f-6381-4810-8df4-9af6da64c28a368": {
@@ -21011,8 +19369,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 14693,
-          "y": -316,
+          "x": 14513,
+          "y": -12073,
           "id": "e9b2257f-6381-4810-8df4-9af6da64c28a368"
         },
         "041da44a-5f85-4515-bb1e-8f681a02d26d368": {
@@ -21038,8 +19396,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 14684,
-          "y": -291,
+          "x": 14504,
+          "y": -12048,
           "id": "041da44a-5f85-4515-bb1e-8f681a02d26d368"
         },
         "8ba2e055-7caf-402e-a6f8-0c154e92b67f368": {
@@ -21065,8 +19423,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 14712,
-          "y": -266,
+          "x": 14532,
+          "y": -12023,
           "id": "8ba2e055-7caf-402e-a6f8-0c154e92b67f368"
         },
         "d206a6ca-f9a1-4296-91cf-b59aff3b4472368": {
@@ -21092,8 +19450,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 14698,
-          "y": -241,
+          "x": 14518,
+          "y": -11998,
           "id": "d206a6ca-f9a1-4296-91cf-b59aff3b4472368"
         },
         "7c8721b9-fa13-4421-bc0b-4f124e9df663368": {
@@ -21119,8 +19477,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 14720,
-          "y": -216,
+          "x": 14540,
+          "y": -11973,
           "id": "7c8721b9-fa13-4421-bc0b-4f124e9df663368"
         },
         "8e11eae9-0b5c-4f3d-a914-d0749119f620368": {
@@ -21146,8 +19504,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 14684,
-          "y": -191,
+          "x": 14504,
+          "y": -11948,
           "id": "8e11eae9-0b5c-4f3d-a914-d0749119f620368"
         },
         "3ca92460-dd3b-41a2-bffe-908f33486fe3368": {
@@ -21173,8 +19531,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 14723,
-          "y": -166,
+          "x": 14543,
+          "y": -11923,
           "id": "3ca92460-dd3b-41a2-bffe-908f33486fe3368"
         },
         "16f918a0-000f-4f18-958a-c5a7a58bd024368": {
@@ -21200,8 +19558,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 14473,
-          "y": -41,
+          "x": 14293,
+          "y": -11798,
           "id": "16f918a0-000f-4f18-958a-c5a7a58bd024368"
         },
         "221b1475-d6f4-43d1-be40-c02fb677addf368": {
@@ -21227,8 +19585,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 14473,
-          "y": 59,
+          "x": 14293,
+          "y": -11698,
           "id": "221b1475-d6f4-43d1-be40-c02fb677addf368"
         },
         "a314c3d9-0b2f-4a07-8212-f715e12da323368": {
@@ -21254,8 +19612,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 14473,
-          "y": 159,
+          "x": 14293,
+          "y": -11598,
           "id": "a314c3d9-0b2f-4a07-8212-f715e12da323368"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142368": {
@@ -21288,80 +19646,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "SPARQL",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142368",
-          "x": 18134,
-          "y": 7239,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "rdflib.js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393368",
-          "x": 17727,
-          "y": -16846,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189170368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "JavaScript",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189170368",
-          "x": 18477,
-          "y": -14268,
+          "x": 17954,
+          "y": -4518,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21396,8 +19682,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "HTML",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189170258368",
-          "x": 17504,
-          "y": -5080,
+          "x": 17324,
+          "y": -16837,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21432,8 +19718,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "CSS",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939318917025813368",
-          "x": 17171,
-          "y": -2838,
+          "x": 16991,
+          "y": -14595,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21468,8 +19754,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "How to work with\nschemes on\nmm-vis-js canvas",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939318917025813224368",
-          "x": 20004,
-          "y": 170,
+          "x": 19824,
+          "y": -11587,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21503,8 +19789,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Category:SPARQL",
           "link": "https://en.wikipedia.org/wiki/Category:SPARQL",
-          "x": 15318,
-          "y": 6907,
+          "x": 15138,
+          "y": -4850,
           "id": "f9916ce1-34a1-4874-8ea0-83b1b3f8c73a296368",
           "shape": "box",
           "borderWidth": ""
@@ -21533,8 +19819,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "SPARQL",
           "link": "https://en.wikipedia.org/wiki/SPARQL",
-          "x": 15904,
-          "y": 6852,
+          "x": 15724,
+          "y": -4905,
           "id": "690798be-f897-42c1-a6d7-efc08e78177a368"
         },
         "76c6bdd3-8cc3-4d08-9307-f59207369dfb368": {
@@ -21561,8 +19847,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "OGC GeoSPARQL",
           "link": "https://en.wikipedia.org/wiki/OGC GeoSPARQL",
-          "x": 15935,
-          "y": 6877,
+          "x": 15755,
+          "y": -4880,
           "id": "76c6bdd3-8cc3-4d08-9307-f59207369dfb368"
         },
         "d4364fe2-42ea-4706-b8ac-56963295e56e368": {
@@ -21589,8 +19875,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ShEx",
           "link": "https://en.wikipedia.org/wiki/ShEx",
-          "x": 15893,
-          "y": 6902,
+          "x": 15713,
+          "y": -4855,
           "id": "d4364fe2-42ea-4706-b8ac-56963295e56e368"
         },
         "007bcd62-bc87-45c1-a865-c404689ad581368": {
@@ -21617,8 +19903,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "List of SPARQL implementations",
           "link": "https://en.wikipedia.org/wiki/List of SPARQL implementations",
-          "x": 15979,
-          "y": 6927,
+          "x": 15799,
+          "y": -4830,
           "id": "007bcd62-bc87-45c1-a865-c404689ad581368"
         },
         "3e552ad7-0992-43cd-bd1a-14600340eea2368": {
@@ -21645,8 +19931,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "SPARQL Query Results XML Format",
           "link": "https://en.wikipedia.org/wiki/SPARQL Query Results XML Format",
-          "x": 15992,
-          "y": 6952,
+          "x": 15812,
+          "y": -4805,
           "id": "3e552ad7-0992-43cd-bd1a-14600340eea2368"
         },
         "2527eebe-8a42-4a0c-9506-eafb8d29006f368": {
@@ -21673,1488 +19959,9 @@ var schemeData =
           "shapeProperties": {},
           "label": "SPARQL Syntax Expressions",
           "link": "https://en.wikipedia.org/wiki/SPARQL Syntax Expressions",
-          "x": 15968,
-          "y": 6977,
+          "x": 15788,
+          "y": -4780,
           "id": "2527eebe-8a42-4a0c-9506-eafb8d29006f368"
-        },
-        "8b0112d3-59fb-4d42-bbe7-51b3ab88a304368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "red"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 72,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "node.js",
-          "x": 13160,
-          "y": -6808,
-          "id": "8b0112d3-59fb-4d42-bbe7-51b3ab88a304368",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "0b72c7bf-1328-4eff-8490-5f1e8084bee8368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Development",
-          "x": 13460,
-          "y": -6358,
-          "id": "0b72c7bf-1328-4eff-8490-5f1e8084bee8368"
-        },
-        "aa0461e5-9429-4159-a6eb-23deb821717a368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "11/16/2019",
-          "x": 13710,
-          "y": -6358,
-          "id": "aa0461e5-9429-4159-a6eb-23deb821717a368"
-        },
-        "593c4777-3c8a-4ba9-baf6-2834d0b44966368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "init",
-          "x": 13610,
-          "y": -6358,
-          "id": "593c4777-3c8a-4ba9-baf6-2834d0b44966368"
-        },
-        "8edec874-c95a-4c54-9661-4ef493643350368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Notes",
-          "x": 13454,
-          "y": -7380,
-          "id": "8edec874-c95a-4c54-9661-4ef493643350368"
-        },
-        "175bbd9d-ea9b-4598-a5ab-52f65625a8fe368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Dictionary of\nconcepts",
-          "x": 13634,
-          "y": -8501,
-          "id": "175bbd9d-ea9b-4598-a5ab-52f65625a8fe368"
-        },
-        "5fa9e65d-82eb-46e8-8a90-9730d61cb9af368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Details, thoughts",
-          "x": 13604,
-          "y": -7380,
-          "id": "5fa9e65d-82eb-46e8-8a90-9730d61cb9af368"
-        },
-        "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Sections",
-          "x": 13610,
-          "y": -6958,
-          "id": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368"
-        },
-        "15ddf0eb-270f-4cb1-b079-9b0be14fa133368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Books",
-          "x": 13668,
-          "y": -7280,
-          "id": "15ddf0eb-270f-4cb1-b079-9b0be14fa133368"
-        },
-        "0b4c7e99-c9a2-46ce-b6d3-192ee610ea8c368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "R&D institutions",
-          "x": 13699,
-          "y": -7255,
-          "id": "0b4c7e99-c9a2-46ce-b6d3-192ee610ea8c368"
-        },
-        "3bc3a3d8-7e65-4d44-9224-0ca4af905d84368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Sites",
-          "x": 13664,
-          "y": -7230,
-          "id": "3bc3a3d8-7e65-4d44-9224-0ca4af905d84368"
-        },
-        "63b6fb39-3c54-48fd-ae20-bf7fcf08c629368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Magazines",
-          "x": 13683,
-          "y": -7205,
-          "id": "63b6fb39-3c54-48fd-ae20-bf7fcf08c629368"
-        },
-        "b353053c-5062-4b57-b417-f78336140d54368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Articles",
-          "x": 13672,
-          "y": -7180,
-          "id": "b353053c-5062-4b57-b417-f78336140d54368"
-        },
-        "fbd5f791-e752-4e64-a321-4a9138e159c1368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Media content",
-          "x": 13694,
-          "y": -7155,
-          "id": "fbd5f791-e752-4e64-a321-4a9138e159c1368"
-        },
-        "60e54f39-3c52-4f13-a156-cd1bab76771e368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Misc. web links",
-          "x": 13709,
-          "y": -7041,
-          "id": "60e54f39-3c52-4f13-a156-cd1bab76771e368"
-        },
-        "48f6cdc3-ba15-45be-9d2e-7be8841f90a5368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Projects",
-          "x": 13680,
-          "y": -6933,
-          "id": "48f6cdc3-ba15-45be-9d2e-7be8841f90a5368"
-        },
-        "6b306a33-b08f-4b5e-bcda-b7954e099c5b368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Tools",
-          "x": 13672,
-          "y": -6908,
-          "id": "6b306a33-b08f-4b5e-bcda-b7954e099c5b368"
-        },
-        "cb89defd-1974-4657-996b-0cbc98253396368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Organizations",
-          "x": 13699,
-          "y": -6883,
-          "id": "cb89defd-1974-4657-996b-0cbc98253396368"
-        },
-        "eadc8461-b537-422a-97f6-c404c48e6657368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Standarts",
-          "x": 13685,
-          "y": -6858,
-          "id": "eadc8461-b537-422a-97f6-c404c48e6657368"
-        },
-        "0d743907-6d08-4519-ae85-deb4483ee8a3368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Forums, Groups",
-          "x": 13707,
-          "y": -6833,
-          "id": "0d743907-6d08-4519-ae85-deb4483ee8a3368"
-        },
-        "99debaf4-acfe-43c6-b37f-e42d076de7f5368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Laws",
-          "x": 13671,
-          "y": -6808,
-          "id": "99debaf4-acfe-43c6-b37f-e42d076de7f5368"
-        },
-        "98f7c24f-d404-495e-a5b4-2896c47cc8cc368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Adjacent Themes",
-          "x": 13710,
-          "y": -6783,
-          "id": "98f7c24f-d404-495e-a5b4-2896c47cc8cc368"
-        },
-        "7bbf542e-5700-4a63-8561-bad053b0ae25368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Questions",
-          "x": 13460,
-          "y": -6658,
-          "id": "7bbf542e-5700-4a63-8561-bad053b0ae25368"
-        },
-        "39d86401-99db-464f-8ff4-d92d27553c2b368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Problems",
-          "x": 13460,
-          "y": -6558,
-          "id": "39d86401-99db-464f-8ff4-d92d27553c2b368"
-        },
-        "2ce62d8d-e16f-4800-aae0-fbf097287e96368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Goals",
-          "x": 13460,
-          "y": -6458,
-          "id": "2ce62d8d-e16f-4800-aae0-fbf097287e96368"
-        },
-        "d96f5948-ef1b-4663-896c-94fb21826ad1368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "https://nodejs.org/en/",
-          "id": "d96f5948-ef1b-4663-896c-94fb21826ad1368",
-          "x": 13881,
-          "y": -7073,
-          "shape": "box",
-          "link": "https://nodejs.org/en/",
-          "borderWidth": ""
-        },
-        "b69dd9ef-2709-449d-adf2-1a75b7341d96368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "https://en.wikipedia.org/wiki/Node.js",
-          "id": "b69dd9ef-2709-449d-adf2-1a75b7341d96368",
-          "x": 13926,
-          "y": -7006,
-          "shape": "box",
-          "link": "https://en.wikipedia.org/wiki/Node.js",
-          "borderWidth": ""
-        },
-        "a5cd2f42-f8f0-43aa-8be8-957bad6f9147368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "File",
-          "id": "a5cd2f42-f8f0-43aa-8be8-957bad6f9147368",
-          "x": 13878,
-          "y": -9625
-        },
-        "fa38bc4c-25b3-4e43-98a9-52b403247056368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "var fs = require('fs');\n \nvar contents = fs.readFileSync('DATA', 'utf8');\nconsole.log(contents);",
-          "id": "fa38bc4c-25b3-4e43-98a9-52b403247056368",
-          "x": 14559,
-          "y": -9549,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "f82446f2-e318-489a-bcdc-bf6c553eda49368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Read file",
-          "id": "f82446f2-e318-489a-bcdc-bf6c553eda49368",
-          "x": 14063,
-          "y": -9549
-        },
-        "19149795-5ce1-4f65-8af6-17b289c3b3fc368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "synchronously (blocking)",
-          "id": "19149795-5ce1-4f65-8af6-17b289c3b3fc368",
-          "x": 14263,
-          "y": -9551
-        },
-        "e359a9ab-c9e2-4423-a42d-debab459f905368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Write file",
-          "id": "e359a9ab-c9e2-4423-a42d-debab459f905368",
-          "x": 14062,
-          "y": -9412
-        },
-        "b313d40f-da15-42db-a2aa-2288154a95a4368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Synchronous Write",
-          "id": "b313d40f-da15-42db-a2aa-2288154a95a4368",
-          "x": 14265,
-          "y": -9419
-        },
-        "db68dd14-d028-483c-9b32-bcbc3e3b0416368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "fs = require('fs');\n\nfs.writeFileSync(\"synchronous.txt\", \"synchronous write!\")",
-          "id": "db68dd14-d028-483c-9b32-bcbc3e3b0416368",
-          "x": 14579,
-          "y": -9415,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599482538368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "node.js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599482538368",
-          "x": 17755,
-          "y": -9371,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "22bca686-0c7e-4114-863c-797c302218dd368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Web",
-          "id": "22bca686-0c7e-4114-863c-797c302218dd368",
-          "x": 13881,
-          "y": -9127
-        },
-        "1d75ed7e-86c3-4e7f-9d05-7a3b748649b8368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "http-server",
-          "id": "1d75ed7e-86c3-4e7f-9d05-7a3b748649b8368",
-          "x": 14072,
-          "y": -9119
-        },
-        "ac59f16e-c18f-44c2-8825-0f4c97e99786368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "var http = require('http');\nvar fs = require('fs');\n\nhttp.createServer(function (req, res) {\n    console.dir(req.url);\n\n    res.writeHead(200, {'Content-Type': 'text/html'});\n\n    res.end('ok');\n}).listen(3001);",
-          "id": "ac59f16e-c18f-44c2-8825-0f4c97e99786368",
-          "x": 14718,
-          "y": -9109,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "7694fd32-c1c5-40d4-9240-54d4e7ede3bd368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\n    // will get you  '/' or 'index.html' or 'css/styles.css' ...\n    // • you need to isolate extension\n    // • have a small mimetype lookup array/object\n    // • only there and then reading the file\n    // •  delivering it after setting the right content type",
-          "id": "7694fd32-c1c5-40d4-9240-54d4e7ede3bd368",
-          "x": 15155,
-          "y": -9124,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "cc7d6c80-dc62-4cc7-b578-847ffa71a497368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "default",
-          "id": "cc7d6c80-dc62-4cc7-b578-847ffa71a497368",
-          "x": 14336,
-          "y": -9110
-        },
-        "89204f24-20ea-44c2-960e-df487896b73d368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Express",
-          "id": "89204f24-20ea-44c2-960e-df487896b73d368",
-          "x": 14345,
-          "y": -8735
-        },
-        "8611fc6f-7fdb-465b-8594-409160e4d294368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "var fs = require(\"fs\");\nvar host = \"127.0.0.1\";\nvar port = 1337;\nvar express = require(\"express\");\n\nvar app = express();\n//app.use(express.static(__dirname + \"/public\")); //use static files in ROOT/public folder\n\nvar saveData = {};\napp.get(\"/\", function(request, response){ //root dir\n    response.set('access-control-allow-origin', '*');\n    var path = request.query.path;\n    var dataPart = request.query.dataPart;\n    var dataPartNumber = request.query.dataPartNumber;\n    var projectName = request.query.projectName;\n    var saveTime = request.query.saveTime;\n    var lastDataPart = request.query.lastDataPart;\n\n    saveData[dataPartNumber] = JSON.parse(dataPart);\n\n    var answerLine = JSON.stringify(\"ok\");\n\n    process.stdout.write(dataPart);\n    if (lastDataPart == \"true\") {\n        var data = \"\";\n        for (var key in saveData) {\n           data += saveData[key];\n        }\n        console.log(data);\n    }\n    response.send(answerLine);\n});\n\napp.listen(port, host);\n",
-          "id": "8611fc6f-7fdb-465b-8594-409160e4d294368",
-          "x": 14847,
-          "y": -8512,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "c4c94d18-dddf-492f-a462-dbf98eb7c4ec368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "https://expressjs.com/",
-          "id": "c4c94d18-dddf-492f-a462-dbf98eb7c4ec368",
-          "x": 14650,
-          "y": -8925,
-          "shape": "box",
-          "link": "https://expressjs.com/",
-          "borderWidth": ""
-        },
-        "6ec535b8-1ebc-4e8a-ac43-aa093bcfc661368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "npm install express --save",
-          "id": "6ec535b8-1ebc-4e8a-ac43-aa093bcfc661368",
-          "x": 14661,
-          "y": -8878
-        },
-        "52ba929a-8eeb-4abc-aa3e-cf4f025bdc36368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Headers",
-          "id": "52ba929a-8eeb-4abc-aa3e-cf4f025bdc36368",
-          "x": 14604,
-          "y": -8822
-        },
-        "2f8f1f6f-d728-41d9-b7db-62d836b760fd368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "res.set('Content-Type', 'text/plain');",
-          "id": "2f8f1f6f-d728-41d9-b7db-62d836b760fd368",
-          "x": 14842,
-          "y": -8825
-        },
-        "99b5bf91-2ae6-4ed2-bd77-b877bc78c165368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Encoding",
-          "id": "99b5bf91-2ae6-4ed2-bd77-b877bc78c165368",
-          "x": 14673,
-          "y": -13925
-        },
-        "458b61a0-e10d-4295-8c2c-23f8fe123331368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "encodeURIComponent(line)",
-          "id": "458b61a0-e10d-4295-8c2c-23f8fe123331368",
-          "x": 14935,
-          "y": -13924
-        },
-        "4680c04b-eedc-4bc6-bcd8-8d01ded68000368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "script params",
-          "id": "4680c04b-eedc-4bc6-bcd8-8d01ded68000368",
-          "x": 13956,
-          "y": -8059
-        },
-        "a53202b6-e477-441b-8954-26a277046fcf368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "process.argv.forEach(function (val, index, array) {\n  console.log(index + ': ' + val);\n})",
-          "id": "a53202b6-e477-441b-8954-26a277046fcf368",
-          "x": 14328,
-          "y": -8057,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e8b783c9-20ae-49ec-9e28-f4d06eb7268d368": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "Create dir",
-          "id": "e8b783c9-20ae-49ec-9e28-f4d06eb7268d368",
-          "x": 14064,
-          "y": -9746
-        },
-        "02e1bc0c-9bc8-4ce1-8a13-7352aa487c5b368": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "if (!fs.existsSync(dir)){\n    fs.mkdirSync(dir);\n}",
-          "id": "02e1bc0c-9bc8-4ce1-8a13-7352aa487c5b368",
-          "x": 14444,
-          "y": -9752,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
         },
         "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558282368": {
           "color": {
@@ -29359,7 +26166,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "# mm-vis-js\n\nmm-vis-js &mdash; IDE and schemes editor.\n\nCode based on vis.js.\n\nExample: https://sushilshik.github.io/\n\n###### Features:\n* No need to install.\n* No need to register in online services to edit schemes\n* Schemes data can be edited from it's text representation\n* Code (e.q. from github projects) can be converted to mm-vis-js schemes for visual research\n* Write programs in familiar programming languages and in visual graphs of nodes with code\n* Build files with code (like project building in make and maven) from graphs of nodes with code\n* Place books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content\n* Work online and offline\n* Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)\n\n###### Screenshots\n\nsushilshik.github.io/index.html screenshot 2019.11.30\n\n![sushilshik.github.io/index.html screenshot 2019.11.30](https://sushilshik.github.io/imgs/mm-vis-js_index_2019.11.30.png)\n\n###### List of pages on 2019.11.30:\n\n* https://sushilshik.github.io/index.html\n* https://sushilshik.github.io/base.html\n* https://sushilshik.github.io/culture.html\n* https://sushilshik.github.io/ruby.html\n\n### Tests:\n\nInstall:\n* docker\n* docker-compose. pip install docker-compose\n\nRun:\n1) Open first terminal.\n2) Run: docker-compose up --build. It will start chrome docker container.\n3) Open second terminal.\n4) Run: docker exec -it app-express npm run test:e2e. Command will exit after process finish.\n5) Run: docker-compose down. It will shut down chrome container in first terminal.",
+          "label": "# mm-vis-js\n\nmm-vis-js &mdash; IDE and schemes editor.\n\nCode based on vis.js.\n\nExample: https://sushilshik.github.io/\n\n###### Features:\n* No need to install.\n* No need to register in online services to edit schemes\n* Schemes data can be edited from it's text representation\n* Code (e.q. from github projects) can be converted to mm-vis-js schemes for visual research\n* Write programs in familiar programming languages and in visual graphs of nodes with code\n* Build files with code (like project building in make and maven) from graphs of nodes with code\n* Place books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content\n* Work online and offline\n* Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)\n\n###### Screenshots\n\nsushilshik.github.io/index.html screenshot 2019.11.30\n\n![sushilshik.github.io/index.html screenshot 2019.11.30](https://sushilshik.github.io/imgs/mm-vis-js_index_2019.11.30.png)\n\n###### List of pages on 2019.11.30:\n\n* https://sushilshik.github.io/index.html\n* https://sushilshik.github.io/base.html\n* https://sushilshik.github.io/culture.html\n* https://sushilshik.github.io/ruby.html\n* https://sushilshik.github.io/javascript.html\n\n### Tests:\n\nInstall:\n* docker\n* docker-compose. pip install docker-compose\n\nRun:\n1) Open first terminal.\n2) Run: docker-compose up --build. It will start chrome docker container.\n3) Open second terminal.\n4) Run: docker exec -it app-express npm run test:e2e. Command will exit after process finish.\n5) Run: docker-compose down. It will shut down chrome container in first terminal.",
           "x": 67366,
           "y": -7594,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486",
@@ -31404,14 +28211,14 @@ var schemeData =
         },
         "01c3934b-333e-4a1a-816c-ab4f6de443b3": {
           "id": "01c3934b-333e-4a1a-816c-ab4f6de443b3",
-          "x": 14842,
-          "y": -1294,
+          "x": 14662,
+          "y": -13051,
           "label": "Disclamer"
         },
         "78a9356c-625a-4019-a424-b84f21bba8d1": {
           "id": "78a9356c-625a-4019-a424-b84f21bba8d1",
-          "x": 15103,
-          "y": -1278,
+          "x": 14923,
+          "y": -13035,
           "label": "Don't store any sensitive information in here.",
           "shape": "box",
           "link": "",
@@ -31427,14 +28234,14 @@ var schemeData =
         },
         "be550294-6652-4c52-b887-c7c9aa124e22": {
           "id": "be550294-6652-4c52-b887-c7c9aa124e22",
-          "x": 15034,
-          "y": -1308,
+          "x": 14854,
+          "y": -13065,
           "label": "It is working prototype."
         },
         "9c358c29-6c95-429f-829f-6e93198d9c8c": {
           "id": "9c358c29-6c95-429f-829f-6e93198d9c8c",
-          "x": 14985,
-          "y": -1208,
+          "x": 14805,
+          "y": -12965,
           "label": "Start any new scheme with \"addThemeGraph\" template.",
           "shape": "box",
           "link": "",
@@ -32864,404 +29671,6 @@ var schemeData =
           "x": 66808,
           "y": 35677
         },
-        "9088af90-19d5-413b-803b-388e74467610": {
-          "label": "vis.js",
-          "x": 13893,
-          "y": 10776,
-          "font": {
-            "size": 72,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "id": "9088af90-19d5-413b-803b-388e74467610",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d2933ad3-f000-45ab-8fec-0477ab9fd510": {
-          "label": "Development",
-          "x": 14432,
-          "y": 11239,
-          "id": "d2933ad3-f000-45ab-8fec-0477ab9fd510"
-        },
-        "04842c23-b344-4bbf-b5b5-1001a3751cd1": {
-          "label": "11/21/2019",
-          "x": 14682,
-          "y": 11239,
-          "id": "04842c23-b344-4bbf-b5b5-1001a3751cd1"
-        },
-        "e0932d50-8043-44da-b69a-e020438f02eb": {
-          "label": "init",
-          "x": 14582,
-          "y": 11239,
-          "id": "e0932d50-8043-44da-b69a-e020438f02eb"
-        },
-        "3ad04153-bf35-432d-9916-3efc7c52d9eb": {
-          "label": "Notes",
-          "x": 14433,
-          "y": 10028,
-          "id": "3ad04153-bf35-432d-9916-3efc7c52d9eb"
-        },
-        "52b1dc1b-4314-41eb-91d8-a321dc01c3dd": {
-          "label": "Dictionary of\nconcepts",
-          "x": 14586,
-          "y": 9574,
-          "id": "52b1dc1b-4314-41eb-91d8-a321dc01c3dd"
-        },
-        "ac3221f3-f939-4a23-93c7-ab804fd779ca": {
-          "label": "Details, thoughts",
-          "x": 14608,
-          "y": 9915,
-          "id": "ac3221f3-f939-4a23-93c7-ab804fd779ca"
-        },
-        "39d4f03d-66fa-47ce-b151-c2f51358c2ab": {
-          "label": "Sections",
-          "x": 14580,
-          "y": 10585,
-          "id": "39d4f03d-66fa-47ce-b151-c2f51358c2ab"
-        },
-        "0a341e58-60ca-4f0e-b35a-40aabfca6cc5": {
-          "label": "Books",
-          "x": 14647,
-          "y": 10127,
-          "id": "0a341e58-60ca-4f0e-b35a-40aabfca6cc5"
-        },
-        "8e2a1c3b-9fe0-450f-bd02-d2861ff570fd": {
-          "label": "R&D institutions",
-          "x": 14678,
-          "y": 10152,
-          "id": "8e2a1c3b-9fe0-450f-bd02-d2861ff570fd"
-        },
-        "9411bf17-ea61-443a-a963-e79e62d8409e": {
-          "label": "Sites",
-          "x": 14648,
-          "y": 10322,
-          "id": "9411bf17-ea61-443a-a963-e79e62d8409e"
-        },
-        "8e51a2a5-eeac-4a9f-b391-861802d186c4": {
-          "label": "Magazines",
-          "x": 14662,
-          "y": 10621,
-          "id": "8e51a2a5-eeac-4a9f-b391-861802d186c4"
-        },
-        "e9833438-b235-4656-9668-0f243197dca1": {
-          "label": "Articles",
-          "x": 14650,
-          "y": 10646,
-          "id": "e9833438-b235-4656-9668-0f243197dca1"
-        },
-        "a921413c-de07-497c-b212-e05e6ea74e70": {
-          "label": "Media content",
-          "x": 14672,
-          "y": 10671,
-          "id": "a921413c-de07-497c-b212-e05e6ea74e70"
-        },
-        "fa080088-b6a8-480f-a9f5-5979601e5450": {
-          "label": "Misc. web links",
-          "x": 14675,
-          "y": 10696,
-          "id": "fa080088-b6a8-480f-a9f5-5979601e5450"
-        },
-        "fab77c0d-655c-40ac-b37d-93a56cd5e28e": {
-          "label": "Projects",
-          "x": 14653,
-          "y": 10721,
-          "id": "fab77c0d-655c-40ac-b37d-93a56cd5e28e"
-        },
-        "f7131cba-23b1-40c5-87f5-3f7399dad2d7": {
-          "label": "Tools",
-          "x": 14644,
-          "y": 10746,
-          "id": "f7131cba-23b1-40c5-87f5-3f7399dad2d7"
-        },
-        "bc225e53-d177-4253-9277-8adc8cb1328f": {
-          "label": "Organizations",
-          "x": 14671,
-          "y": 10771,
-          "id": "bc225e53-d177-4253-9277-8adc8cb1328f"
-        },
-        "3a896a31-76d5-49a1-87db-39d5fc4287a7": {
-          "label": "Standarts",
-          "x": 14658,
-          "y": 10796,
-          "id": "3a896a31-76d5-49a1-87db-39d5fc4287a7"
-        },
-        "6f020791-335d-4238-ab4a-95cb13040999": {
-          "label": "Forums, Groups",
-          "x": 14679,
-          "y": 10821,
-          "id": "6f020791-335d-4238-ab4a-95cb13040999"
-        },
-        "f656c28a-e4e3-44dd-981e-ceda2eb25095": {
-          "label": "Laws",
-          "x": 14644,
-          "y": 10846,
-          "id": "f656c28a-e4e3-44dd-981e-ceda2eb25095"
-        },
-        "becbae0a-88c8-4913-85aa-5e12dbaca1f4": {
-          "label": "Adjacent Themes",
-          "x": 14683,
-          "y": 10871,
-          "id": "becbae0a-88c8-4913-85aa-5e12dbaca1f4"
-        },
-        "4f7408a9-8e96-4a4c-b9e1-65ee879756cd": {
-          "label": "Questions",
-          "x": 14432,
-          "y": 10939,
-          "id": "4f7408a9-8e96-4a4c-b9e1-65ee879756cd"
-        },
-        "3d586064-8ab9-453f-b455-6f034d2d00fb": {
-          "label": "Problems",
-          "x": 14432,
-          "y": 11039,
-          "id": "3d586064-8ab9-453f-b455-6f034d2d00fb"
-        },
-        "60353962-58b2-4a94-83d0-7df347830753": {
-          "label": "Goals",
-          "x": 14432,
-          "y": 11139,
-          "id": "60353962-58b2-4a94-83d0-7df347830753"
-        },
-        "0346c667-747a-41bf-9541-6012ec259c2d": {
-          "id": "0346c667-747a-41bf-9541-6012ec259c2d",
-          "x": 15077,
-          "y": 9898,
-          "label": "vis.js - base library of mm-vis-js. It is responsible for canvas and it's nodes with edges network."
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142368215": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "vis.js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142368215",
-          "x": 17254,
-          "y": 9944,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d3cef30d-68aa-44a5-b540-04def31fec25": {
-          "id": "d3cef30d-68aa-44a5-b540-04def31fec25",
-          "x": 14841,
-          "y": 10244,
-          "label": "https://visjs.org/",
-          "shape": "box",
-          "link": "https://visjs.org/",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "0aaa78ba-f07f-421a-838b-1cf387c70ca6": {
-          "id": "0aaa78ba-f07f-421a-838b-1cf387c70ca6",
-          "x": 15015,
-          "y": 10245,
-          "label": "main site"
-        },
-        "857e0a62-0750-463f-a047-6fbf8519f4ed": {
-          "id": "857e0a62-0750-463f-a047-6fbf8519f4ed",
-          "x": 14891,
-          "y": 10438,
-          "label": "https://github.com/almende/vis",
-          "shape": "box",
-          "link": "https://github.com/almende/vis",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "cdcddf23-ed24-436c-8457-fd36c077ab60": {
-          "id": "cdcddf23-ed24-436c-8457-fd36c077ab60",
-          "x": 15224,
-          "y": 10411,
-          "label": "From 2010 to 2017 it was main repository for vis.js."
-        },
-        "bad44123-ce81-450c-ae71-dbf4d98a3afe": {
-          "id": "bad44123-ce81-450c-ae71-dbf4d98a3afe",
-          "x": 15224,
-          "y": 10441,
-          "label": "Then code was separated into several repositories."
-        },
-        "9185e023-e57c-4ad1-b329-debb451bff0f": {
-          "id": "9185e023-e57c-4ad1-b329-debb451bff0f",
-          "x": 15180,
-          "y": 10470,
-          "label": "Now this repository is not maintained."
-        },
-        "50a55180-23d0-42a9-a08e-95a637526aa7": {
-          "id": "50a55180-23d0-42a9-a08e-95a637526aa7",
-          "x": 14900,
-          "y": 10297,
-          "label": "https://github.com/visjs/vis-network",
-          "shape": "box",
-          "link": "https://github.com/visjs/vis-network",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "91f33fe9-4331-4105-9ad8-b79068668d01": {
-          "id": "91f33fe9-4331-4105-9ad8-b79068668d01",
-          "x": 15133,
-          "y": 10298,
-          "label": "vis-network repository",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "37b17af1-fdd6-4c62-a60f-20e253802e73": {
-          "id": "37b17af1-fdd6-4c62-a60f-20e253802e73",
-          "x": 14862,
-          "y": 9527,
-          "label": "vis-network docs",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "a0e9ddee-4db5-4545-8523-51ac7a319f75": {
-          "id": "a0e9ddee-4db5-4545-8523-51ac7a319f75",
-          "x": 15304,
-          "y": 9532,
-          "label": "https://visjs.github.io/vis-network/docs/network/",
-          "shape": "box",
-          "link": "https://visjs.github.io/vis-network/docs/network/",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "453be018-bb4b-4b8a-a130-a6f79edf8768": {
-          "id": "453be018-bb4b-4b8a-a130-a6f79edf8768",
-          "x": 14878,
-          "y": 9578,
-          "label": "vis-network examples"
-        },
-        "5e324137-ee44-4fd0-bb07-05c5b3700179": {
-          "id": "5e324137-ee44-4fd0-bb07-05c5b3700179",
-          "x": 15293,
-          "y": 9576,
-          "label": "https://visjs.github.io/vis-network/examples/",
-          "shape": "box",
-          "link": "https://visjs.github.io/vis-network/examples/",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "ea153481-0097-4ee4-8983-c95cc4406987": {
-          "id": "ea153481-0097-4ee4-8983-c95cc4406987",
-          "x": 14835,
-          "y": 9625,
-          "label": "DataSet"
-        },
-        "1788201a-47de-4e74-b429-b9ba5319fdf6": {
-          "id": "1788201a-47de-4e74-b429-b9ba5319fdf6",
-          "x": 15148,
-          "y": 9631,
-          "label": "https://ww3.arb.ca.gov/ei/tools/lib/vis/docs/dataset.html",
-          "shape": "box",
-          "link": "https://ww3.arb.ca.gov/ei/tools/lib/vis/docs/dataset.html",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "db04890d-267e-4d2f-bb4f-849ea144693d": {
-          "id": "db04890d-267e-4d2f-bb4f-849ea144693d",
-          "x": 14842,
-          "y": 9679,
-          "label": "vis.js docs"
-        },
-        "c23fbbff-9cb6-4c2b-8c8a-1093399964f1": {
-          "id": "c23fbbff-9cb6-4c2b-8c8a-1093399964f1",
-          "x": 15170,
-          "y": 9677,
-          "label": "https://www.l2f.inesc-id.pt/~david/wiki/pt/extensions/vis/docs/",
-          "shape": "box",
-          "link": "https://www.l2f.inesc-id.pt/~david/wiki/pt/extensions/vis/docs/",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
         "7e4d7ab3-736e-4013-9208-1d51c0868264": {
           "label": "Schemes translation",
           "x": 93658,
@@ -34566,1538 +30975,1538 @@ var schemeData =
         },
         "a0d2d2c4-c55a-4c78-9cb4-1fa7c00caca8": {
           "label": "1\tAllcategories",
-          "x": 26431,
-          "y": -11322,
+          "x": 27947,
+          "y": -11659,
           "id": "a0d2d2c4-c55a-4c78-9cb4-1fa7c00caca8"
         },
         "355825c7-53a7-4127-9528-072846548de2": {
           "label": "1.1\tAPI documentation",
-          "x": 26699,
-          "y": -11294,
+          "x": 28215,
+          "y": -11631,
           "id": "355825c7-53a7-4127-9528-072846548de2"
         },
         "3ae410f7-ef72-4218-9d15-c0ccea501485": {
           "label": "1.2\tExample",
-          "x": 26666,
-          "y": -11270,
+          "x": 28182,
+          "y": -11607,
           "id": "3ae410f7-ef72-4218-9d15-c0ccea501485"
         },
         "672f2154-b6d3-40c9-968d-d97f7e7f413c": {
           "label": "1.2.1\tGET request",
-          "x": 26886,
-          "y": -11260,
+          "x": 28402,
+          "y": -11597,
           "id": "672f2154-b6d3-40c9-968d-d97f7e7f413c"
         },
         "226c8ab4-abcd-4289-a0be-14fd844be304": {
           "label": "1.2.2\tResponse",
-          "x": 26877,
-          "y": -11236,
+          "x": 28393,
+          "y": -11573,
           "id": "226c8ab4-abcd-4289-a0be-14fd844be304"
         },
         "daca761b-0b94-4e92-9214-37fa28ec1e14": {
           "label": "1.2.3\tSample code",
-          "x": 26887,
-          "y": -11212,
+          "x": 28403,
+          "y": -11549,
           "id": "daca761b-0b94-4e92-9214-37fa28ec1e14"
         },
         "ca1a7671-ffac-4927-a13b-00f1ad7ac25c": {
           "label": "1.3\tAdditional notes",
-          "x": 26689,
-          "y": -11174,
+          "x": 28205,
+          "y": -11511,
           "id": "ca1a7671-ffac-4927-a13b-00f1ad7ac25c"
         },
         "ca5ef34e-adf4-4176-a6ee-18e22bf27aaa": {
           "label": "1.4\tSee also",
-          "x": 26666,
-          "y": -11150,
+          "x": 28182,
+          "y": -11487,
           "id": "ca5ef34e-adf4-4176-a6ee-18e22bf27aaa"
         },
         "4e9be1f6-4bf8-49ff-b43c-afce39e6c801": {
           "label": "2\tAllimages",
-          "x": 26421,
-          "y": -11125,
+          "x": 27937,
+          "y": -11462,
           "id": "4e9be1f6-4bf8-49ff-b43c-afce39e6c801"
         },
         "b6e44beb-4b5c-4b75-820d-17704065f20a": {
           "label": "2.1\tAPI documentation",
-          "x": 26699,
-          "y": -11102,
+          "x": 28215,
+          "y": -11439,
           "id": "b6e44beb-4b5c-4b75-820d-17704065f20a"
         },
         "269e20d8-85a3-46b0-815c-33bd913410e5": {
           "label": "2.2\tExample",
-          "x": 26666,
-          "y": -11078,
+          "x": 28182,
+          "y": -11415,
           "id": "269e20d8-85a3-46b0-815c-33bd913410e5"
         },
         "653f1904-7406-49a1-afd7-77a4cfd7ef05": {
           "label": "2.2.1\tExample 1: Get images by name",
-          "x": 26950,
-          "y": -11070,
+          "x": 28466,
+          "y": -11407,
           "id": "653f1904-7406-49a1-afd7-77a4cfd7ef05"
         },
         "2ab020d0-32e0-4ad0-a7a1-a7aea8f7f517": {
           "label": "2.2.1.1\tGET request",
-          "x": 27210,
-          "y": -11069,
+          "x": 28726,
+          "y": -11406,
           "id": "2ab020d0-32e0-4ad0-a7a1-a7aea8f7f517"
         },
         "13509476-a875-4e10-a456-04f76f90bfab": {
           "label": "2.2.1.2\tResponse",
-          "x": 27202,
-          "y": -11045,
+          "x": 28718,
+          "y": -11382,
           "id": "13509476-a875-4e10-a456-04f76f90bfab"
         },
         "8819afbb-1646-4999-b6a6-d519118afbd7": {
           "label": "2.2.1.3\tSample code",
-          "x": 27211,
-          "y": -11021,
+          "x": 28727,
+          "y": -11358,
           "id": "8819afbb-1646-4999-b6a6-d519118afbd7"
         },
         "b8feae8d-6701-44c4-8127-6145661b48ee": {
           "label": "2.2.2\tExample 2: Get images by date",
-          "x": 26946,
-          "y": -10974,
+          "x": 28462,
+          "y": -11311,
           "id": "b8feae8d-6701-44c4-8127-6145661b48ee"
         },
         "04b8e476-f8bd-4f07-a050-80d519102393": {
           "label": "2.2.2.1\tGET request",
-          "x": 27209,
-          "y": -10974,
+          "x": 28725,
+          "y": -11311,
           "id": "04b8e476-f8bd-4f07-a050-80d519102393"
         },
         "6fba3063-c00b-46a8-8bd9-64003fd15b29": {
           "label": "2.2.2.2\tResponse",
-          "x": 27201,
-          "y": -10950,
+          "x": 28717,
+          "y": -11287,
           "id": "6fba3063-c00b-46a8-8bd9-64003fd15b29"
         },
         "2ceb3f45-7a98-466e-aae7-8537805e8c57": {
           "label": "2.2.2.3\tSample code",
-          "x": 27213,
-          "y": -10926,
+          "x": 28729,
+          "y": -11263,
           "id": "2ceb3f45-7a98-466e-aae7-8537805e8c57"
         },
         "9285bc8f-1e9f-4a15-a25b-a5581c37e34c": {
           "label": "2.3\tParameter history",
-          "x": 26695,
-          "y": -10862,
+          "x": 28211,
+          "y": -11199,
           "id": "9285bc8f-1e9f-4a15-a25b-a5581c37e34c"
         },
         "9b7375db-288e-42ed-9518-d9a7ad5987c8": {
           "label": "2.4\tAdditional notes",
-          "x": 26689,
-          "y": -10838,
+          "x": 28205,
+          "y": -11175,
           "id": "9b7375db-288e-42ed-9518-d9a7ad5987c8"
         },
         "6093d717-94a0-499a-807d-7b45e34dd6d5": {
           "label": "2.5\tSee also",
-          "x": 26666,
-          "y": -10814,
+          "x": 28182,
+          "y": -11151,
           "id": "6093d717-94a0-499a-807d-7b45e34dd6d5"
         },
         "e0c1ca17-bb2e-4b54-9cfc-cd06b2a1cb9d": {
           "label": "3\tAlllinks",
-          "x": 26412,
-          "y": -10799,
+          "x": 27928,
+          "y": -11136,
           "id": "e0c1ca17-bb2e-4b54-9cfc-cd06b2a1cb9d"
         },
         "bf5573db-644e-4995-a122-7aed6a4d182b": {
           "label": "3.1\tAPI documentation",
-          "x": 26699,
-          "y": -10766,
+          "x": 28215,
+          "y": -11103,
           "id": "bf5573db-644e-4995-a122-7aed6a4d182b"
         },
         "d7b8a403-af72-4e52-8c55-fdc9a7c0154a": {
           "label": "3.2\tExample",
-          "x": 26666,
-          "y": -10742,
+          "x": 28182,
+          "y": -11079,
           "id": "d7b8a403-af72-4e52-8c55-fdc9a7c0154a"
         },
         "b5671fa8-00d6-4fc2-8833-b31eb708f975": {
           "label": "3.2.1\tGET request",
-          "x": 26909,
-          "y": -10732,
+          "x": 28425,
+          "y": -11069,
           "id": "b5671fa8-00d6-4fc2-8833-b31eb708f975"
         },
         "94fe69f0-b05a-4b64-8a50-a6efbf922e5f": {
           "label": "3.2.2\tResponse",
-          "x": 26901,
-          "y": -10708,
+          "x": 28417,
+          "y": -11045,
           "id": "94fe69f0-b05a-4b64-8a50-a6efbf922e5f"
         },
         "de5d64b8-6ba7-4552-a82f-f70d5e24e903": {
           "label": "3.2.3\tSample code",
-          "x": 26910,
-          "y": -10684,
+          "x": 28426,
+          "y": -11021,
           "id": "de5d64b8-6ba7-4552-a82f-f70d5e24e903"
         },
         "bfa9f6aa-3638-44e6-a465-d3c541966730": {
           "label": "3.3\tPossible errors",
-          "x": 26686,
-          "y": -10646,
+          "x": 28202,
+          "y": -10983,
           "id": "bfa9f6aa-3638-44e6-a465-d3c541966730"
         },
         "ff090bfb-7936-4bf5-96ab-257119bb0985": {
           "label": "3.4\tAdditional notes",
-          "x": 26689,
-          "y": -10622,
+          "x": 28205,
+          "y": -10959,
           "id": "ff090bfb-7936-4bf5-96ab-257119bb0985"
         },
         "06e31a71-a934-409c-b4db-67ea3f2fbde5": {
           "label": "3.5\tSee also",
-          "x": 26666,
-          "y": -10598,
+          "x": 28182,
+          "y": -10935,
           "id": "06e31a71-a934-409c-b4db-67ea3f2fbde5"
         },
         "33db3e75-7327-4a5d-a2f3-5f447ad64140": {
           "label": "4\tAllpages",
-          "x": 26417,
-          "y": -10574,
+          "x": 27933,
+          "y": -10911,
           "id": "33db3e75-7327-4a5d-a2f3-5f447ad64140"
         },
         "6f339832-40ec-4f4f-9b08-b5bf9e8066c9": {
           "label": "4.1\tAPI documentation",
-          "x": 26699,
-          "y": -10550,
+          "x": 28215,
+          "y": -10887,
           "id": "6f339832-40ec-4f4f-9b08-b5bf9e8066c9"
         },
         "e5c3ab97-0877-41a2-8583-a31c992e184f": {
           "label": "4.2\tExample",
-          "x": 26666,
-          "y": -10526,
+          "x": 28182,
+          "y": -10863,
           "id": "e5c3ab97-0877-41a2-8583-a31c992e184f"
         },
         "01cd6605-a425-4514-97ea-c95025bc66cb": {
           "label": "4.2.1\tGET request",
-          "x": 26916,
-          "y": -10524,
+          "x": 28432,
+          "y": -10861,
           "id": "01cd6605-a425-4514-97ea-c95025bc66cb"
         },
         "c0a742bd-0d80-4f31-b785-65c49afa1fcb": {
           "label": "4.2.2\tResponse",
-          "x": 26908,
-          "y": -10500,
+          "x": 28424,
+          "y": -10837,
           "id": "c0a742bd-0d80-4f31-b785-65c49afa1fcb"
         },
         "2ad508ae-1963-4d95-8560-1e4b33008a7e": {
           "label": "4.2.3\tSample code",
-          "x": 26917,
-          "y": -10476,
+          "x": 28433,
+          "y": -10813,
           "id": "2ad508ae-1963-4d95-8560-1e4b33008a7e"
         },
         "5759dd32-344b-4813-af92-d1ecf701f617": {
           "label": "4.3\tPossible errors",
-          "x": 26686,
-          "y": -10430,
+          "x": 28202,
+          "y": -10767,
           "id": "5759dd32-344b-4813-af92-d1ecf701f617"
         },
         "5406159b-ff51-4751-844d-c546865a5f62": {
           "label": "4.4\tSee also",
-          "x": 26666,
-          "y": -10406,
+          "x": 28182,
+          "y": -10743,
           "id": "5406159b-ff51-4751-844d-c546865a5f62"
         },
         "20b67ab3-a407-464a-96de-c58cab0b5a03": {
           "label": "5\tAlltransclusions",
-          "x": 26440,
-          "y": -10091,
+          "x": 27956,
+          "y": -10428,
           "id": "20b67ab3-a407-464a-96de-c58cab0b5a03"
         },
         "482ece2c-7004-457a-8fc8-12d1be4750f5": {
           "label": "5.1\tAPI documentation",
-          "x": 26690,
-          "y": -10069,
+          "x": 28206,
+          "y": -10406,
           "id": "482ece2c-7004-457a-8fc8-12d1be4750f5"
         },
         "4ff21a12-96df-4aba-aa3b-c3c168add067": {
           "label": "5.2\tExample",
-          "x": 26658,
-          "y": -10011,
+          "x": 28174,
+          "y": -10348,
           "id": "4ff21a12-96df-4aba-aa3b-c3c168add067"
         },
         "b73c3da2-6858-4866-a014-7bf01af72027": {
           "label": "5.2.1\tGET request",
-          "x": 26912,
-          "y": -10033,
+          "x": 28428,
+          "y": -10370,
           "id": "b73c3da2-6858-4866-a014-7bf01af72027"
         },
         "df41edb8-4df5-4f9b-b6a7-784ccccc1f3d": {
           "label": "5.2.2\tResponse",
-          "x": 26903,
-          "y": -10009,
+          "x": 28419,
+          "y": -10346,
           "id": "df41edb8-4df5-4f9b-b6a7-784ccccc1f3d"
         },
         "e28dfa6e-af49-41a5-9ac6-d657571a9f04": {
           "label": "5.2.3\tSample code",
-          "x": 26913,
-          "y": -9985,
+          "x": 28429,
+          "y": -10322,
           "id": "e28dfa6e-af49-41a5-9ac6-d657571a9f04"
         },
         "73b40cfd-4737-47ee-a5cc-55f87822c38b": {
           "label": "5.3\tPossible errors",
-          "x": 26678,
-          "y": -9949,
+          "x": 28194,
+          "y": -10286,
           "id": "73b40cfd-4737-47ee-a5cc-55f87822c38b"
         },
         "0f38b4e0-733f-4c09-a3da-3092d4dc7a6b": {
           "label": "5.4\tAdditional notes",
-          "x": 26681,
-          "y": -9925,
+          "x": 28197,
+          "y": -10262,
           "id": "0f38b4e0-733f-4c09-a3da-3092d4dc7a6b"
         },
         "3ed253e2-85f2-4b69-8ea7-deb0434733c1": {
           "label": "5.5\tSee also",
-          "x": 26658,
-          "y": -9901,
+          "x": 28174,
+          "y": -10238,
           "id": "3ed253e2-85f2-4b69-8ea7-deb0434733c1"
         },
         "f9721f99-744a-46bc-9db4-9a41306e0f7d": {
           "label": "6\tAllusers",
-          "x": 26402,
-          "y": -9669,
+          "x": 27918,
+          "y": -10006,
           "id": "f9721f99-744a-46bc-9db4-9a41306e0f7d"
         },
         "70450f7a-4659-489a-830a-8fb39f9c16ca": {
           "label": "6.1\tAPI documentation",
-          "x": 26686,
-          "y": -9642,
+          "x": 28202,
+          "y": -9979,
           "id": "70450f7a-4659-489a-830a-8fb39f9c16ca"
         },
         "21301f62-ba4c-4b89-9ee9-356c7337e4ce": {
           "label": "6.2\tExample",
-          "x": 26654,
-          "y": -9618,
+          "x": 28170,
+          "y": -9955,
           "id": "21301f62-ba4c-4b89-9ee9-356c7337e4ce"
         },
         "d25098d3-fe76-43fe-a199-2e8c8ff880d4": {
           "label": "6.2.1\tGET request",
-          "x": 26912,
-          "y": -9607,
+          "x": 28428,
+          "y": -9944,
           "id": "d25098d3-fe76-43fe-a199-2e8c8ff880d4"
         },
         "4226a557-7cfe-430b-83aa-d2627f051a7b": {
           "label": "6.2.2\tResponse",
-          "x": 26904,
-          "y": -9583,
+          "x": 28420,
+          "y": -9920,
           "id": "4226a557-7cfe-430b-83aa-d2627f051a7b"
         },
         "73540f71-ab38-4775-ac54-5cc7665f8427": {
           "label": "6.2.3\tSample code",
-          "x": 26913,
-          "y": -9559,
+          "x": 28429,
+          "y": -9896,
           "id": "73540f71-ab38-4775-ac54-5cc7665f8427"
         },
         "1112693c-fb21-4214-9536-db7d12babb00": {
           "label": "6.3\tPossible errors",
-          "x": 26674,
-          "y": -9522,
+          "x": 28190,
+          "y": -9859,
           "id": "1112693c-fb21-4214-9536-db7d12babb00"
         },
         "1d9d70bb-2077-4c9d-885c-c179214d13b8": {
           "label": "6.4\tParameter history",
-          "x": 26683,
-          "y": -9498,
+          "x": 28199,
+          "y": -9835,
           "id": "1d9d70bb-2077-4c9d-885c-c179214d13b8"
         },
         "47123919-920e-4ea3-8f7f-2309238f2a29": {
           "label": "6.5\tAdditional notes",
-          "x": 26677,
-          "y": -9474,
+          "x": 28193,
+          "y": -9811,
           "id": "47123919-920e-4ea3-8f7f-2309238f2a29"
         },
         "09e8d79c-6905-4e73-9809-b7fa2284fdda": {
           "label": "6.6\tSee also",
-          "x": 26654,
-          "y": -9450,
+          "x": 28170,
+          "y": -9787,
           "id": "09e8d79c-6905-4e73-9809-b7fa2284fdda"
         },
         "d8855677-593c-48f9-a868-e8a6c5ffe652": {
           "label": "7\tBacklinks",
-          "x": 26403,
-          "y": -9063,
+          "x": 27919,
+          "y": -9400,
           "id": "d8855677-593c-48f9-a868-e8a6c5ffe652"
         },
         "4e20a758-5913-4dfa-8297-19062eef123e": {
           "label": "7.1\tAPI documentation",
-          "x": 26682,
-          "y": -9036,
+          "x": 28198,
+          "y": -9373,
           "id": "4e20a758-5913-4dfa-8297-19062eef123e"
         },
         "09e3c332-2618-4fd1-be57-f68735dee1a1": {
           "label": "7.2\tExample",
-          "x": 26650,
-          "y": -9012,
+          "x": 28166,
+          "y": -9349,
           "id": "09e3c332-2618-4fd1-be57-f68735dee1a1"
         },
         "c0a5b6df-d950-4225-a3b4-605aa1a47dd7": {
           "label": "7.2.1\tGET request",
-          "x": 26907,
-          "y": -8997,
+          "x": 28423,
+          "y": -9334,
           "id": "c0a5b6df-d950-4225-a3b4-605aa1a47dd7"
         },
         "c33f6a16-718d-4392-a921-af9dfaba15e2": {
           "label": "7.2.2\tResponse",
-          "x": 26898,
-          "y": -8973,
+          "x": 28414,
+          "y": -9310,
           "id": "c33f6a16-718d-4392-a921-af9dfaba15e2"
         },
         "9de4fe47-c0de-4b97-b6ce-e330d63773d8": {
           "label": "7.2.3\tSample code",
-          "x": 26908,
-          "y": -8949,
+          "x": 28424,
+          "y": -9286,
           "id": "9de4fe47-c0de-4b97-b6ce-e330d63773d8"
         },
         "a276abfc-7d7d-4f5a-a93f-27ba85f757d5": {
           "label": "7.2.4\tRedirects",
-          "x": 26896,
-          "y": -8925,
+          "x": 28412,
+          "y": -9262,
           "id": "a276abfc-7d7d-4f5a-a93f-27ba85f757d5"
         },
         "a6dd0706-0b78-49d0-adc9-0eb84e85ce6d": {
           "label": "7.3\tPossible errors",
-          "x": 26670,
-          "y": -8892,
+          "x": 28186,
+          "y": -9229,
           "id": "a6dd0706-0b78-49d0-adc9-0eb84e85ce6d"
         },
         "6c229781-2e20-4704-b202-fd52e18a22ca": {
           "label": "7.4\tSee also",
-          "x": 26650,
-          "y": -8868,
+          "x": 28166,
+          "y": -9205,
           "id": "6c229781-2e20-4704-b202-fd52e18a22ca"
         },
         "f4a11125-b32c-4a5e-a7ed-14715ef6b5b6": {
           "label": "8\tBlocks",
-          "x": 26394,
-          "y": -8847,
+          "x": 27910,
+          "y": -9184,
           "id": "f4a11125-b32c-4a5e-a7ed-14715ef6b5b6"
         },
         "b5730b14-b5fe-45e5-96e0-f04eca4f2bb1": {
           "label": "8.1\tAPI documentation",
-          "x": 26682,
-          "y": -8820,
+          "x": 28198,
+          "y": -9157,
           "id": "b5730b14-b5fe-45e5-96e0-f04eca4f2bb1"
         },
         "d659518e-fbce-4b52-9d6f-4675c92e25c3": {
           "label": "8.2\tExample",
-          "x": 26650,
-          "y": -8796,
+          "x": 28166,
+          "y": -9133,
           "id": "d659518e-fbce-4b52-9d6f-4675c92e25c3"
         },
         "15360fc6-57c0-4445-9a8c-b89221565d8a": {
           "label": "8.2.1\tGET request",
-          "x": 26910,
-          "y": -8781,
+          "x": 28426,
+          "y": -9118,
           "id": "15360fc6-57c0-4445-9a8c-b89221565d8a"
         },
         "60ff4e18-d8a9-4c50-9b39-443716ff7323": {
           "label": "8.2.2\tResponse",
-          "x": 26901,
-          "y": -8757,
+          "x": 28417,
+          "y": -9094,
           "id": "60ff4e18-d8a9-4c50-9b39-443716ff7323"
         },
         "a15fdf68-3c9a-4147-b681-8a5321b4741c": {
           "label": "8.2.3\tSample code",
-          "x": 26911,
-          "y": -8733,
+          "x": 28427,
+          "y": -9070,
           "id": "a15fdf68-3c9a-4147-b681-8a5321b4741c"
         },
         "bb7cc9c3-3544-421f-a43b-75aa49a56422": {
           "label": "8.3\tAdditional notes",
-          "x": 26673,
-          "y": -8700,
+          "x": 28189,
+          "y": -9037,
           "id": "bb7cc9c3-3544-421f-a43b-75aa49a56422"
         },
         "b30f3a24-8889-49ef-90a5-e0ebcc2ba1cd": {
           "label": "8.4\tParameter history",
-          "x": 26679,
-          "y": -8676,
+          "x": 28195,
+          "y": -9013,
           "id": "b30f3a24-8889-49ef-90a5-e0ebcc2ba1cd"
         },
         "41a2ba17-b3c7-4375-b832-37cc71d4969c": {
           "label": "8.5\tSee also",
-          "x": 26650,
-          "y": -8652,
+          "x": 28166,
+          "y": -8989,
           "id": "41a2ba17-b3c7-4375-b832-37cc71d4969c"
         },
         "6c4b651c-c8f6-4360-8b98-81e4baa3d085": {
           "label": "9\tCategorymembers",
-          "x": 26432,
-          "y": -8632,
+          "x": 27948,
+          "y": -8969,
           "id": "6c4b651c-c8f6-4360-8b98-81e4baa3d085"
         },
         "548df754-55a1-4c03-ae9c-ad3d92e092cd": {
           "label": "9.1\tAPI documentation",
-          "x": 26682,
-          "y": -8604,
+          "x": 28198,
+          "y": -8941,
           "id": "548df754-55a1-4c03-ae9c-ad3d92e092cd"
         },
         "55e47f47-e9ed-4834-8221-30593f29f6f2": {
           "label": "9.2\tExample 1: List twenty pages in a category",
-          "x": 26758,
-          "y": -8580,
+          "x": 28274,
+          "y": -8917,
           "id": "55e47f47-e9ed-4834-8221-30593f29f6f2"
         },
         "f15784e5-2809-4416-94a6-5dd82537e15d": {
           "label": "9.2.1\tGET request",
-          "x": 27065,
-          "y": -8585,
+          "x": 28581,
+          "y": -8922,
           "id": "f15784e5-2809-4416-94a6-5dd82537e15d"
         },
         "c210ad43-1813-463a-8173-f9d1bfe9c885": {
           "label": "9.2.2\tResponse",
-          "x": 27056,
-          "y": -8561,
+          "x": 28572,
+          "y": -8898,
           "id": "c210ad43-1813-463a-8173-f9d1bfe9c885"
         },
         "ad8f1c3f-4cbe-4e9c-afd4-2ea11f40aaab": {
           "label": "9.2.3\tSample code",
-          "x": 27066,
-          "y": -8537,
+          "x": 28582,
+          "y": -8874,
           "id": "ad8f1c3f-4cbe-4e9c-afd4-2ea11f40aaab"
         },
         "88ff0180-b540-439e-be8b-02d37d8232db": {
           "label": "9.3\tExample 2: Get the ten articles most recently added to a category",
-          "x": 26830,
-          "y": -8484,
+          "x": 28346,
+          "y": -8821,
           "id": "88ff0180-b540-439e-be8b-02d37d8232db"
         },
         "30891167-7c49-469c-89e2-fbfef724ab63": {
           "label": "9.3.1\tGET request",
-          "x": 27171,
-          "y": -8482,
+          "x": 28687,
+          "y": -8819,
           "id": "30891167-7c49-469c-89e2-fbfef724ab63"
         },
         "213b2079-3045-495c-8985-7077aaebc668": {
           "label": "9.3.2\tResponse",
-          "x": 27162,
-          "y": -8458,
+          "x": 28678,
+          "y": -8795,
           "id": "213b2079-3045-495c-8985-7077aaebc668"
         },
         "b14b86ea-ebe9-4c5c-80f7-ed005fd90411": {
           "label": "9.3.3\tSample code",
-          "x": 27172,
-          "y": -8434,
+          "x": 28688,
+          "y": -8771,
           "id": "b14b86ea-ebe9-4c5c-80f7-ed005fd90411"
         },
         "dbe85566-a2d1-4646-a84d-54bbb466a9c0": {
           "label": "9.4\tExample 3: Get ten subcategories of a category",
-          "x": 26773,
-          "y": -8388,
+          "x": 28289,
+          "y": -8725,
           "id": "dbe85566-a2d1-4646-a84d-54bbb466a9c0"
         },
         "713f9e5f-6735-4150-ba86-3dcb241718ff": {
           "label": "9.4.1\tGET request",
-          "x": 27087,
-          "y": -8384,
+          "x": 28603,
+          "y": -8721,
           "id": "713f9e5f-6735-4150-ba86-3dcb241718ff"
         },
         "d27b0dae-8fa2-49bf-84e5-e1a9a1fa2c3c": {
           "label": "9.4.2\tResponse",
-          "x": 27079,
-          "y": -8360,
+          "x": 28595,
+          "y": -8697,
           "id": "d27b0dae-8fa2-49bf-84e5-e1a9a1fa2c3c"
         },
         "9ed47bf4-10c5-41d9-a43d-de003560281e": {
           "label": "9.4.3\tSample code",
-          "x": 27088,
-          "y": -8336,
+          "x": 28604,
+          "y": -8673,
           "id": "9ed47bf4-10c5-41d9-a43d-de003560281e"
         },
         "76d95e0f-0986-4a0d-8640-c5642f60d4f2": {
           "label": "9.5\tPossible errors",
-          "x": 26670,
-          "y": -8292,
+          "x": 28186,
+          "y": -8629,
           "id": "76d95e0f-0986-4a0d-8640-c5642f60d4f2"
         },
         "193be1e9-a70c-42bd-a065-23502a22d332": {
           "label": "9.6\tParameter history",
-          "x": 26679,
-          "y": -8268,
+          "x": 28195,
+          "y": -8605,
           "id": "193be1e9-a70c-42bd-a065-23502a22d332"
         },
         "87157b51-06e0-449a-8273-c10eada8191e": {
           "label": "9.7\tSee also",
-          "x": 26650,
-          "y": -8244,
+          "x": 28166,
+          "y": -8581,
           "id": "87157b51-06e0-449a-8273-c10eada8191e"
         },
         "cd496ed4-620e-4270-8992-38f89bbc00d2": {
           "label": "10\tdeletedrevs",
-          "x": 26414,
-          "y": -8216,
+          "x": 27930,
+          "y": -8553,
           "id": "cd496ed4-620e-4270-8992-38f89bbc00d2"
         },
         "45f8b2d7-8d15-4381-8280-b66cd22c932c": {
           "label": "10.1\tAPI documentation",
-          "x": 26686,
-          "y": -8196,
+          "x": 28202,
+          "y": -8533,
           "id": "45f8b2d7-8d15-4381-8280-b66cd22c932c"
         },
         "8a433683-596a-4249-9e43-d50b6707f05a": {
           "label": "10.2\tExample",
-          "x": 26654,
-          "y": -8172,
+          "x": 28170,
+          "y": -8509,
           "id": "8a433683-596a-4249-9e43-d50b6707f05a"
         },
         "330a32b3-2b5d-49c2-9f49-074da54f8590": {
           "label": "10.2.1\tGET request",
-          "x": 26988,
-          "y": -8170,
+          "x": 28504,
+          "y": -8507,
           "id": "330a32b3-2b5d-49c2-9f49-074da54f8590"
         },
         "52b594d5-40e5-4be0-8808-6e7c1ddb02ff": {
           "label": "10.2.2\tResponse",
-          "x": 26980,
-          "y": -8146,
+          "x": 28496,
+          "y": -8483,
           "id": "52b594d5-40e5-4be0-8808-6e7c1ddb02ff"
         },
         "d0dfb089-f818-444b-8986-661971f16458": {
           "label": "10.2.3\tSample code",
-          "x": 26989,
-          "y": -8122,
+          "x": 28505,
+          "y": -8459,
           "id": "d0dfb089-f818-444b-8986-661971f16458"
         },
         "359101f6-ebf5-45c0-93ad-93f9391953bf": {
           "label": "10.3\tPossible errors",
-          "x": 26674,
-          "y": -8076,
+          "x": 28190,
+          "y": -8413,
           "id": "359101f6-ebf5-45c0-93ad-93f9391953bf"
         },
         "0f6ede06-d361-4eb3-98a0-67e1811c2f4d": {
           "label": "10.4\tParameter history",
-          "x": 26683,
-          "y": -8052,
+          "x": 28199,
+          "y": -8389,
           "id": "0f6ede06-d361-4eb3-98a0-67e1811c2f4d"
         },
         "b58dcb8d-745c-484a-9b9b-293b2998c405": {
           "label": "10.5\tAdditional notes",
-          "x": 26677,
-          "y": -8028,
+          "x": 28193,
+          "y": -8365,
           "id": "b58dcb8d-745c-484a-9b9b-293b2998c405"
         },
         "6795891c-3908-4bab-81ac-7d0adfd8799b": {
           "label": "10.6\tSee also",
-          "x": 26654,
-          "y": -8004,
+          "x": 28170,
+          "y": -8341,
           "id": "6795891c-3908-4bab-81ac-7d0adfd8799b"
         },
         "0f2652e2-1958-4130-8736-1b286fe219b0": {
           "label": "11\tEmbeddedin",
-          "x": 26417,
-          "y": -7976,
+          "x": 27933,
+          "y": -8313,
           "id": "0f2652e2-1958-4130-8736-1b286fe219b0"
         },
         "57a14487-c297-4c7b-8506-2287365e24b5": {
           "label": "11.1\tAPI documentation",
-          "x": 26686,
-          "y": -7956,
+          "x": 28202,
+          "y": -8293,
           "id": "57a14487-c297-4c7b-8506-2287365e24b5"
         },
         "a7fe243d-9f4c-4c96-ac8d-97c2cd90ca88": {
           "label": "11.2\tExample",
-          "x": 26654,
-          "y": -7932,
+          "x": 28170,
+          "y": -8269,
           "id": "a7fe243d-9f4c-4c96-ac8d-97c2cd90ca88"
         },
         "2f278873-3708-439a-9c61-797c921da57f": {
           "label": "11.2.1\tGET request",
-          "x": 26983,
-          "y": -7920,
+          "x": 28499,
+          "y": -8257,
           "id": "2f278873-3708-439a-9c61-797c921da57f"
         },
         "dabe4a5e-7100-48fa-9a1b-6f8aefba0349": {
           "label": "11.2.2\tResponse",
-          "x": 26975,
-          "y": -7896,
+          "x": 28491,
+          "y": -8233,
           "id": "dabe4a5e-7100-48fa-9a1b-6f8aefba0349"
         },
         "1666df05-2f7d-438e-8e2f-25dfb9a79f6b": {
           "label": "11.2.3\tSample code",
-          "x": 26984,
-          "y": -7872,
+          "x": 28500,
+          "y": -8209,
           "id": "1666df05-2f7d-438e-8e2f-25dfb9a79f6b"
         },
         "11adc383-d96f-469c-a545-a357f6edcd49": {
           "label": "11.3\tPossible errors",
-          "x": 26674,
-          "y": -7836,
+          "x": 28190,
+          "y": -8173,
           "id": "11adc383-d96f-469c-a545-a357f6edcd49"
         },
         "7eee3007-b474-445d-a0e0-43f3d08a7374": {
           "label": "11.4\tSee also",
-          "x": 26654,
-          "y": -7812,
+          "x": 28170,
+          "y": -8149,
           "id": "7eee3007-b474-445d-a0e0-43f3d08a7374"
         },
         "172a3278-18b2-42a8-bdfc-8fa5cae01150": {
           "label": "12\tExturlusage",
-          "x": 26415,
-          "y": -7793,
+          "x": 27931,
+          "y": -8130,
           "id": "172a3278-18b2-42a8-bdfc-8fa5cae01150"
         },
         "bb3e8062-80ad-4b5b-bd25-aeed44c684f9": {
           "label": "12.1\tAPI documentation",
-          "x": 26686,
-          "y": -7764,
+          "x": 28202,
+          "y": -8101,
           "id": "bb3e8062-80ad-4b5b-bd25-aeed44c684f9"
         },
         "64818db1-5633-4c46-aaf2-874a819180c8": {
           "label": "12.2\tExample",
-          "x": 26654,
-          "y": -7740,
+          "x": 28170,
+          "y": -8077,
           "id": "64818db1-5633-4c46-aaf2-874a819180c8"
         },
         "f5893160-882d-45fe-b7c6-74b652830ffa": {
           "label": "12.2.1\tGET request",
-          "x": 26991,
-          "y": -7720,
+          "x": 28507,
+          "y": -8057,
           "id": "f5893160-882d-45fe-b7c6-74b652830ffa"
         },
         "7c12c79a-a15e-48af-a659-2ace2d3780d0": {
           "label": "12.2.2\tResponse",
-          "x": 26983,
-          "y": -7696,
+          "x": 28499,
+          "y": -8033,
           "id": "7c12c79a-a15e-48af-a659-2ace2d3780d0"
         },
         "8c164651-ab78-4664-9635-5e80171f46d2": {
           "label": "12.2.3\tSample code",
-          "x": 26992,
-          "y": -7672,
+          "x": 28508,
+          "y": -8009,
           "id": "8c164651-ab78-4664-9635-5e80171f46d2"
         },
         "69fd0eca-324d-4026-9a8e-0569e560f5d0": {
           "label": "12.3\tPossible errors",
-          "x": 26674,
-          "y": -7644,
+          "x": 28190,
+          "y": -7981,
           "id": "69fd0eca-324d-4026-9a8e-0569e560f5d0"
         },
         "4c281dbd-17ce-47eb-b8f1-971e23e21603": {
           "label": "12.4\tParameter history",
-          "x": 26683,
-          "y": -7620,
+          "x": 28199,
+          "y": -7957,
           "id": "4c281dbd-17ce-47eb-b8f1-971e23e21603"
         },
         "f9f3629f-6c28-400b-ba9b-a18e7d31ad42": {
           "label": "12.5\tSee also",
-          "x": 26654,
-          "y": -7596,
+          "x": 28170,
+          "y": -7933,
           "id": "f9f3629f-6c28-400b-ba9b-a18e7d31ad42"
         },
         "4a4c38ab-88a5-41b8-8e6b-6804733eab71": {
           "label": "13\tFilearchive",
-          "x": 26412,
-          "y": -7567,
+          "x": 27928,
+          "y": -7904,
           "id": "4a4c38ab-88a5-41b8-8e6b-6804733eab71"
         },
         "d6035166-e5e4-40bd-a5da-92e4e960c57c": {
           "label": "13.1\tParameters",
-          "x": 26663,
-          "y": -7548,
+          "x": 28179,
+          "y": -7885,
           "id": "d6035166-e5e4-40bd-a5da-92e4e960c57c"
         },
         "21ee88ef-ec2b-4e59-a369-9488258bce64": {
           "label": "13.2\tError Codes",
-          "x": 26665,
-          "y": -7524,
+          "x": 28181,
+          "y": -7861,
           "id": "21ee88ef-ec2b-4e59-a369-9488258bce64"
         },
         "84050ee5-d348-4626-a861-f765cfcc87b7": {
           "label": "14\tImageusage",
-          "x": 26417,
-          "y": -7495,
+          "x": 27933,
+          "y": -7832,
           "id": "84050ee5-d348-4626-a861-f765cfcc87b7"
         },
         "ae11774a-f6ee-4b08-a656-9b5954725dc6": {
           "label": "14.1\tAPI documentation",
-          "x": 26686,
-          "y": -7476,
+          "x": 28202,
+          "y": -7813,
           "id": "ae11774a-f6ee-4b08-a656-9b5954725dc6"
         },
         "f0549007-f683-447c-9d3a-9a2cd3f66c2c": {
           "label": "14.2\tExample",
-          "x": 26654,
-          "y": -7452,
+          "x": 28170,
+          "y": -7789,
           "id": "f0549007-f683-447c-9d3a-9a2cd3f66c2c"
         },
         "53663a0e-fc21-4a3a-8dff-ed3b39eb16ba": {
           "label": "14.2.1\tGET request",
-          "x": 26962,
-          "y": -7445,
+          "x": 28478,
+          "y": -7782,
           "id": "53663a0e-fc21-4a3a-8dff-ed3b39eb16ba"
         },
         "70343906-aa7b-4467-b66b-692c647d1666": {
           "label": "14.2.2\tResponse",
-          "x": 26954,
-          "y": -7421,
+          "x": 28470,
+          "y": -7758,
           "id": "70343906-aa7b-4467-b66b-692c647d1666"
         },
         "d2dd8a5f-5313-4903-a7fa-db644e3e9f6b": {
           "label": "14.2.3\tSample code",
-          "x": 26963,
-          "y": -7397,
+          "x": 28479,
+          "y": -7734,
           "id": "d2dd8a5f-5313-4903-a7fa-db644e3e9f6b"
         },
         "2f141837-4611-43c1-9795-9ca4b64a78d0": {
           "label": "14.3\tPossible errors",
-          "x": 26674,
-          "y": -7356,
+          "x": 28190,
+          "y": -7693,
           "id": "2f141837-4611-43c1-9795-9ca4b64a78d0"
         },
         "73fdf8c2-8def-4286-8cee-4cc5a5e06bce": {
           "label": "14.4\tSee also",
-          "x": 26654,
-          "y": -7332,
+          "x": 28170,
+          "y": -7669,
           "id": "73fdf8c2-8def-4286-8cee-4cc5a5e06bce"
         },
         "6a8cfb92-2577-425e-9031-7fade8b9985a": {
           "label": "15\tIwbacklinks",
-          "x": 26413,
-          "y": -7306,
+          "x": 27929,
+          "y": -7643,
           "id": "6a8cfb92-2577-425e-9031-7fade8b9985a"
         },
         "c00fcbc2-d8a8-46e7-8412-2dafeaf436ae": {
           "label": "15.1\tParameters",
-          "x": 26663,
-          "y": -7284,
+          "x": 28179,
+          "y": -7621,
           "id": "c00fcbc2-d8a8-46e7-8412-2dafeaf436ae"
         },
         "c4d1160c-8161-4ec1-a9dc-83772378a958": {
           "label": "15.2\tError Codes",
-          "x": 26665,
-          "y": -7260,
+          "x": 28181,
+          "y": -7597,
           "id": "c4d1160c-8161-4ec1-a9dc-83772378a958"
         },
         "d2189241-0b2d-4688-9d3d-e81d53a7b943": {
           "label": "16\tLangbacklinks",
-          "x": 26422,
-          "y": -7236,
+          "x": 27938,
+          "y": -7573,
           "id": "d2189241-0b2d-4688-9d3d-e81d53a7b943"
         },
         "2ee9fad7-9ad8-4a01-8b39-4d4cfe66d99e": {
           "label": "16.1\tParameters",
-          "x": 26663,
-          "y": -7212,
+          "x": 28179,
+          "y": -7549,
           "id": "2ee9fad7-9ad8-4a01-8b39-4d4cfe66d99e"
         },
         "5c4aaa52-c8be-4a0c-a36e-8146a4bca71f": {
           "label": "16.2\tErrors Codes",
-          "x": 26668,
-          "y": -7188,
+          "x": 28184,
+          "y": -7525,
           "id": "5c4aaa52-c8be-4a0c-a36e-8146a4bca71f"
         },
         "32542c19-0e0c-4857-ac10-7a7a3b959ed1": {
           "label": "17\tLogevents",
-          "x": 26410,
-          "y": -7165,
+          "x": 27926,
+          "y": -7502,
           "id": "32542c19-0e0c-4857-ac10-7a7a3b959ed1"
         },
         "733096b9-f2f4-4cd7-98c6-08fa1b568632": {
           "label": "17.1\tAPI documentation",
-          "x": 26686,
-          "y": -7140,
+          "x": 28202,
+          "y": -7477,
           "id": "733096b9-f2f4-4cd7-98c6-08fa1b568632"
         },
         "665a6354-afed-49b7-b2ff-f9b969038a42": {
           "label": "17.2\tExample",
-          "x": 26654,
-          "y": -7116,
+          "x": 28170,
+          "y": -7453,
           "id": "665a6354-afed-49b7-b2ff-f9b969038a42"
         },
         "90254e10-aa74-4842-b6b3-8eec0e164427": {
           "label": "17.2.1\tGET request",
-          "x": 26956,
-          "y": -7109,
+          "x": 28472,
+          "y": -7446,
           "id": "90254e10-aa74-4842-b6b3-8eec0e164427"
         },
         "fd774de9-86d4-4937-8257-f3d9205d5cba": {
           "label": "17.2.2\tResponse",
-          "x": 26948,
-          "y": -7085,
+          "x": 28464,
+          "y": -7422,
           "id": "fd774de9-86d4-4937-8257-f3d9205d5cba"
         },
         "a606996c-8220-434a-a3e2-ba32aae86437": {
           "label": "17.2.3\tSample code",
-          "x": 26957,
-          "y": -7061,
+          "x": 28473,
+          "y": -7398,
           "id": "a606996c-8220-434a-a3e2-ba32aae86437"
         },
         "64530ae4-7cd2-4e28-8ac5-d2c8eae622ee": {
           "label": "17.3\tPossible errors",
-          "x": 26674,
-          "y": -7020,
+          "x": 28190,
+          "y": -7357,
           "id": "64530ae4-7cd2-4e28-8ac5-d2c8eae622ee"
         },
         "0c3f0895-46de-49d1-9d7a-3a0e44d16c3b": {
           "label": "17.4\tParameter history",
-          "x": 26683,
-          "y": -6996,
+          "x": 28199,
+          "y": -7333,
           "id": "0c3f0895-46de-49d1-9d7a-3a0e44d16c3b"
         },
         "f75aab2e-cce8-458c-aabb-25977b41e047": {
           "label": "17.5\tAdditional notes",
-          "x": 26677,
-          "y": -6972,
+          "x": 28193,
+          "y": -7309,
           "id": "f75aab2e-cce8-458c-aabb-25977b41e047"
         },
         "6a81aae8-221e-4c36-9110-58aec83a5042": {
           "label": "17.6\tSee also",
-          "x": 26654,
-          "y": -6948,
+          "x": 28170,
+          "y": -7285,
           "id": "6a81aae8-221e-4c36-9110-58aec83a5042"
         },
         "e4d793b5-3286-4cbb-8f01-146a51ae0679": {
           "label": "18\tProtectedtitles",
-          "x": 26422,
-          "y": -6924,
+          "x": 27938,
+          "y": -7261,
           "id": "e4d793b5-3286-4cbb-8f01-146a51ae0679"
         },
         "d50bf741-66b0-499c-b4ff-0a279167fcce": {
           "label": "18.1\tAPI documentation",
-          "x": 26686,
-          "y": -6900,
+          "x": 28202,
+          "y": -7237,
           "id": "d50bf741-66b0-499c-b4ff-0a279167fcce"
         },
         "eafd5c5b-0b35-441f-bcdc-6f6443f4228e": {
           "label": "18.2\tExample",
-          "x": 26654,
-          "y": -6876,
+          "x": 28170,
+          "y": -7213,
           "id": "eafd5c5b-0b35-441f-bcdc-6f6443f4228e"
         },
         "203e5865-6baf-476e-b22e-2c8a36773fe9": {
           "label": "18.2.1\tGET request",
-          "x": 26953,
-          "y": -6860,
+          "x": 28469,
+          "y": -7197,
           "id": "203e5865-6baf-476e-b22e-2c8a36773fe9"
         },
         "83992685-8c1a-4d2f-b85c-29c68ae63308": {
           "label": "18.2.2\tResponse",
-          "x": 26944,
-          "y": -6836,
+          "x": 28460,
+          "y": -7173,
           "id": "83992685-8c1a-4d2f-b85c-29c68ae63308"
         },
         "9f57a313-933f-4e1b-a398-466b8a6ff5c4": {
           "label": "18.2.3\tSample code",
-          "x": 26954,
-          "y": -6812,
+          "x": 28470,
+          "y": -7149,
           "id": "9f57a313-933f-4e1b-a398-466b8a6ff5c4"
         },
         "294b5e8b-7949-40de-87a7-6c0c7b341f48": {
           "label": "18.3\tParameter history",
-          "x": 26683,
-          "y": -6780,
+          "x": 28199,
+          "y": -7117,
           "id": "294b5e8b-7949-40de-87a7-6c0c7b341f48"
         },
         "692089b5-7f22-4652-96eb-e133330bd407": {
           "label": "18.4\tSee also",
-          "x": 26654,
-          "y": -6756,
+          "x": 28170,
+          "y": -7093,
           "id": "692089b5-7f22-4652-96eb-e133330bd407"
         },
         "05ffb5fd-9662-431c-91e6-560da4ec3eb0": {
           "label": "19\tQuerypage",
-          "x": 26448,
-          "y": -6084,
+          "x": 27964,
+          "y": -6421,
           "id": "05ffb5fd-9662-431c-91e6-560da4ec3eb0"
         },
         "d2071363-f650-42c3-a5fd-e4ef6a9337f7": {
           "label": "19.1\tAPI documentation",
-          "x": 26699,
-          "y": -6261,
+          "x": 28215,
+          "y": -6598,
           "id": "d2071363-f650-42c3-a5fd-e4ef6a9337f7"
         },
         "8db2bd09-eece-45d0-b2a6-75ee52cfd1d9": {
           "label": "19.2\tExample",
-          "x": 26656,
-          "y": -5615,
+          "x": 28172,
+          "y": -5952,
           "id": "8db2bd09-eece-45d0-b2a6-75ee52cfd1d9"
         },
         "20606387-1264-40a3-a644-1fd4866a392c": {
           "label": "19.2.1\tGET request",
-          "x": 26952,
-          "y": -5608,
+          "x": 28468,
+          "y": -5945,
           "id": "20606387-1264-40a3-a644-1fd4866a392c"
         },
         "e15e612c-e904-4cfe-be69-4941f440933b": {
           "label": "19.2.2\tResponse",
-          "x": 26944,
-          "y": -5584,
+          "x": 28460,
+          "y": -5921,
           "id": "e15e612c-e904-4cfe-be69-4941f440933b"
         },
         "2817fda4-b961-47e7-9982-cc384adb8373": {
           "label": "19.2.3\tSample code",
-          "x": 26953,
-          "y": -5560,
+          "x": 28469,
+          "y": -5897,
           "id": "2817fda4-b961-47e7-9982-cc384adb8373"
         },
         "23b43e48-1707-41e6-8787-60e479505e6d": {
           "label": "19.2.4\tSpecial page values",
-          "x": 26975,
-          "y": -5536,
+          "x": 28491,
+          "y": -5873,
           "id": "23b43e48-1707-41e6-8787-60e479505e6d"
         },
         "4f997aaf-1424-48db-9727-4b0d6c39c122": {
           "label": "19.3\tPossible errors",
-          "x": 26676,
-          "y": -5495,
+          "x": 28192,
+          "y": -5832,
           "id": "4f997aaf-1424-48db-9727-4b0d6c39c122"
         },
         "da0aa6a5-122e-4335-bf2a-4fdad2fed3aa": {
           "label": "19.4\tAdditional notes",
-          "x": 26679,
-          "y": -5471,
+          "x": 28195,
+          "y": -5808,
           "id": "da0aa6a5-122e-4335-bf2a-4fdad2fed3aa"
         },
         "99c53b29-0558-443d-bf87-f803441837e2": {
           "label": "19.5\tSee also",
-          "x": 26656,
-          "y": -5447,
+          "x": 28172,
+          "y": -5784,
           "id": "99c53b29-0558-443d-bf87-f803441837e2"
         },
         "7f00848f-7e13-4c45-9027-0bbe6181c100": {
           "label": "20\tRandom",
-          "x": 26406,
-          "y": -5383,
+          "x": 27922,
+          "y": -5720,
           "id": "7f00848f-7e13-4c45-9027-0bbe6181c100"
         },
         "c1764053-914f-477d-8083-76ea5431977c": {
           "label": "20.1\tAPI documentation",
-          "x": 26688,
-          "y": -5353,
+          "x": 28204,
+          "y": -5690,
           "id": "c1764053-914f-477d-8083-76ea5431977c"
         },
         "89012eaf-a7fe-4c3c-b4c1-27c5d93e9070": {
           "label": "20.2\tExample",
-          "x": 26656,
-          "y": -5329,
+          "x": 28172,
+          "y": -5666,
           "id": "89012eaf-a7fe-4c3c-b4c1-27c5d93e9070"
         },
         "fa6ca9f3-7bc6-41e4-94db-01293e408e7c": {
           "label": "20.2.1\tGET request",
-          "x": 26964,
-          "y": -5318,
+          "x": 28480,
+          "y": -5655,
           "id": "fa6ca9f3-7bc6-41e4-94db-01293e408e7c"
         },
         "577c1a7e-dfff-4f59-9d8f-4668f05bb553": {
           "label": "20.2.2\tResponse",
-          "x": 26955,
-          "y": -5294,
+          "x": 28471,
+          "y": -5631,
           "id": "577c1a7e-dfff-4f59-9d8f-4668f05bb553"
         },
         "92c2cc71-f512-47a8-92bd-8c616448b9ae": {
           "label": "20.2.3\tSample code",
-          "x": 26965,
-          "y": -5270,
+          "x": 28481,
+          "y": -5607,
           "id": "92c2cc71-f512-47a8-92bd-8c616448b9ae"
         },
         "77001a8f-a699-4de8-af9c-32338ab29192": {
           "label": "20.3\tParameter history",
-          "x": 26685,
-          "y": -5233,
+          "x": 28201,
+          "y": -5570,
           "id": "77001a8f-a699-4de8-af9c-32338ab29192"
         },
         "7ca29f85-b8ed-47f8-9d95-e2fcc2f896f3": {
           "label": "20.4\tAdditional notes",
-          "x": 26679,
-          "y": -5209,
+          "x": 28195,
+          "y": -5546,
           "id": "7ca29f85-b8ed-47f8-9d95-e2fcc2f896f3"
         },
         "e8ae6886-90bc-432a-91f9-59239fae8519": {
           "label": "20.5\tSee also",
-          "x": 26656,
-          "y": -5185,
+          "x": 28172,
+          "y": -5522,
           "id": "e8ae6886-90bc-432a-91f9-59239fae8519"
         },
         "a4f49df3-4134-48e5-a3af-2036ab936ea7": {
           "label": "21\tRecentchanges",
-          "x": 26429,
-          "y": -5170,
+          "x": 27945,
+          "y": -5507,
           "id": "a4f49df3-4134-48e5-a3af-2036ab936ea7"
         },
         "d715ee4d-971b-4bb2-b661-0f10b8a60916": {
           "label": "21.1\tAPI documentation",
-          "x": 26688,
-          "y": -5137,
+          "x": 28204,
+          "y": -5474,
           "id": "d715ee4d-971b-4bb2-b661-0f10b8a60916"
         },
         "e7580d7c-3e36-4832-8695-67475d370bf9": {
           "label": "21.2\tExample",
-          "x": 26656,
-          "y": -5113,
+          "x": 28172,
+          "y": -5450,
           "id": "e7580d7c-3e36-4832-8695-67475d370bf9"
         },
         "855ba674-000e-42a1-b1b1-06ba26e7fffa": {
           "label": "21.2.1\tGET request",
-          "x": 26967,
-          "y": -5108,
+          "x": 28483,
+          "y": -5445,
           "id": "855ba674-000e-42a1-b1b1-06ba26e7fffa"
         },
         "1b1a722f-8fc3-4a5b-9cab-a52a74f5a1c0": {
           "label": "21.2.2\tResponse",
-          "x": 26958,
-          "y": -5084,
+          "x": 28474,
+          "y": -5421,
           "id": "1b1a722f-8fc3-4a5b-9cab-a52a74f5a1c0"
         },
         "1f35617f-aed8-4f98-8580-d1a42658b749": {
           "label": "21.2.3\tSample code",
-          "x": 26968,
-          "y": -5060,
+          "x": 28484,
+          "y": -5397,
           "id": "1f35617f-aed8-4f98-8580-d1a42658b749"
         },
         "e92a97ce-bfb1-4639-bba2-95f476f542aa": {
           "label": "21.3\tPossible errors",
-          "x": 26676,
-          "y": -5017,
+          "x": 28192,
+          "y": -5354,
           "id": "e92a97ce-bfb1-4639-bba2-95f476f542aa"
         },
         "117acb45-279f-45c5-b744-78483192524c": {
           "label": "21.4\tParameter history",
-          "x": 26685,
-          "y": -4993,
+          "x": 28201,
+          "y": -5330,
           "id": "117acb45-279f-45c5-b744-78483192524c"
         },
         "f6e949fe-b7d9-4f5d-b2b7-23d4d41f374d": {
           "label": "21.5\tAdditional notes",
-          "x": 26679,
-          "y": -4969,
+          "x": 28195,
+          "y": -5306,
           "id": "f6e949fe-b7d9-4f5d-b2b7-23d4d41f374d"
         },
         "70f866a2-d9a8-4642-a6bd-ce6009e79149": {
           "label": "21.6\tSee also",
-          "x": 26656,
-          "y": -4945,
+          "x": 28172,
+          "y": -5282,
           "id": "70f866a2-d9a8-4642-a6bd-ce6009e79149"
         },
         "0a0b1d52-cb2b-4225-ac16-d1847c9820b0": {
           "label": "22\tSearch",
-          "x": 26402,
-          "y": -4916,
+          "x": 27918,
+          "y": -5253,
           "id": "0a0b1d52-cb2b-4225-ac16-d1847c9820b0"
         },
         "6954813a-fe7d-4504-bd3d-6c0121102852": {
           "label": "22.1\tAPI documentation",
-          "x": 26688,
-          "y": -4897,
+          "x": 28204,
+          "y": -5234,
           "id": "6954813a-fe7d-4504-bd3d-6c0121102852"
         },
         "0951f223-8db2-4aa9-99cb-692fad2647c5": {
           "label": "22.1.1\tGET request",
-          "x": 26978,
-          "y": -4903,
+          "x": 28494,
+          "y": -5240,
           "id": "0951f223-8db2-4aa9-99cb-692fad2647c5"
         },
         "c1e1148d-90d9-4719-a7d7-cbf8055ca4d3": {
           "label": "22.1.2\tResponse",
-          "x": 26970,
-          "y": -4879,
+          "x": 28486,
+          "y": -5216,
           "id": "c1e1148d-90d9-4719-a7d7-cbf8055ca4d3"
         },
         "2fd7df77-2bf3-4ca3-bd54-0899ff469bed": {
           "label": "22.1.3\tSample code",
-          "x": 26979,
-          "y": -4855,
+          "x": 28495,
+          "y": -5192,
           "id": "2fd7df77-2bf3-4ca3-bd54-0899ff469bed"
         },
         "52c687ed-ebb4-4002-9006-23e8fa497840": {
           "label": "22.2\tPossible errors",
-          "x": 26676,
-          "y": -4801,
+          "x": 28192,
+          "y": -5138,
           "id": "52c687ed-ebb4-4002-9006-23e8fa497840"
         },
         "23db6f23-9ff8-4138-8349-4bd8335bcaba": {
           "label": "22.3\tParameter history",
-          "x": 26685,
-          "y": -4777,
+          "x": 28201,
+          "y": -5114,
           "id": "23db6f23-9ff8-4138-8349-4bd8335bcaba"
         },
         "0c2d1372-0975-4a88-98cc-a94ed9219058": {
           "label": "22.4\tAdditional notes",
-          "x": 26679,
-          "y": -4753,
+          "x": 28195,
+          "y": -5090,
           "id": "0c2d1372-0975-4a88-98cc-a94ed9219058"
         },
         "b07ccf6e-9ea7-450d-9039-7c09976042a6": {
           "label": "22.5\tSee also",
-          "x": 26656,
-          "y": -4729,
+          "x": 28172,
+          "y": -5066,
           "id": "b07ccf6e-9ea7-450d-9039-7c09976042a6"
         },
         "1cb86da6-1a6f-44af-9bee-bbf80ab2a762": {
           "label": "23\tTags",
-          "x": 26395,
-          "y": -4708,
+          "x": 27911,
+          "y": -5045,
           "id": "1cb86da6-1a6f-44af-9bee-bbf80ab2a762"
         },
         "b75b2e63-eaa8-4664-80de-a195c1560c05": {
           "label": "23.1\tAPI documentation",
-          "x": 26688,
-          "y": -4681,
+          "x": 28204,
+          "y": -5018,
           "id": "b75b2e63-eaa8-4664-80de-a195c1560c05"
         },
         "b8f9711a-cd3e-46f9-b6c3-1fd323e42124": {
           "label": "23.2\tExample",
-          "x": 26656,
-          "y": -4657,
+          "x": 28172,
+          "y": -4994,
           "id": "b8f9711a-cd3e-46f9-b6c3-1fd323e42124"
         },
         "1d709be2-a457-4a64-810a-19cabbde7802": {
           "label": "23.2.1\tGET request",
-          "x": 26973,
-          "y": -4646,
+          "x": 28489,
+          "y": -4983,
           "id": "1d709be2-a457-4a64-810a-19cabbde7802"
         },
         "a9d82019-18b5-4d14-b074-0c7612ef8b06": {
           "label": "23.2.2\tResponse",
-          "x": 26964,
-          "y": -4622,
+          "x": 28480,
+          "y": -4959,
           "id": "a9d82019-18b5-4d14-b074-0c7612ef8b06"
         },
         "6fe300cc-7d61-440c-a695-9c259409bb8c": {
           "label": "23.2.3\tSample code",
-          "x": 26974,
-          "y": -4598,
+          "x": 28490,
+          "y": -4935,
           "id": "6fe300cc-7d61-440c-a695-9c259409bb8c"
         },
         "d42af7ce-dbe1-4c76-a95e-5256bc04db4c": {
           "label": "23.3\tAdditional notes",
-          "x": 26679,
-          "y": -4561,
+          "x": 28195,
+          "y": -4898,
           "id": "d42af7ce-dbe1-4c76-a95e-5256bc04db4c"
         },
         "d61ef910-0cbf-4cc3-b103-5afdbdfbd153": {
           "label": "23.4\tSee also",
-          "x": 26656,
-          "y": -4537,
+          "x": 28172,
+          "y": -4874,
           "id": "d61ef910-0cbf-4cc3-b103-5afdbdfbd153"
         },
         "b8e7d795-5a60-4c73-b6d8-69f63832a179": {
           "label": "24\tUsercontribs",
-          "x": 26419,
-          "y": -4517,
+          "x": 27935,
+          "y": -4854,
           "id": "b8e7d795-5a60-4c73-b6d8-69f63832a179"
         },
         "33851138-71b0-483e-901e-92b181f29729": {
           "label": "24.1\tAPI documentation",
-          "x": 26688,
-          "y": -4489,
+          "x": 28204,
+          "y": -4826,
           "id": "33851138-71b0-483e-901e-92b181f29729"
         },
         "efae9660-7063-418c-a595-ff919151d5fc": {
           "label": "24.2\tExample",
-          "x": 26656,
-          "y": -4465,
+          "x": 28172,
+          "y": -4802,
           "id": "efae9660-7063-418c-a595-ff919151d5fc"
         },
         "c5c9b35a-466b-42ab-a50c-c50062071ade": {
           "label": "24.2.1\tGET request",
-          "x": 26958,
-          "y": -4457,
+          "x": 28474,
+          "y": -4794,
           "id": "c5c9b35a-466b-42ab-a50c-c50062071ade"
         },
         "090d33bb-d073-4aaa-b96e-e6cbd51ad29b": {
           "label": "24.2.2\tResponse",
-          "x": 26949,
-          "y": -4433,
+          "x": 28465,
+          "y": -4770,
           "id": "090d33bb-d073-4aaa-b96e-e6cbd51ad29b"
         },
         "a21cc859-d8bd-476b-8f27-c14d67e4737c": {
           "label": "24.2.3\tSample code",
-          "x": 26959,
-          "y": -4409,
+          "x": 28475,
+          "y": -4746,
           "id": "a21cc859-d8bd-476b-8f27-c14d67e4737c"
         },
         "cf4b4404-b02e-42a9-8510-4bfebd09264d": {
           "label": "24.3\tPossible errors",
-          "x": 26676,
-          "y": -4369,
+          "x": 28192,
+          "y": -4706,
           "id": "cf4b4404-b02e-42a9-8510-4bfebd09264d"
         },
         "c8b49e52-b118-4ae9-8bb6-1cac9371da19": {
           "label": "24.4\tParameter history",
-          "x": 26685,
-          "y": -4345,
+          "x": 28201,
+          "y": -4682,
           "id": "c8b49e52-b118-4ae9-8bb6-1cac9371da19"
         },
         "233d2de4-7bbe-4a23-9993-9fa6ff1c4c48": {
           "label": "24.5\tAdditional notes",
-          "x": 26679,
-          "y": -4321,
+          "x": 28195,
+          "y": -4658,
           "id": "233d2de4-7bbe-4a23-9993-9fa6ff1c4c48"
         },
         "f8ada137-2229-4379-8bd3-416e6da962c8": {
           "label": "24.6\tSee also",
-          "x": 26656,
-          "y": -4297,
+          "x": 28172,
+          "y": -4634,
           "id": "f8ada137-2229-4379-8bd3-416e6da962c8"
         },
         "4d6b8036-7da8-4876-b5c7-185b6245da98": {
           "label": "25\tUsers",
-          "x": 26398,
-          "y": -4281,
+          "x": 27914,
+          "y": -4618,
           "id": "4d6b8036-7da8-4876-b5c7-185b6245da98"
         },
         "f4438374-c44d-40c0-b703-f64356d134c0": {
           "label": "26\tWatchlist",
-          "x": 26408,
-          "y": -4254,
+          "x": 27924,
+          "y": -4591,
           "id": "f4438374-c44d-40c0-b703-f64356d134c0"
         },
         "0862ea76-00de-4bb9-8587-20bbabdcaaf5": {
           "label": "27\tWatchlistraw",
-          "x": 26419,
-          "y": -4224,
+          "x": 27935,
+          "y": -4561,
           "id": "0862ea76-00de-4bb9-8587-20bbabdcaaf5"
         },
         "ea8cf5d8-b7df-4b0c-bc6f-5baa617fcf46": {
           "id": "ea8cf5d8-b7df-4b0c-bc6f-5baa617fcf46",
-          "x": 27173,
-          "y": -9864,
+          "x": 28689,
+          "y": -10201,
           "label": "https://www.mediawiki.org/w/api.php?action=query&list=alltransclusions&atunique=&atfrom=Kinesiology&atlimit=1000"
         },
         "683622ff-5ee8-4dbb-97d8-bfae15736173": {
           "id": "683622ff-5ee8-4dbb-97d8-bfae15736173",
-          "x": 26676,
-          "y": -9858,
+          "x": 28192,
+          "y": -10195,
           "label": "Варианты ссылок"
         },
         "ebe933b5-d3dd-4076-a4f7-854b2456add7": {
           "id": "ebe933b5-d3dd-4076-a4f7-854b2456add7",
-          "x": 27075,
-          "y": -6317,
+          "x": 28591,
+          "y": -6654,
           "label": "qppage"
         },
         "8963a1c4-2284-46ee-b62a-32b5d1934e9f": {
           "id": "8963a1c4-2284-46ee-b62a-32b5d1934e9f",
-          "x": 26916,
-          "y": -6296,
+          "x": 28432,
+          "y": -6633,
           "label": "Parameters"
         },
         "deffbe9b-f53b-4076-89c9-fbc3e803335b": {
           "label": "Ancientpages",
-          "x": 27297,
-          "y": -6691,
+          "x": 28813,
+          "y": -7028,
           "id": "deffbe9b-f53b-4076-89c9-fbc3e803335b"
         },
         "1ba81bb6-ccce-429d-8461-d4fd441f029e": {
           "label": "BrokenRedirects",
-          "x": 27306,
-          "y": -6667,
+          "x": 28822,
+          "y": -7004,
           "id": "1ba81bb6-ccce-429d-8461-d4fd441f029e"
         },
         "717ca72c-60ee-430e-b07a-1c1f6072968d": {
           "label": "Deadendpages",
-          "x": 27302,
-          "y": -6643,
+          "x": 28818,
+          "y": -6980,
           "id": "717ca72c-60ee-430e-b07a-1c1f6072968d"
         },
         "e21d525f-461d-44d2-ae78-aa501cd7e52d": {
           "label": "DoubleRedirects",
-          "x": 27306,
-          "y": -6619,
+          "x": 28822,
+          "y": -6956,
           "id": "e21d525f-461d-44d2-ae78-aa501cd7e52d"
         },
         "007e8024-b6ff-4663-b07e-e954111be2ef": {
           "label": "ListDuplicatedFiles",
-          "x": 27313,
-          "y": -6595,
+          "x": 28829,
+          "y": -6932,
           "id": "007e8024-b6ff-4663-b07e-e954111be2ef"
         },
         "7c529512-b611-4c84-ba34-82e2131210cb": {
           "label": "Listredirects",
-          "x": 27292,
-          "y": -6571,
+          "x": 28808,
+          "y": -6908,
           "id": "7c529512-b611-4c84-ba34-82e2131210cb"
         },
         "56e04c76-a3e7-47b3-ab67-bcbc5b34842c": {
           "label": "Lonelypages",
-          "x": 27294,
-          "y": -6547,
+          "x": 28810,
+          "y": -6884,
           "id": "56e04c76-a3e7-47b3-ab67-bcbc5b34842c"
         },
         "e9d4f598-a013-455a-a4f2-0da65d87b2a5": {
           "label": "Longpages",
-          "x": 27289,
-          "y": -6523,
+          "x": 28805,
+          "y": -6860,
           "id": "e9d4f598-a013-455a-a4f2-0da65d87b2a5"
         },
         "c1878970-8b7b-405c-b2f0-8a60419f7f26": {
           "label": "MediaStatistics",
-          "x": 27301,
-          "y": -6499,
+          "x": 28817,
+          "y": -6836,
           "id": "c1878970-8b7b-405c-b2f0-8a60419f7f26"
         },
         "fb7ea24f-4d34-4c4d-a44d-9643786bee36": {
           "label": "Mostcategories",
-          "x": 27302,
-          "y": -6475,
+          "x": 28818,
+          "y": -6812,
           "id": "fb7ea24f-4d34-4c4d-a44d-9643786bee36"
         },
         "14f2fb47-0b7d-46a2-a3b2-06e77744368f": {
           "label": "Mostimages",
-          "x": 27292,
-          "y": -6451,
+          "x": 28808,
+          "y": -6788,
           "id": "14f2fb47-0b7d-46a2-a3b2-06e77744368f"
         },
         "cdf52a51-d3b8-474e-b4f5-535b68b43926": {
           "label": "Mostinterwikis",
-          "x": 27298,
-          "y": -6427,
+          "x": 28814,
+          "y": -6764,
           "id": "cdf52a51-d3b8-474e-b4f5-535b68b43926"
         },
         "b83eb6c8-d19e-4af4-9996-6557147004ab": {
           "label": "Mostlinkedcategories",
-          "x": 27321,
-          "y": -6403,
+          "x": 28837,
+          "y": -6740,
           "id": "b83eb6c8-d19e-4af4-9996-6557147004ab"
         },
         "92794fd1-bbd1-475e-9495-05812ac504a7": {
           "label": "Mostlinkedtemplates",
-          "x": 27319,
-          "y": -6379,
+          "x": 28835,
+          "y": -6716,
           "id": "92794fd1-bbd1-475e-9495-05812ac504a7"
         },
         "1df58ae3-fb8b-41db-916c-2b66593a58b8": {
           "label": "Mostlinked",
-          "x": 27288,
-          "y": -6355,
+          "x": 28804,
+          "y": -6692,
           "id": "1df58ae3-fb8b-41db-916c-2b66593a58b8"
         },
         "43a91190-ff8f-4f03-94fb-aade3e8c1236": {
           "label": "Mostrevisions",
-          "x": 27297,
-          "y": -6331,
+          "x": 28813,
+          "y": -6668,
           "id": "43a91190-ff8f-4f03-94fb-aade3e8c1236"
         },
         "fcaedadb-8016-4647-8ed0-81518b070da8": {
           "label": "Fewestrevisions",
-          "x": 27305,
-          "y": -6307,
+          "x": 28821,
+          "y": -6644,
           "id": "fcaedadb-8016-4647-8ed0-81518b070da8"
         },
         "dd1541aa-5232-46e7-9060-fe12caa5f855": {
           "label": "Shortpages",
-          "x": 27290,
-          "y": -6283,
+          "x": 28806,
+          "y": -6620,
           "id": "dd1541aa-5232-46e7-9060-fe12caa5f855"
         },
         "81de1ad9-91c6-4adc-9874-44639f1bc3c8": {
           "label": "Uncategorizedcategories",
-          "x": 27333,
-          "y": -6259,
+          "x": 28849,
+          "y": -6596,
           "id": "81de1ad9-91c6-4adc-9874-44639f1bc3c8"
         },
         "8ddcdbee-ea82-4945-936c-8c213b47b7cb": {
           "label": "Uncategorizedpages",
-          "x": 27319,
-          "y": -6235,
+          "x": 28835,
+          "y": -6572,
           "id": "8ddcdbee-ea82-4945-936c-8c213b47b7cb"
         },
         "7e05826e-2175-411d-92cf-4af417434209": {
           "label": "Uncategorizedimages",
-          "x": 27323,
-          "y": -6211,
+          "x": 28839,
+          "y": -6548,
           "id": "7e05826e-2175-411d-92cf-4af417434209"
         },
         "57280f0f-48ba-49dc-9e76-d0c88d0c5c01": {
           "label": "Uncategorizedtemplates",
-          "x": 27331,
-          "y": -6187,
+          "x": 28847,
+          "y": -6524,
           "id": "57280f0f-48ba-49dc-9e76-d0c88d0c5c01"
         },
         "e62fd899-fb40-4f63-806d-9667c76263d9": {
           "label": "Unusedcategories",
-          "x": 27311,
-          "y": -6163,
+          "x": 28827,
+          "y": -6500,
           "id": "e62fd899-fb40-4f63-806d-9667c76263d9"
         },
         "bcfb84bf-81c1-43c8-825a-2a122acd1ba2": {
           "label": "Unusedimages",
-          "x": 27301,
-          "y": -6139,
+          "x": 28817,
+          "y": -6476,
           "id": "bcfb84bf-81c1-43c8-825a-2a122acd1ba2"
         },
         "efe21204-e670-49c1-b780-14940931c890": {
           "label": "Wantedcategories",
-          "x": 27311,
-          "y": -6115,
+          "x": 28827,
+          "y": -6452,
           "id": "efe21204-e670-49c1-b780-14940931c890"
         },
         "0d7299da-0a76-44f9-8b05-3107824aa597": {
           "label": "Wantedfiles",
-          "x": 27291,
-          "y": -6091,
+          "x": 28807,
+          "y": -6428,
           "id": "0d7299da-0a76-44f9-8b05-3107824aa597"
         },
         "82c357f9-0f53-4ddb-aa0e-d46d15e7f826": {
           "label": "Wantedpages",
-          "x": 27298,
-          "y": -6067,
+          "x": 28814,
+          "y": -6404,
           "id": "82c357f9-0f53-4ddb-aa0e-d46d15e7f826"
         },
         "f7a3d4b2-69f9-4abe-bfc6-285b9c5e0666": {
           "label": "Wantedtemplates",
-          "x": 27309,
-          "y": -6043,
+          "x": 28825,
+          "y": -6380,
           "id": "f7a3d4b2-69f9-4abe-bfc6-285b9c5e0666"
         },
         "e9eccf9e-51cc-4801-b477-87b5a7695156": {
           "label": "Unwatchedpages",
-          "x": 27309,
-          "y": -6019,
+          "x": 28825,
+          "y": -6356,
           "id": "e9eccf9e-51cc-4801-b477-87b5a7695156"
         },
         "35a9cf29-5aac-49b7-af11-45f37b2957aa": {
           "label": "Unusedtemplates",
-          "x": 27309,
-          "y": -5995,
+          "x": 28825,
+          "y": -6332,
           "id": "35a9cf29-5aac-49b7-af11-45f37b2957aa"
         },
         "128f54f1-9dab-44bc-a286-0dafe747453f": {
           "label": "Withoutinterwiki",
-          "x": 27303,
-          "y": -5971,
+          "x": 28819,
+          "y": -6308,
           "id": "128f54f1-9dab-44bc-a286-0dafe747453f"
         },
         "fcc3df5b-43b4-488f-9d1b-602ec08f3f19": {
           "label": "UnconnectedPages",
-          "x": 27316,
-          "y": -5947,
+          "x": 28832,
+          "y": -6284,
           "id": "fcc3df5b-43b4-488f-9d1b-602ec08f3f19"
         },
         "0e48b7cb-b926-4f1c-a99d-369b03787c1a": {
           "label": "GadgetUsage",
-          "x": 27298,
-          "y": -5923,
+          "x": 28814,
+          "y": -6260,
           "id": "0e48b7cb-b926-4f1c-a99d-369b03787c1a"
         },
         "fbf6ba61-2045-4ad3-a0d9-cb6c0a6badb9": {
           "label": "MostGloballyLinkedFiles",
-          "x": 27331,
-          "y": -5899,
+          "x": 28847,
+          "y": -6236,
           "id": "fbf6ba61-2045-4ad3-a0d9-cb6c0a6badb9"
         },
         "a10eea87-f639-42a5-997b-c829d4638fa0": {
           "label": "GloballyWantedFiles",
-          "x": 27319,
-          "y": -5875,
+          "x": 28835,
+          "y": -6212,
           "id": "a10eea87-f639-42a5-997b-c829d4638fa0"
         },
         "1945d89e-f920-45e7-a4ef-ded51a3f5da4": {
           "label": "DisambiguationPages",
-          "x": 27323,
-          "y": -5851,
+          "x": 28839,
+          "y": -6188,
           "id": "1945d89e-f920-45e7-a4ef-ded51a3f5da4"
         },
         "ae01cee4-34e0-4dde-9ef6-f0bdc2200f71": {
           "label": "DisambiguationPageLinks",
-          "x": 27336,
-          "y": -5827,
+          "x": 28852,
+          "y": -6164,
           "id": "ae01cee4-34e0-4dde-9ef6-f0bdc2200f71"
         },
         "5e0c976c-67c4-48eb-8818-50b11766a98a": {
           "id": "5e0c976c-67c4-48eb-8818-50b11766a98a",
-          "x": 26519,
-          "y": -3524,
+          "x": 28035,
+          "y": -3861,
           "label": "https://stackoverflow.com/questions/37024807/how-to-get-wikidata-id-for-an-wikipedia-article-by-api",
           "shape": "box",
           "link": "https://stackoverflow.com/questions/37024807/how-to-get-wikidata-id-for-an-wikipedia-article-by-api",
@@ -36113,14 +32522,14 @@ var schemeData =
         },
         "9e1e1324-5650-46bc-bb48-725cb8cacd19": {
           "id": "9e1e1324-5650-46bc-bb48-725cb8cacd19",
-          "x": 27345,
-          "y": -3535,
+          "x": 28861,
+          "y": -3872,
           "label": "https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&ppprop=wikibase_item&redirects=1&titles=ARTICLE_NAME"
         },
         "84cd0cc6-b761-4b97-a432-66581d9cac1f": {
           "id": "84cd0cc6-b761-4b97-a432-66581d9cac1f",
-          "x": 27165,
-          "y": 1879,
+          "x": 28681,
+          "y": 1542,
           "label": "console.clear();\nvar name;\nvar selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\nif (selectedNodes.length != 1) return;\nname = selectedNodes[0].options.label;\nname = name.replace(/.*org\\/wiki\\//, \"\");\n\nvar codeNode = network.body.data.nodes.get(codeNodeId);\nvar pNode = network.getPositions()[codeNodeId];\nvar url = \"https://en.wikipedia.org/api/rest_v1/page/references/\"; \nurl = url + name;\nconsole.log(url);\n\nvar newNodesIds = [];\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\nconsole.log(response);\n        var refs = response.references_by_id;\n        var i = 0;\n        for (var ref in refs) {\n            var line = refs[ref].content;\n            line = line.html + \". Type: \" + line.type;\n            line = line.match(/.{1,70}/g).join(\"\\n\");\n            console.log(line);\n            var nodeId = addNodeOnCanvas(\n               line, \n               \"\",\n               {x:pNode.x, y:pNode.y}, \n               4500, \n               25*i, \n               network)[0];\n               newNodesIds.push(nodeId);\n               var edgeData = {from: selectedNodes[0].id, to: nodeId};\n               network.body.data.edges.getDataSet().add(edgeData);\n\n            i++;\n        }\n    })\n    .then(function(response) {\n       var nodeBBox = network.nodesHandler.getBoundingBox(newNodesIds[0]);\n       var y = nodeBBox[\"top\"];\n       newNodesIds.forEach(function(nodeId,index) {\n                var node = network.body.data.nodes.get(nodeId);\n                node.font = {align: \"left\"};\n                node.x = node.x + 300;\n                node.y = y + (14*node.label.split(\"\\n\").length)/2\n                y = y + 14*node.label.split(\"\\n\").length + 25;\n                network.body.data.nodes.update(node);\n       });\n       var nodes = [];\n       newNodesIds.forEach(function(nodeId) {      \n          nodes.push(network.body.nodes[nodeId]);\n       });\n       alignNodesLeft(nodes);\n    })\n    .catch(function(error){console.log(error);});\n\nvar node = network.body.data.nodes.get(selectedNodes[0].id);\nvar pNode = network.getPositions()[node.id];\nif (typeof node.font === \"undefined\") node.font = {};\nnode.font.size = 100;\nnode.x = pNode.x + 3000;\nnetwork.body.data.nodes.update(node);\n",
           "shape": "box",
           "link": "",
@@ -36136,8 +32545,8 @@ var schemeData =
         },
         "bc6ee279-38e5-4358-8539-181730157c04": {
           "id": "bc6ee279-38e5-4358-8539-181730157c04",
-          "x": 26436,
-          "y": 1880,
+          "x": 27952,
+          "y": 1543,
           "label": "Получить список литературы (References) страницы",
           "shape": "box",
           "link": "",
@@ -38607,8 +35016,8 @@ var schemeData =
         "fbdc8df6-13cf-42a3-8140-215ebb6f514e": {
           "label": "",
           "link": "",
-          "x": 28677,
-          "y": -2990,
+          "x": 30193,
+          "y": -3327,
           "id": "fbdc8df6-13cf-42a3-8140-215ebb6f514e"
         },
         "6d7af570-fdce-465e-a2f1-60445c56afa4486711": {
@@ -40010,6 +36419,242 @@ var schemeData =
           "y": -17351,
           "shape": "box",
           "link": "ruby.html",
+          "borderWidth": ""
+        },
+        "731e4fc7-eac0-4c9f-8100-4a1d67df081a": {
+          "label": "Markdown",
+          "x": 14274,
+          "y": 2338,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "731e4fc7-eac0-4c9f-8100-4a1d67df081a",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ac20b828-dfac-4f90-b059-b92d41b758d8": {
+          "label": "Development",
+          "x": 14659,
+          "y": 2761,
+          "id": "ac20b828-dfac-4f90-b059-b92d41b758d8"
+        },
+        "8a35f818-151f-4f07-aaab-cbefbaa3f050": {
+          "label": "11/30/2019",
+          "x": 14792,
+          "y": 2761,
+          "id": "8a35f818-151f-4f07-aaab-cbefbaa3f050"
+        },
+        "5f561a3b-7eef-4295-90bd-146c3e121852": {
+          "label": "init",
+          "x": 14909,
+          "y": 2761,
+          "id": "5f561a3b-7eef-4295-90bd-146c3e121852"
+        },
+        "816e52c4-ef69-45c2-a1a0-b4da69a66ac1": {
+          "label": "Notes",
+          "x": 14629,
+          "y": 1560,
+          "id": "816e52c4-ef69-45c2-a1a0-b4da69a66ac1"
+        },
+        "c99ee1fd-f745-40a0-a3c3-7f8e40d9c18d": {
+          "label": "Dictionary of\nconcepts",
+          "x": 14789,
+          "y": 1310,
+          "id": "c99ee1fd-f745-40a0-a3c3-7f8e40d9c18d"
+        },
+        "455c0087-0aa2-4e3d-8ff1-4675275a2a4d": {
+          "label": "Details, thoughts",
+          "x": 14802,
+          "y": 1560,
+          "id": "455c0087-0aa2-4e3d-8ff1-4675275a2a4d"
+        },
+        "15fb722f-466e-4bbc-a546-54cd89066310": {
+          "label": "Sections",
+          "x": 14783,
+          "y": 2161,
+          "id": "15fb722f-466e-4bbc-a546-54cd89066310"
+        },
+        "a98a4281-3503-4008-bd67-cff5e994438d": {
+          "label": "Books",
+          "x": 14866,
+          "y": 1660,
+          "id": "a98a4281-3503-4008-bd67-cff5e994438d"
+        },
+        "27df8ccd-57f8-4b35-8620-f6748c600191": {
+          "label": "R&D institutions",
+          "x": 14897,
+          "y": 1685,
+          "id": "27df8ccd-57f8-4b35-8620-f6748c600191"
+        },
+        "f35dd270-428d-4fd5-9d96-a2f69f0f97a0": {
+          "label": "Sites",
+          "x": 14862,
+          "y": 1710,
+          "id": "f35dd270-428d-4fd5-9d96-a2f69f0f97a0"
+        },
+        "23887908-5175-4dc9-ab22-9a030b2bf6ae": {
+          "label": "Magazines",
+          "x": 14881,
+          "y": 1735,
+          "id": "23887908-5175-4dc9-ab22-9a030b2bf6ae"
+        },
+        "97f73ea3-dbd4-4e21-81bd-b856086e1e93": {
+          "label": "Articles",
+          "x": 14870,
+          "y": 1760,
+          "id": "97f73ea3-dbd4-4e21-81bd-b856086e1e93"
+        },
+        "b8817ba3-1785-4f0a-a165-3888acc67b34": {
+          "label": "Media content",
+          "x": 14892,
+          "y": 1785,
+          "id": "b8817ba3-1785-4f0a-a165-3888acc67b34"
+        },
+        "7c74cc78-4f7d-4eb2-9701-36e4ebdb947d": {
+          "label": "Misc. web links",
+          "x": 14894,
+          "y": 1987,
+          "id": "7c74cc78-4f7d-4eb2-9701-36e4ebdb947d"
+        },
+        "63ae8875-af7d-478a-8ab9-b008bbf583b7": {
+          "label": "Projects",
+          "x": 14872,
+          "y": 2186,
+          "id": "63ae8875-af7d-478a-8ab9-b008bbf583b7"
+        },
+        "8ea4c5f4-44de-4544-9ffb-e5768018352b": {
+          "label": "Tools",
+          "x": 14863,
+          "y": 2211,
+          "id": "8ea4c5f4-44de-4544-9ffb-e5768018352b"
+        },
+        "19c7488f-e193-4cdd-a3df-f55f113e17bb": {
+          "label": "Organizations",
+          "x": 14891,
+          "y": 2236,
+          "id": "19c7488f-e193-4cdd-a3df-f55f113e17bb"
+        },
+        "313cb54f-7941-438f-9e76-890f172e1405": {
+          "label": "Standarts",
+          "x": 14884,
+          "y": 2261,
+          "id": "313cb54f-7941-438f-9e76-890f172e1405"
+        },
+        "cd29d9b2-af21-47b6-bb8d-2022f68c28df": {
+          "label": "Forums, Groups",
+          "x": 14906,
+          "y": 2286,
+          "id": "cd29d9b2-af21-47b6-bb8d-2022f68c28df"
+        },
+        "9d793702-be61-48d5-99d9-c994fce5723c": {
+          "label": "Laws",
+          "x": 14870,
+          "y": 2311,
+          "id": "9d793702-be61-48d5-99d9-c994fce5723c"
+        },
+        "0aed9a68-cd93-4599-ace7-705316232419": {
+          "label": "Adjacent Themes",
+          "x": 14909,
+          "y": 2336,
+          "id": "0aed9a68-cd93-4599-ace7-705316232419"
+        },
+        "6397176d-223e-44ef-95be-46dd644ccd60": {
+          "label": "Questions",
+          "x": 14649,
+          "y": 2461,
+          "id": "6397176d-223e-44ef-95be-46dd644ccd60"
+        },
+        "1a59c580-ef05-4ee3-910b-7a844d9ce59a": {
+          "label": "Problems",
+          "x": 14647,
+          "y": 2561,
+          "id": "1a59c580-ef05-4ee3-910b-7a844d9ce59a"
+        },
+        "1eef534d-a6e7-4864-adf1-865944f199c3": {
+          "label": "Goals",
+          "x": 14636,
+          "y": 2661,
+          "id": "1eef534d-a6e7-4864-adf1-865944f199c3"
+        },
+        "7080c641-f688-436b-a252-db7d9552304b": {
+          "id": "7080c641-f688-436b-a252-db7d9552304b",
+          "x": 15150,
+          "y": 1935,
+          "label": "https://github.github.com/gfm/",
+          "link": "https://github.github.com/gfm/"
+        },
+        "844bff62-5b6d-4aa5-9b4b-303cfb3a9c22": {
+          "id": "844bff62-5b6d-4aa5-9b4b-303cfb3a9c22",
+          "x": 15278,
+          "y": 1971,
+          "label": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
+          "link": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
+        },
+        "24879531-7a96-4d51-b945-7426bfa59cfe": {
+          "id": "24879531-7a96-4d51-b945-7426bfa59cfe",
+          "x": 15234,
+          "y": 2006,
+          "label": "https://guides.github.com/features/mastering-markdown/",
+          "link": "https://guides.github.com/features/mastering-markdown/"
+        },
+        "96b71ec0-3ded-4d2f-bd17-77ebd4405763": {
+          "id": "96b71ec0-3ded-4d2f-bd17-77ebd4405763",
+          "x": 14399,
+          "y": -17190,
+          "label": "entities"
+        },
+        "5d80223c-648c-4751-958c-580223a131ee": {
+          "id": "5d80223c-648c-4751-958c-580223a131ee",
+          "x": 14526,
+          "y": -17194,
+          "label": "&mdash;"
+        },
+        "3941cc60-09fd-44b3-975e-1e53487e5d01": {
+          "id": "3941cc60-09fd-44b3-975e-1e53487e5d01",
+          "x": 14656,
+          "y": -17188,
+          "label": "—"
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214236821536": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Markdown",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214236821536",
+          "x": 18269,
+          "y": 1650,
+          "shape": "box",
+          "link": "",
           "borderWidth": ""
         }
       },
@@ -55681,56 +52326,6 @@ var schemeData =
           "from": "edd048a8-a25b-4b2a-aed1-be86d772d57e446",
           "to": "a7a52c30-e1c7-4e9a-a6ea-cdee76d2bd74580182953251446"
         },
-        "c6b025e2-0e79-4935-b3a5-a055552d75f9368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "c6b025e2-0e79-4935-b3a5-a055552d75f9368",
-          "from": "ec24d8c8-0ea8-43bb-b0be-24c4b6bb7e47368",
-          "to": "e55008fb-b8f0-4c82-9558-1a58f8a0d4c8368"
-        },
-        "8d88a5ee-eb0a-4528-97b1-57d1b3a82a32368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "8d88a5ee-eb0a-4528-97b1-57d1b3a82a32368",
-          "from": "9044727f-dde6-4528-8817-3d8f65e2ecea368",
-          "to": "ec24d8c8-0ea8-43bb-b0be-24c4b6bb7e47368"
-        },
         "659760bb-2128-45f6-ac08-b18401eeacdc368": {
           "arrows": {
             "to": {},
@@ -55905,206 +52500,6 @@ var schemeData =
           "id": "87138b7f-4de5-40e2-bcb5-e724a72ae05a368",
           "from": "901aab7c-7285-4ad1-8f46-e6cede12355f368",
           "to": "d90f31a9-e49f-44e8-ba3b-f0907e0d1fbd368"
-        },
-        "5595ad1b-25f7-4d66-9eb2-0dd95399ebbf368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "5595ad1b-25f7-4d66-9eb2-0dd95399ebbf368",
-          "from": "e6b5f50b-f167-48ae-89eb-86f50785d5ce368",
-          "to": "82dc3f3a-899c-49d9-9606-19c82e2b65fb368"
-        },
-        "a16068df-072e-4113-8af3-9d78643f9858368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "a16068df-072e-4113-8af3-9d78643f9858368",
-          "from": "1b7b289c-3d19-47fa-8cec-6d8f68728710368",
-          "to": "e6b5f50b-f167-48ae-89eb-86f50785d5ce368"
-        },
-        "89ba2401-d67e-4f7d-b958-1f05850be134368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "89ba2401-d67e-4f7d-b958-1f05850be134368",
-          "from": "fbeef731-2ef7-4735-8602-3fa9feef331b368",
-          "to": "e6b5f50b-f167-48ae-89eb-86f50785d5ce368"
-        },
-        "f5b53a92-efee-4a7b-b226-8d454d2506a9368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "f5b53a92-efee-4a7b-b226-8d454d2506a9368",
-          "from": "9044727f-dde6-4528-8817-3d8f65e2ecea368",
-          "to": "e6b5f50b-f167-48ae-89eb-86f50785d5ce368"
-        },
-        "7de17e39-5659-40f6-97c4-0f380fe4ce99368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "7de17e39-5659-40f6-97c4-0f380fe4ce99368",
-          "from": "2af738e0-6f72-486d-815d-eefc3de1392e368",
-          "to": "82dc3f3a-899c-49d9-9606-19c82e2b65fb368"
-        },
-        "4b8c2993-6734-47bb-a631-635fe65d808f368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "4b8c2993-6734-47bb-a631-635fe65d808f368",
-          "from": "1b7b289c-3d19-47fa-8cec-6d8f68728710368",
-          "to": "1ec52606-54cc-4ceb-a70d-e890e1b5ea74368"
-        },
-        "e80262c2-d606-4b4b-b3c8-dcf90eb94f1c368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "e80262c2-d606-4b4b-b3c8-dcf90eb94f1c368",
-          "from": "728fbe49-68a7-4a86-a88a-c751e95f9f19368",
-          "to": "15b6c848-803c-48bc-bedf-d64cc85412a2368"
-        },
-        "0206c77f-135b-4e74-9a9c-da96d3ec095e368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "0206c77f-135b-4e74-9a9c-da96d3ec095e368",
-          "from": "9044727f-dde6-4528-8817-3d8f65e2ecea368",
-          "to": "728fbe49-68a7-4a86-a88a-c751e95f9f19368"
         },
         "67179409-8c07-4329-82df-95408ae09361368": {
           "arrows": {
@@ -57405,1231 +53800,6 @@ var schemeData =
           "id": "1654de39-f091-4d5e-8866-644a9b5e7467368",
           "from": "8917bd9a-e1d1-408c-99c0-c6241c444b73368",
           "to": "715b4c56-0f12-4047-93d8-3dcc3699689a368"
-        },
-        "00dc4db0-84b0-421d-9266-466a506f7331368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "00dc4db0-84b0-421d-9266-466a506f7331368",
-          "from": "9d163881-fd3c-4c28-83d7-6b94fdfed42a368",
-          "to": "00a0641a-c61f-46bc-bd60-e81d02e75ad9368"
-        },
-        "3dcfd49f-46d2-4052-80b1-03684ba861c5368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "3dcfd49f-46d2-4052-80b1-03684ba861c5368",
-          "from": "9d163881-fd3c-4c28-83d7-6b94fdfed42a368",
-          "to": "67990e1d-413a-4116-8e64-33fa6fa616a5368"
-        },
-        "6e4a34f5-4d6d-452a-864f-66b0d7a3cea8368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "6e4a34f5-4d6d-452a-864f-66b0d7a3cea8368",
-          "from": "9d163881-fd3c-4c28-83d7-6b94fdfed42a368",
-          "to": "e00c5d93-cc4f-43a3-b22f-ebab9d8b9cda368"
-        },
-        "6e1665c0-18a9-4537-a195-f9425c9a4d94368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "6e1665c0-18a9-4537-a195-f9425c9a4d94368",
-          "from": "9d163881-fd3c-4c28-83d7-6b94fdfed42a368",
-          "to": "35189674-5251-47c2-8acb-ba0ca3a38a26368"
-        },
-        "4fbc3b8b-8caf-4e44-8834-d91fb0168cad368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "4fbc3b8b-8caf-4e44-8834-d91fb0168cad368",
-          "from": "9d163881-fd3c-4c28-83d7-6b94fdfed42a368",
-          "to": "b4397b69-3768-41f5-bedf-b1ffc2de9d66368"
-        },
-        "19d4749e-2a28-42dc-88d1-50109bdc74a9368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "19d4749e-2a28-42dc-88d1-50109bdc74a9368",
-          "from": "00a0641a-c61f-46bc-bd60-e81d02e75ad9368",
-          "to": "93c84b55-3018-4f0a-97b1-9df9cf3cdf20368"
-        },
-        "0ab1040b-acfe-43aa-b88e-4bac5f668146368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "0ab1040b-acfe-43aa-b88e-4bac5f668146368",
-          "from": "93c84b55-3018-4f0a-97b1-9df9cf3cdf20368",
-          "to": "f8944a79-52dd-43d5-b81b-eb62d0eb9082368"
-        },
-        "2d99c0c1-e44f-4d6f-9fa7-672eea3e62d7368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "2d99c0c1-e44f-4d6f-9fa7-672eea3e62d7368",
-          "from": "67990e1d-413a-4116-8e64-33fa6fa616a5368",
-          "to": "f34cbc78-d5cf-4fb1-a872-0349d93fe81f368"
-        },
-        "9addeee4-b665-4453-b515-aa65e9bbdb0d368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "9addeee4-b665-4453-b515-aa65e9bbdb0d368",
-          "from": "67990e1d-413a-4116-8e64-33fa6fa616a5368",
-          "to": "ab2a7190-bff0-41de-b9d3-1657f7cf0467368"
-        },
-        "afe21e70-4a6b-4c0d-8167-bf23d0d93613368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "afe21e70-4a6b-4c0d-8167-bf23d0d93613368",
-          "from": "67990e1d-413a-4116-8e64-33fa6fa616a5368",
-          "to": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368"
-        },
-        "7aded721-3c8a-4e97-8df7-34f349cfa36b368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "7aded721-3c8a-4e97-8df7-34f349cfa36b368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "dea820fb-44c4-4aef-8bf9-63fdd0314a58368"
-        },
-        "72366968-0e47-4447-ab57-3eb7ff2c0a52368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "72366968-0e47-4447-ab57-3eb7ff2c0a52368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "947c875f-c439-42d8-9301-05414a584978368"
-        },
-        "9f19cbe8-33b7-4f2a-9ff8-bedcacf52bcc368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "9f19cbe8-33b7-4f2a-9ff8-bedcacf52bcc368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "55ae2f87-f678-47b3-bc9f-539bb9082124368"
-        },
-        "27e1d01f-03b0-4707-b249-adcf6f8d90a0368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "27e1d01f-03b0-4707-b249-adcf6f8d90a0368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "3c7fde60-c63c-4973-a05d-19bb7b7971be368"
-        },
-        "6cff3f87-c051-4c5b-97ff-f33e7635f0b4368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "6cff3f87-c051-4c5b-97ff-f33e7635f0b4368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "337fe5dc-9a3c-4a92-b4d3-986d5a08d636368"
-        },
-        "994ff627-cb07-43d1-99e6-079cc5386dbf368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "994ff627-cb07-43d1-99e6-079cc5386dbf368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "1a301903-d98c-4f8b-be62-e90b5e8fd66d368"
-        },
-        "a67e3721-335d-4276-9bca-157216daa77b368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "a67e3721-335d-4276-9bca-157216daa77b368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "03a4bbe9-b668-4095-8798-a9f1837fc75e368"
-        },
-        "5dda25ba-d8cf-4da8-ae39-03ea794f3187368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "5dda25ba-d8cf-4da8-ae39-03ea794f3187368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "e3fcecff-e1a2-4bb9-aa2c-e4b72600a02a368"
-        },
-        "fafb61a5-d964-4d50-8c93-b4c126dfa81d368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "fafb61a5-d964-4d50-8c93-b4c126dfa81d368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "286e2b33-80e1-4fe2-89b6-6a8aa9d3f703368"
-        },
-        "e95712d3-d856-4f48-8464-4e1404d9c39e368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "e95712d3-d856-4f48-8464-4e1404d9c39e368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "a6e65a28-5b57-4dd8-99e7-0705ef548132368"
-        },
-        "01cc627f-0278-4077-84d0-e6bc588403e4368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "01cc627f-0278-4077-84d0-e6bc588403e4368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "d15678e2-7e53-439d-a43e-314b2b103db4368"
-        },
-        "0332531c-8002-4888-af5e-489f37fe9742368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "0332531c-8002-4888-af5e-489f37fe9742368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "d8a992bc-ba44-4419-8f83-062dd21bb89a368"
-        },
-        "53260b07-a316-4ef0-a2cb-d9c9d6c78f49368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "53260b07-a316-4ef0-a2cb-d9c9d6c78f49368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "1ea53d14-ea9c-4b11-950c-f95dbb87d4ae368"
-        },
-        "9ce3ee56-f143-4951-88eb-3f0579f91312368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "9ce3ee56-f143-4951-88eb-3f0579f91312368",
-          "from": "ad1a10b0-6bd6-4a4f-92f9-bd192d6f37f8368",
-          "to": "bb9baee0-aea1-4b0f-b618-9f0e43723848368"
-        },
-        "b5d16f94-76e0-420f-981b-99202216ef3d368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "b5d16f94-76e0-420f-981b-99202216ef3d368",
-          "from": "a7e59b44-e221-4e14-9b03-b1c09087a05c368",
-          "to": "cac322b9-d1bc-4eaf-be51-ae4c583bd337368"
-        },
-        "10990291-a479-4b99-b6c0-46e3b620b774368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "10990291-a479-4b99-b6c0-46e3b620b774368",
-          "from": "a7e59b44-e221-4e14-9b03-b1c09087a05c368",
-          "to": "c71b6ede-4669-4326-a206-63742e8af265368"
-        },
-        "7b013ec6-cfd1-4059-9721-8ef01fb67bba368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "7b013ec6-cfd1-4059-9721-8ef01fb67bba368",
-          "from": "a7e59b44-e221-4e14-9b03-b1c09087a05c368",
-          "to": "d8e65f72-2f61-47d5-8e6e-d970b389546d368"
-        },
-        "d42fc621-c726-44d7-bece-b2f38d006034368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "d42fc621-c726-44d7-bece-b2f38d006034368",
-          "from": "a7e59b44-e221-4e14-9b03-b1c09087a05c368",
-          "to": "1315cca2-e03a-4a68-932d-7e05b684b177368"
-        },
-        "ae89bf7e-7e44-4543-b11b-78fadad19462368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "ae89bf7e-7e44-4543-b11b-78fadad19462368",
-          "from": "a7e59b44-e221-4e14-9b03-b1c09087a05c368",
-          "to": "a23a4bc4-0f26-496e-8284-45480d76785e368"
-        },
-        "038132f8-0244-4572-8d7d-c88a7975463e368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "038132f8-0244-4572-8d7d-c88a7975463e368",
-          "from": "cac322b9-d1bc-4eaf-be51-ae4c583bd337368",
-          "to": "b8aabfeb-919d-45e7-8a48-0d04277b52f5368"
-        },
-        "22df3368-51ae-4088-8304-a6d6cdc01826368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "22df3368-51ae-4088-8304-a6d6cdc01826368",
-          "from": "b8aabfeb-919d-45e7-8a48-0d04277b52f5368",
-          "to": "dcfee1d9-77e1-40ce-a843-2be8aae7911d368"
-        },
-        "78f41f97-4597-4b2d-8f0e-554e88e22263368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "78f41f97-4597-4b2d-8f0e-554e88e22263368",
-          "from": "c71b6ede-4669-4326-a206-63742e8af265368",
-          "to": "9044727f-dde6-4528-8817-3d8f65e2ecea368"
-        },
-        "9d296e0f-84be-4725-88c7-d7115e72f2c0368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "9d296e0f-84be-4725-88c7-d7115e72f2c0368",
-          "from": "c71b6ede-4669-4326-a206-63742e8af265368",
-          "to": "576ec91f-f8f2-4d2f-9846-d5d14482f94b368"
-        },
-        "9ddbd13b-f2a6-4448-8337-510110e811a4368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "9ddbd13b-f2a6-4448-8337-510110e811a4368",
-          "from": "c71b6ede-4669-4326-a206-63742e8af265368",
-          "to": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368"
-        },
-        "d31a9933-642b-4011-90eb-d8f9f63e147a368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "d31a9933-642b-4011-90eb-d8f9f63e147a368",
-          "from": "9044727f-dde6-4528-8817-3d8f65e2ecea368",
-          "to": "99b5bf91-2ae6-4ed2-bd77-b877bc78c165368"
-        },
-        "3f10ef5d-ee74-4e44-969c-da520e878b35368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "3f10ef5d-ee74-4e44-969c-da520e878b35368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "2a351dd6-cab3-4833-ba0a-605662ccd40b368"
-        },
-        "0de8d3db-9199-4155-a47e-4e6fc5243694368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "0de8d3db-9199-4155-a47e-4e6fc5243694368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "a903fd3f-232f-4c69-90b8-f6adeb535caf368"
-        },
-        "7fe28a68-e1b5-4d18-b5a6-277a45f00bc2368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "7fe28a68-e1b5-4d18-b5a6-277a45f00bc2368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "6683b55c-537b-4e1a-a635-b9a068983312368"
-        },
-        "e1c17935-0716-44f7-aacc-dbc9bbd81b60368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "e1c17935-0716-44f7-aacc-dbc9bbd81b60368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "17ec9ccb-9ea5-436b-b932-29a87eb19adf368"
-        },
-        "437679ec-155c-49f4-9359-d0ad1e9f0f2e368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "437679ec-155c-49f4-9359-d0ad1e9f0f2e368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "5d01ff30-e15c-4662-b115-a864d3b529e3368"
-        },
-        "7dcefd04-2243-4118-8b86-5b82ff8864b7368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "7dcefd04-2243-4118-8b86-5b82ff8864b7368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "0c0f768f-66f2-43ca-a600-6d84ac4a39c7368"
-        },
-        "a410f534-a6cb-412c-9f96-331aaabf4ff8368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "a410f534-a6cb-412c-9f96-331aaabf4ff8368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "e15313ee-1ebb-4cd1-9c35-b0dde99c76cc368"
-        },
-        "906e6dd1-ea81-4f6e-aa74-f42f4ce69588368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "906e6dd1-ea81-4f6e-aa74-f42f4ce69588368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "22ec8b1b-3ec5-4721-8ddb-b77e1bff6900368"
-        },
-        "20848268-6c9f-4213-8610-c949fcb8a117368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "20848268-6c9f-4213-8610-c949fcb8a117368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "1e2d5611-23c7-42a4-9a28-52fe3abfd813368"
-        },
-        "c0a58fbb-926a-479a-bd2e-245629a98437368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "c0a58fbb-926a-479a-bd2e-245629a98437368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "fdf0ff19-61ab-45ee-b039-b8afa69ee10e368"
-        },
-        "5312a377-13a5-46b6-bfc5-74766d5ac14b368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "5312a377-13a5-46b6-bfc5-74766d5ac14b368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "745273ed-5050-45d7-a7a2-e23d1423035f368"
-        },
-        "5aba95af-c990-411a-876d-e15758e908c0368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "5aba95af-c990-411a-876d-e15758e908c0368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "9d3452ab-41d3-4834-8197-e8b37708b10a368"
-        },
-        "3c1faafb-ae59-4f3f-8dab-25c9e2ee4604368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "3c1faafb-ae59-4f3f-8dab-25c9e2ee4604368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "ff0dbdaf-5ba0-431c-8459-63cd279ff6aa368"
-        },
-        "ee773ea3-e214-4415-852d-0f6174289baf368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "ee773ea3-e214-4415-852d-0f6174289baf368",
-          "from": "6e20f371-2ec6-4a7e-8859-fa89b403d5ab368",
-          "to": "ee592839-4333-401f-bbd3-d6798ce84c45368"
         },
         "a7eeec56-0f5f-4858-bab3-6501d051e2dc368": {
           "arrows": {
@@ -60580,1231 +55750,6 @@ var schemeData =
           "id": "ff7d20c3-0899-4342-8f3e-38b1ff55dbf5368",
           "from": "f9916ce1-34a1-4874-8ea0-83b1b3f8c73a296368",
           "to": "2527eebe-8a42-4a0c-9506-eafb8d29006f368"
-        },
-        "03d04196-6e66-45b1-9d7d-69cd58eaf489368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "03d04196-6e66-45b1-9d7d-69cd58eaf489368",
-          "from": "8b0112d3-59fb-4d42-bbe7-51b3ab88a304368",
-          "to": "0b72c7bf-1328-4eff-8490-5f1e8084bee8368"
-        },
-        "9d23bde7-578b-4a5d-93b9-692525c39cc6368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "9d23bde7-578b-4a5d-93b9-692525c39cc6368",
-          "from": "8b0112d3-59fb-4d42-bbe7-51b3ab88a304368",
-          "to": "8edec874-c95a-4c54-9661-4ef493643350368"
-        },
-        "515a8161-1d89-4631-abdb-208a9f287b52368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "515a8161-1d89-4631-abdb-208a9f287b52368",
-          "from": "8b0112d3-59fb-4d42-bbe7-51b3ab88a304368",
-          "to": "7bbf542e-5700-4a63-8561-bad053b0ae25368"
-        },
-        "b1a6d454-37c6-4c84-b55e-0b93eca63b16368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "b1a6d454-37c6-4c84-b55e-0b93eca63b16368",
-          "from": "8b0112d3-59fb-4d42-bbe7-51b3ab88a304368",
-          "to": "39d86401-99db-464f-8ff4-d92d27553c2b368"
-        },
-        "fc2062f3-6d63-4cf0-8db7-1bf9c236a0c4368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "fc2062f3-6d63-4cf0-8db7-1bf9c236a0c4368",
-          "from": "8b0112d3-59fb-4d42-bbe7-51b3ab88a304368",
-          "to": "2ce62d8d-e16f-4800-aae0-fbf097287e96368"
-        },
-        "51422f75-9fa6-4bc4-bf40-8de9009805a8368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "51422f75-9fa6-4bc4-bf40-8de9009805a8368",
-          "from": "0b72c7bf-1328-4eff-8490-5f1e8084bee8368",
-          "to": "aa0461e5-9429-4159-a6eb-23deb821717a368"
-        },
-        "502cca6b-93a6-4b81-bd56-19dc7a879278368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "502cca6b-93a6-4b81-bd56-19dc7a879278368",
-          "from": "aa0461e5-9429-4159-a6eb-23deb821717a368",
-          "to": "593c4777-3c8a-4ba9-baf6-2834d0b44966368"
-        },
-        "74246630-78b1-429a-8211-62800ac36894368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "74246630-78b1-429a-8211-62800ac36894368",
-          "from": "8edec874-c95a-4c54-9661-4ef493643350368",
-          "to": "175bbd9d-ea9b-4598-a5ab-52f65625a8fe368"
-        },
-        "22508fc3-a195-496b-acc4-c884876fab9e368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "22508fc3-a195-496b-acc4-c884876fab9e368",
-          "from": "8edec874-c95a-4c54-9661-4ef493643350368",
-          "to": "5fa9e65d-82eb-46e8-8a90-9730d61cb9af368"
-        },
-        "361e3d48-ddd0-4614-beac-ed1c012361a5368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "361e3d48-ddd0-4614-beac-ed1c012361a5368",
-          "from": "8edec874-c95a-4c54-9661-4ef493643350368",
-          "to": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368"
-        },
-        "19ec0253-3c2b-4e37-ae7d-cf7e98700de0368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "19ec0253-3c2b-4e37-ae7d-cf7e98700de0368",
-          "from": "175bbd9d-ea9b-4598-a5ab-52f65625a8fe368",
-          "to": "a5cd2f42-f8f0-43aa-8be8-957bad6f9147368"
-        },
-        "ec5b5944-7f10-45a8-b8cd-b9adb8765a6e368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "ec5b5944-7f10-45a8-b8cd-b9adb8765a6e368",
-          "from": "175bbd9d-ea9b-4598-a5ab-52f65625a8fe368",
-          "to": "22bca686-0c7e-4114-863c-797c302218dd368"
-        },
-        "e1d04cd3-4ce5-42b5-a9e2-a4b9b3f4e124368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "e1d04cd3-4ce5-42b5-a9e2-a4b9b3f4e124368",
-          "from": "175bbd9d-ea9b-4598-a5ab-52f65625a8fe368",
-          "to": "4680c04b-eedc-4bc6-bcd8-8d01ded68000368"
-        },
-        "a1135054-68b9-4d7c-9cf5-b6b24d385251368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "a1135054-68b9-4d7c-9cf5-b6b24d385251368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "15ddf0eb-270f-4cb1-b079-9b0be14fa133368"
-        },
-        "14e165e3-01e5-4cb3-acd4-84c3818b2ae6368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "14e165e3-01e5-4cb3-acd4-84c3818b2ae6368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "0b4c7e99-c9a2-46ce-b6d3-192ee610ea8c368"
-        },
-        "526a547d-cf46-42d8-ba1d-b5be45abc305368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "526a547d-cf46-42d8-ba1d-b5be45abc305368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "3bc3a3d8-7e65-4d44-9224-0ca4af905d84368"
-        },
-        "406384e4-d40c-4bd4-b9ae-bf6598668a2f368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "406384e4-d40c-4bd4-b9ae-bf6598668a2f368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "63b6fb39-3c54-48fd-ae20-bf7fcf08c629368"
-        },
-        "e36788c6-ba28-426a-9eeb-f98cb16dea15368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "e36788c6-ba28-426a-9eeb-f98cb16dea15368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "b353053c-5062-4b57-b417-f78336140d54368"
-        },
-        "80015ee4-2c29-416c-b271-1b2bdd118a53368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "80015ee4-2c29-416c-b271-1b2bdd118a53368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "fbd5f791-e752-4e64-a321-4a9138e159c1368"
-        },
-        "5fe4cbe8-84c2-4671-97b8-f110b2515569368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "5fe4cbe8-84c2-4671-97b8-f110b2515569368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "60e54f39-3c52-4f13-a156-cd1bab76771e368"
-        },
-        "1e2bee9b-f79c-420b-8d47-d34d5020f0b6368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "1e2bee9b-f79c-420b-8d47-d34d5020f0b6368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "48f6cdc3-ba15-45be-9d2e-7be8841f90a5368"
-        },
-        "8c5acd70-2698-48bd-8161-ea20daed3f52368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "8c5acd70-2698-48bd-8161-ea20daed3f52368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "6b306a33-b08f-4b5e-bcda-b7954e099c5b368"
-        },
-        "eeda6b2c-a76e-42f4-a95f-9b8ec1dc65a0368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "eeda6b2c-a76e-42f4-a95f-9b8ec1dc65a0368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "cb89defd-1974-4657-996b-0cbc98253396368"
-        },
-        "a56738c8-9a8a-4111-8706-3953c8591ce1368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "a56738c8-9a8a-4111-8706-3953c8591ce1368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "eadc8461-b537-422a-97f6-c404c48e6657368"
-        },
-        "0c4134e8-c50e-43a4-b2fd-32d5bc7273a6368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "0c4134e8-c50e-43a4-b2fd-32d5bc7273a6368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "0d743907-6d08-4519-ae85-deb4483ee8a3368"
-        },
-        "de97f584-1116-4c59-b8a4-b0bf586d087a368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "de97f584-1116-4c59-b8a4-b0bf586d087a368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "99debaf4-acfe-43c6-b37f-e42d076de7f5368"
-        },
-        "1378f6cc-5320-4aba-9890-b5e7907be885368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "1378f6cc-5320-4aba-9890-b5e7907be885368",
-          "from": "5e27e0e5-e820-4ef8-8eda-ee20bccbad75368",
-          "to": "98f7c24f-d404-495e-a5b4-2896c47cc8cc368"
-        },
-        "15e1f606-6187-40e1-8ada-548e3df795ac368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "15e1f606-6187-40e1-8ada-548e3df795ac368",
-          "from": "60e54f39-3c52-4f13-a156-cd1bab76771e368",
-          "to": "d96f5948-ef1b-4663-896c-94fb21826ad1368"
-        },
-        "e75d50e2-10b0-4c43-9e0f-7c84aa4859fc368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "e75d50e2-10b0-4c43-9e0f-7c84aa4859fc368",
-          "from": "60e54f39-3c52-4f13-a156-cd1bab76771e368",
-          "to": "b69dd9ef-2709-449d-adf2-1a75b7341d96368"
-        },
-        "57481c3b-5ab4-41df-a24e-098a27a2a103368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "57481c3b-5ab4-41df-a24e-098a27a2a103368",
-          "from": "a5cd2f42-f8f0-43aa-8be8-957bad6f9147368",
-          "to": "f82446f2-e318-489a-bcdc-bf6c553eda49368"
-        },
-        "32f20e70-7387-455d-aafe-adc6283f62a0368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "32f20e70-7387-455d-aafe-adc6283f62a0368",
-          "from": "a5cd2f42-f8f0-43aa-8be8-957bad6f9147368",
-          "to": "e359a9ab-c9e2-4423-a42d-debab459f905368"
-        },
-        "5aba8d12-d58d-4021-90b0-284f372c08b5368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "5aba8d12-d58d-4021-90b0-284f372c08b5368",
-          "from": "a5cd2f42-f8f0-43aa-8be8-957bad6f9147368",
-          "to": "e8b783c9-20ae-49ec-9e28-f4d06eb7268d368"
-        },
-        "95e233ff-d344-426c-a067-2a98e49a607d368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "95e233ff-d344-426c-a067-2a98e49a607d368",
-          "from": "19149795-5ce1-4f65-8af6-17b289c3b3fc368",
-          "to": "fa38bc4c-25b3-4e43-98a9-52b403247056368"
-        },
-        "632e8dde-1261-4dfe-8212-bd7cc42982e2368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "632e8dde-1261-4dfe-8212-bd7cc42982e2368",
-          "from": "f82446f2-e318-489a-bcdc-bf6c553eda49368",
-          "to": "19149795-5ce1-4f65-8af6-17b289c3b3fc368"
-        },
-        "a028205f-89bf-4c9f-af27-e41e8c71f82b368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "a028205f-89bf-4c9f-af27-e41e8c71f82b368",
-          "from": "e359a9ab-c9e2-4423-a42d-debab459f905368",
-          "to": "b313d40f-da15-42db-a2aa-2288154a95a4368"
-        },
-        "564efa5a-a1bf-4f54-aaab-8db8c6bd7192368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "564efa5a-a1bf-4f54-aaab-8db8c6bd7192368",
-          "from": "b313d40f-da15-42db-a2aa-2288154a95a4368",
-          "to": "db68dd14-d028-483c-9b32-bcbc3e3b0416368"
-        },
-        "7157b74b-13ea-462c-a738-fb73ad9563d9368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "7157b74b-13ea-462c-a738-fb73ad9563d9368",
-          "from": "22bca686-0c7e-4114-863c-797c302218dd368",
-          "to": "1d75ed7e-86c3-4e7f-9d05-7a3b748649b8368"
-        },
-        "1a74ea3e-7d99-4140-9a96-478559b7d3fa368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "1a74ea3e-7d99-4140-9a96-478559b7d3fa368",
-          "from": "1d75ed7e-86c3-4e7f-9d05-7a3b748649b8368",
-          "to": "cc7d6c80-dc62-4cc7-b578-847ffa71a497368"
-        },
-        "c9c16444-aeb4-4f9e-a7df-72eb65091e45368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "c9c16444-aeb4-4f9e-a7df-72eb65091e45368",
-          "from": "1d75ed7e-86c3-4e7f-9d05-7a3b748649b8368",
-          "to": "89204f24-20ea-44c2-960e-df487896b73d368"
-        },
-        "53e02a69-a373-43c6-85a3-6ab423ef6557368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "53e02a69-a373-43c6-85a3-6ab423ef6557368",
-          "from": "ac59f16e-c18f-44c2-8825-0f4c97e99786368",
-          "to": "7694fd32-c1c5-40d4-9240-54d4e7ede3bd368"
-        },
-        "b64f0c2a-52be-4be8-a9b6-c3d3288c45a9368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "b64f0c2a-52be-4be8-a9b6-c3d3288c45a9368",
-          "from": "cc7d6c80-dc62-4cc7-b578-847ffa71a497368",
-          "to": "ac59f16e-c18f-44c2-8825-0f4c97e99786368"
-        },
-        "aa6fd436-d89b-48bc-b457-21ea8d047df8368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "aa6fd436-d89b-48bc-b457-21ea8d047df8368",
-          "from": "89204f24-20ea-44c2-960e-df487896b73d368",
-          "to": "8611fc6f-7fdb-465b-8594-409160e4d294368"
-        },
-        "029446f5-588a-47b0-8e55-592934a49e50368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "029446f5-588a-47b0-8e55-592934a49e50368",
-          "from": "89204f24-20ea-44c2-960e-df487896b73d368",
-          "to": "c4c94d18-dddf-492f-a462-dbf98eb7c4ec368"
-        },
-        "01308a37-76c0-44c1-9f93-9cab8939df24368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "01308a37-76c0-44c1-9f93-9cab8939df24368",
-          "from": "89204f24-20ea-44c2-960e-df487896b73d368",
-          "to": "6ec535b8-1ebc-4e8a-ac43-aa093bcfc661368"
-        },
-        "c65cbc2c-d97b-4eb2-993e-47ff6019eb1d368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "c65cbc2c-d97b-4eb2-993e-47ff6019eb1d368",
-          "from": "89204f24-20ea-44c2-960e-df487896b73d368",
-          "to": "52ba929a-8eeb-4abc-aa3e-cf4f025bdc36368"
-        },
-        "d6f9878e-f7b8-43f2-8283-a368858ff1ba368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "d6f9878e-f7b8-43f2-8283-a368858ff1ba368",
-          "from": "52ba929a-8eeb-4abc-aa3e-cf4f025bdc36368",
-          "to": "2f8f1f6f-d728-41d9-b7db-62d836b760fd368"
-        },
-        "082ed57f-8ebd-4f05-a96f-b33e6ecd3449368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "082ed57f-8ebd-4f05-a96f-b33e6ecd3449368",
-          "from": "99b5bf91-2ae6-4ed2-bd77-b877bc78c165368",
-          "to": "458b61a0-e10d-4295-8c2c-23f8fe123331368"
-        },
-        "6e794f1b-e45c-4aa5-bb20-678e13f72f8e368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "6e794f1b-e45c-4aa5-bb20-678e13f72f8e368",
-          "from": "4680c04b-eedc-4bc6-bcd8-8d01ded68000368",
-          "to": "a53202b6-e477-441b-8954-26a277046fcf368"
-        },
-        "23d5f4b5-4ab3-4002-9557-36b361ff5c06368": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "23d5f4b5-4ab3-4002-9557-36b361ff5c06368",
-          "from": "e8b783c9-20ae-49ec-9e28-f4d06eb7268d368",
-          "to": "02e1bc0c-9bc8-4ce1-8a13-7352aa487c5b368"
         },
         "739488d1-f473-4b27-ae2d-f64b8cae9121709": {
           "arrows": {
@@ -69443,211 +63388,6 @@ var schemeData =
           "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613127",
           "to": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613127"
         },
-        "174a5a37-7415-442b-a895-14312dc5c24a": {
-          "from": "9088af90-19d5-413b-803b-388e74467610",
-          "to": "d2933ad3-f000-45ab-8fec-0477ab9fd510",
-          "id": "174a5a37-7415-442b-a895-14312dc5c24a"
-        },
-        "2c743236-d2d7-407c-a2d8-328f6e336ca1": {
-          "from": "d2933ad3-f000-45ab-8fec-0477ab9fd510",
-          "to": "04842c23-b344-4bbf-b5b5-1001a3751cd1",
-          "id": "2c743236-d2d7-407c-a2d8-328f6e336ca1"
-        },
-        "559ae952-dfb8-4675-aa85-afddb29ca9e6": {
-          "from": "04842c23-b344-4bbf-b5b5-1001a3751cd1",
-          "to": "e0932d50-8043-44da-b69a-e020438f02eb",
-          "id": "559ae952-dfb8-4675-aa85-afddb29ca9e6"
-        },
-        "742918f1-c06b-4c7c-a8e5-88cbc60a78ab": {
-          "from": "9088af90-19d5-413b-803b-388e74467610",
-          "to": "3ad04153-bf35-432d-9916-3efc7c52d9eb",
-          "id": "742918f1-c06b-4c7c-a8e5-88cbc60a78ab"
-        },
-        "813d6afa-c99a-4b07-a330-aec6a59fe734": {
-          "from": "3ad04153-bf35-432d-9916-3efc7c52d9eb",
-          "to": "52b1dc1b-4314-41eb-91d8-a321dc01c3dd",
-          "id": "813d6afa-c99a-4b07-a330-aec6a59fe734"
-        },
-        "8fab7119-f725-4cb3-802a-f982a4318101": {
-          "from": "3ad04153-bf35-432d-9916-3efc7c52d9eb",
-          "to": "ac3221f3-f939-4a23-93c7-ab804fd779ca",
-          "id": "8fab7119-f725-4cb3-802a-f982a4318101"
-        },
-        "2d1cfe1d-417f-42cb-910e-f376b562f947": {
-          "from": "3ad04153-bf35-432d-9916-3efc7c52d9eb",
-          "to": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "id": "2d1cfe1d-417f-42cb-910e-f376b562f947"
-        },
-        "b5b040a9-8a3c-40c6-ba16-832b7c03e57c": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "0a341e58-60ca-4f0e-b35a-40aabfca6cc5",
-          "id": "b5b040a9-8a3c-40c6-ba16-832b7c03e57c"
-        },
-        "54706a09-0f6d-4b89-880f-d781050240c8": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "8e2a1c3b-9fe0-450f-bd02-d2861ff570fd",
-          "id": "54706a09-0f6d-4b89-880f-d781050240c8"
-        },
-        "e5699963-aaf2-4f11-a4a5-5afd6f741bc5": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "9411bf17-ea61-443a-a963-e79e62d8409e",
-          "id": "e5699963-aaf2-4f11-a4a5-5afd6f741bc5"
-        },
-        "29b65677-e50e-44dc-be97-7892f2e66219": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "8e51a2a5-eeac-4a9f-b391-861802d186c4",
-          "id": "29b65677-e50e-44dc-be97-7892f2e66219"
-        },
-        "6356b843-887a-47fc-9b2f-4f2b885c9126": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "e9833438-b235-4656-9668-0f243197dca1",
-          "id": "6356b843-887a-47fc-9b2f-4f2b885c9126"
-        },
-        "73bc516c-c2d2-4de6-90da-cf1abf453810": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "a921413c-de07-497c-b212-e05e6ea74e70",
-          "id": "73bc516c-c2d2-4de6-90da-cf1abf453810"
-        },
-        "7ab08392-644e-424c-8cc5-cab32d7225d4": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "fa080088-b6a8-480f-a9f5-5979601e5450",
-          "id": "7ab08392-644e-424c-8cc5-cab32d7225d4"
-        },
-        "0f43f931-ce59-4daf-bbb5-bb1e37715579": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "fab77c0d-655c-40ac-b37d-93a56cd5e28e",
-          "id": "0f43f931-ce59-4daf-bbb5-bb1e37715579"
-        },
-        "cfec38e1-6e79-486d-ba17-a4d666e9e601": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "f7131cba-23b1-40c5-87f5-3f7399dad2d7",
-          "id": "cfec38e1-6e79-486d-ba17-a4d666e9e601"
-        },
-        "4964d312-16e7-4f6f-a943-613a02f0b874": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "bc225e53-d177-4253-9277-8adc8cb1328f",
-          "id": "4964d312-16e7-4f6f-a943-613a02f0b874"
-        },
-        "f28af627-6caa-4215-a781-f1055bdcab8b": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "3a896a31-76d5-49a1-87db-39d5fc4287a7",
-          "id": "f28af627-6caa-4215-a781-f1055bdcab8b"
-        },
-        "9dee771a-a806-492e-ad97-965e39c9a9d5": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "6f020791-335d-4238-ab4a-95cb13040999",
-          "id": "9dee771a-a806-492e-ad97-965e39c9a9d5"
-        },
-        "4e359b38-34b6-4099-a984-1d2113572691": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "f656c28a-e4e3-44dd-981e-ceda2eb25095",
-          "id": "4e359b38-34b6-4099-a984-1d2113572691"
-        },
-        "1c0d906d-5488-4c0e-a944-e4a780c016a9": {
-          "from": "39d4f03d-66fa-47ce-b151-c2f51358c2ab",
-          "to": "becbae0a-88c8-4913-85aa-5e12dbaca1f4",
-          "id": "1c0d906d-5488-4c0e-a944-e4a780c016a9"
-        },
-        "aa6fc112-2516-4c3b-8ae0-bd0013641295": {
-          "from": "9088af90-19d5-413b-803b-388e74467610",
-          "to": "4f7408a9-8e96-4a4c-b9e1-65ee879756cd",
-          "id": "aa6fc112-2516-4c3b-8ae0-bd0013641295"
-        },
-        "57c7e9cd-a47e-4b91-b224-602972cdbd49": {
-          "from": "9088af90-19d5-413b-803b-388e74467610",
-          "to": "3d586064-8ab9-453f-b455-6f034d2d00fb",
-          "id": "57c7e9cd-a47e-4b91-b224-602972cdbd49"
-        },
-        "d4b24306-ae8b-46e4-ae48-3cff3170c6f4": {
-          "from": "9088af90-19d5-413b-803b-388e74467610",
-          "to": "60353962-58b2-4a94-83d0-7df347830753",
-          "id": "d4b24306-ae8b-46e4-ae48-3cff3170c6f4"
-        },
-        "6ce96ba7-8287-4452-b8df-2be0e0ae6aad": {
-          "from": "ac3221f3-f939-4a23-93c7-ab804fd779ca",
-          "to": "0346c667-747a-41bf-9541-6012ec259c2d",
-          "id": "6ce96ba7-8287-4452-b8df-2be0e0ae6aad"
-        },
-        "0ec0a5f9-0018-44c6-b915-8d5f7fc3e3b0": {
-          "from": "9411bf17-ea61-443a-a963-e79e62d8409e",
-          "to": "d3cef30d-68aa-44a5-b540-04def31fec25",
-          "id": "0ec0a5f9-0018-44c6-b915-8d5f7fc3e3b0"
-        },
-        "62811831-d094-4cf9-8b09-01fdfabb79d3": {
-          "from": "d3cef30d-68aa-44a5-b540-04def31fec25",
-          "to": "0aaa78ba-f07f-421a-838b-1cf387c70ca6",
-          "id": "62811831-d094-4cf9-8b09-01fdfabb79d3"
-        },
-        "d03d17ec-64aa-4ab5-838a-a1412e6240dc": {
-          "from": "857e0a62-0750-463f-a047-6fbf8519f4ed",
-          "to": "cdcddf23-ed24-436c-8457-fd36c077ab60",
-          "id": "d03d17ec-64aa-4ab5-838a-a1412e6240dc"
-        },
-        "54647cde-eba6-4037-8bea-bc706ba0a20b": {
-          "from": "857e0a62-0750-463f-a047-6fbf8519f4ed",
-          "to": "bad44123-ce81-450c-ae71-dbf4d98a3afe",
-          "id": "54647cde-eba6-4037-8bea-bc706ba0a20b"
-        },
-        "9405e4e1-d0e5-40c9-9065-bab60e78ea11": {
-          "from": "857e0a62-0750-463f-a047-6fbf8519f4ed",
-          "to": "9185e023-e57c-4ad1-b329-debb451bff0f",
-          "id": "9405e4e1-d0e5-40c9-9065-bab60e78ea11"
-        },
-        "6429ad40-bc2a-43f9-9897-0de2806f7c73": {
-          "from": "9411bf17-ea61-443a-a963-e79e62d8409e",
-          "to": "857e0a62-0750-463f-a047-6fbf8519f4ed",
-          "id": "6429ad40-bc2a-43f9-9897-0de2806f7c73"
-        },
-        "b31f22b9-0a96-4674-9e7d-22a5237defef": {
-          "from": "9411bf17-ea61-443a-a963-e79e62d8409e",
-          "to": "50a55180-23d0-42a9-a08e-95a637526aa7",
-          "id": "b31f22b9-0a96-4674-9e7d-22a5237defef"
-        },
-        "a231a7bd-7dad-41c0-bdd9-18146b0379af": {
-          "from": "50a55180-23d0-42a9-a08e-95a637526aa7",
-          "to": "91f33fe9-4331-4105-9ad8-b79068668d01",
-          "id": "a231a7bd-7dad-41c0-bdd9-18146b0379af"
-        },
-        "a549713f-3785-4c23-88da-dd960da9694a": {
-          "from": "453be018-bb4b-4b8a-a130-a6f79edf8768",
-          "to": "5e324137-ee44-4fd0-bb07-05c5b3700179",
-          "id": "a549713f-3785-4c23-88da-dd960da9694a"
-        },
-        "01a0913a-c5ee-4aab-a0a0-624f3af05cad": {
-          "from": "37b17af1-fdd6-4c62-a60f-20e253802e73",
-          "to": "a0e9ddee-4db5-4545-8523-51ac7a319f75",
-          "id": "01a0913a-c5ee-4aab-a0a0-624f3af05cad"
-        },
-        "08b37b0f-0e79-46ff-b3fb-ea04131a9eb2": {
-          "from": "52b1dc1b-4314-41eb-91d8-a321dc01c3dd",
-          "to": "37b17af1-fdd6-4c62-a60f-20e253802e73",
-          "id": "08b37b0f-0e79-46ff-b3fb-ea04131a9eb2"
-        },
-        "e7b011a0-a213-4a67-868f-09f36e275eba": {
-          "from": "52b1dc1b-4314-41eb-91d8-a321dc01c3dd",
-          "to": "453be018-bb4b-4b8a-a130-a6f79edf8768",
-          "id": "e7b011a0-a213-4a67-868f-09f36e275eba"
-        },
-        "19914a62-d846-42b0-9588-bf8c5eda84b4": {
-          "from": "ea153481-0097-4ee4-8983-c95cc4406987",
-          "to": "1788201a-47de-4e74-b429-b9ba5319fdf6",
-          "id": "19914a62-d846-42b0-9588-bf8c5eda84b4"
-        },
-        "fc99a962-c26b-4ca0-9d1f-200037007dcb": {
-          "from": "52b1dc1b-4314-41eb-91d8-a321dc01c3dd",
-          "to": "ea153481-0097-4ee4-8983-c95cc4406987",
-          "id": "fc99a962-c26b-4ca0-9d1f-200037007dcb"
-        },
-        "4fbbed51-be54-4a23-a193-96f89e86acaf": {
-          "from": "db04890d-267e-4d2f-bb4f-849ea144693d",
-          "to": "c23fbbff-9cb6-4c2b-8c8a-1093399964f1",
-          "id": "4fbbed51-be54-4a23-a193-96f89e86acaf"
-        },
-        "672354ad-de73-4e75-ae06-a391ba16bf86": {
-          "from": "52b1dc1b-4314-41eb-91d8-a321dc01c3dd",
-          "to": "db04890d-267e-4d2f-bb4f-849ea144693d",
-          "id": "672354ad-de73-4e75-ae06-a391ba16bf86"
-        },
         "936247e3-2062-4af9-bc52-0731c5a643af": {
           "from": "7e4d7ab3-736e-4013-9208-1d51c0868264",
           "to": "6abb7469-f9c5-4eef-b61f-afa5bc6c0278",
@@ -74408,6 +68148,156 @@ var schemeData =
           "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609",
           "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875",
           "id": "1a82afe8-ef11-43f5-86c3-d55bf347e4e8"
+        },
+        "b93b97d9-5dc1-47d9-8d97-6366b3a7281e": {
+          "from": "731e4fc7-eac0-4c9f-8100-4a1d67df081a",
+          "to": "ac20b828-dfac-4f90-b059-b92d41b758d8",
+          "id": "b93b97d9-5dc1-47d9-8d97-6366b3a7281e"
+        },
+        "b40c8348-3c6e-4e85-b2d8-3248e3b2b879": {
+          "from": "ac20b828-dfac-4f90-b059-b92d41b758d8",
+          "to": "8a35f818-151f-4f07-aaab-cbefbaa3f050",
+          "id": "b40c8348-3c6e-4e85-b2d8-3248e3b2b879"
+        },
+        "9432540d-3183-4b7a-b732-0358453089f7": {
+          "from": "8a35f818-151f-4f07-aaab-cbefbaa3f050",
+          "to": "5f561a3b-7eef-4295-90bd-146c3e121852",
+          "id": "9432540d-3183-4b7a-b732-0358453089f7"
+        },
+        "630ad0ce-18c6-4d3f-b78b-098783673ce5": {
+          "from": "731e4fc7-eac0-4c9f-8100-4a1d67df081a",
+          "to": "816e52c4-ef69-45c2-a1a0-b4da69a66ac1",
+          "id": "630ad0ce-18c6-4d3f-b78b-098783673ce5"
+        },
+        "6a9533de-87f5-486c-8a27-7cfecd14ad18": {
+          "from": "816e52c4-ef69-45c2-a1a0-b4da69a66ac1",
+          "to": "c99ee1fd-f745-40a0-a3c3-7f8e40d9c18d",
+          "id": "6a9533de-87f5-486c-8a27-7cfecd14ad18"
+        },
+        "d895ef33-1b64-4255-b37a-4ecdc52a0b1a": {
+          "from": "816e52c4-ef69-45c2-a1a0-b4da69a66ac1",
+          "to": "455c0087-0aa2-4e3d-8ff1-4675275a2a4d",
+          "id": "d895ef33-1b64-4255-b37a-4ecdc52a0b1a"
+        },
+        "136f8bed-a452-4be5-8a6e-d48afe07d678": {
+          "from": "816e52c4-ef69-45c2-a1a0-b4da69a66ac1",
+          "to": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "id": "136f8bed-a452-4be5-8a6e-d48afe07d678"
+        },
+        "5d5e82f9-57a2-487d-8d8e-d75222cd93c9": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "a98a4281-3503-4008-bd67-cff5e994438d",
+          "id": "5d5e82f9-57a2-487d-8d8e-d75222cd93c9"
+        },
+        "6cdd5fe6-3393-45bd-abbb-939129d1f281": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "27df8ccd-57f8-4b35-8620-f6748c600191",
+          "id": "6cdd5fe6-3393-45bd-abbb-939129d1f281"
+        },
+        "1e7a3961-a6a8-4391-ad2a-5e5a927e242b": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "f35dd270-428d-4fd5-9d96-a2f69f0f97a0",
+          "id": "1e7a3961-a6a8-4391-ad2a-5e5a927e242b"
+        },
+        "a6601132-6e97-4753-8f4b-836402068e0b": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "23887908-5175-4dc9-ab22-9a030b2bf6ae",
+          "id": "a6601132-6e97-4753-8f4b-836402068e0b"
+        },
+        "eba43144-b18c-4a64-8314-6092ca08a1e3": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "97f73ea3-dbd4-4e21-81bd-b856086e1e93",
+          "id": "eba43144-b18c-4a64-8314-6092ca08a1e3"
+        },
+        "be58cdb9-33dd-4582-a860-0a41524aaf8f": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "b8817ba3-1785-4f0a-a165-3888acc67b34",
+          "id": "be58cdb9-33dd-4582-a860-0a41524aaf8f"
+        },
+        "3f44f8af-e816-46f4-9064-49bd17f20701": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "7c74cc78-4f7d-4eb2-9701-36e4ebdb947d",
+          "id": "3f44f8af-e816-46f4-9064-49bd17f20701"
+        },
+        "dc86f812-9cf6-43c0-8217-2b2c28c4cae8": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "63ae8875-af7d-478a-8ab9-b008bbf583b7",
+          "id": "dc86f812-9cf6-43c0-8217-2b2c28c4cae8"
+        },
+        "b77a82b6-dcc2-4916-ae1e-d981abeb6567": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "8ea4c5f4-44de-4544-9ffb-e5768018352b",
+          "id": "b77a82b6-dcc2-4916-ae1e-d981abeb6567"
+        },
+        "04df0e5a-6133-400e-851e-6cde37245109": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "19c7488f-e193-4cdd-a3df-f55f113e17bb",
+          "id": "04df0e5a-6133-400e-851e-6cde37245109"
+        },
+        "7f8f878b-172a-4a48-bdf9-536d52900bfa": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "313cb54f-7941-438f-9e76-890f172e1405",
+          "id": "7f8f878b-172a-4a48-bdf9-536d52900bfa"
+        },
+        "67120ae2-2b25-4abd-8c03-5fde9d0948c2": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "cd29d9b2-af21-47b6-bb8d-2022f68c28df",
+          "id": "67120ae2-2b25-4abd-8c03-5fde9d0948c2"
+        },
+        "0e489eaf-784f-40e8-8708-6d259275678d": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "9d793702-be61-48d5-99d9-c994fce5723c",
+          "id": "0e489eaf-784f-40e8-8708-6d259275678d"
+        },
+        "15678717-5cfb-4a1b-89bf-4b501c3d6c8c": {
+          "from": "15fb722f-466e-4bbc-a546-54cd89066310",
+          "to": "0aed9a68-cd93-4599-ace7-705316232419",
+          "id": "15678717-5cfb-4a1b-89bf-4b501c3d6c8c"
+        },
+        "31ec7083-f1ea-4577-8af9-1807e02ef03e": {
+          "from": "731e4fc7-eac0-4c9f-8100-4a1d67df081a",
+          "to": "6397176d-223e-44ef-95be-46dd644ccd60",
+          "id": "31ec7083-f1ea-4577-8af9-1807e02ef03e"
+        },
+        "f3e983ec-1a1b-499e-86db-4d991b584a38": {
+          "from": "731e4fc7-eac0-4c9f-8100-4a1d67df081a",
+          "to": "1a59c580-ef05-4ee3-910b-7a844d9ce59a",
+          "id": "f3e983ec-1a1b-499e-86db-4d991b584a38"
+        },
+        "463eba69-0285-4461-bc9a-aa5ac8d135b7": {
+          "from": "731e4fc7-eac0-4c9f-8100-4a1d67df081a",
+          "to": "1eef534d-a6e7-4864-adf1-865944f199c3",
+          "id": "463eba69-0285-4461-bc9a-aa5ac8d135b7"
+        },
+        "08e64f02-eee0-49c6-b584-874d673b6f27": {
+          "from": "7c74cc78-4f7d-4eb2-9701-36e4ebdb947d",
+          "to": "7080c641-f688-436b-a252-db7d9552304b",
+          "id": "08e64f02-eee0-49c6-b584-874d673b6f27"
+        },
+        "d6564164-3ec8-4ce2-bc31-b7b36c6c82f4": {
+          "from": "7c74cc78-4f7d-4eb2-9701-36e4ebdb947d",
+          "to": "844bff62-5b6d-4aa5-9b4b-303cfb3a9c22",
+          "id": "d6564164-3ec8-4ce2-bc31-b7b36c6c82f4"
+        },
+        "f426cfa2-3ddd-4bbe-8ce4-01bdb7aeeceb": {
+          "from": "7c74cc78-4f7d-4eb2-9701-36e4ebdb947d",
+          "to": "24879531-7a96-4d51-b945-7426bfa59cfe",
+          "id": "f426cfa2-3ddd-4bbe-8ce4-01bdb7aeeceb"
+        },
+        "68664182-1629-4a92-ae75-64f4853d600e": {
+          "from": "6f19c42e-aaf8-4dd2-829e-da35d0e54a8d368",
+          "to": "96b71ec0-3ded-4d2f-bd17-77ebd4405763",
+          "id": "68664182-1629-4a92-ae75-64f4853d600e"
+        },
+        "167b5ccc-73e8-44d2-a1e1-789fbd53c98a": {
+          "from": "96b71ec0-3ded-4d2f-bd17-77ebd4405763",
+          "to": "5d80223c-648c-4751-958c-580223a131ee",
+          "id": "167b5ccc-73e8-44d2-a1e1-789fbd53c98a"
+        },
+        "645254b2-8c63-4062-86bd-4ed4c8cd7302": {
+          "from": "5d80223c-648c-4751-958c-580223a131ee",
+          "to": "3941cc60-09fd-44b3-975e-1e53487e5d01",
+          "id": "645254b2-8c63-4062-86bd-4ed4c8cd7302"
         }
       },
       "length": 0,
@@ -74454,10 +68344,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.009315038423089268,
+    "scale": 0.009693110134272818,
     "viewPosition": {
-      "x": 66394.00752051793,
-      "y": 14846.185360581849
+      "x": 64824.55224152033,
+      "y": 12497.654298290794
     }
   }
 }
