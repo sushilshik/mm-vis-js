@@ -27772,7 +27772,7 @@ var schemeData =
           "label": "file path: ./utils/templates/index.data.js.erb",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792",
           "x": 66858,
-          "y": 18537,
+          "y": 21915,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27807,7 +27807,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "var schemeData = \n{\n\t\"canvas1Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"canvas2Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"setup\": {\n\t\t\"scale\": 1,\n\t\t\"viewPosition\": {\n\t\t\t\"x\": 827.4214000000001,\n\t\t\t\"y\": 697.1176\n\t\t}\n\t}\n}\n;",
           "x": 68073,
-          "y": 19255,
+          "y": 22633,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486792",
           "shape": "box",
           "link": "",
@@ -27844,7 +27844,7 @@ var schemeData =
           "label": "mm-vis-js:\n./utils/templates/\nindex.data.js.erb",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486792",
           "x": 72610,
-          "y": 19755,
+          "y": 23133,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27879,7 +27879,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792",
           "x": 65841,
-          "y": 18520,
+          "y": 21898,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27911,7 +27911,7 @@ var schemeData =
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792",
           "x": 67595,
-          "y": 18536
+          "y": 21914
         },
         "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792768": {
           "color": {
@@ -27944,7 +27944,7 @@ var schemeData =
           "label": "file path: ./utils/templates/index.html.erb",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792768",
           "x": 65971,
-          "y": 22658,
+          "y": 26036,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27980,7 +27980,7 @@ var schemeData =
           "label": "mm-vis-js:\n./utils/templates/\nindex.html.erb",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486792768",
           "x": 72554,
-          "y": 24011,
+          "y": 27389,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28015,7 +28015,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792768",
           "x": 64953,
-          "y": 22641,
+          "y": 26019,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28047,12 +28047,12 @@ var schemeData =
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792768",
           "x": 66707,
-          "y": 22657
+          "y": 26035
         },
         "1a74b08c-1e5c-47e7-809e-6518e2836a96": {
           "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title><%= pageTitle %></title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67242,
-          "y": 22627,
+          "y": 26005,
           "id": "1a74b08c-1e5c-47e7-809e-6518e2836a96",
           "shape": "box",
           "link": "",
@@ -28069,7 +28069,7 @@ var schemeData =
         "6190653d-7e88-4726-901c-5d440d98f241": {
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67675,
-          "y": 22954,
+          "y": 26332,
           "id": "6190653d-7e88-4726-901c-5d440d98f241",
           "shape": "box",
           "link": "",
@@ -28086,7 +28086,7 @@ var schemeData =
         "67d06945-9b99-4fc8-a120-402da3f48e67": {
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 67848,
-          "y": 23468,
+          "y": 26846,
           "id": "67d06945-9b99-4fc8-a120-402da3f48e67",
           "shape": "box",
           "link": "",
@@ -28103,7 +28103,7 @@ var schemeData =
         "6d48e6c8-b142-406f-8cdd-5d875dc0db8b": {
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:350px;\n\tleft:170px;\n\tz-index:299;\n\twidth:250px;\n\theight:120px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n</style>",
           "x": 67690,
-          "y": 24031,
+          "y": 27409,
           "id": "6d48e6c8-b142-406f-8cdd-5d875dc0db8b",
           "shape": "box",
           "link": "",
@@ -28120,7 +28120,7 @@ var schemeData =
         "e0ba3c9d-76de-4d9c-97d9-ef5181e5b3fa": {
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = false; \n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><input id=\"node-label\" value=\"new value\" /></td>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.0/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"<%= pageDataJsFileName %>\"></script>\n<script type=\"text/javascript\" src=\"application.js\"></script>\n</body>\n</html>",
           "x": 67974,
-          "y": 24496,
+          "y": 27874,
           "id": "e0ba3c9d-76de-4d9c-97d9-ef5181e5b3fa",
           "shape": "box",
           "link": "",
@@ -29186,7 +29186,7 @@ var schemeData =
           "label": "file path: ./e2eTests/common_test.js",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953",
           "x": 66117,
-          "y": 27400,
+          "y": 30778,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29221,7 +29221,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Feature('Basic test');\n\nScenario('navigate to homepage', I => {\n  I.amOnPage('http://app-express:3000/index.html');\n  I.saveScreenshot('frontpageScreenshot.png');\n  I.see('showData');\n});",
           "x": 67243,
-          "y": 27406,
+          "y": 30784,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953",
           "shape": "box",
           "link": "",
@@ -29258,7 +29258,7 @@ var schemeData =
           "label": "mm-vis-js:\n./e2eTests/\ncommon_test.js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953",
           "x": 72443,
-          "y": 28507,
+          "y": 31885,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29293,7 +29293,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953",
           "x": 65139,
-          "y": 27400,
+          "y": 30778,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29325,7 +29325,7 @@ var schemeData =
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953",
           "x": 66752,
-          "y": 27389
+          "y": 30767
         },
         "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613": {
           "color": {
@@ -29358,7 +29358,7 @@ var schemeData =
           "label": "file path: ./e2eTests/docker.conf.js",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613",
           "x": 66132,
-          "y": 31436,
+          "y": 34814,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29393,7 +29393,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "exports.config = {\n  tests: './*-test.js',\n  output: './output',\n  helpers: {\n    WebDriver: {\n      url: 'http://app-express:3000',\n      host: 'chrome-container',\n      browser: 'chrome',\n      smartWait: 5000,\n      restart: false,\n      waitForTimeout: 10000,\n      timeouts: {\n        script: 60000,\n        'page load': 60000,\n      },\n      coloredLogs: true,\n      desiredCapabilities: {\n        chromeOptions: {\n          // https://peter.sh/experiments/chromium-command-line-switches/\n          args: [\n            '--headless',\n            '--disable-gpu', // Temporarily needed if running headless on Windows\n            // '--no-sandbox',\n            // '--disable-setuid-sandbox',\n          ],\n        },\n      },\n    },\n  },\n  bootstrap: false,\n  mocha: {},\n  name: 'codeceptjs-docker',\n};",
           "x": 67285,
-          "y": 31622,
+          "y": 35000,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613",
           "shape": "box",
           "link": "",
@@ -29430,7 +29430,7 @@ var schemeData =
           "label": "mm-vis-js:\n./e2eTests/\ndocker.conf.js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953613",
           "x": 71998,
-          "y": 32744,
+          "y": 36122,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29465,7 +29465,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613",
           "x": 65154,
-          "y": 31436,
+          "y": 34814,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29497,7 +29497,7 @@ var schemeData =
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613",
           "x": 66767,
-          "y": 31425
+          "y": 34803
         },
         "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613127": {
           "color": {
@@ -29530,7 +29530,7 @@ var schemeData =
           "label": "file path: ./e2eTests/testServer.js",
           "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613127",
           "x": 66173,
-          "y": 35688,
+          "y": 39066,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29565,7 +29565,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "const express = require('express');\n\nconst app = express();\n\nvar path = require('path');\n\napp.use(express.static(\"/home/node/public\"));\napp.get('/', function(req, res) {\n\tres.sendFile(path.join(__dirname, \"home/node/public\", \"index.html\"));\n});\n\nconst server = app.listen(3000, () => {\n  const { port } = server.address();\n  console.log(`Example app listening on port ${port}`);\n});",
           "x": 67294,
-          "y": 35766,
+          "y": 39144,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613127",
           "shape": "box",
           "link": "",
@@ -29602,7 +29602,7 @@ var schemeData =
           "label": "mm-vis-js:\n./e2eTests/\ntestServer.js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953613127",
           "x": 71692,
-          "y": 36996,
+          "y": 40374,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29637,7 +29637,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613127",
           "x": 65195,
-          "y": 35688,
+          "y": 39066,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29669,7 +29669,7 @@ var schemeData =
           "label": "fileContent",
           "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613127",
           "x": 66808,
-          "y": 35677
+          "y": 39055
         },
         "7e4d7ab3-736e-4013-9208-1d51c0868264": {
           "label": "Schemes translation",
@@ -36728,6 +36728,366 @@ var schemeData =
           "shape": "box",
           "link": "javascript.html",
           "borderWidth": ""
+        },
+        "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396984",
+          "x": 65126,
+          "y": 18388,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/music.html",
+          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396984",
+          "x": 66151,
+          "y": 18381,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396984": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396984",
+          "x": 66670,
+          "y": 18367
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011348669323250196986396984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/music.html",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011348669323250196986396984",
+          "x": 72597,
+          "y": 19065,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Music</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "x": 67240,
+          "y": 18309,
+          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "46ca27cc-0371-4111-a4c2-6db8795d0e6523250196986396984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "x": 67645,
+          "y": 18631,
+          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e6523250196986396984",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "061899dc-a185-4eaf-a3ac-c8e943203b3e23250196986396984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "x": 67817,
+          "y": 19161,
+          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e23250196986396984",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d80e4d87-43fe-4457-835f-0cbbbb8b335823250196986396984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "x": 67669,
+          "y": 19861,
+          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b335823250196986396984",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music.data.js?26\"></script>\n<script type=\"text/javascript\" src=\"application.js?26\"></script>\n\n</body>\n</html>",
+          "x": 67937,
+          "y": 20608,
+          "id": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396984",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "9c23ce52-ccea-4254-b207-a33d8bc3248f": {
+          "id": "9c23ce52-ccea-4254-b207-a33d8bc3248f",
+          "x": 14493,
+          "y": -8314,
+          "label": "Multiline"
+        },
+        "8c0a2a25-c3de-445f-9b5d-143f8cbaed9e": {
+          "label": "cp 1.txt \\\n2.txt \\\n3.txt \\\nkkk/",
+          "link": "",
+          "x": 14617,
+          "y": -8320,
+          "id": "8c0a2a25-c3de-445f-9b5d-143f8cbaed9e",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
         }
       },
       "length": 0,
@@ -68437,6 +68797,279 @@ var schemeData =
           "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609",
           "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145",
           "id": "a0c08cab-00b2-4c3f-b225-8208d231f280"
+        },
+        "5730fe67-6c64-488f-82ce-c48dd68d29fb20640194248669323250196986396984": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb20640194248669323250196986396984",
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396984",
+          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396984"
+        },
+        "d8982651-933d-47c1-ae53-e8f297c1393a20640194248669323250196986396984": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d8982651-933d-47c1-ae53-e8f297c1393a20640194248669323250196986396984",
+          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396984",
+          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396984"
+        },
+        "ff1f32f6-6d48-47b2-a086-9f382c6c331f23250196986396984": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f23250196986396984",
+          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396984",
+          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984"
+        },
+        "280d28f8-535c-4c88-a2f0-87e762ee166323250196986396984": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "280d28f8-535c-4c88-a2f0-87e762ee166323250196986396984",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
+          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e6523250196986396984"
+        },
+        "ee63df6f-1921-46e9-9700-34b89669bba623250196986396984": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "ee63df6f-1921-46e9-9700-34b89669bba623250196986396984",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
+          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e23250196986396984"
+        },
+        "3e13284c-fe14-4274-8f65-922e56fc6f1123250196986396984": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "3e13284c-fe14-4274-8f65-922e56fc6f1123250196986396984",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
+          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b335823250196986396984"
+        },
+        "23cad47f-f7a6-4328-b5c4-d66f19e31ab223250196986396984": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab223250196986396984",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
+          "to": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396984"
+        },
+        "cc6db5a6-d6ae-47fb-8cde-e7bac9e9ec59": {
+          "from": "9c23ce52-ccea-4254-b207-a33d8bc3248f",
+          "to": "8c0a2a25-c3de-445f-9b5d-143f8cbaed9e",
+          "id": "cc6db5a6-d6ae-47fb-8cde-e7bac9e9ec59"
+        },
+        "d87c9d94-1f72-4d98-bafd-792005cd217b": {
+          "from": "e9e2a1ed-edda-4111-8f13-c22b57eb1329368",
+          "to": "9c23ce52-ccea-4254-b207-a33d8bc3248f",
+          "id": "d87c9d94-1f72-4d98-bafd-792005cd217b"
         }
       },
       "length": 0,
@@ -68483,10 +69116,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.009436815948365948,
+    "scale": 0.009573160603731415,
     "viewPosition": {
-      "x": 65269.299255162645,
-      "y": 12561.176193530391
+      "x": 64029.29296193064,
+      "y": 9039.51135323002
     }
   }
 }
