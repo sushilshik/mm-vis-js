@@ -3520,8 +3520,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Youtube",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680936",
-          "x": 104405,
-          "y": 1013,
+          "x": 104404,
+          "y": -1289,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3552,8 +3552,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Писатели",
-          "x": 85551,
-          "y": -502,
+          "x": 85615,
+          "y": -1333,
           "id": "18b86c80-edbd-4de2-aa12-dfaa65b83fc0936",
           "shape": "box",
           "link": "",
@@ -3582,8 +3582,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 85851,
-          "y": -53,
+          "x": 85915,
+          "y": -884,
           "id": "51f087a6-2271-4920-ac90-e5e336cf8e3c936"
         },
         "4b61e960-0e1b-4635-8b61-9fe439849084936": {
@@ -3609,8 +3609,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86028,
-          "y": -53,
+          "x": 86092,
+          "y": -884,
           "id": "4b61e960-0e1b-4635-8b61-9fe439849084936"
         },
         "cce34df4-6129-45c5-af7d-30aea9ed0fe3936": {
@@ -3636,8 +3636,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86125,
-          "y": -53,
+          "x": 86189,
+          "y": -884,
           "id": "cce34df4-6129-45c5-af7d-30aea9ed0fe3936"
         },
         "3d21bf49-face-4a91-9792-050387cd03cb936": {
@@ -3663,8 +3663,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 85851,
-          "y": -903,
+          "x": 85915,
+          "y": -1734,
           "id": "3d21bf49-face-4a91-9792-050387cd03cb936"
         },
         "9c469c61-e0ac-467f-9398-47bed07d6a7a936": {
@@ -3690,8 +3690,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86001,
-          "y": -1153,
+          "x": 86065,
+          "y": -1984,
           "id": "9c469c61-e0ac-467f-9398-47bed07d6a7a936"
         },
         "e2614eff-16e4-4265-ade0-61b359ea8d69936": {
@@ -3717,8 +3717,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86001,
-          "y": -903,
+          "x": 86065,
+          "y": -1734,
           "id": "e2614eff-16e4-4265-ade0-61b359ea8d69936"
         },
         "d7489c1b-004d-47d1-bb05-cfaabb7197ee936": {
@@ -3744,8 +3744,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86001,
-          "y": -653,
+          "x": 86065,
+          "y": -1484,
           "id": "d7489c1b-004d-47d1-bb05-cfaabb7197ee936"
         },
         "f0bf4394-18f8-46c3-af5d-7b832101de8d936": {
@@ -3771,8 +3771,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86087,
-          "y": -798,
+          "x": 86151,
+          "y": -1629,
           "id": "f0bf4394-18f8-46c3-af5d-7b832101de8d936"
         },
         "0935ee20-5b88-449a-b458-8c4310e1b485936": {
@@ -3798,8 +3798,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86117,
-          "y": -773,
+          "x": 86181,
+          "y": -1604,
           "id": "0935ee20-5b88-449a-b458-8c4310e1b485936"
         },
         "08e0ee31-9492-4a52-aefd-c2ac52deb9f7936": {
@@ -3825,8 +3825,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86083,
-          "y": -748,
+          "x": 86147,
+          "y": -1579,
           "id": "08e0ee31-9492-4a52-aefd-c2ac52deb9f7936"
         },
         "42c72e83-2cc4-455e-84ad-b852fbae57f5936": {
@@ -3852,8 +3852,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86102,
-          "y": -723,
+          "x": 86166,
+          "y": -1554,
           "id": "42c72e83-2cc4-455e-84ad-b852fbae57f5936"
         },
         "01586ee6-5feb-4446-8437-9c997bc57a72936": {
@@ -3879,8 +3879,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86090,
-          "y": -698,
+          "x": 86154,
+          "y": -1529,
           "id": "01586ee6-5feb-4446-8437-9c997bc57a72936"
         },
         "b754b4c4-7e2f-420a-9037-c5a0980934b3936": {
@@ -3906,8 +3906,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86112,
-          "y": -673,
+          "x": 86176,
+          "y": -1504,
           "id": "b754b4c4-7e2f-420a-9037-c5a0980934b3936"
         },
         "9c5c0825-cf65-4cae-843d-70b8c354ac1c936": {
@@ -3933,8 +3933,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86115,
-          "y": -648,
+          "x": 86179,
+          "y": -1479,
           "id": "9c5c0825-cf65-4cae-843d-70b8c354ac1c936"
         },
         "82f1b63b-e95c-43a7-bff1-b146a04cadaf936": {
@@ -3960,8 +3960,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86093,
-          "y": -623,
+          "x": 86157,
+          "y": -1454,
           "id": "82f1b63b-e95c-43a7-bff1-b146a04cadaf936"
         },
         "a5406db9-9f04-49c4-bf9e-9dded6e6e3dc936": {
@@ -3987,8 +3987,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86084,
-          "y": -598,
+          "x": 86148,
+          "y": -1429,
           "id": "a5406db9-9f04-49c4-bf9e-9dded6e6e3dc936"
         },
         "c272bd92-d829-43c3-a199-96c79e22876c936": {
@@ -4014,8 +4014,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86111,
-          "y": -573,
+          "x": 86175,
+          "y": -1404,
           "id": "c272bd92-d829-43c3-a199-96c79e22876c936"
         },
         "5eb15317-ef38-4b3e-a1a0-f6ece68988ae936": {
@@ -4041,8 +4041,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86098,
-          "y": -548,
+          "x": 86162,
+          "y": -1379,
           "id": "5eb15317-ef38-4b3e-a1a0-f6ece68988ae936"
         },
         "76232507-1b0f-4591-8081-42aa6a230fce936": {
@@ -4068,8 +4068,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86119,
-          "y": -523,
+          "x": 86183,
+          "y": -1354,
           "id": "76232507-1b0f-4591-8081-42aa6a230fce936"
         },
         "6702ae73-d2c1-41f0-bb37-07c0d0b176fd936": {
@@ -4095,8 +4095,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86084,
-          "y": -498,
+          "x": 86148,
+          "y": -1329,
           "id": "6702ae73-d2c1-41f0-bb37-07c0d0b176fd936"
         },
         "1cfe5d6c-8f36-4bbc-a80e-ec15daf802a0936": {
@@ -4122,8 +4122,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86123,
-          "y": -473,
+          "x": 86187,
+          "y": -1304,
           "id": "1cfe5d6c-8f36-4bbc-a80e-ec15daf802a0936"
         },
         "76044a1f-d5b6-4663-b486-226930946d21936": {
@@ -4149,8 +4149,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 85851,
-          "y": -353,
+          "x": 85915,
+          "y": -1184,
           "id": "76044a1f-d5b6-4663-b486-226930946d21936"
         },
         "dd52c8c1-c9ec-40cf-bc0d-32b71cf7b4a8936": {
@@ -4176,8 +4176,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 85851,
-          "y": -253,
+          "x": 85915,
+          "y": -1084,
           "id": "dd52c8c1-c9ec-40cf-bc0d-32b71cf7b4a8936"
         },
         "dac2bf4d-5af7-4577-9cec-2e5bfeef5bf1936": {
@@ -4203,8 +4203,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 85851,
-          "y": -153,
+          "x": 85915,
+          "y": -984,
           "id": "dac2bf4d-5af7-4577-9cec-2e5bfeef5bf1936"
         },
         "6a3e7c57-806a-445f-a08a-9fdf263eaf3d936": {
@@ -4233,8 +4233,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Поэты",
-          "x": 85518,
-          "y": 2410,
+          "x": 85582,
+          "y": 1579,
           "id": "6a3e7c57-806a-445f-a08a-9fdf263eaf3d936",
           "shape": "box",
           "link": "",
@@ -4263,8 +4263,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 85818,
-          "y": 2860,
+          "x": 85882,
+          "y": 2029,
           "id": "d064c335-9855-4ad5-9ba5-9db6f42dfcd0936"
         },
         "3404c5b3-8947-4e4f-bfa9-ac0ba3e36e0c936": {
@@ -4290,8 +4290,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86068,
-          "y": 2860,
+          "x": 86132,
+          "y": 2029,
           "id": "3404c5b3-8947-4e4f-bfa9-ac0ba3e36e0c936"
         },
         "d045c6dd-3cfc-434f-b2d3-34d73b01e47a936": {
@@ -4317,8 +4317,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 85968,
-          "y": 2860,
+          "x": 86032,
+          "y": 2029,
           "id": "d045c6dd-3cfc-434f-b2d3-34d73b01e47a936"
         },
         "1f322662-ce3a-4abf-9ebb-35c5d65f4605936": {
@@ -4344,8 +4344,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 85818,
-          "y": 2010,
+          "x": 85882,
+          "y": 1179,
           "id": "1f322662-ce3a-4abf-9ebb-35c5d65f4605936"
         },
         "01b8216c-25dc-4884-bd2a-4a1a61a32300936": {
@@ -4371,8 +4371,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 85968,
-          "y": 1760,
+          "x": 86032,
+          "y": 929,
           "id": "01b8216c-25dc-4884-bd2a-4a1a61a32300936"
         },
         "3d76c5d5-9676-4468-b9d9-cbae0a68a535936": {
@@ -4398,8 +4398,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 85968,
-          "y": 2010,
+          "x": 86032,
+          "y": 1179,
           "id": "3d76c5d5-9676-4468-b9d9-cbae0a68a535936"
         },
         "f302df0e-6b16-4d7f-80b1-e0abcd6e2f1b936": {
@@ -4425,8 +4425,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 85968,
-          "y": 2260,
+          "x": 86032,
+          "y": 1429,
           "id": "f302df0e-6b16-4d7f-80b1-e0abcd6e2f1b936"
         },
         "4036c41b-38d1-4842-b284-5aec7b007c95936": {
@@ -4452,8 +4452,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86032,
-          "y": 2110,
+          "x": 86096,
+          "y": 1279,
           "id": "4036c41b-38d1-4842-b284-5aec7b007c95936"
         },
         "c0a2ddd2-d9d9-4e9d-a4ab-d702a835f985936": {
@@ -4479,8 +4479,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86062,
-          "y": 2135,
+          "x": 86126,
+          "y": 1304,
           "id": "c0a2ddd2-d9d9-4e9d-a4ab-d702a835f985936"
         },
         "0526fdc4-fd87-4638-b457-f64aed43a6a3936": {
@@ -4506,8 +4506,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86028,
-          "y": 2160,
+          "x": 86092,
+          "y": 1329,
           "id": "0526fdc4-fd87-4638-b457-f64aed43a6a3936"
         },
         "bab8e8f5-b431-4158-a1db-af48478879f9936": {
@@ -4533,8 +4533,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86047,
-          "y": 2185,
+          "x": 86111,
+          "y": 1354,
           "id": "bab8e8f5-b431-4158-a1db-af48478879f9936"
         },
         "d0d0cc38-dc66-4716-a01c-6e701264b5d6936": {
@@ -4560,8 +4560,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86035,
-          "y": 2210,
+          "x": 86099,
+          "y": 1379,
           "id": "d0d0cc38-dc66-4716-a01c-6e701264b5d6936"
         },
         "49acfd4f-95ce-4f4c-814e-7382b3512cc2936": {
@@ -4587,8 +4587,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86057,
-          "y": 2235,
+          "x": 86121,
+          "y": 1404,
           "id": "49acfd4f-95ce-4f4c-814e-7382b3512cc2936"
         },
         "2bf472a2-6437-42f3-87f4-ea2c0a5f0243936": {
@@ -4614,8 +4614,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86060,
-          "y": 2260,
+          "x": 86124,
+          "y": 1429,
           "id": "2bf472a2-6437-42f3-87f4-ea2c0a5f0243936"
         },
         "0f490a95-3ff7-436f-99ca-62814627776b936": {
@@ -4641,8 +4641,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86038,
-          "y": 2285,
+          "x": 86102,
+          "y": 1454,
           "id": "0f490a95-3ff7-436f-99ca-62814627776b936"
         },
         "b84b0412-2d9e-447c-a224-7940196cd801936": {
@@ -4668,8 +4668,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86029,
-          "y": 2310,
+          "x": 86093,
+          "y": 1479,
           "id": "b84b0412-2d9e-447c-a224-7940196cd801936"
         },
         "da8938a5-da11-4375-9415-6cfa0650c249936": {
@@ -4695,8 +4695,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86056,
-          "y": 2335,
+          "x": 86120,
+          "y": 1504,
           "id": "da8938a5-da11-4375-9415-6cfa0650c249936"
         },
         "b556c3a2-8f0a-42cc-b413-6cc967e34582936": {
@@ -4722,8 +4722,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86043,
-          "y": 2360,
+          "x": 86107,
+          "y": 1529,
           "id": "b556c3a2-8f0a-42cc-b413-6cc967e34582936"
         },
         "75a28823-2d92-46f9-b592-b363a28f86ef936": {
@@ -4749,8 +4749,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86064,
-          "y": 2385,
+          "x": 86128,
+          "y": 1554,
           "id": "75a28823-2d92-46f9-b592-b363a28f86ef936"
         },
         "ae245a61-6900-4ac0-97d6-20c101f698c5936": {
@@ -4776,8 +4776,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86029,
-          "y": 2410,
+          "x": 86093,
+          "y": 1579,
           "id": "ae245a61-6900-4ac0-97d6-20c101f698c5936"
         },
         "95b20098-5afa-4440-a383-17c890322502936": {
@@ -4803,8 +4803,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86068,
-          "y": 2435,
+          "x": 86132,
+          "y": 1604,
           "id": "95b20098-5afa-4440-a383-17c890322502936"
         },
         "38027d22-5513-4739-9bf7-34547c978d24936": {
@@ -4830,8 +4830,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 85818,
-          "y": 2560,
+          "x": 85882,
+          "y": 1729,
           "id": "38027d22-5513-4739-9bf7-34547c978d24936"
         },
         "3285ba37-30c8-4723-b997-a6f14aaa6752936": {
@@ -4857,8 +4857,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 85818,
-          "y": 2660,
+          "x": 85882,
+          "y": 1829,
           "id": "3285ba37-30c8-4723-b997-a6f14aaa6752936"
         },
         "bea6b415-0861-4efb-a5f2-43a16dd2147b936": {
@@ -4884,8 +4884,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 85818,
-          "y": 2760,
+          "x": 85882,
+          "y": 1929,
           "id": "bea6b415-0861-4efb-a5f2-43a16dd2147b936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674936": {
@@ -4917,8 +4917,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Писатели",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674936",
-          "x": 90627,
-          "y": -675,
+          "x": 90626,
+          "y": -1506,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -4953,7 +4953,7 @@ var schemeData =
           "label": "Поэты",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216936",
           "x": 89885,
-          "y": 2249,
+          "y": 1418,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -4985,8 +4985,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Выставочные\nцентры",
-          "x": 85385,
-          "y": 5416,
+          "x": 85449,
+          "y": 4585,
           "id": "52c646ea-b218-4d2c-b1cb-84f0f13e1870936",
           "shape": "box",
           "link": "",
@@ -5015,8 +5015,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86002,
-          "y": 5832,
+          "x": 86066,
+          "y": 5001,
           "id": "23bb679f-f477-4cf0-af20-9b11b8927e48936"
         },
         "b36eea38-cbbb-468b-a952-2892f7d5c866936": {
@@ -5042,8 +5042,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86174,
-          "y": 5833,
+          "x": 86238,
+          "y": 5002,
           "id": "b36eea38-cbbb-468b-a952-2892f7d5c866936"
         },
         "65346c07-404d-46c4-a3cd-6754a21e7eb0936": {
@@ -5069,8 +5069,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86282,
-          "y": 5833,
+          "x": 86346,
+          "y": 5002,
           "id": "65346c07-404d-46c4-a3cd-6754a21e7eb0936"
         },
         "70531c0f-f455-49e0-845c-22a173f35bbc936": {
@@ -5096,8 +5096,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86002,
-          "y": 4982,
+          "x": 86066,
+          "y": 4151,
           "id": "70531c0f-f455-49e0-845c-22a173f35bbc936"
         },
         "61483310-ae50-4354-a98b-c1dbe5383670936": {
@@ -5123,8 +5123,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86152,
-          "y": 4732,
+          "x": 86216,
+          "y": 3901,
           "id": "61483310-ae50-4354-a98b-c1dbe5383670936"
         },
         "5e6f5611-81f9-4374-b34f-e8dc0660308f936": {
@@ -5150,8 +5150,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86152,
-          "y": 4982,
+          "x": 86216,
+          "y": 4151,
           "id": "5e6f5611-81f9-4374-b34f-e8dc0660308f936"
         },
         "6b992769-4d95-4160-b214-dbf7575fbac3936": {
@@ -5177,8 +5177,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86152,
-          "y": 5232,
+          "x": 86216,
+          "y": 4401,
           "id": "6b992769-4d95-4160-b214-dbf7575fbac3936"
         },
         "cfd81051-7819-420a-bd29-423d4cb77e4e936": {
@@ -5204,8 +5204,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86216,
-          "y": 5081,
+          "x": 86280,
+          "y": 4250,
           "id": "cfd81051-7819-420a-bd29-423d4cb77e4e936"
         },
         "22e447bb-550e-423c-a6a3-c1665b6d8440936": {
@@ -5231,8 +5231,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86246,
-          "y": 5106,
+          "x": 86310,
+          "y": 4275,
           "id": "22e447bb-550e-423c-a6a3-c1665b6d8440936"
         },
         "0df8e8ca-bd85-4bfb-930c-f53fc5bac13e936": {
@@ -5258,8 +5258,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86212,
-          "y": 5131,
+          "x": 86276,
+          "y": 4300,
           "id": "0df8e8ca-bd85-4bfb-930c-f53fc5bac13e936"
         },
         "28a07740-54c7-4acc-9573-7403fa1d7d9c936": {
@@ -5285,8 +5285,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86231,
-          "y": 5156,
+          "x": 86295,
+          "y": 4325,
           "id": "28a07740-54c7-4acc-9573-7403fa1d7d9c936"
         },
         "57299d71-7ea1-4f1b-b493-abf76c615dab936": {
@@ -5312,8 +5312,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86219,
-          "y": 5181,
+          "x": 86283,
+          "y": 4350,
           "id": "57299d71-7ea1-4f1b-b493-abf76c615dab936"
         },
         "31dc6182-8530-4641-8b21-c0bb69df7eba936": {
@@ -5339,8 +5339,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86241,
-          "y": 5206,
+          "x": 86305,
+          "y": 4375,
           "id": "31dc6182-8530-4641-8b21-c0bb69df7eba936"
         },
         "31883376-8cf5-4324-8a8a-679899c2aa4a936": {
@@ -5366,8 +5366,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86244,
-          "y": 5231,
+          "x": 86308,
+          "y": 4400,
           "id": "31883376-8cf5-4324-8a8a-679899c2aa4a936"
         },
         "73bb0cb6-73ad-4918-8567-5228a7d6b210936": {
@@ -5393,8 +5393,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86222,
-          "y": 5256,
+          "x": 86286,
+          "y": 4425,
           "id": "73bb0cb6-73ad-4918-8567-5228a7d6b210936"
         },
         "47c519b2-369c-490b-8576-f9ce8ba266a9936": {
@@ -5420,8 +5420,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86213,
-          "y": 5281,
+          "x": 86277,
+          "y": 4450,
           "id": "47c519b2-369c-490b-8576-f9ce8ba266a9936"
         },
         "ca28f115-d729-49bd-b37c-349232589393936": {
@@ -5447,8 +5447,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86240,
-          "y": 5306,
+          "x": 86304,
+          "y": 4475,
           "id": "ca28f115-d729-49bd-b37c-349232589393936"
         },
         "458a448d-50e4-4e01-8a3c-9070333b312e936": {
@@ -5474,8 +5474,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86227,
-          "y": 5331,
+          "x": 86291,
+          "y": 4500,
           "id": "458a448d-50e4-4e01-8a3c-9070333b312e936"
         },
         "3c44bbd4-f7d3-45bd-a871-e9a297726413936": {
@@ -5501,8 +5501,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86248,
-          "y": 5356,
+          "x": 86312,
+          "y": 4525,
           "id": "3c44bbd4-f7d3-45bd-a871-e9a297726413936"
         },
         "eef42f59-1b9d-4777-9811-dfbad8c48d4c936": {
@@ -5528,8 +5528,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86213,
-          "y": 5381,
+          "x": 86277,
+          "y": 4550,
           "id": "eef42f59-1b9d-4777-9811-dfbad8c48d4c936"
         },
         "53dd5392-7b37-4cd5-b7cb-d5bfee33f683936": {
@@ -5555,8 +5555,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86252,
-          "y": 5406,
+          "x": 86316,
+          "y": 4575,
           "id": "53dd5392-7b37-4cd5-b7cb-d5bfee33f683936"
         },
         "0456f645-c56b-4868-8407-0df968a491b3936": {
@@ -5582,8 +5582,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86002,
-          "y": 5532,
+          "x": 86066,
+          "y": 4701,
           "id": "0456f645-c56b-4868-8407-0df968a491b3936"
         },
         "557d09e5-99f5-4e41-b2de-da968f2aff38936": {
@@ -5609,8 +5609,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86002,
-          "y": 5632,
+          "x": 86066,
+          "y": 4801,
           "id": "557d09e5-99f5-4e41-b2de-da968f2aff38936"
         },
         "9916c384-53bf-468b-914b-205876dbc1e8936": {
@@ -5636,8 +5636,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86002,
-          "y": 5732,
+          "x": 86066,
+          "y": 4901,
           "id": "9916c384-53bf-468b-914b-205876dbc1e8936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814936": {
@@ -5671,7 +5671,7 @@ var schemeData =
           "label": "Выставочные\nцентры",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814936",
           "x": 91560,
-          "y": 5635,
+          "y": 4804,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5702,8 +5702,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Музеи",
-          "x": 85730,
-          "y": 8938,
+          "x": 85794,
+          "y": 8107,
           "id": "57fd5f1a-13fc-41b6-9bac-c3b851974af8936",
           "shape": "box",
           "link": "",
@@ -5732,8 +5732,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86030,
-          "y": 9388,
+          "x": 86094,
+          "y": 8557,
           "id": "c7c3b509-cc3e-4d01-a697-19366c6f41bc936"
         },
         "3a135cf2-4ad6-4e4b-9e28-e214ba3cfab6936": {
@@ -5759,8 +5759,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86206,
-          "y": 9386,
+          "x": 86270,
+          "y": 8555,
           "id": "3a135cf2-4ad6-4e4b-9e28-e214ba3cfab6936"
         },
         "6f63ca50-2e1b-4dbc-aa37-1b6fcf6199b9936": {
@@ -5786,8 +5786,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86292,
-          "y": 9384,
+          "x": 86356,
+          "y": 8553,
           "id": "6f63ca50-2e1b-4dbc-aa37-1b6fcf6199b9936"
         },
         "88251142-f0f2-4e9f-b5c0-d50b470bcc4d936": {
@@ -5813,8 +5813,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86030,
-          "y": 8538,
+          "x": 86094,
+          "y": 7707,
           "id": "88251142-f0f2-4e9f-b5c0-d50b470bcc4d936"
         },
         "449b5ed6-e097-48d3-af14-b5f2578f3feb936": {
@@ -5840,8 +5840,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86180,
-          "y": 8288,
+          "x": 86244,
+          "y": 7457,
           "id": "449b5ed6-e097-48d3-af14-b5f2578f3feb936"
         },
         "6defbd86-766e-4c73-9081-66f3d05eb181936": {
@@ -5867,8 +5867,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86180,
-          "y": 8538,
+          "x": 86244,
+          "y": 7707,
           "id": "6defbd86-766e-4c73-9081-66f3d05eb181936"
         },
         "63fd1e56-5d36-49b5-a503-68fc4c779267936": {
@@ -5894,8 +5894,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86180,
-          "y": 8788,
+          "x": 86244,
+          "y": 7957,
           "id": "63fd1e56-5d36-49b5-a503-68fc4c779267936"
         },
         "2eb38cdc-25ba-4032-b3f0-4100252468ec936": {
@@ -5921,8 +5921,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86244,
-          "y": 8638,
+          "x": 86308,
+          "y": 7807,
           "id": "2eb38cdc-25ba-4032-b3f0-4100252468ec936"
         },
         "d5200ef6-805d-4d3b-a279-b25870dc4982936": {
@@ -5948,8 +5948,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86274,
-          "y": 8663,
+          "x": 86338,
+          "y": 7832,
           "id": "d5200ef6-805d-4d3b-a279-b25870dc4982936"
         },
         "576f1be9-524f-49ee-9202-70994cfe9c5f936": {
@@ -5975,8 +5975,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86240,
-          "y": 8688,
+          "x": 86304,
+          "y": 7857,
           "id": "576f1be9-524f-49ee-9202-70994cfe9c5f936"
         },
         "fc1fdbef-bddc-4a49-b696-f3c6cfab3d04936": {
@@ -6002,8 +6002,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86259,
-          "y": 8713,
+          "x": 86323,
+          "y": 7882,
           "id": "fc1fdbef-bddc-4a49-b696-f3c6cfab3d04936"
         },
         "d4a04087-85c5-4c68-93c9-49f82f2a0113936": {
@@ -6029,8 +6029,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86247,
-          "y": 8738,
+          "x": 86311,
+          "y": 7907,
           "id": "d4a04087-85c5-4c68-93c9-49f82f2a0113936"
         },
         "b8d0da71-d7f9-4ff8-90ac-be533f3ef4db936": {
@@ -6056,8 +6056,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86269,
-          "y": 8763,
+          "x": 86333,
+          "y": 7932,
           "id": "b8d0da71-d7f9-4ff8-90ac-be533f3ef4db936"
         },
         "82cc4be1-a2d4-4192-b708-2ce4fd851bf2936": {
@@ -6083,8 +6083,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86272,
-          "y": 8788,
+          "x": 86336,
+          "y": 7957,
           "id": "82cc4be1-a2d4-4192-b708-2ce4fd851bf2936"
         },
         "8da174b0-f324-4f1b-b0eb-4a2d725b16f3936": {
@@ -6110,8 +6110,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86250,
-          "y": 8813,
+          "x": 86314,
+          "y": 7982,
           "id": "8da174b0-f324-4f1b-b0eb-4a2d725b16f3936"
         },
         "2bfd6457-c185-4d82-8e0f-34c650680961936": {
@@ -6137,8 +6137,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86241,
-          "y": 8838,
+          "x": 86305,
+          "y": 8007,
           "id": "2bfd6457-c185-4d82-8e0f-34c650680961936"
         },
         "32d5f2ed-8cf4-4422-b31f-3f8bbdebc41a936": {
@@ -6164,8 +6164,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86268,
-          "y": 8863,
+          "x": 86332,
+          "y": 8032,
           "id": "32d5f2ed-8cf4-4422-b31f-3f8bbdebc41a936"
         },
         "accb61d5-216a-46d7-94ea-331850c4cb47936": {
@@ -6191,8 +6191,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86255,
-          "y": 8888,
+          "x": 86319,
+          "y": 8057,
           "id": "accb61d5-216a-46d7-94ea-331850c4cb47936"
         },
         "45d5a8e5-fc2a-4981-8c93-d57e54ac8dbe936": {
@@ -6218,8 +6218,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86276,
-          "y": 8913,
+          "x": 86340,
+          "y": 8082,
           "id": "45d5a8e5-fc2a-4981-8c93-d57e54ac8dbe936"
         },
         "34cecdd2-8e18-412c-97e0-7404c9a5a312936": {
@@ -6245,8 +6245,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86241,
-          "y": 8938,
+          "x": 86305,
+          "y": 8107,
           "id": "34cecdd2-8e18-412c-97e0-7404c9a5a312936"
         },
         "2fbe0725-0fe6-468f-80b3-ff21f9d2f00d936": {
@@ -6272,8 +6272,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86280,
-          "y": 8963,
+          "x": 86344,
+          "y": 8132,
           "id": "2fbe0725-0fe6-468f-80b3-ff21f9d2f00d936"
         },
         "ece6084b-4dff-4021-b726-e4c7ab7c44a3936": {
@@ -6299,8 +6299,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86030,
-          "y": 9088,
+          "x": 86094,
+          "y": 8257,
           "id": "ece6084b-4dff-4021-b726-e4c7ab7c44a3936"
         },
         "39ae4adb-6baa-4f88-afca-df4cdde5888d936": {
@@ -6326,8 +6326,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86030,
-          "y": 9188,
+          "x": 86094,
+          "y": 8357,
           "id": "39ae4adb-6baa-4f88-afca-df4cdde5888d936"
         },
         "0b6c1585-d334-47de-b39e-4f99e317a3e3936": {
@@ -6353,8 +6353,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86030,
-          "y": 9288,
+          "x": 86094,
+          "y": 8457,
           "id": "0b6c1585-d334-47de-b39e-4f99e317a3e3936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814605936": {
@@ -6387,7 +6387,7 @@ var schemeData =
           "label": "Музеи",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814605936",
           "x": 89868,
-          "y": 8658,
+          "y": 7827,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6418,8 +6418,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Библиотеки",
-          "x": 85974,
-          "y": 11850,
+          "x": 86038,
+          "y": 11019,
           "id": "897f485b-33e8-4f75-97c3-56460b3e710b936",
           "shape": "box",
           "link": "",
@@ -6448,8 +6448,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86274,
-          "y": 12300,
+          "x": 86338,
+          "y": 11469,
           "id": "15d68322-7012-4711-ade4-63f8cb0bf085936"
         },
         "32f4d8cf-a1a0-4214-bdc2-d1c8c48cb25d936": {
@@ -6475,8 +6475,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86524,
-          "y": 12300,
+          "x": 86588,
+          "y": 11469,
           "id": "32f4d8cf-a1a0-4214-bdc2-d1c8c48cb25d936"
         },
         "5a1cc71f-d3b7-4ce0-b0d6-9057201d5cae936": {
@@ -6502,8 +6502,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86424,
-          "y": 12300,
+          "x": 86488,
+          "y": 11469,
           "id": "5a1cc71f-d3b7-4ce0-b0d6-9057201d5cae936"
         },
         "3ae960b5-32fe-4d6a-ba91-2a2106ed14bd936": {
@@ -6529,8 +6529,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86274,
-          "y": 11450,
+          "x": 86338,
+          "y": 10619,
           "id": "3ae960b5-32fe-4d6a-ba91-2a2106ed14bd936"
         },
         "6a4ea9ab-a1d0-4f2a-b459-4533891546ea936": {
@@ -6556,8 +6556,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86424,
-          "y": 11200,
+          "x": 86488,
+          "y": 10369,
           "id": "6a4ea9ab-a1d0-4f2a-b459-4533891546ea936"
         },
         "c88c1bea-7578-4dde-8932-10a46324c0e0936": {
@@ -6583,8 +6583,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86424,
-          "y": 11450,
+          "x": 86488,
+          "y": 10619,
           "id": "c88c1bea-7578-4dde-8932-10a46324c0e0936"
         },
         "6873715e-5fcb-4afe-bdc2-2e99e2096d32936": {
@@ -6610,8 +6610,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86424,
-          "y": 11700,
+          "x": 86488,
+          "y": 10869,
           "id": "6873715e-5fcb-4afe-bdc2-2e99e2096d32936"
         },
         "b1fde849-ad2a-4c7a-96e6-fa3a8c34070d936": {
@@ -6637,8 +6637,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86488,
-          "y": 11550,
+          "x": 86552,
+          "y": 10719,
           "id": "b1fde849-ad2a-4c7a-96e6-fa3a8c34070d936"
         },
         "f1f22dca-d2b8-4e44-97db-697ca37353bc936": {
@@ -6664,8 +6664,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86518,
-          "y": 11575,
+          "x": 86582,
+          "y": 10744,
           "id": "f1f22dca-d2b8-4e44-97db-697ca37353bc936"
         },
         "7bc0864a-249b-4360-9c61-402ac232f8fb936": {
@@ -6691,8 +6691,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86484,
-          "y": 11600,
+          "x": 86548,
+          "y": 10769,
           "id": "7bc0864a-249b-4360-9c61-402ac232f8fb936"
         },
         "88b82482-5d55-4196-93de-72187616c23c936": {
@@ -6718,8 +6718,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86503,
-          "y": 11625,
+          "x": 86567,
+          "y": 10794,
           "id": "88b82482-5d55-4196-93de-72187616c23c936"
         },
         "bf4925eb-15f3-4c80-9f93-1f0463184472936": {
@@ -6745,8 +6745,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86491,
-          "y": 11650,
+          "x": 86555,
+          "y": 10819,
           "id": "bf4925eb-15f3-4c80-9f93-1f0463184472936"
         },
         "abd66909-b6da-4eab-9238-f0b538d15871936": {
@@ -6772,8 +6772,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86513,
-          "y": 11675,
+          "x": 86577,
+          "y": 10844,
           "id": "abd66909-b6da-4eab-9238-f0b538d15871936"
         },
         "7156ffd4-f058-4b8a-a1ed-97ac75e26e5f936": {
@@ -6799,8 +6799,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86516,
-          "y": 11700,
+          "x": 86580,
+          "y": 10869,
           "id": "7156ffd4-f058-4b8a-a1ed-97ac75e26e5f936"
         },
         "de0633ef-be6d-47c0-878b-7189f7f91bb3936": {
@@ -6826,8 +6826,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86494,
-          "y": 11725,
+          "x": 86558,
+          "y": 10894,
           "id": "de0633ef-be6d-47c0-878b-7189f7f91bb3936"
         },
         "9c2f906b-bf85-4a29-ab73-cdab89ebef2d936": {
@@ -6853,8 +6853,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86485,
-          "y": 11750,
+          "x": 86549,
+          "y": 10919,
           "id": "9c2f906b-bf85-4a29-ab73-cdab89ebef2d936"
         },
         "de8f7121-d055-4187-af08-a8db9b785395936": {
@@ -6880,8 +6880,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86512,
-          "y": 11775,
+          "x": 86576,
+          "y": 10944,
           "id": "de8f7121-d055-4187-af08-a8db9b785395936"
         },
         "f5baee49-1727-414e-9e4f-db4a91b5ec07936": {
@@ -6907,8 +6907,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86499,
-          "y": 11800,
+          "x": 86563,
+          "y": 10969,
           "id": "f5baee49-1727-414e-9e4f-db4a91b5ec07936"
         },
         "cd9a4544-1394-490f-90b6-9c0be93b04fd936": {
@@ -6934,8 +6934,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86520,
-          "y": 11825,
+          "x": 86584,
+          "y": 10994,
           "id": "cd9a4544-1394-490f-90b6-9c0be93b04fd936"
         },
         "752c3fbf-7ab2-4c6c-b52c-d35281ffa41c936": {
@@ -6961,8 +6961,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86485,
-          "y": 11850,
+          "x": 86549,
+          "y": 11019,
           "id": "752c3fbf-7ab2-4c6c-b52c-d35281ffa41c936"
         },
         "7e9a3123-4a8d-4a07-8e22-09f4f4dedfbb936": {
@@ -6988,8 +6988,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86524,
-          "y": 11875,
+          "x": 86588,
+          "y": 11044,
           "id": "7e9a3123-4a8d-4a07-8e22-09f4f4dedfbb936"
         },
         "299334d6-e75d-4ea1-9af0-e84bcdf954a6936": {
@@ -7015,8 +7015,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86274,
-          "y": 12000,
+          "x": 86338,
+          "y": 11169,
           "id": "299334d6-e75d-4ea1-9af0-e84bcdf954a6936"
         },
         "af2c5e9f-75fa-4c4f-959a-a465d507cfb0936": {
@@ -7042,8 +7042,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86274,
-          "y": 12100,
+          "x": 86338,
+          "y": 11269,
           "id": "af2c5e9f-75fa-4c4f-959a-a465d507cfb0936"
         },
         "2058f37a-9b3e-4fc7-85a1-2feae5f8e045936": {
@@ -7069,8 +7069,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86274,
-          "y": 12200,
+          "x": 86338,
+          "y": 11369,
           "id": "2058f37a-9b3e-4fc7-85a1-2feae5f8e045936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814605148936": {
@@ -7103,7 +7103,7 @@ var schemeData =
           "label": "Библиотеки",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814605148936",
           "x": 91124,
-          "y": 11616,
+          "y": 10785,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7134,8 +7134,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Спорт",
-          "x": 86147,
-          "y": 13996,
+          "x": 86211,
+          "y": 13165,
           "id": "e9467da0-111f-4471-9f47-6cabb657245c936",
           "shape": "box",
           "link": "",
@@ -7164,8 +7164,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86447,
-          "y": 14446,
+          "x": 86511,
+          "y": 13615,
           "id": "f48e943b-f699-4381-bd12-8944e012ec2d936"
         },
         "82b9b055-c144-467d-b3da-6c7bab32ee1f936": {
@@ -7191,8 +7191,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86622,
-          "y": 14449,
+          "x": 86686,
+          "y": 13618,
           "id": "82b9b055-c144-467d-b3da-6c7bab32ee1f936"
         },
         "c0d0c0ef-503d-4e2d-a9d3-37d47601551f936": {
@@ -7218,8 +7218,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86711,
-          "y": 14451,
+          "x": 86775,
+          "y": 13620,
           "id": "c0d0c0ef-503d-4e2d-a9d3-37d47601551f936"
         },
         "3cde9f5d-51cd-4e5a-a66c-f9b993da7d13936": {
@@ -7245,8 +7245,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86447,
-          "y": 13596,
+          "x": 86511,
+          "y": 12765,
           "id": "3cde9f5d-51cd-4e5a-a66c-f9b993da7d13936"
         },
         "7600f1bd-ace2-4fc9-870c-0e23bd1f66d1936": {
@@ -7272,8 +7272,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86597,
-          "y": 13346,
+          "x": 86661,
+          "y": 12515,
           "id": "7600f1bd-ace2-4fc9-870c-0e23bd1f66d1936"
         },
         "525372d3-733c-4e9f-ac3e-4beda57eba44936": {
@@ -7299,8 +7299,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86597,
-          "y": 13596,
+          "x": 86661,
+          "y": 12765,
           "id": "525372d3-733c-4e9f-ac3e-4beda57eba44936"
         },
         "17ab3d61-0c3b-42fa-bb1f-0b78a3b1b633936": {
@@ -7326,8 +7326,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86597,
-          "y": 13846,
+          "x": 86661,
+          "y": 13015,
           "id": "17ab3d61-0c3b-42fa-bb1f-0b78a3b1b633936"
         },
         "d5d148a6-7dd4-4696-abf2-6ebf72f1ec38936": {
@@ -7353,8 +7353,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86699,
-          "y": 13678,
+          "x": 86763,
+          "y": 12847,
           "id": "d5d148a6-7dd4-4696-abf2-6ebf72f1ec38936"
         },
         "a26d3050-392d-4997-9e6b-28ad017685b3936": {
@@ -7380,8 +7380,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86729,
-          "y": 13703,
+          "x": 86793,
+          "y": 12872,
           "id": "a26d3050-392d-4997-9e6b-28ad017685b3936"
         },
         "22086fb1-0a20-4512-b3e9-43b2acaac803936": {
@@ -7407,8 +7407,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86695,
-          "y": 13728,
+          "x": 86759,
+          "y": 12897,
           "id": "22086fb1-0a20-4512-b3e9-43b2acaac803936"
         },
         "2a8af71b-bcb6-4c3b-975f-22e8d6f1e30b936": {
@@ -7434,8 +7434,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86714,
-          "y": 13753,
+          "x": 86778,
+          "y": 12922,
           "id": "2a8af71b-bcb6-4c3b-975f-22e8d6f1e30b936"
         },
         "8bcde6df-90ef-4bf9-bc1b-a9a3c15e50f7936": {
@@ -7461,8 +7461,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86702,
-          "y": 13778,
+          "x": 86766,
+          "y": 12947,
           "id": "8bcde6df-90ef-4bf9-bc1b-a9a3c15e50f7936"
         },
         "39c04434-9e3a-476b-af4b-f92f468d92d5936": {
@@ -7488,8 +7488,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86724,
-          "y": 13803,
+          "x": 86788,
+          "y": 12972,
           "id": "39c04434-9e3a-476b-af4b-f92f468d92d5936"
         },
         "53bdcbe9-4f6b-4f66-b29b-006093ffc1d5936": {
@@ -7515,8 +7515,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86727,
-          "y": 13828,
+          "x": 86791,
+          "y": 12997,
           "id": "53bdcbe9-4f6b-4f66-b29b-006093ffc1d5936"
         },
         "6a89b76f-e7be-4cc1-8a84-b74a25d2f19d936": {
@@ -7542,8 +7542,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86705,
-          "y": 13853,
+          "x": 86769,
+          "y": 13022,
           "id": "6a89b76f-e7be-4cc1-8a84-b74a25d2f19d936"
         },
         "fbfaa7ac-8863-42a6-a74b-f0bba4a5483f936": {
@@ -7569,8 +7569,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86696,
-          "y": 13878,
+          "x": 86760,
+          "y": 13047,
           "id": "fbfaa7ac-8863-42a6-a74b-f0bba4a5483f936"
         },
         "b128b91b-dd81-4459-b7e3-f066822103f5936": {
@@ -7596,8 +7596,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86723,
-          "y": 13903,
+          "x": 86787,
+          "y": 13072,
           "id": "b128b91b-dd81-4459-b7e3-f066822103f5936"
         },
         "8bf544ab-22bd-42a2-9537-c3e0ac63a60d936": {
@@ -7623,8 +7623,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86710,
-          "y": 13928,
+          "x": 86774,
+          "y": 13097,
           "id": "8bf544ab-22bd-42a2-9537-c3e0ac63a60d936"
         },
         "4b63e8db-68fa-4899-a86c-3d937d112a9a936": {
@@ -7650,8 +7650,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86731,
-          "y": 13953,
+          "x": 86795,
+          "y": 13122,
           "id": "4b63e8db-68fa-4899-a86c-3d937d112a9a936"
         },
         "9da45666-e128-4fd4-a1b0-a09164abf4b0936": {
@@ -7677,8 +7677,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86696,
-          "y": 13978,
+          "x": 86760,
+          "y": 13147,
           "id": "9da45666-e128-4fd4-a1b0-a09164abf4b0936"
         },
         "4b7c44d3-0b1f-4052-8fa3-0d681ea922cb936": {
@@ -7704,8 +7704,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86735,
-          "y": 14003,
+          "x": 86799,
+          "y": 13172,
           "id": "4b7c44d3-0b1f-4052-8fa3-0d681ea922cb936"
         },
         "109572ca-3a6b-440d-8282-0637ad9d4c36936": {
@@ -7731,8 +7731,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86447,
-          "y": 14146,
+          "x": 86511,
+          "y": 13315,
           "id": "109572ca-3a6b-440d-8282-0637ad9d4c36936"
         },
         "6dd25fc8-b67c-4012-bb65-8c7571e9601b936": {
@@ -7758,8 +7758,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86447,
-          "y": 14246,
+          "x": 86511,
+          "y": 13415,
           "id": "6dd25fc8-b67c-4012-bb65-8c7571e9601b936"
         },
         "7d572532-5c17-4bee-af1a-d69f47426049936": {
@@ -7785,8 +7785,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86447,
-          "y": 14346,
+          "x": 86511,
+          "y": 13515,
           "id": "7d572532-5c17-4bee-af1a-d69f47426049936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813936": {
@@ -7819,7 +7819,7 @@ var schemeData =
           "label": "Спорт",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813936",
           "x": 89821,
-          "y": 13744,
+          "y": 12913,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7850,8 +7850,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Актеры",
-          "x": 86529,
-          "y": 16573,
+          "x": 86593,
+          "y": 15742,
           "id": "a1c64132-1789-457e-9b43-f1e12eab3df3936",
           "shape": "box",
           "link": "",
@@ -7880,8 +7880,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86829,
-          "y": 17023,
+          "x": 86893,
+          "y": 16192,
           "id": "568a93e7-1e2a-4ebb-8732-20547137969b936"
         },
         "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936": {
@@ -7907,8 +7907,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 87079,
-          "y": 17023,
+          "x": 87143,
+          "y": 16192,
           "id": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936"
         },
         "b9609706-aefe-40f0-89a0-a4f8d62433ea936": {
@@ -7934,8 +7934,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86979,
-          "y": 17023,
+          "x": 87043,
+          "y": 16192,
           "id": "b9609706-aefe-40f0-89a0-a4f8d62433ea936"
         },
         "3b7b3c06-c296-4186-b318-8ab5a0cbe252936": {
@@ -7961,8 +7961,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86829,
-          "y": 16173,
+          "x": 86893,
+          "y": 15342,
           "id": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936"
         },
         "a306e5dc-4dae-4ecf-9429-c5ac8b720165936": {
@@ -7988,8 +7988,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86979,
-          "y": 15923,
+          "x": 87043,
+          "y": 15092,
           "id": "a306e5dc-4dae-4ecf-9429-c5ac8b720165936"
         },
         "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936": {
@@ -8015,8 +8015,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86979,
-          "y": 16173,
+          "x": 87043,
+          "y": 15342,
           "id": "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936"
         },
         "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936": {
@@ -8042,8 +8042,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86979,
-          "y": 16423,
+          "x": 87043,
+          "y": 15592,
           "id": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936"
         },
         "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936": {
@@ -8069,8 +8069,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 87103,
-          "y": 16271,
+          "x": 87167,
+          "y": 15440,
           "id": "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936"
         },
         "16f49b41-b2ba-4484-a1e2-edce245fd872936": {
@@ -8096,8 +8096,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 87133,
-          "y": 16296,
+          "x": 87197,
+          "y": 15465,
           "id": "16f49b41-b2ba-4484-a1e2-edce245fd872936"
         },
         "ef10ac5d-d5ad-45de-90b2-466bd9577043936": {
@@ -8123,8 +8123,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 87099,
-          "y": 16321,
+          "x": 87163,
+          "y": 15490,
           "id": "ef10ac5d-d5ad-45de-90b2-466bd9577043936"
         },
         "b48d2597-2c0f-4224-aff7-767b851c1a44936": {
@@ -8150,8 +8150,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 87118,
-          "y": 16346,
+          "x": 87182,
+          "y": 15515,
           "id": "b48d2597-2c0f-4224-aff7-767b851c1a44936"
         },
         "54a0e200-9170-4c28-8bfd-6d355d53328b936": {
@@ -8177,8 +8177,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 87106,
-          "y": 16371,
+          "x": 87170,
+          "y": 15540,
           "id": "54a0e200-9170-4c28-8bfd-6d355d53328b936"
         },
         "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936": {
@@ -8204,8 +8204,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 87128,
-          "y": 16396,
+          "x": 87192,
+          "y": 15565,
           "id": "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936"
         },
         "e61d9625-849b-4ed8-aaac-e9ae27532598936": {
@@ -8231,8 +8231,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 87131,
-          "y": 16421,
+          "x": 87195,
+          "y": 15590,
           "id": "e61d9625-849b-4ed8-aaac-e9ae27532598936"
         },
         "3d4bec96-a27b-4c21-bed3-62792eb01073936": {
@@ -8258,8 +8258,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 87109,
-          "y": 16446,
+          "x": 87173,
+          "y": 15615,
           "id": "3d4bec96-a27b-4c21-bed3-62792eb01073936"
         },
         "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936": {
@@ -8285,8 +8285,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 87100,
-          "y": 16471,
+          "x": 87164,
+          "y": 15640,
           "id": "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936"
         },
         "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936": {
@@ -8312,8 +8312,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 87127,
-          "y": 16496,
+          "x": 87191,
+          "y": 15665,
           "id": "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936"
         },
         "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936": {
@@ -8339,8 +8339,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 87114,
-          "y": 16521,
+          "x": 87178,
+          "y": 15690,
           "id": "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936"
         },
         "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936": {
@@ -8366,8 +8366,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 87135,
-          "y": 16546,
+          "x": 87199,
+          "y": 15715,
           "id": "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936"
         },
         "6cc54441-5d50-4182-a740-5ea376b13ba0936": {
@@ -8393,8 +8393,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 87100,
-          "y": 16571,
+          "x": 87164,
+          "y": 15740,
           "id": "6cc54441-5d50-4182-a740-5ea376b13ba0936"
         },
         "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936": {
@@ -8420,8 +8420,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 87139,
-          "y": 16596,
+          "x": 87203,
+          "y": 15765,
           "id": "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936"
         },
         "043279af-1c14-4d06-ae4f-97ae177e05e7936": {
@@ -8447,8 +8447,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86829,
-          "y": 16723,
+          "x": 86893,
+          "y": 15892,
           "id": "043279af-1c14-4d06-ae4f-97ae177e05e7936"
         },
         "bbad87b1-5f6d-449e-a027-5aba17eef50c936": {
@@ -8474,8 +8474,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86829,
-          "y": 16823,
+          "x": 86893,
+          "y": 15992,
           "id": "bbad87b1-5f6d-449e-a027-5aba17eef50c936"
         },
         "d562aae2-1f4d-418c-814a-dcb24c91fdf7936": {
@@ -8501,8 +8501,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86829,
-          "y": 16923,
+          "x": 86893,
+          "y": 16092,
           "id": "d562aae2-1f4d-418c-814a-dcb24c91fdf7936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813705936": {
@@ -8535,7 +8535,7 @@ var schemeData =
           "label": "Актеры",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813705936",
           "x": 90112,
-          "y": 16292,
+          "y": 15461,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8566,8 +8566,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Античность",
-          "x": 86795,
-          "y": 19197,
+          "x": 86859,
+          "y": 18366,
           "id": "110fc0a2-4bfb-46eb-9f30-b9bdcfb2d34f936",
           "shape": "box",
           "link": "",
@@ -8596,8 +8596,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 87095,
-          "y": 19647,
+          "x": 87159,
+          "y": 18816,
           "id": "722903d3-af95-44d1-84b4-75a04928233f936"
         },
         "0146347b-4ba4-463c-ac5a-8ef45ca2e480936": {
@@ -8623,8 +8623,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 87345,
-          "y": 19647,
+          "x": 87409,
+          "y": 18816,
           "id": "0146347b-4ba4-463c-ac5a-8ef45ca2e480936"
         },
         "3dace47b-58b0-47be-987b-699669a88f59936": {
@@ -8650,8 +8650,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 87245,
-          "y": 19647,
+          "x": 87309,
+          "y": 18816,
           "id": "3dace47b-58b0-47be-987b-699669a88f59936"
         },
         "f7b6a711-82ea-4051-bb4b-98a074aaeb5b936": {
@@ -8677,8 +8677,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 87095,
-          "y": 18797,
+          "x": 87159,
+          "y": 17966,
           "id": "f7b6a711-82ea-4051-bb4b-98a074aaeb5b936"
         },
         "72f89237-8786-4ad1-b640-f3bd634ffa05936": {
@@ -8704,8 +8704,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 87245,
-          "y": 18547,
+          "x": 87309,
+          "y": 17716,
           "id": "72f89237-8786-4ad1-b640-f3bd634ffa05936"
         },
         "69340063-03b7-49fd-87c6-f6a446c21f29936": {
@@ -8731,8 +8731,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 87245,
-          "y": 18797,
+          "x": 87309,
+          "y": 17966,
           "id": "69340063-03b7-49fd-87c6-f6a446c21f29936"
         },
         "fdbf0347-695f-4e96-8cfb-c6431cb92a55936": {
@@ -8758,8 +8758,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 87245,
-          "y": 19047,
+          "x": 87309,
+          "y": 18216,
           "id": "fdbf0347-695f-4e96-8cfb-c6431cb92a55936"
         },
         "a8d4211e-e28d-430b-8ebf-fe24fe3aed2a936": {
@@ -8785,8 +8785,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 87397,
-          "y": 18906,
+          "x": 87461,
+          "y": 18075,
           "id": "a8d4211e-e28d-430b-8ebf-fe24fe3aed2a936"
         },
         "6a84c90d-62db-4739-86e7-578d3d5d4b2e936": {
@@ -8812,8 +8812,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 87427,
-          "y": 18931,
+          "x": 87491,
+          "y": 18100,
           "id": "6a84c90d-62db-4739-86e7-578d3d5d4b2e936"
         },
         "d6b68284-acd0-4c91-8a14-4763a6a11c39936": {
@@ -8839,8 +8839,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 87393,
-          "y": 18956,
+          "x": 87457,
+          "y": 18125,
           "id": "d6b68284-acd0-4c91-8a14-4763a6a11c39936"
         },
         "9eb89b43-8c90-4496-9249-0f2b5b44199d936": {
@@ -8866,8 +8866,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 87412,
-          "y": 18981,
+          "x": 87476,
+          "y": 18150,
           "id": "9eb89b43-8c90-4496-9249-0f2b5b44199d936"
         },
         "adecd1cc-a886-4bbe-aed9-ff03589945fc936": {
@@ -8893,8 +8893,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 87400,
-          "y": 19006,
+          "x": 87464,
+          "y": 18175,
           "id": "adecd1cc-a886-4bbe-aed9-ff03589945fc936"
         },
         "57a02d19-debb-40f3-af0e-34bad5417a4c936": {
@@ -8920,8 +8920,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 87422,
-          "y": 19031,
+          "x": 87486,
+          "y": 18200,
           "id": "57a02d19-debb-40f3-af0e-34bad5417a4c936"
         },
         "920716f3-856e-4672-999d-b1195d2680cb936": {
@@ -8947,8 +8947,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 87425,
-          "y": 19056,
+          "x": 87489,
+          "y": 18225,
           "id": "920716f3-856e-4672-999d-b1195d2680cb936"
         },
         "ee0a7b9f-29e1-4ad7-98cd-0cefe77e75ff936": {
@@ -8974,8 +8974,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 87403,
-          "y": 19081,
+          "x": 87467,
+          "y": 18250,
           "id": "ee0a7b9f-29e1-4ad7-98cd-0cefe77e75ff936"
         },
         "273f1c31-9acc-4319-8975-2f93a9a06f5d936": {
@@ -9001,8 +9001,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 87394,
-          "y": 19106,
+          "x": 87458,
+          "y": 18275,
           "id": "273f1c31-9acc-4319-8975-2f93a9a06f5d936"
         },
         "8930cd64-02d9-4fb4-b9b9-a1b806ec59ed936": {
@@ -9028,8 +9028,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 87421,
-          "y": 19131,
+          "x": 87485,
+          "y": 18300,
           "id": "8930cd64-02d9-4fb4-b9b9-a1b806ec59ed936"
         },
         "4e4eb60b-974f-438a-9ab4-f013e0ae10d8936": {
@@ -9055,8 +9055,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 87408,
-          "y": 19156,
+          "x": 87472,
+          "y": 18325,
           "id": "4e4eb60b-974f-438a-9ab4-f013e0ae10d8936"
         },
         "4ec0c5d6-b663-4c67-a1c4-f7d9020787ba936": {
@@ -9082,8 +9082,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 87429,
-          "y": 19181,
+          "x": 87493,
+          "y": 18350,
           "id": "4ec0c5d6-b663-4c67-a1c4-f7d9020787ba936"
         },
         "640fae4f-d97a-421a-bc8b-2ee65b5a2fb7936": {
@@ -9109,8 +9109,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 87394,
-          "y": 19206,
+          "x": 87458,
+          "y": 18375,
           "id": "640fae4f-d97a-421a-bc8b-2ee65b5a2fb7936"
         },
         "044476b7-746c-487f-9daa-7896a17741c6936": {
@@ -9136,8 +9136,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 87433,
-          "y": 19231,
+          "x": 87497,
+          "y": 18400,
           "id": "044476b7-746c-487f-9daa-7896a17741c6936"
         },
         "c7c5da48-9965-4388-9090-cfe5e00eeeb8936": {
@@ -9163,8 +9163,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 87095,
-          "y": 19347,
+          "x": 87159,
+          "y": 18516,
           "id": "c7c5da48-9965-4388-9090-cfe5e00eeeb8936"
         },
         "5063713c-a742-4d67-a690-d26319627f39936": {
@@ -9190,8 +9190,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 87095,
-          "y": 19447,
+          "x": 87159,
+          "y": 18616,
           "id": "5063713c-a742-4d67-a690-d26319627f39936"
         },
         "a50968d1-4ca6-402d-9c40-ca2db9da3b44936": {
@@ -9217,8 +9217,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 87095,
-          "y": 19547,
+          "x": 87159,
+          "y": 18716,
           "id": "a50968d1-4ca6-402d-9c40-ca2db9da3b44936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813705642936": {
@@ -9251,7 +9251,7 @@ var schemeData =
           "label": "Античность",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813705642936",
           "x": 91087,
-          "y": 19163,
+          "y": 18332,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9282,8 +9282,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Издательства",
-          "x": 86426,
-          "y": 21494,
+          "x": 86490,
+          "y": 20663,
           "id": "4680f241-235f-4726-8d61-c88e138ac9ce936",
           "shape": "box",
           "link": "",
@@ -9312,8 +9312,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86940,
-          "y": 21954,
+          "x": 87004,
+          "y": 21123,
           "id": "ef31bf42-5b64-47cd-9fe8-8bd20b39d357936"
         },
         "efadc0e6-e7f3-43f9-b69c-a378178e875a936": {
@@ -9339,8 +9339,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 87190,
-          "y": 21954,
+          "x": 87254,
+          "y": 21123,
           "id": "efadc0e6-e7f3-43f9-b69c-a378178e875a936"
         },
         "b23a7ac8-c450-441a-bc53-a02586bb37e7936": {
@@ -9366,8 +9366,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 87082,
-          "y": 21954,
+          "x": 87146,
+          "y": 21123,
           "id": "b23a7ac8-c450-441a-bc53-a02586bb37e7936"
         },
         "1c35391f-0145-4d6d-8b1e-81320f0b8e59936": {
@@ -9393,8 +9393,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86940,
-          "y": 21104,
+          "x": 87004,
+          "y": 20273,
           "id": "1c35391f-0145-4d6d-8b1e-81320f0b8e59936"
         },
         "8840d0d5-e834-46e5-b81f-15c501a84908936": {
@@ -9420,8 +9420,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 87090,
-          "y": 20854,
+          "x": 87154,
+          "y": 20023,
           "id": "8840d0d5-e834-46e5-b81f-15c501a84908936"
         },
         "26685433-10b3-4301-ba2d-7f37e535302c936": {
@@ -9447,8 +9447,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 87090,
-          "y": 21104,
+          "x": 87154,
+          "y": 20273,
           "id": "26685433-10b3-4301-ba2d-7f37e535302c936"
         },
         "f3fd9b41-9700-4a47-a35a-669af21df67d936": {
@@ -9474,8 +9474,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 87090,
-          "y": 21354,
+          "x": 87154,
+          "y": 20523,
           "id": "f3fd9b41-9700-4a47-a35a-669af21df67d936"
         },
         "fa86cd80-e7de-491e-b720-bd6395d07b76936": {
@@ -9501,8 +9501,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 87207,
-          "y": 21199,
+          "x": 87271,
+          "y": 20368,
           "id": "fa86cd80-e7de-491e-b720-bd6395d07b76936"
         },
         "12f5f776-4978-42ad-ba57-c9241f956ec1936": {
@@ -9528,8 +9528,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 87237,
-          "y": 21224,
+          "x": 87301,
+          "y": 20393,
           "id": "12f5f776-4978-42ad-ba57-c9241f956ec1936"
         },
         "a3eedc32-4973-470c-af6c-a7ba9697b393936": {
@@ -9555,8 +9555,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 87203,
-          "y": 21249,
+          "x": 87267,
+          "y": 20418,
           "id": "a3eedc32-4973-470c-af6c-a7ba9697b393936"
         },
         "c2dacef8-02d5-4b75-b54a-596c6fe2e6a9936": {
@@ -9582,8 +9582,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 87222,
-          "y": 21274,
+          "x": 87286,
+          "y": 20443,
           "id": "c2dacef8-02d5-4b75-b54a-596c6fe2e6a9936"
         },
         "9540074b-f51f-4d48-825b-02f37a51578f936": {
@@ -9609,8 +9609,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 87210,
-          "y": 21299,
+          "x": 87274,
+          "y": 20468,
           "id": "9540074b-f51f-4d48-825b-02f37a51578f936"
         },
         "5455259e-a2f9-46d8-8a3f-5fbb0cfe1919936": {
@@ -9636,8 +9636,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 87232,
-          "y": 21324,
+          "x": 87296,
+          "y": 20493,
           "id": "5455259e-a2f9-46d8-8a3f-5fbb0cfe1919936"
         },
         "e880e784-ad26-41ef-a8b1-88d7e6baf78e936": {
@@ -9663,8 +9663,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 87235,
-          "y": 21349,
+          "x": 87299,
+          "y": 20518,
           "id": "e880e784-ad26-41ef-a8b1-88d7e6baf78e936"
         },
         "ccc0fe0c-3a38-4773-a9f8-3d5e5bcdc5da936": {
@@ -9690,8 +9690,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 87213,
-          "y": 21374,
+          "x": 87277,
+          "y": 20543,
           "id": "ccc0fe0c-3a38-4773-a9f8-3d5e5bcdc5da936"
         },
         "52887b02-140c-429f-bdea-78e718f1da92936": {
@@ -9717,8 +9717,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 87204,
-          "y": 21399,
+          "x": 87268,
+          "y": 20568,
           "id": "52887b02-140c-429f-bdea-78e718f1da92936"
         },
         "4d589b60-e50b-4269-97c8-5cca7f0d2fcd936": {
@@ -9744,8 +9744,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 87231,
-          "y": 21424,
+          "x": 87295,
+          "y": 20593,
           "id": "4d589b60-e50b-4269-97c8-5cca7f0d2fcd936"
         },
         "80b9dd2d-b59d-4a47-80f3-95a032cd5bd3936": {
@@ -9771,8 +9771,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 87218,
-          "y": 21449,
+          "x": 87282,
+          "y": 20618,
           "id": "80b9dd2d-b59d-4a47-80f3-95a032cd5bd3936"
         },
         "a9aeb682-14fe-42ee-b8c9-be04417ca1b3936": {
@@ -9798,8 +9798,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 87239,
-          "y": 21474,
+          "x": 87303,
+          "y": 20643,
           "id": "a9aeb682-14fe-42ee-b8c9-be04417ca1b3936"
         },
         "78d09fb3-1c69-494a-a49a-602c5904651a936": {
@@ -9825,8 +9825,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 87204,
-          "y": 21499,
+          "x": 87268,
+          "y": 20668,
           "id": "78d09fb3-1c69-494a-a49a-602c5904651a936"
         },
         "721c0271-bc7f-4bc4-8b19-1e7e1fed1fdd936": {
@@ -9852,8 +9852,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 87243,
-          "y": 21524,
+          "x": 87307,
+          "y": 20693,
           "id": "721c0271-bc7f-4bc4-8b19-1e7e1fed1fdd936"
         },
         "1a569633-44d2-4d6a-a572-9e83c6df6c1d936": {
@@ -9879,8 +9879,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86940,
-          "y": 21654,
+          "x": 87004,
+          "y": 20823,
           "id": "1a569633-44d2-4d6a-a572-9e83c6df6c1d936"
         },
         "84190415-e6b3-4c12-a195-f059f8d6266d936": {
@@ -9906,8 +9906,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86940,
-          "y": 21754,
+          "x": 87004,
+          "y": 20923,
           "id": "84190415-e6b3-4c12-a195-f059f8d6266d936"
         },
         "c67d77ab-3905-4d89-8bb1-4ae5f0c74e2a936": {
@@ -9933,8 +9933,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86940,
-          "y": 21854,
+          "x": 87004,
+          "y": 21023,
           "id": "c67d77ab-3905-4d89-8bb1-4ae5f0c74e2a936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248936": {
@@ -9967,7 +9967,7 @@ var schemeData =
           "label": "Издательства",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248936",
           "x": 91604,
-          "y": 21286,
+          "y": 20455,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10715,7 +10715,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Танцы",
           "x": 100002,
-          "y": -3756,
+          "y": -6058,
           "id": "c23be812-f157-4504-bebe-1ca7f79346b2936",
           "shape": "box",
           "link": "",
@@ -10745,7 +10745,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 100302,
-          "y": -3306,
+          "y": -5608,
           "id": "024e230d-4548-4876-9d4f-9470d8b7467a936"
         },
         "da708f95-0c2d-4e2b-a826-c64df8e5d5d4936": {
@@ -10772,7 +10772,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/21/2019",
           "x": 100473,
-          "y": -3309,
+          "y": -5611,
           "id": "da708f95-0c2d-4e2b-a826-c64df8e5d5d4936"
         },
         "8c6f228f-74b2-4fc8-a575-8f7177a82d24936": {
@@ -10799,7 +10799,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 100589,
-          "y": -3309,
+          "y": -5611,
           "id": "8c6f228f-74b2-4fc8-a575-8f7177a82d24936"
         },
         "899d09f4-421d-41e8-91f0-c738385d8efe936": {
@@ -10826,7 +10826,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 100302,
-          "y": -4156,
+          "y": -6458,
           "id": "899d09f4-421d-41e8-91f0-c738385d8efe936"
         },
         "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936": {
@@ -10853,7 +10853,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 100459,
-          "y": -4692,
+          "y": -6994,
           "id": "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936"
         },
         "a5286a95-dd3f-462b-849d-f80f89fbdefe936": {
@@ -10880,7 +10880,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 100452,
-          "y": -4156,
+          "y": -6458,
           "id": "a5286a95-dd3f-462b-849d-f80f89fbdefe936"
         },
         "e41f7949-34c0-4992-af16-a184a91cdfdb936": {
@@ -10907,7 +10907,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 100452,
-          "y": -3906,
+          "y": -6208,
           "id": "e41f7949-34c0-4992-af16-a184a91cdfdb936"
         },
         "e5c87ea5-58a5-49f9-976c-032567241ddc936": {
@@ -10934,7 +10934,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 100516,
-          "y": -4056,
+          "y": -6358,
           "id": "e5c87ea5-58a5-49f9-976c-032567241ddc936"
         },
         "79c85aa3-d495-4f2a-8ee3-f3fad82231b7936": {
@@ -10961,7 +10961,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 100546,
-          "y": -4031,
+          "y": -6333,
           "id": "79c85aa3-d495-4f2a-8ee3-f3fad82231b7936"
         },
         "d7181452-c8f9-491b-ae44-1a8c5163c393936": {
@@ -10988,7 +10988,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 100512,
-          "y": -4006,
+          "y": -6308,
           "id": "d7181452-c8f9-491b-ae44-1a8c5163c393936"
         },
         "016afc6e-f7b9-4a79-8777-00eee6addb19936": {
@@ -11015,7 +11015,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 100531,
-          "y": -3981,
+          "y": -6283,
           "id": "016afc6e-f7b9-4a79-8777-00eee6addb19936"
         },
         "6fcdb010-5af6-4b56-b297-b189bd2b2903936": {
@@ -11042,7 +11042,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 100519,
-          "y": -3956,
+          "y": -6258,
           "id": "6fcdb010-5af6-4b56-b297-b189bd2b2903936"
         },
         "d3efb576-4fa6-4bb5-b86b-e0ac541a5b3f936": {
@@ -11069,7 +11069,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 100541,
-          "y": -3931,
+          "y": -6233,
           "id": "d3efb576-4fa6-4bb5-b86b-e0ac541a5b3f936"
         },
         "c9fed16a-1391-4e5e-895c-8a2085d08231936": {
@@ -11096,7 +11096,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 100544,
-          "y": -3906,
+          "y": -6208,
           "id": "c9fed16a-1391-4e5e-895c-8a2085d08231936"
         },
         "5f2771f1-bd94-4c75-9865-49f2b5ed74bc936": {
@@ -11123,7 +11123,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 100522,
-          "y": -3881,
+          "y": -6183,
           "id": "5f2771f1-bd94-4c75-9865-49f2b5ed74bc936"
         },
         "91076902-107f-4fef-9b51-cc52d4f843bf936": {
@@ -11150,7 +11150,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 100513,
-          "y": -3856,
+          "y": -6158,
           "id": "91076902-107f-4fef-9b51-cc52d4f843bf936"
         },
         "a69615fa-2067-4345-997e-fb8d1ea491a3936": {
@@ -11177,7 +11177,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 100540,
-          "y": -3831,
+          "y": -6133,
           "id": "a69615fa-2067-4345-997e-fb8d1ea491a3936"
         },
         "c43a8e34-db12-44fc-9715-ab72e19cde51936": {
@@ -11204,7 +11204,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 100527,
-          "y": -3806,
+          "y": -6108,
           "id": "c43a8e34-db12-44fc-9715-ab72e19cde51936"
         },
         "782d3a35-bcef-4879-bf09-7ee28c2486ec936": {
@@ -11231,7 +11231,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 100548,
-          "y": -3781,
+          "y": -6083,
           "id": "782d3a35-bcef-4879-bf09-7ee28c2486ec936"
         },
         "abd91d18-8a23-4fd1-ab64-0baae7c2bb38936": {
@@ -11258,7 +11258,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 100513,
-          "y": -3756,
+          "y": -6058,
           "id": "abd91d18-8a23-4fd1-ab64-0baae7c2bb38936"
         },
         "8ef63a4b-3241-4c25-b301-b4abc3576e13936": {
@@ -11285,7 +11285,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 100552,
-          "y": -3731,
+          "y": -6033,
           "id": "8ef63a4b-3241-4c25-b301-b4abc3576e13936"
         },
         "344ef268-84fd-47b4-8a8a-88169e5da577936": {
@@ -11312,7 +11312,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 100302,
-          "y": -3606,
+          "y": -5908,
           "id": "344ef268-84fd-47b4-8a8a-88169e5da577936"
         },
         "9d2e4802-6d8b-49b7-9a08-fd987377de51936": {
@@ -11339,7 +11339,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 100302,
-          "y": -3506,
+          "y": -5808,
           "id": "9d2e4802-6d8b-49b7-9a08-fd987377de51936"
         },
         "481adad2-5e08-4217-af06-d4d07a3e6619936": {
@@ -11366,7 +11366,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 100302,
-          "y": -3406,
+          "y": -5708,
           "id": "481adad2-5e08-4217-af06-d4d07a3e6619936"
         },
         "de143386-d722-40f6-be3c-5402322e4099936": {
@@ -11394,7 +11394,7 @@ var schemeData =
           "label": "Список стилей",
           "id": "de143386-d722-40f6-be3c-5402322e4099936",
           "x": 100704,
-          "y": -4861
+          "y": -7163
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408936": {
           "color": {
@@ -11426,7 +11426,7 @@ var schemeData =
           "label": "Танцы",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408936",
           "x": 104071,
-          "y": -4433,
+          "y": -6735,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11458,7 +11458,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Художники",
           "x": 99911,
-          "y": -1358,
+          "y": -3660,
           "id": "78c6fd3a-0042-4940-97b4-2b7a8806d56e936",
           "shape": "box",
           "link": "",
@@ -11488,7 +11488,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 100211,
-          "y": -908,
+          "y": -3210,
           "id": "acb585c4-939a-478a-ae2d-7ab6f9e1acef936"
         },
         "021068f5-9ad9-4455-9028-c38d162198bb936": {
@@ -11515,7 +11515,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/21/2019",
           "x": 100461,
-          "y": -908,
+          "y": -3210,
           "id": "021068f5-9ad9-4455-9028-c38d162198bb936"
         },
         "c7aa92cb-c06b-4ff4-92aa-04abdd1ce2d4936": {
@@ -11542,7 +11542,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 100361,
-          "y": -908,
+          "y": -3210,
           "id": "c7aa92cb-c06b-4ff4-92aa-04abdd1ce2d4936"
         },
         "f6fd3124-0e46-449c-9f66-a3469178ef79936": {
@@ -11569,7 +11569,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 100211,
-          "y": -1758,
+          "y": -4060,
           "id": "f6fd3124-0e46-449c-9f66-a3469178ef79936"
         },
         "3b2f778f-d131-4275-9e00-1939d823247e936": {
@@ -11596,7 +11596,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 100361,
-          "y": -2008,
+          "y": -4310,
           "id": "3b2f778f-d131-4275-9e00-1939d823247e936"
         },
         "b318880d-8173-49a0-a0a2-8a90cf3e80b0936": {
@@ -11623,7 +11623,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 100361,
-          "y": -1758,
+          "y": -4060,
           "id": "b318880d-8173-49a0-a0a2-8a90cf3e80b0936"
         },
         "a943bd71-5f18-4d1a-af64-b141af01b560936": {
@@ -11650,7 +11650,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 100361,
-          "y": -1508,
+          "y": -3810,
           "id": "a943bd71-5f18-4d1a-af64-b141af01b560936"
         },
         "3f39a866-6253-4ed0-aa8c-3cdf9b33a0ff936": {
@@ -11677,7 +11677,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 100425,
-          "y": -1658,
+          "y": -3960,
           "id": "3f39a866-6253-4ed0-aa8c-3cdf9b33a0ff936"
         },
         "7551e430-3579-41f5-bfcb-7c428ab018d0936": {
@@ -11704,7 +11704,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 100455,
-          "y": -1633,
+          "y": -3935,
           "id": "7551e430-3579-41f5-bfcb-7c428ab018d0936"
         },
         "f84b0412-88ff-4926-8b0c-5bfab7e5728a936": {
@@ -11731,7 +11731,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 100421,
-          "y": -1608,
+          "y": -3910,
           "id": "f84b0412-88ff-4926-8b0c-5bfab7e5728a936"
         },
         "d150dc36-6a00-42e8-a88f-16d9a8c44712936": {
@@ -11758,7 +11758,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 100440,
-          "y": -1583,
+          "y": -3885,
           "id": "d150dc36-6a00-42e8-a88f-16d9a8c44712936"
         },
         "cfeca7d6-a327-4b4b-9142-5b2c82c3acf7936": {
@@ -11785,7 +11785,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 100428,
-          "y": -1558,
+          "y": -3860,
           "id": "cfeca7d6-a327-4b4b-9142-5b2c82c3acf7936"
         },
         "690bdd1f-d74d-4ca9-b0a1-076e01808272936": {
@@ -11812,7 +11812,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 100450,
-          "y": -1533,
+          "y": -3835,
           "id": "690bdd1f-d74d-4ca9-b0a1-076e01808272936"
         },
         "dfdcde8c-502c-46de-8adf-3f5d05174454936": {
@@ -11839,7 +11839,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 100453,
-          "y": -1508,
+          "y": -3810,
           "id": "dfdcde8c-502c-46de-8adf-3f5d05174454936"
         },
         "add87f4d-bb75-434f-920e-90ebe73de2ca936": {
@@ -11866,7 +11866,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 100431,
-          "y": -1483,
+          "y": -3785,
           "id": "add87f4d-bb75-434f-920e-90ebe73de2ca936"
         },
         "367c6484-8a81-4358-b4f9-592cd80055c4936": {
@@ -11893,7 +11893,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 100422,
-          "y": -1458,
+          "y": -3760,
           "id": "367c6484-8a81-4358-b4f9-592cd80055c4936"
         },
         "61628355-ebe8-4173-8e5e-ab8d25d66803936": {
@@ -11920,7 +11920,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 100449,
-          "y": -1433,
+          "y": -3735,
           "id": "61628355-ebe8-4173-8e5e-ab8d25d66803936"
         },
         "b645b2ec-f2ce-4007-8c23-5673a2906e41936": {
@@ -11947,7 +11947,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 100436,
-          "y": -1408,
+          "y": -3710,
           "id": "b645b2ec-f2ce-4007-8c23-5673a2906e41936"
         },
         "0a1e2d0c-37eb-45c4-80bb-c8f5fe926680936": {
@@ -11974,7 +11974,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 100457,
-          "y": -1383,
+          "y": -3685,
           "id": "0a1e2d0c-37eb-45c4-80bb-c8f5fe926680936"
         },
         "5ff371eb-cc04-42f5-80bd-93c5364d1011936": {
@@ -12001,7 +12001,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 100422,
-          "y": -1358,
+          "y": -3660,
           "id": "5ff371eb-cc04-42f5-80bd-93c5364d1011936"
         },
         "c1c7f446-e388-4644-9bb5-2b4584fff7d6936": {
@@ -12028,7 +12028,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 100461,
-          "y": -1333,
+          "y": -3635,
           "id": "c1c7f446-e388-4644-9bb5-2b4584fff7d6936"
         },
         "af8a5f5f-3520-4b25-bf32-47623ea43853936": {
@@ -12055,7 +12055,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 100211,
-          "y": -1208,
+          "y": -3510,
           "id": "af8a5f5f-3520-4b25-bf32-47623ea43853936"
         },
         "60444e59-331b-457a-bb2f-b94c50aa70c6936": {
@@ -12082,7 +12082,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 100211,
-          "y": -1108,
+          "y": -3410,
           "id": "60444e59-331b-457a-bb2f-b94c50aa70c6936"
         },
         "6ac3525e-9996-40c4-b987-9e35c6f8ccea936": {
@@ -12109,7 +12109,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 100211,
-          "y": -1008,
+          "y": -3310,
           "id": "6ac3525e-9996-40c4-b987-9e35c6f8ccea936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408820936": {
@@ -12142,7 +12142,7 @@ var schemeData =
           "label": "Художники",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408820936",
           "x": 105096,
-          "y": -1616,
+          "y": -3918,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12176,8 +12176,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Youtube:\nканалы",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375936",
-          "x": 104544,
-          "y": 4005,
+          "x": 104543,
+          "y": 1703,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12209,7 +12209,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Достопримечательности",
           "x": 100481,
-          "y": 10875,
+          "y": 8573,
           "id": "69963d2a-1011-4452-a720-3af41bcb5eb5936",
           "shape": "box",
           "link": "",
@@ -12239,7 +12239,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 100781,
-          "y": 11324,
+          "y": 9022,
           "id": "c2a2d1c6-a55a-4d0e-9215-51bf2232076a936"
         },
         "a3fbc6c0-ce2c-446e-9d75-bab31675b4d3936": {
@@ -12266,7 +12266,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/21/2019",
           "x": 100965,
-          "y": 11320,
+          "y": 9018,
           "id": "a3fbc6c0-ce2c-446e-9d75-bab31675b4d3936"
         },
         "a3bb92bc-bd33-47d0-9492-bcadbabcc97e936": {
@@ -12293,7 +12293,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 101098,
-          "y": 11317,
+          "y": 9015,
           "id": "a3bb92bc-bd33-47d0-9492-bcadbabcc97e936"
         },
         "219b2358-7005-480f-9951-619a625411a9936": {
@@ -12320,7 +12320,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 100775,
-          "y": 10348,
+          "y": 8046,
           "id": "219b2358-7005-480f-9951-619a625411a9936"
         },
         "caef02fe-f6fb-4f2a-8c95-f80773af05fa936": {
@@ -12347,7 +12347,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 100925,
-          "y": 10098,
+          "y": 7796,
           "id": "caef02fe-f6fb-4f2a-8c95-f80773af05fa936"
         },
         "c68451cf-141a-41e2-b085-f7ce90234023936": {
@@ -12374,7 +12374,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 100925,
-          "y": 10348,
+          "y": 8046,
           "id": "c68451cf-141a-41e2-b085-f7ce90234023936"
         },
         "708d8a13-ac7b-44cf-8b97-39a12c1f6cc6936": {
@@ -12401,7 +12401,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 100931,
-          "y": 10724,
+          "y": 8422,
           "id": "708d8a13-ac7b-44cf-8b97-39a12c1f6cc6936"
         },
         "e5556c63-147b-4b01-b6fe-3933170f7da0936": {
@@ -12428,7 +12428,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 100995,
-          "y": 10575,
+          "y": 8273,
           "id": "e5556c63-147b-4b01-b6fe-3933170f7da0936"
         },
         "0e8a6617-2fa7-48d2-b7aa-180ac9eecd21936": {
@@ -12455,7 +12455,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 101026,
-          "y": 10600,
+          "y": 8298,
           "id": "0e8a6617-2fa7-48d2-b7aa-180ac9eecd21936"
         },
         "9a143758-5749-4f07-9c46-fca416123c33936": {
@@ -12482,7 +12482,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 100991,
-          "y": 10625,
+          "y": 8323,
           "id": "9a143758-5749-4f07-9c46-fca416123c33936"
         },
         "61ba5523-f7ca-426c-9cf5-e5b0ed98fc22936": {
@@ -12509,7 +12509,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 101010,
-          "y": 10650,
+          "y": 8348,
           "id": "61ba5523-f7ca-426c-9cf5-e5b0ed98fc22936"
         },
         "a1d98ea5-853a-43e1-b074-7bde5ca2269c936": {
@@ -12536,7 +12536,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 100999,
-          "y": 10675,
+          "y": 8373,
           "id": "a1d98ea5-853a-43e1-b074-7bde5ca2269c936"
         },
         "5362c478-8bf8-489f-81ac-da9f1c4ef79f936": {
@@ -12563,7 +12563,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 101021,
-          "y": 10700,
+          "y": 8398,
           "id": "5362c478-8bf8-489f-81ac-da9f1c4ef79f936"
         },
         "c222e7a5-e73f-40c6-9239-011c1a873f6d936": {
@@ -12590,7 +12590,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 101023,
-          "y": 10725,
+          "y": 8423,
           "id": "c222e7a5-e73f-40c6-9239-011c1a873f6d936"
         },
         "572e7d64-3428-4a63-9c9b-69a946e74c8e936": {
@@ -12617,7 +12617,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 101001,
-          "y": 10750,
+          "y": 8448,
           "id": "572e7d64-3428-4a63-9c9b-69a946e74c8e936"
         },
         "e285c8ed-505b-4813-8558-9ba124f94236936": {
@@ -12644,7 +12644,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 100992,
-          "y": 10775,
+          "y": 8473,
           "id": "e285c8ed-505b-4813-8558-9ba124f94236936"
         },
         "67f86951-ffa4-4813-9a25-336b8e27778c936": {
@@ -12671,7 +12671,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 101020,
-          "y": 10800,
+          "y": 8498,
           "id": "67f86951-ffa4-4813-9a25-336b8e27778c936"
         },
         "995e5ea4-d373-40b5-9d7a-747b7561fdf6936": {
@@ -12698,7 +12698,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 101006,
-          "y": 10825,
+          "y": 8523,
           "id": "995e5ea4-d373-40b5-9d7a-747b7561fdf6936"
         },
         "41ac9997-8fe3-458f-a379-86a32ce1d862936": {
@@ -12725,7 +12725,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 101028,
-          "y": 10850,
+          "y": 8548,
           "id": "41ac9997-8fe3-458f-a379-86a32ce1d862936"
         },
         "415cf700-cc3d-4fc6-9828-78320d665a25936": {
@@ -12752,7 +12752,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 100992,
-          "y": 10875,
+          "y": 8573,
           "id": "415cf700-cc3d-4fc6-9828-78320d665a25936"
         },
         "88c01e25-3f0c-4de0-baa9-48febce8c139936": {
@@ -12779,7 +12779,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 101031,
-          "y": 10900,
+          "y": 8598,
           "id": "88c01e25-3f0c-4de0-baa9-48febce8c139936"
         },
         "1bde38d4-84c3-4880-912f-e2d37107384d936": {
@@ -12806,7 +12806,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 100781,
-          "y": 11024,
+          "y": 8722,
           "id": "1bde38d4-84c3-4880-912f-e2d37107384d936"
         },
         "42757fc4-658e-49bb-97c2-7a5104680fb9936": {
@@ -12833,7 +12833,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 100781,
-          "y": 11124,
+          "y": 8822,
           "id": "42757fc4-658e-49bb-97c2-7a5104680fb9936"
         },
         "65d89d33-948c-4593-87c1-32553aab8985936": {
@@ -12860,7 +12860,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 100781,
-          "y": 11224,
+          "y": 8922,
           "id": "65d89d33-948c-4593-87c1-32553aab8985936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107126936": {
@@ -12893,7 +12893,7 @@ var schemeData =
           "label": "Достопримечательности",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107126936",
           "x": 108272,
-          "y": 10573,
+          "y": 8271,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13138,8 +13138,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Школьная программа",
           "id": "b047f7ed-23ea-49c3-97d9-6ff1c2e52ae9936",
-          "x": 86281,
-          "y": -1241
+          "x": 86345,
+          "y": -2072
         },
         "968346ea-31fe-4071-a392-e3bd60d552e0936": {
           "color": {
@@ -13165,8 +13165,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Современные",
           "id": "968346ea-31fe-4071-a392-e3bd60d552e0936",
-          "x": 86256,
-          "y": -1111
+          "x": 86320,
+          "y": -1942
         },
         "23b5cb0b-8e4e-47b8-b8f9-cd2d48484ba7936": {
           "color": {
@@ -13192,8 +13192,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Список",
           "id": "23b5cb0b-8e4e-47b8-b8f9-cd2d48484ba7936",
-          "x": 86391,
-          "y": 4681
+          "x": 86455,
+          "y": 3850
         },
         "c072953c-ed32-4b08-bdb6-12ac84cd36c2936": {
           "color": {
@@ -13219,13 +13219,13 @@ var schemeData =
           "shapeProperties": {},
           "label": "ВДНХ",
           "id": "c072953c-ed32-4b08-bdb6-12ac84cd36c2936",
-          "x": 86516,
-          "y": 4636
+          "x": 86580,
+          "y": 3805
         },
         "ef5beaef-947e-459f-8d5f-c44e4f450e6d": {
           "label": "Youtube",
           "x": 100199,
-          "y": 1411,
+          "y": -891,
           "font": {
             "size": 72,
             "align": "left"
@@ -13242,151 +13242,151 @@ var schemeData =
         "deb19c06-9962-4eb1-bb58-727ed77f1a71": {
           "label": "Development",
           "x": 100499,
-          "y": 1861,
+          "y": -441,
           "id": "deb19c06-9962-4eb1-bb58-727ed77f1a71"
         },
         "e6732da3-27e1-451c-a582-d11de4867bbd": {
           "label": "11/21/2019",
           "x": 100683,
-          "y": 1860,
+          "y": -442,
           "id": "e6732da3-27e1-451c-a582-d11de4867bbd"
         },
         "b32bacde-d977-4114-9cc7-8d3dcaa1ad4c": {
           "label": "init",
           "x": 100790,
-          "y": 1859,
+          "y": -443,
           "id": "b32bacde-d977-4114-9cc7-8d3dcaa1ad4c"
         },
         "1b6ba08d-3567-41fe-85d6-dbda0c216443": {
           "label": "Notes",
           "x": 100499,
-          "y": 1011,
+          "y": -1291,
           "id": "1b6ba08d-3567-41fe-85d6-dbda0c216443"
         },
         "899be888-09a0-4f9e-ab3f-e01b072a8b03": {
           "label": "Dictionary of\nconcepts",
           "x": 100649,
-          "y": 761,
+          "y": -1541,
           "id": "899be888-09a0-4f9e-ab3f-e01b072a8b03"
         },
         "a32cd969-64ea-4494-9be3-2114b4f71243": {
           "label": "Details, thoughts",
           "x": 100649,
-          "y": 1011,
+          "y": -1291,
           "id": "a32cd969-64ea-4494-9be3-2114b4f71243"
         },
         "5be24ef4-f4f1-4d49-b1e1-e2f461b17c00": {
           "label": "Sections",
           "x": 100649,
-          "y": 1261,
+          "y": -1041,
           "id": "5be24ef4-f4f1-4d49-b1e1-e2f461b17c00"
         },
         "af12f6d5-1d65-46da-8da7-764a08b363e8": {
           "label": "Books",
           "x": 100713,
-          "y": 1111,
+          "y": -1191,
           "id": "af12f6d5-1d65-46da-8da7-764a08b363e8"
         },
         "8bfc203c-640a-450b-aac7-bfa6dfcb1036": {
           "label": "R&D institutions",
           "x": 100744,
-          "y": 1136,
+          "y": -1166,
           "id": "8bfc203c-640a-450b-aac7-bfa6dfcb1036"
         },
         "81ddb2c4-7057-4e0c-af0e-05e873479568": {
           "label": "Sites",
           "x": 100709,
-          "y": 1161,
+          "y": -1141,
           "id": "81ddb2c4-7057-4e0c-af0e-05e873479568"
         },
         "cded6b2d-773a-45f7-a584-362a40c6f060": {
           "label": "Magazines",
           "x": 100728,
-          "y": 1186,
+          "y": -1116,
           "id": "cded6b2d-773a-45f7-a584-362a40c6f060"
         },
         "d7bf5045-700e-4234-8181-8a299fa47110": {
           "label": "Articles",
           "x": 100717,
-          "y": 1211,
+          "y": -1091,
           "id": "d7bf5045-700e-4234-8181-8a299fa47110"
         },
         "d0160381-2a4f-40a0-8a23-922e6adba934": {
           "label": "Media content",
           "x": 100739,
-          "y": 1236,
+          "y": -1066,
           "id": "d0160381-2a4f-40a0-8a23-922e6adba934"
         },
         "5bd90ba7-ff55-492a-b16c-92429e681862": {
           "label": "Misc. web links",
           "x": 100741,
-          "y": 1261,
+          "y": -1041,
           "id": "5bd90ba7-ff55-492a-b16c-92429e681862"
         },
         "3948edc1-acfa-4562-99e8-4c31944254c0": {
           "label": "Projects",
           "x": 100719,
-          "y": 1286,
+          "y": -1016,
           "id": "3948edc1-acfa-4562-99e8-4c31944254c0"
         },
         "4cc207e8-2df9-4308-92dc-af6d6aebe708": {
           "label": "Tools",
           "x": 100710,
-          "y": 1311,
+          "y": -991,
           "id": "4cc207e8-2df9-4308-92dc-af6d6aebe708"
         },
         "5cae806b-cc10-4fee-8829-a8302133d218": {
           "label": "Organizations",
           "x": 100738,
-          "y": 1336,
+          "y": -966,
           "id": "5cae806b-cc10-4fee-8829-a8302133d218"
         },
         "33daab60-063a-4654-8211-57354f6b5a0b": {
           "label": "Standarts",
           "x": 100724,
-          "y": 1361,
+          "y": -941,
           "id": "33daab60-063a-4654-8211-57354f6b5a0b"
         },
         "7d4476ea-1249-4844-81c8-545f219e647d": {
           "label": "Forums, Groups",
           "x": 100746,
-          "y": 1386,
+          "y": -916,
           "id": "7d4476ea-1249-4844-81c8-545f219e647d"
         },
         "6e274a22-46fd-42ae-9ab6-ae3dfc518f6f": {
           "label": "Laws",
           "x": 100710,
-          "y": 1411,
+          "y": -891,
           "id": "6e274a22-46fd-42ae-9ab6-ae3dfc518f6f"
         },
         "030a6cc5-1327-4e88-b4bd-3a9431b3cedd": {
           "label": "Adjacent Themes",
           "x": 100749,
-          "y": 1436,
+          "y": -866,
           "id": "030a6cc5-1327-4e88-b4bd-3a9431b3cedd"
         },
         "8d4f0a1d-2746-4a31-9a27-829a0f93ce6f": {
           "label": "Questions",
           "x": 100499,
-          "y": 1561,
+          "y": -741,
           "id": "8d4f0a1d-2746-4a31-9a27-829a0f93ce6f"
         },
         "323e8e9e-1c33-4f7b-8baa-c2d91a6587fa": {
           "label": "Problems",
           "x": 100499,
-          "y": 1661,
+          "y": -641,
           "id": "323e8e9e-1c33-4f7b-8baa-c2d91a6587fa"
         },
         "02762a65-a59f-47f6-afd7-e7da541ef142": {
           "label": "Goals",
           "x": 100499,
-          "y": 1761,
+          "y": -541,
           "id": "02762a65-a59f-47f6-afd7-e7da541ef142"
         },
         "391de9aa-fbfc-4752-b6b1-b1fb85d7c9ef": {
           "label": "Youtube:\nканалы",
           "x": 98923,
-          "y": 8223,
+          "y": 5921,
           "font": {
             "size": 72,
             "align": "left"
@@ -13403,145 +13403,145 @@ var schemeData =
         "551493ca-b9b4-45d7-9eb2-e82cd93c1703": {
           "label": "Development",
           "x": 99223,
-          "y": 8673,
+          "y": 6371,
           "id": "551493ca-b9b4-45d7-9eb2-e82cd93c1703"
         },
         "e6511912-6ae4-49c6-b6ab-379b945ac712": {
           "label": "11/21/2019",
           "x": 99473,
-          "y": 8673,
+          "y": 6371,
           "id": "e6511912-6ae4-49c6-b6ab-379b945ac712"
         },
         "fcf5d99e-31fb-4dae-8bb4-9e61ddc8cd16": {
           "label": "init",
           "x": 99373,
-          "y": 8673,
+          "y": 6371,
           "id": "fcf5d99e-31fb-4dae-8bb4-9e61ddc8cd16"
         },
         "ee8669df-1bfa-4e77-bfa3-20362bdb20f4": {
           "label": "Notes",
           "x": 99223,
-          "y": 7823,
+          "y": 5521,
           "id": "ee8669df-1bfa-4e77-bfa3-20362bdb20f4"
         },
         "22a05ca8-9b14-422c-b989-f92c33b9debb": {
           "label": "Dictionary of\nconcepts",
           "x": 99656,
-          "y": 4373,
+          "y": 2071,
           "id": "22a05ca8-9b14-422c-b989-f92c33b9debb"
         },
         "bdce3203-6973-4429-a6c7-ddd96c729a05": {
           "label": "Details, thoughts",
           "x": 99383,
-          "y": 7770,
+          "y": 5468,
           "id": "bdce3203-6973-4429-a6c7-ddd96c729a05"
         },
         "769328bb-f5e7-4f30-81f2-202c9c5386f1": {
           "label": "Sections",
           "x": 99373,
-          "y": 8073,
+          "y": 5771,
           "id": "769328bb-f5e7-4f30-81f2-202c9c5386f1"
         },
         "906cc93d-49f7-459c-a0b3-f7c1bbe6e3e5": {
           "label": "Books",
           "x": 99437,
-          "y": 7923,
+          "y": 5621,
           "id": "906cc93d-49f7-459c-a0b3-f7c1bbe6e3e5"
         },
         "d72eb9ae-1607-43e0-b0a3-191ef0b246b0": {
           "label": "R&D institutions",
           "x": 99467,
-          "y": 7948,
+          "y": 5646,
           "id": "d72eb9ae-1607-43e0-b0a3-191ef0b246b0"
         },
         "7cc355d8-7e8b-4866-a35b-c79e5d441e82": {
           "label": "Sites",
           "x": 99433,
-          "y": 7973,
+          "y": 5671,
           "id": "7cc355d8-7e8b-4866-a35b-c79e5d441e82"
         },
         "8ac161e5-38a5-4cef-b0bd-a1da9a2fb2c0": {
           "label": "Magazines",
           "x": 99452,
-          "y": 7998,
+          "y": 5696,
           "id": "8ac161e5-38a5-4cef-b0bd-a1da9a2fb2c0"
         },
         "f0b5cf72-12c9-4cfc-9829-5b6ef0ca9e2c": {
           "label": "Articles",
           "x": 99440,
-          "y": 8023,
+          "y": 5721,
           "id": "f0b5cf72-12c9-4cfc-9829-5b6ef0ca9e2c"
         },
         "6e81c0e0-859d-4db7-9ce1-9d8df32c849f": {
           "label": "Media content",
           "x": 99462,
-          "y": 8048,
+          "y": 5746,
           "id": "6e81c0e0-859d-4db7-9ce1-9d8df32c849f"
         },
         "3220d4d8-c223-4a30-a7be-c92ac6fc522f": {
           "label": "Misc. web links",
           "x": 99465,
-          "y": 8073,
+          "y": 5771,
           "id": "3220d4d8-c223-4a30-a7be-c92ac6fc522f"
         },
         "8dd6e62f-4174-4f55-83cd-6412bdc5bdea": {
           "label": "Projects",
           "x": 99443,
-          "y": 8098,
+          "y": 5796,
           "id": "8dd6e62f-4174-4f55-83cd-6412bdc5bdea"
         },
         "26d3569c-f47c-4e59-83d7-6c39b72fd71e": {
           "label": "Tools",
           "x": 99434,
-          "y": 8123,
+          "y": 5821,
           "id": "26d3569c-f47c-4e59-83d7-6c39b72fd71e"
         },
         "4a887f06-e4f6-42b1-a01b-eb06aac34a4e": {
           "label": "Organizations",
           "x": 99461,
-          "y": 8148,
+          "y": 5846,
           "id": "4a887f06-e4f6-42b1-a01b-eb06aac34a4e"
         },
         "14f421b7-ea4c-44d8-b415-6485abe8feb0": {
           "label": "Standarts",
           "x": 99448,
-          "y": 8173,
+          "y": 5871,
           "id": "14f421b7-ea4c-44d8-b415-6485abe8feb0"
         },
         "d3d27ec4-c24f-47cf-87d3-d81e41d82ee1": {
           "label": "Forums, Groups",
           "x": 99469,
-          "y": 8198,
+          "y": 5896,
           "id": "d3d27ec4-c24f-47cf-87d3-d81e41d82ee1"
         },
         "45ec6d10-625e-4e55-a13a-023942b50ec4": {
           "label": "Laws",
           "x": 99434,
-          "y": 8223,
+          "y": 5921,
           "id": "45ec6d10-625e-4e55-a13a-023942b50ec4"
         },
         "e3b844cb-d0e0-41ff-a342-67c1f851ee64": {
           "label": "Adjacent Themes",
           "x": 99473,
-          "y": 8248,
+          "y": 5946,
           "id": "e3b844cb-d0e0-41ff-a342-67c1f851ee64"
         },
         "7d383949-c5ef-48f2-a78b-512a887196d6": {
           "label": "Questions",
           "x": 99223,
-          "y": 8373,
+          "y": 6071,
           "id": "7d383949-c5ef-48f2-a78b-512a887196d6"
         },
         "c72d659d-eb16-40ff-86a9-5fd1347a0fde": {
           "label": "Problems",
           "x": 99223,
-          "y": 8473,
+          "y": 6171,
           "id": "c72d659d-eb16-40ff-86a9-5fd1347a0fde"
         },
         "14cce472-7abf-4d7e-af77-08390f41aab4": {
           "label": "Goals",
           "x": 99223,
-          "y": 8573,
+          "y": 6271,
           "id": "14cce472-7abf-4d7e-af77-08390f41aab4"
         },
         "2fe50647-80d4-4a27-86a6-4d5f56887b54": {
@@ -13755,14 +13755,14 @@ var schemeData =
         },
         "163c0c16-2a99-4a1d-bef6-2fb1379747d0": {
           "id": "163c0c16-2a99-4a1d-bef6-2fb1379747d0",
-          "x": 86296,
-          "y": 5912,
+          "x": 86360,
+          "y": 5081,
           "label": "Вопросы"
         },
         "2f4ea3ce-7585-429d-b81c-e2e93f26f6a4": {
           "id": "2f4ea3ce-7585-429d-b81c-e2e93f26f6a4",
-          "x": 86488,
-          "y": 5916,
+          "x": 86552,
+          "y": 5085,
           "label": "Сайты выставочных центров",
           "shape": "box",
           "link": "",
@@ -13778,14 +13778,14 @@ var schemeData =
         },
         "f32cc919-88b8-4bd0-bc64-6477ff805cb9": {
           "id": "f32cc919-88b8-4bd0-bc64-6477ff805cb9",
-          "x": 86312,
-          "y": 9446,
+          "x": 86376,
+          "y": 8615,
           "label": "Вопросы"
         },
         "c7d1976a-bea1-43b1-aec0-9a6328e25f9b": {
           "id": "c7d1976a-bea1-43b1-aec0-9a6328e25f9b",
-          "x": 86466,
-          "y": 9445,
+          "x": 86530,
+          "y": 8614,
           "label": "Музейные афиши",
           "shape": "box",
           "link": "",
@@ -13802,13 +13802,13 @@ var schemeData =
         "f7c51bfb-b8de-45cc-89df-b5e2796549f4": {
           "id": "f7c51bfb-b8de-45cc-89df-b5e2796549f4",
           "x": 100612,
-          "y": -3236,
+          "y": -5538,
           "label": "Вопросы"
         },
         "8adf1400-8209-4187-ba21-915cca5a7f8d": {
           "id": "8adf1400-8209-4187-ba21-915cca5a7f8d",
           "x": 100760,
-          "y": -3240,
+          "y": -5542,
           "label": "Кружки и клубы",
           "shape": "box",
           "link": "",
@@ -13848,13 +13848,13 @@ var schemeData =
         "0edc7382-e7e4-40c6-9ade-742d0a7e24ad": {
           "id": "0edc7382-e7e4-40c6-9ade-742d0a7e24ad",
           "x": 100810,
-          "y": 1925,
+          "y": -377,
           "label": "Вопросы"
         },
         "9da02a6b-d9ab-4b63-9318-0c5873ee10fe": {
           "id": "9da02a6b-d9ab-4b63-9318-0c5873ee10fe",
           "x": 101035,
-          "y": 1925,
+          "y": -377,
           "label": "Обзоры каналов и роликов по темам",
           "shape": "box",
           "link": "",
@@ -13871,7 +13871,7 @@ var schemeData =
         "85f2fcf9-e6d2-4a66-b8b1-5c5302562e48": {
           "id": "85f2fcf9-e6d2-4a66-b8b1-5c5302562e48",
           "x": 101003,
-          "y": 1973,
+          "y": -329,
           "label": "Критика роликов и стримов",
           "shape": "box",
           "link": "",
@@ -13888,79 +13888,79 @@ var schemeData =
         "736dc201-e416-4f23-ab1c-08bba7673b94": {
           "id": "736dc201-e416-4f23-ab1c-08bba7673b94",
           "x": 99661,
-          "y": 7755,
+          "y": 5453,
           "label": "Коллекции ссылок по темам"
         },
         "de33059a-2b21-4eb7-98e4-81d28c1fa878": {
           "id": "de33059a-2b21-4eb7-98e4-81d28c1fa878",
           "x": 100893,
-          "y": -4862,
+          "y": -7164,
           "label": "Современные"
         },
         "4b1b677f-e9cf-408f-a2fc-253a5d0277ce": {
           "id": "4b1b677f-e9cf-408f-a2fc-253a5d0277ce",
           "x": 101040,
-          "y": -4972,
+          "y": -7274,
           "label": "Industrial dance"
         },
         "5a7802f6-c05d-4971-89fd-2fe2e44762c3": {
           "id": "5a7802f6-c05d-4971-89fd-2fe2e44762c3",
           "x": 101031,
-          "y": -4934,
+          "y": -7236,
           "label": "Vogue dance"
         },
         "07afb101-7f2b-414c-93a2-a1c43b85c57e": {
           "id": "07afb101-7f2b-414c-93a2-a1c43b85c57e",
           "x": 101048,
-          "y": -4906,
+          "y": -7208,
           "label": "Melbourne Shuffle"
         },
         "dc5eaf3f-5208-41a4-8888-b8aff4d2d370": {
           "id": "dc5eaf3f-5208-41a4-8888-b8aff4d2d370",
           "x": 101022,
-          "y": -4882,
+          "y": -7184,
           "label": "Jumpstyle"
         },
         "85c5deab-9774-4ffe-97d8-fcb1177d4f91": {
           "id": "85c5deab-9774-4ffe-97d8-fcb1177d4f91",
           "x": 101038,
-          "y": -4854,
+          "y": -7156,
           "label": "Drum and bass"
         },
         "359c9702-e73f-4f14-8ebd-f69914e5dffd": {
           "id": "359c9702-e73f-4f14-8ebd-f69914e5dffd",
           "x": 101021,
-          "y": -4833,
+          "y": -7135,
           "label": "Free Step"
         },
         "afb5128e-828e-44be-8ab4-3a70eb5050e9": {
           "id": "afb5128e-828e-44be-8ab4-3a70eb5050e9",
           "x": 101020,
-          "y": -4803,
+          "y": -7105,
           "label": "Tecktonic"
         },
         "faaaedf0-6a5b-4f04-94f1-9074628f1ae1": {
           "id": "faaaedf0-6a5b-4f04-94f1-9074628f1ae1",
           "x": 101033,
-          "y": -4770,
+          "y": -7072,
           "label": "Swing Shuffle"
         },
         "35487507-2106-4abb-ba6b-00aba126ba3f": {
           "id": "35487507-2106-4abb-ba6b-00aba126ba3f",
           "x": 101024,
-          "y": -4743,
+          "y": -7045,
           "label": "Rebolation"
         },
         "bdae53e6-8110-46db-a080-95ec75397375": {
           "id": "bdae53e6-8110-46db-a080-95ec75397375",
           "x": 99927,
-          "y": 3836,
+          "y": 1534,
           "label": "Channels collection"
         },
         "f7377021-5507-4037-b68c-009887753dd0": {
           "id": "f7377021-5507-4037-b68c-009887753dd0",
           "x": 100505,
-          "y": 4475,
+          "y": 2173,
           "label": "Programming",
           "shape": "box",
           "link": "",
@@ -13978,278 +13978,278 @@ var schemeData =
           "label": "Build Stuff - YouTube",
           "link": "https://www.youtube.com/channel/UCis5B3Zru-vymPRcbpM1NEA",
           "x": 100788,
-          "y": 3939,
+          "y": 1637,
           "id": "0ce1f560-4ca2-4776-a8bb-19b6af9beec2"
         },
         "396698a6-e7c9-4d4e-9ae8-2cddcdfb5ca3": {
           "label": "I Like To Make Stuff - YouTube",
           "link": "https://www.youtube.com/user/iliketomakestuffcom",
           "x": 100819,
-          "y": 3963,
+          "y": 1661,
           "id": "396698a6-e7c9-4d4e-9ae8-2cddcdfb5ca3"
         },
         "9ca8c81e-e7b1-4860-8a50-d25e1af31c99": {
           "label": "code::dive conference - YouTube",
           "link": "https://www.youtube.com/channel/UCU0Rt8VHO5-YNQXwIjkf-1g",
           "x": 100826,
-          "y": 3987,
+          "y": 1685,
           "id": "9ca8c81e-e7b1-4860-8a50-d25e1af31c99"
         },
         "bde00a4e-7645-41be-bb05-11f2de58a870": {
           "label": "PolyConf - YouTube",
           "link": "https://www.youtube.com/user/polyconf",
           "x": 100785,
-          "y": 4011,
+          "y": 1709,
           "id": "bde00a4e-7645-41be-bb05-11f2de58a870"
         },
         "011c441e-9535-4d4e-a854-bfb05f8e2544": {
           "label": "JSNation - YouTube",
           "link": "https://www.youtube.com/channel/UCQM428Hwrvxla8DCgjGONSQ",
           "x": 100785,
-          "y": 4035,
+          "y": 1733,
           "id": "011c441e-9535-4d4e-a854-bfb05f8e2544"
         },
         "f2241e49-c0b6-4f60-93b1-ce33a2bf1a12": {
           "label": "Coding Tech - YouTube",
           "link": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ",
           "x": 100796,
-          "y": 4059,
+          "y": 1757,
           "id": "f2241e49-c0b6-4f60-93b1-ce33a2bf1a12"
         },
         "5aa1cd94-d627-4b35-80f7-d8e0105d45d6": {
           "label": "GitNation React Conferences - YouTube",
           "link": "https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw",
           "x": 100849,
-          "y": 4083,
+          "y": 1781,
           "id": "5aa1cd94-d627-4b35-80f7-d8e0105d45d6"
         },
         "77a4ea17-f61e-4643-9bcd-8f4f98461867": {
           "label": "ReactiveConf - YouTube",
           "link": "https://www.youtube.com/channel/UCBHdUnixTWymmXBIw12Y8Qg",
           "x": 100799,
-          "y": 4107,
+          "y": 1805,
           "id": "77a4ea17-f61e-4643-9bcd-8f4f98461867"
         },
         "7103b00d-c232-4fcd-9d10-b9a60ab8f246": {
           "label": "Jazoon TechDays - YouTube",
           "link": "https://www.youtube.com/channel/UC9kq7rpecrCX7S_ptuA20OA",
           "x": 100812,
-          "y": 4131,
+          "y": 1829,
           "id": "7103b00d-c232-4fcd-9d10-b9a60ab8f246"
         },
         "5684730b-05c1-4230-8642-0656fb19b57e": {
           "label": "SFNode - YouTube",
           "link": "https://www.youtube.com/channel/UCbWHWaCKZqIm5pE5hSD7KFw",
           "x": 100782,
-          "y": 4179,
+          "y": 1877,
           "id": "5684730b-05c1-4230-8642-0656fb19b57e"
         },
         "13a96638-0c28-4b7b-b2a4-fefbc3d85e8c": {
           "label": "CppCon - YouTube",
           "link": "https://www.youtube.com/user/CppCon",
           "x": 100782,
-          "y": 4203,
+          "y": 1901,
           "id": "13a96638-0c28-4b7b-b2a4-fefbc3d85e8c"
         },
         "e75704d3-8850-44da-b532-f6a0b8aa3f1d": {
           "label": "Infinite Red - YouTube",
           "link": "https://www.youtube.com/channel/UCwpSzVt7QpLDbCnPXqR97-g",
           "x": 100792,
-          "y": 4227,
+          "y": 1925,
           "id": "e75704d3-8850-44da-b532-f6a0b8aa3f1d"
         },
         "57c28b63-ef7f-4d38-aa8a-cf9242ae5086": {
           "label": "GDG Lviv - YouTube",
           "link": "https://www.youtube.com/channel/UC5nknQj-2llSNd-jqXr4d_w",
           "x": 100787,
-          "y": 4251,
+          "y": 1949,
           "id": "57c28b63-ef7f-4d38-aa8a-cf9242ae5086"
         },
         "323655b3-985a-46fa-9d29-83a98adea1be": {
           "label": "mibuso.com - YouTube",
           "link": "https://www.youtube.com/channel/UCeFUrL4JZsOa39TQVmrw2ww",
           "x": 100795,
-          "y": 4275,
+          "y": 1973,
           "id": "323655b3-985a-46fa-9d29-83a98adea1be"
         },
         "f79ba645-7aab-4e06-b379-f8a41c63508f": {
           "label": "You Gotta Love Frontend - YouTube",
           "link": "https://www.youtube.com/channel/UCU-fOxx_kT5OARG0KiksiCA",
           "x": 100836,
-          "y": 4299,
+          "y": 1997,
           "id": "f79ba645-7aab-4e06-b379-f8a41c63508f"
         },
         "0a294902-d340-42cf-8ab4-00989b0bde9a": {
           "label": "Callstack Engineers - YouTube",
           "link": "https://www.youtube.com/channel/UCbvLih553T7f5OAGTfbsJkQ",
           "x": 100819,
-          "y": 4323,
+          "y": 2021,
           "id": "0a294902-d340-42cf-8ab4-00989b0bde9a"
         },
         "8ed8a12b-f41e-4bb4-8541-a0d208232fb5": {
           "label": "Coding Tech - YouTube",
           "link": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ",
           "x": 100796,
-          "y": 4347,
+          "y": 2045,
           "id": "8ed8a12b-f41e-4bb4-8541-a0d208232fb5"
         },
         "601f8088-5894-4521-9396-fd589a83b189": {
           "label": "node.js - YouTube",
           "link": "https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ",
           "x": 100779,
-          "y": 4371,
+          "y": 2069,
           "id": "601f8088-5894-4521-9396-fd589a83b189"
         },
         "fd069b4f-60a9-4264-8c16-df83f06b20e4": {
           "label": "InfoQ - YouTube",
           "link": "https://www.youtube.com/user/MarakanaTechTV",
           "x": 100774,
-          "y": 4395,
+          "y": 2093,
           "id": "fd069b4f-60a9-4264-8c16-df83f06b20e4"
         },
         "db2b001b-a93a-4af2-8a38-c52a239f488d": {
           "label": "SiliconANGLE theCUBE - YouTube",
           "link": "https://www.youtube.com/user/siliconangle",
           "x": 100831,
-          "y": 4419,
+          "y": 2117,
           "id": "db2b001b-a93a-4af2-8a38-c52a239f488d"
         },
         "5751bef1-4712-43dd-8be4-fa76deb090a6": {
           "label": "freeCodeCamp.org - YouTube",
           "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
           "x": 100817,
-          "y": 4443,
+          "y": 2141,
           "id": "5751bef1-4712-43dd-8be4-fa76deb090a6"
         },
         "cdd0e91a-c626-466f-837b-2b7e79c33a03": {
           "label": "Traversy Media - YouTube",
           "link": "https://www.youtube.com/user/TechGuyWeb",
           "x": 100805,
-          "y": 4467,
+          "y": 2165,
           "id": "cdd0e91a-c626-466f-837b-2b7e79c33a03"
         },
         "6cb065b9-b418-4e29-906e-25c3a34328b0": {
           "label": "Web Dev Simplified - YouTube",
           "link": "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw",
           "x": 100817,
-          "y": 4491,
+          "y": 2189,
           "id": "6cb065b9-b418-4e29-906e-25c3a34328b0"
         },
         "f7210b4b-8589-429f-9ee5-db7c07a7f4c0": {
           "label": "meet.js - YouTube",
           "link": "https://www.youtube.com/channel/UC2aX7cPDv8Stij0kBCM_qgg",
           "x": 100779,
-          "y": 4515,
+          "y": 2213,
           "id": "f7210b4b-8589-429f-9ee5-db7c07a7f4c0"
         },
         "b377db52-32a2-4cd8-a315-f9a9cca0e267": {
           "label": "Google Developers - YouTube",
           "link": "https://www.youtube.com/user/GoogleDevelopers",
           "x": 100817,
-          "y": 4539,
+          "y": 2237,
           "id": "b377db52-32a2-4cd8-a315-f9a9cca0e267"
         },
         "42076348-71d3-4611-a803-390eab5096d7": {
           "label": "ScotlandJS - YouTube",
           "link": "https://www.youtube.com/channel/UCpW0Vh7QKPA7n0oJfrizlsw",
           "x": 100792,
-          "y": 4563,
+          "y": 2261,
           "id": "42076348-71d3-4611-a803-390eab5096d7"
         },
         "61b50ded-8875-4d6b-b8ac-483bdb3d3deb": {
           "label": "NearForm - YouTube",
           "link": "https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A",
           "x": 100789,
-          "y": 4587,
+          "y": 2285,
           "id": "61b50ded-8875-4d6b-b8ac-483bdb3d3deb"
         },
         "8e2f1c74-03cd-4aba-bb6f-4af629659947": {
           "label": "Coders Field - YouTube",
           "link": "https://www.youtube.com/channel/UC1f5LPSlHSoFoUFqjrUPaTA",
           "x": 100797,
-          "y": 4611,
+          "y": 2309,
           "id": "8e2f1c74-03cd-4aba-bb6f-4af629659947"
         },
         "7d314324-d903-42da-a92e-c6f563457c59": {
           "label": "Josh Thomas - YouTube",
           "link": "https://www.youtube.com/user/jthoms81",
           "x": 100799,
-          "y": 4635,
+          "y": 2333,
           "id": "7d314324-d903-42da-a92e-c6f563457c59"
         },
         "3e8c6094-9199-4196-b086-b0bcf648aa4c": {
           "label": "Cian O'Maidin - YouTube",
           "link": "https://www.youtube.com/user/NodeDublin",
           "x": 100801,
-          "y": 4659,
+          "y": 2357,
           "id": "3e8c6094-9199-4196-b086-b0bcf648aa4c"
         },
         "1e25034a-f032-447f-9939-6036f41b2db1": {
           "label": "Espruino - YouTube",
           "link": "https://www.youtube.com/user/Espruino",
           "x": 100784,
-          "y": 4683,
+          "y": 2381,
           "id": "1e25034a-f032-447f-9939-6036f41b2db1"
         },
         "140f9d7e-4cd5-4116-ae28-09c749f3e5f7": {
           "label": "ConFoo Developer Conference - YouTube",
           "link": "https://www.youtube.com/user/confooca",
           "x": 100855,
-          "y": 4707,
+          "y": 2405,
           "id": "140f9d7e-4cd5-4116-ae28-09c749f3e5f7"
         },
         "d9d097a6-a0c9-4c7c-af63-16619021b8d2": {
           "label": "Pixels Camp - YouTube",
           "link": "https://www.youtube.com/channel/UCw569JcaFKdvIHAuEXoH7Kg",
           "x": 100796,
-          "y": 4731,
+          "y": 2429,
           "id": "d9d097a6-a0c9-4c7c-af63-16619021b8d2"
         },
         "73d437ca-125d-4506-a1ea-fc138e5a1c13": {
           "label": "javascriptla - YouTube",
           "link": "https://www.youtube.com/user/beachtutorials",
           "x": 100792,
-          "y": 4755,
+          "y": 2453,
           "id": "73d437ca-125d-4506-a1ea-fc138e5a1c13"
         },
         "dafb8d10-03f8-4566-b994-0f5a875dc458": {
           "label": "The Linux Foundation - YouTube",
           "link": "https://www.youtube.com/user/TheLinuxFoundation",
           "x": 100826,
-          "y": 4779,
+          "y": 2477,
           "id": "dafb8d10-03f8-4566-b994-0f5a875dc458"
         },
         "811399fa-c1c3-4221-aeec-c3785a447176": {
           "label": "Øredev Conference - YouTube",
           "link": "https://www.youtube.com/channel/UC0XtR2kcXnqtfrGSsxM8oAg",
           "x": 100819,
-          "y": 4803,
+          "y": 2501,
           "id": "811399fa-c1c3-4221-aeec-c3785a447176"
         },
         "38ae6906-0609-49eb-b812-5dc4b9730aa6": {
           "label": "Techlahoma - YouTube",
           "link": "https://www.youtube.com/channel/UCnLf0pfqIpSfKuPZ0e9iiNQ",
           "x": 100795,
-          "y": 4851,
+          "y": 2549,
           "id": "38ae6906-0609-49eb-b812-5dc4b9730aa6"
         },
         "9a7243de-6f89-418b-83e5-63e8e898a97c": {
           "label": "fitcevents - YouTube",
           "link": "https://www.youtube.com/user/fitcevents",
           "x": 100786,
-          "y": 4875,
+          "y": 2573,
           "id": "9a7243de-6f89-418b-83e5-63e8e898a97c"
         },
         "460f95b9-741d-4689-8ab2-db1880ebba24": {
           "id": "460f95b9-741d-4689-8ab2-db1880ebba24",
           "x": 100514,
-          "y": 3510,
+          "y": 1208,
           "label": "Сельская жизнь"
         },
         "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a": {
           "id": "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a",
           "x": 100882,
-          "y": 3514,
+          "y": 1212,
           "label": "Идиллия",
           "shape": "box",
           "link": "",
@@ -14267,92 +14267,92 @@ var schemeData =
           "label": "酒鬼小莉 Drunkard Lee - YouTube",
           "link": "https://www.youtube.com/channel/UCT4_rFXULf5E1rWtJC8Kk3w/videos",
           "x": 101143,
-          "y": 3508,
+          "y": 1206,
           "id": "b4a4d7e0-22f4-4aac-8a84-1676aae185df"
         },
         "af37af37-8667-4bbe-a0fa-d3dca582796a": {
           "id": "af37af37-8667-4bbe-a0fa-d3dca582796a",
           "x": 100542,
-          "y": 3217,
+          "y": 915,
           "label": "Традиционные ремесла"
         },
         "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4": {
           "id": "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4",
           "x": 100870,
-          "y": 3226,
+          "y": 924,
           "label": "Франция"
         },
         "2de60fa0-9afc-4e28-80ed-9a4cb4125501": {
           "label": "meteoalacartelemag - YouTube",
           "link": "https://www.youtube.com/user/meteoalacartelemag/videos",
           "x": 101104,
-          "y": 3224,
+          "y": 922,
           "id": "2de60fa0-9afc-4e28-80ed-9a4cb4125501"
         },
         "79bcc2c6-fea8-4d0c-b61e-4fdedfd0915f": {
           "label": "野小妹wild girl - YouTube",
           "link": "https://www.youtube.com/channel/UCf8zNN8N7U2BEm4WBQnWBIw/videos",
           "x": 101115,
-          "y": 3533,
+          "y": 1231,
           "id": "79bcc2c6-fea8-4d0c-b61e-4fdedfd0915f"
         },
         "45d4ffa5-a2eb-4d32-931c-356268ccf205": {
           "id": "45d4ffa5-a2eb-4d32-931c-356268ccf205",
           "x": 100493,
-          "y": 3793,
+          "y": 1491,
           "label": "Hardware"
         },
         "c0ad1469-8f17-46b1-9607-9a6c49dea6aa": {
           "id": "c0ad1469-8f17-46b1-9607-9a6c49dea6aa",
           "x": 100187,
-          "y": 4178,
+          "y": 1876,
           "label": "IT"
         },
         "bfc1979b-cb4b-4672-bd9a-ccf01a6b3449": {
           "label": "freeCodeCamp.org - YouTube",
           "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/videos",
           "x": 100816,
-          "y": 3915,
+          "y": 1613,
           "id": "bfc1979b-cb4b-4672-bd9a-ccf01a6b3449"
         },
         "c67af52f-4c79-417d-8b17-e7558137f1f4": {
           "label": "ExplainingComputers - YouTube",
           "link": "https://www.youtube.com/user/explainingcomputers/videos",
           "x": 100818,
-          "y": 3788,
+          "y": 1486,
           "id": "c67af52f-4c79-417d-8b17-e7558137f1f4"
         },
         "44ea468f-1cce-4c92-85f2-99ad4790dde2": {
           "id": "44ea468f-1cce-4c92-85f2-99ad4790dde2",
           "x": 100505,
-          "y": 3058,
+          "y": 756,
           "label": "Documentary"
         },
         "7ab2844e-d2c3-43b6-a59e-1432aa0d4936": {
           "label": "British Pathé - YouTube",
           "link": "https://www.youtube.com/user/britishpathe/featured",
           "x": 100890,
-          "y": 3063,
+          "y": 761,
           "id": "7ab2844e-d2c3-43b6-a59e-1432aa0d4936"
         },
         "928af6c5-c3c7-4b51-adc0-6072c6a5de96": {
           "label": "PyData - YouTube",
           "link": "https://www.youtube.com/user/PyDataTV/videos",
           "x": 100778,
-          "y": 3867,
+          "y": 1565,
           "id": "928af6c5-c3c7-4b51-adc0-6072c6a5de96"
         },
         "f00c6bcb-1fa5-484b-96e3-395ac93c48f3": {
           "label": "MLconf - YouTube",
           "link": "https://www.youtube.com/channel/UCjeM1xxYb_37bZfyparLS3Q/videos",
           "x": 100779,
-          "y": 3891,
+          "y": 1589,
           "id": "f00c6bcb-1fa5-484b-96e3-395ac93c48f3"
         },
         "8a416181-f373-4fef-8989-a819915c66cc": {
           "id": "8a416181-f373-4fef-8989-a819915c66cc",
           "x": 100222,
-          "y": 3362,
+          "y": 1060,
           "label": "Развлечения"
         },
         "849f7b5d-b9aa-4aa2-a527-8b8a5f654712728875965544430": {
@@ -29645,10 +29645,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.009708413033245895,
+    "scale": 0.017199045901590135,
     "viewPosition": {
-      "x": 92929.08945118086,
-      "y": 17296.58732293956
+      "x": 95274.70344288913,
+      "y": 8175.743407985521
     }
   }
 }

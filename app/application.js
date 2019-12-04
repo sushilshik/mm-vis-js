@@ -1094,6 +1094,12 @@ function draw() {
          network.manipulation.editNode();
       }
    });
+   $(document).keyup(function (event) {
+      //Run node code. alt+r
+      if (event.altKey && event.keyCode === 82) {
+         $("span#runNodeCodeButton").click();
+      }
+   });
    $("#network").keyup(function (event) {
       //Build project. alt+b
       if (event.altKey && event.keyCode === 66) {
@@ -2059,13 +2065,94 @@ $(document).ready(function() {
 	closeElementEditButton.click(function() {
 		schemeEditElementsMenu.hide();
 	});
+function getLevelLastBranch(tree, levelNumber) {
+   var branch = tree;
+   var lastKey = tree.keys.slice(-1)[0];
+   for (var i = 0; i < levelNumber; i++) {
+      branch = branch.nodes[lastKey];
+      if (typeof branch === "undefined") {
+         return branch;
+      }
+      console.log(branch);
+      lastKey = branch.keys.slice(-1)[0];
+   }
+   return branch;
+}
+function buildRow(item, index, root) {
+
+   var currentItemStep = item.match(/^\s*/g)[0].split("    ").length - 1;
+
+   var key = index.toString();
+
+   var labelAndLink = item.trim().split(" (http");
+   var label = labelAndLink[0].trim();
+
+   if (root.lastItemStep < currentItemStep) {
+      var branch = {nodes:{}};
+      branch.keys = [key];
+      branch.nodes[key] = item.trim();
+      branch.maxWidth = label.length;
+      branch.itemStep = currentItemStep;
+      branch.lastItemStep = currentItemStep;
+      var parentLevel = getLevelLastBranch(root, currentItemStep - 1);
+      parentLevel.nodes[key] = branch;
+      parentLevel.keys.push(key);
+   } else {
+      var parentLevel = getLevelLastBranch(root, currentItemStep);
+      parentLevel.nodes[key] = item.trim();
+      if (parentLevel.maxWidth < label.length) {
+         parentLevel.maxWidth = label.length;
+      }
+      parentLevel.keys.push(key);
+   }
+
+   root.lastItemStep = item.match(/^\s*/g)[0].split("    ").length - 1;
+
+   return root;
+}
+function buildPagesNodes(level, width, alignMap, parentNodeId) {
+   var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
+   var pNode = network.getPositions()[nodeIdInput];
+   var keys = level.keys;
+   var lastNodeId;
+   level.keys.forEach(function(key, index) {
+      if (typeof level.nodes[key].nodes !== "undefined") {
+         var newWidth = width + level.maxWidth*14;
+         buildPagesNodes(level.nodes[key], newWidth, alignMap, lastNodeId);
+      } else {
+         var line = level.nodes[key];
+         var labelAndLink = line.split(" (http");
+         var label = labelAndLink[0].trim();
+         var link = "";
+         if (typeof labelAndLink[1] !== "undefined") {
+            link = "http" + labelAndLink[1].slice(0,-1);
+         }
+         var nodeId = addNodeOnCanvas(
+            label, 
+            link,
+            {x:pNode.x, y:pNode.y}, 
+            width + level.maxWidth*14/2, 
+            25*parseInt(key, 10), 
+            network)[0];
+         lastNodeId = nodeId;
+         if (typeof parentNodeId !== "undefined" && parentNodeId !== null) {
+            var edgeData = {from: parentNodeId, to: nodeId};
+            network.body.data.edges.getDataSet().add(edgeData);
+         }
+         if (typeof alignMap[keys[0]] === "undefined") {
+            alignMap[keys[0]] = [];
+         }
+         alignMap[keys[0]].push(network.body.nodes[nodeId]);
+      }
+   });
+}
    var splitNodeListLabelButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>");
    schemeEditElementsMenu.append(splitNodeListLabelButton);
 
    splitNodeListLabelButton.click(function() {
       var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
       var sourceNode = getNodeFromNetworkDataById(nodeIdInput);
-      var nodeLabel = sourceNode.label;
+      var nodeLabel = sourceNode.label.trim();
       var pNode = network.getPositions()[nodeIdInput];
       var labelLines;
       if (nodeLabel.split("!@!@").length > 1) {
@@ -2078,21 +2165,20 @@ $(document).ready(function() {
       var newNodesIds = [];
       if (labelLines[0] == "to") {
          labelLines.shift();
+         var root = {nodes:{}};
+         root.itemStep = 0;
+         root.lastItemStep = 0;
+         root.maxWidth = 0;
+         root.keys = []
          labelLines.forEach(function(line,index) {
-            var position = {
-               x: pNode.x + 300,
-               y: y + (14*line.split("\n").length)/2
-            };
-            var labelAndLink = line.split(" (http");
-            var label = labelAndLink[0].trim();
-            var link = "";
-            if (typeof labelAndLink[1] !== "undefined") {
-               link = "http" + labelAndLink[1].slice(0,-1);
-            }
-            var nodeId = addNodeOnCanvas(label, link, position, 0, 0, network);
-            newNodesIds.push(nodeId);
-            y = y + 14*line.split("\n").length + 10;
+            root = buildRow(line, index, root);
          });
+         var alignMap = {};
+         buildPagesNodes(root, 600, alignMap, null);
+         for (var key in alignMap) {
+            //console.log(key);
+            alignNodesLeft(alignMap[key]);
+         }
       } else {
          labelLines.forEach(function(line,index) {
             var position = {
@@ -2103,12 +2189,13 @@ $(document).ready(function() {
             newNodesIds.push(nodeId);
             y = y + 14*line.split("\n").length + 10;
          });
+         var nodes = [];
+         newNodesIds.forEach(function(nodeId) {      
+            nodes.push(network.body.nodes[nodeId]);
+         });
+         alignNodesLeft(nodes);
       }
-      var nodes = [];
-      newNodesIds.forEach(function(nodeId) {      
-         nodes.push(network.body.nodes[nodeId]);
-      });
-      alignNodesLeft(nodes);
+
    });
 	var runNodeCodeButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='runNodeCodeButton'>runNodeCode</span></div>");
 
