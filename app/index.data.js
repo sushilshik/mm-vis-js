@@ -846,8 +846,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "id": "df5f4410-e137-439e-a57e-3180aea93438856173",
-          "x": 93295,
-          "y": -12363,
+          "x": 50166,
+          "y": -12704,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -878,8 +878,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "id": "6324bd20-c7d2-4a86-b4e8-a20542f837cd856173",
-          "x": 93584,
-          "y": -12281
+          "x": 50455,
+          "y": -12622
         },
         "6ff00da1-79eb-4358-9013-6e4a2b1b07f2856173": {
           "color": {
@@ -907,8 +907,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "id": "6ff00da1-79eb-4358-9013-6e4a2b1b07f2856173",
-          "x": 93804,
-          "y": -12281
+          "x": 50675,
+          "y": -12622
         },
         "252e337a-3819-4a4a-8bf5-ea2bbb86b4af856173": {
           "color": {
@@ -936,8 +936,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
           "id": "252e337a-3819-4a4a-8bf5-ea2bbb86b4af856173",
-          "x": 93994,
-          "y": -12290
+          "x": 50865,
+          "y": -12631
         },
         "15821d9f-1489-4617-a89b-1ceaba5d528b856173": {
           "color": {
@@ -968,8 +968,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Programming\ncode\nmaps",
           "id": "15821d9f-1489-4617-a89b-1ceaba5d528b856173",
-          "x": 98531,
-          "y": -16194,
+          "x": 55429,
+          "y": -16431,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1003,8 +1003,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173",
-          "x": 96947,
-          "y": -12279,
+          "x": 53818,
+          "y": -12620,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1036,8 +1036,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "How to use",
           "id": "8201061e-8bbe-4c78-9486-1bdfa4a0d6b3856173",
-          "x": 93346,
-          "y": -9118,
+          "x": 50217,
+          "y": -9459,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1068,8 +1068,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Themes",
           "id": "ec6b35ec-2ca8-4ec6-937a-425d9bc6c1e3856173",
-          "x": 93689,
-          "y": -9306
+          "x": 50560,
+          "y": -9647
         },
         "e761e4ea-6719-4d45-b496-59483891b9dd856173": {
           "color": {
@@ -1097,8 +1097,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "These scheme development",
           "id": "e761e4ea-6719-4d45-b496-59483891b9dd856173",
-          "x": 93741,
-          "y": -8995
+          "x": 50612,
+          "y": -9336
         },
         "c470ea73-31e7-4aff-9bf0-a9e896f1a25e856173": {
           "color": {
@@ -1126,8 +1126,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "id": "c470ea73-31e7-4aff-9bf0-a9e896f1a25e856173",
-          "x": 94000,
-          "y": -9002
+          "x": 50871,
+          "y": -9343
         },
         "dfa929ff-3a17-4f83-84db-b3020d96c579856173": {
           "color": {
@@ -1155,8 +1155,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
           "id": "dfa929ff-3a17-4f83-84db-b3020d96c579856173",
-          "x": 94188,
-          "y": -9004
+          "x": 51059,
+          "y": -9345
         },
         "e9f35a53-56ce-4e8e-bfc2-d3ff89dfc2ef856173": {
           "color": {
@@ -1184,8 +1184,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Interface",
           "id": "e9f35a53-56ce-4e8e-bfc2-d3ff89dfc2ef856173",
-          "x": 93888,
-          "y": -9747
+          "x": 50759,
+          "y": -10088
         },
         "6fee1dec-bcae-476d-92b7-8d4f518a0d24856173": {
           "color": {
@@ -1213,8 +1213,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Add new node",
           "id": "6fee1dec-bcae-476d-92b7-8d4f518a0d24856173",
-          "x": 94077,
-          "y": -9387
+          "x": 50948,
+          "y": -9728
         },
         "85a40679-a2df-4fd8-b1fd-f22b79153f90856173": {
           "color": {
@@ -1242,8 +1242,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "\"Add node\" button",
           "id": "85a40679-a2df-4fd8-b1fd-f22b79153f90856173",
-          "x": 94312,
-          "y": -9416
+          "x": 51183,
+          "y": -9757
         },
         "d8bd765f-840a-42e0-b30b-6842b9d2117f856173": {
           "color": {
@@ -1271,8 +1271,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Double click and click in new node position.",
           "id": "d8bd765f-840a-42e0-b30b-6842b9d2117f856173",
-          "x": 94391,
-          "y": -9330
+          "x": 51262,
+          "y": -9671
         },
         "4f346cf4-10eb-42ff-b786-bb788c09c820856173": {
           "color": {
@@ -1303,8 +1303,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "How to use\nmm-vis-js",
           "id": "4f346cf4-10eb-42ff-b786-bb788c09c820856173",
-          "x": 98059,
-          "y": -9464,
+          "x": 54930,
+          "y": -9805,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1338,8 +1338,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js\ntesting",
           "id": "d01d5904-e285-4ab5-b9be-1aae2ab8091e856173",
-          "x": 97646,
-          "y": -3442,
+          "x": 54517,
+          "y": -3783,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1370,8 +1370,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Procedure",
           "id": "3a3af8ef-4eeb-4caf-b7bc-cab3c9025926856173",
-          "x": 94137,
-          "y": -4157
+          "x": 51008,
+          "y": -4498
         },
         "921dfca8-6406-4aaf-a107-4e6f50288fef856173": {
           "color": {
@@ -1399,8 +1399,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Install",
           "id": "921dfca8-6406-4aaf-a107-4e6f50288fef856173",
-          "x": 94307,
-          "y": -4227
+          "x": 51178,
+          "y": -4568
         },
         "8c692781-3645-49b9-83dd-fc722f4221ba856173": {
           "color": {
@@ -1428,8 +1428,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Docker",
           "id": "8c692781-3645-49b9-83dd-fc722f4221ba856173",
-          "x": 94440,
-          "y": -4255
+          "x": 51311,
+          "y": -4596
         },
         "1436f9f6-c449-4d40-8993-99def1b2f237856173": {
           "color": {
@@ -1457,8 +1457,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose",
           "id": "1436f9f6-c449-4d40-8993-99def1b2f237856173",
-          "x": 94472,
-          "y": -4203
+          "x": 51343,
+          "y": -4544
         },
         "e9c2a934-a28b-4071-b33d-2d94172b184b856173": {
           "color": {
@@ -1486,8 +1486,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "pip install docker-compose",
           "id": "e9c2a934-a28b-4071-b33d-2d94172b184b856173",
-          "x": 94657,
-          "y": -4204
+          "x": 51528,
+          "y": -4545
         },
         "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a856173": {
           "color": {
@@ -1515,8 +1515,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tests run",
           "id": "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a856173",
-          "x": 94316,
-          "y": -4092
+          "x": 51187,
+          "y": -4433
         },
         "94cf1f83-6efb-4377-a4dc-f03b54a9c338856173": {
           "color": {
@@ -1544,8 +1544,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Open two consoles",
           "id": "94cf1f83-6efb-4377-a4dc-f03b54a9c338856173",
-          "x": 94475,
-          "y": -4132
+          "x": 51346,
+          "y": -4473
         },
         "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202856173": {
           "color": {
@@ -1573,8 +1573,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "First console",
           "id": "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202856173",
-          "x": 94453,
-          "y": -4075
+          "x": 51324,
+          "y": -4416
         },
         "29dbe588-d883-4d1d-a6d2-fdc78b299cea856173": {
           "color": {
@@ -1602,8 +1602,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose up --build.",
           "id": "29dbe588-d883-4d1d-a6d2-fdc78b299cea856173",
-          "x": 94627,
-          "y": -4076
+          "x": 51498,
+          "y": -4417
         },
         "3c11d1c8-d28e-4982-8aa2-a5f0ea5d1c20856173": {
           "color": {
@@ -1631,8 +1631,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Will start container with chrome inside",
           "id": "3c11d1c8-d28e-4982-8aa2-a5f0ea5d1c20856173",
-          "x": 94911,
-          "y": -4091
+          "x": 51782,
+          "y": -4432
         },
         "343c1738-b42b-4f8d-b712-83a9873afb6e856173": {
           "color": {
@@ -1660,8 +1660,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Process will stay in console",
           "id": "343c1738-b42b-4f8d-b712-83a9873afb6e856173",
-          "x": 94876,
-          "y": -4055
+          "x": 51747,
+          "y": -4396
         },
         "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706856173": {
           "color": {
@@ -1689,8 +1689,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Second console",
           "id": "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706856173",
-          "x": 94463,
-          "y": -4001
+          "x": 51334,
+          "y": -4342
         },
         "115fa2fa-e68c-4d93-87eb-b45d9309975a856173": {
           "color": {
@@ -1718,8 +1718,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker exec -it app-express npm run test:e2e",
           "id": "115fa2fa-e68c-4d93-87eb-b45d9309975a856173",
-          "x": 94699,
-          "y": -4004
+          "x": 51570,
+          "y": -4345
         },
         "707d41c8-58ef-4709-beeb-cb327c43afe3856173": {
           "color": {
@@ -1747,8 +1747,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tests execution",
           "id": "707d41c8-58ef-4709-beeb-cb327c43afe3856173",
-          "x": 94954,
-          "y": -4013
+          "x": 51825,
+          "y": -4354
         },
         "9668f2cc-2d4f-4ca4-ae65-c7b262fbc215856173": {
           "color": {
@@ -1776,8 +1776,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Process will exit after tests execution",
           "id": "9668f2cc-2d4f-4ca4-ae65-c7b262fbc215856173",
-          "x": 95022,
-          "y": -3980
+          "x": 51893,
+          "y": -4321
         },
         "3277fba8-f3ea-42ac-a348-99b8be53a518856173": {
           "color": {
@@ -1805,8 +1805,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose down",
           "id": "3277fba8-f3ea-42ac-a348-99b8be53a518856173",
-          "x": 94626,
-          "y": -3939
+          "x": 51497,
+          "y": -4280
         },
         "4d7a6dd7-d682-46dc-88ba-e647a2b56dd3856173": {
           "color": {
@@ -1834,8 +1834,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "First console process will exit",
           "id": "4d7a6dd7-d682-46dc-88ba-e647a2b56dd3856173",
-          "x": 94847,
-          "y": -3934
+          "x": 51718,
+          "y": -4275
         },
         "e5822941-43d7-4321-adea-2295830fc8f2856173": {
           "color": {
@@ -1863,8 +1863,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Schemes are built on canvas - HTML5 elemen",
           "id": "e5822941-43d7-4321-adea-2295830fc8f2856173",
-          "x": 94072,
-          "y": -3080
+          "x": 50943,
+          "y": -3421
         },
         "560ea7ba-7a74-454e-b05f-5386bcbe1fea856173": {
           "color": {
@@ -1892,8 +1892,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Position of objects on canvas can be tested only as raster graphic",
           "id": "560ea7ba-7a74-454e-b05f-5386bcbe1fea856173",
-          "x": 94514,
-          "y": -3110
+          "x": 51385,
+          "y": -3451
         },
         "e5ce8a89-bdd3-411d-be10-bc922d6cc884856173": {
           "color": {
@@ -1921,8 +1921,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "We need to check pixels color canvas",
           "id": "e5ce8a89-bdd3-411d-be10-bc922d6cc884856173",
-          "x": 94425,
-          "y": -3071
+          "x": 51296,
+          "y": -3412
         },
         "8e40d485-6ead-4da2-af05-24584dd6619b856173": {
           "color": {
@@ -1950,8 +1950,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "We can use libraries like openCV",
           "id": "8e40d485-6ead-4da2-af05-24584dd6619b856173",
-          "x": 94409,
-          "y": -3031
+          "x": 51280,
+          "y": -3372
         },
         "cc8e6464-8c63-4dff-bd01-cae948551537856173": {
           "color": {
@@ -1980,8 +1980,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "How to save?",
           "id": "cc8e6464-8c63-4dff-bd01-cae948551537856173",
-          "x": 94255,
-          "y": -9752,
+          "x": 51126,
+          "y": -10093,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2013,8 +2013,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "How to load?",
           "id": "e1920ad1-d46d-4b40-af05-a0360cfa6995856173",
-          "x": 94253,
-          "y": -9675,
+          "x": 51124,
+          "y": -10016,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2047,8 +2047,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click on updateMenuFromScheme in showData menu.",
           "id": "7c447d53-2b12-454d-b739-f115e827d65e856173",
-          "x": 94579,
-          "y": -9749,
+          "x": 51450,
+          "y": -10090,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2081,8 +2081,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click on node with save date. Then click in it's menu\n(on the left of screen) on loadSavedProjectToMenu.",
           "id": "dcfae344-093e-4b35-830a-b1c73dc9669c856173",
-          "x": 94570,
-          "y": -9673,
+          "x": 51441,
+          "y": -10014,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2114,8 +2114,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Scheme json-code will be updated in menu\nand saved in browser local storage.\nData is saved permanently there.\nNear saveCanvasProjectData node\nsave date node will be created.",
           "id": "03fdf934-eb51-4d12-b029-d0332d266a04856173",
-          "x": 94961,
-          "y": -9745,
+          "x": 51832,
+          "y": -10086,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2147,8 +2147,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Scheme json-code will be loaded in menu and scheme will be updated.",
           "id": "e6ca900d-d66c-4253-ae91-d612b13a3a71856173",
-          "x": 95050,
-          "y": -9668,
+          "x": 51921,
+          "y": -10009,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2179,8 +2179,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Save and load",
           "id": "07a55034-8980-434d-9f67-42c28ed622fe856173",
-          "x": 94079,
-          "y": -9665
+          "x": 50950,
+          "y": -10006
         },
         "dc83cdd3-80f4-4222-920e-253cd92fc719856173": {
           "color": {
@@ -2209,8 +2209,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Show in console list of keys in browser local storage.",
           "id": "dc83cdd3-80f4-4222-920e-253cd92fc719856173",
-          "x": 94378,
-          "y": -9580,
+          "x": 51249,
+          "y": -9921,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2242,8 +2242,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "showBrowserLocalStorageKeys()",
           "id": "6248c6c5-2ee7-4480-b958-78347878c9c4856173",
-          "x": 94800,
-          "y": -9580,
+          "x": 51671,
+          "y": -9921,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2275,8 +2275,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "In console remove items by keys from browser local storage.",
           "id": "15256d90-5edf-46e0-9144-876a83237246856173",
-          "x": 94404,
-          "y": -9520,
+          "x": 51275,
+          "y": -9861,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2308,8 +2308,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "localStorage.removeItem(keyName)",
           "id": "6e39fa25-9234-4d1a-94f9-e3e83425723a856173",
-          "x": 94807,
-          "y": -9524,
+          "x": 51678,
+          "y": -9865,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2342,8 +2342,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Copy and paste nodes",
           "id": "d5cdb95f-43cf-4cb2-b830-3b446b3efc0a130856173",
-          "x": 94105,
-          "y": -9992,
+          "x": 50976,
+          "y": -10333,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2376,8 +2376,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "In the screen center there will be new node.\nIn label it will have json-code of selected\nnodes and edges.",
           "id": "4eb85e99-3c2a-43f9-b681-93172c9d49de130856173",
-          "x": 95029,
-          "y": -10067,
+          "x": 51900,
+          "y": -10408,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2410,8 +2410,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Make node with json-code of selected\nnodes and edges",
           "id": "fae2f989-0b9d-4c04-9939-854d750ff81b130856173",
-          "x": 94408,
-          "y": -10095,
+          "x": 51279,
+          "y": -10436,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2444,8 +2444,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Select one or several nodes",
           "id": "8f8c6751-24e7-4d8e-a0ee-12a25cc85ef4130856173",
-          "x": 94764,
-          "y": -10120,
+          "x": 51635,
+          "y": -10461,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2478,8 +2478,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click toJson in top menu",
           "id": "fe2f192b-b1fe-49b6-a1d6-5158dfc18b86130856173",
-          "x": 94753,
-          "y": -10066,
+          "x": 51624,
+          "y": -10407,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2512,8 +2512,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Make nodes and edges from node with json-code",
           "id": "47a29299-c65d-45e2-8915-af25c997123f130856173",
-          "x": 94442,
-          "y": -9905,
+          "x": 51313,
+          "y": -10246,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2546,8 +2546,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Select node with json-code",
           "id": "bd18b23c-d6c0-46ff-ae22-fead73d8f7b1130856173",
-          "x": 94765,
-          "y": -9953,
+          "x": 51636,
+          "y": -10294,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2580,8 +2580,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click fromJson in top menu",
           "id": "fe671b00-860a-40fc-b743-072a270cb96b130856173",
-          "x": 94766,
-          "y": -9918,
+          "x": 51637,
+          "y": -10259,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2614,8 +2614,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click on canvas free space",
           "id": "7567150b-bad8-47cb-878d-abf320639b7c130856173",
-          "x": 94765,
-          "y": -9883,
+          "x": 51636,
+          "y": -10224,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2649,8 +2649,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/sushilshik/mm-vis-js",
           "id": "be11ed2d-69c3-468b-97a3-543494855a1a856173",
-          "x": 94469,
-          "y": -831,
+          "x": 51340,
+          "y": -1172,
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
           "borderWidth": ""
@@ -2684,8 +2684,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js code\ndevelopment",
           "id": "c6af84d7-1709-456c-bd31-c32f6b4371cf856173",
-          "x": 98869,
-          "y": -449,
+          "x": 55740,
+          "y": -790,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2716,8 +2716,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "mm-vis-js code\ndevelopment",
-          "x": 93363,
-          "y": -674,
+          "x": 50234,
+          "y": -1015,
           "id": "67768fae-0037-4af6-9a58-4c0248f270d0173",
           "shape": "box",
           "link": "",
@@ -2746,8 +2746,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 93993,
-          "y": -174,
+          "x": 50864,
+          "y": -515,
           "id": "fde93f9d-f237-42a7-8082-0318b1513feb173"
         },
         "b9d0fe1f-9ed9-44ea-9054-6e4d76112447173": {
@@ -2776,8 +2776,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/5/2019",
-          "x": 94243,
-          "y": -174,
+          "x": 51114,
+          "y": -515,
           "id": "b9d0fe1f-9ed9-44ea-9054-6e4d76112447173",
           "shape": "box",
           "link": "",
@@ -2806,8 +2806,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 94143,
-          "y": -174,
+          "x": 51014,
+          "y": -515,
           "id": "42ca8a23-2441-4c4f-bda3-71e155a1d046173"
         },
         "e9b483ea-b5c9-4cc4-9a8f-5f3e899a3fde173": {
@@ -2833,8 +2833,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 93989,
-          "y": -1124,
+          "x": 50860,
+          "y": -1465,
           "id": "e9b483ea-b5c9-4cc4-9a8f-5f3e899a3fde173"
         },
         "a8190c68-bf6b-4a14-973b-ba0b2934af41173": {
@@ -2860,8 +2860,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 94139,
-          "y": -1374,
+          "x": 51010,
+          "y": -1715,
           "id": "a8190c68-bf6b-4a14-973b-ba0b2934af41173"
         },
         "8ba6ac5f-a485-41de-ba9f-fbb3f2dcdfae173": {
@@ -2887,8 +2887,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 94139,
-          "y": -1124,
+          "x": 51010,
+          "y": -1465,
           "id": "8ba6ac5f-a485-41de-ba9f-fbb3f2dcdfae173"
         },
         "a92b6e54-c8bd-4312-9d81-f963a999b86d173": {
@@ -2914,8 +2914,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 94143,
-          "y": -774,
+          "x": 51014,
+          "y": -1115,
           "id": "a92b6e54-c8bd-4312-9d81-f963a999b86d173"
         },
         "69c69334-0403-445b-b3e9-b0c3ab485a72173": {
@@ -2941,8 +2941,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 94207,
-          "y": -1024,
+          "x": 51078,
+          "y": -1365,
           "id": "69c69334-0403-445b-b3e9-b0c3ab485a72173"
         },
         "8cc0a70f-fc8c-49f2-b406-ed0000081675173": {
@@ -2968,8 +2968,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 94238,
-          "y": -999,
+          "x": 51109,
+          "y": -1340,
           "id": "8cc0a70f-fc8c-49f2-b406-ed0000081675173"
         },
         "66de4415-9271-4d35-b447-cd28902467b9173": {
@@ -2995,8 +2995,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 94203,
-          "y": -974,
+          "x": 51074,
+          "y": -1315,
           "id": "66de4415-9271-4d35-b447-cd28902467b9173"
         },
         "68f9a70d-2ac7-472d-a26a-e106ad222012173": {
@@ -3022,8 +3022,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 94222,
-          "y": -949,
+          "x": 51093,
+          "y": -1290,
           "id": "68f9a70d-2ac7-472d-a26a-e106ad222012173"
         },
         "56118665-0329-4d6a-b3a6-048b50b6b960173": {
@@ -3049,8 +3049,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 94211,
-          "y": -924,
+          "x": 51082,
+          "y": -1265,
           "id": "56118665-0329-4d6a-b3a6-048b50b6b960173"
         },
         "1dae0b42-7e18-4f57-b80d-b4cb10884473173": {
@@ -3076,8 +3076,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 94233,
-          "y": -899,
+          "x": 51104,
+          "y": -1240,
           "id": "1dae0b42-7e18-4f57-b80d-b4cb10884473173"
         },
         "12947967-3a35-4642-a1bd-28ed03b2dad7173": {
@@ -3103,8 +3103,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 94235,
-          "y": -830,
+          "x": 51106,
+          "y": -1171,
           "id": "12947967-3a35-4642-a1bd-28ed03b2dad7173"
         },
         "0b82de57-d688-457a-877b-d3990b2d1724173": {
@@ -3130,8 +3130,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 94213,
-          "y": -749,
+          "x": 51084,
+          "y": -1090,
           "id": "0b82de57-d688-457a-877b-d3990b2d1724173"
         },
         "dfe92baa-57e8-40c0-8ab3-75a34691cec3173": {
@@ -3157,8 +3157,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 94204,
-          "y": -724,
+          "x": 51075,
+          "y": -1065,
           "id": "dfe92baa-57e8-40c0-8ab3-75a34691cec3173"
         },
         "6524fd7d-f637-4f11-9a75-17e7ddfafa4e173": {
@@ -3184,8 +3184,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 94232,
-          "y": -699,
+          "x": 51103,
+          "y": -1040,
           "id": "6524fd7d-f637-4f11-9a75-17e7ddfafa4e173"
         },
         "002fd9ff-fbc3-4f77-bf7f-039ed2447bbe173": {
@@ -3211,8 +3211,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 94218,
-          "y": -674,
+          "x": 51089,
+          "y": -1015,
           "id": "002fd9ff-fbc3-4f77-bf7f-039ed2447bbe173"
         },
         "c96eb426-8553-46cb-b25e-9b473a946285173": {
@@ -3238,8 +3238,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 94240,
-          "y": -649,
+          "x": 51111,
+          "y": -990,
           "id": "c96eb426-8553-46cb-b25e-9b473a946285173"
         },
         "22ed5419-61a7-4c43-9b20-80685a547cbd173": {
@@ -3265,8 +3265,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 94204,
-          "y": -624,
+          "x": 51075,
+          "y": -965,
           "id": "22ed5419-61a7-4c43-9b20-80685a547cbd173"
         },
         "61e9b556-9255-419b-8882-8df696d230b0173": {
@@ -3292,8 +3292,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 94243,
-          "y": -599,
+          "x": 51114,
+          "y": -940,
           "id": "61e9b556-9255-419b-8882-8df696d230b0173"
         },
         "3d333352-e343-4adc-989d-182c6054373a173": {
@@ -3319,8 +3319,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 93993,
-          "y": -474,
+          "x": 50864,
+          "y": -815,
           "id": "3d333352-e343-4adc-989d-182c6054373a173"
         },
         "353c7132-cbb1-47b6-91de-70a6cdc2c0fc173": {
@@ -3346,8 +3346,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 93993,
-          "y": -374,
+          "x": 50864,
+          "y": -715,
           "id": "353c7132-cbb1-47b6-91de-70a6cdc2c0fc173"
         },
         "fe2f310f-9398-4731-b251-cc6a3f84f2a7173": {
@@ -3373,8 +3373,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 93993,
-          "y": -274,
+          "x": 50864,
+          "y": -615,
           "id": "fe2f310f-9398-4731-b251-cc6a3f84f2a7173"
         },
         "afac6c88-2410-4e8c-b7ec-ad16fc3dd5e7173": {
@@ -3403,8 +3403,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "mm-vis-js testing",
-          "x": 93306,
-          "y": -3360,
+          "x": 50177,
+          "y": -3701,
           "id": "afac6c88-2410-4e8c-b7ec-ad16fc3dd5e7173",
           "shape": "box",
           "link": "",
@@ -3433,8 +3433,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 93787,
-          "y": -2787,
+          "x": 50658,
+          "y": -3128,
           "id": "4e159541-08a9-48d5-ae7e-b904d8ef918c173"
         },
         "ef933cc4-eeb3-4caf-811d-b3b6f1d903f3173": {
@@ -3460,8 +3460,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 94037,
-          "y": -2787,
+          "x": 50908,
+          "y": -3128,
           "id": "ef933cc4-eeb3-4caf-811d-b3b6f1d903f3173"
         },
         "b6817023-c986-451c-8130-17ff2de2d39c173": {
@@ -3487,8 +3487,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 93937,
-          "y": -2787,
+          "x": 50808,
+          "y": -3128,
           "id": "b6817023-c986-451c-8130-17ff2de2d39c173"
         },
         "f48119c3-18f0-4604-9ccb-1a8619ee8ef9173": {
@@ -3514,8 +3514,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 93792,
-          "y": -3785,
+          "x": 50663,
+          "y": -4126,
           "id": "f48119c3-18f0-4604-9ccb-1a8619ee8ef9173"
         },
         "a552cb45-2e58-4b15-afb4-8b615ce81628173": {
@@ -3541,8 +3541,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 93948,
-          "y": -4156,
+          "x": 50819,
+          "y": -4497,
           "id": "a552cb45-2e58-4b15-afb4-8b615ce81628173"
         },
         "6ebf1c1d-403a-4093-809c-18cdd2707fed173": {
@@ -3568,8 +3568,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 93942,
-          "y": -3785,
+          "x": 50813,
+          "y": -4126,
           "id": "6ebf1c1d-403a-4093-809c-18cdd2707fed173"
         },
         "811b7c90-f238-4349-b7ee-62662202de0e173": {
@@ -3595,8 +3595,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 93942,
-          "y": -3535,
+          "x": 50813,
+          "y": -3876,
           "id": "811b7c90-f238-4349-b7ee-62662202de0e173"
         },
         "63364f5c-bfd0-407f-a742-2a1277d47c31173": {
@@ -3622,8 +3622,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 94006,
-          "y": -3685,
+          "x": 50877,
+          "y": -4026,
           "id": "63364f5c-bfd0-407f-a742-2a1277d47c31173"
         },
         "532d0ef9-1c78-47bc-8aeb-ce11450eae7b173": {
@@ -3649,8 +3649,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 94037,
-          "y": -3660,
+          "x": 50908,
+          "y": -4001,
           "id": "532d0ef9-1c78-47bc-8aeb-ce11450eae7b173"
         },
         "9a498b5d-3843-4284-8a7a-b675b0b64913173": {
@@ -3676,8 +3676,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 94002,
-          "y": -3635,
+          "x": 50873,
+          "y": -3976,
           "id": "9a498b5d-3843-4284-8a7a-b675b0b64913173"
         },
         "6b48252b-6956-48ed-90fb-0e66ecad5b5d173": {
@@ -3703,8 +3703,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 94021,
-          "y": -3610,
+          "x": 50892,
+          "y": -3951,
           "id": "6b48252b-6956-48ed-90fb-0e66ecad5b5d173"
         },
         "cbeb77e5-9fed-4d5f-9a48-d26f07429f4e173": {
@@ -3730,8 +3730,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 94010,
-          "y": -3585,
+          "x": 50881,
+          "y": -3926,
           "id": "cbeb77e5-9fed-4d5f-9a48-d26f07429f4e173"
         },
         "8d10e3cf-5c1b-4859-aeec-1f94aa4aa8dc173": {
@@ -3757,8 +3757,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 94032,
-          "y": -3560,
+          "x": 50903,
+          "y": -3901,
           "id": "8d10e3cf-5c1b-4859-aeec-1f94aa4aa8dc173"
         },
         "af16aa26-1b6d-4cfa-96f2-42f3e71c88b4173": {
@@ -3784,8 +3784,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 94034,
-          "y": -3535,
+          "x": 50905,
+          "y": -3876,
           "id": "af16aa26-1b6d-4cfa-96f2-42f3e71c88b4173"
         },
         "7bd08947-42fc-402f-8352-47fb7943691a173": {
@@ -3811,8 +3811,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 94012,
-          "y": -3510,
+          "x": 50883,
+          "y": -3851,
           "id": "7bd08947-42fc-402f-8352-47fb7943691a173"
         },
         "560f4685-7519-4290-a0bd-702bf6d79969173": {
@@ -3838,8 +3838,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 94003,
-          "y": -3485,
+          "x": 50874,
+          "y": -3826,
           "id": "560f4685-7519-4290-a0bd-702bf6d79969173"
         },
         "90c716b8-ba37-492c-a5c3-60d2d204d901173": {
@@ -3865,8 +3865,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 94031,
-          "y": -3460,
+          "x": 50902,
+          "y": -3801,
           "id": "90c716b8-ba37-492c-a5c3-60d2d204d901173"
         },
         "63324388-fe4c-457d-80cf-6d1bf0b71e4d173": {
@@ -3892,8 +3892,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 94017,
-          "y": -3435,
+          "x": 50888,
+          "y": -3776,
           "id": "63324388-fe4c-457d-80cf-6d1bf0b71e4d173"
         },
         "4e59934c-c60e-42f1-b4fe-7eb1701b4385173": {
@@ -3919,8 +3919,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 94039,
-          "y": -3410,
+          "x": 50910,
+          "y": -3751,
           "id": "4e59934c-c60e-42f1-b4fe-7eb1701b4385173"
         },
         "b198b7c3-902e-4285-87f4-2b9cfa243671173": {
@@ -3946,8 +3946,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 94003,
-          "y": -3385,
+          "x": 50874,
+          "y": -3726,
           "id": "b198b7c3-902e-4285-87f4-2b9cfa243671173"
         },
         "241eed0e-c5a2-4678-9f8c-7d2b208a3dab173": {
@@ -3973,8 +3973,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 94042,
-          "y": -3360,
+          "x": 50913,
+          "y": -3701,
           "id": "241eed0e-c5a2-4678-9f8c-7d2b208a3dab173"
         },
         "c168f576-e0c6-400b-80c8-69c5335653e1173": {
@@ -4000,8 +4000,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 93792,
-          "y": -3235,
+          "x": 50663,
+          "y": -3576,
           "id": "c168f576-e0c6-400b-80c8-69c5335653e1173"
         },
         "6099cf7a-f86a-451d-9b87-fdb086f2016a173": {
@@ -4027,8 +4027,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 93789,
-          "y": -3078,
+          "x": 50660,
+          "y": -3419,
           "id": "6099cf7a-f86a-451d-9b87-fdb086f2016a173"
         },
         "9ea8b510-8481-4d7d-9cdb-6a64172251ce173": {
@@ -4054,8 +4054,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 93787,
-          "y": -2887,
+          "x": 50658,
+          "y": -3228,
           "id": "9ea8b510-8481-4d7d-9cdb-6a64172251ce173"
         },
         "c4367502-9752-421e-9012-eb4448246a4f173": {
@@ -4084,8 +4084,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Programming code maps",
-          "x": 93315,
-          "y": -16734,
+          "x": 50186,
+          "y": -17075,
           "id": "c4367502-9752-421e-9012-eb4448246a4f173",
           "shape": "box",
           "link": "",
@@ -4114,8 +4114,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 93941,
-          "y": -16301,
+          "x": 50812,
+          "y": -16642,
           "id": "fa6fdee5-93f8-46a6-9bee-e525c5524553173"
         },
         "6eaee301-bb47-492c-a9a7-6ce33857259b173": {
@@ -4144,8 +4144,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
-          "x": 94191,
-          "y": -16301,
+          "x": 51062,
+          "y": -16642,
           "id": "6eaee301-bb47-492c-a9a7-6ce33857259b173",
           "shape": "box",
           "link": "",
@@ -4174,8 +4174,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 94091,
-          "y": -16301,
+          "x": 50962,
+          "y": -16642,
           "id": "beac0fcf-6ede-4795-babf-9e140f0b9349173"
         },
         "c25194a6-9964-491b-99d5-2e3cc643b62c173": {
@@ -4201,8 +4201,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 93941,
-          "y": -17151,
+          "x": 50812,
+          "y": -17492,
           "id": "c25194a6-9964-491b-99d5-2e3cc643b62c173"
         },
         "703ed7f8-ca3e-437e-b5f0-0a925155b176173": {
@@ -4228,8 +4228,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 94091,
-          "y": -17401,
+          "x": 50962,
+          "y": -17742,
           "id": "703ed7f8-ca3e-437e-b5f0-0a925155b176173"
         },
         "7535110e-06ab-4e76-b9db-5940f4164f62173": {
@@ -4255,8 +4255,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 94091,
-          "y": -17151,
+          "x": 50962,
+          "y": -17492,
           "id": "7535110e-06ab-4e76-b9db-5940f4164f62173"
         },
         "9611e7ad-f708-4c83-9a44-f3a4fa3adbcc173": {
@@ -4282,8 +4282,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 94091,
-          "y": -16901,
+          "x": 50962,
+          "y": -17242,
           "id": "9611e7ad-f708-4c83-9a44-f3a4fa3adbcc173"
         },
         "9384995a-153f-4796-ab37-4f837a60e18d173": {
@@ -4309,8 +4309,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 94155,
-          "y": -17051,
+          "x": 51026,
+          "y": -17392,
           "id": "9384995a-153f-4796-ab37-4f837a60e18d173"
         },
         "c3b679fe-a240-414c-a9ad-3ecb53d74c27173": {
@@ -4336,8 +4336,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 94186,
-          "y": -17026,
+          "x": 51057,
+          "y": -17367,
           "id": "c3b679fe-a240-414c-a9ad-3ecb53d74c27173"
         },
         "c4cbfe3b-ec6d-4aac-9b08-9bf63db81e88173": {
@@ -4363,8 +4363,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 94151,
-          "y": -17001,
+          "x": 51022,
+          "y": -17342,
           "id": "c4cbfe3b-ec6d-4aac-9b08-9bf63db81e88173"
         },
         "e5a17295-9322-419e-b6ea-65b5bcaed8be173": {
@@ -4390,8 +4390,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 94170,
-          "y": -16976,
+          "x": 51041,
+          "y": -17317,
           "id": "e5a17295-9322-419e-b6ea-65b5bcaed8be173"
         },
         "d54e0db2-6d31-48f3-acb3-e3368cbbb6d6173": {
@@ -4417,8 +4417,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 94159,
-          "y": -16951,
+          "x": 51030,
+          "y": -17292,
           "id": "d54e0db2-6d31-48f3-acb3-e3368cbbb6d6173"
         },
         "da274dd5-2ae1-457d-bf79-b577db1b7397173": {
@@ -4444,8 +4444,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 94181,
-          "y": -16926,
+          "x": 51052,
+          "y": -17267,
           "id": "da274dd5-2ae1-457d-bf79-b577db1b7397173"
         },
         "0e445585-3f37-400d-b8e5-8fb316441966173": {
@@ -4471,8 +4471,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 94183,
-          "y": -16901,
+          "x": 51054,
+          "y": -17242,
           "id": "0e445585-3f37-400d-b8e5-8fb316441966173"
         },
         "72e0b741-caa3-4a0a-b6c9-2b811111ce3a173": {
@@ -4498,8 +4498,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 94161,
-          "y": -16876,
+          "x": 51032,
+          "y": -17217,
           "id": "72e0b741-caa3-4a0a-b6c9-2b811111ce3a173"
         },
         "b24e6680-2a18-4655-b76c-e8801ee8f714173": {
@@ -4525,8 +4525,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 94152,
-          "y": -16851,
+          "x": 51023,
+          "y": -17192,
           "id": "b24e6680-2a18-4655-b76c-e8801ee8f714173"
         },
         "f61e9835-e51b-4956-bcb2-21ff16f147ab173": {
@@ -4552,8 +4552,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 94180,
-          "y": -16826,
+          "x": 51051,
+          "y": -17167,
           "id": "f61e9835-e51b-4956-bcb2-21ff16f147ab173"
         },
         "74f3fc53-872b-4d5b-93f9-427d57f6adc2173": {
@@ -4579,8 +4579,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 94166,
-          "y": -16801,
+          "x": 51037,
+          "y": -17142,
           "id": "74f3fc53-872b-4d5b-93f9-427d57f6adc2173"
         },
         "54fd7997-bbc7-4466-9117-292f2ed55029173": {
@@ -4606,8 +4606,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 94188,
-          "y": -16776,
+          "x": 51059,
+          "y": -17117,
           "id": "54fd7997-bbc7-4466-9117-292f2ed55029173"
         },
         "3a9841b2-2d9c-425c-a2c1-2619ef119afc173": {
@@ -4633,8 +4633,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 94152,
-          "y": -16751,
+          "x": 51023,
+          "y": -17092,
           "id": "3a9841b2-2d9c-425c-a2c1-2619ef119afc173"
         },
         "9da94a71-92e2-471a-ae51-26264163af67173": {
@@ -4660,8 +4660,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 94191,
-          "y": -16726,
+          "x": 51062,
+          "y": -17067,
           "id": "9da94a71-92e2-471a-ae51-26264163af67173"
         },
         "ff472564-6bd0-4ae4-8df0-4370121c12c2173": {
@@ -4687,8 +4687,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 93941,
-          "y": -16601,
+          "x": 50812,
+          "y": -16942,
           "id": "ff472564-6bd0-4ae4-8df0-4370121c12c2173"
         },
         "c0768c4b-a550-4b20-aa82-82aa3794acbe173": {
@@ -4714,8 +4714,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 93941,
-          "y": -16501,
+          "x": 50812,
+          "y": -16842,
           "id": "c0768c4b-a550-4b20-aa82-82aa3794acbe173"
         },
         "8160a281-6ded-4af3-b461-09a77fc7bf4c173": {
@@ -4741,8 +4741,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 93941,
-          "y": -16401,
+          "x": 50812,
+          "y": -16742,
           "id": "8160a281-6ded-4af3-b461-09a77fc7bf4c173"
         },
         "d72e3512-5f28-439f-82fd-4f12c136870f673": {
@@ -4771,8 +4771,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Разработка mm-vis-js",
-          "x": 80868,
-          "y": -553,
+          "x": 37739,
+          "y": -894,
           "id": "d72e3512-5f28-439f-82fd-4f12c136870f673",
           "shape": "box",
           "link": "",
@@ -4801,8 +4801,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 81524,
-          "y": -94,
+          "x": 38395,
+          "y": -435,
           "id": "c265228f-7a42-4f5b-ae09-4968e660d922673"
         },
         "72a29b77-7945-40c7-aabf-56d95597916b673": {
@@ -4828,8 +4828,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 81724,
-          "y": -100,
+          "x": 38595,
+          "y": -441,
           "id": "72a29b77-7945-40c7-aabf-56d95597916b673"
         },
         "01833143-dc1d-4f15-b6dc-71d4232a5dca673": {
@@ -4855,8 +4855,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 81878,
-          "y": -100,
+          "x": 38749,
+          "y": -441,
           "id": "01833143-dc1d-4f15-b6dc-71d4232a5dca673"
         },
         "adf37994-f52f-43fe-8c46-de3d24f49a5f673": {
@@ -4882,8 +4882,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 81524,
-          "y": -944,
+          "x": 38395,
+          "y": -1285,
           "id": "adf37994-f52f-43fe-8c46-de3d24f49a5f673"
         },
         "18700789-b477-4474-a9d8-a64b504c28f9673": {
@@ -4909,8 +4909,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 81674,
-          "y": -1194,
+          "x": 38545,
+          "y": -1535,
           "id": "18700789-b477-4474-a9d8-a64b504c28f9673"
         },
         "46c40acb-8f2f-46fa-a223-88fdf60d1eb7673": {
@@ -4936,8 +4936,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 81674,
-          "y": -944,
+          "x": 38545,
+          "y": -1285,
           "id": "46c40acb-8f2f-46fa-a223-88fdf60d1eb7673"
         },
         "c03a29fb-0bf2-4391-96ec-20658fcf2a96673": {
@@ -4963,8 +4963,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 81674,
-          "y": -694,
+          "x": 38545,
+          "y": -1035,
           "id": "c03a29fb-0bf2-4391-96ec-20658fcf2a96673"
         },
         "bc1799b7-5c57-46ae-8470-74c7694cb4eb673": {
@@ -4990,8 +4990,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 81738,
-          "y": -844,
+          "x": 38609,
+          "y": -1185,
           "id": "bc1799b7-5c57-46ae-8470-74c7694cb4eb673"
         },
         "a6042930-308d-40dc-97ea-9d2deb71784a673": {
@@ -5017,8 +5017,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 81769,
-          "y": -819,
+          "x": 38640,
+          "y": -1160,
           "id": "a6042930-308d-40dc-97ea-9d2deb71784a673"
         },
         "d4e88b34-c5a2-4084-8168-85a39b96518b673": {
@@ -5044,8 +5044,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 81734,
-          "y": -794,
+          "x": 38605,
+          "y": -1135,
           "id": "d4e88b34-c5a2-4084-8168-85a39b96518b673"
         },
         "5e2d9b9e-7956-4d91-b961-a18ccfd10634673": {
@@ -5071,8 +5071,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 81753,
-          "y": -769,
+          "x": 38624,
+          "y": -1110,
           "id": "5e2d9b9e-7956-4d91-b961-a18ccfd10634673"
         },
         "b743ea42-811f-41c8-933d-365f7599f2bb673": {
@@ -5098,8 +5098,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 81742,
-          "y": -744,
+          "x": 38613,
+          "y": -1085,
           "id": "b743ea42-811f-41c8-933d-365f7599f2bb673"
         },
         "0c70927a-6c22-4f8c-a554-8321f73853c1673": {
@@ -5125,8 +5125,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 81764,
-          "y": -719,
+          "x": 38635,
+          "y": -1060,
           "id": "0c70927a-6c22-4f8c-a554-8321f73853c1673"
         },
         "40abf69a-e6bb-4fbc-9c36-1c571d034e9c673": {
@@ -5152,8 +5152,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 81766,
-          "y": -694,
+          "x": 38637,
+          "y": -1035,
           "id": "40abf69a-e6bb-4fbc-9c36-1c571d034e9c673"
         },
         "dcb2c77b-baa1-4044-835f-d5bf6dfbd23c673": {
@@ -5179,8 +5179,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 81744,
-          "y": -669,
+          "x": 38615,
+          "y": -1010,
           "id": "dcb2c77b-baa1-4044-835f-d5bf6dfbd23c673"
         },
         "9ebd4908-ab02-4b2d-96fb-b3e6655279da673": {
@@ -5206,8 +5206,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 81735,
-          "y": -644,
+          "x": 38606,
+          "y": -985,
           "id": "9ebd4908-ab02-4b2d-96fb-b3e6655279da673"
         },
         "26199d75-b171-4b65-ad6e-66793cce4341673": {
@@ -5233,8 +5233,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 81763,
-          "y": -619,
+          "x": 38634,
+          "y": -960,
           "id": "26199d75-b171-4b65-ad6e-66793cce4341673"
         },
         "846dbcfc-e517-497e-9fc7-35297ce2f54e673": {
@@ -5260,8 +5260,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 81749,
-          "y": -594,
+          "x": 38620,
+          "y": -935,
           "id": "846dbcfc-e517-497e-9fc7-35297ce2f54e673"
         },
         "ea3f8386-dd89-485e-8b6d-e4d665943d89673": {
@@ -5287,8 +5287,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 81771,
-          "y": -569,
+          "x": 38642,
+          "y": -910,
           "id": "ea3f8386-dd89-485e-8b6d-e4d665943d89673"
         },
         "720fdfd4-71bc-4c2f-bf80-df69a9351f9b673": {
@@ -5314,8 +5314,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 81735,
-          "y": -544,
+          "x": 38606,
+          "y": -885,
           "id": "720fdfd4-71bc-4c2f-bf80-df69a9351f9b673"
         },
         "e4ee609d-39ad-4543-a157-38d8718c20a8673": {
@@ -5341,8 +5341,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 81774,
-          "y": -519,
+          "x": 38645,
+          "y": -860,
           "id": "e4ee609d-39ad-4543-a157-38d8718c20a8673"
         },
         "eb72029f-bfe4-403d-a720-ff89c2b4f94e673": {
@@ -5368,8 +5368,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 81524,
-          "y": -394,
+          "x": 38395,
+          "y": -735,
           "id": "eb72029f-bfe4-403d-a720-ff89c2b4f94e673"
         },
         "14a16f63-3b55-489f-bf21-ee639776c71c673": {
@@ -5395,8 +5395,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 81524,
-          "y": -294,
+          "x": 38395,
+          "y": -635,
           "id": "14a16f63-3b55-489f-bf21-ee639776c71c673"
         },
         "79a3d8ef-2677-4066-8195-a7096bb31a2c673": {
@@ -5422,8 +5422,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 81524,
-          "y": -194,
+          "x": 38395,
+          "y": -535,
           "id": "79a3d8ef-2677-4066-8195-a7096bb31a2c673"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673": {
@@ -5453,8 +5453,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Разработка\nmm-vis-js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673",
-          "x": 86942,
-          "y": -308,
+          "x": 43813,
+          "y": -649,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5483,8 +5483,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "id": "bbfa4068-4e91-4d81-aa66-b3a75c20e228673",
-          "x": 81884,
-          "y": -57
+          "x": 38755,
+          "y": -398
         },
         "d723c162-2431-49ca-b38c-70f18ac64ca1673": {
           "color": {
@@ -5513,8 +5513,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Add edge label edit function",
           "id": "d723c162-2431-49ca-b38c-70f18ac64ca1673",
-          "x": 82055,
-          "y": -31,
+          "x": 38926,
+          "y": -372,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5546,8 +5546,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Книги",
           "id": "d6e24ba4-997d-4555-a7b3-053eb5502e1f856673",
-          "x": 81862,
-          "y": -12220,
+          "x": 38733,
+          "y": -12561,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5578,8 +5578,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Разработка",
           "id": "005ed1b3-4245-495b-b924-5a219aca9884856673",
-          "x": 82112,
-          "y": -12104
+          "x": 38983,
+          "y": -12445
         },
         "8be4c57f-d909-4dea-9bea-de69e818d5f0856673": {
           "color": {
@@ -5607,8 +5607,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "id": "8be4c57f-d909-4dea-9bea-de69e818d5f0856673",
-          "x": 82252,
-          "y": -12103
+          "x": 39123,
+          "y": -12444
         },
         "a73fb86f-ff47-4791-80bd-7ccf8187ae40856673": {
           "color": {
@@ -5636,8 +5636,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
           "id": "a73fb86f-ff47-4791-80bd-7ccf8187ae40856673",
-          "x": 82388,
-          "y": -12103
+          "x": 39259,
+          "y": -12444
         },
         "30e667e1-e8b2-4be3-b753-2dee5d10c49b856673": {
           "color": {
@@ -5668,8 +5668,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Карты\nпрограммного\nкода",
           "id": "30e667e1-e8b2-4be3-b753-2dee5d10c49b856673",
-          "x": 87573,
-          "y": -15984,
+          "x": 44444,
+          "y": -16325,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5703,8 +5703,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Книги",
           "id": "3b4110bb-3909-489d-952e-a464b7cc0f02856673",
-          "x": 85625,
-          "y": -12005,
+          "x": 42496,
+          "y": -12346,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5736,8 +5736,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Как пользоваться",
           "id": "190b3905-69c6-4867-bc2e-8a5608ddbf3a856673",
-          "x": 80841,
-          "y": -6907,
+          "x": 37712,
+          "y": -7248,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5769,8 +5769,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Разработка этой схемы",
           "id": "69df842e-8d76-4bae-a1be-03398edbb34d856673",
-          "x": 81353,
-          "y": -6173,
+          "x": 38224,
+          "y": -6514,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5801,8 +5801,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "id": "75f58e5a-a0d0-4f37-a30a-bc954f310151856673",
-          "x": 81474,
-          "y": -6172
+          "x": 38345,
+          "y": -6513
         },
         "6c08158c-4e66-49f6-a161-a66c3a8d0271856673": {
           "color": {
@@ -5830,8 +5830,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
           "id": "6c08158c-4e66-49f6-a161-a66c3a8d0271856673",
-          "x": 81610,
-          "y": -6175
+          "x": 38481,
+          "y": -6516
         },
         "918cfa6f-1b63-4ef3-b4a4-aa565848f727856673": {
           "color": {
@@ -5859,8 +5859,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Разделы",
           "id": "918cfa6f-1b63-4ef3-b4a4-aa565848f727856673",
-          "x": 81292,
-          "y": -7714
+          "x": 38163,
+          "y": -8055
         },
         "28606e38-66b9-4360-bd26-57e745089b6c856673": {
           "color": {
@@ -5889,8 +5889,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Интерфейс",
           "id": "28606e38-66b9-4360-bd26-57e745089b6c856673",
-          "x": 81511,
-          "y": -8640,
+          "x": 38382,
+          "y": -8981,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5921,8 +5921,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Создание новой ноды",
           "id": "a7ea9ecf-24b0-49cf-8aeb-cd5f5b83aede856673",
-          "x": 81646,
-          "y": -8374
+          "x": 38517,
+          "y": -8715
         },
         "e315b101-15c2-4d6c-90db-91963877736c856673": {
           "color": {
@@ -5950,8 +5950,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кнопка \"Add node\"",
           "id": "e315b101-15c2-4d6c-90db-91963877736c856673",
-          "x": 82040,
-          "y": -8402
+          "x": 38911,
+          "y": -8743
         },
         "5c16d8af-d405-4411-ba51-0b94e89e01d9856673": {
           "color": {
@@ -5980,8 +5980,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Двойной клик и плюс клик по холсту в точке положения будущей ноды",
           "id": "5c16d8af-d405-4411-ba51-0b94e89e01d9856673",
-          "x": 82209,
-          "y": -8336,
+          "x": 39080,
+          "y": -8677,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6015,8 +6015,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Как пользоваться\nmm-vis-js",
           "id": "7c785996-b5d2-4800-804e-63541d3fe704856673",
-          "x": 88331,
-          "y": -9328,
+          "x": 45202,
+          "y": -9669,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6047,8 +6047,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Разделы",
           "id": "4c5765ea-0499-47fb-a22f-198df80fe409856673",
-          "x": 82101,
-          "y": -12380
+          "x": 38972,
+          "y": -12721
         },
         "f79ec810-7f8f-43e8-b3b3-ff5cf20a66f8856673": {
           "color": {
@@ -6076,8 +6076,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Ссылка на пример книги \"на холсте\"",
           "id": "f79ec810-7f8f-43e8-b3b3-ff5cf20a66f8856673",
-          "x": 82364,
-          "y": -12400
+          "x": 39235,
+          "y": -12741
         },
         "cf78bc11-91c8-49c9-b678-3cd9aced5311856673": {
           "color": {
@@ -6105,8 +6105,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Код генерации книг",
           "id": "cf78bc11-91c8-49c9-b678-3cd9aced5311856673",
-          "x": 82302,
-          "y": -12335
+          "x": 39173,
+          "y": -12676
         },
         "4eeb91b4-989b-4727-b962-7f59f9f7bda8856673": {
           "color": {
@@ -6134,8 +6134,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "TODO: добавить ссылку",
           "id": "4eeb91b4-989b-4727-b962-7f59f9f7bda8856673",
-          "x": 82492,
-          "y": -12337
+          "x": 39363,
+          "y": -12678
         },
         "3d5af2c3-7c46-489f-a80f-f41dd5bbc113856673": {
           "color": {
@@ -6164,8 +6164,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "id": "3d5af2c3-7c46-489f-a80f-f41dd5bbc113856673",
-          "x": 82836,
-          "y": -12417,
+          "x": 39707,
+          "y": -12758,
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "borderWidth": ""
@@ -6196,8 +6196,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Создание новой связи",
           "id": "92deda2e-f34f-4a13-941f-3e76f04c4bde856673",
-          "x": 81647,
-          "y": -8204
+          "x": 38518,
+          "y": -8545
         },
         "02196ab4-9960-4540-81fd-4625f8dc43b2856673": {
           "color": {
@@ -6226,8 +6226,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Открыть ссылку ноды",
           "id": "02196ab4-9960-4540-81fd-4625f8dc43b2856673",
-          "x": 81645,
-          "y": -8088,
+          "x": 38516,
+          "y": -8429,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6258,8 +6258,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделить рамкой несколько объектов",
           "id": "3579bfa5-85d7-43d5-99fd-c4b61351f5d5856673",
-          "x": 81960,
-          "y": -7966
+          "x": 38831,
+          "y": -8307
         },
         "1a0d0e26-82e6-4c9e-8f16-b1f8a58e06e5856673": {
           "color": {
@@ -6287,8 +6287,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Работа с json-кодом схемы",
           "id": "1a0d0e26-82e6-4c9e-8f16-b1f8a58e06e5856673",
-          "x": 81663,
-          "y": -7793
+          "x": 38534,
+          "y": -8134
         },
         "22123149-010b-4f10-8d48-614343676646856673": {
           "color": {
@@ -6316,8 +6316,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Примеры",
           "id": "22123149-010b-4f10-8d48-614343676646856673",
-          "x": 82361,
-          "y": -16758
+          "x": 39232,
+          "y": -17099
         },
         "d72c9ee6-422f-46b9-a2b6-530acbb851c8856673": {
           "color": {
@@ -6345,8 +6345,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Код генерации примеров",
           "id": "d72c9ee6-422f-46b9-a2b6-530acbb851c8856673",
-          "x": 82459,
-          "y": -16055
+          "x": 39330,
+          "y": -16396
         },
         "99792996-9990-4de2-8e7a-c7f95c729ccc856673": {
           "color": {
@@ -6374,8 +6374,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Оффлайновая работа",
           "id": "99792996-9990-4de2-8e7a-c7f95c729ccc856673",
-          "x": 81536,
-          "y": -6691
+          "x": 38407,
+          "y": -7032
         },
         "541e43ae-9406-4a36-9648-8533fbc16f69856673": {
           "color": {
@@ -6404,8 +6404,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js может работать без доступа к сети",
           "id": "541e43ae-9406-4a36-9648-8533fbc16f69856673",
-          "x": 81861,
-          "y": -6746,
+          "x": 38732,
+          "y": -7087,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6437,8 +6437,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нужно сохранить в одну директорию файлы",
           "id": "533b01fa-6d24-48cc-8581-fbd583383385856673",
-          "x": 81855,
-          "y": -6572,
+          "x": 38726,
+          "y": -6913,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6469,8 +6469,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "index.html",
           "id": "b5b6d8e1-80be-4076-816a-b4af7f7cb38f856673",
-          "x": 82123,
-          "y": -6669
+          "x": 38994,
+          "y": -7010
         },
         "4474df06-f883-4579-b820-885c3a171780856673": {
           "color": {
@@ -6498,8 +6498,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "index.data.js",
           "id": "4474df06-f883-4579-b820-885c3a171780856673",
-          "x": 82130,
-          "y": -6639
+          "x": 39001,
+          "y": -6980
         },
         "aaa11c87-8cce-4cfa-ad47-d90271340433856673": {
           "color": {
@@ -6527,8 +6527,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "application.js",
           "id": "aaa11c87-8cce-4cfa-ad47-d90271340433856673",
-          "x": 82131,
-          "y": -6597
+          "x": 39002,
+          "y": -6938
         },
         "6bef3a7e-4585-40bf-9de0-6e5152dbe19f856673": {
           "color": {
@@ -6556,8 +6556,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://visjs.github.io/vis-network/dist/vis-network.min.css",
           "id": "6bef3a7e-4585-40bf-9de0-6e5152dbe19f856673",
-          "x": 82555,
-          "y": -6550
+          "x": 39426,
+          "y": -6891
         },
         "1090a0ca-0455-443b-b48a-2665a678b1bb856673": {
           "color": {
@@ -6585,8 +6585,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vis-network.min.css",
           "id": "1090a0ca-0455-443b-b48a-2665a678b1bb856673",
-          "x": 82153,
-          "y": -6547
+          "x": 39024,
+          "y": -6888
         },
         "a2895f70-16f6-44ba-bb7f-3b1178cdc965856673": {
           "color": {
@@ -6614,8 +6614,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://unpkg.com/vis-network@6.3.0/standalone/umd/vis-network.min.js",
           "id": "a2895f70-16f6-44ba-bb7f-3b1178cdc965856673",
-          "x": 82609,
-          "y": -6495
+          "x": 39480,
+          "y": -6836
         },
         "a93ca548-3213-4562-adca-65ec888cd499856673": {
           "color": {
@@ -6643,8 +6643,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vis-network.min.js",
           "id": "a93ca548-3213-4562-adca-65ec888cd499856673",
-          "x": 82149,
-          "y": -6494
+          "x": 39020,
+          "y": -6835
         },
         "0259d9ae-d9a0-43fe-a27d-6ef875c42428856673": {
           "color": {
@@ -6672,8 +6672,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Примечания",
           "id": "0259d9ae-d9a0-43fe-a27d-6ef875c42428856673",
-          "x": 81505,
-          "y": -6289
+          "x": 38376,
+          "y": -6630
         },
         "54a8ccfe-1e5b-4fa6-b8a4-a619778bc847856673": {
           "color": {
@@ -6701,8 +6701,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кнопа \"Add edge\"",
           "id": "54a8ccfe-1e5b-4fa6-b8a4-a619778bc847856673",
-          "x": 82030,
-          "y": -8231
+          "x": 38901,
+          "y": -8572
         },
         "c666fa8f-75f7-43f7-a927-6b367c80c362856673": {
           "color": {
@@ -6731,8 +6731,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Двойной клик с ctrl. И с нажатым курсором соединяем две ноды.",
           "id": "c666fa8f-75f7-43f7-a927-6b367c80c362856673",
-          "x": 82189,
-          "y": -8181,
+          "x": 39060,
+          "y": -8522,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6763,8 +6763,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант 1",
           "id": "abdf70d3-ce50-477b-9846-9dc0416354fd856673",
-          "x": 81869,
-          "y": -8403
+          "x": 38740,
+          "y": -8744
         },
         "c33cc747-4ea3-44f9-a560-e7084f36fc00856673": {
           "color": {
@@ -6792,8 +6792,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант 2",
           "id": "c33cc747-4ea3-44f9-a560-e7084f36fc00856673",
-          "x": 81869,
-          "y": -8338
+          "x": 38740,
+          "y": -8679
         },
         "c9c88f8f-6310-41fb-8164-2d7dcbf6462c856673": {
           "color": {
@@ -6821,8 +6821,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант 1",
           "id": "c9c88f8f-6310-41fb-8164-2d7dcbf6462c856673",
-          "x": 81869,
-          "y": -8231
+          "x": 38740,
+          "y": -8572
         },
         "56e6d52f-eb95-45fc-98f4-0163b5006455856673": {
           "color": {
@@ -6850,8 +6850,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант 2",
           "id": "56e6d52f-eb95-45fc-98f4-0163b5006455856673",
-          "x": 81869,
-          "y": -8179
+          "x": 38740,
+          "y": -8520
         },
         "954369db-66b6-4e97-be9f-5a0e6febd275856673": {
           "color": {
@@ -6879,8 +6879,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликаем по ноде.",
           "id": "954369db-66b6-4e97-be9f-5a0e6febd275856673",
-          "x": 81894,
-          "y": -8083
+          "x": 38765,
+          "y": -8424
         },
         "30bfd8ec-c4c8-4688-8112-87a94a4e2ac4856673": {
           "color": {
@@ -6908,8 +6908,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В открывшемся слева меню нажимаем openLinkButton",
           "id": "30bfd8ec-c4c8-4688-8112-87a94a4e2ac4856673",
-          "x": 82213,
-          "y": -8079
+          "x": 39084,
+          "y": -8420
         },
         "980b8af5-638f-43da-bae0-564de055219e856673": {
           "color": {
@@ -6937,8 +6937,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделяем с нажатой правой кнопкой мыши",
           "id": "980b8af5-638f-43da-bae0-564de055219e856673",
-          "x": 82273,
-          "y": -7963
+          "x": 39144,
+          "y": -8304
         },
         "a838dc05-c1bb-431a-9dc8-fbcae3f6ebce856673": {
           "color": {
@@ -6967,8 +6967,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кнопка \"updateMenuFromScheme\"",
           "id": "a838dc05-c1bb-431a-9dc8-fbcae3f6ebce856673",
-          "x": 82154,
-          "y": -7751,
+          "x": 39025,
+          "y": -8092,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7000,8 +7000,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "При клике по кнопке, в json-код сохраняется\nвсе текущее содержание схем на холсте",
           "id": "b1fd0f91-e446-4241-a959-d3ae25652cb3856673",
-          "x": 82456,
-          "y": -7753,
+          "x": 39327,
+          "y": -8094,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7032,8 +7032,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Редактирование ноды",
           "id": "ebe0e752-8821-4566-837d-96acc5cd6f15856673",
-          "x": 81646,
-          "y": -7521
+          "x": 38517,
+          "y": -7862
         },
         "65b1efd3-e93c-409e-971c-584d25b0bc2d856673": {
           "color": {
@@ -7062,8 +7062,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кнопка \"updateSchemeFromMenu\"",
           "id": "65b1efd3-e93c-409e-971c-584d25b0bc2d856673",
-          "x": 82152,
-          "y": -7647,
+          "x": 39023,
+          "y": -7988,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7095,8 +7095,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Если вы работаете с mm-vis-js локально и можете\nредактировать index.data.js. То сохраните этот json-код между\nпервой строкой с \"var schemeData = \" и последней с \";\".\nЧтобы сохранить изменения в схемах до\nследующей перезагрузки страницы.",
           "id": "d823f8a0-5c08-4b90-a6a5-25e3ccde1142856673",
-          "x": 82845,
-          "y": -7759,
+          "x": 39716,
+          "y": -8100,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7128,8 +7128,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "При загрузке страницы содержание холста\nстроится из данных в файле index.data.js",
           "id": "ca85da3e-b99f-40b2-a592-fd4593277618856673",
-          "x": 81990,
-          "y": -7845,
+          "x": 38861,
+          "y": -8186,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7160,8 +7160,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Его содержание отображается в меню справа (\"showData\")",
           "id": "5291a25d-32f3-487c-8e4e-e62d4d054f66856673",
-          "x": 82387,
-          "y": -7844
+          "x": 39258,
+          "y": -8185
         },
         "c7ca86c7-94ca-446d-946d-d807dc5a3b45856673": {
           "color": {
@@ -7190,8 +7190,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Без первой строки \"var schemeData =\" и строки в конце с \";\".",
           "id": "c7ca86c7-94ca-446d-946d-d807dc5a3b45856673",
-          "x": 82835,
-          "y": -7845,
+          "x": 39706,
+          "y": -8186,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7222,8 +7222,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Меню \"showData\"",
           "id": "b903d55a-2480-44ae-a2db-1e47cc030965856673",
-          "x": 81911,
-          "y": -7712
+          "x": 38782,
+          "y": -8053
         },
         "f833a716-fcb1-4e20-9c35-3367ceae922d856673": {
           "color": {
@@ -7252,8 +7252,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "При клике по кнопке полностью перестраивается содержание\nхолста на основе содержания json-кода.",
           "id": "f833a716-fcb1-4e20-9c35-3367ceae922d856673",
-          "x": 82513,
-          "y": -7652,
+          "x": 39384,
+          "y": -7993,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7284,8 +7284,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Можно редактировать схему, внося правки в json-код.",
           "id": "914b0fdb-4bd6-426d-942c-65e258cb6c25856673",
-          "x": 82941,
-          "y": -7655
+          "x": 39812,
+          "y": -7996
         },
         "e5744d4a-002d-45a0-984a-bd7a92278abb856673": {
           "color": {
@@ -7314,8 +7314,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Координаты ноды задают ее центр.",
           "id": "e5744d4a-002d-45a0-984a-bd7a92278abb856673",
-          "x": 83427,
-          "y": -7654,
+          "x": 40298,
+          "y": -7995,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7347,8 +7347,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Примечания",
           "id": "b867669f-f79b-4e35-aa89-d2ab38a87951856673",
-          "x": 83207,
-          "y": -7655,
+          "x": 40078,
+          "y": -7996,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7380,8 +7380,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "При клике по ноде в интерфейсе слева открывается меню ее редактирования.",
           "id": "93aab216-ca5c-4c56-9bf7-800cf963c59e856673",
-          "x": 82107,
-          "y": -7539,
+          "x": 38978,
+          "y": -7880,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7413,8 +7413,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кнопка \"saveElementEditButton\"",
           "id": "417c60e1-a7ec-4edf-a78d-e2514f7d203d856673",
-          "x": 81951,
-          "y": -7493,
+          "x": 38822,
+          "y": -7834,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7445,8 +7445,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сохранить изменения",
           "id": "78fb3063-2f01-4e8c-bc4e-d9dd4aab1e15856673",
-          "x": 82167,
-          "y": -7492
+          "x": 39038,
+          "y": -7833
         },
         "4f68cb54-6f10-46f0-8a4e-59132970f81a856673": {
           "color": {
@@ -7474,8 +7474,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кнопка \"closeElementEditButton\"",
           "id": "4f68cb54-6f10-46f0-8a4e-59132970f81a856673",
-          "x": 81952,
-          "y": -7436
+          "x": 38823,
+          "y": -7777
         },
         "d7e6cd8e-610a-499b-8cd1-4685bbc08e69856673": {
           "color": {
@@ -7503,8 +7503,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Закрыть меню редактирования ноды",
           "id": "d7e6cd8e-610a-499b-8cd1-4685bbc08e69856673",
-          "x": 82239,
-          "y": -7441
+          "x": 39110,
+          "y": -7782
         },
         "68632dc8-5ab0-453f-8bcf-645f603ad3f5856673": {
           "color": {
@@ -7532,8 +7532,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделение",
           "id": "68632dc8-5ab0-453f-8bcf-645f603ad3f5856673",
-          "x": 81611,
-          "y": -8003
+          "x": 38482,
+          "y": -8344
         },
         "7a578828-3cc3-4fe4-82f2-ca9c62f17fe5856673": {
           "color": {
@@ -7561,8 +7561,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Несколько объектов можно выделить удерживая ctrl",
           "id": "7a578828-3cc3-4fe4-82f2-ca9c62f17fe5856673",
-          "x": 82006,
-          "y": -8009
+          "x": 38877,
+          "y": -8350
         },
         "5466335c-f3c0-4346-946b-fd05ffdcdc8f856673": {
           "color": {
@@ -7590,8 +7590,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выравнивание",
           "id": "5466335c-f3c0-4346-946b-fd05ffdcdc8f856673",
-          "x": 81623,
-          "y": -7338
+          "x": 38494,
+          "y": -7679
         },
         "2bb5f8da-7c28-4a79-8ccb-1bec4eac4f29856673": {
           "color": {
@@ -7620,8 +7620,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделяем несколько нод и в верхнем меню нажимаем кнопку \"leftAlignNodes\"",
           "id": "2bb5f8da-7c28-4a79-8ccb-1bec4eac4f29856673",
-          "x": 82095,
-          "y": -7328,
+          "x": 38966,
+          "y": -7669,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7653,8 +7653,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vis-network/vis-network.index.html",
           "id": "73e001ea-c6ee-4573-9173-50a897bc69f7856673",
-          "x": 82924,
-          "y": -17215,
+          "x": 39795,
+          "y": -17556,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vis-network/vis-network.index.html",
           "borderWidth": ""
@@ -7686,8 +7686,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/jdk/jdk.index.html",
           "id": "148c0f2f-58a0-4278-a284-c4eda5bff4d7856673",
-          "x": 82870,
-          "y": -17156,
+          "x": 39741,
+          "y": -17497,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/jdk/jdk.index.html",
           "borderWidth": ""
@@ -7718,8 +7718,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Файлы карт загружаются 5-10 секунд.",
           "id": "682e2e0c-de7a-4218-af14-fe0a3b67e228856673",
-          "x": 82450,
-          "y": -15898
+          "x": 39321,
+          "y": -16239
         },
         "b1c3bfef-9396-429e-97d6-bfea67857091856673": {
           "color": {
@@ -7748,8 +7748,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/apache_httpd/apache_httpd.index.html",
           "id": "b1c3bfef-9396-429e-97d6-bfea67857091856673",
-          "x": 82939,
-          "y": -17088,
+          "x": 39810,
+          "y": -17429,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/apache_httpd/apache_httpd.index.html",
           "borderWidth": ""
@@ -7781,8 +7781,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/bash/bash.index.html",
           "id": "502ba7df-60ac-4226-8aa9-e90a6940e36e856673",
-          "x": 82883,
-          "y": -17048,
+          "x": 39754,
+          "y": -17389,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/bash/bash.index.html",
           "borderWidth": ""
@@ -7814,8 +7814,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/chromium/chromium.index.html",
           "id": "94cbd1d4-bafe-46d9-b811-35517c77c30e856673",
-          "x": 82915,
-          "y": -16999,
+          "x": 39786,
+          "y": -17340,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/chromium/chromium.index.html",
           "borderWidth": ""
@@ -7846,8 +7846,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/cpython/cpython.index.hml",
           "id": "f6d9d005-6067-440d-9b62-7e1ad92395f0856673",
-          "x": 82900,
-          "y": -16950
+          "x": 39771,
+          "y": -17291
         },
         "298ee61d-a396-47ea-aa7c-ebb565676a2c856673": {
           "color": {
@@ -7876,8 +7876,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/emacs/emacs.index.html",
           "id": "298ee61d-a396-47ea-aa7c-ebb565676a2c856673",
-          "x": 82894,
-          "y": -16902,
+          "x": 39765,
+          "y": -17243,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/emacs/emacs.index.html",
           "borderWidth": ""
@@ -7909,8 +7909,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/firefox/firefox.index.html",
           "id": "b04b14d8-1d14-4acd-a25f-9d5aa64310ec856673",
-          "x": 82891,
-          "y": -16846,
+          "x": 39762,
+          "y": -17187,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/firefox/firefox.index.html",
           "borderWidth": ""
@@ -7944,8 +7944,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Тестирование\nmm-vis-js",
           "id": "5ea860e4-a966-4328-81bf-8b0a063ae6f1856673",
-          "x": 87518,
-          "y": -3340,
+          "x": 44389,
+          "y": -3681,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7977,8 +7977,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/gcc/gcc.index.html",
           "id": "35872018-0beb-487b-8de3-9defef972c48856673",
-          "x": 82874,
-          "y": -16790,
+          "x": 39745,
+          "y": -17131,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/gcc/gcc.index.html",
           "borderWidth": ""
@@ -8010,8 +8010,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ghc/ghc.index.html",
           "id": "5c2e2e96-836e-4af3-a12e-da75651ed7e8856673",
-          "x": 82875,
-          "y": -16756,
+          "x": 39746,
+          "y": -17097,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ghc/ghc.index.html",
           "borderWidth": ""
@@ -8043,8 +8043,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/git/git.index.html",
           "id": "74834844-1c42-42bf-969e-03f0a79b44da856673",
-          "x": 82867,
-          "y": -16725,
+          "x": 39738,
+          "y": -17066,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/git/git.index.html",
           "borderWidth": ""
@@ -8076,8 +8076,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/julia/julia.index.html",
           "id": "b08916db-062a-454b-bd39-8f68213c97ce856673",
-          "x": 82877,
-          "y": -16699,
+          "x": 39748,
+          "y": -17040,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/julia/julia.index.html",
           "borderWidth": ""
@@ -8109,8 +8109,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/hbase/hbase.index.html",
           "id": "1eede9ae-1653-4dda-9fff-c1455e395bb9856673",
-          "x": 82893,
-          "y": -16655,
+          "x": 39764,
+          "y": -16996,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/hbase/hbase.index.html",
           "borderWidth": ""
@@ -8142,8 +8142,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/linux-core/linux-core.index.html",
           "id": "df5b3d3b-055e-483e-978e-b61a296a29b0856673",
-          "x": 82918,
-          "y": -16617,
+          "x": 39789,
+          "y": -16958,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/linux-core/linux-core.index.html",
           "borderWidth": ""
@@ -8175,8 +8175,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mm-vis-js/mm-vis-js.index.html",
           "id": "e4495c5a-517f-45e3-a810-be4480d14edf856673",
-          "x": 82913,
-          "y": -16578,
+          "x": 39784,
+          "y": -16919,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mm-vis-js/mm-vis-js.index.html",
           "borderWidth": ""
@@ -8208,8 +8208,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mysql-server/mysql-server.index.html",
           "id": "f440e7d4-8921-4590-8671-1a81b7fdc8bf856673",
-          "x": 82934,
-          "y": -16541,
+          "x": 39805,
+          "y": -16882,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mysql-server/mysql-server.index.html",
           "borderWidth": ""
@@ -8240,8 +8240,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/neo4j/neo4j.index.html",
           "id": "1266304d-892d-4786-a37a-aec17829d089856673",
-          "x": 82887,
-          "y": -16506
+          "x": 39758,
+          "y": -16847
         },
         "312f8def-d468-4d38-b3fe-97c856b4d1e2856673": {
           "color": {
@@ -8270,8 +8270,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ruby/ruby.index.html",
           "id": "312f8def-d468-4d38-b3fe-97c856b4d1e2856673",
-          "x": 82880,
-          "y": -16457,
+          "x": 39751,
+          "y": -16798,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ruby/ruby.index.html",
           "borderWidth": ""
@@ -8303,8 +8303,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/sbcl/sbcl.index.html",
           "id": "78f06d8c-497d-4db1-bea9-10775d8338ac856673",
-          "x": 82877,
-          "y": -16411,
+          "x": 39748,
+          "y": -16752,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/sbcl/sbcl.index.html",
           "borderWidth": ""
@@ -8336,8 +8336,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spark/spark.index.html",
           "id": "f3f4175c-9236-42fd-8757-32ee3ef9bb71856673",
-          "x": 82887,
-          "y": -16377,
+          "x": 39758,
+          "y": -16718,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spark/spark.index.html",
           "borderWidth": ""
@@ -8369,8 +8369,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spring-framework/spring-framework.index.html",
           "id": "b67fb330-a745-40fe-9bfb-23d326ffdfff856673",
-          "x": 82963,
-          "y": -16347,
+          "x": 39834,
+          "y": -16688,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spring-framework/spring-framework.index.html",
           "borderWidth": ""
@@ -8402,8 +8402,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/texlive-source/texlive-source.index.html",
           "id": "82f75612-bc2a-4983-bc1e-3e5b2b5308ef856673",
-          "x": 82940,
-          "y": -16324,
+          "x": 39811,
+          "y": -16665,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/texlive-source/texlive-source.index.html",
           "borderWidth": ""
@@ -8435,8 +8435,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/tomcat/tomcat.index.html",
           "id": "edae5ee3-c836-4cd6-a969-e7de69f2426e856673",
-          "x": 82895,
-          "y": -16273,
+          "x": 39766,
+          "y": -16614,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/tomcat/tomcat.index.html",
           "borderWidth": ""
@@ -8468,8 +8468,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vim/vim.index.html",
           "id": "5e01434b-c6de-4c84-8340-2bca0811fecf856673",
-          "x": 82874,
-          "y": -16236,
+          "x": 39745,
+          "y": -16577,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vim/vim.index.html",
           "borderWidth": ""
@@ -8501,8 +8501,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vscode/vscode.index.html",
           "id": "8e0b73ac-bf1d-43f5-9962-1d293d9c95a2856673",
-          "x": 82897,
-          "y": -16205,
+          "x": 39768,
+          "y": -16546,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vscode/vscode.index.html",
           "borderWidth": ""
@@ -8533,8 +8533,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vis-network",
           "id": "8f1d4ca1-872a-4275-9e5a-c4071e43cfc8856673",
-          "x": 82493,
-          "y": -17229
+          "x": 39364,
+          "y": -17570
         },
         "aac55059-2104-48d0-afc9-c3c801076487856673": {
           "color": {
@@ -8562,8 +8562,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "jdk",
           "id": "aac55059-2104-48d0-afc9-c3c801076487856673",
-          "x": 82466,
-          "y": -17154
+          "x": 39337,
+          "y": -17495
         },
         "44447f9c-f188-43ba-8164-88bda0aae8e1856673": {
           "color": {
@@ -8591,8 +8591,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "apache_httpd",
           "id": "44447f9c-f188-43ba-8164-88bda0aae8e1856673",
-          "x": 82500,
-          "y": -17094
+          "x": 39371,
+          "y": -17435
         },
         "9c3a52cb-55a2-4470-a625-33f10ad15153856673": {
           "color": {
@@ -8620,8 +8620,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "bash",
           "id": "9c3a52cb-55a2-4470-a625-33f10ad15153856673",
-          "x": 82472,
-          "y": -17048
+          "x": 39343,
+          "y": -17389
         },
         "54a4b213-9ec2-4ed1-b5db-9220107c9311856673": {
           "color": {
@@ -8649,8 +8649,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "chromium",
           "id": "54a4b213-9ec2-4ed1-b5db-9220107c9311856673",
-          "x": 82488,
-          "y": -16998
+          "x": 39359,
+          "y": -17339
         },
         "e9710f68-b042-4451-b90c-2b17fb566ea3856673": {
           "color": {
@@ -8678,8 +8678,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "cpython",
           "id": "e9710f68-b042-4451-b90c-2b17fb566ea3856673",
-          "x": 82482,
-          "y": -16945
+          "x": 39353,
+          "y": -17286
         },
         "51f703e5-c66a-401f-a872-69951870b25f856673": {
           "color": {
@@ -8707,8 +8707,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "emacs",
           "id": "51f703e5-c66a-401f-a872-69951870b25f856673",
-          "x": 82478,
-          "y": -16904
+          "x": 39349,
+          "y": -17245
         },
         "0115c013-c5ef-4a52-9998-fbc97a360322856673": {
           "color": {
@@ -8736,8 +8736,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "firefox",
           "id": "0115c013-c5ef-4a52-9998-fbc97a360322856673",
-          "x": 82476,
-          "y": -16855
+          "x": 39347,
+          "y": -17196
         },
         "497f406a-93a9-4283-9ee2-19e6d204f5a0856673": {
           "color": {
@@ -8765,8 +8765,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "gcc",
           "id": "497f406a-93a9-4283-9ee2-19e6d204f5a0856673",
-          "x": 82468,
-          "y": -16794
+          "x": 39339,
+          "y": -17135
         },
         "428995a8-1044-4e2f-ad44-215c841d1a41856673": {
           "color": {
@@ -8794,8 +8794,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ghc",
           "id": "428995a8-1044-4e2f-ad44-215c841d1a41856673",
-          "x": 82468,
-          "y": -16758
+          "x": 39339,
+          "y": -17099
         },
         "01bea31e-6800-4dd3-8ed5-98181a0d62b3856673": {
           "color": {
@@ -8823,8 +8823,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "git",
           "id": "01bea31e-6800-4dd3-8ed5-98181a0d62b3856673",
-          "x": 82464,
-          "y": -16732
+          "x": 39335,
+          "y": -17073
         },
         "218467bc-6c3b-4916-9dd2-b537a99c2c7c856673": {
           "color": {
@@ -8852,8 +8852,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "julia",
           "id": "218467bc-6c3b-4916-9dd2-b537a99c2c7c856673",
-          "x": 82469,
-          "y": -16703
+          "x": 39340,
+          "y": -17044
         },
         "6c60a515-6507-42f8-8a1e-71861804b45a856673": {
           "color": {
@@ -8881,8 +8881,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "hbase",
           "id": "6c60a515-6507-42f8-8a1e-71861804b45a856673",
-          "x": 82476,
-          "y": -16657
+          "x": 39347,
+          "y": -16998
         },
         "a100e6e9-86eb-4753-8338-307eca40a7d4856673": {
           "color": {
@@ -8910,8 +8910,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "linux-core",
           "id": "a100e6e9-86eb-4753-8338-307eca40a7d4856673",
-          "x": 82488,
-          "y": -16625
+          "x": 39359,
+          "y": -16966
         },
         "6c1f4913-43d4-4631-8c79-df8ce5a4f63e856673": {
           "color": {
@@ -8939,8 +8939,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js",
           "id": "6c1f4913-43d4-4631-8c79-df8ce5a4f63e856673",
-          "x": 82487,
-          "y": -16585
+          "x": 39358,
+          "y": -16926
         },
         "498482b5-bbdf-40aa-aa3c-452315162413856673": {
           "color": {
@@ -8968,8 +8968,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mysql-server",
           "id": "498482b5-bbdf-40aa-aa3c-452315162413856673",
-          "x": 82498,
-          "y": -16542
+          "x": 39369,
+          "y": -16883
         },
         "6887b62d-a46b-4150-9b53-64bb70e8c850856673": {
           "color": {
@@ -8997,8 +8997,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "neo4j",
           "id": "6887b62d-a46b-4150-9b53-64bb70e8c850856673",
-          "x": 82474,
-          "y": -16503
+          "x": 39345,
+          "y": -16844
         },
         "c235ef75-7667-4b06-8b6f-491724d4c4b5856673": {
           "color": {
@@ -9026,8 +9026,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ruby",
           "id": "c235ef75-7667-4b06-8b6f-491724d4c4b5856673",
-          "x": 82471,
-          "y": -16467
+          "x": 39342,
+          "y": -16808
         },
         "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf856673": {
           "color": {
@@ -9055,8 +9055,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sbcl",
           "id": "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf856673",
-          "x": 82469,
-          "y": -16426
+          "x": 39340,
+          "y": -16767
         },
         "f4decd03-bfff-426d-8f3c-40106497e623856673": {
           "color": {
@@ -9084,8 +9084,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "spark",
           "id": "f4decd03-bfff-426d-8f3c-40106497e623856673",
-          "x": 82474,
-          "y": -16391
+          "x": 39345,
+          "y": -16732
         },
         "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da856673": {
           "color": {
@@ -9113,8 +9113,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "spring-framework",
           "id": "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da856673",
-          "x": 82512,
-          "y": -16359
+          "x": 39383,
+          "y": -16700
         },
         "7b571732-4654-4d9e-a1de-a7f1df712745856673": {
           "color": {
@@ -9142,8 +9142,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "texlive-source",
           "id": "7b571732-4654-4d9e-a1de-a7f1df712745856673",
-          "x": 82501,
-          "y": -16323
+          "x": 39372,
+          "y": -16664
         },
         "92fca885-a7ed-49ea-89d1-82fa71c9857e856673": {
           "color": {
@@ -9171,8 +9171,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "tomcat",
           "id": "92fca885-a7ed-49ea-89d1-82fa71c9857e856673",
-          "x": 82478,
-          "y": -16279
+          "x": 39349,
+          "y": -16620
         },
         "315153b0-268e-4c6b-9f1b-b0ecf0707073856673": {
           "color": {
@@ -9200,8 +9200,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vim",
           "id": "315153b0-268e-4c6b-9f1b-b0ecf0707073856673",
-          "x": 82468,
-          "y": -16241
+          "x": 39339,
+          "y": -16582
         },
         "28c78af2-c055-4907-b879-b40a312664f7856673": {
           "color": {
@@ -9229,8 +9229,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vscode",
           "id": "28c78af2-c055-4907-b879-b40a312664f7856673",
-          "x": 82479,
-          "y": -16210
+          "x": 39350,
+          "y": -16551
         },
         "25d82c80-2203-4faa-9747-87120f00ae81856673": {
           "color": {
@@ -9258,8 +9258,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Процедура",
           "id": "25d82c80-2203-4faa-9747-87120f00ae81856673",
-          "x": 81787,
-          "y": -4052
+          "x": 38658,
+          "y": -4393
         },
         "179b5dcc-0496-4c74-8451-cbb796144379856673": {
           "color": {
@@ -9288,8 +9288,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Предварительно установить",
           "id": "179b5dcc-0496-4c74-8451-cbb796144379856673",
-          "x": 81977,
-          "y": -4109,
+          "x": 38848,
+          "y": -4450,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9320,8 +9320,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Docker",
           "id": "6fa1e7e0-c5d6-4003-83e1-cea4406fae46856673",
-          "x": 82170,
-          "y": -4151
+          "x": 39041,
+          "y": -4492
         },
         "3263da94-2ce8-402a-8d42-bd22669b945b856673": {
           "color": {
@@ -9349,8 +9349,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose",
           "id": "3263da94-2ce8-402a-8d42-bd22669b945b856673",
-          "x": 82202,
-          "y": -4096
+          "x": 39073,
+          "y": -4437
         },
         "85e6ba42-7db6-4680-919c-3269559c0fbe856673": {
           "color": {
@@ -9378,8 +9378,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "pip install docker-compose",
           "id": "85e6ba42-7db6-4680-919c-3269559c0fbe856673",
-          "x": 82406,
-          "y": -4099
+          "x": 39277,
+          "y": -4440
         },
         "8cfea21a-e1f4-400e-b764-c9ef63fef1c8856673": {
           "color": {
@@ -9407,8 +9407,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выполнение тестов",
           "id": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8856673",
-          "x": 81957,
-          "y": -3901
+          "x": 38828,
+          "y": -4242
         },
         "c529d633-f904-4990-b1cd-879e8c0b164b856673": {
           "color": {
@@ -9437,8 +9437,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Необходимо открыть два консоли",
           "id": "c529d633-f904-4990-b1cd-879e8c0b164b856673",
-          "x": 82269,
-          "y": -4031,
+          "x": 39140,
+          "y": -4372,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9470,8 +9470,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В первой консоли выполните команду",
           "id": "532636aa-db78-49e6-be51-3be6ae888b09856673",
-          "x": 82284,
-          "y": -3974,
+          "x": 39155,
+          "y": -4315,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9503,8 +9503,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose up --build.",
           "id": "a2fc6f92-bd21-4679-870f-a3f4d5e301f0856673",
-          "x": 82579,
-          "y": -3978,
+          "x": 39450,
+          "y": -4319,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9536,8 +9536,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Запустится докер-контейнер с браузером chrome внутри.",
           "id": "1724f3cb-c073-4014-8a02-8132f6186803856673",
-          "x": 82920,
-          "y": -3990,
+          "x": 39791,
+          "y": -4331,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9569,8 +9569,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Во второй консоли выполните команды",
           "id": "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9856673",
-          "x": 82291,
-          "y": -3845,
+          "x": 39162,
+          "y": -4186,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9601,8 +9601,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker exec -it app-express npm run test:e2e",
           "id": "3b1b8717-0bfb-4b5f-a9de-aa39f4f825fd856673",
-          "x": 82635,
-          "y": -3891
+          "x": 39506,
+          "y": -4232
         },
         "e335fc55-69e7-4f38-b4c6-09e133d6688f856673": {
           "color": {
@@ -9630,8 +9630,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выполнятся тесты",
           "id": "e335fc55-69e7-4f38-b4c6-09e133d6688f856673",
-          "x": 82923,
-          "y": -3902
+          "x": 39794,
+          "y": -4243
         },
         "9072fccc-888c-4b01-b039-1d0027a1e73a856673": {
           "color": {
@@ -9660,8 +9660,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Процесс выйдет после выполнения.",
           "id": "9072fccc-888c-4b01-b039-1d0027a1e73a856673",
-          "x": 82980,
-          "y": -3864,
+          "x": 39851,
+          "y": -4205,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9692,8 +9692,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Процесс останется запущенным в консоли",
           "id": "76062b6c-58fb-46cc-9370-c59d6f3718c6856673",
-          "x": 82873,
-          "y": -3958
+          "x": 39744,
+          "y": -4299
         },
         "79d0dbf8-19a9-462f-b150-e0ee56523d65856673": {
           "color": {
@@ -9721,8 +9721,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose down",
           "id": "79d0dbf8-19a9-462f-b150-e0ee56523d65856673",
-          "x": 82563,
-          "y": -3786
+          "x": 39434,
+          "y": -4127
         },
         "3ea5f8fc-f7db-431e-b3f4-024a28f9313c856673": {
           "color": {
@@ -9751,8 +9751,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Чтобы остановить ее контейнер",
           "id": "3ea5f8fc-f7db-431e-b3f4-024a28f9313c856673",
-          "x": 82835,
-          "y": -3787,
+          "x": 39706,
+          "y": -4128,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9784,8 +9784,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Схемы строятся на элементе HTML5 - canvas",
           "id": "ecbb486a-5275-4cf9-8b76-9d5cf78756c0856673",
-          "x": 81749,
-          "y": -2946,
+          "x": 38620,
+          "y": -3287,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9817,8 +9817,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Положение объектов на canvas можно тестировать только как растровую графику",
           "id": "23c491d2-586e-4c27-a9f6-fea8f4bec969856673",
-          "x": 82239,
-          "y": -2975,
+          "x": 39110,
+          "y": -3316,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9849,8 +9849,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В тестах нужно следить за цветом отдельных пикселей и их групп.",
           "id": "22be0fd6-971b-427a-8209-10438d354494856673",
-          "x": 82182,
-          "y": -2941
+          "x": 39053,
+          "y": -3282
         },
         "1e266f7a-37e9-468b-911a-fe271dc204ad856673": {
           "color": {
@@ -9878,8 +9878,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Можно использовать библиотеки из ряда openCV",
           "id": "1e266f7a-37e9-468b-911a-fe271dc204ad856673",
-          "x": 82126,
-          "y": -2906
+          "x": 38997,
+          "y": -3247
         },
         "28056588-8284-4009-9d1d-cbc9d804a95d856673": {
           "color": {
@@ -9909,8 +9909,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "URL ссылка на холст",
           "id": "28056588-8284-4009-9d1d-cbc9d804a95d856673",
-          "x": 81643,
-          "y": -7139,
+          "x": 38514,
+          "y": -7480,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9942,8 +9942,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В ссылке можно задать координаты точки на холсте и масштаб просмотра",
           "id": "6e7616e9-3f7a-4df9-8aac-0c50daf3a3b0856673",
-          "x": 82071,
-          "y": -7201,
+          "x": 38942,
+          "y": -7542,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9974,8 +9974,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В конце ссылки добавить",
           "id": "c5d0b881-5d55-454d-adb3-26892dec6b0a856673",
-          "x": 81909,
-          "y": -7144
+          "x": 38780,
+          "y": -7485
         },
         "9db85203-fde1-4ec5-afe2-aeb373d60a55856673": {
           "color": {
@@ -10003,8 +10003,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "?scale=...&x=...&y=...",
           "id": "9db85203-fde1-4ec5-afe2-aeb373d60a55856673",
-          "x": 82116,
-          "y": -7143
+          "x": 38987,
+          "y": -7484
         },
         "00743438-e644-40dd-a573-844be7540f05856673": {
           "color": {
@@ -10033,8 +10033,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Получить координаты и масштаб\nтекущего вида холста",
           "id": "00743438-e644-40dd-a573-844be7540f05856673",
-          "x": 81935,
-          "y": -7037,
+          "x": 38806,
+          "y": -7378,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10065,8 +10065,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликаем updateMenuFromScheme в меню showData",
           "id": "d4204b1c-b9c1-4b7a-9fbc-2666174ab51e856673",
-          "x": 82286,
-          "y": -7078
+          "x": 39157,
+          "y": -7419
         },
         "83215916-1c34-4266-b50e-a43be8e19724856673": {
           "color": {
@@ -10094,8 +10094,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Проматываем окно с кодом вниз до конца",
           "id": "83215916-1c34-4266-b50e-a43be8e19724856673",
-          "x": 82252,
-          "y": -7040
+          "x": 39123,
+          "y": -7381
         },
         "b550d05e-5a1d-4066-9747-126aa669396c856673": {
           "color": {
@@ -10124,8 +10124,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Берем параметры из полей",
           "id": "b550d05e-5a1d-4066-9747-126aa669396c856673",
-          "x": 82205,
-          "y": -6985,
+          "x": 39076,
+          "y": -7326,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10156,8 +10156,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "setup.scale",
           "id": "e2adc361-24b6-400e-8140-4538000e3041856673",
-          "x": 82391,
-          "y": -6994
+          "x": 39262,
+          "y": -7335
         },
         "d3d62987-0cc6-426d-ab8f-fb5813228773856673": {
           "color": {
@@ -10185,8 +10185,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "setup.viewPosition.x",
           "id": "d3d62987-0cc6-426d-ab8f-fb5813228773856673",
-          "x": 82419,
-          "y": -6963
+          "x": 39290,
+          "y": -7304
         },
         "420f4069-56f9-43d1-8b4e-bed7ba73aff9856673": {
           "color": {
@@ -10214,8 +10214,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "setup.viewPosition.y",
           "id": "420f4069-56f9-43d1-8b4e-bed7ba73aff9856673",
-          "x": 82419,
-          "y": -6932
+          "x": 39290,
+          "y": -7273
         },
         "c00144df-8d18-47d6-b3ac-effce2323769856673": {
           "color": {
@@ -10244,8 +10244,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Как сохранить?",
           "id": "c00144df-8d18-47d6-b3ac-effce2323769856673",
-          "x": 81884,
-          "y": -8928,
+          "x": 38755,
+          "y": -9269,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10277,8 +10277,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Как загрузить?",
           "id": "7333304b-0641-4095-8128-b3ab5ee7b8a4856673",
-          "x": 81885,
-          "y": -8629,
+          "x": 38756,
+          "y": -8970,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10311,8 +10311,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликните на updateMenuFromScheme\n в меню showData.",
           "id": "51235d2d-d4fb-4f0b-a275-77976c6728ae856673",
-          "x": 82392,
-          "y": -8977,
+          "x": 39263,
+          "y": -9318,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10345,8 +10345,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликните по ноде с датой сохранения.\nПотом кликните в ее меню (слева на экране)\nпо loadSavedProjectToMenu.",
           "id": "3a096daf-6a68-49ae-b74b-b20a0e1fd115856673",
-          "x": 83261,
-          "y": -8990,
+          "x": 40132,
+          "y": -9331,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10378,8 +10378,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Json-код схемы обновится в меню и сохранится\nв локальном хранилище браузера. \nДанные остаются в хранилище постоянно.\nРядом с нодой saveCanvasProjectData\nпоявится нода с датой сохранения.",
           "id": "d6d2c067-4802-47b8-9a26-0651849fe1b2856673",
-          "x": 83272,
-          "y": -9178,
+          "x": 40143,
+          "y": -9519,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10411,8 +10411,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Json-код схемы загрузится в меню и схема обновится.",
           "id": "1fcaf981-ffce-478f-9d43-4f38323119e0856673",
-          "x": 83906,
-          "y": -8989,
+          "x": 40777,
+          "y": -9330,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10443,8 +10443,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сохранение и загрузка",
           "id": "6f687f53-91cc-4da8-aa26-2ee119ebda82856673",
-          "x": 81650,
-          "y": -8753
+          "x": 38521,
+          "y": -9094
         },
         "d4a5eef0-c4e7-4347-9ddd-cda5914df0a1856673": {
           "color": {
@@ -10472,8 +10472,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вывести в консоли список ключей browser local storage",
           "id": "d4a5eef0-c4e7-4347-9ddd-cda5914df0a1856673",
-          "x": 83294,
-          "y": -9106
+          "x": 40165,
+          "y": -9447
         },
         "f824df76-098b-4d25-9987-a5e2ff505841856673": {
           "color": {
@@ -10501,8 +10501,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "showBrowserLocalStorageKeys()",
           "id": "f824df76-098b-4d25-9987-a5e2ff505841856673",
-          "x": 83656,
-          "y": -9107
+          "x": 40527,
+          "y": -9448
         },
         "a2e44315-404d-40f8-bb2a-5f788c69e548856673": {
           "color": {
@@ -10530,8 +10530,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В консоли удалить из browser local storage элемент по ключу",
           "id": "a2e44315-404d-40f8-bb2a-5f788c69e548856673",
-          "x": 83314,
-          "y": -9049
+          "x": 40185,
+          "y": -9390
         },
         "e14d58fc-a6ee-40e5-abfa-42be09c2ffb1856673": {
           "color": {
@@ -10559,8 +10559,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "localStorage.removeItem(keyName)",
           "id": "e14d58fc-a6ee-40e5-abfa-42be09c2ffb1856673",
-          "x": 83831,
-          "y": -9047
+          "x": 40702,
+          "y": -9388
         },
         "d5cdb95f-43cf-4cb2-b830-3b446b3efc0a344856673": {
           "color": {
@@ -10588,8 +10588,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Копировать ноды",
           "id": "d5cdb95f-43cf-4cb2-b830-3b446b3efc0a344856673",
-          "x": 81631,
-          "y": -9833
+          "x": 38502,
+          "y": -10174
         },
         "4eb85e99-3c2a-43f9-b681-93172c9d49de344856673": {
           "color": {
@@ -10618,8 +10618,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В центре экрана появится нода у которой в качестве текста\nбудет json-код выделенных до этого нод",
           "id": "4eb85e99-3c2a-43f9-b681-93172c9d49de344856673",
-          "x": 82712,
-          "y": -9908,
+          "x": 39583,
+          "y": -10249,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10651,8 +10651,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Создать ноду с json-кодом выделенных\nнод и связей",
           "id": "fae2f989-0b9d-4c04-9939-854d750ff81b344856673",
-          "x": 81946,
-          "y": -9939,
+          "x": 38817,
+          "y": -10280,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10684,8 +10684,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделить одну или несколько нод",
           "id": "8f8c6751-24e7-4d8e-a0ee-12a25cc85ef4344856673",
-          "x": 82341,
-          "y": -9967,
+          "x": 39212,
+          "y": -10308,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10716,8 +10716,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В верхнем меню кликнуть toJson",
           "id": "fe2f192b-b1fe-49b6-a1d6-5158dfc18b86344856673",
-          "x": 82337,
-          "y": -9909
+          "x": 39208,
+          "y": -10250
         },
         "47a29299-c65d-45e2-8915-af25c997123f344856673": {
           "color": {
@@ -10745,8 +10745,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Построить ноды и связи из ноды c json-кодом",
           "id": "47a29299-c65d-45e2-8915-af25c997123f344856673",
-          "x": 81966,
-          "y": -9744
+          "x": 38837,
+          "y": -10085
         },
         "bd18b23c-d6c0-46ff-ae22-fead73d8f7b1344856673": {
           "color": {
@@ -10774,8 +10774,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделить ноду с json-кодом",
           "id": "bd18b23c-d6c0-46ff-ae22-fead73d8f7b1344856673",
-          "x": 82321,
-          "y": -9796
+          "x": 39192,
+          "y": -10137
         },
         "fe671b00-860a-40fc-b743-072a270cb96b344856673": {
           "color": {
@@ -10803,8 +10803,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В верхнем меню кликнуть fromJson",
           "id": "fe671b00-860a-40fc-b743-072a270cb96b344856673",
-          "x": 82345,
-          "y": -9761
+          "x": 39216,
+          "y": -10102
         },
         "7567150b-bad8-47cb-878d-abf320639b7c344856673": {
           "color": {
@@ -10832,8 +10832,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликнуть на свободном участке холста",
           "id": "7567150b-bad8-47cb-878d-abf320639b7c344856673",
-          "x": 82356,
-          "y": -9726
+          "x": 39227,
+          "y": -10067
         },
         "eece73d0-f661-4746-abc6-59492ce78793673": {
           "color": {
@@ -10861,8 +10861,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Тестирование mm-vis-js",
-          "x": 80806,
-          "y": -3225,
+          "x": 37677,
+          "y": -3566,
           "id": "eece73d0-f661-4746-abc6-59492ce78793673",
           "shape": "box",
           "link": "",
@@ -10891,8 +10891,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 81448,
-          "y": -2652,
+          "x": 38319,
+          "y": -2993,
           "id": "a017755e-776e-4ce6-8a5e-044c579cf8bc673"
         },
         "ef7e0044-5ad3-4865-a2ad-6e0118fef0cf673": {
@@ -10921,8 +10921,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
-          "x": 81698,
-          "y": -2652,
+          "x": 38569,
+          "y": -2993,
           "id": "ef7e0044-5ad3-4865-a2ad-6e0118fef0cf673",
           "shape": "box",
           "link": "",
@@ -10951,8 +10951,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 81598,
-          "y": -2652,
+          "x": 38469,
+          "y": -2993,
           "id": "79aa7764-76fa-4f37-8e81-3265ee9b3d0f673"
         },
         "22973f39-877f-4c69-bbdf-001db2408034673": {
@@ -10978,8 +10978,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 81457,
-          "y": -3658,
+          "x": 38328,
+          "y": -3999,
           "id": "22973f39-877f-4c69-bbdf-001db2408034673"
         },
         "99fc10fd-90d5-4228-9a8e-701248498df2673": {
@@ -11005,8 +11005,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 81603,
-          "y": -4026,
+          "x": 38474,
+          "y": -4367,
           "id": "99fc10fd-90d5-4228-9a8e-701248498df2673"
         },
         "5c5e4042-6e47-4335-9962-0cdee86b771d673": {
@@ -11032,8 +11032,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 81607,
-          "y": -3658,
+          "x": 38478,
+          "y": -3999,
           "id": "5c5e4042-6e47-4335-9962-0cdee86b771d673"
         },
         "564a2015-d7bc-473c-b076-4201b463ca5c673": {
@@ -11059,8 +11059,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 81607,
-          "y": -3408,
+          "x": 38478,
+          "y": -3749,
           "id": "564a2015-d7bc-473c-b076-4201b463ca5c673"
         },
         "11dad21f-63aa-4483-8b96-0662e55f0cdb673": {
@@ -11086,8 +11086,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 81671,
-          "y": -3558,
+          "x": 38542,
+          "y": -3899,
           "id": "11dad21f-63aa-4483-8b96-0662e55f0cdb673"
         },
         "597174be-3071-484c-a901-85b2943119fb673": {
@@ -11113,8 +11113,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 81702,
-          "y": -3533,
+          "x": 38573,
+          "y": -3874,
           "id": "597174be-3071-484c-a901-85b2943119fb673"
         },
         "15970d88-4fc7-4284-821c-bfe8dc7d9968673": {
@@ -11140,8 +11140,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 81667,
-          "y": -3508,
+          "x": 38538,
+          "y": -3849,
           "id": "15970d88-4fc7-4284-821c-bfe8dc7d9968673"
         },
         "7974f18b-313a-4f89-a58c-b24a8ee223f3673": {
@@ -11167,8 +11167,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 81686,
-          "y": -3483,
+          "x": 38557,
+          "y": -3824,
           "id": "7974f18b-313a-4f89-a58c-b24a8ee223f3673"
         },
         "e9cfa921-21b0-4a6b-aa40-45ce1463cf0e673": {
@@ -11194,8 +11194,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 81675,
-          "y": -3458,
+          "x": 38546,
+          "y": -3799,
           "id": "e9cfa921-21b0-4a6b-aa40-45ce1463cf0e673"
         },
         "31fb0461-1908-49c2-8921-6cb8e1b42af5673": {
@@ -11221,8 +11221,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 81697,
-          "y": -3433,
+          "x": 38568,
+          "y": -3774,
           "id": "31fb0461-1908-49c2-8921-6cb8e1b42af5673"
         },
         "00a3ee35-7088-49a7-96de-afd66e696112673": {
@@ -11248,8 +11248,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 81699,
-          "y": -3408,
+          "x": 38570,
+          "y": -3749,
           "id": "00a3ee35-7088-49a7-96de-afd66e696112673"
         },
         "5bb1563c-775c-4e02-8c08-8a53748f84b2673": {
@@ -11275,8 +11275,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 81677,
-          "y": -3383,
+          "x": 38548,
+          "y": -3724,
           "id": "5bb1563c-775c-4e02-8c08-8a53748f84b2673"
         },
         "24b108fe-aa2a-4e47-bc34-e504bf6fd7bd673": {
@@ -11302,8 +11302,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 81668,
-          "y": -3358,
+          "x": 38539,
+          "y": -3699,
           "id": "24b108fe-aa2a-4e47-bc34-e504bf6fd7bd673"
         },
         "3974d212-173c-4624-94c0-4df6ebf22f0b673": {
@@ -11329,8 +11329,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 81696,
-          "y": -3333,
+          "x": 38567,
+          "y": -3674,
           "id": "3974d212-173c-4624-94c0-4df6ebf22f0b673"
         },
         "294d7bcd-f7d6-4bb7-a6f3-f1740fabe7b7673": {
@@ -11356,8 +11356,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 81682,
-          "y": -3308,
+          "x": 38553,
+          "y": -3649,
           "id": "294d7bcd-f7d6-4bb7-a6f3-f1740fabe7b7673"
         },
         "6707cda3-4df4-49dc-934b-0a7373752a29673": {
@@ -11383,8 +11383,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 81704,
-          "y": -3283,
+          "x": 38575,
+          "y": -3624,
           "id": "6707cda3-4df4-49dc-934b-0a7373752a29673"
         },
         "3d4e5982-4060-405a-8a32-3c0950e6344d673": {
@@ -11410,8 +11410,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 81668,
-          "y": -3258,
+          "x": 38539,
+          "y": -3599,
           "id": "3d4e5982-4060-405a-8a32-3c0950e6344d673"
         },
         "c4060f5e-1e93-4f41-87ff-0fd5097fd466673": {
@@ -11437,8 +11437,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 81707,
-          "y": -3233,
+          "x": 38578,
+          "y": -3574,
           "id": "c4060f5e-1e93-4f41-87ff-0fd5097fd466673"
         },
         "f8f305c2-963c-4a5e-a602-d961cede3e67673": {
@@ -11464,8 +11464,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 81457,
-          "y": -3108,
+          "x": 38328,
+          "y": -3449,
           "id": "f8f305c2-963c-4a5e-a602-d961cede3e67673"
         },
         "544cab6c-3080-4683-8d30-4377dff9b557673": {
@@ -11491,8 +11491,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 81461,
-          "y": -2945,
+          "x": 38332,
+          "y": -3286,
           "id": "544cab6c-3080-4683-8d30-4377dff9b557673"
         },
         "b68c3d2e-6ec6-46c1-a48f-0124fc60a8b6673": {
@@ -11518,8 +11518,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 81448,
-          "y": -2752,
+          "x": 38319,
+          "y": -3093,
           "id": "b68c3d2e-6ec6-46c1-a48f-0124fc60a8b6673"
         },
         "18e5ccae-18fc-47d7-b477-869e4f6b6695673": {
@@ -11548,8 +11548,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Карты программного кода",
-          "x": 81461,
-          "y": -15493,
+          "x": 38332,
+          "y": -15834,
           "id": "18e5ccae-18fc-47d7-b477-869e4f6b6695673",
           "shape": "box",
           "link": "",
@@ -11578,8 +11578,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 82016,
-          "y": -15049,
+          "x": 38887,
+          "y": -15390,
           "id": "1704383b-3fe2-4770-b7ff-e847fe5b74dc673"
         },
         "ba544b69-0857-4626-a5a8-2dbda6daa8fa673": {
@@ -11608,8 +11608,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
-          "x": 82287,
-          "y": -15049,
+          "x": 39158,
+          "y": -15390,
           "id": "ba544b69-0857-4626-a5a8-2dbda6daa8fa673",
           "shape": "box",
           "link": "",
@@ -11638,8 +11638,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 82166,
-          "y": -15049,
+          "x": 39037,
+          "y": -15390,
           "id": "bb5a3df0-cd10-43c6-a426-f5882f5e09f4673"
         },
         "1165ae1d-393f-448c-886d-eda66410f74a673": {
@@ -11665,8 +11665,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 82016,
-          "y": -15899,
+          "x": 38887,
+          "y": -16240,
           "id": "1165ae1d-393f-448c-886d-eda66410f74a673"
         },
         "0f1c6f59-dfac-430c-b42e-085e62d58b0f673": {
@@ -11692,8 +11692,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 82170,
-          "y": -16370,
+          "x": 39041,
+          "y": -16711,
           "id": "0f1c6f59-dfac-430c-b42e-085e62d58b0f673"
         },
         "60f2d9a2-de41-4bf5-b993-b6c870f43400673": {
@@ -11719,8 +11719,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 82166,
-          "y": -15899,
+          "x": 39037,
+          "y": -16240,
           "id": "60f2d9a2-de41-4bf5-b993-b6c870f43400673"
         },
         "11b7823a-4fb5-4acd-97bb-141244950a02673": {
@@ -11746,8 +11746,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 82166,
-          "y": -15649,
+          "x": 39037,
+          "y": -15990,
           "id": "11b7823a-4fb5-4acd-97bb-141244950a02673"
         },
         "b3491a37-06cb-47de-979f-0c8b1365b0e9673": {
@@ -11773,8 +11773,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 82230,
-          "y": -15799,
+          "x": 39101,
+          "y": -16140,
           "id": "b3491a37-06cb-47de-979f-0c8b1365b0e9673"
         },
         "eaf16b4b-dd4c-4f94-93c3-a7caafe19af3673": {
@@ -11800,8 +11800,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 82261,
-          "y": -15774,
+          "x": 39132,
+          "y": -16115,
           "id": "eaf16b4b-dd4c-4f94-93c3-a7caafe19af3673"
         },
         "29eade01-7ee1-4b36-8ad3-1f0c2cf995c2673": {
@@ -11827,8 +11827,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 82226,
-          "y": -15749,
+          "x": 39097,
+          "y": -16090,
           "id": "29eade01-7ee1-4b36-8ad3-1f0c2cf995c2673"
         },
         "9e1db631-16ef-47c4-a828-e6000749f73b673": {
@@ -11854,8 +11854,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 82245,
-          "y": -15724,
+          "x": 39116,
+          "y": -16065,
           "id": "9e1db631-16ef-47c4-a828-e6000749f73b673"
         },
         "c8a04a4d-001f-4dbf-94f1-4ad0982735fb673": {
@@ -11881,8 +11881,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 82234,
-          "y": -15699,
+          "x": 39105,
+          "y": -16040,
           "id": "c8a04a4d-001f-4dbf-94f1-4ad0982735fb673"
         },
         "a1669b83-07bd-4b30-919c-93b3bc64a75e673": {
@@ -11908,8 +11908,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 82256,
-          "y": -15674,
+          "x": 39127,
+          "y": -16015,
           "id": "a1669b83-07bd-4b30-919c-93b3bc64a75e673"
         },
         "f775615c-40e2-4e5a-a127-be3160df6069673": {
@@ -11935,8 +11935,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 82258,
-          "y": -15649,
+          "x": 39129,
+          "y": -15990,
           "id": "f775615c-40e2-4e5a-a127-be3160df6069673"
         },
         "d29c7bca-01b1-4f88-b465-fda42fba9987673": {
@@ -11962,8 +11962,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 82236,
-          "y": -15624,
+          "x": 39107,
+          "y": -15965,
           "id": "d29c7bca-01b1-4f88-b465-fda42fba9987673"
         },
         "77cf3de9-3c33-4b11-8875-a1b52d00b312673": {
@@ -11989,8 +11989,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 82227,
-          "y": -15599,
+          "x": 39098,
+          "y": -15940,
           "id": "77cf3de9-3c33-4b11-8875-a1b52d00b312673"
         },
         "88473b33-2a08-42ff-897e-fffc090a30c7673": {
@@ -12016,8 +12016,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 82255,
-          "y": -15574,
+          "x": 39126,
+          "y": -15915,
           "id": "88473b33-2a08-42ff-897e-fffc090a30c7673"
         },
         "d49e52e0-4f56-41ec-b0b1-cc9b86d88562673": {
@@ -12043,8 +12043,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 82241,
-          "y": -15549,
+          "x": 39112,
+          "y": -15890,
           "id": "d49e52e0-4f56-41ec-b0b1-cc9b86d88562673"
         },
         "ee365806-48b0-4565-b6d8-ed1549391fc6673": {
@@ -12070,8 +12070,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 82263,
-          "y": -15524,
+          "x": 39134,
+          "y": -15865,
           "id": "ee365806-48b0-4565-b6d8-ed1549391fc6673"
         },
         "ea9ae7f6-1489-466c-b4d1-a43519c0f009673": {
@@ -12097,8 +12097,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 82227,
-          "y": -15499,
+          "x": 39098,
+          "y": -15840,
           "id": "ea9ae7f6-1489-466c-b4d1-a43519c0f009673"
         },
         "b5929e45-60c7-4999-a367-56714094a864673": {
@@ -12124,8 +12124,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 82266,
-          "y": -15474,
+          "x": 39137,
+          "y": -15815,
           "id": "b5929e45-60c7-4999-a367-56714094a864673"
         },
         "22bead8f-a78d-4630-926b-5158f2b99d87673": {
@@ -12151,8 +12151,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 82016,
-          "y": -15349,
+          "x": 38887,
+          "y": -15690,
           "id": "22bead8f-a78d-4630-926b-5158f2b99d87673"
         },
         "a5bf367a-0d60-4392-9047-c134c893385e673": {
@@ -12178,8 +12178,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 82016,
-          "y": -15249,
+          "x": 38887,
+          "y": -15590,
           "id": "a5bf367a-0d60-4392-9047-c134c893385e673"
         },
         "bf39d10f-97ac-4cc7-9fec-eb3e97972330673": {
@@ -12205,8 +12205,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 82016,
-          "y": -15149,
+          "x": 38887,
+          "y": -15490,
           "id": "bf39d10f-97ac-4cc7-9fec-eb3e97972330673"
         },
         "65a326ea-1281-41f1-9352-6cb0a9e6a2c8673": {
@@ -12236,8 +12236,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Bug: save nodes don't disappear after delete and page reload.",
           "id": "65a326ea-1281-41f1-9352-6cb0a9e6a2c8673",
-          "x": 82162,
-          "y": -59,
+          "x": 39033,
+          "y": -400,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12271,8 +12271,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/19/2019",
-          "x": 81740,
-          "y": 51,
+          "x": 38611,
+          "y": -290,
           "id": "72a29b77-7945-40c7-aabf-56d95597916b559673",
           "shape": "box",
           "link": "",
@@ -12304,8 +12304,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "id": "bbfa4068-4e91-4d81-aa66-b3a75c20e228263673",
-          "x": 81880,
-          "y": 49
+          "x": 38751,
+          "y": -292
         },
         "d723c162-2431-49ca-b38c-70f18ac64ca1678673": {
           "color": {
@@ -12336,8 +12336,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Nodes search",
           "id": "d723c162-2431-49ca-b38c-70f18ac64ca1678673",
-          "x": 82013,
-          "y": 49,
+          "x": 38884,
+          "y": -292,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14858,7 +14858,7 @@ var schemeData =
           "label": "Так можно получать навбоксы",
           "id": "ecb040c7-d59f-4034-8bbc-1efedd3dfa33953446",
           "x": 28525,
-          "y": 973
+          "y": 991
         },
         "b5fcb4c1-fec4-4065-a8b3-5cee46bfa0db953446": {
           "color": {
@@ -19991,10 +19991,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "Canvases list",
+          "label": "mm-vis-js pages list",
           "id": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558282368",
-          "x": 5282,
-          "y": -16895,
+          "x": 6526,
+          "y": -16977,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20744,7 +20744,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js save",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709",
-          "x": 5475,
+          "x": 5470,
           "y": -14026,
           "shape": "box",
           "link": "",
@@ -20776,7438 +20776,6 @@ var schemeData =
           "id": "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709",
           "x": 842,
           "y": -14193
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555998": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./utils/mvj-code.js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555998",
-          "x": 72776,
-          "y": -800,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c08": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c08",
-          "x": 65207,
-          "y": -1523,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab418": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "file path: ./utils/mvj-code.js",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab418",
-          "x": 66089,
-          "y": -1528,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db88": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db88",
-          "x": 66591,
-          "y": -1540
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f4628": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "#!/usr/local/bin/node\n\nvar pathDelimiter = \"/\";\n\nvar fs = require('fs');\n\nvar rootBackupDirPath = \"/tmp/mm-vis-js_code_backup/\";\nif (!fs.existsSync(rootBackupDirPath)){\n   fs.mkdirSync(rootBackupDirPath);\n}\n\nvar path = process.argv[2]; \nconsole.log(\"mvj-code->dataPath: \" + path);\n\nvar projectName = process.argv[3]; \nconsole.log(\"mvj-code->projectName: \" + projectName);\n\nvar contents = fs.readFileSync(path, 'utf8');\n//contents = contents.replace(/^var schemeData =/, \"\");\ncontents = contents.split(\"\\n\");\ncontents.shift();\ncontents.pop();\ncontents = contents.join(\"\\n\");\n\nvar data = JSON.parse(contents);\n\nvar nodes = data.canvas1Data.nodes._data;\nvar edges = data.canvas1Data.edges._data;\n\nvar files = {};\nvar setupNodeId;\nvar setup = {};\n",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "x": 66902,
-          "y": -1630,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "for (var key in nodes) {\n\tif (nodes[key].label.startsWith(\"mvj code file for project name: \" + projectName)) {\n\t\tfiles[key] = {rootNodeId: key, projectName: projectName};\n\t}\n}\n",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948",
-          "x": 67392,
-          "y": -1315,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948913238": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "for (var key in files) {\n\tvar rootNodeId = files[key].rootNodeId;\n\tvar filePath;\n\tvar filePathNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == rootNodeId) {\n\t\t\tfilePathNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].filePathNodeId = filePathNodeId\n\t\tfilePath = nodes[filePathNodeId].label.replace(\"file path: \", \"\");\n\tfiles[key].filePath = filePath;\n}\n",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948913238",
-          "x": 67332,
-          "y": -1157,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948911178": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "for (var key in files) {\n\tvar filePathNodeId = files[key].filePathNodeId;\n\tvar fileContentPointNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == filePathNodeId) {\n\t\t\tfileContentPointNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].fileContentPointNodeId = fileContentPointNodeId\n}",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948911178",
-          "x": 67319,
-          "y": -971,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948914128": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "function collectCodeNodesContent(rootCodeNodeId, nodes, edges) {\n\tvar code = nodes[rootCodeNodeId].label + \"\\n\";\n\tvar nodeBranchesNodesIds = [];\n\tfor (var keyE in edges) {\n\t\tif ((edges[keyE].from == rootCodeNodeId) && (edges[keyE].label == \"code\")) {\n\t\t\tnodeBranchesNodesIds.push(edges[keyE].to);\n\t\t}\n\t}\n\tvar branchCodeNodes = [];\n\tnodeBranchesNodesIds.forEach(function(branchNodeId) {\n\t\tbranchCodeNodes.push(nodes[branchNodeId]);\n\t});\n        if (branchCodeNodes.length > 0 && typeof branchCodeNodes[0] === \"undefined\") {\n           var z = [];\n           nodeBranchesNodesIds.forEach(function(nodeId) {\n                for(var key1 in edges) {\n                        if (edges[key1].to == nodeId) {\n                                z.push(key1);\n                        }\n                }\n           });\n                console.log(z);\n        }\n\n\tfunction compare( a, b ) {\n\t\tif ( a.y < b.y ){\n\t\t\treturn -1;\n\t\t}\n\t\tif ( a.y > b.y ){\n\t\t\treturn 1;\n\t\t}\n\t\treturn 0;\n\t}\n\n\tvar branchCodeNodes = branchCodeNodes.sort(compare);\n\tbranchCodeNodes.forEach(function(branchNode) {\n\t\t\tcode = code + collectCodeNodesContent(branchNode.id, nodes, edges);\n\t\t\t});\n\treturn code;\n}",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948914128",
-          "x": 67416,
-          "y": -597,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948917538": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "for (var key in files) {\n\tvar fileContentPointNodeId = files[key].fileContentPointNodeId;\n\tvar fileContentNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == fileContentPointNodeId) {\n\t\t\tfileContentNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].fileContentNodeId = fileContentNodeId\n\tfileContent = collectCodeNodesContent(fileContentNodeId, nodes, edges);\n\tfiles[key].fileContent = fileContent;\n}",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948917538",
-          "x": 67376,
-          "y": -15,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948914808": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "for (var key in nodes) {\n\tif (nodes[key].label.startsWith(\"mvj code setup for project name: \" + projectName)) {\n\t\tsetupNodeId = key;\n\t}\n}",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948914808",
-          "x": 67403,
-          "y": 128,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948916348": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "for (var keyE in edges) {\n\tif (edges[keyE].from == setupNodeId && (typeof nodes[edges[keyE].to] !== \"undefined\")) {\n\t\tvar nodeId = edges[keyE].to;\n\t\tif (nodes[nodeId].label.startsWith(\"projectPath\")) {\n\t\t\tsetup[\"projectPath\"] = nodes[nodeId].label.replace(\"projectPath: \", \"\");\n\t\t}\n\t\tif (nodes[nodeId].label.startsWith(\"backupPaths\")) {\n\t\t\tsetup[\"backupPaths\"] = nodes[nodeId].label.replace(\"backupPaths: \", \"\");\n\t\t\tsetup[\"backupPaths\"] = JSON.parse(setup[\"backupPaths\"]);\n\t\t}\n\t}\n}",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948916348",
-          "x": 67422,
-          "y": 264,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948916988": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "var date = new Date();\nvar backupDirPath = rootBackupDirPath + projectName + \"_\" + date + \"/\";\nif (!fs.existsSync(backupDirPath)){\n   fs.mkdirSync(backupDirPath);\n}\n\nvar shell = require('child_process').execSync ; \nsetup[\"backupPaths\"].forEach(function(backupPath) {\n   console.log(\"backupPath: \" + backupPath);\n   var command = \"cp -r '\" + backupPath + \"' '\" + backupDirPath + \"'\";\n   console.log(command);\n   shell(command);\n});\n\nvar projectPath = setup[\"projectPath\"];\nif (!fs.existsSync(projectPath)){\n   console.log(\"fs.mkdirSync(projectPath): \" +  projectPath);\n   //fs.mkdirSync(projectPath);\n   mkdirRecursiveSync(projectPath, pathDelimiter);\n}\n\nfor (var key in files) {\n   var filePath = projectPath + \"/\" + files[key].filePath;\n   var fileDirPath = filePath.split(pathDelimiter);\n   fileDirPath.pop();\n   fileDirPath = fileDirPath.join(pathDelimiter);\n   mkdirRecursiveSync(fileDirPath, pathDelimiter);\n   var fileContent = files[key].fileContent;\n   console.log(\"filePath: \" + filePath);\n   fs.writeFileSync(filePath, fileContent);\n}",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948916988",
-          "x": 67367,
-          "y": 597,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805361": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./utils/mvj-serv.js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805361",
-          "x": 72599,
-          "y": -4137,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0890361": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0890361",
-          "x": 64963,
-          "y": -5017,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab41890361": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./utils/mvj-serv.js",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41890361",
-          "x": 65815,
-          "y": -5011,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8890361": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8890361",
-          "x": 66296,
-          "y": -5011
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f462890361": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "//openssl req -nodes -new -x509 -keyout server.key -out server.cert\nvar fs = require(\"fs\");\nvar https = require('https');\nvar host = \"127.0.0.1\";\nvar port = 1337;\nvar httpsPort = 3001;\nvar express = require(\"express\");\n\nvar mvjCodePath = \"/home/mike/progr/repo/mm-vis-js/utils/mvj-code.js\";\n\nvar rootBackupDirPath = \"/tmp/mm-vis-js_serv_backup/\";\nif (!fs.existsSync(rootBackupDirPath)){\n   fs.mkdirSync(rootBackupDirPath);\n}\n\nvar app = express();\n//app.use(express.static(__dirname + \"/public\")); //use static files in ROOT/public folder",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890361",
-          "x": 66827,
-          "y": -5000,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602361": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "var saveData = {};\napp.get(\"/\", function(request, response){ //root dir\n    response.set('access-control-allow-origin', '*');\n    var path = request.query.path;\n    var dataPart = request.query.dataPart;\n    var dataPartNumber = request.query.dataPartNumber;\n    var projectName = request.query.projectName;\n    var saveTime = request.query.saveTime;\n    var lastDataPart = request.query.lastDataPart;\n    var dataChunksLength = parseInt(request.query.dataChunksLength, 10);\n    var buildProjectName = request.query.buildProjectName;\n    \n    //saveData[dataPartNumber] = JSON.parse(dataPart);\n \n    var answerLine = JSON.stringify(\"ok\");\n    //if (typeof dataPartNumber === \"undefined\") {\n    //\tconsole.log(request.query);\n    //}\n\n    var saveJobKey = projectName + \"_\" + saveTime;\n    if (typeof saveData[saveJobKey] === \"undefined\") {\n        saveData[saveJobKey] = {};\n    }\n\n    //process.stdout.write(dataPart);\n    saveData[saveJobKey][dataPartNumber] = dataPart;\n\n    console.log(dataPartNumber + \": \" + saveTime + \", \" + dataChunksLength + \", \" + Object.keys(saveData[saveJobKey]).length);",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602361",
-          "x": 67506,
-          "y": -4688,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602482361": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "    if (Object.keys(saveData[saveJobKey]).length == dataChunksLength) {\n        answerLine = JSON.stringify(\"save\");\n\t//var saveData = Object.keys(saveData)\n\t//    .sort(function(a,b) { return +b - +a })\n\t//    .map(function(k) { return { key: k, value: saveData[k] };});\n        var orderedSaveData = {};\n        Object.keys(saveData[saveJobKey]).sort().forEach(function(key) {\n           orderedSaveData[key] = saveData[saveJobKey][key];\n           });\n\tvar data = \"\";\n        for (var key in orderedSaveData) {\n           data += orderedSaveData[key];\n        }\n        console.log(\"data.length: \" + data.length);\n        console.log(\"path: \" + path);\n        data = \"var schemeData =\\n\" + data + \"\\n;\";\n\tvar backupDirPath = rootBackupDirPath + projectName + \"/\";\n\tif (!fs.existsSync(backupDirPath)){\n\t\tfs.mkdirSync(backupDirPath);\n\t}\n\tvar date = new Date();\n\tfs.writeFileSync(backupDirPath + date + \"_\" + saveTime + \"_data.js\", data)\n\tfs.writeFileSync(path, data)\n\tsaveData[saveJobKey] = {};\n",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602482361",
-          "x": 67340,
-          "y": -4267,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602482199361": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "\tif (typeof buildProjectName !== \"undefined\") {\n\t\tvar exec = require(\"child_process\").exec;\n\t\tvar script = exec(mvjCodePath + \" '\" + path + \"' '\" + buildProjectName + \"'\",\n\t\t\t(error, stdout, stderr) => {\n\t\t\t    console.log(stdout);\n\t\t\t    console.log(stderr);\n\t\t\t    if (error !== null) {\n\t\t\t\tconsole.log(`exec error: ${error}`);\n\t\t\t    }\n\t\t\t});\n                answerLine = JSON.stringify(\"saveAndBuild: \" + buildProjectName);\n\t}",
-          "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602482199361",
-          "x": 67347,
-          "y": -3957,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "074f4931-22dc-48a3-8383-e3d90dbbc6b8361": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "    }\n    response.send(answerLine);\n});\n\napp.listen(port, host);\n\nvar options = {\n  key: fs.readFileSync('server.key'),\n  cert: fs.readFileSync('server.cert')\n};\nhttps.createServer( options, function(req,res) {\n    app.handle( req, res );\n}).listen(httpsPort);",
-          "id": "074f4931-22dc-48a3-8383-e3d90dbbc6b8361",
-          "x": 67248,
-          "y": -3757,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0206486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206486",
-          "x": 36824,
-          "y": -6942,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab41206486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./app/application.js",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206486",
-          "x": 37849,
-          "y": -6949,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206486",
-          "x": 38368,
-          "y": -6963
-        },
-        "ee38a01b-7b68-4bd4-8b3a-eee22629d252486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar drag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n///////////////////////////////////",
-          "x": 38873,
-          "y": -7257,
-          "id": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "db8817cf-9360-4031-ad9a-4f94541500f3486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function getUrlVars() {\n\tvar vars = {};\n\tvar parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,\n\t\tfunction(m, key, value) {\n\t\t\tvars[key] = value;\n\t\t});\n\treturn vars;\n}",
-          "x": 39741,
-          "y": -6728,
-          "id": "db8817cf-9360-4031-ad9a-4f94541500f3486"
-        },
-        "982a5710-863b-40df-884d-70b558608e9b486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "if (typeof code_data1 !== \"undefined\") {\n\tobjectToArray(code_data1).forEach(function(item) {\n\t\tschemeData.canvas1Data.nodes._data[item.id] = item;\n\t});\n}\n\nif (typeof book_imgs !== \"undefined\") {\n\tobjectToArray(book_imgs).forEach(function(item) {\n\t\tschemeData.canvas2Data.nodes._data[item.id] = item;\n\t});\n}",
-          "x": 39712,
-          "y": -6370,
-          "id": "982a5710-863b-40df-884d-70b558608e9b486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "6ef24456-515e-4dab-b0cd-bd6547f9e9ea486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "var scaleFromUrl = getUrlVars()[\"scale\"];\nvar xFromUrl = getUrlVars()[\"x\"];\nvar yFromUrl = getUrlVars()[\"y\"];\n\nif (typeof scaleFromUrl !== \"undefined\") {\n\tschemeData.setup.scale = scaleFromUrl;\n}\n\nif (typeof xFromUrl !== \"undefined\") {\n\tschemeData.setup.viewPosition.x = xFromUrl;\n}\n\nif (typeof yFromUrl !== \"undefined\") {\n\tschemeData.setup.viewPosition.y = yFromUrl;\n}",
-          "x": 39682,
-          "y": -6168,
-          "id": "6ef24456-515e-4dab-b0cd-bd6547f9e9ea486"
-        },
-        "dd335ed4-e289-4094-9b02-33c3d12ede97486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "var nodes = null;\nvar edges = null;\nvar nodes1 = null;\nvar edges1 = null;\nvar data = null;\nvar data1 = null;\n\nvar nodes = new vis.DataSet(objectToArray(schemeData.canvas1Data.nodes._data));\nvar edges = new vis.DataSet(objectToArray(schemeData.canvas1Data.edges._data));\nvar nodes1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.nodes._data));\nvar edges1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.edges._data));",
-          "x": 39810,
-          "y": -5974,
-          "id": "dd335ed4-e289-4094-9b02-33c3d12ede97486"
-        },
-        "0c22bdb1-0345-498b-94bd-db8fae854b84486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "data = {\n\tnodes: nodes,\n\tedges: edges\n};\n\ndata1 = {\n\tnodes: nodes1,\n\tedges: edges1\n};\n\nvar seed = 2;",
-          "x": 40719,
-          "y": -5741,
-          "id": "0c22bdb1-0345-498b-94bd-db8fae854b84486"
-        },
-        "27a85b50-7b54-4434-a753-f2455b46b846486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function getNodeById(data, id) {\n\tfor (var n = 0; n < data.length; n++) {\n\t\tif (data[n].id == id) { \n\t\t\treturn data[n];\n\t\t}\n\t};\n\n\tthrow 'Can not find id \\'' + id + '\\' in data';\n}",
-          "x": 40798,
-          "y": -5580,
-          "id": "27a85b50-7b54-4434-a753-f2455b46b846486"
-        },
-        "5f3eb8b7-ba33-4d15-938a-2eb50fca0147486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function destroy() {\n\tif (network !== null) {\n\t\tnetwork.destroy();\n\t\tnetwork = null;\n\t}\n}",
-          "x": 40735,
-          "y": -5078,
-          "id": "5f3eb8b7-ba33-4d15-938a-2eb50fca0147486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "0df46278-b6f2-44b4-a9ca-bd3f5d276a03486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function alignNodesLeft(nodes) {\n\tvar minLeft;\n\tnodes.forEach(function(node) {\n                var nodeD = getNodeFromNetworkDataById(node.id);\n\t\tvar pNode = network.getPositions()[node.id];\n\t\tnodeD.x = pNode.x;\n\t\tnodeD.y = pNode.y;\n\t\tnetwork.body.data.nodes.update(nodeD);\n\t});\n\n\tfor (i = 0; i < nodes.length; i++) {\n\t\tif (i == 0) minLeft = nodes[i].shape.left;\n\t\tif (minLeft > nodes[i].shape.left) {\n\t\t\tminLeft = nodes[i].shape.left;\n\t\t};\n\t}\n\n\tfor (i = 0; i < nodes.length; i++) {\n\t\tvar leftDiff = nodes[i].shape.left - parseFloat(minLeft.toFixed(5));\n\t\tnetwork.body.nodes[nodes[i].id].x = nodes[i].x - leftDiff;\n\t}\n\n\tvar scale = network.getScale();\n\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\tvar positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n\tvar positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\n\tnetwork.moveTo({\n\t\tposition: {x: positionX, y: positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: scale,\n\t});\n\n\tnetwork1.moveTo({\n\t\tposition: {x: positionX, y: positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: scale,\n\t});\n}",
-          "x": 40892,
-          "y": -4517,
-          "id": "0df46278-b6f2-44b4-a9ca-bd3f5d276a03486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "200bf789-2d9a-4de6-8068-2c291572d19f486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function draw() {\n\tdestroy();\n\t// create a network\n\tvar container = document.getElementById('network');\n\tvar container1 = document.getElementById('forImage');\n\n\t//Colors:\n\t//\"#ffc63b\"\n\t//\"#FFD570\"",
-          "x": 40783,
-          "y": -2862,
-          "id": "200bf789-2d9a-4de6-8068-2c291572d19f486"
-        },
-        "ad67e6a8-2a73-4042-aa3a-23ab75241eee486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tvar options = {\n\t\theight: canvasHeightSetup + '%',\n\t\twidth: canvasWidthSetup + '%',\n\t\tlayout: {randomSeed:seed}, \n\t\tphysics: {enabled: false},\n\t\tedges: { \n\t\t\tsmooth: { \n\t\t\t\tenabled: false, \n\t\t\t\ttype: \"dynamic\", \n\t\t\t\troundness: 0.5 \n\t\t\t}, \n\t\t\tcolor: \"#404040\"\n\t\t},\n\t\tnodes: { \n\t\t\tshape: \"box\",\n\t\t\tcolor: {\n\t\t\t\tbackground: \"#ffd570\"\n\t\t\t},\n\t\t\tlabelHighlightBold: false,\n\t\t\tborderWidth: 0,\n                        font: {\n                           align: \"left\"\n                        }\n\t\t},\n\t\tautoResize: true,\n\t\tinteraction: {\n\t\t\tdragNodes: true,\n\t\t\tzoomView: true, \n\t\t\tdragView: true, \n\t\t\thover: false,\n\t\t\tmultiselect: true\n\t\t},\n\t\tmanipulation: {\n\t\t\taddNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tvar clickPosition = network.canvasToDOM({x: data.x, y: data.y});\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Add Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n\t\t\t\t//document.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('node-label').value = \"\";\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = clearPopUp.bind();\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n\t\t\t\tvar schemeDataMenuWidth = 0;\n\t\t\t\tif (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n\t\t\t\t\tschemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n\t\t\t\t} else {\n\t\t\t\t\tschemeDataMenuWidth = 0;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.x + 390) > (canvasWidth - schemeDataMenuWidth)) {\n\t\t\t\t\tclickPosition.x = clickPosition.x - 340;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.y + 240) > canvasHeight) {\n\t\t\t\t\tclickPosition.y = clickPosition.y - 260;\n\t\t\t\t}\n\t\t\t\tdocument.getElementById('network-popUp').style.top = (clickPosition.y + 20) + \"px\";\n\t\t\t\tdocument.getElementById('network-popUp').style.left = (clickPosition.x + 20) + \"px\";\n\t\t\t\t$(\"textarea#node-label\").focus();\n                                lastEditedNodesIds = [data.id];\n                                lastClickPosition = null;\n\t\t\t},\n\t\t\teditNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Edit Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n                                if (typeof data.label === \"undefined\") data.label = \"\";\n\t\t\t\tdocument.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = cancelEdit.bind(this,callback);\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n                                $(\"#node-label\").focus();\n\t\t\t},\n\t\t\taddEdge: function (data, callback) {\n\t\t\t\tif (data.from == data.to) {\n\t\t\t\t\tvar r = confirm(\"Do you want to connect the node to itself?\");\n\t\t\t\t\tif (r == true) {\n\t\t\t\t\t\tcallback(data);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tcallback(data);\n\t\t\t\t}\n\t\t\t},\n                        editEdge: {\n                           editWithoutDrag: function(data, callback) {\n                              document.getElementById('edge-operation').innerHTML = \"Edit Edge\";\n                              editEdgeWithoutDrag(data,callback);\n                                var schemeDataMenuWidth = 0;\n                                if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n                                        schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n                                } else {\n                                        schemeDataMenuWidth = 0;\n                                }\n                                var positionX = (canvasWidth - schemeDataMenuWidth)/2;\n                                var positionY = (canvasHeight)/2;\n                                document.getElementById('edge-popUp').style.top = (positionY - 30) + \"px\";\n                                document.getElementById('edge-popUp').style.left = (positionX - 125) + \"px\";\n                                $(\"input#edge-label\").focus();\n\n                           }\n                        },\n\t\t\tdeleteNode: function (data, callback) {\n\t\t\t\tcallback(data);\n\t\t\t}\n\t\t}\n\t};",
-          "x": 42015,
-          "y": -2002,
-          "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ea77a73e-cae7-4e8d-b3b4-c87f266b706f486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tvar options1 = {\n\t\theight: canvasHeightSetup + '%',\n\t\twidth: canvasWidthSetup + '%',\n\t\tlayout: {randomSeed:seed},\n\t\tphysics: {enabled: false},\n\t\tedges: { \n\t\t\tsmooth: { \n\t\t\t\tenabled: false, \n\t\t\t\ttype: \"dynamic\", \n\t\t\t\troundness: 0.5 \n\t\t\t}, \n\t\t\tcolor: \"#404040\"\n\t\t},\n\t\tnodes: { \n\t\t\tshape: \"box\",\n\t\t\tcolor: {\n\t\t\t\tbackground: \"#FFD570\"\n\t\t\t},\n\t\t\tlabelHighlightBold: false,\n\t\t\tborderWidth: 0\n\t\t},\n\t\tautoResize: true,\n\t\tinteraction: {\n\t\t\tdragNodes: true,\n\t\t\tzoomView: true, \n\t\t\tdragView: true  \n\t\t},\n\t\tmanipulation: {\n\t\t\tenabled: false\n\t\t}\n\t};",
-          "x": 41683,
-          "y": -79,
-          "id": "ea77a73e-cae7-4e8d-b3b4-c87f266b706f486"
-        },
-        "197518c9-c994-4b2d-8e91-28d12e81aab3486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork = new vis.Network(container, data, options);\n\tnetwork1 = new vis.Network(container1, data1, options1);\n\n\tnetwork.defaultOptions.labelHighlightBold = false;\n\tnetwork1.defaultOptions.labelHighlightBold = false;",
-          "x": 40826,
-          "y": 104,
-          "id": "197518c9-c994-4b2d-8e91-28d12e81aab3486"
-        },
-        "a7f72bfd-d43b-4f91-bb2d-e7e8bc8c2616486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\t/*\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t\tnode = network.body.data.nodes.get(item.id);\n\t\t//node.labelHighlightBold = false;\n\t\tif (typeof node.color === \"undefined\") node.color = {};\n\t\tnode.color.background = \"#ffc63b\";\n\t\t//node.borderWidth = 0;\n\t\t//node.color = \"#404040\";\n\t\tnode = network.body.data.nodes.update(node);\n\t});\n\t*/",
-          "x": 41765,
-          "y": 235,
-          "id": "a7f72bfd-d43b-4f91-bb2d-e7e8bc8c2616486"
-        },
-        "08ad669e-9383-494e-acca-304d62d9b66d486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.leftAlignNodes = function () {\n\t\tnetwork.manipulation.leftAlignNodes = function() {\n\t\t\t//var selectedNodesCount = this.selectionHandler._getSelectedNodeCount();\n\t\t\tvar nodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\talignNodesLeft(nodes);\n\n\t\t};\n\n\n\t\treturn network.manipulation.leftAlignNodes.apply(network.manipulation, arguments);\n\t};",
-          "x": 41861,
-          "y": 399,
-          "id": "08ad669e-9383-494e-acca-304d62d9b66d486"
-        },
-        "a7e9dac8-0281-4db9-ab2c-0ab78f3d7871486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.createLeftAlignNodesButton = function () {\n\t\tnetwork.manipulation.createLeftAlignNodesButton = function() {\n\t\t\tvar leftAlignBtnClass;\n\n\t\t\tleftAlignBtnClass = 'vis-button vis-leftAlignBtn';\n\n\t\t\tvar button = this._createButton('leftAlignNodesButton', leftAlignBtnClass, \"leftAlignNodes\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.leftAlignNodes.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createLeftAlignNodesButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41904,
-          "y": 591,
-          "id": "a7e9dac8-0281-4db9-ab2c-0ab78f3d7871486"
-        },
-        "ce078f09-2392-4b82-a026-c8270861e701486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.createMakeJsonNodeFromSelectionButton = function () {\n\t\tnetwork.manipulation.createMakeJsonNodeFromSelectionButton = function() {\n\t\t\tvar makeJsonNodeFromSelectionNodesClass;\n\n\t\t\tmakeJsonNodeFromSelectionNodesClass = 'vis-button vis-makeJsonNodeFromSelectionNodesBtn';\n\n\t\t\tvar button = this._createButton('makeJsonNodeFromSelectionNodes', makeJsonNodeFromSelectionNodesClass, \"toJson\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.makeJsonNodeFromSelectionNodes.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createMakeJsonNodeFromSelectionButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41987,
-          "y": 811,
-          "id": "ce078f09-2392-4b82-a026-c8270861e701486"
-        },
-        "a56558cd-3cd0-4987-8241-732e4fcf21de486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.makeJsonNodeFromSelectionNodes = function () {\n\t\tnetwork.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes = function() {\n\t\t\tvar selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\tvar selectedEdges = objectToArray(this.selectionHandler.selectionObj.edges);\n\t\t\tvar nodes = []\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tnodes.push(getNodeFromNetworkDataById(node.id));\n\t\t\t});\n\t\t\tvar edges = []\n\t\t\tselectedEdges.forEach(function(edge) {\n\t\t\t\tedges.push(network.body.data.edges.get(edge.id));\n\t\t\t});\n\t\t\t//console.log(nodes);\n\t\t\t//console.log(edges);\n\n\t\t\tvar data = {\n\t\t\t\tnodes: [],\n\t\t\t\tedges: []\n\t\t\t};\n\n\t\t\tvar positions1 = network.getPositions();\n\t\t\tnodes1ToCopy = {}; \n\t\t\tnodes.forEach(function(item) {\n\t\t\t\tnodes1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tobjectToArray(positions1).forEach(function(position) {\n\t\t\t\t\tif (node.id == position.id) {\n\t\t\t\t\t\tnode.x = position.x;\n\t\t\t\t\t\tnode.y = position.y;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t});\n\t\t\tdata.nodes = nodes1ToCopy;\n\n\t\t\tvar edges1ToCopy = {}; \n\t\t\tedges.forEach(function(item) {\n\t\t\t\tedges1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.edges = edges1ToCopy;\n\t\t\tvar label = JSON.stringify(data, undefined, 1);\n\t\t\t//var label = JSON.stringify(data);\n\t\t\tvar screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n\t\t\tnetwork.body.data.nodes.add([{\n\t\t\t\tlabel:label,\n\t\t\t\tx:screenCenterPosition.x,\n\t\t\t\ty:screenCenterPosition.y\n\t\t\t}]);\n\t\t};\n\t\treturn network.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes.apply(network.manipulation, arguments);\n\t};",
-          "x": 41978,
-          "y": 1283,
-          "id": "a56558cd-3cd0-4987-8241-732e4fcf21de486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "219cf15e-e8b8-4100-87d3-25aca5f31803486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.createMakeNodesFromJsonNodeButton = function () {\n\t\tnetwork.manipulation.createMakeNodesFromJsonNodeButton = function() {\n\t\t\tvar makeNodesFromJsonNodeClass;\n\n\t\t\tmakeNodesFromJsonNodeClass = 'vis-button vis-makeNodesFromJsonNodeBtn';\n\n\t\t\tvar button = this._createButton('makeNodesFromJsonNode', makeNodesFromJsonNodeClass, \"fromJson\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.makeNodesFromJsonNode.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createMakeNodesFromJsonNodeButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41943,
-          "y": 1755,
-          "id": "219cf15e-e8b8-4100-87d3-25aca5f31803486"
-        },
-        "dd14b2ca-7613-4018-a0b5-86bbaa16d28e486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.makeNodesFromJsonNode = function () {\n\t\tnetwork.manipulation.makeNodesFromJsonNode = function() {\n\t\t\tvar selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\tvar jsonNode = getNodeFromNetworkDataById(selectedNodes[0].id);\n\t\t\tvar label = jsonNode.label;\n\t\t\tvar data = JSON.parse(label);\n\t\t\tvar date = new Date();\n\t\t\tvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\t\t\tobjectToArray(data.nodes).forEach(function(node) {\n\t\t\t\tnode.id = node.id + idPostfix;\n\t\t\t\tnodesToPaste.push(node);\n\t\t\t\t//var newNode = network.nodesHandler.create(node);\n\t\t\t\t//network.body.data.nodes.add(newNode.options);\n\t\t\t});\n\t\t\tvar screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\tnetwork.selectionHandler.updateSelection();\n\t\t\tobjectToArray(data.edges).forEach(function(edge) {\n\t\t\t\tedge.id = edge.id + idPostfix;\t\n\t\t\t\tedge.from = edge.from + idPostfix;\n\t\t\t\tedge.to = edge.to + idPostfix;\n\t\t\t\tedgesToPaste.push(edge);\n\t\t\t\t//var newEdge = network.edgesHandler.create(edge);\n\t\t\t\t//network.body.data.edges.add(newEdge.options);\n\t\t\t});\n\t\t};\n\t\treturn network.manipulation.makeNodesFromJsonNode.apply(network.manipulation, arguments);\n\t};",
-          "x": 41903,
-          "y": 2066,
-          "id": "dd14b2ca-7613-4018-a0b5-86bbaa16d28e486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "bec6836e-e13a-4860-a0da-ed2d40f39f18486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.createAddThemeGraphButton = function () {\n\t\tnetwork.manipulation.createAddThemeGraphButton = function() {\n\t\t\tvar addThemeGraphClass;\n\n\t\t\taddThemeGraphClass = 'vis-button vis-addThemeGraphBtn';\n\n\t\t\tvar button = this._createButton('addThemeGraph', addThemeGraphClass, \"addThemeGraph\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.addThemeGraph.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createAddThemeGraphButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41914,
-          "y": 2391,
-          "id": "bec6836e-e13a-4860-a0da-ed2d40f39f18486"
-        },
-        "9e734091-2228-441b-9647-49c5df5e4dce486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.addThemeGraph = function () {\n\t\tnetwork.manipulation.addThemeGraph = function() {\n\t\t\tthemeGraph = true;\n\t\t};\n\t\treturn network.manipulation.addThemeGraph.apply(network.manipulation, arguments);\n\t};\n\n  /**\n   * connect two nodes with a new edge.\n   *\n   * @param {Node.id} sourceNodeId\n   * @param {Node.id} targetNodeId\n   * @private\n   */\n  network.manipulation._performEditEdge = function(sourceNodeId, targetNodeId) {\n    let defaultData = {id: network.manipulation.edgeBeingEditedId, from: sourceNodeId, to: targetNodeId, label: network.body.data.edges.get(network.manipulation.edgeBeingEditedId).label };\n    let eeFunct = network.manipulation.options.editEdge;\n    if (typeof eeFunct === 'object') {\n      eeFunct = eeFunct.editWithoutDrag;\n    }\n    if (typeof eeFunct === 'function') {\n      if (eeFunct.length === 2) {\n        eeFunct(defaultData, (finalizedData) => {\n          if (finalizedData === null || finalizedData === undefined || network.manipulation.inMode !== 'editEdge') { // if for whatever reason the mode has changes (due to dataset change) disregard the callback) {\n            network.manipulation.body.edges[defaultData.id].updateEdgeType();\n            network.manipulation.body.emitter.emit('_redraw');\n            network.manipulation.showManipulatorToolbar();\n          } else {\n            var tmpNodeVar;\n            if (finalizedData.label == \"\") {\n               tmpNodeVar = true;\n               finalizedData.label = \" \";\n            }\n            network.manipulation.body.data.edges.getDataSet().update(finalizedData);\n            if (tmpNodeVar) finalizedData.label = \"\";\n            network.manipulation.body.data.edges.getDataSet().update(finalizedData);\n            network.manipulation.selectionHandler.unselectAll();\n            network.manipulation.showManipulatorToolbar();\n          }\n        });\n      } else {\n        throw new Error('The function for edit does not support two arguments (data, callback)');\n      }\n    } else {\n      network.manipulation.body.data.edges.getDataSet().update(defaultData);\n      network.manipulation.selectionHandler.unselectAll();\n      network.manipulation.showManipulatorToolbar();\n    }\n    network.edgesHandler.reconnectEdges();\n  }\n",
-          "x": 40980,
-          "y": 2954,
-          "id": "9e734091-2228-441b-9647-49c5df5e4dce486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "9cd8ff75-f730-40b0-97b1-4ab6544491c7486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.showManipulatorToolbar = function () {\n\t\tthis.manipulation.showManipulatorToolbar = function () {\n\t\t\t// restore the state of any bound functions or events, remove control nodes, restore physics\n\t\t\tthis._clean(); // reset global variables\n\n\t\t\tthis.manipulationDOM = {}; // if the gui is enabled, draw all elements.\n\n\t\t\tif (this.guiEnabled === true) {\n\t\t\t\t// a _restore will hide these menus\n\t\t\t\tthis.editMode = true;\n\t\t\t\tthis.manipulationDiv.style.display = 'block';\n\t\t\t\tthis.closeDiv.style.display = 'block';\n\n\t\t\t\tvar selectedNodeCount = this.selectionHandler._getSelectedNodeCount();\n\n\t\t\t\tvar selectedEdgeCount = this.selectionHandler._getSelectedEdgeCount();\n\n\t\t\t\tvar selectedTotalCount = selectedNodeCount + selectedEdgeCount;\n\t\t\t\tvar locale = this.options.locales[this.options.locale];\n\t\t\t\tvar needSeperator = false;\n\n\t\t\t\tif (this.options.addNode !== false) {\n\t\t\t\t\tthis._createAddNodeButton(locale);\n\t\t\t\t}\n\n\t\t\t\tif (this.options.addEdge !== false) {\n\t\t\t\t\tthis._createAddEdgeButton(locale);\n\t\t\t\t}\n\n\t\t\t\tif (selectedNodeCount === 1 && typeof this.options.editNode === 'function') {\n\t\t\t\t\tthis._createEditNodeButton(locale);\n\t\t\t\t} else if (selectedEdgeCount === 1 && selectedNodeCount === 0 && this.options.editEdge !== false) {\n\t\t\t\t\tthis._createEditEdgeButton(locale);\n\t\t\t\t} // remove buttons\n\n\n\t\t\t\tif (selectedTotalCount !== 0) {\n\t\t\t\t\tif (selectedNodeCount > 0 && this.options.deleteNode !== false) {\n\t\t\t\t\t\tthis._createDeleteButton(locale);\n\t\t\t\t\t} else if (selectedNodeCount === 0 && this.options.deleteEdge !== false) {\n\t\t\t\t\t\tthis._createDeleteButton(locale);\n\t\t\t\t\t}\n\t\t\t\t} // bind the close button\n\t\t\t\t\n\t\t\t\tif (selectedNodeCount > 0) {\n\t\t\t\t\tnetwork.createLeftAlignNodesButton();\n\t\t\t\t\tnetwork.createMakeJsonNodeFromSelectionButton();\n\t\t\t\t}\n\t\t\t\tif (selectedNodeCount == 1) {\n\t\t\t\t\tnetwork.createMakeNodesFromJsonNodeButton();\n\t\t\t\t}\n\t\t\t\tif (selectedNodeCount == 0) {\n\t\t\t\t\tnetwork.createAddThemeGraphButton();\n\t\t\t\t}\n\n\t\t\t\tthis._bindHammerToDiv(this.closeDiv, this.toggleEditMode.bind(this)); // refresh this bar based on what has been selected\n\n\n\t\t\t\tthis._temporaryBindEvent('select', this.showManipulatorToolbar.bind(this));\n\t\t\t} // redraw to show any possible changes\n\n\n\t\t\tthis.body.emitter.emit('_redraw');\n\t\t}\n\t\treturn this.manipulation.showManipulatorToolbar.apply(this.manipulation, arguments);\n\t};",
-          "x": 42053,
-          "y": 3735,
-          "id": "9cd8ff75-f730-40b0-97b1-4ab6544491c7486"
-        },
-        "d5fe0aa0-3f26-4c0c-9b08-fc116f68b15d486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.showManipulatorToolbar();\n\n\tcanvas = network.canvas.frame.canvas;\n\tctx = canvas.getContext('2d');\n\n\tvar setup = schemeData.setup;\n\tvar positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));\n\tvar positionY = parseFloat((setup.viewPosition.y - canvasHeight/(2*setup.scale)).toFixed(5));\n",
-          "x": 40961,
-          "y": 4273,
-          "id": "d5fe0aa0-3f26-4c0c-9b08-fc116f68b15d486"
-        },
-        "b344086f-96f1-45b9-be1f-a0cebf63b275486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\n\tnetwork1.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});",
-          "x": 41757,
-          "y": 4486,
-          "id": "b344086f-96f1-45b9-be1f-a0cebf63b275486"
-        },
-        "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.on('click', function(e) {\n\t\t onClick(e)\n\t});\n\n\tnetwork.on('doubleClick', function(e) {\n\t\tonDoubleClick(e)\n\t});",
-          "x": 40788,
-          "y": 4673,
-          "id": "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486"
-        },
-        "165bd511-eaf1-40c4-963f-3d4312ea50fc486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tfunction onClick(e) {\n\t  setTimeout(function () {\n\t    if (doubleClick == false) {\n\t      doOnClick(e);\n\t    }\n\t    else {doubleClick = false;}\n\t},doubleClickTimeThreshold);\n\t}",
-          "x": 41704,
-          "y": 4848,
-          "id": "165bd511-eaf1-40c4-963f-3d4312ea50fc486"
-        },
-        "e6b2c612-3d90-4b4d-a42e-cf3a14b07f55486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tfunction doOnClick(e) {\n\t\tif (nodesToPaste.length > 0) {\n\t\t\t//console.log(e.event.srcEvent);\n\t\t\tvar position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})\n\t\t\tvar topLeftNodeX = nodesToPaste[0].x;\n\t\t\tvar topLeftNodeY = nodesToPaste[0].y;\n\t\t\tnodesToPaste.forEach(function(node) {\n\t\t\t\tif (node.x < topLeftNodeX && node.y < topLeftNodeY) {\n\t\t\t\t\ttopLeftNodeX = node.x;\n\t\t\t\t\ttopLeftNodeY = node.y;\n\t\t\t\t}\n\t\t\t});\n\t\t\tnodesToPaste.forEach(function(node) {\n\t\t\t\tvar shiftX = - topLeftNodeX + parseFloat((position.x).toFixed(5));\n\t\t\t\tvar shiftY = - topLeftNodeY + parseFloat((position.y).toFixed(5));\n\t\t\t\tnode.x = node.x + shiftX;\n\t\t\t\tnode.y = node.y + shiftY;\n\t\t\t\tvar newNode = network.nodesHandler.create(node);\n\t\t\t\tnetwork.body.data.nodes.add(newNode.options);\n\t\t\t});\n\t\t\tedgesToPaste.forEach(function(edge) {\n\t\t\t\tvar newEdge = network.edgesHandler.create(edge);\n\t\t\t\tnetwork.body.data.edges.add(newEdge.options);\n\t\t\t});\n\t\t\tnodesToPaste = [];\n\t\t\tedgesToPaste = [];\n\t\t}",
-          "x": 41895,
-          "y": 5132,
-          "id": "e6b2c612-3d90-4b4d-a42e-cf3a14b07f55486"
-        },
-        "a0b6e8f4-c46c-4faf-9e58-60c14cd2d4b1486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\t\tif (themeGraph) {\n\t\t\tvar position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})\n\t\t\tvar newNode1Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"New Theme Name\",\n\t\t\t\tx: position.x,\n\t\t\t\ty: position.y,\n\t\t\t\tfont: {size: 72},\n\t\t\t\tcolor: {background:\"red\"}\n\t\t\t})[0];\n\t\t\tvar newNode2Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Development\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+450 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:newNode2Id\n\t\t\t});\n\t\t\tvar newNode4Id = network.body.data.nodes.add({\n\t\t\t\tlabel:(new Date().toLocaleDateString()),\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y+450 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode2Id,\n\t\t\t\tto:newNode4Id\n\t\t\t});\n\t\t\tvar newNode3Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"init\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y+450 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode4Id,\n\t\t\t\tto:newNode3Id\n\t\t\t});\n\t\t\tvar newNode5Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Notes\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y-400 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:newNode5Id\n\t\t\t});\n\t\t\tvar newNode6Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Dictionary of\\nconcepts\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y-650 \n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode5Id,\n\t\t\t\tto:newNode6Id\n\t\t\t});\n\t\t\tvar newNode7Id = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Details, thoughts\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y-400\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode5Id,\n\t\t\t\tto:newNode7Id\n\t\t\t});\n\t\t\tvar sectionsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Sections\",\n\t\t\t\tx: position.x+450,\n\t\t\t\ty: position.y-150\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode5Id,\n\t\t\t\tto:sectionsNodeId\n\t\t\t});\n\t\t\tvar booksNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Books\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-300\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:booksNodeId\n\t\t\t});\n\t\t\tvar rDInstitutionsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"R&D institutions\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-275\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:rDInstitutionsNodeId\n\t\t\t});\n\t\t\tvar sitesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Sites\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-250\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:sitesNodeId\n\t\t\t});\n\t\t\tvar magazinesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Magazines\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-225\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:magazinesNodeId\n\t\t\t});\n\t\t\tvar articlesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Articles\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-200\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:articlesNodeId\n\t\t\t});\n\t\t\tvar mediaContentNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Media content\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-175\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:mediaContentNodeId\n\t\t\t});\n\t\t\tvar miscWebLinksNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Misc. web links\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-150\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:miscWebLinksNodeId\n\t\t\t});\n\t\t\tvar projectsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Projects\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-125\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:projectsNodeId\n\t\t\t});\n\t\t\tvar toolsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Tools\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-100\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:toolsNodeId\n\t\t\t});\n\t\t\tvar organizationsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Organizations\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-75\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:organizationsNodeId\n\t\t\t});\n\t\t\tvar standartsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Standarts\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-50\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:standartsNodeId\n\t\t\t});\n\t\t\tvar forumsGroupsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Forums, Groups\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y-25\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:forumsGroupsNodeId\n\t\t\t});\n\t\t\tvar lawsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Laws\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:lawsNodeId\n\t\t\t});\n\t\t\tvar adjacentThemesNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Adjacent Themes\",\n\t\t\t\tx: position.x+550,\n\t\t\t\ty: position.y+25\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:sectionsNodeId,\n\t\t\t\tto:adjacentThemesNodeId\n\t\t\t});\n\t\t\tvar questionsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Questions\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+150\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:questionsNodeId\n\t\t\t});\n\t\t\tvar problemsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Problems\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+250\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:problemsNodeId\n\t\t\t});\n\t\t\tvar goalsNodeId = network.body.data.nodes.add({\n\t\t\t\tlabel:\"Goals\",\n\t\t\t\tx: position.x+300,\n\t\t\t\ty: position.y+350\n\t\t\t})[0];\n\t\t\tnetwork.body.data.edges.add({\n\t\t\t\tfrom:newNode1Id,\n\t\t\t\tto:goalsNodeId\n\t\t\t});\n                        newNodesIds1 = [\n                           booksNodeId,\n                           rDInstitutionsNodeId,\n                           sitesNodeId,\n                           magazinesNodeId,\n                           articlesNodeId,\n                           mediaContentNodeId,\n                           miscWebLinksNodeId,\n                           projectsNodeId,\n                           toolsNodeId,\n                           organizationsNodeId,\n                           standartsNodeId,\n                           forumsGroupsNodeId,\n                           lawsNodeId,\n                           adjacentThemesNodeId\n                        ];\n                        var nodes1 = [];\n                        newNodesIds1.forEach(function(nodeId) {\n                           nodes1.push(network.body.nodes[nodeId]);\n                        });\n                        alignNodesLeft(nodes1);\n                        newNodesIds2 = [\n                           newNode5Id,\n                           questionsNodeId,\n                           problemsNodeId,\n                           goalsNodeId,\n                           newNode2Id\n                        ];\n                        var nodes2 = [];\n                        newNodesIds2.forEach(function(nodeId) {\n                           nodes2.push(network.body.nodes[nodeId]);\n                        });\n                        alignNodesLeft(nodes2);\n                        newNodesIds3 = [\n                           newNode6Id,\n                           newNode7Id,\n                           sectionsNodeId,\n                           newNode4Id\n                        ];\n                        var nodes3 = [];\n                        newNodesIds3.forEach(function(nodeId) {\n                           nodes3.push(network.body.nodes[nodeId]);\n                        });\n                        alignNodesLeft(nodes3);\n         themeGraph = false;\n      }\n   }",
-          "x": 41892,
-          "y": 7267,
-          "id": "a0b6e8f4-c46c-4faf-9e58-60c14cd2d4b1486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "af60ed74-46e4-4099-9adc-5ecc9d9aef01486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tfunction onDoubleClick(e) {\n\t\tif (e.event.srcEvent.ctrlKey) {\n\t\t\tnetwork.addEdgeMode();\n\t\t} else {\n\t\t\tnetwork.addNodeMode();\n\t\t}\n\t}",
-          "x": 41698,
-          "y": 9244,
-          "id": "af60ed74-46e4-4099-9adc-5ecc9d9aef01486"
-        },
-        "b1e665eb-079b-4a16-8fb4-2054b5c70fc2486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//ctrl+Enter\n\t\tif (event.ctrlKey && event.keyCode === 13) {\n\t\t\t$(\"#saveButton\").click();\n\t\t}\n\t});",
-          "x": 41768,
-          "y": 14069,
-          "id": "b1e665eb-079b-4a16-8fb4-2054b5c70fc2486"
-        },
-        "6d7af570-fdce-465e-a2f1-60445c56afa4486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\t$(\"input#cancelButton\").click();\n\t\t\tcancelNodeEdit = true;\n\t\t}\n\t});",
-          "x": 41768,
-          "y": 14206,
-          "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486"
-        },
-        "02dc1f64-b3e0-4714-afd3-a46325785228486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\t$(document).keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\tif (document.getElementById('network-popUp').style.display == \"none\" && cancelNodeEdit == false) {\n\t\t\t\tnetwork.disableEditMode();\n\t\t\t\tnetwork.editNode();\n\t\t\t} else {\n\t\t\t\tcancelNodeEdit = false;\n\t\t\t}\n\t\t}\n\t});",
-          "x": 41928,
-          "y": 15038,
-          "id": "02dc1f64-b3e0-4714-afd3-a46325785228486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "306b8d2b-e500-4e08-bb72-131a63a59872486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\t$(document).keydown(function (event) {\n\t\t//Connect nodes. ctrl+alt+c.\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 67) {\n                        var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();\n\t\t\tif (selectedNodesCount < 2) return;\n                        var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar rootNodeId;\n                        var minLeft;\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (i == 0) {\n\t\t\t\t\tminLeft = nodes[0].x;\n\t\t\t\t\trootNodeId = nodes[0].id;\n\t\t\t\t}\n                                if (minLeft > nodes[i].x) {\n                                        minLeft = nodes[i].x;\n\t\t\t\t\trootNodeId = nodes[i].id;\n                                };\n                        }\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (nodes[i].id != rootNodeId) {\n\t\t\t\t\tvar edgeData = {from: rootNodeId, to: nodes[i].id};\n\t\t\t\t\tnetwork.body.data.edges.getDataSet().add(edgeData);\n\t\t\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\t\t}\n                        }\n\t\t}\n\t});",
-          "x": 41904,
-          "y": 15410,
-          "id": "306b8d2b-e500-4e08-bb72-131a63a59872486"
-        },
-        "603509b0-5c5b-491e-9e05-8b464a9a6ce8486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tcontainerJQ.on(\"mousemove\", function(e) {\n\t\tif (drag) { \n\t\t\trestoreDrawingSurface();\n\t\t\trect.w = (e.pageX - this.offsetLeft) - rect.startX;\n\t\t\trect.h = (e.pageY - this.offsetTop) - rect.startY ;\n\n\t\t\t//ctx.setLineDash([5]);\n\t\t\tctx.lineWidth = 1;\n\t\t\tctx.strokeStyle = \"gray\";\n\t\t\tctx.strokeRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t\tctx.setLineDash([]);\n\t\t\tctx.fillStyle = \"rgba(255, 255, 255, 0)\";\n\t\t\tctx.fillRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t}\n\t});",
-          "x": 40898,
-          "y": 15746,
-          "id": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486"
-        },
-        "3552edb9-2544-4402-8945-e803a851781f486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tcontainerJQ.on(\"mousedown\", function(e) {\n                lastClickPosition = {x: e.pageX, y: e.pageY};\n\t\tif (e.button == 2) { \n\t\t\tselectedNodes = e.ctrlKey ? network.getSelectedNodes() : null;\n\t\t\tsaveDrawingSurface();\n\t\t\tvar that = this;\n\t\t\trect.startX = e.pageX - this.offsetLeft;\n\t\t\trect.startY = e.pageY - this.offsetTop;\n\t\t\tdrag = true;\n\t\t\tcontainerJQ[0].style.cursor = \"crosshair\";\n\t\t}\n\t}); ",
-          "x": 41803,
-          "y": 16042,
-          "id": "3552edb9-2544-4402-8945-e803a851781f486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "7eff0af2-6a42-4ca5-b505-4592543db41b486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tcontainerJQ.on(\"mouseup\", function(e) {\n\t\tif (e.button == 2) { \n\t\t\trestoreDrawingSurface();\n\t\t\tdrag = false;\n\n\t\t\tcontainerJQ[0].style.cursor = \"default\";\n\t\t\tselectNodesFromHighlight();\n\t\t\tnetwork.showManipulatorToolbar();\n\t\t}\n\t});",
-          "x": 41734,
-          "y": 16423,
-          "id": "7eff0af2-6a42-4ca5-b505-4592543db41b486"
-        },
-        "04168eaf-52bc-40eb-8063-3a083d7f46f8486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.on('selectNode', function (properties) {\n\t\tschemeEditElementsMenu.show();\n\t\tvar nodeIdInput = $(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = $(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = $(\"input#nodeXInput\");\n\t\tvar nodeYInput = $(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = $(\"input#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = $(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = $(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = $(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = $(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = $(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = $(\"input#nodeBorderColorInput\");\n                var nodeD = getNodeFromNetworkDataById(properties.nodes[0]);\n\t\tnodeIdInput.val(nodeD.id);\n\t\tnodeLabelTextarea.val(nodeD.label);\n\t\tpNode = network.getPositions()[nodeD.id];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tif (typeof nodeD.shape !== \"undefined\" && nodeD.shape.length > 0) {\n\t\t\tnodeShapeInput.val(nodeD.shape);\n\t\t} else {\n\t\t\tnodeShapeInput.val(\"box\");\n\t\t}\n\t\tif (typeof nodeD.link !== \"undefined\" && nodeD.link.length > 0) {\n\t\t\tnodeLinkTextarea.val(nodeD.link);\n\t\t} else {\n\t\t\tnodeLinkTextarea.val(\"\");\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.size !== \"undefined\") {\n\t\t\tnodeFontSizeInput.val(nodeD.font.size);\n\t\t} else {\n\t\t\tnodeFontSizeInput.val(14);\n\t\t\tnodeD.font = {size: 14};\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.align !== \"undefined\") {\n\t\t\tnodeFontAlignInput.val(nodeD.font.align);\n\t\t} else {\n\t\t\tnodeFontAlignInput.val(\"left\");\n\t\t\tnodeD.font = {align: \"left\"};\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && typeof nodeD.color.background !== \"undefined\") {\n\t\t\tnodeColorInput.val(nodeD.color.background);\n\t\t} else {\n\t\t\tnodeD.color = {background: \"\", border: \"\"};\n\t\t}\n\t\tif (typeof nodeD.borderWidth !== \"undefined\" && nodeD.borderWidth.length > 0) {\n\t\t\tnodeBorderWidthInput.val(nodeD.borderWidth);\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && nodeD.color.length > 0) {\n\t\t\tnodeBorderColorInput.val(nodeD.color.border);\n\t\t}\n\t\tif (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + \".*\")) >= 0) {\n\t\t\tloadSavedProjectToMenuButton.show();\n\t\t\tloadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;\n\t\t\tdeleteSavedProjectButton.show();\n\t\t\tdeleteSavedProjectButton.saveProjectLabel = nodeD.label;\n\t\t} else {\n\t\t\tloadSavedProjectToMenuButton.hide();\n\t\t\tdeleteSavedProjectButton.hide();\n\t\t}\n\t});",
-          "x": 41896,
-          "y": 16992,
-          "id": "04168eaf-52bc-40eb-8063-3a083d7f46f8486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d9ba8cd8-7835-42b5-96d7-5fcedd329225486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.on('resize', function(properties) {\n\t\tcanvasWidth = properties.width;\n\t\tcanvasHeight = properties.height;\n\t});",
-          "x": 41736,
-          "y": 17659,
-          "id": "d9ba8cd8-7835-42b5-96d7-5fcedd329225486"
-        },
-        "32c6bae5-5fe6-448c-b389-db4f0ee1e281486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.on('deselectNode', function (properties) {\n\t\tschemeEditElementsMenu.hide();\n\t\t$(\".vis-separator-line\").remove();\n\t\t$(\".vis-close\").remove();\n\t});",
-          "x": 41762,
-          "y": 17941,
-          "id": "32c6bae5-5fe6-448c-b389-db4f0ee1e281486"
-        },
-        "0a4aaf03-c68b-46ef-a61e-bc142f791d28486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.on('deselectEdge', function (properties) {\n\t\t$(\".vis-separator-line\").remove();\n\t\t$(\".vis-close\").remove();\n\t});\n\tnetwork.on(\"hoverNode\", function(params) {\n\t});\n\n\tnetwork.on(\"blurNode\", function(params) {\n\t});",
-          "x": 41762,
-          "y": 17803,
-          "id": "0a4aaf03-c68b-46ef-a61e-bc142f791d28486"
-        },
-        "8d17375a-60ee-42e3-b536-55ea40a1d0e1486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tvar lastPositionX = \"a\";\n\tvar startN1X = null;\n\tvar startN1Y = null;\n\tvar startN2X = null;\n\tvar startN2Y = null;\n\tnetwork.on(\"release\", function(event) {\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\t//От окончательного положения драга отнимаем начальное положение\n\t\tvar diffN1X = parseFloat((n1X-startN1X).toFixed(5));\n\t\tvar diffN1Y = parseFloat((n1Y-startN1Y).toFixed(5));\n\t\t//Прибавляем к начальному положению нижней network дифф из предыдущег подсчета.\n\t\t//Чтобы сдвинуть нижний network на тот же шаг\n\t\tvar lastN2X = parseFloat((startN2X+diffN1X).toFixed(5));\n\t\tvar lastN2Y = parseFloat((startN2Y+diffN1Y).toFixed(5));\n\t\tvar network1Scale = network1.getScale();\n\t\tvar positionX = parseFloat((lastN2X - canvasWidth/(2*network1Scale)).toFixed(5));\n\t\tvar positionY = parseFloat((lastN2Y - canvasHeight/(2*network1Scale)).toFixed(5));\n\t\tnetwork1.moveTo({\n\t\t\tposition: {x:positionX, y:positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: network1Scale,\n\t\t});\n\t});",
-          "x": 41033,
-          "y": 18189,
-          "id": "8d17375a-60ee-42e3-b536-55ea40a1d0e1486"
-        },
-        "36d89910-f39d-4917-be0a-74407a6a278a486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.on(\"dragging\", function(event) {\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\tvar n2X = parseFloat(network1.getViewPosition().x.toFixed(5));\n\t\tvar n2Y = parseFloat(network1.getViewPosition().y.toFixed(5));\n\t\tif ($.type(startN1X) == \"null\") {startN1X = n1X;}\n\t\tif ($.type(startN1Y) == \"null\") {startN1Y = n1Y;}\n\t\tif ($.type(startN2X) == \"null\") {startN2X = n2X;}\n\t\tif ($.type(startN2Y) == \"null\") {startN2Y = n2Y;}\n\t\tif (n1X != n2X && n1Y != n2Y) {\n\t\t\tvar eventCenterX = event.event.center.x;\n\t\t\tvar eventCenterY = event.event.center.y;\n\t\t\tvar network1Scale = network1.getScale();\n\t\t\t//var positionX = parseFloat((lastN2X - canvasWidth/(2*network1Scale)).toFixed(5));\n\t\t\t//var positionY = parseFloat((lastN2Y - canvasHeight/(2*network1Scale)).toFixed(5));\n\t\t\tvar positionX = (n1X - n2X) - (network1.body.view.translation.x*(1/network1Scale));\n\t\t\tvar positionY = (n1Y - n2Y) - (network1.body.view.translation.y*(1/network1Scale));\n\t\t\tnetwork1.moveTo({\n\t\t\t\tposition: {x:positionX, y:positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: network1Scale,\n\t\t\t});\n\t\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\t\tvar n2X = parseFloat(network1.getViewPosition().x.toFixed(5));\n\t\t\tvar n2Y = parseFloat(network1.getViewPosition().y.toFixed(5));\n\t\t\tlastPositionX = positionX;\n\t\t} else {\n\t\t}\n\t});",
-          "x": 41877,
-          "y": 18646,
-          "id": "36d89910-f39d-4917-be0a-74407a6a278a486"
-        },
-        "610d4222-77c1-4624-8652-bd79b449b283486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tnetwork.on(\"zoom\", function(event) {\n\t\tvar scale = network.getScale();\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*event.scale)).toFixed(5));\n\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*event.scale)).toFixed(5));\n\t\t//var positionX = parseFloat((event.pointer.x).toFixed(5));\n\t\t//var positionY = parseFloat((event.pointer.y).toFixed(5));\n\t\tnetwork.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t\tnetwork1.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t});",
-          "x": 41849,
-          "y": 19079,
-          "id": "610d4222-77c1-4624-8652-bd79b449b283486"
-        },
-        "d2d3f771-3cd1-4c27-8376-b4cced8fce37486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\t//network.editNode();\n\t$(\".vis-separator-line\").remove();\n\t$(\".vis-close\").remove();\n}",
-          "x": 41710,
-          "y": 19298,
-          "id": "d2d3f771-3cd1-4c27-8376-b4cced8fce37486"
-        },
-        "1a000cd9-3ff1-4645-9f4c-b2752385ba07486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function updateSchemeFromMenu() {\n\tvar schemeDataJsonFromMenu = $(\"textarea#schemeDataTextArea\").val();\n\tvar schemeData = JSON.parse(schemeDataJsonFromMenu);\n\tvar nodes = new vis.DataSet(objectToArray(schemeData.canvas1Data.nodes._data));\n\tvar edges = new vis.DataSet(objectToArray(schemeData.canvas1Data.edges._data));\n\tvar nodes1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.nodes._data));\n\tvar edges1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.edges._data));\n\tdata = {\n\t\tnodes: nodes,\n\t\tedges: edges\n\t};\n\tdata1 = {\n\t\tnodes: nodes1,\n\t\tedges: edges1\n\t};\n\tdraw();\n\tvar setup = schemeData.setup;\n\tvar positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));\n\tvar positionY = parseFloat((setup.viewPosition.y - canvasHeight/(2*setup.scale)).toFixed(5));\n\tnetwork.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\tnetwork1.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\tconsole.log(\"Scheme updated\");\n}",
-          "x": 39838,
-          "y": 20468,
-          "id": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486"
-        },
-        "1e98723b-79dd-48ff-b641-e241ebb725fe486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function updateMenuFromScheme() {\n\tvar scale = network.getScale();\n\tvar viewPosition = network.getViewPosition();\n\tvar data = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar data1 = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar schemeData = {\n\t\tcanvas1Data: data,\n\t\tcanvas2Data: data1,\n\t\tsetup: {\n\t\t\tscale: scale,\n\t\t\tviewPosition: viewPosition\n\t\t}\n\t};\n\tvar positions1 = network.getPositions();\n\tvar positions2 = network1.getPositions();\n\tnodes1ToSave = {}; \n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t\tnodes1ToSave[item.id.toString()] = item;\n\t});\n\tobjectToArray(positions1).forEach(function(position) {\n\t\tvar node = nodes1ToSave[position.id.toString()];\n\t\tnode.x = position.x;\n\t\tnode.y = position.y;\n\t});\n\tschemeData.canvas1Data.nodes._data = nodes1ToSave;\n\tvar edges1ToSave = {}; \n\tnetwork.body.data.edges.get().forEach(function(item) {\n\t\tedges1ToSave[item.id.toString()] = item;\n\t});\n\tschemeData.canvas1Data.edges._data = edges1ToSave;\n\tvar nodes2ToSave = {}; \n\tnetwork1.body.data.nodes.get().forEach(function(item) {\n\t\tnodes2ToSave[item.id.toString()] = item;\n\t});\n\tobjectToArray(positions2).forEach(function(position) {\n\t\tvar node = nodes2ToSave[position.id.toString()];\n\t\tnode.x = position.x;\n\t\tnode.y = position.y;\n\t});\n\tschemeData.canvas2Data.nodes._data = nodes2ToSave;\n\tvar edges2ToSave = {}; \n\tnetwork1.body.data.edges.get().forEach(function(item) {\n\t\tedges2ToSave[item.id.toString()] = item;\n\t});\n\tschemeData.canvas2Data.edges._data = edges2ToSave;\n\tvar schemeDataJson = JSON.stringify(schemeData, undefined, 2);\n\t$(\"textarea#schemeDataTextArea\").val(schemeDataJson);\n}",
-          "x": 40938,
-          "y": 21071,
-          "id": "1e98723b-79dd-48ff-b641-e241ebb725fe486"
-        },
-        "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function clearPopUp() {\n\tdocument.getElementById('saveButton').onclick = null;\n\tdocument.getElementById('cancelButton').onclick = null;\n\tdocument.getElementById('network-popUp').style.display = 'none';\n        network.selectionHandler.unselectAll();\n        $(\"#network div.vis-network\").focus();\n}",
-          "x": 40940,
-          "y": 21521,
-          "id": "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "9d63b1f7-179d-4f64-b690-8da48388c7c4486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function cancelEdit(callback) {\n\tclearPopUp();\n\tcallback(null);\n}",
-          "x": 40823,
-          "y": 21634,
-          "id": "9d63b1f7-179d-4f64-b690-8da48388c7c4486"
-        },
-        "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function saveData(data,callback) {\n\tdata.id = document.getElementById('node-id').value;\n\tdata.label = document.getElementById('node-label').value;\n\tclearPopUp();\n        if (data.label.split(\"\\n\").length > 1) {\n           var labelHeightShift = 14*data.label.split(\"\\n\").length/2 - 7;\n           lastEditedNodesIds.forEach(function(nodeId) {\n              var nodeD = getNodeFromNetworkDataById(nodeId);\n              if (typeof nodeD !== \"undefined\" && nodeD !== null) {\n                 var pNode = network.getPositions()[nodeId];\n                 nodeD.x = pNode.x;\n                 nodeD.y = pNode.y - labelHeightShift;\n                 network.nodesHandler.moveNode(nodeD.id, nodeD.x, nodeD.y);\n              }\n           });\n        }\n   if (data.label.lastIndexOf(\"http\", 0) === 0) {\n      data.link = data.label.trim();\n   }\n   callback(data);\n}",
-          "x": 40964,
-          "y": 21844,
-          "id": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "67d57766-61d3-4278-bd82-50b7bc0fd759486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function init() {\n\tdraw();\n}",
-          "x": 39784,
-          "y": 22142,
-          "id": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "95440e5d-e2ab-4275-aea3-7084e5e08ef5486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function selectNodesFromHighlight() {\n    var fromX, toX, fromY, toY;\n    var nodesIdInDrawing = [];\n    var xRange = getStartToEnd(rect.startX, rect.w);\n    var yRange = getStartToEnd(rect.startY, rect.h);\n\n    var allNodes = network.body.data.nodes.get();\n    for (var i = 0; i < allNodes.length; i++) {\n        var curNode = allNodes[i];\n        var nodePosition = network.getPositions([curNode.id]);\n        var nodeXY = network.canvasToDOM({x: nodePosition[curNode.id].x, y: nodePosition[curNode.id].y});\n        if (xRange.start <= nodeXY.x && nodeXY.x <= xRange.end && yRange.start <= nodeXY.y && nodeXY.y <= yRange.end) {\n            nodesIdInDrawing.push(curNode.id);\n        }\n    }\n    network.selectNodes(nodesIdInDrawing);\n}",
-          "x": 41072,
-          "y": 22738,
-          "id": "95440e5d-e2ab-4275-aea3-7084e5e08ef5486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d0f10764-b98d-4f26-8850-0d98258edd68486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function getStartToEnd(start, theLen) {\n    return theLen > 0 ? {start: start, end: start + theLen} : {start: start + theLen, end: start};\n}",
-          "x": 40949,
-          "y": 23020,
-          "id": "d0f10764-b98d-4f26-8850-0d98258edd68486"
-        },
-        "c0f333be-7c73-49ff-9ce9-acd69d498858486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function getNodesByRegexSearchInLabel(network, regex) {\n\tvar nodes = network.body.data.nodes.get();\n\tvar foundNodes = []\n\tfor (var n = 0; n < nodes.length; n++) {\n\t\tif ((typeof nodes[n].label !== \"undefined\") && (nodes[n].label.search(regex) >= 0)) { \n\t\t\tfoundNodes.push(nodes[n]);\n\t\t}\n\t};\n\treturn foundNodes;\n}",
-          "x": 40937,
-          "y": 23221,
-          "id": "c0f333be-7c73-49ff-9ce9-acd69d498858486"
-        },
-        "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function updateNodePositionData(network, node) {\n\tvar nodesPositions = objectToArray(network.getPositions());\n\tfor (var n = 0; n < nodesPositions.length; n++) {\n\t\tif (nodesPositions[n].id == node.id) { \n\t\t\tnode.x = nodesPositions[n].x;\n\t\t\tnode.y = nodesPositions[n].y;\n\t\t}\n\t};\n}",
-          "x": 40867,
-          "y": 23499,
-          "id": "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b486"
-        },
-        "399c5df4-d887-464d-8bad-d081f1623e44486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function makeSaveProjectToBrowserNode(label, positionX, positionY) {\n\tnetwork.body.data.nodes.add([{\n\t\tlabel:label,\n\t\tx:positionX,\n\t\ty:positionY\n\t}]);\n}",
-          "x": 39749,
-          "y": 23765,
-          "id": "399c5df4-d887-464d-8bad-d081f1623e44486"
-        },
-        "92f8f188-413d-47c9-bc96-f290485c46ee486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function findProjectSavesKeys() {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn [];\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\tvar saveNameRegex = new RegExp(projectSaveNodeNamePrefix + projectSaveId + \"_.*\");\n\tvar storageItemsSize = localStorage.length;\n\tvar keys = [];\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar storageKey = localStorage.key(i);\n\t\tif (storageKey.search(saveNameRegex) >= 0) {\n\t\t\tkeys.push(localStorage.key(i));\n\t\t}\n\t}\n\treturn keys;\n}",
-          "x": 41088,
-          "y": 24293,
-          "id": "92f8f188-413d-47c9-bc96-f290485c46ee486"
-        },
-        "329c31d6-4840-47ce-97d1-48d6bd801404486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function deleteNodesIfTheyAreProjectSaves(network, nodes) {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn;\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\tobjectToArray(data.nodes).forEach(function(nodeId) {\n\t\tvar node = getNodeById(network.body.data.nodes.get(), nodeId);\n\t\tif (node.label.search(new RegExp(projectSaveNodeNamePrefix + projectSaveId + \"_.*\")) >= 0) {\n\t\t\tlocalStorage.removeItem(node.label);\n\t\t}\n\t});\n}",
-          "x": 41088,
-          "y": 24723,
-          "id": "329c31d6-4840-47ce-97d1-48d6bd801404486"
-        },
-        "6740287a-c540-43ff-91f0-669cb96f10f3486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function removeSaveNodes() {\n\tvar oldSavesKeys = findProjectSavesKeys();\n\tvar nodes = network.body.data.nodes;\n\tfor (var i = 0; i < oldSavesKeys.length; i++) {\n\t\tvar key = oldSavesKeys[i];\n\t\tvar saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(key));\n\t\tsaveCanvasProjectDateNodes.forEach(function(node) {\n\t\t\tnodes.remove(node.id);\n\t\t});\n\t}\n}",
-          "x": 40978,
-          "y": 25057,
-          "id": "6740287a-c540-43ff-91f0-669cb96f10f3486"
-        },
-        "59635c29-9e7a-45ca-8525-2a37dbb488a7486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function getProjectId(saveCanvasProjectDataNode, network) {\n\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(projectSaveIdLine));\n\tif (projectSaveIdNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no \" + projectSaveIdLine + \" node\");\n\t\treturn;\n\t}\n\tvar projectSaveIdNode = projectSaveIdNodes[0];\n\tvar connectedNodesIds = network.getConnectedNodes(projectSaveIdNode.id);\n\tvar projectIdNode;\n\tconnectedNodesIds.forEach(function(nodeId) {\n\t\tvar node = getNodeById(network.body.data.nodes.get(), nodeId);\n\t\tif (node.label.split(\": \")[0] == \"projectSaveId\") {\n\t\t\tprojectIdNode = node;\n\t\t}\n\t});\n\treturn projectIdNode.label.split(\": \")[1]; \n}",
-          "x": 40995,
-          "y": 25428,
-          "id": "59635c29-9e7a-45ca-8525-2a37dbb488a7486"
-        },
-        "da40667d-7034-434c-96d9-aac61e394e23486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function buildSaveNodesList() {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn;\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tupdateNodePositionData(network, saveCanvasProjectDataNode);\n\tvar oldSavesKeys = findProjectSavesKeys();\n\toldSavesKeys.forEach(function(key,i) {\n\t\tmakeSaveProjectToBrowserNode(\n\t\t\tkey,\n\t\t\tsaveCanvasProjectDataNode.x + 400, \n\t\t\tsaveCanvasProjectDataNode.y + 40*i);\n\t});\n}",
-          "x": 41093,
-          "y": 25822,
-          "id": "da40667d-7034-434c-96d9-aac61e394e23486"
-        },
-        "3b49c915-fb27-47ab-bae5-20a308497725486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function deleteProjectLocalStorageSaves(network) {\n\tvar oldSavesKeys = findProjectSavesKeys();\n\tfor (var i = 0; i < oldSavesKeys.length; i++) {\n\t\tvar key = oldSavesKeys[i];\n\t\tlocalStorage.removeItem(key);\n\t}\n}",
-          "x": 40830,
-          "y": 26116,
-          "id": "3b49c915-fb27-47ab-bae5-20a308497725486"
-        },
-        "c08a7ff5-92f1-482b-a55e-5e4aa4210022486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function deleteLocalStorageSavesAndSaveNodes(network) {\n\tremoveSaveNodes();\n\tdeleteProjectLocalStorageSaves(network);\n}",
-          "x": 40857,
-          "y": 26300,
-          "id": "c08a7ff5-92f1-482b-a55e-5e4aa4210022486"
-        },
-        "8ae3245a-50b6-4a3b-bace-03ff73f40545486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveName) {\n\tlocalStorage.removeItem(saveName);\n\tvar saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(saveName));\n\tsaveCanvasProjectDateNodes.forEach(function(node) {\n\t\tnodes.remove(node.id);\n\t});\n}",
-          "x": 40999,
-          "y": 26483,
-          "id": "8ae3245a-50b6-4a3b-bace-03ff73f40545486"
-        },
-        "5caa6892-9023-4d77-8aa0-ff564a51cf58486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function loadSavedProjectDataToDataMenuBySaveName(network, saveName) {\n\tvar jsonString = localStorage.getItem(saveName);\n\t$(\"textarea#schemeDataTextArea\").val(jsonString);\n}",
-          "x": 40921,
-          "y": 26684,
-          "id": "5caa6892-9023-4d77-8aa0-ff564a51cf58486"
-        },
-        "11d30fee-175d-4da8-b2d8-069850fe9400486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function saveProjectToBrowserLocalStorage(network) {\n\tvar regex = saveCanvasProjectDataLine;\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + regex + \"$\"));\n\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \"$\"));\n\tvar projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \":.*$\"));\n\tif ((typeof saveCanvasProjectDataNodes === \"undefined\") || (saveCanvasProjectDataNodes.length == 0) ||\n\t\t(typeof projectSaveIdNodes === \"undefined\") || (projectSaveIdNodes.length == 0) ||\n\t\t(typeof projectSaveIdWithDataNodes === \"undefined\") || (projectSaveIdWithDataNodes.length == 0)) \n\t{\n\t\talert(\"Add setup nodes for canvas save information: '\" + saveCanvasProjectDataLine + \"', '\" + projectSaveIdLine + \"', '\" +  projectSaveIdLine + \": projectName'.\");\n\t} else {\n\t\tremoveSaveNodes();\n\t\tvar date = new Date().toLocaleString(\"ru-RU\");\n\t\tdate = date.replace(/\\./g,\"-\");\n\t\tdate = date.replace(/:/g,\"-\");\n\t\tdate = date.replace(/,/g,\"_\");\n\t\tdate = date.replace(\" \",\"\");\n\t\tvar projectJson = $(\"textarea#schemeDataTextArea\").val();\n\t\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\t\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\t\treturn;\n\t\t}\n\t\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\t\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\t\tlocalStorage.setItem(projectSaveNodeNamePrefix + projectSaveId + \"_\" + date,projectJson);\n\t\tbuildSaveNodesList();\n\t}\n}",
-          "x": 41177,
-          "y": 27005,
-          "id": "11d30fee-175d-4da8-b2d8-069850fe9400486"
-        },
-        "315819bf-0c74-42bf-a4f6-177dd930ed60486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function clearBrowserLocalStorage() {\n\tvar storageItemsSize = localStorage.length;\n\tvar keys = [];\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tkeys.push(localStorage.key(i));\n\t}\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = keys[i];\n\t\tlocalStorage.removeItem(key);\n\t}\n}",
-          "x": 40806,
-          "y": 27377,
-          "id": "315819bf-0c74-42bf-a4f6-177dd930ed60486"
-        },
-        "6248ca66-72f9-4e9d-b5e2-f9f68abc3f37486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function showBrowserLocalStorage() {\n\tvar storageItemsSize = localStorage.length;\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = localStorage.key(i);\n\t}\n}",
-          "x": 40801,
-          "y": 27578,
-          "id": "6248ca66-72f9-4e9d-b5e2-f9f68abc3f37486"
-        },
-        "f7d23b14-e520-46cb-aef4-85a0e79044c7486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function showBrowserLocalStorageKeys() {\n\tvar storageItemsSize = localStorage.length;\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = localStorage.key(i);\n\t}\n}",
-          "x": 40799,
-          "y": 27731,
-          "id": "f7d23b14-e520-46cb-aef4-85a0e79044c7486"
-        },
-        "5541e730-dc41-48fb-9666-86590c704c68486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "$(document).ready(function() {\n\n\tcontainerJQ[0].oncontextmenu = () => false;\n\t//topMenu = $(\"<div style='margin:0 0 0 0; padding:3px; background-color: black;color:white;z-index:9999'></div>\");\n\t\n\tbody = $(\"body\");\n\n\tshowDataButton = $(\"<div id='showData' style='cursor:pointer;color:black;float:right;position:fixed;top:3px; line-height: 0;right:0;z-index:9999;padding: 15px;margin:-5px 0 5px 0; background-color:white;border: 1px solid #a3a3a3;font-size:12px'>showData</div>\");\n\tbody.append(showDataButton);\n\n\tschemeEditElementsMenu = $(\"<div id='schemeEditElementsMenu' style='height:100%; width:300px; position:fixed; left:0; top:29px;border-right: 1px solid #a3a3a3; background-color:white;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n\tschemeEditElementsMenu.hide();\n\tbody.append(schemeEditElementsMenu);\n\n\tvar elementsSetupTable = $(\"<table id='elementsSetupTable'></table>\");",
-          "x": 40313,
-          "y": 28339,
-          "id": "5541e730-dc41-48fb-9666-86590c704c68486"
-        },
-        "7206a9f0-1dcf-4435-89e7-67b6913ada0a486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tvar eSRow1 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow1);\n\tvar eSItem11 = $(\"<td></td>\");\n\tvar eSItem12 = $(\"<td></td>\");\n\teSRow1.append(eSItem11);\n\teSRow1.append(eSItem12);\n\tvar nodeIdInputLabel = $(\"<div style=''><span>nodeId: </span></div>\");\n\teSItem11.append(nodeIdInputLabel);\n\tvar nodeIdInput = $(\"<input type='text' id='nodeIdInput'></input>\");\n\teSItem12.append(nodeIdInput);\n\n\tvar eSRow2 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow2);\n\tvar eSItem21 = $(\"<td></td>\");\n\tvar eSItem22 = $(\"<td></td>\");\n\teSRow2.append(eSItem21);\n\teSRow2.append(eSItem22);\n\tvar nodeLabelInputLabel = $(\"<div style=''><span>nodeLabel: </span></div>\");\n\teSItem21.append(nodeLabelInputLabel);\n\tvar nodeLabelTextarea = $(\"<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>\");\n\teSItem22.append(nodeLabelTextarea);\n\n\tvar eSRow3 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow3);\n\tvar eSItem31 = $(\"<td></td>\");\n\tvar eSItem32 = $(\"<td></td>\");\n\teSRow3.append(eSItem31);\n\teSRow3.append(eSItem32);\n\tvar nodeXInputLabel = $(\"<div style=''><span>nodeX: </span></div>\");\n\teSItem31.append(nodeXInputLabel);\n\tvar nodeXInput = $(\"<input type='text' id='nodeXInput'></input>\");\n\teSItem32.append(nodeXInput);\n\n\tvar eSRow4 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow4);\n\tvar eSItem41 = $(\"<td></td>\");\n\tvar eSItem42 = $(\"<td></td>\");\n\teSRow4.append(eSItem41);\n\teSRow4.append(eSItem42);\n\tvar nodeYInputLabel = $(\"<div style=''><span>nodeY: </span></div>\");\n\teSItem41.append(nodeYInputLabel);\n\tvar nodeYInput = $(\"<input type='text' id='nodeYInput'></input>\");\n\teSItem42.append(nodeYInput);\n\n\tvar eSRow5 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow5);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5.append(eSItem51);\n\teSRow5.append(eSItem52);\n\tvar nodeShapeInputLabel = $(\"<div style=''><span>nodeShape: </span></div>\");\n\teSItem51.append(nodeShapeInputLabel);\n\tvar nodeShapeInput = $(\"<input type='text' id='nodeShapeInput'></input>\");\n\teSItem52.append(nodeShapeInput);\n\n\tvar eSRow6 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow6);\n\tvar eSItem61 = $(\"<td></td>\");\n\tvar eSItem62 = $(\"<td></td>\");\n\teSRow6.append(eSItem61);\n\teSRow6.append(eSItem62);\n\tvar nodeLinkTextareaLabel = $(\"<div style=''><span>nodeLink: </span></div>\");\n\teSItem61.append(nodeLinkTextareaLabel);\n\tvar nodeLinkTextarea = $(\"<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>\");\n\teSItem62.append(nodeLinkTextarea);\n\tvar linkOpenButton = $(\"<div style='cursor:pointer;margin: 4px 0 2px 0;'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>\");\n\teSItem62.append(linkOpenButton);\n\n\tvar eSRow7 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow7);\n\tvar eSItem71 = $(\"<td></td>\");\n\tvar eSItem72 = $(\"<td></td>\");\n\teSRow7.append(eSItem71);\n\teSRow7.append(eSItem72);\n\tvar nodeColorInputLabel = $(\"<div style=''><span>nodeColor: </span></div>\");\n\teSItem71.append(nodeColorInputLabel);\n\tvar nodeColorInput = $(\"<input type='text' id='nodeColorInput'></input>\");\n\teSItem72.append(nodeColorInput);\n\n\tvar eSRow8 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow8);\n\tvar eSItem81 = $(\"<td></td>\");\n\tvar eSItem82 = $(\"<td></td>\");\n\teSRow8.append(eSItem81);\n\teSRow8.append(eSItem82);\n\tvar nodeBorderWidthInputLabel = $(\"<div style=''><span>nodeBorderWidth: </span></div>\");\n\teSItem81.append(nodeBorderWidthInputLabel);\n\tvar nodeBorderWidthInput = $(\"<input type='text' id='nodeBorderWidthInput'></input>\");\n\teSItem82.append(nodeBorderWidthInput);\n\n\tvar eSRow9 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow9);\n\tvar eSItem91 = $(\"<td></td>\");\n\tvar eSItem92 = $(\"<td></td>\");\n\teSRow9.append(eSItem91);\n\teSRow9.append(eSItem92);\n\tvar nodeBorderColorInputLabel = $(\"<div style=''><span>nodeBorderColor: </span></div>\");\n\teSItem91.append(nodeBorderColorInputLabel);\n\tvar nodeBorderColorInput = $(\"<input type='text' id='nodeBorderColorInput'></input>\");\n\teSItem92.append(nodeBorderColorInput);\n\n\tvar eSRow10 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow10);\n\tvar eSItem101 = $(\"<td></td>\");\n\tvar eSItem102 = $(\"<td></td>\");\n\teSRow10.append(eSItem101);\n\teSRow10.append(eSItem102);\n\tvar nodeFontSizeInputLabel = $(\"<div style=''><span>nodeFontSize: </span></div>\");\n\teSItem101.append(nodeFontSizeInputLabel);\n\tvar nodeFontSizeInput = $(\"<input type='text' id='nodeFontSizeInput'></input>\");\n\teSItem102.append(nodeFontSizeInput);\n\n\tvar eSRow11 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow11);\n\tvar eSItem111 = $(\"<td></td>\");\n\tvar eSItem112 = $(\"<td></td>\");\n\teSRow11.append(eSItem111);\n\teSRow11.append(eSItem112);\n\tvar nodeFontAlignInputLabel = $(\"<div style=''><span>nodeFontAlign: </span></div>\");\n\teSItem111.append(nodeFontAlignInputLabel);\n\tvar nodeFontAlignInput = $(\"<input type='text' id='nodeFontAlignInput'></input>\");\n\teSItem112.append(nodeFontAlignInput);",
-          "x": 41175,
-          "y": 29357,
-          "id": "7206a9f0-1dcf-4435-89e7-67b6913ada0a486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tlinkOpenButton.click(function() {\n\t\tvar link = nodeLinkTextarea.val();\n\t\tif (link.length > 0) {\n\t\t\twindow.open(link, '_blank');\n\t\t}\n\t});\n\n\tschemeEditElementsMenu.append(elementsSetupTable);\n\n\tvar saveElementEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElement</span></div>\");\n\tschemeEditElementsMenu.append(saveElementEditButton);",
-          "x": 41109,
-          "y": 30336,
-          "id": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "f61061d2-ae48-4aa6-bc30-1b87952ccbcd486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tsaveElementEditButton.click(function() {\n\t\tvar nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = schemeEditElementsMenu.find(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = schemeEditElementsMenu.find(\"input#nodeXInput\");\n\t\tvar nodeYInput = schemeEditElementsMenu.find(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = schemeEditElementsMenu.find(\"input#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = schemeEditElementsMenu.find(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = schemeEditElementsMenu.find(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = schemeEditElementsMenu.find(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = schemeEditElementsMenu.find(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = schemeEditElementsMenu.find(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = schemeEditElementsMenu.find(\"input#nodeBorderColorInput\");\n                var nodeD = getNodeFromNetworkDataById(nodeIdInput.val());\n\t\tvar pNode = network.getPositions()[nodeIdInput.val()];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tnodeD.id = nodeIdInput.val();\n\t\tnodeD.label = nodeLabelTextarea.val();\n\t\tnodeD.x = pNode.x;\n\t\tnodeD.y = pNode.y;\n\t\tnodeD.shape = nodeShapeInput.val();\n\t\tnodeD.link = nodeLinkTextarea.val();\n\t\tif (typeof nodeD.font === \"undefined\") nodeD.font = {size: 14};\n\t\tnodeD.font.size = parseInt(nodeFontSizeInput.val(),10);\n\t\tnodeD.font.align = nodeFontAlignInput.val();\n\t\tif (typeof nodeD.color === \"undefined\") nodeD.color = {};\n\t\tnodeD.color.background = nodeColorInput.val();\n\t\tnodeD.color.border = nodeBorderColorInput.val();\n\t\tnodeD.borderWidth = nodeBorderWidthInput.val();\n\t\tnetwork.body.data.nodes.update(nodeD);\n\t});",
-          "x": 41980,
-          "y": 30693,
-          "id": "f61061d2-ae48-4aa6-bc30-1b87952ccbcd486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "19662c04-ac5d-4a11-a4fd-a3547d193e13486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tvar closeElementEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeElementEditButton'>closeElement</span></div>\");\n\tschemeEditElementsMenu.append(closeElementEditButton);\n\n\tcloseElementEditButton.click(function() {\n\t\tschemeEditElementsMenu.hide();\n\t});",
-          "x": 42141,
-          "y": 30984,
-          "id": "19662c04-ac5d-4a11-a4fd-a3547d193e13486"
-        },
-        "6275abb8-d031-4098-851b-0e023b1aba05486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "   var splitNodeListLabelButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>\");\n   schemeEditElementsMenu.append(splitNodeListLabelButton);\n\n   splitNodeListLabelButton.click(function() {\n      var nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n      var sourceNode = getNodeFromNetworkDataById(nodeIdInput);\n      var nodeLabel = sourceNode.label.trim();\n      var pNode = network.getPositions()[nodeIdInput];\n      var labelLines;\n      if (nodeLabel.split(\"!@!@\").length > 1) {\n         labelLines = nodeLabel.split(\"\\n!@!@\\n\");\n      } else {\n         labelLines = nodeLabel.split(\"\\n\");\n      }\n      var nodeBBox = network.nodesHandler.getBoundingBox(nodeIdInput);\n      var y = nodeBBox[\"top\"];\n      var newNodesIds = [];\n      if (labelLines[0] == \"to\") {\n         labelLines.shift();\n         var root = {nodes:{}};\n         root.itemStep = 0;\n         root.lastItemStep = 0;\n         root.maxWidth = 0;\n         root.keys = []\n         labelLines.forEach(function(line,index) {\n            root = buildRow(line, index, root);\n         });\n         var alignMap = {};\n         buildPagesNodes(root, 600, alignMap, null);\n         for (var key in alignMap) {\n            //console.log(key);\n            alignNodesLeft(alignMap[key]);\n         }\n      } else {\n         labelLines.forEach(function(line,index) {\n            var position = {\n               x: pNode.x + 300,\n               y: y + (14*line.split(\"\\n\").length)/2\n            };\n            var nodeId = addNodeOnCanvas(line, \"\", position, 0, 0, network);\n            newNodesIds.push(nodeId);\n            y = y + 14*line.split(\"\\n\").length + 10;\n         });\n         var nodes = [];\n         newNodesIds.forEach(function(nodeId) {      \n            nodes.push(network.body.nodes[nodeId]);\n         });\n         alignNodesLeft(nodes);\n      }\n\n   });",
-          "x": 42167,
-          "y": 32908,
-          "id": "6275abb8-d031-4098-851b-0e023b1aba05486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "716a50bb-4bcd-4b76-9786-935f4a51dd3f486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tvar runNodeCodeButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='runNodeCodeButton'>runNodeCode</span></div>\");\n\n\tschemeEditElementsMenu.append(runNodeCodeButton);",
-          "x": 42123,
-          "y": 33590,
-          "id": "716a50bb-4bcd-4b76-9786-935f4a51dd3f486"
-        },
-        "12528d0c-0743-4f7a-83a8-3160b804fc96486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\trunNodeCodeButton.click(function() {\n\t\tvar nodeId = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n\t\tvar code = collectCodeNodesContent(nodeId);\n\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\tcodeFunction(nodeId);\n\t});",
-          "x": 41913,
-          "y": 33673,
-          "id": "12528d0c-0743-4f7a-83a8-3160b804fc96486"
-        },
-        "963ce1eb-5c03-4df6-8305-6a9f1d28cc8d486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tvar leftMenuHelpLine1 = $(\"<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>\");\n\tschemeEditElementsMenu.append(leftMenuHelpLine1);\n\t//#FFD570\n\t//#ffc63b\n\tvar leftMenuHelpLine2 = $(\"<div style='margin:10px 0 0 0'><span id='leftMenuHelpLine2'>nodes yellow color - #ffd570</span></div>\");\n\tschemeEditElementsMenu.append(leftMenuHelpLine2);",
-          "x": 42123,
-          "y": 33782,
-          "id": "963ce1eb-5c03-4df6-8305-6a9f1d28cc8d486"
-        },
-        "3c05b8b7-4e2d-41b6-bda6-be03883ea398486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tloadSavedProjectToMenuButton = $(\"<div style='cursor:pointer;margin:80px 0 0 0'><span id='loadSavedProjectToMenuButton'>loadSavedProjectToMenu</span></div>\");\n\tschemeEditElementsMenu.append(loadSavedProjectToMenuButton);\n\tloadSavedProjectToMenuButton.hide();\n\tloadSavedProjectToMenuButton.click(function() {\n\t\tvar saveLabel = loadSavedProjectToMenuButton.saveProjectLabel;\n\t\tloadSavedProjectDataToDataMenuBySaveName(network, saveLabel);\n\t\tupdateSchemeFromMenu();\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
-          "x": 42221,
-          "y": 33917,
-          "id": "3c05b8b7-4e2d-41b6-bda6-be03883ea398486"
-        },
-        "851038ac-04bc-4373-99ce-445e9d30fdd0486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tdeleteSavedProjectButton = $(\"<div style='cursor:pointer;margin:40px 0 0 0'><span id='deleteSavedProjectButton'>!!deleteSavedProject!!</span></div>\");\n\tschemeEditElementsMenu.append(deleteSavedProjectButton);\n\tdeleteSavedProjectButton.hide();\n\tdeleteSavedProjectButton.click(function() {\n\t\tvar saveLabel = deleteSavedProjectButton.saveProjectLabel;\n\t\tdeleteLocalStorageSaveAndSaveNodeBySaveName(network, saveLabel);\n\t});",
-          "x": 42173,
-          "y": 34056,
-          "id": "851038ac-04bc-4373-99ce-445e9d30fdd0486"
-        },
-        "a119be82-a76d-4edb-96c4-34bbf43f614c486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tschemeDataMenu = $(\"<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:white;border-left: 1px solid #a3a3a3;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n\t//schemeDataMenu.hide()\n\tschemeDataTextArea = $(\"<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>\");\n\tschemeDataMenu.append(schemeDataTextArea);\n\tsaveLoadButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>\");\n\tschemeDataMenu.append(saveLoadButton);\n\tbody.append(schemeDataMenu);",
-          "x": 42393,
-          "y": 34174,
-          "id": "a119be82-a76d-4edb-96c4-34bbf43f614c486"
-        },
-        "998c7235-6bbf-4e48-bbed-61b6d38602ee486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tsaveLoadButton.click(function() {\n\t\tvar regex = saveCanvasProjectDataLine;\n\t\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + regex + \"$\"));\n\t\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \"$\"));\n\t\tvar projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \":.*$\"));\n\t\tif ((typeof saveCanvasProjectDataNodes === \"undefined\") || (saveCanvasProjectDataNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdNodes === \"undefined\") || (projectSaveIdNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdWithDataNodes === \"undefined\") || (projectSaveIdWithDataNodes.length == 0)) \n\t\t\t{\n\t\t\talert(\"Add setup nodes for canvas save information: '\" + saveCanvasProjectDataLine + \"', '\" + projectSaveIdLine + \"', '\" +  projectSaveIdLine + \": projectName'.\");\n\t\t} else {\n\t\t\tvar node = saveCanvasProjectDataNodes[0];\n\t\t\tupdateNodePositionData(network, node);\n\t\t\tvar scale = network.getScale();\n\t\t\tvar n1X = parseFloat(node.x.toFixed(5));\n\t\t\tvar n1Y = parseFloat(node.y.toFixed(5));\n\t\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n\t\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\t\t\tnetwork.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t\tnetwork1.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t}\n\t});",
-          "x": 42198,
-          "y": 34460,
-          "id": "998c7235-6bbf-4e48-bbed-61b6d38602ee486"
-        },
-        "e08d8881-f4b9-4565-97da-d3f87ce1fdb0486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tshowDataButton.click(function() {\n\t\tschemeDataMenu.toggle();\n\t});",
-          "x": 41793,
-          "y": 34711,
-          "id": "e08d8881-f4b9-4565-97da-d3f87ce1fdb0486"
-        },
-        "d89b86a0-bff8-4360-80b9-3636def7dcbe486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tdraw();\n\tif (typeof runUpateMenuFromSchemeAtPageReady !== \"undefined\" && runUpateMenuFromSchemeAtPageReady) {\n\t\tupdateMenuFromScheme();\n\t}\n\tremoveSaveNodes();\n\tbuildSaveNodesList();",
-          "x": 41017,
-          "y": 34838,
-          "id": "d89b86a0-bff8-4360-80b9-3636def7dcbe486"
-        },
-        "fa8926fb-1ed4-4c5a-819d-5edf7fc101e2486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tvar updateSchemeFromMenuButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateSchemeFromMenuButton' style='background-color:white;color:black;'>updateSchemeFromMenu</span></div>\");\n\tvar updateMenuFromSchemeButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateMenuFromSchemeButton' style='background-color:white;color:black;'>updateMenuFromScheme</span></div>\");\n\tschemeDataMenu.prepend(updateMenuFromSchemeButton);\n\tschemeDataMenu.prepend(updateSchemeFromMenuButton);\n\tupdateSchemeFromMenuButton.click(function() {\n\t\tupdateSchemeFromMenu();\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
-          "x": 42198,
-          "y": 35035,
-          "id": "fa8926fb-1ed4-4c5a-819d-5edf7fc101e2486"
-        },
-        "85af1170-a5a1-4103-a973-0a3d5b2d371a486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tfunction addConnections(elem, index) {\n\t\telem.connections = network.getConnectedNodes(index);\n\t}\n\tfunction exportNetwork() {\n\t\tvar nodes = objectToArray(network.getPositions());\n\t\tvar positions = network.getPositions(item.id);\n\t\titem.positionX = positions[item.id].x;\n\t\titem.positionY = positions[item.id].y;\n\n\t\tnodes.forEach(addConnections);\n\n\t\tvar exportValue = JSON.stringify(nodes, undefined, 2);\n\n\t\treturn exportValue;\n\t}",
-          "x": 41681,
-          "y": 35315,
-          "id": "85af1170-a5a1-4103-a973-0a3d5b2d371a486"
-        },
-        "072e065d-822d-4715-8443-5bf850e6a75f486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tfunction importNetwork() {\n\t\tvar inputValue = exportArea.value;\n\t\tvar inputData = JSON.parse(inputValue);\n\n\t\tvar data = {\n\t\t\tnodes: getNodeData(inputData),\n\t\t\tedges: getEdgeData(inputData)\n\t\t}\n\n\t\tnetwork = new vis.Network(container, data, {});\n\t}",
-          "x": 41645,
-          "y": 35607,
-          "id": "072e065d-822d-4715-8443-5bf850e6a75f486"
-        },
-        "f240ef3f-be64-4718-8708-cce54a9a12e6486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tfunction getNodeData(data) {\n\t\tvar networkNodes = [];\n\n\t\tdata.forEach(function(elem, index, array) {\n\t\t\tnetworkNodes.push({id: elem.id, label: elem.id, x: elem.x, y: elem.y});\n\t\t});\n\n\t\treturn new vis.DataSet(networkNodes);\n\t}",
-          "x": 41734,
-          "y": 35878,
-          "id": "f240ef3f-be64-4718-8708-cce54a9a12e6486"
-        },
-        "7413f257-38d2-49c0-aeab-10af492b6ea5486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tfunction getEdgeData(data) {\n\t\tvar networkEdges = [];\n\n\t\tdata.forEach(function(node) {\n\t\t\tnode.connections.forEach(function(connId, cIndex, conns) {\n\t\t\t\tnetworkEdges.push({from: node.id, to: connId});\n\t\t\t\tvar cNode = getNodeById(data, connId);\n\n\t\t\t\tvar elementConnections = cNode.connections;\n\n\t\t\t\t// remove the connection from the other node to prevent duplicate connections\n\t\t\t\tvar duplicateIndex = elementConnections.findIndex(function(connection) {\n\t\t\t\t\treturn connection == node.id; // double equals since id can be numeric or string\n\t\t\t\t});\n\n\t\t\t\tif (duplicateIndex != -1) {\n\t\t\t\t\telementConnections.splice(duplicateIndex, 1);\n\t\t\t\t};\n\t\t\t});\n\t\t});\n\n\t\treturn new vis.DataSet(networkEdges);\n\t}",
-          "x": 41770,
-          "y": 36287,
-          "id": "7413f257-38d2-49c0-aeab-10af492b6ea5486"
-        },
-        "4081ba82-a323-4e4f-946f-daa1d303b2b4486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\tupdateMenuFromSchemeButton.click(function() {\n\t\tremoveSaveNodes();\n\t\tupdateMenuFromScheme();\n\t\t//saveProjectToBrowserLocalStorage(network);\n\t\tlocalStorageSpace();\n\t});\n\tif (showCursorCoordinates) {\n\t\tvar cursorCoordinatesWidget = $(\"<div style='position: fixed;right:330px;font-size:12px'>\" +\n\t\t\t\"<div id='domCursorCoordinates'></div>\" +\n\t\t\t\"<div id='canvasCursorCoordinates'></div>\" +\n\t\t\t\"</div>\");\n\t\t$(\"body\").append(cursorCoordinatesWidget);\n\t\t$(document).mousemove(function(event) {\n\t\t\t$(\"#domCursorCoordinates\").text(event.pageX.toString() + \"x\" + event.pageY.toString());\n\t\t\tvar domX = (event.pageX - containerJQ.position().left).toFixed(0);\n\t\t\tvar domY = (event.pageY - containerJQ.position().top).toFixed(0);\n\t\t\tvar canvasPosition = network.canvas.DOMtoCanvas({x: domX,y: domY});\n\t\t\t$(\"#canvasCursorCoordinates\").text((canvasPosition.x).toFixed(0) + \"x\" + (canvasPosition.y).toFixed(0));\n\t\t});\n\t}\n\t$(\"#network div.vis-network\").focus();\n});",
-          "x": 41841,
-          "y": 36759,
-          "id": "4081ba82-a323-4e4f-946f-daa1d303b2b4486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "f5f9ec15-27c8-4eba-aa98-273066ed1813486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function c(x, y) {\n\tvar imgData = false;\n\tvar ctxColor;\n\tif (imgData === false) {\n\t\t//console.log(document.getElementById(\"network\").getContext('2d'));\n\t\t//ctxColor = document.getElementById(\"network\").getContext(\"2d\");\n\t\tctxColor = canvas.getContext('2d');\n\t\timgData = ctxColor.getImageData(0,0,canvas.width, canvas.height);\n\t}\t\n\tvar index = (y * imgData.width + x) * 4;\n\tvar red = imgData.data[index];\n\tvar green = imgData.data[index+1];\n\tvar blue = imgData.data[index+2];\n\tvar alpha = imgData.data[index+3];\n\t//console.log('pix x ' + x + ' y ' + y + ' index ' + index + ' COLOR ' + red + ', ' + green + ', ' + blue + ', ' + alpha);\n}",
-          "x": 39813,
-          "y": 37684,
-          "id": "f5f9ec15-27c8-4eba-aa98-273066ed1813486"
-        },
-        "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function rdf() {\n\tvar store = $rdf.graph();\n\tconsole.log($rdf);\n\tconsole.log(store);\n\tconsole.log(network);\n\tnetwork.body.data.nodes.get().forEach(function(node) {\n\t\tstore.add($rdf.literal(node.id), FOAF('name'), $rdf.literal(node.id));\n\t\t//store.add(node.id, \"name\",);\n\t});\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t});\n\tconsole.log(store.length);\n}",
-          "x": 40857,
-          "y": 38016,
-          "id": "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486"
-        },
-        "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function localStorageSpace() {\n    var data = '';\n\n    console.log('Current local storage: ');\n\n    for(var key in window.localStorage){\n\n        if(window.localStorage.hasOwnProperty(key)){\n            data += window.localStorage[key];\n            console.log( key + \" = \" + ((window.localStorage[key].length * 16)/(8 * 1024)).toFixed(2) + ' KB' );\n        }\n\n    }\n\n    console.log(data ? '\\n' + 'Total space used: ' + ((data.length * 16)/(8 * 1024)).toFixed(2) + ' KB' : 'Empty (0 KB)');\n    console.log(data ? 'Approx. space remaining: ' + (5120 - ((data.length * 16)/(8 * 1024)).toFixed(2)) + ' KB' : '5 MB');\n};",
-          "x": 41024,
-          "y": 38369,
-          "id": "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486"
-        },
-        "e68d70a9-0e47-4168-ae35-bb44461b4110486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function makeNodeJsonLine(id, label, link, x, y) {\n\tlabel = label.replace(\":\",\"\\:\");\n\tlink = link.replace(\":\",\"\\:\");\n\tvar json = \"\";\n\tjson += \"\\\"\" + id + \"\\\": { \\\"id\\\": \\\"\" + id + \"\\\",\";\n\tjson += \"\\\"x\\\": \" + x.toString() + \", \\\"y\\\": \" + y.toString() + \",\";\n\tjson += \"\\\"label\\\": \\\"\" + label + \"\\\",\";\n\tjson += \"\\\"link\\\": \\\"\" + link + \"\\\"\";\n\tjson += \"}\";\n\treturn json;\n}",
-          "x": 40838,
-          "y": 38712,
-          "id": "e68d70a9-0e47-4168-ae35-bb44461b4110486"
-        },
-        "880081bc-e7c3-48c1-9fa7-1e638b8d8548486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function addNodeOnCanvas(label, link, position, shiftX, shiftY, network) {\n\treturn network.body.data.nodes.add({\n\t\tlabel:label,\n\t\tlink: link,\n\t\tx: position.x + shiftX,\n\t\ty: position.y + shiftY\n\t});\n}",
-          "x": 40896,
-          "y": -4933,
-          "id": "880081bc-e7c3-48c1-9fa7-1e638b8d8548486"
-        },
-        "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function countSelectedNodesAndEdges() {\n\tvar nodes = objectToArray(network.body.data.nodes);\n\tvar edges = objectToArray(network.body.data.edges);\n\tconsole.log(\"All nodes: \" + nodes.length);\n\tconsole.log(\"All edges: \" + edges.length);\n\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\tconsole.log(\"Selected nodes: \" + selectedNodes.length);\n\tconsole.log(\"Selected edges: \" + selectedEdges.length);\n}",
-          "x": 40899,
-          "y": 39231,
-          "id": "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486"
-        },
-        "20602b12-993a-42bc-8dd6-008215220e01486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function help() {\n\tconsole.log(\"localStorageSpace()\");\n\tconsole.log(\"countSelectedNodesAndEdges()\");\n}\n",
-          "x": 40801,
-          "y": 39477,
-          "id": "20602b12-993a-42bc-8dd6-008215220e01486"
-        },
-        "fcdd0bec-d9eb-412f-810f-075698893dbf486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "   $(\"#network\").keyup(function (event) {\n      //Add new node under cursor. alt+n\n      if (event.altKey && event.keyCode === 78) {\n         var schemeDataMenuWidth = 0;\n         if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n            schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n         } else {\n            schemeDataMenuWidth = 0;\n         }\n         var lastEditedNodeId;\n         var lastEditedNode;\n         var position;\n         if (lastEditedNodesIds.length == 0) {\n            if (lastClickPosition == null) {\n               position = {\n                  x: (canvasWidth - schemeDataMenuWidth)/2,\n                  y: canvasHeight/2\n               };\n            } else {\n               position = {\n                  x: lastClickPosition.x,\n                  y: lastClickPosition.y\n               };\n            }\n            position = network.canvas.DOMtoCanvas(position);\n         } else {\n            var lastEditedNodeId = lastEditedNodesIds[lastEditedNodesIds.length - 1];\n            var lastEditedNode = getNodeFromNetworkDataById(lastEditedNodeId);\n            var lastEditDOMPosition = network.canvasToDOM({x: lastEditedNode.x, y: lastEditedNode.y});\n            if (lastEditDOMPosition.x < 0 || \n               lastEditDOMPosition.x > canvasWidth || \n               lastEditDOMPosition.y < 0 || \n               lastEditDOMPosition.y > canvasHeight) {\n               position = {\n                  x: (canvasWidth - schemeDataMenuWidth)/2,\n                  y: canvasHeight/2\n               };\n            } else {\n               var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);\n               position = {\n                  x: lastEditedNode.x,\n                  y: nodeBBox[\"top\"] + 28 + 28*lastEditedNode.label.split(\"\\n\").length/2\n               };\n            }\n         }\n         var nodeId = addNodeOnCanvas(\"\", \"\", position, 0, 0, network);\n         var node = network.body.nodes[nodeId];\n         network.selectionHandler.selectObject(node);\n         lastEditedNodesIds.push(nodeId);\n         network.manipulation.editNode();\n      }\n   });",
-          "x": 41169,
-          "y": 10364,
-          "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "83256af2-2780-4edb-87da-35273c359d5e486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "\t$(\"#network\").keydown(function (event) {\n\t\t//Delete or Backspace\n\t\t//if (event.ctrlKey && event.keyCode === 13) {\n\t\tif (event.keyCode === 46 || event.keyCode === 8) {\n\t\t\tnetwork.manipulation.deleteSelected();\n\t\t}\n\t});",
-          "x": 41770,
-          "y": 13925,
-          "id": "83256af2-2780-4edb-87da-35273c359d5e486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939318955559920683486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./app/\napplication.js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939318955559920683486",
-          "x": 45340,
-          "y": -9524,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e2167bbe-693e-4fc7-b91b-062bda693c27206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "red"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 72,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js",
-          "x": 39623,
-          "y": -13523,
-          "id": "e2167bbe-693e-4fc7-b91b-062bda693c27206369486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24835ccd-b98b-4f2f-bd45-fcaa9f38b03e206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Development",
-          "x": 40256,
-          "y": -13141,
-          "id": "24835ccd-b98b-4f2f-bd45-fcaa9f38b03e206369486"
-        },
-        "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "center"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "11/18/2019",
-          "x": 40506,
-          "y": -13141,
-          "id": "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "f1d86e21-8dcb-40e1-a445-40bff68d13a2206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "init",
-          "x": 40406,
-          "y": -13141,
-          "id": "f1d86e21-8dcb-40e1-a445-40bff68d13a2206369486"
-        },
-        "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Notes",
-          "x": 40256,
-          "y": -13991,
-          "id": "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486"
-        },
-        "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Dictionary of\nconcepts",
-          "x": 40529,
-          "y": -16377,
-          "id": "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486"
-        },
-        "636009f4-b1c7-4990-b4f0-2e2b3e654223206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Details, thoughts",
-          "x": 40460,
-          "y": -14996,
-          "id": "636009f4-b1c7-4990-b4f0-2e2b3e654223206369486"
-        },
-        "8c615a75-12a2-4368-bdb9-f9e04619e711206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Sections",
-          "x": 40406,
-          "y": -13741,
-          "id": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486"
-        },
-        "dadf8c81-d0a9-4bb9-b3aa-cb0e872ae663206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Books",
-          "x": 40470,
-          "y": -13891,
-          "id": "dadf8c81-d0a9-4bb9-b3aa-cb0e872ae663206369486"
-        },
-        "511de7c7-f954-47d9-b9cb-1d25114d124a206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "R&D institutions",
-          "x": 40500,
-          "y": -13866,
-          "id": "511de7c7-f954-47d9-b9cb-1d25114d124a206369486"
-        },
-        "8c186da9-2d90-4752-87d5-9c51f01aaeaa206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Sites",
-          "x": 40466,
-          "y": -13841,
-          "id": "8c186da9-2d90-4752-87d5-9c51f01aaeaa206369486"
-        },
-        "3ed80ff3-e9c7-41ad-ad41-4adcc9e92c6e206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Magazines",
-          "x": 40485,
-          "y": -13816,
-          "id": "3ed80ff3-e9c7-41ad-ad41-4adcc9e92c6e206369486"
-        },
-        "a15afc99-7e3d-4676-896b-4d56c1b237ac206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Articles",
-          "x": 40473,
-          "y": -13791,
-          "id": "a15afc99-7e3d-4676-896b-4d56c1b237ac206369486"
-        },
-        "3b475dd0-8619-48b1-8235-0396f1c366b4206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Media content",
-          "x": 40495,
-          "y": -13766,
-          "id": "3b475dd0-8619-48b1-8235-0396f1c366b4206369486"
-        },
-        "13be3cea-4aa2-4e7d-b72d-f3aabba738ad206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Misc. web links",
-          "x": 40498,
-          "y": -13741,
-          "id": "13be3cea-4aa2-4e7d-b72d-f3aabba738ad206369486"
-        },
-        "dd8c8df4-29ee-4c7a-b924-24858ff3c682206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Projects",
-          "x": 40476,
-          "y": -13716,
-          "id": "dd8c8df4-29ee-4c7a-b924-24858ff3c682206369486"
-        },
-        "67d89cae-970e-4780-b211-e8ffa3ee085d206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Tools",
-          "x": 40467,
-          "y": -13691,
-          "id": "67d89cae-970e-4780-b211-e8ffa3ee085d206369486"
-        },
-        "fc81f614-d532-41dd-aa0c-96a72dbe6b54206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Organizations",
-          "x": 40494,
-          "y": -13666,
-          "id": "fc81f614-d532-41dd-aa0c-96a72dbe6b54206369486"
-        },
-        "5b628386-e316-4c48-a084-b6b643206d6e206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Standarts",
-          "x": 40481,
-          "y": -13641,
-          "id": "5b628386-e316-4c48-a084-b6b643206d6e206369486"
-        },
-        "58b455fb-9348-4474-bcd5-2f5cb83b6804206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Forums, Groups",
-          "x": 40502,
-          "y": -13616,
-          "id": "58b455fb-9348-4474-bcd5-2f5cb83b6804206369486"
-        },
-        "7bdb4374-cad2-40ec-97e8-3f40cfad4ee8206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Laws",
-          "x": 40467,
-          "y": -13591,
-          "id": "7bdb4374-cad2-40ec-97e8-3f40cfad4ee8206369486"
-        },
-        "d1cae5c0-c183-4be9-a80b-1a59148d879a206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Adjacent Themes",
-          "x": 40506,
-          "y": -13566,
-          "id": "d1cae5c0-c183-4be9-a80b-1a59148d879a206369486"
-        },
-        "e7b46853-9d75-4bcc-814c-783971395afa206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Questions",
-          "x": 40256,
-          "y": -13441,
-          "id": "e7b46853-9d75-4bcc-814c-783971395afa206369486"
-        },
-        "7a0a1963-1d69-425b-a067-3d6c97be0cc1206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Problems",
-          "x": 40256,
-          "y": -13341,
-          "id": "7a0a1963-1d69-425b-a067-3d6c97be0cc1206369486"
-        },
-        "ec17b97c-f06f-4590-ab22-01ff94faf0eb206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Goals",
-          "x": 40256,
-          "y": -13241,
-          "id": "ec17b97c-f06f-4590-ab22-01ff94faf0eb206369486"
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206369486",
-          "x": 44669,
-          "y": -16933,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "063a7ffc-4975-4000-9c73-2c221ec4f7f554206369486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "var dataSourcePath = \"/home/mike/progr/repo/mm-vis-js/app/index.data.js\";\nvar url = \"https://localhost:3001\";\nvar canvasProjectName = \"mainPage1\";\nvar buildProjectName = \"mm-vis-js\";\n\nupdateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nfunction fetchData(url, params) {\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 30, 170);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n   });\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: dataSourcePath,\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: canvasProjectName,\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       buildProjectName: buildProjectName,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
-          "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f554206369486",
-          "x": 41549,
-          "y": -17148,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "19cad5a8-bf31-4dc2-833f-94018d9bc12c369486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "buildProject code: mm-vis-js",
-          "id": "19cad5a8-bf31-4dc2-833f-94018d9bc12c369486",
-          "x": 40829,
-          "y": -17201,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0978206200486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code setup for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0978206200486",
-          "x": 39654,
-          "y": -12671,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "1bbcc7a4-45a0-4ea9-9862-fe18f6b37371206200486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "projectPath: /home/mike/progr/repo/mm-vis-js",
-          "id": "1bbcc7a4-45a0-4ea9-9862-fe18f6b37371206200486",
-          "x": 40613,
-          "y": -12708,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "f5989e42-d06f-4d95-908e-2f58107e05aa200486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "backupPaths: [\n\"/home/mike/progr/repo/mm-vis-js\"\n]",
-          "id": "f5989e42-d06f-4d95-908e-2f58107e05aa200486",
-          "x": 40621,
-          "y": -12637,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486",
-          "x": 65172,
-          "y": -16675,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./docker-compose.yml",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486",
-          "x": 66197,
-          "y": -16682,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486",
-          "x": 66716,
-          "y": -16696
-        },
-        "becab8db-7338-4a8d-9d1b-0840b81e6f89942486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "version: \"2\"\nservices:\n  app-express:\n    container_name: app-express\n    build: .\n    ports:\n      - \"3000:3000\"\n    depends_on:\n      - chrome-container\n    volumes:\n      - ./e2eTests:/e2eTests\n      - ./package.json:/package.json\n      - ./package-lock.json:/package-lock.json\n      #- ./.gitignore:/.gitignore\n      #- ./app.js:/app.js\n      - ./app:/home/node/public\n\n  chrome-container:\n    container_name: chrome-container\n    image: selenium/standalone-chrome:3.12.0-americium\n    volumes:\n      - /dev/shm:/dev/shm\n    ports:\n      - \"4444:4444\"\n    # can just be expose - 4444, but this allows you to see localhost:4444/wd/hub/static/resource/hub.html",
-          "x": 67240,
-          "y": -16688,
-          "id": "becab8db-7338-4a8d-9d1b-0840b81e6f89942486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./docker-compose.yml",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486",
-          "x": 73832,
-          "y": -16331,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942167486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942167486",
-          "x": 65200,
-          "y": -13656,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942167486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./Dockerfile",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942167486",
-          "x": 66225,
-          "y": -13663,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942167486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942167486",
-          "x": 66744,
-          "y": -13677
-        },
-        "becab8db-7338-4a8d-9d1b-0840b81e6f89942167486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "FROM node:carbon\n\nWORKDIR ./\n\nCOPY ./package.json ./package-lock.json .e2eTests/testServer.js ./\n\nRUN npm install\n\nRUN mkdir /home/node/publc\n\nCOPY ./app /home/node/public\n\nCMD [ \"npm\", \"start\" ]",
-          "x": 67200,
-          "y": -13670,
-          "id": "becab8db-7338-4a8d-9d1b-0840b81e6f89942167486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113167486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./Dockerfile",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113167486",
-          "x": 71442,
-          "y": -13277,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942167656486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942167656486",
-          "x": 65212,
-          "y": -10369,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942167656486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./package.json",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942167656486",
-          "x": 66237,
-          "y": -10376,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942167656486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942167656486",
-          "x": 66756,
-          "y": -10390
-        },
-        "becab8db-7338-4a8d-9d1b-0840b81e6f89942167656486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "{\n  \"name\": \"example-standalone-chrome\",\n  \"version\": \"2.0.0\",\n  \"description\": \"Example of using the selenium/standalone-chrome Docker image alongside CodeceptJS and an Express server.\",\n  \"author\": \"Dominic Fraser\",\n  \"license\": \"ISC\",\n  \"scripts\": {\n    \"start\": \"node testServer.js\",\n    \"test:e2e\": \"codeceptjs run --steps --verbose --config=./e2eTests/docker.conf.js\"\n  },\n  \"dependencies\": {\n    \"express\": \"^4.16.3\"\n  },\n  \"devDependencies\": {\n    \"codeceptjs\": \"^2.0.3\",\n    \"webdriverio\": \"^5.3.0\"\n  }\n}",
-          "x": 67399,
-          "y": -10365,
-          "id": "becab8db-7338-4a8d-9d1b-0840b81e6f89942167656486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113167656486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./package.json",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113167656486",
-          "x": 72166,
-          "y": -10148,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486",
-          "x": 65212,
-          "y": -10369,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./README.md",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486",
-          "x": 66204,
-          "y": -7605,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486",
-          "x": 66756,
-          "y": -10390
-        },
-        "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "# mm-vis-js\n\nmm-vis-js &mdash; IDE and schemes editor.\n\nCode based on vis.js.\n\nExample: https://sushilshik.github.io/\n\n###### Features:\n* No need to install.\n* No need to register in online services to edit schemes\n* Schemes data can be edited from it's text representation\n* Code (e.q. from github projects) can be converted to mm-vis-js schemes for visual research\n* Write programs in familiar programming languages and in visual graphs of nodes with code\n* Build files with code (like project building in make and maven) from graphs of nodes with code\n* Place books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content\n* Work online and offline\n* Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)\n\n###### Screenshots\n\nsushilshik.github.io/index.html screenshot 2019.11.30\n\n![sushilshik.github.io/index.html screenshot 2019.11.30](https://sushilshik.github.io/imgs/mm-vis-js_index_2019.11.30.png)\n\n###### List of pages on 2019.11.30:\n\n* https://sushilshik.github.io/index.html\n* https://sushilshik.github.io/base.html\n* https://sushilshik.github.io/culture.html\n* https://sushilshik.github.io/ruby.html\n* https://sushilshik.github.io/javascript.html\n\n### Tests:\n\nInstall:\n* docker\n* docker-compose. pip install docker-compose\n\nRun:\n1) Open first terminal.\n2) Run: docker-compose up --build. It will start chrome docker container.\n3) Open second terminal.\n4) Run: docker exec -it app-express npm run test:e2e. Command will exit after process finish.\n5) Run: docker-compose down. It will shut down chrome container in first terminal.",
-          "x": 67366,
-          "y": -7594,
-          "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./README.md",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486",
-          "x": 72192,
-          "y": -7193,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687",
-          "x": 65193,
-          "y": -7592,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687",
-          "x": 66737,
-          "y": -7613
-        },
-        "b9f0ff34-99a9-496b-b5a9-1922a75a864f": {
-          "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f",
-          "x": 41471,
-          "y": -3998,
-          "label": "function showAlert(alertLine, rightShift, width) {\n        var schemeDataMenuWidth = 0;\n        if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n                schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n        } else {\n                schemeDataMenuWidth = 59;\n        }\n        var saveAlertWidget = $(\"<div id='alertLine' style='z-index:9999;position: fixed;right:\" + String(schemeDataMenuWidth + rightShift) + \"px;top:0;font-family:sans-serif;font-size:14px; margin:5px; width:\" + String(width) + \"px;'>\" + alertLine + \"</div>\");\n        $(\"body\").append(saveAlertWidget);\n        setTimeout(() => $(\"#alertLine\").remove(), 5000);\n}",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "b9f0ff34-99a9-496b-b5a9-1922a75a864f309": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function mkdirRecursiveSync(path, pathDelimiter) {\n    var paths = path.split(pathDelimiter);\n    var fullPath = '';\n    paths.forEach((path) => {\n\n        fullPath = fullPath + path + pathDelimiter;\n\n        if (!fs.existsSync(fullPath)) {\n            fs.mkdirSync(fullPath);\n        }\n    });\n};\n",
-          "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f309",
-          "x": 67297,
-          "y": -204,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486626": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./utils/mm-vis-js_pages.rb",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486626",
-          "x": 50679,
-          "y": -16972,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486626": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./utils/\nmm-vis-js_pages.rb",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486626",
-          "x": 59451,
-          "y": -15770,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687626": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687626",
-          "x": 49668,
-          "y": -16959,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687626": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687626",
-          "x": 51212,
-          "y": -16980
-        },
-        "2f8234a6-5a02-4871-b4e4-a349014fe533": {
-          "label": "#!/usr/bin/ruby\nrequire 'json'\nrequire 'htmlentities'\nrequire 'uri'\nrequire 'cgi'\nrequire 'tilt/erb'\nrequire 'fileutils'\nrequire 'trollop'\nrequire 'yaml'",
-          "x": 51573,
-          "y": -16953,
-          "id": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "font": {
-            "align": "left"
-          }
-        },
-        "44b6c949-348a-4630-a8a3-b49993eb1b56": {
-          "label": "#Code for building vis.js code scheme in mm-vis-js\n\ncurrentProjects = [\n\t\"chromium\",\n\t\"firefox\",\n\t\"linux-core\",\n\t\"gcc\",\n\t\"mm-vis-js\",\n\t\"emacs\",\n\t\"vim\",\n\t\"vis-network\",\n\t\"sbcl\",\n\t\"ghc\",\n\t\"git\",\n\t\"julia\",\n\t\"bash\",\n\t\"ruby\",\n\t\"apache_httpd\",\n\t\"texlive-source\",\n\t\"mysql-server\",\n\t\"cpython\",\n\t\"jdk\",\n\t\"vscode\",\n\t\"hbase\",\n\t\"spark\",\n\t\"neo4j\",\n\t\"spring-framework\",\n\t\"tomcat\"\n]",
-          "x": 52111,
-          "y": -16248,
-          "id": "44b6c949-348a-4630-a8a3-b49993eb1b56",
-          "font": {
-            "align": "left"
-          }
-        },
-        "964c71ee-3c03-4284-878b-f2fd61f58227": {
-          "label": "#2019.10.30\n#chromium\n#firefox\n#linux-core\n#gcc\n#mm-vis-js\n#emacs\n#vim\n#vis-network\n#sbcl\n#ghc\n#git\n#julia\n#bash\n#ruby\n#apache_httpd\n#texlive-source\n#mysql-server\n#cpython\n#jdk\n#vscode\n#hbase\n#spark\n#neo4j\n#spring-framework\n#tomcat",
-          "x": 52011,
-          "y": -15865,
-          "id": "964c71ee-3c03-4284-878b-f2fd61f58227",
-          "font": {
-            "align": "left"
-          }
-        },
-        "26fc4edc-4fac-42a6-ad3a-5b3bd5617a7a": {
-          "label": "opts = Trollop::options do\n    opt :project, \"Source code project name\", :short => 'p', :type => String\n    opt :list, \"List projects\", :short => 'l'\nend\n\nif opts.include?(:list) && !opts[:list].nil? && opts[:list]\n\tcurrentProjects.each{|project|\n\t\tp project\n\t}\nend",
-          "x": 52178,
-          "y": -15603,
-          "id": "26fc4edc-4fac-42a6-ad3a-5b3bd5617a7a",
-          "font": {
-            "align": "left"
-          }
-        },
-        "37015fb1-04ec-4761-9cb6-c5702f9f6e82": {
-          "label": "class CSharpParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.ts\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t\t\".*class\\\\s\\\\w\"\n\t\t]\n\t\t@textSeparateRegexLinesList = [\n\t\t\t[\"(([a-zA-z0-9\\\\*_]+)(\\\\s?)(\\\\({1})(.*?[0-9a-z\\\\*_\\\\,\\\\s\\\\.:|<>\\\\[\\\\]]+)(\\\\){1}):(\\\\n|\\\\r|\\\\s)*([a-zA-z0-9\\\\*_\\\\.\\\\[\\\\]+)(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\", \"multiline\"]\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 52374,
-          "y": -15257,
-          "id": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "font": {
-            "align": "left"
-          }
-        },
-        "9c8822d9-e846-4c76-a36d-6e17fb95cef9": {
-          "label": "class JavaParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.java\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t\t\".*class\\\\s\\\\w\"\n\t\t]\n\t\t@textSeparateRegexLinesList = [\n\t\t\t[\"((?:(?:public|private|protected|static|final|native|synchronized|abstract|transient)+\\\\s+)+[$_\\\\w<>\\\\[\\\\]\\\\s]*\\\\s+[\\\\$_\\\\w]+\\\\([^\\\\)]*\\\\)?\\\\s*\\\\{?)\", \"multiline\"]\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53415,
-          "y": -14705,
-          "id": "9c8822d9-e846-4c76-a36d-6e17fb95cef9",
-          "font": {
-            "align": "left"
-          }
-        },
-        "b0d2b9d6-5367-44bf-9ac6-535e2ca63824": {
-          "label": "class JuliaParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.jl\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t\t\"(function\\\\s\\\\w)\"\n\t\t]\n\t\t@textSeparateRegexLinesList = [\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53213,
-          "y": -14170,
-          "id": "b0d2b9d6-5367-44bf-9ac6-535e2ca63824",
-          "font": {
-            "align": "left"
-          }
-        },
-        "5625fd46-42ce-400e-aae4-be3ddc8f3024": {
-          "label": "class CCParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.cc\",\n\t\t\t\".*\\\\.cpp\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t]\n\t\t@textSeparateRegexLinesList = [\n\t\t\t[\"(^\\\\w+.*\\\\s*([\\\\w:]+)\\\\s*\\\\(.*\\\\)\\\\s*\\\\n*{$)\", \"multiline\"]\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53221,
-          "y": -13632,
-          "id": "5625fd46-42ce-400e-aae4-be3ddc8f3024",
-          "font": {
-            "align": "left"
-          }
-        },
-        "7402412e-7fad-4737-958e-c82fdeb3fdb1": {
-          "label": "class ELispParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.el\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t\t\"(defvar\\\\s\\\\w)\",\n\t\t\t\"(defcustom\\\\s\\\\w)\",\n\t\t\t\"(defun\\\\s\\\\w)\"\n\t\t]\n\t\t@textSeparateRegexLinesList = [\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53211,
-          "y": -13086,
-          "id": "7402412e-7fad-4737-958e-c82fdeb3fdb1",
-          "font": {
-            "align": "left"
-          }
-        },
-        "1a8bd4cf-dca8-461c-9a72-f6ed862dcd52": {
-          "label": "class RubyParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.rb\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t\t\"(def\\\\s\\\\w)\",\n\t\t\t\"(class\\\\s\\\\w)\"\n\t\t]\n\t\t@textSeparateRegexLinesList = [\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53202,
-          "y": -12536,
-          "id": "1a8bd4cf-dca8-461c-9a72-f6ed862dcd52",
-          "font": {
-            "align": "left"
-          }
-        },
-        "3e001b08-a6c8-4728-9d7f-0587c7bb67bf": {
-          "label": "class JavaScriptParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.js\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t\t\"(function\\\\s\\\\w)\",\n\t\t\t\"(function\\\\()\",\n\t\t\t\"(function\\\\s\\\\()\"\n\t\t]\n\t\t#TODO. Add separation regex to separate by start of comments for function\n\t\t#\".*\\\\/\\\\*\\\\*.?$\"\n\t\t@textSeparateRegexLinesList = [\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53197,
-          "y": -11973,
-          "id": "3e001b08-a6c8-4728-9d7f-0587c7bb67bf",
-          "font": {
-            "align": "left"
-          }
-        },
-        "02d744e5-d8c3-4e4c-81a2-2707ec508fd8": {
-          "label": "class HaskellParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.hs\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t\t\"(.*?::.*?->.*)\"\n\t\t]\n\t\t@textSeparateRegexLinesList = [\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53199,
-          "y": -11414,
-          "id": "02d744e5-d8c3-4e4c-81a2-2707ec508fd8",
-          "font": {
-            "align": "left"
-          }
-        },
-        "f09388b7-636c-4113-9faa-69b6f6aab435": {
-          "label": "class PythonParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.py\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t\t\"(def\\\\s\\\\w)\",\n\t\t]\n\t\t@textSeparateRegexLinesList = [\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53185,
-          "y": -10888,
-          "id": "f09388b7-636c-4113-9faa-69b6f6aab435",
-          "font": {
-            "align": "left"
-          }
-        },
-        "7e561d97-f1c2-473e-8819-1a0ce879c092": {
-          "label": "class CParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.c\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t]\n\n\t\t#[\"(([a-zA-z]+)(\\\\s)([a-zA-Z\\\\*]+[a-zA-z0-9\\\\*]+)(\\\\({1})(.*?[0-9a-z\\\\*_,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\", \"multiline\"]\n\t\t@textSeparateRegexLinesList = [\n\t\t\t[\"(([a-zA-z\\\\*]+)(\\\\s)([a-zA-Z\\\\*_]+[a-zA-z0-9\\\\*_]+)(\\\\s?)(\\\\({1})(.*?[0-9a-z\\\\*_\\\\,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\", \"multiline\"]\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53316,
-          "y": -10347,
-          "id": "7e561d97-f1c2-473e-8819-1a0ce879c092",
-          "font": {
-            "align": "left"
-          }
-        },
-        "e1530125-c1eb-4f0e-93a9-9e0ad4f9d906": {
-          "label": "class CommonLispParser\n\tattr_accessor :conf,\n\t\t:fileNameCheckRegex,\n\t\t:textSeparateRegexLinesList\n\tdef initialize()\n\t\t@fileNameCheckRegexList = [\n\t\t\t\".*\\\\.lisp\"\n\t\t]\n\t\t@checkSeparationLineRegexList = [\n\t\t\t\"(defmacro\\\\s\\\\w)\",\n\t\t\t\"(defun\\\\s\\\\w)\"\n\t\t]\n\t\t@textSeparateRegexLinesList = [\n\t\t]\n\tend\n\tdef checkTypeByFileName(fileName)\n\t\t@fileNameCheckRegexList.map{|regex|\n\t\t\tfileName =~ Regexp.new(regex)\n\t\t}.any?\n\tend\t\n\tdef checkSeparationLine(line)\n\t\t@checkSeparationLineRegexList.map{|regex| \n\t\t\tline =~ Regexp.new(regex)\n\t\t}.any?\n\tend\n\tdef addDelimitersToTextByRegexes(text, delimiter)\n\t\t@textSeparateRegexLinesList.each{|regexData|\n\t\t\tif regexData[1] == \"multiline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0], Regexp::MULTILINE), delimiter + '\\1')\n\t\t\telsif regexData[1] == \"oneline\"\n\t\t\t\ttext = text.gsub(Regexp.new(regexData[0]), delimiter + '\\1')\n\t\t\telse\n\t\t\t\traise \"faulty regex data\"\n\t\t\tend\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 53192,
-          "y": -9798,
-          "id": "e1530125-c1eb-4f0e-93a9-9e0ad4f9d906",
-          "font": {
-            "align": "left"
-          }
-        },
-        "cd72d8fe-2704-45a4-8952-44ba03826e2c": {
-          "label": "class CodeParser\n\tattr_accessor :conf,\n\t\t:parsersList\n\tdef initialize()\n\t\t@parsersList = [\n\t\t\tJavaParser.new,\n\t\t\tJuliaParser.new,\n\t\t\tCCParser.new,\n\t\t\tELispParser.new,\n\t\t\tRubyParser.new,\n\t\t\tJavaScriptParser.new,\n\t\t\tHaskellParser.new,\n\t\t\tPythonParser.new,\n\t\t\tCParser.new,\n\t\t\tCommonLispParser.new\n\t\t]\n\tend\n\tdef checkSeparationLine(line, fileName)\n\t\t@parsersList.map{|parser|\n\t\t\tif parser.checkTypeByFileName(fileName)\n\t\t\t\tparser.checkSeparationLine(line)\n\t\t\telse\n\t\t\t\tfalse\n\t\t\tend\t\n\t\t}.any?\n\tend\n\tdef addDelimitersToText(text, fileName, delimiter)\n\t\t@parsersList.map{|parser|\n\t\t\tif parser.checkTypeByFileName(fileName)\n\t\t\t\ttext = parser.addDelimitersToTextByRegexes(text, delimiter)\n\t\t\tend\t\n\t\t}\n\t\ttext\n\tend\nend",
-          "x": 52149,
-          "y": -9288,
-          "id": "cd72d8fe-2704-45a4-8952-44ba03826e2c",
-          "font": {
-            "align": "left"
-          }
-        },
-        "c2b02063-3205-454b-8217-0783d485bf90": {
-          "label": "class SourcesData\n\tattr_accessor :sourcesProjectName, \n\t\t:sourcesDirPath, \n\t\t:dataDirPath,\n\t\t:excludeFilesRegexList,\n\t\t:sourceFilesRegexList,\n\t\t:fileDataFilterProcsList,\n\t\t:excludeFromParsingFilesRegexList\n\tdef initialize()\n\t\t@fileDataFilterProcsList = []\n\tend\nend",
-          "x": 52070,
-          "y": -8949,
-          "id": "c2b02063-3205-454b-8217-0783d485bf90",
-          "font": {
-            "align": "left"
-          }
-        },
-        "7134d251-8bff-482b-ba67-2292ca1685f8": {
-          "label": "class VisJsNode\n\tattr_accessor :id,\n\t\t:idStep,\n\t\t:label,\n\t\t:link,\n\t\t:x,\n\t\t:y,\n\t\t:fontSize,\n\t\t:backgroundColor,\n\t\t:fontAlign,\n\t\t:shape,\n\t\t:nodeLinesHeightMultiplier,\n\t\t:labelHighlightBold",
-          "x": 52041,
-          "y": -8764,
-          "id": "7134d251-8bff-482b-ba67-2292ca1685f8",
-          "font": {
-            "align": "left"
-          }
-        },
-        "7c31450c-270a-49ab-baa2-67c67b4e6476": {
-          "label": "\tdef initialize(id, idStep, label, link, x, y, fontSize, backgroundColor, nodeLinesHeightMultiplier)\n\t\t@id = id + idStep\n\t\t@idStep = idStep\n\t\t@label = label\n\t\t@link = link\n\t\t@fontSize = fontSize\n\t\t@backgroundColor = backgroundColor\n\t\t@shape = \"box\"\n\t\t@fontAlign = \"left\"\n\t\t@labelHighlightBold = \"false\"\n\t\t@nodeLinesHeightMultiplier = nodeLinesHeightMultiplier\n\t\t@x = x\n\t\t@y = VisJsNode.getPositionY(y, label, fontSize, nodeLinesHeightMultiplier)\n\tend",
-          "x": 52904,
-          "y": -8565,
-          "id": "7c31450c-270a-49ab-baa2-67c67b4e6476",
-          "font": {
-            "align": "left"
-          }
-        },
-        "a5842389-ab34-4fbb-8d68-7b5b46ec50d5": {
-          "label": "\tdef self.getPositionY(y, label, fontSize, nodeLinesHeightMultiplier)\n\t\tlabelLinesCount = 1\n\t\tbegin\n\t\t\tlabelLinesCount = label.split(\"\\n\").size\n\t\trescue ArgumentError \n\t\t\tp \"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\\n\"\n\t\tensure\n\t\t\tlabelLinesCount = label.force_encoding('iso-8859-1').encode(\"utf-8\").split(\"\\n\").size\n\t\tend\n\t\ty + labelLinesCount*fontSize*nodeLinesHeightMultiplier/2\n\tend",
-          "x": 52877,
-          "y": -8379,
-          "id": "a5842389-ab34-4fbb-8d68-7b5b46ec50d5",
-          "font": {
-            "align": "left"
-          }
-        },
-        "9f8196aa-220f-411f-87d8-47cb2534af30": {
-          "label": "\tdef getHeight()\n\t\tlabelLinesCount = @label.split(\"\\n\").size\n\t\tlabelLinesCount*@fontSize*@nodeLinesHeightMultiplier\n\tend\n\tdef setPosY(y)\n\t\t@y = y + getHeight()/2\n\tend",
-          "x": 52791,
-          "y": -8243,
-          "id": "9f8196aa-220f-411f-87d8-47cb2534af30",
-          "font": {
-            "align": "left"
-          }
-        },
-        "a44abfce-4a8d-4583-9ae4-4918fcfa8df1": {
-          "label": "\tdef getVisJsObject()\n\t\tnode = {}\n\t\tnode[\"id\"] = @id\n\t\tnode[\"label\"] = @label\n\t\tnode[\"link\"] = @link\n\t\tnode[\"x\"] = @x\n\t\tnode[\"y\"] = @y\n\t\tnode[\"shape\"] = @shape\n\t\tnode[\"labelHighlightBold\"] = @labelHighlightBold\n\t\tfont = {}\n\t\tfont[\"align\"] = @fontAlign\n\t\tfont[\"size\"] = @fontSize\n\t\tnode[\"font\"] = font\n\t\tif !@backgroundColor.nil? && @backgroundColor != \"\"\n\t\t\tcolor = {}\n\t\t\tcolor[\"background\"] = @backgroundColor\n\t\t\tnode[\"color\"] = color\n\t\tend\n\t\tnode\n\tend",
-          "x": 52784,
-          "y": -8045,
-          "id": "a44abfce-4a8d-4583-9ae4-4918fcfa8df1",
-          "font": {
-            "align": "left"
-          }
-        },
-        "ec867080-951d-4640-9326-a3d29e4b99c5": {
-          "label": "\tdef getJson()\n\t\t#id = idStep + id\n\t\ta = {}\n\t\tnode = getVisJsObject() \n\t\ta[id.to_s] = node\n\t\tline = a.to_json\n\t\tline = line[1..-1]\n\t\tline = line[0...-1]\n\t\tline\n\tend\nend",
-          "x": 52691,
-          "y": -7818,
-          "id": "ec867080-951d-4640-9326-a3d29e4b99c5",
-          "font": {
-            "align": "left"
-          }
-        },
-        "1b88b150-43ac-4663-82fa-be020ed6477a": {
-          "label": "class VisJsEdge\n\tattr_accessor :id,\n\t\t:from,\n\t\t:to\n\tdef initialize(id, idShift, from, to)\n\t\t@id = id + idShift\n\t\t@from = from\n\t\t@to = to\n\tend\n\tdef getVisJsObject()\n\t\tedge = {}\n\t\tedge[\"id\"] = @id\n\t\tedge[\"from\"] = @from\n\t\tedge[\"to\"] = @to\n\t\tedge\n\tend\nend",
-          "x": 52053,
-          "y": -7614,
-          "id": "1b88b150-43ac-4663-82fa-be020ed6477a",
-          "font": {
-            "align": "left"
-          }
-        },
-        "e4e4101f-0365-428a-a984-5d7013e5b733": {
-          "label": "class SourceCodeFile\n\tattr_accessor :fileName,\n\t\t:filePath,\n\t\t:codeLinesCount,\n\t\t:codeLines,\n\t\t:fileNameEnding,\n\t\t:codeLinesPartsList,\n\t\t:codePartsDelimiter,\n\t\t:excludeFromParsingFilesRegexList,\n\t\t:fileDataFilterProcsList,\n\t\t:fileIndex",
-          "x": 52071,
-          "y": -7406,
-          "id": "e4e4101f-0365-428a-a984-5d7013e5b733",
-          "font": {
-            "align": "left"
-          }
-        },
-        "3c6c9370-8c35-4e5e-a246-e3c7ccd5f3cb": {
-          "label": "\tdef initialize()\n\t\t@codePartsDelimiter = \"X@X#X$X^X\"\n\t\t@codeLinesPartsList = []\n\tend\n\tdef parseCode(sourcesBuilder)\n\t\tif @excludeFromParsingFilesRegexList.map{|regex| @filePath =~ Regexp.new(regex)}.none?\n\t\t\t@fileDataFilterProcsList.each{|proc|\n\t\t\t\t#p @fileIndex.to_s + \". codeLines.size: \" + @codeLines.size.to_s + \". 1: \" + @filePath\n\t\t\t\tproc.call(self)\n\t\t\t}\n\t\tend\n\t\ttmpCodeLinesPartsList = @codeLines.inject([[]]){|sum, line|\n\t\t\tbegin\n\t\t\t\t#@codePartsDelimiter - delimiter we added with proc filter if we use complex multiline regex patterns\n\t\t\t\tif (@excludeFromParsingFilesRegexList.map{|regex| @fileName =~ Regexp.new(regex)}.none? &&\n\t\t\t\t\t(sourcesBuilder.codeParser.checkSeparationLine(line, @fileName) || \n\t\t\t\t\tline.include?(@codePartsDelimiter)))\n\t\t\t\t\t#p @fileIndex.to_s + \". codeLines.size: \" + @codeLines.size.to_s + \". 2: \" + @filePath\n\t\t\t\t\tsum << [] \n\t\t\t\t\tline = line.gsub(@codePartsDelimiter,\"\")\n\t\t\t\tend\n\t\t\trescue ArgumentError \n\t\t\t\tline = \"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\\n\"\n\t\t\tend\n\t\t\t#p @fileIndex.to_s + \". codeLines.size: \" + @codeLines.size.to_s + \". 3: \" + @filePath\n\t\t\tsum.last << line \n\t\t\tsum\t\n\t\t}\n\t\t#cut code part in chunks if longer 50 lines\n\t\ttmpCodeLinesPartsList.each{|part|\n\t\t\tif part.size > 50\n\t\t\t\ttmpList = part.each_slice(50).to_a\n\t\t\t\ttmpList.each{|l| \n\t\t\t\t\t@codeLinesPartsList << l\n\t\t\t\t}\n\t\t\telse\n\t\t\t\t@codeLinesPartsList << part\n\t\t\tend\n\t\t}\n\t\tself\n\tend\nend",
-          "x": 52955,
-          "y": -7032,
-          "id": "3c6c9370-8c35-4e5e-a246-e3c7ccd5f3cb",
-          "font": {
-            "align": "left"
-          }
-        },
-        "3959ac12-4f41-4785-a1d7-f8e09f59ee38": {
-          "label": "class TreeOnPage\n\tattr_accessor :page,\n\t\t:rootNode,\n\t\t:branchesList,\n\t\t:positionX,\n\t\t:positionY,\n\t\t:edgesList,\n\t\t:indentY1,\n\t\t:indentY2,\n\t\t:indentY3,\n\t\t:jsonIndexShift,\n\t\t:nodeLinesHeight,\n\t\t:width,\n\t\t:height,\n\t\t:shiftBetweenBranchesY,\n\t\t:shiftBetweenTreesY",
-          "x": 52033,
-          "y": -6609,
-          "id": "3959ac12-4f41-4785-a1d7-f8e09f59ee38",
-          "font": {
-            "align": "left"
-          }
-        },
-        "754a3f2a-c73d-4cd1-8136-93905d317e33": {
-          "label": "\tdef initialize()\n\t\t@branchesList = []\n\t\t@edgesList = []\n\t\t@positionX = 0\n\t\t@positionY = 0\n\t\t@width = 0\n\t\t@height = 0\n\t\t@shiftBetweenBranchesY = 0\n\t\t@shiftBetweenTreesY = 1000\n\tend",
-          "x": 52741,
-          "y": -6410,
-          "id": "754a3f2a-c73d-4cd1-8136-93905d317e33",
-          "font": {
-            "align": "left"
-          }
-        },
-        "f5bc1c00-3b8f-4b51-8f1e-1e180c5eb4e0": {
-          "label": "\tdef self.makeTreeFromSourceCodeFile(page, codeFile, jsonIndexShift, shiftBetweenBranchesY, nodeLinesHeightMultiplier)\n\t\ttree = TreeOnPage.new()\n\t\ttree.page = page\n\t\ttree.jsonIndexShift = jsonIndexShift\n\t\ttree.shiftBetweenBranchesY = shiftBetweenBranchesY\n\t\ttree.rootNode = VisJsNode.new(tree.page.makeNewItemIndex(), tree.jsonIndexShift, codeFile.filePath, \"\", 0, 0, 200, \"red\", nodeLinesHeightMultiplier)\n\t\tlastY = 0\n\t\tfileNameNode = VisJsNode.new(tree.page.makeNewItemIndex(), jsonIndexShift, codeFile.fileName, \"\", 12000, 0, 1400, \"red\", nodeLinesHeightMultiplier)\n\t\tfileNameNode.setPosY(lastY)\n\t\tlastY += fileNameNode.getHeight() + tree.shiftBetweenBranchesY\n\t\ttree.branchesList += [fileNameNode]\n\t\ttree.branchesList += codeFile.codeLinesPartsList.map{|linesPart|\n\t\t\tline = linesPart.join(\"\\n\")\n\t\t\tdataNode = VisJsNode.new(tree.page.makeNewItemIndex(), jsonIndexShift, line, \"\", 0, 0, 14, \"\", nodeLinesHeightMultiplier)\n\t\t\tdataNode.x = 12000\n\t\t\tdataNode.setPosY(lastY)\n\t\t\tlastY += dataNode.getHeight() + tree.shiftBetweenBranchesY\n\t\t\tdataNode\n\t\t}\n\t\ttree.branchesList.each{|branch|\n\t\t\ttree.edgesList << VisJsEdge.new(tree.page.makeNewItemIndex(), jsonIndexShift + 10000, tree.rootNode.id.to_s, branch.id.to_s)\n\t\t}\n\t\ttree\n\tend",
-          "x": 53129,
-          "y": -6160,
-          "id": "f5bc1c00-3b8f-4b51-8f1e-1e180c5eb4e0",
-          "font": {
-            "align": "left"
-          }
-        },
-        "a8e299ba-85f3-48a6-a42b-6b631ef93123": {
-          "label": "\tdef getHeight()\n\t\ttop = @positionY\n\t\tbottom = @branchesList.last.y + @branchesList.last.getHeight()/2\n\t\tbottom - top\n\tend\n\tdef buildFileNodesAndEdgesOnPage(x, y)\n\t\t@positionX = x\n\t\t@positionY = y\n\t\t@branchesList.each_with_index{|branch, index|\n\t\t\tbranch.x = @positionX + (branch.x - @rootNode.x)\n\t\t\tbranch.y = @positionY + (branch.y - @rootNode.y)\n\t\t}\n\t\t@rootNode.x = @positionX\n\t\t@rootNode.y = @positionY\n\tend\nend",
-          "x": 52852,
-          "y": -5872,
-          "id": "a8e299ba-85f3-48a6-a42b-6b631ef93123",
-          "font": {
-            "align": "left"
-          }
-        },
-        "7698f31f-76ef-4dde-a856-74fc21e98294": {
-          "label": "class MMVisJsPage\n\tattr_accessor :pageDirPath,\n\t\t:pagePrefixName,\n\t\t:pageTitle,\n\n\t\t:pageIndexFilePostfixName,\n\t\t:pageDataJsFilePostfixName,\n\n\t\t:pageIndexFileErbTemplateFileName,\n\t\t:pageDataJsFileErbTemplateFileName,\n\n\t\t:applicationJsSourceFileRelativePath,\n\n\t\t:pageIndexFileName,\n\t\t:pageIndexFilePath,\n\n\t\t:pageDataJSFileName,\n\t\t:pageDataJsFilePath,\n\t\t:scale,\n\t\t:viewPositionX,\n\t\t:viewPositionY,\n\t\t:pageNodesHash,\n\t\t:pageEdgesHash,\n\t\t:nodesPositionX,\n\t\t:nodesPositionY,\n\n\t\t:pageNodesIndexCounter",
-          "x": 52079,
-          "y": -5557,
-          "id": "7698f31f-76ef-4dde-a856-74fc21e98294",
-          "font": {
-            "align": "left"
-          }
-        },
-        "6f11e159-00d5-41ae-8637-59753ca2796a": {
-          "label": "\tdef initialize(pageDirPath, pagePrefixName)\n\t\t@pageDirPath = pageDirPath\n\t\t@pagePrefixName = pagePrefixName\n\t\t@pageIndexFilePostfixName = \".index.html\"\n\t\t@pageDataJsFilePostfixName = \".data.js\"\n\t\t@pageIndexFileName = @pagePrefixName + @pageIndexFilePostfixName\n\t\t@pageIndexFilePath = @pageDirPath + @pagePrefixName + @pageIndexFilePostfixName\n\t\t@pageDataJsFileName = @pagePrefixName + @pageDataJsFilePostfixName\n\t\t@pageDataJsFilePath = @pageDirPath + @pagePrefixName + @pageDataJsFilePostfixName\n\t\t@pageIndexFileErbTemplateFileName = \"index.html.erb\"\n\t\t@pageDataJsFileErbTemplateFileName = \"index.data.js.erb\"\n\t\t@applicationJsSourceFileRelativePath = \"../../application.js\"\n\t\t@scale = 1\n\t\t@viewPositionX = -40\n\t\t@viewPositionY = 109\n\t\t@nodesPositionX = nil\n\t\t@nodesPositionY = nil\n\t\t@pageNodesHash = Hash.new\n\t\t@pageEdgesHash = Hash.new\n\t\t@pageItemsIndexCounter = 0\n\tend",
-          "x": 52942,
-          "y": -5222,
-          "id": "6f11e159-00d5-41ae-8637-59753ca2796a",
-          "font": {
-            "align": "left"
-          }
-        },
-        "29bdb4ec-f304-4f3a-b175-97d4fc2c604c": {
-          "label": "\tdef makeNewItemIndex()\n\t\tindex = @pageItemsIndexCounter\n\t\t@pageItemsIndexCounter += 1\n\t\tindex\n\tend\n\tdef checkPageExists()\n\t\tFile.exists?(@pageIndexFilePath)\n\tend",
-          "x": 52748,
-          "y": -5011,
-          "id": "29bdb4ec-f304-4f3a-b175-97d4fc2c604c",
-          "font": {
-            "align": "left"
-          }
-        },
-        "9958855b-f1bb-4915-9c48-399e69fe2cdd": {
-          "label": "\tdef buildPageFiles(templatesDirPath) \n\t\tindexPageTemplate = Tilt::ERBTemplate.new(templatesDirPath + @pageIndexFileErbTemplateFileName)\n\t\tindexPageTemplateOutput = indexPageTemplate.render(self, \n\t\t\t   :pageTitle => @pagePrefixName + \" - code scheme\", \n\t\t\t   :pageDataJsFileName => @pageDataJsFileName)\n\t\tf = File.open(@pageIndexFilePath, \"w\")\n\t\tf.write(indexPageTemplateOutput)\n\t\tf.close\n\n\t\tFileUtils.cp(templatesDirPath + @applicationJsSourceFileRelativePath, @pageDirPath + \"application.js\")\n\n\t\tindexDataJsPageTemplate = Tilt::ERBTemplate.new(templatesDirPath + @pageDataJsFileErbTemplateFileName)\n\t\tindexDataJsPageTemplateOutput = indexDataJsPageTemplate.render(self)\n\t\tf = File.open(@pageDataJsFilePath, \"w\")\n\t\tf.write(indexDataJsPageTemplateOutput)\n\t\tf.close\n\n\t\t#setup view\n\t\tindexData = getDataJsObject()\n\t\tindexData[\"setup\"][\"scale\"] = @scale\n\t\tindexData[\"setup\"][\"viewPosition\"][\"x\"] = @viewPositionX\n\t\tindexData[\"setup\"][\"viewPosition\"][\"y\"] = @viewPositionY\n\t\t#p indexData\n\t\tsaveDataJsObject(indexData)\n\tend",
-          "x": 53006,
-          "y": -4770,
-          "id": "9958855b-f1bb-4915-9c48-399e69fe2cdd",
-          "font": {
-            "align": "left"
-          }
-        },
-        "026335ed-2712-43f7-a23a-1c6a6955657f": {
-          "label": "\tdef getDataJsObject()\n\t\tindexDataJson = File.read(@pageDataJsFilePath).sub(/^.*?{/m,\"{\").reverse.sub(/.*?;.*?}/m,\"}\").reverse\n\t\tJSON.parse(indexDataJson)\n\tend\n\tdef saveDataJsObject(dataObject)\n\t\tf = File.open(@pageDataJsFilePath, \"w\")\n\t\tf.write(\"var schemeData = \\n\" + JSON.dump(dataObject) + \"\\n;\")\n\t\tf.close\n\tend",
-          "x": 52969,
-          "y": -4522,
-          "id": "026335ed-2712-43f7-a23a-1c6a6955657f",
-          "font": {
-            "align": "left"
-          }
-        },
-        "d5997d83-e815-4da1-8514-06b89c9f6dbe": {
-          "label": "\tdef addNodesToNodesListOnPage(node, shiftY)\n\t\tschemeDataObject = getDataJsObject()\n\t\tnodesList = schemeDataObject[\"canvas1Data\"][\"nodes\"][\"_data\"]\n\t\tnodePositionY = shiftY*nodesList.size\n\t\tnode.id = nodesList.size + node.idStep\n\t\tnode.setPosY(nodePositionY)\n\t\tnodeObject = node.getVisJsObject()\n\t\tnodesList[nodeObject[\"id\"]] = nodeObject\n\t\tsaveDataJsObject(schemeDataObject)\n\tend",
-          "x": 52849,
-          "y": -4379,
-          "id": "d5997d83-e815-4da1-8514-06b89c9f6dbe",
-          "font": {
-            "align": "left"
-          }
-        },
-        "0183cb7f-9cad-4b04-a76d-843cd0887df6": {
-          "label": "\tdef addNodesToPage(nodesList)\n\t\tschemeDataObject = getDataJsObject()\n\t\tnodesList.each{|node|\n\t\t\tnodeObject = node.getVisJsObject()\n\t\t\tschemeDataObject[\"canvas1Data\"][\"nodes\"][\"_data\"][nodeObject[\"id\"]] = nodeObject\n\t\t}\n\t\tsaveDataJsObject(schemeDataObject)\n\tend",
-          "x": 52912,
-          "y": -4243,
-          "id": "0183cb7f-9cad-4b04-a76d-843cd0887df6",
-          "font": {
-            "align": "left"
-          }
-        },
-        "9b97a4f1-380f-4744-ac0b-f4f3262a3e30": {
-          "label": "\tdef addEdgesToPage(edgesList)\n\t\tschemeDataObject = getDataJsObject()\n\t\tedgesList.each{|edge|\n\t\t\tedgeObject = edge.getVisJsObject()\n\t\t\tschemeDataObject[\"canvas1Data\"][\"edges\"][\"_data\"][edgeObject[\"id\"]] = edgeObject\n\t\t}\n\t\tsaveDataJsObject(schemeDataObject)\n\tend\nend",
-          "x": 52912,
-          "y": -4117,
-          "id": "9b97a4f1-380f-4744-ac0b-f4f3262a3e30",
-          "font": {
-            "align": "left"
-          }
-        },
-        "34f2baed-6b89-4ddf-ba35-c87837b78c59": {
-          "label": "class SourcesBuilder\n\tattr_accessor :sourcesData, \n\t\t:codeStringsCount,\n\t\t:jsonIndexShift,\n\t\t:startX,\n\t\t:startY,\n\t\t:shiftX,\n\t\t:shiftY,\n\t\t:indentationY1,\n\t\t:indentationY2,\n\t\t:indentationY3,\n\t\t:nodeLinesHeight,\n\t\t:nodesColumnHeight,\n\t\t:sourceFilesByPageCount,\n\t\t:projectDirectory,\n\t\t:rootProjectExamplesDirPath,\n\t\t:projectExampleDirPath,\n\t\t:templatesDirPath,\n\t\t:projectVetsionTimeDirPath,\n\t\t:filesToPageLimit,\n\t\t:limitFilesToRead,\n\t\t:codeNodesIndex,\n\t\t:nodeLinesHeightMultiplier,\n\t\t:shiftBetweenTreesY,\n\t\t:codeParser,\n\t\t:cacheDirPath,\n\t\t:cacheFilesIndexFrom,\n\t\t:cacheFilesIndexTo",
-          "x": 52048,
-          "y": -3852,
-          "id": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "font": {
-            "align": "left"
-          }
-        },
-        "dd8b4906-4821-428b-91a3-c55c53a89ba7": {
-          "label": "\tdef initialize()\n\t\t@codeStringsCount = 0\n\t\t@codeNodesIndex = 0\n\t\t@jsonIndexShift = 100000\n\t\t@startX = 0\n\t\t@startY = 0\n\t\t@shiftX = 30000\n\t\t@shiftY = 40\n\t\t@indentationY1 = 1100\n\t\t@indentationY2 = 1100\n\t\t@indentationY3 = 1000\n\t\t@nodeLinesHeight = 28\n\t\t@nodesColumnHeight = 100000\n\t\t@sourceFilesByPageCount = 100\n\t\t@projectDirectory = nil\n\t\t@rootProjectExamplesDirPath = nil \n\t\t@projectExampleDirPath = nil \n\t\t@templatesDirPath = \"templates/\"\n\t\t@filesToPageLimit = 100\n\t\t@limitFilesToRead = 1000000\n\t\t@nodeLinesHeightMultiplier = 1.2\n\t\t@shiftBetweenTreesY = 1000\n\t\t@codeParser = CodeParser.new\n\t\t@cacheDirPath = nil \n\tend",
-          "x": 52781,
-          "y": -3460,
-          "id": "dd8b4906-4821-428b-91a3-c55c53a89ba7",
-          "font": {
-            "align": "left"
-          }
-        },
-        "9945ffe3-90df-4dca-ae02-5941293077c8": {
-          "label": "\t#get js files list from vis-network directory\n\tdef findAndSelectCodeFilesForVisNetwork(visNetworkDirPath, sourceFilesRegexList, excludeFilesRegexList)\n\t\tfiles = Dir.glob(visNetworkDirPath+'**/*').select{|e| File.file? e}\n\t\tselectedFiles = []\n\t\tsourceFilesRegexList.each{|regex|\n\t\t\tselectedFiles += files.select{|f| f =~ Regexp.new(regex) }\n\t\t}\n\t\t#exclude files\n\t\texcludeFilesRegexList.each{|filesRegex|\n\t\t\tselectedFiles = selectedFiles.select{|f| Regexp.new(filesRegex) !~ f }\n\t\t}\n\t\tselectedFiles.sort!\n\t\tselectedCodeFilesHash = selectedFiles.map.with_index{|f, index|\n\t\t\tfile = SourceCodeFile.new\n\t\t\tfile.filePath = f\n\t\t\tfile.fileName = f.split(\"/\").last\n\t\t\tfile.fileIndex = index\n\t\t\t[f, file]\n\t\t}.to_h\n\t\tp \"selectedCodeFiles.size: \" + selectedCodeFilesHash.size.to_s\n\t\tselectedCodeFilesHash = selectedCodeFilesHash.take(@limitFilesToRead)\n\t\tselectedCodeFilesHash\n\tend",
-          "x": 53009,
-          "y": -3116,
-          "id": "9945ffe3-90df-4dca-ae02-5941293077c8",
-          "font": {
-            "align": "left"
-          }
-        },
-        "8fc10cc2-0c04-44f9-b5e1-211cea690bae": {
-          "label": "\t#wip utility code for working with data cached on disk\n\tdef parseCodeFilesContentAndSaveEachFileDataToTmpFile(codeFilesHash, fileDataFilterProcsList, excludeFromParsingFilesRegexList)\n\t\tcodeFilesHash.select{|key, codeFile| codeFile.fileIndex >= @cacheFilesIndexFrom && codeFile.fileIndex <= @cacheFilesIndexTo }.map.with_index{|(key, codeFile), index|\n\t\t\tp \"index: \" + index.to_s + \". allFilesCount: \" + codeFilesHash.size.to_s + \". codeFile.fileIndex: \" + codeFile.fileIndex.to_s + \". filePath: \" + key\n\t\t\tcodeFile.fileDataFilterProcsList = fileDataFilterProcsList\n\t\t\tcodeFile.excludeFromParsingFilesRegexList = excludeFromParsingFilesRegexList\n\t\t\tcodeFile.parseCode(self)\n\t\t\tcodeFile.fileDataFilterProcsList = []\n\t\t\tbegin\n\t\t\t\tf = File.open(@cacheDirPath + codeFile.fileIndex.to_s + \".yaml\", \"w\")\n\t\t\t\tyamlLine = YAML.dump([key, codeFile])\n\t\t\t\tf.write(yamlLine)\n\t\t\t\tf.close\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLinesPartsList = codeFile.codeLinesPartsList.map{|part|\n\t\t\t\t\tpart.map{|line|\n\t\t\t\t\t\tline.force_encoding('iso-8859-1').encode(\"utf-8\").split(\"\\n\")\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tf = File.open(@cacheDirPath + codeFile.fileIndex.to_s + \".yaml\", \"w\")\n\t\t\t\tyamlLine = YAML.dump([key, codeFile])\n\t\t\t\tf.write(yamlLine)\n\t\t\t\tf.close\n\t\t\tend\n\t\t\tp \"codeFile.codeLinesPartsList.size: \" + codeFile.codeLinesPartsList.size.to_s\n\t\t}\n\tend",
-          "x": 53200,
-          "y": -2758,
-          "id": "8fc10cc2-0c04-44f9-b5e1-211cea690bae",
-          "font": {
-            "align": "left"
-          }
-        },
-        "8eb09a2d-2546-4c4e-baeb-b04a7b95c968": {
-          "label": "\tdef parseCodeFilesContent(codeFilesHash, fileDataFilterProcsList, excludeFromParsingFilesRegexList)\n\t\t#codeFilesHash.select{|key, value| value.fileIndex > 5000}.map.with_index{|(key, codeFile), index|\n\t\tcodeFilesHash.map.with_index{|(key, codeFile), index|\n\t\t\tp \"index: \" + index.to_s + \". allFilesCount: \" + codeFilesHash.size.to_s + \". filePath: \" + key\n\t\t\tcodeFile.fileDataFilterProcsList = fileDataFilterProcsList\n\t\t\tcodeFile.excludeFromParsingFilesRegexList = excludeFromParsingFilesRegexList\n\t\t\tcodeFile.parseCode(self)\n\t\t\tp \"codeFile.codeLinesPartsList.size: \" + codeFile.codeLinesPartsList.size.to_s\n\t\t\t[key, codeFile]\n\t\t}.to_h\n\tend",
-          "x": 52993,
-          "y": -2482,
-          "id": "8eb09a2d-2546-4c4e-baeb-b04a7b95c968",
-          "font": {
-            "align": "left"
-          }
-        },
-        "2a378953-9b29-4e41-810f-e26821e4fc88": {
-          "label": "\tdef loadCodeFilesAndParseContent(codeFilesHash, fileDataFilterProcsList, excludeFromParsingFilesRegexList)\n\t\tcodeFilesHash = codeFilesHash.map.with_index{ |(key, codeFile), index|\n\t\t\tp \"readFile: \" + index.to_s if index % 100 == 0\n\t\t\tcodeFile.codeLines = File.readlines(key)\n\t\t\t#cut lines if longer than 200 chars\n\t\t\tcodeFile.codeLines = codeFile.codeLines.map{|line|\n\t\t\t\tbegin\n\t\t\t\t\tline = line.\n\t\t\t\t\t\tscan(/.{1,200}/).\n\t\t\t\t\t\tjoin(\"\\n\") if line.size > 200\n\t\t\t\trescue ArgumentError \n\t\t\t\t\tp \"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\\n\"\n\t\t\t\tensure\n\t\t\t\t\tline = line.force_encoding('iso-8859-1').encode(\"utf-8\")\n\t\t\t\t\tline = line.\n\t\t\t\t\t\tscan(/.{1,200}/).\n\t\t\t\t\t\tjoin(\"\\n\") if line.size > 200\n\t\t\t\tend\n\t\t\t\tline\n\t\t\t}\n\t\t\t[key, codeFile]\n\t\t}.to_h\n\t\tp \"code files read done\"\n\t\tif !@cacheDirPath.nil?\n\t\t\tparseCodeFilesContentAndSaveEachFileDataToTmpFile(codeFilesHash, fileDataFilterProcsList, excludeFromParsingFilesRegexList)\n\t\telse\n\t\t\tparseCodeFilesContent(codeFilesHash, fileDataFilterProcsList, excludeFromParsingFilesRegexList)\n\t\tend\n\tend",
-          "x": 53091,
-          "y": -2193,
-          "id": "2a378953-9b29-4e41-810f-e26821e4fc88",
-          "font": {
-            "align": "left"
-          }
-        },
-        "ba6e8541-64a9-4494-bfac-b16d57b7257b": {
-          "label": "\t#wip utility code for working with data cached on disk\n\tdef buildCodeFilesHashFromFiles()\n\t\tdir = @cacheDirPath \n\t\tfilesList = Dir.glob(dir + \"**/*\").select{|e| File.file? e}\n\t\tfilesList.map.with_index{|file,index|\n\t\t\t#p \"cacheFile: \" + index.to_s if index % 1000 == 0\n\t\t\tp \"cacheFile: \" + index.to_s \n\t\t\tfilePath = dir + index.to_s + \".yaml\"\n\t\t\tfile = File.read(filePath)\n\t\t\tYAML.load(file)\n\t\t}.to_h\n\tend",
-          "x": 52830,
-          "y": -1902,
-          "id": "ba6e8541-64a9-4494-bfac-b16d57b7257b",
-          "font": {
-            "align": "left"
-          }
-        },
-        "75a96df3-ad8f-412e-9041-8af35465a43b": {
-          "label": "\tdef buildPagesWithCodeFilesHash(codeFilesHash, sourcesProjectName)\n\t\ta = codeFilesHash.\n\t\t\tto_a.\n\t\t\teach_slice(@filesToPageLimit).\n\t\t\tto_a\n\t\tpagesWithCodeFilesHash = a.map.with_index{|item, index|\n\t\t\t\tp \"buildPagesWithCodeFilesHash(codeFilesHash, sourcesProjectName) -> \" + index.to_s\n\t\t\t\tcodeFilesHash = item.to_h\n\t\t\t\tprefix = a.size > 1 ?  sourcesProjectName + \"_\" + index.to_s : sourcesProjectName\n\t\t\t\tpage = MMVisJsPage.new(@projectExampleDirPath, prefix)\n\t\t\t\t[page, codeFilesHash]\n\t\t\t}.to_h\n\t\tpagesWithCodeFilesHash\n\tend",
-          "x": 52950,
-          "y": -1710,
-          "id": "75a96df3-ad8f-412e-9041-8af35465a43b",
-          "font": {
-            "align": "left"
-          }
-        },
-        "78f4f03a-661f-4031-8064-47e6955eae47": {
-          "label": "\tdef buildPagesCodeNodes(pagesWithCodeFilesHash)\n\t\tpagesWithCodeFilesHash.map.with_index{|(key_Page, value_codeFilesHash), index|\n\t\t\tp \"buildPagesCodeNodes(pagesWithCodeFilesHash)-> \" + index.to_s\n\t\t\tnodesHash = buildNodesAndCalculateTheirPropertiesForCodeFiles(key_Page, value_codeFilesHash)\n\t\t\tkey_Page.pageNodesHash = nodesHash.values.flatten.map{|node| [node.id, node]}.to_h\n\t\t\tkey_Page\n\t\t}\n\tend",
-          "x": 52985,
-          "y": -1546,
-          "id": "78f4f03a-661f-4031-8064-47e6955eae47",
-          "font": {
-            "align": "left"
-          }
-        },
-        "39f9eda3-f00e-4c55-a35c-4f4e1a00f76e": {
-          "label": "\tdef buildNodesAndCalculateTheirPropertiesForCodeFiles(page, codeFilesHash)\n\t\tnodesHash = Hash.new\n\t\tpage.nodesPositionX = @startX\n\t\tpage.nodesPositionY = @startY\n\t\tnodesHash = layoutFilesDataByColumns(page, codeFilesHash.values, @startX, @startY, 30000, 100000)\n\t\t#codeFilesHash.each_with_index{|(key_f, value_CodeFile),index1|\n\t\t#\t#buildNodesHashForFile(key_f, value_CodeFile, nodesHash, index1, page)\n\t\t#}\n\t\tnodesHash\n\tend",
-          "x": 52996,
-          "y": -1404,
-          "id": "39f9eda3-f00e-4c55-a35c-4f4e1a00f76e",
-          "font": {
-            "align": "left"
-          }
-        },
-        "1cf5f32e-4a66-4f62-8a3f-a598d5348581": {
-          "label": "\tdef layoutFilesDataByColumns(page, codeFilesList, layoutX, layoutY, columnWidth, columnMaxHeight)\n\t\tcolumnsCounter = 0\n\t\tcurrentX = layoutX\n\t\tcurrentY = layoutY\n\t\tnodesHash = Hash.new\n\t\tcodeFilesList.each_with_index{|codeFile, index|\n\t\t\ttree = TreeOnPage.makeTreeFromSourceCodeFile(page, \n\t\t\t\t\t\t\t\t     codeFile, \n\t\t\t\t\t\t\t\t     @jsonIndexShift, \n\t\t\t\t\t\t\t\t     @shiftY,\n\t\t\t\t\t\t\t\t     @nodeLinesHeightMultiplier)\n\t\t\ttree.shiftBetweenTreesY = @shiftBetweenTreesY\n\t\t\ttree.buildFileNodesAndEdgesOnPage(currentX, currentY)\n\n\t\t\tcurrentY += tree.getHeight() + tree.shiftBetweenTreesY\n\t\t\tif currentY > columnMaxHeight\n\t\t\t\tcolumnsCounter += 1\n\t\t\t\tcurrentX = layoutX + columnsCounter*columnWidth\n\t\t\t\tcurrentY = layoutY\n\t\t\tend\n\t\t\tnodesHash[codeFile.filePath] = []\n\t\t\tnodesHash[codeFile.filePath] += [tree.rootNode]\n\t\t\tnodesHash[codeFile.filePath] += tree.branchesList\n\t\t\ttree.edgesList.each{|edge| page.pageEdgesHash[edge.id] = edge }\n\t\t}\n\t\tnodesHash\n\tend",
-          "x": 52982,
-          "y": -1141,
-          "id": "1cf5f32e-4a66-4f62-8a3f-a598d5348581",
-          "font": {
-            "align": "left"
-          }
-        },
-        "3c60b780-6006-4ffe-b9e0-ed8f96d913db": {
-          "label": "\tdef buildNodesHashForFile(key_f, codeFile, nodesHash, index1, page)\n\t\tnodesHash[key_f] = []\n\t\t#codeFile.buildFileNodesAndEdgesOnPage(@indentationY1, @indentationY2, @indentationY3, @jsonIndexShift)\n\t\tnodesHash[key_f] += [tree.rootNode]\n\t\tnodesHash[key_f] += tree.branchesList\n\t\ttree.edgesList.each{|edge| page.pageEdgesHash[edge.id] = edge }\n\t\t#if page.nodesPositionY >= @nodesColumnHeight\n\t\t#\tpage.nodesPositionX += @shiftX\n\t\t#\tpage.nodesPositionY = @startY\n\t\t#end\n\tend",
-          "x": 53009,
-          "y": -872,
-          "id": "3c60b780-6006-4ffe-b9e0-ed8f96d913db",
-          "font": {
-            "align": "left"
-          }
-        },
-        "3e8a874e-492e-48dc-944a-4fe0622f2f9d": {
-          "label": "\tdef composeJson(filesJsonNodesHash) \n\t\tjsonNodesLines = filesJsonNodesHash.reduce([]){|sum, (key, value)|\n\t\t\tvalue.each{|v| sum << v.getJson()}\n\t\t\tsum\n\t\t}\n\t\tjsonLines = \"var code_data1 = {\" +  jsonNodesLines.join(\",\\n\") + \"};\"\n\t\tjsonLines\n\tend",
-          "x": 52870,
-          "y": -727,
-          "id": "3e8a874e-492e-48dc-944a-4fe0622f2f9d",
-          "font": {
-            "align": "left"
-          }
-        },
-        "5d516563-6bef-415e-b7dc-f8af9b5deac8": {
-          "label": "\tdef stats(codeFilesHash, parsedCodeFilesHash, codeNodesPagesList)\n\t\tcodeFilesHash.each_with_index{|(key,value), index|\n\t\t\tp \"index: \" + index.to_s + \n\t\t\t\t\". filePath: \" + key.to_s + \n\t\t\t\t\". value.codeLinesPartsList.size: \" + value.codeLinesPartsList.size.to_s + \n\t\t\t\t\". value.codeLines.size: \" + value.codeLines.size.to_s\n\t\t}\n\t\tp \"All files: \" + codeFilesHash.size.to_s\n\t\tp \"All nodes: \" + codeNodesPagesList.reduce(0){|sum, page|\n\t\t\tsum += page.pageNodesHash.size\n\t\t\tsum\n\t\t}.to_s\n\t\tp \"All code lines: \" + parsedCodeFilesHash.reduce(0){|sum, (key, value_codeFile)|\n\t\t\tsum += value_codeFile.codeLines.size\n\t\t\tsum\n\t\t}.to_s\n\tend",
-          "x": 52915,
-          "y": -538,
-          "id": "5d516563-6bef-415e-b7dc-f8af9b5deac8",
-          "font": {
-            "align": "left"
-          }
-        },
-        "93f51b0a-6fb0-48ce-85ec-3ccb3c9f9759": {
-          "label": "\tdef buildProjectDirectory(dataDirPath, sourcesProjectName)\n\t\t@rootProjectExamplesDirPath = dataDirPath + sourcesProjectName + \"/\"\n\t\tDir.mkdir(@rootProjectExamplesDirPath) if !Dir.exists?(@rootProjectExamplesDirPath)\n\t\t@projectVersionTimeDirPath = sourcesProjectName + \"_\" + Time.new.strftime(\"%Y-%m-%d_%H-%M-%S\") + \"/\"\n\t\t@projectExampleDirPath = dataDirPath + sourcesProjectName + \"/\" + @projectVersionTimeDirPath\n\t\tDir.mkdir(@projectExampleDirPath)\n\tend",
-          "x": 53008,
-          "y": -357,
-          "id": "93f51b0a-6fb0-48ce-85ec-3ccb3c9f9759",
-          "font": {
-            "align": "left"
-          }
-        },
-        "fb6df25b-1e4a-4521-95f7-ec6615ced3dd": {
-          "label": "\tdef buildCodeSchemeFiles(sourcesProjectName, codeNodesPagesList)\n\t\tif codeNodesPagesList.size > 1 \n\n\t\t\tcurrentVersionIndexPage = MMVisJsPage.new(@projectExampleDirPath, sourcesProjectName)\n\t\t\tcurrentVersionIndexPage.buildPageFiles(@templatesDirPath)\n\n\t\t\tcodeNodesPagesList.each_with_index{|codeIndexPage, indexByPage|\n\t\t\t\tp \"buildCodeSchemeFiles-> \" + indexByPage.to_s\n\t\t\t\tcodeIndexPage.scale = 0.15\n\t\t\t\tcodeIndexPage.viewPositionX = 500\n\t\t\t\tcodeIndexPage.viewPositionY = 700\n\t\t\t\tcodeIndexPage.buildPageFiles(@templatesDirPath)\n\t\t\t\tcodeIndexPage.addNodesToPage(codeIndexPage.pageNodesHash.values)\n\t\t\t\tcodeIndexPage.addEdgesToPage(codeIndexPage.pageEdgesHash.values)\n\t\t\t\tcurrentVersionProjectIndexFilePath = sourcesProjectName + \"_\" + indexByPage.to_s + \".index.html\"\n\t\t\t\tcurrentVersionProjectIndexVerboseRelativeFilePath = @projectExampleDirPath + sourcesProjectName + \"_\" + indexByPage.to_s + \".index.html\"\n\t\t\t\tnode = VisJsNode.new(0, \n\t\t\t\t\t\t     Time.now.to_i, \n\t\t\t\t\t\t     currentVersionProjectIndexVerboseRelativeFilePath, \n\t\t\t\t\t\t     currentVersionProjectIndexFilePath, \n\t\t\t\t\t\t     0, 0, 15, \"\", nodeLinesHeightMultiplier)\n\t\t\t\tcurrentVersionIndexPage.addNodesToNodesListOnPage(node, 30)\n\t\t\t}\n\t\t\t\t\n\t\telse\n\t\t\tcodeIndexPage = codeNodesPagesList[0]\n\t\t\tcodeIndexPage.scale = 0.15\n\t\t\tcodeIndexPage.viewPositionX = 500 \n\t\t\tcodeIndexPage.viewPositionY = 700\n\t\t\tcodeIndexPage.buildPageFiles(@templatesDirPath)\n\t\t\tcodeIndexPage.addNodesToPage(codeIndexPage.pageNodesHash.values)\n\t\t\tcodeIndexPage.addEdgesToPage(codeIndexPage.pageEdgesHash.values)\n\t\tend\n\tend",
-          "x": 53118,
-          "y": -56,
-          "id": "fb6df25b-1e4a-4521-95f7-ec6615ced3dd",
-          "font": {
-            "align": "left"
-          }
-        },
-        "96d626d1-c4db-4165-8ca5-4a5397009933": {
-          "label": "\tdef buildIndexSchemeFiles(dataDirPath, sourcesProjectName)\n\t\tpage = MMVisJsPage.new(@rootProjectExamplesDirPath, sourcesProjectName)\n\t\tif !page.checkPageExists()\n\t\t\t#Build project versions list scheme\n\t\t\tpage.buildPageFiles(@templatesDirPath)\n\t\tend\n\t\tcurrentVersionProjectIndexFilePath = @projectVersionTimeDirPath + sourcesProjectName + \".index.html\"\n\t\tcurrentVersionProjectIndexVerboseRelativeFilePath = @projectExampleDirPath + sourcesProjectName + \".index.html\"\n\t\t#add new node with project version\n\t\tnode = VisJsNode.new(0, \n\t\t\t\t     Time.now.to_i, \n\t\t\t\t     currentVersionProjectIndexVerboseRelativeFilePath, \n\t\t\t\t     currentVersionProjectIndexFilePath, \n\t\t\t\t     0, 0, 15, \"\", nodeLinesHeightMultiplier) \n\t\tpage.addNodesToNodesListOnPage(node, 30)\n\tend\nend",
-          "x": 53035,
-          "y": 306,
-          "id": "96d626d1-c4db-4165-8ca5-4a5397009933",
-          "font": {
-            "align": "left"
-          }
-        },
-        "0a299ada-6924-4359-9395-ffd36f639a55": {
-          "label": "sourcesBuilder = SourcesBuilder.new()\nsourcesData = nil\n\nif opts[:project] == \"linux-core\"\n\t#git clone https://github.com/torvalds/linux.git\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"linux-core\"\n\tsourcesData.sourcesDirPath = \"../../../soft/linux/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\t#regex = \"(([a-zA-z]+)(\\\\s)([a-zA-Z\\\\*]+[a-zA-z0-9\\\\*]+)(\\\\({1})(.*?[0-9a-z\\\\*_,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\"\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tonlyPrepareCacheFiles = false\n\tsourcesBuilder.cacheFilesIndexFrom = 0\n\tsourcesBuilder.cacheFilesIndexTo = 10000000\n\tsourcesBuilder.cacheDirPath = \"/home/mike/progr/repo/mm-vis-js/utils/data_linux/\"\n\tDir.mkdir(sourcesBuilder.cacheDirPath) if !Dir.exists?(sourcesBuilder.cacheDirPath)\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500\n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 52322,
-          "y": 730,
-          "id": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "font": {
-            "align": "left"
-          }
-        },
-        "97930403-3d18-4701-b8a6-24a3ad673dc3": {
-          "label": "elsif opts[:project] == \"gcc\"\n\t#git clone https://github.com/gcc-mirror/gcc.git\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"gcc\"\n\tsourcesData.sourcesDirPath = \"../../../soft/gcc/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t\".*bid_binarydecimal.c$\"\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\".*gcc/gcc/testsuite/gcc.target/i386/avx-1.c$\",\n\t\t\".*gcc/gcc/testsuite/gcc.target/i386/sse-13.c$\",\n\t\t\".*gcc/gcc/testsuite/gcc.target/i386/sse-22.c$\",\n\t\t\"gcc/gcc/testsuite/gcc.target/i386/sse-14.c\",\n\t\t\"gcc/gcc/testsuite/gcc.target/i386/sse-23.c\",\n\t\t\"gcc/libquadmath/printf/fpioconst.c\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\t#regex = \"(([a-zA-z]+)(\\\\s)([a-zA-Z\\\\*]+[a-zA-z0-9\\\\*]+)(\\\\({1})(.*?[0-9a-z\\\\*_,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\"\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tonlyPrepareCacheFiles = false\n\tsourcesBuilder.cacheFilesIndexFrom = 0\n\tsourcesBuilder.cacheFilesIndexTo = 10000000\n\tsourcesBuilder.cacheDirPath = \"/home/mike/progr/repo/mm-vis-js/utils/data_gcc/\"\n\tDir.mkdir(sourcesBuilder.cacheDirPath) if !Dir.exists?(sourcesBuilder.cacheDirPath)\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500\n\tsourcesBuilder.limitFilesToRead = 100000000",
-          "x": 53202,
-          "y": 1346,
-          "id": "97930403-3d18-4701-b8a6-24a3ad673dc3",
-          "font": {
-            "align": "left"
-          }
-        },
-        "dbcefaf8-2b0a-4c04-81d0-93212d278a86": {
-          "label": "elsif opts[:project] == \"mm-vis-js\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"mm-vis-js\"\n\tsourcesData.sourcesDirPath = \"../../mm-vis-js/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.rb$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t]\n\tsourcesBuilder.shiftY = 50 \n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 100 \n\tsourcesBuilder.limitFilesToRead = 100000",
-          "x": 53032,
-          "y": 1812,
-          "id": "dbcefaf8-2b0a-4c04-81d0-93212d278a86",
-          "font": {
-            "align": "left"
-          }
-        },
-        "b9e47ea8-0bd1-49e7-9fde-0b21cfc7b7cf": {
-          "label": "elsif opts[:project] == \"emacs\"\n\t#git clone https://github.com/emacs-mirror/emacs.git\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"emacs\"\n\tsourcesData.sourcesDirPath = \"../../../soft/emacs/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.el$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\t#regex = \"(([a-zA-z]+)(\\\\s)([a-zA-Z\\\\*]+[a-zA-z0-9\\\\*]+)(\\\\({1})(.*?[0-9a-z\\\\*_,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\"\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500\n\tsourcesBuilder.limitFilesToRead = 1000000",
-          "x": 53204,
-          "y": 2204,
-          "id": "b9e47ea8-0bd1-49e7-9fde-0b21cfc7b7cf",
-          "font": {
-            "align": "left"
-          }
-        },
-        "a140cb5a-3df7-40c4-b437-a59a06921d9b": {
-          "label": "elsif opts[:project] == \"vim\"\n\t#git clone https://github.com/vim/vim\n\t#в общем, сгенерился\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"vim\"\n\tsourcesData.sourcesDirPath = \"../../../soft/vim/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\t#regex = \"(([a-zA-z]+)(\\\\s)([a-zA-Z\\\\*]+[a-zA-z0-9\\\\*]+)(\\\\({1})(.*?[0-9a-z\\\\*_,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\"\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 1000000",
-          "x": 53205,
-          "y": 2699,
-          "id": "a140cb5a-3df7-40c4-b437-a59a06921d9b",
-          "font": {
-            "align": "left"
-          }
-        },
-        "c8ee619d-fa80-4d09-bddb-8fc8515c9cd7": {
-          "label": "elsif opts[:project] == \"vis-network\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"vis-network\"\n\tsourcesData.sourcesDirPath = \"../../../soft/vis-network/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.js$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t\".*largeHierarchicalDataset.js$\",\n\t\t\".*vis-network.min.js$\",\n\t\t\".*vis-network.esm.min.js$\",\n\t\t\".*vis-network.esm.js$\",\n\t\t\".*WorldCup2014.js$\"\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 100\n\tsourcesBuilder.limitFilesToRead = 1000000",
-          "x": 53037,
-          "y": 3101,
-          "id": "c8ee619d-fa80-4d09-bddb-8fc8515c9cd7",
-          "font": {
-            "align": "left"
-          }
-        },
-        "9e36ff1d-040c-4ac9-aa3f-bc92ad41b328": {
-          "label": "elsif opts[:project] == \"chromium\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"chromium\"\n\tsourcesData.sourcesDirPath = \"../../../soft/chromium/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.java$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.cc$\",\n\t\t\".*\\\\.c$\",\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*chromium/third_party/brotli/enc/dictionary_hash.c$\",\n\t\t\"chromium/third_party/google_trust_services/src/roots.cc\",\n\t\t\"chromium/third_party/opus/src/silk/tables_NLSF_CB_WB.c\",\n\t\t\"chromium/third_party/protobuf/mirclient.cc\",\n\t\t\"chromium/third_party/webdriver/atoms.cc\",\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tonlyPrepareCacheFiles = false\n\tsourcesBuilder.cacheFilesIndexFrom = 0\n\tsourcesBuilder.cacheFilesIndexTo = 10000000\n\tsourcesBuilder.cacheDirPath = \"/home/mike/progr/repo/mm-vis-js/utils/data_chromium/\"\n\tDir.mkdir(sourcesBuilder.cacheDirPath) if !Dir.exists?(sourcesBuilder.cacheDirPath)\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500\n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53207,
-          "y": 3587,
-          "id": "9e36ff1d-040c-4ac9-aa3f-bc92ad41b328",
-          "font": {
-            "align": "left"
-          }
-        },
-        "32ff1616-369f-44ff-8c94-ee4118eb1f43": {
-          "label": "elsif opts[:project] == \"julia\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"julia\"\n\tsourcesData.sourcesDirPath = \"../../../soft/julia/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\",\n\t\t\".*\\\\.jl$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = []\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\t#regexC = \"(([a-zA-z]+)(\\\\s)([a-zA-Z\\\\*]+[a-zA-z0-9\\\\*]+)(\\\\({1})(.*?[0-9a-z\\\\*_,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\"\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500\n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53207,
-          "y": 4157,
-          "id": "32ff1616-369f-44ff-8c94-ee4118eb1f43",
-          "font": {
-            "align": "left"
-          }
-        },
-        "e46fc7a9-6790-4394-8007-6ab0dbee2ad5": {
-          "label": "elsif opts[:project] == \"sbcl\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"sbcl\"\n\tsourcesData.sourcesDirPath = \"../../../soft/sbcl/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\",\n\t\t\".*\\\\.lisp$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = []\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\t#regexC = \"(([a-zA-z]+)(\\\\s)([a-zA-Z\\\\*]+[a-zA-z0-9\\\\*]+)(\\\\({1})(.*?[0-9a-z\\\\*_,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\"\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500\n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53207,
-          "y": 4629,
-          "id": "e46fc7a9-6790-4394-8007-6ab0dbee2ad5",
-          "font": {
-            "align": "left"
-          }
-        },
-        "ddf47fea-e76e-45f0-8d1f-5b67e3c218d4": {
-          "label": "elsif opts[:project] == \"ghc\"\n\t#git clone https://github.com/ghc/ghc\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"ghc\"\n\tsourcesData.sourcesDirPath = \"../../../soft/ghc/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.hs$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = []\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\t#regexC = \"(([a-zA-z]+)(\\\\s)([a-zA-Z\\\\*]+[a-zA-z0-9\\\\*]+)(\\\\({1})(.*?[0-9a-z\\\\*_,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\"\n\t\t\t\t#fileText = fileText.gsub(Regexp.new(regexC, Regexp::MULTILINE), codeFile.codePartsDelimiter + '\\1')\n\t\t\t\t#regexHaskell = \"(.*?::.*?->.*)\"\n\t\t\t\t#fileText = fileText.gsub(Regexp.new(regexHaskell), codeFile.codePartsDelimiter + '\\1')\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500\n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53207,
-          "y": 5120,
-          "id": "ddf47fea-e76e-45f0-8d1f-5b67e3c218d4",
-          "font": {
-            "align": "left"
-          }
-        },
-        "269867a0-9faf-43d3-86eb-a5e20d41c2e5": {
-          "label": "elsif opts[:project] == \"bash\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"bash\"\n\tsourcesData.sourcesDirPath = \"../../../soft/bash/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = []\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500\n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53205,
-          "y": 5604,
-          "id": "269867a0-9faf-43d3-86eb-a5e20d41c2e5",
-          "font": {
-            "align": "left"
-          }
-        },
-        "641798ed-5a3a-4982-b220-6e411cf7b434": {
-          "label": "elsif opts[:project] == \"git\"\n\t#git clone https://github.com/git/git\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"git\"\n\tsourcesData.sourcesDirPath = \"../../../soft/git/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = []\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\t#regex = \"(([a-zA-z]+)(\\\\s)([a-zA-Z\\\\*]+[a-zA-z0-9\\\\*]+)(\\\\({1})(.*?[0-9a-z\\\\*_,\\\\s\\\\.]+)(\\\\){1})(\\\\n|\\\\r|\\\\s)*(\\\\{{1}))\"\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53205,
-          "y": 6057,
-          "id": "641798ed-5a3a-4982-b220-6e411cf7b434",
-          "font": {
-            "align": "left"
-          }
-        },
-        "3c3935b1-81f6-4c9d-95ee-e61bc58ceeba": {
-          "label": "elsif opts[:project] == \"ruby\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"ruby\"\n\tsourcesData.sourcesDirPath = \"../../../soft/ruby_git/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.rb$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = []\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53205,
-          "y": 6510,
-          "id": "3c3935b1-81f6-4c9d-95ee-e61bc58ceeba",
-          "font": {
-            "align": "left"
-          }
-        },
-        "286122c3-b6c1-4674-bbb6-c585e0fdb597": {
-          "label": "elsif opts[:project] == \"apache_httpd\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"apache_httpd\"\n\tsourcesData.sourcesDirPath = \"../../../soft/httpd/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = []\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53205,
-          "y": 6952,
-          "id": "286122c3-b6c1-4674-bbb6-c585e0fdb597",
-          "font": {
-            "align": "left"
-          }
-        },
-        "fa3c4b5f-01ac-4a20-ad23-55e21d971835": {
-          "label": "elsif opts[:project] == \"mysql-server\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"mysql-server\"\n\tsourcesData.sourcesDirPath = \"../../../soft/mysql-server/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.cc$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t\"mysql-server/strings/ctype-gb18030.cc\",\n\t\t\"mysql-server/strings/ctype-extra.cc\"\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\"mysql-server/sql/dd/collection.cc\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53207,
-          "y": 7424,
-          "id": "fa3c4b5f-01ac-4a20-ad23-55e21d971835",
-          "font": {
-            "align": "left"
-          }
-        },
-        "fa5deceb-299f-4fc0-80cc-72dcb33e5ead": {
-          "label": "elsif opts[:project] == \"texlive-source\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"texlive-source\"\n\tsourcesData.sourcesDirPath = \"../../../soft/texlive-source/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t\"texlive-source/texk/dvisvgm/dvisvgm-src/libs/brotli/common/dictionary.c\",\n\t\t\"texlive-source/texk/dvisvgm/dvisvgm-src/libs/brotli/enc/dictionary_hash.c\",\n\t\t\"texlive-source/texk/web2c/luatexdir/lua/luatex-core.c\",\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\".*lua.*\\\\.c$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53211,
-          "y": 7933,
-          "id": "fa5deceb-299f-4fc0-80cc-72dcb33e5ead",
-          "font": {
-            "align": "left"
-          }
-        },
-        "e84007c4-35e2-4fb3-a0bb-1b647f1fd282": {
-          "label": "elsif opts[:project] == \"cpython\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"cpython\"\n\tsourcesData.sourcesDirPath = \"../../../soft/cpython/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = []\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53212,
-          "y": 8419,
-          "id": "e84007c4-35e2-4fb3-a0bb-1b647f1fd282",
-          "font": {
-            "align": "left"
-          }
-        },
-        "35f4cb47-8f90-4a25-8ee9-8caba8a4267a": {
-          "label": "elsif opts[:project] == \"jdk\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"jdk\"\n\tsourcesData.sourcesDirPath = \"../../../soft/jdk/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.java$\",\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53211,
-          "y": 8891,
-          "id": "35f4cb47-8f90-4a25-8ee9-8caba8a4267a",
-          "font": {
-            "align": "left"
-          }
-        },
-        "8dfcad3b-702b-41ff-a5df-17e10549bd69": {
-          "label": "elsif opts[:project] == \"hbase\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"hbase\"\n\tsourcesData.sourcesDirPath = \"../../../soft/hbase/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.java$\",\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53214,
-          "y": 9382,
-          "id": "8dfcad3b-702b-41ff-a5df-17e10549bd69",
-          "font": {
-            "align": "left"
-          }
-        },
-        "60c347f2-3bb9-4b1e-949a-dc403f337c72": {
-          "label": "elsif opts[:project] == \"spark\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"spark\"\n\tsourcesData.sourcesDirPath = \"../../../soft/spark/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.java$\",\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53219,
-          "y": 9882,
-          "id": "60c347f2-3bb9-4b1e-949a-dc403f337c72",
-          "font": {
-            "align": "left"
-          }
-        },
-        "5fd4f3a3-5d47-4d86-9dd9-24668cfb801a": {
-          "label": "elsif opts[:project] == \"neo4j\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"neo4j\"\n\tsourcesData.sourcesDirPath = \"../../../soft/neo4j/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.java$\",\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53219,
-          "y": 10382,
-          "id": "5fd4f3a3-5d47-4d86-9dd9-24668cfb801a",
-          "font": {
-            "align": "left"
-          }
-        },
-        "e8ec45bb-7128-43c6-bb64-857f71f68739": {
-          "label": "elsif opts[:project] == \"spring-framework\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"spring-framework\"\n\tsourcesData.sourcesDirPath = \"../../../soft/spring-framework/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.java$\",\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53219,
-          "y": 10880,
-          "id": "e8ec45bb-7128-43c6-bb64-857f71f68739",
-          "font": {
-            "align": "left"
-          }
-        },
-        "2a4ba4dd-301e-408a-92fb-7b777eb8c5a0": {
-          "label": "elsif opts[:project] == \"tomcat\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"tomcat\"\n\tsourcesData.sourcesDirPath = \"../../../soft/tomcat/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.java$\",\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53219,
-          "y": 11378,
-          "id": "2a4ba4dd-301e-408a-92fb-7b777eb8c5a0",
-          "font": {
-            "align": "left"
-          }
-        },
-        "3cd4285a-1b25-41ce-b5a1-000adceeb436": {
-          "label": "elsif opts[:project] == \"vscode\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"vscode\"\n\tsourcesData.sourcesDirPath = \"../../../soft/vscode/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.ts$\",\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53218,
-          "y": 11877,
-          "id": "3cd4285a-1b25-41ce-b5a1-000adceeb436",
-          "font": {
-            "align": "left"
-          }
-        },
-        "b24c2816-3e97-456f-afdb-6b24311d3c31": {
-          "label": "elsif opts[:project] == \"dotnet_core\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"dotnet_core\"\n\tsourcesData.sourcesDirPath = \"../../../soft/core/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.ts$\",\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000",
-          "x": 53214,
-          "y": 12375,
-          "id": "b24c2816-3e97-456f-afdb-6b24311d3c31",
-          "font": {
-            "align": "left"
-          }
-        },
-        "21a691f7-58ce-4923-a4ae-e0d06e6c8025": {
-          "label": "elsif opts[:project] == \"firefox\"\n\tsourcesData = SourcesData.new\n\tsourcesData.sourcesProjectName = \"firefox\"\n\tsourcesData.sourcesDirPath = \"../../../soft/gecko-dev/\"\n\tsourcesData.dataDirPath = \"../../sushilshik.github.io/examples/\"\n\tsourcesData.sourceFilesRegexList = [\n\t\t\".*\\\\.js$\",\n\t\t\".*\\\\.py$\",\n\t\t\".*\\\\.sh$\",\n\t\t\".*\\\\.cpp$\",\n\t\t\".*\\\\.h$\",\n\t\t\".*\\\\.c$\"\n\t\t]\n\tsourcesData.excludeFilesRegexList = [\n\t\t]\n\tsourcesData.excludeFromParsingFilesRegexList = [\n\t\t\".*\\\\.h$\",\n\t\t\"gecko-dev/gfx/thebes/gfxLanguageTagList.cpp\",\n\t\t\"modules/brotli/common/dictionary.c\",\n\t\t\"gecko-dev/modules/brotli/enc/dictionary_hash.c\",\n\t\t\"gecko-dev/other-licenses/7zstub/src/CPP/7zip/Archive/7z/7zUpdate.cpp\",\n\t\t\"gecko-dev/other-licenses/7zstub/src/CPP/7zip/Archive/Common/CoderMixer2.cpp\"\n\t\t]\n\tsourcesData.fileDataFilterProcsList = [\n\t\tProc.new{|codeFile|\n\t\t\tfileText = codeFile.codeLines.join(\"\")\n\t\t\tbegin\n\t\t\t\tfileText = sourcesBuilder.codeParser.addDelimitersToText(fileText, codeFile.fileName, codeFile.codePartsDelimiter)\n\t\t\t\tcodeFile.codeLines = fileText.split(\"\\n\")\n\t\t\trescue ArgumentError \n\t\t\t\tcodeFile.codeLines = [\"MM-VIS-JS. ERROR: invalid byte sequence in UTF-8\"]\n\t\t\tend\n\t\t\tcodeFile\n\t\t}\n\t]\n\tonlyPrepareCacheFiles = false\n\tsourcesBuilder.cacheFilesIndexFrom = 0\n\tsourcesBuilder.cacheFilesIndexTo = 10000000\n\tsourcesBuilder.cacheDirPath = \"/home/mike/progr/repo/mm-vis-js/utils/data_firefox/\"\n\tDir.mkdir(sourcesBuilder.cacheDirPath) if !Dir.exists?(sourcesBuilder.cacheDirPath)\n\tsourcesBuilder.shiftY = 100\n\tsourcesBuilder.shiftBetweenTreesY = 1000\n\tsourcesBuilder.nodeLinesHeightMultiplier = 1\n\tsourcesBuilder.filesToPageLimit = 500 \n\tsourcesBuilder.limitFilesToRead = 10000000\nend",
-          "x": 53211,
-          "y": 12954,
-          "id": "21a691f7-58ce-4923-a4ae-e0d06e6c8025",
-          "font": {
-            "align": "left"
-          }
-        },
-        "1bd1ae6a-4e23-43f1-b270-f27e55a1891c": {
-          "label": "exit if opts[:project].nil?\n\ncodeFilesHash = nil\nparsedCodeFilesHash = nil\nif ( onlyPrepareCacheFiles.nil? || (!onlyPrepareCacheFiles.nil? && onlyPrepareCacheFiles) )\ncodeFilesHash = sourcesBuilder.findAndSelectCodeFilesForVisNetwork(\n\tsourcesData.sourcesDirPath, \n\tsourcesData.sourceFilesRegexList, \n\tsourcesData.excludeFilesRegexList)\np \"codeFilesHash.size: \" + codeFilesHash.size.to_s\n\nparsedCodeFilesHash = sourcesBuilder.loadCodeFilesAndParseContent(\n\tcodeFilesHash, \n\tsourcesData.fileDataFilterProcsList, \n\tsourcesData.excludeFromParsingFilesRegexList)\np \"parsedCodeFilesHash.size: \" + parsedCodeFilesHash.size.to_s\n\nend",
-          "x": 52242,
-          "y": 13415,
-          "id": "1bd1ae6a-4e23-43f1-b270-f27e55a1891c",
-          "font": {
-            "align": "left"
-          }
-        },
-        "69707772-153f-4723-925f-bbb261b204ac": {
-          "label": "\nexit if !onlyPrepareCacheFiles.nil? && onlyPrepareCacheFiles\n\nsourcesBuilder.buildProjectDirectory(\n\tsourcesData.dataDirPath, \n\tsourcesData.sourcesProjectName)\n\nif ( !onlyPrepareCacheFiles.nil? && !onlyPrepareCacheFiles )\n\tparsedCodeFilesHash = sourcesBuilder.buildCodeFilesHashFromFiles()\n\tcodeFilesHash = parsedCodeFilesHash\nend\n",
-          "x": 52181,
-          "y": 13635,
-          "id": "69707772-153f-4723-925f-bbb261b204ac",
-          "font": {
-            "align": "left"
-          }
-        },
-        "23af98fd-d819-4456-817c-ed5c59785601": {
-          "label": "pagesWithCodeFilesHash = sourcesBuilder.buildPagesWithCodeFilesHash(\n\tparsedCodeFilesHash, \n\tsourcesData.sourcesProjectName)\n\ncodeNodesPagesList = sourcesBuilder.buildPagesCodeNodes(pagesWithCodeFilesHash)\n\nsourcesBuilder.buildIndexSchemeFiles(\n\tsourcesData.dataDirPath, \n\tsourcesData.sourcesProjectName)\n\nsourcesBuilder.buildCodeSchemeFiles(sourcesData.sourcesProjectName, codeNodesPagesList)\n\nsourcesBuilder.stats(codeFilesHash, parsedCodeFilesHash, codeNodesPagesList)\n",
-          "x": 52257,
-          "y": 13827,
-          "id": "23af98fd-d819-4456-817c-ed5c59785601",
-          "font": {
-            "align": "left"
-          }
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693",
-          "x": 65007,
-          "y": 1806,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./app/index.html",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693",
-          "x": 66032,
-          "y": 1799,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693",
-          "x": 66551,
-          "y": 1785
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./app/index.html",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693",
-          "x": 72471,
-          "y": 2644,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "99fec32e-5d44-48e6-a2a2-97c0e2f78702": {
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
-          "x": 67121,
-          "y": 1727,
-          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "46ca27cc-0371-4111-a4c2-6db8795d0e65": {
-          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
-          "x": 67530,
-          "y": 2049,
-          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e65",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "061899dc-a185-4eaf-a3ac-c8e943203b3e": {
-          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
-          "x": 67700,
-          "y": 2579,
-          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "d80e4d87-43fe-4457-835f-0cbbbb8b3358": {
-          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
-          "x": 67548,
-          "y": 3270,
-          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b3358",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "69e1c992-010c-4a23-9c38-eb54979a89de": {
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"index.data.js?28\"></script>\n<script type=\"text/javascript\" src=\"application.js?28\"></script>\n\n</body>\n</html>",
-          "x": 67826,
-          "y": 3977,
-          "id": "69e1c992-010c-4a23-9c38-eb54979a89de",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232",
-          "x": 65079,
-          "y": 5104,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./app/base.html",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232",
-          "x": 66104,
-          "y": 5097,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232",
-          "x": 66623,
-          "y": 5083
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./app/base.html",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232",
-          "x": 72360,
-          "y": 5865,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "99fec32e-5d44-48e6-a2a2-97c0e2f78702232": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Base</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
-          "x": 67193,
-          "y": 5025,
-          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "46ca27cc-0371-4111-a4c2-6db8795d0e65232": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
-          "x": 67602,
-          "y": 5347,
-          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e65232",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "061899dc-a185-4eaf-a3ac-c8e943203b3e232": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
-          "x": 67772,
-          "y": 5877,
-          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e232",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d80e4d87-43fe-4457-835f-0cbbbb8b3358232": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
-          "x": 67619,
-          "y": 6567,
-          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "69e1c992-010c-4a23-9c38-eb54979a89de232": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?28\"></script>\n<script type=\"text/javascript\" src=\"application.js?28\"></script>\n\n</body>\n</html>",
-          "x": 67897,
-          "y": 7289,
-          "id": "69e1c992-010c-4a23-9c38-eb54979a89de232",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./utils/templates/index.data.js.erb",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792",
-          "x": 66858,
-          "y": 21915,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486792": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "var schemeData = \n{\n\t\"canvas1Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"canvas2Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"setup\": {\n\t\t\"scale\": 1,\n\t\t\"viewPosition\": {\n\t\t\t\"x\": 827.4214000000001,\n\t\t\t\"y\": 697.1176\n\t\t}\n\t}\n}\n;",
-          "x": 68073,
-          "y": 22633,
-          "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486792",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486792": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./utils/templates/\nindex.data.js.erb",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486792",
-          "x": 72610,
-          "y": 23133,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792",
-          "x": 65841,
-          "y": 21898,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792",
-          "x": 67595,
-          "y": 21914
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792768": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./utils/templates/index.html.erb",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792768",
-          "x": 65971,
-          "y": 26036,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486792768": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./utils/templates/\nindex.html.erb",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486792768",
-          "x": 72554,
-          "y": 27389,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792768": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792768",
-          "x": 64953,
-          "y": 26019,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792768": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792768",
-          "x": 66707,
-          "y": 26035
-        },
-        "1a74b08c-1e5c-47e7-809e-6518e2836a96": {
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title><%= pageTitle %></title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
-          "x": 67242,
-          "y": 26005,
-          "id": "1a74b08c-1e5c-47e7-809e-6518e2836a96",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "6190653d-7e88-4726-901c-5d440d98f241": {
-          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
-          "x": 67675,
-          "y": 26332,
-          "id": "6190653d-7e88-4726-901c-5d440d98f241",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "67d06945-9b99-4fc8-a120-402da3f48e67": {
-          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
-          "x": 67848,
-          "y": 26846,
-          "id": "67d06945-9b99-4fc8-a120-402da3f48e67",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "6d48e6c8-b142-406f-8cdd-5d875dc0db8b": {
-          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:350px;\n\tleft:170px;\n\tz-index:299;\n\twidth:250px;\n\theight:120px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n</style>",
-          "x": 67690,
-          "y": 27409,
-          "id": "6d48e6c8-b142-406f-8cdd-5d875dc0db8b",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "e0ba3c9d-76de-4d9c-97d9-ef5181e5b3fa": {
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = false; \n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><input id=\"node-label\" value=\"new value\" /></td>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.0/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"<%= pageDataJsFileName %>\"></script>\n<script type=\"text/javascript\" src=\"application.js\"></script>\n</body>\n</html>",
-          "x": 67974,
-          "y": 27874,
-          "id": "e0ba3c9d-76de-4d9c-97d9-ef5181e5b3fa",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "b652df51-5798-4b35-86cd-12892f08855c": {
-          "id": "b652df51-5798-4b35-86cd-12892f08855c",
-          "x": 40865,
-          "y": -15147,
-          "label": "This is root scheme for mm-vis-js project."
-        },
-        "d3319a07-ad98-4ca7-a928-8cc003e5490b": {
-          "id": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
-          "x": 40792,
-          "y": -14990,
-          "label": "How to build project"
-        },
-        "d6a2f6ee-56a5-4221-be38-49c0a8364a71": {
-          "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a71",
-          "x": 41167,
-          "y": -15019,
-          "label": "start mvj-serv.js from mm-vis-js/utils/"
-        },
-        "52aee244-a92a-41a3-8b71-373d541e660d": {
-          "id": "52aee244-a92a-41a3-8b71-373d541e660d",
-          "x": 41411,
-          "y": -15016,
-          "label": "$ node mvj-serv.js",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "8dcd7da6-9174-4a9a-92df-19ac2ef25745": {
-          "id": "8dcd7da6-9174-4a9a-92df-19ac2ef25745",
-          "x": 41695,
-          "y": -15053,
-          "label": "check port number in mvj-serv.js script - 1337. Change it in mvj-serv.js and in build script above, if you need.",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "604289ab-7ae3-4401-afdc-44d012b2609c": {
-          "id": "604289ab-7ae3-4401-afdc-44d012b2609c",
-          "x": 41272,
-          "y": -14979,
-          "label": "Find node \"buildProject\" and click it branch with save script to select it."
-        },
-        "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced": {
-          "id": "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced",
-          "x": 41202,
-          "y": -14936,
-          "label": "Click \"runNodeCode\" in node menu - on the left.",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
         },
         "01c3934b-333e-4a1a-816c-ab4f6de443b3": {
           "id": "01c3934b-333e-4a1a-816c-ab4f6de443b3",
@@ -28435,8 +21003,8 @@ var schemeData =
         },
         "6c4a96ea-d83d-4dba-afff-43a18801e1c6": {
           "id": "6c4a96ea-d83d-4dba-afff-43a18801e1c6",
-          "x": 81639,
-          "y": -9564,
+          "x": 38510,
+          "y": -9905,
           "label": "Сдублировать ноды",
           "shape": "box",
           "link": "",
@@ -28452,32 +21020,32 @@ var schemeData =
         },
         "41986299-c580-4968-adb2-58f0725bbb60": {
           "id": "41986299-c580-4968-adb2-58f0725bbb60",
-          "x": 81946,
-          "y": -9604,
+          "x": 38817,
+          "y": -9945,
           "label": "Выделяете одну или несколько нод"
         },
         "5c8fe698-c39c-416b-b238-c877f30b9434": {
           "id": "5c8fe698-c39c-416b-b238-c877f30b9434",
-          "x": 82369,
-          "y": -9603,
+          "x": 39240,
+          "y": -9944,
           "label": "Несколько нод можно выделить рамкой при нажатии правой клавиши мышки"
         },
         "c261f1c3-c578-49c7-8339-e07101f10bbd": {
           "id": "c261f1c3-c578-49c7-8339-e07101f10bbd",
-          "x": 81897,
-          "y": -9564,
+          "x": 38768,
+          "y": -9905,
           "label": "Нажимаете ctrl+alt+d"
         },
         "396707f9-7608-4147-b9c3-6a15e5f5a1bb": {
           "id": "396707f9-7608-4147-b9c3-6a15e5f5a1bb",
-          "x": 82046,
-          "y": -9531,
+          "x": 38917,
+          "y": -9872,
           "label": "Выделенными оказываются уже сдублированные ноды и их связи"
         },
         "259e4ddf-1e9d-474d-9199-3a9077bb4002": {
           "id": "259e4ddf-1e9d-474d-9199-3a9077bb4002",
-          "x": 82062,
-          "y": -9497,
+          "x": 38933,
+          "y": -9838,
           "label": "Теперь вы можете перетащить их мышкой за одну из выделенных нод.",
           "shape": "box",
           "link": "",
@@ -28493,8 +21061,8 @@ var schemeData =
         },
         "8c15a57a-91f6-4851-8c77-e6a65d3ca7b0": {
           "id": "8c15a57a-91f6-4851-8c77-e6a65d3ca7b0",
-          "x": 81669,
-          "y": -9366,
+          "x": 38540,
+          "y": -9707,
           "label": "Связать сразу несколько нод",
           "shape": "box",
           "link": "",
@@ -28510,8 +21078,8 @@ var schemeData =
         },
         "2dba5f68-77db-4b3f-b5a4-bb062a747a6f": {
           "id": "2dba5f68-77db-4b3f-b5a4-bb062a747a6f",
-          "x": 82218,
-          "y": -9417,
+          "x": 39089,
+          "y": -9758,
           "label": "Очень удобная функция - можно связать сразу большой список веток с корневой нодой"
         },
         "41986299-c580-4968-adb2-58f0725bbb6029": {
@@ -28538,8 +21106,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделяете одну или несколько нод",
           "id": "41986299-c580-4968-adb2-58f0725bbb6029",
-          "x": 82045,
-          "y": -9359
+          "x": 38916,
+          "y": -9700
         },
         "5c8fe698-c39c-416b-b238-c877f30b943429": {
           "color": {
@@ -28565,19 +21133,19 @@ var schemeData =
           "shapeProperties": {},
           "label": "Несколько нод можно выделить рамкой при нажатии правой клавиши мышки",
           "id": "5c8fe698-c39c-416b-b238-c877f30b943429",
-          "x": 82468,
-          "y": -9358
+          "x": 39339,
+          "y": -9699
         },
         "7e674057-85e5-4928-96c1-d53260fd42a7": {
           "id": "7e674057-85e5-4928-96c1-d53260fd42a7",
-          "x": 81996,
-          "y": -9325,
+          "x": 38867,
+          "y": -9666,
           "label": "Нажимаете ctrl+alt+c"
         },
         "2009ebc7-0871-4515-a437-1d03276a81c1": {
           "id": "2009ebc7-0871-4515-a437-1d03276a81c1",
-          "x": 82193,
-          "y": -9282,
+          "x": 39064,
+          "y": -9623,
           "label": "Крайняя слева нода станет корневой. Остальные ноды свяжутся с ней связями.",
           "shape": "box",
           "link": "",
@@ -28593,14 +21161,14 @@ var schemeData =
         },
         "3663b6f1-a0e4-4786-8198-87ab592eff08": {
           "id": "3663b6f1-a0e4-4786-8198-87ab592eff08",
-          "x": 82424,
-          "y": -9093,
+          "x": 39295,
+          "y": -9434,
           "label": "Сохранение в localStorage отключено. Возможно, заменой будет встроенная в браузер база indexedDB."
         },
         "a497b4eb-23d8-4eda-8caf-b74bbd4a2765": {
           "id": "a497b4eb-23d8-4eda-8caf-b74bbd4a2765",
-          "x": 82944,
-          "y": -9094,
+          "x": 39815,
+          "y": -9435,
           "label": "Архивные пункты для localStorage",
           "shape": "box",
           "link": "",
@@ -28616,8 +21184,8 @@ var schemeData =
         },
         "3e753aa5-d787-4b9d-8f45-1f689620a154": {
           "id": "3e753aa5-d787-4b9d-8f45-1f689620a154",
-          "x": 82116,
-          "y": -8958,
+          "x": 38987,
+          "y": -9299,
           "label": "Вариант 1",
           "shape": "box",
           "link": "",
@@ -28633,8 +21201,8 @@ var schemeData =
         },
         "0cc0b953-962a-4be3-902b-de755573478c": {
           "id": "0cc0b953-962a-4be3-902b-de755573478c",
-          "x": 82554,
-          "y": -8940,
+          "x": 39425,
+          "y": -9281,
           "label": "Выделите (ctrl+a) и скопируйте json-code из меню. Затем сохраните в текстовый файл."
         },
         "ea25b7ca-7308-4e5d-8d23-becf10837170214": {
@@ -28664,8 +21232,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "How to save canvas with script.\n(Like \"Save\" operation\nin desktop program.)",
           "id": "ea25b7ca-7308-4e5d-8d23-becf10837170214",
-          "x": 94133,
-          "y": -10322,
+          "x": 51004,
+          "y": -10663,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28696,8 +21264,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "start mvj-serv.js from mm-vis-js/utils/",
           "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a7196214",
-          "x": 94493,
-          "y": -10418
+          "x": 51364,
+          "y": -10759
         },
         "52aee244-a92a-41a3-8b71-373d541e660d96214": {
           "color": {
@@ -28728,8 +21296,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "$ node mvj-serv.js",
           "id": "52aee244-a92a-41a3-8b71-373d541e660d96214",
-          "x": 94740,
-          "y": -10415,
+          "x": 51611,
+          "y": -10756,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28763,8 +21331,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "check port number in mvj-serv.js script - 1337. Change it in mvj-serv.js and in build script above, if you need.",
           "id": "8dcd7da6-9174-4a9a-92df-19ac2ef2574596214",
-          "x": 95024,
-          "y": -10455,
+          "x": 51895,
+          "y": -10796,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28799,8 +21367,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "In \"mm-vis-js save\" scheme click big node with code in it - to select it.",
           "id": "604289ab-7ae3-4401-afdc-44d012b2609c96214",
-          "x": 94596,
-          "y": -10304,
+          "x": 51467,
+          "y": -10645,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28835,22 +21403,22 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click \"runNodeCode\" in the menu of big node with code - on the left.",
           "id": "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced96214",
-          "x": 94594,
-          "y": -10259,
+          "x": 51465,
+          "y": -10600,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "1a94e54c-c424-4011-8164-8c4ceb659bb6": {
           "id": "1a94e54c-c424-4011-8164-8c4ceb659bb6",
-          "x": 94538,
-          "y": -10349,
+          "x": 51409,
+          "y": -10690,
           "label": "Find scheme \"mm-vis-js save\" - top left on canvas."
         },
         "9ec1e92c-e23f-40c3-946c-50c07d46d846": {
           "id": "9ec1e92c-e23f-40c3-946c-50c07d46d846",
-          "x": 82118,
-          "y": -8868,
+          "x": 38989,
+          "y": -9209,
           "label": "Вариант 2.",
           "shape": "box",
           "link": "",
@@ -28866,86 +21434,86 @@ var schemeData =
         },
         "19ac164b-e6b2-4bdf-be8f-de83f8ab658c": {
           "id": "19ac164b-e6b2-4bdf-be8f-de83f8ab658c",
-          "x": 82434,
-          "y": -8884,
+          "x": 39305,
+          "y": -9225,
           "label": "Запустите mvj-serv.js из директории mm-vis-js/utils/"
         },
         "7ca43b63-bb6b-4d12-b9bb-d92671cf84a6": {
           "id": "7ca43b63-bb6b-4d12-b9bb-d92671cf84a6",
-          "x": 83198,
-          "y": -8885,
+          "x": 40069,
+          "y": -9226,
           "label": "В коде mvj-serv.js проверьте порт сервер - 1337. Если нужно - поменяйте в mvj-serv.js и в скрипте сохранения на холсте. О скрипте сохранения см. ниже."
         },
         "9aec0b4d-324d-4420-80d5-d69bdc4a342a": {
           "id": "9aec0b4d-324d-4420-80d5-d69bdc4a342a",
-          "x": 82461,
-          "y": -8848,
+          "x": 39332,
+          "y": -9189,
           "label": "Найдите схему \"mm-vis-js save\" - на холсте наверху слева."
         },
         "9e9e19e4-8a8e-413a-9fae-8f1392eb4ce7": {
           "id": "9e9e19e4-8a8e-413a-9fae-8f1392eb4ce7",
-          "x": 82534,
-          "y": -8817,
+          "x": 39405,
+          "y": -9158,
           "label": "В схеме \"mm-vis-js save\" кликните по большой ноде с кодом, чтобы выделить ее."
         },
         "651b3068-14ec-45b9-87e5-64f8ac415b45": {
           "id": "651b3068-14ec-45b9-87e5-64f8ac415b45",
-          "x": 82534,
-          "y": -8784,
+          "x": 39405,
+          "y": -9125,
           "label": "Кликните \"runNodeCode\" в меню большой ноды с кодом - меню слева на холсте."
         },
         "2dc2a371-7346-4902-bd86-0ac9cebf4349": {
           "id": "2dc2a371-7346-4902-bd86-0ac9cebf4349",
-          "x": 82116,
-          "y": -8663,
+          "x": 38987,
+          "y": -9004,
           "label": "Вариант 1"
         },
         "810ee379-9ec4-4f2b-9cfa-975915715d77": {
           "id": "810ee379-9ec4-4f2b-9cfa-975915715d77",
-          "x": 82476,
-          "y": -8696,
+          "x": 39347,
+          "y": -9037,
           "label": "Скопируйте json-код - предварительно сохраненный локально."
         },
         "7b238664-8d77-4ee4-a05f-e8ece57646af": {
           "id": "7b238664-8d77-4ee4-a05f-e8ece57646af",
-          "x": 82386,
-          "y": -8654,
+          "x": 39257,
+          "y": -8995,
           "label": "Замените им код в меню showData."
         },
         "89b4cb34-a94b-4f5c-8c63-8079d87f3c06": {
           "id": "89b4cb34-a94b-4f5c-8c63-8079d87f3c06",
-          "x": 82384,
-          "y": -8620,
+          "x": 39255,
+          "y": -8961,
           "label": "Кликните updateSchemeFromMenu"
         },
         "c7783b6b-db90-4062-ac8c-70997d13d33f": {
           "id": "c7783b6b-db90-4062-ac8c-70997d13d33f",
-          "x": 82116,
-          "y": -8537,
+          "x": 38987,
+          "y": -8878,
           "label": "Вариант 2"
         },
         "7af4f6c1-dd9b-4b88-987b-577986f66403": {
           "id": "7af4f6c1-dd9b-4b88-987b-577986f66403",
-          "x": 82426,
-          "y": -8576,
+          "x": 39297,
+          "y": -8917,
           "label": "Вариант для сохранений с помощью mvj-serv.js"
         },
         "aa512a20-4431-4e50-9cb0-be525b12ba1b": {
           "id": "aa512a20-4431-4e50-9cb0-be525b12ba1b",
-          "x": 82476,
-          "y": -8530,
+          "x": 39347,
+          "y": -8871,
           "label": "Найдите сохранения в директории /tmp/mm-vis-js_serv_backup/"
         },
         "79e6d59e-7f6d-4bbc-a1df-9b6595974201": {
           "id": "79e6d59e-7f6d-4bbc-a1df-9b6595974201",
-          "x": 82417,
-          "y": -8482,
+          "x": 39288,
+          "y": -8823,
           "label": "Замените data.js файл холста в mm-vis-js/app"
         },
         "d0ff5320-023f-428a-8891-8d6abb31ce62": {
           "id": "d0ff5320-023f-428a-8891-8d6abb31ce62",
-          "x": 83013,
-          "y": -8542,
+          "x": 39884,
+          "y": -8883,
           "label": "Сохранения холстов хранятся в директориях с именами projectSaveId холстов.",
           "shape": "box",
           "link": "",
@@ -28961,8 +21529,8 @@ var schemeData =
         },
         "e5a6b9f9-d591-4e32-9595-491c2a7b34ae": {
           "id": "e5a6b9f9-d591-4e32-9595-491c2a7b34ae",
-          "x": 82997,
-          "y": -8512,
+          "x": 39868,
+          "y": -8853,
           "label": "projectSaveId холста записан в схеме META. См. наверху слева на холсте.",
           "shape": "box",
           "link": "",
@@ -28978,32 +21546,32 @@ var schemeData =
         },
         "41b1cf57-bdfa-4a6e-bcea-869f53317ece": {
           "id": "41b1cf57-bdfa-4a6e-bcea-869f53317ece",
-          "x": 82128,
-          "y": -6436,
+          "x": 38999,
+          "y": -6777,
           "label": "rdflib.min.js"
         },
         "84db30ef-b648-4b85-b464-d4ec4f5ff0c4": {
           "id": "84db30ef-b648-4b85-b464-d4ec4f5ff0c4",
-          "x": 82556,
-          "y": -6432,
+          "x": 39427,
+          "y": -6773,
           "label": "https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js"
         },
         "50a2c223-e86e-4218-a5e1-562984a58105": {
           "id": "50a2c223-e86e-4218-a5e1-562984a58105",
-          "x": 82514,
-          "y": -6386,
+          "x": 39385,
+          "y": -6727,
           "label": "https://code.jquery.com/jquery-3.4.1.min.js"
         },
         "1d817d64-49e4-4713-884c-e14d8fe96c0f": {
           "id": "1d817d64-49e4-4713-884c-e14d8fe96c0f",
-          "x": 82151,
-          "y": -6386,
+          "x": 39022,
+          "y": -6727,
           "label": "jquery-3.4.1.min.js"
         },
         "1247edb0-ea4c-4ba2-83ce-fe30019d62b8": {
           "id": "1247edb0-ea4c-4ba2-83ce-fe30019d62b8",
-          "x": 81665,
-          "y": -10160,
+          "x": 38536,
+          "y": -10501,
           "label": "Сборка mm-vjs-js \"с холста\""
         },
         "19ac164b-e6b2-4bdf-be8f-de83f8ab658c331": {
@@ -29030,8 +21598,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Запустите mvj-serv.js из директории mm-vis-js/utils/",
           "id": "19ac164b-e6b2-4bdf-be8f-de83f8ab658c331",
-          "x": 81983,
-          "y": -10216
+          "x": 38854,
+          "y": -10557
         },
         "7ca43b63-bb6b-4d12-b9bb-d92671cf84a6331": {
           "color": {
@@ -29057,8 +21625,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В коде mvj-serv.js проверьте порт сервер - 1337. Если нужно - поменяйте в mvj-serv.js и в скрипте сохранения на холсте. О скрипте сохранения см. ниже.",
           "id": "7ca43b63-bb6b-4d12-b9bb-d92671cf84a6331",
-          "x": 82789,
-          "y": -10217
+          "x": 39660,
+          "y": -10558
         },
         "9aec0b4d-324d-4420-80d5-d69bdc4a342a331": {
           "color": {
@@ -29088,8 +21656,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Найдите схему \"mm-vis-js\" - на холсте сверху четвертая колонка слева.",
           "id": "9aec0b4d-324d-4420-80d5-d69bdc4a342a331",
-          "x": 82051,
-          "y": -10181,
+          "x": 38922,
+          "y": -10522,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29122,8 +21690,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В схеме \"mm-vis-js\" кликните по большой ноде с кодом скрипта для сохранения холста и сборки проекта, чтобы выделить ее.",
           "id": "9e9e19e4-8a8e-413a-9fae-8f1392eb4ce7331",
-          "x": 82230,
-          "y": -10148,
+          "x": 39101,
+          "y": -10489,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29152,529 +21720,13 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликните \"runNodeCode\" в меню большой ноды с кодом - меню слева на холсте.",
           "id": "651b3068-14ec-45b9-87e5-64f8ac415b45331",
-          "x": 82083,
-          "y": -10116
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./e2eTests/common_test.js",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953",
-          "x": 66117,
-          "y": 30778,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Feature('Basic test');\n\nScenario('navigate to homepage', I => {\n  I.amOnPage('http://app-express:3000/index.html');\n  I.saveScreenshot('frontpageScreenshot.png');\n  I.see('showData');\n});",
-          "x": 67243,
-          "y": 30784,
-          "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./e2eTests/\ncommon_test.js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953",
-          "x": 72443,
-          "y": 31885,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953",
-          "x": 65139,
-          "y": 30778,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953",
-          "x": 66752,
-          "y": 30767
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./e2eTests/docker.conf.js",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613",
-          "x": 66132,
-          "y": 34814,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "exports.config = {\n  tests: './*-test.js',\n  output: './output',\n  helpers: {\n    WebDriver: {\n      url: 'http://app-express:3000',\n      host: 'chrome-container',\n      browser: 'chrome',\n      smartWait: 5000,\n      restart: false,\n      waitForTimeout: 10000,\n      timeouts: {\n        script: 60000,\n        'page load': 60000,\n      },\n      coloredLogs: true,\n      desiredCapabilities: {\n        chromeOptions: {\n          // https://peter.sh/experiments/chromium-command-line-switches/\n          args: [\n            '--headless',\n            '--disable-gpu', // Temporarily needed if running headless on Windows\n            // '--no-sandbox',\n            // '--disable-setuid-sandbox',\n          ],\n        },\n      },\n    },\n  },\n  bootstrap: false,\n  mocha: {},\n  name: 'codeceptjs-docker',\n};",
-          "x": 67285,
-          "y": 35000,
-          "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953613": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./e2eTests/\ndocker.conf.js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953613",
-          "x": 71998,
-          "y": 36122,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613",
-          "x": 65154,
-          "y": 34814,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613",
-          "x": 66767,
-          "y": 34803
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613127": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./e2eTests/testServer.js",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613127",
-          "x": 66173,
-          "y": 39066,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613127": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "const express = require('express');\n\nconst app = express();\n\nvar path = require('path');\n\napp.use(express.static(\"/home/node/public\"));\napp.get('/', function(req, res) {\n\tres.sendFile(path.join(__dirname, \"home/node/public\", \"index.html\"));\n});\n\nconst server = app.listen(3000, () => {\n  const { port } = server.address();\n  console.log(`Example app listening on port ${port}`);\n});",
-          "x": 67294,
-          "y": 39144,
-          "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613127",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953613127": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./e2eTests/\ntestServer.js",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011316765617486953613127",
-          "x": 71692,
-          "y": 40374,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613127": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613127",
-          "x": 65195,
-          "y": 39066,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613127": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613127",
-          "x": 66808,
-          "y": 39055
+          "x": 38954,
+          "y": -10457
         },
         "7e4d7ab3-736e-4013-9208-1d51c0868264": {
           "label": "Schemes translation",
-          "x": 93658,
-          "y": 3158,
+          "x": 50529,
+          "y": 2817,
           "font": {
             "size": 72,
             "align": "left"
@@ -29690,146 +21742,146 @@ var schemeData =
         },
         "6abb7469-f9c5-4eef-b61f-afa5bc6c0278": {
           "label": "Development",
-          "x": 93958,
-          "y": 3608,
+          "x": 50829,
+          "y": 3267,
           "id": "6abb7469-f9c5-4eef-b61f-afa5bc6c0278"
         },
         "e30c866d-efe9-47ab-8bae-281bfe549805": {
           "label": "11/21/2019",
-          "x": 94208,
-          "y": 3608,
+          "x": 51079,
+          "y": 3267,
           "id": "e30c866d-efe9-47ab-8bae-281bfe549805"
         },
         "8b358f20-dd77-4391-9787-e1ff1432f64f": {
           "label": "init",
-          "x": 94108,
-          "y": 3608,
+          "x": 50979,
+          "y": 3267,
           "id": "8b358f20-dd77-4391-9787-e1ff1432f64f"
         },
         "f9f3adfe-8004-4014-9985-12589a14405e": {
           "label": "Notes",
-          "x": 93958,
-          "y": 2758,
+          "x": 50829,
+          "y": 2417,
           "id": "f9f3adfe-8004-4014-9985-12589a14405e"
         },
         "ccb20eb5-1055-4a4f-80d1-54eee8350931": {
           "label": "Dictionary of\nconcepts",
-          "x": 94108,
-          "y": 2508,
+          "x": 50979,
+          "y": 2167,
           "id": "ccb20eb5-1055-4a4f-80d1-54eee8350931"
         },
         "6d10edef-8afd-4601-a262-0e63278b1d7b": {
           "label": "Details, thoughts",
-          "x": 94108,
-          "y": 2758,
+          "x": 50979,
+          "y": 2417,
           "id": "6d10edef-8afd-4601-a262-0e63278b1d7b"
         },
         "253f03c9-e7e4-44e4-9348-41458028d2bd": {
           "label": "Sections",
-          "x": 94108,
-          "y": 3008,
+          "x": 50979,
+          "y": 2667,
           "id": "253f03c9-e7e4-44e4-9348-41458028d2bd"
         },
         "8dd8ef78-5643-49e4-8c56-c7a838ced007": {
           "label": "Books",
-          "x": 94172,
-          "y": 2858,
+          "x": 51043,
+          "y": 2517,
           "id": "8dd8ef78-5643-49e4-8c56-c7a838ced007"
         },
         "55942fe2-4aa1-494d-a04c-77f6da270c89": {
           "label": "R&D institutions",
-          "x": 94203,
-          "y": 2883,
+          "x": 51074,
+          "y": 2542,
           "id": "55942fe2-4aa1-494d-a04c-77f6da270c89"
         },
         "ae1201da-ff95-4b03-b779-0f24fbd9b777": {
           "label": "Sites",
-          "x": 94168,
-          "y": 2908,
+          "x": 51039,
+          "y": 2567,
           "id": "ae1201da-ff95-4b03-b779-0f24fbd9b777"
         },
         "0c08ffb3-0063-4b60-bc5c-7ee0e94f2c7e": {
           "label": "Magazines",
-          "x": 94187,
-          "y": 2933,
+          "x": 51058,
+          "y": 2592,
           "id": "0c08ffb3-0063-4b60-bc5c-7ee0e94f2c7e"
         },
         "6a147493-8151-4738-b5fa-75c25fe5a9ba": {
           "label": "Articles",
-          "x": 94176,
-          "y": 2958,
+          "x": 51047,
+          "y": 2617,
           "id": "6a147493-8151-4738-b5fa-75c25fe5a9ba"
         },
         "cbf407c7-6685-461c-9e10-8c0e02fd1c95": {
           "label": "Media content",
-          "x": 94198,
-          "y": 2983,
+          "x": 51069,
+          "y": 2642,
           "id": "cbf407c7-6685-461c-9e10-8c0e02fd1c95"
         },
         "1a543f69-b8a7-41e9-8abd-13bc452ef590": {
           "label": "Misc. web links",
-          "x": 94200,
-          "y": 3008,
+          "x": 51071,
+          "y": 2667,
           "id": "1a543f69-b8a7-41e9-8abd-13bc452ef590"
         },
         "2ee9e78d-c49f-4e1c-a93d-1bd4798af95e": {
           "label": "Projects",
-          "x": 94178,
-          "y": 3033,
+          "x": 51049,
+          "y": 2692,
           "id": "2ee9e78d-c49f-4e1c-a93d-1bd4798af95e"
         },
         "477119ea-f942-4f5b-aeb7-06601cdd7106": {
           "label": "Tools",
-          "x": 94170,
-          "y": 3058,
+          "x": 51041,
+          "y": 2717,
           "id": "477119ea-f942-4f5b-aeb7-06601cdd7106"
         },
         "a9b190a9-1604-4594-aeaf-053fc64f9e49": {
           "label": "Organizations",
-          "x": 94197,
-          "y": 3083,
+          "x": 51068,
+          "y": 2742,
           "id": "a9b190a9-1604-4594-aeaf-053fc64f9e49"
         },
         "1d0df1d3-a24d-4832-a83a-015e67f72fe0": {
           "label": "Standarts",
-          "x": 94183,
-          "y": 3108,
+          "x": 51054,
+          "y": 2767,
           "id": "1d0df1d3-a24d-4832-a83a-015e67f72fe0"
         },
         "8a0b620c-acbe-4531-8fd3-5d0caa200414": {
           "label": "Forums, Groups",
-          "x": 94205,
-          "y": 3133,
+          "x": 51076,
+          "y": 2792,
           "id": "8a0b620c-acbe-4531-8fd3-5d0caa200414"
         },
         "da9e4715-442b-4431-80a4-13e226fef737": {
           "label": "Laws",
-          "x": 94169,
-          "y": 3158,
+          "x": 51040,
+          "y": 2817,
           "id": "da9e4715-442b-4431-80a4-13e226fef737"
         },
         "5778faef-435e-4f2c-92be-21a38b819da6": {
           "label": "Adjacent Themes",
-          "x": 94208,
-          "y": 3183,
+          "x": 51079,
+          "y": 2842,
           "id": "5778faef-435e-4f2c-92be-21a38b819da6"
         },
         "5e5baf9e-1ea9-4a5b-a487-27e7f636e277": {
           "label": "Questions",
-          "x": 93958,
-          "y": 3308,
+          "x": 50829,
+          "y": 2967,
           "id": "5e5baf9e-1ea9-4a5b-a487-27e7f636e277"
         },
         "dd317cd2-b718-4649-a0d3-f2002975b13a": {
           "label": "Problems",
-          "x": 93958,
-          "y": 3408,
+          "x": 50829,
+          "y": 3067,
           "id": "dd317cd2-b718-4649-a0d3-f2002975b13a"
         },
         "71f4acaa-fb09-425b-a2ed-86ad7e4b8229": {
           "label": "Goals",
-          "x": 93958,
-          "y": 3508,
+          "x": 50829,
+          "y": 3167,
           "id": "71f4acaa-fb09-425b-a2ed-86ad7e4b8229"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088": {
@@ -29862,8 +21914,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Schemes\ntranslation",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088",
-          "x": 97887,
-          "y": 3404,
+          "x": 54758,
+          "y": 3063,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29872,7 +21924,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "red"
+            "background": "red",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -29893,9 +21946,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Canvases list",
-          "x": 33,
-          "y": -16673,
+          "label": "mm-vis-js pages list",
+          "x": 38,
+          "y": -16599,
           "id": "b0ab9a5c-3969-4305-b107-d656ef662765609",
           "shape": "box",
           "link": "",
@@ -29924,8 +21977,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 509,
-          "y": -16233,
+          "x": 514,
+          "y": -16159,
           "id": "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e609"
         },
         "c8fff93b-99a7-4e44-b775-013dd5b18cd0609": {
@@ -29951,8 +22004,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/16/2019",
-          "x": 759,
-          "y": -16233,
+          "x": 764,
+          "y": -16159,
           "id": "c8fff93b-99a7-4e44-b775-013dd5b18cd0609"
         },
         "244022c3-df85-4859-b198-983acf2a904c609": {
@@ -29978,8 +22031,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 659,
-          "y": -16233,
+          "x": 664,
+          "y": -16159,
           "id": "244022c3-df85-4859-b198-983acf2a904c609"
         },
         "7b984b0f-df05-4527-8ac8-8706b9691d36609": {
@@ -30005,8 +22058,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 509,
-          "y": -17083,
+          "x": 514,
+          "y": -17009,
           "id": "7b984b0f-df05-4527-8ac8-8706b9691d36609"
         },
         "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609": {
@@ -30059,8 +22112,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 659,
-          "y": -17083,
+          "x": 664,
+          "y": -17009,
           "id": "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc609"
         },
         "3c74d4bd-608b-4744-b18c-1cc508a41bcd609": {
@@ -30086,8 +22139,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 659,
-          "y": -16833,
+          "x": 664,
+          "y": -16759,
           "id": "3c74d4bd-608b-4744-b18c-1cc508a41bcd609"
         },
         "50b02362-4c2e-4801-b250-bbb084bf9bb2609": {
@@ -30113,8 +22166,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 723,
-          "y": -16983,
+          "x": 728,
+          "y": -16909,
           "id": "50b02362-4c2e-4801-b250-bbb084bf9bb2609"
         },
         "92f53a00-cf65-456f-bfcf-6f6c88119d5b609": {
@@ -30140,8 +22193,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 754,
-          "y": -16958,
+          "x": 759,
+          "y": -16884,
           "id": "92f53a00-cf65-456f-bfcf-6f6c88119d5b609"
         },
         "75ff23b4-3d0f-4c06-8061-4069494a326f609": {
@@ -30167,8 +22220,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 719,
-          "y": -16933,
+          "x": 724,
+          "y": -16859,
           "id": "75ff23b4-3d0f-4c06-8061-4069494a326f609"
         },
         "1bc92ea3-79ba-4d40-816c-35cedc1c74bf609": {
@@ -30194,8 +22247,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 738,
-          "y": -16908,
+          "x": 743,
+          "y": -16834,
           "id": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf609"
         },
         "2d9049d8-feaf-41cd-afb1-87515557983e609": {
@@ -30221,8 +22274,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 727,
-          "y": -16883,
+          "x": 732,
+          "y": -16809,
           "id": "2d9049d8-feaf-41cd-afb1-87515557983e609"
         },
         "51a5b447-fa28-4997-80ca-b7a96a69ef9e609": {
@@ -30248,8 +22301,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 749,
-          "y": -16858,
+          "x": 754,
+          "y": -16784,
           "id": "51a5b447-fa28-4997-80ca-b7a96a69ef9e609"
         },
         "8a139418-94d2-4121-94a4-8d2a26213d24609": {
@@ -30275,8 +22328,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 751,
-          "y": -16833,
+          "x": 756,
+          "y": -16759,
           "id": "8a139418-94d2-4121-94a4-8d2a26213d24609"
         },
         "76fc5be1-7bae-46ec-a649-1bc6509b378d609": {
@@ -30302,8 +22355,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 729,
-          "y": -16808,
+          "x": 734,
+          "y": -16734,
           "id": "76fc5be1-7bae-46ec-a649-1bc6509b378d609"
         },
         "21dc8bf2-6e0c-42cf-b702-d47f24af173a609": {
@@ -30329,8 +22382,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 720,
-          "y": -16783,
+          "x": 725,
+          "y": -16709,
           "id": "21dc8bf2-6e0c-42cf-b702-d47f24af173a609"
         },
         "1f9b98e7-ca75-443c-952d-a1d0ba476652609": {
@@ -30356,8 +22409,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 748,
-          "y": -16758,
+          "x": 753,
+          "y": -16684,
           "id": "1f9b98e7-ca75-443c-952d-a1d0ba476652609"
         },
         "f9c77b6e-13d7-4687-9d7f-e858e5cf5685609": {
@@ -30383,8 +22436,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 734,
-          "y": -16733,
+          "x": 739,
+          "y": -16659,
           "id": "f9c77b6e-13d7-4687-9d7f-e858e5cf5685609"
         },
         "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661609": {
@@ -30410,8 +22463,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 756,
-          "y": -16708,
+          "x": 761,
+          "y": -16634,
           "id": "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661609"
         },
         "f13fa072-1d46-45b2-b2b1-679177d88ba6609": {
@@ -30437,8 +22490,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 720,
-          "y": -16683,
+          "x": 725,
+          "y": -16609,
           "id": "f13fa072-1d46-45b2-b2b1-679177d88ba6609"
         },
         "ab382182-58b3-4799-ad70-5340f6f6e88d609": {
@@ -30464,8 +22517,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 759,
-          "y": -16658,
+          "x": 764,
+          "y": -16584,
           "id": "ab382182-58b3-4799-ad70-5340f6f6e88d609"
         },
         "a8fd2573-44a2-4d77-9721-81e1457bc1f0609": {
@@ -30491,8 +22544,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 509,
-          "y": -16533,
+          "x": 514,
+          "y": -16459,
           "id": "a8fd2573-44a2-4d77-9721-81e1457bc1f0609"
         },
         "48a4c37a-5708-48fc-9e33-37312999d807609": {
@@ -30518,8 +22571,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 509,
-          "y": -16433,
+          "x": 514,
+          "y": -16359,
           "id": "48a4c37a-5708-48fc-9e33-37312999d807609"
         },
         "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46609": {
@@ -30545,14 +22598,14 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 509,
-          "y": -16333,
+          "x": 514,
+          "y": -16259,
           "id": "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46609"
         },
         "65bdae01-b779-49a8-bf27-bf9027950613": {
           "label": "Перевод\nсхем",
-          "x": 81708,
-          "y": 3478,
+          "x": 38579,
+          "y": 3137,
           "font": {
             "size": 72,
             "align": "left"
@@ -30568,146 +22621,146 @@ var schemeData =
         },
         "cbfcd0a3-2db1-4314-8b40-e81dda5a4a61": {
           "label": "Development",
-          "x": 82008,
-          "y": 3928,
+          "x": 38879,
+          "y": 3587,
           "id": "cbfcd0a3-2db1-4314-8b40-e81dda5a4a61"
         },
         "21b17e12-af56-48de-9520-74ab7ef1f9c6": {
           "label": "11/21/2019",
-          "x": 82204,
-          "y": 3926,
+          "x": 39075,
+          "y": 3585,
           "id": "21b17e12-af56-48de-9520-74ab7ef1f9c6"
         },
         "7f7e15a7-7f6b-4609-ba38-5b711c7f789f": {
           "label": "init",
-          "x": 82324,
-          "y": 3926,
+          "x": 39195,
+          "y": 3585,
           "id": "7f7e15a7-7f6b-4609-ba38-5b711c7f789f"
         },
         "7fea0cba-8194-4888-87d3-047f1c2fa116": {
           "label": "Notes",
-          "x": 82008,
-          "y": 3078,
+          "x": 38879,
+          "y": 2737,
           "id": "7fea0cba-8194-4888-87d3-047f1c2fa116"
         },
         "52fcaddc-b3f2-4816-a836-26970d8b8a57": {
           "label": "Dictionary of\nconcepts",
-          "x": 82158,
-          "y": 2828,
+          "x": 39029,
+          "y": 2487,
           "id": "52fcaddc-b3f2-4816-a836-26970d8b8a57"
         },
         "5f5f9555-b834-478d-9528-8c5383628db2": {
           "label": "Details, thoughts",
-          "x": 82158,
-          "y": 3078,
+          "x": 39029,
+          "y": 2737,
           "id": "5f5f9555-b834-478d-9528-8c5383628db2"
         },
         "d1144991-deec-4f98-9438-d6b89a52722c": {
           "label": "Sections",
-          "x": 82158,
-          "y": 3328,
+          "x": 39029,
+          "y": 2987,
           "id": "d1144991-deec-4f98-9438-d6b89a52722c"
         },
         "1cd9cde5-7ccf-45fc-a378-3de0cf740d79": {
           "label": "Books",
-          "x": 82222,
-          "y": 3178,
+          "x": 39093,
+          "y": 2837,
           "id": "1cd9cde5-7ccf-45fc-a378-3de0cf740d79"
         },
         "03c0061f-5c90-4f20-8c98-059c44b51778": {
           "label": "R&D institutions",
-          "x": 82253,
-          "y": 3203,
+          "x": 39124,
+          "y": 2862,
           "id": "03c0061f-5c90-4f20-8c98-059c44b51778"
         },
         "090523b1-c1f4-4a4e-8964-cd8176449a6a": {
           "label": "Sites",
-          "x": 82218,
-          "y": 3228,
+          "x": 39089,
+          "y": 2887,
           "id": "090523b1-c1f4-4a4e-8964-cd8176449a6a"
         },
         "4cc13894-0e93-4073-a2bd-4ad33a644136": {
           "label": "Magazines",
-          "x": 82237,
-          "y": 3253,
+          "x": 39108,
+          "y": 2912,
           "id": "4cc13894-0e93-4073-a2bd-4ad33a644136"
         },
         "48d20873-bfc2-4649-a9d3-162ef2170941": {
           "label": "Articles",
-          "x": 82226,
-          "y": 3278,
+          "x": 39097,
+          "y": 2937,
           "id": "48d20873-bfc2-4649-a9d3-162ef2170941"
         },
         "55e0a123-ae6a-41a2-85ab-f734ad624ce5": {
           "label": "Media content",
-          "x": 82248,
-          "y": 3303,
+          "x": 39119,
+          "y": 2962,
           "id": "55e0a123-ae6a-41a2-85ab-f734ad624ce5"
         },
         "35912118-3e92-43e1-9dd2-15a262c64928": {
           "label": "Misc. web links",
-          "x": 82250,
-          "y": 3328,
+          "x": 39121,
+          "y": 2987,
           "id": "35912118-3e92-43e1-9dd2-15a262c64928"
         },
         "07cbcd14-3571-4867-b45b-85583c17a895": {
           "label": "Projects",
-          "x": 82228,
-          "y": 3353,
+          "x": 39099,
+          "y": 3012,
           "id": "07cbcd14-3571-4867-b45b-85583c17a895"
         },
         "927afd8a-418d-4a2f-a2a8-26ba39fa4e71": {
           "label": "Tools",
-          "x": 82219,
-          "y": 3378,
+          "x": 39090,
+          "y": 3037,
           "id": "927afd8a-418d-4a2f-a2a8-26ba39fa4e71"
         },
         "8f30ecae-8c53-4af2-b348-5616dee5138c": {
           "label": "Organizations",
-          "x": 82247,
-          "y": 3403,
+          "x": 39118,
+          "y": 3062,
           "id": "8f30ecae-8c53-4af2-b348-5616dee5138c"
         },
         "93d63b38-55a7-4525-bee3-3aed8054d195": {
           "label": "Standarts",
-          "x": 82233,
-          "y": 3428,
+          "x": 39104,
+          "y": 3087,
           "id": "93d63b38-55a7-4525-bee3-3aed8054d195"
         },
         "0ecf3e03-6c38-4d08-bfce-4256cbee900f": {
           "label": "Forums, Groups",
-          "x": 82255,
-          "y": 3453,
+          "x": 39126,
+          "y": 3112,
           "id": "0ecf3e03-6c38-4d08-bfce-4256cbee900f"
         },
         "977212bb-d18d-4fdf-9bd1-e5a235dc1836": {
           "label": "Laws",
-          "x": 82219,
-          "y": 3478,
+          "x": 39090,
+          "y": 3137,
           "id": "977212bb-d18d-4fdf-9bd1-e5a235dc1836"
         },
         "d1817121-dd58-4a2a-bf6a-ab4c51bb2334": {
           "label": "Adjacent Themes",
-          "x": 82258,
-          "y": 3503,
+          "x": 39129,
+          "y": 3162,
           "id": "d1817121-dd58-4a2a-bf6a-ab4c51bb2334"
         },
         "6dfec417-d1b3-44f3-a455-3a925890742b": {
           "label": "Questions",
-          "x": 82008,
-          "y": 3628,
+          "x": 38879,
+          "y": 3287,
           "id": "6dfec417-d1b3-44f3-a455-3a925890742b"
         },
         "8dc5351b-9361-41d0-9161-d361b6272b7c": {
           "label": "Problems",
-          "x": 82008,
-          "y": 3728,
+          "x": 38879,
+          "y": 3387,
           "id": "8dc5351b-9361-41d0-9161-d361b6272b7c"
         },
         "627cfef5-a735-45a5-bdb5-ccf4f7246234": {
           "label": "Goals",
-          "x": 82008,
-          "y": 3828,
+          "x": 38879,
+          "y": 3487,
           "id": "627cfef5-a735-45a5-bdb5-ccf4f7246234"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673546": {
@@ -30740,16 +22793,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Перевод\nсхем",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673546",
-          "x": 86248,
-          "y": 3645,
+          "x": 43119,
+          "y": 3304,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "24563732-5cdc-4bae-8256-d7a2cb4faac5": {
           "label": "Canvas\nviews",
-          "x": 93434,
-          "y": 8081,
+          "x": 50305,
+          "y": 7740,
           "font": {
             "size": 72,
             "align": "left"
@@ -30765,146 +22818,146 @@ var schemeData =
         },
         "e15ff1c6-a8ba-4729-b234-738076a7ab28": {
           "label": "Development",
-          "x": 93749,
-          "y": 8546,
+          "x": 50620,
+          "y": 8205,
           "id": "e15ff1c6-a8ba-4729-b234-738076a7ab28"
         },
         "ecacff12-9dc0-4bd7-b7cc-92c56d5bc5ab": {
           "label": "11/21/2019",
-          "x": 93899,
-          "y": 8546,
+          "x": 50770,
+          "y": 8205,
           "id": "ecacff12-9dc0-4bd7-b7cc-92c56d5bc5ab"
         },
         "669c037c-cdb1-4288-922e-7b85c9b085f5": {
           "label": "init",
-          "x": 93999,
-          "y": 8546,
+          "x": 50870,
+          "y": 8205,
           "id": "669c037c-cdb1-4288-922e-7b85c9b085f5"
         },
         "8cffdc58-354a-43c3-bbcb-0c617f791cbe": {
           "label": "Notes",
-          "x": 93749,
-          "y": 7696,
+          "x": 50620,
+          "y": 7355,
           "id": "8cffdc58-354a-43c3-bbcb-0c617f791cbe"
         },
         "d3fe27d4-1999-46b9-aafc-582a6b93d8b1": {
           "label": "Dictionary of\nconcepts",
-          "x": 93899,
-          "y": 7446,
+          "x": 50770,
+          "y": 7105,
           "id": "d3fe27d4-1999-46b9-aafc-582a6b93d8b1"
         },
         "a0637522-a5ff-48a5-a7f4-0c963c0fc231": {
           "label": "Details, thoughts",
-          "x": 93899,
-          "y": 7696,
+          "x": 50770,
+          "y": 7355,
           "id": "a0637522-a5ff-48a5-a7f4-0c963c0fc231"
         },
         "421559fa-24e6-4ddc-8bbd-2386a138631d": {
           "label": "Sections",
-          "x": 93899,
-          "y": 7946,
+          "x": 50770,
+          "y": 7605,
           "id": "421559fa-24e6-4ddc-8bbd-2386a138631d"
         },
         "459fab06-1787-41e5-ba93-4f241889128c": {
           "label": "Books",
-          "x": 93963,
-          "y": 7796,
+          "x": 50834,
+          "y": 7455,
           "id": "459fab06-1787-41e5-ba93-4f241889128c"
         },
         "d5405adf-61b5-4f9f-9c2d-792e42ef2599": {
           "label": "R&D institutions",
-          "x": 93994,
-          "y": 7821,
+          "x": 50865,
+          "y": 7480,
           "id": "d5405adf-61b5-4f9f-9c2d-792e42ef2599"
         },
         "b870bc5c-6f4b-4fbc-a18e-1545f7767ced": {
           "label": "Sites",
-          "x": 93959,
-          "y": 7846,
+          "x": 50830,
+          "y": 7505,
           "id": "b870bc5c-6f4b-4fbc-a18e-1545f7767ced"
         },
         "19984526-6fb6-4297-8224-36b2bd1f1090": {
           "label": "Magazines",
-          "x": 93978,
-          "y": 7871,
+          "x": 50849,
+          "y": 7530,
           "id": "19984526-6fb6-4297-8224-36b2bd1f1090"
         },
         "a31289f0-92b7-464f-bc6f-f9ff0c13784e": {
           "label": "Articles",
-          "x": 93967,
-          "y": 7896,
+          "x": 50838,
+          "y": 7555,
           "id": "a31289f0-92b7-464f-bc6f-f9ff0c13784e"
         },
         "ebc11b40-9481-417f-b8e0-bcbe4e6b2391": {
           "label": "Media content",
-          "x": 93989,
-          "y": 7921,
+          "x": 50860,
+          "y": 7580,
           "id": "ebc11b40-9481-417f-b8e0-bcbe4e6b2391"
         },
         "5bf83038-55b6-4a62-824c-c96b789abcd1": {
           "label": "Misc. web links",
-          "x": 93991,
-          "y": 7946,
+          "x": 50862,
+          "y": 7605,
           "id": "5bf83038-55b6-4a62-824c-c96b789abcd1"
         },
         "d01a9dbc-faa7-43d2-8bf2-9861aef5f977": {
           "label": "Projects",
-          "x": 93969,
-          "y": 7971,
+          "x": 50840,
+          "y": 7630,
           "id": "d01a9dbc-faa7-43d2-8bf2-9861aef5f977"
         },
         "6fed2ddf-5d8c-493a-a9d1-0559f66cb472": {
           "label": "Tools",
-          "x": 93960,
-          "y": 7996,
+          "x": 50831,
+          "y": 7655,
           "id": "6fed2ddf-5d8c-493a-a9d1-0559f66cb472"
         },
         "aa81462b-395c-4251-8a6b-209b841c4c61": {
           "label": "Organizations",
-          "x": 93988,
-          "y": 8021,
+          "x": 50859,
+          "y": 7680,
           "id": "aa81462b-395c-4251-8a6b-209b841c4c61"
         },
         "6aad8a87-7f0b-4d8f-981e-194ead41c05a": {
           "label": "Standarts",
-          "x": 93974,
-          "y": 8046,
+          "x": 50845,
+          "y": 7705,
           "id": "6aad8a87-7f0b-4d8f-981e-194ead41c05a"
         },
         "08903e7b-149f-47f1-8653-7b96ba418c1f": {
           "label": "Forums, Groups",
-          "x": 93996,
-          "y": 8071,
+          "x": 50867,
+          "y": 7730,
           "id": "08903e7b-149f-47f1-8653-7b96ba418c1f"
         },
         "4bbee75c-f499-413e-9add-41af2f8f7e89": {
           "label": "Laws",
-          "x": 93960,
-          "y": 8096,
+          "x": 50831,
+          "y": 7755,
           "id": "4bbee75c-f499-413e-9add-41af2f8f7e89"
         },
         "2c276004-e3d0-4535-802a-c2e880c3efa3": {
           "label": "Adjacent Themes",
-          "x": 93999,
-          "y": 8121,
+          "x": 50870,
+          "y": 7780,
           "id": "2c276004-e3d0-4535-802a-c2e880c3efa3"
         },
         "590d1907-6830-4c78-a86f-ebb881754971": {
           "label": "Questions",
-          "x": 93749,
-          "y": 8246,
+          "x": 50620,
+          "y": 7905,
           "id": "590d1907-6830-4c78-a86f-ebb881754971"
         },
         "a939494e-67ed-4ab7-9dd0-b99365b90625": {
           "label": "Problems",
-          "x": 93749,
-          "y": 8346,
+          "x": 50620,
+          "y": 8005,
           "id": "a939494e-67ed-4ab7-9dd0-b99365b90625"
         },
         "0f2fef08-f6c1-43ab-80f4-78dfdb611736": {
           "label": "Goals",
-          "x": 93749,
-          "y": 8446,
+          "x": 50620,
+          "y": 8105,
           "id": "0f2fef08-f6c1-43ab-80f4-78dfdb611736"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088632": {
@@ -30937,40 +22990,40 @@ var schemeData =
           "shapeProperties": {},
           "label": "Canvas\nviews",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088632",
-          "x": 97276,
-          "y": 8309,
+          "x": 54147,
+          "y": 7968,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "c0f51beb-5244-4004-9a0b-2bfb1b1badff": {
           "id": "c0f51beb-5244-4004-9a0b-2bfb1b1badff",
-          "x": 94165,
-          "y": 7618,
+          "x": 51036,
+          "y": 7277,
           "label": "Big theme of canvas views"
         },
         "901dbd30-a64d-4f30-af12-3774ab5a131b": {
           "id": "901dbd30-a64d-4f30-af12-3774ab5a131b",
-          "x": 94273,
-          "y": 7649,
+          "x": 51144,
+          "y": 7308,
           "label": "Canvas view means some virtual camera directed on canvas"
         },
         "c4e0bdb9-b770-4a4d-b934-00c4dc819e71": {
           "id": "c4e0bdb9-b770-4a4d-b934-00c4dc819e71",
-          "x": 94254,
-          "y": 7679,
+          "x": 51125,
+          "y": 7338,
           "label": "Views contain high complexity which can be organized."
         },
         "35d48e80-aaa8-483b-9d68-7cbffaef84d8": {
           "id": "35d48e80-aaa8-483b-9d68-7cbffaef84d8",
-          "x": 94219,
-          "y": 7710,
+          "x": 51090,
+          "y": 7369,
           "label": "There can be many collections of views lists"
         },
         "6df3ceaf-bb1a-4f07-9afa-8eeec64c1288": {
           "id": "6df3ceaf-bb1a-4f07-9afa-8eeec64c1288",
-          "x": 94106,
-          "y": 7738,
+          "x": 50977,
+          "y": 7397,
           "label": "Hotkeys"
         },
         "a0d2d2c4-c55a-4c78-9cb4-1fa7c00caca8": {
@@ -32529,7 +24582,7 @@ var schemeData =
         "84cd0cc6-b761-4b97-a432-66581d9cac1f": {
           "id": "84cd0cc6-b761-4b97-a432-66581d9cac1f",
           "x": 28688,
-          "y": 1542,
+          "y": 1511,
           "label": "console.clear();\nvar name;\nvar selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\nif (selectedNodes.length != 1) return;\nname = selectedNodes[0].options.label;\nname = name.replace(/.*org\\/wiki\\//, \"\");\n\nvar codeNode = network.body.data.nodes.get(codeNodeId);\nvar pNode = network.getPositions()[codeNodeId];\nvar url = \"https://en.wikipedia.org/api/rest_v1/page/references/\"; \nurl = url + name;\nconsole.log(url);\n\nvar newNodesIds = [];\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\nconsole.log(response);\n        var refs = response.references_by_id;\n        var i = 0;\n        for (var ref in refs) {\n            var line = refs[ref].content;\n            line = line.html + \". Type: \" + line.type;\n            line = line.match(/.{1,70}/g).join(\"\\n\");\n            console.log(line);\n            var nodeId = addNodeOnCanvas(\n               line, \n               \"\",\n               {x:pNode.x, y:pNode.y}, \n               4500, \n               25*i, \n               network)[0];\n               newNodesIds.push(nodeId);\n               var edgeData = {from: selectedNodes[0].id, to: nodeId};\n               network.body.data.edges.getDataSet().add(edgeData);\n\n            i++;\n        }\n    })\n    .then(function(response) {\n       var nodeBBox = network.nodesHandler.getBoundingBox(newNodesIds[0]);\n       var y = nodeBBox[\"top\"];\n       newNodesIds.forEach(function(nodeId,index) {\n                var node = network.body.data.nodes.get(nodeId);\n                node.font = {align: \"left\"};\n                node.x = node.x + 300;\n                node.y = y + (14*node.label.split(\"\\n\").length)/2\n                y = y + 14*node.label.split(\"\\n\").length + 25;\n                network.body.data.nodes.update(node);\n       });\n       var nodes = [];\n       newNodesIds.forEach(function(nodeId) {      \n          nodes.push(network.body.nodes[nodeId]);\n       });\n       alignNodesLeft(nodes);\n    })\n    .catch(function(error){console.log(error);});\n\nvar node = network.body.data.nodes.get(selectedNodes[0].id);\nvar pNode = network.getPositions()[node.id];\nif (typeof node.font === \"undefined\") node.font = {};\nnode.font.size = 100;\nnode.x = pNode.x + 3000;\nnetwork.body.data.nodes.update(node);\n",
           "shape": "box",
           "link": "",
@@ -32560,2452 +24613,6 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501",
-          "x": 65117,
-          "y": 8050,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./app/culture.html",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501",
-          "x": 66142,
-          "y": 8043,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501",
-          "x": 66661,
-          "y": 8029
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232501": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./app/culture.html",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232501",
-          "x": 72777,
-          "y": 8737,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Culture</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
-          "x": 67231,
-          "y": 7971,
-          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "46ca27cc-0371-4111-a4c2-6db8795d0e65232501": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
-          "x": 67640,
-          "y": 8293,
-          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "061899dc-a185-4eaf-a3ac-c8e943203b3e232501": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
-          "x": 67810,
-          "y": 8823,
-          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
-          "x": 67660,
-          "y": 9523,
-          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "69e1c992-010c-4a23-9c38-eb54979a89de232501": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"culture.data.js?28\"></script>\n<script type=\"text/javascript\" src=\"application.js?28\"></script>\n\n</body>\n</html>",
-          "x": 67928,
-          "y": 10270,
-          "id": "69e1c992-010c-4a23-9c38-eb54979a89de232501",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438": {
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438",
-          "x": 44256,
-          "y": 20382,
-          "label": "updateSchemeFromMenu()",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 100,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438560": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "updateMenuFromScheme()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560",
-          "x": 44256,
-          "y": 20815,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "clearPopUp()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110",
-          "x": 43938,
-          "y": 21516,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "cancelEdit(callback)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983",
-          "x": 44088,
-          "y": 21662,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "saveData(data,callback)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836",
-          "x": 44181,
-          "y": 21815,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "init()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734",
-          "x": 43740,
-          "y": 22201,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "9504eef0-ca25-4f87-903f-5eb982771d0a": {
-          "id": "9504eef0-ca25-4f87-903f-5eb982771d0a",
-          "x": 40955,
-          "y": 22354,
-          "label": "function saveDrawingSurface() {\n   drawingSurfaceImageData = ctx.getImageData(0, 0, canvas.width, canvas.height);\n}",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "75ea4d00-4513-4b9b-84c6-99d3b899fd47": {
-          "id": "75ea4d00-4513-4b9b-84c6-99d3b899fd47",
-          "x": 40855,
-          "y": 22503,
-          "label": "function restoreDrawingSurface() {\n    ctx.putImageData(drawingSurfaceImageData, 0, 0);\n}",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "saveDrawingSurface()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697",
-          "x": 44138,
-          "y": 22394,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "restoreDrawingSurface()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594",
-          "x": 44188,
-          "y": 22531,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "selectNodesFromHighlight()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567",
-          "x": 44263,
-          "y": 22698,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "getStartToEnd(start, theLen)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775",
-          "x": 44274,
-          "y": 23026,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "getNodesByRegexSearchInLabel(network, regex)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891",
-          "x": 44747,
-          "y": 23186,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891944": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "updateNodePositionData(network, node)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891944",
-          "x": 44550,
-          "y": 23472,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "makeSaveProjectToBrowserNode(label, positionX, positionY)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453",
-          "x": 45000,
-          "y": 23862,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "findProjectSavesKeys()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756",
-          "x": 44164,
-          "y": 24198,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "deleteNodesIfTheyAreProjectSaves(network, nodes)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984",
-          "x": 44811,
-          "y": 24659,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "removeSaveNodes()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321",
-          "x": 44102,
-          "y": 24996,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321681": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "removeSaveNodes()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321681",
-          "x": 44102,
-          "y": 25332,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74": {
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74",
-          "x": 44805,
-          "y": 25677,
-          "label": "getProjectId(saveCanvasProjectDataNode, network)",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 100,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "deleteProjectLocalStorageSaves(network)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132",
-          "x": 44580,
-          "y": 26127,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "deleteLocalStorageSavesAndSaveNodes(network)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457",
-          "x": 44773,
-          "y": 26290,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveName)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414",
-          "x": 45297,
-          "y": 26475,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "loadSavedProjectDataToDataMenuBySaveName(network, saveName)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594",
-          "x": 45209,
-          "y": 26703,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "saveProjectToBrowserLocalStorage(network)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904",
-          "x": 44646,
-          "y": 26848,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "clearBrowserLocalStorage()",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816",
-          "x": 44264,
-          "y": 27337,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "showBrowserLocalStorage()",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571",
-          "x": 44272,
-          "y": 27558,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "showBrowserLocalStorageKeys()",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617",
-          "x": 44384,
-          "y": 27731,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "addConnections(elem, index)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883",
-          "x": 44303,
-          "y": 35305,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "importNetwork()",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465",
-          "x": 44006,
-          "y": 35616,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465666": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "getNodeData(data)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465666",
-          "x": 44077,
-          "y": 35811,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "getEdgeData(data)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697",
-          "x": 44075,
-          "y": 36178,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "c(x, y)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725",
-          "x": 43786,
-          "y": 37572,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "rdf()",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732",
-          "x": 43742,
-          "y": 37995,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "localStorageSpace()",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864",
-          "x": 44105,
-          "y": 38334,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "makeNodeJsonLine(id, label, link, x, y)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375",
-          "x": 44509,
-          "y": 38699,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375532": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "addNodeOnCanvas(label, link, position, shiftX, shiftY, network)",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375532",
-          "x": 44508,
-          "y": -4977,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "countSelectedNodesAndEdges()",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144",
-          "x": 44379,
-          "y": 39214,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144737": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "help()",
-          "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144737",
-          "x": 43778,
-          "y": 39461,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438612": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "getUrlVars()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612",
-          "x": 43404,
-          "y": -6774,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "982a5710-863b-40df-884d-70b558608e9b486889": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "function objectToArray(obj) {\n\treturn Object.keys(obj).map(function (key) {\n\t\tobj[key].id = key;\n\t\treturn obj[key];\n\t});\n}",
-          "x": 39674,
-          "y": -6568,
-          "id": "982a5710-863b-40df-884d-70b558608e9b486889",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438612702": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "objectToArray(obj)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702",
-          "x": 43545,
-          "y": -6604,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "getNodeById(data, id)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138",
-          "x": 43608,
-          "y": -5619,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "destroy()",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348",
-          "x": 43317,
-          "y": -5110,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348974": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "alignNodesLeft(nodes)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348974",
-          "x": 43634,
-          "y": -4598,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "b9f0ff34-99a9-496b-b5a9-1922a75a864f531": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function mkdirRecursiveSync(path, pathDelimiter) {\n    var paths = path.split(pathDelimiter);\n    var fullPath = '';\n    paths.forEach((path) => {\n\n        fullPath = fullPath + path + pathDelimiter;\n\n        if (!fs.existsSync(fullPath)) {\n            fs.mkdirSync(fullPath);\n        }\n    });\n};",
-          "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531",
-          "x": 40850,
-          "y": -3804,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "b9f0ff34-99a9-496b-b5a9-1922a75a864f531105": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "function collectCodeNodesContent(rootCodeNodeId) {\n\tvar codeNode = getNodeFromNetworkDataById(rootCodeNodeId).label + \"\\n\";\n\tvar nodeEdges = network.body.nodes[rootCodeNodeId].edges;\n\tvar codeEdges = [];\n\tnodeEdges.forEach(function(edge) {\n\t\tif (edge.options.label == \"code\" && edge.fromId == rootCodeNodeId) {\n\t\t\tcodeEdges.push(edge);\n\t\t}\n\t});\n\tvar branchCodeNodes = [];\n\tcodeEdges.forEach(function(codeEdge) {\n\t\tbranchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));\n\t});\n\tfunction compare( a, b ) {\n\t\tif ( a.y < b.y ){\n\t\t\treturn -1;\n\t\t}\n\t\tif ( a.y > b.y ){\n\t\t\treturn 1;\n\t\t}\n\t\treturn 0;\n\t}\n\n\tvar branchCodeNodes = branchCodeNodes.sort(compare);\n\tbranchCodeNodes.forEach(function(branchNode) {\n\t\tcodeNode = codeNode + collectCodeNodesContent(branchNode.id);\n\t});\n\treturn codeNode;\n}\n",
-          "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531105",
-          "x": 40932,
-          "y": -3480,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "showAlert(alertLine, rightShift, width)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476",
-          "x": 43945,
-          "y": -4062,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mkdirRecursiveSync(path, pathDelimiter)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305",
-          "x": 44039,
-          "y": -3821,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305115": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "collectCodeNodesContent(rootCodeNodeId)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305115",
-          "x": 44113,
-          "y": -3608,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501969": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501969",
-          "x": 65072,
-          "y": 11419,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./app/ruby.html",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969",
-          "x": 66097,
-          "y": 11412,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969",
-          "x": 66616,
-          "y": 11398
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232501969": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./app/ruby.html",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931895555992068320113486693232501969",
-          "x": 72211,
-          "y": 12106,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Ruby</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
-          "x": 67186,
-          "y": 11340,
-          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "46ca27cc-0371-4111-a4c2-6db8795d0e65232501969": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
-          "x": 67595,
-          "y": 11662,
-          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501969",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "061899dc-a185-4eaf-a3ac-c8e943203b3e232501969": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
-          "x": 67765,
-          "y": 12192,
-          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501969",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501969": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
-          "x": 67615,
-          "y": 12892,
-          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501969",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "69e1c992-010c-4a23-9c38-eb54979a89de232501969": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"ruby.data.js?28\"></script>\n<script type=\"text/javascript\" src=\"application.js?28\"></script>\n\n</body>\n</html>",
-          "x": 67883,
-          "y": 13639,
-          "id": "69e1c992-010c-4a23-9c38-eb54979a89de232501969",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "f3d14ff2-381e-4414-b827-281e3a874d8d": {
-          "id": "f3d14ff2-381e-4414-b827-281e3a874d8d",
-          "x": 40970,
-          "y": 9591,
-          "label": "   function findParentNodeId(nodeId) {\n      var edges = network.body.nodes[nodeId].edges;\n      if ((typeof edges === \"undefined\") || (edges.length == 0)) {\n         return nodeId;\n      }\n      var parentNodeId;\n      for (var key in edges) {\n         if (edges[key].toId == nodeId) {\n            parentNodeId = edges[key].from.id;\n         }\n      }\n      return parentNodeId;\n   }",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "733b5c00-aede-4745-94aa-1b37be84161f": {
-          "id": "733b5c00-aede-4745-94aa-1b37be84161f",
-          "x": 40957,
-          "y": 9768,
-          "label": "   function findTreeRootNodeId(branchNodeId) {\n      var parentNodeId = findParentNodeId(branchNodeId);\n      if (typeof parentNodeId !== \"undefined\") {\n         return findTreeRootNodeId(parentNodeId);   \n      } else {\n         return branchNodeId;\n      }\n   }",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438130": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "findParentNodeId(nodeId)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438130",
-          "x": 44247,
-          "y": 9611,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d43813098": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "findTreeRootNodeId(branchNodeId)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43813098",
-          "x": 44468,
-          "y": 9788,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
         "7e39abb2-44d4-4d3c-a65b-56de4051a233": {
           "label": "",
           "link": "",
@@ -35019,1127 +24626,6 @@ var schemeData =
           "x": 30193,
           "y": -3327,
           "id": "fbdc8df6-13cf-42a3-8140-215ebb6f514e"
-        },
-        "6d7af570-fdce-465e-a2f1-60445c56afa4486711": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
-          "x": 41815,
-          "y": 14652,
-          "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "6d7af570-fdce-465e-a2f1-60445c56afa4486711766": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement. alt+Enter\n      if (event.altKey && event.keyCode === 13) {\n         $(\"span#saveElementEditButton\").click();\n      }\n   });",
-          "x": 41808,
-          "y": 14342,
-          "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711766",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "6d7af570-fdce-465e-a2f1-60445c56afa448671176664": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement and closeElement. ctrl+Enter\n      if (event.ctrlKey && event.keyCode === 13) {\n         $(\"span#saveElementEditButton\").click();\n         $(\"span#closeElementEditButton\").click();\n      }\n   });",
-          "x": 41808,
-          "y": 14501,
-          "id": "6d7af570-fdce-465e-a2f1-60445c56afa448671176664",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "6d7af570-fdce-465e-a2f1-60445c56afa4486711685": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"div#network\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27 && document.getElementsByClassName(\"vis-back\").length == 0) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
-          "x": 41906,
-          "y": 14838,
-          "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711685",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "83256af2-2780-4edb-87da-35273c359d5e486446": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom out. shift+alt+d\n      if (event.shiftKey && event.altKey && event.keyCode === 68) {\n         var scale = network.getScale();\n         var newScale = scale / 1.5;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
-          "x": 41808,
-          "y": 13492,
-          "id": "83256af2-2780-4edb-87da-35273c359d5e486446",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "83256af2-2780-4edb-87da-35273c359d5e486446908": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom in. shfit+alt+f\n      if (event.shiftKey && event.altKey && event.keyCode === 70) {\n         var scale = network.getScale();\n         var newScale = scale * 1.5;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
-          "x": 41808,
-          "y": 13710,
-          "id": "83256af2-2780-4edb-87da-35273c359d5e486446908",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "83256af2-2780-4edb-87da-35273c359d5e486446933": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"div#network\").keydown(function (event) {\n      //Left align nodes. shift+alt+LeftArrow\n      if (event.shiftKey && event.altKey && event.keyCode === 37) {\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         alignNodesLeft(nodes);\n      }\n   });",
-          "x": 41850,
-          "y": 13345,
-          "id": "83256af2-2780-4edb-87da-35273c359d5e486446933",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "eb0ba66c-cb07-4091-9620-ba275cd953c1": {
-          "id": "eb0ba66c-cb07-4091-9620-ba275cd953c1",
-          "x": 40780,
-          "y": -16571,
-          "label": "Colors"
-        },
-        "de86a007-afdc-4e9a-bbc1-aa9a7fc0008d": {
-          "id": "de86a007-afdc-4e9a-bbc1-aa9a7fc0008d",
-          "x": 40969,
-          "y": -16580,
-          "label": "#ffc63b",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "fab03ac4-8e8d-495b-b5c6-d70e8bcef3ba": {
-          "id": "fab03ac4-8e8d-495b-b5c6-d70e8bcef3ba",
-          "x": 41159,
-          "y": -16615,
-          "label": "main yellow"
-        },
-        "13bffe38-a62f-48f9-ab36-2e2dd6811ca0": {
-          "id": "13bffe38-a62f-48f9-ab36-2e2dd6811ca0",
-          "x": 40976,
-          "y": -16618,
-          "label": "#FFD570",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#FFD570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "44a76563-0db7-4605-bdff-08f8854b1fcc": {
-          "id": "44a76563-0db7-4605-bdff-08f8854b1fcc",
-          "x": 41217,
-          "y": -16574,
-          "label": "dense yellow. For highlighting."
-        },
-        "fa37a787-ebbe-4644-a1df-f9d1f8892137": {
-          "id": "fa37a787-ebbe-4644-a1df-f9d1f8892137",
-          "x": 40956,
-          "y": -16529,
-          "label": "red",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "red",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "c758d613-aa2c-4391-8028-0aa1231fb775": {
-          "id": "c758d613-aa2c-4391-8028-0aa1231fb775",
-          "x": 41151,
-          "y": -16530,
-          "label": "obviously"
-        },
-        "5af1d19f-1308-48cc-9c7f-405353d126e5": {
-          "id": "5af1d19f-1308-48cc-9c7f-405353d126e5",
-          "x": 40970,
-          "y": -16485,
-          "label": "#af55f4",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#af55f4",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "88bb4383-a951-40df-a3db-e8dfaaf83de5": {
-          "id": "88bb4383-a951-40df-a3db-e8dfaaf83de5",
-          "x": 41217,
-          "y": -16485,
-          "label": "for goals, problems, questions"
-        },
-        "83256af2-2780-4edb-87da-35273c359d5e486446933240": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   var expanded = false;\n   $(\"div#network\").keydown(function (event) {\n      //Toggle nodeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (expanded) {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n            expanded = false;\n         } else {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"580px\");\n            expanded = true;\n         }\n      }\n   });",
-          "x": 41802,
-          "y": 13142,
-          "id": "83256af2-2780-4edb-87da-35273c359d5e486446933240",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "27a85b50-7b54-4434-a753-f2455b46b846486695": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "function getNodeFromNetworkDataById(id) {\n   var node;\n   if (Array.isArray(network.body.data.nodes.get(id))) {\n      node = network.body.data.nodes.get(id)[0];\n   } else {\n      node = network.body.data.nodes.get(id);\n   }\n   return node;\n}",
-          "x": 40836,
-          "y": -5379,
-          "id": "27a85b50-7b54-4434-a753-f2455b46b846486695",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138863": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 100,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "getNodeFromNetworkDataById(id)",
-          "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138863",
-          "x": 43888,
-          "y": -5370,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "fcdd0bec-d9eb-412f-810f-075698893dbf486622": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"#network\").keyup(function (event) {\n\t\t//Duplicate. Ctrl+alt+d.\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 68) {\n\t\t\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\t\t\tvar nodes = []\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tvar nodeD = getNodeFromNetworkDataById(node.id);\n\t\t\t\tpNode = network.getPositions()[node.id];\n\t\t\t\tnodeD.x = pNode.x;\n\t\t\t\tnodeD.y = pNode.y;\n\t\t\t\tnetwork.body.data.nodes.update(nodeD);\n\n\t\t\t\tnodes.push(getNodeFromNetworkDataById(node.id));\n\t\t\t});\n\t\t\tvar edges = []\n\t\t\tselectedEdges.forEach(function(edge) {\n\t\t\t\tedges.push(network.body.data.edges.get(edge.id));\n\t\t\t});\n\n\t\t\tvar data = {\n\t\t\t\tnodes: {},\n\t\t\t\tedges: {}\n\t\t\t};\n\t\t\t\n\t\t\tvar positions1 = network.getPositions();\n\t\t\tnodes1ToCopy = {}; \n\t\t\tnodes.forEach(function(item) {\n\t\t\t\tnodes1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tobjectToArray(positions1).forEach(function(position) {\n\t\t\t\t\tif (node.id == position.id) {\n\t\t\t\t\t\tnode.x = position.x;\n\t\t\t\t\t\tnode.y = position.y;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t});\n\t\t\tdata.nodes = nodes1ToCopy;\n\n\t\t\tvar edges1ToCopy = {}; \n\t\t\tedges.forEach(function(item) {\n\t\t\t\tedges1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.edges = edges1ToCopy;\n\t\t\tvar label = JSON.stringify(data, undefined, 1);\n\t\t\tvar data = JSON.parse(label);\n\t\t\tvar date = new Date();\n\t\t\tvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\tobjectToArray(data.nodes).forEach(function(node) {\n\t\t\t\tnode.id = node.id + idPostfix;\n\t\t\t\tnode.y = node.y; \n\t\t\t\tvar newNode = network.nodesHandler.create(node);\n\t\t\t\tnetwork.body.data.nodes.add(newNode.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newNode);\n\t\t\t});\n\t\t\tobjectToArray(data.edges).forEach(function(edge) {\n\t\t\t\tedge.id = edge.id + idPostfix;\t\n\t\t\t\tedge.from = edge.from + idPostfix;\n\t\t\t\tedge.to = edge.to + idPostfix;\n\t\t\t\tvar newEdge = network.edgesHandler.create(edge);\n\t\t\t\tnetwork.body.data.edges.add(newEdge.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newEdge);\n\t\t\t});\n\t\t\tnetwork.selectionHandler.setSelection(network.selectionHandler.getSelection());\n\t\t}\n\t});",
-          "x": 41866,
-          "y": 12525,
-          "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486622",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "fcdd0bec-d9eb-412f-810f-075698893dbf486737": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"#network\").keyup(function (event) {\n                //Save canvas. Ctrl+alt+s\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 83) {\n\t\t\tvar saveOperationsParentNode;\n\t\t\tvar saveOperationsParentNodeName = \"Save operations code\";\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveOperationsParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + saveOperationsParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tsaveOperationsParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[saveOperationsParentNode.id].edges;\n\t\t\tvar saveOperationsCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == saveOperationsParentNode.id) {\n\t\t\t\t\tsaveOperationsCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof saveOperationsCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no saveOperationsCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(saveOperationsCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(saveOperationsCodeNode.id);\n\t\t}\n\t});",
-          "x": 41972,
-          "y": 11792,
-          "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486737",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "fcdd0bec-d9eb-412f-810f-075698893dbf486441": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "   $(\"#network\").keyup(function (event) {\n      //Build project. alt+b\n      if (event.altKey && event.keyCode === 66) {\n         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 1) {\n            console.log(\"Select one node\");\n            showAlert(\"Select one node\", 80, 150);\n            return;\n         }\n         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);\n         var rootNode = getNodeFromNetworkDataById(rootNodeId);\n         var projectName = rootNode.label.replace(\"mvj code file for project name: \",\"\");\n\t\t\tvar buildProjectParentNode;\n\t\t\tvar buildProjectParentNodeName = \"buildProject code: \" + projectName;\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + buildProjectParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + buildProjectParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tbuildProjectParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[buildProjectParentNode.id].edges;\n\t\t\tvar buildProjectCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == buildProjectParentNode.id) {\n\t\t\t\t\tbuildProjectCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof buildProjectCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no buildProjectCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(buildProjectCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(buildProjectCodeNode.id);\n\t\t}\n\t});",
-          "x": 41959,
-          "y": 11252,
-          "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486441",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "    function editEdgeWithoutDrag(data, callback) {\n      // filling in the popup DOM elements\n      document.getElementById('edge-label').value = data.label;\n      document.getElementById('edge-saveButton').onclick = saveEdgeData.bind(this, data, callback);\n      document.getElementById('edge-cancelButton').onclick = cancelEdgeEdit.bind(this,callback);\n      document.getElementById('edge-popUp').style.display = 'block';\n    }",
-          "x": 42974,
-          "y": -979,
-          "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530202": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "    function saveEdgeData(data, callback) {\n      if (typeof data.to === 'object')\n        data.to = data.to.id\n      if (typeof data.from === 'object')\n        data.from = data.from.id\n      data.label = document.getElementById('edge-label').value;\n      clearEdgePopUp();\n      callback(data);\n    }",
-          "x": 42854,
-          "y": -602,
-          "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530202",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530363": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "    function cancelEdgeEdit(callback) {\n      clearEdgePopUp();\n      callback(null);\n    }",
-          "x": 42776,
-          "y": -743,
-          "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530363",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ad67e6a8-2a73-4042-aa3a-23ab75241eee48653036324": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "align": "left",
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "    function clearEdgePopUp() {\n      document.getElementById('edge-saveButton').onclick = null;\n      document.getElementById('edge-cancelButton').onclick = null;\n      document.getElementById('edge-popUp').style.display = 'none';\n    }",
-          "x": 42870,
-          "y": -850,
-          "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee48653036324",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "a9fb7747-e303-46fe-81a4-63ad6f89b258": {
-          "label": "",
-          "link": "",
-          "x": 41607,
-          "y": 13374,
-          "id": "a9fb7747-e303-46fe-81a4-63ad6f89b258"
-        },
-        "3c257944-3395-472f-b2d8-eadc467ec09c426": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "function getNodeFromNetworkDataById(id) {\n   var node;\n   var data = network.body.data.nodes.get(id);\n   if (Array.isArray(network.body.data.nodes.get(id))) {\n      node = network.body.data.nodes.get(id)[0];\n   } else {\n      node = network.body.data.nodes.get(id);\n   }\n   return node;\n}\n\nvar ed = network.body.edges;\n//var ed = objectToArray(network.body.edges);\nfor (key in ed) {\n//ed.forEach(function(e) {\n   //console.log(key);\n   //console.log(ed[key]);\n   //if (ed[key][\"to\"] == \"6d7af570-fdce-465e-a2f1-60445c56afa4486711441\") {\n   //   console.log(key);\n   //   console.log(ed[key]);\n   //}\n   var e = ed[key];\nif (e.fromId == \"6d7af570-fdce-465e-a2f1-60445c56afa4486711441\") {\n   console.log(e);\n}\nif (key == \"cf4b2a17-72a8-4edb-9d3a-a55a52398ece441\") {\n   console.log(e);\n}\n   var toNode = network.body.nodes[e.toId];\n   var fromNode = network.body.nodes[e.fromId];\n   //var toNode = getNodeFromNetworkDataById(e.to);\n   //var fromNode = getNodeFromNetworkDataById(e.from);\n   //var toNode = getNodeFromNetworkDataById(e.toId);\n   //var fromNode = getNodeFromNetworkDataById(e.fromId);\n   console.log(\"-------------\");\n//console.log(toNode);\n   if (typeof toNode === \"undefined\") {\n      console.log(\"toNode\");\n      console.log(key);\n      console.log(e);\n   }\n   if (typeof fromNode === \"undefined\") {\n      console.log(\"fromNode\");\n      console.log(key);\n      console.log(e);\n   }\n//});\n}",
-          "id": "3c257944-3395-472f-b2d8-eadc467ec09c426",
-          "x": 41287,
-          "y": -16044,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "9bea1621-4cda-4927-8da3-63ff571e4cf6": {
-          "id": "9bea1621-4cda-4927-8da3-63ff571e4cf6",
-          "x": 40821,
-          "y": -16190,
-          "label": "Cleaning data"
-        },
-        "a0cfdfb8-b498-4397-b871-ee20ad0cd6bf": {
-          "id": "a0cfdfb8-b498-4397-b871-ee20ad0cd6bf",
-          "x": 41651,
-          "y": -16083,
-          "label": "some tmp drafts"
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396",
-          "x": 65107,
-          "y": 14973,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./app/javascript.html",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396",
-          "x": 66132,
-          "y": 14966,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396",
-          "x": 66651,
-          "y": 14952
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011348669323250196986396": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./app/javascript.html",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011348669323250196986396",
-          "x": 73403,
-          "y": 15650,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; JavaScript</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
-          "x": 67221,
-          "y": 14894,
-          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "46ca27cc-0371-4111-a4c2-6db8795d0e6523250196986396": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
-          "x": 67626,
-          "y": 15216,
-          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e6523250196986396",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "061899dc-a185-4eaf-a3ac-c8e943203b3e23250196986396": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
-          "x": 67798,
-          "y": 15746,
-          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e23250196986396",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d80e4d87-43fe-4457-835f-0cbbbb8b335823250196986396": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
-          "x": 67650,
-          "y": 16446,
-          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b335823250196986396",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"javascript.data.js?28\"></script>\n<script type=\"text/javascript\" src=\"application.js?28\"></script>\n\n</body>\n</html>",
-          "x": 67918,
-          "y": 17193,
-          "id": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc": {
-          "id": "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc",
-          "x": 40821,
-          "y": -15399,
-          "label": "git and github"
-        },
-        "44401bba-5383-432e-b905-25e85a0b60ec": {
-          "id": "44401bba-5383-432e-b905-25e85a0b60ec",
-          "x": 41017,
-          "y": -15556,
-          "label": "cp application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\n../../sushilshik.github.io/",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "c2fcf7e4-edc1-4ba0-954f-b05037a6eaf6": {
-          "id": "c2fcf7e4-edc1-4ba0-954f-b05037a6eaf6",
-          "x": 41008,
-          "y": -15379,
-          "label": "git commit -a -m \"...\""
-        },
-        "2823b7f4-aeee-41a2-a9bb-b779dbb40869": {
-          "id": "2823b7f4-aeee-41a2-a9bb-b779dbb40869",
-          "x": 40973,
-          "y": -15429,
-          "label": "git add ..."
-        },
-        "16527e97-6d7e-4abc-8608-be7027a620f1": {
-          "id": "16527e97-6d7e-4abc-8608-be7027a620f1",
-          "x": 41363,
-          "y": -15431,
-          "label": "check git add on sushilshik.github repository"
-        },
-        "5c1bb553-b81a-463c-bfe6-5653dde6fa05": {
-          "id": "5c1bb553-b81a-463c-bfe6-5653dde6fa05",
-          "x": 41012,
-          "y": -15342,
-          "label": "git push origin master"
         },
         "849f7b5d-b9aa-4aa2-a527-8b8a5f654712728875": {
           "color": {
@@ -36687,7 +25173,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Javascript",
           "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145",
-          "x": 835,
+          "x": 834,
           "y": -17297,
           "shape": "box",
           "link": "",
@@ -36727,319 +25213,6 @@ var schemeData =
           "y": -17296,
           "shape": "box",
           "link": "javascript.html",
-          "borderWidth": ""
-        },
-        "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396984": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mvj code file for project name: mm-vis-js",
-          "id": "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396984",
-          "x": 65126,
-          "y": 18388,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396984": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "file path: ./app/music.html",
-          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396984",
-          "x": 66151,
-          "y": 18381,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396984": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "fileContent",
-          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396984",
-          "x": 66670,
-          "y": 18367
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011348669323250196986396984": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "mm-vis-js:\n./app/music.html",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206832011348669323250196986396984",
-          "x": 72597,
-          "y": 19065,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Music</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
-          "x": 67240,
-          "y": 18309,
-          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "46ca27cc-0371-4111-a4c2-6db8795d0e6523250196986396984": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
-          "x": 67645,
-          "y": 18631,
-          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e6523250196986396984",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "061899dc-a185-4eaf-a3ac-c8e943203b3e23250196986396984": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
-          "x": 67817,
-          "y": 19161,
-          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e23250196986396984",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "d80e4d87-43fe-4457-835f-0cbbbb8b335823250196986396984": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
-          "x": 67669,
-          "y": 19861,
-          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b335823250196986396984",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396984": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music.data.js?28\"></script>\n<script type=\"text/javascript\" src=\"application.js?28\"></script>\n\n</body>\n</html>",
-          "x": 67937,
-          "y": 20608,
-          "id": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396984",
-          "shape": "box",
-          "link": "",
           "borderWidth": ""
         },
         "9c23ce52-ccea-4254-b207-a33d8bc3248f": {
@@ -37089,7 +25262,7 @@ var schemeData =
           },
           "shapeProperties": {}
         },
-        "fcdd0bec-d9eb-412f-810f-075698893dbf4864417": {
+        "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -37117,15 +25290,15 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(document).keyup(function (event) {\n      //Run node code. alt+r\n      if (event.altKey && event.keyCode === 82) {\n         $(\"span#runNodeCodeButton\").click();\n      }\n   });",
-          "x": 41751,
-          "y": 10815,
-          "id": "fcdd0bec-d9eb-412f-810f-075698893dbf4864417",
+          "label": "Music",
+          "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680",
+          "x": 821,
+          "y": -17252,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
-        "6275abb8-d031-4098-851b-0e023b1aba05486499": {
+        "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -37138,8 +25311,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left",
-            "size": 14
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -37153,15 +25326,15 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function getLevelLastBranch(tree, levelNumber) {\n   var branch = tree;\n   var lastKey = tree.keys.slice(-1)[0];\n   for (var i = 0; i < levelNumber; i++) {\n      branch = branch.nodes[lastKey];\n      if (typeof branch === \"undefined\") {\n         return branch;\n      }\n      console.log(branch);\n      lastKey = branch.keys.slice(-1)[0];\n   }\n   return branch;\n}",
-          "x": 41840,
-          "y": 31205,
-          "id": "6275abb8-d031-4098-851b-0e023b1aba05486499",
+          "label": "sushilshik.github.com/music.html",
+          "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680",
+          "x": 1134,
+          "y": -17251,
           "shape": "box",
-          "link": "",
+          "link": "music.html",
           "borderWidth": ""
         },
-        "6275abb8-d031-4098-851b-0e023b1aba05486347": {
+        "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -37174,8 +25347,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left",
-            "size": 14
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -37189,15 +25362,15 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function buildRow(item, index, root) {\n\n   var currentItemStep = item.match(/^\\s*/g)[0].split(\"    \").length - 1;\n\n   var key = index.toString();\n\n   var labelAndLink = item.trim().split(\" (http\");\n   var label = labelAndLink[0].trim();\n\n   if (root.lastItemStep < currentItemStep) {\n      var branch = {nodes:{}};\n      branch.keys = [key];\n      branch.nodes[key] = item.trim();\n      branch.maxWidth = label.length;\n      branch.itemStep = currentItemStep;\n      branch.lastItemStep = currentItemStep;\n      var parentLevel = getLevelLastBranch(root, currentItemStep - 1);\n      parentLevel.nodes[key] = branch;\n      parentLevel.keys.push(key);\n   } else {\n      var parentLevel = getLevelLastBranch(root, currentItemStep);\n      parentLevel.nodes[key] = item.trim();\n      if (parentLevel.maxWidth < label.length) {\n         parentLevel.maxWidth = label.length;\n      }\n      parentLevel.keys.push(key);\n   }\n\n   root.lastItemStep = item.match(/^\\s*/g)[0].split(\"    \").length - 1;\n\n   return root;\n}",
-          "x": 41893,
-          "y": 31555,
-          "id": "6275abb8-d031-4098-851b-0e023b1aba05486347",
+          "label": "mm-vis-js code",
+          "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296",
+          "x": 850,
+          "y": -17202,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
-        "6275abb8-d031-4098-851b-0e023b1aba05486621": {
+        "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -37210,8 +25383,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left",
-            "size": 14
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -37225,12 +25398,84 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function buildPagesNodes(level, width, alignMap, parentNodeId) {\n   var nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n   var pNode = network.getPositions()[nodeIdInput];\n   var keys = level.keys;\n   var lastNodeId;\n   level.keys.forEach(function(key, index) {\n      if (typeof level.nodes[key].nodes !== \"undefined\") {\n         var newWidth = width + level.maxWidth*14;\n         buildPagesNodes(level.nodes[key], newWidth, alignMap, lastNodeId);\n      } else {\n         var line = level.nodes[key];\n         var labelAndLink = line.split(\" (http\");\n         var label = labelAndLink[0].trim();\n         var link = \"\";\n         if (typeof labelAndLink[1] !== \"undefined\") {\n            link = \"http\" + labelAndLink[1].slice(0,-1);\n         }\n         var nodeId = addNodeOnCanvas(\n            label, \n            link,\n            {x:pNode.x, y:pNode.y}, \n            width + level.maxWidth*14/2, \n            25*parseInt(key, 10), \n            network)[0];\n         lastNodeId = nodeId;\n         if (typeof parentNodeId !== \"undefined\" && parentNodeId !== null) {\n            var edgeData = {from: parentNodeId, to: nodeId};\n            network.body.data.edges.getDataSet().add(edgeData);\n         }\n         if (typeof alignMap[keys[0]] === \"undefined\") {\n            alignMap[keys[0]] = [];\n         }\n         alignMap[keys[0]].push(network.body.nodes[nodeId]);\n      }\n   });\n}",
-          "x": 41931,
-          "y": 32098,
-          "id": "6275abb8-d031-4098-851b-0e023b1aba05486621",
+          "label": "sushilshik.github.com/mm-vis-js_code.html",
+          "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296",
+          "x": 1166,
+          "y": -17199,
+          "shape": "box",
+          "link": "mm-vis-js_code.html",
+          "borderWidth": ""
+        },
+        "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296120": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Math",
+          "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296120",
+          "x": 818,
+          "y": -17155,
           "shape": "box",
           "link": "",
+          "borderWidth": ""
+        },
+        "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296120": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "sushilshik.github.com/math.html",
+          "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296120",
+          "x": 1132,
+          "y": -17152,
+          "shape": "box",
+          "link": "math.html",
           "borderWidth": ""
         }
       },
@@ -56977,4509 +45222,6 @@ var schemeData =
           "from": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709",
           "to": "518a2b66-f38b-49a4-9220-52cbdd3a9370709"
         },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb8": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb8",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c08",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab418"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a8": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a8",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab418",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db88"
-        },
-        "c3a6843c-e900-400a-917c-07ec0bc860248": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "c3a6843c-e900-400a-917c-07ec0bc860248",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db88",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628"
-        },
-        "ccfd6295-80c7-417f-a2d9-278ccf2bffba8": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "ccfd6295-80c7-417f-a2d9-278ccf2bffba8",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948"
-        },
-        "e5ba785a-6f82-4763-a510-664dc4db2d338": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "e5ba785a-6f82-4763-a510-664dc4db2d338",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948913238"
-        },
-        "40cd9975-8da2-43b4-9850-2ac3bf81a7988": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "40cd9975-8da2-43b4-9850-2ac3bf81a7988",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948911178"
-        },
-        "db8c0ae0-7a50-4694-b04f-74d885e27c088": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "db8c0ae0-7a50-4694-b04f-74d885e27c088",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948914128"
-        },
-        "824d1e06-4801-4d3e-9382-0af89a149c618": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "824d1e06-4801-4d3e-9382-0af89a149c618",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948917538"
-        },
-        "015aa6bf-9e7f-4110-8f0d-be657b35da8a8": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "015aa6bf-9e7f-4110-8f0d-be657b35da8a8",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948914808"
-        },
-        "d7089360-0c2c-4465-9153-0fa66296b0dd8": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "d7089360-0c2c-4465-9153-0fa66296b0dd8",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948916348"
-        },
-        "a8b1a432-2016-4f08-bf8d-7d30fb981af28": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "a8b1a432-2016-4f08-bf8d-7d30fb981af28",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948916988"
-        },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb890361": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb890361",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0890361",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41890361"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a890361": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a890361",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41890361",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8890361"
-        },
-        "a1ce6d60-c26f-4873-bb9c-d6c144667cc9890361": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "a1ce6d60-c26f-4873-bb9c-d6c144667cc9890361",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8890361",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890361"
-        },
-        "f761fb41-57e8-4ade-812d-35ca7e67c1b6361": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "f761fb41-57e8-4ade-812d-35ca7e67c1b6361",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890361",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602361"
-        },
-        "eabad745-0093-4815-902d-717db286ca22361": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "eabad745-0093-4815-902d-717db286ca22361",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890361",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602482361"
-        },
-        "b5ad278b-6caf-4860-bf63-839294d52ef1361": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "b5ad278b-6caf-4860-bf63-839294d52ef1361",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890361",
-          "to": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602482199361"
-        },
-        "552ea343-8a3c-41b1-9c17-a7380e84d4f6361": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "552ea343-8a3c-41b1-9c17-a7380e84d4f6361",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890361",
-          "to": "074f4931-22dc-48a3-8383-e3d90dbbc6b8361"
-        },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb206486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206486",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206486",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206486"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a206486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206486",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206486",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206486"
-        },
-        "879c054c-a77e-4e4e-8fba-0a897d5369a8486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "879c054c-a77e-4e4e-8fba-0a897d5369a8486",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206486",
-          "to": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486"
-        },
-        "6d3ec2bf-a5ff-47ec-96bc-07bc76d7900d486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "6d3ec2bf-a5ff-47ec-96bc-07bc76d7900d486",
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "db8817cf-9360-4031-ad9a-4f94541500f3486"
-        },
-        "fe89ba4f-6c48-442f-9b84-fd190552516b486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "fe89ba4f-6c48-442f-9b84-fd190552516b486",
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "982a5710-863b-40df-884d-70b558608e9b486"
-        },
-        "031221d6-330e-4644-8fb7-fef218bb81eb486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "031221d6-330e-4644-8fb7-fef218bb81eb486",
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "6ef24456-515e-4dab-b0cd-bd6547f9e9ea486"
-        },
-        "08aac37b-fbdd-4661-9057-a553daa0a825486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "08aac37b-fbdd-4661-9057-a553daa0a825486",
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "dd335ed4-e289-4094-9b02-33c3d12ede97486"
-        },
-        "808acc5e-fd49-40ad-912c-a68baff9a633486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "808acc5e-fd49-40ad-912c-a68baff9a633486",
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486"
-        },
-        "b814f0c5-44e0-40d6-a77a-f93aab5b2813486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "b814f0c5-44e0-40d6-a77a-f93aab5b2813486",
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "67d57766-61d3-4278-bd82-50b7bc0fd759486"
-        },
-        "725a5430-8bbd-47bf-912b-6290aada5784486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "725a5430-8bbd-47bf-912b-6290aada5784486",
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "399c5df4-d887-464d-8bad-d081f1623e44486"
-        },
-        "6dc7ddb8-8237-4af9-9b67-29b14773449a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "6dc7ddb8-8237-4af9-9b67-29b14773449a486",
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "5541e730-dc41-48fb-9666-86590c704c68486"
-        },
-        "b108f47a-74d9-4813-9ba3-b613f9d822ce486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "b108f47a-74d9-4813-9ba3-b613f9d822ce486",
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "f5f9ec15-27c8-4eba-aa98-273066ed1813486"
-        },
-        "a6b62115-9a83-4870-94f5-6d926df4965a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "a6b62115-9a83-4870-94f5-6d926df4965a486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "0c22bdb1-0345-498b-94bd-db8fae854b84486"
-        },
-        "4f2ffdc0-9cc7-4663-a56f-396954c84f10486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "4f2ffdc0-9cc7-4663-a56f-396954c84f10486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "27a85b50-7b54-4434-a753-f2455b46b846486"
-        },
-        "13dbb5d3-f0d0-4a0d-8cc8-4ca9b7e793ed486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "13dbb5d3-f0d0-4a0d-8cc8-4ca9b7e793ed486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "5f3eb8b7-ba33-4d15-938a-2eb50fca0147486"
-        },
-        "69b6f2be-34d3-4d94-bce9-424af209b342486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "69b6f2be-34d3-4d94-bce9-424af209b342486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "0df46278-b6f2-44b4-a9ca-bd3f5d276a03486"
-        },
-        "f1a22157-f715-4dd5-866b-7b5b2eb1c8df486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "f1a22157-f715-4dd5-866b-7b5b2eb1c8df486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "200bf789-2d9a-4de6-8068-2c291572d19f486"
-        },
-        "723c4563-67d7-4604-9770-b960edb98aea486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "723c4563-67d7-4604-9770-b960edb98aea486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "197518c9-c994-4b2d-8e91-28d12e81aab3486"
-        },
-        "980a2ef5-ec5a-4278-be4f-9c20d252093a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "980a2ef5-ec5a-4278-be4f-9c20d252093a486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "9e734091-2228-441b-9647-49c5df5e4dce486"
-        },
-        "816a067e-62ac-4c25-8d91-910386bea8d4486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "816a067e-62ac-4c25-8d91-910386bea8d4486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "d5fe0aa0-3f26-4c0c-9b08-fc116f68b15d486"
-        },
-        "e9e8ef68-e19a-4209-a712-0bd6c8668d23486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "e9e8ef68-e19a-4209-a712-0bd6c8668d23486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486"
-        },
-        "d7ba9e37-61b8-4b48-a664-358253c1e390486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "d7ba9e37-61b8-4b48-a664-358253c1e390486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486"
-        },
-        "233467d4-d013-470d-94c9-26dd803b8a47486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "233467d4-d013-470d-94c9-26dd803b8a47486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "8d17375a-60ee-42e3-b536-55ea40a1d0e1486"
-        },
-        "d589dcfa-83d7-4a00-9763-f15c4c17bb45486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "d589dcfa-83d7-4a00-9763-f15c4c17bb45486",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "fcdd0bec-d9eb-412f-810f-075698893dbf486"
-        },
-        "81a35aa9-0747-4683-9e82-620dfb35a05a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "81a35aa9-0747-4683-9e82-620dfb35a05a486",
-          "from": "200bf789-2d9a-4de6-8068-2c291572d19f486",
-          "to": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486"
-        },
-        "46ec37a5-9b34-49c7-8fe9-be328879753b486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "46ec37a5-9b34-49c7-8fe9-be328879753b486",
-          "from": "200bf789-2d9a-4de6-8068-2c291572d19f486",
-          "to": "ea77a73e-cae7-4e8d-b3b4-c87f266b706f486"
-        },
-        "be2af96a-bf5c-4638-ba59-1d22ede77556486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "be2af96a-bf5c-4638-ba59-1d22ede77556486",
-          "from": "197518c9-c994-4b2d-8e91-28d12e81aab3486",
-          "to": "a7f72bfd-d43b-4f91-bb2d-e7e8bc8c2616486"
-        },
-        "b203f90b-a6c3-446d-a8c3-7b44751ed76d486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "b203f90b-a6c3-446d-a8c3-7b44751ed76d486",
-          "from": "197518c9-c994-4b2d-8e91-28d12e81aab3486",
-          "to": "08ad669e-9383-494e-acca-304d62d9b66d486"
-        },
-        "2a467e31-4e31-421c-9260-54738fd5c27f486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "2a467e31-4e31-421c-9260-54738fd5c27f486",
-          "from": "197518c9-c994-4b2d-8e91-28d12e81aab3486",
-          "to": "a7e9dac8-0281-4db9-ab2c-0ab78f3d7871486"
-        },
-        "0d3aaaa1-af28-47f5-b928-d5a887aeb91c486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "0d3aaaa1-af28-47f5-b928-d5a887aeb91c486",
-          "from": "197518c9-c994-4b2d-8e91-28d12e81aab3486",
-          "to": "ce078f09-2392-4b82-a026-c8270861e701486"
-        },
-        "04a9646e-0251-4c71-87f0-de997676a075486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "04a9646e-0251-4c71-87f0-de997676a075486",
-          "from": "197518c9-c994-4b2d-8e91-28d12e81aab3486",
-          "to": "a56558cd-3cd0-4987-8241-732e4fcf21de486"
-        },
-        "775a810e-a048-42c6-9802-c74f87f2f043486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "775a810e-a048-42c6-9802-c74f87f2f043486",
-          "from": "197518c9-c994-4b2d-8e91-28d12e81aab3486",
-          "to": "219cf15e-e8b8-4100-87d3-25aca5f31803486"
-        },
-        "a00f263b-5592-4489-a911-60fb1e4067fa486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "a00f263b-5592-4489-a911-60fb1e4067fa486",
-          "from": "197518c9-c994-4b2d-8e91-28d12e81aab3486",
-          "to": "dd14b2ca-7613-4018-a0b5-86bbaa16d28e486"
-        },
-        "626a6a0a-c78b-4872-bd37-dfe89bee86a7486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "626a6a0a-c78b-4872-bd37-dfe89bee86a7486",
-          "from": "197518c9-c994-4b2d-8e91-28d12e81aab3486",
-          "to": "bec6836e-e13a-4860-a0da-ed2d40f39f18486"
-        },
-        "b8842c4d-72a6-4ca7-acd7-9eb35ecf414e486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "b8842c4d-72a6-4ca7-acd7-9eb35ecf414e486",
-          "from": "9e734091-2228-441b-9647-49c5df5e4dce486",
-          "to": "9cd8ff75-f730-40b0-97b1-4ab6544491c7486"
-        },
-        "07920fd2-d474-49f3-ad30-cf065d9810d4486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "07920fd2-d474-49f3-ad30-cf065d9810d4486",
-          "from": "d5fe0aa0-3f26-4c0c-9b08-fc116f68b15d486",
-          "to": "b344086f-96f1-45b9-be1f-a0cebf63b275486"
-        },
-        "5946a601-35c4-4c6a-bcac-611463387cd4486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "5946a601-35c4-4c6a-bcac-611463387cd4486",
-          "from": "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486",
-          "to": "165bd511-eaf1-40c4-963f-3d4312ea50fc486"
-        },
-        "38b8788c-7997-48b8-9fb7-c3bd2b526ed8486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "38b8788c-7997-48b8-9fb7-c3bd2b526ed8486",
-          "from": "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486",
-          "to": "e6b2c612-3d90-4b4d-a42e-cf3a14b07f55486"
-        },
-        "a99720fb-9ce5-48b1-b9d1-521a504ea44e486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "a99720fb-9ce5-48b1-b9d1-521a504ea44e486",
-          "from": "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486",
-          "to": "a0b6e8f4-c46c-4faf-9e58-60c14cd2d4b1486"
-        },
-        "82b24208-f695-426b-9cf8-578373c68f9c486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "82b24208-f695-426b-9cf8-578373c68f9c486",
-          "from": "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486",
-          "to": "af60ed74-46e4-4099-9adc-5ecc9d9aef01486"
-        },
-        "04c1a98b-da97-4306-9d7d-8415c669470d486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "04c1a98b-da97-4306-9d7d-8415c669470d486",
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "b1e665eb-079b-4a16-8fb4-2054b5c70fc2486"
-        },
-        "ecfcf1a6-8cfa-49e0-ace9-56017ca9d739486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "ecfcf1a6-8cfa-49e0-ace9-56017ca9d739486",
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486"
-        },
-        "a9c6823d-5031-4833-bf11-3eca83688e96486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "a9c6823d-5031-4833-bf11-3eca83688e96486",
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "02dc1f64-b3e0-4714-afd3-a46325785228486"
-        },
-        "d94b78e4-a854-4f13-9861-e7cebafc906a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "d94b78e4-a854-4f13-9861-e7cebafc906a486",
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "306b8d2b-e500-4e08-bb72-131a63a59872486"
-        },
-        "2d495a77-37b4-4e33-8b83-e5e04f9ce097486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "2d495a77-37b4-4e33-8b83-e5e04f9ce097486",
-          "from": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486",
-          "to": "3552edb9-2544-4402-8945-e803a851781f486"
-        },
-        "8cac494f-a0f3-433f-94a7-349be8a5a884486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "8cac494f-a0f3-433f-94a7-349be8a5a884486",
-          "from": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486",
-          "to": "7eff0af2-6a42-4ca5-b505-4592543db41b486"
-        },
-        "abc596ef-bd83-4669-991b-9963369685a4486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "abc596ef-bd83-4669-991b-9963369685a4486",
-          "from": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486",
-          "to": "04168eaf-52bc-40eb-8063-3a083d7f46f8486"
-        },
-        "80c9d871-1b85-48b6-b543-cbbadf5d3a2c486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "80c9d871-1b85-48b6-b543-cbbadf5d3a2c486",
-          "from": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486",
-          "to": "d9ba8cd8-7835-42b5-96d7-5fcedd329225486"
-        },
-        "d3bdd640-b3e0-48a9-a46e-aa5073ab14ab486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "d3bdd640-b3e0-48a9-a46e-aa5073ab14ab486",
-          "from": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486",
-          "to": "32c6bae5-5fe6-448c-b389-db4f0ee1e281486"
-        },
-        "7d767e98-b068-49c9-9954-0d74363369f3486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "7d767e98-b068-49c9-9954-0d74363369f3486",
-          "from": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486",
-          "to": "0a4aaf03-c68b-46ef-a61e-bc142f791d28486"
-        },
-        "821d668e-aa84-46ec-a0cb-a3e71a408fc6486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "821d668e-aa84-46ec-a0cb-a3e71a408fc6486",
-          "from": "8d17375a-60ee-42e3-b536-55ea40a1d0e1486",
-          "to": "36d89910-f39d-4917-be0a-74407a6a278a486"
-        },
-        "ffe8777f-ce9a-4f31-8941-63180cc8e7b1486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "ffe8777f-ce9a-4f31-8941-63180cc8e7b1486",
-          "from": "8d17375a-60ee-42e3-b536-55ea40a1d0e1486",
-          "to": "610d4222-77c1-4624-8652-bd79b449b283486"
-        },
-        "76fd0c6e-f320-4d4c-806b-5fa3d4e2ad7b486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "76fd0c6e-f320-4d4c-806b-5fa3d4e2ad7b486",
-          "from": "8d17375a-60ee-42e3-b536-55ea40a1d0e1486",
-          "to": "d2d3f771-3cd1-4c27-8376-b4cced8fce37486"
-        },
-        "c7126a4f-84d4-4623-8cd2-b6333e508310486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "c7126a4f-84d4-4623-8cd2-b6333e508310486",
-          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486",
-          "to": "1e98723b-79dd-48ff-b641-e241ebb725fe486"
-        },
-        "c40a5c00-8fb4-43f2-a16e-2b202c003cb0486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "c40a5c00-8fb4-43f2-a16e-2b202c003cb0486",
-          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486",
-          "to": "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486"
-        },
-        "769fe0b3-bd31-4ea9-a940-43c66b17ec6a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "769fe0b3-bd31-4ea9-a940-43c66b17ec6a486",
-          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486",
-          "to": "9d63b1f7-179d-4f64-b690-8da48388c7c4486"
-        },
-        "ab4e0c51-d2ba-42ce-83ea-e48b8e41d744486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "ab4e0c51-d2ba-42ce-83ea-e48b8e41d744486",
-          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486",
-          "to": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486"
-        },
-        "403d7b02-dd3c-4128-b5c9-5c7801567910486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "403d7b02-dd3c-4128-b5c9-5c7801567910486",
-          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
-          "to": "95440e5d-e2ab-4275-aea3-7084e5e08ef5486"
-        },
-        "f442921b-7ca6-472a-ab0c-659ab1bbfaa1486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "f442921b-7ca6-472a-ab0c-659ab1bbfaa1486",
-          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
-          "to": "d0f10764-b98d-4f26-8850-0d98258edd68486"
-        },
-        "186ca151-98aa-4171-a551-b2a20180b3a0486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "186ca151-98aa-4171-a551-b2a20180b3a0486",
-          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
-          "to": "c0f333be-7c73-49ff-9ce9-acd69d498858486"
-        },
-        "4c0c2770-0626-4abe-8416-25d71fd95956486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "4c0c2770-0626-4abe-8416-25d71fd95956486",
-          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
-          "to": "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b486"
-        },
-        "1057f44c-8302-411c-b200-67232dfea397486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "1057f44c-8302-411c-b200-67232dfea397486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "92f8f188-413d-47c9-bc96-f290485c46ee486"
-        },
-        "1333b726-0854-4beb-8cb4-b714039c86bd486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "1333b726-0854-4beb-8cb4-b714039c86bd486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "329c31d6-4840-47ce-97d1-48d6bd801404486"
-        },
-        "ca7d7ffd-1a91-4e92-8b0e-8c6a77d27ebd486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "ca7d7ffd-1a91-4e92-8b0e-8c6a77d27ebd486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "6740287a-c540-43ff-91f0-669cb96f10f3486"
-        },
-        "b9c2be9a-19ac-497f-9d97-b484db7e0eab486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "b9c2be9a-19ac-497f-9d97-b484db7e0eab486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "59635c29-9e7a-45ca-8525-2a37dbb488a7486"
-        },
-        "606e13a5-6c89-47c6-858a-3beb5e1d2e2d486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "606e13a5-6c89-47c6-858a-3beb5e1d2e2d486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "da40667d-7034-434c-96d9-aac61e394e23486"
-        },
-        "60945b80-283f-475a-ad1d-b6abb8a7be2a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "60945b80-283f-475a-ad1d-b6abb8a7be2a486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "3b49c915-fb27-47ab-bae5-20a308497725486"
-        },
-        "7a0984dc-0e06-4f50-a834-e4c1a0733501486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "7a0984dc-0e06-4f50-a834-e4c1a0733501486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "c08a7ff5-92f1-482b-a55e-5e4aa4210022486"
-        },
-        "37960c63-4565-4459-8cd3-cb542ebe1b6a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "37960c63-4565-4459-8cd3-cb542ebe1b6a486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "8ae3245a-50b6-4a3b-bace-03ff73f40545486"
-        },
-        "dfd7fb6f-5b05-48f0-8c33-611c4ed96088486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "dfd7fb6f-5b05-48f0-8c33-611c4ed96088486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "5caa6892-9023-4d77-8aa0-ff564a51cf58486"
-        },
-        "192ada62-9e75-4f89-a88e-32cffcb9f7b3486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "192ada62-9e75-4f89-a88e-32cffcb9f7b3486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "11d30fee-175d-4da8-b2d8-069850fe9400486"
-        },
-        "b2158a88-ae89-4095-bc20-88016adfaf6b486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "b2158a88-ae89-4095-bc20-88016adfaf6b486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "315819bf-0c74-42bf-a4f6-177dd930ed60486"
-        },
-        "72b220de-3dc1-4c49-91f0-f3fb267daa30486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "72b220de-3dc1-4c49-91f0-f3fb267daa30486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "6248ca66-72f9-4e9d-b5e2-f9f68abc3f37486"
-        },
-        "17452fc3-65e6-4806-bcbd-5ed31de8eddc486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "17452fc3-65e6-4806-bcbd-5ed31de8eddc486",
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "f7d23b14-e520-46cb-aef4-85a0e79044c7486"
-        },
-        "5178833b-5b90-4639-8bc0-fdb4203a360f486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "5178833b-5b90-4639-8bc0-fdb4203a360f486",
-          "from": "5541e730-dc41-48fb-9666-86590c704c68486",
-          "to": "7206a9f0-1dcf-4435-89e7-67b6913ada0a486"
-        },
-        "451ef85c-8864-43c1-91f2-ed1254e8dcdd486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "451ef85c-8864-43c1-91f2-ed1254e8dcdd486",
-          "from": "5541e730-dc41-48fb-9666-86590c704c68486",
-          "to": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486"
-        },
-        "6d0a6206-4f9d-4a80-b347-16bc81c9d74d486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "6d0a6206-4f9d-4a80-b347-16bc81c9d74d486",
-          "from": "5541e730-dc41-48fb-9666-86590c704c68486",
-          "to": "d89b86a0-bff8-4360-80b9-3636def7dcbe486"
-        },
-        "069130e5-b158-4fd3-824f-ff5ad463f15f486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "069130e5-b158-4fd3-824f-ff5ad463f15f486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "f61061d2-ae48-4aa6-bc30-1b87952ccbcd486"
-        },
-        "23c9bbee-3ed7-4345-b188-d6ead46b7996486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "23c9bbee-3ed7-4345-b188-d6ead46b7996486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "19662c04-ac5d-4a11-a4fd-a3547d193e13486"
-        },
-        "0bbfcf60-7c3e-4736-8785-75f4f349514d486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "0bbfcf60-7c3e-4736-8785-75f4f349514d486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "6275abb8-d031-4098-851b-0e023b1aba05486"
-        },
-        "b7bb1a3d-84fb-4c33-9ad7-87caefd39b1c486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "b7bb1a3d-84fb-4c33-9ad7-87caefd39b1c486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "716a50bb-4bcd-4b76-9786-935f4a51dd3f486"
-        },
-        "03e59279-9c5e-4881-9167-e3eaf43cb39b486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "03e59279-9c5e-4881-9167-e3eaf43cb39b486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "12528d0c-0743-4f7a-83a8-3160b804fc96486"
-        },
-        "5e438635-b87f-42cf-b04e-2c40a19dff47486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "5e438635-b87f-42cf-b04e-2c40a19dff47486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "963ce1eb-5c03-4df6-8305-6a9f1d28cc8d486"
-        },
-        "62b406d8-29aa-44a3-a86c-57ba293f1d66486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "62b406d8-29aa-44a3-a86c-57ba293f1d66486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "3c05b8b7-4e2d-41b6-bda6-be03883ea398486"
-        },
-        "c213a83a-88b0-4b2c-81ad-72f9629c3517486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "c213a83a-88b0-4b2c-81ad-72f9629c3517486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "851038ac-04bc-4373-99ce-445e9d30fdd0486"
-        },
-        "ac0ae5eb-4fa6-45f6-83a2-6192b7f71496486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "ac0ae5eb-4fa6-45f6-83a2-6192b7f71496486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "a119be82-a76d-4edb-96c4-34bbf43f614c486"
-        },
-        "aa180403-6049-4e70-ae10-19750e0e9f70486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "aa180403-6049-4e70-ae10-19750e0e9f70486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "998c7235-6bbf-4e48-bbed-61b6d38602ee486"
-        },
-        "37cae336-6701-4926-ae90-045010b812d9486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "37cae336-6701-4926-ae90-045010b812d9486",
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "e08d8881-f4b9-4565-97da-d3f87ce1fdb0486"
-        },
-        "784db0ff-9e0b-4e6b-a32c-00eeace021f8486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "784db0ff-9e0b-4e6b-a32c-00eeace021f8486",
-          "from": "d89b86a0-bff8-4360-80b9-3636def7dcbe486",
-          "to": "fa8926fb-1ed4-4c5a-819d-5edf7fc101e2486"
-        },
-        "e617336e-4f72-4e06-a182-b04be820e42a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "e617336e-4f72-4e06-a182-b04be820e42a486",
-          "from": "d89b86a0-bff8-4360-80b9-3636def7dcbe486",
-          "to": "85af1170-a5a1-4103-a973-0a3d5b2d371a486"
-        },
-        "23b2817c-6254-493c-9eb8-0886eb8bddba486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "23b2817c-6254-493c-9eb8-0886eb8bddba486",
-          "from": "d89b86a0-bff8-4360-80b9-3636def7dcbe486",
-          "to": "072e065d-822d-4715-8443-5bf850e6a75f486"
-        },
-        "0d6dd3df-703e-4fc3-8f8a-fea4d93dce18486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "0d6dd3df-703e-4fc3-8f8a-fea4d93dce18486",
-          "from": "d89b86a0-bff8-4360-80b9-3636def7dcbe486",
-          "to": "f240ef3f-be64-4718-8708-cce54a9a12e6486"
-        },
-        "db60b085-8d9e-4ed8-a7ea-8779eef1a959486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "db60b085-8d9e-4ed8-a7ea-8779eef1a959486",
-          "from": "d89b86a0-bff8-4360-80b9-3636def7dcbe486",
-          "to": "7413f257-38d2-49c0-aeab-10af492b6ea5486"
-        },
-        "9e8518d6-2c23-47ea-a759-f62fe0c5e51c486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "9e8518d6-2c23-47ea-a759-f62fe0c5e51c486",
-          "from": "d89b86a0-bff8-4360-80b9-3636def7dcbe486",
-          "to": "4081ba82-a323-4e4f-946f-daa1d303b2b4486"
-        },
-        "b1b6b574-16c7-4bb2-a5dc-6c0cdd20e09e486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "b1b6b574-16c7-4bb2-a5dc-6c0cdd20e09e486",
-          "from": "f5f9ec15-27c8-4eba-aa98-273066ed1813486",
-          "to": "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486"
-        },
-        "cb42e69c-2514-4e6e-a5e3-6e125d26164a486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "cb42e69c-2514-4e6e-a5e3-6e125d26164a486",
-          "from": "f5f9ec15-27c8-4eba-aa98-273066ed1813486",
-          "to": "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486"
-        },
-        "23e3c71f-5e7e-4af8-b661-0cc4cb9d3cb6486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "23e3c71f-5e7e-4af8-b661-0cc4cb9d3cb6486",
-          "from": "f5f9ec15-27c8-4eba-aa98-273066ed1813486",
-          "to": "e68d70a9-0e47-4168-ae35-bb44461b4110486"
-        },
-        "aef95956-3bf8-4f4f-baec-b15d7e159826486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "aef95956-3bf8-4f4f-baec-b15d7e159826486",
-          "from": "f5f9ec15-27c8-4eba-aa98-273066ed1813486",
-          "to": "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486"
-        },
-        "c33ac959-0b67-4835-9e7e-22f765d28511486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "c33ac959-0b67-4835-9e7e-22f765d28511486",
-          "from": "f5f9ec15-27c8-4eba-aa98-273066ed1813486",
-          "to": "20602b12-993a-42bc-8dd6-008215220e01486"
-        },
-        "8395e91f-93da-44a4-9804-adc7310102bd486": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "8395e91f-93da-44a4-9804-adc7310102bd486",
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "83256af2-2780-4edb-87da-35273c359d5e486"
-        },
-        "e6e948d5-33f3-41f5-b4e7-bc0c6a37dca2206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "e6e948d5-33f3-41f5-b4e7-bc0c6a37dca2206369486",
-          "from": "e2167bbe-693e-4fc7-b91b-062bda693c27206369486",
-          "to": "24835ccd-b98b-4f2f-bd45-fcaa9f38b03e206369486"
-        },
-        "30ecff0d-1090-4f9d-a5c1-eecb1583679c206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "30ecff0d-1090-4f9d-a5c1-eecb1583679c206369486",
-          "from": "e2167bbe-693e-4fc7-b91b-062bda693c27206369486",
-          "to": "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486"
-        },
-        "5f272143-d7bb-453c-8a91-0a9ae3e4626e206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5f272143-d7bb-453c-8a91-0a9ae3e4626e206369486",
-          "from": "e2167bbe-693e-4fc7-b91b-062bda693c27206369486",
-          "to": "e7b46853-9d75-4bcc-814c-783971395afa206369486"
-        },
-        "6df3f5e7-2ece-4147-bb94-5b1a9d0894c4206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "6df3f5e7-2ece-4147-bb94-5b1a9d0894c4206369486",
-          "from": "e2167bbe-693e-4fc7-b91b-062bda693c27206369486",
-          "to": "7a0a1963-1d69-425b-a067-3d6c97be0cc1206369486"
-        },
-        "de5a26d2-9ed1-42a4-b559-6ded0fe67796206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "de5a26d2-9ed1-42a4-b559-6ded0fe67796206369486",
-          "from": "e2167bbe-693e-4fc7-b91b-062bda693c27206369486",
-          "to": "ec17b97c-f06f-4590-ab22-01ff94faf0eb206369486"
-        },
-        "c0af2567-6d4a-472e-a819-6d4ff0d9ca33206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "c0af2567-6d4a-472e-a819-6d4ff0d9ca33206369486",
-          "from": "24835ccd-b98b-4f2f-bd45-fcaa9f38b03e206369486",
-          "to": "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486"
-        },
-        "c5568421-30cc-4cdf-bb2d-74f4e2bd6fdd206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "c5568421-30cc-4cdf-bb2d-74f4e2bd6fdd206369486",
-          "from": "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486",
-          "to": "f1d86e21-8dcb-40e1-a445-40bff68d13a2206369486"
-        },
-        "b72a1f5e-3cbb-4f46-af68-e7d9665b426a206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "b72a1f5e-3cbb-4f46-af68-e7d9665b426a206369486",
-          "from": "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486",
-          "to": "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486"
-        },
-        "013ae5ea-6060-4cb1-8d59-a2d6cf67de40206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "013ae5ea-6060-4cb1-8d59-a2d6cf67de40206369486",
-          "from": "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486",
-          "to": "636009f4-b1c7-4990-b4f0-2e2b3e654223206369486"
-        },
-        "b1fa4408-d50f-4402-ac0f-741d9b19464f206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "b1fa4408-d50f-4402-ac0f-741d9b19464f206369486",
-          "from": "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486",
-          "to": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486"
-        },
-        "9e7bb357-e3f4-4199-abba-f6a325f59451369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "9e7bb357-e3f4-4199-abba-f6a325f59451369486",
-          "from": "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486",
-          "to": "19cad5a8-bf31-4dc2-833f-94018d9bc12c369486"
-        },
-        "d2cec649-8cdc-414b-9a5e-3dec52219588206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d2cec649-8cdc-414b-9a5e-3dec52219588206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "dadf8c81-d0a9-4bb9-b3aa-cb0e872ae663206369486"
-        },
-        "560be5d8-8096-4027-82fd-556af5bb082e206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "560be5d8-8096-4027-82fd-556af5bb082e206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "511de7c7-f954-47d9-b9cb-1d25114d124a206369486"
-        },
-        "5e964988-fa91-42fa-b46c-28d94b392808206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5e964988-fa91-42fa-b46c-28d94b392808206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "8c186da9-2d90-4752-87d5-9c51f01aaeaa206369486"
-        },
-        "81275612-d95b-4c62-9879-aae9556f44b7206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "81275612-d95b-4c62-9879-aae9556f44b7206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "3ed80ff3-e9c7-41ad-ad41-4adcc9e92c6e206369486"
-        },
-        "0de476fe-8515-4aae-9a5a-586fff949fdd206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "0de476fe-8515-4aae-9a5a-586fff949fdd206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "a15afc99-7e3d-4676-896b-4d56c1b237ac206369486"
-        },
-        "3a3b1386-5797-48a3-855c-83fcbcaa6047206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "3a3b1386-5797-48a3-855c-83fcbcaa6047206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "3b475dd0-8619-48b1-8235-0396f1c366b4206369486"
-        },
-        "53385d7a-10a1-43b4-95b3-96bf2d2fde13206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "53385d7a-10a1-43b4-95b3-96bf2d2fde13206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "13be3cea-4aa2-4e7d-b72d-f3aabba738ad206369486"
-        },
-        "dfb35463-6d7c-4804-9fed-d2cbf8e60f32206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "dfb35463-6d7c-4804-9fed-d2cbf8e60f32206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "dd8c8df4-29ee-4c7a-b924-24858ff3c682206369486"
-        },
-        "84786e19-ab91-450f-9115-ac094e4db227206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "84786e19-ab91-450f-9115-ac094e4db227206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "67d89cae-970e-4780-b211-e8ffa3ee085d206369486"
-        },
-        "6cc14d8f-5d21-4113-b9a6-695619f19c06206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "6cc14d8f-5d21-4113-b9a6-695619f19c06206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "fc81f614-d532-41dd-aa0c-96a72dbe6b54206369486"
-        },
-        "c89f368d-172e-4a87-9bf9-98bdc8da2b6e206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "c89f368d-172e-4a87-9bf9-98bdc8da2b6e206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "5b628386-e316-4c48-a084-b6b643206d6e206369486"
-        },
-        "8b837f39-b158-492b-92af-c9abc17a2add206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "8b837f39-b158-492b-92af-c9abc17a2add206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "58b455fb-9348-4474-bcd5-2f5cb83b6804206369486"
-        },
-        "18a793a2-7a79-4430-bd36-66867f4c997d206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "18a793a2-7a79-4430-bd36-66867f4c997d206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "7bdb4374-cad2-40ec-97e8-3f40cfad4ee8206369486"
-        },
-        "bc2be9ea-77cc-49eb-9ef4-95ca0b8e68dd206369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "bc2be9ea-77cc-49eb-9ef4-95ca0b8e68dd206369486",
-          "from": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486",
-          "to": "d1cae5c0-c183-4be9-a80b-1a59148d879a206369486"
-        },
-        "e48f92bf-00ee-4959-b991-3ca388421470369486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "e48f92bf-00ee-4959-b991-3ca388421470369486",
-          "from": "19cad5a8-bf31-4dc2-833f-94018d9bc12c369486",
-          "to": "063a7ffc-4975-4000-9c73-2c221ec4f7f554206369486"
-        },
-        "f3961c99-8efb-43f5-9a8f-1904b5008547206200486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "f3961c99-8efb-43f5-9a8f-1904b5008547206200486",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0978206200486",
-          "to": "1bbcc7a4-45a0-4ea9-9862-fe18f6b37371206200486"
-        },
-        "1e4d4f18-58c1-4b47-a8ca-0e97155997bf200486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "1e4d4f18-58c1-4b47-a8ca-0e97155997bf200486",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0978206200486",
-          "to": "f5989e42-d06f-4d95-908e-2f58107e05aa200486"
-        },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a206401942486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942486",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486"
-        },
-        "e62662a7-32fb-456a-8e89-d3ec229c8a7f942486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "e62662a7-32fb-456a-8e89-d3ec229c8a7f942486",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486",
-          "to": "becab8db-7338-4a8d-9d1b-0840b81e6f89942486"
-        },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942167486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942167486",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942167486",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942167486"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a206401942167486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942167486",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942167486",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942167486"
-        },
-        "e62662a7-32fb-456a-8e89-d3ec229c8a7f942167486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "e62662a7-32fb-456a-8e89-d3ec229c8a7f942167486",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942167486",
-          "to": "becab8db-7338-4a8d-9d1b-0840b81e6f89942167486"
-        },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942167656486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942167656486",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942167656486",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942167656486"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a206401942167656486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942167656486",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942167656486",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942167656486"
-        },
-        "e62662a7-32fb-456a-8e89-d3ec229c8a7f942167656486": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "e62662a7-32fb-456a-8e89-d3ec229c8a7f942167656486",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942167656486",
-          "to": "becab8db-7338-4a8d-9d1b-0840b81e6f89942167656486"
-        },
-        "f705a95e-7fc5-4602-89c6-1285ddbd284b": {
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486",
-          "id": "f705a95e-7fc5-4602-89c6-1285ddbd284b"
-        },
-        "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0": {
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687",
-          "id": "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0"
-        },
-        "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a": {
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687",
-          "to": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486",
-          "id": "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a"
-        },
         "9df9f955-abb6-4b57-95ff-069869c65198399446989": {
           "arrows": {
             "to": {
@@ -61516,12 +45258,6 @@ var schemeData =
           "id": "9df9f955-abb6-4b57-95ff-069869c65198399446989",
           "from": "e14b01dd-2c74-49f5-a1f1-3f43c71260e9399446989",
           "to": "940f667a-13a1-44ab-8317-0378bb46bd88399446989"
-        },
-        "7c56dd98-48c0-4e59-b646-ae92aa377605": {
-          "label": "code",
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "b9f0ff34-99a9-496b-b5a9-1922a75a864f",
-          "id": "7c56dd98-48c0-4e59-b646-ae92aa377605"
         },
         "9df9f955-abb6-4b57-95ff-069869c65198399446378": {
           "arrows": {
@@ -61585,62 +45321,6 @@ var schemeData =
           "id": "7c56dd98-48c0-4e59-b646-ae92aa377605309",
           "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486309",
           "to": "b9f0ff34-99a9-496b-b5a9-1922a75a864f309"
-        },
-        "fa333c6c-c9b2-435a-ac53-5d514c97b07b": {
-          "label": "code",
-          "from": "e961bf3d-94d8-4e3d-af31-aaae8c05f4628",
-          "to": "b9f0ff34-99a9-496b-b5a9-1922a75a864f309",
-          "id": "fa333c6c-c9b2-435a-ac53-5d514c97b07b"
-        },
-        "f705a95e-7fc5-4602-89c6-1285ddbd284b626": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "f705a95e-7fc5-4602-89c6-1285ddbd284b626",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687626",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486626"
-        },
-        "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0626": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0626",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486626",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687626"
         },
         "9593c1b2-d380-4234-8a60-17a3952dbf7d446480": {
           "arrows": {
@@ -61716,588 +45396,6 @@ var schemeData =
           "from": "e14b01dd-2c74-49f5-a1f1-3f43c71260e9399446970",
           "to": "940f667a-13a1-44ab-8317-0378bb46bd88399446970"
         },
-        "85b58c7d-4bed-4040-a616-b379e4cf16eb": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "44b6c949-348a-4630-a8a3-b49993eb1b56",
-          "id": "85b58c7d-4bed-4040-a616-b379e4cf16eb"
-        },
-        "c75e68ce-3ac9-4bc7-9dfa-3a75fa23ed2d": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "964c71ee-3c03-4284-878b-f2fd61f58227",
-          "id": "c75e68ce-3ac9-4bc7-9dfa-3a75fa23ed2d"
-        },
-        "1f77ecd1-eaff-472b-9f7e-d95879d128b2": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "26fc4edc-4fac-42a6-ad3a-5b3bd5617a7a",
-          "id": "1f77ecd1-eaff-472b-9f7e-d95879d128b2"
-        },
-        "037e747a-4a10-4fcf-a48e-27d82e724670": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "id": "037e747a-4a10-4fcf-a48e-27d82e724670"
-        },
-        "dd813f3d-7d45-4dd7-889d-e2ac2e0985b7": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "9c8822d9-e846-4c76-a36d-6e17fb95cef9",
-          "id": "dd813f3d-7d45-4dd7-889d-e2ac2e0985b7"
-        },
-        "8f531989-3d1e-4f61-80c9-d2453ebd307f": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "b0d2b9d6-5367-44bf-9ac6-535e2ca63824",
-          "id": "8f531989-3d1e-4f61-80c9-d2453ebd307f"
-        },
-        "0e3f19f5-909a-499c-85a7-eda19ebf7b4e": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "5625fd46-42ce-400e-aae4-be3ddc8f3024",
-          "id": "0e3f19f5-909a-499c-85a7-eda19ebf7b4e"
-        },
-        "901836c1-36fa-4f51-b9df-e13c8133833c": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "7402412e-7fad-4737-958e-c82fdeb3fdb1",
-          "id": "901836c1-36fa-4f51-b9df-e13c8133833c"
-        },
-        "5d72ac63-b23d-4630-acf6-fdedabbc3d5b": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "1a8bd4cf-dca8-461c-9a72-f6ed862dcd52",
-          "id": "5d72ac63-b23d-4630-acf6-fdedabbc3d5b"
-        },
-        "e5bb81bc-d2df-40d5-aa88-7dd8d47071e4": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "3e001b08-a6c8-4728-9d7f-0587c7bb67bf",
-          "id": "e5bb81bc-d2df-40d5-aa88-7dd8d47071e4"
-        },
-        "a07dc700-5002-4643-a66a-ea650e9f8066": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "02d744e5-d8c3-4e4c-81a2-2707ec508fd8",
-          "id": "a07dc700-5002-4643-a66a-ea650e9f8066"
-        },
-        "8bc1da35-6bc9-4c24-92db-837301320c10": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "f09388b7-636c-4113-9faa-69b6f6aab435",
-          "id": "8bc1da35-6bc9-4c24-92db-837301320c10"
-        },
-        "ccad889d-9e17-4218-a68b-4d3d256025b1": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "7e561d97-f1c2-473e-8819-1a0ce879c092",
-          "id": "ccad889d-9e17-4218-a68b-4d3d256025b1"
-        },
-        "f86afd95-bbf3-476e-939f-8a828bc4201e": {
-          "label": "code",
-          "from": "37015fb1-04ec-4761-9cb6-c5702f9f6e82",
-          "to": "e1530125-c1eb-4f0e-93a9-9e0ad4f9d906",
-          "id": "f86afd95-bbf3-476e-939f-8a828bc4201e"
-        },
-        "156f9707-8a72-4ff6-ac82-2c79c93a2934": {
-          "label": "code",
-          "from": "7134d251-8bff-482b-ba67-2292ca1685f8",
-          "to": "7c31450c-270a-49ab-baa2-67c67b4e6476",
-          "id": "156f9707-8a72-4ff6-ac82-2c79c93a2934"
-        },
-        "f82e7373-ab6f-4d21-9d0d-dbbec5a4c684": {
-          "label": "code",
-          "from": "7134d251-8bff-482b-ba67-2292ca1685f8",
-          "to": "a5842389-ab34-4fbb-8d68-7b5b46ec50d5",
-          "id": "f82e7373-ab6f-4d21-9d0d-dbbec5a4c684"
-        },
-        "da6c0ab1-802c-4bb2-865a-8d11e1867e83": {
-          "label": "code",
-          "from": "7134d251-8bff-482b-ba67-2292ca1685f8",
-          "to": "9f8196aa-220f-411f-87d8-47cb2534af30",
-          "id": "da6c0ab1-802c-4bb2-865a-8d11e1867e83"
-        },
-        "1c180e29-35c9-4c0d-87bf-83460710bafa": {
-          "label": "code",
-          "from": "7134d251-8bff-482b-ba67-2292ca1685f8",
-          "to": "a44abfce-4a8d-4583-9ae4-4918fcfa8df1",
-          "id": "1c180e29-35c9-4c0d-87bf-83460710bafa"
-        },
-        "d39d9410-b5a7-465c-945e-10e1c1a94f80": {
-          "label": "code",
-          "from": "7134d251-8bff-482b-ba67-2292ca1685f8",
-          "to": "ec867080-951d-4640-9326-a3d29e4b99c5",
-          "id": "d39d9410-b5a7-465c-945e-10e1c1a94f80"
-        },
-        "a1e651f8-779c-4087-8ad7-8356dd3985dd": {
-          "label": "code",
-          "from": "e4e4101f-0365-428a-a984-5d7013e5b733",
-          "to": "3c6c9370-8c35-4e5e-a246-e3c7ccd5f3cb",
-          "id": "a1e651f8-779c-4087-8ad7-8356dd3985dd"
-        },
-        "75533536-24b7-429d-82cf-b8d2830f50cc": {
-          "label": "code",
-          "from": "3959ac12-4f41-4785-a1d7-f8e09f59ee38",
-          "to": "754a3f2a-c73d-4cd1-8136-93905d317e33",
-          "id": "75533536-24b7-429d-82cf-b8d2830f50cc"
-        },
-        "fadf8228-27ed-436d-8b26-2765af8162d1": {
-          "label": "code",
-          "from": "3959ac12-4f41-4785-a1d7-f8e09f59ee38",
-          "to": "f5bc1c00-3b8f-4b51-8f1e-1e180c5eb4e0",
-          "id": "fadf8228-27ed-436d-8b26-2765af8162d1"
-        },
-        "394df87a-c79d-4536-90af-112ed8a8e59a": {
-          "label": "code",
-          "from": "3959ac12-4f41-4785-a1d7-f8e09f59ee38",
-          "to": "a8e299ba-85f3-48a6-a42b-6b631ef93123",
-          "id": "394df87a-c79d-4536-90af-112ed8a8e59a"
-        },
-        "97426571-435e-41d5-b506-86e10c61a722": {
-          "label": "code",
-          "from": "7698f31f-76ef-4dde-a856-74fc21e98294",
-          "to": "6f11e159-00d5-41ae-8637-59753ca2796a",
-          "id": "97426571-435e-41d5-b506-86e10c61a722"
-        },
-        "aa74e6a4-b1b6-448f-a9f0-a0781f962aab": {
-          "label": "code",
-          "from": "7698f31f-76ef-4dde-a856-74fc21e98294",
-          "to": "29bdb4ec-f304-4f3a-b175-97d4fc2c604c",
-          "id": "aa74e6a4-b1b6-448f-a9f0-a0781f962aab"
-        },
-        "289ec6fc-612e-4cb5-aa0e-74d8fcc4513b": {
-          "label": "code",
-          "from": "7698f31f-76ef-4dde-a856-74fc21e98294",
-          "to": "9958855b-f1bb-4915-9c48-399e69fe2cdd",
-          "id": "289ec6fc-612e-4cb5-aa0e-74d8fcc4513b"
-        },
-        "d8a26da6-8c63-4848-9ed8-583621ea3055": {
-          "label": "code",
-          "from": "7698f31f-76ef-4dde-a856-74fc21e98294",
-          "to": "026335ed-2712-43f7-a23a-1c6a6955657f",
-          "id": "d8a26da6-8c63-4848-9ed8-583621ea3055"
-        },
-        "8165a89c-8e54-4bb4-8337-8b9c22a12628": {
-          "label": "code",
-          "from": "7698f31f-76ef-4dde-a856-74fc21e98294",
-          "to": "d5997d83-e815-4da1-8514-06b89c9f6dbe",
-          "id": "8165a89c-8e54-4bb4-8337-8b9c22a12628"
-        },
-        "08f1820d-46eb-4e37-a256-5ab9451c05c0": {
-          "label": "code",
-          "from": "7698f31f-76ef-4dde-a856-74fc21e98294",
-          "to": "0183cb7f-9cad-4b04-a76d-843cd0887df6",
-          "id": "08f1820d-46eb-4e37-a256-5ab9451c05c0"
-        },
-        "92d62ae8-8635-4164-bafc-690476ae16d0": {
-          "label": "code",
-          "from": "7698f31f-76ef-4dde-a856-74fc21e98294",
-          "to": "9b97a4f1-380f-4744-ac0b-f4f3262a3e30",
-          "id": "92d62ae8-8635-4164-bafc-690476ae16d0"
-        },
-        "fb94e11b-b841-49b6-b8e9-e0c046e4c20d": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "dd8b4906-4821-428b-91a3-c55c53a89ba7",
-          "id": "fb94e11b-b841-49b6-b8e9-e0c046e4c20d"
-        },
-        "8b4995eb-92ea-46e6-8501-b4a6bbcd8d42": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "9945ffe3-90df-4dca-ae02-5941293077c8",
-          "id": "8b4995eb-92ea-46e6-8501-b4a6bbcd8d42"
-        },
-        "5f0d12ad-d85e-4c3c-b8f7-0068103d1b73": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "8fc10cc2-0c04-44f9-b5e1-211cea690bae",
-          "id": "5f0d12ad-d85e-4c3c-b8f7-0068103d1b73"
-        },
-        "30a74b54-f690-4cec-a416-fdabb77e59df": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "8eb09a2d-2546-4c4e-baeb-b04a7b95c968",
-          "id": "30a74b54-f690-4cec-a416-fdabb77e59df"
-        },
-        "e96bd4b9-2903-4fbb-9e04-5bfea15a6d3a": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "2a378953-9b29-4e41-810f-e26821e4fc88",
-          "id": "e96bd4b9-2903-4fbb-9e04-5bfea15a6d3a"
-        },
-        "7979a9e1-acba-40e6-ac7d-298be7ad832b": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "ba6e8541-64a9-4494-bfac-b16d57b7257b",
-          "id": "7979a9e1-acba-40e6-ac7d-298be7ad832b"
-        },
-        "64f51598-9912-4165-b966-2ccc8b35e52c": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "75a96df3-ad8f-412e-9041-8af35465a43b",
-          "id": "64f51598-9912-4165-b966-2ccc8b35e52c"
-        },
-        "3b8ad86a-c9e9-4a88-9a69-56eac1899baf": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "78f4f03a-661f-4031-8064-47e6955eae47",
-          "id": "3b8ad86a-c9e9-4a88-9a69-56eac1899baf"
-        },
-        "fcd3c58f-6f78-4f1a-9c55-53c7ac39fd01": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "39f9eda3-f00e-4c55-a35c-4f4e1a00f76e",
-          "id": "fcd3c58f-6f78-4f1a-9c55-53c7ac39fd01"
-        },
-        "774b4907-3ac3-48b2-9477-90730ea36a83": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "1cf5f32e-4a66-4f62-8a3f-a598d5348581",
-          "id": "774b4907-3ac3-48b2-9477-90730ea36a83"
-        },
-        "e8ba204b-35de-4f71-ac33-fcd3bea589c6": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "3c60b780-6006-4ffe-b9e0-ed8f96d913db",
-          "id": "e8ba204b-35de-4f71-ac33-fcd3bea589c6"
-        },
-        "f6203409-1071-4c3a-aedc-574c0ef57256": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "3e8a874e-492e-48dc-944a-4fe0622f2f9d",
-          "id": "f6203409-1071-4c3a-aedc-574c0ef57256"
-        },
-        "83ec9dfc-fb28-47f1-ab70-7635b7eb4cc7": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "5d516563-6bef-415e-b7dc-f8af9b5deac8",
-          "id": "83ec9dfc-fb28-47f1-ab70-7635b7eb4cc7"
-        },
-        "19a76915-0a89-4806-b347-5dc8de820b01": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "93f51b0a-6fb0-48ce-85ec-3ccb3c9f9759",
-          "id": "19a76915-0a89-4806-b347-5dc8de820b01"
-        },
-        "dbdc7d34-fe0f-46de-b0ea-c8135f1eb5c3": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "fb6df25b-1e4a-4521-95f7-ec6615ced3dd",
-          "id": "dbdc7d34-fe0f-46de-b0ea-c8135f1eb5c3"
-        },
-        "5672add7-0e7c-4ff3-9adb-ad62055cf3e4": {
-          "label": "code",
-          "from": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "to": "96d626d1-c4db-4165-8ca5-4a5397009933",
-          "id": "5672add7-0e7c-4ff3-9adb-ad62055cf3e4"
-        },
-        "2b8e3ca1-0f01-4fad-a6f9-5618b86f4b51": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "97930403-3d18-4701-b8a6-24a3ad673dc3",
-          "id": "2b8e3ca1-0f01-4fad-a6f9-5618b86f4b51"
-        },
-        "1d04abce-db46-47eb-ab38-de79e0b49635": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "dbcefaf8-2b0a-4c04-81d0-93212d278a86",
-          "id": "1d04abce-db46-47eb-ab38-de79e0b49635"
-        },
-        "cb0898b3-fe33-4184-994a-0d0e036cd189": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "b9e47ea8-0bd1-49e7-9fde-0b21cfc7b7cf",
-          "id": "cb0898b3-fe33-4184-994a-0d0e036cd189"
-        },
-        "036a823c-c866-490e-869d-da4221f887bb": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "a140cb5a-3df7-40c4-b437-a59a06921d9b",
-          "id": "036a823c-c866-490e-869d-da4221f887bb"
-        },
-        "bc3fa516-d38a-4871-94f6-6ccf3222be2c": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "c8ee619d-fa80-4d09-bddb-8fc8515c9cd7",
-          "id": "bc3fa516-d38a-4871-94f6-6ccf3222be2c"
-        },
-        "f61efd58-11bb-4b36-8e11-952045afd641": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "9e36ff1d-040c-4ac9-aa3f-bc92ad41b328",
-          "id": "f61efd58-11bb-4b36-8e11-952045afd641"
-        },
-        "2b678911-a686-4c5c-9208-259e46b7f236": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "32ff1616-369f-44ff-8c94-ee4118eb1f43",
-          "id": "2b678911-a686-4c5c-9208-259e46b7f236"
-        },
-        "4764f65a-605e-4dfc-88cc-a5969a438dea": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "e46fc7a9-6790-4394-8007-6ab0dbee2ad5",
-          "id": "4764f65a-605e-4dfc-88cc-a5969a438dea"
-        },
-        "e9f9ed1d-a426-4133-a62c-2a41739486d0": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "ddf47fea-e76e-45f0-8d1f-5b67e3c218d4",
-          "id": "e9f9ed1d-a426-4133-a62c-2a41739486d0"
-        },
-        "9d4b3757-bef9-4284-a115-55c8a425fc52": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "269867a0-9faf-43d3-86eb-a5e20d41c2e5",
-          "id": "9d4b3757-bef9-4284-a115-55c8a425fc52"
-        },
-        "c09756b6-7d01-443b-89b4-fced367e7e77": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "641798ed-5a3a-4982-b220-6e411cf7b434",
-          "id": "c09756b6-7d01-443b-89b4-fced367e7e77"
-        },
-        "8d89e4b7-0064-413b-9cb9-c5fb9f3b3136": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "3c3935b1-81f6-4c9d-95ee-e61bc58ceeba",
-          "id": "8d89e4b7-0064-413b-9cb9-c5fb9f3b3136"
-        },
-        "6339d3be-93b9-4c81-948d-17b682a88dc4": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "286122c3-b6c1-4674-bbb6-c585e0fdb597",
-          "id": "6339d3be-93b9-4c81-948d-17b682a88dc4"
-        },
-        "15bb6335-11bf-4105-9aac-bd72a5957c9c": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "fa3c4b5f-01ac-4a20-ad23-55e21d971835",
-          "id": "15bb6335-11bf-4105-9aac-bd72a5957c9c"
-        },
-        "551c8725-4e54-43d7-b602-fc8e15076dd7": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "fa5deceb-299f-4fc0-80cc-72dcb33e5ead",
-          "id": "551c8725-4e54-43d7-b602-fc8e15076dd7"
-        },
-        "590297bd-4e4f-48e4-a525-5810276f8e92": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "e84007c4-35e2-4fb3-a0bb-1b647f1fd282",
-          "id": "590297bd-4e4f-48e4-a525-5810276f8e92"
-        },
-        "c47de084-b343-4084-99f3-3199a3319fa6": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "35f4cb47-8f90-4a25-8ee9-8caba8a4267a",
-          "id": "c47de084-b343-4084-99f3-3199a3319fa6"
-        },
-        "0971397c-d107-448d-a178-0a83be656415": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "8dfcad3b-702b-41ff-a5df-17e10549bd69",
-          "id": "0971397c-d107-448d-a178-0a83be656415"
-        },
-        "a79d2c6f-8fdc-49cd-b6b1-126d2b7cfb19": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "60c347f2-3bb9-4b1e-949a-dc403f337c72",
-          "id": "a79d2c6f-8fdc-49cd-b6b1-126d2b7cfb19"
-        },
-        "0ac56b38-bdda-407b-912c-ed415a8828e3": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "5fd4f3a3-5d47-4d86-9dd9-24668cfb801a",
-          "id": "0ac56b38-bdda-407b-912c-ed415a8828e3"
-        },
-        "cace1ca2-750d-45fe-a9ae-ed6b33bb4e46": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "e8ec45bb-7128-43c6-bb64-857f71f68739",
-          "id": "cace1ca2-750d-45fe-a9ae-ed6b33bb4e46"
-        },
-        "49f210db-0012-45b8-bc1c-a638306544dd": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "2a4ba4dd-301e-408a-92fb-7b777eb8c5a0",
-          "id": "49f210db-0012-45b8-bc1c-a638306544dd"
-        },
-        "8785b958-b295-4d51-b434-e5a1acf92769": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "3cd4285a-1b25-41ce-b5a1-000adceeb436",
-          "id": "8785b958-b295-4d51-b434-e5a1acf92769"
-        },
-        "143fffe3-d6c7-4a1b-a187-a4105d2bfd69": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "b24c2816-3e97-456f-afdb-6b24311d3c31",
-          "id": "143fffe3-d6c7-4a1b-a187-a4105d2bfd69"
-        },
-        "b94dca63-0673-40c5-8219-48f62d3ae6c9": {
-          "label": "code",
-          "from": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "to": "21a691f7-58ce-4923-a4ae-e0d06e6c8025",
-          "id": "b94dca63-0673-40c5-8219-48f62d3ae6c9"
-        },
-        "970f6e57-ffd5-4c62-8b59-ed9c246ff061": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "cd72d8fe-2704-45a4-8952-44ba03826e2c",
-          "id": "970f6e57-ffd5-4c62-8b59-ed9c246ff061"
-        },
-        "85df81de-d1e5-4e71-9030-9e664512e3ed": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "c2b02063-3205-454b-8217-0783d485bf90",
-          "id": "85df81de-d1e5-4e71-9030-9e664512e3ed"
-        },
-        "eb1cd981-c46d-4186-87c9-b1c550ece035": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "7134d251-8bff-482b-ba67-2292ca1685f8",
-          "id": "eb1cd981-c46d-4186-87c9-b1c550ece035"
-        },
-        "f9792f59-1a73-493e-a265-720e4d885458": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "1b88b150-43ac-4663-82fa-be020ed6477a",
-          "id": "f9792f59-1a73-493e-a265-720e4d885458"
-        },
-        "f2d6dc5f-8726-483e-b088-30b1fa32ef2a": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "e4e4101f-0365-428a-a984-5d7013e5b733",
-          "id": "f2d6dc5f-8726-483e-b088-30b1fa32ef2a"
-        },
-        "7fac6f19-e292-4b5d-8b5e-2157af7f0708": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "3959ac12-4f41-4785-a1d7-f8e09f59ee38",
-          "id": "7fac6f19-e292-4b5d-8b5e-2157af7f0708"
-        },
-        "2edd2e03-e1a6-4e90-857a-e9f79cfcfcac": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "7698f31f-76ef-4dde-a856-74fc21e98294",
-          "id": "2edd2e03-e1a6-4e90-857a-e9f79cfcfcac"
-        },
-        "51b5931d-f1f8-4f24-b647-010ea6e33a3e": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "34f2baed-6b89-4ddf-ba35-c87837b78c59",
-          "id": "51b5931d-f1f8-4f24-b647-010ea6e33a3e"
-        },
-        "fe328ca9-2873-4a70-b924-3619ca9b5553": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "0a299ada-6924-4359-9395-ffd36f639a55",
-          "id": "fe328ca9-2873-4a70-b924-3619ca9b5553"
-        },
-        "3c399ccc-2410-4692-b730-f42225d27f54": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "1bd1ae6a-4e23-43f1-b270-f27e55a1891c",
-          "id": "3c399ccc-2410-4692-b730-f42225d27f54"
-        },
-        "77addaef-855e-4da5-b426-05938cfc4150": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "69707772-153f-4723-925f-bbb261b204ac",
-          "id": "77addaef-855e-4da5-b426-05938cfc4150"
-        },
-        "ad21837b-4691-4329-8b13-8c81c705a8fb": {
-          "label": "code",
-          "from": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "to": "23af98fd-d819-4456-817c-ed5c59785601",
-          "id": "ad21837b-4691-4329-8b13-8c81c705a8fb"
-        },
-        "48a27620-8d16-4e12-aa28-5002c30cbf64": {
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687626",
-          "to": "2f8234a6-5a02-4871-b4e4-a349014fe533",
-          "id": "48a27620-8d16-4e12-aa28-5002c30cbf64"
-        },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693"
-        },
-        "ff1f32f6-6d48-47b2-a086-9f382c6c331f": {
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693",
-          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f78702",
-          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f"
-        },
         "9df9f955-abb6-4b57-95ff-069869c65198399446529": {
           "arrows": {
             "to": {
@@ -62335,387 +45433,6 @@ var schemeData =
           "from": "e14b01dd-2c74-49f5-a1f1-3f43c71260e9399446529",
           "to": "940f667a-13a1-44ab-8317-0378bb46bd88399446529"
         },
-        "280d28f8-535c-4c88-a2f0-87e762ee1663": {
-          "label": "code",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702",
-          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e65",
-          "id": "280d28f8-535c-4c88-a2f0-87e762ee1663"
-        },
-        "ee63df6f-1921-46e9-9700-34b89669bba6": {
-          "label": "code",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702",
-          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e",
-          "id": "ee63df6f-1921-46e9-9700-34b89669bba6"
-        },
-        "3e13284c-fe14-4274-8f65-922e56fc6f11": {
-          "label": "code",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702",
-          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b3358",
-          "id": "3e13284c-fe14-4274-8f65-922e56fc6f11"
-        },
-        "23cad47f-f7a6-4328-b5c4-d66f19e31ab2": {
-          "label": "code",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702",
-          "to": "69e1c992-010c-4a23-9c38-eb54979a89de",
-          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab2"
-        },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232"
-        },
-        "ff1f32f6-6d48-47b2-a086-9f382c6c331f232": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f232",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232",
-          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232"
-        },
-        "280d28f8-535c-4c88-a2f0-87e762ee1663232": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "280d28f8-535c-4c88-a2f0-87e762ee1663232",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232",
-          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e65232"
-        },
-        "ee63df6f-1921-46e9-9700-34b89669bba6232": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "ee63df6f-1921-46e9-9700-34b89669bba6232",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232",
-          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e232"
-        },
-        "3e13284c-fe14-4274-8f65-922e56fc6f11232": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "3e13284c-fe14-4274-8f65-922e56fc6f11232",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232",
-          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232"
-        },
-        "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232",
-          "to": "69e1c992-010c-4a23-9c38-eb54979a89de232"
-        },
-        "f705a95e-7fc5-4602-89c6-1285ddbd284b792": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "f705a95e-7fc5-4602-89c6-1285ddbd284b792",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792"
-        },
-        "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0792": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0792",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792"
-        },
-        "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a792": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a792",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792",
-          "to": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486792"
-        },
-        "f705a95e-7fc5-4602-89c6-1285ddbd284b792768": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "f705a95e-7fc5-4602-89c6-1285ddbd284b792768",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687792768",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792768"
-        },
-        "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0792768": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0792768",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486792768",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792768"
-        },
-        "771ae228-6d88-4278-9192-6579b12faf13": {
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687792768",
-          "to": "1a74b08c-1e5c-47e7-809e-6518e2836a96",
-          "id": "771ae228-6d88-4278-9192-6579b12faf13"
-        },
         "9df9f955-abb6-4b57-95ff-069869c65198399446125": {
           "arrows": {
             "to": {
@@ -62752,60 +45469,6 @@ var schemeData =
           "id": "9df9f955-abb6-4b57-95ff-069869c65198399446125",
           "from": "e14b01dd-2c74-49f5-a1f1-3f43c71260e9399446125",
           "to": "940f667a-13a1-44ab-8317-0378bb46bd88399446125"
-        },
-        "dcb94f1c-46fc-445e-a0a2-47c477e65924": {
-          "label": "code",
-          "from": "1a74b08c-1e5c-47e7-809e-6518e2836a96",
-          "to": "6190653d-7e88-4726-901c-5d440d98f241",
-          "id": "dcb94f1c-46fc-445e-a0a2-47c477e65924"
-        },
-        "3161b387-c08f-4f6f-9049-07cb55fe48c1": {
-          "label": "code",
-          "from": "1a74b08c-1e5c-47e7-809e-6518e2836a96",
-          "to": "67d06945-9b99-4fc8-a120-402da3f48e67",
-          "id": "3161b387-c08f-4f6f-9049-07cb55fe48c1"
-        },
-        "f873d72f-7fff-4793-ae8f-991df704fed1": {
-          "label": "code",
-          "from": "1a74b08c-1e5c-47e7-809e-6518e2836a96",
-          "to": "6d48e6c8-b142-406f-8cdd-5d875dc0db8b",
-          "id": "f873d72f-7fff-4793-ae8f-991df704fed1"
-        },
-        "cc8e84d6-1c70-4767-a33c-06565e466839": {
-          "label": "code",
-          "from": "1a74b08c-1e5c-47e7-809e-6518e2836a96",
-          "to": "e0ba3c9d-76de-4d9c-97d9-ef5181e5b3fa",
-          "id": "cc8e84d6-1c70-4767-a33c-06565e466839"
-        },
-        "66e8d904-5b93-444b-a686-54e1db475a2f": {
-          "from": "d6a2f6ee-56a5-4221-be38-49c0a8364a71",
-          "to": "52aee244-a92a-41a3-8b71-373d541e660d",
-          "id": "66e8d904-5b93-444b-a686-54e1db475a2f"
-        },
-        "207e187e-3dbe-4189-a331-3f0f212580f5": {
-          "from": "d6a2f6ee-56a5-4221-be38-49c0a8364a71",
-          "to": "8dcd7da6-9174-4a9a-92df-19ac2ef25745",
-          "id": "207e187e-3dbe-4189-a331-3f0f212580f5"
-        },
-        "690d53f5-f7e3-498d-9134-f97dfc8f13c3": {
-          "from": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
-          "to": "d6a2f6ee-56a5-4221-be38-49c0a8364a71",
-          "id": "690d53f5-f7e3-498d-9134-f97dfc8f13c3"
-        },
-        "55edc560-3552-4ad7-9df0-a8141480b468": {
-          "from": "636009f4-b1c7-4990-b4f0-2e2b3e654223206369486",
-          "to": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
-          "id": "55edc560-3552-4ad7-9df0-a8141480b468"
-        },
-        "fb18f115-cd80-4302-b900-e6cdf6d9a3d1": {
-          "from": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
-          "to": "604289ab-7ae3-4401-afdc-44d012b2609c",
-          "id": "fb18f115-cd80-4302-b900-e6cdf6d9a3d1"
-        },
-        "8f39cf64-0a16-452e-8e2d-041712128658": {
-          "from": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
-          "to": "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced",
-          "id": "8f39cf64-0a16-452e-8e2d-041712128658"
         },
         "00309ae5-9365-4fea-a1eb-603f934a0733": {
           "from": "01c3934b-333e-4a1a-816c-ab4f6de443b3",
@@ -63666,303 +46329,6 @@ var schemeData =
           "from": "28606e38-66b9-4360-bd26-57e745089b6c856673",
           "to": "1247edb0-ea4c-4ba2-83ce-fe30019d62b8",
           "id": "58982ade-0a6e-44cd-b729-2e22f1552ebe"
-        },
-        "f705a95e-7fc5-4602-89c6-1285ddbd284b953": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "f705a95e-7fc5-4602-89c6-1285ddbd284b953",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953"
-        },
-        "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0953": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0953",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953"
-        },
-        "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a953": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "id": "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a953",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953",
-          "to": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953"
-        },
-        "f705a95e-7fc5-4602-89c6-1285ddbd284b953613": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "f705a95e-7fc5-4602-89c6-1285ddbd284b953613",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613"
-        },
-        "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0953613": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0953613",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613"
-        },
-        "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a953613": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a953613",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613",
-          "to": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613"
-        },
-        "f705a95e-7fc5-4602-89c6-1285ddbd284b953613127": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "f705a95e-7fc5-4602-89c6-1285ddbd284b953613127",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194216765617486687953613127",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613127"
-        },
-        "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0953613127": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "1c4953e6-a3a8-4ad7-ac2c-00ed5a39c9b0953613127",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194216765617486953613127",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613127"
-        },
-        "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a953613127": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "223a2125-ba8a-46ee-b8b6-27b77f5a3c1a953613127",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194216765617486687953613127",
-          "to": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486953613127"
         },
         "936247e3-2062-4af9-bc52-0731c5a643af": {
           "from": "7e4d7ab3-736e-4013-9208-1d51c0868264",
@@ -66303,274 +48669,6 @@ var schemeData =
           "from": "c468fc67-428c-4750-a9e4-c1ce00e83e60953446274",
           "to": "c83cbd27-9a1d-42c3-a653-4eeabbf9de31953446274"
         },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501"
-        },
-        "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501",
-          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501"
-        },
-        "280d28f8-535c-4c88-a2f0-87e762ee1663232501": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "280d28f8-535c-4c88-a2f0-87e762ee1663232501",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
-          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501"
-        },
-        "ee63df6f-1921-46e9-9700-34b89669bba6232501": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "ee63df6f-1921-46e9-9700-34b89669bba6232501",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
-          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501"
-        },
-        "3e13284c-fe14-4274-8f65-922e56fc6f11232501": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "3e13284c-fe14-4274-8f65-922e56fc6f11232501",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
-          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501"
-        },
-        "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
-          "to": "69e1c992-010c-4a23-9c38-eb54979a89de232501"
-        },
-        "6c5fea79-3626-44c5-9422-1df4638176a8": {
-          "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438",
-          "id": "6c5fea79-3626-44c5-9422-1df4638176a8"
-        },
         "6c5fea79-3626-44c5-9422-1df4638176a8560": {
           "arrows": {
             "to": {},
@@ -66595,11 +48693,6 @@ var schemeData =
           "id": "6c5fea79-3626-44c5-9422-1df4638176a8560",
           "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486560",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560"
-        },
-        "71922a01-d33c-45d3-9caa-4ad72eaf6dcd": {
-          "from": "1e98723b-79dd-48ff-b641-e241ebb725fe486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560",
-          "id": "71922a01-d33c-45d3-9caa-4ad72eaf6dcd"
         },
         "71922a01-d33c-45d3-9caa-4ad72eaf6dcd110": {
           "arrows": {
@@ -66626,11 +48719,6 @@ var schemeData =
           "from": "1e98723b-79dd-48ff-b641-e241ebb725fe486110",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110"
         },
-        "8df0d8ef-b22f-453c-856f-a47a2a7c66c8": {
-          "from": "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110",
-          "id": "8df0d8ef-b22f-453c-856f-a47a2a7c66c8"
-        },
         "8df0d8ef-b22f-453c-856f-a47a2a7c66c8983": {
           "arrows": {
             "to": {},
@@ -66655,11 +48743,6 @@ var schemeData =
           "id": "8df0d8ef-b22f-453c-856f-a47a2a7c66c8983",
           "from": "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486983",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983"
-        },
-        "47fe7597-70dc-4338-83e9-e47ce9a8eb1c": {
-          "from": "9d63b1f7-179d-4f64-b690-8da48388c7c4486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983",
-          "id": "47fe7597-70dc-4338-83e9-e47ce9a8eb1c"
         },
         "47fe7597-70dc-4338-83e9-e47ce9a8eb1c6": {
           "arrows": {
@@ -66724,11 +48807,6 @@ var schemeData =
           "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486755",
           "to": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486755"
         },
-        "f513b0b6-6d9d-4c89-933e-d159c64da6cd": {
-          "from": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836",
-          "id": "f513b0b6-6d9d-4c89-933e-d159c64da6cd"
-        },
         "f513b0b6-6d9d-4c89-933e-d159c64da6cd734": {
           "arrows": {
             "to": {},
@@ -66753,23 +48831,6 @@ var schemeData =
           "id": "f513b0b6-6d9d-4c89-933e-d159c64da6cd734",
           "from": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486734",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734"
-        },
-        "59b78d9c-0fbf-4b36-9379-e547d054f4ce": {
-          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
-          "to": "9504eef0-ca25-4f87-903f-5eb982771d0a",
-          "id": "59b78d9c-0fbf-4b36-9379-e547d054f4ce",
-          "label": "code"
-        },
-        "c3df1c1f-8dde-4beb-9f62-db313547f741": {
-          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
-          "to": "75ea4d00-4513-4b9b-84c6-99d3b899fd47",
-          "id": "c3df1c1f-8dde-4beb-9f62-db313547f741",
-          "label": "code"
-        },
-        "0b3f81f5-df2c-411e-9f10-17f5091a55f0": {
-          "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734",
-          "id": "0b3f81f5-df2c-411e-9f10-17f5091a55f0"
         },
         "0b3f81f5-df2c-411e-9f10-17f5091a55f0697": {
           "arrows": {
@@ -66796,11 +48857,6 @@ var schemeData =
           "from": "67d57766-61d3-4278-bd82-50b7bc0fd759486697",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697"
         },
-        "6996c788-f6df-4556-94d1-71364bb36269": {
-          "from": "9504eef0-ca25-4f87-903f-5eb982771d0a",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697",
-          "id": "6996c788-f6df-4556-94d1-71364bb36269"
-        },
         "6996c788-f6df-4556-94d1-71364bb36269594": {
           "arrows": {
             "to": {},
@@ -66825,11 +48881,6 @@ var schemeData =
           "id": "6996c788-f6df-4556-94d1-71364bb36269594",
           "from": "9504eef0-ca25-4f87-903f-5eb982771d0a594",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594"
-        },
-        "b0b62129-46d0-4e84-a553-9b4549733318": {
-          "from": "75ea4d00-4513-4b9b-84c6-99d3b899fd47",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594",
-          "id": "b0b62129-46d0-4e84-a553-9b4549733318"
         },
         "b0b62129-46d0-4e84-a553-9b4549733318567": {
           "arrows": {
@@ -66856,26 +48907,6 @@ var schemeData =
           "from": "75ea4d00-4513-4b9b-84c6-99d3b899fd47567",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567"
         },
-        "9933f1ff-7303-4ed4-9fc3-e2a67aa77fce": {
-          "from": "d0f10764-b98d-4f26-8850-0d98258edd68486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775",
-          "id": "9933f1ff-7303-4ed4-9fc3-e2a67aa77fce"
-        },
-        "ba7fdbae-f05a-456c-9fc4-2d2ec0f54113": {
-          "from": "95440e5d-e2ab-4275-aea3-7084e5e08ef5486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567",
-          "id": "ba7fdbae-f05a-456c-9fc4-2d2ec0f54113"
-        },
-        "0b68bec8-db8e-498b-865b-f22f64fa74a5": {
-          "from": "c0f333be-7c73-49ff-9ce9-acd69d498858486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891",
-          "id": "0b68bec8-db8e-498b-865b-f22f64fa74a5"
-        },
-        "538c776d-6f28-4b6b-97b1-52fab6edf7ce": {
-          "from": "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891944",
-          "id": "538c776d-6f28-4b6b-97b1-52fab6edf7ce"
-        },
         "538c776d-6f28-4b6b-97b1-52fab6edf7ce53": {
           "arrows": {
             "to": {},
@@ -66900,76 +48931,6 @@ var schemeData =
           "id": "538c776d-6f28-4b6b-97b1-52fab6edf7ce53",
           "from": "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b48653",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453"
-        },
-        "e684969d-1d16-4af4-a09d-049f8077ac4c": {
-          "from": "399c5df4-d887-464d-8bad-d081f1623e44486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453",
-          "id": "e684969d-1d16-4af4-a09d-049f8077ac4c"
-        },
-        "adf5129b-499f-4359-97bf-06f21fe1c043": {
-          "from": "92f8f188-413d-47c9-bc96-f290485c46ee486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756",
-          "id": "adf5129b-499f-4359-97bf-06f21fe1c043"
-        },
-        "2d0095dc-a84d-419a-b745-58129e5372d1": {
-          "from": "329c31d6-4840-47ce-97d1-48d6bd801404486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984",
-          "id": "2d0095dc-a84d-419a-b745-58129e5372d1"
-        },
-        "5e6d261d-e35d-4dfe-b127-bb2ebb741676": {
-          "from": "6740287a-c540-43ff-91f0-669cb96f10f3486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321",
-          "id": "5e6d261d-e35d-4dfe-b127-bb2ebb741676"
-        },
-        "ed03e960-3239-4ac6-898b-b48eaad5a218": {
-          "from": "59635c29-9e7a-45ca-8525-2a37dbb488a7486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321681",
-          "id": "ed03e960-3239-4ac6-898b-b48eaad5a218"
-        },
-        "f6356b73-dd69-41d8-bb24-5f70fe636b1d": {
-          "from": "da40667d-7034-434c-96d9-aac61e394e23486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74",
-          "id": "f6356b73-dd69-41d8-bb24-5f70fe636b1d"
-        },
-        "747652ae-b6e3-4d5b-81f4-996c777f0373": {
-          "from": "3b49c915-fb27-47ab-bae5-20a308497725486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132",
-          "id": "747652ae-b6e3-4d5b-81f4-996c777f0373"
-        },
-        "dca9e718-772b-4c64-b732-f15487efcf89": {
-          "from": "c08a7ff5-92f1-482b-a55e-5e4aa4210022486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457",
-          "id": "dca9e718-772b-4c64-b732-f15487efcf89"
-        },
-        "cca870f4-ab24-4037-964a-fef9a85618db": {
-          "from": "8ae3245a-50b6-4a3b-bace-03ff73f40545486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414",
-          "id": "cca870f4-ab24-4037-964a-fef9a85618db"
-        },
-        "0959c444-b0b5-408d-ba41-0f5a4a491b5a": {
-          "from": "5caa6892-9023-4d77-8aa0-ff564a51cf58486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594",
-          "id": "0959c444-b0b5-408d-ba41-0f5a4a491b5a"
-        },
-        "71719fe4-1e16-498c-9539-fd994f669995": {
-          "from": "11d30fee-175d-4da8-b2d8-069850fe9400486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904",
-          "id": "71719fe4-1e16-498c-9539-fd994f669995"
-        },
-        "fc7b17b9-380f-49c8-abcf-32c8788fdcef": {
-          "from": "315819bf-0c74-42bf-a4f6-177dd930ed60486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816",
-          "id": "fc7b17b9-380f-49c8-abcf-32c8788fdcef"
-        },
-        "50c72851-7065-42f5-8499-3ae6f7242ff8": {
-          "from": "6248ca66-72f9-4e9d-b5e2-f9f68abc3f37486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571",
-          "id": "50c72851-7065-42f5-8499-3ae6f7242ff8"
-        },
-        "ba1b9db8-b24a-4877-bfa4-93403b650ad7": {
-          "from": "f7d23b14-e520-46cb-aef4-85a0e79044c7486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617",
-          "id": "ba1b9db8-b24a-4877-bfa4-93403b650ad7"
         },
         "ba1b9db8-b24a-4877-bfa4-93403b650ad7883": {
           "arrows": {
@@ -66996,26 +48957,6 @@ var schemeData =
           "from": "f7d23b14-e520-46cb-aef4-85a0e79044c7486883",
           "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883"
         },
-        "33c6a8cd-881e-4341-9cf4-77aa32df2cda": {
-          "from": "7413f257-38d2-49c0-aeab-10af492b6ea5486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697",
-          "id": "33c6a8cd-881e-4341-9cf4-77aa32df2cda"
-        },
-        "e3d84434-fd29-49ee-9821-40bb37ef70dc": {
-          "from": "f240ef3f-be64-4718-8708-cce54a9a12e6486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465666",
-          "id": "e3d84434-fd29-49ee-9821-40bb37ef70dc"
-        },
-        "35a92ac8-9cd4-44b0-9c1d-fea03536402e": {
-          "from": "072e065d-822d-4715-8443-5bf850e6a75f486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465",
-          "id": "35a92ac8-9cd4-44b0-9c1d-fea03536402e"
-        },
-        "8f91a0e3-59b9-4d11-af70-1112c5e4f648": {
-          "from": "85af1170-a5a1-4103-a973-0a3d5b2d371a486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883",
-          "id": "8f91a0e3-59b9-4d11-af70-1112c5e4f648"
-        },
         "33c6a8cd-881e-4341-9cf4-77aa32df2cda725": {
           "arrows": {
             "to": {},
@@ -67040,41 +48981,6 @@ var schemeData =
           "id": "33c6a8cd-881e-4341-9cf4-77aa32df2cda725",
           "from": "7413f257-38d2-49c0-aeab-10af492b6ea5486725",
           "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725"
-        },
-        "356eee69-4e09-4ee5-b0c0-d685272d60ae": {
-          "from": "20602b12-993a-42bc-8dd6-008215220e01486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144737",
-          "id": "356eee69-4e09-4ee5-b0c0-d685272d60ae"
-        },
-        "aa486ba6-eab9-4234-8e03-aae8c85ed507": {
-          "from": "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144",
-          "id": "aa486ba6-eab9-4234-8e03-aae8c85ed507"
-        },
-        "dfd2ed3e-f15a-46fc-b3f5-ab2d92a73bcb": {
-          "from": "880081bc-e7c3-48c1-9fa7-1e638b8d8548486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375532",
-          "id": "dfd2ed3e-f15a-46fc-b3f5-ab2d92a73bcb"
-        },
-        "a8fd8c2a-e9fd-4794-a566-46893be727ed": {
-          "from": "e68d70a9-0e47-4168-ae35-bb44461b4110486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375",
-          "id": "a8fd8c2a-e9fd-4794-a566-46893be727ed"
-        },
-        "d1706197-3be8-4127-8f42-4db89dd674a7": {
-          "from": "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864",
-          "id": "d1706197-3be8-4127-8f42-4db89dd674a7"
-        },
-        "c4135c5e-b036-44bd-bfd5-d65f3098acc8": {
-          "from": "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732",
-          "id": "c4135c5e-b036-44bd-bfd5-d65f3098acc8"
-        },
-        "ab0e83d0-9343-4785-9396-a6b4d55dfd53": {
-          "from": "f5f9ec15-27c8-4eba-aa98-273066ed1813486",
-          "to": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725",
-          "id": "ab0e83d0-9343-4785-9396-a6b4d55dfd53"
         },
         "6c5fea79-3626-44c5-9422-1df4638176a8612": {
           "arrows": {
@@ -67139,27 +49045,6 @@ var schemeData =
           "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486889",
           "to": "982a5710-863b-40df-884d-70b558608e9b486889"
         },
-        "a193f3ab-77fd-41fc-accb-e36385b0ce40": {
-          "from": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
-          "to": "982a5710-863b-40df-884d-70b558608e9b486889",
-          "id": "a193f3ab-77fd-41fc-accb-e36385b0ce40",
-          "label": "code"
-        },
-        "dff6994e-6110-455e-9455-a5b7fb0763a3": {
-          "from": "27a85b50-7b54-4434-a753-f2455b46b846486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138",
-          "id": "dff6994e-6110-455e-9455-a5b7fb0763a3"
-        },
-        "63771777-d9a4-4ccf-95dc-9fea9fb42fc4": {
-          "from": "db8817cf-9360-4031-ad9a-4f94541500f3486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612",
-          "id": "63771777-d9a4-4ccf-95dc-9fea9fb42fc4"
-        },
-        "30d29fd7-853e-40c7-bf18-1279c5f542c4": {
-          "from": "982a5710-863b-40df-884d-70b558608e9b486889",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702",
-          "id": "30d29fd7-853e-40c7-bf18-1279c5f542c4"
-        },
         "dff6994e-6110-455e-9455-a5b7fb0763a3348": {
           "arrows": {
             "to": {},
@@ -67184,16 +49069,6 @@ var schemeData =
           "id": "dff6994e-6110-455e-9455-a5b7fb0763a3348",
           "from": "27a85b50-7b54-4434-a753-f2455b46b846486348",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348"
-        },
-        "537eed04-3785-4af4-b1aa-005d9ef93de3": {
-          "from": "5f3eb8b7-ba33-4d15-938a-2eb50fca0147486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348",
-          "id": "537eed04-3785-4af4-b1aa-005d9ef93de3"
-        },
-        "3c224f04-43ae-4025-a661-016d557ba47d": {
-          "from": "0df46278-b6f2-44b4-a9ca-bd3f5d276a03486",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348974",
-          "id": "3c224f04-43ae-4025-a661-016d557ba47d"
         },
         "7c56dd98-48c0-4e59-b646-ae92aa377605531": {
           "arrows": {
@@ -67221,18 +49096,6 @@ var schemeData =
           "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486531",
           "to": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531"
         },
-        "e2011cd1-812c-4bfd-ba96-a2161a11512a": {
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531",
-          "id": "e2011cd1-812c-4bfd-ba96-a2161a11512a",
-          "label": "code"
-        },
-        "e96827b0-3885-4479-92d3-fa819b6ada55": {
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531105",
-          "id": "e96827b0-3885-4479-92d3-fa819b6ada55",
-          "label": "code"
-        },
         "3c224f04-43ae-4025-a661-016d557ba47d76": {
           "arrows": {
             "to": {},
@@ -67257,290 +49120,6 @@ var schemeData =
           "id": "3c224f04-43ae-4025-a661-016d557ba47d76",
           "from": "0df46278-b6f2-44b4-a9ca-bd3f5d276a0348676",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476"
-        },
-        "562ea951-5079-4187-832d-1b2a5fa69a62": {
-          "from": "b9f0ff34-99a9-496b-b5a9-1922a75a864f",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476",
-          "id": "562ea951-5079-4187-832d-1b2a5fa69a62"
-        },
-        "378b2e2b-2c2f-4dee-9c95-11927cc41acd": {
-          "from": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305",
-          "id": "378b2e2b-2c2f-4dee-9c95-11927cc41acd"
-        },
-        "7b912791-e860-4a99-baaf-c98afd12a774": {
-          "from": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531105",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305115",
-          "id": "7b912791-e860-4a99-baaf-c98afd12a774"
-        },
-        "cdcc4f42-0708-43d4-a129-27f8cb2fbb01": {
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "880081bc-e7c3-48c1-9fa7-1e638b8d8548486",
-          "id": "cdcc4f42-0708-43d4-a129-27f8cb2fbb01",
-          "label": "code"
-        },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501969": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501969",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501969",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501969": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501969",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969"
-        },
-        "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501969": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501969",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969",
-          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969"
-        },
-        "280d28f8-535c-4c88-a2f0-87e762ee1663232501969": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "280d28f8-535c-4c88-a2f0-87e762ee1663232501969",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
-          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501969"
-        },
-        "ee63df6f-1921-46e9-9700-34b89669bba6232501969": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "ee63df6f-1921-46e9-9700-34b89669bba6232501969",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
-          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501969"
-        },
-        "3e13284c-fe14-4274-8f65-922e56fc6f11232501969": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "3e13284c-fe14-4274-8f65-922e56fc6f11232501969",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
-          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501969"
-        },
-        "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501969": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501969",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
-          "to": "69e1c992-010c-4a23-9c38-eb54979a89de232501969"
         },
         "c8123b27-7bde-453e-89ad-9ffc716d189f210609247": {
           "arrows": {
@@ -67579,18 +49158,6 @@ var schemeData =
           "from": "fecf5e72-1e19-410e-87b8-f36ff58504b6210609247",
           "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247"
         },
-        "c2610e7f-8a41-44ae-8ffb-051a49afed58": {
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "733b5c00-aede-4745-94aa-1b37be84161f",
-          "id": "c2610e7f-8a41-44ae-8ffb-051a49afed58",
-          "label": "code"
-        },
-        "c1668aa0-66c3-40f5-972d-479c3e27633d": {
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "f3d14ff2-381e-4414-b827-281e3a874d8d",
-          "id": "c1668aa0-66c3-40f5-972d-479c3e27633d",
-          "label": "code"
-        },
         "6c5fea79-3626-44c5-9422-1df4638176a8130": {
           "arrows": {
             "to": {},
@@ -67615,16 +49182,6 @@ var schemeData =
           "id": "6c5fea79-3626-44c5-9422-1df4638176a8130",
           "from": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486130",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438130"
-        },
-        "17ed46f4-4f1b-4c74-ae36-e1ac13b9a36b": {
-          "from": "f3d14ff2-381e-4414-b827-281e3a874d8d",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438130",
-          "id": "17ed46f4-4f1b-4c74-ae36-e1ac13b9a36b"
-        },
-        "be367021-1404-49ba-ad60-d1b8beca6e74": {
-          "from": "733b5c00-aede-4745-94aa-1b37be84161f",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d43813098",
-          "id": "be367021-1404-49ba-ad60-d1b8beca6e74"
         },
         "ecfcf1a6-8cfa-49e0-ace9-56017ca9d739486711": {
           "arrows": {
@@ -67664,12 +49221,6 @@ var schemeData =
           "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486711",
           "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711"
         },
-        "cf4b2a17-72a8-4edb-9d3a-a55a52398ece": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711",
-          "id": "cf4b2a17-72a8-4edb-9d3a-a55a52398ece",
-          "label": "code"
-        },
         "cf4b2a17-72a8-4edb-9d3a-a55a52398ece766": {
           "arrows": {
             "to": {},
@@ -67695,12 +49246,6 @@ var schemeData =
           "id": "cf4b2a17-72a8-4edb-9d3a-a55a52398ece766",
           "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486766",
           "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711766"
-        },
-        "b36435d2-ccf3-47ab-9504-d55ab900a29b": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711766",
-          "id": "b36435d2-ccf3-47ab-9504-d55ab900a29b",
-          "label": "code"
         },
         "b36435d2-ccf3-47ab-9504-d55ab900a29b64": {
           "arrows": {
@@ -67728,12 +49273,6 @@ var schemeData =
           "from": "fcdd0bec-d9eb-412f-810f-075698893dbf48664",
           "to": "6d7af570-fdce-465e-a2f1-60445c56afa448671176664"
         },
-        "ab83d81c-05fb-4978-b1db-72a78c5e7ea1": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "6d7af570-fdce-465e-a2f1-60445c56afa448671176664",
-          "id": "ab83d81c-05fb-4978-b1db-72a78c5e7ea1",
-          "label": "code"
-        },
         "cf4b2a17-72a8-4edb-9d3a-a55a52398ece685": {
           "arrows": {
             "to": {},
@@ -67759,12 +49298,6 @@ var schemeData =
           "id": "cf4b2a17-72a8-4edb-9d3a-a55a52398ece685",
           "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486685",
           "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711685"
-        },
-        "ddea986f-3324-4b46-8065-60827d352150": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "6d7af570-fdce-465e-a2f1-60445c56afa4486711685",
-          "id": "ddea986f-3324-4b46-8065-60827d352150",
-          "label": "code"
         },
         "8395e91f-93da-44a4-9804-adc7310102bd486446": {
           "arrows": {
@@ -67804,18 +49337,6 @@ var schemeData =
           "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486446",
           "to": "83256af2-2780-4edb-87da-35273c359d5e486446"
         },
-        "e987e361-b290-4c13-809a-cd62993d90bb": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "83256af2-2780-4edb-87da-35273c359d5e486446",
-          "id": "e987e361-b290-4c13-809a-cd62993d90bb",
-          "label": "code"
-        },
-        "a9e14e73-c241-4fd9-b5a8-eda92f9439af": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "83256af2-2780-4edb-87da-35273c359d5e486446908",
-          "id": "a9e14e73-c241-4fd9-b5a8-eda92f9439af",
-          "label": "code"
-        },
         "e987e361-b290-4c13-809a-cd62993d90bb933": {
           "arrows": {
             "to": {},
@@ -67841,62 +49362,6 @@ var schemeData =
           "id": "e987e361-b290-4c13-809a-cd62993d90bb933",
           "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486933",
           "to": "83256af2-2780-4edb-87da-35273c359d5e486446933"
-        },
-        "4dfa6aea-ab7a-402f-9827-4d1dc8a9aeff": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "83256af2-2780-4edb-87da-35273c359d5e486446933",
-          "id": "4dfa6aea-ab7a-402f-9827-4d1dc8a9aeff",
-          "label": "code"
-        },
-        "7b500881-f65e-4a96-8ac7-a32cf2fccf01": {
-          "from": "636009f4-b1c7-4990-b4f0-2e2b3e654223206369486",
-          "to": "b652df51-5798-4b35-86cd-12892f08855c",
-          "id": "7b500881-f65e-4a96-8ac7-a32cf2fccf01"
-        },
-        "72978647-aa6e-4683-94b6-bd225d2700bb": {
-          "from": "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486",
-          "to": "eb0ba66c-cb07-4091-9620-ba275cd953c1",
-          "id": "72978647-aa6e-4683-94b6-bd225d2700bb"
-        },
-        "c8d1a446-fe0c-412a-96be-879d6d311638": {
-          "from": "eb0ba66c-cb07-4091-9620-ba275cd953c1",
-          "to": "de86a007-afdc-4e9a-bbc1-aa9a7fc0008d",
-          "id": "c8d1a446-fe0c-412a-96be-879d6d311638"
-        },
-        "a084b09b-3556-40b3-a926-b01f06148671": {
-          "from": "eb0ba66c-cb07-4091-9620-ba275cd953c1",
-          "to": "13bffe38-a62f-48f9-ab36-2e2dd6811ca0",
-          "id": "a084b09b-3556-40b3-a926-b01f06148671"
-        },
-        "10d65b1a-1462-482d-8350-1032436e2fd0": {
-          "from": "eb0ba66c-cb07-4091-9620-ba275cd953c1",
-          "to": "fa37a787-ebbe-4644-a1df-f9d1f8892137",
-          "id": "10d65b1a-1462-482d-8350-1032436e2fd0"
-        },
-        "99a0a97d-7664-412e-889d-d776a8eb424c": {
-          "from": "eb0ba66c-cb07-4091-9620-ba275cd953c1",
-          "to": "5af1d19f-1308-48cc-9c7f-405353d126e5",
-          "id": "99a0a97d-7664-412e-889d-d776a8eb424c"
-        },
-        "f7d15ebd-6eac-4755-96d3-c04c1051d468": {
-          "from": "13bffe38-a62f-48f9-ab36-2e2dd6811ca0",
-          "to": "fab03ac4-8e8d-495b-b5c6-d70e8bcef3ba",
-          "id": "f7d15ebd-6eac-4755-96d3-c04c1051d468"
-        },
-        "ef490f18-a30d-4f5a-8dd7-5e4e980a9f71": {
-          "from": "de86a007-afdc-4e9a-bbc1-aa9a7fc0008d",
-          "to": "44a76563-0db7-4605-bdff-08f8854b1fcc",
-          "id": "ef490f18-a30d-4f5a-8dd7-5e4e980a9f71"
-        },
-        "db664408-d637-4a46-b369-e40821d77574": {
-          "from": "fa37a787-ebbe-4644-a1df-f9d1f8892137",
-          "to": "c758d613-aa2c-4391-8028-0aa1231fb775",
-          "id": "db664408-d637-4a46-b369-e40821d77574"
-        },
-        "44ce9808-3707-4172-9bd2-b1097a9d1c23": {
-          "from": "5af1d19f-1308-48cc-9c7f-405353d126e5",
-          "to": "88bb4383-a951-40df-a3db-e8dfaaf83de5",
-          "id": "44ce9808-3707-4172-9bd2-b1097a9d1c23"
         },
         "4dfa6aea-ab7a-402f-9827-4d1dc8a9aeff240": {
           "arrows": {
@@ -67987,12 +49452,6 @@ var schemeData =
           "from": "27a85b50-7b54-4434-a753-f2455b46b846486695",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138695"
         },
-        "0da578a3-9672-4073-baa3-aa773852f393": {
-          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
-          "to": "27a85b50-7b54-4434-a753-f2455b46b846486695",
-          "id": "0da578a3-9672-4073-baa3-aa773852f393",
-          "label": "code"
-        },
         "dff6994e-6110-455e-9455-a5b7fb0763a3863": {
           "arrows": {
             "to": {},
@@ -68017,11 +49476,6 @@ var schemeData =
           "id": "dff6994e-6110-455e-9455-a5b7fb0763a3863",
           "from": "27a85b50-7b54-4434-a753-f2455b46b846486863",
           "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138863"
-        },
-        "4b1a806c-cd11-4913-9782-6bdc6de51628": {
-          "from": "27a85b50-7b54-4434-a753-f2455b46b846486695",
-          "to": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138863",
-          "id": "4b1a806c-cd11-4913-9782-6bdc6de51628"
         },
         "d589dcfa-83d7-4a00-9763-f15c4c17bb45486622": {
           "arrows": {
@@ -68137,12 +49591,6 @@ var schemeData =
           "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486441",
           "to": "fcdd0bec-d9eb-412f-810f-075698893dbf486441"
         },
-        "2edaf552-9816-4ce0-8881-c537019fa2c5": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "fcdd0bec-d9eb-412f-810f-075698893dbf486441",
-          "id": "2edaf552-9816-4ce0-8881-c537019fa2c5",
-          "label": "code"
-        },
         "3b5d938b-01aa-4e06-a4a9-2b47ba6e4b26679": {
           "arrows": {
             "to": {},
@@ -68206,356 +49654,6 @@ var schemeData =
           "id": "81a35aa9-0747-4683-9e82-620dfb35a05a486530",
           "from": "200bf789-2d9a-4de6-8068-2c291572d19f486530",
           "to": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530"
-        },
-        "86de8b86-c1fc-4b53-b41c-20afe1feeca6": {
-          "from": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486",
-          "to": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530",
-          "id": "86de8b86-c1fc-4b53-b41c-20afe1feeca6",
-          "label": "code"
-        },
-        "69d6b04c-9037-4823-93fe-c0d073dec063": {
-          "from": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486",
-          "to": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530202",
-          "id": "69d6b04c-9037-4823-93fe-c0d073dec063",
-          "label": "code"
-        },
-        "d687266c-ee0a-484e-92b7-989e4bbc7298": {
-          "from": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486",
-          "to": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530363",
-          "id": "d687266c-ee0a-484e-92b7-989e4bbc7298",
-          "label": "code"
-        },
-        "88bab73b-8624-4ffb-b2c5-8322e334d37a": {
-          "from": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486",
-          "to": "ad67e6a8-2a73-4042-aa3a-23ab75241eee48653036324",
-          "id": "88bab73b-8624-4ffb-b2c5-8322e334d37a",
-          "label": "code"
-        },
-        "b7b3adbb-4a12-4f60-afda-8b9da69fa2e5": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "83256af2-2780-4edb-87da-35273c359d5e486446933240",
-          "id": "b7b3adbb-4a12-4f60-afda-8b9da69fa2e5",
-          "label": "code"
-        },
-        "49a6eea4-a19a-45b0-8b6c-37c844a080e8": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "fcdd0bec-d9eb-412f-810f-075698893dbf486622",
-          "id": "49a6eea4-a19a-45b0-8b6c-37c844a080e8",
-          "label": "code"
-        },
-        "9235e1dc-5987-4f7f-897a-e800bc2cb67e": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "fcdd0bec-d9eb-412f-810f-075698893dbf486737",
-          "id": "9235e1dc-5987-4f7f-897a-e800bc2cb67e",
-          "label": "code"
-        },
-        "5729be1e-152e-4b4d-8165-99747b0a43e1": {
-          "from": "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486",
-          "to": "9bea1621-4cda-4927-8da3-63ff571e4cf6",
-          "id": "5729be1e-152e-4b4d-8165-99747b0a43e1"
-        },
-        "d5945091-4767-4696-aa8e-8c34da5da9cf": {
-          "from": "9bea1621-4cda-4927-8da3-63ff571e4cf6",
-          "to": "3c257944-3395-472f-b2d8-eadc467ec09c426",
-          "id": "d5945091-4767-4696-aa8e-8c34da5da9cf"
-        },
-        "cf3842e2-d655-4f42-a9f3-c0d98ca06a8b": {
-          "from": "3c257944-3395-472f-b2d8-eadc467ec09c426",
-          "to": "a0cfdfb8-b498-4397-b871-ee20ad0cd6bf",
-          "id": "cf3842e2-d655-4f42-a9f3-c0d98ca06a8b"
-        },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb20640194248669323250196986396": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb20640194248669323250196986396",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a20640194248669323250196986396": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a20640194248669323250196986396",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396"
-        },
-        "ff1f32f6-6d48-47b2-a086-9f382c6c331f23250196986396": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f23250196986396",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396",
-          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396"
-        },
-        "280d28f8-535c-4c88-a2f0-87e762ee166323250196986396": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "280d28f8-535c-4c88-a2f0-87e762ee166323250196986396",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396",
-          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e6523250196986396"
-        },
-        "ee63df6f-1921-46e9-9700-34b89669bba623250196986396": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "ee63df6f-1921-46e9-9700-34b89669bba623250196986396",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396",
-          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e23250196986396"
-        },
-        "3e13284c-fe14-4274-8f65-922e56fc6f1123250196986396": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "3e13284c-fe14-4274-8f65-922e56fc6f1123250196986396",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396",
-          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b335823250196986396"
-        },
-        "23cad47f-f7a6-4328-b5c4-d66f19e31ab223250196986396": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab223250196986396",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396",
-          "to": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396"
-        },
-        "1643e93f-807d-428c-a55f-2b3fbedc3da4": {
-          "from": "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc",
-          "to": "44401bba-5383-432e-b905-25e85a0b60ec",
-          "id": "1643e93f-807d-428c-a55f-2b3fbedc3da4"
-        },
-        "c89a23f7-5e7a-46cb-962a-502fab35841e": {
-          "from": "2823b7f4-aeee-41a2-a9bb-b779dbb40869",
-          "to": "16527e97-6d7e-4abc-8608-be7027a620f1",
-          "id": "c89a23f7-5e7a-46cb-962a-502fab35841e"
-        },
-        "043fe2d7-9a1b-4d7e-b0e5-afe4166797b6": {
-          "from": "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc",
-          "to": "c2fcf7e4-edc1-4ba0-954f-b05037a6eaf6",
-          "id": "043fe2d7-9a1b-4d7e-b0e5-afe4166797b6"
-        },
-        "5065b2b7-e557-40f1-9e6b-b18805e93736": {
-          "from": "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc",
-          "to": "2823b7f4-aeee-41a2-a9bb-b779dbb40869",
-          "id": "5065b2b7-e557-40f1-9e6b-b18805e93736"
-        },
-        "a0877f7e-10b4-4560-af68-5e35617d204f": {
-          "from": "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc",
-          "to": "5c1bb553-b81a-463c-bfe6-5653dde6fa05",
-          "id": "a0877f7e-10b4-4560-af68-5e35617d204f"
-        },
-        "3f6db8cf-b165-4b90-b0e4-ddfccb2447ea": {
-          "from": "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486",
-          "to": "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc",
-          "id": "3f6db8cf-b165-4b90-b0e4-ddfccb2447ea"
         },
         "c541abe4-1701-4266-9053-10c9c6984b75728875": {
           "arrows": {
@@ -68942,269 +50040,6 @@ var schemeData =
           "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145",
           "id": "a0c08cab-00b2-4c3f-b225-8208d231f280"
         },
-        "5730fe67-6c64-488f-82ce-c48dd68d29fb20640194248669323250196986396984": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb20640194248669323250196986396984",
-          "from": "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396984",
-          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396984"
-        },
-        "d8982651-933d-47c1-ae53-e8f297c1393a20640194248669323250196986396984": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "d8982651-933d-47c1-ae53-e8f297c1393a20640194248669323250196986396984",
-          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab4120640194248669323250196986396984",
-          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396984"
-        },
-        "ff1f32f6-6d48-47b2-a086-9f382c6c331f23250196986396984": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f23250196986396984",
-          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db820640194248669323250196986396984",
-          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984"
-        },
-        "280d28f8-535c-4c88-a2f0-87e762ee166323250196986396984": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "280d28f8-535c-4c88-a2f0-87e762ee166323250196986396984",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
-          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e6523250196986396984"
-        },
-        "ee63df6f-1921-46e9-9700-34b89669bba623250196986396984": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "ee63df6f-1921-46e9-9700-34b89669bba623250196986396984",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
-          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e23250196986396984"
-        },
-        "3e13284c-fe14-4274-8f65-922e56fc6f1123250196986396984": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "3e13284c-fe14-4274-8f65-922e56fc6f1123250196986396984",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
-          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b335823250196986396984"
-        },
-        "23cad47f-f7a6-4328-b5c4-d66f19e31ab223250196986396984": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "label": "code",
-          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab223250196986396984",
-          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
-          "to": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396984"
-        },
         "cc6db5a6-d6ae-47fb-8cde-e7bac9e9ec59": {
           "from": "9c23ce52-ccea-4254-b207-a33d8bc3248f",
           "to": "8c0a2a25-c3de-445f-9b5d-143f8cbaed9e",
@@ -69240,12 +50075,6 @@ var schemeData =
           "id": "2edaf552-9816-4ce0-8881-c537019fa2c57",
           "from": "fcdd0bec-d9eb-412f-810f-075698893dbf4867",
           "to": "fcdd0bec-d9eb-412f-810f-075698893dbf4864417"
-        },
-        "7eca30df-95d3-4bc3-b3d0-aafa21fb2c77": {
-          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
-          "to": "fcdd0bec-d9eb-412f-810f-075698893dbf4864417",
-          "id": "7eca30df-95d3-4bc3-b3d0-aafa21fb2c77",
-          "label": "code"
         },
         "0bbfcf60-7c3e-4736-8785-75f4f349514d486499": {
           "arrows": {
@@ -69361,24 +50190,6 @@ var schemeData =
           "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486621",
           "to": "6275abb8-d031-4098-851b-0e023b1aba05486621"
         },
-        "203fbc14-694d-4939-b0aa-20aea7157aea": {
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "6275abb8-d031-4098-851b-0e023b1aba05486499",
-          "id": "203fbc14-694d-4939-b0aa-20aea7157aea",
-          "label": "code"
-        },
-        "30ff7fa5-c69f-415f-8244-63cf825b35cd": {
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "6275abb8-d031-4098-851b-0e023b1aba05486347",
-          "id": "30ff7fa5-c69f-415f-8244-63cf825b35cd",
-          "label": "code"
-        },
-        "234b0bdb-1c13-4c18-a4e1-c0e9d0d4e22c": {
-          "from": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
-          "to": "6275abb8-d031-4098-851b-0e023b1aba05486621",
-          "id": "234b0bdb-1c13-4c18-a4e1-c0e9d0d4e22c",
-          "label": "code"
-        },
         "f5a0dcaa-d2f4-4640-b63b-04e191ef64e9699": {
           "arrows": {
             "to": {},
@@ -69403,6 +50214,207 @@ var schemeData =
           "id": "f5a0dcaa-d2f4-4640-b63b-04e191ef64e9699",
           "from": "bc6ee279-38e5-4358-8539-181730157c04699",
           "to": "84cd0cc6-b761-4b97-a432-66581d9cac1f699"
+        },
+        "c547ff72-3797-413b-8790-d0c0e97cf289158728875145680": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "c547ff72-3797-413b-8790-d0c0e97cf289158728875145680",
+          "from": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680",
+          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680"
+        },
+        "a0c08cab-00b2-4c3f-b225-8208d231f280680": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "a0c08cab-00b2-4c3f-b225-8208d231f280680",
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609680",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680"
+        },
+        "771a4cfd-e6be-4ec4-9cea-18d2e8322ac9": {
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680",
+          "id": "771a4cfd-e6be-4ec4-9cea-18d2e8322ac9"
+        },
+        "c547ff72-3797-413b-8790-d0c0e97cf289158728875145680296": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "c547ff72-3797-413b-8790-d0c0e97cf289158728875145680296",
+          "from": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296",
+          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296"
+        },
+        "771a4cfd-e6be-4ec4-9cea-18d2e8322ac9296": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "771a4cfd-e6be-4ec4-9cea-18d2e8322ac9296",
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609296",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296"
+        },
+        "dcd3bdef-f862-4711-9fa0-444b102cbebd": {
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296",
+          "id": "dcd3bdef-f862-4711-9fa0-444b102cbebd"
+        },
+        "c547ff72-3797-413b-8790-d0c0e97cf289158728875145680296120": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "c547ff72-3797-413b-8790-d0c0e97cf289158728875145680296120",
+          "from": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296120",
+          "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296120"
+        },
+        "dcd3bdef-f862-4711-9fa0-444b102cbebd120": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "dcd3bdef-f862-4711-9fa0-444b102cbebd120",
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609120",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296120"
+        },
+        "6a7af8db-6c70-4874-aa0a-b3a9fb616a0a": {
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609",
+          "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296120",
+          "id": "6a7af8db-6c70-4874-aa0a-b3a9fb616a0a"
         }
       },
       "length": 0,
@@ -69449,10 +50461,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.00965643222903492,
+    "scale": 0.015512931968932622,
     "viewPosition": {
-      "x": 65757.46856820381,
-      "y": 13675.29543748433
+      "x": 36764.887147177134,
+      "y": 2798.6353888254635
     }
   }
 }

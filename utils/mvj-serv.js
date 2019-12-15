@@ -83,7 +83,25 @@ app.get("/", function(request, response){ //root dir
     }
     response.send(answerLine);
 });
+app.get("/sympy", function(request, response){ //root dir
+   response.set('access-control-allow-origin', '*');
+   var dataPart = request.query.dataPart;
 
+   console.log(dataPart);
+
+   var cmd = "printf \"" + dataPart + "\" | python3";
+
+   var execSync = require('child_process').execSync;
+
+   var options = {
+      encoding: 'utf8'
+   };
+
+   var calcResult = execSync(cmd, options);
+   console.log(calcResult);
+   answerLine = JSON.stringify(calcResult);
+   response.send(answerLine);
+});
 app.listen(port, host);
 
 var options = {

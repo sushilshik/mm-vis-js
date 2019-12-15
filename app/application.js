@@ -38,6 +38,7 @@ var lastClickPosition = null;
 //"#ffc63b"
 //"#FFD570" - lighter
 //"#af55f4" - goals and questions
+//"DodgerBlue" - blue
 ///////////////////////////////////
 function getUrlVars() {
 	var vars = {};
@@ -110,6 +111,22 @@ function getNodeById(data, id) {
 
 	throw 'Can not find id \'' + id + '\' in data';
 }
+function moveViewTo(x, y, scale) {
+   var positionX = parseFloat((x - canvasWidth/(2*scale)).toFixed(5));
+   var positionY = parseFloat((y - canvasHeight/(2*scale)).toFixed(5));
+   network.moveTo({
+      position: {x: positionX, y: positionY},
+      offset: {x: -canvasWidth/2, y: -canvasHeight/2},
+      scale: scale,
+   });
+
+   network1.moveTo({
+      position: {x: positionX, y: positionY},
+      offset: {x: -canvasWidth/2, y: -canvasHeight/2},
+      scale: scale,
+   });
+}
+
 function getNodeFromNetworkDataById(id) {
    var node;
    if (Array.isArray(network.body.data.nodes.get(id))) {
@@ -226,6 +243,48 @@ function collectCodeNodesContent(rootCodeNodeId) {
 	return codeNode;
 }
 
+function calcSymPy(symPyData, codeNodeId) {
+   var url = "https://localhost:3001/sympy";
+   
+   var nodesPositions = network.getPositions();
+   var mathScriptNodeP = nodesPositions[codeNodeId];
+   
+   var mathScriptNode = getNodeFromNetworkDataById(codeNodeId);
+   mathScriptNode.x = mathScriptNodeP.x;
+   mathScriptNode.y = mathScriptNodeP.y;
+   network.body.data.nodes.update(mathScriptNode);
+   
+   function fetchData(url, params, mathScriptNodeP) {
+      var calcResult = "";
+      url = url + "?origin=*";
+      Object.keys(params).forEach(function(key){url += "&" + key + "=" + params[key];});
+   
+      fetch(url)
+          .then(function(response){
+             return response.json();})
+          .then(function(response) {
+             calcResult = response;
+             network.body.data.nodes.add([{
+                label:calcResult,
+                x:mathScriptNodeP.x + 600,
+                y:mathScriptNodeP.y,
+                font: {face: "monospace"}
+             }]);
+             //console.log(response);
+          })
+          .catch(function(error){
+             console.log(error);
+          });
+      return calcResult;
+   }
+   
+   dataChunk = encodeURIComponent(symPyData);
+   var params = {
+      dataPart: dataChunk
+   };
+   
+   fetchData(url, params, mathScriptNodeP);
+}
 function draw() {
 	destroy();
 	// create a network
@@ -494,6 +553,10 @@ function draw() {
 				edges1ToCopy[item.id.toString()] = item;
 			});
 			data.edges = edges1ToCopy;
+                        var ids = [];
+                        objectToArray(data.nodes).forEach(function(node) {ids.push(node.id);});
+                        objectToArray(data.edges).forEach(function(edge) {ids.push(edge.id);});
+                        console.log(ids);
 			var label = JSON.stringify(data, undefined, 1);
 			//var label = JSON.stringify(data);
 			var screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})
@@ -1095,6 +1158,20 @@ function draw() {
       }
    });
    $(document).keyup(function (event) {
+      //move view to position from birdView variable. alt+h
+      if (event.altKey && event.keyCode === 72) {
+         if(typeof birdView !== "undefined") {
+            moveViewTo(birdView.x, birdView.y, birdView.scale);
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Run node code. ctrl+alt+v
+      if (event.ctrlKey && event.altKey && event.keyCode === 86) {
+         $("span#splitNodeListLabelButton").click();
+      }
+   });
+   $(document).keyup(function (event) {
       //Run node code. alt+r
       if (event.altKey && event.keyCode === 82) {
          $("span#runNodeCodeButton").click();
@@ -1168,10 +1245,11 @@ function draw() {
 		if (event.ctrlKey && event.altKey && event.keyCode === 68) {
 			var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
 			var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
-			var nodes = []
+			var nodes = [];
+                        var nodesPositions = network.getPositions();
 			selectedNodes.forEach(function(node) {
 				var nodeD = getNodeFromNetworkDataById(node.id);
-				pNode = network.getPositions()[node.id];
+				pNode = nodesPositions[node.id];
 				nodeD.x = pNode.x;
 				nodeD.y = pNode.y;
 				network.body.data.nodes.update(nodeD);
@@ -1188,18 +1266,9 @@ function draw() {
 				edges: {}
 			};
 			
-			var positions1 = network.getPositions();
 			nodes1ToCopy = {}; 
 			nodes.forEach(function(item) {
 				nodes1ToCopy[item.id.toString()] = item;
-			});
-			selectedNodes.forEach(function(node) {
-				objectToArray(positions1).forEach(function(position) {
-					if (node.id == position.id) {
-						node.x = position.x;
-						node.y = position.y;
-					}
-				});
 			});
 			data.nodes = nodes1ToCopy;
 
@@ -1880,6 +1949,56 @@ function showBrowserLocalStorageKeys() {
 		var key = localStorage.key(i);
 	}
 }
+   function splitNodeLabelToList(nodeId) {
+      var sourceNode = getNodeFromNetworkDataById(nodeId);
+      var nodeLabel = sourceNode.label.trim();
+      var pNode = network.getPositions()[nodeId];
+      var labelLines;
+      if (nodeLabel.split("!@!@").length > 1) {
+         labelLines = nodeLabel.split("\n!@!@\n");
+      } else {
+         labelLines = nodeLabel.split("\n");
+      }
+      var newLabelLines = [];
+      labelLines.forEach(function(line) {
+         if (line.length > 0) newLabelLines.push(line);
+      });
+      var nodeBBox = network.nodesHandler.getBoundingBox(nodeId);
+      var y = nodeBBox["top"];
+      var newNodesIds = [];
+      if (newLabelLines[0] == "to") {
+         newLabelLines.shift();
+         var root = {nodes:{}};
+         root.itemStep = 0;
+         root.lastItemStep = 0;
+         root.maxWidth = 0;
+         root.keys = []
+         newLabelLines.forEach(function(line,index) {
+            root = buildRow(line, index, root);
+         });
+         var alignMap = {};
+         buildPagesNodes(root, 600, alignMap, null);
+         for (var key in alignMap) {
+            //console.log(key);
+            alignNodesLeft(alignMap[key]);
+         }
+      } else {
+         newLabelLines.forEach(function(line,index) {
+            var position = {
+               x: pNode.x + 300,
+               y: y + (14*line.split("\n").length)/2
+            };
+            var nodeId = addNodeOnCanvas(line, "", position, 0, 0, network);
+            newNodesIds.push(nodeId);
+            y = y + 14*line.split("\n").length + 10;
+         });
+         var nodes = [];
+         newNodesIds.forEach(function(nodeId) {      
+            nodes.push(network.body.nodes[nodeId]);
+         });
+         alignNodesLeft(nodes);
+      }
+   }
 $(document).ready(function() {
 
 	containerJQ[0].oncontextmenu = () => false;
@@ -2151,61 +2270,25 @@ function buildPagesNodes(level, width, alignMap, parentNodeId) {
 
    splitNodeListLabelButton.click(function() {
       var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
-      var sourceNode = getNodeFromNetworkDataById(nodeIdInput);
-      var nodeLabel = sourceNode.label.trim();
-      var pNode = network.getPositions()[nodeIdInput];
-      var labelLines;
-      if (nodeLabel.split("!@!@").length > 1) {
-         labelLines = nodeLabel.split("\n!@!@\n");
-      } else {
-         labelLines = nodeLabel.split("\n");
-      }
-      var nodeBBox = network.nodesHandler.getBoundingBox(nodeIdInput);
-      var y = nodeBBox["top"];
-      var newNodesIds = [];
-      if (labelLines[0] == "to") {
-         labelLines.shift();
-         var root = {nodes:{}};
-         root.itemStep = 0;
-         root.lastItemStep = 0;
-         root.maxWidth = 0;
-         root.keys = []
-         labelLines.forEach(function(line,index) {
-            root = buildRow(line, index, root);
-         });
-         var alignMap = {};
-         buildPagesNodes(root, 600, alignMap, null);
-         for (var key in alignMap) {
-            //console.log(key);
-            alignNodesLeft(alignMap[key]);
-         }
-      } else {
-         labelLines.forEach(function(line,index) {
-            var position = {
-               x: pNode.x + 300,
-               y: y + (14*line.split("\n").length)/2
-            };
-            var nodeId = addNodeOnCanvas(line, "", position, 0, 0, network);
-            newNodesIds.push(nodeId);
-            y = y + 14*line.split("\n").length + 10;
-         });
-         var nodes = [];
-         newNodesIds.forEach(function(nodeId) {      
-            nodes.push(network.body.nodes[nodeId]);
-         });
-         alignNodesLeft(nodes);
-      }
-
+      splitNodeLabelToList(nodeIdInput);
    });
 	var runNodeCodeButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='runNodeCodeButton'>runNodeCode</span></div>");
 
 	schemeEditElementsMenu.append(runNodeCodeButton);
-	runNodeCodeButton.click(function() {
-		var nodeId = schemeEditElementsMenu.find("input#nodeIdInput").val();
-		var code = collectCodeNodesContent(nodeId);
-		var codeFunction = new Function('codeNodeId', code);
-		codeFunction(nodeId);
-	});
+runNodeCodeButton.click(function() {
+   var nodeId = schemeEditElementsMenu.find("input#nodeIdInput").val();
+   var code = collectCodeNodesContent(nodeId);
+   code = code.split("\n");
+   if (code[0] == "sympy") {
+      code.shift();
+      code = code.join("\n");
+      calcSymPy(code, nodeId);
+   } else {
+      code = code.join("\n");
+      var codeFunction = new Function('codeNodeId', code);
+      codeFunction(nodeId);
+   }
+});
 	var leftMenuHelpLine1 = $("<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>");
 	schemeEditElementsMenu.append(leftMenuHelpLine1);
 	//#FFD570
