@@ -24397,11 +24397,11 @@ var schemeData =
         },
         "f1286d83-7c40-4f3b-acb1-768c1541ee7e": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/latexImga9066a7a.png?1576784950645",
+          "image": "/public/imgs/latexImga9066a7a.png?1576784950645",
           "shape": "image",
           "size": 70,
-          "x": 104216,
-          "y": -7333,
+          "x": 104065,
+          "y": -7436,
           "font": {
             "face": "monospace"
           },
@@ -24418,11 +24418,11 @@ var schemeData =
         },
         "e24948de-935e-4b28-9f88-c942ec31a893": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/latexImg6bbc675938839824.png?1576784954509",
+          "image": "/public/imgs/latexImg6bbc675938839824.png?1576784954509",
           "shape": "image",
           "size": 70,
-          "x": 104960,
-          "y": -7123,
+          "x": 104475,
+          "y": -7062,
           "font": {
             "face": "monospace"
           },
@@ -24439,11 +24439,11 @@ var schemeData =
         },
         "854ca10a-4f72-40bd-8163-fe2112df2c2a": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/latexImg16bbc839664824.png?1576785047833",
+          "image": "/public/imgs/latexImg16bbc839664824.png?1576785047833",
           "shape": "image",
           "size": 70,
-          "x": 104532,
-          "y": -6885,
+          "x": 104113,
+          "y": -6892,
           "font": {
             "face": "monospace"
           },
@@ -24460,11 +24460,11 @@ var schemeData =
         },
         "7c5ada3e-3aec-4770-af13-e527c454b0df": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/latexImg6bbc839506733824.png?1576785486421",
+          "image": "/public/imgs/latexImg6bbc839506733824.png?1576785486421",
           "shape": "image",
           "size": 70,
-          "x": 104555,
-          "y": -6645,
+          "x": 104153,
+          "y": -6100,
           "font": {
             "face": "monospace"
           },
@@ -24481,11 +24481,11 @@ var schemeData =
         },
         "25a85f72-5072-4962-bef0-032902e18d62": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/latexImg16bbc839506733861824.png?1576785562613",
+          "image": "/public/imgs/latexImg16bbc839506733861824.png?1576785562613",
           "shape": "image",
           "size": 70,
-          "x": 104732,
-          "y": -6354,
+          "x": 104165,
+          "y": -5861,
           "font": {
             "face": "monospace"
           },
@@ -24502,11 +24502,11 @@ var schemeData =
         },
         "7217f841-5000-40e5-b2d3-85124974838b": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/latexImg6bbc675938839967838824.png?1576786029369",
+          "image": "/public/imgs/latexImg6bbc675938839967838824.png?1576786029369",
           "shape": "image",
           "size": 70,
-          "x": 104280,
-          "y": -6056,
+          "x": 104168,
+          "y": -5254,
           "font": {
             "face": "monospace"
           },
@@ -24523,11 +24523,11 @@ var schemeData =
         },
         "a04f4936-e8e9-40a3-bec8-dc41c0305435": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/plotb1d9821ca769824.png?1576786216452",
+          "image": "/public/imgs/plotb1d9821ca769824.png?1576786216452",
           "shape": "image",
           "size": 200,
-          "x": 104330,
-          "y": -5632,
+          "x": 104101,
+          "y": -4813,
           "font": {
             "face": "monospace"
           },
@@ -24535,11 +24535,11 @@ var schemeData =
         },
         "4eeb9380-c507-4de4-8354-e37406e05fcb": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/latexImgb1d9821ca769824.png?1576786216596",
+          "image": "/public/imgs/latexImgb1d9821ca769824.png?1576786216596",
           "shape": "image",
           "size": 70,
-          "x": 104330,
-          "y": -5362,
+          "x": 104101,
+          "y": -4813,
           "font": {
             "face": "monospace"
           },
@@ -24556,11 +24556,11 @@ var schemeData =
         },
         "998a6d1e-98b2-47f2-8573-a573bc7c58df": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/plotb1d9821ca76934824.png?1576786323637",
+          "image": "/public/imgs/plotb1d9821ca76934824.png?1576786323637",
           "shape": "image",
           "size": 200,
-          "x": 104345,
-          "y": -5002,
+          "x": 104094,
+          "y": -4063,
           "font": {
             "face": "monospace"
           },
@@ -24568,11 +24568,11 @@ var schemeData =
         },
         "12ca66b9-ac8a-4dc3-956f-083641e3c5f0": {
           "label": "",
-          "image": "https://localhost:3001/public/imgs/latexImgb1d9821ca76934824.png?1576786323783",
+          "image": "/public/imgs/latexImgb1d9821ca76934824.png?1576786323783",
           "shape": "image",
           "size": 70,
-          "x": 104345,
-          "y": -4732,
+          "x": 104094,
+          "y": -4063,
           "font": {
             "face": "monospace"
           },
@@ -45548,10 +45548,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.013139358974358991,
+    "scale": 0.013139358974358993,
     "viewPosition": {
-      "x": 96684.05892594332,
-      "y": 17102.50676369905
+      "x": 97064.59245749682,
+      "y": 17589.363637235405
     }
   }
 }
