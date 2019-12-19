@@ -34,6 +34,8 @@ var showCursorCoordinates = false;
 var pathDelimiter = "/";
 var lastEditedNodesIds = [];
 var lastClickPosition = null;
+var servUrl = "https://localhost:3001/";
+var publicImgsPath = "public/imgs/";
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -264,13 +266,83 @@ function calcSymPy(symPyData, codeNodeId) {
              return response.json();})
           .then(function(response) {
              calcResult = response;
-             network.body.data.nodes.add([{
-                label:calcResult,
-                x:mathScriptNodeP.x + 600,
-                y:mathScriptNodeP.y,
-                font: {face: "monospace"}
-             }]);
-             //console.log(response);
+
+             console.log(response);
+             var symPyData = JSON.parse(response);
+             console.log(symPyData);
+             var mathScriptNode = network.body.nodes[codeNodeId];
+             var topY = mathScriptNode.y - mathScriptNode.shape.height/2;
+             var maxBranchWidth = 0;
+             var resultBranches = [];
+             if (typeof symPyData["plotImgName"] !== 'undefined') {
+                var d = new Date();
+                var millis = String(d.getTime());
+                var imgPath = servUrl + publicImgsPath + symPyData["plotImgName"] + "?" + millis;
+                console.log(imgPath);
+                var imgNodeId = network.body.data.nodes.add([{
+                   label: "",
+                   image: imgPath,
+                   shape: "image",
+                   size: 200,
+                   x:mathScriptNodeP.x + mathScriptNode.shape.width/2 + 300,
+                   y:mathScriptNodeP.y,
+                   font: {face: "monospace"}
+                }])[0];
+                var imgNode = network.body.nodes[imgNodeId];
+                imgNode.imageObj.image.crossOrigin = "Anonymous";
+                imgNode.y = topY + imgNode.shape.height/2;
+                topY = topY + imgNode.shape.height;
+                network.body.data.edges.add({
+                   from:codeNodeId,
+                   to:imgNodeId
+                });
+                resultBranches.push(imgNode);
+                if (imgNode.shape.width > maxBranchWidth) maxBranchWidth = imgNode.shape.width;
+             }
+             if (typeof symPyData["latexImgName"] !== 'undefined') {
+                var d = new Date();
+                var millis = String(d.getTime());
+                var imgPath = servUrl + publicImgsPath + symPyData["latexImgName"] + "?" + millis;
+                console.log(imgPath);
+                var imgNodeId = network.body.data.nodes.add([{
+                   label: "",
+                   image: imgPath,
+                   shape: "image",
+                   size: 70,
+                   x:mathScriptNodeP.x + mathScriptNode.shape.width/2 + 300,
+                   y:mathScriptNodeP.y,
+                   font: {face: "monospace"}
+                }])[0];
+                var imgNode = network.body.nodes[imgNodeId];
+                imgNode.imageObj.image.crossOrigin = "Anonymous";
+                imgNode.y = topY + imgNode.shape.height/2;
+                topY = topY + imgNode.shape.height;
+                network.body.data.edges.add({
+                   from:codeNodeId,
+                   to:imgNodeId
+                });
+                resultBranches.push(imgNode);
+                if (imgNode.shape.width > maxBranchWidth) maxBranchWidth = imgNode.shape.width;
+             }
+             if (typeof symPyData["expression"] !== 'undefined') {
+                var nodeId = network.body.data.nodes.add([{
+                   label: symPyData["expression"],
+                   x:mathScriptNodeP.x + mathScriptNode.shape.width/2 + 300,
+                   y:mathScriptNodeP.y,
+                   font: {face: "monospace"}
+                }])[0];
+                var node = network.body.nodes[nodeId];
+                node.y = topY + node.shape.height/2;
+                network.body.data.edges.add({
+                   from:codeNodeId,
+                   to:nodeId
+                });
+                resultBranches.push(node);
+                if (node.shape.width > maxBranchWidth) maxBranchWidth = node.shape.width;
+             }
+             for (var i=0; i < resultBranches.length; i++) {
+                resultBranches[i].x = mathScriptNodeP.x + mathScriptNode.shape.width/2 + 200 + maxBranchWidth/2;
+             }
           })
           .catch(function(error){
              console.log(error);
@@ -280,7 +352,8 @@ function calcSymPy(symPyData, codeNodeId) {
    
    dataChunk = encodeURIComponent(symPyData);
    var params = {
-      dataPart: dataChunk
+      dataPart: dataChunk,
+      codeNodeId: codeNodeId
    };
    
    fetchData(url, params, mathScriptNodeP);
@@ -1949,6 +2022,87 @@ function showBrowserLocalStorageKeys() {
 		var key = localStorage.key(i);
 	}
 }
+function buildPagesNodes(level, width, alignMap, parentNodeId) {
+   var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
+   var pNode = network.getPositions()[nodeIdInput];
+   var keys = level.keys;
+   var lastNodeId;
+   level.keys.forEach(function(key, index) {
+      if (typeof level.nodes[key].nodes !== "undefined") {
+         var newWidth = width + level.maxWidth*14;
+         buildPagesNodes(level.nodes[key], newWidth, alignMap, lastNodeId);
+      } else {
+         var line = level.nodes[key];
+         var labelAndLink = line.split(" (http");
+         var label = labelAndLink[0].trim();
+         var link = "";
+         if (typeof labelAndLink[1] !== "undefined") {
+            link = "http" + labelAndLink[1].slice(0,-1);
+         }
+         var nodeId = addNodeOnCanvas(
+            label, 
+            link,
+            {x:pNode.x, y:pNode.y}, 
+            width + level.maxWidth*14/2, 
+            25*parseInt(key, 10), 
+            network)[0];
+         lastNodeId = nodeId;
+         if (typeof parentNodeId !== "undefined" && parentNodeId !== null) {
+            var edgeData = {from: parentNodeId, to: nodeId};
+            network.body.data.edges.getDataSet().add(edgeData);
+         }
+         if (typeof alignMap[keys[0]] === "undefined") {
+            alignMap[keys[0]] = [];
+         }
+         alignMap[keys[0]].push(network.body.nodes[nodeId]);
+      }
+   });
+}
+function getLevelLastBranch(tree, levelNumber) {
+   var branch = tree;
+   var lastKey = tree.keys.slice(-1)[0];
+   for (var i = 0; i < levelNumber; i++) {
+      branch = branch.nodes[lastKey];
+      if (typeof branch === "undefined") {
+         return branch;
+      }
+      console.log(branch);
+      lastKey = branch.keys.slice(-1)[0];
+   }
+   return branch;
+}
+function buildRow(item, index, root) {
+
+   var currentItemStep = item.match(/^\s*/g)[0].split("    ").length - 1;
+
+   var key = index.toString();
+
+   var labelAndLink = item.trim().split(" (http");
+   var label = labelAndLink[0].trim();
+
+   if (root.lastItemStep < currentItemStep) {
+      var branch = {nodes:{}};
+      branch.keys = [key];
+      branch.nodes[key] = item.trim();
+      branch.maxWidth = label.length;
+      branch.itemStep = currentItemStep;
+      branch.lastItemStep = currentItemStep;
+      var parentLevel = getLevelLastBranch(root, currentItemStep - 1);
+      parentLevel.nodes[key] = branch;
+      parentLevel.keys.push(key);
+   } else {
+      var parentLevel = getLevelLastBranch(root, currentItemStep);
+      parentLevel.nodes[key] = item.trim();
+      if (parentLevel.maxWidth < label.length) {
+         parentLevel.maxWidth = label.length;
+      }
+      parentLevel.keys.push(key);
+   }
+
+   root.lastItemStep = item.match(/^\s*/g)[0].split("    ").length - 1;
+
+   return root;
+}
    function splitNodeLabelToList(nodeId) {
       var sourceNode = getNodeFromNetworkDataById(nodeId);
       var nodeLabel = sourceNode.label.trim();
@@ -2184,87 +2338,6 @@ $(document).ready(function() {
 	closeElementEditButton.click(function() {
 		schemeEditElementsMenu.hide();
 	});
-function getLevelLastBranch(tree, levelNumber) {
-   var branch = tree;
-   var lastKey = tree.keys.slice(-1)[0];
-   for (var i = 0; i < levelNumber; i++) {
-      branch = branch.nodes[lastKey];
-      if (typeof branch === "undefined") {
-         return branch;
-      }
-      console.log(branch);
-      lastKey = branch.keys.slice(-1)[0];
-   }
-   return branch;
-}
-function buildRow(item, index, root) {
-
-   var currentItemStep = item.match(/^\s*/g)[0].split("    ").length - 1;
-
-   var key = index.toString();
-
-   var labelAndLink = item.trim().split(" (http");
-   var label = labelAndLink[0].trim();
-
-   if (root.lastItemStep < currentItemStep) {
-      var branch = {nodes:{}};
-      branch.keys = [key];
-      branch.nodes[key] = item.trim();
-      branch.maxWidth = label.length;
-      branch.itemStep = currentItemStep;
-      branch.lastItemStep = currentItemStep;
-      var parentLevel = getLevelLastBranch(root, currentItemStep - 1);
-      parentLevel.nodes[key] = branch;
-      parentLevel.keys.push(key);
-   } else {
-      var parentLevel = getLevelLastBranch(root, currentItemStep);
-      parentLevel.nodes[key] = item.trim();
-      if (parentLevel.maxWidth < label.length) {
-         parentLevel.maxWidth = label.length;
-      }
-      parentLevel.keys.push(key);
-   }
-
-   root.lastItemStep = item.match(/^\s*/g)[0].split("    ").length - 1;
-
-   return root;
-}
-function buildPagesNodes(level, width, alignMap, parentNodeId) {
-   var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
-   var pNode = network.getPositions()[nodeIdInput];
-   var keys = level.keys;
-   var lastNodeId;
-   level.keys.forEach(function(key, index) {
-      if (typeof level.nodes[key].nodes !== "undefined") {
-         var newWidth = width + level.maxWidth*14;
-         buildPagesNodes(level.nodes[key], newWidth, alignMap, lastNodeId);
-      } else {
-         var line = level.nodes[key];
-         var labelAndLink = line.split(" (http");
-         var label = labelAndLink[0].trim();
-         var link = "";
-         if (typeof labelAndLink[1] !== "undefined") {
-            link = "http" + labelAndLink[1].slice(0,-1);
-         }
-         var nodeId = addNodeOnCanvas(
-            label, 
-            link,
-            {x:pNode.x, y:pNode.y}, 
-            width + level.maxWidth*14/2, 
-            25*parseInt(key, 10), 
-            network)[0];
-         lastNodeId = nodeId;
-         if (typeof parentNodeId !== "undefined" && parentNodeId !== null) {
-            var edgeData = {from: parentNodeId, to: nodeId};
-            network.body.data.edges.getDataSet().add(edgeData);
-         }
-         if (typeof alignMap[keys[0]] === "undefined") {
-            alignMap[keys[0]] = [];
-         }
-         alignMap[keys[0]].push(network.body.nodes[nodeId]);
-      }
-   });
-}
    var splitNodeListLabelButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>");
    schemeEditElementsMenu.append(splitNodeListLabelButton);
 

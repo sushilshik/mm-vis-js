@@ -11952,8 +11952,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "node.js",
-          "x": 93133,
-          "y": 25289,
+          "x": 93119,
+          "y": 26206,
           "id": "8b0112d3-59fb-4d42-bbe7-51b3ab88a30436819",
           "shape": "box",
           "link": "",
@@ -11984,8 +11984,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 93433,
-          "y": 25739,
+          "x": 93419,
+          "y": 26656,
           "id": "0b72c7bf-1328-4eff-8490-5f1e8084bee836819"
         },
         "aa0461e5-9429-4159-a6eb-23deb821717a36819": {
@@ -12013,8 +12013,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/16/2019",
-          "x": 93683,
-          "y": 25739,
+          "x": 93669,
+          "y": 26656,
           "id": "aa0461e5-9429-4159-a6eb-23deb821717a36819"
         },
         "593c4777-3c8a-4ba9-baf6-2834d0b4496636819": {
@@ -12042,8 +12042,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 93583,
-          "y": 25739,
+          "x": 93569,
+          "y": 26656,
           "id": "593c4777-3c8a-4ba9-baf6-2834d0b4496636819"
         },
         "8edec874-c95a-4c54-9661-4ef49364335036819": {
@@ -12071,8 +12071,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 93427,
-          "y": 24717,
+          "x": 93413,
+          "y": 25634,
           "id": "8edec874-c95a-4c54-9661-4ef49364335036819"
         },
         "175bbd9d-ea9b-4598-a5ab-52f65625a8fe36819": {
@@ -12100,8 +12100,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 93607,
-          "y": 23596,
+          "x": 93593,
+          "y": 24513,
           "id": "175bbd9d-ea9b-4598-a5ab-52f65625a8fe36819"
         },
         "5fa9e65d-82eb-46e8-8a90-9730d61cb9af36819": {
@@ -12129,8 +12129,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 93577,
-          "y": 24717,
+          "x": 93563,
+          "y": 25634,
           "id": "5fa9e65d-82eb-46e8-8a90-9730d61cb9af36819"
         },
         "5e27e0e5-e820-4ef8-8eda-ee20bccbad7536819": {
@@ -12158,8 +12158,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 93583,
-          "y": 25139,
+          "x": 93569,
+          "y": 26056,
           "id": "5e27e0e5-e820-4ef8-8eda-ee20bccbad7536819"
         },
         "15ddf0eb-270f-4cb1-b079-9b0be14fa13336819": {
@@ -12187,8 +12187,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 93641,
-          "y": 24817,
+          "x": 93627,
+          "y": 25734,
           "id": "15ddf0eb-270f-4cb1-b079-9b0be14fa13336819"
         },
         "0b4c7e99-c9a2-46ce-b6d3-192ee610ea8c36819": {
@@ -12216,8 +12216,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 93672,
-          "y": 24842,
+          "x": 93658,
+          "y": 25759,
           "id": "0b4c7e99-c9a2-46ce-b6d3-192ee610ea8c36819"
         },
         "3bc3a3d8-7e65-4d44-9224-0ca4af905d8436819": {
@@ -12245,8 +12245,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 93637,
-          "y": 24867,
+          "x": 93623,
+          "y": 25784,
           "id": "3bc3a3d8-7e65-4d44-9224-0ca4af905d8436819"
         },
         "63b6fb39-3c54-48fd-ae20-bf7fcf08c62936819": {
@@ -12274,8 +12274,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 93656,
-          "y": 24892,
+          "x": 93642,
+          "y": 25809,
           "id": "63b6fb39-3c54-48fd-ae20-bf7fcf08c62936819"
         },
         "b353053c-5062-4b57-b417-f78336140d5436819": {
@@ -12303,8 +12303,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 93645,
-          "y": 24917,
+          "x": 93631,
+          "y": 25834,
           "id": "b353053c-5062-4b57-b417-f78336140d5436819"
         },
         "fbd5f791-e752-4e64-a321-4a9138e159c136819": {
@@ -12332,8 +12332,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 93667,
-          "y": 24942,
+          "x": 93653,
+          "y": 25859,
           "id": "fbd5f791-e752-4e64-a321-4a9138e159c136819"
         },
         "60e54f39-3c52-4f13-a156-cd1bab76771e36819": {
@@ -12361,8 +12361,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 93682,
-          "y": 25056,
+          "x": 93668,
+          "y": 25973,
           "id": "60e54f39-3c52-4f13-a156-cd1bab76771e36819"
         },
         "48f6cdc3-ba15-45be-9d2e-7be8841f90a536819": {
@@ -12390,8 +12390,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 93653,
-          "y": 25164,
+          "x": 93639,
+          "y": 26081,
           "id": "48f6cdc3-ba15-45be-9d2e-7be8841f90a536819"
         },
         "6b306a33-b08f-4b5e-bcda-b7954e099c5b36819": {
@@ -12419,8 +12419,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 93645,
-          "y": 25189,
+          "x": 93631,
+          "y": 26106,
           "id": "6b306a33-b08f-4b5e-bcda-b7954e099c5b36819"
         },
         "cb89defd-1974-4657-996b-0cbc9825339636819": {
@@ -12448,8 +12448,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 93672,
-          "y": 25214,
+          "x": 93658,
+          "y": 26131,
           "id": "cb89defd-1974-4657-996b-0cbc9825339636819"
         },
         "eadc8461-b537-422a-97f6-c404c48e665736819": {
@@ -12477,8 +12477,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 93658,
-          "y": 25239,
+          "x": 93644,
+          "y": 26156,
           "id": "eadc8461-b537-422a-97f6-c404c48e665736819"
         },
         "0d743907-6d08-4519-ae85-deb4483ee8a336819": {
@@ -12506,8 +12506,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 93680,
-          "y": 25264,
+          "x": 93666,
+          "y": 26181,
           "id": "0d743907-6d08-4519-ae85-deb4483ee8a336819"
         },
         "99debaf4-acfe-43c6-b37f-e42d076de7f536819": {
@@ -12535,8 +12535,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 93644,
-          "y": 25289,
+          "x": 93630,
+          "y": 26206,
           "id": "99debaf4-acfe-43c6-b37f-e42d076de7f536819"
         },
         "98f7c24f-d404-495e-a5b4-2896c47cc8cc36819": {
@@ -12564,8 +12564,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 93683,
-          "y": 25314,
+          "x": 93669,
+          "y": 26231,
           "id": "98f7c24f-d404-495e-a5b4-2896c47cc8cc36819"
         },
         "7bbf542e-5700-4a63-8561-bad053b0ae2536819": {
@@ -12593,8 +12593,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 93433,
-          "y": 25439,
+          "x": 93419,
+          "y": 26356,
           "id": "7bbf542e-5700-4a63-8561-bad053b0ae2536819"
         },
         "39d86401-99db-464f-8ff4-d92d27553c2b36819": {
@@ -12622,8 +12622,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 93433,
-          "y": 25539,
+          "x": 93419,
+          "y": 26456,
           "id": "39d86401-99db-464f-8ff4-d92d27553c2b36819"
         },
         "2ce62d8d-e16f-4800-aae0-fbf097287e9636819": {
@@ -12651,8 +12651,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 93433,
-          "y": 25639,
+          "x": 93419,
+          "y": 26556,
           "id": "2ce62d8d-e16f-4800-aae0-fbf097287e9636819"
         },
         "d96f5948-ef1b-4663-896c-94fb21826ad136819": {
@@ -12684,8 +12684,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://nodejs.org/en/",
           "id": "d96f5948-ef1b-4663-896c-94fb21826ad136819",
-          "x": 93854,
-          "y": 25024,
+          "x": 93840,
+          "y": 25941,
           "shape": "box",
           "link": "https://nodejs.org/en/",
           "borderWidth": ""
@@ -12719,8 +12719,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Node.js",
           "id": "b69dd9ef-2709-449d-adf2-1a75b7341d9636819",
-          "x": 93899,
-          "y": 25091,
+          "x": 93885,
+          "y": 26008,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Node.js",
           "borderWidth": ""
@@ -12751,8 +12751,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "File",
           "id": "a5cd2f42-f8f0-43aa-8be8-957bad6f914736819",
-          "x": 93851,
-          "y": 22472
+          "x": 93839,
+          "y": 23217
         },
         "fa38bc4c-25b3-4e43-98a9-52b40324705636819": {
           "color": {
@@ -12783,8 +12783,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var fs = require('fs');\n \nvar contents = fs.readFileSync('DATA', 'utf8');\nconsole.log(contents);",
           "id": "fa38bc4c-25b3-4e43-98a9-52b40324705636819",
-          "x": 94532,
-          "y": 22548,
+          "x": 94518,
+          "y": 23465,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12815,8 +12815,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Read file",
           "id": "f82446f2-e318-489a-bcdc-bf6c553eda4936819",
-          "x": 94036,
-          "y": 22548
+          "x": 94019,
+          "y": 23465
         },
         "19149795-5ce1-4f65-8af6-17b289c3b3fc36819": {
           "color": {
@@ -12844,8 +12844,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "synchronously (blocking)",
           "id": "19149795-5ce1-4f65-8af6-17b289c3b3fc36819",
-          "x": 94236,
-          "y": 22546
+          "x": 94222,
+          "y": 23463
         },
         "e359a9ab-c9e2-4423-a42d-debab459f90536819": {
           "color": {
@@ -12873,8 +12873,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Write file",
           "id": "e359a9ab-c9e2-4423-a42d-debab459f90536819",
-          "x": 94035,
-          "y": 22685
+          "x": 94019,
+          "y": 23602
         },
         "b313d40f-da15-42db-a2aa-2288154a95a436819": {
           "color": {
@@ -12902,8 +12902,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Synchronous Write",
           "id": "b313d40f-da15-42db-a2aa-2288154a95a436819",
-          "x": 94238,
-          "y": 22678
+          "x": 94224,
+          "y": 23595
         },
         "db68dd14-d028-483c-9b32-bcbc3e3b041636819": {
           "color": {
@@ -12934,8 +12934,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "fs = require('fs');\n\nfs.writeFileSync(\"synchronous.txt\", \"synchronous write!\")",
           "id": "db68dd14-d028-483c-9b32-bcbc3e3b041636819",
-          "x": 94552,
-          "y": 22682,
+          "x": 94538,
+          "y": 23599,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13001,8 +13001,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Web",
           "id": "22bca686-0c7e-4114-863c-797c302218dd36819",
-          "x": 93904,
-          "y": 23135
+          "x": 93890,
+          "y": 24052
         },
         "1d75ed7e-86c3-4e7f-9d05-7a3b748649b836819": {
           "color": {
@@ -13030,14 +13030,15 @@ var schemeData =
           "shapeProperties": {},
           "label": "http-server",
           "id": "1d75ed7e-86c3-4e7f-9d05-7a3b748649b836819",
-          "x": 94071,
-          "y": 23139
+          "x": 94057,
+          "y": 24056
         },
         "ac59f16e-c18f-44c2-8825-0f4c97e9978636819": {
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffc63b"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -13062,8 +13063,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var http = require('http');\nvar fs = require('fs');\n\nhttp.createServer(function (req, res) {\n    console.dir(req.url);\n\n    res.writeHead(200, {'Content-Type': 'text/html'});\n\n    res.end('ok');\n}).listen(3001);",
           "id": "ac59f16e-c18f-44c2-8825-0f4c97e9978636819",
-          "x": 94691,
-          "y": 22988,
+          "x": 94677,
+          "y": 23906,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13072,7 +13073,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffc63b"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -13097,8 +13099,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "\n    // will get you  '/' or 'index.html' or 'css/styles.css' ...\n    // • you need to isolate extension\n    // • have a small mimetype lookup array/object\n    // • only there and then reading the file\n    // •  delivering it after setting the right content type",
           "id": "7694fd32-c1c5-40d4-9240-54d4e7ede3bd36819",
-          "x": 95128,
-          "y": 22973,
+          "x": 95114,
+          "y": 23891,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13129,8 +13131,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "default",
           "id": "cc7d6c80-dc62-4cc7-b578-847ffa71a49736819",
-          "x": 94309,
-          "y": 22987
+          "x": 94295,
+          "y": 23904
         },
         "89204f24-20ea-44c2-960e-df487896b73d36819": {
           "color": {
@@ -13158,14 +13160,15 @@ var schemeData =
           "shapeProperties": {},
           "label": "Express",
           "id": "89204f24-20ea-44c2-960e-df487896b73d36819",
-          "x": 94318,
-          "y": 23362
+          "x": 94304,
+          "y": 24279
         },
         "8611fc6f-7fdb-465b-8594-409160e4d29436819": {
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffc63b"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -13190,8 +13193,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var fs = require(\"fs\");\nvar host = \"127.0.0.1\";\nvar port = 1337;\nvar express = require(\"express\");\n\nvar app = express();\n//app.use(express.static(__dirname + \"/public\")); //use static files in ROOT/public folder\n\nvar saveData = {};\napp.get(\"/\", function(request, response){ //root dir\n    response.set('access-control-allow-origin', '*');\n    var path = request.query.path;\n    var dataPart = request.query.dataPart;\n    var dataPartNumber = request.query.dataPartNumber;\n    var projectName = request.query.projectName;\n    var saveTime = request.query.saveTime;\n    var lastDataPart = request.query.lastDataPart;\n\n    saveData[dataPartNumber] = JSON.parse(dataPart);\n\n    var answerLine = JSON.stringify(\"ok\");\n\n    process.stdout.write(dataPart);\n    if (lastDataPart == \"true\") {\n        var data = \"\";\n        for (var key in saveData) {\n           data += saveData[key];\n        }\n        console.log(data);\n    }\n    response.send(answerLine);\n});\n\napp.listen(port, host);\n",
           "id": "8611fc6f-7fdb-465b-8594-409160e4d29436819",
-          "x": 94820,
-          "y": 23585,
+          "x": 94806,
+          "y": 24503,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13225,8 +13228,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://expressjs.com/",
           "id": "c4c94d18-dddf-492f-a462-dbf98eb7c4ec36819",
-          "x": 94623,
-          "y": 23172,
+          "x": 94609,
+          "y": 24089,
           "shape": "box",
           "link": "https://expressjs.com/",
           "borderWidth": ""
@@ -13257,8 +13260,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "npm install express --save",
           "id": "6ec535b8-1ebc-4e8a-ac43-aa093bcfc66136819",
-          "x": 94634,
-          "y": 23219
+          "x": 94620,
+          "y": 24136
         },
         "52ba929a-8eeb-4abc-aa3e-cf4f025bdc3636819": {
           "color": {
@@ -13286,8 +13289,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Headers",
           "id": "52ba929a-8eeb-4abc-aa3e-cf4f025bdc3636819",
-          "x": 94577,
-          "y": 23275
+          "x": 94563,
+          "y": 24192
         },
         "2f8f1f6f-d728-41d9-b7db-62d836b760fd36819": {
           "color": {
@@ -13315,8 +13318,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "res.set('Content-Type', 'text/plain');",
           "id": "2f8f1f6f-d728-41d9-b7db-62d836b760fd36819",
-          "x": 94815,
-          "y": 23272
+          "x": 94801,
+          "y": 24189
         },
         "458b61a0-e10d-4295-8c2c-23f8fe12333136819": {
           "color": {
@@ -13373,14 +13376,15 @@ var schemeData =
           "shapeProperties": {},
           "label": "script params",
           "id": "4680c04b-eedc-4bc6-bcd8-8d01ded6800036819",
-          "x": 93929,
-          "y": 24038
+          "x": 93915,
+          "y": 24955
         },
         "a53202b6-e477-441b-8954-26a277046fcf36819": {
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffc63b"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -13405,8 +13409,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "process.argv.forEach(function (val, index, array) {\n  console.log(index + ': ' + val);\n})",
           "id": "a53202b6-e477-441b-8954-26a277046fcf36819",
-          "x": 94301,
-          "y": 24040,
+          "x": 94287,
+          "y": 24958,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13437,8 +13441,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Create dir",
           "id": "e8b783c9-20ae-49ec-9e28-f4d06eb7268d36819",
-          "x": 94037,
-          "y": 22351
+          "x": 94023,
+          "y": 23268
         },
         "02e1bc0c-9bc8-4ce1-8a13-7352aa487c5b36819": {
           "color": {
@@ -13469,8 +13473,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "if (!fs.existsSync(dir)){\n    fs.mkdirSync(dir);\n}",
           "id": "02e1bc0c-9bc8-4ce1-8a13-7352aa487c5b36819",
-          "x": 94417,
-          "y": 22345,
+          "x": 94403,
+          "y": 23262,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27117,7 +27121,7 @@ var schemeData =
         },
         "b6b6a10a-79fd-401b-9bf8-43009daf6344": {
           "id": "b6b6a10a-79fd-401b-9bf8-43009daf6344",
-          "x": 118863,
+          "x": 118862,
           "y": 2899,
           "label": "haystack.lastIndexOf(needle, 0) === 0"
         },
@@ -28393,9 +28397,9 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "String",
+          "label": "Logic",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780558",
-          "x": 121054,
+          "x": 120943,
           "y": 7271,
           "shape": "box",
           "link": "",
@@ -31018,8 +31022,8 @@ var schemeData =
         },
         "eb65639e-9a80-4333-b8c2-9e926eb9f20c": {
           "id": "eb65639e-9a80-4333-b8c2-9e926eb9f20c",
-          "x": 118733,
-          "y": 7266,
+          "x": 118557,
+          "y": 3091,
           "label": "Multiline strings",
           "shape": "box",
           "link": "",
@@ -31035,8 +31039,8 @@ var schemeData =
         },
         "2744de64-7709-401e-bfdc-7480172fa22a": {
           "id": "2744de64-7709-401e-bfdc-7480172fa22a",
-          "x": 118898,
-          "y": 7266,
+          "x": 118787,
+          "y": 3097,
           "label": "var a = \"line1 \\\nline2 \\\nline3\";",
           "shape": "box",
           "link": "",
@@ -31052,20 +31056,20 @@ var schemeData =
         },
         "d10c7e68-4ed4-4741-8fc2-fc6c4d4023a5": {
           "id": "d10c7e68-4ed4-4741-8fc2-fc6c4d4023a5",
-          "x": 119138,
-          "y": 7261,
+          "x": 119052,
+          "y": 3092,
           "label": "some browsers can add \"new line\" after each line."
         },
         "6f443083-f076-4866-82d0-7ea571cd65f3": {
           "id": "6f443083-f076-4866-82d0-7ea571cd65f3",
-          "x": 118894,
-          "y": 7341,
+          "x": 118783,
+          "y": 3172,
           "label": "var a = `line1\nline2\nline3`;"
         },
         "09d18346-144d-435e-8bc4-add022b19b69": {
           "id": "09d18346-144d-435e-8bc4-add022b19b69",
-          "x": 119022,
-          "y": 7339,
+          "x": 118923,
+          "y": 3170,
           "label": "Best way"
         },
         "9752401f-ba67-4803-9905-25055942d433": {
@@ -31129,7 +31133,7 @@ var schemeData =
         },
         "ad218950-61ec-4be0-9225-4dc33cac45d1": {
           "id": "ad218950-61ec-4be0-9225-4dc33cac45d1",
-          "x": 118853,
+          "x": 118852,
           "y": 2964,
           "label": "\"   \".item.match(/\\s/g) -> [\" \", \" \", \" \"]",
           "shape": "box",
@@ -31365,27 +31369,27 @@ var schemeData =
         },
         "a63c9e21-c083-45c8-b5c2-c2ce83fcebf6": {
           "id": "a63c9e21-c083-45c8-b5c2-c2ce83fcebf6",
-          "x": 94507,
-          "y": 24216,
+          "x": 94493,
+          "y": 25133,
           "label": "https://medium.com/stackfame/how-to-run-shell-script-file-or-command-using-nodejs-b9f2455cb6b7",
           "link": "https://medium.com/stackfame/how-to-run-shell-script-file-or-command-using-nodejs-b9f2455cb6b7"
         },
         "94ad2fb2-a295-4a39-806d-86554e8aef4e": {
           "id": "94ad2fb2-a295-4a39-806d-86554e8aef4e",
-          "x": 93988,
-          "y": 24217,
+          "x": 93974,
+          "y": 25134,
           "label": "Run shell script file or command"
         },
         "94b6bae1-7dd7-46fb-bbd7-a6c37ec4d6ff": {
           "id": "94b6bae1-7dd7-46fb-bbd7-a6c37ec4d6ff",
-          "x": 94393,
-          "y": 24338,
+          "x": 94379,
+          "y": 25255,
           "label": "var exec = require('child_process').exec;\nvar cmd = 'prince -v builds/pdf/book.html -o builds/pdf/book.pdf';\n\nexec(cmd, function(error, stdout, stderr) {\n  // command output is in stdout\n});"
         },
         "bbda3d10-ad1a-4dd0-8981-26a0d6453969": {
           "id": "bbda3d10-ad1a-4dd0-8981-26a0d6453969",
-          "x": 94481,
-          "y": 24260,
+          "x": 94467,
+          "y": 25177,
           "label": "https://stackoverflow.com/questions/20643470/execute-a-command-line-binary-with-node-js",
           "link": "https://stackoverflow.com/questions/20643470/execute-a-command-line-binary-with-node-js"
         },
@@ -31995,6 +31999,191 @@ var schemeData =
           "shape": "box",
           "link": "math.html",
           "borderWidth": ""
+        },
+        "4a4a20e0-336d-439d-8d77-6625e07d2813": {
+          "id": "4a4a20e0-336d-439d-8d77-6625e07d2813",
+          "x": 94175,
+          "y": 25431,
+          "label": "syncronised (?)"
+        },
+        "ecbdafcb-6821-4b6c-9063-73c6603cb2da": {
+          "label": "   var cmd = \"printf \\\"\" + dataPart + \"\\\" | python3\";\n\n   var execSync1 = require('child_process').execSync;\n\n   var options = {\n      encoding: 'utf8'\n   };\n\n   var calcResult = execSync1(cmd, options);\n   var symPyData = JSON.parse(calcResult);",
+          "link": "",
+          "x": 94445,
+          "y": 25445,
+          "id": "ecbdafcb-6821-4b6c-9063-73c6603cb2da",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "93e71247-e6d7-493d-8f91-e354b5109a22": {
+          "id": "93e71247-e6d7-493d-8f91-e354b5109a22",
+          "x": 94029,
+          "y": 23087,
+          "label": "Rename file"
+        },
+        "29824cb9-3e47-488d-a4b2-8037b816a6b8": {
+          "id": "29824cb9-3e47-488d-a4b2-8037b816a6b8",
+          "x": 94396,
+          "y": 23055,
+          "label": "https://stackoverflow.com/questions/22504566/renaming-files-using-node-js",
+          "link": "https://stackoverflow.com/questions/22504566/renaming-files-using-node-js"
+        },
+        "983125dd-16da-47d5-bc5d-aba7d5a3f15c": {
+          "id": "983125dd-16da-47d5-bc5d-aba7d5a3f15c",
+          "x": 94346,
+          "y": 23088,
+          "label": "fs.renameSync('/path/to/Afghanistan.png', '/path/to/AF.png')"
+        },
+        "fc5d069a-710f-4dfb-881a-6278ef634c60": {
+          "id": "fc5d069a-710f-4dfb-881a-6278ef634c60",
+          "x": 94375,
+          "y": 23148,
+          "label": "var fs = require('fs');\nfs.rename('/path/to/Afghanistan.png', '/path/to/AF.png', function(err) {\n    if ( err ) console.log('ERROR: ' + err);\n});"
+        },
+        "31554353-940e-47aa-903a-fbad6daffb18": {
+          "id": "31554353-940e-47aa-903a-fbad6daffb18",
+          "x": 94020,
+          "y": 22974,
+          "label": "Move file"
+        },
+        "3c5e87ed-70b0-4a07-87b3-27387744e396": {
+          "id": "3c5e87ed-70b0-4a07-87b3-27387744e396",
+          "x": 94375,
+          "y": 22937,
+          "label": "fs.rename(getFileName, __dirname + '/new_folder/' + getFileName); "
+        },
+        "3971cd06-9fc0-4405-98e0-ba74742b3e93": {
+          "id": "3971cd06-9fc0-4405-98e0-ba74742b3e93",
+          "x": 94419,
+          "y": 22974,
+          "label": "Be careful this will not work if you try to rename the file between different partitions,\nneither on some virtual file systems (such as docker for instance)",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6a6e1e33-e98c-4a10-b27c-3abe9bb796bf": {
+          "id": "6a6e1e33-e98c-4a10-b27c-3abe9bb796bf",
+          "x": 94398,
+          "y": 23011,
+          "label": "https://stackoverflow.com/questions/8579055/how-do-i-move-files-in-node-js",
+          "link": "https://stackoverflow.com/questions/8579055/how-do-i-move-files-in-node-js"
+        },
+        "37581c0e-6b78-42d7-9db9-64d5acbc64f3": {
+          "id": "37581c0e-6b78-42d7-9db9-64d5acbc64f3",
+          "x": 94043,
+          "y": 22620,
+          "label": "Remove file"
+        },
+        "b18e88e9-20a0-4ba8-a877-a58eb429b867": {
+          "id": "b18e88e9-20a0-4ba8-a877-a58eb429b867",
+          "x": 94377,
+          "y": 22660,
+          "label": "https://stackoverflow.com/questions/5315138/node-js-remove-file",
+          "link": "https://stackoverflow.com/questions/5315138/node-js-remove-file"
+        },
+        "0293bf97-3518-41c9-8a65-17f521509a3a": {
+          "id": "0293bf97-3518-41c9-8a65-17f521509a3a",
+          "x": 94213,
+          "y": 22542,
+          "label": "Synchronous ",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "8406a0f6-1287-4c42-9b62-110fd4118e6e": {
+          "id": "8406a0f6-1287-4c42-9b62-110fd4118e6e",
+          "x": 94215,
+          "y": 22598,
+          "label": "Asynchronous"
+        },
+        "768be0e1-8cea-498e-945c-c22bc8b1ac42": {
+          "id": "768be0e1-8cea-498e-945c-c22bc8b1ac42",
+          "x": 94409,
+          "y": 22596,
+          "label": "fs.unlink(path, callback)"
+        },
+        "09ccb0ed-dcd4-47d2-9344-41ab23279eab": {
+          "id": "09ccb0ed-dcd4-47d2-9344-41ab23279eab",
+          "x": 94395,
+          "y": 22536,
+          "label": "fs.unlinkSync(path)"
+        },
+        "225a0c26-fc7e-4f1a-8e4b-99204a3e69f7": {
+          "id": "225a0c26-fc7e-4f1a-8e4b-99204a3e69f7",
+          "x": 94678,
+          "y": 22751,
+          "label": "try{\n   var sourceUrls = \"/sampleFolder/sampleFile.txt\";\n   fs.unlinkSync(sourceUrls);\n}catch(err){\n   console.log(err);\n}",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "bbd61958-08d1-48fd-8481-e5c7519005c3": {
+          "id": "bbd61958-08d1-48fd-8481-e5c7519005c3",
+          "x": 94241,
+          "y": 22750,
+          "label": "Need to check if exists"
+        },
+        "d7419651-defc-43e9-8633-76fd8f3b191b": {
+          "id": "d7419651-defc-43e9-8633-76fd8f3b191b",
+          "x": 94417,
+          "y": 22748,
+          "label": "or just catch errors"
         }
       },
       "length": 0,
@@ -47006,11 +47195,6 @@ var schemeData =
           "to": "6f443083-f076-4866-82d0-7ea571cd65f3",
           "id": "ffd10d33-67a7-40ef-90e8-debf1224c0af"
         },
-        "4ea1a403-9a60-411d-a5db-24ed19da6465": {
-          "from": "86d2c166-2c65-4658-b47d-6f5a3ea2ffd6",
-          "to": "eb65639e-9a80-4333-b8c2-9e926eb9f20c",
-          "id": "4ea1a403-9a60-411d-a5db-24ed19da6465"
-        },
         "22200865-8861-4deb-b5a3-f429609fdee1": {
           "from": "9752401f-ba67-4803-9905-25055942d433",
           "to": "149ef38a-ae3a-489c-a44a-90a53e9ab2c0",
@@ -47691,6 +47875,106 @@ var schemeData =
           "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1",
           "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296120685",
           "id": "233b66d4-15c3-403e-a54f-3907352a1611"
+        },
+        "d738d93e-80c4-4b91-b5bc-10e7da954d80": {
+          "from": "4ec9019c-702f-4f59-855e-0956ee529673",
+          "to": "eb65639e-9a80-4333-b8c2-9e926eb9f20c",
+          "id": "d738d93e-80c4-4b91-b5bc-10e7da954d80"
+        },
+        "8e4bf680-15fc-445b-b7ca-267d6d9571d3": {
+          "from": "4a4a20e0-336d-439d-8d77-6625e07d2813",
+          "to": "ecbdafcb-6821-4b6c-9063-73c6603cb2da",
+          "id": "8e4bf680-15fc-445b-b7ca-267d6d9571d3"
+        },
+        "2db3fe76-c18f-4bbe-b664-a60ce0d0c895": {
+          "from": "94ad2fb2-a295-4a39-806d-86554e8aef4e",
+          "to": "4a4a20e0-336d-439d-8d77-6625e07d2813",
+          "id": "2db3fe76-c18f-4bbe-b664-a60ce0d0c895"
+        },
+        "a1facbce-3b39-4937-8d64-310549334a2b": {
+          "from": "93e71247-e6d7-493d-8f91-e354b5109a22",
+          "to": "29824cb9-3e47-488d-a4b2-8037b816a6b8",
+          "id": "a1facbce-3b39-4937-8d64-310549334a2b"
+        },
+        "cd63b75e-b23c-4960-a989-57de3a900ff3": {
+          "from": "93e71247-e6d7-493d-8f91-e354b5109a22",
+          "to": "983125dd-16da-47d5-bc5d-aba7d5a3f15c",
+          "id": "cd63b75e-b23c-4960-a989-57de3a900ff3"
+        },
+        "3c270027-f385-4cf7-8af8-653727d67bcf": {
+          "from": "93e71247-e6d7-493d-8f91-e354b5109a22",
+          "to": "fc5d069a-710f-4dfb-881a-6278ef634c60",
+          "id": "3c270027-f385-4cf7-8af8-653727d67bcf"
+        },
+        "79a2d5ae-dc13-485a-b2c4-17bf40429d5f": {
+          "from": "a5cd2f42-f8f0-43aa-8be8-957bad6f914736819",
+          "to": "93e71247-e6d7-493d-8f91-e354b5109a22",
+          "id": "79a2d5ae-dc13-485a-b2c4-17bf40429d5f"
+        },
+        "ed15b793-c340-461e-bec3-1868be6a7762": {
+          "from": "31554353-940e-47aa-903a-fbad6daffb18",
+          "to": "3c5e87ed-70b0-4a07-87b3-27387744e396",
+          "id": "ed15b793-c340-461e-bec3-1868be6a7762"
+        },
+        "c67cc569-15f9-48b1-a153-e9e59881b52c": {
+          "from": "31554353-940e-47aa-903a-fbad6daffb18",
+          "to": "3971cd06-9fc0-4405-98e0-ba74742b3e93",
+          "id": "c67cc569-15f9-48b1-a153-e9e59881b52c"
+        },
+        "41291974-980b-41c2-9783-3ff854b4d055": {
+          "from": "31554353-940e-47aa-903a-fbad6daffb18",
+          "to": "6a6e1e33-e98c-4a10-b27c-3abe9bb796bf",
+          "id": "41291974-980b-41c2-9783-3ff854b4d055"
+        },
+        "e738bc34-1def-4511-9751-c4d1161e5db5": {
+          "from": "a5cd2f42-f8f0-43aa-8be8-957bad6f914736819",
+          "to": "31554353-940e-47aa-903a-fbad6daffb18",
+          "id": "e738bc34-1def-4511-9751-c4d1161e5db5"
+        },
+        "c51b53cf-bbab-4b2c-836b-ec7f79039b71": {
+          "from": "37581c0e-6b78-42d7-9db9-64d5acbc64f3",
+          "to": "0293bf97-3518-41c9-8a65-17f521509a3a",
+          "id": "c51b53cf-bbab-4b2c-836b-ec7f79039b71"
+        },
+        "74a3163d-9a8a-4b45-96d5-d58335cbbc7c": {
+          "from": "37581c0e-6b78-42d7-9db9-64d5acbc64f3",
+          "to": "8406a0f6-1287-4c42-9b62-110fd4118e6e",
+          "id": "74a3163d-9a8a-4b45-96d5-d58335cbbc7c"
+        },
+        "dc64dacd-36b6-4a32-bfcd-5988600cf9b5": {
+          "from": "37581c0e-6b78-42d7-9db9-64d5acbc64f3",
+          "to": "b18e88e9-20a0-4ba8-a877-a58eb429b867",
+          "id": "dc64dacd-36b6-4a32-bfcd-5988600cf9b5"
+        },
+        "e940b5f3-5d26-44e5-89d8-f47aaeebe054": {
+          "from": "0293bf97-3518-41c9-8a65-17f521509a3a",
+          "to": "09ccb0ed-dcd4-47d2-9344-41ab23279eab",
+          "id": "e940b5f3-5d26-44e5-89d8-f47aaeebe054"
+        },
+        "f1c8affc-1541-4e7d-a025-925c264efe5c": {
+          "from": "8406a0f6-1287-4c42-9b62-110fd4118e6e",
+          "to": "768be0e1-8cea-498e-945c-c22bc8b1ac42",
+          "id": "f1c8affc-1541-4e7d-a025-925c264efe5c"
+        },
+        "0b384b2f-8cb5-468f-a7cb-d42c42af94ab": {
+          "from": "a5cd2f42-f8f0-43aa-8be8-957bad6f914736819",
+          "to": "37581c0e-6b78-42d7-9db9-64d5acbc64f3",
+          "id": "0b384b2f-8cb5-468f-a7cb-d42c42af94ab"
+        },
+        "03dc560d-ba71-4ce0-9d74-b9576a01097a": {
+          "from": "bbd61958-08d1-48fd-8481-e5c7519005c3",
+          "to": "d7419651-defc-43e9-8633-76fd8f3b191b",
+          "id": "03dc560d-ba71-4ce0-9d74-b9576a01097a"
+        },
+        "c856b3d4-16e4-46fb-9559-cffacd457407": {
+          "from": "d7419651-defc-43e9-8633-76fd8f3b191b",
+          "to": "225a0c26-fc7e-4f1a-8e4b-99204a3e69f7",
+          "id": "c856b3d4-16e4-46fb-9559-cffacd457407"
+        },
+        "45792eda-8347-4bd4-af1e-f6b0c42975ce": {
+          "from": "37581c0e-6b78-42d7-9db9-64d5acbc64f3",
+          "to": "bbd61958-08d1-48fd-8481-e5c7519005c3",
+          "id": "45792eda-8347-4bd4-af1e-f6b0c42975ce"
         }
       },
       "length": 0,
@@ -47727,10 +48011,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.015987852200371497,
+    "scale": 0.015612835119144134,
     "viewPosition": {
-      "x": 100619.44126375369,
-      "y": 9776.989404662181
+      "x": 102659.1819443685,
+      "y": 9573.77030802374
     }
   }
 }

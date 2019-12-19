@@ -14,7 +14,12 @@ if (!fs.existsSync(rootBackupDirPath)){
 }
 
 var app = express();
-//app.use(express.static(__dirname + "/public")); //use static files in ROOT/public folder
+
+app.use("/public",function(req, res, next) {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    next();
+});
+app.use("/public", express.static(__dirname + "/../app/public"));
 var saveData = {};
 app.get("/", function(request, response){ //root dir
     response.set('access-control-allow-origin', '*');
@@ -84,22 +89,79 @@ app.get("/", function(request, response){ //root dir
     response.send(answerLine);
 });
 app.get("/sympy", function(request, response){ //root dir
-   response.set('access-control-allow-origin', '*');
+   response.set('Access-Control-Allow-Origin', '*');
    var dataPart = request.query.dataPart;
 
    console.log(dataPart);
 
-   var cmd = "printf \"" + dataPart + "\" | python3";
+   var cmd1 = "printf \"" + dataPart + "\" | python3";
 
-   var execSync = require('child_process').execSync;
+   var execSync1 = require('child_process').execSync;
 
-   var options = {
+   var options1 = {
       encoding: 'utf8'
    };
 
-   var calcResult = execSync(cmd, options);
-   console.log(calcResult);
-   answerLine = JSON.stringify(calcResult);
+   var calcResult1 = execSync1(cmd1, options1);
+   var symPyData = JSON.parse(calcResult1);
+   //console.log("symPyData:");
+   //console.log(symPyData);
+   console.log("calcResult1:");
+   console.log(calcResult1);
+
+   try{fs.unlinkSync("host.aux"); }catch(err){ console.log(err); }
+   try{fs.unlinkSync("host.log"); }catch(err){ console.log(err); }
+   try{fs.unlinkSync("host.pdf"); }catch(err){ console.log(err); }
+   try{fs.unlinkSync("host.tex"); }catch(err){ console.log(err); }
+   try{fs.unlinkSync("main.aux"); }catch(err){ console.log(err); }
+   try{fs.unlinkSync("main.log"); }catch(err){ console.log(err); }
+   try{fs.unlinkSync("main.pdf"); }catch(err){ console.log(err); }
+   try{fs.unlinkSync("main.tex"); }catch(err){ console.log(err); }
+
+   var texFile = `\\documentclass[preview,border=12pt,12pt]{standalone}
+\\usepackage{filecontents}
+\\usepackage{amsmath}
+\\begin{filecontents*}{main.tex}
+\\documentclass[12pt]{article}
+\\usepackage[active,tightpage]{preview}
+\\PreviewBorder=12pt\\relax
+\\begin{document}
+\\preview
+\\(` + "\n" +
+symPyData['latexLine'] + "\n" +
+`\\)
+\\endpreview
+\\end{document}
+\\end{filecontents*}
+\\usepackage{graphicx}
+\\immediate\\write18{pdflatex main.tex}
+\\immediate\\write18{convert -density 300 -background white -alpha remove main.pdf main.png}
+\\begin{document}
+The following is a PNG image.\\newline
+\\fbox{\\includegraphics{main.png}}
+\\end{document}`;
+
+   if (typeof symPyData['latexLine'] !== 'undefined') {
+      fs.writeFileSync("host.tex", texFile);
+   }
+   if (typeof symPyData['latexImgName'] !== 'undefined') {
+      var execSync2 = require('child_process').execSync;
+
+      var options2 = {encoding: 'utf8'};
+
+      var cmd2 = "pdflatex --shell-escape host.tex";
+      execSync2(cmd2, options2);
+   
+      fs.renameSync('main.png', '../app/public/imgs/' + symPyData['latexImgName']);
+   }
+
+   if (typeof symPyData['plotImgName'] !== 'undefined') {
+      fs.renameSync(symPyData['plotImgName'], '../app/public/imgs/' + symPyData['plotImgName']);
+   }
+
+   //console.log(texFile);
+
+   answerLine = JSON.stringify(calcResult1);
    response.send(answerLine);
 });
 app.listen(port, host);

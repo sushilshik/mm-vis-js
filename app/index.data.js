@@ -12,8 +12,8 @@ var schemeData =
       "_data": {
         "1": {
           "id": "1",
-          "x": 690,
-          "y": 1258,
+          "x": 584,
+          "y": 617,
           "label": "mm-vis-js",
           "shape": "text",
           "font": {
@@ -23,8 +23,8 @@ var schemeData =
         },
         "93190b70-40fd-4ed7-8177-2b78d925134b": {
           "id": "93190b70-40fd-4ed7-8177-2b78d925134b",
-          "x": 986,
-          "y": 1774,
+          "x": 880,
+          "y": 1133,
           "label": "Пример заметки.",
           "shape": "box",
           "link": "",
@@ -34,8 +34,8 @@ var schemeData =
         },
         "d5d764d3-1dce-4f92-8d64-e7c20e194f6e": {
           "id": "d5d764d3-1dce-4f92-8d64-e7c20e194f6e",
-          "x": 1429,
-          "y": 1773,
+          "x": 1323,
+          "y": 1132,
           "label": "                                       \n   ",
           "shape": "box",
           "borderWidth": "3",
@@ -47,8 +47,8 @@ var schemeData =
         },
         "daaf3999-0238-41fa-948f-9a46c115f00b": {
           "id": "daaf3999-0238-41fa-948f-9a46c115f00b",
-          "x": 1013,
-          "y": 1303,
+          "x": 907,
+          "y": 662,
           "label": "В отличие от стандартного vis.js можно\nстроить схемы с связями\nповерх иллюстраций.",
           "shape": "box",
           "link": "",
@@ -58,42 +58,42 @@ var schemeData =
         },
         "a6fd3d0f-bd20-4470-9806-67267143f507": {
           "id": "a6fd3d0f-bd20-4470-9806-67267143f507",
-          "x": 809,
-          "y": 1338,
+          "x": 703,
+          "y": 697,
           "label": "Функции",
           "shape": "box",
           "link": ""
         },
         "ea153d3c-e619-4eea-a53e-399b37c850d1": {
           "id": "ea153d3c-e619-4eea-a53e-399b37c850d1",
-          "x": 1125,
-          "y": 979,
+          "x": 1019,
+          "y": 338,
           "label": "быстро сделать простой инструмент публикации схем и их редактирования.",
           "shape": "box",
           "link": ""
         },
         "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae": {
           "id": "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae",
-          "x": 805,
-          "y": 1102,
+          "x": 699,
+          "y": 461,
           "label": "Простота"
         },
         "2bd3206d-d1ee-4b8f-8225-b81eb9673e74": {
           "id": "2bd3206d-d1ee-4b8f-8225-b81eb9673e74",
-          "x": 1068,
-          "y": 1027,
+          "x": 962,
+          "y": 386,
           "label": "Для работы нужен только браузер и текстовый редактор"
         },
         "21f64c6a-2ff1-41b3-bf77-a962fbed3e35": {
           "id": "21f64c6a-2ff1-41b3-bf77-a962fbed3e35",
-          "x": 997,
-          "y": 1072,
+          "x": 891,
+          "y": 431,
           "label": "Не нужна база данных и веб-сервер."
         },
         "3f496169-3281-4163-888c-997690d090d3": {
           "id": "3f496169-3281-4163-888c-997690d090d3",
-          "x": 1036,
-          "y": 1128,
+          "x": 930,
+          "y": 487,
           "label": "Чтобы сохранять работу, код с данными схемы \nнужно копировать вручную \nсо страницы в ее же собственный код.",
           "shape": "box",
           "link": "",
@@ -103,36 +103,36 @@ var schemeData =
         },
         "fc4313f9-0d34-4e53-9db6-9064b2389269": {
           "id": "fc4313f9-0d34-4e53-9db6-9064b2389269",
-          "x": 810,
-          "y": 1214,
+          "x": 704,
+          "y": 573,
           "label": "Кейсы"
         },
         "a52bd703-6566-4b12-8ff8-bb26ce5eaf84": {
           "id": "a52bd703-6566-4b12-8ff8-bb26ce5eaf84",
-          "x": 1023,
-          "y": 1189,
+          "x": 917,
+          "y": 548,
           "label": "Быстро построить схему и положить ее\nна веб-сервер в виде статического файла.",
           "shape": "box",
           "link": ""
         },
         "757fcd36-6bdc-4777-86d5-a07e9771ce13": {
           "id": "757fcd36-6bdc-4777-86d5-a07e9771ce13",
-          "x": 1093,
-          "y": 1238,
+          "x": 987,
+          "y": 597,
           "label": "Сохранить из интернета страницу с схемой на свой компьютер,\nотредактировать и опубликовать свою версию.",
           "shape": "box",
           "link": ""
         },
         "4f8a5b3a-9252-45e5-b3f6-d644e3aef68a": {
           "id": "4f8a5b3a-9252-45e5-b3f6-d644e3aef68a",
-          "x": 799,
-          "y": 979,
+          "x": 693,
+          "y": 338,
           "label": "Цель"
         },
         "ee7cf4ac-ceca-4805-9299-80d862b7ba4a": {
           "id": "ee7cf4ac-ceca-4805-9299-80d862b7ba4a",
-          "x": 1288,
-          "y": 1301,
+          "x": 1182,
+          "y": 660,
           "label": "В этой версии такие иллюстрации\nнадо хранить в дереве\nданных JSON \"canvas2Data\"",
           "shape": "box",
           "link": "",
@@ -142,8 +142,8 @@ var schemeData =
         },
         "c3a0125c-bcdd-402f-8caf-d431c2870ea7": {
           "id": "c3a0125c-bcdd-402f-8caf-d431c2870ea7",
-          "x": 1040,
-          "y": 1370,
+          "x": 934,
+          "y": 729,
           "label": "Детально редактировать схему можно прямо в\nJSON данных в меню справа страницы.",
           "shape": "box",
           "link": "",
@@ -153,14 +153,14 @@ var schemeData =
         },
         "77056608-d537-4045-9218-87c0f992eb3a": {
           "id": "77056608-d537-4045-9218-87c0f992eb3a",
-          "x": 819,
-          "y": 1437,
+          "x": 713,
+          "y": 796,
           "label": "2019.10.17"
         },
         "62e1abf0-15ec-455a-a4ab-20e021624151": {
           "id": "62e1abf0-15ec-455a-a4ab-20e021624151",
-          "x": 1005,
-          "y": 1486,
+          "x": 899,
+          "y": 845,
           "label": "https://github.com/sushilshik/mm-vis-js",
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
@@ -170,20 +170,20 @@ var schemeData =
         },
         "946bccb9-fc9b-42a3-a00c-6ed88f5455eb": {
           "id": "946bccb9-fc9b-42a3-a00c-6ed88f5455eb",
-          "x": 797,
-          "y": 1485,
+          "x": 691,
+          "y": 844,
           "label": "Код"
         },
         "bc9de21d-dfe5-4b7a-a972-5f22e0faeec3": {
           "id": "bc9de21d-dfe5-4b7a-a972-5f22e0faeec3",
-          "x": 816,
-          "y": 1650,
+          "x": 710,
+          "y": 1009,
           "label": "Примеры"
         },
         "b248fde4-bbe8-4342-8e94-9a3ccaaf74f6": {
           "id": "b248fde4-bbe8-4342-8e94-9a3ccaaf74f6",
-          "x": 1378,
-          "y": 1549,
+          "x": 1272,
+          "y": 908,
           "label": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
@@ -195,8 +195,8 @@ var schemeData =
         },
         "5cb5a670-d957-46bf-ab09-ee85e779742f": {
           "id": "5cb5a670-d957-46bf-ab09-ee85e779742f",
-          "x": 964,
-          "y": 1545,
+          "x": 858,
+          "y": 904,
           "label": "Cхема книги",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
@@ -208,8 +208,8 @@ var schemeData =
         },
         "de162667-d58a-44a9-b92f-2ce4d491bd77": {
           "id": "de162667-d58a-44a9-b92f-2ce4d491bd77",
-          "x": 974,
-          "y": 1606,
+          "x": 868,
+          "y": 965,
           "label": "Схема кода vis.js",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/vis.js.html",
@@ -221,8 +221,8 @@ var schemeData =
         },
         "08e86b96-cceb-4c30-8895-efd97ea4642a": {
           "id": "08e86b96-cceb-4c30-8895-efd97ea4642a",
-          "x": 1280,
-          "y": 1610,
+          "x": 1174,
+          "y": 969,
           "label": "https://sushilshik.github.io/examples/vis.js.html",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/vis.js.html",
@@ -332,8 +332,8 @@ var schemeData =
         },
         "d4c5cb55-9c89-43a3-af0e-3a78bd7c98b8": {
           "id": "d4c5cb55-9c89-43a3-af0e-3a78bd7c98b8",
-          "x": 6860,
-          "y": 2314,
+          "x": 6754,
+          "y": 1673,
           "label": "Схема \n\"Главная страница\"\nот 2019.10.17",
           "shape": "box",
           "link": "",
@@ -24616,8 +24616,8 @@ var schemeData =
         "7e39abb2-44d4-4d3c-a65b-56de4051a233": {
           "label": "",
           "link": "",
-          "x": 779,
-          "y": 1024,
+          "x": 673,
+          "y": 383,
           "id": "7e39abb2-44d4-4d3c-a65b-56de4051a233"
         },
         "fbdc8df6-13cf-42a3-8140-215ebb6f514e": {
@@ -50461,10 +50461,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.015512931968932622,
+    "scale": 0.01693418578705108,
     "viewPosition": {
-      "x": 36764.887147177134,
-      "y": 2798.6353888254635
+      "x": 35959.13045982944,
+      "y": 2425.2296511543927
     }
   }
 }
