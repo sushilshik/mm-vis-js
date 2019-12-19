@@ -5090,7 +5090,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 40466,
-          "y": -14692,
+          "y": -14597,
           "id": "636009f4-b1c7-4990-b4f0-2e2b3e654223206369486"
         },
         "8c615a75-12a2-4368-bdb9-f9e04619e711206369486": {
@@ -8432,25 +8432,25 @@ var schemeData =
         "b652df51-5798-4b35-86cd-12892f08855c": {
           "id": "b652df51-5798-4b35-86cd-12892f08855c",
           "x": 40866,
-          "y": -14843,
+          "y": -14748,
           "label": "This is root scheme for mm-vis-js project."
         },
         "d3319a07-ad98-4ca7-a928-8cc003e5490b": {
           "id": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
           "x": 40798,
-          "y": -14686,
+          "y": -14591,
           "label": "How to build project"
         },
         "d6a2f6ee-56a5-4221-be38-49c0a8364a71": {
           "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a71",
           "x": 41173,
-          "y": -14715,
+          "y": -14620,
           "label": "start mvj-serv.js from mm-vis-js/utils/"
         },
         "52aee244-a92a-41a3-8b71-373d541e660d": {
           "id": "52aee244-a92a-41a3-8b71-373d541e660d",
           "x": 41417,
-          "y": -14712,
+          "y": -14617,
           "label": "$ node mvj-serv.js",
           "shape": "box",
           "link": "",
@@ -8467,7 +8467,7 @@ var schemeData =
         "8dcd7da6-9174-4a9a-92df-19ac2ef25745": {
           "id": "8dcd7da6-9174-4a9a-92df-19ac2ef25745",
           "x": 41701,
-          "y": -14749,
+          "y": -14654,
           "label": "check port number in mvj-serv.js script - 1337. Change it in mvj-serv.js and in build script above, if you need.",
           "shape": "box",
           "link": "",
@@ -8484,13 +8484,13 @@ var schemeData =
         "604289ab-7ae3-4401-afdc-44d012b2609c": {
           "id": "604289ab-7ae3-4401-afdc-44d012b2609c",
           "x": 41278,
-          "y": -14675,
+          "y": -14580,
           "label": "Find node \"buildProject\" and click it branch with save script to select it."
         },
         "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced": {
           "id": "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced",
           "x": 41208,
-          "y": -14632,
+          "y": -14537,
           "label": "Click \"runNodeCode\" in node menu - on the left.",
           "shape": "box",
           "link": "",
@@ -15786,7 +15786,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 65673, y: 17508};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_code.data.js?30\"></script>\n<script type=\"text/javascript\" src=\"application.js?30\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 65673, y: 17508};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_code.data.js?31\"></script>\n<script type=\"text/javascript\" src=\"application.js?31\"></script>\n\n</body>\n</html>",
           "x": 68125,
           "y": 24289,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396984833",
@@ -17832,7 +17832,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.013, x: 100703, y: 20300};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"math.data.js?30\"></script>\n<script type=\"text/javascript\" src=\"application.js?30\"></script>\n\n<script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>\n<script id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.013, x: 100703, y: 20300};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"math.data.js?31\"></script>\n<script type=\"text/javascript\" src=\"application.js?31\"></script>\n\n<script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>\n<script id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>\n\n</body>\n</html>",
           "x": 84373,
           "y": 4939,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483323689533730302",
@@ -19372,20 +19372,20 @@ var schemeData =
         "cfc75af6-4f65-4fae-8308-fd2667923cba": {
           "id": "cfc75af6-4f65-4fae-8308-fd2667923cba",
           "x": 40793,
-          "y": -14965,
+          "y": -14870,
           "label": "packages to install"
         },
         "c595996f-5983-43b0-b6eb-a9d3e59cc728": {
           "id": "c595996f-5983-43b0-b6eb-a9d3e59cc728",
           "x": 41012,
-          "y": -15012,
+          "y": -14917,
           "label": "nodejs"
         },
         "a99c189e-a108-47ac-8a01-aa4678b82167": {
           "label": "python",
           "link": "",
           "x": 41012,
-          "y": -14988,
+          "y": -14893,
           "id": "a99c189e-a108-47ac-8a01-aa4678b82167",
           "color": {
             "highlight": {
@@ -19426,7 +19426,7 @@ var schemeData =
           "label": "TexLive",
           "link": "",
           "x": 41015,
-          "y": -14964,
+          "y": -14869,
           "id": "a75d2fd2-b354-40f0-ab91-4b42b4cecdfe",
           "color": {
             "highlight": {
@@ -19467,7 +19467,7 @@ var schemeData =
           "label": "tex-preview",
           "link": "",
           "x": 41027,
-          "y": -14940,
+          "y": -14845,
           "id": "08da45eb-6e33-45ff-9f57-fec8f14cad36",
           "color": {
             "highlight": {
@@ -19508,7 +19508,7 @@ var schemeData =
           "label": "sympy",
           "link": "",
           "x": 41011,
-          "y": -14916,
+          "y": -14821,
           "id": "5de10bf4-f4c6-40fe-b74f-b3718dde2a7d",
           "color": {
             "highlight": {
@@ -19549,7 +19549,7 @@ var schemeData =
           "label": "texlive-collection-latexextra",
           "link": "",
           "x": 41076,
-          "y": -14892,
+          "y": -14797,
           "id": "31cf68ac-5ea0-49d5-b073-a5b00803385c",
           "color": {
             "highlight": {
@@ -19588,8 +19588,8 @@ var schemeData =
         },
         "139b5f79-7cd8-4fdc-98f9-6e7147568804": {
           "id": "139b5f79-7cd8-4fdc-98f9-6e7147568804",
-          "x": 41064,
-          "y": -15161,
+          "x": 41066,
+          "y": -15109,
           "label": "Update links to images in image nodes"
         },
         "1ce3000f-7be3-4a5d-83dc-b2a241c43b13": {
@@ -19625,6 +19625,24 @@ var schemeData =
             "border": ""
           },
           "borderWidth": ""
+        },
+        "5472e948-ad81-437a-8bd8-f9765e8777f8": {
+          "id": "5472e948-ad81-437a-8bd8-f9765e8777f8",
+          "x": 42322,
+          "y": -15167,
+          "label": "Нужно доработать - съезжают координаты нод"
+        },
+        "1f688fbc-7696-45df-9d5c-28381d308013": {
+          "id": "1f688fbc-7696-45df-9d5c-28381d308013",
+          "x": 41376,
+          "y": -15029,
+          "label": "Replace paths in ...data.js file with vim. (Fast fix)"
+        },
+        "8a9c12c1-de84-4f11-a696-d1cc94917a8e": {
+          "id": "8a9c12c1-de84-4f11-a696-d1cc94917a8e",
+          "x": 41765,
+          "y": -15027,
+          "label": "%s/https:\\/\\/localhost:3001\\/public\\/imgs/\\/public\\/imgs/g"
         }
       },
       "length": 0,
@@ -35371,6 +35389,16 @@ var schemeData =
           "from": "2865b4bd-3740-4fd2-a836-9593525b027d",
           "to": "1ce3000f-7be3-4a5d-83dc-b2a241c43b13",
           "id": "1a6eb0fe-d900-4882-93f2-db70254ee80e"
+        },
+        "900a6b24-91b9-4be6-af2b-15cfcab5ba19": {
+          "from": "1f688fbc-7696-45df-9d5c-28381d308013",
+          "to": "8a9c12c1-de84-4f11-a696-d1cc94917a8e",
+          "id": "900a6b24-91b9-4be6-af2b-15cfcab5ba19"
+        },
+        "3acccec4-c7cd-43ae-a1c9-5d9a3e02b6c0": {
+          "from": "139b5f79-7cd8-4fdc-98f9-6e7147568804",
+          "to": "1f688fbc-7696-45df-9d5c-28381d308013",
+          "id": "3acccec4-c7cd-43ae-a1c9-5d9a3e02b6c0"
         }
       },
       "length": 0,
@@ -35410,7 +35438,7 @@ var schemeData =
     "scale": 0.01,
     "viewPosition": {
       "x": 65673,
-      "y": 17507.999999999993
+      "y": 17508.000000000004
     }
   }
 }
