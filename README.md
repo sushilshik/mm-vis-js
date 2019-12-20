@@ -20,7 +20,7 @@ Example: https://sushilshik.github.io/
 
 ###### Install
 
-Instruction manual: https://sushilshik.github.io/mm-vis-js_docs.html?scale=0.85&x=85579&y=-2145 (ru)
+Instruction manual: https://sushilshik.github.io/mm-vis-js_docs.html?scale=0.085&x=85579&y=-2145 (ru)
 
 ###### Screenshots
 
