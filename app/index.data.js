@@ -12,8 +12,8 @@ var schemeData =
       "_data": {
         "1": {
           "id": "1",
-          "x": 15334,
-          "y": -8141,
+          "x": 596,
+          "y": 599,
           "label": "mm-vis-js",
           "shape": "text",
           "font": {
@@ -23,8 +23,8 @@ var schemeData =
         },
         "93190b70-40fd-4ed7-8177-2b78d925134b": {
           "id": "93190b70-40fd-4ed7-8177-2b78d925134b",
-          "x": 15630,
-          "y": -7625,
+          "x": 892,
+          "y": 1115,
           "label": "Пример заметки.",
           "shape": "box",
           "link": "",
@@ -34,8 +34,8 @@ var schemeData =
         },
         "d5d764d3-1dce-4f92-8d64-e7c20e194f6e": {
           "id": "d5d764d3-1dce-4f92-8d64-e7c20e194f6e",
-          "x": 16073,
-          "y": -7626,
+          "x": 1335,
+          "y": 1114,
           "label": "                                       \n   ",
           "shape": "box",
           "borderWidth": "3",
@@ -47,8 +47,8 @@ var schemeData =
         },
         "daaf3999-0238-41fa-948f-9a46c115f00b": {
           "id": "daaf3999-0238-41fa-948f-9a46c115f00b",
-          "x": 15657,
-          "y": -8096,
+          "x": 919,
+          "y": 644,
           "label": "В отличие от стандартного vis.js можно\nстроить схемы с связями\nповерх иллюстраций.",
           "shape": "box",
           "link": "",
@@ -58,42 +58,42 @@ var schemeData =
         },
         "a6fd3d0f-bd20-4470-9806-67267143f507": {
           "id": "a6fd3d0f-bd20-4470-9806-67267143f507",
-          "x": 15453,
-          "y": -8061,
+          "x": 715,
+          "y": 679,
           "label": "Функции",
           "shape": "box",
           "link": ""
         },
         "ea153d3c-e619-4eea-a53e-399b37c850d1": {
           "id": "ea153d3c-e619-4eea-a53e-399b37c850d1",
-          "x": 15769,
-          "y": -8420,
+          "x": 1031,
+          "y": 320,
           "label": "быстро сделать простой инструмент публикации схем и их редактирования.",
           "shape": "box",
           "link": ""
         },
         "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae": {
           "id": "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae",
-          "x": 15449,
-          "y": -8297,
+          "x": 711,
+          "y": 443,
           "label": "Простота"
         },
         "2bd3206d-d1ee-4b8f-8225-b81eb9673e74": {
           "id": "2bd3206d-d1ee-4b8f-8225-b81eb9673e74",
-          "x": 15712,
-          "y": -8372,
+          "x": 974,
+          "y": 368,
           "label": "Для работы нужен только браузер и текстовый редактор"
         },
         "21f64c6a-2ff1-41b3-bf77-a962fbed3e35": {
           "id": "21f64c6a-2ff1-41b3-bf77-a962fbed3e35",
-          "x": 15641,
-          "y": -8327,
+          "x": 903,
+          "y": 413,
           "label": "Не нужна база данных и веб-сервер."
         },
         "3f496169-3281-4163-888c-997690d090d3": {
           "id": "3f496169-3281-4163-888c-997690d090d3",
-          "x": 15680,
-          "y": -8271,
+          "x": 942,
+          "y": 469,
           "label": "Чтобы сохранять работу, код с данными схемы \nнужно копировать вручную \nсо страницы в ее же собственный код.",
           "shape": "box",
           "link": "",
@@ -103,36 +103,36 @@ var schemeData =
         },
         "fc4313f9-0d34-4e53-9db6-9064b2389269": {
           "id": "fc4313f9-0d34-4e53-9db6-9064b2389269",
-          "x": 15454,
-          "y": -8185,
+          "x": 716,
+          "y": 555,
           "label": "Кейсы"
         },
         "a52bd703-6566-4b12-8ff8-bb26ce5eaf84": {
           "id": "a52bd703-6566-4b12-8ff8-bb26ce5eaf84",
-          "x": 15667,
-          "y": -8210,
+          "x": 929,
+          "y": 530,
           "label": "Быстро построить схему и положить ее\nна веб-сервер в виде статического файла.",
           "shape": "box",
           "link": ""
         },
         "757fcd36-6bdc-4777-86d5-a07e9771ce13": {
           "id": "757fcd36-6bdc-4777-86d5-a07e9771ce13",
-          "x": 15737,
-          "y": -8161,
+          "x": 999,
+          "y": 579,
           "label": "Сохранить из интернета страницу с схемой на свой компьютер,\nотредактировать и опубликовать свою версию.",
           "shape": "box",
           "link": ""
         },
         "4f8a5b3a-9252-45e5-b3f6-d644e3aef68a": {
           "id": "4f8a5b3a-9252-45e5-b3f6-d644e3aef68a",
-          "x": 15443,
-          "y": -8420,
+          "x": 705,
+          "y": 320,
           "label": "Цель"
         },
         "ee7cf4ac-ceca-4805-9299-80d862b7ba4a": {
           "id": "ee7cf4ac-ceca-4805-9299-80d862b7ba4a",
-          "x": 15932,
-          "y": -8098,
+          "x": 1194,
+          "y": 642,
           "label": "В этой версии такие иллюстрации\nнадо хранить в дереве\nданных JSON \"canvas2Data\"",
           "shape": "box",
           "link": "",
@@ -142,8 +142,8 @@ var schemeData =
         },
         "c3a0125c-bcdd-402f-8caf-d431c2870ea7": {
           "id": "c3a0125c-bcdd-402f-8caf-d431c2870ea7",
-          "x": 15684,
-          "y": -8029,
+          "x": 946,
+          "y": 711,
           "label": "Детально редактировать схему можно прямо в\nJSON данных в меню справа страницы.",
           "shape": "box",
           "link": "",
@@ -153,14 +153,14 @@ var schemeData =
         },
         "77056608-d537-4045-9218-87c0f992eb3a": {
           "id": "77056608-d537-4045-9218-87c0f992eb3a",
-          "x": 15463,
-          "y": -7962,
+          "x": 725,
+          "y": 778,
           "label": "2019.10.17"
         },
         "62e1abf0-15ec-455a-a4ab-20e021624151": {
           "id": "62e1abf0-15ec-455a-a4ab-20e021624151",
-          "x": 15649,
-          "y": -7913,
+          "x": 911,
+          "y": 827,
           "label": "https://github.com/sushilshik/mm-vis-js",
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
@@ -170,20 +170,20 @@ var schemeData =
         },
         "946bccb9-fc9b-42a3-a00c-6ed88f5455eb": {
           "id": "946bccb9-fc9b-42a3-a00c-6ed88f5455eb",
-          "x": 15441,
-          "y": -7914,
+          "x": 703,
+          "y": 826,
           "label": "Код"
         },
         "bc9de21d-dfe5-4b7a-a972-5f22e0faeec3": {
           "id": "bc9de21d-dfe5-4b7a-a972-5f22e0faeec3",
-          "x": 15460,
-          "y": -7749,
+          "x": 722,
+          "y": 991,
           "label": "Примеры"
         },
         "b248fde4-bbe8-4342-8e94-9a3ccaaf74f6": {
           "id": "b248fde4-bbe8-4342-8e94-9a3ccaaf74f6",
-          "x": 16022,
-          "y": -7850,
+          "x": 1284,
+          "y": 890,
           "label": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
@@ -195,8 +195,8 @@ var schemeData =
         },
         "5cb5a670-d957-46bf-ab09-ee85e779742f": {
           "id": "5cb5a670-d957-46bf-ab09-ee85e779742f",
-          "x": 15608,
-          "y": -7854,
+          "x": 870,
+          "y": 886,
           "label": "Cхема книги",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
@@ -208,8 +208,8 @@ var schemeData =
         },
         "de162667-d58a-44a9-b92f-2ce4d491bd77": {
           "id": "de162667-d58a-44a9-b92f-2ce4d491bd77",
-          "x": 15618,
-          "y": -7793,
+          "x": 880,
+          "y": 947,
           "label": "Схема кода vis.js",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/vis.js.html",
@@ -221,8 +221,8 @@ var schemeData =
         },
         "08e86b96-cceb-4c30-8895-efd97ea4642a": {
           "id": "08e86b96-cceb-4c30-8895-efd97ea4642a",
-          "x": 15924,
-          "y": -7789,
+          "x": 1186,
+          "y": 951,
           "label": "https://sushilshik.github.io/examples/vis.js.html",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/vis.js.html",
@@ -234,8 +234,8 @@ var schemeData =
         },
         "ebe21c81-c6d5-403d-a901-3645a36d578c": {
           "id": "ebe21c81-c6d5-403d-a901-3645a36d578c",
-          "x": 15426,
-          "y": -16532,
+          "x": 688,
+          "y": -7792,
           "label": "Схема \"главная страница\".",
           "shape": "box",
           "link": "",
@@ -250,14 +250,14 @@ var schemeData =
         },
         "2201cf20-76a4-48f8-9ad2-4dcd1d2cac63": {
           "id": "2201cf20-76a4-48f8-9ad2-4dcd1d2cac63",
-          "x": 15617,
-          "y": -16534,
+          "x": 879,
+          "y": -7794,
           "label": "2019.11.01"
         },
         "564ee48a-51d9-47cd-b116-749073fa8426": {
           "id": "564ee48a-51d9-47cd-b116-749073fa8426",
-          "x": 15096,
-          "y": -17047,
+          "x": 358,
+          "y": -8307,
           "label": "mm-vis-js",
           "shape": "box",
           "link": "",
@@ -272,14 +272,14 @@ var schemeData =
         },
         "6165adc3-7cfc-47d6-9908-5c906ca36769": {
           "id": "6165adc3-7cfc-47d6-9908-5c906ca36769",
-          "x": 15402,
-          "y": -17414,
+          "x": 664,
+          "y": -8674,
           "label": "Примеры карт кода"
         },
         "5754adff-5941-47ed-921b-fac1ba405a8a": {
           "id": "5754adff-5941-47ed-921b-fac1ba405a8a",
-          "x": 15388,
-          "y": -17173,
+          "x": 650,
+          "y": -8433,
           "label": "Примеры книги",
           "shape": "box",
           "link": "",
@@ -294,8 +294,8 @@ var schemeData =
         },
         "8f9583f5-1eba-4dc8-a10d-3d7a88368954": {
           "id": "8f9583f5-1eba-4dc8-a10d-3d7a88368954",
-          "x": 16002,
-          "y": -16797,
+          "x": 1264,
+          "y": -8057,
           "label": "Схема \"Тестирование mm-vis-js\"",
           "shape": "box",
           "link": "",
@@ -310,14 +310,14 @@ var schemeData =
         },
         "188090d8-3678-4031-ab6f-51eef383b3f1": {
           "id": "188090d8-3678-4031-ab6f-51eef383b3f1",
-          "x": 15394,
-          "y": -17039,
+          "x": 656,
+          "y": -8299,
           "label": "Как пользоваться"
         },
         "a9a1ffb2-c2bf-4023-b25b-8b283cf80f37": {
           "id": "a9a1ffb2-c2bf-4023-b25b-8b283cf80f37",
-          "x": 15666,
-          "y": -17044,
+          "x": 928,
+          "y": -8304,
           "label": "Схема \"Как пользоваться\"",
           "shape": "box",
           "link": "",
@@ -332,8 +332,8 @@ var schemeData =
         },
         "d4c5cb55-9c89-43a3-af0e-3a78bd7c98b8": {
           "id": "d4c5cb55-9c89-43a3-af0e-3a78bd7c98b8",
-          "x": 21504,
-          "y": -7085,
+          "x": 6766,
+          "y": 1655,
           "label": "Схема \n\"Главная страница\"\nот 2019.10.17",
           "shape": "box",
           "link": "",
@@ -349,8 +349,8 @@ var schemeData =
         },
         "aedd3dc8-1d89-42c3-a236-eeaaeaeb5100": {
           "id": "aedd3dc8-1d89-42c3-a236-eeaaeaeb5100",
-          "x": 15314,
-          "y": -12260,
+          "x": 576,
+          "y": -3520,
           "label": "mm-vis-js",
           "shape": "box",
           "link": "",
@@ -365,20 +365,20 @@ var schemeData =
         },
         "d07b952b-852f-41b3-b30b-cf0560fd2375": {
           "id": "d07b952b-852f-41b3-b30b-cf0560fd2375",
-          "x": 15639,
-          "y": -12558,
+          "x": 901,
+          "y": -3818,
           "label": "Programming code maps"
         },
         "1a6b4225-316f-4448-83a8-413b7a76e186": {
           "id": "1a6b4225-316f-4448-83a8-413b7a76e186",
-          "x": 15579,
-          "y": -12446,
+          "x": 841,
+          "y": -3706,
           "label": "Books"
         },
         "8f788278-1d43-4b98-8d31-2ccb052f9682": {
           "id": "8f788278-1d43-4b98-8d31-2ccb052f9682",
-          "x": 15659,
-          "y": -12299,
+          "x": 921,
+          "y": -3559,
           "label": "mm-vis-js code and data tests",
           "shape": "box",
           "link": "",
@@ -393,14 +393,14 @@ var schemeData =
         },
         "cc761a49-70c9-4594-9060-b2679e444a22": {
           "id": "cc761a49-70c9-4594-9060-b2679e444a22",
-          "x": 15593,
-          "y": -12157,
+          "x": 855,
+          "y": -3417,
           "label": "How to use"
         },
         "720f0668-fe35-4c9e-9f59-4d0a526558f9": {
           "id": "720f0668-fe35-4c9e-9f59-4d0a526558f9",
-          "x": 15625,
-          "y": -12005,
+          "x": 887,
+          "y": -3265,
           "label": "\"Main page\" scheme",
           "shape": "box",
           "link": "",
@@ -415,20 +415,20 @@ var schemeData =
         },
         "3e47bd66-39f0-4f0c-a02e-d7cdf1f12f4e": {
           "id": "3e47bd66-39f0-4f0c-a02e-d7cdf1f12f4e",
-          "x": 15792,
-          "y": -12006,
+          "x": 1054,
+          "y": -3266,
           "label": "2019.11.01"
         },
         "5974d2ed-0f65-4fe4-982f-f7293348ab6d": {
           "id": "5974d2ed-0f65-4fe4-982f-f7293348ab6d",
-          "x": 15375,
-          "y": -16832,
+          "x": 637,
+          "y": -8092,
           "label": "Разработка"
         },
         "7480bb63-41ee-4edc-8752-ea41bfe6acbc": {
           "id": "7480bb63-41ee-4edc-8752-ea41bfe6acbc",
-          "x": 15719,
-          "y": -16896,
+          "x": 981,
+          "y": -8156,
           "label": "Ссылка на репозиторий с кодом mm-vis-js",
           "shape": "box",
           "link": "",
@@ -443,8 +443,8 @@ var schemeData =
         },
         "1ce98c63-b782-4a88-b65e-f20401f71fe2": {
           "id": "1ce98c63-b782-4a88-b65e-f20401f71fe2",
-          "x": 16109,
-          "y": -16889,
+          "x": 1371,
+          "y": -8149,
           "label": "https://github.com/sushilshik/mm-vis-js",
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
@@ -459,8 +459,8 @@ var schemeData =
         },
         "173fabfe-9055-4500-ac87-1761c1bb1b74": {
           "id": "173fabfe-9055-4500-ac87-1761c1bb1b74",
-          "x": 15676,
-          "y": -16797,
+          "x": 938,
+          "y": -8057,
           "label": "Тестирование кода и данных",
           "shape": "box",
           "link": "",
@@ -475,8 +475,8 @@ var schemeData =
         },
         "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210": {
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210",
-          "x": 21749,
-          "y": -16468,
+          "x": 7011,
+          "y": -7728,
           "label": "\"Главная страница\".\n2019.11.01",
           "shape": "box",
           "link": "",
@@ -492,8 +492,8 @@ var schemeData =
         },
         "c27e5d4a-2c81-4a3c-b046-a99cf8712e82": {
           "id": "c27e5d4a-2c81-4a3c-b046-a99cf8712e82",
-          "x": 19887,
-          "y": -11662,
+          "x": 5149,
+          "y": -2922,
           "label": "\"Main page\".\n2019.11.01",
           "shape": "box",
           "link": "",
@@ -509,20 +509,20 @@ var schemeData =
         },
         "7b7cc59d-7952-4c22-a466-cf492a6626e9": {
           "id": "7b7cc59d-7952-4c22-a466-cf492a6626e9",
-          "x": 15379,
-          "y": -16649,
+          "x": 641,
+          "y": -7909,
           "label": "Примечания"
         },
         "1a531265-5ea0-420b-aa70-0b4b81d6fd33": {
           "id": "1a531265-5ea0-420b-aa70-0b4b81d6fd33",
-          "x": 15755,
-          "y": -16654,
+          "x": 1017,
+          "y": -7914,
           "label": "Уменьшите масштаб, чтобы увидеть другие разделы."
         },
         "8b98d292-49c1-41e3-b785-ac904b7b656f": {
           "id": "8b98d292-49c1-41e3-b785-ac904b7b656f",
-          "x": 16102,
-          "y": -17384,
+          "x": 1364,
+          "y": -8644,
           "label": "Карта кода mm-vis-js в общем списке примеров",
           "shape": "box",
           "link": "",
@@ -537,14 +537,14 @@ var schemeData =
         },
         "b72ae6ce-59e1-4d64-8f85-c80943f957d7": {
           "id": "b72ae6ce-59e1-4d64-8f85-c80943f957d7",
-          "x": 15718,
-          "y": -17452,
+          "x": 980,
+          "y": -8712,
           "label": "Пока примеряемся с вариантами верстки"
         },
         "88b9258a-634e-428d-a4c3-bc7c04b5ba8a": {
           "id": "88b9258a-634e-428d-a4c3-bc7c04b5ba8a",
-          "x": 15828,
-          "y": -17145,
+          "x": 1090,
+          "y": -8405,
           "label": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
@@ -559,8 +559,8 @@ var schemeData =
         },
         "a07f49d6-5114-4f7e-aabe-0d63919fd8e1": {
           "id": "a07f49d6-5114-4f7e-aabe-0d63919fd8e1",
-          "x": 15695,
-          "y": -17383,
+          "x": 957,
+          "y": -8643,
           "label": "Схема \"Карты программного кода\"",
           "shape": "box",
           "link": "",
@@ -575,8 +575,8 @@ var schemeData =
         },
         "4142d149-3b9d-4c0c-b65e-db855d03d582": {
           "id": "4142d149-3b9d-4c0c-b65e-db855d03d582",
-          "x": 15628,
-          "y": -17211,
+          "x": 890,
+          "y": -8471,
           "label": "Схема \"Книги\"",
           "shape": "box",
           "link": "",
@@ -591,8 +591,8 @@ var schemeData =
         },
         "90019792-8278-4ffb-abf1-f3d773b937c4": {
           "id": "90019792-8278-4ffb-abf1-f3d773b937c4",
-          "x": -4027,
-          "y": -16659,
+          "x": -18765,
+          "y": -7919,
           "label": "Как сохранить?",
           "shape": "box",
           "link": "",
@@ -607,8 +607,8 @@ var schemeData =
         },
         "4c775dd3-7c16-4e12-804a-994917a27aad": {
           "id": "4c775dd3-7c16-4e12-804a-994917a27aad",
-          "x": -3759,
-          "y": -16659,
+          "x": -18497,
+          "y": -7919,
           "label": "Кликните на updateMenuFromScheme\n в меню showData.",
           "shape": "box",
           "link": "",
@@ -623,8 +623,8 @@ var schemeData =
         },
         "369a40d5-12e0-4d85-8879-817e03608d01": {
           "id": "369a40d5-12e0-4d85-8879-817e03608d01",
-          "x": -4030,
-          "y": -16574,
+          "x": -18768,
+          "y": -7834,
           "label": "Как загрузить?",
           "shape": "box",
           "link": "",
@@ -639,8 +639,8 @@ var schemeData =
         },
         "81dd7c39-58a2-48a0-81f1-a859ed9e5f79": {
           "id": "81dd7c39-58a2-48a0-81f1-a859ed9e5f79",
-          "x": -3735,
-          "y": -16575,
+          "x": -18473,
+          "y": -7835,
           "label": "Кликните по ноде с датой сохранения.\nПотом кликните в ее меню (слева на экране)\nпо loadSavedProjectToMenu.",
           "shape": "box",
           "link": "",
@@ -655,8 +655,8 @@ var schemeData =
         },
         "343a2247-18a3-4bea-b1c1-49f0744d7cc2": {
           "id": "343a2247-18a3-4bea-b1c1-49f0744d7cc2",
-          "x": -3301,
-          "y": -16660,
+          "x": -18039,
+          "y": -7920,
           "label": "Json-код схемы обновится в меню и сохранится\nв локальном хранилище браузера. \nДанные остаются в хранилище постоянно.\nРядом с нодой saveCanvasProjectData\nпоявится нода с датой сохранения.",
           "shape": "box",
           "link": "",
@@ -671,8 +671,8 @@ var schemeData =
         },
         "2bb27899-66c3-4ec8-a0aa-c29a7744e9b4": {
           "id": "2bb27899-66c3-4ec8-a0aa-c29a7744e9b4",
-          "x": -3338,
-          "y": -16576,
+          "x": -18076,
+          "y": -7836,
           "label": "Json-код схемы загрузится в меню и \nсхема обновится.",
           "shape": "box",
           "link": "",
@@ -687,26 +687,26 @@ var schemeData =
         },
         "49408e40-e33c-46d8-b891-8ada89507c28": {
           "id": "49408e40-e33c-46d8-b891-8ada89507c28",
-          "x": -4177,
-          "y": -16532,
+          "x": -18915,
+          "y": -7792,
           "label": "Help"
         },
         "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b": {
           "id": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b",
-          "x": -4034,
-          "y": -16478,
+          "x": -18772,
+          "y": -7738,
           "label": "How to save?"
         },
         "db88dea5-4ac5-4498-b75f-272e6df65d13": {
           "id": "db88dea5-4ac5-4498-b75f-272e6df65d13",
-          "x": -4036,
-          "y": -16406,
+          "x": -18774,
+          "y": -7666,
           "label": "How to load?"
         },
         "6abe4705-ff11-4589-8481-fbe58438ebb4": {
           "id": "6abe4705-ff11-4589-8481-fbe58438ebb4",
-          "x": -3710,
-          "y": -16482,
+          "x": -18448,
+          "y": -7742,
           "label": "Click on updateMenuFromScheme in showData menu.",
           "shape": "box",
           "link": "",
@@ -721,8 +721,8 @@ var schemeData =
         },
         "071aa7d3-3cf2-4f92-9464-97feaf1f67ad": {
           "id": "071aa7d3-3cf2-4f92-9464-97feaf1f67ad",
-          "x": -3719,
-          "y": -16408,
+          "x": -18457,
+          "y": -7668,
           "label": "Click on node with save date. Then click in it's menu\n(on the left of screen) on loadSavedProjectToMenu.",
           "shape": "box",
           "link": "",
@@ -737,8 +737,8 @@ var schemeData =
         },
         "199906e3-e0eb-4c0d-b754-177e5dbaed45": {
           "id": "199906e3-e0eb-4c0d-b754-177e5dbaed45",
-          "x": -3323,
-          "y": -16490,
+          "x": -18061,
+          "y": -7750,
           "label": "Scheme json-code will be updated in menu\nand saved in browser local storage.\nData is saved permanently there.\nNear saveCanvasProjectData node\nsave date node will be created.",
           "shape": "box",
           "link": "",
@@ -753,8 +753,8 @@ var schemeData =
         },
         "b3044a16-ab10-42a2-8575-cd7ae6afcb29": {
           "id": "b3044a16-ab10-42a2-8575-cd7ae6afcb29",
-          "x": -3235,
-          "y": -16406,
+          "x": -17973,
+          "y": -7666,
           "label": "Scheme json-code will be loaded to menu and scheme will be updated.",
           "shape": "box",
           "link": "",
@@ -769,8 +769,8 @@ var schemeData =
         },
         "3dc28efb-58bf-4079-b4bf-fef2db3f2066": {
           "id": "3dc28efb-58bf-4079-b4bf-fef2db3f2066",
-          "x": -3998,
-          "y": -17093,
+          "x": -18736,
+          "y": -8353,
           "label": "META",
           "shape": "box",
           "link": "",
@@ -785,38 +785,38 @@ var schemeData =
         },
         "87acb101-5f15-4dfd-9d17-2b95b9f3a5f5": {
           "id": "87acb101-5f15-4dfd-9d17-2b95b9f3a5f5",
-          "x": -2613,
-          "y": -16912,
+          "x": -17351,
+          "y": -8172,
           "label": "init"
         },
         "1fcad7eb-7ee4-4065-8814-8766eab6bcc1": {
           "id": "1fcad7eb-7ee4-4065-8814-8766eab6bcc1",
-          "x": -2433,
-          "y": -16914,
+          "x": -17171,
+          "y": -8174,
           "label": "2019.11.03"
         },
         "9c017941-92dc-4c0a-8029-19756d681ee6": {
           "id": "9c017941-92dc-4c0a-8029-19756d681ee6",
-          "x": -2830,
-          "y": -16910,
+          "x": -17568,
+          "y": -8170,
           "label": "Development"
         },
         "2701a17b-792c-4cc0-98c7-12a0ae3820d2": {
           "id": "2701a17b-792c-4cc0-98c7-12a0ae3820d2",
-          "x": -4462,
-          "y": -16276,
+          "x": -19200,
+          "y": -7536,
           "label": "saveCanvasProjectData"
         },
         "13d3349a-8ce3-48a7-988f-04179ecb12bf": {
           "id": "13d3349a-8ce3-48a7-988f-04179ecb12bf",
-          "x": -4159,
-          "y": -16307,
+          "x": -18897,
+          "y": -7567,
           "label": "projectSaveId"
         },
         "d3f17392-e238-41e6-9a07-4cbcad530e32": {
           "id": "d3f17392-e238-41e6-9a07-4cbcad530e32",
-          "x": -3955,
-          "y": -16306,
+          "x": -18693,
+          "y": -7566,
           "label": "projectSaveId: mainPage1"
         },
         "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558282368": {
@@ -849,8 +849,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js pages list",
           "id": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558282368",
-          "x": 6526,
-          "y": -16977,
+          "x": -8212,
+          "y": -8237,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -883,8 +883,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/index.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"mainPage1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709",
-          "x": 1505,
-          "y": -14088,
+          "x": -13233,
+          "y": -5348,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -915,8 +915,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "mm-vis-js save",
-          "x": -172,
-          "y": -12607,
+          "x": -14910,
+          "y": -3867,
           "id": "5f08e9b3-be39-411a-9b7a-67703314f3e9709",
           "shape": "box",
           "link": "",
@@ -945,8 +945,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 243,
-          "y": -12185,
+          "x": -14495,
+          "y": -3445,
           "id": "fc346e19-9d86-4596-835b-11f1f755d865709"
         },
         "4e8d23e0-2916-468f-ab10-7887edd29781709": {
@@ -972,8 +972,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/16/2019",
-          "x": 493,
-          "y": -12185,
+          "x": -14245,
+          "y": -3445,
           "id": "4e8d23e0-2916-468f-ab10-7887edd29781709"
         },
         "9e05bed3-bcfb-461c-8782-cbb50e700f2b709": {
@@ -999,8 +999,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 393,
-          "y": -12185,
+          "x": -14345,
+          "y": -3445,
           "id": "9e05bed3-bcfb-461c-8782-cbb50e700f2b709"
         },
         "56b1d0ac-f667-4a67-948e-fe51b137da35709": {
@@ -1026,8 +1026,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 243,
-          "y": -13035,
+          "x": -14495,
+          "y": -4295,
           "id": "56b1d0ac-f667-4a67-948e-fe51b137da35709"
         },
         "f9d3919c-5ba4-4e33-afd7-f6321b559d96709": {
@@ -1053,8 +1053,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 413,
-          "y": -14129,
+          "x": -14325,
+          "y": -5389,
           "id": "f9d3919c-5ba4-4e33-afd7-f6321b559d96709"
         },
         "52715514-7cae-4783-a55f-e207e1ce5e23709": {
@@ -1080,8 +1080,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 403,
-          "y": -13152,
+          "x": -14335,
+          "y": -4412,
           "id": "52715514-7cae-4783-a55f-e207e1ce5e23709"
         },
         "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709": {
@@ -1107,8 +1107,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 393,
-          "y": -12785,
+          "x": -14345,
+          "y": -4045,
           "id": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709"
         },
         "43c7b180-f8c6-452f-9346-94265b43c0bc709": {
@@ -1134,8 +1134,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 457,
-          "y": -12935,
+          "x": -14281,
+          "y": -4195,
           "id": "43c7b180-f8c6-452f-9346-94265b43c0bc709"
         },
         "a6573a2a-17e3-4e51-803a-c79be735c907709": {
@@ -1161,8 +1161,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 487,
-          "y": -12910,
+          "x": -14251,
+          "y": -4170,
           "id": "a6573a2a-17e3-4e51-803a-c79be735c907709"
         },
         "5957177d-5884-4cdf-a0a2-95fedfd8f6ce709": {
@@ -1188,8 +1188,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 453,
-          "y": -12885,
+          "x": -14285,
+          "y": -4145,
           "id": "5957177d-5884-4cdf-a0a2-95fedfd8f6ce709"
         },
         "71d85620-d7c1-4f72-b9b3-178f20566934709": {
@@ -1215,8 +1215,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 472,
-          "y": -12860,
+          "x": -14266,
+          "y": -4120,
           "id": "71d85620-d7c1-4f72-b9b3-178f20566934709"
         },
         "8261ea62-4460-4d13-856e-11a89da34460709": {
@@ -1242,8 +1242,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 460,
-          "y": -12835,
+          "x": -14278,
+          "y": -4095,
           "id": "8261ea62-4460-4d13-856e-11a89da34460709"
         },
         "c9e649eb-9d6f-4a97-a581-25bc23fb2dc6709": {
@@ -1269,8 +1269,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 482,
-          "y": -12810,
+          "x": -14256,
+          "y": -4070,
           "id": "c9e649eb-9d6f-4a97-a581-25bc23fb2dc6709"
         },
         "87acae29-26a1-4dae-aa6c-dad83e7b8983709": {
@@ -1296,8 +1296,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 485,
-          "y": -12785,
+          "x": -14253,
+          "y": -4045,
           "id": "87acae29-26a1-4dae-aa6c-dad83e7b8983709"
         },
         "7ca3ffa3-5554-46fb-9e4c-21aaa8768493709": {
@@ -1323,8 +1323,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 463,
-          "y": -12760,
+          "x": -14275,
+          "y": -4020,
           "id": "7ca3ffa3-5554-46fb-9e4c-21aaa8768493709"
         },
         "b850ef03-dd7d-48b9-ba43-0ab91574cb14709": {
@@ -1350,8 +1350,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 454,
-          "y": -12735,
+          "x": -14284,
+          "y": -3995,
           "id": "b850ef03-dd7d-48b9-ba43-0ab91574cb14709"
         },
         "42b59714-b915-4351-8615-f73dea998d39709": {
@@ -1377,8 +1377,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 481,
-          "y": -12710,
+          "x": -14257,
+          "y": -3970,
           "id": "42b59714-b915-4351-8615-f73dea998d39709"
         },
         "f2417b15-6f28-4533-8d5c-9e91123a14b2709": {
@@ -1404,8 +1404,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 468,
-          "y": -12685,
+          "x": -14270,
+          "y": -3945,
           "id": "f2417b15-6f28-4533-8d5c-9e91123a14b2709"
         },
         "e99e9a6f-f6e1-4312-b003-5878d908f3ce709": {
@@ -1431,8 +1431,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 489,
-          "y": -12660,
+          "x": -14249,
+          "y": -3920,
           "id": "e99e9a6f-f6e1-4312-b003-5878d908f3ce709"
         },
         "f9a78cba-3904-49d3-b0da-72dbf64df687709": {
@@ -1458,8 +1458,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 454,
-          "y": -12635,
+          "x": -14284,
+          "y": -3895,
           "id": "f9a78cba-3904-49d3-b0da-72dbf64df687709"
         },
         "518a2b66-f38b-49a4-9220-52cbdd3a9370709": {
@@ -1485,8 +1485,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 493,
-          "y": -12610,
+          "x": -14245,
+          "y": -3870,
           "id": "518a2b66-f38b-49a4-9220-52cbdd3a9370709"
         },
         "675504dd-4410-45b0-a5ec-0bac8ce4a540709": {
@@ -1512,8 +1512,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 243,
-          "y": -12485,
+          "x": -14495,
+          "y": -3745,
           "id": "675504dd-4410-45b0-a5ec-0bac8ce4a540709"
         },
         "51096979-4e09-49c1-bed3-08a4925d2ebf709": {
@@ -1539,8 +1539,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 243,
-          "y": -12385,
+          "x": -14495,
+          "y": -3645,
           "id": "51096979-4e09-49c1-bed3-08a4925d2ebf709"
         },
         "224747ed-bc32-4069-ab0d-8c3f13f8a51a709": {
@@ -1566,8 +1566,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 243,
-          "y": -12285,
+          "x": -14495,
+          "y": -3545,
           "id": "224747ed-bc32-4069-ab0d-8c3f13f8a51a709"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709": {
@@ -1600,8 +1600,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js save",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709",
-          "x": 5470,
-          "y": -14026,
+          "x": -9268,
+          "y": -5286,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1630,13 +1630,13 @@ var schemeData =
           "shapeProperties": {},
           "label": "Save operations code",
           "id": "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709",
-          "x": 842,
-          "y": -14193
+          "x": -13896,
+          "y": -5453
         },
         "ea25b7ca-7308-4e5d-8d23-becf10837170": {
           "id": "ea25b7ca-7308-4e5d-8d23-becf10837170",
-          "x": 710,
-          "y": -13175,
+          "x": -14028,
+          "y": -4435,
           "label": "How to save canvas with script.\n(Like \"Save\" operation\nin desktop program.)",
           "shape": "box",
           "link": "",
@@ -1674,8 +1674,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "start mvj-serv.js from mm-vis-js/utils/",
           "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a7196",
-          "x": 1072,
-          "y": -13196
+          "x": -13666,
+          "y": -4456
         },
         "52aee244-a92a-41a3-8b71-373d541e660d96": {
           "color": {
@@ -1704,8 +1704,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "$ node mvj-serv.js",
           "id": "52aee244-a92a-41a3-8b71-373d541e660d96",
-          "x": 1319,
-          "y": -13193,
+          "x": -13419,
+          "y": -4453,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1737,8 +1737,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "check port number in mvj-serv.js script - 1337. Change it in mvj-serv.js and in build script above, if you need.",
           "id": "8dcd7da6-9174-4a9a-92df-19ac2ef2574596",
-          "x": 1603,
-          "y": -13230,
+          "x": -13135,
+          "y": -4490,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1771,8 +1771,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click big node above with code in it - to select it.",
           "id": "604289ab-7ae3-4401-afdc-44d012b2609c96",
-          "x": 1109,
-          "y": -13149,
+          "x": -13629,
+          "y": -4409,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1805,8 +1805,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click \"runNodeCode\" in this node menu - on the left.",
           "id": "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced96",
-          "x": 1123,
-          "y": -13110,
+          "x": -13615,
+          "y": -4370,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1838,8 +1838,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "mm-vis-js pages list",
-          "x": 5,
-          "y": -16469,
+          "x": -14733,
+          "y": -7729,
           "id": "b0ab9a5c-3969-4305-b107-d656ef662765609",
           "shape": "box",
           "link": "",
@@ -1868,8 +1868,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 481,
-          "y": -16029,
+          "x": -14257,
+          "y": -7289,
           "id": "ef5831c3-19e4-4205-9c1f-7a3bce9abf2e609"
         },
         "c8fff93b-99a7-4e44-b775-013dd5b18cd0609": {
@@ -1895,8 +1895,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/16/2019",
-          "x": 731,
-          "y": -16029,
+          "x": -14007,
+          "y": -7289,
           "id": "c8fff93b-99a7-4e44-b775-013dd5b18cd0609"
         },
         "244022c3-df85-4859-b198-983acf2a904c609": {
@@ -1922,8 +1922,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 631,
-          "y": -16029,
+          "x": -14107,
+          "y": -7289,
           "id": "244022c3-df85-4859-b198-983acf2a904c609"
         },
         "7b984b0f-df05-4527-8ac8-8706b9691d36609": {
@@ -1949,8 +1949,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 481,
-          "y": -16879,
+          "x": -14257,
+          "y": -8139,
           "id": "7b984b0f-df05-4527-8ac8-8706b9691d36609"
         },
         "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609": {
@@ -1976,8 +1976,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 629,
-          "y": -17293,
+          "x": -14109,
+          "y": -8553,
           "id": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609"
         },
         "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc609": {
@@ -2003,8 +2003,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 631,
-          "y": -16879,
+          "x": -14107,
+          "y": -8139,
           "id": "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc609"
         },
         "3c74d4bd-608b-4744-b18c-1cc508a41bcd609": {
@@ -2030,8 +2030,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 631,
-          "y": -16629,
+          "x": -14107,
+          "y": -7889,
           "id": "3c74d4bd-608b-4744-b18c-1cc508a41bcd609"
         },
         "50b02362-4c2e-4801-b250-bbb084bf9bb2609": {
@@ -2057,8 +2057,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 695,
-          "y": -16779,
+          "x": -14043,
+          "y": -8039,
           "id": "50b02362-4c2e-4801-b250-bbb084bf9bb2609"
         },
         "92f53a00-cf65-456f-bfcf-6f6c88119d5b609": {
@@ -2084,8 +2084,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 726,
-          "y": -16754,
+          "x": -14012,
+          "y": -8014,
           "id": "92f53a00-cf65-456f-bfcf-6f6c88119d5b609"
         },
         "75ff23b4-3d0f-4c06-8061-4069494a326f609": {
@@ -2111,8 +2111,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 691,
-          "y": -16729,
+          "x": -14047,
+          "y": -7989,
           "id": "75ff23b4-3d0f-4c06-8061-4069494a326f609"
         },
         "1bc92ea3-79ba-4d40-816c-35cedc1c74bf609": {
@@ -2138,8 +2138,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 710,
-          "y": -16704,
+          "x": -14028,
+          "y": -7964,
           "id": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf609"
         },
         "2d9049d8-feaf-41cd-afb1-87515557983e609": {
@@ -2165,8 +2165,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 699,
-          "y": -16679,
+          "x": -14039,
+          "y": -7939,
           "id": "2d9049d8-feaf-41cd-afb1-87515557983e609"
         },
         "51a5b447-fa28-4997-80ca-b7a96a69ef9e609": {
@@ -2192,8 +2192,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 721,
-          "y": -16654,
+          "x": -14017,
+          "y": -7914,
           "id": "51a5b447-fa28-4997-80ca-b7a96a69ef9e609"
         },
         "8a139418-94d2-4121-94a4-8d2a26213d24609": {
@@ -2219,8 +2219,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 723,
-          "y": -16629,
+          "x": -14015,
+          "y": -7889,
           "id": "8a139418-94d2-4121-94a4-8d2a26213d24609"
         },
         "76fc5be1-7bae-46ec-a649-1bc6509b378d609": {
@@ -2246,8 +2246,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 701,
-          "y": -16604,
+          "x": -14037,
+          "y": -7864,
           "id": "76fc5be1-7bae-46ec-a649-1bc6509b378d609"
         },
         "21dc8bf2-6e0c-42cf-b702-d47f24af173a609": {
@@ -2273,8 +2273,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 692,
-          "y": -16579,
+          "x": -14046,
+          "y": -7839,
           "id": "21dc8bf2-6e0c-42cf-b702-d47f24af173a609"
         },
         "1f9b98e7-ca75-443c-952d-a1d0ba476652609": {
@@ -2300,8 +2300,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 720,
-          "y": -16554,
+          "x": -14018,
+          "y": -7814,
           "id": "1f9b98e7-ca75-443c-952d-a1d0ba476652609"
         },
         "f9c77b6e-13d7-4687-9d7f-e858e5cf5685609": {
@@ -2327,8 +2327,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 706,
-          "y": -16529,
+          "x": -14032,
+          "y": -7789,
           "id": "f9c77b6e-13d7-4687-9d7f-e858e5cf5685609"
         },
         "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661609": {
@@ -2354,8 +2354,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 728,
-          "y": -16504,
+          "x": -14010,
+          "y": -7764,
           "id": "945ab5a3-10ef-4a8e-b27c-3cf76f7d8661609"
         },
         "f13fa072-1d46-45b2-b2b1-679177d88ba6609": {
@@ -2381,8 +2381,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 692,
-          "y": -16479,
+          "x": -14046,
+          "y": -7739,
           "id": "f13fa072-1d46-45b2-b2b1-679177d88ba6609"
         },
         "ab382182-58b3-4799-ad70-5340f6f6e88d609": {
@@ -2408,8 +2408,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 731,
-          "y": -16454,
+          "x": -14007,
+          "y": -7714,
           "id": "ab382182-58b3-4799-ad70-5340f6f6e88d609"
         },
         "a8fd2573-44a2-4d77-9721-81e1457bc1f0609": {
@@ -2435,8 +2435,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 481,
-          "y": -16329,
+          "x": -14257,
+          "y": -7589,
           "id": "a8fd2573-44a2-4d77-9721-81e1457bc1f0609"
         },
         "48a4c37a-5708-48fc-9e33-37312999d807609": {
@@ -2462,8 +2462,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 481,
-          "y": -16229,
+          "x": -14257,
+          "y": -7489,
           "id": "48a4c37a-5708-48fc-9e33-37312999d807609"
         },
         "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46609": {
@@ -2489,15 +2489,15 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 481,
-          "y": -16129,
+          "x": -14257,
+          "y": -7389,
           "id": "e4bf19d7-5d83-4383-8b80-0d6bfdf05f46609"
         },
         "7e39abb2-44d4-4d3c-a65b-56de4051a233": {
           "label": "",
           "link": "",
-          "x": 15423,
-          "y": -8375,
+          "x": 685,
+          "y": 365,
           "id": "7e39abb2-44d4-4d3c-a65b-56de4051a233"
         },
         "849f7b5d-b9aa-4aa2-a527-8b8a5f654712728875": {
@@ -2530,8 +2530,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js main page",
           "id": "849f7b5d-b9aa-4aa2-a527-8b8a5f654712728875",
-          "x": 887,
-          "y": -17468,
+          "x": -13851,
+          "y": -8728,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2565,8 +2565,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com",
           "id": "7fbacd8e-7cf7-4e33-9ffe-4c7e7ad17661728875",
-          "x": 1110,
-          "y": -17470,
+          "x": -13628,
+          "y": -8730,
           "shape": "box",
           "link": "index.html",
           "borderWidth": ""
@@ -2600,8 +2600,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/base.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3728875",
-          "x": 1143,
-          "y": -17326,
+          "x": -13595,
+          "y": -8586,
           "shape": "box",
           "link": "base.html",
           "borderWidth": ""
@@ -2635,8 +2635,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent themes",
           "id": "fecf5e72-1e19-410e-87b8-f36ff58504b6728875",
-          "x": 874,
-          "y": -17323,
+          "x": -13864,
+          "y": -8583,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2670,8 +2670,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/culture.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210728875",
-          "x": 1149,
-          "y": -17272,
+          "x": -13589,
+          "y": -8532,
           "shape": "box",
           "link": "culture.html",
           "borderWidth": ""
@@ -2705,8 +2705,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Culture",
           "id": "fecf5e72-1e19-410e-87b8-f36ff58504b6210728875",
-          "x": 844,
-          "y": -17269,
+          "x": -13894,
+          "y": -8529,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2740,8 +2740,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Ruby",
           "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875",
-          "x": 837,
-          "y": -17217,
+          "x": -13901,
+          "y": -8477,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2775,8 +2775,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/ruby.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875",
-          "x": 1141,
-          "y": -17216,
+          "x": -13597,
+          "y": -8476,
           "shape": "box",
           "link": "ruby.html",
           "borderWidth": ""
@@ -2811,8 +2811,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Javascript",
           "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145",
-          "x": 853,
-          "y": -17163,
+          "x": -13885,
+          "y": -8423,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2847,8 +2847,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/javascript.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145",
-          "x": 1157,
-          "y": -17162,
+          "x": -13581,
+          "y": -8422,
           "shape": "box",
           "link": "javascript.html",
           "borderWidth": ""
@@ -2883,8 +2883,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Music",
           "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680",
-          "x": 839,
-          "y": -17075,
+          "x": -13899,
+          "y": -8335,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2919,8 +2919,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/music.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680",
-          "x": 1146,
-          "y": -17074,
+          "x": -13592,
+          "y": -8334,
           "shape": "box",
           "link": "music.html",
           "borderWidth": ""
@@ -2955,8 +2955,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js code",
           "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296",
-          "x": 869,
-          "y": -17417,
+          "x": -13869,
+          "y": -8677,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2991,8 +2991,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/mm-vis-js_code.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296",
-          "x": 1177,
-          "y": -17422,
+          "x": -13561,
+          "y": -8682,
           "shape": "box",
           "link": "mm-vis-js_code.html",
           "borderWidth": ""
@@ -3027,8 +3027,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Math",
           "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296120",
-          "x": 837,
-          "y": -17027,
+          "x": -13901,
+          "y": -8287,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3063,8 +3063,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/math.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296120",
-          "x": 1143,
-          "y": -17025,
+          "x": -13595,
+          "y": -8285,
           "shape": "box",
           "link": "math.html",
           "borderWidth": ""
@@ -3097,8 +3097,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Main\nMenu",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210986",
-          "x": 46660,
-          "y": -16600,
+          "x": 31922,
+          "y": -7860,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3131,8 +3131,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "index.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905",
-          "x": 36206,
-          "y": -17109,
+          "x": 21468,
+          "y": -8369,
           "shape": "box",
           "link": "index.html",
           "borderWidth": ""
@@ -3167,8 +3167,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js_code.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906",
-          "x": 38511,
-          "y": -14823,
+          "x": 23773,
+          "y": -6083,
           "shape": "box",
           "link": "mm-vis-js_code.html",
           "borderWidth": ""
@@ -3203,8 +3203,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js_docs.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926",
-          "x": 38483,
-          "y": -12690,
+          "x": 23745,
+          "y": -3950,
           "shape": "box",
           "link": "mm-vis-js_docs.html",
           "borderWidth": ""
@@ -3239,8 +3239,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "base.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854",
-          "x": 36095,
-          "y": -10266,
+          "x": 21357,
+          "y": -1526,
           "shape": "box",
           "link": "base.html",
           "borderWidth": ""
@@ -3275,8 +3275,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "culture.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854325",
-          "x": 36511,
-          "y": -7980,
+          "x": 21773,
+          "y": 760,
           "shape": "box",
           "link": "culture.html",
           "borderWidth": ""
@@ -3311,8 +3311,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ruby.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854325137",
-          "x": 35946,
-          "y": -5764,
+          "x": 21208,
+          "y": 2976,
           "shape": "box",
           "link": "ruby.html",
           "borderWidth": ""
@@ -3347,8 +3347,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "javascript.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854325137704",
-          "x": 37122,
-          "y": -3756,
+          "x": 22384,
+          "y": 4984,
           "shape": "box",
           "link": "javascript.html",
           "borderWidth": ""
@@ -3383,8 +3383,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "music.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426",
-          "x": 36316,
-          "y": 381,
+          "x": 21578,
+          "y": 9121,
           "shape": "box",
           "link": "music.html",
           "borderWidth": ""
@@ -3419,8 +3419,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "python.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946",
-          "x": 36512,
-          "y": -1678,
+          "x": 21774,
+          "y": 7062,
           "shape": "box",
           "link": "python.html",
           "borderWidth": ""
@@ -3455,16 +3455,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "math.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866",
-          "x": 36122,
-          "y": 2409,
+          "x": 21384,
+          "y": 11149,
           "shape": "box",
           "link": "math.html",
           "borderWidth": ""
         },
         "58d1ee08-5ba5-4c7b-b71d-8ff90549740a": {
           "label": "Main\nMenu",
-          "x": 32340,
-          "y": 4697,
+          "x": 17602,
+          "y": 13437,
           "font": {
             "size": 72,
             "align": "left"
@@ -3480,152 +3480,152 @@ var schemeData =
         },
         "fad0d2f5-e805-42f8-81eb-34676e57823e": {
           "label": "Development",
-          "x": 32640,
-          "y": 5147,
+          "x": 17902,
+          "y": 13887,
           "id": "fad0d2f5-e805-42f8-81eb-34676e57823e"
         },
         "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8": {
           "label": "12/20/2019",
-          "x": 32773,
-          "y": 5147,
+          "x": 18035,
+          "y": 13887,
           "id": "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8"
         },
         "3749bab6-782f-4012-8bc4-6868c99ae90d": {
           "label": "init",
-          "x": 32890,
-          "y": 5147,
+          "x": 18152,
+          "y": 13887,
           "id": "3749bab6-782f-4012-8bc4-6868c99ae90d"
         },
         "e84a77bd-9fe9-49e4-bd78-36357ed45eac": {
           "label": "Notes",
-          "x": 32617,
-          "y": 4297,
+          "x": 17879,
+          "y": 13037,
           "id": "e84a77bd-9fe9-49e4-bd78-36357ed45eac"
         },
         "e471ec0c-362c-4f2b-b7c4-2841070254df": {
           "label": "Dictionary of\nconcepts",
-          "x": 33276,
-          "y": -8031,
+          "x": 18538,
+          "y": 709,
           "id": "e471ec0c-362c-4f2b-b7c4-2841070254df"
         },
         "8603b647-7c2d-4c72-a50c-3112d91ae9fd": {
           "label": "Details, thoughts",
-          "x": 32798,
-          "y": 4161,
+          "x": 18060,
+          "y": 12901,
           "id": "8603b647-7c2d-4c72-a50c-3112d91ae9fd"
         },
         "7899b947-be30-4c88-8104-5530af5f2d8e": {
           "label": "Sections",
-          "x": 32764,
-          "y": 4547,
+          "x": 18026,
+          "y": 13287,
           "id": "7899b947-be30-4c88-8104-5530af5f2d8e"
         },
         "774cc87a-d706-4c5e-a071-c3e570be814f": {
           "label": "Books",
-          "x": 32854,
-          "y": 4397,
+          "x": 18116,
+          "y": 13137,
           "id": "774cc87a-d706-4c5e-a071-c3e570be814f"
         },
         "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf": {
           "label": "R&D institutions",
-          "x": 32885,
-          "y": 4422,
+          "x": 18147,
+          "y": 13162,
           "id": "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf"
         },
         "fcb25b61-b679-407b-bad7-328430ba3627": {
           "label": "Sites",
-          "x": 32850,
-          "y": 4447,
+          "x": 18112,
+          "y": 13187,
           "id": "fcb25b61-b679-407b-bad7-328430ba3627"
         },
         "1156c7a0-91c8-415c-bb5d-d716b709e4a9": {
           "label": "Magazines",
-          "x": 32869,
-          "y": 4472,
+          "x": 18131,
+          "y": 13212,
           "id": "1156c7a0-91c8-415c-bb5d-d716b709e4a9"
         },
         "40f5b217-7079-4841-b85d-a4028fec7130": {
           "label": "Articles",
-          "x": 32858,
-          "y": 4497,
+          "x": 18120,
+          "y": 13237,
           "id": "40f5b217-7079-4841-b85d-a4028fec7130"
         },
         "eb4fdd92-f0c9-4b9f-a324-e8c758391efa": {
           "label": "Media content",
-          "x": 32880,
-          "y": 4522,
+          "x": 18142,
+          "y": 13262,
           "id": "eb4fdd92-f0c9-4b9f-a324-e8c758391efa"
         },
         "8e6bd954-292d-4ed8-b7a3-69308a73ae12": {
           "label": "Misc. web links",
-          "x": 32882,
-          "y": 4547,
+          "x": 18144,
+          "y": 13287,
           "id": "8e6bd954-292d-4ed8-b7a3-69308a73ae12"
         },
         "98df6a56-96a2-40aa-b6d0-6c6a7f58f098": {
           "label": "Projects",
-          "x": 32860,
-          "y": 4572,
+          "x": 18122,
+          "y": 13312,
           "id": "98df6a56-96a2-40aa-b6d0-6c6a7f58f098"
         },
         "a35b8d71-f5f4-45f3-88a0-f51a5579b16b": {
           "label": "Tools",
-          "x": 32852,
-          "y": 4597,
+          "x": 18114,
+          "y": 13337,
           "id": "a35b8d71-f5f4-45f3-88a0-f51a5579b16b"
         },
         "763ae497-9ab0-4119-908e-4cc8a0a10757": {
           "label": "Organizations",
-          "x": 32879,
-          "y": 4622,
+          "x": 18141,
+          "y": 13362,
           "id": "763ae497-9ab0-4119-908e-4cc8a0a10757"
         },
         "3ac6cf0e-e35d-4f5c-afa7-54274021773f": {
           "label": "Standarts",
-          "x": 32865,
-          "y": 4647,
+          "x": 18127,
+          "y": 13387,
           "id": "3ac6cf0e-e35d-4f5c-afa7-54274021773f"
         },
         "fa51e725-fed1-41e2-93ff-6c650595f637": {
           "label": "Forums, Groups",
-          "x": 32887,
-          "y": 4672,
+          "x": 18149,
+          "y": 13412,
           "id": "fa51e725-fed1-41e2-93ff-6c650595f637"
         },
         "49872021-d638-4aaf-b83c-98e5bc8dca80": {
           "label": "Laws",
-          "x": 32851,
-          "y": 4697,
+          "x": 18113,
+          "y": 13437,
           "id": "49872021-d638-4aaf-b83c-98e5bc8dca80"
         },
         "d9dc0df7-2a39-497f-a6f2-0b9808f09c69": {
           "label": "Adjacent Themes",
-          "x": 32890,
-          "y": 4722,
+          "x": 18152,
+          "y": 13462,
           "id": "d9dc0df7-2a39-497f-a6f2-0b9808f09c69"
         },
         "768d541a-394e-475e-b29b-03b97ff2be19": {
           "label": "Questions",
-          "x": 32630,
-          "y": 4847,
+          "x": 17892,
+          "y": 13587,
           "id": "768d541a-394e-475e-b29b-03b97ff2be19"
         },
         "c6cef5ea-0ff0-45c3-811a-c416c5d13873": {
           "label": "Problems",
-          "x": 32628,
-          "y": 4947,
+          "x": 17890,
+          "y": 13687,
           "id": "c6cef5ea-0ff0-45c3-811a-c416c5d13873"
         },
         "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06": {
           "label": "Goals",
-          "x": 32617,
-          "y": 5047,
+          "x": 17879,
+          "y": 13787,
           "id": "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06"
         },
         "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c": {
           "id": "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c",
-          "x": 33135,
-          "y": 4008,
+          "x": 18397,
+          "y": 12748,
           "label": "This scheme contains links to mm-vis-js pages.",
           "shape": "box",
           "link": "",
@@ -3641,8 +3641,8 @@ var schemeData =
         },
         "dacb0e5f-35a8-4605-ac1c-4852eddfc77c": {
           "id": "dacb0e5f-35a8-4605-ac1c-4852eddfc77c",
-          "x": 33224,
-          "y": 4117,
+          "x": 18486,
+          "y": 12857,
           "label": "Links to mm-vis-js pages are the same as in \"mm-vis-js pages list\" scheme.",
           "shape": "box",
           "link": "",
@@ -3658,32 +3658,32 @@ var schemeData =
         },
         "b5d67935-0013-48a9-bf36-d44995b85787": {
           "id": "b5d67935-0013-48a9-bf36-d44995b85787",
-          "x": 33684,
-          "y": 4117,
+          "x": 18946,
+          "y": 12857,
           "label": "\"mm-vis-js pages list\" scheme is in top left of this page"
         },
         "06674058-70e6-4712-a3e6-bfb4c2c04a85": {
           "id": "06674058-70e6-4712-a3e6-bfb4c2c04a85",
-          "x": 33757,
-          "y": 4151,
+          "x": 19019,
+          "y": 12891,
           "label": "\"mm-vis-js pages list\" scheme located on all mm-vis-js pages on their top left."
         },
         "29624334-2af8-451d-b675-f1cc64e03380": {
           "id": "29624334-2af8-451d-b675-f1cc64e03380",
-          "x": 33101,
-          "y": 4045,
+          "x": 18363,
+          "y": 12785,
           "label": "This scheme is just for convenience."
         },
         "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3": {
           "id": "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3",
-          "x": 33064,
-          "y": 4292,
+          "x": 18326,
+          "y": 13032,
           "label": "This page is \"index.html\""
         },
         "fa1cdcb3-3273-4708-bcd1-739ee674fba2": {
           "id": "fa1cdcb3-3273-4708-bcd1-739ee674fba2",
-          "x": 33276,
-          "y": 4293,
+          "x": 18538,
+          "y": 13033,
           "label": "It purpose is to be \"main page\"",
           "shape": "box",
           "link": "",
@@ -3699,32 +3699,32 @@ var schemeData =
         },
         "64acc704-cf3f-47a0-8c94-49af5c116831": {
           "id": "64acc704-cf3f-47a0-8c94-49af5c116831",
-          "x": 33166,
-          "y": 4203,
+          "x": 18428,
+          "y": 12943,
           "label": "Each big node with page name contains link to this page."
         },
         "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf": {
           "id": "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf",
-          "x": 33453,
-          "y": 4201,
+          "x": 18715,
+          "y": 12941,
           "label": "How to use this links?"
         },
         "009701c1-d7ed-4fbb-a76f-7502bacdc667": {
           "id": "009701c1-d7ed-4fbb-a76f-7502bacdc667",
-          "x": 33613,
-          "y": 4200,
+          "x": 18875,
+          "y": 12940,
           "label": "1) Select big node"
         },
         "250f8b30-2e4d-47d0-a4de-e382a59e799a": {
           "id": "250f8b30-2e4d-47d0-a4de-e382a59e799a",
-          "x": 33726,
-          "y": 4236,
+          "x": 18988,
+          "y": 12976,
           "label": "2) Click openLinkButton - blue button on the left menu"
         },
         "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc": {
           "id": "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc",
-          "x": 33438,
-          "y": 4046,
+          "x": 18700,
+          "y": 12786,
           "label": "It is easy to select big nodes with pages links from bird view.",
           "shape": "box",
           "link": "",
@@ -3768,8 +3768,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js docs",
           "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296487",
-          "x": 868,
-          "y": -17372,
+          "x": -13870,
+          "y": -8632,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3804,8 +3804,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/mm-vis-js_docs.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296487",
-          "x": 1177,
-          "y": -17379,
+          "x": -13561,
+          "y": -8639,
           "shape": "box",
           "link": "mm-vis-js_docs.html",
           "borderWidth": ""
@@ -3840,8 +3840,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Python",
           "id": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145201",
-          "x": 843,
-          "y": -17117,
+          "x": -13895,
+          "y": -8377,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3876,8 +3876,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/python.html",
           "id": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145201",
-          "x": 1149,
-          "y": -17116,
+          "x": -13589,
+          "y": -8376,
           "shape": "box",
           "link": "javascript.html",
           "borderWidth": ""
@@ -8280,10 +8280,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.27621595386185605,
+    "scale": 0.0167,
     "viewPosition": {
-      "x": 1414.7849106676024,
-      "y": -17021.653958292907
+      "x": 15756.293412215571,
+      "y": 7383.233537784432
     }
   }
 }
