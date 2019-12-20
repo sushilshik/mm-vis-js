@@ -1,6 +1,6 @@
 # mm-vis-js
 
-mm-vis-js &mdash; IDE and schemes editor.
+mm-vis-js &mdash; IDE, CAS and schemes editor.
 
 Code based on vis.js.
 
@@ -15,7 +15,12 @@ Example: https://sushilshik.github.io/
 * Build files with code (like project building in make and maven) from graphs of nodes with code
 * Place books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content
 * Work online and offline
+* SymPy math integration. Dynamic LaTeX expressions and matplotlib plots.
 * Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)
+
+###### Install
+
+Instruction manual: https://sushilshik.github.io/mm-vis-js_docs.html?scale=0.85&x=85579&y=-2145 (ru)
 
 ###### Screenshots
 
@@ -23,13 +28,24 @@ sushilshik.github.io/index.html screenshot 2019.11.30
 
 ![sushilshik.github.io/index.html screenshot 2019.11.30](https://sushilshik.github.io/imgs/mm-vis-js_index_2019.11.30.png)
 
-###### List of pages on 2019.11.30:
+SymPy integration. With dynamic equations and plots in LaTeX and matplotlib.
+
+![sushilshik.github.io/math.html screenshot 2019.12.19](https://sushilshik.github.io/imgs/mm-vis-js_matplotlib_1.png)
+
+![sushilshik.github.io/math.html screenshot 2019.12.19](https://sushilshik.github.io/imgs/mm-vis-js_matplotlib_2.png)
+
+###### List of pages on 2019.12.20:
 
 * https://sushilshik.github.io/index.html
+* https://sushilshik.github.io/mm-vis-js_code.html
+* https://sushilshik.github.io/mm-vis-js_docs.html
 * https://sushilshik.github.io/base.html
 * https://sushilshik.github.io/culture.html
 * https://sushilshik.github.io/ruby.html
 * https://sushilshik.github.io/javascript.html
+* https://sushilshik.github.io/python.html
+* https://sushilshik.github.io/music.html
+* https://sushilshik.github.io/math.html
 
 ### Tests:
 
