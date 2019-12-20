@@ -15,7 +15,7 @@ Example: https://sushilshik.github.io/
 * Build files with code (like project building in make and maven) from graphs of nodes with code
 * Place books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content
 * Work online and offline
-* SymPy math integration. Dynamic LaTeX expressions and matplotlib plots.
+* SymPy math integration (CAS like Mathcad). Dynamic LaTeX expressions and matplotlib plots.
 * Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)
 
 ###### Install

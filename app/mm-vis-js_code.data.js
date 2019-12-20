@@ -4906,8 +4906,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "mm-vis-js",
-          "x": 39623,
-          "y": -13523,
+          "x": 39597,
+          "y": -12883,
           "id": "e2167bbe-693e-4fc7-b91b-062bda693c27206369486",
           "shape": "box",
           "link": "",
@@ -4938,8 +4938,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 40256,
-          "y": -13141,
+          "x": 40230,
+          "y": -12501,
           "id": "24835ccd-b98b-4f2f-bd45-fcaa9f38b03e206369486"
         },
         "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486": {
@@ -4970,8 +4970,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/18/2019",
-          "x": 40506,
-          "y": -13141,
+          "x": 40480,
+          "y": -12501,
           "id": "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486",
           "shape": "box",
           "link": "",
@@ -5002,8 +5002,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 40406,
-          "y": -13141,
+          "x": 40380,
+          "y": -12501,
           "id": "f1d86e21-8dcb-40e1-a445-40bff68d13a2206369486"
         },
         "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486": {
@@ -5031,8 +5031,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 40256,
-          "y": -13991,
+          "x": 40230,
+          "y": -13351,
           "id": "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486"
         },
         "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486": {
@@ -5089,8 +5089,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 40464,
-          "y": -14516,
+          "x": 40438,
+          "y": -13876,
           "id": "636009f4-b1c7-4990-b4f0-2e2b3e654223206369486"
         },
         "8c615a75-12a2-4368-bdb9-f9e04619e711206369486": {
@@ -5118,8 +5118,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 40406,
-          "y": -13741,
+          "x": 40380,
+          "y": -13101,
           "id": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486"
         },
         "dadf8c81-d0a9-4bb9-b3aa-cb0e872ae663206369486": {
@@ -5147,8 +5147,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 40470,
-          "y": -13891,
+          "x": 40444,
+          "y": -13251,
           "id": "dadf8c81-d0a9-4bb9-b3aa-cb0e872ae663206369486"
         },
         "511de7c7-f954-47d9-b9cb-1d25114d124a206369486": {
@@ -5176,8 +5176,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 40500,
-          "y": -13866,
+          "x": 40474,
+          "y": -13226,
           "id": "511de7c7-f954-47d9-b9cb-1d25114d124a206369486"
         },
         "8c186da9-2d90-4752-87d5-9c51f01aaeaa206369486": {
@@ -5205,8 +5205,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 40466,
-          "y": -13841,
+          "x": 40440,
+          "y": -13201,
           "id": "8c186da9-2d90-4752-87d5-9c51f01aaeaa206369486"
         },
         "3ed80ff3-e9c7-41ad-ad41-4adcc9e92c6e206369486": {
@@ -5234,8 +5234,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 40485,
-          "y": -13816,
+          "x": 40459,
+          "y": -13176,
           "id": "3ed80ff3-e9c7-41ad-ad41-4adcc9e92c6e206369486"
         },
         "a15afc99-7e3d-4676-896b-4d56c1b237ac206369486": {
@@ -5263,8 +5263,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 40473,
-          "y": -13791,
+          "x": 40447,
+          "y": -13151,
           "id": "a15afc99-7e3d-4676-896b-4d56c1b237ac206369486"
         },
         "3b475dd0-8619-48b1-8235-0396f1c366b4206369486": {
@@ -5292,8 +5292,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 40495,
-          "y": -13766,
+          "x": 40469,
+          "y": -13126,
           "id": "3b475dd0-8619-48b1-8235-0396f1c366b4206369486"
         },
         "13be3cea-4aa2-4e7d-b72d-f3aabba738ad206369486": {
@@ -5321,8 +5321,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 40498,
-          "y": -13741,
+          "x": 40472,
+          "y": -13101,
           "id": "13be3cea-4aa2-4e7d-b72d-f3aabba738ad206369486"
         },
         "dd8c8df4-29ee-4c7a-b924-24858ff3c682206369486": {
@@ -5350,8 +5350,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 40476,
-          "y": -13716,
+          "x": 40450,
+          "y": -13076,
           "id": "dd8c8df4-29ee-4c7a-b924-24858ff3c682206369486"
         },
         "67d89cae-970e-4780-b211-e8ffa3ee085d206369486": {
@@ -5379,8 +5379,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 40467,
-          "y": -13691,
+          "x": 40441,
+          "y": -13051,
           "id": "67d89cae-970e-4780-b211-e8ffa3ee085d206369486"
         },
         "fc81f614-d532-41dd-aa0c-96a72dbe6b54206369486": {
@@ -5408,8 +5408,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 40494,
-          "y": -13666,
+          "x": 40468,
+          "y": -13026,
           "id": "fc81f614-d532-41dd-aa0c-96a72dbe6b54206369486"
         },
         "5b628386-e316-4c48-a084-b6b643206d6e206369486": {
@@ -5437,8 +5437,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 40481,
-          "y": -13641,
+          "x": 40455,
+          "y": -13001,
           "id": "5b628386-e316-4c48-a084-b6b643206d6e206369486"
         },
         "58b455fb-9348-4474-bcd5-2f5cb83b6804206369486": {
@@ -5466,8 +5466,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 40502,
-          "y": -13616,
+          "x": 40476,
+          "y": -12976,
           "id": "58b455fb-9348-4474-bcd5-2f5cb83b6804206369486"
         },
         "7bdb4374-cad2-40ec-97e8-3f40cfad4ee8206369486": {
@@ -5495,8 +5495,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 40467,
-          "y": -13591,
+          "x": 40441,
+          "y": -12951,
           "id": "7bdb4374-cad2-40ec-97e8-3f40cfad4ee8206369486"
         },
         "d1cae5c0-c183-4be9-a80b-1a59148d879a206369486": {
@@ -5524,8 +5524,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 40506,
-          "y": -13566,
+          "x": 40480,
+          "y": -12926,
           "id": "d1cae5c0-c183-4be9-a80b-1a59148d879a206369486"
         },
         "e7b46853-9d75-4bcc-814c-783971395afa206369486": {
@@ -5553,8 +5553,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 40256,
-          "y": -13441,
+          "x": 40230,
+          "y": -12801,
           "id": "e7b46853-9d75-4bcc-814c-783971395afa206369486"
         },
         "7a0a1963-1d69-425b-a067-3d6c97be0cc1206369486": {
@@ -5582,8 +5582,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 40256,
-          "y": -13341,
+          "x": 40230,
+          "y": -12701,
           "id": "7a0a1963-1d69-425b-a067-3d6c97be0cc1206369486"
         },
         "ec17b97c-f06f-4590-ab22-01ff94faf0eb206369486": {
@@ -5611,8 +5611,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 40256,
-          "y": -13241,
+          "x": 40230,
+          "y": -12601,
           "id": "ec17b97c-f06f-4590-ab22-01ff94faf0eb206369486"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206369486": {
@@ -5751,8 +5751,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj code setup for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c0978206200486",
-          "x": 39654,
-          "y": -12671,
+          "x": 39628,
+          "y": -12031,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5786,8 +5786,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "projectPath: /home/mike/progr/repo/mm-vis-js",
           "id": "1bbcc7a4-45a0-4ea9-9862-fe18f6b37371206200486",
-          "x": 40613,
-          "y": -12708,
+          "x": 40587,
+          "y": -12068,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5821,8 +5821,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "backupPaths: [\n\"/home/mike/progr/repo/mm-vis-js\"\n]",
           "id": "f5989e42-d06f-4d95-908e-2f58107e05aa200486",
-          "x": 40621,
-          "y": -12637,
+          "x": 40595,
+          "y": -11997,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6461,7 +6461,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "# mm-vis-js\n\nmm-vis-js &mdash; IDE, CAS and schemes editor.\n\nCode based on vis.js.\n\nExample: https://sushilshik.github.io/\n\n###### Features:\n* No need to install.\n* No need to register in online services to edit schemes\n* Schemes data can be edited from it's text representation\n* Code (e.q. from github projects) can be converted to mm-vis-js schemes for visual research\n* Write programs in familiar programming languages and in visual graphs of nodes with code\n* Build files with code (like project building in make and maven) from graphs of nodes with code\n* Place books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content\n* Work online and offline\n* SymPy math integration. Dynamic LaTeX expressions and matplotlib plots.\n* Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)\n\n###### Install\n\nInstruction manual: https://sushilshik.github.io/mm-vis-js_docs.html?scale=0.085&x=85579&y=-2145 (ru)\n\n###### Screenshots\n\nsushilshik.github.io/index.html screenshot 2019.11.30\n\n![sushilshik.github.io/index.html screenshot 2019.11.30](https://sushilshik.github.io/imgs/mm-vis-js_index_2019.11.30.png)\n\nSymPy integration. With dynamic equations and plots in LaTeX and matplotlib.\n\n![sushilshik.github.io/math.html screenshot 2019.12.19](https://sushilshik.github.io/imgs/mm-vis-js_matplotlib_1.png)\n\n![sushilshik.github.io/math.html screenshot 2019.12.19](https://sushilshik.github.io/imgs/mm-vis-js_matplotlib_2.png)\n\n###### List of pages on 2019.12.20:\n\n* https://sushilshik.github.io/index.html\n* https://sushilshik.github.io/mm-vis-js_code.html\n* https://sushilshik.github.io/mm-vis-js_docs.html\n* https://sushilshik.github.io/base.html\n* https://sushilshik.github.io/culture.html\n* https://sushilshik.github.io/ruby.html\n* https://sushilshik.github.io/javascript.html\n* https://sushilshik.github.io/python.html\n* https://sushilshik.github.io/music.html\n* https://sushilshik.github.io/math.html\n\n### Tests:\n\nInstall:\n* docker\n* docker-compose. pip install docker-compose\n\nRun:\n1) Open first terminal.\n2) Run: docker-compose up --build. It will start chrome docker container.\n3) Open second terminal.\n4) Run: docker exec -it app-express npm run test:e2e. Command will exit after process finish.\n5) Run: docker-compose down. It will shut down chrome container in first terminal.",
+          "label": "# mm-vis-js\n\nmm-vis-js &mdash; IDE, CAS and schemes editor.\n\nCode based on vis.js.\n\nExample: https://sushilshik.github.io/\n\n###### Features:\n* No need to install.\n* No need to register in online services to edit schemes\n* Schemes data can be edited from it's text representation\n* Code (e.q. from github projects) can be converted to mm-vis-js schemes for visual research\n* Write programs in familiar programming languages and in visual graphs of nodes with code\n* Build files with code (like project building in make and maven) from graphs of nodes with code\n* Place books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content\n* Work online and offline\n* SymPy math integration (CAS like Mathcad). Dynamic LaTeX expressions and matplotlib plots.\n* Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)\n\n###### Install\n\nInstruction manual: https://sushilshik.github.io/mm-vis-js_docs.html?scale=0.085&x=85579&y=-2145 (ru)\n\n###### Screenshots\n\nsushilshik.github.io/index.html screenshot 2019.11.30\n\n![sushilshik.github.io/index.html screenshot 2019.11.30](https://sushilshik.github.io/imgs/mm-vis-js_index_2019.11.30.png)\n\nSymPy integration. With dynamic equations and plots in LaTeX and matplotlib.\n\n![sushilshik.github.io/math.html screenshot 2019.12.19](https://sushilshik.github.io/imgs/mm-vis-js_matplotlib_1.png)\n\n![sushilshik.github.io/math.html screenshot 2019.12.19](https://sushilshik.github.io/imgs/mm-vis-js_matplotlib_2.png)\n\n###### List of pages on 2019.12.20:\n\n* https://sushilshik.github.io/index.html\n* https://sushilshik.github.io/mm-vis-js_code.html\n* https://sushilshik.github.io/mm-vis-js_docs.html\n* https://sushilshik.github.io/base.html\n* https://sushilshik.github.io/culture.html\n* https://sushilshik.github.io/ruby.html\n* https://sushilshik.github.io/javascript.html\n* https://sushilshik.github.io/python.html\n* https://sushilshik.github.io/music.html\n* https://sushilshik.github.io/math.html\n\n### Tests:\n\nInstall:\n* docker\n* docker-compose. pip install docker-compose\n\nRun:\n1) Open first terminal.\n2) Run: docker-compose up --build. It will start chrome docker container.\n3) Open second terminal.\n4) Run: docker exec -it app-express npm run test:e2e. Command will exit after process finish.\n5) Run: docker-compose down. It will shut down chrome container in first terminal.",
           "x": 67366,
           "y": -7594,
           "id": "becab8db-7338-4a8d-9d1b-0840b81e6f8994216765617486",
@@ -8431,26 +8431,26 @@ var schemeData =
         },
         "b652df51-5798-4b35-86cd-12892f08855c": {
           "id": "b652df51-5798-4b35-86cd-12892f08855c",
-          "x": 40864,
-          "y": -14667,
+          "x": 40838,
+          "y": -14027,
           "label": "This is root scheme for mm-vis-js project."
         },
         "d3319a07-ad98-4ca7-a928-8cc003e5490b": {
           "id": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
-          "x": 40796,
-          "y": -14510,
+          "x": 40770,
+          "y": -13870,
           "label": "How to build project"
         },
         "d6a2f6ee-56a5-4221-be38-49c0a8364a71": {
           "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a71",
-          "x": 41169,
-          "y": -14539,
+          "x": 41143,
+          "y": -13899,
           "label": "start mvj-serv.js from mm-vis-js/utils/"
         },
         "52aee244-a92a-41a3-8b71-373d541e660d": {
           "id": "52aee244-a92a-41a3-8b71-373d541e660d",
-          "x": 41415,
-          "y": -14536,
+          "x": 41389,
+          "y": -13896,
           "label": "$ node mvj-serv.js",
           "shape": "box",
           "link": "",
@@ -8466,8 +8466,8 @@ var schemeData =
         },
         "8dcd7da6-9174-4a9a-92df-19ac2ef25745": {
           "id": "8dcd7da6-9174-4a9a-92df-19ac2ef25745",
-          "x": 41504,
-          "y": -14573,
+          "x": 41478,
+          "y": -13933,
           "label": "check port number in mvj-serv.js script - 3001.",
           "shape": "box",
           "link": "",
@@ -13379,19 +13379,19 @@ var schemeData =
         },
         "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc": {
           "id": "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc",
-          "x": 40777,
-          "y": -15195,
+          "x": 40751,
+          "y": -14555,
           "label": "git and github"
         },
         "44401bba-5383-432e-b905-25e85a0b60ec": {
           "id": "44401bba-5383-432e-b905-25e85a0b60ec",
-          "x": 41017,
-          "y": -15512,
+          "x": 41140,
+          "y": -15161,
           "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\n../README.md \\\n../../sushilshik.github.io/",
           "shape": "box",
           "link": "",
           "font": {
-            "size": 14,
+            "size": 40,
             "align": "left"
           },
           "color": {
@@ -13402,26 +13402,26 @@ var schemeData =
         },
         "c2fcf7e4-edc1-4ba0-954f-b05037a6eaf6": {
           "id": "c2fcf7e4-edc1-4ba0-954f-b05037a6eaf6",
-          "x": 41004,
-          "y": -15175,
+          "x": 40978,
+          "y": -14535,
           "label": "git commit -a -m \"...\""
         },
         "2823b7f4-aeee-41a2-a9bb-b779dbb40869": {
           "id": "2823b7f4-aeee-41a2-a9bb-b779dbb40869",
-          "x": 40969,
-          "y": -15225,
+          "x": 40943,
+          "y": -14585,
           "label": "git add ..."
         },
         "16527e97-6d7e-4abc-8608-be7027a620f1": {
           "id": "16527e97-6d7e-4abc-8608-be7027a620f1",
-          "x": 41359,
-          "y": -15227,
+          "x": 41333,
+          "y": -14587,
           "label": "check git add on sushilshik.github repository"
         },
         "5c1bb553-b81a-463c-bfe6-5653dde6fa05": {
           "id": "5c1bb553-b81a-463c-bfe6-5653dde6fa05",
-          "x": 41008,
-          "y": -15138,
+          "x": 40982,
+          "y": -14498,
           "label": "git push origin master"
         },
         "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396984": {
@@ -18788,21 +18788,21 @@ var schemeData =
         },
         "cfc75af6-4f65-4fae-8308-fd2667923cba": {
           "id": "cfc75af6-4f65-4fae-8308-fd2667923cba",
-          "x": 40791,
-          "y": -14789,
+          "x": 40765,
+          "y": -14149,
           "label": "packages to install"
         },
         "c595996f-5983-43b0-b6eb-a9d3e59cc728": {
           "id": "c595996f-5983-43b0-b6eb-a9d3e59cc728",
-          "x": 41010,
-          "y": -14836,
+          "x": 40984,
+          "y": -14196,
           "label": "nodejs"
         },
         "a99c189e-a108-47ac-8a01-aa4678b82167": {
           "label": "python",
           "link": "",
-          "x": 41010,
-          "y": -14812,
+          "x": 40984,
+          "y": -14172,
           "id": "a99c189e-a108-47ac-8a01-aa4678b82167",
           "color": {
             "highlight": {
@@ -18842,8 +18842,8 @@ var schemeData =
         "a75d2fd2-b354-40f0-ab91-4b42b4cecdfe": {
           "label": "TexLive",
           "link": "",
-          "x": 41013,
-          "y": -14788,
+          "x": 40987,
+          "y": -14148,
           "id": "a75d2fd2-b354-40f0-ab91-4b42b4cecdfe",
           "color": {
             "highlight": {
@@ -18883,8 +18883,8 @@ var schemeData =
         "08da45eb-6e33-45ff-9f57-fec8f14cad36": {
           "label": "tex-preview",
           "link": "",
-          "x": 41025,
-          "y": -14764,
+          "x": 40999,
+          "y": -14124,
           "id": "08da45eb-6e33-45ff-9f57-fec8f14cad36",
           "color": {
             "highlight": {
@@ -18924,8 +18924,8 @@ var schemeData =
         "5de10bf4-f4c6-40fe-b74f-b3718dde2a7d": {
           "label": "sympy",
           "link": "",
-          "x": 41009,
-          "y": -14740,
+          "x": 40983,
+          "y": -14100,
           "id": "5de10bf4-f4c6-40fe-b74f-b3718dde2a7d",
           "color": {
             "highlight": {
@@ -18965,8 +18965,8 @@ var schemeData =
         "31cf68ac-5ea0-49d5-b073-a5b00803385c": {
           "label": "texlive-collection-latexextra",
           "link": "",
-          "x": 41074,
-          "y": -14716,
+          "x": 41048,
+          "y": -14076,
           "id": "31cf68ac-5ea0-49d5-b073-a5b00803385c",
           "color": {
             "highlight": {
@@ -19005,14 +19005,14 @@ var schemeData =
         },
         "139b5f79-7cd8-4fdc-98f9-6e7147568804": {
           "id": "139b5f79-7cd8-4fdc-98f9-6e7147568804",
-          "x": 41064,
-          "y": -15028,
+          "x": 41038,
+          "y": -14388,
           "label": "Update links to images in image nodes"
         },
         "1ce3000f-7be3-4a5d-83dc-b2a241c43b13": {
           "id": "1ce3000f-7be3-4a5d-83dc-b2a241c43b13",
-          "x": 41822,
-          "y": -15077,
+          "x": 41796,
+          "y": -14437,
           "label": "network.body.data.nodes.get().forEach(function(node) {\n   if (typeof node[\"image\"] !== 'undefined') {\n      //Line to prepare for push to github.\n      //node.image = node.image.replace(\"https://localhost:3001\",\"\");\n      //Line to prepare for local work.\n      //node.image = node.image.replace(\"/public/imgs\",\"https://localhost:3001/public/imgs\");\n      network.body.data.nodes.update(node);\n   }\n});",
           "shape": "box",
           "link": "",
@@ -19028,8 +19028,8 @@ var schemeData =
         },
         "2865b4bd-3740-4fd2-a836-9593525b027d": {
           "id": "2865b4bd-3740-4fd2-a836-9593525b027d",
-          "x": 41334,
-          "y": -15071,
+          "x": 41308,
+          "y": -14431,
           "label": "run in console for page with images",
           "shape": "box",
           "link": "",
@@ -19045,20 +19045,20 @@ var schemeData =
         },
         "5472e948-ad81-437a-8bd8-f9765e8777f8": {
           "id": "5472e948-ad81-437a-8bd8-f9765e8777f8",
-          "x": 42320,
-          "y": -15086,
+          "x": 42294,
+          "y": -14446,
           "label": "Нужно доработать - съезжают координаты нод"
         },
         "1f688fbc-7696-45df-9d5c-28381d308013": {
           "id": "1f688fbc-7696-45df-9d5c-28381d308013",
-          "x": 41374,
-          "y": -14948,
+          "x": 41348,
+          "y": -14308,
           "label": "Replace paths in ...data.js file with vim. (Fast fix)"
         },
         "8a9c12c1-de84-4f11-a696-d1cc94917a8e": {
           "id": "8a9c12c1-de84-4f11-a696-d1cc94917a8e",
-          "x": 41763,
-          "y": -14946,
+          "x": 41737,
+          "y": -14306,
           "label": "%s/https:\\/\\/localhost:3001\\/public\\/imgs/\\/public\\/imgs/g"
         },
         "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650283": {
@@ -19366,7 +19366,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0145, x: 100403, y: 10000};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_docs.data.js?40\"></script>\n<script type=\"text/javascript\" src=\"application.js?40\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0145, x: 100403, y: 10000};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_docs.data.js?401\"></script>\n<script type=\"text/javascript\" src=\"application.js?401\"></script>\n\n</body>\n</html>",
           "x": 84556,
           "y": 16489,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483323689533730302452650283",
@@ -20076,21 +20076,21 @@ var schemeData =
         },
         "183893bf-717f-4c49-b0d4-1b92475efdab": {
           "id": "183893bf-717f-4c49-b0d4-1b92475efdab",
-          "x": 42314,
-          "y": -15046,
+          "x": 42288,
+          "y": -14406,
           "label": "Вместо этого пока исправляем ссылки в vim."
         },
         "3229baad-6f53-4142-bc59-2c8e92f423c2": {
           "id": "3229baad-6f53-4142-bc59-2c8e92f423c2",
-          "x": 41156,
-          "y": -14492,
+          "x": 41130,
+          "y": -13852,
           "label": "Select any mm-vis-js code node"
         },
         "d5e86797-7ced-425a-acf0-098fe10b13a2": {
           "label": "Press alt+b",
           "link": "",
-          "x": 41090,
-          "y": -14458,
+          "x": 41064,
+          "y": -13818,
           "id": "d5e86797-7ced-425a-acf0-098fe10b13a2",
           "color": {
             "highlight": {
@@ -20129,8 +20129,8 @@ var schemeData =
         },
         "cd466597-4aec-4fcd-9c59-d358faf174a7": {
           "id": "cd466597-4aec-4fcd-9c59-d358faf174a7",
-          "x": 41260,
-          "y": -14419,
+          "x": 41234,
+          "y": -13779,
           "label": "Wait for save alert on top right of page. Or even check messages\nin browser console that everything is ok.",
           "shape": "box",
           "link": "",
@@ -20146,8 +20146,8 @@ var schemeData =
         },
         "f02bdbcd-0b1b-4dc7-92fc-1ac7f7865995": {
           "id": "f02bdbcd-0b1b-4dc7-92fc-1ac7f7865995",
-          "x": 41881,
-          "y": -14574,
+          "x": 41855,
+          "y": -13934,
           "label": "Change it in mvj-serv.js and in build script above, if you need."
         }
       },
@@ -36315,7 +36315,7 @@ var schemeData =
   "setup": {
     "scale": 0.01,
     "viewPosition": {
-      "x": 65673.00000000004,
+      "x": 65672.99999999996,
       "y": 17507.999999999993
     }
   }
