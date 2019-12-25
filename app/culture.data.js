@@ -15024,7 +15024,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -15052,8 +15053,21 @@ var schemeData =
           "x": 65277,
           "y": -9282,
           "shape": "box",
-          "link": "javascript.html",
+          "link": "python.html",
           "borderWidth": ""
+        },
+        "9131dc3c-49c8-41a4-b8b2-4bcc8a554de3": {
+          "id": "9131dc3c-49c8-41a4-b8b2-4bcc8a554de3",
+          "x": 100676,
+          "y": -6877,
+          "label": "Юмор"
+        },
+        "5594769b-8b35-4c4a-b38f-a5770401f442": {
+          "id": "5594769b-8b35-4c4a-b38f-a5770401f442",
+          "x": 100957,
+          "y": -6872,
+          "label": "https://twitter.com/GenePark/status/1209268781471719424",
+          "link": "https://twitter.com/GenePark/status/1209268781471719424"
         }
       },
       "length": 0,
@@ -30369,6 +30383,16 @@ var schemeData =
           "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1",
           "to": "f98845b0-a393-4a51-ba8d-299765f501f215872887514520126055",
           "id": "38dfec96-9a63-4665-a2f6-8370f7624d3d"
+        },
+        "51a774a5-7588-4133-9f7f-55a923b5e3f0": {
+          "from": "9131dc3c-49c8-41a4-b8b2-4bcc8a554de3",
+          "to": "5594769b-8b35-4c4a-b38f-a5770401f442",
+          "id": "51a774a5-7588-4133-9f7f-55a923b5e3f0"
+        },
+        "19d67ee3-d152-4883-9832-c2fd67825b45": {
+          "from": "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936",
+          "to": "9131dc3c-49c8-41a4-b8b2-4bcc8a554de3",
+          "id": "19d67ee3-d152-4883-9832-c2fd67825b45"
         }
       },
       "length": 0,
@@ -30405,10 +30429,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.017758590379400988,
+    "scale": 0.0177,
     "viewPosition": {
-      "x": 95371.59998165458,
-      "y": 7214.657796514134
+      "x": 95402.99999892664,
+      "y": 7199.9999963841965
     }
   }
 }

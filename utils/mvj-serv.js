@@ -164,6 +164,71 @@ The following is a PNG image.\\newline
    answerLine = JSON.stringify(calcResult1);
    response.send(answerLine);
 });
+app.get("/getPageDataJsFile", function(request, response){
+   response.set('Access-Control-Allow-Origin', '*');
+   var dataFileName = request.query.dataFileName;
+
+   console.log(dataFileName);
+   var fs = require('fs');
+
+   var filePathPart = "../app/";
+
+   var contents = fs.readFileSync(filePathPart + dataFileName, 'utf8');
+   //console.log(contents);
+   //var dataFileData = {"data": contents};
+   var answerLine = JSON.stringify(contents);
+   //console.log(answerLine);
+   response.send(answerLine);
+});
+function htt(newsUrl) {
+   var url = require("url");
+   var path = url.parse(newsUrl).path;
+   var host = url.parse(newsUrl).host;
+   const https = require('https')
+   //https://www.linux.org.ru/section-rss.jsp
+   const options = {
+     hostname: host,
+     port: 443,
+     path: path,
+     method: 'GET'
+   }
+
+   const req = https.request(options, res => {
+     console.log(`statusCode: ${res.statusCode}`)
+   
+     res.on('data', d => {
+process.stdout.write(d);
+       //return d;
+       //process.stdout.write(d)
+       //resultData = d;
+       //r(d);
+
+     })
+   })
+
+   req.on('error', error => {
+     console.error(error);
+     //return error;
+       //var answerLine = JSON.stringify(error);
+       //response.send(answerLine);
+       //r(d);
+
+   })
+
+   req.end()
+}
+
+app.get("/getNews", function(request, response){
+   response.set('Access-Control-Allow-Origin', '*');
+   var newsUrl = request.query.newsUrl;
+
+   var answerLine = htt(newsUrl);
+
+   var answerLine = JSON.stringify(answerLine);
+   //console.log(answerLine);
+   response.send(answerLine);
+
+});
 app.listen(port, host);
 
 var options = {

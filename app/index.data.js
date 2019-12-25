@@ -3879,7 +3879,7 @@ var schemeData =
           "x": -13589,
           "y": -8376,
           "shape": "box",
-          "link": "javascript.html",
+          "link": "python.html",
           "borderWidth": ""
         }
       },
@@ -8282,8 +8282,8 @@ var schemeData =
   "setup": {
     "scale": 0.0167,
     "viewPosition": {
-      "x": 15756.293412215571,
-      "y": 7383.233537784432
+      "x": 15702.999999041871,
+      "y": 7380.000004850335
     }
   }
 }

@@ -11152,8 +11152,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "try {\n  nonExistentFunction();\n}\ncatch(error) {\n  console.error(error);\n  // expected output: ReferenceError: nonExistentFunction is not defined\n  // Note - error messages will vary depending on browser\n}",
           "id": "15b6c848-803c-48bc-bedf-d64cc85412a236819",
-          "x": 118902,
-          "y": 17259,
+          "x": 118891,
+          "y": 19390,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13347,8 +13347,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "encodeURIComponent(line)",
           "id": "458b61a0-e10d-4295-8c2c-23f8fe12333136819",
-          "x": 118884,
-          "y": 19050
+          "x": 118873,
+          "y": 21181
         },
         "4680c04b-eedc-4bc6-bcd8-8d01ded6800036819": {
           "color": {
@@ -21056,8 +21056,8 @@ var schemeData =
         },
         "123090d9-7bd5-4d7c-8a58-9d5e070d5d53": {
           "label": "Loops",
-          "x": 117713,
-          "y": -8397,
+          "x": 117719,
+          "y": -8163,
           "font": {
             "size": 72,
             "align": "left"
@@ -21073,146 +21073,146 @@ var schemeData =
         },
         "93684e61-f1d8-4d02-bde8-29483b7f9cfd": {
           "label": "Development",
-          "x": 118013,
-          "y": -7947,
+          "x": 118019,
+          "y": -7713,
           "id": "93684e61-f1d8-4d02-bde8-29483b7f9cfd"
         },
         "f072ff82-6268-4f0b-8037-0d7aee522f22": {
           "label": "12/1/2019",
-          "x": 118142,
-          "y": -7947,
+          "x": 118148,
+          "y": -7713,
           "id": "f072ff82-6268-4f0b-8037-0d7aee522f22"
         },
         "21ac7ee3-f546-4889-84ee-920224c38aba": {
           "label": "init",
-          "x": 118263,
-          "y": -7947,
+          "x": 118269,
+          "y": -7713,
           "id": "21ac7ee3-f546-4889-84ee-920224c38aba"
         },
         "f1393452-7cb2-4f01-8e6b-4e513bf3f688": {
           "label": "Notes",
-          "x": 117990,
-          "y": -8797,
+          "x": 117996,
+          "y": -8563,
           "id": "f1393452-7cb2-4f01-8e6b-4e513bf3f688"
         },
         "eab5e53b-7e7f-4968-9317-689c4a89227e": {
           "label": "Dictionary of\nconcepts",
-          "x": 118150,
-          "y": -9415,
+          "x": 118151,
+          "y": -9267,
           "id": "eab5e53b-7e7f-4968-9317-689c4a89227e"
         },
         "d10a2a56-462a-41ce-b931-22f9d299f9e2": {
           "label": "Details, thoughts",
-          "x": 118163,
-          "y": -8797,
+          "x": 118169,
+          "y": -8563,
           "id": "d10a2a56-462a-41ce-b931-22f9d299f9e2"
         },
         "2e27c150-e229-4115-8789-53f533723336": {
           "label": "Sections",
-          "x": 118137,
-          "y": -8547,
+          "x": 118143,
+          "y": -8313,
           "id": "2e27c150-e229-4115-8789-53f533723336"
         },
         "82383733-2629-4a6f-a46b-6ecf3c643dc0": {
           "label": "Books",
-          "x": 118227,
-          "y": -8697,
+          "x": 118233,
+          "y": -8463,
           "id": "82383733-2629-4a6f-a46b-6ecf3c643dc0"
         },
         "ca00652b-994b-4d6f-8ec5-4218c94b6191": {
           "label": "R&D institutions",
-          "x": 118258,
-          "y": -8672,
+          "x": 118264,
+          "y": -8438,
           "id": "ca00652b-994b-4d6f-8ec5-4218c94b6191"
         },
         "7f460c61-dd3f-4b03-ace2-9962fb5a1516": {
           "label": "Sites",
-          "x": 118223,
-          "y": -8647,
+          "x": 118229,
+          "y": -8413,
           "id": "7f460c61-dd3f-4b03-ace2-9962fb5a1516"
         },
         "4f81943a-1d34-41cc-861c-04560fc12768": {
           "label": "Magazines",
-          "x": 118242,
-          "y": -8622,
+          "x": 118248,
+          "y": -8388,
           "id": "4f81943a-1d34-41cc-861c-04560fc12768"
         },
         "e2d43acf-3c56-474f-b6bf-5f154338f923": {
           "label": "Articles",
-          "x": 118231,
-          "y": -8597,
+          "x": 118237,
+          "y": -8363,
           "id": "e2d43acf-3c56-474f-b6bf-5f154338f923"
         },
         "62d50cd3-790b-441a-99f6-7da9cc9f7c1b": {
           "label": "Media content",
-          "x": 118253,
-          "y": -8572,
+          "x": 118259,
+          "y": -8338,
           "id": "62d50cd3-790b-441a-99f6-7da9cc9f7c1b"
         },
         "16640e7f-d0a4-42b6-a624-a2e76dc44afc": {
           "label": "Misc. web links",
-          "x": 118255,
-          "y": -8547,
+          "x": 118261,
+          "y": -8313,
           "id": "16640e7f-d0a4-42b6-a624-a2e76dc44afc"
         },
         "933d1612-1b42-4d57-ae51-2a42cd54db50": {
           "label": "Projects",
-          "x": 118233,
-          "y": -8522,
+          "x": 118239,
+          "y": -8288,
           "id": "933d1612-1b42-4d57-ae51-2a42cd54db50"
         },
         "448420a8-e3ef-435f-8d5a-7c4084454203": {
           "label": "Tools",
-          "x": 118225,
-          "y": -8497,
+          "x": 118231,
+          "y": -8263,
           "id": "448420a8-e3ef-435f-8d5a-7c4084454203"
         },
         "aedb8b8a-eee5-4b9e-aeaa-220620ea783a": {
           "label": "Organizations",
-          "x": 118252,
-          "y": -8472,
+          "x": 118258,
+          "y": -8238,
           "id": "aedb8b8a-eee5-4b9e-aeaa-220620ea783a"
         },
         "733be053-0cae-4018-8443-1e6d29c2c805": {
           "label": "Standarts",
-          "x": 118238,
-          "y": -8447,
+          "x": 118244,
+          "y": -8213,
           "id": "733be053-0cae-4018-8443-1e6d29c2c805"
         },
         "1669bd9f-545f-4a9b-a839-812e1462fa02": {
           "label": "Forums, Groups",
-          "x": 118260,
-          "y": -8422,
+          "x": 118266,
+          "y": -8188,
           "id": "1669bd9f-545f-4a9b-a839-812e1462fa02"
         },
         "9efc8016-c48a-42aa-8551-a56b6691fcde": {
           "label": "Laws",
-          "x": 118224,
-          "y": -8397,
+          "x": 118230,
+          "y": -8163,
           "id": "9efc8016-c48a-42aa-8551-a56b6691fcde"
         },
         "98162533-0499-440f-8116-a173fcadc54d": {
           "label": "Adjacent Themes",
-          "x": 118263,
-          "y": -8372,
+          "x": 118269,
+          "y": -8138,
           "id": "98162533-0499-440f-8116-a173fcadc54d"
         },
         "bc3602a8-1acd-4b7d-a363-2f8754e53998": {
           "label": "Questions",
-          "x": 118003,
-          "y": -8247,
+          "x": 118009,
+          "y": -8013,
           "id": "bc3602a8-1acd-4b7d-a363-2f8754e53998"
         },
         "befc7561-cda1-4466-a391-376ae0ad4708": {
           "label": "Problems",
-          "x": 118001,
-          "y": -8147,
+          "x": 118007,
+          "y": -7913,
           "id": "befc7561-cda1-4466-a391-376ae0ad4708"
         },
         "d31a3751-c782-4756-8f22-fe52cae61b38": {
           "label": "Goals",
-          "x": 117990,
-          "y": -8047,
+          "x": 117996,
+          "y": -7813,
           "id": "d31a3751-c782-4756-8f22-fe52cae61b38"
         },
         "1673c053-9bb7-4b83-9b36-494962c17bfc": {
@@ -23769,8 +23769,8 @@ var schemeData =
         },
         "59706199-6bb9-41a9-9dd5-c9688af2add3": {
           "label": "Array",
-          "x": 117930,
-          "y": -2097,
+          "x": 117960,
+          "y": -470,
           "font": {
             "size": 72,
             "align": "left"
@@ -23786,146 +23786,146 @@ var schemeData =
         },
         "eccaf12d-539b-443e-be81-2e05f206fec4": {
           "label": "Development",
-          "x": 118230,
-          "y": -1647,
+          "x": 118260,
+          "y": -20,
           "id": "eccaf12d-539b-443e-be81-2e05f206fec4"
         },
         "d69fd726-7c94-429c-ab06-dad0a7521d07": {
           "label": "12/1/2019",
-          "x": 118359,
-          "y": -1647,
+          "x": 118389,
+          "y": -20,
           "id": "d69fd726-7c94-429c-ab06-dad0a7521d07"
         },
         "14b7d021-411d-4631-8ba9-d2ef45d59467": {
           "label": "init",
-          "x": 118480,
-          "y": -1647,
+          "x": 118510,
+          "y": -20,
           "id": "14b7d021-411d-4631-8ba9-d2ef45d59467"
         },
         "ac3d3ef4-9c67-4e0c-8c8d-0a5b710d1004": {
           "label": "Notes",
-          "x": 118206,
-          "y": -2497,
+          "x": 118236,
+          "y": -870,
           "id": "ac3d3ef4-9c67-4e0c-8c8d-0a5b710d1004"
         },
         "d148c804-583c-4167-a859-c3b6cc31af8d": {
           "label": "Dictionary of\nconcepts",
-          "x": 118378,
-          "y": -3140,
+          "x": 118375,
+          "y": -2837,
           "id": "d148c804-583c-4167-a859-c3b6cc31af8d"
         },
         "bd004db5-76c9-496c-9ab4-705117946ff3": {
           "label": "Details, thoughts",
-          "x": 118380,
-          "y": -2497,
+          "x": 118410,
+          "y": -870,
           "id": "bd004db5-76c9-496c-9ab4-705117946ff3"
         },
         "e48ba66f-51bc-420c-adb1-4e1f121e1343": {
           "label": "Sections",
-          "x": 118354,
-          "y": -2247,
+          "x": 118384,
+          "y": -620,
           "id": "e48ba66f-51bc-420c-adb1-4e1f121e1343"
         },
         "1a189bd8-cab7-41ce-8f0f-ee545b744251": {
           "label": "Books",
-          "x": 118444,
-          "y": -2397,
+          "x": 118474,
+          "y": -770,
           "id": "1a189bd8-cab7-41ce-8f0f-ee545b744251"
         },
         "0fd34a12-2a12-45ce-8877-cca94eca5c51": {
           "label": "R&D institutions",
-          "x": 118474,
-          "y": -2372,
+          "x": 118504,
+          "y": -745,
           "id": "0fd34a12-2a12-45ce-8877-cca94eca5c51"
         },
         "0ca1c253-95ce-4d6f-add3-c2a4964ab44b": {
           "label": "Sites",
-          "x": 118440,
-          "y": -2347,
+          "x": 118470,
+          "y": -720,
           "id": "0ca1c253-95ce-4d6f-add3-c2a4964ab44b"
         },
         "1f5091a9-b25d-4410-bc0b-6a26c5b2d848": {
           "label": "Magazines",
-          "x": 118459,
-          "y": -2322,
+          "x": 118489,
+          "y": -695,
           "id": "1f5091a9-b25d-4410-bc0b-6a26c5b2d848"
         },
         "9c5210d0-2863-486d-b5f1-62f1288b1ec6": {
           "label": "Articles",
-          "x": 118447,
-          "y": -2297,
+          "x": 118477,
+          "y": -670,
           "id": "9c5210d0-2863-486d-b5f1-62f1288b1ec6"
         },
         "67f39b9d-ab3e-4037-b589-bff2064cb40d": {
           "label": "Media content",
-          "x": 118469,
-          "y": -2272,
+          "x": 118499,
+          "y": -645,
           "id": "67f39b9d-ab3e-4037-b589-bff2064cb40d"
         },
         "4bddac8e-1cdb-43d3-8ecd-ff5e80b55e4a": {
           "label": "Misc. web links",
-          "x": 118472,
-          "y": -2247,
+          "x": 118502,
+          "y": -620,
           "id": "4bddac8e-1cdb-43d3-8ecd-ff5e80b55e4a"
         },
         "e90fc540-5e59-4fca-9149-f561d4699ddc": {
           "label": "Projects",
-          "x": 118450,
-          "y": -2222,
+          "x": 118480,
+          "y": -595,
           "id": "e90fc540-5e59-4fca-9149-f561d4699ddc"
         },
         "af8688f5-9c14-4f07-baa9-a1d3cbe180f3": {
           "label": "Tools",
-          "x": 118441,
-          "y": -2197,
+          "x": 118471,
+          "y": -570,
           "id": "af8688f5-9c14-4f07-baa9-a1d3cbe180f3"
         },
         "49be6cfc-9438-4356-b79d-1f65262bc663": {
           "label": "Organizations",
-          "x": 118468,
-          "y": -2172,
+          "x": 118498,
+          "y": -545,
           "id": "49be6cfc-9438-4356-b79d-1f65262bc663"
         },
         "237a1a04-fdcb-4205-8fb0-9e6d6cb507ce": {
           "label": "Standarts",
-          "x": 118455,
-          "y": -2147,
+          "x": 118485,
+          "y": -520,
           "id": "237a1a04-fdcb-4205-8fb0-9e6d6cb507ce"
         },
         "9c143fdf-e4ee-4378-8eb3-0ef3137f5df1": {
           "label": "Forums, Groups",
-          "x": 118476,
-          "y": -2122,
+          "x": 118506,
+          "y": -495,
           "id": "9c143fdf-e4ee-4378-8eb3-0ef3137f5df1"
         },
         "69b7a0fe-d7d6-4510-8bca-dce0e3de913e": {
           "label": "Laws",
-          "x": 118441,
-          "y": -2097,
+          "x": 118471,
+          "y": -470,
           "id": "69b7a0fe-d7d6-4510-8bca-dce0e3de913e"
         },
         "88df4c54-b146-4ca9-84f4-bdc9caf591eb": {
           "label": "Adjacent Themes",
-          "x": 118480,
-          "y": -2072,
+          "x": 118510,
+          "y": -445,
           "id": "88df4c54-b146-4ca9-84f4-bdc9caf591eb"
         },
         "cc4b769e-1be5-4c70-80a0-80afedcce4f2": {
           "label": "Questions",
-          "x": 118220,
-          "y": -1947,
+          "x": 118250,
+          "y": -320,
           "id": "cc4b769e-1be5-4c70-80a0-80afedcce4f2"
         },
         "59f62f99-93ba-405d-ad26-cfb80cd04884": {
           "label": "Problems",
-          "x": 118218,
-          "y": -1847,
+          "x": 118248,
+          "y": -220,
           "id": "59f62f99-93ba-405d-ad26-cfb80cd04884"
         },
         "da303c90-ca44-4431-8648-db7ac0863ca2": {
           "label": "Goals",
-          "x": 118206,
-          "y": -1747,
+          "x": 118236,
+          "y": -120,
           "id": "da303c90-ca44-4431-8648-db7ac0863ca2"
         },
         "0f060076-5dd2-42c9-bf1e-e0051ab48166": {
@@ -24687,8 +24687,8 @@ var schemeData =
         },
         "4fb65c09-a891-4992-8ca3-ddda69d66571": {
           "label": "Hash",
-          "x": 117788,
-          "y": -199,
+          "x": 117777,
+          "y": 1932,
           "font": {
             "size": 72,
             "align": "left"
@@ -24704,159 +24704,159 @@ var schemeData =
         },
         "7daaded8-9a8f-48fc-919c-5fd82fe73f9d": {
           "label": "Development",
-          "x": 118088,
-          "y": 251,
+          "x": 118077,
+          "y": 2382,
           "id": "7daaded8-9a8f-48fc-919c-5fd82fe73f9d"
         },
         "0ed04faa-5ca0-4399-9558-b4451d6d109e": {
           "label": "12/1/2019",
-          "x": 118217,
-          "y": 251,
+          "x": 118206,
+          "y": 2382,
           "id": "0ed04faa-5ca0-4399-9558-b4451d6d109e"
         },
         "7439ec4e-0b54-4d9f-83c8-1a42a445cfef": {
           "label": "init",
-          "x": 118338,
-          "y": 251,
+          "x": 118327,
+          "y": 2382,
           "id": "7439ec4e-0b54-4d9f-83c8-1a42a445cfef"
         },
         "91c6be19-8a74-437b-9683-e5c33fd28ec0": {
           "label": "Notes",
-          "x": 118065,
-          "y": -599,
+          "x": 118054,
+          "y": 1532,
           "id": "91c6be19-8a74-437b-9683-e5c33fd28ec0"
         },
         "e07f3dd5-f777-4a55-bad3-349dd9db44ac": {
           "label": "Dictionary of\nconcepts",
-          "x": 118225,
-          "y": -849,
+          "x": 118214,
+          "y": 1282,
           "id": "e07f3dd5-f777-4a55-bad3-349dd9db44ac"
         },
         "ced3e11e-9cb1-4417-a7df-2fe3572ed120": {
           "label": "Details, thoughts",
-          "x": 118238,
-          "y": -599,
+          "x": 118227,
+          "y": 1532,
           "id": "ced3e11e-9cb1-4417-a7df-2fe3572ed120"
         },
         "528a8863-60e6-4ac0-b914-f97337432db3": {
           "label": "Sections",
-          "x": 118212,
-          "y": -349,
+          "x": 118201,
+          "y": 1782,
           "id": "528a8863-60e6-4ac0-b914-f97337432db3"
         },
         "16863810-b301-46b3-8db7-8add86044910": {
           "label": "Books",
-          "x": 118302,
-          "y": -499,
+          "x": 118291,
+          "y": 1632,
           "id": "16863810-b301-46b3-8db7-8add86044910"
         },
         "5aae6fe0-8e0a-46be-97c1-6dce1bb168bc": {
           "label": "R&D institutions",
-          "x": 118333,
-          "y": -474,
+          "x": 118322,
+          "y": 1657,
           "id": "5aae6fe0-8e0a-46be-97c1-6dce1bb168bc"
         },
         "8435bd05-7fbe-4a42-8961-e11c052256ef": {
           "label": "Sites",
-          "x": 118298,
-          "y": -449,
+          "x": 118287,
+          "y": 1682,
           "id": "8435bd05-7fbe-4a42-8961-e11c052256ef"
         },
         "0c5ad55a-708a-4f44-bde8-ee2803e30e18": {
           "label": "Magazines",
-          "x": 118317,
-          "y": -424,
+          "x": 118306,
+          "y": 1707,
           "id": "0c5ad55a-708a-4f44-bde8-ee2803e30e18"
         },
         "99ff6010-59fb-4583-b9af-132a16eec56a": {
           "label": "Articles",
-          "x": 118306,
-          "y": -399,
+          "x": 118295,
+          "y": 1732,
           "id": "99ff6010-59fb-4583-b9af-132a16eec56a"
         },
         "49a0f40e-e5c6-40c4-9bb1-f251422b229e": {
           "label": "Media content",
-          "x": 118328,
-          "y": -374,
+          "x": 118317,
+          "y": 1757,
           "id": "49a0f40e-e5c6-40c4-9bb1-f251422b229e"
         },
         "f2e0a196-b430-47c0-bd58-6c4c45aefc5c": {
           "label": "Misc. web links",
-          "x": 118330,
-          "y": -349,
+          "x": 118319,
+          "y": 1782,
           "id": "f2e0a196-b430-47c0-bd58-6c4c45aefc5c"
         },
         "e23517ab-5c67-4d86-96bc-753618218a1e": {
           "label": "Projects",
-          "x": 118308,
-          "y": -324,
+          "x": 118297,
+          "y": 1807,
           "id": "e23517ab-5c67-4d86-96bc-753618218a1e"
         },
         "993a8923-9dde-463e-aa1d-5e4d66b3aa31": {
           "label": "Tools",
-          "x": 118299,
-          "y": -299,
+          "x": 118288,
+          "y": 1832,
           "id": "993a8923-9dde-463e-aa1d-5e4d66b3aa31"
         },
         "09156b02-415b-4905-8428-4a0387f6e059": {
           "label": "Organizations",
-          "x": 118327,
-          "y": -274,
+          "x": 118316,
+          "y": 1857,
           "id": "09156b02-415b-4905-8428-4a0387f6e059"
         },
         "e3edd165-51b3-43b2-a8bf-f257ee8e9dad": {
           "label": "Standarts",
-          "x": 118313,
-          "y": -249,
+          "x": 118302,
+          "y": 1882,
           "id": "e3edd165-51b3-43b2-a8bf-f257ee8e9dad"
         },
         "9ff1c944-5e46-447e-9926-dcc3c139afb4": {
           "label": "Forums, Groups",
-          "x": 118335,
-          "y": -224,
+          "x": 118324,
+          "y": 1907,
           "id": "9ff1c944-5e46-447e-9926-dcc3c139afb4"
         },
         "0c7566db-572a-453d-8b29-340e774e54f4": {
           "label": "Laws",
-          "x": 118299,
-          "y": -199,
+          "x": 118288,
+          "y": 1932,
           "id": "0c7566db-572a-453d-8b29-340e774e54f4"
         },
         "a0733755-d39b-4e01-bd04-52c94d33a4e1": {
           "label": "Adjacent Themes",
-          "x": 118338,
-          "y": -174,
+          "x": 118327,
+          "y": 1957,
           "id": "a0733755-d39b-4e01-bd04-52c94d33a4e1"
         },
         "2ef8826f-daa0-478e-81aa-3bb825aecc61": {
           "label": "Questions",
-          "x": 118078,
-          "y": -49,
+          "x": 118067,
+          "y": 2082,
           "id": "2ef8826f-daa0-478e-81aa-3bb825aecc61"
         },
         "86c548e3-dea5-4f6b-a8d2-3b8e65940775": {
           "label": "Problems",
-          "x": 118076,
-          "y": 51,
+          "x": 118065,
+          "y": 2182,
           "id": "86c548e3-dea5-4f6b-a8d2-3b8e65940775"
         },
         "d55e072a-ef84-4916-b5a9-33a9a3e11e70": {
           "label": "Goals",
-          "x": 118065,
-          "y": 151,
+          "x": 118054,
+          "y": 2282,
           "id": "d55e072a-ef84-4916-b5a9-33a9a3e11e70"
         },
         "148e5ec6-a59e-480d-8576-8552f6e2678a": {
           "id": "148e5ec6-a59e-480d-8576-8552f6e2678a",
-          "x": 118512,
-          "y": -961,
+          "x": 118501,
+          "y": 1170,
           "label": "var obj = {key: \"z\"};"
         },
         "8de60c32-c805-4f3f-90e6-9fd9e3d36c60": {
           "label": "obj[\"key]",
           "link": "",
-          "x": 118479,
-          "y": -921,
+          "x": 118468,
+          "y": 1210,
           "id": "8de60c32-c805-4f3f-90e6-9fd9e3d36c60",
           "color": {
             "highlight": {
@@ -24896,8 +24896,8 @@ var schemeData =
         "b9b0a651-6800-4695-b5bc-94c3275cb2d8": {
           "label": "Check key in hash",
           "link": "",
-          "x": 118510,
-          "y": -864,
+          "x": 118499,
+          "y": 1267,
           "id": "b9b0a651-6800-4695-b5bc-94c3275cb2d8",
           "color": {
             "highlight": {
@@ -24937,8 +24937,8 @@ var schemeData =
         "e578c755-7350-4fe3-94ae-92b775015c45": {
           "label": "\"key\" in obj",
           "link": "",
-          "x": 118679,
-          "y": -881,
+          "x": 118668,
+          "y": 1250,
           "id": "e578c755-7350-4fe3-94ae-92b775015c45",
           "color": {
             "highlight": {
@@ -24978,8 +24978,8 @@ var schemeData =
         "ea8c36aa-385d-4957-ad30-c2399977e7a2": {
           "label": "!(\"key\" in obj)",
           "link": "",
-          "x": 118686,
-          "y": -822,
+          "x": 118675,
+          "y": 1309,
           "id": "ea8c36aa-385d-4957-ad30-c2399977e7a2",
           "color": {
             "highlight": {
@@ -25019,8 +25019,8 @@ var schemeData =
         "c8de6885-e1aa-4295-b8c4-d61414343d7a": {
           "label": "Use parenthesis",
           "link": "",
-          "x": 118823,
-          "y": -820,
+          "x": 118812,
+          "y": 1311,
           "id": "c8de6885-e1aa-4295-b8c4-d61414343d7a",
           "color": {
             "highlight": {
@@ -25087,16 +25087,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Hash",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993",
-          "x": 120915,
-          "y": -673,
+          "x": 120904,
+          "y": 1458,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "6ff16c26-810c-44ac-abda-7455947a892f": {
           "label": "String",
-          "x": 117838,
-          "y": 3693,
+          "x": 117827,
+          "y": 5824,
           "font": {
             "size": 72,
             "align": "left"
@@ -25112,159 +25112,159 @@ var schemeData =
         },
         "863b4c13-232e-4ce5-a096-029d830a6fec": {
           "label": "Development",
-          "x": 118138,
-          "y": 4143,
+          "x": 118127,
+          "y": 6274,
           "id": "863b4c13-232e-4ce5-a096-029d830a6fec"
         },
         "681b642c-0a7b-494a-acd7-939319acc6cb": {
           "label": "12/1/2019",
-          "x": 118267,
-          "y": 4143,
+          "x": 118256,
+          "y": 6274,
           "id": "681b642c-0a7b-494a-acd7-939319acc6cb"
         },
         "e022cc4a-ee71-4df1-8f6e-5b6fbb75ed3e": {
           "label": "init",
-          "x": 118388,
-          "y": 4143,
+          "x": 118377,
+          "y": 6274,
           "id": "e022cc4a-ee71-4df1-8f6e-5b6fbb75ed3e"
         },
         "7b55cc86-fa04-46e9-b1a5-5917e92345ec": {
           "label": "Notes",
-          "x": 118115,
-          "y": 3293,
+          "x": 118104,
+          "y": 5424,
           "id": "7b55cc86-fa04-46e9-b1a5-5917e92345ec"
         },
         "4ec9019c-702f-4f59-855e-0956ee529673": {
           "label": "Dictionary of\nconcepts",
-          "x": 118363,
-          "y": 2276,
+          "x": 118352,
+          "y": 4407,
           "id": "4ec9019c-702f-4f59-855e-0956ee529673"
         },
         "6ac850a7-345f-4c5a-a47a-de9eaad9c613": {
           "label": "Details, thoughts",
-          "x": 118288,
-          "y": 3293,
+          "x": 118277,
+          "y": 5424,
           "id": "6ac850a7-345f-4c5a-a47a-de9eaad9c613"
         },
         "6f016226-2f0d-4eae-961b-d67e3e343ab4": {
           "label": "Sections",
-          "x": 118262,
-          "y": 3543,
+          "x": 118251,
+          "y": 5674,
           "id": "6f016226-2f0d-4eae-961b-d67e3e343ab4"
         },
         "935a3b10-2520-46e7-a097-a910c800601d": {
           "label": "Books",
-          "x": 118352,
-          "y": 3393,
+          "x": 118341,
+          "y": 5524,
           "id": "935a3b10-2520-46e7-a097-a910c800601d"
         },
         "c87c4bd7-34ec-46ac-833d-ac70a87cff9f": {
           "label": "R&D institutions",
-          "x": 118383,
-          "y": 3418,
+          "x": 118372,
+          "y": 5549,
           "id": "c87c4bd7-34ec-46ac-833d-ac70a87cff9f"
         },
         "d97e19b5-cb0a-45ab-a61a-bc69912d9f9f": {
           "label": "Sites",
-          "x": 118348,
-          "y": 3443,
+          "x": 118337,
+          "y": 5574,
           "id": "d97e19b5-cb0a-45ab-a61a-bc69912d9f9f"
         },
         "3421a47f-febb-4def-92fc-24c80d822628": {
           "label": "Magazines",
-          "x": 118367,
-          "y": 3468,
+          "x": 118356,
+          "y": 5599,
           "id": "3421a47f-febb-4def-92fc-24c80d822628"
         },
         "1bfe940c-5bef-48bf-8539-c7654b89b423": {
           "label": "Articles",
-          "x": 118356,
-          "y": 3493,
+          "x": 118345,
+          "y": 5624,
           "id": "1bfe940c-5bef-48bf-8539-c7654b89b423"
         },
         "66cb2c99-fed3-4b75-ba6f-35f0e10dc96c": {
           "label": "Media content",
-          "x": 118378,
-          "y": 3518,
+          "x": 118367,
+          "y": 5649,
           "id": "66cb2c99-fed3-4b75-ba6f-35f0e10dc96c"
         },
         "7a7a34e6-ee2e-45ba-a0e8-164ef14270ed": {
           "label": "Misc. web links",
-          "x": 118380,
-          "y": 3543,
+          "x": 118369,
+          "y": 5674,
           "id": "7a7a34e6-ee2e-45ba-a0e8-164ef14270ed"
         },
         "0c4269db-63a4-4270-a795-573e254eb105": {
           "label": "Projects",
-          "x": 118358,
-          "y": 3568,
+          "x": 118347,
+          "y": 5699,
           "id": "0c4269db-63a4-4270-a795-573e254eb105"
         },
         "654cd114-c83b-4650-8e28-cbea59bf4696": {
           "label": "Tools",
-          "x": 118349,
-          "y": 3593,
+          "x": 118338,
+          "y": 5724,
           "id": "654cd114-c83b-4650-8e28-cbea59bf4696"
         },
         "ed4aed39-ec2d-44be-8721-791df2fd3804": {
           "label": "Organizations",
-          "x": 118377,
-          "y": 3618,
+          "x": 118366,
+          "y": 5749,
           "id": "ed4aed39-ec2d-44be-8721-791df2fd3804"
         },
         "77b7ce31-9ea3-4a09-9a7a-624653674773": {
           "label": "Standarts",
-          "x": 118363,
-          "y": 3643,
+          "x": 118352,
+          "y": 5774,
           "id": "77b7ce31-9ea3-4a09-9a7a-624653674773"
         },
         "b0035563-5fef-4108-ad6b-ebb64718d7e2": {
           "label": "Forums, Groups",
-          "x": 118385,
-          "y": 3668,
+          "x": 118374,
+          "y": 5799,
           "id": "b0035563-5fef-4108-ad6b-ebb64718d7e2"
         },
         "650614ae-d607-4b54-8f5b-d6e2c988c062": {
           "label": "Laws",
-          "x": 118349,
-          "y": 3693,
+          "x": 118338,
+          "y": 5824,
           "id": "650614ae-d607-4b54-8f5b-d6e2c988c062"
         },
         "6300d1b7-e836-4aac-856b-98122ad10a69": {
           "label": "Adjacent Themes",
-          "x": 118388,
-          "y": 3718,
+          "x": 118377,
+          "y": 5849,
           "id": "6300d1b7-e836-4aac-856b-98122ad10a69"
         },
         "996f0b09-8271-419f-8750-558fc93e16dc": {
           "label": "Questions",
-          "x": 118128,
-          "y": 3843,
+          "x": 118117,
+          "y": 5974,
           "id": "996f0b09-8271-419f-8750-558fc93e16dc"
         },
         "0dfa3432-3272-41e1-a3d9-ee065cb501d3": {
           "label": "Problems",
-          "x": 118126,
-          "y": 3943,
+          "x": 118115,
+          "y": 6074,
           "id": "0dfa3432-3272-41e1-a3d9-ee065cb501d3"
         },
         "d5fa6029-f28f-42ce-b998-f9205ce10b59": {
           "label": "Goals",
-          "x": 118115,
-          "y": 4043,
+          "x": 118104,
+          "y": 6174,
           "id": "d5fa6029-f28f-42ce-b998-f9205ce10b59"
         },
         "09adc324-a654-4c7a-b3f7-46a70977da7f": {
           "id": "09adc324-a654-4c7a-b3f7-46a70977da7f",
-          "x": 118540,
-          "y": 1199,
+          "x": 118529,
+          "y": 3330,
           "label": "Regex"
         },
         "e070f988-dad0-4eb0-9c19-65479cb8e89a": {
           "label": "Groups",
           "link": "",
-          "x": 118764,
-          "y": 1008,
+          "x": 118753,
+          "y": 3139,
           "id": "e070f988-dad0-4eb0-9c19-65479cb8e89a",
           "color": {
             "highlight": {
@@ -25304,8 +25304,8 @@ var schemeData =
         "8214e3dd-1a32-4ba9-a026-9824d2877d51": {
           "label": "()",
           "link": "",
-          "x": 119010,
-          "y": 997,
+          "x": 118999,
+          "y": 3128,
           "id": "8214e3dd-1a32-4ba9-a026-9824d2877d51",
           "color": {
             "highlight": {
@@ -25345,8 +25345,8 @@ var schemeData =
         "2e9a752c-1167-41bf-b292-7bca02b3175c": {
           "label": "$1",
           "link": "",
-          "x": 119013,
-          "y": 1021,
+          "x": 119002,
+          "y": 3152,
           "id": "2e9a752c-1167-41bf-b292-7bca02b3175c",
           "color": {
             "highlight": {
@@ -25386,8 +25386,8 @@ var schemeData =
         "5b1f022e-6d9e-4203-ba1a-75741adad849": {
           "label": "replace(/(.*)/, \"$1\")",
           "link": "",
-          "x": 119202,
-          "y": 1017,
+          "x": 119191,
+          "y": 3148,
           "id": "5b1f022e-6d9e-4203-ba1a-75741adad849",
           "color": {
             "highlight": {
@@ -25427,8 +25427,8 @@ var schemeData =
         "4180e79d-f8e2-497a-92d9-214f8a822b3a": {
           "label": "Regex modifiers",
           "link": "",
-          "x": 118792,
-          "y": 1156,
+          "x": 118781,
+          "y": 3287,
           "id": "4180e79d-f8e2-497a-92d9-214f8a822b3a",
           "color": {
             "highlight": {
@@ -25468,8 +25468,8 @@ var schemeData =
         "3d253215-d8fe-418a-a87f-1e44972a12be": {
           "label": "* - zero or more",
           "link": "",
-          "x": 119055,
-          "y": 1093,
+          "x": 119044,
+          "y": 3224,
           "id": "3d253215-d8fe-418a-a87f-1e44972a12be",
           "color": {
             "highlight": {
@@ -25509,8 +25509,8 @@ var schemeData =
         "e5dcf5c6-fbcd-43ab-80f9-f9345505d68e": {
           "label": "*? - zero or more (non-greedy)",
           "link": "",
-          "x": 119102,
-          "y": 1117,
+          "x": 119091,
+          "y": 3248,
           "id": "e5dcf5c6-fbcd-43ab-80f9-f9345505d68e",
           "color": {
             "highlight": {
@@ -25550,8 +25550,8 @@ var schemeData =
         "23b230d8-61d7-4271-85e7-5fa7926caa53": {
           "label": "+ - one or more",
           "link": "",
-          "x": 119054,
-          "y": 1141,
+          "x": 119043,
+          "y": 3272,
           "id": "23b230d8-61d7-4271-85e7-5fa7926caa53",
           "color": {
             "highlight": {
@@ -25591,8 +25591,8 @@ var schemeData =
         "ab43874e-6672-44a3-8b64-dde9ffc91866": {
           "label": "+? - one or more (non-greedy)",
           "link": "",
-          "x": 119102,
-          "y": 1165,
+          "x": 119091,
+          "y": 3296,
           "id": "ab43874e-6672-44a3-8b64-dde9ffc91866",
           "color": {
             "highlight": {
@@ -25632,8 +25632,8 @@ var schemeData =
         "446a8d6c-16bb-43e5-a212-53290193e35c": {
           "label": "? - zero or one",
           "link": "",
-          "x": 119052,
-          "y": 1189,
+          "x": 119041,
+          "y": 3320,
           "id": "446a8d6c-16bb-43e5-a212-53290193e35c",
           "color": {
             "highlight": {
@@ -25673,8 +25673,8 @@ var schemeData =
         "efd383da-5f92-43ac-a064-491638f43dd8": {
           "label": "?? - zero or one (non-greedy)",
           "link": "",
-          "x": 119099,
-          "y": 1213,
+          "x": 119088,
+          "y": 3344,
           "id": "efd383da-5f92-43ac-a064-491638f43dd8",
           "color": {
             "highlight": {
@@ -25714,8 +25714,8 @@ var schemeData =
         "0c973eb3-7a00-4897-a143-9c1dfbc51f02": {
           "label": "replace",
           "link": "",
-          "x": 118531,
-          "y": 2014,
+          "x": 118520,
+          "y": 4145,
           "id": "0c973eb3-7a00-4897-a143-9c1dfbc51f02",
           "color": {
             "highlight": {
@@ -25755,8 +25755,8 @@ var schemeData =
         "842f9b27-3f03-4a03-944e-cb84d363a624": {
           "label": "str.replace(\"asdf\", \"111\")",
           "link": "",
-          "x": 118820,
-          "y": 1952,
+          "x": 118809,
+          "y": 4083,
           "id": "842f9b27-3f03-4a03-944e-cb84d363a624",
           "color": {
             "highlight": {
@@ -25796,8 +25796,8 @@ var schemeData =
         "bb326627-af23-45a8-9096-3b33b9c53008": {
           "label": "str.replace(/asdf/g, \"asdf\");",
           "link": "",
-          "x": 118826,
-          "y": 2033,
+          "x": 118815,
+          "y": 4164,
           "id": "bb326627-af23-45a8-9096-3b33b9c53008",
           "color": {
             "highlight": {
@@ -25837,8 +25837,8 @@ var schemeData =
         "db31ac8f-a321-42bb-9c22-071518ca893f": {
           "label": "g - global",
           "link": "",
-          "x": 119026,
-          "y": 1996,
+          "x": 119015,
+          "y": 4127,
           "id": "db31ac8f-a321-42bb-9c22-071518ca893f",
           "color": {
             "highlight": {
@@ -25878,8 +25878,8 @@ var schemeData =
         "6201274e-4968-4996-8ec6-e7310ef2cd7d": {
           "label": "i - case-intensitive",
           "link": "",
-          "x": 119054,
-          "y": 2020,
+          "x": 119043,
+          "y": 4151,
           "id": "6201274e-4968-4996-8ec6-e7310ef2cd7d",
           "color": {
             "highlight": {
@@ -25919,8 +25919,8 @@ var schemeData =
         "ae103c1b-fcdd-434d-9acb-3174c3d74e5a": {
           "label": "$ - end of string",
           "link": "",
-          "x": 119047,
-          "y": 2044,
+          "x": 119036,
+          "y": 4175,
           "id": "ae103c1b-fcdd-434d-9acb-3174c3d74e5a",
           "color": {
             "highlight": {
@@ -25960,8 +25960,8 @@ var schemeData =
         "113b6aa2-8b93-4f59-b22b-e4db4d13d89b": {
           "label": "^ - start of string",
           "link": "",
-          "x": 119048,
-          "y": 2068,
+          "x": 119037,
+          "y": 4199,
           "id": "113b6aa2-8b93-4f59-b22b-e4db4d13d89b",
           "color": {
             "highlight": {
@@ -26001,8 +26001,8 @@ var schemeData =
         "625baaf5-b6a9-4d08-9ce9-8d47781028be": {
           "label": "string -> int",
           "link": "",
-          "x": 118543,
-          "y": 2188,
+          "x": 118532,
+          "y": 4319,
           "id": "625baaf5-b6a9-4d08-9ce9-8d47781028be",
           "color": {
             "highlight": {
@@ -26042,8 +26042,8 @@ var schemeData =
         "83a9ac7b-3487-471e-b666-59662f65307c": {
           "label": "parseInt(\"10\") -> 10",
           "link": "",
-          "x": 118805,
-          "y": 2189,
+          "x": 118794,
+          "y": 4320,
           "id": "83a9ac7b-3487-471e-b666-59662f65307c",
           "color": {
             "highlight": {
@@ -26083,8 +26083,8 @@ var schemeData =
         "490c28b2-253a-4e8f-bb40-c486e971f097": {
           "label": "str.length",
           "link": "",
-          "x": 118771,
-          "y": 2249,
+          "x": 118760,
+          "y": 4380,
           "id": "490c28b2-253a-4e8f-bb40-c486e971f097",
           "color": {
             "highlight": {
@@ -26124,8 +26124,8 @@ var schemeData =
         "d72f27ba-a093-4d65-832f-efb1d3fdd287": {
           "label": "str.substing(0, 10)",
           "link": "",
-          "x": 118799,
-          "y": 2295,
+          "x": 118788,
+          "y": 4426,
           "id": "d72f27ba-a093-4d65-832f-efb1d3fdd287",
           "color": {
             "highlight": {
@@ -26165,8 +26165,8 @@ var schemeData =
         "196107fe-c17d-4d88-b084-ecda392982fd": {
           "label": "cut string, return chars from one to ten",
           "link": "",
-          "x": 119119,
-          "y": 2291,
+          "x": 119108,
+          "y": 4422,
           "id": "196107fe-c17d-4d88-b084-ecda392982fd",
           "color": {
             "highlight": {
@@ -26206,8 +26206,8 @@ var schemeData =
         "da35825a-79ac-4ab1-b430-45c7a1245511": {
           "label": "parseInt",
           "link": "",
-          "x": 118533,
-          "y": 2353,
+          "x": 118522,
+          "y": 4484,
           "id": "da35825a-79ac-4ab1-b430-45c7a1245511",
           "color": {
             "highlight": {
@@ -26247,8 +26247,8 @@ var schemeData =
         "cb2b2685-726e-4843-ba36-005675cfc799": {
           "label": "parseInt(text, 10)",
           "link": "",
-          "x": 118797,
-          "y": 2354,
+          "x": 118786,
+          "y": 4485,
           "id": "cb2b2685-726e-4843-ba36-005675cfc799",
           "color": {
             "highlight": {
@@ -26292,8 +26292,8 @@ var schemeData =
         "9818e65a-9cf2-497d-a3a7-887c5d2507ec": {
           "label": "always use 10",
           "link": "",
-          "x": 119042,
-          "y": 2349,
+          "x": 119031,
+          "y": 4480,
           "id": "9818e65a-9cf2-497d-a3a7-887c5d2507ec",
           "color": {
             "highlight": {
@@ -26336,15 +26336,15 @@ var schemeData =
         },
         "d7e1bc8c-ffab-4d63-b5d2-2141815e8d33": {
           "id": "d7e1bc8c-ffab-4d63-b5d2-2141815e8d33",
-          "x": 118540,
-          "y": 2431,
+          "x": 118529,
+          "y": 4562,
           "label": "String(obj)"
         },
         "5d3d852b-c1b8-4310-a26a-741006ed90bf": {
           "label": "Convert different objects to string",
           "link": "",
-          "x": 118847,
-          "y": 2429,
+          "x": 118836,
+          "y": 4560,
           "id": "5d3d852b-c1b8-4310-a26a-741006ed90bf",
           "color": {
             "highlight": {
@@ -26384,8 +26384,8 @@ var schemeData =
         "2f35248e-7bd9-4553-ac4c-e9569254dee5": {
           "label": "split(\" \")",
           "link": "",
-          "x": 118767,
-          "y": 2477,
+          "x": 118756,
+          "y": 4608,
           "id": "2f35248e-7bd9-4553-ac4c-e9569254dee5",
           "color": {
             "highlight": {
@@ -26425,8 +26425,8 @@ var schemeData =
         "d1345250-e8d8-4e76-a3f1-9c9f8b6a6f42": {
           "label": "escape(string)",
           "link": "",
-          "x": 118553,
-          "y": 2520,
+          "x": 118542,
+          "y": 4651,
           "id": "d1345250-e8d8-4e76-a3f1-9c9f8b6a6f42",
           "color": {
             "highlight": {
@@ -26466,8 +26466,8 @@ var schemeData =
         "6df86afd-0769-4a16-b14f-d7c2c0f7c7cd": {
           "label": "unescape(string)",
           "link": "",
-          "x": 118561,
-          "y": 2550,
+          "x": 118550,
+          "y": 4681,
           "id": "6df86afd-0769-4a16-b14f-d7c2c0f7c7cd",
           "color": {
             "highlight": {
@@ -26507,8 +26507,8 @@ var schemeData =
         "f8eaa6b3-247f-46fd-a5f6-77ef106cbb1a": {
           "label": "repeat",
           "link": "",
-          "x": 118528,
-          "y": 2586,
+          "x": 118517,
+          "y": 4717,
           "id": "f8eaa6b3-247f-46fd-a5f6-77ef106cbb1a",
           "color": {
             "highlight": {
@@ -26548,8 +26548,8 @@ var schemeData =
         "e316426b-7def-4409-8d97-b5b30bd70204": {
           "label": "\"some string\".repeat(5)",
           "link": "",
-          "x": 118816,
-          "y": 2582,
+          "x": 118805,
+          "y": 4713,
           "id": "e316426b-7def-4409-8d97-b5b30bd70204",
           "color": {
             "highlight": {
@@ -26589,8 +26589,8 @@ var schemeData =
         "b52f6b43-ca7a-4e45-934c-5cc2a64f20b0": {
           "label": "trim()",
           "link": "",
-          "x": 118524,
-          "y": 2618,
+          "x": 118513,
+          "y": 4749,
           "id": "b52f6b43-ca7a-4e45-934c-5cc2a64f20b0",
           "color": {
             "highlight": {
@@ -26630,8 +26630,8 @@ var schemeData =
         "f1332c79-0393-499b-bb58-c2796012c416": {
           "label": "like strip() in Ruby",
           "link": "",
-          "x": 118799,
-          "y": 2619,
+          "x": 118788,
+          "y": 4750,
           "id": "f1332c79-0393-499b-bb58-c2796012c416",
           "color": {
             "highlight": {
@@ -26671,8 +26671,8 @@ var schemeData =
         "49abd6d6-e4af-4705-95cf-ed7deae63b7f": {
           "label": "Case",
           "link": "",
-          "x": 118524,
-          "y": 2674,
+          "x": 118513,
+          "y": 4805,
           "id": "49abd6d6-e4af-4705-95cf-ed7deae63b7f",
           "color": {
             "highlight": {
@@ -26712,8 +26712,8 @@ var schemeData =
         "ab59d83d-bac3-4011-a494-0390675ba0f3": {
           "label": "remove first char in string",
           "link": "",
-          "x": 118825,
-          "y": 2670,
+          "x": 118814,
+          "y": 4801,
           "id": "ab59d83d-bac3-4011-a494-0390675ba0f3",
           "color": {
             "highlight": {
@@ -26753,8 +26753,8 @@ var schemeData =
         "a2dcf9f7-38b8-4ca8-9af1-15919ab3a0a5": {
           "label": "someString.slice(1)",
           "link": "",
-          "x": 119058,
-          "y": 2670,
+          "x": 119047,
+          "y": 4801,
           "id": "a2dcf9f7-38b8-4ca8-9af1-15919ab3a0a5",
           "color": {
             "highlight": {
@@ -26794,8 +26794,8 @@ var schemeData =
         "a8e2d7b8-8235-43ba-81ca-472680ddcd96": {
           "label": "remove last char in string",
           "link": "",
-          "x": 118822,
-          "y": 2718,
+          "x": 118811,
+          "y": 4849,
           "id": "a8e2d7b8-8235-43ba-81ca-472680ddcd96",
           "color": {
             "highlight": {
@@ -26835,8 +26835,8 @@ var schemeData =
         "d7145a8c-cc5f-4317-8a99-9b1c15da8c9e": {
           "label": "someString.slice(0, -1)",
           "link": "",
-          "x": 119068,
-          "y": 2720,
+          "x": 119057,
+          "y": 4851,
           "id": "d7145a8c-cc5f-4317-8a99-9b1c15da8c9e",
           "color": {
             "highlight": {
@@ -26876,8 +26876,8 @@ var schemeData =
         "9b79bf2c-2668-4a81-b697-44f9d70734cb": {
           "label": "split string in n-size chunks",
           "link": "",
-          "x": 118592,
-          "y": 2796,
+          "x": 118581,
+          "y": 4927,
           "id": "9b79bf2c-2668-4a81-b697-44f9d70734cb",
           "color": {
             "highlight": {
@@ -26917,8 +26917,8 @@ var schemeData =
         "10710e28-ca27-4a53-a2c2-9d7f9f42eb0f": {
           "label": "str.match(/.{1,n}/g);",
           "link": "",
-          "x": 118803,
-          "y": 2782,
+          "x": 118792,
+          "y": 4913,
           "id": "10710e28-ca27-4a53-a2c2-9d7f9f42eb0f",
           "color": {
             "highlight": {
@@ -26956,10 +26956,10 @@ var schemeData =
           "shapeProperties": {}
         },
         "497f392e-f9fa-4030-b436-6174f1e0a21a": {
-          "label": "str.match(/(.|[\\r\\n]{1,n}/g)",
+          "label": "str.match(/.|[\\r\\n]{1,n}/g)",
           "link": "",
-          "x": 118820,
-          "y": 2819,
+          "x": 118809,
+          "y": 4950,
           "id": "497f392e-f9fa-4030-b436-6174f1e0a21a",
           "color": {
             "highlight": {
@@ -26971,7 +26971,7 @@ var schemeData =
               "background": "#D2E5FF"
             },
             "background": "#ffd570",
-            "border": "#2B7CE9"
+            "border": ""
           },
           "fixed": {
             "x": false,
@@ -26981,7 +26981,9 @@ var schemeData =
             "bold": {},
             "boldital": {},
             "ital": {},
-            "mono": {}
+            "mono": {},
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -26994,13 +26996,15 @@ var schemeData =
           "shadow": {
             "enabled": false
           },
-          "shapeProperties": {}
+          "shapeProperties": {},
+          "shape": "box",
+          "borderWidth": ""
         },
         "0b3a945e-e926-4963-b5be-4812e10e275b": {
           "label": "if there are new lines in text",
           "link": "",
-          "x": 119084,
-          "y": 2817,
+          "x": 119073,
+          "y": 4948,
           "id": "0b3a945e-e926-4963-b5be-4812e10e275b",
           "color": {
             "highlight": {
@@ -27040,8 +27044,8 @@ var schemeData =
         "b4e055c3-4430-482b-80ff-d80cb7de804c": {
           "label": "String starts with",
           "link": "",
-          "x": 118560,
-          "y": 2897,
+          "x": 118549,
+          "y": 5028,
           "id": "b4e055c3-4430-482b-80ff-d80cb7de804c",
           "color": {
             "highlight": {
@@ -27121,26 +27125,26 @@ var schemeData =
         },
         "b6b6a10a-79fd-401b-9bf8-43009daf6344": {
           "id": "b6b6a10a-79fd-401b-9bf8-43009daf6344",
-          "x": 118862,
-          "y": 2899,
+          "x": 118851,
+          "y": 5030,
           "label": "haystack.lastIndexOf(needle, 0) === 0"
         },
         "b46b9214-14a0-4e9f-89d7-5680bf236393": {
           "id": "b46b9214-14a0-4e9f-89d7-5680bf236393",
-          "x": 118527,
-          "y": 2250,
+          "x": 118516,
+          "y": 4381,
           "label": "length"
         },
         "731e03ee-b983-4866-bb93-c63ca665ae99": {
           "id": "731e03ee-b983-4866-bb93-c63ca665ae99",
-          "x": 118536,
-          "y": 2292,
+          "x": 118525,
+          "y": 4423,
           "label": "substring"
         },
         "1359b150-8656-46d5-96cd-a2da6d715442": {
           "id": "1359b150-8656-46d5-96cd-a2da6d715442",
-          "x": 118520,
-          "y": 2475,
+          "x": 118509,
+          "y": 4606,
           "label": "split"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868": {
@@ -27173,16 +27177,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "String",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868",
-          "x": 121045,
-          "y": 1497,
+          "x": 121034,
+          "y": 3628,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "26c1b26d-2011-4dce-aac2-a8ae3c408de7": {
           "label": "Number",
-          "x": 117919,
-          "y": 5825,
+          "x": 117908,
+          "y": 7956,
           "font": {
             "size": 72,
             "align": "left"
@@ -27198,159 +27202,159 @@ var schemeData =
         },
         "c380c957-b58c-41a6-bf3c-531d8bd8a48a": {
           "label": "Development",
-          "x": 118219,
-          "y": 6275,
+          "x": 118208,
+          "y": 8406,
           "id": "c380c957-b58c-41a6-bf3c-531d8bd8a48a"
         },
         "33b485be-4258-4022-8daf-94cf99cc30e1": {
           "label": "12/1/2019",
-          "x": 118348,
-          "y": 6275,
+          "x": 118337,
+          "y": 8406,
           "id": "33b485be-4258-4022-8daf-94cf99cc30e1"
         },
         "6e2b147b-a138-49ca-b433-28de97f46398": {
           "label": "init",
-          "x": 118469,
-          "y": 6275,
+          "x": 118458,
+          "y": 8406,
           "id": "6e2b147b-a138-49ca-b433-28de97f46398"
         },
         "3bc04d56-7ae0-48e5-94ac-fc9133ebb92d": {
           "label": "Notes",
-          "x": 118195,
-          "y": 5425,
+          "x": 118184,
+          "y": 7556,
           "id": "3bc04d56-7ae0-48e5-94ac-fc9133ebb92d"
         },
         "cabfd758-dcd5-4931-994a-e4e8c33ecd84": {
           "label": "Dictionary of\nconcepts",
-          "x": 118352,
-          "y": 4870,
+          "x": 118341,
+          "y": 7001,
           "id": "cabfd758-dcd5-4931-994a-e4e8c33ecd84"
         },
         "17b1c90a-4131-4f81-b79d-a6a634f1c461": {
           "label": "Details, thoughts",
-          "x": 118369,
-          "y": 5425,
+          "x": 118358,
+          "y": 7556,
           "id": "17b1c90a-4131-4f81-b79d-a6a634f1c461"
         },
         "a02f36ed-620e-4994-9140-53bf1820fec6": {
           "label": "Sections",
-          "x": 118343,
-          "y": 5675,
+          "x": 118332,
+          "y": 7806,
           "id": "a02f36ed-620e-4994-9140-53bf1820fec6"
         },
         "8f209419-29bf-432b-a59a-0bbdca012e40": {
           "label": "Books",
-          "x": 118433,
-          "y": 5525,
+          "x": 118422,
+          "y": 7656,
           "id": "8f209419-29bf-432b-a59a-0bbdca012e40"
         },
         "6ebc4aaa-c836-4fc9-abf0-ba54f55a9fe0": {
           "label": "R&D institutions",
-          "x": 118463,
-          "y": 5550,
+          "x": 118452,
+          "y": 7681,
           "id": "6ebc4aaa-c836-4fc9-abf0-ba54f55a9fe0"
         },
         "45cf7b0e-2b56-4f11-909c-22b01615a73c": {
           "label": "Sites",
-          "x": 118429,
-          "y": 5575,
+          "x": 118418,
+          "y": 7706,
           "id": "45cf7b0e-2b56-4f11-909c-22b01615a73c"
         },
         "b0690c24-b395-493d-a124-84ef12cf3f55": {
           "label": "Magazines",
-          "x": 118448,
-          "y": 5600,
+          "x": 118437,
+          "y": 7731,
           "id": "b0690c24-b395-493d-a124-84ef12cf3f55"
         },
         "9ad93499-da83-4410-9aa6-374de642d423": {
           "label": "Articles",
-          "x": 118436,
-          "y": 5625,
+          "x": 118425,
+          "y": 7756,
           "id": "9ad93499-da83-4410-9aa6-374de642d423"
         },
         "8fc7a2f7-fa33-4765-b6ff-5a70d980d9f5": {
           "label": "Media content",
-          "x": 118458,
-          "y": 5650,
+          "x": 118447,
+          "y": 7781,
           "id": "8fc7a2f7-fa33-4765-b6ff-5a70d980d9f5"
         },
         "c638540b-e39f-4092-aa1d-ba9c6b86eaff": {
           "label": "Misc. web links",
-          "x": 118461,
-          "y": 5675,
+          "x": 118450,
+          "y": 7806,
           "id": "c638540b-e39f-4092-aa1d-ba9c6b86eaff"
         },
         "eabfaedf-5037-4136-bd6c-c7dd3be1b1e1": {
           "label": "Projects",
-          "x": 118439,
-          "y": 5700,
+          "x": 118428,
+          "y": 7831,
           "id": "eabfaedf-5037-4136-bd6c-c7dd3be1b1e1"
         },
         "ce443c48-26d8-4152-b85b-6cb7f4b6feeb": {
           "label": "Tools",
-          "x": 118430,
-          "y": 5725,
+          "x": 118419,
+          "y": 7856,
           "id": "ce443c48-26d8-4152-b85b-6cb7f4b6feeb"
         },
         "ad8a6c63-5ae3-41bf-879c-9e3a3791643a": {
           "label": "Organizations",
-          "x": 118457,
-          "y": 5750,
+          "x": 118446,
+          "y": 7881,
           "id": "ad8a6c63-5ae3-41bf-879c-9e3a3791643a"
         },
         "e27be187-03ee-43df-a498-1946773fc0b1": {
           "label": "Standarts",
-          "x": 118444,
-          "y": 5775,
+          "x": 118433,
+          "y": 7906,
           "id": "e27be187-03ee-43df-a498-1946773fc0b1"
         },
         "2823fc0d-64ee-46c3-99f3-1018af9de1a9": {
           "label": "Forums, Groups",
-          "x": 118465,
-          "y": 5800,
+          "x": 118454,
+          "y": 7931,
           "id": "2823fc0d-64ee-46c3-99f3-1018af9de1a9"
         },
         "29aea2b4-ed6c-4db7-9f62-63e7965914cd": {
           "label": "Laws",
-          "x": 118430,
-          "y": 5825,
+          "x": 118419,
+          "y": 7956,
           "id": "29aea2b4-ed6c-4db7-9f62-63e7965914cd"
         },
         "79515177-efee-4205-9db5-86d47c07a934": {
           "label": "Adjacent Themes",
-          "x": 118469,
-          "y": 5850,
+          "x": 118458,
+          "y": 7981,
           "id": "79515177-efee-4205-9db5-86d47c07a934"
         },
         "e410da86-d733-4a55-9f45-8cc777771f22": {
           "label": "Questions",
-          "x": 118209,
-          "y": 5975,
+          "x": 118198,
+          "y": 8106,
           "id": "e410da86-d733-4a55-9f45-8cc777771f22"
         },
         "0b48d964-e3bc-4fea-8fce-bffaeb7bdca9": {
           "label": "Problems",
-          "x": 118207,
-          "y": 6075,
+          "x": 118196,
+          "y": 8206,
           "id": "0b48d964-e3bc-4fea-8fce-bffaeb7bdca9"
         },
         "6a65b876-8ebd-4838-874a-d7a765a41ba7": {
           "label": "Goals",
-          "x": 118195,
-          "y": 6175,
+          "x": 118184,
+          "y": 8306,
           "id": "6a65b876-8ebd-4838-874a-d7a765a41ba7"
         },
         "74eb12be-9fd8-4f83-a6a6-2671834d62f3": {
           "id": "74eb12be-9fd8-4f83-a6a6-2671834d62f3",
-          "x": 118610,
-          "y": 4740,
+          "x": 118599,
+          "y": 6871,
           "label": "num.toString()"
         },
         "2a2a79c0-5e8c-4aa7-9c5a-23b5890d7eab": {
           "label": "quotient",
           "link": "",
-          "x": 118590,
-          "y": 4787,
+          "x": 118579,
+          "y": 6918,
           "id": "2a2a79c0-5e8c-4aa7-9c5a-23b5890d7eab",
           "color": {
             "highlight": {
@@ -27390,8 +27394,8 @@ var schemeData =
         "cc895b31-89af-406f-a6df-635a7a8d5809": {
           "label": "Math.floor(x/y)",
           "link": "",
-          "x": 118819,
-          "y": 4783,
+          "x": 118808,
+          "y": 6914,
           "id": "cc895b31-89af-406f-a6df-635a7a8d5809",
           "color": {
             "highlight": {
@@ -27431,8 +27435,8 @@ var schemeData =
         "f86772b5-c02e-45fe-b8d4-689fe0b8a53f": {
           "label": "remainder",
           "link": "",
-          "x": 118597,
-          "y": 4835,
+          "x": 118586,
+          "y": 6966,
           "id": "f86772b5-c02e-45fe-b8d4-689fe0b8a53f",
           "color": {
             "highlight": {
@@ -27472,8 +27476,8 @@ var schemeData =
         "2919d08d-75f1-4327-8763-7045f38c41f5": {
           "label": "x % y",
           "link": "",
-          "x": 118787,
-          "y": 4832,
+          "x": 118776,
+          "y": 6963,
           "id": "2919d08d-75f1-4327-8763-7045f38c41f5",
           "color": {
             "highlight": {
@@ -27513,8 +27517,8 @@ var schemeData =
         "26b1712d-dddc-454d-b2c7-35290803157b": {
           "label": "Raise to power",
           "link": "",
-          "x": 118612,
-          "y": 4883,
+          "x": 118601,
+          "y": 7014,
           "id": "26b1712d-dddc-454d-b2c7-35290803157b",
           "color": {
             "highlight": {
@@ -27554,8 +27558,8 @@ var schemeData =
         "ce5c7010-1e7a-4f14-a0d2-1c6202d2a72a": {
           "label": "Math.pow(4, 2) -> 16",
           "link": "",
-          "x": 118837,
-          "y": 4880,
+          "x": 118826,
+          "y": 7011,
           "id": "ce5c7010-1e7a-4f14-a0d2-1c6202d2a72a",
           "color": {
             "highlight": {
@@ -27595,8 +27599,8 @@ var schemeData =
         "6879a311-f685-46f5-91ca-701657f2970a": {
           "label": "Round",
           "link": "",
-          "x": 118585,
-          "y": 4931,
+          "x": 118574,
+          "y": 7062,
           "id": "6879a311-f685-46f5-91ca-701657f2970a",
           "color": {
             "highlight": {
@@ -27636,8 +27640,8 @@ var schemeData =
         "48023cd8-7dab-47a3-9f31-4f92080a893f": {
           "label": "parseFloat(val.toFixed(5))",
           "link": "",
-          "x": 118853,
-          "y": 4926,
+          "x": 118842,
+          "y": 7057,
           "id": "48023cd8-7dab-47a3-9f31-4f92080a893f",
           "color": {
             "highlight": {
@@ -27677,8 +27681,8 @@ var schemeData =
         "10176ad0-7e0d-44c6-8ac7-0acdab36d068": {
           "label": "toFixed - return string",
           "link": "",
-          "x": 119086,
-          "y": 4918,
+          "x": 119075,
+          "y": 7049,
           "id": "10176ad0-7e0d-44c6-8ac7-0acdab36d068",
           "color": {
             "highlight": {
@@ -27745,16 +27749,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Number",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780",
-          "x": 121526,
-          "y": 5135,
+          "x": 121515,
+          "y": 7266,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "e188d61e-6ec9-4791-91b6-336ba4ed07a0": {
           "label": "Logic",
-          "x": 118047,
-          "y": 8008,
+          "x": 118036,
+          "y": 10139,
           "font": {
             "size": 72,
             "align": "left"
@@ -27770,159 +27774,159 @@ var schemeData =
         },
         "46452a7d-5861-467a-aae4-f8662903875f": {
           "label": "Development",
-          "x": 118347,
-          "y": 8458,
+          "x": 118336,
+          "y": 10589,
           "id": "46452a7d-5861-467a-aae4-f8662903875f"
         },
         "16c04bc6-8306-49cc-ad76-8ece377fd098": {
           "label": "12/1/2019",
-          "x": 118476,
-          "y": 8458,
+          "x": 118465,
+          "y": 10589,
           "id": "16c04bc6-8306-49cc-ad76-8ece377fd098"
         },
         "9937dcd4-a7de-4950-9f84-1e743246529b": {
           "label": "init",
-          "x": 118597,
-          "y": 8458,
+          "x": 118586,
+          "y": 10589,
           "id": "9937dcd4-a7de-4950-9f84-1e743246529b"
         },
         "23d247d5-2329-42ee-8bbd-ef47d39b6e80": {
           "label": "Notes",
-          "x": 118323,
-          "y": 7608,
+          "x": 118312,
+          "y": 9739,
           "id": "23d247d5-2329-42ee-8bbd-ef47d39b6e80"
         },
         "86d2c166-2c65-4658-b47d-6f5a3ea2ffd6": {
           "label": "Dictionary of\nconcepts",
-          "x": 118516,
-          "y": 7089,
+          "x": 118505,
+          "y": 9220,
           "id": "86d2c166-2c65-4658-b47d-6f5a3ea2ffd6"
         },
         "58ec0746-5a3c-44a8-b4ee-c7b12db9128f": {
           "label": "Details, thoughts",
-          "x": 118497,
-          "y": 7608,
+          "x": 118486,
+          "y": 9739,
           "id": "58ec0746-5a3c-44a8-b4ee-c7b12db9128f"
         },
         "e85a11ac-ebf8-4dd7-a7b2-ebc290e9612c": {
           "label": "Sections",
-          "x": 118471,
-          "y": 7858,
+          "x": 118460,
+          "y": 9989,
           "id": "e85a11ac-ebf8-4dd7-a7b2-ebc290e9612c"
         },
         "524bda59-92d0-46a6-9413-2e8566061efb": {
           "label": "Books",
-          "x": 118561,
-          "y": 7708,
+          "x": 118550,
+          "y": 9839,
           "id": "524bda59-92d0-46a6-9413-2e8566061efb"
         },
         "61fc6638-ca84-4a62-8154-e7f5ece00d8a": {
           "label": "R&D institutions",
-          "x": 118591,
-          "y": 7733,
+          "x": 118580,
+          "y": 9864,
           "id": "61fc6638-ca84-4a62-8154-e7f5ece00d8a"
         },
         "d8e89c53-88b6-41ac-a3b3-20caa956cfb7": {
           "label": "Sites",
-          "x": 118557,
-          "y": 7758,
+          "x": 118546,
+          "y": 9889,
           "id": "d8e89c53-88b6-41ac-a3b3-20caa956cfb7"
         },
         "a0b74f34-87d3-446e-8024-8800728d7ee1": {
           "label": "Magazines",
-          "x": 118576,
-          "y": 7783,
+          "x": 118565,
+          "y": 9914,
           "id": "a0b74f34-87d3-446e-8024-8800728d7ee1"
         },
         "504e00f7-ee94-41fe-90e2-784cd645ca2f": {
           "label": "Articles",
-          "x": 118564,
-          "y": 7808,
+          "x": 118553,
+          "y": 9939,
           "id": "504e00f7-ee94-41fe-90e2-784cd645ca2f"
         },
         "e2318ba9-256f-4722-9fd2-234ac060447a": {
           "label": "Media content",
-          "x": 118586,
-          "y": 7833,
+          "x": 118575,
+          "y": 9964,
           "id": "e2318ba9-256f-4722-9fd2-234ac060447a"
         },
         "b6a06f70-5804-40aa-9389-4bb1a3553d2b": {
           "label": "Misc. web links",
-          "x": 118589,
-          "y": 7858,
+          "x": 118578,
+          "y": 9989,
           "id": "b6a06f70-5804-40aa-9389-4bb1a3553d2b"
         },
         "d658bda9-d010-4ec0-99e2-69dd870aa4b8": {
           "label": "Projects",
-          "x": 118567,
-          "y": 7883,
+          "x": 118556,
+          "y": 10014,
           "id": "d658bda9-d010-4ec0-99e2-69dd870aa4b8"
         },
         "d5354fbc-ab64-4b59-9183-6620e87c6fb6": {
           "label": "Tools",
-          "x": 118558,
-          "y": 7908,
+          "x": 118547,
+          "y": 10039,
           "id": "d5354fbc-ab64-4b59-9183-6620e87c6fb6"
         },
         "02c679b7-7135-43e8-8c03-2a6243d49307": {
           "label": "Organizations",
-          "x": 118585,
-          "y": 7933,
+          "x": 118574,
+          "y": 10064,
           "id": "02c679b7-7135-43e8-8c03-2a6243d49307"
         },
         "171233c1-3475-420a-94d1-099635310521": {
           "label": "Standarts",
-          "x": 118572,
-          "y": 7958,
+          "x": 118561,
+          "y": 10089,
           "id": "171233c1-3475-420a-94d1-099635310521"
         },
         "cbf0b4ce-b168-4412-a8a9-98893746887e": {
           "label": "Forums, Groups",
-          "x": 118593,
-          "y": 7983,
+          "x": 118582,
+          "y": 10114,
           "id": "cbf0b4ce-b168-4412-a8a9-98893746887e"
         },
         "bd704e69-9815-4f77-8bfd-140b351690aa": {
           "label": "Laws",
-          "x": 118558,
-          "y": 8008,
+          "x": 118547,
+          "y": 10139,
           "id": "bd704e69-9815-4f77-8bfd-140b351690aa"
         },
         "6b3df337-865f-40cf-a2e5-09227b6fd9c3": {
           "label": "Adjacent Themes",
-          "x": 118597,
-          "y": 8033,
+          "x": 118586,
+          "y": 10164,
           "id": "6b3df337-865f-40cf-a2e5-09227b6fd9c3"
         },
         "20212e56-6783-4d62-a5e5-7adc6032ea56": {
           "label": "Questions",
-          "x": 118337,
-          "y": 8158,
+          "x": 118326,
+          "y": 10289,
           "id": "20212e56-6783-4d62-a5e5-7adc6032ea56"
         },
         "88eec6e7-3708-4736-8135-f64963da5d4f": {
           "label": "Problems",
-          "x": 118335,
-          "y": 8258,
+          "x": 118324,
+          "y": 10389,
           "id": "88eec6e7-3708-4736-8135-f64963da5d4f"
         },
         "978c6e19-69c6-4f30-ba8c-1c629159adb7": {
           "label": "Goals",
-          "x": 118323,
-          "y": 8358,
+          "x": 118312,
+          "y": 10489,
           "id": "978c6e19-69c6-4f30-ba8c-1c629159adb7"
         },
         "0d7ed5ba-72a4-40c6-a7c7-db1aee315574": {
           "id": "0d7ed5ba-72a4-40c6-a7c7-db1aee315574",
-          "x": 118765,
-          "y": 6883,
+          "x": 118754,
+          "y": 9014,
           "label": "$.type(some_val) !== null"
         },
         "8648956b-80c5-46df-a336-a1b75533743f": {
           "label": "check with jQuery",
           "link": "",
-          "x": 118983,
-          "y": 6882,
+          "x": 118972,
+          "y": 9013,
           "id": "8648956b-80c5-46df-a336-a1b75533743f",
           "color": {
             "highlight": {
@@ -27962,8 +27966,8 @@ var schemeData =
         "7fcccead-4a19-42c8-81a9-12482c938006": {
           "label": "&& - and",
           "link": "",
-          "x": 118713,
-          "y": 6955,
+          "x": 118702,
+          "y": 9086,
           "id": "7fcccead-4a19-42c8-81a9-12482c938006",
           "color": {
             "highlight": {
@@ -28003,8 +28007,8 @@ var schemeData =
         "98067287-1513-47ae-aca2-49544ad0cd2f": {
           "label": "|| - or",
           "link": "",
-          "x": 118702,
-          "y": 6979,
+          "x": 118691,
+          "y": 9110,
           "id": "98067287-1513-47ae-aca2-49544ad0cd2f",
           "color": {
             "highlight": {
@@ -28044,8 +28048,8 @@ var schemeData =
         "42d0cab6-3468-456d-9758-97e4f5c26bb3": {
           "label": "! - not",
           "link": "",
-          "x": 118704,
-          "y": 7003,
+          "x": 118693,
+          "y": 9134,
           "id": "42d0cab6-3468-456d-9758-97e4f5c26bb3",
           "color": {
             "highlight": {
@@ -28085,8 +28089,8 @@ var schemeData =
         "9ce9a1a2-62a0-4f1f-859a-020f1e59d3e2": {
           "label": "Comparison operators",
           "link": "",
-          "x": 118755,
-          "y": 7080,
+          "x": 118744,
+          "y": 9211,
           "id": "9ce9a1a2-62a0-4f1f-859a-020f1e59d3e2",
           "color": {
             "highlight": {
@@ -28126,8 +28130,8 @@ var schemeData =
         "86ab2ef9-e3bd-48e5-86fc-689e9d0cfb6f": {
           "label": "==",
           "link": "",
-          "x": 118942,
-          "y": 7043,
+          "x": 118931,
+          "y": 9174,
           "id": "86ab2ef9-e3bd-48e5-86fc-689e9d0cfb6f",
           "color": {
             "highlight": {
@@ -28167,8 +28171,8 @@ var schemeData =
         "23b07b2a-5f8b-41f3-be2c-bfdaa2c537a2": {
           "label": "===",
           "link": "",
-          "x": 118946,
-          "y": 7075,
+          "x": 118935,
+          "y": 9206,
           "id": "23b07b2a-5f8b-41f3-be2c-bfdaa2c537a2",
           "color": {
             "highlight": {
@@ -28208,8 +28212,8 @@ var schemeData =
         "bf499ca0-1353-4901-b47a-f8cff285875b": {
           "label": "equal value and equal type",
           "link": "",
-          "x": 119118,
-          "y": 7075,
+          "x": 119107,
+          "y": 9206,
           "id": "bf499ca0-1353-4901-b47a-f8cff285875b",
           "color": {
             "highlight": {
@@ -28249,8 +28253,8 @@ var schemeData =
         "9d68016d-f2dd-4a0d-9d6a-86101d494c2d": {
           "label": "!=",
           "link": "",
-          "x": 118940,
-          "y": 7115,
+          "x": 118929,
+          "y": 9246,
           "id": "9d68016d-f2dd-4a0d-9d6a-86101d494c2d",
           "color": {
             "highlight": {
@@ -28290,8 +28294,8 @@ var schemeData =
         "0506deeb-74b9-473e-98e6-26c5963b79c4": {
           "label": "!==",
           "link": "",
-          "x": 118944,
-          "y": 7147,
+          "x": 118933,
+          "y": 9278,
           "id": "0506deeb-74b9-473e-98e6-26c5963b79c4",
           "color": {
             "highlight": {
@@ -28331,8 +28335,8 @@ var schemeData =
         "05bd03d4-741d-43d1-9677-cdb7b031d24e": {
           "label": "not equal value and not equal type",
           "link": "",
-          "x": 119136,
-          "y": 7144,
+          "x": 119125,
+          "y": 9275,
           "id": "05bd03d4-741d-43d1-9677-cdb7b031d24e",
           "color": {
             "highlight": {
@@ -28399,16 +28403,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Logic",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780558",
-          "x": 120943,
-          "y": 7271,
+          "x": 120932,
+          "y": 9402,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "1bfe3cfe-6517-4016-bb4f-8ce62b2ff317": {
           "label": "Variables",
-          "x": 118284,
-          "y": 10243,
+          "x": 118273,
+          "y": 12374,
           "font": {
             "size": 72,
             "align": "left"
@@ -28424,159 +28428,159 @@ var schemeData =
         },
         "23c2465a-6715-4bc8-9ce9-d8bfe4cc0a6b": {
           "label": "Development",
-          "x": 118584,
-          "y": 10693,
+          "x": 118573,
+          "y": 12824,
           "id": "23c2465a-6715-4bc8-9ce9-d8bfe4cc0a6b"
         },
         "d2302b6a-5012-4175-8e59-cd4129d085a3": {
           "label": "12/1/2019",
-          "x": 118713,
-          "y": 10693,
+          "x": 118702,
+          "y": 12824,
           "id": "d2302b6a-5012-4175-8e59-cd4129d085a3"
         },
         "563c7c72-d109-4cc0-8f1d-0c5df2831b39": {
           "label": "init",
-          "x": 118834,
-          "y": 10693,
+          "x": 118823,
+          "y": 12824,
           "id": "563c7c72-d109-4cc0-8f1d-0c5df2831b39"
         },
         "508a2039-965f-4f3f-a5b4-ed1afe707b10": {
           "label": "Notes",
-          "x": 118560,
-          "y": 9843,
+          "x": 118549,
+          "y": 11974,
           "id": "508a2039-965f-4f3f-a5b4-ed1afe707b10"
         },
         "f762987a-8cd0-4968-a2ce-d637f3d1f829": {
           "label": "Dictionary of\nconcepts",
-          "x": 118720,
-          "y": 9593,
+          "x": 118709,
+          "y": 11724,
           "id": "f762987a-8cd0-4968-a2ce-d637f3d1f829"
         },
         "0f21b3a1-d687-4c09-9100-bc8b6d0556d9": {
           "label": "Details, thoughts",
-          "x": 118734,
-          "y": 9843,
+          "x": 118723,
+          "y": 11974,
           "id": "0f21b3a1-d687-4c09-9100-bc8b6d0556d9"
         },
         "9132d657-7c5a-444a-a793-c994fc7d5dbd": {
           "label": "Sections",
-          "x": 118708,
-          "y": 10093,
+          "x": 118697,
+          "y": 12224,
           "id": "9132d657-7c5a-444a-a793-c994fc7d5dbd"
         },
         "48027218-3c1c-4174-bd5c-c02ea10b6ee1": {
           "label": "Books",
-          "x": 118798,
-          "y": 9943,
+          "x": 118787,
+          "y": 12074,
           "id": "48027218-3c1c-4174-bd5c-c02ea10b6ee1"
         },
         "06bd6b3a-142b-4b16-b150-40519c739838": {
           "label": "R&D institutions",
-          "x": 118828,
-          "y": 9968,
+          "x": 118817,
+          "y": 12099,
           "id": "06bd6b3a-142b-4b16-b150-40519c739838"
         },
         "108edbc9-038f-4028-9063-d7d395cad569": {
           "label": "Sites",
-          "x": 118794,
-          "y": 9993,
+          "x": 118783,
+          "y": 12124,
           "id": "108edbc9-038f-4028-9063-d7d395cad569"
         },
         "902cc0b8-91aa-4ae5-9969-d2ec2529277c": {
           "label": "Magazines",
-          "x": 118813,
-          "y": 10018,
+          "x": 118802,
+          "y": 12149,
           "id": "902cc0b8-91aa-4ae5-9969-d2ec2529277c"
         },
         "bdd67c1f-99c7-433a-bf0e-d61fb967fed0": {
           "label": "Articles",
-          "x": 118801,
-          "y": 10043,
+          "x": 118790,
+          "y": 12174,
           "id": "bdd67c1f-99c7-433a-bf0e-d61fb967fed0"
         },
         "b73dc6a3-9a85-470e-8a39-b6e2138a4f90": {
           "label": "Media content",
-          "x": 118823,
-          "y": 10068,
+          "x": 118812,
+          "y": 12199,
           "id": "b73dc6a3-9a85-470e-8a39-b6e2138a4f90"
         },
         "b6523c30-a5cd-4218-b4b0-d3f7ac3b5267": {
           "label": "Misc. web links",
-          "x": 118826,
-          "y": 10093,
+          "x": 118815,
+          "y": 12224,
           "id": "b6523c30-a5cd-4218-b4b0-d3f7ac3b5267"
         },
         "b179d929-73f9-429e-a7de-3d1542fe893d": {
           "label": "Projects",
-          "x": 118804,
-          "y": 10118,
+          "x": 118793,
+          "y": 12249,
           "id": "b179d929-73f9-429e-a7de-3d1542fe893d"
         },
         "a9cd42a0-8cd7-4b9d-a4bb-d2d5247f0fc1": {
           "label": "Tools",
-          "x": 118795,
-          "y": 10143,
+          "x": 118784,
+          "y": 12274,
           "id": "a9cd42a0-8cd7-4b9d-a4bb-d2d5247f0fc1"
         },
         "ee60563e-07ea-4302-b489-e12fccac7afb": {
           "label": "Organizations",
-          "x": 118822,
-          "y": 10168,
+          "x": 118811,
+          "y": 12299,
           "id": "ee60563e-07ea-4302-b489-e12fccac7afb"
         },
         "8e259eb3-94a4-4963-886d-e6dc96a9f7ba": {
           "label": "Standarts",
-          "x": 118809,
-          "y": 10193,
+          "x": 118798,
+          "y": 12324,
           "id": "8e259eb3-94a4-4963-886d-e6dc96a9f7ba"
         },
         "f3135357-89ab-4fac-b870-226ed61442f8": {
           "label": "Forums, Groups",
-          "x": 118830,
-          "y": 10218,
+          "x": 118819,
+          "y": 12349,
           "id": "f3135357-89ab-4fac-b870-226ed61442f8"
         },
         "c20ab95b-fabc-4541-a81e-757b2f1c8970": {
           "label": "Laws",
-          "x": 118795,
-          "y": 10243,
+          "x": 118784,
+          "y": 12374,
           "id": "c20ab95b-fabc-4541-a81e-757b2f1c8970"
         },
         "606ce764-ef28-4168-b1f6-a6a62a5bef68": {
           "label": "Adjacent Themes",
-          "x": 118834,
-          "y": 10268,
+          "x": 118823,
+          "y": 12399,
           "id": "606ce764-ef28-4168-b1f6-a6a62a5bef68"
         },
         "e8b62c60-ca57-48ff-a30d-fad0ffba6197": {
           "label": "Questions",
-          "x": 118574,
-          "y": 10393,
+          "x": 118563,
+          "y": 12524,
           "id": "e8b62c60-ca57-48ff-a30d-fad0ffba6197"
         },
         "5e348b1e-3aeb-4ae7-9e88-041ddaa02d9b": {
           "label": "Problems",
-          "x": 118572,
-          "y": 10493,
+          "x": 118561,
+          "y": 12624,
           "id": "5e348b1e-3aeb-4ae7-9e88-041ddaa02d9b"
         },
         "080c3593-6433-4ee8-882d-e4c7a4600280": {
           "label": "Goals",
-          "x": 118560,
-          "y": 10593,
+          "x": 118549,
+          "y": 12724,
           "id": "080c3593-6433-4ee8-882d-e4c7a4600280"
         },
         "0963c4f6-9e31-479e-bf21-e205274ea7fb": {
           "id": "0963c4f6-9e31-479e-bf21-e205274ea7fb",
-          "x": 118968,
-          "y": 9574,
+          "x": 118957,
+          "y": 11705,
           "label": "typeof variable !== \"undefined\""
         },
         "c6924a62-4bda-4c51-8cef-820e080b18d6": {
           "label": "check variable defined",
           "link": "",
-          "x": 119209,
-          "y": 9573,
+          "x": 119198,
+          "y": 11704,
           "id": "c6924a62-4bda-4c51-8cef-820e080b18d6",
           "color": {
             "highlight": {
@@ -28643,16 +28647,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Variables",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780558989",
-          "x": 121752,
-          "y": 9847,
+          "x": 121741,
+          "y": 11978,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "64536864-a8dd-4be0-ba1c-67f4eeb1d4d9": {
           "label": "Evaluate",
-          "x": 118285,
-          "y": 12286,
+          "x": 118274,
+          "y": 14417,
           "font": {
             "size": 72,
             "align": "left"
@@ -28668,159 +28672,159 @@ var schemeData =
         },
         "eec7c38e-a68c-4cab-8efe-38cb31bdf9f2": {
           "label": "Development",
-          "x": 118585,
-          "y": 12736,
+          "x": 118574,
+          "y": 14867,
           "id": "eec7c38e-a68c-4cab-8efe-38cb31bdf9f2"
         },
         "ec5caa7d-74b1-4e23-928a-42fbf7f80751": {
           "label": "12/1/2019",
-          "x": 118714,
-          "y": 12736,
+          "x": 118703,
+          "y": 14867,
           "id": "ec5caa7d-74b1-4e23-928a-42fbf7f80751"
         },
         "4e05e5fe-5828-46da-95b4-a6788f193751": {
           "label": "init",
-          "x": 118835,
-          "y": 12736,
+          "x": 118824,
+          "y": 14867,
           "id": "4e05e5fe-5828-46da-95b4-a6788f193751"
         },
         "26f550ef-ba3f-4e4a-b117-ffef70c78d59": {
           "label": "Notes",
-          "x": 118562,
-          "y": 11886,
+          "x": 118551,
+          "y": 14017,
           "id": "26f550ef-ba3f-4e4a-b117-ffef70c78d59"
         },
         "72b8eb67-2835-4a77-b482-b0893a8ef121": {
           "label": "Dictionary of\nconcepts",
-          "x": 118722,
-          "y": 11636,
+          "x": 118711,
+          "y": 13767,
           "id": "72b8eb67-2835-4a77-b482-b0893a8ef121"
         },
         "61a87f47-c8e1-456e-bfe3-48257d25fd4c": {
           "label": "Details, thoughts",
-          "x": 118735,
-          "y": 11886,
+          "x": 118724,
+          "y": 14017,
           "id": "61a87f47-c8e1-456e-bfe3-48257d25fd4c"
         },
         "c404fc66-4d41-430e-8388-a11316e5e1cd": {
           "label": "Sections",
-          "x": 118709,
-          "y": 12136,
+          "x": 118698,
+          "y": 14267,
           "id": "c404fc66-4d41-430e-8388-a11316e5e1cd"
         },
         "cce53a49-544c-4a9f-bd44-bba4db850f70": {
           "label": "Books",
-          "x": 118799,
-          "y": 11986,
+          "x": 118788,
+          "y": 14117,
           "id": "cce53a49-544c-4a9f-bd44-bba4db850f70"
         },
         "a3a9174e-929f-4bde-b7da-e8225c644572": {
           "label": "R&D institutions",
-          "x": 118830,
-          "y": 12011,
+          "x": 118819,
+          "y": 14142,
           "id": "a3a9174e-929f-4bde-b7da-e8225c644572"
         },
         "e7ac6cd0-90e0-4399-8865-7e83de5cfe0d": {
           "label": "Sites",
-          "x": 118795,
-          "y": 12036,
+          "x": 118784,
+          "y": 14167,
           "id": "e7ac6cd0-90e0-4399-8865-7e83de5cfe0d"
         },
         "bfe3f784-d164-4a1b-bd75-142a9e5bdea3": {
           "label": "Magazines",
-          "x": 118814,
-          "y": 12061,
+          "x": 118803,
+          "y": 14192,
           "id": "bfe3f784-d164-4a1b-bd75-142a9e5bdea3"
         },
         "096d55f6-f48c-402a-8085-0c299b198022": {
           "label": "Articles",
-          "x": 118803,
-          "y": 12086,
+          "x": 118792,
+          "y": 14217,
           "id": "096d55f6-f48c-402a-8085-0c299b198022"
         },
         "9832ec95-9a5f-4178-b9b9-0bf40ebc5b18": {
           "label": "Media content",
-          "x": 118825,
-          "y": 12111,
+          "x": 118814,
+          "y": 14242,
           "id": "9832ec95-9a5f-4178-b9b9-0bf40ebc5b18"
         },
         "59753278-066a-4560-bb80-0579d0570224": {
           "label": "Misc. web links",
-          "x": 118827,
-          "y": 12136,
+          "x": 118816,
+          "y": 14267,
           "id": "59753278-066a-4560-bb80-0579d0570224"
         },
         "32fbc8a7-f16c-4120-a80e-e666a3df86d2": {
           "label": "Projects",
-          "x": 118805,
-          "y": 12161,
+          "x": 118794,
+          "y": 14292,
           "id": "32fbc8a7-f16c-4120-a80e-e666a3df86d2"
         },
         "7118ba20-85d4-465c-829d-2f5308e21c1a": {
           "label": "Tools",
-          "x": 118796,
-          "y": 12186,
+          "x": 118785,
+          "y": 14317,
           "id": "7118ba20-85d4-465c-829d-2f5308e21c1a"
         },
         "5799e70c-cb0a-4184-b5f5-909b2d688a6a": {
           "label": "Organizations",
-          "x": 118824,
-          "y": 12211,
+          "x": 118813,
+          "y": 14342,
           "id": "5799e70c-cb0a-4184-b5f5-909b2d688a6a"
         },
         "cf82097e-04dc-4c98-be57-6e68bbb953be": {
           "label": "Standarts",
-          "x": 118810,
-          "y": 12236,
+          "x": 118799,
+          "y": 14367,
           "id": "cf82097e-04dc-4c98-be57-6e68bbb953be"
         },
         "bed53ee8-5d60-4e96-a343-128cd46b4c0a": {
           "label": "Forums, Groups",
-          "x": 118832,
-          "y": 12261,
+          "x": 118821,
+          "y": 14392,
           "id": "bed53ee8-5d60-4e96-a343-128cd46b4c0a"
         },
         "89ddf829-5517-4a42-85fa-c6b988070166": {
           "label": "Laws",
-          "x": 118796,
-          "y": 12286,
+          "x": 118785,
+          "y": 14417,
           "id": "89ddf829-5517-4a42-85fa-c6b988070166"
         },
         "c5af0a8f-70b9-4d2d-aa16-f47e263c07f9": {
           "label": "Adjacent Themes",
-          "x": 118835,
-          "y": 12311,
+          "x": 118824,
+          "y": 14442,
           "id": "c5af0a8f-70b9-4d2d-aa16-f47e263c07f9"
         },
         "4dbf6910-f57d-4b2f-b172-56bc1f900550": {
           "label": "Questions",
-          "x": 118575,
-          "y": 12436,
+          "x": 118564,
+          "y": 14567,
           "id": "4dbf6910-f57d-4b2f-b172-56bc1f900550"
         },
         "96102120-7e2a-4be5-9e9b-ab0e966fa050": {
           "label": "Problems",
-          "x": 118573,
-          "y": 12536,
+          "x": 118562,
+          "y": 14667,
           "id": "96102120-7e2a-4be5-9e9b-ab0e966fa050"
         },
         "094a3942-3ca2-4cbe-9966-da13ea49b7f7": {
           "label": "Goals",
-          "x": 118562,
-          "y": 12636,
+          "x": 118551,
+          "y": 14767,
           "id": "094a3942-3ca2-4cbe-9966-da13ea49b7f7"
         },
         "1560603c-3eb5-4fe5-947c-d5b116a42a4d": {
           "id": "1560603c-3eb5-4fe5-947c-d5b116a42a4d",
-          "x": 118948,
-          "y": 11592,
+          "x": 118937,
+          "y": 13723,
           "label": "document.evaluate(\"\")"
         },
         "37e36e59-6a58-40af-a0bb-54671bcb7725": {
           "label": "snapshotItem()",
           "link": "",
-          "x": 118925,
-          "y": 11616,
+          "x": 118914,
+          "y": 13747,
           "id": "37e36e59-6a58-40af-a0bb-54671bcb7725",
           "color": {
             "highlight": {
@@ -28860,8 +28864,8 @@ var schemeData =
         "9afa8ec7-bb56-4026-8f73-bea6c7df8cee": {
           "label": "innerHTML",
           "link": "",
-          "x": 118913,
-          "y": 11640,
+          "x": 118902,
+          "y": 13771,
           "id": "9afa8ec7-bb56-4026-8f73-bea6c7df8cee",
           "color": {
             "highlight": {
@@ -28928,16 +28932,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Evaluate",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780558989114",
-          "x": 121651,
-          "y": 11959,
+          "x": 121640,
+          "y": 14090,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "293e350b-bac9-4855-939a-9998cbe6d142": {
           "label": "JSON",
-          "x": 118534,
-          "y": 14061,
+          "x": 118523,
+          "y": 16192,
           "font": {
             "size": 72,
             "align": "left"
@@ -28953,159 +28957,159 @@ var schemeData =
         },
         "206b3c64-299c-4ce4-b0a3-8e0b45e8d445": {
           "label": "Development",
-          "x": 118834,
-          "y": 14511,
+          "x": 118823,
+          "y": 16642,
           "id": "206b3c64-299c-4ce4-b0a3-8e0b45e8d445"
         },
         "93e8fafa-110e-414e-84e0-2f40d9519eae": {
           "label": "12/1/2019",
-          "x": 118963,
-          "y": 14511,
+          "x": 118952,
+          "y": 16642,
           "id": "93e8fafa-110e-414e-84e0-2f40d9519eae"
         },
         "56161f6b-75e5-4b84-86a1-666b7bec3c57": {
           "label": "init",
-          "x": 119084,
-          "y": 14511,
+          "x": 119073,
+          "y": 16642,
           "id": "56161f6b-75e5-4b84-86a1-666b7bec3c57"
         },
         "531ad5b2-3fb6-44d9-b81a-aadc778057b1": {
           "label": "Notes",
-          "x": 118810,
-          "y": 13661,
+          "x": 118799,
+          "y": 15792,
           "id": "531ad5b2-3fb6-44d9-b81a-aadc778057b1"
         },
         "f8d1ceeb-b0e2-473d-9237-84e7e419c357": {
           "label": "Dictionary of\nconcepts",
-          "x": 118970,
-          "y": 13411,
+          "x": 118959,
+          "y": 15542,
           "id": "f8d1ceeb-b0e2-473d-9237-84e7e419c357"
         },
         "f10c1e34-1807-46c2-8b2f-9d0a02a246da": {
           "label": "Details, thoughts",
-          "x": 118984,
-          "y": 13661,
+          "x": 118973,
+          "y": 15792,
           "id": "f10c1e34-1807-46c2-8b2f-9d0a02a246da"
         },
         "6d1e116c-39b7-43e9-b264-179156c450dd": {
           "label": "Sections",
-          "x": 118958,
-          "y": 13911,
+          "x": 118947,
+          "y": 16042,
           "id": "6d1e116c-39b7-43e9-b264-179156c450dd"
         },
         "48fd0a72-572d-4b39-90d0-ef2502720735": {
           "label": "Books",
-          "x": 119048,
-          "y": 13761,
+          "x": 119037,
+          "y": 15892,
           "id": "48fd0a72-572d-4b39-90d0-ef2502720735"
         },
         "40589092-f05c-4295-9f97-f800119ad9e4": {
           "label": "R&D institutions",
-          "x": 119078,
-          "y": 13786,
+          "x": 119067,
+          "y": 15917,
           "id": "40589092-f05c-4295-9f97-f800119ad9e4"
         },
         "9c8e2d4e-a87f-4d63-a1b6-3bb41be3aa79": {
           "label": "Sites",
-          "x": 119044,
-          "y": 13811,
+          "x": 119033,
+          "y": 15942,
           "id": "9c8e2d4e-a87f-4d63-a1b6-3bb41be3aa79"
         },
         "520b2656-0414-40c3-9a67-ecc475f5ab39": {
           "label": "Magazines",
-          "x": 119063,
-          "y": 13836,
+          "x": 119052,
+          "y": 15967,
           "id": "520b2656-0414-40c3-9a67-ecc475f5ab39"
         },
         "0bbfe106-fdb0-49d0-8edf-b0e21634b6bd": {
           "label": "Articles",
-          "x": 119051,
-          "y": 13861,
+          "x": 119040,
+          "y": 15992,
           "id": "0bbfe106-fdb0-49d0-8edf-b0e21634b6bd"
         },
         "f5c58af4-6c65-4383-8bc8-b9392b85fef9": {
           "label": "Media content",
-          "x": 119073,
-          "y": 13886,
+          "x": 119062,
+          "y": 16017,
           "id": "f5c58af4-6c65-4383-8bc8-b9392b85fef9"
         },
         "c813a1b5-b494-48c8-940b-913c0d76b7cd": {
           "label": "Misc. web links",
-          "x": 119076,
-          "y": 13911,
+          "x": 119065,
+          "y": 16042,
           "id": "c813a1b5-b494-48c8-940b-913c0d76b7cd"
         },
         "5a47b6c5-84d2-4a04-b1d6-32b9ad20aaef": {
           "label": "Projects",
-          "x": 119054,
-          "y": 13936,
+          "x": 119043,
+          "y": 16067,
           "id": "5a47b6c5-84d2-4a04-b1d6-32b9ad20aaef"
         },
         "89f04cac-423f-4039-97f6-1b0375131eb0": {
           "label": "Tools",
-          "x": 119045,
-          "y": 13961,
+          "x": 119034,
+          "y": 16092,
           "id": "89f04cac-423f-4039-97f6-1b0375131eb0"
         },
         "8bf07037-eaa4-4e44-83b4-6c4d74bd820e": {
           "label": "Organizations",
-          "x": 119072,
-          "y": 13986,
+          "x": 119061,
+          "y": 16117,
           "id": "8bf07037-eaa4-4e44-83b4-6c4d74bd820e"
         },
         "247a64c9-a415-4e03-b512-ff48e09b4129": {
           "label": "Standarts",
-          "x": 119059,
-          "y": 14011,
+          "x": 119048,
+          "y": 16142,
           "id": "247a64c9-a415-4e03-b512-ff48e09b4129"
         },
         "7751a59c-46fa-4cde-8c0c-6f14e6d49f98": {
           "label": "Forums, Groups",
-          "x": 119080,
-          "y": 14036,
+          "x": 119069,
+          "y": 16167,
           "id": "7751a59c-46fa-4cde-8c0c-6f14e6d49f98"
         },
         "309e9a7d-d462-42fa-91df-c94c22f8f579": {
           "label": "Laws",
-          "x": 119045,
-          "y": 14061,
+          "x": 119034,
+          "y": 16192,
           "id": "309e9a7d-d462-42fa-91df-c94c22f8f579"
         },
         "58e5dfd7-a035-445b-97cc-a8274a55d7b1": {
           "label": "Adjacent Themes",
-          "x": 119084,
-          "y": 14086,
+          "x": 119073,
+          "y": 16217,
           "id": "58e5dfd7-a035-445b-97cc-a8274a55d7b1"
         },
         "964e29c4-dbd0-48ae-aa83-7b2d7800e053": {
           "label": "Questions",
-          "x": 118824,
-          "y": 14211,
+          "x": 118813,
+          "y": 16342,
           "id": "964e29c4-dbd0-48ae-aa83-7b2d7800e053"
         },
         "00ff5197-eca2-4b8c-9f6b-0cc82fc57e68": {
           "label": "Problems",
-          "x": 118822,
-          "y": 14311,
+          "x": 118811,
+          "y": 16442,
           "id": "00ff5197-eca2-4b8c-9f6b-0cc82fc57e68"
         },
         "874e65ae-636a-4ffc-8de1-6f9c2197f463": {
           "label": "Goals",
-          "x": 118810,
-          "y": 14411,
+          "x": 118799,
+          "y": 16542,
           "id": "874e65ae-636a-4ffc-8de1-6f9c2197f463"
         },
         "b0923173-db41-4db5-8893-eeafa76fb547": {
           "id": "b0923173-db41-4db5-8893-eeafa76fb547",
-          "x": 119223,
-          "y": 13380,
+          "x": 119212,
+          "y": 15511,
           "label": "JSON.parse(some_text)"
         },
         "2d134efc-5e9a-4d0f-97be-9a7450c0f14d": {
           "label": "JSON.dump(some_obj)",
           "link": "",
-          "x": 119221,
-          "y": 13412,
+          "x": 119210,
+          "y": 15543,
           "id": "2d134efc-5e9a-4d0f-97be-9a7450c0f14d",
           "color": {
             "highlight": {
@@ -29145,8 +29149,8 @@ var schemeData =
         "678ebef1-71f8-400b-88a1-acc8e632db45": {
           "label": "JSON.stringify(obj)",
           "link": "",
-          "x": 119206,
-          "y": 13449,
+          "x": 119195,
+          "y": 15580,
           "id": "678ebef1-71f8-400b-88a1-acc8e632db45",
           "color": {
             "highlight": {
@@ -29186,8 +29190,8 @@ var schemeData =
         "1bc76581-8a14-4084-9fd9-0af8e455f58c": {
           "label": "object to string.",
           "link": "",
-          "x": 119358,
-          "y": 13449,
+          "x": 119347,
+          "y": 15580,
           "id": "1bc76581-8a14-4084-9fd9-0af8e455f58c",
           "color": {
             "highlight": {
@@ -29254,16 +29258,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "JSON",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780558989114974",
-          "x": 121039,
-          "y": 13713,
+          "x": 121028,
+          "y": 15844,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "b70944f4-e548-434a-892e-8c736d8256f1": {
           "label": "Sleep",
-          "x": 118203,
-          "y": 15762,
+          "x": 118192,
+          "y": 17893,
           "font": {
             "size": 72,
             "align": "left"
@@ -29279,159 +29283,159 @@ var schemeData =
         },
         "26819a4d-bb9e-486e-beb1-d1b68ad6ea7e": {
           "label": "Development",
-          "x": 118503,
-          "y": 16212,
+          "x": 118492,
+          "y": 18343,
           "id": "26819a4d-bb9e-486e-beb1-d1b68ad6ea7e"
         },
         "d07f297e-f48b-4a2d-8093-50f868f832af": {
           "label": "12/1/2019",
-          "x": 118632,
-          "y": 16212,
+          "x": 118621,
+          "y": 18343,
           "id": "d07f297e-f48b-4a2d-8093-50f868f832af"
         },
         "cddcdca4-570c-4860-94dd-d8c2d4a4fb2e": {
           "label": "init",
-          "x": 118753,
-          "y": 16212,
+          "x": 118742,
+          "y": 18343,
           "id": "cddcdca4-570c-4860-94dd-d8c2d4a4fb2e"
         },
         "d4b216f4-0acf-4009-ba17-fccbf46055cb": {
           "label": "Notes",
-          "x": 118479,
-          "y": 15362,
+          "x": 118468,
+          "y": 17493,
           "id": "d4b216f4-0acf-4009-ba17-fccbf46055cb"
         },
         "4cc9eafd-ac8c-445b-b5e4-0dcd4b310ec8": {
           "label": "Dictionary of\nconcepts",
-          "x": 118639,
-          "y": 15112,
+          "x": 118628,
+          "y": 17243,
           "id": "4cc9eafd-ac8c-445b-b5e4-0dcd4b310ec8"
         },
         "2d8577f5-5516-48ee-a768-6a53ad9cafa0": {
           "label": "Details, thoughts",
-          "x": 118653,
-          "y": 15362,
+          "x": 118642,
+          "y": 17493,
           "id": "2d8577f5-5516-48ee-a768-6a53ad9cafa0"
         },
         "24026ea4-7f36-4cb0-925d-21b0b3c5adc3": {
           "label": "Sections",
-          "x": 118627,
-          "y": 15612,
+          "x": 118616,
+          "y": 17743,
           "id": "24026ea4-7f36-4cb0-925d-21b0b3c5adc3"
         },
         "d6aead85-739f-4be6-ad98-ca4c602c4d5d": {
           "label": "Books",
-          "x": 118717,
-          "y": 15462,
+          "x": 118706,
+          "y": 17593,
           "id": "d6aead85-739f-4be6-ad98-ca4c602c4d5d"
         },
         "f20c1890-eca8-4650-9fa9-c99e9bbf80aa": {
           "label": "R&D institutions",
-          "x": 118747,
-          "y": 15487,
+          "x": 118736,
+          "y": 17618,
           "id": "f20c1890-eca8-4650-9fa9-c99e9bbf80aa"
         },
         "1b3ced9c-c073-4adc-aae1-e8e8506de046": {
           "label": "Sites",
-          "x": 118713,
-          "y": 15512,
+          "x": 118702,
+          "y": 17643,
           "id": "1b3ced9c-c073-4adc-aae1-e8e8506de046"
         },
         "c96ec1e6-9134-4b13-8d16-1cc3405228e4": {
           "label": "Magazines",
-          "x": 118732,
-          "y": 15537,
+          "x": 118721,
+          "y": 17668,
           "id": "c96ec1e6-9134-4b13-8d16-1cc3405228e4"
         },
         "ef0b107a-1bdf-4333-b0b3-b4316fa39a9e": {
           "label": "Articles",
-          "x": 118720,
-          "y": 15562,
+          "x": 118709,
+          "y": 17693,
           "id": "ef0b107a-1bdf-4333-b0b3-b4316fa39a9e"
         },
         "16719301-3106-4d06-8b2f-ced62332c44b": {
           "label": "Media content",
-          "x": 118742,
-          "y": 15587,
+          "x": 118731,
+          "y": 17718,
           "id": "16719301-3106-4d06-8b2f-ced62332c44b"
         },
         "dad44897-176f-4b07-98f9-9ff82ce742d7": {
           "label": "Misc. web links",
-          "x": 118745,
-          "y": 15612,
+          "x": 118734,
+          "y": 17743,
           "id": "dad44897-176f-4b07-98f9-9ff82ce742d7"
         },
         "3bf210bc-e44b-4454-8e53-6e599d973d0c": {
           "label": "Projects",
-          "x": 118723,
-          "y": 15637,
+          "x": 118712,
+          "y": 17768,
           "id": "3bf210bc-e44b-4454-8e53-6e599d973d0c"
         },
         "d43f6d7f-0072-43a6-8247-afc62c92c70a": {
           "label": "Tools",
-          "x": 118714,
-          "y": 15662,
+          "x": 118703,
+          "y": 17793,
           "id": "d43f6d7f-0072-43a6-8247-afc62c92c70a"
         },
         "0e6bd6b8-3091-4ca4-a1e5-39f38a92a184": {
           "label": "Organizations",
-          "x": 118741,
-          "y": 15687,
+          "x": 118730,
+          "y": 17818,
           "id": "0e6bd6b8-3091-4ca4-a1e5-39f38a92a184"
         },
         "aa984ad7-b9a2-4c9d-be94-7710144b8059": {
           "label": "Standarts",
-          "x": 118728,
-          "y": 15712,
+          "x": 118717,
+          "y": 17843,
           "id": "aa984ad7-b9a2-4c9d-be94-7710144b8059"
         },
         "62a9730b-09be-4eed-902e-7408d5ef1f9b": {
           "label": "Forums, Groups",
-          "x": 118749,
-          "y": 15737,
+          "x": 118738,
+          "y": 17868,
           "id": "62a9730b-09be-4eed-902e-7408d5ef1f9b"
         },
         "9e3f6329-c1b8-454c-9ce7-9b341e2acbbc": {
           "label": "Laws",
-          "x": 118714,
-          "y": 15762,
+          "x": 118703,
+          "y": 17893,
           "id": "9e3f6329-c1b8-454c-9ce7-9b341e2acbbc"
         },
         "72712e04-24c9-4986-bfc0-9c4460287f3f": {
           "label": "Adjacent Themes",
-          "x": 118753,
-          "y": 15787,
+          "x": 118742,
+          "y": 17918,
           "id": "72712e04-24c9-4986-bfc0-9c4460287f3f"
         },
         "27d31f1c-809d-40c9-83ec-1ebfd39e480f": {
           "label": "Questions",
-          "x": 118493,
-          "y": 15912,
+          "x": 118482,
+          "y": 18043,
           "id": "27d31f1c-809d-40c9-83ec-1ebfd39e480f"
         },
         "b9eda2a9-0a60-423e-94f0-ebc396b9481e": {
           "label": "Problems",
-          "x": 118491,
-          "y": 16012,
+          "x": 118480,
+          "y": 18143,
           "id": "b9eda2a9-0a60-423e-94f0-ebc396b9481e"
         },
         "3bd927f9-4c5e-43cf-babb-5e157eb12b18": {
           "label": "Goals",
-          "x": 118479,
-          "y": 16112,
+          "x": 118468,
+          "y": 18243,
           "id": "3bd927f9-4c5e-43cf-babb-5e157eb12b18"
         },
         "f5f4923f-064a-46f4-b492-2a21ea332ad4": {
           "id": "f5f4923f-064a-46f4-b492-2a21ea332ad4",
-          "x": 118872,
-          "y": 15091,
+          "x": 118861,
+          "y": 17222,
           "label": "Version 1"
         },
         "bf4faf7a-a102-4727-badf-6ff54bac5c70": {
           "label": "function sleep(ms) {\n   return new Promise((resolve) => setTimeout(resolve, ms)); \n}",
           "link": "",
-          "x": 119198,
-          "y": 15087,
+          "x": 119187,
+          "y": 17218,
           "id": "bf4faf7a-a102-4727-badf-6ff54bac5c70",
           "color": {
             "highlight": {
@@ -29474,8 +29478,8 @@ var schemeData =
         },
         "a2278531-cb2d-4138-b777-4a375d416ef2": {
           "id": "a2278531-cb2d-4138-b777-4a375d416ef2",
-          "x": 119139,
-          "y": 15137,
+          "x": 119128,
+          "y": 17268,
           "label": "sleep(500).then(() => { console.log(\"1\"); });"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780558989114974371": {
@@ -29508,8 +29512,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sleep",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780558989114974371",
-          "x": 120984,
-          "y": 15496,
+          "x": 120973,
+          "y": 17627,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29874,8 +29878,8 @@ var schemeData =
         },
         "28484116-7182-4b57-9622-c52be9d92a57": {
           "label": "Exceptions",
-          "x": 118032,
-          "y": 17918,
+          "x": 118021,
+          "y": 20049,
           "font": {
             "size": 72,
             "align": "left"
@@ -29891,152 +29895,152 @@ var schemeData =
         },
         "ff112355-0335-4a8a-b485-f83eab4eef8d": {
           "label": "Development",
-          "x": 118332,
-          "y": 18368,
+          "x": 118321,
+          "y": 20499,
           "id": "ff112355-0335-4a8a-b485-f83eab4eef8d"
         },
         "15af48d7-2cf5-403b-acfc-358a97a760a7": {
           "label": "12/1/2019",
-          "x": 118461,
-          "y": 18368,
+          "x": 118450,
+          "y": 20499,
           "id": "15af48d7-2cf5-403b-acfc-358a97a760a7"
         },
         "cd9ba2d3-ab5b-40a4-ac0d-941aa37bbf2d": {
           "label": "init",
-          "x": 118582,
-          "y": 18368,
+          "x": 118571,
+          "y": 20499,
           "id": "cd9ba2d3-ab5b-40a4-ac0d-941aa37bbf2d"
         },
         "3a832cc7-e059-4eca-9a44-35fcddbb5155": {
           "label": "Notes",
-          "x": 118308,
-          "y": 17518,
+          "x": 118297,
+          "y": 19649,
           "id": "3a832cc7-e059-4eca-9a44-35fcddbb5155"
         },
         "8e7fe930-a1d7-4da0-bf6e-743306c10fa3": {
           "label": "Dictionary of\nconcepts",
-          "x": 118468,
-          "y": 17268,
+          "x": 118457,
+          "y": 19399,
           "id": "8e7fe930-a1d7-4da0-bf6e-743306c10fa3"
         },
         "870a9ba0-f010-4786-9f96-ee02446f38a3": {
           "label": "Details, thoughts",
-          "x": 118482,
-          "y": 17518,
+          "x": 118471,
+          "y": 19649,
           "id": "870a9ba0-f010-4786-9f96-ee02446f38a3"
         },
         "b4b2acff-5816-4335-9968-743b6044969c": {
           "label": "Sections",
-          "x": 118456,
-          "y": 17768,
+          "x": 118445,
+          "y": 19899,
           "id": "b4b2acff-5816-4335-9968-743b6044969c"
         },
         "bc351f52-d7a3-427e-9ee6-4ef75d34863f": {
           "label": "Books",
-          "x": 118546,
-          "y": 17618,
+          "x": 118535,
+          "y": 19749,
           "id": "bc351f52-d7a3-427e-9ee6-4ef75d34863f"
         },
         "fc65f6d2-cfdf-4f39-a41c-ddf9f68d73c9": {
           "label": "R&D institutions",
-          "x": 118576,
-          "y": 17643,
+          "x": 118565,
+          "y": 19774,
           "id": "fc65f6d2-cfdf-4f39-a41c-ddf9f68d73c9"
         },
         "ea7e6c80-0ce8-49b8-a722-74da0ead32e1": {
           "label": "Sites",
-          "x": 118542,
-          "y": 17668,
+          "x": 118531,
+          "y": 19799,
           "id": "ea7e6c80-0ce8-49b8-a722-74da0ead32e1"
         },
         "a0214b59-5f48-4f28-9a57-95e0bdbdff71": {
           "label": "Magazines",
-          "x": 118561,
-          "y": 17693,
+          "x": 118550,
+          "y": 19824,
           "id": "a0214b59-5f48-4f28-9a57-95e0bdbdff71"
         },
         "9f224dc5-06ec-44e2-8524-82acf53601c3": {
           "label": "Articles",
-          "x": 118549,
-          "y": 17718,
+          "x": 118538,
+          "y": 19849,
           "id": "9f224dc5-06ec-44e2-8524-82acf53601c3"
         },
         "f1696053-d242-47cf-a390-f3155c83c345": {
           "label": "Media content",
-          "x": 118571,
-          "y": 17743,
+          "x": 118560,
+          "y": 19874,
           "id": "f1696053-d242-47cf-a390-f3155c83c345"
         },
         "faea01ee-0a56-4e84-bcec-36e7c80a01e7": {
           "label": "Misc. web links",
-          "x": 118574,
-          "y": 17768,
+          "x": 118563,
+          "y": 19899,
           "id": "faea01ee-0a56-4e84-bcec-36e7c80a01e7"
         },
         "e320406c-fe84-4289-87df-c516a39f8e51": {
           "label": "Projects",
-          "x": 118552,
-          "y": 17793,
+          "x": 118541,
+          "y": 19924,
           "id": "e320406c-fe84-4289-87df-c516a39f8e51"
         },
         "397e92f5-7ea4-4b64-9571-55ba5ee39118": {
           "label": "Tools",
-          "x": 118543,
-          "y": 17818,
+          "x": 118532,
+          "y": 19949,
           "id": "397e92f5-7ea4-4b64-9571-55ba5ee39118"
         },
         "6773fe43-3883-46e5-a393-64a543a725b1": {
           "label": "Organizations",
-          "x": 118570,
-          "y": 17843,
+          "x": 118559,
+          "y": 19974,
           "id": "6773fe43-3883-46e5-a393-64a543a725b1"
         },
         "8f855b82-46d2-4bee-99d8-57bed87348c7": {
           "label": "Standarts",
-          "x": 118557,
-          "y": 17868,
+          "x": 118546,
+          "y": 19999,
           "id": "8f855b82-46d2-4bee-99d8-57bed87348c7"
         },
         "b1bbb6a7-9f95-47e2-97f2-ad8d360f8848": {
           "label": "Forums, Groups",
-          "x": 118578,
-          "y": 17893,
+          "x": 118567,
+          "y": 20024,
           "id": "b1bbb6a7-9f95-47e2-97f2-ad8d360f8848"
         },
         "d83af509-b9ae-412e-9d50-599729de2ffe": {
           "label": "Laws",
-          "x": 118543,
-          "y": 17918,
+          "x": 118532,
+          "y": 20049,
           "id": "d83af509-b9ae-412e-9d50-599729de2ffe"
         },
         "5ab8ab0b-18fd-4cb7-87ab-f03251ed2568": {
           "label": "Adjacent Themes",
-          "x": 118582,
-          "y": 17943,
+          "x": 118571,
+          "y": 20074,
           "id": "5ab8ab0b-18fd-4cb7-87ab-f03251ed2568"
         },
         "4d5777a6-9c12-476f-b5bd-64683a978cf2": {
           "label": "Questions",
-          "x": 118322,
-          "y": 18068,
+          "x": 118311,
+          "y": 20199,
           "id": "4d5777a6-9c12-476f-b5bd-64683a978cf2"
         },
         "e3975cb3-70b2-41f2-a019-7e3dc564eb17": {
           "label": "Problems",
-          "x": 118320,
-          "y": 18168,
+          "x": 118309,
+          "y": 20299,
           "id": "e3975cb3-70b2-41f2-a019-7e3dc564eb17"
         },
         "72cb0fd7-f263-452d-b944-3df566b269a7": {
           "label": "Goals",
-          "x": 118308,
-          "y": 18268,
+          "x": 118297,
+          "y": 20399,
           "id": "72cb0fd7-f263-452d-b944-3df566b269a7"
         },
         "a2e7c2d4-bac4-4298-93fd-62769fc1e45c": {
           "label": "Encoding",
-          "x": 118197,
-          "y": 19701,
+          "x": 118186,
+          "y": 21832,
           "font": {
             "size": 72,
             "align": "left"
@@ -30052,146 +30056,146 @@ var schemeData =
         },
         "ac525b61-35fc-48b0-87ef-600c8b845e47": {
           "label": "Development",
-          "x": 118497,
-          "y": 20151,
+          "x": 118486,
+          "y": 22282,
           "id": "ac525b61-35fc-48b0-87ef-600c8b845e47"
         },
         "c949e5a6-096a-4bc5-bd24-b74b36bd8975": {
           "label": "12/1/2019",
-          "x": 118626,
-          "y": 20151,
+          "x": 118615,
+          "y": 22282,
           "id": "c949e5a6-096a-4bc5-bd24-b74b36bd8975"
         },
         "8bac344b-212e-4c0b-af74-0c54898abc52": {
           "label": "init",
-          "x": 118747,
-          "y": 20151,
+          "x": 118736,
+          "y": 22282,
           "id": "8bac344b-212e-4c0b-af74-0c54898abc52"
         },
         "697d2c40-ffcb-49c8-8872-8751695fc957": {
           "label": "Notes",
-          "x": 118473,
-          "y": 19301,
+          "x": 118462,
+          "y": 21432,
           "id": "697d2c40-ffcb-49c8-8872-8751695fc957"
         },
         "3c7de3a9-1aa1-42c1-abb2-5a7972fa7098": {
           "label": "Dictionary of\nconcepts",
-          "x": 118633,
-          "y": 19051,
+          "x": 118622,
+          "y": 21182,
           "id": "3c7de3a9-1aa1-42c1-abb2-5a7972fa7098"
         },
         "8fa78b3e-02f0-4a54-a34b-8eadae9ee996": {
           "label": "Details, thoughts",
-          "x": 118647,
-          "y": 19301,
+          "x": 118636,
+          "y": 21432,
           "id": "8fa78b3e-02f0-4a54-a34b-8eadae9ee996"
         },
         "7d392870-cf3d-445e-89bf-72db47d799a0": {
           "label": "Sections",
-          "x": 118621,
-          "y": 19551,
+          "x": 118610,
+          "y": 21682,
           "id": "7d392870-cf3d-445e-89bf-72db47d799a0"
         },
         "28699e40-383f-4056-b81d-9ac2e58975fd": {
           "label": "Books",
-          "x": 118711,
-          "y": 19401,
+          "x": 118700,
+          "y": 21532,
           "id": "28699e40-383f-4056-b81d-9ac2e58975fd"
         },
         "a5365393-a7ef-4cf4-80a8-170c5e4040c9": {
           "label": "R&D institutions",
-          "x": 118741,
-          "y": 19426,
+          "x": 118730,
+          "y": 21557,
           "id": "a5365393-a7ef-4cf4-80a8-170c5e4040c9"
         },
         "6233a1ef-eea0-4b18-9576-76175d53f457": {
           "label": "Sites",
-          "x": 118707,
-          "y": 19451,
+          "x": 118696,
+          "y": 21582,
           "id": "6233a1ef-eea0-4b18-9576-76175d53f457"
         },
         "c583d138-a215-4f29-b09d-4de782b0d253": {
           "label": "Magazines",
-          "x": 118726,
-          "y": 19476,
+          "x": 118715,
+          "y": 21607,
           "id": "c583d138-a215-4f29-b09d-4de782b0d253"
         },
         "e6c6de9a-66c5-4cda-833e-570a085fafde": {
           "label": "Articles",
-          "x": 118714,
-          "y": 19501,
+          "x": 118703,
+          "y": 21632,
           "id": "e6c6de9a-66c5-4cda-833e-570a085fafde"
         },
         "f02378a5-d0fd-4111-bf5d-1d2da82e2a4b": {
           "label": "Media content",
-          "x": 118736,
-          "y": 19526,
+          "x": 118725,
+          "y": 21657,
           "id": "f02378a5-d0fd-4111-bf5d-1d2da82e2a4b"
         },
         "6bfa4cd5-3610-4ed8-b943-fc897eda73a8": {
           "label": "Misc. web links",
-          "x": 118739,
-          "y": 19551,
+          "x": 118728,
+          "y": 21682,
           "id": "6bfa4cd5-3610-4ed8-b943-fc897eda73a8"
         },
         "37940cea-66ec-4205-8610-861cdf2b4429": {
           "label": "Projects",
-          "x": 118717,
-          "y": 19576,
+          "x": 118706,
+          "y": 21707,
           "id": "37940cea-66ec-4205-8610-861cdf2b4429"
         },
         "992df29a-97c2-4bae-b001-48f181739d63": {
           "label": "Tools",
-          "x": 118708,
-          "y": 19601,
+          "x": 118697,
+          "y": 21732,
           "id": "992df29a-97c2-4bae-b001-48f181739d63"
         },
         "eae00597-2f41-454e-b7eb-cfd259553b22": {
           "label": "Organizations",
-          "x": 118735,
-          "y": 19626,
+          "x": 118724,
+          "y": 21757,
           "id": "eae00597-2f41-454e-b7eb-cfd259553b22"
         },
         "e398e893-d816-4907-b990-47a6217c07a6": {
           "label": "Standarts",
-          "x": 118722,
-          "y": 19651,
+          "x": 118711,
+          "y": 21782,
           "id": "e398e893-d816-4907-b990-47a6217c07a6"
         },
         "f1b2907e-cbe8-4a2e-9e39-9fb2a38c270b": {
           "label": "Forums, Groups",
-          "x": 118743,
-          "y": 19676,
+          "x": 118732,
+          "y": 21807,
           "id": "f1b2907e-cbe8-4a2e-9e39-9fb2a38c270b"
         },
         "07127725-0c4d-47e4-abe5-4efee925bbc3": {
           "label": "Laws",
-          "x": 118708,
-          "y": 19701,
+          "x": 118697,
+          "y": 21832,
           "id": "07127725-0c4d-47e4-abe5-4efee925bbc3"
         },
         "16aa856f-b87f-4372-b5d8-af7a81d54524": {
           "label": "Adjacent Themes",
-          "x": 118747,
-          "y": 19726,
+          "x": 118736,
+          "y": 21857,
           "id": "16aa856f-b87f-4372-b5d8-af7a81d54524"
         },
         "cf7e3493-5128-458c-a5cc-85553c1562b3": {
           "label": "Questions",
-          "x": 118487,
-          "y": 19851,
+          "x": 118476,
+          "y": 21982,
           "id": "cf7e3493-5128-458c-a5cc-85553c1562b3"
         },
         "91f761b8-7324-47ad-934d-7589ed88ad32": {
           "label": "Problems",
-          "x": 118485,
-          "y": 19951,
+          "x": 118474,
+          "y": 22082,
           "id": "91f761b8-7324-47ad-934d-7589ed88ad32"
         },
         "21d87af9-0c7e-4b05-a98e-3c7530d1553c": {
           "label": "Goals",
-          "x": 118473,
-          "y": 20051,
+          "x": 118462,
+          "y": 22182,
           "id": "21d87af9-0c7e-4b05-a98e-3c7530d1553c"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393368198029149289451925101827425226726428826467299386878055898911497437134": {
@@ -30224,8 +30228,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Exceptions",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393368198029149289451925101827425226726428826467299386878055898911497437134",
-          "x": 122151,
-          "y": 17464,
+          "x": 122140,
+          "y": 19595,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -30260,8 +30264,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Encoding",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393368198029149289451925101827425226726428826467299386878055898911497437134894",
-          "x": 121790,
-          "y": 19406,
+          "x": 121779,
+          "y": 21537,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -31022,8 +31026,8 @@ var schemeData =
         },
         "eb65639e-9a80-4333-b8c2-9e926eb9f20c": {
           "id": "eb65639e-9a80-4333-b8c2-9e926eb9f20c",
-          "x": 118557,
-          "y": 3091,
+          "x": 118546,
+          "y": 5222,
           "label": "Multiline strings",
           "shape": "box",
           "link": "",
@@ -31039,8 +31043,8 @@ var schemeData =
         },
         "2744de64-7709-401e-bfdc-7480172fa22a": {
           "id": "2744de64-7709-401e-bfdc-7480172fa22a",
-          "x": 118787,
-          "y": 3097,
+          "x": 118776,
+          "y": 5228,
           "label": "var a = \"line1 \\\nline2 \\\nline3\";",
           "shape": "box",
           "link": "",
@@ -31056,39 +31060,39 @@ var schemeData =
         },
         "d10c7e68-4ed4-4741-8fc2-fc6c4d4023a5": {
           "id": "d10c7e68-4ed4-4741-8fc2-fc6c4d4023a5",
-          "x": 119052,
-          "y": 3092,
+          "x": 119041,
+          "y": 5223,
           "label": "some browsers can add \"new line\" after each line."
         },
         "6f443083-f076-4866-82d0-7ea571cd65f3": {
           "id": "6f443083-f076-4866-82d0-7ea571cd65f3",
-          "x": 118783,
-          "y": 3172,
+          "x": 118772,
+          "y": 5303,
           "label": "var a = `line1\nline2\nline3`;"
         },
         "09d18346-144d-435e-8bc4-add022b19b69": {
           "id": "09d18346-144d-435e-8bc4-add022b19b69",
-          "x": 118923,
-          "y": 3170,
+          "x": 118912,
+          "y": 5301,
           "label": "Best way"
         },
         "9752401f-ba67-4803-9905-25055942d433": {
           "id": "9752401f-ba67-4803-9905-25055942d433",
-          "x": 118790,
-          "y": 1297,
+          "x": 118779,
+          "y": 3428,
           "label": "metacharacters"
         },
         "149ef38a-ae3a-489c-a44a-90a53e9ab2c0": {
           "id": "149ef38a-ae3a-489c-a44a-90a53e9ab2c0",
-          "x": 118942,
-          "y": 1298,
+          "x": 118931,
+          "y": 3429,
           "label": "\\s - space"
         },
         "586849b5-1b80-41a6-8a00-acb47c89b3f9": {
           "label": "\\S - any nonspace",
           "link": "",
-          "x": 118969,
-          "y": 1322,
+          "x": 118958,
+          "y": 3453,
           "id": "586849b5-1b80-41a6-8a00-acb47c89b3f9",
           "color": {
             "highlight": {
@@ -31127,14 +31131,14 @@ var schemeData =
         },
         "d2d12c52-c085-4017-b8ce-3e1c9b65b9e7": {
           "id": "d2d12c52-c085-4017-b8ce-3e1c9b65b9e7",
-          "x": 118527,
-          "y": 2969,
+          "x": 118516,
+          "y": 5100,
           "label": "match"
         },
         "ad218950-61ec-4be0-9225-4dc33cac45d1": {
           "id": "ad218950-61ec-4be0-9225-4dc33cac45d1",
-          "x": 118852,
-          "y": 2964,
+          "x": 118841,
+          "y": 5095,
           "label": "\"   \".item.match(/\\s/g) -> [\" \", \" \", \" \"]",
           "shape": "box",
           "link": "",
@@ -31150,21 +31154,21 @@ var schemeData =
         },
         "079ed35a-00f1-4c9f-8074-9197c311de77": {
           "id": "079ed35a-00f1-4c9f-8074-9197c311de77",
-          "x": 118910,
-          "y": 3010,
+          "x": 118899,
+          "y": 5141,
           "label": "\"   asdf6\".match(/\\s/) -> [\" \", index: 0, input: \"   asdf6\"]"
         },
         "94cfcee5-2518-41f5-985d-f01be839f4d8": {
           "id": "94cfcee5-2518-41f5-985d-f01be839f4d8",
-          "x": 118790,
-          "y": 1421,
+          "x": 118779,
+          "y": 3552,
           "label": "Multiline search"
         },
         "9ea96b65-20a9-4d8b-9fd4-ae28c5ddf4f7": {
           "label": "[\\s\\S]*",
           "link": "",
-          "x": 118935,
-          "y": 1385,
+          "x": 118924,
+          "y": 3516,
           "id": "9ea96b65-20a9-4d8b-9fd4-ae28c5ddf4f7",
           "color": {
             "highlight": {
@@ -31204,8 +31208,8 @@ var schemeData =
         "1b17997b-32d6-4400-8426-c17d45b5c376": {
           "label": "All through newlines. E.g. to the end of text.",
           "link": "",
-          "x": 119147,
-          "y": 1385,
+          "x": 119136,
+          "y": 3516,
           "id": "1b17997b-32d6-4400-8426-c17d45b5c376",
           "color": {
             "highlight": {
@@ -31248,33 +31252,33 @@ var schemeData =
         },
         "a3797bca-be0f-4f5e-973f-5214829f420a": {
           "id": "a3797bca-be0f-4f5e-973f-5214829f420a",
-          "x": 119082,
-          "y": 1430,
+          "x": 119071,
+          "y": 3561,
           "label": "As of ES2018, JavaScript supports the s (dotAll) flag"
         },
         "2f1aa576-240b-484f-9bb4-334364137294": {
           "id": "2f1aa576-240b-484f-9bb4-334364137294",
-          "x": 119195,
-          "y": 1463,
+          "x": 119184,
+          "y": 3594,
           "label": "https://stackoverflow.com/questions/1068280/javascript-regex-multiline-flag-doesnt-work",
           "link": "https://stackoverflow.com/questions/1068280/javascript-regex-multiline-flag-doesnt-work"
         },
         "f00f3c0a-0e06-40c2-8d61-a1f70da2bedb": {
           "id": "f00f3c0a-0e06-40c2-8d61-a1f70da2bedb",
-          "x": 118808,
-          "y": 1526,
+          "x": 118797,
+          "y": 3657,
           "label": "Remove empty lines"
         },
         "846f4718-8f32-47af-8c1a-3532698eb7be": {
           "id": "846f4718-8f32-47af-8c1a-3532698eb7be",
-          "x": 118948,
-          "y": 1530,
+          "x": 118937,
+          "y": 3661,
           "label": "/^\\s*\\n/gm"
         },
         "0fecc68e-3c7d-459f-9647-7d402c75033f": {
           "id": "0fecc68e-3c7d-459f-9647-7d402c75033f",
-          "x": 119173,
-          "y": 1531,
+          "x": 119162,
+          "y": 3662,
           "label": "https://stackoverflow.com/questions/16369642",
           "link": "https://stackoverflow.com/questions/16369642/javascript-how-to-use-a-regular-expression-to-remove-blank-lines-from-a-string",
           "shape": "box",
@@ -31290,8 +31294,8 @@ var schemeData =
         },
         "7a12757e-0d64-4292-a4ae-59b040928061": {
           "id": "7a12757e-0d64-4292-a4ae-59b040928061",
-          "x": 118808,
-          "y": 1611,
+          "x": 118797,
+          "y": 3742,
           "label": "use a variable in \na regular expression",
           "shape": "box",
           "link": "",
@@ -31307,14 +31311,14 @@ var schemeData =
         },
         "7e29aec6-c8b7-407b-a2ad-fe48de3d46a6": {
           "id": "7e29aec6-c8b7-407b-a2ad-fe48de3d46a6",
-          "x": 119025,
-          "y": 1617,
+          "x": 119014,
+          "y": 3748,
           "label": "var replace = \"regex\";\nvar re = new RegExp(replace,\"g\");\n\"mystring\".replace(re, \"newstring\");"
         },
         "a9f89011-69f8-47d0-89e3-07fefc67f76d": {
           "id": "a9f89011-69f8-47d0-89e3-07fefc67f76d",
-          "x": 119295,
-          "y": 1614,
+          "x": 119284,
+          "y": 3745,
           "label": "https://stackoverflow.com/questions/494035",
           "link": "https://stackoverflow.com/questions/494035"
         },
@@ -31333,8 +31337,8 @@ var schemeData =
         },
         "791d59df-1931-4775-9657-0d8cea4f7744": {
           "id": "791d59df-1931-4775-9657-0d8cea4f7744",
-          "x": 118616,
-          "y": -2770,
+          "x": 118625,
+          "y": -2650,
           "label": "Sort"
         },
         "da9c0267-55b1-4b8e-b38d-3a6ec9e3d3ca": {
@@ -32294,7 +32298,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -32322,8 +32327,1530 @@ var schemeData =
           "x": 66187,
           "y": -9190,
           "shape": "box",
-          "link": "javascript.html",
+          "link": "python.html",
           "borderWidth": ""
+        },
+        "10826001-1118-4712-aa9d-8834f87e5d9a": {
+          "label": "Fetch API",
+          "x": 117449,
+          "y": 24949,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "10826001-1118-4712-aa9d-8834f87e5d9a",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "7230a556-e9e7-4ea4-aaca-1933c5a9058d": {
+          "label": "Development",
+          "x": 117749,
+          "y": 25399,
+          "id": "7230a556-e9e7-4ea4-aaca-1933c5a9058d"
+        },
+        "1baf0856-c118-4ea6-8010-a686580af3c3": {
+          "label": "12/22/2019",
+          "x": 117882,
+          "y": 25399,
+          "id": "1baf0856-c118-4ea6-8010-a686580af3c3"
+        },
+        "72cca0cc-818b-4f62-89c4-94c3b8f96192": {
+          "label": "init",
+          "x": 117999,
+          "y": 25399,
+          "id": "72cca0cc-818b-4f62-89c4-94c3b8f96192"
+        },
+        "64202c41-ad66-44e9-ab3d-8a32c11babee": {
+          "label": "Notes",
+          "x": 117717,
+          "y": 24176,
+          "id": "64202c41-ad66-44e9-ab3d-8a32c11babee"
+        },
+        "a23c5b16-f799-4626-946c-abcd60bca84b": {
+          "label": "Dictionary of\nconcepts",
+          "x": 117944,
+          "y": 23270,
+          "id": "a23c5b16-f799-4626-946c-abcd60bca84b"
+        },
+        "f619de93-4c82-4e6a-a82c-1e25431719b7": {
+          "label": "Details, thoughts",
+          "x": 117891,
+          "y": 24176,
+          "id": "f619de93-4c82-4e6a-a82c-1e25431719b7"
+        },
+        "7eb8e784-f49f-4f64-9fe5-4b958e670087": {
+          "label": "Sections",
+          "x": 117873,
+          "y": 24799,
+          "id": "7eb8e784-f49f-4f64-9fe5-4b958e670087"
+        },
+        "8443a599-2730-462d-a041-3d3f5d2fed3e": {
+          "label": "Books",
+          "x": 117955,
+          "y": 24276,
+          "id": "8443a599-2730-462d-a041-3d3f5d2fed3e"
+        },
+        "23afbccf-c863-4ccd-91b7-e52be76117f1": {
+          "label": "R&D institutions",
+          "x": 117985,
+          "y": 24301,
+          "id": "23afbccf-c863-4ccd-91b7-e52be76117f1"
+        },
+        "a4988405-ff80-4908-92fe-67717a07b881": {
+          "label": "Sites",
+          "x": 117951,
+          "y": 24326,
+          "id": "a4988405-ff80-4908-92fe-67717a07b881"
+        },
+        "6f7c1a14-3241-46cf-956e-e33e3cd5fb56": {
+          "label": "Magazines",
+          "x": 117970,
+          "y": 24351,
+          "id": "6f7c1a14-3241-46cf-956e-e33e3cd5fb56"
+        },
+        "5e7ce291-85af-47e1-b05f-1955a08781f9": {
+          "label": "Articles",
+          "x": 117958,
+          "y": 24376,
+          "id": "5e7ce291-85af-47e1-b05f-1955a08781f9"
+        },
+        "67b2a51a-b1e2-4e77-a51d-4b9e9f42a804": {
+          "label": "Media content",
+          "x": 117980,
+          "y": 24401,
+          "id": "67b2a51a-b1e2-4e77-a51d-4b9e9f42a804"
+        },
+        "c3ac9471-c54a-4441-a537-350c1a3ee8f0": {
+          "label": "Misc. web links",
+          "x": 117983,
+          "y": 24616,
+          "id": "c3ac9471-c54a-4441-a537-350c1a3ee8f0"
+        },
+        "9dc60ac7-2364-4e79-8779-8ebc92d24082": {
+          "label": "Projects",
+          "x": 117961,
+          "y": 24824,
+          "id": "9dc60ac7-2364-4e79-8779-8ebc92d24082"
+        },
+        "31966fdb-d71e-4349-8fb0-97a765b77fb7": {
+          "label": "Tools",
+          "x": 117952,
+          "y": 24849,
+          "id": "31966fdb-d71e-4349-8fb0-97a765b77fb7"
+        },
+        "52f276cd-8d65-4b32-9cb1-28c63e74e6db": {
+          "label": "Organizations",
+          "x": 117979,
+          "y": 24874,
+          "id": "52f276cd-8d65-4b32-9cb1-28c63e74e6db"
+        },
+        "ad497eae-9c8f-4921-af18-fd3bcd37f1b9": {
+          "label": "Standarts",
+          "x": 117966,
+          "y": 24899,
+          "id": "ad497eae-9c8f-4921-af18-fd3bcd37f1b9"
+        },
+        "c00f4639-63fd-4ac9-a5fb-52c8c9b6ca45": {
+          "label": "Forums, Groups",
+          "x": 117987,
+          "y": 24924,
+          "id": "c00f4639-63fd-4ac9-a5fb-52c8c9b6ca45"
+        },
+        "9154d939-acf6-4033-ae86-72397b76943d": {
+          "label": "Laws",
+          "x": 117952,
+          "y": 24949,
+          "id": "9154d939-acf6-4033-ae86-72397b76943d"
+        },
+        "c67f5497-38f5-43ff-8541-3f3bfe3ed558": {
+          "label": "Adjacent Themes",
+          "x": 117991,
+          "y": 24974,
+          "id": "c67f5497-38f5-43ff-8541-3f3bfe3ed558"
+        },
+        "3a3e3fdc-9148-4220-8a9a-6427903e8253": {
+          "label": "Questions",
+          "x": 117739,
+          "y": 25099,
+          "id": "3a3e3fdc-9148-4220-8a9a-6427903e8253"
+        },
+        "82ff3a7b-d250-4883-be80-d6b428746e0f": {
+          "label": "Problems",
+          "x": 117737,
+          "y": 25199,
+          "id": "82ff3a7b-d250-4883-be80-d6b428746e0f"
+        },
+        "5af44f61-1dcc-4110-a7cf-bdbf54fc573a": {
+          "label": "Goals",
+          "x": 117726,
+          "y": 25299,
+          "id": "5af44f61-1dcc-4110-a7cf-bdbf54fc573a"
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393368198029149289451925101827425226726428826467299386878055898911497437134894575": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Fetch API",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393368198029149289451925101827425226726428826467299386878055898911497437134894575",
+          "x": 121890,
+          "y": 23572,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f9c4c7ef-e528-478e-9d0a-aeedad414930": {
+          "id": "f9c4c7ef-e528-478e-9d0a-aeedad414930",
+          "x": 118315,
+          "y": 24515,
+          "label": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        },
+        "e5974e6b-fd70-4ac9-afa8-4412bca91f50": {
+          "id": "e5974e6b-fd70-4ac9-afa8-4412bca91f50",
+          "x": 118357,
+          "y": 24579,
+          "label": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+        },
+        "ae7d0b20-68d5-43e4-a972-6513759bce2b": {
+          "id": "ae7d0b20-68d5-43e4-a972-6513759bce2b",
+          "x": 118205,
+          "y": 24637,
+          "label": "https://javascript.info/fetch",
+          "link": "https://javascript.info/fetch"
+        },
+        "9392faff-26a7-43c7-9e98-5dc8d87c5f0f": {
+          "id": "9392faff-26a7-43c7-9e98-5dc8d87c5f0f",
+          "x": 118354,
+          "y": 24680,
+          "label": "https://developers.google.com/web/updates/2015/03/introduction-to-fetch",
+          "link": "https://developers.google.com/web/updates/2015/03/introduction-to-fetch"
+        },
+        "97864572-e6e6-41dd-9f54-4d2e63b0f429": {
+          "id": "97864572-e6e6-41dd-9f54-4d2e63b0f429",
+          "x": 118349,
+          "y": 24720,
+          "label": "https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data",
+          "link": "https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data"
+        },
+        "851c0eb4-038d-4fb8-8b85-3ad9bb9de247": {
+          "id": "851c0eb4-038d-4fb8-8b85-3ad9bb9de247",
+          "x": 118456,
+          "y": 24764,
+          "label": "https://codingthesmartway.com/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript/",
+          "link": "https://codingthesmartway.com/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript/"
+        },
+        "98d6ed2b-106d-4b04-ab9e-b19f776fe14c": {
+          "label": "Web APIs",
+          "x": 118144,
+          "y": 27469,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "98d6ed2b-106d-4b04-ab9e-b19f776fe14c",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "4b551bf2-1466-4220-8d5b-dca540291a1f": {
+          "label": "Development",
+          "x": 118444,
+          "y": 27919,
+          "id": "4b551bf2-1466-4220-8d5b-dca540291a1f"
+        },
+        "5dbda832-e23b-4b80-a83e-ced0a821c47c": {
+          "label": "12/22/2019",
+          "x": 118577,
+          "y": 27919,
+          "id": "5dbda832-e23b-4b80-a83e-ced0a821c47c"
+        },
+        "8a79ef0b-fdbf-44fc-8472-f480760c9c52": {
+          "label": "init",
+          "x": 118694,
+          "y": 27919,
+          "id": "8a79ef0b-fdbf-44fc-8472-f480760c9c52"
+        },
+        "2aaaa27f-717b-4a4d-a7ce-0f81636234a5": {
+          "label": "Notes",
+          "x": 118424,
+          "y": 26857,
+          "id": "2aaaa27f-717b-4a4d-a7ce-0f81636234a5"
+        },
+        "3546c94a-f06b-44ac-a736-a3b20902cf9a": {
+          "label": "Dictionary of\nconcepts",
+          "x": 118600,
+          "y": 26416,
+          "id": "3546c94a-f06b-44ac-a736-a3b20902cf9a"
+        },
+        "369e5464-05d0-44a3-8d03-c34f6453fa2c": {
+          "label": "Details, thoughts",
+          "x": 118598,
+          "y": 26857,
+          "id": "369e5464-05d0-44a3-8d03-c34f6453fa2c"
+        },
+        "5dde517f-15db-4d06-87cc-a7660b611d5f": {
+          "label": "Sections",
+          "x": 118568,
+          "y": 27319,
+          "id": "5dde517f-15db-4d06-87cc-a7660b611d5f"
+        },
+        "87a084df-69a4-4468-b14f-7944245c72cf": {
+          "label": "Books",
+          "x": 118658,
+          "y": 26957,
+          "id": "87a084df-69a4-4468-b14f-7944245c72cf"
+        },
+        "e4b82bb2-1899-4101-bdcb-3deead62d5e1": {
+          "label": "R&D institutions",
+          "x": 118688,
+          "y": 26982,
+          "id": "e4b82bb2-1899-4101-bdcb-3deead62d5e1"
+        },
+        "60b88514-caac-4466-b344-fe1705056e86": {
+          "label": "Sites",
+          "x": 118654,
+          "y": 27007,
+          "id": "60b88514-caac-4466-b344-fe1705056e86"
+        },
+        "9c4bd20b-0e82-4126-b389-b0f06b2bbea2": {
+          "label": "Magazines",
+          "x": 118673,
+          "y": 27032,
+          "id": "9c4bd20b-0e82-4126-b389-b0f06b2bbea2"
+        },
+        "5c0f25dd-f9d1-4b10-9c49-b3f416e2ba27": {
+          "label": "Articles",
+          "x": 118661,
+          "y": 27057,
+          "id": "5c0f25dd-f9d1-4b10-9c49-b3f416e2ba27"
+        },
+        "42507356-ea82-46c2-94d9-3de785abe6f3": {
+          "label": "Media content",
+          "x": 118683,
+          "y": 27082,
+          "id": "42507356-ea82-46c2-94d9-3de785abe6f3"
+        },
+        "06f151e3-de24-406b-b70f-dfc5964bcb5d": {
+          "label": "Misc. web links",
+          "x": 118686,
+          "y": 27214,
+          "id": "06f151e3-de24-406b-b70f-dfc5964bcb5d"
+        },
+        "9c6d96ea-4909-4619-95e7-492ccdb72b0f": {
+          "label": "Projects",
+          "x": 118664,
+          "y": 27344,
+          "id": "9c6d96ea-4909-4619-95e7-492ccdb72b0f"
+        },
+        "e4a97579-a02f-4fdb-940e-39d6c895cf3d": {
+          "label": "Tools",
+          "x": 118655,
+          "y": 27369,
+          "id": "e4a97579-a02f-4fdb-940e-39d6c895cf3d"
+        },
+        "5078d78b-1066-4a0c-a19b-4f8df3faad79": {
+          "label": "Organizations",
+          "x": 118682,
+          "y": 27394,
+          "id": "5078d78b-1066-4a0c-a19b-4f8df3faad79"
+        },
+        "a3f27fea-460c-4406-a366-37ea0911a640": {
+          "label": "Standarts",
+          "x": 118669,
+          "y": 27419,
+          "id": "a3f27fea-460c-4406-a366-37ea0911a640"
+        },
+        "0d6c19e6-d3aa-4fed-98b9-f85a7505f0f1": {
+          "label": "Forums, Groups",
+          "x": 118690,
+          "y": 27444,
+          "id": "0d6c19e6-d3aa-4fed-98b9-f85a7505f0f1"
+        },
+        "39b1df43-e02a-4503-8fa4-dbbac1e53e65": {
+          "label": "Laws",
+          "x": 118655,
+          "y": 27469,
+          "id": "39b1df43-e02a-4503-8fa4-dbbac1e53e65"
+        },
+        "6ee1b4ce-bc8b-4ecc-a291-797d89c9ff97": {
+          "label": "Adjacent Themes",
+          "x": 118694,
+          "y": 27494,
+          "id": "6ee1b4ce-bc8b-4ecc-a291-797d89c9ff97"
+        },
+        "6dde479f-3bbc-4615-8460-c322c82cda56": {
+          "label": "Questions",
+          "x": 118434,
+          "y": 27619,
+          "id": "6dde479f-3bbc-4615-8460-c322c82cda56"
+        },
+        "4999c4f7-eacf-4d42-bac3-a47feb196e56": {
+          "label": "Problems",
+          "x": 118432,
+          "y": 27719,
+          "id": "4999c4f7-eacf-4d42-bac3-a47feb196e56"
+        },
+        "2e3d15a9-61ee-4e5c-a062-82c7c2f74678": {
+          "label": "Goals",
+          "x": 118420,
+          "y": 27819,
+          "id": "2e3d15a9-61ee-4e5c-a062-82c7c2f74678"
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939336819802914928945192510182742522672642882646729938687805589891149743713489457582": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Web APIs",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939336819802914928945192510182742522672642882646729938687805589891149743713489457582",
+          "x": 121908,
+          "y": 26867,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d9969e61-49db-48d8-8da1-faffa8746274": {
+          "id": "d9969e61-49db-48d8-8da1-faffa8746274",
+          "x": 118749,
+          "y": 26403,
+          "label": "List"
+        },
+        "37316c2b-c311-40ec-b939-943c5293887d": {
+          "id": "37316c2b-c311-40ec-b939-943c5293887d",
+          "x": 119004,
+          "y": 27210,
+          "label": "https://developer.mozilla.org/en-US/docs/Web/API",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/API"
+        },
+        "d11cc4db-6e3d-403c-b420-206960296a13": {
+          "label": "Asynchronous\nJavaScript",
+          "x": 116844,
+          "y": 31023,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "d11cc4db-6e3d-403c-b420-206960296a13",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "56e3644e-6e31-4636-a75e-1c8b16623e22": {
+          "label": "Development",
+          "x": 117144,
+          "y": 31473,
+          "id": "56e3644e-6e31-4636-a75e-1c8b16623e22"
+        },
+        "787f1563-b810-4115-83b2-fea80c710e20": {
+          "label": "12/22/2019",
+          "x": 117277,
+          "y": 31473,
+          "id": "787f1563-b810-4115-83b2-fea80c710e20"
+        },
+        "26a020d6-09ce-47e6-84a8-958181c6f4c3": {
+          "label": "init",
+          "x": 117394,
+          "y": 31473,
+          "id": "26a020d6-09ce-47e6-84a8-958181c6f4c3"
+        },
+        "d35150c0-b796-4519-8839-67bd0d16936f": {
+          "label": "Notes",
+          "x": 117124,
+          "y": 30218,
+          "id": "d35150c0-b796-4519-8839-67bd0d16936f"
+        },
+        "f90f677f-8a68-4c63-9dfa-461cd7b7a350": {
+          "label": "Dictionary of\nconcepts",
+          "x": 117353,
+          "y": 29038,
+          "id": "f90f677f-8a68-4c63-9dfa-461cd7b7a350"
+        },
+        "a313c916-1cdc-4129-890b-9c9157d73413": {
+          "label": "Details, thoughts",
+          "x": 117297,
+          "y": 30218,
+          "id": "a313c916-1cdc-4129-890b-9c9157d73413"
+        },
+        "4734cad4-97b3-439e-a8d4-10609cd4ff61": {
+          "label": "Sections",
+          "x": 117268,
+          "y": 30873,
+          "id": "4734cad4-97b3-439e-a8d4-10609cd4ff61"
+        },
+        "04d34bff-ca2e-46ec-b121-30c2d2ac37c9": {
+          "label": "Books",
+          "x": 117361,
+          "y": 30318,
+          "id": "04d34bff-ca2e-46ec-b121-30c2d2ac37c9"
+        },
+        "318e46e2-10f5-4098-99de-2ea29a2bc475": {
+          "label": "R&D institutions",
+          "x": 117392,
+          "y": 30343,
+          "id": "318e46e2-10f5-4098-99de-2ea29a2bc475"
+        },
+        "1e123a78-c46a-41b6-b767-c85227bb1619": {
+          "label": "Sites",
+          "x": 117357,
+          "y": 30368,
+          "id": "1e123a78-c46a-41b6-b767-c85227bb1619"
+        },
+        "0d4fd309-fe62-44b2-bd23-7ef2ccdef044": {
+          "label": "Magazines",
+          "x": 117376,
+          "y": 30393,
+          "id": "0d4fd309-fe62-44b2-bd23-7ef2ccdef044"
+        },
+        "ca76d49d-46ce-4949-ab40-2d4fbe53374f": {
+          "label": "Articles",
+          "x": 117365,
+          "y": 30418,
+          "id": "ca76d49d-46ce-4949-ab40-2d4fbe53374f"
+        },
+        "73930a64-7266-4449-94a4-89dd541ad6a8": {
+          "label": "Media content",
+          "x": 117387,
+          "y": 30443,
+          "id": "73930a64-7266-4449-94a4-89dd541ad6a8"
+        },
+        "943edb5b-8b26-44fd-ab73-e9437ea337fb": {
+          "label": "Misc. web links",
+          "x": 117401,
+          "y": 30686,
+          "id": "943edb5b-8b26-44fd-ab73-e9437ea337fb"
+        },
+        "c0bf1f13-4477-4ee6-ac6d-6e7c97016ae6": {
+          "label": "Projects",
+          "x": 117364,
+          "y": 30898,
+          "id": "c0bf1f13-4477-4ee6-ac6d-6e7c97016ae6"
+        },
+        "64a78eea-1e14-4cc8-bf68-0ca8e8eb941f": {
+          "label": "Tools",
+          "x": 117355,
+          "y": 30923,
+          "id": "64a78eea-1e14-4cc8-bf68-0ca8e8eb941f"
+        },
+        "952d701d-52d7-4aa9-9453-9df06259b3ac": {
+          "label": "Organizations",
+          "x": 117383,
+          "y": 30948,
+          "id": "952d701d-52d7-4aa9-9453-9df06259b3ac"
+        },
+        "1ef5552e-fb01-4f2a-95a4-98d9d9bcb04a": {
+          "label": "Standarts",
+          "x": 117369,
+          "y": 30973,
+          "id": "1ef5552e-fb01-4f2a-95a4-98d9d9bcb04a"
+        },
+        "d6cef63f-75dc-477e-8ab5-b3cbce4ef9b9": {
+          "label": "Forums, Groups",
+          "x": 117391,
+          "y": 30998,
+          "id": "d6cef63f-75dc-477e-8ab5-b3cbce4ef9b9"
+        },
+        "9e9bb483-a339-4238-8ada-b6150813cdf7": {
+          "label": "Laws",
+          "x": 117355,
+          "y": 31023,
+          "id": "9e9bb483-a339-4238-8ada-b6150813cdf7"
+        },
+        "b2e40438-32ce-4b0a-8960-f26772b261f0": {
+          "label": "Adjacent Themes",
+          "x": 117394,
+          "y": 31048,
+          "id": "b2e40438-32ce-4b0a-8960-f26772b261f0"
+        },
+        "a5727399-f504-490a-895a-5aca3566efdc": {
+          "label": "Questions",
+          "x": 117134,
+          "y": 31173,
+          "id": "a5727399-f504-490a-895a-5aca3566efdc"
+        },
+        "0fcf3fe6-0562-4ef7-becb-722cb049ee99": {
+          "label": "Problems",
+          "x": 117132,
+          "y": 31273,
+          "id": "0fcf3fe6-0562-4ef7-becb-722cb049ee99"
+        },
+        "aeac19ca-8851-4e7d-beba-cfd8d76151b5": {
+          "label": "Goals",
+          "x": 117121,
+          "y": 31373,
+          "id": "aeac19ca-8851-4e7d-beba-cfd8d76151b5"
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780558989114974371348945758293": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Asynchronous\nJavaScript",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993868780558989114974371348945758293",
+          "x": 122862,
+          "y": 29849,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "096703f2-b46e-429b-b012-889230f3c248": {
+          "id": "096703f2-b46e-429b-b012-889230f3c248",
+          "x": 118128,
+          "y": 23240,
+          "label": "Example"
+        },
+        "ad4b4513-6174-4909-afa1-5443a92b584f": {
+          "id": "ad4b4513-6174-4909-afa1-5443a92b584f",
+          "x": 118475,
+          "y": 23319,
+          "label": "var url = \"https://en.wikipedia.org/w/api.php\"; \n\nvar params = {\n    action: \"query\",\n    format: \"json\",\n    prop: \"categories\",\n    titles: \"Janelle Monáe\"\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\n        var pages = response.query.pages;\n        for (var p in pages) {\n            for (var cat of pages[p].categories) {\n                console.log(cat.title);\n            }\n        }\n    })\n    .catch(function(error){console.log(error);});"
+        },
+        "48c0375b-30ba-48bc-ab1a-ebe596ca583e": {
+          "id": "48c0375b-30ba-48bc-ab1a-ebe596ca583e",
+          "x": 118782,
+          "y": -2616,
+          "label": "reverse()"
+        },
+        "5bc0c91c-5652-44a7-a370-acae0d10220b": {
+          "id": "5bc0c91c-5652-44a7-a370-acae0d10220b",
+          "x": 119032,
+          "y": -2334,
+          "label": "https://www.w3schools.com/js/js_array_sort.asp",
+          "link": "https://www.w3schools.com/js/js_array_sort.asp"
+        },
+        "fc62edab-8b21-49f1-8d97-df16fa5a7e51": {
+          "id": "fc62edab-8b21-49f1-8d97-df16fa5a7e51",
+          "x": 119029,
+          "y": -2308,
+          "label": "https://www.w3schools.com/jsref/jsref_sort.asp",
+          "link": "https://www.w3schools.com/jsref/jsref_sort.asp"
+        },
+        "076bda96-253e-48ce-8dc8-203e2020a79a": {
+          "id": "076bda96-253e-48ce-8dc8-203e2020a79a",
+          "x": 119089,
+          "y": -2282,
+          "label": "https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11",
+          "link": "https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11"
+        },
+        "6a00bc27-4358-4473-b893-9f11385cf6b6": {
+          "id": "6a00bc27-4358-4473-b893-9f11385cf6b6",
+          "x": 118764,
+          "y": -2324,
+          "label": "Links"
+        },
+        "b0f597a5-745f-4dda-bd3b-4828a1d446ad": {
+          "id": "b0f597a5-745f-4dda-bd3b-4828a1d446ad",
+          "x": 118772,
+          "y": -2506,
+          "label": ".sort()"
+        },
+        "01623a5f-8cb5-4828-b229-9cdefc55eec1": {
+          "id": "01623a5f-8cb5-4828-b229-9cdefc55eec1",
+          "x": 119017,
+          "y": -2517,
+          "label": ".sort() sort as strings. Don't work with numeric."
+        },
+        "9ae85878-3f38-44aa-ae82-99ed4136837b": {
+          "id": "9ae85878-3f38-44aa-ae82-99ed4136837b",
+          "x": 118992,
+          "y": -2474,
+          "label": "points.sort(function(a, b){return b - a});"
+        },
+        "d414fd00-65fc-4641-bcd5-a037692aff38": {
+          "id": "d414fd00-65fc-4641-bcd5-a037692aff38",
+          "x": 119219,
+          "y": -2474,
+          "label": "descending order"
+        },
+        "38c1467f-bdb2-4828-95fc-3f4bebda1976": {
+          "label": "Debugging",
+          "x": 105842,
+          "y": 24031,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "38c1467f-bdb2-4828-95fc-3f4bebda1976",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "630d690e-41af-4cd8-843d-bb8671982e73": {
+          "label": "Development",
+          "x": 106142,
+          "y": 24481,
+          "id": "630d690e-41af-4cd8-843d-bb8671982e73"
+        },
+        "9004991d-6f65-46b3-a65e-362fe60df4a4": {
+          "label": "12/23/2019",
+          "x": 106275,
+          "y": 24481,
+          "id": "9004991d-6f65-46b3-a65e-362fe60df4a4"
+        },
+        "210b86ff-5965-4a8e-a727-10f85ed6a295": {
+          "label": "init",
+          "x": 106392,
+          "y": 24481,
+          "id": "210b86ff-5965-4a8e-a727-10f85ed6a295"
+        },
+        "171ad7bf-c68a-49d9-b478-92e611943afd": {
+          "label": "Notes",
+          "x": 106119,
+          "y": 23631,
+          "id": "171ad7bf-c68a-49d9-b478-92e611943afd"
+        },
+        "b5ffc962-a378-419f-aeeb-f6463078f6ef": {
+          "label": "Dictionary of\nconcepts",
+          "x": 106279,
+          "y": 23381,
+          "id": "b5ffc962-a378-419f-aeeb-f6463078f6ef"
+        },
+        "bd76f40a-c361-4c76-bd5d-fefab9a23bb7": {
+          "label": "Details, thoughts",
+          "x": 106292,
+          "y": 23631,
+          "id": "bd76f40a-c361-4c76-bd5d-fefab9a23bb7"
+        },
+        "e8dc56e9-1b94-4648-8a90-6717e58ecb88": {
+          "label": "Sections",
+          "x": 106266,
+          "y": 23881,
+          "id": "e8dc56e9-1b94-4648-8a90-6717e58ecb88"
+        },
+        "8308ce71-274e-4950-8581-233c4c0a04b5": {
+          "label": "Books",
+          "x": 106356,
+          "y": 23731,
+          "id": "8308ce71-274e-4950-8581-233c4c0a04b5"
+        },
+        "d659b17a-9b0f-44f3-9a0c-6a6301f6dafd": {
+          "label": "R&D institutions",
+          "x": 106387,
+          "y": 23756,
+          "id": "d659b17a-9b0f-44f3-9a0c-6a6301f6dafd"
+        },
+        "e9d832f3-cb22-4286-98a9-8a51b3a0f5b9": {
+          "label": "Sites",
+          "x": 106352,
+          "y": 23781,
+          "id": "e9d832f3-cb22-4286-98a9-8a51b3a0f5b9"
+        },
+        "b5ff7156-d175-44f6-bb74-67a8088fc0d7": {
+          "label": "Magazines",
+          "x": 106371,
+          "y": 23806,
+          "id": "b5ff7156-d175-44f6-bb74-67a8088fc0d7"
+        },
+        "2dc407b8-cda5-47cd-92ff-63d651175c23": {
+          "label": "Articles",
+          "x": 106360,
+          "y": 23831,
+          "id": "2dc407b8-cda5-47cd-92ff-63d651175c23"
+        },
+        "85737c7b-0e06-444b-9806-2cf8f66acc1a": {
+          "label": "Media content",
+          "x": 106382,
+          "y": 23856,
+          "id": "85737c7b-0e06-444b-9806-2cf8f66acc1a"
+        },
+        "e789fb60-0988-48d0-97cd-a582f1dff5a0": {
+          "label": "Misc. web links",
+          "x": 106384,
+          "y": 23881,
+          "id": "e789fb60-0988-48d0-97cd-a582f1dff5a0"
+        },
+        "d5b4c372-7177-4141-8cc5-9204a44b4ab4": {
+          "label": "Projects",
+          "x": 106362,
+          "y": 23906,
+          "id": "d5b4c372-7177-4141-8cc5-9204a44b4ab4"
+        },
+        "8faeab3e-57e1-4714-adb0-d1721e5bb2ba": {
+          "label": "Tools",
+          "x": 106353,
+          "y": 23931,
+          "id": "8faeab3e-57e1-4714-adb0-d1721e5bb2ba"
+        },
+        "44bc9b47-5f8b-4197-a9db-8313614bee3c": {
+          "label": "Organizations",
+          "x": 106381,
+          "y": 23956,
+          "id": "44bc9b47-5f8b-4197-a9db-8313614bee3c"
+        },
+        "8e10f7de-5835-42d7-bcc9-2fbf735adda7": {
+          "label": "Standarts",
+          "x": 106367,
+          "y": 23981,
+          "id": "8e10f7de-5835-42d7-bcc9-2fbf735adda7"
+        },
+        "75baf16c-e87d-4824-b4db-2d316f4827d3": {
+          "label": "Forums, Groups",
+          "x": 106389,
+          "y": 24006,
+          "id": "75baf16c-e87d-4824-b4db-2d316f4827d3"
+        },
+        "8bd172fe-692d-4ae7-92ad-14cf0148e59d": {
+          "label": "Laws",
+          "x": 106353,
+          "y": 24031,
+          "id": "8bd172fe-692d-4ae7-92ad-14cf0148e59d"
+        },
+        "d50b5873-0054-4434-ba27-0122d87897ac": {
+          "label": "Adjacent Themes",
+          "x": 106392,
+          "y": 24056,
+          "id": "d50b5873-0054-4434-ba27-0122d87897ac"
+        },
+        "f76b0147-a093-4822-8d0b-5e125a9d35be": {
+          "label": "Questions",
+          "x": 106132,
+          "y": 24181,
+          "id": "f76b0147-a093-4822-8d0b-5e125a9d35be"
+        },
+        "e2add5c0-525e-4d5a-98f3-01f99e9b8e54": {
+          "label": "Problems",
+          "x": 106130,
+          "y": 24281,
+          "id": "e2add5c0-525e-4d5a-98f3-01f99e9b8e54"
+        },
+        "02241de3-290b-497d-b843-f53a99615ac9": {
+          "label": "Goals",
+          "x": 106119,
+          "y": 24381,
+          "id": "02241de3-290b-497d-b843-f53a99615ac9"
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939336819802914928945192510182742522672642882646469": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Debugging",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939336819802914928945192510182742522672642882646469",
+          "x": 109978,
+          "y": 23867,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "9ef88c16-8179-4795-a08b-d9c2b11b2da4": {
+          "label": "Logging",
+          "x": 105936,
+          "y": 26522,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "9ef88c16-8179-4795-a08b-d9c2b11b2da4",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "7ce9851f-f433-482f-ace6-0690147fc252": {
+          "label": "Development",
+          "x": 106236,
+          "y": 26972,
+          "id": "7ce9851f-f433-482f-ace6-0690147fc252"
+        },
+        "50f6a254-3b6b-4be4-98b3-44886480a906": {
+          "label": "12/23/2019",
+          "x": 106369,
+          "y": 26972,
+          "id": "50f6a254-3b6b-4be4-98b3-44886480a906"
+        },
+        "89c86277-0039-4f7d-bd7d-2a07f6211244": {
+          "label": "init",
+          "x": 106486,
+          "y": 26972,
+          "id": "89c86277-0039-4f7d-bd7d-2a07f6211244"
+        },
+        "a98da265-9da0-4712-b493-d7968ab6769e": {
+          "label": "Notes",
+          "x": 106213,
+          "y": 26122,
+          "id": "a98da265-9da0-4712-b493-d7968ab6769e"
+        },
+        "4a2bc854-882a-4f1b-bbf8-3334660204b5": {
+          "label": "Dictionary of\nconcepts",
+          "x": 106373,
+          "y": 25872,
+          "id": "4a2bc854-882a-4f1b-bbf8-3334660204b5"
+        },
+        "4a0710be-85e6-401b-90f9-a2e9ea5c2e74": {
+          "label": "Details, thoughts",
+          "x": 106386,
+          "y": 26122,
+          "id": "4a0710be-85e6-401b-90f9-a2e9ea5c2e74"
+        },
+        "778fb8b3-2a58-498e-bf9d-d024d119bceb": {
+          "label": "Sections",
+          "x": 106360,
+          "y": 26372,
+          "id": "778fb8b3-2a58-498e-bf9d-d024d119bceb"
+        },
+        "1fc5437e-23ca-4f0b-a48c-e01c1c0f6ffd": {
+          "label": "Books",
+          "x": 106450,
+          "y": 26222,
+          "id": "1fc5437e-23ca-4f0b-a48c-e01c1c0f6ffd"
+        },
+        "edd5170b-a433-4263-b955-73b63f01d363": {
+          "label": "R&D institutions",
+          "x": 106481,
+          "y": 26247,
+          "id": "edd5170b-a433-4263-b955-73b63f01d363"
+        },
+        "b62fadd4-3163-449c-a7b9-26bfceeb1997": {
+          "label": "Sites",
+          "x": 106446,
+          "y": 26272,
+          "id": "b62fadd4-3163-449c-a7b9-26bfceeb1997"
+        },
+        "58f9fbdb-1ffb-40a6-872e-82a0cc039dee": {
+          "label": "Magazines",
+          "x": 106465,
+          "y": 26297,
+          "id": "58f9fbdb-1ffb-40a6-872e-82a0cc039dee"
+        },
+        "f1d19483-9d83-45c0-a36b-00b00aa6fc66": {
+          "label": "Articles",
+          "x": 106454,
+          "y": 26322,
+          "id": "f1d19483-9d83-45c0-a36b-00b00aa6fc66"
+        },
+        "1cb323f8-68df-4707-897c-d3920d4a8f71": {
+          "label": "Media content",
+          "x": 106476,
+          "y": 26347,
+          "id": "1cb323f8-68df-4707-897c-d3920d4a8f71"
+        },
+        "a05c6c67-f102-4827-991b-348da1a766c3": {
+          "label": "Misc. web links",
+          "x": 106478,
+          "y": 26372,
+          "id": "a05c6c67-f102-4827-991b-348da1a766c3"
+        },
+        "62a14fe2-d9ce-47bf-b020-30a22fafe9aa": {
+          "label": "Projects",
+          "x": 106456,
+          "y": 26397,
+          "id": "62a14fe2-d9ce-47bf-b020-30a22fafe9aa"
+        },
+        "c2422a52-f05f-4485-b5f8-c711af3ceada": {
+          "label": "Tools",
+          "x": 106447,
+          "y": 26422,
+          "id": "c2422a52-f05f-4485-b5f8-c711af3ceada"
+        },
+        "08a4f9fa-300a-4f86-ad58-69d00d409a2f": {
+          "label": "Organizations",
+          "x": 106475,
+          "y": 26447,
+          "id": "08a4f9fa-300a-4f86-ad58-69d00d409a2f"
+        },
+        "39b73a79-7f24-46d1-a5b0-f213b6da10f6": {
+          "label": "Standarts",
+          "x": 106461,
+          "y": 26472,
+          "id": "39b73a79-7f24-46d1-a5b0-f213b6da10f6"
+        },
+        "1cf21460-5f43-4573-911a-54218c04c716": {
+          "label": "Forums, Groups",
+          "x": 106483,
+          "y": 26497,
+          "id": "1cf21460-5f43-4573-911a-54218c04c716"
+        },
+        "af5b8904-e4f2-46ff-95f2-edec37b270fc": {
+          "label": "Laws",
+          "x": 106447,
+          "y": 26522,
+          "id": "af5b8904-e4f2-46ff-95f2-edec37b270fc"
+        },
+        "6707e5e1-b93b-4107-9741-e137e8e0036c": {
+          "label": "Adjacent Themes",
+          "x": 106486,
+          "y": 26547,
+          "id": "6707e5e1-b93b-4107-9741-e137e8e0036c"
+        },
+        "acfb8580-b58b-455e-873e-926e6b4b9b70": {
+          "label": "Questions",
+          "x": 106226,
+          "y": 26672,
+          "id": "acfb8580-b58b-455e-873e-926e6b4b9b70"
+        },
+        "3da67967-9c9c-47d9-9aa7-57a1e8d878ec": {
+          "label": "Problems",
+          "x": 106224,
+          "y": 26772,
+          "id": "3da67967-9c9c-47d9-9aa7-57a1e8d878ec"
+        },
+        "a41d5900-844d-4370-bff1-84a8c9b403c8": {
+          "label": "Goals",
+          "x": 106213,
+          "y": 26872,
+          "id": "a41d5900-844d-4370-bff1-84a8c9b403c8"
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939336819802914928945192510182742522672642882646469752": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Logging",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939336819802914928945192510182742522672642882646469752",
+          "x": 109339,
+          "y": 26255,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "167eae18-9ce7-46b0-8874-eebbca666339": {
+          "id": "167eae18-9ce7-46b0-8874-eebbca666339",
+          "x": 118354,
+          "y": -9149,
+          "label": "break"
+        },
+        "ea3c4c2d-1b26-4ab3-bb31-4cc82ce82b29": {
+          "id": "ea3c4c2d-1b26-4ab3-bb31-4cc82ce82b29",
+          "x": 118618,
+          "y": -9162,
+          "label": "break statement can be used to jump out of a loop"
+        },
+        "308b4d30-c9d5-461d-949c-0f1ab1c2f392": {
+          "id": "308b4d30-c9d5-461d-949c-0f1ab1c2f392",
+          "x": 118738,
+          "y": -9132,
+          "label": "break statement breaks the loop and continues executing the code after the loop (if any)"
+        },
+        "2ce7d02f-3707-49f7-ae9d-652219fd86d3": {
+          "id": "2ce7d02f-3707-49f7-ae9d-652219fd86d3",
+          "x": 118363,
+          "y": -9065,
+          "label": "continue"
+        },
+        "478f24fb-e933-4c37-b255-204d2ca3b0bf": {
+          "id": "478f24fb-e933-4c37-b255-204d2ca3b0bf",
+          "x": 118597,
+          "y": -9066,
+          "label": "statement breaks one iteration (in the loop),\nif a specified condition occurs,\nand continues with the next iteration\nin the loop",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "601bdac3-fca0-4124-901d-1b878335511f": {
+          "id": "601bdac3-fca0-4124-901d-1b878335511f",
+          "x": 118357,
+          "y": -8884,
+          "label": "Labels"
+        },
+        "b3008709-d76a-4591-ab7f-580d0751d8ce": {
+          "id": "b3008709-d76a-4591-ab7f-580d0751d8ce",
+          "x": 118734,
+          "y": -8928,
+          "label": "With a label reference, the break statement can be used to jump out of any code block:"
+        },
+        "62150fd7-a625-475d-a1d7-df52be159dcc": {
+          "label": "The break and the continue statements are the only JavaScript statements that can \"jump out of\" a code block.",
+          "link": "",
+          "x": 118809,
+          "y": -8967,
+          "id": "62150fd7-a625-475d-a1d7-df52be159dcc"
+        },
+        "0a6824b9-7a1d-418b-b9a6-c6c4d560cbb1": {
+          "label": "Syntax:",
+          "link": "",
+          "x": 118482,
+          "y": -8860,
+          "id": "0a6824b9-7a1d-418b-b9a6-c6c4d560cbb1"
+        },
+        "6bb66963-3e91-4050-be7a-11522b2b4cb2": {
+          "label": "break labelname; ",
+          "link": "",
+          "x": 118617,
+          "y": -8868,
+          "id": "6bb66963-3e91-4050-be7a-11522b2b4cb2"
+        },
+        "ace7fffa-f96a-4a79-bf12-a899b7aaeed5": {
+          "label": "continue labelname;",
+          "link": "",
+          "x": 118624,
+          "y": -8844,
+          "id": "ace7fffa-f96a-4a79-bf12-a899b7aaeed5"
+        },
+        "44d7794a-9392-4c69-94e5-a9ae4c79bcf4": {
+          "id": "44d7794a-9392-4c69-94e5-a9ae4c79bcf4",
+          "x": 118829,
+          "y": -8791,
+          "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label"
+        },
+        "df8e0231-06d4-4af6-851b-8f6e721bac08": {
+          "id": "df8e0231-06d4-4af6-851b-8f6e721bac08",
+          "x": 118475,
+          "y": -8777,
+          "label": "Links"
+        },
+        "492166c7-e3f2-492a-ac48-d62076653c68": {
+          "id": "492166c7-e3f2-492a-ac48-d62076653c68",
+          "x": 118751,
+          "y": -8762,
+          "label": "https://www.w3resource.com/javascript/statements/label.php",
+          "link": "https://www.w3resource.com/javascript/statements/label.php"
+        },
+        "638d42c2-f8b1-4931-83b6-f3d7d7678b0f": {
+          "id": "638d42c2-f8b1-4931-83b6-f3d7d7678b0f",
+          "x": 118130,
+          "y": 23598,
+          "label": "response"
+        },
+        "1aef04e5-ce41-4b7e-9af6-61d01fcab4a8": {
+          "label": "arrayBuffer()",
+          "link": "",
+          "x": 118255,
+          "y": 23585,
+          "id": "1aef04e5-ce41-4b7e-9af6-61d01fcab4a8"
+        },
+        "9b03e946-f388-4a3a-8fa8-7dca781d30fc": {
+          "label": "blob()",
+          "link": "",
+          "x": 118233,
+          "y": 23609,
+          "id": "9b03e946-f388-4a3a-8fa8-7dca781d30fc"
+        },
+        "9e4aaf80-0fb4-4227-9048-7151423fe67d": {
+          "label": "json()",
+          "link": "",
+          "x": 118233,
+          "y": 23633,
+          "id": "9e4aaf80-0fb4-4227-9048-7151423fe67d"
+        },
+        "30e25b68-7664-4d1f-99ae-1b6ffe772ac9": {
+          "label": "text()",
+          "link": "",
+          "x": 118231,
+          "y": 23657,
+          "id": "30e25b68-7664-4d1f-99ae-1b6ffe772ac9"
+        },
+        "2f1217e4-2471-40a9-ac3f-dc995f416d55": {
+          "label": "formData()",
+          "link": "",
+          "x": 118249,
+          "y": 23681,
+          "id": "2f1217e4-2471-40a9-ac3f-dc995f416d55"
+        },
+        "d416f6ab-f677-4b54-bd73-eb1979f90db3": {
+          "id": "d416f6ab-f677-4b54-bd73-eb1979f90db3",
+          "x": 117568,
+          "y": 29027,
+          "label": "async"
+        },
+        "2bc71a46-65ea-4a93-a4d8-9b4349779f47": {
+          "id": "2bc71a46-65ea-4a93-a4d8-9b4349779f47",
+          "x": 117555,
+          "y": 29081,
+          "label": "Promises"
+        },
+        "17123a65-c20c-4274-b2c6-b645af480fd8": {
+          "label": "JS + DOM",
+          "x": 105491,
+          "y": 29208,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "17123a65-c20c-4274-b2c6-b645af480fd8",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "85c8222b-02fd-4aec-abdf-b07ea58168de": {
+          "label": "Development",
+          "x": 105791,
+          "y": 29658,
+          "id": "85c8222b-02fd-4aec-abdf-b07ea58168de"
+        },
+        "bee669c0-6cbf-4e7d-bc4e-e61645387391": {
+          "label": "12/23/2019",
+          "x": 105924,
+          "y": 29658,
+          "id": "bee669c0-6cbf-4e7d-bc4e-e61645387391"
+        },
+        "6a472a15-40f1-4881-bb2a-5e87f2e21a0c": {
+          "label": "init",
+          "x": 106041,
+          "y": 29658,
+          "id": "6a472a15-40f1-4881-bb2a-5e87f2e21a0c"
+        },
+        "3a01ec33-1f39-4a6b-8c09-6e86c6526b29": {
+          "label": "Notes",
+          "x": 105764,
+          "y": 28515,
+          "id": "3a01ec33-1f39-4a6b-8c09-6e86c6526b29"
+        },
+        "404d6679-d667-424b-96da-e7fa3d023a36": {
+          "label": "Dictionary of\nconcepts",
+          "x": 105924,
+          "y": 28047,
+          "id": "404d6679-d667-424b-96da-e7fa3d023a36"
+        },
+        "eb1307bd-afb8-4c9d-826f-6c044e9d9839": {
+          "label": "Details, thoughts",
+          "x": 105938,
+          "y": 28515,
+          "id": "eb1307bd-afb8-4c9d-826f-6c044e9d9839"
+        },
+        "29a8a016-2d49-4a08-a293-4d86a0e00a86": {
+          "label": "Sections",
+          "x": 105915,
+          "y": 29058,
+          "id": "29a8a016-2d49-4a08-a293-4d86a0e00a86"
+        },
+        "3286f953-3e82-4c4b-b565-1dfe1d2fdf9d": {
+          "label": "Books",
+          "x": 106002,
+          "y": 28615,
+          "id": "3286f953-3e82-4c4b-b565-1dfe1d2fdf9d"
+        },
+        "c8b35536-6c96-444a-b515-62a3711747ff": {
+          "label": "R&D institutions",
+          "x": 106032,
+          "y": 28640,
+          "id": "c8b35536-6c96-444a-b515-62a3711747ff"
+        },
+        "144a7c9a-77d7-492c-90e2-598cc06c04ca": {
+          "label": "Sites",
+          "x": 105998,
+          "y": 28665,
+          "id": "144a7c9a-77d7-492c-90e2-598cc06c04ca"
+        },
+        "0a35867b-eec1-40a1-ae15-981957c2f43b": {
+          "label": "Magazines",
+          "x": 106017,
+          "y": 28690,
+          "id": "0a35867b-eec1-40a1-ae15-981957c2f43b"
+        },
+        "79e629ed-83f3-4ddb-8404-5c82fcd7e8b5": {
+          "label": "Articles",
+          "x": 106005,
+          "y": 28715,
+          "id": "79e629ed-83f3-4ddb-8404-5c82fcd7e8b5"
+        },
+        "df5444dc-54fb-48ba-90ca-84e4111a40d2": {
+          "label": "Media content",
+          "x": 106027,
+          "y": 28740,
+          "id": "df5444dc-54fb-48ba-90ca-84e4111a40d2"
+        },
+        "943cde1c-1885-4d51-b874-16f807b6431c": {
+          "label": "Misc. web links",
+          "x": 106030,
+          "y": 28867,
+          "id": "943cde1c-1885-4d51-b874-16f807b6431c"
+        },
+        "b433d0a7-ab03-4f65-8fc4-f413addd07a7": {
+          "label": "Projects",
+          "x": 106011,
+          "y": 29083,
+          "id": "b433d0a7-ab03-4f65-8fc4-f413addd07a7"
+        },
+        "2a3a9c8d-dc3f-44db-b452-301ac796edbd": {
+          "label": "Tools",
+          "x": 106002,
+          "y": 29108,
+          "id": "2a3a9c8d-dc3f-44db-b452-301ac796edbd"
+        },
+        "1638c26b-e52f-4c9e-9867-786a91b66426": {
+          "label": "Organizations",
+          "x": 106030,
+          "y": 29133,
+          "id": "1638c26b-e52f-4c9e-9867-786a91b66426"
+        },
+        "8ffa95ea-fbb4-4633-af30-2c1be045e418": {
+          "label": "Standarts",
+          "x": 106016,
+          "y": 29158,
+          "id": "8ffa95ea-fbb4-4633-af30-2c1be045e418"
+        },
+        "ef122968-6258-453d-be69-e4cd3868782c": {
+          "label": "Forums, Groups",
+          "x": 106038,
+          "y": 29183,
+          "id": "ef122968-6258-453d-be69-e4cd3868782c"
+        },
+        "5cfd6741-8b70-430a-befa-51d50c1c7c49": {
+          "label": "Laws",
+          "x": 106002,
+          "y": 29208,
+          "id": "5cfd6741-8b70-430a-befa-51d50c1c7c49"
+        },
+        "ac047d3b-7874-4d95-8a3d-774096ff9c25": {
+          "label": "Adjacent Themes",
+          "x": 106041,
+          "y": 29233,
+          "id": "ac047d3b-7874-4d95-8a3d-774096ff9c25"
+        },
+        "b80bb271-9ddc-44bb-9e92-6dd0ed90231f": {
+          "label": "Questions",
+          "x": 105781,
+          "y": 29358,
+          "id": "b80bb271-9ddc-44bb-9e92-6dd0ed90231f"
+        },
+        "f8498363-157f-4f51-845f-0e0928410d73": {
+          "label": "Problems",
+          "x": 105779,
+          "y": 29458,
+          "id": "f8498363-157f-4f51-845f-0e0928410d73"
+        },
+        "8a840db4-14c8-48fe-a515-9d31962378dd": {
+          "label": "Goals",
+          "x": 105768,
+          "y": 29558,
+          "id": "8a840db4-14c8-48fe-a515-9d31962378dd"
+        },
+        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264646975256": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "JS + DOM",
+          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264646975256",
+          "x": 109880,
+          "y": 28358,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "b6b87832-1417-4753-9e31-4ab20e2b9286": {
+          "id": "b6b87832-1417-4753-9e31-4ab20e2b9286",
+          "x": 106332,
+          "y": 28834,
+          "label": "https://www.w3schools.com/xml/xml_parser.asp",
+          "link": "https://www.w3schools.com/xml/xml_parser.asp"
+        },
+        "dd93ccf5-eca9-4c75-b64f-33cf0667a7f3": {
+          "id": "dd93ccf5-eca9-4c75-b64f-33cf0667a7f3",
+          "x": 106329,
+          "y": 28866,
+          "label": "https://www.w3schools.com/xml/dom_intro.asp",
+          "link": "https://www.w3schools.com/xml/dom_intro.asp"
+        },
+        "093fd0fd-cc17-4cd5-b2b2-5976098ea8bc": {
+          "id": "093fd0fd-cc17-4cd5-b2b2-5976098ea8bc",
+          "x": 106351,
+          "y": 28896,
+          "label": "https://en.wikipedia.org/wiki/Document_Object_Model",
+          "link": "https://en.wikipedia.org/wiki/Document_Object_Model"
+        },
+        "75ad06cb-28cd-4e7a-bfa2-656b65df0ee8": {
+          "id": "75ad06cb-28cd-4e7a-bfa2-656b65df0ee8",
+          "x": 106337,
+          "y": 28053,
+          "label": "parser = new DOMParser();\nxmlDoc = parser.parseFromString(text,\"text/xml\");\n\nvar val = xmlDoc.getElementsByTagName(\"title\")[0].childNodes[0].nodeValue;",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "0b655fa6-eb51-44d2-8b9c-abd57b7aae9d": {
+          "id": "0b655fa6-eb51-44d2-8b9c-abd57b7aae9d",
+          "x": 118881,
+          "y": -2166,
+          "label": "method is used to join two or more arrays."
+        },
+        "654c3cd0-f329-45c6-8588-725ff2a99d89": {
+          "id": "654c3cd0-f329-45c6-8588-725ff2a99d89",
+          "x": 118638,
+          "y": -2155,
+          "label": "concat()"
+        },
+        "d3fc307b-1e30-4ab6-a521-cc2d2debe7b8": {
+          "id": "d3fc307b-1e30-4ab6-a521-cc2d2debe7b8",
+          "x": 118842,
+          "y": -2127,
+          "label": "children = hege.concat(stale);"
+        },
+        "4a0bdf00-5c53-44bc-a2ba-36960f1eb51b": {
+          "id": "4a0bdf00-5c53-44bc-a2ba-36960f1eb51b",
+          "x": 118892,
+          "y": -2442,
+          "label": "inplace"
         }
       },
       "length": 0,
@@ -48199,6 +49726,971 @@ var schemeData =
           "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1",
           "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145201260949",
           "id": "16edb0d7-e585-470c-838b-7534e80aff2f"
+        },
+        "0e991db7-46ec-459e-a74f-7ce39651181e": {
+          "from": "10826001-1118-4712-aa9d-8834f87e5d9a",
+          "to": "7230a556-e9e7-4ea4-aaca-1933c5a9058d",
+          "id": "0e991db7-46ec-459e-a74f-7ce39651181e"
+        },
+        "522cb1d2-b348-476b-be29-1828bd7e5216": {
+          "from": "7230a556-e9e7-4ea4-aaca-1933c5a9058d",
+          "to": "1baf0856-c118-4ea6-8010-a686580af3c3",
+          "id": "522cb1d2-b348-476b-be29-1828bd7e5216"
+        },
+        "12752964-1b24-4d73-9678-ae86b0237ba0": {
+          "from": "1baf0856-c118-4ea6-8010-a686580af3c3",
+          "to": "72cca0cc-818b-4f62-89c4-94c3b8f96192",
+          "id": "12752964-1b24-4d73-9678-ae86b0237ba0"
+        },
+        "d59c5bad-e483-4425-89c6-16e96205e8dc": {
+          "from": "10826001-1118-4712-aa9d-8834f87e5d9a",
+          "to": "64202c41-ad66-44e9-ab3d-8a32c11babee",
+          "id": "d59c5bad-e483-4425-89c6-16e96205e8dc"
+        },
+        "f051bc8d-ae18-4440-820e-9ac464cb225f": {
+          "from": "64202c41-ad66-44e9-ab3d-8a32c11babee",
+          "to": "a23c5b16-f799-4626-946c-abcd60bca84b",
+          "id": "f051bc8d-ae18-4440-820e-9ac464cb225f"
+        },
+        "e762f989-f7c7-4dce-87c4-7c864f012d2a": {
+          "from": "64202c41-ad66-44e9-ab3d-8a32c11babee",
+          "to": "f619de93-4c82-4e6a-a82c-1e25431719b7",
+          "id": "e762f989-f7c7-4dce-87c4-7c864f012d2a"
+        },
+        "08da7538-aa2c-4b3a-a5af-ce30e96055a8": {
+          "from": "64202c41-ad66-44e9-ab3d-8a32c11babee",
+          "to": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "id": "08da7538-aa2c-4b3a-a5af-ce30e96055a8"
+        },
+        "e7a4e170-78b8-4612-a169-9b1d32cbdb66": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "8443a599-2730-462d-a041-3d3f5d2fed3e",
+          "id": "e7a4e170-78b8-4612-a169-9b1d32cbdb66"
+        },
+        "861cb839-c06b-4648-9b7f-9ca861285ff1": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "23afbccf-c863-4ccd-91b7-e52be76117f1",
+          "id": "861cb839-c06b-4648-9b7f-9ca861285ff1"
+        },
+        "4ac7d8cd-ec77-4387-be76-3695c62faf2e": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "a4988405-ff80-4908-92fe-67717a07b881",
+          "id": "4ac7d8cd-ec77-4387-be76-3695c62faf2e"
+        },
+        "922c0559-e0d0-4fb4-af7c-5b251ea32717": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "6f7c1a14-3241-46cf-956e-e33e3cd5fb56",
+          "id": "922c0559-e0d0-4fb4-af7c-5b251ea32717"
+        },
+        "054a3e4b-9efb-484b-9903-72d378cb6b4f": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "5e7ce291-85af-47e1-b05f-1955a08781f9",
+          "id": "054a3e4b-9efb-484b-9903-72d378cb6b4f"
+        },
+        "3dd47cca-ea77-4abe-9088-72f8c0ba85fd": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "67b2a51a-b1e2-4e77-a51d-4b9e9f42a804",
+          "id": "3dd47cca-ea77-4abe-9088-72f8c0ba85fd"
+        },
+        "6dcbccc6-6e64-4286-8ea0-690489d0d03d": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "c3ac9471-c54a-4441-a537-350c1a3ee8f0",
+          "id": "6dcbccc6-6e64-4286-8ea0-690489d0d03d"
+        },
+        "b527c722-8463-4ac1-a28d-316f6462add3": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "9dc60ac7-2364-4e79-8779-8ebc92d24082",
+          "id": "b527c722-8463-4ac1-a28d-316f6462add3"
+        },
+        "ee817bbd-4281-4f3f-be40-ec12426d6edb": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "31966fdb-d71e-4349-8fb0-97a765b77fb7",
+          "id": "ee817bbd-4281-4f3f-be40-ec12426d6edb"
+        },
+        "1d502b3e-ff83-490e-ab21-713d456e212c": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "52f276cd-8d65-4b32-9cb1-28c63e74e6db",
+          "id": "1d502b3e-ff83-490e-ab21-713d456e212c"
+        },
+        "e5cd9b25-e4d5-4421-8eab-6787635ffdec": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "ad497eae-9c8f-4921-af18-fd3bcd37f1b9",
+          "id": "e5cd9b25-e4d5-4421-8eab-6787635ffdec"
+        },
+        "eb00cc30-9670-42f3-886a-10a0a8a1d385": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "c00f4639-63fd-4ac9-a5fb-52c8c9b6ca45",
+          "id": "eb00cc30-9670-42f3-886a-10a0a8a1d385"
+        },
+        "ba9b1db1-1ea0-40cc-891c-28e1f70d2447": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "9154d939-acf6-4033-ae86-72397b76943d",
+          "id": "ba9b1db1-1ea0-40cc-891c-28e1f70d2447"
+        },
+        "e85a60ed-312b-4816-9c31-c8dec61e00ed": {
+          "from": "7eb8e784-f49f-4f64-9fe5-4b958e670087",
+          "to": "c67f5497-38f5-43ff-8541-3f3bfe3ed558",
+          "id": "e85a60ed-312b-4816-9c31-c8dec61e00ed"
+        },
+        "87707316-1d30-4d81-8c29-3398b8fcb789": {
+          "from": "10826001-1118-4712-aa9d-8834f87e5d9a",
+          "to": "3a3e3fdc-9148-4220-8a9a-6427903e8253",
+          "id": "87707316-1d30-4d81-8c29-3398b8fcb789"
+        },
+        "83c60029-606e-442a-b756-ec224b2db6ac": {
+          "from": "10826001-1118-4712-aa9d-8834f87e5d9a",
+          "to": "82ff3a7b-d250-4883-be80-d6b428746e0f",
+          "id": "83c60029-606e-442a-b756-ec224b2db6ac"
+        },
+        "3f4ce4d2-d8de-476d-b489-4f04fa67ab37": {
+          "from": "10826001-1118-4712-aa9d-8834f87e5d9a",
+          "to": "5af44f61-1dcc-4110-a7cf-bdbf54fc573a",
+          "id": "3f4ce4d2-d8de-476d-b489-4f04fa67ab37"
+        },
+        "9b5eea9a-07be-48da-850e-7a5eafb1e9a7": {
+          "from": "c3ac9471-c54a-4441-a537-350c1a3ee8f0",
+          "to": "f9c4c7ef-e528-478e-9d0a-aeedad414930",
+          "id": "9b5eea9a-07be-48da-850e-7a5eafb1e9a7"
+        },
+        "fdc4b79c-6a9e-4d82-997c-67fcc4047c58": {
+          "from": "c3ac9471-c54a-4441-a537-350c1a3ee8f0",
+          "to": "e5974e6b-fd70-4ac9-afa8-4412bca91f50",
+          "id": "fdc4b79c-6a9e-4d82-997c-67fcc4047c58"
+        },
+        "0a1ecc98-ff1d-44a1-b6fd-a5373a54ba58": {
+          "from": "c3ac9471-c54a-4441-a537-350c1a3ee8f0",
+          "to": "ae7d0b20-68d5-43e4-a972-6513759bce2b",
+          "id": "0a1ecc98-ff1d-44a1-b6fd-a5373a54ba58"
+        },
+        "cef2f988-dae8-4a58-be2a-9a7650bf0102": {
+          "from": "c3ac9471-c54a-4441-a537-350c1a3ee8f0",
+          "to": "9392faff-26a7-43c7-9e98-5dc8d87c5f0f",
+          "id": "cef2f988-dae8-4a58-be2a-9a7650bf0102"
+        },
+        "bea0ca31-fe55-4e63-a2a2-8ae8499a66f6": {
+          "from": "c3ac9471-c54a-4441-a537-350c1a3ee8f0",
+          "to": "97864572-e6e6-41dd-9f54-4d2e63b0f429",
+          "id": "bea0ca31-fe55-4e63-a2a2-8ae8499a66f6"
+        },
+        "f2457ec8-e795-4d5b-aa50-bde545243331": {
+          "from": "c3ac9471-c54a-4441-a537-350c1a3ee8f0",
+          "to": "851c0eb4-038d-4fb8-8b85-3ad9bb9de247",
+          "id": "f2457ec8-e795-4d5b-aa50-bde545243331"
+        },
+        "2c8084b6-3491-476d-bd56-5a992ace8cd9": {
+          "from": "98d6ed2b-106d-4b04-ab9e-b19f776fe14c",
+          "to": "4b551bf2-1466-4220-8d5b-dca540291a1f",
+          "id": "2c8084b6-3491-476d-bd56-5a992ace8cd9"
+        },
+        "40c8fd66-f86e-4a84-8e15-0218dd5db00e": {
+          "from": "4b551bf2-1466-4220-8d5b-dca540291a1f",
+          "to": "5dbda832-e23b-4b80-a83e-ced0a821c47c",
+          "id": "40c8fd66-f86e-4a84-8e15-0218dd5db00e"
+        },
+        "7fff3696-c1d9-4980-b7d1-318719c36368": {
+          "from": "5dbda832-e23b-4b80-a83e-ced0a821c47c",
+          "to": "8a79ef0b-fdbf-44fc-8472-f480760c9c52",
+          "id": "7fff3696-c1d9-4980-b7d1-318719c36368"
+        },
+        "67630fd1-c5c0-4b5f-8bee-328273393c09": {
+          "from": "98d6ed2b-106d-4b04-ab9e-b19f776fe14c",
+          "to": "2aaaa27f-717b-4a4d-a7ce-0f81636234a5",
+          "id": "67630fd1-c5c0-4b5f-8bee-328273393c09"
+        },
+        "ca7e533f-be36-4055-a7a5-0daec8b05cb8": {
+          "from": "2aaaa27f-717b-4a4d-a7ce-0f81636234a5",
+          "to": "3546c94a-f06b-44ac-a736-a3b20902cf9a",
+          "id": "ca7e533f-be36-4055-a7a5-0daec8b05cb8"
+        },
+        "bd615a81-0080-45c7-98e8-d4846b37e763": {
+          "from": "2aaaa27f-717b-4a4d-a7ce-0f81636234a5",
+          "to": "369e5464-05d0-44a3-8d03-c34f6453fa2c",
+          "id": "bd615a81-0080-45c7-98e8-d4846b37e763"
+        },
+        "5fcdef9a-de5a-4766-8a8a-90e7bfe0a9c5": {
+          "from": "2aaaa27f-717b-4a4d-a7ce-0f81636234a5",
+          "to": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "id": "5fcdef9a-de5a-4766-8a8a-90e7bfe0a9c5"
+        },
+        "a369604c-44a6-43e2-9a75-d9dab38db2af": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "87a084df-69a4-4468-b14f-7944245c72cf",
+          "id": "a369604c-44a6-43e2-9a75-d9dab38db2af"
+        },
+        "fb078c90-2571-402d-b9ba-7ebf496cc962": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "e4b82bb2-1899-4101-bdcb-3deead62d5e1",
+          "id": "fb078c90-2571-402d-b9ba-7ebf496cc962"
+        },
+        "41ecb778-600b-4c2b-9ab2-309ed492ef22": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "60b88514-caac-4466-b344-fe1705056e86",
+          "id": "41ecb778-600b-4c2b-9ab2-309ed492ef22"
+        },
+        "880b7bdd-6fde-4cbf-8af2-9011479fd78d": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "9c4bd20b-0e82-4126-b389-b0f06b2bbea2",
+          "id": "880b7bdd-6fde-4cbf-8af2-9011479fd78d"
+        },
+        "a27df729-c794-4e9d-a010-701a876fb067": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "5c0f25dd-f9d1-4b10-9c49-b3f416e2ba27",
+          "id": "a27df729-c794-4e9d-a010-701a876fb067"
+        },
+        "c778c435-c877-4d8e-a885-fb1826de0ee7": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "42507356-ea82-46c2-94d9-3de785abe6f3",
+          "id": "c778c435-c877-4d8e-a885-fb1826de0ee7"
+        },
+        "c8bf4270-65eb-45d3-8235-a8e1d3d08001": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "06f151e3-de24-406b-b70f-dfc5964bcb5d",
+          "id": "c8bf4270-65eb-45d3-8235-a8e1d3d08001"
+        },
+        "a95b13f4-b691-4d82-822a-0f11692ac37d": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "9c6d96ea-4909-4619-95e7-492ccdb72b0f",
+          "id": "a95b13f4-b691-4d82-822a-0f11692ac37d"
+        },
+        "48220c6e-e1c5-4e73-91ea-7372f1d609a6": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "e4a97579-a02f-4fdb-940e-39d6c895cf3d",
+          "id": "48220c6e-e1c5-4e73-91ea-7372f1d609a6"
+        },
+        "bae5dacd-7d8f-412d-8ac4-5292199a3ef5": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "5078d78b-1066-4a0c-a19b-4f8df3faad79",
+          "id": "bae5dacd-7d8f-412d-8ac4-5292199a3ef5"
+        },
+        "71e604ed-4be5-4e7f-ad3c-7053b29eeafc": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "a3f27fea-460c-4406-a366-37ea0911a640",
+          "id": "71e604ed-4be5-4e7f-ad3c-7053b29eeafc"
+        },
+        "f83fb5fa-95ba-4b80-b078-f286adeedc36": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "0d6c19e6-d3aa-4fed-98b9-f85a7505f0f1",
+          "id": "f83fb5fa-95ba-4b80-b078-f286adeedc36"
+        },
+        "789a97c7-b18b-45dd-ab9f-500a0a13c97b": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "39b1df43-e02a-4503-8fa4-dbbac1e53e65",
+          "id": "789a97c7-b18b-45dd-ab9f-500a0a13c97b"
+        },
+        "17515f1f-592c-40b1-8f9a-9b6494690ca2": {
+          "from": "5dde517f-15db-4d06-87cc-a7660b611d5f",
+          "to": "6ee1b4ce-bc8b-4ecc-a291-797d89c9ff97",
+          "id": "17515f1f-592c-40b1-8f9a-9b6494690ca2"
+        },
+        "50315b4f-bd64-4f22-9102-76c1a40a17f3": {
+          "from": "98d6ed2b-106d-4b04-ab9e-b19f776fe14c",
+          "to": "6dde479f-3bbc-4615-8460-c322c82cda56",
+          "id": "50315b4f-bd64-4f22-9102-76c1a40a17f3"
+        },
+        "495ba26a-f670-46f5-9c26-04979ddae06c": {
+          "from": "98d6ed2b-106d-4b04-ab9e-b19f776fe14c",
+          "to": "4999c4f7-eacf-4d42-bac3-a47feb196e56",
+          "id": "495ba26a-f670-46f5-9c26-04979ddae06c"
+        },
+        "751c328e-a060-436d-89b4-540cfe6efa5d": {
+          "from": "98d6ed2b-106d-4b04-ab9e-b19f776fe14c",
+          "to": "2e3d15a9-61ee-4e5c-a062-82c7c2f74678",
+          "id": "751c328e-a060-436d-89b4-540cfe6efa5d"
+        },
+        "f85235d7-3647-495b-b1c5-0fbb29c78545": {
+          "from": "3546c94a-f06b-44ac-a736-a3b20902cf9a",
+          "to": "d9969e61-49db-48d8-8da1-faffa8746274",
+          "id": "f85235d7-3647-495b-b1c5-0fbb29c78545"
+        },
+        "18103f3a-91b2-45f4-b6cd-c105b647acc3": {
+          "from": "06f151e3-de24-406b-b70f-dfc5964bcb5d",
+          "to": "37316c2b-c311-40ec-b939-943c5293887d",
+          "id": "18103f3a-91b2-45f4-b6cd-c105b647acc3"
+        },
+        "8365ce6e-bf66-485c-8678-cf5533d03ee1": {
+          "from": "d11cc4db-6e3d-403c-b420-206960296a13",
+          "to": "56e3644e-6e31-4636-a75e-1c8b16623e22",
+          "id": "8365ce6e-bf66-485c-8678-cf5533d03ee1"
+        },
+        "31f65963-7806-4cff-a6f2-e86deb4ab173": {
+          "from": "56e3644e-6e31-4636-a75e-1c8b16623e22",
+          "to": "787f1563-b810-4115-83b2-fea80c710e20",
+          "id": "31f65963-7806-4cff-a6f2-e86deb4ab173"
+        },
+        "cb9fee7f-992f-44c3-93b5-92990a33b56e": {
+          "from": "787f1563-b810-4115-83b2-fea80c710e20",
+          "to": "26a020d6-09ce-47e6-84a8-958181c6f4c3",
+          "id": "cb9fee7f-992f-44c3-93b5-92990a33b56e"
+        },
+        "19e21738-c1e6-4d64-a1bc-69e23e1eae77": {
+          "from": "d11cc4db-6e3d-403c-b420-206960296a13",
+          "to": "d35150c0-b796-4519-8839-67bd0d16936f",
+          "id": "19e21738-c1e6-4d64-a1bc-69e23e1eae77"
+        },
+        "17893ce2-9022-4684-aba9-3ac1b290df1e": {
+          "from": "d35150c0-b796-4519-8839-67bd0d16936f",
+          "to": "f90f677f-8a68-4c63-9dfa-461cd7b7a350",
+          "id": "17893ce2-9022-4684-aba9-3ac1b290df1e"
+        },
+        "6f311bdb-d139-48cd-ae26-4a766b419224": {
+          "from": "d35150c0-b796-4519-8839-67bd0d16936f",
+          "to": "a313c916-1cdc-4129-890b-9c9157d73413",
+          "id": "6f311bdb-d139-48cd-ae26-4a766b419224"
+        },
+        "eb672897-0403-417f-99f4-ae757b3ec48a": {
+          "from": "d35150c0-b796-4519-8839-67bd0d16936f",
+          "to": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "id": "eb672897-0403-417f-99f4-ae757b3ec48a"
+        },
+        "0f854030-11b0-4817-b391-695aaff64fa2": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "04d34bff-ca2e-46ec-b121-30c2d2ac37c9",
+          "id": "0f854030-11b0-4817-b391-695aaff64fa2"
+        },
+        "33609421-d7d9-4a49-9c56-8ffbc6a542e3": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "318e46e2-10f5-4098-99de-2ea29a2bc475",
+          "id": "33609421-d7d9-4a49-9c56-8ffbc6a542e3"
+        },
+        "5ed81d2d-4e61-414a-8298-bb201b292eee": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "1e123a78-c46a-41b6-b767-c85227bb1619",
+          "id": "5ed81d2d-4e61-414a-8298-bb201b292eee"
+        },
+        "5ebfc6c7-3670-43a3-8688-0d1e378e0924": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "0d4fd309-fe62-44b2-bd23-7ef2ccdef044",
+          "id": "5ebfc6c7-3670-43a3-8688-0d1e378e0924"
+        },
+        "8c56dd30-7f1d-4d71-8077-a745e8e091df": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "ca76d49d-46ce-4949-ab40-2d4fbe53374f",
+          "id": "8c56dd30-7f1d-4d71-8077-a745e8e091df"
+        },
+        "57859451-a129-481e-805f-bb5e42bc1555": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "73930a64-7266-4449-94a4-89dd541ad6a8",
+          "id": "57859451-a129-481e-805f-bb5e42bc1555"
+        },
+        "f15fc593-f35e-4156-b480-bfdc1ea3cfff": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "943edb5b-8b26-44fd-ab73-e9437ea337fb",
+          "id": "f15fc593-f35e-4156-b480-bfdc1ea3cfff"
+        },
+        "d61a41cc-e98b-42db-b1e1-23454d2696a6": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "c0bf1f13-4477-4ee6-ac6d-6e7c97016ae6",
+          "id": "d61a41cc-e98b-42db-b1e1-23454d2696a6"
+        },
+        "34070d22-9c54-4b45-8953-e5b1412e4147": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "64a78eea-1e14-4cc8-bf68-0ca8e8eb941f",
+          "id": "34070d22-9c54-4b45-8953-e5b1412e4147"
+        },
+        "f5add8dc-7292-47e6-932b-6e23b68aba56": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "952d701d-52d7-4aa9-9453-9df06259b3ac",
+          "id": "f5add8dc-7292-47e6-932b-6e23b68aba56"
+        },
+        "517e74a7-99a9-43de-9223-199dc6c39d49": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "1ef5552e-fb01-4f2a-95a4-98d9d9bcb04a",
+          "id": "517e74a7-99a9-43de-9223-199dc6c39d49"
+        },
+        "27544044-6918-48d5-9076-d255ad293d19": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "d6cef63f-75dc-477e-8ab5-b3cbce4ef9b9",
+          "id": "27544044-6918-48d5-9076-d255ad293d19"
+        },
+        "9085f7a9-f6a0-40b5-bf19-2053c70e44bb": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "9e9bb483-a339-4238-8ada-b6150813cdf7",
+          "id": "9085f7a9-f6a0-40b5-bf19-2053c70e44bb"
+        },
+        "af45aa1d-7986-435c-9adf-902e0205b25c": {
+          "from": "4734cad4-97b3-439e-a8d4-10609cd4ff61",
+          "to": "b2e40438-32ce-4b0a-8960-f26772b261f0",
+          "id": "af45aa1d-7986-435c-9adf-902e0205b25c"
+        },
+        "6ce449fc-c620-4f24-91af-bc79094feba3": {
+          "from": "d11cc4db-6e3d-403c-b420-206960296a13",
+          "to": "a5727399-f504-490a-895a-5aca3566efdc",
+          "id": "6ce449fc-c620-4f24-91af-bc79094feba3"
+        },
+        "14653d15-f633-4aa7-b5aa-aff08ad25f96": {
+          "from": "d11cc4db-6e3d-403c-b420-206960296a13",
+          "to": "0fcf3fe6-0562-4ef7-becb-722cb049ee99",
+          "id": "14653d15-f633-4aa7-b5aa-aff08ad25f96"
+        },
+        "a80c4a2c-1b94-4fb3-bcaf-18ef63550db9": {
+          "from": "d11cc4db-6e3d-403c-b420-206960296a13",
+          "to": "aeac19ca-8851-4e7d-beba-cfd8d76151b5",
+          "id": "a80c4a2c-1b94-4fb3-bcaf-18ef63550db9"
+        },
+        "632edff1-e03d-455c-b741-f2166512a929": {
+          "from": "096703f2-b46e-429b-b012-889230f3c248",
+          "to": "ad4b4513-6174-4909-afa1-5443a92b584f",
+          "id": "632edff1-e03d-455c-b741-f2166512a929"
+        },
+        "09e19db8-befa-47c3-8732-633af6e9ff08": {
+          "from": "a23c5b16-f799-4626-946c-abcd60bca84b",
+          "to": "096703f2-b46e-429b-b012-889230f3c248",
+          "id": "09e19db8-befa-47c3-8732-633af6e9ff08"
+        },
+        "01bc5cf6-3bc8-4b50-9781-5077246f74f4": {
+          "from": "791d59df-1931-4775-9657-0d8cea4f7744",
+          "to": "48c0375b-30ba-48bc-ab1a-ebe596ca583e",
+          "id": "01bc5cf6-3bc8-4b50-9781-5077246f74f4"
+        },
+        "b8b1187f-c58b-443c-9c78-2dcc6176e990": {
+          "from": "6a00bc27-4358-4473-b893-9f11385cf6b6",
+          "to": "5bc0c91c-5652-44a7-a370-acae0d10220b",
+          "id": "b8b1187f-c58b-443c-9c78-2dcc6176e990"
+        },
+        "d2bcd2de-0500-459f-a36e-e1a910fe7d24": {
+          "from": "6a00bc27-4358-4473-b893-9f11385cf6b6",
+          "to": "fc62edab-8b21-49f1-8d97-df16fa5a7e51",
+          "id": "d2bcd2de-0500-459f-a36e-e1a910fe7d24"
+        },
+        "e1d3f8c4-94a5-4745-805a-91a62b432517": {
+          "from": "6a00bc27-4358-4473-b893-9f11385cf6b6",
+          "to": "076bda96-253e-48ce-8dc8-203e2020a79a",
+          "id": "e1d3f8c4-94a5-4745-805a-91a62b432517"
+        },
+        "5d443b40-5a6c-422e-97cf-841d577ae40a": {
+          "from": "791d59df-1931-4775-9657-0d8cea4f7744",
+          "to": "6a00bc27-4358-4473-b893-9f11385cf6b6",
+          "id": "5d443b40-5a6c-422e-97cf-841d577ae40a"
+        },
+        "5de694c4-5796-4feb-af4f-3a5cbc77cc34": {
+          "from": "791d59df-1931-4775-9657-0d8cea4f7744",
+          "to": "b0f597a5-745f-4dda-bd3b-4828a1d446ad",
+          "id": "5de694c4-5796-4feb-af4f-3a5cbc77cc34"
+        },
+        "818db86a-12a6-4ff0-8d18-4df71ee389bc": {
+          "from": "b0f597a5-745f-4dda-bd3b-4828a1d446ad",
+          "to": "01623a5f-8cb5-4828-b229-9cdefc55eec1",
+          "id": "818db86a-12a6-4ff0-8d18-4df71ee389bc"
+        },
+        "2f734839-ed90-4cd9-ac5d-bfd9179d9f6c": {
+          "from": "9ae85878-3f38-44aa-ae82-99ed4136837b",
+          "to": "d414fd00-65fc-4641-bcd5-a037692aff38",
+          "id": "2f734839-ed90-4cd9-ac5d-bfd9179d9f6c"
+        },
+        "27cead3a-5df1-48b2-ab54-9badff203c6d": {
+          "from": "b0f597a5-745f-4dda-bd3b-4828a1d446ad",
+          "to": "9ae85878-3f38-44aa-ae82-99ed4136837b",
+          "id": "27cead3a-5df1-48b2-ab54-9badff203c6d"
+        },
+        "c1c4b2ae-dea9-49dc-a86e-f5d82c29cc78": {
+          "from": "38c1467f-bdb2-4828-95fc-3f4bebda1976",
+          "to": "630d690e-41af-4cd8-843d-bb8671982e73",
+          "id": "c1c4b2ae-dea9-49dc-a86e-f5d82c29cc78"
+        },
+        "fa1ba993-906f-4b25-8455-7a34c8d93fb6": {
+          "from": "630d690e-41af-4cd8-843d-bb8671982e73",
+          "to": "9004991d-6f65-46b3-a65e-362fe60df4a4",
+          "id": "fa1ba993-906f-4b25-8455-7a34c8d93fb6"
+        },
+        "b37c1c46-2508-4f3b-8763-9d89c88d1f2b": {
+          "from": "9004991d-6f65-46b3-a65e-362fe60df4a4",
+          "to": "210b86ff-5965-4a8e-a727-10f85ed6a295",
+          "id": "b37c1c46-2508-4f3b-8763-9d89c88d1f2b"
+        },
+        "7f709d3f-bb3b-41a4-a4e5-73c6b48ced10": {
+          "from": "38c1467f-bdb2-4828-95fc-3f4bebda1976",
+          "to": "171ad7bf-c68a-49d9-b478-92e611943afd",
+          "id": "7f709d3f-bb3b-41a4-a4e5-73c6b48ced10"
+        },
+        "6df4b777-3ec0-496b-bfbf-93383ee4d6a7": {
+          "from": "171ad7bf-c68a-49d9-b478-92e611943afd",
+          "to": "b5ffc962-a378-419f-aeeb-f6463078f6ef",
+          "id": "6df4b777-3ec0-496b-bfbf-93383ee4d6a7"
+        },
+        "acc5e0f6-9fed-4ff1-b94d-6f148acc98c5": {
+          "from": "171ad7bf-c68a-49d9-b478-92e611943afd",
+          "to": "bd76f40a-c361-4c76-bd5d-fefab9a23bb7",
+          "id": "acc5e0f6-9fed-4ff1-b94d-6f148acc98c5"
+        },
+        "60680832-f2ee-4325-9362-935d9fc4582b": {
+          "from": "171ad7bf-c68a-49d9-b478-92e611943afd",
+          "to": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "id": "60680832-f2ee-4325-9362-935d9fc4582b"
+        },
+        "93a0682b-1d39-4f89-a681-15234ce28ec3": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "8308ce71-274e-4950-8581-233c4c0a04b5",
+          "id": "93a0682b-1d39-4f89-a681-15234ce28ec3"
+        },
+        "b1fcafe2-be02-4280-9732-9fbab365017d": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "d659b17a-9b0f-44f3-9a0c-6a6301f6dafd",
+          "id": "b1fcafe2-be02-4280-9732-9fbab365017d"
+        },
+        "fda50212-d25a-44c3-9cb3-807761cd0841": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "e9d832f3-cb22-4286-98a9-8a51b3a0f5b9",
+          "id": "fda50212-d25a-44c3-9cb3-807761cd0841"
+        },
+        "df09c38d-e8fa-4f4f-9b26-72ba227e76df": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "b5ff7156-d175-44f6-bb74-67a8088fc0d7",
+          "id": "df09c38d-e8fa-4f4f-9b26-72ba227e76df"
+        },
+        "ac3308d4-c0ca-4921-9b03-1690d703f9ff": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "2dc407b8-cda5-47cd-92ff-63d651175c23",
+          "id": "ac3308d4-c0ca-4921-9b03-1690d703f9ff"
+        },
+        "c7e1490f-cf47-4759-a87d-48b667df31fa": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "85737c7b-0e06-444b-9806-2cf8f66acc1a",
+          "id": "c7e1490f-cf47-4759-a87d-48b667df31fa"
+        },
+        "e3a3e770-c91d-4c5f-825d-0568ff7b4a83": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "e789fb60-0988-48d0-97cd-a582f1dff5a0",
+          "id": "e3a3e770-c91d-4c5f-825d-0568ff7b4a83"
+        },
+        "43a5ac56-01d1-427d-8dc3-fa9724e50b68": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "d5b4c372-7177-4141-8cc5-9204a44b4ab4",
+          "id": "43a5ac56-01d1-427d-8dc3-fa9724e50b68"
+        },
+        "04beceb7-2c76-463a-b6f8-16af0de07f17": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "8faeab3e-57e1-4714-adb0-d1721e5bb2ba",
+          "id": "04beceb7-2c76-463a-b6f8-16af0de07f17"
+        },
+        "38960eae-71ce-4a41-85a9-3cd1ae5256a1": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "44bc9b47-5f8b-4197-a9db-8313614bee3c",
+          "id": "38960eae-71ce-4a41-85a9-3cd1ae5256a1"
+        },
+        "41a18403-1845-4e1f-83d4-33f2e3326c3c": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "8e10f7de-5835-42d7-bcc9-2fbf735adda7",
+          "id": "41a18403-1845-4e1f-83d4-33f2e3326c3c"
+        },
+        "f1c3e536-2564-4756-b825-4ec6ab0e6b92": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "75baf16c-e87d-4824-b4db-2d316f4827d3",
+          "id": "f1c3e536-2564-4756-b825-4ec6ab0e6b92"
+        },
+        "00e5cb79-7412-4716-ae17-82da68321af7": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "8bd172fe-692d-4ae7-92ad-14cf0148e59d",
+          "id": "00e5cb79-7412-4716-ae17-82da68321af7"
+        },
+        "e2983a07-ad0d-4ed6-ad52-5fc31fb40a08": {
+          "from": "e8dc56e9-1b94-4648-8a90-6717e58ecb88",
+          "to": "d50b5873-0054-4434-ba27-0122d87897ac",
+          "id": "e2983a07-ad0d-4ed6-ad52-5fc31fb40a08"
+        },
+        "cc6f0b10-bdd0-4d26-ad5f-ca05ad0c8a04": {
+          "from": "38c1467f-bdb2-4828-95fc-3f4bebda1976",
+          "to": "f76b0147-a093-4822-8d0b-5e125a9d35be",
+          "id": "cc6f0b10-bdd0-4d26-ad5f-ca05ad0c8a04"
+        },
+        "d76e2f62-003f-49e2-a65e-2d5f2a8bb6ed": {
+          "from": "38c1467f-bdb2-4828-95fc-3f4bebda1976",
+          "to": "e2add5c0-525e-4d5a-98f3-01f99e9b8e54",
+          "id": "d76e2f62-003f-49e2-a65e-2d5f2a8bb6ed"
+        },
+        "e0ead85c-f35a-4ef6-b2dd-c8dfc4d08c94": {
+          "from": "38c1467f-bdb2-4828-95fc-3f4bebda1976",
+          "to": "02241de3-290b-497d-b843-f53a99615ac9",
+          "id": "e0ead85c-f35a-4ef6-b2dd-c8dfc4d08c94"
+        },
+        "fefccaa2-1419-436d-8f42-ce7dbdd6ae18": {
+          "from": "9ef88c16-8179-4795-a08b-d9c2b11b2da4",
+          "to": "7ce9851f-f433-482f-ace6-0690147fc252",
+          "id": "fefccaa2-1419-436d-8f42-ce7dbdd6ae18"
+        },
+        "40e39dde-8382-4feb-88a4-e9056a0f611c": {
+          "from": "7ce9851f-f433-482f-ace6-0690147fc252",
+          "to": "50f6a254-3b6b-4be4-98b3-44886480a906",
+          "id": "40e39dde-8382-4feb-88a4-e9056a0f611c"
+        },
+        "f7f129af-10c7-489a-85b3-740d5c17ef19": {
+          "from": "50f6a254-3b6b-4be4-98b3-44886480a906",
+          "to": "89c86277-0039-4f7d-bd7d-2a07f6211244",
+          "id": "f7f129af-10c7-489a-85b3-740d5c17ef19"
+        },
+        "2de135dd-4716-434b-aa66-224a99ced842": {
+          "from": "9ef88c16-8179-4795-a08b-d9c2b11b2da4",
+          "to": "a98da265-9da0-4712-b493-d7968ab6769e",
+          "id": "2de135dd-4716-434b-aa66-224a99ced842"
+        },
+        "bc48b9ee-6e10-45c2-8a16-432c3bb2ff47": {
+          "from": "a98da265-9da0-4712-b493-d7968ab6769e",
+          "to": "4a2bc854-882a-4f1b-bbf8-3334660204b5",
+          "id": "bc48b9ee-6e10-45c2-8a16-432c3bb2ff47"
+        },
+        "6b7502ea-cd45-40cb-a0fa-0cb5f0ed1bc3": {
+          "from": "a98da265-9da0-4712-b493-d7968ab6769e",
+          "to": "4a0710be-85e6-401b-90f9-a2e9ea5c2e74",
+          "id": "6b7502ea-cd45-40cb-a0fa-0cb5f0ed1bc3"
+        },
+        "89c91289-a893-4223-ba16-5d47a58a1efd": {
+          "from": "a98da265-9da0-4712-b493-d7968ab6769e",
+          "to": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "id": "89c91289-a893-4223-ba16-5d47a58a1efd"
+        },
+        "be440b42-e2cb-4268-af0e-cb7bee5671cd": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "1fc5437e-23ca-4f0b-a48c-e01c1c0f6ffd",
+          "id": "be440b42-e2cb-4268-af0e-cb7bee5671cd"
+        },
+        "3ec21a63-6936-46c7-abc9-48e56bfb4d96": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "edd5170b-a433-4263-b955-73b63f01d363",
+          "id": "3ec21a63-6936-46c7-abc9-48e56bfb4d96"
+        },
+        "ee2aed83-a757-4c83-b61d-abdd9090118a": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "b62fadd4-3163-449c-a7b9-26bfceeb1997",
+          "id": "ee2aed83-a757-4c83-b61d-abdd9090118a"
+        },
+        "6cd9580a-3018-4352-b460-af9db84775c3": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "58f9fbdb-1ffb-40a6-872e-82a0cc039dee",
+          "id": "6cd9580a-3018-4352-b460-af9db84775c3"
+        },
+        "afdb10fe-f9b1-4d90-ba2a-384cffc323ba": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "f1d19483-9d83-45c0-a36b-00b00aa6fc66",
+          "id": "afdb10fe-f9b1-4d90-ba2a-384cffc323ba"
+        },
+        "c6e91cee-578f-44b6-88fc-af617f141ee1": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "1cb323f8-68df-4707-897c-d3920d4a8f71",
+          "id": "c6e91cee-578f-44b6-88fc-af617f141ee1"
+        },
+        "d871d168-6762-4254-93c2-5ea79d7ff5f8": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "a05c6c67-f102-4827-991b-348da1a766c3",
+          "id": "d871d168-6762-4254-93c2-5ea79d7ff5f8"
+        },
+        "47fe709b-9947-4829-975f-8a957127f716": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "62a14fe2-d9ce-47bf-b020-30a22fafe9aa",
+          "id": "47fe709b-9947-4829-975f-8a957127f716"
+        },
+        "c96d2548-3e0c-4fe1-b735-393b94707d7b": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "c2422a52-f05f-4485-b5f8-c711af3ceada",
+          "id": "c96d2548-3e0c-4fe1-b735-393b94707d7b"
+        },
+        "7cba9e02-3da6-4a01-8747-b753c6056a21": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "08a4f9fa-300a-4f86-ad58-69d00d409a2f",
+          "id": "7cba9e02-3da6-4a01-8747-b753c6056a21"
+        },
+        "8bc2b576-8b1a-4fd7-877e-8b28dc8b2658": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "39b73a79-7f24-46d1-a5b0-f213b6da10f6",
+          "id": "8bc2b576-8b1a-4fd7-877e-8b28dc8b2658"
+        },
+        "ab36acfe-575e-4fe4-bab2-4511750d5880": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "1cf21460-5f43-4573-911a-54218c04c716",
+          "id": "ab36acfe-575e-4fe4-bab2-4511750d5880"
+        },
+        "43fb554f-5df6-4432-8bac-382caa2fe2bc": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "af5b8904-e4f2-46ff-95f2-edec37b270fc",
+          "id": "43fb554f-5df6-4432-8bac-382caa2fe2bc"
+        },
+        "1a9e525b-f9e1-44e9-aaa6-988453673265": {
+          "from": "778fb8b3-2a58-498e-bf9d-d024d119bceb",
+          "to": "6707e5e1-b93b-4107-9741-e137e8e0036c",
+          "id": "1a9e525b-f9e1-44e9-aaa6-988453673265"
+        },
+        "bfe842b1-6a25-4f81-80a7-8b03082fcd86": {
+          "from": "9ef88c16-8179-4795-a08b-d9c2b11b2da4",
+          "to": "acfb8580-b58b-455e-873e-926e6b4b9b70",
+          "id": "bfe842b1-6a25-4f81-80a7-8b03082fcd86"
+        },
+        "66723002-98a5-47f9-b425-4fcaa2e6599d": {
+          "from": "9ef88c16-8179-4795-a08b-d9c2b11b2da4",
+          "to": "3da67967-9c9c-47d9-9aa7-57a1e8d878ec",
+          "id": "66723002-98a5-47f9-b425-4fcaa2e6599d"
+        },
+        "7140bc73-667e-4a4e-978d-0169eb2b6b2e": {
+          "from": "9ef88c16-8179-4795-a08b-d9c2b11b2da4",
+          "to": "a41d5900-844d-4370-bff1-84a8c9b403c8",
+          "id": "7140bc73-667e-4a4e-978d-0169eb2b6b2e"
+        },
+        "cade91bc-5fac-4f09-8412-bc28b9e44ca6": {
+          "from": "167eae18-9ce7-46b0-8874-eebbca666339",
+          "to": "ea3c4c2d-1b26-4ab3-bb31-4cc82ce82b29",
+          "id": "cade91bc-5fac-4f09-8412-bc28b9e44ca6"
+        },
+        "cf29b4f9-b468-485b-9be4-32c38edc1f73": {
+          "from": "167eae18-9ce7-46b0-8874-eebbca666339",
+          "to": "308b4d30-c9d5-461d-949c-0f1ab1c2f392",
+          "id": "cf29b4f9-b468-485b-9be4-32c38edc1f73"
+        },
+        "8cccfa52-cafa-4716-8774-5a33b9bf0680": {
+          "from": "2ce7d02f-3707-49f7-ae9d-652219fd86d3",
+          "to": "478f24fb-e933-4c37-b255-204d2ca3b0bf",
+          "id": "8cccfa52-cafa-4716-8774-5a33b9bf0680"
+        },
+        "a8760f24-4e79-4fc9-bdbd-bedc652bb782": {
+          "from": "eab5e53b-7e7f-4968-9317-689c4a89227e",
+          "to": "167eae18-9ce7-46b0-8874-eebbca666339",
+          "id": "a8760f24-4e79-4fc9-bdbd-bedc652bb782"
+        },
+        "2667c607-909b-494d-9f5b-e90210fda80a": {
+          "from": "eab5e53b-7e7f-4968-9317-689c4a89227e",
+          "to": "2ce7d02f-3707-49f7-ae9d-652219fd86d3",
+          "id": "2667c607-909b-494d-9f5b-e90210fda80a"
+        },
+        "c4642e44-680f-4c6d-b30a-ec18ffd78224": {
+          "from": "0a6824b9-7a1d-418b-b9a6-c6c4d560cbb1",
+          "to": "6bb66963-3e91-4050-be7a-11522b2b4cb2",
+          "id": "c4642e44-680f-4c6d-b30a-ec18ffd78224"
+        },
+        "124d5f1a-3ed9-44ba-9817-7848477f9313": {
+          "from": "0a6824b9-7a1d-418b-b9a6-c6c4d560cbb1",
+          "to": "ace7fffa-f96a-4a79-bf12-a899b7aaeed5",
+          "id": "124d5f1a-3ed9-44ba-9817-7848477f9313"
+        },
+        "b6b0564d-a0ad-444f-b37b-6d42c1d97b94": {
+          "from": "601bdac3-fca0-4124-901d-1b878335511f",
+          "to": "62150fd7-a625-475d-a1d7-df52be159dcc",
+          "id": "b6b0564d-a0ad-444f-b37b-6d42c1d97b94"
+        },
+        "2eb60950-e188-481d-b40c-b0af4b42e208": {
+          "from": "601bdac3-fca0-4124-901d-1b878335511f",
+          "to": "b3008709-d76a-4591-ab7f-580d0751d8ce",
+          "id": "2eb60950-e188-481d-b40c-b0af4b42e208"
+        },
+        "1a2027de-1b75-426e-a499-58e7b4573c3f": {
+          "from": "601bdac3-fca0-4124-901d-1b878335511f",
+          "to": "0a6824b9-7a1d-418b-b9a6-c6c4d560cbb1",
+          "id": "1a2027de-1b75-426e-a499-58e7b4573c3f"
+        },
+        "0f4430e8-bf77-4faa-8d40-022e5115b77a": {
+          "from": "eab5e53b-7e7f-4968-9317-689c4a89227e",
+          "to": "601bdac3-fca0-4124-901d-1b878335511f",
+          "id": "0f4430e8-bf77-4faa-8d40-022e5115b77a"
+        },
+        "c4dfa654-9974-44e8-b120-71b24e837803": {
+          "from": "df8e0231-06d4-4af6-851b-8f6e721bac08",
+          "to": "44d7794a-9392-4c69-94e5-a9ae4c79bcf4",
+          "id": "c4dfa654-9974-44e8-b120-71b24e837803"
+        },
+        "c486e888-4a5a-4da5-8868-2f923bf66e49": {
+          "from": "df8e0231-06d4-4af6-851b-8f6e721bac08",
+          "to": "492166c7-e3f2-492a-ac48-d62076653c68",
+          "id": "c486e888-4a5a-4da5-8868-2f923bf66e49"
+        },
+        "4c4ae95f-0649-4720-856c-6717cd4ded57": {
+          "from": "601bdac3-fca0-4124-901d-1b878335511f",
+          "to": "df8e0231-06d4-4af6-851b-8f6e721bac08",
+          "id": "4c4ae95f-0649-4720-856c-6717cd4ded57"
+        },
+        "5498aa2f-dc9d-483e-9d53-69257ec249c1": {
+          "from": "638d42c2-f8b1-4931-83b6-f3d7d7678b0f",
+          "to": "1aef04e5-ce41-4b7e-9af6-61d01fcab4a8",
+          "id": "5498aa2f-dc9d-483e-9d53-69257ec249c1"
+        },
+        "503a0a19-f899-4fc5-9654-7b532bb546a2": {
+          "from": "638d42c2-f8b1-4931-83b6-f3d7d7678b0f",
+          "to": "9b03e946-f388-4a3a-8fa8-7dca781d30fc",
+          "id": "503a0a19-f899-4fc5-9654-7b532bb546a2"
+        },
+        "e58f0ea0-19b6-4ed5-b2ad-80fa173bbb9f": {
+          "from": "638d42c2-f8b1-4931-83b6-f3d7d7678b0f",
+          "to": "9e4aaf80-0fb4-4227-9048-7151423fe67d",
+          "id": "e58f0ea0-19b6-4ed5-b2ad-80fa173bbb9f"
+        },
+        "6f4c39ac-32d7-447d-a5da-f3bcdc039ed3": {
+          "from": "638d42c2-f8b1-4931-83b6-f3d7d7678b0f",
+          "to": "30e25b68-7664-4d1f-99ae-1b6ffe772ac9",
+          "id": "6f4c39ac-32d7-447d-a5da-f3bcdc039ed3"
+        },
+        "c78f5c8f-824f-4456-895b-eb7ec3065b59": {
+          "from": "638d42c2-f8b1-4931-83b6-f3d7d7678b0f",
+          "to": "2f1217e4-2471-40a9-ac3f-dc995f416d55",
+          "id": "c78f5c8f-824f-4456-895b-eb7ec3065b59"
+        },
+        "41af0bc0-06bd-48e0-b3f1-31f1b028f351": {
+          "from": "a23c5b16-f799-4626-946c-abcd60bca84b",
+          "to": "638d42c2-f8b1-4931-83b6-f3d7d7678b0f",
+          "id": "41af0bc0-06bd-48e0-b3f1-31f1b028f351"
+        },
+        "0da8b19f-5d74-4f8f-9505-8a07e3f5b813": {
+          "from": "f90f677f-8a68-4c63-9dfa-461cd7b7a350",
+          "to": "d416f6ab-f677-4b54-bd73-eb1979f90db3",
+          "id": "0da8b19f-5d74-4f8f-9505-8a07e3f5b813"
+        },
+        "bcf422f9-e0d5-42de-a16b-c6b89d95d768": {
+          "from": "f90f677f-8a68-4c63-9dfa-461cd7b7a350",
+          "to": "2bc71a46-65ea-4a93-a4d8-9b4349779f47",
+          "id": "bcf422f9-e0d5-42de-a16b-c6b89d95d768"
+        },
+        "e269264f-1a92-45e1-96ef-5b381ad3324b": {
+          "from": "17123a65-c20c-4274-b2c6-b645af480fd8",
+          "to": "85c8222b-02fd-4aec-abdf-b07ea58168de",
+          "id": "e269264f-1a92-45e1-96ef-5b381ad3324b"
+        },
+        "5723eda9-c26f-4709-b277-05473410894a": {
+          "from": "85c8222b-02fd-4aec-abdf-b07ea58168de",
+          "to": "bee669c0-6cbf-4e7d-bc4e-e61645387391",
+          "id": "5723eda9-c26f-4709-b277-05473410894a"
+        },
+        "d1be3643-f4ae-4ab1-b60b-248a0dc43a92": {
+          "from": "bee669c0-6cbf-4e7d-bc4e-e61645387391",
+          "to": "6a472a15-40f1-4881-bb2a-5e87f2e21a0c",
+          "id": "d1be3643-f4ae-4ab1-b60b-248a0dc43a92"
+        },
+        "1bcc564b-44d9-45b6-b7af-98a7b0be74bf": {
+          "from": "17123a65-c20c-4274-b2c6-b645af480fd8",
+          "to": "3a01ec33-1f39-4a6b-8c09-6e86c6526b29",
+          "id": "1bcc564b-44d9-45b6-b7af-98a7b0be74bf"
+        },
+        "557db1ad-7794-46bc-b8bb-e41bca07d308": {
+          "from": "3a01ec33-1f39-4a6b-8c09-6e86c6526b29",
+          "to": "404d6679-d667-424b-96da-e7fa3d023a36",
+          "id": "557db1ad-7794-46bc-b8bb-e41bca07d308"
+        },
+        "c781ac5a-0c38-4a4d-b1d8-29b2c70ef2b6": {
+          "from": "3a01ec33-1f39-4a6b-8c09-6e86c6526b29",
+          "to": "eb1307bd-afb8-4c9d-826f-6c044e9d9839",
+          "id": "c781ac5a-0c38-4a4d-b1d8-29b2c70ef2b6"
+        },
+        "7c314b1d-b707-4a22-92ea-e9da38aac5c3": {
+          "from": "3a01ec33-1f39-4a6b-8c09-6e86c6526b29",
+          "to": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "id": "7c314b1d-b707-4a22-92ea-e9da38aac5c3"
+        },
+        "1e8040d5-cc3b-4a5c-ae70-19007b367a76": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "3286f953-3e82-4c4b-b565-1dfe1d2fdf9d",
+          "id": "1e8040d5-cc3b-4a5c-ae70-19007b367a76"
+        },
+        "88dc475e-33a5-4c8d-a4d6-6f3d27d27326": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "c8b35536-6c96-444a-b515-62a3711747ff",
+          "id": "88dc475e-33a5-4c8d-a4d6-6f3d27d27326"
+        },
+        "041592d9-9698-4c71-8d35-7e978a83df9a": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "144a7c9a-77d7-492c-90e2-598cc06c04ca",
+          "id": "041592d9-9698-4c71-8d35-7e978a83df9a"
+        },
+        "16dab8bb-ba76-4134-bf85-639d10e993c9": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "0a35867b-eec1-40a1-ae15-981957c2f43b",
+          "id": "16dab8bb-ba76-4134-bf85-639d10e993c9"
+        },
+        "be1c25ed-d65a-4482-9cb5-a57d5838bcb1": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "79e629ed-83f3-4ddb-8404-5c82fcd7e8b5",
+          "id": "be1c25ed-d65a-4482-9cb5-a57d5838bcb1"
+        },
+        "d363e000-9d82-43e8-ae85-3d854a976ba5": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "df5444dc-54fb-48ba-90ca-84e4111a40d2",
+          "id": "d363e000-9d82-43e8-ae85-3d854a976ba5"
+        },
+        "544f1a6c-8846-4002-b674-251246732034": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "943cde1c-1885-4d51-b874-16f807b6431c",
+          "id": "544f1a6c-8846-4002-b674-251246732034"
+        },
+        "57a2cd83-4afe-419d-ac64-f450caf4b3b2": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "b433d0a7-ab03-4f65-8fc4-f413addd07a7",
+          "id": "57a2cd83-4afe-419d-ac64-f450caf4b3b2"
+        },
+        "a5b12d34-99b5-4a56-a4f0-6f850552c1af": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "2a3a9c8d-dc3f-44db-b452-301ac796edbd",
+          "id": "a5b12d34-99b5-4a56-a4f0-6f850552c1af"
+        },
+        "14bf640b-16bc-4acd-9cd7-0644f065cc31": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "1638c26b-e52f-4c9e-9867-786a91b66426",
+          "id": "14bf640b-16bc-4acd-9cd7-0644f065cc31"
+        },
+        "58afb909-cd60-48e6-ad09-8030a98057d6": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "8ffa95ea-fbb4-4633-af30-2c1be045e418",
+          "id": "58afb909-cd60-48e6-ad09-8030a98057d6"
+        },
+        "834979ee-b452-4368-9a36-b2b6aab998b2": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "ef122968-6258-453d-be69-e4cd3868782c",
+          "id": "834979ee-b452-4368-9a36-b2b6aab998b2"
+        },
+        "d42251ec-3cf3-477a-985f-36a48373e4f8": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "5cfd6741-8b70-430a-befa-51d50c1c7c49",
+          "id": "d42251ec-3cf3-477a-985f-36a48373e4f8"
+        },
+        "c1f61abc-e624-4582-acb5-3f9bb35a2bde": {
+          "from": "29a8a016-2d49-4a08-a293-4d86a0e00a86",
+          "to": "ac047d3b-7874-4d95-8a3d-774096ff9c25",
+          "id": "c1f61abc-e624-4582-acb5-3f9bb35a2bde"
+        },
+        "eb648c81-5d56-45af-b36f-c7638972817a": {
+          "from": "17123a65-c20c-4274-b2c6-b645af480fd8",
+          "to": "b80bb271-9ddc-44bb-9e92-6dd0ed90231f",
+          "id": "eb648c81-5d56-45af-b36f-c7638972817a"
+        },
+        "e97d9bde-e2cc-4927-b508-2649981c4576": {
+          "from": "17123a65-c20c-4274-b2c6-b645af480fd8",
+          "to": "f8498363-157f-4f51-845f-0e0928410d73",
+          "id": "e97d9bde-e2cc-4927-b508-2649981c4576"
+        },
+        "f3b8037d-5fb7-436c-bec3-832c99155220": {
+          "from": "17123a65-c20c-4274-b2c6-b645af480fd8",
+          "to": "8a840db4-14c8-48fe-a515-9d31962378dd",
+          "id": "f3b8037d-5fb7-436c-bec3-832c99155220"
+        },
+        "c8b1cd14-13df-4f7a-be10-abc3c6a79352": {
+          "from": "943cde1c-1885-4d51-b874-16f807b6431c",
+          "to": "b6b87832-1417-4753-9e31-4ab20e2b9286",
+          "id": "c8b1cd14-13df-4f7a-be10-abc3c6a79352"
+        },
+        "4e64849c-573f-4e1d-805d-85500606eb37": {
+          "from": "943cde1c-1885-4d51-b874-16f807b6431c",
+          "to": "093fd0fd-cc17-4cd5-b2b2-5976098ea8bc",
+          "id": "4e64849c-573f-4e1d-805d-85500606eb37"
+        },
+        "74044c55-c0ff-4a02-93b1-dfc03deacfaf": {
+          "from": "943cde1c-1885-4d51-b874-16f807b6431c",
+          "to": "dd93ccf5-eca9-4c75-b64f-33cf0667a7f3",
+          "id": "74044c55-c0ff-4a02-93b1-dfc03deacfaf"
+        },
+        "60a07f63-7a58-4454-9149-ab3f0d11ab37": {
+          "from": "404d6679-d667-424b-96da-e7fa3d023a36",
+          "to": "75ad06cb-28cd-4e7a-bfa2-656b65df0ee8",
+          "id": "60a07f63-7a58-4454-9149-ab3f0d11ab37"
+        },
+        "274a16ce-a704-45af-ac6e-7510f6335f59": {
+          "from": "654c3cd0-f329-45c6-8588-725ff2a99d89",
+          "to": "0b655fa6-eb51-44d2-8b9c-abd57b7aae9d",
+          "id": "274a16ce-a704-45af-ac6e-7510f6335f59"
+        },
+        "b9335008-0027-46e7-a472-f188779267be": {
+          "from": "d148c804-583c-4167-a859-c3b6cc31af8d",
+          "to": "654c3cd0-f329-45c6-8588-725ff2a99d89",
+          "id": "b9335008-0027-46e7-a472-f188779267be"
+        },
+        "03849991-6745-40c2-b736-58b329287288": {
+          "from": "654c3cd0-f329-45c6-8588-725ff2a99d89",
+          "to": "d3fc307b-1e30-4ab6-a521-cc2d2debe7b8",
+          "id": "03849991-6745-40c2-b736-58b329287288"
+        },
+        "1626b30d-e6f2-4008-af6d-03f5a656441b": {
+          "from": "b0f597a5-745f-4dda-bd3b-4828a1d446ad",
+          "to": "4a0bdf00-5c53-44bc-a2ba-36960f1eb51b",
+          "id": "1626b30d-e6f2-4008-af6d-03f5a656441b"
         }
       },
       "length": 0,
@@ -48237,8 +50729,8 @@ var schemeData =
   "setup": {
     "scale": 0.0156,
     "viewPosition": {
-      "x": 102403.00000128208,
-      "y": 11799.999998205143
+      "x": 102403.00000128205,
+      "y": 11799.999998205129
     }
   }
 }

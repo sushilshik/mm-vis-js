@@ -19997,7 +19997,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -20025,7 +20026,7 @@ var schemeData =
           "x": 65299,
           "y": -9257,
           "shape": "box",
-          "link": "javascript.html",
+          "link": "python.html",
           "borderWidth": ""
         },
         "f545dd1b-433d-4a18-8b64-066cda332f13": {
@@ -43650,8 +43651,8 @@ var schemeData =
   "setup": {
     "scale": 0.0145,
     "viewPosition": {
-      "x": 100403.0000013791,
-      "y": 10000.000003448271
+      "x": 100403.0000013796,
+      "y": 10000.000003448302
     }
   }
 }

@@ -48485,7 +48485,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -48513,7 +48514,7 @@ var schemeData =
           "x": 64866,
           "y": -9346,
           "shape": "box",
-          "link": "javascript.html",
+          "link": "python.html",
           "borderWidth": ""
         }
       },
@@ -65584,7 +65585,7 @@ var schemeData =
     "scale": 0.014,
     "viewPosition": {
       "x": 106403.00000142868,
-      "y": 14200.000001428569
+      "y": 14200.000001428634
     }
   }
 }
