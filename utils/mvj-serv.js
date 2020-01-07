@@ -5,6 +5,7 @@ var host = "127.0.0.1";
 var port = 1337;
 var httpsPort = 3001;
 var express = require("express");
+const axios = require('axios');
 
 var mvjCodePath = "/home/mike/progr/repo/mm-vis-js/utils/mvj-code.js";
 
@@ -180,7 +181,7 @@ app.get("/getPageDataJsFile", function(request, response){
    //console.log(answerLine);
    response.send(answerLine);
 });
-function htt(newsUrl) {
+function getPage(newsUrl, getRSSAnswer) {
    var url = require("url");
    var path = url.parse(newsUrl).path;
    var host = url.parse(newsUrl).host;
@@ -190,43 +191,56 @@ function htt(newsUrl) {
      hostname: host,
      port: 443,
      path: path,
-     method: 'GET'
+     method: 'GET',
+     headers: {
+        'Content-Type': 'text/html'
+     }
    }
 
-   const req = https.request(options, res => {
-     console.log(`statusCode: ${res.statusCode}`)
-   
-     res.on('data', d => {
-process.stdout.write(d);
-       //return d;
-       //process.stdout.write(d)
-       //resultData = d;
-       //r(d);
+   var req = https.request(options, function(res) {
+      //console.log("statusCode: ", res.statusCode);
+      //console.log("headers: ", res.headers);
 
-     })
-   })
+      res.setEncoding('utf8');
+      res.on('data', function(d) {
+         //process.stdout.write(d);
+         getRSSAnswer(d);
+      });
+   });
 
-   req.on('error', error => {
-     console.error(error);
-     //return error;
-       //var answerLine = JSON.stringify(error);
-       //response.send(answerLine);
-       //r(d);
+   req.end();
 
-   })
-
-   req.end()
+   req.on('error', function(e) {
+      console.error(e);
+   });
 }
 
-app.get("/getNews", function(request, response){
-   response.set('Access-Control-Allow-Origin', '*');
-   var newsUrl = request.query.newsUrl;
+app.get("/getWebPage", function(req, res){
+   res.set('Access-Control-Allow-Origin', '*');
+   var urlString = req.query.urlString;
+   console.log("urlString:");
+   console.log(urlString);
 
-   var answerLine = htt(newsUrl);
+/*
+   function getRSSAnswer(answerLine) {
+      answerLine = encodeURIComponent(answerLine)
+      answerLine = JSON.stringify(answerLine);
+      response.send(answerLine);
+   }
 
-   var answerLine = JSON.stringify(answerLine);
-   //console.log(answerLine);
-   response.send(answerLine);
+   var answerLine = getPage(urlString, getRSSAnswer);
+*/
+
+    axios.get(urlString)
+    .then(function (response) {
+        var data = JSON.stringify(response.data);
+        //console.log(data);
+        res.send(data);
+    })
+    .catch(function (error) {
+        console.log("Error");
+        //console.log(error);
+    });
 
 });
 app.listen(port, host);

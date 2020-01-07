@@ -3520,8 +3520,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Youtube",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680936",
-          "x": 104404,
-          "y": -1289,
+          "x": 104496,
+          "y": 761,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10714,8 +10714,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Танцы",
-          "x": 100002,
-          "y": -6058,
+          "x": 100089,
+          "y": -4535,
           "id": "c23be812-f157-4504-bebe-1ca7f79346b2936",
           "shape": "box",
           "link": "",
@@ -10744,8 +10744,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 100302,
-          "y": -5608,
+          "x": 100389,
+          "y": -4085,
           "id": "024e230d-4548-4876-9d4f-9470d8b7467a936"
         },
         "da708f95-0c2d-4e2b-a826-c64df8e5d5d4936": {
@@ -10771,8 +10771,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 100473,
-          "y": -5611,
+          "x": 100560,
+          "y": -4088,
           "id": "da708f95-0c2d-4e2b-a826-c64df8e5d5d4936"
         },
         "8c6f228f-74b2-4fc8-a575-8f7177a82d24936": {
@@ -10798,8 +10798,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 100589,
-          "y": -5611,
+          "x": 100676,
+          "y": -4088,
           "id": "8c6f228f-74b2-4fc8-a575-8f7177a82d24936"
         },
         "899d09f4-421d-41e8-91f0-c738385d8efe936": {
@@ -10825,8 +10825,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 100302,
-          "y": -6458,
+          "x": 100389,
+          "y": -4935,
           "id": "899d09f4-421d-41e8-91f0-c738385d8efe936"
         },
         "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936": {
@@ -10852,8 +10852,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 100459,
-          "y": -6994,
+          "x": 100485,
+          "y": -6626,
           "id": "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936"
         },
         "a5286a95-dd3f-462b-849d-f80f89fbdefe936": {
@@ -10879,8 +10879,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 100452,
-          "y": -6458,
+          "x": 100539,
+          "y": -4935,
           "id": "a5286a95-dd3f-462b-849d-f80f89fbdefe936"
         },
         "e41f7949-34c0-4992-af16-a184a91cdfdb936": {
@@ -10906,8 +10906,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 100452,
-          "y": -6208,
+          "x": 100539,
+          "y": -4685,
           "id": "e41f7949-34c0-4992-af16-a184a91cdfdb936"
         },
         "e5c87ea5-58a5-49f9-976c-032567241ddc936": {
@@ -10933,8 +10933,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 100516,
-          "y": -6358,
+          "x": 100603,
+          "y": -4835,
           "id": "e5c87ea5-58a5-49f9-976c-032567241ddc936"
         },
         "79c85aa3-d495-4f2a-8ee3-f3fad82231b7936": {
@@ -10960,8 +10960,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 100546,
-          "y": -6333,
+          "x": 100633,
+          "y": -4810,
           "id": "79c85aa3-d495-4f2a-8ee3-f3fad82231b7936"
         },
         "d7181452-c8f9-491b-ae44-1a8c5163c393936": {
@@ -10987,8 +10987,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 100512,
-          "y": -6308,
+          "x": 100599,
+          "y": -4785,
           "id": "d7181452-c8f9-491b-ae44-1a8c5163c393936"
         },
         "016afc6e-f7b9-4a79-8777-00eee6addb19936": {
@@ -11014,8 +11014,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 100531,
-          "y": -6283,
+          "x": 100618,
+          "y": -4760,
           "id": "016afc6e-f7b9-4a79-8777-00eee6addb19936"
         },
         "6fcdb010-5af6-4b56-b297-b189bd2b2903936": {
@@ -11041,8 +11041,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 100519,
-          "y": -6258,
+          "x": 100606,
+          "y": -4735,
           "id": "6fcdb010-5af6-4b56-b297-b189bd2b2903936"
         },
         "d3efb576-4fa6-4bb5-b86b-e0ac541a5b3f936": {
@@ -11068,8 +11068,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 100541,
-          "y": -6233,
+          "x": 100628,
+          "y": -4710,
           "id": "d3efb576-4fa6-4bb5-b86b-e0ac541a5b3f936"
         },
         "c9fed16a-1391-4e5e-895c-8a2085d08231936": {
@@ -11095,8 +11095,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 100544,
-          "y": -6208,
+          "x": 100631,
+          "y": -4685,
           "id": "c9fed16a-1391-4e5e-895c-8a2085d08231936"
         },
         "5f2771f1-bd94-4c75-9865-49f2b5ed74bc936": {
@@ -11122,8 +11122,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 100522,
-          "y": -6183,
+          "x": 100609,
+          "y": -4660,
           "id": "5f2771f1-bd94-4c75-9865-49f2b5ed74bc936"
         },
         "91076902-107f-4fef-9b51-cc52d4f843bf936": {
@@ -11149,8 +11149,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 100513,
-          "y": -6158,
+          "x": 100600,
+          "y": -4635,
           "id": "91076902-107f-4fef-9b51-cc52d4f843bf936"
         },
         "a69615fa-2067-4345-997e-fb8d1ea491a3936": {
@@ -11176,8 +11176,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 100540,
-          "y": -6133,
+          "x": 100627,
+          "y": -4610,
           "id": "a69615fa-2067-4345-997e-fb8d1ea491a3936"
         },
         "c43a8e34-db12-44fc-9715-ab72e19cde51936": {
@@ -11203,8 +11203,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 100527,
-          "y": -6108,
+          "x": 100614,
+          "y": -4585,
           "id": "c43a8e34-db12-44fc-9715-ab72e19cde51936"
         },
         "782d3a35-bcef-4879-bf09-7ee28c2486ec936": {
@@ -11230,8 +11230,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 100548,
-          "y": -6083,
+          "x": 100635,
+          "y": -4560,
           "id": "782d3a35-bcef-4879-bf09-7ee28c2486ec936"
         },
         "abd91d18-8a23-4fd1-ab64-0baae7c2bb38936": {
@@ -11257,8 +11257,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 100513,
-          "y": -6058,
+          "x": 100600,
+          "y": -4535,
           "id": "abd91d18-8a23-4fd1-ab64-0baae7c2bb38936"
         },
         "8ef63a4b-3241-4c25-b301-b4abc3576e13936": {
@@ -11284,8 +11284,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 100552,
-          "y": -6033,
+          "x": 100639,
+          "y": -4510,
           "id": "8ef63a4b-3241-4c25-b301-b4abc3576e13936"
         },
         "344ef268-84fd-47b4-8a8a-88169e5da577936": {
@@ -11311,8 +11311,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 100302,
-          "y": -5908,
+          "x": 100389,
+          "y": -4385,
           "id": "344ef268-84fd-47b4-8a8a-88169e5da577936"
         },
         "9d2e4802-6d8b-49b7-9a08-fd987377de51936": {
@@ -11338,8 +11338,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 100302,
-          "y": -5808,
+          "x": 100389,
+          "y": -4285,
           "id": "9d2e4802-6d8b-49b7-9a08-fd987377de51936"
         },
         "481adad2-5e08-4217-af06-d4d07a3e6619936": {
@@ -11365,8 +11365,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 100302,
-          "y": -5708,
+          "x": 100389,
+          "y": -4185,
           "id": "481adad2-5e08-4217-af06-d4d07a3e6619936"
         },
         "de143386-d722-40f6-be3c-5402322e4099936": {
@@ -11393,8 +11393,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Список стилей",
           "id": "de143386-d722-40f6-be3c-5402322e4099936",
-          "x": 100704,
-          "y": -7163
+          "x": 100723,
+          "y": -6642
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408936": {
           "color": {
@@ -11425,8 +11425,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Танцы",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408936",
-          "x": 104071,
-          "y": -6735,
+          "x": 104097,
+          "y": -6367,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11457,8 +11457,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Художники",
-          "x": 99911,
-          "y": -3660,
+          "x": 100003,
+          "y": -1610,
           "id": "78c6fd3a-0042-4940-97b4-2b7a8806d56e936",
           "shape": "box",
           "link": "",
@@ -11487,8 +11487,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 100211,
-          "y": -3210,
+          "x": 100303,
+          "y": -1160,
           "id": "acb585c4-939a-478a-ae2d-7ab6f9e1acef936"
         },
         "021068f5-9ad9-4455-9028-c38d162198bb936": {
@@ -11514,8 +11514,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 100461,
-          "y": -3210,
+          "x": 100553,
+          "y": -1160,
           "id": "021068f5-9ad9-4455-9028-c38d162198bb936"
         },
         "c7aa92cb-c06b-4ff4-92aa-04abdd1ce2d4936": {
@@ -11541,8 +11541,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 100361,
-          "y": -3210,
+          "x": 100453,
+          "y": -1160,
           "id": "c7aa92cb-c06b-4ff4-92aa-04abdd1ce2d4936"
         },
         "f6fd3124-0e46-449c-9f66-a3469178ef79936": {
@@ -11568,8 +11568,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 100211,
-          "y": -4060,
+          "x": 100303,
+          "y": -2010,
           "id": "f6fd3124-0e46-449c-9f66-a3469178ef79936"
         },
         "3b2f778f-d131-4275-9e00-1939d823247e936": {
@@ -11595,8 +11595,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 100361,
-          "y": -4310,
+          "x": 100453,
+          "y": -2260,
           "id": "3b2f778f-d131-4275-9e00-1939d823247e936"
         },
         "b318880d-8173-49a0-a0a2-8a90cf3e80b0936": {
@@ -11622,8 +11622,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 100361,
-          "y": -4060,
+          "x": 100453,
+          "y": -2010,
           "id": "b318880d-8173-49a0-a0a2-8a90cf3e80b0936"
         },
         "a943bd71-5f18-4d1a-af64-b141af01b560936": {
@@ -11649,8 +11649,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 100361,
-          "y": -3810,
+          "x": 100453,
+          "y": -1760,
           "id": "a943bd71-5f18-4d1a-af64-b141af01b560936"
         },
         "3f39a866-6253-4ed0-aa8c-3cdf9b33a0ff936": {
@@ -11676,8 +11676,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 100425,
-          "y": -3960,
+          "x": 100517,
+          "y": -1910,
           "id": "3f39a866-6253-4ed0-aa8c-3cdf9b33a0ff936"
         },
         "7551e430-3579-41f5-bfcb-7c428ab018d0936": {
@@ -11703,8 +11703,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 100455,
-          "y": -3935,
+          "x": 100547,
+          "y": -1885,
           "id": "7551e430-3579-41f5-bfcb-7c428ab018d0936"
         },
         "f84b0412-88ff-4926-8b0c-5bfab7e5728a936": {
@@ -11730,8 +11730,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 100421,
-          "y": -3910,
+          "x": 100513,
+          "y": -1860,
           "id": "f84b0412-88ff-4926-8b0c-5bfab7e5728a936"
         },
         "d150dc36-6a00-42e8-a88f-16d9a8c44712936": {
@@ -11757,8 +11757,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 100440,
-          "y": -3885,
+          "x": 100532,
+          "y": -1835,
           "id": "d150dc36-6a00-42e8-a88f-16d9a8c44712936"
         },
         "cfeca7d6-a327-4b4b-9142-5b2c82c3acf7936": {
@@ -11784,8 +11784,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 100428,
-          "y": -3860,
+          "x": 100520,
+          "y": -1810,
           "id": "cfeca7d6-a327-4b4b-9142-5b2c82c3acf7936"
         },
         "690bdd1f-d74d-4ca9-b0a1-076e01808272936": {
@@ -11811,8 +11811,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 100450,
-          "y": -3835,
+          "x": 100542,
+          "y": -1785,
           "id": "690bdd1f-d74d-4ca9-b0a1-076e01808272936"
         },
         "dfdcde8c-502c-46de-8adf-3f5d05174454936": {
@@ -11838,8 +11838,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 100453,
-          "y": -3810,
+          "x": 100545,
+          "y": -1760,
           "id": "dfdcde8c-502c-46de-8adf-3f5d05174454936"
         },
         "add87f4d-bb75-434f-920e-90ebe73de2ca936": {
@@ -11865,8 +11865,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 100431,
-          "y": -3785,
+          "x": 100523,
+          "y": -1735,
           "id": "add87f4d-bb75-434f-920e-90ebe73de2ca936"
         },
         "367c6484-8a81-4358-b4f9-592cd80055c4936": {
@@ -11892,8 +11892,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 100422,
-          "y": -3760,
+          "x": 100514,
+          "y": -1710,
           "id": "367c6484-8a81-4358-b4f9-592cd80055c4936"
         },
         "61628355-ebe8-4173-8e5e-ab8d25d66803936": {
@@ -11919,8 +11919,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 100449,
-          "y": -3735,
+          "x": 100541,
+          "y": -1685,
           "id": "61628355-ebe8-4173-8e5e-ab8d25d66803936"
         },
         "b645b2ec-f2ce-4007-8c23-5673a2906e41936": {
@@ -11946,8 +11946,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 100436,
-          "y": -3710,
+          "x": 100528,
+          "y": -1660,
           "id": "b645b2ec-f2ce-4007-8c23-5673a2906e41936"
         },
         "0a1e2d0c-37eb-45c4-80bb-c8f5fe926680936": {
@@ -11973,8 +11973,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 100457,
-          "y": -3685,
+          "x": 100549,
+          "y": -1635,
           "id": "0a1e2d0c-37eb-45c4-80bb-c8f5fe926680936"
         },
         "5ff371eb-cc04-42f5-80bd-93c5364d1011936": {
@@ -12000,8 +12000,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 100422,
-          "y": -3660,
+          "x": 100514,
+          "y": -1610,
           "id": "5ff371eb-cc04-42f5-80bd-93c5364d1011936"
         },
         "c1c7f446-e388-4644-9bb5-2b4584fff7d6936": {
@@ -12027,8 +12027,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 100461,
-          "y": -3635,
+          "x": 100553,
+          "y": -1585,
           "id": "c1c7f446-e388-4644-9bb5-2b4584fff7d6936"
         },
         "af8a5f5f-3520-4b25-bf32-47623ea43853936": {
@@ -12054,8 +12054,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 100211,
-          "y": -3510,
+          "x": 100303,
+          "y": -1460,
           "id": "af8a5f5f-3520-4b25-bf32-47623ea43853936"
         },
         "60444e59-331b-457a-bb2f-b94c50aa70c6936": {
@@ -12081,8 +12081,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 100211,
-          "y": -3410,
+          "x": 100303,
+          "y": -1360,
           "id": "60444e59-331b-457a-bb2f-b94c50aa70c6936"
         },
         "6ac3525e-9996-40c4-b987-9e35c6f8ccea936": {
@@ -12108,8 +12108,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 100211,
-          "y": -3310,
+          "x": 100303,
+          "y": -1260,
           "id": "6ac3525e-9996-40c4-b987-9e35c6f8ccea936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408820936": {
@@ -12141,8 +12141,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Художники",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408820936",
-          "x": 105096,
-          "y": -3918,
+          "x": 105188,
+          "y": -1868,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12176,8 +12176,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Youtube:\nканалы",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375936",
-          "x": 104543,
-          "y": 1703,
+          "x": 104635,
+          "y": 3753,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12208,8 +12208,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Достопримечательности",
-          "x": 100481,
-          "y": 8573,
+          "x": 100573,
+          "y": 10623,
           "id": "69963d2a-1011-4452-a720-3af41bcb5eb5936",
           "shape": "box",
           "link": "",
@@ -12238,8 +12238,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 100781,
-          "y": 9022,
+          "x": 100873,
+          "y": 11072,
           "id": "c2a2d1c6-a55a-4d0e-9215-51bf2232076a936"
         },
         "a3fbc6c0-ce2c-446e-9d75-bab31675b4d3936": {
@@ -12265,8 +12265,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 100965,
-          "y": 9018,
+          "x": 101057,
+          "y": 11068,
           "id": "a3fbc6c0-ce2c-446e-9d75-bab31675b4d3936"
         },
         "a3bb92bc-bd33-47d0-9492-bcadbabcc97e936": {
@@ -12292,8 +12292,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 101098,
-          "y": 9015,
+          "x": 101190,
+          "y": 11065,
           "id": "a3bb92bc-bd33-47d0-9492-bcadbabcc97e936"
         },
         "219b2358-7005-480f-9951-619a625411a9936": {
@@ -12319,8 +12319,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 100775,
-          "y": 8046,
+          "x": 100867,
+          "y": 10096,
           "id": "219b2358-7005-480f-9951-619a625411a9936"
         },
         "caef02fe-f6fb-4f2a-8c95-f80773af05fa936": {
@@ -12346,8 +12346,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 100925,
-          "y": 7796,
+          "x": 101017,
+          "y": 9846,
           "id": "caef02fe-f6fb-4f2a-8c95-f80773af05fa936"
         },
         "c68451cf-141a-41e2-b085-f7ce90234023936": {
@@ -12373,8 +12373,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 100925,
-          "y": 8046,
+          "x": 101017,
+          "y": 10096,
           "id": "c68451cf-141a-41e2-b085-f7ce90234023936"
         },
         "708d8a13-ac7b-44cf-8b97-39a12c1f6cc6936": {
@@ -12400,8 +12400,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 100931,
-          "y": 8422,
+          "x": 101023,
+          "y": 10472,
           "id": "708d8a13-ac7b-44cf-8b97-39a12c1f6cc6936"
         },
         "e5556c63-147b-4b01-b6fe-3933170f7da0936": {
@@ -12427,8 +12427,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 100995,
-          "y": 8273,
+          "x": 101087,
+          "y": 10323,
           "id": "e5556c63-147b-4b01-b6fe-3933170f7da0936"
         },
         "0e8a6617-2fa7-48d2-b7aa-180ac9eecd21936": {
@@ -12454,8 +12454,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 101026,
-          "y": 8298,
+          "x": 101118,
+          "y": 10348,
           "id": "0e8a6617-2fa7-48d2-b7aa-180ac9eecd21936"
         },
         "9a143758-5749-4f07-9c46-fca416123c33936": {
@@ -12481,8 +12481,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 100991,
-          "y": 8323,
+          "x": 101083,
+          "y": 10373,
           "id": "9a143758-5749-4f07-9c46-fca416123c33936"
         },
         "61ba5523-f7ca-426c-9cf5-e5b0ed98fc22936": {
@@ -12508,8 +12508,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 101010,
-          "y": 8348,
+          "x": 101102,
+          "y": 10398,
           "id": "61ba5523-f7ca-426c-9cf5-e5b0ed98fc22936"
         },
         "a1d98ea5-853a-43e1-b074-7bde5ca2269c936": {
@@ -12535,8 +12535,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 100999,
-          "y": 8373,
+          "x": 101091,
+          "y": 10423,
           "id": "a1d98ea5-853a-43e1-b074-7bde5ca2269c936"
         },
         "5362c478-8bf8-489f-81ac-da9f1c4ef79f936": {
@@ -12562,8 +12562,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 101021,
-          "y": 8398,
+          "x": 101113,
+          "y": 10448,
           "id": "5362c478-8bf8-489f-81ac-da9f1c4ef79f936"
         },
         "c222e7a5-e73f-40c6-9239-011c1a873f6d936": {
@@ -12589,8 +12589,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 101023,
-          "y": 8423,
+          "x": 101115,
+          "y": 10473,
           "id": "c222e7a5-e73f-40c6-9239-011c1a873f6d936"
         },
         "572e7d64-3428-4a63-9c9b-69a946e74c8e936": {
@@ -12616,8 +12616,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 101001,
-          "y": 8448,
+          "x": 101093,
+          "y": 10498,
           "id": "572e7d64-3428-4a63-9c9b-69a946e74c8e936"
         },
         "e285c8ed-505b-4813-8558-9ba124f94236936": {
@@ -12643,8 +12643,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 100992,
-          "y": 8473,
+          "x": 101084,
+          "y": 10523,
           "id": "e285c8ed-505b-4813-8558-9ba124f94236936"
         },
         "67f86951-ffa4-4813-9a25-336b8e27778c936": {
@@ -12670,8 +12670,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 101020,
-          "y": 8498,
+          "x": 101112,
+          "y": 10548,
           "id": "67f86951-ffa4-4813-9a25-336b8e27778c936"
         },
         "995e5ea4-d373-40b5-9d7a-747b7561fdf6936": {
@@ -12697,8 +12697,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 101006,
-          "y": 8523,
+          "x": 101098,
+          "y": 10573,
           "id": "995e5ea4-d373-40b5-9d7a-747b7561fdf6936"
         },
         "41ac9997-8fe3-458f-a379-86a32ce1d862936": {
@@ -12724,8 +12724,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 101028,
-          "y": 8548,
+          "x": 101120,
+          "y": 10598,
           "id": "41ac9997-8fe3-458f-a379-86a32ce1d862936"
         },
         "415cf700-cc3d-4fc6-9828-78320d665a25936": {
@@ -12751,8 +12751,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 100992,
-          "y": 8573,
+          "x": 101084,
+          "y": 10623,
           "id": "415cf700-cc3d-4fc6-9828-78320d665a25936"
         },
         "88c01e25-3f0c-4de0-baa9-48febce8c139936": {
@@ -12778,8 +12778,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 101031,
-          "y": 8598,
+          "x": 101123,
+          "y": 10648,
           "id": "88c01e25-3f0c-4de0-baa9-48febce8c139936"
         },
         "1bde38d4-84c3-4880-912f-e2d37107384d936": {
@@ -12805,8 +12805,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 100781,
-          "y": 8722,
+          "x": 100873,
+          "y": 10772,
           "id": "1bde38d4-84c3-4880-912f-e2d37107384d936"
         },
         "42757fc4-658e-49bb-97c2-7a5104680fb9936": {
@@ -12832,8 +12832,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 100781,
-          "y": 8822,
+          "x": 100873,
+          "y": 10872,
           "id": "42757fc4-658e-49bb-97c2-7a5104680fb9936"
         },
         "65d89d33-948c-4593-87c1-32553aab8985936": {
@@ -12859,8 +12859,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 100781,
-          "y": 8922,
+          "x": 100873,
+          "y": 10972,
           "id": "65d89d33-948c-4593-87c1-32553aab8985936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107126936": {
@@ -12892,8 +12892,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Достопримечательности",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107126936",
-          "x": 108272,
-          "y": 8271,
+          "x": 108364,
+          "y": 10321,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13224,8 +13224,8 @@ var schemeData =
         },
         "ef5beaef-947e-459f-8d5f-c44e4f450e6d": {
           "label": "Youtube",
-          "x": 100199,
-          "y": -891,
+          "x": 100291,
+          "y": 1159,
           "font": {
             "size": 72,
             "align": "left"
@@ -13241,152 +13241,152 @@ var schemeData =
         },
         "deb19c06-9962-4eb1-bb58-727ed77f1a71": {
           "label": "Development",
-          "x": 100499,
-          "y": -441,
+          "x": 100591,
+          "y": 1609,
           "id": "deb19c06-9962-4eb1-bb58-727ed77f1a71"
         },
         "e6732da3-27e1-451c-a582-d11de4867bbd": {
           "label": "11/21/2019",
-          "x": 100683,
-          "y": -442,
+          "x": 100775,
+          "y": 1608,
           "id": "e6732da3-27e1-451c-a582-d11de4867bbd"
         },
         "b32bacde-d977-4114-9cc7-8d3dcaa1ad4c": {
           "label": "init",
-          "x": 100790,
-          "y": -443,
+          "x": 100882,
+          "y": 1607,
           "id": "b32bacde-d977-4114-9cc7-8d3dcaa1ad4c"
         },
         "1b6ba08d-3567-41fe-85d6-dbda0c216443": {
           "label": "Notes",
-          "x": 100499,
-          "y": -1291,
+          "x": 100591,
+          "y": 759,
           "id": "1b6ba08d-3567-41fe-85d6-dbda0c216443"
         },
         "899be888-09a0-4f9e-ab3f-e01b072a8b03": {
           "label": "Dictionary of\nconcepts",
-          "x": 100649,
-          "y": -1541,
+          "x": 100741,
+          "y": 509,
           "id": "899be888-09a0-4f9e-ab3f-e01b072a8b03"
         },
         "a32cd969-64ea-4494-9be3-2114b4f71243": {
           "label": "Details, thoughts",
-          "x": 100649,
-          "y": -1291,
+          "x": 100741,
+          "y": 759,
           "id": "a32cd969-64ea-4494-9be3-2114b4f71243"
         },
         "5be24ef4-f4f1-4d49-b1e1-e2f461b17c00": {
           "label": "Sections",
-          "x": 100649,
-          "y": -1041,
+          "x": 100741,
+          "y": 1009,
           "id": "5be24ef4-f4f1-4d49-b1e1-e2f461b17c00"
         },
         "af12f6d5-1d65-46da-8da7-764a08b363e8": {
           "label": "Books",
-          "x": 100713,
-          "y": -1191,
+          "x": 100805,
+          "y": 859,
           "id": "af12f6d5-1d65-46da-8da7-764a08b363e8"
         },
         "8bfc203c-640a-450b-aac7-bfa6dfcb1036": {
           "label": "R&D institutions",
-          "x": 100744,
-          "y": -1166,
+          "x": 100836,
+          "y": 884,
           "id": "8bfc203c-640a-450b-aac7-bfa6dfcb1036"
         },
         "81ddb2c4-7057-4e0c-af0e-05e873479568": {
           "label": "Sites",
-          "x": 100709,
-          "y": -1141,
+          "x": 100801,
+          "y": 909,
           "id": "81ddb2c4-7057-4e0c-af0e-05e873479568"
         },
         "cded6b2d-773a-45f7-a584-362a40c6f060": {
           "label": "Magazines",
-          "x": 100728,
-          "y": -1116,
+          "x": 100820,
+          "y": 934,
           "id": "cded6b2d-773a-45f7-a584-362a40c6f060"
         },
         "d7bf5045-700e-4234-8181-8a299fa47110": {
           "label": "Articles",
-          "x": 100717,
-          "y": -1091,
+          "x": 100809,
+          "y": 959,
           "id": "d7bf5045-700e-4234-8181-8a299fa47110"
         },
         "d0160381-2a4f-40a0-8a23-922e6adba934": {
           "label": "Media content",
-          "x": 100739,
-          "y": -1066,
+          "x": 100831,
+          "y": 984,
           "id": "d0160381-2a4f-40a0-8a23-922e6adba934"
         },
         "5bd90ba7-ff55-492a-b16c-92429e681862": {
           "label": "Misc. web links",
-          "x": 100741,
-          "y": -1041,
+          "x": 100833,
+          "y": 1009,
           "id": "5bd90ba7-ff55-492a-b16c-92429e681862"
         },
         "3948edc1-acfa-4562-99e8-4c31944254c0": {
           "label": "Projects",
-          "x": 100719,
-          "y": -1016,
+          "x": 100811,
+          "y": 1034,
           "id": "3948edc1-acfa-4562-99e8-4c31944254c0"
         },
         "4cc207e8-2df9-4308-92dc-af6d6aebe708": {
           "label": "Tools",
-          "x": 100710,
-          "y": -991,
+          "x": 100802,
+          "y": 1059,
           "id": "4cc207e8-2df9-4308-92dc-af6d6aebe708"
         },
         "5cae806b-cc10-4fee-8829-a8302133d218": {
           "label": "Organizations",
-          "x": 100738,
-          "y": -966,
+          "x": 100830,
+          "y": 1084,
           "id": "5cae806b-cc10-4fee-8829-a8302133d218"
         },
         "33daab60-063a-4654-8211-57354f6b5a0b": {
           "label": "Standarts",
-          "x": 100724,
-          "y": -941,
+          "x": 100816,
+          "y": 1109,
           "id": "33daab60-063a-4654-8211-57354f6b5a0b"
         },
         "7d4476ea-1249-4844-81c8-545f219e647d": {
           "label": "Forums, Groups",
-          "x": 100746,
-          "y": -916,
+          "x": 100838,
+          "y": 1134,
           "id": "7d4476ea-1249-4844-81c8-545f219e647d"
         },
         "6e274a22-46fd-42ae-9ab6-ae3dfc518f6f": {
           "label": "Laws",
-          "x": 100710,
-          "y": -891,
+          "x": 100802,
+          "y": 1159,
           "id": "6e274a22-46fd-42ae-9ab6-ae3dfc518f6f"
         },
         "030a6cc5-1327-4e88-b4bd-3a9431b3cedd": {
           "label": "Adjacent Themes",
-          "x": 100749,
-          "y": -866,
+          "x": 100841,
+          "y": 1184,
           "id": "030a6cc5-1327-4e88-b4bd-3a9431b3cedd"
         },
         "8d4f0a1d-2746-4a31-9a27-829a0f93ce6f": {
           "label": "Questions",
-          "x": 100499,
-          "y": -741,
+          "x": 100591,
+          "y": 1309,
           "id": "8d4f0a1d-2746-4a31-9a27-829a0f93ce6f"
         },
         "323e8e9e-1c33-4f7b-8baa-c2d91a6587fa": {
           "label": "Problems",
-          "x": 100499,
-          "y": -641,
+          "x": 100591,
+          "y": 1409,
           "id": "323e8e9e-1c33-4f7b-8baa-c2d91a6587fa"
         },
         "02762a65-a59f-47f6-afd7-e7da541ef142": {
           "label": "Goals",
-          "x": 100499,
-          "y": -541,
+          "x": 100591,
+          "y": 1509,
           "id": "02762a65-a59f-47f6-afd7-e7da541ef142"
         },
         "391de9aa-fbfc-4752-b6b1-b1fb85d7c9ef": {
           "label": "Youtube:\nканалы",
-          "x": 98923,
-          "y": 5921,
+          "x": 99015,
+          "y": 7971,
           "font": {
             "size": 72,
             "align": "left"
@@ -13402,146 +13402,146 @@ var schemeData =
         },
         "551493ca-b9b4-45d7-9eb2-e82cd93c1703": {
           "label": "Development",
-          "x": 99223,
-          "y": 6371,
+          "x": 99315,
+          "y": 8421,
           "id": "551493ca-b9b4-45d7-9eb2-e82cd93c1703"
         },
         "e6511912-6ae4-49c6-b6ab-379b945ac712": {
           "label": "11/21/2019",
-          "x": 99473,
-          "y": 6371,
+          "x": 99565,
+          "y": 8421,
           "id": "e6511912-6ae4-49c6-b6ab-379b945ac712"
         },
         "fcf5d99e-31fb-4dae-8bb4-9e61ddc8cd16": {
           "label": "init",
-          "x": 99373,
-          "y": 6371,
+          "x": 99465,
+          "y": 8421,
           "id": "fcf5d99e-31fb-4dae-8bb4-9e61ddc8cd16"
         },
         "ee8669df-1bfa-4e77-bfa3-20362bdb20f4": {
           "label": "Notes",
-          "x": 99223,
-          "y": 5521,
+          "x": 99315,
+          "y": 7571,
           "id": "ee8669df-1bfa-4e77-bfa3-20362bdb20f4"
         },
         "22a05ca8-9b14-422c-b989-f92c33b9debb": {
           "label": "Dictionary of\nconcepts",
-          "x": 99656,
-          "y": 2071,
+          "x": 99748,
+          "y": 4121,
           "id": "22a05ca8-9b14-422c-b989-f92c33b9debb"
         },
         "bdce3203-6973-4429-a6c7-ddd96c729a05": {
           "label": "Details, thoughts",
-          "x": 99383,
-          "y": 5468,
+          "x": 99475,
+          "y": 7518,
           "id": "bdce3203-6973-4429-a6c7-ddd96c729a05"
         },
         "769328bb-f5e7-4f30-81f2-202c9c5386f1": {
           "label": "Sections",
-          "x": 99373,
-          "y": 5771,
+          "x": 99465,
+          "y": 7821,
           "id": "769328bb-f5e7-4f30-81f2-202c9c5386f1"
         },
         "906cc93d-49f7-459c-a0b3-f7c1bbe6e3e5": {
           "label": "Books",
-          "x": 99437,
-          "y": 5621,
+          "x": 99529,
+          "y": 7671,
           "id": "906cc93d-49f7-459c-a0b3-f7c1bbe6e3e5"
         },
         "d72eb9ae-1607-43e0-b0a3-191ef0b246b0": {
           "label": "R&D institutions",
-          "x": 99467,
-          "y": 5646,
+          "x": 99559,
+          "y": 7696,
           "id": "d72eb9ae-1607-43e0-b0a3-191ef0b246b0"
         },
         "7cc355d8-7e8b-4866-a35b-c79e5d441e82": {
           "label": "Sites",
-          "x": 99433,
-          "y": 5671,
+          "x": 99525,
+          "y": 7721,
           "id": "7cc355d8-7e8b-4866-a35b-c79e5d441e82"
         },
         "8ac161e5-38a5-4cef-b0bd-a1da9a2fb2c0": {
           "label": "Magazines",
-          "x": 99452,
-          "y": 5696,
+          "x": 99544,
+          "y": 7746,
           "id": "8ac161e5-38a5-4cef-b0bd-a1da9a2fb2c0"
         },
         "f0b5cf72-12c9-4cfc-9829-5b6ef0ca9e2c": {
           "label": "Articles",
-          "x": 99440,
-          "y": 5721,
+          "x": 99532,
+          "y": 7771,
           "id": "f0b5cf72-12c9-4cfc-9829-5b6ef0ca9e2c"
         },
         "6e81c0e0-859d-4db7-9ce1-9d8df32c849f": {
           "label": "Media content",
-          "x": 99462,
-          "y": 5746,
+          "x": 99554,
+          "y": 7796,
           "id": "6e81c0e0-859d-4db7-9ce1-9d8df32c849f"
         },
         "3220d4d8-c223-4a30-a7be-c92ac6fc522f": {
           "label": "Misc. web links",
-          "x": 99465,
-          "y": 5771,
+          "x": 99557,
+          "y": 7821,
           "id": "3220d4d8-c223-4a30-a7be-c92ac6fc522f"
         },
         "8dd6e62f-4174-4f55-83cd-6412bdc5bdea": {
           "label": "Projects",
-          "x": 99443,
-          "y": 5796,
+          "x": 99535,
+          "y": 7846,
           "id": "8dd6e62f-4174-4f55-83cd-6412bdc5bdea"
         },
         "26d3569c-f47c-4e59-83d7-6c39b72fd71e": {
           "label": "Tools",
-          "x": 99434,
-          "y": 5821,
+          "x": 99526,
+          "y": 7871,
           "id": "26d3569c-f47c-4e59-83d7-6c39b72fd71e"
         },
         "4a887f06-e4f6-42b1-a01b-eb06aac34a4e": {
           "label": "Organizations",
-          "x": 99461,
-          "y": 5846,
+          "x": 99553,
+          "y": 7896,
           "id": "4a887f06-e4f6-42b1-a01b-eb06aac34a4e"
         },
         "14f421b7-ea4c-44d8-b415-6485abe8feb0": {
           "label": "Standarts",
-          "x": 99448,
-          "y": 5871,
+          "x": 99540,
+          "y": 7921,
           "id": "14f421b7-ea4c-44d8-b415-6485abe8feb0"
         },
         "d3d27ec4-c24f-47cf-87d3-d81e41d82ee1": {
           "label": "Forums, Groups",
-          "x": 99469,
-          "y": 5896,
+          "x": 99561,
+          "y": 7946,
           "id": "d3d27ec4-c24f-47cf-87d3-d81e41d82ee1"
         },
         "45ec6d10-625e-4e55-a13a-023942b50ec4": {
           "label": "Laws",
-          "x": 99434,
-          "y": 5921,
+          "x": 99526,
+          "y": 7971,
           "id": "45ec6d10-625e-4e55-a13a-023942b50ec4"
         },
         "e3b844cb-d0e0-41ff-a342-67c1f851ee64": {
           "label": "Adjacent Themes",
-          "x": 99473,
-          "y": 5946,
+          "x": 99565,
+          "y": 7996,
           "id": "e3b844cb-d0e0-41ff-a342-67c1f851ee64"
         },
         "7d383949-c5ef-48f2-a78b-512a887196d6": {
           "label": "Questions",
-          "x": 99223,
-          "y": 6071,
+          "x": 99315,
+          "y": 8121,
           "id": "7d383949-c5ef-48f2-a78b-512a887196d6"
         },
         "c72d659d-eb16-40ff-86a9-5fd1347a0fde": {
           "label": "Problems",
-          "x": 99223,
-          "y": 6171,
+          "x": 99315,
+          "y": 8221,
           "id": "c72d659d-eb16-40ff-86a9-5fd1347a0fde"
         },
         "14cce472-7abf-4d7e-af77-08390f41aab4": {
           "label": "Goals",
-          "x": 99223,
-          "y": 6271,
+          "x": 99315,
+          "y": 8321,
           "id": "14cce472-7abf-4d7e-af77-08390f41aab4"
         },
         "2fe50647-80d4-4a27-86a6-4d5f56887b54": {
@@ -13801,14 +13801,14 @@ var schemeData =
         },
         "f7c51bfb-b8de-45cc-89df-b5e2796549f4": {
           "id": "f7c51bfb-b8de-45cc-89df-b5e2796549f4",
-          "x": 100612,
-          "y": -5538,
+          "x": 100699,
+          "y": -4015,
           "label": "Вопросы"
         },
         "8adf1400-8209-4187-ba21-915cca5a7f8d": {
           "id": "8adf1400-8209-4187-ba21-915cca5a7f8d",
-          "x": 100760,
-          "y": -5542,
+          "x": 100847,
+          "y": -4019,
           "label": "Кружки и клубы",
           "shape": "box",
           "link": "",
@@ -13847,14 +13847,14 @@ var schemeData =
         },
         "0edc7382-e7e4-40c6-9ade-742d0a7e24ad": {
           "id": "0edc7382-e7e4-40c6-9ade-742d0a7e24ad",
-          "x": 100810,
-          "y": -377,
+          "x": 100902,
+          "y": 1673,
           "label": "Вопросы"
         },
         "9da02a6b-d9ab-4b63-9318-0c5873ee10fe": {
           "id": "9da02a6b-d9ab-4b63-9318-0c5873ee10fe",
-          "x": 101035,
-          "y": -377,
+          "x": 101127,
+          "y": 1673,
           "label": "Обзоры каналов и роликов по темам",
           "shape": "box",
           "link": "",
@@ -13870,8 +13870,8 @@ var schemeData =
         },
         "85f2fcf9-e6d2-4a66-b8b1-5c5302562e48": {
           "id": "85f2fcf9-e6d2-4a66-b8b1-5c5302562e48",
-          "x": 101003,
-          "y": -329,
+          "x": 101095,
+          "y": 1721,
           "label": "Критика роликов и стримов",
           "shape": "box",
           "link": "",
@@ -13887,80 +13887,91 @@ var schemeData =
         },
         "736dc201-e416-4f23-ab1c-08bba7673b94": {
           "id": "736dc201-e416-4f23-ab1c-08bba7673b94",
-          "x": 99661,
-          "y": 5453,
+          "x": 99753,
+          "y": 7503,
           "label": "Коллекции ссылок по темам"
         },
         "de33059a-2b21-4eb7-98e4-81d28c1fa878": {
           "id": "de33059a-2b21-4eb7-98e4-81d28c1fa878",
-          "x": 100893,
-          "y": -7164,
-          "label": "Современные"
+          "x": 100856,
+          "y": -7130,
+          "label": "Modern",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "4b1b677f-e9cf-408f-a2fc-253a5d0277ce": {
           "id": "4b1b677f-e9cf-408f-a2fc-253a5d0277ce",
-          "x": 101040,
-          "y": -7274,
+          "x": 101051,
+          "y": -7402,
           "label": "Industrial dance"
         },
         "5a7802f6-c05d-4971-89fd-2fe2e44762c3": {
           "id": "5a7802f6-c05d-4971-89fd-2fe2e44762c3",
-          "x": 101031,
-          "y": -7236,
+          "x": 101042,
+          "y": -7364,
           "label": "Vogue dance"
         },
         "07afb101-7f2b-414c-93a2-a1c43b85c57e": {
           "id": "07afb101-7f2b-414c-93a2-a1c43b85c57e",
-          "x": 101048,
-          "y": -7208,
+          "x": 101059,
+          "y": -7336,
           "label": "Melbourne Shuffle"
         },
         "dc5eaf3f-5208-41a4-8888-b8aff4d2d370": {
           "id": "dc5eaf3f-5208-41a4-8888-b8aff4d2d370",
-          "x": 101022,
-          "y": -7184,
+          "x": 101033,
+          "y": -7312,
           "label": "Jumpstyle"
         },
         "85c5deab-9774-4ffe-97d8-fcb1177d4f91": {
           "id": "85c5deab-9774-4ffe-97d8-fcb1177d4f91",
-          "x": 101038,
-          "y": -7156,
+          "x": 101049,
+          "y": -7284,
           "label": "Drum and bass"
         },
         "359c9702-e73f-4f14-8ebd-f69914e5dffd": {
           "id": "359c9702-e73f-4f14-8ebd-f69914e5dffd",
-          "x": 101021,
-          "y": -7135,
+          "x": 101032,
+          "y": -7263,
           "label": "Free Step"
         },
         "afb5128e-828e-44be-8ab4-3a70eb5050e9": {
           "id": "afb5128e-828e-44be-8ab4-3a70eb5050e9",
-          "x": 101020,
-          "y": -7105,
+          "x": 101031,
+          "y": -7233,
           "label": "Tecktonic"
         },
         "faaaedf0-6a5b-4f04-94f1-9074628f1ae1": {
           "id": "faaaedf0-6a5b-4f04-94f1-9074628f1ae1",
-          "x": 101033,
-          "y": -7072,
+          "x": 101044,
+          "y": -7200,
           "label": "Swing Shuffle"
         },
         "35487507-2106-4abb-ba6b-00aba126ba3f": {
           "id": "35487507-2106-4abb-ba6b-00aba126ba3f",
-          "x": 101024,
-          "y": -7045,
+          "x": 101035,
+          "y": -7173,
           "label": "Rebolation"
         },
         "bdae53e6-8110-46db-a080-95ec75397375": {
           "id": "bdae53e6-8110-46db-a080-95ec75397375",
-          "x": 99927,
-          "y": 1534,
+          "x": 100019,
+          "y": 3584,
           "label": "Channels collection"
         },
         "f7377021-5507-4037-b68c-009887753dd0": {
           "id": "f7377021-5507-4037-b68c-009887753dd0",
-          "x": 100505,
-          "y": 2173,
+          "x": 100597,
+          "y": 4223,
           "label": "Programming",
           "shape": "box",
           "link": "",
@@ -13977,279 +13988,279 @@ var schemeData =
         "0ce1f560-4ca2-4776-a8bb-19b6af9beec2": {
           "label": "Build Stuff - YouTube",
           "link": "https://www.youtube.com/channel/UCis5B3Zru-vymPRcbpM1NEA",
-          "x": 100788,
-          "y": 1637,
+          "x": 100880,
+          "y": 3687,
           "id": "0ce1f560-4ca2-4776-a8bb-19b6af9beec2"
         },
         "396698a6-e7c9-4d4e-9ae8-2cddcdfb5ca3": {
           "label": "I Like To Make Stuff - YouTube",
           "link": "https://www.youtube.com/user/iliketomakestuffcom",
-          "x": 100819,
-          "y": 1661,
+          "x": 100911,
+          "y": 3711,
           "id": "396698a6-e7c9-4d4e-9ae8-2cddcdfb5ca3"
         },
         "9ca8c81e-e7b1-4860-8a50-d25e1af31c99": {
           "label": "code::dive conference - YouTube",
           "link": "https://www.youtube.com/channel/UCU0Rt8VHO5-YNQXwIjkf-1g",
-          "x": 100826,
-          "y": 1685,
+          "x": 100918,
+          "y": 3735,
           "id": "9ca8c81e-e7b1-4860-8a50-d25e1af31c99"
         },
         "bde00a4e-7645-41be-bb05-11f2de58a870": {
           "label": "PolyConf - YouTube",
           "link": "https://www.youtube.com/user/polyconf",
-          "x": 100785,
-          "y": 1709,
+          "x": 100877,
+          "y": 3759,
           "id": "bde00a4e-7645-41be-bb05-11f2de58a870"
         },
         "011c441e-9535-4d4e-a854-bfb05f8e2544": {
           "label": "JSNation - YouTube",
           "link": "https://www.youtube.com/channel/UCQM428Hwrvxla8DCgjGONSQ",
-          "x": 100785,
-          "y": 1733,
+          "x": 100877,
+          "y": 3783,
           "id": "011c441e-9535-4d4e-a854-bfb05f8e2544"
         },
         "f2241e49-c0b6-4f60-93b1-ce33a2bf1a12": {
           "label": "Coding Tech - YouTube",
           "link": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ",
-          "x": 100796,
-          "y": 1757,
+          "x": 100888,
+          "y": 3807,
           "id": "f2241e49-c0b6-4f60-93b1-ce33a2bf1a12"
         },
         "5aa1cd94-d627-4b35-80f7-d8e0105d45d6": {
           "label": "GitNation React Conferences - YouTube",
           "link": "https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw",
-          "x": 100849,
-          "y": 1781,
+          "x": 100941,
+          "y": 3831,
           "id": "5aa1cd94-d627-4b35-80f7-d8e0105d45d6"
         },
         "77a4ea17-f61e-4643-9bcd-8f4f98461867": {
           "label": "ReactiveConf - YouTube",
           "link": "https://www.youtube.com/channel/UCBHdUnixTWymmXBIw12Y8Qg",
-          "x": 100799,
-          "y": 1805,
+          "x": 100891,
+          "y": 3855,
           "id": "77a4ea17-f61e-4643-9bcd-8f4f98461867"
         },
         "7103b00d-c232-4fcd-9d10-b9a60ab8f246": {
           "label": "Jazoon TechDays - YouTube",
           "link": "https://www.youtube.com/channel/UC9kq7rpecrCX7S_ptuA20OA",
-          "x": 100812,
-          "y": 1829,
+          "x": 100904,
+          "y": 3879,
           "id": "7103b00d-c232-4fcd-9d10-b9a60ab8f246"
         },
         "5684730b-05c1-4230-8642-0656fb19b57e": {
           "label": "SFNode - YouTube",
           "link": "https://www.youtube.com/channel/UCbWHWaCKZqIm5pE5hSD7KFw",
-          "x": 100782,
-          "y": 1877,
+          "x": 100874,
+          "y": 3927,
           "id": "5684730b-05c1-4230-8642-0656fb19b57e"
         },
         "13a96638-0c28-4b7b-b2a4-fefbc3d85e8c": {
           "label": "CppCon - YouTube",
           "link": "https://www.youtube.com/user/CppCon",
-          "x": 100782,
-          "y": 1901,
+          "x": 100874,
+          "y": 3951,
           "id": "13a96638-0c28-4b7b-b2a4-fefbc3d85e8c"
         },
         "e75704d3-8850-44da-b532-f6a0b8aa3f1d": {
           "label": "Infinite Red - YouTube",
           "link": "https://www.youtube.com/channel/UCwpSzVt7QpLDbCnPXqR97-g",
-          "x": 100792,
-          "y": 1925,
+          "x": 100884,
+          "y": 3975,
           "id": "e75704d3-8850-44da-b532-f6a0b8aa3f1d"
         },
         "57c28b63-ef7f-4d38-aa8a-cf9242ae5086": {
           "label": "GDG Lviv - YouTube",
           "link": "https://www.youtube.com/channel/UC5nknQj-2llSNd-jqXr4d_w",
-          "x": 100787,
-          "y": 1949,
+          "x": 100879,
+          "y": 3999,
           "id": "57c28b63-ef7f-4d38-aa8a-cf9242ae5086"
         },
         "323655b3-985a-46fa-9d29-83a98adea1be": {
           "label": "mibuso.com - YouTube",
           "link": "https://www.youtube.com/channel/UCeFUrL4JZsOa39TQVmrw2ww",
-          "x": 100795,
-          "y": 1973,
+          "x": 100887,
+          "y": 4023,
           "id": "323655b3-985a-46fa-9d29-83a98adea1be"
         },
         "f79ba645-7aab-4e06-b379-f8a41c63508f": {
           "label": "You Gotta Love Frontend - YouTube",
           "link": "https://www.youtube.com/channel/UCU-fOxx_kT5OARG0KiksiCA",
-          "x": 100836,
-          "y": 1997,
+          "x": 100928,
+          "y": 4047,
           "id": "f79ba645-7aab-4e06-b379-f8a41c63508f"
         },
         "0a294902-d340-42cf-8ab4-00989b0bde9a": {
           "label": "Callstack Engineers - YouTube",
           "link": "https://www.youtube.com/channel/UCbvLih553T7f5OAGTfbsJkQ",
-          "x": 100819,
-          "y": 2021,
+          "x": 100911,
+          "y": 4071,
           "id": "0a294902-d340-42cf-8ab4-00989b0bde9a"
         },
         "8ed8a12b-f41e-4bb4-8541-a0d208232fb5": {
           "label": "Coding Tech - YouTube",
           "link": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ",
-          "x": 100796,
-          "y": 2045,
+          "x": 100888,
+          "y": 4095,
           "id": "8ed8a12b-f41e-4bb4-8541-a0d208232fb5"
         },
         "601f8088-5894-4521-9396-fd589a83b189": {
           "label": "node.js - YouTube",
           "link": "https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ",
-          "x": 100779,
-          "y": 2069,
+          "x": 100871,
+          "y": 4119,
           "id": "601f8088-5894-4521-9396-fd589a83b189"
         },
         "fd069b4f-60a9-4264-8c16-df83f06b20e4": {
           "label": "InfoQ - YouTube",
           "link": "https://www.youtube.com/user/MarakanaTechTV",
-          "x": 100774,
-          "y": 2093,
+          "x": 100866,
+          "y": 4143,
           "id": "fd069b4f-60a9-4264-8c16-df83f06b20e4"
         },
         "db2b001b-a93a-4af2-8a38-c52a239f488d": {
           "label": "SiliconANGLE theCUBE - YouTube",
           "link": "https://www.youtube.com/user/siliconangle",
-          "x": 100831,
-          "y": 2117,
+          "x": 100923,
+          "y": 4167,
           "id": "db2b001b-a93a-4af2-8a38-c52a239f488d"
         },
         "5751bef1-4712-43dd-8be4-fa76deb090a6": {
           "label": "freeCodeCamp.org - YouTube",
           "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
-          "x": 100817,
-          "y": 2141,
+          "x": 100909,
+          "y": 4191,
           "id": "5751bef1-4712-43dd-8be4-fa76deb090a6"
         },
         "cdd0e91a-c626-466f-837b-2b7e79c33a03": {
           "label": "Traversy Media - YouTube",
           "link": "https://www.youtube.com/user/TechGuyWeb",
-          "x": 100805,
-          "y": 2165,
+          "x": 100897,
+          "y": 4215,
           "id": "cdd0e91a-c626-466f-837b-2b7e79c33a03"
         },
         "6cb065b9-b418-4e29-906e-25c3a34328b0": {
           "label": "Web Dev Simplified - YouTube",
           "link": "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw",
-          "x": 100817,
-          "y": 2189,
+          "x": 100909,
+          "y": 4239,
           "id": "6cb065b9-b418-4e29-906e-25c3a34328b0"
         },
         "f7210b4b-8589-429f-9ee5-db7c07a7f4c0": {
           "label": "meet.js - YouTube",
           "link": "https://www.youtube.com/channel/UC2aX7cPDv8Stij0kBCM_qgg",
-          "x": 100779,
-          "y": 2213,
+          "x": 100871,
+          "y": 4263,
           "id": "f7210b4b-8589-429f-9ee5-db7c07a7f4c0"
         },
         "b377db52-32a2-4cd8-a315-f9a9cca0e267": {
           "label": "Google Developers - YouTube",
           "link": "https://www.youtube.com/user/GoogleDevelopers",
-          "x": 100817,
-          "y": 2237,
+          "x": 100909,
+          "y": 4287,
           "id": "b377db52-32a2-4cd8-a315-f9a9cca0e267"
         },
         "42076348-71d3-4611-a803-390eab5096d7": {
           "label": "ScotlandJS - YouTube",
           "link": "https://www.youtube.com/channel/UCpW0Vh7QKPA7n0oJfrizlsw",
-          "x": 100792,
-          "y": 2261,
+          "x": 100884,
+          "y": 4311,
           "id": "42076348-71d3-4611-a803-390eab5096d7"
         },
         "61b50ded-8875-4d6b-b8ac-483bdb3d3deb": {
           "label": "NearForm - YouTube",
           "link": "https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A",
-          "x": 100789,
-          "y": 2285,
+          "x": 100881,
+          "y": 4335,
           "id": "61b50ded-8875-4d6b-b8ac-483bdb3d3deb"
         },
         "8e2f1c74-03cd-4aba-bb6f-4af629659947": {
           "label": "Coders Field - YouTube",
           "link": "https://www.youtube.com/channel/UC1f5LPSlHSoFoUFqjrUPaTA",
-          "x": 100797,
-          "y": 2309,
+          "x": 100889,
+          "y": 4359,
           "id": "8e2f1c74-03cd-4aba-bb6f-4af629659947"
         },
         "7d314324-d903-42da-a92e-c6f563457c59": {
           "label": "Josh Thomas - YouTube",
           "link": "https://www.youtube.com/user/jthoms81",
-          "x": 100799,
-          "y": 2333,
+          "x": 100891,
+          "y": 4383,
           "id": "7d314324-d903-42da-a92e-c6f563457c59"
         },
         "3e8c6094-9199-4196-b086-b0bcf648aa4c": {
           "label": "Cian O'Maidin - YouTube",
           "link": "https://www.youtube.com/user/NodeDublin",
-          "x": 100801,
-          "y": 2357,
+          "x": 100893,
+          "y": 4407,
           "id": "3e8c6094-9199-4196-b086-b0bcf648aa4c"
         },
         "1e25034a-f032-447f-9939-6036f41b2db1": {
           "label": "Espruino - YouTube",
           "link": "https://www.youtube.com/user/Espruino",
-          "x": 100784,
-          "y": 2381,
+          "x": 100876,
+          "y": 4431,
           "id": "1e25034a-f032-447f-9939-6036f41b2db1"
         },
         "140f9d7e-4cd5-4116-ae28-09c749f3e5f7": {
           "label": "ConFoo Developer Conference - YouTube",
           "link": "https://www.youtube.com/user/confooca",
-          "x": 100855,
-          "y": 2405,
+          "x": 100947,
+          "y": 4455,
           "id": "140f9d7e-4cd5-4116-ae28-09c749f3e5f7"
         },
         "d9d097a6-a0c9-4c7c-af63-16619021b8d2": {
           "label": "Pixels Camp - YouTube",
           "link": "https://www.youtube.com/channel/UCw569JcaFKdvIHAuEXoH7Kg",
-          "x": 100796,
-          "y": 2429,
+          "x": 100888,
+          "y": 4479,
           "id": "d9d097a6-a0c9-4c7c-af63-16619021b8d2"
         },
         "73d437ca-125d-4506-a1ea-fc138e5a1c13": {
           "label": "javascriptla - YouTube",
           "link": "https://www.youtube.com/user/beachtutorials",
-          "x": 100792,
-          "y": 2453,
+          "x": 100884,
+          "y": 4503,
           "id": "73d437ca-125d-4506-a1ea-fc138e5a1c13"
         },
         "dafb8d10-03f8-4566-b994-0f5a875dc458": {
           "label": "The Linux Foundation - YouTube",
           "link": "https://www.youtube.com/user/TheLinuxFoundation",
-          "x": 100826,
-          "y": 2477,
+          "x": 100918,
+          "y": 4527,
           "id": "dafb8d10-03f8-4566-b994-0f5a875dc458"
         },
         "811399fa-c1c3-4221-aeec-c3785a447176": {
           "label": "Øredev Conference - YouTube",
           "link": "https://www.youtube.com/channel/UC0XtR2kcXnqtfrGSsxM8oAg",
-          "x": 100819,
-          "y": 2501,
+          "x": 100911,
+          "y": 4551,
           "id": "811399fa-c1c3-4221-aeec-c3785a447176"
         },
         "38ae6906-0609-49eb-b812-5dc4b9730aa6": {
           "label": "Techlahoma - YouTube",
           "link": "https://www.youtube.com/channel/UCnLf0pfqIpSfKuPZ0e9iiNQ",
-          "x": 100795,
-          "y": 2549,
+          "x": 100887,
+          "y": 4599,
           "id": "38ae6906-0609-49eb-b812-5dc4b9730aa6"
         },
         "9a7243de-6f89-418b-83e5-63e8e898a97c": {
           "label": "fitcevents - YouTube",
           "link": "https://www.youtube.com/user/fitcevents",
-          "x": 100786,
-          "y": 2573,
+          "x": 100878,
+          "y": 4623,
           "id": "9a7243de-6f89-418b-83e5-63e8e898a97c"
         },
         "460f95b9-741d-4689-8ab2-db1880ebba24": {
           "id": "460f95b9-741d-4689-8ab2-db1880ebba24",
-          "x": 100514,
-          "y": 1208,
+          "x": 100606,
+          "y": 3258,
           "label": "Сельская жизнь"
         },
         "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a": {
           "id": "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a",
-          "x": 100882,
-          "y": 1212,
+          "x": 100974,
+          "y": 3262,
           "label": "Идиллия",
           "shape": "box",
           "link": "",
@@ -14266,105 +14277,105 @@ var schemeData =
         "b4a4d7e0-22f4-4aac-8a84-1676aae185df": {
           "label": "酒鬼小莉 Drunkard Lee - YouTube",
           "link": "https://www.youtube.com/channel/UCT4_rFXULf5E1rWtJC8Kk3w/videos",
-          "x": 101143,
-          "y": 1206,
+          "x": 101235,
+          "y": 3256,
           "id": "b4a4d7e0-22f4-4aac-8a84-1676aae185df"
         },
         "af37af37-8667-4bbe-a0fa-d3dca582796a": {
           "id": "af37af37-8667-4bbe-a0fa-d3dca582796a",
-          "x": 100542,
-          "y": 915,
+          "x": 100634,
+          "y": 2965,
           "label": "Традиционные ремесла"
         },
         "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4": {
           "id": "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4",
-          "x": 100870,
-          "y": 924,
+          "x": 100962,
+          "y": 2974,
           "label": "Франция"
         },
         "2de60fa0-9afc-4e28-80ed-9a4cb4125501": {
           "label": "meteoalacartelemag - YouTube",
           "link": "https://www.youtube.com/user/meteoalacartelemag/videos",
-          "x": 101104,
-          "y": 922,
+          "x": 101196,
+          "y": 2972,
           "id": "2de60fa0-9afc-4e28-80ed-9a4cb4125501"
         },
         "79bcc2c6-fea8-4d0c-b61e-4fdedfd0915f": {
           "label": "野小妹wild girl - YouTube",
           "link": "https://www.youtube.com/channel/UCf8zNN8N7U2BEm4WBQnWBIw/videos",
-          "x": 101115,
-          "y": 1231,
+          "x": 101207,
+          "y": 3281,
           "id": "79bcc2c6-fea8-4d0c-b61e-4fdedfd0915f"
         },
         "45d4ffa5-a2eb-4d32-931c-356268ccf205": {
           "id": "45d4ffa5-a2eb-4d32-931c-356268ccf205",
-          "x": 100493,
-          "y": 1491,
+          "x": 100585,
+          "y": 3541,
           "label": "Hardware"
         },
         "c0ad1469-8f17-46b1-9607-9a6c49dea6aa": {
           "id": "c0ad1469-8f17-46b1-9607-9a6c49dea6aa",
-          "x": 100187,
-          "y": 1876,
+          "x": 100279,
+          "y": 3926,
           "label": "IT"
         },
         "bfc1979b-cb4b-4672-bd9a-ccf01a6b3449": {
           "label": "freeCodeCamp.org - YouTube",
           "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/videos",
-          "x": 100816,
-          "y": 1613,
+          "x": 100908,
+          "y": 3663,
           "id": "bfc1979b-cb4b-4672-bd9a-ccf01a6b3449"
         },
         "c67af52f-4c79-417d-8b17-e7558137f1f4": {
           "label": "ExplainingComputers - YouTube",
           "link": "https://www.youtube.com/user/explainingcomputers/videos",
-          "x": 100818,
-          "y": 1486,
+          "x": 100910,
+          "y": 3536,
           "id": "c67af52f-4c79-417d-8b17-e7558137f1f4"
         },
         "44ea468f-1cce-4c92-85f2-99ad4790dde2": {
           "id": "44ea468f-1cce-4c92-85f2-99ad4790dde2",
-          "x": 100505,
-          "y": 756,
+          "x": 100597,
+          "y": 2806,
           "label": "Documentary"
         },
         "7ab2844e-d2c3-43b6-a59e-1432aa0d4936": {
           "label": "British Pathé - YouTube",
           "link": "https://www.youtube.com/user/britishpathe/featured",
-          "x": 100890,
-          "y": 761,
+          "x": 100982,
+          "y": 2811,
           "id": "7ab2844e-d2c3-43b6-a59e-1432aa0d4936"
         },
         "928af6c5-c3c7-4b51-adc0-6072c6a5de96": {
           "label": "PyData - YouTube",
           "link": "https://www.youtube.com/user/PyDataTV/videos",
-          "x": 100778,
-          "y": 1565,
+          "x": 100870,
+          "y": 3615,
           "id": "928af6c5-c3c7-4b51-adc0-6072c6a5de96"
         },
         "f00c6bcb-1fa5-484b-96e3-395ac93c48f3": {
           "label": "MLconf - YouTube",
           "link": "https://www.youtube.com/channel/UCjeM1xxYb_37bZfyparLS3Q/videos",
-          "x": 100779,
-          "y": 1589,
+          "x": 100871,
+          "y": 3639,
           "id": "f00c6bcb-1fa5-484b-96e3-395ac93c48f3"
         },
         "8a416181-f373-4fef-8989-a819915c66cc": {
           "id": "8a416181-f373-4fef-8989-a819915c66cc",
-          "x": 100222,
-          "y": 1060,
+          "x": 100314,
+          "y": 3110,
           "label": "Развлечения"
         },
         "9131dc3c-49c8-41a4-b8b2-4bcc8a554de3": {
           "id": "9131dc3c-49c8-41a4-b8b2-4bcc8a554de3",
-          "x": 100676,
-          "y": -6877,
+          "x": 100742,
+          "y": -6025,
           "label": "Юмор"
         },
         "5594769b-8b35-4c4a-b38f-a5770401f442": {
           "id": "5594769b-8b35-4c4a-b38f-a5770401f442",
-          "x": 100957,
-          "y": -6872,
+          "x": 101023,
+          "y": -6020,
           "label": "https://twitter.com/GenePark/status/1209268781471719424",
           "link": "https://twitter.com/GenePark/status/1209268781471719424"
         },
@@ -15207,6 +15218,285 @@ var schemeData =
           "shape": "box",
           "link": "engineering.html",
           "borderWidth": ""
+        },
+        "141cbf9e-c635-4e0b-a98b-c7f7f66eab39": {
+          "id": "141cbf9e-c635-4e0b-a98b-c7f7f66eab39",
+          "x": 100766,
+          "y": -5655,
+          "label": "To sort"
+        },
+        "a22104b5-9ad8-405d-b66e-7e2a4e7e7c6c": {
+          "id": "a22104b5-9ad8-405d-b66e-7e2a4e7e7c6c",
+          "x": 100289,
+          "y": 4812,
+          "label": "Math"
+        },
+        "65c4704e-f8ec-4c10-bd90-219012ca2ddc": {
+          "id": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
+          "x": 101023,
+          "y": -7039,
+          "label": "Hip Hop"
+        },
+        "3399c59b-4b39-4978-ac0e-ef68b2372f72": {
+          "id": "3399c59b-4b39-4978-ac0e-ef68b2372f72",
+          "x": 101366,
+          "y": -7128,
+          "label": "https://hipshakefitness.com/dance/iconic-90s-hip-hop-dance-moves-need-know/",
+          "link": "https://hipshakefitness.com/dance/iconic-90s-hip-hop-dance-moves-need-know/"
+        },
+        "be89137f-3e3a-4f09-93b3-0474a72a324f": {
+          "id": "be89137f-3e3a-4f09-93b3-0474a72a324f",
+          "x": 101055,
+          "y": -5940,
+          "label": "https://en.wikipedia.org/wiki/Glossary_of_dance_moves",
+          "link": "https://en.wikipedia.org/wiki/Glossary_of_dance_moves"
+        },
+        "8e6e7ed6-23e8-4ff6-8bfb-d1ab65e811c2": {
+          "id": "8e6e7ed6-23e8-4ff6-8bfb-d1ab65e811c2",
+          "x": 101297,
+          "y": -7094,
+          "label": "https://dance.lovetoknow.com/History_of_Hip_Hop_Dance",
+          "link": "https://dance.lovetoknow.com/History_of_Hip_Hop_Dance"
+        },
+        "968336af-2cca-4cd1-9313-c9959988ced4": {
+          "id": "968336af-2cca-4cd1-9313-c9959988ced4",
+          "x": 101047,
+          "y": -5881,
+          "label": "https://dance.lovetoknow.com/glossary-dance-moves",
+          "link": "https://dance.lovetoknow.com/glossary-dance-moves"
+        },
+        "a543cb7a-06da-4b5f-9cbc-89533b88ea1d": {
+          "id": "a543cb7a-06da-4b5f-9cbc-89533b88ea1d",
+          "x": 100764,
+          "y": -5910,
+          "label": "Dance moves"
+        },
+        "0579b349-8d36-4c4b-83ed-2fde07ee3d33": {
+          "id": "0579b349-8d36-4c4b-83ed-2fde07ee3d33",
+          "x": 100794,
+          "y": -5616,
+          "label": "Dance music"
+        },
+        "f31319dd-c289-4765-97e1-836ed763b2d8": {
+          "id": "f31319dd-c289-4765-97e1-836ed763b2d8",
+          "x": 101056,
+          "y": -5618,
+          "label": "https://www.youtube.com/watch?v=KQ6zr6kCPj8",
+          "link": "https://www.youtube.com/watch?v=KQ6zr6kCPj8",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "749d9995-b640-4e7c-b067-1784719120de": {
+          "id": "749d9995-b640-4e7c-b067-1784719120de",
+          "x": 100863,
+          "y": 4709,
+          "label": "https://www.youtube.com/user/EnthoughtMedia/videos",
+          "link": "https://www.youtube.com/user/EnthoughtMedia/videos"
+        },
+        "9e86548e-bb13-4c1c-bd36-727ed6e6ff1d": {
+          "id": "9e86548e-bb13-4c1c-bd36-727ed6e6ff1d",
+          "x": 100603,
+          "y": 4713,
+          "label": "Data research"
+        },
+        "29db3543-fbc8-4ccf-b8e6-d227bcea2e90": {
+          "id": "29db3543-fbc8-4ccf-b8e6-d227bcea2e90",
+          "x": 101370,
+          "y": -6309,
+          "label": "https://www.youtube.com/watch?v=foJmefvqOZo",
+          "link": "https://www.youtube.com/watch?v=foJmefvqOZo"
+        },
+        "d38a0c38-5b4e-4930-999a-d0c150d077ec": {
+          "id": "d38a0c38-5b4e-4930-999a-d0c150d077ec",
+          "x": 100820,
+          "y": -5303,
+          "label": "Instruments in dance"
+        },
+        "0c465978-775e-4c2c-8a67-78ca401445e5": {
+          "id": "0c465978-775e-4c2c-8a67-78ca401445e5",
+          "x": 101087,
+          "y": -5301,
+          "label": "https://en.wikipedia.org/wiki/Castanets",
+          "link": "https://en.wikipedia.org/wiki/Castanets"
+        },
+        "fca8278b-c54e-4ba7-8d63-c3154c6a3c8f": {
+          "id": "fca8278b-c54e-4ba7-8d63-c3154c6a3c8f",
+          "x": 100879,
+          "y": -6475,
+          "label": "Tradition"
+        },
+        "9fd4afd9-0097-44e3-a4a9-84e230d22668": {
+          "label": "Flamenco",
+          "link": "",
+          "x": 100987,
+          "y": -6477,
+          "id": "9fd4afd9-0097-44e3-a4a9-84e230d22668",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "bb59f18e-1fc2-4a1d-aa6c-d1dc6ad7095b": {
+          "label": "Zambra",
+          "link": "",
+          "x": 101111,
+          "y": -6340,
+          "id": "bb59f18e-1fc2-4a1d-aa6c-d1dc6ad7095b",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "97a58f1c-9672-4e4e-a1b1-e3462ba691b9": {
+          "id": "97a58f1c-9672-4e4e-a1b1-e3462ba691b9",
+          "x": 101335,
+          "y": -6348,
+          "label": "https://en.wikipedia.org/wiki/Zambra",
+          "link": "https://en.wikipedia.org/wiki/Zambra"
+        },
+        "6727fb0e-b9be-47fe-a411-4a4cadcd5cf2": {
+          "id": "6727fb0e-b9be-47fe-a411-4a4cadcd5cf2",
+          "x": 101292,
+          "y": -6622,
+          "label": "https://www.youtube.com/results?search_query=flamenco+dance",
+          "link": "https://www.youtube.com/results?search_query=flamenco+dance"
+        },
+        "cab640b1-b69d-4fb7-96da-a9566066a4cb": {
+          "id": "cab640b1-b69d-4fb7-96da-a9566066a4cb",
+          "x": 101244,
+          "y": -6590,
+          "label": "https://www.youtube.com/watch?v=QLnEjHuMFsA",
+          "link": "https://www.youtube.com/watch?v=QLnEjHuMFsA"
+        },
+        "7ffb600b-2e7a-4af0-8f6a-1323b8eae8cb": {
+          "id": "7ffb600b-2e7a-4af0-8f6a-1323b8eae8cb",
+          "x": 101241,
+          "y": -6553,
+          "label": "https://www.youtube.com/watch?v=Il5DVZGVnD8",
+          "link": "https://www.youtube.com/watch?v=Il5DVZGVnD8"
+        },
+        "734a9212-9da0-4001-abaf-b90b641eb5d6": {
+          "id": "734a9212-9da0-4001-abaf-b90b641eb5d6",
+          "x": 101241,
+          "y": -6525,
+          "label": "https://www.youtube.com/watch?v=sLFH01qJT3k",
+          "link": "https://www.youtube.com/watch?v=sLFH01qJT3k"
+        },
+        "0a53a6f9-0546-4959-b558-cc9cec8ef94f": {
+          "id": "0a53a6f9-0546-4959-b558-cc9cec8ef94f",
+          "x": 101046,
+          "y": -6828,
+          "label": "Electronic Music"
+        },
+        "2b2ee8f9-a4c6-451b-ab47-caf141dcc999": {
+          "id": "2b2ee8f9-a4c6-451b-ab47-caf141dcc999",
+          "x": 101320,
+          "y": -6832,
+          "label": "https://www.youtube.com/watch?v=Cd0aFcru9uc",
+          "link": "https://www.youtube.com/watch?v=Cd0aFcru9uc"
+        },
+        "bf6ae909-3d40-477f-9a8b-4938e0eb58c5": {
+          "id": "bf6ae909-3d40-477f-9a8b-4938e0eb58c5",
+          "x": 101356,
+          "y": -7066,
+          "label": "https://www.youtube.com/results?search_query=hip+hop+dance+compilation",
+          "link": "https://www.youtube.com/results?search_query=hip+hop+dance+compilation"
+        },
+        "f02c3f8d-a80b-4b61-8d42-bfbcef7e189a": {
+          "id": "f02c3f8d-a80b-4b61-8d42-bfbcef7e189a",
+          "x": 101267,
+          "y": -7009,
+          "label": "https://www.youtube.com/watch?v=hEsofW-h6zA",
+          "link": "https://www.youtube.com/watch?v=hEsofW-h6zA"
+        },
+        "72ecbde1-9aef-479f-81c6-2dace2429355": {
+          "id": "72ecbde1-9aef-479f-81c6-2dace2429355",
+          "x": 101266,
+          "y": -6984,
+          "label": "https://www.youtube.com/watch?v=5dYPytfoBE4",
+          "link": "https://www.youtube.com/watch?v=5dYPytfoBE4"
+        },
+        "0f2c1822-e00b-4f12-9c2f-ad64223370d5": {
+          "id": "0f2c1822-e00b-4f12-9c2f-ad64223370d5",
+          "x": 101272,
+          "y": -6952,
+          "label": "https://www.youtube.com/watch?v=ATQU_qJPVA4",
+          "link": "https://www.youtube.com/watch?v=ATQU_qJPVA4"
+        },
+        "4d5d98e8-77c5-41cd-a20c-20efa833b401": {
+          "id": "4d5d98e8-77c5-41cd-a20c-20efa833b401",
+          "x": 101262,
+          "y": -6918,
+          "label": "https://www.youtube.com/watch?v=SXfgixkt4-Q",
+          "link": "https://www.youtube.com/watch?v=SXfgixkt4-Q"
         }
       },
       "length": 0,
@@ -30616,6 +30906,131 @@ var schemeData =
           "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1",
           "to": "d4628ef8-97af-4c5a-b900-7c3b16d9d98989935",
           "id": "e5d6337f-9e1b-4792-a90a-974806b555d1"
+        },
+        "d083b4c6-dd24-4d02-9b47-7dfa7dbfadfe": {
+          "from": "bdae53e6-8110-46db-a080-95ec75397375",
+          "to": "a22104b5-9ad8-405d-b66e-7e2a4e7e7c6c",
+          "id": "d083b4c6-dd24-4d02-9b47-7dfa7dbfadfe"
+        },
+        "cdcb71e2-7160-44e7-9372-49ef086b62d7": {
+          "from": "a543cb7a-06da-4b5f-9cbc-89533b88ea1d",
+          "to": "be89137f-3e3a-4f09-93b3-0474a72a324f",
+          "id": "cdcb71e2-7160-44e7-9372-49ef086b62d7"
+        },
+        "bef6f066-1808-4eed-957b-7497195ae7de": {
+          "from": "a543cb7a-06da-4b5f-9cbc-89533b88ea1d",
+          "to": "968336af-2cca-4cd1-9313-c9959988ced4",
+          "id": "bef6f066-1808-4eed-957b-7497195ae7de"
+        },
+        "427212b0-ad10-41e9-a81c-bbc472fb5edf": {
+          "from": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
+          "to": "3399c59b-4b39-4978-ac0e-ef68b2372f72",
+          "id": "427212b0-ad10-41e9-a81c-bbc472fb5edf"
+        },
+        "0c6421d5-073a-4b7f-82de-c020a045ea9e": {
+          "from": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
+          "to": "8e6e7ed6-23e8-4ff6-8bfb-d1ab65e811c2",
+          "id": "0c6421d5-073a-4b7f-82de-c020a045ea9e"
+        },
+        "e7705bd7-138f-48f6-8645-0b0340a9ffee": {
+          "from": "0579b349-8d36-4c4b-83ed-2fde07ee3d33",
+          "to": "f31319dd-c289-4765-97e1-836ed763b2d8",
+          "id": "e7705bd7-138f-48f6-8645-0b0340a9ffee"
+        },
+        "e37a5906-0aef-40b0-b504-93718cf96abc": {
+          "from": "9e86548e-bb13-4c1c-bd36-727ed6e6ff1d",
+          "to": "749d9995-b640-4e7c-b067-1784719120de",
+          "id": "e37a5906-0aef-40b0-b504-93718cf96abc"
+        },
+        "2b13b1b2-7ea8-48a0-8207-1ff5ce1cbb84": {
+          "from": "c0ad1469-8f17-46b1-9607-9a6c49dea6aa",
+          "to": "9e86548e-bb13-4c1c-bd36-727ed6e6ff1d",
+          "id": "2b13b1b2-7ea8-48a0-8207-1ff5ce1cbb84"
+        },
+        "55208379-a87d-4dc3-8adc-d80d71df1a11": {
+          "from": "d38a0c38-5b4e-4930-999a-d0c150d077ec",
+          "to": "0c465978-775e-4c2c-8a67-78ca401445e5",
+          "id": "55208379-a87d-4dc3-8adc-d80d71df1a11"
+        },
+        "8c7e160b-6afb-4a5c-9ba0-8ade32fc4f41": {
+          "from": "fca8278b-c54e-4ba7-8d63-c3154c6a3c8f",
+          "to": "9fd4afd9-0097-44e3-a4a9-84e230d22668",
+          "id": "8c7e160b-6afb-4a5c-9ba0-8ade32fc4f41"
+        },
+        "6f352960-14c7-4dcc-8ce0-41d0e997fd00": {
+          "from": "9fd4afd9-0097-44e3-a4a9-84e230d22668",
+          "to": "bb59f18e-1fc2-4a1d-aa6c-d1dc6ad7095b",
+          "id": "6f352960-14c7-4dcc-8ce0-41d0e997fd00"
+        },
+        "555c5074-08f9-483d-9296-6165d112d0c7": {
+          "from": "bb59f18e-1fc2-4a1d-aa6c-d1dc6ad7095b",
+          "to": "29db3543-fbc8-4ccf-b8e6-d227bcea2e90",
+          "id": "555c5074-08f9-483d-9296-6165d112d0c7"
+        },
+        "28b73934-708c-4c5b-920a-7bd6b4ef3e34": {
+          "from": "bb59f18e-1fc2-4a1d-aa6c-d1dc6ad7095b",
+          "to": "97a58f1c-9672-4e4e-a1b1-e3462ba691b9",
+          "id": "28b73934-708c-4c5b-920a-7bd6b4ef3e34"
+        },
+        "49be37f3-9ddb-4520-a8e7-34c67c76422a": {
+          "from": "de143386-d722-40f6-be3c-5402322e4099936",
+          "to": "fca8278b-c54e-4ba7-8d63-c3154c6a3c8f",
+          "id": "49be37f3-9ddb-4520-a8e7-34c67c76422a"
+        },
+        "98a5573c-d30b-4cdd-812e-de5adf429640": {
+          "from": "9fd4afd9-0097-44e3-a4a9-84e230d22668",
+          "to": "6727fb0e-b9be-47fe-a411-4a4cadcd5cf2",
+          "id": "98a5573c-d30b-4cdd-812e-de5adf429640"
+        },
+        "4e2d35eb-e8c5-40e3-bc4e-6f4e5cad2076": {
+          "from": "9fd4afd9-0097-44e3-a4a9-84e230d22668",
+          "to": "cab640b1-b69d-4fb7-96da-a9566066a4cb",
+          "id": "4e2d35eb-e8c5-40e3-bc4e-6f4e5cad2076"
+        },
+        "971431fe-988e-4bb7-adb0-b3920551875e": {
+          "from": "9fd4afd9-0097-44e3-a4a9-84e230d22668",
+          "to": "7ffb600b-2e7a-4af0-8f6a-1323b8eae8cb",
+          "id": "971431fe-988e-4bb7-adb0-b3920551875e"
+        },
+        "1dae7a13-c7da-4a69-8bd4-4f4c76552839": {
+          "from": "de33059a-2b21-4eb7-98e4-81d28c1fa878",
+          "to": "0a53a6f9-0546-4959-b558-cc9cec8ef94f",
+          "id": "1dae7a13-c7da-4a69-8bd4-4f4c76552839"
+        },
+        "70730f45-f5a8-48f5-a483-01856cd5e088": {
+          "from": "0a53a6f9-0546-4959-b558-cc9cec8ef94f",
+          "to": "2b2ee8f9-a4c6-451b-ab47-caf141dcc999",
+          "id": "70730f45-f5a8-48f5-a483-01856cd5e088"
+        },
+        "7da8b94d-13cd-4c46-8562-8afe8dfb9389": {
+          "from": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
+          "to": "f02c3f8d-a80b-4b61-8d42-bfbcef7e189a",
+          "id": "7da8b94d-13cd-4c46-8562-8afe8dfb9389"
+        },
+        "e6ff0a23-7101-4acc-83b9-c4e4b3ee8838": {
+          "from": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
+          "to": "72ecbde1-9aef-479f-81c6-2dace2429355",
+          "id": "e6ff0a23-7101-4acc-83b9-c4e4b3ee8838"
+        },
+        "08016d67-073f-4a1d-8238-d5edab94ad92": {
+          "from": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
+          "to": "0f2c1822-e00b-4f12-9c2f-ad64223370d5",
+          "id": "08016d67-073f-4a1d-8238-d5edab94ad92"
+        },
+        "e56ec49e-fe1d-4ebd-bf3b-57c3cecf06f3": {
+          "from": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
+          "to": "4d5d98e8-77c5-41cd-a20c-20efa833b401",
+          "id": "e56ec49e-fe1d-4ebd-bf3b-57c3cecf06f3"
+        },
+        "577f3e9f-4e06-4743-8148-fca541a19ea4": {
+          "from": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
+          "to": "bf6ae909-3d40-477f-9a8b-4938e0eb58c5",
+          "id": "577f3e9f-4e06-4743-8148-fca541a19ea4"
+        },
+        "e603bce8-098f-4c4a-939f-20fa759a1166": {
+          "from": "de33059a-2b21-4eb7-98e4-81d28c1fa878",
+          "to": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
+          "id": "e603bce8-098f-4c4a-939f-20fa759a1166"
         }
       },
       "length": 0,
@@ -30652,10 +31067,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.0177,
+    "scale": 0.06486562434862626,
     "viewPosition": {
-      "x": 95402.99999892653,
-      "y": 7199.99999638417
+      "x": 103027.37342481066,
+      "y": -5233.238122673226
     }
   }
 }

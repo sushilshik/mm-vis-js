@@ -36,6 +36,8 @@ var lastEditedNodesIds = [];
 var lastClickPosition = null;
 var servUrl = "https://localhost:3001/";
 var publicImgsPath = "public/imgs/";
+var clipboard = {};
+var viewsSaves = {};
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -357,6 +359,275 @@ function calcSymPy(symPyData, codeNodeId) {
    };
    
    fetchData(url, params, mathScriptNodeP);
+}
+function buildThemeGraph(themeGraphLabel, x, y) {
+   var newNode1Id = network.body.data.nodes.add({
+   	label: themeGraphLabel,
+   	x: x,
+   	y: y,
+   	font: {size: 72},
+   	color: {background:"red"}
+   })[0];
+   var newNode2Id = network.body.data.nodes.add({
+   	label:"Development",
+   	x: x+300,
+   	y: y+450 
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode1Id,
+   	to:newNode2Id
+   });
+   var newNode4Id = network.body.data.nodes.add({
+   	label:(new Date().toLocaleDateString()),
+   	x: x+450,
+   	y: y+450 
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode2Id,
+   	to:newNode4Id
+   });
+   var newNode3Id = network.body.data.nodes.add({
+   	label:"init",
+   	x: x+550,
+   	y: y+450 
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode4Id,
+   	to:newNode3Id
+   });
+   var newNode5Id = network.body.data.nodes.add({
+   	label:"Notes",
+   	x: x+300,
+   	y: y-400 
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode1Id,
+   	to:newNode5Id
+   });
+   var newNode6Id = network.body.data.nodes.add({
+   	label:"Dictionary of\nconcepts",
+   	x: x+450,
+   	y: y-650 
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode5Id,
+   	to:newNode6Id
+   });
+   var newNode7Id = network.body.data.nodes.add({
+   	label:"Details, thoughts",
+   	x: x+450,
+   	y: y-400
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode5Id,
+   	to:newNode7Id
+   });
+   var sectionsNodeId = network.body.data.nodes.add({
+   	label:"Sections",
+   	x: x+450,
+   	y: y-150
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode5Id,
+   	to:sectionsNodeId
+   });
+   var booksNodeId = network.body.data.nodes.add({
+   	label:"Books",
+   	x: x+550,
+   	y: y-300
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:booksNodeId
+   });
+   var rDInstitutionsNodeId = network.body.data.nodes.add({
+   	label:"R&D institutions",
+   	x: x+550,
+   	y: y-275
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:rDInstitutionsNodeId
+   });
+   var sitesNodeId = network.body.data.nodes.add({
+   	label:"Sites",
+   	x: x+550,
+   	y: y-250
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:sitesNodeId
+   });
+   var magazinesNodeId = network.body.data.nodes.add({
+   	label:"Magazines",
+   	x: x+550,
+   	y: y-225
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:magazinesNodeId
+   });
+   var articlesNodeId = network.body.data.nodes.add({
+   	label:"Articles",
+   	x: x+550,
+   	y: y-200
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:articlesNodeId
+   });
+   var mediaContentNodeId = network.body.data.nodes.add({
+   	label:"Media content",
+   	x: x+550,
+   	y: y-175
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:mediaContentNodeId
+   });
+   var miscWebLinksNodeId = network.body.data.nodes.add({
+   	label:"Misc. web links",
+   	x: x+550,
+   	y: y-150
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:miscWebLinksNodeId
+   });
+   var projectsNodeId = network.body.data.nodes.add({
+   	label:"Projects",
+   	x: x+550,
+   	y: y-125
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:projectsNodeId
+   });
+   var toolsNodeId = network.body.data.nodes.add({
+   	label:"Tools",
+   	x: x+550,
+   	y: y-100
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:toolsNodeId
+   });
+   var organizationsNodeId = network.body.data.nodes.add({
+   	label:"Organizations",
+   	x: x+550,
+   	y: y-75
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:organizationsNodeId
+   });
+   var standartsNodeId = network.body.data.nodes.add({
+   	label:"Standarts",
+   	x: x+550,
+   	y: y-50
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:standartsNodeId
+   });
+   var forumsGroupsNodeId = network.body.data.nodes.add({
+   	label:"Forums, Groups",
+   	x: x+550,
+   	y: y-25
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:forumsGroupsNodeId
+   });
+   var lawsNodeId = network.body.data.nodes.add({
+   	label:"Laws",
+   	x: x+550,
+   	y: y
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:lawsNodeId
+   });
+   var adjacentThemesNodeId = network.body.data.nodes.add({
+   	label:"Adjacent Themes",
+   	x: x+550,
+   	y: y+25
+   })[0];
+   network.body.data.edges.add({
+   	from:sectionsNodeId,
+   	to:adjacentThemesNodeId
+   });
+   var questionsNodeId = network.body.data.nodes.add({
+   	label:"Questions",
+   	x: x+300,
+   	y: y+150
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode1Id,
+   	to:questionsNodeId
+   });
+   var problemsNodeId = network.body.data.nodes.add({
+   	label:"Problems",
+   	x: x+300,
+   	y: y+250
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode1Id,
+   	to:problemsNodeId
+   });
+   var goalsNodeId = network.body.data.nodes.add({
+   	label:"Goals",
+   	x: x+300,
+   	y: y+350
+   })[0];
+   network.body.data.edges.add({
+   	from:newNode1Id,
+   	to:goalsNodeId
+   });
+   newNodesIds1 = [
+      booksNodeId,
+      rDInstitutionsNodeId,
+      sitesNodeId,
+      magazinesNodeId,
+      articlesNodeId,
+      mediaContentNodeId,
+      miscWebLinksNodeId,
+      projectsNodeId,
+      toolsNodeId,
+      organizationsNodeId,
+      standartsNodeId,
+      forumsGroupsNodeId,
+      lawsNodeId,
+      adjacentThemesNodeId
+   ];
+   var nodes1 = [];
+   newNodesIds1.forEach(function(nodeId) {
+      nodes1.push(network.body.nodes[nodeId]);
+   });
+   alignNodesLeft(nodes1);
+   newNodesIds2 = [
+      newNode5Id,
+      questionsNodeId,
+      problemsNodeId,
+      goalsNodeId,
+      newNode2Id
+   ];
+   var nodes2 = [];
+   newNodesIds2.forEach(function(nodeId) {
+      nodes2.push(network.body.nodes[nodeId]);
+   });
+   alignNodesLeft(nodes2);
+   newNodesIds3 = [
+      newNode6Id,
+      newNode7Id,
+      sectionsNodeId,
+      newNode4Id
+   ];
+   var nodes3 = [];
+   newNodesIds3.forEach(function(nodeId) {
+      nodes3.push(network.body.nodes[nodeId]);
+   });
+   alignNodesLeft(nodes3);
 }
 function draw() {
 	destroy();
@@ -878,275 +1149,9 @@ function draw() {
 			nodesToPaste = [];
 			edgesToPaste = [];
 		}
-		if (themeGraph) {
-			var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})
-			var newNode1Id = network.body.data.nodes.add({
-				label:"New Theme Name",
-				x: position.x,
-				y: position.y,
-				font: {size: 72},
-				color: {background:"red"}
-			})[0];
-			var newNode2Id = network.body.data.nodes.add({
-				label:"Development",
-				x: position.x+300,
-				y: position.y+450 
-			})[0];
-			network.body.data.edges.add({
-				from:newNode1Id,
-				to:newNode2Id
-			});
-			var newNode4Id = network.body.data.nodes.add({
-				label:(new Date().toLocaleDateString()),
-				x: position.x+450,
-				y: position.y+450 
-			})[0];
-			network.body.data.edges.add({
-				from:newNode2Id,
-				to:newNode4Id
-			});
-			var newNode3Id = network.body.data.nodes.add({
-				label:"init",
-				x: position.x+550,
-				y: position.y+450 
-			})[0];
-			network.body.data.edges.add({
-				from:newNode4Id,
-				to:newNode3Id
-			});
-			var newNode5Id = network.body.data.nodes.add({
-				label:"Notes",
-				x: position.x+300,
-				y: position.y-400 
-			})[0];
-			network.body.data.edges.add({
-				from:newNode1Id,
-				to:newNode5Id
-			});
-			var newNode6Id = network.body.data.nodes.add({
-				label:"Dictionary of\nconcepts",
-				x: position.x+450,
-				y: position.y-650 
-			})[0];
-			network.body.data.edges.add({
-				from:newNode5Id,
-				to:newNode6Id
-			});
-			var newNode7Id = network.body.data.nodes.add({
-				label:"Details, thoughts",
-				x: position.x+450,
-				y: position.y-400
-			})[0];
-			network.body.data.edges.add({
-				from:newNode5Id,
-				to:newNode7Id
-			});
-			var sectionsNodeId = network.body.data.nodes.add({
-				label:"Sections",
-				x: position.x+450,
-				y: position.y-150
-			})[0];
-			network.body.data.edges.add({
-				from:newNode5Id,
-				to:sectionsNodeId
-			});
-			var booksNodeId = network.body.data.nodes.add({
-				label:"Books",
-				x: position.x+550,
-				y: position.y-300
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:booksNodeId
-			});
-			var rDInstitutionsNodeId = network.body.data.nodes.add({
-				label:"R&D institutions",
-				x: position.x+550,
-				y: position.y-275
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:rDInstitutionsNodeId
-			});
-			var sitesNodeId = network.body.data.nodes.add({
-				label:"Sites",
-				x: position.x+550,
-				y: position.y-250
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:sitesNodeId
-			});
-			var magazinesNodeId = network.body.data.nodes.add({
-				label:"Magazines",
-				x: position.x+550,
-				y: position.y-225
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:magazinesNodeId
-			});
-			var articlesNodeId = network.body.data.nodes.add({
-				label:"Articles",
-				x: position.x+550,
-				y: position.y-200
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:articlesNodeId
-			});
-			var mediaContentNodeId = network.body.data.nodes.add({
-				label:"Media content",
-				x: position.x+550,
-				y: position.y-175
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:mediaContentNodeId
-			});
-			var miscWebLinksNodeId = network.body.data.nodes.add({
-				label:"Misc. web links",
-				x: position.x+550,
-				y: position.y-150
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:miscWebLinksNodeId
-			});
-			var projectsNodeId = network.body.data.nodes.add({
-				label:"Projects",
-				x: position.x+550,
-				y: position.y-125
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:projectsNodeId
-			});
-			var toolsNodeId = network.body.data.nodes.add({
-				label:"Tools",
-				x: position.x+550,
-				y: position.y-100
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:toolsNodeId
-			});
-			var organizationsNodeId = network.body.data.nodes.add({
-				label:"Organizations",
-				x: position.x+550,
-				y: position.y-75
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:organizationsNodeId
-			});
-			var standartsNodeId = network.body.data.nodes.add({
-				label:"Standarts",
-				x: position.x+550,
-				y: position.y-50
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:standartsNodeId
-			});
-			var forumsGroupsNodeId = network.body.data.nodes.add({
-				label:"Forums, Groups",
-				x: position.x+550,
-				y: position.y-25
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:forumsGroupsNodeId
-			});
-			var lawsNodeId = network.body.data.nodes.add({
-				label:"Laws",
-				x: position.x+550,
-				y: position.y
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:lawsNodeId
-			});
-			var adjacentThemesNodeId = network.body.data.nodes.add({
-				label:"Adjacent Themes",
-				x: position.x+550,
-				y: position.y+25
-			})[0];
-			network.body.data.edges.add({
-				from:sectionsNodeId,
-				to:adjacentThemesNodeId
-			});
-			var questionsNodeId = network.body.data.nodes.add({
-				label:"Questions",
-				x: position.x+300,
-				y: position.y+150
-			})[0];
-			network.body.data.edges.add({
-				from:newNode1Id,
-				to:questionsNodeId
-			});
-			var problemsNodeId = network.body.data.nodes.add({
-				label:"Problems",
-				x: position.x+300,
-				y: position.y+250
-			})[0];
-			network.body.data.edges.add({
-				from:newNode1Id,
-				to:problemsNodeId
-			});
-			var goalsNodeId = network.body.data.nodes.add({
-				label:"Goals",
-				x: position.x+300,
-				y: position.y+350
-			})[0];
-			network.body.data.edges.add({
-				from:newNode1Id,
-				to:goalsNodeId
-			});
-                        newNodesIds1 = [
-                           booksNodeId,
-                           rDInstitutionsNodeId,
-                           sitesNodeId,
-                           magazinesNodeId,
-                           articlesNodeId,
-                           mediaContentNodeId,
-                           miscWebLinksNodeId,
-                           projectsNodeId,
-                           toolsNodeId,
-                           organizationsNodeId,
-                           standartsNodeId,
-                           forumsGroupsNodeId,
-                           lawsNodeId,
-                           adjacentThemesNodeId
-                        ];
-                        var nodes1 = [];
-                        newNodesIds1.forEach(function(nodeId) {
-                           nodes1.push(network.body.nodes[nodeId]);
-                        });
-                        alignNodesLeft(nodes1);
-                        newNodesIds2 = [
-                           newNode5Id,
-                           questionsNodeId,
-                           problemsNodeId,
-                           goalsNodeId,
-                           newNode2Id
-                        ];
-                        var nodes2 = [];
-                        newNodesIds2.forEach(function(nodeId) {
-                           nodes2.push(network.body.nodes[nodeId]);
-                        });
-                        alignNodesLeft(nodes2);
-                        newNodesIds3 = [
-                           newNode6Id,
-                           newNode7Id,
-                           sectionsNodeId,
-                           newNode4Id
-                        ];
-                        var nodes3 = [];
-                        newNodesIds3.forEach(function(nodeId) {
-                           nodes3.push(network.body.nodes[nodeId]);
-                        });
-                        alignNodesLeft(nodes3);
+      if (themeGraph) {
+         var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y});
+         buildThemeGraph("New Theme Name", position.x, position.y);
          themeGraph = false;
       }
    }
@@ -1228,6 +1233,100 @@ function draw() {
          network.selectionHandler.selectObject(node);
          lastEditedNodesIds.push(nodeId);
          network.manipulation.editNode();
+      }
+   });
+   $(document).keyup(function (event) {
+      //move to saved view position. shift+alt+n
+      if (event.shiftKey && event.altKey 
+         && (event.keyCode === 48 ||
+             event.keyCode === 49 ||
+             event.keyCode === 50 ||
+             event.keyCode === 51 ||
+             event.keyCode === 52 ||
+             event.keyCode === 53 ||
+             event.keyCode === 54 ||
+             event.keyCode === 55 ||
+             event.keyCode === 56 ||
+             event.keyCode === 57) ) {
+         var view = viewsSaves[event.keyCode];
+         if (typeof view !== "undefined" && view !== null) {
+            var newPosition = network.canvasToDOM(view.position);
+            moveViewTo(view.position.x, view.position.y, view.scale);
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //add selected to clipboard by n number. ctrl+alt+n
+      if (event.shiftKey && event.ctrlKey 
+         && (event.keyCode === 48 ||
+             event.keyCode === 49 ||
+             event.keyCode === 50 ||
+             event.keyCode === 51 ||
+             event.keyCode === 52 ||
+             event.keyCode === 53 ||
+             event.keyCode === 54 ||
+             event.keyCode === 55 ||
+             event.keyCode === 56 ||
+             event.keyCode === 57) ) {
+         //clipboard[event.keyCode] = selectedNodes;
+         console.log(event.keyCode);
+         console.log(clipboard);
+         console.log(clipboard[event.keyCode]);
+         var nodesToMove = clipboard[event.keyCode];
+         if (typeof nodesToMove !== "undefined" && nodesToMove !== null && nodesToMove.length != 0) {
+            var positions = network.getPositions();
+            var maxLeftX = positions[nodesToMove[0].id].x;
+            var maxTopY = positions[nodesToMove[0].id].y;
+            nodesToMove.forEach(function(node) {
+               if (typeof node !== "undefined" && node !== null) {
+                  if (positions[node.id].x < maxLeftX) maxLeftX = positions[node.id].x;
+                  if (positions[node.id].y < maxTopY) maxTopY = positions[node.id].y;
+               }
+            });
+            var lastClickCanvasPosition = network.canvas.DOMtoCanvas(lastClickPosition);
+            var moveShiftX = lastClickCanvasPosition.x - maxLeftX;
+            var moveShiftY = lastClickCanvasPosition.y - maxTopY;
+            nodesToMove.forEach(function(node) {
+               if (typeof node !== "undefined" && node !== null) {
+                  var pNode = positions[node.id];
+                  var x = pNode.x + moveShiftX;
+                  var y = pNode.y + moveShiftY;
+                  network.nodesHandler.moveNode(node.id, x, y);
+               }
+            });
+         }
+
+      }
+   });
+   $(document).keyup(function (event) {
+      //add selected to clipboard by n number. ctrl+alt+n
+      if (event.altKey && event.ctrlKey 
+         && (event.keyCode === 48 ||
+             event.keyCode === 49 ||
+             event.keyCode === 50 ||
+             event.keyCode === 51 ||
+             event.keyCode === 52 ||
+             event.keyCode === 53 ||
+             event.keyCode === 54 ||
+             event.keyCode === 55 ||
+             event.keyCode === 56 ||
+             event.keyCode === 57) ) {
+         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+         if (selectedNodes.length != 0) {
+            console.log(selectedNodes);
+            clipboard[event.keyCode] = selectedNodes;
+            console.log(event.keyCode);
+            console.log(clipboard);
+         } else {
+            var scale = network.getScale();
+            var position = network.getViewPosition();
+            viewsSaves[event.keyCode] = {position: position, scale: scale};
+            console.log(event.keyCode);
+            console.log(scale);
+            console.log(position);
+            console.log(viewsSaves);
+         }
+         
       }
    });
    $(document).keyup(function (event) {
@@ -2136,6 +2235,19 @@ function buildRow(item, index, root) {
             //console.log(key);
             alignNodesLeft(alignMap[key]);
          }
+      } else if (newLabelLines[0] == "tg") {
+         newLabelLines.shift();
+         newLabelLines.forEach(function(line,index) {
+            console.log(line);
+            buildThemeGraph(line, pNode.x + 500, pNode.y + 1500*index);
+            network.body.data.nodes.add({
+   	       label:line,
+   	       x: pNode.x + 7000,
+   	       y: pNode.y + 1500*index,
+               font: {size: 1000},
+               color: {background:"#ffc63b"} 
+            });
+         });
       } else {
          newLabelLines.forEach(function(line,index) {
             var position = {

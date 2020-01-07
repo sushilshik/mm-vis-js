@@ -1976,8 +1976,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": -14109,
-          "y": -8516,
+          "x": -14130,
+          "y": -8425,
           "id": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609"
         },
         "67d4560b-b8cd-4dff-9b8e-cd6979bb5efc609": {
@@ -3463,8 +3463,8 @@ var schemeData =
         },
         "58d1ee08-5ba5-4c7b-b71d-8ff90549740a": {
           "label": "Main\nMenu",
-          "x": 17551,
-          "y": 17704,
+          "x": 17412,
+          "y": 19976,
           "font": {
             "size": 72,
             "align": "left"
@@ -3480,26 +3480,26 @@ var schemeData =
         },
         "fad0d2f5-e805-42f8-81eb-34676e57823e": {
           "label": "Development",
-          "x": 17851,
-          "y": 18154,
+          "x": 17712,
+          "y": 20426,
           "id": "fad0d2f5-e805-42f8-81eb-34676e57823e"
         },
         "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8": {
           "label": "12/20/2019",
-          "x": 17984,
-          "y": 18154,
+          "x": 17845,
+          "y": 20426,
           "id": "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8"
         },
         "3749bab6-782f-4012-8bc4-6868c99ae90d": {
           "label": "init",
-          "x": 18101,
-          "y": 18154,
+          "x": 17962,
+          "y": 20426,
           "id": "3749bab6-782f-4012-8bc4-6868c99ae90d"
         },
         "e84a77bd-9fe9-49e4-bd78-36357ed45eac": {
           "label": "Notes",
-          "x": 17828,
-          "y": 17304,
+          "x": 17689,
+          "y": 19576,
           "id": "e84a77bd-9fe9-49e4-bd78-36357ed45eac"
         },
         "e471ec0c-362c-4f2b-b7c4-2841070254df": {
@@ -3510,122 +3510,122 @@ var schemeData =
         },
         "8603b647-7c2d-4c72-a50c-3112d91ae9fd": {
           "label": "Details, thoughts",
-          "x": 18009,
-          "y": 17168,
+          "x": 17870,
+          "y": 19440,
           "id": "8603b647-7c2d-4c72-a50c-3112d91ae9fd"
         },
         "7899b947-be30-4c88-8104-5530af5f2d8e": {
           "label": "Sections",
-          "x": 17975,
-          "y": 17554,
+          "x": 17836,
+          "y": 19826,
           "id": "7899b947-be30-4c88-8104-5530af5f2d8e"
         },
         "774cc87a-d706-4c5e-a071-c3e570be814f": {
           "label": "Books",
-          "x": 18065,
-          "y": 17404,
+          "x": 17926,
+          "y": 19676,
           "id": "774cc87a-d706-4c5e-a071-c3e570be814f"
         },
         "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf": {
           "label": "R&D institutions",
-          "x": 18096,
-          "y": 17429,
+          "x": 17957,
+          "y": 19701,
           "id": "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf"
         },
         "fcb25b61-b679-407b-bad7-328430ba3627": {
           "label": "Sites",
-          "x": 18061,
-          "y": 17454,
+          "x": 17922,
+          "y": 19726,
           "id": "fcb25b61-b679-407b-bad7-328430ba3627"
         },
         "1156c7a0-91c8-415c-bb5d-d716b709e4a9": {
           "label": "Magazines",
-          "x": 18080,
-          "y": 17479,
+          "x": 17941,
+          "y": 19751,
           "id": "1156c7a0-91c8-415c-bb5d-d716b709e4a9"
         },
         "40f5b217-7079-4841-b85d-a4028fec7130": {
           "label": "Articles",
-          "x": 18069,
-          "y": 17504,
+          "x": 17930,
+          "y": 19776,
           "id": "40f5b217-7079-4841-b85d-a4028fec7130"
         },
         "eb4fdd92-f0c9-4b9f-a324-e8c758391efa": {
           "label": "Media content",
-          "x": 18091,
-          "y": 17529,
+          "x": 17952,
+          "y": 19801,
           "id": "eb4fdd92-f0c9-4b9f-a324-e8c758391efa"
         },
         "8e6bd954-292d-4ed8-b7a3-69308a73ae12": {
           "label": "Misc. web links",
-          "x": 18093,
-          "y": 17554,
+          "x": 17954,
+          "y": 19826,
           "id": "8e6bd954-292d-4ed8-b7a3-69308a73ae12"
         },
         "98df6a56-96a2-40aa-b6d0-6c6a7f58f098": {
           "label": "Projects",
-          "x": 18071,
-          "y": 17579,
+          "x": 17932,
+          "y": 19851,
           "id": "98df6a56-96a2-40aa-b6d0-6c6a7f58f098"
         },
         "a35b8d71-f5f4-45f3-88a0-f51a5579b16b": {
           "label": "Tools",
-          "x": 18063,
-          "y": 17604,
+          "x": 17924,
+          "y": 19876,
           "id": "a35b8d71-f5f4-45f3-88a0-f51a5579b16b"
         },
         "763ae497-9ab0-4119-908e-4cc8a0a10757": {
           "label": "Organizations",
-          "x": 18090,
-          "y": 17629,
+          "x": 17951,
+          "y": 19901,
           "id": "763ae497-9ab0-4119-908e-4cc8a0a10757"
         },
         "3ac6cf0e-e35d-4f5c-afa7-54274021773f": {
           "label": "Standarts",
-          "x": 18076,
-          "y": 17654,
+          "x": 17937,
+          "y": 19926,
           "id": "3ac6cf0e-e35d-4f5c-afa7-54274021773f"
         },
         "fa51e725-fed1-41e2-93ff-6c650595f637": {
           "label": "Forums, Groups",
-          "x": 18098,
-          "y": 17679,
+          "x": 17959,
+          "y": 19951,
           "id": "fa51e725-fed1-41e2-93ff-6c650595f637"
         },
         "49872021-d638-4aaf-b83c-98e5bc8dca80": {
           "label": "Laws",
-          "x": 18062,
-          "y": 17704,
+          "x": 17923,
+          "y": 19976,
           "id": "49872021-d638-4aaf-b83c-98e5bc8dca80"
         },
         "d9dc0df7-2a39-497f-a6f2-0b9808f09c69": {
           "label": "Adjacent Themes",
-          "x": 18101,
-          "y": 17729,
+          "x": 17962,
+          "y": 20001,
           "id": "d9dc0df7-2a39-497f-a6f2-0b9808f09c69"
         },
         "768d541a-394e-475e-b29b-03b97ff2be19": {
           "label": "Questions",
-          "x": 17841,
-          "y": 17854,
+          "x": 17702,
+          "y": 20126,
           "id": "768d541a-394e-475e-b29b-03b97ff2be19"
         },
         "c6cef5ea-0ff0-45c3-811a-c416c5d13873": {
           "label": "Problems",
-          "x": 17839,
-          "y": 17954,
+          "x": 17700,
+          "y": 20226,
           "id": "c6cef5ea-0ff0-45c3-811a-c416c5d13873"
         },
         "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06": {
           "label": "Goals",
-          "x": 17828,
-          "y": 18054,
+          "x": 17689,
+          "y": 20326,
           "id": "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06"
         },
         "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c": {
           "id": "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c",
-          "x": 18346,
-          "y": 17015,
+          "x": 18207,
+          "y": 19287,
           "label": "This scheme contains links to mm-vis-js pages.",
           "shape": "box",
           "link": "",
@@ -3641,8 +3641,8 @@ var schemeData =
         },
         "dacb0e5f-35a8-4605-ac1c-4852eddfc77c": {
           "id": "dacb0e5f-35a8-4605-ac1c-4852eddfc77c",
-          "x": 18435,
-          "y": 17124,
+          "x": 18296,
+          "y": 19396,
           "label": "Links to mm-vis-js pages are the same as in \"mm-vis-js pages list\" scheme.",
           "shape": "box",
           "link": "",
@@ -3658,32 +3658,32 @@ var schemeData =
         },
         "b5d67935-0013-48a9-bf36-d44995b85787": {
           "id": "b5d67935-0013-48a9-bf36-d44995b85787",
-          "x": 18895,
-          "y": 17124,
+          "x": 18756,
+          "y": 19396,
           "label": "\"mm-vis-js pages list\" scheme is in top left of this page"
         },
         "06674058-70e6-4712-a3e6-bfb4c2c04a85": {
           "id": "06674058-70e6-4712-a3e6-bfb4c2c04a85",
-          "x": 18968,
-          "y": 17158,
+          "x": 18829,
+          "y": 19430,
           "label": "\"mm-vis-js pages list\" scheme located on all mm-vis-js pages on their top left."
         },
         "29624334-2af8-451d-b675-f1cc64e03380": {
           "id": "29624334-2af8-451d-b675-f1cc64e03380",
-          "x": 18312,
-          "y": 17052,
+          "x": 18173,
+          "y": 19324,
           "label": "This scheme is just for convenience."
         },
         "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3": {
           "id": "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3",
-          "x": 18275,
-          "y": 17299,
+          "x": 18136,
+          "y": 19571,
           "label": "This page is \"index.html\""
         },
         "fa1cdcb3-3273-4708-bcd1-739ee674fba2": {
           "id": "fa1cdcb3-3273-4708-bcd1-739ee674fba2",
-          "x": 18487,
-          "y": 17300,
+          "x": 18348,
+          "y": 19572,
           "label": "It purpose is to be \"main page\"",
           "shape": "box",
           "link": "",
@@ -3699,32 +3699,32 @@ var schemeData =
         },
         "64acc704-cf3f-47a0-8c94-49af5c116831": {
           "id": "64acc704-cf3f-47a0-8c94-49af5c116831",
-          "x": 18377,
-          "y": 17210,
+          "x": 18238,
+          "y": 19482,
           "label": "Each big node with page name contains link to this page."
         },
         "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf": {
           "id": "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf",
-          "x": 18664,
-          "y": 17208,
+          "x": 18525,
+          "y": 19480,
           "label": "How to use this links?"
         },
         "009701c1-d7ed-4fbb-a76f-7502bacdc667": {
           "id": "009701c1-d7ed-4fbb-a76f-7502bacdc667",
-          "x": 18824,
-          "y": 17207,
+          "x": 18685,
+          "y": 19479,
           "label": "1) Select big node"
         },
         "250f8b30-2e4d-47d0-a4de-e382a59e799a": {
           "id": "250f8b30-2e4d-47d0-a4de-e382a59e799a",
-          "x": 18937,
-          "y": 17243,
+          "x": 18798,
+          "y": 19515,
           "label": "2) Click openLinkButton - blue button on the left menu"
         },
         "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc": {
           "id": "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc",
-          "x": 18649,
-          "y": 17053,
+          "x": 18510,
+          "y": 19325,
           "label": "It is easy to select big nodes with pages links from bird view.",
           "shape": "box",
           "link": "",
@@ -4071,6 +4071,65 @@ var schemeData =
           "y": -8193,
           "shape": "box",
           "link": "engineering.html",
+          "borderWidth": ""
+        },
+        "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "news.html",
+          "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562",
+          "x": 21440,
+          "y": 17105,
+          "shape": "box",
+          "link": "news.html",
+          "borderWidth": ""
+        },
+        "b3b3248f-806d-4fbb-b50b-0e42d6ae0a9d": {
+          "id": "b3b3248f-806d-4fbb-b50b-0e42d6ae0a9d",
+          "x": -13899,
+          "y": -8152,
+          "label": "News"
+        },
+        "b0877371-246b-470c-8c76-ebd69c3a30af": {
+          "id": "b0877371-246b-470c-8c76-ebd69c3a30af",
+          "x": -13580,
+          "y": -8152,
+          "label": "sushilshik.github.com/news.html",
+          "shape": "box",
+          "link": "news.html",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
           "borderWidth": ""
         }
       },
@@ -8767,6 +8826,46 @@ var schemeData =
           "id": "35731553-20dd-4af4-95c2-ba890135b05289",
           "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f160989",
           "to": "d4628ef8-97af-4c5a-b900-7c3b16d9d98989"
+        },
+        "510c95f1-e771-47fa-9f85-e1a7b46011b0562": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "510c95f1-e771-47fa-9f85-e1a7b46011b0562",
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df562",
+          "to": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562"
+        },
+        "f623f2b8-abe8-4d05-9c4a-80f6344fa273": {
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df",
+          "to": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562",
+          "id": "f623f2b8-abe8-4d05-9c4a-80f6344fa273"
+        },
+        "2075691b-195a-496b-a812-4c54c32d62ec": {
+          "from": "b3b3248f-806d-4fbb-b50b-0e42d6ae0a9d",
+          "to": "b0877371-246b-470c-8c76-ebd69c3a30af",
+          "id": "2075691b-195a-496b-a812-4c54c32d62ec"
+        },
+        "80434a68-4aaa-43a7-bf36-80d08fac0dc2": {
+          "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609",
+          "to": "b3b3248f-806d-4fbb-b50b-0e42d6ae0a9d",
+          "id": "80434a68-4aaa-43a7-bf36-80d08fac0dc2"
         }
       },
       "length": 0,
@@ -8816,7 +8915,7 @@ var schemeData =
     "scale": 0.0167,
     "viewPosition": {
       "x": 15702.999999041926,
-      "y": 7380.000004850309
+      "y": 7380.000004850302
     }
   }
 }
