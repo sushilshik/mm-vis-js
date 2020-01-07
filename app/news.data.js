@@ -14857,8 +14857,8 @@ var schemeData =
         },
         "878a52a9-f9a7-43ac-bac0-27ed564c9961": {
           "label": "News\nutils\ncode",
-          "x": 77474,
-          "y": 7292,
+          "x": 75776,
+          "y": 7418,
           "font": {
             "size": 72,
             "align": "left"
@@ -14874,146 +14874,146 @@ var schemeData =
         },
         "7d90b2aa-0bfa-40cc-ad28-22929aa5d04c": {
           "label": "Development",
-          "x": 77774,
-          "y": 7742,
+          "x": 76076,
+          "y": 7868,
           "id": "7d90b2aa-0bfa-40cc-ad28-22929aa5d04c"
         },
         "8be10698-5bba-4e71-90c4-d2c5ef5142e5": {
           "label": "1/7/2020",
-          "x": 77899,
-          "y": 7742,
+          "x": 76201,
+          "y": 7868,
           "id": "8be10698-5bba-4e71-90c4-d2c5ef5142e5"
         },
         "4aec1bb8-856d-46ab-b551-7f96bc1320f7": {
           "label": "init",
-          "x": 78024,
-          "y": 7742,
+          "x": 76326,
+          "y": 7868,
           "id": "4aec1bb8-856d-46ab-b551-7f96bc1320f7"
         },
         "ef0fbe88-ecfb-40af-867c-face8b916fe3": {
           "label": "Notes",
-          "x": 77751,
-          "y": 6892,
+          "x": 76053,
+          "y": 7018,
           "id": "ef0fbe88-ecfb-40af-867c-face8b916fe3"
         },
         "7c44742d-06ee-4076-b0dd-37164497a5d5": {
           "label": "Dictionary of\nconcepts",
-          "x": 77976,
-          "y": 3178,
+          "x": 76278,
+          "y": 3304,
           "id": "7c44742d-06ee-4076-b0dd-37164497a5d5"
         },
         "c5e468bc-c799-4047-8c5d-31d473aabedc": {
           "label": "Details, thoughts",
-          "x": 77924,
-          "y": 6892,
+          "x": 76226,
+          "y": 7018,
           "id": "c5e468bc-c799-4047-8c5d-31d473aabedc"
         },
         "929dd27b-b3f6-4268-a2a0-1e253e722f26": {
           "label": "Sections",
-          "x": 77898,
-          "y": 7142,
+          "x": 76200,
+          "y": 7268,
           "id": "929dd27b-b3f6-4268-a2a0-1e253e722f26"
         },
         "ab234527-70d3-4515-aaa4-43748dbdf803": {
           "label": "Books",
-          "x": 77988,
-          "y": 6992,
+          "x": 76290,
+          "y": 7118,
           "id": "ab234527-70d3-4515-aaa4-43748dbdf803"
         },
         "ffd59392-56c5-4add-b70e-bad2b2cd6614": {
           "label": "R&D institutions",
-          "x": 78019,
-          "y": 7017,
+          "x": 76321,
+          "y": 7143,
           "id": "ffd59392-56c5-4add-b70e-bad2b2cd6614"
         },
         "b11c8485-7e80-4058-ab22-c1c657b3bcd7": {
           "label": "Sites",
-          "x": 77984,
-          "y": 7042,
+          "x": 76286,
+          "y": 7168,
           "id": "b11c8485-7e80-4058-ab22-c1c657b3bcd7"
         },
         "9b25e25c-828e-4d48-a85a-9c41531a08d8": {
           "label": "Magazines",
-          "x": 78003,
-          "y": 7067,
+          "x": 76305,
+          "y": 7193,
           "id": "9b25e25c-828e-4d48-a85a-9c41531a08d8"
         },
         "e6552ef8-b919-44fc-ba7a-cfd2f6078764": {
           "label": "Articles",
-          "x": 77992,
-          "y": 7092,
+          "x": 76294,
+          "y": 7218,
           "id": "e6552ef8-b919-44fc-ba7a-cfd2f6078764"
         },
         "65e853cf-0af7-4164-b874-3e13689addaf": {
           "label": "Media content",
-          "x": 78014,
-          "y": 7117,
+          "x": 76316,
+          "y": 7243,
           "id": "65e853cf-0af7-4164-b874-3e13689addaf"
         },
         "136c273d-7388-4649-bf2b-e5a28fca0b86": {
           "label": "Misc. web links",
-          "x": 78016,
-          "y": 7142,
+          "x": 76318,
+          "y": 7268,
           "id": "136c273d-7388-4649-bf2b-e5a28fca0b86"
         },
         "024888c2-30fc-4ab5-aed6-da1b66328b9c": {
           "label": "Projects",
-          "x": 77994,
-          "y": 7167,
+          "x": 76296,
+          "y": 7293,
           "id": "024888c2-30fc-4ab5-aed6-da1b66328b9c"
         },
         "70cdbcb9-55e0-4068-95f0-4862f076c3dc": {
           "label": "Tools",
-          "x": 77986,
-          "y": 7192,
+          "x": 76288,
+          "y": 7318,
           "id": "70cdbcb9-55e0-4068-95f0-4862f076c3dc"
         },
         "afe8604d-c29a-4a5f-94c1-f1353ee22460": {
           "label": "Organizations",
-          "x": 78013,
-          "y": 7217,
+          "x": 76315,
+          "y": 7343,
           "id": "afe8604d-c29a-4a5f-94c1-f1353ee22460"
         },
         "375827be-6f2b-4595-8eee-2c6542cadcda": {
           "label": "Standarts",
-          "x": 77999,
-          "y": 7242,
+          "x": 76301,
+          "y": 7368,
           "id": "375827be-6f2b-4595-8eee-2c6542cadcda"
         },
         "f2b97ba6-14ae-4d80-9145-9735ef39a8dd": {
           "label": "Forums, Groups",
-          "x": 78021,
-          "y": 7267,
+          "x": 76323,
+          "y": 7393,
           "id": "f2b97ba6-14ae-4d80-9145-9735ef39a8dd"
         },
         "a879fd8d-6e0d-4458-afa7-637eb1029c49": {
           "label": "Laws",
-          "x": 77985,
-          "y": 7292,
+          "x": 76287,
+          "y": 7418,
           "id": "a879fd8d-6e0d-4458-afa7-637eb1029c49"
         },
         "373d8ceb-a40c-4f78-84a4-4374339f431e": {
           "label": "Adjacent Themes",
-          "x": 78024,
-          "y": 7317,
+          "x": 76326,
+          "y": 7443,
           "id": "373d8ceb-a40c-4f78-84a4-4374339f431e"
         },
         "e052483d-5126-47dd-8c3b-bfe0587400d4": {
           "label": "Questions",
-          "x": 77764,
-          "y": 7442,
+          "x": 76066,
+          "y": 7568,
           "id": "e052483d-5126-47dd-8c3b-bfe0587400d4"
         },
         "92174bf9-aa09-4935-8818-9e200feb1d54": {
           "label": "Problems",
-          "x": 77762,
-          "y": 7542,
+          "x": 76064,
+          "y": 7668,
           "id": "92174bf9-aa09-4935-8818-9e200feb1d54"
         },
         "5e1f803f-8ff2-416b-a94b-59351b66e6fc": {
           "label": "Goals",
-          "x": 77751,
-          "y": 7642,
+          "x": 76053,
+          "y": 7768,
           "id": "5e1f803f-8ff2-416b-a94b-59351b66e6fc"
         },
         "cafa761c-8235-4b52-8997-4ff45abee6e3570267": {
@@ -15047,15 +15047,15 @@ var schemeData =
           "label": "News\nutils\ncode",
           "id": "cafa761c-8235-4b52-8997-4ff45abee6e3570267",
           "x": 81890,
-          "y": 3517,
+          "y": 3580,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "4dd632f0-6b00-4b3b-9ef7-06198577a5a1": {
           "id": "4dd632f0-6b00-4b3b-9ef7-06198577a5a1",
-          "x": 78639,
-          "y": 3659,
+          "x": 78305,
+          "y": 3806,
           "label": "var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\nvar urlString = selectedNodes[0].options.link;\n\nvar params = {\n   urlString: urlString\n};\n\nurl = \"https://localhost:3001/getWebPage\" + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nfetch(url)\n   .then(function(response){\n      return response.json();\n   })\n   .then(function(response) {\n      var data = response.trim();\n\n      var xmlDoc = new DOMParser().parseFromString(data,\"text/html\");\n      var rslt = xmlDoc.evaluate('//item', xmlDoc, null, XPathResult.ANY_TYPE, null);\n      var items = [];\n      while(node = rslt.iterateNext()) {\n         items.push(node);\n      }\n      if (items.length == 0) {\n         xmlDoc = new DOMParser().parseFromString(data,\"text/html\");\n         rslt = xmlDoc.evaluate('//entry', xmlDoc, null, XPathResult.ANY_TYPE, null);\n         while(node = rslt.iterateNext()) {\n            items.push(node);\n         }\n      }\n/*\nconsole.log(items.length);\nitems = items.slice(0,4);\nitems.forEach(function(item) {\n   console.log(item);\n});\nreturn;\n*/\nitems = items.slice(0,50);\n\n   var nodesPositions = network.getPositions();\n   var scriptNodeP = nodesPositions[codeNodeId];\n   \n   var scriptNode = getNodeFromNetworkDataById(codeNodeId);\n   scriptNode.x = scriptNodeP.x;\n   scriptNode.y = scriptNodeP.y;\n   network.body.data.nodes.update(scriptNode);\n   scriptNode = network.body.nodes[codeNodeId];\n\n   var topY = scriptNode.y - scriptNode.shape.height/2;\n\n   //      label: urlString,\n   channelLinkNodeId = network.body.data.nodes.add([{\n      label: urlString,\n      x:scriptNode.x + 1000,\n      y:topY,\n   }])[0];\n\n   var nodesColumn1 = [];\n   var nodesColumn2 = [];\n   var nodesColumn3 = [];\n   items.forEach(function(elem, index) {\n      //console.log(elem.innerHTML);\n\n      var dateLine = \"\";\n      var doc1 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var pubDate = doc1.evaluate('//pubDate', doc1, null, XPathResult.ANY_TYPE, null).iterateNext();\n      var doc2 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var dcDate = doc2.evaluate('//*[name()=\"dc:date\"]', doc2, null, XPathResult.ANY_TYPE, null).iterateNext();\n      var doc3 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var published = doc3.evaluate('//published', doc3, null, XPathResult.ANY_TYPE, null).iterateNext();\n      var doc4 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var updated = doc4.evaluate('//updated', doc4, null, XPathResult.ANY_TYPE, null).iterateNext();\n      if (pubDate !== null && pubDate.textContent.trim() != \"\") {\n         pubDate = pubDate.textContent.trim();\n         dateLine = pubDate;\n      } else if (dcDate !== null && dcDate.textContent.trim() != \"\") {\n         dcDate = dcDate.textContent.trim();\n         dateLine = dcDate;\n      } else if (published !== null && published.textContent.trim() != \"\") {\n         published = published.textContent.trim();\n         dateLine = published;\n      } else if (updated !== null && updated.textContent.trim() != \"\") {\n         updated = updated.textContent.trim();\n         dateLine = updated;\n      }\n\n      pubDateNodeId = network.body.data.nodes.add([{\n         label: dateLine,\n         x:scriptNode.x + 1500,\n         y:topY,\n      }])[0];\n      pubDateNode = network.body.nodes[pubDateNodeId];\n      nodesColumn1.push(pubDateNode);\n      network.body.data.edges.add({\n         from:channelLinkNodeId,\n         to:pubDateNodeId\n      });\n\n      var linkLine = \"\";\n      var doc1 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var guid = doc1.evaluate('//guid', doc1, null, XPathResult.ANY_TYPE, null).iterateNext();\n      var doc2 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      link = doc2.evaluate('//link', doc2, null, XPathResult.ANY_TYPE, null).iterateNext();\n      if (guid !== null && guid.textContent.trim() != \"\") {\n         guid = guid.textContent.trim();\n         linkLine = guid;\n      } else if (link !== null && link.textContent.trim() != \"\") {\n         linkLine = link.textContent.trim();\n      }\n\n      if (linkLine == \"\") {\n         linkLine = elem.innerHTML.split(\"\\n\").join(\"\").replace(\"<!--\",\"\").replace(\"-->\",\"\");\n         linkLine = linkLine.replace(/.*?<link>(.*?http.+?)<.*/g,\"$1\");\n         linkLine = linkLine.replace(\"<!--\",\"\").replace(\"-->\",\"\");\n         linkLine = linkLine.replace(/\\[CDATA\\[ /g,\"\");\n         linkLine = linkLine.replace(/ \\]\\]/g,\"\").trim();\n         //console.log(linkLine);   \n      }\n\n      var doc = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var title = doc.evaluate('//title', doc, null, XPathResult.ANY_TYPE, null);\n      title = title.iterateNext().textContent.trim();\n\n      title = title.replace(/<\\!\\[CDATA\\[/,\"\");\n      title = title.replace(/\\]\\]>/,\"\");\n\n      var titleNodeLines = [];\n      var parts = title.match(/.{1,45}/g);\n      if (parts != null) {\n         parts.forEach(function(part) {\n            part = part.trim();\n            if (part != \"\") {\n               titleNodeLines.push(part);\n            }\n         });\n      }\n      var title = titleNodeLines.join(\"\\n\");\n\n      titleNodeId = network.body.data.nodes.add([{\n         label: title,\n         link: linkLine,\n         x:scriptNode.x + 1900,\n         y:topY,\n      }])[0];\n      titleNode = network.body.nodes[titleNodeId];\n      nodesColumn2.push(titleNode);\n      network.body.data.edges.add({\n         from:pubDateNodeId,\n         to:titleNodeId\n      });\n\n      var summaryText = \"\";\n\n      var doc1 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var description = doc1.evaluate('//description', doc1, null, XPathResult.ANY_TYPE, null).iterateNext();\n      var doc2 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var summary = doc2.evaluate('//summary', doc2, null, XPathResult.ANY_TYPE, null).iterateNext();\n      var doc3 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var content = doc3.evaluate('//content', doc3, null, XPathResult.ANY_TYPE, null).iterateNext();\n      var doc4 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var fullText = doc4.evaluate('//full-text', doc4, null, XPathResult.ANY_TYPE, null).iterateNext();\n      var doc5 = new DOMParser().parseFromString(elem.innerHTML,\"text/html\");\n      var contentEncoded = doc5.evaluate('//*[name()=\"content:encoded\"]', doc5, null, XPathResult.ANY_TYPE, null).iterateNext();\n      if (fullText !== null && fullText.innerHTML.trim() != \"\" && fullText.innerHTML.trim().length > 30) {\n         fullText = fullText.innerHTML.trim();\n         summaryText = fullText;\n      } else if (description !== null && description.innerHTML.trim() != \"\") {\n         description = description.innerHTML.trim();\n         summaryText = description;\n      } else if (summary !== null && summary.innerHTML.trim() != \"\") {\n         summaryText = summary.innerHTML.trim();\n      } else if (content !== null && content.innerHTML.trim() != \"\") {\n         summaryText = content.innerHTML.trim();\n      } else if (contentEncoded !== null && contentEncoded.innerHTML.trim() != \"\") {\n         summaryText = contentEncoded.innerHTML.trim();\n      }\n\n      //summaryText = summaryText.replace(/-->[\\s\\S]*.*/g,\"-->\");\n      summaryText = summaryText.replace(/We Recommend:<\\/font>[\\s\\S]*.*/g,\"\");\n      summaryText = summaryText.replace(/<item>[\\s\\S]*.*/g,\"\");\n\n      var newNodeLines = [];\n      var lines = summaryText.split(\"\\n\");\n      lines.forEach(function(line) {\n         var parts = line.match(/.{1,100}/g);\n         if (parts != null) {\n            parts.forEach(function(part) {\n               part = part.trim();\n               if (part != \"\") {\n                  newNodeLines.push(part);\n               }\n            });\n         }\n      });\n      var newNodeLabel = newNodeLines.join(\"\\n\");\n      descriptionNodeId = network.body.data.nodes.add([{\n         label: newNodeLabel,\n         x:scriptNode.x + 2500,\n         y:topY,\n      }])[0];\n      descriptionNode = network.body.nodes[descriptionNodeId];\n\n      nodesColumn3.push(descriptionNode);\n      network.body.data.edges.add({\n         from:titleNodeId,\n         to:descriptionNodeId\n      });\n\n      descriptionNode.y = topY + descriptionNode.shape.height/2;\n\n      pubDateNode.y = descriptionNode.y;\n      titleNode.y = descriptionNode.y;\n\n      topY = topY + descriptionNode.shape.height + 50;\n\n   });\n   //newsNodes.forEach(function(node) {\n   //});\n   alignNodesLeft(nodesColumn1);\n   alignNodesLeft(nodesColumn2);\n   alignNodesLeft(nodesColumn3);\n       })\n    .catch(function(error){console.log(error);});"
         },
         "b0a63f51-8190-426f-830a-d1e61f5b052d191": {
@@ -15082,8 +15082,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "How to use",
           "id": "b0a63f51-8190-426f-830a-d1e61f5b052d191",
-          "x": 79284,
-          "y": 3566
+          "x": 78950,
+          "y": 3713
         },
         "fcee7d53-64bb-41e7-a228-2277bb5dcd0c191": {
           "color": {
@@ -15109,8 +15109,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Make node with link to rss feed",
           "id": "fcee7d53-64bb-41e7-a228-2277bb5dcd0c191",
-          "x": 79529,
-          "y": 3498
+          "x": 79195,
+          "y": 3645
         },
         "1d31cd5a-cfb5-4fa6-b39f-7ecf2712d741191": {
           "color": {
@@ -15136,8 +15136,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Then click on node with code (this tall node on the left)",
           "id": "1d31cd5a-cfb5-4fa6-b39f-7ecf2712d741191",
-          "x": 79603,
-          "y": 3554
+          "x": 79269,
+          "y": 3701
         },
         "ea092a6a-ded2-472b-93a5-723f0bbff93a191": {
           "color": {
@@ -15176,8 +15176,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Then select node with feed link with right mouse button frame",
           "link": "",
-          "x": 79625,
-          "y": 3578,
+          "x": 79291,
+          "y": 3725,
           "id": "ea092a6a-ded2-472b-93a5-723f0bbff93a191"
         },
         "6117d294-114d-4628-99e3-3f53f8c084ce191": {
@@ -15218,8 +15218,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Then press Alt+r",
           "link": "",
-          "x": 79483,
-          "y": 3602,
+          "x": 79149,
+          "y": 3749,
           "id": "6117d294-114d-4628-99e3-3f53f8c084ce191",
           "shape": "box",
           "borderWidth": ""
@@ -15248,8 +15248,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "It can take several seconds, may be ten or more, to build tree with news entries",
           "id": "44ae84bf-f950-4e85-b955-258a8ff142d5191",
-          "x": 79682,
-          "y": 3646
+          "x": 79348,
+          "y": 3793
         },
         "1f1d9b1f-7421-4391-9d44-44d2e7fafa54191": {
           "color": {
@@ -15275,8 +15275,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "News tree will be build on right side of the code node.",
           "id": "1f1d9b1f-7421-4391-9d44-44d2e7fafa54191",
-          "x": 79600,
-          "y": 3686
+          "x": 79266,
+          "y": 3833
         },
         "64fad84e-170c-444c-aafd-4229fb93a0ce191": {
           "color": {
@@ -15302,8 +15302,14 @@ var schemeData =
           "shapeProperties": {},
           "label": "Link must be in \"link\" field of node",
           "id": "64fad84e-170c-444c-aafd-4229fb93a0ce191",
-          "x": 79800,
-          "y": 3494
+          "x": 79466,
+          "y": 3641
+        },
+        "43a94a4c-2ef4-43c2-85a6-6b694903fac7": {
+          "id": "43a94a4c-2ef4-43c2-85a6-6b694903fac7",
+          "x": 77158,
+          "y": 3407,
+          "label": "Fetch RSS feed and build\nnews tree"
         }
       },
       "length": 0,
@@ -34304,10 +34310,15 @@ var schemeData =
           "to": "b0a63f51-8190-426f-830a-d1e61f5b052d191",
           "id": "72f0d67a-4c25-4004-9044-36e37303207d"
         },
-        "67e34428-de17-4cbe-a6ef-c72651b81444": {
+        "610e7878-46f9-47f0-88e5-0e7111c1e1ab": {
           "from": "7c44742d-06ee-4076-b0dd-37164497a5d5",
+          "to": "43a94a4c-2ef4-43c2-85a6-6b694903fac7",
+          "id": "610e7878-46f9-47f0-88e5-0e7111c1e1ab"
+        },
+        "902e7b7b-143b-42b5-b2ec-208c111f488b": {
+          "from": "43a94a4c-2ef4-43c2-85a6-6b694903fac7",
           "to": "4dd632f0-6b00-4b3b-9ef7-06198577a5a1",
-          "id": "67e34428-de17-4cbe-a6ef-c72651b81444"
+          "id": "902e7b7b-143b-42b5-b2ec-208c111f488b"
         }
       },
       "length": 0,
@@ -34346,7 +34357,7 @@ var schemeData =
   "setup": {
     "scale": 0.011,
     "viewPosition": {
-      "x": 122274.99999999997,
+      "x": 122275,
       "y": 22026.999997272727
     }
   }
