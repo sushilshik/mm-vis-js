@@ -23810,8 +23810,8 @@ var schemeData =
         },
         "d148c804-583c-4167-a859-c3b6cc31af8d": {
           "label": "Dictionary of\nconcepts",
-          "x": 118375,
-          "y": -2837,
+          "x": 118397,
+          "y": -2417,
           "id": "d148c804-583c-4167-a859-c3b6cc31af8d"
         },
         "bd004db5-76c9-496c-9ab4-705117946ff3": {
@@ -24686,7 +24686,7 @@ var schemeData =
           "borderWidth": ""
         },
         "4fb65c09-a891-4992-8ca3-ddda69d66571": {
-          "label": "Hash",
+          "label": "Object",
           "x": 117777,
           "y": 1932,
           "font": {
@@ -25085,10 +25085,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "Hash",
+          "label": "Object",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993933681980291492894519251018274252267264288264672993",
-          "x": 120904,
-          "y": 1458,
+          "x": 121173,
+          "y": 1518,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -31132,14 +31132,14 @@ var schemeData =
         "d2d12c52-c085-4017-b8ce-3e1c9b65b9e7": {
           "id": "d2d12c52-c085-4017-b8ce-3e1c9b65b9e7",
           "x": 118516,
-          "y": 5100,
+          "y": 3995,
           "label": "match"
         },
         "ad218950-61ec-4be0-9225-4dc33cac45d1": {
           "id": "ad218950-61ec-4be0-9225-4dc33cac45d1",
-          "x": 118841,
-          "y": 5095,
-          "label": "\"   \".item.match(/\\s/g) -> [\" \", \" \", \" \"]",
+          "x": 118826,
+          "y": 3971,
+          "label": "\"   \".match(/\\s/g) -> [\" \", \" \", \" \"]",
           "shape": "box",
           "link": "",
           "font": {
@@ -31154,8 +31154,8 @@ var schemeData =
         },
         "079ed35a-00f1-4c9f-8074-9197c311de77": {
           "id": "079ed35a-00f1-4c9f-8074-9197c311de77",
-          "x": 118899,
-          "y": 5141,
+          "x": 118898,
+          "y": 4017,
           "label": "\"   asdf6\".match(/\\s/) -> [\" \", index: 0, input: \"   asdf6\"]"
         },
         "94cfcee5-2518-41f5-985d-f01be839f4d8": {
@@ -31337,21 +31337,21 @@ var schemeData =
         },
         "791d59df-1931-4775-9657-0d8cea4f7744": {
           "id": "791d59df-1931-4775-9657-0d8cea4f7744",
-          "x": 118625,
-          "y": -2543,
+          "x": 118635,
+          "y": -2326,
           "label": "Sort"
         },
         "da9c0267-55b1-4b8e-b38d-3a6ec9e3d3ca": {
           "id": "da9c0267-55b1-4b8e-b38d-3a6ec9e3d3ca",
-          "x": 119504,
-          "y": -2652,
+          "x": 119514,
+          "y": -2435,
           "label": "https://stackoverflow.com/questions/1129216",
           "link": "https://stackoverflow.com/questions/1129216"
         },
         "d8c90e0e-f08e-46a2-ac69-635d6894b8f2": {
           "id": "d8c90e0e-f08e-46a2-ac69-635d6894b8f2",
-          "x": 118893,
-          "y": -2664,
+          "x": 118903,
+          "y": -2447,
           "label": "Sort array of objects by string property value",
           "shape": "box",
           "link": "",
@@ -31367,8 +31367,8 @@ var schemeData =
         },
         "3a1bfa87-8fe1-491a-94d8-0d7bcc5d4c5a": {
           "id": "3a1bfa87-8fe1-491a-94d8-0d7bcc5d4c5a",
-          "x": 119191,
-          "y": -2632,
+          "x": 119201,
+          "y": -2415,
           "label": "function compare( a, b ) {\n  if ( a.last_nom < b.last_nom ){\n    return -1;\n  }\n  if ( a.last_nom > b.last_nom ){\n    return 1;\n  }\n  return 0;\n}\n\nobjs.sort( compare );"
         },
         "a63c9e21-c083-45c8-b5c2-c2ce83fcebf6": {
@@ -32289,59 +32289,59 @@ var schemeData =
         },
         "48c0375b-30ba-48bc-ab1a-ebe596ca583e": {
           "id": "48c0375b-30ba-48bc-ab1a-ebe596ca583e",
-          "x": 118782,
-          "y": -2509,
+          "x": 118792,
+          "y": -2292,
           "label": "reverse()"
         },
         "5bc0c91c-5652-44a7-a370-acae0d10220b": {
           "id": "5bc0c91c-5652-44a7-a370-acae0d10220b",
-          "x": 119032,
-          "y": -2227,
+          "x": 119042,
+          "y": -2010,
           "label": "https://www.w3schools.com/js/js_array_sort.asp",
           "link": "https://www.w3schools.com/js/js_array_sort.asp"
         },
         "fc62edab-8b21-49f1-8d97-df16fa5a7e51": {
           "id": "fc62edab-8b21-49f1-8d97-df16fa5a7e51",
-          "x": 119029,
-          "y": -2201,
+          "x": 119039,
+          "y": -1984,
           "label": "https://www.w3schools.com/jsref/jsref_sort.asp",
           "link": "https://www.w3schools.com/jsref/jsref_sort.asp"
         },
         "076bda96-253e-48ce-8dc8-203e2020a79a": {
           "id": "076bda96-253e-48ce-8dc8-203e2020a79a",
-          "x": 119089,
-          "y": -2175,
+          "x": 119099,
+          "y": -1958,
           "label": "https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11",
           "link": "https://dev.to/banesag/sorting-arrays-of-strings-in-javascript-2g11"
         },
         "6a00bc27-4358-4473-b893-9f11385cf6b6": {
           "id": "6a00bc27-4358-4473-b893-9f11385cf6b6",
-          "x": 118764,
-          "y": -2217,
+          "x": 118774,
+          "y": -2000,
           "label": "Links"
         },
         "b0f597a5-745f-4dda-bd3b-4828a1d446ad": {
           "id": "b0f597a5-745f-4dda-bd3b-4828a1d446ad",
-          "x": 118772,
-          "y": -2399,
+          "x": 118782,
+          "y": -2182,
           "label": ".sort()"
         },
         "01623a5f-8cb5-4828-b229-9cdefc55eec1": {
           "id": "01623a5f-8cb5-4828-b229-9cdefc55eec1",
-          "x": 119017,
-          "y": -2410,
+          "x": 119027,
+          "y": -2193,
           "label": ".sort() sort as strings. Don't work with numeric."
         },
         "9ae85878-3f38-44aa-ae82-99ed4136837b": {
           "id": "9ae85878-3f38-44aa-ae82-99ed4136837b",
-          "x": 118992,
-          "y": -2367,
+          "x": 119002,
+          "y": -2150,
           "label": "points.sort(function(a, b){return b - a});"
         },
         "d414fd00-65fc-4641-bcd5-a037692aff38": {
           "id": "d414fd00-65fc-4641-bcd5-a037692aff38",
-          "x": 119219,
-          "y": -2367,
+          "x": 119229,
+          "y": -2150,
           "label": "descending order"
         },
         "38c1467f-bdb2-4828-95fc-3f4bebda1976": {
@@ -33129,26 +33129,26 @@ var schemeData =
         },
         "0b655fa6-eb51-44d2-8b9c-abd57b7aae9d": {
           "id": "0b655fa6-eb51-44d2-8b9c-abd57b7aae9d",
-          "x": 118881,
-          "y": -2059,
+          "x": 118891,
+          "y": -1842,
           "label": "method is used to join two or more arrays."
         },
         "654c3cd0-f329-45c6-8588-725ff2a99d89": {
           "id": "654c3cd0-f329-45c6-8588-725ff2a99d89",
-          "x": 118638,
-          "y": -2048,
+          "x": 118648,
+          "y": -1831,
           "label": "concat()"
         },
         "d3fc307b-1e30-4ab6-a521-cc2d2debe7b8": {
           "id": "d3fc307b-1e30-4ab6-a521-cc2d2debe7b8",
-          "x": 118842,
-          "y": -2020,
+          "x": 118852,
+          "y": -1803,
           "label": "children = hege.concat(stale);"
         },
         "4a0bdf00-5c53-44bc-a2ba-36960f1eb51b": {
           "id": "4a0bdf00-5c53-44bc-a2ba-36960f1eb51b",
-          "x": 118892,
-          "y": -2335,
+          "x": 118902,
+          "y": -2118,
           "label": "inplace"
         },
         "849f7b5d-b9aa-4aa2-a527-8b8a5f65471272887589879": {
@@ -34194,8 +34194,8 @@ var schemeData =
         },
         "31a3cfa5-e55b-4243-a9ac-009208e06442": {
           "label": "Promise",
-          "x": 93528,
-          "y": 30548,
+          "x": 93514,
+          "y": 31076,
           "font": {
             "size": 72,
             "align": "left"
@@ -34211,146 +34211,146 @@ var schemeData =
         },
         "380ffcf5-6229-4ebe-946f-cc27910f136d": {
           "label": "Development",
-          "x": 93827,
-          "y": 30999,
+          "x": 93813,
+          "y": 31527,
           "id": "380ffcf5-6229-4ebe-946f-cc27910f136d"
         },
         "79263fe9-492a-43c0-854d-33a8a159545f": {
           "label": "12/28/2019",
-          "x": 93960,
-          "y": 30999,
+          "x": 93946,
+          "y": 31527,
           "id": "79263fe9-492a-43c0-854d-33a8a159545f"
         },
         "d894be10-85c0-4aba-a8ef-e4684a11c0a0": {
           "label": "init",
-          "x": 94077,
-          "y": 30999,
+          "x": 94063,
+          "y": 31527,
           "id": "d894be10-85c0-4aba-a8ef-e4684a11c0a0"
         },
         "61faa626-f3ec-40e3-bb4a-ff318429dd47": {
           "label": "Notes",
-          "x": 93817,
-          "y": 29615,
+          "x": 93803,
+          "y": 30143,
           "id": "61faa626-f3ec-40e3-bb4a-ff318429dd47"
         },
         "dabdd130-b233-4cd6-8270-3919ffba13fc": {
           "label": "Dictionary of\nconcepts",
-          "x": 94023,
-          "y": 27964,
+          "x": 94019,
+          "y": 28462,
           "id": "dabdd130-b233-4cd6-8270-3919ffba13fc"
         },
         "844023c1-a3fc-420c-9430-3123af870feb": {
           "label": "Details, thoughts",
-          "x": 93991,
-          "y": 29615,
+          "x": 93977,
+          "y": 30143,
           "id": "844023c1-a3fc-420c-9430-3123af870feb"
         },
         "73924d39-f423-4b4e-a9c4-bb9cad6c9cab": {
           "label": "Sections",
-          "x": 93951,
-          "y": 30399,
+          "x": 93937,
+          "y": 30927,
           "id": "73924d39-f423-4b4e-a9c4-bb9cad6c9cab"
         },
         "7ce3a669-81d0-4ca5-9e71-b13d160f5f5f": {
           "label": "Books",
-          "x": 94055,
-          "y": 29715,
+          "x": 94041,
+          "y": 30243,
           "id": "7ce3a669-81d0-4ca5-9e71-b13d160f5f5f"
         },
         "83a4bcca-a2a3-4806-a017-81a92ac6d4a0": {
           "label": "R&D institutions",
-          "x": 94085,
-          "y": 29740,
+          "x": 94071,
+          "y": 30268,
           "id": "83a4bcca-a2a3-4806-a017-81a92ac6d4a0"
         },
         "3e0a698d-30e3-46ca-8f16-2d8b90f8a0cd": {
           "label": "Sites",
-          "x": 94051,
-          "y": 29765,
+          "x": 94037,
+          "y": 30293,
           "id": "3e0a698d-30e3-46ca-8f16-2d8b90f8a0cd"
         },
         "f6a06a8c-f6a1-4376-abba-3e1a396e8f41": {
           "label": "Magazines",
-          "x": 94070,
-          "y": 29790,
+          "x": 94056,
+          "y": 30318,
           "id": "f6a06a8c-f6a1-4376-abba-3e1a396e8f41"
         },
         "822c2889-3609-4a0a-9816-6b7fef502c70": {
           "label": "Articles",
-          "x": 94058,
-          "y": 29815,
+          "x": 94044,
+          "y": 30343,
           "id": "822c2889-3609-4a0a-9816-6b7fef502c70"
         },
         "5698ec59-2624-4996-bfe4-07f4ac2994b6": {
           "label": "Media content",
-          "x": 94080,
-          "y": 29840,
+          "x": 94066,
+          "y": 30368,
           "id": "5698ec59-2624-4996-bfe4-07f4ac2994b6"
         },
         "0d78a65b-cb91-4241-9f51-f98981d40133": {
           "label": "Misc. web links",
-          "x": 94083,
-          "y": 30137,
+          "x": 94069,
+          "y": 30665,
           "id": "0d78a65b-cb91-4241-9f51-f98981d40133"
         },
         "700749ee-3267-41a7-8f10-8dca632aa289": {
           "label": "Projects",
-          "x": 94047,
-          "y": 30424,
+          "x": 94033,
+          "y": 30952,
           "id": "700749ee-3267-41a7-8f10-8dca632aa289"
         },
         "425e1ff0-f978-460f-983c-d7bc9263fff4": {
           "label": "Tools",
-          "x": 94039,
-          "y": 30449,
+          "x": 94025,
+          "y": 30977,
           "id": "425e1ff0-f978-460f-983c-d7bc9263fff4"
         },
         "269807c5-3eea-4dcf-a619-e8ae5d020af8": {
           "label": "Organizations",
-          "x": 94066,
-          "y": 30474,
+          "x": 94052,
+          "y": 31002,
           "id": "269807c5-3eea-4dcf-a619-e8ae5d020af8"
         },
         "994f4675-1633-4190-8a8b-878cf606ac0a": {
           "label": "Standarts",
-          "x": 94052,
-          "y": 30499,
+          "x": 94038,
+          "y": 31027,
           "id": "994f4675-1633-4190-8a8b-878cf606ac0a"
         },
         "baf4ea2d-08c2-46a4-b3ef-d3648c7a51de": {
           "label": "Forums, Groups",
-          "x": 94074,
-          "y": 30524,
+          "x": 94060,
+          "y": 31052,
           "id": "baf4ea2d-08c2-46a4-b3ef-d3648c7a51de"
         },
         "71cd12bb-7e6c-4632-ac92-e65e84428ec3": {
           "label": "Laws",
-          "x": 94038,
-          "y": 30549,
+          "x": 94024,
+          "y": 31077,
           "id": "71cd12bb-7e6c-4632-ac92-e65e84428ec3"
         },
         "82bf8f8f-31b4-42e0-b2db-07515c77c45c": {
           "label": "Adjacent Themes",
-          "x": 94077,
-          "y": 30574,
+          "x": 94063,
+          "y": 31102,
           "id": "82bf8f8f-31b4-42e0-b2db-07515c77c45c"
         },
         "b686d1fa-f1bf-46f4-9a92-645905462928": {
           "label": "Questions",
-          "x": 93817,
-          "y": 30699,
+          "x": 93803,
+          "y": 31227,
           "id": "b686d1fa-f1bf-46f4-9a92-645905462928"
         },
         "8455ee94-d7e0-4ee5-b246-98eb77d5d39e": {
           "label": "Problems",
-          "x": 93815,
-          "y": 30799,
+          "x": 93801,
+          "y": 31327,
           "id": "8455ee94-d7e0-4ee5-b246-98eb77d5d39e"
         },
         "6ae7dbc1-6bb8-4414-9abe-63d84ae15a27": {
           "label": "Goals",
-          "x": 93804,
-          "y": 30899,
+          "x": 93790,
+          "y": 31427,
           "id": "6ae7dbc1-6bb8-4414-9abe-63d84ae15a27"
         },
         "8a9a3603-3aaf-4029-93af-691e610e4311": {
@@ -34373,77 +34373,77 @@ var schemeData =
         "aa0c352c-de87-4dd2-a2d4-a8099438132d": {
           "label": "Promise - JavaScript | MDN",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
-          "x": 94328,
-          "y": 30052,
+          "x": 94314,
+          "y": 30580,
           "id": "aa0c352c-de87-4dd2-a2d4-a8099438132d"
         },
         "b5d3f450-8495-4029-b1df-5771868dc204": {
           "label": "Using Promises - JavaScript | MDN",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises",
-          "x": 94630,
-          "y": 30046,
+          "x": 94616,
+          "y": 30574,
           "id": "b5d3f450-8495-4029-b1df-5771868dc204"
         },
         "d2fd8b92-c574-498a-b297-624510d7c963": {
           "label": "JavaScript | Promises - GeeksforGeeks",
           "link": "https://www.geeksforgeeks.org/javascript-promises/",
-          "x": 94365,
-          "y": 30102,
+          "x": 94351,
+          "y": 30630,
           "id": "d2fd8b92-c574-498a-b297-624510d7c963"
         },
         "99cb50f0-569b-4620-b5ff-e8be3175490c": {
           "label": "Promise",
           "link": "https://learn.javascript.ru/promise",
-          "x": 94266,
-          "y": 30127,
+          "x": 94252,
+          "y": 30655,
           "id": "99cb50f0-569b-4620-b5ff-e8be3175490c"
         },
         "7376d2eb-aab7-433f-8ba7-b4e503be7fd7": {
           "label": "Promise",
           "link": "https://javascript.info/promise-basics",
-          "x": 94266,
-          "y": 30152,
+          "x": 94252,
+          "y": 30680,
           "id": "7376d2eb-aab7-433f-8ba7-b4e503be7fd7"
         },
         "c645b630-d9d5-4ff1-948b-f192a0235dd9": {
           "label": "JavaScript Promises: an Introduction  |  Web Fundamentals",
           "link": "https://developers.google.com/web/fundamentals/primers/promises",
-          "x": 94428,
-          "y": 30177,
+          "x": 94414,
+          "y": 30705,
           "id": "c645b630-d9d5-4ff1-948b-f192a0235dd9"
         },
         "90d2035b-f706-47e8-9801-583a5a48087c": {
           "label": "JavaScript Promises: an Introduction  |  Web Fundamentals",
           "link": "https://developers.google.com/web/fundamentals/primers/promises#promise-api-reference",
-          "x": 94674,
-          "y": 29978,
+          "x": 94660,
+          "y": 30506,
           "id": "90d2035b-f706-47e8-9801-583a5a48087c"
         },
         "9949138f-d8ca-4558-92df-06d0afe7af82": {
           "label": "JavaScript Promises for Dummies ― Scotch.io",
           "link": "https://scotch.io/tutorials/javascript-promises-for-dummies",
-          "x": 94387,
-          "y": 30227,
+          "x": 94373,
+          "y": 30755,
           "id": "9949138f-d8ca-4558-92df-06d0afe7af82"
         },
         "966ffa04-cedc-4371-a9ca-c77827d95131": {
           "label": "Understanding promises in JavaScript - By",
           "link": "https://hackernoon.com/understanding-promises-in-javascript-13d99df067c1",
-          "x": 94375,
-          "y": 30252,
+          "x": 94361,
+          "y": 30780,
           "id": "966ffa04-cedc-4371-a9ca-c77827d95131"
         },
         "c4d615f4-9600-401c-8656-201e25f375a8": {
           "label": "Promises In Javascript A Complete Guide For 2019 - DEV Community 👩‍💻👨‍💻",
           "link": "https://dev.to/nileshsanyal/promises-in-javascript-a-complete-guide-for-2019-4o99",
-          "x": 94479,
-          "y": 30277,
+          "x": 94465,
+          "y": 30805,
           "id": "c4d615f4-9600-401c-8656-201e25f375a8"
         },
         "42b7e524-2144-4fa3-be01-6e15f5b11c65": {
           "id": "42b7e524-2144-4fa3-be01-6e15f5b11c65",
-          "x": 94309,
-          "y": 29983,
+          "x": 94295,
+          "y": 30511,
           "label": "Promise API reference"
         },
         "a56d0751-f1d5-427d-b134-18a8b436c965": {
@@ -40186,6 +40186,163 @@ var schemeData =
           "y": 28202,
           "label": "https://www.w3schools.com/xml/prop_element_textcontent.asp",
           "link": "https://www.w3schools.com/xml/prop_element_textcontent.asp"
+        },
+        "827d802f-0c2f-40a7-a969-80b9c4959f50": {
+          "id": "827d802f-0c2f-40a7-a969-80b9c4959f50",
+          "x": 118636,
+          "y": -1574,
+          "label": "uniq"
+        },
+        "3ab88bfb-dc3e-4729-9a36-e978f496a9bd": {
+          "label": "https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array",
+          "link": "https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array",
+          "x": 119040,
+          "y": -1710,
+          "id": "3ab88bfb-dc3e-4729-9a36-e978f496a9bd",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "9f26d951-376b-463b-b5a3-13565f9987c7": {
+          "id": "9f26d951-376b-463b-b5a3-13565f9987c7",
+          "x": 118876,
+          "y": -1648,
+          "label": "function uniq(a) {\n   return Array.from(new Set(a));\n}"
+        },
+        "4f5e4b93-5937-4bf5-9be8-2e83f0af6c11": {
+          "id": "4f5e4b93-5937-4bf5-9be8-2e83f0af6c11",
+          "x": 119045,
+          "y": -1655,
+          "label": "for ES6"
+        },
+        "84479295-6884-4508-8705-f0e1776ba5ea": {
+          "id": "84479295-6884-4508-8705-f0e1776ba5ea",
+          "x": 118863,
+          "y": -1496,
+          "label": "function uniq_fast(a) {\n    var seen = {};\n    var out = [];\n    var len = a.length;\n    var j = 0;\n    for(var i = 0; i < len; i++) {\n         var item = a[i];\n         if(seen[item] !== 1) {\n               seen[item] = 1;\n               out[j++] = item;\n         }\n    }\n    return out;\n}"
+        },
+        "8bba26d7-9769-403c-8d81-c1722f4894db": {
+          "id": "8bba26d7-9769-403c-8d81-c1722f4894db",
+          "x": 119373,
+          "y": 15660,
+          "label": "var person = {firstName:\"John\", lastName:\"Doe\", age:50, eyeColor:\"blue\"};"
+        },
+        "d76fdbab-85fb-4479-ab48-c83258c51144": {
+          "id": "d76fdbab-85fb-4479-ab48-c83258c51144",
+          "x": 118633,
+          "y": -2720,
+          "label": "indexOf()"
+        },
+        "56151de9-a2d4-4979-9a3e-fb75d062a311": {
+          "id": "56151de9-a2d4-4979-9a3e-fb75d062a311",
+          "x": 118915,
+          "y": -2737,
+          "label": "var fruits = [\"Banana\", \"Orange\", \"Apple\", \"Mango\"];\nvar a = fruits.indexOf(\"Apple\");"
+        },
+        "aa633397-8b9b-4901-8d66-b73765fd1ca3": {
+          "id": "aa633397-8b9b-4901-8d66-b73765fd1ca3",
+          "x": 118861,
+          "y": -2698,
+          "label": "Returns -1 if the item is not found."
+        },
+        "0ef61607-d895-4e91-ba31-e608c4ffedbb": {
+          "id": "0ef61607-d895-4e91-ba31-e608c4ffedbb",
+          "x": 118620,
+          "y": -2618,
+          "label": "find()"
+        },
+        "78646e35-fb33-4904-933e-d389aaf31c57": {
+          "id": "78646e35-fb33-4904-933e-d389aaf31c57",
+          "x": 118985,
+          "y": -2604,
+          "label": "var ages = [3, 10, 18, 20];\n\nfunction checkAdult(age) {\n  return age >= 18;\n}\n\nfunction myFunction() {\n  document.getElementById(\"demo\").innerHTML = ages.find(checkAdult);\n}"
+        },
+        "3ce2902b-06fc-4df0-8d79-21af78911390": {
+          "id": "3ce2902b-06fc-4df0-8d79-21af78911390",
+          "x": 94589,
+          "y": 29524,
+          "label": "var p2 = new Promise(function(resolve, reject) {\n  resolve(1);\n});\n\np2.then(function(value) {\n  console.log(value); // 1\n  return value + 1;\n}).then(function(value) {\n  console.log(value + ' - A synchronous value works');\n});"
+        },
+        "1b47fdf6-dc07-4316-a466-726bd4cc8b39": {
+          "id": "1b47fdf6-dc07-4316-a466-726bd4cc8b39",
+          "x": 94196,
+          "y": 29502,
+          "label": "Examples"
+        },
+        "7c38fa04-511e-4dfa-939b-a6c864604f56": {
+          "id": "7c38fa04-511e-4dfa-939b-a6c864604f56",
+          "x": 94535,
+          "y": 30842,
+          "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then"
+        },
+        "e2f43ed2-0692-4d3e-bd57-43f8a154d439": {
+          "id": "e2f43ed2-0692-4d3e-bd57-43f8a154d439",
+          "x": 118654,
+          "y": -1268,
+          "label": "difference"
+        },
+        "523138d6-a257-4df7-837b-9c6d7644ca16": {
+          "id": "523138d6-a257-4df7-837b-9c6d7644ca16",
+          "x": 119132,
+          "y": -1189,
+          "label": "https://stackoverflow.com/questions/1187518/how-to-get-the-difference-between-two-arrays-in-javascript?noredirect=1&lq=1",
+          "link": "https://stackoverflow.com/questions/1187518/how-to-get-the-difference-between-two-arrays-in-javascript?noredirect=1&lq=1"
+        },
+        "4c3be930-c71c-4a92-b30f-8ca038328383": {
+          "id": "4c3be930-c71c-4a92-b30f-8ca038328383",
+          "x": 118848,
+          "y": -1273,
+          "label": "function difference(a1, a2) {\n  var result = [];\n  for (var i = 0; i < a1.length; i++) {\n    if (a2.indexOf(a1[i]) === -1) {\n      result.push(a1[i]);\n    }\n  }\n  return result;\n}"
+        },
+        "f2c35801-f93b-471f-b798-3cf1507896d0": {
+          "id": "f2c35801-f93b-471f-b798-3cf1507896d0",
+          "x": 118461,
+          "y": 1394,
+          "label": "delete"
+        },
+        "ddc6f1b8-609f-41b1-99f4-e172657e7227": {
+          "id": "ddc6f1b8-609f-41b1-99f4-e172657e7227",
+          "x": 118645,
+          "y": 1381,
+          "label": "delete object.keyname;"
+        },
+        "ad3c83be-3af6-45d6-b4b6-7f24d604d1de": {
+          "id": "ad3c83be-3af6-45d6-b4b6-7f24d604d1de",
+          "x": 118652,
+          "y": 1409,
+          "label": "delete object[\"keyname\"];"
         }
       },
       "length": 0,
@@ -55217,11 +55374,6 @@ var schemeData =
           "to": "ad218950-61ec-4be0-9225-4dc33cac45d1",
           "id": "a6c73495-d045-4571-9908-94b0c1a92ab1"
         },
-        "d50825bf-7b26-4efa-8f10-804e21e19588": {
-          "from": "4ec9019c-702f-4f59-855e-0956ee529673",
-          "to": "d2d12c52-c085-4017-b8ce-3e1c9b65b9e7",
-          "id": "d50825bf-7b26-4efa-8f10-804e21e19588"
-        },
         "b6a8d2db-6387-49bc-aaf5-b7c057b9e5a4": {
           "from": "d2d12c52-c085-4017-b8ce-3e1c9b65b9e7",
           "to": "079ed35a-00f1-4c9f-8074-9197c311de77",
@@ -58760,6 +58912,111 @@ var schemeData =
           "from": "7c768c54-b9ea-4a63-8226-a686ed05600a",
           "to": "a2260f89-4b90-4220-a926-be8ef9c84377",
           "id": "847ce09b-2e02-4edd-b7a3-7f18530fa2af"
+        },
+        "0b2b6eb3-e4b0-4118-97e8-229162531535": {
+          "from": "4ec9019c-702f-4f59-855e-0956ee529673",
+          "to": "d2d12c52-c085-4017-b8ce-3e1c9b65b9e7",
+          "id": "0b2b6eb3-e4b0-4118-97e8-229162531535"
+        },
+        "5ff87707-d348-461c-ad10-78f51d9447ce": {
+          "from": "9f26d951-376b-463b-b5a3-13565f9987c7",
+          "to": "4f5e4b93-5937-4bf5-9be8-2e83f0af6c11",
+          "id": "5ff87707-d348-461c-ad10-78f51d9447ce"
+        },
+        "e62b8b2f-bdf7-4856-8bca-271845de0920": {
+          "from": "827d802f-0c2f-40a7-a969-80b9c4959f50",
+          "to": "9f26d951-376b-463b-b5a3-13565f9987c7",
+          "id": "e62b8b2f-bdf7-4856-8bca-271845de0920"
+        },
+        "a734e68a-8dc6-4e7e-b7ae-c74c39d4d7cc": {
+          "from": "827d802f-0c2f-40a7-a969-80b9c4959f50",
+          "to": "3ab88bfb-dc3e-4729-9a36-e978f496a9bd",
+          "id": "a734e68a-8dc6-4e7e-b7ae-c74c39d4d7cc"
+        },
+        "9e088cf2-a562-415c-91b9-8ee1359420d3": {
+          "from": "d148c804-583c-4167-a859-c3b6cc31af8d",
+          "to": "827d802f-0c2f-40a7-a969-80b9c4959f50",
+          "id": "9e088cf2-a562-415c-91b9-8ee1359420d3"
+        },
+        "d87f4110-5973-4885-8183-0b6a86d5fd33": {
+          "from": "827d802f-0c2f-40a7-a969-80b9c4959f50",
+          "to": "84479295-6884-4508-8705-f0e1776ba5ea",
+          "id": "d87f4110-5973-4885-8183-0b6a86d5fd33"
+        },
+        "77d5d249-bd4b-442e-845c-128eeb4384cf": {
+          "from": "f8d1ceeb-b0e2-473d-9237-84e7e419c357",
+          "to": "8bba26d7-9769-403c-8d81-c1722f4894db",
+          "id": "77d5d249-bd4b-442e-845c-128eeb4384cf"
+        },
+        "b82e65d6-1339-43b3-a239-dcd494f37685": {
+          "from": "d76fdbab-85fb-4479-ab48-c83258c51144",
+          "to": "56151de9-a2d4-4979-9a3e-fb75d062a311",
+          "id": "b82e65d6-1339-43b3-a239-dcd494f37685"
+        },
+        "bd08720a-003a-49df-b151-e9c3e269d678": {
+          "from": "d76fdbab-85fb-4479-ab48-c83258c51144",
+          "to": "aa633397-8b9b-4901-8d66-b73765fd1ca3",
+          "id": "bd08720a-003a-49df-b151-e9c3e269d678"
+        },
+        "f5b54576-6b48-432f-a4b1-7904ebadba96": {
+          "from": "d148c804-583c-4167-a859-c3b6cc31af8d",
+          "to": "d76fdbab-85fb-4479-ab48-c83258c51144",
+          "id": "f5b54576-6b48-432f-a4b1-7904ebadba96"
+        },
+        "2dfcc3d6-0270-497c-9da0-e2c3b68584de": {
+          "from": "0ef61607-d895-4e91-ba31-e608c4ffedbb",
+          "to": "78646e35-fb33-4904-933e-d389aaf31c57",
+          "id": "2dfcc3d6-0270-497c-9da0-e2c3b68584de"
+        },
+        "c1f64fbe-dc01-4026-9c6f-54536f2114d0": {
+          "from": "d148c804-583c-4167-a859-c3b6cc31af8d",
+          "to": "0ef61607-d895-4e91-ba31-e608c4ffedbb",
+          "id": "c1f64fbe-dc01-4026-9c6f-54536f2114d0"
+        },
+        "7aff3ec9-3f97-47b4-925e-a3000ef2dde7": {
+          "from": "1b47fdf6-dc07-4316-a466-726bd4cc8b39",
+          "to": "3ce2902b-06fc-4df0-8d79-21af78911390",
+          "id": "7aff3ec9-3f97-47b4-925e-a3000ef2dde7"
+        },
+        "2b7e607a-2a55-413e-a511-e25587d5ca4a": {
+          "from": "dabdd130-b233-4cd6-8270-3919ffba13fc",
+          "to": "1b47fdf6-dc07-4316-a466-726bd4cc8b39",
+          "id": "2b7e607a-2a55-413e-a511-e25587d5ca4a"
+        },
+        "d1f39633-aecf-408b-bcd2-fcf8c0183428": {
+          "from": "0d78a65b-cb91-4241-9f51-f98981d40133",
+          "to": "7c38fa04-511e-4dfa-939b-a6c864604f56",
+          "id": "d1f39633-aecf-408b-bcd2-fcf8c0183428"
+        },
+        "3bc1be8e-da36-4586-92b3-e127a191251d": {
+          "from": "d148c804-583c-4167-a859-c3b6cc31af8d",
+          "to": "e2f43ed2-0692-4d3e-bd57-43f8a154d439",
+          "id": "3bc1be8e-da36-4586-92b3-e127a191251d"
+        },
+        "e0fd1524-90b1-42a7-a7ac-86fc3982a392": {
+          "from": "e2f43ed2-0692-4d3e-bd57-43f8a154d439",
+          "to": "523138d6-a257-4df7-837b-9c6d7644ca16",
+          "id": "e0fd1524-90b1-42a7-a7ac-86fc3982a392"
+        },
+        "0508fcf9-e9da-4727-8166-34a02cb1718f": {
+          "from": "e2f43ed2-0692-4d3e-bd57-43f8a154d439",
+          "to": "4c3be930-c71c-4a92-b30f-8ca038328383",
+          "id": "0508fcf9-e9da-4727-8166-34a02cb1718f"
+        },
+        "7f27a1b4-d8ae-4d31-99ef-1b53360a8923": {
+          "from": "f2c35801-f93b-471f-b798-3cf1507896d0",
+          "to": "ddc6f1b8-609f-41b1-99f4-e172657e7227",
+          "id": "7f27a1b4-d8ae-4d31-99ef-1b53360a8923"
+        },
+        "46083671-9fff-4034-9df4-8e8dfde01b3e": {
+          "from": "f2c35801-f93b-471f-b798-3cf1507896d0",
+          "to": "ad3c83be-3af6-45d6-b4b6-7f24d604d1de",
+          "id": "46083671-9fff-4034-9df4-8e8dfde01b3e"
+        },
+        "8d504017-e75e-49c7-b453-0a6f21d0a63d": {
+          "from": "e07f3dd5-f777-4a55-bad3-349dd9db44ac",
+          "to": "f2c35801-f93b-471f-b798-3cf1507896d0",
+          "id": "8d504017-e75e-49c7-b453-0a6f21d0a63d"
         }
       },
       "length": 0,
@@ -58798,8 +59055,8 @@ var schemeData =
   "setup": {
     "scale": 0.0156,
     "viewPosition": {
-      "x": 102403.00000128255,
-      "y": 11799.999998205143
+      "x": 102403.00000333333,
+      "y": 11799.999998205129
     }
   }
 }

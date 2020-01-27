@@ -38,6 +38,9 @@ var servUrl = "https://localhost:3001/";
 var publicImgsPath = "public/imgs/";
 var clipboard = {};
 var viewsSaves = {};
+var jumpNavigationData = null;
+var dataCash = null;
+var nodeLabelTextareaExpanded = false;
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -95,6 +98,12 @@ var nodes = new vis.DataSet(objectToArray(schemeData.canvas1Data.nodes._data));
 var edges = new vis.DataSet(objectToArray(schemeData.canvas1Data.edges._data));
 var nodes1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.nodes._data));
 var edges1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.edges._data));
+
+if (typeof schemeData.dataCash !== "undefined") {
+   dataCash = schemeData.dataCash;
+} else {
+   dataCash = {};
+}
 data = {
 	nodes: nodes,
 	edges: edges
@@ -131,6 +140,15 @@ function moveViewTo(x, y, scale) {
    });
 }
 
+function difference(a1, a2) {
+  var result = [];
+  for (var i = 0; i < a1.length; i++) {
+    if (a2.indexOf(a1[i]) === -1) {
+      result.push(a1[i]);
+    }
+  }
+  return result;
+}
 function getNodeFromNetworkDataById(id) {
    var node;
    if (Array.isArray(network.body.data.nodes.get(id))) {
@@ -139,6 +157,15 @@ function getNodeFromNetworkDataById(id) {
       node = network.body.data.nodes.get(id);
    }
    return node;
+}
+function getEdgeFromNetworkDataById(id) {
+   var edge;
+   if (Array.isArray(network.body.data.edges.get(id))) {
+      edge = network.body.data.edges.get(id)[0];
+   } else {
+      edge = network.body.data.edges.get(id);
+   }
+   return edge;
 }
 function destroy() {
 	if (network !== null) {
@@ -154,11 +181,122 @@ function addNodeOnCanvas(label, link, position, shiftX, shiftY, network) {
 		y: position.y + shiftY
 	});
 }
+function getTreeNodesAndEdges(rootNodeId) {
+
+   var nodeEdges = network.body.nodes[rootNodeId].edges;
+
+   var rootBranchesEdges = [];
+   nodeEdges.forEach(function(edge) {
+      if (edge.fromId == rootNodeId) {
+         rootBranchesEdges.push(getEdgeFromNetworkDataById(edge.id));
+      }
+   });
+
+   var branchNodes = [];
+   rootBranchesEdges.forEach(function(rootBranchesEdge) {
+      branchNodes.push(getNodeFromNetworkDataById(rootBranchesEdge.to));
+   });
+
+   var branchesNodesAndEdges = {
+      nodes:  [],
+      edges: rootBranchesEdges
+   };
+
+   branchNodes.forEach(function(branchNode) {
+      branchesNodesAndEdges.nodes.push(getNodeFromNetworkDataById(branchNode.id));
+      var branchesData = getTreeNodesAndEdges(branchNode.id);
+      branchesNodesAndEdges.nodes = branchesNodesAndEdges.nodes.concat(branchesData.nodes);
+      branchesNodesAndEdges.edges = branchesNodesAndEdges.edges.concat(branchesData.edges);
+   });
+   return branchesNodesAndEdges;
+}
+            function hideNodeBranchesToDataCash(nodeId, branchesNodesAndEdges) {
+
+               var nodesPositions = network.getPositions();
+               if (branchesNodesAndEdges === null) {
+                  branchesNodesAndEdges = getTreeNodesAndEdges(nodeId);
+               }
+               branchesNodesAndEdges.rootPosition = nodesPositions[nodeId];
+               console.log("hideNodeBranchesToDataCash");
+               console.log(branchesNodesAndEdges);
+               var yStep = nodesPositions[nodeId].y;
+               if (typeof dataCash[nodeId] !== "undefined") {
+                  var newGraphMinPosition = branchesNodesAndEdges.nodes[branchesNodesAndEdges.nodes.length-1].y;
+                  var rootNodeAndNewGraphMinPositionDiff = newGraphMinPosition - nodesPositions[nodeId].y;
+                  branchesNodesAndEdges.nodes.forEach(function(node) {
+                     node.y = node.y - rootNodeAndNewGraphMinPositionDiff - 1;
+                     if (typeof nodesPositions[node.id] !== "undefined") {
+                        node.x = nodesPositions[node.id].x;
+                     }
+                  });
+                  var currentData = dataCash[nodeId];
+                  currentData.nodes = branchesNodesAndEdges.nodes.concat(currentData.nodes);
+                  currentData.edges = branchesNodesAndEdges.edges.concat(currentData.edges);
+                  currentData.rootPosition = branchesNodesAndEdges.rootPosition;
+                  dataCash[nodeId] = currentData;
+                  dataCash[nodeId].nodes.forEach(function(node) {
+                     node.y = yStep;
+                     yStep = yStep + 1;
+                  });
+               } else {
+                  dataCash[nodeId] = branchesNodesAndEdges;
+                  dataCash[nodeId].nodes.forEach(function(node) {
+                     node.y = yStep;
+                     yStep = yStep + 1;
+                     if (typeof nodesPositions[node.id] !== "undefined") {
+                        node.x = nodesPositions[node.id].x;
+                     }
+                  });
+               }
+
+               var removeNodesIds = [];
+               branchesNodesAndEdges.nodes.forEach(function(node, index) {
+                  removeNodesIds.push(node.id);
+               });
+               var removeEdgesIds = [];
+               branchesNodesAndEdges.edges.forEach(function(edge, index) {
+                  removeEdgesIds.push(edge.id);
+               });
+               updateMenuFromScheme(removeNodesIds, removeEdgesIds);
+               updateSchemeFromMenu([],[]);
+            }
+            function restoreNodeBranchesFromDataCash(nodeId) {
+
+               console.log("restoreNodeBranchesFromDataCash");
+               var branchesNodesAndEdges = dataCash[nodeId];
+               if (typeof branchesNodesAndEdges === "undefined") return;
+
+               updateMenuFromScheme([],[]);
+   
+               updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);
+
+               var nodesPositions = network.getPositions();
+
+               var xShift = null;
+               if (typeof branchesNodesAndEdges.rootPosition !== "undefined") {
+                  xShift = nodesPositions[nodeId].x - branchesNodesAndEdges.rootPosition.x;
+               }
+
+               var yStep = nodesPositions[nodeId].y + network.body.nodes[nodeId].shape.height/2;
+               
+               branchesNodesAndEdges.nodes.forEach(function(node) {
+                  branchNode = network.body.nodes[node.id];
+                  yStep = yStep + branchNode.shape.height/2;
+                  branchNode.y = yStep;
+                  yStep = yStep + branchNode.shape.height/2;
+                  if (xShift != null) branchNode.x = branchNode.x + xShift;
+               });
+
+               delete dataCash[nodeId];
+               updateMenuFromScheme([],[]);
+
+            }
 function alignNodesLeft(nodes) {
 	var minLeft;
+        var nodesPositions = network.getPositions();
 	nodes.forEach(function(node) {
                 var nodeD = getNodeFromNetworkDataById(node.id);
-		var pNode = network.getPositions()[node.id];
+		var pNode = nodesPositions[node.id];
 		nodeD.x = pNode.x;
 		nodeD.y = pNode.y;
 		network.body.data.nodes.update(nodeD);
@@ -177,8 +315,9 @@ function alignNodesLeft(nodes) {
 	}
 
 	var scale = network.getScale();
-	var n1X = parseFloat(network.getViewPosition().x.toFixed(5));
-	var n1Y = parseFloat(network.getViewPosition().y.toFixed(5));
+        var viewPosition = network.getViewPosition();
+	var n1X = parseFloat(viewPosition.x.toFixed(5));
+	var n1Y = parseFloat(viewPosition.y.toFixed(5));
 	var positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));
 	var positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));
 
@@ -195,6 +334,7 @@ function alignNodesLeft(nodes) {
 	});
 }
 function showAlert(alertLine, rightShift, width) {
+        console.log("Alert: " + alertLine);
         var schemeDataMenuWidth = 0;
         if (document.getElementById("schemeDataMenu").style.display != "none") {
                 schemeDataMenuWidth = parseInt(document.getElementById("schemeDataMenu").style.width.replace("px",""), 10);
@@ -247,6 +387,191 @@ function collectCodeNodesContent(rootCodeNodeId) {
 	return codeNode;
 }
 
+   function findParentNodeId(nodeId) {
+      var edges = network.body.nodes[nodeId].edges;
+      if ((typeof edges === "undefined") || (edges.length == 0)) {
+         return nodeId;
+      }
+      var parentNodeId;
+      for (var key in edges) {
+         if (edges[key].toId == nodeId) {
+            parentNodeId = edges[key].from.id;
+         }
+      }
+      return parentNodeId;
+   }
+   function findTreeRootNodeId(branchNodeId) {
+      var parentNodeId = findParentNodeId(branchNodeId);
+      if (typeof parentNodeId !== "undefined") {
+         return findTreeRootNodeId(parentNodeId);   
+      } else {
+         return branchNodeId;
+      }
+   }
+function uniq_fast(a) {
+    var seen = {};
+    var out = [];
+    var len = a.length;
+    var j = 0;
+    for(var i = 0; i < len; i++) {
+         var item = a[i];
+         if(seen[item] !== 1) {
+               seen[item] = 1;
+               out[j++] = item;
+         }
+    }
+    return out;
+}
+            function wrapNodeBranches(rootNodeId) {
+
+               var nodesPositions = network.getPositions();
+
+               var yStep = nodesPositions[rootNodeId].y;
+               
+               function wrapTree(nodeId, yStep, nodesPositions) {
+                  var nodeEdges = network.body.nodes[nodeId].edges;
+                  var codeEdges = [];
+                  nodeEdges.forEach(function(edge) {
+                     if (edge.fromId == nodeId) {
+                        codeEdges.push(edge);
+                     }
+                  });
+               
+                  var branchCodeNodes = [];
+                  codeEdges.forEach(function(codeEdge) {
+                     branchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));
+                  });
+               
+                  function compare( a, b ) {
+                     if ( nodesPositions[a.id].y < nodesPositions[b.id].y ){
+                        return -1;
+                     }
+                     if ( nodesPositions[a.id].y > nodesPositions[b.id].y ){
+                        return 1;
+                     }
+                     return 0;
+                  }
+
+                  branchCodeNodes = branchCodeNodes.sort(compare);
+                  branchCodeNodes.forEach(function(branchNode) {
+                     yStep = yStep + 0.01;
+                     network.nodesHandler.moveNode(branchNode.id, nodesPositions[branchNode.id].x, yStep);
+                     wrapTree(branchNode.id, yStep, nodesPositions);
+                  });
+               }
+               
+               wrapTree(rootNodeId, yStep, nodesPositions);
+            }
+            function unwrapNodeBranches(rootNodeId) { 
+
+               var nodesPositions = network.getPositions();
+
+               var yStep = nodesPositions[rootNodeId].y + network.body.nodes[rootNodeId].shape.height/2;
+               
+               function unwrapTree(nodeId, yStep, nodesPositions) {
+                  var nodeEdges = network.body.nodes[nodeId].edges;
+                  var codeEdges = [];
+                  nodeEdges.forEach(function(edge) {
+                     if (edge.fromId == nodeId) {
+                        codeEdges.push(edge);
+                     }
+                  });
+               
+                  var branchCodeNodes = [];
+                  codeEdges.forEach(function(codeEdge) {
+                     branchCodeNodes.push(network.body.nodes[codeEdge.toId]);
+                  });
+
+                  function compare( a, b ) {
+                     if ( a.y < b.y ){
+                        return -1;
+                     }
+                     if ( a.y > b.y ){
+                        return 1;
+                     }
+                     return 0;
+                  }
+
+                  branchCodeNodes = branchCodeNodes.sort(compare);
+                  branchCodeNodes.forEach(function(branchNode) {
+                     branchNode = network.body.nodes[branchNode.id];
+                     yStep = yStep + branchNode.shape.height/2;
+                     network.nodesHandler.moveNode(branchNode.id, nodesPositions[branchNode.id].x, yStep);
+                     yStep = yStep + branchNode.shape.height/2;
+                     yStep = unwrapTree(branchNode.id, yStep, nodesPositions);
+                  });
+                  return yStep
+               }
+               
+               unwrapTree(rootNodeId, yStep, nodesPositions);
+            }
+function create_UUID(){
+    var dt = new Date().getTime();
+    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = (dt + Math.random()*16)%16 | 0;
+        dt = Math.floor(dt/16);
+        return (c=='x' ? r :(r&0x3|0x8)).toString(16);
+    });
+    return uuid;
+}
+function duplicateGraph(nodes, edges) {
+			var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+			var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
+			var nodes = [];
+                        var nodesPositions = network.getPositions();
+			selectedNodes.forEach(function(node) {
+				var nodeD = getNodeFromNetworkDataById(node.id);
+				pNode = nodesPositions[node.id];
+				nodeD.x = pNode.x;
+				nodeD.y = pNode.y;
+				network.body.data.nodes.update(nodeD);
+
+				nodes.push(getNodeFromNetworkDataById(node.id));
+			});
+			var edges = []
+			selectedEdges.forEach(function(edge) {
+				edges.push(network.body.data.edges.get(edge.id));
+			});
+
+			var data = {
+				nodes: {},
+				edges: {}
+			};
+			
+			nodes1ToCopy = {}; 
+			nodes.forEach(function(item) {
+				nodes1ToCopy[item.id.toString()] = item;
+			});
+			data.nodes = nodes1ToCopy;
+
+			var edges1ToCopy = {}; 
+			edges.forEach(function(item) {
+				edges1ToCopy[item.id.toString()] = item;
+			});
+			data.edges = edges1ToCopy;
+			var label = JSON.stringify(data, undefined, 1);
+			var data = JSON.parse(label);
+			var date = new Date();
+			var idPostfix = date.getMilliseconds().toString().substring(-7).toString();
+			network.selectionHandler.unselectAll();
+			objectToArray(data.nodes).forEach(function(node) {
+				node.id = node.id + idPostfix;
+				node.y = node.y; 
+				var newNode = network.nodesHandler.create(node);
+				network.body.data.nodes.add(newNode.options);
+				network.selectionHandler.selectObject(newNode);
+			});
+			objectToArray(data.edges).forEach(function(edge) {
+				edge.id = edge.id + idPostfix;	
+				edge.from = edge.from + idPostfix;
+				edge.to = edge.to + idPostfix;
+				var newEdge = network.edgesHandler.create(edge);
+				network.body.data.edges.add(newEdge.options);
+				network.selectionHandler.selectObject(newEdge);
+			});
+			network.selectionHandler.setSelection(network.selectionHandler.getSelection());
+   return data;
+}
 function calcSymPy(symPyData, codeNodeId) {
    var url = "https://localhost:3001/sympy";
    
@@ -1162,447 +1487,6 @@ function draw() {
 			network.addNodeMode();
 		}
 	}
-   function findParentNodeId(nodeId) {
-      var edges = network.body.nodes[nodeId].edges;
-      if ((typeof edges === "undefined") || (edges.length == 0)) {
-         return nodeId;
-      }
-      var parentNodeId;
-      for (var key in edges) {
-         if (edges[key].toId == nodeId) {
-            parentNodeId = edges[key].from.id;
-         }
-      }
-      return parentNodeId;
-   }
-   function findTreeRootNodeId(branchNodeId) {
-      var parentNodeId = findParentNodeId(branchNodeId);
-      if (typeof parentNodeId !== "undefined") {
-         return findTreeRootNodeId(parentNodeId);   
-      } else {
-         return branchNodeId;
-      }
-   }
-   $("#network").keyup(function (event) {
-      //Add new node under cursor. alt+n
-      if (event.altKey && event.keyCode === 78) {
-         var schemeDataMenuWidth = 0;
-         if (document.getElementById("schemeDataMenu").style.display != "none") {
-            schemeDataMenuWidth = parseInt(document.getElementById("schemeDataMenu").style.width.replace("px",""), 10);
-         } else {
-            schemeDataMenuWidth = 0;
-         }
-         var lastEditedNodeId;
-         var lastEditedNode;
-         var position;
-         if (lastEditedNodesIds.length == 0) {
-            if (lastClickPosition == null) {
-               position = {
-                  x: (canvasWidth - schemeDataMenuWidth)/2,
-                  y: canvasHeight/2
-               };
-            } else {
-               position = {
-                  x: lastClickPosition.x,
-                  y: lastClickPosition.y
-               };
-            }
-            position = network.canvas.DOMtoCanvas(position);
-         } else {
-            var lastEditedNodeId = lastEditedNodesIds[lastEditedNodesIds.length - 1];
-            var lastEditedNode = getNodeFromNetworkDataById(lastEditedNodeId);
-            var lastEditDOMPosition = network.canvasToDOM({x: lastEditedNode.x, y: lastEditedNode.y});
-            if (lastEditDOMPosition.x < 0 || 
-               lastEditDOMPosition.x > canvasWidth || 
-               lastEditDOMPosition.y < 0 || 
-               lastEditDOMPosition.y > canvasHeight) {
-               position = {
-                  x: (canvasWidth - schemeDataMenuWidth)/2,
-                  y: canvasHeight/2
-               };
-            } else {
-               var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);
-               position = {
-                  x: lastEditedNode.x,
-                  y: nodeBBox["top"] + 28 + 28*lastEditedNode.label.split("\n").length/2
-               };
-            }
-         }
-         var nodeId = addNodeOnCanvas("", "", position, 0, 0, network);
-         var node = network.body.nodes[nodeId];
-         network.selectionHandler.selectObject(node);
-         lastEditedNodesIds.push(nodeId);
-         network.manipulation.editNode();
-      }
-   });
-   $(document).keyup(function (event) {
-      //move to saved view position. shift+alt+n
-      if (event.shiftKey && event.altKey 
-         && (event.keyCode === 48 ||
-             event.keyCode === 49 ||
-             event.keyCode === 50 ||
-             event.keyCode === 51 ||
-             event.keyCode === 52 ||
-             event.keyCode === 53 ||
-             event.keyCode === 54 ||
-             event.keyCode === 55 ||
-             event.keyCode === 56 ||
-             event.keyCode === 57) ) {
-         var view = viewsSaves[event.keyCode];
-         if (typeof view !== "undefined" && view !== null) {
-            var newPosition = network.canvasToDOM(view.position);
-            moveViewTo(view.position.x, view.position.y, view.scale);
-         }
-      }
-   });
-   $(document).keyup(function (event) {
-      //add selected to clipboard by n number. ctrl+alt+n
-      if (event.shiftKey && event.ctrlKey 
-         && (event.keyCode === 48 ||
-             event.keyCode === 49 ||
-             event.keyCode === 50 ||
-             event.keyCode === 51 ||
-             event.keyCode === 52 ||
-             event.keyCode === 53 ||
-             event.keyCode === 54 ||
-             event.keyCode === 55 ||
-             event.keyCode === 56 ||
-             event.keyCode === 57) ) {
-         //clipboard[event.keyCode] = selectedNodes;
-         console.log(event.keyCode);
-         console.log(clipboard);
-         console.log(clipboard[event.keyCode]);
-         var nodesToMove = clipboard[event.keyCode];
-         if (typeof nodesToMove !== "undefined" && nodesToMove !== null && nodesToMove.length != 0) {
-            var positions = network.getPositions();
-            var maxLeftX = positions[nodesToMove[0].id].x;
-            var maxTopY = positions[nodesToMove[0].id].y;
-            nodesToMove.forEach(function(node) {
-               if (typeof node !== "undefined" && node !== null) {
-                  if (positions[node.id].x < maxLeftX) maxLeftX = positions[node.id].x;
-                  if (positions[node.id].y < maxTopY) maxTopY = positions[node.id].y;
-               }
-            });
-            var lastClickCanvasPosition = network.canvas.DOMtoCanvas(lastClickPosition);
-            var moveShiftX = lastClickCanvasPosition.x - maxLeftX;
-            var moveShiftY = lastClickCanvasPosition.y - maxTopY;
-            nodesToMove.forEach(function(node) {
-               if (typeof node !== "undefined" && node !== null) {
-                  var pNode = positions[node.id];
-                  var x = pNode.x + moveShiftX;
-                  var y = pNode.y + moveShiftY;
-                  network.nodesHandler.moveNode(node.id, x, y);
-               }
-            });
-         }
-
-      }
-   });
-   $(document).keyup(function (event) {
-      //add selected to clipboard by n number. ctrl+alt+n
-      if (event.altKey && event.ctrlKey 
-         && (event.keyCode === 48 ||
-             event.keyCode === 49 ||
-             event.keyCode === 50 ||
-             event.keyCode === 51 ||
-             event.keyCode === 52 ||
-             event.keyCode === 53 ||
-             event.keyCode === 54 ||
-             event.keyCode === 55 ||
-             event.keyCode === 56 ||
-             event.keyCode === 57) ) {
-         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
-         if (selectedNodes.length != 0) {
-            console.log(selectedNodes);
-            clipboard[event.keyCode] = selectedNodes;
-            console.log(event.keyCode);
-            console.log(clipboard);
-         } else {
-            var scale = network.getScale();
-            var position = network.getViewPosition();
-            viewsSaves[event.keyCode] = {position: position, scale: scale};
-            console.log(event.keyCode);
-            console.log(scale);
-            console.log(position);
-            console.log(viewsSaves);
-         }
-         
-      }
-   });
-   $(document).keyup(function (event) {
-      //move view to position from birdView variable. alt+h
-      if (event.altKey && event.keyCode === 72) {
-         if(typeof birdView !== "undefined") {
-            moveViewTo(birdView.x, birdView.y, birdView.scale);
-         }
-      }
-   });
-   $(document).keyup(function (event) {
-      //Run node code. ctrl+alt+v
-      if (event.ctrlKey && event.altKey && event.keyCode === 86) {
-         $("span#splitNodeListLabelButton").click();
-      }
-   });
-   $(document).keyup(function (event) {
-      //Run node code. alt+r
-      if (event.altKey && event.keyCode === 82) {
-         $("span#runNodeCodeButton").click();
-      }
-   });
-   $("#network").keyup(function (event) {
-      //Build project. alt+b
-      if (event.altKey && event.keyCode === 66) {
-         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);
-         if (selectedNodes.length != 1) {
-            console.log("Select one node");
-            showAlert("Select one node", 80, 150);
-            return;
-         }
-         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);
-         var rootNode = getNodeFromNetworkDataById(rootNodeId);
-         var projectName = rootNode.label.replace("mvj code file for project name: ","");
-			var buildProjectParentNode;
-			var buildProjectParentNodeName = "buildProject code: " + projectName;
-			var nodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + buildProjectParentNodeName + "$"));
-			if (nodes.length == 0) {
-				console.log("ERROR: no " + buildProjectParentNodeName + " node");
-				return;
-			}
-			buildProjectParentNode = nodes[0];
-			var edges = network.body.nodes[buildProjectParentNode.id].edges;
-			var buildProjectCodeNode;
-			for (var key in edges) {
-				if (edges[key].fromId == buildProjectParentNode.id) {
-					buildProjectCodeNode = edges[key].to;
-				}
-			}	
-			if (typeof buildProjectCodeNode === "undefined") {
-				console.log("ERROR: no buildProjectCodeNode");
-				return;
-			}
-			var code = collectCodeNodesContent(buildProjectCodeNode.id);
-			var codeFunction = new Function('codeNodeId', code);
-			codeFunction(buildProjectCodeNode.id);
-		}
-	});
-   $("#network").keyup(function (event) {
-                //Save canvas. Ctrl+alt+s
-		if (event.ctrlKey && event.altKey && event.keyCode === 83) {
-			var saveOperationsParentNode;
-			var saveOperationsParentNodeName = "Save operations code";
-			var nodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveOperationsParentNodeName + "$"));
-			if (nodes.length == 0) {
-				console.log("ERROR: no " + saveOperationsParentNodeName + " node");
-				return;
-			}
-			saveOperationsParentNode = nodes[0];
-			var edges = network.body.nodes[saveOperationsParentNode.id].edges;
-			var saveOperationsCodeNode;
-			for (var key in edges) {
-				if (edges[key].fromId == saveOperationsParentNode.id) {
-					saveOperationsCodeNode = edges[key].to;
-				}
-			}	
-			if (typeof saveOperationsCodeNode === "undefined") {
-				console.log("ERROR: no saveOperationsCodeNode");
-				return;
-			}
-			var code = collectCodeNodesContent(saveOperationsCodeNode.id);
-			var codeFunction = new Function('codeNodeId', code);
-			codeFunction(saveOperationsCodeNode.id);
-		}
-	});
-   $("#network").keyup(function (event) {
-		//Duplicate. Ctrl+alt+d.
-		if (event.ctrlKey && event.altKey && event.keyCode === 68) {
-			var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
-			var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
-			var nodes = [];
-                        var nodesPositions = network.getPositions();
-			selectedNodes.forEach(function(node) {
-				var nodeD = getNodeFromNetworkDataById(node.id);
-				pNode = nodesPositions[node.id];
-				nodeD.x = pNode.x;
-				nodeD.y = pNode.y;
-				network.body.data.nodes.update(nodeD);
-
-				nodes.push(getNodeFromNetworkDataById(node.id));
-			});
-			var edges = []
-			selectedEdges.forEach(function(edge) {
-				edges.push(network.body.data.edges.get(edge.id));
-			});
-
-			var data = {
-				nodes: {},
-				edges: {}
-			};
-			
-			nodes1ToCopy = {}; 
-			nodes.forEach(function(item) {
-				nodes1ToCopy[item.id.toString()] = item;
-			});
-			data.nodes = nodes1ToCopy;
-
-			var edges1ToCopy = {}; 
-			edges.forEach(function(item) {
-				edges1ToCopy[item.id.toString()] = item;
-			});
-			data.edges = edges1ToCopy;
-			var label = JSON.stringify(data, undefined, 1);
-			var data = JSON.parse(label);
-			var date = new Date();
-			var idPostfix = date.getMilliseconds().toString().substring(-7).toString();
-			network.selectionHandler.unselectAll();
-			objectToArray(data.nodes).forEach(function(node) {
-				node.id = node.id + idPostfix;
-				node.y = node.y; 
-				var newNode = network.nodesHandler.create(node);
-				network.body.data.nodes.add(newNode.options);
-				network.selectionHandler.selectObject(newNode);
-			});
-			objectToArray(data.edges).forEach(function(edge) {
-				edge.id = edge.id + idPostfix;	
-				edge.from = edge.from + idPostfix;
-				edge.to = edge.to + idPostfix;
-				var newEdge = network.edgesHandler.create(edge);
-				network.body.data.edges.add(newEdge.options);
-				network.selectionHandler.selectObject(newEdge);
-			});
-			network.selectionHandler.setSelection(network.selectionHandler.getSelection());
-		}
-	});
-   var expanded = false;
-   $("div#network").keydown(function (event) {
-      //Toggle nodeLabel textarea expansion. ctrl+Space
-      if (event.ctrlKey && event.keyCode === 32) {
-         if (expanded) {
-            $("textarea#nodeLabelTextarea").css("width", "167px");
-            $("textarea#nodeLabelTextarea").css("height", "45px");
-            expanded = false;
-         } else {
-            $("textarea#nodeLabelTextarea").css("width", "940px");
-            $("textarea#nodeLabelTextarea").css("height", "580px");
-            expanded = true;
-         }
-      }
-   });
-   $("div#network").keydown(function (event) {
-      //Left align nodes. shift+alt+LeftArrow
-      if (event.shiftKey && event.altKey && event.keyCode === 37) {
-         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
-         alignNodesLeft(nodes);
-      }
-   });
-   $("div#network").keydown(function (event) {
-      //Zoom out. shift+alt+d
-      if (event.shiftKey && event.altKey && event.keyCode === 68) {
-         var scale = network.getScale();
-         var newScale = scale / 1.5;
-         var position = network.getViewPosition();
-         position = network.canvasToDOM(position);
-         network.interactionHandler.zoom(newScale, position);
-      }
-   });
-   $("div#network").keydown(function (event) {
-      //Zoom in. shfit+alt+f
-      if (event.shiftKey && event.altKey && event.keyCode === 70) {
-         var scale = network.getScale();
-         var newScale = scale * 1.5;
-         var position = network.getViewPosition();
-         position = network.canvasToDOM(position);
-         network.interactionHandler.zoom(newScale, position);
-      }
-   });
-	$("#network").keydown(function (event) {
-		//Delete or Backspace
-		//if (event.ctrlKey && event.keyCode === 13) {
-		if (event.keyCode === 46 || event.keyCode === 8) {
-			network.manipulation.deleteSelected();
-		}
-	});
-	$("div#network-popUp").keydown(function (event) {
-		//ctrl+Enter
-		if (event.ctrlKey && event.keyCode === 13) {
-			$("#saveButton").click();
-		}
-	});
-	$("div#network-popUp").keydown(function (event) {
-		//Esc
-		if (event.keyCode === 27) {
-			$("input#cancelButton").click();
-			cancelNodeEdit = true;
-		}
-	});
-   $("div#schemeEditElementsMenu").keydown(function (event) {
-      //saveElement. alt+Enter
-      if (event.altKey && event.keyCode === 13) {
-         $("span#saveElementEditButton").click();
-      }
-   });
-   $("div#schemeEditElementsMenu").keydown(function (event) {
-      //saveElement and closeElement. ctrl+Enter
-      if (event.ctrlKey && event.keyCode === 13) {
-         $("span#saveElementEditButton").click();
-         $("span#closeElementEditButton").click();
-      }
-   });
-   $("div#schemeEditElementsMenu").keydown(function (event) {
-      //Esc
-      if (event.keyCode === 27) {
-         network.disableEditMode();
-         network.selectionHandler.unselectAll();
-         $("span#closeElementEditButton").click();
-         network.editNode();
-      }
-   });
-   $("div#network").keydown(function (event) {
-      //Esc
-      if (event.keyCode === 27 && document.getElementsByClassName("vis-back").length == 0) {
-         network.disableEditMode();
-         network.selectionHandler.unselectAll();
-         $("span#closeElementEditButton").click();
-         network.editNode();
-      }
-   });
-	$(document).keydown(function (event) {
-		//Esc
-		if (event.keyCode === 27) {
-			if (document.getElementById('network-popUp').style.display == "none" && cancelNodeEdit == false) {
-				network.disableEditMode();
-				network.editNode();
-			} else {
-				cancelNodeEdit = false;
-			}
-		}
-	});
-	$(document).keydown(function (event) {
-		//Connect nodes. ctrl+alt+c.
-		if (event.ctrlKey && event.altKey && event.keyCode === 67) {
-                        var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();
-			if (selectedNodesCount < 2) return;
-                        var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
-			var rootNodeId;
-                        var minLeft;
-                        for (i = 0; i < selectedNodesCount; i++) {
-				if (i == 0) {
-					minLeft = nodes[0].x;
-					rootNodeId = nodes[0].id;
-				}
-                                if (minLeft > nodes[i].x) {
-                                        minLeft = nodes[i].x;
-					rootNodeId = nodes[i].id;
-                                };
-                        }
-                        for (i = 0; i < selectedNodesCount; i++) {
-				if (nodes[i].id != rootNodeId) {
-					var edgeData = {from: rootNodeId, to: nodes[i].id};
-					network.body.data.edges.getDataSet().add(edgeData);
-					network.selectionHandler.unselectAll();
-				}
-                        }
-		}
-	});
 	containerJQ.on("mousemove", function(e) {
 		if (drag) { 
 			restoreDrawingSurface();
@@ -1797,11 +1681,16 @@ function draw() {
 	$(".vis-separator-line").remove();
 	$(".vis-close").remove();
 }
-function updateSchemeFromMenu() {
+//End of draw function
+function updateSchemeFromMenu(newNodes, newEdges) {
 	var schemeDataJsonFromMenu = $("textarea#schemeDataTextArea").val();
 	var schemeData = JSON.parse(schemeDataJsonFromMenu);
-	var nodes = new vis.DataSet(objectToArray(schemeData.canvas1Data.nodes._data));
-	var edges = new vis.DataSet(objectToArray(schemeData.canvas1Data.edges._data));
+        var nodesData = objectToArray(schemeData.canvas1Data.nodes._data);
+        nodesData = nodesData.concat(newNodes);
+	var nodes = new vis.DataSet(nodesData);
+        var edgesData = objectToArray(schemeData.canvas1Data.edges._data);
+        edgesData = edgesData.concat(newEdges);
+	var edges = new vis.DataSet(edgesData);
 	var nodes1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.nodes._data));
 	var edges1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.edges._data));
 	data = {
@@ -1812,6 +1701,7 @@ function updateSchemeFromMenu() {
 		nodes: nodes1,
 		edges: edges1
 	};
+        dataCash = schemeData.dataCash;
 	draw();
 	var setup = schemeData.setup;
 	var positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));
@@ -1828,7 +1718,7 @@ function updateSchemeFromMenu() {
 	});
 	console.log("Scheme updated");
 }
-function updateMenuFromScheme() {
+function updateMenuFromScheme(removeNodesIds, removeEdgesIds) {
 	var scale = network.getScale();
 	var viewPosition = network.getViewPosition();
 	var data = {
@@ -1842,6 +1732,7 @@ function updateMenuFromScheme() {
 	var schemeData = {
 		canvas1Data: data,
 		canvas2Data: data1,
+                dataCash: dataCash,
 		setup: {
 			scale: scale,
 			viewPosition: viewPosition
@@ -1851,17 +1742,23 @@ function updateMenuFromScheme() {
 	var positions2 = network1.getPositions();
 	nodes1ToSave = {}; 
 	network.body.data.nodes.get().forEach(function(item) {
-		nodes1ToSave[item.id.toString()] = item;
+                if (removeNodesIds.indexOf(item.id) == -1) {
+		   nodes1ToSave[item.id.toString()] = item;
+                }
 	});
 	objectToArray(positions1).forEach(function(position) {
-		var node = nodes1ToSave[position.id.toString()];
-		node.x = position.x;
-		node.y = position.y;
+                if (removeNodesIds.indexOf(position.id) == -1) {
+		   var node = nodes1ToSave[position.id.toString()];
+		   node.x = position.x;
+		   node.y = position.y;
+                }
 	});
 	schemeData.canvas1Data.nodes._data = nodes1ToSave;
 	var edges1ToSave = {}; 
 	network.body.data.edges.get().forEach(function(item) {
-		edges1ToSave[item.id.toString()] = item;
+                if (removeEdgesIds.indexOf(item.id) == -1) {
+		   edges1ToSave[item.id.toString()] = item;
+                }
 	});
 	schemeData.canvas1Data.edges._data = edges1ToSave;
 	var nodes2ToSave = {}; 
@@ -2486,7 +2383,7 @@ runNodeCodeButton.click(function() {
 	loadSavedProjectToMenuButton.click(function() {
 		var saveLabel = loadSavedProjectToMenuButton.saveProjectLabel;
 		loadSavedProjectDataToDataMenuBySaveName(network, saveLabel);
-		updateSchemeFromMenu();
+		updateSchemeFromMenu([],[]);
 		removeSaveNodes();
 		buildSaveNodesList();
 	});
@@ -2539,7 +2436,7 @@ runNodeCodeButton.click(function() {
 	});
 	draw();
 	if (typeof runUpateMenuFromSchemeAtPageReady !== "undefined" && runUpateMenuFromSchemeAtPageReady) {
-		updateMenuFromScheme();
+		updateMenuFromScheme([], []);
 	}
 	removeSaveNodes();
 	buildSaveNodesList();
@@ -2548,7 +2445,7 @@ runNodeCodeButton.click(function() {
 	schemeDataMenu.prepend(updateMenuFromSchemeButton);
 	schemeDataMenu.prepend(updateSchemeFromMenuButton);
 	updateSchemeFromMenuButton.click(function() {
-		updateSchemeFromMenu();
+		updateSchemeFromMenu([],[]);
 		removeSaveNodes();
 		buildSaveNodesList();
 	});
@@ -2612,7 +2509,7 @@ runNodeCodeButton.click(function() {
 	}
 	updateMenuFromSchemeButton.click(function() {
 		removeSaveNodes();
-		updateMenuFromScheme();
+		updateMenuFromScheme([], []);
 		//saveProjectToBrowserLocalStorage(network);
 		localStorageSpace();
 	});
@@ -2631,7 +2528,563 @@ runNodeCodeButton.click(function() {
 		});
 	}
 	$("#network div.vis-network").focus();
+   $("#network").keyup(function (event) {
+      //Add new node under cursor. alt+n
+      if (event.altKey && event.keyCode === 78) {
+         var schemeDataMenuWidth = 0;
+         if (document.getElementById("schemeDataMenu").style.display != "none") {
+            schemeDataMenuWidth = parseInt(document.getElementById("schemeDataMenu").style.width.replace("px",""), 10);
+         } else {
+            schemeDataMenuWidth = 0;
+         }
+         var lastEditedNodeId;
+         var lastEditedNode;
+         var position;
+         if (lastEditedNodesIds.length == 0) {
+            if (lastClickPosition == null) {
+               position = {
+                  x: (canvasWidth - schemeDataMenuWidth)/2,
+                  y: canvasHeight/2
+               };
+            } else {
+               position = {
+                  x: lastClickPosition.x,
+                  y: lastClickPosition.y
+               };
+            }
+            position = network.canvas.DOMtoCanvas(position);
+         } else {
+            var lastEditedNodeId = lastEditedNodesIds[lastEditedNodesIds.length - 1];
+            var lastEditedNode = getNodeFromNetworkDataById(lastEditedNodeId);
+            var lastEditDOMPosition = network.canvasToDOM({x: lastEditedNode.x, y: lastEditedNode.y});
+            if (lastEditDOMPosition.x < 0 || 
+               lastEditDOMPosition.x > canvasWidth || 
+               lastEditDOMPosition.y < 0 || 
+               lastEditDOMPosition.y > canvasHeight) {
+               position = {
+                  x: (canvasWidth - schemeDataMenuWidth)/2,
+                  y: canvasHeight/2
+               };
+            } else {
+               var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);
+               position = {
+                  x: lastEditedNode.x,
+                  y: nodeBBox["top"] + 28 + 28*lastEditedNode.label.split("\n").length/2
+               };
+            }
+         }
+         var nodeId = addNodeOnCanvas("", "", position, 0, 0, network);
+         var node = network.body.nodes[nodeId];
+         network.selectionHandler.selectObject(node);
+         lastEditedNodesIds.push(nodeId);
+         network.manipulation.editNode();
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move/restore branches of selected node to/from dataCash. alt+y
+      if (event.altKey && event.keyCode === 89) {
+         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+         if (selectedNodes.length == 0) return;
+
+         var branchesNodesAndEdges = getTreeNodesAndEdges(selectedNodes[0].id);
+
+         if (branchesNodesAndEdges.nodes.length > 0) {
+
+            hideNodeBranchesToDataCash(selectedNodes[0].id, null);
+
+         } else {
+
+            restoreNodeBranchesFromDataCash(selectedNodes[0].id);
+
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Jump to nodes with same label. alt+j
+      if (event.altKey && event.keyCode == 74 ) {
+
+         var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes)[0];
+
+   if (jumpNavigationData == null && typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] === "undefined") {
+      showAlert("Select one node to jump to nodes with same name", 60, 190);
+      return;
+   }
+         
+   //If node is selected and there were no jumps before or there is different label on selected node.
+   if ((typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] !== "undefined") && 
+         (jumpNavigationData == null || jumpNavigationData.label != selectedNode.options.label)) {
+
+      var nodes = network.body.data.nodes.get();
+
+      var foundNodes = [];
+
+      nodes.forEach(function(node) {
+         if (node.id != selectedNode.id && node.label == selectedNode.options.label) {
+            foundNodes.push(node);
+         }
+      });
+      
+      if (foundNodes.length == 0) {
+         showAlert("No nodes with same name", 60, 190);
+         return;
+      }
+
+      if (foundNodes.length > 50) {
+         showAlert("Too big list of jump nodes. More than 50.", 60, 190);
+         return;
+      }
+
+      //first node in the list will be "selectedNode" - so we start scrolling through nodes from second node
+      //in this list
+      foundNodes = [selectedNode].concat(foundNodes);
+
+      var nodesPositions = network.getPositions();
+
+      foundNodes.forEach(function(node) {
+         var nodeD = getNodeFromNetworkDataById(node.id);
+         pNode = nodesPositions[node.id];
+         nodeD.x = pNode.x;
+         nodeD.y = pNode.y;
+         network.body.data.nodes.update(nodeD);
+      });
+
+      jumpNavigationData = {
+         label: selectedNode.options.label,
+         foundNodes: foundNodes,
+         lastJumpNodeNumber: 0
+      };
+      var jumpNumber = 1;
+      moveViewTo(
+         jumpNavigationData.foundNodes[jumpNumber].x,
+         jumpNavigationData.foundNodes[jumpNumber].y, 
+         network.getScale()
+      );
+      jumpNavigationData.lastJumpNodeNumber = jumpNumber;
+   } else {
+      var jumpNumber = null;
+      if (jumpNavigationData.lastJumpNodeNumber == jumpNavigationData.foundNodes.length - 1) {
+         jumpNumber = 0;
+      } else {
+         jumpNumber = jumpNavigationData.lastJumpNodeNumber + 1;
+      }
+      moveViewTo(
+         jumpNavigationData.foundNodes[jumpNumber].x,
+         jumpNavigationData.foundNodes[jumpNumber].y, 
+         network.getScale()
+      );
+      jumpNavigationData.lastJumpNodeNumber = jumpNumber;
+   }
+       
+      }
+   });
+   $(document).keyup(function (event) {
+      //wrap-unwrap tree toggle. alt+g
+      if (event.altKey && event.keyCode == 71 ) {
+
+         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+         
+         var rootNode = selectedNodes[0];
+         
+         var nodesPositions = network.getPositions();
+
+         function collectNodesYPositions(nodeId, rootNode, nodesPositions) {
+
+            var nodeEdges = network.body.nodes[nodeId].edges;
+            var codeEdges = [];
+            nodeEdges.forEach(function(edge) {
+               if (edge.fromId == nodeId) {
+                  codeEdges.push(edge);
+               }
+            });
+
+            var branchCodeNodes = [];
+            codeEdges.forEach(function(codeEdge) {
+               branchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));
+            });
+            var branchesPositionsData = [];
+            branchCodeNodes.forEach(function(branchNode) {
+               branchesPositionsData.push({
+                  top: network.body.nodes[branchNode.id].shape.top,
+                  height: network.body.nodes[branchNode.id].shape.height
+               });
+               branchesPositionsData = branchesPositionsData.concat(collectNodesYPositions(branchNode.id, rootNode, nodesPositions));
+            });
+            return branchesPositionsData;
+         }
+
+         var branchesPositionsData = collectNodesYPositions(rootNode.id, rootNode, nodesPositions);
+
+            function compareBPD( a, b ) {
+               if ( a.top < b.top ){
+                  return -1;
+               }
+               if ( a.top > b.top ){
+                  return 1;
+               }
+               return 0;
+            }
+
+            branchesPositionsData = branchesPositionsData.sort(compareBPD);
+
+         var needToUnwrap = false;
+         var lastBranchPositionData = null;
+         for (var i = 0; i < branchesPositionsData.length; i++) {
+            if (lastBranchPositionData != null) {
+               var lastNodeBottom = lastBranchPositionData.top + lastBranchPositionData.height;
+               if (lastNodeBottom > branchesPositionsData[i].top) {
+                  needToUnwrap = true;
+                  break;
+               }
+            }
+            lastBranchPositionData = branchesPositionsData[i];
+         }
+         
+         if (needToUnwrap) {
+
+            unwrapNodeBranches(rootNode.id);
+         
+         } else {
+
+            wrapNodeBranches(rootNode.id);
+         
+         }
+         
+      }
+   });
+   $(document).keyup(function (event) {
+      //move to saved view position. shift+alt+n
+      if (event.shiftKey && event.altKey 
+         && (event.keyCode === 48 ||
+             event.keyCode === 49 ||
+             event.keyCode === 50 ||
+             event.keyCode === 51 ||
+             event.keyCode === 52 ||
+             event.keyCode === 53 ||
+             event.keyCode === 54 ||
+             event.keyCode === 55 ||
+             event.keyCode === 56 ||
+             event.keyCode === 57) ) {
+         var view = viewsSaves[event.keyCode];
+         if (typeof view !== "undefined" && view !== null) {
+            var newPosition = network.canvasToDOM(view.position);
+            moveViewTo(view.position.x, view.position.y, view.scale);
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //add selected to clipboard by n number. ctrl+alt+n
+      if (event.shiftKey && event.ctrlKey 
+         && (event.keyCode === 48 ||
+             event.keyCode === 49 ||
+             event.keyCode === 50 ||
+             event.keyCode === 51 ||
+             event.keyCode === 52 ||
+             event.keyCode === 53 ||
+             event.keyCode === 54 ||
+             event.keyCode === 55 ||
+             event.keyCode === 56 ||
+             event.keyCode === 57) ) {
+         //clipboard[event.keyCode] = selectedNodes;
+         console.log(event.keyCode);
+         console.log(clipboard);
+         console.log(clipboard[event.keyCode]);
+         var nodesToMove = clipboard[event.keyCode];
+         if (typeof nodesToMove !== "undefined" && nodesToMove !== null && nodesToMove.length != 0) {
+            var positions = network.getPositions();
+            var maxLeftX = positions[nodesToMove[0].id].x;
+            var maxTopY = positions[nodesToMove[0].id].y;
+            nodesToMove.forEach(function(node) {
+               if (typeof node !== "undefined" && node !== null) {
+                  if (positions[node.id].x < maxLeftX) maxLeftX = positions[node.id].x;
+                  if (positions[node.id].y < maxTopY) maxTopY = positions[node.id].y;
+               }
+            });
+            var lastClickCanvasPosition = network.canvas.DOMtoCanvas(lastClickPosition);
+            var moveShiftX = lastClickCanvasPosition.x - maxLeftX;
+            var moveShiftY = lastClickCanvasPosition.y - maxTopY;
+            nodesToMove.forEach(function(node) {
+               if (typeof node !== "undefined" && node !== null) {
+                  var pNode = positions[node.id];
+                  var x = pNode.x + moveShiftX;
+                  var y = pNode.y + moveShiftY;
+                  network.nodesHandler.moveNode(node.id, x, y);
+               }
+            });
+         }
+
+      }
+   });
+   $(document).keyup(function (event) {
+      //add selected to clipboard by n number. ctrl+alt+n
+      if (event.altKey && event.ctrlKey 
+         && (event.keyCode === 48 ||
+             event.keyCode === 49 ||
+             event.keyCode === 50 ||
+             event.keyCode === 51 ||
+             event.keyCode === 52 ||
+             event.keyCode === 53 ||
+             event.keyCode === 54 ||
+             event.keyCode === 55 ||
+             event.keyCode === 56 ||
+             event.keyCode === 57) ) {
+         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+         if (selectedNodes.length != 0) {
+            console.log(selectedNodes);
+            clipboard[event.keyCode] = selectedNodes;
+            console.log(event.keyCode);
+            console.log(clipboard);
+         } else {
+            var scale = network.getScale();
+            var position = network.getViewPosition();
+            viewsSaves[event.keyCode] = {position: position, scale: scale};
+            console.log(event.keyCode);
+            console.log(scale);
+            console.log(position);
+            console.log(viewsSaves);
+         }
+         
+      }
+   });
+   $(document).keyup(function (event) {
+      //move view to position from birdView variable. alt+h
+      if (event.altKey && event.keyCode === 72) {
+         if(typeof birdView !== "undefined") {
+            moveViewTo(birdView.x, birdView.y, birdView.scale);
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Run node code. ctrl+alt+v
+      if (event.ctrlKey && event.altKey && event.keyCode === 86) {
+         $("span#splitNodeListLabelButton").click();
+      }
+   });
+   $(document).keyup(function (event) {
+      //Run node code. alt+r
+      if (event.altKey && event.keyCode === 82) {
+         $("span#runNodeCodeButton").click();
+      }
+   });
+   $("#network").keyup(function (event) {
+      //Build project. alt+b
+      if (event.altKey && event.keyCode === 66) {
+         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);
+         if (selectedNodes.length != 1) {
+            console.log("Select one node");
+            showAlert("Select one node", 80, 150);
+            return;
+         }
+         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);
+         var rootNode = getNodeFromNetworkDataById(rootNodeId);
+         var projectName = rootNode.label.replace("mvj code file for project name: ","");
+			var buildProjectParentNode;
+			var buildProjectParentNodeName = "buildProject code: " + projectName;
+			var nodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + buildProjectParentNodeName + "$"));
+			if (nodes.length == 0) {
+				console.log("ERROR: no " + buildProjectParentNodeName + " node");
+				return;
+			}
+			buildProjectParentNode = nodes[0];
+			var edges = network.body.nodes[buildProjectParentNode.id].edges;
+			var buildProjectCodeNode;
+			for (var key in edges) {
+				if (edges[key].fromId == buildProjectParentNode.id) {
+					buildProjectCodeNode = edges[key].to;
+				}
+			}	
+			if (typeof buildProjectCodeNode === "undefined") {
+				console.log("ERROR: no buildProjectCodeNode");
+				return;
+			}
+			var code = collectCodeNodesContent(buildProjectCodeNode.id);
+			var codeFunction = new Function('codeNodeId', code);
+			codeFunction(buildProjectCodeNode.id);
+		}
+	});
+   $("#network").keyup(function (event) {
+                //Save canvas. Ctrl+alt+s
+		if (event.ctrlKey && event.altKey && event.keyCode === 83) {
+			var saveOperationsParentNode;
+			var saveOperationsParentNodeName = "Save operations code";
+			var nodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + saveOperationsParentNodeName + "$"));
+			if (nodes.length == 0) {
+				console.log("ERROR: no " + saveOperationsParentNodeName + " node");
+				return;
+			}
+			saveOperationsParentNode = nodes[0];
+			var edges = network.body.nodes[saveOperationsParentNode.id].edges;
+			var saveOperationsCodeNode;
+			for (var key in edges) {
+				if (edges[key].fromId == saveOperationsParentNode.id) {
+					saveOperationsCodeNode = edges[key].to;
+				}
+			}	
+			if (typeof saveOperationsCodeNode === "undefined") {
+				console.log("ERROR: no saveOperationsCodeNode");
+				return;
+			}
+			var code = collectCodeNodesContent(saveOperationsCodeNode.id);
+			var codeFunction = new Function('codeNodeId', code);
+			codeFunction(saveOperationsCodeNode.id);
+		}
+	});
+   $("#network").keyup(function (event) {
+      //Duplicate. Ctrl+alt+d.
+      if (event.ctrlKey && event.altKey && event.keyCode === 68) {
+         selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+         selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
+         duplicateGraph(selectedNodes, selectedEdges);
+      }
+   });
+   $("div#network").keydown(function (event) {
+      //Toggle nodeLabel textarea expansion. ctrl+Space
+      if (event.ctrlKey && event.keyCode === 32) {
+         if (nodeLabelTextareaExpanded) {
+            $("textarea#nodeLabelTextarea").css("width", "167px");
+            $("textarea#nodeLabelTextarea").css("height", "45px");
+            nodeLabelTextareaExpanded = false;
+         } else {
+            $("textarea#nodeLabelTextarea").css("width", "940px");
+            $("textarea#nodeLabelTextarea").css("height", "580px");
+            nodeLabelTextareaExpanded = true;
+         }
+      }
+   });
+   $("textarea#nodeLabelTextarea").keydown(function (event) {
+      //Toggle nodeLabel textarea expansion. ctrl+Space
+      if (event.ctrlKey && event.keyCode === 32) {
+         if (nodeLabelTextareaExpanded) {
+            $("textarea#nodeLabelTextarea").css("width", "167px");
+            $("textarea#nodeLabelTextarea").css("height", "45px");
+            nodeLabelTextareaExpanded = false;
+         } else {
+            $("textarea#nodeLabelTextarea").css("width", "940px");
+            $("textarea#nodeLabelTextarea").css("height", "580px");
+            nodeLabelTextareaExpanded = true;
+         }
+      }
+   });
+   $("div#network").keydown(function (event) {
+      //Left align nodes. shift+alt+LeftArrow
+      if (event.shiftKey && event.altKey && event.keyCode === 37) {
+         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+         alignNodesLeft(nodes);
+      }
+   });
+   $("div#network").keydown(function (event) {
+      //Zoom out. shift+alt+d
+      if (event.shiftKey && event.altKey && event.keyCode === 68) {
+         var scale = network.getScale();
+         var newScale = scale / 1.5;
+         var position = network.getViewPosition();
+         position = network.canvasToDOM(position);
+         network.interactionHandler.zoom(newScale, position);
+      }
+   });
+   $("div#network").keydown(function (event) {
+      //Zoom in. shfit+alt+f
+      if (event.shiftKey && event.altKey && event.keyCode === 70) {
+         var scale = network.getScale();
+         var newScale = scale * 1.5;
+         var position = network.getViewPosition();
+         position = network.canvasToDOM(position);
+         network.interactionHandler.zoom(newScale, position);
+      }
+   });
+	$("#network").keydown(function (event) {
+		//Delete or Backspace
+		//if (event.ctrlKey && event.keyCode === 13) {
+		if (event.keyCode === 46 || event.keyCode === 8) {
+			network.manipulation.deleteSelected();
+		}
+	});
+	$("div#network-popUp").keydown(function (event) {
+		//ctrl+Enter
+		if (event.ctrlKey && event.keyCode === 13) {
+			$("#saveButton").click();
+		}
+	});
+	$("div#network-popUp").keydown(function (event) {
+		//Esc
+		if (event.keyCode === 27) {
+			$("input#cancelButton").click();
+			cancelNodeEdit = true;
+		}
+	});
+   $("div#schemeEditElementsMenu").keydown(function (event) {
+      //saveElement. alt+Enter
+      if (event.altKey && event.keyCode === 13) {
+         $("span#saveElementEditButton").click();
+      }
+   });
+   $("div#schemeEditElementsMenu").keydown(function (event) {
+      //saveElement and closeElement. ctrl+Enter
+      if (event.ctrlKey && event.keyCode === 13) {
+         $("textarea#nodeLabelTextarea").css("width", "167px");
+         $("textarea#nodeLabelTextarea").css("height", "45px");
+         nodeLabelTextareaExpanded = false;
+         $("span#saveElementEditButton").click();
+         $("span#closeElementEditButton").click();
+      }
+   });
+   $("div#schemeEditElementsMenu").keydown(function (event) {
+      //Esc
+      if (event.keyCode === 27) {
+         network.disableEditMode();
+         network.selectionHandler.unselectAll();
+         $("span#closeElementEditButton").click();
+         network.editNode();
+      }
+   });
+   $("div#network").keydown(function (event) {
+      //Esc
+      if (event.keyCode === 27 && document.getElementsByClassName("vis-back").length == 0) {
+         network.disableEditMode();
+         network.selectionHandler.unselectAll();
+         $("span#closeElementEditButton").click();
+         network.editNode();
+      }
+   });
+	$(document).keydown(function (event) {
+		//Esc
+		if (event.keyCode === 27) {
+			if (document.getElementById('network-popUp').style.display == "none" && cancelNodeEdit == false) {
+				network.disableEditMode();
+				network.editNode();
+			} else {
+				cancelNodeEdit = false;
+			}
+		}
+	});
+	$(document).keydown(function (event) {
+		//Connect nodes. ctrl+alt+c.
+		if (event.ctrlKey && event.altKey && event.keyCode === 67) {
+                        var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();
+			if (selectedNodesCount < 2) return;
+                        var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+			var rootNodeId;
+                        var minLeft;
+                        for (i = 0; i < selectedNodesCount; i++) {
+				if (i == 0) {
+					minLeft = nodes[0].x;
+					rootNodeId = nodes[0].id;
+				}
+                                if (minLeft > nodes[i].x) {
+                                        minLeft = nodes[i].x;
+					rootNodeId = nodes[i].id;
+                                };
+                        }
+                        for (i = 0; i < selectedNodesCount; i++) {
+				if (nodes[i].id != rootNodeId) {
+					var edgeData = {from: rootNodeId, to: nodes[i].id};
+					network.body.data.edges.getDataSet().add(edgeData);
+				}
+                        }
+			network.selectionHandler.unselectAll();
+		}
+	});
 });
+//End of $(document).ready(
 function c(x, y) {
 	var imgData = false;
 	var ctxColor;
@@ -2700,7 +3153,69 @@ function countSelectedNodesAndEdges() {
 	console.log("Selected edges: " + selectedEdges.length);
 }
 function help() {
-	console.log("localStorageSpace()");
-	console.log("countSelectedNodesAndEdges()");
+   console.log("localStorageSpace()");
+   console.log("countSelectedNodesAndEdges()");
+   console.log("hideAllToDownloadNews()");
+   console.log("restoreAllAfterNewsDownload()");
 }
 
+function hideAllToDownloadNews(selectedNodesIds, selectedEdgesIds) {
+   var nodes = objectToArray(network.body.nodes);
+   var edges = objectToArray(network.body.edges);
+   var nodesToHide = [];
+   var edgesToHide = [];
+   nodes.forEach(function(node) {
+      var node = getNodeFromNetworkDataById(node.id);
+      if ((typeof node.label !== "undefined" && 
+         node.label != "newsList" &&
+         node.label.match(/.*\| Feed Node/) == null &&
+         node.label.match(/.*download news code.*/) == null &&
+         (typeof node.link === "undefined" || (
+         typeof node.link !== "undefined" &&
+         node.link.match(/.*youtube.*videos.*/) == null))) ||
+         selectedNodesIds.indexOf(node.id) === -1) {
+         nodesToHide.push(node);
+      }
+   });
+   edges.forEach(function(edge) {
+      var edge = getEdgeFromNetworkDataById(edge.id);
+      var nodeFrom = getNodeFromNetworkDataById(edge.from);
+      var nodeTo = getNodeFromNetworkDataById(edge.to);
+      if ((typeof nodeFrom.label !== "undefined" &&
+          nodeFrom.label.match(/.*\| Feed Node/) == null &&
+          typeof nodeTo.label !== "undefined" &&
+          nodeTo.label != "newsList" &&
+          (typeof nodeFrom.link === "undefined" || (
+          typeof nodeFrom.link !== "undefined" &&
+          nodeFrom.link.match(/.*youtube.*videos.*/) == null))) ||
+         selectedEdgesIds.indexOf(edge.id) === -1) {
+         edgesToHide.push(edge);
+      }
+
+   });
+
+   dataCash["hideAllForNewsDownload"] = {
+      nodes: nodesToHide,
+      edges: edgesToHide
+   };
+
+   var removeNodesIds = [];
+   nodesToHide.forEach(function(node, index) {
+      removeNodesIds.push(node.id);
+   });
+   var removeEdgesIds = [];
+   edgesToHide.forEach(function(edge, index) {
+      removeEdgesIds.push(edge.id);
+   });
+   updateMenuFromScheme(removeNodesIds, removeEdgesIds);
+   updateSchemeFromMenu([],[]);
+}
+function restoreAllAfterNewsDownload() {
+   var branchesNodesAndEdges = dataCash["hideAllForNewsDownload"];
+   if (typeof branchesNodesAndEdges === "undefined") return;
+   updateMenuFromScheme([],[]);
+   updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);
+
+   delete dataCash["hideAllForNewsDownload"];
+   updateMenuFromScheme([],[]);
+}
