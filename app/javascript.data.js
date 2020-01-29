@@ -336,7 +336,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/javascript.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"javascript_proj1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});",
+          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/javascript.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"javascript_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204",
           "x": 66664,
           "y": -6368,
@@ -31870,8 +31870,8 @@ var schemeData =
         },
         "98d6ed2b-106d-4b04-ab9e-b19f776fe14c": {
           "label": "Web APIs",
-          "x": 118144,
-          "y": 27469,
+          "x": 117305,
+          "y": 27482,
           "font": {
             "size": 72,
             "align": "left"
@@ -31887,146 +31887,146 @@ var schemeData =
         },
         "4b551bf2-1466-4220-8d5b-dca540291a1f": {
           "label": "Development",
-          "x": 118444,
-          "y": 27919,
+          "x": 117605,
+          "y": 27932,
           "id": "4b551bf2-1466-4220-8d5b-dca540291a1f"
         },
         "5dbda832-e23b-4b80-a83e-ced0a821c47c": {
           "label": "12/22/2019",
-          "x": 118577,
-          "y": 27919,
+          "x": 117738,
+          "y": 27932,
           "id": "5dbda832-e23b-4b80-a83e-ced0a821c47c"
         },
         "8a79ef0b-fdbf-44fc-8472-f480760c9c52": {
           "label": "init",
-          "x": 118694,
-          "y": 27919,
+          "x": 117855,
+          "y": 27932,
           "id": "8a79ef0b-fdbf-44fc-8472-f480760c9c52"
         },
         "2aaaa27f-717b-4a4d-a7ce-0f81636234a5": {
           "label": "Notes",
-          "x": 118424,
-          "y": 26857,
+          "x": 117585,
+          "y": 26870,
           "id": "2aaaa27f-717b-4a4d-a7ce-0f81636234a5"
         },
         "3546c94a-f06b-44ac-a736-a3b20902cf9a": {
           "label": "Dictionary of\nconcepts",
-          "x": 118600,
-          "y": 26416,
+          "x": 117761,
+          "y": 26429,
           "id": "3546c94a-f06b-44ac-a736-a3b20902cf9a"
         },
         "369e5464-05d0-44a3-8d03-c34f6453fa2c": {
           "label": "Details, thoughts",
-          "x": 118598,
-          "y": 26857,
+          "x": 117759,
+          "y": 26870,
           "id": "369e5464-05d0-44a3-8d03-c34f6453fa2c"
         },
         "5dde517f-15db-4d06-87cc-a7660b611d5f": {
           "label": "Sections",
-          "x": 118568,
-          "y": 27319,
+          "x": 117729,
+          "y": 27332,
           "id": "5dde517f-15db-4d06-87cc-a7660b611d5f"
         },
         "87a084df-69a4-4468-b14f-7944245c72cf": {
           "label": "Books",
-          "x": 118658,
-          "y": 26957,
+          "x": 117819,
+          "y": 26970,
           "id": "87a084df-69a4-4468-b14f-7944245c72cf"
         },
         "e4b82bb2-1899-4101-bdcb-3deead62d5e1": {
           "label": "R&D institutions",
-          "x": 118688,
-          "y": 26982,
+          "x": 117849,
+          "y": 26995,
           "id": "e4b82bb2-1899-4101-bdcb-3deead62d5e1"
         },
         "60b88514-caac-4466-b344-fe1705056e86": {
           "label": "Sites",
-          "x": 118654,
-          "y": 27007,
+          "x": 117815,
+          "y": 27020,
           "id": "60b88514-caac-4466-b344-fe1705056e86"
         },
         "9c4bd20b-0e82-4126-b389-b0f06b2bbea2": {
           "label": "Magazines",
-          "x": 118673,
-          "y": 27032,
+          "x": 117834,
+          "y": 27045,
           "id": "9c4bd20b-0e82-4126-b389-b0f06b2bbea2"
         },
         "5c0f25dd-f9d1-4b10-9c49-b3f416e2ba27": {
           "label": "Articles",
-          "x": 118661,
-          "y": 27057,
+          "x": 117822,
+          "y": 27070,
           "id": "5c0f25dd-f9d1-4b10-9c49-b3f416e2ba27"
         },
         "42507356-ea82-46c2-94d9-3de785abe6f3": {
           "label": "Media content",
-          "x": 118683,
-          "y": 27082,
+          "x": 117844,
+          "y": 27095,
           "id": "42507356-ea82-46c2-94d9-3de785abe6f3"
         },
         "06f151e3-de24-406b-b70f-dfc5964bcb5d": {
           "label": "Misc. web links",
-          "x": 118686,
-          "y": 27214,
+          "x": 117847,
+          "y": 27227,
           "id": "06f151e3-de24-406b-b70f-dfc5964bcb5d"
         },
         "9c6d96ea-4909-4619-95e7-492ccdb72b0f": {
           "label": "Projects",
-          "x": 118664,
-          "y": 27344,
+          "x": 117825,
+          "y": 27357,
           "id": "9c6d96ea-4909-4619-95e7-492ccdb72b0f"
         },
         "e4a97579-a02f-4fdb-940e-39d6c895cf3d": {
           "label": "Tools",
-          "x": 118655,
-          "y": 27369,
+          "x": 117816,
+          "y": 27382,
           "id": "e4a97579-a02f-4fdb-940e-39d6c895cf3d"
         },
         "5078d78b-1066-4a0c-a19b-4f8df3faad79": {
           "label": "Organizations",
-          "x": 118682,
-          "y": 27394,
+          "x": 117843,
+          "y": 27407,
           "id": "5078d78b-1066-4a0c-a19b-4f8df3faad79"
         },
         "a3f27fea-460c-4406-a366-37ea0911a640": {
           "label": "Standarts",
-          "x": 118669,
-          "y": 27419,
+          "x": 117830,
+          "y": 27432,
           "id": "a3f27fea-460c-4406-a366-37ea0911a640"
         },
         "0d6c19e6-d3aa-4fed-98b9-f85a7505f0f1": {
           "label": "Forums, Groups",
-          "x": 118690,
-          "y": 27444,
+          "x": 117851,
+          "y": 27457,
           "id": "0d6c19e6-d3aa-4fed-98b9-f85a7505f0f1"
         },
         "39b1df43-e02a-4503-8fa4-dbbac1e53e65": {
           "label": "Laws",
-          "x": 118655,
-          "y": 27469,
+          "x": 117816,
+          "y": 27482,
           "id": "39b1df43-e02a-4503-8fa4-dbbac1e53e65"
         },
         "6ee1b4ce-bc8b-4ecc-a291-797d89c9ff97": {
           "label": "Adjacent Themes",
-          "x": 118694,
-          "y": 27494,
+          "x": 117855,
+          "y": 27507,
           "id": "6ee1b4ce-bc8b-4ecc-a291-797d89c9ff97"
         },
         "6dde479f-3bbc-4615-8460-c322c82cda56": {
           "label": "Questions",
-          "x": 118434,
-          "y": 27619,
+          "x": 117595,
+          "y": 27632,
           "id": "6dde479f-3bbc-4615-8460-c322c82cda56"
         },
         "4999c4f7-eacf-4d42-bac3-a47feb196e56": {
           "label": "Problems",
-          "x": 118432,
-          "y": 27719,
+          "x": 117593,
+          "y": 27732,
           "id": "4999c4f7-eacf-4d42-bac3-a47feb196e56"
         },
         "2e3d15a9-61ee-4e5c-a062-82c7c2f74678": {
           "label": "Goals",
-          "x": 118420,
-          "y": 27819,
+          "x": 117581,
+          "y": 27832,
           "id": "2e3d15a9-61ee-4e5c-a062-82c7c2f74678"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939336819802914928945192510182742522672642882646729938687805589891149743713489457582": {
@@ -32067,14 +32067,14 @@ var schemeData =
         },
         "d9969e61-49db-48d8-8da1-faffa8746274": {
           "id": "d9969e61-49db-48d8-8da1-faffa8746274",
-          "x": 118749,
-          "y": 26403,
+          "x": 117912,
+          "y": 26362,
           "label": "List"
         },
         "37316c2b-c311-40ec-b939-943c5293887d": {
           "id": "37316c2b-c311-40ec-b939-943c5293887d",
-          "x": 119004,
-          "y": 27210,
+          "x": 118165,
+          "y": 27223,
           "label": "https://developer.mozilla.org/en-US/docs/Web/API",
           "link": "https://developer.mozilla.org/en-US/docs/Web/API"
         },
@@ -40343,6 +40343,54 @@ var schemeData =
           "x": 118652,
           "y": 1409,
           "label": "delete object[\"keyname\"];"
+        },
+        "b5ff9a2f-61b0-4657-a8cc-815453ef31c4": {
+          "id": "b5ff9a2f-61b0-4657-a8cc-815453ef31c4",
+          "x": 118734,
+          "y": 7157,
+          "label": "whole number of times a given integer goes into another"
+        },
+        "90f6ce08-a1f9-4bce-896d-cfd77ba6efda": {
+          "id": "90f6ce08-a1f9-4bce-896d-cfd77ba6efda",
+          "x": 119040,
+          "y": 7140,
+          "label": "(-100-(-100%3))/3 "
+        },
+        "e9158e06-6be3-4c7d-a940-eeb80376a1bf": {
+          "id": "e9158e06-6be3-4c7d-a940-eeb80376a1bf",
+          "x": 119061,
+          "y": 7179,
+          "label": "var remainder = x % y;\nreturn (x - remainder) / y;"
+        },
+        "62242320-3aa7-41b6-b0ba-a37897002083": {
+          "id": "62242320-3aa7-41b6-b0ba-a37897002083",
+          "x": 118037,
+          "y": 26306,
+          "label": "URL"
+        },
+        "6dc49ea1-f2d2-49fb-9fc6-4201ff96edd1": {
+          "id": "6dc49ea1-f2d2-49fb-9fc6-4201ff96edd1",
+          "x": 118361,
+          "y": 26253,
+          "label": "URL interface is used to parse, construct, normalize, and encode URLs"
+        },
+        "1050fa5a-8d9c-4982-8d19-5a98bce6a9c7": {
+          "id": "1050fa5a-8d9c-4982-8d19-5a98bce6a9c7",
+          "x": 118407,
+          "y": 26290,
+          "label": "var pageFileName = (new URL(window.location.href)).pathname.split(\"/\").reverse()[0];"
+        },
+        "89a432a9-ce35-4a91-b638-5fe846c1e3e3": {
+          "id": "89a432a9-ce35-4a91-b638-5fe846c1e3e3",
+          "x": 118167,
+          "y": 26330,
+          "label": "hostname"
+        },
+        "3407c4cb-7214-4f2a-b031-e44c57aaf779": {
+          "id": "3407c4cb-7214-4f2a-b031-e44c57aaf779",
+          "x": 118168,
+          "y": 26365,
+          "label": "pathname"
         }
       },
       "length": 0,
@@ -59017,6 +59065,46 @@ var schemeData =
           "from": "e07f3dd5-f777-4a55-bad3-349dd9db44ac",
           "to": "f2c35801-f93b-471f-b798-3cf1507896d0",
           "id": "8d504017-e75e-49c7-b453-0a6f21d0a63d"
+        },
+        "cbd48b75-8054-4b2b-a277-cdfc0c951232": {
+          "from": "b5ff9a2f-61b0-4657-a8cc-815453ef31c4",
+          "to": "90f6ce08-a1f9-4bce-896d-cfd77ba6efda",
+          "id": "cbd48b75-8054-4b2b-a277-cdfc0c951232"
+        },
+        "0a0d7a19-bc90-46f1-8e69-98fbdc6133c4": {
+          "from": "b5ff9a2f-61b0-4657-a8cc-815453ef31c4",
+          "to": "e9158e06-6be3-4c7d-a940-eeb80376a1bf",
+          "id": "0a0d7a19-bc90-46f1-8e69-98fbdc6133c4"
+        },
+        "3cfe2262-81e4-4c7e-beea-6fd7b133691a": {
+          "from": "cabfd758-dcd5-4931-994a-e4e8c33ecd84",
+          "to": "b5ff9a2f-61b0-4657-a8cc-815453ef31c4",
+          "id": "3cfe2262-81e4-4c7e-beea-6fd7b133691a"
+        },
+        "dbafe8e0-5d93-40d6-8d7d-9687aaf15fa2": {
+          "from": "62242320-3aa7-41b6-b0ba-a37897002083",
+          "to": "6dc49ea1-f2d2-49fb-9fc6-4201ff96edd1",
+          "id": "dbafe8e0-5d93-40d6-8d7d-9687aaf15fa2"
+        },
+        "e4448d30-c8a1-4d93-a033-0bd88141a62a": {
+          "from": "62242320-3aa7-41b6-b0ba-a37897002083",
+          "to": "1050fa5a-8d9c-4982-8d19-5a98bce6a9c7",
+          "id": "e4448d30-c8a1-4d93-a033-0bd88141a62a"
+        },
+        "86d67b0e-feba-4684-b205-5712939ad780": {
+          "from": "62242320-3aa7-41b6-b0ba-a37897002083",
+          "to": "89a432a9-ce35-4a91-b638-5fe846c1e3e3",
+          "id": "86d67b0e-feba-4684-b205-5712939ad780"
+        },
+        "caedf9b0-57f7-4aff-b159-7620437d1bcf": {
+          "from": "62242320-3aa7-41b6-b0ba-a37897002083",
+          "to": "3407c4cb-7214-4f2a-b031-e44c57aaf779",
+          "id": "caedf9b0-57f7-4aff-b159-7620437d1bcf"
+        },
+        "b72f9f79-0be1-4bd0-b181-ce3bf69260e4": {
+          "from": "d9969e61-49db-48d8-8da1-faffa8746274",
+          "to": "62242320-3aa7-41b6-b0ba-a37897002083",
+          "id": "b72f9f79-0be1-4bd0-b181-ce3bf69260e4"
         }
       },
       "length": 0,
@@ -59052,11 +59140,12 @@ var schemeData =
       "_type": {}
     }
   },
+  "dataCash": {},
   "setup": {
     "scale": 0.0156,
     "viewPosition": {
-      "x": 102403.00000333333,
-      "y": 11799.999998205129
+      "x": 102403.00000128205,
+      "y": 11799.999998205136
     }
   }
 }

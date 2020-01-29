@@ -41,6 +41,10 @@ var viewsSaves = {};
 var jumpNavigationData = null;
 var dataCash = null;
 var nodeLabelTextareaExpanded = false;
+var nodesDropDownMenuNodesIds = [];
+var dontShowShemeDataMenuPagesList = [
+   "news.html"
+];
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -1502,28 +1506,108 @@ function draw() {
 			ctx.fillRect(rect.startX, rect.startY, rect.w, rect.h);
 		}
 	});
-	containerJQ.on("mousedown", function(e) {
-                lastClickPosition = {x: e.pageX, y: e.pageY};
-		if (e.button == 2) { 
-			selectedNodes = e.ctrlKey ? network.getSelectedNodes() : null;
-			saveDrawingSurface();
-			var that = this;
-			rect.startX = e.pageX - this.offsetLeft;
-			rect.startY = e.pageY - this.offsetTop;
-			drag = true;
-			containerJQ[0].style.cursor = "crosshair";
-		}
-	}); 
-	containerJQ.on("mouseup", function(e) {
-		if (e.button == 2) { 
-			restoreDrawingSurface();
-			drag = false;
+function runNodeMenuItems(e) {
+   var pointer = {x: e.pageX, y: e.pageY};
+   var menuNode = network.selectionHandler.getNodeAt(pointer);
+   if (typeof menuNode !== "undefined" &&
+       nodesDropDownMenuNodesIds.indexOf(menuNode.id) != -1) {
+          var rootNodeId = getNodeFromNetworkDataById(menuNode.id).menuRootNodeId;
+          var label = menuNode.options.label;
+          var lines = label.split("\n");
+          var linesCount = lines.length;
+          var menuNodeHeight = menuNode.shape.textSize.height;
+          var menuItemsHeight = menuNodeHeight/linesCount;
+          var canvasPointer = network.canvas.DOMtoCanvas(pointer);
+          var fromMenuTopToClickPoint = canvasPointer.y - menuNode.shape.top - menuNode.shape.margin.top - 1;
+          var menuLineNumber = (fromMenuTopToClickPoint - (fromMenuTopToClickPoint % menuItemsHeight)) / menuItemsHeight;
+          console.log(menuLineNumber);  
+          console.log(lines[menuLineNumber]);
 
-			containerJQ[0].style.cursor = "default";
-			selectNodesFromHighlight();
-			network.showManipulatorToolbar();
-		}
-	});
+          if (lines[menuLineNumber] == "Restore node's branches (alt+y)") {
+             restoreNodeBranchesFromDataCash(rootNodeId);
+          }
+          if (lines[menuLineNumber] == "Wrap node's branches (alt+y)") {
+             hideNodeBranchesToDataCash(rootNodeId, null);
+          }
+   }
+}
+   containerJQ.on("mousedown", function(e) {
+      lastClickPosition = {x: e.pageX, y: e.pageY};
+      runNodeMenuItems(e);
+      nodesDropDownMenuNodesIds.forEach(function(nodeId) {
+         network.body.data.nodes.remove(nodeId);
+      });     
+      nodesDropDownMenuNodesIds = [];    
+      if (e.button == 2) { 
+         selectedNodes = e.ctrlKey ? network.getSelectedNodes() : null;
+         saveDrawingSurface();
+         var that = this;
+         rect.startX = e.pageX - this.offsetLeft;
+         rect.startY = e.pageY - this.offsetTop;
+         drag = true;
+         containerJQ[0].style.cursor = "crosshair";
+      }
+   }); 
+function makeNodeDropDownMenuLines(nodeId) {
+
+   var lines = [];
+
+   var branchesNodesAndEdges = getTreeNodesAndEdges(nodeId);
+   if (branchesNodesAndEdges.nodes.length > 0) {
+      lines.push("Wrap node's branches (alt+y)");
+   } else {
+      if (typeof dataCash[nodeId] !== "undefined" &&
+          dataCash[nodeId].nodes.length > 0) {
+         lines.push("Restore node's branches (alt+y)");
+      }
+   }
+   //
+   return lines;
+}
+   containerJQ.on("mouseup", function(e) {
+      if (e.button == 2) { 
+         restoreDrawingSurface();
+         drag = false;
+      
+         containerJQ[0].style.cursor = "default";
+      
+         if (rect.startX == (e.pageX - this.offsetLeft) &&
+            rect.startY == (e.pageY - this.offsetTop)) {
+            var pointer = {x: e.pageX, y: e.pageY};
+            var clickedNode = network.selectionHandler.getNodeAt(pointer);
+            var clickedNodeIsMenu = getNodeFromNetworkDataById(clickedNode.id).menuNode;
+            var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+            if (typeof clickedNode !== "undefined" &&
+                (typeof clickedNodeIsMenu === "undefined") &&
+                selectedNodes.length <= 1) {
+               var menuLines = makeNodeDropDownMenuLines(clickedNode.id);
+               if (menuLines.length == 0) return;
+               var menuLabel = menuLines.join("\n");
+               var scale = network.getScale();
+               var nodeId = network.body.data.nodes.add([{
+                  label: menuLabel,
+                  font: {size: 14/scale},
+                  x: clickedNode.x + clickedNode.shape.width/2,
+                  y: clickedNode.y + clickedNode.shape.height/2,
+                  menuNode: true,
+                  menuRootNodeId: clickedNode.id
+               }]);
+               var node = network.body.nodes[nodeId];
+               if (typeof node !== "undefined" && node !== null) {
+                  network.nodesHandler.moveNode(
+                     node.id, 
+                     node.x + node.shape.width/2, 
+                     node.y + node.shape.height/2);
+               }
+               nodesDropDownMenuNodesIds.push(node.id);
+               return;
+            }
+         }
+      
+         selectNodesFromHighlight();
+         network.showManipulatorToolbar();
+      }
+   });
 	network.on('selectNode', function (properties) {
 		schemeEditElementsMenu.show();
 		var nodeIdInput = $("input#nodeIdInput");
@@ -1658,7 +1742,11 @@ function draw() {
 		} else {
 		}
 	});
-	network.on("zoom", function(event) {
+   network.on("zoom", function(event) {
+      nodesDropDownMenuNodesIds.forEach(function(nodeId) {
+         network.body.data.nodes.remove(nodeId);
+      });
+      nodesDropDownMenuNodesIds = [];
 		var scale = network.getScale();
 		var n1X = parseFloat(network.getViewPosition().x.toFixed(5));
 		var n1Y = parseFloat(network.getViewPosition().y.toFixed(5));
@@ -2394,13 +2482,17 @@ runNodeCodeButton.click(function() {
 		var saveLabel = deleteSavedProjectButton.saveProjectLabel;
 		deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveLabel);
 	});
-	schemeDataMenu = $("<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:white;border-left: 1px solid #a3a3a3;z-index:5000; padding: 40px 20px 20px 20px'></div>");
-	//schemeDataMenu.hide()
-	schemeDataTextArea = $("<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>");
-	schemeDataMenu.append(schemeDataTextArea);
-	saveLoadButton = $("<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>");
-	schemeDataMenu.append(saveLoadButton);
-	body.append(schemeDataMenu);
+   schemeDataMenu = $("<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:white;border-left: 1px solid #a3a3a3;z-index:5000; padding: 40px 20px 20px 20px'></div>");
+   //Don't show shemeDataMenu. Menu under "showMenu" button on the right.
+   var pageFileName = (new URL(window.location.href)).pathname.split("/").reverse()[0];
+   if (dontShowShemeDataMenuPagesList.indexOf(pageFileName) != -1) {
+      schemeDataMenu.hide()
+   }
+   schemeDataTextArea = $("<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>");
+   schemeDataMenu.append(schemeDataTextArea);
+   saveLoadButton = $("<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>");
+   schemeDataMenu.append(saveLoadButton);
+   body.append(schemeDataMenu);
 	saveLoadButton.click(function() {
 		var regex = saveCanvasProjectDataLine;
 		var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + regex + "$"));
@@ -2854,7 +2946,7 @@ runNodeCodeButton.click(function() {
       }
    });
    $(document).keyup(function (event) {
-      //Run node code. ctrl+alt+v
+      //Split node label. ctrl+alt+v
       if (event.ctrlKey && event.altKey && event.keyCode === 86) {
          $("span#splitNodeListLabelButton").click();
       }
@@ -2974,6 +3066,11 @@ runNodeCodeButton.click(function() {
    $("div#network").keydown(function (event) {
       //Zoom out. shift+alt+d
       if (event.shiftKey && event.altKey && event.keyCode === 68) {
+         nodesDropDownMenuNodesIds.forEach(function(nodeId) {
+            network.body.data.nodes.remove(nodeId);
+         });
+         nodesDropDownMenuNodesIds = [];
+
          var scale = network.getScale();
          var newScale = scale / 1.5;
          var position = network.getViewPosition();
@@ -2984,6 +3081,10 @@ runNodeCodeButton.click(function() {
    $("div#network").keydown(function (event) {
       //Zoom in. shfit+alt+f
       if (event.shiftKey && event.altKey && event.keyCode === 70) {
+         nodesDropDownMenuNodesIds.forEach(function(nodeId) {
+            network.body.data.nodes.remove(nodeId);
+         });
+         nodesDropDownMenuNodesIds = [];
          var scale = network.getScale();
          var newScale = scale * 1.5;
          var position = network.getViewPosition();

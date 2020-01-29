@@ -336,7 +336,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/music.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"music_proj1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});",
+          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/music.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"music_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204",
           "x": 65740,
           "y": -6470,
@@ -82854,11 +82854,12 @@ var schemeData =
       "_type": {}
     }
   },
+  "dataCash": {},
   "setup": {
     "scale": 0.0113,
     "viewPosition": {
-      "x": 105402.9999992035,
-      "y": 24500.000003982303
+      "x": 105402.99999920354,
+      "y": 24500.000003982314
     }
   }
 }

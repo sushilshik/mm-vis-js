@@ -34,7 +34,7 @@ SymPy integration. With dynamic equations and plots in LaTeX and matplotlib.
 
 ![sushilshik.github.io/math.html screenshot 2019.12.19](https://sushilshik.github.io/imgs/mm-vis-js_matplotlib_2.png)
 
-###### List of pages on 2019.12.20:
+###### List of pages on 2020.01.29:
 
 * https://sushilshik.github.io/index.html
 * https://sushilshik.github.io/mm-vis-js_code.html
@@ -46,6 +46,9 @@ SymPy integration. With dynamic equations and plots in LaTeX and matplotlib.
 * https://sushilshik.github.io/python.html
 * https://sushilshik.github.io/music.html
 * https://sushilshik.github.io/math.html
+* https://sushilshik.github.io/code.html
+* https://sushilshik.github.io/engineering.html
+* https://sushilshik.github.io/news.html
 
 ### Tests:
 

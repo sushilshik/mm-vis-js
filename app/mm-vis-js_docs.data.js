@@ -336,7 +336,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "updateMenuFromScheme();\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: \"/home/mike/progr/repo/mm-vis-js/app/mm-vis-js_docs.data.js\",\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: \"mm-vis-js_docs_proj1\",\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});",
+          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/mm-vis-js_docs.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"mm-vis-js_docs_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204",
           "x": 65745,
           "y": -6406,
@@ -15224,7 +15224,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Очень удобная функция - можно связать сразу большой список веток с корневой нодой",
           "id": "2dba5f68-77db-4b3f-b5a4-bb062a747a6f431",
-          "x": 82839,
+          "x": 82830,
           "y": -8871
         },
         "41986299-c580-4968-adb2-58f0725bbb6029431": {
@@ -15253,7 +15253,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделяете одну или несколько нод",
           "id": "41986299-c580-4968-adb2-58f0725bbb6029431",
-          "x": 82666,
+          "x": 82658,
           "y": -8813
         },
         "5c8fe698-c39c-416b-b238-c877f30b943429431": {
@@ -15309,14 +15309,15 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нажимаете ctrl+alt+c",
           "id": "7e674057-85e5-4928-96c1-d53260fd42a7431",
-          "x": 82617,
+          "x": 82610,
           "y": -8779
         },
         "2009ebc7-0871-4515-a437-1d03276a81c1431": {
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -15337,7 +15338,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Крайняя слева нода станет корневой. Остальные ноды свяжутся с ней связями.",
+          "label": "Крайняя слева нода станет корневой. Остальные ноды соединятся с ней связями.",
           "id": "2009ebc7-0871-4515-a437-1d03276a81c1431",
           "x": 82814,
           "y": -8736,
@@ -43871,11 +43872,12 @@ var schemeData =
       "_type": {}
     }
   },
+  "dataCash": {},
   "setup": {
     "scale": 0.0145,
     "viewPosition": {
-      "x": 100403.00000137929,
-      "y": 10000.000003448271
+      "x": 100403.0000013791,
+      "y": 10000.000003448238
     }
   }
 }
