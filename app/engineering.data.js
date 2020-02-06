@@ -32613,6 +32613,243 @@ var schemeData =
           "x": 165079,
           "y": -1660,
           "id": "54fd547a-7d36-4697-8a7d-94b156254074519437"
+        },
+        "80e52b7e-ecf5-4ff9-abca-13c8ec253195": {
+          "label": "Ground\n(electricity)",
+          "x": 160928,
+          "y": 1293,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "80e52b7e-ecf5-4ff9-abca-13c8ec253195",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "19239366-c6ff-48a9-99b0-f9a86408c145": {
+          "label": "Development",
+          "x": 161228,
+          "y": 1743,
+          "id": "19239366-c6ff-48a9-99b0-f9a86408c145"
+        },
+        "00e374e5-dd36-4226-8723-7b85600e9bc0": {
+          "label": "2/2/2020",
+          "x": 161353,
+          "y": 1743,
+          "id": "00e374e5-dd36-4226-8723-7b85600e9bc0"
+        },
+        "ee60624e-0b7f-4eaa-b810-cf8a24e2ad5a": {
+          "label": "init",
+          "x": 161478,
+          "y": 1743,
+          "id": "ee60624e-0b7f-4eaa-b810-cf8a24e2ad5a"
+        },
+        "4e96a6f2-43f6-4455-92fb-0f6c9b485249": {
+          "label": "Notes",
+          "x": 161208,
+          "y": 716,
+          "id": "4e96a6f2-43f6-4455-92fb-0f6c9b485249"
+        },
+        "51018001-024c-450a-a9ca-9a06e282c8c1": {
+          "label": "Dictionary of\nconcepts",
+          "x": 161368,
+          "y": 466,
+          "id": "51018001-024c-450a-a9ca-9a06e282c8c1"
+        },
+        "2e4a0a65-a1d2-4f53-9ff7-30094a4e4e3c": {
+          "label": "Details, thoughts",
+          "x": 161381,
+          "y": 716,
+          "id": "2e4a0a65-a1d2-4f53-9ff7-30094a4e4e3c"
+        },
+        "98f08013-39b0-46cf-9e8b-2e133db0ead3": {
+          "label": "Sections",
+          "x": 161352,
+          "y": 1070,
+          "id": "98f08013-39b0-46cf-9e8b-2e133db0ead3"
+        },
+        "ef7627bd-e3d2-4506-bc08-efd0abf26a4a": {
+          "label": "Books",
+          "x": 161445,
+          "y": 816,
+          "id": "ef7627bd-e3d2-4506-bc08-efd0abf26a4a"
+        },
+        "25e16835-b762-4b89-96bf-8648c01fc989": {
+          "label": "R&D institutions",
+          "x": 161476,
+          "y": 841,
+          "id": "25e16835-b762-4b89-96bf-8648c01fc989"
+        },
+        "15cba771-706f-4a63-bc72-4b3ef81ea7f7": {
+          "label": "Sites",
+          "x": 161441,
+          "y": 866,
+          "id": "15cba771-706f-4a63-bc72-4b3ef81ea7f7"
+        },
+        "d945b01e-a13e-4429-892c-b2a145d649b8": {
+          "label": "Magazines",
+          "x": 161460,
+          "y": 891,
+          "id": "d945b01e-a13e-4429-892c-b2a145d649b8"
+        },
+        "827e9904-d20f-4b48-830d-44abfa78cc3e": {
+          "label": "Articles",
+          "x": 161449,
+          "y": 916,
+          "id": "827e9904-d20f-4b48-830d-44abfa78cc3e"
+        },
+        "65d9c497-fb2b-4010-a864-a6d67fb0dba2": {
+          "label": "Media content",
+          "x": 161471,
+          "y": 941,
+          "id": "65d9c497-fb2b-4010-a864-a6d67fb0dba2"
+        },
+        "47866880-ee80-42ff-ae21-7fe2bcf16356": {
+          "label": "Misc. web links",
+          "x": 161476,
+          "y": 1056,
+          "id": "47866880-ee80-42ff-ae21-7fe2bcf16356"
+        },
+        "184d115a-7498-4f0a-a62b-b20fd3a6ae95": {
+          "label": "Projects",
+          "x": 161448,
+          "y": 1168,
+          "id": "184d115a-7498-4f0a-a62b-b20fd3a6ae95"
+        },
+        "1ff48c7f-a4d3-4bc0-9d08-8c06de067ab9": {
+          "label": "Tools",
+          "x": 161439,
+          "y": 1193,
+          "id": "1ff48c7f-a4d3-4bc0-9d08-8c06de067ab9"
+        },
+        "761a71f8-49b5-4221-90f3-76e015b50239": {
+          "label": "Organizations",
+          "x": 161467,
+          "y": 1218,
+          "id": "761a71f8-49b5-4221-90f3-76e015b50239"
+        },
+        "86399979-fed1-48a0-8702-a8608661ecef": {
+          "label": "Standarts",
+          "x": 161453,
+          "y": 1243,
+          "id": "86399979-fed1-48a0-8702-a8608661ecef"
+        },
+        "90dc4482-25a6-4815-9ca2-8caf54be595f": {
+          "label": "Forums, Groups",
+          "x": 161475,
+          "y": 1268,
+          "id": "90dc4482-25a6-4815-9ca2-8caf54be595f"
+        },
+        "8a294221-2466-4092-a4bf-9cbde37e2bbe": {
+          "label": "Laws",
+          "x": 161439,
+          "y": 1293,
+          "id": "8a294221-2466-4092-a4bf-9cbde37e2bbe"
+        },
+        "3f7ba76a-ad32-436f-997c-b87a540d9ff3": {
+          "label": "Adjacent Themes",
+          "x": 161478,
+          "y": 1318,
+          "id": "3f7ba76a-ad32-436f-997c-b87a540d9ff3"
+        },
+        "f35cc031-f849-44b0-a9eb-70f322506242": {
+          "label": "Questions",
+          "x": 161218,
+          "y": 1443,
+          "id": "f35cc031-f849-44b0-a9eb-70f322506242"
+        },
+        "7816281c-4c61-4ed8-8680-dbe271672ae2": {
+          "label": "Problems",
+          "x": 161216,
+          "y": 1543,
+          "id": "7816281c-4c61-4ed8-8680-dbe271672ae2"
+        },
+        "d8bf675d-63f5-4a79-91c4-196bd780749f": {
+          "label": "Goals",
+          "x": 161205,
+          "y": 1643,
+          "id": "d8bf675d-63f5-4a79-91c4-196bd780749f"
+        },
+        "54fd547a-7d36-4697-8a7d-94b156254074519437841": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Ground\n(electricity)",
+          "x": 165246,
+          "y": 1376,
+          "id": "54fd547a-7d36-4697-8a7d-94b156254074519437841",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f74ec4da-d554-45fb-b610-12d220af67cf": {
+          "id": "f74ec4da-d554-45fb-b610-12d220af67cf",
+          "x": 161532,
+          "y": 526,
+          "label": "Заземление"
+        },
+        "211975ca-c29e-4ab1-8ab6-4363a256712f": {
+          "id": "211975ca-c29e-4ab1-8ab6-4363a256712f",
+          "x": 161711,
+          "y": 1047,
+          "label": "Ground (electricity) - Wikipedia",
+          "shape": "box",
+          "link": "https://en.wikipedia.org/wiki/Ground_(electricity",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "442ca3b5-4bdc-4159-8397-1cc18a7828e4": {
+          "id": "442ca3b5-4bdc-4159-8397-1cc18a7828e4",
+          "x": 161702,
+          "y": 1071,
+          "label": "Заземление — Википедия ",
+          "shape": "box",
+          "link": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B7%D0%B5%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
         }
       },
       "length": 0,
@@ -58285,6 +58522,141 @@ var schemeData =
           "id": "b35c4dbd-06e3-4bde-8f9c-1f714b8b3a03519437",
           "from": "d217aa9c-31b6-4037-ab04-bab6414307b3519437",
           "to": "748902c8-c7fa-43a1-8fbe-21b36d4b0a86519437"
+        },
+        "5b7e34dd-56dd-4692-b74b-fb68fc7ad6fa": {
+          "from": "80e52b7e-ecf5-4ff9-abca-13c8ec253195",
+          "to": "19239366-c6ff-48a9-99b0-f9a86408c145",
+          "id": "5b7e34dd-56dd-4692-b74b-fb68fc7ad6fa"
+        },
+        "a76aaeeb-c741-4c2b-9b42-4c7fb7f3b327": {
+          "from": "19239366-c6ff-48a9-99b0-f9a86408c145",
+          "to": "00e374e5-dd36-4226-8723-7b85600e9bc0",
+          "id": "a76aaeeb-c741-4c2b-9b42-4c7fb7f3b327"
+        },
+        "392d7200-bf01-4e12-8882-e6cd5ca77dcd": {
+          "from": "00e374e5-dd36-4226-8723-7b85600e9bc0",
+          "to": "ee60624e-0b7f-4eaa-b810-cf8a24e2ad5a",
+          "id": "392d7200-bf01-4e12-8882-e6cd5ca77dcd"
+        },
+        "caee2ee0-1d43-49a6-9fb2-08f072bfa10d": {
+          "from": "80e52b7e-ecf5-4ff9-abca-13c8ec253195",
+          "to": "4e96a6f2-43f6-4455-92fb-0f6c9b485249",
+          "id": "caee2ee0-1d43-49a6-9fb2-08f072bfa10d"
+        },
+        "7ce59bc7-6e96-412a-9fae-fbc6c8bc0927": {
+          "from": "4e96a6f2-43f6-4455-92fb-0f6c9b485249",
+          "to": "51018001-024c-450a-a9ca-9a06e282c8c1",
+          "id": "7ce59bc7-6e96-412a-9fae-fbc6c8bc0927"
+        },
+        "24a59b08-e901-482e-8194-47cd5fea98a9": {
+          "from": "4e96a6f2-43f6-4455-92fb-0f6c9b485249",
+          "to": "2e4a0a65-a1d2-4f53-9ff7-30094a4e4e3c",
+          "id": "24a59b08-e901-482e-8194-47cd5fea98a9"
+        },
+        "7b211ed6-562d-49e4-bb00-0ad965f4be0f": {
+          "from": "4e96a6f2-43f6-4455-92fb-0f6c9b485249",
+          "to": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "id": "7b211ed6-562d-49e4-bb00-0ad965f4be0f"
+        },
+        "c3565f3a-747a-45d3-9179-5a569f7de4c4": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "ef7627bd-e3d2-4506-bc08-efd0abf26a4a",
+          "id": "c3565f3a-747a-45d3-9179-5a569f7de4c4"
+        },
+        "fe69a745-52ff-415e-90cb-0f2659aa9d40": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "25e16835-b762-4b89-96bf-8648c01fc989",
+          "id": "fe69a745-52ff-415e-90cb-0f2659aa9d40"
+        },
+        "e8d1b0ba-1c1d-4b8d-8677-1db3508d6899": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "15cba771-706f-4a63-bc72-4b3ef81ea7f7",
+          "id": "e8d1b0ba-1c1d-4b8d-8677-1db3508d6899"
+        },
+        "19577c72-9cfe-4078-8419-ab485fdd2412": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "d945b01e-a13e-4429-892c-b2a145d649b8",
+          "id": "19577c72-9cfe-4078-8419-ab485fdd2412"
+        },
+        "078299b2-e6d5-407f-a743-7b2faa9fce16": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "827e9904-d20f-4b48-830d-44abfa78cc3e",
+          "id": "078299b2-e6d5-407f-a743-7b2faa9fce16"
+        },
+        "3f0fcb52-359d-4dbc-9ba9-f29a3d71a531": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "65d9c497-fb2b-4010-a864-a6d67fb0dba2",
+          "id": "3f0fcb52-359d-4dbc-9ba9-f29a3d71a531"
+        },
+        "42731098-5675-447a-820b-1648490740bd": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "47866880-ee80-42ff-ae21-7fe2bcf16356",
+          "id": "42731098-5675-447a-820b-1648490740bd"
+        },
+        "ce1a5dda-a306-43cf-abef-24cd39ae119d": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "184d115a-7498-4f0a-a62b-b20fd3a6ae95",
+          "id": "ce1a5dda-a306-43cf-abef-24cd39ae119d"
+        },
+        "2adf85a8-842e-4fa3-bf6c-be15ee86aa71": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "1ff48c7f-a4d3-4bc0-9d08-8c06de067ab9",
+          "id": "2adf85a8-842e-4fa3-bf6c-be15ee86aa71"
+        },
+        "2d794c52-31bf-4f14-9606-51d9a161d2b8": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "761a71f8-49b5-4221-90f3-76e015b50239",
+          "id": "2d794c52-31bf-4f14-9606-51d9a161d2b8"
+        },
+        "96256ae3-0a86-4570-84ec-a916a93ac165": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "86399979-fed1-48a0-8702-a8608661ecef",
+          "id": "96256ae3-0a86-4570-84ec-a916a93ac165"
+        },
+        "e9957e7d-fabb-41b8-812f-90b40d4842ba": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "90dc4482-25a6-4815-9ca2-8caf54be595f",
+          "id": "e9957e7d-fabb-41b8-812f-90b40d4842ba"
+        },
+        "12dd49b7-ea8f-4119-88ab-df6351024c95": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "8a294221-2466-4092-a4bf-9cbde37e2bbe",
+          "id": "12dd49b7-ea8f-4119-88ab-df6351024c95"
+        },
+        "fe1914ad-43a9-4cae-ac30-85f60a55b4ba": {
+          "from": "98f08013-39b0-46cf-9e8b-2e133db0ead3",
+          "to": "3f7ba76a-ad32-436f-997c-b87a540d9ff3",
+          "id": "fe1914ad-43a9-4cae-ac30-85f60a55b4ba"
+        },
+        "adc435f1-db43-4e36-930a-9977d60a0720": {
+          "from": "80e52b7e-ecf5-4ff9-abca-13c8ec253195",
+          "to": "f35cc031-f849-44b0-a9eb-70f322506242",
+          "id": "adc435f1-db43-4e36-930a-9977d60a0720"
+        },
+        "2fcb5fc8-7f2e-4075-a056-8be7fc188f3f": {
+          "from": "80e52b7e-ecf5-4ff9-abca-13c8ec253195",
+          "to": "7816281c-4c61-4ed8-8680-dbe271672ae2",
+          "id": "2fcb5fc8-7f2e-4075-a056-8be7fc188f3f"
+        },
+        "5e10b440-15f6-479b-a576-94c31d1acbca": {
+          "from": "80e52b7e-ecf5-4ff9-abca-13c8ec253195",
+          "to": "d8bf675d-63f5-4a79-91c4-196bd780749f",
+          "id": "5e10b440-15f6-479b-a576-94c31d1acbca"
+        },
+        "e8d7e7dc-835b-4cd5-8e2b-e89fdabcb357": {
+          "from": "51018001-024c-450a-a9ca-9a06e282c8c1",
+          "to": "f74ec4da-d554-45fb-b610-12d220af67cf",
+          "id": "e8d7e7dc-835b-4cd5-8e2b-e89fdabcb357"
+        },
+        "c5e48825-0f70-44a5-aabb-a2390c577d91": {
+          "from": "47866880-ee80-42ff-ae21-7fe2bcf16356",
+          "to": "211975ca-c29e-4ab1-8ab6-4363a256712f",
+          "id": "c5e48825-0f70-44a5-aabb-a2390c577d91"
+        },
+        "686962f1-5a7a-44f4-88a6-5f4608ed06b5": {
+          "from": "47866880-ee80-42ff-ae21-7fe2bcf16356",
+          "to": "442ca3b5-4bdc-4159-8397-1cc18a7828e4",
+          "id": "686962f1-5a7a-44f4-88a6-5f4608ed06b5"
         }
       },
       "length": 0,
@@ -58322,10 +58694,10 @@ var schemeData =
   },
   "dataCash": {},
   "setup": {
-    "scale": 0.01,
+    "scale": 0.6214721705005513,
     "viewPosition": {
-      "x": 131496,
-      "y": 27653.999999999996
+      "x": 161620.04138154868,
+      "y": 915.7283630797677
     }
   }
 }

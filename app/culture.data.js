@@ -13198,14 +13198,18 @@ var schemeData =
         "c072953c-ed32-4b08-bdb6-12ac84cd36c2936": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "",
+            "border": ""
           },
           "fixed": {},
           "font": {
             "bold": {},
             "boldital": {},
             "ital": {},
-            "mono": {}
+            "mono": {},
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -13220,7 +13224,10 @@ var schemeData =
           "label": "ВДНХ",
           "id": "c072953c-ed32-4b08-bdb6-12ac84cd36c2936",
           "x": 86580,
-          "y": 3805
+          "y": 3805,
+          "shape": "box",
+          "link": "https://vdnh.ru/",
+          "borderWidth": ""
         },
         "ef5beaef-947e-459f-8d5f-c44e4f450e6d": {
           "label": "Youtube",
@@ -15497,6 +15504,623 @@ var schemeData =
           "y": -6918,
           "label": "https://www.youtube.com/watch?v=SXfgixkt4-Q",
           "link": "https://www.youtube.com/watch?v=SXfgixkt4-Q"
+        },
+        "c1f72eae-a076-4328-beaf-44ae8f76d26d": {
+          "label": "Ancient\nTexts",
+          "x": 99462,
+          "y": 15531,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "c1f72eae-a076-4328-beaf-44ae8f76d26d",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "70128b34-3680-4d5b-acaf-5f16e6eea292": {
+          "label": "Development",
+          "x": 99762,
+          "y": 15981,
+          "id": "70128b34-3680-4d5b-acaf-5f16e6eea292"
+        },
+        "7deddbe7-55c8-4622-adc9-e99f28abdade": {
+          "label": "2/1/2020",
+          "x": 99887,
+          "y": 15981,
+          "id": "7deddbe7-55c8-4622-adc9-e99f28abdade"
+        },
+        "464da614-7386-4c52-b92d-d44f237b6143": {
+          "label": "init",
+          "x": 100012,
+          "y": 15981,
+          "id": "464da614-7386-4c52-b92d-d44f237b6143"
+        },
+        "39ed26de-7410-4c2c-8ac4-7e9ed0d58e3d": {
+          "label": "Notes",
+          "x": 99746,
+          "y": 15010,
+          "id": "39ed26de-7410-4c2c-8ac4-7e9ed0d58e3d"
+        },
+        "b61c5df8-143d-477a-8387-d3209cc0b625": {
+          "label": "Dictionary of\nconcepts",
+          "x": 100014,
+          "y": 13849,
+          "id": "b61c5df8-143d-477a-8387-d3209cc0b625"
+        },
+        "d44448ca-1c71-4dbf-b4e9-91ab4ec8820b": {
+          "label": "Details, thoughts",
+          "x": 99922,
+          "y": 15007,
+          "id": "d44448ca-1c71-4dbf-b4e9-91ab4ec8820b"
+        },
+        "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7": {
+          "label": "Sections",
+          "x": 99886,
+          "y": 15381,
+          "id": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7"
+        },
+        "028bc36e-d0f3-4ced-a472-104517b2472c": {
+          "label": "Books",
+          "x": 99976,
+          "y": 15231,
+          "id": "028bc36e-d0f3-4ced-a472-104517b2472c"
+        },
+        "f82c284a-12f9-4e3a-9b53-285298759609": {
+          "label": "R&D institutions",
+          "x": 100006,
+          "y": 15256,
+          "id": "f82c284a-12f9-4e3a-9b53-285298759609"
+        },
+        "0aa6a169-2db4-4aee-a10b-f8129b5836a8": {
+          "label": "Sites",
+          "x": 99972,
+          "y": 15281,
+          "id": "0aa6a169-2db4-4aee-a10b-f8129b5836a8"
+        },
+        "ad3a7172-06bb-43d2-a870-a1696004863f": {
+          "label": "Magazines",
+          "x": 99991,
+          "y": 15306,
+          "id": "ad3a7172-06bb-43d2-a870-a1696004863f"
+        },
+        "e36eb72e-5310-4d95-b374-48a594cfb3d3": {
+          "label": "Articles",
+          "x": 99979,
+          "y": 15331,
+          "id": "e36eb72e-5310-4d95-b374-48a594cfb3d3"
+        },
+        "9b25f258-93c7-42a3-84e5-ae096e3303f9": {
+          "label": "Media content",
+          "x": 100001,
+          "y": 15356,
+          "id": "9b25f258-93c7-42a3-84e5-ae096e3303f9"
+        },
+        "ed4f63d4-cacc-444a-bf5d-6382a8fe2857": {
+          "label": "Misc. web links",
+          "x": 100004,
+          "y": 15381,
+          "id": "ed4f63d4-cacc-444a-bf5d-6382a8fe2857"
+        },
+        "804aa857-0d54-43e5-bd92-902dfbd99e1a": {
+          "label": "Projects",
+          "x": 99982,
+          "y": 15406,
+          "id": "804aa857-0d54-43e5-bd92-902dfbd99e1a"
+        },
+        "3c044c4d-422e-4470-9c99-d805373b1083": {
+          "label": "Tools",
+          "x": 99973,
+          "y": 15431,
+          "id": "3c044c4d-422e-4470-9c99-d805373b1083"
+        },
+        "25eaebbe-2940-49da-9688-45fe442aa0f2": {
+          "label": "Organizations",
+          "x": 100000,
+          "y": 15456,
+          "id": "25eaebbe-2940-49da-9688-45fe442aa0f2"
+        },
+        "111512c2-134c-43f4-9e6b-3e41920ddae9": {
+          "label": "Standarts",
+          "x": 99987,
+          "y": 15481,
+          "id": "111512c2-134c-43f4-9e6b-3e41920ddae9"
+        },
+        "6852b19e-7fcd-4c97-8e30-6078325fe6d2": {
+          "label": "Forums, Groups",
+          "x": 100008,
+          "y": 15506,
+          "id": "6852b19e-7fcd-4c97-8e30-6078325fe6d2"
+        },
+        "ffdaf1b4-ffcb-4aa7-943d-e630e5b897bc": {
+          "label": "Laws",
+          "x": 99973,
+          "y": 15531,
+          "id": "ffdaf1b4-ffcb-4aa7-943d-e630e5b897bc"
+        },
+        "16714b0c-97a5-44bc-9308-64b8b2f91c86": {
+          "label": "Adjacent Themes",
+          "x": 100012,
+          "y": 15556,
+          "id": "16714b0c-97a5-44bc-9308-64b8b2f91c86"
+        },
+        "aa71f0e5-74d0-4510-a441-6fb7850e08dc": {
+          "label": "Questions",
+          "x": 99752,
+          "y": 15681,
+          "id": "aa71f0e5-74d0-4510-a441-6fb7850e08dc"
+        },
+        "d18202fb-fb0f-47d6-9a98-cc2f15c4dd52": {
+          "label": "Problems",
+          "x": 99750,
+          "y": 15781,
+          "id": "d18202fb-fb0f-47d6-9a98-cc2f15c4dd52"
+        },
+        "8bc75092-b403-4cc5-90a4-c6c1b72cba4c": {
+          "label": "Goals",
+          "x": 99738,
+          "y": 15881,
+          "id": "8bc75092-b403-4cc5-90a4-c6c1b72cba4c"
+        },
+        "490ad4b4-d896-4723-8178-d38f698051b6856173694936743": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Ancient\nTexts",
+          "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694936743",
+          "x": 104347,
+          "y": 13890,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "0d0ed6d5-83f8-405b-b424-7dd3d3644f1b": {
+          "id": "0d0ed6d5-83f8-405b-b424-7dd3d3644f1b",
+          "x": 100319,
+          "y": 13134,
+          "label": "Pre-Columbian America"
+        },
+        "418eb2ab-80e9-4e14-bbed-622f1ec5e457": {
+          "label": "Aztec",
+          "link": "",
+          "x": 100554,
+          "y": 13095,
+          "id": "418eb2ab-80e9-4e14-bbed-622f1ec5e457"
+        },
+        "45f7bb75-dc42-44a2-99df-93ac4004ac66": {
+          "label": "Maya",
+          "link": "",
+          "x": 100554,
+          "y": 13138,
+          "id": "45f7bb75-dc42-44a2-99df-93ac4004ac66"
+        },
+        "7b7dafee-3419-4b24-a4d8-f2cffc0c28c9": {
+          "label": "Inca",
+          "link": "",
+          "x": 100550,
+          "y": 13177,
+          "id": "7b7dafee-3419-4b24-a4d8-f2cffc0c28c9"
+        },
+        "0cea6cd3-9e6d-4cfc-8550-b68a6352a7fd": {
+          "id": "0cea6cd3-9e6d-4cfc-8550-b68a6352a7fd",
+          "x": 100295,
+          "y": 13539,
+          "label": "Greek and Latin"
+        },
+        "a3efbf7c-ed15-4567-bc95-6d7e35ac2a4c": {
+          "id": "a3efbf7c-ed15-4567-bc95-6d7e35ac2a4c",
+          "x": 100277,
+          "y": 14079,
+          "label": "Cuneiform",
+          "shape": "box",
+          "link": "https://en.wikipedia.org/wiki/Cuneiform",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "46e13f7b-9617-425f-9801-280cf5a82efb": {
+          "id": "46e13f7b-9617-425f-9801-280cf5a82efb",
+          "x": 100270,
+          "y": 14145,
+          "label": "Aramaic",
+          "shape": "box",
+          "link": "https://en.wikipedia.org/wiki/Aramaic",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "22e82ba8-3bab-49cd-a3cf-bfebc7da73bd": {
+          "id": "22e82ba8-3bab-49cd-a3cf-bfebc7da73bd",
+          "x": 100268,
+          "y": 14209,
+          "label": "Hebrew",
+          "shape": "box",
+          "link": "Ancient Hebrew writings",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "10cd7bf5-e4c2-453f-9e2f-ee5d46b019ec": {
+          "id": "10cd7bf5-e4c2-453f-9e2f-ee5d46b019ec",
+          "x": 100259,
+          "y": 14462,
+          "label": "India"
+        },
+        "9742994a-2852-44ff-b31f-e0e0474c7010": {
+          "id": "9742994a-2852-44ff-b31f-e0e0474c7010",
+          "x": 100262,
+          "y": 14560,
+          "label": "China"
+        },
+        "6bea1672-da1d-45dc-af5f-eb4aaf192e9c": {
+          "id": "6bea1672-da1d-45dc-af5f-eb4aaf192e9c",
+          "x": 100257,
+          "y": 14673,
+          "label": "Else"
+        },
+        "3bab7962-0904-45b4-b11f-828ece86db3d": {
+          "id": "3bab7962-0904-45b4-b11f-828ece86db3d",
+          "x": 100396,
+          "y": 14677,
+          "label": "?"
+        },
+        "0fafbac5-d921-4060-91dd-95142320add6": {
+          "id": "0fafbac5-d921-4060-91dd-95142320add6",
+          "x": 100533,
+          "y": 14677,
+          "label": "Phoenician language"
+        },
+        "9b7aa249-d747-4b49-a84c-ecfea28c957c": {
+          "id": "9b7aa249-d747-4b49-a84c-ecfea28c957c",
+          "x": 100271,
+          "y": 14330,
+          "label": "Egyptian"
+        },
+        "b7986041-819e-44ff-83d6-44d33ecc7ad3": {
+          "id": "b7986041-819e-44ff-83d6-44d33ecc7ad3",
+          "x": 100762,
+          "y": 13448,
+          "label": "https://catalog.perseus.org/",
+          "link": "https://catalog.perseus.org/"
+        },
+        "3b574531-321a-4e54-a7e9-21826d3a7546": {
+          "id": "3b574531-321a-4e54-a7e9-21826d3a7546",
+          "x": 100522,
+          "y": 13542,
+          "label": "The Perseus Catalog",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "e229e21f-ddc5-4d6c-962a-40c3e696909f": {
+          "id": "e229e21f-ddc5-4d6c-962a-40c3e696909f",
+          "x": 100785,
+          "y": 13492,
+          "label": "https://catalog.perseus.org/browse",
+          "link": "https://catalog.perseus.org/browse"
+        },
+        "eb3e15bb-5357-4e62-9b93-83a4dfe14ef7": {
+          "id": "eb3e15bb-5357-4e62-9b93-83a4dfe14ef7",
+          "x": 100993,
+          "y": 13491,
+          "label": "List of authors"
+        },
+        "3792fe16-81a0-493b-a1b4-6f569c033366": {
+          "id": "3792fe16-81a0-493b-a1b4-6f569c033366",
+          "x": 100700,
+          "y": 13712,
+          "label": "Notes"
+        },
+        "50fbfc20-4b6f-4bfb-8f3f-09296062605c": {
+          "id": "50fbfc20-4b6f-4bfb-8f3f-09296062605c",
+          "x": 101056,
+          "y": 13560,
+          "label": "On 2014 - 3,679 individual works (2,522 Greek and 1,247 Latin) from antiquity  to 600 CE",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "f521f54f-bc84-45db-b181-b2064a90b522": {
+          "id": "f521f54f-bc84-45db-b181-b2064a90b522",
+          "x": 100846,
+          "y": 13718,
+          "label": "CTS/FRBR data model",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "cd044486-9e18-407c-aa7e-fd1f8f6acfa2": {
+          "id": "cd044486-9e18-407c-aa7e-fd1f8f6acfa2",
+          "x": 101558,
+          "y": 13558,
+          "label": "https://dl.tufts.edu/pdfviewer/4t64h013m/zp38wq156",
+          "link": "https://dl.tufts.edu/pdfviewer/4t64h013m/zp38wq156"
+        },
+        "576da681-2be5-47c0-b64d-ee7dc88bfde2": {
+          "id": "576da681-2be5-47c0-b64d-ee7dc88bfde2",
+          "x": 100801,
+          "y": 13643,
+          "label": "On 2020"
+        },
+        "e33c490a-3dd2-4503-bec6-9c5d23f16359": {
+          "label": "Greek, Ancient (to 1453) 2908",
+          "link": "",
+          "x": 100976,
+          "y": 13623,
+          "id": "e33c490a-3dd2-4503-bec6-9c5d23f16359"
+        },
+        "c4bb85d6-8c39-47ce-98b8-0cf4f481b9bc": {
+          "label": "Latin 1576",
+          "link": "",
+          "x": 100914,
+          "y": 13647,
+          "id": "c4bb85d6-8c39-47ce-98b8-0cf4f481b9bc"
+        },
+        "992c6a8a-0f3d-44d7-9496-fc9012808eee": {
+          "label": "Arabic 131",
+          "link": "",
+          "x": 100914,
+          "y": 13671,
+          "id": "992c6a8a-0f3d-44d7-9496-fc9012808eee"
+        },
+        "69d7260b-3d91-4f9c-850e-70e57abc8111": {
+          "id": "69d7260b-3d91-4f9c-850e-70e57abc8111",
+          "x": 100479,
+          "y": 14399,
+          "label": "Ancient Egyptian literature",
+          "link": "https://en.wikipedia.org/wiki/Ancient_Egyptian_literature",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "2c03c43c-db4c-460a-a8b3-f3cb05691892": {
+          "id": "2c03c43c-db4c-460a-a8b3-f3cb05691892",
+          "x": 100147,
+          "y": 14963,
+          "label": "Just collection of links and notes",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "7586d17e-5b86-4f37-8007-b9da7ebfd087": {
+          "id": "7586d17e-5b86-4f37-8007-b9da7ebfd087",
+          "x": 100378,
+          "y": 14951,
+          "label": "Libraries"
+        },
+        "025b3eac-7fa2-4b9e-9403-da9940764731": {
+          "id": "025b3eac-7fa2-4b9e-9403-da9940764731",
+          "x": 100378,
+          "y": 14979,
+          "label": "Catalogs"
+        },
+        "a00fb79f-9961-4394-bea2-9ea53b8532fc": {
+          "id": "a00fb79f-9961-4394-bea2-9ea53b8532fc",
+          "x": 100389,
+          "y": 15006,
+          "label": "Bibliography"
+        },
+        "84151f85-b74c-471b-baec-458220c9740f": {
+          "id": "84151f85-b74c-471b-baec-458220c9740f",
+          "x": 101009,
+          "y": 13720,
+          "label": "FRBR",
+          "shape": "box",
+          "link": "https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "f378b4d7-f1f7-40db-a06f-ad85ac2cb959": {
+          "id": "f378b4d7-f1f7-40db-a06f-ad85ac2cb959",
+          "x": 100457,
+          "y": 14563,
+          "label": "Chinese Text Project",
+          "shape": "box",
+          "link": "https://ctext.org/",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "a1936ac9-3665-4aa3-87ad-130a5d2126ac": {
+          "id": "a1936ac9-3665-4aa3-87ad-130a5d2126ac",
+          "x": 100230,
+          "y": 15062,
+          "label": "Try to limit generic info. Accept only if specially convenient.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "c1deab58-8978-4f29-9fd1-7d84dd30134b": {
+          "id": "c1deab58-8978-4f29-9fd1-7d84dd30134b",
+          "x": 100827,
+          "y": 13778,
+          "label": "Search by date?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "7374cc13-59f9-4a2e-b159-b71d5adea576": {
+          "id": "7374cc13-59f9-4a2e-b159-b71d5adea576",
+          "x": 100858,
+          "y": 13842,
+          "label": "Semantics sources? RDF?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6e8cbad5-e98a-406f-bfd0-9b9b67713917": {
+          "id": "6e8cbad5-e98a-406f-bfd0-9b9b67713917",
+          "x": 100981,
+          "y": 13765,
+          "label": "Years of author life?"
+        },
+        "1a90a3c7-1994-4b56-a654-6a5ce3019686": {
+          "id": "1a90a3c7-1994-4b56-a654-6a5ce3019686",
+          "x": 100954,
+          "y": 13788,
+          "label": "Work date?"
+        },
+        "0e9aef97-a163-4a59-8ed4-8d97252044ce": {
+          "id": "0e9aef97-a163-4a59-8ed4-8d97252044ce",
+          "x": 100447,
+          "y": 14310,
+          "label": "http://papyri.info",
+          "link": "http://papyri.info"
+        },
+        "9b68e27a-a84e-495d-b581-bdf05557279f": {
+          "id": "9b68e27a-a84e-495d-b581-bdf05557279f",
+          "x": 100646,
+          "y": 14282,
+          "label": "http://papyri.info/search",
+          "link": "http://papyri.info/search"
+        },
+        "eac31924-beba-4a0e-9623-2bb3b5ad995a": {
+          "id": "eac31924-beba-4a0e-9623-2bb3b5ad995a",
+          "x": 100673,
+          "y": 14320,
+          "label": "http://papyri.info/docs/resources",
+          "link": "http://papyri.info/docs/resources"
+        },
+        "ee1af9a1-debc-44e5-9f30-3726e76e7899": {
+          "id": "ee1af9a1-debc-44e5-9f30-3726e76e7899",
+          "x": 100975,
+          "y": 14321,
+          "label": "Papyrological Tools, Resources and Organizations"
+        },
+        "f10868c7-2a0c-4dc5-a42b-a23143933a42": {
+          "id": "f10868c7-2a0c-4dc5-a42b-a23143933a42",
+          "x": 100669,
+          "y": 14352,
+          "label": "http://papyri.info/docs/checklist",
+          "link": "http://papyri.info/docs/checklist"
+        },
+        "4767e8d1-f22f-49f3-94d5-49e683a8a4cd": {
+          "id": "4767e8d1-f22f-49f3-94d5-49e683a8a4cd",
+          "x": 101070,
+          "y": 14352,
+          "label": "Checklist of Editions of Greek, Latin, Demotic, and Coptic Papyri, Ostraca, and Tablets"
         }
       },
       "length": 0,
@@ -31031,6 +31655,346 @@ var schemeData =
           "from": "de33059a-2b21-4eb7-98e4-81d28c1fa878",
           "to": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
           "id": "e603bce8-098f-4c4a-939f-20fa759a1166"
+        },
+        "086053dc-ac4f-49bd-b482-9d7e0218a38b": {
+          "from": "c1f72eae-a076-4328-beaf-44ae8f76d26d",
+          "to": "70128b34-3680-4d5b-acaf-5f16e6eea292",
+          "id": "086053dc-ac4f-49bd-b482-9d7e0218a38b"
+        },
+        "99a6d665-3dd3-4ed1-bc41-cb3147d3a920": {
+          "from": "70128b34-3680-4d5b-acaf-5f16e6eea292",
+          "to": "7deddbe7-55c8-4622-adc9-e99f28abdade",
+          "id": "99a6d665-3dd3-4ed1-bc41-cb3147d3a920"
+        },
+        "ee604e50-2e45-4bdd-86a4-45607f75460f": {
+          "from": "7deddbe7-55c8-4622-adc9-e99f28abdade",
+          "to": "464da614-7386-4c52-b92d-d44f237b6143",
+          "id": "ee604e50-2e45-4bdd-86a4-45607f75460f"
+        },
+        "6435fafd-25cb-432c-8262-12c19e29cb27": {
+          "from": "c1f72eae-a076-4328-beaf-44ae8f76d26d",
+          "to": "39ed26de-7410-4c2c-8ac4-7e9ed0d58e3d",
+          "id": "6435fafd-25cb-432c-8262-12c19e29cb27"
+        },
+        "17b6136b-d783-4c20-80df-42a93ef4bd94": {
+          "from": "39ed26de-7410-4c2c-8ac4-7e9ed0d58e3d",
+          "to": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "id": "17b6136b-d783-4c20-80df-42a93ef4bd94"
+        },
+        "ddf5da07-6d6b-4b13-8cfb-9398ed8a7419": {
+          "from": "39ed26de-7410-4c2c-8ac4-7e9ed0d58e3d",
+          "to": "d44448ca-1c71-4dbf-b4e9-91ab4ec8820b",
+          "id": "ddf5da07-6d6b-4b13-8cfb-9398ed8a7419"
+        },
+        "1bfb6ddf-61ee-4015-945f-fccba2d0a52a": {
+          "from": "39ed26de-7410-4c2c-8ac4-7e9ed0d58e3d",
+          "to": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "id": "1bfb6ddf-61ee-4015-945f-fccba2d0a52a"
+        },
+        "b8bea317-6050-4c23-9177-a63229a657d0": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "028bc36e-d0f3-4ced-a472-104517b2472c",
+          "id": "b8bea317-6050-4c23-9177-a63229a657d0"
+        },
+        "f0f93b52-bc5c-4a3f-8bd3-0348d0b400e4": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "f82c284a-12f9-4e3a-9b53-285298759609",
+          "id": "f0f93b52-bc5c-4a3f-8bd3-0348d0b400e4"
+        },
+        "5b5ae01f-1268-4d26-a2a7-226bec12e2da": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "0aa6a169-2db4-4aee-a10b-f8129b5836a8",
+          "id": "5b5ae01f-1268-4d26-a2a7-226bec12e2da"
+        },
+        "64dca153-759b-498c-95cd-38609c0971af": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "ad3a7172-06bb-43d2-a870-a1696004863f",
+          "id": "64dca153-759b-498c-95cd-38609c0971af"
+        },
+        "fcd7f861-edd6-47f3-bd73-0dc29f4f428f": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "e36eb72e-5310-4d95-b374-48a594cfb3d3",
+          "id": "fcd7f861-edd6-47f3-bd73-0dc29f4f428f"
+        },
+        "dcfa89c9-6b9e-4b7a-9090-bf72d086b0f3": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "9b25f258-93c7-42a3-84e5-ae096e3303f9",
+          "id": "dcfa89c9-6b9e-4b7a-9090-bf72d086b0f3"
+        },
+        "fd72bca0-a61c-4948-a797-2682b08a3b4f": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "ed4f63d4-cacc-444a-bf5d-6382a8fe2857",
+          "id": "fd72bca0-a61c-4948-a797-2682b08a3b4f"
+        },
+        "4e8f9111-4a56-41b7-82d5-15cd93a9d0c1": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "804aa857-0d54-43e5-bd92-902dfbd99e1a",
+          "id": "4e8f9111-4a56-41b7-82d5-15cd93a9d0c1"
+        },
+        "b80824a1-8740-4f05-8131-48d19f66ad4b": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "3c044c4d-422e-4470-9c99-d805373b1083",
+          "id": "b80824a1-8740-4f05-8131-48d19f66ad4b"
+        },
+        "206cf034-b0c2-4dca-bf8e-2f5eb678a3e1": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "25eaebbe-2940-49da-9688-45fe442aa0f2",
+          "id": "206cf034-b0c2-4dca-bf8e-2f5eb678a3e1"
+        },
+        "379b13db-e9e9-4620-b826-f73030244b33": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "111512c2-134c-43f4-9e6b-3e41920ddae9",
+          "id": "379b13db-e9e9-4620-b826-f73030244b33"
+        },
+        "531582a9-dc0e-4435-8d0a-2d4c350ba425": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "6852b19e-7fcd-4c97-8e30-6078325fe6d2",
+          "id": "531582a9-dc0e-4435-8d0a-2d4c350ba425"
+        },
+        "1b299745-d28e-42bf-b3fd-329f0a9f93ad": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "ffdaf1b4-ffcb-4aa7-943d-e630e5b897bc",
+          "id": "1b299745-d28e-42bf-b3fd-329f0a9f93ad"
+        },
+        "0afab3e9-1d59-4bb4-80d6-77d019d3d544": {
+          "from": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7",
+          "to": "16714b0c-97a5-44bc-9308-64b8b2f91c86",
+          "id": "0afab3e9-1d59-4bb4-80d6-77d019d3d544"
+        },
+        "f40911df-b470-4982-ab73-48a5348863ea": {
+          "from": "c1f72eae-a076-4328-beaf-44ae8f76d26d",
+          "to": "aa71f0e5-74d0-4510-a441-6fb7850e08dc",
+          "id": "f40911df-b470-4982-ab73-48a5348863ea"
+        },
+        "60c04883-465c-437f-91d9-5ffa74d599cb": {
+          "from": "c1f72eae-a076-4328-beaf-44ae8f76d26d",
+          "to": "d18202fb-fb0f-47d6-9a98-cc2f15c4dd52",
+          "id": "60c04883-465c-437f-91d9-5ffa74d599cb"
+        },
+        "73b09d0d-6a9c-4904-88eb-02d97dfbcd2b": {
+          "from": "c1f72eae-a076-4328-beaf-44ae8f76d26d",
+          "to": "8bc75092-b403-4cc5-90a4-c6c1b72cba4c",
+          "id": "73b09d0d-6a9c-4904-88eb-02d97dfbcd2b"
+        },
+        "c65150a0-b3a0-4da2-911c-70ebd05286ca": {
+          "from": "6bea1672-da1d-45dc-af5f-eb4aaf192e9c",
+          "to": "3bab7962-0904-45b4-b11f-828ece86db3d",
+          "id": "c65150a0-b3a0-4da2-911c-70ebd05286ca"
+        },
+        "8c546a0c-211d-4b4f-8f53-4294a088bed0": {
+          "from": "3bab7962-0904-45b4-b11f-828ece86db3d",
+          "to": "0fafbac5-d921-4060-91dd-95142320add6",
+          "id": "8c546a0c-211d-4b4f-8f53-4294a088bed0"
+        },
+        "96bdb2cf-505d-4019-9d46-f3b07ee2bb11": {
+          "from": "0d0ed6d5-83f8-405b-b424-7dd3d3644f1b",
+          "to": "418eb2ab-80e9-4e14-bbed-622f1ec5e457",
+          "id": "96bdb2cf-505d-4019-9d46-f3b07ee2bb11"
+        },
+        "407e5518-6cc8-4801-9fdf-59132107dd12": {
+          "from": "0d0ed6d5-83f8-405b-b424-7dd3d3644f1b",
+          "to": "45f7bb75-dc42-44a2-99df-93ac4004ac66",
+          "id": "407e5518-6cc8-4801-9fdf-59132107dd12"
+        },
+        "cf5a2dff-b1ca-45d0-9040-ff7010194422": {
+          "from": "0d0ed6d5-83f8-405b-b424-7dd3d3644f1b",
+          "to": "7b7dafee-3419-4b24-a4d8-f2cffc0c28c9",
+          "id": "cf5a2dff-b1ca-45d0-9040-ff7010194422"
+        },
+        "adf5e780-b550-4819-a654-a8ee0daded9e": {
+          "from": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "to": "0d0ed6d5-83f8-405b-b424-7dd3d3644f1b",
+          "id": "adf5e780-b550-4819-a654-a8ee0daded9e"
+        },
+        "1c980a00-accc-481c-b5ec-6cceba0a1840": {
+          "from": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "to": "0cea6cd3-9e6d-4cfc-8550-b68a6352a7fd",
+          "id": "1c980a00-accc-481c-b5ec-6cceba0a1840"
+        },
+        "e716e441-b860-452c-a9d9-0d26f4e41f6e": {
+          "from": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "to": "a3efbf7c-ed15-4567-bc95-6d7e35ac2a4c",
+          "id": "e716e441-b860-452c-a9d9-0d26f4e41f6e"
+        },
+        "0479a0d3-4b41-4a81-9cc7-cc38bf49d683": {
+          "from": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "to": "46e13f7b-9617-425f-9801-280cf5a82efb",
+          "id": "0479a0d3-4b41-4a81-9cc7-cc38bf49d683"
+        },
+        "663ddb86-0b78-41cb-b6ab-c4c8447b0449": {
+          "from": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "to": "22e82ba8-3bab-49cd-a3cf-bfebc7da73bd",
+          "id": "663ddb86-0b78-41cb-b6ab-c4c8447b0449"
+        },
+        "d2cfaaa1-1410-48b6-b748-5a9ff1fc857c": {
+          "from": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "to": "10cd7bf5-e4c2-453f-9e2f-ee5d46b019ec",
+          "id": "d2cfaaa1-1410-48b6-b748-5a9ff1fc857c"
+        },
+        "f435dcb2-8b9b-4226-9c79-12883faffc7c": {
+          "from": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "to": "9742994a-2852-44ff-b31f-e0e0474c7010",
+          "id": "f435dcb2-8b9b-4226-9c79-12883faffc7c"
+        },
+        "f80e9c72-db58-464e-9cfc-ba1d04f5a968": {
+          "from": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "to": "6bea1672-da1d-45dc-af5f-eb4aaf192e9c",
+          "id": "f80e9c72-db58-464e-9cfc-ba1d04f5a968"
+        },
+        "19fb6dfe-1e15-4dee-abef-cc258469d7bb": {
+          "from": "b61c5df8-143d-477a-8387-d3209cc0b625",
+          "to": "9b7aa249-d747-4b49-a84c-ecfea28c957c",
+          "id": "19fb6dfe-1e15-4dee-abef-cc258469d7bb"
+        },
+        "fc1b96d8-39df-4e2b-8e1b-287b971fe11c": {
+          "from": "0cea6cd3-9e6d-4cfc-8550-b68a6352a7fd",
+          "to": "3b574531-321a-4e54-a7e9-21826d3a7546",
+          "id": "fc1b96d8-39df-4e2b-8e1b-287b971fe11c"
+        },
+        "e928e0e5-032c-4c29-91d0-704f49d3ee88": {
+          "from": "3b574531-321a-4e54-a7e9-21826d3a7546",
+          "to": "b7986041-819e-44ff-83d6-44d33ecc7ad3",
+          "id": "e928e0e5-032c-4c29-91d0-704f49d3ee88"
+        },
+        "1cea2782-51d3-4fa7-b591-3a2fb54cdcb9": {
+          "from": "3b574531-321a-4e54-a7e9-21826d3a7546",
+          "to": "e229e21f-ddc5-4d6c-962a-40c3e696909f",
+          "id": "1cea2782-51d3-4fa7-b591-3a2fb54cdcb9"
+        },
+        "318d674c-b8bb-4409-974e-58283b5e4696": {
+          "from": "e229e21f-ddc5-4d6c-962a-40c3e696909f",
+          "to": "eb3e15bb-5357-4e62-9b93-83a4dfe14ef7",
+          "id": "318d674c-b8bb-4409-974e-58283b5e4696"
+        },
+        "6a437a4e-738d-4cbb-9f80-480fdd0d9bf5": {
+          "from": "576da681-2be5-47c0-b64d-ee7dc88bfde2",
+          "to": "e33c490a-3dd2-4503-bec6-9c5d23f16359",
+          "id": "6a437a4e-738d-4cbb-9f80-480fdd0d9bf5"
+        },
+        "b62435a6-bcf6-416b-80a9-918cdaf26878": {
+          "from": "576da681-2be5-47c0-b64d-ee7dc88bfde2",
+          "to": "c4bb85d6-8c39-47ce-98b8-0cf4f481b9bc",
+          "id": "b62435a6-bcf6-416b-80a9-918cdaf26878"
+        },
+        "26794ad9-7606-4f9b-9bbc-1e162fc4b79a": {
+          "from": "576da681-2be5-47c0-b64d-ee7dc88bfde2",
+          "to": "992c6a8a-0f3d-44d7-9496-fc9012808eee",
+          "id": "26794ad9-7606-4f9b-9bbc-1e162fc4b79a"
+        },
+        "2d2ada63-091f-437d-b1cd-f1d01d7aa6aa": {
+          "from": "3b574531-321a-4e54-a7e9-21826d3a7546",
+          "to": "3792fe16-81a0-493b-a1b4-6f569c033366",
+          "id": "2d2ada63-091f-437d-b1cd-f1d01d7aa6aa"
+        },
+        "c5c24c81-1684-4edd-b767-626b45653be3": {
+          "from": "3792fe16-81a0-493b-a1b4-6f569c033366",
+          "to": "50fbfc20-4b6f-4bfb-8f3f-09296062605c",
+          "id": "c5c24c81-1684-4edd-b767-626b45653be3"
+        },
+        "0abf00b1-1ae0-46d5-bb35-55ce0c0d9ec0": {
+          "from": "3792fe16-81a0-493b-a1b4-6f569c033366",
+          "to": "576da681-2be5-47c0-b64d-ee7dc88bfde2",
+          "id": "0abf00b1-1ae0-46d5-bb35-55ce0c0d9ec0"
+        },
+        "8f3be7a4-e035-47ef-b9bc-36d98e429bfd": {
+          "from": "3792fe16-81a0-493b-a1b4-6f569c033366",
+          "to": "f521f54f-bc84-45db-b181-b2064a90b522",
+          "id": "8f3be7a4-e035-47ef-b9bc-36d98e429bfd"
+        },
+        "2a5fa8d5-1e95-48e0-9cd0-c8c4c3c24d13": {
+          "from": "50fbfc20-4b6f-4bfb-8f3f-09296062605c",
+          "to": "cd044486-9e18-407c-aa7e-fd1f8f6acfa2",
+          "id": "2a5fa8d5-1e95-48e0-9cd0-c8c4c3c24d13"
+        },
+        "f818c308-8e3a-41e9-9f55-97819b7fed35": {
+          "from": "9b7aa249-d747-4b49-a84c-ecfea28c957c",
+          "to": "69d7260b-3d91-4f9c-850e-70e57abc8111",
+          "id": "f818c308-8e3a-41e9-9f55-97819b7fed35"
+        },
+        "5571e130-2fe1-4002-a13b-0797f9c09c77": {
+          "from": "d44448ca-1c71-4dbf-b4e9-91ab4ec8820b",
+          "to": "2c03c43c-db4c-460a-a8b3-f3cb05691892",
+          "id": "5571e130-2fe1-4002-a13b-0797f9c09c77"
+        },
+        "ee02d49c-5d63-4ae0-bdda-de00da8a642c": {
+          "from": "2c03c43c-db4c-460a-a8b3-f3cb05691892",
+          "to": "7586d17e-5b86-4f37-8007-b9da7ebfd087",
+          "id": "ee02d49c-5d63-4ae0-bdda-de00da8a642c"
+        },
+        "32f0d14b-0de2-45b7-aed9-ea6cdb076e56": {
+          "from": "2c03c43c-db4c-460a-a8b3-f3cb05691892",
+          "to": "025b3eac-7fa2-4b9e-9403-da9940764731",
+          "id": "32f0d14b-0de2-45b7-aed9-ea6cdb076e56"
+        },
+        "515bb981-efbd-46c5-8dd6-ef2603b25138": {
+          "from": "2c03c43c-db4c-460a-a8b3-f3cb05691892",
+          "to": "a00fb79f-9961-4394-bea2-9ea53b8532fc",
+          "id": "515bb981-efbd-46c5-8dd6-ef2603b25138"
+        },
+        "78e97f97-9bab-4232-a00b-dc3bffa1bd7b": {
+          "from": "f521f54f-bc84-45db-b181-b2064a90b522",
+          "to": "84151f85-b74c-471b-baec-458220c9740f",
+          "id": "78e97f97-9bab-4232-a00b-dc3bffa1bd7b"
+        },
+        "2a7f7dd9-5568-4b02-b9c1-e7b5426ecb6a": {
+          "from": "9742994a-2852-44ff-b31f-e0e0474c7010",
+          "to": "f378b4d7-f1f7-40db-a06f-ad85ac2cb959",
+          "id": "2a7f7dd9-5568-4b02-b9c1-e7b5426ecb6a"
+        },
+        "fc934697-0a68-4564-9c2e-6fd0896ddf18": {
+          "from": "d44448ca-1c71-4dbf-b4e9-91ab4ec8820b",
+          "to": "a1936ac9-3665-4aa3-87ad-130a5d2126ac",
+          "id": "fc934697-0a68-4564-9c2e-6fd0896ddf18"
+        },
+        "c3881c8b-3955-48d3-94bc-b1cda74ef3a6": {
+          "from": "3792fe16-81a0-493b-a1b4-6f569c033366",
+          "to": "c1deab58-8978-4f29-9fd1-7d84dd30134b",
+          "id": "c3881c8b-3955-48d3-94bc-b1cda74ef3a6"
+        },
+        "e073162e-3549-4560-b754-7e968c3b5971": {
+          "from": "3792fe16-81a0-493b-a1b4-6f569c033366",
+          "to": "7374cc13-59f9-4a2e-b159-b71d5adea576",
+          "id": "e073162e-3549-4560-b754-7e968c3b5971"
+        },
+        "66dd3b9e-6bfb-4b75-ae3c-864e8c32b2d2": {
+          "from": "c1deab58-8978-4f29-9fd1-7d84dd30134b",
+          "to": "6e8cbad5-e98a-406f-bfd0-9b9b67713917",
+          "id": "66dd3b9e-6bfb-4b75-ae3c-864e8c32b2d2"
+        },
+        "a77a9052-5554-44f3-9892-e3067fda18d8": {
+          "from": "c1deab58-8978-4f29-9fd1-7d84dd30134b",
+          "to": "1a90a3c7-1994-4b56-a654-6a5ce3019686",
+          "id": "a77a9052-5554-44f3-9892-e3067fda18d8"
+        },
+        "1d723314-bd66-445a-b8b9-e61ffdc7be03": {
+          "from": "eac31924-beba-4a0e-9623-2bb3b5ad995a",
+          "to": "ee1af9a1-debc-44e5-9f30-3726e76e7899",
+          "id": "1d723314-bd66-445a-b8b9-e61ffdc7be03"
+        },
+        "4e2d8a29-06c3-46c7-a898-24aa115a3bfc": {
+          "from": "f10868c7-2a0c-4dc5-a42b-a23143933a42",
+          "to": "4767e8d1-f22f-49f3-94d5-49e683a8a4cd",
+          "id": "4e2d8a29-06c3-46c7-a898-24aa115a3bfc"
+        },
+        "316d621f-7487-42b5-950d-f4e6febbd510": {
+          "from": "0e9aef97-a163-4a59-8ed4-8d97252044ce",
+          "to": "9b68e27a-a84e-495d-b581-bdf05557279f",
+          "id": "316d621f-7487-42b5-950d-f4e6febbd510"
+        },
+        "60a89e4e-d462-40c8-baa1-edccfa01e7a5": {
+          "from": "0e9aef97-a163-4a59-8ed4-8d97252044ce",
+          "to": "eac31924-beba-4a0e-9623-2bb3b5ad995a",
+          "id": "60a89e4e-d462-40c8-baa1-edccfa01e7a5"
+        },
+        "375a6f04-5659-4e01-a3da-90daed8faccf": {
+          "from": "0e9aef97-a163-4a59-8ed4-8d97252044ce",
+          "to": "f10868c7-2a0c-4dc5-a42b-a23143933a42",
+          "id": "375a6f04-5659-4e01-a3da-90daed8faccf"
+        },
+        "998eba1e-9e89-4d46-89f9-972f841fba16": {
+          "from": "9b7aa249-d747-4b49-a84c-ecfea28c957c",
+          "to": "0e9aef97-a163-4a59-8ed4-8d97252044ce",
+          "id": "998eba1e-9e89-4d46-89f9-972f841fba16"
         }
       },
       "length": 0,
@@ -31068,10 +32032,10 @@ var schemeData =
   },
   "dataCash": {},
   "setup": {
-    "scale": 0.0177,
+    "scale": 0.6942740485326138,
     "viewPosition": {
-      "x": 95402.99999892653,
-      "y": 7199.999996384177
+      "x": 86465.94406616643,
+      "y": 3979.659428565259
     }
   }
 }

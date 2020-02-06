@@ -61,8 +61,45 @@ for (var key in files) {
 	}
 	files[key].fileContentPointNodeId = fileContentPointNodeId
 }
+for (var key in nodes) {
+	if (nodes[key].label.startsWith("mvj code setup for project name: " + projectName)) {
+		setupNodeId = key;
+	}
+}
+for (var keyE in edges) {
+	if (edges[keyE].from == setupNodeId && (typeof nodes[edges[keyE].to] !== "undefined")) {
+		var nodeId = edges[keyE].to;
+		if (nodes[nodeId].label.startsWith("projectPath")) {
+			setup["projectPath"] = nodes[nodeId].label.replace("projectPath: ", "");
+		}
+		if (nodes[nodeId].label.startsWith("backupPaths")) {
+			setup["backupPaths"] = nodes[nodeId].label.replace("backupPaths: ", "");
+			setup["backupPaths"] = JSON.parse(setup["backupPaths"]);
+		}
+		if (nodes[nodeId].label.startsWith("jsFilesLinksParam")) {
+			setup["jsFilesLinksParam"] = nodes[nodeId].label.replace("jsFilesLinksParam:", "").trim();
+			setup["jsFilesLinksParam"] = parseInt(setup["jsFilesLinksParam"], 10);
+		}
+	}
+}
 function collectCodeNodesContent(rootCodeNodeId, nodes, edges) {
-	var code = nodes[rootCodeNodeId].label + "\n";
+   var nodeCode = nodes[rootCodeNodeId].label;
+
+   var matchResults = nodeCode.match(/generateCode1[\s\S]*?generateCode2/g);
+   if (matchResults !== null) {
+      for (var i = 0; i < matchResults.length; i++) {
+         console.log(matchResults[i]);
+         var codeToRun = matchResults[i].replace(/generateCode1([\s\S]*?)generateCode2/g, "$1");
+         console.log(codeToRun);
+         var codeFunction = new Function("setup", codeToRun);
+         var fResult = codeFunction(setup);
+         console.log(fResult);
+         nodeCode = nodeCode.replace(matchResults[i],fResult);
+      }
+   }
+   nodeCode = nodeCode.replace(/generate\$k\$Code/g,"generateCode");
+
+   var code = nodeCode + "\n";
 	var nodeBranchesNodesIds = [];
 	for (var keyE in edges) {
 		if ((edges[keyE].from == rootCodeNodeId) && (edges[keyE].label == "code")) {
@@ -125,23 +162,6 @@ for (var key in files) {
 	files[key].fileContentNodeId = fileContentNodeId
 	fileContent = collectCodeNodesContent(fileContentNodeId, nodes, edges);
 	files[key].fileContent = fileContent;
-}
-for (var key in nodes) {
-	if (nodes[key].label.startsWith("mvj code setup for project name: " + projectName)) {
-		setupNodeId = key;
-	}
-}
-for (var keyE in edges) {
-	if (edges[keyE].from == setupNodeId && (typeof nodes[edges[keyE].to] !== "undefined")) {
-		var nodeId = edges[keyE].to;
-		if (nodes[nodeId].label.startsWith("projectPath")) {
-			setup["projectPath"] = nodes[nodeId].label.replace("projectPath: ", "");
-		}
-		if (nodes[nodeId].label.startsWith("backupPaths")) {
-			setup["backupPaths"] = nodes[nodeId].label.replace("backupPaths: ", "");
-			setup["backupPaths"] = JSON.parse(setup["backupPaths"]);
-		}
-	}
 }
 var date = new Date();
 var backupDirPath = rootBackupDirPath + projectName + "_" + date + "/";

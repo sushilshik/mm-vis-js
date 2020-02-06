@@ -1260,7 +1260,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "for (var key in nodes) {\n\tif (nodes[key].label.startsWith(\"mvj code file for project name: \" + projectName)) {\n\t\tfiles[key] = {rootNodeId: key, projectName: projectName};\n\t}\n}\n",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948",
-          "x": 67415,
+          "x": 67414,
           "y": 72,
           "shape": "box",
           "link": "",
@@ -1295,7 +1295,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "for (var key in files) {\n\tvar rootNodeId = files[key].rootNodeId;\n\tvar filePath;\n\tvar filePathNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == rootNodeId) {\n\t\t\tfilePathNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].filePathNodeId = filePathNodeId\n\t\tfilePath = nodes[filePathNodeId].label.replace(\"file path: \", \"\");\n\tfiles[key].filePath = filePath;\n}\n",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948913238",
-          "x": 67355,
+          "x": 67354,
           "y": 230,
           "shape": "box",
           "link": "",
@@ -1364,10 +1364,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function collectCodeNodesContent(rootCodeNodeId, nodes, edges) {\n\tvar code = nodes[rootCodeNodeId].label + \"\\n\";\n\tvar nodeBranchesNodesIds = [];\n\tfor (var keyE in edges) {\n\t\tif ((edges[keyE].from == rootCodeNodeId) && (edges[keyE].label == \"code\")) {\n\t\t\tnodeBranchesNodesIds.push(edges[keyE].to);\n\t\t}\n\t}\n\tvar branchCodeNodes = [];\n\tnodeBranchesNodesIds.forEach(function(branchNodeId) {\n\t\tbranchCodeNodes.push(nodes[branchNodeId]);\n\t});\n        if (branchCodeNodes.length > 0 && typeof branchCodeNodes[0] === \"undefined\") {\n           var z = [];\n           nodeBranchesNodesIds.forEach(function(nodeId) {\n                for(var key1 in edges) {\n                        if (edges[key1].to == nodeId) {\n                                z.push(key1);\n                        }\n                }\n           });\n                console.log(z);\n        }\n\n\tfunction compare( a, b ) {\n\t\tif ( a.y < b.y ){\n\t\t\treturn -1;\n\t\t}\n\t\tif ( a.y > b.y ){\n\t\t\treturn 1;\n\t\t}\n\t\treturn 0;\n\t}\n\n\tvar branchCodeNodes = branchCodeNodes.sort(compare);\n\tbranchCodeNodes.forEach(function(branchNode) {\n\t\t\tcode = code + collectCodeNodesContent(branchNode.id, nodes, edges);\n\t\t\t});\n\treturn code;\n}",
+          "label": "function collectCodeNodesContent(rootCodeNodeId, nodes, edges) {\n   var nodeCode = nodes[rootCodeNodeId].label;\n\n   var matchResults = nodeCode.match(/generate$k$Code1[\\s\\S]*?generate$k$Code2/g);\n   if (matchResults !== null) {\n      for (var i = 0; i < matchResults.length; i++) {\n         console.log(matchResults[i]);\n         var codeToRun = matchResults[i].replace(/generate$k$Code1([\\s\\S]*?)generate$k$Code2/g, \"$1\");\n         console.log(codeToRun);\n         var codeFunction = new Function(\"setup\", codeToRun);\n         var fResult = codeFunction(setup);\n         console.log(fResult);\n         nodeCode = nodeCode.replace(matchResults[i],fResult);\n      }\n   }\n   nodeCode = nodeCode.replace(/generate\\$k\\$Code/g,\"generateCode\");\n\n   var code = nodeCode + \"\\n\";\n\tvar nodeBranchesNodesIds = [];\n\tfor (var keyE in edges) {\n\t\tif ((edges[keyE].from == rootCodeNodeId) && (edges[keyE].label == \"code\")) {\n\t\t\tnodeBranchesNodesIds.push(edges[keyE].to);\n\t\t}\n\t}\n\tvar branchCodeNodes = [];\n\tnodeBranchesNodesIds.forEach(function(branchNodeId) {\n\t\tbranchCodeNodes.push(nodes[branchNodeId]);\n\t});\n        if (branchCodeNodes.length > 0 && typeof branchCodeNodes[0] === \"undefined\") {\n           var z = [];\n           nodeBranchesNodesIds.forEach(function(nodeId) {\n                for(var key1 in edges) {\n                        if (edges[key1].to == nodeId) {\n                                z.push(key1);\n                        }\n                }\n           });\n                console.log(z);\n        }\n\n\tfunction compare( a, b ) {\n\t\tif ( a.y < b.y ){\n\t\t\treturn -1;\n\t\t}\n\t\tif ( a.y > b.y ){\n\t\t\treturn 1;\n\t\t}\n\t\treturn 0;\n\t}\n\n\tvar branchCodeNodes = branchCodeNodes.sort(compare);\n\tbranchCodeNodes.forEach(function(branchNode) {\n\t\t\tcode = code + collectCodeNodesContent(branchNode.id, nodes, edges);\n\t\t\t});\n\treturn code;\n}",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948914128",
-          "x": 67439,
-          "y": 790,
+          "x": 67488,
+          "y": 1273,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1401,8 +1401,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "for (var key in files) {\n\tvar fileContentPointNodeId = files[key].fileContentPointNodeId;\n\tvar fileContentNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == fileContentPointNodeId) {\n\t\t\tfileContentNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].fileContentNodeId = fileContentNodeId\n\tfileContent = collectCodeNodesContent(fileContentNodeId, nodes, edges);\n\tfiles[key].fileContent = fileContent;\n}",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948917538",
-          "x": 67399,
-          "y": 1372,
+          "x": 67396,
+          "y": 1968,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1436,8 +1436,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "for (var key in nodes) {\n\tif (nodes[key].label.startsWith(\"mvj code setup for project name: \" + projectName)) {\n\t\tsetupNodeId = key;\n\t}\n}",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948914808",
-          "x": 67426,
-          "y": 1515,
+          "x": 67423,
+          "y": 544,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1446,7 +1446,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -1469,10 +1470,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "for (var keyE in edges) {\n\tif (edges[keyE].from == setupNodeId && (typeof nodes[edges[keyE].to] !== \"undefined\")) {\n\t\tvar nodeId = edges[keyE].to;\n\t\tif (nodes[nodeId].label.startsWith(\"projectPath\")) {\n\t\t\tsetup[\"projectPath\"] = nodes[nodeId].label.replace(\"projectPath: \", \"\");\n\t\t}\n\t\tif (nodes[nodeId].label.startsWith(\"backupPaths\")) {\n\t\t\tsetup[\"backupPaths\"] = nodes[nodeId].label.replace(\"backupPaths: \", \"\");\n\t\t\tsetup[\"backupPaths\"] = JSON.parse(setup[\"backupPaths\"]);\n\t\t}\n\t}\n}",
+          "label": "for (var keyE in edges) {\n\tif (edges[keyE].from == setupNodeId && (typeof nodes[edges[keyE].to] !== \"undefined\")) {\n\t\tvar nodeId = edges[keyE].to;\n\t\tif (nodes[nodeId].label.startsWith(\"projectPath\")) {\n\t\t\tsetup[\"projectPath\"] = nodes[nodeId].label.replace(\"projectPath: \", \"\");\n\t\t}\n\t\tif (nodes[nodeId].label.startsWith(\"backupPaths\")) {\n\t\t\tsetup[\"backupPaths\"] = nodes[nodeId].label.replace(\"backupPaths: \", \"\");\n\t\t\tsetup[\"backupPaths\"] = JSON.parse(setup[\"backupPaths\"]);\n\t\t}\n\t\tif (nodes[nodeId].label.startsWith(\"jsFilesLinksParam\")) {\n\t\t\tsetup[\"jsFilesLinksParam\"] = nodes[nodeId].label.replace(\"jsFilesLinksParam:\", \"\").trim();\n\t\t\tsetup[\"jsFilesLinksParam\"] = parseInt(setup[\"jsFilesLinksParam\"], 10);\n\t\t}\n\t}\n}",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948916348",
-          "x": 67445,
-          "y": 1651,
+          "x": 67444,
+          "y": 717,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1507,8 +1508,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var date = new Date();\nvar backupDirPath = rootBackupDirPath + projectName + \"_\" + date + \"/\";\nif (!fs.existsSync(backupDirPath)){\n   fs.mkdirSync(backupDirPath);\n}\n\nvar shell = require('child_process').execSync ; \nsetup[\"backupPaths\"].forEach(function(backupPath) {\n   console.log(\"backupPath: \" + backupPath);\n   var command = \"cp -r '\" + backupPath + \"' '\" + backupDirPath + \"'\";\n   console.log(command);\n   shell(command);\n});\n\nvar projectPath = setup[\"projectPath\"];\nif (!fs.existsSync(projectPath)){\n   console.log(\"fs.mkdirSync(projectPath): \" +  projectPath);\n   //fs.mkdirSync(projectPath);\n   mkdirRecursiveSync(projectPath, pathDelimiter);\n}\n\nfor (var key in files) {\n   var filePath = projectPath + \"/\" + files[key].filePath;\n   var fileDirPath = filePath.split(pathDelimiter);\n   fileDirPath.pop();\n   fileDirPath = fileDirPath.join(pathDelimiter);\n   mkdirRecursiveSync(fileDirPath, pathDelimiter);\n   var fileContent = files[key].fileContent;\n   console.log(\"filePath: \" + filePath);\n   fs.writeFileSync(filePath, fileContent);\n}",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f4622948916988",
-          "x": 67390,
-          "y": 1984,
+          "x": 67389,
+          "y": 2285,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1953,7 +1954,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar drag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news.html\"\n];\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
+          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar drag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news.html\"\n];\nvar lastSelectedNodeId = null;\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
           "x": 38920,
           "y": -7600,
           "id": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
@@ -2851,8 +2852,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//ctrl+Enter\n\t\tif (event.ctrlKey && event.keyCode === 13) {\n\t\t\t$(\"#saveButton\").click();\n\t\t}\n\t});",
-          "x": 41525,
-          "y": 54629,
+          "x": 41503,
+          "y": 58065,
           "id": "b1e665eb-079b-4a16-8fb4-2054b5c70fc2486"
         },
         "6d7af570-fdce-465e-a2f1-60445c56afa4486": {
@@ -2879,8 +2880,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\t$(\"input#cancelButton\").click();\n\t\t\tcancelNodeEdit = true;\n\t\t}\n\t});",
-          "x": 41525,
-          "y": 54766,
+          "x": 41503,
+          "y": 58202,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486"
         },
         "02dc1f64-b3e0-4714-afd3-a46325785228486": {
@@ -2910,8 +2911,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(document).keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\tif (document.getElementById('network-popUp').style.display == \"none\" && cancelNodeEdit == false) {\n\t\t\t\tnetwork.disableEditMode();\n\t\t\t\tnetwork.editNode();\n\t\t\t} else {\n\t\t\t\tcancelNodeEdit = false;\n\t\t\t}\n\t\t}\n\t});",
-          "x": 41685,
-          "y": 55598,
+          "x": 41663,
+          "y": 59034,
           "id": "02dc1f64-b3e0-4714-afd3-a46325785228486",
           "shape": "box",
           "link": "",
@@ -2944,8 +2945,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(document).keydown(function (event) {\n\t\t//Connect nodes. ctrl+alt+c.\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 67) {\n                        var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();\n\t\t\tif (selectedNodesCount < 2) return;\n                        var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar rootNodeId;\n                        var minLeft;\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (i == 0) {\n\t\t\t\t\tminLeft = nodes[0].x;\n\t\t\t\t\trootNodeId = nodes[0].id;\n\t\t\t\t}\n                                if (minLeft > nodes[i].x) {\n                                        minLeft = nodes[i].x;\n\t\t\t\t\trootNodeId = nodes[i].id;\n                                };\n                        }\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (nodes[i].id != rootNodeId) {\n\t\t\t\t\tvar edgeData = {from: rootNodeId, to: nodes[i].id};\n\t\t\t\t\tnetwork.body.data.edges.getDataSet().add(edgeData);\n\t\t\t\t}\n                        }\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t}\n\t});",
-          "x": 41661,
-          "y": 55970,
+          "x": 41639,
+          "y": 59406,
           "id": "306b8d2b-e500-4e08-bb72-131a63a59872486",
           "shape": "box",
           "link": "",
@@ -3073,7 +3074,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tnetwork.on('selectNode', function (properties) {\n\t\tschemeEditElementsMenu.show();\n\t\tvar nodeIdInput = $(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = $(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = $(\"input#nodeXInput\");\n\t\tvar nodeYInput = $(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = $(\"input#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = $(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = $(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = $(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = $(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = $(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = $(\"input#nodeBorderColorInput\");\n                var nodeD = getNodeFromNetworkDataById(properties.nodes[0]);\n\t\tnodeIdInput.val(nodeD.id);\n\t\tnodeLabelTextarea.val(nodeD.label);\n\t\tpNode = network.getPositions()[nodeD.id];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tif (typeof nodeD.shape !== \"undefined\" && nodeD.shape.length > 0) {\n\t\t\tnodeShapeInput.val(nodeD.shape);\n\t\t} else {\n\t\t\tnodeShapeInput.val(\"box\");\n\t\t}\n\t\tif (typeof nodeD.link !== \"undefined\" && nodeD.link.length > 0) {\n\t\t\tnodeLinkTextarea.val(nodeD.link);\n\t\t} else {\n\t\t\tnodeLinkTextarea.val(\"\");\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.size !== \"undefined\") {\n\t\t\tnodeFontSizeInput.val(nodeD.font.size);\n\t\t} else {\n\t\t\tnodeFontSizeInput.val(14);\n\t\t\tnodeD.font = {size: 14};\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.align !== \"undefined\") {\n\t\t\tnodeFontAlignInput.val(nodeD.font.align);\n\t\t} else {\n\t\t\tnodeFontAlignInput.val(\"left\");\n\t\t\tnodeD.font = {align: \"left\"};\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && typeof nodeD.color.background !== \"undefined\") {\n\t\t\tnodeColorInput.val(nodeD.color.background);\n\t\t} else {\n\t\t\tnodeD.color = {background: \"\", border: \"\"};\n\t\t}\n\t\tif (typeof nodeD.borderWidth !== \"undefined\" && nodeD.borderWidth.length > 0) {\n\t\t\tnodeBorderWidthInput.val(nodeD.borderWidth);\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && nodeD.color.length > 0) {\n\t\t\tnodeBorderColorInput.val(nodeD.color.border);\n\t\t}\n\t\tif (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + \".*\")) >= 0) {\n\t\t\tloadSavedProjectToMenuButton.show();\n\t\t\tloadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;\n\t\t\tdeleteSavedProjectButton.show();\n\t\t\tdeleteSavedProjectButton.saveProjectLabel = nodeD.label;\n\t\t} else {\n\t\t\tloadSavedProjectToMenuButton.hide();\n\t\t\tdeleteSavedProjectButton.hide();\n\t\t}\n\t});",
+          "label": "\tnetwork.on('selectNode', function (properties) {\n\t\tschemeEditElementsMenu.show();\n\t\tvar nodeIdInput = $(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = $(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = $(\"input#nodeXInput\");\n\t\tvar nodeYInput = $(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = $(\"input#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = $(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = $(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = $(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = $(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = $(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = $(\"input#nodeBorderColorInput\");\n\n                var nodeD = getNodeFromNetworkDataById(properties.nodes[0]);\n                lastSelectedNodeId = nodeD.id;\n\n\t\tnodeIdInput.val(nodeD.id);\n\t\tnodeLabelTextarea.val(nodeD.label);\n\t\tpNode = network.getPositions()[nodeD.id];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tif (typeof nodeD.shape !== \"undefined\" && nodeD.shape.length > 0) {\n\t\t\tnodeShapeInput.val(nodeD.shape);\n\t\t} else {\n\t\t\tnodeShapeInput.val(\"box\");\n\t\t}\n\t\tif (typeof nodeD.link !== \"undefined\" && nodeD.link.length > 0) {\n\t\t\tnodeLinkTextarea.val(nodeD.link);\n\t\t} else {\n\t\t\tnodeLinkTextarea.val(\"\");\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.size !== \"undefined\") {\n\t\t\tnodeFontSizeInput.val(nodeD.font.size);\n\t\t} else {\n\t\t\tnodeFontSizeInput.val(14);\n\t\t\tnodeD.font = {size: 14};\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.align !== \"undefined\") {\n\t\t\tnodeFontAlignInput.val(nodeD.font.align);\n\t\t} else {\n\t\t\tnodeFontAlignInput.val(\"left\");\n\t\t\tnodeD.font = {align: \"left\"};\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && typeof nodeD.color.background !== \"undefined\") {\n\t\t\tnodeColorInput.val(nodeD.color.background);\n\t\t} else {\n\t\t\tnodeD.color = {background: \"\", border: \"\"};\n\t\t}\n\t\tif (typeof nodeD.borderWidth !== \"undefined\" && nodeD.borderWidth.length > 0) {\n\t\t\tnodeBorderWidthInput.val(nodeD.borderWidth);\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && nodeD.color.length > 0) {\n\t\t\tnodeBorderColorInput.val(nodeD.color.border);\n\t\t}\n\t\tif (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + \".*\")) >= 0) {\n\t\t\tloadSavedProjectToMenuButton.show();\n\t\t\tloadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;\n\t\t\tdeleteSavedProjectButton.show();\n\t\t\tdeleteSavedProjectButton.saveProjectLabel = nodeD.label;\n\t\t} else {\n\t\t\tloadSavedProjectToMenuButton.hide();\n\t\t\tdeleteSavedProjectButton.hide();\n\t\t}\n\t});",
           "x": 41746,
           "y": 22642,
           "id": "04168eaf-52bc-40eb-8063-3a083d7f46f8486",
@@ -4051,8 +4052,8 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tvar eSRow1 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow1);\n\tvar eSItem11 = $(\"<td></td>\");\n\tvar eSItem12 = $(\"<td></td>\");\n\teSRow1.append(eSItem11);\n\teSRow1.append(eSItem12);\n\tvar nodeIdInputLabel = $(\"<div style=''><span>nodeId: </span></div>\");\n\teSItem11.append(nodeIdInputLabel);\n\tvar nodeIdInput = $(\"<input type='text' id='nodeIdInput'></input>\");\n\teSItem12.append(nodeIdInput);\n\n\tvar eSRow2 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow2);\n\tvar eSItem21 = $(\"<td></td>\");\n\tvar eSItem22 = $(\"<td></td>\");\n\teSRow2.append(eSItem21);\n\teSRow2.append(eSItem22);\n\tvar nodeLabelInputLabel = $(\"<div style=''><span>nodeLabel: </span></div>\");\n\teSItem21.append(nodeLabelInputLabel);\n\tvar nodeLabelTextarea = $(\"<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>\");\n\teSItem22.append(nodeLabelTextarea);\n\n\tvar eSRow3 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow3);\n\tvar eSItem31 = $(\"<td></td>\");\n\tvar eSItem32 = $(\"<td></td>\");\n\teSRow3.append(eSItem31);\n\teSRow3.append(eSItem32);\n\tvar nodeXInputLabel = $(\"<div style=''><span>nodeX: </span></div>\");\n\teSItem31.append(nodeXInputLabel);\n\tvar nodeXInput = $(\"<input type='text' id='nodeXInput'></input>\");\n\teSItem32.append(nodeXInput);\n\n\tvar eSRow4 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow4);\n\tvar eSItem41 = $(\"<td></td>\");\n\tvar eSItem42 = $(\"<td></td>\");\n\teSRow4.append(eSItem41);\n\teSRow4.append(eSItem42);\n\tvar nodeYInputLabel = $(\"<div style=''><span>nodeY: </span></div>\");\n\teSItem41.append(nodeYInputLabel);\n\tvar nodeYInput = $(\"<input type='text' id='nodeYInput'></input>\");\n\teSItem42.append(nodeYInput);\n\n\tvar eSRow5 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow5);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5.append(eSItem51);\n\teSRow5.append(eSItem52);\n\tvar nodeShapeInputLabel = $(\"<div style=''><span>nodeShape: </span></div>\");\n\teSItem51.append(nodeShapeInputLabel);\n\tvar nodeShapeInput = $(\"<input type='text' id='nodeShapeInput'></input>\");\n\teSItem52.append(nodeShapeInput);\n\n\tvar eSRow6 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow6);\n\tvar eSItem61 = $(\"<td></td>\");\n\tvar eSItem62 = $(\"<td></td>\");\n\teSRow6.append(eSItem61);\n\teSRow6.append(eSItem62);\n\tvar nodeLinkTextareaLabel = $(\"<div style=''><span>nodeLink: </span></div>\");\n\teSItem61.append(nodeLinkTextareaLabel);\n\tvar nodeLinkTextarea = $(\"<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>\");\n\teSItem62.append(nodeLinkTextarea);\n\tvar linkOpenButton = $(\"<div style='cursor:pointer;margin: 4px 0 2px 0;'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>\");\n\teSItem62.append(linkOpenButton);\n\n\tvar eSRow7 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow7);\n\tvar eSItem71 = $(\"<td></td>\");\n\tvar eSItem72 = $(\"<td></td>\");\n\teSRow7.append(eSItem71);\n\teSRow7.append(eSItem72);\n\tvar nodeColorInputLabel = $(\"<div style=''><span>nodeColor: </span></div>\");\n\teSItem71.append(nodeColorInputLabel);\n\tvar nodeColorInput = $(\"<input type='text' id='nodeColorInput'></input>\");\n\teSItem72.append(nodeColorInput);\n\n\tvar eSRow8 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow8);\n\tvar eSItem81 = $(\"<td></td>\");\n\tvar eSItem82 = $(\"<td></td>\");\n\teSRow8.append(eSItem81);\n\teSRow8.append(eSItem82);\n\tvar nodeBorderWidthInputLabel = $(\"<div style=''><span>nodeBorderWidth: </span></div>\");\n\teSItem81.append(nodeBorderWidthInputLabel);\n\tvar nodeBorderWidthInput = $(\"<input type='text' id='nodeBorderWidthInput'></input>\");\n\teSItem82.append(nodeBorderWidthInput);\n\n\tvar eSRow9 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow9);\n\tvar eSItem91 = $(\"<td></td>\");\n\tvar eSItem92 = $(\"<td></td>\");\n\teSRow9.append(eSItem91);\n\teSRow9.append(eSItem92);\n\tvar nodeBorderColorInputLabel = $(\"<div style=''><span>nodeBorderColor: </span></div>\");\n\teSItem91.append(nodeBorderColorInputLabel);\n\tvar nodeBorderColorInput = $(\"<input type='text' id='nodeBorderColorInput'></input>\");\n\teSItem92.append(nodeBorderColorInput);\n\n\tvar eSRow10 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow10);\n\tvar eSItem101 = $(\"<td></td>\");\n\tvar eSItem102 = $(\"<td></td>\");\n\teSRow10.append(eSItem101);\n\teSRow10.append(eSItem102);\n\tvar nodeFontSizeInputLabel = $(\"<div style=''><span>nodeFontSize: </span></div>\");\n\teSItem101.append(nodeFontSizeInputLabel);\n\tvar nodeFontSizeInput = $(\"<input type='text' id='nodeFontSizeInput'></input>\");\n\teSItem102.append(nodeFontSizeInput);\n\n\tvar eSRow11 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow11);\n\tvar eSItem111 = $(\"<td></td>\");\n\tvar eSItem112 = $(\"<td></td>\");\n\teSRow11.append(eSItem111);\n\teSRow11.append(eSItem112);\n\tvar nodeFontAlignInputLabel = $(\"<div style=''><span>nodeFontAlign: </span></div>\");\n\teSItem111.append(nodeFontAlignInputLabel);\n\tvar nodeFontAlignInput = $(\"<input type='text' id='nodeFontAlignInput'></input>\");\n\teSItem112.append(nodeFontAlignInput);",
-          "x": 41306,
+          "label": "\tvar eSRow1 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow1);\n\tvar eSItem11 = $(\"<td></td>\");\n\tvar eSItem12 = $(\"<td></td>\");\n\teSRow1.append(eSItem11);\n\teSRow1.append(eSItem12);\n\tvar nodeIdInputLabel = $(\"<div style=''><span>nodeId: </span></div>\");\n\teSItem11.append(nodeIdInputLabel);\n\tvar nodeIdInput = $(\"<input type='text' id='nodeIdInput'></input>\");\n\teSItem12.append(nodeIdInput);\n\n\tvar eSRow2 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow2);\n\tvar eSItem21 = $(\"<td></td>\");\n\tvar eSItem22 = $(\"<td></td>\");\n\teSRow2.append(eSItem21);\n\teSRow2.append(eSItem22);\n\tvar nodeLabelInputLabel = $(\"<div style=''><span>nodeLabel: </span></div>\");\n\teSItem21.append(nodeLabelInputLabel);\n\tvar nodeLabelTextarea = $(\"<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>\");\n\teSItem22.append(nodeLabelTextarea);\n\n\tvar eSRow3 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow3);\n\tvar eSItem31 = $(\"<td></td>\");\n\tvar eSItem32 = $(\"<td></td>\");\n\teSRow3.append(eSItem31);\n\teSRow3.append(eSItem32);\n\tvar nodeXInputLabel = $(\"<div style=''><span>nodeX: </span></div>\");\n\teSItem31.append(nodeXInputLabel);\n\tvar nodeXInput = $(\"<input type='text' id='nodeXInput'></input>\");\n\teSItem32.append(nodeXInput);\n\n\tvar eSRow4 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow4);\n\tvar eSItem41 = $(\"<td></td>\");\n\tvar eSItem42 = $(\"<td></td>\");\n\teSRow4.append(eSItem41);\n\teSRow4.append(eSItem42);\n\tvar nodeYInputLabel = $(\"<div style=''><span>nodeY: </span></div>\");\n\teSItem41.append(nodeYInputLabel);\n\tvar nodeYInput = $(\"<input type='text' id='nodeYInput'></input>\");\n\teSItem42.append(nodeYInput);\n\n\tvar eSRow5 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow5);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5.append(eSItem51);\n\teSRow5.append(eSItem52);\n\tvar nodeShapeInputLabel = $(\"<div style=''><span>nodeShape: </span></div>\");\n\teSItem51.append(nodeShapeInputLabel);\n\tvar nodeShapeInput = $(\"<input type='text' id='nodeShapeInput'></input>\");\n\teSItem52.append(nodeShapeInput);\n\n\tvar eSRow6 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow6);\n\tvar eSItem61 = $(\"<td></td>\");\n\tvar eSItem62 = $(\"<td></td>\");\n\teSRow6.append(eSItem61);\n\teSRow6.append(eSItem62);\n\tvar nodeLinkTextareaLabel = $(\"<div style=''><span>nodeLink: </span></div>\");\n\teSItem61.append(nodeLinkTextareaLabel);\n\tvar nodeLinkTextarea = $(\"<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>\");\n\teSItem62.append(nodeLinkTextarea);\n\tvar linkOpenButton = $(\"<div style='cursor:pointer;margin: 4px 0 2px 0;' id='linkOpenButton'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>\");\n\teSItem62.append(linkOpenButton);\n\n\tvar eSRow7 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow7);\n\tvar eSItem71 = $(\"<td></td>\");\n\tvar eSItem72 = $(\"<td></td>\");\n\teSRow7.append(eSItem71);\n\teSRow7.append(eSItem72);\n\tvar nodeColorInputLabel = $(\"<div style=''><span>nodeColor: </span></div>\");\n\teSItem71.append(nodeColorInputLabel);\n\tvar nodeColorInput = $(\"<input type='text' id='nodeColorInput'></input>\");\n\teSItem72.append(nodeColorInput);\n\n\tvar eSRow8 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow8);\n\tvar eSItem81 = $(\"<td></td>\");\n\tvar eSItem82 = $(\"<td></td>\");\n\teSRow8.append(eSItem81);\n\teSRow8.append(eSItem82);\n\tvar nodeBorderWidthInputLabel = $(\"<div style=''><span>nodeBorderWidth: </span></div>\");\n\teSItem81.append(nodeBorderWidthInputLabel);\n\tvar nodeBorderWidthInput = $(\"<input type='text' id='nodeBorderWidthInput'></input>\");\n\teSItem82.append(nodeBorderWidthInput);\n\n\tvar eSRow9 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow9);\n\tvar eSItem91 = $(\"<td></td>\");\n\tvar eSItem92 = $(\"<td></td>\");\n\teSRow9.append(eSItem91);\n\teSRow9.append(eSItem92);\n\tvar nodeBorderColorInputLabel = $(\"<div style=''><span>nodeBorderColor: </span></div>\");\n\teSItem91.append(nodeBorderColorInputLabel);\n\tvar nodeBorderColorInput = $(\"<input type='text' id='nodeBorderColorInput'></input>\");\n\teSItem92.append(nodeBorderColorInput);\n\n\tvar eSRow10 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow10);\n\tvar eSItem101 = $(\"<td></td>\");\n\tvar eSItem102 = $(\"<td></td>\");\n\teSRow10.append(eSItem101);\n\teSRow10.append(eSItem102);\n\tvar nodeFontSizeInputLabel = $(\"<div style=''><span>nodeFontSize: </span></div>\");\n\teSItem101.append(nodeFontSizeInputLabel);\n\tvar nodeFontSizeInput = $(\"<input type='text' id='nodeFontSizeInput'></input>\");\n\teSItem102.append(nodeFontSizeInput);\n\n\tvar eSRow11 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow11);\n\tvar eSItem111 = $(\"<td></td>\");\n\tvar eSItem112 = $(\"<td></td>\");\n\teSRow11.append(eSItem111);\n\teSRow11.append(eSItem112);\n\tvar nodeFontAlignInputLabel = $(\"<div style=''><span>nodeFontAlign: </span></div>\");\n\teSItem111.append(nodeFontAlignInputLabel);\n\tvar nodeFontAlignInput = $(\"<input type='text' id='nodeFontAlignInput'></input>\");\n\teSItem112.append(nodeFontAlignInput);",
+          "x": 41393,
           "y": 37792,
           "id": "7206a9f0-1dcf-4435-89e7-67b6913ada0a486",
           "shape": "box",
@@ -4669,8 +4670,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function c(x, y) {\n\tvar imgData = false;\n\tvar ctxColor;\n\tif (imgData === false) {\n\t\t//console.log(document.getElementById(\"network\").getContext('2d'));\n\t\t//ctxColor = document.getElementById(\"network\").getContext(\"2d\");\n\t\tctxColor = canvas.getContext('2d');\n\t\timgData = ctxColor.getImageData(0,0,canvas.width, canvas.height);\n\t}\t\n\tvar index = (y * imgData.width + x) * 4;\n\tvar red = imgData.data[index];\n\tvar green = imgData.data[index+1];\n\tvar blue = imgData.data[index+2];\n\tvar alpha = imgData.data[index+3];\n\t//console.log('pix x ' + x + ' y ' + y + ' index ' + index + ' COLOR ' + red + ', ' + green + ', ' + blue + ', ' + alpha);\n}",
-          "x": 40222,
-          "y": 58271,
+          "x": 40304,
+          "y": 61707,
           "id": "f5f9ec15-27c8-4eba-aa98-273066ed1813486"
         },
         "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486": {
@@ -4697,8 +4698,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function rdf() {\n\tvar store = $rdf.graph();\n\tconsole.log($rdf);\n\tconsole.log(store);\n\tconsole.log(network);\n\tnetwork.body.data.nodes.get().forEach(function(node) {\n\t\tstore.add($rdf.literal(node.id), FOAF('name'), $rdf.literal(node.id));\n\t\t//store.add(node.id, \"name\",);\n\t});\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t});\n\tconsole.log(store.length);\n}",
-          "x": 41266,
-          "y": 58603,
+          "x": 41348,
+          "y": 62039,
           "id": "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486"
         },
         "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486": {
@@ -4725,8 +4726,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function localStorageSpace() {\n    var data = '';\n\n    console.log('Current local storage: ');\n\n    for(var key in window.localStorage){\n\n        if(window.localStorage.hasOwnProperty(key)){\n            data += window.localStorage[key];\n            console.log( key + \" = \" + ((window.localStorage[key].length * 16)/(8 * 1024)).toFixed(2) + ' KB' );\n        }\n\n    }\n\n    console.log(data ? '\\n' + 'Total space used: ' + ((data.length * 16)/(8 * 1024)).toFixed(2) + ' KB' : 'Empty (0 KB)');\n    console.log(data ? 'Approx. space remaining: ' + (5120 - ((data.length * 16)/(8 * 1024)).toFixed(2)) + ' KB' : '5 MB');\n};",
-          "x": 41433,
-          "y": 58956,
+          "x": 41515,
+          "y": 62392,
           "id": "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486"
         },
         "e68d70a9-0e47-4168-ae35-bb44461b4110486": {
@@ -4753,8 +4754,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function makeNodeJsonLine(id, label, link, x, y) {\n\tlabel = label.replace(\":\",\"\\:\");\n\tlink = link.replace(\":\",\"\\:\");\n\tvar json = \"\";\n\tjson += \"\\\"\" + id + \"\\\": { \\\"id\\\": \\\"\" + id + \"\\\",\";\n\tjson += \"\\\"x\\\": \" + x.toString() + \", \\\"y\\\": \" + y.toString() + \",\";\n\tjson += \"\\\"label\\\": \\\"\" + label + \"\\\",\";\n\tjson += \"\\\"link\\\": \\\"\" + link + \"\\\"\";\n\tjson += \"}\";\n\treturn json;\n}",
-          "x": 41247,
-          "y": 59299,
+          "x": 41329,
+          "y": 62735,
           "id": "e68d70a9-0e47-4168-ae35-bb44461b4110486"
         },
         "880081bc-e7c3-48c1-9fa7-1e638b8d8548486": {
@@ -4809,8 +4810,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function countSelectedNodesAndEdges() {\n\tvar nodes = objectToArray(network.body.data.nodes);\n\tvar edges = objectToArray(network.body.data.edges);\n\tconsole.log(\"All nodes: \" + nodes.length);\n\tconsole.log(\"All edges: \" + edges.length);\n\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\tconsole.log(\"Selected nodes: \" + selectedNodes.length);\n\tconsole.log(\"Selected edges: \" + selectedEdges.length);\n}",
-          "x": 41308,
-          "y": 59818,
+          "x": 41390,
+          "y": 63254,
           "id": "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486"
         },
         "20602b12-993a-42bc-8dd6-008215220e01486": {
@@ -4840,8 +4841,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function help() {\n   console.log(\"localStorageSpace()\");\n   console.log(\"countSelectedNodesAndEdges()\");\n   console.log(\"hideAllToDownloadNews()\");\n   console.log(\"restoreAllAfterNewsDownload()\");\n}\n",
-          "x": 41210,
-          "y": 60064,
+          "x": 41292,
+          "y": 63500,
           "id": "20602b12-993a-42bc-8dd6-008215220e01486",
           "shape": "box",
           "link": "",
@@ -4907,8 +4908,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"#network\").keydown(function (event) {\n\t\t//Delete or Backspace\n\t\t//if (event.ctrlKey && event.keyCode === 13) {\n\t\tif (event.keyCode === 46 || event.keyCode === 8) {\n\t\t\tnetwork.manipulation.deleteSelected();\n\t\t}\n\t});",
-          "x": 41527,
-          "y": 54485,
+          "x": 41505,
+          "y": 57921,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486",
           "shape": "box",
           "link": "",
@@ -5893,7 +5894,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "backupPaths: [\n\"/home/mike/progr/repo/mm-vis-js\"\n]",
           "id": "f5989e42-d06f-4d95-908e-2f58107e05aa200486",
-          "x": 40580,
+          "x": 40538,
           "y": -11704,
           "shape": "box",
           "link": "",
@@ -6686,7 +6687,7 @@ var schemeData =
           "label": "function mkdirRecursiveSync(path, pathDelimiter) {\n    var paths = path.split(pathDelimiter);\n    var fullPath = '';\n    paths.forEach((path) => {\n\n        fullPath = fullPath + path + pathDelimiter;\n\n        if (!fs.existsSync(fullPath)) {\n            fs.mkdirSync(fullPath);\n        }\n    });\n};\n",
           "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f309",
           "x": 67320,
-          "y": 1183,
+          "y": 1779,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7788,7 +7789,7 @@ var schemeData =
           "borderWidth": ""
         },
         "69e1c992-010c-4a23-9c38-eb54979a89de": {
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0167, x: 15703, y: 7380};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"index.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0167, x: 15703, y: 7380};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"index.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 67849,
           "y": 5364,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de",
@@ -8100,7 +8101,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0105, x: 121403, y: 26500};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0105, x: 121403, y: 26500};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 67920,
           "y": 8676,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de232",
@@ -8503,14 +8504,25 @@ var schemeData =
         },
         "b652df51-5798-4b35-86cd-12892f08855c": {
           "id": "b652df51-5798-4b35-86cd-12892f08855c",
-          "x": 40823,
-          "y": -13734,
-          "label": "This is root scheme for mm-vis-js project."
+          "x": 40948,
+          "y": -13725,
+          "label": "This is root scheme for mm-vis-js project. This scheme with red node \"mm-vis-js\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "d3319a07-ad98-4ca7-a928-8cc003e5490b": {
           "id": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
           "x": 40755,
-          "y": -13577,
+          "y": -13515,
           "label": "How to build project"
         },
         "d6a2f6ee-56a5-4221-be38-49c0a8364a71": {
@@ -10235,7 +10247,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0177, x: 95403, y: 7200};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"culture.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0177, x: 95403, y: 7200};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"culture.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 67951,
           "y": 11657,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de232501",
@@ -11344,8 +11356,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "c(x, y)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725",
-          "x": 44195,
-          "y": 58159,
+          "x": 44277,
+          "y": 61595,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11380,8 +11392,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "rdf()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732",
-          "x": 44151,
-          "y": 58582,
+          "x": 44233,
+          "y": 62018,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11416,8 +11428,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "localStorageSpace()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864",
-          "x": 44514,
-          "y": 58921,
+          "x": 44596,
+          "y": 62357,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11452,8 +11464,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "makeNodeJsonLine(id, label, link, x, y)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375",
-          "x": 44918,
-          "y": 59286,
+          "x": 45000,
+          "y": 62722,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11524,8 +11536,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "countSelectedNodesAndEdges()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144",
-          "x": 44788,
-          "y": 59801,
+          "x": 44870,
+          "y": 63237,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11560,8 +11572,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "help()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144737",
-          "x": 44187,
-          "y": 60048,
+          "x": 44269,
+          "y": 63484,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12263,7 +12275,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 106403, y: 14200};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"ruby.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 106403, y: 14200};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"ruby.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 67906,
           "y": 15026,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de232501969",
@@ -12404,8 +12416,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
-          "x": 41572,
-          "y": 55212,
+          "x": 41543,
+          "y": 58648,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711",
           "shape": "box",
           "link": "",
@@ -12440,8 +12452,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement. alt+Enter\n      if (event.altKey && event.keyCode === 13) {\n         $(\"span#saveElementEditButton\").click();\n      }\n   });",
-          "x": 41565,
-          "y": 54902,
+          "x": 41543,
+          "y": 58338,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711766",
           "shape": "box",
           "link": "",
@@ -12476,8 +12488,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement and closeElement. ctrl+Enter\n      if (event.ctrlKey && event.keyCode === 13) {\n         $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n         $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n         nodeLabelTextareaExpanded = false;\n         $(\"span#saveElementEditButton\").click();\n         $(\"span#closeElementEditButton\").click();\n      }\n   });",
-          "x": 41565,
-          "y": 55060,
+          "x": 41543,
+          "y": 58496,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa448671176664",
           "shape": "box",
           "link": "",
@@ -12512,8 +12524,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27 && document.getElementsByClassName(\"vis-back\").length == 0) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
-          "x": 41663,
-          "y": 55398,
+          "x": 41642,
+          "y": 58834,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711685",
           "shape": "box",
           "link": "",
@@ -12548,8 +12560,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom out. shift+alt+d\n      if (event.shiftKey && event.altKey && event.keyCode === 68) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n\n         var scale = network.getScale();\n         var newScale = scale / 1.5;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
-          "x": 41565,
-          "y": 53995,
+          "x": 41547,
+          "y": 57431,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446",
           "shape": "box",
           "link": "",
@@ -12584,8 +12596,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom in. shfit+alt+f\n      if (event.shiftKey && event.altKey && event.keyCode === 70) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n         var scale = network.getScale();\n         var newScale = scale * 1.5;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
-          "x": 41565,
-          "y": 54270,
+          "x": 41547,
+          "y": 57706,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446908",
           "shape": "box",
           "link": "",
@@ -12620,8 +12632,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Left align nodes. shift+alt+LeftArrow\n      if (event.shiftKey && event.altKey && event.keyCode === 37) {\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         alignNodesLeft(nodes);\n      }\n   });",
-          "x": 41607,
-          "y": 53721,
+          "x": 41590,
+          "y": 57157,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446933",
           "shape": "box",
           "link": "",
@@ -12754,8 +12766,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Toggle nodeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (nodeLabelTextareaExpanded) {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n            nodeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"580px\");\n            nodeLabelTextareaExpanded = true;\n         }\n      }\n   });\n   $(\"textarea#nodeLabelTextarea\").keydown(function (event) {\n      //Toggle nodeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (nodeLabelTextareaExpanded) {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n            nodeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"580px\");\n            nodeLabelTextareaExpanded = true;\n         }\n      }\n   });",
-          "x": 41562,
-          "y": 53398,
+          "x": 41541,
+          "y": 56834,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446933240",
           "shape": "box",
           "link": "",
@@ -12862,8 +12874,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Duplicate. Ctrl+alt+d.\n      if (event.ctrlKey && event.altKey && event.keyCode === 68) {\n         selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n         duplicateGraph(selectedNodes, selectedEdges);\n      }\n   });",
-          "x": 41623,
-          "y": 53069,
+          "x": 41605,
+          "y": 56505,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486622",
           "shape": "box",
           "link": "",
@@ -12898,8 +12910,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n                //Save canvas. Ctrl+alt+s\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 83) {\n\t\t\tvar saveOperationsParentNode;\n\t\t\tvar saveOperationsParentNodeName = \"Save operations code\";\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveOperationsParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + saveOperationsParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tsaveOperationsParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[saveOperationsParentNode.id].edges;\n\t\t\tvar saveOperationsCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == saveOperationsParentNode.id) {\n\t\t\t\t\tsaveOperationsCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof saveOperationsCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no saveOperationsCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(saveOperationsCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(saveOperationsCodeNode.id);\n\t\t}\n\t});",
-          "x": 41725,
-          "y": 52677,
+          "x": 41711,
+          "y": 56113,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486737",
           "shape": "box",
           "link": "",
@@ -12934,8 +12946,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Build project. alt+b\n      if (event.altKey && event.keyCode === 66) {\n         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 1) {\n            console.log(\"Select one node\");\n            showAlert(\"Select one node\", 80, 150);\n            return;\n         }\n         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);\n         var rootNode = getNodeFromNetworkDataById(rootNodeId);\n         var projectName = rootNode.label.replace(\"mvj code file for project name: \",\"\");\n\t\t\tvar buildProjectParentNode;\n\t\t\tvar buildProjectParentNodeName = \"buildProject code: \" + projectName;\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + buildProjectParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + buildProjectParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tbuildProjectParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[buildProjectParentNode.id].edges;\n\t\t\tvar buildProjectCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == buildProjectParentNode.id) {\n\t\t\t\t\tbuildProjectCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof buildProjectCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no buildProjectCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(buildProjectCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(buildProjectCodeNode.id);\n\t\t}\n\t});",
-          "x": 41712,
-          "y": 52137,
+          "x": 41698,
+          "y": 55573,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486441",
           "shape": "box",
           "link": "",
@@ -13434,7 +13446,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0156, x: 102403, y: 11800};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"javascript.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0156, x: 102403, y: 11800};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"javascript.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 67941,
           "y": 18580,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396",
@@ -13794,7 +13806,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0113, x: 105403, y: 24500};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0113, x: 105403, y: 24500};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68098,
           "y": 22270,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396984",
@@ -13831,8 +13843,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Run node code. alt+r\n      if (event.altKey && event.keyCode === 82) {\n         $(\"span#runNodeCodeButton\").click();\n      }\n   });",
-          "x": 41505,
-          "y": 51815,
+          "x": 41490,
+          "y": 55251,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf4864417",
           "shape": "box",
           "link": "",
@@ -13975,8 +13987,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Split node label. ctrl+alt+v\n      if (event.ctrlKey && event.altKey && event.keyCode === 86) {\n         $(\"span#splitNodeListLabelButton\").click();\n      }\n   });",
-          "x": 41559,
-          "y": 51698,
+          "x": 41544,
+          "y": 55134,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf4864417111",
           "shape": "box",
           "link": "",
@@ -15828,7 +15840,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 65673, y: 17508};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_code.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 65673, y: 17508};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_code.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68148,
           "y": 25676,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de23250196986396984833",
@@ -16141,7 +16153,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.009, x: 160186, y: -62020};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"research.data.js?46\"></script>\n<script type=\"text/javascript\" src=\"application.js?46\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.009, x: 160186, y: -62020};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"research.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84336,
           "y": -14932,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483",
@@ -16454,7 +16466,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"hh_sa_20191202.data.js?29\"></script>\n<script type=\"text/javascript\" src=\"application.js?29\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"hh_sa_20191202.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84345,
           "y": -10562,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483323",
@@ -16615,8 +16627,8 @@ var schemeData =
         },
         "7fe77c8a-ef14-4e0a-8d24-888fe99f82d5": {
           "id": "7fe77c8a-ef14-4e0a-8d24-888fe99f82d5",
-          "x": 41542,
-          "y": 51566,
+          "x": 41527,
+          "y": 55002,
           "label": "   $(document).keyup(function (event) {\n      //move view to position from birdView variable. alt+h\n      if (event.altKey && event.keyCode === 72) {\n         if(typeof birdView !== \"undefined\") {\n            moveViewTo(birdView.x, birdView.y, birdView.scale);\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -16935,7 +16947,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 176073, y: 20208};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"hh_sa_req_20191202_1.data.js?29\"></script>\n<script type=\"text/javascript\" src=\"application.js?29\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 176073, y: 20208};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"hh_sa_req_20191202_1.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84314,
           "y": -6875,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483323689",
@@ -17248,7 +17260,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0094, x: 156603, y: 35600};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"hh_sa_req_20191202_2.data.js?29\"></script>\n<script type=\"text/javascript\" src=\"application.js?29\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0094, x: 156603, y: 35600};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"hh_sa_req_20191202_2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84354,
           "y": -3005,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483323689533",
@@ -17561,7 +17573,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 164003, y: -19000};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"hh_sa_req_20191202_3.data.js?29\"></script>\n<script type=\"text/javascript\" src=\"application.js?29\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 164003, y: -19000};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"hh_sa_req_20191202_3.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84373,
           "y": 876,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483323689533730",
@@ -17874,7 +17886,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.013, x: 108318, y: 17760};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"math.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n<script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>\n<script id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.013, x: 108318, y: 17760};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"math.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n<script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>\n<script id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>\n\n</body>\n</html>",
           "x": 84373,
           "y": 4939,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483323689533730302",
@@ -18210,7 +18222,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0136, x: 108007, y: 19800};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"code.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0136, x: 108007, y: 19800};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"code.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84483,
           "y": 9071,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483323689533730302452",
@@ -18826,7 +18838,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.011, x: 110003, y: 17300};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"python.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.011, x: 110003, y: 17300};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"python.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84692,
           "y": 16184,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de2325019698639698483323689533730302452650",
@@ -19134,15 +19146,15 @@ var schemeData =
         },
         "3229baad-6f53-4142-bc59-2c8e92f423c2": {
           "id": "3229baad-6f53-4142-bc59-2c8e92f423c2",
-          "x": 41115,
-          "y": -13559,
+          "x": 41114,
+          "y": -13508,
           "label": "Select any mm-vis-js code node"
         },
         "d5e86797-7ced-425a-acf0-098fe10b13a2": {
           "label": "Press alt+b",
           "link": "",
           "x": 41049,
-          "y": -13525,
+          "y": -13474,
           "id": "d5e86797-7ced-425a-acf0-098fe10b13a2",
           "color": {
             "highlight": {
@@ -19182,7 +19194,7 @@ var schemeData =
         "cd466597-4aec-4fcd-9c59-d358faf174a7": {
           "id": "cd466597-4aec-4fcd-9c59-d358faf174a7",
           "x": 41219,
-          "y": -13486,
+          "y": -13435,
           "label": "Wait for save alert on top right of page. Or even check messages\nin browser console that everything is ok.",
           "shape": "box",
           "link": "",
@@ -21724,7 +21736,7 @@ var schemeData =
           "id": "bc30156b-9e7c-4b12-b60f-d5abb12a3135",
           "x": 84677,
           "y": 20305,
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.010, x: 131496, y: 27654};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"engineering.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.010, x: 131496, y: 27654};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"engineering.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "shape": "box",
           "link": "",
           "font": {
@@ -21993,7 +22005,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.011, x: 110003, y: 17300};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"admin.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.011, x: 110003, y: 17300};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"admin.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "bc30156b-9e7c-4b12-b60f-d5abb12a3135544",
           "x": 84552,
           "y": 12487,
@@ -23351,9 +23363,9 @@ var schemeData =
         },
         "05d777ad-4cba-4d00-945c-304393dce2bf": {
           "id": "05d777ad-4cba-4d00-945c-304393dce2bf",
-          "x": 41632,
-          "y": 51182,
-          "label": "   $(document).keyup(function (event) {\n      //add selected to clipboard by n number. ctrl+alt+n\n      if (event.altKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 0) {\n            console.log(selectedNodes);\n            clipboard[event.keyCode] = selectedNodes;\n            console.log(event.keyCode);\n            console.log(clipboard);\n         } else {\n            var scale = network.getScale();\n            var position = network.getViewPosition();\n            viewsSaves[event.keyCode] = {position: position, scale: scale};\n            console.log(event.keyCode);\n            console.log(scale);\n            console.log(position);\n            console.log(viewsSaves);\n         }\n         \n      }\n   });",
+          "x": 41617,
+          "y": 53337,
+          "label": "   $(document).keyup(function (event) {\n      //Save view by n number. No nodes must be selected. ctrl+alt+n\n      if (event.altKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length == 0) {\n            var scale = network.getScale();\n            var position = network.getViewPosition();\n            viewsSaves[event.keyCode] = {position: position, scale: scale};\n            console.log(event.keyCode);\n            console.log(scale);\n            console.log(position);\n            console.log(viewsSaves);\n         }\n         \n      }\n   });",
           "shape": "box",
           "link": "",
           "font": {
@@ -23368,9 +23380,9 @@ var schemeData =
         },
         "f1395ce8-921b-4237-a1d7-bc64297c87a0": {
           "id": "f1395ce8-921b-4237-a1d7-bc64297c87a0",
-          "x": 41691,
-          "y": 50534,
-          "label": "   $(document).keyup(function (event) {\n      //add selected to clipboard by n number. ctrl+alt+n\n      if (event.shiftKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         //clipboard[event.keyCode] = selectedNodes;\n         console.log(event.keyCode);\n         console.log(clipboard);\n         console.log(clipboard[event.keyCode]);\n         var nodesToMove = clipboard[event.keyCode];\n         if (typeof nodesToMove !== \"undefined\" && nodesToMove !== null && nodesToMove.length != 0) {\n            var positions = network.getPositions();\n            var maxLeftX = positions[nodesToMove[0].id].x;\n            var maxTopY = positions[nodesToMove[0].id].y;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  if (positions[node.id].x < maxLeftX) maxLeftX = positions[node.id].x;\n                  if (positions[node.id].y < maxTopY) maxTopY = positions[node.id].y;\n               }\n            });\n            var lastClickCanvasPosition = network.canvas.DOMtoCanvas(lastClickPosition);\n            var moveShiftX = lastClickCanvasPosition.x - maxLeftX;\n            var moveShiftY = lastClickCanvasPosition.y - maxTopY;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  var pNode = positions[node.id];\n                  var x = pNode.x + moveShiftX;\n                  var y = pNode.y + moveShiftY;\n                  network.nodesHandler.moveNode(node.id, x, y);\n               }\n            });\n         }\n\n      }\n   });",
+          "x": 41665,
+          "y": 54065,
+          "label": "   $(document).keyup(function (event) {\n      //Move clipboard nodes by n number to last click position. ctrl+alt+n\n      if (event.shiftKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         //clipboard[event.keyCode] = selectedNodes;\n         console.log(event.keyCode);\n         console.log(clipboard);\n         console.log(clipboard[event.keyCode]);\n         var nodesToMove = clipboard[event.keyCode];\n         if (typeof nodesToMove !== \"undefined\" && nodesToMove !== null && nodesToMove.length != 0) {\n            var positions = network.getPositions();\n            var maxLeftX = positions[nodesToMove[0].id].x;\n            var maxTopY = positions[nodesToMove[0].id].y;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  if (positions[node.id].x < maxLeftX) maxLeftX = positions[node.id].x;\n                  if (positions[node.id].y < maxTopY) maxTopY = positions[node.id].y;\n               }\n            });\n            var lastClickCanvasPosition = network.canvas.DOMtoCanvas(lastClickPosition);\n            var moveShiftX = lastClickCanvasPosition.x - maxLeftX;\n            var moveShiftY = lastClickCanvasPosition.y - maxTopY;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  var pNode = positions[node.id];\n                  var x = pNode.x + moveShiftX;\n                  var y = pNode.y + moveShiftY;\n                  network.nodesHandler.moveNode(node.id, x, y);\n               }\n            });\n         }\n\n      }\n   });",
           "shape": "box",
           "link": "",
           "font": {
@@ -23385,8 +23397,8 @@ var schemeData =
         },
         "f8a7231e-4609-4679-a1e9-ac991e535649": {
           "id": "f8a7231e-4609-4679-a1e9-ac991e535649",
-          "x": 41568,
-          "y": 49877,
+          "x": 41542,
+          "y": 52886,
           "label": "   $(document).keyup(function (event) {\n      //move to saved view position. shift+alt+n\n      if (event.shiftKey && event.altKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var view = viewsSaves[event.keyCode];\n         if (typeof view !== \"undefined\" && view !== null) {\n            var newPosition = network.canvasToDOM(view.position);\n            moveViewTo(view.position.x, view.position.y, view.scale);\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -24015,7 +24027,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news.data.js?51\"></script>\n<script type=\"text/javascript\" src=\"application.js?51\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "bc30156b-9e7c-4b12-b60f-d5abb12a3135244",
           "x": 84777,
           "y": 24162,
@@ -24394,9 +24406,9 @@ var schemeData =
         },
         "9c31a3a9-ab1a-49d4-a3df-db8d141e2ddb": {
           "id": "9c31a3a9-ab1a-49d4-a3df-db8d141e2ddb",
-          "x": 41790,
-          "y": 49149,
-          "label": "   $(document).keyup(function (event) {\n      //wrap-unwrap tree toggle. alt+g\n      if (event.altKey && event.keyCode == 71 ) {\n\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         \n         var rootNode = selectedNodes[0];\n         \n         var nodesPositions = network.getPositions();\n\n         function collectNodesYPositions(nodeId, rootNode, nodesPositions) {\n\n            var nodeEdges = network.body.nodes[nodeId].edges;\n            var codeEdges = [];\n            nodeEdges.forEach(function(edge) {\n               if (edge.fromId == nodeId) {\n                  codeEdges.push(edge);\n               }\n            });\n\n            var branchCodeNodes = [];\n            codeEdges.forEach(function(codeEdge) {\n               branchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));\n            });\n            var branchesPositionsData = [];\n            branchCodeNodes.forEach(function(branchNode) {\n               branchesPositionsData.push({\n                  top: network.body.nodes[branchNode.id].shape.top,\n                  height: network.body.nodes[branchNode.id].shape.height\n               });\n               branchesPositionsData = branchesPositionsData.concat(collectNodesYPositions(branchNode.id, rootNode, nodesPositions));\n            });\n            return branchesPositionsData;\n         }\n\n         var branchesPositionsData = collectNodesYPositions(rootNode.id, rootNode, nodesPositions);\n\n            function compareBPD( a, b ) {\n               if ( a.top < b.top ){\n                  return -1;\n               }\n               if ( a.top > b.top ){\n                  return 1;\n               }\n               return 0;\n            }\n\n            branchesPositionsData = branchesPositionsData.sort(compareBPD);\n\n         var needToUnwrap = false;\n         var lastBranchPositionData = null;\n         for (var i = 0; i < branchesPositionsData.length; i++) {\n            if (lastBranchPositionData != null) {\n               var lastNodeBottom = lastBranchPositionData.top + lastBranchPositionData.height;\n               if (lastNodeBottom > branchesPositionsData[i].top) {\n                  needToUnwrap = true;\n                  break;\n               }\n            }\n            lastBranchPositionData = branchesPositionsData[i];\n         }\n         \n         if (needToUnwrap) {\n\n            unwrapNodeBranches(rootNode.id);\n         \n         } else {\n\n            wrapNodeBranches(rootNode.id);\n         \n         }\n         \n      }\n   });",
+          "x": 41764,
+          "y": 51964,
+          "label": "   $(document).keyup(function (event) {\n      //wrap-unwrap tree. alt+g\n      if (event.altKey && event.keyCode == 71 ) {\n\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         \n         var rootNode = selectedNodes[0];\n         \n         var nodesPositions = network.getPositions();\n\n         function collectNodesYPositions(nodeId, rootNode, nodesPositions) {\n\n            var nodeEdges = network.body.nodes[nodeId].edges;\n            var codeEdges = [];\n            nodeEdges.forEach(function(edge) {\n               if (edge.fromId == nodeId) {\n                  codeEdges.push(edge);\n               }\n            });\n\n            var branchCodeNodes = [];\n            codeEdges.forEach(function(codeEdge) {\n               branchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));\n            });\n            var branchesPositionsData = [];\n            branchCodeNodes.forEach(function(branchNode) {\n               branchesPositionsData.push({\n                  top: network.body.nodes[branchNode.id].shape.top,\n                  height: network.body.nodes[branchNode.id].shape.height\n               });\n               branchesPositionsData = branchesPositionsData.concat(collectNodesYPositions(branchNode.id, rootNode, nodesPositions));\n            });\n            return branchesPositionsData;\n         }\n\n         var branchesPositionsData = collectNodesYPositions(rootNode.id, rootNode, nodesPositions);\n\n            function compareBPD( a, b ) {\n               if ( a.top < b.top ){\n                  return -1;\n               }\n               if ( a.top > b.top ){\n                  return 1;\n               }\n               return 0;\n            }\n\n            branchesPositionsData = branchesPositionsData.sort(compareBPD);\n\n         var needToUnwrap = false;\n         var lastBranchPositionData = null;\n         for (var i = 0; i < branchesPositionsData.length; i++) {\n            if (lastBranchPositionData != null) {\n               var lastNodeBottom = lastBranchPositionData.top + lastBranchPositionData.height;\n               if (lastNodeBottom > branchesPositionsData[i].top) {\n                  needToUnwrap = true;\n                  break;\n               }\n            }\n            lastBranchPositionData = branchesPositionsData[i];\n         }\n         \n         if (needToUnwrap) {\n\n            unwrapNodeBranches(rootNode.id);\n         \n         } else {\n\n            wrapNodeBranches(rootNode.id);\n         \n         }\n         \n      }\n   });",
           "shape": "box",
           "link": "",
           "font": {
@@ -24604,16 +24616,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Jump to nodes with same label. alt+j\n      if (event.altKey && event.keyCode == 74 ) {\n\n         var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes)[0];\n\n   if (jumpNavigationData == null && typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] === \"undefined\") {\n      showAlert(\"Select one node to jump to nodes with same name\", 60, 190);\n      return;\n   }\n         \n   //If node is selected and there were no jumps before or there is different label on selected node.\n   if ((typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] !== \"undefined\") && \n         (jumpNavigationData == null || jumpNavigationData.label != selectedNode.options.label)) {\n\n      var nodes = network.body.data.nodes.get();\n\n      var foundNodes = [];\n\n      nodes.forEach(function(node) {\n         if (node.id != selectedNode.id && node.label == selectedNode.options.label) {\n            foundNodes.push(node);\n         }\n      });\n      \n      if (foundNodes.length == 0) {\n         showAlert(\"No nodes with same name\", 60, 190);\n         return;\n      }\n\n      if (foundNodes.length > 50) {\n         showAlert(\"Too big list of jump nodes. More than 50.\", 60, 190);\n         return;\n      }\n\n      //first node in the list will be \"selectedNode\" - so we start scrolling through nodes from second node\n      //in this list\n      foundNodes = [selectedNode].concat(foundNodes);\n\n      var nodesPositions = network.getPositions();\n\n      foundNodes.forEach(function(node) {\n         var nodeD = getNodeFromNetworkDataById(node.id);\n         pNode = nodesPositions[node.id];\n         nodeD.x = pNode.x;\n         nodeD.y = pNode.y;\n         network.body.data.nodes.update(nodeD);\n      });\n\n      jumpNavigationData = {\n         label: selectedNode.options.label,\n         foundNodes: foundNodes,\n         lastJumpNodeNumber: 0\n      };\n      var jumpNumber = 1;\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   } else {\n      var jumpNumber = null;\n      if (jumpNavigationData.lastJumpNodeNumber == jumpNavigationData.foundNodes.length - 1) {\n         jumpNumber = 0;\n      } else {\n         jumpNumber = jumpNavigationData.lastJumpNodeNumber + 1;\n      }\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   }\n       \n      }\n   });",
           "id": "9c31a3a9-ab1a-49d4-a3df-db8d141e2ddb798",
-          "x": 41751,
-          "y": 47793,
+          "x": 41759,
+          "y": 50608,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a": {
           "id": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a",
-          "x": 41768,
-          "y": 46098,
+          "x": 41643,
+          "y": 49800,
           "label": "   $(document).keyup(function (event) {\n      //Move/restore branches of selected node to/from dataCash. alt+y\n      if (event.altKey && event.keyCode === 89) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length == 0) return;\n\n         var branchesNodesAndEdges = getTreeNodesAndEdges(selectedNodes[0].id);\n\n         if (branchesNodesAndEdges.nodes.length > 0) {\n\n            hideNodeBranchesToDataCash(selectedNodes[0].id, null);\n\n         } else {\n\n            restoreNodeBranchesFromDataCash(selectedNodes[0].id);\n\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -24629,8 +24641,8 @@ var schemeData =
         },
         "aa02d46e-4683-46d4-81c5-7ad116f07d84": {
           "id": "aa02d46e-4683-46d4-81c5-7ad116f07d84",
-          "x": 44231,
-          "y": 47637,
+          "x": 44271,
+          "y": 50452,
           "label": "Jump to nodes with same label. alt+j",
           "shape": "box",
           "link": "",
@@ -24647,7 +24659,7 @@ var schemeData =
         "afd90e25-5eff-4f35-bace-ab9297196cbd": {
           "id": "afd90e25-5eff-4f35-bace-ab9297196cbd",
           "x": 44891,
-          "y": 45845,
+          "y": 49730,
           "label": "Move/restore branches of selected node to/from dataCash. alt+y",
           "shape": "box",
           "link": "",
@@ -24663,9 +24675,9 @@ var schemeData =
         },
         "9322d3d4-9ca8-4d6f-b672-d32e6245ba2f": {
           "id": "9322d3d4-9ca8-4d6f-b672-d32e6245ba2f",
-          "x": 44108,
-          "y": 49032,
-          "label": "Wrap-unwrap tree toggle. alt+g",
+          "x": 43973,
+          "y": 51847,
+          "label": "Wrap-unwrap tree. alt+g",
           "shape": "box",
           "link": "",
           "font": {
@@ -24680,8 +24692,8 @@ var schemeData =
         },
         "3ce03729-ac45-47ac-9ca7-e034bac76a40": {
           "id": "3ce03729-ac45-47ac-9ca7-e034bac76a40",
-          "x": 44316,
-          "y": 49733,
+          "x": 44321,
+          "y": 52885,
           "label": "Move to saved view position. shift+alt+n",
           "shape": "box",
           "link": "",
@@ -24697,9 +24709,9 @@ var schemeData =
         },
         "7c9ed249-9e09-4ebc-aafc-aaf6771cc41c": {
           "id": "7c9ed249-9e09-4ebc-aafc-aaf6771cc41c",
-          "x": 44511,
-          "y": 50514,
-          "label": "Add selected to clipboard by n number. ctrl+alt+n",
+          "x": 44898,
+          "y": 54028,
+          "label": "Move clipboard nodes by n number to last click position. ctrl+alt+n",
           "shape": "box",
           "link": "",
           "font": {
@@ -24714,9 +24726,9 @@ var schemeData =
         },
         "c803da61-02c9-4d76-b375-f9ffb885e2ad": {
           "id": "c803da61-02c9-4d76-b375-f9ffb885e2ad",
-          "x": 44511,
-          "y": 51140,
-          "label": "Add selected to clipboard by n number. ctrl+alt+n",
+          "x": 44823,
+          "y": 53295,
+          "label": "Save view by n number. No nodes must be selected. ctrl+alt+n",
           "shape": "box",
           "link": "",
           "font": {
@@ -24731,8 +24743,8 @@ var schemeData =
         },
         "f6e9de98-d009-4bfd-b73e-1eec308bca20": {
           "id": "f6e9de98-d009-4bfd-b73e-1eec308bca20",
-          "x": 44555,
-          "y": 51568,
+          "x": 44561,
+          "y": 55004,
           "label": "Move view to position from birdView variable. alt+h",
           "shape": "box",
           "link": "",
@@ -24748,8 +24760,8 @@ var schemeData =
         },
         "79b7de50-90a8-4e96-855b-b5d356365712": {
           "id": "79b7de50-90a8-4e96-855b-b5d356365712",
-          "x": 44001,
-          "y": 51698,
+          "x": 44009,
+          "y": 55134,
           "label": "Split node label. ctrl+alt+v",
           "shape": "box",
           "link": "",
@@ -24765,8 +24777,8 @@ var schemeData =
         },
         "4d5bc4c3-2832-42d8-b667-27919acf4577": {
           "id": "4d5bc4c3-2832-42d8-b667-27919acf4577",
-          "x": 43897,
-          "y": 51815,
+          "x": 43902,
+          "y": 55251,
           "label": "Run node code. alt+r",
           "shape": "box",
           "link": "",
@@ -24782,8 +24794,8 @@ var schemeData =
         },
         "19892cfa-9734-416d-9461-c36666ad64dc": {
           "id": "19892cfa-9734-416d-9461-c36666ad64dc",
-          "x": 43843,
-          "y": 52069,
+          "x": 43849,
+          "y": 55505,
           "label": "Build project. alt+b",
           "shape": "box",
           "link": "",
@@ -24799,8 +24811,8 @@ var schemeData =
         },
         "e80dcc00-7e7f-420f-bb38-4917ac0e0b12": {
           "id": "e80dcc00-7e7f-420f-bb38-4917ac0e0b12",
-          "x": 43958,
-          "y": 52596,
+          "x": 43964,
+          "y": 56032,
           "label": "Save canvas. Ctrl+alt+s",
           "shape": "box",
           "link": "",
@@ -24816,8 +24828,8 @@ var schemeData =
         },
         "1311c77a-5997-4e62-abf0-5eb2dce2cd86": {
           "id": "1311c77a-5997-4e62-abf0-5eb2dce2cd86",
-          "x": 43883,
-          "y": 52974,
+          "x": 43888,
+          "y": 56410,
           "label": "Duplicate. Ctrl+alt+d",
           "shape": "box",
           "link": "",
@@ -24833,8 +24845,8 @@ var schemeData =
         },
         "f209f63b-31b4-4dab-99a2-f5b25c2475f5": {
           "id": "f209f63b-31b4-4dab-99a2-f5b25c2475f5",
-          "x": 44531,
-          "y": 53229,
+          "x": 44536,
+          "y": 56665,
           "label": "Toggle nodeLabel textarea expansion. ctrl+Space",
           "shape": "box",
           "link": "",
@@ -24850,8 +24862,8 @@ var schemeData =
         },
         "eb205932-26d5-4927-9d89-9c609b8ba254": {
           "id": "eb205932-26d5-4927-9d89-9c609b8ba254",
-          "x": 44230,
-          "y": 53712,
+          "x": 44235,
+          "y": 57148,
           "label": "Left align nodes. shift+alt+LeftArrow",
           "shape": "box",
           "link": "",
@@ -24867,8 +24879,8 @@ var schemeData =
         },
         "6944dc22-2f00-4e53-8a72-6c48f3921d93": {
           "id": "6944dc22-2f00-4e53-8a72-6c48f3921d93",
-          "x": 43901,
-          "y": 54005,
+          "x": 43906,
+          "y": 57441,
           "label": "Zoom out. shift+alt+d",
           "shape": "box",
           "link": "",
@@ -24884,8 +24896,8 @@ var schemeData =
         },
         "2046851b-30f6-4595-b956-3d2266015728": {
           "id": "2046851b-30f6-4595-b956-3d2266015728",
-          "x": 43856,
-          "y": 54225,
+          "x": 43861,
+          "y": 57661,
           "label": "Zoom in. shfit+alt+f",
           "shape": "box",
           "link": "",
@@ -24901,8 +24913,8 @@ var schemeData =
         },
         "8915a7e3-8d20-4ce0-a233-dbefebc066d9": {
           "id": "8915a7e3-8d20-4ce0-a233-dbefebc066d9",
-          "x": 43893,
-          "y": 54411,
+          "x": 43898,
+          "y": 57847,
           "label": "Delete or Backspace",
           "shape": "box",
           "link": "",
@@ -24918,8 +24930,8 @@ var schemeData =
         },
         "0369c175-9e5d-4966-8cbb-f45161e27480": {
           "id": "0369c175-9e5d-4966-8cbb-f45161e27480",
-          "x": 43645,
-          "y": 54585,
+          "x": 43650,
+          "y": 58021,
           "label": "ctrl+Enter",
           "shape": "box",
           "link": "",
@@ -24935,8 +24947,8 @@ var schemeData =
         },
         "4f6c3041-f780-4054-8684-5e50fe7f3cf0": {
           "id": "4f6c3041-f780-4054-8684-5e50fe7f3cf0",
-          "x": 44094,
-          "y": 54737,
+          "x": 44099,
+          "y": 58173,
           "label": "Cancel node edit. Esc  //ToFix",
           "shape": "box",
           "link": "",
@@ -24952,8 +24964,8 @@ var schemeData =
         },
         "3825f42e-bd5d-4e64-94d5-fa6e22cee18f": {
           "id": "3825f42e-bd5d-4e64-94d5-fa6e22cee18f",
-          "x": 43950,
-          "y": 54876,
+          "x": 43955,
+          "y": 58312,
           "label": "saveElement. alt+Enter",
           "shape": "box",
           "link": "",
@@ -24969,8 +24981,8 @@ var schemeData =
         },
         "ef63ccd2-82a5-40b0-98e0-d9ce8138e118": {
           "id": "ef63ccd2-82a5-40b0-98e0-d9ce8138e118",
-          "x": 44376,
-          "y": 55057,
+          "x": 44381,
+          "y": 58493,
           "label": "saveElement and closeElement. ctrl+Enter",
           "shape": "box",
           "link": "",
@@ -24986,8 +24998,8 @@ var schemeData =
         },
         "ff0bcb7e-317b-475f-bf4b-91b27724f05c": {
           "id": "ff0bcb7e-317b-475f-bf4b-91b27724f05c",
-          "x": 44016,
-          "y": 55227,
+          "x": 44021,
+          "y": 58663,
           "label": "Close node left menu. Esc",
           "shape": "box",
           "link": "",
@@ -25003,8 +25015,8 @@ var schemeData =
         },
         "850ef55c-faf4-42f7-8e19-3189a281ee89": {
           "id": "850ef55c-faf4-42f7-8e19-3189a281ee89",
-          "x": 43921,
-          "y": 55384,
+          "x": 43926,
+          "y": 58820,
           "label": "Cancel add node. Esc",
           "shape": "box",
           "link": "",
@@ -25020,8 +25032,8 @@ var schemeData =
         },
         "2bc2b193-8945-46df-b73d-a225be987934": {
           "id": "2bc2b193-8945-46df-b73d-a225be987934",
-          "x": 43918,
-          "y": 55586,
+          "x": 43923,
+          "y": 59022,
           "label": "Cancel node edit. Esc",
           "shape": "box",
           "link": "",
@@ -25037,8 +25049,8 @@ var schemeData =
         },
         "83c66b99-a9ce-4f92-b760-f7bc3144a5dc": {
           "id": "83c66b99-a9ce-4f92-b760-f7bc3144a5dc",
-          "x": 43998,
-          "y": 55961,
+          "x": 44003,
+          "y": 59397,
           "label": "Connect nodes. ctrl+alt+c",
           "shape": "box",
           "link": "",
@@ -25130,8 +25142,8 @@ var schemeData =
         },
         "d3dc26bd-9637-42f5-adab-314965cf56fa": {
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa",
-          "x": 41272,
-          "y": 60562,
+          "x": 41354,
+          "y": 63998,
           "label": "function hideAllToDownloadNews(selectedNodesIds, selectedEdgesIds) {\n   var nodes = objectToArray(network.body.nodes);\n   var edges = objectToArray(network.body.edges);\n   var nodesToHide = [];\n   var edgesToHide = [];\n   nodes.forEach(function(node) {\n      var node = getNodeFromNetworkDataById(node.id);\n      if ((typeof node.label !== \"undefined\" && \n         node.label != \"newsList\" &&\n         node.label.match(/.*\\| Feed Node/) == null &&\n         node.label.match(/.*download news code.*/) == null &&\n         (typeof node.link === \"undefined\" || (\n         typeof node.link !== \"undefined\" &&\n         node.link.match(/.*youtube.*videos.*/) == null))) ||\n         selectedNodesIds.indexOf(node.id) === -1) {\n         nodesToHide.push(node);\n      }\n   });\n   edges.forEach(function(edge) {\n      var edge = getEdgeFromNetworkDataById(edge.id);\n      var nodeFrom = getNodeFromNetworkDataById(edge.from);\n      var nodeTo = getNodeFromNetworkDataById(edge.to);\n      if ((typeof nodeFrom.label !== \"undefined\" &&\n          nodeFrom.label.match(/.*\\| Feed Node/) == null &&\n          typeof nodeTo.label !== \"undefined\" &&\n          nodeTo.label != \"newsList\" &&\n          (typeof nodeFrom.link === \"undefined\" || (\n          typeof nodeFrom.link !== \"undefined\" &&\n          nodeFrom.link.match(/.*youtube.*videos.*/) == null))) ||\n         selectedEdgesIds.indexOf(edge.id) === -1) {\n         edgesToHide.push(edge);\n      }\n\n   });\n\n   dataCash[\"hideAllForNewsDownload\"] = {\n      nodes: nodesToHide,\n      edges: edgesToHide\n   };\n\n   var removeNodesIds = [];\n   nodesToHide.forEach(function(node, index) {\n      removeNodesIds.push(node.id);\n   });\n   var removeEdgesIds = [];\n   edgesToHide.forEach(function(edge, index) {\n      removeEdgesIds.push(edge.id);\n   });\n   updateMenuFromScheme(removeNodesIds, removeEdgesIds);\n   updateSchemeFromMenu([],[]);\n}",
           "shape": "box",
           "link": "",
@@ -25147,8 +25159,8 @@ var schemeData =
         },
         "59b475d3-aabb-4fff-997a-ce7f3ef85dfa": {
           "id": "59b475d3-aabb-4fff-997a-ce7f3ef85dfa",
-          "x": 44624,
-          "y": 60384,
+          "x": 44706,
+          "y": 63820,
           "label": "hideAllToDownloadNews()",
           "shape": "box",
           "link": "",
@@ -25190,16 +25202,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "function restoreAllAfterNewsDownload() {\n   var branchesNodesAndEdges = dataCash[\"hideAllForNewsDownload\"];\n   if (typeof branchesNodesAndEdges === \"undefined\") return;\n   updateMenuFromScheme([],[]);\n   updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n   delete dataCash[\"hideAllForNewsDownload\"];\n   updateMenuFromScheme([],[]);\n}",
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa132",
-          "x": 41397,
-          "y": 61586,
+          "x": 41479,
+          "y": 65022,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "2467cfd5-27ba-460c-bc11-4855563ed9da": {
           "id": "2467cfd5-27ba-460c-bc11-4855563ed9da",
-          "x": 44778,
-          "y": 61461,
+          "x": 44860,
+          "y": 64897,
           "label": "restoreAllAfterNewsDownload()",
           "shape": "box",
           "link": "",
@@ -25232,8 +25244,8 @@ var schemeData =
         },
         "894544fa-919d-4712-8966-b20a30cb0365": {
           "id": "894544fa-919d-4712-8966-b20a30cb0365",
-          "x": 40804,
-          "y": 56766,
+          "x": 40886,
+          "y": 60202,
           "label": "});\n//End of $(document).ready(",
           "shape": "box",
           "link": "",
@@ -25340,8 +25352,8 @@ var schemeData =
         },
         "8eba84e7-39bf-4c70-a466-299eb149aee4": {
           "id": "8eba84e7-39bf-4c70-a466-299eb149aee4",
-          "x": 41800,
-          "y": 60743,
+          "x": 41882,
+          "y": 64179,
           "label": "Hide selected nodes and edges"
         },
         "d3dc26bd-9637-42f5-adab-314965cf56fa273": {
@@ -25372,16 +25384,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "function hideSelected() {\n   var nodesToHide = [];\n   var edgesToHide = [];\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n   selectedNodes.forEach(function(node) {\n      var node = getNodeFromNetworkDataById(node.id);\n      nodesToHide.push(node);\n   });\n   selectedEdges.forEach(function(edge) {\n      var edge = getEdgeFromNetworkDataById(edge.id);\n      edgesToHide.push(edge);\n   });\n\n   dataCash[\"hideSelected\"] = {\n      nodes: nodesToHide,\n      edges: edgesToHide\n   };\n\n   var removeNodesIds = [];\n   nodesToHide.forEach(function(node, index) {\n      removeNodesIds.push(node.id);\n   });\n   var removeEdgesIds = [];\n   edgesToHide.forEach(function(edge, index) {\n      removeEdgesIds.push(edge.id);\n   });\n   updateMenuFromScheme(removeNodesIds, removeEdgesIds);\n   updateSchemeFromMenu([],[]);\n}",
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa273",
-          "x": 42288,
-          "y": 60866,
+          "x": 42370,
+          "y": 64302,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "36c3a231-f006-4c23-a591-011ec950efd2": {
           "id": "36c3a231-f006-4c23-a591-011ec950efd2",
-          "x": 41993,
-          "y": 61711,
+          "x": 42075,
+          "y": 65147,
           "label": "Restore selected and hidden nodes and edges"
         },
         "d3dc26bd-9637-42f5-adab-314965cf56fa132846": {
@@ -25414,17 +25426,17 @@ var schemeData =
           "shapeProperties": {},
           "label": "function restoreSelected() {\n   var branchesNodesAndEdges = dataCash[\"hideSelected\"];\n   if (typeof branchesNodesAndEdges === \"undefined\") return;\n   updateMenuFromScheme([],[]);\n   updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n   delete dataCash[\"hideSelected\"];\n   updateMenuFromScheme([],[]);\n}",
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa132846",
-          "x": 42569,
-          "y": 61796,
+          "x": 42651,
+          "y": 65232,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "8500e2c6-c969-497d-a117-924e1bcb2c91": {
           "id": "8500e2c6-c969-497d-a117-924e1bcb2c91",
-          "x": 41850,
-          "y": 19919,
-          "label": "function runNodeMenuItems(e) {\n   var pointer = {x: e.pageX, y: e.pageY};\n   var menuNode = network.selectionHandler.getNodeAt(pointer);\n   if (typeof menuNode !== \"undefined\" &&\n       nodesDropDownMenuNodesIds.indexOf(menuNode.id) != -1) {\n          var rootNodeId = getNodeFromNetworkDataById(menuNode.id).menuRootNodeId;\n          var label = menuNode.options.label;\n          var lines = label.split(\"\\n\");\n          var linesCount = lines.length;\n          var menuNodeHeight = menuNode.shape.textSize.height;\n          var menuItemsHeight = menuNodeHeight/linesCount;\n          var canvasPointer = network.canvas.DOMtoCanvas(pointer);\n          var fromMenuTopToClickPoint = canvasPointer.y - menuNode.shape.top - menuNode.shape.margin.top - 1;\n          var menuLineNumber = (fromMenuTopToClickPoint - (fromMenuTopToClickPoint % menuItemsHeight)) / menuItemsHeight;\n          console.log(menuLineNumber);  \n          console.log(lines[menuLineNumber]);\n\n          if (lines[menuLineNumber] == \"Restore node's branches (alt+y)\") {\n             restoreNodeBranchesFromDataCash(rootNodeId);\n          }\n          if (lines[menuLineNumber] == \"Wrap node's branches (alt+y)\") {\n             hideNodeBranchesToDataCash(rootNodeId, null);\n          }\n   }\n}",
+          "x": 41848,
+          "y": 19857,
+          "label": "function runNodeMenuItems(e) {\n   var pointer = {x: e.pageX, y: e.pageY};\n   var menuNode = network.selectionHandler.getNodeAt(pointer);\n   if (typeof menuNode !== \"undefined\" &&\n       nodesDropDownMenuNodesIds.indexOf(menuNode.id) != -1) {\n      var rootNodeId = getNodeFromNetworkDataById(menuNode.id).menuRootNodeId;\n      var label = menuNode.options.label;\n      var lines = label.split(\"\\n\");\n      var linesCount = lines.length;\n      var menuNodeHeight = menuNode.shape.textSize.height;\n      var menuItemsHeight = menuNodeHeight/linesCount;\n      var canvasPointer = network.canvas.DOMtoCanvas(pointer);\n      var fromMenuTopToClickPoint = canvasPointer.y - menuNode.shape.top - menuNode.shape.margin.top - 1;\n      var menuLineNumber = (fromMenuTopToClickPoint - (fromMenuTopToClickPoint % menuItemsHeight)) / menuItemsHeight;\n      console.log(menuLineNumber);  \n      console.log(\"menuLineNumber: \" + lines[menuLineNumber]);\n      if (lines[menuLineNumber] == \"Restore node's branches (alt+y)\") {\n         restoreNodeBranchesFromDataCash(rootNodeId);\n      }\n      if (lines[menuLineNumber] == \"Wrap node's branches (alt+y)\") {\n         hideNodeBranchesToDataCash(rootNodeId, null);\n      }\n      if (lines[menuLineNumber] == \"Open node link. In new tab. (alt+l)\") {\n         var rootNode = getNodeFromNetworkDataById(rootNodeId);\n         if (typeof rootNode.link !== \"undefined\" && rootNode.link.length > 0) {\n            window.open(rootNode.link, '_blank');\n         }\n      }\n   }\n}",
           "shape": "box",
           "link": "",
           "font": {
@@ -25458,7 +25470,7 @@ var schemeData =
           "id": "f4f76bbc-6670-4f00-a266-47068af4cf9f",
           "x": 41662,
           "y": 20663,
-          "label": "function makeNodeDropDownMenuLines(nodeId) {\n\n   var lines = [];\n\n   var branchesNodesAndEdges = getTreeNodesAndEdges(nodeId);\n   if (branchesNodesAndEdges.nodes.length > 0) {\n      lines.push(\"Wrap node's branches (alt+y)\");\n   } else {\n      if (typeof dataCash[nodeId] !== \"undefined\" &&\n          dataCash[nodeId].nodes.length > 0) {\n         lines.push(\"Restore node's branches (alt+y)\");\n      }\n   }\n   //\n   return lines;\n}",
+          "label": "function makeNodeDropDownMenuLines(nodeId) {\n\n   var lines = [];\n\n   var node = getNodeFromNetworkDataById(nodeId);\n\n   var branchesNodesAndEdges = getTreeNodesAndEdges(nodeId);\n   if (branchesNodesAndEdges.nodes.length > 0) {\n      lines.push(\"Wrap node's branches (alt+y)\");\n   } else {\n      if (typeof dataCash[nodeId] !== \"undefined\" &&\n          dataCash[nodeId].nodes.length > 0) {\n         lines.push(\"Restore node's branches (alt+y)\");\n      }\n   }\n   if (typeof node.link !== \"undefined\" && node.link.length > 0) {\n      lines.push(\"Open node link. In new tab. (alt+l)\");\n   }\n   //\n   return lines;\n}",
           "shape": "box",
           "link": "",
           "font": {
@@ -25480,6 +25492,1242 @@ var schemeData =
           "link": "",
           "font": {
             "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a517": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Open node link. alt+l\n      if (event.altKey && event.keyCode === 76) {\n         $(\"div#linkOpenButton\").click();\n      }\n   });",
+          "id": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a517",
+          "x": 41516,
+          "y": 49485,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "c4142c7b-7db2-496f-bb44-eaf22bd6546f869": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Open node link. alt+l",
+          "id": "c4142c7b-7db2-496f-bb44-eaf22bd6546f869",
+          "x": 43920,
+          "y": 49428,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "fd69a6e5-7d22-4f47-b2af-43ebc380a1a6": {
+          "id": "fd69a6e5-7d22-4f47-b2af-43ebc380a1a6",
+          "x": 41524,
+          "y": 49196,
+          "label": "   $(document).keyup(function (event) {\n      //Jump to last selected (by click) node. alt+;\n      if (event.altKey && event.keyCode === 186) {\n\n         if (lastSelectedNodeId == null) return;\n\n         var nodesPositions = network.getPositions();\n\n         moveViewTo(\n            nodesPositions[lastSelectedNodeId].x,\n            nodesPositions[lastSelectedNodeId].y, \n            network.getScale()\n         );\n\n      }\n   });\n",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef": {
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef",
+          "x": 44393,
+          "y": 49163,
+          "label": "Jump to last selected (by click) node. alt+;",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a0957": {
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957",
+          "x": 41608,
+          "y": 45405,
+          "label": "   $(document).keyup(function (event) {\n      //Move view down 1/10. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/10, \n               network.getScale());\n         }\n      }\n   });",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Move view down 1/10. j",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327",
+          "x": 43982,
+          "y": 45400,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d9e9f62d-71cb-4e2b-86a5-cbfef910dad0": {
+          "label": "vis-network",
+          "x": 21582,
+          "y": 17867,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "d9e9f62d-71cb-4e2b-86a5-cbfef910dad0",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "dec02541-1ce1-4cbf-b7b5-5c354468a6fc": {
+          "label": "Development",
+          "x": 21882,
+          "y": 18317,
+          "id": "dec02541-1ce1-4cbf-b7b5-5c354468a6fc"
+        },
+        "439681c3-3723-49e7-9b9e-b3a2689f63cb": {
+          "label": "2/3/2020",
+          "x": 22007,
+          "y": 18317,
+          "id": "439681c3-3723-49e7-9b9e-b3a2689f63cb"
+        },
+        "3664449b-5879-4d54-8318-301f6d6e10cc": {
+          "label": "init",
+          "x": 22132,
+          "y": 18317,
+          "id": "3664449b-5879-4d54-8318-301f6d6e10cc"
+        },
+        "9d9ae23f-1310-4347-a0e2-a121bd27551b": {
+          "label": "Notes",
+          "x": 21855,
+          "y": 17085,
+          "id": "9d9ae23f-1310-4347-a0e2-a121bd27551b"
+        },
+        "39d04fc8-6c66-4dbf-ab11-604fddbfd347": {
+          "label": "Dictionary of\nconcepts",
+          "x": 22145,
+          "y": 15551,
+          "id": "39d04fc8-6c66-4dbf-ab11-604fddbfd347"
+        },
+        "ee873f3a-5f4e-42e1-baf6-d223bc866171": {
+          "label": "Details, thoughts",
+          "x": 22028,
+          "y": 17085,
+          "id": "ee873f3a-5f4e-42e1-baf6-d223bc866171"
+        },
+        "703f1064-e217-49ec-842c-c8f53fcc79c1": {
+          "label": "Sections",
+          "x": 21992,
+          "y": 17527,
+          "id": "703f1064-e217-49ec-842c-c8f53fcc79c1"
+        },
+        "a479acc7-33ea-46e1-8adb-8b0f1c250295": {
+          "label": "Books",
+          "x": 22092,
+          "y": 17185,
+          "id": "a479acc7-33ea-46e1-8adb-8b0f1c250295"
+        },
+        "2a1b728c-16dc-4cbe-8103-f05ac038ce1e": {
+          "label": "R&D institutions",
+          "x": 22123,
+          "y": 17210,
+          "id": "2a1b728c-16dc-4cbe-8103-f05ac038ce1e"
+        },
+        "a5612d5c-60bb-48ba-9018-cb0a0f2855fc": {
+          "label": "Sites",
+          "x": 22088,
+          "y": 17235,
+          "id": "a5612d5c-60bb-48ba-9018-cb0a0f2855fc"
+        },
+        "4953063a-9efb-4ab7-badc-c2360f38ff8d": {
+          "label": "Magazines",
+          "x": 22107,
+          "y": 17260,
+          "id": "4953063a-9efb-4ab7-badc-c2360f38ff8d"
+        },
+        "5959407a-c13a-462e-9149-9039a7309d10": {
+          "label": "Articles",
+          "x": 22096,
+          "y": 17285,
+          "id": "5959407a-c13a-462e-9149-9039a7309d10"
+        },
+        "f0ff5baf-6f3a-44de-a250-fd475e9de459": {
+          "label": "Media content",
+          "x": 22118,
+          "y": 17310,
+          "id": "f0ff5baf-6f3a-44de-a250-fd475e9de459"
+        },
+        "dbe20791-6218-42cc-a419-2662b73fc490": {
+          "label": "Misc. web links",
+          "x": 22124,
+          "y": 17527,
+          "id": "dbe20791-6218-42cc-a419-2662b73fc490"
+        },
+        "3bf21758-0996-4942-a6c2-c7e0b42665d3": {
+          "label": "Projects",
+          "x": 22102,
+          "y": 17742,
+          "id": "3bf21758-0996-4942-a6c2-c7e0b42665d3"
+        },
+        "cbed6084-7eda-4477-84cb-eeedd8f8fd34": {
+          "label": "Tools",
+          "x": 22093,
+          "y": 17767,
+          "id": "cbed6084-7eda-4477-84cb-eeedd8f8fd34"
+        },
+        "701dca26-bd7a-4f71-95d5-8ad09ad95280": {
+          "label": "Organizations",
+          "x": 22120,
+          "y": 17792,
+          "id": "701dca26-bd7a-4f71-95d5-8ad09ad95280"
+        },
+        "c018f547-c382-482f-ac1f-31661b5059ea": {
+          "label": "Standarts",
+          "x": 22107,
+          "y": 17817,
+          "id": "c018f547-c382-482f-ac1f-31661b5059ea"
+        },
+        "828f3d9e-964e-4d27-9d60-3b2f12cc2bef": {
+          "label": "Forums, Groups",
+          "x": 22128,
+          "y": 17842,
+          "id": "828f3d9e-964e-4d27-9d60-3b2f12cc2bef"
+        },
+        "b2ac610e-8fb4-443a-8523-5e0c2e3ff056": {
+          "label": "Laws",
+          "x": 22093,
+          "y": 17867,
+          "id": "b2ac610e-8fb4-443a-8523-5e0c2e3ff056"
+        },
+        "26848835-2c58-4634-8faf-8fc09ffe140b": {
+          "label": "Adjacent Themes",
+          "x": 22132,
+          "y": 17892,
+          "id": "26848835-2c58-4634-8faf-8fc09ffe140b"
+        },
+        "ddbf72a7-6796-4973-8ee8-562b2730300e": {
+          "label": "Questions",
+          "x": 21872,
+          "y": 18017,
+          "id": "ddbf72a7-6796-4973-8ee8-562b2730300e"
+        },
+        "8a64f53b-db2c-44f2-84c6-329388f9f661": {
+          "label": "Problems",
+          "x": 21870,
+          "y": 18117,
+          "id": "8a64f53b-db2c-44f2-84c6-329388f9f661"
+        },
+        "556ebb75-9bc1-457a-a5cf-c84d1af6183c": {
+          "label": "Goals",
+          "x": 21858,
+          "y": 18217,
+          "id": "556ebb75-9bc1-457a-a5cf-c84d1af6183c"
+        },
+        "5a4f0652-5bb6-46cd-bfd9-c58a2c8f7f90": {
+          "id": "5a4f0652-5bb6-46cd-bfd9-c58a2c8f7f90",
+          "x": 27757,
+          "y": 14862,
+          "label": "vis-network",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 1000,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "ce2e05c4-204f-42b0-8d25-1bd02193e493": {
+          "id": "ce2e05c4-204f-42b0-8d25-1bd02193e493",
+          "x": 22360,
+          "y": 17480,
+          "label": "https://visjs.org/",
+          "link": "https://visjs.org/"
+        },
+        "fbb3641e-53bb-4ab7-b6db-dc25af22c0a6": {
+          "id": "fbb3641e-53bb-4ab7-b6db-dc25af22c0a6",
+          "x": 22458,
+          "y": 17508,
+          "label": "https://visjs.github.io/vis-network/docs/network/",
+          "link": "https://visjs.github.io/vis-network/docs/network/"
+        },
+        "809e0171-9e59-4953-b156-6c57b8620047": {
+          "id": "809e0171-9e59-4953-b156-6c57b8620047",
+          "x": 22420,
+          "y": 17537,
+          "label": "https://github.com/visjs/vis-network",
+          "link": "https://github.com/visjs/vis-network"
+        },
+        "46a038ff-a7cf-466a-890a-a35a86cf2938": {
+          "id": "46a038ff-a7cf-466a-890a-a35a86cf2938",
+          "x": 22291,
+          "y": 15123,
+          "label": "Code"
+        },
+        "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08": {
+          "id": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "x": 22417,
+          "y": 15118,
+          "label": "vis-network/lib/"
+        },
+        "ccf86b23-2ed3-49e5-9a65-32e66c637fab": {
+          "id": "ccf86b23-2ed3-49e5-9a65-32e66c637fab",
+          "x": 22589,
+          "y": 14674,
+          "label": "assets/",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "9086dcd8-3121-456c-a948-0f7f4491c4b6": {
+          "id": "9086dcd8-3121-456c-a948-0f7f4491c4b6",
+          "x": 22589,
+          "y": 14964,
+          "label": "module/",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "71bcff11-eabd-4102-95da-a00cdf2dbdd7": {
+          "id": "71bcff11-eabd-4102-95da-a00cdf2dbdd7",
+          "x": 22595,
+          "y": 15503,
+          "label": "network/",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "73b09d23-1616-4ed2-a20d-b901b0230298": {
+          "id": "73b09d23-1616-4ed2-a20d-b901b0230298",
+          "x": 22592,
+          "y": 15581,
+          "label": "shared/",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "d12ed241-cb96-4067-8b77-6030ddf72a71": {
+          "id": "d12ed241-cb96-4067-8b77-6030ddf72a71",
+          "x": 22601,
+          "y": 15665,
+          "label": "DOMutil.js"
+        },
+        "9c0479df-6074-4a5a-9f31-4df1f53b3597": {
+          "id": "9c0479df-6074-4a5a-9f31-4df1f53b3597",
+          "x": 22612,
+          "y": 15691,
+          "label": "hammerUtil.js"
+        },
+        "1d2fbac2-de71-470d-b124-ca14f28800b4": {
+          "id": "1d2fbac2-de71-470d-b124-ca14f28800b4",
+          "x": 22640,
+          "y": 15725,
+          "label": "index-legacy-bundle.ts"
+        },
+        "46c12aff-07b7-4c2d-9a0b-27eea535ea79": {
+          "id": "46c12aff-07b7-4c2d-9a0b-27eea535ea79",
+          "x": 22616,
+          "y": 15753,
+          "label": "index-legacy.ts"
+        },
+        "fa19dacc-0935-45ed-9d74-bf3abbc46218": {
+          "id": "fa19dacc-0935-45ed-9d74-bf3abbc46218",
+          "x": 22610,
+          "y": 15785,
+          "label": "index-peer.ts"
+        },
+        "7d505c7b-e082-40cf-b5fb-b7dbe4de4074": {
+          "id": "7d505c7b-e082-40cf-b5fb-b7dbe4de4074",
+          "x": 22631,
+          "y": 15816,
+          "label": "index-standalone.ts"
+        },
+        "ab78c4cb-9ae0-46ae-8fae-0459e9137502": {
+          "id": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "x": 22722,
+          "y": 14967,
+          "label": "modules/",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "ff1b9547-df93-47aa-9b1e-758fb5ba6dbb": {
+          "id": "ff1b9547-df93-47aa-9b1e-758fb5ba6dbb",
+          "x": 22846,
+          "y": 14804,
+          "label": "layout-engine/",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "2da7fd7e-607e-496b-96de-8a34f1c0f454": {
+          "id": "2da7fd7e-607e-496b-96de-8a34f1c0f454",
+          "x": 22842,
+          "y": 14768,
+          "label": "components/",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "eb1bde63-e38b-4ae9-b52b-7672063a6b2c": {
+          "id": "eb1bde63-e38b-4ae9-b52b-7672063a6b2c",
+          "x": 22832,
+          "y": 14831,
+          "label": "Canvas.js"
+        },
+        "03dffcb5-0bf5-4be2-a46c-c6d5ce90ab26": {
+          "id": "03dffcb5-0bf5-4be2-a46c-c6d5ce90ab26",
+          "x": 22861,
+          "y": 14860,
+          "label": "CanvasRenderer.js"
+        },
+        "b5a9f945-e128-4cc9-af35-1afd437994be": {
+          "id": "b5a9f945-e128-4cc9-af35-1afd437994be",
+          "x": 22840,
+          "y": 14883,
+          "label": "Clustering.js"
+        },
+        "09215068-92c6-471c-aceb-14e6ede8b186": {
+          "id": "09215068-92c6-471c-aceb-14e6ede8b186",
+          "x": 22852,
+          "y": 14908,
+          "label": "EdgesHandler.js"
+        },
+        "7be6f9c0-01b3-4fe4-9ed1-384e6208fcb9": {
+          "id": "7be6f9c0-01b3-4fe4-9ed1-384e6208fcb9",
+          "x": 22831,
+          "y": 14936,
+          "label": "Groups.js"
+        },
+        "f05bfaea-67f5-4e24-b67d-0d1ba04c9c77": {
+          "id": "f05bfaea-67f5-4e24-b67d-0d1ba04c9c77",
+          "x": 22866,
+          "y": 14964,
+          "label": "InteractionHandler.js"
+        },
+        "8ae49525-7106-4c6f-842c-86e82544fc1b": {
+          "id": "8ae49525-7106-4c6f-842c-86e82544fc1b",
+          "x": 22853,
+          "y": 14989,
+          "label": "KamadaKawai.js"
+        },
+        "8f757837-217f-4609-ac10-817745daf5fa": {
+          "id": "8f757837-217f-4609-ac10-817745daf5fa",
+          "x": 22851,
+          "y": 15021,
+          "label": "LayoutEngine.js"
+        },
+        "d686b90a-7f94-42be-9ea9-4dc3866b1007": {
+          "id": "d686b90a-7f94-42be-9ea9-4dc3866b1007",
+          "x": 22877,
+          "y": 15051,
+          "label": "ManipulationSystem.css"
+        },
+        "2e95dc94-2179-40e6-9940-391c02811619": {
+          "id": "2e95dc94-2179-40e6-9940-391c02811619",
+          "x": 22873,
+          "y": 15083,
+          "label": "ManipulationSystem.js"
+        },
+        "8e6ee645-1e62-40b2-bc63-dcd98c38cd86": {
+          "id": "8e6ee645-1e62-40b2-bc63-dcd98c38cd86",
+          "x": 22854,
+          "y": 15109,
+          "label": "NodesHandler.js"
+        },
+        "4967d1b5-185a-4277-ad72-eb414ce26702": {
+          "id": "4967d1b5-185a-4277-ad72-eb414ce26702",
+          "x": 22855,
+          "y": 15141,
+          "label": "PhysicsEngine.js"
+        },
+        "c57569d5-300a-4ff9-8f90-60219048e066": {
+          "id": "c57569d5-300a-4ff9-8f90-60219048e066",
+          "x": 22862,
+          "y": 15171,
+          "label": "SelectionHandler.js"
+        },
+        "dad7b0dd-2e36-4ed0-9d65-e8ee01d7e91d": {
+          "id": "dad7b0dd-2e36-4ed0-9d65-e8ee01d7e91d",
+          "x": 22825,
+          "y": 15291,
+          "label": "View.js"
+        },
+        "3a2a6f32-9ec7-465b-9c79-f66a77682464": {
+          "id": "3a2a6f32-9ec7-465b-9c79-f66a77682464",
+          "x": 23505,
+          "y": 15284,
+          "label": "  getViewPosition() {\n    return this.canvas.DOMtoCanvas({x: 0.5 * this.canvas.frame.canvas.clientWidth, y: 0.5 * this.canvas.frame.canvas.clientHeight});\n  }"
+        },
+        "ed994326-eb57-4fcf-9903-eda164d5668f": {
+          "id": "ed994326-eb57-4fcf-9903-eda164d5668f",
+          "x": 22962,
+          "y": 15280,
+          "label": "getViewPosition()"
+        },
+        "f327afbb-b0e4-45eb-9a97-9cfe692e7931": {
+          "id": "f327afbb-b0e4-45eb-9a97-9cfe692e7931",
+          "x": 22328,
+          "y": 15936,
+          "label": "network"
+        },
+        "bdb532cd-6ab6-494c-ae0c-204fd5ce8ab6": {
+          "id": "bdb532cd-6ab6-494c-ae0c-204fd5ce8ab6",
+          "x": 22473,
+          "y": 15926,
+          "label": "canvas"
+        },
+        "a5fb32c4-32a7-420f-a5bd-934938a97dab": {
+          "id": "a5fb32c4-32a7-420f-a5bd-934938a97dab",
+          "x": 22580,
+          "y": 15931,
+          "label": "frame"
+        },
+        "8b64ab2d-af06-4c29-92c9-c7397a3b158e": {
+          "id": "8b64ab2d-af06-4c29-92c9-c7397a3b158e",
+          "x": 22687,
+          "y": 15927,
+          "label": "canvas"
+        },
+        "2b01a2b5-ecde-4bfa-a03d-be53bf9b3621": {
+          "id": "2b01a2b5-ecde-4bfa-a03d-be53bf9b3621",
+          "x": 22808,
+          "y": 15927,
+          "label": ".getContext('2d')"
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a0957296": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Move view left 1/10. h\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296",
+          "x": 41605,
+          "y": 45785,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327296": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move view left 1/10. h",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327296",
+          "x": 43946,
+          "y": 45767,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Move view up 1/10. k\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/10, \n               network.getScale());\n         }\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657",
+          "x": 41608,
+          "y": 46160,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327296657": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move view up 1/10. k",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657",
+          "x": 43932,
+          "y": 46142,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Move view right 1/10. l\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111",
+          "x": 41605,
+          "y": 46539,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327296657111": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move view right 1/10. l",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657111",
+          "x": 43960,
+          "y": 46521,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a0957857": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Move view down 1/2. shift+j\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/2, \n               network.getScale());\n         }\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957857",
+          "x": 41608,
+          "y": 46955,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327857": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move view down 1/2. shift+j",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327857",
+          "x": 44075,
+          "y": 46950,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a0957296857": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Move view left 1/2. shift+h\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296857",
+          "x": 41605,
+          "y": 47335,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327296857": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move view left 1/2. shift+h",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327296857",
+          "x": 44039,
+          "y": 47317,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657857": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Move view up 1/2. shift+k\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/2, \n               network.getScale());\n         }\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657857",
+          "x": 41608,
+          "y": 47710,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327296657857": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move view up 1/2. shift+k",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657857",
+          "x": 44025,
+          "y": 47692,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111857": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Move view right 1/2. shift+l\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111857",
+          "x": 41605,
+          "y": 48089,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327296657111857": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move view right 1/2. shift+l",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657111857",
+          "x": 44053,
+          "y": 48071,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "c803da61-02c9-4d76-b375-f9ffb885e2ad896": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Save selected nodes to clipboard by n number. ctrl+alt+n",
+          "id": "c803da61-02c9-4d76-b375-f9ffb885e2ad896",
+          "x": 44698,
+          "y": 54571,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "05d777ad-4cba-4d00-945c-304393dce2bf896": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Save selected nodes to clipboard by n number. ctrl+alt+n\n      if (event.altKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 0) {\n            console.log(selectedNodes);\n            clipboard[event.keyCode] = selectedNodes;\n            console.log(event.keyCode);\n            console.log(clipboard);\n         }\n      }\n   });",
+          "id": "05d777ad-4cba-4d00-945c-304393dce2bf896",
+          "x": 41617,
+          "y": 54610,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "0412b23c-532f-4d72-a5f0-639724b79637": {
+          "id": "0412b23c-532f-4d72-a5f0-639724b79637",
+          "x": 40501,
+          "y": -11628,
+          "label": "jsFilesLinksParam:100"
+        },
+        "c190cd19-9713-456e-8ee8-712da7697fcd": {
+          "id": "c190cd19-9713-456e-8ee8-712da7697fcd",
+          "x": 41317,
+          "y": -13549,
+          "label": "Set incremental number in \"mvj code setup for project name: mm-vis-js\"->\"jsFilesLinksParam:...\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
             "align": "left"
           },
           "color": {
@@ -48729,6 +49977,909 @@ var schemeData =
           "to": "f4f76bbc-6670-4f00-a266-47068af4cf9f",
           "id": "983e4ff1-d0be-4c04-845f-e490018340ed",
           "label": "code"
+        },
+        "6afeed6d-00b2-4a99-bcd6-21dd29d903fc517": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "6afeed6d-00b2-4a99-bcd6-21dd29d903fc517",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486517",
+          "to": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a517"
+        },
+        "c73dd058-9b94-4f79-841f-655cd0392914517": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c73dd058-9b94-4f79-841f-655cd0392914517",
+          "from": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a517",
+          "to": "afd90e25-5eff-4f35-bace-ab9297196cbd517"
+        },
+        "24a30c96-fbea-431e-881d-6076821b52e9": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a517",
+          "id": "24a30c96-fbea-431e-881d-6076821b52e9",
+          "label": "code"
+        },
+        "224bb576-9ff4-4fe3-aaa1-a908cf55c1ea869": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "224bb576-9ff4-4fe3-aaa1-a908cf55c1ea869",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486869",
+          "to": "c4142c7b-7db2-496f-bb44-eaf22bd6546f869"
+        },
+        "fa320087-e34f-412a-acbb-d71890bed964": {
+          "from": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a517",
+          "to": "c4142c7b-7db2-496f-bb44-eaf22bd6546f869",
+          "id": "fa320087-e34f-412a-acbb-d71890bed964"
+        },
+        "9a2bb2b3-9a92-4ec8-81c2-ba1277198c0e": {
+          "from": "fd69a6e5-7d22-4f47-b2af-43ebc380a1a6",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef",
+          "id": "9a2bb2b3-9a92-4ec8-81c2-ba1277198c0e"
+        },
+        "055042e5-4d88-4c7d-bc29-b43cd6c527c0": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "fd69a6e5-7d22-4f47-b2af-43ebc380a1a6",
+          "id": "055042e5-4d88-4c7d-bc29-b43cd6c527c0",
+          "label": "code"
+        },
+        "36d4825e-8bc2-452a-ad18-6ddc522f392b": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957",
+          "id": "36d4825e-8bc2-452a-ad18-6ddc522f392b",
+          "label": "code"
+        },
+        "9a2bb2b3-9a92-4ec8-81c2-ba1277198c0e327": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "9a2bb2b3-9a92-4ec8-81c2-ba1277198c0e327",
+          "from": "fd69a6e5-7d22-4f47-b2af-43ebc380a1a6327",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15": {
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327",
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15"
+        },
+        "5e9e86f8-fbad-4027-835e-bf48f8915124": {
+          "from": "d9e9f62d-71cb-4e2b-86a5-cbfef910dad0",
+          "to": "dec02541-1ce1-4cbf-b7b5-5c354468a6fc",
+          "id": "5e9e86f8-fbad-4027-835e-bf48f8915124"
+        },
+        "29423582-9a5e-4113-a5c0-866b0129defd": {
+          "from": "dec02541-1ce1-4cbf-b7b5-5c354468a6fc",
+          "to": "439681c3-3723-49e7-9b9e-b3a2689f63cb",
+          "id": "29423582-9a5e-4113-a5c0-866b0129defd"
+        },
+        "899e072f-6c61-4962-9f56-1fba5672325a": {
+          "from": "439681c3-3723-49e7-9b9e-b3a2689f63cb",
+          "to": "3664449b-5879-4d54-8318-301f6d6e10cc",
+          "id": "899e072f-6c61-4962-9f56-1fba5672325a"
+        },
+        "d158f81a-95ec-4735-9a06-b91395428493": {
+          "from": "d9e9f62d-71cb-4e2b-86a5-cbfef910dad0",
+          "to": "9d9ae23f-1310-4347-a0e2-a121bd27551b",
+          "id": "d158f81a-95ec-4735-9a06-b91395428493"
+        },
+        "8aeff6b3-fa6a-437e-8726-2b97d85ca024": {
+          "from": "9d9ae23f-1310-4347-a0e2-a121bd27551b",
+          "to": "39d04fc8-6c66-4dbf-ab11-604fddbfd347",
+          "id": "8aeff6b3-fa6a-437e-8726-2b97d85ca024"
+        },
+        "3046fbcd-94bc-469c-8c8f-a4e9b3b6c001": {
+          "from": "9d9ae23f-1310-4347-a0e2-a121bd27551b",
+          "to": "ee873f3a-5f4e-42e1-baf6-d223bc866171",
+          "id": "3046fbcd-94bc-469c-8c8f-a4e9b3b6c001"
+        },
+        "da4ef16f-f59b-40e9-93e3-4a8591666af1": {
+          "from": "9d9ae23f-1310-4347-a0e2-a121bd27551b",
+          "to": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "id": "da4ef16f-f59b-40e9-93e3-4a8591666af1"
+        },
+        "e5a19f2e-fcb1-4360-88f2-32af3b0203aa": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "a479acc7-33ea-46e1-8adb-8b0f1c250295",
+          "id": "e5a19f2e-fcb1-4360-88f2-32af3b0203aa"
+        },
+        "b62dc04f-9738-43c7-8297-301e0599ef27": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "2a1b728c-16dc-4cbe-8103-f05ac038ce1e",
+          "id": "b62dc04f-9738-43c7-8297-301e0599ef27"
+        },
+        "be15f202-e22f-43f7-922f-45a6ebab81bd": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "a5612d5c-60bb-48ba-9018-cb0a0f2855fc",
+          "id": "be15f202-e22f-43f7-922f-45a6ebab81bd"
+        },
+        "e8111f31-068e-4211-836e-22297c293ec1": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "4953063a-9efb-4ab7-badc-c2360f38ff8d",
+          "id": "e8111f31-068e-4211-836e-22297c293ec1"
+        },
+        "89bdd56c-b227-43ca-9187-73333b2bba43": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "5959407a-c13a-462e-9149-9039a7309d10",
+          "id": "89bdd56c-b227-43ca-9187-73333b2bba43"
+        },
+        "d53b105d-8a5d-4c69-9078-ab5de5a1e863": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "f0ff5baf-6f3a-44de-a250-fd475e9de459",
+          "id": "d53b105d-8a5d-4c69-9078-ab5de5a1e863"
+        },
+        "40ce89dd-cde5-4074-9f4b-b156b28a513a": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "dbe20791-6218-42cc-a419-2662b73fc490",
+          "id": "40ce89dd-cde5-4074-9f4b-b156b28a513a"
+        },
+        "8c648f56-79c4-46a6-a108-f156d7a71e91": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "3bf21758-0996-4942-a6c2-c7e0b42665d3",
+          "id": "8c648f56-79c4-46a6-a108-f156d7a71e91"
+        },
+        "291a2621-9551-40d8-8cfa-ca9bd6340e05": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "cbed6084-7eda-4477-84cb-eeedd8f8fd34",
+          "id": "291a2621-9551-40d8-8cfa-ca9bd6340e05"
+        },
+        "cdf33637-4afb-4a2d-8589-0ce93a4c0985": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "701dca26-bd7a-4f71-95d5-8ad09ad95280",
+          "id": "cdf33637-4afb-4a2d-8589-0ce93a4c0985"
+        },
+        "90904f1d-75a5-4762-8a35-ccacc5fe979f": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "c018f547-c382-482f-ac1f-31661b5059ea",
+          "id": "90904f1d-75a5-4762-8a35-ccacc5fe979f"
+        },
+        "cc45c2be-8c5c-4672-b4dc-1fc918e0bc12": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "828f3d9e-964e-4d27-9d60-3b2f12cc2bef",
+          "id": "cc45c2be-8c5c-4672-b4dc-1fc918e0bc12"
+        },
+        "7d8edb5d-2c54-416f-99a0-78f0737605b8": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "b2ac610e-8fb4-443a-8523-5e0c2e3ff056",
+          "id": "7d8edb5d-2c54-416f-99a0-78f0737605b8"
+        },
+        "fc24e353-96c4-45ac-a48a-b97aaa7a56b1": {
+          "from": "703f1064-e217-49ec-842c-c8f53fcc79c1",
+          "to": "26848835-2c58-4634-8faf-8fc09ffe140b",
+          "id": "fc24e353-96c4-45ac-a48a-b97aaa7a56b1"
+        },
+        "f525f969-b2d6-4824-a150-64a1ddc12809": {
+          "from": "d9e9f62d-71cb-4e2b-86a5-cbfef910dad0",
+          "to": "ddbf72a7-6796-4973-8ee8-562b2730300e",
+          "id": "f525f969-b2d6-4824-a150-64a1ddc12809"
+        },
+        "d31e6473-79bf-4422-87ac-7dcce8e6680b": {
+          "from": "d9e9f62d-71cb-4e2b-86a5-cbfef910dad0",
+          "to": "8a64f53b-db2c-44f2-84c6-329388f9f661",
+          "id": "d31e6473-79bf-4422-87ac-7dcce8e6680b"
+        },
+        "0003bbb5-5984-443a-a41b-a091c226d5d2": {
+          "from": "d9e9f62d-71cb-4e2b-86a5-cbfef910dad0",
+          "to": "556ebb75-9bc1-457a-a5cf-c84d1af6183c",
+          "id": "0003bbb5-5984-443a-a41b-a091c226d5d2"
+        },
+        "b34814cd-e16d-449d-8d37-3cc9fdd19626": {
+          "from": "dbe20791-6218-42cc-a419-2662b73fc490",
+          "to": "ce2e05c4-204f-42b0-8d25-1bd02193e493",
+          "id": "b34814cd-e16d-449d-8d37-3cc9fdd19626"
+        },
+        "46c678a4-77d1-4f6a-9dfd-a2c8dd2bea5f": {
+          "from": "dbe20791-6218-42cc-a419-2662b73fc490",
+          "to": "fbb3641e-53bb-4ab7-b6db-dc25af22c0a6",
+          "id": "46c678a4-77d1-4f6a-9dfd-a2c8dd2bea5f"
+        },
+        "be1a1519-e699-4885-a764-003bcc9deb29": {
+          "from": "dbe20791-6218-42cc-a419-2662b73fc490",
+          "to": "809e0171-9e59-4953-b156-6c57b8620047",
+          "id": "be1a1519-e699-4885-a764-003bcc9deb29"
+        },
+        "4f7242f2-f4a2-4ab3-be29-123b05bcae46": {
+          "from": "39d04fc8-6c66-4dbf-ab11-604fddbfd347",
+          "to": "46a038ff-a7cf-466a-890a-a35a86cf2938",
+          "id": "4f7242f2-f4a2-4ab3-be29-123b05bcae46"
+        },
+        "d2c53108-584a-49f3-b244-b7e15b383bd0": {
+          "from": "46a038ff-a7cf-466a-890a-a35a86cf2938",
+          "to": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "id": "d2c53108-584a-49f3-b244-b7e15b383bd0"
+        },
+        "7dc41546-a088-4713-8007-535f4f51d4b0": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "ccf86b23-2ed3-49e5-9a65-32e66c637fab",
+          "id": "7dc41546-a088-4713-8007-535f4f51d4b0"
+        },
+        "0bde7871-2383-4602-b33b-88ee8f94367f": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "9086dcd8-3121-456c-a948-0f7f4491c4b6",
+          "id": "0bde7871-2383-4602-b33b-88ee8f94367f"
+        },
+        "689df898-17ea-434d-b1f1-a200da9233ea": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "71bcff11-eabd-4102-95da-a00cdf2dbdd7",
+          "id": "689df898-17ea-434d-b1f1-a200da9233ea"
+        },
+        "ba2dd53b-7c21-4305-b9e4-34d399612a4e": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "73b09d23-1616-4ed2-a20d-b901b0230298",
+          "id": "ba2dd53b-7c21-4305-b9e4-34d399612a4e"
+        },
+        "db425d09-7039-4fe0-9738-a12347fdbc95": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "d12ed241-cb96-4067-8b77-6030ddf72a71",
+          "id": "db425d09-7039-4fe0-9738-a12347fdbc95"
+        },
+        "722e783f-aa99-4513-b847-ebdad78f0fb7": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "9c0479df-6074-4a5a-9f31-4df1f53b3597",
+          "id": "722e783f-aa99-4513-b847-ebdad78f0fb7"
+        },
+        "ed61b3c6-52f2-46c8-812a-32ffc8ad762c": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "1d2fbac2-de71-470d-b124-ca14f28800b4",
+          "id": "ed61b3c6-52f2-46c8-812a-32ffc8ad762c"
+        },
+        "18d3c340-9427-4529-966d-221049c4a9fc": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "46c12aff-07b7-4c2d-9a0b-27eea535ea79",
+          "id": "18d3c340-9427-4529-966d-221049c4a9fc"
+        },
+        "042c1590-6683-4c09-b7d9-641bc4fd96be": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "fa19dacc-0935-45ed-9d74-bf3abbc46218",
+          "id": "042c1590-6683-4c09-b7d9-641bc4fd96be"
+        },
+        "5b0f4d7b-4a54-41f9-a1e6-0b1d0c3785a0": {
+          "from": "98b0fb6c-e00a-4e71-92bd-0dba8ca04c08",
+          "to": "7d505c7b-e082-40cf-b5fb-b7dbe4de4074",
+          "id": "5b0f4d7b-4a54-41f9-a1e6-0b1d0c3785a0"
+        },
+        "3654c435-7cdb-48ef-80e6-7663cb31964a": {
+          "from": "9086dcd8-3121-456c-a948-0f7f4491c4b6",
+          "to": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "id": "3654c435-7cdb-48ef-80e6-7663cb31964a"
+        },
+        "39745756-8c88-4d45-bb8c-535a3905ab26": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "ff1b9547-df93-47aa-9b1e-758fb5ba6dbb",
+          "id": "39745756-8c88-4d45-bb8c-535a3905ab26"
+        },
+        "d08c516c-9a83-4806-a1ae-168c4a1553c1": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "2da7fd7e-607e-496b-96de-8a34f1c0f454",
+          "id": "d08c516c-9a83-4806-a1ae-168c4a1553c1"
+        },
+        "c35704e4-f25a-478d-9d4f-dfcf9e7f8423": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "eb1bde63-e38b-4ae9-b52b-7672063a6b2c",
+          "id": "c35704e4-f25a-478d-9d4f-dfcf9e7f8423"
+        },
+        "7546a0b8-44e8-4aef-89e2-949522000bff": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "03dffcb5-0bf5-4be2-a46c-c6d5ce90ab26",
+          "id": "7546a0b8-44e8-4aef-89e2-949522000bff"
+        },
+        "0c21573b-f227-4c94-b244-43f9d4501831": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "b5a9f945-e128-4cc9-af35-1afd437994be",
+          "id": "0c21573b-f227-4c94-b244-43f9d4501831"
+        },
+        "102c6c19-7051-4484-a921-d84f3549baae": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "09215068-92c6-471c-aceb-14e6ede8b186",
+          "id": "102c6c19-7051-4484-a921-d84f3549baae"
+        },
+        "aa0c26ea-56e0-4f8b-acca-316978ddb816": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "7be6f9c0-01b3-4fe4-9ed1-384e6208fcb9",
+          "id": "aa0c26ea-56e0-4f8b-acca-316978ddb816"
+        },
+        "e4e79749-f796-404c-93fc-771e0dbe9635": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "f05bfaea-67f5-4e24-b67d-0d1ba04c9c77",
+          "id": "e4e79749-f796-404c-93fc-771e0dbe9635"
+        },
+        "cd6f3a42-2314-4c98-ad77-6893441cc736": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "8ae49525-7106-4c6f-842c-86e82544fc1b",
+          "id": "cd6f3a42-2314-4c98-ad77-6893441cc736"
+        },
+        "1e6cf618-05b6-428a-9646-72b96917b071": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "8f757837-217f-4609-ac10-817745daf5fa",
+          "id": "1e6cf618-05b6-428a-9646-72b96917b071"
+        },
+        "d6ef370c-351b-4465-9cfb-84e424fa3351": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "d686b90a-7f94-42be-9ea9-4dc3866b1007",
+          "id": "d6ef370c-351b-4465-9cfb-84e424fa3351"
+        },
+        "8392ca62-a3d3-4057-995b-7c7db4052549": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "2e95dc94-2179-40e6-9940-391c02811619",
+          "id": "8392ca62-a3d3-4057-995b-7c7db4052549"
+        },
+        "6bfebcdb-d179-4ae2-861c-a599bd46b3a6": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "8e6ee645-1e62-40b2-bc63-dcd98c38cd86",
+          "id": "6bfebcdb-d179-4ae2-861c-a599bd46b3a6"
+        },
+        "3fa7df6c-0379-4495-9ecf-e372ddb48d4a": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "4967d1b5-185a-4277-ad72-eb414ce26702",
+          "id": "3fa7df6c-0379-4495-9ecf-e372ddb48d4a"
+        },
+        "4ee47bc7-aece-4186-ae00-9b450bc5dfc9": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "c57569d5-300a-4ff9-8f90-60219048e066",
+          "id": "4ee47bc7-aece-4186-ae00-9b450bc5dfc9"
+        },
+        "c8e65695-30b7-4118-aaf5-aaf38871e947": {
+          "from": "ab78c4cb-9ae0-46ae-8fae-0459e9137502",
+          "to": "dad7b0dd-2e36-4ed0-9d65-e8ee01d7e91d",
+          "id": "c8e65695-30b7-4118-aaf5-aaf38871e947"
+        },
+        "09a67b19-b9e5-4c3c-99d2-494d0a84e992": {
+          "from": "dad7b0dd-2e36-4ed0-9d65-e8ee01d7e91d",
+          "to": "ed994326-eb57-4fcf-9903-eda164d5668f",
+          "id": "09a67b19-b9e5-4c3c-99d2-494d0a84e992"
+        },
+        "6a84acec-80d5-49aa-a7d2-890000a189a7": {
+          "from": "ed994326-eb57-4fcf-9903-eda164d5668f",
+          "to": "3a2a6f32-9ec7-465b-9c79-f66a77682464",
+          "id": "6a84acec-80d5-49aa-a7d2-890000a189a7"
+        },
+        "31576e3a-6bca-4abb-932e-dc6442346afe": {
+          "from": "f327afbb-b0e4-45eb-9a97-9cfe692e7931",
+          "to": "bdb532cd-6ab6-494c-ae0c-204fd5ce8ab6",
+          "id": "31576e3a-6bca-4abb-932e-dc6442346afe"
+        },
+        "5abbc3c0-c5ac-4fa0-b2be-0c5d3970e64a": {
+          "from": "bdb532cd-6ab6-494c-ae0c-204fd5ce8ab6",
+          "to": "a5fb32c4-32a7-420f-a5bd-934938a97dab",
+          "id": "5abbc3c0-c5ac-4fa0-b2be-0c5d3970e64a"
+        },
+        "59c4b08f-df4d-4e70-9c92-ed1d81ebebdd": {
+          "from": "39d04fc8-6c66-4dbf-ab11-604fddbfd347",
+          "to": "f327afbb-b0e4-45eb-9a97-9cfe692e7931",
+          "id": "59c4b08f-df4d-4e70-9c92-ed1d81ebebdd"
+        },
+        "144b2e41-673c-4ba3-9d2b-d7a0da6ed909": {
+          "from": "a5fb32c4-32a7-420f-a5bd-934938a97dab",
+          "to": "8b64ab2d-af06-4c29-92c9-c7397a3b158e",
+          "id": "144b2e41-673c-4ba3-9d2b-d7a0da6ed909"
+        },
+        "d4bb2754-e178-44f3-9ea0-2b5cc05b1aa4": {
+          "from": "8b64ab2d-af06-4c29-92c9-c7397a3b158e",
+          "to": "2b01a2b5-ecde-4bfa-a03d-be53bf9b3621",
+          "id": "d4bb2754-e178-44f3-9ea0-2b5cc05b1aa4"
+        },
+        "36d4825e-8bc2-452a-ad18-6ddc522f392b296": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "36d4825e-8bc2-452a-ad18-6ddc522f392b296",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486296",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15296": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15296",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327296"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15296657": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15296657",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327296657"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15296657111": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15296657111",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327296657111"
+        },
+        "3312ffc2-e7a1-4c46-b562-24461a5b8063": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296",
+          "id": "3312ffc2-e7a1-4c46-b562-24461a5b8063",
+          "label": "code"
+        },
+        "60282f88-3af0-4c12-a19f-78b9c3eb1c49": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657",
+          "id": "60282f88-3af0-4c12-a19f-78b9c3eb1c49",
+          "label": "code"
+        },
+        "a982625c-6e61-4fba-b671-e3afae169781": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111",
+          "id": "a982625c-6e61-4fba-b671-e3afae169781",
+          "label": "code"
+        },
+        "36d4825e-8bc2-452a-ad18-6ddc522f392b857": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "36d4825e-8bc2-452a-ad18-6ddc522f392b857",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486857",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957857"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15857": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15857",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957857",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327857"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15296857": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15296857",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296857",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327296857"
+        },
+        "3312ffc2-e7a1-4c46-b562-24461a5b8063857": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "3312ffc2-e7a1-4c46-b562-24461a5b8063857",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486857",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296857"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15296657857": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15296657857",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657857",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327296657857"
+        },
+        "60282f88-3af0-4c12-a19f-78b9c3eb1c49857": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "60282f88-3af0-4c12-a19f-78b9c3eb1c49857",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486857",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657857"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15296657111857": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15296657111857",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111857",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327296657111857"
+        },
+        "a982625c-6e61-4fba-b671-e3afae169781857": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "a982625c-6e61-4fba-b671-e3afae169781857",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486857",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111857"
+        },
+        "22d4af5b-709b-4bbb-9293-fce8592446f9": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957857",
+          "id": "22d4af5b-709b-4bbb-9293-fce8592446f9",
+          "label": "code"
+        },
+        "e0c545bb-ee8b-4977-b9a5-72370136f53e": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296857",
+          "id": "e0c545bb-ee8b-4977-b9a5-72370136f53e",
+          "label": "code"
+        },
+        "e44ed0a8-f34f-4fb6-86a3-5b0d1aaf8261": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657857",
+          "id": "e44ed0a8-f34f-4fb6-86a3-5b0d1aaf8261",
+          "label": "code"
+        },
+        "2c0bbc38-7189-4888-9671-c39332ec5475": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111857",
+          "id": "2c0bbc38-7189-4888-9671-c39332ec5475",
+          "label": "code"
+        },
+        "e3510bcc-ca03-4db9-8591-1fb480642016896": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "e3510bcc-ca03-4db9-8591-1fb480642016896",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486896",
+          "to": "05d777ad-4cba-4d00-945c-304393dce2bf896"
+        },
+        "0dbdd219-900b-4974-9940-c4a1ed40139d": {
+          "from": "05d777ad-4cba-4d00-945c-304393dce2bf896",
+          "to": "c803da61-02c9-4d76-b375-f9ffb885e2ad896",
+          "id": "0dbdd219-900b-4974-9940-c4a1ed40139d"
+        },
+        "243e27a9-691b-4a91-9c5e-0f3ac9c82203": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "05d777ad-4cba-4d00-945c-304393dce2bf896",
+          "id": "243e27a9-691b-4a91-9c5e-0f3ac9c82203",
+          "label": "code"
+        },
+        "fa6524d4-249f-42cd-b11e-81579f1a0a35": {
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0978206200486",
+          "to": "0412b23c-532f-4d72-a5f0-639724b79637",
+          "id": "fa6524d4-249f-42cd-b11e-81579f1a0a35"
+        },
+        "a40e979e-eba1-40b0-a351-a6fb54bb881f": {
+          "from": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
+          "to": "c190cd19-9713-456e-8ee8-712da7697fcd",
+          "id": "a40e979e-eba1-40b0-a351-a6fb54bb881f"
         }
       },
       "length": 0,
@@ -48766,10 +50917,10 @@ var schemeData =
   },
   "dataCash": {},
   "setup": {
-    "scale": 0.01,
+    "scale": 0.016850816362800468,
     "viewPosition": {
-      "x": 65672.99999999996,
-      "y": 17507.999999999993
+      "x": 89646.61117246667,
+      "y": 8203.059013685048
     }
   }
 }

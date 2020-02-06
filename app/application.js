@@ -45,6 +45,7 @@ var nodesDropDownMenuNodesIds = [];
 var dontShowShemeDataMenuPagesList = [
    "news.html"
 ];
+var lastSelectedNodeId = null;
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -1511,24 +1512,29 @@ function runNodeMenuItems(e) {
    var menuNode = network.selectionHandler.getNodeAt(pointer);
    if (typeof menuNode !== "undefined" &&
        nodesDropDownMenuNodesIds.indexOf(menuNode.id) != -1) {
-          var rootNodeId = getNodeFromNetworkDataById(menuNode.id).menuRootNodeId;
-          var label = menuNode.options.label;
-          var lines = label.split("\n");
-          var linesCount = lines.length;
-          var menuNodeHeight = menuNode.shape.textSize.height;
-          var menuItemsHeight = menuNodeHeight/linesCount;
-          var canvasPointer = network.canvas.DOMtoCanvas(pointer);
-          var fromMenuTopToClickPoint = canvasPointer.y - menuNode.shape.top - menuNode.shape.margin.top - 1;
-          var menuLineNumber = (fromMenuTopToClickPoint - (fromMenuTopToClickPoint % menuItemsHeight)) / menuItemsHeight;
-          console.log(menuLineNumber);  
-          console.log(lines[menuLineNumber]);
-
-          if (lines[menuLineNumber] == "Restore node's branches (alt+y)") {
-             restoreNodeBranchesFromDataCash(rootNodeId);
-          }
-          if (lines[menuLineNumber] == "Wrap node's branches (alt+y)") {
-             hideNodeBranchesToDataCash(rootNodeId, null);
-          }
+      var rootNodeId = getNodeFromNetworkDataById(menuNode.id).menuRootNodeId;
+      var label = menuNode.options.label;
+      var lines = label.split("\n");
+      var linesCount = lines.length;
+      var menuNodeHeight = menuNode.shape.textSize.height;
+      var menuItemsHeight = menuNodeHeight/linesCount;
+      var canvasPointer = network.canvas.DOMtoCanvas(pointer);
+      var fromMenuTopToClickPoint = canvasPointer.y - menuNode.shape.top - menuNode.shape.margin.top - 1;
+      var menuLineNumber = (fromMenuTopToClickPoint - (fromMenuTopToClickPoint % menuItemsHeight)) / menuItemsHeight;
+      console.log(menuLineNumber);  
+      console.log("menuLineNumber: " + lines[menuLineNumber]);
+      if (lines[menuLineNumber] == "Restore node's branches (alt+y)") {
+         restoreNodeBranchesFromDataCash(rootNodeId);
+      }
+      if (lines[menuLineNumber] == "Wrap node's branches (alt+y)") {
+         hideNodeBranchesToDataCash(rootNodeId, null);
+      }
+      if (lines[menuLineNumber] == "Open node link. In new tab. (alt+l)") {
+         var rootNode = getNodeFromNetworkDataById(rootNodeId);
+         if (typeof rootNode.link !== "undefined" && rootNode.link.length > 0) {
+            window.open(rootNode.link, '_blank');
+         }
+      }
    }
 }
    containerJQ.on("mousedown", function(e) {
@@ -1552,6 +1558,8 @@ function makeNodeDropDownMenuLines(nodeId) {
 
    var lines = [];
 
+   var node = getNodeFromNetworkDataById(nodeId);
+
    var branchesNodesAndEdges = getTreeNodesAndEdges(nodeId);
    if (branchesNodesAndEdges.nodes.length > 0) {
       lines.push("Wrap node's branches (alt+y)");
@@ -1560,6 +1568,9 @@ function makeNodeDropDownMenuLines(nodeId) {
           dataCash[nodeId].nodes.length > 0) {
          lines.push("Restore node's branches (alt+y)");
       }
+   }
+   if (typeof node.link !== "undefined" && node.link.length > 0) {
+      lines.push("Open node link. In new tab. (alt+l)");
    }
    //
    return lines;
@@ -1621,7 +1632,10 @@ function makeNodeDropDownMenuLines(nodeId) {
 		var nodeColorInput = $("input#nodeColorInput");
 		var nodeBorderWidthInput = $("input#nodeBorderWidthInput");
 		var nodeBorderColorInput = $("input#nodeBorderColorInput");
+
                 var nodeD = getNodeFromNetworkDataById(properties.nodes[0]);
+                lastSelectedNodeId = nodeD.id;
+
 		nodeIdInput.val(nodeD.id);
 		nodeLabelTextarea.val(nodeD.label);
 		pNode = network.getPositions()[nodeD.id];
@@ -2330,7 +2344,7 @@ $(document).ready(function() {
 	eSItem61.append(nodeLinkTextareaLabel);
 	var nodeLinkTextarea = $("<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>");
 	eSItem62.append(nodeLinkTextarea);
-	var linkOpenButton = $("<div style='cursor:pointer;margin: 4px 0 2px 0;'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>");
+	var linkOpenButton = $("<div style='cursor:pointer;margin: 4px 0 2px 0;' id='linkOpenButton'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>");
 	eSItem62.append(linkOpenButton);
 
 	var eSRow7 = $("<tr></tr>");
@@ -2673,6 +2687,221 @@ runNodeCodeButton.click(function() {
       }
    });
    $(document).keyup(function (event) {
+      //Move view down 1/10. j
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+            var viewPosition = network.getViewPosition();
+            var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+               x: 0, 
+               y: 0});
+            var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+               x: network.canvas.frame.canvas.clientWidth, 
+               y: network.canvas.frame.canvas.clientHeight});
+            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;
+            moveViewTo(
+               viewPosition.x, 
+               viewPosition.y + height/10, 
+               network.getScale());
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move view left 1/10. h
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+            var viewPosition = network.getViewPosition();
+            var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+               x: 0, 
+               y: 0});
+            var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+               x: network.canvas.frame.canvas.clientWidth, 
+               y: network.canvas.frame.canvas.clientHeight});
+            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+            moveViewTo(
+               viewPosition.x - width/10, 
+               viewPosition.y, 
+               network.getScale());
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move view up 1/10. k
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+            var viewPosition = network.getViewPosition();
+            var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+               x: 0, 
+               y: 0});
+            var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+               x: network.canvas.frame.canvas.clientWidth, 
+               y: network.canvas.frame.canvas.clientHeight});
+            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;
+            moveViewTo(
+               viewPosition.x, 
+               viewPosition.y - height/10, 
+               network.getScale());
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move view right 1/10. l
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+            var viewPosition = network.getViewPosition();
+            var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+               x: 0, 
+               y: 0});
+            var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+               x: network.canvas.frame.canvas.clientWidth, 
+               y: network.canvas.frame.canvas.clientHeight});
+            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+            moveViewTo(
+               viewPosition.x + width/10, 
+               viewPosition.y, 
+               network.getScale());
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move view down 1/2. shift+j
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+            var viewPosition = network.getViewPosition();
+            var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+               x: 0, 
+               y: 0});
+            var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+               x: network.canvas.frame.canvas.clientWidth, 
+               y: network.canvas.frame.canvas.clientHeight});
+            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;
+            moveViewTo(
+               viewPosition.x, 
+               viewPosition.y + height/2, 
+               network.getScale());
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move view left 1/2. shift+h
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+            var viewPosition = network.getViewPosition();
+            var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+               x: 0, 
+               y: 0});
+            var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+               x: network.canvas.frame.canvas.clientWidth, 
+               y: network.canvas.frame.canvas.clientHeight});
+            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+            moveViewTo(
+               viewPosition.x - width/2, 
+               viewPosition.y, 
+               network.getScale());
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move view up 1/2. shift+k
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+            var viewPosition = network.getViewPosition();
+            var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+               x: 0, 
+               y: 0});
+            var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+               x: network.canvas.frame.canvas.clientWidth, 
+               y: network.canvas.frame.canvas.clientHeight});
+            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;
+            moveViewTo(
+               viewPosition.x, 
+               viewPosition.y - height/2, 
+               network.getScale());
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move view right 1/2. shift+l
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+            var viewPosition = network.getViewPosition();
+            var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+               x: 0, 
+               y: 0});
+            var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+               x: network.canvas.frame.canvas.clientWidth, 
+               y: network.canvas.frame.canvas.clientHeight});
+            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+            moveViewTo(
+               viewPosition.x + width/2, 
+               viewPosition.y, 
+               network.getScale());
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Jump to last selected (by click) node. alt+;
+      if (event.altKey && event.keyCode === 186) {
+
+         if (lastSelectedNodeId == null) return;
+
+         var nodesPositions = network.getPositions();
+
+         moveViewTo(
+            nodesPositions[lastSelectedNodeId].x,
+            nodesPositions[lastSelectedNodeId].y, 
+            network.getScale()
+         );
+
+      }
+   });
+
+   $(document).keyup(function (event) {
+      //Open node link. alt+l
+      if (event.altKey && event.keyCode === 76) {
+         $("div#linkOpenButton").click();
+      }
+   });
+   $(document).keyup(function (event) {
       //Move/restore branches of selected node to/from dataCash. alt+y
       if (event.altKey && event.keyCode === 89) {
          var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
@@ -2770,7 +2999,7 @@ runNodeCodeButton.click(function() {
       }
    });
    $(document).keyup(function (event) {
-      //wrap-unwrap tree toggle. alt+g
+      //wrap-unwrap tree. alt+g
       if (event.altKey && event.keyCode == 71 ) {
 
          var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
@@ -2864,7 +3093,33 @@ runNodeCodeButton.click(function() {
       }
    });
    $(document).keyup(function (event) {
-      //add selected to clipboard by n number. ctrl+alt+n
+      //Save view by n number. No nodes must be selected. ctrl+alt+n
+      if (event.altKey && event.ctrlKey 
+         && (event.keyCode === 48 ||
+             event.keyCode === 49 ||
+             event.keyCode === 50 ||
+             event.keyCode === 51 ||
+             event.keyCode === 52 ||
+             event.keyCode === 53 ||
+             event.keyCode === 54 ||
+             event.keyCode === 55 ||
+             event.keyCode === 56 ||
+             event.keyCode === 57) ) {
+         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+         if (selectedNodes.length == 0) {
+            var scale = network.getScale();
+            var position = network.getViewPosition();
+            viewsSaves[event.keyCode] = {position: position, scale: scale};
+            console.log(event.keyCode);
+            console.log(scale);
+            console.log(position);
+            console.log(viewsSaves);
+         }
+         
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move clipboard nodes by n number to last click position. ctrl+alt+n
       if (event.shiftKey && event.ctrlKey 
          && (event.keyCode === 48 ||
              event.keyCode === 49 ||
@@ -2907,7 +3162,7 @@ runNodeCodeButton.click(function() {
       }
    });
    $(document).keyup(function (event) {
-      //add selected to clipboard by n number. ctrl+alt+n
+      //Save selected nodes to clipboard by n number. ctrl+alt+n
       if (event.altKey && event.ctrlKey 
          && (event.keyCode === 48 ||
              event.keyCode === 49 ||
@@ -2925,16 +3180,7 @@ runNodeCodeButton.click(function() {
             clipboard[event.keyCode] = selectedNodes;
             console.log(event.keyCode);
             console.log(clipboard);
-         } else {
-            var scale = network.getScale();
-            var position = network.getViewPosition();
-            viewsSaves[event.keyCode] = {position: position, scale: scale};
-            console.log(event.keyCode);
-            console.log(scale);
-            console.log(position);
-            console.log(viewsSaves);
          }
-         
       }
    });
    $(document).keyup(function (event) {
