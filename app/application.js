@@ -43,9 +43,14 @@ var dataCash = null;
 var nodeLabelTextareaExpanded = false;
 var nodesDropDownMenuNodesIds = [];
 var dontShowShemeDataMenuPagesList = [
-   "news.html"
+   "news1.html",
+   "news2.html"
 ];
 var lastSelectedNodeId = null;
+var userConfData = {
+  "conceptualModelingLocalLink1": "file:///home/mike/oldmount/wd2_earx_wcazah/Downloads_2018/conceptual_modeling_2020.02.05/"
+}
+
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -262,6 +267,16 @@ function getTreeNodesAndEdges(rootNodeId) {
                branchesNodesAndEdges.edges.forEach(function(edge, index) {
                   removeEdgesIds.push(edge.id);
                });
+               var rootNode = getNodeFromNetworkDataById(nodeId);
+               if (typeof rootNode.color !== "undefined") {
+                  rootNode.color.border = "black";
+               } else {
+                  rootNode.color = {border: "black"};
+               }
+               rootNode.borderWidth = "1";
+               rootNode.x = branchesNodesAndEdges.rootPosition.x;
+               rootNode.y = branchesNodesAndEdges.rootPosition.y;
+               network.body.data.nodes.update(rootNode);
                updateMenuFromScheme(removeNodesIds, removeEdgesIds);
                updateSchemeFromMenu([],[]);
             }
@@ -291,6 +306,10 @@ function getTreeNodesAndEdges(rootNodeId) {
                   yStep = yStep + branchNode.shape.height/2;
                   if (xShift != null) branchNode.x = branchNode.x + xShift;
                });
+
+               var rootNode = getNodeFromNetworkDataById(nodeId);
+               rootNode.borderWidth = "0";
+               network.body.data.nodes.update(rootNode);
 
                delete dataCash[nodeId];
                updateMenuFromScheme([],[]);
@@ -2401,17 +2420,32 @@ $(document).ready(function() {
 	eSItem111.append(nodeFontAlignInputLabel);
 	var nodeFontAlignInput = $("<input type='text' id='nodeFontAlignInput'></input>");
 	eSItem112.append(nodeFontAlignInput);
-	linkOpenButton.click(function() {
-		var link = nodeLinkTextarea.val();
-		if (link.length > 0) {
-			window.open(link, '_blank');
-		}
-	});
+   linkOpenButton.click(function() {
+      var link = nodeLinkTextarea.val();
+      //if link starts with userConfData["someConfPathKey"], then we replace this var with path for its key from userConfData
+      if (link.match(/^userConfData/) != null) {
+console.log(1);
+         if (typeof userConfData !== "undefined") {
+console.log(1);
+            var userConfKey = link.replace(/.*userConfData\["(.*?)"\].*/g,"$1");
+console.log("userConfKey: " + userConfKey);
+            var userConfLinkPath = userConfData[userConfKey];
+            if (typeof userConfLinkPath !== "undefined" && userConfLinkPath.length > 0) {
+               link = link.replace(/.*userConfData\[".*?"\]/g,userConfLinkPath);
+            }
+         } else {
+            link = link.replace(/.*userConfData\[".*?"\]/g,"Error: no local path for this file. ");
+         }
+      }
+      if (link.length > 0) {
+         window.open(link, '_blank');
+      }
+   });
 
-	schemeEditElementsMenu.append(elementsSetupTable);
+   schemeEditElementsMenu.append(elementsSetupTable);
 
-	var saveElementEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElement</span></div>");
-	schemeEditElementsMenu.append(saveElementEditButton);
+   var saveElementEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElement</span></div>");
+   schemeEditElementsMenu.append(saveElementEditButton);
 	saveElementEditButton.click(function() {
 		var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput");
 		var nodeLabelTextarea = schemeEditElementsMenu.find("textarea#nodeLabelTextarea");

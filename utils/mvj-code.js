@@ -4,6 +4,7 @@ var pathDelimiter = "/";
 
 var fs = require('fs');
 
+var userConfPath = "../user-conf.json";
 var rootBackupDirPath = "/tmp/mm-vis-js_code_backup/";
 if (!fs.existsSync(rootBackupDirPath)){
    fs.mkdirSync(rootBackupDirPath);
@@ -30,7 +31,6 @@ var edges = data.canvas1Data.edges._data;
 var files = {};
 var setupNodeId;
 var setup = {};
-
 for (var key in nodes) {
 	if (nodes[key].label.startsWith("mvj code file for project name: " + projectName)) {
 		files[key] = {rootNodeId: key, projectName: projectName};
@@ -80,7 +80,13 @@ for (var keyE in edges) {
 			setup["jsFilesLinksParam"] = nodes[nodeId].label.replace("jsFilesLinksParam:", "").trim();
 			setup["jsFilesLinksParam"] = parseInt(setup["jsFilesLinksParam"], 10);
 		}
+		if (nodes[nodeId].label.startsWith("readLocalUserConfig")) {
+			setup["readLocalUserConfig"] = nodes[nodeId].label.replace("readLocalUserConfig:", "").trim();
+		}
 	}
+}
+if (typeof setup["readLocalUserConfig"] !== "undefined" && setup["readLocalUserConfig"] == "true") {
+   setup["userConfData"] = fs.readFileSync(userConfPath, 'utf8');
 }
 function collectCodeNodesContent(rootCodeNodeId, nodes, edges) {
    var nodeCode = nodes[rootCodeNodeId].label;
@@ -88,12 +94,12 @@ function collectCodeNodesContent(rootCodeNodeId, nodes, edges) {
    var matchResults = nodeCode.match(/generateCode1[\s\S]*?generateCode2/g);
    if (matchResults !== null) {
       for (var i = 0; i < matchResults.length; i++) {
-         console.log(matchResults[i]);
+         //console.log(matchResults[i]);
          var codeToRun = matchResults[i].replace(/generateCode1([\s\S]*?)generateCode2/g, "$1");
-         console.log(codeToRun);
+         //console.log(codeToRun);
          var codeFunction = new Function("setup", codeToRun);
          var fResult = codeFunction(setup);
-         console.log(fResult);
+         //console.log(fResult);
          nodeCode = nodeCode.replace(matchResults[i],fResult);
       }
    }
