@@ -1954,7 +1954,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar drag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news2.html\"\n];\nvar lastSelectedNodeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
+          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar drag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news2.html\",\n   \"youtube.html\",\n   \"base.html\"\n];\nvar lastSelectedNodeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
           "x": 38920,
           "y": -7600,
           "id": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
@@ -2852,8 +2852,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//ctrl+Enter\n\t\tif (event.ctrlKey && event.keyCode === 13) {\n\t\t\t$(\"#saveButton\").click();\n\t\t}\n\t});",
-          "x": 41503,
-          "y": 58065,
+          "x": 41536,
+          "y": 58657,
           "id": "b1e665eb-079b-4a16-8fb4-2054b5c70fc2486"
         },
         "6d7af570-fdce-465e-a2f1-60445c56afa4486": {
@@ -2880,8 +2880,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\t$(\"input#cancelButton\").click();\n\t\t\tcancelNodeEdit = true;\n\t\t}\n\t});",
-          "x": 41503,
-          "y": 58202,
+          "x": 41536,
+          "y": 58794,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486"
         },
         "02dc1f64-b3e0-4714-afd3-a46325785228486": {
@@ -2911,8 +2911,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(document).keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\tif (document.getElementById('network-popUp').style.display == \"none\" && cancelNodeEdit == false) {\n\t\t\t\tnetwork.disableEditMode();\n\t\t\t\tnetwork.editNode();\n\t\t\t} else {\n\t\t\t\tcancelNodeEdit = false;\n\t\t\t}\n\t\t}\n\t});",
-          "x": 41663,
-          "y": 59034,
+          "x": 41696,
+          "y": 59626,
           "id": "02dc1f64-b3e0-4714-afd3-a46325785228486",
           "shape": "box",
           "link": "",
@@ -2944,9 +2944,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\t$(document).keydown(function (event) {\n\t\t//Connect nodes. ctrl+alt+c.\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 67) {\n                        var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();\n\t\t\tif (selectedNodesCount < 2) return;\n                        var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar rootNodeId;\n                        var minLeft;\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (i == 0) {\n\t\t\t\t\tminLeft = nodes[0].x;\n\t\t\t\t\trootNodeId = nodes[0].id;\n\t\t\t\t}\n                                if (minLeft > nodes[i].x) {\n                                        minLeft = nodes[i].x;\n\t\t\t\t\trootNodeId = nodes[i].id;\n                                };\n                        }\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (nodes[i].id != rootNodeId) {\n\t\t\t\t\tvar edgeData = {from: rootNodeId, to: nodes[i].id};\n\t\t\t\t\tnetwork.body.data.edges.getDataSet().add(edgeData);\n\t\t\t\t}\n                        }\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t}\n\t});",
-          "x": 41639,
-          "y": 59406,
+          "label": "\t$(document).keydown(function (event) {\n\t\t//Connect nodes. ctrl+alt+c.\n\t\tif (event.ctrlKey == true && \n                    event.altKey == true &&\n                    event.shiftKey == false &&\n                    event.keyCode === 67) {\n                        var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();\n\t\t\tif (selectedNodesCount < 2) return;\n                        var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar rootNodeId;\n                        var minLeft;\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (i == 0) {\n\t\t\t\t\tminLeft = nodes[0].x;\n\t\t\t\t\trootNodeId = nodes[0].id;\n\t\t\t\t}\n                                if (minLeft > nodes[i].x) {\n                                        minLeft = nodes[i].x;\n\t\t\t\t\trootNodeId = nodes[i].id;\n                                };\n                        }\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (nodes[i].id != rootNodeId) {\n\t\t\t\t\tvar edgeData = {from: rootNodeId, to: nodes[i].id};\n\t\t\t\t\tnetwork.body.data.edges.getDataSet().add(edgeData);\n\t\t\t\t}\n                        }\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t}\n\t});",
+          "x": 41672,
+          "y": 59998,
           "id": "306b8d2b-e500-4e08-bb72-131a63a59872486",
           "shape": "box",
           "link": "",
@@ -4670,8 +4670,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function c(x, y) {\n\tvar imgData = false;\n\tvar ctxColor;\n\tif (imgData === false) {\n\t\t//console.log(document.getElementById(\"network\").getContext('2d'));\n\t\t//ctxColor = document.getElementById(\"network\").getContext(\"2d\");\n\t\tctxColor = canvas.getContext('2d');\n\t\timgData = ctxColor.getImageData(0,0,canvas.width, canvas.height);\n\t}\t\n\tvar index = (y * imgData.width + x) * 4;\n\tvar red = imgData.data[index];\n\tvar green = imgData.data[index+1];\n\tvar blue = imgData.data[index+2];\n\tvar alpha = imgData.data[index+3];\n\t//console.log('pix x ' + x + ' y ' + y + ' index ' + index + ' COLOR ' + red + ', ' + green + ', ' + blue + ', ' + alpha);\n}",
-          "x": 40304,
-          "y": 61707,
+          "x": 40337,
+          "y": 62299,
           "id": "f5f9ec15-27c8-4eba-aa98-273066ed1813486"
         },
         "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486": {
@@ -4698,8 +4698,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function rdf() {\n\tvar store = $rdf.graph();\n\tconsole.log($rdf);\n\tconsole.log(store);\n\tconsole.log(network);\n\tnetwork.body.data.nodes.get().forEach(function(node) {\n\t\tstore.add($rdf.literal(node.id), FOAF('name'), $rdf.literal(node.id));\n\t\t//store.add(node.id, \"name\",);\n\t});\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t});\n\tconsole.log(store.length);\n}",
-          "x": 41348,
-          "y": 62039,
+          "x": 41381,
+          "y": 62631,
           "id": "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486"
         },
         "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486": {
@@ -4726,8 +4726,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function localStorageSpace() {\n    var data = '';\n\n    console.log('Current local storage: ');\n\n    for(var key in window.localStorage){\n\n        if(window.localStorage.hasOwnProperty(key)){\n            data += window.localStorage[key];\n            console.log( key + \" = \" + ((window.localStorage[key].length * 16)/(8 * 1024)).toFixed(2) + ' KB' );\n        }\n\n    }\n\n    console.log(data ? '\\n' + 'Total space used: ' + ((data.length * 16)/(8 * 1024)).toFixed(2) + ' KB' : 'Empty (0 KB)');\n    console.log(data ? 'Approx. space remaining: ' + (5120 - ((data.length * 16)/(8 * 1024)).toFixed(2)) + ' KB' : '5 MB');\n};",
-          "x": 41515,
-          "y": 62392,
+          "x": 41548,
+          "y": 62984,
           "id": "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486"
         },
         "e68d70a9-0e47-4168-ae35-bb44461b4110486": {
@@ -4754,8 +4754,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function makeNodeJsonLine(id, label, link, x, y) {\n\tlabel = label.replace(\":\",\"\\:\");\n\tlink = link.replace(\":\",\"\\:\");\n\tvar json = \"\";\n\tjson += \"\\\"\" + id + \"\\\": { \\\"id\\\": \\\"\" + id + \"\\\",\";\n\tjson += \"\\\"x\\\": \" + x.toString() + \", \\\"y\\\": \" + y.toString() + \",\";\n\tjson += \"\\\"label\\\": \\\"\" + label + \"\\\",\";\n\tjson += \"\\\"link\\\": \\\"\" + link + \"\\\"\";\n\tjson += \"}\";\n\treturn json;\n}",
-          "x": 41329,
-          "y": 62735,
+          "x": 41362,
+          "y": 63327,
           "id": "e68d70a9-0e47-4168-ae35-bb44461b4110486"
         },
         "880081bc-e7c3-48c1-9fa7-1e638b8d8548486": {
@@ -4810,8 +4810,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function countSelectedNodesAndEdges() {\n\tvar nodes = objectToArray(network.body.data.nodes);\n\tvar edges = objectToArray(network.body.data.edges);\n\tconsole.log(\"All nodes: \" + nodes.length);\n\tconsole.log(\"All edges: \" + edges.length);\n\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\tconsole.log(\"Selected nodes: \" + selectedNodes.length);\n\tconsole.log(\"Selected edges: \" + selectedEdges.length);\n}",
-          "x": 41390,
-          "y": 63254,
+          "x": 41423,
+          "y": 63846,
           "id": "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486"
         },
         "20602b12-993a-42bc-8dd6-008215220e01486": {
@@ -4841,8 +4841,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function help() {\n   console.log(\"localStorageSpace()\");\n   console.log(\"countSelectedNodesAndEdges()\");\n   console.log(\"hideAllToDownloadNews()\");\n   console.log(\"restoreAllAfterNewsDownload()\");\n}\n",
-          "x": 41292,
-          "y": 63500,
+          "x": 41325,
+          "y": 64092,
           "id": "20602b12-993a-42bc-8dd6-008215220e01486",
           "shape": "box",
           "link": "",
@@ -4908,8 +4908,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"#network\").keydown(function (event) {\n\t\t//Delete or Backspace\n\t\t//if (event.ctrlKey && event.keyCode === 13) {\n\t\tif (event.keyCode === 46 || event.keyCode === 8) {\n\t\t\tnetwork.manipulation.deleteSelected();\n\t\t}\n\t});",
-          "x": 41505,
-          "y": 57921,
+          "x": 41538,
+          "y": 58513,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486",
           "shape": "box",
           "link": "",
@@ -10674,8 +10674,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "c(x, y)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725",
-          "x": 44277,
-          "y": 61595,
+          "x": 44310,
+          "y": 62187,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10710,8 +10710,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "rdf()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732",
-          "x": 44233,
-          "y": 62018,
+          "x": 44266,
+          "y": 62610,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10746,8 +10746,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "localStorageSpace()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864",
-          "x": 44596,
-          "y": 62357,
+          "x": 44629,
+          "y": 62949,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10782,8 +10782,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "makeNodeJsonLine(id, label, link, x, y)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375",
-          "x": 45000,
-          "y": 62722,
+          "x": 45033,
+          "y": 63314,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10854,8 +10854,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "countSelectedNodesAndEdges()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144",
-          "x": 44870,
-          "y": 63237,
+          "x": 44903,
+          "y": 63829,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10890,8 +10890,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "help()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144737",
-          "x": 44269,
-          "y": 63484,
+          "x": 44302,
+          "y": 64076,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11734,8 +11734,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
-          "x": 41543,
-          "y": 58648,
+          "x": 41576,
+          "y": 59240,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711",
           "shape": "box",
           "link": "",
@@ -11770,8 +11770,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement. alt+Enter\n      if (event.altKey && event.keyCode === 13) {\n         $(\"span#saveElementEditButton\").click();\n      }\n   });",
-          "x": 41543,
-          "y": 58338,
+          "x": 41576,
+          "y": 58930,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711766",
           "shape": "box",
           "link": "",
@@ -11806,8 +11806,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement and closeElement. ctrl+Enter\n      if (event.ctrlKey && event.keyCode === 13) {\n         $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n         $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n         nodeLabelTextareaExpanded = false;\n         $(\"span#saveElementEditButton\").click();\n         $(\"span#closeElementEditButton\").click();\n      }\n   });",
-          "x": 41543,
-          "y": 58496,
+          "x": 41576,
+          "y": 59088,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa448671176664",
           "shape": "box",
           "link": "",
@@ -11842,8 +11842,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27 && document.getElementsByClassName(\"vis-back\").length == 0) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
-          "x": 41642,
-          "y": 58834,
+          "x": 41675,
+          "y": 59426,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711685",
           "shape": "box",
           "link": "",
@@ -11878,8 +11878,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom out. shift+alt+d\n      if (event.shiftKey && event.altKey && event.keyCode === 68) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n\n         var scale = network.getScale();\n         var newScale = scale / 1.5;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
-          "x": 41547,
-          "y": 57431,
+          "x": 41580,
+          "y": 58023,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446",
           "shape": "box",
           "link": "",
@@ -11914,8 +11914,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom in. shfit+alt+f\n      if (event.shiftKey && event.altKey && event.keyCode === 70) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n         var scale = network.getScale();\n         var newScale = scale * 1.5;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
-          "x": 41547,
-          "y": 57706,
+          "x": 41580,
+          "y": 58298,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446908",
           "shape": "box",
           "link": "",
@@ -11950,8 +11950,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Left align nodes. shift+alt+LeftArrow\n      if (event.shiftKey && event.altKey && event.keyCode === 37) {\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         alignNodesLeft(nodes);\n      }\n   });",
-          "x": 41590,
-          "y": 57157,
+          "x": 41623,
+          "y": 57749,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446933",
           "shape": "box",
           "link": "",
@@ -12084,8 +12084,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Toggle nodeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (nodeLabelTextareaExpanded) {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n            nodeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"580px\");\n            nodeLabelTextareaExpanded = true;\n         }\n      }\n   });\n   $(\"textarea#nodeLabelTextarea\").keydown(function (event) {\n      //Toggle nodeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (nodeLabelTextareaExpanded) {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n            nodeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"580px\");\n            nodeLabelTextareaExpanded = true;\n         }\n      }\n   });",
-          "x": 41541,
-          "y": 56834,
+          "x": 41574,
+          "y": 57426,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446933240",
           "shape": "box",
           "link": "",
@@ -12192,8 +12192,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Duplicate. Ctrl+alt+d.\n      if (event.ctrlKey && event.altKey && event.keyCode === 68) {\n         selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n         duplicateGraph(selectedNodes, selectedEdges);\n      }\n   });",
-          "x": 41605,
-          "y": 56505,
+          "x": 41638,
+          "y": 57097,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486622",
           "shape": "box",
           "link": "",
@@ -12228,8 +12228,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n                //Save canvas. Ctrl+alt+s\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 83) {\n\t\t\tvar saveOperationsParentNode;\n\t\t\tvar saveOperationsParentNodeName = \"Save operations code\";\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveOperationsParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + saveOperationsParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tsaveOperationsParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[saveOperationsParentNode.id].edges;\n\t\t\tvar saveOperationsCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == saveOperationsParentNode.id) {\n\t\t\t\t\tsaveOperationsCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof saveOperationsCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no saveOperationsCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(saveOperationsCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(saveOperationsCodeNode.id);\n\t\t}\n\t});",
-          "x": 41711,
-          "y": 56113,
+          "x": 41744,
+          "y": 56705,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486737",
           "shape": "box",
           "link": "",
@@ -12264,8 +12264,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Build project. alt+b\n      if (event.altKey && event.keyCode === 66) {\n         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 1) {\n            console.log(\"Select one node\");\n            showAlert(\"Select one node\", 80, 150);\n            return;\n         }\n         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);\n         var rootNode = getNodeFromNetworkDataById(rootNodeId);\n         var projectName = rootNode.label.replace(\"mvj code file for project name: \",\"\");\n\t\t\tvar buildProjectParentNode;\n\t\t\tvar buildProjectParentNodeName = \"buildProject code: \" + projectName;\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + buildProjectParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + buildProjectParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tbuildProjectParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[buildProjectParentNode.id].edges;\n\t\t\tvar buildProjectCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == buildProjectParentNode.id) {\n\t\t\t\t\tbuildProjectCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof buildProjectCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no buildProjectCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(buildProjectCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(buildProjectCodeNode.id);\n\t\t}\n\t});",
-          "x": 41698,
-          "y": 55573,
+          "x": 41731,
+          "y": 56165,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486441",
           "shape": "box",
           "link": "",
@@ -13161,8 +13161,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Run node code. alt+r\n      if (event.altKey && event.keyCode === 82) {\n         $(\"span#runNodeCodeButton\").click();\n      }\n   });",
-          "x": 41490,
-          "y": 55251,
+          "x": 41523,
+          "y": 55843,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf4864417",
           "shape": "box",
           "link": "",
@@ -13305,8 +13305,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Split node label. ctrl+alt+v\n      if (event.ctrlKey && event.altKey && event.keyCode === 86) {\n         $(\"span#splitNodeListLabelButton\").click();\n      }\n   });",
-          "x": 41544,
-          "y": 55134,
+          "x": 41577,
+          "y": 55726,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf4864417111",
           "shape": "box",
           "link": "",
@@ -15945,8 +15945,8 @@ var schemeData =
         },
         "7fe77c8a-ef14-4e0a-8d24-888fe99f82d5": {
           "id": "7fe77c8a-ef14-4e0a-8d24-888fe99f82d5",
-          "x": 41527,
-          "y": 55002,
+          "x": 41560,
+          "y": 55594,
           "label": "   $(document).keyup(function (event) {\n      //move view to position from birdView variable. alt+h\n      if (event.altKey && event.keyCode === 72) {\n         if(typeof birdView !== \"undefined\") {\n            moveViewTo(birdView.x, birdView.y, birdView.scale);\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -20870,9 +20870,9 @@ var schemeData =
         },
         "701d9abe-1d6d-4129-b98c-ab3ea8de9d0a": {
           "id": "701d9abe-1d6d-4129-b98c-ab3ea8de9d0a",
-          "x": 67269,
+          "x": 67569,
           "y": -1755,
-          "label": "function getPage(newsUrl, getRSSAnswer) {\n   var url = require(\"url\");\n   var path = url.parse(newsUrl).path;\n   var host = url.parse(newsUrl).host;\n   const https = require('https')\n   //https://www.linux.org.ru/section-rss.jsp\n   const options = {\n     hostname: host,\n     port: 443,\n     path: path,\n     method: 'GET',\n     headers: {\n        'Content-Type': 'text/html'\n     }\n   }\n\n   var req = https.request(options, function(res) {\n      //console.log(\"statusCode: \", res.statusCode);\n      //console.log(\"headers: \", res.headers);\n\n      res.setEncoding('utf8');\n      res.on('data', function(d) {\n         //process.stdout.write(d);\n         getRSSAnswer(d);\n      });\n   });\n\n   req.end();\n\n   req.on('error', function(e) {\n      console.error(e);\n   });\n}\n\napp.get(\"/getWebPage\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n   var urlString = req.query.urlString;\n   console.log(\"urlString:\");\n   console.log(urlString);\n\n/*\n   function getRSSAnswer(answerLine) {\n      answerLine = encodeURIComponent(answerLine)\n      answerLine = JSON.stringify(answerLine);\n      response.send(answerLine);\n   }\n\n   var answerLine = getPage(urlString, getRSSAnswer);\n*/\n\n    axios.get(urlString)\n    .then(function (response) {\n        var data = JSON.stringify(response.data);\n        //console.log(data);\n        res.send(data);\n    })\n    .catch(function (error) {\n        console.log(\"Error\");\n        //console.log(error);\n    });\n\n});",
+          "label": "function getPage(newsUrl, getRSSAnswer) {\n   var url = require(\"url\");\n   var path = url.parse(newsUrl).path;\n   var host = url.parse(newsUrl).host;\n   const https = require('https')\n   //https://www.linux.org.ru/section-rss.jsp\n   const options = {\n     hostname: host,\n     port: 443,\n     path: path,\n     method: 'GET',\n     headers: {\n        'Content-Type': 'text/html'\n     }\n   }\n\n   var req = https.request(options, function(res) {\n      //console.log(\"statusCode: \", res.statusCode);\n      //console.log(\"headers: \", res.headers);\n\n      res.setEncoding('utf8');\n      res.on('data', function(d) {\n         //process.stdout.write(d);\n         getRSSAnswer(d);\n      });\n   });\n\n   req.end();\n\n   req.on('error', function(e) {\n      console.error(e);\n   });\n}\n\napp.get(\"/getWebPage\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n   var urlString = req.query.urlString;\n   console.log(\"urlString:\");\n   console.log(urlString);\n\n/*\n   function getRSSAnswer(answerLine) {\n      answerLine = encodeURIComponent(answerLine)\n      answerLine = JSON.stringify(answerLine);\n      response.send(answerLine);\n   }\n\n   var answerLine = getPage(urlString, getRSSAnswer);\n*/\n\n    var userAgentString = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\"\n\n    axios.get(urlString, { headers: { 'User-Agent': userAgentString }  })\n    .then(function (response) {\n        var data = JSON.stringify(response.data);\n        //console.log(data);\n        res.send(data);\n    })\n    .catch(function (error) {\n        console.log(\"Error\");\n        //console.log(error);\n    });\n\n});",
           "shape": "box",
           "link": "",
           "font": {
@@ -21841,8 +21841,8 @@ var schemeData =
         },
         "05d777ad-4cba-4d00-945c-304393dce2bf": {
           "id": "05d777ad-4cba-4d00-945c-304393dce2bf",
-          "x": 41617,
-          "y": 53337,
+          "x": 41650,
+          "y": 53929,
           "label": "   $(document).keyup(function (event) {\n      //Save view by n number. No nodes must be selected. ctrl+alt+n\n      if (event.altKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length == 0) {\n            var scale = network.getScale();\n            var position = network.getViewPosition();\n            viewsSaves[event.keyCode] = {position: position, scale: scale};\n            console.log(event.keyCode);\n            console.log(scale);\n            console.log(position);\n            console.log(viewsSaves);\n         }\n         \n      }\n   });",
           "shape": "box",
           "link": "",
@@ -21858,8 +21858,8 @@ var schemeData =
         },
         "f1395ce8-921b-4237-a1d7-bc64297c87a0": {
           "id": "f1395ce8-921b-4237-a1d7-bc64297c87a0",
-          "x": 41665,
-          "y": 54065,
+          "x": 41698,
+          "y": 54657,
           "label": "   $(document).keyup(function (event) {\n      //Move clipboard nodes by n number to last click position. ctrl+alt+n\n      if (event.shiftKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         //clipboard[event.keyCode] = selectedNodes;\n         console.log(event.keyCode);\n         console.log(clipboard);\n         console.log(clipboard[event.keyCode]);\n         var nodesToMove = clipboard[event.keyCode];\n         if (typeof nodesToMove !== \"undefined\" && nodesToMove !== null && nodesToMove.length != 0) {\n            var positions = network.getPositions();\n            var maxLeftX = positions[nodesToMove[0].id].x;\n            var maxTopY = positions[nodesToMove[0].id].y;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  if (positions[node.id].x < maxLeftX) maxLeftX = positions[node.id].x;\n                  if (positions[node.id].y < maxTopY) maxTopY = positions[node.id].y;\n               }\n            });\n            var lastClickCanvasPosition = network.canvas.DOMtoCanvas(lastClickPosition);\n            var moveShiftX = lastClickCanvasPosition.x - maxLeftX;\n            var moveShiftY = lastClickCanvasPosition.y - maxTopY;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  var pNode = positions[node.id];\n                  var x = pNode.x + moveShiftX;\n                  var y = pNode.y + moveShiftY;\n                  network.nodesHandler.moveNode(node.id, x, y);\n               }\n            });\n         }\n\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -21875,8 +21875,8 @@ var schemeData =
         },
         "f8a7231e-4609-4679-a1e9-ac991e535649": {
           "id": "f8a7231e-4609-4679-a1e9-ac991e535649",
-          "x": 41542,
-          "y": 52886,
+          "x": 41575,
+          "y": 53478,
           "label": "   $(document).keyup(function (event) {\n      //move to saved view position. shift+alt+n\n      if (event.shiftKey && event.altKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var view = viewsSaves[event.keyCode];\n         if (typeof view !== \"undefined\" && view !== null) {\n            var newPosition = network.canvasToDOM(view.position);\n            moveViewTo(view.position.x, view.position.y, view.scale);\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -22884,8 +22884,8 @@ var schemeData =
         },
         "9c31a3a9-ab1a-49d4-a3df-db8d141e2ddb": {
           "id": "9c31a3a9-ab1a-49d4-a3df-db8d141e2ddb",
-          "x": 41764,
-          "y": 51964,
+          "x": 41797,
+          "y": 52556,
           "label": "   $(document).keyup(function (event) {\n      //wrap-unwrap tree. alt+g\n      if (event.altKey && event.keyCode == 71 ) {\n\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         \n         var rootNode = selectedNodes[0];\n         \n         var nodesPositions = network.getPositions();\n\n         function collectNodesYPositions(nodeId, rootNode, nodesPositions) {\n\n            var nodeEdges = network.body.nodes[nodeId].edges;\n            var codeEdges = [];\n            nodeEdges.forEach(function(edge) {\n               if (edge.fromId == nodeId) {\n                  codeEdges.push(edge);\n               }\n            });\n\n            var branchCodeNodes = [];\n            codeEdges.forEach(function(codeEdge) {\n               branchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));\n            });\n            var branchesPositionsData = [];\n            branchCodeNodes.forEach(function(branchNode) {\n               branchesPositionsData.push({\n                  top: network.body.nodes[branchNode.id].shape.top,\n                  height: network.body.nodes[branchNode.id].shape.height\n               });\n               branchesPositionsData = branchesPositionsData.concat(collectNodesYPositions(branchNode.id, rootNode, nodesPositions));\n            });\n            return branchesPositionsData;\n         }\n\n         var branchesPositionsData = collectNodesYPositions(rootNode.id, rootNode, nodesPositions);\n\n            function compareBPD( a, b ) {\n               if ( a.top < b.top ){\n                  return -1;\n               }\n               if ( a.top > b.top ){\n                  return 1;\n               }\n               return 0;\n            }\n\n            branchesPositionsData = branchesPositionsData.sort(compareBPD);\n\n         var needToUnwrap = false;\n         var lastBranchPositionData = null;\n         for (var i = 0; i < branchesPositionsData.length; i++) {\n            if (lastBranchPositionData != null) {\n               var lastNodeBottom = lastBranchPositionData.top + lastBranchPositionData.height;\n               if (lastNodeBottom > branchesPositionsData[i].top) {\n                  needToUnwrap = true;\n                  break;\n               }\n            }\n            lastBranchPositionData = branchesPositionsData[i];\n         }\n         \n         if (needToUnwrap) {\n\n            unwrapNodeBranches(rootNode.id);\n         \n         } else {\n\n            wrapNodeBranches(rootNode.id);\n         \n         }\n         \n      }\n   });",
           "shape": "box",
           "link": "",
@@ -23094,16 +23094,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Jump to nodes with same label. alt+j\n      if (event.altKey && event.keyCode == 74 ) {\n\n         var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes)[0];\n\n   if (jumpNavigationData == null && typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] === \"undefined\") {\n      showAlert(\"Select one node to jump to nodes with same name\", 60, 190);\n      return;\n   }\n         \n   //If node is selected and there were no jumps before or there is different label on selected node.\n   if ((typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] !== \"undefined\") && \n         (jumpNavigationData == null || jumpNavigationData.label != selectedNode.options.label)) {\n\n      var nodes = network.body.data.nodes.get();\n\n      var foundNodes = [];\n\n      nodes.forEach(function(node) {\n         if (node.id != selectedNode.id && node.label == selectedNode.options.label) {\n            foundNodes.push(node);\n         }\n      });\n      \n      if (foundNodes.length == 0) {\n         showAlert(\"No nodes with same name\", 60, 190);\n         return;\n      }\n\n      if (foundNodes.length > 50) {\n         showAlert(\"Too big list of jump nodes. More than 50.\", 60, 190);\n         return;\n      }\n\n      //first node in the list will be \"selectedNode\" - so we start scrolling through nodes from second node\n      //in this list\n      foundNodes = [selectedNode].concat(foundNodes);\n\n      var nodesPositions = network.getPositions();\n\n      foundNodes.forEach(function(node) {\n         var nodeD = getNodeFromNetworkDataById(node.id);\n         pNode = nodesPositions[node.id];\n         nodeD.x = pNode.x;\n         nodeD.y = pNode.y;\n         network.body.data.nodes.update(nodeD);\n      });\n\n      jumpNavigationData = {\n         label: selectedNode.options.label,\n         foundNodes: foundNodes,\n         lastJumpNodeNumber: 0\n      };\n      var jumpNumber = 1;\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   } else {\n      var jumpNumber = null;\n      if (jumpNavigationData.lastJumpNodeNumber == jumpNavigationData.foundNodes.length - 1) {\n         jumpNumber = 0;\n      } else {\n         jumpNumber = jumpNavigationData.lastJumpNodeNumber + 1;\n      }\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   }\n       \n      }\n   });",
           "id": "9c31a3a9-ab1a-49d4-a3df-db8d141e2ddb798",
-          "x": 41759,
-          "y": 50608,
+          "x": 41792,
+          "y": 51200,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a": {
           "id": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a",
-          "x": 41643,
-          "y": 49800,
+          "x": 41676,
+          "y": 50392,
           "label": "   $(document).keyup(function (event) {\n      //Move/restore branches of selected node to/from dataCash. alt+y\n      if (event.altKey && event.keyCode === 89) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length == 0) return;\n\n         var branchesNodesAndEdges = getTreeNodesAndEdges(selectedNodes[0].id);\n\n         if (branchesNodesAndEdges.nodes.length > 0) {\n\n            hideNodeBranchesToDataCash(selectedNodes[0].id, null);\n\n         } else {\n\n            restoreNodeBranchesFromDataCash(selectedNodes[0].id);\n\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -23119,8 +23119,8 @@ var schemeData =
         },
         "aa02d46e-4683-46d4-81c5-7ad116f07d84": {
           "id": "aa02d46e-4683-46d4-81c5-7ad116f07d84",
-          "x": 44271,
-          "y": 50452,
+          "x": 44304,
+          "y": 51044,
           "label": "Jump to nodes with same label. alt+j",
           "shape": "box",
           "link": "",
@@ -23136,8 +23136,8 @@ var schemeData =
         },
         "afd90e25-5eff-4f35-bace-ab9297196cbd": {
           "id": "afd90e25-5eff-4f35-bace-ab9297196cbd",
-          "x": 44891,
-          "y": 49730,
+          "x": 44924,
+          "y": 50322,
           "label": "Move/restore branches of selected node to/from dataCash. alt+y",
           "shape": "box",
           "link": "",
@@ -23153,8 +23153,8 @@ var schemeData =
         },
         "9322d3d4-9ca8-4d6f-b672-d32e6245ba2f": {
           "id": "9322d3d4-9ca8-4d6f-b672-d32e6245ba2f",
-          "x": 43973,
-          "y": 51847,
+          "x": 44006,
+          "y": 52439,
           "label": "Wrap-unwrap tree. alt+g",
           "shape": "box",
           "link": "",
@@ -23170,8 +23170,8 @@ var schemeData =
         },
         "3ce03729-ac45-47ac-9ca7-e034bac76a40": {
           "id": "3ce03729-ac45-47ac-9ca7-e034bac76a40",
-          "x": 44321,
-          "y": 52885,
+          "x": 44354,
+          "y": 53477,
           "label": "Move to saved view position. shift+alt+n",
           "shape": "box",
           "link": "",
@@ -23187,8 +23187,8 @@ var schemeData =
         },
         "7c9ed249-9e09-4ebc-aafc-aaf6771cc41c": {
           "id": "7c9ed249-9e09-4ebc-aafc-aaf6771cc41c",
-          "x": 44898,
-          "y": 54028,
+          "x": 44931,
+          "y": 54620,
           "label": "Move clipboard nodes by n number to last click position. ctrl+alt+n",
           "shape": "box",
           "link": "",
@@ -23204,8 +23204,8 @@ var schemeData =
         },
         "c803da61-02c9-4d76-b375-f9ffb885e2ad": {
           "id": "c803da61-02c9-4d76-b375-f9ffb885e2ad",
-          "x": 44823,
-          "y": 53295,
+          "x": 44856,
+          "y": 53887,
           "label": "Save view by n number. No nodes must be selected. ctrl+alt+n",
           "shape": "box",
           "link": "",
@@ -23221,8 +23221,8 @@ var schemeData =
         },
         "f6e9de98-d009-4bfd-b73e-1eec308bca20": {
           "id": "f6e9de98-d009-4bfd-b73e-1eec308bca20",
-          "x": 44561,
-          "y": 55004,
+          "x": 44594,
+          "y": 55596,
           "label": "Move view to position from birdView variable. alt+h",
           "shape": "box",
           "link": "",
@@ -23238,8 +23238,8 @@ var schemeData =
         },
         "79b7de50-90a8-4e96-855b-b5d356365712": {
           "id": "79b7de50-90a8-4e96-855b-b5d356365712",
-          "x": 44009,
-          "y": 55134,
+          "x": 44042,
+          "y": 55726,
           "label": "Split node label. ctrl+alt+v",
           "shape": "box",
           "link": "",
@@ -23255,8 +23255,8 @@ var schemeData =
         },
         "4d5bc4c3-2832-42d8-b667-27919acf4577": {
           "id": "4d5bc4c3-2832-42d8-b667-27919acf4577",
-          "x": 43902,
-          "y": 55251,
+          "x": 43935,
+          "y": 55843,
           "label": "Run node code. alt+r",
           "shape": "box",
           "link": "",
@@ -23272,8 +23272,8 @@ var schemeData =
         },
         "19892cfa-9734-416d-9461-c36666ad64dc": {
           "id": "19892cfa-9734-416d-9461-c36666ad64dc",
-          "x": 43849,
-          "y": 55505,
+          "x": 43882,
+          "y": 56097,
           "label": "Build project. alt+b",
           "shape": "box",
           "link": "",
@@ -23289,8 +23289,8 @@ var schemeData =
         },
         "e80dcc00-7e7f-420f-bb38-4917ac0e0b12": {
           "id": "e80dcc00-7e7f-420f-bb38-4917ac0e0b12",
-          "x": 43964,
-          "y": 56032,
+          "x": 43997,
+          "y": 56624,
           "label": "Save canvas. Ctrl+alt+s",
           "shape": "box",
           "link": "",
@@ -23306,8 +23306,8 @@ var schemeData =
         },
         "1311c77a-5997-4e62-abf0-5eb2dce2cd86": {
           "id": "1311c77a-5997-4e62-abf0-5eb2dce2cd86",
-          "x": 43888,
-          "y": 56410,
+          "x": 43921,
+          "y": 57002,
           "label": "Duplicate. Ctrl+alt+d",
           "shape": "box",
           "link": "",
@@ -23323,8 +23323,8 @@ var schemeData =
         },
         "f209f63b-31b4-4dab-99a2-f5b25c2475f5": {
           "id": "f209f63b-31b4-4dab-99a2-f5b25c2475f5",
-          "x": 44536,
-          "y": 56665,
+          "x": 44569,
+          "y": 57257,
           "label": "Toggle nodeLabel textarea expansion. ctrl+Space",
           "shape": "box",
           "link": "",
@@ -23340,8 +23340,8 @@ var schemeData =
         },
         "eb205932-26d5-4927-9d89-9c609b8ba254": {
           "id": "eb205932-26d5-4927-9d89-9c609b8ba254",
-          "x": 44235,
-          "y": 57148,
+          "x": 44268,
+          "y": 57740,
           "label": "Left align nodes. shift+alt+LeftArrow",
           "shape": "box",
           "link": "",
@@ -23357,8 +23357,8 @@ var schemeData =
         },
         "6944dc22-2f00-4e53-8a72-6c48f3921d93": {
           "id": "6944dc22-2f00-4e53-8a72-6c48f3921d93",
-          "x": 43906,
-          "y": 57441,
+          "x": 43939,
+          "y": 58033,
           "label": "Zoom out. shift+alt+d",
           "shape": "box",
           "link": "",
@@ -23374,8 +23374,8 @@ var schemeData =
         },
         "2046851b-30f6-4595-b956-3d2266015728": {
           "id": "2046851b-30f6-4595-b956-3d2266015728",
-          "x": 43861,
-          "y": 57661,
+          "x": 43894,
+          "y": 58253,
           "label": "Zoom in. shfit+alt+f",
           "shape": "box",
           "link": "",
@@ -23391,8 +23391,8 @@ var schemeData =
         },
         "8915a7e3-8d20-4ce0-a233-dbefebc066d9": {
           "id": "8915a7e3-8d20-4ce0-a233-dbefebc066d9",
-          "x": 43898,
-          "y": 57847,
+          "x": 43931,
+          "y": 58439,
           "label": "Delete or Backspace",
           "shape": "box",
           "link": "",
@@ -23408,8 +23408,8 @@ var schemeData =
         },
         "0369c175-9e5d-4966-8cbb-f45161e27480": {
           "id": "0369c175-9e5d-4966-8cbb-f45161e27480",
-          "x": 43650,
-          "y": 58021,
+          "x": 43683,
+          "y": 58613,
           "label": "ctrl+Enter",
           "shape": "box",
           "link": "",
@@ -23425,8 +23425,8 @@ var schemeData =
         },
         "4f6c3041-f780-4054-8684-5e50fe7f3cf0": {
           "id": "4f6c3041-f780-4054-8684-5e50fe7f3cf0",
-          "x": 44099,
-          "y": 58173,
+          "x": 44132,
+          "y": 58765,
           "label": "Cancel node edit. Esc  //ToFix",
           "shape": "box",
           "link": "",
@@ -23442,8 +23442,8 @@ var schemeData =
         },
         "3825f42e-bd5d-4e64-94d5-fa6e22cee18f": {
           "id": "3825f42e-bd5d-4e64-94d5-fa6e22cee18f",
-          "x": 43955,
-          "y": 58312,
+          "x": 43988,
+          "y": 58904,
           "label": "saveElement. alt+Enter",
           "shape": "box",
           "link": "",
@@ -23459,8 +23459,8 @@ var schemeData =
         },
         "ef63ccd2-82a5-40b0-98e0-d9ce8138e118": {
           "id": "ef63ccd2-82a5-40b0-98e0-d9ce8138e118",
-          "x": 44381,
-          "y": 58493,
+          "x": 44414,
+          "y": 59085,
           "label": "saveElement and closeElement. ctrl+Enter",
           "shape": "box",
           "link": "",
@@ -23476,8 +23476,8 @@ var schemeData =
         },
         "ff0bcb7e-317b-475f-bf4b-91b27724f05c": {
           "id": "ff0bcb7e-317b-475f-bf4b-91b27724f05c",
-          "x": 44021,
-          "y": 58663,
+          "x": 44054,
+          "y": 59255,
           "label": "Close node left menu. Esc",
           "shape": "box",
           "link": "",
@@ -23493,8 +23493,8 @@ var schemeData =
         },
         "850ef55c-faf4-42f7-8e19-3189a281ee89": {
           "id": "850ef55c-faf4-42f7-8e19-3189a281ee89",
-          "x": 43926,
-          "y": 58820,
+          "x": 43959,
+          "y": 59412,
           "label": "Cancel add node. Esc",
           "shape": "box",
           "link": "",
@@ -23510,8 +23510,8 @@ var schemeData =
         },
         "2bc2b193-8945-46df-b73d-a225be987934": {
           "id": "2bc2b193-8945-46df-b73d-a225be987934",
-          "x": 43923,
-          "y": 59022,
+          "x": 43956,
+          "y": 59614,
           "label": "Cancel node edit. Esc",
           "shape": "box",
           "link": "",
@@ -23527,8 +23527,8 @@ var schemeData =
         },
         "83c66b99-a9ce-4f92-b760-f7bc3144a5dc": {
           "id": "83c66b99-a9ce-4f92-b760-f7bc3144a5dc",
-          "x": 44003,
-          "y": 59397,
+          "x": 44036,
+          "y": 59989,
           "label": "Connect nodes. ctrl+alt+c",
           "shape": "box",
           "link": "",
@@ -23620,8 +23620,8 @@ var schemeData =
         },
         "d3dc26bd-9637-42f5-adab-314965cf56fa": {
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa",
-          "x": 41354,
-          "y": 63998,
+          "x": 41387,
+          "y": 64590,
           "label": "function hideAllToDownloadNews(selectedNodesIds, selectedEdgesIds) {\n   var nodes = objectToArray(network.body.nodes);\n   var edges = objectToArray(network.body.edges);\n   var nodesToHide = [];\n   var edgesToHide = [];\n   nodes.forEach(function(node) {\n      var node = getNodeFromNetworkDataById(node.id);\n      if ((typeof node.label !== \"undefined\" && \n         node.label != \"newsList\" &&\n         node.label.match(/.*\\| Feed Node/) == null &&\n         node.label.match(/.*download news code.*/) == null &&\n         (typeof node.link === \"undefined\" || (\n         typeof node.link !== \"undefined\" &&\n         node.link.match(/.*youtube.*videos.*/) == null))) ||\n         selectedNodesIds.indexOf(node.id) === -1) {\n         nodesToHide.push(node);\n      }\n   });\n   edges.forEach(function(edge) {\n      var edge = getEdgeFromNetworkDataById(edge.id);\n      var nodeFrom = getNodeFromNetworkDataById(edge.from);\n      var nodeTo = getNodeFromNetworkDataById(edge.to);\n      if ((typeof nodeFrom.label !== \"undefined\" &&\n          nodeFrom.label.match(/.*\\| Feed Node/) == null &&\n          typeof nodeTo.label !== \"undefined\" &&\n          nodeTo.label != \"newsList\" &&\n          (typeof nodeFrom.link === \"undefined\" || (\n          typeof nodeFrom.link !== \"undefined\" &&\n          nodeFrom.link.match(/.*youtube.*videos.*/) == null))) ||\n         selectedEdgesIds.indexOf(edge.id) === -1) {\n         edgesToHide.push(edge);\n      }\n\n   });\n\n   dataCash[\"hideAllForNewsDownload\"] = {\n      nodes: nodesToHide,\n      edges: edgesToHide\n   };\n\n   var removeNodesIds = [];\n   nodesToHide.forEach(function(node, index) {\n      removeNodesIds.push(node.id);\n   });\n   var removeEdgesIds = [];\n   edgesToHide.forEach(function(edge, index) {\n      removeEdgesIds.push(edge.id);\n   });\n   updateMenuFromScheme(removeNodesIds, removeEdgesIds);\n   updateSchemeFromMenu([],[]);\n}",
           "shape": "box",
           "link": "",
@@ -23637,8 +23637,8 @@ var schemeData =
         },
         "59b475d3-aabb-4fff-997a-ce7f3ef85dfa": {
           "id": "59b475d3-aabb-4fff-997a-ce7f3ef85dfa",
-          "x": 44706,
-          "y": 63820,
+          "x": 44739,
+          "y": 64412,
           "label": "hideAllToDownloadNews()",
           "shape": "box",
           "link": "",
@@ -23680,16 +23680,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "function restoreAllAfterNewsDownload() {\n   var branchesNodesAndEdges = dataCash[\"hideAllForNewsDownload\"];\n   if (typeof branchesNodesAndEdges === \"undefined\") return;\n   updateMenuFromScheme([],[]);\n   updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n   delete dataCash[\"hideAllForNewsDownload\"];\n   updateMenuFromScheme([],[]);\n}",
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa132",
-          "x": 41479,
-          "y": 65022,
+          "x": 41512,
+          "y": 65614,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "2467cfd5-27ba-460c-bc11-4855563ed9da": {
           "id": "2467cfd5-27ba-460c-bc11-4855563ed9da",
-          "x": 44860,
-          "y": 64897,
+          "x": 44893,
+          "y": 65489,
           "label": "restoreAllAfterNewsDownload()",
           "shape": "box",
           "link": "",
@@ -23722,8 +23722,8 @@ var schemeData =
         },
         "894544fa-919d-4712-8966-b20a30cb0365": {
           "id": "894544fa-919d-4712-8966-b20a30cb0365",
-          "x": 40886,
-          "y": 60202,
+          "x": 40919,
+          "y": 60794,
           "label": "});\n//End of $(document).ready(",
           "shape": "box",
           "link": "",
@@ -23779,9 +23779,9 @@ var schemeData =
         },
         "a69d2f2f-1558-4f7c-bd51-8353cf88680c": {
           "id": "a69d2f2f-1558-4f7c-bd51-8353cf88680c",
-          "x": 41008,
-          "y": -2656,
-          "label": "            function restoreNodeBranchesFromDataCash(nodeId) {\n\n               console.log(\"restoreNodeBranchesFromDataCash\");\n               var branchesNodesAndEdges = dataCash[nodeId];\n               if (typeof branchesNodesAndEdges === \"undefined\") return;\n\n               updateMenuFromScheme([],[]);\n   \n               updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n               var nodesPositions = network.getPositions();\n\n               var xShift = null;\n               if (typeof branchesNodesAndEdges.rootPosition !== \"undefined\") {\n                  xShift = nodesPositions[nodeId].x - branchesNodesAndEdges.rootPosition.x;\n               }\n\n               var yStep = nodesPositions[nodeId].y + network.body.nodes[nodeId].shape.height/2;\n               \n               branchesNodesAndEdges.nodes.forEach(function(node) {\n                  branchNode = network.body.nodes[node.id];\n                  yStep = yStep + branchNode.shape.height/2;\n                  branchNode.y = yStep;\n                  yStep = yStep + branchNode.shape.height/2;\n                  if (xShift != null) branchNode.x = branchNode.x + xShift;\n               });\n\n               var rootNode = getNodeFromNetworkDataById(nodeId);\n               rootNode.borderWidth = \"0\";\n               network.body.data.nodes.update(rootNode);\n\n               delete dataCash[nodeId];\n               updateMenuFromScheme([],[]);\n\n            }",
+          "x": 41020,
+          "y": -2551,
+          "label": "            function restoreNodeBranchesFromDataCash(nodeId) {\n\n               console.log(\"restoreNodeBranchesFromDataCash\");\n               var branchesNodesAndEdges = dataCash[nodeId];\n               if (typeof branchesNodesAndEdges === \"undefined\") return;\n\n               updateMenuFromScheme([],[]);\n   \n               updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n               var nodesPositions = network.getPositions();\n\n               var xShift = null;\n               if (typeof branchesNodesAndEdges.rootPosition !== \"undefined\") {\n                  xShift = nodesPositions[nodeId].x - branchesNodesAndEdges.rootPosition.x;\n               }\n\n               var yStep = nodesPositions[nodeId].y + network.body.nodes[nodeId].shape.height/2;\n               \n               branchesNodesAndEdges.nodes.forEach(function(node) {\n                  branchNode = network.body.nodes[node.id];\n                  if (node.shape == \"image\") {\n                     console.log(branchNode);\n                     console.log(node);\n                     branchNode.imageObj.image.crossOrigin = \"Anonymous\";\n                     var imgHeight = branchNode.shape.height;\n                     if (typeof node.imgHeight !== \"undefined\") {\n                        if (node.imgHeight < node.imgWidth) {\n                           imgHeight = 400;\n                        } else {\n                           imgHeight = 400*node.imgHeight/node.imgWidth;\n                        }\n                     }\n                     yStep = yStep + imgHeight/2;\n                     branchNode.y = yStep;\n                     yStep = yStep + imgHeight/2;\n                  } else {\n                     yStep = yStep + branchNode.shape.height/2;\n                     branchNode.y = yStep;\n                     yStep = yStep + branchNode.shape.height/2;\n                  }\n\n                  if (xShift != null) branchNode.x = branchNode.x + xShift;\n\n               });\n\n               var rootNode = getNodeFromNetworkDataById(nodeId);\n               rootNode.borderWidth = \"0\";\n               network.body.data.nodes.update(rootNode);\n\n               delete dataCash[nodeId];\n               updateMenuFromScheme([],[]);\n\n            }",
           "shape": "box",
           "link": "",
           "font": {
@@ -23830,8 +23830,8 @@ var schemeData =
         },
         "8eba84e7-39bf-4c70-a466-299eb149aee4": {
           "id": "8eba84e7-39bf-4c70-a466-299eb149aee4",
-          "x": 41882,
-          "y": 64179,
+          "x": 41915,
+          "y": 64771,
           "label": "Hide selected nodes and edges"
         },
         "d3dc26bd-9637-42f5-adab-314965cf56fa273": {
@@ -23862,16 +23862,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "function hideSelected() {\n   var nodesToHide = [];\n   var edgesToHide = [];\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n   selectedNodes.forEach(function(node) {\n      var node = getNodeFromNetworkDataById(node.id);\n      nodesToHide.push(node);\n   });\n   selectedEdges.forEach(function(edge) {\n      var edge = getEdgeFromNetworkDataById(edge.id);\n      edgesToHide.push(edge);\n   });\n\n   dataCash[\"hideSelected\"] = {\n      nodes: nodesToHide,\n      edges: edgesToHide\n   };\n\n   var removeNodesIds = [];\n   nodesToHide.forEach(function(node, index) {\n      removeNodesIds.push(node.id);\n   });\n   var removeEdgesIds = [];\n   edgesToHide.forEach(function(edge, index) {\n      removeEdgesIds.push(edge.id);\n   });\n   updateMenuFromScheme(removeNodesIds, removeEdgesIds);\n   updateSchemeFromMenu([],[]);\n}",
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa273",
-          "x": 42370,
-          "y": 64302,
+          "x": 42403,
+          "y": 64894,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "36c3a231-f006-4c23-a591-011ec950efd2": {
           "id": "36c3a231-f006-4c23-a591-011ec950efd2",
-          "x": 42075,
-          "y": 65147,
+          "x": 42108,
+          "y": 65739,
           "label": "Restore selected and hidden nodes and edges"
         },
         "d3dc26bd-9637-42f5-adab-314965cf56fa132846": {
@@ -23904,8 +23904,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "function restoreSelected() {\n   var branchesNodesAndEdges = dataCash[\"hideSelected\"];\n   if (typeof branchesNodesAndEdges === \"undefined\") return;\n   updateMenuFromScheme([],[]);\n   updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n   delete dataCash[\"hideSelected\"];\n   updateMenuFromScheme([],[]);\n}",
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa132846",
-          "x": 42651,
-          "y": 65232,
+          "x": 42684,
+          "y": 65824,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24006,8 +24006,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Open node link. alt+l\n      if (event.altKey && event.keyCode === 76) {\n         $(\"div#linkOpenButton\").click();\n      }\n   });",
           "id": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a517",
-          "x": 41516,
-          "y": 49485,
+          "x": 41549,
+          "y": 50077,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24040,16 +24040,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Open node link. alt+l",
           "id": "c4142c7b-7db2-496f-bb44-eaf22bd6546f869",
-          "x": 43920,
-          "y": 49428,
+          "x": 43953,
+          "y": 50020,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "fd69a6e5-7d22-4f47-b2af-43ebc380a1a6": {
           "id": "fd69a6e5-7d22-4f47-b2af-43ebc380a1a6",
-          "x": 41524,
-          "y": 49196,
+          "x": 41557,
+          "y": 49788,
           "label": "   $(document).keyup(function (event) {\n      //Jump to last selected (by click) node. alt+;\n      if (event.altKey && event.keyCode === 186) {\n\n         if (lastSelectedNodeId == null) return;\n\n         var nodesPositions = network.getPositions();\n\n         moveViewTo(\n            nodesPositions[lastSelectedNodeId].x,\n            nodesPositions[lastSelectedNodeId].y, \n            network.getScale()\n         );\n\n      }\n   });\n",
           "shape": "box",
           "link": "",
@@ -24065,8 +24065,8 @@ var schemeData =
         },
         "26845609-e819-4d66-b0c5-40f233bbebef": {
           "id": "26845609-e819-4d66-b0c5-40f233bbebef",
-          "x": 44393,
-          "y": 49163,
+          "x": 44426,
+          "y": 49755,
           "label": "Jump to last selected (by click) node. alt+;",
           "shape": "box",
           "link": "",
@@ -24082,8 +24082,8 @@ var schemeData =
         },
         "f2cb8cc2-ae23-4295-8c89-34adf64a0957": {
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957",
-          "x": 41608,
-          "y": 45405,
+          "x": 41655,
+          "y": 46658,
           "label": "   $(document).keyup(function (event) {\n      //Move view down 1/10. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/10, \n               network.getScale());\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -24125,8 +24125,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view down 1/10. j",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327",
-          "x": 43982,
-          "y": 45400,
+          "x": 44029,
+          "y": 46653,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24651,8 +24651,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Move view left 1/10. h\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296",
-          "x": 41605,
-          "y": 45785,
+          "x": 41652,
+          "y": 47038,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24687,8 +24687,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view left 1/10. h",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296",
-          "x": 43946,
-          "y": 45767,
+          "x": 43993,
+          "y": 47020,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24723,8 +24723,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Move view up 1/10. k\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/10, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657",
-          "x": 41608,
-          "y": 46160,
+          "x": 41655,
+          "y": 47413,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24759,8 +24759,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view up 1/10. k",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657",
-          "x": 43932,
-          "y": 46142,
+          "x": 43979,
+          "y": 47395,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24795,8 +24795,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Move view right 1/10. l\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111",
-          "x": 41605,
-          "y": 46539,
+          "x": 41652,
+          "y": 47792,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24831,8 +24831,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view right 1/10. l",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657111",
-          "x": 43960,
-          "y": 46521,
+          "x": 44007,
+          "y": 47774,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24865,8 +24865,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Move view down 1/2. shift+j\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/2, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957857",
-          "x": 41608,
-          "y": 46955,
+          "x": 41655,
+          "y": 48208,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24901,8 +24901,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view down 1/2. shift+j",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327857",
-          "x": 44075,
-          "y": 46950,
+          "x": 44122,
+          "y": 48203,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24937,8 +24937,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Move view left 1/2. shift+h\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296857",
-          "x": 41605,
-          "y": 47335,
+          "x": 41652,
+          "y": 48588,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24973,8 +24973,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view left 1/2. shift+h",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296857",
-          "x": 44039,
-          "y": 47317,
+          "x": 44086,
+          "y": 48570,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25009,8 +25009,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Move view up 1/2. shift+k\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/2, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657857",
-          "x": 41608,
-          "y": 47710,
+          "x": 41655,
+          "y": 48963,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25045,8 +25045,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view up 1/2. shift+k",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657857",
-          "x": 44025,
-          "y": 47692,
+          "x": 44072,
+          "y": 48945,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25081,8 +25081,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Move view right 1/2. shift+l\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111857",
-          "x": 41605,
-          "y": 48089,
+          "x": 41652,
+          "y": 49342,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25117,8 +25117,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view right 1/2. shift+l",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657111857",
-          "x": 44053,
-          "y": 48071,
+          "x": 44100,
+          "y": 49324,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25151,8 +25151,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Save selected nodes to clipboard by n number. ctrl+alt+n",
           "id": "c803da61-02c9-4d76-b375-f9ffb885e2ad896",
-          "x": 44698,
-          "y": 54571,
+          "x": 44731,
+          "y": 55163,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25185,8 +25185,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Save selected nodes to clipboard by n number. ctrl+alt+n\n      if (event.altKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 0) {\n            console.log(selectedNodes);\n            clipboard[event.keyCode] = selectedNodes;\n            console.log(event.keyCode);\n            console.log(clipboard);\n         }\n      }\n   });",
           "id": "05d777ad-4cba-4d00-945c-304393dce2bf896",
-          "x": 41617,
-          "y": 54610,
+          "x": 41650,
+          "y": 55202,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25195,7 +25195,7 @@ var schemeData =
           "id": "0412b23c-532f-4d72-a5f0-639724b79637",
           "x": 40479,
           "y": -11410,
-          "label": "jsFilesLinksParam:101",
+          "label": "jsFilesLinksParam:103",
           "shape": "box",
           "link": "",
           "font": {
@@ -25229,7 +25229,7 @@ var schemeData =
           "id": "9e3d9ebf-0e62-4dd5-99d5-9e332eb78daa",
           "x": 40491,
           "y": -11357,
-          "label": "readLocalUserConfig: true",
+          "label": "readLocalUserConfig: false",
           "shape": "box",
           "link": "",
           "font": {
@@ -27681,6 +27681,169 @@ var schemeData =
           "x": 22599,
           "y": 12265,
           "label": "Currently wrapped nodes are not counted."
+        },
+        "b25790aa-8c02-47d5-9e17-ad1f52a04950": {
+          "id": "b25790aa-8c02-47d5-9e17-ad1f52a04950",
+          "x": 22097,
+          "y": -2890,
+          "label": "Find all nodes with wrapped branches \nand format them"
+        },
+        "834f46cb-7ffb-4a1e-85ca-e02057ce84d7": {
+          "id": "834f46cb-7ffb-4a1e-85ca-e02057ce84d7",
+          "x": 22972,
+          "y": -2890,
+          "label": "objectToArray(network.body.nodes).forEach(function(node) {\n   if (typeof dataCash[node.id] !== \"undefined\" && dataCash[node.id].nodes.length > 0) {\n               var rootNode = getNodeFromNetworkDataById(node.id);\n               if (typeof rootNode.color !== \"undefined\") {\n                  rootNode.color.border = \"black\";\n               } else {\n                  rootNode.color = {border: \"black\"};\n               }\n               rootNode.borderWidth = \"1\";\n               network.body.data.nodes.update(rootNode);\n   }\n});",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a0957676": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Shift selected nodes left (500). alt+c\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 67) {\n             var leftShift = 500;\n             var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n             var positions = network.getPositions();\n             selectedNodes.forEach(function(node) {\n                var nodeD = getNodeFromNetworkDataById(node.id);\n                var pNode = positions[node.id];\n                nodeD.x = pNode.x;\n                nodeD.y = pNode.y;\n                network.body.data.nodes.update(nodeD);\n                network.nodesHandler.moveNode(node.id, nodeD.x - leftShift, nodeD.y);\n             });\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957676",
+          "x": 41698,
+          "y": 46254,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327629": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Shift selected nodes left (500). alt+c",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327629",
+          "x": 44307,
+          "y": 46213,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d2c3d31d-4b29-45e1-bac5-f2672dfe730b": {
+          "id": "d2c3d31d-4b29-45e1-bac5-f2672dfe730b",
+          "x": 41725,
+          "y": 45558,
+          "label": "   $(document).keyup(function (event) {\n      //Connect nodes columns. alt+m\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 77) {\n             var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n             var positions = network.getPositions();\n             var columns = {};\n             var minLeftNode = null;\n             for (i = 0; i < selectedNodes.length; i++) {\n                if (i == 0) minLeftNode = selectedNodes[i];\n                if (minLeftNode.shape.left > selectedNodes[i].shape.left) {\n                        minLeftNode = selectedNodes[i];\n                };\n             }\n\n             var leftColumn = [];\n             var rightColumn = [];\n             selectedNodes.forEach(function(node) {\n                var nodeD = getNodeFromNetworkDataById(node.id);\n                var pNode = positions[node.id];\n                nodeD.x = pNode.x;\n                nodeD.y = pNode.y;\n                network.body.data.nodes.update(nodeD);\n                if (typeof columns[node.shape.left] === \"undefined\" || columns[node.shape.left] == null) {\n                   columns[node.shape.left] = [];\n                }\n                columns[node.shape.left].push(node);\n                var leftPositionDiff = Math.abs(minLeftNode.shape.left - node.shape.left);\n                if (leftPositionDiff < 2) {\n                   leftColumn.push(node);\n                } else {\n                   rightColumn.push(node);\n                }\n             });\n\n             var lastLeftNode = null;\n             leftColumn.reverse().forEach(function(leftNode, leftColumnIndex) {\n                rightColumn.forEach(function(rightNode, index) {\n                   if (rightNode.y >= leftNode.y && (lastLeftNode == null || rightNode.y < lastLeftNode.y)) {\n                      var edgeData = {from: leftNode.id, to: rightNode.id};\n                      network.body.data.edges.getDataSet().add(edgeData);\n                   }\n                   if (leftColumnIndex == (leftColumn.length-1) && rightNode.y < leftNode.y) {\n                      var edgeData = {from: leftNode.id, to: rightNode.id};\n                      network.body.data.edges.getDataSet().add(edgeData);\n                   }\n                });\n                lastLeftNode = leftNode;\n             });\n      }\n   });",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef327984": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Connect nodes columns. alt+m",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef327984",
+          "x": 44198,
+          "y": 45327,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "9670a512-d5dd-4e91-80f6-ef1c2437d730": {
+          "id": "9670a512-d5dd-4e91-80f6-ef1c2437d730",
+          "x": 40715,
+          "y": -11355,
+          "label": "set \"false\" for Github build",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
         }
       },
       "length": 0,
@@ -53250,6 +53413,144 @@ var schemeData =
           "from": "e8aef5d6-6479-4930-a01f-90dcb5541030",
           "to": "f2d18aec-0809-4149-aa04-f77cb56b4338",
           "id": "1f98fbe4-6be8-4d7b-afe9-3af29b982573"
+        },
+        "2ee5041b-dad0-43e7-a242-9c4ba85f6faa": {
+          "from": "b25790aa-8c02-47d5-9e17-ad1f52a04950",
+          "to": "834f46cb-7ffb-4a1e-85ca-e02057ce84d7",
+          "id": "2ee5041b-dad0-43e7-a242-9c4ba85f6faa"
+        },
+        "bb2ab76b-8669-4f5e-ae30-70d185454a5c": {
+          "from": "1cd537f0-df33-4713-9b58-7ab0b6cdac06399446364",
+          "to": "b25790aa-8c02-47d5-9e17-ad1f52a04950",
+          "id": "bb2ab76b-8669-4f5e-ae30-70d185454a5c"
+        },
+        "36d4825e-8bc2-452a-ad18-6ddc522f392b676": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "36d4825e-8bc2-452a-ad18-6ddc522f392b676",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486676",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957676"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15676": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15676",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957676",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327676"
+        },
+        "07187baa-fd98-4488-8bdb-8467155386c5": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a0957676",
+          "id": "07187baa-fd98-4488-8bdb-8467155386c5",
+          "label": "code"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15629": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15629",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957629",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327629"
+        },
+        "26794024-70f2-4147-8cd7-d9424ef600d8": {
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957676",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327629",
+          "id": "26794024-70f2-4147-8cd7-d9424ef600d8"
+        },
+        "a2c4ae0a-1a20-4f69-8246-a06406bc951c": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "d2c3d31d-4b29-45e1-bac5-f2672dfe730b",
+          "id": "a2c4ae0a-1a20-4f69-8246-a06406bc951c",
+          "label": "code"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b15984": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b15984",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a0957984",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327984"
+        },
+        "8b2edf57-fb7a-4695-8743-3196765d4919": {
+          "from": "d2c3d31d-4b29-45e1-bac5-f2672dfe730b",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef327984",
+          "id": "8b2edf57-fb7a-4695-8743-3196765d4919"
+        },
+        "2b34ed90-a667-4ad9-a6ee-3cea1ed7e899": {
+          "from": "9e3d9ebf-0e62-4dd5-99d5-9e332eb78daa",
+          "to": "9670a512-d5dd-4e91-80f6-ef1c2437d730",
+          "id": "2b34ed90-a667-4ad9-a6ee-3cea1ed7e899"
         }
       },
       "length": 0,
@@ -53312,8 +53613,8 @@ var schemeData =
   "setup": {
     "scale": 0.01,
     "viewPosition": {
-      "x": 65673,
-      "y": 17507.999999999993
+      "x": 65673.00000000001,
+      "y": 17508.000000000004
     }
   }
 }

@@ -231,7 +231,9 @@ app.get("/getWebPage", function(req, res){
    var answerLine = getPage(urlString, getRSSAnswer);
 */
 
-    axios.get(urlString)
+    var userAgentString = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"
+
+    axios.get(urlString, { headers: { 'User-Agent': userAgentString }  })
     .then(function (response) {
         var data = JSON.stringify(response.data);
         //console.log(data);

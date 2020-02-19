@@ -50494,6 +50494,32 @@ var schemeData =
           "shape": "box",
           "link": "news2.html",
           "borderWidth": "0"
+        },
+        "58c06290-f499-4a25-b711-b1ef7242551d": {
+          "id": "58c06290-f499-4a25-b711-b1ef7242551d",
+          "x": 116185,
+          "y": 62449,
+          "label": "2020.02.16"
+        },
+        "6c6fee24-ed52-40d3-9aae-0ec394b09879": {
+          "id": "6c6fee24-ed52-40d3-9aae-0ec394b09879",
+          "x": 116185,
+          "y": 62535,
+          "label": "2020.02.17"
+        },
+        "c2aec6bb-4c64-41e0-ba54-68b817785f89": {
+          "label": "Snap! - Rhythm is a Dancer (Official Video) - YouTube",
+          "link": "https://www.youtube.com/watch?v=KkhGkRahU6g",
+          "x": 116628,
+          "y": 62436,
+          "id": "c2aec6bb-4c64-41e0-ba54-68b817785f89"
+        },
+        "e083b154-4a77-4ae7-a1ce-81f5f37ea115": {
+          "label": "Everything's Alright - Jesus Christ Superstar (1970 Version) - YouTube",
+          "link": "https://www.youtube.com/watch?v=1Vx8KpqTVCk",
+          "x": 116680,
+          "y": 62532,
+          "id": "e083b154-4a77-4ae7-a1ce-81f5f37ea115"
         }
       },
       "length": 0,
@@ -86703,6 +86729,26 @@ var schemeData =
           "id": "765f4b8a-a51f-445b-a3f9-2cd73c49ef99899359111147657",
           "from": "d4628ef8-97af-4c5a-b900-7c3b16d9d989899359111147657",
           "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296120294430899359111147657"
+        },
+        "ba7030b9-1ccb-4dd7-abd8-029fc0dbaab2": {
+          "from": "58c06290-f499-4a25-b711-b1ef7242551d",
+          "to": "c2aec6bb-4c64-41e0-ba54-68b817785f89",
+          "id": "ba7030b9-1ccb-4dd7-abd8-029fc0dbaab2"
+        },
+        "10cee9b4-2d36-4bdb-aee8-4a91d053ea58": {
+          "from": "6c6fee24-ed52-40d3-9aae-0ec394b09879",
+          "to": "e083b154-4a77-4ae7-a1ce-81f5f37ea115",
+          "id": "10cee9b4-2d36-4bdb-aee8-4a91d053ea58"
+        },
+        "bdcd26cc-1098-40bb-a7e3-841f06a42007": {
+          "from": "e7bad399-14d5-46eb-ac7f-c075a004569f",
+          "to": "58c06290-f499-4a25-b711-b1ef7242551d",
+          "id": "bdcd26cc-1098-40bb-a7e3-841f06a42007"
+        },
+        "26d9f644-3cd6-4273-995d-f34c35f3d819": {
+          "from": "e7bad399-14d5-46eb-ac7f-c075a004569f",
+          "to": "6c6fee24-ed52-40d3-9aae-0ec394b09879",
+          "id": "26d9f644-3cd6-4273-995d-f34c35f3d819"
         }
       },
       "length": 0,
@@ -86740,10 +86786,10 @@ var schemeData =
   },
   "dataCash": {},
   "setup": {
-    "scale": 0.0113,
+    "scale": 0.19101899797044106,
     "viewPosition": {
-      "x": 105402.9999992035,
-      "y": 24500.000003982303
+      "x": 117415.50613179713,
+      "y": 62066.29199982701
     }
   }
 }

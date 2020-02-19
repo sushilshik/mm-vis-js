@@ -27233,8 +27233,8 @@ var schemeData =
         "cc895b31-89af-406f-a6df-635a7a8d5809": {
           "label": "Math.floor(x/y)",
           "link": "",
-          "x": 118808,
-          "y": 6914,
+          "x": 118840,
+          "y": 6916,
           "id": "cc895b31-89af-406f-a6df-635a7a8d5809",
           "color": {
             "highlight": {
@@ -27315,8 +27315,8 @@ var schemeData =
         "2919d08d-75f1-4327-8763-7045f38c41f5": {
           "label": "x % y",
           "link": "",
-          "x": 118776,
-          "y": 6963,
+          "x": 118811,
+          "y": 6965,
           "id": "2919d08d-75f1-4327-8763-7045f38c41f5",
           "color": {
             "highlight": {
@@ -27397,8 +27397,8 @@ var schemeData =
         "ce5c7010-1e7a-4f14-a0d2-1c6202d2a72a": {
           "label": "Math.pow(4, 2) -> 16",
           "link": "",
-          "x": 118826,
-          "y": 7011,
+          "x": 118861,
+          "y": 7013,
           "id": "ce5c7010-1e7a-4f14-a0d2-1c6202d2a72a",
           "color": {
             "highlight": {
@@ -27479,8 +27479,8 @@ var schemeData =
         "48023cd8-7dab-47a3-9f31-4f92080a893f": {
           "label": "parseFloat(val.toFixed(5))",
           "link": "",
-          "x": 118842,
-          "y": 7057,
+          "x": 118877,
+          "y": 7059,
           "id": "48023cd8-7dab-47a3-9f31-4f92080a893f",
           "color": {
             "highlight": {
@@ -27520,8 +27520,8 @@ var schemeData =
         "10176ad0-7e0d-44c6-8ac7-0acdab36d068": {
           "label": "toFixed - return string",
           "link": "",
-          "x": 119075,
-          "y": 7049,
+          "x": 119110,
+          "y": 7051,
           "id": "10176ad0-7e0d-44c6-8ac7-0acdab36d068",
           "color": {
             "highlight": {
@@ -39351,14 +39351,14 @@ var schemeData =
         },
         "90f6ce08-a1f9-4bce-896d-cfd77ba6efda": {
           "id": "90f6ce08-a1f9-4bce-896d-cfd77ba6efda",
-          "x": 119040,
-          "y": 7140,
+          "x": 119075,
+          "y": 7142,
           "label": "(-100-(-100%3))/3 "
         },
         "e9158e06-6be3-4c7d-a940-eeb80376a1bf": {
           "id": "e9158e06-6be3-4c7d-a940-eeb80376a1bf",
-          "x": 119061,
-          "y": 7179,
+          "x": 119096,
+          "y": 7181,
           "label": "var remainder = x % y;\nreturn (x - remainder) / y;"
         },
         "62242320-3aa7-41b6-b0ba-a37897002083": {
@@ -41206,6 +41206,41 @@ var schemeData =
           "shape": "box",
           "link": "news2.html",
           "borderWidth": "0"
+        },
+        "3685864a-9252-42cd-bfdd-d8790e7b8f5c": {
+          "id": "3685864a-9252-42cd-bfdd-d8790e7b8f5c",
+          "x": 118710,
+          "y": -1076,
+          "label": "Searching and Removing a\nSpecific Element by Value"
+        },
+        "3ed1b95a-891f-4cd3-bd0a-e0ecbbbeddcf": {
+          "id": "3ed1b95a-891f-4cd3-bd0a-e0ecbbbeddcf",
+          "x": 119142,
+          "y": -1069,
+          "label": "[\"bar\", \"baz\", \"foo\", \"qux\"]\n \nlist.splice( list.indexOf('foo'), 1 );\n// Find the index position of \"foo,\" then remove one element from that position",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "d679e8bd-20af-4ca9-b19c-bb6180c15432": {
+          "id": "d679e8bd-20af-4ca9-b19c-bb6180c15432",
+          "x": 118644,
+          "y": 7257,
+          "label": "Absolute value of a number"
+        },
+        "f62e59ad-969c-4d59-8def-d366f2a66194": {
+          "id": "f62e59ad-969c-4d59-8def-d366f2a66194",
+          "x": 118829,
+          "y": 7263,
+          "label": "Math.abs()"
         }
       },
       "length": 0,
@@ -61280,6 +61315,26 @@ var schemeData =
           "id": "765f4b8a-a51f-445b-a3f9-2cd73c49ef99899359111147207",
           "from": "d4628ef8-97af-4c5a-b900-7c3b16d9d989899359111147207",
           "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296120294430899359111147207"
+        },
+        "520ac8e6-f880-460f-a321-0ebe9f4ff507": {
+          "from": "3685864a-9252-42cd-bfdd-d8790e7b8f5c",
+          "to": "3ed1b95a-891f-4cd3-bd0a-e0ecbbbeddcf",
+          "id": "520ac8e6-f880-460f-a321-0ebe9f4ff507"
+        },
+        "5280e56c-04de-4b17-8968-23f882c309d8": {
+          "from": "d148c804-583c-4167-a859-c3b6cc31af8d",
+          "to": "3685864a-9252-42cd-bfdd-d8790e7b8f5c",
+          "id": "5280e56c-04de-4b17-8968-23f882c309d8"
+        },
+        "e33ee6af-a0b4-4641-a599-60d11aca8904": {
+          "from": "d679e8bd-20af-4ca9-b19c-bb6180c15432",
+          "to": "f62e59ad-969c-4d59-8def-d366f2a66194",
+          "id": "e33ee6af-a0b4-4641-a599-60d11aca8904"
+        },
+        "4cf1df30-4f78-4404-b962-cc367a653551": {
+          "from": "cabfd758-dcd5-4931-994a-e4e8c33ecd84",
+          "to": "d679e8bd-20af-4ca9-b19c-bb6180c15432",
+          "id": "4cf1df30-4f78-4404-b962-cc367a653551"
         }
       },
       "length": 0,
@@ -61317,10 +61372,10 @@ var schemeData =
   },
   "dataCash": {},
   "setup": {
-    "scale": 0.0156,
+    "scale": 0.39203545287444364,
     "viewPosition": {
-      "x": 102403.00000128208,
-      "y": 11799.999998205136
+      "x": 119081.182944922,
+      "y": 7144.218674656052
     }
   }
 }
