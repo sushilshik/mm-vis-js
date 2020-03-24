@@ -881,7 +881,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/index.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"index_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
+          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response.lastIndexOf(\"ok - \", 0) !== 0 ) {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\ndata = encodeURIComponent(data);\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/index.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"index_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709",
           "x": -13233,
           "y": -5348,
@@ -1852,40 +1852,6 @@ var schemeData =
           "link": "",
           "borderWidth": ""
         },
-        "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {},
-          "shapeProperties": {},
-          "label": "index.html",
-          "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905",
-          "x": 21468,
-          "y": -8369,
-          "shape": "box",
-          "link": "index.html",
-          "borderWidth": ""
-        },
         "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906": {
           "color": {
             "highlight": {},
@@ -1916,8 +1882,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js_code.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906",
-          "x": 23773,
-          "y": -6083,
+          "x": 23833,
+          "y": -8299,
           "shape": "box",
           "link": "mm-vis-js_code.html",
           "borderWidth": ""
@@ -1952,8 +1918,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js_docs.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926",
-          "x": 23745,
-          "y": -3950,
+          "x": 23805,
+          "y": -6166,
           "shape": "box",
           "link": "mm-vis-js_docs.html",
           "borderWidth": ""
@@ -1988,8 +1954,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "base.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854",
-          "x": 21357,
-          "y": -1526,
+          "x": 21417,
+          "y": -3742,
           "shape": "box",
           "link": "base.html",
           "borderWidth": ""
@@ -2024,8 +1990,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "culture.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854325",
-          "x": 21773,
-          "y": 760,
+          "x": 21833,
+          "y": -1456,
           "shape": "box",
           "link": "culture.html",
           "borderWidth": ""
@@ -2060,8 +2026,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ruby.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854325137",
-          "x": 21208,
-          "y": 2976,
+          "x": 21268,
+          "y": 760,
           "shape": "box",
           "link": "ruby.html",
           "borderWidth": ""
@@ -2096,8 +2062,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "javascript.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854325137704",
-          "x": 22384,
-          "y": 4984,
+          "x": 22444,
+          "y": 2768,
           "shape": "box",
           "link": "javascript.html",
           "borderWidth": ""
@@ -2132,8 +2098,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "music.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426",
-          "x": 21578,
-          "y": 9121,
+          "x": 21638,
+          "y": 6905,
           "shape": "box",
           "link": "music.html",
           "borderWidth": ""
@@ -2168,8 +2134,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "python.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946",
-          "x": 21774,
-          "y": 7062,
+          "x": 21834,
+          "y": 4846,
           "shape": "box",
           "link": "python.html",
           "borderWidth": ""
@@ -2204,16 +2170,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "math.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866",
-          "x": 21384,
-          "y": 11149,
+          "x": 21444,
+          "y": 8933,
           "shape": "box",
           "link": "math.html",
           "borderWidth": ""
         },
         "58d1ee08-5ba5-4c7b-b71d-8ff90549740a": {
           "label": "Main\nMenu",
-          "x": 16865,
-          "y": 21501,
+          "x": 16402,
+          "y": 23476,
           "font": {
             "size": 72,
             "align": "left"
@@ -2229,152 +2195,152 @@ var schemeData =
         },
         "fad0d2f5-e805-42f8-81eb-34676e57823e": {
           "label": "Development",
-          "x": 17165,
-          "y": 21951,
+          "x": 16702,
+          "y": 23926,
           "id": "fad0d2f5-e805-42f8-81eb-34676e57823e"
         },
         "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8": {
           "label": "12/20/2019",
-          "x": 17298,
-          "y": 21951,
+          "x": 16835,
+          "y": 23926,
           "id": "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8"
         },
         "3749bab6-782f-4012-8bc4-6868c99ae90d": {
           "label": "init",
-          "x": 17415,
-          "y": 21951,
+          "x": 16952,
+          "y": 23926,
           "id": "3749bab6-782f-4012-8bc4-6868c99ae90d"
         },
         "e84a77bd-9fe9-49e4-bd78-36357ed45eac": {
           "label": "Notes",
-          "x": 17142,
-          "y": 21101,
+          "x": 16679,
+          "y": 23076,
           "id": "e84a77bd-9fe9-49e4-bd78-36357ed45eac"
         },
         "e471ec0c-362c-4f2b-b7c4-2841070254df": {
           "label": "Dictionary of\nconcepts",
-          "x": 18545,
-          "y": 3925,
+          "x": 18605,
+          "y": 4699,
           "id": "e471ec0c-362c-4f2b-b7c4-2841070254df"
         },
         "8603b647-7c2d-4c72-a50c-3112d91ae9fd": {
           "label": "Details, thoughts",
-          "x": 17323,
-          "y": 20965,
+          "x": 16860,
+          "y": 22940,
           "id": "8603b647-7c2d-4c72-a50c-3112d91ae9fd"
         },
         "7899b947-be30-4c88-8104-5530af5f2d8e": {
           "label": "Sections",
-          "x": 17289,
-          "y": 21351,
+          "x": 16826,
+          "y": 23326,
           "id": "7899b947-be30-4c88-8104-5530af5f2d8e"
         },
         "774cc87a-d706-4c5e-a071-c3e570be814f": {
           "label": "Books",
-          "x": 17379,
-          "y": 21201,
+          "x": 16916,
+          "y": 23176,
           "id": "774cc87a-d706-4c5e-a071-c3e570be814f"
         },
         "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf": {
           "label": "R&D institutions",
-          "x": 17410,
-          "y": 21226,
+          "x": 16947,
+          "y": 23201,
           "id": "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf"
         },
         "fcb25b61-b679-407b-bad7-328430ba3627": {
           "label": "Sites",
-          "x": 17375,
-          "y": 21251,
+          "x": 16912,
+          "y": 23226,
           "id": "fcb25b61-b679-407b-bad7-328430ba3627"
         },
         "1156c7a0-91c8-415c-bb5d-d716b709e4a9": {
           "label": "Magazines",
-          "x": 17394,
-          "y": 21276,
+          "x": 16931,
+          "y": 23251,
           "id": "1156c7a0-91c8-415c-bb5d-d716b709e4a9"
         },
         "40f5b217-7079-4841-b85d-a4028fec7130": {
           "label": "Articles",
-          "x": 17383,
-          "y": 21301,
+          "x": 16920,
+          "y": 23276,
           "id": "40f5b217-7079-4841-b85d-a4028fec7130"
         },
         "eb4fdd92-f0c9-4b9f-a324-e8c758391efa": {
           "label": "Media content",
-          "x": 17405,
-          "y": 21326,
+          "x": 16942,
+          "y": 23301,
           "id": "eb4fdd92-f0c9-4b9f-a324-e8c758391efa"
         },
         "8e6bd954-292d-4ed8-b7a3-69308a73ae12": {
           "label": "Misc. web links",
-          "x": 17407,
-          "y": 21351,
+          "x": 16944,
+          "y": 23326,
           "id": "8e6bd954-292d-4ed8-b7a3-69308a73ae12"
         },
         "98df6a56-96a2-40aa-b6d0-6c6a7f58f098": {
           "label": "Projects",
-          "x": 17385,
-          "y": 21376,
+          "x": 16922,
+          "y": 23351,
           "id": "98df6a56-96a2-40aa-b6d0-6c6a7f58f098"
         },
         "a35b8d71-f5f4-45f3-88a0-f51a5579b16b": {
           "label": "Tools",
-          "x": 17377,
-          "y": 21401,
+          "x": 16914,
+          "y": 23376,
           "id": "a35b8d71-f5f4-45f3-88a0-f51a5579b16b"
         },
         "763ae497-9ab0-4119-908e-4cc8a0a10757": {
           "label": "Organizations",
-          "x": 17404,
-          "y": 21426,
+          "x": 16941,
+          "y": 23401,
           "id": "763ae497-9ab0-4119-908e-4cc8a0a10757"
         },
         "3ac6cf0e-e35d-4f5c-afa7-54274021773f": {
           "label": "Standarts",
-          "x": 17390,
-          "y": 21451,
+          "x": 16927,
+          "y": 23426,
           "id": "3ac6cf0e-e35d-4f5c-afa7-54274021773f"
         },
         "fa51e725-fed1-41e2-93ff-6c650595f637": {
           "label": "Forums, Groups",
-          "x": 17412,
-          "y": 21476,
+          "x": 16949,
+          "y": 23451,
           "id": "fa51e725-fed1-41e2-93ff-6c650595f637"
         },
         "49872021-d638-4aaf-b83c-98e5bc8dca80": {
           "label": "Laws",
-          "x": 17376,
-          "y": 21501,
+          "x": 16913,
+          "y": 23476,
           "id": "49872021-d638-4aaf-b83c-98e5bc8dca80"
         },
         "d9dc0df7-2a39-497f-a6f2-0b9808f09c69": {
           "label": "Adjacent Themes",
-          "x": 17415,
-          "y": 21526,
+          "x": 16952,
+          "y": 23501,
           "id": "d9dc0df7-2a39-497f-a6f2-0b9808f09c69"
         },
         "768d541a-394e-475e-b29b-03b97ff2be19": {
           "label": "Questions",
-          "x": 17155,
-          "y": 21651,
+          "x": 16692,
+          "y": 23626,
           "id": "768d541a-394e-475e-b29b-03b97ff2be19"
         },
         "c6cef5ea-0ff0-45c3-811a-c416c5d13873": {
           "label": "Problems",
-          "x": 17153,
-          "y": 21751,
+          "x": 16690,
+          "y": 23726,
           "id": "c6cef5ea-0ff0-45c3-811a-c416c5d13873"
         },
         "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06": {
           "label": "Goals",
-          "x": 17142,
-          "y": 21851,
+          "x": 16679,
+          "y": 23826,
           "id": "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06"
         },
         "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c": {
           "id": "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c",
-          "x": 17660,
-          "y": 20812,
+          "x": 17197,
+          "y": 22787,
           "label": "This scheme contains links to mm-vis-js pages.",
           "shape": "box",
           "link": "",
@@ -2390,8 +2356,8 @@ var schemeData =
         },
         "dacb0e5f-35a8-4605-ac1c-4852eddfc77c": {
           "id": "dacb0e5f-35a8-4605-ac1c-4852eddfc77c",
-          "x": 17749,
-          "y": 20921,
+          "x": 17286,
+          "y": 22896,
           "label": "Links to mm-vis-js pages are the same as in \"mm-vis-js pages list\" scheme.",
           "shape": "box",
           "link": "",
@@ -2407,32 +2373,32 @@ var schemeData =
         },
         "b5d67935-0013-48a9-bf36-d44995b85787": {
           "id": "b5d67935-0013-48a9-bf36-d44995b85787",
-          "x": 18209,
-          "y": 20921,
+          "x": 17746,
+          "y": 22896,
           "label": "\"mm-vis-js pages list\" scheme is in top left of this page"
         },
         "06674058-70e6-4712-a3e6-bfb4c2c04a85": {
           "id": "06674058-70e6-4712-a3e6-bfb4c2c04a85",
-          "x": 18282,
-          "y": 20955,
+          "x": 17819,
+          "y": 22930,
           "label": "\"mm-vis-js pages list\" scheme located on all mm-vis-js pages on their top left."
         },
         "29624334-2af8-451d-b675-f1cc64e03380": {
           "id": "29624334-2af8-451d-b675-f1cc64e03380",
-          "x": 17626,
-          "y": 20849,
+          "x": 17163,
+          "y": 22824,
           "label": "This scheme is just for convenience."
         },
         "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3": {
           "id": "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3",
-          "x": 17589,
-          "y": 21096,
+          "x": 17126,
+          "y": 23071,
           "label": "This page is \"index.html\""
         },
         "fa1cdcb3-3273-4708-bcd1-739ee674fba2": {
           "id": "fa1cdcb3-3273-4708-bcd1-739ee674fba2",
-          "x": 17801,
-          "y": 21097,
+          "x": 17338,
+          "y": 23072,
           "label": "It purpose is to be \"main page\"",
           "shape": "box",
           "link": "",
@@ -2448,32 +2414,32 @@ var schemeData =
         },
         "64acc704-cf3f-47a0-8c94-49af5c116831": {
           "id": "64acc704-cf3f-47a0-8c94-49af5c116831",
-          "x": 17691,
-          "y": 21007,
+          "x": 17228,
+          "y": 22982,
           "label": "Each big node with page name contains link to this page."
         },
         "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf": {
           "id": "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf",
-          "x": 17978,
-          "y": 21005,
+          "x": 17515,
+          "y": 22980,
           "label": "How to use this links?"
         },
         "009701c1-d7ed-4fbb-a76f-7502bacdc667": {
           "id": "009701c1-d7ed-4fbb-a76f-7502bacdc667",
-          "x": 18138,
-          "y": 21004,
+          "x": 17675,
+          "y": 22979,
           "label": "1) Select big node"
         },
         "250f8b30-2e4d-47d0-a4de-e382a59e799a": {
           "id": "250f8b30-2e4d-47d0-a4de-e382a59e799a",
-          "x": 18251,
-          "y": 21040,
+          "x": 17788,
+          "y": 23015,
           "label": "2) Click openLinkButton - blue button on the left menu"
         },
         "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc": {
           "id": "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc",
-          "x": 17963,
-          "y": 20850,
+          "x": 17500,
+          "y": 22825,
           "label": "It is easy to select big nodes with pages links from bird view.",
           "shape": "box",
           "link": "",
@@ -2517,8 +2483,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "code.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224",
-          "x": 21357,
-          "y": 13206,
+          "x": 21417,
+          "y": 10990,
           "shape": "box",
           "link": "code.html",
           "borderWidth": ""
@@ -2553,8 +2519,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "engineering.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902",
-          "x": 22885,
-          "y": 15162,
+          "x": 22945,
+          "y": 12946,
           "shape": "box",
           "link": "engineering.html",
           "borderWidth": ""
@@ -2589,8 +2555,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news1.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562",
-          "x": 21718,
-          "y": 17066,
+          "x": 21778,
+          "y": 14850,
           "shape": "box",
           "link": "news1.html",
           "borderWidth": ""
@@ -2625,8 +2591,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news2.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f02109059069268543251377042694686622490256250",
-          "x": 21718,
-          "y": 18995,
+          "x": 21778,
+          "y": 16779,
           "shape": "box",
           "link": "news2.html",
           "borderWidth": ""
@@ -4359,6 +4325,57 @@ var schemeData =
           "shape": "box",
           "link": "news2.html",
           "borderWidth": "0"
+        },
+        "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e": {
+          "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e",
+          "x": 21778,
+          "y": 18590,
+          "label": "news3.html",
+          "shape": "box",
+          "link": "news3.html",
+          "font": {
+            "size": 1000,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "timelines.html",
+          "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289",
+          "x": 22306,
+          "y": 20295,
+          "shape": "box",
+          "link": "timelines.html",
+          "borderWidth": ""
         }
       },
       "length": 0,
@@ -7543,11 +7560,6 @@ var schemeData =
           "to": "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06",
           "id": "4bd14567-cf07-448c-adee-9a6c151b0148"
         },
-        "d750efdc-e1fb-41e8-8693-cbc995ea208b": {
-          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df",
-          "to": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905",
-          "id": "d750efdc-e1fb-41e8-8693-cbc995ea208b"
-        },
         "19dfdbd9-b834-44d1-b510-a2fcde464d62": {
           "from": "e471ec0c-362c-4f2b-b7c4-2841070254df",
           "to": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906",
@@ -10008,6 +10020,16 @@ var schemeData =
           "id": "765f4b8a-a51f-445b-a3f9-2cd73c49ef99899359111147126",
           "from": "d4628ef8-97af-4c5a-b900-7c3b16d9d989899359111147126",
           "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296120294430899359111147126"
+        },
+        "fae31151-9d80-4db9-94b1-7541dd5e68b8": {
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e",
+          "id": "fae31151-9d80-4db9-94b1-7541dd5e68b8"
+        },
+        "e38d96ef-5c65-436b-93d2-596e0f3ae38f": {
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289",
+          "id": "e38d96ef-5c65-436b-93d2-596e0f3ae38f"
         }
       },
       "length": 0,
@@ -10057,8 +10079,8 @@ var schemeData =
   "setup": {
     "scale": 0.0167,
     "viewPosition": {
-      "x": 15702.999999041926,
-      "y": 7380.000004850295
+      "x": 15702.999999041913,
+      "y": 7380.000004850309
     }
   }
 }

@@ -175,7 +175,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/music.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"music_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
+          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response.lastIndexOf(\"ok - \", 0) !== 0 ) {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\ndata = encodeURIComponent(data);\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/music.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"music_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204",
           "x": 65740,
           "y": -6470,
@@ -1233,8 +1233,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Поиск музыки",
-          "x": 82881,
-          "y": -5224,
+          "x": 82866,
+          "y": -5001,
           "id": "55e4b7f5-fbba-42e2-9fa5-b1bb879ff3de936145",
           "shape": "box",
           "link": "",
@@ -1265,8 +1265,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 83290,
-          "y": -4736,
+          "x": 83275,
+          "y": -4513,
           "id": "de834492-4b41-4d89-a43e-f21095d946ee936145"
         },
         "413e357e-0778-491f-9ceb-3def6c2d0fcc936145": {
@@ -1294,8 +1294,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 83469,
-          "y": -4732,
+          "x": 83454,
+          "y": -4509,
           "id": "413e357e-0778-491f-9ceb-3def6c2d0fcc936145"
         },
         "bb73cb4c-349a-4ccc-ac69-8fb9b0907bdc936145": {
@@ -1323,8 +1323,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 83567,
-          "y": -4732,
+          "x": 83552,
+          "y": -4509,
           "id": "bb73cb4c-349a-4ccc-ac69-8fb9b0907bdc936145"
         },
         "4d25e498-b918-473e-b6cc-e26cfdda0bbf936145": {
@@ -1352,8 +1352,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 83276,
-          "y": -5865,
+          "x": 83261,
+          "y": -5642,
           "id": "4d25e498-b918-473e-b6cc-e26cfdda0bbf936145"
         },
         "933ece76-5696-4c03-9224-e936eb1eccba936145": {
@@ -1381,8 +1381,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 83426,
-          "y": -6115,
+          "x": 83398,
+          "y": -5981,
           "id": "933ece76-5696-4c03-9224-e936eb1eccba936145"
         },
         "def9f6eb-f18a-4485-a09f-3d6e354c878e936145": {
@@ -1410,8 +1410,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 83426,
-          "y": -5865,
+          "x": 83411,
+          "y": -5642,
           "id": "def9f6eb-f18a-4485-a09f-3d6e354c878e936145"
         },
         "4496fcdc-56e6-4a96-bde3-9bbec78b20ee936145": {
@@ -1439,8 +1439,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 83421,
-          "y": -5503,
+          "x": 83406,
+          "y": -5195,
           "id": "4496fcdc-56e6-4a96-bde3-9bbec78b20ee936145"
         },
         "672d4cef-aa1b-4eb2-bd50-d29ce09ac8cd936145": {
@@ -1468,8 +1468,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 83548,
-          "y": -5749,
+          "x": 83533,
+          "y": -5526,
           "id": "672d4cef-aa1b-4eb2-bd50-d29ce09ac8cd936145"
         },
         "da44e80b-d158-4636-a144-27771a0b7da7936145": {
@@ -1497,8 +1497,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 83578,
-          "y": -5724,
+          "x": 83563,
+          "y": -5501,
           "id": "da44e80b-d158-4636-a144-27771a0b7da7936145"
         },
         "5cc04b89-6f3a-4b61-87dc-ab200d274bd4936145": {
@@ -1526,8 +1526,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 83544,
-          "y": -5646,
+          "x": 83529,
+          "y": -5392,
           "id": "5cc04b89-6f3a-4b61-87dc-ab200d274bd4936145"
         },
         "2cce1c85-c250-4b07-ad4a-2306a601df8d936145": {
@@ -1555,8 +1555,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 83563,
-          "y": -5563,
+          "x": 83548,
+          "y": -5255,
           "id": "2cce1c85-c250-4b07-ad4a-2306a601df8d936145"
         },
         "760aad05-cdfa-4dc8-beef-c3a1f841c3d1936145": {
@@ -1584,8 +1584,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 83551,
-          "y": -5538,
+          "x": 83536,
+          "y": -5230,
           "id": "760aad05-cdfa-4dc8-beef-c3a1f841c3d1936145"
         },
         "5a7e64b3-bcab-49a4-a115-e92dbad0ae0e936145": {
@@ -1613,8 +1613,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 83573,
-          "y": -5513,
+          "x": 83558,
+          "y": -5205,
           "id": "5a7e64b3-bcab-49a4-a115-e92dbad0ae0e936145"
         },
         "c4bf6b05-d000-4522-a699-7cc05df5f4ab936145": {
@@ -1642,8 +1642,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 83576,
-          "y": -5488,
+          "x": 83561,
+          "y": -5180,
           "id": "c4bf6b05-d000-4522-a699-7cc05df5f4ab936145"
         },
         "2b534bd1-c4ae-4d60-956b-d160c58b5e23936145": {
@@ -1671,8 +1671,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 83554,
-          "y": -5463,
+          "x": 83539,
+          "y": -5155,
           "id": "2b534bd1-c4ae-4d60-956b-d160c58b5e23936145"
         },
         "0fe96931-31d4-4f3a-b642-56e4b5d3e6d7936145": {
@@ -1700,8 +1700,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 83545,
-          "y": -5438,
+          "x": 83530,
+          "y": -5130,
           "id": "0fe96931-31d4-4f3a-b642-56e4b5d3e6d7936145"
         },
         "6c8ff7bd-6adf-4d13-a98d-ab7ce0cc0196936145": {
@@ -1729,8 +1729,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 83572,
-          "y": -5413,
+          "x": 83557,
+          "y": -5105,
           "id": "6c8ff7bd-6adf-4d13-a98d-ab7ce0cc0196936145"
         },
         "1ca7960e-f960-43c5-92c0-68b89679e92d936145": {
@@ -1758,8 +1758,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 83559,
-          "y": -5388,
+          "x": 83544,
+          "y": -5080,
           "id": "1ca7960e-f960-43c5-92c0-68b89679e92d936145"
         },
         "d077997a-d1d8-4296-b86c-14154e5ec2d4936145": {
@@ -1787,8 +1787,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 83580,
-          "y": -5363,
+          "x": 83565,
+          "y": -5055,
           "id": "d077997a-d1d8-4296-b86c-14154e5ec2d4936145"
         },
         "2bd040b6-894b-4e13-9224-c08acd65b513936145": {
@@ -1816,8 +1816,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 83545,
-          "y": -5338,
+          "x": 83530,
+          "y": -5030,
           "id": "2bd040b6-894b-4e13-9224-c08acd65b513936145"
         },
         "7948edca-57b7-4f37-a978-fc4bd611a489936145": {
@@ -1845,8 +1845,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 83584,
-          "y": -5313,
+          "x": 83569,
+          "y": -5005,
           "id": "7948edca-57b7-4f37-a978-fc4bd611a489936145"
         },
         "75e879ae-b534-4ded-9fcb-e633ecf59dac936145": {
@@ -1874,8 +1874,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 83290,
-          "y": -5036,
+          "x": 83275,
+          "y": -4813,
           "id": "75e879ae-b534-4ded-9fcb-e633ecf59dac936145"
         },
         "6f4f63a5-0071-449e-a2ce-593a1335722e936145": {
@@ -1903,8 +1903,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 83290,
-          "y": -4936,
+          "x": 83275,
+          "y": -4713,
           "id": "6f4f63a5-0071-449e-a2ce-593a1335722e936145"
         },
         "a59ce32d-a2e3-449f-9925-d9e6cedbb9c3936145": {
@@ -1932,8 +1932,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 83290,
-          "y": -4836,
+          "x": 83275,
+          "y": -4613,
           "id": "a59ce32d-a2e3-449f-9925-d9e6cedbb9c3936145"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552936145": {
@@ -1999,8 +1999,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Нотная грамота",
-          "x": 82711,
-          "y": 40325,
+          "x": 100358,
+          "y": 36663,
           "id": "279b8daf-6c34-4590-8e81-18f53c1abad6936145",
           "shape": "box",
           "link": "",
@@ -2031,8 +2031,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 83011,
-          "y": 40776,
+          "x": 100658,
+          "y": 37114,
           "id": "2d596ffa-4154-46aa-b2e4-4fd507f1f9ee936145"
         },
         "ee905625-2a39-42bf-b79b-31b37a6544d8936145": {
@@ -2060,8 +2060,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 83261,
-          "y": 40776,
+          "x": 100908,
+          "y": 37114,
           "id": "ee905625-2a39-42bf-b79b-31b37a6544d8936145"
         },
         "295fc49e-6b8a-44ae-aae1-49bd0bea0747936145": {
@@ -2089,8 +2089,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 83161,
-          "y": 40776,
+          "x": 100808,
+          "y": 37114,
           "id": "295fc49e-6b8a-44ae-aae1-49bd0bea0747936145"
         },
         "23848fca-e35d-46d6-bc2e-a354b7ccccd8936145": {
@@ -2118,8 +2118,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 83011,
-          "y": 39926,
+          "x": 100658,
+          "y": 36264,
           "id": "23848fca-e35d-46d6-bc2e-a354b7ccccd8936145"
         },
         "10f64bd9-d0a3-4daa-b541-3913ecc37053936145": {
@@ -2147,8 +2147,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 83161,
-          "y": 39676,
+          "x": 100808,
+          "y": 36014,
           "id": "10f64bd9-d0a3-4daa-b541-3913ecc37053936145"
         },
         "b7a23d51-1b5a-45be-9bc1-1c7fcc7949eb936145": {
@@ -2176,8 +2176,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 83161,
-          "y": 39926,
+          "x": 100808,
+          "y": 36264,
           "id": "b7a23d51-1b5a-45be-9bc1-1c7fcc7949eb936145"
         },
         "71cbf7e4-c826-4b3d-ad14-a08191b9dda6936145": {
@@ -2205,8 +2205,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 83161,
-          "y": 40176,
+          "x": 100808,
+          "y": 36514,
           "id": "71cbf7e4-c826-4b3d-ad14-a08191b9dda6936145"
         },
         "51ded648-7631-4682-9e36-c2e5de9f497f936145": {
@@ -2234,8 +2234,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 83352,
-          "y": 40027,
+          "x": 100999,
+          "y": 36365,
           "id": "51ded648-7631-4682-9e36-c2e5de9f497f936145"
         },
         "cddb06f4-4b44-442b-b654-d13c9ed2949a936145": {
@@ -2263,8 +2263,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 83383,
-          "y": 40052,
+          "x": 101030,
+          "y": 36390,
           "id": "cddb06f4-4b44-442b-b654-d13c9ed2949a936145"
         },
         "30d664bd-3125-4b83-9779-661fea0e409f936145": {
@@ -2292,8 +2292,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 83348,
-          "y": 40077,
+          "x": 100995,
+          "y": 36415,
           "id": "30d664bd-3125-4b83-9779-661fea0e409f936145"
         },
         "883423c8-1058-4f85-8d97-b668ac64ed38936145": {
@@ -2321,8 +2321,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 83367,
-          "y": 40102,
+          "x": 101014,
+          "y": 36440,
           "id": "883423c8-1058-4f85-8d97-b668ac64ed38936145"
         },
         "a0a1a473-7e93-4cc4-b38c-5661f115a697936145": {
@@ -2350,8 +2350,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 83356,
-          "y": 40127,
+          "x": 101003,
+          "y": 36465,
           "id": "a0a1a473-7e93-4cc4-b38c-5661f115a697936145"
         },
         "bef7b824-15c8-4be6-a602-1b5b03a8272b936145": {
@@ -2379,8 +2379,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 83378,
-          "y": 40152,
+          "x": 101025,
+          "y": 36490,
           "id": "bef7b824-15c8-4be6-a602-1b5b03a8272b936145"
         },
         "4140fe55-fe94-4b13-96fa-15d73e94f9ed936145": {
@@ -2408,8 +2408,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 83380,
-          "y": 40177,
+          "x": 101027,
+          "y": 36515,
           "id": "4140fe55-fe94-4b13-96fa-15d73e94f9ed936145"
         },
         "c86a28b8-0e88-4cef-9c35-caaff4281dca936145": {
@@ -2437,8 +2437,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 83358,
-          "y": 40202,
+          "x": 101005,
+          "y": 36540,
           "id": "c86a28b8-0e88-4cef-9c35-caaff4281dca936145"
         },
         "fb829012-f363-4e1b-94f9-9bb3d973a15e936145": {
@@ -2466,8 +2466,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 83349,
-          "y": 40227,
+          "x": 100996,
+          "y": 36565,
           "id": "fb829012-f363-4e1b-94f9-9bb3d973a15e936145"
         },
         "f237eb4a-738e-42d7-bf9a-bb785af6621e936145": {
@@ -2495,8 +2495,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 83377,
-          "y": 40252,
+          "x": 101024,
+          "y": 36590,
           "id": "f237eb4a-738e-42d7-bf9a-bb785af6621e936145"
         },
         "fcfcd439-569a-4c70-aecd-f4df9e661989936145": {
@@ -2524,8 +2524,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 83363,
-          "y": 40277,
+          "x": 101010,
+          "y": 36615,
           "id": "fcfcd439-569a-4c70-aecd-f4df9e661989936145"
         },
         "30a23835-742b-48ee-ac79-c9b039d967af936145": {
@@ -2553,8 +2553,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 83385,
-          "y": 40302,
+          "x": 101032,
+          "y": 36640,
           "id": "30a23835-742b-48ee-ac79-c9b039d967af936145"
         },
         "017a4f96-9956-4e0b-acff-3ce2ab32c77d936145": {
@@ -2582,8 +2582,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 83349,
-          "y": 40327,
+          "x": 100996,
+          "y": 36665,
           "id": "017a4f96-9956-4e0b-acff-3ce2ab32c77d936145"
         },
         "01b57a59-d025-4ce8-9aca-2d9922b2a917936145": {
@@ -2611,8 +2611,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 83388,
-          "y": 40352,
+          "x": 101035,
+          "y": 36690,
           "id": "01b57a59-d025-4ce8-9aca-2d9922b2a917936145"
         },
         "a564d35c-87c3-483c-af04-714e851e4a83936145": {
@@ -2640,8 +2640,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 83011,
-          "y": 40476,
+          "x": 100658,
+          "y": 36814,
           "id": "a564d35c-87c3-483c-af04-714e851e4a83936145"
         },
         "ab3aeb1b-03e7-4441-9963-71a33674a12b936145": {
@@ -2669,8 +2669,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 83011,
-          "y": 40576,
+          "x": 100658,
+          "y": 36914,
           "id": "ab3aeb1b-03e7-4441-9963-71a33674a12b936145"
         },
         "f083d5f4-a39d-4592-ba38-87e0f538158c936145": {
@@ -2698,8 +2698,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 83011,
-          "y": 40676,
+          "x": 100658,
+          "y": 37014,
           "id": "f083d5f4-a39d-4592-ba38-87e0f538158c936145"
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446936145": {
@@ -2731,8 +2731,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нотная\nграмота",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446936145",
-          "x": 86997,
-          "y": 40476,
+          "x": 104644,
+          "y": 36814,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2765,8 +2765,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Классическая\nмузыка",
-          "x": 80532,
-          "y": 14369,
+          "x": 74882,
+          "y": 23563,
           "id": "88e61b27-682b-4374-86fd-a6c74dbdb08a936145",
           "shape": "box",
           "link": "",
@@ -2797,8 +2797,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 80832,
-          "y": 14818,
+          "x": 75182,
+          "y": 24012,
           "id": "0b3587a6-6ccd-4b74-9b94-357fa8db6e51936145"
         },
         "e25716c8-4292-42ef-b829-f8df8b20a5d8936145": {
@@ -2826,8 +2826,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 81010,
-          "y": 14819,
+          "x": 75360,
+          "y": 24013,
           "id": "e25716c8-4292-42ef-b829-f8df8b20a5d8936145"
         },
         "75257022-bd37-47eb-a35f-a8d5cd20a9bf936145": {
@@ -2855,8 +2855,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 81123,
-          "y": 14821,
+          "x": 75473,
+          "y": 24015,
           "id": "75257022-bd37-47eb-a35f-a8d5cd20a9bf936145"
         },
         "60919639-0658-4e8a-b9d1-7ac32c4b9151936145": {
@@ -2884,8 +2884,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 80832,
-          "y": 13968,
+          "x": 75182,
+          "y": 23162,
           "id": "60919639-0658-4e8a-b9d1-7ac32c4b9151936145"
         },
         "8ddec554-49ac-4c43-8237-2bf949891af8936145": {
@@ -2913,8 +2913,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 81445,
-          "y": 1013,
+          "x": 77904,
+          "y": 6433,
           "id": "8ddec554-49ac-4c43-8237-2bf949891af8936145"
         },
         "565f44be-3f95-4ee3-8c13-e961415042fe936145": {
@@ -2942,8 +2942,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 80982,
-          "y": 13968,
+          "x": 75332,
+          "y": 23162,
           "id": "565f44be-3f95-4ee3-8c13-e961415042fe936145"
         },
         "0d332d20-79ee-4f5a-9213-e493f7a555bd936145": {
@@ -2971,8 +2971,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 80982,
-          "y": 14218,
+          "x": 75332,
+          "y": 23412,
           "id": "0d332d20-79ee-4f5a-9213-e493f7a555bd936145"
         },
         "e60b04f7-8986-4d13-8793-c086f0cce19a936145": {
@@ -3000,8 +3000,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 81046,
-          "y": 14069,
+          "x": 75396,
+          "y": 23263,
           "id": "e60b04f7-8986-4d13-8793-c086f0cce19a936145"
         },
         "cfa752ce-1166-40a4-a698-18350e8503ec936145": {
@@ -3029,8 +3029,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 81077,
-          "y": 14094,
+          "x": 75427,
+          "y": 23288,
           "id": "cfa752ce-1166-40a4-a698-18350e8503ec936145"
         },
         "f8aa118a-8b15-4aef-a5c5-86f9fda5c895936145": {
@@ -3058,8 +3058,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 81042,
-          "y": 14119,
+          "x": 75392,
+          "y": 23313,
           "id": "f8aa118a-8b15-4aef-a5c5-86f9fda5c895936145"
         },
         "f3451325-f46e-4057-9e9c-7ee9bc95d71d936145": {
@@ -3087,8 +3087,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 81061,
-          "y": 14144,
+          "x": 75411,
+          "y": 23338,
           "id": "f3451325-f46e-4057-9e9c-7ee9bc95d71d936145"
         },
         "0b0ab63e-68af-4a1f-96ed-39ffc8dca90e936145": {
@@ -3116,8 +3116,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 81050,
-          "y": 14169,
+          "x": 75400,
+          "y": 23363,
           "id": "0b0ab63e-68af-4a1f-96ed-39ffc8dca90e936145"
         },
         "cfcd9321-724a-4c68-8f03-343b6ea5e7fd936145": {
@@ -3145,8 +3145,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 81072,
-          "y": 14194,
+          "x": 75422,
+          "y": 23388,
           "id": "cfcd9321-724a-4c68-8f03-343b6ea5e7fd936145"
         },
         "f25c6a3d-5437-472e-89c5-25ce1ab976e4936145": {
@@ -3174,8 +3174,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 81074,
-          "y": 14219,
+          "x": 75424,
+          "y": 23413,
           "id": "f25c6a3d-5437-472e-89c5-25ce1ab976e4936145"
         },
         "75012142-78a7-45f9-ba0d-ab441194eeee936145": {
@@ -3203,8 +3203,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 81052,
-          "y": 14244,
+          "x": 75402,
+          "y": 23438,
           "id": "75012142-78a7-45f9-ba0d-ab441194eeee936145"
         },
         "39af7797-d04c-4f0e-b97e-e023c273c52f936145": {
@@ -3232,8 +3232,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 81044,
-          "y": 14269,
+          "x": 75394,
+          "y": 23463,
           "id": "39af7797-d04c-4f0e-b97e-e023c273c52f936145"
         },
         "1895e137-56d4-474c-b973-c2961374e8eb936145": {
@@ -3261,8 +3261,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 81071,
-          "y": 14294,
+          "x": 75421,
+          "y": 23488,
           "id": "1895e137-56d4-474c-b973-c2961374e8eb936145"
         },
         "57f8cd4b-a804-48fd-aec2-356e07409862936145": {
@@ -3290,8 +3290,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 81057,
-          "y": 14319,
+          "x": 75407,
+          "y": 23513,
           "id": "57f8cd4b-a804-48fd-aec2-356e07409862936145"
         },
         "1c2070c2-1a29-4e92-a903-f653353e3bfa936145": {
@@ -3319,8 +3319,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 81079,
-          "y": 14344,
+          "x": 75429,
+          "y": 23538,
           "id": "1c2070c2-1a29-4e92-a903-f653353e3bfa936145"
         },
         "fd109147-8a7c-4bbc-8b9d-e5ef5f25a690936145": {
@@ -3348,8 +3348,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 81043,
-          "y": 14369,
+          "x": 75393,
+          "y": 23563,
           "id": "fd109147-8a7c-4bbc-8b9d-e5ef5f25a690936145"
         },
         "a8db5e19-5779-40b4-b1b5-844fd65e17bb936145": {
@@ -3377,8 +3377,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 81082,
-          "y": 14394,
+          "x": 75432,
+          "y": 23588,
           "id": "a8db5e19-5779-40b4-b1b5-844fd65e17bb936145"
         },
         "96389abf-6e4f-45c4-921e-475d335d919b936145": {
@@ -3406,8 +3406,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 80832,
-          "y": 14518,
+          "x": 75182,
+          "y": 23712,
           "id": "96389abf-6e4f-45c4-921e-475d335d919b936145"
         },
         "734f8d0f-6bad-49d5-b71d-b31eae6797fb936145": {
@@ -3435,8 +3435,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 80832,
-          "y": 14618,
+          "x": 75182,
+          "y": 23812,
           "id": "734f8d0f-6bad-49d5-b71d-b31eae6797fb936145"
         },
         "56833e2f-0e40-48ad-8a15-6a291296c7b6936145": {
@@ -3464,8 +3464,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 80832,
-          "y": 14718,
+          "x": 75182,
+          "y": 23912,
           "id": "56833e2f-0e40-48ad-8a15-6a291296c7b6936145"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107936145": {
@@ -3497,45 +3497,10 @@ var schemeData =
           "shapeProperties": {},
           "label": "Классическая\nмузыка",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107936145",
-          "x": 88547,
-          "y": -1636,
+          "x": 88522,
+          "y": -1426,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
-        },
-        "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "https://www.allmusic.com/",
-          "id": "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145",
-          "x": 83768,
-          "y": -5646,
-          "shape": "box",
-          "link": "https://www.allmusic.com/",
           "borderWidth": ""
         },
         "66ad461f-62cf-40fb-9110-104c2484874c145": {
@@ -3655,8 +3620,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Па-па-па-бам!",
           "id": "8dcb4e11-8e44-4bd9-9b8a-3be14b4101de145",
-          "x": 81153,
-          "y": 13955
+          "x": 75526,
+          "y": 23099
         },
         "9b3efb03-8848-425b-ae4a-eb617b00cddc918541145": {
           "color": {
@@ -4954,8 +4919,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вопросы",
           "id": "66ad461f-62cf-40fb-9110-104c2484874c690145",
-          "x": 83588,
-          "y": -4672
+          "x": 83573,
+          "y": -4449
         },
         "c182a1c2-9cd7-41ef-a415-6ff022edfab8145": {
           "color": {
@@ -4984,16 +4949,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Ресурсы, инструменты, сайты поиска музыки",
           "id": "c182a1c2-9cd7-41ef-a415-6ff022edfab8145",
-          "x": 83837,
-          "y": -4670,
+          "x": 83822,
+          "y": -4447,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "33b29b0e-77e8-41b7-bef5-92994e9faecb": {
           "label": "Музыка \nна разбор",
-          "x": 113781,
-          "y": 64183,
+          "x": 113774,
+          "y": 64789,
           "font": {
             "size": 72,
             "align": "left"
@@ -5009,146 +4974,157 @@ var schemeData =
         },
         "36341599-f772-4e42-a901-44cb4b54333e": {
           "label": "Development",
-          "x": 114081,
-          "y": 64633,
+          "x": 114074,
+          "y": 65239,
           "id": "36341599-f772-4e42-a901-44cb4b54333e"
         },
         "6abea8fb-2177-42cd-bbc9-2a97163d60bc": {
           "label": "12/2/2019",
-          "x": 114210,
-          "y": 64633,
+          "x": 114203,
+          "y": 65239,
           "id": "6abea8fb-2177-42cd-bbc9-2a97163d60bc"
         },
         "fd401a91-d574-4a43-bebd-df033d48eead": {
           "label": "init",
-          "x": 114331,
-          "y": 64633,
+          "x": 114324,
+          "y": 65239,
           "id": "fd401a91-d574-4a43-bebd-df033d48eead"
         },
         "1a4ae9c7-3529-4ac5-9bff-987d5d1302f7": {
           "label": "Notes",
-          "x": 114057,
-          "y": 63783,
+          "x": 114050,
+          "y": 64389,
           "id": "1a4ae9c7-3529-4ac5-9bff-987d5d1302f7"
         },
         "e7bad399-14d5-46eb-ac7f-c075a004569f": {
           "label": "Dictionary of\nconcepts",
           "x": 114734,
           "y": 22920,
-          "id": "e7bad399-14d5-46eb-ac7f-c075a004569f"
+          "id": "e7bad399-14d5-46eb-ac7f-c075a004569f",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 30,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "a20c816b-66a6-4842-9fb1-06532e982126": {
           "label": "Details, thoughts",
-          "x": 114231,
-          "y": 63783,
+          "x": 114224,
+          "y": 64389,
           "id": "a20c816b-66a6-4842-9fb1-06532e982126"
         },
         "e7f0b4e2-52e8-4e77-832b-5da1130eea9f": {
           "label": "Sections",
-          "x": 114205,
-          "y": 64033,
+          "x": 114198,
+          "y": 64639,
           "id": "e7f0b4e2-52e8-4e77-832b-5da1130eea9f"
         },
         "1f0eae91-9156-49f0-b235-f709229753b7": {
           "label": "Books",
-          "x": 114295,
-          "y": 63883,
+          "x": 114288,
+          "y": 64489,
           "id": "1f0eae91-9156-49f0-b235-f709229753b7"
         },
         "af91cbe3-02b3-4970-9339-0658df6d0f3e": {
           "label": "R&D institutions",
-          "x": 114325,
-          "y": 63908,
+          "x": 114318,
+          "y": 64514,
           "id": "af91cbe3-02b3-4970-9339-0658df6d0f3e"
         },
         "2f1d6686-ce45-4a27-a456-afc9670f2dbe": {
           "label": "Sites",
-          "x": 114291,
-          "y": 63933,
+          "x": 114284,
+          "y": 64539,
           "id": "2f1d6686-ce45-4a27-a456-afc9670f2dbe"
         },
         "71f1317b-d965-4d54-b970-0fe3452a087e": {
           "label": "Magazines",
-          "x": 114310,
-          "y": 63958,
+          "x": 114303,
+          "y": 64564,
           "id": "71f1317b-d965-4d54-b970-0fe3452a087e"
         },
         "d1f0a304-0211-48de-b81d-2364f6d8b8bb": {
           "label": "Articles",
-          "x": 114298,
-          "y": 63983,
+          "x": 114291,
+          "y": 64589,
           "id": "d1f0a304-0211-48de-b81d-2364f6d8b8bb"
         },
         "385c5e1e-fb5c-4040-9fc5-a290462a537e": {
           "label": "Media content",
-          "x": 114320,
-          "y": 64008,
+          "x": 114313,
+          "y": 64614,
           "id": "385c5e1e-fb5c-4040-9fc5-a290462a537e"
         },
         "d62dd73a-b244-426d-8b2f-37eb0eb635b6": {
           "label": "Misc. web links",
-          "x": 114323,
-          "y": 64033,
+          "x": 114316,
+          "y": 64639,
           "id": "d62dd73a-b244-426d-8b2f-37eb0eb635b6"
         },
         "e077727a-85ff-452f-8f74-88c4c86d02ff": {
           "label": "Projects",
-          "x": 114301,
-          "y": 64058,
+          "x": 114294,
+          "y": 64664,
           "id": "e077727a-85ff-452f-8f74-88c4c86d02ff"
         },
         "a2f70ffd-36a7-426d-8860-87428ab3c5e1": {
           "label": "Tools",
-          "x": 114292,
-          "y": 64083,
+          "x": 114285,
+          "y": 64689,
           "id": "a2f70ffd-36a7-426d-8860-87428ab3c5e1"
         },
         "2865d4ca-63d5-4428-9519-7b9f559c8238": {
           "label": "Organizations",
-          "x": 114319,
-          "y": 64108,
+          "x": 114312,
+          "y": 64714,
           "id": "2865d4ca-63d5-4428-9519-7b9f559c8238"
         },
         "b764f153-c6c2-4f59-a47b-6d022facf8f4": {
           "label": "Standarts",
-          "x": 114306,
-          "y": 64133,
+          "x": 114299,
+          "y": 64739,
           "id": "b764f153-c6c2-4f59-a47b-6d022facf8f4"
         },
         "7317685d-c21a-41cf-a5c8-1d5eea707a90": {
           "label": "Forums, Groups",
-          "x": 114327,
-          "y": 64158,
+          "x": 114320,
+          "y": 64764,
           "id": "7317685d-c21a-41cf-a5c8-1d5eea707a90"
         },
         "c78a66c6-526e-4505-8afe-d5d25f102772": {
           "label": "Laws",
-          "x": 114292,
-          "y": 64183,
+          "x": 114285,
+          "y": 64789,
           "id": "c78a66c6-526e-4505-8afe-d5d25f102772"
         },
         "dd61911a-7f99-452d-a8a8-1beb4fcbdbe8": {
           "label": "Adjacent Themes",
-          "x": 114331,
-          "y": 64208,
+          "x": 114324,
+          "y": 64814,
           "id": "dd61911a-7f99-452d-a8a8-1beb4fcbdbe8"
         },
         "792ef98b-8b04-429b-a437-6d2c59cc850f": {
           "label": "Questions",
-          "x": 114071,
-          "y": 64333,
+          "x": 114064,
+          "y": 64939,
           "id": "792ef98b-8b04-429b-a437-6d2c59cc850f"
         },
         "89fa9d4a-95e2-4cba-bdbd-3f53dcce1a35": {
           "label": "Problems",
-          "x": 114069,
-          "y": 64433,
+          "x": 114062,
+          "y": 65039,
           "id": "89fa9d4a-95e2-4cba-bdbd-3f53dcce1a35"
         },
         "29c81902-026d-4696-b274-978582771281": {
           "label": "Goals",
-          "x": 114057,
-          "y": 64533,
+          "x": 114050,
+          "y": 65139,
           "id": "29c81902-026d-4696-b274-978582771281"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798": {
@@ -18964,8 +18940,8 @@ var schemeData =
         },
         "992c1c76-2a1e-459e-a3fc-c6db91fe4302": {
           "label": "Хоровая\nмузыка",
-          "x": 82133,
-          "y": 17686,
+          "x": 81906,
+          "y": 28566,
           "font": {
             "size": 72,
             "align": "left"
@@ -18981,146 +18957,146 @@ var schemeData =
         },
         "dc525deb-f89e-43ff-ba91-bf7528de0f9a": {
           "label": "Development",
-          "x": 82702,
-          "y": 18110,
+          "x": 82475,
+          "y": 28990,
           "id": "dc525deb-f89e-43ff-ba91-bf7528de0f9a"
         },
         "16e3f052-7d65-41ca-b356-a762f95ee1ee": {
           "label": "12/2/2019",
-          "x": 82831,
-          "y": 18110,
+          "x": 82604,
+          "y": 28990,
           "id": "16e3f052-7d65-41ca-b356-a762f95ee1ee"
         },
         "feda033c-2941-4dbb-8636-19ce15b06abf": {
           "label": "init",
-          "x": 82952,
-          "y": 18110,
+          "x": 82725,
+          "y": 28990,
           "id": "feda033c-2941-4dbb-8636-19ce15b06abf"
         },
         "03dffc96-381a-4cb9-aa80-a182689e63c2": {
           "label": "Notes",
-          "x": 82678,
-          "y": 17260,
+          "x": 82451,
+          "y": 28140,
           "id": "03dffc96-381a-4cb9-aa80-a182689e63c2"
         },
         "9b26b83d-9697-4293-bea3-64507b258bd1": {
           "label": "Dictionary of\nconcepts",
-          "x": 82962,
-          "y": 16537,
+          "x": 82735,
+          "y": 27417,
           "id": "9b26b83d-9697-4293-bea3-64507b258bd1"
         },
         "0873809e-70dc-4409-962d-97fca42cf538": {
           "label": "Details, thoughts",
-          "x": 82852,
-          "y": 17260,
+          "x": 82625,
+          "y": 28140,
           "id": "0873809e-70dc-4409-962d-97fca42cf538"
         },
         "f4b91704-0d3f-475d-b80e-aaeb82ef6e69": {
           "label": "Sections",
-          "x": 82826,
-          "y": 17510,
+          "x": 82599,
+          "y": 28390,
           "id": "f4b91704-0d3f-475d-b80e-aaeb82ef6e69"
         },
         "9d3bfeee-ad68-45ce-85a0-e3e2f51f602d": {
           "label": "Books",
-          "x": 82916,
-          "y": 17360,
+          "x": 82689,
+          "y": 28240,
           "id": "9d3bfeee-ad68-45ce-85a0-e3e2f51f602d"
         },
         "ab10ba5d-1781-4c2e-b778-96ce4491b621": {
           "label": "R&D institutions",
-          "x": 82946,
-          "y": 17385,
+          "x": 82719,
+          "y": 28265,
           "id": "ab10ba5d-1781-4c2e-b778-96ce4491b621"
         },
         "33a9ec68-576b-4869-a828-3c801ec0fd32": {
           "label": "Sites",
-          "x": 82912,
-          "y": 17410,
+          "x": 82685,
+          "y": 28290,
           "id": "33a9ec68-576b-4869-a828-3c801ec0fd32"
         },
         "4f322a7f-cae0-4801-9388-9fa9e11ccd65": {
           "label": "Magazines",
-          "x": 82931,
-          "y": 17435,
+          "x": 82704,
+          "y": 28315,
           "id": "4f322a7f-cae0-4801-9388-9fa9e11ccd65"
         },
         "033b5534-8deb-4d94-99df-a2d7280bbf81": {
           "label": "Articles",
-          "x": 82919,
-          "y": 17460,
+          "x": 82692,
+          "y": 28340,
           "id": "033b5534-8deb-4d94-99df-a2d7280bbf81"
         },
         "c2b3d3f1-8d5a-430a-b845-8803efec6aae": {
           "label": "Media content",
-          "x": 82941,
-          "y": 17485,
+          "x": 82714,
+          "y": 28365,
           "id": "c2b3d3f1-8d5a-430a-b845-8803efec6aae"
         },
         "f90ab93c-1691-4d71-83ba-90c278930bef": {
           "label": "Misc. web links",
-          "x": 82944,
-          "y": 17510,
+          "x": 82717,
+          "y": 28390,
           "id": "f90ab93c-1691-4d71-83ba-90c278930bef"
         },
         "c20726cd-8019-4579-af8b-54cc71e18d52": {
           "label": "Projects",
-          "x": 82922,
-          "y": 17535,
+          "x": 82695,
+          "y": 28415,
           "id": "c20726cd-8019-4579-af8b-54cc71e18d52"
         },
         "7e2b84d2-5f4a-479e-9c63-feff6abb88b6": {
           "label": "Tools",
-          "x": 82913,
-          "y": 17560,
+          "x": 82686,
+          "y": 28440,
           "id": "7e2b84d2-5f4a-479e-9c63-feff6abb88b6"
         },
         "cc2aa1c6-bb81-4ca1-9758-228765c8babe": {
           "label": "Organizations",
-          "x": 82940,
-          "y": 17585,
+          "x": 82713,
+          "y": 28465,
           "id": "cc2aa1c6-bb81-4ca1-9758-228765c8babe"
         },
         "2bcdeb1e-91e1-4249-a3a8-67368454a0ba": {
           "label": "Standarts",
-          "x": 82927,
-          "y": 17610,
+          "x": 82700,
+          "y": 28490,
           "id": "2bcdeb1e-91e1-4249-a3a8-67368454a0ba"
         },
         "8ce24f35-14f5-4dd8-af4c-e2c9e6f73366": {
           "label": "Forums, Groups",
-          "x": 82948,
-          "y": 17635,
+          "x": 82721,
+          "y": 28515,
           "id": "8ce24f35-14f5-4dd8-af4c-e2c9e6f73366"
         },
         "310c0c81-ba3d-46a2-8bfe-029a143267da": {
           "label": "Laws",
-          "x": 82913,
-          "y": 17660,
+          "x": 82686,
+          "y": 28540,
           "id": "310c0c81-ba3d-46a2-8bfe-029a143267da"
         },
         "0a38f73d-1ba9-48ac-91f0-907a079335eb": {
           "label": "Adjacent Themes",
-          "x": 82952,
-          "y": 17685,
+          "x": 82725,
+          "y": 28565,
           "id": "0a38f73d-1ba9-48ac-91f0-907a079335eb"
         },
         "6ce97854-1502-4045-ae2b-ef38aebf5010": {
           "label": "Questions",
-          "x": 82692,
-          "y": 17810,
+          "x": 82465,
+          "y": 28690,
           "id": "6ce97854-1502-4045-ae2b-ef38aebf5010"
         },
         "2ed7643e-9f54-482d-b612-1b616119ad19": {
           "label": "Problems",
-          "x": 82690,
-          "y": 17910,
+          "x": 82463,
+          "y": 28790,
           "id": "2ed7643e-9f54-482d-b612-1b616119ad19"
         },
         "7b8bdd29-634f-4cab-b89b-e21fb2bdecd4": {
           "label": "Goals",
-          "x": 82678,
-          "y": 18010,
+          "x": 82451,
+          "y": 28890,
           "id": "7b8bdd29-634f-4cab-b89b-e21fb2bdecd4"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798": {
@@ -19153,8 +19129,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Хоровая\nмузыка",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798",
-          "x": 87117,
-          "y": 17175,
+          "x": 86890,
+          "y": 28055,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -19162,117 +19138,117 @@ var schemeData =
         "c14027ad-09ba-44ca-8514-8cd781bca8ee": {
           "label": "chorus version - YouTube",
           "link": "https://www.youtube.com/results?search_query=chorus+version",
-          "x": 83261,
-          "y": 16388,
+          "x": 83034,
+          "y": 27268,
           "id": "c14027ad-09ba-44ca-8514-8cd781bca8ee"
         },
         "a24525aa-378d-4176-b841-1d1db936bfa6": {
           "label": "Stand By Me / Beautiful Girls - The Choir - BBC Two - YouTube",
           "link": "https://www.youtube.com/watch?v=HQxHxloG854&ab_channel=BBC",
-          "x": 83597,
-          "y": 16354,
+          "x": 83370,
+          "y": 27234,
           "id": "a24525aa-378d-4176-b841-1d1db936bfa6"
         },
         "2ea85c73-1eee-4805-8e6b-a821c48d7d5a": {
           "label": "Let It Go - Frozen - Alex Boyé (Africanized Tribal Cover) Ft. One Voice Children's Choir - YouTube",
           "link": "https://www.youtube.com/watch?v=DAJYk1jOhzk&ab_channel=AlexBoye",
-          "x": 83708,
-          "y": 16378,
+          "x": 83481,
+          "y": 27258,
           "id": "2ea85c73-1eee-4805-8e6b-a821c48d7d5a"
         },
         "c971726e-ed4d-40e6-91ef-41e9f8d2ddb3": {
           "label": "Royal Choral Society: 'Hallelujah Chorus' from Handel's Messiah - YouTube",
           "link": "https://www.youtube.com/watch?v=IUZEtVbJT5c&ab_channel=RoyalChoralSoc",
-          "x": 83637,
-          "y": 16402,
+          "x": 83410,
+          "y": 27282,
           "id": "c971726e-ed4d-40e6-91ef-41e9f8d2ddb3"
         },
         "8cd6d374-f369-4487-971f-26b8f98ef3be": {
           "label": "Africa - Angel City Chorale - YouTube",
           "link": "https://www.youtube.com/watch?v=-c9-poC5HGw&ab_channel=AngelCityChorale",
-          "x": 83517,
-          "y": 16453,
+          "x": 83290,
+          "y": 27333,
           "id": "8cd6d374-f369-4487-971f-26b8f98ef3be"
         },
         "090e4a7a-96ee-4b73-ada6-73664be9ecba": {
           "label": "Skyfall - Angel City Chorale - June 2014 - YouTube",
           "link": "https://www.youtube.com/watch?v=EhY8ViaDLcg&ab_channel=AngelCityChorale",
-          "x": 83898,
-          "y": 16458,
+          "x": 83671,
+          "y": 27338,
           "id": "090e4a7a-96ee-4b73-ada6-73664be9ecba"
         },
         "c338b44e-0097-4192-b2b9-47d4137f3a47": {
           "label": "modern horus music - Google Search",
           "link": "https://www.google.com/search?q=modern+horus+music&cad=h",
-          "x": 83299,
-          "y": 16607,
+          "x": 83072,
+          "y": 27487,
           "id": "c338b44e-0097-4192-b2b9-47d4137f3a47"
         },
         "0aeeb49e-f6a3-4651-8d2b-04fab9e14a1a": {
           "label": "Choir - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Choir",
-          "x": 83234,
-          "y": 16748,
+          "x": 83007,
+          "y": 27628,
           "id": "0aeeb49e-f6a3-4651-8d2b-04fab9e14a1a"
         },
         "4e719881-48ce-4c2e-a5a8-6fe2e7db1a9f": {
           "label": "Swedish Radio Choir - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Swedish_Radio_Choir",
-          "x": 83427,
-          "y": 16717,
+          "x": 83200,
+          "y": 27597,
           "id": "4e719881-48ce-4c2e-a5a8-6fe2e7db1a9f"
         },
         "e9ef7ab7-ee40-44a9-9397-80047008dfc4": {
           "label": "Nederlands Kamerkoor - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nederlands_Kamerkoor",
-          "x": 83434,
-          "y": 16741,
+          "x": 83207,
+          "y": 27621,
           "id": "e9ef7ab7-ee40-44a9-9397-80047008dfc4"
         },
         "4da51ee4-f4e5-4507-b97d-0a6757e4419b": {
           "label": "Category:Choirs - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Category:Choirs",
-          "x": 83412,
-          "y": 16790,
+          "x": 83185,
+          "y": 27670,
           "id": "4da51ee4-f4e5-4507-b97d-0a6757e4419b"
         },
         "43bd5bac-cdc6-49eb-baa8-09ce75b37f08": {
           "label": "Category:Glee clubs - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Category:Glee_clubs",
-          "x": 83648,
-          "y": 16793,
+          "x": 83421,
+          "y": 27673,
           "id": "43bd5bac-cdc6-49eb-baa8-09ce75b37f08"
         },
         "a9d80d56-d9d8-4c00-aad1-d8b584bbf25f": {
           "label": "Chorus - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Chorus",
-          "x": 83240,
-          "y": 16231,
+          "x": 83013,
+          "y": 27111,
           "id": "a9d80d56-d9d8-4c00-aad1-d8b584bbf25f"
         },
         "bcbf95ee-1bc8-4f3c-bd63-f27d4235af33": {
           "label": "Choir - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Choir",
-          "x": 83234,
-          "y": 16278,
+          "x": 83007,
+          "y": 27158,
           "id": "bcbf95ee-1bc8-4f3c-bd63-f27d4235af33"
         },
         "c25831f5-70b4-4f0f-b03a-333ee9301b62": {
           "id": "c25831f5-70b4-4f0f-b03a-333ee9301b62",
-          "x": 83942,
-          "y": 43608,
+          "x": 83758,
+          "y": 50584,
           "label": "function getElementByXpath(path) {\n  return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;\n}"
         },
         "94e947fe-3915-4d0f-b614-93703f213dcc": {
           "id": "94e947fe-3915-4d0f-b614-93703f213dcc",
-          "x": 83698,
-          "y": 43736,
+          "x": 83514,
+          "y": 50712,
           "label": "getElementByXpath(\"//li[@id='mwktkzvlf']\")"
         },
         "b6d1f271-c097-48a7-983e-9a14ad542b99": {
           "id": "b6d1f271-c097-48a7-983e-9a14ad542b99",
-          "x": 83717,
-          "y": 43779,
+          "x": 83533,
+          "y": 50755,
           "label": "<li.*?><(div|a).*?><(div|a).*?><img.*?><span.*?>"
         },
         "c25831f5-70b4-4f0f-b03a-333ee9301b62241": {
@@ -19303,16 +19279,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "function getElementByXpath(path) {\n  return document.evaluate(path, document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);\n}",
           "id": "c25831f5-70b4-4f0f-b03a-333ee9301b62241",
-          "x": 83901,
-          "y": 43683,
+          "x": 83717,
+          "y": 50659,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "6f36530e-a54b-4736-b570-56edf37b4294": {
           "id": "6f36530e-a54b-4736-b570-56edf37b4294",
-          "x": 83747,
-          "y": 43869,
+          "x": 83563,
+          "y": 50845,
           "label": "var thisHeading = z.iterateNext(); \nvar alertText = \"Level 2 headings in this document are:\\n\";\nwhile (thisHeading) {\n  alertText += thisHeading.textContent + \"\\n\";\n  thisHeading = z.iterateNext();\n}\nconsole.log(alertText);"
         },
         "6f36530e-a54b-4736-b570-56edf37b4294102": {
@@ -19343,8 +19319,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var z = getElementByXpath(\"//li[@id='mwktkzvlf']\");\nvar thisHeading = z.iterateNext(); \nvar alertText = \"Level 2 headings in this document are:\\n\";\nwhile (thisHeading) {\n  alertText += thisHeading.innerHTML + \"\\nXXXXXXXXXXXXXXXXXXX\";\n  thisHeading = z.iterateNext();\n}\n$(\"textarea#queriesTextArea\").val(alertText);",
           "id": "6f36530e-a54b-4736-b570-56edf37b4294102",
-          "x": 83789,
-          "y": 44003,
+          "x": 83605,
+          "y": 50979,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -19379,16 +19355,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "function getElementByXpath(obj, path) {\n  return document.evaluate(path, obj, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);\n}\nvar z = getElementByXpath(document, \"//li[@id='mwktkzvlf']\");\n\n   var nodes = [];\n   var thisHeading = z.iterateNext(); \n   var alertText = \"\";\n   while (thisHeading) {\n     nodes.push(thisHeading);\n     alertText += thisHeading.innerHTML + \"\\nXXXXXXXXXXXXXXXXXXX\";\n     thisHeading = z.iterateNext();\n   }\n   //$(\"textarea#queriesTextArea\").val(alertText);\n\nconsole.log(nodes.length);\n\n$(\"textarea#queriesTextArea\").val(\"\");\nnodes.forEach(function(node) {\nconsole.log(node);\n   var n = getElementByXpath(node, \"//li/a\");\n   var thisHeading = n.iterateNext(); \n   var alertText = \"\";\n   while (thisHeading) {\n     alertText += thisHeading.innerHTML + \"\\nXXXXXXXXXXXXXXXXXXX\";\n     thisHeading = n.iterateNext();\n   }\n   $(\"textarea#queriesTextArea\").val(alertText);\n});",
           "id": "6f36530e-a54b-4736-b570-56edf37b4294102884",
-          "x": 83879,
-          "y": 44295,
+          "x": 83695,
+          "y": 51271,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "793aa75f-4fee-46a8-a9c5-094de1a20201": {
           "id": "793aa75f-4fee-46a8-a9c5-094de1a20201",
-          "x": 84031,
-          "y": 45248,
+          "x": 83847,
+          "y": 52224,
           "label": "alertText = alertText.replace(/<li id=\"uxqhqujsc\" class=\"nodeTitleAndSubnodesContainer.*?draggable=\"true\">(.*?)<\\/span><\\/div><\\/div><\\/li>/g,\"$1\");",
           "shape": "box",
           "link": "",
@@ -19404,8 +19380,8 @@ var schemeData =
         },
         "dc8e82cf-2633-4c9a-be82-8e58506313fd": {
           "id": "dc8e82cf-2633-4c9a-be82-8e58506313fd",
-          "x": 84003,
-          "y": 45288,
+          "x": 83819,
+          "y": 52264,
           "label": "alertText = alertText.replace(/<li id=\".*?\" class=\"nodeTitleAndSubnodesContainer.*?draggable=\"true\">(.*?)<\\/span><\\/div><\\/div>/g,\"\\\"$1\\\":\");",
           "shape": "box",
           "link": "",
@@ -19449,8 +19425,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "function getElementByXpath(obj, path) {\n  return document.evaluate(path, obj, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);\n}\nvar z = getElementByXpath(document, \"//li[@id='pdcyaldjy']\");\n\n   var thisHeading = z.iterateNext(); \n   var alertText = \"\";\n   while (thisHeading) {\n     alertText += thisHeading.innerHTML;\n     thisHeading = z.iterateNext();\n   }\n\nalertText = alertText.replace(/<div.*?\\/div>/,\"\");\nalertText = alertText.replace(/<\\/div>/,\"\");\n//alertText = alertText.replace(/<li.*?>/g,\"{\");\n//alertText = alertText.replace(/<ul.*?>/g,\"{\");\n//alertText = alertText.replace(/<div.*?>/g,\"{\");\n//alertText = alertText.replace(/<span.*?>/g,\"{\");\n//alertText = alertText.replace(/<img.*?>/g,\"{\");\n//alertText = alertText.replace(/<li.*?subnodeslist\">/g,\"{\");\nalertText = alertText.replace(/<ul class=\"subnodeslist\">/g,\"[\");\nalertText = alertText.replace(/<li id=\".*?\" class=\"nodeTitleAndSubnodesContainer.*?draggable=\"true\">(.*?)<\\/span><\\/div><\\/div><\\/li>/g,\"\\\"$1\\\",\");\nalertText = alertText.replace(/<div class=\"nodeTitleContainer.*?draggable=\"true\">(.*?)<\\/span><\\/div><\\/div>/g,\"\\\"$1\\\":\");\n\nalertText = alertText.replace(/<li.*?nodeTitleAndSubnodesContainer.*?href=\"(.*?)\".*?draggable=\"true\">(.*?)<\\/span><\\/a><\\/li>/g,\"\\\"$1ZZZZZ$2\\\", \");\n\nalertText = alertText.replace(/<li.*?nodeTitleAndSubnodesContainer.*?href=\"(.*?)\".*?draggable=\"true\">(.*?)<\\/span><\\/a>/g,\"\\\"$1ZZZZZ$2\\\", \");\n\nalertText = alertText.replace(/<\\/ul><\\/li>/g,\"]\");\n\nalertText = alertText.replace(/, \\]/g,\"]\");\n//alertText = alertText.replace(/, \\[/g,\"[\");\n\nalertText = alertText.replace(/<li.*?nodeTitleAndSubnodesContainer.*?href=\"(.*?)\".*?draggable=\"true\">(.*?)/g,\"\\\"$1ZZZZZ$2\\\", \");\nalertText = alertText.replace(/<li.*?nodeTitleAndSubnodesContainer.*?draggable=\"true\">(.*?)/g,\"\\\"$1\\\", \");\n\nalertText = alertText.replace(/\\]\"/g,\"],[\\\"\");\nalertText = alertText.replace(/\\\"\\[/g,\"\\\"],[\");\nalertText = alertText.replace(/,<\\/ul>/,\"]\");\nalertText = alertText.replace(/<\\/span><\\/div><\\/div>/,\"\\\",\");\n\n$(\"textarea#queriesTextArea\").val(alertText);\n\nalertText = alertText.replace(/<\\/a>\\[/,\"</a>\\\",[\");\n\nvar o = JSON.parse(alertText);\n\nconsole.log(o);\n",
           "id": "6f36530e-a54b-4736-b570-56edf37b4294102884772686",
-          "x": 84027,
-          "y": 44867,
+          "x": 83843,
+          "y": 51843,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -19458,882 +19434,882 @@ var schemeData =
         "ba96aff6-9b84-4854-8189-3b57f71e0988": {
           "label": "Easy Listening",
           "link": "http://www.allmusic.com/search/all/romantic%20guitar",
-          "x": 81613,
-          "y": 21203,
+          "x": 81386,
+          "y": 32083,
           "id": "ba96aff6-9b84-4854-8189-3b57f71e0988"
         },
         "f16d7c53-62aa-4a92-b273-d365c01d44ae": {
           "label": "Search for \"romantic guitar\" | AllMusic",
           "link": "http://www.allmusic.com/search/all/romantic%20guitar",
-          "x": 82111,
-          "y": 20741,
+          "x": 81884,
+          "y": 31621,
           "id": "f16d7c53-62aa-4a92-b273-d365c01d44ae"
         },
         "ea518c0e-0193-41af-bc2c-fa4739025a18": {
           "label": "Franck Pourcel - YouTube",
           "link": "http://www.youtube.com/results?search_query=Franck+Pourcel",
-          "x": 82074,
-          "y": 21041,
+          "x": 81847,
+          "y": 31921,
           "id": "ea518c0e-0193-41af-bc2c-fa4739025a18"
         },
         "5cb0a845-608c-4683-9ea6-f8cd7aa3afd1": {
           "label": "Over 3 Hours of Easy Listening Music of the 50s 60s 70s and Beyond - Frank Chacksfield Orchestra - YouTube",
           "link": "http://www.youtube.com/watch?v=9pIOOhj0wQE",
-          "x": 82639,
-          "y": 20526,
+          "x": 82412,
+          "y": 31406,
           "id": "5cb0a845-608c-4683-9ea6-f8cd7aa3afd1"
         },
         "200fbdfe-b6f0-4f9a-9530-84d15c58e9ab": {
           "label": "Frank Chacksfield Orchestra - YouTube",
           "link": "http://www.youtube.com/results?search_query=Frank+Chacksfield+Orchestra",
-          "x": 82413,
-          "y": 20586,
+          "x": 82186,
+          "y": 31466,
           "id": "200fbdfe-b6f0-4f9a-9530-84d15c58e9ab"
         },
         "403d46ae-beec-47ea-aed2-9d41e6773a9a": {
           "label": "FRANK CHACKSFIELD - LOVELY LADY - FULL ALBUM - ORCHESTRA - YouTube",
           "link": "http://www.youtube.com/watch?v=ZegBbjjp5uk",
-          "x": 82550,
-          "y": 20625,
+          "x": 82323,
+          "y": 31505,
           "id": "403d46ae-beec-47ea-aed2-9d41e6773a9a"
         },
         "95d3cb5c-8d37-42f0-836a-e6e47030483d": {
           "label": "Percy Faith Orchestra Plays The Greatest Hits of All Time - YouTube",
           "link": "http://www.youtube.com/watch?v=Tx--jwTOzFY",
-          "x": 82504,
-          "y": 20685,
+          "x": 82277,
+          "y": 31565,
           "id": "95d3cb5c-8d37-42f0-836a-e6e47030483d"
         },
         "ffd09446-dfa8-4365-a6ac-8f68d33c8b0c": {
           "label": "easy listening guitar instrumental - YouTube",
           "link": "http://www.youtube.com/results?search_query=easy+listening+guitar+instrumental",
-          "x": 82427,
-          "y": 20755,
+          "x": 82200,
+          "y": 31635,
           "id": "ffd09446-dfa8-4365-a6ac-8f68d33c8b0c"
         },
         "b293d725-ea54-48c7-87ed-731b5cc9bb30": {
           "label": "Easy Listening Music Vol.3 - Soft Instrumental Music, Guitar Music, Piano Music ♫011 - YouTube",
           "link": "http://www.youtube.com/watch?v=J0nCbmy1ivc",
-          "x": 82594,
-          "y": 20810,
+          "x": 82367,
+          "y": 31690,
           "id": "b293d725-ea54-48c7-87ed-731b5cc9bb30"
         },
         "840fcf6c-e833-4807-9591-f5fbf45a0175": {
           "label": "Acoustic Spanish guitar instrumental compilation - YouTube",
           "link": "http://www.youtube.com/watch?v=5I0fbAKWrF8",
-          "x": 82476,
-          "y": 20835,
+          "x": 82249,
+          "y": 31715,
           "id": "840fcf6c-e833-4807-9591-f5fbf45a0175"
         },
         "5aa9418b-08df-4bb0-8843-ef3fe6e4cb15": {
           "label": "JAZZ GUITAR - Instrumental music for studying concentration 2015 - YouTube",
           "link": "https://www.youtube.com/watch?v=m9iWFHw5K84",
-          "x": 82536,
-          "y": 20875,
+          "x": 82309,
+          "y": 31755,
           "id": "5aa9418b-08df-4bb0-8843-ef3fe6e4cb15"
         },
         "963762bf-dee8-40a4-ab1b-5308cee04476": {
           "label": "Vicente Amigo - Ciudad de las ideas - YouTube",
           "link": "https://www.youtube.com/watch?v=OM5YG0DYOD4",
-          "x": 82437,
-          "y": 20942,
+          "x": 82210,
+          "y": 31822,
           "id": "963762bf-dee8-40a4-ab1b-5308cee04476"
         },
         "3c41ba9e-0cd0-426b-a4d9-1b781abb488a": {
           "label": "Cesaria Evora Live D'amor 2004 (Complete Concert) - YouTube",
           "link": "https://www.youtube.com/watch?v=oWYKTiqPvYA",
-          "x": 82490,
-          "y": 20987,
+          "x": 82263,
+          "y": 31867,
           "id": "3c41ba9e-0cd0-426b-a4d9-1b781abb488a"
         },
         "15e76726-a296-406b-a639-e12c0b885f35": {
           "label": "romantic guitar aldo - Google Search",
           "link": "https://www.google.ru/search?num=100&newwindow=1&site=&source=hp&q=romantic+guitar+aldo&oq=romantic+guitar+aldo&gs_l=hp.3..0i22i30.905.4986.0.5275.23.17.1.5.6.0.276.2113.2j8j3.13.0....0...1c.1.64.hp..4.18.1968.0.m9XKM8BfIf4",
-          "x": 82109,
-          "y": 21126,
+          "x": 81882,
+          "y": 32006,
           "id": "15e76726-a296-406b-a639-e12c0b885f35"
         },
         "ae726b1e-970d-4e96-b5c7-1597d3d5fc21": {
           "label": "Guitar Solo, Romantic Instrumental Guitar Music Video Angelina by ALDO - YouTube",
           "link": "https://www.youtube.com/watch?v=hPAusy1cQe0",
-          "x": 82565,
-          "y": 21127,
+          "x": 82338,
+          "y": 32007,
           "id": "ae726b1e-970d-4e96-b5c7-1597d3d5fc21"
         },
         "02df2d52-2f22-43c4-a907-73c6d034e683": {
           "label": "guitar solo acoustic slow spanish - YouTube",
           "link": "https://www.youtube.com/results?search_query=guitar+solo+acoustic+slow+spanish",
-          "x": 83032,
-          "y": 21101,
+          "x": 82805,
+          "y": 31981,
           "id": "02df2d52-2f22-43c4-a907-73c6d034e683"
         },
         "03c53008-07d6-4896-a769-6251415cccf4": {
           "label": "Most beautiful spanish chillout - Spanish Nights - YouTube",
           "link": "https://www.youtube.com/watch?v=oguhFPxrypg",
-          "x": 83412,
-          "y": 21096,
+          "x": 83185,
+          "y": 31976,
           "id": "03c53008-07d6-4896-a769-6251415cccf4"
         },
         "8fd36d14-9a96-4a6b-8969-3bb005cd38e5": {
           "label": "ALDO Relaxing Guitar - Store",
           "link": "http://www.aldorelaxingguitar.com/store",
-          "x": 82987,
-          "y": 21151,
+          "x": 82760,
+          "y": 32031,
           "id": "8fd36d14-9a96-4a6b-8969-3bb005cd38e5"
         },
         "3b2bc93e-f26c-40e0-8f22-ddbd47505a81": {
           "label": "slow guitar - YouTube",
           "link": "http://www.youtube.com/results?search_query=slow+guitar",
-          "x": 82060,
-          "y": 21244,
+          "x": 81833,
+          "y": 32124,
           "id": "3b2bc93e-f26c-40e0-8f22-ddbd47505a81"
         },
         "ffe16b08-db06-47e4-9404-7c6c600427af": {
           "label": "Eric \"slowhand\" Clapton - The best Instrumental Guitar Ever - YouTube",
           "link": "https://www.youtube.com/watch?v=fmyT1F3RBzY",
-          "x": 82452,
-          "y": 21226,
+          "x": 82225,
+          "y": 32106,
           "id": "ffe16b08-db06-47e4-9404-7c6c600427af"
         },
         "8e4ebe85-4677-4ad0-b51e-340a30250fc3": {
           "label": "ROMANTIC GUITAR Slow Music Love Songs #1 Relaxing Instrumental Playlist Hour Relax Romance Study - YouTube",
           "link": "https://www.youtube.com/watch?v=hra78VSGTIw",
-          "x": 82600,
-          "y": 21251,
+          "x": 82373,
+          "y": 32131,
           "id": "8e4ebe85-4677-4ad0-b51e-340a30250fc3"
         },
         "681fa010-68c5-490a-9ee1-accd787aa37c": {
           "label": "Kalinov Most - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Kalinov_Most",
-          "x": 83293,
-          "y": 33732,
+          "x": 83066,
+          "y": 44612,
           "id": "681fa010-68c5-490a-9ee1-accd787aa37c"
         },
         "014d1d9a-32b3-4f6c-8b8c-df4a8f3ca837": {
           "label": "Kalinov Most | Credits | AllMusic",
           "link": "http://www.allmusic.com/artist/kalinov-most-mn0001562638/credits",
-          "x": 83682,
-          "y": 33728,
+          "x": 83455,
+          "y": 44608,
           "id": "014d1d9a-32b3-4f6c-8b8c-df4a8f3ca837"
         },
         "c7ed8c96-9d3b-4b73-9c64-3a4c5be5b85c": {
           "label": "Francis Purcell | Biography, Albums, & Streaming Radio | AllMusic",
           "link": "http://www.allmusic.com/artist/francis-purcell-mn0000730647",
-          "x": 82199,
-          "y": 21357,
+          "x": 81972,
+          "y": 32237,
           "id": "c7ed8c96-9d3b-4b73-9c64-3a4c5be5b85c"
         },
         "07741ecf-f47b-4deb-a5ab-459ae17d59ba": {
           "label": "Easy Listening | Music Highlights | AllMusic",
           "link": "http://www.allmusic.com/genre/easy-listening-ma0000002567",
-          "x": 82620,
-          "y": 21353,
+          "x": 82393,
+          "y": 32233,
           "id": "07741ecf-f47b-4deb-a5ab-459ae17d59ba"
         },
         "6ad44695-cc9b-423f-8f3b-a4d2e6921b03": {
           "label": "\"1970\" \"Greatest Hits\" L.P., Herb Alpert and the Tijuana Brass (Classic Vinyl) - YouTube",
           "link": "http://www.youtube.com/watch?v=Cm7cdZwc0bE",
-          "x": 83119,
-          "y": 21351,
+          "x": 82892,
+          "y": 32231,
           "id": "6ad44695-cc9b-423f-8f3b-a4d2e6921b03"
         },
         "57a6e765-2f1b-4ebf-8e19-05b93d166200": {
           "label": "clapton Orchestral Nights - Google Search",
           "link": "https://www.google.ru/search?num=100&newwindow=1&site=&source=hp&q=clapton+Orchestral+Nights&oq=clapton+Orchestral+Nights&gs_l=hp.3..0i22i10i30j0i13i5i30l9.43.1905.0.2378.10.8.0.0.0.0.353.1007.3-3.3.0....0...1c.1.64.hp..7.3.1007.0.ynlnxChJMT0",
-          "x": 82126,
-          "y": 21407,
+          "x": 81899,
+          "y": 32287,
           "id": "57a6e765-2f1b-4ebf-8e19-05b93d166200"
         },
         "003dbbc7-961d-4525-b861-384cf39d43b4": {
           "label": "roberto spanish escape - Google Search",
           "link": "https://www.google.ru/search?num=100&newwindow=1&site=&source=hp&q=roberto+spanish+escape&oq=roberto+spanish+escape&gs_l=hp.3...552.5965.0.6146.23.18.0.0.0.0.543.2645.0j4j4j1j0j1.10.0....0...1c.1.64.hp..13.7.1757.0.AnBhr3WQHhI",
-          "x": 82120,
-          "y": 21480,
+          "x": 81893,
+          "y": 32360,
           "id": "003dbbc7-961d-4525-b861-384cf39d43b4"
         },
         "930b9974-05f2-440b-b6d2-65360fb1d68c": {
           "label": "Roberto & Bobby Schnitzer - Lifescapes: Spanish Escape (2012) » New Age Music | Музыка нью-эйдж",
           "link": "http://newage-music.ru/64539-roberto-bobby-schnitzer-lifescapes-spanish-escape-2012.html",
-          "x": 82649,
-          "y": 21455,
+          "x": 82422,
+          "y": 32335,
           "id": "930b9974-05f2-440b-b6d2-65360fb1d68c"
         },
         "13f4ac5e-d1cc-44c6-a6ad-9ee1352ef74c": {
           "label": "Lifescapes: Spanish Escape album from Roberto – download and listen music online",
           "link": "http://nemp3.me/Roberto/Album%20Lifescapes%20Spanish%20Escape/520130",
-          "x": 82590,
-          "y": 21480,
+          "x": 82363,
+          "y": 32360,
           "id": "13f4ac5e-d1cc-44c6-a6ad-9ee1352ef74c"
         },
         "10bf3340-7a17-468e-86a6-99f448a5656c": {
           "label": "Roberto & Bobby Schnitzer - Lifescapes: Spanish Escape (2012) - Free Download",
           "link": "http://www.sodown.pics/download-musics/roberto-bobby-schnitzer-lifescapes-spanish-escape-2012-237584.html",
-          "x": 82582,
-          "y": 21505,
+          "x": 82355,
+          "y": 32385,
           "id": "10bf3340-7a17-468e-86a6-99f448a5656c"
         },
         "efa1a798-2c54-4fc7-bc48-9fbc22c88814": {
           "label": "Bobby Schnitzer guitar - Google Search",
           "link": "https://www.google.ru/search?num=100&newwindow=1&q=Bobby+Schnitzer+guitar&oq=Bobby+Schnitzer+guitar&gs_l=serp.3..0i22i30.9920.11998.0.12236.11.6.0.4.4.0.330.796.2-2j1.3.0....0...1c.1.64.serp..4.5.225.Jszy-xx4dkk",
-          "x": 82117,
-          "y": 21577,
+          "x": 81890,
+          "y": 32457,
           "id": "efa1a798-2c54-4fc7-bc48-9fbc22c88814"
         },
         "4483a71e-8de6-45b0-8e3f-996d07cf1418": {
           "label": "Bobby Schnitzer | Album Discography | AllMusic",
           "link": "http://www.allmusic.com/artist/bobby-schnitzer-mn0000063384/discography",
-          "x": 82497,
-          "y": 21578,
+          "x": 82270,
+          "y": 32458,
           "id": "4483a71e-8de6-45b0-8e3f-996d07cf1418"
         },
         "461d69f3-0a4d-4d77-8258-cf697dbd6e59": {
           "label": "Harp: Christmas Instrumental - Bruce Kurnow,Bobby Schnitzer | Songs, Reviews, Credits | AllMusic",
           "link": "http://www.allmusic.com/album/harp-christmas-instrumental-mw0000809594",
-          "x": 83062,
-          "y": 21564,
+          "x": 82835,
+          "y": 32444,
           "id": "461d69f3-0a4d-4d77-8258-cf697dbd6e59"
         },
         "37d92d93-29a1-4418-ac41-bdc672f455f8": {
           "label": "Do You Remember - Bobby Schnitzer | Songs, Reviews, Credits | AllMusic",
           "link": "http://www.allmusic.com/album/do-you-remember-mw0000884930",
-          "x": 82983,
-          "y": 21589,
+          "x": 82756,
+          "y": 32469,
           "id": "37d92d93-29a1-4418-ac41-bdc672f455f8"
         },
         "baa8e9d1-afb7-45f8-9088-70d69ea20ea3": {
           "label": "List of classical guitarists - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/List_of_classical_guitarists",
-          "x": 81808,
-          "y": 20433,
+          "x": 81581,
+          "y": 31313,
           "id": "baa8e9d1-afb7-45f8-9088-70d69ea20ea3"
         },
         "69c6e0d0-7ee7-437f-be5d-a42037ab7ed9": {
           "label": "Фламенко",
           "link": "http://www.allmusic.com/search/all/romantic%20guitar",
-          "x": 81690,
-          "y": 22923,
+          "x": 81463,
+          "y": 33803,
           "id": "69c6e0d0-7ee7-437f-be5d-a42037ab7ed9"
         },
         "b7c49924-50f2-4743-b28d-a891fa43454f": {
           "label": "Трекер",
           "link": "http://rutracker.org/forum/tracker.php?nm=Paco%20de%20Lucia%20%E2%80%94%20En%20Vivo%20Conciertos",
-          "x": 81969,
-          "y": 21700,
+          "x": 81742,
+          "y": 32580,
           "id": "b7c49924-50f2-4743-b28d-a891fa43454f"
         },
         "7c5d8bbb-3181-4f3a-9409-47bcf4320e35": {
           "label": "(Flamenco) VA - Tomatito - Soy Flamenco - 2013, FLAC (tracks+.cue), lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4554051",
-          "x": 82388,
-          "y": 21666,
+          "x": 82161,
+          "y": 32546,
           "id": "7c5d8bbb-3181-4f3a-9409-47bcf4320e35"
         },
         "04d0803e-7ee6-4174-b97d-7b58bed7356e": {
           "label": "(Flamenco/Fusion) [CD] Paco de Lucia - Cancion Andaluza - 2014, FLAC (image+.cue), lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4787190",
-          "x": 82443,
-          "y": 21691,
+          "x": 82216,
+          "y": 32571,
           "id": "04d0803e-7ee6-4174-b97d-7b58bed7356e"
         },
         "a977cd09-117b-4273-abf2-2e0c853eb73a": {
           "label": "(Flamenco) Paco de Lucia - En Vivo Conciertos Espana 2010 (2 CD) - 2011, FLAC (image+.cue), lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4414419",
-          "x": 82473,
-          "y": 21716,
+          "x": 82246,
+          "y": 32596,
           "id": "a977cd09-117b-4273-abf2-2e0c853eb73a"
         },
         "97320be6-b2a4-47be-ac1a-a2367ec680b2": {
           "label": "Трекер",
           "link": "http://rutracker.org/forum/tracker.php?nm=gipsy%20kings",
-          "x": 81969,
-          "y": 21805,
+          "x": 81742,
+          "y": 32685,
           "id": "97320be6-b2a4-47be-ac1a-a2367ec680b2"
         },
         "e69e9ccb-1645-4341-90da-aeab16ab2925": {
           "label": "(Flamenco) Gipsy Kings - The Very Best Of (Special Russian Version) - 2005, FLAC (tracks+.cue), lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=3669750",
-          "x": 82466,
-          "y": 21797,
+          "x": 82239,
+          "y": 32677,
           "id": "e69e9ccb-1645-4341-90da-aeab16ab2925"
         },
         "24d1eaea-5893-42bd-9648-7f1548c883cb": {
           "label": "flamenco guitar - YouTube",
           "link": "http://www.youtube.com/results?search_query=flamenco+guitar&search_sort=video_view_count",
-          "x": 82025,
-          "y": 21880,
+          "x": 81798,
+          "y": 32760,
           "id": "24d1eaea-5893-42bd-9648-7f1548c883cb"
         },
         "799e3bf2-184e-4401-b6e4-808ae132c90c": {
           "label": "Malaguena - Michael Lucarelli, classical guitar - YouTube",
           "link": "http://www.youtube.com/watch?v=8B6jOUzBKYc",
-          "x": 82370,
-          "y": 21864,
+          "x": 82143,
+          "y": 32744,
           "id": "799e3bf2-184e-4401-b6e4-808ae132c90c"
         },
         "dd5bd476-5417-4ae2-a077-bd8dfcf524e6": {
           "label": "\"The Fire Cadenza\" - guitar, Lawson Rollins - YouTube",
           "link": "http://www.youtube.com/watch?v=MQ9PRzIyzFA",
-          "x": 82362,
-          "y": 21889,
+          "x": 82135,
+          "y": 32769,
           "id": "dd5bd476-5417-4ae2-a077-bd8dfcf524e6"
         },
         "39609719-4e38-452c-8419-807c7fc3e739": {
           "label": "Flamenco - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Flamenco",
-          "x": 82102,
-          "y": 22431,
+          "x": 81875,
+          "y": 33311,
           "id": "39609719-4e38-452c-8419-807c7fc3e739"
         },
         "c1b217a5-ba4c-4172-9807-0860153ab722": {
           "label": "Category:Flamenco - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco",
-          "x": 82512,
-          "y": 22429,
+          "x": 82285,
+          "y": 33309,
           "id": "c1b217a5-ba4c-4172-9807-0860153ab722"
         },
         "63d105de-4d90-4bf4-a894-f6869e69c144": {
           "label": "Category:Flamenco discographies - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_discographies",
-          "x": 82985,
-          "y": 21951,
+          "x": 82758,
+          "y": 32831,
           "id": "63d105de-4d90-4bf4-a894-f6869e69c144"
         },
         "dcf8dca6-c84c-4456-9ca5-2d8d20cf861f": {
           "label": "Category:Flamenco compositions - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_compositions",
-          "x": 82983,
-          "y": 21976,
+          "x": 82756,
+          "y": 32856,
           "id": "dcf8dca6-c84c-4456-9ca5-2d8d20cf861f"
         },
         "b52cc377-ab80-4db0-82e3-0c2ff33e3b4e": {
           "label": "Category:Flamenco songs - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_songs",
-          "x": 82960,
-          "y": 22001,
+          "x": 82733,
+          "y": 32881,
           "id": "b52cc377-ab80-4db0-82e3-0c2ff33e3b4e"
         },
         "fa003b3d-a957-4a00-8993-085490d52af2": {
           "label": "Category:Flamenco guitarists - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_guitarists",
-          "x": 82970,
-          "y": 22090,
+          "x": 82743,
+          "y": 32970,
           "id": "fa003b3d-a957-4a00-8993-085490d52af2"
         },
         "2dd8d346-dd38-47c5-9cc6-75e6acccc5c1": {
           "label": "List of flamenco guitarists - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/List_of_flamenco_guitarists",
-          "x": 83456,
-          "y": 22051,
+          "x": 83229,
+          "y": 32931,
           "id": "2dd8d346-dd38-47c5-9cc6-75e6acccc5c1"
         },
         "68586fb8-6dfa-46c5-9dcf-23d789705557": {
           "label": "Franck Pourcel - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Franck_Pourcel",
-          "x": 83914,
-          "y": 22049,
+          "x": 83687,
+          "y": 32929,
           "id": "68586fb8-6dfa-46c5-9dcf-23d789705557"
         },
         "d5c016f4-00a9-4858-9d6d-ead4c473d4d9": {
           "label": "Category:Spanish flamenco guitarists - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Spanish_flamenco_guitarists",
-          "x": 83494,
-          "y": 22190,
+          "x": 83267,
+          "y": 33070,
           "id": "d5c016f4-00a9-4858-9d6d-ead4c473d4d9"
         },
         "4dfc2939-eeee-409a-b275-91645e86abb8": {
           "label": "Ramón de Algeciras - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Ram%C3%B3n_de_Algeciras",
-          "x": 84063,
-          "y": 22142,
+          "x": 83836,
+          "y": 33022,
           "id": "4dfc2939-eeee-409a-b275-91645e86abb8"
         },
         "374b7ed8-dca0-4d68-abc5-12144e1ff305": {
           "label": "Ramón Sánchez Gomes - YouTube",
           "link": "http://www.youtube.com/results?search_query=Ram%C3%B3n+S%C3%A1nchez+Gomes",
-          "x": 84404,
-          "y": 22139,
+          "x": 84177,
+          "y": 33019,
           "id": "374b7ed8-dca0-4d68-abc5-12144e1ff305"
         },
         "62a783d6-1439-4b01-ae59-1b217aa2d9a9": {
           "label": "RAMÓN DE ALGECIRAS & CAMARÓN DE LA ISLA - \"Bulerias\" - YouTube",
           "link": "http://www.youtube.com/watch?v=_xEYP0e-YBY",
-          "x": 84818,
-          "y": 22138,
+          "x": 84591,
+          "y": 33018,
           "id": "62a783d6-1439-4b01-ae59-1b217aa2d9a9"
         },
         "3152b540-851b-4310-994c-3276daa822b5": {
           "label": "Vicente Amigo - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Vicente_Amigo",
-          "x": 84051,
-          "y": 22197,
+          "x": 83824,
+          "y": 33077,
           "id": "3152b540-851b-4310-994c-3276daa822b5"
         },
         "4747ef10-efa5-420b-b6b8-8dd24fc75238": {
           "label": "gipsy kings - YouTube",
           "link": "http://www.youtube.com/results?search_query=gipsy+kings",
-          "x": 83969,
-          "y": 22243,
+          "x": 83742,
+          "y": 33123,
           "id": "4747ef10-efa5-420b-b6b8-8dd24fc75238"
         },
         "87e0c916-2ab7-4dbf-a8b1-d9f8962d81d4": {
           "label": "Gipsy Kings (GREATEST HITS) - YouTube",
           "link": "http://www.youtube.com/watch?v=4ryXdDjn1X8",
-          "x": 84327,
-          "y": 22245,
+          "x": 84100,
+          "y": 33125,
           "id": "87e0c916-2ab7-4dbf-a8b1-d9f8962d81d4"
         },
         "c36bc830-9a15-419d-ae8c-b56ec45abf22": {
           "label": "Category:Spanish guitarists - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Spanish_guitarists",
-          "x": 82964,
-          "y": 22298,
+          "x": 82737,
+          "y": 33178,
           "id": "c36bc830-9a15-419d-ae8c-b56ec45abf22"
         },
         "87dde88a-68ca-4602-b4a1-607fb8112697": {
           "label": "Category:Spanish classical guitarists - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Spanish_classical_guitarists",
-          "x": 83491,
-          "y": 22301,
+          "x": 83264,
+          "y": 33181,
           "id": "87dde88a-68ca-4602-b4a1-607fb8112697"
         },
         "55e6d34d-5769-4faf-ae57-8655b610a320": {
           "label": "Paco de Lucia - Rio Ancho - YouTube",
           "link": "http://www.youtube.com/watch?v=jxodluTaz4g",
-          "x": 83926,
-          "y": 22299,
+          "x": 83699,
+          "y": 33179,
           "id": "55e6d34d-5769-4faf-ae57-8655b610a320"
         },
         "20d15b88-d3cb-4363-b597-be6bc713e8b9": {
           "label": "Category:Flamenco groups - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_groups",
-          "x": 82963,
-          "y": 22351,
+          "x": 82736,
+          "y": 33231,
           "id": "20d15b88-d3cb-4363-b597-be6bc713e8b9"
         },
         "d7108eda-4166-4561-a2d1-0c80779934f2": {
           "label": "Category:Flamenco musicians - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_musicians",
-          "x": 82973,
-          "y": 22463,
+          "x": 82746,
+          "y": 33343,
           "id": "d7108eda-4166-4561-a2d1-0c80779934f2"
         },
         "719557ee-7767-401a-b316-c4cf41b3a144": {
           "label": "Francis Purcell - YouTube",
           "link": "http://www.youtube.com/results?search_query=Francis+Purcell",
-          "x": 83314,
-          "y": 22389,
+          "x": 83087,
+          "y": 33269,
           "id": "719557ee-7767-401a-b316-c4cf41b3a144"
         },
         "c737eb58-c770-4ecf-8e2d-d3ec14410582": {
           "label": "Francis Purcell - Guitar Indigo [Full Album] - YouTube",
           "link": "http://www.youtube.com/watch?v=jclafePJ3as",
-          "x": 83656,
-          "y": 22391,
+          "x": 83429,
+          "y": 33271,
           "id": "c737eb58-c770-4ecf-8e2d-d3ec14410582"
         },
         "67f744bd-5d81-48b2-915e-7107220ef448": {
           "label": "Celtic Pilgrimage - YouTube",
           "link": "http://www.youtube.com/watch?v=Dz7MAQzgiSs",
-          "x": 83983,
-          "y": 22390,
+          "x": 83756,
+          "y": 33270,
           "id": "67f744bd-5d81-48b2-915e-7107220ef448"
         },
         "1a052771-896f-4ab8-b342-3e55b3a9e9c8": {
           "label": "Francis Purcell - AMAPOLA - YouTube",
           "link": "http://www.youtube.com/watch?v=FIE9bpb001E",
-          "x": 83354,
-          "y": 22464,
+          "x": 83127,
+          "y": 33344,
           "id": "1a052771-896f-4ab8-b342-3e55b3a9e9c8"
         },
         "cc29abbb-1509-4bad-b769-c81a7a23aece": {
           "label": "spanish guitar - YouTube",
           "link": "http://www.youtube.com/results?search_query=spanish+guitar",
-          "x": 83321,
-          "y": 22555,
+          "x": 83094,
+          "y": 33435,
           "id": "cc29abbb-1509-4bad-b769-c81a7a23aece"
         },
         "76934de9-3d3c-4d59-8901-b4f2f3a8398e": {
           "label": "Best Romantic Melodies Spanish Nights -CHILLOUT - YouTube",
           "link": "http://www.youtube.com/watch?v=Hfe-Q8-lYgo",
-          "x": 83659,
-          "y": 22554,
+          "x": 83432,
+          "y": 33434,
           "id": "76934de9-3d3c-4d59-8901-b4f2f3a8398e"
         },
         "07f4beff-fa43-490d-a14c-1c944159be03": {
           "label": "Joel Nascimento - Ecos - YouTube",
           "link": "http://www.youtube.com/results?search_query=Joel+Nascimento+-+Ecos",
-          "x": 84063,
-          "y": 22532,
+          "x": 83836,
+          "y": 33412,
           "id": "07f4beff-fa43-490d-a14c-1c944159be03"
         },
         "98d18264-b193-413b-a8e5-83b381447973": {
           "label": "Joel Nascimento - Ecos (Hemisphere: World Music Sampler) Brazil mandolin - YouTube",
           "link": "http://www.youtube.com/watch?v=8_uQ7syAqlE",
-          "x": 84520,
-          "y": 22535,
+          "x": 84293,
+          "y": 33415,
           "id": "98d18264-b193-413b-a8e5-83b381447973"
         },
         "c425fc30-9244-4ccf-9fe1-9dc8d99690ae": {
           "label": "Armik - Nights In Negril - YouTube",
           "link": "http://www.youtube.com/watch?v=1Xgon_b8t6M",
-          "x": 84061,
-          "y": 22582,
+          "x": 83834,
+          "y": 33462,
           "id": "c425fc30-9244-4ccf-9fe1-9dc8d99690ae"
         },
         "2bbf6411-4e3d-4325-8cd1-58c12bb6aaa3": {
           "label": "Category:New flamenco - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:New_flamenco",
-          "x": 82953,
-          "y": 22651,
+          "x": 82726,
+          "y": 33531,
           "id": "2bbf6411-4e3d-4325-8cd1-58c12bb6aaa3"
         },
         "43c36eea-a8c0-4451-8ee1-8fe740875cb9": {
           "label": "Category:Flamenco awards - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_awards",
-          "x": 82964,
-          "y": 22755,
+          "x": 82737,
+          "y": 33635,
           "id": "43c36eea-a8c0-4451-8ee1-8fe740875cb9"
         },
         "c31cc788-195b-4ec9-ad18-2b2ec3396785": {
           "label": "Certamen de Guitarra flamenca - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Certamen_de_Guitarra_flamenca",
-          "x": 83457,
-          "y": 22725,
+          "x": 83230,
+          "y": 33605,
           "id": "c31cc788-195b-4ec9-ad18-2b2ec3396785"
         },
         "00f99db4-5d0b-4527-9044-169b37bee4c4": {
           "label": "Javier González - YouTube",
           "link": "http://www.youtube.com/results?search_query=Javier+Gonz%C3%A1lez",
-          "x": 83849,
-          "y": 22706,
+          "x": 83622,
+          "y": 33586,
           "id": "00f99db4-5d0b-4527-9044-169b37bee4c4"
         },
         "102b493d-f26e-4804-8523-c3cf7ca50f66": {
           "label": "Tommy Emmanuel, John Jorgenson, Pedro Javier González - \"Sultans of swing\" - YouTube",
           "link": "http://www.youtube.com/watch?v=EFDFpS9_ZWY",
-          "x": 84344,
-          "y": 22703,
+          "x": 84117,
+          "y": 33583,
           "id": "102b493d-f26e-4804-8523-c3cf7ca50f66"
         },
         "5b422146-ce90-4638-8196-6a80e4b59289": {
           "label": "Certamen de Guitarra flamenca - Google Search",
           "link": "https://www.google.ru/search?num=100&newwindow=1&site=&source=hp&q=Certamen+de+Guitarra+flamenca&oq=Certamen+de+Guitarra+flamenca&gs_l=hp.3..0i19j0i22i30i19l9.851.851.0.1457.2.2.0.0.0.0.105.180.1j1.2.0....0...1c.1.64.hp..0.1.104.0.T1dauUV0saI",
-          "x": 83918,
-          "y": 22747,
+          "x": 83691,
+          "y": 33627,
           "id": "5b422146-ce90-4638-8196-6a80e4b59289"
         },
         "99913189-b838-4afc-8679-29168f1e491a": {
           "label": "Premio al Toque por Bulerías - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Premio_al_Toque_por_Buler%C3%ADas",
-          "x": 83449,
-          "y": 22785,
+          "x": 83222,
+          "y": 33665,
           "id": "99913189-b838-4afc-8679-29168f1e491a"
         },
         "01fa19a5-f209-4556-8a6e-046f5f1fafd1": {
           "label": "Category:Flamenco palos - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_palos",
-          "x": 82958,
-          "y": 22860,
+          "x": 82731,
+          "y": 33740,
           "id": "01fa19a5-f209-4556-8a6e-046f5f1fafd1"
         },
         "7a47ac35-a847-44ae-9c39-c61f6b617b56": {
           "label": "Category:Flamenco singers - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_singers",
-          "x": 82964,
-          "y": 22885,
+          "x": 82737,
+          "y": 33765,
           "id": "7a47ac35-a847-44ae-9c39-c61f6b617b56"
         },
         "22901a63-93fb-42e9-a9c3-94bd761b4b90": {
           "label": "Category:Flamenco styles - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_styles",
-          "x": 82959,
-          "y": 22910,
+          "x": 82732,
+          "y": 33790,
           "id": "22901a63-93fb-42e9-a9c3-94bd761b4b90"
         },
         "fcc73521-c0a0-410c-8835-d1896741a028": {
           "label": "Category:Flamenco albums - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Flamenco_albums",
-          "x": 82964,
-          "y": 22955,
+          "x": 82737,
+          "y": 33835,
           "id": "fcc73521-c0a0-410c-8835-d1896741a028"
         },
         "aef8e9ea-b15f-488d-90c5-aad711782145": {
           "label": "Category:Latin Grammy Award for Best Flamenco Album - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Latin_Grammy_Award_for_Best_Flamenco_Album",
-          "x": 83574,
-          "y": 22930,
+          "x": 83347,
+          "y": 33810,
           "id": "aef8e9ea-b15f-488d-90c5-aad711782145"
         },
         "0df9fff0-e714-474d-8bc6-897cdc984cec": {
           "label": "Category:Gipsy Kings albums - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Gipsy_Kings_albums",
-          "x": 83489,
-          "y": 22972,
+          "x": 83262,
+          "y": 33852,
           "id": "0df9fff0-e714-474d-8bc6-897cdc984cec"
         },
         "40d91728-3b94-4e70-acfe-8d97712f8503": {
           "label": "Latin Grammy Award for Best Flamenco Album - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Latin_Grammy_Award_for_Best_Flamenco_Album",
-          "x": 84198,
-          "y": 22960,
+          "x": 83971,
+          "y": 33840,
           "id": "40d91728-3b94-4e70-acfe-8d97712f8503"
         },
         "f1380ce6-5460-4902-a58c-cd7ed0c5ff9a": {
           "label": "Search for \"flamenco\" | AllMusic",
           "link": "http://www.allmusic.com/search/all/flamenco",
-          "x": 82037,
-          "y": 23422,
+          "x": 81810,
+          "y": 34302,
           "id": "f1380ce6-5460-4902-a58c-cd7ed0c5ff9a"
         },
         "15721138-3184-44b9-95f5-784124d39707": {
           "label": "Gipsy Kings | Similar Artists | AllMusic",
           "link": "http://www.allmusic.com/artist/gipsy-kings-mn0000555695/related",
-          "x": 82389,
-          "y": 23430,
+          "x": 82162,
+          "y": 34310,
           "id": "15721138-3184-44b9-95f5-784124d39707"
         },
         "a7d46ce1-4abf-401c-bf17-54d514951b5c": {
           "label": "Moraito | Biography, Albums, & Streaming Radio | AllMusic",
           "link": "http://www.allmusic.com/artist/moraito-mn0000597399",
-          "x": 82791,
-          "y": 23055,
+          "x": 82564,
+          "y": 33935,
           "id": "a7d46ce1-4abf-401c-bf17-54d514951b5c"
         },
         "6b338c6a-0fc1-4d29-985d-49fde1dfbd1a": {
           "label": "Moraito - YouTube",
           "link": "http://www.youtube.com/results?search_query=Moraito",
-          "x": 83181,
-          "y": 23051,
+          "x": 82954,
+          "y": 33931,
           "id": "6b338c6a-0fc1-4d29-985d-49fde1dfbd1a"
         },
         "dc20e0ef-f94b-453b-9122-9ced7693c0e9": {
           "label": "Moraito Chico - Bulerías - YouTube",
           "link": "http://www.youtube.com/watch?v=czKQxDLa_yk",
-          "x": 83455,
-          "y": 23046,
+          "x": 83228,
+          "y": 33926,
           "id": "dc20e0ef-f94b-453b-9122-9ced7693c0e9"
         },
         "5d2fa13a-a3f2-48be-b44d-4943914a7fa7": {
           "label": "Zap Mama | Biography, Albums, & Streaming Radio | AllMusic",
           "link": "http://www.allmusic.com/artist/zap-mama-mn0000692377",
-          "x": 82802,
-          "y": 23130,
+          "x": 82575,
+          "y": 34010,
           "id": "5d2fa13a-a3f2-48be-b44d-4943914a7fa7"
         },
         "acdc6c70-6202-4ee9-a828-eddf5746a542": {
           "label": "Zap Mama - YouTube",
           "link": "http://www.youtube.com/results?search_query=Zap+Mama",
-          "x": 83192,
-          "y": 23122,
+          "x": 82965,
+          "y": 34002,
           "id": "acdc6c70-6202-4ee9-a828-eddf5746a542"
         },
         "85152a36-7d23-4f38-acce-920216f84d38": {
           "label": "Zap Mama - Bandy Bandy (Live In Philly ) - YouTube",
           "link": "http://www.youtube.com/watch?v=0a97T5mLV4M",
-          "x": 83510,
-          "y": 23114,
+          "x": 83283,
+          "y": 33994,
           "id": "85152a36-7d23-4f38-acce-920216f84d38"
         },
         "41d67706-9786-497a-91be-850a6599b73b": {
           "label": "Ofra Haza | Biography, Albums, & Streaming Radio | AllMusic",
           "link": "http://www.allmusic.com/artist/ofra-haza-mn0000458759",
-          "x": 82800,
-          "y": 23205,
+          "x": 82573,
+          "y": 34085,
           "id": "41d67706-9786-497a-91be-850a6599b73b"
         },
         "a42b5eef-df45-41df-b5bd-649f2f7be9d2": {
           "label": "Ofra Haza - YouTube",
           "link": "http://www.youtube.com/results?search_query=Ofra+Haza",
-          "x": 83190,
-          "y": 23191,
+          "x": 82963,
+          "y": 34071,
           "id": "a42b5eef-df45-41df-b5bd-649f2f7be9d2"
         },
         "59db1370-756e-4d3e-8e4d-cb7e3f4d3563": {
           "label": "Eurovision 1983 - Ofra Haza - Khay - YouTube",
           "link": "http://www.youtube.com/watch?v=Pc54OKvroEY",
-          "x": 83491,
-          "y": 23178,
+          "x": 83264,
+          "y": 34058,
           "id": "59db1370-756e-4d3e-8e4d-cb7e3f4d3563"
         },
         "63930c1e-a0c4-4750-b8ec-3b7465bcc315": {
           "label": "Ali Farka Touré | Biography, Albums, & Streaming Radio | AllMusic",
           "link": "http://www.allmusic.com/artist/ali-farka-tour%C3%A9-mn0000006613",
-          "x": 82815,
-          "y": 23280,
+          "x": 82588,
+          "y": 34160,
           "id": "63930c1e-a0c4-4750-b8ec-3b7465bcc315"
         },
         "0ce529d2-d55e-48ca-bfa2-0f2895313c4b": {
           "label": "Ali Farka Touré - YouTube",
           "link": "http://www.youtube.com/results?search_query=Ali+Farka+Tour%C3%A9",
-          "x": 83206,
-          "y": 23268,
+          "x": 82979,
+          "y": 34148,
           "id": "0ce529d2-d55e-48ca-bfa2-0f2895313c4b"
         },
         "e09e42de-ff16-4160-a4c9-80be1ce4d308": {
           "label": "Ali Farka Touré - The River - Full Album - YouTube",
           "link": "http://www.youtube.com/watch?v=qI_h49D1xo8",
-          "x": 83505,
-          "y": 23264,
+          "x": 83278,
+          "y": 34144,
           "id": "e09e42de-ff16-4160-a4c9-80be1ce4d308"
         },
         "c9f1affd-fa75-49f6-a94c-ccf8e871364a": {
           "label": "Manolo Caracol | Biography & History | AllMusic",
           "link": "http://www.allmusic.com/artist/manolo-caracol-mn0000670689",
-          "x": 82757,
-          "y": 23355,
+          "x": 82530,
+          "y": 34235,
           "id": "c9f1affd-fa75-49f6-a94c-ccf8e871364a"
         },
         "9627bc06-77ff-4e3d-936a-0b9fac10abcc": {
           "label": "Manolo Caracol - YouTube",
           "link": "http://www.youtube.com/results?search_query=Manolo+Caracol",
-          "x": 83207,
-          "y": 23336,
+          "x": 82980,
+          "y": 34216,
           "id": "9627bc06-77ff-4e3d-936a-0b9fac10abcc"
         },
         "5f013148-0e8e-4416-aca9-3dfba07ab447": {
           "label": "MANOLO CARACOL - Romance De Juan De Osuna - YouTube",
           "link": "http://www.youtube.com/watch?v=Q2fij1CEmAc",
-          "x": 83544,
-          "y": 23333,
+          "x": 83317,
+          "y": 34213,
           "id": "5f013148-0e8e-4416-aca9-3dfba07ab447"
         },
         "7305075f-00a1-40d2-a388-dc20c3464f8a": {
           "label": "India Martínez | Biography & History | AllMusic",
           "link": "http://www.allmusic.com/artist/india-mart%C3%ADnez-mn0002130724",
-          "x": 82753,
-          "y": 23430,
+          "x": 82526,
+          "y": 34310,
           "id": "7305075f-00a1-40d2-a388-dc20c3464f8a"
         },
         "337e9a0b-40ba-47d6-bcda-82b19f8ffd82": {
           "label": "India Martínez - YouTube",
           "link": "http://www.youtube.com/results?search_query=India+Mart%C3%ADnez",
-          "x": 83203,
-          "y": 23400,
+          "x": 82976,
+          "y": 34280,
           "id": "337e9a0b-40ba-47d6-bcda-82b19f8ffd82"
         },
         "3c4eb582-f80a-4a2f-9c67-625cabc2523e": {
           "label": "India Martinez - 90 Minutos - YouTube",
           "link": "http://www.youtube.com/watch?v=cTKKqY7anB8&list=PL5C381938E8BC5E0B",
-          "x": 83465,
-          "y": 23408,
+          "x": 83238,
+          "y": 34288,
           "id": "3c4eb582-f80a-4a2f-9c67-625cabc2523e"
         },
         "a6f9510e-3792-4177-8f05-a01d683433b0": {
           "label": "Santa Esmeralda | Biography, Albums, & Streaming Radio | AllMusic",
           "link": "http://www.allmusic.com/artist/santa-esmeralda-mn0000834418",
-          "x": 82822,
-          "y": 23505,
+          "x": 82595,
+          "y": 34385,
           "id": "a6f9510e-3792-4177-8f05-a01d683433b0"
         },
         "f37c1894-ba68-41cd-8f27-9863aaf10220": {
           "label": "Santa Esmeralda - YouTube",
           "link": "http://www.youtube.com/results?search_query=Santa+Esmeralda",
-          "x": 83212,
-          "y": 23489,
+          "x": 82985,
+          "y": 34369,
           "id": "f37c1894-ba68-41cd-8f27-9863aaf10220"
         },
         "c52654a7-3630-4b8a-8fb6-bb954ed488fa": {
           "label": "Santa Esmeralda - 08 - Nothing Else Matters - YouTube",
           "link": "http://www.youtube.com/watch?v=dHRV4U2Hk04&list=PLAoZAToJfO0e9Jzh9etEVELfVw45_oHx0&index=8",
-          "x": 83520,
-          "y": 23483,
+          "x": 83293,
+          "y": 34363,
           "id": "c52654a7-3630-4b8a-8fb6-bb954ed488fa"
         },
         "4e8c9eb1-0950-4c14-b133-5f8ec6ae7869": {
           "label": "Djavan | Biography, Albums, & Streaming Radio | AllMusic",
           "link": "http://www.allmusic.com/artist/djavan-mn0000167220",
-          "x": 82789,
-          "y": 23580,
+          "x": 82562,
+          "y": 34460,
           "id": "4e8c9eb1-0950-4c14-b133-5f8ec6ae7869"
         },
         "45dc945c-3816-4dd6-8954-a9d7a913f4cb": {
           "label": "Djavan - YouTube",
           "link": "http://www.youtube.com/results?search_query=Djavan",
-          "x": 83179,
-          "y": 23572,
+          "x": 82952,
+          "y": 34452,
           "id": "45dc945c-3816-4dd6-8954-a9d7a913f4cb"
         },
         "cffb5cc8-3faa-4a3c-a57a-6198df1c634d": {
           "label": "DJavan Ao Vivo \"Aria\" - YouTube",
           "link": "http://www.youtube.com/watch?v=nToRQ9NK92A",
-          "x": 83448,
-          "y": 23562,
+          "x": 83221,
+          "y": 34442,
           "id": "cffb5cc8-3faa-4a3c-a57a-6198df1c634d"
         },
         "aa5b6f5a-fa16-44ee-ab98-a646edf8d82d": {
           "label": "Pepe Habichuela | Biography, Albums, & Streaming Radio | AllMusic",
           "link": "http://www.allmusic.com/artist/pepe-habichuela-mn0000836164",
-          "x": 82821,
-          "y": 23655,
+          "x": 82594,
+          "y": 34535,
           "id": "aa5b6f5a-fa16-44ee-ab98-a646edf8d82d"
         },
         "a875bb7d-6f3d-43b9-9e4b-e098127d8bda": {
           "label": "Pepe Habichuela - YouTube",
           "link": "http://www.youtube.com/results?search_query=Pepe+Habichuela",
-          "x": 83211,
-          "y": 23656,
+          "x": 82984,
+          "y": 34536,
           "id": "a875bb7d-6f3d-43b9-9e4b-e098127d8bda"
         },
         "b0975d6f-d040-4581-8cea-42cde81275f4": {
           "label": "Pepe Habichuela - Solea - YouTube",
           "link": "http://www.youtube.com/watch?v=QIx-sQmgccE",
-          "x": 83457,
-          "y": 23646,
+          "x": 83230,
+          "y": 34526,
           "id": "b0975d6f-d040-4581-8cea-42cde81275f4"
         },
         "e7ed6f83-76dd-47f1-8aca-cad6a3e8c3cb": {
           "label": "Estrella Morente - Soleá - YouTube",
           "link": "http://www.youtube.com/watch?v=U9iw1gMVoO0&index=15&list=RDQIx-sQmgccE",
-          "x": 83893,
-          "y": 23649,
+          "x": 83666,
+          "y": 34529,
           "id": "e7ed6f83-76dd-47f1-8aca-cad6a3e8c3cb"
         },
         "feb60b7c-76a7-4e90-a811-ff38cc5f6387": {
           "label": "Ketama | Biography, Albums, & Streaming Radio | AllMusic",
           "link": "http://www.allmusic.com/artist/ketama-mn0000082482",
-          "x": 82792,
-          "y": 23755,
+          "x": 82565,
+          "y": 34635,
           "id": "feb60b7c-76a7-4e90-a811-ff38cc5f6387"
         },
         "617c8fee-505a-44ed-a9be-b617913ffe83": {
           "label": "Ketama - YouTube",
           "link": "http://www.youtube.com/results?search_query=Ketama",
-          "x": 82007,
-          "y": 23814,
+          "x": 81780,
+          "y": 34694,
           "id": "617c8fee-505a-44ed-a9be-b617913ffe83"
         },
         "ac0d15ec-507d-45e8-950a-3daf1ab46483": {
           "label": "Amig@s de Kobu Flor de lis Ketama - YouTube",
           "link": "http://www.youtube.com/watch?v=VmfIM4kMNGA&index=5&list=PLTDZWZuI44CDIbqbA984Lf9ZEuBkFb3Bs",
-          "x": 82473,
-          "y": 23814,
+          "x": 82246,
+          "y": 34694,
           "id": "ac0d15ec-507d-45e8-950a-3daf1ab46483"
         },
         "197b5421-f2f3-49c9-8633-2b75b1ccc105": {
           "label": "Music of Spain - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Music_of_Spain#Flamenco.2C_new_flamenco_and_copla_singers.2C_guitarists_and_bands",
-          "x": 82102,
-          "y": 23869,
+          "x": 81875,
+          "y": 34749,
           "id": "197b5421-f2f3-49c9-8633-2b75b1ccc105"
         },
         "9eb6c147-7852-4aef-b3a3-4cf94cde57b6": {
           "label": "Classical guitar - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Classical_guitar",
-          "x": 82475,
-          "y": 23873,
+          "x": 82248,
+          "y": 34753,
           "id": "9eb6c147-7852-4aef-b3a3-4cf94cde57b6"
         },
         "424e7467-6d30-4bbc-b672-2f5989fa25db": {
           "label": "Music of Mexico - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Music_of_Mexico",
-          "x": 82110,
-          "y": 23931,
+          "x": 81883,
+          "y": 34811,
           "id": "424e7467-6d30-4bbc-b672-2f5989fa25db"
         },
         "862c2049-3b36-4b64-9424-5d3fa94c413d": {
           "label": "Гитара",
-          "x": 80430,
-          "y": 24550,
+          "x": 80203,
+          "y": 35430,
           "font": {
             "size": 72,
             "align": "left"
@@ -20349,146 +20325,146 @@ var schemeData =
         },
         "c53d29f3-3c25-4cba-b6c6-4ebbb8ca6628": {
           "label": "Development",
-          "x": 80730,
-          "y": 25000,
+          "x": 80503,
+          "y": 35880,
           "id": "c53d29f3-3c25-4cba-b6c6-4ebbb8ca6628"
         },
         "48e7a962-fd28-492e-96cf-142e827e3184": {
           "label": "12/3/2019",
-          "x": 80859,
-          "y": 25000,
+          "x": 80632,
+          "y": 35880,
           "id": "48e7a962-fd28-492e-96cf-142e827e3184"
         },
         "f715f710-5543-4acc-a3a7-cb555d192faf": {
           "label": "init",
-          "x": 80980,
-          "y": 25000,
+          "x": 80753,
+          "y": 35880,
           "id": "f715f710-5543-4acc-a3a7-cb555d192faf"
         },
         "689bca8c-06e8-42f4-bc68-f763ed9a54fd": {
           "label": "Notes",
-          "x": 80706,
-          "y": 24150,
+          "x": 80479,
+          "y": 35030,
           "id": "689bca8c-06e8-42f4-bc68-f763ed9a54fd"
         },
         "acdef506-a29a-4afb-9443-2884769176ad": {
           "label": "Dictionary of\nconcepts",
-          "x": 81119,
-          "y": 22042,
+          "x": 80892,
+          "y": 32922,
           "id": "acdef506-a29a-4afb-9443-2884769176ad"
         },
         "b2e714b8-0c62-404f-aeb1-8804c21ea77f": {
           "label": "Details, thoughts",
-          "x": 80880,
-          "y": 24150,
+          "x": 80653,
+          "y": 35030,
           "id": "b2e714b8-0c62-404f-aeb1-8804c21ea77f"
         },
         "a35706e0-7c02-471a-9174-070543110e13": {
           "label": "Sections",
-          "x": 80854,
-          "y": 24400,
+          "x": 80627,
+          "y": 35280,
           "id": "a35706e0-7c02-471a-9174-070543110e13"
         },
         "d7480292-aa37-49e8-9abe-f6dd9be9fb6a": {
           "label": "Books",
-          "x": 80944,
-          "y": 24250,
+          "x": 80717,
+          "y": 35130,
           "id": "d7480292-aa37-49e8-9abe-f6dd9be9fb6a"
         },
         "bb3ade96-b729-4b3f-828f-b8d5ad262a56": {
           "label": "R&D institutions",
-          "x": 80974,
-          "y": 24275,
+          "x": 80747,
+          "y": 35155,
           "id": "bb3ade96-b729-4b3f-828f-b8d5ad262a56"
         },
         "27d3abd8-6fe7-417f-82d6-7b887862c33c": {
           "label": "Sites",
-          "x": 80940,
-          "y": 24300,
+          "x": 80713,
+          "y": 35180,
           "id": "27d3abd8-6fe7-417f-82d6-7b887862c33c"
         },
         "269e520e-e3a6-4280-8b4f-6337c89f5363": {
           "label": "Magazines",
-          "x": 80959,
-          "y": 24325,
+          "x": 80732,
+          "y": 35205,
           "id": "269e520e-e3a6-4280-8b4f-6337c89f5363"
         },
         "790180fc-84ac-4fbe-a9d2-3b4a24119154": {
           "label": "Articles",
-          "x": 80947,
-          "y": 24350,
+          "x": 80720,
+          "y": 35230,
           "id": "790180fc-84ac-4fbe-a9d2-3b4a24119154"
         },
         "97ff4d05-bd33-4c70-90b5-9bc6400a0351": {
           "label": "Media content",
-          "x": 80969,
-          "y": 24375,
+          "x": 80742,
+          "y": 35255,
           "id": "97ff4d05-bd33-4c70-90b5-9bc6400a0351"
         },
         "f4b41231-503c-4ffe-b24b-9ad98cf1a796": {
           "label": "Misc. web links",
-          "x": 80972,
-          "y": 24400,
+          "x": 80745,
+          "y": 35280,
           "id": "f4b41231-503c-4ffe-b24b-9ad98cf1a796"
         },
         "c8da16ac-586e-4741-b30a-d0f7c7039313": {
           "label": "Projects",
-          "x": 80950,
-          "y": 24425,
+          "x": 80723,
+          "y": 35305,
           "id": "c8da16ac-586e-4741-b30a-d0f7c7039313"
         },
         "452437ba-44f4-46cf-9786-0f1f09eaca9c": {
           "label": "Tools",
-          "x": 80941,
-          "y": 24450,
+          "x": 80714,
+          "y": 35330,
           "id": "452437ba-44f4-46cf-9786-0f1f09eaca9c"
         },
         "b8089a3a-748e-4dba-bcb2-3351bee8f57a": {
           "label": "Organizations",
-          "x": 80968,
-          "y": 24475,
+          "x": 80741,
+          "y": 35355,
           "id": "b8089a3a-748e-4dba-bcb2-3351bee8f57a"
         },
         "6c901cc3-c524-4a7c-8404-9554d2290160": {
           "label": "Standarts",
-          "x": 80955,
-          "y": 24500,
+          "x": 80728,
+          "y": 35380,
           "id": "6c901cc3-c524-4a7c-8404-9554d2290160"
         },
         "9a3ee699-5ac0-4350-b9fe-79c00ea78b4a": {
           "label": "Forums, Groups",
-          "x": 80976,
-          "y": 24525,
+          "x": 80749,
+          "y": 35405,
           "id": "9a3ee699-5ac0-4350-b9fe-79c00ea78b4a"
         },
         "89558595-0a9d-4346-97f1-a88df5f1074e": {
           "label": "Laws",
-          "x": 80941,
-          "y": 24550,
+          "x": 80714,
+          "y": 35430,
           "id": "89558595-0a9d-4346-97f1-a88df5f1074e"
         },
         "7f185782-55c7-4e4f-8899-ee0023b7e322": {
           "label": "Adjacent Themes",
-          "x": 80980,
-          "y": 24575,
+          "x": 80753,
+          "y": 35455,
           "id": "7f185782-55c7-4e4f-8899-ee0023b7e322"
         },
         "9a918d38-5ad0-4d76-a34e-4552d07fc9b5": {
           "label": "Questions",
-          "x": 80720,
-          "y": 24700,
+          "x": 80493,
+          "y": 35580,
           "id": "9a918d38-5ad0-4d76-a34e-4552d07fc9b5"
         },
         "78dc0cd7-b7bf-481c-99b3-e1c7703d0adc": {
           "label": "Problems",
-          "x": 80718,
-          "y": 24800,
+          "x": 80491,
+          "y": 35680,
           "id": "78dc0cd7-b7bf-481c-99b3-e1c7703d0adc"
         },
         "d1b89326-ebbf-42f3-a278-55612e2bbacd": {
           "label": "Goals",
-          "x": 80706,
-          "y": 24900,
+          "x": 80479,
+          "y": 35780,
           "id": "d1b89326-ebbf-42f3-a278-55612e2bbacd"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785": {
@@ -20521,8 +20497,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Гитара",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785",
-          "x": 86726,
-          "y": 20880,
+          "x": 86499,
+          "y": 31760,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27869,8 +27845,8 @@ var schemeData =
         "5aa1d8f7-2741-468d-b9cd-5ab27f7481e2": {
           "label": "Композиторы",
           "link": "",
-          "x": 81729,
-          "y": 4722,
+          "x": 78148,
+          "y": 10688,
           "id": "5aa1d8f7-2741-468d-b9cd-5ab27f7481e2",
           "shape": "box",
           "font": {
@@ -27886,61 +27862,61 @@ var schemeData =
         "dcaf5845-18f6-436b-b352-2ed87e1eee49": {
           "label": "Brandenburg Concerto No. 3 in G Major, BWV 1048: I. (Allegro) - II. Adagio - YouTube",
           "link": "https://www.youtube.com/results?search_query=Brandenburg+Concerto+No.+3+in+G+Major%2C+BWV+1048%3A+I.+%28Allegro%29+-+II.+Adagio",
-          "x": 83410,
-          "y": 3895,
+          "x": 82272,
+          "y": 9265,
           "id": "dcaf5845-18f6-436b-b352-2ed87e1eee49"
         },
         "46189683-5d85-4a6a-92e0-699734c763eb": {
           "label": "!!!! Bach - Brandenburg Concerto No. 3 in G major BWV 1048 - 1. Allegro - 2. Adagio - YouTube",
           "link": "https://www.youtube.com/watch?v=XHHzop0ha6Y&ab_channel=SoliDeoGloria8550",
-          "x": 84089,
-          "y": 3883,
+          "x": 82951,
+          "y": 9253,
           "id": "46189683-5d85-4a6a-92e0-699734c763eb"
         },
         "c44a432e-b953-49f4-81d6-66c65ca9499f": {
           "label": "Bach - Brandenburg Concerto No. 3 in G major BWV 1048 - 1. Allegro - 2. Adagio - YouTube",
           "link": "https://www.youtube.com/watch?v=4z58CKQ3QtM&ab_channel=SoliDeoGloria8550",
-          "x": 84079,
-          "y": 3908,
+          "x": 82941,
+          "y": 9278,
           "id": "c44a432e-b953-49f4-81d6-66c65ca9499f"
         },
         "0f9d6f5c-b40a-4697-ba13-fce7baa072e1": {
           "label": "\"Brandenburg Concerto No. 3 in G Major, BWV 1048: I. (Allegro) - II. Adagio\" by Musica Antiqua Köln and Reinhard Goebel - YouTube",
           "link": "https://www.youtube.com/results?search_query=%22Brandenburg+Concerto+No.+3+in+G+Major%2C+BWV+1048%3A+I.+%28Allegro%29+-+II.+Adagio%22+by+Musica+Antiqua+K%C3%B6ln+and+Reinhard+Goebel+",
-          "x": 83561,
-          "y": 3970,
+          "x": 82423,
+          "y": 9340,
           "id": "0f9d6f5c-b40a-4697-ba13-fce7baa072e1"
         },
         "272b1add-63fe-4731-8714-851238935845": {
           "label": "Bach - Suite in B Minor, BWV 1067: I. Ouverture - YouTube",
           "link": "https://www.youtube.com/watch?v=0CUkrNxw_6g&ab_channel=Classicool",
-          "x": 84260,
-          "y": 3969,
+          "x": 83122,
+          "y": 9339,
           "id": "272b1add-63fe-4731-8714-851238935845"
         },
         "58690fce-2632-42ab-8de8-8d1bb698a43c": {
           "label": "vivaldi summer - YouTube",
           "link": "https://www.youtube.com/results?search_query=vivaldi+summer",
-          "x": 82798,
-          "y": 12477,
+          "x": 81655,
+          "y": 18829,
           "id": "58690fce-2632-42ab-8de8-8d1bb698a43c"
         },
         "7dcb0a95-c26b-42f0-af6e-918e6cac5415": {
           "label": "Antonio Vivaldi - Summer (Full) - The Four Seasons - YouTube",
           "link": "https://www.youtube.com/watch?v=KY1p-FmjT1M&ab_channel=avrilfan2213",
-          "x": 83274,
-          "y": 12476,
+          "x": 82131,
+          "y": 18828,
           "id": "7dcb0a95-c26b-42f0-af6e-918e6cac5415"
         },
         "77c09f6f-5b76-4e82-ac77-2e43f80d6909": {
           "label": "Anton Bruckner",
           "link": "https://en.wikipedia.org/wiki/Anton_Bruckner",
-          "x": 82113,
-          "y": -2097,
+          "x": 79334,
+          "y": -1746,
           "id": "77c09f6f-5b76-4e82-ac77-2e43f80d6909",
           "shape": "box",
           "font": {
-            "size": 14,
+            "size": 100,
             "align": "left"
           },
           "color": {
@@ -27952,1485 +27928,1508 @@ var schemeData =
         "5b216c39-5a55-4297-b1dd-5ccdd17a0593": {
           "label": "Arnold Schoenberg - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Arnold_Schoenberg",
-          "x": 82162,
-          "y": -1997,
-          "id": "5b216c39-5a55-4297-b1dd-5ccdd17a0593"
+          "x": 79679,
+          "y": -1543,
+          "id": "5b216c39-5a55-4297-b1dd-5ccdd17a0593",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "e190dace-2090-4dc8-bafb-36e48545b38b": {
           "label": "Waltz - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Waltz",
-          "x": 81937,
-          "y": -2378,
+          "x": 78950,
+          "y": -2139,
           "id": "e190dace-2090-4dc8-bafb-36e48545b38b"
         },
         "1b5f257d-a963-481c-a37a-0857ecd5b966": {
           "label": "Johann Strauss II - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Johann_Strauss_II",
-          "x": 82165,
-          "y": 11316,
-          "id": "1b5f257d-a963-481c-a37a-0857ecd5b966"
-        },
-        "84277049-d2fb-4376-a13f-277813439c5e": {
-          "label": "Johann Strauss II - The Blue Danube Waltz - YouTube",
-          "link": "https://www.youtube.com/watch?v=_CTYymbbEL4",
-          "x": 82970,
-          "y": 11259,
-          "id": "84277049-d2fb-4376-a13f-277813439c5e"
+          "x": 79655,
+          "y": 17493,
+          "id": "1b5f257d-a963-481c-a37a-0857ecd5b966",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "3ef463e0-e84c-45ce-bef8-c4ca2988dc93": {
           "label": "Waltz Strauss - YouTube",
           "link": "https://www.youtube.com/results?search_query=Waltz++Strauss+",
-          "x": 82876,
-          "y": 11284,
+          "x": 81750,
+          "y": 17507,
           "id": "3ef463e0-e84c-45ce-bef8-c4ca2988dc93"
         },
         "7e2c2e06-c185-45ef-976a-0e56d3a89b20": {
           "label": "Strauss - STRAUSS THE BEST OF WALTZES - YouTube",
           "link": "https://www.youtube.com/watch?v=Kzk5mJ5Kv10",
-          "x": 82978,
-          "y": 11309,
+          "x": 81852,
+          "y": 17532,
           "id": "7e2c2e06-c185-45ef-976a-0e56d3a89b20"
         },
         "aea47420-aa9f-448d-b3ab-a135968cbe54": {
           "label": "Waltzes (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Waltzes_(Chopin)",
-          "x": 83105,
-          "y": 9,
+          "x": 81967,
+          "y": 5379,
           "id": "aea47420-aa9f-448d-b3ab-a135968cbe54"
         },
         "90fa7c1a-eddd-4ebb-8cbe-e6336bb7645d": {
           "label": "chopin waltz - YouTube",
           "link": "https://www.youtube.com/watch?v=4C-oiN_KDD0",
-          "x": 83413,
-          "y": -36,
+          "x": 82275,
+          "y": 5334,
           "id": "90fa7c1a-eddd-4ebb-8cbe-e6336bb7645d"
         },
         "73f4b060-59f1-4bca-a1ed-8e89a4883862": {
           "label": "chopin waltz A-flat major - YouTube",
           "link": "https://www.youtube.com/results?search_query=chopin++waltz+A-flat+major%09",
-          "x": 83452,
-          "y": -11,
+          "x": 82314,
+          "y": 5359,
           "id": "73f4b060-59f1-4bca-a1ed-8e89a4883862"
         },
         "6981893e-3b04-459f-81b8-180849f860d2": {
           "label": "Chopin Waltz in A-Flat, Op. 69, No 1 performed by Marjan Kiepura - YouTube",
           "link": "https://www.youtube.com/watch?v=n3rq-WXJf_A",
-          "x": 83584,
-          "y": 14,
+          "x": 82446,
+          "y": 5384,
           "id": "6981893e-3b04-459f-81b8-180849f860d2"
         },
         "1d7e0317-e7e3-47e8-9607-9443a5bd564c": {
           "label": "!!!!! Chopin Waltz L'adieu Opus 69 No. 1 in A flat Major by Tzvi Erez, HQ - YouTube",
           "link": "https://www.youtube.com/watch?v=bBELcBzBh3E",
-          "x": 83602,
-          "y": 39,
+          "x": 82464,
+          "y": 5409,
           "id": "1d7e0317-e7e3-47e8-9607-9443a5bd564c"
         },
         "abdd5f52-6ded-49c5-a510-0277703f88fa": {
           "label": "Pachelbel",
           "link": "",
-          "x": 82103,
-          "y": 7206,
-          "id": "abdd5f52-6ded-49c5-a510-0277703f88fa"
+          "x": 79223,
+          "y": 13204,
+          "id": "abdd5f52-6ded-49c5-a510-0277703f88fa",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "362af7ab-4aae-4766-af62-d70611d37dc2": {
           "label": "Pachelbel's Canon in D",
           "link": "",
-          "x": 82571,
-          "y": 7201,
+          "x": 81448,
+          "y": 13195,
           "id": "362af7ab-4aae-4766-af62-d70611d37dc2"
         },
         "8c02aed3-f2de-4efb-b52d-283055e18412": {
           "label": "To See",
           "link": "",
-          "x": 82997,
-          "y": 4996,
+          "x": 81874,
+          "y": 10990,
           "id": "8c02aed3-f2de-4efb-b52d-283055e18412"
         },
         "0887118c-4724-4314-bbe9-eb0a0878204a": {
           "label": "Illiana String Ensemble \"The First Noel/Pachelbel's Canon\" - Michael Clawson, arr. - YouTube",
           "link": "https://www.youtube.com/watch?v=cfvzYSdZhsU",
-          "x": 83502,
-          "y": 4999,
+          "x": 82379,
+          "y": 10993,
           "id": "0887118c-4724-4314-bbe9-eb0a0878204a"
         },
         "eb8fb906-d28e-4612-82ec-0761ad76e0f8": {
           "label": "First Noel/Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=WlBY-07gKeA",
-          "x": 84124,
-          "y": 4684,
+          "x": 83001,
+          "y": 10678,
           "id": "eb8fb906-d28e-4612-82ec-0761ad76e0f8"
         },
         "7135946a-db32-4571-be1d-f7720e78d369": {
           "label": "The Singing Angels perform The First Noel / Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=WEhDrLzSGD8",
-          "x": 84233,
-          "y": 4709,
+          "x": 83110,
+          "y": 10703,
           "id": "7135946a-db32-4571-be1d-f7720e78d369"
         },
         "731d9772-dfa8-480a-91bb-bbfe83f2375c": {
           "label": "The First Noel / Pachelbel's Canon - Latvijas Zvērinātu advokātu Kolēģijas koris - YouTube",
           "link": "https://www.youtube.com/watch?v=qoScFJkDYqY",
-          "x": 84284,
-          "y": 4734,
+          "x": 83161,
+          "y": 10728,
           "id": "731d9772-dfa8-480a-91bb-bbfe83f2375c"
         },
         "a0db4e31-89dc-46b4-901c-dc9fc72158a1": {
           "label": "Noel Noel on Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=66HvZrojY-Q",
-          "x": 84135,
-          "y": 4759,
+          "x": 83012,
+          "y": 10753,
           "id": "a0db4e31-89dc-46b4-901c-dc9fc72158a1"
         },
         "8bc733c2-c358-4c5d-b7a6-3c1e7499b7eb": {
           "label": "The First Noel / Pachelbel's Canon - Idaho State University Children's Choir Christmas Concert 2010 - YouTube",
           "link": "https://www.youtube.com/watch?v=hjm9bEhpxVo",
-          "x": 84350,
-          "y": 4784,
+          "x": 83227,
+          "y": 10778,
           "id": "8bc733c2-c358-4c5d-b7a6-3c1e7499b7eb"
         },
         "8890b934-5763-4309-a446-3192570350ae": {
           "label": "2011 The First Noel-Pachelbel's Canon arr. Michael Clawson - YouTube",
           "link": "https://www.youtube.com/watch?v=pQo0183aYgc",
-          "x": 84225,
-          "y": 4809,
+          "x": 83102,
+          "y": 10803,
           "id": "8890b934-5763-4309-a446-3192570350ae"
         },
         "bd992f99-3f18-46b8-b7fc-0c5947063017": {
           "label": "The first Noel/Pachelbel's Canon(Arr. Michael Clawson) 저 들 밖에/파헬벨의 캐논 - YouTube",
           "link": "https://www.youtube.com/watch?v=5pq0akySwJI",
-          "x": 84288,
-          "y": 4834,
+          "x": 83165,
+          "y": 10828,
           "id": "bd992f99-3f18-46b8-b7fc-0c5947063017"
         },
         "1b91f7b7-06a2-415b-9bee-4271978f8d88": {
           "label": "The First Noel/ Pachelbel's Canon, Arranged by Michael Clawson - YouTube",
           "link": "https://www.youtube.com/watch?v=mPcxD-dTTfY",
-          "x": 84239,
-          "y": 4859,
+          "x": 83116,
+          "y": 10853,
           "id": "1b91f7b7-06a2-415b-9bee-4271978f8d88"
         },
         "a3c24335-2d1e-44bd-af8f-253407e07101": {
           "label": "The First Noel Pachelbel's Canon.wmv - YouTube",
           "link": "https://www.youtube.com/watch?v=EYHbf4gjM-s",
-          "x": 84155,
-          "y": 4884,
+          "x": 83032,
+          "y": 10878,
           "id": "a3c24335-2d1e-44bd-af8f-253407e07101"
         },
         "df7f3ae2-6d68-4a2a-804a-9e525500288f": {
           "label": "The First Noel/Pachelbel's Canon in D - Melissa Todd and Richard Crossman - YouTube",
           "link": "https://www.youtube.com/watch?v=X44Jp8vGtRY",
-          "x": 84276,
-          "y": 4909,
+          "x": 83153,
+          "y": 10903,
           "id": "df7f3ae2-6d68-4a2a-804a-9e525500288f"
         },
         "a1fdecf1-0061-4289-b9f0-e28d0a4e52df": {
           "label": "2x2 Radio - Canon (Johann Pachelbel cover ) - YouTube",
           "link": "https://www.youtube.com/watch?v=Wde0urN3PkU",
-          "x": 84177,
-          "y": 4934,
+          "x": 83054,
+          "y": 10928,
           "id": "a1fdecf1-0061-4289-b9f0-e28d0a4e52df"
         },
         "d7ebaac4-af90-4cb8-90cd-c78958cd26ed": {
           "label": "CovenantCHOIRS - YouTube",
           "link": "https://www.youtube.com/channel/UCvxiwIOxVpt5H00VL94mu_g",
-          "x": 84090,
-          "y": 4959,
+          "x": 82967,
+          "y": 10953,
           "id": "d7ebaac4-af90-4cb8-90cd-c78958cd26ed"
         },
         "2b326a19-9dd0-41db-a56f-42f1197cdb08": {
           "label": "Canon of Praise - YouTube",
           "link": "https://www.youtube.com/watch?v=aysb-skIgx0",
-          "x": 84084,
-          "y": 4984,
+          "x": 82961,
+          "y": 10978,
           "id": "2b326a19-9dd0-41db-a56f-42f1197cdb08"
         },
         "f95af1d8-eb38-49f0-b688-f55ae3b0fbbc": {
           "label": "Canon of Praise- Pachebel (arr. Hal Hapson) - YouTube",
           "link": "https://www.youtube.com/watch?v=kCEuItWwnKo",
-          "x": 84174,
-          "y": 5009,
+          "x": 83051,
+          "y": 11003,
           "id": "f95af1d8-eb38-49f0-b688-f55ae3b0fbbc"
         },
         "31e30e36-01af-43a5-9f0b-57271e334c25": {
           "label": "Pachelbel's Canon.wmv - YouTube",
           "link": "https://www.youtube.com/watch?v=6n-7TPHcqAM",
-          "x": 84108,
-          "y": 5034,
+          "x": 82985,
+          "y": 11028,
           "id": "31e30e36-01af-43a5-9f0b-57271e334c25"
         },
         "e05b46c7-c76e-412e-af66-d1026b0ec3d1": {
           "label": "Canon of Praise by Maranatha Chamber Choir - YouTube",
           "link": "https://www.youtube.com/watch?v=EDpqsUgBoVw",
-          "x": 84180,
-          "y": 5059,
+          "x": 83057,
+          "y": 11053,
           "id": "e05b46c7-c76e-412e-af66-d1026b0ec3d1"
         },
         "b92a1fcf-9332-4476-9b9f-61dfaf89351b": {
           "label": "Centennial HS Orchestra Concert 2009 - Pachelbel Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=R9y5txD8rBo",
-          "x": 84217,
-          "y": 5084,
+          "x": 83094,
+          "y": 11078,
           "id": "b92a1fcf-9332-4476-9b9f-61dfaf89351b"
         },
         "78f15d90-4bf8-4559-8aa0-2bc2b0de22f8": {
           "label": "Pachelbel - Canon In D Major (English Chamber Orchestra/Somary) - YouTube",
           "link": "https://www.youtube.com/watch?v=A-4a15mDArE",
-          "x": 84248,
-          "y": 5109,
+          "x": 83125,
+          "y": 11103,
           "id": "78f15d90-4bf8-4559-8aa0-2bc2b0de22f8"
         },
         "6bf7f07d-42a5-4657-a488-fc2db1aaab80": {
           "label": "Johann Pachelbel - Kanon In D - YouTube",
           "link": "https://www.youtube.com/watch?v=6U7ZxVxc-a0",
-          "x": 84131,
-          "y": 5134,
+          "x": 83008,
+          "y": 11128,
           "id": "6bf7f07d-42a5-4657-a488-fc2db1aaab80"
         },
         "b56a8d98-27f5-4355-8a48-1bc04329ff30": {
           "label": "Pachelbel: Canon in D - Randy Dunn, piccolo trumpet + organ - YouTube",
           "link": "https://www.youtube.com/watch?v=WP4-_75nigI",
-          "x": 84228,
-          "y": 5159,
+          "x": 83105,
+          "y": 11153,
           "id": "b56a8d98-27f5-4355-8a48-1bc04329ff30"
         },
         "b855b1dd-97b7-4333-baa4-ff765194d921": {
           "label": "Johann Pachelbel Canon in D major, played on organ - YouTube",
           "link": "https://www.youtube.com/watch?v=ElZwVWxq4XU",
-          "x": 84202,
-          "y": 5184,
+          "x": 83079,
+          "y": 11178,
           "id": "b855b1dd-97b7-4333-baa4-ff765194d921"
         },
         "548b3a76-bf8e-45ad-ba90-cbd389cc4fc3": {
           "label": "Hydraulophone (H2Organ), Pachelbel's canon - YouTube",
           "link": "https://www.youtube.com/watch?v=tgU0OZkGhGI",
-          "x": 84179,
-          "y": 5209,
+          "x": 83056,
+          "y": 11203,
           "id": "548b3a76-bf8e-45ad-ba90-cbd389cc4fc3"
         },
         "f67f1e19-e436-4c3d-bd30-3f0431b77141": {
           "label": "\"Canon in D\" by Johann Pachelbel - YouTube",
           "link": "https://www.youtube.com/watch?v=nX3IzE7gfwg",
-          "x": 84141,
-          "y": 5234,
+          "x": 83018,
+          "y": 11228,
           "id": "f67f1e19-e436-4c3d-bd30-3f0431b77141"
         },
         "49733e31-ade9-48e3-94d0-0e6db5660ba5": {
           "label": "Pachelbel Canon in D - YouTube",
           "link": "https://www.youtube.com/watch?v=lK28E6_x8_c",
-          "x": 84101,
-          "y": 5259,
+          "x": 82978,
+          "y": 11253,
           "id": "49733e31-ade9-48e3-94d0-0e6db5660ba5"
         },
         "1fa6bb17-8844-4163-aeb9-4e2626f003d8": {
           "label": "Pachelbel Canon in D Played by Brenda Caldwell on the Skinner/Mohler Pipe Organ Download - YouTube",
           "link": "https://www.youtube.com/watch?v=tSnnke-Vozk",
-          "x": 84331,
-          "y": 5284,
+          "x": 83208,
+          "y": 11278,
           "id": "1fa6bb17-8844-4163-aeb9-4e2626f003d8"
         },
         "69037033-fd96-4cfc-a63e-08389c26070a": {
           "label": "Marshall Sewell plays \"Pachelbel Canon in D\" on Pipe Organ - YouTube",
           "link": "https://www.youtube.com/watch?v=A14ICa5S8aY",
-          "x": 84224,
-          "y": 5309,
+          "x": 83101,
+          "y": 11303,
           "id": "69037033-fd96-4cfc-a63e-08389c26070a"
         },
         "a121c125-6ca4-4bb2-bb72-8f0c40dadd94": {
           "label": "Pachelbel's Canon, Pipe Organ パッヘルベルのカノン, パイプオルガン - YouTube",
           "link": "https://www.youtube.com/watch?v=H9RvbnFEAIs",
-          "x": 84257,
-          "y": 5334,
+          "x": 83134,
+          "y": 11328,
           "id": "a121c125-6ca4-4bb2-bb72-8f0c40dadd94"
         },
         "cfaa8317-40c7-4748-a448-b6ac422bc157": {
           "label": "Canon in D - organ - YouTube",
           "link": "https://www.youtube.com/watch?v=0AhDBTBmJCY",
-          "x": 84093,
-          "y": 5359,
+          "x": 82970,
+          "y": 11353,
           "id": "cfaa8317-40c7-4748-a448-b6ac422bc157"
         },
         "49fcabab-aac4-47d3-a668-046dc7d717ac": {
           "label": "Canon D-Dur (Pachelbel) Orgel Version von Marcel Ditrich [HD] - YouTube",
           "link": "https://www.youtube.com/watch?v=7nuWCP1Ib3Y",
-          "x": 83215,
-          "y": 5928,
+          "x": 82092,
+          "y": 11922,
           "id": "49fcabab-aac4-47d3-a668-046dc7d717ac"
         },
         "1ac92970-13eb-435e-8e0b-147802c01f75": {
           "label": "Johann Pachelbel - Canon In D Major (Organ Church Version) - YouTube",
           "link": "https://www.youtube.com/watch?v=bqj6ZpAD4L0",
-          "x": 83918,
-          "y": 5452,
+          "x": 82795,
+          "y": 11446,
           "id": "1ac92970-13eb-435e-8e0b-147802c01f75"
         },
         "92c6ee84-090e-4e9f-b8b6-9ba7ae549317": {
           "label": "Johann Pachelbel: Canon in D (for organ) - YouTube",
           "link": "https://www.youtube.com/watch?v=kggCQ-z9WQ8",
-          "x": 84389,
-          "y": 5410,
+          "x": 83266,
+          "y": 11404,
           "id": "92c6ee84-090e-4e9f-b8b6-9ba7ae549317"
         },
         "ea0cd90d-9693-40e4-9831-695ef1dd3b9f": {
           "label": "Glass harp-Toccata and fugue in D minor-Bach-BWV 565 - YouTube",
           "link": "https://www.youtube.com/watch?v=XKRj-T4l-e8",
-          "x": 84437,
-          "y": 5435,
+          "x": 83314,
+          "y": 11429,
           "id": "ea0cd90d-9693-40e4-9831-695ef1dd3b9f"
         },
         "136c69ab-d20d-4f5c-a70f-b0fba0ecac5b": {
           "label": "Kalimba D major Juma Instruments Kalimbashop - YouTube",
           "link": "https://www.youtube.com/watch?v=xE5AgAmlyn8",
-          "x": 84411,
-          "y": 5460,
+          "x": 83288,
+          "y": 11454,
           "id": "136c69ab-d20d-4f5c-a70f-b0fba0ecac5b"
         },
         "2344aafc-2e9f-45aa-9653-35235219ee87": {
           "label": "Original Composition - Kalimba Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=S2kWZ_4Phqw",
-          "x": 84378,
-          "y": 5485,
+          "x": 83255,
+          "y": 11479,
           "id": "2344aafc-2e9f-45aa-9653-35235219ee87"
         },
         "3f34091f-e61d-40ee-b305-d6b4bb821c9f": {
           "label": "Pachelbel's Canon harp - YouTube",
           "link": "https://www.youtube.com/results?search_query=Pachelbel%27s+Canon+harp&sp=SCjqAwA%253D",
-          "x": 83920,
-          "y": 6355,
+          "x": 82797,
+          "y": 12349,
           "id": "3f34091f-e61d-40ee-b305-d6b4bb821c9f"
         },
         "b7c54dcd-fe7e-4943-a894-5bb474868c4d": {
           "label": "Canon in D Wedding Harp Music - Harpist Shelley Fairplay - YouTube",
           "link": "https://www.youtube.com/watch?v=vmh-K00pShQ",
-          "x": 84441,
-          "y": 5535,
+          "x": 83318,
+          "y": 11529,
           "id": "b7c54dcd-fe7e-4943-a894-5bb474868c4d"
         },
         "c866d361-3a34-4f1f-860f-4a6ce8867554": {
           "label": "Canon ( Pachelbel ) - two harps - YouTube",
           "link": "https://www.youtube.com/watch?v=zs_01cgcBds",
-          "x": 84357,
-          "y": 5560,
+          "x": 83234,
+          "y": 11554,
           "id": "c866d361-3a34-4f1f-860f-4a6ce8867554"
         },
         "96230b45-3c74-4fcd-8d3d-e11b184fd6d8": {
           "label": "Pachelbel's Canon - (Harp) - YouTube",
           "link": "https://www.youtube.com/watch?v=1UT6hi0Pe1o",
-          "x": 84343,
-          "y": 5585,
+          "x": 83220,
+          "y": 11579,
           "id": "96230b45-3c74-4fcd-8d3d-e11b184fd6d8"
         },
         "7bdd999f-fcd4-4aa3-b448-f46cafdf4779": {
           "label": "Street artist harp player - Pachelbel Canon in D Major - YouTube",
           "link": "https://www.youtube.com/watch?v=YUkP4bzHerM",
-          "x": 84426,
-          "y": 5610,
+          "x": 83303,
+          "y": 11604,
           "id": "7bdd999f-fcd4-4aa3-b448-f46cafdf4779"
         },
         "adc5d4e5-3eac-442c-9e06-3abd003745e3": {
           "label": "Pachelbel's Canon in D major ~Harp~ - YouTube",
           "link": "https://www.youtube.com/watch?v=t76oltXq_hs",
-          "x": 84376,
-          "y": 5635,
+          "x": 83253,
+          "y": 11629,
           "id": "adc5d4e5-3eac-442c-9e06-3abd003745e3"
         },
         "243e451d-8463-4bde-a302-c978156da95d": {
           "label": "帕海貝爾 卡農(Pachelbel's Canon in D) 長笛與豎琴合奏 - YouTube",
           "link": "https://www.youtube.com/watch?v=2_IM6rwcOq4",
-          "x": 84430,
-          "y": 5660,
+          "x": 83307,
+          "y": 11654,
           "id": "243e451d-8463-4bde-a302-c978156da95d"
         },
         "8e0dbaa2-604a-4a90-a97f-495072f0d2ae": {
           "label": "Pachelbel's Canon in C [Harp] | Rachel McEwen - YouTube",
           "link": "https://www.youtube.com/watch?v=SY6RPAzM44Y",
-          "x": 84409,
-          "y": 5685,
+          "x": 83286,
+          "y": 11679,
           "id": "8e0dbaa2-604a-4a90-a97f-495072f0d2ae"
         },
         "3118151a-729f-4750-8622-8bf595f8d5ce": {
           "label": "Lisa Marie - Pachelbel Canon in D - Harp - YouTube",
           "link": "https://www.youtube.com/watch?v=yUbW4MY5rHg",
-          "x": 84387,
-          "y": 5710,
+          "x": 83264,
+          "y": 11704,
           "id": "3118151a-729f-4750-8622-8bf595f8d5ce"
         },
         "2bede86f-ddfb-455a-8edb-fff77e53bf3b": {
           "label": "Pachelbel Canon in D, Harp Ensemble Cover - YouTube",
           "link": "https://www.youtube.com/watch?v=rCldUKQTOyQ",
-          "x": 84399,
-          "y": 5735,
+          "x": 83276,
+          "y": 11729,
           "id": "2bede86f-ddfb-455a-8edb-fff77e53bf3b"
         },
         "762efdfe-eda4-4e16-b7a3-c52b07bc0906": {
           "label": "Pachelbel's Canon in D Wedding Harp Duet - YouTube",
           "link": "https://www.youtube.com/watch?v=v3nWQ6kbi4k",
-          "x": 84394,
-          "y": 5760,
+          "x": 83271,
+          "y": 11754,
           "id": "762efdfe-eda4-4e16-b7a3-c52b07bc0906"
         },
         "64a967ba-6f99-4c57-ab32-e5a15ea9fce0": {
           "label": "Pachelbel's Canon in D | Celtic harp | Wedding Music - YouTube",
           "link": "https://www.youtube.com/watch?v=eltP58PrnLg",
-          "x": 84424,
-          "y": 5785,
+          "x": 83301,
+          "y": 11779,
           "id": "64a967ba-6f99-4c57-ab32-e5a15ea9fce0"
         },
         "9c84e3db-723f-4730-8931-4076c4821512": {
           "label": "Canon in D - Pachelbel - Celtic harp - YouTube",
           "link": "https://www.youtube.com/watch?v=VUZu90Y46EM",
-          "x": 84370,
-          "y": 5810,
+          "x": 83247,
+          "y": 11804,
           "id": "9c84e3db-723f-4730-8931-4076c4821512"
         },
         "eff98a9f-73fc-4ef5-8172-683d3bb81f1b": {
           "label": "Pachelbel's Canon in D on Celtic harp - YouTube",
           "link": "https://www.youtube.com/watch?v=KjWqdr1j3bQ",
-          "x": 84376,
-          "y": 5835,
+          "x": 83253,
+          "y": 11829,
           "id": "eff98a9f-73fc-4ef5-8172-683d3bb81f1b"
         },
         "c0f324e0-2232-4ade-a68b-2c4df4f6a40c": {
           "label": "Pachelbel's Canon in D by Johann Pachelbel arr: Sylvia Woods - YouTube",
           "link": "https://www.youtube.com/watch?v=8rjllvxzC5s",
-          "x": 84455,
-          "y": 5860,
+          "x": 83332,
+          "y": 11854,
           "id": "c0f324e0-2232-4ade-a68b-2c4df4f6a40c"
         },
         "858ec127-bfe9-4126-a4c6-affc4bc67451": {
           "label": "Pachelbel's Canon in D on Dusty Strings Ravenna 34 lever harp - YouTube",
           "link": "https://www.youtube.com/watch?v=L_PliNc89UI",
-          "x": 84459,
-          "y": 5885,
+          "x": 83336,
+          "y": 11879,
           "id": "858ec127-bfe9-4126-a4c6-affc4bc67451"
         },
         "afb7e053-d253-4722-a8b0-55db54d11170": {
           "label": "Canon in D on Harp (Pachelbel) - YouTube",
           "link": "https://www.youtube.com/watch?v=-G1WrxThBV0",
-          "x": 84358,
-          "y": 5910,
+          "x": 83235,
+          "y": 11904,
           "id": "afb7e053-d253-4722-a8b0-55db54d11170"
         },
         "f0114426-b826-4f9b-865f-abf4f56f474b": {
           "label": "Pachelbel's Canon in D on Harp - YouTube",
           "link": "https://www.youtube.com/watch?v=lRYRX20eSlA",
-          "x": 84358,
-          "y": 5935,
+          "x": 83235,
+          "y": 11929,
           "id": "f0114426-b826-4f9b-865f-abf4f56f474b"
         },
         "fb38f99c-d3dc-42c8-9797-6c3220c86563": {
           "label": "Canon in D_Solo Harp - YouTube",
           "link": "https://www.youtube.com/watch?v=UDX4xhDsLfI",
-          "x": 84328,
-          "y": 5960,
+          "x": 83205,
+          "y": 11954,
           "id": "fb38f99c-d3dc-42c8-9797-6c3220c86563"
         },
         "6965d310-b28b-4f08-977f-e797d3f19627": {
           "label": "Harp & Violin Canon In D - YouTube",
           "link": "https://www.youtube.com/watch?v=mkLBdXcDxQ0",
-          "x": 84335,
-          "y": 5985,
+          "x": 83212,
+          "y": 11979,
           "id": "6965d310-b28b-4f08-977f-e797d3f19627"
         },
         "35db86fe-df99-4471-953e-4b571a9ed8d1": {
           "label": "Pachelbel Canon in D Major, Italian wedding duo, harp and violin - YouTube",
           "link": "https://www.youtube.com/watch?v=xgmVH2CVtHU",
-          "x": 84461,
-          "y": 6010,
+          "x": 83338,
+          "y": 12004,
           "id": "35db86fe-df99-4471-953e-4b571a9ed8d1"
         },
         "264bccf9-bcb4-4bce-8131-8d946cabb114": {
           "label": "Pachelbel Canon in D. Harp Cello and Violin - YouTube",
           "link": "https://www.youtube.com/watch?v=wJnfmJWcSqg",
-          "x": 84395,
-          "y": 6035,
+          "x": 83272,
+          "y": 12029,
           "id": "264bccf9-bcb4-4bce-8131-8d946cabb114"
         },
         "e1b7c36d-151b-411d-a715-60ab0f920af8": {
           "label": "Harp And Violin Duet - Canon In D Major - YouTube",
           "link": "https://www.youtube.com/watch?v=go1xRkB8Njg",
-          "x": 84385,
-          "y": 6060,
+          "x": 83262,
+          "y": 12054,
           "id": "e1b7c36d-151b-411d-a715-60ab0f920af8"
         },
         "dd3f2d08-10e4-4754-8d75-db100304d0e8": {
           "label": "J. Pachelbel: Canone in re maggiore - violino e arpa - YouTube",
           "link": "https://www.youtube.com/watch?v=Wbwh5Nok9sk",
-          "x": 84421,
-          "y": 6085,
+          "x": 83298,
+          "y": 12079,
           "id": "dd3f2d08-10e4-4754-8d75-db100304d0e8"
         },
         "727be351-73ee-441f-90ce-02d74ff8f24e": {
           "label": "Canon in D Pachelbel - Harp & Violin - Music for Wedding at Hotels & Resorts in Phuket - Thailand - YouTube",
           "link": "https://www.youtube.com/watch?v=jFQcf9VhV1s",
-          "x": 84566,
-          "y": 6110,
+          "x": 83443,
+          "y": 12104,
           "id": "727be351-73ee-441f-90ce-02d74ff8f24e"
         },
         "9196529b-55a3-4bbc-bba0-06782d7cdf16": {
           "label": "Canon in D - Flute/Harp - YouTube",
           "link": "https://www.youtube.com/watch?v=c7-NS3Xv3gw",
-          "x": 84332,
-          "y": 6135,
+          "x": 83209,
+          "y": 12129,
           "id": "9196529b-55a3-4bbc-bba0-06782d7cdf16"
         },
         "fea19eb1-333d-4fcb-a12c-f96dc5dee51d": {
           "label": "ALMA PROJECT - Harp, Violin & Flute DC - Canon In D Major (Johann Pachelbel) - YouTube",
           "link": "https://www.youtube.com/watch?v=0kcNEpOiqtM",
-          "x": 84515,
-          "y": 6160,
+          "x": 83392,
+          "y": 12154,
           "id": "fea19eb1-333d-4fcb-a12c-f96dc5dee51d"
         },
         "d47fc1e8-ea41-4d80-98ee-91ddc95aa063": {
           "label": "Pasadena Strings - 7 Ensembles Playing Pachelbel's Canon in D - YouTube",
           "link": "https://www.youtube.com/watch?v=3cwoX3Zte_4",
-          "x": 84461,
-          "y": 6185,
+          "x": 83338,
+          "y": 12179,
           "id": "d47fc1e8-ea41-4d80-98ee-91ddc95aa063"
         },
         "22a66ef4-9ca0-4c8c-a959-6b55436c05c2": {
           "label": "Canon In D (Johann Pachelbel) Wedding String Trio - YouTube",
           "link": "https://www.youtube.com/watch?v=NtoE2nCpI6Y",
-          "x": 84421,
-          "y": 6210,
+          "x": 83298,
+          "y": 12204,
           "id": "22a66ef4-9ca0-4c8c-a959-6b55436c05c2"
         },
         "f668a91f-ea93-4046-b7d4-75c389eab6dd": {
           "label": "Canon in D | Pachelbel | Piano | Harp | Wedding Song | PHDMusic2014 - YouTube",
           "link": "https://www.youtube.com/watch?v=WSNrMu5yeFY",
-          "x": 84482,
-          "y": 6235,
+          "x": 83359,
+          "y": 12229,
           "id": "f668a91f-ea93-4046-b7d4-75c389eab6dd"
         },
         "4ea12958-85de-4db3-9bc9-037eebf2fb20": {
           "label": "Canon in D - Harp & Flute Duet - YouTube",
           "link": "https://www.youtube.com/watch?v=bxcG2mexnGI",
-          "x": 84356,
-          "y": 6260,
+          "x": 83233,
+          "y": 12254,
           "id": "4ea12958-85de-4db3-9bc9-037eebf2fb20"
         },
         "242017ab-83c4-4678-8f86-e112d1619872": {
           "label": "Grandeur of Music : Pachelbel - Canon in D ( Harp Trio ) - YouTube",
           "link": "https://www.youtube.com/watch?v=e6I3xzrf6Ak",
-          "x": 84435,
-          "y": 6285,
+          "x": 83312,
+          "y": 12279,
           "id": "242017ab-83c4-4678-8f86-e112d1619872"
         },
         "8dc81868-7a44-4020-b247-ccfa69ac12d1": {
           "label": "!!! Canon In D Major, Pachelbel. Violin and Harp - YouTube",
           "link": "https://www.youtube.com/watch?v=pZtrPvbTQsk",
-          "x": 84408,
-          "y": 6310,
+          "x": 83285,
+          "y": 12304,
           "id": "8dc81868-7a44-4020-b247-ccfa69ac12d1"
         },
         "d2fddb5b-a548-4119-9bf5-03d46585655e": {
           "label": "!!!! Violin & Harp Canon in D - YouTube",
           "link": "https://www.youtube.com/watch?v=TORrnUnwkqg",
-          "x": 84345,
-          "y": 6335,
+          "x": 83222,
+          "y": 12329,
           "id": "d2fddb5b-a548-4119-9bf5-03d46585655e"
         },
         "41b9fa44-d69b-40aa-b78e-299061b696da": {
           "label": "!! Canon-d Pachelbel ,Duo Amica Edith Mathot-viool ,Lucia Wisse-harp - YouTube",
           "link": "https://www.youtube.com/watch?v=xBNTKCdAaKg",
-          "x": 84480,
-          "y": 6360,
+          "x": 83357,
+          "y": 12354,
           "id": "41b9fa44-d69b-40aa-b78e-299061b696da"
         },
         "1b1ee27d-a372-44b7-a4e0-b63d4b990f12": {
           "label": "!!! Canon in D - harp - YouTube",
           "link": "https://www.youtube.com/watch?v=JTHllNrpQ2g",
-          "x": 84321,
-          "y": 6385,
+          "x": 83198,
+          "y": 12379,
           "id": "1b1ee27d-a372-44b7-a4e0-b63d4b990f12"
         },
         "d6156286-b971-4bdc-999c-fedeeb9655b6": {
           "label": "!!! Pachelbel Canon in D (adv version) by Lucia Wisse -harp - YouTube",
           "link": "https://www.youtube.com/watch?v=z0BK0xH3yJM",
-          "x": 84445,
-          "y": 6410,
+          "x": 83322,
+          "y": 12404,
           "id": "d6156286-b971-4bdc-999c-fedeeb9655b6"
         },
         "cb681866-aaf6-4672-800b-7fa8b2d3227e": {
           "label": "!!! Pachelbel,Canon in D (easy version)-by Lucia Wisse,harp - YouTube",
           "link": "https://www.youtube.com/watch?v=EkoMGwuHkC4",
-          "x": 84447,
-          "y": 6435,
+          "x": 83324,
+          "y": 12429,
           "id": "cb681866-aaf6-4672-800b-7fa8b2d3227e"
         },
         "2f4f63ee-17d2-4239-8a6b-bb4c8eab021f": {
           "label": "!!! Pachelbel's Canon in D - harp (Christy-Lyn) - YouTube",
           "link": "https://www.youtube.com/watch?v=nvBquF-40AY",
-          "x": 84402,
-          "y": 6460,
+          "x": 83279,
+          "y": 12454,
           "id": "2f4f63ee-17d2-4239-8a6b-bb4c8eab021f"
         },
         "16478755-abb4-4bef-80b5-5f7f258d129e": {
           "label": "!!!! Canon in D (Harp Cover) - YouTube",
           "link": "https://www.youtube.com/watch?v=_VFgfwxgg_Y",
-          "x": 84346,
-          "y": 6485,
+          "x": 83223,
+          "y": 12479,
           "id": "16478755-abb4-4bef-80b5-5f7f258d129e"
         },
         "e4cd9122-1d77-4b59-8113-e939de88c374": {
           "label": "!!! 卡農豎琴重奏版 Pachelbel: Canon in D (Just for Fun) Lap Harp Trio - YouTube",
           "link": "https://www.youtube.com/watch?v=LRWd8MCr_lo",
-          "x": 84477,
-          "y": 6510,
+          "x": 83354,
+          "y": 12504,
           "id": "e4cd9122-1d77-4b59-8113-e939de88c374"
         },
         "8929bd4a-87ce-484c-9739-bf8c8a210fa2": {
           "label": "!!! Pachelbel Canon in D Major_r_カノン_정경_Celtic Harp - YouTube",
           "link": "https://www.youtube.com/watch?v=B4c492vPdXU",
-          "x": 84442,
-          "y": 6535,
+          "x": 83319,
+          "y": 12529,
           "id": "8929bd4a-87ce-484c-9739-bf8c8a210fa2"
         },
         "25c09128-6b9d-4991-8f5f-9222f6bba16b": {
           "label": "!!! PACHELBEL'S CANON IN D - Harp Twins - Camille and Kennerly - YouTube",
           "link": "https://www.youtube.com/watch?v=0sz7uv_0DSE",
-          "x": 84470,
-          "y": 6560,
+          "x": 83347,
+          "y": 12554,
           "id": "25c09128-6b9d-4991-8f5f-9222f6bba16b"
         },
         "ffa162bf-beb9-4208-b504-780a8e6eb92e": {
           "label": "!!! Canon in D (Pachelbel's Canon) - YouTube",
           "link": "https://www.youtube.com/watch?v=m9lNvbbi8pg",
-          "x": 84366,
-          "y": 6585,
+          "x": 83243,
+          "y": 12579,
           "id": "ffa162bf-beb9-4208-b504-780a8e6eb92e"
         },
         "9bae29f6-ec04-4b78-8ad0-97ffaa36f1bf": {
           "label": "!!!! Harp Pachelbel Canon in D - YouTube",
           "link": "https://www.youtube.com/watch?v=EVF4yhOfDK8",
-          "x": 84353,
-          "y": 6610,
+          "x": 83230,
+          "y": 12604,
           "id": "9bae29f6-ec04-4b78-8ad0-97ffaa36f1bf"
         },
         "2c919ba0-e258-4d9c-9639-610801e3294b": {
           "label": "!!! Violin, Cello and Harp perform Canon in D - Pachelbel - YouTube",
           "link": "https://www.youtube.com/watch?v=JfzyUr78nhs",
-          "x": 84435,
-          "y": 6635,
+          "x": 83312,
+          "y": 12629,
           "id": "2c919ba0-e258-4d9c-9639-610801e3294b"
         },
         "9783bfa9-b341-4efd-962c-218b13075acc": {
           "label": "Canon in D | Harpist for the King | Official Music Video - YouTube",
           "link": "https://www.youtube.com/watch?v=kUn6uW3aXvA",
-          "x": 84427,
-          "y": 6660,
+          "x": 83304,
+          "y": 12654,
           "id": "9783bfa9-b341-4efd-962c-218b13075acc"
         },
         "e0f58f94-0240-4384-93d3-d738131a7dde": {
           "label": "!!!! Pachelbel's Canon in D on Harp HD - YouTube",
           "link": "https://www.youtube.com/watch?v=J_jy83_YQjQ",
-          "x": 84380,
-          "y": 6685,
+          "x": 83257,
+          "y": 12679,
           "id": "e0f58f94-0240-4384-93d3-d738131a7dde"
         },
         "78cd7b62-a00c-4629-8791-3c2b1ffc5374": {
           "label": "Pachelbel's Canon in D Harp duet - YouTube",
           "link": "https://www.youtube.com/watch?v=euBu_A6yM0M",
-          "x": 84364,
-          "y": 6710,
+          "x": 83241,
+          "y": 12704,
           "id": "78cd7b62-a00c-4629-8791-3c2b1ffc5374"
         },
         "2350fe40-3f28-424e-babf-0adf4f81b551": {
           "label": "Pachelbel Canon in D Harp Wedding Music - YouTube",
           "link": "https://www.youtube.com/watch?v=RrDMp0K2qXs",
-          "x": 84393,
-          "y": 6735,
+          "x": 83270,
+          "y": 12729,
           "id": "2350fe40-3f28-424e-babf-0adf4f81b551"
         },
         "9c18ff14-0cb9-4b4a-8ee3-60eb7360ba2b": {
           "label": "Wedding March - Pachelbel's \"Canon in D\" and \"Here Comes the Bride\" - YouTube",
           "link": "https://www.youtube.com/watch?v=KEXRIq35Jl4",
-          "x": 84483,
-          "y": 6760,
+          "x": 83360,
+          "y": 12754,
           "id": "9c18ff14-0cb9-4b4a-8ee3-60eb7360ba2b"
         },
         "273bac07-b082-4f26-a1af-e8996ecf8032": {
           "label": "Pachelbel's Canon in D (Harp Solo) - YouTube",
           "link": "https://www.youtube.com/watch?v=Mo4btM1Nepo",
-          "x": 84369,
-          "y": 6785,
+          "x": 83246,
+          "y": 12779,
           "id": "273bac07-b082-4f26-a1af-e8996ecf8032"
         },
         "3e1549aa-8288-4167-b1c9-e2955d3affbf": {
           "label": "Harp Pachelbel Canon in D - YouTube",
           "link": "https://www.youtube.com/watch?v=3pERPW-aLyM",
-          "x": 84343,
-          "y": 6810,
+          "x": 83220,
+          "y": 12804,
           "id": "3e1549aa-8288-4167-b1c9-e2955d3affbf"
         },
         "cb7320b6-5099-41df-a0da-82446b3a3700": {
           "label": "Pachelbel's Canon in D - harp (Christy-Lyn) - YouTube",
           "link": "https://www.youtube.com/watch?v=nvBquF-40AY",
-          "x": 84394,
-          "y": 6835,
+          "x": 83271,
+          "y": 12829,
           "id": "cb7320b6-5099-41df-a0da-82446b3a3700"
         },
         "0387ad6d-4f82-4c5a-a81e-cd6bab795da2": {
           "label": "Canon - Pachelbel - YouTube",
           "link": "https://www.youtube.com/watch?v=aZUPdyBI9tw",
-          "x": 84315,
-          "y": 6860,
+          "x": 83192,
+          "y": 12854,
           "id": "0387ad6d-4f82-4c5a-a81e-cd6bab795da2"
         },
         "f1dabd8f-0c2f-44cb-8a5e-53fbeb6cb48e": {
           "label": "Canon in D (Pachelbel) for Harp Combo (Harp, Violin, Cello) - YouTube",
           "link": "https://www.youtube.com/watch?v=5xJky3ocmPE",
-          "x": 84446,
-          "y": 6885,
+          "x": 83323,
+          "y": 12879,
           "id": "f1dabd8f-0c2f-44cb-8a5e-53fbeb6cb48e"
         },
         "74d905c5-04c8-4ba6-907b-8be7a06f121e": {
           "label": "ANGELS OF VENICE, Pachelbel's Canon, Carol Tatum Harp with cello - YouTube",
           "link": "https://www.youtube.com/watch?v=CCc9s9Av_5k",
-          "x": 84478,
-          "y": 6910,
+          "x": 83355,
+          "y": 12904,
           "id": "74d905c5-04c8-4ba6-907b-8be7a06f121e"
         },
         "2bb0c65e-7d49-4252-b256-6daaa2aa5f82": {
           "label": "Canon in D, Harp and Flute, Lauren Erickson - YouTube",
           "link": "https://www.youtube.com/watch?v=FA29wpiqVg0",
-          "x": 84399,
-          "y": 6935,
+          "x": 83276,
+          "y": 12929,
           "id": "2bb0c65e-7d49-4252-b256-6daaa2aa5f82"
         },
         "ec341c89-e1b0-4d73-a720-7d8727f2e7e9": {
           "label": "Kalimba---Canon卡农 - YouTube",
           "link": "https://www.youtube.com/watch?v=RWWfhzsvetg",
-          "x": 83063,
-          "y": 6939,
+          "x": 81940,
+          "y": 12933,
           "id": "ec341c89-e1b0-4d73-a720-7d8727f2e7e9"
         },
         "eb6fc9e3-caa6-4d14-ba6d-57ffbff3cb02": {
           "label": "!! Pachelbel - Canon in D Major (Jean-Francois Paillard Chamber Orchestra) - YouTube",
           "link": "https://www.youtube.com/watch?v=aQxVE6d3Yj8",
-          "x": 83237,
-          "y": 6964,
+          "x": 82114,
+          "y": 12958,
           "id": "eb6fc9e3-caa6-4d14-ba6d-57ffbff3cb02"
         },
         "418f9ea1-5a2f-43f4-b9d3-866cd03ca8fc": {
           "label": "!!!!!! First Noel/Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=WlBY-07gKeA",
-          "x": 83100,
-          "y": 6989,
+          "x": 81977,
+          "y": 12983,
           "id": "418f9ea1-5a2f-43f4-b9d3-866cd03ca8fc"
         },
         "d717f554-2035-4ede-957a-57efc5fc723c": {
           "label": "kalimba canon in d - YouTube",
           "link": "https://www.youtube.com/results?sp=SBTqAwA%253D&search_query=kalimba+canon+in+d",
-          "x": 83042,
-          "y": 7537,
+          "x": 81919,
+          "y": 13531,
           "id": "d717f554-2035-4ede-957a-57efc5fc723c"
         },
         "951bc04b-3cff-4106-bff2-1c1681a2e255": {
           "label": "Canon [J.Pachelbel] - JEM 합창단 / 부산 연합 대학생 합창단 - YouTube",
           "link": "https://www.youtube.com/watch?v=4U_rSfiM2cM",
-          "x": 83528,
-          "y": 7036,
+          "x": 82405,
+          "y": 13030,
           "id": "951bc04b-3cff-4106-bff2-1c1681a2e255"
         },
         "4be8fdbc-b844-425d-a5cd-ee252547f94e": {
           "label": "! Canon in D - YouTube",
           "link": "https://www.youtube.com/watch?v=vlC2PQlJI7U",
-          "x": 83379,
-          "y": 7061,
+          "x": 82256,
+          "y": 13055,
           "id": "4be8fdbc-b844-425d-a5cd-ee252547f94e"
         },
         "58167275-ea80-4066-a122-678857024a23": {
           "label": "!!!! Sanctus (Canon in D) by Libera Choir - YouTube",
           "link": "https://www.youtube.com/watch?v=-SQTVwp19jU",
-          "x": 83468,
-          "y": 7086,
+          "x": 82345,
+          "y": 13080,
           "id": "58167275-ea80-4066-a122-678857024a23"
         },
         "4d11f85f-bc4f-40c7-a7bf-98b1288ffd99": {
           "label": "!!!!! Canon In D /J.Pachelbel (2008孫運璿先生音樂會) - YouTube",
           "link": "https://www.youtube.com/watch?v=H24gd98zqhc",
-          "x": 83507,
-          "y": 7111,
+          "x": 82384,
+          "y": 13105,
           "id": "4d11f85f-bc4f-40c7-a7bf-98b1288ffd99"
         },
         "e0433255-8783-43c6-b692-12e67c65a83a": {
           "label": "!!! Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=Zexfc99oe04",
-          "x": 83406,
-          "y": 7136,
+          "x": 82283,
+          "y": 13130,
           "id": "e0433255-8783-43c6-b692-12e67c65a83a"
         },
         "517afe7e-a622-4214-9975-141f9648f5ee": {
           "label": "!!!! Pachelbel's Canon in original version - YouTube",
           "link": "https://www.youtube.com/watch?v=l8Jjs36bHd4",
-          "x": 83466,
-          "y": 7161,
+          "x": 82343,
+          "y": 13155,
           "id": "517afe7e-a622-4214-9975-141f9648f5ee"
         },
         "f500a071-1b04-4d1b-90bd-b1a5458607d8": {
           "label": "!!!! Centennial HS Orchestra Concert 2009 - Pachelbel Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=R9y5txD8rBo",
-          "x": 83534,
-          "y": 7186,
+          "x": 82411,
+          "y": 13180,
           "id": "f500a071-1b04-4d1b-90bd-b1a5458607d8"
         },
         "a6f02f7a-a74d-4c25-a5f7-2590efd254d9": {
           "label": "!!! Canon de Pachelbel - YouTube",
           "link": "https://www.youtube.com/watch?v=MbEoO3qaD9s",
-          "x": 83411,
-          "y": 7211,
+          "x": 82288,
+          "y": 13205,
           "id": "a6f02f7a-a74d-4c25-a5f7-2590efd254d9"
         },
         "52b755fd-c56c-4da3-b17f-534ee517edf5": {
           "label": "!!! Pachelbel Canon in D major - jean-francois paillard chamber orchestra - YouTube",
           "link": "https://www.youtube.com/watch?v=IMDUAZsgJMs",
-          "x": 83570,
-          "y": 7236,
+          "x": 82447,
+          "y": 13230,
           "id": "52b755fd-c56c-4da3-b17f-534ee517edf5"
         },
         "95e7de99-de8b-4e2b-bba2-881dc6695ff4": {
           "label": "!!! Jean-François Paillard, Pachelbel Canon in D major - YouTube",
           "link": "https://www.youtube.com/watch?v=1wiRRv80ehM",
-          "x": 83511,
-          "y": 7261,
+          "x": 82388,
+          "y": 13255,
           "id": "95e7de99-de8b-4e2b-bba2-881dc6695ff4"
         },
         "922777f9-6ff0-49e3-8964-aa6885d7f1d8": {
           "label": "!! Pachelbel - Canon in D - YouTube",
           "link": "https://www.youtube.com/watch?v=aHlpVez1NQg",
-          "x": 83418,
-          "y": 7286,
+          "x": 82295,
+          "y": 13280,
           "id": "922777f9-6ff0-49e3-8964-aa6885d7f1d8"
         },
         "aa2c6938-4653-466a-a6f7-812e79c67347": {
           "label": "!! Theme From Canon In D arranged by John Caponegro - YouTube",
           "link": "https://www.youtube.com/watch?v=8UoqMTkJQ4Q",
-          "x": 83520,
-          "y": 7311,
+          "x": 82397,
+          "y": 13305,
           "id": "aa2c6938-4653-466a-a6f7-812e79c67347"
         },
         "9922618c-ecc8-4108-bc99-f252352c899d": {
           "label": "!!! J. Pachelbel's Canon in D-Major and Ciacona in F-Minor - Pro Arte Orchestra [1977 Vinyl] - YouTube",
           "link": "https://www.youtube.com/watch?v=59HAq_wKOr0",
-          "x": 83630,
-          "y": 7336,
+          "x": 82507,
+          "y": 13330,
           "id": "9922618c-ecc8-4108-bc99-f252352c899d"
         },
         "dc016393-ffaa-49e7-869b-384545121597": {
           "label": "Karl Richter - Pachelbel - Chaconne In F Minor - T 206 - YouTube",
           "link": "https://www.youtube.com/watch?v=j4hbEzT9toA",
-          "x": 83512,
-          "y": 7361,
+          "x": 82389,
+          "y": 13355,
           "id": "dc016393-ffaa-49e7-869b-384545121597"
         },
         "7078d4dc-6750-4a90-9374-fd6c7431147f": {
           "label": "!!!! Pachelbel - Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=WitJc_-XazA",
-          "x": 83408,
-          "y": 7386,
+          "x": 82285,
+          "y": 13380,
           "id": "7078d4dc-6750-4a90-9374-fd6c7431147f"
         },
         "1dd1d64f-071e-4522-bbf6-71017d926660": {
           "label": "!!! Johann Pachelbel - Canon in D Major (London Philarmonic Orchestra) - YouTube",
           "link": "https://www.youtube.com/watch?v=cfzfzdNzMYI",
-          "x": 83569,
-          "y": 7411,
+          "x": 82446,
+          "y": 13405,
           "id": "1dd1d64f-071e-4522-bbf6-71017d926660"
         },
         "590e71ee-e647-487e-87f0-bb32b98852ce": {
           "label": "!!!!! Pachelbel Canon in D live in concert - YouTube",
           "link": "https://www.youtube.com/watch?v=iixfkbLXy5c",
-          "x": 83465,
-          "y": 7436,
+          "x": 82342,
+          "y": 13430,
           "id": "590e71ee-e647-487e-87f0-bb32b98852ce"
         },
         "e76dd70f-3afc-4860-9321-694e10430a2f": {
           "label": "!!! Pachelbel - Canon (live - 1994). Orchestra \"Accademia di Santa Cecilia\". - YouTube",
           "link": "https://www.youtube.com/watch?v=GMnQ_vUb_q8",
-          "x": 83576,
-          "y": 7461,
+          "x": 82453,
+          "y": 13455,
           "id": "e76dd70f-3afc-4860-9321-694e10430a2f"
         },
         "4940100f-b43b-41f1-9446-7940dd862fbd": {
           "label": "!! Pachelbel's Canon in D (Very full orchestra) - YouTube",
           "link": "https://www.youtube.com/watch?v=PkSp8wc8lKw",
-          "x": 83483,
-          "y": 7486,
+          "x": 82360,
+          "y": 13480,
           "id": "4940100f-b43b-41f1-9446-7940dd862fbd"
         },
         "fd547036-6bd6-48dc-96da-b2572ca04b56": {
           "label": "!! Pachelbel Canon - St Paul Chamber Orchestra - YouTube",
           "link": "https://www.youtube.com/watch?v=IiuZD25cUDw",
-          "x": 83493,
-          "y": 7511,
+          "x": 82370,
+          "y": 13505,
           "id": "fd547036-6bd6-48dc-96da-b2572ca04b56"
         },
         "a2f018b4-bbbc-4d7f-908a-6d352b4ba062": {
           "label": "!! Canon de Pachelbel, Laurence Equilbey - YouTube",
           "link": "https://www.youtube.com/watch?v=n_dy1gK_Cmk",
-          "x": 83472,
-          "y": 7536,
+          "x": 82349,
+          "y": 13530,
           "id": "a2f018b4-bbbc-4d7f-908a-6d352b4ba062"
         },
         "bf64c5db-afa3-45ee-9888-e4d45dae1187": {
           "label": "!! CANON. Pachelbel. Arreglo: Angel Figueroa - YouTube",
           "link": "https://www.youtube.com/watch?v=-WkEwc9sa8Q",
-          "x": 83485,
-          "y": 7561,
+          "x": 82362,
+          "y": 13555,
           "id": "bf64c5db-afa3-45ee-9888-e4d45dae1187"
         },
         "da186b81-f26c-40db-89b3-4c96cad0b8c6": {
           "label": "!!! Canon in D - Johann Pachelbel (Fast Orchestral Version) - YouTube",
           "link": "https://www.youtube.com/watch?v=HNnbQnQFJZM",
-          "x": 83527,
-          "y": 7586,
+          "x": 82404,
+          "y": 13580,
           "id": "da186b81-f26c-40db-89b3-4c96cad0b8c6"
         },
         "32330681-fb87-4697-93d4-fb14239bbd5b": {
           "label": "!!! The Pachelbel Canon - Denes Agay - CovenantCHOIRS - YouTube",
           "link": "https://www.youtube.com/watch?v=o2qsvDUbeRQ",
-          "x": 83525,
-          "y": 7611,
+          "x": 82402,
+          "y": 13605,
           "id": "32330681-fb87-4697-93d4-fb14239bbd5b"
         },
         "30a103ec-25b1-4767-9452-be9ff6406c0a": {
           "label": "! Canon of Praise: Pachelbel performed by WACO High School Treble Clef Choir - YouTube",
           "link": "https://www.youtube.com/watch?v=2busLPSlyao",
-          "x": 83593,
-          "y": 7636,
+          "x": 82470,
+          "y": 13630,
           "id": "30a103ec-25b1-4767-9452-be9ff6406c0a"
         },
         "14477789-6dca-4692-bf93-4a9c16ebb758": {
           "label": "!!! Canon (Pachelbel )　パッへルベルのカノン - YouTube",
           "link": "https://www.youtube.com/watch?v=Pppexz-KKig",
-          "x": 83485,
-          "y": 7661,
+          "x": 82362,
+          "y": 13655,
           "id": "14477789-6dca-4692-bf93-4a9c16ebb758"
         },
         "898204a0-bcda-4206-8907-0bf93ace627a": {
           "label": "!!!! Pachelbel - Canon in D (London Symphony Orchestra) Fantastic! - YouTube",
           "link": "https://www.youtube.com/watch?v=JNbe34V1nog",
-          "x": 83555,
-          "y": 7686,
+          "x": 82432,
+          "y": 13680,
           "id": "898204a0-bcda-4206-8907-0bf93ace627a"
         },
         "7ec8772e-b61c-4804-b63a-d391c66c74c6": {
           "label": "Pachelbel, Cannon and Gigue in D, Berlin Philharmonic, Herbert von Karajan - YouTube",
           "link": "https://www.youtube.com/watch?v=-eAGt2RVAXI",
-          "x": 83582,
-          "y": 7711,
+          "x": 82459,
+          "y": 13705,
           "id": "7ec8772e-b61c-4804-b63a-d391c66c74c6"
         },
         "9db65edd-9a20-4cd4-b6fe-f9fd2b8aaa79": {
           "label": "Antonio Luis Suárez, órgano, Canon de Pachelbel - YouTube",
           "link": "https://www.youtube.com/watch?v=1sIIFvbxNCo",
-          "x": 83497,
-          "y": 7736,
+          "x": 82374,
+          "y": 13730,
           "id": "9db65edd-9a20-4cd4-b6fe-f9fd2b8aaa79"
         },
         "d5b5d9a2-9508-458a-badd-066a1022e683": {
           "label": "Primer Órgano Mural de Piedra - Canon en D mayor (Johann Pachelbel) - YouTube",
           "link": "https://www.youtube.com/watch?v=5_Cgjogt_TQ",
-          "x": 83569,
-          "y": 7761,
+          "x": 82446,
+          "y": 13755,
           "id": "d5b5d9a2-9508-458a-badd-066a1022e683"
         },
         "f45410f3-1232-4da6-971b-2c083ea61a5c": {
           "label": "!!! Pachelbel - Canon in D - Violin & Organ - YouTube",
           "link": "https://www.youtube.com/watch?v=vCQxui_nmvo",
-          "x": 83472,
-          "y": 7786,
+          "x": 82349,
+          "y": 13780,
           "id": "f45410f3-1232-4da6-971b-2c083ea61a5c"
         },
         "fd7b1200-f139-49eb-983a-7b7b43784cdb": {
           "label": "Pachelbel - Canone in re - YouTube",
           "link": "https://www.youtube.com/watch?v=e1sKpC1XUrg",
-          "x": 83418,
-          "y": 7811,
+          "x": 82295,
+          "y": 13805,
           "id": "fd7b1200-f139-49eb-983a-7b7b43784cdb"
         },
         "fc63c303-c743-4a8d-90d9-b1ee423900b6": {
           "label": "!!! パッヘルベルのカノン　塚谷水無子　Canon by Pachelbel - YouTube",
           "link": "https://www.youtube.com/watch?v=D-AMI0XuFpk",
-          "x": 83530,
-          "y": 7836,
+          "x": 82407,
+          "y": 13830,
           "id": "fc63c303-c743-4a8d-90d9-b1ee423900b6"
         },
         "f86e0507-8836-4263-8690-f4cbfe43e502": {
           "label": "Pachelbel - Canon in D Major for Organ - Organ: Walter Rinaldi - YouTube",
           "link": "https://www.youtube.com/watch?v=5lXDuPT_6Zg",
-          "x": 83539,
-          "y": 7861,
+          "x": 82416,
+          "y": 13855,
           "id": "f86e0507-8836-4263-8690-f4cbfe43e502"
         },
         "312d4b5b-e42e-4592-a6ba-be1062e61417": {
           "label": "!!!! Pachelbels Canon in D (C) - YouTube",
           "link": "https://www.youtube.com/watch?v=XZRLpHWeaNY",
-          "x": 83433,
-          "y": 7886,
+          "x": 82310,
+          "y": 13880,
           "id": "312d4b5b-e42e-4592-a6ba-be1062e61417"
         },
         "8eeb0bca-ad8d-4a9a-8b5c-c7f26fc10597": {
           "label": "Johann Pachelbel Canon in D Major on pipe-organ - YouTube",
           "link": "https://www.youtube.com/watch?v=ZwNr-xUYAIU",
-          "x": 83500,
-          "y": 7911,
+          "x": 82377,
+          "y": 13905,
           "id": "8eeb0bca-ad8d-4a9a-8b5c-c7f26fc10597"
         },
         "d122e3b7-0a66-493c-b203-120a069fc481": {
           "label": "!!!! \"Canon in D\" by Johann Pachelbel - YouTube",
           "link": "https://www.youtube.com/watch?v=nX3IzE7gfwg",
-          "x": 83458,
-          "y": 7936,
+          "x": 82335,
+          "y": 13930,
           "id": "d122e3b7-0a66-493c-b203-120a069fc481"
         },
         "64f6bfe7-8c4f-44f2-b619-391e761d3308": {
           "label": "!!! Pachelbel Canon in D Played by Brenda Caldwell on the Skinner/Mohler Pipe Organ Download - YouTube",
           "link": "https://www.youtube.com/watch?v=tSnnke-Vozk",
-          "x": 83646,
-          "y": 7961,
+          "x": 82523,
+          "y": 13955,
           "id": "64f6bfe7-8c4f-44f2-b619-391e761d3308"
         },
         "4edf84ea-c6e9-49db-82c3-a8b7ebbec555": {
           "label": "! Pachelbel Canon in D, Benita Rose-organist - YouTube",
           "link": "https://www.youtube.com/watch?v=cMX7p31jjFo",
-          "x": 83482,
-          "y": 7986,
+          "x": 82359,
+          "y": 13980,
           "id": "4edf84ea-c6e9-49db-82c3-a8b7ebbec555"
         },
         "882f1734-8bdc-45b7-b0f0-d7874af1f5d4": {
           "label": "!!!! Pachelbel Canon in D String Quartet on Pipe Organ - YouTube",
           "link": "https://www.youtube.com/watch?v=fvBc0TeGoTA",
-          "x": 83512,
-          "y": 8011,
+          "x": 82389,
+          "y": 14005,
           "id": "882f1734-8bdc-45b7-b0f0-d7874af1f5d4"
         },
         "b013fd29-0173-4591-947a-a463c32e8131": {
           "label": "!!!! Pachelbel's Canon in D Major - Organ solo - Simple arrangement - YouTube",
           "link": "https://www.youtube.com/watch?v=R368XaxidKw",
-          "x": 83555,
-          "y": 8036,
+          "x": 82432,
+          "y": 14030,
           "id": "b013fd29-0173-4591-947a-a463c32e8131"
         },
         "8333c391-6070-4109-b376-8cd7cbd249f3": {
           "label": "!!!! Canon in D by Johann Pachelbel (1653-1706) - YouTube",
           "link": "https://www.youtube.com/watch?v=p0oyeJP_d60",
-          "x": 83494,
-          "y": 8061,
+          "x": 82371,
+          "y": 14055,
           "id": "8333c391-6070-4109-b376-8cd7cbd249f3"
         },
         "21f1f934-15fb-4624-8e90-90ac18d885c9": {
           "label": "Pachelbel Canon in D - YouTube",
           "link": "https://www.youtube.com/watch?v=KwJZoA824sM",
-          "x": 83079,
-          "y": 8135,
+          "x": 81956,
+          "y": 14129,
           "id": "21f1f934-15fb-4624-8e90-90ac18d885c9"
         },
         "781ca612-2f4f-4e14-8cdb-5e9a37c99687": {
           "label": "MUST WATCH! Choir Sings Pachelbel Canon Medley - YouTube",
           "link": "https://www.youtube.com/watch?v=HFrsBMXipDk",
-          "x": 83508,
-          "y": 8111,
+          "x": 82385,
+          "y": 14105,
           "id": "781ca612-2f4f-4e14-8cdb-5e9a37c99687"
         },
         "c8861b92-3897-4f93-94dc-2ff098a0ba76": {
           "label": "Willem van Twillert plays: Johann Pachelbel - Canon in D, [Organ Version] Meere-organ Urk - YouTube",
           "link": "https://www.youtube.com/watch?v=_QgpxKm4xgE",
-          "x": 83629,
-          "y": 8136,
+          "x": 82506,
+          "y": 14130,
           "id": "c8861b92-3897-4f93-94dc-2ff098a0ba76"
         },
         "46f1a011-dc8d-4319-8dd8-59a5fc72ca32": {
           "label": "Canon in D Johann Pachelbel - Orgelconcert Regenboogkerk Nijverdal - YouTube",
           "link": "https://www.youtube.com/watch?v=UiwjoinWedk",
-          "x": 83563,
-          "y": 8161,
+          "x": 82440,
+          "y": 14155,
           "id": "46f1a011-dc8d-4319-8dd8-59a5fc72ca32"
         },
         "4bf5e6e7-6cd2-40b3-aca7-21f5d2047e7b": {
           "label": "PACHELBEL CANON PERFORMED AT ST ANN'S CHURCH, MANCHESTER - JONATHAN SCOTT (ORGAN SOLO) - YouTube",
           "link": "https://www.youtube.com/watch?v=ukA2xvsA1qg",
-          "x": 83372,
-          "y": 8510,
+          "x": 82249,
+          "y": 14504,
           "id": "4bf5e6e7-6cd2-40b3-aca7-21f5d2047e7b"
         },
         "7246815e-bc9d-412b-9e21-ac53a6e79490": {
           "label": "HD Canon in D major - Pachelbel - Organ Solo John Hong - 파헬벨 캐논 - YouTube",
           "link": "https://www.youtube.com/watch?v=SlJy0AoDwkw",
-          "x": 84119,
-          "y": 8208,
+          "x": 82996,
+          "y": 14202,
           "id": "7246815e-bc9d-412b-9e21-ac53a6e79490"
         },
         "327d5110-07f4-4546-8ec7-452496787a12": {
           "label": "Canon in D on glass harp - YouTube",
           "link": "https://www.youtube.com/watch?v=UGftsRH7A2w",
-          "x": 83972,
-          "y": 8233,
+          "x": 82849,
+          "y": 14227,
           "id": "327d5110-07f4-4546-8ec7-452496787a12"
         },
         "564849a3-471a-4551-9856-2709bdb7cd99": {
           "label": "2011년 한양대학교 대학합창 (The Pachelbel Canon) - YouTube",
           "link": "https://www.youtube.com/watch?v=9z0KmJsbi3o",
-          "x": 84057,
-          "y": 8258,
+          "x": 82934,
+          "y": 14252,
           "id": "564849a3-471a-4551-9856-2709bdb7cd99"
         },
         "5666cc67-6354-4050-8c29-eb22633cc321": {
           "label": "!! J. Pachelbel \"Kanon\" - YouTube",
           "link": "https://www.youtube.com/watch?v=gcxlJOgu74g",
-          "x": 83963,
-          "y": 8283,
+          "x": 82840,
+          "y": 14277,
           "id": "5666cc67-6354-4050-8c29-eb22633cc321"
         },
         "a1191df0-7257-4995-adb1-4472ab8675f3": {
           "label": "Pachelbel's Canon Croatian Baroque Ensemble - YouTube",
           "link": "https://www.youtube.com/watch?v=6J5cjIKOqq8",
-          "x": 84042,
-          "y": 8308,
+          "x": 82919,
+          "y": 14302,
           "id": "a1191df0-7257-4995-adb1-4472ab8675f3"
         },
         "f2f6e0c4-5f44-4b73-a246-cb61bb1711f8": {
           "label": "!!!! Visitation Choir: \"The First Noel/Pachelbel's Cannon\" by Michael Clawson - YouTube",
           "link": "https://www.youtube.com/watch?v=NxoBQzCZcQM",
-          "x": 84133,
-          "y": 8333,
+          "x": 83010,
+          "y": 14327,
           "id": "f2f6e0c4-5f44-4b73-a246-cb61bb1711f8"
         },
         "5319c54d-f565-44ba-bc86-b4959ed0044b": {
           "label": "!!!! The First Noel Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=pChJerWLyV0",
-          "x": 84007,
-          "y": 8358,
+          "x": 82884,
+          "y": 14352,
           "id": "5319c54d-f565-44ba-bc86-b4959ed0044b"
         },
         "e1f4c558-4b88-4a7a-ad92-c50656d192c1": {
           "label": "!!!! The First Noel/Pachebel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=BnbCl5MBzuk",
-          "x": 84006,
-          "y": 8383,
+          "x": 82883,
+          "y": 14377,
           "id": "e1f4c558-4b88-4a7a-ad92-c50656d192c1"
         },
         "d65f6afd-4f72-4546-9291-fe1abdeec44b": {
           "label": "The First Noel/Pachelbel's Canon {Mannhardt Music Studio} - YouTube",
           "link": "https://www.youtube.com/watch?v=T2U4--HXLWg",
-          "x": 84081,
-          "y": 8408,
+          "x": 82958,
+          "y": 14402,
           "id": "d65f6afd-4f72-4546-9291-fe1abdeec44b"
         },
         "2de8b909-8245-451d-8800-348431c072ef": {
           "label": "Pachelbel's Canon and First Noel - YouTube",
           "link": "https://www.youtube.com/watch?v=BYqxp_zf_0k",
-          "x": 83997,
-          "y": 8433,
+          "x": 82874,
+          "y": 14427,
           "id": "2de8b909-8245-451d-8800-348431c072ef"
         },
         "2a36c67a-9821-4a3d-85f9-56860794ce47": {
           "label": "!! Pachelbel's Cannon/The First Noel - YouTube",
           "link": "https://www.youtube.com/watch?v=wmfWg-A0eT0",
-          "x": 84007,
-          "y": 8458,
+          "x": 82884,
+          "y": 14452,
           "id": "2a36c67a-9821-4a3d-85f9-56860794ce47"
         },
         "61a16e25-19c0-4ea5-be7c-58881468a0a5": {
           "label": "Burke County All-County Chorus 2014 - \"The First Noel/Pachelbel's Canon\" by Clausen - YouTube",
           "link": "https://www.youtube.com/watch?v=jSCf83NuvSw",
-          "x": 84167,
-          "y": 8483,
+          "x": 83044,
+          "y": 14477,
           "id": "61a16e25-19c0-4ea5-be7c-58881468a0a5"
         },
         "b8d98ba3-6e54-47fc-bc63-312806b0a4b0": {
           "label": "The First Noel / Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=JqvX0B0GK74",
-          "x": 84001,
-          "y": 8508,
+          "x": 82878,
+          "y": 14502,
           "id": "b8d98ba3-6e54-47fc-bc63-312806b0a4b0"
         },
         "41db8695-42e6-4a20-b056-45eb7fa75b71": {
           "label": "!!!! Canon in D by Pachelbel arranged by Noel Goemanne - YouTube",
           "link": "https://www.youtube.com/watch?v=h-J1UBn01i0",
-          "x": 84074,
-          "y": 8533,
+          "x": 82951,
+          "y": 14527,
           "id": "41db8695-42e6-4a20-b056-45eb7fa75b71"
         },
         "d45bfa30-2c01-4311-89d3-b881f2059310": {
           "label": "!! Dona Nobis Pacem, traditional canon - YouTube",
           "link": "https://www.youtube.com/watch?v=OSdGW_HBrLE",
-          "x": 84015,
-          "y": 8558,
+          "x": 82892,
+          "y": 14552,
           "id": "d45bfa30-2c01-4311-89d3-b881f2059310"
         },
         "16b5df18-d903-49bb-b919-f39f91ce0fde": {
           "label": "!!! Pachelbel's Canon in D (arr. Noel Goemanne) - Southampton University Singers - Winter Concert 2013 - YouTube",
           "link": "https://www.youtube.com/watch?v=6kB6Us7uCxY",
-          "x": 84224,
-          "y": 8583,
+          "x": 83101,
+          "y": 14577,
           "id": "16b5df18-d903-49bb-b919-f39f91ce0fde"
         },
         "6c42b661-32c3-468d-bc59-0b7b328e0f6a": {
           "label": "! The First Noel / Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=Dyu8r1CBeLs",
-          "x": 84005,
-          "y": 8608,
+          "x": 82882,
+          "y": 14602,
           "id": "6c42b661-32c3-468d-bc59-0b7b328e0f6a"
         },
         "22f6dc47-be2d-4ec7-aa96-cd3197cbf2a0": {
           "label": "\"The First Noel/Pachelbel's Canon\" - SHHS - YouTube",
           "link": "https://www.youtube.com/watch?v=uWaDm6zfkDs",
-          "x": 84028,
-          "y": 8633,
+          "x": 82905,
+          "y": 14627,
           "id": "22f6dc47-be2d-4ec7-aa96-cd3197cbf2a0"
         },
         "6deb1ee4-ee33-4bc9-a16b-90f1ae1e0509": {
           "label": "!!! The First Noel - Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=BDiykOjYCSA",
-          "x": 84010,
-          "y": 8658,
+          "x": 82887,
+          "y": 14652,
           "id": "6deb1ee4-ee33-4bc9-a16b-90f1ae1e0509"
         },
         "80bb76c8-fc3d-4c9e-99cd-52a300cd2858": {
           "label": "The First Noel / Pachelbels Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=-zxZoQFRMM0",
-          "x": 84000,
-          "y": 8683,
+          "x": 82877,
+          "y": 14677,
           "id": "80bb76c8-fc3d-4c9e-99cd-52a300cd2858"
         },
         "a953cb81-3c19-45d7-b01b-536295379950": {
           "label": "!!! The First Noel / Pachelbel's Canon - Nicole Skaggs and Sons of Orpheus - YouTube",
           "link": "https://www.youtube.com/watch?v=Pz0CxXgAoXU",
-          "x": 84130,
-          "y": 8708,
+          "x": 83007,
+          "y": 14702,
           "id": "a953cb81-3c19-45d7-b01b-536295379950"
         },
         "dd523e06-d2de-4e59-b1f7-79e3aa5a51f5": {
           "label": "Owasso Mid High Mixed Chamber Choir - The First Noel / Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=O-wYwJdA-Pk",
-          "x": 84135,
-          "y": 8733,
+          "x": 83012,
+          "y": 14727,
           "id": "dd523e06-d2de-4e59-b1f7-79e3aa5a51f5"
         },
         "8d6db28b-91a3-4d17-82eb-08094654157a": {
           "label": "!!! 12-10-13 Wando Concert Choir - The First Noel/Pachelbel's Canon - YouTube",
           "link": "https://www.youtube.com/watch?v=wCalYBdF_lU",
-          "x": 84111,
-          "y": 8758,
+          "x": 82988,
+          "y": 14752,
           "id": "8d6db28b-91a3-4d17-82eb-08094654157a"
         },
         "d0e9633d-bae6-4520-9e27-455c8fcddc3a": {
           "label": "!!! The First Noel - Roanoke Valley Children's Choir - YouTube",
           "link": "https://www.youtube.com/watch?v=AoDS826f7Ek",
-          "x": 84052,
-          "y": 8783,
+          "x": 82929,
+          "y": 14777,
           "id": "d0e9633d-bae6-4520-9e27-455c8fcddc3a"
         },
         "6d983d21-d9e0-4a5f-b4f3-3392b06a3206": {
           "label": "!!!! The First Noel - YouTube",
           "link": "https://www.youtube.com/watch?v=Y4iXatDeY7A",
-          "x": 83946,
-          "y": 8808,
+          "x": 82823,
+          "y": 14802,
           "id": "6d983d21-d9e0-4a5f-b4f3-3392b06a3206"
         },
         "a1034ab1-8a99-47e0-9731-6ee14ba970dd": {
           "label": "!!!! Down in the River to Pray - YouTube",
           "link": "https://www.youtube.com/watch?v=lMl0kxzf4YU",
-          "x": 83982,
-          "y": 8833,
+          "x": 82859,
+          "y": 14827,
           "id": "a1034ab1-8a99-47e0-9731-6ee14ba970dd"
         },
         "e4b6a669-1191-4a50-ad10-35c853919b6e": {
           "label": "!!!! The First Noel/Pachelbel's Canon - GBN Treble Choir - YouTube",
           "link": "https://www.youtube.com/watch?v=vHraUN1b00g",
-          "x": 84070,
-          "y": 8858,
+          "x": 82947,
+          "y": 14852,
           "id": "e4b6a669-1191-4a50-ad10-35c853919b6e"
         },
         "ffd4dd8e-c3cd-447d-b844-dacedea9dbef": {
           "label": "!!!! Pachelbel's Canon (Chinese Dulcimer) - YouTube",
           "link": "https://www.youtube.com/watch?v=rb7OL6KgVfo",
-          "x": 83127,
-          "y": 8889,
+          "x": 82004,
+          "y": 14883,
           "id": "ffd4dd8e-c3cd-447d-b844-dacedea9dbef"
         },
         "ead8859c-0a2b-40c7-8364-e185b370fee1": {
           "label": "!!!! Rockelbel's Canon (Pachelbel's Canon in D) - Nanyang Polytechnic Chinese Orchestra - YouTube",
           "link": "https://www.youtube.com/watch?v=ozrMYNpieWQ",
-          "x": 83279,
-          "y": 8914,
+          "x": 82156,
+          "y": 14908,
           "id": "ead8859c-0a2b-40c7-8364-e185b370fee1"
         },
         "1729aca9-49d5-466b-b22d-f7f0dde97fd0": {
           "label": "Pachelbel Canon - Boston Pops Orchestra - YouTube",
           "link": "https://www.youtube.com/watch?v=dcCnggBzLO4",
-          "x": 83129,
-          "y": 8939,
+          "x": 82006,
+          "y": 14933,
           "id": "1729aca9-49d5-466b-b22d-f7f0dde97fd0"
         },
         "0890c581-6fb4-4582-8fc3-8cfb3a1229ab": {
           "label": "Pachelbel Canon in D Major - the original and best version - YouTube",
           "link": "https://www.youtube.com/watch?v=JvNQLJ1_HQ0",
-          "x": 83179,
-          "y": 8964,
+          "x": 82056,
+          "y": 14958,
           "id": "0890c581-6fb4-4582-8fc3-8cfb3a1229ab"
         },
         "2a516790-c720-4c38-ad70-f961e9ecefd4": {
           "label": "Wedding String Quartet - Canon in D (Best Version) (Johann Pachelbel) - YouTube",
           "link": "https://www.youtube.com/watch?v=es_3F3TLJS0",
-          "x": 83221,
-          "y": 8989,
+          "x": 82098,
+          "y": 14983,
           "id": "2a516790-c720-4c38-ad70-f961e9ecefd4"
         },
         "ef9f1431-fdf1-4efe-be71-c8312d1cfff9": {
           "label": "!!!! Canon in D - Pachelbel - YouTube",
           "link": "https://www.youtube.com/watch?v=-mb9jlbiVF4",
-          "x": 83078,
-          "y": 9014,
+          "x": 81955,
+          "y": 15008,
           "id": "ef9f1431-fdf1-4efe-be71-c8312d1cfff9"
         },
         "b35eff90-19fd-41f4-9672-282c21a36a6f": {
           "label": "Pachelbel: Canon - Accademy of St. Martin in the fields conducted by Neville Marriner - YouTube",
           "link": "https://www.youtube.com/watch?v=C8KWpSCGlg4",
-          "x": 83265,
-          "y": 9039,
+          "x": 82142,
+          "y": 15033,
           "id": "b35eff90-19fd-41f4-9672-282c21a36a6f"
         },
         "b2e2f974-a495-47a8-8019-c1b7f3f29ef1": {
           "label": "Canon Pachelbel - Magnifique Version! - YouTube",
           "link": "https://www.youtube.com/watch?v=H1L4sVxuKZg",
-          "x": 83118,
-          "y": 9064,
+          "x": 81995,
+          "y": 15058,
           "id": "b2e2f974-a495-47a8-8019-c1b7f3f29ef1"
         },
         "8941e594-bf9e-4346-9e7a-650343156431": {
           "label": "Variations on Pachelbel Canon - Royal Philharmonic Orchestra - YouTube",
           "link": "https://www.youtube.com/watch?v=zH-svpnpszw",
-          "x": 83193,
-          "y": 9089,
+          "x": 82070,
+          "y": 15083,
           "id": "8941e594-bf9e-4346-9e7a-650343156431"
         },
         "63452c9b-7816-4d9c-b6f1-b741d410017e": {
           "label": "Violin, Cello and Harp perform Canon in D - Pachelbel - YouTube",
           "link": "https://www.youtube.com/watch?v=JfzyUr78nhs",
-          "x": 83165,
-          "y": 9114,
+          "x": 82042,
+          "y": 15108,
           "id": "63452c9b-7816-4d9c-b6f1-b741d410017e"
         },
         "00d6e129-e6ea-4313-acd3-4d7f9150dc91": {
           "label": "PACHELBEL Canon very beautiful Piano Version - YouTube",
           "link": "https://www.youtube.com/watch?v=p0hYrIYPkbk",
-          "x": 83148,
-          "y": 9139,
+          "x": 82025,
+          "y": 15133,
           "id": "00d6e129-e6ea-4313-acd3-4d7f9150dc91"
         },
         "c55d7626-cd50-4d5b-9875-6e942043f841": {
           "label": "Johann Pachelbel Canon Piano (George Winston) - YouTube",
           "link": "https://www.youtube.com/watch?v=hydo5gJP22o",
-          "x": 83153,
-          "y": 9164,
+          "x": 82030,
+          "y": 15158,
           "id": "c55d7626-cd50-4d5b-9875-6e942043f841"
         },
         "c61f00c2-d9d5-40ce-a390-9e72436d957e": {
           "label": "Canon of Praise: Pachelbel performed by WACO High School Treble Clef Choir - YouTube",
           "link": "https://www.youtube.com/watch?v=2busLPSlyao",
-          "x": 83244,
-          "y": 9189,
+          "x": 82121,
+          "y": 15183,
           "id": "c61f00c2-d9d5-40ce-a390-9e72436d957e"
         },
         "36b06a0e-dbf8-4e9b-97bd-a6b201fb1f6b": {
           "label": "Pachelbel - Canon (live - 1994). Orchestra \"Accademia di Santa Cecilia\". - YouTube",
           "link": "https://www.youtube.com/watch?v=GMnQ_vUb_q8",
-          "x": 83224,
-          "y": 9214,
+          "x": 82101,
+          "y": 15208,
           "id": "36b06a0e-dbf8-4e9b-97bd-a6b201fb1f6b"
         },
         "d1a91261-cbd2-4960-b843-cf824a6b6e73": {
           "label": "9 Unforgettably Beautiful Melodies from Symphonies - YouTube",
           "link": "https://www.youtube.com/watch?v=wP-e8wlrURU",
-          "x": 83161,
-          "y": 9239,
+          "x": 82038,
+          "y": 15233,
           "id": "d1a91261-cbd2-4960-b843-cf824a6b6e73"
         },
         "d1e23bae-d4e6-4eb9-90fb-eedf343d9446": {
           "label": "Pachelbel - Canon in D (London Symphony Orchestra) Fantastic! - YouTube",
           "link": "https://www.youtube.com/watch?v=JNbe34V1nog",
-          "x": 83201,
-          "y": 9264,
+          "x": 82078,
+          "y": 15258,
           "id": "d1e23bae-d4e6-4eb9-90fb-eedf343d9446"
         },
         "00f46211-6e28-47bf-80ff-1a545a823a9b": {
           "label": "Pachelbel's Canon in D - Harp Ensemble - YouTube",
           "link": "https://www.youtube.com/watch?v=bIeP0iR1BGo",
-          "x": 83124,
-          "y": 9289,
+          "x": 82001,
+          "y": 15283,
           "id": "00f46211-6e28-47bf-80ff-1a545a823a9b"
         },
         "2b40c33a-cfe6-4b16-87bc-9bf4598286c8": {
           "label": "Pachelbel's Canon in D on Harp HD - YouTube",
           "link": "https://www.youtube.com/watch?v=J_jy83_YQjQ",
-          "x": 83108,
-          "y": 9314,
+          "x": 81985,
+          "y": 15308,
           "id": "2b40c33a-cfe6-4b16-87bc-9bf4598286c8"
         },
         "475e91f1-ba73-4f09-b8d6-dff1a9bc26ec": {
           "label": "Pachelbel's Canon in D (Very full orchestra) - YouTube",
           "link": "https://www.youtube.com/watch?v=PkSp8wc8lKw",
-          "x": 83132,
-          "y": 9339,
+          "x": 82009,
+          "y": 15333,
           "id": "475e91f1-ba73-4f09-b8d6-dff1a9bc26ec"
         },
         "a06de44b-5d34-4cc9-b821-8139a0d3bc35": {
           "label": "!!!! Pachelbel Canon in D Fantasia for hammered dulcimer - YouTube",
           "link": "https://www.youtube.com/watch?v=alcRdeJ5kks",
-          "x": 83179,
-          "y": 9364,
+          "x": 82056,
+          "y": 15358,
           "id": "a06de44b-5d34-4cc9-b821-8139a0d3bc35"
         },
         "4eef3dd2-7330-42e8-9835-01b55cb1258b": {
           "label": "! Pachelbel's Canon in D - Harp Ensemble - YouTube",
           "link": "https://www.youtube.com/watch?v=bIeP0iR1BGo",
-          "x": 83128,
-          "y": 9389,
+          "x": 82005,
+          "y": 15383,
           "id": "4eef3dd2-7330-42e8-9835-01b55cb1258b"
         },
         "15d0efbb-03ba-4a0f-8f6e-8cad4608fdce": {
           "label": "Everybody Wants To Rule The World - Ted Yoder cover Tears for Fears - YouTube",
           "link": "https://www.youtube.com/watch?v=E6QOr-oCTwU",
-          "x": 83220,
-          "y": 9414,
+          "x": 82097,
+          "y": 15408,
           "id": "15d0efbb-03ba-4a0f-8f6e-8cad4608fdce"
         },
         "5142868a-7da6-4df9-8143-038c20e1294a": {
           "label": "\"Dust in the Wind\" hammered dulcimer by Ted Yoder - YouTube",
           "link": "https://www.youtube.com/watch?v=24dnQmb0I50",
-          "x": 83161,
-          "y": 9439,
+          "x": 82038,
+          "y": 15433,
           "id": "5142868a-7da6-4df9-8143-038c20e1294a"
         },
         "5d81378a-55b9-434a-8e17-092ddd0232a9": {
           "label": "\"Transformation of Pachelbel's Canon\" by Nanae Mimura - YouTube",
           "link": "https://www.youtube.com/watch?v=2eOnm2tYJHs",
-          "x": 83175,
-          "y": 9464,
+          "x": 82052,
+          "y": 15458,
           "id": "5d81378a-55b9-434a-8e17-092ddd0232a9"
         },
         "390832a9-9f07-41c4-8326-334d21994fc7": {
           "label": "TheEadgyth - YouTube",
           "link": "https://www.youtube.com/user/TheEadgyth/videos?disable_polymer=1",
-          "x": 83033,
-          "y": 9489,
+          "x": 81910,
+          "y": 15483,
           "id": "390832a9-9f07-41c4-8326-334d21994fc7"
         },
         "ca1a1f8a-9fd4-4cbd-a05f-b993c5e452f1": {
           "label": "Coldplay- Clocks improved version (hammered dulcimer/Hackbrett cover) - YouTube",
           "link": "https://www.youtube.com/watch?v=5guO1i4UdXE",
-          "x": 83876,
-          "y": 9496,
+          "x": 82753,
+          "y": 15490,
           "id": "ca1a1f8a-9fd4-4cbd-a05f-b993c5e452f1"
         },
         "a752dc41-bfbf-4ddd-9129-09dc8bf214ed": {
           "label": "\"Dance of the Unicorn\" hammered dulcimer music by dizzi - YouTube",
           "link": "https://www.youtube.com/watch?v=MFK7JsmWmMo",
-          "x": 83178,
-          "y": 9539,
+          "x": 82055,
+          "y": 15533,
           "id": "a752dc41-bfbf-4ddd-9129-09dc8bf214ed"
         },
         "d56b8209-807c-4362-8427-eb58be96a230": {
@@ -30805,8 +30804,8 @@ var schemeData =
         },
         "f884a1ef-4b51-451e-bc0b-8fa8354ecd7a": {
           "label": "Utils code",
-          "x": 82845,
-          "y": 46246,
+          "x": 82661,
+          "y": 53222,
           "font": {
             "size": 72,
             "align": "left"
@@ -30822,152 +30821,152 @@ var schemeData =
         },
         "33121ef3-1d19-40bc-9fdc-e9d5e23b9264": {
           "label": "Development",
-          "x": 83145,
-          "y": 46696,
+          "x": 82961,
+          "y": 53672,
           "id": "33121ef3-1d19-40bc-9fdc-e9d5e23b9264"
         },
         "83d95d0f-509c-410b-866f-4cdd8d185a7c": {
           "label": "12/4/2019",
-          "x": 83274,
-          "y": 46696,
+          "x": 83090,
+          "y": 53672,
           "id": "83d95d0f-509c-410b-866f-4cdd8d185a7c"
         },
         "d3ba001f-d87b-4b1b-ae17-cf5535f46333": {
           "label": "init",
-          "x": 83395,
-          "y": 46696,
+          "x": 83211,
+          "y": 53672,
           "id": "d3ba001f-d87b-4b1b-ae17-cf5535f46333"
         },
         "89bfe36c-8dfb-4907-b6a2-b9b917e60c7d": {
           "label": "Notes",
-          "x": 83121,
-          "y": 45846,
+          "x": 82937,
+          "y": 52822,
           "id": "89bfe36c-8dfb-4907-b6a2-b9b917e60c7d"
         },
         "c257f471-506f-45cd-a2fd-4f585b75af98": {
           "label": "Dictionary of\nconcepts",
-          "x": 83286,
-          "y": 44216,
+          "x": 83102,
+          "y": 51192,
           "id": "c257f471-506f-45cd-a2fd-4f585b75af98"
         },
         "328e233d-912c-4f60-9324-fa69ece1a39a": {
           "label": "Details, thoughts",
-          "x": 83295,
-          "y": 45846,
+          "x": 83111,
+          "y": 52822,
           "id": "328e233d-912c-4f60-9324-fa69ece1a39a"
         },
         "8dff59eb-dcbb-4be3-a12e-e5727d4e0058": {
           "label": "Sections",
-          "x": 83269,
-          "y": 46096,
+          "x": 83085,
+          "y": 53072,
           "id": "8dff59eb-dcbb-4be3-a12e-e5727d4e0058"
         },
         "0448b497-4f54-4a23-9492-13bb4e45eba0": {
           "label": "Books",
-          "x": 83359,
-          "y": 45946,
+          "x": 83175,
+          "y": 52922,
           "id": "0448b497-4f54-4a23-9492-13bb4e45eba0"
         },
         "41d18e59-a408-4d91-a5c2-b1958fec290d": {
           "label": "R&D institutions",
-          "x": 83389,
-          "y": 45971,
+          "x": 83205,
+          "y": 52947,
           "id": "41d18e59-a408-4d91-a5c2-b1958fec290d"
         },
         "ec0fedd1-95de-4798-98f2-af0f53808008": {
           "label": "Sites",
-          "x": 83355,
-          "y": 45996,
+          "x": 83171,
+          "y": 52972,
           "id": "ec0fedd1-95de-4798-98f2-af0f53808008"
         },
         "0512d046-5476-4b45-bfa2-65bb491e23a2": {
           "label": "Magazines",
-          "x": 83374,
-          "y": 46021,
+          "x": 83190,
+          "y": 52997,
           "id": "0512d046-5476-4b45-bfa2-65bb491e23a2"
         },
         "e171f4e8-746e-4ef5-91e3-8baba066bcfa": {
           "label": "Articles",
-          "x": 83362,
-          "y": 46046,
+          "x": 83178,
+          "y": 53022,
           "id": "e171f4e8-746e-4ef5-91e3-8baba066bcfa"
         },
         "9f3f8003-847e-42c1-b3bf-078131d17323": {
           "label": "Media content",
-          "x": 83384,
-          "y": 46071,
+          "x": 83200,
+          "y": 53047,
           "id": "9f3f8003-847e-42c1-b3bf-078131d17323"
         },
         "8a373b5a-471e-4eb1-89e5-8a7180b4a48a": {
           "label": "Misc. web links",
-          "x": 83387,
-          "y": 46096,
+          "x": 83203,
+          "y": 53072,
           "id": "8a373b5a-471e-4eb1-89e5-8a7180b4a48a"
         },
         "c507d0a0-208a-4663-a5de-535a788811fd": {
           "label": "Projects",
-          "x": 83365,
-          "y": 46121,
+          "x": 83181,
+          "y": 53097,
           "id": "c507d0a0-208a-4663-a5de-535a788811fd"
         },
         "3dd979d8-c5b6-42ba-957f-f3cee3bf7e11": {
           "label": "Tools",
-          "x": 83356,
-          "y": 46146,
+          "x": 83172,
+          "y": 53122,
           "id": "3dd979d8-c5b6-42ba-957f-f3cee3bf7e11"
         },
         "51ac2a20-6e3f-467b-a42f-162bc76024e6": {
           "label": "Organizations",
-          "x": 83383,
-          "y": 46171,
+          "x": 83199,
+          "y": 53147,
           "id": "51ac2a20-6e3f-467b-a42f-162bc76024e6"
         },
         "4a6489ce-713e-48d9-bcdf-62d1aab6ab2d": {
           "label": "Standarts",
-          "x": 83370,
-          "y": 46196,
+          "x": 83186,
+          "y": 53172,
           "id": "4a6489ce-713e-48d9-bcdf-62d1aab6ab2d"
         },
         "ac9a26e8-2d89-4820-a4de-68d7700d5d94": {
           "label": "Forums, Groups",
-          "x": 83391,
-          "y": 46221,
+          "x": 83207,
+          "y": 53197,
           "id": "ac9a26e8-2d89-4820-a4de-68d7700d5d94"
         },
         "d8604709-a29e-4e0b-8d5d-086417255e8a": {
           "label": "Laws",
-          "x": 83356,
-          "y": 46246,
+          "x": 83172,
+          "y": 53222,
           "id": "d8604709-a29e-4e0b-8d5d-086417255e8a"
         },
         "ff708040-684d-4dd2-9e97-63858a5f9bfc": {
           "label": "Adjacent Themes",
-          "x": 83395,
-          "y": 46271,
+          "x": 83211,
+          "y": 53247,
           "id": "ff708040-684d-4dd2-9e97-63858a5f9bfc"
         },
         "4f22a8e1-41f5-4d07-b263-a42924e8a3c7": {
           "label": "Questions",
-          "x": 83135,
-          "y": 46396,
+          "x": 82951,
+          "y": 53372,
           "id": "4f22a8e1-41f5-4d07-b263-a42924e8a3c7"
         },
         "87dadf4d-9bbd-4c9c-b627-5e76c201f697": {
           "label": "Problems",
-          "x": 83133,
-          "y": 46496,
+          "x": 82949,
+          "y": 53472,
           "id": "87dadf4d-9bbd-4c9c-b627-5e76c201f697"
         },
         "d02c3877-936e-4527-874f-f7a7652bb7a8": {
           "label": "Goals",
-          "x": 83121,
-          "y": 46596,
+          "x": 82937,
+          "y": 53572,
           "id": "d02c3877-936e-4527-874f-f7a7652bb7a8"
         },
         "a107ae3b-2916-4e43-a89d-ddb6e8ae347e": {
           "id": "a107ae3b-2916-4e43-a89d-ddb6e8ae347e",
-          "x": 83433,
-          "y": 44217,
+          "x": 83249,
+          "y": 51193,
           "label": "2019.12.3"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785289": {
@@ -31000,8 +30999,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Utils code",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785289",
-          "x": 87341,
-          "y": 43953,
+          "x": 87157,
+          "y": 50929,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -40906,8 +40905,8 @@ var schemeData =
         },
         "4b58d1d2-aec0-4ece-bd2f-ec1da0dcd4af": {
           "label": "Рок-музыка",
-          "x": 82102,
-          "y": 34645,
+          "x": 81875,
+          "y": 45525,
           "font": {
             "size": 72,
             "align": "left"
@@ -40923,152 +40922,152 @@ var schemeData =
         },
         "4cb6ad72-b486-4388-ab80-6b27e4fa9368": {
           "label": "Development",
-          "x": 82554,
-          "y": 35049,
+          "x": 82327,
+          "y": 45929,
           "id": "4cb6ad72-b486-4388-ab80-6b27e4fa9368"
         },
         "57ad0c37-aef0-4e6d-be6f-514a4c4eb40d": {
           "label": "12/4/2019",
-          "x": 82683,
-          "y": 35049,
+          "x": 82456,
+          "y": 45929,
           "id": "57ad0c37-aef0-4e6d-be6f-514a4c4eb40d"
         },
         "42c9f885-c6bd-45bb-afc9-ff19d8a3ad03": {
           "label": "init",
-          "x": 82804,
-          "y": 35049,
+          "x": 82577,
+          "y": 45929,
           "id": "42c9f885-c6bd-45bb-afc9-ff19d8a3ad03"
         },
         "78b0ba71-24cc-4263-8037-e8ba07b317ce": {
           "label": "Notes",
-          "x": 82531,
-          "y": 34199,
+          "x": 82304,
+          "y": 45079,
           "id": "78b0ba71-24cc-4263-8037-e8ba07b317ce"
         },
         "6f7b2a52-d7f0-410f-8c24-e8611b088724": {
           "label": "Dictionary of\nconcepts",
-          "x": 82715,
-          "y": 32663,
+          "x": 82488,
+          "y": 43543,
           "id": "6f7b2a52-d7f0-410f-8c24-e8611b088724"
         },
         "9d2072ef-0a21-4873-bddf-6d957b85662f": {
           "label": "Details, thoughts",
-          "x": 82704,
-          "y": 34199,
+          "x": 82477,
+          "y": 45079,
           "id": "9d2072ef-0a21-4873-bddf-6d957b85662f"
         },
         "16aaca91-ee6e-4de1-ac14-8e7b0374100b": {
           "label": "Sections",
-          "x": 82678,
-          "y": 34449,
+          "x": 82451,
+          "y": 45329,
           "id": "16aaca91-ee6e-4de1-ac14-8e7b0374100b"
         },
         "e7608d5c-9431-4658-b868-f5028945c842": {
           "label": "Books",
-          "x": 82768,
-          "y": 34299,
+          "x": 82541,
+          "y": 45179,
           "id": "e7608d5c-9431-4658-b868-f5028945c842"
         },
         "91b89577-b7e2-4c3e-bdce-4407b4a9741c": {
           "label": "R&D institutions",
-          "x": 82799,
-          "y": 34324,
+          "x": 82572,
+          "y": 45204,
           "id": "91b89577-b7e2-4c3e-bdce-4407b4a9741c"
         },
         "beae7e6c-fde3-4922-abae-bec7a3091261": {
           "label": "Sites",
-          "x": 82764,
-          "y": 34349,
+          "x": 82537,
+          "y": 45229,
           "id": "beae7e6c-fde3-4922-abae-bec7a3091261"
         },
         "fff2b9af-8b33-446e-86b0-94316255213f": {
           "label": "Magazines",
-          "x": 82783,
-          "y": 34374,
+          "x": 82556,
+          "y": 45254,
           "id": "fff2b9af-8b33-446e-86b0-94316255213f"
         },
         "f87b05e7-bb87-417d-b5b3-8dae9f0f6f63": {
           "label": "Articles",
-          "x": 82772,
-          "y": 34399,
+          "x": 82545,
+          "y": 45279,
           "id": "f87b05e7-bb87-417d-b5b3-8dae9f0f6f63"
         },
         "62063e03-7694-4064-9730-e5923a1abc1f": {
           "label": "Media content",
-          "x": 82794,
-          "y": 34424,
+          "x": 82567,
+          "y": 45304,
           "id": "62063e03-7694-4064-9730-e5923a1abc1f"
         },
         "621e1d20-8424-46be-883e-768bc90f1454": {
           "label": "Misc. web links",
-          "x": 82796,
-          "y": 34449,
+          "x": 82569,
+          "y": 45329,
           "id": "621e1d20-8424-46be-883e-768bc90f1454"
         },
         "8f21caa7-c4a2-4c87-8a3b-3ffa0d45a32e": {
           "label": "Projects",
-          "x": 82774,
-          "y": 34474,
+          "x": 82547,
+          "y": 45354,
           "id": "8f21caa7-c4a2-4c87-8a3b-3ffa0d45a32e"
         },
         "eedf6ed6-fe0d-4025-9163-30c531b096f9": {
           "label": "Tools",
-          "x": 82765,
-          "y": 34499,
+          "x": 82538,
+          "y": 45379,
           "id": "eedf6ed6-fe0d-4025-9163-30c531b096f9"
         },
         "e32041dd-3a5c-4953-afa2-91b4859f198b": {
           "label": "Organizations",
-          "x": 82793,
-          "y": 34524,
+          "x": 82566,
+          "y": 45404,
           "id": "e32041dd-3a5c-4953-afa2-91b4859f198b"
         },
         "8ef02ce5-a146-40db-8bd7-7cd1b9c8ad60": {
           "label": "Standarts",
-          "x": 82779,
-          "y": 34549,
+          "x": 82552,
+          "y": 45429,
           "id": "8ef02ce5-a146-40db-8bd7-7cd1b9c8ad60"
         },
         "e6b7843c-c523-4721-ac0e-8580e58d4afa": {
           "label": "Forums, Groups",
-          "x": 82801,
-          "y": 34574,
+          "x": 82574,
+          "y": 45454,
           "id": "e6b7843c-c523-4721-ac0e-8580e58d4afa"
         },
         "5c9b31c4-dbce-49ad-b7f5-7c4d2dc6f34e": {
           "label": "Laws",
-          "x": 82765,
-          "y": 34599,
+          "x": 82538,
+          "y": 45479,
           "id": "5c9b31c4-dbce-49ad-b7f5-7c4d2dc6f34e"
         },
         "e230d4c2-b350-4479-a90a-b6b14a949f13": {
           "label": "Adjacent Themes",
-          "x": 82804,
-          "y": 34624,
+          "x": 82577,
+          "y": 45504,
           "id": "e230d4c2-b350-4479-a90a-b6b14a949f13"
         },
         "90b5d9c4-c079-42b7-bd8f-e78061577c71": {
           "label": "Questions",
-          "x": 82544,
-          "y": 34749,
+          "x": 82317,
+          "y": 45629,
           "id": "90b5d9c4-c079-42b7-bd8f-e78061577c71"
         },
         "e8d5b0ee-56b4-4121-a1b3-7a6b0edec001": {
           "label": "Problems",
-          "x": 82542,
-          "y": 34849,
+          "x": 82315,
+          "y": 45729,
           "id": "e8d5b0ee-56b4-4121-a1b3-7a6b0edec001"
         },
         "a38cbf00-d97d-44fd-8feb-ec75b01f8b7c": {
           "label": "Goals",
-          "x": 82531,
-          "y": 34949,
+          "x": 82304,
+          "y": 45829,
           "id": "a38cbf00-d97d-44fd-8feb-ec75b01f8b7c"
         },
         "3233c28c-1116-40a5-aa1e-3e52e47318c1": {
           "id": "3233c28c-1116-40a5-aa1e-3e52e47318c1",
-          "x": 83005,
-          "y": 33739,
+          "x": 82778,
+          "y": 44619,
           "label": "Фолк-рок"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785963": {
@@ -41101,23 +41100,23 @@ var schemeData =
           "shapeProperties": {},
           "label": "Рок-музыка",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785963",
-          "x": 87817,
-          "y": 31208,
+          "x": 87590,
+          "y": 42088,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "09e9cb3d-d52c-45eb-9e12-080ea3e1a6e5": {
           "id": "09e9cb3d-d52c-45eb-9e12-080ea3e1a6e5",
-          "x": 83236,
-          "y": 31067,
+          "x": 83009,
+          "y": 41947,
           "label": "pioneers"
         },
         "87ffe3cf-1664-4925-b346-36ce8260c952": {
           "label": "Led Zeppelin",
           "link": "",
-          "x": 83382,
-          "y": 30946,
+          "x": 83155,
+          "y": 41826,
           "id": "87ffe3cf-1664-4925-b346-36ce8260c952",
           "color": {
             "highlight": {
@@ -41157,8 +41156,8 @@ var schemeData =
         "bc263db3-5806-4a5a-ac8d-2e54ddd2a500": {
           "label": "Black Sabbath",
           "link": "",
-          "x": 83386,
-          "y": 31008,
+          "x": 83159,
+          "y": 41888,
           "id": "bc263db3-5806-4a5a-ac8d-2e54ddd2a500",
           "color": {
             "highlight": {
@@ -41198,8 +41197,8 @@ var schemeData =
         "409e612f-a842-41f4-9345-ef47ac19ec9b": {
           "label": "Deep Purple",
           "link": "",
-          "x": 83380,
-          "y": 31077,
+          "x": 83153,
+          "y": 41957,
           "id": "409e612f-a842-41f4-9345-ef47ac19ec9b",
           "color": {
             "highlight": {
@@ -41239,8 +41238,8 @@ var schemeData =
         "6922636b-aca9-438e-8d1d-ee59bb737b55": {
           "label": "Judas Priest",
           "link": "",
-          "x": 83380,
-          "y": 31176,
+          "x": 83153,
+          "y": 42056,
           "id": "6922636b-aca9-438e-8d1d-ee59bb737b55",
           "color": {
             "highlight": {
@@ -41280,8 +41279,8 @@ var schemeData =
         "abd26d4f-e246-4541-9223-899615ed7f1d": {
           "label": "punk rock",
           "link": "",
-          "x": 83247,
-          "y": 31368,
+          "x": 83020,
+          "y": 42248,
           "id": "abd26d4f-e246-4541-9223-899615ed7f1d",
           "color": {
             "highlight": {
@@ -41321,8 +41320,8 @@ var schemeData =
         "07a2f8e5-b02f-48b6-97b3-c44a18170a35": {
           "label": "Motorhead",
           "link": "",
-          "x": 83375,
-          "y": 31360,
+          "x": 83148,
+          "y": 42240,
           "id": "07a2f8e5-b02f-48b6-97b3-c44a18170a35",
           "color": {
             "highlight": {
@@ -41362,8 +41361,8 @@ var schemeData =
         "f28f420c-b94c-4539-8212-220fade13d26": {
           "label": "new wave",
           "link": "",
-          "x": 83252,
-          "y": 31609,
+          "x": 83025,
+          "y": 42489,
           "id": "f28f420c-b94c-4539-8212-220fade13d26",
           "color": {
             "highlight": {
@@ -41403,8 +41402,8 @@ var schemeData =
         "1f18374d-a439-44d6-80bd-16d2d1e77ce9": {
           "label": "Iron Maiden",
           "link": "",
-          "x": 83379,
-          "y": 31534,
+          "x": 83152,
+          "y": 42414,
           "id": "1f18374d-a439-44d6-80bd-16d2d1e77ce9",
           "color": {
             "highlight": {
@@ -41444,8 +41443,8 @@ var schemeData =
         "dec98802-b3dc-4d89-ad7c-fd96ab3ea422": {
           "label": "Saxon",
           "link": "",
-          "x": 83361,
-          "y": 31663,
+          "x": 83134,
+          "y": 42543,
           "id": "dec98802-b3dc-4d89-ad7c-fd96ab3ea422",
           "color": {
             "highlight": {
@@ -41485,8 +41484,8 @@ var schemeData =
         "a9644777-bae2-42fc-b2ce-f5de2fd908be": {
           "label": "glam metal",
           "link": "",
-          "x": 83258,
-          "y": 31855,
+          "x": 83031,
+          "y": 42735,
           "id": "a9644777-bae2-42fc-b2ce-f5de2fd908be",
           "color": {
             "highlight": {
@@ -41526,8 +41525,8 @@ var schemeData =
         "aade81bd-4494-4a7b-bddf-194ffab48b0a": {
           "label": "Motley Crue",
           "link": "",
-          "x": 83379,
-          "y": 31789,
+          "x": 83152,
+          "y": 42669,
           "id": "aade81bd-4494-4a7b-bddf-194ffab48b0a",
           "color": {
             "highlight": {
@@ -41567,8 +41566,8 @@ var schemeData =
         "22e66f97-3ca0-49a9-82b2-2f4c2db3f745": {
           "label": "Poison",
           "link": "",
-          "x": 83362,
-          "y": 31855,
+          "x": 83135,
+          "y": 42735,
           "id": "22e66f97-3ca0-49a9-82b2-2f4c2db3f745",
           "color": {
             "highlight": {
@@ -41608,8 +41607,8 @@ var schemeData =
         "7f07c8f2-7d1e-4dd2-8d8d-8e7e3a6b8297": {
           "label": "Def Leppard",
           "link": "",
-          "x": 83380,
-          "y": 31914,
+          "x": 83153,
+          "y": 42794,
           "id": "7f07c8f2-7d1e-4dd2-8d8d-8e7e3a6b8297",
           "color": {
             "highlight": {
@@ -41649,8 +41648,8 @@ var schemeData =
         "34002faf-c083-4fb7-a46d-e9bac554590d": {
           "label": "trash metal",
           "link": "",
-          "x": 83267,
-          "y": 32070,
+          "x": 83040,
+          "y": 42950,
           "id": "34002faf-c083-4fb7-a46d-e9bac554590d",
           "color": {
             "highlight": {
@@ -41690,8 +41689,8 @@ var schemeData =
         "9cca735d-24da-41fa-8b8e-b47432a80044": {
           "label": "Metallica",
           "link": "",
-          "x": 83369,
-          "y": 32000,
+          "x": 83142,
+          "y": 42880,
           "id": "9cca735d-24da-41fa-8b8e-b47432a80044",
           "color": {
             "highlight": {
@@ -41731,8 +41730,8 @@ var schemeData =
         "68cafdae-c7ee-4cf2-b26f-4585abd76a5c": {
           "label": "Slayer",
           "link": "",
-          "x": 83361,
-          "y": 32056,
+          "x": 83134,
+          "y": 42936,
           "id": "68cafdae-c7ee-4cf2-b26f-4585abd76a5c",
           "color": {
             "highlight": {
@@ -41772,8 +41771,8 @@ var schemeData =
         "dfe7539e-01d3-4354-ae4e-c315c53f6a72": {
           "label": "Megadeth",
           "link": "",
-          "x": 83373,
-          "y": 32115,
+          "x": 83146,
+          "y": 42995,
           "id": "dfe7539e-01d3-4354-ae4e-c315c53f6a72",
           "color": {
             "highlight": {
@@ -41813,8 +41812,8 @@ var schemeData =
         "88a98983-a3f7-4b0e-a1ed-6f79a0be4dde": {
           "label": "Anthrax",
           "link": "",
-          "x": 83365,
-          "y": 32174,
+          "x": 83138,
+          "y": 43054,
           "id": "88a98983-a3f7-4b0e-a1ed-6f79a0be4dde",
           "color": {
             "highlight": {
@@ -41854,8 +41853,8 @@ var schemeData =
         "d1be355d-0359-4104-a8a0-cbf90ad07f03": {
           "label": "death metal",
           "link": "",
-          "x": 83266,
-          "y": 32312,
+          "x": 83039,
+          "y": 43192,
           "id": "d1be355d-0359-4104-a8a0-cbf90ad07f03",
           "color": {
             "highlight": {
@@ -41895,8 +41894,8 @@ var schemeData =
         "a74111db-044b-400a-b53f-728f005b774c": {
           "label": "Death",
           "link": "",
-          "x": 83360,
-          "y": 32263,
+          "x": 83133,
+          "y": 43143,
           "id": "a74111db-044b-400a-b53f-728f005b774c",
           "color": {
             "highlight": {
@@ -41936,8 +41935,8 @@ var schemeData =
         "0ae3df6a-bc86-41c7-9b4b-21ef5b03cd60": {
           "label": "Possessed",
           "link": "",
-          "x": 83375,
-          "y": 32319,
+          "x": 83148,
+          "y": 43199,
           "id": "0ae3df6a-bc86-41c7-9b4b-21ef5b03cd60",
           "color": {
             "highlight": {
@@ -41977,8 +41976,8 @@ var schemeData =
         "cde61739-9db4-4987-af4c-e9cdfed748e4": {
           "label": "Obituary",
           "link": "",
-          "x": 83368,
-          "y": 32387,
+          "x": 83141,
+          "y": 43267,
           "id": "cde61739-9db4-4987-af4c-e9cdfed748e4",
           "color": {
             "highlight": {
@@ -42018,8 +42017,8 @@ var schemeData =
         "6dcfcced-7053-43b0-b6c4-f24101dbcdc9": {
           "label": "black metal",
           "link": "",
-          "x": 83265,
-          "y": 32565,
+          "x": 83038,
+          "y": 43445,
           "id": "6dcfcced-7053-43b0-b6c4-f24101dbcdc9",
           "color": {
             "highlight": {
@@ -42059,8 +42058,8 @@ var schemeData =
         "2d2e16da-dc28-4a78-b458-1c1a7d1975d9": {
           "label": "Mayhem",
           "link": "",
-          "x": 83368,
-          "y": 32500,
+          "x": 83141,
+          "y": 43380,
           "id": "2d2e16da-dc28-4a78-b458-1c1a7d1975d9",
           "color": {
             "highlight": {
@@ -42100,8 +42099,8 @@ var schemeData =
         "d3a79166-1182-4bbf-bcce-74d45c90c697": {
           "label": "Bathory",
           "link": "",
-          "x": 83365,
-          "y": 32574,
+          "x": 83138,
+          "y": 43454,
           "id": "d3a79166-1182-4bbf-bcce-74d45c90c697",
           "color": {
             "highlight": {
@@ -42141,8 +42140,8 @@ var schemeData =
         "c2acf97b-7176-4ad6-9572-e1bc6789bc37": {
           "label": "Immortal",
           "link": "",
-          "x": 83369,
-          "y": 32644,
+          "x": 83142,
+          "y": 43524,
           "id": "c2acf97b-7176-4ad6-9572-e1bc6789bc37",
           "color": {
             "highlight": {
@@ -42182,8 +42181,8 @@ var schemeData =
         "4f9accab-8e4e-41bf-8362-08ec299e73e1": {
           "label": "groove metal",
           "link": "",
-          "x": 83275,
-          "y": 32822,
+          "x": 83048,
+          "y": 43702,
           "id": "4f9accab-8e4e-41bf-8362-08ec299e73e1",
           "color": {
             "highlight": {
@@ -42223,8 +42222,8 @@ var schemeData =
         "8748ea56-c163-4970-a212-22adb79efd8f": {
           "label": "Pantera",
           "link": "",
-          "x": 83366,
-          "y": 32755,
+          "x": 83139,
+          "y": 43635,
           "id": "8748ea56-c163-4970-a212-22adb79efd8f",
           "color": {
             "highlight": {
@@ -42264,8 +42263,8 @@ var schemeData =
         "c353b792-8a44-4ac0-b5bc-9c150738d5fb": {
           "label": "Sepultura",
           "link": "",
-          "x": 83371,
-          "y": 32820,
+          "x": 83144,
+          "y": 43700,
           "id": "c353b792-8a44-4ac0-b5bc-9c150738d5fb",
           "color": {
             "highlight": {
@@ -42305,8 +42304,8 @@ var schemeData =
         "80243f2f-b38f-4194-8044-87abc3e44fac": {
           "label": "Lamb of God",
           "link": "",
-          "x": 83382,
-          "y": 32902,
+          "x": 83155,
+          "y": 43782,
           "id": "80243f2f-b38f-4194-8044-87abc3e44fac",
           "color": {
             "highlight": {
@@ -42346,8 +42345,8 @@ var schemeData =
         "45d98ab4-7fa7-4a41-a617-1e35d60a17e7": {
           "label": "nu metal",
           "link": "",
-          "x": 83262,
-          "y": 33042,
+          "x": 83035,
+          "y": 43922,
           "id": "45d98ab4-7fa7-4a41-a617-1e35d60a17e7",
           "color": {
             "highlight": {
@@ -42387,8 +42386,8 @@ var schemeData =
         "fdca7f1c-90ef-48bc-bf93-8932c337ad8f": {
           "label": "Korn",
           "link": "",
-          "x": 83356,
-          "y": 32976,
+          "x": 83129,
+          "y": 43856,
           "id": "fdca7f1c-90ef-48bc-bf93-8932c337ad8f",
           "color": {
             "highlight": {
@@ -42428,8 +42427,8 @@ var schemeData =
         "27d516aa-642a-4a15-a56b-028ed362cdc3": {
           "label": "Slipknot",
           "link": "",
-          "x": 83366,
-          "y": 33037,
+          "x": 83139,
+          "y": 43917,
           "id": "27d516aa-642a-4a15-a56b-028ed362cdc3",
           "color": {
             "highlight": {
@@ -42469,8 +42468,8 @@ var schemeData =
         "9c4634d6-e555-458f-9eb9-ebf16976acfc": {
           "label": "Linkin Park",
           "link": "",
-          "x": 83376,
-          "y": 33134,
+          "x": 83149,
+          "y": 44014,
           "id": "9c4634d6-e555-458f-9eb9-ebf16976acfc",
           "color": {
             "highlight": {
@@ -42509,8 +42508,8 @@ var schemeData =
         },
         "8fd6db61-a690-418e-b716-455613ad46b3": {
           "id": "8fd6db61-a690-418e-b716-455613ad46b3",
-          "x": 82996,
-          "y": 32010,
+          "x": 82769,
+          "y": 42890,
           "label": "Heavy Metal"
         },
         "036336f1-11da-45d1-8bd2-b91d40188c57931": {
@@ -43360,8 +43359,8 @@ var schemeData =
         },
         "7f6e4c44-6002-439a-8292-ab3d3fb8b9e5": {
           "label": "Музыкальные\nинструменты",
-          "x": 81425,
-          "y": 37438,
+          "x": 81198,
+          "y": 48318,
           "font": {
             "size": 72,
             "align": "left"
@@ -43377,146 +43376,146 @@ var schemeData =
         },
         "9e0f76d9-54e0-4863-af2e-a1aac8bdf0fe": {
           "label": "Development",
-          "x": 81725,
-          "y": 37888,
+          "x": 81498,
+          "y": 48768,
           "id": "9e0f76d9-54e0-4863-af2e-a1aac8bdf0fe"
         },
         "3d781af9-11df-4d86-ae4b-e425c3270366": {
           "label": "12/4/2019",
-          "x": 81854,
-          "y": 37888,
+          "x": 81627,
+          "y": 48768,
           "id": "3d781af9-11df-4d86-ae4b-e425c3270366"
         },
         "d91ec633-44bc-4667-91ca-56cc5580ffae": {
           "label": "init",
-          "x": 81975,
-          "y": 37888,
+          "x": 81748,
+          "y": 48768,
           "id": "d91ec633-44bc-4667-91ca-56cc5580ffae"
         },
         "dab9ee79-44cc-44b5-a2e5-a02779b1c5f5": {
           "label": "Notes",
-          "x": 81702,
-          "y": 37038,
+          "x": 81475,
+          "y": 47918,
           "id": "dab9ee79-44cc-44b5-a2e5-a02779b1c5f5"
         },
         "a2932a56-b02d-4962-bd1f-65073c9c8d9e": {
           "label": "Dictionary of\nconcepts",
-          "x": 82072,
-          "y": 36198,
+          "x": 81845,
+          "y": 47078,
           "id": "a2932a56-b02d-4962-bd1f-65073c9c8d9e"
         },
         "e17008f1-5848-4614-b5c1-cbddf54a8f55": {
           "label": "Details, thoughts",
-          "x": 81875,
-          "y": 37038,
+          "x": 81648,
+          "y": 47918,
           "id": "e17008f1-5848-4614-b5c1-cbddf54a8f55"
         },
         "75b79c76-cf93-42e3-a6da-2e2d3c811b30": {
           "label": "Sections",
-          "x": 81849,
-          "y": 37288,
+          "x": 81622,
+          "y": 48168,
           "id": "75b79c76-cf93-42e3-a6da-2e2d3c811b30"
         },
         "aa7fdbce-facd-4658-b249-c15e882f565a": {
           "label": "Books",
-          "x": 81939,
-          "y": 37138,
+          "x": 81712,
+          "y": 48018,
           "id": "aa7fdbce-facd-4658-b249-c15e882f565a"
         },
         "e57a591a-4804-4dbc-8b43-7e40b9fc7e69": {
           "label": "R&D institutions",
-          "x": 81970,
-          "y": 37163,
+          "x": 81743,
+          "y": 48043,
           "id": "e57a591a-4804-4dbc-8b43-7e40b9fc7e69"
         },
         "ff1a2a8f-a220-47c5-acbb-462daab2f1e0": {
           "label": "Sites",
-          "x": 81935,
-          "y": 37188,
+          "x": 81708,
+          "y": 48068,
           "id": "ff1a2a8f-a220-47c5-acbb-462daab2f1e0"
         },
         "282f22c7-bdee-405d-aead-c0395fc9d27d": {
           "label": "Magazines",
-          "x": 81954,
-          "y": 37213,
+          "x": 81727,
+          "y": 48093,
           "id": "282f22c7-bdee-405d-aead-c0395fc9d27d"
         },
         "93699da3-5908-467f-a4e9-d8e8c82f8a36": {
           "label": "Articles",
-          "x": 81943,
-          "y": 37238,
+          "x": 81716,
+          "y": 48118,
           "id": "93699da3-5908-467f-a4e9-d8e8c82f8a36"
         },
         "c18ebafb-4849-4ec8-8d03-82cc01354cae": {
           "label": "Media content",
-          "x": 81965,
-          "y": 37263,
+          "x": 81738,
+          "y": 48143,
           "id": "c18ebafb-4849-4ec8-8d03-82cc01354cae"
         },
         "b49c8726-0f10-401e-8043-4bc1fdfd60d5": {
           "label": "Misc. web links",
-          "x": 81967,
-          "y": 37288,
+          "x": 81740,
+          "y": 48168,
           "id": "b49c8726-0f10-401e-8043-4bc1fdfd60d5"
         },
         "6b6d70c6-8386-4e43-aa06-6e58fba433ba": {
           "label": "Projects",
-          "x": 81945,
-          "y": 37313,
+          "x": 81718,
+          "y": 48193,
           "id": "6b6d70c6-8386-4e43-aa06-6e58fba433ba"
         },
         "83d249c6-a278-4960-af8e-a1a9fdb1d234": {
           "label": "Tools",
-          "x": 81936,
-          "y": 37338,
+          "x": 81709,
+          "y": 48218,
           "id": "83d249c6-a278-4960-af8e-a1a9fdb1d234"
         },
         "7aa7b2d2-cfeb-41ea-a0ad-ca18cb248316": {
           "label": "Organizations",
-          "x": 81964,
-          "y": 37363,
+          "x": 81737,
+          "y": 48243,
           "id": "7aa7b2d2-cfeb-41ea-a0ad-ca18cb248316"
         },
         "dc68b297-352b-42fe-99f5-e2bde4c2e345": {
           "label": "Standarts",
-          "x": 81950,
-          "y": 37388,
+          "x": 81723,
+          "y": 48268,
           "id": "dc68b297-352b-42fe-99f5-e2bde4c2e345"
         },
         "13f83de1-6dad-4908-9a9e-e5a2d25a4b96": {
           "label": "Forums, Groups",
-          "x": 81972,
-          "y": 37413,
+          "x": 81745,
+          "y": 48293,
           "id": "13f83de1-6dad-4908-9a9e-e5a2d25a4b96"
         },
         "25d9685c-9665-41fb-b19c-9e54d675f0c8": {
           "label": "Laws",
-          "x": 81936,
-          "y": 37438,
+          "x": 81709,
+          "y": 48318,
           "id": "25d9685c-9665-41fb-b19c-9e54d675f0c8"
         },
         "90a37a4a-2eaa-4eb2-988c-69329d40e505": {
           "label": "Adjacent Themes",
-          "x": 81975,
-          "y": 37463,
+          "x": 81748,
+          "y": 48343,
           "id": "90a37a4a-2eaa-4eb2-988c-69329d40e505"
         },
         "f40c6a21-5a63-4458-af15-58b925bca423": {
           "label": "Questions",
-          "x": 81715,
-          "y": 37588,
+          "x": 81488,
+          "y": 48468,
           "id": "f40c6a21-5a63-4458-af15-58b925bca423"
         },
         "037d3411-411e-4cb0-8dae-331ab80f4501": {
           "label": "Problems",
-          "x": 81713,
-          "y": 37688,
+          "x": 81486,
+          "y": 48568,
           "id": "037d3411-411e-4cb0-8dae-331ab80f4501"
         },
         "17c0caba-56f3-4ebd-bcfc-8e8667e74415": {
           "label": "Goals",
-          "x": 81702,
-          "y": 37788,
+          "x": 81475,
+          "y": 48668,
           "id": "17c0caba-56f3-4ebd-bcfc-8e8667e74415"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785963364": {
@@ -43549,8 +43548,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Музыкальные\nинструменты",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785963364",
-          "x": 88380,
-          "y": 36978,
+          "x": 88153,
+          "y": 47858,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -43558,176 +43557,176 @@ var schemeData =
         "ddf2e644-55ab-45ad-965e-be7097906d99": {
           "label": "Balafon - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Balafon",
-          "x": 82406,
-          "y": 36101,
+          "x": 82179,
+          "y": 46981,
           "id": "ddf2e644-55ab-45ad-965e-be7097906d99"
         },
         "379269e4-1ed3-4753-ae96-3080742017a3": {
           "label": "Balafon - YouTube",
           "link": "https://www.youtube.com/results?search_query=Balafon",
-          "x": 82784,
-          "y": 36088,
+          "x": 82557,
+          "y": 46968,
           "id": "379269e4-1ed3-4753-ae96-3080742017a3"
         },
         "ffe6ca34-2c37-402d-9a2f-1dd45138360a": {
           "label": "Balafon style Sénoufo - Adama Diabaté - Niangoya - YouTube",
           "link": "https://www.youtube.com/watch?v=kXXhp_bZvck&ab_channel=BaraGnouma",
-          "x": 83111,
-          "y": 36053,
+          "x": 82884,
+          "y": 46933,
           "id": "ffe6ca34-2c37-402d-9a2f-1dd45138360a"
         },
         "20931577-e99d-468e-9289-4d97ac2012cf": {
           "label": "Bassidi and Khalifa Koné - Balafon Duet (August 2015) - YouTube",
           "link": "https://www.youtube.com/watch?v=z97mqEil3Ww&ab_channel=BassidiKone",
-          "x": 83123,
-          "y": 36078,
+          "x": 82896,
+          "y": 46958,
           "id": "20931577-e99d-468e-9289-4d97ac2012cf"
         },
         "caa63489-01d6-4b94-a163-4019ce18e17d": {
           "label": "How to Play the Balafon | African Drums - YouTube",
           "link": "https://www.youtube.com/watch?v=FOJ25DHLLok&ab_channel=Howcast",
-          "x": 83076,
-          "y": 36103,
+          "x": 82849,
+          "y": 46983,
           "id": "caa63489-01d6-4b94-a163-4019ce18e17d"
         },
         "1c289f75-8a21-4c75-98eb-757e2aaf8ef0": {
           "label": "CONCERT DJARABIKAN BALAFON (Au FESTIBALAFON 04) - YouTube",
           "link": "https://www.youtube.com/watch?v=QSSokqSi8HU&ab_channel=DjarabikanBalafon",
-          "x": 83144,
-          "y": 36128,
+          "x": 82917,
+          "y": 47008,
           "id": "1c289f75-8a21-4c75-98eb-757e2aaf8ef0"
         },
         "d532c2c8-e776-4fc1-925d-703d96d85bd9": {
           "label": "Glockenspiel - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Glockenspiel",
-          "x": 82422,
-          "y": 36251,
+          "x": 82195,
+          "y": 47131,
           "id": "d532c2c8-e776-4fc1-925d-703d96d85bd9"
         },
         "a5b89f3d-9765-4367-9733-7bf7784d78c3": {
           "label": "Glockenspiel - YouTube",
           "link": "https://www.youtube.com/results?search_query=Glockenspiel",
-          "x": 82743,
-          "y": 36250,
+          "x": 82516,
+          "y": 47130,
           "id": "a5b89f3d-9765-4367-9733-7bf7784d78c3"
         },
         "c6f94f17-aff2-4e51-b126-547359713242": {
           "label": "Harry Potter Theme Song on Glockenspiel - YouTube",
           "link": "https://www.youtube.com/watch?v=1XgdKTfy1Pw&ab_channel=trommelumsen",
-          "x": 83079,
-          "y": 36180,
+          "x": 82852,
+          "y": 47060,
           "id": "c6f94f17-aff2-4e51-b126-547359713242"
         },
         "4b06b056-684a-4c55-98a2-8c5c88cfe247": {
           "label": "Schiller - Das Glockenspiel (Original Video) - YouTube",
           "link": "https://www.youtube.com/watch?v=UDi0KGCv8B4&ab_channel=Carlover21",
-          "x": 83080,
-          "y": 36205,
+          "x": 82853,
+          "y": 47085,
           "id": "4b06b056-684a-4c55-98a2-8c5c88cfe247"
         },
         "377b2e5f-2114-4719-bb30-9b0b906350ce": {
           "label": "Pachebel Canon in D (Glockenspiel) - YouTube",
           "link": "https://www.youtube.com/watch?v=q1KOOfP9vfU&ab_channel=verochin",
-          "x": 83059,
-          "y": 36230,
+          "x": 82832,
+          "y": 47110,
           "id": "377b2e5f-2114-4719-bb30-9b0b906350ce"
         },
         "b49d6f23-2c8e-41ab-b48b-bb7ce1047263": {
           "label": "Glockenspiel Solo- Somewhere Over the Rainbow - YouTube",
           "link": "https://www.youtube.com/watch?v=7sYsxcdTcXY&ab_channel=MUSTICK%E9%9F%B3%E6%A8%82%E6%A3%92",
-          "x": 83103,
-          "y": 36255,
+          "x": 82876,
+          "y": 47135,
           "id": "b49d6f23-2c8e-41ab-b48b-bb7ce1047263"
         },
         "22312d7b-9b12-4e19-9c93-8c8b77c5c5ef": {
           "label": "Nenjukkul Peidhidum - guitar and glockenspiel cover - YouTube",
           "link": "https://www.youtube.com/watch?v=-D0aFMoAj30&ab_channel=RhythmQueues",
-          "x": 83110,
-          "y": 36280,
+          "x": 82883,
+          "y": 47160,
           "id": "22312d7b-9b12-4e19-9c93-8c8b77c5c5ef"
         },
         "bb3ece3d-4004-475a-9b87-8f2a5ebde8d7": {
           "label": "Mozart - The Magic Flute - Glockenspiel Excerpt - YouTube",
           "link": "https://www.youtube.com/watch?v=hd4-Cam5vzU&ab_channel=JennyMarasti",
-          "x": 83098,
-          "y": 36305,
+          "x": 82871,
+          "y": 47185,
           "id": "bb3ece3d-4004-475a-9b87-8f2a5ebde8d7"
         },
         "f44b9958-bacb-4197-a2c7-21eab969b3b0": {
           "label": "CLAUDE DEBUSSY: CLAIR DE LUNE (vibraphone, glockenspiel +piano) - YouTube",
           "link": "https://www.youtube.com/watch?v=6DR8dA9TDOc&ab_channel=AnnaSemenova",
-          "x": 83172,
-          "y": 36330,
+          "x": 82945,
+          "y": 47210,
           "id": "f44b9958-bacb-4197-a2c7-21eab969b3b0"
         },
         "611c6dbf-6090-44ef-b04a-a0f8dbdf6716": {
           "label": "Jal tarang - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Jal_tarang",
-          "x": 82417,
-          "y": 36476,
+          "x": 82190,
+          "y": 47356,
           "id": "611c6dbf-6090-44ef-b04a-a0f8dbdf6716"
         },
         "f297370d-c819-49f7-a9ba-25b18a1b5a9a": {
           "label": "Kulintang - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Kulintang",
-          "x": 82415,
-          "y": 36501,
+          "x": 82188,
+          "y": 47381,
           "id": "f297370d-c819-49f7-a9ba-25b18a1b5a9a"
         },
         "db2b4673-740b-44f4-a846-d4eafd420748": {
           "label": "Lamellophone - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Lamellophone",
-          "x": 82430,
-          "y": 36526,
+          "x": 82203,
+          "y": 47406,
           "id": "db2b4673-740b-44f4-a846-d4eafd420748"
         },
         "0ea644bd-a047-432a-b32b-deccb6a1ab32": {
           "label": "Lithophone - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Lithophone",
-          "x": 82421,
-          "y": 36551,
+          "x": 82194,
+          "y": 47431,
           "id": "0ea644bd-a047-432a-b32b-deccb6a1ab32"
         },
         "9d36a40b-e2d6-442c-99a0-ec3da72b8629": {
           "label": "Marimba - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Marimba",
-          "x": 82414,
-          "y": 36576,
+          "x": 82187,
+          "y": 47456,
           "id": "9d36a40b-e2d6-442c-99a0-ec3da72b8629"
         },
         "fb677e21-3e92-49d3-a1d2-e03f31414592": {
           "label": "Metallophone - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Metallophone",
-          "x": 82429,
-          "y": 36601,
+          "x": 82202,
+          "y": 47481,
           "id": "fb677e21-3e92-49d3-a1d2-e03f31414592"
         },
         "6c1ff66b-34bb-4ee3-9c55-6de4fce4a0af": {
           "label": "Musical Stones of Skiddaw - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Musical_Stones_of_Skiddaw",
-          "x": 82470,
-          "y": 36626,
+          "x": 82243,
+          "y": 47506,
           "id": "6c1ff66b-34bb-4ee3-9c55-6de4fce4a0af"
         },
         "a477ec51-e369-428a-bc6b-095a2701af86": {
           "label": "Thongophone - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Thongophone",
-          "x": 82430,
-          "y": 36651,
+          "x": 82203,
+          "y": 47531,
           "id": "a477ec51-e369-428a-bc6b-095a2701af86"
         },
         "9ef55ebb-c015-46fb-92dc-576bc61eb18c": {
           "label": "Vibraphone - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Vibraphone",
-          "x": 82422,
-          "y": 36676,
+          "x": 82195,
+          "y": 47556,
           "id": "9ef55ebb-c015-46fb-92dc-576bc61eb18c"
         },
         "cad45304-32a8-4700-a562-24fbd6e98af3": {
           "label": "Category:Masterpieces of the Oral and Intangible Heritage of Humanity - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Category:Masterpieces_of_the_Oral_and_Intangible_Heritage_of_Humanity",
-          "x": 82611,
-          "y": 36701,
+          "x": 82384,
+          "y": 47581,
           "id": "cad45304-32a8-4700-a562-24fbd6e98af3"
         },
         "51600a71-b194-4c5b-877e-1e1edc76b414831": {
@@ -43754,14 +43753,14 @@ var schemeData =
           "shapeProperties": {},
           "label": "Xylophone - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Xylophone",
-          "x": 82413,
-          "y": 35972,
+          "x": 82186,
+          "y": 46852,
           "id": "51600a71-b194-4c5b-877e-1e1edc76b414831"
         },
         "2a2396f8-55da-4aa4-9bec-78cbf7c2b323": {
           "id": "2a2396f8-55da-4aa4-9bec-78cbf7c2b323",
-          "x": 82452,
-          "y": 36451,
+          "x": 82225,
+          "y": 47331,
           "label": "Глюкофон (Steel_tongue_drum)",
           "link": "https://ru.wikipedia.org/wiki/%D0%93%D0%BB%D1%8E%D0%BA%D0%BE%D1%84%D0%BE%D0%BD",
           "shape": "box",
@@ -43777,8 +43776,8 @@ var schemeData =
         },
         "1c079ba8-a1de-42f8-b507-df8dc6aa0e49": {
           "label": "Музыканты",
-          "x": 82346,
-          "y": 28060,
+          "x": 82119,
+          "y": 38940,
           "font": {
             "size": 72,
             "align": "left"
@@ -43794,146 +43793,146 @@ var schemeData =
         },
         "fe572647-9c57-40ae-9b86-25a751dadb43": {
           "label": "Development",
-          "x": 82646,
-          "y": 28510,
+          "x": 82419,
+          "y": 39390,
           "id": "fe572647-9c57-40ae-9b86-25a751dadb43"
         },
         "a09fc6b5-d8d7-4f9c-adcf-fb48f890cd30": {
           "label": "12/4/2019",
-          "x": 82775,
-          "y": 28510,
+          "x": 82548,
+          "y": 39390,
           "id": "a09fc6b5-d8d7-4f9c-adcf-fb48f890cd30"
         },
         "07fcccb5-25af-436e-8da9-453dec29d5c9": {
           "label": "init",
-          "x": 82896,
-          "y": 28510,
+          "x": 82669,
+          "y": 39390,
           "id": "07fcccb5-25af-436e-8da9-453dec29d5c9"
         },
         "579048f1-2003-4599-a651-3acdb164576a": {
           "label": "Notes",
-          "x": 82622,
-          "y": 27660,
+          "x": 82395,
+          "y": 38540,
           "id": "579048f1-2003-4599-a651-3acdb164576a"
         },
         "42caed0f-c307-4680-899b-18c9297f9d04": {
           "label": "Dictionary of\nconcepts",
-          "x": 82819,
-          "y": 26498,
+          "x": 82592,
+          "y": 37378,
           "id": "42caed0f-c307-4680-899b-18c9297f9d04"
         },
         "a122898c-e98d-4c8b-b2ac-66e3db6fbd51": {
           "label": "Details, thoughts",
-          "x": 82796,
-          "y": 27660,
+          "x": 82569,
+          "y": 38540,
           "id": "a122898c-e98d-4c8b-b2ac-66e3db6fbd51"
         },
         "520c545f-5485-4718-aa1e-b2bf7914e409": {
           "label": "Sections",
-          "x": 82770,
-          "y": 27910,
+          "x": 82543,
+          "y": 38790,
           "id": "520c545f-5485-4718-aa1e-b2bf7914e409"
         },
         "76a460d1-7856-4a6c-9ffc-236b58483913": {
           "label": "Books",
-          "x": 82860,
-          "y": 27760,
+          "x": 82633,
+          "y": 38640,
           "id": "76a460d1-7856-4a6c-9ffc-236b58483913"
         },
         "e1bd8606-a194-4539-8db1-420df1f5acd5": {
           "label": "R&D institutions",
-          "x": 82890,
-          "y": 27785,
+          "x": 82663,
+          "y": 38665,
           "id": "e1bd8606-a194-4539-8db1-420df1f5acd5"
         },
         "d41b8b19-2880-4d4c-ae42-710e4bdf2369": {
           "label": "Sites",
-          "x": 82856,
-          "y": 27810,
+          "x": 82629,
+          "y": 38690,
           "id": "d41b8b19-2880-4d4c-ae42-710e4bdf2369"
         },
         "a8af61f3-8b91-4941-a61c-334eb117e165": {
           "label": "Magazines",
-          "x": 82875,
-          "y": 27835,
+          "x": 82648,
+          "y": 38715,
           "id": "a8af61f3-8b91-4941-a61c-334eb117e165"
         },
         "22345f4b-60fd-4e90-8bcc-815ff48f47bd": {
           "label": "Articles",
-          "x": 82863,
-          "y": 27860,
+          "x": 82636,
+          "y": 38740,
           "id": "22345f4b-60fd-4e90-8bcc-815ff48f47bd"
         },
         "7e8a653d-8302-46b5-90c6-a574f01e4165": {
           "label": "Media content",
-          "x": 82885,
-          "y": 27885,
+          "x": 82658,
+          "y": 38765,
           "id": "7e8a653d-8302-46b5-90c6-a574f01e4165"
         },
         "2947fe61-0de5-41d5-a1fa-9ce5dc3bce07": {
           "label": "Misc. web links",
-          "x": 82888,
-          "y": 27910,
+          "x": 82661,
+          "y": 38790,
           "id": "2947fe61-0de5-41d5-a1fa-9ce5dc3bce07"
         },
         "879b0d6b-3e00-45c9-b09b-a24b3783ae58": {
           "label": "Projects",
-          "x": 82866,
-          "y": 27935,
+          "x": 82639,
+          "y": 38815,
           "id": "879b0d6b-3e00-45c9-b09b-a24b3783ae58"
         },
         "5aaf52af-cc44-41a9-bf3e-ad62bd24c5fc": {
           "label": "Tools",
-          "x": 82857,
-          "y": 27960,
+          "x": 82630,
+          "y": 38840,
           "id": "5aaf52af-cc44-41a9-bf3e-ad62bd24c5fc"
         },
         "83e20da7-100c-4a3e-9478-27c70e6654a9": {
           "label": "Organizations",
-          "x": 82884,
-          "y": 27985,
+          "x": 82657,
+          "y": 38865,
           "id": "83e20da7-100c-4a3e-9478-27c70e6654a9"
         },
         "3ab593d5-781a-49d4-a020-64ee6f59eca2": {
           "label": "Standarts",
-          "x": 82871,
-          "y": 28010,
+          "x": 82644,
+          "y": 38890,
           "id": "3ab593d5-781a-49d4-a020-64ee6f59eca2"
         },
         "90d1c6d5-7002-4456-a541-164432f031fd": {
           "label": "Forums, Groups",
-          "x": 82892,
-          "y": 28035,
+          "x": 82665,
+          "y": 38915,
           "id": "90d1c6d5-7002-4456-a541-164432f031fd"
         },
         "025619cc-6bc1-410b-a437-cb4fe3f7340e": {
           "label": "Laws",
-          "x": 82857,
-          "y": 28060,
+          "x": 82630,
+          "y": 38940,
           "id": "025619cc-6bc1-410b-a437-cb4fe3f7340e"
         },
         "263dad6e-5aa9-4167-a3e1-a378cc76ce1d": {
           "label": "Adjacent Themes",
-          "x": 82896,
-          "y": 28085,
+          "x": 82669,
+          "y": 38965,
           "id": "263dad6e-5aa9-4167-a3e1-a378cc76ce1d"
         },
         "d7fd35b0-b489-4f84-8ba4-399a52ef3ea6": {
           "label": "Questions",
-          "x": 82636,
-          "y": 28210,
+          "x": 82409,
+          "y": 39090,
           "id": "d7fd35b0-b489-4f84-8ba4-399a52ef3ea6"
         },
         "b1a0da04-835e-4378-b885-b7d215af69a1": {
           "label": "Problems",
-          "x": 82634,
-          "y": 28310,
+          "x": 82407,
+          "y": 39190,
           "id": "b1a0da04-835e-4378-b885-b7d215af69a1"
         },
         "205cbd23-05ed-40cb-bf76-2c5bec446e8e": {
           "label": "Goals",
-          "x": 82622,
-          "y": 28410,
+          "x": 82395,
+          "y": 39290,
           "id": "205cbd23-05ed-40cb-bf76-2c5bec446e8e"
         },
         "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785963684": {
@@ -43966,8 +43965,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Музыканты",
           "id": "e2f5fadc-cfd2-490c-add2-5798d42dc62685645975930497563541145798485798785963684",
-          "x": 87779,
-          "y": 26547,
+          "x": 87552,
+          "y": 37427,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -43975,183 +43974,183 @@ var schemeData =
         "0ce5696d-d933-4afb-946e-2d17778a9035": {
           "label": "Tom Jones | Similar Artists | AllMusic",
           "link": "https://www.allmusic.com/artist/tom-jones-mn0000609396/related",
-          "x": 83155,
-          "y": 26071,
+          "x": 82928,
+          "y": 36951,
           "id": "0ce5696d-d933-4afb-946e-2d17778a9035"
         },
         "ce3a8ac9-c742-47c7-8d5d-b27687f7c7de": {
           "label": "Bryan Ferry - Slave To Love - YouTube",
           "link": "https://www.youtube.com/watch?v=UH1CMCtV4to&list=RDEM5NMdEHSHj-EZtFbw_QF4Ag&index=1",
-          "x": 83689,
-          "y": 26177,
+          "x": 83462,
+          "y": 37057,
           "id": "ce3a8ac9-c742-47c7-8d5d-b27687f7c7de"
         },
         "46103555-7188-43f5-9791-7a6f9cbe0ff8": {
           "label": "!!!! Bryan Ferry & Todd Terje - Johnny & Mary [Official Video] - YouTube",
           "link": "https://www.youtube.com/watch?v=Din_eWjJWe0&ab_channel=BryanFerry",
-          "x": 83791,
-          "y": 26202,
+          "x": 83564,
+          "y": 37082,
           "id": "46103555-7188-43f5-9791-7a6f9cbe0ff8"
         },
         "e45b4add-f05a-4eab-9d30-e9d0430de624": {
           "label": "Bryan Ferry - YouTube",
           "link": "https://www.youtube.com/user/bryanferry/videos",
-          "x": 83638,
-          "y": 26250,
+          "x": 83411,
+          "y": 37130,
           "id": "e45b4add-f05a-4eab-9d30-e9d0430de624"
         },
         "f349bedf-d5a7-41f6-81e0-48529d07a59d": {
           "label": "Robert Palmer Clues - YouTube",
           "link": "https://www.youtube.com/results?search_query=Robert+Palmer++Clues",
-          "x": 84215,
-          "y": 26240,
+          "x": 83988,
+          "y": 37120,
           "id": "f349bedf-d5a7-41f6-81e0-48529d07a59d"
         },
         "a70852b2-3e29-47a7-8cc1-7c086330e2fe": {
           "label": "Robert Palmer - Looking For Clues - YouTube",
           "link": "https://www.youtube.com/watch?v=92wCPfqyVbg&ab_channel=RobertPalmerVEVO",
-          "x": 84534,
-          "y": 26234,
+          "x": 84307,
+          "y": 37114,
           "id": "a70852b2-3e29-47a7-8cc1-7c086330e2fe"
         },
         "4a79fa7a-608e-4765-a334-c93d4bcb8c8d": {
           "label": "Robert Palmer - Johnny and Mary - YouTube",
           "link": "https://www.youtube.com/watch?v=7_SAMrDnXOE&ab_channel=RobertPalmerVEVO",
-          "x": 84531,
-          "y": 26259,
+          "x": 84304,
+          "y": 37139,
           "id": "4a79fa7a-608e-4765-a334-c93d4bcb8c8d"
         },
         "d1cd521c-c395-44d8-b193-6303fa6c3739": {
           "label": "Michael Bolton | Biography, Albums, Streaming Links | AllMusic",
           "link": "https://www.allmusic.com/artist/michael-bolton-mn0000387720",
-          "x": 83238,
-          "y": 26417,
+          "x": 83011,
+          "y": 37297,
           "id": "d1cd521c-c395-44d8-b193-6303fa6c3739"
         },
         "7b4e5cae-6636-44b6-b207-d73326e1486f": {
           "label": "Michael Bolton - YouTube",
           "link": "https://www.youtube.com/results?search_query=Michael+Bolton",
-          "x": 83595,
-          "y": 26411,
+          "x": 83368,
+          "y": 37291,
           "id": "7b4e5cae-6636-44b6-b207-d73326e1486f"
         },
         "48919461-f348-4cea-bc27-b28fa1c23fdc": {
           "label": "Michael Bolton - To Love Somebody (Live) - YouTube",
           "link": "https://www.youtube.com/watch?v=s1BDlJvr8yQ&list=PL6A89D1C95B2BF217&index=3&ab_channel=MichaelBoltonVEVO",
-          "x": 83920,
-          "y": 26372,
+          "x": 83693,
+          "y": 37252,
           "id": "48919461-f348-4cea-bc27-b28fa1c23fdc"
         },
         "e3659721-27cd-47c0-b34f-1b97f13ff49b": {
           "label": "Michael Bolton - To Love Somebody - YouTube",
           "link": "https://www.youtube.com/results?search_query=Michael+Bolton+-+To+Love+Somebody",
-          "x": 83905,
-          "y": 26448,
+          "x": 83678,
+          "y": 37328,
           "id": "e3659721-27cd-47c0-b34f-1b97f13ff49b"
         },
         "ba4b79e2-7f0b-4d80-968c-af125d8893c6": {
           "label": "To Love Somebody - YouTube",
           "link": "https://www.youtube.com/watch?v=Kd8JfESONr8&ab_channel=MichaelBolton-Topic",
-          "x": 84208,
-          "y": 26437,
+          "x": 83981,
+          "y": 37317,
           "id": "ba4b79e2-7f0b-4d80-968c-af125d8893c6"
         },
         "5b8119c1-171a-4834-8dbf-02f57d84f7c1": {
           "label": "!!!! To Love Somebody By Michael Bolton ~ Lyrics On Screen ~ - YouTube",
           "link": "https://www.youtube.com/watch?v=sH4YBFaZDuI&ab_channel=RYANRAVALON",
-          "x": 84344,
-          "y": 26462,
+          "x": 84117,
+          "y": 37342,
           "id": "5b8119c1-171a-4834-8dbf-02f57d84f7c1"
         },
         "cab0530e-dbcd-47d4-93ba-c35ce8945030": {
           "label": "Simply Red | Biography, Albums, Streaming Links | AllMusic",
           "link": "https://www.allmusic.com/artist/simply-red-mn0000757157",
-          "x": 83227,
-          "y": 26567,
+          "x": 83000,
+          "y": 37447,
           "id": "cab0530e-dbcd-47d4-93ba-c35ce8945030"
         },
         "36a9f8c9-2b0e-4667-b552-3acdc0a61976": {
           "label": "Simply Red best songs - YouTube",
           "link": "https://www.youtube.com/results?search_query=Simply+Red+best+songs",
-          "x": 83686,
-          "y": 26565,
+          "x": 83459,
+          "y": 37445,
           "id": "36a9f8c9-2b0e-4667-b552-3acdc0a61976"
         },
         "1ad6c065-618c-4cff-8b35-a44369be06ad": {
           "label": "Simply Red - Sunrise (Live at Sydney Opera House) - YouTube",
           "link": "https://www.youtube.com/watch?v=GWv4MPGYEKo&list=PLL9Z8Ax5rZnnbR0YgEGIKLGjl8aLvNx7w&index=4&ab_channel=SimplyRedVEVO",
-          "x": 84133,
-          "y": 26524,
+          "x": 83906,
+          "y": 37404,
           "id": "1ad6c065-618c-4cff-8b35-a44369be06ad"
         },
         "8fd9ea1f-f0f9-4f01-be82-fed1599a4e9e": {
           "label": "Simply Red - Stars - YouTube",
           "link": "https://www.youtube.com/watch?v=izOdvBmTDh0&list=PLL9Z8Ax5rZnnbR0YgEGIKLGjl8aLvNx7w&index=1",
-          "x": 84027,
-          "y": 26559,
+          "x": 83800,
+          "y": 37439,
           "id": "8fd9ea1f-f0f9-4f01-be82-fed1599a4e9e"
         },
         "e8cb8aae-fd05-46fa-a351-f3e1d07e395a": {
           "label": "Curtis Stigers | Biography, Albums, Streaming Links | AllMusic",
           "link": "https://www.allmusic.com/artist/curtis-stigers-mn0000141774",
-          "x": 83234,
-          "y": 26667,
+          "x": 83007,
+          "y": 37547,
           "id": "e8cb8aae-fd05-46fa-a351-f3e1d07e395a"
         },
         "528a779b-aaae-4b6d-ad29-77b0d7258072": {
           "label": "Curtis Stigers best songs - YouTube",
           "link": "https://www.youtube.com/results?search_query=Curtis+Stigers+best+songs",
-          "x": 83650,
-          "y": 26668,
+          "x": 83423,
+          "y": 37548,
           "id": "528a779b-aaae-4b6d-ad29-77b0d7258072"
         },
         "7545dc98-96b6-4dd9-95bc-a5604bdb9912": {
           "label": "Curtis Stigers - I Wonder Why - YouTube",
           "link": "https://www.youtube.com/watch?v=VS2Hp9Ck9mQ&list=RDlRggnvhS0Wk&index=3&ab_channel=CurtisStigersVEVO",
-          "x": 83965,
-          "y": 26657,
+          "x": 83738,
+          "y": 37537,
           "id": "7545dc98-96b6-4dd9-95bc-a5604bdb9912"
         },
         "98eef04e-cb0c-4437-8331-0d700cf8defd": {
           "label": "Curtis Stigers & The Forest Rangers - John The Revelator - YouTube",
           "link": "https://www.youtube.com/watch?v=b6NDdF-R2uk&list=PLCTV32xRV51_ki0oRpIMlpVFmQ8soEwre&ab_channel=brcck",
-          "x": 84055,
-          "y": 26682,
+          "x": 83828,
+          "y": 37562,
           "id": "98eef04e-cb0c-4437-8331-0d700cf8defd"
         },
         "12cc9dd1-38c7-4f89-a262-a9b4d1d0ccad": {
           "label": "!!!! Curtis Stigers & The Forest Rangers - John The Revelator - YouTube",
           "link": "https://www.youtube.com/watch?v=b6NDdF-R2uk&list=PLCTV32xRV51_ki0oRpIMlpVFmQ8soEwre&index=1&ab_channel=brcck",
-          "x": 84567,
-          "y": 26680,
+          "x": 84340,
+          "y": 37560,
           "id": "12cc9dd1-38c7-4f89-a262-a9b4d1d0ccad"
         },
         "09d687ef-7439-4002-995a-b2e71d3455d5": {
           "label": "Grayson Hugh | Biography, Albums, Streaming Links | AllMusic",
           "link": "https://www.allmusic.com/artist/grayson-hugh-mn0000153129",
-          "x": 83237,
-          "y": 26792,
+          "x": 83010,
+          "y": 37672,
           "id": "09d687ef-7439-4002-995a-b2e71d3455d5"
         },
         "4e59caf0-a19f-4e30-a31d-b5d8b96b05b0": {
           "label": "Robbie Williams | Biography, Albums, Streaming Links | AllMusic",
           "link": "https://www.allmusic.com/artist/robbie-williams-mn0000227697",
-          "x": 83242,
-          "y": 26817,
+          "x": 83015,
+          "y": 37697,
           "id": "4e59caf0-a19f-4e30-a31d-b5d8b96b05b0"
         },
         "1a3cbd05-5052-42df-a235-c151005fa388": {
           "label": "The Senators | Songs | AllMusic",
           "link": "https://www.allmusic.com/artist/the-senators-mn0002128591",
-          "x": 83140,
-          "y": 26842,
+          "x": 82913,
+          "y": 37722,
           "id": "1a3cbd05-5052-42df-a235-c151005fa388"
         },
         "fb0f08f1-ec0c-4ac7-aea8-78293aa17833": {
           "label": "The Art of Noise | Biography, Albums, Streaming Links | AllMusic",
           "link": "https://www.allmusic.com/artist/the-art-of-noise-mn0000930204",
-          "x": 83243,
-          "y": 26867,
+          "x": 83016,
+          "y": 37747,
           "id": "fb0f08f1-ec0c-4ac7-aea8-78293aa17833"
         },
         "062a26cc-bc61-4412-b971-2869d37398aa439": {
@@ -44178,8 +44177,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "!!!! Bryan Ferry | Biography, Albums, Streaming Links | AllMusic",
           "link": "https://www.allmusic.com/artist/bryan-ferry-mn0000524050",
-          "x": 83239,
-          "y": 26161,
+          "x": 83012,
+          "y": 37041,
           "id": "062a26cc-bc61-4412-b971-2869d37398aa439"
         },
         "e638323d-aa1b-4900-916c-70e1d1817ef5939": {
@@ -44206,8 +44205,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "!!!! Bryan Ferry & Todd Terje - Johnny & Mary [Official Video] - YouTube",
           "link": "https://www.youtube.com/watch?v=Din_eWjJWe0&list=RDEM5NMdEHSHj-EZtFbw_QF4Ag&index=3&ab_channel=BryanFerry",
-          "x": 83791,
-          "y": 26126,
+          "x": 83564,
+          "y": 37006,
           "id": "e638323d-aa1b-4900-916c-70e1d1817ef5939"
         },
         "6bcfc34d-715f-4266-81b9-22999399ecec": {
@@ -44321,1811 +44320,2211 @@ var schemeData =
         "766e4824-d165-4f03-ac71-b0bf1abe98a4": {
           "label": "Классическая музыка — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0",
-          "x": 81892,
-          "y": -2587,
+          "x": 78905,
+          "y": -2348,
           "id": "766e4824-d165-4f03-ac71-b0bf1abe98a4"
         },
         "0e1ba4c3-7846-4549-a65a-587c83880307": {
           "label": "Classical music - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Classical_music",
-          "x": 82336,
-          "y": -2587,
+          "x": 79349,
+          "y": -2348,
           "id": "0e1ba4c3-7846-4549-a65a-587c83880307"
         },
         "0ec92e56-7e62-4689-abee-5cb84178a425": {
           "label": "Category:Classical composers - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Category:Classical_composers",
-          "x": 82879,
-          "y": -2607,
+          "x": 79892,
+          "y": -2368,
           "id": "0ec92e56-7e62-4689-abee-5cb84178a425"
         },
         "369f6c29-5a15-4b1f-9358-8d652803332e": {
           "label": "List of classical music composers by era - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/List_of_classical_music_composers_by_era",
-          "x": 82907,
-          "y": -2547,
+          "x": 79920,
+          "y": -2308,
           "id": "369f6c29-5a15-4b1f-9358-8d652803332e"
         },
         "42344775-d2a1-4ec9-bd99-f4cd499157c1": {
           "label": "Lists of composers - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Lists_of_composers",
-          "x": 83416,
-          "y": -2548,
+          "x": 80429,
+          "y": -2309,
           "id": "42344775-d2a1-4ec9-bd99-f4cd499157c1"
         },
         "445f17b5-77fc-48fa-9662-707b066d0d21": {
-          "label": "Dieterich Buxtehude - Wikipedia, the free encyclopedia",
+          "label": "Dieterich Buxtehude - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Dieterich_Buxtehude",
-          "x": 82235,
-          "y": -1498,
-          "id": "445f17b5-77fc-48fa-9662-707b066d0d21"
+          "x": 79701,
+          "y": -1092,
+          "id": "445f17b5-77fc-48fa-9662-707b066d0d21",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "90115b63-01e5-4a99-8a8f-465aa0e0d453": {
-          "label": "Antonio Vivaldi - Wikipedia, the free encyclopedia",
+          "label": "Antonio Vivaldi - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Antonio_Vivaldi",
-          "x": 82217,
-          "y": -1473,
-          "id": "90115b63-01e5-4a99-8a8f-465aa0e0d453"
+          "x": 79580,
+          "y": -705,
+          "id": "90115b63-01e5-4a99-8a8f-465aa0e0d453",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "00991b60-d462-4e5b-87e7-c93abca8aa34": {
-          "label": "George Frideric Handel - Wikipedia, the free encyclopedia",
+          "label": "George Frideric Handel - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/George_Frideric_Handel",
-          "x": 82246,
-          "y": -1448,
-          "id": "00991b60-d462-4e5b-87e7-c93abca8aa34"
+          "x": 79770,
+          "y": -401,
+          "id": "00991b60-d462-4e5b-87e7-c93abca8aa34",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "df93e61e-d916-40c1-af0f-fe68c1674507": {
-          "label": "Christoph Willibald Gluck - Wikipedia, the free encyclopedia",
+          "label": "Christoph Willibald Gluck - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Christoph_Willibald_Gluck",
-          "x": 82250,
-          "y": -1423,
-          "id": "df93e61e-d916-40c1-af0f-fe68c1674507"
+          "x": 79806,
+          "y": 583,
+          "id": "df93e61e-d916-40c1-af0f-fe68c1674507",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "bf8069f9-e780-4506-b3c9-0a687b911c2c": {
-          "label": "Joseph Haydn - Wikipedia, the free encyclopedia",
+          "label": "Joseph Haydn - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Joseph_Haydn",
-          "x": 82217,
-          "y": -1398,
-          "id": "bf8069f9-e780-4506-b3c9-0a687b911c2c"
+          "x": 79570,
+          "y": 746,
+          "id": "bf8069f9-e780-4506-b3c9-0a687b911c2c",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "d5c4e811-b089-4653-a068-5741bf75f74f": {
-          "label": "Niccolò Paganini - Wikipedia, the free encyclopedia",
+          "label": "Niccolò Paganini - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Paganini",
-          "x": 82224,
-          "y": -1373,
-          "id": "d5c4e811-b089-4653-a068-5741bf75f74f"
+          "x": 79623,
+          "y": 853,
+          "id": "d5c4e811-b089-4653-a068-5741bf75f74f",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "5f7422e2-0aa4-4ced-8bc9-3b58ab03256e": {
-          "label": "Gioachino Rossini - Wikipedia, the free encyclopedia",
+          "label": "Gioachino Rossini - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Gioachino_Rossini",
-          "x": 82228,
-          "y": -1348,
-          "id": "5f7422e2-0aa4-4ced-8bc9-3b58ab03256e"
+          "x": 79653,
+          "y": 978,
+          "id": "5f7422e2-0aa4-4ced-8bc9-3b58ab03256e",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "0f185e8b-b54b-4eaf-9986-3199912c1846": {
-          "label": "Franz Schubert - Wikipedia, the free encyclopedia",
+          "label": "Franz Schubert - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Franz_Schubert",
-          "x": 82220,
-          "y": -1323,
-          "id": "0f185e8b-b54b-4eaf-9986-3199912c1846"
+          "x": 79592,
+          "y": 1095,
+          "id": "0f185e8b-b54b-4eaf-9986-3199912c1846",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "14ff24dd-ed86-4164-a984-a4966256aaf4": {
-          "label": "Hector Berlioz - Wikipedia, the free encyclopedia",
+          "label": "Hector Berlioz - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Hector_Berlioz",
-          "x": 82216,
-          "y": -1298,
-          "id": "14ff24dd-ed86-4164-a984-a4966256aaf4"
+          "x": 79564,
+          "y": 1234,
+          "id": "14ff24dd-ed86-4164-a984-a4966256aaf4",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "7b4cec4b-59c4-4676-8fdc-6b097eaf1150": {
-          "label": "Felix Mendelssohn - Wikipedia, the free encyclopedia",
+          "label": "Felix Mendelssohn - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Felix_Mendelssohn",
-          "x": 82231,
-          "y": -1273,
-          "id": "7b4cec4b-59c4-4676-8fdc-6b097eaf1150"
+          "x": 79667,
+          "y": 1366,
+          "id": "7b4cec4b-59c4-4676-8fdc-6b097eaf1150",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "fae12358-399a-49b6-8d92-b75b7db1be5b": {
-          "label": "Franz Liszt - Wikipedia, the free encyclopedia",
+          "label": "Franz Liszt - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Franz_Liszt",
-          "x": 82206,
-          "y": -1248,
-          "id": "fae12358-399a-49b6-8d92-b75b7db1be5b"
+          "x": 79494,
+          "y": 1494,
+          "id": "fae12358-399a-49b6-8d92-b75b7db1be5b",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "226dcb19-28c9-4558-a50b-ad878c0410aa": {
-          "label": "Richard Wagner - Wikipedia, the free encyclopedia",
+          "label": "Richard Wagner - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Richard_Wagner",
-          "x": 82222,
-          "y": -1223,
-          "id": "226dcb19-28c9-4558-a50b-ad878c0410aa"
+          "x": 79609,
+          "y": 1640,
+          "id": "226dcb19-28c9-4558-a50b-ad878c0410aa",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "98e95490-24e7-4318-a4c0-450b162794ca": {
-          "label": "Giuseppe Verdi - Wikipedia, the free encyclopedia",
+          "label": "Giuseppe Verdi - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Giuseppe_Verdi",
-          "x": 82220,
-          "y": -1198,
-          "id": "98e95490-24e7-4318-a4c0-450b162794ca"
+          "x": 79596,
+          "y": 1810,
+          "id": "98e95490-24e7-4318-a4c0-450b162794ca",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "7b4df6dc-f2bf-4ce7-825a-c129ef11c981": {
-          "label": "Johannes Brahms - Wikipedia, the free encyclopedia",
+          "label": "Johannes Brahms - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Johannes_Brahms",
-          "x": 82229,
-          "y": -1173,
-          "id": "7b4df6dc-f2bf-4ce7-825a-c129ef11c981"
+          "x": 79649,
+          "y": 2089,
+          "id": "7b4df6dc-f2bf-4ce7-825a-c129ef11c981",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "804061e2-0a87-47bb-8ffb-23c89c46eaaf": {
-          "label": "Camille Saint-Saëns - Wikipedia, the free encyclopedia",
+          "label": "Camille Saint-Saëns - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Camille_Saint-Sa%C3%ABns",
-          "x": 82235,
-          "y": -1148,
-          "id": "804061e2-0a87-47bb-8ffb-23c89c46eaaf"
+          "x": 79698,
+          "y": 2318,
+          "id": "804061e2-0a87-47bb-8ffb-23c89c46eaaf",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "f09535b4-b47e-4ebd-b87f-97eed2f4fc73": {
-          "label": "Georges Bizet - Wikipedia, the free encyclopedia",
+          "label": "Georges Bizet - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Georges_Bizet",
-          "x": 82216,
-          "y": -1123,
-          "id": "f09535b4-b47e-4ebd-b87f-97eed2f4fc73"
+          "x": 79562,
+          "y": 2427,
+          "id": "f09535b4-b47e-4ebd-b87f-97eed2f4fc73",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "d7da0f65-a302-44a6-8369-6d114955629a": {
-          "label": "Modest Mussorgsky - Wikipedia, the free encyclopedia",
+          "label": "Modest Mussorgsky - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Modest_Mussorgsky",
-          "x": 82235,
-          "y": -1098,
-          "id": "d7da0f65-a302-44a6-8369-6d114955629a"
+          "x": 79690,
+          "y": 2537,
+          "id": "d7da0f65-a302-44a6-8369-6d114955629a",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "901a4ef5-48f7-4837-ae12-46bc2c4fbb17": {
-          "label": "Antonín Dvořák - Wikipedia, the free encyclopedia",
+          "label": "Antonín Dvořák - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k",
-          "x": 82220,
-          "y": -1073,
-          "id": "901a4ef5-48f7-4837-ae12-46bc2c4fbb17"
+          "x": 79590,
+          "y": 2649,
+          "id": "901a4ef5-48f7-4837-ae12-46bc2c4fbb17",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "c23830cb-3cf4-49e4-8334-0079ce074a10": {
-          "label": "Nikolai Rimsky-Korsakov - Wikipedia, the free encyclopedia",
+          "label": "Nikolai Rimsky-Korsakov - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov",
-          "x": 82249,
-          "y": -1048,
-          "id": "c23830cb-3cf4-49e4-8334-0079ce074a10"
+          "x": 79797,
+          "y": 2760,
+          "id": "c23830cb-3cf4-49e4-8334-0079ce074a10",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "81637f73-ab3a-4b7d-a84e-a8201a0b1927": {
-          "label": "Giacomo Puccini - Wikipedia, the free encyclopedia",
+          "label": "Giacomo Puccini - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Giacomo_Puccini",
-          "x": 82224,
-          "y": -1023,
-          "id": "81637f73-ab3a-4b7d-a84e-a8201a0b1927"
+          "x": 79620,
+          "y": 2880,
+          "id": "81637f73-ab3a-4b7d-a84e-a8201a0b1927",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "00b60ed1-d6c4-4ff5-92e0-fd2f6f897f34": {
-          "label": "Gustav Mahler - Wikipedia, the free encyclopedia",
+          "label": "Gustav Mahler - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Gustav_Mahler",
-          "x": 82218,
-          "y": -998,
-          "id": "00b60ed1-d6c4-4ff5-92e0-fd2f6f897f34"
+          "x": 79570,
+          "y": 2994,
+          "id": "00b60ed1-d6c4-4ff5-92e0-fd2f6f897f34",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "e3e65a1c-ebee-4835-a813-d88285c60670": {
-          "label": "Claude Debussy - Wikipedia, the free encyclopedia",
+          "label": "Claude Debussy - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Claude_Debussy",
-          "x": 82223,
-          "y": -973,
-          "id": "e3e65a1c-ebee-4835-a813-d88285c60670"
+          "x": 79610,
+          "y": 3156,
+          "id": "e3e65a1c-ebee-4835-a813-d88285c60670",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "12c0a8e9-9935-4014-bc88-5decd5d9d8b4": {
-          "label": "Jean Sibelius - Wikipedia, the free encyclopedia",
+          "label": "Jean Sibelius - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Jean_Sibelius",
-          "x": 82213,
-          "y": -948,
-          "id": "12c0a8e9-9935-4014-bc88-5decd5d9d8b4"
+          "x": 79548,
+          "y": 3320,
+          "id": "12c0a8e9-9935-4014-bc88-5decd5d9d8b4",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "d8c147d6-6a73-46b0-9925-b73d0db32693": {
-          "label": "Sergei Rachmaninoff - Wikipedia, the free encyclopedia",
+          "label": "Sergei Rachmaninoff - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff",
-          "x": 82237,
-          "y": -923,
-          "id": "d8c147d6-6a73-46b0-9925-b73d0db32693"
+          "x": 79717,
+          "y": 3421,
+          "id": "d8c147d6-6a73-46b0-9925-b73d0db32693",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "5b809d79-cc1e-4398-8672-a966f360d62c": {
-          "label": "Mauice Ravel - Wikipedia, the free encyclopedia",
+          "label": "Mauice Ravel - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Mauice_Ravel",
-          "x": 82214,
-          "y": -898,
-          "id": "5b809d79-cc1e-4398-8672-a966f360d62c"
+          "x": 79553,
+          "y": 3528,
+          "id": "5b809d79-cc1e-4398-8672-a966f360d62c",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "a76980d4-c2e4-431c-8a56-41a248e2cca0": {
-          "label": "Igor Stravinsky - Wikipedia, the free encyclopedia",
+          "label": "Igor Stravinsky - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
-          "x": 82218,
-          "y": -873,
-          "id": "a76980d4-c2e4-431c-8a56-41a248e2cca0"
+          "x": 79581,
+          "y": 3651,
+          "id": "a76980d4-c2e4-431c-8a56-41a248e2cca0",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "1818f3ab-e7eb-459d-876e-5379ed5c05bb": {
           "label": "Sergei Prokofiev",
           "link": "",
-          "x": 82114,
-          "y": -641,
-          "id": "1818f3ab-e7eb-459d-876e-5379ed5c05bb"
+          "x": 79361,
+          "y": 3950,
+          "id": "1818f3ab-e7eb-459d-876e-5379ed5c05bb",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "55e07bd3-2d23-4a16-93dc-274b5a02e550": {
           "label": "Sergei Prokofiev - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Sergei_Prokofiev",
-          "x": 82423,
-          "y": -728,
+          "x": 81329,
+          "y": 3850,
           "id": "55e07bd3-2d23-4a16-93dc-274b5a02e550"
         },
         "c47b1721-1368-4fab-bc5e-0468954dfdfa": {
           "label": "Христианская наука — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BD%D0%B0%D1%83%D0%BA%D0%B0",
-          "x": 82769,
-          "y": -730,
+          "x": 81675,
+          "y": 3848,
           "id": "c47b1721-1368-4fab-bc5e-0468954dfdfa"
         },
         "756929d4-7d95-4062-bfd6-ae4260312129": {
           "label": "Лерман, Александр Анатольевич — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D1%80%D0%BC%D0%B0%D0%BD,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
-          "x": 83162,
-          "y": -747,
+          "x": 82068,
+          "y": 3831,
           "id": "756929d4-7d95-4062-bfd6-ae4260312129"
         },
         "790af388-a43e-468d-b99a-52ba4064cbe7": {
           "label": "Прокофьева, Лина Ивановна — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D1%84%D1%8C%D0%B5%D0%B2%D0%B0,_%D0%9B%D0%B8%D0%BD%D0%B0_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0",
-          "x": 83149,
-          "y": -722,
+          "x": 82055,
+          "y": 3856,
           "id": "790af388-a43e-468d-b99a-52ba4064cbe7"
         },
         "a05a7c24-d1fe-4da7-b803-0b191e43c387": {
           "label": "List of compositions by Sergei Prokofiev - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/List_of_compositions_by_Sergei_Prokofiev",
-          "x": 82497,
-          "y": -628,
+          "x": 81403,
+          "y": 3950,
           "id": "a05a7c24-d1fe-4da7-b803-0b191e43c387"
         },
         "ed945b21-5371-4e2d-86cf-ea6e4f8f9fb1": {
           "label": "String Quartet No. 2 (Prokofiev) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/String_Quartet_No._2_(Prokofiev)",
-          "x": 82883,
-          "y": -630,
+          "x": 81789,
+          "y": 3948,
           "id": "ed945b21-5371-4e2d-86cf-ea6e4f8f9fb1"
         },
         "e189dadd-edca-4195-bd0e-ac51d4a18785": {
           "label": "String Quartet No. 2 (Prokofiev) - YouTube",
           "link": "https://www.youtube.com/results?search_query=String+Quartet+No.+2+%28Prokofiev%29",
-          "x": 83276,
-          "y": -628,
+          "x": 82182,
+          "y": 3950,
           "id": "e189dadd-edca-4195-bd0e-ac51d4a18785"
         },
         "ad51cd0c-0361-4e6d-8ff7-cfdc7d3fd8d6": {
           "label": "Sergei Prokofiev - String Quartet No. 2 “Kabardinian” - YouTube",
           "link": "https://www.youtube.com/watch?v=s4mNb5XkW70",
-          "x": 83713,
-          "y": -630,
+          "x": 82619,
+          "y": 3948,
           "id": "ad51cd0c-0361-4e6d-8ff7-cfdc7d3fd8d6"
         },
         "3e93f8af-3856-47bb-8804-3a8dec1eaa4c": {
           "label": "Sergei Eisenstein - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Sergei_Eisenstein",
-          "x": 82426,
-          "y": -528,
+          "x": 81332,
+          "y": 4050,
           "id": "3e93f8af-3856-47bb-8804-3a8dec1eaa4c"
         },
         "2164c2d5-3a4c-42ea-a3d3-07fff91e4a4e": {
           "label": "Google Translate",
           "link": "https://translate.google.com/#en/ru/betrothal",
-          "x": 82389,
-          "y": -503,
+          "x": 81295,
+          "y": 4075,
           "id": "2164c2d5-3a4c-42ea-a3d3-07fff91e4a4e"
         },
         "5840dec9-4ecd-42ab-999b-9812857ced03": {
-          "label": "Dmitri Shostakovich - Wikipedia, the free encyclopedia",
+          "label": "Dmitri Shostakovich - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich",
-          "x": 82233,
-          "y": -401,
-          "id": "5840dec9-4ecd-42ab-999b-9812857ced03"
+          "x": 79704,
+          "y": 4356,
+          "id": "5840dec9-4ecd-42ab-999b-9812857ced03",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "8deb38fd-b93f-40fa-aa22-7cccb08e7780": {
           "label": "Бетховен (+плейлист)",
           "link": "",
-          "x": 82134,
-          "y": -306,
-          "id": "8deb38fd-b93f-40fa-aa22-7cccb08e7780"
+          "x": 79509,
+          "y": 5005,
+          "id": "8deb38fd-b93f-40fa-aa22-7cccb08e7780",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "b67e4455-c4d9-41fb-89b7-1835fcd8ee40": {
           "label": "Ludwig van Beethoven - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
-          "x": 82522,
-          "y": -304,
+          "x": 81383,
+          "y": 4984,
           "id": "b67e4455-c4d9-41fb-89b7-1835fcd8ee40"
         },
         "390a05be-3e95-440b-9e36-44400c8f67e2": {
           "label": "Rudolf-habsburg-olmuetz.jpg (1378×1829)",
           "link": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Rudolf-habsburg-olmuetz.jpg",
-          "x": 82949,
-          "y": -318,
+          "x": 81814,
+          "y": 4966,
           "id": "390a05be-3e95-440b-9e36-44400c8f67e2"
         },
         "98e2dcbd-a47d-4a3d-a0a8-9762ef2161df": {
           "label": "List of compositions by Ludwig van Beethoven - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/List_of_compositions_by_Ludwig_van_Beethoven",
-          "x": 83069,
-          "y": -293,
+          "x": 81930,
+          "y": 4995,
           "id": "98e2dcbd-a47d-4a3d-a0a8-9762ef2161df"
         },
         "d9f66a37-6ce6-41a6-b37a-533cca7dd530": {
           "label": "Шопен (+плейлист)",
           "link": "",
-          "x": 82136,
-          "y": 1585,
-          "id": "d9f66a37-6ce6-41a6-b37a-533cca7dd530"
+          "x": 79437,
+          "y": 6937,
+          "id": "d9f66a37-6ce6-41a6-b37a-533cca7dd530",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "d38f8450-57d2-4aac-8368-7a64c0e1f7ef": {
           "label": "Frédéric Chopin - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
-          "x": 82707,
-          "y": 716,
+          "x": 81569,
+          "y": 6086,
           "id": "d38f8450-57d2-4aac-8368-7a64c0e1f7ef"
         },
         "f1e6881e-2f46-4eba-8cda-96778c280c89": {
           "label": "Concertante works",
           "link": "",
-          "x": 83087,
-          "y": 155,
+          "x": 81949,
+          "y": 5525,
           "id": "f1e6881e-2f46-4eba-8cda-96778c280c89"
         },
         "bc4318b3-4a65-4165-9a33-bb1de16e4d76": {
           "label": "Variations on \"Là ci darem la mano\" (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Variations_on_%22L%C3%A0_ci_darem_la_mano%22_(Chopin)",
-          "x": 83515,
-          "y": 154,
+          "x": 82377,
+          "y": 5524,
           "id": "bc4318b3-4a65-4165-9a33-bb1de16e4d76"
         },
         "45c86b41-afe7-40f8-980b-5cbc438e513b": {
           "label": "Variations on \"Là ci darem la mano\" - YouTube",
           "link": "https://www.youtube.com/results?search_query=Variations+on+%22L%C3%A0+ci+darem+la+mano%22",
-          "x": 84039,
-          "y": 152,
+          "x": 82901,
+          "y": 5522,
           "id": "45c86b41-afe7-40f8-980b-5cbc438e513b"
         },
         "172074f7-1379-4697-bc11-5013cc2c8eb6": {
           "label": "Chopin - Variations on \"Là ci darem la mano\" from Mozart's Don Giovanni - YouTube",
           "link": "https://www.youtube.com/watch?v=8dbGJJrshoU",
-          "x": 84607,
-          "y": 120,
+          "x": 83469,
+          "y": 5490,
           "id": "172074f7-1379-4697-bc11-5013cc2c8eb6"
         },
         "d7700fac-1430-4018-b6f0-9d9c4666b7a4": {
           "label": "Beethoven Variations on Là ci darem la mano - YouTube",
           "link": "https://www.youtube.com/watch?v=sQ1nSRqHAh4",
-          "x": 84518,
-          "y": 145,
+          "x": 83380,
+          "y": 5515,
           "id": "d7700fac-1430-4018-b6f0-9d9c4666b7a4"
         },
         "f8e4c6a5-1ab7-4b77-b0d6-2999e08ece1a": {
           "label": "Chopin - Variations on 'La Ci Darem la Mano' Op.2 Mislav Ivaci (piano) - YouTube",
           "link": "https://www.youtube.com/watch?v=ARnCeXeY3m4",
-          "x": 84597,
-          "y": 170,
+          "x": 83459,
+          "y": 5540,
           "id": "f8e4c6a5-1ab7-4b77-b0d6-2999e08ece1a"
         },
         "cb99ff5d-a83e-41ff-8d55-be67ac31c186": {
           "label": "Шопен, Фредерик — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%A8%D0%BE%D0%BF%D0%B5%D0%BD,_%D0%A4%D1%80%D0%B5%D0%B4%D0%B5%D1%80%D0%B8%D0%BA",
-          "x": 83138,
-          "y": 247,
+          "x": 82000,
+          "y": 5617,
           "id": "cb99ff5d-a83e-41ff-8d55-be67ac31c186"
         },
         "2598a7e6-29c5-488d-9f0d-336c03f3a2b8": {
           "label": "Nocturnes (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes_(Chopin)",
-          "x": 83163,
-          "y": 743,
+          "x": 82025,
+          "y": 6113,
           "id": "2598a7e6-29c5-488d-9f0d-336c03f3a2b8"
         },
         "b9f84286-6aff-42a9-aa5c-2b488c4e8a03": {
           "label": "Nocturnes, Op. 9 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._9_(Chopin)#Nocturne_in_B-flat_minor,_Op._9,_No._1",
-          "x": 83510,
-          "y": 413,
+          "x": 82372,
+          "y": 5783,
           "id": "b9f84286-6aff-42a9-aa5c-2b488c4e8a03"
         },
         "db2fb8b6-3d0d-4cf4-9b28-a9e30fbe3250": {
           "label": "Nocturne in B-flat minor, Op. 9, No. 1 Chopin - YouTube",
           "link": "https://www.youtube.com/results?search_query=Nocturne+in+B-flat+minor%2C+Op.+9%2C+No.+1+Chopin",
-          "x": 83959,
-          "y": 360,
+          "x": 82821,
+          "y": 5730,
           "id": "db2fb8b6-3d0d-4cf4-9b28-a9e30fbe3250"
         },
         "2738ad48-68f5-4d55-8dd9-46558e3cea81": {
           "label": "F. Chopin : Nocturne op. 9 no. 1 in B flat minor (Rubinstein) - YouTube",
           "link": "https://www.youtube.com/watch?v=ZtIW2r1EalM",
-          "x": 84529,
-          "y": 311,
+          "x": 83391,
+          "y": 5681,
           "id": "2738ad48-68f5-4d55-8dd9-46558e3cea81"
         },
         "d0b24c09-37c7-4628-97af-319600718639": {
           "label": "Chopin - Nocturne Op. 9, No. 1 in B-flat minor (Brigitte Engerer) - YouTube",
           "link": "https://www.youtube.com/watch?v=gfgVWyjHkCo",
-          "x": 84543,
-          "y": 336,
+          "x": 83405,
+          "y": 5706,
           "id": "d0b24c09-37c7-4628-97af-319600718639"
         },
         "6e7c1dd8-1932-4775-afad-d83901935f53": {
           "label": "Chopin - NOCTURNE op. 9 no. 1 in B flat minor - LARGHETTO - Daniel Baremboim - YouTube",
           "link": "https://www.youtube.com/watch?v=Wmx5wpDyCFM",
-          "x": 84606,
-          "y": 361,
+          "x": 83468,
+          "y": 5731,
           "id": "6e7c1dd8-1932-4775-afad-d83901935f53"
         },
         "62ce17bd-8336-43a1-9e0d-5c3e7de53d65": {
           "label": "Maria João Pires: Chopin - Nocturne No. 1 in B flat minor, Op. 9 - YouTube",
           "link": "https://www.youtube.com/watch?v=l283ecujtlQ",
-          "x": 84543,
-          "y": 386,
+          "x": 83405,
+          "y": 5756,
           "id": "62ce17bd-8336-43a1-9e0d-5c3e7de53d65"
         },
         "84e250f9-a0c9-4e87-9e77-7bf73a7f6db1": {
           "label": "Nocturne in E-flat major, Op. 9, No. 2 - YouTube",
           "link": "https://www.youtube.com/results?search_query=Nocturne+in+E-flat+major%2C+Op.+9%2C+No.+2",
-          "x": 83935,
-          "y": 485,
+          "x": 82797,
+          "y": 5855,
           "id": "84e250f9-a0c9-4e87-9e77-7bf73a7f6db1"
         },
         "5035116e-6e4b-43be-9bed-936b10bca933": {
           "label": "Chopin - Nocturne op.9 No.2 - YouTube",
           "link": "https://www.youtube.com/watch?v=9E6b3swbnWg",
-          "x": 84402,
-          "y": 436,
+          "x": 83264,
+          "y": 5806,
           "id": "5035116e-6e4b-43be-9bed-936b10bca933"
         },
         "2f5d3468-42c8-40f5-989a-6a1af9591b72": {
           "label": "Arthur Rubinstein - Chopin Nocturne Op. 9, No. 2 in E flat - YouTube",
           "link": "https://www.youtube.com/watch?v=Nu48Z45ibxQ",
-          "x": 84492,
-          "y": 461,
+          "x": 83354,
+          "y": 5831,
           "id": "2f5d3468-42c8-40f5-989a-6a1af9591b72"
         },
         "2b325b4f-63be-4587-92da-6af8a0154d42": {
           "label": "Chopin: Nocturne Op.9 No.2 in Eb Major (Moravec) - YouTube",
           "link": "https://www.youtube.com/watch?v=IJIgCMjuia0",
-          "x": 84473,
-          "y": 486,
+          "x": 83335,
+          "y": 5856,
           "id": "2b325b4f-63be-4587-92da-6af8a0154d42"
         },
         "e87eac99-0d9e-4d99-94b5-6580638e1ce0": {
           "label": "Chopin Nocturne Op.9 No.2 - Paul Barton, FEURICH piano - YouTube",
           "link": "https://www.youtube.com/watch?v=2Zy0yQzErsw",
-          "x": 84497,
-          "y": 511,
+          "x": 83359,
+          "y": 5881,
           "id": "e87eac99-0d9e-4d99-94b5-6580638e1ce0"
         },
         "ff9d64f6-a01b-45c1-b169-d76ae6bb98e9": {
           "label": "Rachmaninoff plays Chopin Nocturne Op. 9 No. 2 - YouTube",
           "link": "https://www.youtube.com/watch?v=kj3CHx3TDzw",
-          "x": 84467,
-          "y": 536,
+          "x": 83329,
+          "y": 5906,
           "id": "ff9d64f6-a01b-45c1-b169-d76ae6bb98e9"
         },
         "8b3e77f8-7c97-42d7-a81c-36a331c14dfc": {
           "label": "Vladimir Horowitz: Chopin - Nocturne No. 2 in Flat Major Op. 9 - YouTube",
           "link": "https://www.youtube.com/watch?v=3QS8p5TNzFI",
-          "x": 84508,
-          "y": 561,
+          "x": 83370,
+          "y": 5931,
           "id": "8b3e77f8-7c97-42d7-a81c-36a331c14dfc"
         },
         "606ee59a-cedd-4596-a155-c342f4a124da": {
           "label": "Nocturnes, Op. 9 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._9_(Chopin)#Nocturne_in_E-flat_major,_Op._9,_No._2",
-          "x": 83510,
-          "y": 597,
+          "x": 82372,
+          "y": 5967,
           "id": "606ee59a-cedd-4596-a155-c342f4a124da"
         },
         "ce5968d6-f796-48b0-8693-b700c3d96353": {
           "label": "Nocturnes, Op. 9 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._9_(Chopin)#Nocturne_in_B_major,_Op._9,_No._3",
-          "x": 83510,
-          "y": 622,
+          "x": 82372,
+          "y": 5992,
           "id": "ce5968d6-f796-48b0-8693-b700c3d96353"
         },
         "3e91e978-3db5-41f4-a843-fa0c8c9e4e20": {
           "label": "Nocturnes, Op. 15 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._15_(Chopin)#Nocturne_in_F_major,_Op._15,_No._1",
-          "x": 83514,
-          "y": 647,
+          "x": 82376,
+          "y": 6017,
           "id": "3e91e978-3db5-41f4-a843-fa0c8c9e4e20"
         },
         "9efc715f-05de-4146-ada1-bb138da81cfc": {
           "label": "Nocturnes, Op. 15 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._15_(Chopin)#Nocturne_in_F-sharp_major,_Op._15,_No._2",
-          "x": 83514,
-          "y": 672,
+          "x": 82376,
+          "y": 6042,
           "id": "9efc715f-05de-4146-ada1-bb138da81cfc"
         },
         "74033566-2de6-4a23-b775-9666027b3726": {
           "label": "Nocturnes, Op. 15 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._15_(Chopin)#Nocturne_in_G_minor,_Op._15,_No._3",
-          "x": 83514,
-          "y": 697,
+          "x": 82376,
+          "y": 6067,
           "id": "74033566-2de6-4a23-b775-9666027b3726"
         },
         "fb12bea5-2d4e-4c91-b377-9a8244c84574": {
           "label": "Nocturnes, Op. 27 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._27_(Chopin)#Nocturne_in_C-sharp_minor,_Op._27,_No._1",
-          "x": 83514,
-          "y": 722,
+          "x": 82376,
+          "y": 6092,
           "id": "fb12bea5-2d4e-4c91-b377-9a8244c84574"
         },
         "9462e068-4288-4188-a0ca-0ede474df167": {
           "label": "Nocturnes, Op. 27 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._27_(Chopin)#Nocturne_in_D-flat_major,_Op._27,_No._2",
-          "x": 83514,
-          "y": 747,
+          "x": 82376,
+          "y": 6117,
           "id": "9462e068-4288-4188-a0ca-0ede474df167"
         },
         "d6bc82ed-50cc-4d5e-8fea-e721562d5b2f": {
           "label": "Nocturnes, Op. 32 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._32_(Chopin)#Nocturne_in_B_major,_Op._32,_No._1",
-          "x": 83514,
-          "y": 772,
+          "x": 82376,
+          "y": 6142,
           "id": "d6bc82ed-50cc-4d5e-8fea-e721562d5b2f"
         },
         "86fe75da-3943-4be8-b3de-7cca42b9bbdd": {
           "label": "Nocturnes, Op. 32 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._32_(Chopin)#Nocturne_in_A-flat_major,_Op._32,_No._2",
-          "x": 83514,
-          "y": 797,
+          "x": 82376,
+          "y": 6167,
           "id": "86fe75da-3943-4be8-b3de-7cca42b9bbdd"
         },
         "75bbf758-e108-4519-904b-2a32efec8f90": {
           "label": "Nocturnes, Op. 37 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._37_(Chopin)#Nocturne_in_G_minor,_Op._37,_No._1",
-          "x": 83514,
-          "y": 822,
+          "x": 82376,
+          "y": 6192,
           "id": "75bbf758-e108-4519-904b-2a32efec8f90"
         },
         "286e79c7-d07d-49b6-af57-78640204775b": {
           "label": "Nocturnes, Op. 37 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._37_(Chopin)#Nocturne_in_G_major,_Op._37,_No._2",
-          "x": 83514,
-          "y": 847,
+          "x": 82376,
+          "y": 6217,
           "id": "286e79c7-d07d-49b6-af57-78640204775b"
         },
         "fc83f3d0-1924-49de-847c-aaae34c038ee": {
           "label": "Nocturnes, Op. 48 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._48_(Chopin)#Nocturne_in_C_minor,_Op._48,_No._1",
-          "x": 83514,
-          "y": 872,
+          "x": 82376,
+          "y": 6242,
           "id": "fc83f3d0-1924-49de-847c-aaae34c038ee"
         },
         "595cfe98-66bb-4cca-a0d1-9b9f3098c820": {
           "label": "Nocturnes, Op. 48 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._48_(Chopin)#Nocturne_in_F-sharp_minor,_Op._48,_No._2",
-          "x": 83514,
-          "y": 897,
+          "x": 82376,
+          "y": 6267,
           "id": "595cfe98-66bb-4cca-a0d1-9b9f3098c820"
         },
         "d74b79b1-cb49-43bb-bc09-5e89c4f9bf77": {
           "label": "Nocturnes, Op. 55 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._55_(Chopin)#Nocturne_in_F_minor,_Op._55,_No._1",
-          "x": 83514,
-          "y": 922,
+          "x": 82376,
+          "y": 6292,
           "id": "d74b79b1-cb49-43bb-bc09-5e89c4f9bf77"
         },
         "20e46958-caef-495b-ab7f-11ebd3a9b1aa": {
           "label": "Nocturnes, Op. 55 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._55_(Chopin)#Nocturne_in_E-flat_major,_Op._55,_No._2",
-          "x": 83514,
-          "y": 947,
+          "x": 82376,
+          "y": 6317,
           "id": "20e46958-caef-495b-ab7f-11ebd3a9b1aa"
         },
         "8c149492-0fb4-4e93-b70e-1196dc77939f": {
           "label": "Nocturnes, Op. 62 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._62_(Chopin)#Nocturne_in_B_major,_Op._62,_No._1",
-          "x": 83514,
-          "y": 972,
+          "x": 82376,
+          "y": 6342,
           "id": "8c149492-0fb4-4e93-b70e-1196dc77939f"
         },
         "a334c89f-e017-4052-97c4-3e826ee2fbc9": {
           "label": "Nocturnes, Op. 62 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturnes,_Op._62_(Chopin)#Nocturne_in_E_major,_Op._62,_No._2",
-          "x": 83514,
-          "y": 997,
+          "x": 82376,
+          "y": 6367,
           "id": "a334c89f-e017-4052-97c4-3e826ee2fbc9"
         },
         "585466e5-627e-438e-8950-102feadfa1f5": {
           "label": "Nocturne in E minor, Op. posth. 72 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturne_in_E_minor,_Op._posth._72_(Chopin)",
-          "x": 83565,
-          "y": 1022,
+          "x": 82427,
+          "y": 6392,
           "id": "585466e5-627e-438e-8950-102feadfa1f5"
         },
         "c35ad48f-c27d-432d-86cb-22f06fb51619": {
           "label": "Nocturne in C-sharp minor, Op. posth. (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturne_in_C-sharp_minor,_Op._posth._(Chopin)",
-          "x": 83576,
-          "y": 1047,
+          "x": 82438,
+          "y": 6417,
           "id": "c35ad48f-c27d-432d-86cb-22f06fb51619"
         },
         "f8da6561-b0aa-432f-a40e-b3280ed95ca9": {
           "label": "Nocturne in C minor, Op. posth. (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Nocturne_in_C_minor,_Op._posth._(Chopin)",
-          "x": 83556,
-          "y": 1072,
+          "x": 82418,
+          "y": 6442,
           "id": "f8da6561-b0aa-432f-a40e-b3280ed95ca9"
         },
         "35582e69-ce44-4442-aa6e-365cb652375f": {
           "label": "Polonaise - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Polonaise",
-          "x": 83111,
-          "y": 1172,
+          "x": 81973,
+          "y": 6542,
           "id": "35582e69-ce44-4442-aa6e-365cb652375f"
         },
         "f87923f2-a527-465d-b903-ec8f29299edd": {
           "label": "New Tab (chrome://newtab/)",
           "link": "",
-          "x": 83132,
-          "y": 1545,
+          "x": 81994,
+          "y": 6915,
           "id": "f87923f2-a527-465d-b903-ec8f29299edd"
         },
         "9e7d4835-9c4b-4779-ba95-3035f63cc2de": {
           "label": "Introduction and Polonaise brillante (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Introduction_and_Polonaise_brillante_(Chopin)",
-          "x": 83524,
-          "y": 1265,
+          "x": 82386,
+          "y": 6635,
           "id": "9e7d4835-9c4b-4779-ba95-3035f63cc2de"
         },
         "94a142ed-3621-401c-bdee-e13aee7ddf0a": {
           "label": "Andante spianato et grande polonaise brillante - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Andante_spianato_et_grande_polonaise_brillante",
-          "x": 83532,
-          "y": 1545,
+          "x": 82394,
+          "y": 6915,
           "id": "94a142ed-3621-401c-bdee-e13aee7ddf0a"
         },
         "57f1ff5a-f3b5-4d8c-ad95-6e0cff32ae9b": {
           "label": "Andante spianato et grande polonaise brillante - YouTube",
           "link": "https://www.youtube.com/results?search_query=Andante+spianato+et+grande+polonaise+brillante",
-          "x": 83980,
-          "y": 1546,
+          "x": 82842,
+          "y": 6916,
           "id": "57f1ff5a-f3b5-4d8c-ad95-6e0cff32ae9b"
         },
         "6d5f4c26-315a-4d98-baae-e96eb5913e86": {
           "label": "Kate Liu – Andante Spianato and Grande Polonaise Brillante in E flat major Op. 22 (second stage) - YouTube",
           "link": "https://www.youtube.com/watch?v=AO6k_ipgEsI",
-          "x": 84617,
-          "y": 1376,
+          "x": 83479,
+          "y": 6746,
           "id": "6d5f4c26-315a-4d98-baae-e96eb5913e86"
         },
         "96c568fa-a2f7-4bb9-b0d1-12438a1106d3": {
           "label": "Chopin: Andante Spianato and Grande Polonaise Brillante Op.22 (Weissenberg) - YouTube",
           "link": "https://www.youtube.com/watch?v=jJ130s7BiSM",
-          "x": 84561,
-          "y": 1401,
+          "x": 83423,
+          "y": 6771,
           "id": "96c568fa-a2f7-4bb9-b0d1-12438a1106d3"
         },
         "dc26888a-fa49-4fce-84e4-886a86db156e": {
           "label": "Yundi Li - Andante Spianato Et Grande Polonaise Brillante, Op. 22 - YouTube",
           "link": "https://www.youtube.com/watch?v=6N8VBYNF2LA",
-          "x": 84516,
-          "y": 1426,
+          "x": 83378,
+          "y": 6796,
           "id": "dc26888a-fa49-4fce-84e4-886a86db156e"
         },
         "d4a0985b-e8a2-4716-ac87-8a3598181202": {
           "label": "Evgeny Kissin - Chopin Andante Spianato e Grande Polonaise Brilliante Op.22 - YouTube",
           "link": "https://www.youtube.com/watch?v=KBPq-BNiCr8",
-          "x": 84555,
-          "y": 1451,
+          "x": 83417,
+          "y": 6821,
           "id": "d4a0985b-e8a2-4716-ac87-8a3598181202"
         },
         "35b64071-bd8e-4a7e-972d-d01856e522e2": {
           "label": "Chopin - Andante Spianato et Grande Polonaise Brillante (Zimerman) - YouTube",
           "link": "https://www.youtube.com/watch?v=jPICMjqb2Jg",
-          "x": 84527,
-          "y": 1476,
+          "x": 83389,
+          "y": 6846,
           "id": "35b64071-bd8e-4a7e-972d-d01856e522e2"
         },
         "405c1342-2763-495e-8ad8-88f703371057": {
           "label": "Arturo Benedetti Michelangeli - Chopin - Andante Spianato, Grande Polanaise Brillante Op.22.mp4 - YouTube",
           "link": "https://www.youtube.com/watch?v=YdhIa42IJz0",
-          "x": 84619,
-          "y": 1501,
+          "x": 83481,
+          "y": 6871,
           "id": "405c1342-2763-495e-8ad8-88f703371057"
         },
         "7b800dd7-52d5-42b6-9d5a-ed66ff6a013d": {
           "label": "LANG LANG Chopin - Grande polonaise brillante (from Andante spianato & Grande polonaise brillante) - YouTube",
           "link": "https://www.youtube.com/watch?v=adQwsx5J7lQ",
-          "x": 84633,
-          "y": 1526,
+          "x": 83495,
+          "y": 6896,
           "id": "7b800dd7-52d5-42b6-9d5a-ed66ff6a013d"
         },
         "da1844b8-2508-4b80-8835-2c4975b4ba62": {
           "label": "Jorge Bolet plays Chopin Andante spianato et grande polonaise brillante op.22 (1971) - YouTube",
           "link": "https://www.youtube.com/watch?v=Iii-hkQX8bM",
-          "x": 84579,
-          "y": 1551,
+          "x": 83441,
+          "y": 6921,
           "id": "da1844b8-2508-4b80-8835-2c4975b4ba62"
         },
         "8e75e529-157c-4bc3-9f47-a64b08830660": {
           "label": "Ingolf Wunder – Andante spianato and Grande Polonaise Brillante (second stage, 2010) - YouTube",
           "link": "https://www.youtube.com/watch?v=jNxEWRmWHU0",
-          "x": 84586,
-          "y": 1576,
+          "x": 83448,
+          "y": 6946,
           "id": "8e75e529-157c-4bc3-9f47-a64b08830660"
         },
         "42469f3c-0220-457e-9270-8b9537d64d36": {
           "label": "Chopin Andante Spianato et Grande Polonaise Brillante, Op.22 - Dang Thai Son - YouTube",
           "link": "https://www.youtube.com/watch?v=9mqp1pzRPBU",
-          "x": 84561,
-          "y": 1601,
+          "x": 83423,
+          "y": 6971,
           "id": "42469f3c-0220-457e-9270-8b9537d64d36"
         },
         "d2fd0a93-e28d-4b72-ab15-bef3f4646fa4": {
           "label": "I. Gyöngyösi – Andante Spianato and Grande Polonaise Brillante in E flat major Op. 22 (stage II) - YouTube",
           "link": "https://www.youtube.com/watch?v=Y5GOFho3tZI",
-          "x": 84612,
-          "y": 1626,
+          "x": 83474,
+          "y": 6996,
           "id": "d2fd0a93-e28d-4b72-ab15-bef3f4646fa4"
         },
         "8c856b26-2042-4264-82de-e105a9d42fc6": {
           "label": "HOROWITZ - Chopin Andante Spianato and Grande Polonaise Brillante 2/2 - YouTube",
           "link": "https://www.youtube.com/watch?v=wMoDxvEUrOs",
-          "x": 84546,
-          "y": 1651,
+          "x": 83408,
+          "y": 7021,
           "id": "8c856b26-2042-4264-82de-e105a9d42fc6"
         },
         "f7d95a12-a97a-43d7-87ff-8579478da97e": {
           "label": "Arthur Rubinstein - Chopin Andante Spianato & Grande Polonaise Brillante, Op. 22 in E Flat Major (2) - YouTube",
           "link": "https://www.youtube.com/watch?v=63_A9xDHAEM",
-          "x": 84628,
-          "y": 1676,
+          "x": 83490,
+          "y": 7046,
           "id": "f7d95a12-a97a-43d7-87ff-8579478da97e"
         },
         "7598f593-a101-4683-9877-d17ec6240de9": {
           "label": "Claudio Arrau - Andante spianato et Grande polonaise brillante, Op.22 | Vinyl, LP Philips - YouTube",
           "link": "https://www.youtube.com/watch?v=rIQLt1PPj-4",
-          "x": 84586,
-          "y": 1701,
+          "x": 83448,
+          "y": 7071,
           "id": "7598f593-a101-4683-9877-d17ec6240de9"
         },
         "16ebb2c7-0038-46dd-a133-1a89c5c8b5b8": {
           "label": "Polonaises, Op. 26 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Polonaises,_Op._26_(Chopin)",
-          "x": 83479,
-          "y": 1815,
+          "x": 82341,
+          "y": 7185,
           "id": "16ebb2c7-0038-46dd-a133-1a89c5c8b5b8"
         },
         "a691b2cd-929b-4d97-adac-a8c36bfc5209": {
           "label": "Polonaises Op. 40 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Polonaises_Op._40_(Chopin)",
-          "x": 83477,
-          "y": 1840,
+          "x": 82339,
+          "y": 7210,
           "id": "a691b2cd-929b-4d97-adac-a8c36bfc5209"
         },
         "ad53351e-6a30-4a2e-aaad-eb2a4b183e29": {
           "label": "Polonaise in F-sharp minor, Op. 44 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Polonaise_in_F-sharp_minor,_Op._44_(Chopin)",
-          "x": 83530,
-          "y": 1865,
+          "x": 82392,
+          "y": 7235,
           "id": "ad53351e-6a30-4a2e-aaad-eb2a4b183e29"
         },
         "cd21b5c9-309e-4599-8807-bcccec82e4c9": {
           "label": "Polonaise in A-flat major, Op. 53 - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Polonaise_in_A-flat_major,_Op._53",
-          "x": 83492,
-          "y": 1890,
+          "x": 82354,
+          "y": 7260,
           "id": "cd21b5c9-309e-4599-8807-bcccec82e4c9"
         },
         "68485155-f73d-4ee4-b453-effd76db8bdc": {
           "label": "Polonaise-Fantaisie (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Polonaise-Fantaisie_(Chopin)",
-          "x": 83482,
-          "y": 1915,
+          "x": 82344,
+          "y": 7285,
           "id": "68485155-f73d-4ee4-b453-effd76db8bdc"
         },
         "86949342-ec99-4187-b246-f0a882fd7f51": {
           "label": "Polonaises, Op. 71 (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Polonaises,_Op._71_(Chopin)",
-          "x": 83479,
-          "y": 1940,
+          "x": 82341,
+          "y": 7310,
           "id": "86949342-ec99-4187-b246-f0a882fd7f51"
         },
         "cc011e43-fa21-4528-b575-9ca2ea0eaf8d": {
           "label": "Polonaises, Op. posth. (Chopin) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Polonaises,_Op._posth._(Chopin)",
-          "x": 83491,
-          "y": 1965,
+          "x": 82353,
+          "y": 7335,
           "id": "cc011e43-fa21-4528-b575-9ca2ea0eaf8d"
         },
         "e55fb827-489e-4e64-b4c3-a34cd4c762d6": {
           "label": "Трекер",
           "link": "http://rutracker.org/forum/tracker.php?nm=%D1%88%D0%BE%D0%BF%D0%B5%D0%BD",
-          "x": 82676,
-          "y": 2228,
+          "x": 81538,
+          "y": 7598,
           "id": "e55fb827-489e-4e64-b4c3-a34cd4c762d6"
         },
         "3d2ef298-9100-4ec1-b9b3-c3538962117f": {
           "label": "(Classical) Chopin/Шопен - The Chopin Collection (Evgeny Kissin/Евгений Кисин) - 1995, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4341805",
-          "x": 83268,
-          "y": 2109,
+          "x": 82130,
+          "y": 7479,
           "id": "3d2ef298-9100-4ec1-b9b3-c3538962117f"
         },
         "08cc66de-f5f7-42dc-b8b9-dbb1342f766b": {
           "label": "(Classical) [12\"] [24/96] F. Chopin/Ф. Шопен - Waltzes/Вальсы (Соч. 18, Соч. 34, Соч. 42, Соч. 64, Соч. 69, Соч. 70). (Белла Давидович Фортепиано) - 1963,FLAC (tracks+.cue) :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4972539",
-          "x": 83459,
-          "y": 2134,
+          "x": 82321,
+          "y": 7504,
           "id": "08cc66de-f5f7-42dc-b8b9-dbb1342f766b"
         },
         "ceb28f7f-5107-41f5-b186-1e028315c831": {
           "label": "(Classical) VA - Шопен. Гении классической музыки - 2012 (сборник) ALAC, lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4177128",
-          "x": 83166,
-          "y": 2159,
+          "x": 82028,
+          "y": 7529,
           "id": "ceb28f7f-5107-41f5-b186-1e028315c831"
         },
         "5c7c8575-e688-4298-a2b5-a6ca0acf017c": {
           "label": "(Classical/Piano) Chopin/Шопен - Complete Nocturnes / Полное собрание Ноктюрнов (Masako Ezaki) - 2011, MP3 (tracks) 320 kbps :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4325569",
-          "x": 83319,
-          "y": 2184,
+          "x": 82181,
+          "y": 7554,
           "id": "5c7c8575-e688-4298-a2b5-a6ca0acf017c"
         },
         "118f4a2c-3259-4f94-8dfb-62afee2ac4ef": {
           "label": "(Classical) Шопен – Фортепианные концерты в камерной редакции / Chopin – The Piano Concertos, Chamber Version (Fumiko Shiraga,Jan-Inge Haukas;The Yggdrasil Quartet:Henrik Peterson,Per Oman,Robert Westlund,Per Nystrom)- 1997,FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4816301",
-          "x": 83757,
-          "y": 2209,
+          "x": 82619,
+          "y": 7579,
           "id": "118f4a2c-3259-4f94-8dfb-62afee2ac4ef"
         },
         "fabd60cc-01da-4820-8383-d3f17b03a6e0": {
           "label": "(Classical) Chopin/Шопен - Гении классической музыки - Waltze, Etude, Sonata, Nocturne, Mazurka, Polonaise (Фоук, Манц, Стравинский, Штурм, Ардашев, Вайс, Сидон, Вашари) - 2012, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4263203",
-          "x": 83590,
-          "y": 2234,
+          "x": 82452,
+          "y": 7604,
           "id": "fabd60cc-01da-4820-8383-d3f17b03a6e0"
         },
         "fdcb7fb3-b256-467b-8b56-8f698535ce83": {
           "label": "(Classical, piano) Frederic Chopin - Mazurkas / Шопен - Мазурки (Evgeni Koroliov/Евгений Королев) - 2009, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4445391",
-          "x": 83330,
-          "y": 2259,
+          "x": 82192,
+          "y": 7629,
           "id": "fdcb7fb3-b256-467b-8b56-8f698535ce83"
         },
         "f13658e2-8087-4ea0-b60f-d4f232f6d3a1": {
           "label": "(Classical) Chopin/Шопен - The Four Ballades, Berceuse, Barcarolle, Scherzo No. 4 (Evgeny Kissin/Евгений Кисин) - 1999, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4341787",
-          "x": 83376,
-          "y": 2284,
+          "x": 82238,
+          "y": 7654,
           "id": "f13658e2-8087-4ea0-b60f-d4f232f6d3a1"
         },
         "93c500c0-ec0a-44a1-bd41-770467c9f455": {
           "label": "(Classical/Piano) Chopin/Шопен - Polonaises / Полонезы (Елизавета Леонская/Leonskaja) - 1996, MP3 (tracks) 320 kbps :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4361125",
-          "x": 83282,
-          "y": 2309,
+          "x": 82144,
+          "y": 7679,
           "id": "93c500c0-ec0a-44a1-bd41-770467c9f455"
         },
         "b6b35bcf-7167-49be-997a-9cc5e62a89d8": {
           "label": "(Classical, Organ) Chopin - 24 Preludes, Op.28 / Шопен - Прелюдии, аранжировка для органа (Gunther Rost) - 2011, ALAC lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4324049",
-          "x": 83319,
-          "y": 2334,
+          "x": 82181,
+          "y": 7704,
           "id": "b6b35bcf-7167-49be-997a-9cc5e62a89d8"
         },
         "0b3970c6-e5e1-4136-b580-6dc1f0a518d7": {
           "label": "Google Translate",
           "link": "https://translate.google.com/#en/ru/spurious",
-          "x": 82708,
-          "y": 2479,
+          "x": 81570,
+          "y": 7849,
           "id": "0b3970c6-e5e1-4136-b580-6dc1f0a518d7"
         },
         "85fff92f-46aa-4627-9a8c-d8fef57ed7e8": {
           "label": "Григ (+плейлист)",
           "link": "",
-          "x": 82128,
-          "y": 2841,
-          "id": "85fff92f-46aa-4627-9a8c-d8fef57ed7e8"
+          "x": 79379,
+          "y": 8228,
+          "id": "85fff92f-46aa-4627-9a8c-d8fef57ed7e8",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "05c2b364-8fd1-4e97-81b0-77e4cc3fe4c7": {
           "label": "Edvard Grieg - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Edvard_Grieg",
-          "x": 82664,
-          "y": 2603,
+          "x": 81526,
+          "y": 7973,
           "id": "05c2b364-8fd1-4e97-81b0-77e4cc3fe4c7"
         },
         "39add23c-7c3d-453d-8750-1f518668af4e": {
           "label": "Григ, Эдвард — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D0%B3,_%D0%AD%D0%B4%D0%B2%D0%B0%D1%80%D0%B4",
-          "x": 82598,
-          "y": 2705,
+          "x": 81460,
+          "y": 8075,
           "id": "39add23c-7c3d-453d-8750-1f518668af4e"
         },
         "f7aefa08-c282-4002-a41a-9262907aafc3": {
           "label": "Edvard Grieg - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Edvard_Grieg",
-          "x": 82898,
-          "y": 2705,
+          "x": 81760,
+          "y": 8075,
           "id": "f7aefa08-c282-4002-a41a-9262907aafc3"
         },
         "bf8041a6-9d94-4ee0-abcb-b38c3d60e73d": {
           "label": "Grieg's music in popular culture - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Grieg%27s_music_in_popular_culture",
-          "x": 83330,
-          "y": 2705,
+          "x": 82192,
+          "y": 8075,
           "id": "bf8041a6-9d94-4ee0-abcb-b38c3d60e73d"
         },
         "433dffb4-6953-4813-84ad-3f144dd71baa": {
           "label": "Трекер",
           "link": "http://rutracker.org/forum/tracker.php?search_id=8IyTyNTtz8Ws&start=100&nm=grieg",
-          "x": 82530,
-          "y": 3078,
+          "x": 81392,
+          "y": 8448,
           "id": "433dffb4-6953-4813-84ad-3f144dd71baa"
         },
         "24ddd8c6-2092-438b-a68f-59113522ae21": {
           "label": "(Classical/Piano) Grieg - Piano Concerto | Grainger - Molly on the Shore, In a Nutshell | Schumann - Etudes Symphoniques (Percy Grainger/Leopold Stokowski) - 1997, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4182468",
-          "x": 83304,
-          "y": 2792,
+          "x": 82166,
+          "y": 8162,
           "id": "24ddd8c6-2092-438b-a68f-59113522ae21"
         },
         "d940da80-4d30-485f-8cab-b19093b5cd3b": {
           "label": "(Classical, string orchestra) Edvard Grieg - Holberg Suite; String Quartet in G minor; Two Elegiac Melodies; Erotikk - Australian Chamber Orchestra, Richard Tognetti - 2012, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4171228",
-          "x": 83319,
-          "y": 2817,
+          "x": 82181,
+          "y": 8187,
           "id": "d940da80-4d30-485f-8cab-b19093b5cd3b"
         },
         "ebbe5876-bac2-4fa3-a594-9a831f5d50ef": {
           "label": "(Classical) Grieg/Григ - Complete Orchestral Music - In Autumn, Piano Concerto, Symphony, Sigurd Jorsalfar, Olav Trygvason, Peer Gynt, Holberg Suite, Melodies, Pieces, Dances, Lyric Suite (Ole Kristian Ruud) - 2008, MP3 (tracks) 320 kbps :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4176372",
-          "x": 83446,
-          "y": 2842,
+          "x": 82308,
+          "y": 8212,
           "id": "ebbe5876-bac2-4fa3-a594-9a831f5d50ef"
         },
         "a21d3f93-fa2f-4b19-89a3-1dce7af2d583": {
           "label": "(Classical) [EP] [24/96] E. Grieg/Э. Григ - Danza Norvegese №2, op. 35/Норвежские танцы, Symphonic Dance No. 2, Op. 64/Симфонические танцы (ГСО СССР, дир. Н. Аносов, СО Ленрадио, дир. К. Элиасберг) - 1977, FLAC (image+.cue) :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=5134682",
-          "x": 83450,
-          "y": 2867,
+          "x": 82312,
+          "y": 8237,
           "id": "a21d3f93-fa2f-4b19-89a3-1dce7af2d583"
         },
         "b0267f15-5101-475a-a469-9009be31dd1a": {
           "label": "(Classical) Григ – Виолончельная соната; Струнный квартет № 1 / Grieg – Cello Sonata; String Quartet No. 1 (Sigerland, Sponberg, Anders, Mork; Gimse) - 2002, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4764283",
-          "x": 83292,
-          "y": 2892,
+          "x": 82154,
+          "y": 8262,
           "id": "b0267f15-5101-475a-a469-9009be31dd1a"
         },
         "915f65d5-8ee1-4b96-a336-1ca507ef31fe": {
           "label": "(Classical) Григ – Скрипичные сонаты / Grieg – Violin Sonatas (Kraggerud, Kjekshus) - 1997, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4805260",
-          "x": 83071,
-          "y": 2917,
+          "x": 81933,
+          "y": 8287,
           "id": "915f65d5-8ee1-4b96-a336-1ca507ef31fe"
         },
         "7759ce85-58c6-462f-bf4a-9972e31b745c": {
           "label": "(Classical) Edvard Grieg - Choral Music - Det Norske Solistkor, Grete Pedersen - 2007, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4796474",
-          "x": 83049,
-          "y": 2942,
+          "x": 81911,
+          "y": 8312,
           "id": "7759ce85-58c6-462f-bf4a-9972e31b745c"
         },
         "b2de6f12-5faf-47bc-9835-dd6dc94e9ae6": {
           "label": "(Symphonic, Choral, Vocal) Edvard Grieg - Peer Gynt - Marriner, 1983, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4996467",
-          "x": 82998,
-          "y": 2967,
+          "x": 81860,
+          "y": 8337,
           "id": "b2de6f12-5faf-47bc-9835-dd6dc94e9ae6"
         },
         "9a9aee5a-cfe8-4b95-ad6e-671de017bd2e": {
           "label": "(Classical) Edward Grieg — «Peer Gynt»: Suite № 1, 2; Piano Concerto a-moll Op 16 (Lizzio, Nanut, Tomsic) — 1995, APE (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4804869",
-          "x": 83142,
-          "y": 2992,
+          "x": 82004,
+          "y": 8362,
           "id": "9a9aee5a-cfe8-4b95-ad6e-671de017bd2e"
         },
         "01e8a8c8-7a28-492e-853b-b967ab44b839": {
           "label": "(Classical) Grieg - Pieces for piano (Михаил Плетнев/Mikhail Pletnev) - 1994, FLAC (tracks+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4958174",
-          "x": 83019,
-          "y": 3017,
+          "x": 81881,
+          "y": 8387,
           "id": "01e8a8c8-7a28-492e-853b-b967ab44b839"
         },
         "c7264eae-35c0-4af5-9879-5d94457d1391": {
           "label": "(Classical) Edvard Grieg - Peer Gynt • Symfonisk dans (Symphonic Dance), Op. 64 No. 2 • I host (In Autumn) • Gammel norsk melodi med variasjoner (Old Norwegian Melody with Variations) (Ilse Hollweg, Thomas Beecham) - 1993, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4640401",
-          "x": 83506,
-          "y": 3042,
+          "x": 82368,
+          "y": 8412,
           "id": "c7264eae-35c0-4af5-9879-5d94457d1391"
         },
         "6d47013d-3a75-464a-8c6b-062b0fe3dd2d": {
           "label": "(Classical) Edvard Grieg: String Quartets (arranged for string orchestra) • Arne Nordheim: Rendezvous - Oslo Camerata, Stephan Barratt-Due - 2012, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4581189",
-          "x": 83248,
-          "y": 3067,
+          "x": 82110,
+          "y": 8437,
           "id": "6d47013d-3a75-464a-8c6b-062b0fe3dd2d"
         },
         "37eeed10-1b7f-4b6b-a57a-15e9fb98619f": {
           "label": "(Classical) Edvard Grieg - String Quartets - Александр Чернов, Ирина Попова, Игорь Богуславский, Александр Рудин - 2006, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4580093",
-          "x": 83179,
-          "y": 3092,
+          "x": 82041,
+          "y": 8462,
           "id": "37eeed10-1b7f-4b6b-a57a-15e9fb98619f"
         },
         "583fc42e-939f-49b6-ae1a-c87dbef47c40": {
           "label": "(Orchestral) E.Grieg - Peer Gynt • Suite Holberg | G.Bizet - L'Arlesienne [versions avec et sans recitant] (Hermann Scherchen) - 2003, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4571897",
-          "x": 83198,
-          "y": 3117,
+          "x": 82060,
+          "y": 8487,
           "id": "583fc42e-939f-49b6-ae1a-c87dbef47c40"
         },
         "400a5622-6a3c-4b33-918b-3472a313feed": {
           "label": "(Classical) [LP] [24/192] Grieg - Peer Gynt - Øivin Fjeldstad, London Symphony Orchestra - 1958 (Re:1965), FLAC (image+.cue) :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4456313",
-          "x": 83090,
-          "y": 3142,
+          "x": 81952,
+          "y": 8512,
           "id": "400a5622-6a3c-4b33-918b-3472a313feed"
         },
         "2a45fca1-5204-4389-8131-69392fad910a": {
           "label": "(Chamber Music) Grieg - Cello Sonata, String Quartet op. 27 (Mork, Gimse, Sigerland, Sponberg, Tomter) - 2002, FLAC (tracks+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4446963",
-          "x": 83133,
-          "y": 3167,
+          "x": 81995,
+          "y": 8537,
           "id": "2a45fca1-5204-4389-8131-69392fad910a"
         },
         "6a8e1576-3488-4334-8499-c18bd417de36": {
           "label": "(Classical) Edvard Grieg - Grieg Edition (Braaten, Hirsti, Sandve, Skram, Jansen, Pfeiler, The Trondheim Soloists, Fiskum, The Norwegian String Quartet, Tonnesen, Smebye, Trondheim Symphony Orchestra, Ruud) (24CD) - 1993, MP3 (tracks) 320 kbps :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4442011",
-          "x": 83485,
-          "y": 3192,
+          "x": 82347,
+          "y": 8562,
           "id": "6a8e1576-3488-4334-8499-c18bd417de36"
         },
         "d804bb36-4d84-4fc9-8239-fdba97cb39b5": {
           "label": "(Classical) [Grand] [24/96 mono] E. Grieg - Piano concerto in A minor, Op. 16 (Ю. Муравлев. Гос. симф. оркестр СССР, дир. К. Элиасберг) - 1953, APE (image+.cue) :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4434301",
-          "x": 83212,
-          "y": 3217,
+          "x": 82074,
+          "y": 8587,
           "id": "d804bb36-4d84-4fc9-8239-fdba97cb39b5"
         },
         "8666258a-013b-49de-87bd-973cd65fc8db": {
           "label": "(Classical) Grieg - Peer Gynt (Excerpts from the Incidental Music) - Esa-Pekka Salonen, Barbara Hendricks, Oslo Philharmonic Chorus, Oslo Philharmonic Orchestra - 1992, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4431270",
-          "x": 83319,
-          "y": 3242,
+          "x": 82181,
+          "y": 8612,
           "id": "8666258a-013b-49de-87bd-973cd65fc8db"
         },
         "2c37849e-dac8-4c2a-9324-9a3ec5485ac8": {
           "label": "(Classical) [LP] [24/192] Edvard Grieg - Music zu \"Peer Gynt\" - Thomas Beecham/Royal Philharmonic Orchestra/Beecham Choral Society mit Ilse Hollweg(1957) - 1977, FLAC (image+.cue) :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4422011",
-          "x": 83278,
-          "y": 3267,
+          "x": 82140,
+          "y": 8637,
           "id": "2c37849e-dac8-4c2a-9324-9a3ec5485ac8"
         },
         "dda5ae3a-a0f7-4dfa-b372-2e959858cb15": {
           "label": "(Classical) [Grand, 10\"] [24/96 mono] Edward Grieg - Peer Gynt, Suite No. 1-2 (Симфонический оркестр ВР. Дирижер Н. Голованов) - 1960, APE (image+.cue) :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4354565",
-          "x": 83191,
-          "y": 3292,
+          "x": 82053,
+          "y": 8662,
           "id": "dda5ae3a-a0f7-4dfa-b372-2e959858cb15"
         },
         "6059fd9b-7585-44ca-93dd-fd9281409583": {
           "label": "(Classical) Григ/Grieg: Peer Gynt & Сибелиус/Sibelius: Karelia & The Swan of Tuonela (Bamberger Symphoniker - Richard Kraus / Helsinki Radio SO - Okko Kamu) - 1990, ALAC (ремастер) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4256662",
-          "x": 83311,
-          "y": 3317,
+          "x": 82173,
+          "y": 8687,
           "id": "6059fd9b-7585-44ca-93dd-fd9281409583"
         },
         "7800f990-f1c3-4f84-9c3c-6c5966c17088": {
           "label": "(Classical) Grieg - The best of (Fjor var,Peer Gynt Suite,Holberg Suite,Lyrisk suite,Hjerte Wounds. Исп.Jando,Ligeti,Leaper,Edlinger,Gunzenhauser,Walter) - 1997, FLAC (image+cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=3140463",
-          "x": 83286,
-          "y": 3342,
+          "x": 82148,
+          "y": 8712,
           "id": "7800f990-f1c3-4f84-9c3c-6c5966c17088"
         },
         "7c2d5b7a-aada-4f44-8880-1dcebf5e282f": {
           "label": "Брамс (+плейлист)",
           "link": "",
-          "x": 82135,
-          "y": 3588,
-          "id": "7c2d5b7a-aada-4f44-8880-1dcebf5e282f"
+          "x": 79429,
+          "y": 8967,
+          "id": "7c2d5b7a-aada-4f44-8880-1dcebf5e282f",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "3e81bd9b-fb7d-45fe-a57e-ca6a515490e6": {
           "label": "Брамс, Иоганнес — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D0%BC%D1%81,_%D0%98%D0%BE%D0%B3%D0%B0%D0%BD%D0%BD%D0%B5%D1%81",
-          "x": 82644,
-          "y": 3491,
+          "x": 81506,
+          "y": 8861,
           "id": "3e81bd9b-fb7d-45fe-a57e-ca6a515490e6"
         },
         "0771ed50-c32b-42ad-aa4a-b8667d15f64e": {
           "label": "Johannes Brahms - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Johannes_Brahms",
-          "x": 82980,
-          "y": 3491,
+          "x": 81842,
+          "y": 8861,
           "id": "0771ed50-c32b-42ad-aa4a-b8667d15f64e"
         },
         "95c88e32-119d-4945-b973-741520c1255c": {
           "label": "Трекер",
           "link": "http://rutracker.org/forum/tracker.php?nm=brahms",
-          "x": 82602,
-          "y": 3685,
+          "x": 81464,
+          "y": 9055,
           "id": "95c88e32-119d-4945-b973-741520c1255c"
         },
         "f7962113-7154-4a89-96f5-14a697040034": {
           "label": "(Classical/Piano) Brahms/Брамс - Piano Concertos, Ballades, Scherzo, Fantasias, Intermezzos, Pieces, Rhapsodies, Waltzes, Variations (Stephen Kovacevich, Sir Colin Davis) - 2005, MP3 (tracks) 320 kbps :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4045760",
-          "x": 83413,
-          "y": 3590,
+          "x": 82275,
+          "y": 8960,
           "id": "f7962113-7154-4a89-96f5-14a697040034"
         },
         "5382fc31-c70c-44e7-bf2d-d4ff61b3cd94": {
           "label": "(Classical) Brahms/Брамс - Complete Symphonies, Haydn Variations, Academic Festival Overture, Tragic Overture, Schicksalslied (Bruno Walter, Columbia Symphony Orchestra) - 1995, MP3 (tracks) 320 kbps :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4071461",
-          "x": 83423,
-          "y": 3615,
+          "x": 82285,
+          "y": 8985,
           "id": "5382fc31-c70c-44e7-bf2d-d4ff61b3cd94"
         },
         "b338ac51-93a8-46e6-8f1d-2e18868bd5a0": {
           "label": "(Classical/Chamber/Trio) Johannes Brahms - The Complete Piano Trios (No. 1, Op. 8; No. 2, Op. 87; No. 3, Op. 114); Clarinet trio, Op. 114; Horn Trio, Op. 40 (The Florestan Trio, Stephen Stilrling, Richard Hosford) - 1998, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4055308",
-          "x": 83555,
-          "y": 3640,
+          "x": 82417,
+          "y": 9010,
           "id": "b338ac51-93a8-46e6-8f1d-2e18868bd5a0"
         },
         "2fbf7fca-08fa-43c0-b009-ebc2da5c9bc8": {
           "label": "(Classical, cello) Johannes Brahms - Cello Sonatas - Torleif Thedeen, Roland Pontinen - 2010, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4055975",
-          "x": 83153,
-          "y": 3665,
+          "x": 82015,
+          "y": 9035,
           "id": "2fbf7fca-08fa-43c0-b009-ebc2da5c9bc8"
         },
         "24bfe63a-364c-4398-b71a-899321ca7b05": {
           "label": "(Classical/Organ) Johannes Brahms - Elf Choralvorspiele Op.posth. 122/Choralvorspiel & Fuge WoO.7/Prаludium & Fuge WoO.9, WoO.10/Fuge WoO.8 (Anne Horsch) - 2008, MP3 (tracks) 320 kbps :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=3311705",
-          "x": 83388,
-          "y": 3690,
+          "x": 82250,
+          "y": 9060,
           "id": "24bfe63a-364c-4398-b71a-899321ca7b05"
         },
         "6bffb8f4-3740-4aa9-999e-198234533601": {
           "label": "(Classical) Брамс – сонаты для кларнета и фортепиано / Brahms – Clarinet sonatas op. 120 (de Peyer, Pryor) - 1987, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4075580",
-          "x": 83233,
-          "y": 3715,
+          "x": 82095,
+          "y": 9085,
           "id": "6bffb8f4-3740-4aa9-999e-198234533601"
         },
         "5f0a52fe-28be-4197-a422-037a87bed66d": {
           "label": "(Classical) Johannes Brahms - Scherzo, Op.4, Ballades, Op.10, Piano Pieces, Op.76 (Stephen Bishop Kovacevich) - 1985, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4048515",
-          "x": 83241,
-          "y": 3740,
+          "x": 82103,
+          "y": 9110,
           "id": "5f0a52fe-28be-4197-a422-037a87bed66d"
         },
         "fdc84941-d543-429b-96d6-9ca3c8ea236c": {
           "label": "(Classical) Johannes Brahms - Fantasien, Op.116, 3 Intermezzi, Op.117, Klavierstucke, Op.119 (Stephen Bishop Kovacevich) - 1985, FLAC (image+.cue) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4048531",
-          "x": 83276,
-          "y": 3765,
+          "x": 82138,
+          "y": 9135,
           "id": "fdc84941-d543-429b-96d6-9ca3c8ea236c"
         },
         "bff63d2a-cf4f-44c8-b85b-2d5be11bc3f7": {
           "label": "Johann Sebastian Bach - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach",
-          "x": 82184,
-          "y": 4123,
-          "id": "bff63d2a-cf4f-44c8-b85b-2d5be11bc3f7"
+          "x": 79780,
+          "y": 9506,
+          "id": "bff63d2a-cf4f-44c8-b85b-2d5be11bc3f7",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "e8c844e9-7f22-43bf-91e5-75d121b13ce9": {
           "label": "List of compositions by Johann Sebastian Bach - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/List_of_compositions_by_Johann_Sebastian_Bach",
-          "x": 82854,
-          "y": 3933,
+          "x": 81716,
+          "y": 9303,
           "id": "e8c844e9-7f22-43bf-91e5-75d121b13ce9"
         },
         "52a6191b-2514-45e3-8cfc-f2e60c7d3a36": {
           "label": "List of fugal works by Johann Sebastian Bach - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/List_of_fugal_works_by_Johann_Sebastian_Bach",
-          "x": 82851,
-          "y": 4323,
+          "x": 81713,
+          "y": 9693,
           "id": "52a6191b-2514-45e3-8cfc-f2e60c7d3a36"
         },
         "acb8af2d-a0d3-48f8-bd3c-d0b60a404aa3": {
           "label": "BWV 535 – Prelude and Fugue in G minor - YouTube",
           "link": "https://www.youtube.com/results?search_query=BWV+535+%E2%80%93+Prelude+and+Fugue+in+G+minor",
-          "x": 83353,
-          "y": 4162,
+          "x": 82215,
+          "y": 9532,
           "id": "acb8af2d-a0d3-48f8-bd3c-d0b60a404aa3"
         },
         "19ea6125-d0e9-4e00-8b82-8a8bae7efd8c": {
           "label": "BWV 535 - Prelude & Fugue in G Minor (Scrolling) - YouTube",
           "link": "https://www.youtube.com/watch?v=0jA83l1cRgA",
-          "x": 83844,
-          "y": 4164,
+          "x": 82706,
+          "y": 9534,
           "id": "19ea6125-d0e9-4e00-8b82-8a8bae7efd8c"
         },
         "50a5d82b-aa73-4ffc-b201-516c451b77c3": {
           "label": "gerubach - YouTube - YouTube",
           "link": "https://www.youtube.com/channel/UCNAckPiDYxRWengUlRujs6Q",
-          "x": 84238,
-          "y": 4166,
+          "x": 83100,
+          "y": 9536,
           "id": "50a5d82b-aa73-4ffc-b201-516c451b77c3"
         },
         "bddeff44-d71c-4e32-a786-84c252391aa7": {
           "label": "smalin - YouTube - YouTube",
           "link": "https://www.youtube.com/user/smalin/featured",
-          "x": 84593,
-          "y": 4069,
+          "x": 83455,
+          "y": 9439,
           "id": "bddeff44-d71c-4e32-a786-84c252391aa7"
         },
         "0231a5b1-9a1d-4c28-ada5-1d0c8ac2acbb": {
           "label": "Ashish Xiangyi Kumar - YouTube - YouTube",
           "link": "https://www.youtube.com/user/xiangyik/videos",
-          "x": 84641,
-          "y": 4094,
+          "x": 83503,
+          "y": 9464,
           "id": "0231a5b1-9a1d-4c28-ada5-1d0c8ac2acbb"
         },
         "daf870e6-b33b-47a5-a88f-28b0dadf23b6": {
           "label": "toxiconegro - YouTube - YouTube",
           "link": "https://www.youtube.com/user/toxiconegro",
-          "x": 84609,
-          "y": 4119,
+          "x": 83471,
+          "y": 9489,
           "id": "daf870e6-b33b-47a5-a88f-28b0dadf23b6"
         },
         "7c6d1246-2868-489d-a90a-51e6d75c5640": {
           "label": "J.S. Bach - BWV 531 - Fuga C-dur / C Major - YouTube",
           "link": "https://www.youtube.com/watch?v=KNnUGqsDoYU",
-          "x": 85076,
-          "y": 4116,
+          "x": 83938,
+          "y": 9486,
           "id": "7c6d1246-2868-489d-a90a-51e6d75c5640"
         },
         "2ce6c31f-13c5-4a67-94d5-766561ee501f": {
           "label": "Score'sAnimation - YouTube - YouTube",
           "link": "https://www.youtube.com/user/ScoreAnimation/videos",
-          "x": 84627,
-          "y": 4169,
+          "x": 83489,
+          "y": 9539,
           "id": "2ce6c31f-13c5-4a67-94d5-766561ee501f"
         },
         "4493b45d-f816-4771-b77d-bcd70bd3f7e9": {
           "label": "Batti, batti o bel Masetto (Don Giovanni - W. A. Mozart) Score Animation - YouTube",
           "link": "https://www.youtube.com/watch?v=bYnZSCt23_M",
-          "x": 85163,
-          "y": 4166,
+          "x": 84025,
+          "y": 9536,
           "id": "4493b45d-f816-4771-b77d-bcd70bd3f7e9"
         },
         "3dab5735-f6e1-4dc4-89ab-90304f86dd08": {
           "label": "Paul Barton - YouTube - YouTube",
           "link": "https://www.youtube.com/user/PaulBartonPiano/videos",
-          "x": 84609,
-          "y": 4219,
+          "x": 83471,
+          "y": 9589,
           "id": "3dab5735-f6e1-4dc4-89ab-90304f86dd08"
         },
         "d94990bf-b813-49eb-b0db-5fdad1b6436b": {
           "label": "“Auld Lang Syne” on Piano for Romsai the Elephant - YouTube",
           "link": "https://www.youtube.com/watch?v=bOE8h_odY10",
-          "x": 85099,
-          "y": 4216,
+          "x": 83961,
+          "y": 9586,
           "id": "d94990bf-b813-49eb-b0db-5fdad1b6436b"
         },
         "494acc26-01ea-4b16-8058-be0dfe52f987": {
           "label": "thenameisgsarci - YouTube - YouTube",
           "link": "https://www.youtube.com/user/gsarci2011/videos",
-          "x": 84624,
-          "y": 4269,
+          "x": 83486,
+          "y": 9639,
           "id": "494acc26-01ea-4b16-8058-be0dfe52f987"
         },
         "2a3fb447-aeb5-4de4-ae7a-937c416a3ac5": {
           "label": "Ernő Dohnányi - 6 Concert Etudes Op. 28 (audio + sheet music) - YouTube",
           "link": "https://www.youtube.com/watch?v=CMrFuI4Yu2s",
-          "x": 85138,
-          "y": 4266,
+          "x": 84000,
+          "y": 9636,
           "id": "2a3fb447-aeb5-4de4-ae7a-937c416a3ac5"
         },
         "c2a27db3-2a49-4c4f-9bae-318c09512a0b": {
           "label": "BWV 864 – Well-Tempered Clavier, Book 1: Prelude and Fugue No. 19 in A major - YouTube",
           "link": "https://www.youtube.com/results?search_query=BWV+864+%E2%80%93+Well-Tempered+Clavier%2C+Book+1%3A+Prelude+and+Fugue+No.+19+in+A+major",
-          "x": 83486,
-          "y": 4419,
+          "x": 82348,
+          "y": 9789,
           "id": "c2a27db3-2a49-4c4f-9bae-318c09512a0b"
         },
         "56de5146-3e00-449f-a883-40254d6821af": {
           "label": "Bach: WTC1 No. 19 in A major BWV 864 (Richter) - YouTube",
           "link": "https://www.youtube.com/watch?v=TRZfA5gv-dE",
-          "x": 84080,
-          "y": 4412,
+          "x": 82942,
+          "y": 9782,
           "id": "56de5146-3e00-449f-a883-40254d6821af"
         },
         "1653ab88-74c7-4cb9-8de4-e6a94fb115f3": {
           "label": "BWV 1016 – Sonata No. 3 in E major: 2. Allegro and 4. Allegro - YouTube",
           "link": "https://www.youtube.com/results?search_query=BWV+1016+%E2%80%93+Sonata+No.+3+in+E+major%3A+2.+Allegro+and+4.+Allegro",
-          "x": 83425,
-          "y": 4469,
+          "x": 82287,
+          "y": 9839,
           "id": "1653ab88-74c7-4cb9-8de4-e6a94fb115f3"
         },
         "4ab101ff-f997-4e50-baee-1f41a160cc77": {
           "label": "Pinchas Zukerman: Bach - Violin Sonata No. 3 in E major BWV 1016 - YouTube",
           "link": "https://www.youtube.com/watch?v=YaqRT-I2Rf0",
-          "x": 84206,
-          "y": 4462,
+          "x": 83068,
+          "y": 9832,
           "id": "4ab101ff-f997-4e50-baee-1f41a160cc77"
         },
         "ce546ecf-bde8-48e2-8dbf-317f0a863951": {
           "label": "Чайковский",
           "link": "",
-          "x": 82110,
-          "y": 9775,
-          "id": "ce546ecf-bde8-48e2-8dbf-317f0a863951"
+          "x": 79271,
+          "y": 15769,
+          "id": "ce546ecf-bde8-48e2-8dbf-317f0a863951",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "399de006-e542-45e8-97dd-25188a0d2d2c": {
           "label": "Pyotr Ilyich Tchaikovsky - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky",
-          "x": 82915,
-          "y": 9770,
+          "x": 81792,
+          "y": 15764,
           "id": "399de006-e542-45e8-97dd-25188a0d2d2c"
         },
         "51e7c9b4-25d3-4890-9a1e-a729905db2c4": {
           "label": "Моцарт",
           "link": "",
-          "x": 82097,
-          "y": 10238,
-          "id": "51e7c9b4-25d3-4890-9a1e-a729905db2c4"
+          "x": 79179,
+          "y": 16236,
+          "id": "51e7c9b4-25d3-4890-9a1e-a729905db2c4",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "f8567ece-d561-4309-b4f9-2da8a279ed1d": {
           "label": "Wolfgang Amadeus Mozart - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
-          "x": 82856,
-          "y": 9898,
+          "x": 81733,
+          "y": 15892,
           "id": "f8567ece-d561-4309-b4f9-2da8a279ed1d"
         },
         "26806978-85c0-48e8-88c5-652d5527de6a": {
           "label": "Requiem (Mozart) - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Requiem_(Mozart)",
-          "x": 82827,
-          "y": 10081,
+          "x": 81704,
+          "y": 16075,
           "id": "26806978-85c0-48e8-88c5-652d5527de6a"
         },
         "0d1205b2-64cf-412b-9348-7924ab2243fa": {
           "label": "Requiem - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Requiem",
-          "x": 83116,
-          "y": 10020,
+          "x": 81993,
+          "y": 16014,
           "id": "0d1205b2-64cf-412b-9348-7924ab2243fa"
         },
         "568d389e-56ca-4d94-8300-dca2c40c6aa5": {
           "label": "Music for the Requiem Mass - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Music_for_the_Requiem_Mass",
-          "x": 83366,
-          "y": 10018,
+          "x": 82243,
+          "y": 16012,
           "id": "568d389e-56ca-4d94-8300-dca2c40c6aa5"
         },
         "e63c16be-8dfa-4b42-b70a-21e05b976d27": {
           "label": "Lacrimosa - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Lacrimosa",
-          "x": 83121,
-          "y": 10152,
+          "x": 81998,
+          "y": 16146,
           "id": "e63c16be-8dfa-4b42-b70a-21e05b976d27"
         },
         "7b227306-3850-4ac0-92f8-4aa1f429cdb7": {
           "label": "Requiem (Mozart - YouTube",
           "link": "https://www.youtube.com/results?search_query=Requiem+%28Mozart",
-          "x": 82813,
-          "y": 10595,
+          "x": 81690,
+          "y": 16589,
           "id": "7b227306-3850-4ac0-92f8-4aa1f429cdb7"
         },
         "2d7e5956-5785-4840-b89b-b5b6c8998953": {
           "label": "Mozart - Requiem, K 626 (complete) - Celibidache - YouTube",
           "link": "https://www.youtube.com/watch?v=_9vuUJcUbkE",
-          "x": 83215,
-          "y": 10270,
+          "x": 82092,
+          "y": 16264,
           "id": "2d7e5956-5785-4840-b89b-b5b6c8998953"
         },
         "d02131cd-7804-4b5c-9b83-a3be85440d79": {
           "label": "Mozart Requiem Karl Bohm - YouTube",
           "link": "https://www.youtube.com/watch?v=-1DsJ5YQr5s",
-          "x": 83144,
-          "y": 10295,
+          "x": 82021,
+          "y": 16289,
           "id": "d02131cd-7804-4b5c-9b83-a3be85440d79"
         },
         "3c9538cd-5852-449a-9715-8a9bcc3fd9e6": {
           "label": "Mozart - Requiem (Sir Colin Davis // Full Recording) [HQ] - YouTube",
           "link": "https://www.youtube.com/watch?v=S2Ur-FosFvo",
-          "x": 83237,
-          "y": 10320,
+          "x": 82114,
+          "y": 16314,
           "id": "3c9538cd-5852-449a-9715-8a9bcc3fd9e6"
         },
         "976efa67-da90-405a-9b24-4fcc13d05060": {
           "label": "A Quality Mozart's Requiem @ The BBC Proms 2014 - YouTube",
           "link": "https://www.youtube.com/watch?v=vvCsjn-Wpk4",
-          "x": 83224,
-          "y": 10345,
+          "x": 82101,
+          "y": 16339,
           "id": "976efa67-da90-405a-9b24-4fcc13d05060"
         },
         "c1f06165-2c40-4ac3-81f3-a0e5f6504ade": {
           "label": "Requiem - Mozart KV 626 Gregory Carreño Simon Bolivar Orchestra of Venezuela - YouTube",
           "link": "https://www.youtube.com/watch?v=iDHw70dZvpo",
-          "x": 83316,
-          "y": 10370,
+          "x": 82193,
+          "y": 16364,
           "id": "c1f06165-2c40-4ac3-81f3-a0e5f6504ade"
         },
         "8cb091f4-a0b0-4fc9-a7ff-1339038f73b0": {
           "label": "Mozart Requiem Sir Colin Davis 2004 (multisubs) - YouTube",
           "link": "https://www.youtube.com/watch?v=D95igow6I6g",
-          "x": 83212,
-          "y": 10395,
+          "x": 82089,
+          "y": 16389,
           "id": "8cb091f4-a0b0-4fc9-a7ff-1339038f73b0"
         },
         "d527cb33-e3e8-4496-a035-9eebeb8db76d": {
           "label": "Mozart s Requiem Salzburg Festival 2017 Teodor Currentzis - YouTube",
           "link": "https://www.youtube.com/watch?v=vnlSpJdjgR4",
-          "x": 83247,
-          "y": 10420,
+          "x": 82124,
+          "y": 16414,
           "id": "d527cb33-e3e8-4496-a035-9eebeb8db76d"
         },
         "22fc25f8-a11b-4204-abeb-c9df36497582": {
           "label": "Mozart REQUIEM KV 626 Leonard Bernstein 1988 - YouTube",
           "link": "https://www.youtube.com/watch?v=m3wFdajeAwU",
-          "x": 83216,
-          "y": 10445,
+          "x": 82093,
+          "y": 16439,
           "id": "22fc25f8-a11b-4204-abeb-c9df36497582"
         },
         "80eddaa7-9f40-42e0-9667-6cd89a01f598": {
           "label": "Claudio Abbado Conducts Requiem Mozart 16 07 1999 - YouTube",
           "link": "https://www.youtube.com/watch?v=CAIDqiA9EZw",
-          "x": 83231,
-          "y": 10470,
+          "x": 82108,
+          "y": 16464,
           "id": "80eddaa7-9f40-42e0-9667-6cd89a01f598"
         },
         "a6262264-21de-404a-ae15-6c539c02071c": {
           "label": "Requiem de Mozart - Live @ Festival de St-Denis - YouTube",
           "link": "https://www.youtube.com/watch?v=1rS8X2Xhduk",
-          "x": 83213,
-          "y": 10495,
+          "x": 82090,
+          "y": 16489,
           "id": "a6262264-21de-404a-ae15-6c539c02071c"
         },
         "e3ae5337-10fe-451a-aa89-b274c0931848": {
           "label": "Mozart Requiem KV626 Wiener Philharmoniker Sir Georg Solti 1991 - YouTube",
           "link": "https://www.youtube.com/watch?v=4wVuUXt8ADo",
-          "x": 83272,
-          "y": 10520,
+          "x": 82149,
+          "y": 16514,
           "id": "e3ae5337-10fe-451a-aa89-b274c0931848"
         },
         "8f09c6f0-79a0-4415-8c68-9b1e43726620": {
           "label": "(Complete) Mozart Requiem, K. 626 - CM Giulini, 1979 - Philharmonia Orchestra (Indexed) - Vinyl LP - YouTube",
           "link": "https://www.youtube.com/watch?v=mHbgt3e-TC8",
-          "x": 83375,
-          "y": 10545,
+          "x": 82252,
+          "y": 16539,
           "id": "8f09c6f0-79a0-4415-8c68-9b1e43726620"
         },
         "0b426999-0cfc-43d6-aa15-dc6dbcde3204": {
           "label": "Wolfgang Amadeus Mozart - Requiem [Confutatis/Lacrimosa] - YouTube",
           "link": "https://www.youtube.com/watch?v=T8GZ_W5XjW0",
-          "x": 83250,
-          "y": 10570,
+          "x": 82127,
+          "y": 16564,
           "id": "0b426999-0cfc-43d6-aa15-dc6dbcde3204"
         },
         "9f352030-0f1e-401a-9ddc-54d1938c67d9": {
           "label": "W. A. Mozart: Requiem Mass in D minor – Nikolaus Harnoncourt, 2004 (Audio video) - YouTube",
           "link": "https://www.youtube.com/watch?v=29-z93PZDVc",
-          "x": 83323,
-          "y": 10595,
+          "x": 82200,
+          "y": 16589,
           "id": "9f352030-0f1e-401a-9ddc-54d1938c67d9"
         },
         "bce3128f-85ff-47e9-b87d-2efe446546eb": {
           "label": "Claudio Abbado - Mozart Requiem - Lacrimosa - YouTube",
           "link": "https://www.youtube.com/watch?v=mhYCaQkbkyw",
-          "x": 83205,
-          "y": 10620,
+          "x": 82082,
+          "y": 16614,
           "id": "bce3128f-85ff-47e9-b87d-2efe446546eb"
         },
         "6484c607-70c0-43e1-9147-88c9329d4f4c": {
           "label": "Mozart - Requiem in D minor, KV626 | Philippe Herreweghe Orchestre des Champs-Elysees - YouTube",
           "link": "https://www.youtube.com/watch?v=c1_N5RsVeVY",
-          "x": 83347,
-          "y": 10645,
+          "x": 82224,
+          "y": 16639,
           "id": "6484c607-70c0-43e1-9147-88c9329d4f4c"
         },
         "812c03b7-0564-49c3-9263-cd444dc6aad4": {
           "label": "Mozart - Requiem in D minor K 626 (complete/full) / Nathalie Stutzmann - YouTube",
           "link": "https://www.youtube.com/watch?v=JS9hS-PW8Rg",
-          "x": 83283,
-          "y": 10670,
+          "x": 82160,
+          "y": 16664,
           "id": "812c03b7-0564-49c3-9263-cd444dc6aad4"
         },
         "ceeb9d88-b620-4266-b4d6-332a07895288": {
           "label": "Proms 2016 - W.A. Mozart - Requiem in D minor, K. 626 [Ivan Fischer, Budapest Festival Orchestra] - YouTube",
           "link": "https://www.youtube.com/watch?v=1kXDcE543VY",
-          "x": 83372,
-          "y": 10695,
+          "x": 82249,
+          "y": 16689,
           "id": "ceeb9d88-b620-4266-b4d6-332a07895288"
         },
         "b78c4a63-c0fe-47ca-9f85-28200922010a": {
           "label": "Mozart - Requiem K 626 - Robert Levin Edition - YouTube",
           "link": "https://www.youtube.com/watch?v=hsp6XQmnb3I",
-          "x": 83204,
-          "y": 10720,
+          "x": 82081,
+          "y": 16714,
           "id": "b78c4a63-c0fe-47ca-9f85-28200922010a"
         },
         "81996fc2-bbb9-419d-8dac-9fbc2c707882": {
           "label": "Requiem. Kyrie y Dies Irae. W.A.Mozart - YouTube",
           "link": "https://www.youtube.com/watch?v=necTMJy11a4",
-          "x": 83181,
-          "y": 10745,
+          "x": 82058,
+          "y": 16739,
           "id": "81996fc2-bbb9-419d-8dac-9fbc2c707882"
         },
         "da3b2a02-04c4-436b-b41b-af19f7747c29": {
           "label": "Teodor Currentzis - Mozart's Requiem: 3. Dies Irae - YouTube",
           "link": "https://www.youtube.com/watch?v=_jy00qL3HWw",
-          "x": 83217,
-          "y": 10770,
+          "x": 82094,
+          "y": 16764,
           "id": "da3b2a02-04c4-436b-b41b-af19f7747c29"
         },
         "1c7d4d06-fa0f-409a-b71c-4078fad5b64c": {
           "label": "© Mozart Requiem in D-minor KV 626 - Danmarks Radio SymfoniOrkestret - Manfred Honeck - YouTube",
           "link": "https://www.youtube.com/watch?v=QLv8XPW1gwU",
-          "x": 83351,
-          "y": 10795,
+          "x": 82228,
+          "y": 16789,
           "id": "1c7d4d06-fa0f-409a-b71c-4078fad5b64c"
         },
         "ba5b24ed-9e59-4887-a811-e608d982f34f": {
           "label": "Requiem Mozart TubaMirum - YouTube",
           "link": "https://www.youtube.com/watch?v=YnRRcMC8XHU",
-          "x": 83147,
-          "y": 10820,
+          "x": 82024,
+          "y": 16814,
           "id": "ba5b24ed-9e59-4887-a811-e608d982f34f"
         },
         "86e3932f-c192-47e3-a7bb-916621d20e59": {
           "label": "Mozart Requiem 200th anniversary -- I & II -- Introitus & Kyrie - YouTube",
           "link": "https://www.youtube.com/watch?v=xa9w643SyCw",
-          "x": 83250,
-          "y": 10845,
+          "x": 82127,
+          "y": 16839,
           "id": "86e3932f-c192-47e3-a7bb-916621d20e59"
         },
         "8e6a31d1-7d9b-4551-b22e-70e2bc442a24": {
           "label": "Missa Pro Defuncto - Requiem Wolfgango Amadeo Mozart - YouTube",
           "link": "https://www.youtube.com/watch?v=CPGx76vR414",
-          "x": 83241,
-          "y": 10870,
+          "x": 82118,
+          "y": 16864,
           "id": "8e6a31d1-7d9b-4551-b22e-70e2bc442a24"
         },
         "78dcb598-eced-44e9-8298-924570ca2eda": {
           "label": "W. A. Mozart - Introitus: Requiem Aeternam (Requiem K626) - YouTube",
           "link": "https://www.youtube.com/watch?v=3bDk5A0_g1Q",
-          "x": 83248,
-          "y": 10895,
+          "x": 82125,
+          "y": 16889,
           "id": "78dcb598-eced-44e9-8298-924570ca2eda"
         },
         "36c36308-1a32-43c3-b736-0705d9c2e6da": {
           "label": "Mozart - Requiem in D minor (Complete/Full) [HD] - YouTube",
           "link": "https://www.youtube.com/watch?v=sPlhKP0nZII",
-          "x": 83215,
-          "y": 10920,
+          "x": 82092,
+          "y": 16914,
           "id": "36c36308-1a32-43c3-b736-0705d9c2e6da"
         },
         "4ab0be21-0095-4d85-88c1-6c9961aa6618": {
           "label": "W. A. Mozart - Requiem (fantastic performance) [Arsys Bourgogne] [HD] - YouTube",
           "link": "https://www.youtube.com/watch?v=neDnpgZPPvY",
-          "x": 83284,
-          "y": 10945,
+          "x": 82161,
+          "y": 16939,
           "id": "4ab0be21-0095-4d85-88c1-6c9961aa6618"
         },
         "aa38d0ea-529f-4e68-a944-97018463111f": {
           "label": "mozart requiem karajan - YouTube",
           "link": "https://www.youtube.com/watch?v=ia8ceqIDSJw",
-          "x": 83132,
-          "y": 10970,
+          "x": 82009,
+          "y": 16964,
           "id": "aa38d0ea-529f-4e68-a944-97018463111f"
         },
         "5632ab72-d05a-49ee-a6b5-598177a687a8": {
           "label": "Mozart: Requiem in D minor, K626 | Gardiner - YouTube",
           "link": "https://www.youtube.com/watch?v=q5Y2B55nKZY",
-          "x": 83199,
-          "y": 10995,
+          "x": 82076,
+          "y": 16989,
           "id": "5632ab72-d05a-49ee-a6b5-598177a687a8"
         },
         "311a4ecd-9f48-426b-9ebb-267e2e2114be": {
           "label": "Wolfgang Amadeus Mozart - Requiem | Vienna Philharmonic Orchestra, Herbert von Karajan - YouTube",
           "link": "https://www.youtube.com/watch?v=l2PQOz4o0M4",
-          "x": 83349,
-          "y": 11020,
+          "x": 82226,
+          "y": 17014,
           "id": "311a4ecd-9f48-426b-9ebb-267e2e2114be"
         },
         "c47c33cf-d81e-46f6-b2b7-e0753e35d6c2": {
           "label": "Штраус, Иоганн (отец) — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%A8%D1%82%D1%80%D0%B0%D1%83%D1%81,_%D0%98%D0%BE%D0%B3%D0%B0%D0%BD%D0%BD_(%D0%BE%D1%82%D0%B5%D1%86)",
-          "x": 82192,
-          "y": 11215,
-          "id": "c47c33cf-d81e-46f6-b2b7-e0753e35d6c2"
+          "x": 79848,
+          "y": 17238,
+          "id": "c47c33cf-d81e-46f6-b2b7-e0753e35d6c2",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "eec601a6-efd0-4e22-b799-eaa14acbd7c0": {
           "label": "Штраус, Иоганн (сын) — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%A8%D1%82%D1%80%D0%B0%D1%83%D1%81,_%D0%98%D0%BE%D0%B3%D0%B0%D0%BD%D0%BD_(%D1%81%D1%8B%D0%BD)",
-          "x": 82920,
-          "y": 11369,
+          "x": 81790,
+          "y": 17592,
           "id": "eec601a6-efd0-4e22-b799-eaa14acbd7c0"
         },
         "671ecf26-d576-467b-8514-471ff7b2d96f": {
           "label": "Richard Wagner - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Richard_Wagner",
-          "x": 82160,
-          "y": 11136,
-          "id": "671ecf26-d576-467b-8514-471ff7b2d96f"
+          "x": 79624,
+          "y": 17126,
+          "id": "671ecf26-d576-467b-8514-471ff7b2d96f",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "5669b949-41e1-46e3-bda8-55b6b574171d": {
           "label": "Richard Strauss - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Richard_Strauss",
-          "x": 82160,
-          "y": 11444,
-          "id": "5669b949-41e1-46e3-bda8-55b6b574171d"
+          "x": 79620,
+          "y": 17780,
+          "id": "5669b949-41e1-46e3-bda8-55b6b574171d",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "a36addc7-8f71-4b63-845a-58b1b2ca3902": {
           "label": "Dvorak",
           "link": "",
-          "x": 82095,
-          "y": 11630,
-          "id": "a36addc7-8f71-4b63-845a-58b1b2ca3902"
+          "x": 79161,
+          "y": 17979,
+          "id": "a36addc7-8f71-4b63-845a-58b1b2ca3902",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "842a89d4-5e36-413f-8dff-5753ad710f5f": {
           "label": "Antonín Dvořák - Wikipedia, the free encyclopedia",
           "link": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k",
-          "x": 82796,
-          "y": 11593,
+          "x": 81668,
+          "y": 17913,
           "id": "842a89d4-5e36-413f-8dff-5753ad710f5f"
         },
         "f8171c24-fe3a-4963-8871-84953403df7c": {
           "label": "Дворжак, Антонин — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D1%80%D0%B6%D0%B0%D0%BA,_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%B8%D0%BD",
-          "x": 82743,
-          "y": 11618,
+          "x": 81615,
+          "y": 17938,
           "id": "f8171c24-fe3a-4963-8871-84953403df7c"
         },
         "2c320b0c-7ea1-48d8-b626-15bb89469938": {
           "label": "Трекер",
           "link": "http://rutracker.org/forum/tracker.php?nm=Dvo%C5%99%C3%A1k",
-          "x": 82665,
-          "y": 11681,
+          "x": 81537,
+          "y": 18001,
           "id": "2c320b0c-7ea1-48d8-b626-15bb89469938"
         },
         "fa59e243-99d1-4b65-a10b-4f83b95c283d": {
           "label": "Трекер",
           "link": "http://rutracker.org/forum/tracker.php?nm=dvorak",
-          "x": 82772,
-          "y": 11668,
+          "x": 81644,
+          "y": 17988,
           "id": "fa59e243-99d1-4b65-a10b-4f83b95c283d"
         },
         "b62719c5-b141-4508-b8a6-25cbdff8b1dd": {
           "label": "(Classical, Orchestral) [WEB] Antonín Dvořák (Antonin Dvorak) - The Complete Published Orchestral Works - 2013, FLAC (tracks) lossless :: RuTracker.org",
           "link": "http://rutracker.org/forum/viewtopic.php?t=4843203",
-          "x": 83239,
-          "y": 11693,
+          "x": 82111,
+          "y": 18013,
           "id": "b62719c5-b141-4508-b8a6-25cbdff8b1dd"
         },
         "5a2a989e-fa42-4745-8dcd-0fc96b846afb": {
           "label": "Шуберт",
           "link": "",
-          "x": 82097,
-          "y": 12014,
-          "id": "5a2a989e-fa42-4745-8dcd-0fc96b846afb"
+          "x": 79180,
+          "y": 18338,
+          "id": "5a2a989e-fa42-4745-8dcd-0fc96b846afb",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "e141f0b2-3f66-450c-b20a-e7948a926e7d": {
           "label": "Шуберт, Франц — Википедия",
           "link": "https://ru.wikipedia.org/wiki/%D0%A8%D1%83%D0%B1%D0%B5%D1%80%D1%82,_%D0%A4%D1%80%D0%B0%D0%BD%D1%86",
-          "x": 82792,
-          "y": 11775,
+          "x": 81664,
+          "y": 18095,
           "id": "e141f0b2-3f66-450c-b20a-e7948a926e7d"
         },
         "a3383824-cb2d-4024-a165-70402029dd09": {
           "label": "Franz Schubert - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Franz_Schubert",
-          "x": 83028,
-          "y": 11772,
+          "x": 81900,
+          "y": 18092,
           "id": "a3383824-cb2d-4024-a165-70402029dd09"
         },
         "2fc47e25-2c41-413d-bc16-3f2f52506837": {
           "label": "Secular music - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Secular_music",
-          "x": 83247,
-          "y": 11769,
+          "x": 82119,
+          "y": 18089,
           "id": "2fc47e25-2c41-413d-bc16-3f2f52506837"
         },
         "545d12b4-2a5c-4cc7-883a-ad1d74df2156": {
           "label": "Schubert - YouTube",
           "link": "https://www.youtube.com/results?search_query=Schubert",
-          "x": 82756,
-          "y": 11960,
+          "x": 81628,
+          "y": 18280,
           "id": "545d12b4-2a5c-4cc7-883a-ad1d74df2156"
         },
         "a665a315-b1e5-42bb-85d9-6f3f3686b010": {
           "label": "The Best of Schubert - YouTube",
           "link": "https://www.youtube.com/watch?v=iiChxN0T2kA",
-          "x": 82994,
-          "y": 11841,
+          "x": 81866,
+          "y": 18161,
           "id": "a665a315-b1e5-42bb-85d9-6f3f3686b010"
         },
         "2133fe8e-9f15-47d2-a246-f4d65d796482": {
           "label": "Schubert \"Serenade\" - YouTube",
           "link": "https://www.youtube.com/watch?v=ZpA0l2WB86E",
-          "x": 83002,
-          "y": 11951,
+          "x": 81874,
+          "y": 18271,
           "id": "2133fe8e-9f15-47d2-a246-f4d65d796482"
         },
         "e0978209-8a74-4642-95e4-424929cd9b39": {
           "label": "Schubert \"Serenade\" - Поиск в Google",
           "link": "https://www.google.de/?gfe_rd=cr&ei=u2GCWPL_BO-S8QeN-p_ICQ#q=Schubert+%22Serenade%22",
-          "x": 83313,
-          "y": 11877,
+          "x": 82185,
+          "y": 18197,
           "id": "e0978209-8a74-4642-95e4-424929cd9b39"
         },
         "6ad0e506-4e03-4718-b9c7-2769c3e1fc8b": {
           "label": "Serenade - Schubert",
           "link": "http://www.musicwithease.com/schubert-serenade.html",
-          "x": 83704,
-          "y": 11880,
+          "x": 82576,
+          "y": 18200,
           "id": "6ad0e506-4e03-4718-b9c7-2769c3e1fc8b"
         },
         "75267e44-aeb1-4ae9-94f7-b405b7f09454": {
           "label": "Schwanengesang, D.957 (Schubert, Franz) — IMSLP",
           "link": "http://imslp.org/wiki/Schwanengesang,_D.957_(Schubert,_Franz)",
-          "x": 83808,
-          "y": 11905,
+          "x": 82680,
+          "y": 18225,
           "id": "75267e44-aeb1-4ae9-94f7-b405b7f09454"
         },
         "3af10b9c-abf5-4bf9-9015-283bf349f26a": {
           "label": "Schwanengesang - Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Schwanengesang",
-          "x": 83732,
-          "y": 11930,
+          "x": 82604,
+          "y": 18250,
           "id": "3af10b9c-abf5-4bf9-9015-283bf349f26a"
         },
         "e758a51e-015a-42dc-8b2d-e5d58a606e03": {
           "label": "обыкновенное чудо прощальная песня - YouTube",
           "link": "https://www.youtube.com/results?search_query=%D0%BE%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5+%D1%87%D1%83%D0%B4%D0%BE+%D0%BF%D1%80%D0%BE%D1%89%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BF%D0%B5%D1%81%D0%BD%D1%8F+",
-          "x": 83354,
-          "y": 11977,
+          "x": 82226,
+          "y": 18297,
           "id": "e758a51e-015a-42dc-8b2d-e5d58a606e03"
         },
         "f1b8b973-5363-4a15-bc73-31e8a06981b1": {
           "label": "Андрей Миронов - Финальная песня (Давайте негромко, давайте вполголоса...) - YouTube",
           "link": "https://www.youtube.com/watch?v=Ilo3w7D4k-s",
-          "x": 83936,
-          "y": 11980,
+          "x": 82808,
+          "y": 18300,
           "id": "f1b8b973-5363-4a15-bc73-31e8a06981b1"
         },
         "37980f76-e6f1-45a6-80d5-8a911f756227": {
           "label": "Air - Johann Sebastian Bach - YouTube",
           "link": "https://www.youtube.com/watch?v=rrVDATvUitA",
-          "x": 83315,
-          "y": 12027,
+          "x": 82187,
+          "y": 18347,
           "id": "37980f76-e6f1-45a6-80d5-8a911f756227"
         },
         "37139006-cfb1-4ba8-bf6e-8b0b5beda6e6": {
           "label": "Pachelbel - Canon In D Major. Best version. - YouTube",
           "link": "https://www.youtube.com/watch?v=NlprozGcs80",
-          "x": 83811,
-          "y": 12030,
+          "x": 82683,
+          "y": 18350,
           "id": "37139006-cfb1-4ba8-bf6e-8b0b5beda6e6"
         },
         "200db1ac-4f6f-4d23-ac82-013f8395d3dc": {
           "label": "Schubert - Ave Maria - YouTube",
           "link": "https://www.youtube.com/watch?v=2bosouX_d8Y",
-          "x": 84185,
-          "y": 12031,
+          "x": 83057,
+          "y": 18351,
           "id": "200db1ac-4f6f-4d23-ac82-013f8395d3dc"
         },
         "2a0ffbc9-fdd7-4865-a1a8-59b44a86205e": {
           "label": "The Best of Schubert - YouTube",
           "link": "https://www.youtube.com/watch?v=IjLMIpMH7Oc",
-          "x": 82994,
-          "y": 12116,
+          "x": 81866,
+          "y": 18436,
           "id": "2a0ffbc9-fdd7-4865-a1a8-59b44a86205e"
         },
         "4308ea2b-9848-444b-b0cb-1f890eff7e47": {
           "label": "Google Переводчик",
           "link": "https://translate.google.com/?hl=ru#en/ru/exhort",
-          "x": 82760,
-          "y": 12203,
+          "x": 81632,
+          "y": 18523,
           "id": "4308ea2b-9848-444b-b0cb-1f890eff7e47"
         },
         "567782af-487b-4ef5-96fa-9ae5523fd00f": {
           "label": "Vivaldi",
           "link": "",
-          "x": 82093,
-          "y": 12730,
+          "x": 79134,
+          "y": 19136,
           "id": "567782af-487b-4ef5-96fa-9ae5523fd00f",
           "shape": "box",
           "font": {
-            "size": 14,
+            "size": 100,
             "align": "left"
           },
           "color": {
@@ -46137,308 +46536,308 @@ var schemeData =
         "6b4fd8ba-f780-4363-8a14-1bf2548e6de0": {
           "label": "New Tab (chrome://newtab/)",
           "link": "",
-          "x": 82793,
-          "y": 13036,
+          "x": 81650,
+          "y": 19388,
           "id": "6b4fd8ba-f780-4363-8a14-1bf2548e6de0"
         },
         "5da50bf4-a5d1-4d84-8a84-688e17011b08": {
           "label": "vivaldi four seasons winter - YouTube",
           "link": "https://www.youtube.com/results?search_query=vivaldi+four+seasons+winter",
-          "x": 83066,
-          "y": 12613,
+          "x": 81923,
+          "y": 18965,
           "id": "5da50bf4-a5d1-4d84-8a84-688e17011b08"
         },
         "6cb0f26e-f1d8-47dc-9c31-8f3ad95f4833": {
           "label": "Antonio Vivaldi - Winter (Full) - The Four Seasons - YouTube",
           "link": "https://www.youtube.com/watch?v=TZCfydWF48c",
-          "x": 83495,
-          "y": 12547,
+          "x": 82352,
+          "y": 18899,
           "id": "6cb0f26e-f1d8-47dc-9c31-8f3ad95f4833"
         },
         "125e9f26-51d6-4fef-b019-3ad9535e96c9": {
           "label": "Vivaldi - Four Seasons (Winter) - YouTube",
           "link": "https://www.youtube.com/watch?v=nGdFHJXciAQ",
-          "x": 83437,
-          "y": 12572,
+          "x": 82294,
+          "y": 18924,
           "id": "125e9f26-51d6-4fef-b019-3ad9535e96c9"
         },
         "beb5268e-ba4c-4b5d-ac98-3a98459f80a0": {
           "label": "Vivaldi The four seasons - Winter - Julia Fischer - YouTube",
           "link": "https://www.youtube.com/watch?v=p1qNOfdMyGA",
-          "x": 83489,
-          "y": 12597,
+          "x": 82346,
+          "y": 18949,
           "id": "beb5268e-ba4c-4b5d-ac98-3a98459f80a0"
         },
         "095236a1-19c6-48c1-a525-6eba86ca17be": {
           "label": "Vivaldi Four Seasons: Winter (L'Inverno), complete; Cynthia Freivogel, Voices of Music 4K RV 297 - YouTube",
           "link": "https://www.youtube.com/watch?v=ZPdk5GaIDjo",
-          "x": 83647,
-          "y": 12622,
+          "x": 82504,
+          "y": 18974,
           "id": "095236a1-19c6-48c1-a525-6eba86ca17be"
         },
         "5a90c8d6-30d7-4fc6-917c-fe16fd775768": {
           "label": "Antonio Vivaldi.Four seasons.Winter. - YouTube",
           "link": "https://www.youtube.com/watch?v=FCLpqkIDlXs",
-          "x": 83454,
-          "y": 12647,
+          "x": 82311,
+          "y": 18999,
           "id": "5a90c8d6-30d7-4fc6-917c-fe16fd775768"
         },
         "423b47bb-dd64-4e27-9116-465dd5dbdeea": {
           "label": "Antonio Vivaldi - \"The Four Seasons\" - \"Winter\" - (Violin : Itzhak Perlman) - - YouTube",
           "link": "https://www.youtube.com/watch?v=hXq-imi271w",
-          "x": 83573,
-          "y": 12672,
+          "x": 82430,
+          "y": 19024,
           "id": "423b47bb-dd64-4e27-9116-465dd5dbdeea"
         },
         "4ddbf6be-6e02-4f24-8c26-6ea117b1b617": {
           "label": "vivaldi four seasons summer - YouTube",
           "link": "https://www.youtube.com/results?search_query=vivaldi+four+seasons+summer",
-          "x": 83073,
-          "y": 12788,
+          "x": 81930,
+          "y": 19140,
           "id": "4ddbf6be-6e02-4f24-8c26-6ea117b1b617"
         },
         "49a7ce35-702b-481f-aa00-1759d0d966c7": {
           "label": "Antonio Vivaldi-The Four Seasons-Summer - YouTube",
           "link": "https://www.youtube.com/watch?v=Es9RgQGw3Gk",
-          "x": 83475,
-          "y": 12722,
+          "x": 82332,
+          "y": 19074,
           "id": "49a7ce35-702b-481f-aa00-1759d0d966c7"
         },
         "3b54ee92-38d9-4c89-ad58-825e63a56285": {
           "label": "Antonio Vivaldi - Summer (Full) - The Four Seasons - YouTube",
           "link": "https://www.youtube.com/watch?v=KY1p-FmjT1M",
-          "x": 83502,
-          "y": 12747,
+          "x": 82359,
+          "y": 19099,
           "id": "3b54ee92-38d9-4c89-ad58-825e63a56285"
         },
         "251c9606-0aa8-4107-86a2-8d74effff80c": {
           "label": "Four Seasons ~ Vivaldi - YouTube",
           "link": "https://www.youtube.com/watch?v=GRxofEmo3HA",
-          "x": 83411,
-          "y": 12772,
+          "x": 82268,
+          "y": 19124,
           "id": "251c9606-0aa8-4107-86a2-8d74effff80c"
         },
         "5f853db5-b640-4eb4-92be-8d614337327c": {
           "label": "Vivaldi Summer The Four Seasons High Quality - YouTube",
           "link": "https://www.youtube.com/watch?v=xhkoUQ7HdIQ",
-          "x": 83489,
-          "y": 12797,
+          "x": 82346,
+          "y": 19149,
           "id": "5f853db5-b640-4eb4-92be-8d614337327c"
         },
         "09589b39-13c2-404a-acdf-b4a637beff9f": {
           "label": "Vivaldi 'Four seasons' - Presto from summer - YouTube",
           "link": "https://www.youtube.com/watch?v=nJTfG1MmMwQ",
-          "x": 83478,
-          "y": 12822,
+          "x": 82335,
+          "y": 19174,
           "id": "09589b39-13c2-404a-acdf-b4a637beff9f"
         },
         "679594e8-f03d-4f1c-ac0f-986fe4362f24": {
           "label": "Vivaldi - Summer (Verano) Complete - Four Seasons - I Musici - YouTube",
           "link": "https://www.youtube.com/watch?v=dauL0Uu7G3A",
-          "x": 83535,
-          "y": 12847,
+          "x": 82392,
+          "y": 19199,
           "id": "679594e8-f03d-4f1c-ac0f-986fe4362f24"
         },
         "7c74dd13-3eae-4b2d-af55-dc46060c2f34": {
           "label": "Antonio Vivaldi - \"Summer\" from Four seasons - YouTube",
           "link": "https://www.youtube.com/watch?v=muowVV_ITKc",
-          "x": 83485,
-          "y": 12872,
+          "x": 82342,
+          "y": 19224,
           "id": "7c74dd13-3eae-4b2d-af55-dc46060c2f34"
         },
         "74fbc035-ec8d-4abc-b25a-efb47657a074": {
           "label": "Vivaldi - The Four Seasons - Summer (Presto) - YouTube",
           "link": "https://www.youtube.com/watch?v=czlsy6pnX8s",
-          "x": 83485,
-          "y": 12897,
+          "x": 82342,
+          "y": 19249,
           "id": "74fbc035-ec8d-4abc-b25a-efb47657a074"
         },
         "4ee19072-2dc5-457d-8d18-459eab61e4ca": {
           "label": "ANNE-SOPHIE MUTTER - Vivaldi,The Four Seasons Summer Presto - YouTube",
           "link": "https://www.youtube.com/watch?v=124NoPUBDvA",
-          "x": 83556,
-          "y": 12922,
+          "x": 82413,
+          "y": 19274,
           "id": "4ee19072-2dc5-457d-8d18-459eab61e4ca"
         },
         "fedf3790-e29a-413f-98dc-40d0d76e1e23": {
           "label": "vivaldi four seasons autumn - YouTube",
           "link": "https://www.youtube.com/results?search_query=vivaldi+four+seasons+autumn",
-          "x": 83074,
-          "y": 13099,
+          "x": 81931,
+          "y": 19451,
           "id": "fedf3790-e29a-413f-98dc-40d0d76e1e23"
         },
         "c1fe1b53-4d60-4517-b9df-2e39e2844829": {
           "label": "VIVALDI \"The Four Seasons\" - Autumn - YouTube",
           "link": "https://www.youtube.com/watch?v=Q8AN0jWNrJA",
-          "x": 83461,
-          "y": 12972,
+          "x": 82318,
+          "y": 19324,
           "id": "c1fe1b53-4d60-4517-b9df-2e39e2844829"
         },
         "947a42e1-9b0d-4acd-b32d-f5f81a77312e": {
           "label": "Antonio Vivaldi - Four Seasons *Autumn* - Frederieke Saeijs - YouTube",
           "link": "https://www.youtube.com/watch?v=Z21_VpNipfg",
-          "x": 83529,
-          "y": 12997,
+          "x": 82386,
+          "y": 19349,
           "id": "947a42e1-9b0d-4acd-b32d-f5f81a77312e"
         },
         "5bbdfb14-4180-4f5c-a337-3e9ecf12211d": {
           "label": "Vivaldi Autumn The Four Seasons High Quality - YouTube",
           "link": "https://www.youtube.com/watch?v=H7hGiZ579cs",
-          "x": 83486,
-          "y": 13022,
+          "x": 82343,
+          "y": 19374,
           "id": "5bbdfb14-4180-4f5c-a337-3e9ecf12211d"
         },
         "aa8e48c8-ac9f-4c67-becf-9295d874ac9a": {
           "label": "Four Seasons ~ Vivaldi - YouTube",
           "link": "https://www.youtube.com/watch?v=GRxofEmo3HA",
-          "x": 83411,
-          "y": 13047,
+          "x": 82268,
+          "y": 19399,
           "id": "aa8e48c8-ac9f-4c67-becf-9295d874ac9a"
         },
         "2288cdd0-6c50-4372-80de-0ecc9b38ab7e": {
           "label": "Vivaldi's Four Seasons Op.8 No.3[Autumn]1st, 2nd Mov. - YouTube",
           "link": "https://www.youtube.com/watch?v=qYjAIUIJh3k",
-          "x": 83515,
-          "y": 13072,
+          "x": 82372,
+          "y": 19424,
           "id": "2288cdd0-6c50-4372-80de-0ecc9b38ab7e"
         },
         "900488b6-68fd-4c96-8fbb-9458ab9b9a19": {
           "label": "Antonio Vivaldi - Autumn (Full) - The Four Seasons - YouTube",
           "link": "https://www.youtube.com/watch?v=gYyc4WXS2_Q",
-          "x": 83499,
-          "y": 13097,
+          "x": 82356,
+          "y": 19449,
           "id": "900488b6-68fd-4c96-8fbb-9458ab9b9a19"
         },
         "59c42729-9cb1-400b-a868-5ed703621e4b": {
           "label": "Antonio Vivaldi - Four seasons (Autumn) - concert for violin and orchestra - YouTube",
           "link": "https://www.youtube.com/watch?v=_bsW6lzqig0",
-          "x": 83570,
-          "y": 13122,
+          "x": 82427,
+          "y": 19474,
           "id": "59c42729-9cb1-400b-a868-5ed703621e4b"
         },
         "88edbd7a-cf66-4a4f-942a-38ca10a99313": {
           "label": "Il Giardino Armonico - Vivaldi - Four Seasons - Autumn - YouTube",
           "link": "https://www.youtube.com/watch?v=dAi01pNsHmA",
-          "x": 83511,
-          "y": 13147,
+          "x": 82368,
+          "y": 19499,
           "id": "88edbd7a-cf66-4a4f-942a-38ca10a99313"
         },
         "afddd130-a3f9-4dd8-8bae-3aaccd0daada": {
           "label": "ANNE SOPHIE MUTTER, The Four Seasons: AUTUMN, Antonio Vivaldi (3/4). - YouTube",
           "link": "https://www.youtube.com/watch?v=7NbVfqgAZM4",
-          "x": 83583,
-          "y": 13172,
+          "x": 82440,
+          "y": 19524,
           "id": "afddd130-a3f9-4dd8-8bae-3aaccd0daada"
         },
         "d11b3721-0363-490c-bf1b-200a49ae0bd8": {
           "label": "Vivaldi Four Seasons Autumn 1st mov Allegro - YouTube",
           "link": "https://www.youtube.com/watch?v=gkcgUi_sHbo",
-          "x": 83482,
-          "y": 13197,
+          "x": 82339,
+          "y": 19549,
           "id": "d11b3721-0363-490c-bf1b-200a49ae0bd8"
         },
         "4322e15c-1a91-45f9-8f93-eaa625c45293": {
           "label": "Antonio Vivaldi- The Four Seasons- Fall- Allegro - YouTube",
           "link": "https://www.youtube.com/watch?v=zCVSZU9jXyk",
-          "x": 83490,
-          "y": 13222,
+          "x": 82347,
+          "y": 19574,
           "id": "4322e15c-1a91-45f9-8f93-eaa625c45293"
         },
         "ea43a5e2-db7b-4fc6-9aff-448d97b96cfb": {
           "label": "VIVALDI Four Seasons – Autumn mvt III-Allegro – Apollo's Fire - YouTube",
           "link": "https://www.youtube.com/watch?v=PapzGRO9edU",
-          "x": 83536,
-          "y": 13247,
+          "x": 82393,
+          "y": 19599,
           "id": "ea43a5e2-db7b-4fc6-9aff-448d97b96cfb"
         },
         "20475ee7-4588-455a-9dc9-79a7b83d8493": {
           "label": "apollosfirebaroque - YouTube",
           "link": "https://www.youtube.com/user/apollosfirebaroque/videos",
-          "x": 83991,
-          "y": 13250,
+          "x": 82848,
+          "y": 19602,
           "id": "20475ee7-4588-455a-9dc9-79a7b83d8493"
         },
         "c03b6630-81be-4f63-a4be-e863ba68248b": {
           "label": "Shlomo Mintz: Four Seasons Autumn I. Allegro - YouTube",
           "link": "https://www.youtube.com/watch?v=iEheBo1s7DE",
-          "x": 83486,
-          "y": 13297,
+          "x": 82343,
+          "y": 19649,
           "id": "c03b6630-81be-4f63-a4be-e863ba68248b"
         },
         "50ba9a90-079d-45c8-bf5c-b3de3912991b": {
           "label": "Vivaldi - Four Seasons (Autumn excerpt) - YouTube",
           "link": "https://www.youtube.com/watch?v=1Qr9aX9U9pw",
-          "x": 83466,
-          "y": 13322,
+          "x": 82323,
+          "y": 19674,
           "id": "50ba9a90-079d-45c8-bf5c-b3de3912991b"
         },
         "f6f22cb8-9b17-4ed1-8202-3a900d4628ae": {
           "label": "vivaldi four seasons spring - YouTube",
           "link": "https://www.youtube.com/results?sp=SDzqAwA%253D&q=vivaldi+four+seasons+spring",
-          "x": 83066,
-          "y": 13438,
+          "x": 81923,
+          "y": 19790,
           "id": "f6f22cb8-9b17-4ed1-8202-3a900d4628ae"
         },
         "a2c6f422-8205-476d-971d-e46758661659": {
           "label": "Vivaldi - Spring - YouTube",
           "link": "https://www.youtube.com/watch?v=l-dYNttdgl0",
-          "x": 83385,
-          "y": 13372,
+          "x": 82242,
+          "y": 19724,
           "id": "a2c6f422-8205-476d-971d-e46758661659"
         },
         "1f0867cf-d8a9-4c5e-a0ce-99f3ebbc17b4": {
           "label": "Itzhak Perlman Vivaldi The Four Seasons Spring - YouTube",
           "link": "https://www.youtube.com/watch?v=TKthRw4KjEg",
-          "x": 83491,
-          "y": 13397,
+          "x": 82348,
+          "y": 19749,
           "id": "1f0867cf-d8a9-4c5e-a0ce-99f3ebbc17b4"
         },
         "9ca81122-ab4d-478b-90d3-d5f57b9a3664": {
           "label": "Vivaldi Spring The Four Seasons High Quality - YouTube",
           "link": "https://www.youtube.com/watch?v=aFHPRi0ZeXE",
-          "x": 83482,
-          "y": 13422,
+          "x": 82339,
+          "y": 19774,
           "id": "9ca81122-ab4d-478b-90d3-d5f57b9a3664"
         },
         "72afe6c0-64bd-4dde-9ed0-32b17a1391e5": {
           "label": "Vivaldi, The Four Seasons, Spring (La Primavera), 1st movement - YouTube",
           "link": "https://www.youtube.com/watch?v=e3nSvIiBNFo",
-          "x": 83544,
-          "y": 13447,
+          "x": 82401,
+          "y": 19799,
           "id": "72afe6c0-64bd-4dde-9ed0-32b17a1391e5"
         },
         "dd42dbc9-f822-460c-9292-7a421d1eb108": {
           "label": "Spring 1 - Recomposed by Max Richter: Vivaldi, The Four Seasons - YouTube",
           "link": "https://www.youtube.com/watch?v=WaCib0B8T24",
-          "x": 83550,
-          "y": 13472,
+          "x": 82407,
+          "y": 19824,
           "id": "dd42dbc9-f822-460c-9292-7a421d1eb108"
         },
         "369e00b9-c2f0-4a4c-a0fe-619f3bb1cffb": {
           "label": "Vivaldi - Spring - YouTube",
           "link": "https://www.youtube.com/watch?v=ZNBeW_2kGEA",
-          "x": 83385,
-          "y": 13497,
+          "x": 82242,
+          "y": 19849,
           "id": "369e00b9-c2f0-4a4c-a0fe-619f3bb1cffb"
         },
         "4297ce1c-0a8a-4d69-ac0b-d1f0996c971c": {
           "label": "ANNE SOPHIE MUTTER, The Four Seasons: SPRING, Antonio Vivaldi (1/4). - YouTube",
           "link": "https://www.youtube.com/watch?v=N_Yq34w_1CY",
-          "x": 83579,
-          "y": 13522,
+          "x": 82436,
+          "y": 19874,
           "id": "4297ce1c-0a8a-4d69-ac0b-d1f0996c971c"
         },
         "9431af59-fbef-4ba8-8f55-55119de8404a": {
           "label": "Vivaldi The four seasons - Spring - Julia Fischer - YouTube",
           "link": "https://www.youtube.com/watch?v=rLny8NsLw-s",
-          "x": 83489,
-          "y": 13547,
+          "x": 82346,
+          "y": 19899,
           "id": "9431af59-fbef-4ba8-8f55-55119de8404a"
         },
         "f70affb9-c4e7-40d5-a6af-1735a8d66e56": {
           "id": "f70affb9-c4e7-40d5-a6af-1735a8d66e56",
-          "x": 81798,
-          "y": -2377,
+          "x": 78811,
+          "y": -2138,
           "label": "Genres",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/List_of_dance_style_categories",
@@ -46454,13 +46853,13 @@ var schemeData =
         },
         "dac85394-521d-4463-82e6-8ad759cdc771": {
           "id": "dac85394-521d-4463-82e6-8ad759cdc771",
-          "x": 82110,
-          "y": -1865,
+          "x": 79314,
+          "y": -1332,
           "label": "Gustav Mahler",
           "link": "https://en.wikipedia.org/wiki/Gustav_Mahler",
           "shape": "box",
           "font": {
-            "size": 14,
+            "size": 100,
             "align": "left"
           },
           "color": {
@@ -47638,8 +48037,8 @@ var schemeData =
         },
         "721c8665-02a3-4210-9f5e-bc02e2fabc48": {
           "id": "721c8665-02a3-4210-9f5e-bc02e2fabc48",
-          "x": 82995,
-          "y": 33358,
+          "x": 82768,
+          "y": 44238,
           "label": "Bands",
           "shape": "box",
           "link": "",
@@ -47655,110 +48054,93 @@ var schemeData =
         },
         "7bbf3309-51e4-4ac0-a0c9-b35d111331b3": {
           "id": "7bbf3309-51e4-4ac0-a0c9-b35d111331b3",
-          "x": 83165,
-          "y": 33356,
+          "x": 82938,
+          "y": 44236,
           "label": "AC/DC"
         },
         "c8301929-07c3-49a9-a2ea-5ad660f49e66": {
           "label": "AC/DC - YouTube",
           "link": "https://www.youtube.com/results?search_query=AC%2FDC",
-          "x": 83356,
-          "y": 33364,
+          "x": 83129,
+          "y": 44244,
           "id": "c8301929-07c3-49a9-a2ea-5ad660f49e66"
         },
         "6b15b04b-2e75-47ca-ae42-f8c14a82e723": {
           "label": "AC/DC - Thunderstruck (Official Video) - YouTube",
           "link": "https://www.youtube.com/watch?v=v2AC41dglnM&ab_channel=acdcVEVO",
-          "x": 83647,
-          "y": 33250,
+          "x": 83420,
+          "y": 44130,
           "id": "6b15b04b-2e75-47ca-ae42-f8c14a82e723"
         },
         "35276174-af7f-4e88-aa95-6fad0a398eaa": {
           "label": "AC/DC - Highway to Hell (from Live at River Plate) - YouTube",
           "link": "https://www.youtube.com/watch?v=gEPmA3USJdI&ab_channel=acdcVEVO",
-          "x": 83683,
-          "y": 33275,
+          "x": 83456,
+          "y": 44155,
           "id": "35276174-af7f-4e88-aa95-6fad0a398eaa"
         },
         "23058209-9f25-4797-9e6b-7ca6a23823f3": {
           "label": "AC/DC - Back In Black (Official Video) - YouTube",
           "link": "https://www.youtube.com/watch?v=pAgnJDJN4VA&ab_channel=acdcVEVO",
-          "x": 83644,
-          "y": 33300,
+          "x": 83417,
+          "y": 44180,
           "id": "23058209-9f25-4797-9e6b-7ca6a23823f3"
         },
         "a99713db-f82b-4add-b915-4d4112480d51": {
           "label": "AC/DC - Thunderstruck (from Live at River Plate) - YouTube",
           "link": "https://www.youtube.com/watch?v=n_GFN3a0yj0&ab_channel=acdcVEVO",
-          "x": 83680,
-          "y": 33325,
+          "x": 83453,
+          "y": 44205,
           "id": "a99713db-f82b-4add-b915-4d4112480d51"
         },
         "3f21d25c-d9a8-440a-a6ea-a07ebb87fbfb": {
           "label": "AC/DC - You Shook Me All Night Long (Official Video) - YouTube",
           "link": "https://www.youtube.com/watch?v=Lo2qQmj0_h4&ab_channel=acdcVEVO",
-          "x": 83693,
-          "y": 33350,
+          "x": 83466,
+          "y": 44230,
           "id": "3f21d25c-d9a8-440a-a6ea-a07ebb87fbfb"
         },
         "687e2f0b-2d74-408a-83ae-a3fe087cb57e": {
           "label": "AC/DC - Shoot To Thrill - YouTube",
           "link": "https://www.youtube.com/watch?v=f3dpAVxA2EA&ab_channel=RockAndBeer",
-          "x": 83599,
-          "y": 33375,
+          "x": 83372,
+          "y": 44255,
           "id": "687e2f0b-2d74-408a-83ae-a3fe087cb57e"
         },
         "5c1ec784-5f80-45f8-9395-dde16f1ee455": {
           "label": "AC/DC - Hells Bells (Official Music Video) - YouTube",
           "link": "https://www.youtube.com/watch?v=etAIpkdhU9Q&list=PL8qme4y2QvF8hkucNTlM-sfePkSigFDD3&ab_channel=acdcVEVO",
-          "x": 83654,
-          "y": 33400,
+          "x": 83427,
+          "y": 44280,
           "id": "5c1ec784-5f80-45f8-9395-dde16f1ee455"
         },
         "0c260e08-f14d-460d-b013-0cc7b4d7b68f": {
           "label": "AC/DC - Hard As A Rock (Official Video) - YouTube",
           "link": "https://www.youtube.com/watch?v=X9s_CQx4ylU&list=PL8qme4y2QvF8hkucNTlM-sfePkSigFDD3&index=14&ab_channel=acdcVEVO",
-          "x": 83651,
-          "y": 33425,
+          "x": 83424,
+          "y": 44305,
           "id": "0c260e08-f14d-460d-b013-0cc7b4d7b68f"
         },
         "958b7bce-1bbf-4a54-a432-6ad43cf622d5": {
           "label": "AC/DC - Back In Black (Official Video) - YouTube",
           "link": "https://www.youtube.com/watch?v=pAgnJDJN4VA&list=RDEMDs8vWIQKMflBG8QUQQaUrw&start_radio=1&ab_channel=acdcVEVO",
-          "x": 83644,
-          "y": 33450,
+          "x": 83417,
+          "y": 44330,
           "id": "958b7bce-1bbf-4a54-a432-6ad43cf622d5"
         },
         "642b6420-18c8-4d90-ae7a-843e0b19cb9a": {
           "label": "AC/DC - Highway to Hell (Official Video) - YouTube",
           "link": "https://www.youtube.com/watch?v=l482T0yNkeo&ab_channel=acdcVEVO",
-          "x": 83650,
-          "y": 33475,
+          "x": 83423,
+          "y": 44355,
           "id": "642b6420-18c8-4d90-ae7a-843e0b19cb9a"
         },
         "610049be-19d2-4b1f-9f96-9a1e0e42f727": {
           "label": "Big Balls - YouTube",
           "link": "https://www.youtube.com/watch?v=xPlqLHcphyw&ab_channel=AC%2FDC-Topic",
-          "x": 83552,
-          "y": 33500,
+          "x": 83325,
+          "y": 44380,
           "id": "610049be-19d2-4b1f-9f96-9a1e0e42f727"
-        },
-        "d0e82f23-46c2-4f72-802b-3a620f685d27": {
-          "id": "d0e82f23-46c2-4f72-802b-3a620f685d27",
-          "x": 83608,
-          "y": -6131,
-          "label": "Forever",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#af55f4",
-            "border": ""
-          },
-          "borderWidth": ""
         },
         "33513d7f-cf66-4b46-bc90-eb4222165dc8": {
           "id": "33513d7f-cf66-4b46-bc90-eb4222165dc8",
@@ -47883,8 +48265,8 @@ var schemeData =
         },
         "c5ed8ba1-b302-4345-9ac3-da01fe4733e8": {
           "label": "Identify\nMusic",
-          "x": 99827,
-          "y": 29779,
+          "x": 99828,
+          "y": 29932,
           "font": {
             "size": 72,
             "align": "left"
@@ -47900,26 +48282,26 @@ var schemeData =
         },
         "0ef5fcc9-83d6-42ed-ac09-a758b42a2747": {
           "label": "Development",
-          "x": 100127,
-          "y": 30229,
+          "x": 100128,
+          "y": 30382,
           "id": "0ef5fcc9-83d6-42ed-ac09-a758b42a2747"
         },
         "e589fd2f-0eff-4f90-969f-95ce30194269": {
           "label": "2/3/2020",
-          "x": 100252,
-          "y": 30229,
+          "x": 100253,
+          "y": 30382,
           "id": "e589fd2f-0eff-4f90-969f-95ce30194269"
         },
         "8f84a8ed-47a5-4b7e-9bfc-0ca853ce30b4": {
           "label": "init",
-          "x": 100377,
-          "y": 30229,
+          "x": 100378,
+          "y": 30382,
           "id": "8f84a8ed-47a5-4b7e-9bfc-0ca853ce30b4"
         },
         "39596528-e9fd-4327-ab7b-5eab181949ca": {
           "label": "Notes",
-          "x": 100100,
-          "y": 28773,
+          "x": 100101,
+          "y": 28926,
           "id": "39596528-e9fd-4327-ab7b-5eab181949ca"
         },
         "1ca95ac0-57dc-44a9-bb07-d12280d03a83": {
@@ -47930,116 +48312,116 @@ var schemeData =
         },
         "f0bb3fcc-9db2-4861-974e-a8cfd95ddecb": {
           "label": "Details, thoughts",
-          "x": 100273,
-          "y": 28773,
+          "x": 100274,
+          "y": 28926,
           "id": "f0bb3fcc-9db2-4861-974e-a8cfd95ddecb"
         },
         "83872b2f-fa4a-401f-b4d9-02d161c05a4f": {
           "label": "Sections",
-          "x": 100230,
-          "y": 29347,
+          "x": 100231,
+          "y": 29500,
           "id": "83872b2f-fa4a-401f-b4d9-02d161c05a4f"
         },
         "e282db5d-655c-459c-938b-27b77aa9803e": {
           "label": "Books",
-          "x": 100337,
-          "y": 28873,
+          "x": 100338,
+          "y": 29026,
           "id": "e282db5d-655c-459c-938b-27b77aa9803e"
         },
         "a370e363-176d-427e-ace0-aee4107d6ad6": {
           "label": "R&D institutions",
-          "x": 100368,
-          "y": 28898,
+          "x": 100369,
+          "y": 29051,
           "id": "a370e363-176d-427e-ace0-aee4107d6ad6"
         },
         "61992ed8-245c-48ac-8fe0-9597e3e1644d": {
           "label": "Sites",
-          "x": 100333,
-          "y": 28923,
+          "x": 100334,
+          "y": 29076,
           "id": "61992ed8-245c-48ac-8fe0-9597e3e1644d"
         },
         "ec4c90dc-154b-4a0d-82f5-c81929665f15": {
           "label": "Magazines",
-          "x": 100352,
-          "y": 28948,
+          "x": 100353,
+          "y": 29101,
           "id": "ec4c90dc-154b-4a0d-82f5-c81929665f15"
         },
         "ea22975b-6d3d-479b-851b-957251970dec": {
           "label": "Articles",
-          "x": 100341,
-          "y": 28973,
+          "x": 100342,
+          "y": 29126,
           "id": "ea22975b-6d3d-479b-851b-957251970dec"
         },
         "92a36c47-18b4-4dd2-8752-ab1e09d2e6f7": {
           "label": "Media content",
-          "x": 100363,
-          "y": 28998,
+          "x": 100364,
+          "y": 29151,
           "id": "92a36c47-18b4-4dd2-8752-ab1e09d2e6f7"
         },
         "ce859366-8ba7-4fe8-b933-00bb6bb07973": {
           "label": "Misc. web links",
-          "x": 100365,
-          "y": 29322,
+          "x": 100366,
+          "y": 29475,
           "id": "ce859366-8ba7-4fe8-b933-00bb6bb07973"
         },
         "47b242b2-bad5-4a5a-908c-d2ca0d65284a": {
           "label": "Projects",
-          "x": 100343,
-          "y": 29654,
+          "x": 100344,
+          "y": 29807,
           "id": "47b242b2-bad5-4a5a-908c-d2ca0d65284a"
         },
         "eb4ddbac-94d7-451b-95b1-043c73696924": {
           "label": "Tools",
-          "x": 100334,
-          "y": 29679,
+          "x": 100335,
+          "y": 29832,
           "id": "eb4ddbac-94d7-451b-95b1-043c73696924"
         },
         "74b99244-752b-422e-a4c5-30459b09898d": {
           "label": "Organizations",
-          "x": 100362,
-          "y": 29704,
+          "x": 100363,
+          "y": 29857,
           "id": "74b99244-752b-422e-a4c5-30459b09898d"
         },
         "cda8477b-fd05-460e-9e4a-1245184779e2": {
           "label": "Standarts",
-          "x": 100348,
-          "y": 29729,
+          "x": 100349,
+          "y": 29882,
           "id": "cda8477b-fd05-460e-9e4a-1245184779e2"
         },
         "2472fdf6-5db4-42be-a26e-0ae100bb10f0": {
           "label": "Forums, Groups",
-          "x": 100370,
-          "y": 29754,
+          "x": 100371,
+          "y": 29907,
           "id": "2472fdf6-5db4-42be-a26e-0ae100bb10f0"
         },
         "2089e6b9-b7ba-465f-bec5-81466b2de9b4": {
           "label": "Laws",
-          "x": 100334,
-          "y": 29779,
+          "x": 100335,
+          "y": 29932,
           "id": "2089e6b9-b7ba-465f-bec5-81466b2de9b4"
         },
         "d402b9a7-56cf-4e6f-8d21-c253f7adfaba": {
           "label": "Adjacent Themes",
-          "x": 100373,
-          "y": 29804,
+          "x": 100374,
+          "y": 29957,
           "id": "d402b9a7-56cf-4e6f-8d21-c253f7adfaba"
         },
         "283da1b0-850c-4b6a-a6bd-6778bd33b424": {
           "label": "Questions",
-          "x": 100117,
-          "y": 29929,
+          "x": 100118,
+          "y": 30082,
           "id": "283da1b0-850c-4b6a-a6bd-6778bd33b424"
         },
         "45cb9350-bbdb-416c-9623-b9ab1e48ae19": {
           "label": "Problems",
-          "x": 100115,
-          "y": 30029,
+          "x": 100116,
+          "y": 30182,
           "id": "45cb9350-bbdb-416c-9623-b9ab1e48ae19"
         },
         "3dd99cd3-c131-4a30-b185-7b10da66e1a5": {
           "label": "Goals",
-          "x": 100104,
-          "y": 30129,
+          "x": 100105,
+          "y": 30282,
           "id": "3dd99cd3-c131-4a30-b185-7b10da66e1a5"
         },
         "a3ab8068-9912-49fa-840f-720aaae46aa7": {
@@ -48061,36 +48443,36 @@ var schemeData =
         },
         "c5dad335-a50f-4b5a-b8aa-ab8c5ccbfa54": {
           "id": "c5dad335-a50f-4b5a-b8aa-ab8c5ccbfa54",
-          "x": 100831,
-          "y": 29156,
+          "x": 100832,
+          "y": 29309,
           "label": "https://music.stackexchange.com/questions/87584/how-can-i-identify-a-tune",
           "link": "https://music.stackexchange.com/questions/87584/how-can-i-identify-a-tune"
         },
         "e714f6da-a902-4942-a9d5-2c729a31cf5c": {
           "id": "e714f6da-a902-4942-a9d5-2c729a31cf5c",
-          "x": 100849,
-          "y": 29196,
+          "x": 100850,
+          "y": 29349,
           "label": "https://www.lifewire.com/free-online-services-that-name-unknown-songs-2438404",
           "link": "https://www.lifewire.com/free-online-services-that-name-unknown-songs-2438404"
         },
         "dbb2b206-a859-4ed5-a33f-785f54c92445": {
           "id": "dbb2b206-a859-4ed5-a33f-785f54c92445",
-          "x": 100764,
-          "y": 29238,
+          "x": 100765,
+          "y": 29391,
           "label": "https://www.lifewire.com/what-song-is-playing-4149684",
           "link": "https://www.lifewire.com/what-song-is-playing-4149684"
         },
         "9e006f7d-10be-4ae7-a1b4-b4eda7e95b75": {
           "id": "9e006f7d-10be-4ae7-a1b4-b4eda7e95b75",
-          "x": 100846,
-          "y": 29267,
+          "x": 100847,
+          "y": 29420,
           "label": "https://www.lifewire.com/shazam-a-song-that-is-already-on-your-phone-2438269",
           "link": "https://www.lifewire.com/shazam-a-song-that-is-already-on-your-phone-2438269"
         },
         "fa0a86a4-e3a1-4b0d-b732-cdcd1adce91a": {
           "id": "fa0a86a4-e3a1-4b0d-b732-cdcd1adce91a",
-          "x": 100825,
-          "y": 29319,
+          "x": 100826,
+          "y": 29472,
           "label": "A Dictionary of Musical Themes: The Music of More Than 10,000 Themes",
           "shape": "box",
           "link": "https://www.amazon.com/dp/0517524465/",
@@ -48106,56 +48488,56 @@ var schemeData =
         },
         "4c685c9a-8bd5-42c9-a350-2d5a1c824250": {
           "id": "4c685c9a-8bd5-42c9-a350-2d5a1c824250",
-          "x": 100905,
-          "y": 29358,
+          "x": 100906,
+          "y": 29511,
           "label": "https://music.stackexchange.com/questions/71594/is-there-any-app-for-recognizing-classical-music",
           "link": "https://music.stackexchange.com/questions/71594/is-there-any-app-for-recognizing-classical-music"
         },
         "4296d473-8990-45b0-b7ba-c19e717c1854": {
           "id": "4296d473-8990-45b0-b7ba-c19e717c1854",
-          "x": 100850,
-          "y": 29396,
+          "x": 100851,
+          "y": 29549,
           "label": "https://music.stackexchange.com/questions/87584/how-can-i-identify-a-tune?rq=1",
           "link": "https://music.stackexchange.com/questions/87584/how-can-i-identify-a-tune?rq=1"
         },
         "96c19eb1-abb5-4d23-9ba6-b41348c7c3ad": {
           "id": "96c19eb1-abb5-4d23-9ba6-b41348c7c3ad",
-          "x": 100918,
-          "y": 29421,
+          "x": 100919,
+          "y": 29574,
           "label": "https://music.stackexchange.com/questions/92383/how-to-determine-a-songs-title-with-only-the-melody",
           "link": "https://music.stackexchange.com/questions/92383/how-to-determine-a-songs-title-with-only-the-melody"
         },
         "9bda9eb9-120c-42b0-82b6-acb297bd9f9b": {
           "id": "9bda9eb9-120c-42b0-82b6-acb297bd9f9b",
-          "x": 100884,
-          "y": 29445,
+          "x": 100885,
+          "y": 29598,
           "label": "https://music.stackexchange.com/questions/17094/how-to-identify-a-particular-song-or-piece",
           "link": "https://music.stackexchange.com/questions/17094/how-to-identify-a-particular-song-or-piece"
         },
         "cd9ce227-f4d7-4a01-ad58-7107bce5d9fe": {
           "id": "cd9ce227-f4d7-4a01-ad58-7107bce5d9fe",
-          "x": 100711,
-          "y": 29477,
+          "x": 100712,
+          "y": 29630,
           "label": "https://musicfans.stackexchange.com/",
           "link": "https://musicfans.stackexchange.com/"
         },
         "f8305723-d9c7-4168-b23f-ea29b347c912": {
           "id": "f8305723-d9c7-4168-b23f-ea29b347c912",
-          "x": 100892,
-          "y": 29506,
+          "x": 100893,
+          "y": 29659,
           "label": "https://music.stackexchange.com/questions/46048/quick-beat-identification-method-or-software",
           "link": "https://music.stackexchange.com/questions/46048/quick-beat-identification-method-or-software"
         },
         "fd665730-e1f1-4d62-a75a-dd5cf4d1c378": {
           "id": "fd665730-e1f1-4d62-a75a-dd5cf4d1c378",
-          "x": 100427,
-          "y": 28762,
+          "x": 100428,
+          "y": 28915,
           "label": "From youtube?"
         },
         "2e214f92-b39a-4634-a405-134c8399ecd1": {
           "id": "2e214f92-b39a-4634-a405-134c8399ecd1",
-          "x": 101108,
-          "y": 29550,
+          "x": 101109,
+          "y": 29703,
           "label": "https://www.google.com/search?q=Google+music+search+apps&oq=Google+music+search+apps&aqs=chrome..69i57j69i64l2.486j0j7&sourceid=chrome&ie=UTF-8",
           "link": "https://www.google.com/search?q=Google+music+search+apps&oq=Google+music+search+apps&aqs=chrome..69i57j69i64l2.486j0j7&sourceid=chrome&ie=UTF-8"
         },
@@ -50520,6 +50902,748 @@ var schemeData =
           "x": 116680,
           "y": 62532,
           "id": "e083b154-4a77-4ae7-a1ce-81f5f37ea115"
+        },
+        "728738cb-efe5-45a7-8e54-52cbfdbbea98": {
+          "id": "728738cb-efe5-45a7-8e54-52cbfdbbea98",
+          "x": 116185,
+          "y": 62648,
+          "label": "2020.02.19"
+        },
+        "c90559d4-447f-44cd-98fd-de8591e8fac6": {
+          "label": "George Frideric Handel's - Water Music - YouTube",
+          "link": "https://www.youtube.com/watch?v=Kuw8YjSbKd4",
+          "x": 81757,
+          "y": -465,
+          "id": "c90559d4-447f-44cd-98fd-de8591e8fac6"
+        },
+        "f41460f7-ec0b-4c1d-9167-973ced9e0819": {
+          "label": "J. S. Bach: Air (Classical guitar) - Per-Olov Kindgren - YouTube",
+          "link": "https://www.youtube.com/watch?v=FUPx42UmSng",
+          "x": 82031,
+          "y": 9962,
+          "id": "f41460f7-ec0b-4c1d-9167-973ced9e0819"
+        },
+        "f3ed4e80-ff2a-4cac-85af-7ac47167b25a": {
+          "label": "Albinoni - YouTube",
+          "link": "https://www.youtube.com/results?search_query=Albinoni&sp=CAM%253D",
+          "x": 81125,
+          "y": 12,
+          "id": "f3ed4e80-ff2a-4cac-85af-7ac47167b25a"
+        },
+        "bfd135ba-f9d8-456c-b06b-3fe8238cfeac": {
+          "label": "HAUSER - Adagio (Albinoni) - YouTube",
+          "link": "https://www.youtube.com/watch?v=kn1gcjuhlhg",
+          "x": 81406,
+          "y": -20,
+          "id": "bfd135ba-f9d8-456c-b06b-3fe8238cfeac"
+        },
+        "10adfb30-4dbe-4aa1-acf0-ececb6452bb2": {
+          "label": "Adagio in G Minor (Albinoni) - YouTube",
+          "link": "https://www.youtube.com/watch?v=XMbvcp480Y4",
+          "x": 81406,
+          "y": 5,
+          "id": "10adfb30-4dbe-4aa1-acf0-ececb6452bb2"
+        },
+        "6eacafc9-ec8d-4d8c-8201-19960e84e423": {
+          "label": "La canción mas hermosa de la música clásica - Albinoni - Adagio in G Minor - YouTube",
+          "link": "https://www.youtube.com/watch?v=nDl6dRonrnQ",
+          "x": 81558,
+          "y": 30,
+          "id": "6eacafc9-ec8d-4d8c-8201-19960e84e423"
+        },
+        "4a00afe7-119d-4957-b3a4-1c4ff61d77c2": {
+          "label": "Albinoni - Oboe Concerto #2 in D Minor Op. 9 - YouTube",
+          "link": "https://www.youtube.com/watch?v=LjgndGuy77o",
+          "x": 81461,
+          "y": 55,
+          "id": "4a00afe7-119d-4957-b3a4-1c4ff61d77c2"
+        },
+        "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48": {
+          "label": "Weiss classic music - YouTube",
+          "link": "https://www.youtube.com/results?search_query=Weiss+classic+music&sp=CAM%253D",
+          "x": 81657,
+          "y": 20119,
+          "id": "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48"
+        },
+        "93c10406-2c3a-4e5c-8290-b2bf622da177": {
+          "label": "S.L. Weiss Fantasie on 8-string guitar - YouTube",
+          "link": "https://www.youtube.com/watch?v=hD2AbtAvJA0",
+          "x": 82060,
+          "y": 20022,
+          "id": "93c10406-2c3a-4e5c-8290-b2bf622da177"
+        },
+        "c89b386a-2532-4f05-beb1-21d8a6a10dec": {
+          "label": "Drew Henderson - YouTube",
+          "link": "https://www.youtube.com/user/vivivivivivivivi/videos",
+          "x": 82510,
+          "y": 20025,
+          "id": "c89b386a-2532-4f05-beb1-21d8a6a10dec"
+        },
+        "68dcdcd4-9c32-4ca7-a729-78bb16aac8c0": {
+          "label": "S. L. Weiss - Sonata V - played by Roman Viazovskiy - YouTube",
+          "link": "https://www.youtube.com/watch?v=7TqDIpriuHo",
+          "x": 82109,
+          "y": 20072,
+          "id": "68dcdcd4-9c32-4ca7-a729-78bb16aac8c0"
+        },
+        "2c01eec5-4326-4bdd-a412-5de850183574": {
+          "label": "Lutz Kirchhof plays Sylvius Leopold Weiss - YouTube",
+          "link": "https://www.youtube.com/watch?v=HCCu1n3rBW8",
+          "x": 82073,
+          "y": 20097,
+          "id": "2c01eec5-4326-4bdd-a412-5de850183574"
+        },
+        "0399a26e-bd46-4fda-aaf0-73ecb942cb55": {
+          "label": "Lute Music from the Moscow Weiss Manuscript (Bernhard Hofstötter, baroque lute) - YouTube",
+          "link": "https://www.youtube.com/watch?v=y7uQPn0olv0",
+          "x": 82203,
+          "y": 20147,
+          "id": "0399a26e-bd46-4fda-aaf0-73ecb942cb55"
+        },
+        "d1f33b06-1fce-4ad8-a0d3-267c3ad187fa": {
+          "label": "Julian Bream plays Fantasie - S. L. Weiss - YouTube",
+          "link": "https://www.youtube.com/watch?v=ow89TujI7I4",
+          "x": 82072,
+          "y": 20172,
+          "id": "d1f33b06-1fce-4ad8-a0d3-267c3ad187fa"
+        },
+        "fa01be5a-fed4-4055-a90c-ab9d26213d46": {
+          "label": "David Miller performs Weiss prelude in Dm on the Baroque lute - YouTube",
+          "link": "https://www.youtube.com/watch?v=69I0DBdegqc",
+          "x": 82140,
+          "y": 20197,
+          "id": "fa01be5a-fed4-4055-a90c-ab9d26213d46"
+        },
+        "2d55669e-2cc1-4d90-97b5-c08993b7f69d": {
+          "label": "Thirteen string guitar Weiss prelude in D minor - YouTube",
+          "link": "https://www.youtube.com/watch?v=zWW8G06KyTo",
+          "x": 82088,
+          "y": 20222,
+          "id": "2d55669e-2cc1-4d90-97b5-c08993b7f69d"
+        },
+        "8da91bbe-e342-42f2-963b-1633052bf7ae": {
+          "label": "Dowland music - YouTube",
+          "link": "https://www.youtube.com/results?search_query=Dowland+music&sp=CAM%253D",
+          "x": 81643,
+          "y": 20315,
+          "id": "8da91bbe-e342-42f2-963b-1633052bf7ae"
+        },
+        "1b8a291b-14bd-45ea-be0f-ead763fc030c": {
+          "label": "John DOWLAND - Galliards - Paul O'DETTE.avi - YouTube",
+          "link": "https://www.youtube.com/watch?v=613nUS1m3j8",
+          "x": 82062,
+          "y": 20288,
+          "id": "1b8a291b-14bd-45ea-be0f-ead763fc030c"
+        },
+        "aaf7f53e-8786-43e5-b3c7-597f765022e7": {
+          "label": "\"Flow my tears\" by John Dowland | Valeria Mignaco, soprano | Alfonso Marin, lute - YouTube",
+          "link": "https://www.youtube.com/watch?v=jkRrzAo9Wl4",
+          "x": 82168,
+          "y": 20313,
+          "id": "aaf7f53e-8786-43e5-b3c7-597f765022e7"
+        },
+        "b47d9295-852d-46aa-a7ea-cfa04188eb02": {
+          "label": "\"Lachrimae\" by John Dowland - YouTube",
+          "link": "https://www.youtube.com/watch?v=fZYzuIGDYGs",
+          "x": 82006,
+          "y": 20338,
+          "id": "b47d9295-852d-46aa-a7ea-cfa04188eb02"
+        },
+        "e0820c2a-4c1b-4e4e-83d4-c752711c885b": {
+          "label": "Dances and Music from the Italian Renaissance / Gastoldi, Gabrieli, Mainerio [...] - YouTube",
+          "link": "https://www.youtube.com/watch?v=739R9G0qDH8",
+          "x": 82323,
+          "y": 20554,
+          "id": "e0820c2a-4c1b-4e4e-83d4-c752711c885b"
+        },
+        "c91dd780-52a9-42e1-8d41-9213b769e3a7": {
+          "label": "Giorgio Mainerio Pass'e mezzo della Paganina - YouTube",
+          "link": "https://www.youtube.com/results?search_query=Giorgio+Mainerio++Pass%27e+mezzo+della+Paganina&sp=CAM%253D",
+          "x": 81742,
+          "y": 20626,
+          "id": "c91dd780-52a9-42e1-8d41-9213b769e3a7"
+        },
+        "a6813013-6c4c-45c6-b351-bfd72d2d4f7b": {
+          "label": "Giorgio Mainerio - Suite from Il primo libro de' balli (Venice, 1578) - YouTube",
+          "link": "https://www.youtube.com/watch?v=h99D7JO5OQk",
+          "x": 82277,
+          "y": 20608,
+          "id": "a6813013-6c4c-45c6-b351-bfd72d2d4f7b"
+        },
+        "4cf99ea1-ad27-4e06-b835-4cfdfc4812a7": {
+          "label": "Giorgio Mainerio (1530-1582) - Five Dances - YouTube",
+          "link": "https://www.youtube.com/watch?v=mGeMCMc_6A4",
+          "x": 82210,
+          "y": 20658,
+          "id": "4cf99ea1-ad27-4e06-b835-4cfdfc4812a7"
+        },
+        "693ce632-a624-4905-9935-c413262d4533": {
+          "label": "blue danube - YouTube",
+          "link": "https://www.youtube.com/results?search_query=blue+danube",
+          "x": 81747,
+          "y": 17381,
+          "id": "693ce632-a624-4905-9935-c413262d4533"
+        },
+        "0621fbc1-5b86-43b8-bab7-1b84cc4f83fa": {
+          "label": "Johann Strauss II - The Blue Danube Waltz - YouTube",
+          "link": "https://www.youtube.com/watch?v=_CTYymbbEL4",
+          "x": 82107,
+          "y": 17354,
+          "id": "0621fbc1-5b86-43b8-bab7-1b84cc4f83fa"
+        },
+        "295d0d4d-73a8-47bc-8488-7615f55a8d44": {
+          "label": "The Beautiful Blue Danube - André Rieu - YouTube",
+          "link": "https://www.youtube.com/watch?v=IDaJ7rFg66A",
+          "x": 82098,
+          "y": 17379,
+          "id": "295d0d4d-73a8-47bc-8488-7615f55a8d44"
+        },
+        "05919cea-fa1a-43bd-b168-4d6557ce30da": {
+          "label": "The Beautiful Blue Danube Waltz, Op.314 - YouTube",
+          "link": "https://www.youtube.com/watch?v=EOcl7DglbaQ",
+          "x": 82102,
+          "y": 17404,
+          "id": "05919cea-fa1a-43bd-b168-4d6557ce30da"
+        },
+        "a6e1bf51-2546-44f1-bf53-084828e537b5": {
+          "label": "Strauss ~ The Blue Danube Waltz - YouTube",
+          "link": "https://www.youtube.com/watch?v=cKkDMiGUbUw",
+          "x": 82077,
+          "y": 17429,
+          "id": "a6e1bf51-2546-44f1-bf53-084828e537b5"
+        },
+        "84acbebd-bd53-4320-a4d4-45f484bab324": {
+          "label": "Giorgio Mainerio: Pass'e mezzo moderno, Ballo furlano, Ballo Anglese - YouTube",
+          "link": "https://www.youtube.com/watch?v=lpp7YAanOOg",
+          "x": 82292,
+          "y": 20713,
+          "id": "84acbebd-bd53-4320-a4d4-45f484bab324"
+        },
+        "358ceb6f-36c4-4811-8487-48ae09c5e1c6": {
+          "label": "gavotte handel - YouTube",
+          "link": "https://www.youtube.com/results?search_query=gavotte+handel&sp=CAM%253D",
+          "x": 81670,
+          "y": -391,
+          "id": "358ceb6f-36c4-4811-8487-48ae09c5e1c6"
+        },
+        "da55eb02-aae0-4454-8222-0b338f8590f7": {
+          "label": "George Frideric HANDEL: Gavotte in G major, HWV 491 - YouTube",
+          "link": "https://www.youtube.com/watch?v=5v5DFSI1FAA",
+          "x": 82045,
+          "y": -402,
+          "id": "da55eb02-aae0-4454-8222-0b338f8590f7"
+        },
+        "edd5034b-3bc5-48ad-bd74-592a1b94830f": {
+          "label": "Handel, Gavotte in G major - YouTube",
+          "link": "https://www.youtube.com/watch?v=UAsU35FaeRE",
+          "x": 81954,
+          "y": -377,
+          "id": "edd5034b-3bc5-48ad-bd74-592a1b94830f"
+        },
+        "d895b6e0-e987-4077-92ea-93b3d875aa12": {
+          "label": "minuet bach - YouTube",
+          "link": "https://www.youtube.com/results?search_query=minuet+bach&sp=CAM%253D",
+          "x": 81784,
+          "y": 10058,
+          "id": "d895b6e0-e987-4077-92ea-93b3d875aa12"
+        },
+        "575d5c9e-8477-4754-aa7d-7238b98153b1": {
+          "label": "Bach- minuet in G major - YouTube",
+          "link": "https://www.youtube.com/watch?v=on1DDSLdDOo",
+          "x": 82027,
+          "y": 10062,
+          "id": "575d5c9e-8477-4754-aa7d-7238b98153b1"
+        },
+        "d0d7831b-b46d-4743-b2db-12ee5f69f28d": {
+          "label": "Beethoven- Minuet in G - YouTube",
+          "link": "https://www.youtube.com/watch?v=zSXRJwspGU0",
+          "x": 81852,
+          "y": 5125,
+          "id": "d0d7831b-b46d-4743-b2db-12ee5f69f28d"
+        },
+        "2d79f3b5-e1e9-4ec4-a151-9773b2fcc76c": {
+          "id": "2d79f3b5-e1e9-4ec4-a151-9773b2fcc76c",
+          "x": 81553,
+          "y": 10021,
+          "label": "List all"
+        },
+        "2c011f42-b010-4f05-93aa-0a2b20731271": {
+          "id": "2c011f42-b010-4f05-93aa-0a2b20731271",
+          "x": 81721,
+          "y": 9962,
+          "label": "Air"
+        },
+        "237f6ade-5aad-4028-a712-d050118d1454": {
+          "label": "Sylvius Leopold Weiss - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Sylvius_Leopold_Weiss",
+          "x": 79750,
+          "y": 20129,
+          "id": "237f6ade-5aad-4028-a712-d050118d1454",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "4ca7ad9e-219f-4df7-a2c3-a1e0140e817d": {
+          "id": "4ca7ad9e-219f-4df7-a2c3-a1e0140e817d",
+          "x": 75728,
+          "y": 23158,
+          "label": "Check \"Baroque music\" template in https://en.wikipedia.org/wiki/Baroque_music"
+        },
+        "e3ae6a84-5af7-446e-97bc-578f6f7872f7": {
+          "label": "John Dowland - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/John_Dowland",
+          "x": 79567,
+          "y": 20302,
+          "id": "e3ae6a84-5af7-446e-97bc-578f6f7872f7",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "2d2782eb-4651-4db2-ba84-c11ef64f1897": {
+          "label": "Baroque music - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Baroque_music",
+          "x": 76168,
+          "y": 23162,
+          "id": "2d2782eb-4651-4db2-ba84-c11ef64f1897"
+        },
+        "0c95051d-4195-49a1-8132-34554b62388c": {
+          "label": "Tomaso Albinoni - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tomaso_Albinoni",
+          "x": 79617,
+          "y": -9,
+          "id": "0c95051d-4195-49a1-8132-34554b62388c",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "3faccd95-3beb-4bc6-9e19-b77a596cdd2c": {
+          "id": "3faccd95-3beb-4bc6-9e19-b77a596cdd2c",
+          "x": 81230,
+          "y": 5126,
+          "label": "List all"
+        },
+        "591a45fc-122d-4513-9514-56680ebc369f": {
+          "id": "591a45fc-122d-4513-9514-56680ebc369f",
+          "x": 81502,
+          "y": 5128,
+          "label": "6 Menuette, WoO 10: No. 2 in G Major, Elegie (Orchestral)"
+        },
+        "581e66c7-f0a7-4c68-8947-1f6a429617a5": {
+          "label": "Giorgio Mainerio - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Giorgio_Mainerio",
+          "x": 79616,
+          "y": 20682,
+          "id": "581e66c7-f0a7-4c68-8947-1f6a429617a5",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "da9303df-24cf-4df5-92f6-8123181b2f3e": {
+          "label": "Category:Italian classical composers - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Category:Italian_classical_composers",
+          "x": 81713,
+          "y": 20795,
+          "id": "da9303df-24cf-4df5-92f6-8123181b2f3e"
+        },
+        "083e0767-16a5-4ba6-8a7a-0967a8f17bad": {
+          "label": "Category:Renaissance composers - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Category:Renaissance_composers",
+          "x": 81706,
+          "y": 20820,
+          "id": "083e0767-16a5-4ba6-8a7a-0967a8f17bad"
+        },
+        "99434ac1-8d22-4eba-98ff-cb8a4756b16c": {
+          "label": "CLAUDE DEBUSSY: CLAIR DE LUNE - YouTube",
+          "link": "https://www.youtube.com/watch?v=CvFH_6DNRCY",
+          "x": 81393,
+          "y": 3138,
+          "id": "99434ac1-8d22-4eba-98ff-cb8a4756b16c"
+        },
+        "77b423b9-07ab-4478-ab41-021d7dbc0f45": {
+          "label": "Ion Ivanovici - Danube Waves (Anniversary Waltz) André Rieu - YouTube",
+          "link": "https://www.youtube.com/watch?v=U60aqpE90Jk",
+          "x": 81470,
+          "y": 4621,
+          "id": "77b423b9-07ab-4478-ab41-021d7dbc0f45"
+        },
+        "467a3adf-c7bf-4435-8b56-25bde423c3b4": {
+          "label": "TheMuzykaSwiata - YouTube",
+          "link": "https://www.youtube.com/user/TheMuzykaSwiata/videos",
+          "x": 82077,
+          "y": 4623,
+          "id": "467a3adf-c7bf-4435-8b56-25bde423c3b4"
+        },
+        "86e468de-61b4-48a7-b1cd-1afcadd0db41": {
+          "label": "Ion Ivanovici - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Ion_Ivanovici",
+          "x": 79541,
+          "y": 4624,
+          "id": "86e468de-61b4-48a7-b1cd-1afcadd0db41",
+          "shape": "box",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "20f33129-a7fc-4681-ad2d-8685ac584ca7": {
+          "label": "Nabucco gefangenen chor - YouTube",
+          "link": "https://www.youtube.com/results?search_query=Nabucco+gefangenen+chor&sp=CAM%253D",
+          "x": 81354,
+          "y": 1800,
+          "id": "20f33129-a7fc-4681-ad2d-8685ac584ca7"
+        },
+        "49a563d7-4a55-4ed3-bb08-d3910ffad8d6": {
+          "label": "Va, pensiero (Gefangenenchor) · Giuseppe Verdi: Nabucco · Kendlinger - YouTube",
+          "link": "https://www.youtube.com/watch?v=XttF0vg0MGo",
+          "x": 81907,
+          "y": 1794,
+          "id": "49a563d7-4a55-4ed3-bb08-d3910ffad8d6"
+        },
+        "a1c627c3-1300-4159-9e44-114f9d4bdad5": {
+          "label": "GIUSEPPE VERDI - Nabucco - Va, Pensiero - YouTube",
+          "link": "https://www.youtube.com/watch?v=e1JkhNOcXGo",
+          "x": 81819,
+          "y": 1819,
+          "id": "a1c627c3-1300-4159-9e44-114f9d4bdad5"
+        },
+        "a6813013-6c4c-45c6-b351-bfd72d2d4f7b729": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Giorgio Mainerio - Suite from Il primo libro de' balli (Venice, 1578) - YouTube",
+          "link": "https://www.youtube.com/watch?v=h99D7JO5OQk",
+          "x": 116699,
+          "y": 62634,
+          "id": "a6813013-6c4c-45c6-b351-bfd72d2d4f7b729"
+        },
+        "4cf99ea1-ad27-4e06-b835-4cfdfc4812a7729": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Giorgio Mainerio (1530-1582) - Five Dances - YouTube",
+          "link": "https://www.youtube.com/watch?v=mGeMCMc_6A4",
+          "x": 116632,
+          "y": 62665,
+          "id": "4cf99ea1-ad27-4e06-b835-4cfdfc4812a7729"
+        },
+        "ebaddc89-ff89-407b-a81f-79ec0ab239dc": {
+          "id": "ebaddc89-ff89-407b-a81f-79ec0ab239dc",
+          "x": 116192,
+          "y": 62795,
+          "label": "2020.02.21"
+        },
+        "1bdd4e72-b3c2-457d-8a54-abf6c50e8f70": {
+          "label": "Peter Bjorn And John - Young Folks - YouTube",
+          "link": "https://www.youtube.com/watch?v=iArXv64tCJA&ab_channel=PeterBjornJohnVEVO",
+          "x": 116605,
+          "y": 62776,
+          "id": "1bdd4e72-b3c2-457d-8a54-abf6c50e8f70"
+        },
+        "90742c2b-7c06-4cfc-a02b-52fe1c3214f8": {
+          "label": "Katy Perry - Firework (From “The Prismatic World Tour Live”) - YouTube",
+          "link": "https://www.youtube.com/watch?v=iQPntUPNDlQ",
+          "x": 116685,
+          "y": 62801,
+          "id": "90742c2b-7c06-4cfc-a02b-52fe1c3214f8"
+        },
+        "34d23627-803a-4117-88de-78aaf07834d1": {
+          "label": "#katyperry firework live la phil 100 (her vocals 🙌) - YouTube",
+          "link": "https://www.youtube.com/watch?v=5Xq9UyTS518",
+          "x": 116645,
+          "y": 62826,
+          "id": "34d23627-803a-4117-88de-78aaf07834d1"
+        },
+        "f713bd19-6074-4157-9f1c-c3f60969828a": {
+          "id": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "x": 116192,
+          "y": 63096,
+          "label": "2020.02.27"
+        },
+        "67e767d4-a415-4c13-bac9-434bc56ee18e": {
+          "label": "Diego Navas y La Utopia-Katarsis.mpg - YouTube",
+          "link": "https://www.youtube.com/watch?v=p1QU6Zg3ug0",
+          "x": 116613,
+          "y": 62980,
+          "id": "67e767d4-a415-4c13-bac9-434bc56ee18e"
+        },
+        "5fa39803-c7b9-414f-b6eb-b06e14086db8": {
+          "label": "Michael Williams Band - Lately - (BluesMen Channel Music) - BLUES & ROCK - YouTube",
+          "link": "https://www.youtube.com/watch?v=2fS1OoOUyII&list=LLEg3VODlT3e_Ry8DVMfxjFw&index=11&fbclid=IwAR1NF5Qdd2Wh4amh3XauJew1vnDCAddTOaQlmDEOUG8O_zsGYBbWH-myx74",
+          "x": 116737,
+          "y": 62957,
+          "id": "5fa39803-c7b9-414f-b6eb-b06e14086db8"
+        },
+        "f48e785e-e3b0-4612-9369-50e61f7d2bfd": {
+          "label": "Will Smith ft. Dru Hill, Kool Mo Dee - Wild Wild West (Official Video) - YouTube",
+          "link": "https://www.youtube.com/watch?v=_zXKtfKnfT8",
+          "x": 116702,
+          "y": 63019,
+          "id": "f48e785e-e3b0-4612-9369-50e61f7d2bfd"
+        },
+        "7a9447ae-91ee-4c7e-8e3e-f733b4dffa6e": {
+          "label": "The All-American Rejects - Top Of The World - YouTube",
+          "link": "https://www.youtube.com/watch?v=N3vh62WvZqI&ab_channel=AllAmericanRjctsVEVO",
+          "x": 116634,
+          "y": 63051,
+          "id": "7a9447ae-91ee-4c7e-8e3e-f733b4dffa6e"
+        },
+        "db5c5004-9d91-4c53-8326-37e513ff0f07": {
+          "label": "Social Distortion ~ Reach for the sky - YouTube",
+          "link": "https://www.youtube.com/watch?v=fzWSlcuJOoY",
+          "x": 116605,
+          "y": 63088,
+          "id": "db5c5004-9d91-4c53-8326-37e513ff0f07"
+        },
+        "1ff92205-2743-4ab4-892c-d6f08fad9c2f": {
+          "label": "BILLY TALENT - Ghost Ship of Cannibal Rats (Official Music Video) - YouTube",
+          "link": "https://www.youtube.com/watch?v=XaNpka54DqQ",
+          "x": 116703,
+          "y": 63129,
+          "id": "1ff92205-2743-4ab4-892c-d6f08fad9c2f"
+        },
+        "1cb3edf9-ca12-466d-9033-ad5df7c68631": {
+          "label": "Fergie - A Little Party Never Killed Nobody (All We Got) ft. Q-Tip, GoonRock - YouTube",
+          "link": "https://www.youtube.com/watch?v=0ZgjmE6xdaw",
+          "x": 116730,
+          "y": 63172,
+          "id": "1cb3edf9-ca12-466d-9033-ad5df7c68631"
+        },
+        "eee45079-0e02-4d9d-b154-7abadf4e99a9": {
+          "label": "Ini Kamoze - Here Comes the Hotstepper (Video Version) - YouTube",
+          "link": "https://www.youtube.com/watch?v=eEJ2b6IaGWU",
+          "x": 116672,
+          "y": 63214,
+          "id": "eee45079-0e02-4d9d-b154-7abadf4e99a9"
+        },
+        "210a020d-8e7b-40ca-a20e-54692c4d66fa": {
+          "label": "aretha franklin - respect (one rascal mix) - YouTube",
+          "link": "https://www.youtube.com/watch?v=dmqFtMHC6uk",
+          "x": 116619,
+          "y": 63255,
+          "id": "210a020d-8e7b-40ca-a20e-54692c4d66fa"
+        },
+        "7af15eee-1d5b-44ec-bda7-e6b463b6a391": {
+          "label": "Respect (One Rascal Mix) - YouTube",
+          "link": "https://www.youtube.com/watch?v=KXiE5bbHlSQ",
+          "x": 117063,
+          "y": 63253,
+          "id": "7af15eee-1d5b-44ec-bda7-e6b463b6a391"
+        },
+        "365a1ab6-0f45-47ff-b843-0a4f8d3b9745": {
+          "label": "Wild Wild West (Album Version With Intro) - Will Smith Feat. Dru Hill & Kool Mo Dee | Shazam",
+          "link": "https://www.shazam.com/track/278657/wild-wild-west-album-version-with-intro",
+          "x": 84478,
+          "y": -5918,
+          "id": "365a1ab6-0f45-47ff-b843-0a4f8d3b9745"
+        },
+        "96a66af3-acd7-4e93-850c-08e7965b9a1e": {
+          "label": "I Want You Back (Dimitri From Paris Supa Funk Brakes Mix) - Jackson 5 | Shazam",
+          "link": "https://www.shazam.com/track/50254119/i-want-you-back-dimitri-from-paris-supa-funk-brakes-mix",
+          "x": 84443,
+          "y": -5894,
+          "id": "96a66af3-acd7-4e93-850c-08e7965b9a1e"
+        },
+        "4d38e36b-e6e3-41a1-83e0-0fba2b192208": {
+          "id": "4d38e36b-e6e3-41a1-83e0-0fba2b192208",
+          "x": 83648,
+          "y": -5870,
+          "label": "Search sumilar music",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "a3004967-8c1d-4425-a1e2-fc1098d97304": {
+          "id": "a3004967-8c1d-4425-a1e2-fc1098d97304",
+          "x": 83874,
+          "y": -5906,
+          "label": "https://www.shazam.com",
+          "link": "https://www.shazam.com"
+        },
+        "9a3a192f-3b7e-46be-9228-adf83b14dd60": {
+          "id": "9a3a192f-3b7e-46be-9228-adf83b14dd60",
+          "x": 84067,
+          "y": -5904,
+          "label": "Examples"
+        },
+        "eb93f4a6-9a10-4db5-a14f-89340793aa85": {
+          "id": "eb93f4a6-9a10-4db5-a14f-89340793aa85",
+          "x": 83604,
+          "y": -6061,
+          "label": "By style"
+        },
+        "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145993": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "https://www.allmusic.com/",
+          "id": "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145993",
+          "x": 83877,
+          "y": -6064,
+          "shape": "box",
+          "link": "https://www.allmusic.com/",
+          "borderWidth": ""
+        },
+        "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145993431": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "https://www.allmusic.com/",
+          "id": "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145993431",
+          "x": 83877,
+          "y": -5830,
+          "shape": "box",
+          "link": "https://www.allmusic.com/",
+          "borderWidth": ""
+        },
+        "85abf8d7-fab2-4ab1-a28d-eb78e2e6945c": {
+          "id": "85abf8d7-fab2-4ab1-a28d-eb78e2e6945c",
+          "x": 116192,
+          "y": 63379,
+          "label": "2020.02.28"
+        },
+        "111a9a25-c106-4249-96cf-1fdf44f2d2ee": {
+          "label": "SLY & THE FAMILY STONE - DANCE TO THE MUSIC.LIVE TV PERFORMANCE 1969 - YouTube",
+          "link": "https://www.youtube.com/watch?v=4URogrXiKsI",
+          "x": 116763,
+          "y": 63379,
+          "id": "111a9a25-c106-4249-96cf-1fdf44f2d2ee"
+        },
+        "8e0d600e-bf0c-42d1-ab1f-ffa5ff809373": {
+          "label": "Feel Me [8 Bit Tribute to Selena Gomez] - 8 Bit Universe - YouTube",
+          "link": "https://www.youtube.com/watch?v=DYoXubWvFwY",
+          "x": 116668,
+          "y": 63404,
+          "id": "8e0d600e-bf0c-42d1-ab1f-ffa5ff809373"
+        },
+        "109aeeb3-2696-4a91-ba81-759f0f29bc21": {
+          "label": "Sly & The Family Stone - Dance To The Music (Audio) - YouTube",
+          "link": "https://www.youtube.com/watch?v=Jn2PNlhvy8E",
+          "x": 116661,
+          "y": 63355,
+          "id": "109aeeb3-2696-4a91-ba81-759f0f29bc21"
         }
       },
       "length": 0,
@@ -55353,43 +56477,6 @@ var schemeData =
           "id": "4d068f93-bd12-42b1-9732-135b4c7edfd6936145",
           "from": "4496fcdc-56e6-4a96-bde3-9bbec78b20ee936145",
           "to": "7948edca-57b7-4f37-a978-fc4bd611a489936145"
-        },
-        "c8896cfd-4736-41e3-a338-20c8bbcc2f9d936145": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "c8896cfd-4736-41e3-a338-20c8bbcc2f9d936145",
-          "from": "5cc04b89-6f3a-4b61-87dc-ab200d274bd4936145",
-          "to": "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145"
         },
         "54b2fadb-3245-42b3-8cec-9fa6e7959d6a936145": {
           "arrows": {
@@ -69460,11 +70547,6 @@ var schemeData =
           "from": "5aa1d8f7-2741-468d-b9cd-5ab27f7481e2",
           "to": "5b216c39-5a55-4297-b1dd-5ccdd17a0593",
           "id": "63b57839-57a0-46d3-a86b-f6d2f489a6d3"
-        },
-        "665ead10-c457-43b7-8e04-3e6c0a5f6b8e": {
-          "from": "1b5f257d-a963-481c-a37a-0857ecd5b966",
-          "to": "84277049-d2fb-4376-a13f-277813439c5e",
-          "id": "665ead10-c457-43b7-8e04-3e6c0a5f6b8e"
         },
         "3d56dc4d-b24a-4dbb-a014-288b03907a53": {
           "from": "1b5f257d-a963-481c-a37a-0857ecd5b966",
@@ -84116,11 +85198,6 @@ var schemeData =
           "to": "c8301929-07c3-49a9-a2ea-5ad660f49e66",
           "id": "3a9a50a1-f108-426e-a531-df0fccf823cd"
         },
-        "e7a76c38-fb4e-4022-9afd-ad86667de1f7": {
-          "from": "933ece76-5696-4c03-9224-e936eb1eccba936145",
-          "to": "d0e82f23-46c2-4f72-802b-3a620f685d27",
-          "id": "e7a76c38-fb4e-4022-9afd-ad86667de1f7"
-        },
         "c972825c-445b-4331-af7b-71e3b709b469": {
           "from": "33513d7f-cf66-4b46-bc90-eb4222165dc8",
           "to": "a7d06570-2b31-4c40-a79b-2e1c0ac96e63",
@@ -86749,6 +87826,508 @@ var schemeData =
           "from": "e7bad399-14d5-46eb-ac7f-c075a004569f",
           "to": "6c6fee24-ed52-40d3-9aae-0ec394b09879",
           "id": "26d9f644-3cd6-4273-995d-f34c35f3d819"
+        },
+        "cad54ea7-45d6-4066-bfe7-2d2687a91522": {
+          "from": "f3ed4e80-ff2a-4cac-85af-7ac47167b25a",
+          "to": "bfd135ba-f9d8-456c-b06b-3fe8238cfeac",
+          "id": "cad54ea7-45d6-4066-bfe7-2d2687a91522"
+        },
+        "ffcd5765-8ac1-47f9-a9c9-745d6aa318cf": {
+          "from": "f3ed4e80-ff2a-4cac-85af-7ac47167b25a",
+          "to": "10adfb30-4dbe-4aa1-acf0-ececb6452bb2",
+          "id": "ffcd5765-8ac1-47f9-a9c9-745d6aa318cf"
+        },
+        "66ed9ba9-82f1-4e2a-b6b7-d39a3298154e": {
+          "from": "f3ed4e80-ff2a-4cac-85af-7ac47167b25a",
+          "to": "6eacafc9-ec8d-4d8c-8201-19960e84e423",
+          "id": "66ed9ba9-82f1-4e2a-b6b7-d39a3298154e"
+        },
+        "c47972ec-61f9-4371-9b6e-1de3c9be6752": {
+          "from": "f3ed4e80-ff2a-4cac-85af-7ac47167b25a",
+          "to": "4a00afe7-119d-4957-b3a4-1c4ff61d77c2",
+          "id": "c47972ec-61f9-4371-9b6e-1de3c9be6752"
+        },
+        "686d7530-91d4-406b-99ad-6548d4f19e34": {
+          "from": "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48",
+          "to": "93c10406-2c3a-4e5c-8290-b2bf622da177",
+          "id": "686d7530-91d4-406b-99ad-6548d4f19e34"
+        },
+        "6794e57b-bfe7-4404-b1d0-45571d4dbaa2": {
+          "from": "93c10406-2c3a-4e5c-8290-b2bf622da177",
+          "to": "c89b386a-2532-4f05-beb1-21d8a6a10dec",
+          "id": "6794e57b-bfe7-4404-b1d0-45571d4dbaa2"
+        },
+        "bed407b3-fb2a-4f99-b1ff-b838417d7ec0": {
+          "from": "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48",
+          "to": "68dcdcd4-9c32-4ca7-a729-78bb16aac8c0",
+          "id": "bed407b3-fb2a-4f99-b1ff-b838417d7ec0"
+        },
+        "0cbbc4b5-fa94-4bba-a437-a25d99468da3": {
+          "from": "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48",
+          "to": "2c01eec5-4326-4bdd-a412-5de850183574",
+          "id": "0cbbc4b5-fa94-4bba-a437-a25d99468da3"
+        },
+        "adb0009a-2668-4984-a7a1-730d063707d8": {
+          "from": "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48",
+          "to": "0399a26e-bd46-4fda-aaf0-73ecb942cb55",
+          "id": "adb0009a-2668-4984-a7a1-730d063707d8"
+        },
+        "645e8452-56e7-4f1d-b3e6-e52f50c9207e": {
+          "from": "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48",
+          "to": "d1f33b06-1fce-4ad8-a0d3-267c3ad187fa",
+          "id": "645e8452-56e7-4f1d-b3e6-e52f50c9207e"
+        },
+        "ee6019df-0485-4072-ab5e-725e21081362": {
+          "from": "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48",
+          "to": "fa01be5a-fed4-4055-a90c-ab9d26213d46",
+          "id": "ee6019df-0485-4072-ab5e-725e21081362"
+        },
+        "1d02b8f8-fc7e-4432-b25f-6af171850234": {
+          "from": "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48",
+          "to": "2d55669e-2cc1-4d90-97b5-c08993b7f69d",
+          "id": "1d02b8f8-fc7e-4432-b25f-6af171850234"
+        },
+        "aaea41dc-70b3-4604-a95f-1d5071401c20": {
+          "from": "8da91bbe-e342-42f2-963b-1633052bf7ae",
+          "to": "1b8a291b-14bd-45ea-be0f-ead763fc030c",
+          "id": "aaea41dc-70b3-4604-a95f-1d5071401c20"
+        },
+        "51229262-6336-4c5b-bd59-a8f1975e091a": {
+          "from": "8da91bbe-e342-42f2-963b-1633052bf7ae",
+          "to": "aaf7f53e-8786-43e5-b3c7-597f765022e7",
+          "id": "51229262-6336-4c5b-bd59-a8f1975e091a"
+        },
+        "eefb0102-4232-4357-acc4-65b8c6d65a83": {
+          "from": "8da91bbe-e342-42f2-963b-1633052bf7ae",
+          "to": "b47d9295-852d-46aa-a7ea-cfa04188eb02",
+          "id": "eefb0102-4232-4357-acc4-65b8c6d65a83"
+        },
+        "f7d31361-d7ee-45d3-ae2a-d8bc3f515705": {
+          "from": "e0820c2a-4c1b-4e4e-83d4-c752711c885b",
+          "to": "c91dd780-52a9-42e1-8d41-9213b769e3a7",
+          "id": "f7d31361-d7ee-45d3-ae2a-d8bc3f515705"
+        },
+        "08f3b56b-9f20-48d5-8181-b391f6e3cf9e": {
+          "from": "c91dd780-52a9-42e1-8d41-9213b769e3a7",
+          "to": "a6813013-6c4c-45c6-b351-bfd72d2d4f7b",
+          "id": "08f3b56b-9f20-48d5-8181-b391f6e3cf9e"
+        },
+        "6636c451-2ff8-4de8-88a6-d4c1d3b82760": {
+          "from": "c91dd780-52a9-42e1-8d41-9213b769e3a7",
+          "to": "4cf99ea1-ad27-4e06-b835-4cfdfc4812a7",
+          "id": "6636c451-2ff8-4de8-88a6-d4c1d3b82760"
+        },
+        "9e738696-9703-447d-acbb-cc8d7f2dd3da": {
+          "from": "693ce632-a624-4905-9935-c413262d4533",
+          "to": "0621fbc1-5b86-43b8-bab7-1b84cc4f83fa",
+          "id": "9e738696-9703-447d-acbb-cc8d7f2dd3da"
+        },
+        "5b04398f-260c-4ef9-a847-47cb13e134ea": {
+          "from": "693ce632-a624-4905-9935-c413262d4533",
+          "to": "295d0d4d-73a8-47bc-8488-7615f55a8d44",
+          "id": "5b04398f-260c-4ef9-a847-47cb13e134ea"
+        },
+        "bb8d457c-96f5-412c-be51-ce965fbddc3f": {
+          "from": "693ce632-a624-4905-9935-c413262d4533",
+          "to": "05919cea-fa1a-43bd-b168-4d6557ce30da",
+          "id": "bb8d457c-96f5-412c-be51-ce965fbddc3f"
+        },
+        "4c8fdb58-5fb9-4f85-a1b3-ae45f1de21f3": {
+          "from": "693ce632-a624-4905-9935-c413262d4533",
+          "to": "a6e1bf51-2546-44f1-bf53-084828e537b5",
+          "id": "4c8fdb58-5fb9-4f85-a1b3-ae45f1de21f3"
+        },
+        "90155398-18dc-4acb-bf7d-81fdc3eba1c2": {
+          "from": "c91dd780-52a9-42e1-8d41-9213b769e3a7",
+          "to": "84acbebd-bd53-4320-a4d4-45f484bab324",
+          "id": "90155398-18dc-4acb-bf7d-81fdc3eba1c2"
+        },
+        "bd33ac06-2a52-4362-81c5-80609f45f60a": {
+          "from": "358ceb6f-36c4-4811-8487-48ae09c5e1c6",
+          "to": "da55eb02-aae0-4454-8222-0b338f8590f7",
+          "id": "bd33ac06-2a52-4362-81c5-80609f45f60a"
+        },
+        "1704209f-2f0e-40f4-9686-df44d9df13c6": {
+          "from": "358ceb6f-36c4-4811-8487-48ae09c5e1c6",
+          "to": "edd5034b-3bc5-48ad-bd74-592a1b94830f",
+          "id": "1704209f-2f0e-40f4-9686-df44d9df13c6"
+        },
+        "025cff07-aa05-4e80-9917-628c13b95238": {
+          "from": "d895b6e0-e987-4077-92ea-93b3d875aa12",
+          "to": "575d5c9e-8477-4754-aa7d-7238b98153b1",
+          "id": "025cff07-aa05-4e80-9917-628c13b95238"
+        },
+        "9a59ecc9-a94b-48f2-b2f8-bbee971dee76": {
+          "from": "2d79f3b5-e1e9-4ec4-a151-9773b2fcc76c",
+          "to": "2c011f42-b010-4f05-93aa-0a2b20731271",
+          "id": "9a59ecc9-a94b-48f2-b2f8-bbee971dee76"
+        },
+        "2e6bac80-4a3f-4d1d-8874-8ed428943d4e": {
+          "from": "2c011f42-b010-4f05-93aa-0a2b20731271",
+          "to": "f41460f7-ec0b-4c1d-9167-973ced9e0819",
+          "id": "2e6bac80-4a3f-4d1d-8874-8ed428943d4e"
+        },
+        "24e06a8c-a09f-4a25-bf5d-5b71da6a62fe": {
+          "from": "bff63d2a-cf4f-44c8-b85b-2d5be11bc3f7",
+          "to": "2d79f3b5-e1e9-4ec4-a151-9773b2fcc76c",
+          "id": "24e06a8c-a09f-4a25-bf5d-5b71da6a62fe"
+        },
+        "35089a3c-aeef-4a82-89de-d41d293b82e6": {
+          "from": "00991b60-d462-4e5b-87e7-c93abca8aa34",
+          "to": "c90559d4-447f-44cd-98fd-de8591e8fac6",
+          "id": "35089a3c-aeef-4a82-89de-d41d293b82e6"
+        },
+        "3ff0c65b-4e3c-4e2e-8cd1-24050066d6ea": {
+          "from": "237f6ade-5aad-4028-a712-d050118d1454",
+          "to": "fe100cd0-bf94-4b43-99ef-0c6c0a13ce48",
+          "id": "3ff0c65b-4e3c-4e2e-8cd1-24050066d6ea"
+        },
+        "bb686318-d97e-4ae7-9e5b-a8f9e5061f98": {
+          "from": "5aa1d8f7-2741-468d-b9cd-5ab27f7481e2",
+          "to": "237f6ade-5aad-4028-a712-d050118d1454",
+          "id": "bb686318-d97e-4ae7-9e5b-a8f9e5061f98"
+        },
+        "bf021abc-1e72-4624-8707-c9f8449df852": {
+          "from": "565f44be-3f95-4ee3-8c13-e961415042fe936145",
+          "to": "4ca7ad9e-219f-4df7-a2c3-a1e0140e817d",
+          "id": "bf021abc-1e72-4624-8707-c9f8449df852"
+        },
+        "5bf32d44-2a9d-453a-8ab7-b199d5102eb8": {
+          "from": "e3ae6a84-5af7-446e-97bc-578f6f7872f7",
+          "to": "8da91bbe-e342-42f2-963b-1633052bf7ae",
+          "id": "5bf32d44-2a9d-453a-8ab7-b199d5102eb8"
+        },
+        "f4dbc950-c0fc-4be6-80e8-0a48dc489895": {
+          "from": "4ca7ad9e-219f-4df7-a2c3-a1e0140e817d",
+          "to": "2d2782eb-4651-4db2-ba84-c11ef64f1897",
+          "id": "f4dbc950-c0fc-4be6-80e8-0a48dc489895"
+        },
+        "41573936-5cd3-46e6-a1d7-2edb82daadb3": {
+          "from": "0c95051d-4195-49a1-8132-34554b62388c",
+          "to": "f3ed4e80-ff2a-4cac-85af-7ac47167b25a",
+          "id": "41573936-5cd3-46e6-a1d7-2edb82daadb3"
+        },
+        "3c1be875-fa31-429b-b969-c234c94c1967": {
+          "from": "5aa1d8f7-2741-468d-b9cd-5ab27f7481e2",
+          "to": "0c95051d-4195-49a1-8132-34554b62388c",
+          "id": "3c1be875-fa31-429b-b969-c234c94c1967"
+        },
+        "500d8c63-edef-4a1d-89ac-e96114fc8e62": {
+          "from": "5aa1d8f7-2741-468d-b9cd-5ab27f7481e2",
+          "to": "e3ae6a84-5af7-446e-97bc-578f6f7872f7",
+          "id": "500d8c63-edef-4a1d-89ac-e96114fc8e62"
+        },
+        "1eea892b-0116-4bfa-88c9-58c19fc3105c": {
+          "from": "1b5f257d-a963-481c-a37a-0857ecd5b966",
+          "to": "693ce632-a624-4905-9935-c413262d4533",
+          "id": "1eea892b-0116-4bfa-88c9-58c19fc3105c"
+        },
+        "8df07d20-aae1-41b8-b791-b77fd165e530": {
+          "from": "00991b60-d462-4e5b-87e7-c93abca8aa34",
+          "to": "358ceb6f-36c4-4811-8487-48ae09c5e1c6",
+          "id": "8df07d20-aae1-41b8-b791-b77fd165e530"
+        },
+        "caa9fc58-7c83-4988-b8c6-a12476929cd9": {
+          "from": "3faccd95-3beb-4bc6-9e19-b77a596cdd2c",
+          "to": "591a45fc-122d-4513-9514-56680ebc369f",
+          "id": "caa9fc58-7c83-4988-b8c6-a12476929cd9"
+        },
+        "7747d2b4-922f-4d41-a47e-1efaf42fc53c": {
+          "from": "591a45fc-122d-4513-9514-56680ebc369f",
+          "to": "d0d7831b-b46d-4743-b2db-12ee5f69f28d",
+          "id": "7747d2b4-922f-4d41-a47e-1efaf42fc53c"
+        },
+        "a2679cf5-518c-44d2-a4cf-f3d63de85587": {
+          "from": "8deb38fd-b93f-40fa-aa22-7cccb08e7780",
+          "to": "3faccd95-3beb-4bc6-9e19-b77a596cdd2c",
+          "id": "a2679cf5-518c-44d2-a4cf-f3d63de85587"
+        },
+        "051f065a-b3f3-42b1-8876-50f64ba161a2": {
+          "from": "2d79f3b5-e1e9-4ec4-a151-9773b2fcc76c",
+          "to": "d895b6e0-e987-4077-92ea-93b3d875aa12",
+          "id": "051f065a-b3f3-42b1-8876-50f64ba161a2"
+        },
+        "b8db1b73-b97e-4002-84aa-6962108ac245": {
+          "from": "581e66c7-f0a7-4c68-8947-1f6a429617a5",
+          "to": "da9303df-24cf-4df5-92f6-8123181b2f3e",
+          "id": "b8db1b73-b97e-4002-84aa-6962108ac245"
+        },
+        "9115e896-2959-4d55-a9e4-615ba1f7aeaf": {
+          "from": "581e66c7-f0a7-4c68-8947-1f6a429617a5",
+          "to": "083e0767-16a5-4ba6-8a7a-0967a8f17bad",
+          "id": "9115e896-2959-4d55-a9e4-615ba1f7aeaf"
+        },
+        "0db95136-dccd-4605-866d-048d5dc12848": {
+          "from": "581e66c7-f0a7-4c68-8947-1f6a429617a5",
+          "to": "c91dd780-52a9-42e1-8d41-9213b769e3a7",
+          "id": "0db95136-dccd-4605-866d-048d5dc12848"
+        },
+        "023b3e20-e1b4-4189-9aac-649fd5dda66b": {
+          "from": "77b423b9-07ab-4478-ab41-021d7dbc0f45",
+          "to": "467a3adf-c7bf-4435-8b56-25bde423c3b4",
+          "id": "023b3e20-e1b4-4189-9aac-649fd5dda66b"
+        },
+        "9bd40a81-5523-49f3-a59a-53441a393aa7": {
+          "from": "77b423b9-07ab-4478-ab41-021d7dbc0f45",
+          "to": "86e468de-61b4-48a7-b1cd-1afcadd0db41",
+          "id": "9bd40a81-5523-49f3-a59a-53441a393aa7"
+        },
+        "f2a2fd46-d535-4477-9a04-f85f918c939f": {
+          "from": "20f33129-a7fc-4681-ad2d-8685ac584ca7",
+          "to": "49a563d7-4a55-4ed3-bb08-d3910ffad8d6",
+          "id": "f2a2fd46-d535-4477-9a04-f85f918c939f"
+        },
+        "3bc83951-9dcf-4ecc-8732-dffd800d510f": {
+          "from": "20f33129-a7fc-4681-ad2d-8685ac584ca7",
+          "to": "a1c627c3-1300-4159-9e44-114f9d4bdad5",
+          "id": "3bc83951-9dcf-4ecc-8732-dffd800d510f"
+        },
+        "92870814-c749-458b-b761-d8ebb8a88f08": {
+          "from": "98e95490-24e7-4318-a4c0-450b162794ca",
+          "to": "20f33129-a7fc-4681-ad2d-8685ac584ca7",
+          "id": "92870814-c749-458b-b761-d8ebb8a88f08"
+        },
+        "1ffa9920-400a-4a9f-bf31-5b2ed196cdf5": {
+          "from": "e3e65a1c-ebee-4835-a813-d88285c60670",
+          "to": "99434ac1-8d22-4eba-98ff-cb8a4756b16c",
+          "id": "1ffa9920-400a-4a9f-bf31-5b2ed196cdf5"
+        },
+        "18e356aa-029f-4d15-b791-233d4c688d89": {
+          "from": "5aa1d8f7-2741-468d-b9cd-5ab27f7481e2",
+          "to": "581e66c7-f0a7-4c68-8947-1f6a429617a5",
+          "id": "18e356aa-029f-4d15-b791-233d4c688d89"
+        },
+        "08f3b56b-9f20-48d5-8181-b391f6e3cf9e729": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "08f3b56b-9f20-48d5-8181-b391f6e3cf9e729",
+          "from": "c91dd780-52a9-42e1-8d41-9213b769e3a7729",
+          "to": "a6813013-6c4c-45c6-b351-bfd72d2d4f7b729"
+        },
+        "6636c451-2ff8-4de8-88a6-d4c1d3b82760729": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6636c451-2ff8-4de8-88a6-d4c1d3b82760729",
+          "from": "c91dd780-52a9-42e1-8d41-9213b769e3a7729",
+          "to": "4cf99ea1-ad27-4e06-b835-4cfdfc4812a7729"
+        },
+        "c0145c23-67a3-4540-875f-14d751c03f1e": {
+          "from": "728738cb-efe5-45a7-8e54-52cbfdbbea98",
+          "to": "a6813013-6c4c-45c6-b351-bfd72d2d4f7b729",
+          "id": "c0145c23-67a3-4540-875f-14d751c03f1e"
+        },
+        "652f65b5-43ac-498a-9ef9-546ae4aea65f": {
+          "from": "728738cb-efe5-45a7-8e54-52cbfdbbea98",
+          "to": "4cf99ea1-ad27-4e06-b835-4cfdfc4812a7729",
+          "id": "652f65b5-43ac-498a-9ef9-546ae4aea65f"
+        },
+        "c0519966-fd8d-4360-bfcf-1b60beff2fe7": {
+          "from": "e7bad399-14d5-46eb-ac7f-c075a004569f",
+          "to": "728738cb-efe5-45a7-8e54-52cbfdbbea98",
+          "id": "c0519966-fd8d-4360-bfcf-1b60beff2fe7"
+        },
+        "7c6e0a38-ea3d-44c3-a953-b2ce69018439": {
+          "from": "ebaddc89-ff89-407b-a81f-79ec0ab239dc",
+          "to": "1bdd4e72-b3c2-457d-8a54-abf6c50e8f70",
+          "id": "7c6e0a38-ea3d-44c3-a953-b2ce69018439"
+        },
+        "4df45c47-6b54-4090-a197-699848a94e72": {
+          "from": "ebaddc89-ff89-407b-a81f-79ec0ab239dc",
+          "to": "90742c2b-7c06-4cfc-a02b-52fe1c3214f8",
+          "id": "4df45c47-6b54-4090-a197-699848a94e72"
+        },
+        "1262fe1f-4a4b-45be-8f3a-47e4f7782877": {
+          "from": "ebaddc89-ff89-407b-a81f-79ec0ab239dc",
+          "to": "34d23627-803a-4117-88de-78aaf07834d1",
+          "id": "1262fe1f-4a4b-45be-8f3a-47e4f7782877"
+        },
+        "6b21ce3c-ebfb-4c84-9fd0-8b389c1f1f51": {
+          "from": "e7bad399-14d5-46eb-ac7f-c075a004569f",
+          "to": "ebaddc89-ff89-407b-a81f-79ec0ab239dc",
+          "id": "6b21ce3c-ebfb-4c84-9fd0-8b389c1f1f51"
+        },
+        "6b56c65a-0e31-46aa-b6c2-1260e36911c5": {
+          "from": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "to": "67e767d4-a415-4c13-bac9-434bc56ee18e",
+          "id": "6b56c65a-0e31-46aa-b6c2-1260e36911c5"
+        },
+        "2be85ee5-1b1a-41bf-badf-07f92af09a83": {
+          "from": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "to": "5fa39803-c7b9-414f-b6eb-b06e14086db8",
+          "id": "2be85ee5-1b1a-41bf-badf-07f92af09a83"
+        },
+        "4135c9ab-4bde-4e1b-a175-9035dc164e78": {
+          "from": "210a020d-8e7b-40ca-a20e-54692c4d66fa",
+          "to": "7af15eee-1d5b-44ec-bda7-e6b463b6a391",
+          "id": "4135c9ab-4bde-4e1b-a175-9035dc164e78"
+        },
+        "4a4bd996-8049-4aa7-bb97-e86853b0292d": {
+          "from": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "to": "f48e785e-e3b0-4612-9369-50e61f7d2bfd",
+          "id": "4a4bd996-8049-4aa7-bb97-e86853b0292d"
+        },
+        "88fc64e9-9e66-40ea-8c16-1bc9d8ca8f59": {
+          "from": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "to": "7a9447ae-91ee-4c7e-8e3e-f733b4dffa6e",
+          "id": "88fc64e9-9e66-40ea-8c16-1bc9d8ca8f59"
+        },
+        "56c4457f-fcf2-4866-bdf0-bc09ff963372": {
+          "from": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "to": "db5c5004-9d91-4c53-8326-37e513ff0f07",
+          "id": "56c4457f-fcf2-4866-bdf0-bc09ff963372"
+        },
+        "5806ebea-b389-4eaa-a176-e31f6e7b57cd": {
+          "from": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "to": "1ff92205-2743-4ab4-892c-d6f08fad9c2f",
+          "id": "5806ebea-b389-4eaa-a176-e31f6e7b57cd"
+        },
+        "77c5913e-a61a-445e-93d6-3f8d9e9459b0": {
+          "from": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "to": "1cb3edf9-ca12-466d-9033-ad5df7c68631",
+          "id": "77c5913e-a61a-445e-93d6-3f8d9e9459b0"
+        },
+        "18f29fb8-46f6-4b67-8def-762d0d936a84": {
+          "from": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "to": "eee45079-0e02-4d9d-b154-7abadf4e99a9",
+          "id": "18f29fb8-46f6-4b67-8def-762d0d936a84"
+        },
+        "dab69629-ea20-434a-a824-d020dc25ec1f": {
+          "from": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "to": "210a020d-8e7b-40ca-a20e-54692c4d66fa",
+          "id": "dab69629-ea20-434a-a824-d020dc25ec1f"
+        },
+        "bb7241c6-814d-4a74-9568-d543b870fde5": {
+          "from": "4d38e36b-e6e3-41a1-83e0-0fba2b192208",
+          "to": "a3004967-8c1d-4425-a1e2-fc1098d97304",
+          "id": "bb7241c6-814d-4a74-9568-d543b870fde5"
+        },
+        "8fc81fa4-8b81-4d0a-b6a3-09c20d39972d": {
+          "from": "a3004967-8c1d-4425-a1e2-fc1098d97304",
+          "to": "9a3a192f-3b7e-46be-9228-adf83b14dd60",
+          "id": "8fc81fa4-8b81-4d0a-b6a3-09c20d39972d"
+        },
+        "16c560af-9674-40d9-81f0-4ae59e04d61b": {
+          "from": "9a3a192f-3b7e-46be-9228-adf83b14dd60",
+          "to": "365a1ab6-0f45-47ff-b843-0a4f8d3b9745",
+          "id": "16c560af-9674-40d9-81f0-4ae59e04d61b"
+        },
+        "8d852fc7-c629-4358-b44d-bbd35d648773": {
+          "from": "9a3a192f-3b7e-46be-9228-adf83b14dd60",
+          "to": "96a66af3-acd7-4e93-850c-08e7965b9a1e",
+          "id": "8d852fc7-c629-4358-b44d-bbd35d648773"
+        },
+        "c8896cfd-4736-41e3-a338-20c8bbcc2f9d936145993": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "c8896cfd-4736-41e3-a338-20c8bbcc2f9d936145993",
+          "from": "5cc04b89-6f3a-4b61-87dc-ab200d274bd4936145993",
+          "to": "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145993"
+        },
+        "f15ac3e1-af3f-44f5-8f3f-6602fdaa01da": {
+          "from": "4d38e36b-e6e3-41a1-83e0-0fba2b192208",
+          "to": "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145993431",
+          "id": "f15ac3e1-af3f-44f5-8f3f-6602fdaa01da"
+        },
+        "1dab2e03-0273-4235-8d6c-5d017f43c8d4": {
+          "from": "eb93f4a6-9a10-4db5-a14f-89340793aa85",
+          "to": "87553932-e307-4e6d-b306-d9bfa1d9b5e2936145993",
+          "id": "1dab2e03-0273-4235-8d6c-5d017f43c8d4"
+        },
+        "0aa765da-215e-4e6c-94a9-775a19b18ca6": {
+          "from": "933ece76-5696-4c03-9224-e936eb1eccba936145",
+          "to": "4d38e36b-e6e3-41a1-83e0-0fba2b192208",
+          "id": "0aa765da-215e-4e6c-94a9-775a19b18ca6"
+        },
+        "beea999d-6e58-4bae-becc-efa65f61b513": {
+          "from": "933ece76-5696-4c03-9224-e936eb1eccba936145",
+          "to": "eb93f4a6-9a10-4db5-a14f-89340793aa85",
+          "id": "beea999d-6e58-4bae-becc-efa65f61b513"
+        },
+        "2b250185-7feb-433d-bf9c-8974f9ee2f47": {
+          "from": "e7bad399-14d5-46eb-ac7f-c075a004569f",
+          "to": "f713bd19-6074-4157-9f1c-c3f60969828a",
+          "id": "2b250185-7feb-433d-bf9c-8974f9ee2f47"
+        },
+        "b5ba1ace-251d-458b-b538-b4b4eab95126": {
+          "from": "85abf8d7-fab2-4ab1-a28d-eb78e2e6945c",
+          "to": "111a9a25-c106-4249-96cf-1fdf44f2d2ee",
+          "id": "b5ba1ace-251d-458b-b538-b4b4eab95126"
+        },
+        "f05fd536-78a8-4014-9175-b12bae12c763": {
+          "from": "85abf8d7-fab2-4ab1-a28d-eb78e2e6945c",
+          "to": "8e0d600e-bf0c-42d1-ab1f-ffa5ff809373",
+          "id": "f05fd536-78a8-4014-9175-b12bae12c763"
+        },
+        "c2e3ad4f-ed24-4997-a34e-b7de1164ba42": {
+          "from": "85abf8d7-fab2-4ab1-a28d-eb78e2e6945c",
+          "to": "109aeeb3-2696-4a91-ba81-759f0f29bc21",
+          "id": "c2e3ad4f-ed24-4997-a34e-b7de1164ba42"
         }
       },
       "length": 0,
@@ -86786,10 +88365,10 @@ var schemeData =
   },
   "dataCash": {},
   "setup": {
-    "scale": 0.19101899797044106,
+    "scale": 0.0113,
     "viewPosition": {
-      "x": 117415.50613179713,
-      "y": 62066.29199982701
+      "x": 105402.99999920354,
+      "y": 24500.000003982314
     }
   }
 }

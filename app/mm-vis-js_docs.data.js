@@ -175,7 +175,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/mm-vis-js_docs.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"mm-vis-js_docs_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
+          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response.lastIndexOf(\"ok - \", 0) !== 0 ) {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\ndata = encodeURIComponent(data);\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/mm-vis-js_docs.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"mm-vis-js_docs_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709204",
           "x": 65745,
           "y": -6406,
@@ -3035,8 +3035,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/sushilshik/mm-vis-js",
           "id": "be11ed2d-69c3-468b-97a3-543494855a1a856173337",
-          "x": 98509,
-          "y": 4100,
+          "x": 98492,
+          "y": 4376,
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
           "borderWidth": ""
@@ -3104,8 +3104,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "mm-vis-js code\ndevelopment",
-          "x": 97403,
-          "y": 4257,
+          "x": 97386,
+          "y": 4533,
           "id": "67768fae-0037-4af6-9a58-4c0248f270d0173337",
           "shape": "box",
           "link": "",
@@ -3136,8 +3136,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 98033,
-          "y": 4757,
+          "x": 98016,
+          "y": 5033,
           "id": "fde93f9d-f237-42a7-8082-0318b1513feb173337"
         },
         "b9d0fe1f-9ed9-44ea-9054-6e4d76112447173337": {
@@ -3168,8 +3168,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/5/2019",
-          "x": 98283,
-          "y": 4757,
+          "x": 98266,
+          "y": 5033,
           "id": "b9d0fe1f-9ed9-44ea-9054-6e4d76112447173337",
           "shape": "box",
           "link": "",
@@ -3200,8 +3200,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 98183,
-          "y": 4757,
+          "x": 98166,
+          "y": 5033,
           "id": "42ca8a23-2441-4c4f-bda3-71e155a1d046173337"
         },
         "e9b483ea-b5c9-4cc4-9a8f-5f3e899a3fde173337": {
@@ -3229,8 +3229,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 98029,
-          "y": 3807,
+          "x": 98012,
+          "y": 4083,
           "id": "e9b483ea-b5c9-4cc4-9a8f-5f3e899a3fde173337"
         },
         "a8190c68-bf6b-4a14-973b-ba0b2934af41173337": {
@@ -3287,8 +3287,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 98179,
-          "y": 3807,
+          "x": 98162,
+          "y": 4083,
           "id": "8ba6ac5f-a485-41de-ba9f-fbb3f2dcdfae173337"
         },
         "a92b6e54-c8bd-4312-9d81-f963a999b86d173337": {
@@ -3316,8 +3316,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 98183,
-          "y": 4157,
+          "x": 98166,
+          "y": 4433,
           "id": "a92b6e54-c8bd-4312-9d81-f963a999b86d173337"
         },
         "69c69334-0403-445b-b3e9-b0c3ab485a72173337": {
@@ -3345,8 +3345,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 98247,
-          "y": 3907,
+          "x": 98230,
+          "y": 4183,
           "id": "69c69334-0403-445b-b3e9-b0c3ab485a72173337"
         },
         "8cc0a70f-fc8c-49f2-b406-ed0000081675173337": {
@@ -3374,8 +3374,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 98278,
-          "y": 3932,
+          "x": 98261,
+          "y": 4208,
           "id": "8cc0a70f-fc8c-49f2-b406-ed0000081675173337"
         },
         "66de4415-9271-4d35-b447-cd28902467b9173337": {
@@ -3403,8 +3403,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 98243,
-          "y": 3957,
+          "x": 98226,
+          "y": 4233,
           "id": "66de4415-9271-4d35-b447-cd28902467b9173337"
         },
         "68f9a70d-2ac7-472d-a26a-e106ad222012173337": {
@@ -3432,8 +3432,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 98262,
-          "y": 3982,
+          "x": 98245,
+          "y": 4258,
           "id": "68f9a70d-2ac7-472d-a26a-e106ad222012173337"
         },
         "56118665-0329-4d6a-b3a6-048b50b6b960173337": {
@@ -3461,8 +3461,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 98251,
-          "y": 4007,
+          "x": 98234,
+          "y": 4283,
           "id": "56118665-0329-4d6a-b3a6-048b50b6b960173337"
         },
         "1dae0b42-7e18-4f57-b80d-b4cb10884473173337": {
@@ -3490,8 +3490,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 98273,
-          "y": 4032,
+          "x": 98256,
+          "y": 4308,
           "id": "1dae0b42-7e18-4f57-b80d-b4cb10884473173337"
         },
         "12947967-3a35-4642-a1bd-28ed03b2dad7173337": {
@@ -3519,8 +3519,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 98275,
-          "y": 4101,
+          "x": 98258,
+          "y": 4377,
           "id": "12947967-3a35-4642-a1bd-28ed03b2dad7173337"
         },
         "0b82de57-d688-457a-877b-d3990b2d1724173337": {
@@ -3548,8 +3548,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 98253,
-          "y": 4182,
+          "x": 98236,
+          "y": 4458,
           "id": "0b82de57-d688-457a-877b-d3990b2d1724173337"
         },
         "dfe92baa-57e8-40c0-8ab3-75a34691cec3173337": {
@@ -3577,8 +3577,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 98244,
-          "y": 4207,
+          "x": 98227,
+          "y": 4483,
           "id": "dfe92baa-57e8-40c0-8ab3-75a34691cec3173337"
         },
         "6524fd7d-f637-4f11-9a75-17e7ddfafa4e173337": {
@@ -3606,8 +3606,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 98272,
-          "y": 4232,
+          "x": 98255,
+          "y": 4508,
           "id": "6524fd7d-f637-4f11-9a75-17e7ddfafa4e173337"
         },
         "002fd9ff-fbc3-4f77-bf7f-039ed2447bbe173337": {
@@ -3635,8 +3635,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 98258,
-          "y": 4257,
+          "x": 98241,
+          "y": 4533,
           "id": "002fd9ff-fbc3-4f77-bf7f-039ed2447bbe173337"
         },
         "c96eb426-8553-46cb-b25e-9b473a946285173337": {
@@ -3664,8 +3664,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 98280,
-          "y": 4282,
+          "x": 98263,
+          "y": 4558,
           "id": "c96eb426-8553-46cb-b25e-9b473a946285173337"
         },
         "22ed5419-61a7-4c43-9b20-80685a547cbd173337": {
@@ -3693,8 +3693,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 98244,
-          "y": 4307,
+          "x": 98227,
+          "y": 4583,
           "id": "22ed5419-61a7-4c43-9b20-80685a547cbd173337"
         },
         "61e9b556-9255-419b-8882-8df696d230b0173337": {
@@ -3722,8 +3722,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 98283,
-          "y": 4332,
+          "x": 98266,
+          "y": 4608,
           "id": "61e9b556-9255-419b-8882-8df696d230b0173337"
         },
         "3d333352-e343-4adc-989d-182c6054373a173337": {
@@ -3751,8 +3751,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 98033,
-          "y": 4457,
+          "x": 98016,
+          "y": 4733,
           "id": "3d333352-e343-4adc-989d-182c6054373a173337"
         },
         "353c7132-cbb1-47b6-91de-70a6cdc2c0fc173337": {
@@ -3780,8 +3780,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 98033,
-          "y": 4557,
+          "x": 98016,
+          "y": 4833,
           "id": "353c7132-cbb1-47b6-91de-70a6cdc2c0fc173337"
         },
         "fe2f310f-9398-4731-b251-cc6a3f84f2a7173337": {
@@ -3809,8 +3809,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 98033,
-          "y": 4657,
+          "x": 98016,
+          "y": 4933,
           "id": "fe2f310f-9398-4731-b251-cc6a3f84f2a7173337"
         },
         "afac6c88-2410-4e8c-b7ec-ad16fc3dd5e7173337": {
@@ -7140,7 +7140,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 82069,
-          "y": 4851,
+          "y": 5013,
           "id": "c265228f-7a42-4f5b-ae09-4968e660d922673431"
         },
         "72a29b77-7945-40c7-aabf-56d95597916b673431": {
@@ -7169,7 +7169,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/12/2019",
           "x": 82269,
-          "y": 4845,
+          "y": 5007,
           "id": "72a29b77-7945-40c7-aabf-56d95597916b673431"
         },
         "01833143-dc1d-4f15-b6dc-71d4232a5dca673431": {
@@ -7198,7 +7198,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 82423,
-          "y": 4845,
+          "y": 5007,
           "id": "01833143-dc1d-4f15-b6dc-71d4232a5dca673431"
         },
         "adf37994-f52f-43fe-8c46-de3d24f49a5f673431": {
@@ -7314,7 +7314,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 82219,
-          "y": 4251,
+          "y": 4413,
           "id": "c03a29fb-0bf2-4391-96ec-20658fcf2a96673431"
         },
         "bc1799b7-5c57-46ae-8470-74c7694cb4eb673431": {
@@ -7343,7 +7343,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 82283,
-          "y": 4101,
+          "y": 4263,
           "id": "bc1799b7-5c57-46ae-8470-74c7694cb4eb673431"
         },
         "a6042930-308d-40dc-97ea-9d2deb71784a673431": {
@@ -7372,7 +7372,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 82314,
-          "y": 4126,
+          "y": 4288,
           "id": "a6042930-308d-40dc-97ea-9d2deb71784a673431"
         },
         "d4e88b34-c5a2-4084-8168-85a39b96518b673431": {
@@ -7401,7 +7401,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 82279,
-          "y": 4151,
+          "y": 4313,
           "id": "d4e88b34-c5a2-4084-8168-85a39b96518b673431"
         },
         "5e2d9b9e-7956-4d91-b961-a18ccfd10634673431": {
@@ -7430,7 +7430,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 82298,
-          "y": 4176,
+          "y": 4338,
           "id": "5e2d9b9e-7956-4d91-b961-a18ccfd10634673431"
         },
         "b743ea42-811f-41c8-933d-365f7599f2bb673431": {
@@ -7459,7 +7459,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 82287,
-          "y": 4201,
+          "y": 4363,
           "id": "b743ea42-811f-41c8-933d-365f7599f2bb673431"
         },
         "0c70927a-6c22-4f8c-a554-8321f73853c1673431": {
@@ -7488,7 +7488,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 82309,
-          "y": 4226,
+          "y": 4388,
           "id": "0c70927a-6c22-4f8c-a554-8321f73853c1673431"
         },
         "40abf69a-e6bb-4fbc-9c36-1c571d034e9c673431": {
@@ -7517,7 +7517,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 82311,
-          "y": 4251,
+          "y": 4413,
           "id": "40abf69a-e6bb-4fbc-9c36-1c571d034e9c673431"
         },
         "dcb2c77b-baa1-4044-835f-d5bf6dfbd23c673431": {
@@ -7546,7 +7546,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 82289,
-          "y": 4276,
+          "y": 4438,
           "id": "dcb2c77b-baa1-4044-835f-d5bf6dfbd23c673431"
         },
         "9ebd4908-ab02-4b2d-96fb-b3e6655279da673431": {
@@ -7575,7 +7575,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 82280,
-          "y": 4301,
+          "y": 4463,
           "id": "9ebd4908-ab02-4b2d-96fb-b3e6655279da673431"
         },
         "26199d75-b171-4b65-ad6e-66793cce4341673431": {
@@ -7604,7 +7604,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 82308,
-          "y": 4326,
+          "y": 4488,
           "id": "26199d75-b171-4b65-ad6e-66793cce4341673431"
         },
         "846dbcfc-e517-497e-9fc7-35297ce2f54e673431": {
@@ -7633,7 +7633,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 82294,
-          "y": 4351,
+          "y": 4513,
           "id": "846dbcfc-e517-497e-9fc7-35297ce2f54e673431"
         },
         "ea3f8386-dd89-485e-8b6d-e4d665943d89673431": {
@@ -7662,7 +7662,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 82316,
-          "y": 4376,
+          "y": 4538,
           "id": "ea3f8386-dd89-485e-8b6d-e4d665943d89673431"
         },
         "720fdfd4-71bc-4c2f-bf80-df69a9351f9b673431": {
@@ -7691,7 +7691,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 82280,
-          "y": 4401,
+          "y": 4563,
           "id": "720fdfd4-71bc-4c2f-bf80-df69a9351f9b673431"
         },
         "e4ee609d-39ad-4543-a157-38d8718c20a8673431": {
@@ -7720,7 +7720,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 82319,
-          "y": 4426,
+          "y": 4588,
           "id": "e4ee609d-39ad-4543-a157-38d8718c20a8673431"
         },
         "eb72029f-bfe4-403d-a720-ff89c2b4f94e673431": {
@@ -7749,7 +7749,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 82069,
-          "y": 4551,
+          "y": 4713,
           "id": "eb72029f-bfe4-403d-a720-ff89c2b4f94e673431"
         },
         "14a16f63-3b55-489f-bf21-ee639776c71c673431": {
@@ -7778,7 +7778,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 82069,
-          "y": 4651,
+          "y": 4813,
           "id": "14a16f63-3b55-489f-bf21-ee639776c71c673431"
         },
         "79a3d8ef-2677-4066-8195-a7096bb31a2c673431": {
@@ -7807,7 +7807,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 82069,
-          "y": 4751,
+          "y": 4913,
           "id": "79a3d8ef-2677-4066-8195-a7096bb31a2c673431"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673431": {
@@ -7872,7 +7872,7 @@ var schemeData =
           "label": "Goals",
           "id": "bbfa4068-4e91-4d81-aa66-b3a75c20e228673431",
           "x": 82429,
-          "y": 4888
+          "y": 5050
         },
         "d723c162-2431-49ca-b38c-70f18ac64ca1673431": {
           "color": {
@@ -7903,8 +7903,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Add edge label edit function",
           "id": "d723c162-2431-49ca-b38c-70f18ac64ca1673431",
-          "x": 82600,
-          "y": 4914,
+          "x": 82597,
+          "y": 5076,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8160,7 +8160,7 @@ var schemeData =
           "label": "Разработка этой схемы",
           "id": "69df842e-8d76-4bae-a1be-03398edbb34d856673431",
           "x": 81974,
-          "y": -5628,
+          "y": -5124,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8192,7 +8192,7 @@ var schemeData =
           "label": "init",
           "id": "75f58e5a-a0d0-4f37-a30a-bc954f310151856673431",
           "x": 82095,
-          "y": -5627
+          "y": -5123
         },
         "6c08158c-4e66-49f6-a161-a66c3a8d0271856673431": {
           "color": {
@@ -8221,7 +8221,7 @@ var schemeData =
           "label": "2019-11-01 21:45",
           "id": "6c08158c-4e66-49f6-a161-a66c3a8d0271856673431",
           "x": 82231,
-          "y": -5630
+          "y": -5126
         },
         "918cfa6f-1b63-4ef3-b4a4-aa565848f727856673431": {
           "color": {
@@ -9063,7 +9063,7 @@ var schemeData =
           "label": "Примечания",
           "id": "0259d9ae-d9a0-43fe-a27d-6ef875c42428856673431",
           "x": 82126,
-          "y": -5744
+          "y": -5608
         },
         "54a8ccfe-1e5b-4fa6-b8a4-a619778bc847856673431": {
           "color": {
@@ -14729,7 +14729,7 @@ var schemeData =
           "label": "Bug: save nodes don't disappear after delete and page reload.",
           "id": "65a326ea-1281-41f1-9352-6cb0a9e6a2c8673431",
           "x": 82707,
-          "y": 4886,
+          "y": 5048,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14761,8 +14761,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/19/2019",
-          "x": 82285,
-          "y": 4996,
+          "x": 82269,
+          "y": 5158,
           "id": "72a29b77-7945-40c7-aabf-56d95597916b559673431",
           "shape": "box",
           "link": "",
@@ -14795,7 +14795,7 @@ var schemeData =
           "label": "Goals",
           "id": "bbfa4068-4e91-4d81-aa66-b3a75c20e228263673431",
           "x": 82425,
-          "y": 4994
+          "y": 5156
         },
         "d723c162-2431-49ca-b38c-70f18ac64ca1678673431": {
           "color": {
@@ -14826,8 +14826,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Nodes search",
           "id": "d723c162-2431-49ca-b38c-70f18ac64ca1678673431",
-          "x": 82558,
-          "y": 4994,
+          "x": 82553,
+          "y": 5156,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20953,6 +20953,153 @@ var schemeData =
           "shape": "box",
           "link": "news2.html",
           "borderWidth": "0"
+        },
+        "c0913002-bed2-4065-af36-0bb229f6e0ee": {
+          "label": "Hotkeys",
+          "link": "",
+          "x": 82221,
+          "y": -6306,
+          "id": "c0913002-bed2-4065-af36-0bb229f6e0ee",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "20327694-20c0-46cf-b009-72a4581a6703": {
+          "label": "F6, Shift+F6 - переключение между Google Chrome Developer Tools и страницей.",
+          "link": "",
+          "x": 82714,
+          "y": -6308,
+          "id": "20327694-20c0-46cf-b009-72a4581a6703",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "a8ce251c-eb6c-4aa9-b262-8c5197dfadac": {
+          "label": "Плюс табом может понадобиться довести фокус до страницы",
+          "link": "",
+          "x": 83282,
+          "y": -6312,
+          "id": "a8ce251c-eb6c-4aa9-b262-8c5197dfadac",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "6d6541f1-c62a-463d-8646-f71b80f04bd3": {
+          "id": "6d6541f1-c62a-463d-8646-f71b80f04bd3",
+          "x": 98365,
+          "y": 3558,
+          "label": "Use cases"
+        },
+        "dfad7933-3ecb-4de2-9299-f93eeb097950": {
+          "id": "dfad7933-3ecb-4de2-9299-f93eeb097950",
+          "x": 99158,
+          "y": 3550,
+          "label": "[protege-user] visualization of ontology"
+        },
+        "c07f1165-6f39-49f7-ad5e-1212ae16a090": {
+          "id": "c07f1165-6f39-49f7-ad5e-1212ae16a090",
+          "x": 98569,
+          "y": 3551,
+          "label": "protege-user@lists.stanford.edu"
+        },
+        "602df00a-7651-427c-b508-c9b7ff32ff1b": {
+          "id": "602df00a-7651-427c-b508-c9b7ff32ff1b",
+          "x": 98845,
+          "y": 3556,
+          "label": "Mon, 16 Dec 2019 23:38:23 -0600 (CST)"
         }
       },
       "length": 0,
@@ -45865,6 +46012,41 @@ var schemeData =
           "id": "765f4b8a-a51f-445b-a3f9-2cd73c49ef99899359111147138",
           "from": "d4628ef8-97af-4c5a-b900-7c3b16d9d989899359111147138",
           "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296120294430899359111147138"
+        },
+        "a9aa880a-2f80-4896-a15a-e9c573e5b39a": {
+          "from": "20327694-20c0-46cf-b009-72a4581a6703",
+          "to": "a8ce251c-eb6c-4aa9-b262-8c5197dfadac",
+          "id": "a9aa880a-2f80-4896-a15a-e9c573e5b39a"
+        },
+        "2c177a97-f2df-442a-8aaf-4e6d25ea1864": {
+          "from": "c0913002-bed2-4065-af36-0bb229f6e0ee",
+          "to": "20327694-20c0-46cf-b009-72a4581a6703",
+          "id": "2c177a97-f2df-442a-8aaf-4e6d25ea1864"
+        },
+        "31fbb27b-bc86-4934-909e-137527448893": {
+          "from": "28606e38-66b9-4360-bd26-57e745089b6c856673431",
+          "to": "c0913002-bed2-4065-af36-0bb229f6e0ee",
+          "id": "31fbb27b-bc86-4934-909e-137527448893"
+        },
+        "e7538951-e2fb-4b88-86ed-d5d7c7505a25": {
+          "from": "a8190c68-bf6b-4a14-973b-ba0b2934af41173337",
+          "to": "6d6541f1-c62a-463d-8646-f71b80f04bd3",
+          "id": "e7538951-e2fb-4b88-86ed-d5d7c7505a25"
+        },
+        "b46d6323-c6df-456a-9281-859293c90608": {
+          "from": "6d6541f1-c62a-463d-8646-f71b80f04bd3",
+          "to": "c07f1165-6f39-49f7-ad5e-1212ae16a090",
+          "id": "b46d6323-c6df-456a-9281-859293c90608"
+        },
+        "2260df37-8595-4f53-b455-311050d477d3": {
+          "from": "c07f1165-6f39-49f7-ad5e-1212ae16a090",
+          "to": "602df00a-7651-427c-b508-c9b7ff32ff1b",
+          "id": "2260df37-8595-4f53-b455-311050d477d3"
+        },
+        "7dca6b68-4f43-4cda-b7ae-d7d380e9d365": {
+          "from": "602df00a-7651-427c-b508-c9b7ff32ff1b",
+          "to": "dfad7933-3ecb-4de2-9299-f93eeb097950",
+          "id": "7dca6b68-4f43-4cda-b7ae-d7d380e9d365"
         }
       },
       "length": 0,
@@ -45904,8 +46086,8 @@ var schemeData =
   "setup": {
     "scale": 0.0145,
     "viewPosition": {
-      "x": 100403.0000013793,
-      "y": 10000.000003448278
+      "x": 100403.0000013791,
+      "y": 10000.000003448302
     }
   }
 }

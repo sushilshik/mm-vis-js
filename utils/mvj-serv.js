@@ -35,7 +35,7 @@ app.get("/", function(request, response){ //root dir
     
     //saveData[dataPartNumber] = JSON.parse(dataPart);
  
-    var answerLine = JSON.stringify("ok");
+    var answerLine = JSON.stringify("ok - " + String(dataChunksLength) + " - " + String(dataPartNumber));
     //if (typeof dataPartNumber === "undefined") {
     //	console.log(request.query);
     //}
@@ -62,6 +62,7 @@ app.get("/", function(request, response){ //root dir
         for (var key in orderedSaveData) {
            data += orderedSaveData[key];
         }
+        data = decodeURIComponent(data);
         console.log("data.length: " + data.length);
         console.log("path: " + path);
         data = "var schemeData =\n" + data + "\n;";

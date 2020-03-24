@@ -16,7 +16,7 @@ var network = null;
 var canvas;
 var ctx;
 var rect = {}
-var drag = false;
+var selectionRectangleDrag = false;
 var drawingSurfaceImageData;
 var containerJQ = $("div#network");
 var doubleClickTimeThreshold = 300;
@@ -45,11 +45,21 @@ var nodesDropDownMenuNodesIds = [];
 var dontShowShemeDataMenuPagesList = [
    "news1.html",
    "news2.html",
+   "news3.html",
    "youtube.html",
-   "base.html"
+   "base.html",
+   "start_page.html",
+   "tmp.html",
+   "tmp1.html",
+   "timelines.html"
 ];
 var lastSelectedNodeId = null;
-var userConfData = undefined
+var userConfData = {
+  "conceptualModelingLocalLink1": "file:///home/mike/oldmount/wd2_earx_wcazah/Downloads_2018/conceptual_modeling_2020.02.05/"
+}
+
+var cursorNodeId = null;
+var keyboardMoveSelectedEnabled = false;
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -192,6 +202,10 @@ function addNodeOnCanvas(label, link, position, shiftX, shiftY, network) {
 }
 function getTreeNodesAndEdges(rootNodeId) {
 
+   if (typeof network.body.nodes[rootNodeId] === "undefined") {
+      return null;
+   }
+
    var nodeEdges = network.body.nodes[rootNodeId].edges;
 
    var rootBranchesEdges = [];
@@ -279,6 +293,80 @@ function getTreeNodesAndEdges(rootNodeId) {
                updateMenuFromScheme(removeNodesIds, removeEdgesIds);
                updateSchemeFromMenu([],[]);
             }
+//treesList - [[rootId, branchesNodesAndEdges], [rootId, branchesNodesAndEdges]...]
+function hideListOfTreesToDataCash(treesList) {
+
+   var nodesPositions = network.getPositions();
+   var removeNodesIds = [];
+   var removeEdgesIds = [];
+   treesList.forEach(function(treeData) {
+      var rootId = treeData[0];
+      var branchesNodesAndEdges = treeData[1];
+
+      if (branchesNodesAndEdges === null) {
+         branchesNodesAndEdges = getTreeNodesAndEdges(rootId);
+      }
+      if (branchesNodesAndEdges == null || branchesNodesAndEdges.nodes.length == 0) {
+         return;
+      }
+      branchesNodesAndEdges.rootPosition = nodesPositions[rootId];
+      console.log("hideNodeBranchesToDataCash");
+      console.log(branchesNodesAndEdges);
+      var yStep = nodesPositions[rootId].y;
+
+      if (typeof dataCash[rootId] !== "undefined") {
+         var newGraphMinPosition = branchesNodesAndEdges.nodes[branchesNodesAndEdges.nodes.length-1].y;
+         var rootNodeAndNewGraphMinPositionDiff = newGraphMinPosition - nodesPositions[rootId].y;
+         branchesNodesAndEdges.nodes.forEach(function(node) {
+            node.y = node.y - rootNodeAndNewGraphMinPositionDiff - 1;
+            if (typeof nodesPositions[node.id] !== "undefined") {
+               node.x = nodesPositions[node.id].x;
+            }
+         });
+         var currentData = dataCash[rootId];
+         currentData.nodes = branchesNodesAndEdges.nodes.concat(currentData.nodes);
+         currentData.edges = branchesNodesAndEdges.edges.concat(currentData.edges);
+         currentData.rootPosition = branchesNodesAndEdges.rootPosition;
+         dataCash[rootId] = currentData;
+         dataCash[rootId].nodes.forEach(function(node) {
+            node.y = yStep;
+            yStep = yStep + 1;
+         });
+      } else {
+         dataCash[rootId] = branchesNodesAndEdges;
+         dataCash[rootId].nodes.forEach(function(node) {
+            node.y = yStep;
+            yStep = yStep + 1;
+            if (typeof nodesPositions[node.id] !== "undefined") {
+               node.x = nodesPositions[node.id].x;
+            }
+         });
+      }
+
+
+      branchesNodesAndEdges.nodes.forEach(function(node, index) {
+         removeNodesIds.push(node.id);
+      });
+      branchesNodesAndEdges.edges.forEach(function(edge, index) {
+         removeEdgesIds.push(edge.id);
+      });
+      var rootNode = getNodeFromNetworkDataById(rootId);
+      if (typeof rootNode.color !== "undefined") {
+         rootNode.color.border = "black";
+      } else {
+         rootNode.color = {border: "black"};
+      }
+      rootNode.borderWidth = "1";
+      rootNode.x = branchesNodesAndEdges.rootPosition.x;
+      rootNode.y = branchesNodesAndEdges.rootPosition.y;
+      network.body.data.nodes.update(rootNode);
+
+   });
+
+   updateMenuFromScheme(removeNodesIds, removeEdgesIds);
+   updateSchemeFromMenu([],[]);
+
+}
             function restoreNodeBranchesFromDataCash(nodeId) {
 
                console.log("restoreNodeBranchesFromDataCash");
@@ -1530,7 +1618,7 @@ function draw() {
 		}
 	}
 	containerJQ.on("mousemove", function(e) {
-		if (drag) { 
+		if (selectionRectangleDrag) { 
 			restoreDrawingSurface();
 			rect.w = (e.pageX - this.offsetLeft) - rect.startX;
 			rect.h = (e.pageY - this.offsetTop) - rect.startY ;
@@ -1587,7 +1675,7 @@ function runNodeMenuItems(e) {
          var that = this;
          rect.startX = e.pageX - this.offsetLeft;
          rect.startY = e.pageY - this.offsetTop;
-         drag = true;
+         selectionRectangleDrag = true;
          containerJQ[0].style.cursor = "crosshair";
       }
    }); 
@@ -1615,7 +1703,7 @@ function makeNodeDropDownMenuLines(nodeId) {
    containerJQ.on("mouseup", function(e) {
       if (e.button == 2) { 
          restoreDrawingSurface();
-         drag = false;
+         selectionRectangleDrag = false;
       
          containerJQ[0].style.cursor = "default";
       
@@ -1798,7 +1886,13 @@ function makeNodeDropDownMenuLines(nodeId) {
          network.body.data.nodes.remove(nodeId);
       });
       nodesDropDownMenuNodesIds = [];
+
 		var scale = network.getScale();
+         if (cursorNodeId != null) {
+                node = network.body.data.nodes.get(cursorNodeId);
+                node.font.size = 5/scale;
+                node = network.body.data.nodes.update(node);
+         }
 		var n1X = parseFloat(network.getViewPosition().x.toFixed(5));
 		var n1Y = parseFloat(network.getViewPosition().y.toFixed(5));
 		var positionX = parseFloat((n1X - canvasWidth/(2*event.scale)).toFixed(5));
@@ -1881,12 +1975,14 @@ function updateMenuFromScheme(removeNodesIds, removeEdgesIds) {
 	var positions2 = network1.getPositions();
 	nodes1ToSave = {}; 
 	network.body.data.nodes.get().forEach(function(item) {
-                if (removeNodesIds.indexOf(item.id) == -1) {
+                if (removeNodesIds.indexOf(item.id) == -1 &&
+                    item.id != cursorNodeId) {
 		   nodes1ToSave[item.id.toString()] = item;
                 }
 	});
 	objectToArray(positions1).forEach(function(position) {
-                if (removeNodesIds.indexOf(position.id) == -1) {
+                if (removeNodesIds.indexOf(position.id) == -1 &&
+                    position.id != cursorNodeId) {
 		   var node = nodes1ToSave[position.id.toString()];
 		   node.x = position.x;
 		   node.y = position.y;
@@ -2739,6 +2835,866 @@ runNodeCodeButton.click(function() {
       }
    });
    $(document).keyup(function (event) {
+      //Toggle "showData" menu. alt+\
+      if (event.altKey == true && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 220) {
+          $("div#showData").click();
+      }
+   });
+   $(document).keyup(function (event) {
+      //Toggle selection rectangle for cursor node. u
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 85) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId != null) {
+
+             var cursorNode = network.body.nodes[cursorNodeId];
+             var positions = network.getPositions();
+             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);
+
+             if (selectionRectangleDrag == false) {
+                saveDrawingSurface();
+                rect.startX = cursorPointer.x;
+                rect.startY = cursorPointer.y;
+                selectionRectangleDrag = true;
+             } else {
+                selectNodesFromHighlight();
+                selectionRectangleDrag = false;
+                network.selectionHandler.deselectObject(cursorNode);
+             }
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Toggle moving selected nodes from keyboard. m
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 77) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+             if (cursorNodeId != null) {
+                network.body.data.nodes.remove(cursorNodeId);
+                cursorNodeId = null;
+             }
+             if (keyboardMoveSelectedEnabled == false) {
+                keyboardMoveSelectedEnabled = true;
+             } else {
+                keyboardMoveSelectedEnabled = false;
+             }
+         }
+      }
+   });
+var moveSelectedDown = false;
+var moveSelectedUp = false;
+var moveSelectedLeft = false;
+var moveSelectedRight = false;
+
+var moveSelectedDownFast = false;
+var moveSelectedUpFast = false;
+var moveSelectedLeftFast = false;
+var moveSelectedRightFast = false;
+   function moveSelectedNodes(nodesIdsList, xStep, yStep) {
+      var positions = network.getPositions();
+      nodesIdsList.forEach(function(nodeId) {
+         network.nodesHandler.moveNode(nodeId, 
+            positions[nodeId].x + xStep, 
+            positions[nodeId].y + yStep);
+      });
+      if(moveSelectedDown == true ||
+         moveSelectedUp == true ||
+         moveSelectedLeft == true ||
+         moveSelectedRight == true ||
+         moveSelectedDownFast == true ||
+         moveSelectedUpFast == true ||
+         moveSelectedLeftFast == true ||
+         moveSelectedRightFast == true) {
+         sleep(100).then(() => { 
+            moveSelectedNodes(nodesIdsList, xStep, yStep);
+         });
+      }
+   }
+   $(document).keydown(function (event) {
+      //Move selected down. j
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (keyboardMoveSelectedEnabled == true && moveSelectedDown == false) {
+                moveSelectedDown = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; 
+                var nodesIdsList = network.selectionHandler.getSelectedNodes();
+                moveSelectedNodes(nodesIdsList, 0, height/150);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+          moveSelectedDown = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move selected left. h
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (keyboardMoveSelectedEnabled == true && moveSelectedLeft == false) {
+                moveSelectedLeft = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+                var nodesIdsList = network.selectionHandler.getSelectedNodes();
+                moveSelectedNodes(nodesIdsList, -width/150, 0);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+          moveSelectedLeft = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move selected up. k
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (keyboardMoveSelectedEnabled == true && moveSelectedUp == false) {
+                moveSelectedUp = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; 
+                var nodesIdsList = network.selectionHandler.getSelectedNodes();
+                moveSelectedNodes(nodesIdsList, 0, -height/150);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+          moveSelectedUp = false;
+      }
+   });
+
+   $(document).keydown(function (event) {
+      //Move selected right. l
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (keyboardMoveSelectedEnabled == true && moveSelectedRight == false) {
+                moveSelectedRight = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+                var nodesIdsList = network.selectionHandler.getSelectedNodes();
+                moveSelectedNodes(nodesIdsList, width/150, 0);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+          moveSelectedRight = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move selected down fast. shift+j
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (keyboardMoveSelectedEnabled == true && moveSelectedDownFast == false) {
+                moveSelectedDownFast = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; 
+                var nodesIdsList = network.selectionHandler.getSelectedNodes();
+                moveSelectedNodes(nodesIdsList, 0, height/30);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+          moveSelectedDownFast = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move selected left fast. shift+h
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (keyboardMoveSelectedEnabled == true && moveSelectedLeftFast == false) {
+                moveSelectedLeftFast = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+                var nodesIdsList = network.selectionHandler.getSelectedNodes();
+                moveSelectedNodes(nodesIdsList, -width/30, 0);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+          moveSelectedLeftFast = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move selected up fast. shift+k
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (keyboardMoveSelectedEnabled == true && moveSelectedUpFast == false) {
+                moveSelectedUpFast = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; 
+                var nodesIdsList = network.selectionHandler.getSelectedNodes();
+                moveSelectedNodes(nodesIdsList, 0, -height/30);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+          moveSelectedUpFast = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move selected right fast. shift+l
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (keyboardMoveSelectedEnabled == true && moveSelectedRightFast == false) {
+                moveSelectedRightFast = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+                var nodesIdsList = network.selectionHandler.getSelectedNodes();
+                moveSelectedNodes(nodesIdsList, width/30, 0);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+          moveSelectedRightFast = false;
+      }
+   });
+   $(document).keyup(function (event) {
+      //Click by cursor node. y
+      //TODO. Select edges.
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 89) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId != null) {
+             var cursorNode = network.body.nodes[cursorNodeId];
+             var positions = network.getPositions();
+             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);
+             var positionObject = network.selectionHandler._pointerToPositionObject(cursorPointer);
+             var overlappingItemsIds = network.selectionHandler._getAllNodesOverlappingWith(positionObject);
+             
+             network.selectionHandler.unselectAll();
+
+             overlappingItemsIds.forEach(function(itemId) {
+                var node = network.body.nodes[itemId];
+                if (typeof node !== "undefined" && node != null && itemId != cursorNodeId) {
+                   network.selectionHandler.selectObject(node);
+                }
+             }); 
+             lastClickPosition = cursorPointer;
+             network.selectionHandler._generateClickEvent('selectNode', event, cursorPointer);
+             network.selectionHandler.body.emitter.emit('_requestRedraw');
+         }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Add to selection by cursor node click. shift+y
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 89) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId != null) {
+             var cursorNode = network.body.nodes[cursorNodeId];
+             var positions = network.getPositions();
+             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);
+             var positionObject = network.selectionHandler._pointerToPositionObject(cursorPointer);
+             var overlappingItemsIds = network.selectionHandler._getAllNodesOverlappingWith(positionObject);
+             
+             overlappingItemsIds.forEach(function(itemId) {
+                var node = network.body.nodes[itemId];
+                if (typeof node !== "undefined" && node != null && itemId != cursorNodeId) {
+                   network.selectionHandler.selectObject(node);
+                }
+             }); 
+             lastClickPosition = cursorPointer;
+             network.selectionHandler.body.emitter.emit('_requestRedraw');
+         }
+      }
+   });
+   var nodeCursorDoubleKeyPressDelta = 300;
+   var nodeCursorDoubleKeyPressLastKeypressTime = 0;
+   $(document).keyup(function (event) {
+      //Make new node by double click with cursor node. yy
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 89) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId != null) {
+             var cursorNode = network.body.nodes[cursorNodeId];
+             var positions = network.getPositions();
+             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);
+
+             var thisKeypressTime = new Date();
+             if ( thisKeypressTime - nodeCursorDoubleKeyPressLastKeypressTime <= nodeCursorDoubleKeyPressDelta ) {
+                var nodeId = addNodeOnCanvas("", "", positions[cursorNodeId], 0, 0, network);
+                var node = network.body.nodes[nodeId];
+                network.selectionHandler.selectObject(node);
+                lastEditedNodesIds.push(nodeId);
+                network.manipulation.editNode();
+                thisKeypressTime = 0;
+             }
+             nodeCursorDoubleKeyPressLastKeypressTime = thisKeypressTime;
+
+             network.selectionHandler.body.emitter.emit('_requestRedraw');
+         }
+      }
+   });
+var moveCursorDown = false;
+var moveCursorUp = false;
+var moveCursorLeft = false;
+var moveCursorRight = false;
+
+var moveCursorDownFast = false;
+var moveCursorUpFast = false;
+var moveCursorLeftFast = false;
+var moveCursorRightFast = false;
+   function sleep(ms) {
+      return new Promise((resolve) => setTimeout(resolve, ms)); 
+   }
+   function moveCursor(cursorNodeId, event, xStep, yStep) {
+      var positions = network.getPositions();
+      if (network.body.nodes[cursorNodeId] !== undefined) {
+         var nodeD = getNodeFromNetworkDataById(cursorNodeId);
+         var pNode = positions[cursorNodeId];
+         nodeD.x = pNode.x + xStep;
+         nodeD.y = pNode.y + yStep;
+         network.body.data.nodes.update(nodeD);
+      }
+      sleep(70).then((resolve) => {
+         if (selectionRectangleDrag) {
+            positions = network.getPositions();
+            var cursorNode = network.body.nodes[cursorNodeId];
+            var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);
+
+            rect.w = cursorPointer.x - rect.startX;
+            rect.h = cursorPointer.y - rect.startY;
+
+            ctx.lineWidth = 1;
+            ctx.strokeStyle = "gray";
+            ctx.strokeRect(rect.startX, rect.startY, rect.w, rect.h);
+            ctx.setLineDash([]);
+            ctx.fillStyle = "rgba(255, 255, 255, 0)";
+            ctx.fillRect(rect.startX, rect.startY, rect.w, rect.h);
+         }
+         if(moveCursorDown == true ||
+            moveCursorUp == true ||
+            moveCursorLeft == true ||
+            moveCursorRight == true ||
+            moveCursorDownFast == true ||
+            moveCursorUpFast == true ||
+            moveCursorLeftFast == true ||
+            moveCursorRightFast == true) {
+               moveCursor(cursorNodeId, event, xStep, yStep);
+         }
+      });
+   }
+   $(document).keydown(function (event) {
+      //Move cursor down. j
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (cursorNodeId != null && 
+                 keyboardMoveSelectedEnabled == false &&
+                 moveCursorDown == false) {
+                moveCursorDown = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; 
+                moveCursor(cursorNodeId, event, 0, height/150);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      //Move cursor down 1/10. j
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+          moveCursorDown = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move cursor left. h
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (cursorNodeId != null && 
+                 keyboardMoveSelectedEnabled == false &&
+                 moveCursorLeft == false) {
+                moveCursorLeft = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+                moveCursor(cursorNodeId, event, -width/150, 0);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+          moveCursorLeft = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move cursor up. k
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (cursorNodeId != null && 
+                 keyboardMoveSelectedEnabled == false &&
+                 moveCursorUp == false) {
+                moveCursorUp = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; 
+                moveCursor(cursorNodeId, event, 0, -height/150);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+          moveCursorUp = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move cursor right. l
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (cursorNodeId != null && 
+                 keyboardMoveSelectedEnabled == false &&
+                 moveCursorRight == false) {
+                moveCursorRight = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+                moveCursor(cursorNodeId, event, width/150, 0);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+          moveCursorRight = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move cursor down fast. shift+j
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+             if (cursorNodeId != null && 
+                 keyboardMoveSelectedEnabled == false &&
+                 moveCursorDownFast == false) {
+                moveCursorDownFast = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; 
+                moveCursor(cursorNodeId, event, 0, height/30);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 74) {
+          moveCursorDownFast = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move cursor left fast. shift+h
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (cursorNodeId != null && 
+                 keyboardMoveSelectedEnabled == false &&
+                 moveCursorLeftFast == false) {
+                moveCursorLeftFast = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+                moveCursor(cursorNodeId, event, -width/30, 0);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 72) {
+          moveCursorLeftFast = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move cursor up fast. shift+k
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (cursorNodeId != null && 
+                 keyboardMoveSelectedEnabled == false &&
+                 moveCursorUpFast == false) {
+                moveCursorUpFast = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; 
+                moveCursor(cursorNodeId, event, 0, -height/30);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 75) {
+          moveCursorUpFast = false;
+      }
+   });
+   $(document).keydown(function (event) {
+      //Move cursor right fast. shift+l
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network") {
+
+             if (cursorNodeId != null && 
+                 keyboardMoveSelectedEnabled == false &&
+                 moveCursorRightFast == false) {
+                moveCursorRightFast = true;
+                var nodesPositions = network.getPositions();
+                var windowLeftTopPosition = network.canvas.DOMtoCanvas({
+                   x: 0, 
+                   y: 0});
+                var windowRightBottomPosition = network.canvas.DOMtoCanvas({
+                   x: network.canvas.frame.canvas.clientWidth, 
+                   y: network.canvas.frame.canvas.clientHeight});
+                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;
+                moveCursor(cursorNodeId, event, width/30, 0);
+             }
+          }
+      }
+   });
+   $(document).keyup(function (event) {
+      if (event.altKey == false && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 76) {
+          moveCursorRightFast = false;
+      }
+   });
+   $(document).keyup(function (event) {
+      //Show cursor on page. i
+      //Green dot color - #1EB117
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 73) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId == null) {
+             var viewPosition = network.getViewPosition();
+             var scale = network.getScale();
+             cursorNodeId = network.body.data.nodes.add({
+                label: " ",
+                x: viewPosition.x,
+                y: viewPosition.y,
+                font: {size: 5/scale},
+                color: {background:"black"},
+                shape: "circle"
+             })[0];
+             node = network.body.data.nodes.get(cursorNodeId);
+             network.body.data.nodes.update(node);
+         }
+      }
+   });
+   $("div#network").keydown(function (event) {
+      //Remove cursor node or disable moving selected nodes from keyboard. Esc
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          event.keyCode === 27) {
+         var selectedElement = $(document.activeElement);
+         if (selectedElement.prop("tagName") == "DIV" &&
+             selectedElement.prop("class") == "vis-network" &&
+             document.getElementById('schemeEditElementsMenu').style.display == "none") {
+
+             if (typeof network.selectionHandler.selectionObj.nodes.length === "undefined" &&
+                 typeof network.selectionHandler.selectionObj.edges.length === "undefined") {
+                if (cursorNodeId != null) {
+                   if (selectionRectangleDrag == true) {
+                      var positions = network.getPositions();
+                      selectionRectangleDrag = false;
+                      ctx.lineWidth = 0;
+                      ctx.strokeStyle = "white";
+                      ctx.setLineDash([]);
+                      ctx.fillStyle = "rgba(255, 255, 255, 0)";
+                      ctx.strokeRect(0, 0, 0, 0);
+                      ctx.fillRect(0, 0, 0, 0);
+                      var nodeD = getNodeFromNetworkDataById(cursorNodeId);
+                      var pNode = positions[cursorNodeId];
+                      nodeD.x = pNode.x;
+                      nodeD.y = pNode.y;
+                      network.body.data.nodes.update(nodeD);
+                   } else {
+                      network.body.data.nodes.remove(cursorNodeId);
+                      cursorNodeId = null;
+                   }
+                }
+                if (keyboardMoveSelectedEnabled == true) {
+                   keyboardMoveSelectedEnabled = false;
+                }
+             }
+         }
+      }
+   });
+   $(document).keyup(function (event) {
       //Connect nodes columns. alt+m
       if (event.altKey == true && 
           event.shiftKey == false && 
@@ -2818,7 +3774,9 @@ runNodeCodeButton.click(function() {
           event.keyCode === 74) {
          var selectedElement = $(document.activeElement);
          if (selectedElement.prop("tagName") == "DIV" &&
-             selectedElement.prop("class") == "vis-network") {
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId == null &&
+             keyboardMoveSelectedEnabled == false) {
             var viewPosition = network.getViewPosition();
             var windowLeftTopPosition = network.canvas.DOMtoCanvas({
                x: 0, 
@@ -2842,7 +3800,9 @@ runNodeCodeButton.click(function() {
           event.keyCode === 72) {
          var selectedElement = $(document.activeElement);
          if (selectedElement.prop("tagName") == "DIV" &&
-             selectedElement.prop("class") == "vis-network") {
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId == null &&
+             keyboardMoveSelectedEnabled == false) {
             var viewPosition = network.getViewPosition();
             var windowLeftTopPosition = network.canvas.DOMtoCanvas({
                x: 0, 
@@ -2866,7 +3826,9 @@ runNodeCodeButton.click(function() {
           event.keyCode === 75) {
          var selectedElement = $(document.activeElement);
          if (selectedElement.prop("tagName") == "DIV" &&
-             selectedElement.prop("class") == "vis-network") {
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId == null &&
+             keyboardMoveSelectedEnabled == false) {
             var viewPosition = network.getViewPosition();
             var windowLeftTopPosition = network.canvas.DOMtoCanvas({
                x: 0, 
@@ -2890,7 +3852,9 @@ runNodeCodeButton.click(function() {
           event.keyCode === 76) {
          var selectedElement = $(document.activeElement);
          if (selectedElement.prop("tagName") == "DIV" &&
-             selectedElement.prop("class") == "vis-network") {
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId == null &&
+             keyboardMoveSelectedEnabled == false) {
             var viewPosition = network.getViewPosition();
             var windowLeftTopPosition = network.canvas.DOMtoCanvas({
                x: 0, 
@@ -2914,7 +3878,9 @@ runNodeCodeButton.click(function() {
           event.keyCode === 74) {
          var selectedElement = $(document.activeElement);
          if (selectedElement.prop("tagName") == "DIV" &&
-             selectedElement.prop("class") == "vis-network") {
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId == null &&
+             keyboardMoveSelectedEnabled == false) {
             var viewPosition = network.getViewPosition();
             var windowLeftTopPosition = network.canvas.DOMtoCanvas({
                x: 0, 
@@ -2938,7 +3904,9 @@ runNodeCodeButton.click(function() {
           event.keyCode === 72) {
          var selectedElement = $(document.activeElement);
          if (selectedElement.prop("tagName") == "DIV" &&
-             selectedElement.prop("class") == "vis-network") {
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId == null &&
+             keyboardMoveSelectedEnabled == false) {
             var viewPosition = network.getViewPosition();
             var windowLeftTopPosition = network.canvas.DOMtoCanvas({
                x: 0, 
@@ -2962,7 +3930,9 @@ runNodeCodeButton.click(function() {
           event.keyCode === 75) {
          var selectedElement = $(document.activeElement);
          if (selectedElement.prop("tagName") == "DIV" &&
-             selectedElement.prop("class") == "vis-network") {
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId == null &&
+             keyboardMoveSelectedEnabled == false) {
             var viewPosition = network.getViewPosition();
             var windowLeftTopPosition = network.canvas.DOMtoCanvas({
                x: 0, 
@@ -2986,7 +3956,9 @@ runNodeCodeButton.click(function() {
           event.keyCode === 76) {
          var selectedElement = $(document.activeElement);
          if (selectedElement.prop("tagName") == "DIV" &&
-             selectedElement.prop("class") == "vis-network") {
+             selectedElement.prop("class") == "vis-network" &&
+             cursorNodeId == null &&
+             keyboardMoveSelectedEnabled == false) {
             var viewPosition = network.getViewPosition();
             var windowLeftTopPosition = network.canvas.DOMtoCanvas({
                x: 0, 
@@ -3443,6 +4415,13 @@ runNodeCodeButton.click(function() {
 
          var scale = network.getScale();
          var newScale = scale / 1.5;
+
+         if (cursorNodeId != null) {
+                node = network.body.data.nodes.get(cursorNodeId);
+                node.font.size = 5/newScale;
+                node = network.body.data.nodes.update(node);
+         }
+
          var position = network.getViewPosition();
          position = network.canvasToDOM(position);
          network.interactionHandler.zoom(newScale, position);
@@ -3455,8 +4434,16 @@ runNodeCodeButton.click(function() {
             network.body.data.nodes.remove(nodeId);
          });
          nodesDropDownMenuNodesIds = [];
+
          var scale = network.getScale();
          var newScale = scale * 1.5;
+
+         if (cursorNodeId != null) {
+                node = network.body.data.nodes.get(cursorNodeId);
+                node.font.size = 5/newScale;
+                node = network.body.data.nodes.update(node);
+         }
+
          var position = network.getViewPosition();
          position = network.canvasToDOM(position);
          network.interactionHandler.zoom(newScale, position);
@@ -3475,13 +4462,14 @@ runNodeCodeButton.click(function() {
 			$("#saveButton").click();
 		}
 	});
-	$("div#network-popUp").keydown(function (event) {
-		//Esc
-		if (event.keyCode === 27) {
-			$("input#cancelButton").click();
-			cancelNodeEdit = true;
-		}
-	});
+   $("div#network-popUp").keydown(function (event) {
+      //Cancel node edit. Esc  //ToFix
+      if (event.keyCode === 27) {
+         $("input#cancelButton").click();
+         cancelNodeEdit = true;
+         $("#network div.vis-network canvas").focus();
+      }
+   });
    $("div#schemeEditElementsMenu").keydown(function (event) {
       //saveElement. alt+Enter
       if (event.altKey && event.keyCode === 13) {
@@ -3505,6 +4493,7 @@ runNodeCodeButton.click(function() {
          network.selectionHandler.unselectAll();
          $("span#closeElementEditButton").click();
          network.editNode();
+         $("#network div.vis-network").focus();
       }
    });
    $("div#network").keydown(function (event) {

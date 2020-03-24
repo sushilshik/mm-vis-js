@@ -313,7 +313,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/mm-vis-js_code.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"mm-vis-js_code_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
+          "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response.lastIndexOf(\"ok - \", 0) !== 0 ) {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\ndata = encodeURIComponent(data);\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/mm-vis-js_code.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"mm-vis-js_code_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709",
           "x": 5752,
           "y": -13892,
@@ -1691,7 +1691,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "#ffd570"
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -1714,7 +1715,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "var saveData = {};\napp.get(\"/\", function(request, response){ //root dir\n    response.set('access-control-allow-origin', '*');\n    var path = request.query.path;\n    var dataPart = request.query.dataPart;\n    var dataPartNumber = request.query.dataPartNumber;\n    var projectName = request.query.projectName;\n    var saveTime = request.query.saveTime;\n    var lastDataPart = request.query.lastDataPart;\n    var dataChunksLength = parseInt(request.query.dataChunksLength, 10);\n    var buildProjectName = request.query.buildProjectName;\n    \n    //saveData[dataPartNumber] = JSON.parse(dataPart);\n \n    var answerLine = JSON.stringify(\"ok\");\n    //if (typeof dataPartNumber === \"undefined\") {\n    //\tconsole.log(request.query);\n    //}\n\n    var saveJobKey = projectName + \"_\" + saveTime;\n    if (typeof saveData[saveJobKey] === \"undefined\") {\n        saveData[saveJobKey] = {};\n    }\n\n    //process.stdout.write(dataPart);\n    saveData[saveJobKey][dataPartNumber] = dataPart;\n\n    console.log(dataPartNumber + \": \" + saveTime + \", \" + dataChunksLength + \", \" + Object.keys(saveData[saveJobKey]).length);",
+          "label": "var saveData = {};\napp.get(\"/\", function(request, response){ //root dir\n    response.set('access-control-allow-origin', '*');\n    var path = request.query.path;\n    var dataPart = request.query.dataPart;\n    var dataPartNumber = request.query.dataPartNumber;\n    var projectName = request.query.projectName;\n    var saveTime = request.query.saveTime;\n    var lastDataPart = request.query.lastDataPart;\n    var dataChunksLength = parseInt(request.query.dataChunksLength, 10);\n    var buildProjectName = request.query.buildProjectName;\n    \n    //saveData[dataPartNumber] = JSON.parse(dataPart);\n \n    var answerLine = JSON.stringify(\"ok - \" + String(dataChunksLength) + \" - \" + String(dataPartNumber));\n    //if (typeof dataPartNumber === \"undefined\") {\n    //\tconsole.log(request.query);\n    //}\n\n    var saveJobKey = projectName + \"_\" + saveTime;\n    if (typeof saveData[saveJobKey] === \"undefined\") {\n        saveData[saveJobKey] = {};\n    }\n\n    //process.stdout.write(dataPart);\n    saveData[saveJobKey][dataPartNumber] = dataPart;\n\n    console.log(dataPartNumber + \": \" + saveTime + \", \" + dataChunksLength + \", \" + Object.keys(saveData[saveJobKey]).length);",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602361",
           "x": 67500,
           "y": -4688,
@@ -1750,7 +1751,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "    if (Object.keys(saveData[saveJobKey]).length == dataChunksLength) {\n        answerLine = JSON.stringify(\"save\");\n\t//var saveData = Object.keys(saveData)\n\t//    .sort(function(a,b) { return +b - +a })\n\t//    .map(function(k) { return { key: k, value: saveData[k] };});\n        var orderedSaveData = {};\n        Object.keys(saveData[saveJobKey]).sort().forEach(function(key) {\n           orderedSaveData[key] = saveData[saveJobKey][key];\n           });\n\tvar data = \"\";\n        for (var key in orderedSaveData) {\n           data += orderedSaveData[key];\n        }\n        console.log(\"data.length: \" + data.length);\n        console.log(\"path: \" + path);\n        data = \"var schemeData =\\n\" + data + \"\\n;\";\n\tvar backupDirPath = rootBackupDirPath + projectName + \"/\";\n\tif (!fs.existsSync(backupDirPath)){\n\t\tfs.mkdirSync(backupDirPath);\n\t}\n\tvar date = new Date();\n\tfs.writeFileSync(backupDirPath + date + \"_\" + saveTime + \"_data.js\", data)\n\tfs.writeFileSync(path, data)\n\tsaveData[saveJobKey] = {};\n",
+          "label": "    if (Object.keys(saveData[saveJobKey]).length == dataChunksLength) {\n        answerLine = JSON.stringify(\"save\");\n\t//var saveData = Object.keys(saveData)\n\t//    .sort(function(a,b) { return +b - +a })\n\t//    .map(function(k) { return { key: k, value: saveData[k] };});\n        var orderedSaveData = {};\n        Object.keys(saveData[saveJobKey]).sort().forEach(function(key) {\n           orderedSaveData[key] = saveData[saveJobKey][key];\n           });\n\tvar data = \"\";\n        for (var key in orderedSaveData) {\n           data += orderedSaveData[key];\n        }\n        data = decodeURIComponent(data);\n        console.log(\"data.length: \" + data.length);\n        console.log(\"path: \" + path);\n        data = \"var schemeData =\\n\" + data + \"\\n;\";\n\tvar backupDirPath = rootBackupDirPath + projectName + \"/\";\n\tif (!fs.existsSync(backupDirPath)){\n\t\tfs.mkdirSync(backupDirPath);\n\t}\n\tvar date = new Date();\n\tfs.writeFileSync(backupDirPath + date + \"_\" + saveTime + \"_data.js\", data)\n\tfs.writeFileSync(path, data)\n\tsaveData[saveJobKey] = {};\n",
           "id": "e961bf3d-94d8-4e3d-af31-aaae8c05f462890602482361",
           "x": 67332,
           "y": -4267,
@@ -1954,7 +1955,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar drag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news2.html\",\n   \"youtube.html\",\n   \"base.html\"\n];\nvar lastSelectedNodeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
+          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar selectionRectangleDrag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news2.html\",\n   \"news3.html\",\n   \"youtube.html\",\n   \"base.html\",\n   \"start_page.html\",\n   \"tmp.html\",\n   \"tmp1.html\",\n   \"timelines.html\"\n];\nvar lastSelectedNodeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\nvar cursorNodeId = null;\nvar keyboardMoveSelectedEnabled = false;\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
           "x": 38920,
           "y": -7600,
           "id": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
@@ -2203,8 +2204,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function alignNodesLeft(nodes) {\n\tvar minLeft;\n        var nodesPositions = network.getPositions();\n\tnodes.forEach(function(node) {\n                var nodeD = getNodeFromNetworkDataById(node.id);\n\t\tvar pNode = nodesPositions[node.id];\n\t\tnodeD.x = pNode.x;\n\t\tnodeD.y = pNode.y;\n\t\tnetwork.body.data.nodes.update(nodeD);\n\t});\n\n\tfor (i = 0; i < nodes.length; i++) {\n\t\tif (i == 0) minLeft = nodes[i].shape.left;\n\t\tif (minLeft > nodes[i].shape.left) {\n\t\t\tminLeft = nodes[i].shape.left;\n\t\t};\n\t}\n\n\tfor (i = 0; i < nodes.length; i++) {\n\t\tvar leftDiff = nodes[i].shape.left - parseFloat(minLeft.toFixed(5));\n\t\tnetwork.body.nodes[nodes[i].id].x = nodes[i].x - leftDiff;\n\t}\n\n\tvar scale = network.getScale();\n        var viewPosition = network.getViewPosition();\n\tvar n1X = parseFloat(viewPosition.x.toFixed(5));\n\tvar n1Y = parseFloat(viewPosition.y.toFixed(5));\n\tvar positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n\tvar positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\n\tnetwork.moveTo({\n\t\tposition: {x: positionX, y: positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: scale,\n\t});\n\n\tnetwork1.moveTo({\n\t\tposition: {x: positionX, y: positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: scale,\n\t});\n}",
-          "x": 40920,
-          "y": -1788,
+          "x": 40969,
+          "y": 1145,
           "id": "0df46278-b6f2-44b4-a9ca-bd3f5d276a03486",
           "shape": "box",
           "link": "",
@@ -2234,8 +2235,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function draw() {\n\tdestroy();\n\t// create a network\n\tvar container = document.getElementById('network');\n\tvar container1 = document.getElementById('forImage');\n\n\t//Colors:\n\t//\"#ffc63b\"\n\t//\"#FFD570\"",
-          "x": 40947,
-          "y": 9794,
+          "x": 40974,
+          "y": 12790,
           "id": "200bf789-2d9a-4de6-8068-2c291572d19f486"
         },
         "ad67e6a8-2a73-4042-aa3a-23ab75241eee486": {
@@ -2265,8 +2266,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar options = {\n\t\theight: canvasHeightSetup + '%',\n\t\twidth: canvasWidthSetup + '%',\n\t\tlayout: {randomSeed:seed}, \n\t\tphysics: {enabled: false},\n\t\tedges: { \n\t\t\tsmooth: { \n\t\t\t\tenabled: false, \n\t\t\t\ttype: \"dynamic\", \n\t\t\t\troundness: 0.5 \n\t\t\t}, \n\t\t\tcolor: \"#404040\"\n\t\t},\n\t\tnodes: { \n\t\t\tshape: \"box\",\n\t\t\tcolor: {\n\t\t\t\tbackground: \"#ffd570\"\n\t\t\t},\n\t\t\tlabelHighlightBold: false,\n\t\t\tborderWidth: 0,\n                        font: {\n                           align: \"left\"\n                        }\n\t\t},\n\t\tautoResize: true,\n\t\tinteraction: {\n\t\t\tdragNodes: true,\n\t\t\tzoomView: true, \n\t\t\tdragView: true, \n\t\t\thover: false,\n\t\t\tmultiselect: true\n\t\t},\n\t\tmanipulation: {\n\t\t\taddNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tvar clickPosition = network.canvasToDOM({x: data.x, y: data.y});\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Add Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n\t\t\t\t//document.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('node-label').value = \"\";\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = clearPopUp.bind();\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n\t\t\t\tvar schemeDataMenuWidth = 0;\n\t\t\t\tif (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n\t\t\t\t\tschemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n\t\t\t\t} else {\n\t\t\t\t\tschemeDataMenuWidth = 0;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.x + 390) > (canvasWidth - schemeDataMenuWidth)) {\n\t\t\t\t\tclickPosition.x = clickPosition.x - 340;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.y + 240) > canvasHeight) {\n\t\t\t\t\tclickPosition.y = clickPosition.y - 260;\n\t\t\t\t}\n\t\t\t\tdocument.getElementById('network-popUp').style.top = (clickPosition.y + 20) + \"px\";\n\t\t\t\tdocument.getElementById('network-popUp').style.left = (clickPosition.x + 20) + \"px\";\n\t\t\t\t$(\"textarea#node-label\").focus();\n                                lastEditedNodesIds = [data.id];\n                                lastClickPosition = null;\n\t\t\t},\n\t\t\teditNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Edit Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n                                if (typeof data.label === \"undefined\") data.label = \"\";\n\t\t\t\tdocument.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = cancelEdit.bind(this,callback);\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n                                $(\"#node-label\").focus();\n\t\t\t},\n\t\t\taddEdge: function (data, callback) {\n\t\t\t\tif (data.from == data.to) {\n\t\t\t\t\tvar r = confirm(\"Do you want to connect the node to itself?\");\n\t\t\t\t\tif (r == true) {\n\t\t\t\t\t\tcallback(data);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tcallback(data);\n\t\t\t\t}\n\t\t\t},\n                        editEdge: {\n                           editWithoutDrag: function(data, callback) {\n                              document.getElementById('edge-operation').innerHTML = \"Edit Edge\";\n                              editEdgeWithoutDrag(data,callback);\n                                var schemeDataMenuWidth = 0;\n                                if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n                                        schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n                                } else {\n                                        schemeDataMenuWidth = 0;\n                                }\n                                var positionX = (canvasWidth - schemeDataMenuWidth)/2;\n                                var positionY = (canvasHeight)/2;\n                                document.getElementById('edge-popUp').style.top = (positionY - 30) + \"px\";\n                                document.getElementById('edge-popUp').style.left = (positionX - 125) + \"px\";\n                                $(\"input#edge-label\").focus();\n\n                           }\n                        },\n\t\t\tdeleteNode: function (data, callback) {\n\t\t\t\tcallback(data);\n\t\t\t}\n\t\t}\n\t};",
-          "x": 42040,
-          "y": 10753,
+          "x": 42067,
+          "y": 13749,
           "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486",
           "shape": "box",
           "link": "",
@@ -2296,8 +2297,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar options1 = {\n\t\theight: canvasHeightSetup + '%',\n\t\twidth: canvasWidthSetup + '%',\n\t\tlayout: {randomSeed:seed},\n\t\tphysics: {enabled: false},\n\t\tedges: { \n\t\t\tsmooth: { \n\t\t\t\tenabled: false, \n\t\t\t\ttype: \"dynamic\", \n\t\t\t\troundness: 0.5 \n\t\t\t}, \n\t\t\tcolor: \"#404040\"\n\t\t},\n\t\tnodes: { \n\t\t\tshape: \"box\",\n\t\t\tcolor: {\n\t\t\t\tbackground: \"#FFD570\"\n\t\t\t},\n\t\t\tlabelHighlightBold: false,\n\t\t\tborderWidth: 0\n\t\t},\n\t\tautoResize: true,\n\t\tinteraction: {\n\t\t\tdragNodes: true,\n\t\t\tzoomView: true, \n\t\t\tdragView: true  \n\t\t},\n\t\tmanipulation: {\n\t\t\tenabled: false\n\t\t}\n\t};",
-          "x": 41708,
-          "y": 12676,
+          "x": 41735,
+          "y": 15672,
           "id": "ea77a73e-cae7-4e8d-b3b4-c87f266b706f486"
         },
         "197518c9-c994-4b2d-8e91-28d12e81aab3486": {
@@ -2324,8 +2325,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork = new vis.Network(container, data, options);\n\tnetwork1 = new vis.Network(container1, data1, options1);\n\n\tnetwork.defaultOptions.labelHighlightBold = false;\n\tnetwork1.defaultOptions.labelHighlightBold = false;",
-          "x": 40851,
-          "y": 12859,
+          "x": 40878,
+          "y": 15855,
           "id": "197518c9-c994-4b2d-8e91-28d12e81aab3486"
         },
         "a7f72bfd-d43b-4f91-bb2d-e7e8bc8c2616486": {
@@ -2352,8 +2353,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t/*\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t\tnode = network.body.data.nodes.get(item.id);\n\t\t//node.labelHighlightBold = false;\n\t\tif (typeof node.color === \"undefined\") node.color = {};\n\t\tnode.color.background = \"#ffc63b\";\n\t\t//node.borderWidth = 0;\n\t\t//node.color = \"#404040\";\n\t\tnode = network.body.data.nodes.update(node);\n\t});\n\t*/",
-          "x": 41790,
-          "y": 12990,
+          "x": 41817,
+          "y": 15986,
           "id": "a7f72bfd-d43b-4f91-bb2d-e7e8bc8c2616486"
         },
         "08ad669e-9383-494e-acca-304d62d9b66d486": {
@@ -2380,8 +2381,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.leftAlignNodes = function () {\n\t\tnetwork.manipulation.leftAlignNodes = function() {\n\t\t\t//var selectedNodesCount = this.selectionHandler._getSelectedNodeCount();\n\t\t\tvar nodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\talignNodesLeft(nodes);\n\n\t\t};\n\n\n\t\treturn network.manipulation.leftAlignNodes.apply(network.manipulation, arguments);\n\t};",
-          "x": 41886,
-          "y": 13154,
+          "x": 41913,
+          "y": 16150,
           "id": "08ad669e-9383-494e-acca-304d62d9b66d486"
         },
         "a7e9dac8-0281-4db9-ab2c-0ab78f3d7871486": {
@@ -2408,8 +2409,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.createLeftAlignNodesButton = function () {\n\t\tnetwork.manipulation.createLeftAlignNodesButton = function() {\n\t\t\tvar leftAlignBtnClass;\n\n\t\t\tleftAlignBtnClass = 'vis-button vis-leftAlignBtn';\n\n\t\t\tvar button = this._createButton('leftAlignNodesButton', leftAlignBtnClass, \"leftAlignNodes\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.leftAlignNodes.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createLeftAlignNodesButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41929,
-          "y": 13346,
+          "x": 41956,
+          "y": 16342,
           "id": "a7e9dac8-0281-4db9-ab2c-0ab78f3d7871486"
         },
         "ce078f09-2392-4b82-a026-c8270861e701486": {
@@ -2436,8 +2437,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.createMakeJsonNodeFromSelectionButton = function () {\n\t\tnetwork.manipulation.createMakeJsonNodeFromSelectionButton = function() {\n\t\t\tvar makeJsonNodeFromSelectionNodesClass;\n\n\t\t\tmakeJsonNodeFromSelectionNodesClass = 'vis-button vis-makeJsonNodeFromSelectionNodesBtn';\n\n\t\t\tvar button = this._createButton('makeJsonNodeFromSelectionNodes', makeJsonNodeFromSelectionNodesClass, \"toJson\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.makeJsonNodeFromSelectionNodes.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createMakeJsonNodeFromSelectionButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 42012,
-          "y": 13566,
+          "x": 42039,
+          "y": 16562,
           "id": "ce078f09-2392-4b82-a026-c8270861e701486"
         },
         "a56558cd-3cd0-4987-8241-732e4fcf21de486": {
@@ -2467,8 +2468,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.makeJsonNodeFromSelectionNodes = function () {\n\t\tnetwork.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes = function() {\n\t\t\tvar selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\tvar selectedEdges = objectToArray(this.selectionHandler.selectionObj.edges);\n\t\t\tvar nodes = []\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tnodes.push(getNodeFromNetworkDataById(node.id));\n\t\t\t});\n\t\t\tvar edges = []\n\t\t\tselectedEdges.forEach(function(edge) {\n\t\t\t\tedges.push(network.body.data.edges.get(edge.id));\n\t\t\t});\n\t\t\t//console.log(nodes);\n\t\t\t//console.log(edges);\n\n\t\t\tvar data = {\n\t\t\t\tnodes: [],\n\t\t\t\tedges: []\n\t\t\t};\n\n\t\t\tvar positions1 = network.getPositions();\n\t\t\tnodes1ToCopy = {}; \n\t\t\tnodes.forEach(function(item) {\n\t\t\t\tnodes1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tobjectToArray(positions1).forEach(function(position) {\n\t\t\t\t\tif (node.id == position.id) {\n\t\t\t\t\t\tnode.x = position.x;\n\t\t\t\t\t\tnode.y = position.y;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t});\n\t\t\tdata.nodes = nodes1ToCopy;\n\n\t\t\tvar edges1ToCopy = {}; \n\t\t\tedges.forEach(function(item) {\n\t\t\t\tedges1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.edges = edges1ToCopy;\n                        var ids = [];\n                        objectToArray(data.nodes).forEach(function(node) {ids.push(node.id);});\n                        objectToArray(data.edges).forEach(function(edge) {ids.push(edge.id);});\n                        console.log(ids);\n\t\t\tvar label = JSON.stringify(data, undefined, 1);\n\t\t\t//var label = JSON.stringify(data);\n\t\t\tvar screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n\t\t\tnetwork.body.data.nodes.add([{\n\t\t\t\tlabel:label,\n\t\t\t\tx:screenCenterPosition.x,\n\t\t\t\ty:screenCenterPosition.y\n\t\t\t}]);\n\t\t};\n\t\treturn network.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes.apply(network.manipulation, arguments);\n\t};",
-          "x": 42014,
-          "y": 14261,
+          "x": 42041,
+          "y": 17257,
           "id": "a56558cd-3cd0-4987-8241-732e4fcf21de486",
           "shape": "box",
           "link": "",
@@ -2498,8 +2499,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.createMakeNodesFromJsonNodeButton = function () {\n\t\tnetwork.manipulation.createMakeNodesFromJsonNodeButton = function() {\n\t\t\tvar makeNodesFromJsonNodeClass;\n\n\t\t\tmakeNodesFromJsonNodeClass = 'vis-button vis-makeNodesFromJsonNodeBtn';\n\n\t\t\tvar button = this._createButton('makeNodesFromJsonNode', makeNodesFromJsonNodeClass, \"fromJson\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.makeNodesFromJsonNode.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createMakeNodesFromJsonNodeButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41961,
-          "y": 14975,
+          "x": 41988,
+          "y": 17934,
           "id": "219cf15e-e8b8-4100-87d3-25aca5f31803486"
         },
         "dd14b2ca-7613-4018-a0b5-86bbaa16d28e486": {
@@ -2529,8 +2530,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.makeNodesFromJsonNode = function () {\n\t\tnetwork.manipulation.makeNodesFromJsonNode = function() {\n\t\t\tvar selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\tvar jsonNode = getNodeFromNetworkDataById(selectedNodes[0].id);\n\t\t\tvar label = jsonNode.label;\n\t\t\tvar data = JSON.parse(label);\n\t\t\tvar date = new Date();\n\t\t\tvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\t\t\tobjectToArray(data.nodes).forEach(function(node) {\n\t\t\t\tnode.id = node.id + idPostfix;\n\t\t\t\tnodesToPaste.push(node);\n\t\t\t\t//var newNode = network.nodesHandler.create(node);\n\t\t\t\t//network.body.data.nodes.add(newNode.options);\n\t\t\t});\n\t\t\tvar screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\tnetwork.selectionHandler.updateSelection();\n\t\t\tobjectToArray(data.edges).forEach(function(edge) {\n\t\t\t\tedge.id = edge.id + idPostfix;\t\n\t\t\t\tedge.from = edge.from + idPostfix;\n\t\t\t\tedge.to = edge.to + idPostfix;\n\t\t\t\tedgesToPaste.push(edge);\n\t\t\t\t//var newEdge = network.edgesHandler.create(edge);\n\t\t\t\t//network.body.data.edges.add(newEdge.options);\n\t\t\t});\n\t\t};\n\t\treturn network.manipulation.makeNodesFromJsonNode.apply(network.manipulation, arguments);\n\t};",
-          "x": 41921,
-          "y": 15286,
+          "x": 41948,
+          "y": 18282,
           "id": "dd14b2ca-7613-4018-a0b5-86bbaa16d28e486",
           "shape": "box",
           "link": "",
@@ -2560,8 +2561,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.createAddThemeGraphButton = function () {\n\t\tnetwork.manipulation.createAddThemeGraphButton = function() {\n\t\t\tvar addThemeGraphClass;\n\n\t\t\taddThemeGraphClass = 'vis-button vis-addThemeGraphBtn';\n\n\t\t\tvar button = this._createButton('addThemeGraph', addThemeGraphClass, \"addThemeGraph\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.addThemeGraph.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createAddThemeGraphButton.apply(network.manipulation, arguments);\n\t};",
-          "x": 41932,
-          "y": 15611,
+          "x": 41959,
+          "y": 18607,
           "id": "bec6836e-e13a-4860-a0da-ed2d40f39f18486"
         },
         "9e734091-2228-441b-9647-49c5df5e4dce486": {
@@ -2591,8 +2592,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.addThemeGraph = function () {\n\t\tnetwork.manipulation.addThemeGraph = function() {\n\t\t\tthemeGraph = true;\n\t\t};\n\t\treturn network.manipulation.addThemeGraph.apply(network.manipulation, arguments);\n\t};\n\n  /**\n   * connect two nodes with a new edge.\n   *\n   * @param {Node.id} sourceNodeId\n   * @param {Node.id} targetNodeId\n   * @private\n   */\n  network.manipulation._performEditEdge = function(sourceNodeId, targetNodeId) {\n    let defaultData = {id: network.manipulation.edgeBeingEditedId, from: sourceNodeId, to: targetNodeId, label: network.body.data.edges.get(network.manipulation.edgeBeingEditedId).label };\n    let eeFunct = network.manipulation.options.editEdge;\n    if (typeof eeFunct === 'object') {\n      eeFunct = eeFunct.editWithoutDrag;\n    }\n    if (typeof eeFunct === 'function') {\n      if (eeFunct.length === 2) {\n        eeFunct(defaultData, (finalizedData) => {\n          if (finalizedData === null || finalizedData === undefined || network.manipulation.inMode !== 'editEdge') { // if for whatever reason the mode has changes (due to dataset change) disregard the callback) {\n            network.manipulation.body.edges[defaultData.id].updateEdgeType();\n            network.manipulation.body.emitter.emit('_redraw');\n            network.manipulation.showManipulatorToolbar();\n          } else {\n            var tmpNodeVar;\n            if (finalizedData.label == \"\") {\n               tmpNodeVar = true;\n               finalizedData.label = \" \";\n            }\n            network.manipulation.body.data.edges.getDataSet().update(finalizedData);\n            if (tmpNodeVar) finalizedData.label = \"\";\n            network.manipulation.body.data.edges.getDataSet().update(finalizedData);\n            network.manipulation.selectionHandler.unselectAll();\n            network.manipulation.showManipulatorToolbar();\n          }\n        });\n      } else {\n        throw new Error('The function for edit does not support two arguments (data, callback)');\n      }\n    } else {\n      network.manipulation.body.data.edges.getDataSet().update(defaultData);\n      network.manipulation.selectionHandler.unselectAll();\n      network.manipulation.showManipulatorToolbar();\n    }\n    network.edgesHandler.reconnectEdges();\n  }\n",
-          "x": 41017,
-          "y": 16376,
+          "x": 41044,
+          "y": 19372,
           "id": "9e734091-2228-441b-9647-49c5df5e4dce486",
           "shape": "box",
           "link": "",
@@ -2622,8 +2623,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.showManipulatorToolbar = function () {\n\t\tthis.manipulation.showManipulatorToolbar = function () {\n\t\t\t// restore the state of any bound functions or events, remove control nodes, restore physics\n\t\t\tthis._clean(); // reset global variables\n\n\t\t\tthis.manipulationDOM = {}; // if the gui is enabled, draw all elements.\n\n\t\t\tif (this.guiEnabled === true) {\n\t\t\t\t// a _restore will hide these menus\n\t\t\t\tthis.editMode = true;\n\t\t\t\tthis.manipulationDiv.style.display = 'block';\n\t\t\t\tthis.closeDiv.style.display = 'block';\n\n\t\t\t\tvar selectedNodeCount = this.selectionHandler._getSelectedNodeCount();\n\n\t\t\t\tvar selectedEdgeCount = this.selectionHandler._getSelectedEdgeCount();\n\n\t\t\t\tvar selectedTotalCount = selectedNodeCount + selectedEdgeCount;\n\t\t\t\tvar locale = this.options.locales[this.options.locale];\n\t\t\t\tvar needSeperator = false;\n\n\t\t\t\tif (this.options.addNode !== false) {\n\t\t\t\t\tthis._createAddNodeButton(locale);\n\t\t\t\t}\n\n\t\t\t\tif (this.options.addEdge !== false) {\n\t\t\t\t\tthis._createAddEdgeButton(locale);\n\t\t\t\t}\n\n\t\t\t\tif (selectedNodeCount === 1 && typeof this.options.editNode === 'function') {\n\t\t\t\t\tthis._createEditNodeButton(locale);\n\t\t\t\t} else if (selectedEdgeCount === 1 && selectedNodeCount === 0 && this.options.editEdge !== false) {\n\t\t\t\t\tthis._createEditEdgeButton(locale);\n\t\t\t\t} // remove buttons\n\n\n\t\t\t\tif (selectedTotalCount !== 0) {\n\t\t\t\t\tif (selectedNodeCount > 0 && this.options.deleteNode !== false) {\n\t\t\t\t\t\tthis._createDeleteButton(locale);\n\t\t\t\t\t} else if (selectedNodeCount === 0 && this.options.deleteEdge !== false) {\n\t\t\t\t\t\tthis._createDeleteButton(locale);\n\t\t\t\t\t}\n\t\t\t\t} // bind the close button\n\t\t\t\t\n\t\t\t\tif (selectedNodeCount > 0) {\n\t\t\t\t\tnetwork.createLeftAlignNodesButton();\n\t\t\t\t\tnetwork.createMakeJsonNodeFromSelectionButton();\n\t\t\t\t}\n\t\t\t\tif (selectedNodeCount == 1) {\n\t\t\t\t\tnetwork.createMakeNodesFromJsonNodeButton();\n\t\t\t\t}\n\t\t\t\tif (selectedNodeCount == 0) {\n\t\t\t\t\tnetwork.createAddThemeGraphButton();\n\t\t\t\t}\n\n\t\t\t\tthis._bindHammerToDiv(this.closeDiv, this.toggleEditMode.bind(this)); // refresh this bar based on what has been selected\n\n\n\t\t\t\tthis._temporaryBindEvent('select', this.showManipulatorToolbar.bind(this));\n\t\t\t} // redraw to show any possible changes\n\n\n\t\t\tthis.body.emitter.emit('_redraw');\n\t\t}\n\t\treturn this.manipulation.showManipulatorToolbar.apply(this.manipulation, arguments);\n\t};",
-          "x": 42090,
-          "y": 17301,
+          "x": 42117,
+          "y": 20297,
           "id": "9cd8ff75-f730-40b0-97b1-4ab6544491c7486"
         },
         "d5fe0aa0-3f26-4c0c-9b08-fc116f68b15d486": {
@@ -2650,8 +2651,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.showManipulatorToolbar();\n\n\tcanvas = network.canvas.frame.canvas;\n\tctx = canvas.getContext('2d');\n\n\tvar setup = schemeData.setup;\n\tvar positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));\n\tvar positionY = parseFloat((setup.viewPosition.y - canvasHeight/(2*setup.scale)).toFixed(5));\n",
-          "x": 41002,
-          "y": 18039,
+          "x": 41029,
+          "y": 21035,
           "id": "d5fe0aa0-3f26-4c0c-9b08-fc116f68b15d486"
         },
         "b344086f-96f1-45b9-be1f-a0cebf63b275486": {
@@ -2678,8 +2679,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\n\tnetwork1.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});",
-          "x": 41798,
-          "y": 18252,
+          "x": 41825,
+          "y": 21248,
           "id": "b344086f-96f1-45b9-be1f-a0cebf63b275486"
         },
         "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486": {
@@ -2706,8 +2707,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on('click', function(e) {\n\t\t onClick(e)\n\t});\n\n\tnetwork.on('doubleClick', function(e) {\n\t\tonDoubleClick(e)\n\t});",
-          "x": 40829,
-          "y": 18439,
+          "x": 40856,
+          "y": 21435,
           "id": "a41fc1b3-4151-4e5f-9f32-d6656cfe23ec486"
         },
         "165bd511-eaf1-40c4-963f-3d4312ea50fc486": {
@@ -2734,8 +2735,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction onClick(e) {\n\t  setTimeout(function () {\n\t    if (doubleClick == false) {\n\t      doOnClick(e);\n\t    }\n\t    else {doubleClick = false;}\n\t},doubleClickTimeThreshold);\n\t}",
-          "x": 41742,
-          "y": 18614,
+          "x": 41769,
+          "y": 21610,
           "id": "165bd511-eaf1-40c4-963f-3d4312ea50fc486"
         },
         "e6b2c612-3d90-4b4d-a42e-cf3a14b07f55486": {
@@ -2762,8 +2763,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction doOnClick(e) {\n\t\tif (nodesToPaste.length > 0) {\n\t\t\t//console.log(e.event.srcEvent);\n\t\t\tvar position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})\n\t\t\tvar topLeftNodeX = nodesToPaste[0].x;\n\t\t\tvar topLeftNodeY = nodesToPaste[0].y;\n\t\t\tnodesToPaste.forEach(function(node) {\n\t\t\t\tif (node.x < topLeftNodeX && node.y < topLeftNodeY) {\n\t\t\t\t\ttopLeftNodeX = node.x;\n\t\t\t\t\ttopLeftNodeY = node.y;\n\t\t\t\t}\n\t\t\t});\n\t\t\tnodesToPaste.forEach(function(node) {\n\t\t\t\tvar shiftX = - topLeftNodeX + parseFloat((position.x).toFixed(5));\n\t\t\t\tvar shiftY = - topLeftNodeY + parseFloat((position.y).toFixed(5));\n\t\t\t\tnode.x = node.x + shiftX;\n\t\t\t\tnode.y = node.y + shiftY;\n\t\t\t\tvar newNode = network.nodesHandler.create(node);\n\t\t\t\tnetwork.body.data.nodes.add(newNode.options);\n\t\t\t});\n\t\t\tedgesToPaste.forEach(function(edge) {\n\t\t\t\tvar newEdge = network.edgesHandler.create(edge);\n\t\t\t\tnetwork.body.data.edges.add(newEdge.options);\n\t\t\t});\n\t\t\tnodesToPaste = [];\n\t\t\tedgesToPaste = [];\n\t\t}",
-          "x": 41936,
-          "y": 18898,
+          "x": 41963,
+          "y": 21894,
           "id": "e6b2c612-3d90-4b4d-a42e-cf3a14b07f55486"
         },
         "a0b6e8f4-c46c-4faf-9e58-60c14cd2d4b1486": {
@@ -2793,8 +2794,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "      if (themeGraph) {\n         var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y});\n         buildThemeGraph(\"New Theme Name\", position.x, position.y);\n         themeGraph = false;\n      }\n   }",
-          "x": 41950,
-          "y": 19163,
+          "x": 41977,
+          "y": 22159,
           "id": "a0b6e8f4-c46c-4faf-9e58-60c14cd2d4b1486",
           "shape": "box",
           "link": "",
@@ -2824,8 +2825,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction onDoubleClick(e) {\n\t\tif (e.event.srcEvent.ctrlKey) {\n\t\t\tnetwork.addEdgeMode();\n\t\t} else {\n\t\t\tnetwork.addNodeMode();\n\t\t}\n\t}",
-          "x": 41743,
-          "y": 19286,
+          "x": 41770,
+          "y": 22282,
           "id": "af60ed74-46e4-4099-9adc-5ecc9d9aef01486"
         },
         "b1e665eb-079b-4a16-8fb4-2054b5c70fc2486": {
@@ -2852,14 +2853,16 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//ctrl+Enter\n\t\tif (event.ctrlKey && event.keyCode === 13) {\n\t\t\t$(\"#saveButton\").click();\n\t\t}\n\t});",
-          "x": 41536,
-          "y": 58657,
+          "x": 41828,
+          "y": 87388,
           "id": "b1e665eb-079b-4a16-8fb4-2054b5c70fc2486"
         },
         "6d7af570-fdce-465e-a2f1-60445c56afa4486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -2867,7 +2870,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -2879,10 +2883,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\t$(\"input#cancelButton\").click();\n\t\t\tcancelNodeEdit = true;\n\t\t}\n\t});",
-          "x": 41536,
-          "y": 58794,
-          "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486"
+          "label": "   $(\"div#network-popUp\").keydown(function (event) {\n      //Cancel node edit. Esc  //ToFix\n      if (event.keyCode === 27) {\n         $(\"input#cancelButton\").click();\n         cancelNodeEdit = true;\n         $(\"#network div.vis-network canvas\").focus();\n      }\n   });",
+          "x": 41827,
+          "y": 87526,
+          "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "02dc1f64-b3e0-4714-afd3-a46325785228486": {
           "color": {
@@ -2911,8 +2918,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(document).keydown(function (event) {\n\t\t//Esc\n\t\tif (event.keyCode === 27) {\n\t\t\tif (document.getElementById('network-popUp').style.display == \"none\" && cancelNodeEdit == false) {\n\t\t\t\tnetwork.disableEditMode();\n\t\t\t\tnetwork.editNode();\n\t\t\t} else {\n\t\t\t\tcancelNodeEdit = false;\n\t\t\t}\n\t\t}\n\t});",
-          "x": 41696,
-          "y": 59626,
+          "x": 41988,
+          "y": 88357,
           "id": "02dc1f64-b3e0-4714-afd3-a46325785228486",
           "shape": "box",
           "link": "",
@@ -2945,8 +2952,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(document).keydown(function (event) {\n\t\t//Connect nodes. ctrl+alt+c.\n\t\tif (event.ctrlKey == true && \n                    event.altKey == true &&\n                    event.shiftKey == false &&\n                    event.keyCode === 67) {\n                        var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();\n\t\t\tif (selectedNodesCount < 2) return;\n                        var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar rootNodeId;\n                        var minLeft;\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (i == 0) {\n\t\t\t\t\tminLeft = nodes[0].x;\n\t\t\t\t\trootNodeId = nodes[0].id;\n\t\t\t\t}\n                                if (minLeft > nodes[i].x) {\n                                        minLeft = nodes[i].x;\n\t\t\t\t\trootNodeId = nodes[i].id;\n                                };\n                        }\n                        for (i = 0; i < selectedNodesCount; i++) {\n\t\t\t\tif (nodes[i].id != rootNodeId) {\n\t\t\t\t\tvar edgeData = {from: rootNodeId, to: nodes[i].id};\n\t\t\t\t\tnetwork.body.data.edges.getDataSet().add(edgeData);\n\t\t\t\t}\n                        }\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t}\n\t});",
-          "x": 41672,
-          "y": 59998,
+          "x": 41964,
+          "y": 88729,
           "id": "306b8d2b-e500-4e08-bb72-131a63a59872486",
           "shape": "box",
           "link": "",
@@ -2955,7 +2962,9 @@ var schemeData =
         "603509b0-5c5b-491e-9e05-8b464a9a6ce8486": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -2963,7 +2972,8 @@ var schemeData =
             "boldital": {},
             "ital": {},
             "mono": {},
-            "align": "left"
+            "align": "left",
+            "size": 14
           },
           "icon": {},
           "imagePadding": {},
@@ -2975,10 +2985,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "\tcontainerJQ.on(\"mousemove\", function(e) {\n\t\tif (drag) { \n\t\t\trestoreDrawingSurface();\n\t\t\trect.w = (e.pageX - this.offsetLeft) - rect.startX;\n\t\t\trect.h = (e.pageY - this.offsetTop) - rect.startY ;\n\n\t\t\t//ctx.setLineDash([5]);\n\t\t\tctx.lineWidth = 1;\n\t\t\tctx.strokeStyle = \"gray\";\n\t\t\tctx.strokeRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t\tctx.setLineDash([]);\n\t\t\tctx.fillStyle = \"rgba(255, 255, 255, 0)\";\n\t\t\tctx.fillRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t}\n\t});",
-          "x": 40736,
-          "y": 19642,
-          "id": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486"
+          "label": "\tcontainerJQ.on(\"mousemove\", function(e) {\n\t\tif (selectionRectangleDrag) { \n\t\t\trestoreDrawingSurface();\n\t\t\trect.w = (e.pageX - this.offsetLeft) - rect.startX;\n\t\t\trect.h = (e.pageY - this.offsetTop) - rect.startY ;\n\n\t\t\t//ctx.setLineDash([5]);\n\t\t\tctx.lineWidth = 1;\n\t\t\tctx.strokeStyle = \"gray\";\n\t\t\tctx.strokeRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t\tctx.setLineDash([]);\n\t\t\tctx.fillStyle = \"rgba(255, 255, 255, 0)\";\n\t\t\tctx.fillRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t}\n\t});",
+          "x": 40763,
+          "y": 22638,
+          "id": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "3552edb9-2544-4402-8945-e803a851781f486": {
           "color": {
@@ -3006,9 +3019,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "   containerJQ.on(\"mousedown\", function(e) {\n      lastClickPosition = {x: e.pageX, y: e.pageY};\n      runNodeMenuItems(e);\n      nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n         network.body.data.nodes.remove(nodeId);\n      });     \n      nodesDropDownMenuNodesIds = [];    \n      if (e.button == 2) { \n         selectedNodes = e.ctrlKey ? network.getSelectedNodes() : null;\n         saveDrawingSurface();\n         var that = this;\n         rect.startX = e.pageX - this.offsetLeft;\n         rect.startY = e.pageY - this.offsetTop;\n         drag = true;\n         containerJQ[0].style.cursor = \"crosshair\";\n      }\n   }); ",
-          "x": 41656,
-          "y": 20314,
+          "label": "   containerJQ.on(\"mousedown\", function(e) {\n      lastClickPosition = {x: e.pageX, y: e.pageY};\n      runNodeMenuItems(e);\n      nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n         network.body.data.nodes.remove(nodeId);\n      });     \n      nodesDropDownMenuNodesIds = [];    \n      if (e.button == 2) { \n         selectedNodes = e.ctrlKey ? network.getSelectedNodes() : null;\n         saveDrawingSurface();\n         var that = this;\n         rect.startX = e.pageX - this.offsetLeft;\n         rect.startY = e.pageY - this.offsetTop;\n         selectionRectangleDrag = true;\n         containerJQ[0].style.cursor = \"crosshair\";\n      }\n   }); ",
+          "x": 41697,
+          "y": 23607,
           "id": "3552edb9-2544-4402-8945-e803a851781f486",
           "shape": "box",
           "link": "",
@@ -3040,9 +3053,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "   containerJQ.on(\"mouseup\", function(e) {\n      if (e.button == 2) { \n         restoreDrawingSurface();\n         drag = false;\n      \n         containerJQ[0].style.cursor = \"default\";\n      \n         if (rect.startX == (e.pageX - this.offsetLeft) &&\n            rect.startY == (e.pageY - this.offsetTop)) {\n            var pointer = {x: e.pageX, y: e.pageY};\n            var clickedNode = network.selectionHandler.getNodeAt(pointer);\n            var clickedNodeIsMenu = getNodeFromNetworkDataById(clickedNode.id).menuNode;\n            var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n            if (typeof clickedNode !== \"undefined\" &&\n                (typeof clickedNodeIsMenu === \"undefined\") &&\n                selectedNodes.length <= 1) {\n               var menuLines = makeNodeDropDownMenuLines(clickedNode.id);\n               if (menuLines.length == 0) return;\n               var menuLabel = menuLines.join(\"\\n\");\n               var scale = network.getScale();\n               var nodeId = network.body.data.nodes.add([{\n                  label: menuLabel,\n                  font: {size: 14/scale},\n                  x: clickedNode.x + clickedNode.shape.width/2,\n                  y: clickedNode.y + clickedNode.shape.height/2,\n                  menuNode: true,\n                  menuRootNodeId: clickedNode.id\n               }]);\n               var node = network.body.nodes[nodeId];\n               if (typeof node !== \"undefined\" && node !== null) {\n                  network.nodesHandler.moveNode(\n                     node.id, \n                     node.x + node.shape.width/2, \n                     node.y + node.shape.height/2);\n               }\n               nodesDropDownMenuNodesIds.push(node.id);\n               return;\n            }\n         }\n      \n         selectNodesFromHighlight();\n         network.showManipulatorToolbar();\n      }\n   });",
-          "x": 41747,
-          "y": 21456,
+          "label": "   containerJQ.on(\"mouseup\", function(e) {\n      if (e.button == 2) { \n         restoreDrawingSurface();\n         selectionRectangleDrag = false;\n      \n         containerJQ[0].style.cursor = \"default\";\n      \n         if (rect.startX == (e.pageX - this.offsetLeft) &&\n            rect.startY == (e.pageY - this.offsetTop)) {\n            var pointer = {x: e.pageX, y: e.pageY};\n            var clickedNode = network.selectionHandler.getNodeAt(pointer);\n            var clickedNodeIsMenu = getNodeFromNetworkDataById(clickedNode.id).menuNode;\n            var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n            if (typeof clickedNode !== \"undefined\" &&\n                (typeof clickedNodeIsMenu === \"undefined\") &&\n                selectedNodes.length <= 1) {\n               var menuLines = makeNodeDropDownMenuLines(clickedNode.id);\n               if (menuLines.length == 0) return;\n               var menuLabel = menuLines.join(\"\\n\");\n               var scale = network.getScale();\n               var nodeId = network.body.data.nodes.add([{\n                  label: menuLabel,\n                  font: {size: 14/scale},\n                  x: clickedNode.x + clickedNode.shape.width/2,\n                  y: clickedNode.y + clickedNode.shape.height/2,\n                  menuNode: true,\n                  menuRootNodeId: clickedNode.id\n               }]);\n               var node = network.body.nodes[nodeId];\n               if (typeof node !== \"undefined\" && node !== null) {\n                  network.nodesHandler.moveNode(\n                     node.id, \n                     node.x + node.shape.width/2, \n                     node.y + node.shape.height/2);\n               }\n               nodesDropDownMenuNodesIds.push(node.id);\n               return;\n            }\n         }\n      \n         selectNodesFromHighlight();\n         network.showManipulatorToolbar();\n      }\n   });",
+          "x": 41788,
+          "y": 24749,
           "id": "7eff0af2-6a42-4ca5-b505-4592543db41b486",
           "shape": "box",
           "link": "",
@@ -3075,8 +3088,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on('selectNode', function (properties) {\n\t\tschemeEditElementsMenu.show();\n\t\tvar nodeIdInput = $(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = $(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = $(\"input#nodeXInput\");\n\t\tvar nodeYInput = $(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = $(\"input#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = $(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = $(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = $(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = $(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = $(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = $(\"input#nodeBorderColorInput\");\n\n                var nodeD = getNodeFromNetworkDataById(properties.nodes[0]);\n                lastSelectedNodeId = nodeD.id;\n\n\t\tnodeIdInput.val(nodeD.id);\n\t\tnodeLabelTextarea.val(nodeD.label);\n\t\tpNode = network.getPositions()[nodeD.id];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tif (typeof nodeD.shape !== \"undefined\" && nodeD.shape.length > 0) {\n\t\t\tnodeShapeInput.val(nodeD.shape);\n\t\t} else {\n\t\t\tnodeShapeInput.val(\"box\");\n\t\t}\n\t\tif (typeof nodeD.link !== \"undefined\" && nodeD.link.length > 0) {\n\t\t\tnodeLinkTextarea.val(nodeD.link);\n\t\t} else {\n\t\t\tnodeLinkTextarea.val(\"\");\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.size !== \"undefined\") {\n\t\t\tnodeFontSizeInput.val(nodeD.font.size);\n\t\t} else {\n\t\t\tnodeFontSizeInput.val(14);\n\t\t\tnodeD.font = {size: 14};\n\t\t}\n\t\tif (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.align !== \"undefined\") {\n\t\t\tnodeFontAlignInput.val(nodeD.font.align);\n\t\t} else {\n\t\t\tnodeFontAlignInput.val(\"left\");\n\t\t\tnodeD.font = {align: \"left\"};\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && typeof nodeD.color.background !== \"undefined\") {\n\t\t\tnodeColorInput.val(nodeD.color.background);\n\t\t} else {\n\t\t\tnodeD.color = {background: \"\", border: \"\"};\n\t\t}\n\t\tif (typeof nodeD.borderWidth !== \"undefined\" && nodeD.borderWidth.length > 0) {\n\t\t\tnodeBorderWidthInput.val(nodeD.borderWidth);\n\t\t}\n\t\tif (typeof nodeD.color !== \"undefined\" && nodeD.color.length > 0) {\n\t\t\tnodeBorderColorInput.val(nodeD.color.border);\n\t\t}\n\t\tif (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + \".*\")) >= 0) {\n\t\t\tloadSavedProjectToMenuButton.show();\n\t\t\tloadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;\n\t\t\tdeleteSavedProjectButton.show();\n\t\t\tdeleteSavedProjectButton.saveProjectLabel = nodeD.label;\n\t\t} else {\n\t\t\tloadSavedProjectToMenuButton.hide();\n\t\t\tdeleteSavedProjectButton.hide();\n\t\t}\n\t});",
-          "x": 41746,
-          "y": 22642,
+          "x": 41773,
+          "y": 25638,
           "id": "04168eaf-52bc-40eb-8063-3a083d7f46f8486",
           "shape": "box",
           "link": "",
@@ -3106,8 +3119,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on('resize', function(properties) {\n\t\tcanvasWidth = properties.width;\n\t\tcanvasHeight = properties.height;\n\t});",
-          "x": 41586,
-          "y": 23309,
+          "x": 41613,
+          "y": 26305,
           "id": "d9ba8cd8-7835-42b5-96d7-5fcedd329225486"
         },
         "32c6bae5-5fe6-448c-b389-db4f0ee1e281486": {
@@ -3134,8 +3147,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on('deselectNode', function (properties) {\n\t\tschemeEditElementsMenu.hide();\n\t\t$(\".vis-separator-line\").remove();\n\t\t$(\".vis-close\").remove();\n\t});",
-          "x": 41612,
-          "y": 23591,
+          "x": 41639,
+          "y": 26587,
           "id": "32c6bae5-5fe6-448c-b389-db4f0ee1e281486"
         },
         "0a4aaf03-c68b-46ef-a61e-bc142f791d28486": {
@@ -3162,8 +3175,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on('deselectEdge', function (properties) {\n\t\t$(\".vis-separator-line\").remove();\n\t\t$(\".vis-close\").remove();\n\t});\n\tnetwork.on(\"hoverNode\", function(params) {\n\t});\n\n\tnetwork.on(\"blurNode\", function(params) {\n\t});",
-          "x": 41612,
-          "y": 23453,
+          "x": 41639,
+          "y": 26449,
           "id": "0a4aaf03-c68b-46ef-a61e-bc142f791d28486"
         },
         "8d17375a-60ee-42e3-b536-55ea40a1d0e1486": {
@@ -3190,8 +3203,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar lastPositionX = \"a\";\n\tvar startN1X = null;\n\tvar startN1Y = null;\n\tvar startN2X = null;\n\tvar startN2Y = null;\n\tnetwork.on(\"release\", function(event) {\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\t//От окончательного положения драга отнимаем начальное положение\n\t\tvar diffN1X = parseFloat((n1X-startN1X).toFixed(5));\n\t\tvar diffN1Y = parseFloat((n1Y-startN1Y).toFixed(5));\n\t\t//Прибавляем к начальному положению нижней network дифф из предыдущег подсчета.\n\t\t//Чтобы сдвинуть нижний network на тот же шаг\n\t\tvar lastN2X = parseFloat((startN2X+diffN1X).toFixed(5));\n\t\tvar lastN2Y = parseFloat((startN2Y+diffN1Y).toFixed(5));\n\t\tvar network1Scale = network1.getScale();\n\t\tvar positionX = parseFloat((lastN2X - canvasWidth/(2*network1Scale)).toFixed(5));\n\t\tvar positionY = parseFloat((lastN2Y - canvasHeight/(2*network1Scale)).toFixed(5));\n\t\tnetwork1.moveTo({\n\t\t\tposition: {x:positionX, y:positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: network1Scale,\n\t\t});\n\t});",
-          "x": 40883,
-          "y": 23839,
+          "x": 40910,
+          "y": 26835,
           "id": "8d17375a-60ee-42e3-b536-55ea40a1d0e1486"
         },
         "36d89910-f39d-4917-be0a-74407a6a278a486": {
@@ -3218,8 +3231,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tnetwork.on(\"dragging\", function(event) {\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\tvar n2X = parseFloat(network1.getViewPosition().x.toFixed(5));\n\t\tvar n2Y = parseFloat(network1.getViewPosition().y.toFixed(5));\n\t\tif ($.type(startN1X) == \"null\") {startN1X = n1X;}\n\t\tif ($.type(startN1Y) == \"null\") {startN1Y = n1Y;}\n\t\tif ($.type(startN2X) == \"null\") {startN2X = n2X;}\n\t\tif ($.type(startN2Y) == \"null\") {startN2Y = n2Y;}\n\t\tif (n1X != n2X && n1Y != n2Y) {\n\t\t\tvar eventCenterX = event.event.center.x;\n\t\t\tvar eventCenterY = event.event.center.y;\n\t\t\tvar network1Scale = network1.getScale();\n\t\t\t//var positionX = parseFloat((lastN2X - canvasWidth/(2*network1Scale)).toFixed(5));\n\t\t\t//var positionY = parseFloat((lastN2Y - canvasHeight/(2*network1Scale)).toFixed(5));\n\t\t\tvar positionX = (n1X - n2X) - (network1.body.view.translation.x*(1/network1Scale));\n\t\t\tvar positionY = (n1Y - n2Y) - (network1.body.view.translation.y*(1/network1Scale));\n\t\t\tnetwork1.moveTo({\n\t\t\t\tposition: {x:positionX, y:positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: network1Scale,\n\t\t\t});\n\t\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\t\tvar n2X = parseFloat(network1.getViewPosition().x.toFixed(5));\n\t\t\tvar n2Y = parseFloat(network1.getViewPosition().y.toFixed(5));\n\t\t\tlastPositionX = positionX;\n\t\t} else {\n\t\t}\n\t});",
-          "x": 41727,
-          "y": 24296,
+          "x": 41754,
+          "y": 27292,
           "id": "36d89910-f39d-4917-be0a-74407a6a278a486"
         },
         "610d4222-77c1-4624-8652-bd79b449b283486": {
@@ -3248,9 +3261,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "   network.on(\"zoom\", function(event) {\n      nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n         network.body.data.nodes.remove(nodeId);\n      });\n      nodesDropDownMenuNodesIds = [];\n\t\tvar scale = network.getScale();\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*event.scale)).toFixed(5));\n\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*event.scale)).toFixed(5));\n\t\t//var positionX = parseFloat((event.pointer.x).toFixed(5));\n\t\t//var positionY = parseFloat((event.pointer.y).toFixed(5));\n\t\tnetwork.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t\tnetwork1.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t});",
-          "x": 41699,
-          "y": 24729,
+          "label": "   network.on(\"zoom\", function(event) {\n      nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n         network.body.data.nodes.remove(nodeId);\n      });\n      nodesDropDownMenuNodesIds = [];\n\n\t\tvar scale = network.getScale();\n         if (cursorNodeId != null) {\n                node = network.body.data.nodes.get(cursorNodeId);\n                node.font.size = 5/scale;\n                node = network.body.data.nodes.update(node);\n         }\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*event.scale)).toFixed(5));\n\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*event.scale)).toFixed(5));\n\t\t//var positionX = parseFloat((event.pointer.x).toFixed(5));\n\t\t//var positionY = parseFloat((event.pointer.y).toFixed(5));\n\t\tnetwork.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t\tnetwork1.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t});",
+          "x": 41726,
+          "y": 27725,
           "id": "610d4222-77c1-4624-8652-bd79b449b283486",
           "shape": "box",
           "link": "",
@@ -3283,8 +3296,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t//network.editNode();\n\t$(\".vis-separator-line\").remove();\n\t$(\".vis-close\").remove();\n}\n//End of draw function",
-          "x": 41557,
-          "y": 25156,
+          "x": 41584,
+          "y": 28152,
           "id": "d2d3f771-3cd1-4c27-8376-b4cced8fce37486",
           "shape": "box",
           "link": "",
@@ -3317,8 +3330,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function updateSchemeFromMenu(newNodes, newEdges) {\n\tvar schemeDataJsonFromMenu = $(\"textarea#schemeDataTextArea\").val();\n\tvar schemeData = JSON.parse(schemeDataJsonFromMenu);\n        var nodesData = objectToArray(schemeData.canvas1Data.nodes._data);\n        nodesData = nodesData.concat(newNodes);\n\tvar nodes = new vis.DataSet(nodesData);\n        var edgesData = objectToArray(schemeData.canvas1Data.edges._data);\n        edgesData = edgesData.concat(newEdges);\n\tvar edges = new vis.DataSet(edgesData);\n\tvar nodes1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.nodes._data));\n\tvar edges1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.edges._data));\n\tdata = {\n\t\tnodes: nodes,\n\t\tedges: edges\n\t};\n\tdata1 = {\n\t\tnodes: nodes1,\n\t\tedges: edges1\n\t};\n        dataCash = schemeData.dataCash;\n\tdraw();\n\tvar setup = schemeData.setup;\n\tvar positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));\n\tvar positionY = parseFloat((setup.viewPosition.y - canvasHeight/(2*setup.scale)).toFixed(5));\n\tnetwork.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\tnetwork1.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\tconsole.log(\"Scheme updated\");\n}",
-          "x": 40042,
-          "y": 25884,
+          "x": 40069,
+          "y": 28880,
           "id": "1a000cd9-3ff1-4645-9f4c-b2752385ba07486",
           "shape": "box",
           "link": "",
@@ -3350,9 +3363,9 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "function updateMenuFromScheme(removeNodesIds, removeEdgesIds) {\n\tvar scale = network.getScale();\n\tvar viewPosition = network.getViewPosition();\n\tvar data = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar data1 = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar schemeData = {\n\t\tcanvas1Data: data,\n\t\tcanvas2Data: data1,\n                dataCash: dataCash,\n\t\tsetup: {\n\t\t\tscale: scale,\n\t\t\tviewPosition: viewPosition\n\t\t}\n\t};\n\tvar positions1 = network.getPositions();\n\tvar positions2 = network1.getPositions();\n\tnodes1ToSave = {}; \n\tnetwork.body.data.nodes.get().forEach(function(item) {\n                if (removeNodesIds.indexOf(item.id) == -1) {\n\t\t   nodes1ToSave[item.id.toString()] = item;\n                }\n\t});\n\tobjectToArray(positions1).forEach(function(position) {\n                if (removeNodesIds.indexOf(position.id) == -1) {\n\t\t   var node = nodes1ToSave[position.id.toString()];\n\t\t   node.x = position.x;\n\t\t   node.y = position.y;\n                }\n\t});\n\tschemeData.canvas1Data.nodes._data = nodes1ToSave;\n\tvar edges1ToSave = {}; \n\tnetwork.body.data.edges.get().forEach(function(item) {\n                if (removeEdgesIds.indexOf(item.id) == -1) {\n\t\t   edges1ToSave[item.id.toString()] = item;\n                }\n\t});\n\tschemeData.canvas1Data.edges._data = edges1ToSave;\n\tvar nodes2ToSave = {}; \n\tnetwork1.body.data.nodes.get().forEach(function(item) {\n\t\tnodes2ToSave[item.id.toString()] = item;\n\t});\n\tobjectToArray(positions2).forEach(function(position) {\n\t\tvar node = nodes2ToSave[position.id.toString()];\n\t\tnode.x = position.x;\n\t\tnode.y = position.y;\n\t});\n\tschemeData.canvas2Data.nodes._data = nodes2ToSave;\n\tvar edges2ToSave = {}; \n\tnetwork1.body.data.edges.get().forEach(function(item) {\n\t\tedges2ToSave[item.id.toString()] = item;\n\t});\n\tschemeData.canvas2Data.edges._data = edges2ToSave;\n\tvar schemeDataJson = JSON.stringify(schemeData, undefined, 2);\n\t$(\"textarea#schemeDataTextArea\").val(schemeDataJson);\n}",
-          "x": 41119,
-          "y": 26603,
+          "label": "function updateMenuFromScheme(removeNodesIds, removeEdgesIds) {\n\tvar scale = network.getScale();\n\tvar viewPosition = network.getViewPosition();\n\tvar data = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar data1 = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar schemeData = {\n\t\tcanvas1Data: data,\n\t\tcanvas2Data: data1,\n                dataCash: dataCash,\n\t\tsetup: {\n\t\t\tscale: scale,\n\t\t\tviewPosition: viewPosition\n\t\t}\n\t};\n\tvar positions1 = network.getPositions();\n\tvar positions2 = network1.getPositions();\n\tnodes1ToSave = {}; \n\tnetwork.body.data.nodes.get().forEach(function(item) {\n                if (removeNodesIds.indexOf(item.id) == -1 &&\n                    item.id != cursorNodeId) {\n\t\t   nodes1ToSave[item.id.toString()] = item;\n                }\n\t});\n\tobjectToArray(positions1).forEach(function(position) {\n                if (removeNodesIds.indexOf(position.id) == -1 &&\n                    position.id != cursorNodeId) {\n\t\t   var node = nodes1ToSave[position.id.toString()];\n\t\t   node.x = position.x;\n\t\t   node.y = position.y;\n                }\n\t});\n\tschemeData.canvas1Data.nodes._data = nodes1ToSave;\n\tvar edges1ToSave = {}; \n\tnetwork.body.data.edges.get().forEach(function(item) {\n                if (removeEdgesIds.indexOf(item.id) == -1) {\n\t\t   edges1ToSave[item.id.toString()] = item;\n                }\n\t});\n\tschemeData.canvas1Data.edges._data = edges1ToSave;\n\tvar nodes2ToSave = {}; \n\tnetwork1.body.data.nodes.get().forEach(function(item) {\n\t\tnodes2ToSave[item.id.toString()] = item;\n\t});\n\tobjectToArray(positions2).forEach(function(position) {\n\t\tvar node = nodes2ToSave[position.id.toString()];\n\t\tnode.x = position.x;\n\t\tnode.y = position.y;\n\t});\n\tschemeData.canvas2Data.nodes._data = nodes2ToSave;\n\tvar edges2ToSave = {}; \n\tnetwork1.body.data.edges.get().forEach(function(item) {\n\t\tedges2ToSave[item.id.toString()] = item;\n\t});\n\tschemeData.canvas2Data.edges._data = edges2ToSave;\n\tvar schemeDataJson = JSON.stringify(schemeData, undefined, 2);\n\t$(\"textarea#schemeDataTextArea\").val(schemeDataJson);\n}",
+          "x": 41146,
+          "y": 29599,
           "id": "1e98723b-79dd-48ff-b641-e241ebb725fe486",
           "shape": "box",
           "link": "",
@@ -3385,8 +3398,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function clearPopUp() {\n\tdocument.getElementById('saveButton').onclick = null;\n\tdocument.getElementById('cancelButton').onclick = null;\n\tdocument.getElementById('network-popUp').style.display = 'none';\n        network.selectionHandler.unselectAll();\n        $(\"#network div.vis-network\").focus();\n}",
-          "x": 41121,
-          "y": 27305,
+          "x": 41148,
+          "y": 30301,
           "id": "03ff7d5d-a836-4cd9-b75d-7f81de5c862e486",
           "shape": "box",
           "link": "",
@@ -3416,8 +3429,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function cancelEdit(callback) {\n\tclearPopUp();\n\tcallback(null);\n}",
-          "x": 41004,
-          "y": 27418,
+          "x": 41031,
+          "y": 30414,
           "id": "9d63b1f7-179d-4f64-b690-8da48388c7c4486"
         },
         "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486": {
@@ -3447,8 +3460,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function saveData(data,callback) {\n\tdata.id = document.getElementById('node-id').value;\n\tdata.label = document.getElementById('node-label').value;\n\tclearPopUp();\n        if (data.label.split(\"\\n\").length > 1) {\n           var labelHeightShift = 14*data.label.split(\"\\n\").length/2 - 7;\n           lastEditedNodesIds.forEach(function(nodeId) {\n              var nodeD = getNodeFromNetworkDataById(nodeId);\n              if (typeof nodeD !== \"undefined\" && nodeD !== null) {\n                 var pNode = network.getPositions()[nodeId];\n                 nodeD.x = pNode.x;\n                 nodeD.y = pNode.y - labelHeightShift;\n                 network.nodesHandler.moveNode(nodeD.id, nodeD.x, nodeD.y);\n              }\n           });\n        }\n   if (data.label.lastIndexOf(\"http\", 0) === 0) {\n      data.link = data.label.trim();\n   }\n   callback(data);\n}",
-          "x": 41145,
-          "y": 27628,
+          "x": 41172,
+          "y": 30624,
           "id": "e7be3aa7-7a40-45cb-82f1-d63a1bfce5c5486",
           "shape": "box",
           "link": "",
@@ -3481,8 +3494,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function init() {\n\tdraw();\n}",
-          "x": 39965,
-          "y": 27926,
+          "x": 39992,
+          "y": 30922,
           "id": "67d57766-61d3-4278-bd82-50b7bc0fd759486",
           "shape": "box",
           "link": "",
@@ -3515,8 +3528,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function selectNodesFromHighlight() {\n    var fromX, toX, fromY, toY;\n    var nodesIdInDrawing = [];\n    var xRange = getStartToEnd(rect.startX, rect.w);\n    var yRange = getStartToEnd(rect.startY, rect.h);\n\n    var allNodes = network.body.data.nodes.get();\n    for (var i = 0; i < allNodes.length; i++) {\n        var curNode = allNodes[i];\n        var nodePosition = network.getPositions([curNode.id]);\n        var nodeXY = network.canvasToDOM({x: nodePosition[curNode.id].x, y: nodePosition[curNode.id].y});\n        if (xRange.start <= nodeXY.x && nodeXY.x <= xRange.end && yRange.start <= nodeXY.y && nodeXY.y <= yRange.end) {\n            nodesIdInDrawing.push(curNode.id);\n        }\n    }\n    network.selectNodes(nodesIdInDrawing);\n}",
-          "x": 41253,
-          "y": 28522,
+          "x": 41280,
+          "y": 31518,
           "id": "95440e5d-e2ab-4275-aea3-7084e5e08ef5486",
           "shape": "box",
           "link": "",
@@ -3546,8 +3559,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function getStartToEnd(start, theLen) {\n    return theLen > 0 ? {start: start, end: start + theLen} : {start: start + theLen, end: start};\n}",
-          "x": 41130,
-          "y": 28804,
+          "x": 41157,
+          "y": 31800,
           "id": "d0f10764-b98d-4f26-8850-0d98258edd68486"
         },
         "c0f333be-7c73-49ff-9ce9-acd69d498858486": {
@@ -3574,8 +3587,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function getNodesByRegexSearchInLabel(network, regex) {\n\tvar nodes = network.body.data.nodes.get();\n\tvar foundNodes = []\n\tfor (var n = 0; n < nodes.length; n++) {\n\t\tif ((typeof nodes[n].label !== \"undefined\") && (nodes[n].label.search(regex) >= 0)) { \n\t\t\tfoundNodes.push(nodes[n]);\n\t\t}\n\t};\n\treturn foundNodes;\n}",
-          "x": 41118,
-          "y": 29005,
+          "x": 41145,
+          "y": 32001,
           "id": "c0f333be-7c73-49ff-9ce9-acd69d498858486"
         },
         "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b486": {
@@ -3602,8 +3615,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function updateNodePositionData(network, node) {\n\tvar nodesPositions = objectToArray(network.getPositions());\n\tfor (var n = 0; n < nodesPositions.length; n++) {\n\t\tif (nodesPositions[n].id == node.id) { \n\t\t\tnode.x = nodesPositions[n].x;\n\t\t\tnode.y = nodesPositions[n].y;\n\t\t}\n\t};\n}",
-          "x": 41048,
-          "y": 29283,
+          "x": 41075,
+          "y": 32279,
           "id": "ec3349fb-c3e8-46d8-bf1b-8caa61b1275b486"
         },
         "399c5df4-d887-464d-8bad-d081f1623e44486": {
@@ -3630,8 +3643,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function makeSaveProjectToBrowserNode(label, positionX, positionY) {\n\tnetwork.body.data.nodes.add([{\n\t\tlabel:label,\n\t\tx:positionX,\n\t\ty:positionY\n\t}]);\n}",
-          "x": 39930,
-          "y": 29549,
+          "x": 39957,
+          "y": 32545,
           "id": "399c5df4-d887-464d-8bad-d081f1623e44486"
         },
         "92f8f188-413d-47c9-bc96-f290485c46ee486": {
@@ -3658,8 +3671,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function findProjectSavesKeys() {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn [];\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\tvar saveNameRegex = new RegExp(projectSaveNodeNamePrefix + projectSaveId + \"_.*\");\n\tvar storageItemsSize = localStorage.length;\n\tvar keys = [];\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar storageKey = localStorage.key(i);\n\t\tif (storageKey.search(saveNameRegex) >= 0) {\n\t\t\tkeys.push(localStorage.key(i));\n\t\t}\n\t}\n\treturn keys;\n}",
-          "x": 41231,
-          "y": 30077,
+          "x": 41258,
+          "y": 33073,
           "id": "92f8f188-413d-47c9-bc96-f290485c46ee486"
         },
         "329c31d6-4840-47ce-97d1-48d6bd801404486": {
@@ -3686,8 +3699,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function deleteNodesIfTheyAreProjectSaves(network, nodes) {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn;\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\tobjectToArray(data.nodes).forEach(function(nodeId) {\n\t\tvar node = getNodeById(network.body.data.nodes.get(), nodeId);\n\t\tif (node.label.search(new RegExp(projectSaveNodeNamePrefix + projectSaveId + \"_.*\")) >= 0) {\n\t\t\tlocalStorage.removeItem(node.label);\n\t\t}\n\t});\n}",
-          "x": 41231,
-          "y": 30507,
+          "x": 41258,
+          "y": 33503,
           "id": "329c31d6-4840-47ce-97d1-48d6bd801404486"
         },
         "6740287a-c540-43ff-91f0-669cb96f10f3486": {
@@ -3714,8 +3727,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function removeSaveNodes() {\n\tvar oldSavesKeys = findProjectSavesKeys();\n\tvar nodes = network.body.data.nodes;\n\tfor (var i = 0; i < oldSavesKeys.length; i++) {\n\t\tvar key = oldSavesKeys[i];\n\t\tvar saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(key));\n\t\tsaveCanvasProjectDateNodes.forEach(function(node) {\n\t\t\tnodes.remove(node.id);\n\t\t});\n\t}\n}",
-          "x": 41121,
-          "y": 30841,
+          "x": 41148,
+          "y": 33837,
           "id": "6740287a-c540-43ff-91f0-669cb96f10f3486"
         },
         "59635c29-9e7a-45ca-8525-2a37dbb488a7486": {
@@ -3742,8 +3755,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function getProjectId(saveCanvasProjectDataNode, network) {\n\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(projectSaveIdLine));\n\tif (projectSaveIdNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no \" + projectSaveIdLine + \" node\");\n\t\treturn;\n\t}\n\tvar projectSaveIdNode = projectSaveIdNodes[0];\n\tvar connectedNodesIds = network.getConnectedNodes(projectSaveIdNode.id);\n\tvar projectIdNode;\n\tconnectedNodesIds.forEach(function(nodeId) {\n\t\tvar node = getNodeById(network.body.data.nodes.get(), nodeId);\n\t\tif (node.label.split(\": \")[0] == \"projectSaveId\") {\n\t\t\tprojectIdNode = node;\n\t\t}\n\t});\n\treturn projectIdNode.label.split(\": \")[1]; \n}",
-          "x": 41132,
-          "y": 31212,
+          "x": 41159,
+          "y": 34208,
           "id": "59635c29-9e7a-45ca-8525-2a37dbb488a7486"
         },
         "da40667d-7034-434c-96d9-aac61e394e23486": {
@@ -3770,8 +3783,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function buildSaveNodesList() {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn;\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tupdateNodePositionData(network, saveCanvasProjectDataNode);\n\tvar oldSavesKeys = findProjectSavesKeys();\n\toldSavesKeys.forEach(function(key,i) {\n\t\tmakeSaveProjectToBrowserNode(\n\t\t\tkey,\n\t\t\tsaveCanvasProjectDataNode.x + 400, \n\t\t\tsaveCanvasProjectDataNode.y + 40*i);\n\t});\n}",
-          "x": 41231,
-          "y": 31606,
+          "x": 41258,
+          "y": 34602,
           "id": "da40667d-7034-434c-96d9-aac61e394e23486"
         },
         "3b49c915-fb27-47ab-bae5-20a308497725486": {
@@ -3798,8 +3811,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function deleteProjectLocalStorageSaves(network) {\n\tvar oldSavesKeys = findProjectSavesKeys();\n\tfor (var i = 0; i < oldSavesKeys.length; i++) {\n\t\tvar key = oldSavesKeys[i];\n\t\tlocalStorage.removeItem(key);\n\t}\n}",
-          "x": 40968,
-          "y": 31900,
+          "x": 40995,
+          "y": 34896,
           "id": "3b49c915-fb27-47ab-bae5-20a308497725486"
         },
         "c08a7ff5-92f1-482b-a55e-5e4aa4210022486": {
@@ -3826,8 +3839,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function deleteLocalStorageSavesAndSaveNodes(network) {\n\tremoveSaveNodes();\n\tdeleteProjectLocalStorageSaves(network);\n}",
-          "x": 40995,
-          "y": 32084,
+          "x": 41022,
+          "y": 35080,
           "id": "c08a7ff5-92f1-482b-a55e-5e4aa4210022486"
         },
         "8ae3245a-50b6-4a3b-bace-03ff73f40545486": {
@@ -3854,8 +3867,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveName) {\n\tlocalStorage.removeItem(saveName);\n\tvar saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(saveName));\n\tsaveCanvasProjectDateNodes.forEach(function(node) {\n\t\tnodes.remove(node.id);\n\t});\n}",
-          "x": 41142,
-          "y": 32267,
+          "x": 41169,
+          "y": 35263,
           "id": "8ae3245a-50b6-4a3b-bace-03ff73f40545486"
         },
         "5caa6892-9023-4d77-8aa0-ff564a51cf58486": {
@@ -3882,8 +3895,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function loadSavedProjectDataToDataMenuBySaveName(network, saveName) {\n\tvar jsonString = localStorage.getItem(saveName);\n\t$(\"textarea#schemeDataTextArea\").val(jsonString);\n}",
-          "x": 41057,
-          "y": 32468,
+          "x": 41084,
+          "y": 35464,
           "id": "5caa6892-9023-4d77-8aa0-ff564a51cf58486"
         },
         "11d30fee-175d-4da8-b2d8-069850fe9400486": {
@@ -3910,8 +3923,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function saveProjectToBrowserLocalStorage(network) {\n\tvar regex = saveCanvasProjectDataLine;\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + regex + \"$\"));\n\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \"$\"));\n\tvar projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \":.*$\"));\n\tif ((typeof saveCanvasProjectDataNodes === \"undefined\") || (saveCanvasProjectDataNodes.length == 0) ||\n\t\t(typeof projectSaveIdNodes === \"undefined\") || (projectSaveIdNodes.length == 0) ||\n\t\t(typeof projectSaveIdWithDataNodes === \"undefined\") || (projectSaveIdWithDataNodes.length == 0)) \n\t{\n\t\talert(\"Add setup nodes for canvas save information: '\" + saveCanvasProjectDataLine + \"', '\" + projectSaveIdLine + \"', '\" +  projectSaveIdLine + \": projectName'.\");\n\t} else {\n\t\tremoveSaveNodes();\n\t\tvar date = new Date().toLocaleString(\"ru-RU\");\n\t\tdate = date.replace(/\\./g,\"-\");\n\t\tdate = date.replace(/:/g,\"-\");\n\t\tdate = date.replace(/,/g,\"_\");\n\t\tdate = date.replace(\" \",\"\");\n\t\tvar projectJson = $(\"textarea#schemeDataTextArea\").val();\n\t\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\t\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\t\treturn;\n\t\t}\n\t\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\t\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\t\tlocalStorage.setItem(projectSaveNodeNamePrefix + projectSaveId + \"_\" + date,projectJson);\n\t\tbuildSaveNodesList();\n\t}\n}",
-          "x": 41312,
-          "y": 32789,
+          "x": 41339,
+          "y": 35785,
           "id": "11d30fee-175d-4da8-b2d8-069850fe9400486"
         },
         "315819bf-0c74-42bf-a4f6-177dd930ed60486": {
@@ -3938,8 +3951,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function clearBrowserLocalStorage() {\n\tvar storageItemsSize = localStorage.length;\n\tvar keys = [];\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tkeys.push(localStorage.key(i));\n\t}\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = keys[i];\n\t\tlocalStorage.removeItem(key);\n\t}\n}",
-          "x": 40943,
-          "y": 33161,
+          "x": 40970,
+          "y": 36157,
           "id": "315819bf-0c74-42bf-a4f6-177dd930ed60486"
         },
         "6248ca66-72f9-4e9d-b5e2-f9f68abc3f37486": {
@@ -3966,8 +3979,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function showBrowserLocalStorage() {\n\tvar storageItemsSize = localStorage.length;\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = localStorage.key(i);\n\t}\n}",
-          "x": 40943,
-          "y": 33362,
+          "x": 40970,
+          "y": 36358,
           "id": "6248ca66-72f9-4e9d-b5e2-f9f68abc3f37486"
         },
         "f7d23b14-e520-46cb-aef4-85a0e79044c7486": {
@@ -3994,8 +4007,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function showBrowserLocalStorageKeys() {\n\tvar storageItemsSize = localStorage.length;\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = localStorage.key(i);\n\t}\n}",
-          "x": 40943,
-          "y": 33515,
+          "x": 40970,
+          "y": 36511,
           "id": "f7d23b14-e520-46cb-aef4-85a0e79044c7486"
         },
         "5541e730-dc41-48fb-9666-86590c704c68486": {
@@ -4022,8 +4035,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "$(document).ready(function() {\n\n\tcontainerJQ[0].oncontextmenu = () => false;\n\t//topMenu = $(\"<div style='margin:0 0 0 0; padding:3px; background-color: black;color:white;z-index:9999'></div>\");\n\t\n\tbody = $(\"body\");\n\n\tshowDataButton = $(\"<div id='showData' style='cursor:pointer;color:black;float:right;position:fixed;top:3px; line-height: 0;right:0;z-index:9999;padding: 15px;margin:-5px 0 5px 0; background-color:white;border: 1px solid #a3a3a3;font-size:12px'>showData</div>\");\n\tbody.append(showDataButton);\n\n\tschemeEditElementsMenu = $(\"<div id='schemeEditElementsMenu' style='height:100%; width:300px; position:fixed; left:0; top:29px;border-right: 1px solid #a3a3a3; background-color:white;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n\tschemeEditElementsMenu.hide();\n\tbody.append(schemeEditElementsMenu);\n\n\tvar elementsSetupTable = $(\"<table id='elementsSetupTable'></table>\");",
-          "x": 40444,
-          "y": 36774,
+          "x": 40471,
+          "y": 39770,
           "id": "5541e730-dc41-48fb-9666-86590c704c68486"
         },
         "7206a9f0-1dcf-4435-89e7-67b6913ada0a486": {
@@ -4053,8 +4066,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar eSRow1 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow1);\n\tvar eSItem11 = $(\"<td></td>\");\n\tvar eSItem12 = $(\"<td></td>\");\n\teSRow1.append(eSItem11);\n\teSRow1.append(eSItem12);\n\tvar nodeIdInputLabel = $(\"<div style=''><span>nodeId: </span></div>\");\n\teSItem11.append(nodeIdInputLabel);\n\tvar nodeIdInput = $(\"<input type='text' id='nodeIdInput'></input>\");\n\teSItem12.append(nodeIdInput);\n\n\tvar eSRow2 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow2);\n\tvar eSItem21 = $(\"<td></td>\");\n\tvar eSItem22 = $(\"<td></td>\");\n\teSRow2.append(eSItem21);\n\teSRow2.append(eSItem22);\n\tvar nodeLabelInputLabel = $(\"<div style=''><span>nodeLabel: </span></div>\");\n\teSItem21.append(nodeLabelInputLabel);\n\tvar nodeLabelTextarea = $(\"<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>\");\n\teSItem22.append(nodeLabelTextarea);\n\n\tvar eSRow3 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow3);\n\tvar eSItem31 = $(\"<td></td>\");\n\tvar eSItem32 = $(\"<td></td>\");\n\teSRow3.append(eSItem31);\n\teSRow3.append(eSItem32);\n\tvar nodeXInputLabel = $(\"<div style=''><span>nodeX: </span></div>\");\n\teSItem31.append(nodeXInputLabel);\n\tvar nodeXInput = $(\"<input type='text' id='nodeXInput'></input>\");\n\teSItem32.append(nodeXInput);\n\n\tvar eSRow4 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow4);\n\tvar eSItem41 = $(\"<td></td>\");\n\tvar eSItem42 = $(\"<td></td>\");\n\teSRow4.append(eSItem41);\n\teSRow4.append(eSItem42);\n\tvar nodeYInputLabel = $(\"<div style=''><span>nodeY: </span></div>\");\n\teSItem41.append(nodeYInputLabel);\n\tvar nodeYInput = $(\"<input type='text' id='nodeYInput'></input>\");\n\teSItem42.append(nodeYInput);\n\n\tvar eSRow5 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow5);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5.append(eSItem51);\n\teSRow5.append(eSItem52);\n\tvar nodeShapeInputLabel = $(\"<div style=''><span>nodeShape: </span></div>\");\n\teSItem51.append(nodeShapeInputLabel);\n\tvar nodeShapeInput = $(\"<input type='text' id='nodeShapeInput'></input>\");\n\teSItem52.append(nodeShapeInput);\n\n\tvar eSRow6 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow6);\n\tvar eSItem61 = $(\"<td></td>\");\n\tvar eSItem62 = $(\"<td></td>\");\n\teSRow6.append(eSItem61);\n\teSRow6.append(eSItem62);\n\tvar nodeLinkTextareaLabel = $(\"<div style=''><span>nodeLink: </span></div>\");\n\teSItem61.append(nodeLinkTextareaLabel);\n\tvar nodeLinkTextarea = $(\"<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>\");\n\teSItem62.append(nodeLinkTextarea);\n\tvar linkOpenButton = $(\"<div style='cursor:pointer;margin: 4px 0 2px 0;' id='linkOpenButton'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>\");\n\teSItem62.append(linkOpenButton);\n\n\tvar eSRow7 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow7);\n\tvar eSItem71 = $(\"<td></td>\");\n\tvar eSItem72 = $(\"<td></td>\");\n\teSRow7.append(eSItem71);\n\teSRow7.append(eSItem72);\n\tvar nodeColorInputLabel = $(\"<div style=''><span>nodeColor: </span></div>\");\n\teSItem71.append(nodeColorInputLabel);\n\tvar nodeColorInput = $(\"<input type='text' id='nodeColorInput'></input>\");\n\teSItem72.append(nodeColorInput);\n\n\tvar eSRow8 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow8);\n\tvar eSItem81 = $(\"<td></td>\");\n\tvar eSItem82 = $(\"<td></td>\");\n\teSRow8.append(eSItem81);\n\teSRow8.append(eSItem82);\n\tvar nodeBorderWidthInputLabel = $(\"<div style=''><span>nodeBorderWidth: </span></div>\");\n\teSItem81.append(nodeBorderWidthInputLabel);\n\tvar nodeBorderWidthInput = $(\"<input type='text' id='nodeBorderWidthInput'></input>\");\n\teSItem82.append(nodeBorderWidthInput);\n\n\tvar eSRow9 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow9);\n\tvar eSItem91 = $(\"<td></td>\");\n\tvar eSItem92 = $(\"<td></td>\");\n\teSRow9.append(eSItem91);\n\teSRow9.append(eSItem92);\n\tvar nodeBorderColorInputLabel = $(\"<div style=''><span>nodeBorderColor: </span></div>\");\n\teSItem91.append(nodeBorderColorInputLabel);\n\tvar nodeBorderColorInput = $(\"<input type='text' id='nodeBorderColorInput'></input>\");\n\teSItem92.append(nodeBorderColorInput);\n\n\tvar eSRow10 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow10);\n\tvar eSItem101 = $(\"<td></td>\");\n\tvar eSItem102 = $(\"<td></td>\");\n\teSRow10.append(eSItem101);\n\teSRow10.append(eSItem102);\n\tvar nodeFontSizeInputLabel = $(\"<div style=''><span>nodeFontSize: </span></div>\");\n\teSItem101.append(nodeFontSizeInputLabel);\n\tvar nodeFontSizeInput = $(\"<input type='text' id='nodeFontSizeInput'></input>\");\n\teSItem102.append(nodeFontSizeInput);\n\n\tvar eSRow11 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow11);\n\tvar eSItem111 = $(\"<td></td>\");\n\tvar eSItem112 = $(\"<td></td>\");\n\teSRow11.append(eSItem111);\n\teSRow11.append(eSItem112);\n\tvar nodeFontAlignInputLabel = $(\"<div style=''><span>nodeFontAlign: </span></div>\");\n\teSItem111.append(nodeFontAlignInputLabel);\n\tvar nodeFontAlignInput = $(\"<input type='text' id='nodeFontAlignInput'></input>\");\n\teSItem112.append(nodeFontAlignInput);",
-          "x": 41393,
-          "y": 37792,
+          "x": 41420,
+          "y": 40788,
           "id": "7206a9f0-1dcf-4435-89e7-67b6913ada0a486",
           "shape": "box",
           "link": "",
@@ -4087,8 +4100,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "   linkOpenButton.click(function() {\n      var link = nodeLinkTextarea.val();\n      //if link starts with userConfData[\"someConfPathKey\"], then we replace this var with path for its key from userConfData\n      if (link.match(/^userConfData/) != null) {\nconsole.log(1);\n         if (typeof userConfData !== \"undefined\") {\nconsole.log(1);\n            var userConfKey = link.replace(/.*userConfData\\[\"(.*?)\"\\].*/g,\"$1\");\nconsole.log(\"userConfKey: \" + userConfKey);\n            var userConfLinkPath = userConfData[userConfKey];\n            if (typeof userConfLinkPath !== \"undefined\" && userConfLinkPath.length > 0) {\n               link = link.replace(/.*userConfData\\[\".*?\"\\]/g,userConfLinkPath);\n            }\n         } else {\n            link = link.replace(/.*userConfData\\[\".*?\"\\]/g,\"Error: no local path for this file. \");\n         }\n      }\n      if (link.length > 0) {\n         window.open(link, '_blank');\n      }\n   });\n\n   schemeEditElementsMenu.append(elementsSetupTable);\n\n   var saveElementEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElement</span></div>\");\n   schemeEditElementsMenu.append(saveElementEditButton);",
-          "x": 41282,
-          "y": 38857,
+          "x": 41309,
+          "y": 41853,
           "id": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
           "shape": "box",
           "link": "",
@@ -4121,8 +4134,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tsaveElementEditButton.click(function() {\n\t\tvar nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = schemeEditElementsMenu.find(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = schemeEditElementsMenu.find(\"input#nodeXInput\");\n\t\tvar nodeYInput = schemeEditElementsMenu.find(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = schemeEditElementsMenu.find(\"input#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = schemeEditElementsMenu.find(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = schemeEditElementsMenu.find(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = schemeEditElementsMenu.find(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = schemeEditElementsMenu.find(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = schemeEditElementsMenu.find(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = schemeEditElementsMenu.find(\"input#nodeBorderColorInput\");\n                var nodeD = getNodeFromNetworkDataById(nodeIdInput.val());\n\t\tvar pNode = network.getPositions()[nodeIdInput.val()];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tnodeD.id = nodeIdInput.val();\n\t\tnodeD.label = nodeLabelTextarea.val();\n\t\tnodeD.x = pNode.x;\n\t\tnodeD.y = pNode.y;\n\t\tnodeD.shape = nodeShapeInput.val();\n\t\tnodeD.link = nodeLinkTextarea.val();\n\t\tif (typeof nodeD.font === \"undefined\") nodeD.font = {size: 14};\n\t\tnodeD.font.size = parseInt(nodeFontSizeInput.val(),10);\n\t\tnodeD.font.align = nodeFontAlignInput.val();\n\t\tif (typeof nodeD.color === \"undefined\") nodeD.color = {};\n\t\tnodeD.color.background = nodeColorInput.val();\n\t\tnodeD.color.border = nodeBorderColorInput.val();\n\t\tnodeD.borderWidth = nodeBorderWidthInput.val();\n\t\tnetwork.body.data.nodes.update(nodeD);\n\t});",
-          "x": 42116,
-          "y": 39258,
+          "x": 42143,
+          "y": 42254,
           "id": "f61061d2-ae48-4aa6-bc30-1b87952ccbcd486",
           "shape": "box",
           "link": "",
@@ -4152,8 +4165,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar closeElementEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeElementEditButton'>closeElement</span></div>\");\n\tschemeEditElementsMenu.append(closeElementEditButton);\n\n\tcloseElementEditButton.click(function() {\n\t\tschemeEditElementsMenu.hide();\n\t});",
-          "x": 42277,
-          "y": 39549,
+          "x": 42304,
+          "y": 42545,
           "id": "19662c04-ac5d-4a11-a4fd-a3547d193e13486"
         },
         "6275abb8-d031-4098-851b-0e023b1aba05486": {
@@ -4183,8 +4196,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "   var splitNodeListLabelButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>\");\n   schemeEditElementsMenu.append(splitNodeListLabelButton);\n\n   splitNodeListLabelButton.click(function() {\n      var nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n      splitNodeLabelToList(nodeIdInput);\n   });",
-          "x": 42309,
-          "y": 39732,
+          "x": 42336,
+          "y": 42728,
           "id": "6275abb8-d031-4098-851b-0e023b1aba05486",
           "shape": "box",
           "link": "",
@@ -4214,8 +4227,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar runNodeCodeButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='runNodeCodeButton'>runNodeCode</span></div>\");\n\n\tschemeEditElementsMenu.append(runNodeCodeButton);",
-          "x": 42262,
-          "y": 40126,
+          "x": 42289,
+          "y": 43122,
           "id": "716a50bb-4bcd-4b76-9786-935f4a51dd3f486"
         },
         "12528d0c-0743-4f7a-83a8-3160b804fc96486": {
@@ -4245,8 +4258,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "runNodeCodeButton.click(function() {\n   var nodeId = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n   var code = collectCodeNodesContent(nodeId);\n   code = code.split(\"\\n\");\n   if (code[0] == \"sympy\") {\n      code.shift();\n      code = code.join(\"\\n\");\n      calcSymPy(code, nodeId);\n   } else {\n      code = code.join(\"\\n\");\n      var codeFunction = new Function('codeNodeId', code);\n      codeFunction(nodeId);\n   }\n});",
-          "x": 42053,
-          "y": 40285,
+          "x": 42080,
+          "y": 43281,
           "id": "12528d0c-0743-4f7a-83a8-3160b804fc96486",
           "shape": "box",
           "link": "",
@@ -4276,8 +4289,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar leftMenuHelpLine1 = $(\"<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>\");\n\tschemeEditElementsMenu.append(leftMenuHelpLine1);\n\t//#FFD570\n\t//#ffc63b\n\tvar leftMenuHelpLine2 = $(\"<div style='margin:10px 0 0 0'><span id='leftMenuHelpLine2'>nodes yellow color - #ffd570</span></div>\");\n\tschemeEditElementsMenu.append(leftMenuHelpLine2);",
-          "x": 42265,
-          "y": 40490,
+          "x": 42292,
+          "y": 43486,
           "id": "963ce1eb-5c03-4df6-8305-6a9f1d28cc8d486"
         },
         "3c05b8b7-4e2d-41b6-bda6-be03883ea398486": {
@@ -4307,8 +4320,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tloadSavedProjectToMenuButton = $(\"<div style='cursor:pointer;margin:80px 0 0 0'><span id='loadSavedProjectToMenuButton'>loadSavedProjectToMenu</span></div>\");\n\tschemeEditElementsMenu.append(loadSavedProjectToMenuButton);\n\tloadSavedProjectToMenuButton.hide();\n\tloadSavedProjectToMenuButton.click(function() {\n\t\tvar saveLabel = loadSavedProjectToMenuButton.saveProjectLabel;\n\t\tloadSavedProjectDataToDataMenuBySaveName(network, saveLabel);\n\t\tupdateSchemeFromMenu([],[]);\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
-          "x": 42362,
-          "y": 40625,
+          "x": 42389,
+          "y": 43621,
           "id": "3c05b8b7-4e2d-41b6-bda6-be03883ea398486",
           "shape": "box",
           "link": "",
@@ -4338,8 +4351,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tdeleteSavedProjectButton = $(\"<div style='cursor:pointer;margin:40px 0 0 0'><span id='deleteSavedProjectButton'>!!deleteSavedProject!!</span></div>\");\n\tschemeEditElementsMenu.append(deleteSavedProjectButton);\n\tdeleteSavedProjectButton.hide();\n\tdeleteSavedProjectButton.click(function() {\n\t\tvar saveLabel = deleteSavedProjectButton.saveProjectLabel;\n\t\tdeleteLocalStorageSaveAndSaveNodeBySaveName(network, saveLabel);\n\t});",
-          "x": 42315,
-          "y": 40764,
+          "x": 42342,
+          "y": 43760,
           "id": "851038ac-04bc-4373-99ce-445e9d30fdd0486"
         },
         "a119be82-a76d-4edb-96c4-34bbf43f614c486": {
@@ -4369,8 +4382,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "   schemeDataMenu = $(\"<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:white;border-left: 1px solid #a3a3a3;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n   //Don't show shemeDataMenu. Menu under \"showMenu\" button on the right.\n   var pageFileName = (new URL(window.location.href)).pathname.split(\"/\").reverse()[0];\n   if (dontShowShemeDataMenuPagesList.indexOf(pageFileName) != -1) {\n      schemeDataMenu.hide()\n   }\n   schemeDataTextArea = $(\"<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>\");\n   schemeDataMenu.append(schemeDataTextArea);\n   saveLoadButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>\");\n   schemeDataMenu.append(saveLoadButton);\n   body.append(schemeDataMenu);",
-          "x": 42535,
-          "y": 40927,
+          "x": 42562,
+          "y": 43923,
           "id": "a119be82-a76d-4edb-96c4-34bbf43f614c486",
           "shape": "box",
           "link": "",
@@ -4400,8 +4413,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tsaveLoadButton.click(function() {\n\t\tvar regex = saveCanvasProjectDataLine;\n\t\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + regex + \"$\"));\n\t\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \"$\"));\n\t\tvar projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \":.*$\"));\n\t\tif ((typeof saveCanvasProjectDataNodes === \"undefined\") || (saveCanvasProjectDataNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdNodes === \"undefined\") || (projectSaveIdNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdWithDataNodes === \"undefined\") || (projectSaveIdWithDataNodes.length == 0)) \n\t\t\t{\n\t\t\talert(\"Add setup nodes for canvas save information: '\" + saveCanvasProjectDataLine + \"', '\" + projectSaveIdLine + \"', '\" +  projectSaveIdLine + \": projectName'.\");\n\t\t} else {\n\t\t\tvar node = saveCanvasProjectDataNodes[0];\n\t\t\tupdateNodePositionData(network, node);\n\t\t\tvar scale = network.getScale();\n\t\t\tvar n1X = parseFloat(node.x.toFixed(5));\n\t\t\tvar n1Y = parseFloat(node.y.toFixed(5));\n\t\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n\t\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\t\t\tnetwork.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t\tnetwork1.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t}\n\t});",
-          "x": 42340,
-          "y": 41284,
+          "x": 42367,
+          "y": 44280,
           "id": "998c7235-6bbf-4e48-bbed-61b6d38602ee486"
         },
         "e08d8881-f4b9-4565-97da-d3f87ce1fdb0486": {
@@ -4428,8 +4441,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tshowDataButton.click(function() {\n\t\tschemeDataMenu.toggle();\n\t});",
-          "x": 41935,
-          "y": 41535,
+          "x": 41962,
+          "y": 44531,
           "id": "e08d8881-f4b9-4565-97da-d3f87ce1fdb0486"
         },
         "d89b86a0-bff8-4360-80b9-3636def7dcbe486": {
@@ -4459,8 +4472,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tdraw();\n\tif (typeof runUpateMenuFromSchemeAtPageReady !== \"undefined\" && runUpateMenuFromSchemeAtPageReady) {\n\t\tupdateMenuFromScheme([], []);\n\t}\n\tremoveSaveNodes();\n\tbuildSaveNodesList();",
-          "x": 41159,
-          "y": 41662,
+          "x": 41186,
+          "y": 44658,
           "id": "d89b86a0-bff8-4360-80b9-3636def7dcbe486",
           "shape": "box",
           "link": "",
@@ -4493,8 +4506,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar updateSchemeFromMenuButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateSchemeFromMenuButton' style='background-color:white;color:black;'>updateSchemeFromMenu</span></div>\");\n\tvar updateMenuFromSchemeButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateMenuFromSchemeButton' style='background-color:white;color:black;'>updateMenuFromScheme</span></div>\");\n\tschemeDataMenu.prepend(updateMenuFromSchemeButton);\n\tschemeDataMenu.prepend(updateSchemeFromMenuButton);\n\tupdateSchemeFromMenuButton.click(function() {\n\t\tupdateSchemeFromMenu([],[]);\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
-          "x": 42339,
-          "y": 41859,
+          "x": 42366,
+          "y": 44855,
           "id": "fa8926fb-1ed4-4c5a-819d-5edf7fc101e2486",
           "shape": "box",
           "link": "",
@@ -4524,8 +4537,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction addConnections(elem, index) {\n\t\telem.connections = network.getConnectedNodes(index);\n\t}\n\tfunction exportNetwork() {\n\t\tvar nodes = objectToArray(network.getPositions());\n\t\tvar positions = network.getPositions(item.id);\n\t\titem.positionX = positions[item.id].x;\n\t\titem.positionY = positions[item.id].y;\n\n\t\tnodes.forEach(addConnections);\n\n\t\tvar exportValue = JSON.stringify(nodes, undefined, 2);\n\n\t\treturn exportValue;\n\t}",
-          "x": 41823,
-          "y": 42139,
+          "x": 41850,
+          "y": 45135,
           "id": "85af1170-a5a1-4103-a973-0a3d5b2d371a486"
         },
         "072e065d-822d-4715-8443-5bf850e6a75f486": {
@@ -4552,8 +4565,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction importNetwork() {\n\t\tvar inputValue = exportArea.value;\n\t\tvar inputData = JSON.parse(inputValue);\n\n\t\tvar data = {\n\t\t\tnodes: getNodeData(inputData),\n\t\t\tedges: getEdgeData(inputData)\n\t\t}\n\n\t\tnetwork = new vis.Network(container, data, {});\n\t}",
-          "x": 41787,
-          "y": 42431,
+          "x": 41814,
+          "y": 45427,
           "id": "072e065d-822d-4715-8443-5bf850e6a75f486"
         },
         "f240ef3f-be64-4718-8708-cce54a9a12e6486": {
@@ -4580,8 +4593,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction getNodeData(data) {\n\t\tvar networkNodes = [];\n\n\t\tdata.forEach(function(elem, index, array) {\n\t\t\tnetworkNodes.push({id: elem.id, label: elem.id, x: elem.x, y: elem.y});\n\t\t});\n\n\t\treturn new vis.DataSet(networkNodes);\n\t}",
-          "x": 41876,
-          "y": 42702,
+          "x": 41903,
+          "y": 45698,
           "id": "f240ef3f-be64-4718-8708-cce54a9a12e6486"
         },
         "7413f257-38d2-49c0-aeab-10af492b6ea5486": {
@@ -4608,8 +4621,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction getEdgeData(data) {\n\t\tvar networkEdges = [];\n\n\t\tdata.forEach(function(node) {\n\t\t\tnode.connections.forEach(function(connId, cIndex, conns) {\n\t\t\t\tnetworkEdges.push({from: node.id, to: connId});\n\t\t\t\tvar cNode = getNodeById(data, connId);\n\n\t\t\t\tvar elementConnections = cNode.connections;\n\n\t\t\t\t// remove the connection from the other node to prevent duplicate connections\n\t\t\t\tvar duplicateIndex = elementConnections.findIndex(function(connection) {\n\t\t\t\t\treturn connection == node.id; // double equals since id can be numeric or string\n\t\t\t\t});\n\n\t\t\t\tif (duplicateIndex != -1) {\n\t\t\t\t\telementConnections.splice(duplicateIndex, 1);\n\t\t\t\t};\n\t\t\t});\n\t\t});\n\n\t\treturn new vis.DataSet(networkEdges);\n\t}",
-          "x": 41912,
-          "y": 43111,
+          "x": 41939,
+          "y": 46107,
           "id": "7413f257-38d2-49c0-aeab-10af492b6ea5486"
         },
         "4081ba82-a323-4e4f-946f-daa1d303b2b4486": {
@@ -4639,8 +4652,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tupdateMenuFromSchemeButton.click(function() {\n\t\tremoveSaveNodes();\n\t\tupdateMenuFromScheme([], []);\n\t\t//saveProjectToBrowserLocalStorage(network);\n\t\tlocalStorageSpace();\n\t});\n\tif (showCursorCoordinates) {\n\t\tvar cursorCoordinatesWidget = $(\"<div style='position: fixed;right:330px;font-size:12px'>\" +\n\t\t\t\"<div id='domCursorCoordinates'></div>\" +\n\t\t\t\"<div id='canvasCursorCoordinates'></div>\" +\n\t\t\t\"</div>\");\n\t\t$(\"body\").append(cursorCoordinatesWidget);\n\t\t$(document).mousemove(function(event) {\n\t\t\t$(\"#domCursorCoordinates\").text(event.pageX.toString() + \"x\" + event.pageY.toString());\n\t\t\tvar domX = (event.pageX - containerJQ.position().left).toFixed(0);\n\t\t\tvar domY = (event.pageY - containerJQ.position().top).toFixed(0);\n\t\t\tvar canvasPosition = network.canvas.DOMtoCanvas({x: domX,y: domY});\n\t\t\t$(\"#canvasCursorCoordinates\").text((canvasPosition.x).toFixed(0) + \"x\" + (canvasPosition.y).toFixed(0));\n\t\t});\n\t}\n\t$(\"#network div.vis-network\").focus();",
-          "x": 41983,
-          "y": 43583,
+          "x": 42010,
+          "y": 46579,
           "id": "4081ba82-a323-4e4f-946f-daa1d303b2b4486",
           "shape": "box",
           "link": "",
@@ -4670,8 +4683,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function c(x, y) {\n\tvar imgData = false;\n\tvar ctxColor;\n\tif (imgData === false) {\n\t\t//console.log(document.getElementById(\"network\").getContext('2d'));\n\t\t//ctxColor = document.getElementById(\"network\").getContext(\"2d\");\n\t\tctxColor = canvas.getContext('2d');\n\t\timgData = ctxColor.getImageData(0,0,canvas.width, canvas.height);\n\t}\t\n\tvar index = (y * imgData.width + x) * 4;\n\tvar red = imgData.data[index];\n\tvar green = imgData.data[index+1];\n\tvar blue = imgData.data[index+2];\n\tvar alpha = imgData.data[index+3];\n\t//console.log('pix x ' + x + ' y ' + y + ' index ' + index + ' COLOR ' + red + ', ' + green + ', ' + blue + ', ' + alpha);\n}",
-          "x": 40337,
-          "y": 62299,
+          "x": 40637,
+          "y": 90856,
           "id": "f5f9ec15-27c8-4eba-aa98-273066ed1813486"
         },
         "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486": {
@@ -4698,8 +4711,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function rdf() {\n\tvar store = $rdf.graph();\n\tconsole.log($rdf);\n\tconsole.log(store);\n\tconsole.log(network);\n\tnetwork.body.data.nodes.get().forEach(function(node) {\n\t\tstore.add($rdf.literal(node.id), FOAF('name'), $rdf.literal(node.id));\n\t\t//store.add(node.id, \"name\",);\n\t});\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t});\n\tconsole.log(store.length);\n}",
-          "x": 41381,
-          "y": 62631,
+          "x": 41681,
+          "y": 91188,
           "id": "cbd78dd7-8007-4edb-9a3c-b06e28f380f4486"
         },
         "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486": {
@@ -4726,8 +4739,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function localStorageSpace() {\n    var data = '';\n\n    console.log('Current local storage: ');\n\n    for(var key in window.localStorage){\n\n        if(window.localStorage.hasOwnProperty(key)){\n            data += window.localStorage[key];\n            console.log( key + \" = \" + ((window.localStorage[key].length * 16)/(8 * 1024)).toFixed(2) + ' KB' );\n        }\n\n    }\n\n    console.log(data ? '\\n' + 'Total space used: ' + ((data.length * 16)/(8 * 1024)).toFixed(2) + ' KB' : 'Empty (0 KB)');\n    console.log(data ? 'Approx. space remaining: ' + (5120 - ((data.length * 16)/(8 * 1024)).toFixed(2)) + ' KB' : '5 MB');\n};",
-          "x": 41548,
-          "y": 62984,
+          "x": 41848,
+          "y": 91541,
           "id": "10c794b0-2bfc-4613-9ff5-1e3e9ad773cb486"
         },
         "e68d70a9-0e47-4168-ae35-bb44461b4110486": {
@@ -4754,8 +4767,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function makeNodeJsonLine(id, label, link, x, y) {\n\tlabel = label.replace(\":\",\"\\:\");\n\tlink = link.replace(\":\",\"\\:\");\n\tvar json = \"\";\n\tjson += \"\\\"\" + id + \"\\\": { \\\"id\\\": \\\"\" + id + \"\\\",\";\n\tjson += \"\\\"x\\\": \" + x.toString() + \", \\\"y\\\": \" + y.toString() + \",\";\n\tjson += \"\\\"label\\\": \\\"\" + label + \"\\\",\";\n\tjson += \"\\\"link\\\": \\\"\" + link + \"\\\"\";\n\tjson += \"}\";\n\treturn json;\n}",
-          "x": 41362,
-          "y": 63327,
+          "x": 41662,
+          "y": 91884,
           "id": "e68d70a9-0e47-4168-ae35-bb44461b4110486"
         },
         "880081bc-e7c3-48c1-9fa7-1e638b8d8548486": {
@@ -4810,8 +4823,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function countSelectedNodesAndEdges() {\n\tvar nodes = objectToArray(network.body.data.nodes);\n\tvar edges = objectToArray(network.body.data.edges);\n\tconsole.log(\"All nodes: \" + nodes.length);\n\tconsole.log(\"All edges: \" + edges.length);\n\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\tconsole.log(\"Selected nodes: \" + selectedNodes.length);\n\tconsole.log(\"Selected edges: \" + selectedEdges.length);\n}",
-          "x": 41423,
-          "y": 63846,
+          "x": 41723,
+          "y": 92403,
           "id": "8a1e6f2a-d6a9-4a6e-9cc9-ded762b4a38d486"
         },
         "20602b12-993a-42bc-8dd6-008215220e01486": {
@@ -4841,8 +4854,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "function help() {\n   console.log(\"localStorageSpace()\");\n   console.log(\"countSelectedNodesAndEdges()\");\n   console.log(\"hideAllToDownloadNews()\");\n   console.log(\"restoreAllAfterNewsDownload()\");\n}\n",
-          "x": 41325,
-          "y": 64092,
+          "x": 41625,
+          "y": 92649,
           "id": "20602b12-993a-42bc-8dd6-008215220e01486",
           "shape": "box",
           "link": "",
@@ -4875,8 +4888,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Add new node under cursor. alt+n\n      if (event.altKey && event.keyCode === 78) {\n         var schemeDataMenuWidth = 0;\n         if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n            schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n         } else {\n            schemeDataMenuWidth = 0;\n         }\n         var lastEditedNodeId;\n         var lastEditedNode;\n         var position;\n         if (lastEditedNodesIds.length == 0) {\n            if (lastClickPosition == null) {\n               position = {\n                  x: (canvasWidth - schemeDataMenuWidth)/2,\n                  y: canvasHeight/2\n               };\n            } else {\n               position = {\n                  x: lastClickPosition.x,\n                  y: lastClickPosition.y\n               };\n            }\n            position = network.canvas.DOMtoCanvas(position);\n         } else {\n            var lastEditedNodeId = lastEditedNodesIds[lastEditedNodesIds.length - 1];\n            var lastEditedNode = getNodeFromNetworkDataById(lastEditedNodeId);\n            var lastEditDOMPosition = network.canvasToDOM({x: lastEditedNode.x, y: lastEditedNode.y});\n            if (lastEditDOMPosition.x < 0 || \n               lastEditDOMPosition.x > canvasWidth || \n               lastEditDOMPosition.y < 0 || \n               lastEditDOMPosition.y > canvasHeight) {\n               position = {\n                  x: (canvasWidth - schemeDataMenuWidth)/2,\n                  y: canvasHeight/2\n               };\n            } else {\n               var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);\n               position = {\n                  x: lastEditedNode.x,\n                  y: nodeBBox[\"top\"] + 28 + 28*lastEditedNode.label.split(\"\\n\").length/2\n               };\n            }\n         }\n         var nodeId = addNodeOnCanvas(\"\", \"\", position, 0, 0, network);\n         var node = network.body.nodes[nodeId];\n         network.selectionHandler.selectObject(node);\n         lastEditedNodesIds.push(nodeId);\n         network.manipulation.editNode();\n      }\n   });",
-          "x": 41104,
-          "y": 44685,
+          "x": 41131,
+          "y": 47681,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
           "shape": "box",
           "link": "",
@@ -4908,8 +4921,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\t$(\"#network\").keydown(function (event) {\n\t\t//Delete or Backspace\n\t\t//if (event.ctrlKey && event.keyCode === 13) {\n\t\tif (event.keyCode === 46 || event.keyCode === 8) {\n\t\t\tnetwork.manipulation.deleteSelected();\n\t\t}\n\t});",
-          "x": 41538,
-          "y": 58513,
+          "x": 41830,
+          "y": 87244,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486",
           "shape": "box",
           "link": "",
@@ -5751,7 +5764,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "var dataSourcePath = \"/home/mike/progr/repo/mm-vis-js/app/mm-vis-js_code.data.js\";\nvar url = \"https://localhost:3001\";\nvar canvasProjectName = \"mm-vis-js_code_proj1\";\nvar buildProjectName = \"mm-vis-js\";\n\nupdateMenuFromScheme([], []);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nfunction fetchData(url, params) {\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response != \"ok\") {\n             showAlert(response, 30, 170);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n   });\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   //dataChunk = JSON.stringify(dataChunk);\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: dataSourcePath,\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: canvasProjectName,\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       buildProjectName: buildProjectName,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
+          "label": "var dataSourcePath = \"/home/mike/progr/repo/mm-vis-js/app/mm-vis-js_code.data.js\";\nvar url = \"https://localhost:3001\";\nvar canvasProjectName = \"mm-vis-js_code_proj1\";\nvar buildProjectName = \"mm-vis-js\";\n\nupdateMenuFromScheme([], []);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nfunction fetchData(url, params) {\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response.lastIndexOf(\"ok - \", 0) !== 0 ) {\n             showAlert(response, 30, 170);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n   });\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\n\ndata = encodeURIComponent(data);\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\ndataChunks.forEach(function(dataChunk) {\n   dataChunk = encodeURIComponent(dataChunk);\n   var params = {\n       path: dataSourcePath,\n       dataPart: dataChunk,\n       dataPartNumber: index,\n       projectName: canvasProjectName,\n       saveTime: saveTime.getTime(),\n       dataChunksLength: dataChunks.length,\n       buildProjectName: buildProjectName,\n       lastDataPart: false\n   };\n\n   fetchData(url, params);\n   index++;\n});\n",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f554206369486",
           "x": 41549,
           "y": -17148,
@@ -6643,8 +6656,8 @@ var schemeData =
         },
         "b9f0ff34-99a9-496b-b5a9-1922a75a864f": {
           "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f",
-          "x": 41486,
-          "y": -1269,
+          "x": 41535,
+          "y": 1664,
           "label": "function showAlert(alertLine, rightShift, width) {\n        console.log(\"Alert: \" + alertLine);\n        var schemeDataMenuWidth = 0;\n        if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n                schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n        } else {\n                schemeDataMenuWidth = 59;\n        }\n        var saveAlertWidget = $(\"<div id='alertLine' style='z-index:9999;position: fixed;right:\" + String(schemeDataMenuWidth + rightShift) + \"px;top:0;font-family:sans-serif;font-size:14px; margin:5px; width:\" + String(width) + \"px;'>\" + alertLine + \"</div>\");\n        $(\"body\").append(saveAlertWidget);\n        setTimeout(() => $(\"#alertLine\").remove(), 5000);\n}",
           "shape": "box",
           "link": "",
@@ -7721,7 +7734,7 @@ var schemeData =
           "borderWidth": ""
         },
         "99fec32e-5d44-48e6-a2a2-97c0e2f78702": {
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67144,
           "y": 3114,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702",
@@ -7967,7 +7980,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Base</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Base</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67216,
           "y": 6412,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232",
@@ -8101,7 +8114,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0105, x: 121403, y: 26500};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0121, x: 112580, y: 28012};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 67920,
           "y": 8676,
           "id": "69e1c992-010c-4a23-9c38-eb54979a89de232",
@@ -8418,7 +8431,7 @@ var schemeData =
           "y": 31232
         },
         "1a74b08c-1e5c-47e7-809e-6518e2836a96": {
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title><%= pageTitle %></title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title><%= pageTitle %></title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67403,
           "y": 31202,
           "id": "1a74b08c-1e5c-47e7-809e-6518e2836a96",
@@ -9423,7 +9436,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Culture</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Culture</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67254,
           "y": 9358,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501",
@@ -9575,8 +9588,8 @@ var schemeData =
         },
         "300b60d1-7c07-4f9b-be47-0adfcff5d438": {
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438",
-          "x": 44460,
-          "y": 25798,
+          "x": 44487,
+          "y": 28794,
           "label": "updateSchemeFromMenu()",
           "shape": "box",
           "link": "",
@@ -9618,8 +9631,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "updateMenuFromScheme()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560",
-          "x": 44437,
-          "y": 26347,
+          "x": 44464,
+          "y": 29343,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9654,8 +9667,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "clearPopUp()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110",
-          "x": 44119,
-          "y": 27300,
+          "x": 44146,
+          "y": 30296,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9690,8 +9703,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "cancelEdit(callback)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983",
-          "x": 44269,
-          "y": 27446,
+          "x": 44296,
+          "y": 30442,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9726,8 +9739,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "saveData(data,callback)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836",
-          "x": 44362,
-          "y": 27599,
+          "x": 44389,
+          "y": 30595,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9762,16 +9775,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "init()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734",
-          "x": 43921,
-          "y": 27985,
+          "x": 43948,
+          "y": 30981,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "9504eef0-ca25-4f87-903f-5eb982771d0a": {
           "id": "9504eef0-ca25-4f87-903f-5eb982771d0a",
-          "x": 41136,
-          "y": 28138,
+          "x": 41163,
+          "y": 31134,
           "label": "function saveDrawingSurface() {\n   drawingSurfaceImageData = ctx.getImageData(0, 0, canvas.width, canvas.height);\n}",
           "shape": "box",
           "link": "",
@@ -9787,8 +9800,8 @@ var schemeData =
         },
         "75ea4d00-4513-4b9b-84c6-99d3b899fd47": {
           "id": "75ea4d00-4513-4b9b-84c6-99d3b899fd47",
-          "x": 41036,
-          "y": 28287,
+          "x": 41063,
+          "y": 31283,
           "label": "function restoreDrawingSurface() {\n    ctx.putImageData(drawingSurfaceImageData, 0, 0);\n}",
           "shape": "box",
           "link": "",
@@ -9832,8 +9845,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "saveDrawingSurface()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697",
-          "x": 44319,
-          "y": 28178,
+          "x": 44346,
+          "y": 31174,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9868,8 +9881,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "restoreDrawingSurface()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594",
-          "x": 44369,
-          "y": 28315,
+          "x": 44396,
+          "y": 31311,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9904,8 +9917,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "selectNodesFromHighlight()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567",
-          "x": 44444,
-          "y": 28482,
+          "x": 44471,
+          "y": 31478,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9940,8 +9953,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "getStartToEnd(start, theLen)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775",
-          "x": 44455,
-          "y": 28810,
+          "x": 44482,
+          "y": 31806,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9976,8 +9989,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "getNodesByRegexSearchInLabel(network, regex)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891",
-          "x": 44928,
-          "y": 28970,
+          "x": 44955,
+          "y": 31966,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10012,8 +10025,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "updateNodePositionData(network, node)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d4385601109836734697594567775891944",
-          "x": 44731,
-          "y": 29256,
+          "x": 44758,
+          "y": 32252,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10048,8 +10061,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "makeSaveProjectToBrowserNode(label, positionX, positionY)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453",
-          "x": 45190,
-          "y": 29562,
+          "x": 45217,
+          "y": 32558,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10084,8 +10097,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "findProjectSavesKeys()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756",
-          "x": 44345,
-          "y": 29982,
+          "x": 44372,
+          "y": 32978,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10120,8 +10133,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "deleteNodesIfTheyAreProjectSaves(network, nodes)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984",
-          "x": 44966,
-          "y": 30443,
+          "x": 44993,
+          "y": 33439,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10156,8 +10169,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "removeSaveNodes()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321",
-          "x": 44257,
-          "y": 30780,
+          "x": 44284,
+          "y": 33776,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10191,16 +10204,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "removeSaveNodes()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438560110983673469759456777589194453756984321681",
-          "x": 44257,
-          "y": 31116,
+          "x": 44284,
+          "y": 34112,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "ab4481fa-a4a1-4381-925a-fa9139633b74": {
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74",
-          "x": 44960,
-          "y": 31461,
+          "x": 44987,
+          "y": 34457,
           "label": "getProjectId(saveCanvasProjectDataNode, network)",
           "shape": "box",
           "link": "",
@@ -10242,8 +10255,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "deleteProjectLocalStorageSaves(network)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132",
-          "x": 44734,
-          "y": 31911,
+          "x": 44761,
+          "y": 34907,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10278,8 +10291,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "deleteLocalStorageSavesAndSaveNodes(network)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457",
-          "x": 44927,
-          "y": 32074,
+          "x": 44954,
+          "y": 35070,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10314,8 +10327,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveName)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414",
-          "x": 45451,
-          "y": 32238,
+          "x": 45478,
+          "y": 35234,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10350,8 +10363,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "loadSavedProjectDataToDataMenuBySaveName(network, saveName)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594",
-          "x": 45363,
-          "y": 32433,
+          "x": 45390,
+          "y": 35429,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10386,8 +10399,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "saveProjectToBrowserLocalStorage(network)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904",
-          "x": 44800,
-          "y": 32752,
+          "x": 44827,
+          "y": 35748,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10422,8 +10435,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "clearBrowserLocalStorage()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816",
-          "x": 44418,
-          "y": 33121,
+          "x": 44445,
+          "y": 36117,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10458,8 +10471,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "showBrowserLocalStorage()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571",
-          "x": 44427,
-          "y": 33342,
+          "x": 44454,
+          "y": 36338,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10494,8 +10507,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "showBrowserLocalStorageKeys()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617",
-          "x": 44538,
-          "y": 33515,
+          "x": 44565,
+          "y": 36511,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10530,8 +10543,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "addConnections(elem, index)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883",
-          "x": 44445,
-          "y": 42129,
+          "x": 44472,
+          "y": 45125,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10566,8 +10579,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "importNetwork()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465",
-          "x": 44148,
-          "y": 42440,
+          "x": 44175,
+          "y": 45436,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10602,8 +10615,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "getNodeData(data)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465666",
-          "x": 44219,
-          "y": 42635,
+          "x": 44246,
+          "y": 45631,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10638,8 +10651,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "getEdgeData(data)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697",
-          "x": 44217,
-          "y": 43002,
+          "x": 44244,
+          "y": 45998,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10674,8 +10687,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "c(x, y)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725",
-          "x": 44310,
-          "y": 62187,
+          "x": 44610,
+          "y": 90744,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10710,8 +10723,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "rdf()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732",
-          "x": 44266,
-          "y": 62610,
+          "x": 44566,
+          "y": 91167,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10746,8 +10759,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "localStorageSpace()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864",
-          "x": 44629,
-          "y": 62949,
+          "x": 44929,
+          "y": 91506,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10782,8 +10795,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "makeNodeJsonLine(id, label, link, x, y)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864375",
-          "x": 45033,
-          "y": 63314,
+          "x": 45333,
+          "y": 91871,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10854,8 +10867,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "countSelectedNodesAndEdges()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144",
-          "x": 44903,
-          "y": 63829,
+          "x": 45203,
+          "y": 92386,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10890,8 +10903,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "help()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697725732864144737",
-          "x": 44302,
-          "y": 64076,
+          "x": 44602,
+          "y": 92633,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11104,8 +11117,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "alignNodesLeft(nodes)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438612702138348974",
-          "x": 43649,
-          "y": -1869,
+          "x": 43698,
+          "y": 1064,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11138,8 +11151,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "function mkdirRecursiveSync(path, pathDelimiter) {\n    var paths = path.split(pathDelimiter);\n    var fullPath = '';\n    paths.forEach((path) => {\n\n        fullPath = fullPath + path + pathDelimiter;\n\n        if (!fs.existsSync(fullPath)) {\n            fs.mkdirSync(fullPath);\n        }\n    });\n};",
           "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531",
-          "x": 40865,
-          "y": -1075,
+          "x": 40914,
+          "y": 1858,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11174,8 +11187,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "function collectCodeNodesContent(rootCodeNodeId) {\n\tvar codeNode = getNodeFromNetworkDataById(rootCodeNodeId).label + \"\\n\";\n\tvar nodeEdges = network.body.nodes[rootCodeNodeId].edges;\n\tvar codeEdges = [];\n\tnodeEdges.forEach(function(edge) {\n\t\tif (edge.options.label == \"code\" && edge.fromId == rootCodeNodeId) {\n\t\t\tcodeEdges.push(edge);\n\t\t}\n\t});\n\tvar branchCodeNodes = [];\n\tcodeEdges.forEach(function(codeEdge) {\n\t\tbranchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));\n\t});\n\tfunction compare( a, b ) {\n\t\tif ( a.y < b.y ){\n\t\t\treturn -1;\n\t\t}\n\t\tif ( a.y > b.y ){\n\t\t\treturn 1;\n\t\t}\n\t\treturn 0;\n\t}\n\n\tvar branchCodeNodes = branchCodeNodes.sort(compare);\n\tbranchCodeNodes.forEach(function(branchNode) {\n\t\tcodeNode = codeNode + collectCodeNodesContent(branchNode.id);\n\t});\n\treturn codeNode;\n}\n",
           "id": "b9f0ff34-99a9-496b-b5a9-1922a75a864f531105",
-          "x": 40953,
-          "y": -747,
+          "x": 41002,
+          "y": 2186,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11210,8 +11223,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "showAlert(alertLine, rightShift, width)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476",
-          "x": 43960,
-          "y": -1333,
+          "x": 44009,
+          "y": 1600,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11246,8 +11259,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mkdirRecursiveSync(path, pathDelimiter)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305",
-          "x": 44054,
-          "y": -1092,
+          "x": 44103,
+          "y": 1841,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11282,8 +11295,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "collectCodeNodesContent(rootCodeNodeId)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305115",
-          "x": 44128,
-          "y": -833,
+          "x": 44177,
+          "y": 2100,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11452,7 +11465,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Ruby</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Ruby</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67209,
           "y": 12727,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501969",
@@ -11603,8 +11616,8 @@ var schemeData =
         },
         "f3d14ff2-381e-4414-b827-281e3a874d8d": {
           "id": "f3d14ff2-381e-4414-b827-281e3a874d8d",
-          "x": 40900,
-          "y": -252,
+          "x": 40949,
+          "y": 2681,
           "label": "   function findParentNodeId(nodeId) {\n      var edges = network.body.nodes[nodeId].edges;\n      if ((typeof edges === \"undefined\") || (edges.length == 0)) {\n         return nodeId;\n      }\n      var parentNodeId;\n      for (var key in edges) {\n         if (edges[key].toId == nodeId) {\n            parentNodeId = edges[key].from.id;\n         }\n      }\n      return parentNodeId;\n   }",
           "shape": "box",
           "link": "",
@@ -11620,8 +11633,8 @@ var schemeData =
         },
         "733b5c00-aede-4745-94aa-1b37be84161f": {
           "id": "733b5c00-aede-4745-94aa-1b37be84161f",
-          "x": 40887,
-          "y": -75,
+          "x": 40936,
+          "y": 2858,
           "label": "   function findTreeRootNodeId(branchNodeId) {\n      var parentNodeId = findParentNodeId(branchNodeId);\n      if (typeof parentNodeId !== \"undefined\") {\n         return findTreeRootNodeId(parentNodeId);   \n      } else {\n         return branchNodeId;\n      }\n   }",
           "shape": "box",
           "link": "",
@@ -11663,8 +11676,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "findParentNodeId(nodeId)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d438130",
-          "x": 43721,
-          "y": -232,
+          "x": 43770,
+          "y": 2701,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11699,8 +11712,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "findTreeRootNodeId(branchNodeId)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43813098",
-          "x": 43942,
-          "y": -55,
+          "x": 43991,
+          "y": 2878,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11733,9 +11746,9 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
-          "x": 41576,
-          "y": 59240,
+          "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n         $(\"#network div.vis-network\").focus();\n      }\n   });",
+          "x": 41863,
+          "y": 87980,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711",
           "shape": "box",
           "link": "",
@@ -11770,8 +11783,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement. alt+Enter\n      if (event.altKey && event.keyCode === 13) {\n         $(\"span#saveElementEditButton\").click();\n      }\n   });",
-          "x": 41576,
-          "y": 58930,
+          "x": 41868,
+          "y": 87661,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711766",
           "shape": "box",
           "link": "",
@@ -11806,8 +11819,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditElementsMenu\").keydown(function (event) {\n      //saveElement and closeElement. ctrl+Enter\n      if (event.ctrlKey && event.keyCode === 13) {\n         $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n         $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n         nodeLabelTextareaExpanded = false;\n         $(\"span#saveElementEditButton\").click();\n         $(\"span#closeElementEditButton\").click();\n      }\n   });",
-          "x": 41576,
-          "y": 59088,
+          "x": 41868,
+          "y": 87819,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa448671176664",
           "shape": "box",
           "link": "",
@@ -11842,8 +11855,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Esc\n      if (event.keyCode === 27 && document.getElementsByClassName(\"vis-back\").length == 0) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeElementEditButton\").click();\n         network.editNode();\n      }\n   });",
-          "x": 41675,
-          "y": 59426,
+          "x": 41967,
+          "y": 88157,
           "id": "6d7af570-fdce-465e-a2f1-60445c56afa4486711685",
           "shape": "box",
           "link": "",
@@ -11877,9 +11890,9 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom out. shift+alt+d\n      if (event.shiftKey && event.altKey && event.keyCode === 68) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n\n         var scale = network.getScale();\n         var newScale = scale / 1.5;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
-          "x": 41580,
-          "y": 58023,
+          "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom out. shift+alt+d\n      if (event.shiftKey && event.altKey && event.keyCode === 68) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n\n         var scale = network.getScale();\n         var newScale = scale / 1.5;\n\n         if (cursorNodeId != null) {\n                node = network.body.data.nodes.get(cursorNodeId);\n                node.font.size = 5/newScale;\n                node = network.body.data.nodes.update(node);\n         }\n\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
+          "x": 41880,
+          "y": 86580,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446",
           "shape": "box",
           "link": "",
@@ -11913,9 +11926,9 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom in. shfit+alt+f\n      if (event.shiftKey && event.altKey && event.keyCode === 70) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n         var scale = network.getScale();\n         var newScale = scale * 1.5;\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
-          "x": 41580,
-          "y": 58298,
+          "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom in. shfit+alt+f\n      if (event.shiftKey && event.altKey && event.keyCode === 70) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n\n         var scale = network.getScale();\n         var newScale = scale * 1.5;\n\n         if (cursorNodeId != null) {\n                node = network.body.data.nodes.get(cursorNodeId);\n                node.font.size = 5/newScale;\n                node = network.body.data.nodes.update(node);\n         }\n\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
+          "x": 41875,
+          "y": 86990,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446908",
           "shape": "box",
           "link": "",
@@ -11950,8 +11963,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Left align nodes. shift+alt+LeftArrow\n      if (event.shiftKey && event.altKey && event.keyCode === 37) {\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         alignNodesLeft(nodes);\n      }\n   });",
-          "x": 41623,
-          "y": 57749,
+          "x": 41923,
+          "y": 86306,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446933",
           "shape": "box",
           "link": "",
@@ -12084,8 +12097,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Toggle nodeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (nodeLabelTextareaExpanded) {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n            nodeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"580px\");\n            nodeLabelTextareaExpanded = true;\n         }\n      }\n   });\n   $(\"textarea#nodeLabelTextarea\").keydown(function (event) {\n      //Toggle nodeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (nodeLabelTextareaExpanded) {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n            nodeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"580px\");\n            nodeLabelTextareaExpanded = true;\n         }\n      }\n   });",
-          "x": 41574,
-          "y": 57426,
+          "x": 41874,
+          "y": 85983,
           "id": "83256af2-2780-4edb-87da-35273c359d5e486446933240",
           "shape": "box",
           "link": "",
@@ -12192,8 +12205,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Duplicate. Ctrl+alt+d.\n      if (event.ctrlKey && event.altKey && event.keyCode === 68) {\n         selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n         duplicateGraph(selectedNodes, selectedEdges);\n      }\n   });",
-          "x": 41638,
-          "y": 57097,
+          "x": 41938,
+          "y": 85654,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486622",
           "shape": "box",
           "link": "",
@@ -12228,8 +12241,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n                //Save canvas. Ctrl+alt+s\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 83) {\n\t\t\tvar saveOperationsParentNode;\n\t\t\tvar saveOperationsParentNodeName = \"Save operations code\";\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveOperationsParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + saveOperationsParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tsaveOperationsParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[saveOperationsParentNode.id].edges;\n\t\t\tvar saveOperationsCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == saveOperationsParentNode.id) {\n\t\t\t\t\tsaveOperationsCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof saveOperationsCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no saveOperationsCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(saveOperationsCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(saveOperationsCodeNode.id);\n\t\t}\n\t});",
-          "x": 41744,
-          "y": 56705,
+          "x": 42044,
+          "y": 85262,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486737",
           "shape": "box",
           "link": "",
@@ -12264,8 +12277,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Build project. alt+b\n      if (event.altKey && event.keyCode === 66) {\n         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 1) {\n            console.log(\"Select one node\");\n            showAlert(\"Select one node\", 80, 150);\n            return;\n         }\n         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);\n         var rootNode = getNodeFromNetworkDataById(rootNodeId);\n         var projectName = rootNode.label.replace(\"mvj code file for project name: \",\"\");\n\t\t\tvar buildProjectParentNode;\n\t\t\tvar buildProjectParentNodeName = \"buildProject code: \" + projectName;\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + buildProjectParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + buildProjectParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tbuildProjectParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[buildProjectParentNode.id].edges;\n\t\t\tvar buildProjectCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == buildProjectParentNode.id) {\n\t\t\t\t\tbuildProjectCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof buildProjectCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no buildProjectCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(buildProjectCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(buildProjectCodeNode.id);\n\t\t}\n\t});",
-          "x": 41731,
-          "y": 56165,
+          "x": 42031,
+          "y": 84722,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486441",
           "shape": "box",
           "link": "",
@@ -12300,8 +12313,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "    function editEdgeWithoutDrag(data, callback) {\n      // filling in the popup DOM elements\n      document.getElementById('edge-label').value = data.label;\n      document.getElementById('edge-saveButton').onclick = saveEdgeData.bind(this, data, callback);\n      document.getElementById('edge-cancelButton').onclick = cancelEdgeEdit.bind(this,callback);\n      document.getElementById('edge-popUp').style.display = 'block';\n    }",
-          "x": 42999,
-          "y": 11776,
+          "x": 43026,
+          "y": 14772,
           "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530",
           "shape": "box",
           "link": "",
@@ -12336,8 +12349,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "    function saveEdgeData(data, callback) {\n      if (typeof data.to === 'object')\n        data.to = data.to.id\n      if (typeof data.from === 'object')\n        data.from = data.from.id\n      data.label = document.getElementById('edge-label').value;\n      clearEdgePopUp();\n      callback(data);\n    }",
-          "x": 42879,
-          "y": 12153,
+          "x": 42906,
+          "y": 15149,
           "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530202",
           "shape": "box",
           "link": "",
@@ -12372,8 +12385,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "    function cancelEdgeEdit(callback) {\n      clearEdgePopUp();\n      callback(null);\n    }",
-          "x": 42801,
-          "y": 12012,
+          "x": 42828,
+          "y": 15008,
           "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee486530363",
           "shape": "box",
           "link": "",
@@ -12408,8 +12421,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "    function clearEdgePopUp() {\n      document.getElementById('edge-saveButton').onclick = null;\n      document.getElementById('edge-cancelButton').onclick = null;\n      document.getElementById('edge-popUp').style.display = 'none';\n    }",
-          "x": 42895,
-          "y": 11905,
+          "x": 42922,
+          "y": 14901,
           "id": "ad67e6a8-2a73-4042-aa3a-23ab75241eee48653036324",
           "shape": "box",
           "link": "",
@@ -12623,7 +12636,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; JavaScript</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; JavaScript</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67244,
           "y": 16281,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396",
@@ -12983,7 +12996,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Music</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Music</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67401,
           "y": 19971,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984",
@@ -13161,8 +13174,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Run node code. alt+r\n      if (event.altKey && event.keyCode === 82) {\n         $(\"span#runNodeCodeButton\").click();\n      }\n   });",
-          "x": 41523,
-          "y": 55843,
+          "x": 41823,
+          "y": 84400,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf4864417",
           "shape": "box",
           "link": "",
@@ -13197,8 +13210,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "function getLevelLastBranch(tree, levelNumber) {\n   var branch = tree;\n   var lastKey = tree.keys.slice(-1)[0];\n   for (var i = 0; i < levelNumber; i++) {\n      branch = branch.nodes[lastKey];\n      if (typeof branch === \"undefined\") {\n         return branch;\n      }\n      console.log(branch);\n      lastKey = branch.keys.slice(-1)[0];\n   }\n   return branch;\n}",
-          "x": 40959,
-          "y": 34657,
+          "x": 40986,
+          "y": 37653,
           "id": "6275abb8-d031-4098-851b-0e023b1aba05486499",
           "shape": "box",
           "link": "",
@@ -13233,8 +13246,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "function buildRow(item, index, root) {\n\n   var currentItemStep = item.match(/^\\s*/g)[0].split(\"    \").length - 1;\n\n   var key = index.toString();\n\n   var labelAndLink = item.trim().split(\" (http\");\n   var label = labelAndLink[0].trim();\n\n   if (root.lastItemStep < currentItemStep) {\n      var branch = {nodes:{}};\n      branch.keys = [key];\n      branch.nodes[key] = item.trim();\n      branch.maxWidth = label.length;\n      branch.itemStep = currentItemStep;\n      branch.lastItemStep = currentItemStep;\n      var parentLevel = getLevelLastBranch(root, currentItemStep - 1);\n      parentLevel.nodes[key] = branch;\n      parentLevel.keys.push(key);\n   } else {\n      var parentLevel = getLevelLastBranch(root, currentItemStep);\n      parentLevel.nodes[key] = item.trim();\n      if (parentLevel.maxWidth < label.length) {\n         parentLevel.maxWidth = label.length;\n      }\n      parentLevel.keys.push(key);\n   }\n\n   root.lastItemStep = item.match(/^\\s*/g)[0].split(\"    \").length - 1;\n\n   return root;\n}",
-          "x": 41021,
-          "y": 35130,
+          "x": 41048,
+          "y": 38126,
           "id": "6275abb8-d031-4098-851b-0e023b1aba05486347",
           "shape": "box",
           "link": "",
@@ -13269,8 +13282,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "function buildPagesNodes(level, width, alignMap, parentNodeId) {\n   var nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n   var pNode = network.getPositions()[nodeIdInput];\n   var keys = level.keys;\n   var lastNodeId;\n   level.keys.forEach(function(key, index) {\n      if (typeof level.nodes[key].nodes !== \"undefined\") {\n         var newWidth = width + level.maxWidth*14;\n         buildPagesNodes(level.nodes[key], newWidth, alignMap, lastNodeId);\n      } else {\n         var line = level.nodes[key];\n         var labelAndLink = line.split(\" (http\");\n         var label = labelAndLink[0].trim();\n         var link = \"\";\n         if (typeof labelAndLink[1] !== \"undefined\") {\n            link = \"http\" + labelAndLink[1].slice(0,-1);\n         }\n         var nodeId = addNodeOnCanvas(\n            label, \n            link,\n            {x:pNode.x, y:pNode.y}, \n            width + level.maxWidth*14/2, \n            25*parseInt(key, 10), \n            network)[0];\n         lastNodeId = nodeId;\n         if (typeof parentNodeId !== \"undefined\" && parentNodeId !== null) {\n            var edgeData = {from: parentNodeId, to: nodeId};\n            network.body.data.edges.getDataSet().add(edgeData);\n         }\n         if (typeof alignMap[keys[0]] === \"undefined\") {\n            alignMap[keys[0]] = [];\n         }\n         alignMap[keys[0]].push(network.body.nodes[nodeId]);\n      }\n   });\n}",
-          "x": 41051,
-          "y": 34035,
+          "x": 41078,
+          "y": 37031,
           "id": "6275abb8-d031-4098-851b-0e023b1aba05486621",
           "shape": "box",
           "link": "",
@@ -13305,8 +13318,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Split node label. ctrl+alt+v\n      if (event.ctrlKey && event.altKey && event.keyCode === 86) {\n         $(\"span#splitNodeListLabelButton\").click();\n      }\n   });",
-          "x": 41577,
-          "y": 55726,
+          "x": 41877,
+          "y": 84283,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf4864417111",
           "shape": "box",
           "link": "",
@@ -13314,8 +13327,8 @@ var schemeData =
         },
         "ce984e4d-6305-4607-be28-7a3bf6cd0723": {
           "id": "ce984e4d-6305-4607-be28-7a3bf6cd0723",
-          "x": 41033,
-          "y": 35908,
+          "x": 41060,
+          "y": 38904,
           "label": "   function splitNodeLabelToList(nodeId) {\n      var sourceNode = getNodeFromNetworkDataById(nodeId);\n      var nodeLabel = sourceNode.label.trim();\n      var pNode = network.getPositions()[nodeId];\n      var labelLines;\n      if (nodeLabel.split(\"!@!@\").length > 1) {\n         labelLines = nodeLabel.split(\"\\n!@!@\\n\");\n      } else {\n         labelLines = nodeLabel.split(\"\\n\");\n      }\n      var newLabelLines = [];\n      labelLines.forEach(function(line) {\n         if (line.length > 0) newLabelLines.push(line);\n      });\n      var nodeBBox = network.nodesHandler.getBoundingBox(nodeId);\n      var y = nodeBBox[\"top\"];\n      var newNodesIds = [];\n      if (newLabelLines[0] == \"to\") {\n         newLabelLines.shift();\n         var root = {nodes:{}};\n         root.itemStep = 0;\n         root.lastItemStep = 0;\n         root.maxWidth = 0;\n         root.keys = []\n         newLabelLines.forEach(function(line,index) {\n            root = buildRow(line, index, root);\n         });\n         var alignMap = {};\n         buildPagesNodes(root, 600, alignMap, null);\n         for (var key in alignMap) {\n            //console.log(key);\n            alignNodesLeft(alignMap[key]);\n         }\n      } else if (newLabelLines[0] == \"tg\") {\n         newLabelLines.shift();\n         newLabelLines.forEach(function(line,index) {\n            console.log(line);\n            buildThemeGraph(line, pNode.x + 500, pNode.y + 1500*index);\n            network.body.data.nodes.add({\n   \t       label:line,\n   \t       x: pNode.x + 7000,\n   \t       y: pNode.y + 1500*index,\n               font: {size: 1000},\n               color: {background:\"#ffc63b\"} \n            });\n         });\n      } else {\n         newLabelLines.forEach(function(line,index) {\n            var position = {\n               x: pNode.x + 300,\n               y: y + (14*line.split(\"\\n\").length)/2\n            };\n            var nodeId = addNodeOnCanvas(line, \"\", position, 0, 0, network);\n            newNodesIds.push(nodeId);\n            y = y + 14*line.split(\"\\n\").length + 10;\n         });\n         var nodes = [];\n         newNodesIds.forEach(function(nodeId) {      \n            nodes.push(network.body.nodes[nodeId]);\n         });\n         alignNodesLeft(nodes);\n      }\n   }",
           "shape": "box",
           "link": "",
@@ -13359,8 +13372,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "splitNodeLabelToList(nodeId)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617647",
-          "x": 44445,
-          "y": 35872,
+          "x": 44472,
+          "y": 38868,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -15017,7 +15030,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; mm-vis-js code</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; mm-vis-js code</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67451,
           "y": 23377,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f7870223250196986396984833",
@@ -15330,7 +15343,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Research</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Research</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 83639,
           "y": -17231,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f787022325019698639698483",
@@ -15643,7 +15656,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; hh_sa_20191202</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; hh_sa_20191202</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 83639,
           "y": -12792,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f787022325019698639698483323",
@@ -15945,8 +15958,8 @@ var schemeData =
         },
         "7fe77c8a-ef14-4e0a-8d24-888fe99f82d5": {
           "id": "7fe77c8a-ef14-4e0a-8d24-888fe99f82d5",
-          "x": 41560,
-          "y": 55594,
+          "x": 41860,
+          "y": 84151,
           "label": "   $(document).keyup(function (event) {\n      //move view to position from birdView variable. alt+h\n      if (event.altKey && event.keyCode === 72) {\n         if(typeof birdView !== \"undefined\") {\n            moveViewTo(birdView.x, birdView.y, birdView.scale);\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -16124,7 +16137,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; hh_sa_req_20191202_1</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; hh_sa_req_20191202_1</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 83611,
           "y": -9129,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f787022325019698639698483323689",
@@ -16437,7 +16450,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; hh_sa_req_20191202_2</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; hh_sa_req_20191202_2</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 83651,
           "y": -5259,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f787022325019698639698483323689533",
@@ -16750,7 +16763,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; hh_sa_req_20191202_3</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; hh_sa_req_20191202_3</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 83670,
           "y": -1378,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f787022325019698639698483323689533730",
@@ -17063,7 +17076,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Math</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Math</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 83670,
           "y": 2685,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f787022325019698639698483323689533730302",
@@ -17399,7 +17412,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Code</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Code</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 83780,
           "y": 6817,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f787022325019698639698483323689533730302452",
@@ -17622,8 +17635,8 @@ var schemeData =
         },
         "06783d1e-6e8f-430c-8995-6ef9c859971f": {
           "id": "06783d1e-6e8f-430c-8995-6ef9c859971f",
-          "x": 41146,
-          "y": 4552,
+          "x": 41195,
+          "y": 7485,
           "label": "function calcSymPy(symPyData, codeNodeId) {\n   var url = \"https://localhost:3001/sympy\";\n   \n   var nodesPositions = network.getPositions();\n   var mathScriptNodeP = nodesPositions[codeNodeId];\n   \n   var mathScriptNode = getNodeFromNetworkDataById(codeNodeId);\n   mathScriptNode.x = mathScriptNodeP.x;\n   mathScriptNode.y = mathScriptNodeP.y;\n   network.body.data.nodes.update(mathScriptNode);\n   \n   function fetchData(url, params, mathScriptNodeP) {\n      var calcResult = \"\";\n      url = url + \"?origin=*\";\n      Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n   \n      fetch(url)\n          .then(function(response){\n             return response.json();})\n          .then(function(response) {\n             calcResult = response;\n\n             console.log(response);\n             var symPyData = JSON.parse(response);\n             console.log(symPyData);\n             var mathScriptNode = network.body.nodes[codeNodeId];\n             var topY = mathScriptNode.y - mathScriptNode.shape.height/2;\n             var maxBranchWidth = 0;\n             var resultBranches = [];\n             if (typeof symPyData[\"plotImgName\"] !== 'undefined') {\n                var d = new Date();\n                var millis = String(d.getTime());\n                var imgPath = servUrl + publicImgsPath + symPyData[\"plotImgName\"] + \"?\" + millis;\n                console.log(imgPath);\n                var imgNodeId = network.body.data.nodes.add([{\n                   label: \"\",\n                   image: imgPath,\n                   shape: \"image\",\n                   size: 200,\n                   x:mathScriptNodeP.x + mathScriptNode.shape.width/2 + 300,\n                   y:mathScriptNodeP.y,\n                   font: {face: \"monospace\"}\n                }])[0];\n                var imgNode = network.body.nodes[imgNodeId];\n                imgNode.imageObj.image.crossOrigin = \"Anonymous\";\n                imgNode.y = topY + imgNode.shape.height/2;\n                topY = topY + imgNode.shape.height;\n                network.body.data.edges.add({\n                   from:codeNodeId,\n                   to:imgNodeId\n                });\n                resultBranches.push(imgNode);\n                if (imgNode.shape.width > maxBranchWidth) maxBranchWidth = imgNode.shape.width;\n             }\n             if (typeof symPyData[\"latexImgName\"] !== 'undefined') {\n                var d = new Date();\n                var millis = String(d.getTime());\n                var imgPath = servUrl + publicImgsPath + symPyData[\"latexImgName\"] + \"?\" + millis;\n                console.log(imgPath);\n                var imgNodeId = network.body.data.nodes.add([{\n                   label: \"\",\n                   image: imgPath,\n                   shape: \"image\",\n                   size: 70,\n                   x:mathScriptNodeP.x + mathScriptNode.shape.width/2 + 300,\n                   y:mathScriptNodeP.y,\n                   font: {face: \"monospace\"}\n                }])[0];\n                var imgNode = network.body.nodes[imgNodeId];\n                imgNode.imageObj.image.crossOrigin = \"Anonymous\";\n                imgNode.y = topY + imgNode.shape.height/2;\n                topY = topY + imgNode.shape.height;\n                network.body.data.edges.add({\n                   from:codeNodeId,\n                   to:imgNodeId\n                });\n                resultBranches.push(imgNode);\n                if (imgNode.shape.width > maxBranchWidth) maxBranchWidth = imgNode.shape.width;\n             }\n             if (typeof symPyData[\"expression\"] !== 'undefined') {\n                var nodeId = network.body.data.nodes.add([{\n                   label: symPyData[\"expression\"],\n                   x:mathScriptNodeP.x + mathScriptNode.shape.width/2 + 300,\n                   y:mathScriptNodeP.y,\n                   font: {face: \"monospace\"}\n                }])[0];\n                var node = network.body.nodes[nodeId];\n                node.y = topY + node.shape.height/2;\n                network.body.data.edges.add({\n                   from:codeNodeId,\n                   to:nodeId\n                });\n                resultBranches.push(node);\n                if (node.shape.width > maxBranchWidth) maxBranchWidth = node.shape.width;\n             }\n             for (var i=0; i < resultBranches.length; i++) {\n                resultBranches[i].x = mathScriptNodeP.x + mathScriptNode.shape.width/2 + 200 + maxBranchWidth/2;\n             }\n          })\n          .catch(function(error){\n             console.log(error);\n          });\n      return calcResult;\n   }\n   \n   dataChunk = encodeURIComponent(symPyData);\n   var params = {\n      dataPart: dataChunk,\n      codeNodeId: codeNodeId\n   };\n   \n   fetchData(url, params, mathScriptNodeP);\n}",
           "shape": "box",
           "link": "",
@@ -17667,8 +17680,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "calcSymPy(symPyData, codeNodeId)",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305115215",
-          "x": 44067,
-          "y": 4025,
+          "x": 44116,
+          "y": 6958,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17703,8 +17716,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "buildRow(item, index, root)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788349",
-          "x": 44384,
-          "y": 35096,
+          "x": 44411,
+          "y": 38092,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17739,8 +17752,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "buildPagesNodes(level, width, alignMap, parentNodeId)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788349107",
-          "x": 45036,
-          "y": 33810,
+          "x": 45063,
+          "y": 36806,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17775,8 +17788,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "getLevelLastBranch(tree, levelNumber)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b741324574145949048165716178834915",
-          "x": 44655,
-          "y": 34612,
+          "x": 44682,
+          "y": 37608,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17845,8 +17858,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "runNodeCodeButton.click(function() {",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883968",
-          "x": 44618,
-          "y": 40271,
+          "x": 44645,
+          "y": 43267,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -18015,7 +18028,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Python</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Python</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 83989,
           "y": 13847,
           "id": "99fec32e-5d44-48e6-a2a2-97c0e2f787022325019698639698483323689533730302452650",
@@ -18166,8 +18179,8 @@ var schemeData =
         },
         "126f62c5-afbc-4d5a-9c4f-b357b3f866a8": {
           "id": "126f62c5-afbc-4d5a-9c4f-b357b3f866a8",
-          "x": 41941,
-          "y": 4004,
+          "x": 41990,
+          "y": 6937,
           "label": "sympy\nfrom sympy import *\nfrom sympy import Symbol, sin\nfrom sympy.plotting import plot, textplot\nimport json\njsonData = {}\n\n#t = Symbol('t')\n\nx, y, z, t = symbols('x y z t')\n\ninteg = Integral((x**6 + x**2*exp(x) - x**2 - 2*x*exp(x) - 2*x - exp(x))*exp(x)/((x - 1)**2*(x + 1)**2*(exp(x) + 1)), x)\n\nexpression1 = sin(t)*t\n\njsonData['expression'] = str(expression1)\n#jsonData['latexLine'] = latex(integ)\n#jsonData['latexImgName'] = 'latexImg.png'\n\np = plot(expression1, 0, 15, show=False)\n\njsonData['plotImgName'] = 'plot.png'\np.save(jsonData['plotImgName'])\n\nprint(json.dumps(jsonData))",
           "shape": "box",
           "link": "",
@@ -18542,7 +18555,7 @@ var schemeData =
           "id": "4ecc0d48-3088-436d-981e-4c4297d86f44",
           "x": 22360,
           "y": -10602,
-          "label": "var buildData = {\n   \"dataFilesNamesList\": [\n      \"index.data.js\",\n      \"mm-vis-js_code.data.js\",\n      \"mm-vis-js_docs.data.js\",\n      \"base.data.js\",\n      \"culture.data.js\",\n      \"ruby.data.js\",\n      \"javascript.data.js\",\n      \"python.data.js\",\n      \"music.data.js\",\n      \"math.data.js\",\n      \"code.data.js\",\n      \"engineering.data.js\",\n      \"news1.data.js\",\n      \"news2.data.js\"\n      ],\n      \"codeNodeId\": codeNodeId,\n      \"nodesColumn1\": [],\n      \"nodesColumn2\": [],\n      \"pagesDatasMap\": {},\n      \"statsSchemeShiftY\": 2000\n   }; ",
+          "label": "var buildData = {\n   \"dataFilesNamesList\": [\n      \"index.data.js\",\n      \"mm-vis-js_code.data.js\",\n      \"mm-vis-js_docs.data.js\",\n      \"base.data.js\",\n      \"culture.data.js\",\n      \"ruby.data.js\",\n      \"javascript.data.js\",\n      \"python.data.js\",\n      \"music.data.js\",\n      \"math.data.js\",\n      \"code.data.js\",\n      \"engineering.data.js\",\n      \"news1.data.js\",\n      \"news2.data.js\",\n      \"news3.data.js\",\n      \"timelines.data.js\"\n      ],\n      \"codeNodeId\": codeNodeId,\n      \"nodesColumn1\": [],\n      \"nodesColumn2\": [],\n      \"pagesDatasMap\": {},\n      \"statsSchemeShiftY\": 2000\n   }; ",
           "shape": "box",
           "link": "",
           "font": {
@@ -21025,7 +21038,7 @@ var schemeData =
           "id": "100eff1f-2de6-4e02-ae43-700c710aaae4",
           "x": 83915,
           "y": 17935,
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Engineering</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Engineering</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "shape": "box",
           "link": "",
           "font": {
@@ -21054,7 +21067,7 @@ var schemeData =
           "id": "bc30156b-9e7c-4b12-b60f-d5abb12a3135",
           "x": 84677,
           "y": 20305,
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.010, x: 131496, y: 27654};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"engineering.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0105, x: 129833, y: 28660};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"engineering.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "shape": "box",
           "link": "",
           "font": {
@@ -21235,7 +21248,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; Admin</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Admin</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "100eff1f-2de6-4e02-ae43-700c710aaae4544",
           "x": 83790,
           "y": 10117,
@@ -21705,8 +21718,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "function buildThemeGraph(themeGraphLabel, x, y) {\n   var newNode1Id = network.body.data.nodes.add({\n   \tlabel: themeGraphLabel,\n   \tx: x,\n   \ty: y,\n   \tfont: {size: 72},\n   \tcolor: {background:\"red\"}\n   })[0];\n   var newNode2Id = network.body.data.nodes.add({\n   \tlabel:\"Development\",\n   \tx: x+300,\n   \ty: y+450 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:newNode2Id\n   });\n   var newNode4Id = network.body.data.nodes.add({\n   \tlabel:(new Date().toLocaleDateString()),\n   \tx: x+450,\n   \ty: y+450 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode2Id,\n   \tto:newNode4Id\n   });\n   var newNode3Id = network.body.data.nodes.add({\n   \tlabel:\"init\",\n   \tx: x+550,\n   \ty: y+450 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode4Id,\n   \tto:newNode3Id\n   });\n   var newNode5Id = network.body.data.nodes.add({\n   \tlabel:\"Notes\",\n   \tx: x+300,\n   \ty: y-400 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:newNode5Id\n   });\n   var newNode6Id = network.body.data.nodes.add({\n   \tlabel:\"Dictionary of\\nconcepts\",\n   \tx: x+450,\n   \ty: y-650 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode5Id,\n   \tto:newNode6Id\n   });\n   var newNode7Id = network.body.data.nodes.add({\n   \tlabel:\"Details, thoughts\",\n   \tx: x+450,\n   \ty: y-400\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode5Id,\n   \tto:newNode7Id\n   });\n   var sectionsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Sections\",\n   \tx: x+450,\n   \ty: y-150\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode5Id,\n   \tto:sectionsNodeId\n   });\n   var booksNodeId = network.body.data.nodes.add({\n   \tlabel:\"Books\",\n   \tx: x+550,\n   \ty: y-300\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:booksNodeId\n   });\n   var rDInstitutionsNodeId = network.body.data.nodes.add({\n   \tlabel:\"R&D institutions\",\n   \tx: x+550,\n   \ty: y-275\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:rDInstitutionsNodeId\n   });\n   var sitesNodeId = network.body.data.nodes.add({\n   \tlabel:\"Sites\",\n   \tx: x+550,\n   \ty: y-250\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:sitesNodeId\n   });\n   var magazinesNodeId = network.body.data.nodes.add({\n   \tlabel:\"Magazines\",\n   \tx: x+550,\n   \ty: y-225\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:magazinesNodeId\n   });\n   var articlesNodeId = network.body.data.nodes.add({\n   \tlabel:\"Articles\",\n   \tx: x+550,\n   \ty: y-200\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:articlesNodeId\n   });\n   var mediaContentNodeId = network.body.data.nodes.add({\n   \tlabel:\"Media content\",\n   \tx: x+550,\n   \ty: y-175\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:mediaContentNodeId\n   });\n   var miscWebLinksNodeId = network.body.data.nodes.add({\n   \tlabel:\"Misc. web links\",\n   \tx: x+550,\n   \ty: y-150\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:miscWebLinksNodeId\n   });\n   var projectsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Projects\",\n   \tx: x+550,\n   \ty: y-125\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:projectsNodeId\n   });\n   var toolsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Tools\",\n   \tx: x+550,\n   \ty: y-100\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:toolsNodeId\n   });\n   var organizationsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Organizations\",\n   \tx: x+550,\n   \ty: y-75\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:organizationsNodeId\n   });\n   var standartsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Standarts\",\n   \tx: x+550,\n   \ty: y-50\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:standartsNodeId\n   });\n   var forumsGroupsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Forums, Groups\",\n   \tx: x+550,\n   \ty: y-25\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:forumsGroupsNodeId\n   });\n   var lawsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Laws\",\n   \tx: x+550,\n   \ty: y\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:lawsNodeId\n   });\n   var adjacentThemesNodeId = network.body.data.nodes.add({\n   \tlabel:\"Adjacent Themes\",\n   \tx: x+550,\n   \ty: y+25\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:adjacentThemesNodeId\n   });\n   var questionsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Questions\",\n   \tx: x+300,\n   \ty: y+150\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:questionsNodeId\n   });\n   var problemsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Problems\",\n   \tx: x+300,\n   \ty: y+250\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:problemsNodeId\n   });\n   var goalsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Goals\",\n   \tx: x+300,\n   \ty: y+350\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:goalsNodeId\n   });\n   newNodesIds1 = [\n      booksNodeId,\n      rDInstitutionsNodeId,\n      sitesNodeId,\n      magazinesNodeId,\n      articlesNodeId,\n      mediaContentNodeId,\n      miscWebLinksNodeId,\n      projectsNodeId,\n      toolsNodeId,\n      organizationsNodeId,\n      standartsNodeId,\n      forumsGroupsNodeId,\n      lawsNodeId,\n      adjacentThemesNodeId\n   ];\n   var nodes1 = [];\n   newNodesIds1.forEach(function(nodeId) {\n      nodes1.push(network.body.nodes[nodeId]);\n   });\n   alignNodesLeft(nodes1);\n   newNodesIds2 = [\n      newNode5Id,\n      questionsNodeId,\n      problemsNodeId,\n      goalsNodeId,\n      newNode2Id\n   ];\n   var nodes2 = [];\n   newNodesIds2.forEach(function(nodeId) {\n      nodes2.push(network.body.nodes[nodeId]);\n   });\n   alignNodesLeft(nodes2);\n   newNodesIds3 = [\n      newNode6Id,\n      newNode7Id,\n      sectionsNodeId,\n      newNode4Id\n   ];\n   var nodes3 = [];\n   newNodesIds3.forEach(function(nodeId) {\n      nodes3.push(network.body.nodes[nodeId]);\n   });\n   alignNodesLeft(nodes3);\n}",
-          "x": 40978,
-          "y": 7699,
+          "x": 41005,
+          "y": 10695,
           "id": "a0b6e8f4-c46c-4faf-9e58-60c14cd2d4b1486246",
           "shape": "box",
           "link": "",
@@ -21742,16 +21755,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "buildThemeGraph()",
           "id": "300b60d1-7c07-4f9b-be47-0adfcff5d43861270213834897476305115215945",
-          "x": 43651,
-          "y": 5848,
+          "x": 43678,
+          "y": 8844,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "8b4df428-1242-4ee7-a8f3-f95eda27bcc6": {
           "id": "8b4df428-1242-4ee7-a8f3-f95eda27bcc6",
-          "x": 43931,
-          "y": 18613,
+          "x": 43958,
+          "y": 21609,
           "label": "onClick(e)",
           "shape": "box",
           "link": "",
@@ -21767,8 +21780,8 @@ var schemeData =
         },
         "4a213276-9127-4772-9d3d-98569b237a6e": {
           "id": "4a213276-9127-4772-9d3d-98569b237a6e",
-          "x": 43998,
-          "y": 18753,
+          "x": 44025,
+          "y": 21749,
           "label": "doOnClick(e)",
           "shape": "box",
           "link": "",
@@ -21784,8 +21797,8 @@ var schemeData =
         },
         "47723499-25e0-4da2-86f8-cf9b23eabd3b": {
           "id": "47723499-25e0-4da2-86f8-cf9b23eabd3b",
-          "x": 44090,
-          "y": 19230,
+          "x": 44117,
+          "y": 22226,
           "label": "onDoubleClick(e)",
           "shape": "box",
           "link": "",
@@ -21833,16 +21846,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\nvar labels = [];\nselectedNodes.forEach(function(node) {\n   var nodeLabel = node.options.label;\n   nodeLabel = nodeLabel.replace(\" - Wikipedia\",\"\");\n   nodeLabel = nodeLabel.replace(\" — Википедия\",\"\");\n   nodeLabel = nodeLabel.replace(\" — Вікіпедія\",\"\");\n   labels.push(nodeLabel);\n});\n\nvar screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\nnetwork.body.data.nodes.add([{\n   label:labels.join(\"\\n\"),\n   x:screenCenterPosition.x,\n   y:screenCenterPosition.y\n}]);",
           "id": "94ad5af3-17eb-425f-bed0-1a6b628d408b204",
-          "x": 22996,
-          "y": -4675,
+          "x": 22980,
+          "y": -4814,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "05d777ad-4cba-4d00-945c-304393dce2bf": {
           "id": "05d777ad-4cba-4d00-945c-304393dce2bf",
-          "x": 41650,
-          "y": 53929,
+          "x": 41950,
+          "y": 82486,
           "label": "   $(document).keyup(function (event) {\n      //Save view by n number. No nodes must be selected. ctrl+alt+n\n      if (event.altKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length == 0) {\n            var scale = network.getScale();\n            var position = network.getViewPosition();\n            viewsSaves[event.keyCode] = {position: position, scale: scale};\n            console.log(event.keyCode);\n            console.log(scale);\n            console.log(position);\n            console.log(viewsSaves);\n         }\n         \n      }\n   });",
           "shape": "box",
           "link": "",
@@ -21858,8 +21871,8 @@ var schemeData =
         },
         "f1395ce8-921b-4237-a1d7-bc64297c87a0": {
           "id": "f1395ce8-921b-4237-a1d7-bc64297c87a0",
-          "x": 41698,
-          "y": 54657,
+          "x": 41998,
+          "y": 83214,
           "label": "   $(document).keyup(function (event) {\n      //Move clipboard nodes by n number to last click position. ctrl+alt+n\n      if (event.shiftKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         //clipboard[event.keyCode] = selectedNodes;\n         console.log(event.keyCode);\n         console.log(clipboard);\n         console.log(clipboard[event.keyCode]);\n         var nodesToMove = clipboard[event.keyCode];\n         if (typeof nodesToMove !== \"undefined\" && nodesToMove !== null && nodesToMove.length != 0) {\n            var positions = network.getPositions();\n            var maxLeftX = positions[nodesToMove[0].id].x;\n            var maxTopY = positions[nodesToMove[0].id].y;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  if (positions[node.id].x < maxLeftX) maxLeftX = positions[node.id].x;\n                  if (positions[node.id].y < maxTopY) maxTopY = positions[node.id].y;\n               }\n            });\n            var lastClickCanvasPosition = network.canvas.DOMtoCanvas(lastClickPosition);\n            var moveShiftX = lastClickCanvasPosition.x - maxLeftX;\n            var moveShiftY = lastClickCanvasPosition.y - maxTopY;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  var pNode = positions[node.id];\n                  var x = pNode.x + moveShiftX;\n                  var y = pNode.y + moveShiftY;\n                  network.nodesHandler.moveNode(node.id, x, y);\n               }\n            });\n         }\n\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -21875,8 +21888,8 @@ var schemeData =
         },
         "f8a7231e-4609-4679-a1e9-ac991e535649": {
           "id": "f8a7231e-4609-4679-a1e9-ac991e535649",
-          "x": 41575,
-          "y": 53478,
+          "x": 41875,
+          "y": 82035,
           "label": "   $(document).keyup(function (event) {\n      //move to saved view position. shift+alt+n\n      if (event.shiftKey && event.altKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var view = viewsSaves[event.keyCode];\n         if (typeof view !== \"undefined\" && view !== null) {\n            var newPosition = network.canvasToDOM(view.position);\n            moveViewTo(view.position.x, view.position.y, view.scale);\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -22208,51 +22221,16 @@ var schemeData =
           "y": 6385,
           "id": "8601c362-a5de-41b8-85c2-f6cab3ba9708"
         },
-        "e47a9e42-47db-4155-8a2e-b4373ce5fb9d": {
-          "id": "e47a9e42-47db-4155-8a2e-b4373ce5fb9d",
-          "x": 22059,
-          "y": -4176,
-          "label": "Get Youtube channel name\nfrom link"
-        },
-        "9ad22bee-87c0-49fd-a3f8-a9358a3e4161": {
-          "id": "9ad22bee-87c0-49fd-a3f8-a9358a3e4161",
-          "x": 23037,
-          "y": -3840,
-          "label": "function makeYoutubeChannelNodeForVidNode(linkNode, urlString) {\n\nvar params = {\n   urlString: linkNode.options.link\n};\n\nurl = \"https://localhost:3001/getWebPage\" + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nfetch(url)\n       .then(function(response){\n          return response.json();\n       })\n       .then(function(response) {\n          var data = response.trim();\n          var parser = new DOMParser();\n          var xmlDoc = parser.parseFromString(data,\"text/html\");\n\n          var rslt1 = xmlDoc.evaluate('//div[@class=\"yt-user-info\"]/a', xmlDoc, null, XPathResult.ANY_TYPE, null);\n          var channelName = rslt1.iterateNext().text;\n\n          var rslt2 = xmlDoc.evaluate('//span[@id=\"eow-title\"]', xmlDoc, null, XPathResult.ANY_TYPE, null);\n          var vidName = rslt2.iterateNext().textContent.trim();\n\n          var rslt3 = xmlDoc.evaluate('//div[@class=\"yt-user-info\"]/a', xmlDoc, null, XPathResult.ANY_TYPE, null);\n          var channelLink = \"https://www.youtube.com\" + rslt3.iterateNext().getAttribute(\"href\");\n\n          var nodesPositions = network.getPositions();\n   \n          var node = getNodeFromNetworkDataById(linkNode.id);\n          node.x = nodesPositions[linkNode.id].x;\n          node.y = nodesPositions[linkNode.id].y;\n          network.body.data.nodes.update(node);\n          node = network.body.nodes[node.id];\n\n          nodeId = network.body.data.nodes.add([{\n             label: channelName + \" - YouTube\",\n             link: channelLink + \"/videos\",\n             x:node.x - node.shape.width/2 - 300,\n             y:node.y,\n          }])[0];\n          network.body.data.edges.add({\n             from:node.id,\n             to:nodeId\n          });\n\n       })\n    .catch(function(error){console.log(error);});\n}\n\nvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\nselectedNodes.forEach(function(node) {\n   makeYoutubeChannelNodeForVidNode(node);\n})",
-          "shape": "box",
-          "link": "",
-          "font": {
-            "size": 14,
-            "align": "left"
-          },
-          "color": {
-            "background": "#ffd570",
-            "border": ""
-          },
-          "borderWidth": ""
-        },
-        "c42438ad-e335-4f62-87ec-d768eba189bf": {
-          "id": "c42438ad-e335-4f62-87ec-d768eba189bf",
-          "x": 24072,
-          "y": -4140,
-          "label": "<span id=\"eow-title\" class=\"watch-title\" dir=\"ltr\" title=\"Building A Large Post Frame Garage Full Time-lapse Construction: NEVER BEFORE SEEN FOOTAGE\">\n    Building A Large Post Frame Garage Full Time-lapse Construction: NEVER BEFORE SEEN FOOTAGE\n  </span>\n"
-        },
-        "3bbe827e-459e-49ea-8225-82a3d3e7d087": {
-          "id": "3bbe827e-459e-49ea-8225-82a3d3e7d087",
-          "x": 24147,
-          "y": -4052,
-          "label": "  <div class=\"yt-user-info\">\n    <a href=\"/channel/UCWXEQsK3UiHszjwgGN5HUeQ\" class=\"yt-uix-sessionlink       spf-link \" data-sessionlink=\"itct=CC4Q4TkiEwi-r6Wv9-zmAhVZBIkKHSngDVU\" >RR Buildings</a>\n  </div>"
-        },
         "b6757a8e-9f2e-49e4-8216-2bcd680fefe5": {
           "id": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5",
-          "x": 22795,
-          "y": -3273,
+          "x": 22774,
+          "y": -4375,
           "label": "countSelectedNodesAndEdges()"
         },
         "c30b409a-d1fa-460a-b112-3572e4ca1c09": {
           "id": "c30b409a-d1fa-460a-b112-3572e4ca1c09",
-          "x": 22079,
-          "y": -3271,
+          "x": 22058,
+          "y": -4373,
           "label": "Count selected nodes and edges"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf214259939318955559920683201134866932325019698639698483323689533730302452650283598244": {
@@ -22417,7 +22395,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; News 1</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; News 1</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "100eff1f-2de6-4e02-ae43-700c710aaae4244",
           "x": 84015,
           "y": 21792,
@@ -22884,8 +22862,8 @@ var schemeData =
         },
         "9c31a3a9-ab1a-49d4-a3df-db8d141e2ddb": {
           "id": "9c31a3a9-ab1a-49d4-a3df-db8d141e2ddb",
-          "x": 41797,
-          "y": 52556,
+          "x": 42097,
+          "y": 81113,
           "label": "   $(document).keyup(function (event) {\n      //wrap-unwrap tree. alt+g\n      if (event.altKey && event.keyCode == 71 ) {\n\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         \n         var rootNode = selectedNodes[0];\n         \n         var nodesPositions = network.getPositions();\n\n         function collectNodesYPositions(nodeId, rootNode, nodesPositions) {\n\n            var nodeEdges = network.body.nodes[nodeId].edges;\n            var codeEdges = [];\n            nodeEdges.forEach(function(edge) {\n               if (edge.fromId == nodeId) {\n                  codeEdges.push(edge);\n               }\n            });\n\n            var branchCodeNodes = [];\n            codeEdges.forEach(function(codeEdge) {\n               branchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));\n            });\n            var branchesPositionsData = [];\n            branchCodeNodes.forEach(function(branchNode) {\n               branchesPositionsData.push({\n                  top: network.body.nodes[branchNode.id].shape.top,\n                  height: network.body.nodes[branchNode.id].shape.height\n               });\n               branchesPositionsData = branchesPositionsData.concat(collectNodesYPositions(branchNode.id, rootNode, nodesPositions));\n            });\n            return branchesPositionsData;\n         }\n\n         var branchesPositionsData = collectNodesYPositions(rootNode.id, rootNode, nodesPositions);\n\n            function compareBPD( a, b ) {\n               if ( a.top < b.top ){\n                  return -1;\n               }\n               if ( a.top > b.top ){\n                  return 1;\n               }\n               return 0;\n            }\n\n            branchesPositionsData = branchesPositionsData.sort(compareBPD);\n\n         var needToUnwrap = false;\n         var lastBranchPositionData = null;\n         for (var i = 0; i < branchesPositionsData.length; i++) {\n            if (lastBranchPositionData != null) {\n               var lastNodeBottom = lastBranchPositionData.top + lastBranchPositionData.height;\n               if (lastNodeBottom > branchesPositionsData[i].top) {\n                  needToUnwrap = true;\n                  break;\n               }\n            }\n            lastBranchPositionData = branchesPositionsData[i];\n         }\n         \n         if (needToUnwrap) {\n\n            unwrapNodeBranches(rootNode.id);\n         \n         } else {\n\n            wrapNodeBranches(rootNode.id);\n         \n         }\n         \n      }\n   });",
           "shape": "box",
           "link": "",
@@ -22901,14 +22879,14 @@ var schemeData =
         },
         "07a43a85-f17d-4f35-8a2c-76994a374304": {
           "id": "07a43a85-f17d-4f35-8a2c-76994a374304",
-          "x": 40792,
-          "y": 224,
+          "x": 40841,
+          "y": 3157,
           "label": "function uniq_fast(a) {\n    var seen = {};\n    var out = [];\n    var len = a.length;\n    var j = 0;\n    for(var i = 0; i < len; i++) {\n         var item = a[i];\n         if(seen[item] !== 1) {\n               seen[item] = 1;\n               out[j++] = item;\n         }\n    }\n    return out;\n}"
         },
         "f7643dba-2e87-40ab-a4d9-74ed78314b4b": {
           "id": "f7643dba-2e87-40ab-a4d9-74ed78314b4b",
-          "x": 43408,
-          "y": 254,
+          "x": 43457,
+          "y": 3187,
           "label": "uniq_fast(a)",
           "shape": "box",
           "link": "",
@@ -22924,8 +22902,8 @@ var schemeData =
         },
         "d98b31e2-36f3-4cb2-9437-0c754b7f1742": {
           "id": "d98b31e2-36f3-4cb2-9437-0c754b7f1742",
-          "x": 41037,
-          "y": 648,
+          "x": 41086,
+          "y": 3581,
           "label": "            function wrapNodeBranches(rootNodeId) {\n\n               var nodesPositions = network.getPositions();\n\n               var yStep = nodesPositions[rootNodeId].y;\n               \n               function wrapTree(nodeId, yStep, nodesPositions) {\n                  var nodeEdges = network.body.nodes[nodeId].edges;\n                  var codeEdges = [];\n                  nodeEdges.forEach(function(edge) {\n                     if (edge.fromId == nodeId) {\n                        codeEdges.push(edge);\n                     }\n                  });\n               \n                  var branchCodeNodes = [];\n                  codeEdges.forEach(function(codeEdge) {\n                     branchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));\n                  });\n               \n                  function compare( a, b ) {\n                     if ( nodesPositions[a.id].y < nodesPositions[b.id].y ){\n                        return -1;\n                     }\n                     if ( nodesPositions[a.id].y > nodesPositions[b.id].y ){\n                        return 1;\n                     }\n                     return 0;\n                  }\n\n                  branchCodeNodes = branchCodeNodes.sort(compare);\n                  branchCodeNodes.forEach(function(branchNode) {\n                     yStep = yStep + 0.01;\n                     network.nodesHandler.moveNode(branchNode.id, nodesPositions[branchNode.id].x, yStep);\n                     wrapTree(branchNode.id, yStep, nodesPositions);\n                  });\n               }\n               \n               wrapTree(rootNodeId, yStep, nodesPositions);\n            }",
           "shape": "box",
           "link": "",
@@ -22941,8 +22919,8 @@ var schemeData =
         },
         "27002b24-58e1-400d-bb34-4c15791e8125": {
           "id": "27002b24-58e1-400d-bb34-4c15791e8125",
-          "x": 41037,
-          "y": 1408,
+          "x": 41086,
+          "y": 4341,
           "label": "            function unwrapNodeBranches(rootNodeId) { \n\n               var nodesPositions = network.getPositions();\n\n               var yStep = nodesPositions[rootNodeId].y + network.body.nodes[rootNodeId].shape.height/2;\n               \n               function unwrapTree(nodeId, yStep, nodesPositions) {\n                  var nodeEdges = network.body.nodes[nodeId].edges;\n                  var codeEdges = [];\n                  nodeEdges.forEach(function(edge) {\n                     if (edge.fromId == nodeId) {\n                        codeEdges.push(edge);\n                     }\n                  });\n               \n                  var branchCodeNodes = [];\n                  codeEdges.forEach(function(codeEdge) {\n                     branchCodeNodes.push(network.body.nodes[codeEdge.toId]);\n                  });\n\n                  function compare( a, b ) {\n                     if ( a.y < b.y ){\n                        return -1;\n                     }\n                     if ( a.y > b.y ){\n                        return 1;\n                     }\n                     return 0;\n                  }\n\n                  branchCodeNodes = branchCodeNodes.sort(compare);\n                  branchCodeNodes.forEach(function(branchNode) {\n                     branchNode = network.body.nodes[branchNode.id];\n                     yStep = yStep + branchNode.shape.height/2;\n                     network.nodesHandler.moveNode(branchNode.id, nodesPositions[branchNode.id].x, yStep);\n                     yStep = yStep + branchNode.shape.height/2;\n                     yStep = unwrapTree(branchNode.id, yStep, nodesPositions);\n                  });\n                  return yStep\n               }\n               \n               unwrapTree(rootNodeId, yStep, nodesPositions);\n            }",
           "shape": "box",
           "link": "",
@@ -22958,8 +22936,8 @@ var schemeData =
         },
         "20ffa841-eedb-4ced-ad4e-2191565db5dd": {
           "id": "20ffa841-eedb-4ced-ad4e-2191565db5dd",
-          "x": 43865,
-          "y": 585,
+          "x": 43914,
+          "y": 3518,
           "label": "wrapNodeBranches(rootNodeId)",
           "shape": "box",
           "link": "",
@@ -22975,8 +22953,8 @@ var schemeData =
         },
         "54477bd9-caad-41ca-b500-2f11033bf690": {
           "id": "54477bd9-caad-41ca-b500-2f11033bf690",
-          "x": 43921,
-          "y": 1331,
+          "x": 43970,
+          "y": 4264,
           "label": "unwrapNodeBranches(rootNodeId)",
           "shape": "box",
           "link": "",
@@ -23019,8 +22997,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "function duplicateGraph(nodes, edges) {\n\t\t\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\t\t\tvar nodes = [];\n                        var nodesPositions = network.getPositions();\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tvar nodeD = getNodeFromNetworkDataById(node.id);\n\t\t\t\tpNode = nodesPositions[node.id];\n\t\t\t\tnodeD.x = pNode.x;\n\t\t\t\tnodeD.y = pNode.y;\n\t\t\t\tnetwork.body.data.nodes.update(nodeD);\n\n\t\t\t\tnodes.push(getNodeFromNetworkDataById(node.id));\n\t\t\t});\n\t\t\tvar edges = []\n\t\t\tselectedEdges.forEach(function(edge) {\n\t\t\t\tedges.push(network.body.data.edges.get(edge.id));\n\t\t\t});\n\n\t\t\tvar data = {\n\t\t\t\tnodes: {},\n\t\t\t\tedges: {}\n\t\t\t};\n\t\t\t\n\t\t\tnodes1ToCopy = {}; \n\t\t\tnodes.forEach(function(item) {\n\t\t\t\tnodes1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.nodes = nodes1ToCopy;\n\n\t\t\tvar edges1ToCopy = {}; \n\t\t\tedges.forEach(function(item) {\n\t\t\t\tedges1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.edges = edges1ToCopy;\n\t\t\tvar label = JSON.stringify(data, undefined, 1);\n\t\t\tvar data = JSON.parse(label);\n\t\t\tvar date = new Date();\n\t\t\tvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\tobjectToArray(data.nodes).forEach(function(node) {\n\t\t\t\tnode.id = node.id + idPostfix;\n\t\t\t\tnode.y = node.y; \n\t\t\t\tvar newNode = network.nodesHandler.create(node);\n\t\t\t\tnetwork.body.data.nodes.add(newNode.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newNode);\n\t\t\t});\n\t\t\tobjectToArray(data.edges).forEach(function(edge) {\n\t\t\t\tedge.id = edge.id + idPostfix;\t\n\t\t\t\tedge.from = edge.from + idPostfix;\n\t\t\t\tedge.to = edge.to + idPostfix;\n\t\t\t\tvar newEdge = network.edgesHandler.create(edge);\n\t\t\t\tnetwork.body.data.edges.add(newEdge.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newEdge);\n\t\t\t});\n\t\t\tnetwork.selectionHandler.setSelection(network.selectionHandler.getSelection());\n   return data;\n}",
-          "x": 41025,
-          "y": 2764,
+          "x": 41074,
+          "y": 5697,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf48662212",
           "shape": "box",
           "link": "",
@@ -23028,8 +23006,8 @@ var schemeData =
         },
         "3151cae6-fe6a-4a02-8e9d-2e76f9e5accc": {
           "id": "3151cae6-fe6a-4a02-8e9d-2e76f9e5accc",
-          "x": 43819,
-          "y": 2553,
+          "x": 43868,
+          "y": 5486,
           "label": "duplicateGraph(nodes, edges)",
           "shape": "box",
           "link": "",
@@ -23094,16 +23072,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Jump to nodes with same label. alt+j\n      if (event.altKey && event.keyCode == 74 ) {\n\n         var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes)[0];\n\n   if (jumpNavigationData == null && typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] === \"undefined\") {\n      showAlert(\"Select one node to jump to nodes with same name\", 60, 190);\n      return;\n   }\n         \n   //If node is selected and there were no jumps before or there is different label on selected node.\n   if ((typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] !== \"undefined\") && \n         (jumpNavigationData == null || jumpNavigationData.label != selectedNode.options.label)) {\n\n      var nodes = network.body.data.nodes.get();\n\n      var foundNodes = [];\n\n      nodes.forEach(function(node) {\n         if (node.id != selectedNode.id && node.label == selectedNode.options.label) {\n            foundNodes.push(node);\n         }\n      });\n      \n      if (foundNodes.length == 0) {\n         showAlert(\"No nodes with same name\", 60, 190);\n         return;\n      }\n\n      if (foundNodes.length > 50) {\n         showAlert(\"Too big list of jump nodes. More than 50.\", 60, 190);\n         return;\n      }\n\n      //first node in the list will be \"selectedNode\" - so we start scrolling through nodes from second node\n      //in this list\n      foundNodes = [selectedNode].concat(foundNodes);\n\n      var nodesPositions = network.getPositions();\n\n      foundNodes.forEach(function(node) {\n         var nodeD = getNodeFromNetworkDataById(node.id);\n         pNode = nodesPositions[node.id];\n         nodeD.x = pNode.x;\n         nodeD.y = pNode.y;\n         network.body.data.nodes.update(nodeD);\n      });\n\n      jumpNavigationData = {\n         label: selectedNode.options.label,\n         foundNodes: foundNodes,\n         lastJumpNodeNumber: 0\n      };\n      var jumpNumber = 1;\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   } else {\n      var jumpNumber = null;\n      if (jumpNavigationData.lastJumpNodeNumber == jumpNavigationData.foundNodes.length - 1) {\n         jumpNumber = 0;\n      } else {\n         jumpNumber = jumpNavigationData.lastJumpNodeNumber + 1;\n      }\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   }\n       \n      }\n   });",
           "id": "9c31a3a9-ab1a-49d4-a3df-db8d141e2ddb798",
-          "x": 41792,
-          "y": 51200,
+          "x": 42092,
+          "y": 79757,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a": {
           "id": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a",
-          "x": 41676,
-          "y": 50392,
+          "x": 41976,
+          "y": 78949,
           "label": "   $(document).keyup(function (event) {\n      //Move/restore branches of selected node to/from dataCash. alt+y\n      if (event.altKey && event.keyCode === 89) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length == 0) return;\n\n         var branchesNodesAndEdges = getTreeNodesAndEdges(selectedNodes[0].id);\n\n         if (branchesNodesAndEdges.nodes.length > 0) {\n\n            hideNodeBranchesToDataCash(selectedNodes[0].id, null);\n\n         } else {\n\n            restoreNodeBranchesFromDataCash(selectedNodes[0].id);\n\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -23119,8 +23097,8 @@ var schemeData =
         },
         "aa02d46e-4683-46d4-81c5-7ad116f07d84": {
           "id": "aa02d46e-4683-46d4-81c5-7ad116f07d84",
-          "x": 44304,
-          "y": 51044,
+          "x": 44894,
+          "y": 79596,
           "label": "Jump to nodes with same label. alt+j",
           "shape": "box",
           "link": "",
@@ -23136,8 +23114,8 @@ var schemeData =
         },
         "afd90e25-5eff-4f35-bace-ab9297196cbd": {
           "id": "afd90e25-5eff-4f35-bace-ab9297196cbd",
-          "x": 44924,
-          "y": 50322,
+          "x": 45514,
+          "y": 78874,
           "label": "Move/restore branches of selected node to/from dataCash. alt+y",
           "shape": "box",
           "link": "",
@@ -23153,8 +23131,8 @@ var schemeData =
         },
         "9322d3d4-9ca8-4d6f-b672-d32e6245ba2f": {
           "id": "9322d3d4-9ca8-4d6f-b672-d32e6245ba2f",
-          "x": 44006,
-          "y": 52439,
+          "x": 44622,
+          "y": 80991,
           "label": "Wrap-unwrap tree. alt+g",
           "shape": "box",
           "link": "",
@@ -23170,8 +23148,8 @@ var schemeData =
         },
         "3ce03729-ac45-47ac-9ca7-e034bac76a40": {
           "id": "3ce03729-ac45-47ac-9ca7-e034bac76a40",
-          "x": 44354,
-          "y": 53477,
+          "x": 44971,
+          "y": 82029,
           "label": "Move to saved view position. shift+alt+n",
           "shape": "box",
           "link": "",
@@ -23187,8 +23165,8 @@ var schemeData =
         },
         "7c9ed249-9e09-4ebc-aafc-aaf6771cc41c": {
           "id": "7c9ed249-9e09-4ebc-aafc-aaf6771cc41c",
-          "x": 44931,
-          "y": 54620,
+          "x": 45548,
+          "y": 83172,
           "label": "Move clipboard nodes by n number to last click position. ctrl+alt+n",
           "shape": "box",
           "link": "",
@@ -23204,8 +23182,8 @@ var schemeData =
         },
         "c803da61-02c9-4d76-b375-f9ffb885e2ad": {
           "id": "c803da61-02c9-4d76-b375-f9ffb885e2ad",
-          "x": 44856,
-          "y": 53887,
+          "x": 45473,
+          "y": 82439,
           "label": "Save view by n number. No nodes must be selected. ctrl+alt+n",
           "shape": "box",
           "link": "",
@@ -23221,8 +23199,8 @@ var schemeData =
         },
         "f6e9de98-d009-4bfd-b73e-1eec308bca20": {
           "id": "f6e9de98-d009-4bfd-b73e-1eec308bca20",
-          "x": 44594,
-          "y": 55596,
+          "x": 45210,
+          "y": 84148,
           "label": "Move view to position from birdView variable. alt+h",
           "shape": "box",
           "link": "",
@@ -23238,8 +23216,8 @@ var schemeData =
         },
         "79b7de50-90a8-4e96-855b-b5d356365712": {
           "id": "79b7de50-90a8-4e96-855b-b5d356365712",
-          "x": 44042,
-          "y": 55726,
+          "x": 44658,
+          "y": 84278,
           "label": "Split node label. ctrl+alt+v",
           "shape": "box",
           "link": "",
@@ -23255,8 +23233,8 @@ var schemeData =
         },
         "4d5bc4c3-2832-42d8-b667-27919acf4577": {
           "id": "4d5bc4c3-2832-42d8-b667-27919acf4577",
-          "x": 43935,
-          "y": 55843,
+          "x": 44552,
+          "y": 84395,
           "label": "Run node code. alt+r",
           "shape": "box",
           "link": "",
@@ -23272,8 +23250,8 @@ var schemeData =
         },
         "19892cfa-9734-416d-9461-c36666ad64dc": {
           "id": "19892cfa-9734-416d-9461-c36666ad64dc",
-          "x": 43882,
-          "y": 56097,
+          "x": 44498,
+          "y": 84649,
           "label": "Build project. alt+b",
           "shape": "box",
           "link": "",
@@ -23289,8 +23267,8 @@ var schemeData =
         },
         "e80dcc00-7e7f-420f-bb38-4917ac0e0b12": {
           "id": "e80dcc00-7e7f-420f-bb38-4917ac0e0b12",
-          "x": 43997,
-          "y": 56624,
+          "x": 44613,
+          "y": 85176,
           "label": "Save canvas. Ctrl+alt+s",
           "shape": "box",
           "link": "",
@@ -23306,8 +23284,8 @@ var schemeData =
         },
         "1311c77a-5997-4e62-abf0-5eb2dce2cd86": {
           "id": "1311c77a-5997-4e62-abf0-5eb2dce2cd86",
-          "x": 43921,
-          "y": 57002,
+          "x": 44538,
+          "y": 85554,
           "label": "Duplicate. Ctrl+alt+d",
           "shape": "box",
           "link": "",
@@ -23323,8 +23301,8 @@ var schemeData =
         },
         "f209f63b-31b4-4dab-99a2-f5b25c2475f5": {
           "id": "f209f63b-31b4-4dab-99a2-f5b25c2475f5",
-          "x": 44569,
-          "y": 57257,
+          "x": 45186,
+          "y": 85809,
           "label": "Toggle nodeLabel textarea expansion. ctrl+Space",
           "shape": "box",
           "link": "",
@@ -23340,8 +23318,8 @@ var schemeData =
         },
         "eb205932-26d5-4927-9d89-9c609b8ba254": {
           "id": "eb205932-26d5-4927-9d89-9c609b8ba254",
-          "x": 44268,
-          "y": 57740,
+          "x": 44885,
+          "y": 86292,
           "label": "Left align nodes. shift+alt+LeftArrow",
           "shape": "box",
           "link": "",
@@ -23357,8 +23335,8 @@ var schemeData =
         },
         "6944dc22-2f00-4e53-8a72-6c48f3921d93": {
           "id": "6944dc22-2f00-4e53-8a72-6c48f3921d93",
-          "x": 43939,
-          "y": 58033,
+          "x": 44555,
+          "y": 86585,
           "label": "Zoom out. shift+alt+d",
           "shape": "box",
           "link": "",
@@ -23374,8 +23352,8 @@ var schemeData =
         },
         "2046851b-30f6-4595-b956-3d2266015728": {
           "id": "2046851b-30f6-4595-b956-3d2266015728",
-          "x": 43894,
-          "y": 58253,
+          "x": 44510,
+          "y": 86940,
           "label": "Zoom in. shfit+alt+f",
           "shape": "box",
           "link": "",
@@ -23391,8 +23369,8 @@ var schemeData =
         },
         "8915a7e3-8d20-4ce0-a233-dbefebc066d9": {
           "id": "8915a7e3-8d20-4ce0-a233-dbefebc066d9",
-          "x": 43931,
-          "y": 58439,
+          "x": 44547,
+          "y": 87212,
           "label": "Delete or Backspace",
           "shape": "box",
           "link": "",
@@ -23408,8 +23386,8 @@ var schemeData =
         },
         "0369c175-9e5d-4966-8cbb-f45161e27480": {
           "id": "0369c175-9e5d-4966-8cbb-f45161e27480",
-          "x": 43683,
-          "y": 58613,
+          "x": 44300,
+          "y": 87339,
           "label": "ctrl+Enter",
           "shape": "box",
           "link": "",
@@ -23425,8 +23403,8 @@ var schemeData =
         },
         "4f6c3041-f780-4054-8684-5e50fe7f3cf0": {
           "id": "4f6c3041-f780-4054-8684-5e50fe7f3cf0",
-          "x": 44132,
-          "y": 58765,
+          "x": 44748,
+          "y": 87491,
           "label": "Cancel node edit. Esc  //ToFix",
           "shape": "box",
           "link": "",
@@ -23442,8 +23420,8 @@ var schemeData =
         },
         "3825f42e-bd5d-4e64-94d5-fa6e22cee18f": {
           "id": "3825f42e-bd5d-4e64-94d5-fa6e22cee18f",
-          "x": 43988,
-          "y": 58904,
+          "x": 44604,
+          "y": 87630,
           "label": "saveElement. alt+Enter",
           "shape": "box",
           "link": "",
@@ -23459,8 +23437,8 @@ var schemeData =
         },
         "ef63ccd2-82a5-40b0-98e0-d9ce8138e118": {
           "id": "ef63ccd2-82a5-40b0-98e0-d9ce8138e118",
-          "x": 44414,
-          "y": 59085,
+          "x": 45031,
+          "y": 87811,
           "label": "saveElement and closeElement. ctrl+Enter",
           "shape": "box",
           "link": "",
@@ -23476,8 +23454,8 @@ var schemeData =
         },
         "ff0bcb7e-317b-475f-bf4b-91b27724f05c": {
           "id": "ff0bcb7e-317b-475f-bf4b-91b27724f05c",
-          "x": 44054,
-          "y": 59255,
+          "x": 44670,
+          "y": 87981,
           "label": "Close node left menu. Esc",
           "shape": "box",
           "link": "",
@@ -23493,8 +23471,8 @@ var schemeData =
         },
         "850ef55c-faf4-42f7-8e19-3189a281ee89": {
           "id": "850ef55c-faf4-42f7-8e19-3189a281ee89",
-          "x": 43959,
-          "y": 59412,
+          "x": 44576,
+          "y": 88138,
           "label": "Cancel add node. Esc",
           "shape": "box",
           "link": "",
@@ -23510,8 +23488,8 @@ var schemeData =
         },
         "2bc2b193-8945-46df-b73d-a225be987934": {
           "id": "2bc2b193-8945-46df-b73d-a225be987934",
-          "x": 43956,
-          "y": 59614,
+          "x": 44573,
+          "y": 88340,
           "label": "Cancel node edit. Esc",
           "shape": "box",
           "link": "",
@@ -23527,8 +23505,8 @@ var schemeData =
         },
         "83c66b99-a9ce-4f92-b760-f7bc3144a5dc": {
           "id": "83c66b99-a9ce-4f92-b760-f7bc3144a5dc",
-          "x": 44036,
-          "y": 59989,
+          "x": 44653,
+          "y": 88715,
           "label": "Connect nodes. ctrl+alt+c",
           "shape": "box",
           "link": "",
@@ -23597,14 +23575,14 @@ var schemeData =
         },
         "fa3ffd35-e96c-4e2c-8505-74f814e6c304": {
           "id": "fa3ffd35-e96c-4e2c-8505-74f814e6c304",
-          "x": 41015,
-          "y": 2017,
+          "x": 41064,
+          "y": 4950,
           "label": "function create_UUID(){\n    var dt = new Date().getTime();\n    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n        var r = (dt + Math.random()*16)%16 | 0;\n        dt = Math.floor(dt/16);\n        return (c=='x' ? r :(r&0x3|0x8)).toString(16);\n    });\n    return uuid;\n}"
         },
         "307accc0-a295-41e7-afb6-fec308e7ef94": {
           "id": "307accc0-a295-41e7-afb6-fec308e7ef94",
-          "x": 43466,
-          "y": 1982,
+          "x": 43515,
+          "y": 4915,
           "label": "create_UUID()",
           "shape": "box",
           "link": "",
@@ -23620,8 +23598,8 @@ var schemeData =
         },
         "d3dc26bd-9637-42f5-adab-314965cf56fa": {
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa",
-          "x": 41387,
-          "y": 64590,
+          "x": 41687,
+          "y": 93147,
           "label": "function hideAllToDownloadNews(selectedNodesIds, selectedEdgesIds) {\n   var nodes = objectToArray(network.body.nodes);\n   var edges = objectToArray(network.body.edges);\n   var nodesToHide = [];\n   var edgesToHide = [];\n   nodes.forEach(function(node) {\n      var node = getNodeFromNetworkDataById(node.id);\n      if ((typeof node.label !== \"undefined\" && \n         node.label != \"newsList\" &&\n         node.label.match(/.*\\| Feed Node/) == null &&\n         node.label.match(/.*download news code.*/) == null &&\n         (typeof node.link === \"undefined\" || (\n         typeof node.link !== \"undefined\" &&\n         node.link.match(/.*youtube.*videos.*/) == null))) ||\n         selectedNodesIds.indexOf(node.id) === -1) {\n         nodesToHide.push(node);\n      }\n   });\n   edges.forEach(function(edge) {\n      var edge = getEdgeFromNetworkDataById(edge.id);\n      var nodeFrom = getNodeFromNetworkDataById(edge.from);\n      var nodeTo = getNodeFromNetworkDataById(edge.to);\n      if ((typeof nodeFrom.label !== \"undefined\" &&\n          nodeFrom.label.match(/.*\\| Feed Node/) == null &&\n          typeof nodeTo.label !== \"undefined\" &&\n          nodeTo.label != \"newsList\" &&\n          (typeof nodeFrom.link === \"undefined\" || (\n          typeof nodeFrom.link !== \"undefined\" &&\n          nodeFrom.link.match(/.*youtube.*videos.*/) == null))) ||\n         selectedEdgesIds.indexOf(edge.id) === -1) {\n         edgesToHide.push(edge);\n      }\n\n   });\n\n   dataCash[\"hideAllForNewsDownload\"] = {\n      nodes: nodesToHide,\n      edges: edgesToHide\n   };\n\n   var removeNodesIds = [];\n   nodesToHide.forEach(function(node, index) {\n      removeNodesIds.push(node.id);\n   });\n   var removeEdgesIds = [];\n   edgesToHide.forEach(function(edge, index) {\n      removeEdgesIds.push(edge.id);\n   });\n   updateMenuFromScheme(removeNodesIds, removeEdgesIds);\n   updateSchemeFromMenu([],[]);\n}",
           "shape": "box",
           "link": "",
@@ -23637,8 +23615,8 @@ var schemeData =
         },
         "59b475d3-aabb-4fff-997a-ce7f3ef85dfa": {
           "id": "59b475d3-aabb-4fff-997a-ce7f3ef85dfa",
-          "x": 44739,
-          "y": 64412,
+          "x": 45039,
+          "y": 92969,
           "label": "hideAllToDownloadNews()",
           "shape": "box",
           "link": "",
@@ -23680,16 +23658,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "function restoreAllAfterNewsDownload() {\n   var branchesNodesAndEdges = dataCash[\"hideAllForNewsDownload\"];\n   if (typeof branchesNodesAndEdges === \"undefined\") return;\n   updateMenuFromScheme([],[]);\n   updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n   delete dataCash[\"hideAllForNewsDownload\"];\n   updateMenuFromScheme([],[]);\n}",
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa132",
-          "x": 41512,
-          "y": 65614,
+          "x": 41812,
+          "y": 94171,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "2467cfd5-27ba-460c-bc11-4855563ed9da": {
           "id": "2467cfd5-27ba-460c-bc11-4855563ed9da",
-          "x": 44893,
-          "y": 65489,
+          "x": 45193,
+          "y": 94046,
           "label": "restoreAllAfterNewsDownload()",
           "shape": "box",
           "link": "",
@@ -23705,8 +23683,8 @@ var schemeData =
         },
         "c4142c7b-7db2-496f-bb44-eaf22bd6546f": {
           "id": "c4142c7b-7db2-496f-bb44-eaf22bd6546f",
-          "x": 44213,
-          "y": 44602,
+          "x": 44837,
+          "y": 47593,
           "label": "Add new node under cursor. alt+n",
           "shape": "box",
           "link": "",
@@ -23722,8 +23700,8 @@ var schemeData =
         },
         "894544fa-919d-4712-8966-b20a30cb0365": {
           "id": "894544fa-919d-4712-8966-b20a30cb0365",
-          "x": 40919,
-          "y": 60794,
+          "x": 41211,
+          "y": 89525,
           "label": "});\n//End of $(document).ready(",
           "shape": "box",
           "link": "",
@@ -23741,7 +23719,18 @@ var schemeData =
           "id": "02b914ad-323d-40e0-a615-c89d6d843ecb",
           "x": 40988,
           "y": -4079,
-          "label": "function getTreeNodesAndEdges(rootNodeId) {\n\n   var nodeEdges = network.body.nodes[rootNodeId].edges;\n\n   var rootBranchesEdges = [];\n   nodeEdges.forEach(function(edge) {\n      if (edge.fromId == rootNodeId) {\n         rootBranchesEdges.push(getEdgeFromNetworkDataById(edge.id));\n      }\n   });\n\n   var branchNodes = [];\n   rootBranchesEdges.forEach(function(rootBranchesEdge) {\n      branchNodes.push(getNodeFromNetworkDataById(rootBranchesEdge.to));\n   });\n\n   var branchesNodesAndEdges = {\n      nodes:  [],\n      edges: rootBranchesEdges\n   };\n\n   branchNodes.forEach(function(branchNode) {\n      branchesNodesAndEdges.nodes.push(getNodeFromNetworkDataById(branchNode.id));\n      var branchesData = getTreeNodesAndEdges(branchNode.id);\n      branchesNodesAndEdges.nodes = branchesNodesAndEdges.nodes.concat(branchesData.nodes);\n      branchesNodesAndEdges.edges = branchesNodesAndEdges.edges.concat(branchesData.edges);\n   });\n   return branchesNodesAndEdges;\n}"
+          "label": "function getTreeNodesAndEdges(rootNodeId) {\n\n   if (typeof network.body.nodes[rootNodeId] === \"undefined\") {\n      return null;\n   }\n\n   var nodeEdges = network.body.nodes[rootNodeId].edges;\n\n   var rootBranchesEdges = [];\n   nodeEdges.forEach(function(edge) {\n      if (edge.fromId == rootNodeId) {\n         rootBranchesEdges.push(getEdgeFromNetworkDataById(edge.id));\n      }\n   });\n\n   var branchNodes = [];\n   rootBranchesEdges.forEach(function(rootBranchesEdge) {\n      branchNodes.push(getNodeFromNetworkDataById(rootBranchesEdge.to));\n   });\n\n   var branchesNodesAndEdges = {\n      nodes:  [],\n      edges: rootBranchesEdges\n   };\n\n   branchNodes.forEach(function(branchNode) {\n      branchesNodesAndEdges.nodes.push(getNodeFromNetworkDataById(branchNode.id));\n      var branchesData = getTreeNodesAndEdges(branchNode.id);\n      branchesNodesAndEdges.nodes = branchesNodesAndEdges.nodes.concat(branchesData.nodes);\n      branchesNodesAndEdges.edges = branchesNodesAndEdges.edges.concat(branchesData.edges);\n   });\n   return branchesNodesAndEdges;\n}",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "4e1047f8-6276-46c1-af15-f120703779d5": {
           "id": "4e1047f8-6276-46c1-af15-f120703779d5",
@@ -23779,8 +23768,8 @@ var schemeData =
         },
         "a69d2f2f-1558-4f7c-bd51-8353cf88680c": {
           "id": "a69d2f2f-1558-4f7c-bd51-8353cf88680c",
-          "x": 41020,
-          "y": -2551,
+          "x": 41069,
+          "y": 382,
           "label": "            function restoreNodeBranchesFromDataCash(nodeId) {\n\n               console.log(\"restoreNodeBranchesFromDataCash\");\n               var branchesNodesAndEdges = dataCash[nodeId];\n               if (typeof branchesNodesAndEdges === \"undefined\") return;\n\n               updateMenuFromScheme([],[]);\n   \n               updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n               var nodesPositions = network.getPositions();\n\n               var xShift = null;\n               if (typeof branchesNodesAndEdges.rootPosition !== \"undefined\") {\n                  xShift = nodesPositions[nodeId].x - branchesNodesAndEdges.rootPosition.x;\n               }\n\n               var yStep = nodesPositions[nodeId].y + network.body.nodes[nodeId].shape.height/2;\n               \n               branchesNodesAndEdges.nodes.forEach(function(node) {\n                  branchNode = network.body.nodes[node.id];\n                  if (node.shape == \"image\") {\n                     console.log(branchNode);\n                     console.log(node);\n                     branchNode.imageObj.image.crossOrigin = \"Anonymous\";\n                     var imgHeight = branchNode.shape.height;\n                     if (typeof node.imgHeight !== \"undefined\") {\n                        if (node.imgHeight < node.imgWidth) {\n                           imgHeight = 400;\n                        } else {\n                           imgHeight = 400*node.imgHeight/node.imgWidth;\n                        }\n                     }\n                     yStep = yStep + imgHeight/2;\n                     branchNode.y = yStep;\n                     yStep = yStep + imgHeight/2;\n                  } else {\n                     yStep = yStep + branchNode.shape.height/2;\n                     branchNode.y = yStep;\n                     yStep = yStep + branchNode.shape.height/2;\n                  }\n\n                  if (xShift != null) branchNode.x = branchNode.x + xShift;\n\n               });\n\n               var rootNode = getNodeFromNetworkDataById(nodeId);\n               rootNode.borderWidth = \"0\";\n               network.body.data.nodes.update(rootNode);\n\n               delete dataCash[nodeId];\n               updateMenuFromScheme([],[]);\n\n            }",
           "shape": "box",
           "link": "",
@@ -23796,9 +23785,9 @@ var schemeData =
         },
         "da3927c9-4db5-47b0-93c1-b158ad52d20f": {
           "id": "da3927c9-4db5-47b0-93c1-b158ad52d20f",
-          "x": 44006,
-          "y": -3557,
-          "label": "hideNodeBranchesToDataCash(nodeId)",
+          "x": 44652,
+          "y": -3562,
+          "label": "hideNodeBranchesToDataCash(nodeId, branchesNodesAndEdges)",
           "shape": "box",
           "link": "",
           "font": {
@@ -23813,8 +23802,8 @@ var schemeData =
         },
         "20a27618-ca4d-4625-a32c-42320410f3e9": {
           "id": "20a27618-ca4d-4625-a32c-42320410f3e9",
-          "x": 44131,
-          "y": -2799,
+          "x": 44180,
+          "y": 134,
           "label": "restoreNodeBranchesFromDataCash(nodeId)",
           "shape": "box",
           "link": "",
@@ -23830,8 +23819,8 @@ var schemeData =
         },
         "8eba84e7-39bf-4c70-a466-299eb149aee4": {
           "id": "8eba84e7-39bf-4c70-a466-299eb149aee4",
-          "x": 41915,
-          "y": 64771,
+          "x": 42215,
+          "y": 93328,
           "label": "Hide selected nodes and edges"
         },
         "d3dc26bd-9637-42f5-adab-314965cf56fa273": {
@@ -23862,16 +23851,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "function hideSelected() {\n   var nodesToHide = [];\n   var edgesToHide = [];\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n   selectedNodes.forEach(function(node) {\n      var node = getNodeFromNetworkDataById(node.id);\n      nodesToHide.push(node);\n   });\n   selectedEdges.forEach(function(edge) {\n      var edge = getEdgeFromNetworkDataById(edge.id);\n      edgesToHide.push(edge);\n   });\n\n   dataCash[\"hideSelected\"] = {\n      nodes: nodesToHide,\n      edges: edgesToHide\n   };\n\n   var removeNodesIds = [];\n   nodesToHide.forEach(function(node, index) {\n      removeNodesIds.push(node.id);\n   });\n   var removeEdgesIds = [];\n   edgesToHide.forEach(function(edge, index) {\n      removeEdgesIds.push(edge.id);\n   });\n   updateMenuFromScheme(removeNodesIds, removeEdgesIds);\n   updateSchemeFromMenu([],[]);\n}",
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa273",
-          "x": 42403,
-          "y": 64894,
+          "x": 42703,
+          "y": 93451,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "36c3a231-f006-4c23-a591-011ec950efd2": {
           "id": "36c3a231-f006-4c23-a591-011ec950efd2",
-          "x": 42108,
-          "y": 65739,
+          "x": 42408,
+          "y": 94296,
           "label": "Restore selected and hidden nodes and edges"
         },
         "d3dc26bd-9637-42f5-adab-314965cf56fa132846": {
@@ -23904,16 +23893,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "function restoreSelected() {\n   var branchesNodesAndEdges = dataCash[\"hideSelected\"];\n   if (typeof branchesNodesAndEdges === \"undefined\") return;\n   updateMenuFromScheme([],[]);\n   updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n   delete dataCash[\"hideSelected\"];\n   updateMenuFromScheme([],[]);\n}",
           "id": "d3dc26bd-9637-42f5-adab-314965cf56fa132846",
-          "x": 42684,
-          "y": 65824,
+          "x": 42984,
+          "y": 94381,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "8500e2c6-c969-497d-a117-924e1bcb2c91": {
           "id": "8500e2c6-c969-497d-a117-924e1bcb2c91",
-          "x": 41848,
-          "y": 19857,
+          "x": 41889,
+          "y": 23150,
           "label": "function runNodeMenuItems(e) {\n   var pointer = {x: e.pageX, y: e.pageY};\n   var menuNode = network.selectionHandler.getNodeAt(pointer);\n   if (typeof menuNode !== \"undefined\" &&\n       nodesDropDownMenuNodesIds.indexOf(menuNode.id) != -1) {\n      var rootNodeId = getNodeFromNetworkDataById(menuNode.id).menuRootNodeId;\n      var label = menuNode.options.label;\n      var lines = label.split(\"\\n\");\n      var linesCount = lines.length;\n      var menuNodeHeight = menuNode.shape.textSize.height;\n      var menuItemsHeight = menuNodeHeight/linesCount;\n      var canvasPointer = network.canvas.DOMtoCanvas(pointer);\n      var fromMenuTopToClickPoint = canvasPointer.y - menuNode.shape.top - menuNode.shape.margin.top - 1;\n      var menuLineNumber = (fromMenuTopToClickPoint - (fromMenuTopToClickPoint % menuItemsHeight)) / menuItemsHeight;\n      console.log(menuLineNumber);  \n      console.log(\"menuLineNumber: \" + lines[menuLineNumber]);\n      if (lines[menuLineNumber] == \"Restore node's branches (alt+y)\") {\n         restoreNodeBranchesFromDataCash(rootNodeId);\n      }\n      if (lines[menuLineNumber] == \"Wrap node's branches (alt+y)\") {\n         hideNodeBranchesToDataCash(rootNodeId, null);\n      }\n      if (lines[menuLineNumber] == \"Open node link. In new tab. (alt+l)\") {\n         var rootNode = getNodeFromNetworkDataById(rootNodeId);\n         if (typeof rootNode.link !== \"undefined\" && rootNode.link.length > 0) {\n            window.open(rootNode.link, '_blank');\n         }\n      }\n   }\n}",
           "shape": "box",
           "link": "",
@@ -23929,8 +23918,8 @@ var schemeData =
         },
         "759837dc-6715-4dc7-9997-5e1fae12cfd4": {
           "id": "759837dc-6715-4dc7-9997-5e1fae12cfd4",
-          "x": 44215,
-          "y": 19892,
+          "x": 44256,
+          "y": 23185,
           "label": "runNodeMenuItems(e)",
           "shape": "box",
           "link": "",
@@ -23946,8 +23935,8 @@ var schemeData =
         },
         "f4f76bbc-6670-4f00-a266-47068af4cf9f": {
           "id": "f4f76bbc-6670-4f00-a266-47068af4cf9f",
-          "x": 41662,
-          "y": 20663,
+          "x": 41703,
+          "y": 23956,
           "label": "function makeNodeDropDownMenuLines(nodeId) {\n\n   var lines = [];\n\n   var node = getNodeFromNetworkDataById(nodeId);\n\n   var branchesNodesAndEdges = getTreeNodesAndEdges(nodeId);\n   if (branchesNodesAndEdges.nodes.length > 0) {\n      lines.push(\"Wrap node's branches (alt+y)\");\n   } else {\n      if (typeof dataCash[nodeId] !== \"undefined\" &&\n          dataCash[nodeId].nodes.length > 0) {\n         lines.push(\"Restore node's branches (alt+y)\");\n      }\n   }\n   if (typeof node.link !== \"undefined\" && node.link.length > 0) {\n      lines.push(\"Open node link. In new tab. (alt+l)\");\n   }\n   //\n   return lines;\n}",
           "shape": "box",
           "link": "",
@@ -23963,8 +23952,8 @@ var schemeData =
         },
         "374b5680-82c5-458d-b984-afe9dfc8c7ca": {
           "id": "374b5680-82c5-458d-b984-afe9dfc8c7ca",
-          "x": 44653,
-          "y": 20587,
+          "x": 44694,
+          "y": 23880,
           "label": "makeNodeDropDownMenuLabels(nodeId)",
           "shape": "box",
           "link": "",
@@ -24006,8 +23995,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Open node link. alt+l\n      if (event.altKey && event.keyCode === 76) {\n         $(\"div#linkOpenButton\").click();\n      }\n   });",
           "id": "fc758ce4-45f6-4e63-be0c-d76e57eb5a0a517",
-          "x": 41549,
-          "y": 50077,
+          "x": 41849,
+          "y": 78634,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24040,16 +24029,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Open node link. alt+l",
           "id": "c4142c7b-7db2-496f-bb44-eaf22bd6546f869",
-          "x": 43953,
-          "y": 50020,
+          "x": 44543,
+          "y": 78572,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "fd69a6e5-7d22-4f47-b2af-43ebc380a1a6": {
           "id": "fd69a6e5-7d22-4f47-b2af-43ebc380a1a6",
-          "x": 41557,
-          "y": 49788,
+          "x": 41857,
+          "y": 78345,
           "label": "   $(document).keyup(function (event) {\n      //Jump to last selected (by click) node. alt+;\n      if (event.altKey && event.keyCode === 186) {\n\n         if (lastSelectedNodeId == null) return;\n\n         var nodesPositions = network.getPositions();\n\n         moveViewTo(\n            nodesPositions[lastSelectedNodeId].x,\n            nodesPositions[lastSelectedNodeId].y, \n            network.getScale()\n         );\n\n      }\n   });\n",
           "shape": "box",
           "link": "",
@@ -24065,8 +24054,8 @@ var schemeData =
         },
         "26845609-e819-4d66-b0c5-40f233bbebef": {
           "id": "26845609-e819-4d66-b0c5-40f233bbebef",
-          "x": 44426,
-          "y": 49755,
+          "x": 45017,
+          "y": 78307,
           "label": "Jump to last selected (by click) node. alt+;",
           "shape": "box",
           "link": "",
@@ -24082,9 +24071,9 @@ var schemeData =
         },
         "f2cb8cc2-ae23-4295-8c89-34adf64a0957": {
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957",
-          "x": 41655,
-          "y": 46658,
-          "label": "   $(document).keyup(function (event) {\n      //Move view down 1/10. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/10, \n               network.getScale());\n         }\n      }\n   });",
+          "x": 41934,
+          "y": 74699,
+          "label": "   $(document).keyup(function (event) {\n      //Move view down 1/10. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/10, \n               network.getScale());\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
           "font": {
@@ -24125,8 +24114,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view down 1/10. j",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327",
-          "x": 44029,
-          "y": 46653,
+          "x": 44606,
+          "y": 74689,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24649,10 +24638,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "   $(document).keyup(function (event) {\n      //Move view left 1/10. h\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
+          "label": "   $(document).keyup(function (event) {\n      //Move view left 1/10. h\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296",
-          "x": 41652,
-          "y": 47038,
+          "x": 41936,
+          "y": 75138,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24687,8 +24676,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view left 1/10. h",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296",
-          "x": 43993,
-          "y": 47020,
+          "x": 44570,
+          "y": 75115,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24721,10 +24710,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(document).keyup(function (event) {\n      //Move view up 1/10. k\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/10, \n               network.getScale());\n         }\n      }\n   });",
+          "label": "   $(document).keyup(function (event) {\n      //Move view up 1/10. k\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/10, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657",
-          "x": 41655,
-          "y": 47413,
+          "x": 41939,
+          "y": 75585,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24759,8 +24748,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view up 1/10. k",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657",
-          "x": 43979,
-          "y": 47395,
+          "x": 44556,
+          "y": 75562,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24793,10 +24782,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(document).keyup(function (event) {\n      //Move view right 1/10. l\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
+          "label": "   $(document).keyup(function (event) {\n      //Move view right 1/10. l\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111",
-          "x": 41652,
-          "y": 47792,
+          "x": 41948,
+          "y": 76035,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24831,8 +24820,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view right 1/10. l",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657111",
-          "x": 44007,
-          "y": 47774,
+          "x": 44583,
+          "y": 76012,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24863,10 +24852,10 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "   $(document).keyup(function (event) {\n      //Move view down 1/2. shift+j\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/2, \n               network.getScale());\n         }\n      }\n   });",
+          "label": "   $(document).keyup(function (event) {\n      //Move view down 1/2. shift+j\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/2, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957857",
-          "x": 41655,
-          "y": 48208,
+          "x": 41955,
+          "y": 76587,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24901,8 +24890,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view down 1/2. shift+j",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327857",
-          "x": 44122,
-          "y": 48203,
+          "x": 44699,
+          "y": 76577,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24935,10 +24924,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(document).keyup(function (event) {\n      //Move view left 1/2. shift+h\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
+          "label": "   $(document).keyup(function (event) {\n      //Move view left 1/2. shift+h\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296857",
-          "x": 41652,
-          "y": 48588,
+          "x": 41946,
+          "y": 77038,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24973,8 +24962,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view left 1/2. shift+h",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296857",
-          "x": 44086,
-          "y": 48570,
+          "x": 44663,
+          "y": 77015,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25007,10 +24996,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(document).keyup(function (event) {\n      //Move view up 1/2. shift+k\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/2, \n               network.getScale());\n         }\n      }\n   });",
+          "label": "   $(document).keyup(function (event) {\n      //Move view up 1/2. shift+k\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/2, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657857",
-          "x": 41655,
-          "y": 48963,
+          "x": 41955,
+          "y": 77472,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25045,8 +25034,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view up 1/2. shift+k",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657857",
-          "x": 44072,
-          "y": 48945,
+          "x": 44649,
+          "y": 77449,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25079,10 +25068,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(document).keyup(function (event) {\n      //Move view right 1/2. shift+l\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
+          "label": "   $(document).keyup(function (event) {\n      //Move view right 1/2. shift+l\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957296657111857",
-          "x": 41652,
-          "y": 49342,
+          "x": 41952,
+          "y": 77905,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25117,8 +25106,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Move view right 1/2. shift+l",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327296657111857",
-          "x": 44100,
-          "y": 49324,
+          "x": 44676,
+          "y": 77882,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25151,8 +25140,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Save selected nodes to clipboard by n number. ctrl+alt+n",
           "id": "c803da61-02c9-4d76-b375-f9ffb885e2ad896",
-          "x": 44731,
-          "y": 55163,
+          "x": 45348,
+          "y": 83715,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25185,8 +25174,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Save selected nodes to clipboard by n number. ctrl+alt+n\n      if (event.altKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 0) {\n            console.log(selectedNodes);\n            clipboard[event.keyCode] = selectedNodes;\n            console.log(event.keyCode);\n            console.log(clipboard);\n         }\n      }\n   });",
           "id": "05d777ad-4cba-4d00-945c-304393dce2bf896",
-          "x": 41650,
-          "y": 55202,
+          "x": 41950,
+          "y": 83759,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25195,7 +25184,7 @@ var schemeData =
           "id": "0412b23c-532f-4d72-a5f0-639724b79637",
           "x": 40479,
           "y": -11410,
-          "label": "jsFilesLinksParam:103",
+          "label": "jsFilesLinksParam:106",
           "shape": "box",
           "link": "",
           "font": {
@@ -25229,7 +25218,7 @@ var schemeData =
           "id": "9e3d9ebf-0e62-4dd5-99d5-9e332eb78daa",
           "x": 40491,
           "y": -11357,
-          "label": "readLocalUserConfig: false",
+          "label": "readLocalUserConfig: true",
           "shape": "box",
           "link": "",
           "font": {
@@ -25387,7 +25376,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<title>mm-vis-js &mdash; News 2</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; News 2</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "100eff1f-2de6-4e02-ae43-700c710aaae4244101",
           "x": 84054,
           "y": 25266,
@@ -25537,8 +25526,8 @@ var schemeData =
         },
         "6424e4f6-be06-4595-8cd9-d82195021711": {
           "id": "6424e4f6-be06-4595-8cd9-d82195021711",
-          "x": 22091,
-          "y": -3134,
+          "x": 22244,
+          "y": -4079,
           "label": "Count nodes and edges in dataCash\n(wraped nodes and edges)",
           "shape": "box",
           "link": "",
@@ -25554,8 +25543,8 @@ var schemeData =
         },
         "95b13425-1313-45bb-b717-2dc43e3f0db4": {
           "id": "95b13425-1313-45bb-b717-2dc43e3f0db4",
-          "x": 22851,
-          "y": -3129,
+          "x": 23004,
+          "y": -4081,
           "label": "var nodes = 0;\nvar edges = 0;\nobjectToArray(dataCash).forEach(function(item) {\n   nodes = nodes + item.nodes.length;\n   edges = edges + item.edges.length;\n});\nconsole.log(nodes);\nconsole.log(edges);",
           "shape": "box",
           "link": "",
@@ -27684,14 +27673,14 @@ var schemeData =
         },
         "b25790aa-8c02-47d5-9e17-ad1f52a04950": {
           "id": "b25790aa-8c02-47d5-9e17-ad1f52a04950",
-          "x": 22097,
-          "y": -2890,
+          "x": 22250,
+          "y": -3831,
           "label": "Find all nodes with wrapped branches \nand format them"
         },
         "834f46cb-7ffb-4a1e-85ca-e02057ce84d7": {
           "id": "834f46cb-7ffb-4a1e-85ca-e02057ce84d7",
-          "x": 22972,
-          "y": -2890,
+          "x": 23125,
+          "y": -3831,
           "label": "objectToArray(network.body.nodes).forEach(function(node) {\n   if (typeof dataCash[node.id] !== \"undefined\" && dataCash[node.id].nodes.length > 0) {\n               var rootNode = getNodeFromNetworkDataById(node.id);\n               if (typeof rootNode.color !== \"undefined\") {\n                  rootNode.color.border = \"black\";\n               } else {\n                  rootNode.color = {border: \"black\"};\n               }\n               rootNode.borderWidth = \"1\";\n               network.body.data.nodes.update(rootNode);\n   }\n});",
           "shape": "box",
           "link": "",
@@ -27733,8 +27722,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Shift selected nodes left (500). alt+c\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 67) {\n             var leftShift = 500;\n             var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n             var positions = network.getPositions();\n             selectedNodes.forEach(function(node) {\n                var nodeD = getNodeFromNetworkDataById(node.id);\n                var pNode = positions[node.id];\n                nodeD.x = pNode.x;\n                nodeD.y = pNode.y;\n                network.body.data.nodes.update(nodeD);\n                network.nodesHandler.moveNode(node.id, nodeD.x - leftShift, nodeD.y);\n             });\n      }\n   });",
           "id": "f2cb8cc2-ae23-4295-8c89-34adf64a0957676",
-          "x": 41698,
-          "y": 46254,
+          "x": 41977,
+          "y": 74295,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27769,16 +27758,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Shift selected nodes left (500). alt+c",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327629",
-          "x": 44307,
-          "y": 46213,
+          "x": 44884,
+          "y": 74249,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "d2c3d31d-4b29-45e1-bac5-f2672dfe730b": {
           "id": "d2c3d31d-4b29-45e1-bac5-f2672dfe730b",
-          "x": 41725,
-          "y": 45558,
+          "x": 42008,
+          "y": 73521,
           "label": "   $(document).keyup(function (event) {\n      //Connect nodes columns. alt+m\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 77) {\n             var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n             var positions = network.getPositions();\n             var columns = {};\n             var minLeftNode = null;\n             for (i = 0; i < selectedNodes.length; i++) {\n                if (i == 0) minLeftNode = selectedNodes[i];\n                if (minLeftNode.shape.left > selectedNodes[i].shape.left) {\n                        minLeftNode = selectedNodes[i];\n                };\n             }\n\n             var leftColumn = [];\n             var rightColumn = [];\n             selectedNodes.forEach(function(node) {\n                var nodeD = getNodeFromNetworkDataById(node.id);\n                var pNode = positions[node.id];\n                nodeD.x = pNode.x;\n                nodeD.y = pNode.y;\n                network.body.data.nodes.update(nodeD);\n                if (typeof columns[node.shape.left] === \"undefined\" || columns[node.shape.left] == null) {\n                   columns[node.shape.left] = [];\n                }\n                columns[node.shape.left].push(node);\n                var leftPositionDiff = Math.abs(minLeftNode.shape.left - node.shape.left);\n                if (leftPositionDiff < 2) {\n                   leftColumn.push(node);\n                } else {\n                   rightColumn.push(node);\n                }\n             });\n\n             var lastLeftNode = null;\n             leftColumn.reverse().forEach(function(leftNode, leftColumnIndex) {\n                rightColumn.forEach(function(rightNode, index) {\n                   if (rightNode.y >= leftNode.y && (lastLeftNode == null || rightNode.y < lastLeftNode.y)) {\n                      var edgeData = {from: leftNode.id, to: rightNode.id};\n                      network.body.data.edges.getDataSet().add(edgeData);\n                   }\n                   if (leftColumnIndex == (leftColumn.length-1) && rightNode.y < leftNode.y) {\n                      var edgeData = {from: leftNode.id, to: rightNode.id};\n                      network.body.data.edges.getDataSet().add(edgeData);\n                   }\n                });\n                lastLeftNode = leftNode;\n             });\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -27822,8 +27811,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Connect nodes columns. alt+m",
           "id": "26845609-e819-4d66-b0c5-40f233bbebef327984",
-          "x": 44198,
-          "y": 45327,
+          "x": 44774,
+          "y": 73285,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27843,6 +27832,2530 @@ var schemeData =
             "background": "#ffd570",
             "border": ""
           },
+          "borderWidth": ""
+        },
+        "70b5ce27-5ed9-4d73-81ef-3840d42a92b1": {
+          "id": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1",
+          "x": 41890,
+          "y": 72227,
+          "label": "   $(document).keyup(function (event) {\n      //Show cursor on page. i\n      //Green dot color - #1EB117\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 73) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null) {\n             var viewPosition = network.getViewPosition();\n             var scale = network.getScale();\n             cursorNodeId = network.body.data.nodes.add({\n                label: \" \",\n                x: viewPosition.x,\n                y: viewPosition.y,\n                font: {size: 5/scale},\n                color: {background:\"black\"},\n                shape: \"circle\"\n             })[0];\n             node = network.body.data.nodes.get(cursorNodeId);\n             network.body.data.nodes.update(node);\n         }\n      }\n   });",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "135c39e3-94c2-40e7-ae16-52d5d44f9ad0": {
+          "id": "135c39e3-94c2-40e7-ae16-52d5d44f9ad0",
+          "x": 44598,
+          "y": 72173,
+          "label": "Show cursor on page. i",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6353007f-9f22-4e9f-b3b7-e8b5633334f5": {
+          "id": "6353007f-9f22-4e9f-b3b7-e8b5633334f5",
+          "x": 41980,
+          "y": 72719,
+          "label": "   $(\"div#network\").keydown(function (event) {\n      //Remove cursor node or disable moving selected nodes from keyboard. Esc\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 27) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             document.getElementById('schemeEditElementsMenu').style.display == \"none\") {\n\n             if (typeof network.selectionHandler.selectionObj.nodes.length === \"undefined\" &&\n                 typeof network.selectionHandler.selectionObj.edges.length === \"undefined\") {\n                if (cursorNodeId != null) {\n                   if (selectionRectangleDrag == true) {\n                      var positions = network.getPositions();\n                      selectionRectangleDrag = false;\n                      ctx.lineWidth = 0;\n                      ctx.strokeStyle = \"white\";\n                      ctx.setLineDash([]);\n                      ctx.fillStyle = \"rgba(255, 255, 255, 0)\";\n                      ctx.strokeRect(0, 0, 0, 0);\n                      ctx.fillRect(0, 0, 0, 0);\n                      var nodeD = getNodeFromNetworkDataById(cursorNodeId);\n                      var pNode = positions[cursorNodeId];\n                      nodeD.x = pNode.x;\n                      nodeD.y = pNode.y;\n                      network.body.data.nodes.update(nodeD);\n                   } else {\n                      network.body.data.nodes.remove(cursorNodeId);\n                      cursorNodeId = null;\n                   }\n                }\n                if (keyboardMoveSelectedEnabled == true) {\n                   keyboardMoveSelectedEnabled = false;\n                }\n             }\n         }\n      }\n   });",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move cursor right. l\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorRight == false) {\n                moveCursorRight = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                moveCursor(cursorNodeId, event, width/150, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n          moveCursorRight = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116",
+          "x": 41955,
+          "y": 68141,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move cursor up. k\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorUp == false) {\n                moveCursorUp = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                moveCursor(cursorNodeId, event, 0, -height/150);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n          moveCursorUp = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716",
+          "x": 41977,
+          "y": 67416,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729616": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move cursor left. h\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorLeft == false) {\n                moveCursorLeft = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                moveCursor(cursorNodeId, event, -width/150, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n          moveCursorLeft = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616",
+          "x": 41966,
+          "y": 66728,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095716": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move cursor down. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorDown == false) {\n                moveCursorDown = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                moveCursor(cursorNodeId, event, 0, height/150);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      //Move cursor down 1/10. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n          moveCursorDown = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095716",
+          "x": 41972,
+          "y": 66119,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32716": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move cursor down. j",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32716",
+          "x": 44533,
+          "y": 66139,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729616": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move cursor left. h",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729616",
+          "x": 44497,
+          "y": 66685,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729665716": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move cursor up. k",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729665716",
+          "x": 44483,
+          "y": 67373,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729665711116": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move cursor right. l",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729665711116",
+          "x": 44510,
+          "y": 68098,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "79b2040c-229b-40b1-9731-226db8a21300": {
+          "id": "79b2040c-229b-40b1-9731-226db8a21300",
+          "x": 44971,
+          "y": 72670,
+          "label": "Remove cursor node or disable moving \nselected nodes from keyboard or\nremove selection rectangle. Esc",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "55f3f583-903d-4635-92b0-79a95d767408": {
+          "id": "55f3f583-903d-4635-92b0-79a95d767408",
+          "x": 41919,
+          "y": 65033,
+          "label": "   function sleep(ms) {\n      return new Promise((resolve) => setTimeout(resolve, ms)); \n   }",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "77f5d377-f3bc-4aa5-b24b-0aed059f780f": {
+          "id": "77f5d377-f3bc-4aa5-b24b-0aed059f780f",
+          "x": 41961,
+          "y": 65441,
+          "label": "   function moveCursor(cursorNodeId, event, xStep, yStep) {\n      var positions = network.getPositions();\n      if (network.body.nodes[cursorNodeId] !== undefined) {\n         var nodeD = getNodeFromNetworkDataById(cursorNodeId);\n         var pNode = positions[cursorNodeId];\n         nodeD.x = pNode.x + xStep;\n         nodeD.y = pNode.y + yStep;\n         network.body.data.nodes.update(nodeD);\n      }\n      sleep(70).then((resolve) => {\n         if (selectionRectangleDrag) {\n            positions = network.getPositions();\n            var cursorNode = network.body.nodes[cursorNodeId];\n            var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n\n            rect.w = cursorPointer.x - rect.startX;\n            rect.h = cursorPointer.y - rect.startY;\n\n            ctx.lineWidth = 1;\n            ctx.strokeStyle = \"gray\";\n            ctx.strokeRect(rect.startX, rect.startY, rect.w, rect.h);\n            ctx.setLineDash([]);\n            ctx.fillStyle = \"rgba(255, 255, 255, 0)\";\n            ctx.fillRect(rect.startX, rect.startY, rect.w, rect.h);\n         }\n         if(moveCursorDown == true ||\n            moveCursorUp == true ||\n            moveCursorLeft == true ||\n            moveCursorRight == true ||\n            moveCursorDownFast == true ||\n            moveCursorUpFast == true ||\n            moveCursorLeftFast == true ||\n            moveCursorRightFast == true) {\n               moveCursor(cursorNodeId, event, xStep, yStep);\n         }\n      });\n   }",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "5ac9f357-80d9-4c42-be1d-a917d49107f2": {
+          "id": "5ac9f357-80d9-4c42-be1d-a917d49107f2",
+          "x": 45230,
+          "y": 65287,
+          "label": "moveCursor(cursorNodeId, positions, xStep, yStep)",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "100ede14-f234-4f5b-a7a9-e9d9ab991e72": {
+          "id": "100ede14-f234-4f5b-a7a9-e9d9ab991e72",
+          "x": 44304,
+          "y": 65019,
+          "label": "sleep(ms)",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "eebdd252-b75a-4eda-9a38-f1e431861c81": {
+          "id": "eebdd252-b75a-4eda-9a38-f1e431861c81",
+          "x": 41836,
+          "y": 64850,
+          "label": "var moveCursorDown = false;\nvar moveCursorUp = false;\nvar moveCursorLeft = false;\nvar moveCursorRight = false;\n\nvar moveCursorDownFast = false;\nvar moveCursorUpFast = false;\nvar moveCursorLeftFast = false;\nvar moveCursorRightFast = false;",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Click by cursor node. y\n      //TODO. Select edges.\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 89) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId != null) {\n             var cursorNode = network.body.nodes[cursorNodeId];\n             var positions = network.getPositions();\n             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n             var positionObject = network.selectionHandler._pointerToPositionObject(cursorPointer);\n             var overlappingItemsIds = network.selectionHandler._getAllNodesOverlappingWith(positionObject);\n             \n             network.selectionHandler.unselectAll();\n\n             overlappingItemsIds.forEach(function(itemId) {\n                var node = network.body.nodes[itemId];\n                if (typeof node !== \"undefined\" && node != null && itemId != cursorNodeId) {\n                   network.selectionHandler.selectObject(node);\n                }\n             }); \n             lastClickPosition = cursorPointer;\n             network.selectionHandler._generateClickEvent('selectNode', event, cursorPointer);\n             network.selectionHandler.body.emitter.emit('_requestRedraw');\n         }\n      }\n   });",
+          "id": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768",
+          "x": 42062,
+          "y": 63236,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "046e9c23-d4aa-4c01-b2a6-17d441e43da8": {
+          "id": "046e9c23-d4aa-4c01-b2a6-17d441e43da8",
+          "x": 44591,
+          "y": 63220,
+          "label": "Click by cursor node. y",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768511": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   var nodeCursorDoubleKeyPressDelta = 300;\n   var nodeCursorDoubleKeyPressLastKeypressTime = 0;\n   $(document).keyup(function (event) {\n      //Make new node by double click with cursor node. yy\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 89) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId != null) {\n             var cursorNode = network.body.nodes[cursorNodeId];\n             var positions = network.getPositions();\n             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n\n             var thisKeypressTime = new Date();\n             if ( thisKeypressTime - nodeCursorDoubleKeyPressLastKeypressTime <= nodeCursorDoubleKeyPressDelta ) {\n                var nodeId = addNodeOnCanvas(\"\", \"\", positions[cursorNodeId], 0, 0, network);\n                var node = network.body.nodes[nodeId];\n                network.selectionHandler.selectObject(node);\n                lastEditedNodesIds.push(nodeId);\n                network.manipulation.editNode();\n                thisKeypressTime = 0;\n             }\n             nodeCursorDoubleKeyPressLastKeypressTime = thisKeypressTime;\n\n             network.selectionHandler.body.emitter.emit('_requestRedraw');\n         }\n      }\n   });",
+          "id": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768511",
+          "x": 42094,
+          "y": 64376,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "b6d09855-e242-412e-a73b-248c4c2b4983": {
+          "id": "b6d09855-e242-412e-a73b-248c4c2b4983",
+          "x": 45242,
+          "y": 64278,
+          "label": "Make new node by double click with cursor node. yy",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "17d68a3e-f87e-426a-b30a-70b017318672": {
+          "id": "17d68a3e-f87e-426a-b30a-70b017318672",
+          "x": 22207,
+          "y": -3679,
+          "label": "Get data from dataCash.\nFor example, to copy\non another page."
+        },
+        "c3a924bf-0ff9-4fc6-99e5-3ee5d9cc60b3": {
+          "id": "c3a924bf-0ff9-4fc6-99e5-3ee5d9cc60b3",
+          "x": 23095,
+          "y": -3667,
+          "label": "$(\"input#nodeBorderColorInput\").val(JSON.stringify(dataCash[someNodeId]));"
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095716435": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move cursor down fast. shift+j\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorDownFast == false) {\n                moveCursorDownFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                moveCursor(cursorNodeId, event, 0, height/30);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n          moveCursorDownFast = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095716435",
+          "x": 41960,
+          "y": 68820,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move cursor left fast. shift+h\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorLeftFast == false) {\n                moveCursorLeftFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                moveCursor(cursorNodeId, event, -width/30, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n          moveCursorLeftFast = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435",
+          "x": 41955,
+          "y": 69657,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move cursor up fast. shift+k\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorUpFast == false) {\n                moveCursorUpFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                moveCursor(cursorNodeId, event, 0, -height/30);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n          moveCursorUpFast = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435",
+          "x": 41960,
+          "y": 70345,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move cursor right fast. shift+l\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorRightFast == false) {\n                moveCursorRightFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                moveCursor(cursorNodeId, event, width/30, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n          moveCursorRightFast = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435",
+          "x": 41955,
+          "y": 71070,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729665711116435": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move cursor right fast. shift+l",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729665711116435",
+          "x": 44726,
+          "y": 71019,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729665716435": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move cursor up fast. shift+k",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729665716435",
+          "x": 44699,
+          "y": 70294,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729616435": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move cursor left fast. shift+h",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729616435",
+          "x": 44713,
+          "y": 69606,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32716435": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move cursor down fast. shift+j",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32716435",
+          "x": 44749,
+          "y": 68832,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "86ab6d61-63bb-4d9d-bc86-7dfc7ecc9593": {
+          "id": "86ab6d61-63bb-4d9d-bc86-7dfc7ecc9593",
+          "x": 42169,
+          "y": 27633,
+          "label": "Cursor scale code"
+        },
+        "6dac1cf6-6420-442b-8c22-b2838d32e857": {
+          "id": "6dac1cf6-6420-442b-8c22-b2838d32e857",
+          "x": 42317,
+          "y": 72054,
+          "label": "Look for scale cursor code",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "d88b95b2-f0c0-4c0b-9aa0-1a2838352255": {
+          "id": "d88b95b2-f0c0-4c0b-9aa0-1a2838352255",
+          "x": 42623,
+          "y": 72028,
+          "label": "network.on(\"zoom\", function(event) {"
+        },
+        "7b325917-0a8b-45a2-9115-19875b86c32c": {
+          "id": "7b325917-0a8b-45a2-9115-19875b86c32c",
+          "x": 42574,
+          "y": 72053,
+          "label": "Zoom out. shift+alt+d"
+        },
+        "8f34f236-821b-49d0-bcdf-20b4e18976b7": {
+          "id": "8f34f236-821b-49d0-bcdf-20b4e18976b7",
+          "x": 42568,
+          "y": 72077,
+          "label": "Zoom in. shfit+alt+f"
+        },
+        "046e9c23-d4aa-4c01-b2a6-17d441e43da8403": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Add to selection by cursor node click. shift+y",
+          "id": "046e9c23-d4aa-4c01-b2a6-17d441e43da8403",
+          "x": 45073,
+          "y": 63823,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768403": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Add to selection by cursor node click. shift+y\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 89) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId != null) {\n             var cursorNode = network.body.nodes[cursorNodeId];\n             var positions = network.getPositions();\n             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n             var positionObject = network.selectionHandler._pointerToPositionObject(cursorPointer);\n             var overlappingItemsIds = network.selectionHandler._getAllNodesOverlappingWith(positionObject);\n             \n             overlappingItemsIds.forEach(function(itemId) {\n                var node = network.body.nodes[itemId];\n                if (typeof node !== \"undefined\" && node != null && itemId != cursorNodeId) {\n                   network.selectionHandler.selectObject(node);\n                }\n             }); \n             lastClickPosition = cursorPointer;\n             network.selectionHandler.body.emitter.emit('_requestRedraw');\n         }\n      }\n   });",
+          "id": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768403",
+          "x": 42062,
+          "y": 63829,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "c8508d54-95df-4b4a-977b-77ab4a268f59": {
+          "id": "c8508d54-95df-4b4a-977b-77ab4a268f59",
+          "x": 42046,
+          "y": 57865,
+          "label": "   $(document).keydown(function (event) {\n      //Move selected left. h\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true && moveSelectedLeft == false) {\n                moveSelectedLeft = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, -width/150, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n          moveSelectedLeft = false;\n      }\n   });",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "e283bb5e-4305-4099-9ada-63f068527a00": {
+          "id": "e283bb5e-4305-4099-9ada-63f068527a00",
+          "x": 41951,
+          "y": 55880,
+          "label": "   function moveSelectedNodes(nodesIdsList, xStep, yStep) {\n      var positions = network.getPositions();\n      nodesIdsList.forEach(function(nodeId) {\n         network.nodesHandler.moveNode(nodeId, \n            positions[nodeId].x + xStep, \n            positions[nodeId].y + yStep);\n      });\n      if(moveSelectedDown == true ||\n         moveSelectedUp == true ||\n         moveSelectedLeft == true ||\n         moveSelectedRight == true ||\n         moveSelectedDownFast == true ||\n         moveSelectedUpFast == true ||\n         moveSelectedLeftFast == true ||\n         moveSelectedRightFast == true) {\n         sleep(100).then(() => { \n            moveSelectedNodes(nodesIdsList, xStep, yStep);\n         });\n      }\n   }",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "eebdd252-b75a-4eda-9a38-f1e431861c81881": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "var moveSelectedDown = false;\nvar moveSelectedUp = false;\nvar moveSelectedLeft = false;\nvar moveSelectedRight = false;\n\nvar moveSelectedDownFast = false;\nvar moveSelectedUpFast = false;\nvar moveSelectedLeftFast = false;\nvar moveSelectedRightFast = false;",
+          "id": "eebdd252-b75a-4eda-9a38-f1e431861c81881",
+          "x": 41873,
+          "y": 55541,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "70b5ce27-5ed9-4d73-81ef-3840d42a92b192": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Toggle moving selected nodes from keyboard. m\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 77) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n             if (cursorNodeId != null) {\n                network.body.data.nodes.remove(cursorNodeId);\n                cursorNodeId = null;\n             }\n             if (keyboardMoveSelectedEnabled == false) {\n                keyboardMoveSelectedEnabled = true;\n             } else {\n                keyboardMoveSelectedEnabled = false;\n             }\n         }\n      }\n   });",
+          "id": "70b5ce27-5ed9-4d73-81ef-3840d42a92b192",
+          "x": 41946,
+          "y": 55212,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f21281af-0f1a-49ca-89c7-067a692c5440": {
+          "id": "f21281af-0f1a-49ca-89c7-067a692c5440",
+          "x": 45175,
+          "y": 55861,
+          "label": "moveSelectedNodes(nodesIdsList, xStep, yStep)",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "996140d5-d835-4790-9d6e-5e334b511ad6": {
+          "id": "996140d5-d835-4790-9d6e-5e334b511ad6",
+          "x": 44545,
+          "y": 57820,
+          "label": "Move selected left. h",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "b268f14c-7834-4d65-b63f-b04ff4ddefd8": {
+          "id": "b268f14c-7834-4d65-b63f-b04ff4ddefd8",
+          "x": 45164,
+          "y": 55215,
+          "label": "Toggle moving selected nodes from keyboard. m",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729665711116435178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move selected right fast. shift+l",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729665711116435178",
+          "x": 44774,
+          "y": 62344,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move selected right fast. shift+l\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true && moveSelectedRightFast == false) {\n                moveSelectedRightFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, width/30, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n          moveSelectedRightFast = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435178",
+          "x": 42025,
+          "y": 62395,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move selected up fast. shift+k\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true && moveSelectedUpFast == false) {\n                moveSelectedUpFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, 0, -height/30);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n          moveSelectedUpFast = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435178",
+          "x": 42030,
+          "y": 61670,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729665716435178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move selected up fast. shift+k",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729665716435178",
+          "x": 44747,
+          "y": 61619,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729616435178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move selected left fast. shift+h",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729616435178",
+          "x": 44761,
+          "y": 60931,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move selected left fast. shift+h\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true && moveSelectedLeftFast == false) {\n                moveSelectedLeftFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, -width/30, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n          moveSelectedLeftFast = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435178",
+          "x": 42025,
+          "y": 60982,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095716435178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move selected down fast. shift+j\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true && moveSelectedDownFast == false) {\n                moveSelectedDownFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, 0, height/30);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n          moveSelectedDownFast = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095716435178",
+          "x": 42030,
+          "y": 60145,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32716435178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move selected down fast. shift+j",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32716435178",
+          "x": 44797,
+          "y": 60157,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729665711116178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move selected right. l",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729665711116178",
+          "x": 44558,
+          "y": 59423,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move selected right. l\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true && moveSelectedRight == false) {\n                moveSelectedRight = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, width/150, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n          moveSelectedRight = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116178",
+          "x": 42025,
+          "y": 59466,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move selected up. k\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true && moveSelectedUp == false) {\n                moveSelectedUp = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, 0, -height/150);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n          moveSelectedUp = false;\n      }\n   });\n",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716178",
+          "x": 42047,
+          "y": 58741,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32729665716178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move selected up. k",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32729665716178",
+          "x": 44531,
+          "y": 58698,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f2cb8cc2-ae23-4295-8c89-34adf64a095716178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keydown(function (event) {\n      //Move selected down. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true && moveSelectedDown == false) {\n                moveSelectedDown = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, 0, height/150);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n          moveSelectedDown = false;\n      }\n   });",
+          "id": "f2cb8cc2-ae23-4295-8c89-34adf64a095716178",
+          "x": 42042,
+          "y": 57216,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "26845609-e819-4d66-b0c5-40f233bbebef32716178": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Move selected down. j",
+          "id": "26845609-e819-4d66-b0c5-40f233bbebef32716178",
+          "x": 44581,
+          "y": 57236,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "6341fdf8-d364-4edd-bb95-9f3b036b8cf1": {
+          "id": "6341fdf8-d364-4edd-bb95-9f3b036b8cf1",
+          "x": 42003,
+          "y": 54070,
+          "label": "   $(document).keyup(function (event) {\n      //Toggle selection rectangle for cursor node. u\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 85) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId != null) {\n\n             var cursorNode = network.body.nodes[cursorNodeId];\n             var positions = network.getPositions();\n             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n\n             if (selectionRectangleDrag == false) {\n                saveDrawingSurface();\n                rect.startX = cursorPointer.x;\n                rect.startY = cursorPointer.y;\n                selectionRectangleDrag = true;\n             } else {\n                selectNodesFromHighlight();\n                selectionRectangleDrag = false;\n                network.selectionHandler.deselectObject(cursorNode);\n             }\n         }\n      }\n   });",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "9d1c4174-daab-4691-9c8d-42c6e2a93d1c": {
+          "id": "9d1c4174-daab-4691-9c8d-42c6e2a93d1c",
+          "x": 44716,
+          "y": 22693,
+          "label": "containerJQ.on(\"mousemove\", function(e) {",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6e256024-7967-45b0-b93f-7aea584b4ac7": {
+          "id": "6e256024-7967-45b0-b93f-7aea584b4ac7",
+          "x": 44683,
+          "y": 23558,
+          "label": "containerJQ.on(\"mousedown\", function(e)",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "c9242376-1621-403f-8b24-08c147b2bf83": {
+          "id": "c9242376-1621-403f-8b24-08c147b2bf83",
+          "x": 43385,
+          "y": 12719,
+          "label": "draw()",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "973b0c2c-2dd1-4da1-8366-3b34bd894714": {
+          "id": "973b0c2c-2dd1-4da1-8366-3b34bd894714",
+          "x": 45072,
+          "y": 54027,
+          "label": "Toggle selection rectangle for cursor node. u",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6341fdf8-d364-4edd-bb95-9f3b036b8cf1844": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Toggle \"showData\" menu. alt+\\\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 220) {\n          $(\"div#showData\").click();\n      }\n   });",
+          "id": "6341fdf8-d364-4edd-bb95-9f3b036b8cf1844",
+          "x": 41883,
+          "y": 53050,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "973b0c2c-2dd1-4da1-8366-3b34bd8947140": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Toggle \"showData\" menu. alt+\\",
+          "id": "973b0c2c-2dd1-4da1-8366-3b34bd8947140",
+          "x": 44768,
+          "y": 53060,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "50a823f0-7dd6-405d-9439-efb541521447171": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//treesList - [[rootId, branchesNodesAndEdges], [rootId, branchesNodesAndEdges]...]\nfunction hideListOfTreesToDataCash(treesList) {\n\n   var nodesPositions = network.getPositions();\n   var removeNodesIds = [];\n   var removeEdgesIds = [];\n   treesList.forEach(function(treeData) {\n      var rootId = treeData[0];\n      var branchesNodesAndEdges = treeData[1];\n\n      if (branchesNodesAndEdges === null) {\n         branchesNodesAndEdges = getTreeNodesAndEdges(rootId);\n      }\n      if (branchesNodesAndEdges == null || branchesNodesAndEdges.nodes.length == 0) {\n         return;\n      }\n      branchesNodesAndEdges.rootPosition = nodesPositions[rootId];\n      console.log(\"hideNodeBranchesToDataCash\");\n      console.log(branchesNodesAndEdges);\n      var yStep = nodesPositions[rootId].y;\n\n      if (typeof dataCash[rootId] !== \"undefined\") {\n         var newGraphMinPosition = branchesNodesAndEdges.nodes[branchesNodesAndEdges.nodes.length-1].y;\n         var rootNodeAndNewGraphMinPositionDiff = newGraphMinPosition - nodesPositions[rootId].y;\n         branchesNodesAndEdges.nodes.forEach(function(node) {\n            node.y = node.y - rootNodeAndNewGraphMinPositionDiff - 1;\n            if (typeof nodesPositions[node.id] !== \"undefined\") {\n               node.x = nodesPositions[node.id].x;\n            }\n         });\n         var currentData = dataCash[rootId];\n         currentData.nodes = branchesNodesAndEdges.nodes.concat(currentData.nodes);\n         currentData.edges = branchesNodesAndEdges.edges.concat(currentData.edges);\n         currentData.rootPosition = branchesNodesAndEdges.rootPosition;\n         dataCash[rootId] = currentData;\n         dataCash[rootId].nodes.forEach(function(node) {\n            node.y = yStep;\n            yStep = yStep + 1;\n         });\n      } else {\n         dataCash[rootId] = branchesNodesAndEdges;\n         dataCash[rootId].nodes.forEach(function(node) {\n            node.y = yStep;\n            yStep = yStep + 1;\n            if (typeof nodesPositions[node.id] !== \"undefined\") {\n               node.x = nodesPositions[node.id].x;\n            }\n         });\n      }\n\n\n      branchesNodesAndEdges.nodes.forEach(function(node, index) {\n         removeNodesIds.push(node.id);\n      });\n      branchesNodesAndEdges.edges.forEach(function(edge, index) {\n         removeEdgesIds.push(edge.id);\n      });\n      var rootNode = getNodeFromNetworkDataById(rootId);\n      if (typeof rootNode.color !== \"undefined\") {\n         rootNode.color.border = \"black\";\n      } else {\n         rootNode.color = {border: \"black\"};\n      }\n      rootNode.borderWidth = \"1\";\n      rootNode.x = branchesNodesAndEdges.rootPosition.x;\n      rootNode.y = branchesNodesAndEdges.rootPosition.y;\n      network.body.data.nodes.update(rootNode);\n\n   });\n\n   updateMenuFromScheme(removeNodesIds, removeEdgesIds);\n   updateSchemeFromMenu([],[]);\n\n}",
+          "id": "50a823f0-7dd6-405d-9439-efb541521447171",
+          "x": 41055,
+          "y": -2300,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "da3927c9-4db5-47b0-93c1-b158ad52d20f171": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "hideListOfTreesToDataCash(treesList)",
+          "id": "da3927c9-4db5-47b0-93c1-b158ad52d20f171",
+          "x": 44001,
+          "y": -2445,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101685": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101685",
+          "x": 81997,
+          "y": 29045,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101685": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/news3.html",
+          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101685",
+          "x": 82979,
+          "y": 29046,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101685": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101685",
+          "x": 83603,
+          "y": 29032
+        },
+        "100eff1f-2de6-4e02-ae43-700c710aaae4244101685": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; News 3</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "100eff1f-2de6-4e02-ae43-700c710aaae4244101685",
+          "x": 84171,
+          "y": 29016,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101685": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101685",
+          "x": 84635,
+          "y": 29358
+        },
+        "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101685": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101685",
+          "x": 84807,
+          "y": 29914
+        },
+        "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101685": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news3.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101685",
+          "x": 84933,
+          "y": 31386,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ad105e2b-063b-4782-8c81-732bf8a2de45244101685": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "ad105e2b-063b-4782-8c81-732bf8a2de45244101685",
+          "x": 84659,
+          "y": 30652
+        },
+        "c22aab4b-f9d8-4e73-90f4-4f61102aa13c685": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/news3.html",
+          "id": "c22aab4b-f9d8-4e73-90f4-4f61102aa13c685",
+          "x": 89511,
+          "y": 29909,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "46e082ab-975d-4469-bc40-c72ac63f2337": {
+          "id": "46e082ab-975d-4469-bc40-c72ac63f2337",
+          "x": 22274,
+          "y": -3512,
+          "label": "Find all wrappedRootNodes in selected nodes\nand delete their dataCash data",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "834f46cb-7ffb-4a1e-85ca-e02057ce84d7842": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\nselectedNodes.forEach(function(node) {\n   if (typeof dataCash[node.id] !== \"undefined\" && dataCash[node.id].nodes.length > 0) {\n      var rootNode = getNodeFromNetworkDataById(node.id);\n      delete dataCash[node.id];\n      var rootNode = getNodeFromNetworkDataById(node.id);\n      rootNode.borderWidth = \"0\";\n      network.body.data.nodes.update(rootNode);\n   }\n});",
+          "id": "834f46cb-7ffb-4a1e-85ca-e02057ce84d7842",
+          "x": 23125,
+          "y": -3511,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "56f999e7-a031-4e78-b0e1-ea4094e80e9f": {
+          "id": "56f999e7-a031-4e78-b0e1-ea4094e80e9f",
+          "x": 22292,
+          "y": -3311,
+          "label": "Find dataCash entries with no rootNodes on canvas"
+        },
+        "3ed2b04c-f7c1-4cb0-8ac8-91270e7f6af4": {
+          "id": "3ed2b04c-f7c1-4cb0-8ac8-91270e7f6af4",
+          "x": 21983,
+          "y": -3582,
+          "label": "DataCash"
+        },
+        "167b9ceb-b60c-40b0-8d4f-3a344e02ddc2": {
+          "id": "167b9ceb-b60c-40b0-8d4f-3a344e02ddc2",
+          "x": 22237,
+          "y": -2862,
+          "label": "Find dataCash news trees by date"
+        },
+        "ba065092-2c29-4fb4-b391-67d4c827a121": {
+          "id": "ba065092-2c29-4fb4-b391-67d4c827a121",
+          "x": 23193,
+          "y": -2891,
+          "label": "function getTreeNodesAndEdges(rootNodeId, dataCashNodes, dataCashEdges) {\n\n   var rootBranchesEdges = [];\n   dataCashEdges.forEach(function(edge) {\n      if (edge.from == rootNodeId) rootBranchesEdges.push(edge);\n   });\n\n   //console.log(\"rootBranchesEdges: \" + rootBranchesEdges);\n\n   var branchNodes = [];\n   rootBranchesEdges.forEach(function(rootBranchesEdge) {\n      var branchNodeId = rootBranchesEdge.to;\n      dataCashNodes.forEach(function(node) {\n         if (node.id == branchNodeId) branchNodes.push(node);\n      });\n   });\n\n   var branchesNodesAndEdges = {\n      nodes: branchNodes,\n      edges: rootBranchesEdges\n   };\n\n   branchNodes.forEach(function(branchNode) {\n      var branchesData = getTreeNodesAndEdges(branchNode.id, dataCashNodes, dataCashEdges);\n      branchesNodesAndEdges.nodes = branchesNodesAndEdges.nodes.concat(branchesData.nodes);\n      branchesNodesAndEdges.edges = branchesNodesAndEdges.edges.concat(branchesData.edges);\n   });\n   return branchesNodesAndEdges;\n}\n\nfunction deleteSubTreeFromYoutubeNewsDataCashByNodeLabelRegex(dataCash, nodeLabelRegexString) {\n   var rootDateRegex = new RegExp(nodeLabelRegexString,\"g\");\n   objectToArray(dataCash).forEach(function(data) {\n      var nodes = data.nodes;\n      var edges = data.edges;\n      var dateRootNode = null;\n      nodes.forEach(function(node) {\n         var mtch = node.label.match(rootDateRegex);\n         if (mtch != null) {\n            dateRootNode = node;\n         }\n      });\n      if (dateRootNode != null) {\n         //console.log(\"nodes: \" + nodes);\n         //console.log(\"edges: \" + edges);\n         var treeData = getTreeNodesAndEdges(dateRootNode.id, nodes, edges);\n         edges.forEach(function(edge) {\n            if (edge.to == dateRootNode.id) treeData.edges.push(edge);\n         });\n         treeData.nodes.push(dateRootNode);\n         console.log(treeData);\n         treeData.nodes.forEach(function(node) {\n            nodes.splice(nodes.indexOf(node), 1);\n         });\n         treeData.edges.forEach(function(edge) {\n            edges.splice(edges.indexOf(edge), 1);\n         });\n         //list.splice( list.indexOf('foo'), 1 );\n      }\n   });\n}\n\ndeleteSubTreeFromYoutubeNewsDataCashByNodeLabelRegex(dataCash, \"13.03.2020.*\")",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501623": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501623",
+          "x": 82015,
+          "y": 32766,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501623": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/timelines.html",
+          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501623",
+          "x": 83040,
+          "y": 32759,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501623": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501623",
+          "x": 83559,
+          "y": 32745
+        },
+        "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501623": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js &mdash; Timelines</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "x": 84129,
+          "y": 32687,
+          "id": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501623",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "46ca27cc-0371-4111-a4c2-6db8795d0e65232501623": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "x": 84534,
+          "y": 33009,
+          "id": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501623",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "061899dc-a185-4eaf-a3ac-c8e943203b3e232501623": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "x": 84706,
+          "y": 33539,
+          "id": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501623",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501623": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "x": 84558,
+          "y": 34239,
+          "id": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501623",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "69e1c992-010c-4a23-9c38-eb54979a89de232501623": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0145, x: 106371, y: 12854};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"timelines.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "x": 84868,
+          "y": 34994,
+          "id": "69e1c992-010c-4a23-9c38-eb54979a89de232501623",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "c22aab4b-f9d8-4e73-90f4-4f61102aa13c6853": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/timelines.html",
+          "id": "c22aab4b-f9d8-4e73-90f4-4f61102aa13c6853",
+          "x": 90039,
+          "y": 33630,
+          "shape": "box",
+          "link": "",
           "borderWidth": ""
         }
       },
@@ -47211,11 +49724,6 @@ var schemeData =
           "from": "2a8576c6-ab4e-4abf-81b3-ad2a8cece8b8769",
           "to": "94ad5af3-17eb-425f-bed0-1a6b628d408b769"
         },
-        "f851d4a7-444c-4b78-b3a9-946111058721": {
-          "from": "1cd537f0-df33-4713-9b58-7ab0b6cdac06399446364",
-          "to": "e47a9e42-47db-4155-8a2e-b4373ce5fb9d",
-          "id": "f851d4a7-444c-4b78-b3a9-946111058721"
-        },
         "b0e424c8-132e-4c6e-aa03-0c4c30fef52c852": {
           "arrows": {
             "to": {},
@@ -47265,21 +49773,6 @@ var schemeData =
           "id": "91eb363f-498c-46e7-b39a-5720d769987e852",
           "from": "e47a9e42-47db-4155-8a2e-b4373ce5fb9d852",
           "to": "81f45ebb-d649-45a4-a6b6-5284382d4a79852"
-        },
-        "e7f6f2e4-db9b-4fa5-b29d-d18120136e19": {
-          "from": "e47a9e42-47db-4155-8a2e-b4373ce5fb9d",
-          "to": "9ad22bee-87c0-49fd-a3f8-a9358a3e4161",
-          "id": "e7f6f2e4-db9b-4fa5-b29d-d18120136e19"
-        },
-        "36a96118-50cd-4715-8524-3157769d1e33": {
-          "from": "9ad22bee-87c0-49fd-a3f8-a9358a3e4161",
-          "to": "c42438ad-e335-4f62-87ec-d768eba189bf",
-          "id": "36a96118-50cd-4715-8524-3157769d1e33"
-        },
-        "8c870e61-acf4-44d6-ae0b-ecb96bfedf30": {
-          "from": "9ad22bee-87c0-49fd-a3f8-a9358a3e4161",
-          "to": "3bbe827e-459e-49ea-8225-82a3d3e7d087",
-          "id": "8c870e61-acf4-44d6-ae0b-ecb96bfedf30"
         },
         "ad425adb-9001-4bd8-a87f-0e2ef829cf29": {
           "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09",
@@ -51160,11 +53653,6 @@ var schemeData =
           "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101",
           "to": "ad105e2b-063b-4782-8c81-732bf8a2de45244101"
         },
-        "3baa03ce-117c-4386-a1c8-cbc02c980515": {
-          "from": "1cd537f0-df33-4713-9b58-7ab0b6cdac06399446364",
-          "to": "6424e4f6-be06-4595-8cd9-d82195021711",
-          "id": "3baa03ce-117c-4386-a1c8-cbc02c980515"
-        },
         "c6fdc440-5a7e-4387-99b2-bf550a84af72": {
           "from": "6424e4f6-be06-4595-8cd9-d82195021711",
           "to": "95b13425-1313-45bb-b717-2dc43e3f0db4",
@@ -53419,11 +55907,6 @@ var schemeData =
           "to": "834f46cb-7ffb-4a1e-85ca-e02057ce84d7",
           "id": "2ee5041b-dad0-43e7-a242-9c4ba85f6faa"
         },
-        "bb2ab76b-8669-4f5e-ae30-70d185454a5c": {
-          "from": "1cd537f0-df33-4713-9b58-7ab0b6cdac06399446364",
-          "to": "b25790aa-8c02-47d5-9e17-ad1f52a04950",
-          "id": "bb2ab76b-8669-4f5e-ae30-70d185454a5c"
-        },
         "36d4825e-8bc2-452a-ad18-6ddc522f392b676": {
           "arrows": {
             "to": {},
@@ -53551,6 +56034,2374 @@ var schemeData =
           "from": "9e3d9ebf-0e62-4dd5-99d5-9e332eb78daa",
           "to": "9670a512-d5dd-4e91-80f6-ef1c2437d730",
           "id": "2b34ed90-a667-4ad9-a6ee-3cea1ed7e899"
+        },
+        "52e47d51-7730-4e2a-81fd-4f1f58876e4b": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1",
+          "id": "52e47d51-7730-4e2a-81fd-4f1f58876e4b",
+          "label": "code"
+        },
+        "c0c6bb2b-23d1-4835-81f4-3a57a7c9f8e0": {
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1",
+          "to": "135c39e3-94c2-40e7-ae16-52d5d44f9ad0",
+          "id": "c0c6bb2b-23d1-4835-81f4-3a57a7c9f8e0"
+        },
+        "c3feacaa-6c95-4799-b1b8-dd3cf3a7b6cd": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "6353007f-9f22-4e9f-b3b7-e8b5633334f5",
+          "id": "c3feacaa-6c95-4799-b1b8-dd3cf3a7b6cd",
+          "label": "code"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529665711116": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529665711116",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729665711116"
+        },
+        "a982625c-6e61-4fba-b671-e3afae16978116": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "a982625c-6e61-4fba-b671-e3afae16978116",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf48616",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529665716": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529665716",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729665716"
+        },
+        "60282f88-3af0-4c12-a19f-78b9c3eb1c4916": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "60282f88-3af0-4c12-a19f-78b9c3eb1c4916",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf48616",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529616": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529616",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729616"
+        },
+        "3312ffc2-e7a1-4c46-b562-24461a5b806316": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "3312ffc2-e7a1-4c46-b562-24461a5b806316",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf48616",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616"
+        },
+        "36d4825e-8bc2-452a-ad18-6ddc522f392b16": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "36d4825e-8bc2-452a-ad18-6ddc522f392b16",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf48616",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095716"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1516": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1516",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095716",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32716"
+        },
+        "a83d8292-aec0-4f99-b4f2-6163a6c5d33e": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095716",
+          "id": "a83d8292-aec0-4f99-b4f2-6163a6c5d33e",
+          "label": "code"
+        },
+        "21d70652-62cc-4fae-a519-9ed8f742a754": {
+          "from": "6353007f-9f22-4e9f-b3b7-e8b5633334f5",
+          "to": "79b2040c-229b-40b1-9731-226db8a21300",
+          "id": "21d70652-62cc-4fae-a519-9ed8f742a754"
+        },
+        "04b0b860-12ff-4a13-ae56-556f40b4f733": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716",
+          "id": "04b0b860-12ff-4a13-ae56-556f40b4f733",
+          "label": "code"
+        },
+        "6614a993-2989-4dcd-9a56-45c6301106fb": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616",
+          "id": "6614a993-2989-4dcd-9a56-45c6301106fb",
+          "label": "code"
+        },
+        "2f56c594-83bd-447d-9800-54a4620f1fbe": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116",
+          "id": "2f56c594-83bd-447d-9800-54a4620f1fbe",
+          "label": "code"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1516242": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1516242",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095716242",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32716242"
+        },
+        "a83d8292-aec0-4f99-b4f2-6163a6c5d33e242": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "a83d8292-aec0-4f99-b4f2-6163a6c5d33e242",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486242",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095716242"
+        },
+        "4596f954-fbef-4a99-9fa0-efbc415974cd": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "77f5d377-f3bc-4aa5-b24b-0aed059f780f",
+          "id": "4596f954-fbef-4a99-9fa0-efbc415974cd",
+          "label": "code"
+        },
+        "d68b88c5-b826-41f3-acb3-fbbd3312965d": {
+          "from": "77f5d377-f3bc-4aa5-b24b-0aed059f780f",
+          "to": "5ac9f357-80d9-4c42-be1d-a917d49107f2",
+          "id": "d68b88c5-b826-41f3-acb3-fbbd3312965d"
+        },
+        "dc04dc9e-fc1d-4f54-888f-cee9fbf9e06f": {
+          "from": "55f3f583-903d-4635-92b0-79a95d767408",
+          "to": "100ede14-f234-4f5b-a7a9-e9d9ab991e72",
+          "id": "dc04dc9e-fc1d-4f54-888f-cee9fbf9e06f"
+        },
+        "a2cd0716-d4eb-4b6a-ac2f-cac2b9cff7a0": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "55f3f583-903d-4635-92b0-79a95d767408",
+          "id": "a2cd0716-d4eb-4b6a-ac2f-cac2b9cff7a0",
+          "label": "code"
+        },
+        "f385d157-a12c-4d09-9bc2-b33588ad0b93": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "eebdd252-b75a-4eda-9a38-f1e431861c81",
+          "id": "f385d157-a12c-4d09-9bc2-b33588ad0b93",
+          "label": "code"
+        },
+        "52e47d51-7730-4e2a-81fd-4f1f58876e4b768": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "52e47d51-7730-4e2a-81fd-4f1f58876e4b768",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486768",
+          "to": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768"
+        },
+        "c0c6bb2b-23d1-4835-81f4-3a57a7c9f8e0768": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c0c6bb2b-23d1-4835-81f4-3a57a7c9f8e0768",
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768",
+          "to": "135c39e3-94c2-40e7-ae16-52d5d44f9ad0768"
+        },
+        "60e49396-0994-4f65-b08a-994e1dbe03b0": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768",
+          "id": "60e49396-0994-4f65-b08a-994e1dbe03b0",
+          "label": "code"
+        },
+        "2098076d-f30e-4558-ae0e-02f7c3c8afb5": {
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768",
+          "to": "046e9c23-d4aa-4c01-b2a6-17d441e43da8",
+          "id": "2098076d-f30e-4558-ae0e-02f7c3c8afb5"
+        },
+        "60e49396-0994-4f65-b08a-994e1dbe03b0511": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "60e49396-0994-4f65-b08a-994e1dbe03b0511",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486511",
+          "to": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768511"
+        },
+        "2098076d-f30e-4558-ae0e-02f7c3c8afb5511": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "2098076d-f30e-4558-ae0e-02f7c3c8afb5511",
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768511",
+          "to": "046e9c23-d4aa-4c01-b2a6-17d441e43da8511"
+        },
+        "86806ee1-cf78-4b01-bf20-cc9bb8ad60b4": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768511",
+          "id": "86806ee1-cf78-4b01-bf20-cc9bb8ad60b4",
+          "label": "code"
+        },
+        "cc236f29-e95f-4618-9832-ebebe9079763": {
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768511",
+          "to": "b6d09855-e242-412e-a73b-248c4c2b4983",
+          "id": "cc236f29-e95f-4618-9832-ebebe9079763"
+        },
+        "3cf25f76-64bc-4ddb-a70b-da45fba6baa2": {
+          "from": "17d68a3e-f87e-426a-b30a-70b017318672",
+          "to": "c3a924bf-0ff9-4fc6-99e5-3ee5d9cc60b3",
+          "id": "3cf25f76-64bc-4ddb-a70b-da45fba6baa2"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1516435": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1516435",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095716435",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32716435"
+        },
+        "a83d8292-aec0-4f99-b4f2-6163a6c5d33e435": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "a83d8292-aec0-4f99-b4f2-6163a6c5d33e435",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486435",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095716435"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529616435": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529616435",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729616435"
+        },
+        "6614a993-2989-4dcd-9a56-45c6301106fb435": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "6614a993-2989-4dcd-9a56-45c6301106fb435",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486435",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529665716435": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529665716435",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729665716435"
+        },
+        "04b0b860-12ff-4a13-ae56-556f40b4f733435": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "04b0b860-12ff-4a13-ae56-556f40b4f733435",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486435",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529665711116435": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529665711116435",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729665711116435"
+        },
+        "2f56c594-83bd-447d-9800-54a4620f1fbe435": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "2f56c594-83bd-447d-9800-54a4620f1fbe435",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486435",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435"
+        },
+        "0597e6a7-07ec-4d97-9646-24e312b44fbc": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095716435",
+          "id": "0597e6a7-07ec-4d97-9646-24e312b44fbc",
+          "label": "code"
+        },
+        "75813261-cbad-46cc-a98b-5c8c462c2151": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435",
+          "id": "75813261-cbad-46cc-a98b-5c8c462c2151",
+          "label": "code"
+        },
+        "c5c2bf73-f909-4bff-8646-6ccf2e1be9ad": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435",
+          "id": "c5c2bf73-f909-4bff-8646-6ccf2e1be9ad",
+          "label": "code"
+        },
+        "73cb828f-3183-4cfc-82c8-eff9711bdeb2": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435",
+          "id": "73cb828f-3183-4cfc-82c8-eff9711bdeb2",
+          "label": "code"
+        },
+        "83710775-22e4-4107-8a13-1618c8b220a1": {
+          "from": "610d4222-77c1-4624-8652-bd79b449b283486",
+          "to": "86ab6d61-63bb-4d9d-bc86-7dfc7ecc9593",
+          "id": "83710775-22e4-4107-8a13-1618c8b220a1"
+        },
+        "deb80220-2df3-4755-b349-28b53beffffe": {
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1",
+          "to": "6dac1cf6-6420-442b-8c22-b2838d32e857",
+          "id": "deb80220-2df3-4755-b349-28b53beffffe"
+        },
+        "ee653b14-228f-483d-a652-bbdee495ec1a": {
+          "from": "6dac1cf6-6420-442b-8c22-b2838d32e857",
+          "to": "d88b95b2-f0c0-4c0b-9aa0-1a2838352255",
+          "id": "ee653b14-228f-483d-a652-bbdee495ec1a"
+        },
+        "8a85db82-adde-4d83-944d-7e8966f14ef8": {
+          "from": "6dac1cf6-6420-442b-8c22-b2838d32e857",
+          "to": "8f34f236-821b-49d0-bcdf-20b4e18976b7",
+          "id": "8a85db82-adde-4d83-944d-7e8966f14ef8"
+        },
+        "89da855a-03da-4016-9172-317c0d92e2dc": {
+          "from": "6dac1cf6-6420-442b-8c22-b2838d32e857",
+          "to": "7b325917-0a8b-45a2-9115-19875b86c32c",
+          "id": "89da855a-03da-4016-9172-317c0d92e2dc"
+        },
+        "2098076d-f30e-4558-ae0e-02f7c3c8afb5403": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "2098076d-f30e-4558-ae0e-02f7c3c8afb5403",
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768403",
+          "to": "046e9c23-d4aa-4c01-b2a6-17d441e43da8403"
+        },
+        "60e49396-0994-4f65-b08a-994e1dbe03b0403": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "60e49396-0994-4f65-b08a-994e1dbe03b0403",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486403",
+          "to": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768403"
+        },
+        "bc9d6102-8e10-4294-a815-5d375c3b6a42": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "70b5ce27-5ed9-4d73-81ef-3840d42a92b1768403",
+          "id": "bc9d6102-8e10-4294-a815-5d375c3b6a42",
+          "label": "code"
+        },
+        "d9d6c416-5875-4ccc-b261-04f13dc7ba4e": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "c8508d54-95df-4b4a-977b-77ab4a268f59",
+          "id": "d9d6c416-5875-4ccc-b261-04f13dc7ba4e",
+          "label": "code"
+        },
+        "50fbfc56-d214-4488-9eb8-7a1754af35bc": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "e283bb5e-4305-4099-9ada-63f068527a00",
+          "id": "50fbfc56-d214-4488-9eb8-7a1754af35bc",
+          "label": "code"
+        },
+        "f385d157-a12c-4d09-9bc2-b33588ad0b93881": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "f385d157-a12c-4d09-9bc2-b33588ad0b93881",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486881",
+          "to": "eebdd252-b75a-4eda-9a38-f1e431861c81881"
+        },
+        "d4e39354-21b5-4a8f-93c0-c7a16b1c8b76": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "eebdd252-b75a-4eda-9a38-f1e431861c81881",
+          "id": "d4e39354-21b5-4a8f-93c0-c7a16b1c8b76",
+          "label": "code"
+        },
+        "52e47d51-7730-4e2a-81fd-4f1f58876e4b92": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "52e47d51-7730-4e2a-81fd-4f1f58876e4b92",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf48692",
+          "to": "70b5ce27-5ed9-4d73-81ef-3840d42a92b192"
+        },
+        "c0c6bb2b-23d1-4835-81f4-3a57a7c9f8e092": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c0c6bb2b-23d1-4835-81f4-3a57a7c9f8e092",
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b192",
+          "to": "135c39e3-94c2-40e7-ae16-52d5d44f9ad092"
+        },
+        "deb80220-2df3-4755-b349-28b53beffffe92": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "deb80220-2df3-4755-b349-28b53beffffe92",
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b192",
+          "to": "6dac1cf6-6420-442b-8c22-b2838d32e85792"
+        },
+        "c3feacaa-6c95-4799-b1b8-dd3cf3a7b6cd92": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "c3feacaa-6c95-4799-b1b8-dd3cf3a7b6cd92",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf48692",
+          "to": "6353007f-9f22-4e9f-b3b7-e8b5633334f592"
+        },
+        "21d70652-62cc-4fae-a519-9ed8f742a75492": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "21d70652-62cc-4fae-a519-9ed8f742a75492",
+          "from": "6353007f-9f22-4e9f-b3b7-e8b5633334f592",
+          "to": "79b2040c-229b-40b1-9731-226db8a2130092"
+        },
+        "9e217d08-8dfe-44cf-ba34-387fd7dc640e": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "70b5ce27-5ed9-4d73-81ef-3840d42a92b192",
+          "id": "9e217d08-8dfe-44cf-ba34-387fd7dc640e",
+          "label": "code"
+        },
+        "e87393d7-f1fe-4809-9bc3-4d4d229eca4c": {
+          "from": "e283bb5e-4305-4099-9ada-63f068527a00",
+          "to": "f21281af-0f1a-49ca-89c7-067a692c5440",
+          "id": "e87393d7-f1fe-4809-9bc3-4d4d229eca4c"
+        },
+        "61d568fe-0d2c-4b11-99b6-5997a2430160": {
+          "from": "c8508d54-95df-4b4a-977b-77ab4a268f59",
+          "to": "996140d5-d835-4790-9d6e-5e334b511ad6",
+          "id": "61d568fe-0d2c-4b11-99b6-5997a2430160"
+        },
+        "04384a01-ead2-40bb-b269-ce6093513dbb": {
+          "from": "70b5ce27-5ed9-4d73-81ef-3840d42a92b192",
+          "to": "b268f14c-7834-4d65-b63f-b04ff4ddefd8",
+          "id": "04384a01-ead2-40bb-b269-ce6093513dbb"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529665711116435178": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529665711116435178",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435178",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729665711116435178"
+        },
+        "73cb828f-3183-4cfc-82c8-eff9711bdeb2178": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "73cb828f-3183-4cfc-82c8-eff9711bdeb2178",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486178",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435178"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529665716435178": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529665716435178",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435178",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729665716435178"
+        },
+        "c5c2bf73-f909-4bff-8646-6ccf2e1be9ad178": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "c5c2bf73-f909-4bff-8646-6ccf2e1be9ad178",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486178",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435178"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529616435178": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529616435178",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435178",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729616435178"
+        },
+        "75813261-cbad-46cc-a98b-5c8c462c2151178": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "75813261-cbad-46cc-a98b-5c8c462c2151178",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486178",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435178"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1516435178": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1516435178",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095716435178",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32716435178"
+        },
+        "0597e6a7-07ec-4d97-9646-24e312b44fbc178": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "0597e6a7-07ec-4d97-9646-24e312b44fbc178",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486178",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095716435178"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529665711116178": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529665711116178",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116178",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729665711116178"
+        },
+        "2f56c594-83bd-447d-9800-54a4620f1fbe178": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "2f56c594-83bd-447d-9800-54a4620f1fbe178",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486178",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116178"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1529665716178": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1529665716178",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716178",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32729665716178"
+        },
+        "04b0b860-12ff-4a13-ae56-556f40b4f733178": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "04b0b860-12ff-4a13-ae56-556f40b4f733178",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486178",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716178"
+        },
+        "6614a993-2989-4dcd-9a56-45c6301106fb178": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "6614a993-2989-4dcd-9a56-45c6301106fb178",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486178",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616178"
+        },
+        "16873bb6-ccf9-414e-9738-72d68c6a2b1516178": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "16873bb6-ccf9-414e-9738-72d68c6a2b1516178",
+          "from": "f2cb8cc2-ae23-4295-8c89-34adf64a095716178",
+          "to": "26845609-e819-4d66-b0c5-40f233bbebef32716178"
+        },
+        "a83d8292-aec0-4f99-b4f2-6163a6c5d33e178": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "a83d8292-aec0-4f99-b4f2-6163a6c5d33e178",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486178",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095716178"
+        },
+        "3f8a806f-bc6b-41eb-b6a2-834acaa7ed51": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095716178",
+          "id": "3f8a806f-bc6b-41eb-b6a2-834acaa7ed51",
+          "label": "code"
+        },
+        "bccf5de4-7daf-41ad-a4d5-0f3209002a52": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716178",
+          "id": "bccf5de4-7daf-41ad-a4d5-0f3209002a52",
+          "label": "code"
+        },
+        "c4f3dc1b-a142-4348-85bb-5dd5a6eefb69": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116178",
+          "id": "c4f3dc1b-a142-4348-85bb-5dd5a6eefb69",
+          "label": "code"
+        },
+        "a496d308-df22-45aa-ae02-542ba900f8b8": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095716435178",
+          "id": "a496d308-df22-45aa-ae02-542ba900f8b8",
+          "label": "code"
+        },
+        "a040975f-9012-49e3-ae1e-1a6aeff87d40": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729616435178",
+          "id": "a040975f-9012-49e3-ae1e-1a6aeff87d40",
+          "label": "code"
+        },
+        "633db48c-d178-41ce-a168-b30cf6c56dfc": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665716435178",
+          "id": "633db48c-d178-41ce-a168-b30cf6c56dfc",
+          "label": "code"
+        },
+        "c9ed78de-4be8-49c3-8ad4-f305575d8eee": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "f2cb8cc2-ae23-4295-8c89-34adf64a095729665711116435178",
+          "id": "c9ed78de-4be8-49c3-8ad4-f305575d8eee",
+          "label": "code"
+        },
+        "7793a3a0-45a9-4658-8449-987e6acd5f7c": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "6341fdf8-d364-4edd-bb95-9f3b036b8cf1",
+          "id": "7793a3a0-45a9-4658-8449-987e6acd5f7c",
+          "label": "code"
+        },
+        "c006fffe-111e-4521-8612-7ceb2b4f1e7d": {
+          "from": "603509b0-5c5b-491e-9e05-8b464a9a6ce8486",
+          "to": "9d1c4174-daab-4691-9c8d-42c6e2a93d1c",
+          "id": "c006fffe-111e-4521-8612-7ceb2b4f1e7d"
+        },
+        "bddd8232-0892-442a-9d8b-0619c8b83f9e": {
+          "from": "3552edb9-2544-4402-8945-e803a851781f486",
+          "to": "6e256024-7967-45b0-b93f-7aea584b4ac7",
+          "id": "bddd8232-0892-442a-9d8b-0619c8b83f9e"
+        },
+        "75c87330-8a0d-47b9-a5e1-70f48f5b58e3": {
+          "from": "200bf789-2d9a-4de6-8068-2c291572d19f486",
+          "to": "c9242376-1621-403f-8b24-08c147b2bf83",
+          "id": "75c87330-8a0d-47b9-a5e1-70f48f5b58e3"
+        },
+        "7ca474de-1a21-4edd-84b0-6cb1ed1051ad": {
+          "from": "6341fdf8-d364-4edd-bb95-9f3b036b8cf1",
+          "to": "973b0c2c-2dd1-4da1-8366-3b34bd894714",
+          "id": "7ca474de-1a21-4edd-84b0-6cb1ed1051ad"
+        },
+        "7793a3a0-45a9-4658-8449-987e6acd5f7c844": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "7793a3a0-45a9-4658-8449-987e6acd5f7c844",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486844",
+          "to": "6341fdf8-d364-4edd-bb95-9f3b036b8cf1844"
+        },
+        "7ca474de-1a21-4edd-84b0-6cb1ed1051ad844": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7ca474de-1a21-4edd-84b0-6cb1ed1051ad844",
+          "from": "6341fdf8-d364-4edd-bb95-9f3b036b8cf1844",
+          "to": "973b0c2c-2dd1-4da1-8366-3b34bd894714844"
+        },
+        "9b8a8ecf-fc13-4b17-9730-cc888034ec70": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "6341fdf8-d364-4edd-bb95-9f3b036b8cf1844",
+          "id": "9b8a8ecf-fc13-4b17-9730-cc888034ec70",
+          "label": "code"
+        },
+        "7ca474de-1a21-4edd-84b0-6cb1ed1051ad0": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7ca474de-1a21-4edd-84b0-6cb1ed1051ad0",
+          "from": "6341fdf8-d364-4edd-bb95-9f3b036b8cf10",
+          "to": "973b0c2c-2dd1-4da1-8366-3b34bd8947140"
+        },
+        "bc912b0e-3ff4-4d49-8294-c2f30076eb65": {
+          "from": "6341fdf8-d364-4edd-bb95-9f3b036b8cf1844",
+          "to": "973b0c2c-2dd1-4da1-8366-3b34bd8947140",
+          "id": "bc912b0e-3ff4-4d49-8294-c2f30076eb65"
+        },
+        "9a16ef43-db25-4daf-8bc1-078cb8448d80171": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "9a16ef43-db25-4daf-8bc1-078cb8448d80171",
+          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486171",
+          "to": "50a823f0-7dd6-405d-9439-efb541521447171"
+        },
+        "9041c5db-dafd-419f-8a55-86c4571e657d171": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "9041c5db-dafd-419f-8a55-86c4571e657d171",
+          "from": "50a823f0-7dd6-405d-9439-efb541521447171",
+          "to": "da3927c9-4db5-47b0-93c1-b158ad52d20f171"
+        },
+        "fa78ed89-36c6-4221-86d9-52cb6be83918": {
+          "from": "dd335ed4-e289-4094-9b02-33c3d12ede97486",
+          "to": "50a823f0-7dd6-405d-9439-efb541521447171",
+          "id": "fa78ed89-36c6-4221-86d9-52cb6be83918",
+          "label": "code"
+        },
+        "bc388160-d83c-4004-b66b-5d4eb0d3a9d4244101685": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "bc388160-d83c-4004-b66b-5d4eb0d3a9d4244101685",
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101685",
+          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101685"
+        },
+        "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b244101685": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b244101685",
+          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101685",
+          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101685"
+        },
+        "9775bfce-3012-40ce-b4d3-083340dda4c9244101685": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "9775bfce-3012-40ce-b4d3-083340dda4c9244101685",
+          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101685",
+          "to": "100eff1f-2de6-4e02-ae43-700c710aaae4244101685"
+        },
+        "a04dfb4c-1465-45d1-a6b8-01af77d6769b244101685": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "a04dfb4c-1465-45d1-a6b8-01af77d6769b244101685",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101685",
+          "to": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101685"
+        },
+        "0e354c29-ab9b-470b-ac8e-dda6a7bd34c2244101685": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0e354c29-ab9b-470b-ac8e-dda6a7bd34c2244101685",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101685",
+          "to": "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101685"
+        },
+        "0219fe25-9f16-4006-862b-27713558b852244101685": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0219fe25-9f16-4006-862b-27713558b852244101685",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101685",
+          "to": "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101685"
+        },
+        "f4066506-c5f6-4f0f-aac5-67155cf4030f244101685": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "f4066506-c5f6-4f0f-aac5-67155cf4030f244101685",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101685",
+          "to": "ad105e2b-063b-4782-8c81-732bf8a2de45244101685"
+        },
+        "2ee5041b-dad0-43e7-a242-9c4ba85f6faa842": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "2ee5041b-dad0-43e7-a242-9c4ba85f6faa842",
+          "from": "b25790aa-8c02-47d5-9e17-ad1f52a04950842",
+          "to": "834f46cb-7ffb-4a1e-85ca-e02057ce84d7842"
+        },
+        "9971c24d-9368-45ad-bf2c-040c90f20026": {
+          "from": "46e082ab-975d-4469-bc40-c72ac63f2337",
+          "to": "834f46cb-7ffb-4a1e-85ca-e02057ce84d7842",
+          "id": "9971c24d-9368-45ad-bf2c-040c90f20026"
+        },
+        "d10cdd14-4316-4567-99aa-37eb60fd502d": {
+          "from": "3ed2b04c-f7c1-4cb0-8ac8-91270e7f6af4",
+          "to": "b25790aa-8c02-47d5-9e17-ad1f52a04950",
+          "id": "d10cdd14-4316-4567-99aa-37eb60fd502d"
+        },
+        "9c0e16a4-7b9f-4ffb-bd2c-7bb8cad13697": {
+          "from": "3ed2b04c-f7c1-4cb0-8ac8-91270e7f6af4",
+          "to": "17d68a3e-f87e-426a-b30a-70b017318672",
+          "id": "9c0e16a4-7b9f-4ffb-bd2c-7bb8cad13697"
+        },
+        "404a82f7-3068-46c9-82fc-bf215f108f93": {
+          "from": "3ed2b04c-f7c1-4cb0-8ac8-91270e7f6af4",
+          "to": "46e082ab-975d-4469-bc40-c72ac63f2337",
+          "id": "404a82f7-3068-46c9-82fc-bf215f108f93"
+        },
+        "53a9292a-bd5c-48cc-be35-366d07bf3f27": {
+          "from": "3ed2b04c-f7c1-4cb0-8ac8-91270e7f6af4",
+          "to": "56f999e7-a031-4e78-b0e1-ea4094e80e9f",
+          "id": "53a9292a-bd5c-48cc-be35-366d07bf3f27"
+        },
+        "326b467d-a4b4-465e-b457-b420e693c569": {
+          "from": "1cd537f0-df33-4713-9b58-7ab0b6cdac06399446364",
+          "to": "3ed2b04c-f7c1-4cb0-8ac8-91270e7f6af4",
+          "id": "326b467d-a4b4-465e-b457-b420e693c569"
+        },
+        "e0f963f2-8580-41e7-b24f-c0b8288c326e": {
+          "from": "3ed2b04c-f7c1-4cb0-8ac8-91270e7f6af4",
+          "to": "167b9ceb-b60c-40b0-8d4f-3a344e02ddc2",
+          "id": "e0f963f2-8580-41e7-b24f-c0b8288c326e"
+        },
+        "e45d3141-4171-4688-91aa-1ec7d0be5e69": {
+          "from": "167b9ceb-b60c-40b0-8d4f-3a344e02ddc2",
+          "to": "ba065092-2c29-4fb4-b391-67d4c827a121",
+          "id": "e45d3141-4171-4688-91aa-1ec7d0be5e69"
+        },
+        "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501623": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5730fe67-6c64-488f-82ce-c48dd68d29fb206401942486693232501623",
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501623",
+          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501623"
+        },
+        "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501623": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d8982651-933d-47c1-ae53-e8f297c1393a206401942486693232501623",
+          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501623",
+          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501623"
+        },
+        "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501623": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "ff1f32f6-6d48-47b2-a086-9f382c6c331f232501623",
+          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501623",
+          "to": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501623"
+        },
+        "280d28f8-535c-4c88-a2f0-87e762ee1663232501623": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "280d28f8-535c-4c88-a2f0-87e762ee1663232501623",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501623",
+          "to": "46ca27cc-0371-4111-a4c2-6db8795d0e65232501623"
+        },
+        "ee63df6f-1921-46e9-9700-34b89669bba6232501623": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "ee63df6f-1921-46e9-9700-34b89669bba6232501623",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501623",
+          "to": "061899dc-a185-4eaf-a3ac-c8e943203b3e232501623"
+        },
+        "3e13284c-fe14-4274-8f65-922e56fc6f11232501623": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "3e13284c-fe14-4274-8f65-922e56fc6f11232501623",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501623",
+          "to": "d80e4d87-43fe-4457-835f-0cbbbb8b3358232501623"
+        },
+        "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501623": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "23cad47f-f7a6-4328-b5c4-d66f19e31ab2232501623",
+          "from": "99fec32e-5d44-48e6-a2a2-97c0e2f78702232501623",
+          "to": "69e1c992-010c-4a23-9c38-eb54979a89de232501623"
+        },
+        "8c1f9cca-468a-460f-9659-02dfa7c577d6": {
+          "from": "3ed2b04c-f7c1-4cb0-8ac8-91270e7f6af4",
+          "to": "6424e4f6-be06-4595-8cd9-d82195021711",
+          "id": "8c1f9cca-468a-460f-9659-02dfa7c577d6"
+        },
+        "739488d1-f473-4b27-ae2d-f64b8cae9121709471": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "739488d1-f473-4b27-ae2d-f64b8cae9121709471",
+          "from": "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709471",
+          "to": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709471"
         }
       },
       "length": 0,
@@ -53613,7 +58464,7 @@ var schemeData =
   "setup": {
     "scale": 0.01,
     "viewPosition": {
-      "x": 65673.00000000001,
+      "x": 65672.99999999999,
       "y": 17508.000000000004
     }
   }
