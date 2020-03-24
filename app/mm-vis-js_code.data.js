@@ -12795,7 +12795,7 @@ var schemeData =
           "id": "44401bba-5383-432e-b905-25e85a0b60ec",
           "x": 41116,
           "y": -14883,
-          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews2.html \\\nnews2.data.js \\\nadmin.html \\\nadmin.data.js \\\n../../sushilshik.github.io/",
+          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nadmin.html \\\nadmin.data.js \\\n../../sushilshik.github.io/",
           "shape": "box",
           "link": "",
           "font": {
@@ -25184,7 +25184,7 @@ var schemeData =
           "id": "0412b23c-532f-4d72-a5f0-639724b79637",
           "x": 40479,
           "y": -11410,
-          "label": "jsFilesLinksParam:106",
+          "label": "jsFilesLinksParam:110",
           "shape": "box",
           "link": "",
           "font": {
@@ -25218,7 +25218,7 @@ var schemeData =
           "id": "9e3d9ebf-0e62-4dd5-99d5-9e332eb78daa",
           "x": 40491,
           "y": -11357,
-          "label": "readLocalUserConfig: true",
+          "label": "readLocalUserConfig: false",
           "shape": "box",
           "link": "",
           "font": {
@@ -58464,8 +58464,8 @@ var schemeData =
   "setup": {
     "scale": 0.01,
     "viewPosition": {
-      "x": 65672.99999999999,
-      "y": 17508.000000000004
+      "x": 65673.00000000032,
+      "y": 17507.999999999993
     }
   }
 }

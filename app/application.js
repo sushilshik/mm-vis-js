@@ -54,10 +54,7 @@ var dontShowShemeDataMenuPagesList = [
    "timelines.html"
 ];
 var lastSelectedNodeId = null;
-var userConfData = {
-  "conceptualModelingLocalLink1": "file:///home/mike/oldmount/wd2_earx_wcazah/Downloads_2018/conceptual_modeling_2020.02.05/"
-}
-
+var userConfData = undefined
 var cursorNodeId = null;
 var keyboardMoveSelectedEnabled = false;
 //Colors:
