@@ -1208,8 +1208,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Театр",
-          "x": 85222,
-          "y": -9208,
+          "x": 78922,
+          "y": -9015,
           "id": "b38a0e4e-678d-4fbf-9668-2d3ffe206792936",
           "shape": "box",
           "link": "",
@@ -1238,8 +1238,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 85522,
-          "y": -8759,
+          "x": 79222,
+          "y": -8566,
           "id": "be9eeaa8-0d26-4a6d-8d82-cb14f3a3af4b936"
         },
         "f4a2b2f5-ffdc-4de2-af27-a3e3e40f43b1936": {
@@ -1265,8 +1265,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 85681,
-          "y": -8759,
+          "x": 79381,
+          "y": -8566,
           "id": "f4a2b2f5-ffdc-4de2-af27-a3e3e40f43b1936"
         },
         "8746dc0e-fd08-4d1f-af34-d0839cc48352936": {
@@ -1292,8 +1292,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 85778,
-          "y": -8759,
+          "x": 79478,
+          "y": -8566,
           "id": "8746dc0e-fd08-4d1f-af34-d0839cc48352936"
         },
         "6d17a58d-1fc2-4a50-bc18-1d1f6565e648936": {
@@ -1319,8 +1319,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 85522,
-          "y": -9609,
+          "x": 79222,
+          "y": -9416,
           "id": "6d17a58d-1fc2-4a50-bc18-1d1f6565e648936"
         },
         "864a5f11-152e-430e-b72c-bb787cd8e8e2936": {
@@ -1346,8 +1346,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 85672,
-          "y": -9859,
+          "x": 79372,
+          "y": -9666,
           "id": "864a5f11-152e-430e-b72c-bb787cd8e8e2936"
         },
         "13cd35c8-2e44-43e9-b61c-a401c7d63ce9936": {
@@ -1373,8 +1373,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 85672,
-          "y": -9609,
+          "x": 79372,
+          "y": -9416,
           "id": "13cd35c8-2e44-43e9-b61c-a401c7d63ce9936"
         },
         "cbb5d910-bda2-45ff-8f7e-e4395f24ad82936": {
@@ -1400,8 +1400,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 85672,
-          "y": -9359,
+          "x": 79372,
+          "y": -9166,
           "id": "cbb5d910-bda2-45ff-8f7e-e4395f24ad82936"
         },
         "32867ab9-fddf-454d-908e-c7dae4dd3280936": {
@@ -1427,8 +1427,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 85736,
-          "y": -9508,
+          "x": 79436,
+          "y": -9315,
           "id": "32867ab9-fddf-454d-908e-c7dae4dd3280936"
         },
         "35b5ba24-f28e-4de9-a1db-9b8af3eaef09936": {
@@ -1454,8 +1454,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 85766,
-          "y": -9483,
+          "x": 79466,
+          "y": -9290,
           "id": "35b5ba24-f28e-4de9-a1db-9b8af3eaef09936"
         },
         "4f319ff4-e760-4ae9-8c5d-4ed962783ae4936": {
@@ -1481,8 +1481,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 85732,
-          "y": -9458,
+          "x": 79432,
+          "y": -9265,
           "id": "4f319ff4-e760-4ae9-8c5d-4ed962783ae4936"
         },
         "014ee3fd-dd2d-4bb2-9743-aa57c766050d936": {
@@ -1508,8 +1508,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 85751,
-          "y": -9433,
+          "x": 79451,
+          "y": -9240,
           "id": "014ee3fd-dd2d-4bb2-9743-aa57c766050d936"
         },
         "fec5189a-3751-418d-a876-246daebc2dda936": {
@@ -1535,8 +1535,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 85739,
-          "y": -9408,
+          "x": 79439,
+          "y": -9215,
           "id": "fec5189a-3751-418d-a876-246daebc2dda936"
         },
         "562caa79-a41d-453b-b48e-725903a10ee7936": {
@@ -1562,8 +1562,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 85761,
-          "y": -9383,
+          "x": 79461,
+          "y": -9190,
           "id": "562caa79-a41d-453b-b48e-725903a10ee7936"
         },
         "e820f365-507b-4875-9896-3bb1f57943a5936": {
@@ -1589,8 +1589,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 85764,
-          "y": -9358,
+          "x": 79464,
+          "y": -9165,
           "id": "e820f365-507b-4875-9896-3bb1f57943a5936"
         },
         "d40ccf15-6ef9-4e66-be79-006fc4f76ae4936": {
@@ -1616,8 +1616,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 85742,
-          "y": -9333,
+          "x": 79442,
+          "y": -9140,
           "id": "d40ccf15-6ef9-4e66-be79-006fc4f76ae4936"
         },
         "eeb9e942-4de3-4b69-bfe7-78ff63a842ef936": {
@@ -1643,8 +1643,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 85733,
-          "y": -9308,
+          "x": 79433,
+          "y": -9115,
           "id": "eeb9e942-4de3-4b69-bfe7-78ff63a842ef936"
         },
         "2ea1ad71-3cae-439f-84e1-11d4c7bf6220936": {
@@ -1670,8 +1670,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 85760,
-          "y": -9283,
+          "x": 79460,
+          "y": -9090,
           "id": "2ea1ad71-3cae-439f-84e1-11d4c7bf6220936"
         },
         "4e49635e-d8c4-4285-87a1-2501f2e535f3936": {
@@ -1697,8 +1697,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 85747,
-          "y": -9258,
+          "x": 79447,
+          "y": -9065,
           "id": "4e49635e-d8c4-4285-87a1-2501f2e535f3936"
         },
         "714fd166-d2d1-45c7-be67-730a29abb504936": {
@@ -1724,8 +1724,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 85768,
-          "y": -9233,
+          "x": 79468,
+          "y": -9040,
           "id": "714fd166-d2d1-45c7-be67-730a29abb504936"
         },
         "9d3696e1-47fb-4a64-b530-47ccd8917f47936": {
@@ -1751,8 +1751,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 85733,
-          "y": -9208,
+          "x": 79433,
+          "y": -9015,
           "id": "9d3696e1-47fb-4a64-b530-47ccd8917f47936"
         },
         "6423ccb7-9c3c-4782-b42f-d509cbf7091d936": {
@@ -1778,8 +1778,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 85772,
-          "y": -9183,
+          "x": 79472,
+          "y": -8990,
           "id": "6423ccb7-9c3c-4782-b42f-d509cbf7091d936"
         },
         "c2a1f159-9a70-4b02-9c4a-6f81be216cf0936": {
@@ -1805,8 +1805,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 85522,
-          "y": -9059,
+          "x": 79222,
+          "y": -8866,
           "id": "c2a1f159-9a70-4b02-9c4a-6f81be216cf0936"
         },
         "4ab99fb3-8337-4178-a0ba-1a8f1b9cf069936": {
@@ -1832,8 +1832,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 85522,
-          "y": -8959,
+          "x": 79222,
+          "y": -8766,
           "id": "4ab99fb3-8337-4178-a0ba-1a8f1b9cf069936"
         },
         "e61d2150-4eb1-471e-86c8-82e9cb69444a936": {
@@ -1859,8 +1859,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 85522,
-          "y": -8859,
+          "x": 79222,
+          "y": -8666,
           "id": "e61d2150-4eb1-471e-86c8-82e9cb69444a936"
         },
         "f4d0d1f9-370b-4a25-8894-364b65e8847c936": {
@@ -1889,8 +1889,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Кино",
-          "x": 85369,
-          "y": -6673,
+          "x": 79065,
+          "y": -5986,
           "id": "f4d0d1f9-370b-4a25-8894-364b65e8847c936",
           "shape": "box",
           "link": "",
@@ -1919,8 +1919,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 85669,
-          "y": -6224,
+          "x": 79365,
+          "y": -5537,
           "id": "19000757-4b0a-4e92-92da-14975a083702936"
         },
         "04e78b73-13a2-490c-98e1-ac7755f8bf1f936": {
@@ -1946,8 +1946,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 85828,
-          "y": -6221,
+          "x": 79524,
+          "y": -5534,
           "id": "04e78b73-13a2-490c-98e1-ac7755f8bf1f936"
         },
         "90e31606-419f-4d46-a841-c825e014c94b936": {
@@ -1973,8 +1973,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 85951,
-          "y": -6222,
+          "x": 79647,
+          "y": -5535,
           "id": "90e31606-419f-4d46-a841-c825e014c94b936"
         },
         "5be52f1f-0a7b-4923-948a-a95ddf36a255936": {
@@ -2000,8 +2000,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 85669,
-          "y": -7074,
+          "x": 79365,
+          "y": -6387,
           "id": "5be52f1f-0a7b-4923-948a-a95ddf36a255936"
         },
         "ae4f11d6-5a7f-4a39-b893-6bd89792036f936": {
@@ -2027,8 +2027,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 85819,
-          "y": -7324,
+          "x": 79526,
+          "y": -6945,
           "id": "ae4f11d6-5a7f-4a39-b893-6bd89792036f936"
         },
         "b25415a6-fdcc-480d-8f36-a6a5986e1bd9936": {
@@ -2054,8 +2054,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 85819,
-          "y": -7074,
+          "x": 79515,
+          "y": -6387,
           "id": "b25415a6-fdcc-480d-8f36-a6a5986e1bd9936"
         },
         "01920d36-225d-4772-8c06-2da1c06b35ca936": {
@@ -2081,8 +2081,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 85819,
-          "y": -6824,
+          "x": 79515,
+          "y": -6137,
           "id": "01920d36-225d-4772-8c06-2da1c06b35ca936"
         },
         "60c86ee0-b22f-48cc-b02c-5ec877d42fdf936": {
@@ -2108,8 +2108,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 85883,
-          "y": -6973,
+          "x": 79579,
+          "y": -6286,
           "id": "60c86ee0-b22f-48cc-b02c-5ec877d42fdf936"
         },
         "c91dd356-efcf-4fc2-b3ff-4faa7a2fc9c6936": {
@@ -2135,8 +2135,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 85913,
-          "y": -6948,
+          "x": 79609,
+          "y": -6261,
           "id": "c91dd356-efcf-4fc2-b3ff-4faa7a2fc9c6936"
         },
         "bc420d78-9f8d-4c1e-af20-debedff8f1fc936": {
@@ -2162,8 +2162,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 85879,
-          "y": -6923,
+          "x": 79575,
+          "y": -6236,
           "id": "bc420d78-9f8d-4c1e-af20-debedff8f1fc936"
         },
         "8947774d-2a98-4551-a56d-1b8c7bc278ee936": {
@@ -2189,8 +2189,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 85898,
-          "y": -6898,
+          "x": 79594,
+          "y": -6211,
           "id": "8947774d-2a98-4551-a56d-1b8c7bc278ee936"
         },
         "d4a802d6-bf9e-4202-9058-21624859d5e9936": {
@@ -2216,8 +2216,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 85886,
-          "y": -6873,
+          "x": 79582,
+          "y": -6186,
           "id": "d4a802d6-bf9e-4202-9058-21624859d5e9936"
         },
         "abfb799b-d672-4a91-8141-007dba1a9833936": {
@@ -2243,8 +2243,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 85908,
-          "y": -6848,
+          "x": 79604,
+          "y": -6161,
           "id": "abfb799b-d672-4a91-8141-007dba1a9833936"
         },
         "4a113d36-e4d7-4454-97fd-7ad5a89892e5936": {
@@ -2270,8 +2270,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 85911,
-          "y": -6823,
+          "x": 79607,
+          "y": -6136,
           "id": "4a113d36-e4d7-4454-97fd-7ad5a89892e5936"
         },
         "46dcf54a-3931-4be1-b015-7483fb18593c936": {
@@ -2297,8 +2297,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 85889,
-          "y": -6798,
+          "x": 79585,
+          "y": -6111,
           "id": "46dcf54a-3931-4be1-b015-7483fb18593c936"
         },
         "d85491f1-b959-4874-b078-652098bd0853936": {
@@ -2324,8 +2324,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 85880,
-          "y": -6773,
+          "x": 79576,
+          "y": -6086,
           "id": "d85491f1-b959-4874-b078-652098bd0853936"
         },
         "325c86c3-18d8-448f-86e3-a18d663c1f29936": {
@@ -2351,8 +2351,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 85907,
-          "y": -6748,
+          "x": 79603,
+          "y": -6061,
           "id": "325c86c3-18d8-448f-86e3-a18d663c1f29936"
         },
         "aa9095ca-c09c-4737-892d-b2ce76779dd4936": {
@@ -2378,8 +2378,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 85894,
-          "y": -6723,
+          "x": 79590,
+          "y": -6036,
           "id": "aa9095ca-c09c-4737-892d-b2ce76779dd4936"
         },
         "6b1309ea-d23a-43cf-9bd9-108edddb2939936": {
@@ -2405,8 +2405,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 85915,
-          "y": -6698,
+          "x": 79611,
+          "y": -6011,
           "id": "6b1309ea-d23a-43cf-9bd9-108edddb2939936"
         },
         "8d8720c6-d0ab-4a15-8474-ae2bfb122658936": {
@@ -2432,8 +2432,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 85880,
-          "y": -6673,
+          "x": 79576,
+          "y": -5986,
           "id": "8d8720c6-d0ab-4a15-8474-ae2bfb122658936"
         },
         "d1fea730-cd85-4427-b3c4-45c0446185a6936": {
@@ -2459,8 +2459,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 85919,
-          "y": -6648,
+          "x": 79615,
+          "y": -5961,
           "id": "d1fea730-cd85-4427-b3c4-45c0446185a6936"
         },
         "55436d3d-28fc-43e9-b39d-9562e884edc8936": {
@@ -2486,8 +2486,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 85669,
-          "y": -6524,
+          "x": 79365,
+          "y": -5837,
           "id": "55436d3d-28fc-43e9-b39d-9562e884edc8936"
         },
         "09a8257c-a941-4b37-931c-bc39a470f45b936": {
@@ -2513,8 +2513,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 85669,
-          "y": -6424,
+          "x": 79365,
+          "y": -5737,
           "id": "09a8257c-a941-4b37-931c-bc39a470f45b936"
         },
         "b8bc8b61-4739-4c64-ab15-fb27f01d4904936": {
@@ -2540,8 +2540,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 85669,
-          "y": -6324,
+          "x": 79365,
+          "y": -5637,
           "id": "b8bc8b61-4739-4c64-ab15-fb27f01d4904936"
         },
         "8aba0565-5170-4a68-a32a-8277dab8cf51936": {
@@ -2570,8 +2570,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "TV",
-          "x": 85409,
-          "y": -3909,
+          "x": 79062,
+          "y": -195,
           "id": "8aba0565-5170-4a68-a32a-8277dab8cf51936",
           "shape": "box",
           "link": "",
@@ -2600,8 +2600,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 85709,
-          "y": -3459,
+          "x": 79362,
+          "y": 255,
           "id": "f5823030-ad03-4e2d-b865-a146a0d2c74d936"
         },
         "24db1c8d-d79c-4a1a-aa2b-441b1ed28bce936": {
@@ -2627,8 +2627,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 85959,
-          "y": -3459,
+          "x": 79612,
+          "y": 255,
           "id": "24db1c8d-d79c-4a1a-aa2b-441b1ed28bce936"
         },
         "0f0bf256-d814-41d3-83ce-2916c752be80936": {
@@ -2654,8 +2654,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 85859,
-          "y": -3459,
+          "x": 79512,
+          "y": 255,
           "id": "0f0bf256-d814-41d3-83ce-2916c752be80936"
         },
         "c81e964b-9078-4f7e-a7e0-0a47ab9248d3936": {
@@ -2681,8 +2681,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 85709,
-          "y": -4309,
+          "x": 79362,
+          "y": -595,
           "id": "c81e964b-9078-4f7e-a7e0-0a47ab9248d3936"
         },
         "403d0db5-e62d-428d-a3c9-03155f991b6b936": {
@@ -2708,8 +2708,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 85859,
-          "y": -4559,
+          "x": 79512,
+          "y": -845,
           "id": "403d0db5-e62d-428d-a3c9-03155f991b6b936"
         },
         "e0aa3312-662b-4050-82ce-64eb9f347b1a936": {
@@ -2735,8 +2735,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 85859,
-          "y": -4309,
+          "x": 79512,
+          "y": -595,
           "id": "e0aa3312-662b-4050-82ce-64eb9f347b1a936"
         },
         "7f1cb9c7-4160-42b0-8c82-38267b16d961936": {
@@ -2762,8 +2762,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 85859,
-          "y": -4059,
+          "x": 79512,
+          "y": -345,
           "id": "7f1cb9c7-4160-42b0-8c82-38267b16d961936"
         },
         "b5c2911f-c5c8-46d3-8ea6-c7a0943234cc936": {
@@ -2789,8 +2789,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 85923,
-          "y": -4209,
+          "x": 79576,
+          "y": -495,
           "id": "b5c2911f-c5c8-46d3-8ea6-c7a0943234cc936"
         },
         "61b11fdf-0f8a-4f7f-9d90-dc0902cc9866936": {
@@ -2816,8 +2816,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 85953,
-          "y": -4184,
+          "x": 79606,
+          "y": -470,
           "id": "61b11fdf-0f8a-4f7f-9d90-dc0902cc9866936"
         },
         "97cf6073-f86a-4853-a846-1d1ff645f25a936": {
@@ -2843,8 +2843,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 85919,
-          "y": -4159,
+          "x": 79572,
+          "y": -445,
           "id": "97cf6073-f86a-4853-a846-1d1ff645f25a936"
         },
         "a4ddd1b5-0db9-440b-895b-0b9607de8c7b936": {
@@ -2870,8 +2870,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 85938,
-          "y": -4134,
+          "x": 79591,
+          "y": -420,
           "id": "a4ddd1b5-0db9-440b-895b-0b9607de8c7b936"
         },
         "b1145e89-52a4-4f4b-be75-5e610976487f936": {
@@ -2897,8 +2897,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 85926,
-          "y": -4109,
+          "x": 79579,
+          "y": -395,
           "id": "b1145e89-52a4-4f4b-be75-5e610976487f936"
         },
         "2b02a0f4-9f12-4219-b990-142899d0f568936": {
@@ -2924,8 +2924,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 85948,
-          "y": -4084,
+          "x": 79601,
+          "y": -370,
           "id": "2b02a0f4-9f12-4219-b990-142899d0f568936"
         },
         "68485ff9-4d04-471f-a353-39be0c7db38d936": {
@@ -2951,8 +2951,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 85951,
-          "y": -4059,
+          "x": 79604,
+          "y": -345,
           "id": "68485ff9-4d04-471f-a353-39be0c7db38d936"
         },
         "347af97e-57f0-477b-9013-a2982eaad394936": {
@@ -2978,8 +2978,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 85929,
-          "y": -4034,
+          "x": 79582,
+          "y": -320,
           "id": "347af97e-57f0-477b-9013-a2982eaad394936"
         },
         "0b8a3c2a-eb77-42cb-8f51-93821f9690c4936": {
@@ -3005,8 +3005,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 85920,
-          "y": -4009,
+          "x": 79573,
+          "y": -295,
           "id": "0b8a3c2a-eb77-42cb-8f51-93821f9690c4936"
         },
         "3c17e35f-6a8a-490e-b31e-0ecb18ef155d936": {
@@ -3032,8 +3032,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 85947,
-          "y": -3984,
+          "x": 79600,
+          "y": -270,
           "id": "3c17e35f-6a8a-490e-b31e-0ecb18ef155d936"
         },
         "6cb10370-5071-47ac-9964-46681453ab15936": {
@@ -3059,8 +3059,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 85934,
-          "y": -3959,
+          "x": 79587,
+          "y": -245,
           "id": "6cb10370-5071-47ac-9964-46681453ab15936"
         },
         "72e10b91-f578-49bb-b0a2-08c11c284c03936": {
@@ -3086,8 +3086,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 85955,
-          "y": -3934,
+          "x": 79608,
+          "y": -220,
           "id": "72e10b91-f578-49bb-b0a2-08c11c284c03936"
         },
         "3e1dbc97-68c8-424c-a4cf-752b1b465f57936": {
@@ -3113,8 +3113,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 85920,
-          "y": -3909,
+          "x": 79573,
+          "y": -195,
           "id": "3e1dbc97-68c8-424c-a4cf-752b1b465f57936"
         },
         "7f088936-acdc-437d-89d2-352f7aab76b3936": {
@@ -3140,8 +3140,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 85959,
-          "y": -3884,
+          "x": 79612,
+          "y": -170,
           "id": "7f088936-acdc-437d-89d2-352f7aab76b3936"
         },
         "87afe1a7-f1bf-4056-b6e8-c9202b254e2e936": {
@@ -3167,8 +3167,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 85709,
-          "y": -3759,
+          "x": 79362,
+          "y": -45,
           "id": "87afe1a7-f1bf-4056-b6e8-c9202b254e2e936"
         },
         "e0389f6c-c52a-459b-a12c-cc747fa643fb936": {
@@ -3194,8 +3194,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 85709,
-          "y": -3659,
+          "x": 79362,
+          "y": 55,
           "id": "e0389f6c-c52a-459b-a12c-cc747fa643fb936"
         },
         "f0d45794-629f-448c-a53c-7ae7dcbfd90a936": {
@@ -3221,8 +3221,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 85709,
-          "y": -3559,
+          "x": 79362,
+          "y": 155,
           "id": "f0d45794-629f-448c-a53c-7ae7dcbfd90a936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694936": {
@@ -3254,8 +3254,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Театр",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694936",
-          "x": 89744,
-          "y": -9380,
+          "x": 83444,
+          "y": -9187,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3289,8 +3289,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кино",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437936",
-          "x": 89540,
-          "y": -6981,
+          "x": 83240,
+          "y": -6788,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3324,8 +3324,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "TV",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777936",
-          "x": 89054,
-          "y": -4124,
+          "x": 82707,
+          "y": -410,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3359,8 +3359,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Youtube",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680936",
-          "x": 104496,
-          "y": 761,
+          "x": 95495,
+          "y": 6524,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3391,8 +3391,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Писатели",
-          "x": 85615,
-          "y": -1333,
+          "x": 79268,
+          "y": 2381,
           "id": "18b86c80-edbd-4de2-aa12-dfaa65b83fc0936",
           "shape": "box",
           "link": "",
@@ -3421,8 +3421,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 85915,
-          "y": -884,
+          "x": 79568,
+          "y": 2830,
           "id": "51f087a6-2271-4920-ac90-e5e336cf8e3c936"
         },
         "4b61e960-0e1b-4635-8b61-9fe439849084936": {
@@ -3448,8 +3448,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86092,
-          "y": -884,
+          "x": 79745,
+          "y": 2830,
           "id": "4b61e960-0e1b-4635-8b61-9fe439849084936"
         },
         "cce34df4-6129-45c5-af7d-30aea9ed0fe3936": {
@@ -3475,8 +3475,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86189,
-          "y": -884,
+          "x": 79842,
+          "y": 2830,
           "id": "cce34df4-6129-45c5-af7d-30aea9ed0fe3936"
         },
         "3d21bf49-face-4a91-9792-050387cd03cb936": {
@@ -3502,8 +3502,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 85915,
-          "y": -1734,
+          "x": 79568,
+          "y": 1980,
           "id": "3d21bf49-face-4a91-9792-050387cd03cb936"
         },
         "9c469c61-e0ac-467f-9398-47bed07d6a7a936": {
@@ -3529,8 +3529,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86065,
-          "y": -1984,
+          "x": 79718,
+          "y": 1730,
           "id": "9c469c61-e0ac-467f-9398-47bed07d6a7a936"
         },
         "e2614eff-16e4-4265-ade0-61b359ea8d69936": {
@@ -3556,8 +3556,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86065,
-          "y": -1734,
+          "x": 79718,
+          "y": 1980,
           "id": "e2614eff-16e4-4265-ade0-61b359ea8d69936"
         },
         "d7489c1b-004d-47d1-bb05-cfaabb7197ee936": {
@@ -3583,8 +3583,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86065,
-          "y": -1484,
+          "x": 79718,
+          "y": 2230,
           "id": "d7489c1b-004d-47d1-bb05-cfaabb7197ee936"
         },
         "f0bf4394-18f8-46c3-af5d-7b832101de8d936": {
@@ -3610,8 +3610,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86151,
-          "y": -1629,
+          "x": 79804,
+          "y": 2085,
           "id": "f0bf4394-18f8-46c3-af5d-7b832101de8d936"
         },
         "0935ee20-5b88-449a-b458-8c4310e1b485936": {
@@ -3637,8 +3637,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86181,
-          "y": -1604,
+          "x": 79834,
+          "y": 2110,
           "id": "0935ee20-5b88-449a-b458-8c4310e1b485936"
         },
         "08e0ee31-9492-4a52-aefd-c2ac52deb9f7936": {
@@ -3664,8 +3664,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86147,
-          "y": -1579,
+          "x": 79800,
+          "y": 2135,
           "id": "08e0ee31-9492-4a52-aefd-c2ac52deb9f7936"
         },
         "42c72e83-2cc4-455e-84ad-b852fbae57f5936": {
@@ -3691,8 +3691,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86166,
-          "y": -1554,
+          "x": 79819,
+          "y": 2160,
           "id": "42c72e83-2cc4-455e-84ad-b852fbae57f5936"
         },
         "01586ee6-5feb-4446-8437-9c997bc57a72936": {
@@ -3718,8 +3718,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86154,
-          "y": -1529,
+          "x": 79807,
+          "y": 2185,
           "id": "01586ee6-5feb-4446-8437-9c997bc57a72936"
         },
         "b754b4c4-7e2f-420a-9037-c5a0980934b3936": {
@@ -3745,8 +3745,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86176,
-          "y": -1504,
+          "x": 79829,
+          "y": 2210,
           "id": "b754b4c4-7e2f-420a-9037-c5a0980934b3936"
         },
         "9c5c0825-cf65-4cae-843d-70b8c354ac1c936": {
@@ -3772,8 +3772,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86179,
-          "y": -1479,
+          "x": 79832,
+          "y": 2235,
           "id": "9c5c0825-cf65-4cae-843d-70b8c354ac1c936"
         },
         "82f1b63b-e95c-43a7-bff1-b146a04cadaf936": {
@@ -3799,8 +3799,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86157,
-          "y": -1454,
+          "x": 79810,
+          "y": 2260,
           "id": "82f1b63b-e95c-43a7-bff1-b146a04cadaf936"
         },
         "a5406db9-9f04-49c4-bf9e-9dded6e6e3dc936": {
@@ -3826,8 +3826,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86148,
-          "y": -1429,
+          "x": 79801,
+          "y": 2285,
           "id": "a5406db9-9f04-49c4-bf9e-9dded6e6e3dc936"
         },
         "c272bd92-d829-43c3-a199-96c79e22876c936": {
@@ -3853,8 +3853,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86175,
-          "y": -1404,
+          "x": 79828,
+          "y": 2310,
           "id": "c272bd92-d829-43c3-a199-96c79e22876c936"
         },
         "5eb15317-ef38-4b3e-a1a0-f6ece68988ae936": {
@@ -3880,8 +3880,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86162,
-          "y": -1379,
+          "x": 79815,
+          "y": 2335,
           "id": "5eb15317-ef38-4b3e-a1a0-f6ece68988ae936"
         },
         "76232507-1b0f-4591-8081-42aa6a230fce936": {
@@ -3907,8 +3907,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86183,
-          "y": -1354,
+          "x": 79836,
+          "y": 2360,
           "id": "76232507-1b0f-4591-8081-42aa6a230fce936"
         },
         "6702ae73-d2c1-41f0-bb37-07c0d0b176fd936": {
@@ -3934,8 +3934,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86148,
-          "y": -1329,
+          "x": 79801,
+          "y": 2385,
           "id": "6702ae73-d2c1-41f0-bb37-07c0d0b176fd936"
         },
         "1cfe5d6c-8f36-4bbc-a80e-ec15daf802a0936": {
@@ -3961,8 +3961,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86187,
-          "y": -1304,
+          "x": 79840,
+          "y": 2410,
           "id": "1cfe5d6c-8f36-4bbc-a80e-ec15daf802a0936"
         },
         "76044a1f-d5b6-4663-b486-226930946d21936": {
@@ -3988,8 +3988,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 85915,
-          "y": -1184,
+          "x": 79568,
+          "y": 2530,
           "id": "76044a1f-d5b6-4663-b486-226930946d21936"
         },
         "dd52c8c1-c9ec-40cf-bc0d-32b71cf7b4a8936": {
@@ -4015,8 +4015,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 85915,
-          "y": -1084,
+          "x": 79568,
+          "y": 2630,
           "id": "dd52c8c1-c9ec-40cf-bc0d-32b71cf7b4a8936"
         },
         "dac2bf4d-5af7-4577-9cec-2e5bfeef5bf1936": {
@@ -4042,8 +4042,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 85915,
-          "y": -984,
+          "x": 79568,
+          "y": 2730,
           "id": "dac2bf4d-5af7-4577-9cec-2e5bfeef5bf1936"
         },
         "6a3e7c57-806a-445f-a08a-9fdf263eaf3d936": {
@@ -4072,8 +4072,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Поэты",
-          "x": 85582,
-          "y": 1579,
+          "x": 79235,
+          "y": 5293,
           "id": "6a3e7c57-806a-445f-a08a-9fdf263eaf3d936",
           "shape": "box",
           "link": "",
@@ -4102,8 +4102,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 85882,
-          "y": 2029,
+          "x": 79535,
+          "y": 5743,
           "id": "d064c335-9855-4ad5-9ba5-9db6f42dfcd0936"
         },
         "3404c5b3-8947-4e4f-bfa9-ac0ba3e36e0c936": {
@@ -4129,8 +4129,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86132,
-          "y": 2029,
+          "x": 79785,
+          "y": 5743,
           "id": "3404c5b3-8947-4e4f-bfa9-ac0ba3e36e0c936"
         },
         "d045c6dd-3cfc-434f-b2d3-34d73b01e47a936": {
@@ -4156,8 +4156,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86032,
-          "y": 2029,
+          "x": 79685,
+          "y": 5743,
           "id": "d045c6dd-3cfc-434f-b2d3-34d73b01e47a936"
         },
         "1f322662-ce3a-4abf-9ebb-35c5d65f4605936": {
@@ -4183,8 +4183,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 85882,
-          "y": 1179,
+          "x": 79535,
+          "y": 4893,
           "id": "1f322662-ce3a-4abf-9ebb-35c5d65f4605936"
         },
         "01b8216c-25dc-4884-bd2a-4a1a61a32300936": {
@@ -4210,8 +4210,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86032,
-          "y": 929,
+          "x": 79685,
+          "y": 4643,
           "id": "01b8216c-25dc-4884-bd2a-4a1a61a32300936"
         },
         "3d76c5d5-9676-4468-b9d9-cbae0a68a535936": {
@@ -4237,8 +4237,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86032,
-          "y": 1179,
+          "x": 79685,
+          "y": 4893,
           "id": "3d76c5d5-9676-4468-b9d9-cbae0a68a535936"
         },
         "f302df0e-6b16-4d7f-80b1-e0abcd6e2f1b936": {
@@ -4264,8 +4264,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86032,
-          "y": 1429,
+          "x": 79685,
+          "y": 5143,
           "id": "f302df0e-6b16-4d7f-80b1-e0abcd6e2f1b936"
         },
         "4036c41b-38d1-4842-b284-5aec7b007c95936": {
@@ -4291,8 +4291,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86096,
-          "y": 1279,
+          "x": 79749,
+          "y": 4993,
           "id": "4036c41b-38d1-4842-b284-5aec7b007c95936"
         },
         "c0a2ddd2-d9d9-4e9d-a4ab-d702a835f985936": {
@@ -4318,8 +4318,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86126,
-          "y": 1304,
+          "x": 79779,
+          "y": 5018,
           "id": "c0a2ddd2-d9d9-4e9d-a4ab-d702a835f985936"
         },
         "0526fdc4-fd87-4638-b457-f64aed43a6a3936": {
@@ -4345,8 +4345,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86092,
-          "y": 1329,
+          "x": 79745,
+          "y": 5043,
           "id": "0526fdc4-fd87-4638-b457-f64aed43a6a3936"
         },
         "bab8e8f5-b431-4158-a1db-af48478879f9936": {
@@ -4372,8 +4372,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86111,
-          "y": 1354,
+          "x": 79764,
+          "y": 5068,
           "id": "bab8e8f5-b431-4158-a1db-af48478879f9936"
         },
         "d0d0cc38-dc66-4716-a01c-6e701264b5d6936": {
@@ -4399,8 +4399,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86099,
-          "y": 1379,
+          "x": 79752,
+          "y": 5093,
           "id": "d0d0cc38-dc66-4716-a01c-6e701264b5d6936"
         },
         "49acfd4f-95ce-4f4c-814e-7382b3512cc2936": {
@@ -4426,8 +4426,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86121,
-          "y": 1404,
+          "x": 79774,
+          "y": 5118,
           "id": "49acfd4f-95ce-4f4c-814e-7382b3512cc2936"
         },
         "2bf472a2-6437-42f3-87f4-ea2c0a5f0243936": {
@@ -4453,8 +4453,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86124,
-          "y": 1429,
+          "x": 79777,
+          "y": 5143,
           "id": "2bf472a2-6437-42f3-87f4-ea2c0a5f0243936"
         },
         "0f490a95-3ff7-436f-99ca-62814627776b936": {
@@ -4480,8 +4480,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86102,
-          "y": 1454,
+          "x": 79755,
+          "y": 5168,
           "id": "0f490a95-3ff7-436f-99ca-62814627776b936"
         },
         "b84b0412-2d9e-447c-a224-7940196cd801936": {
@@ -4507,8 +4507,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86093,
-          "y": 1479,
+          "x": 79746,
+          "y": 5193,
           "id": "b84b0412-2d9e-447c-a224-7940196cd801936"
         },
         "da8938a5-da11-4375-9415-6cfa0650c249936": {
@@ -4534,8 +4534,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86120,
-          "y": 1504,
+          "x": 79773,
+          "y": 5218,
           "id": "da8938a5-da11-4375-9415-6cfa0650c249936"
         },
         "b556c3a2-8f0a-42cc-b413-6cc967e34582936": {
@@ -4561,8 +4561,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86107,
-          "y": 1529,
+          "x": 79760,
+          "y": 5243,
           "id": "b556c3a2-8f0a-42cc-b413-6cc967e34582936"
         },
         "75a28823-2d92-46f9-b592-b363a28f86ef936": {
@@ -4588,8 +4588,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86128,
-          "y": 1554,
+          "x": 79781,
+          "y": 5268,
           "id": "75a28823-2d92-46f9-b592-b363a28f86ef936"
         },
         "ae245a61-6900-4ac0-97d6-20c101f698c5936": {
@@ -4615,8 +4615,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86093,
-          "y": 1579,
+          "x": 79746,
+          "y": 5293,
           "id": "ae245a61-6900-4ac0-97d6-20c101f698c5936"
         },
         "95b20098-5afa-4440-a383-17c890322502936": {
@@ -4642,8 +4642,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86132,
-          "y": 1604,
+          "x": 79785,
+          "y": 5318,
           "id": "95b20098-5afa-4440-a383-17c890322502936"
         },
         "38027d22-5513-4739-9bf7-34547c978d24936": {
@@ -4669,8 +4669,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 85882,
-          "y": 1729,
+          "x": 79535,
+          "y": 5443,
           "id": "38027d22-5513-4739-9bf7-34547c978d24936"
         },
         "3285ba37-30c8-4723-b997-a6f14aaa6752936": {
@@ -4696,8 +4696,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 85882,
-          "y": 1829,
+          "x": 79535,
+          "y": 5543,
           "id": "3285ba37-30c8-4723-b997-a6f14aaa6752936"
         },
         "bea6b415-0861-4efb-a5f2-43a16dd2147b936": {
@@ -4723,8 +4723,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 85882,
-          "y": 1929,
+          "x": 79535,
+          "y": 5643,
           "id": "bea6b415-0861-4efb-a5f2-43a16dd2147b936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674936": {
@@ -4756,8 +4756,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Писатели",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674936",
-          "x": 90626,
-          "y": -1506,
+          "x": 84279,
+          "y": 2208,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -4791,8 +4791,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Поэты",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216936",
-          "x": 89885,
-          "y": 1418,
+          "x": 83538,
+          "y": 5132,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -4824,8 +4824,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Выставочные\nцентры",
-          "x": 85449,
-          "y": 4585,
+          "x": 79102,
+          "y": 8299,
           "id": "52c646ea-b218-4d2c-b1cb-84f0f13e1870936",
           "shape": "box",
           "link": "",
@@ -4854,8 +4854,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86066,
-          "y": 5001,
+          "x": 79719,
+          "y": 8715,
           "id": "23bb679f-f477-4cf0-af20-9b11b8927e48936"
         },
         "b36eea38-cbbb-468b-a952-2892f7d5c866936": {
@@ -4881,8 +4881,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86238,
-          "y": 5002,
+          "x": 79891,
+          "y": 8716,
           "id": "b36eea38-cbbb-468b-a952-2892f7d5c866936"
         },
         "65346c07-404d-46c4-a3cd-6754a21e7eb0936": {
@@ -4908,8 +4908,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86346,
-          "y": 5002,
+          "x": 79999,
+          "y": 8716,
           "id": "65346c07-404d-46c4-a3cd-6754a21e7eb0936"
         },
         "70531c0f-f455-49e0-845c-22a173f35bbc936": {
@@ -4935,8 +4935,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86066,
-          "y": 4151,
+          "x": 79719,
+          "y": 7865,
           "id": "70531c0f-f455-49e0-845c-22a173f35bbc936"
         },
         "61483310-ae50-4354-a98b-c1dbe5383670936": {
@@ -4962,8 +4962,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86216,
-          "y": 3901,
+          "x": 79869,
+          "y": 7615,
           "id": "61483310-ae50-4354-a98b-c1dbe5383670936"
         },
         "5e6f5611-81f9-4374-b34f-e8dc0660308f936": {
@@ -4989,8 +4989,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86216,
-          "y": 4151,
+          "x": 79869,
+          "y": 7865,
           "id": "5e6f5611-81f9-4374-b34f-e8dc0660308f936"
         },
         "6b992769-4d95-4160-b214-dbf7575fbac3936": {
@@ -5016,8 +5016,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86216,
-          "y": 4401,
+          "x": 79869,
+          "y": 8115,
           "id": "6b992769-4d95-4160-b214-dbf7575fbac3936"
         },
         "cfd81051-7819-420a-bd29-423d4cb77e4e936": {
@@ -5043,8 +5043,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86280,
-          "y": 4250,
+          "x": 79933,
+          "y": 7964,
           "id": "cfd81051-7819-420a-bd29-423d4cb77e4e936"
         },
         "22e447bb-550e-423c-a6a3-c1665b6d8440936": {
@@ -5070,8 +5070,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86310,
-          "y": 4275,
+          "x": 79963,
+          "y": 7989,
           "id": "22e447bb-550e-423c-a6a3-c1665b6d8440936"
         },
         "0df8e8ca-bd85-4bfb-930c-f53fc5bac13e936": {
@@ -5097,8 +5097,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86276,
-          "y": 4300,
+          "x": 79929,
+          "y": 8014,
           "id": "0df8e8ca-bd85-4bfb-930c-f53fc5bac13e936"
         },
         "28a07740-54c7-4acc-9573-7403fa1d7d9c936": {
@@ -5124,8 +5124,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86295,
-          "y": 4325,
+          "x": 79948,
+          "y": 8039,
           "id": "28a07740-54c7-4acc-9573-7403fa1d7d9c936"
         },
         "57299d71-7ea1-4f1b-b493-abf76c615dab936": {
@@ -5151,8 +5151,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86283,
-          "y": 4350,
+          "x": 79936,
+          "y": 8064,
           "id": "57299d71-7ea1-4f1b-b493-abf76c615dab936"
         },
         "31dc6182-8530-4641-8b21-c0bb69df7eba936": {
@@ -5178,8 +5178,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86305,
-          "y": 4375,
+          "x": 79958,
+          "y": 8089,
           "id": "31dc6182-8530-4641-8b21-c0bb69df7eba936"
         },
         "31883376-8cf5-4324-8a8a-679899c2aa4a936": {
@@ -5205,8 +5205,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86308,
-          "y": 4400,
+          "x": 79961,
+          "y": 8114,
           "id": "31883376-8cf5-4324-8a8a-679899c2aa4a936"
         },
         "73bb0cb6-73ad-4918-8567-5228a7d6b210936": {
@@ -5232,8 +5232,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86286,
-          "y": 4425,
+          "x": 79939,
+          "y": 8139,
           "id": "73bb0cb6-73ad-4918-8567-5228a7d6b210936"
         },
         "47c519b2-369c-490b-8576-f9ce8ba266a9936": {
@@ -5259,8 +5259,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86277,
-          "y": 4450,
+          "x": 79930,
+          "y": 8164,
           "id": "47c519b2-369c-490b-8576-f9ce8ba266a9936"
         },
         "ca28f115-d729-49bd-b37c-349232589393936": {
@@ -5286,8 +5286,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86304,
-          "y": 4475,
+          "x": 79957,
+          "y": 8189,
           "id": "ca28f115-d729-49bd-b37c-349232589393936"
         },
         "458a448d-50e4-4e01-8a3c-9070333b312e936": {
@@ -5313,8 +5313,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86291,
-          "y": 4500,
+          "x": 79944,
+          "y": 8214,
           "id": "458a448d-50e4-4e01-8a3c-9070333b312e936"
         },
         "3c44bbd4-f7d3-45bd-a871-e9a297726413936": {
@@ -5340,8 +5340,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86312,
-          "y": 4525,
+          "x": 79965,
+          "y": 8239,
           "id": "3c44bbd4-f7d3-45bd-a871-e9a297726413936"
         },
         "eef42f59-1b9d-4777-9811-dfbad8c48d4c936": {
@@ -5367,8 +5367,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86277,
-          "y": 4550,
+          "x": 79930,
+          "y": 8264,
           "id": "eef42f59-1b9d-4777-9811-dfbad8c48d4c936"
         },
         "53dd5392-7b37-4cd5-b7cb-d5bfee33f683936": {
@@ -5394,8 +5394,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86316,
-          "y": 4575,
+          "x": 79969,
+          "y": 8289,
           "id": "53dd5392-7b37-4cd5-b7cb-d5bfee33f683936"
         },
         "0456f645-c56b-4868-8407-0df968a491b3936": {
@@ -5421,8 +5421,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86066,
-          "y": 4701,
+          "x": 79719,
+          "y": 8415,
           "id": "0456f645-c56b-4868-8407-0df968a491b3936"
         },
         "557d09e5-99f5-4e41-b2de-da968f2aff38936": {
@@ -5448,8 +5448,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86066,
-          "y": 4801,
+          "x": 79719,
+          "y": 8515,
           "id": "557d09e5-99f5-4e41-b2de-da968f2aff38936"
         },
         "9916c384-53bf-468b-914b-205876dbc1e8936": {
@@ -5475,8 +5475,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86066,
-          "y": 4901,
+          "x": 79719,
+          "y": 8615,
           "id": "9916c384-53bf-468b-914b-205876dbc1e8936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814936": {
@@ -5509,8 +5509,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выставочные\nцентры",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814936",
-          "x": 91560,
-          "y": 4804,
+          "x": 85213,
+          "y": 8518,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5541,8 +5541,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Музеи",
-          "x": 85794,
-          "y": 8107,
+          "x": 79450,
+          "y": 12114,
           "id": "57fd5f1a-13fc-41b6-9bac-c3b851974af8936",
           "shape": "box",
           "link": "",
@@ -5571,8 +5571,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86094,
-          "y": 8557,
+          "x": 79750,
+          "y": 12564,
           "id": "c7c3b509-cc3e-4d01-a697-19366c6f41bc936"
         },
         "3a135cf2-4ad6-4e4b-9e28-e214ba3cfab6936": {
@@ -5598,8 +5598,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86270,
-          "y": 8555,
+          "x": 79926,
+          "y": 12562,
           "id": "3a135cf2-4ad6-4e4b-9e28-e214ba3cfab6936"
         },
         "6f63ca50-2e1b-4dbc-aa37-1b6fcf6199b9936": {
@@ -5625,8 +5625,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86356,
-          "y": 8553,
+          "x": 80012,
+          "y": 12560,
           "id": "6f63ca50-2e1b-4dbc-aa37-1b6fcf6199b9936"
         },
         "88251142-f0f2-4e9f-b5c0-d50b470bcc4d936": {
@@ -5652,8 +5652,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86094,
-          "y": 7707,
+          "x": 79750,
+          "y": 11714,
           "id": "88251142-f0f2-4e9f-b5c0-d50b470bcc4d936"
         },
         "449b5ed6-e097-48d3-af14-b5f2578f3feb936": {
@@ -5679,8 +5679,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86244,
-          "y": 7457,
+          "x": 79897,
+          "y": 11171,
           "id": "449b5ed6-e097-48d3-af14-b5f2578f3feb936"
         },
         "6defbd86-766e-4c73-9081-66f3d05eb181936": {
@@ -5706,8 +5706,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86244,
-          "y": 7707,
+          "x": 79900,
+          "y": 11714,
           "id": "6defbd86-766e-4c73-9081-66f3d05eb181936"
         },
         "63fd1e56-5d36-49b5-a503-68fc4c779267936": {
@@ -5733,8 +5733,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86244,
-          "y": 7957,
+          "x": 79900,
+          "y": 11964,
           "id": "63fd1e56-5d36-49b5-a503-68fc4c779267936"
         },
         "2eb38cdc-25ba-4032-b3f0-4100252468ec936": {
@@ -5760,8 +5760,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86308,
-          "y": 7807,
+          "x": 79964,
+          "y": 11814,
           "id": "2eb38cdc-25ba-4032-b3f0-4100252468ec936"
         },
         "d5200ef6-805d-4d3b-a279-b25870dc4982936": {
@@ -5787,8 +5787,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86338,
-          "y": 7832,
+          "x": 79994,
+          "y": 11839,
           "id": "d5200ef6-805d-4d3b-a279-b25870dc4982936"
         },
         "576f1be9-524f-49ee-9202-70994cfe9c5f936": {
@@ -5814,8 +5814,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86304,
-          "y": 7857,
+          "x": 79960,
+          "y": 11864,
           "id": "576f1be9-524f-49ee-9202-70994cfe9c5f936"
         },
         "fc1fdbef-bddc-4a49-b696-f3c6cfab3d04936": {
@@ -5841,8 +5841,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86323,
-          "y": 7882,
+          "x": 79979,
+          "y": 11889,
           "id": "fc1fdbef-bddc-4a49-b696-f3c6cfab3d04936"
         },
         "d4a04087-85c5-4c68-93c9-49f82f2a0113936": {
@@ -5868,8 +5868,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86311,
-          "y": 7907,
+          "x": 79967,
+          "y": 11914,
           "id": "d4a04087-85c5-4c68-93c9-49f82f2a0113936"
         },
         "b8d0da71-d7f9-4ff8-90ac-be533f3ef4db936": {
@@ -5895,8 +5895,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86333,
-          "y": 7932,
+          "x": 79989,
+          "y": 11939,
           "id": "b8d0da71-d7f9-4ff8-90ac-be533f3ef4db936"
         },
         "82cc4be1-a2d4-4192-b708-2ce4fd851bf2936": {
@@ -5922,8 +5922,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86336,
-          "y": 7957,
+          "x": 79992,
+          "y": 11964,
           "id": "82cc4be1-a2d4-4192-b708-2ce4fd851bf2936"
         },
         "8da174b0-f324-4f1b-b0eb-4a2d725b16f3936": {
@@ -5949,8 +5949,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86314,
-          "y": 7982,
+          "x": 79970,
+          "y": 11989,
           "id": "8da174b0-f324-4f1b-b0eb-4a2d725b16f3936"
         },
         "2bfd6457-c185-4d82-8e0f-34c650680961936": {
@@ -5976,8 +5976,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86305,
-          "y": 8007,
+          "x": 79961,
+          "y": 12014,
           "id": "2bfd6457-c185-4d82-8e0f-34c650680961936"
         },
         "32d5f2ed-8cf4-4422-b31f-3f8bbdebc41a936": {
@@ -6003,8 +6003,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86332,
-          "y": 8032,
+          "x": 79988,
+          "y": 12039,
           "id": "32d5f2ed-8cf4-4422-b31f-3f8bbdebc41a936"
         },
         "accb61d5-216a-46d7-94ea-331850c4cb47936": {
@@ -6030,8 +6030,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86319,
-          "y": 8057,
+          "x": 79975,
+          "y": 12064,
           "id": "accb61d5-216a-46d7-94ea-331850c4cb47936"
         },
         "45d5a8e5-fc2a-4981-8c93-d57e54ac8dbe936": {
@@ -6057,8 +6057,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86340,
-          "y": 8082,
+          "x": 79996,
+          "y": 12089,
           "id": "45d5a8e5-fc2a-4981-8c93-d57e54ac8dbe936"
         },
         "34cecdd2-8e18-412c-97e0-7404c9a5a312936": {
@@ -6084,8 +6084,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86305,
-          "y": 8107,
+          "x": 79961,
+          "y": 12114,
           "id": "34cecdd2-8e18-412c-97e0-7404c9a5a312936"
         },
         "2fbe0725-0fe6-468f-80b3-ff21f9d2f00d936": {
@@ -6111,8 +6111,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86344,
-          "y": 8132,
+          "x": 80000,
+          "y": 12139,
           "id": "2fbe0725-0fe6-468f-80b3-ff21f9d2f00d936"
         },
         "ece6084b-4dff-4021-b726-e4c7ab7c44a3936": {
@@ -6138,8 +6138,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86094,
-          "y": 8257,
+          "x": 79750,
+          "y": 12264,
           "id": "ece6084b-4dff-4021-b726-e4c7ab7c44a3936"
         },
         "39ae4adb-6baa-4f88-afca-df4cdde5888d936": {
@@ -6165,8 +6165,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86094,
-          "y": 8357,
+          "x": 79750,
+          "y": 12364,
           "id": "39ae4adb-6baa-4f88-afca-df4cdde5888d936"
         },
         "0b6c1585-d334-47de-b39e-4f99e317a3e3936": {
@@ -6192,8 +6192,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86094,
-          "y": 8457,
+          "x": 79750,
+          "y": 12464,
           "id": "0b6c1585-d334-47de-b39e-4f99e317a3e3936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814605936": {
@@ -6225,8 +6225,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Музеи",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814605936",
-          "x": 89868,
-          "y": 7827,
+          "x": 83521,
+          "y": 11541,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6257,8 +6257,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Библиотеки",
-          "x": 86038,
-          "y": 11019,
+          "x": 79715,
+          "y": 15110,
           "id": "897f485b-33e8-4f75-97c3-56460b3e710b936",
           "shape": "box",
           "link": "",
@@ -6287,8 +6287,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86338,
-          "y": 11469,
+          "x": 80015,
+          "y": 15560,
           "id": "15d68322-7012-4711-ade4-63f8cb0bf085936"
         },
         "32f4d8cf-a1a0-4214-bdc2-d1c8c48cb25d936": {
@@ -6314,8 +6314,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86588,
-          "y": 11469,
+          "x": 80265,
+          "y": 15560,
           "id": "32f4d8cf-a1a0-4214-bdc2-d1c8c48cb25d936"
         },
         "5a1cc71f-d3b7-4ce0-b0d6-9057201d5cae936": {
@@ -6341,8 +6341,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86488,
-          "y": 11469,
+          "x": 80165,
+          "y": 15560,
           "id": "5a1cc71f-d3b7-4ce0-b0d6-9057201d5cae936"
         },
         "3ae960b5-32fe-4d6a-ba91-2a2106ed14bd936": {
@@ -6368,8 +6368,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86338,
-          "y": 10619,
+          "x": 79992,
+          "y": 14710,
           "id": "3ae960b5-32fe-4d6a-ba91-2a2106ed14bd936"
         },
         "6a4ea9ab-a1d0-4f2a-b459-4533891546ea936": {
@@ -6395,8 +6395,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86488,
-          "y": 10369,
+          "x": 80150,
+          "y": 14114,
           "id": "6a4ea9ab-a1d0-4f2a-b459-4533891546ea936"
         },
         "c88c1bea-7578-4dde-8932-10a46324c0e0936": {
@@ -6422,8 +6422,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86488,
-          "y": 10619,
+          "x": 80165,
+          "y": 14710,
           "id": "c88c1bea-7578-4dde-8932-10a46324c0e0936"
         },
         "6873715e-5fcb-4afe-bdc2-2e99e2096d32936": {
@@ -6449,8 +6449,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86488,
-          "y": 10869,
+          "x": 80165,
+          "y": 14960,
           "id": "6873715e-5fcb-4afe-bdc2-2e99e2096d32936"
         },
         "b1fde849-ad2a-4c7a-96e6-fa3a8c34070d936": {
@@ -6476,8 +6476,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86552,
-          "y": 10719,
+          "x": 80229,
+          "y": 14810,
           "id": "b1fde849-ad2a-4c7a-96e6-fa3a8c34070d936"
         },
         "f1f22dca-d2b8-4e44-97db-697ca37353bc936": {
@@ -6503,8 +6503,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86582,
-          "y": 10744,
+          "x": 80259,
+          "y": 14835,
           "id": "f1f22dca-d2b8-4e44-97db-697ca37353bc936"
         },
         "7bc0864a-249b-4360-9c61-402ac232f8fb936": {
@@ -6530,8 +6530,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86548,
-          "y": 10769,
+          "x": 80225,
+          "y": 14860,
           "id": "7bc0864a-249b-4360-9c61-402ac232f8fb936"
         },
         "88b82482-5d55-4196-93de-72187616c23c936": {
@@ -6557,8 +6557,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86567,
-          "y": 10794,
+          "x": 80244,
+          "y": 14885,
           "id": "88b82482-5d55-4196-93de-72187616c23c936"
         },
         "bf4925eb-15f3-4c80-9f93-1f0463184472936": {
@@ -6584,8 +6584,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86555,
-          "y": 10819,
+          "x": 80232,
+          "y": 14910,
           "id": "bf4925eb-15f3-4c80-9f93-1f0463184472936"
         },
         "abd66909-b6da-4eab-9238-f0b538d15871936": {
@@ -6611,8 +6611,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86577,
-          "y": 10844,
+          "x": 80254,
+          "y": 14935,
           "id": "abd66909-b6da-4eab-9238-f0b538d15871936"
         },
         "7156ffd4-f058-4b8a-a1ed-97ac75e26e5f936": {
@@ -6638,8 +6638,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86580,
-          "y": 10869,
+          "x": 80257,
+          "y": 14960,
           "id": "7156ffd4-f058-4b8a-a1ed-97ac75e26e5f936"
         },
         "de0633ef-be6d-47c0-878b-7189f7f91bb3936": {
@@ -6665,8 +6665,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86558,
-          "y": 10894,
+          "x": 80235,
+          "y": 14985,
           "id": "de0633ef-be6d-47c0-878b-7189f7f91bb3936"
         },
         "9c2f906b-bf85-4a29-ab73-cdab89ebef2d936": {
@@ -6692,8 +6692,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86549,
-          "y": 10919,
+          "x": 80226,
+          "y": 15010,
           "id": "9c2f906b-bf85-4a29-ab73-cdab89ebef2d936"
         },
         "de8f7121-d055-4187-af08-a8db9b785395936": {
@@ -6719,8 +6719,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86576,
-          "y": 10944,
+          "x": 80253,
+          "y": 15035,
           "id": "de8f7121-d055-4187-af08-a8db9b785395936"
         },
         "f5baee49-1727-414e-9e4f-db4a91b5ec07936": {
@@ -6746,8 +6746,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86563,
-          "y": 10969,
+          "x": 80240,
+          "y": 15060,
           "id": "f5baee49-1727-414e-9e4f-db4a91b5ec07936"
         },
         "cd9a4544-1394-490f-90b6-9c0be93b04fd936": {
@@ -6773,8 +6773,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86584,
-          "y": 10994,
+          "x": 80261,
+          "y": 15085,
           "id": "cd9a4544-1394-490f-90b6-9c0be93b04fd936"
         },
         "752c3fbf-7ab2-4c6c-b52c-d35281ffa41c936": {
@@ -6800,8 +6800,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86549,
-          "y": 11019,
+          "x": 80226,
+          "y": 15110,
           "id": "752c3fbf-7ab2-4c6c-b52c-d35281ffa41c936"
         },
         "7e9a3123-4a8d-4a07-8e22-09f4f4dedfbb936": {
@@ -6827,8 +6827,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86588,
-          "y": 11044,
+          "x": 80265,
+          "y": 15135,
           "id": "7e9a3123-4a8d-4a07-8e22-09f4f4dedfbb936"
         },
         "299334d6-e75d-4ea1-9af0-e84bcdf954a6936": {
@@ -6854,8 +6854,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86338,
-          "y": 11169,
+          "x": 80005,
+          "y": 15260,
           "id": "299334d6-e75d-4ea1-9af0-e84bcdf954a6936"
         },
         "af2c5e9f-75fa-4c4f-959a-a465d507cfb0936": {
@@ -6881,8 +6881,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86338,
-          "y": 11269,
+          "x": 80003,
+          "y": 15360,
           "id": "af2c5e9f-75fa-4c4f-959a-a465d507cfb0936"
         },
         "2058f37a-9b3e-4fc7-85a1-2feae5f8e045936": {
@@ -6908,8 +6908,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86338,
-          "y": 11369,
+          "x": 79992,
+          "y": 15460,
           "id": "2058f37a-9b3e-4fc7-85a1-2feae5f8e045936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814605148936": {
@@ -6941,8 +6941,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Библиотеки",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680674216552814605148936",
-          "x": 91124,
-          "y": 10785,
+          "x": 84777,
+          "y": 14499,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6973,8 +6973,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Спорт",
-          "x": 86211,
-          "y": 13165,
+          "x": 79701,
+          "y": 19461,
           "id": "e9467da0-111f-4471-9f47-6cabb657245c936",
           "shape": "box",
           "link": "",
@@ -7003,8 +7003,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86511,
-          "y": 13615,
+          "x": 80001,
+          "y": 19911,
           "id": "f48e943b-f699-4381-bd12-8944e012ec2d936"
         },
         "82b9b055-c144-467d-b3da-6c7bab32ee1f936": {
@@ -7030,8 +7030,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 86686,
-          "y": 13618,
+          "x": 80176,
+          "y": 19914,
           "id": "82b9b055-c144-467d-b3da-6c7bab32ee1f936"
         },
         "c0d0c0ef-503d-4e2d-a9d3-37d47601551f936": {
@@ -7057,8 +7057,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 86775,
-          "y": 13620,
+          "x": 80265,
+          "y": 19916,
           "id": "c0d0c0ef-503d-4e2d-a9d3-37d47601551f936"
         },
         "3cde9f5d-51cd-4e5a-a66c-f9b993da7d13936": {
@@ -7084,8 +7084,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86511,
-          "y": 12765,
+          "x": 80001,
+          "y": 19061,
           "id": "3cde9f5d-51cd-4e5a-a66c-f9b993da7d13936"
         },
         "7600f1bd-ace2-4fc9-870c-0e23bd1f66d1936": {
@@ -7111,8 +7111,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 86661,
-          "y": 12515,
+          "x": 80314,
+          "y": 17733,
           "id": "7600f1bd-ace2-4fc9-870c-0e23bd1f66d1936"
         },
         "525372d3-733c-4e9f-ac3e-4beda57eba44936": {
@@ -7138,8 +7138,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 86661,
-          "y": 12765,
+          "x": 80151,
+          "y": 19061,
           "id": "525372d3-733c-4e9f-ac3e-4beda57eba44936"
         },
         "17ab3d61-0c3b-42fa-bb1f-0b78a3b1b633936": {
@@ -7165,8 +7165,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 86661,
-          "y": 13015,
+          "x": 80151,
+          "y": 19311,
           "id": "17ab3d61-0c3b-42fa-bb1f-0b78a3b1b633936"
         },
         "d5d148a6-7dd4-4696-abf2-6ebf72f1ec38936": {
@@ -7192,8 +7192,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 86763,
-          "y": 12847,
+          "x": 80253,
+          "y": 19143,
           "id": "d5d148a6-7dd4-4696-abf2-6ebf72f1ec38936"
         },
         "a26d3050-392d-4997-9e6b-28ad017685b3936": {
@@ -7219,8 +7219,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 86793,
-          "y": 12872,
+          "x": 80283,
+          "y": 19168,
           "id": "a26d3050-392d-4997-9e6b-28ad017685b3936"
         },
         "22086fb1-0a20-4512-b3e9-43b2acaac803936": {
@@ -7246,8 +7246,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 86759,
-          "y": 12897,
+          "x": 80249,
+          "y": 19193,
           "id": "22086fb1-0a20-4512-b3e9-43b2acaac803936"
         },
         "2a8af71b-bcb6-4c3b-975f-22e8d6f1e30b936": {
@@ -7273,8 +7273,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 86778,
-          "y": 12922,
+          "x": 80268,
+          "y": 19218,
           "id": "2a8af71b-bcb6-4c3b-975f-22e8d6f1e30b936"
         },
         "8bcde6df-90ef-4bf9-bc1b-a9a3c15e50f7936": {
@@ -7300,8 +7300,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 86766,
-          "y": 12947,
+          "x": 80256,
+          "y": 19243,
           "id": "8bcde6df-90ef-4bf9-bc1b-a9a3c15e50f7936"
         },
         "39c04434-9e3a-476b-af4b-f92f468d92d5936": {
@@ -7327,8 +7327,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 86788,
-          "y": 12972,
+          "x": 80278,
+          "y": 19268,
           "id": "39c04434-9e3a-476b-af4b-f92f468d92d5936"
         },
         "53bdcbe9-4f6b-4f66-b29b-006093ffc1d5936": {
@@ -7354,8 +7354,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 86791,
-          "y": 12997,
+          "x": 80281,
+          "y": 19293,
           "id": "53bdcbe9-4f6b-4f66-b29b-006093ffc1d5936"
         },
         "6a89b76f-e7be-4cc1-8a84-b74a25d2f19d936": {
@@ -7381,8 +7381,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 86769,
-          "y": 13022,
+          "x": 80259,
+          "y": 19318,
           "id": "6a89b76f-e7be-4cc1-8a84-b74a25d2f19d936"
         },
         "fbfaa7ac-8863-42a6-a74b-f0bba4a5483f936": {
@@ -7408,8 +7408,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 86760,
-          "y": 13047,
+          "x": 80250,
+          "y": 19343,
           "id": "fbfaa7ac-8863-42a6-a74b-f0bba4a5483f936"
         },
         "b128b91b-dd81-4459-b7e3-f066822103f5936": {
@@ -7435,8 +7435,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 86787,
-          "y": 13072,
+          "x": 80277,
+          "y": 19368,
           "id": "b128b91b-dd81-4459-b7e3-f066822103f5936"
         },
         "8bf544ab-22bd-42a2-9537-c3e0ac63a60d936": {
@@ -7462,8 +7462,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 86774,
-          "y": 13097,
+          "x": 80264,
+          "y": 19393,
           "id": "8bf544ab-22bd-42a2-9537-c3e0ac63a60d936"
         },
         "4b63e8db-68fa-4899-a86c-3d937d112a9a936": {
@@ -7489,8 +7489,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 86795,
-          "y": 13122,
+          "x": 80285,
+          "y": 19418,
           "id": "4b63e8db-68fa-4899-a86c-3d937d112a9a936"
         },
         "9da45666-e128-4fd4-a1b0-a09164abf4b0936": {
@@ -7516,8 +7516,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 86760,
-          "y": 13147,
+          "x": 80250,
+          "y": 19443,
           "id": "9da45666-e128-4fd4-a1b0-a09164abf4b0936"
         },
         "4b7c44d3-0b1f-4052-8fa3-0d681ea922cb936": {
@@ -7543,8 +7543,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 86799,
-          "y": 13172,
+          "x": 80289,
+          "y": 19468,
           "id": "4b7c44d3-0b1f-4052-8fa3-0d681ea922cb936"
         },
         "109572ca-3a6b-440d-8282-0637ad9d4c36936": {
@@ -7570,8 +7570,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86511,
-          "y": 13315,
+          "x": 80001,
+          "y": 19611,
           "id": "109572ca-3a6b-440d-8282-0637ad9d4c36936"
         },
         "6dd25fc8-b67c-4012-bb65-8c7571e9601b936": {
@@ -7597,8 +7597,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86511,
-          "y": 13415,
+          "x": 80001,
+          "y": 19711,
           "id": "6dd25fc8-b67c-4012-bb65-8c7571e9601b936"
         },
         "7d572532-5c17-4bee-af1a-d69f47426049936": {
@@ -7624,8 +7624,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86511,
-          "y": 13515,
+          "x": 80001,
+          "y": 19811,
           "id": "7d572532-5c17-4bee-af1a-d69f47426049936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813936": {
@@ -7657,8 +7657,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Спорт",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813936",
-          "x": 89821,
-          "y": 12913,
+          "x": 83474,
+          "y": 16627,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7689,8 +7689,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Актеры",
-          "x": 86593,
-          "y": 15742,
+          "x": 101094,
+          "y": -3510,
           "id": "a1c64132-1789-457e-9b43-f1e12eab3df3936",
           "shape": "box",
           "link": "",
@@ -7719,8 +7719,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 86893,
-          "y": 16192,
+          "x": 101394,
+          "y": -3060,
           "id": "568a93e7-1e2a-4ebb-8732-20547137969b936"
         },
         "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936": {
@@ -7746,8 +7746,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 87143,
-          "y": 16192,
+          "x": 101578,
+          "y": -3062,
           "id": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936"
         },
         "b9609706-aefe-40f0-89a0-a4f8d62433ea936": {
@@ -7773,8 +7773,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 87043,
-          "y": 16192,
+          "x": 101689,
+          "y": -3062,
           "id": "b9609706-aefe-40f0-89a0-a4f8d62433ea936"
         },
         "3b7b3c06-c296-4186-b318-8ab5a0cbe252936": {
@@ -7800,8 +7800,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 86893,
-          "y": 15342,
+          "x": 101394,
+          "y": -3910,
           "id": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936"
         },
         "a306e5dc-4dae-4ecf-9429-c5ac8b720165936": {
@@ -7827,8 +7827,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 87043,
-          "y": 15092,
+          "x": 101727,
+          "y": -6937,
           "id": "a306e5dc-4dae-4ecf-9429-c5ac8b720165936"
         },
         "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936": {
@@ -7854,8 +7854,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 87043,
-          "y": 15342,
+          "x": 101544,
+          "y": -3910,
           "id": "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936"
         },
         "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936": {
@@ -7881,8 +7881,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 87043,
-          "y": 15592,
+          "x": 101544,
+          "y": -3660,
           "id": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936"
         },
         "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936": {
@@ -7908,8 +7908,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 87167,
-          "y": 15440,
+          "x": 101668,
+          "y": -3812,
           "id": "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936"
         },
         "16f49b41-b2ba-4484-a1e2-edce245fd872936": {
@@ -7935,8 +7935,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 87197,
-          "y": 15465,
+          "x": 101698,
+          "y": -3787,
           "id": "16f49b41-b2ba-4484-a1e2-edce245fd872936"
         },
         "ef10ac5d-d5ad-45de-90b2-466bd9577043936": {
@@ -7962,8 +7962,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 87163,
-          "y": 15490,
+          "x": 101664,
+          "y": -3762,
           "id": "ef10ac5d-d5ad-45de-90b2-466bd9577043936"
         },
         "b48d2597-2c0f-4224-aff7-767b851c1a44936": {
@@ -7989,8 +7989,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 87182,
-          "y": 15515,
+          "x": 101683,
+          "y": -3737,
           "id": "b48d2597-2c0f-4224-aff7-767b851c1a44936"
         },
         "54a0e200-9170-4c28-8bfd-6d355d53328b936": {
@@ -8016,8 +8016,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 87170,
-          "y": 15540,
+          "x": 101671,
+          "y": -3712,
           "id": "54a0e200-9170-4c28-8bfd-6d355d53328b936"
         },
         "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936": {
@@ -8043,8 +8043,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 87192,
-          "y": 15565,
+          "x": 101693,
+          "y": -3687,
           "id": "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936"
         },
         "e61d9625-849b-4ed8-aaac-e9ae27532598936": {
@@ -8070,8 +8070,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 87195,
-          "y": 15590,
+          "x": 101696,
+          "y": -3662,
           "id": "e61d9625-849b-4ed8-aaac-e9ae27532598936"
         },
         "3d4bec96-a27b-4c21-bed3-62792eb01073936": {
@@ -8097,8 +8097,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 87173,
-          "y": 15615,
+          "x": 101674,
+          "y": -3637,
           "id": "3d4bec96-a27b-4c21-bed3-62792eb01073936"
         },
         "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936": {
@@ -8124,8 +8124,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 87164,
-          "y": 15640,
+          "x": 101665,
+          "y": -3612,
           "id": "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936"
         },
         "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936": {
@@ -8151,8 +8151,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 87191,
-          "y": 15665,
+          "x": 101692,
+          "y": -3587,
           "id": "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936"
         },
         "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936": {
@@ -8178,8 +8178,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 87178,
-          "y": 15690,
+          "x": 101679,
+          "y": -3562,
           "id": "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936"
         },
         "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936": {
@@ -8205,8 +8205,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 87199,
-          "y": 15715,
+          "x": 101700,
+          "y": -3537,
           "id": "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936"
         },
         "6cc54441-5d50-4182-a740-5ea376b13ba0936": {
@@ -8232,8 +8232,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 87164,
-          "y": 15740,
+          "x": 101665,
+          "y": -3512,
           "id": "6cc54441-5d50-4182-a740-5ea376b13ba0936"
         },
         "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936": {
@@ -8259,8 +8259,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 87203,
-          "y": 15765,
+          "x": 101704,
+          "y": -3487,
           "id": "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936"
         },
         "043279af-1c14-4d06-ae4f-97ae177e05e7936": {
@@ -8286,8 +8286,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 86893,
-          "y": 15892,
+          "x": 101394,
+          "y": -3360,
           "id": "043279af-1c14-4d06-ae4f-97ae177e05e7936"
         },
         "bbad87b1-5f6d-449e-a027-5aba17eef50c936": {
@@ -8313,8 +8313,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 86893,
-          "y": 15992,
+          "x": 101394,
+          "y": -3260,
           "id": "bbad87b1-5f6d-449e-a027-5aba17eef50c936"
         },
         "d562aae2-1f4d-418c-814a-dcb24c91fdf7936": {
@@ -8340,8 +8340,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 86893,
-          "y": 16092,
+          "x": 101394,
+          "y": -3160,
           "id": "d562aae2-1f4d-418c-814a-dcb24c91fdf7936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813705936": {
@@ -8373,8 +8373,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Актеры",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813705936",
-          "x": 90112,
-          "y": 15461,
+          "x": 105236,
+          "y": -9098,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8405,8 +8405,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Античность",
-          "x": 86859,
-          "y": 18366,
+          "x": 80576,
+          "y": 21955,
           "id": "110fc0a2-4bfb-46eb-9f30-b9bdcfb2d34f936",
           "shape": "box",
           "link": "",
@@ -8435,8 +8435,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 87159,
-          "y": 18816,
+          "x": 80876,
+          "y": 22405,
           "id": "722903d3-af95-44d1-84b4-75a04928233f936"
         },
         "0146347b-4ba4-463c-ac5a-8ef45ca2e480936": {
@@ -8462,8 +8462,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 87409,
-          "y": 18816,
+          "x": 81126,
+          "y": 22405,
           "id": "0146347b-4ba4-463c-ac5a-8ef45ca2e480936"
         },
         "3dace47b-58b0-47be-987b-699669a88f59936": {
@@ -8489,8 +8489,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 87309,
-          "y": 18816,
+          "x": 81026,
+          "y": 22405,
           "id": "3dace47b-58b0-47be-987b-699669a88f59936"
         },
         "f7b6a711-82ea-4051-bb4b-98a074aaeb5b936": {
@@ -8516,8 +8516,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 87159,
-          "y": 17966,
+          "x": 80876,
+          "y": 21555,
           "id": "f7b6a711-82ea-4051-bb4b-98a074aaeb5b936"
         },
         "72f89237-8786-4ad1-b640-f3bd634ffa05936": {
@@ -8543,8 +8543,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 87309,
-          "y": 17716,
+          "x": 81026,
+          "y": 21305,
           "id": "72f89237-8786-4ad1-b640-f3bd634ffa05936"
         },
         "69340063-03b7-49fd-87c6-f6a446c21f29936": {
@@ -8570,8 +8570,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 87309,
-          "y": 17966,
+          "x": 81026,
+          "y": 21555,
           "id": "69340063-03b7-49fd-87c6-f6a446c21f29936"
         },
         "fdbf0347-695f-4e96-8cfb-c6431cb92a55936": {
@@ -8597,8 +8597,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 87309,
-          "y": 18216,
+          "x": 81026,
+          "y": 21805,
           "id": "fdbf0347-695f-4e96-8cfb-c6431cb92a55936"
         },
         "a8d4211e-e28d-430b-8ebf-fe24fe3aed2a936": {
@@ -8624,8 +8624,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 87461,
-          "y": 18075,
+          "x": 81178,
+          "y": 21664,
           "id": "a8d4211e-e28d-430b-8ebf-fe24fe3aed2a936"
         },
         "6a84c90d-62db-4739-86e7-578d3d5d4b2e936": {
@@ -8651,8 +8651,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 87491,
-          "y": 18100,
+          "x": 81208,
+          "y": 21689,
           "id": "6a84c90d-62db-4739-86e7-578d3d5d4b2e936"
         },
         "d6b68284-acd0-4c91-8a14-4763a6a11c39936": {
@@ -8678,8 +8678,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 87457,
-          "y": 18125,
+          "x": 81174,
+          "y": 21714,
           "id": "d6b68284-acd0-4c91-8a14-4763a6a11c39936"
         },
         "9eb89b43-8c90-4496-9249-0f2b5b44199d936": {
@@ -8705,8 +8705,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 87476,
-          "y": 18150,
+          "x": 81193,
+          "y": 21739,
           "id": "9eb89b43-8c90-4496-9249-0f2b5b44199d936"
         },
         "adecd1cc-a886-4bbe-aed9-ff03589945fc936": {
@@ -8732,8 +8732,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 87464,
-          "y": 18175,
+          "x": 81181,
+          "y": 21764,
           "id": "adecd1cc-a886-4bbe-aed9-ff03589945fc936"
         },
         "57a02d19-debb-40f3-af0e-34bad5417a4c936": {
@@ -8759,8 +8759,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 87486,
-          "y": 18200,
+          "x": 81203,
+          "y": 21789,
           "id": "57a02d19-debb-40f3-af0e-34bad5417a4c936"
         },
         "920716f3-856e-4672-999d-b1195d2680cb936": {
@@ -8786,8 +8786,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 87489,
-          "y": 18225,
+          "x": 81206,
+          "y": 21814,
           "id": "920716f3-856e-4672-999d-b1195d2680cb936"
         },
         "ee0a7b9f-29e1-4ad7-98cd-0cefe77e75ff936": {
@@ -8813,8 +8813,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 87467,
-          "y": 18250,
+          "x": 81184,
+          "y": 21839,
           "id": "ee0a7b9f-29e1-4ad7-98cd-0cefe77e75ff936"
         },
         "273f1c31-9acc-4319-8975-2f93a9a06f5d936": {
@@ -8840,8 +8840,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 87458,
-          "y": 18275,
+          "x": 81175,
+          "y": 21864,
           "id": "273f1c31-9acc-4319-8975-2f93a9a06f5d936"
         },
         "8930cd64-02d9-4fb4-b9b9-a1b806ec59ed936": {
@@ -8867,8 +8867,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 87485,
-          "y": 18300,
+          "x": 81202,
+          "y": 21889,
           "id": "8930cd64-02d9-4fb4-b9b9-a1b806ec59ed936"
         },
         "4e4eb60b-974f-438a-9ab4-f013e0ae10d8936": {
@@ -8894,8 +8894,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 87472,
-          "y": 18325,
+          "x": 81189,
+          "y": 21914,
           "id": "4e4eb60b-974f-438a-9ab4-f013e0ae10d8936"
         },
         "4ec0c5d6-b663-4c67-a1c4-f7d9020787ba936": {
@@ -8921,8 +8921,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 87493,
-          "y": 18350,
+          "x": 81210,
+          "y": 21939,
           "id": "4ec0c5d6-b663-4c67-a1c4-f7d9020787ba936"
         },
         "640fae4f-d97a-421a-bc8b-2ee65b5a2fb7936": {
@@ -8948,8 +8948,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 87458,
-          "y": 18375,
+          "x": 81175,
+          "y": 21964,
           "id": "640fae4f-d97a-421a-bc8b-2ee65b5a2fb7936"
         },
         "044476b7-746c-487f-9daa-7896a17741c6936": {
@@ -8975,8 +8975,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 87497,
-          "y": 18400,
+          "x": 81214,
+          "y": 21989,
           "id": "044476b7-746c-487f-9daa-7896a17741c6936"
         },
         "c7c5da48-9965-4388-9090-cfe5e00eeeb8936": {
@@ -9002,8 +9002,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 87159,
-          "y": 18516,
+          "x": 80876,
+          "y": 22105,
           "id": "c7c5da48-9965-4388-9090-cfe5e00eeeb8936"
         },
         "5063713c-a742-4d67-a690-d26319627f39936": {
@@ -9029,8 +9029,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 87159,
-          "y": 18616,
+          "x": 80876,
+          "y": 22205,
           "id": "5063713c-a742-4d67-a690-d26319627f39936"
         },
         "a50968d1-4ca6-402d-9c40-ca2db9da3b44936": {
@@ -9056,8 +9056,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 87159,
-          "y": 18716,
+          "x": 80876,
+          "y": 22305,
           "id": "a50968d1-4ca6-402d-9c40-ca2db9da3b44936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813705642936": {
@@ -9089,8 +9089,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Античность",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768067421655281460514813705642936",
-          "x": 91087,
-          "y": 18332,
+          "x": 84804,
+          "y": 21921,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9121,8 +9121,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Издательства",
-          "x": 86490,
-          "y": 20663,
+          "x": 80207,
+          "y": 24252,
           "id": "4680f241-235f-4726-8d61-c88e138ac9ce936",
           "shape": "box",
           "link": "",
@@ -9151,8 +9151,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 87004,
-          "y": 21123,
+          "x": 80721,
+          "y": 24712,
           "id": "ef31bf42-5b64-47cd-9fe8-8bd20b39d357936"
         },
         "efadc0e6-e7f3-43f9-b69c-a378178e875a936": {
@@ -9178,8 +9178,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 87254,
-          "y": 21123,
+          "x": 80971,
+          "y": 24712,
           "id": "efadc0e6-e7f3-43f9-b69c-a378178e875a936"
         },
         "b23a7ac8-c450-441a-bc53-a02586bb37e7936": {
@@ -9205,8 +9205,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 87146,
-          "y": 21123,
+          "x": 80863,
+          "y": 24712,
           "id": "b23a7ac8-c450-441a-bc53-a02586bb37e7936"
         },
         "1c35391f-0145-4d6d-8b1e-81320f0b8e59936": {
@@ -9232,8 +9232,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 87004,
-          "y": 20273,
+          "x": 80721,
+          "y": 23862,
           "id": "1c35391f-0145-4d6d-8b1e-81320f0b8e59936"
         },
         "8840d0d5-e834-46e5-b81f-15c501a84908936": {
@@ -9259,8 +9259,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 87154,
-          "y": 20023,
+          "x": 80871,
+          "y": 23612,
           "id": "8840d0d5-e834-46e5-b81f-15c501a84908936"
         },
         "26685433-10b3-4301-ba2d-7f37e535302c936": {
@@ -9286,8 +9286,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 87154,
-          "y": 20273,
+          "x": 80871,
+          "y": 23862,
           "id": "26685433-10b3-4301-ba2d-7f37e535302c936"
         },
         "f3fd9b41-9700-4a47-a35a-669af21df67d936": {
@@ -9313,8 +9313,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 87154,
-          "y": 20523,
+          "x": 80871,
+          "y": 24112,
           "id": "f3fd9b41-9700-4a47-a35a-669af21df67d936"
         },
         "fa86cd80-e7de-491e-b720-bd6395d07b76936": {
@@ -9340,8 +9340,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 87271,
-          "y": 20368,
+          "x": 80988,
+          "y": 23957,
           "id": "fa86cd80-e7de-491e-b720-bd6395d07b76936"
         },
         "12f5f776-4978-42ad-ba57-c9241f956ec1936": {
@@ -9367,8 +9367,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 87301,
-          "y": 20393,
+          "x": 81018,
+          "y": 23982,
           "id": "12f5f776-4978-42ad-ba57-c9241f956ec1936"
         },
         "a3eedc32-4973-470c-af6c-a7ba9697b393936": {
@@ -9394,8 +9394,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 87267,
-          "y": 20418,
+          "x": 80984,
+          "y": 24007,
           "id": "a3eedc32-4973-470c-af6c-a7ba9697b393936"
         },
         "c2dacef8-02d5-4b75-b54a-596c6fe2e6a9936": {
@@ -9421,8 +9421,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 87286,
-          "y": 20443,
+          "x": 81003,
+          "y": 24032,
           "id": "c2dacef8-02d5-4b75-b54a-596c6fe2e6a9936"
         },
         "9540074b-f51f-4d48-825b-02f37a51578f936": {
@@ -9448,8 +9448,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 87274,
-          "y": 20468,
+          "x": 80991,
+          "y": 24057,
           "id": "9540074b-f51f-4d48-825b-02f37a51578f936"
         },
         "5455259e-a2f9-46d8-8a3f-5fbb0cfe1919936": {
@@ -9475,8 +9475,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 87296,
-          "y": 20493,
+          "x": 81013,
+          "y": 24082,
           "id": "5455259e-a2f9-46d8-8a3f-5fbb0cfe1919936"
         },
         "e880e784-ad26-41ef-a8b1-88d7e6baf78e936": {
@@ -9502,8 +9502,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 87299,
-          "y": 20518,
+          "x": 81016,
+          "y": 24107,
           "id": "e880e784-ad26-41ef-a8b1-88d7e6baf78e936"
         },
         "ccc0fe0c-3a38-4773-a9f8-3d5e5bcdc5da936": {
@@ -9529,8 +9529,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 87277,
-          "y": 20543,
+          "x": 80994,
+          "y": 24132,
           "id": "ccc0fe0c-3a38-4773-a9f8-3d5e5bcdc5da936"
         },
         "52887b02-140c-429f-bdea-78e718f1da92936": {
@@ -9556,8 +9556,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 87268,
-          "y": 20568,
+          "x": 80985,
+          "y": 24157,
           "id": "52887b02-140c-429f-bdea-78e718f1da92936"
         },
         "4d589b60-e50b-4269-97c8-5cca7f0d2fcd936": {
@@ -9583,8 +9583,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 87295,
-          "y": 20593,
+          "x": 81012,
+          "y": 24182,
           "id": "4d589b60-e50b-4269-97c8-5cca7f0d2fcd936"
         },
         "80b9dd2d-b59d-4a47-80f3-95a032cd5bd3936": {
@@ -9610,8 +9610,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 87282,
-          "y": 20618,
+          "x": 80999,
+          "y": 24207,
           "id": "80b9dd2d-b59d-4a47-80f3-95a032cd5bd3936"
         },
         "a9aeb682-14fe-42ee-b8c9-be04417ca1b3936": {
@@ -9637,8 +9637,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 87303,
-          "y": 20643,
+          "x": 81020,
+          "y": 24232,
           "id": "a9aeb682-14fe-42ee-b8c9-be04417ca1b3936"
         },
         "78d09fb3-1c69-494a-a49a-602c5904651a936": {
@@ -9664,8 +9664,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 87268,
-          "y": 20668,
+          "x": 80985,
+          "y": 24257,
           "id": "78d09fb3-1c69-494a-a49a-602c5904651a936"
         },
         "721c0271-bc7f-4bc4-8b19-1e7e1fed1fdd936": {
@@ -9691,8 +9691,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 87307,
-          "y": 20693,
+          "x": 81024,
+          "y": 24282,
           "id": "721c0271-bc7f-4bc4-8b19-1e7e1fed1fdd936"
         },
         "1a569633-44d2-4d6a-a572-9e83c6df6c1d936": {
@@ -9718,8 +9718,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 87004,
-          "y": 20823,
+          "x": 80721,
+          "y": 24412,
           "id": "1a569633-44d2-4d6a-a572-9e83c6df6c1d936"
         },
         "84190415-e6b3-4c12-a195-f059f8d6266d936": {
@@ -9745,8 +9745,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 87004,
-          "y": 20923,
+          "x": 80721,
+          "y": 24512,
           "id": "84190415-e6b3-4c12-a195-f059f8d6266d936"
         },
         "c67d77ab-3905-4d89-8bb1-4ae5f0c74e2a936": {
@@ -9772,8 +9772,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 87004,
-          "y": 21023,
+          "x": 80721,
+          "y": 24612,
           "id": "c67d77ab-3905-4d89-8bb1-4ae5f0c74e2a936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248936": {
@@ -9805,8 +9805,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Издательства",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248936",
-          "x": 91604,
-          "y": 20455,
+          "x": 85321,
+          "y": 24044,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9837,8 +9837,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Лектории",
-          "x": 99798,
-          "y": -9114,
+          "x": 90845,
+          "y": -7242,
           "id": "12b318d5-a07c-4e3e-880c-f867122a6629936",
           "shape": "box",
           "link": "",
@@ -9867,8 +9867,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 100098,
-          "y": -8664,
+          "x": 91145,
+          "y": -6792,
           "id": "8a723839-7dd2-41e3-8793-3f8afc81fc0c936"
         },
         "0bc2b82f-8f02-4761-a187-c5b75b9a6190936": {
@@ -9894,8 +9894,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 100270,
-          "y": -8666,
+          "x": 91317,
+          "y": -6794,
           "id": "0bc2b82f-8f02-4761-a187-c5b75b9a6190936"
         },
         "e336406a-126f-4856-a20c-f05042359561936": {
@@ -9921,8 +9921,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 100376,
-          "y": -8665,
+          "x": 91423,
+          "y": -6793,
           "id": "e336406a-126f-4856-a20c-f05042359561936"
         },
         "dc3b7fdb-9a17-498b-a79a-886273ce96c4936": {
@@ -9948,8 +9948,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 100098,
-          "y": -9514,
+          "x": 91145,
+          "y": -7642,
           "id": "dc3b7fdb-9a17-498b-a79a-886273ce96c4936"
         },
         "089a82de-dc74-43be-868c-41f64fab2692936": {
@@ -9975,8 +9975,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 100226,
-          "y": -9839,
+          "x": 91248,
+          "y": -9476,
           "id": "089a82de-dc74-43be-868c-41f64fab2692936"
         },
         "73e7804d-dd8a-4f28-a720-74784d5adea6936": {
@@ -10002,8 +10002,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 100248,
-          "y": -9514,
+          "x": 91295,
+          "y": -7642,
           "id": "73e7804d-dd8a-4f28-a720-74784d5adea6936"
         },
         "cdaa4709-c73c-4306-a826-84881c646a5c936": {
@@ -10029,8 +10029,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 100248,
-          "y": -9264,
+          "x": 91295,
+          "y": -7392,
           "id": "cdaa4709-c73c-4306-a826-84881c646a5c936"
         },
         "bb93a89c-3a3d-4cca-b473-8b8c4e01d0e3936": {
@@ -10056,8 +10056,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 100381,
-          "y": -9419,
+          "x": 91428,
+          "y": -7547,
           "id": "bb93a89c-3a3d-4cca-b473-8b8c4e01d0e3936"
         },
         "2a36c956-382a-4772-8095-f135b17de8d1936": {
@@ -10083,8 +10083,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 100412,
-          "y": -9394,
+          "x": 91459,
+          "y": -7522,
           "id": "2a36c956-382a-4772-8095-f135b17de8d1936"
         },
         "017aed7c-a74d-47b5-89c0-60c9b958d359936": {
@@ -10110,8 +10110,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 100377,
-          "y": -9369,
+          "x": 91424,
+          "y": -7497,
           "id": "017aed7c-a74d-47b5-89c0-60c9b958d359936"
         },
         "91ffe73d-38f0-4815-a80b-e0b2fa134416936": {
@@ -10137,8 +10137,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 100396,
-          "y": -9344,
+          "x": 91443,
+          "y": -7472,
           "id": "91ffe73d-38f0-4815-a80b-e0b2fa134416936"
         },
         "8987b373-1711-4ab1-abc4-bdf3e3e0d8e0936": {
@@ -10164,8 +10164,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 100385,
-          "y": -9319,
+          "x": 91432,
+          "y": -7447,
           "id": "8987b373-1711-4ab1-abc4-bdf3e3e0d8e0936"
         },
         "2eb671ef-d090-40d3-8753-4a94b370b4fa936": {
@@ -10191,8 +10191,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 100407,
-          "y": -9294,
+          "x": 91454,
+          "y": -7422,
           "id": "2eb671ef-d090-40d3-8753-4a94b370b4fa936"
         },
         "d2b109fd-94db-4d7d-9958-8eeb9c5ab077936": {
@@ -10218,8 +10218,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 100409,
-          "y": -9269,
+          "x": 91456,
+          "y": -7397,
           "id": "d2b109fd-94db-4d7d-9958-8eeb9c5ab077936"
         },
         "cf975757-c018-4687-b925-f1f8823472d4936": {
@@ -10245,8 +10245,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 100387,
-          "y": -9244,
+          "x": 91434,
+          "y": -7372,
           "id": "cf975757-c018-4687-b925-f1f8823472d4936"
         },
         "be57460b-821f-46d7-a0ae-4940700f018b936": {
@@ -10272,8 +10272,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 100378,
-          "y": -9219,
+          "x": 91425,
+          "y": -7347,
           "id": "be57460b-821f-46d7-a0ae-4940700f018b936"
         },
         "47f30a60-2af6-47c6-b80b-02444ce2cec1936": {
@@ -10299,8 +10299,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 100406,
-          "y": -9194,
+          "x": 91453,
+          "y": -7322,
           "id": "47f30a60-2af6-47c6-b80b-02444ce2cec1936"
         },
         "1704a52d-c27d-47a2-bebd-b56580fb362e936": {
@@ -10326,8 +10326,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 100392,
-          "y": -9169,
+          "x": 91439,
+          "y": -7297,
           "id": "1704a52d-c27d-47a2-bebd-b56580fb362e936"
         },
         "674f75ac-fa97-4539-90ff-6239bbc80899936": {
@@ -10353,8 +10353,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 100414,
-          "y": -9144,
+          "x": 91461,
+          "y": -7272,
           "id": "674f75ac-fa97-4539-90ff-6239bbc80899936"
         },
         "c95e649c-7193-494e-b45e-a28244ad49be936": {
@@ -10380,8 +10380,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 100378,
-          "y": -9119,
+          "x": 91425,
+          "y": -7247,
           "id": "c95e649c-7193-494e-b45e-a28244ad49be936"
         },
         "614693d4-f244-4737-9acb-354ec07d1a79936": {
@@ -10407,8 +10407,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 100417,
-          "y": -9094,
+          "x": 91464,
+          "y": -7222,
           "id": "614693d4-f244-4737-9acb-354ec07d1a79936"
         },
         "953673c2-cb23-4c54-ae04-ef26ec3760b8936": {
@@ -10434,8 +10434,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 100098,
-          "y": -8964,
+          "x": 91145,
+          "y": -7092,
           "id": "953673c2-cb23-4c54-ae04-ef26ec3760b8936"
         },
         "b50d82d9-c087-4008-bde3-49a04401fb35936": {
@@ -10461,8 +10461,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 100098,
-          "y": -8864,
+          "x": 91145,
+          "y": -6992,
           "id": "b50d82d9-c087-4008-bde3-49a04401fb35936"
         },
         "8e195c4f-169a-4305-b0d2-4c2c3b711711936": {
@@ -10488,8 +10488,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 100098,
-          "y": -8764,
+          "x": 91145,
+          "y": -6892,
           "id": "8e195c4f-169a-4305-b0d2-4c2c3b711711936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640936": {
@@ -10521,8 +10521,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Лектории",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640936",
-          "x": 104757,
-          "y": -9355,
+          "x": 95756,
+          "y": -9162,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10553,8 +10553,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Танцы",
-          "x": 100089,
-          "y": -4535,
+          "x": 91088,
+          "y": 1228,
           "id": "c23be812-f157-4504-bebe-1ca7f79346b2936",
           "shape": "box",
           "link": "",
@@ -10583,8 +10583,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 100389,
-          "y": -4085,
+          "x": 91388,
+          "y": 1678,
           "id": "024e230d-4548-4876-9d4f-9470d8b7467a936"
         },
         "da708f95-0c2d-4e2b-a826-c64df8e5d5d4936": {
@@ -10610,8 +10610,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 100560,
-          "y": -4088,
+          "x": 91559,
+          "y": 1675,
           "id": "da708f95-0c2d-4e2b-a826-c64df8e5d5d4936"
         },
         "8c6f228f-74b2-4fc8-a575-8f7177a82d24936": {
@@ -10637,8 +10637,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 100676,
-          "y": -4088,
+          "x": 91675,
+          "y": 1675,
           "id": "8c6f228f-74b2-4fc8-a575-8f7177a82d24936"
         },
         "899d09f4-421d-41e8-91f0-c738385d8efe936": {
@@ -10664,8 +10664,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 100389,
-          "y": -4935,
+          "x": 91388,
+          "y": 828,
           "id": "899d09f4-421d-41e8-91f0-c738385d8efe936"
         },
         "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936": {
@@ -10691,8 +10691,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 100485,
-          "y": -6626,
+          "x": 91578,
+          "y": -292,
           "id": "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936"
         },
         "a5286a95-dd3f-462b-849d-f80f89fbdefe936": {
@@ -10718,8 +10718,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 100539,
-          "y": -4935,
+          "x": 91538,
+          "y": 828,
           "id": "a5286a95-dd3f-462b-849d-f80f89fbdefe936"
         },
         "e41f7949-34c0-4992-af16-a184a91cdfdb936": {
@@ -10745,8 +10745,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 100539,
-          "y": -4685,
+          "x": 91538,
+          "y": 1078,
           "id": "e41f7949-34c0-4992-af16-a184a91cdfdb936"
         },
         "e5c87ea5-58a5-49f9-976c-032567241ddc936": {
@@ -10772,8 +10772,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 100603,
-          "y": -4835,
+          "x": 91602,
+          "y": 928,
           "id": "e5c87ea5-58a5-49f9-976c-032567241ddc936"
         },
         "79c85aa3-d495-4f2a-8ee3-f3fad82231b7936": {
@@ -10799,8 +10799,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 100633,
-          "y": -4810,
+          "x": 91632,
+          "y": 953,
           "id": "79c85aa3-d495-4f2a-8ee3-f3fad82231b7936"
         },
         "d7181452-c8f9-491b-ae44-1a8c5163c393936": {
@@ -10826,8 +10826,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 100599,
-          "y": -4785,
+          "x": 91598,
+          "y": 978,
           "id": "d7181452-c8f9-491b-ae44-1a8c5163c393936"
         },
         "016afc6e-f7b9-4a79-8777-00eee6addb19936": {
@@ -10853,8 +10853,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 100618,
-          "y": -4760,
+          "x": 91617,
+          "y": 1003,
           "id": "016afc6e-f7b9-4a79-8777-00eee6addb19936"
         },
         "6fcdb010-5af6-4b56-b297-b189bd2b2903936": {
@@ -10880,8 +10880,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 100606,
-          "y": -4735,
+          "x": 91605,
+          "y": 1028,
           "id": "6fcdb010-5af6-4b56-b297-b189bd2b2903936"
         },
         "d3efb576-4fa6-4bb5-b86b-e0ac541a5b3f936": {
@@ -10907,8 +10907,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 100628,
-          "y": -4710,
+          "x": 91627,
+          "y": 1053,
           "id": "d3efb576-4fa6-4bb5-b86b-e0ac541a5b3f936"
         },
         "c9fed16a-1391-4e5e-895c-8a2085d08231936": {
@@ -10934,8 +10934,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 100631,
-          "y": -4685,
+          "x": 91630,
+          "y": 1078,
           "id": "c9fed16a-1391-4e5e-895c-8a2085d08231936"
         },
         "5f2771f1-bd94-4c75-9865-49f2b5ed74bc936": {
@@ -10961,8 +10961,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 100609,
-          "y": -4660,
+          "x": 91608,
+          "y": 1103,
           "id": "5f2771f1-bd94-4c75-9865-49f2b5ed74bc936"
         },
         "91076902-107f-4fef-9b51-cc52d4f843bf936": {
@@ -10988,8 +10988,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 100600,
-          "y": -4635,
+          "x": 91599,
+          "y": 1128,
           "id": "91076902-107f-4fef-9b51-cc52d4f843bf936"
         },
         "a69615fa-2067-4345-997e-fb8d1ea491a3936": {
@@ -11015,8 +11015,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 100627,
-          "y": -4610,
+          "x": 91626,
+          "y": 1153,
           "id": "a69615fa-2067-4345-997e-fb8d1ea491a3936"
         },
         "c43a8e34-db12-44fc-9715-ab72e19cde51936": {
@@ -11042,8 +11042,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 100614,
-          "y": -4585,
+          "x": 91613,
+          "y": 1178,
           "id": "c43a8e34-db12-44fc-9715-ab72e19cde51936"
         },
         "782d3a35-bcef-4879-bf09-7ee28c2486ec936": {
@@ -11069,8 +11069,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 100635,
-          "y": -4560,
+          "x": 91634,
+          "y": 1203,
           "id": "782d3a35-bcef-4879-bf09-7ee28c2486ec936"
         },
         "abd91d18-8a23-4fd1-ab64-0baae7c2bb38936": {
@@ -11096,8 +11096,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 100600,
-          "y": -4535,
+          "x": 91599,
+          "y": 1228,
           "id": "abd91d18-8a23-4fd1-ab64-0baae7c2bb38936"
         },
         "8ef63a4b-3241-4c25-b301-b4abc3576e13936": {
@@ -11123,8 +11123,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 100639,
-          "y": -4510,
+          "x": 91638,
+          "y": 1253,
           "id": "8ef63a4b-3241-4c25-b301-b4abc3576e13936"
         },
         "344ef268-84fd-47b4-8a8a-88169e5da577936": {
@@ -11150,8 +11150,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 100389,
-          "y": -4385,
+          "x": 91388,
+          "y": 1378,
           "id": "344ef268-84fd-47b4-8a8a-88169e5da577936"
         },
         "9d2e4802-6d8b-49b7-9a08-fd987377de51936": {
@@ -11177,8 +11177,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 100389,
-          "y": -4285,
+          "x": 91388,
+          "y": 1478,
           "id": "9d2e4802-6d8b-49b7-9a08-fd987377de51936"
         },
         "481adad2-5e08-4217-af06-d4d07a3e6619936": {
@@ -11204,8 +11204,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 100389,
-          "y": -4185,
+          "x": 91388,
+          "y": 1578,
           "id": "481adad2-5e08-4217-af06-d4d07a3e6619936"
         },
         "de143386-d722-40f6-be3c-5402322e4099936": {
@@ -11232,8 +11232,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Список стилей",
           "id": "de143386-d722-40f6-be3c-5402322e4099936",
-          "x": 100723,
-          "y": -6642
+          "x": 91722,
+          "y": -879
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408936": {
           "color": {
@@ -11264,8 +11264,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Танцы",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408936",
-          "x": 104097,
-          "y": -6367,
+          "x": 95089,
+          "y": -1159,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11296,8 +11296,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Художники",
-          "x": 100003,
-          "y": -1610,
+          "x": 91002,
+          "y": 4153,
           "id": "78c6fd3a-0042-4940-97b4-2b7a8806d56e936",
           "shape": "box",
           "link": "",
@@ -11326,8 +11326,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 100303,
-          "y": -1160,
+          "x": 91302,
+          "y": 4603,
           "id": "acb585c4-939a-478a-ae2d-7ab6f9e1acef936"
         },
         "021068f5-9ad9-4455-9028-c38d162198bb936": {
@@ -11353,8 +11353,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 100553,
-          "y": -1160,
+          "x": 91552,
+          "y": 4603,
           "id": "021068f5-9ad9-4455-9028-c38d162198bb936"
         },
         "c7aa92cb-c06b-4ff4-92aa-04abdd1ce2d4936": {
@@ -11380,8 +11380,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 100453,
-          "y": -1160,
+          "x": 91452,
+          "y": 4603,
           "id": "c7aa92cb-c06b-4ff4-92aa-04abdd1ce2d4936"
         },
         "f6fd3124-0e46-449c-9f66-a3469178ef79936": {
@@ -11407,8 +11407,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 100303,
-          "y": -2010,
+          "x": 91302,
+          "y": 3753,
           "id": "f6fd3124-0e46-449c-9f66-a3469178ef79936"
         },
         "3b2f778f-d131-4275-9e00-1939d823247e936": {
@@ -11434,8 +11434,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 100453,
-          "y": -2260,
+          "x": 91452,
+          "y": 3503,
           "id": "3b2f778f-d131-4275-9e00-1939d823247e936"
         },
         "b318880d-8173-49a0-a0a2-8a90cf3e80b0936": {
@@ -11461,8 +11461,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 100453,
-          "y": -2010,
+          "x": 91452,
+          "y": 3753,
           "id": "b318880d-8173-49a0-a0a2-8a90cf3e80b0936"
         },
         "a943bd71-5f18-4d1a-af64-b141af01b560936": {
@@ -11488,8 +11488,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 100453,
-          "y": -1760,
+          "x": 91452,
+          "y": 4003,
           "id": "a943bd71-5f18-4d1a-af64-b141af01b560936"
         },
         "3f39a866-6253-4ed0-aa8c-3cdf9b33a0ff936": {
@@ -11515,8 +11515,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 100517,
-          "y": -1910,
+          "x": 91516,
+          "y": 3853,
           "id": "3f39a866-6253-4ed0-aa8c-3cdf9b33a0ff936"
         },
         "7551e430-3579-41f5-bfcb-7c428ab018d0936": {
@@ -11542,8 +11542,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 100547,
-          "y": -1885,
+          "x": 91546,
+          "y": 3878,
           "id": "7551e430-3579-41f5-bfcb-7c428ab018d0936"
         },
         "f84b0412-88ff-4926-8b0c-5bfab7e5728a936": {
@@ -11569,8 +11569,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 100513,
-          "y": -1860,
+          "x": 91512,
+          "y": 3903,
           "id": "f84b0412-88ff-4926-8b0c-5bfab7e5728a936"
         },
         "d150dc36-6a00-42e8-a88f-16d9a8c44712936": {
@@ -11596,8 +11596,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 100532,
-          "y": -1835,
+          "x": 91531,
+          "y": 3928,
           "id": "d150dc36-6a00-42e8-a88f-16d9a8c44712936"
         },
         "cfeca7d6-a327-4b4b-9142-5b2c82c3acf7936": {
@@ -11623,8 +11623,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 100520,
-          "y": -1810,
+          "x": 91519,
+          "y": 3953,
           "id": "cfeca7d6-a327-4b4b-9142-5b2c82c3acf7936"
         },
         "690bdd1f-d74d-4ca9-b0a1-076e01808272936": {
@@ -11650,8 +11650,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 100542,
-          "y": -1785,
+          "x": 91541,
+          "y": 3978,
           "id": "690bdd1f-d74d-4ca9-b0a1-076e01808272936"
         },
         "dfdcde8c-502c-46de-8adf-3f5d05174454936": {
@@ -11677,8 +11677,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 100545,
-          "y": -1760,
+          "x": 91544,
+          "y": 4003,
           "id": "dfdcde8c-502c-46de-8adf-3f5d05174454936"
         },
         "add87f4d-bb75-434f-920e-90ebe73de2ca936": {
@@ -11704,8 +11704,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 100523,
-          "y": -1735,
+          "x": 91522,
+          "y": 4028,
           "id": "add87f4d-bb75-434f-920e-90ebe73de2ca936"
         },
         "367c6484-8a81-4358-b4f9-592cd80055c4936": {
@@ -11731,8 +11731,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 100514,
-          "y": -1710,
+          "x": 91513,
+          "y": 4053,
           "id": "367c6484-8a81-4358-b4f9-592cd80055c4936"
         },
         "61628355-ebe8-4173-8e5e-ab8d25d66803936": {
@@ -11758,8 +11758,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 100541,
-          "y": -1685,
+          "x": 91540,
+          "y": 4078,
           "id": "61628355-ebe8-4173-8e5e-ab8d25d66803936"
         },
         "b645b2ec-f2ce-4007-8c23-5673a2906e41936": {
@@ -11785,8 +11785,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 100528,
-          "y": -1660,
+          "x": 91527,
+          "y": 4103,
           "id": "b645b2ec-f2ce-4007-8c23-5673a2906e41936"
         },
         "0a1e2d0c-37eb-45c4-80bb-c8f5fe926680936": {
@@ -11812,8 +11812,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 100549,
-          "y": -1635,
+          "x": 91548,
+          "y": 4128,
           "id": "0a1e2d0c-37eb-45c4-80bb-c8f5fe926680936"
         },
         "5ff371eb-cc04-42f5-80bd-93c5364d1011936": {
@@ -11839,8 +11839,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 100514,
-          "y": -1610,
+          "x": 91513,
+          "y": 4153,
           "id": "5ff371eb-cc04-42f5-80bd-93c5364d1011936"
         },
         "c1c7f446-e388-4644-9bb5-2b4584fff7d6936": {
@@ -11866,8 +11866,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 100553,
-          "y": -1585,
+          "x": 91552,
+          "y": 4178,
           "id": "c1c7f446-e388-4644-9bb5-2b4584fff7d6936"
         },
         "af8a5f5f-3520-4b25-bf32-47623ea43853936": {
@@ -11893,8 +11893,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 100303,
-          "y": -1460,
+          "x": 91302,
+          "y": 4303,
           "id": "af8a5f5f-3520-4b25-bf32-47623ea43853936"
         },
         "60444e59-331b-457a-bb2f-b94c50aa70c6936": {
@@ -11920,8 +11920,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 100303,
-          "y": -1360,
+          "x": 91302,
+          "y": 4403,
           "id": "60444e59-331b-457a-bb2f-b94c50aa70c6936"
         },
         "6ac3525e-9996-40c4-b987-9e35c6f8ccea936": {
@@ -11947,8 +11947,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 100303,
-          "y": -1260,
+          "x": 91302,
+          "y": 4503,
           "id": "6ac3525e-9996-40c4-b987-9e35c6f8ccea936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408820936": {
@@ -11980,8 +11980,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Художники",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694377776806742165528146051481370564248640446408820936",
-          "x": 105188,
-          "y": -1868,
+          "x": 96187,
+          "y": 3895,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12015,8 +12015,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Youtube:\nканалы",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375936",
-          "x": 104635,
-          "y": 3753,
+          "x": 95634,
+          "y": 9516,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12047,8 +12047,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Достопримечательности",
-          "x": 100573,
-          "y": 10623,
+          "x": 101257,
+          "y": 10298,
           "id": "69963d2a-1011-4452-a720-3af41bcb5eb5936",
           "shape": "box",
           "link": "",
@@ -12077,8 +12077,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 100873,
-          "y": 11072,
+          "x": 101557,
+          "y": 10747,
           "id": "c2a2d1c6-a55a-4d0e-9215-51bf2232076a936"
         },
         "a3fbc6c0-ce2c-446e-9d75-bab31675b4d3936": {
@@ -12104,8 +12104,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 101057,
-          "y": 11068,
+          "x": 101741,
+          "y": 10743,
           "id": "a3fbc6c0-ce2c-446e-9d75-bab31675b4d3936"
         },
         "a3bb92bc-bd33-47d0-9492-bcadbabcc97e936": {
@@ -12131,8 +12131,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 101190,
-          "y": 11065,
+          "x": 101874,
+          "y": 10740,
           "id": "a3bb92bc-bd33-47d0-9492-bcadbabcc97e936"
         },
         "219b2358-7005-480f-9951-619a625411a9936": {
@@ -12158,8 +12158,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 100867,
-          "y": 10096,
+          "x": 101551,
+          "y": 9771,
           "id": "219b2358-7005-480f-9951-619a625411a9936"
         },
         "caef02fe-f6fb-4f2a-8c95-f80773af05fa936": {
@@ -12185,8 +12185,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 101017,
-          "y": 9846,
+          "x": 101701,
+          "y": 9521,
           "id": "caef02fe-f6fb-4f2a-8c95-f80773af05fa936"
         },
         "c68451cf-141a-41e2-b085-f7ce90234023936": {
@@ -12212,8 +12212,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 101017,
-          "y": 10096,
+          "x": 101701,
+          "y": 9771,
           "id": "c68451cf-141a-41e2-b085-f7ce90234023936"
         },
         "708d8a13-ac7b-44cf-8b97-39a12c1f6cc6936": {
@@ -12239,8 +12239,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 101023,
-          "y": 10472,
+          "x": 101707,
+          "y": 10147,
           "id": "708d8a13-ac7b-44cf-8b97-39a12c1f6cc6936"
         },
         "e5556c63-147b-4b01-b6fe-3933170f7da0936": {
@@ -12266,8 +12266,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 101087,
-          "y": 10323,
+          "x": 101771,
+          "y": 9998,
           "id": "e5556c63-147b-4b01-b6fe-3933170f7da0936"
         },
         "0e8a6617-2fa7-48d2-b7aa-180ac9eecd21936": {
@@ -12293,8 +12293,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 101118,
-          "y": 10348,
+          "x": 101802,
+          "y": 10023,
           "id": "0e8a6617-2fa7-48d2-b7aa-180ac9eecd21936"
         },
         "9a143758-5749-4f07-9c46-fca416123c33936": {
@@ -12320,8 +12320,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 101083,
-          "y": 10373,
+          "x": 101767,
+          "y": 10048,
           "id": "9a143758-5749-4f07-9c46-fca416123c33936"
         },
         "61ba5523-f7ca-426c-9cf5-e5b0ed98fc22936": {
@@ -12347,8 +12347,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 101102,
-          "y": 10398,
+          "x": 101786,
+          "y": 10073,
           "id": "61ba5523-f7ca-426c-9cf5-e5b0ed98fc22936"
         },
         "a1d98ea5-853a-43e1-b074-7bde5ca2269c936": {
@@ -12374,8 +12374,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 101091,
-          "y": 10423,
+          "x": 101775,
+          "y": 10098,
           "id": "a1d98ea5-853a-43e1-b074-7bde5ca2269c936"
         },
         "5362c478-8bf8-489f-81ac-da9f1c4ef79f936": {
@@ -12401,8 +12401,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 101113,
-          "y": 10448,
+          "x": 101797,
+          "y": 10123,
           "id": "5362c478-8bf8-489f-81ac-da9f1c4ef79f936"
         },
         "c222e7a5-e73f-40c6-9239-011c1a873f6d936": {
@@ -12428,8 +12428,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 101115,
-          "y": 10473,
+          "x": 101799,
+          "y": 10148,
           "id": "c222e7a5-e73f-40c6-9239-011c1a873f6d936"
         },
         "572e7d64-3428-4a63-9c9b-69a946e74c8e936": {
@@ -12455,8 +12455,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 101093,
-          "y": 10498,
+          "x": 101777,
+          "y": 10173,
           "id": "572e7d64-3428-4a63-9c9b-69a946e74c8e936"
         },
         "e285c8ed-505b-4813-8558-9ba124f94236936": {
@@ -12482,8 +12482,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 101084,
-          "y": 10523,
+          "x": 101768,
+          "y": 10198,
           "id": "e285c8ed-505b-4813-8558-9ba124f94236936"
         },
         "67f86951-ffa4-4813-9a25-336b8e27778c936": {
@@ -12509,8 +12509,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 101112,
-          "y": 10548,
+          "x": 101796,
+          "y": 10223,
           "id": "67f86951-ffa4-4813-9a25-336b8e27778c936"
         },
         "995e5ea4-d373-40b5-9d7a-747b7561fdf6936": {
@@ -12536,8 +12536,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 101098,
-          "y": 10573,
+          "x": 101782,
+          "y": 10248,
           "id": "995e5ea4-d373-40b5-9d7a-747b7561fdf6936"
         },
         "41ac9997-8fe3-458f-a379-86a32ce1d862936": {
@@ -12563,8 +12563,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 101120,
-          "y": 10598,
+          "x": 101804,
+          "y": 10273,
           "id": "41ac9997-8fe3-458f-a379-86a32ce1d862936"
         },
         "415cf700-cc3d-4fc6-9828-78320d665a25936": {
@@ -12590,8 +12590,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 101084,
-          "y": 10623,
+          "x": 101768,
+          "y": 10298,
           "id": "415cf700-cc3d-4fc6-9828-78320d665a25936"
         },
         "88c01e25-3f0c-4de0-baa9-48febce8c139936": {
@@ -12617,8 +12617,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 101123,
-          "y": 10648,
+          "x": 101807,
+          "y": 10323,
           "id": "88c01e25-3f0c-4de0-baa9-48febce8c139936"
         },
         "1bde38d4-84c3-4880-912f-e2d37107384d936": {
@@ -12644,8 +12644,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 100873,
-          "y": 10772,
+          "x": 101557,
+          "y": 10447,
           "id": "1bde38d4-84c3-4880-912f-e2d37107384d936"
         },
         "42757fc4-658e-49bb-97c2-7a5104680fb9936": {
@@ -12671,8 +12671,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 100873,
-          "y": 10872,
+          "x": 101557,
+          "y": 10547,
           "id": "42757fc4-658e-49bb-97c2-7a5104680fb9936"
         },
         "65d89d33-948c-4593-87c1-32553aab8985936": {
@@ -12698,8 +12698,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 100873,
-          "y": 10972,
+          "x": 101557,
+          "y": 10647,
           "id": "65d89d33-948c-4593-87c1-32553aab8985936"
         },
         "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107126936": {
@@ -12731,8 +12731,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Достопримечательности",
           "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437777680375107126936",
-          "x": 108364,
-          "y": 10321,
+          "x": 109252,
+          "y": 9962,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12761,8 +12761,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Спектакли",
           "id": "45faeb86-690b-459c-a676-c8bf7a2dce4e936",
-          "x": 85877,
-          "y": -9968
+          "x": 79577,
+          "y": -9775
         },
         "10e9e68e-2754-4c4d-83d2-cf8943c14717936": {
           "color": {
@@ -12788,20 +12788,24 @@ var schemeData =
           "shapeProperties": {},
           "label": "Список театров",
           "id": "10e9e68e-2754-4c4d-83d2-cf8943c14717936",
-          "x": 85884,
-          "y": -9855
+          "x": 79584,
+          "y": -9662
         },
         "dfa69029-251f-4e23-b75b-bb32de403fc6936": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
             "bold": {},
             "boldital": {},
             "ital": {},
-            "mono": {}
+            "mono": {},
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -12813,10 +12817,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Списки фильмов",
+          "label": "Списки и подборки фильмов",
           "id": "dfa69029-251f-4e23-b75b-bb32de403fc6936",
-          "x": 86040,
-          "y": -7440
+          "x": 79776,
+          "y": -7332,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "d4384950-d72c-422c-99ad-b71f2a415182936": {
           "color": {
@@ -12842,8 +12849,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кинотеатры",
           "id": "d4384950-d72c-422c-99ad-b71f2a415182936",
-          "x": 86023,
-          "y": -7346
+          "x": 79720,
+          "y": -7236
         },
         "ac3765fd-6edd-4e2e-b9ce-4b71cec018b1936": {
           "color": {
@@ -12869,20 +12876,24 @@ var schemeData =
           "shapeProperties": {},
           "label": "Рецензии",
           "id": "ac3765fd-6edd-4e2e-b9ce-4b71cec018b1936",
-          "x": 86015,
-          "y": -7265
+          "x": 79708,
+          "y": -7136
         },
         "b8559929-24a6-4595-884a-5b04c9aa8048936": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
             "bold": {},
             "boldital": {},
             "ital": {},
-            "mono": {}
+            "mono": {},
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -12894,10 +12905,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "Фестивали",
+          "label": "Фестивали и конкурсы",
           "id": "b8559929-24a6-4595-884a-5b04c9aa8048936",
-          "x": 86020,
-          "y": -7189
+          "x": 79752,
+          "y": -6937,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "8bc2e798-6644-49dc-853a-e8245bbb81ee936": {
           "color": {
@@ -12923,8 +12937,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Каналы",
           "id": "8bc2e798-6644-49dc-853a-e8245bbb81ee936",
-          "x": 86123,
-          "y": -4639
+          "x": 79776,
+          "y": -925
         },
         "0c2efa8e-b3f9-4d72-96e1-854ee90b0777936": {
           "color": {
@@ -12950,8 +12964,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Передачи",
           "id": "0c2efa8e-b3f9-4d72-96e1-854ee90b0777936",
-          "x": 86121,
-          "y": -4509
+          "x": 79774,
+          "y": -795
         },
         "b047f7ed-23ea-49c3-97d9-6ff1c2e52ae9936": {
           "color": {
@@ -12977,8 +12991,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Школьная программа",
           "id": "b047f7ed-23ea-49c3-97d9-6ff1c2e52ae9936",
-          "x": 86345,
-          "y": -2072
+          "x": 79998,
+          "y": 1642
         },
         "968346ea-31fe-4071-a392-e3bd60d552e0936": {
           "color": {
@@ -13004,8 +13018,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Современные",
           "id": "968346ea-31fe-4071-a392-e3bd60d552e0936",
-          "x": 86320,
-          "y": -1942
+          "x": 79973,
+          "y": 1772
         },
         "23b5cb0b-8e4e-47b8-b8f9-cd2d48484ba7936": {
           "color": {
@@ -13031,8 +13045,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Список",
           "id": "23b5cb0b-8e4e-47b8-b8f9-cd2d48484ba7936",
-          "x": 86455,
-          "y": 3850
+          "x": 80108,
+          "y": 7564
         },
         "c072953c-ed32-4b08-bdb6-12ac84cd36c2936": {
           "color": {
@@ -13062,16 +13076,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "ВДНХ",
           "id": "c072953c-ed32-4b08-bdb6-12ac84cd36c2936",
-          "x": 86580,
-          "y": 3805,
+          "x": 80233,
+          "y": 7519,
           "shape": "box",
           "link": "https://vdnh.ru/",
           "borderWidth": ""
         },
         "ef5beaef-947e-459f-8d5f-c44e4f450e6d": {
           "label": "Youtube",
-          "x": 100291,
-          "y": 1159,
+          "x": 91290,
+          "y": 6922,
           "font": {
             "size": 72,
             "align": "left"
@@ -13087,152 +13101,152 @@ var schemeData =
         },
         "deb19c06-9962-4eb1-bb58-727ed77f1a71": {
           "label": "Development",
-          "x": 100591,
-          "y": 1609,
+          "x": 91590,
+          "y": 7372,
           "id": "deb19c06-9962-4eb1-bb58-727ed77f1a71"
         },
         "e6732da3-27e1-451c-a582-d11de4867bbd": {
           "label": "11/21/2019",
-          "x": 100775,
-          "y": 1608,
+          "x": 91774,
+          "y": 7371,
           "id": "e6732da3-27e1-451c-a582-d11de4867bbd"
         },
         "b32bacde-d977-4114-9cc7-8d3dcaa1ad4c": {
           "label": "init",
-          "x": 100882,
-          "y": 1607,
+          "x": 91881,
+          "y": 7370,
           "id": "b32bacde-d977-4114-9cc7-8d3dcaa1ad4c"
         },
         "1b6ba08d-3567-41fe-85d6-dbda0c216443": {
           "label": "Notes",
-          "x": 100591,
-          "y": 759,
+          "x": 91590,
+          "y": 6522,
           "id": "1b6ba08d-3567-41fe-85d6-dbda0c216443"
         },
         "899be888-09a0-4f9e-ab3f-e01b072a8b03": {
           "label": "Dictionary of\nconcepts",
-          "x": 100741,
-          "y": 509,
+          "x": 91740,
+          "y": 6272,
           "id": "899be888-09a0-4f9e-ab3f-e01b072a8b03"
         },
         "a32cd969-64ea-4494-9be3-2114b4f71243": {
           "label": "Details, thoughts",
-          "x": 100741,
-          "y": 759,
+          "x": 91740,
+          "y": 6522,
           "id": "a32cd969-64ea-4494-9be3-2114b4f71243"
         },
         "5be24ef4-f4f1-4d49-b1e1-e2f461b17c00": {
           "label": "Sections",
-          "x": 100741,
-          "y": 1009,
+          "x": 91740,
+          "y": 6772,
           "id": "5be24ef4-f4f1-4d49-b1e1-e2f461b17c00"
         },
         "af12f6d5-1d65-46da-8da7-764a08b363e8": {
           "label": "Books",
-          "x": 100805,
-          "y": 859,
+          "x": 91804,
+          "y": 6622,
           "id": "af12f6d5-1d65-46da-8da7-764a08b363e8"
         },
         "8bfc203c-640a-450b-aac7-bfa6dfcb1036": {
           "label": "R&D institutions",
-          "x": 100836,
-          "y": 884,
+          "x": 91835,
+          "y": 6647,
           "id": "8bfc203c-640a-450b-aac7-bfa6dfcb1036"
         },
         "81ddb2c4-7057-4e0c-af0e-05e873479568": {
           "label": "Sites",
-          "x": 100801,
-          "y": 909,
+          "x": 91800,
+          "y": 6672,
           "id": "81ddb2c4-7057-4e0c-af0e-05e873479568"
         },
         "cded6b2d-773a-45f7-a584-362a40c6f060": {
           "label": "Magazines",
-          "x": 100820,
-          "y": 934,
+          "x": 91819,
+          "y": 6697,
           "id": "cded6b2d-773a-45f7-a584-362a40c6f060"
         },
         "d7bf5045-700e-4234-8181-8a299fa47110": {
           "label": "Articles",
-          "x": 100809,
-          "y": 959,
+          "x": 91808,
+          "y": 6722,
           "id": "d7bf5045-700e-4234-8181-8a299fa47110"
         },
         "d0160381-2a4f-40a0-8a23-922e6adba934": {
           "label": "Media content",
-          "x": 100831,
-          "y": 984,
+          "x": 91830,
+          "y": 6747,
           "id": "d0160381-2a4f-40a0-8a23-922e6adba934"
         },
         "5bd90ba7-ff55-492a-b16c-92429e681862": {
           "label": "Misc. web links",
-          "x": 100833,
-          "y": 1009,
+          "x": 91832,
+          "y": 6772,
           "id": "5bd90ba7-ff55-492a-b16c-92429e681862"
         },
         "3948edc1-acfa-4562-99e8-4c31944254c0": {
           "label": "Projects",
-          "x": 100811,
-          "y": 1034,
+          "x": 91810,
+          "y": 6797,
           "id": "3948edc1-acfa-4562-99e8-4c31944254c0"
         },
         "4cc207e8-2df9-4308-92dc-af6d6aebe708": {
           "label": "Tools",
-          "x": 100802,
-          "y": 1059,
+          "x": 91801,
+          "y": 6822,
           "id": "4cc207e8-2df9-4308-92dc-af6d6aebe708"
         },
         "5cae806b-cc10-4fee-8829-a8302133d218": {
           "label": "Organizations",
-          "x": 100830,
-          "y": 1084,
+          "x": 91829,
+          "y": 6847,
           "id": "5cae806b-cc10-4fee-8829-a8302133d218"
         },
         "33daab60-063a-4654-8211-57354f6b5a0b": {
           "label": "Standarts",
-          "x": 100816,
-          "y": 1109,
+          "x": 91815,
+          "y": 6872,
           "id": "33daab60-063a-4654-8211-57354f6b5a0b"
         },
         "7d4476ea-1249-4844-81c8-545f219e647d": {
           "label": "Forums, Groups",
-          "x": 100838,
-          "y": 1134,
+          "x": 91837,
+          "y": 6897,
           "id": "7d4476ea-1249-4844-81c8-545f219e647d"
         },
         "6e274a22-46fd-42ae-9ab6-ae3dfc518f6f": {
           "label": "Laws",
-          "x": 100802,
-          "y": 1159,
+          "x": 91801,
+          "y": 6922,
           "id": "6e274a22-46fd-42ae-9ab6-ae3dfc518f6f"
         },
         "030a6cc5-1327-4e88-b4bd-3a9431b3cedd": {
           "label": "Adjacent Themes",
-          "x": 100841,
-          "y": 1184,
+          "x": 91840,
+          "y": 6947,
           "id": "030a6cc5-1327-4e88-b4bd-3a9431b3cedd"
         },
         "8d4f0a1d-2746-4a31-9a27-829a0f93ce6f": {
           "label": "Questions",
-          "x": 100591,
-          "y": 1309,
+          "x": 91590,
+          "y": 7072,
           "id": "8d4f0a1d-2746-4a31-9a27-829a0f93ce6f"
         },
         "323e8e9e-1c33-4f7b-8baa-c2d91a6587fa": {
           "label": "Problems",
-          "x": 100591,
-          "y": 1409,
+          "x": 91590,
+          "y": 7172,
           "id": "323e8e9e-1c33-4f7b-8baa-c2d91a6587fa"
         },
         "02762a65-a59f-47f6-afd7-e7da541ef142": {
           "label": "Goals",
-          "x": 100591,
-          "y": 1509,
+          "x": 91590,
+          "y": 7272,
           "id": "02762a65-a59f-47f6-afd7-e7da541ef142"
         },
         "391de9aa-fbfc-4752-b6b1-b1fb85d7c9ef": {
           "label": "Youtube:\nканалы",
-          "x": 99015,
-          "y": 7971,
+          "x": 90106,
+          "y": 11702,
           "font": {
             "size": 72,
             "align": "left"
@@ -13248,146 +13262,146 @@ var schemeData =
         },
         "551493ca-b9b4-45d7-9eb2-e82cd93c1703": {
           "label": "Development",
-          "x": 99315,
-          "y": 8421,
+          "x": 90406,
+          "y": 12152,
           "id": "551493ca-b9b4-45d7-9eb2-e82cd93c1703"
         },
         "e6511912-6ae4-49c6-b6ab-379b945ac712": {
           "label": "11/21/2019",
-          "x": 99565,
-          "y": 8421,
+          "x": 90656,
+          "y": 12152,
           "id": "e6511912-6ae4-49c6-b6ab-379b945ac712"
         },
         "fcf5d99e-31fb-4dae-8bb4-9e61ddc8cd16": {
           "label": "init",
-          "x": 99465,
-          "y": 8421,
+          "x": 90556,
+          "y": 12152,
           "id": "fcf5d99e-31fb-4dae-8bb4-9e61ddc8cd16"
         },
         "ee8669df-1bfa-4e77-bfa3-20362bdb20f4": {
           "label": "Notes",
-          "x": 99315,
-          "y": 7571,
+          "x": 90406,
+          "y": 11302,
           "id": "ee8669df-1bfa-4e77-bfa3-20362bdb20f4"
         },
         "22a05ca8-9b14-422c-b989-f92c33b9debb": {
           "label": "Dictionary of\nconcepts",
-          "x": 99748,
-          "y": 4121,
+          "x": 90747,
+          "y": 9884,
           "id": "22a05ca8-9b14-422c-b989-f92c33b9debb"
         },
         "bdce3203-6973-4429-a6c7-ddd96c729a05": {
           "label": "Details, thoughts",
-          "x": 99475,
-          "y": 7518,
+          "x": 90566,
+          "y": 11249,
           "id": "bdce3203-6973-4429-a6c7-ddd96c729a05"
         },
         "769328bb-f5e7-4f30-81f2-202c9c5386f1": {
           "label": "Sections",
-          "x": 99465,
-          "y": 7821,
+          "x": 90556,
+          "y": 11552,
           "id": "769328bb-f5e7-4f30-81f2-202c9c5386f1"
         },
         "906cc93d-49f7-459c-a0b3-f7c1bbe6e3e5": {
           "label": "Books",
-          "x": 99529,
-          "y": 7671,
+          "x": 90620,
+          "y": 11402,
           "id": "906cc93d-49f7-459c-a0b3-f7c1bbe6e3e5"
         },
         "d72eb9ae-1607-43e0-b0a3-191ef0b246b0": {
           "label": "R&D institutions",
-          "x": 99559,
-          "y": 7696,
+          "x": 90650,
+          "y": 11427,
           "id": "d72eb9ae-1607-43e0-b0a3-191ef0b246b0"
         },
         "7cc355d8-7e8b-4866-a35b-c79e5d441e82": {
           "label": "Sites",
-          "x": 99525,
-          "y": 7721,
+          "x": 90616,
+          "y": 11452,
           "id": "7cc355d8-7e8b-4866-a35b-c79e5d441e82"
         },
         "8ac161e5-38a5-4cef-b0bd-a1da9a2fb2c0": {
           "label": "Magazines",
-          "x": 99544,
-          "y": 7746,
+          "x": 90635,
+          "y": 11477,
           "id": "8ac161e5-38a5-4cef-b0bd-a1da9a2fb2c0"
         },
         "f0b5cf72-12c9-4cfc-9829-5b6ef0ca9e2c": {
           "label": "Articles",
-          "x": 99532,
-          "y": 7771,
+          "x": 90623,
+          "y": 11502,
           "id": "f0b5cf72-12c9-4cfc-9829-5b6ef0ca9e2c"
         },
         "6e81c0e0-859d-4db7-9ce1-9d8df32c849f": {
           "label": "Media content",
-          "x": 99554,
-          "y": 7796,
+          "x": 90645,
+          "y": 11527,
           "id": "6e81c0e0-859d-4db7-9ce1-9d8df32c849f"
         },
         "3220d4d8-c223-4a30-a7be-c92ac6fc522f": {
           "label": "Misc. web links",
-          "x": 99557,
-          "y": 7821,
+          "x": 90648,
+          "y": 11552,
           "id": "3220d4d8-c223-4a30-a7be-c92ac6fc522f"
         },
         "8dd6e62f-4174-4f55-83cd-6412bdc5bdea": {
           "label": "Projects",
-          "x": 99535,
-          "y": 7846,
+          "x": 90626,
+          "y": 11577,
           "id": "8dd6e62f-4174-4f55-83cd-6412bdc5bdea"
         },
         "26d3569c-f47c-4e59-83d7-6c39b72fd71e": {
           "label": "Tools",
-          "x": 99526,
-          "y": 7871,
+          "x": 90617,
+          "y": 11602,
           "id": "26d3569c-f47c-4e59-83d7-6c39b72fd71e"
         },
         "4a887f06-e4f6-42b1-a01b-eb06aac34a4e": {
           "label": "Organizations",
-          "x": 99553,
-          "y": 7896,
+          "x": 90644,
+          "y": 11627,
           "id": "4a887f06-e4f6-42b1-a01b-eb06aac34a4e"
         },
         "14f421b7-ea4c-44d8-b415-6485abe8feb0": {
           "label": "Standarts",
-          "x": 99540,
-          "y": 7921,
+          "x": 90631,
+          "y": 11652,
           "id": "14f421b7-ea4c-44d8-b415-6485abe8feb0"
         },
         "d3d27ec4-c24f-47cf-87d3-d81e41d82ee1": {
           "label": "Forums, Groups",
-          "x": 99561,
-          "y": 7946,
+          "x": 90652,
+          "y": 11677,
           "id": "d3d27ec4-c24f-47cf-87d3-d81e41d82ee1"
         },
         "45ec6d10-625e-4e55-a13a-023942b50ec4": {
           "label": "Laws",
-          "x": 99526,
-          "y": 7971,
+          "x": 90617,
+          "y": 11702,
           "id": "45ec6d10-625e-4e55-a13a-023942b50ec4"
         },
         "e3b844cb-d0e0-41ff-a342-67c1f851ee64": {
           "label": "Adjacent Themes",
-          "x": 99565,
-          "y": 7996,
+          "x": 90656,
+          "y": 11727,
           "id": "e3b844cb-d0e0-41ff-a342-67c1f851ee64"
         },
         "7d383949-c5ef-48f2-a78b-512a887196d6": {
           "label": "Questions",
-          "x": 99315,
-          "y": 8121,
+          "x": 90406,
+          "y": 11852,
           "id": "7d383949-c5ef-48f2-a78b-512a887196d6"
         },
         "c72d659d-eb16-40ff-86a9-5fd1347a0fde": {
           "label": "Problems",
-          "x": 99315,
-          "y": 8221,
+          "x": 90406,
+          "y": 11952,
           "id": "c72d659d-eb16-40ff-86a9-5fd1347a0fde"
         },
         "14cce472-7abf-4d7e-af77-08390f41aab4": {
           "label": "Goals",
-          "x": 99315,
-          "y": 8321,
+          "x": 90406,
+          "y": 12052,
           "id": "14cce472-7abf-4d7e-af77-08390f41aab4"
         },
         "2fe50647-80d4-4a27-86a6-4d5f56887b54": {
@@ -13415,14 +13429,14 @@ var schemeData =
         },
         "62788897-754a-4ee0-ba6a-b45277e087c0": {
           "id": "62788897-754a-4ee0-ba6a-b45277e087c0",
-          "x": 85971,
-          "y": -6153,
+          "x": 79667,
+          "y": -5466,
           "label": "Вопросы"
         },
         "dd5f0044-0c1c-44f7-a997-823ba8301f8a": {
           "id": "dd5f0044-0c1c-44f7-a997-823ba8301f8a",
-          "x": 86179,
-          "y": -6154,
+          "x": 79875,
+          "y": -5467,
           "label": "Сайты рецензий на фильмы",
           "shape": "box",
           "link": "",
@@ -13438,8 +13452,8 @@ var schemeData =
         },
         "15f10622-0244-4903-b1fc-93bf0a1fecfa": {
           "id": "15f10622-0244-4903-b1fc-93bf0a1fecfa",
-          "x": 86142,
-          "y": -6121,
+          "x": 79838,
+          "y": -5434,
           "label": "Сайты киноафиш",
           "shape": "box",
           "link": "",
@@ -13455,8 +13469,8 @@ var schemeData =
         },
         "6a11cdcb-9d51-4e64-88c5-5686409ae299": {
           "id": "6a11cdcb-9d51-4e64-88c5-5686409ae299",
-          "x": 86126,
-          "y": -6069,
+          "x": 79822,
+          "y": -5382,
           "label": "Кинокритика",
           "shape": "box",
           "link": "",
@@ -13494,8 +13508,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вопросы",
           "id": "62788897-754a-4ee0-ba6a-b45277e087c0281",
-          "x": 85798,
-          "y": -8687
+          "x": 79498,
+          "y": -8494
         },
         "dd5f0044-0c1c-44f7-a997-823ba8301f8a281": {
           "color": {
@@ -13525,8 +13539,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сайты рецензий на спектакли",
           "id": "dd5f0044-0c1c-44f7-a997-823ba8301f8a281",
-          "x": 86009,
-          "y": -8688,
+          "x": 79709,
+          "y": -8495,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13559,8 +13573,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Театральные афиши",
           "id": "15f10622-0244-4903-b1fc-93bf0a1fecfa281",
-          "x": 85979,
-          "y": -8652,
+          "x": 79679,
+          "y": -8459,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13593,22 +13607,22 @@ var schemeData =
           "shapeProperties": {},
           "label": "Театральная критика",
           "id": "6a11cdcb-9d51-4e64-88c5-5686409ae299281",
-          "x": 85980,
-          "y": -8608,
+          "x": 79680,
+          "y": -8415,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "163c0c16-2a99-4a1d-bef6-2fb1379747d0": {
           "id": "163c0c16-2a99-4a1d-bef6-2fb1379747d0",
-          "x": 86360,
-          "y": 5081,
+          "x": 80013,
+          "y": 8795,
           "label": "Вопросы"
         },
         "2f4ea3ce-7585-429d-b81c-e2e93f26f6a4": {
           "id": "2f4ea3ce-7585-429d-b81c-e2e93f26f6a4",
-          "x": 86552,
-          "y": 5085,
+          "x": 80205,
+          "y": 8799,
           "label": "Сайты выставочных центров",
           "shape": "box",
           "link": "",
@@ -13624,14 +13638,14 @@ var schemeData =
         },
         "f32cc919-88b8-4bd0-bc64-6477ff805cb9": {
           "id": "f32cc919-88b8-4bd0-bc64-6477ff805cb9",
-          "x": 86376,
-          "y": 8615,
+          "x": 80032,
+          "y": 12622,
           "label": "Вопросы"
         },
         "c7d1976a-bea1-43b1-aec0-9a6328e25f9b": {
           "id": "c7d1976a-bea1-43b1-aec0-9a6328e25f9b",
-          "x": 86530,
-          "y": 8614,
+          "x": 80186,
+          "y": 12621,
           "label": "Музейные афиши",
           "shape": "box",
           "link": "",
@@ -13647,14 +13661,14 @@ var schemeData =
         },
         "f7c51bfb-b8de-45cc-89df-b5e2796549f4": {
           "id": "f7c51bfb-b8de-45cc-89df-b5e2796549f4",
-          "x": 100699,
-          "y": -4015,
+          "x": 91698,
+          "y": 1748,
           "label": "Вопросы"
         },
         "8adf1400-8209-4187-ba21-915cca5a7f8d": {
           "id": "8adf1400-8209-4187-ba21-915cca5a7f8d",
-          "x": 100847,
-          "y": -4019,
+          "x": 91846,
+          "y": 1744,
           "label": "Кружки и клубы",
           "shape": "box",
           "link": "",
@@ -13670,14 +13684,14 @@ var schemeData =
         },
         "31440243-9d7b-48ab-9b14-eae9deefa4f8": {
           "id": "31440243-9d7b-48ab-9b14-eae9deefa4f8",
-          "x": 100397,
-          "y": -8596,
+          "x": 91444,
+          "y": -6724,
           "label": "Вопросы"
         },
         "d8c729b6-cc5d-4e40-b0e0-575e244bab31": {
           "id": "d8c729b6-cc5d-4e40-b0e0-575e244bab31",
-          "x": 100544,
-          "y": -8599,
+          "x": 91591,
+          "y": -6727,
           "label": "Афиши лекториев",
           "shape": "box",
           "link": "",
@@ -13693,14 +13707,14 @@ var schemeData =
         },
         "0edc7382-e7e4-40c6-9ade-742d0a7e24ad": {
           "id": "0edc7382-e7e4-40c6-9ade-742d0a7e24ad",
-          "x": 100902,
-          "y": 1673,
+          "x": 91901,
+          "y": 7436,
           "label": "Вопросы"
         },
         "9da02a6b-d9ab-4b63-9318-0c5873ee10fe": {
           "id": "9da02a6b-d9ab-4b63-9318-0c5873ee10fe",
-          "x": 101127,
-          "y": 1673,
+          "x": 92126,
+          "y": 7436,
           "label": "Обзоры каналов и роликов по темам",
           "shape": "box",
           "link": "",
@@ -13716,8 +13730,8 @@ var schemeData =
         },
         "85f2fcf9-e6d2-4a66-b8b1-5c5302562e48": {
           "id": "85f2fcf9-e6d2-4a66-b8b1-5c5302562e48",
-          "x": 101095,
-          "y": 1721,
+          "x": 92094,
+          "y": 7484,
           "label": "Критика роликов и стримов",
           "shape": "box",
           "link": "",
@@ -13733,14 +13747,14 @@ var schemeData =
         },
         "736dc201-e416-4f23-ab1c-08bba7673b94": {
           "id": "736dc201-e416-4f23-ab1c-08bba7673b94",
-          "x": 99753,
-          "y": 7503,
+          "x": 90844,
+          "y": 11234,
           "label": "Коллекции ссылок по темам"
         },
         "de33059a-2b21-4eb7-98e4-81d28c1fa878": {
           "id": "de33059a-2b21-4eb7-98e4-81d28c1fa878",
-          "x": 100856,
-          "y": -7130,
+          "x": 91855,
+          "y": -1367,
           "label": "Modern",
           "shape": "box",
           "link": "",
@@ -13756,68 +13770,68 @@ var schemeData =
         },
         "4b1b677f-e9cf-408f-a2fc-253a5d0277ce": {
           "id": "4b1b677f-e9cf-408f-a2fc-253a5d0277ce",
-          "x": 101051,
-          "y": -7402,
+          "x": 92050,
+          "y": -1639,
           "label": "Industrial dance"
         },
         "5a7802f6-c05d-4971-89fd-2fe2e44762c3": {
           "id": "5a7802f6-c05d-4971-89fd-2fe2e44762c3",
-          "x": 101042,
-          "y": -7364,
+          "x": 92041,
+          "y": -1601,
           "label": "Vogue dance"
         },
         "07afb101-7f2b-414c-93a2-a1c43b85c57e": {
           "id": "07afb101-7f2b-414c-93a2-a1c43b85c57e",
-          "x": 101059,
-          "y": -7336,
+          "x": 92058,
+          "y": -1573,
           "label": "Melbourne Shuffle"
         },
         "dc5eaf3f-5208-41a4-8888-b8aff4d2d370": {
           "id": "dc5eaf3f-5208-41a4-8888-b8aff4d2d370",
-          "x": 101033,
-          "y": -7312,
+          "x": 92032,
+          "y": -1549,
           "label": "Jumpstyle"
         },
         "85c5deab-9774-4ffe-97d8-fcb1177d4f91": {
           "id": "85c5deab-9774-4ffe-97d8-fcb1177d4f91",
-          "x": 101049,
-          "y": -7284,
+          "x": 92048,
+          "y": -1521,
           "label": "Drum and bass"
         },
         "359c9702-e73f-4f14-8ebd-f69914e5dffd": {
           "id": "359c9702-e73f-4f14-8ebd-f69914e5dffd",
-          "x": 101032,
-          "y": -7263,
+          "x": 92031,
+          "y": -1500,
           "label": "Free Step"
         },
         "afb5128e-828e-44be-8ab4-3a70eb5050e9": {
           "id": "afb5128e-828e-44be-8ab4-3a70eb5050e9",
-          "x": 101031,
-          "y": -7233,
+          "x": 92030,
+          "y": -1470,
           "label": "Tecktonic"
         },
         "faaaedf0-6a5b-4f04-94f1-9074628f1ae1": {
           "id": "faaaedf0-6a5b-4f04-94f1-9074628f1ae1",
-          "x": 101044,
-          "y": -7200,
+          "x": 92043,
+          "y": -1437,
           "label": "Swing Shuffle"
         },
         "35487507-2106-4abb-ba6b-00aba126ba3f": {
           "id": "35487507-2106-4abb-ba6b-00aba126ba3f",
-          "x": 101035,
-          "y": -7173,
+          "x": 92034,
+          "y": -1410,
           "label": "Rebolation"
         },
         "bdae53e6-8110-46db-a080-95ec75397375": {
           "id": "bdae53e6-8110-46db-a080-95ec75397375",
-          "x": 100019,
-          "y": 3584,
+          "x": 91018,
+          "y": 9347,
           "label": "Channels collection"
         },
         "f7377021-5507-4037-b68c-009887753dd0": {
           "id": "f7377021-5507-4037-b68c-009887753dd0",
-          "x": 100597,
-          "y": 4223,
+          "x": 91596,
+          "y": 9986,
           "label": "Programming",
           "shape": "box",
           "link": "",
@@ -13834,279 +13848,279 @@ var schemeData =
         "0ce1f560-4ca2-4776-a8bb-19b6af9beec2": {
           "label": "Build Stuff - YouTube",
           "link": "https://www.youtube.com/channel/UCis5B3Zru-vymPRcbpM1NEA",
-          "x": 100880,
-          "y": 3687,
+          "x": 91879,
+          "y": 9450,
           "id": "0ce1f560-4ca2-4776-a8bb-19b6af9beec2"
         },
         "396698a6-e7c9-4d4e-9ae8-2cddcdfb5ca3": {
           "label": "I Like To Make Stuff - YouTube",
           "link": "https://www.youtube.com/user/iliketomakestuffcom",
-          "x": 100911,
-          "y": 3711,
+          "x": 91910,
+          "y": 9474,
           "id": "396698a6-e7c9-4d4e-9ae8-2cddcdfb5ca3"
         },
         "9ca8c81e-e7b1-4860-8a50-d25e1af31c99": {
           "label": "code::dive conference - YouTube",
           "link": "https://www.youtube.com/channel/UCU0Rt8VHO5-YNQXwIjkf-1g",
-          "x": 100918,
-          "y": 3735,
+          "x": 91917,
+          "y": 9498,
           "id": "9ca8c81e-e7b1-4860-8a50-d25e1af31c99"
         },
         "bde00a4e-7645-41be-bb05-11f2de58a870": {
           "label": "PolyConf - YouTube",
           "link": "https://www.youtube.com/user/polyconf",
-          "x": 100877,
-          "y": 3759,
+          "x": 91876,
+          "y": 9522,
           "id": "bde00a4e-7645-41be-bb05-11f2de58a870"
         },
         "011c441e-9535-4d4e-a854-bfb05f8e2544": {
           "label": "JSNation - YouTube",
           "link": "https://www.youtube.com/channel/UCQM428Hwrvxla8DCgjGONSQ",
-          "x": 100877,
-          "y": 3783,
+          "x": 91876,
+          "y": 9546,
           "id": "011c441e-9535-4d4e-a854-bfb05f8e2544"
         },
         "f2241e49-c0b6-4f60-93b1-ce33a2bf1a12": {
           "label": "Coding Tech - YouTube",
           "link": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ",
-          "x": 100888,
-          "y": 3807,
+          "x": 91887,
+          "y": 9570,
           "id": "f2241e49-c0b6-4f60-93b1-ce33a2bf1a12"
         },
         "5aa1cd94-d627-4b35-80f7-d8e0105d45d6": {
           "label": "GitNation React Conferences - YouTube",
           "link": "https://www.youtube.com/channel/UCsFrt8oKNYXGspSlX9u6uXw",
-          "x": 100941,
-          "y": 3831,
+          "x": 91940,
+          "y": 9594,
           "id": "5aa1cd94-d627-4b35-80f7-d8e0105d45d6"
         },
         "77a4ea17-f61e-4643-9bcd-8f4f98461867": {
           "label": "ReactiveConf - YouTube",
           "link": "https://www.youtube.com/channel/UCBHdUnixTWymmXBIw12Y8Qg",
-          "x": 100891,
-          "y": 3855,
+          "x": 91890,
+          "y": 9618,
           "id": "77a4ea17-f61e-4643-9bcd-8f4f98461867"
         },
         "7103b00d-c232-4fcd-9d10-b9a60ab8f246": {
           "label": "Jazoon TechDays - YouTube",
           "link": "https://www.youtube.com/channel/UC9kq7rpecrCX7S_ptuA20OA",
-          "x": 100904,
-          "y": 3879,
+          "x": 91903,
+          "y": 9642,
           "id": "7103b00d-c232-4fcd-9d10-b9a60ab8f246"
         },
         "5684730b-05c1-4230-8642-0656fb19b57e": {
           "label": "SFNode - YouTube",
           "link": "https://www.youtube.com/channel/UCbWHWaCKZqIm5pE5hSD7KFw",
-          "x": 100874,
-          "y": 3927,
+          "x": 91873,
+          "y": 9690,
           "id": "5684730b-05c1-4230-8642-0656fb19b57e"
         },
         "13a96638-0c28-4b7b-b2a4-fefbc3d85e8c": {
           "label": "CppCon - YouTube",
           "link": "https://www.youtube.com/user/CppCon",
-          "x": 100874,
-          "y": 3951,
+          "x": 91873,
+          "y": 9714,
           "id": "13a96638-0c28-4b7b-b2a4-fefbc3d85e8c"
         },
         "e75704d3-8850-44da-b532-f6a0b8aa3f1d": {
           "label": "Infinite Red - YouTube",
           "link": "https://www.youtube.com/channel/UCwpSzVt7QpLDbCnPXqR97-g",
-          "x": 100884,
-          "y": 3975,
+          "x": 91883,
+          "y": 9738,
           "id": "e75704d3-8850-44da-b532-f6a0b8aa3f1d"
         },
         "57c28b63-ef7f-4d38-aa8a-cf9242ae5086": {
           "label": "GDG Lviv - YouTube",
           "link": "https://www.youtube.com/channel/UC5nknQj-2llSNd-jqXr4d_w",
-          "x": 100879,
-          "y": 3999,
+          "x": 91878,
+          "y": 9762,
           "id": "57c28b63-ef7f-4d38-aa8a-cf9242ae5086"
         },
         "323655b3-985a-46fa-9d29-83a98adea1be": {
           "label": "mibuso.com - YouTube",
           "link": "https://www.youtube.com/channel/UCeFUrL4JZsOa39TQVmrw2ww",
-          "x": 100887,
-          "y": 4023,
+          "x": 91886,
+          "y": 9786,
           "id": "323655b3-985a-46fa-9d29-83a98adea1be"
         },
         "f79ba645-7aab-4e06-b379-f8a41c63508f": {
           "label": "You Gotta Love Frontend - YouTube",
           "link": "https://www.youtube.com/channel/UCU-fOxx_kT5OARG0KiksiCA",
-          "x": 100928,
-          "y": 4047,
+          "x": 91927,
+          "y": 9810,
           "id": "f79ba645-7aab-4e06-b379-f8a41c63508f"
         },
         "0a294902-d340-42cf-8ab4-00989b0bde9a": {
           "label": "Callstack Engineers - YouTube",
           "link": "https://www.youtube.com/channel/UCbvLih553T7f5OAGTfbsJkQ",
-          "x": 100911,
-          "y": 4071,
+          "x": 91910,
+          "y": 9834,
           "id": "0a294902-d340-42cf-8ab4-00989b0bde9a"
         },
         "8ed8a12b-f41e-4bb4-8541-a0d208232fb5": {
           "label": "Coding Tech - YouTube",
           "link": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ",
-          "x": 100888,
-          "y": 4095,
+          "x": 91887,
+          "y": 9858,
           "id": "8ed8a12b-f41e-4bb4-8541-a0d208232fb5"
         },
         "601f8088-5894-4521-9396-fd589a83b189": {
           "label": "node.js - YouTube",
           "link": "https://www.youtube.com/channel/UCQPYJluYC_sn_Qz_XE-YbTQ",
-          "x": 100871,
-          "y": 4119,
+          "x": 91870,
+          "y": 9882,
           "id": "601f8088-5894-4521-9396-fd589a83b189"
         },
         "fd069b4f-60a9-4264-8c16-df83f06b20e4": {
           "label": "InfoQ - YouTube",
           "link": "https://www.youtube.com/user/MarakanaTechTV",
-          "x": 100866,
-          "y": 4143,
+          "x": 91865,
+          "y": 9906,
           "id": "fd069b4f-60a9-4264-8c16-df83f06b20e4"
         },
         "db2b001b-a93a-4af2-8a38-c52a239f488d": {
           "label": "SiliconANGLE theCUBE - YouTube",
           "link": "https://www.youtube.com/user/siliconangle",
-          "x": 100923,
-          "y": 4167,
+          "x": 91922,
+          "y": 9930,
           "id": "db2b001b-a93a-4af2-8a38-c52a239f488d"
         },
         "5751bef1-4712-43dd-8be4-fa76deb090a6": {
           "label": "freeCodeCamp.org - YouTube",
           "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
-          "x": 100909,
-          "y": 4191,
+          "x": 91908,
+          "y": 9954,
           "id": "5751bef1-4712-43dd-8be4-fa76deb090a6"
         },
         "cdd0e91a-c626-466f-837b-2b7e79c33a03": {
           "label": "Traversy Media - YouTube",
           "link": "https://www.youtube.com/user/TechGuyWeb",
-          "x": 100897,
-          "y": 4215,
+          "x": 91896,
+          "y": 9978,
           "id": "cdd0e91a-c626-466f-837b-2b7e79c33a03"
         },
         "6cb065b9-b418-4e29-906e-25c3a34328b0": {
           "label": "Web Dev Simplified - YouTube",
           "link": "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw",
-          "x": 100909,
-          "y": 4239,
+          "x": 91908,
+          "y": 10002,
           "id": "6cb065b9-b418-4e29-906e-25c3a34328b0"
         },
         "f7210b4b-8589-429f-9ee5-db7c07a7f4c0": {
           "label": "meet.js - YouTube",
           "link": "https://www.youtube.com/channel/UC2aX7cPDv8Stij0kBCM_qgg",
-          "x": 100871,
-          "y": 4263,
+          "x": 91870,
+          "y": 10026,
           "id": "f7210b4b-8589-429f-9ee5-db7c07a7f4c0"
         },
         "b377db52-32a2-4cd8-a315-f9a9cca0e267": {
           "label": "Google Developers - YouTube",
           "link": "https://www.youtube.com/user/GoogleDevelopers",
-          "x": 100909,
-          "y": 4287,
+          "x": 91908,
+          "y": 10050,
           "id": "b377db52-32a2-4cd8-a315-f9a9cca0e267"
         },
         "42076348-71d3-4611-a803-390eab5096d7": {
           "label": "ScotlandJS - YouTube",
           "link": "https://www.youtube.com/channel/UCpW0Vh7QKPA7n0oJfrizlsw",
-          "x": 100884,
-          "y": 4311,
+          "x": 91883,
+          "y": 10074,
           "id": "42076348-71d3-4611-a803-390eab5096d7"
         },
         "61b50ded-8875-4d6b-b8ac-483bdb3d3deb": {
           "label": "NearForm - YouTube",
           "link": "https://www.youtube.com/channel/UCp2Tsbjd3P8itnBHUNHi82A",
-          "x": 100881,
-          "y": 4335,
+          "x": 91880,
+          "y": 10098,
           "id": "61b50ded-8875-4d6b-b8ac-483bdb3d3deb"
         },
         "8e2f1c74-03cd-4aba-bb6f-4af629659947": {
           "label": "Coders Field - YouTube",
           "link": "https://www.youtube.com/channel/UC1f5LPSlHSoFoUFqjrUPaTA",
-          "x": 100889,
-          "y": 4359,
+          "x": 91888,
+          "y": 10122,
           "id": "8e2f1c74-03cd-4aba-bb6f-4af629659947"
         },
         "7d314324-d903-42da-a92e-c6f563457c59": {
           "label": "Josh Thomas - YouTube",
           "link": "https://www.youtube.com/user/jthoms81",
-          "x": 100891,
-          "y": 4383,
+          "x": 91890,
+          "y": 10146,
           "id": "7d314324-d903-42da-a92e-c6f563457c59"
         },
         "3e8c6094-9199-4196-b086-b0bcf648aa4c": {
           "label": "Cian O'Maidin - YouTube",
           "link": "https://www.youtube.com/user/NodeDublin",
-          "x": 100893,
-          "y": 4407,
+          "x": 91892,
+          "y": 10170,
           "id": "3e8c6094-9199-4196-b086-b0bcf648aa4c"
         },
         "1e25034a-f032-447f-9939-6036f41b2db1": {
           "label": "Espruino - YouTube",
           "link": "https://www.youtube.com/user/Espruino",
-          "x": 100876,
-          "y": 4431,
+          "x": 91875,
+          "y": 10194,
           "id": "1e25034a-f032-447f-9939-6036f41b2db1"
         },
         "140f9d7e-4cd5-4116-ae28-09c749f3e5f7": {
           "label": "ConFoo Developer Conference - YouTube",
           "link": "https://www.youtube.com/user/confooca",
-          "x": 100947,
-          "y": 4455,
+          "x": 91946,
+          "y": 10218,
           "id": "140f9d7e-4cd5-4116-ae28-09c749f3e5f7"
         },
         "d9d097a6-a0c9-4c7c-af63-16619021b8d2": {
           "label": "Pixels Camp - YouTube",
           "link": "https://www.youtube.com/channel/UCw569JcaFKdvIHAuEXoH7Kg",
-          "x": 100888,
-          "y": 4479,
+          "x": 91887,
+          "y": 10242,
           "id": "d9d097a6-a0c9-4c7c-af63-16619021b8d2"
         },
         "73d437ca-125d-4506-a1ea-fc138e5a1c13": {
           "label": "javascriptla - YouTube",
           "link": "https://www.youtube.com/user/beachtutorials",
-          "x": 100884,
-          "y": 4503,
+          "x": 91883,
+          "y": 10266,
           "id": "73d437ca-125d-4506-a1ea-fc138e5a1c13"
         },
         "dafb8d10-03f8-4566-b994-0f5a875dc458": {
           "label": "The Linux Foundation - YouTube",
           "link": "https://www.youtube.com/user/TheLinuxFoundation",
-          "x": 100918,
-          "y": 4527,
+          "x": 91917,
+          "y": 10290,
           "id": "dafb8d10-03f8-4566-b994-0f5a875dc458"
         },
         "811399fa-c1c3-4221-aeec-c3785a447176": {
           "label": "Øredev Conference - YouTube",
           "link": "https://www.youtube.com/channel/UC0XtR2kcXnqtfrGSsxM8oAg",
-          "x": 100911,
-          "y": 4551,
+          "x": 91910,
+          "y": 10314,
           "id": "811399fa-c1c3-4221-aeec-c3785a447176"
         },
         "38ae6906-0609-49eb-b812-5dc4b9730aa6": {
           "label": "Techlahoma - YouTube",
           "link": "https://www.youtube.com/channel/UCnLf0pfqIpSfKuPZ0e9iiNQ",
-          "x": 100887,
-          "y": 4599,
+          "x": 91886,
+          "y": 10362,
           "id": "38ae6906-0609-49eb-b812-5dc4b9730aa6"
         },
         "9a7243de-6f89-418b-83e5-63e8e898a97c": {
           "label": "fitcevents - YouTube",
           "link": "https://www.youtube.com/user/fitcevents",
-          "x": 100878,
-          "y": 4623,
+          "x": 91877,
+          "y": 10386,
           "id": "9a7243de-6f89-418b-83e5-63e8e898a97c"
         },
         "460f95b9-741d-4689-8ab2-db1880ebba24": {
           "id": "460f95b9-741d-4689-8ab2-db1880ebba24",
-          "x": 100606,
-          "y": 3258,
+          "x": 91605,
+          "y": 9021,
           "label": "Сельская жизнь"
         },
         "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a": {
           "id": "1ad2b278-1b4d-4031-8e5a-0f91d6b3a06a",
-          "x": 100974,
-          "y": 3262,
+          "x": 91973,
+          "y": 9025,
           "label": "Идиллия",
           "shape": "box",
           "link": "",
@@ -14123,170 +14137,170 @@ var schemeData =
         "b4a4d7e0-22f4-4aac-8a84-1676aae185df": {
           "label": "酒鬼小莉 Drunkard Lee - YouTube",
           "link": "https://www.youtube.com/channel/UCT4_rFXULf5E1rWtJC8Kk3w/videos",
-          "x": 101235,
-          "y": 3256,
+          "x": 92234,
+          "y": 9019,
           "id": "b4a4d7e0-22f4-4aac-8a84-1676aae185df"
         },
         "af37af37-8667-4bbe-a0fa-d3dca582796a": {
           "id": "af37af37-8667-4bbe-a0fa-d3dca582796a",
-          "x": 100634,
-          "y": 2965,
+          "x": 91633,
+          "y": 8728,
           "label": "Традиционные ремесла"
         },
         "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4": {
           "id": "ca65ad79-3025-4d0a-9e0a-fccf33a65fd4",
-          "x": 100962,
-          "y": 2974,
+          "x": 91961,
+          "y": 8737,
           "label": "Франция"
         },
         "2de60fa0-9afc-4e28-80ed-9a4cb4125501": {
           "label": "meteoalacartelemag - YouTube",
           "link": "https://www.youtube.com/user/meteoalacartelemag/videos",
-          "x": 101196,
-          "y": 2972,
+          "x": 92195,
+          "y": 8735,
           "id": "2de60fa0-9afc-4e28-80ed-9a4cb4125501"
         },
         "79bcc2c6-fea8-4d0c-b61e-4fdedfd0915f": {
           "label": "野小妹wild girl - YouTube",
           "link": "https://www.youtube.com/channel/UCf8zNN8N7U2BEm4WBQnWBIw/videos",
-          "x": 101207,
-          "y": 3281,
+          "x": 92206,
+          "y": 9044,
           "id": "79bcc2c6-fea8-4d0c-b61e-4fdedfd0915f"
         },
         "45d4ffa5-a2eb-4d32-931c-356268ccf205": {
           "id": "45d4ffa5-a2eb-4d32-931c-356268ccf205",
-          "x": 100585,
-          "y": 3541,
+          "x": 91584,
+          "y": 9304,
           "label": "Hardware"
         },
         "c0ad1469-8f17-46b1-9607-9a6c49dea6aa": {
           "id": "c0ad1469-8f17-46b1-9607-9a6c49dea6aa",
-          "x": 100279,
-          "y": 3926,
+          "x": 91278,
+          "y": 9689,
           "label": "IT"
         },
         "bfc1979b-cb4b-4672-bd9a-ccf01a6b3449": {
           "label": "freeCodeCamp.org - YouTube",
           "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/videos",
-          "x": 100908,
-          "y": 3663,
+          "x": 91907,
+          "y": 9426,
           "id": "bfc1979b-cb4b-4672-bd9a-ccf01a6b3449"
         },
         "c67af52f-4c79-417d-8b17-e7558137f1f4": {
           "label": "ExplainingComputers - YouTube",
           "link": "https://www.youtube.com/user/explainingcomputers/videos",
-          "x": 100910,
-          "y": 3536,
+          "x": 91909,
+          "y": 9299,
           "id": "c67af52f-4c79-417d-8b17-e7558137f1f4"
         },
         "44ea468f-1cce-4c92-85f2-99ad4790dde2": {
           "id": "44ea468f-1cce-4c92-85f2-99ad4790dde2",
-          "x": 100597,
-          "y": 2806,
+          "x": 91596,
+          "y": 8569,
           "label": "Documentary"
         },
         "7ab2844e-d2c3-43b6-a59e-1432aa0d4936": {
           "label": "British Pathé - YouTube",
           "link": "https://www.youtube.com/user/britishpathe/featured",
-          "x": 100982,
-          "y": 2811,
+          "x": 91981,
+          "y": 8574,
           "id": "7ab2844e-d2c3-43b6-a59e-1432aa0d4936"
         },
         "928af6c5-c3c7-4b51-adc0-6072c6a5de96": {
           "label": "PyData - YouTube",
           "link": "https://www.youtube.com/user/PyDataTV/videos",
-          "x": 100870,
-          "y": 3615,
+          "x": 91869,
+          "y": 9378,
           "id": "928af6c5-c3c7-4b51-adc0-6072c6a5de96"
         },
         "f00c6bcb-1fa5-484b-96e3-395ac93c48f3": {
           "label": "MLconf - YouTube",
           "link": "https://www.youtube.com/channel/UCjeM1xxYb_37bZfyparLS3Q/videos",
-          "x": 100871,
-          "y": 3639,
+          "x": 91870,
+          "y": 9402,
           "id": "f00c6bcb-1fa5-484b-96e3-395ac93c48f3"
         },
         "8a416181-f373-4fef-8989-a819915c66cc": {
           "id": "8a416181-f373-4fef-8989-a819915c66cc",
-          "x": 100314,
-          "y": 3110,
+          "x": 91313,
+          "y": 8873,
           "label": "Развлечения"
         },
         "9131dc3c-49c8-41a4-b8b2-4bcc8a554de3": {
           "id": "9131dc3c-49c8-41a4-b8b2-4bcc8a554de3",
-          "x": 100742,
-          "y": -6025,
+          "x": 91739,
+          "y": -262,
           "label": "Юмор"
         },
         "5594769b-8b35-4c4a-b38f-a5770401f442": {
           "id": "5594769b-8b35-4c4a-b38f-a5770401f442",
-          "x": 101023,
-          "y": -6020,
+          "x": 92022,
+          "y": -257,
           "label": "https://twitter.com/GenePark/status/1209268781471719424",
           "link": "https://twitter.com/GenePark/status/1209268781471719424"
         },
         "141cbf9e-c635-4e0b-a98b-c7f7f66eab39": {
           "id": "141cbf9e-c635-4e0b-a98b-c7f7f66eab39",
-          "x": 100766,
-          "y": -5655,
+          "x": 91741,
+          "y": 108,
           "label": "To sort"
         },
         "a22104b5-9ad8-405d-b66e-7e2a4e7e7c6c": {
           "id": "a22104b5-9ad8-405d-b66e-7e2a4e7e7c6c",
-          "x": 100289,
-          "y": 4812,
+          "x": 91288,
+          "y": 10575,
           "label": "Math"
         },
         "65c4704e-f8ec-4c10-bd90-219012ca2ddc": {
           "id": "65c4704e-f8ec-4c10-bd90-219012ca2ddc",
-          "x": 101023,
-          "y": -7039,
+          "x": 92022,
+          "y": -1276,
           "label": "Hip Hop"
         },
         "3399c59b-4b39-4978-ac0e-ef68b2372f72": {
           "id": "3399c59b-4b39-4978-ac0e-ef68b2372f72",
-          "x": 101366,
-          "y": -7128,
+          "x": 92365,
+          "y": -1365,
           "label": "https://hipshakefitness.com/dance/iconic-90s-hip-hop-dance-moves-need-know/",
           "link": "https://hipshakefitness.com/dance/iconic-90s-hip-hop-dance-moves-need-know/"
         },
         "be89137f-3e3a-4f09-93b3-0474a72a324f": {
           "id": "be89137f-3e3a-4f09-93b3-0474a72a324f",
-          "x": 101055,
-          "y": -5940,
+          "x": 92054,
+          "y": -177,
           "label": "https://en.wikipedia.org/wiki/Glossary_of_dance_moves",
           "link": "https://en.wikipedia.org/wiki/Glossary_of_dance_moves"
         },
         "8e6e7ed6-23e8-4ff6-8bfb-d1ab65e811c2": {
           "id": "8e6e7ed6-23e8-4ff6-8bfb-d1ab65e811c2",
-          "x": 101297,
-          "y": -7094,
+          "x": 92296,
+          "y": -1331,
           "label": "https://dance.lovetoknow.com/History_of_Hip_Hop_Dance",
           "link": "https://dance.lovetoknow.com/History_of_Hip_Hop_Dance"
         },
         "968336af-2cca-4cd1-9313-c9959988ced4": {
           "id": "968336af-2cca-4cd1-9313-c9959988ced4",
-          "x": 101047,
-          "y": -5881,
+          "x": 92046,
+          "y": -118,
           "label": "https://dance.lovetoknow.com/glossary-dance-moves",
           "link": "https://dance.lovetoknow.com/glossary-dance-moves"
         },
         "a543cb7a-06da-4b5f-9cbc-89533b88ea1d": {
           "id": "a543cb7a-06da-4b5f-9cbc-89533b88ea1d",
-          "x": 100764,
-          "y": -5910,
+          "x": 91763,
+          "y": -147,
           "label": "Dance moves"
         },
         "0579b349-8d36-4c4b-83ed-2fde07ee3d33": {
           "id": "0579b349-8d36-4c4b-83ed-2fde07ee3d33",
-          "x": 100794,
-          "y": -5616,
+          "x": 91913,
+          "y": 109,
           "label": "Dance music"
         },
         "f31319dd-c289-4765-97e1-836ed763b2d8": {
           "id": "f31319dd-c289-4765-97e1-836ed763b2d8",
-          "x": 101056,
-          "y": -5618,
+          "x": 92175,
+          "y": 107,
           "label": "https://www.youtube.com/watch?v=KQ6zr6kCPj8",
           "link": "https://www.youtube.com/watch?v=KQ6zr6kCPj8",
           "shape": "box",
@@ -14302,48 +14316,48 @@ var schemeData =
         },
         "749d9995-b640-4e7c-b067-1784719120de": {
           "id": "749d9995-b640-4e7c-b067-1784719120de",
-          "x": 100863,
-          "y": 4709,
+          "x": 91862,
+          "y": 10472,
           "label": "https://www.youtube.com/user/EnthoughtMedia/videos",
           "link": "https://www.youtube.com/user/EnthoughtMedia/videos"
         },
         "9e86548e-bb13-4c1c-bd36-727ed6e6ff1d": {
           "id": "9e86548e-bb13-4c1c-bd36-727ed6e6ff1d",
-          "x": 100603,
-          "y": 4713,
+          "x": 91602,
+          "y": 10476,
           "label": "Data research"
         },
         "29db3543-fbc8-4ccf-b8e6-d227bcea2e90": {
           "id": "29db3543-fbc8-4ccf-b8e6-d227bcea2e90",
-          "x": 101370,
-          "y": -6309,
+          "x": 92369,
+          "y": -546,
           "label": "https://www.youtube.com/watch?v=foJmefvqOZo",
           "link": "https://www.youtube.com/watch?v=foJmefvqOZo"
         },
         "d38a0c38-5b4e-4930-999a-d0c150d077ec": {
           "id": "d38a0c38-5b4e-4930-999a-d0c150d077ec",
-          "x": 100820,
-          "y": -5303,
+          "x": 91786,
+          "y": -62,
           "label": "Instruments in dance"
         },
         "0c465978-775e-4c2c-8a67-78ca401445e5": {
           "id": "0c465978-775e-4c2c-8a67-78ca401445e5",
-          "x": 101087,
-          "y": -5301,
+          "x": 92064,
+          "y": -60,
           "label": "https://en.wikipedia.org/wiki/Castanets",
           "link": "https://en.wikipedia.org/wiki/Castanets"
         },
         "fca8278b-c54e-4ba7-8d63-c3154c6a3c8f": {
           "id": "fca8278b-c54e-4ba7-8d63-c3154c6a3c8f",
-          "x": 100879,
-          "y": -6475,
+          "x": 91878,
+          "y": -712,
           "label": "Tradition"
         },
         "9fd4afd9-0097-44e3-a4a9-84e230d22668": {
           "label": "Flamenco",
           "link": "",
-          "x": 100987,
-          "y": -6477,
+          "x": 91986,
+          "y": -714,
           "id": "9fd4afd9-0097-44e3-a4a9-84e230d22668",
           "color": {
             "highlight": {
@@ -14383,8 +14397,8 @@ var schemeData =
         "bb59f18e-1fc2-4a1d-aa6c-d1dc6ad7095b": {
           "label": "Zambra",
           "link": "",
-          "x": 101111,
-          "y": -6340,
+          "x": 92110,
+          "y": -577,
           "id": "bb59f18e-1fc2-4a1d-aa6c-d1dc6ad7095b",
           "color": {
             "highlight": {
@@ -14423,91 +14437,91 @@ var schemeData =
         },
         "97a58f1c-9672-4e4e-a1b1-e3462ba691b9": {
           "id": "97a58f1c-9672-4e4e-a1b1-e3462ba691b9",
-          "x": 101335,
-          "y": -6348,
+          "x": 92334,
+          "y": -585,
           "label": "https://en.wikipedia.org/wiki/Zambra",
           "link": "https://en.wikipedia.org/wiki/Zambra"
         },
         "6727fb0e-b9be-47fe-a411-4a4cadcd5cf2": {
           "id": "6727fb0e-b9be-47fe-a411-4a4cadcd5cf2",
-          "x": 101292,
-          "y": -6622,
+          "x": 92291,
+          "y": -859,
           "label": "https://www.youtube.com/results?search_query=flamenco+dance",
           "link": "https://www.youtube.com/results?search_query=flamenco+dance"
         },
         "cab640b1-b69d-4fb7-96da-a9566066a4cb": {
           "id": "cab640b1-b69d-4fb7-96da-a9566066a4cb",
-          "x": 101244,
-          "y": -6590,
+          "x": 92243,
+          "y": -827,
           "label": "https://www.youtube.com/watch?v=QLnEjHuMFsA",
           "link": "https://www.youtube.com/watch?v=QLnEjHuMFsA"
         },
         "7ffb600b-2e7a-4af0-8f6a-1323b8eae8cb": {
           "id": "7ffb600b-2e7a-4af0-8f6a-1323b8eae8cb",
-          "x": 101241,
-          "y": -6553,
+          "x": 92240,
+          "y": -790,
           "label": "https://www.youtube.com/watch?v=Il5DVZGVnD8",
           "link": "https://www.youtube.com/watch?v=Il5DVZGVnD8"
         },
         "734a9212-9da0-4001-abaf-b90b641eb5d6": {
           "id": "734a9212-9da0-4001-abaf-b90b641eb5d6",
-          "x": 101241,
-          "y": -6525,
+          "x": 92240,
+          "y": -762,
           "label": "https://www.youtube.com/watch?v=sLFH01qJT3k",
           "link": "https://www.youtube.com/watch?v=sLFH01qJT3k"
         },
         "0a53a6f9-0546-4959-b558-cc9cec8ef94f": {
           "id": "0a53a6f9-0546-4959-b558-cc9cec8ef94f",
-          "x": 101046,
-          "y": -6828,
+          "x": 92045,
+          "y": -1065,
           "label": "Electronic Music"
         },
         "2b2ee8f9-a4c6-451b-ab47-caf141dcc999": {
           "id": "2b2ee8f9-a4c6-451b-ab47-caf141dcc999",
-          "x": 101320,
-          "y": -6832,
+          "x": 92319,
+          "y": -1069,
           "label": "https://www.youtube.com/watch?v=Cd0aFcru9uc",
           "link": "https://www.youtube.com/watch?v=Cd0aFcru9uc"
         },
         "bf6ae909-3d40-477f-9a8b-4938e0eb58c5": {
           "id": "bf6ae909-3d40-477f-9a8b-4938e0eb58c5",
-          "x": 101356,
-          "y": -7066,
+          "x": 92355,
+          "y": -1303,
           "label": "https://www.youtube.com/results?search_query=hip+hop+dance+compilation",
           "link": "https://www.youtube.com/results?search_query=hip+hop+dance+compilation"
         },
         "f02c3f8d-a80b-4b61-8d42-bfbcef7e189a": {
           "id": "f02c3f8d-a80b-4b61-8d42-bfbcef7e189a",
-          "x": 101267,
-          "y": -7009,
+          "x": 92266,
+          "y": -1246,
           "label": "https://www.youtube.com/watch?v=hEsofW-h6zA",
           "link": "https://www.youtube.com/watch?v=hEsofW-h6zA"
         },
         "72ecbde1-9aef-479f-81c6-2dace2429355": {
           "id": "72ecbde1-9aef-479f-81c6-2dace2429355",
-          "x": 101266,
-          "y": -6984,
+          "x": 92265,
+          "y": -1221,
           "label": "https://www.youtube.com/watch?v=5dYPytfoBE4",
           "link": "https://www.youtube.com/watch?v=5dYPytfoBE4"
         },
         "0f2c1822-e00b-4f12-9c2f-ad64223370d5": {
           "id": "0f2c1822-e00b-4f12-9c2f-ad64223370d5",
-          "x": 101272,
-          "y": -6952,
+          "x": 92271,
+          "y": -1189,
           "label": "https://www.youtube.com/watch?v=ATQU_qJPVA4",
           "link": "https://www.youtube.com/watch?v=ATQU_qJPVA4"
         },
         "4d5d98e8-77c5-41cd-a20c-20efa833b401": {
           "id": "4d5d98e8-77c5-41cd-a20c-20efa833b401",
-          "x": 101262,
-          "y": -6918,
+          "x": 92261,
+          "y": -1155,
           "label": "https://www.youtube.com/watch?v=SXfgixkt4-Q",
           "link": "https://www.youtube.com/watch?v=SXfgixkt4-Q"
         },
         "c1f72eae-a076-4328-beaf-44ae8f76d26d": {
           "label": "Ancient\nTexts",
-          "x": 99462,
-          "y": 15531,
+          "x": 90596,
+          "y": 18192,
           "font": {
             "size": 72,
             "align": "left"
@@ -14523,146 +14537,146 @@ var schemeData =
         },
         "70128b34-3680-4d5b-acaf-5f16e6eea292": {
           "label": "Development",
-          "x": 99762,
-          "y": 15981,
+          "x": 90896,
+          "y": 18642,
           "id": "70128b34-3680-4d5b-acaf-5f16e6eea292"
         },
         "7deddbe7-55c8-4622-adc9-e99f28abdade": {
           "label": "2/1/2020",
-          "x": 99887,
-          "y": 15981,
+          "x": 91021,
+          "y": 18642,
           "id": "7deddbe7-55c8-4622-adc9-e99f28abdade"
         },
         "464da614-7386-4c52-b92d-d44f237b6143": {
           "label": "init",
-          "x": 100012,
-          "y": 15981,
+          "x": 91146,
+          "y": 18642,
           "id": "464da614-7386-4c52-b92d-d44f237b6143"
         },
         "39ed26de-7410-4c2c-8ac4-7e9ed0d58e3d": {
           "label": "Notes",
-          "x": 99746,
-          "y": 15010,
+          "x": 90880,
+          "y": 17671,
           "id": "39ed26de-7410-4c2c-8ac4-7e9ed0d58e3d"
         },
         "b61c5df8-143d-477a-8387-d3209cc0b625": {
           "label": "Dictionary of\nconcepts",
-          "x": 100014,
-          "y": 13849,
+          "x": 91148,
+          "y": 16510,
           "id": "b61c5df8-143d-477a-8387-d3209cc0b625"
         },
         "d44448ca-1c71-4dbf-b4e9-91ab4ec8820b": {
           "label": "Details, thoughts",
-          "x": 99922,
-          "y": 15007,
+          "x": 91056,
+          "y": 17668,
           "id": "d44448ca-1c71-4dbf-b4e9-91ab4ec8820b"
         },
         "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7": {
           "label": "Sections",
-          "x": 99886,
-          "y": 15381,
+          "x": 91020,
+          "y": 18042,
           "id": "5aef4105-692d-4ca5-b2b8-cffd8a3a33e7"
         },
         "028bc36e-d0f3-4ced-a472-104517b2472c": {
           "label": "Books",
-          "x": 99976,
-          "y": 15231,
+          "x": 91110,
+          "y": 17892,
           "id": "028bc36e-d0f3-4ced-a472-104517b2472c"
         },
         "f82c284a-12f9-4e3a-9b53-285298759609": {
           "label": "R&D institutions",
-          "x": 100006,
-          "y": 15256,
+          "x": 91140,
+          "y": 17917,
           "id": "f82c284a-12f9-4e3a-9b53-285298759609"
         },
         "0aa6a169-2db4-4aee-a10b-f8129b5836a8": {
           "label": "Sites",
-          "x": 99972,
-          "y": 15281,
+          "x": 91106,
+          "y": 17942,
           "id": "0aa6a169-2db4-4aee-a10b-f8129b5836a8"
         },
         "ad3a7172-06bb-43d2-a870-a1696004863f": {
           "label": "Magazines",
-          "x": 99991,
-          "y": 15306,
+          "x": 91125,
+          "y": 17967,
           "id": "ad3a7172-06bb-43d2-a870-a1696004863f"
         },
         "e36eb72e-5310-4d95-b374-48a594cfb3d3": {
           "label": "Articles",
-          "x": 99979,
-          "y": 15331,
+          "x": 91113,
+          "y": 17992,
           "id": "e36eb72e-5310-4d95-b374-48a594cfb3d3"
         },
         "9b25f258-93c7-42a3-84e5-ae096e3303f9": {
           "label": "Media content",
-          "x": 100001,
-          "y": 15356,
+          "x": 91135,
+          "y": 18017,
           "id": "9b25f258-93c7-42a3-84e5-ae096e3303f9"
         },
         "ed4f63d4-cacc-444a-bf5d-6382a8fe2857": {
           "label": "Misc. web links",
-          "x": 100004,
-          "y": 15381,
+          "x": 91138,
+          "y": 18042,
           "id": "ed4f63d4-cacc-444a-bf5d-6382a8fe2857"
         },
         "804aa857-0d54-43e5-bd92-902dfbd99e1a": {
           "label": "Projects",
-          "x": 99982,
-          "y": 15406,
+          "x": 91116,
+          "y": 18067,
           "id": "804aa857-0d54-43e5-bd92-902dfbd99e1a"
         },
         "3c044c4d-422e-4470-9c99-d805373b1083": {
           "label": "Tools",
-          "x": 99973,
-          "y": 15431,
+          "x": 91107,
+          "y": 18092,
           "id": "3c044c4d-422e-4470-9c99-d805373b1083"
         },
         "25eaebbe-2940-49da-9688-45fe442aa0f2": {
           "label": "Organizations",
-          "x": 100000,
-          "y": 15456,
+          "x": 91134,
+          "y": 18117,
           "id": "25eaebbe-2940-49da-9688-45fe442aa0f2"
         },
         "111512c2-134c-43f4-9e6b-3e41920ddae9": {
           "label": "Standarts",
-          "x": 99987,
-          "y": 15481,
+          "x": 91121,
+          "y": 18142,
           "id": "111512c2-134c-43f4-9e6b-3e41920ddae9"
         },
         "6852b19e-7fcd-4c97-8e30-6078325fe6d2": {
           "label": "Forums, Groups",
-          "x": 100008,
-          "y": 15506,
+          "x": 91142,
+          "y": 18167,
           "id": "6852b19e-7fcd-4c97-8e30-6078325fe6d2"
         },
         "ffdaf1b4-ffcb-4aa7-943d-e630e5b897bc": {
           "label": "Laws",
-          "x": 99973,
-          "y": 15531,
+          "x": 91107,
+          "y": 18192,
           "id": "ffdaf1b4-ffcb-4aa7-943d-e630e5b897bc"
         },
         "16714b0c-97a5-44bc-9308-64b8b2f91c86": {
           "label": "Adjacent Themes",
-          "x": 100012,
-          "y": 15556,
+          "x": 91146,
+          "y": 18217,
           "id": "16714b0c-97a5-44bc-9308-64b8b2f91c86"
         },
         "aa71f0e5-74d0-4510-a441-6fb7850e08dc": {
           "label": "Questions",
-          "x": 99752,
-          "y": 15681,
+          "x": 90886,
+          "y": 18342,
           "id": "aa71f0e5-74d0-4510-a441-6fb7850e08dc"
         },
         "d18202fb-fb0f-47d6-9a98-cc2f15c4dd52": {
           "label": "Problems",
-          "x": 99750,
-          "y": 15781,
+          "x": 90884,
+          "y": 18442,
           "id": "d18202fb-fb0f-47d6-9a98-cc2f15c4dd52"
         },
         "8bc75092-b403-4cc5-90a4-c6c1b72cba4c": {
           "label": "Goals",
-          "x": 99738,
-          "y": 15881,
+          "x": 90872,
+          "y": 18542,
           "id": "8bc75092-b403-4cc5-90a4-c6c1b72cba4c"
         },
         "490ad4b4-d896-4723-8178-d38f698051b6856173694936743": {
@@ -14695,49 +14709,49 @@ var schemeData =
           "shapeProperties": {},
           "label": "Ancient\nTexts",
           "id": "490ad4b4-d896-4723-8178-d38f698051b6856173694936743",
-          "x": 104347,
-          "y": 13890,
+          "x": 95481,
+          "y": 16551,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "0d0ed6d5-83f8-405b-b424-7dd3d3644f1b": {
           "id": "0d0ed6d5-83f8-405b-b424-7dd3d3644f1b",
-          "x": 100319,
-          "y": 13134,
+          "x": 91453,
+          "y": 15795,
           "label": "Pre-Columbian America"
         },
         "418eb2ab-80e9-4e14-bbed-622f1ec5e457": {
           "label": "Aztec",
           "link": "",
-          "x": 100554,
-          "y": 13095,
+          "x": 91688,
+          "y": 15756,
           "id": "418eb2ab-80e9-4e14-bbed-622f1ec5e457"
         },
         "45f7bb75-dc42-44a2-99df-93ac4004ac66": {
           "label": "Maya",
           "link": "",
-          "x": 100554,
-          "y": 13138,
+          "x": 91688,
+          "y": 15799,
           "id": "45f7bb75-dc42-44a2-99df-93ac4004ac66"
         },
         "7b7dafee-3419-4b24-a4d8-f2cffc0c28c9": {
           "label": "Inca",
           "link": "",
-          "x": 100550,
-          "y": 13177,
+          "x": 91684,
+          "y": 15838,
           "id": "7b7dafee-3419-4b24-a4d8-f2cffc0c28c9"
         },
         "0cea6cd3-9e6d-4cfc-8550-b68a6352a7fd": {
           "id": "0cea6cd3-9e6d-4cfc-8550-b68a6352a7fd",
-          "x": 100295,
-          "y": 13539,
+          "x": 91429,
+          "y": 16200,
           "label": "Greek and Latin"
         },
         "a3efbf7c-ed15-4567-bc95-6d7e35ac2a4c": {
           "id": "a3efbf7c-ed15-4567-bc95-6d7e35ac2a4c",
-          "x": 100277,
-          "y": 14079,
+          "x": 91411,
+          "y": 16740,
           "label": "Cuneiform",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Cuneiform",
@@ -14753,8 +14767,8 @@ var schemeData =
         },
         "46e13f7b-9617-425f-9801-280cf5a82efb": {
           "id": "46e13f7b-9617-425f-9801-280cf5a82efb",
-          "x": 100270,
-          "y": 14145,
+          "x": 91404,
+          "y": 16806,
           "label": "Aramaic",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Aramaic",
@@ -14770,8 +14784,8 @@ var schemeData =
         },
         "22e82ba8-3bab-49cd-a3cf-bfebc7da73bd": {
           "id": "22e82ba8-3bab-49cd-a3cf-bfebc7da73bd",
-          "x": 100268,
-          "y": 14209,
+          "x": 91402,
+          "y": 16870,
           "label": "Hebrew",
           "shape": "box",
           "link": "Ancient Hebrew writings",
@@ -14787,51 +14801,51 @@ var schemeData =
         },
         "10cd7bf5-e4c2-453f-9e2f-ee5d46b019ec": {
           "id": "10cd7bf5-e4c2-453f-9e2f-ee5d46b019ec",
-          "x": 100259,
-          "y": 14462,
+          "x": 91393,
+          "y": 17123,
           "label": "India"
         },
         "9742994a-2852-44ff-b31f-e0e0474c7010": {
           "id": "9742994a-2852-44ff-b31f-e0e0474c7010",
-          "x": 100262,
-          "y": 14560,
+          "x": 91396,
+          "y": 17221,
           "label": "China"
         },
         "6bea1672-da1d-45dc-af5f-eb4aaf192e9c": {
           "id": "6bea1672-da1d-45dc-af5f-eb4aaf192e9c",
-          "x": 100257,
-          "y": 14673,
+          "x": 91391,
+          "y": 17334,
           "label": "Else"
         },
         "3bab7962-0904-45b4-b11f-828ece86db3d": {
           "id": "3bab7962-0904-45b4-b11f-828ece86db3d",
-          "x": 100396,
-          "y": 14677,
+          "x": 91530,
+          "y": 17338,
           "label": "?"
         },
         "0fafbac5-d921-4060-91dd-95142320add6": {
           "id": "0fafbac5-d921-4060-91dd-95142320add6",
-          "x": 100533,
-          "y": 14677,
+          "x": 91667,
+          "y": 17338,
           "label": "Phoenician language"
         },
         "9b7aa249-d747-4b49-a84c-ecfea28c957c": {
           "id": "9b7aa249-d747-4b49-a84c-ecfea28c957c",
-          "x": 100271,
-          "y": 14330,
+          "x": 91405,
+          "y": 16991,
           "label": "Egyptian"
         },
         "b7986041-819e-44ff-83d6-44d33ecc7ad3": {
           "id": "b7986041-819e-44ff-83d6-44d33ecc7ad3",
-          "x": 100762,
-          "y": 13448,
+          "x": 91896,
+          "y": 16109,
           "label": "https://catalog.perseus.org/",
           "link": "https://catalog.perseus.org/"
         },
         "3b574531-321a-4e54-a7e9-21826d3a7546": {
           "id": "3b574531-321a-4e54-a7e9-21826d3a7546",
-          "x": 100522,
-          "y": 13542,
+          "x": 91656,
+          "y": 16203,
           "label": "The Perseus Catalog",
           "shape": "box",
           "link": "",
@@ -14847,27 +14861,27 @@ var schemeData =
         },
         "e229e21f-ddc5-4d6c-962a-40c3e696909f": {
           "id": "e229e21f-ddc5-4d6c-962a-40c3e696909f",
-          "x": 100785,
-          "y": 13492,
+          "x": 91919,
+          "y": 16153,
           "label": "https://catalog.perseus.org/browse",
           "link": "https://catalog.perseus.org/browse"
         },
         "eb3e15bb-5357-4e62-9b93-83a4dfe14ef7": {
           "id": "eb3e15bb-5357-4e62-9b93-83a4dfe14ef7",
-          "x": 100993,
-          "y": 13491,
+          "x": 92127,
+          "y": 16152,
           "label": "List of authors"
         },
         "3792fe16-81a0-493b-a1b4-6f569c033366": {
           "id": "3792fe16-81a0-493b-a1b4-6f569c033366",
-          "x": 100700,
-          "y": 13712,
+          "x": 91834,
+          "y": 16373,
           "label": "Notes"
         },
         "50fbfc20-4b6f-4bfb-8f3f-09296062605c": {
           "id": "50fbfc20-4b6f-4bfb-8f3f-09296062605c",
-          "x": 101056,
-          "y": 13560,
+          "x": 92190,
+          "y": 16221,
           "label": "On 2014 - 3,679 individual works (2,522 Greek and 1,247 Latin) from antiquity  to 600 CE",
           "shape": "box",
           "link": "",
@@ -14883,8 +14897,8 @@ var schemeData =
         },
         "f521f54f-bc84-45db-b181-b2064a90b522": {
           "id": "f521f54f-bc84-45db-b181-b2064a90b522",
-          "x": 100846,
-          "y": 13718,
+          "x": 91980,
+          "y": 16379,
           "label": "CTS/FRBR data model",
           "shape": "box",
           "link": "",
@@ -14900,42 +14914,42 @@ var schemeData =
         },
         "cd044486-9e18-407c-aa7e-fd1f8f6acfa2": {
           "id": "cd044486-9e18-407c-aa7e-fd1f8f6acfa2",
-          "x": 101558,
-          "y": 13558,
+          "x": 92692,
+          "y": 16219,
           "label": "https://dl.tufts.edu/pdfviewer/4t64h013m/zp38wq156",
           "link": "https://dl.tufts.edu/pdfviewer/4t64h013m/zp38wq156"
         },
         "576da681-2be5-47c0-b64d-ee7dc88bfde2": {
           "id": "576da681-2be5-47c0-b64d-ee7dc88bfde2",
-          "x": 100801,
-          "y": 13643,
+          "x": 91935,
+          "y": 16304,
           "label": "On 2020"
         },
         "e33c490a-3dd2-4503-bec6-9c5d23f16359": {
           "label": "Greek, Ancient (to 1453) 2908",
           "link": "",
-          "x": 100976,
-          "y": 13623,
+          "x": 92110,
+          "y": 16284,
           "id": "e33c490a-3dd2-4503-bec6-9c5d23f16359"
         },
         "c4bb85d6-8c39-47ce-98b8-0cf4f481b9bc": {
           "label": "Latin 1576",
           "link": "",
-          "x": 100914,
-          "y": 13647,
+          "x": 92048,
+          "y": 16308,
           "id": "c4bb85d6-8c39-47ce-98b8-0cf4f481b9bc"
         },
         "992c6a8a-0f3d-44d7-9496-fc9012808eee": {
           "label": "Arabic 131",
           "link": "",
-          "x": 100914,
-          "y": 13671,
+          "x": 92048,
+          "y": 16332,
           "id": "992c6a8a-0f3d-44d7-9496-fc9012808eee"
         },
         "69d7260b-3d91-4f9c-850e-70e57abc8111": {
           "id": "69d7260b-3d91-4f9c-850e-70e57abc8111",
-          "x": 100479,
-          "y": 14399,
+          "x": 91613,
+          "y": 17060,
           "label": "Ancient Egyptian literature",
           "link": "https://en.wikipedia.org/wiki/Ancient_Egyptian_literature",
           "shape": "box",
@@ -14951,8 +14965,8 @@ var schemeData =
         },
         "2c03c43c-db4c-460a-a8b3-f3cb05691892": {
           "id": "2c03c43c-db4c-460a-a8b3-f3cb05691892",
-          "x": 100147,
-          "y": 14963,
+          "x": 91281,
+          "y": 17624,
           "label": "Just collection of links and notes",
           "shape": "box",
           "link": "",
@@ -14968,26 +14982,26 @@ var schemeData =
         },
         "7586d17e-5b86-4f37-8007-b9da7ebfd087": {
           "id": "7586d17e-5b86-4f37-8007-b9da7ebfd087",
-          "x": 100378,
-          "y": 14951,
+          "x": 91512,
+          "y": 17612,
           "label": "Libraries"
         },
         "025b3eac-7fa2-4b9e-9403-da9940764731": {
           "id": "025b3eac-7fa2-4b9e-9403-da9940764731",
-          "x": 100378,
-          "y": 14979,
+          "x": 91512,
+          "y": 17640,
           "label": "Catalogs"
         },
         "a00fb79f-9961-4394-bea2-9ea53b8532fc": {
           "id": "a00fb79f-9961-4394-bea2-9ea53b8532fc",
-          "x": 100389,
-          "y": 15006,
+          "x": 91523,
+          "y": 17667,
           "label": "Bibliography"
         },
         "84151f85-b74c-471b-baec-458220c9740f": {
           "id": "84151f85-b74c-471b-baec-458220c9740f",
-          "x": 101009,
-          "y": 13720,
+          "x": 92143,
+          "y": 16381,
           "label": "FRBR",
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records",
@@ -15003,8 +15017,8 @@ var schemeData =
         },
         "f378b4d7-f1f7-40db-a06f-ad85ac2cb959": {
           "id": "f378b4d7-f1f7-40db-a06f-ad85ac2cb959",
-          "x": 100457,
-          "y": 14563,
+          "x": 91591,
+          "y": 17224,
           "label": "Chinese Text Project",
           "shape": "box",
           "link": "https://ctext.org/",
@@ -15020,8 +15034,8 @@ var schemeData =
         },
         "a1936ac9-3665-4aa3-87ad-130a5d2126ac": {
           "id": "a1936ac9-3665-4aa3-87ad-130a5d2126ac",
-          "x": 100230,
-          "y": 15062,
+          "x": 91364,
+          "y": 17723,
           "label": "Try to limit generic info. Accept only if specially convenient.",
           "shape": "box",
           "link": "",
@@ -15037,8 +15051,8 @@ var schemeData =
         },
         "c1deab58-8978-4f29-9fd1-7d84dd30134b": {
           "id": "c1deab58-8978-4f29-9fd1-7d84dd30134b",
-          "x": 100827,
-          "y": 13778,
+          "x": 91961,
+          "y": 16439,
           "label": "Search by date?",
           "shape": "box",
           "link": "",
@@ -15054,8 +15068,8 @@ var schemeData =
         },
         "7374cc13-59f9-4a2e-b159-b71d5adea576": {
           "id": "7374cc13-59f9-4a2e-b159-b71d5adea576",
-          "x": 100858,
-          "y": 13842,
+          "x": 91992,
+          "y": 16503,
           "label": "Semantics sources? RDF?",
           "shape": "box",
           "link": "",
@@ -15071,54 +15085,54 @@ var schemeData =
         },
         "6e8cbad5-e98a-406f-bfd0-9b9b67713917": {
           "id": "6e8cbad5-e98a-406f-bfd0-9b9b67713917",
-          "x": 100981,
-          "y": 13765,
+          "x": 92115,
+          "y": 16426,
           "label": "Years of author life?"
         },
         "1a90a3c7-1994-4b56-a654-6a5ce3019686": {
           "id": "1a90a3c7-1994-4b56-a654-6a5ce3019686",
-          "x": 100954,
-          "y": 13788,
+          "x": 92088,
+          "y": 16449,
           "label": "Work date?"
         },
         "0e9aef97-a163-4a59-8ed4-8d97252044ce": {
           "id": "0e9aef97-a163-4a59-8ed4-8d97252044ce",
-          "x": 100447,
-          "y": 14310,
+          "x": 91581,
+          "y": 16971,
           "label": "http://papyri.info",
           "link": "http://papyri.info"
         },
         "9b68e27a-a84e-495d-b581-bdf05557279f": {
           "id": "9b68e27a-a84e-495d-b581-bdf05557279f",
-          "x": 100646,
-          "y": 14282,
+          "x": 91780,
+          "y": 16943,
           "label": "http://papyri.info/search",
           "link": "http://papyri.info/search"
         },
         "eac31924-beba-4a0e-9623-2bb3b5ad995a": {
           "id": "eac31924-beba-4a0e-9623-2bb3b5ad995a",
-          "x": 100673,
-          "y": 14320,
+          "x": 91807,
+          "y": 16981,
           "label": "http://papyri.info/docs/resources",
           "link": "http://papyri.info/docs/resources"
         },
         "ee1af9a1-debc-44e5-9f30-3726e76e7899": {
           "id": "ee1af9a1-debc-44e5-9f30-3726e76e7899",
-          "x": 100975,
-          "y": 14321,
+          "x": 92109,
+          "y": 16982,
           "label": "Papyrological Tools, Resources and Organizations"
         },
         "f10868c7-2a0c-4dc5-a42b-a23143933a42": {
           "id": "f10868c7-2a0c-4dc5-a42b-a23143933a42",
-          "x": 100669,
-          "y": 14352,
+          "x": 91803,
+          "y": 17013,
           "label": "http://papyri.info/docs/checklist",
           "link": "http://papyri.info/docs/checklist"
         },
         "4767e8d1-f22f-49f3-94d5-49e683a8a4cd": {
           "id": "4767e8d1-f22f-49f3-94d5-49e683a8a4cd",
-          "x": 101070,
-          "y": 14352,
+          "x": 92204,
+          "y": 17013,
           "label": "Checklist of Editions of Greek, Latin, Demotic, and Coptic Papyri, Ostraca, and Tablets"
         },
         "b0ab9a5c-3969-4305-b107-d656ef662765147338": {
@@ -16849,6 +16863,5969 @@ var schemeData =
           "shape": "box",
           "link": "news2.html",
           "borderWidth": "0"
+        },
+        "ceff0d47-9aef-4aa2-ba61-1df29b1d9a02": {
+          "id": "ceff0d47-9aef-4aa2-ba61-1df29b1d9a02",
+          "x": 79999,
+          "y": 4627,
+          "label": "Михаил Матусовский"
+        },
+        "4665c9f0-5456-4db3-a7b9-ca1c1653d394": {
+          "label": "Василий Лебедев-Кумач",
+          "link": "",
+          "x": 80010,
+          "y": 4651,
+          "id": "4665c9f0-5456-4db3-a7b9-ca1c1653d394",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "2b234b35-e9f5-4963-a51a-070623d987cf": {
+          "label": "Николай Николаевич Добронравов",
+          "link": "",
+          "x": 80044,
+          "y": 4675,
+          "id": "2b234b35-e9f5-4963-a51a-070623d987cf",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "842f30dc-efa0-4c27-a4cb-893e928aa82f": {
+          "label": "Михаил Танич",
+          "link": "",
+          "x": 79977,
+          "y": 4699,
+          "id": "842f30dc-efa0-4c27-a4cb-893e928aa82f",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "6c1e97d8-0493-4bc7-9e08-244ea49d47bb": {
+          "label": "Леонид Дербенев",
+          "link": "",
+          "x": 79988,
+          "y": 4723,
+          "id": "6c1e97d8-0493-4bc7-9e08-244ea49d47bb",
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": "#2B7CE9"
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {}
+        },
+        "b36078ca-9e62-40f5-b8e0-ec994b8ef451": {
+          "id": "b36078ca-9e62-40f5-b8e0-ec994b8ef451",
+          "x": 79983,
+          "y": 4747,
+          "label": "Игорь Шаферан"
+        },
+        "73e0c065-0794-4edf-b844-a289790f6791": {
+          "id": "73e0c065-0794-4edf-b844-a289790f6791",
+          "x": 101934,
+          "y": -6940,
+          "label": "Отечественные"
+        },
+        "77dc5a2f-a507-4ed0-8452-c4200d8ea872": {
+          "id": "77dc5a2f-a507-4ed0-8452-c4200d8ea872",
+          "x": 102167,
+          "y": -9559,
+          "label": "Армен Джигарханян"
+        },
+        "791c4be5-6926-4247-b5ff-109ca6d892b6": {
+          "id": "791c4be5-6926-4247-b5ff-109ca6d892b6",
+          "x": 102159,
+          "y": -9509,
+          "label": "Лановой Василий",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "52f9b6f7-1695-4e91-9fbc-6c813cb266cd": {
+          "id": "52f9b6f7-1695-4e91-9fbc-6c813cb266cd",
+          "x": 102159,
+          "y": -9470,
+          "label": "Броневой Леонид",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "76f9eb3c-6fe2-4517-be7c-2288a3a9acff": {
+          "id": "76f9eb3c-6fe2-4517-be7c-2288a3a9acff",
+          "x": 102143,
+          "y": -9432,
+          "label": "Кваша Игорь",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "4060ee95-7613-411e-b2f0-4621bee4f65b": {
+          "id": "4060ee95-7613-411e-b2f0-4621bee4f65b",
+          "x": 102159,
+          "y": -9393,
+          "label": "Боярский Михаил",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "299504da-0d6a-4a5e-8238-e80a889f5a0e": {
+          "id": "299504da-0d6a-4a5e-8238-e80a889f5a0e",
+          "x": 102155,
+          "y": -9319,
+          "label": "Плятт Ростислав",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "c3505416-dfe9-4e6d-9474-d2bd39a95f98": {
+          "id": "c3505416-dfe9-4e6d-9474-d2bd39a95f98",
+          "x": 102160,
+          "y": -9285,
+          "label": "Кузнецов Алексей",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "e714daab-ab1f-46ac-a697-ea2af0cf963e": {
+          "id": "e714daab-ab1f-46ac-a697-ea2af0cf963e",
+          "x": 102163,
+          "y": -9253,
+          "label": "Людмила Гурченко"
+        },
+        "213ab181-d9e7-42c9-a77f-09def5a70305": {
+          "id": "213ab181-d9e7-42c9-a77f-09def5a70305",
+          "x": 102152,
+          "y": -9214,
+          "label": "Сергей Юрский"
+        },
+        "b54b1232-1651-4a01-8166-99b2d80cdd63": {
+          "id": "b54b1232-1651-4a01-8166-99b2d80cdd63",
+          "x": 102167,
+          "y": -9151,
+          "label": "Владимир Меньшов"
+        },
+        "8ed4e222-6da6-4d95-9cbc-580e41fd5d0a": {
+          "id": "8ed4e222-6da6-4d95-9cbc-580e41fd5d0a",
+          "x": 102151,
+          "y": -9114,
+          "label": "Мягков Андрей"
+        },
+        "df65b00f-e4cb-4914-9bd8-3e69d768dfe9": {
+          "id": "df65b00f-e4cb-4914-9bd8-3e69d768dfe9",
+          "x": 102160,
+          "y": -9085,
+          "label": "Фрейндлих Алиса"
+        },
+        "34bae777-c4b1-4bdd-adea-40b95e4f38fa": {
+          "id": "34bae777-c4b1-4bdd-adea-40b95e4f38fa",
+          "x": 102171,
+          "y": -9038,
+          "label": "Немоляева Светлана"
+        },
+        "42f64ea2-eaf7-46bd-a076-c9aa74071a7b": {
+          "id": "42f64ea2-eaf7-46bd-a076-c9aa74071a7b",
+          "x": 102164,
+          "y": -9004,
+          "label": "Басилашвили Олег"
+        },
+        "65c8e923-ca5d-49ab-ad2a-ad34dcf5fb95": {
+          "id": "65c8e923-ca5d-49ab-ad2a-ad34dcf5fb95",
+          "x": 102154,
+          "y": -8966,
+          "label": "Ахеджакова Лия"
+        },
+        "cd2aff54-bb6f-4fbb-a658-c7aee6c2388d": {
+          "id": "cd2aff54-bb6f-4fbb-a658-c7aee6c2388d",
+          "x": 102151,
+          "y": -8930,
+          "label": "Бурков Георгий"
+        },
+        "581654c6-bc44-4956-8dae-0ef9ad1556fd": {
+          "id": "581654c6-bc44-4956-8dae-0ef9ad1556fd",
+          "x": 102169,
+          "y": -8896,
+          "label": "Фатюшин Александр"
+        },
+        "05c824ad-5e94-4a5f-8201-619743ac4018": {
+          "id": "05c824ad-5e94-4a5f-8201-619743ac4018",
+          "x": 102154,
+          "y": -8861,
+          "label": "Рязанов Эльдар"
+        },
+        "b823bdb6-c7ad-4b73-ada1-beaad7314b53": {
+          "id": "b823bdb6-c7ad-4b73-ada1-beaad7314b53",
+          "x": 102150,
+          "y": -8827,
+          "label": "Алентова Вера"
+        },
+        "29676ef9-6a40-45e7-a618-fe507f65b570": {
+          "id": "29676ef9-6a40-45e7-a618-fe507f65b570",
+          "x": 102157,
+          "y": -8763,
+          "label": "Баталов Алексей"
+        },
+        "bd75ed2b-5c0c-4523-9a0e-bbea6cfde9aa": {
+          "id": "bd75ed2b-5c0c-4523-9a0e-bbea6cfde9aa",
+          "x": 102146,
+          "y": -8730,
+          "label": "Табаков Олег"
+        },
+        "b6436f9b-9e56-4dea-9d7b-acebbda5f296": {
+          "id": "b6436f9b-9e56-4dea-9d7b-acebbda5f296",
+          "x": 102156,
+          "y": -8694,
+          "label": "Басов Владимир"
+        },
+        "94d73f00-22f5-426a-b95a-d07647edec8a": {
+          "id": "94d73f00-22f5-426a-b95a-d07647edec8a",
+          "x": 102192,
+          "y": -8667,
+          "label": "Смоктуновский Иннокентий"
+        },
+        "5be51f43-04da-4fa5-9b6a-dc270f87629c": {
+          "id": "5be51f43-04da-4fa5-9b6a-dc270f87629c",
+          "x": 102169,
+          "y": -8633,
+          "label": "Румянцева Надежда"
+        },
+        "494ab655-9274-4d7a-ad6c-2557aa6aee49": {
+          "id": "494ab655-9274-4d7a-ad6c-2557aa6aee49",
+          "x": 102169,
+          "y": -8589,
+          "label": "Высоцкий Владимир"
+        },
+        "6c63b0d1-7a25-4521-b823-d07044160110": {
+          "id": "6c63b0d1-7a25-4521-b823-d07044160110",
+          "x": 102160,
+          "y": -8555,
+          "label": "Конкин Владимир"
+        },
+        "6bc6dcd2-59ec-4d20-9af2-27f3f4959012": {
+          "id": "6bc6dcd2-59ec-4d20-9af2-27f3f4959012",
+          "x": 102149,
+          "y": -8521,
+          "label": "Павлов Виктор"
+        },
+        "f057fcac-fbcf-46b9-829b-3c196a3032ed": {
+          "id": "f057fcac-fbcf-46b9-829b-3c196a3032ed",
+          "x": 102496,
+          "y": -8537,
+          "label": "студент \"профессор - лопух\""
+        },
+        "2770d9e1-fb60-416c-9d7b-d8185dd43769": {
+          "id": "2770d9e1-fb60-416c-9d7b-d8185dd43769",
+          "x": 102149,
+          "y": -8485,
+          "label": "Яковлев Юрий"
+        },
+        "c9c2c068-a907-4737-9a4e-3fc217f5b24a": {
+          "id": "c9c2c068-a907-4737-9a4e-3fc217f5b24a",
+          "x": 102158,
+          "y": -8453,
+          "label": "Куравлев Леонид"
+        },
+        "a52b967e-1c7e-4922-acf0-f7b138b67304": {
+          "id": "a52b967e-1c7e-4922-acf0-f7b138b67304",
+          "x": 102171,
+          "y": -8416,
+          "label": "Крачковская Наталья"
+        },
+        "d1709439-5508-4951-ae79-80dfd65db20c": {
+          "id": "d1709439-5508-4951-ae79-80dfd65db20c",
+          "x": 102164,
+          "y": -8377,
+          "label": "Крамаров Савелий"
+        },
+        "f24c9f5e-dcd4-4b71-8a97-8acbd976816f": {
+          "id": "f24c9f5e-dcd4-4b71-8a97-8acbd976816f",
+          "x": 102154,
+          "y": -8332,
+          "label": "Этуш Владимир"
+        },
+        "3477cbb6-25bc-41bd-8d06-3aa54d0f3c32": {
+          "id": "3477cbb6-25bc-41bd-8d06-3aa54d0f3c32",
+          "x": 102158,
+          "y": -8296,
+          "label": "Пуговкин Михаил"
+        },
+        "dfa9632b-3766-4da2-90c0-91372455e548": {
+          "id": "dfa9632b-3766-4da2-90c0-91372455e548",
+          "x": 102178,
+          "y": -8253,
+          "label": "Демьяненко Александр"
+        },
+        "f9d270c0-97ad-4a02-991e-dc74f4c74cdf": {
+          "id": "f9d270c0-97ad-4a02-991e-dc74f4c74cdf",
+          "x": 102423,
+          "y": -8269,
+          "label": "Шурик"
+        },
+        "cc6db21b-4c00-452f-9cc1-50536c8c8606": {
+          "id": "cc6db21b-4c00-452f-9cc1-50536c8c8606",
+          "x": 102165,
+          "y": -8225,
+          "label": "Селезнева Наталья"
+        },
+        "776d7ec7-0d57-4157-800b-41a36db92ffb": {
+          "id": "776d7ec7-0d57-4157-800b-41a36db92ffb",
+          "x": 102448,
+          "y": -8228,
+          "label": "Операция \"Ы\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "61b6d720-4ccd-45df-9a69-6a987f238ae5": {
+          "id": "61b6d720-4ccd-45df-9a69-6a987f238ae5",
+          "x": 102159,
+          "y": -8184,
+          "label": "Филиппов Сергей"
+        },
+        "857bb312-54e2-427d-b591-ff2ef0bbdc03": {
+          "id": "857bb312-54e2-427d-b591-ff2ef0bbdc03",
+          "x": 102552,
+          "y": -8192,
+          "label": "Ипполит Воробьянинов, во вторых 12 стульях"
+        },
+        "2f27b370-915e-40d1-827b-7ba4d5151dd7": {
+          "id": "2f27b370-915e-40d1-827b-7ba4d5151dd7",
+          "x": 102165,
+          "y": -8144,
+          "label": "Золотухин Валерий"
+        },
+        "78c5d601-972f-4fd9-9a20-401c71b3ed9f": {
+          "id": "78c5d601-972f-4fd9-9a20-401c71b3ed9f",
+          "x": 102155,
+          "y": -8109,
+          "label": "Варлей Наталья"
+        },
+        "897bbd00-c91b-4027-a2fb-9d6aa538daa3": {
+          "id": "897bbd00-c91b-4027-a2fb-9d6aa538daa3",
+          "x": 102149,
+          "y": -8075,
+          "label": "Никулин Юрий"
+        },
+        "b11291e0-b6c8-4757-b239-f58a91c96838": {
+          "id": "b11291e0-b6c8-4757-b239-f58a91c96838",
+          "x": 102150,
+          "y": -8045,
+          "label": "Вицин Георгий"
+        },
+        "2162e5e8-6b56-412e-a035-367f93e021d1": {
+          "id": "2162e5e8-6b56-412e-a035-367f93e021d1",
+          "x": 102161,
+          "y": -8017,
+          "label": "Моргунов Евгений"
+        },
+        "eef9d39a-1b5c-47b3-afbf-069e3af607de": {
+          "id": "eef9d39a-1b5c-47b3-afbf-069e3af607de",
+          "x": 102157,
+          "y": -7979,
+          "label": "Мкртчян Фрунзик"
+        },
+        "dfce57a2-f8bb-4e96-91b4-ce673ebf5a7e": {
+          "id": "dfce57a2-f8bb-4e96-91b4-ce673ebf5a7e",
+          "x": 102156,
+          "y": -7942,
+          "label": "Глузский Михаил"
+        },
+        "93fe7bce-0a4a-4d26-a16f-7a444b9e3732": {
+          "id": "93fe7bce-0a4a-4d26-a16f-7a444b9e3732",
+          "x": 102159,
+          "y": -7902,
+          "label": "Гребешкова Нина"
+        },
+        "fbc5c1c0-560f-4765-bb8f-7ac35447b46e": {
+          "id": "fbc5c1c0-560f-4765-bb8f-7ac35447b46e",
+          "x": 102155,
+          "y": -7867,
+          "label": "Милляр Георгий"
+        },
+        "026a3fc7-7f98-4d9c-b657-bff203edb92e": {
+          "id": "026a3fc7-7f98-4d9c-b657-bff203edb92e",
+          "x": 102161,
+          "y": -7827,
+          "label": "Геллер Эммануил"
+        },
+        "c91658cd-031c-463e-a0e3-d06cc729b143": {
+          "id": "c91658cd-031c-463e-a0e3-d06cc729b143",
+          "x": 102143,
+          "y": -7779,
+          "label": "Репнин Петр"
+        },
+        "83110a25-16d5-4b57-9b26-bf7c1b3a29b6": {
+          "id": "83110a25-16d5-4b57-9b26-bf7c1b3a29b6",
+          "x": 102163,
+          "y": -7741,
+          "label": "Раневская Фаина",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "230c32f9-7d85-4df7-8a01-4c14c0bc23bb": {
+          "id": "230c32f9-7d85-4df7-8a01-4c14c0bc23bb",
+          "x": 102148,
+          "y": -7701,
+          "label": "Авалиани Ной"
+        },
+        "4bc2fbad-eca6-4d74-9942-44d7d49b3b52": {
+          "id": "4bc2fbad-eca6-4d74-9942-44d7d49b3b52",
+          "x": 102499,
+          "y": -7718,
+          "label": "Тосты в Кавказской пленнице"
+        },
+        "6a3efcb0-ffc1-4227-ac7f-d3efc1b9e085": {
+          "id": "6a3efcb0-ffc1-4227-ac7f-d3efc1b9e085",
+          "x": 102160,
+          "y": -7647,
+          "label": "Смирнов Алексей"
+        },
+        "9287e632-54fe-42db-a13f-7f13d3ceb503": {
+          "id": "9287e632-54fe-42db-a13f-7f13d3ceb503",
+          "x": 102455,
+          "y": -7656,
+          "label": "\"Куда ставить?!\""
+        },
+        "900e8145-1bd4-427c-ad37-43b60c277615": {
+          "id": "900e8145-1bd4-427c-ad37-43b60c277615",
+          "x": 102156,
+          "y": -7608,
+          "label": "Басов Владимир"
+        },
+        "a75594ad-2b5a-41f9-928e-7bd3cc182fe1": {
+          "id": "a75594ad-2b5a-41f9-928e-7bd3cc182fe1",
+          "x": 102147,
+          "y": -7567,
+          "label": "Зеленая Рина"
+        },
+        "ad0c1b65-10ae-4c53-8451-20d34f4cd096": {
+          "id": "ad0c1b65-10ae-4c53-8451-20d34f4cd096",
+          "x": 102151,
+          "y": -7525,
+          "label": "Носик Валерий"
+        },
+        "e55a0b7c-e039-474c-8b0c-cd708abe27b3": {
+          "id": "e55a0b7c-e039-474c-8b0c-cd708abe27b3",
+          "x": 102157,
+          "y": -7488,
+          "label": "Миронов Андрей"
+        },
+        "d4e5b1ca-89e2-4917-bb4d-be9551f66bee": {
+          "id": "d4e5b1ca-89e2-4917-bb4d-be9551f66bee",
+          "x": 102163,
+          "y": -7450,
+          "label": "Папанов Анатолий"
+        },
+        "5b497d24-af92-4b17-9e84-624dfb1d3bcd": {
+          "id": "5b497d24-af92-4b17-9e84-624dfb1d3bcd",
+          "x": 102162,
+          "y": -7414,
+          "label": "Мордюкова Нонна"
+        },
+        "bcd089af-6b77-4906-b057-f58615bcb709": {
+          "id": "bcd089af-6b77-4906-b057-f58615bcb709",
+          "x": 102173,
+          "y": -7380,
+          "label": "Светличная Светлана"
+        },
+        "5d13f79e-768c-4171-9109-c315b578d4f1": {
+          "id": "5d13f79e-768c-4171-9109-c315b578d4f1",
+          "x": 102158,
+          "y": -7347,
+          "label": "Чекан Станислав"
+        },
+        "5bb3b614-cc21-45ce-9aef-fa257ae9b725": {
+          "id": "5bb3b614-cc21-45ce-9aef-fa257ae9b725",
+          "x": 102542,
+          "y": -7359,
+          "label": "милиционер-таксист, \"Бриллиантовая рука\""
+        },
+        "ab99fdfb-594b-4f6d-9713-1b855be42dd5": {
+          "id": "ab99fdfb-594b-4f6d-9713-1b855be42dd5",
+          "x": 102161,
+          "y": -7274,
+          "label": "Шпигель Григорий"
+        },
+        "b8b3971a-f05d-4e22-9029-357b092d4755": {
+          "id": "b8b3971a-f05d-4e22-9029-357b092d4755",
+          "x": 102523,
+          "y": -7278,
+          "label": "Контрабандист, \"Бриллиантовая рука\""
+        },
+        "41d903b1-b115-4b54-bcf2-3efc840ee711": {
+          "id": "41d903b1-b115-4b54-bcf2-3efc840ee711",
+          "x": 102161,
+          "y": -7230,
+          "label": "Каневский Леонид"
+        },
+        "8420f709-e1fc-4dbd-9a60-bc6f4ad37442": {
+          "id": "8420f709-e1fc-4dbd-9a60-bc6f4ad37442",
+          "x": 102485,
+          "y": -7236,
+          "label": "с усами, \"Следствие вели\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "b6d20d6e-cba7-4cec-9001-477acef84c37": {
+          "id": "b6d20d6e-cba7-4cec-9001-477acef84c37",
+          "x": 102152,
+          "y": -7186,
+          "label": "Ясулович Игорь"
+        },
+        "3efd556c-f607-4d47-9d8c-6cc458497f6f": {
+          "id": "3efd556c-f607-4d47-9d8c-6cc458497f6f",
+          "x": 102497,
+          "y": -7198,
+          "label": "ученый - \"Гостья из будущего\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "3e57fa2b-571d-4d7f-b772-b1298c28dbb1": {
+          "id": "3e57fa2b-571d-4d7f-b772-b1298c28dbb1",
+          "x": 102147,
+          "y": -7148,
+          "label": "Быков Леонид"
+        },
+        "a62f3a6d-bebd-4a2f-ac96-749d767126be": {
+          "id": "a62f3a6d-bebd-4a2f-ac96-749d767126be",
+          "x": 102182,
+          "y": -7107,
+          "label": "Толоконников Владимир"
+        },
+        "a63f0161-5831-4572-9b79-bf9517463e53": {
+          "id": "a63f0161-5831-4572-9b79-bf9517463e53",
+          "x": 102428,
+          "y": -7116,
+          "label": "Шариков"
+        },
+        "e991d575-c053-4ff0-9ae7-65c8a9e67fde": {
+          "id": "e991d575-c053-4ff0-9ae7-65c8a9e67fde",
+          "x": 102157,
+          "y": -7070,
+          "label": "Плотников Борис"
+        },
+        "517c8c7c-b729-4d99-9103-71d505228d3d": {
+          "id": "517c8c7c-b729-4d99-9103-71d505228d3d",
+          "x": 102438,
+          "y": -7080,
+          "label": "Борменталь"
+        },
+        "a760b8e6-e84f-4757-8035-b2426a08ef7b": {
+          "id": "a760b8e6-e84f-4757-8035-b2426a08ef7b",
+          "x": 102166,
+          "y": -6827,
+          "label": "Евстигнеев Евгений"
+        },
+        "5ed62783-79e2-4d7b-8f2f-eac7a8539d45": {
+          "id": "5ed62783-79e2-4d7b-8f2f-eac7a8539d45",
+          "x": 102145,
+          "y": -7038,
+          "label": "Ткачук Роман"
+        },
+        "3f74127b-70ef-4e2e-81c9-37f8129c27ca": {
+          "id": "3f74127b-70ef-4e2e-81c9-37f8129c27ca",
+          "x": 102501,
+          "y": -7041,
+          "label": "Рыжий командир в \"Бумбараш\""
+        },
+        "97a7d3ac-f134-45e1-be5c-13a2724efd8f": {
+          "id": "97a7d3ac-f134-45e1-be5c-13a2724efd8f",
+          "x": 102152,
+          "y": -7006,
+          "label": "Кузнецов Юрий"
+        },
+        "c9a42d6d-7e54-4101-be74-3dcfcb875752": {
+          "id": "c9a42d6d-7e54-4101-be74-3dcfcb875752",
+          "x": 102534,
+          "y": -7004,
+          "label": "начальник из \"Улицы разбитых фонарей\""
+        },
+        "12071832-5f4b-45f0-9b8c-8da69de0c2d4": {
+          "id": "12071832-5f4b-45f0-9b8c-8da69de0c2d4",
+          "x": 102148,
+          "y": -6975,
+          "label": "Карцев Роман"
+        },
+        "28467475-a6cd-4a17-b5b0-aeb9e15e1af0": {
+          "id": "28467475-a6cd-4a17-b5b0-aeb9e15e1af0",
+          "x": 102169,
+          "y": -6934,
+          "label": "Анатолий Сливников"
+        },
+        "e5b0ab93-cf87-4a7c-8ebb-233a7b695842": {
+          "id": "e5b0ab93-cf87-4a7c-8ebb-233a7b695842",
+          "x": 102502,
+          "y": -6940,
+          "label": "пожарный в \"Собачьем сердце\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "3ff2755a-b87e-498d-b2bf-3a949a79f738": {
+          "id": "3ff2755a-b87e-498d-b2bf-3a949a79f738",
+          "x": 102157,
+          "y": -6892,
+          "label": "Гринько Николай"
+        },
+        "a7932c6d-4b9a-4041-a8dc-baf9df9945e8": {
+          "id": "a7932c6d-4b9a-4041-a8dc-baf9df9945e8",
+          "x": 102436,
+          "y": -6902,
+          "label": "папа Карло"
+        },
+        "d986a168-5712-49e8-bb60-3b372be3747f": {
+          "id": "d986a168-5712-49e8-bb60-3b372be3747f",
+          "x": 102152,
+          "y": -6860,
+          "label": "Санаева Елена"
+        },
+        "b2b1bed4-ff0a-4015-8e3b-180f01ff8cee": {
+          "id": "b2b1bed4-ff0a-4015-8e3b-180f01ff8cee",
+          "x": 102436,
+          "y": -6870,
+          "label": "лиса Алиса"
+        },
+        "b369d6f6-ec91-414b-92be-1810dc323a54": {
+          "id": "b369d6f6-ec91-414b-92be-1810dc323a54",
+          "x": 102143,
+          "y": -6798,
+          "label": "Быков Ролан"
+        },
+        "99965935-5927-4139-bbb3-33fd0e8483e4": {
+          "id": "99965935-5927-4139-bbb3-33fd0e8483e4",
+          "x": 102164,
+          "y": -6763,
+          "label": "Катин-Ярцев Юрий"
+        },
+        "dd6bae9f-793b-479b-90d0-75e1dde16561": {
+          "id": "dd6bae9f-793b-479b-90d0-75e1dde16561",
+          "x": 102471,
+          "y": -6767,
+          "label": "Джузеппе - Сизый нос"
+        },
+        "5b809b37-f569-4264-b27e-1582115e05ec": {
+          "id": "5b809b37-f569-4264-b27e-1582115e05ec",
+          "x": 102154,
+          "y": -6717,
+          "label": "Цуладзе Баадур",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "5b2f4ba7-64e9-40d6-8e6c-9d24f3c95b2b": {
+          "id": "5b2f4ba7-64e9-40d6-8e6c-9d24f3c95b2b",
+          "x": 102464,
+          "y": -6718,
+          "label": "повар из \"Буратино\""
+        },
+        "04a0a7eb-2550-4d76-9635-c33f28351280": {
+          "id": "04a0a7eb-2550-4d76-9635-c33f28351280",
+          "x": 102160,
+          "y": -6681,
+          "label": "Муравьева Ирина"
+        },
+        "7e8b2d47-e6e0-4d10-b02c-1f50c5e0f8ca": {
+          "id": "7e8b2d47-e6e0-4d10-b02c-1f50c5e0f8ca",
+          "x": 102164,
+          "y": -6633,
+          "label": "Васильева Татьяна"
+        },
+        "5e255a2d-0459-47c3-9742-e4229d22043c": {
+          "id": "5e255a2d-0459-47c3-9742-e4229d22043c",
+          "x": 102165,
+          "y": -6601,
+          "label": "Абдулов Александр"
+        },
+        "6152fd5e-f314-45c8-906c-ab4005d495a9": {
+          "id": "6152fd5e-f314-45c8-906c-ab4005d495a9",
+          "x": 102160,
+          "y": -6571,
+          "label": "Кокшенов Михаил"
+        },
+        "ae978692-1a38-4909-8d45-a72a16758c7e": {
+          "id": "ae978692-1a38-4909-8d45-a72a16758c7e",
+          "x": 102165,
+          "y": -6532,
+          "label": "Удовиченко Лариса"
+        },
+        "ab841037-1051-4e04-b21e-70f868623abf": {
+          "id": "ab841037-1051-4e04-b21e-70f868623abf",
+          "x": 102455,
+          "y": -6535,
+          "label": "\"Собака на сене\""
+        },
+        "26278965-fbdf-4cf1-b9a7-f65ca5e770b9": {
+          "id": "26278965-fbdf-4cf1-b9a7-f65ca5e770b9",
+          "x": 102161,
+          "y": -6489,
+          "label": "Иванова Людмила"
+        },
+        "0ae93cfd-7bec-49b4-b3db-7ed23e87d0f6": {
+          "id": "0ae93cfd-7bec-49b4-b3db-7ed23e87d0f6",
+          "x": 102622,
+          "y": -6491,
+          "label": "Клавдия Матвеевна Степанкова в \"Самой обаятельной...\", (билеты)",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "d6f55f02-43c9-4583-b21b-bec2829eb4fa": {
+          "id": "d6f55f02-43c9-4583-b21b-bec2829eb4fa",
+          "x": 102156,
+          "y": -6449,
+          "label": "Носик Владимир"
+        },
+        "d28505e9-d122-4754-b7e6-bc018bd53609": {
+          "id": "d28505e9-d122-4754-b7e6-bc018bd53609",
+          "x": 102533,
+          "y": -6455,
+          "label": "другой Носик. Из \"Самой обаятельной...\""
+        },
+        "cdf20ae8-b5b5-468d-9b51-464f02a83178": {
+          "id": "cdf20ae8-b5b5-468d-9b51-464f02a83178",
+          "x": 102149,
+          "y": -6417,
+          "label": "Перфилов Лев"
+        },
+        "5eb114e5-e3fc-46c2-8dad-c5555a468365": {
+          "id": "5eb114e5-e3fc-46c2-8dad-c5555a468365",
+          "x": 102579,
+          "y": -6415,
+          "label": "\"Место встречи изменить нельзя\". В очках и тюбетейке"
+        },
+        "1a7f60de-f228-4c7a-b716-f267d618933e": {
+          "id": "1a7f60de-f228-4c7a-b716-f267d618933e",
+          "x": 102153,
+          "y": -6371,
+          "label": "Ильичев Виктор"
+        },
+        "c9112efd-5bbf-4cbf-9b3b-89de7cc318d8": {
+          "id": "c9112efd-5bbf-4cbf-9b3b-89de7cc318d8",
+          "x": 102465,
+          "y": -6372,
+          "label": "кудрявый из \"Гений\""
+        },
+        "62039472-4e19-41ef-9d15-9becae890c65": {
+          "id": "62039472-4e19-41ef-9d15-9becae890c65",
+          "x": 102163,
+          "y": -6331,
+          "label": "Симонова Евгения"
+        },
+        "395ee108-1f3e-4f77-b29e-4f1544d6c356": {
+          "id": "395ee108-1f3e-4f77-b29e-4f1544d6c356",
+          "x": 102506,
+          "y": -6336,
+          "label": "принцесса \"Обыкновенное чудо\""
+        },
+        "a2001ec5-be55-4e04-a3a4-1fed41873183": {
+          "id": "a2001ec5-be55-4e04-a3a4-1fed41873183",
+          "x": 102149,
+          "y": -6287,
+          "label": "Маслова Нина"
+        },
+        "1c29d6f2-406a-4110-9518-d7408b640b86": {
+          "id": "1c29d6f2-406a-4110-9518-d7408b640b86",
+          "x": 102486,
+          "y": -6288,
+          "label": "Афоня менял ей раковину"
+        },
+        "e6d09131-c42d-4292-a8d4-1083706fea2f": {
+          "id": "e6d09131-c42d-4292-a8d4-1083706fea2f",
+          "x": 102169,
+          "y": -6255,
+          "label": "Брондуков Борислав"
+        },
+        "2ad7282e-0c42-451e-a4d2-62aeb8419a59": {
+          "id": "2ad7282e-0c42-451e-a4d2-62aeb8419a59",
+          "x": 102164,
+          "y": -6207,
+          "label": "Талызина Валерия"
+        },
+        "60c0cd09-3923-464c-ae83-1b2222d9f3bd": {
+          "id": "60c0cd09-3923-464c-ae83-1b2222d9f3bd",
+          "x": 102474,
+          "y": -6207,
+          "label": "мастер ЖЭК в \"Афоне\""
+        },
+        "c5864e89-58eb-412e-af9d-2c27188ad9ce": {
+          "id": "c5864e89-58eb-412e-af9d-2c27188ad9ce",
+          "x": 102165,
+          "y": -6166,
+          "label": "Парфенов Николай"
+        },
+        "5b0b8fc3-0e2f-4014-ac1d-a2613059c880": {
+          "id": "5b0b8fc3-0e2f-4014-ac1d-a2613059c880",
+          "x": 102507,
+          "y": -6174,
+          "label": "председатель месткома в Афоне"
+        },
+        "9582b5af-ba55-454d-9e84-871e9481f6dd": {
+          "id": "9582b5af-ba55-454d-9e84-871e9481f6dd",
+          "x": 102157,
+          "y": -6131,
+          "label": "Ронинсон Готлиб"
+        },
+        "d03ba10a-f756-4bfa-9130-ca78d38c833b": {
+          "id": "d03ba10a-f756-4bfa-9130-ca78d38c833b",
+          "x": 102469,
+          "y": -6136,
+          "label": "астроном из \"Афони\""
+        },
+        "ece76b44-7ba9-410d-a521-56ec1b84143b": {
+          "id": "ece76b44-7ba9-410d-a521-56ec1b84143b",
+          "x": 102152,
+          "y": -6096,
+          "label": "Светин Михаил"
+        },
+        "9be81562-2c37-4116-b94e-7b1beb0af0cb": {
+          "id": "9be81562-2c37-4116-b94e-7b1beb0af0cb",
+          "x": 102163,
+          "y": -6064,
+          "label": "Брыльска Барбара",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "c829c4ca-e77b-4292-90e1-0300d13d3f11": {
+          "id": "c829c4ca-e77b-4292-90e1-0300d13d3f11",
+          "x": 102172,
+          "y": -6023,
+          "label": "Белявский Александр"
+        },
+        "22c54e07-11df-4cda-aef1-cdceda0edb59": {
+          "id": "22c54e07-11df-4cda-aef1-cdceda0edb59",
+          "x": 102531,
+          "y": -6032,
+          "label": "Фокс в \"Место встречи изменить нельзя\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "ddf959f1-d577-454d-a691-de5282b4b9f0": {
+          "id": "ddf959f1-d577-454d-a691-de5282b4b9f0",
+          "x": 102155,
+          "y": -5986,
+          "label": "Ульянов Михаил"
+        },
+        "cb14170b-e360-4547-8a00-d5e3278e31fa": {
+          "id": "cb14170b-e360-4547-8a00-d5e3278e31fa",
+          "x": 102167,
+          "y": -5948,
+          "label": "Невинный Вячеслав"
+        },
+        "18a21dfe-a022-4ecd-abdd-d9632d18553c": {
+          "id": "18a21dfe-a022-4ecd-abdd-d9632d18553c",
+          "x": 102135,
+          "y": -5916,
+          "label": "Даль Олег"
+        },
+        "e31a0de7-0deb-4947-b04f-cae4b3d91cf6": {
+          "id": "e31a0de7-0deb-4947-b04f-cae4b3d91cf6",
+          "x": 102165,
+          "y": -5883,
+          "label": "Крючкова Светлана"
+        },
+        "f0064ede-05cd-474c-a334-ae51a042f625": {
+          "id": "f0064ede-05cd-474c-a334-ae51a042f625",
+          "x": 102158,
+          "y": -5847,
+          "label": "Обухов Анатолий"
+        },
+        "74c0a29c-11f9-4a40-b55c-ec3cde267935": {
+          "id": "74c0a29c-11f9-4a40-b55c-ec3cde267935",
+          "x": 102520,
+          "y": -5852,
+          "label": "среди сирот в \"12 стульев\", кудрявый"
+        },
+        "3b0bd358-b1fb-4d1a-9bcc-f4b08c82f0ec": {
+          "id": "3b0bd358-b1fb-4d1a-9bcc-f4b08c82f0ec",
+          "x": 102165,
+          "y": -5802,
+          "label": "Любшин Станислав"
+        },
+        "770cea25-2389-4aa5-9fa6-f995cab90f6a": {
+          "id": "770cea25-2389-4aa5-9fa6-f995cab90f6a",
+          "x": 102482,
+          "y": -5805,
+          "label": "инженер из \"Кин-дза-дза\""
+        },
+        "37a56d25-7a82-4d95-8d49-65f6aa253c17": {
+          "id": "37a56d25-7a82-4d95-8d49-65f6aa253c17",
+          "x": 102150,
+          "y": -5769,
+          "label": "Машная Ольга"
+        },
+        "90dcb784-680d-4d27-9a01-b34c4176b2ac": {
+          "id": "90dcb784-680d-4d27-9a01-b34c4176b2ac",
+          "x": 102530,
+          "y": -5776,
+          "label": "помощница Абрадокса из \"Кин-дза-дза\""
+        },
+        "a9d70f46-a294-47e4-9571-e92683ce73aa": {
+          "id": "a9d70f46-a294-47e4-9571-e92683ce73aa",
+          "x": 102153,
+          "y": -5723,
+          "label": "Букин Валентин"
+        },
+        "d1ce3ebe-e2cd-4a2b-b28e-4f2177d0ba52": {
+          "id": "d1ce3ebe-e2cd-4a2b-b28e-4f2177d0ba52",
+          "x": 102526,
+          "y": -5732,
+          "label": "усатый эцилоп с лазером на пепелаце"
+        },
+        "d5501c5c-6acf-4db7-ab4f-06138978c5a3": {
+          "id": "d5501c5c-6acf-4db7-ab4f-06138978c5a3",
+          "x": 102165,
+          "y": -5677,
+          "label": "Федоров Владимир"
+        },
+        "da216dc1-92af-45e4-a6f4-fb5b9fbf08b9": {
+          "id": "da216dc1-92af-45e4-a6f4-fb5b9fbf08b9",
+          "x": 102514,
+          "y": -5680,
+          "label": "с черной бородой, \"желтые штаны\"",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "37dd14ce-bae9-46b0-b0e5-3e1573937382": {
+          "id": "37dd14ce-bae9-46b0-b0e5-3e1573937382",
+          "x": 102157,
+          "y": -5636,
+          "label": "Данелия Георгий"
+        },
+        "ffe7d0d1-3094-4c7f-a36f-6842d44fbda7": {
+          "id": "ffe7d0d1-3094-4c7f-a36f-6842d44fbda7",
+          "x": 102158,
+          "y": -5600,
+          "label": "Шукшин Василий"
+        },
+        "d62f762e-91f6-41c3-9144-e5c5babd4dc6": {
+          "id": "d62f762e-91f6-41c3-9144-e5c5babd4dc6",
+          "x": 102161,
+          "y": -5562,
+          "label": "Тихонов Вячеслав"
+        },
+        "108768d7-7f55-445a-bd07-336a0cf8bd40": {
+          "id": "108768d7-7f55-445a-bd07-336a0cf8bd40",
+          "x": 102160,
+          "y": -5527,
+          "label": "Бондарчук Сергей"
+        },
+        "8b2ec241-906f-4907-93e3-5a9a9e1180a9": {
+          "id": "8b2ec241-906f-4907-93e3-5a9a9e1180a9",
+          "x": 102157,
+          "y": -5488,
+          "label": "Губенко Николай"
+        },
+        "3dfc2a24-721f-4e2d-a119-42f2b5bc5c66": {
+          "id": "3dfc2a24-721f-4e2d-a119-42f2b5bc5c66",
+          "x": 102192,
+          "y": -5455,
+          "label": "Федосеева-Шукшина Лидия"
+        },
+        "ddc2a77c-77bd-4ede-9546-f8cc750558a7": {
+          "id": "ddc2a77c-77bd-4ede-9546-f8cc750558a7",
+          "x": 102164,
+          "y": -5425,
+          "label": "Гундарева Наталья"
+        },
+        "d4e10679-fb19-4d01-ba66-316393ba69b4": {
+          "id": "d4e10679-fb19-4d01-ba66-316393ba69b4",
+          "x": 102175,
+          "y": -5391,
+          "label": "Скоробогатов Николай"
+        },
+        "0e966b58-f91b-4f1f-bccf-82bd5c7dd3a0": {
+          "id": "0e966b58-f91b-4f1f-bccf-82bd5c7dd3a0",
+          "x": 102530,
+          "y": -5394,
+          "label": "дворник Тихон из \"12 стульев\" Захарова",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "7d9ea721-bdf0-4977-bdda-4d937b8b2dc0": {
+          "id": "7d9ea721-bdf0-4977-bdda-4d937b8b2dc0",
+          "x": 102157,
+          "y": -5351,
+          "label": "Пельцер Татьяна"
+        },
+        "d76eb903-820d-47e2-a662-94091c5b16ff": {
+          "id": "d76eb903-820d-47e2-a662-94091c5b16ff",
+          "x": 102157,
+          "y": -5318,
+          "label": "Полищук Любовь"
+        },
+        "26174ef1-3fd7-4905-9c8b-6162a434365a": {
+          "id": "26174ef1-3fd7-4905-9c8b-6162a434365a",
+          "x": 102160,
+          "y": -5267,
+          "label": "Пятков Александр"
+        },
+        "0dcd77d3-d7da-4e56-a2a2-e99820b172d8": {
+          "id": "0dcd77d3-d7da-4e56-a2a2-e99820b172d8",
+          "x": 102599,
+          "y": -5275,
+          "label": "мордатых мужиков играл, особенно в детском кино, блондин"
+        },
+        "aa01b152-954a-47fe-8f5d-dc50d9c28328": {
+          "id": "aa01b152-954a-47fe-8f5d-dc50d9c28328",
+          "x": 102147,
+          "y": -5221,
+          "label": "Прудкин Марк"
+        },
+        "c8a1c294-ba18-46ec-8b31-aa5559fd424a": {
+          "id": "c8a1c294-ba18-46ec-8b31-aa5559fd424a",
+          "x": 102529,
+          "y": -5231,
+          "label": "Коробейников из \"12 стульев\" Захарова",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "15991f56-4f0d-4cbb-98dc-60104edfe922": {
+          "id": "15991f56-4f0d-4cbb-98dc-60104edfe922",
+          "x": 102151,
+          "y": -5181,
+          "label": "Гошев Дмитрий"
+        },
+        "5928f6f9-e5e1-46cf-a0b3-c9700ed10f00": {
+          "id": "5928f6f9-e5e1-46cf-a0b3-c9700ed10f00",
+          "x": 102436,
+          "y": -5179,
+          "label": "Кислярский"
+        },
+        "aeaa5464-0bfe-420b-a756-e0379b7699a9": {
+          "id": "aeaa5464-0bfe-420b-a756-e0379b7699a9",
+          "x": 102161,
+          "y": -5123,
+          "label": "Проскурин Виктор"
+        },
+        "78f66c3e-9cf1-4117-a034-54095d0698b5": {
+          "id": "78f66c3e-9cf1-4117-a034-54095d0698b5",
+          "x": 102531,
+          "y": -5130,
+          "label": "Жестокий романс, купец светловолосый"
+        },
+        "6d82fa59-16b6-40c2-9dee-ec7492bda610": {
+          "id": "6d82fa59-16b6-40c2-9dee-ec7492bda610",
+          "x": 102166,
+          "y": -5085,
+          "label": "Ларионов Всеволод"
+        },
+        "fe8d7d0e-ba46-4d9e-b0d8-6b3b9446b972": {
+          "id": "fe8d7d0e-ba46-4d9e-b0d8-6b3b9446b972",
+          "x": 102520,
+          "y": -5085,
+          "label": "Изнуренков из \"12 стульев\" Захарова",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "0d5a3ea0-c3c0-47b5-b784-9578d13710c4": {
+          "id": "0d5a3ea0-c3c0-47b5-b784-9578d13710c4",
+          "x": 102169,
+          "y": -5050,
+          "label": "Караченцев Николай"
+        },
+        "7a1d0259-0394-4a05-91b9-8709ef2ba38f": {
+          "id": "7a1d0259-0394-4a05-91b9-8709ef2ba38f",
+          "x": 102148,
+          "y": -5011,
+          "label": "Гердт Зиновий"
+        },
+        "5c2e9166-f3a0-451a-83f9-29fbc50656a1": {
+          "id": "5c2e9166-f3a0-451a-83f9-29fbc50656a1",
+          "x": 102164,
+          "y": -4971,
+          "label": "Гомиашвили Арчил"
+        },
+        "c735e16f-0071-470b-a50a-456b86bab0e6": {
+          "id": "c735e16f-0071-470b-a50a-456b86bab0e6",
+          "x": 102154,
+          "y": -4926,
+          "label": "Варлей Наталья"
+        },
+        "8022a647-d55a-4b02-ab26-da90dd6b2612": {
+          "id": "8022a647-d55a-4b02-ab26-da90dd6b2612",
+          "x": 102157,
+          "y": -4889,
+          "label": "Филиппов Роман"
+        },
+        "2563af08-1a17-494f-ab8c-2f35949e345e": {
+          "id": "2563af08-1a17-494f-ab8c-2f35949e345e",
+          "x": 102532,
+          "y": -4890,
+          "label": "Ляпис-Трубецкой из \"12 стульев\" Гайдая",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "8c3e0631-b920-4b76-9bbb-d44d2dd23465": {
+          "id": "8c3e0631-b920-4b76-9bbb-d44d2dd23465",
+          "x": 102142,
+          "y": -4853,
+          "label": "Гарин Эраст"
+        },
+        "6d63cf4c-de4b-47ee-bf1c-9f06512c9902": {
+          "id": "6d63cf4c-de4b-47ee-bf1c-9f06512c9902",
+          "x": 102177,
+          "y": -4817,
+          "label": "Садальский Станислав"
+        },
+        "241be8ae-5546-4f1e-b8b5-3ee07453791c": {
+          "id": "241be8ae-5546-4f1e-b8b5-3ee07453791c",
+          "x": 102173,
+          "y": -4786,
+          "label": "Андрейченко Наталья"
+        },
+        "7ae15ede-b006-4425-b615-6836fba59118": {
+          "id": "7ae15ede-b006-4425-b615-6836fba59118",
+          "x": 102162,
+          "y": -4749,
+          "label": "Филиозов Альберт"
+        },
+        "390720c1-51c6-46b9-8773-b355044d4b06": {
+          "id": "390720c1-51c6-46b9-8773-b355044d4b06",
+          "x": 102474,
+          "y": -4752,
+          "label": "Отец из Мэри Поппинс"
+        },
+        "e0537c91-b6ff-476e-9a50-4bdf6afdf1ea": {
+          "id": "e0537c91-b6ff-476e-9a50-4bdf6afdf1ea",
+          "x": 102156,
+          "y": -4707,
+          "label": "Ульфсак Лембит"
+        },
+        "cbc54534-ecd2-4006-afd8-e992a26aed1d": {
+          "id": "cbc54534-ecd2-4006-afd8-e992a26aed1d",
+          "x": 102534,
+          "y": -4707,
+          "label": "Мистер Эй из Мэри Поппинс, и Паганель"
+        },
+        "2b86876a-7135-4de9-abf7-11a071896800": {
+          "id": "2b86876a-7135-4de9-abf7-11a071896800",
+          "x": 102145,
+          "y": -4662,
+          "label": "Рутберг Илья"
+        },
+        "a38bbcab-6152-400c-9cad-a723376f7f37": {
+          "id": "a38bbcab-6152-400c-9cad-a723376f7f37",
+          "x": 102158,
+          "y": -4618,
+          "label": "Махмутов Виктор"
+        },
+        "922dc659-e01f-4ea7-933c-d2378caccc51": {
+          "id": "922dc659-e01f-4ea7-933c-d2378caccc51",
+          "x": 102528,
+          "y": -4626,
+          "label": "художник-любитель в \"Формуле любви\""
+        },
+        "15522b54-f2e8-49c4-93a5-2bf41c119e4a": {
+          "id": "15522b54-f2e8-49c4-93a5-2bf41c119e4a",
+          "x": 102164,
+          "y": -4578,
+          "label": "Басилашвили Олег"
+        },
+        "046bc232-62c4-491e-9dbd-70cb43a95a44": {
+          "id": "046bc232-62c4-491e-9dbd-70cb43a95a44",
+          "x": 102178,
+          "y": -4535,
+          "label": "Филиппенко Александр"
+        },
+        "872b51e0-20f7-49f4-a14d-eceac618c20e": {
+          "id": "872b51e0-20f7-49f4-a14d-eceac618c20e",
+          "x": 102163,
+          "y": -4499,
+          "label": "Головин Владимир"
+        },
+        "76295dce-4d49-4a9e-85db-2c034ace79ed": {
+          "id": "76295dce-4d49-4a9e-85db-2c034ace79ed",
+          "x": 102553,
+          "y": -4504,
+          "label": "Дежа Вю - главный гангстер Микита Ничипорук",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "4fed6ef0-02f2-4050-91a2-7651dc1b1d77": {
+          "id": "4fed6ef0-02f2-4050-91a2-7651dc1b1d77",
+          "x": 102160,
+          "y": -4457,
+          "label": "Булдаков Алексей"
+        },
+        "5e56e49f-495c-4c17-994f-0a6f25080f9f": {
+          "id": "5e56e49f-495c-4c17-994f-0a6f25080f9f",
+          "x": 102150,
+          "y": -4423,
+          "label": "Краско Андрей"
+        },
+        "d9a5cfe3-c67f-4518-a62e-d9e2c1e0bb63": {
+          "label": "Dictionary of\nconcepts",
+          "x": 101109,
+          "y": -1280,
+          "id": "d9a5cfe3-c67f-4518-a62e-d9e2c1e0bb63"
+        },
+        "e3ce911d-dcd9-495d-b64e-4927cc6b1c47": {
+          "id": "e3ce911d-dcd9-495d-b64e-4927cc6b1c47",
+          "x": 105504,
+          "y": -1057,
+          "label": "Артисты\nкомедии",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 1000,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "dcb3ea6f-1950-4b49-aba4-76ef0d61c4ac": {
+          "id": "dcb3ea6f-1950-4b49-aba4-76ef0d61c4ac",
+          "x": 101281,
+          "y": -1288,
+          "label": "Список"
+        },
+        "71a3a65f-d477-4ddf-aa60-08dabba0f4cb": {
+          "id": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "x": 101484,
+          "y": -1704,
+          "label": "СССР и постсоветское",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "2a04ee9e-3b3d-4718-afe5-e4560553dc4e": {
+          "id": "2a04ee9e-3b3d-4718-afe5-e4560553dc4e",
+          "x": 101617,
+          "y": -1958,
+          "label": "Леонов"
+        },
+        "72609a41-ed23-4daa-860a-366d9c6a38d8": {
+          "id": "72609a41-ed23-4daa-860a-366d9c6a38d8",
+          "x": 101621,
+          "y": -1929,
+          "label": "Никулин"
+        },
+        "82b1a7ee-b7d5-422f-9918-3bbeda612c33": {
+          "id": "82b1a7ee-b7d5-422f-9918-3bbeda612c33",
+          "x": 101620,
+          "y": -1900,
+          "label": "Хазанов"
+        },
+        "2a7f3cf4-fb10-45eb-b9a4-8ff2f137ef37": {
+          "id": "2a7f3cf4-fb10-45eb-b9a4-8ff2f137ef37",
+          "x": 101623,
+          "y": -1869,
+          "label": "Миронов"
+        },
+        "8a556158-aae7-41b1-83b3-c3cfe9d08fcb": {
+          "id": "8a556158-aae7-41b1-83b3-c3cfe9d08fcb",
+          "x": 101622,
+          "y": -1834,
+          "label": "Папанов"
+        },
+        "537af669-fad5-40f2-bb8d-c520a75c5afc": {
+          "id": "537af669-fad5-40f2-bb8d-c520a75c5afc",
+          "x": 101646,
+          "y": -1798,
+          "label": "Аркадий Райкин",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "5cd429b1-e5fc-4a65-b822-7b578a4f63c3": {
+          "id": "5cd429b1-e5fc-4a65-b822-7b578a4f63c3",
+          "x": 101626,
+          "y": -1765,
+          "label": "Ширвиндт"
+        },
+        "4576eac4-9731-4a12-b918-7fd2a5c16416": {
+          "id": "4576eac4-9731-4a12-b918-7fd2a5c16416",
+          "x": 101626,
+          "y": -1732,
+          "label": "Державин"
+        },
+        "083a4f43-f064-4b64-b7cc-95ad46ead0a9": {
+          "id": "083a4f43-f064-4b64-b7cc-95ad46ead0a9",
+          "x": 101621,
+          "y": -1699,
+          "label": "Стоянов"
+        },
+        "fa4b44af-a426-4c7a-9f9c-9e687a360425": {
+          "id": "fa4b44af-a426-4c7a-9f9c-9e687a360425",
+          "x": 101628,
+          "y": -1603,
+          "label": "Угольников"
+        },
+        "a19b2797-ca13-46aa-92a3-f3a5bb82f6a4": {
+          "id": "a19b2797-ca13-46aa-92a3-f3a5bb82f6a4",
+          "x": 101650,
+          "y": -1564,
+          "label": "Сергей Филиппов"
+        },
+        "5df77ee7-8737-4913-9176-a6f6facf5e04": {
+          "id": "5df77ee7-8737-4913-9176-a6f6facf5e04",
+          "x": 101921,
+          "y": -1564,
+          "label": "Ипполит Воробьянинов в \"12 стульев\" Гайдая",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "14e994cb-71e3-4f9c-99ca-abcd8b739fe5": {
+          "id": "14e994cb-71e3-4f9c-99ca-abcd8b739fe5",
+          "x": 101619,
+          "y": -1288,
+          "label": "Эстрада"
+        },
+        "370a7f11-766c-476b-add4-73452cfe5281": {
+          "id": "370a7f11-766c-476b-add4-73452cfe5281",
+          "x": 101650,
+          "y": -1521,
+          "label": "Юрий Тимошенко"
+        },
+        "073466f9-0ee0-4670-b1e2-aec3c1beab83": {
+          "id": "073466f9-0ee0-4670-b1e2-aec3c1beab83",
+          "x": 101816,
+          "y": -1526,
+          "label": "Тарапунька"
+        },
+        "ebb293e4-e189-4057-a311-6ebb84dce371": {
+          "id": "ebb293e4-e189-4057-a311-6ebb84dce371",
+          "x": 101640,
+          "y": -1491,
+          "label": "Ефим Березин"
+        },
+        "87b21f06-0b63-477c-8b61-d9ab1771357f": {
+          "id": "87b21f06-0b63-477c-8b61-d9ab1771357f",
+          "x": 101805,
+          "y": -1492,
+          "label": "Штепсель"
+        },
+        "d10c9db6-89a7-4d11-a234-4dccedf5da95": {
+          "id": "d10c9db6-89a7-4d11-a234-4dccedf5da95",
+          "x": 101426,
+          "y": -1050,
+          "label": "США"
+        },
+        "abfde41f-b327-4a79-bf21-357f7fe96abe": {
+          "id": "abfde41f-b327-4a79-bf21-357f7fe96abe",
+          "x": 101636,
+          "y": -1141,
+          "label": "Эдди Мерфи"
+        },
+        "1c66db8a-cd09-4a58-a387-475890d57bb2": {
+          "id": "1c66db8a-cd09-4a58-a387-475890d57bb2",
+          "x": 101622,
+          "y": -1112,
+          "label": "Luois CK"
+        },
+        "df8286fe-3c26-4f6d-ac7c-735bfcbf1d3d": {
+          "id": "df8286fe-3c26-4f6d-ac7c-735bfcbf1d3d",
+          "x": 101644,
+          "y": -1078,
+          "label": "Джин Уайльдер"
+        },
+        "a3a82e8a-410a-49af-904f-d46d41a29244": {
+          "id": "a3a82e8a-410a-49af-904f-d46d41a29244",
+          "x": 101653,
+          "y": -1034,
+          "label": "Wierd Al Yankovich"
+        },
+        "921cfbb6-d2a6-4552-8a04-d99b4fccae59": {
+          "id": "921cfbb6-d2a6-4552-8a04-d99b4fccae59",
+          "x": 101633,
+          "y": -1008,
+          "label": "Джим Кэрри"
+        },
+        "ab60dfe0-3b8a-4ce6-9e2e-89d9820fca1b": {
+          "id": "ab60dfe0-3b8a-4ce6-9e2e-89d9820fca1b",
+          "x": 101622,
+          "y": -854,
+          "label": "Ч/Б кино"
+        },
+        "61a5d4a3-4bfc-4610-aebe-c5f759f8d5ff": {
+          "id": "61a5d4a3-4bfc-4610-aebe-c5f759f8d5ff",
+          "x": 101860,
+          "y": -867,
+          "label": "Чарли Чаплин"
+        },
+        "5aa6e89a-aa0b-4214-9e0c-add570257911": {
+          "id": "5aa6e89a-aa0b-4214-9e0c-add570257911",
+          "x": 101859,
+          "y": -830,
+          "label": "Гарльд Ллойд"
+        },
+        "d549fc16-b9c4-4509-8bfb-27aef725e37c": {
+          "id": "d549fc16-b9c4-4509-8bfb-27aef725e37c",
+          "x": 101470,
+          "y": -707,
+          "label": "Европейское кино"
+        },
+        "27fe9c15-2e77-4d93-b4e0-e91825ec5a42": {
+          "id": "27fe9c15-2e77-4d93-b4e0-e91825ec5a42",
+          "x": 101635,
+          "y": -714,
+          "label": "Пьер Ришар"
+        },
+        "afebd20f-424a-4611-81d8-6079131cd1f2": {
+          "id": "afebd20f-424a-4611-81d8-6079131cd1f2",
+          "x": 101460,
+          "y": -628,
+          "label": "Азиатское кино"
+        },
+        "634f4d22-fc03-4112-931a-64a521d6891e": {
+          "id": "634f4d22-fc03-4112-931a-64a521d6891e",
+          "x": 101629,
+          "y": -632,
+          "label": "Джеки Чан"
+        },
+        "0dd42c93-9cc4-4bce-9ff0-2545b124e1a4": {
+          "id": "0dd42c93-9cc4-4bce-9ff0-2545b124e1a4",
+          "x": 61780,
+          "y": -9681,
+          "label": "Записная книжка. Не энциклопедия.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "c4122676-3301-4006-9a98-79db5714aaf3": {
+          "id": "c4122676-3301-4006-9a98-79db5714aaf3",
+          "x": 101628,
+          "y": -1405,
+          "label": "Маски-шоу"
+        },
+        "0ec8a373-c07e-4f69-a098-622872d779a9": {
+          "id": "0ec8a373-c07e-4f69-a098-622872d779a9",
+          "x": 101772,
+          "y": -1374,
+          "label": "КВН"
+        },
+        "6bff37d2-66e9-4967-a3b9-777bc18077fe": {
+          "id": "6bff37d2-66e9-4967-a3b9-777bc18077fe",
+          "x": 101787,
+          "y": -1345,
+          "label": "Трушкин"
+        },
+        "31241b65-798d-461d-9063-547007c767d5": {
+          "id": "31241b65-798d-461d-9063-547007c767d5",
+          "x": 101796,
+          "y": -1314,
+          "label": "Коклюшкин"
+        },
+        "fc019af5-c730-46f5-a5f1-41a13f255604": {
+          "id": "fc019af5-c730-46f5-a5f1-41a13f255604",
+          "x": 101796,
+          "y": -1284,
+          "label": "Жванецкий"
+        },
+        "3da154f1-5dd9-4295-9c9e-d7bd651ceb23": {
+          "id": "3da154f1-5dd9-4295-9c9e-d7bd651ceb23",
+          "x": 101783,
+          "y": -1251,
+          "label": "Иванов"
+        },
+        "2c52184b-e228-4d7a-86cd-4f68121a8840": {
+          "id": "2c52184b-e228-4d7a-86cd-4f68121a8840",
+          "x": 101941,
+          "y": -1250,
+          "label": "пародист"
+        },
+        "f4c9024f-16c2-42ab-a9cd-f4362e33a762": {
+          "id": "f4c9024f-16c2-42ab-a9cd-f4362e33a762",
+          "x": 101432,
+          "y": -524,
+          "label": "Youtub"
+        },
+        "e8cd6451-caa1-4fca-a56a-02e61bd99127": {
+          "id": "e8cd6451-caa1-4fca-a56a-02e61bd99127",
+          "x": 101646,
+          "y": -520,
+          "label": "Дженна Марблз",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "144c2fa1-8cd2-4972-851b-824ad5d49765": {
+          "id": "144c2fa1-8cd2-4972-851b-824ad5d49765",
+          "x": 101638,
+          "y": -1453,
+          "label": "Роман Карцев"
+        },
+        "2862efd7-cc97-4116-a7a3-846adfc55c5d": {
+          "id": "2862efd7-cc97-4116-a7a3-846adfc55c5d",
+          "x": 101629,
+          "y": -1666,
+          "label": "Олейников"
+        },
+        "ab280bc9-1316-4e6c-99ea-26cd24c03de8": {
+          "id": "ab280bc9-1316-4e6c-99ea-26cd24c03de8",
+          "x": 79720,
+          "y": -6807,
+          "label": "Кинокритика"
+        },
+        "622479d5-279f-4920-901d-7ded103762a3": {
+          "id": "622479d5-279f-4920-901d-7ded103762a3",
+          "x": 79955,
+          "y": -7011,
+          "label": "Academy Awards - Oscar"
+        },
+        "9229a78c-5566-4e4d-ae69-1dbfdb5037f0": {
+          "id": "9229a78c-5566-4e4d-ae69-1dbfdb5037f0",
+          "x": 79976,
+          "y": -6983,
+          "label": "Berlin International Film Festival"
+        },
+        "6a25df7b-8ded-4d06-af00-2cc8bc3605dc": {
+          "id": "6a25df7b-8ded-4d06-af00-2cc8bc3605dc",
+          "x": 79938,
+          "y": -6947,
+          "label": "Venice Film Festival"
+        },
+        "2b19bf7f-d568-496b-bf4d-b06eff5dc2db": {
+          "id": "2b19bf7f-d568-496b-bf4d-b06eff5dc2db",
+          "x": 80011,
+          "y": -6916,
+          "label": "British Academy of Film and Television Arts"
+        },
+        "01020712-c42c-4157-a01c-1e7698e30538": {
+          "id": "01020712-c42c-4157-a01c-1e7698e30538",
+          "x": 79944,
+          "y": -6888,
+          "label": "Golden Globe Awards"
+        },
+        "d95b96e8-f7f8-4ea2-b380-9b0f3f1b106a": {
+          "id": "d95b96e8-f7f8-4ea2-b380-9b0f3f1b106a",
+          "x": 79709,
+          "y": -6756,
+          "label": "Журналы"
+        },
+        "474d0b90-0c0c-40c3-bf10-da3ca39ce5cc": {
+          "id": "474d0b90-0c0c-40c3-bf10-da3ca39ce5cc",
+          "x": 79716,
+          "y": -6702,
+          "label": "Киностудии"
+        },
+        "14ac782b-9737-465c-aa75-26308d610cd9": {
+          "id": "14ac782b-9737-465c-aa75-26308d610cd9",
+          "x": 79715,
+          "y": -6665,
+          "label": "Режиссеры"
+        },
+        "21f2f4cf-f40d-4aa5-922e-8d8e78d2b23e": {
+          "id": "21f2f4cf-f40d-4aa5-922e-8d8e78d2b23e",
+          "x": 79729,
+          "y": -6624,
+          "label": "Советское кино"
+        },
+        "490ad4b4-d896-4723-8178-d38f698051b685617369437936357": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Сериалы",
+          "id": "490ad4b4-d896-4723-8178-d38f698051b685617369437936357",
+          "x": 84241,
+          "y": -4358,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "631e3b1f-5bb0-4b6c-a0fc-1b5378b84cfe": {
+          "id": "631e3b1f-5bb0-4b6c-a0fc-1b5378b84cfe",
+          "x": 80540,
+          "y": 17727,
+          "label": "Олимпийские виды спорта"
+        },
+        "fe3a9747-d62f-4251-a95c-e51876749f32": {
+          "id": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "x": 80737,
+          "y": 16968,
+          "label": "Летние"
+        },
+        "c685e199-53e2-46b0-95b4-006106d749ea": {
+          "id": "c685e199-53e2-46b0-95b4-006106d749ea",
+          "x": 81111,
+          "y": 16219,
+          "label": "Академическая гребля"
+        },
+        "fa4f44be-ab7e-4e70-b4a9-18f0e4625635": {
+          "id": "fa4f44be-ab7e-4e70-b4a9-18f0e4625635",
+          "x": 81073,
+          "y": 16250,
+          "label": "Бадминтон"
+        },
+        "efc4fea5-b3e7-410a-bea3-20e0927155f7": {
+          "id": "efc4fea5-b3e7-410a-bea3-20e0927155f7",
+          "x": 81070,
+          "y": 16281,
+          "label": "Баскетбол"
+        },
+        "9a25b0ba-e090-41cf-85c6-232c58d8b938": {
+          "id": "9a25b0ba-e090-41cf-85c6-232c58d8b938",
+          "x": 81064,
+          "y": 16313,
+          "label": "Бейсбол"
+        },
+        "8de4db96-19fe-4e09-9796-0cbc206a09e7": {
+          "id": "8de4db96-19fe-4e09-9796-0cbc206a09e7",
+          "x": 81051,
+          "y": 16351,
+          "label": "Бокс"
+        },
+        "c8f925c1-c6eb-4965-87fc-3aed3f999564": {
+          "id": "c8f925c1-c6eb-4965-87fc-3aed3f999564",
+          "x": 81060,
+          "y": 16396,
+          "label": "Борьба"
+        },
+        "bf7235d4-761c-4eab-bd05-09182ce063bd": {
+          "id": "bf7235d4-761c-4eab-bd05-09182ce063bd",
+          "x": 81417,
+          "y": 16379,
+          "label": "Вольная борьба"
+        },
+        "e3693d32-de8c-47a2-8602-c2c82b801196": {
+          "id": "e3693d32-de8c-47a2-8602-c2c82b801196",
+          "x": 81438,
+          "y": 16412,
+          "label": "Греко-римская борьба"
+        },
+        "8aedb945-57f6-4c27-b370-48c76bd9c265": {
+          "id": "8aedb945-57f6-4c27-b370-48c76bd9c265",
+          "x": 81071,
+          "y": 16496,
+          "label": "Велоспорт"
+        },
+        "23b7a0b4-49dd-4e79-91b9-2b3706191451": {
+          "id": "23b7a0b4-49dd-4e79-91b9-2b3706191451",
+          "x": 81379,
+          "y": 16454,
+          "label": "ВМХ"
+        },
+        "0854e009-5241-4c97-931d-8e31ea5101d4": {
+          "id": "0854e009-5241-4c97-931d-8e31ea5101d4",
+          "x": 81430,
+          "y": 16481,
+          "label": "Велотрековые гонки"
+        },
+        "e8eef7a2-b4b6-4528-ab03-44c595f33bf1": {
+          "id": "e8eef7a2-b4b6-4528-ab03-44c595f33bf1",
+          "x": 81471,
+          "y": 16508,
+          "label": "Горный велосипед (Маунтибайк)"
+        },
+        "7b6d298d-8aa5-4abc-b1e9-39f4532cdd00": {
+          "id": "7b6d298d-8aa5-4abc-b1e9-39f4532cdd00",
+          "x": 81439,
+          "y": 16536,
+          "label": "Шоссейный велосипед"
+        },
+        "ae74faf2-4beb-47a5-a9e2-af885a5d9f2f": {
+          "id": "ae74faf2-4beb-47a5-a9e2-af885a5d9f2f",
+          "x": 81101,
+          "y": 16635,
+          "label": "Водные виды спорт"
+        },
+        "7be0b7b5-118a-42dd-acef-4347c44b4a00": {
+          "id": "7be0b7b5-118a-42dd-acef-4347c44b4a00",
+          "x": 81406,
+          "y": 16586,
+          "label": "Водное поло"
+        },
+        "63f5a15d-dc7a-4f26-ba7f-9de26fe31747": {
+          "id": "63f5a15d-dc7a-4f26-ba7f-9de26fe31747",
+          "x": 81396,
+          "y": 16617,
+          "label": "Плавание"
+        },
+        "f921580c-c079-4a50-90e5-9cf3535de159": {
+          "id": "f921580c-c079-4a50-90e5-9cf3535de159",
+          "x": 81411,
+          "y": 16647,
+          "label": "Прыжки в воду"
+        },
+        "f6c340c7-368c-4e05-a55f-e073da641c79": {
+          "id": "f6c340c7-368c-4e05-a55f-e073da641c79",
+          "x": 81437,
+          "y": 16675,
+          "label": "Синхронное плавание"
+        },
+        "674e9d3b-efcb-46a0-bb79-7b8aa8bdcc08": {
+          "id": "674e9d3b-efcb-46a0-bb79-7b8aa8bdcc08",
+          "x": 81069,
+          "y": 16727,
+          "label": "Волейбол"
+        },
+        "6f219ce1-576e-41ec-8cf2-16b49222133e": {
+          "id": "6f219ce1-576e-41ec-8cf2-16b49222133e",
+          "x": 81427,
+          "y": 16718,
+          "label": "Пляжный волейбол"
+        },
+        "d6ad02dc-ce9d-4fac-bf92-29551a859c5b": {
+          "id": "d6ad02dc-ce9d-4fac-bf92-29551a859c5b",
+          "x": 81064,
+          "y": 16764,
+          "label": "Гандбол"
+        },
+        "fb85c28d-7265-4709-a0be-73be7405f924": {
+          "id": "fb85c28d-7265-4709-a0be-73be7405f924",
+          "x": 81075,
+          "y": 16835,
+          "label": "Гимнастика"
+        },
+        "fcb8f6d6-220f-4de5-b8a5-7d5b68da6953": {
+          "id": "fcb8f6d6-220f-4de5-b8a5-7d5b68da6953",
+          "x": 81422,
+          "y": 16800,
+          "label": "Прыжки на батуте"
+        },
+        "b6a999a1-cc7a-49b8-bf09-5e9ef0f2c33c": {
+          "id": "b6a999a1-cc7a-49b8-bf09-5e9ef0f2c33c",
+          "x": 81442,
+          "y": 16830,
+          "label": "Спортивная гимнастика"
+        },
+        "7d8342a4-3664-4540-bfae-e89dbeda4912": {
+          "id": "7d8342a4-3664-4540-bfae-e89dbeda4912",
+          "x": 81457,
+          "y": 16859,
+          "label": "Художественная гимнастика"
+        },
+        "4903177a-d49b-4ed6-b318-772e240f2adc": {
+          "id": "4903177a-d49b-4ed6-b318-772e240f2adc",
+          "x": 81057,
+          "y": 16902,
+          "label": "Гольф"
+        },
+        "79844c57-0467-4de9-89dd-970173899ecf": {
+          "id": "79844c57-0467-4de9-89dd-970173899ecf",
+          "x": 81133,
+          "y": 16946,
+          "label": "Гребля на байдарках и каноэ"
+        },
+        "0b8d27b0-20c4-4d92-8a0d-c64bcb3bb2e6": {
+          "id": "0b8d27b0-20c4-4d92-8a0d-c64bcb3bb2e6",
+          "x": 81418,
+          "y": 16939,
+          "label": "Гребной слалом"
+        },
+        "af936921-845d-4ee2-bb83-2fa15649ae73": {
+          "id": "af936921-845d-4ee2-bb83-2fa15649ae73",
+          "x": 81057,
+          "y": 16989,
+          "label": "Дзюдо"
+        },
+        "ae850e8b-cd9a-45b2-adfc-5e834a2cbab7": {
+          "id": "ae850e8b-cd9a-45b2-adfc-5e834a2cbab7",
+          "x": 81082,
+          "y": 17070,
+          "label": "Конный спорт"
+        },
+        "de2bf6cf-5e60-4d07-950a-a0ed16282a25": {
+          "id": "de2bf6cf-5e60-4d07-950a-a0ed16282a25",
+          "x": 81391,
+          "y": 17041,
+          "label": "Выездка"
+        },
+        "d41c7b4b-5500-4ecc-acb0-4e76b3ba556d": {
+          "id": "d41c7b4b-5500-4ecc-acb0-4e76b3ba556d",
+          "x": 81386,
+          "y": 17068,
+          "label": "Конкур"
+        },
+        "2df328f5-8da9-45a0-a950-e2f5027f0e77": {
+          "id": "2df328f5-8da9-45a0-a950-e2f5027f0e77",
+          "x": 81399,
+          "y": 17095,
+          "label": "Троеборье"
+        },
+        "04ab0b34-95e9-4d1a-a973-be0a0b506057": {
+          "id": "04ab0b34-95e9-4d1a-a973-be0a0b506057",
+          "x": 81089,
+          "y": 17161,
+          "label": "Легкая атлетика"
+        },
+        "79806137-7542-4c72-ab49-49cee15bd439": {
+          "id": "79806137-7542-4c72-ab49-49cee15bd439",
+          "x": 81101,
+          "y": 17190,
+          "label": "Настольный теннис"
+        },
+        "52e22de1-1c82-4411-b6c6-f4dac05250b9": {
+          "id": "52e22de1-1c82-4411-b6c6-f4dac05250b9",
+          "x": 81066,
+          "y": 17223,
+          "label": "Софтбол"
+        },
+        "67c38c82-67d4-407f-bb31-09af032a8ffb": {
+          "id": "67c38c82-67d4-407f-bb31-09af032a8ffb",
+          "x": 81090,
+          "y": 17255,
+          "label": "Парусный спорт"
+        },
+        "45fb69d5-55e4-4e61-9e0a-0b85afc297ba": {
+          "id": "45fb69d5-55e4-4e61-9e0a-0b85afc297ba",
+          "x": 81055,
+          "y": 17282,
+          "label": "Регби"
+        },
+        "2ed2577e-3cb4-4cf6-b22e-20b8a6729430": {
+          "id": "2ed2577e-3cb4-4cf6-b22e-20b8a6729430",
+          "x": 81118,
+          "y": 17317,
+          "label": "Современное пятиборье"
+        },
+        "6f75a38b-46f5-4b79-9d07-5eb2e8c85b95": {
+          "id": "6f75a38b-46f5-4b79-9d07-5eb2e8c85b95",
+          "x": 81067,
+          "y": 17345,
+          "label": "Стрельба"
+        },
+        "321ca7a1-4597-407a-a6f2-0f3f99162730": {
+          "id": "321ca7a1-4597-407a-a6f2-0f3f99162730",
+          "x": 81093,
+          "y": 17374,
+          "label": "Стрельба из лука"
+        },
+        "6c15cdbc-80db-4ec7-a80a-24020c4099bf": {
+          "id": "6c15cdbc-80db-4ec7-a80a-24020c4099bf",
+          "x": 81060,
+          "y": 17407,
+          "label": "Теннис"
+        },
+        "62de7a0a-8fbe-416a-8406-8b62d81f44c6": {
+          "id": "62de7a0a-8fbe-416a-8406-8b62d81f44c6",
+          "x": 81067,
+          "y": 17440,
+          "label": "Триатлон"
+        },
+        "efde6dd4-3445-4ea0-8c31-2740f510390e": {
+          "id": "efde6dd4-3445-4ea0-8c31-2740f510390e",
+          "x": 81070,
+          "y": 17469,
+          "label": "Тхэквондо"
+        },
+        "38bfda18-513e-494e-babd-5ec7bd3913de": {
+          "id": "38bfda18-513e-494e-babd-5ec7bd3913de",
+          "x": 81095,
+          "y": 17501,
+          "label": "Тяжелая атлетика"
+        },
+        "ce051997-92e9-49c7-a116-0649990edb69": {
+          "id": "ce051997-92e9-49c7-a116-0649990edb69",
+          "x": 81076,
+          "y": 17531,
+          "label": "Фехтование"
+        },
+        "038b6906-aabb-426e-bfe8-2bffe2752772": {
+          "id": "038b6906-aabb-426e-bfe8-2bffe2752772",
+          "x": 81060,
+          "y": 17567,
+          "label": "Футбол"
+        },
+        "4c4ecbf9-70d0-45e1-b2d0-3b24f1c23aea": {
+          "id": "4c4ecbf9-70d0-45e1-b2d0-3b24f1c23aea",
+          "x": 81089,
+          "y": 17604,
+          "label": "Хоккей на траве"
+        },
+        "ab6a9b25-7dbe-450f-a7d2-7ae6624b1d53": {
+          "id": "ab6a9b25-7dbe-450f-a7d2-7ae6624b1d53",
+          "x": 81102,
+          "y": 17636,
+          "label": "Плавание марафон"
+        },
+        "5f3979c7-5391-40bf-8aa7-bdf49b7ae369": {
+          "id": "5f3979c7-5391-40bf-8aa7-bdf49b7ae369",
+          "x": 81064,
+          "y": 17665,
+          "label": "Биатлон"
+        },
+        "064bdd01-a5f5-4a9c-aed3-9261bf41bbc4": {
+          "id": "064bdd01-a5f5-4a9c-aed3-9261bf41bbc4",
+          "x": 81063,
+          "y": 17698,
+          "label": "Керлинг"
+        },
+        "9289c398-eb51-4cbc-b22b-b0289d17b8c5": {
+          "id": "9289c398-eb51-4cbc-b22b-b0289d17b8c5",
+          "x": 81114,
+          "y": 17777,
+          "label": "Коньковые виды спорта"
+        },
+        "62759c51-4d0b-4639-a50d-21dc7dd547c3": {
+          "id": "62759c51-4d0b-4639-a50d-21dc7dd547c3",
+          "x": 81432,
+          "y": 17736,
+          "label": "Конькобежный спорт"
+        },
+        "f5dfecd5-56ee-45d5-86cc-a598a6f88fe1": {
+          "id": "f5dfecd5-56ee-45d5-86cc-a598a6f88fe1",
+          "x": 81423,
+          "y": 17764,
+          "label": "Фигурное катание"
+        },
+        "a4fc58c1-dbb3-4ebe-9997-913c2262ac8a": {
+          "id": "a4fc58c1-dbb3-4ebe-9997-913c2262ac8a",
+          "x": 81397,
+          "y": 17797,
+          "label": "Шорт-трек",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "ee173416-ab39-45d1-87f1-8b6598d3ff9f": {
+          "id": "ee173416-ab39-45d1-87f1-8b6598d3ff9f",
+          "x": 81106,
+          "y": 17921,
+          "label": "Лыжные виды спорта"
+        },
+        "17958e54-1195-49d7-ac38-91f23acf272d": {
+          "id": "17958e54-1195-49d7-ac38-91f23acf272d",
+          "x": 81430,
+          "y": 17841,
+          "label": "Горнолыжный спорт"
+        },
+        "7021a2ce-d09f-42ab-a67f-e721a9bc1ae9": {
+          "id": "7021a2ce-d09f-42ab-a67f-e721a9bc1ae9",
+          "x": 81503,
+          "y": 17868,
+          "label": "Лыжное двоеборье на Олимпийских играх"
+        },
+        "d5f891c5-fa15-45ff-baa1-0ec9c04c13f3": {
+          "id": "d5f891c5-fa15-45ff-baa1-0ec9c04c13f3",
+          "x": 81486,
+          "y": 17897,
+          "label": "Лыжные гонки на Олимпийских играх"
+        },
+        "36873fc2-0f90-45b5-afb1-8995b127b48c": {
+          "id": "36873fc2-0f90-45b5-afb1-8995b127b48c",
+          "x": 81433,
+          "y": 17930,
+          "label": "Прыжки с трамплина"
+        },
+        "02d6993c-7bf7-4b0a-bd51-7c141a3f7365": {
+          "id": "02d6993c-7bf7-4b0a-bd51-7c141a3f7365",
+          "x": 81396,
+          "y": 17961,
+          "label": "Сноуборд"
+        },
+        "3aea7643-ffc0-4c29-803e-2f00c68e3f90": {
+          "id": "3aea7643-ffc0-4c29-803e-2f00c68e3f90",
+          "x": 81395,
+          "y": 17990,
+          "label": "Фристайл"
+        },
+        "e5109370-6a01-4df6-a8be-78fdfc50c24b": {
+          "id": "e5109370-6a01-4df6-a8be-78fdfc50c24b",
+          "x": 81064,
+          "y": 18040,
+          "label": "Бобслей"
+        },
+        "463c1665-a77e-4c0a-a15f-de12eb75a46a": {
+          "id": "463c1665-a77e-4c0a-a15f-de12eb75a46a",
+          "x": 81394,
+          "y": 18033,
+          "label": "Скелетон"
+        },
+        "0914c63a-7789-4a1b-a26e-669fddde6b0e": {
+          "id": "0914c63a-7789-4a1b-a26e-669fddde6b0e",
+          "x": 81083,
+          "y": 18076,
+          "label": "Санный спорт"
+        },
+        "51465755-e2f5-4d90-a116-6e545309c4f9": {
+          "id": "51465755-e2f5-4d90-a116-6e545309c4f9",
+          "x": 81059,
+          "y": 18103,
+          "label": "Хоккей"
+        },
+        "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe": {
+          "id": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "x": 80821,
+          "y": 18404,
+          "label": "Исключенные виды спорта"
+        },
+        "cc8ce276-bbbd-426f-a842-623f6d176caf": {
+          "id": "cc8ce276-bbbd-426f-a842-623f6d176caf",
+          "x": 81092,
+          "y": 18212,
+          "label": "Вращение булав"
+        },
+        "4644d37f-7d87-49e9-ac74-b1566d6dfe74": {
+          "id": "4644d37f-7d87-49e9-ac74-b1566d6dfe74",
+          "x": 81098,
+          "y": 18246,
+          "label": "Индийские булавы"
+        },
+        "455ed708-6f9f-4cb5-a06b-34cae71700dc": {
+          "id": "455ed708-6f9f-4cb5-a06b-34cae71700dc",
+          "x": 81091,
+          "y": 18275,
+          "label": "Баскская пелота"
+        },
+        "70c0f511-e672-40ca-a2e8-d241950df02e": {
+          "id": "70c0f511-e672-40ca-a2e8-d241950df02e",
+          "x": 81112,
+          "y": 18305,
+          "label": "Водно-моторный спорт"
+        },
+        "e62ddd2a-50ed-4a17-9495-548626af4c41": {
+          "id": "e62ddd2a-50ed-4a17-9495-548626af4c41",
+          "x": 81073,
+          "y": 18338,
+          "label": "Же-де-пом"
+        },
+        "8eb1893e-ee75-45a5-b0f1-8b7b3f67c754": {
+          "id": "8eb1893e-ee75-45a5-b0f1-8b7b3f67c754",
+          "x": 81082,
+          "y": 18374,
+          "label": "Конный спорт"
+        },
+        "fa37c46a-bf55-4531-8d07-c468f90e9d06": {
+          "id": "fa37c46a-bf55-4531-8d07-c468f90e9d06",
+          "x": 81413,
+          "y": 18364,
+          "label": "Вольтижировка"
+        },
+        "c053cf98-bd1f-4941-aa8c-e7f2c283316f": {
+          "id": "c053cf98-bd1f-4941-aa8c-e7f2c283316f",
+          "x": 81058,
+          "y": 18410,
+          "label": "Крикет"
+        },
+        "85aed7d7-ee08-4eab-9d5b-8c382ed50791": {
+          "id": "85aed7d7-ee08-4eab-9d5b-8c382ed50791",
+          "x": 81058,
+          "y": 18441,
+          "label": "Крокет"
+        },
+        "8521b285-2118-41ec-82f6-7429f026fa53": {
+          "id": "8521b285-2118-41ec-82f6-7429f026fa53",
+          "x": 81063,
+          "y": 18478,
+          "label": "Лакросс"
+        },
+        "16d2f860-f4fc-4aeb-9df5-d771e25871e9": {
+          "id": "16d2f860-f4fc-4aeb-9df5-d771e25871e9",
+          "x": 81110,
+          "y": 18512,
+          "label": "Перетягивание каната"
+        },
+        "edad63de-4f4a-4bf1-8a65-77855170f8d8": {
+          "id": "edad63de-4f4a-4bf1-8a65-77855170f8d8",
+          "x": 81053,
+          "y": 18545,
+          "label": "Поло"
+        },
+        "f5c2651e-2e62-45d6-90bf-37175ce4d96b": {
+          "id": "f5c2651e-2e62-45d6-90bf-37175ce4d96b",
+          "x": 81052,
+          "y": 18574,
+          "label": "Роке"
+        },
+        "5cce9e44-3662-4571-845b-ee4c32ac3501": {
+          "id": "5cce9e44-3662-4571-845b-ee4c32ac3501",
+          "x": 81058,
+          "y": 18612,
+          "label": "Рэкетс"
+        },
+        "561edd99-8a2f-4bda-b261-cb80abe6c67a": {
+          "id": "561edd99-8a2f-4bda-b261-cb80abe6c67a",
+          "x": 80723,
+          "y": 17881,
+          "label": "Зимние"
+        },
+        "72a0eecd-98a0-4eff-b1c1-9a36f41f10f0": {
+          "id": "72a0eecd-98a0-4eff-b1c1-9a36f41f10f0",
+          "x": 91509,
+          "y": -9480,
+          "label": "Онлайн-сервисы"
+        },
+        "1c612536-dd24-49fc-a54f-7a8bb56c2e89": {
+          "id": "1c612536-dd24-49fc-a54f-7a8bb56c2e89",
+          "x": 91732,
+          "y": -9614,
+          "label": "Изучение языков",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "574fa6e9-94ef-4115-9e33-d1a48872a250": {
+          "id": "574fa6e9-94ef-4115-9e33-d1a48872a250",
+          "x": 92013,
+          "y": -9797,
+          "label": "Duolingo"
+        },
+        "856f9946-61b3-40ed-b582-9e7900f90373": {
+          "id": "856f9946-61b3-40ed-b582-9e7900f90373",
+          "x": 92009,
+          "y": -9748,
+          "label": "Lingvist"
+        },
+        "7ecacacb-e8f9-4c57-b636-2b4594cf2e61": {
+          "id": "7ecacacb-e8f9-4c57-b636-2b4594cf2e61",
+          "x": 92005,
+          "y": -9703,
+          "label": "Busuu"
+        },
+        "3e8ad32a-f515-42e9-abce-c40b5d4d12a7": {
+          "id": "3e8ad32a-f515-42e9-abce-c40b5d4d12a7",
+          "x": 92012,
+          "y": -9625,
+          "label": "Memrise"
+        },
+        "53ccdfc5-eb5d-4d94-bcb6-1bf7918dec0f": {
+          "id": "53ccdfc5-eb5d-4d94-bcb6-1bf7918dec0f",
+          "x": 92180,
+          "y": -9610,
+          "label": "Карточки"
+        },
+        "2ad022cd-7467-4192-b247-6f8d13578e5f": {
+          "id": "2ad022cd-7467-4192-b247-6f8d13578e5f",
+          "x": 91696,
+          "y": -9300,
+          "label": "Курсы"
+        },
+        "2eba03d2-87cd-4c6d-a62f-4e62e740364a": {
+          "id": "2eba03d2-87cd-4c6d-a62f-4e62e740364a",
+          "x": 92010,
+          "y": -8908,
+          "label": "edX"
+        },
+        "2e9cf1fb-7d4a-4b53-9eb5-c95c9da5c49e": {
+          "id": "2e9cf1fb-7d4a-4b53-9eb5-c95c9da5c49e",
+          "x": 92027,
+          "y": -8874,
+          "label": "Coursera"
+        },
+        "21f84dba-506f-4b50-9e2e-a02f4642a556": {
+          "id": "21f84dba-506f-4b50-9e2e-a02f4642a556",
+          "x": 92028,
+          "y": -8806,
+          "label": "Highbrow"
+        },
+        "e1c4b9b6-754a-4b90-a73d-f88261ef6efd": {
+          "id": "e1c4b9b6-754a-4b90-a73d-f88261ef6efd",
+          "x": 92028,
+          "y": -8770,
+          "label": "Skillshare"
+        },
+        "37153745-b0f5-4e05-bb9b-3ff26da40310": {
+          "id": "37153745-b0f5-4e05-bb9b-3ff26da40310",
+          "x": 92022,
+          "y": -8728,
+          "label": "Curious"
+        },
+        "47bda7e5-46cf-4530-afbb-63250ffe20bc": {
+          "id": "47bda7e5-46cf-4530-afbb-63250ffe20bc",
+          "x": 91867,
+          "y": -9132,
+          "label": "Lynda"
+        },
+        "cc2f9250-200b-4ee6-bd5f-095376f25c6a": {
+          "id": "cc2f9250-200b-4ee6-bd5f-095376f25c6a",
+          "x": 92020,
+          "y": -8956,
+          "label": "Udemy"
+        },
+        "fca35f7b-993e-4e11-94fb-85e6be202591": {
+          "id": "fca35f7b-993e-4e11-94fb-85e6be202591",
+          "x": 91896,
+          "y": -9449,
+          "label": "Khan Academy"
+        },
+        "90195373-0367-42f6-831b-d2f67977ee94": {
+          "id": "90195373-0367-42f6-831b-d2f67977ee94",
+          "x": 92286,
+          "y": -9425,
+          "label": "В основном математика. Потом появились и другие темы.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "1589fcd1-5cde-491a-a20f-c754434d8cff": {
+          "id": "1589fcd1-5cde-491a-a20f-c754434d8cff",
+          "x": 92228,
+          "y": -8913,
+          "label": "https://www.edx.org/",
+          "link": "https://www.edx.org/"
+        },
+        "b82b4afe-639d-4112-977d-505e45704ac3": {
+          "id": "b82b4afe-639d-4112-977d-505e45704ac3",
+          "x": 92244,
+          "y": -8874,
+          "label": "https://www.coursera.org/",
+          "link": "https://www.coursera.org/"
+        },
+        "16a97b5c-7b05-4f6a-bbf0-72da07c70056": {
+          "id": "16a97b5c-7b05-4f6a-bbf0-72da07c70056",
+          "x": 92239,
+          "y": -8809,
+          "label": "https://gohighbrow.com/",
+          "link": "https://gohighbrow.com/"
+        },
+        "1cd08ce3-bb14-4b9c-8661-00f3b91b2deb": {
+          "id": "1cd08ce3-bb14-4b9c-8661-00f3b91b2deb",
+          "x": 92249,
+          "y": -8770,
+          "label": "https://www.skillshare.com/",
+          "link": "https://www.skillshare.com/"
+        },
+        "2b570da9-93e1-4f5c-97b8-4f61a7a64806": {
+          "id": "2b570da9-93e1-4f5c-97b8-4f61a7a64806",
+          "x": 92226,
+          "y": -8731,
+          "label": "https://curious.com/",
+          "link": "https://curious.com/"
+        },
+        "ce1b5304-4e02-4fa1-b45d-2efe46a80c67": {
+          "id": "ce1b5304-4e02-4fa1-b45d-2efe46a80c67",
+          "x": 92086,
+          "y": -9150,
+          "label": "https://www.lynda.com/",
+          "link": "https://www.lynda.com/"
+        },
+        "d639aa28-2237-4cf7-b102-148e31732edf": {
+          "id": "d639aa28-2237-4cf7-b102-148e31732edf",
+          "x": 92240,
+          "y": -8957,
+          "label": "https://www.udemy.com/",
+          "link": "https://www.udemy.com/"
+        },
+        "7de23056-b017-4680-9113-c749d519a489": {
+          "id": "7de23056-b017-4680-9113-c749d519a489",
+          "x": 92110,
+          "y": -9463,
+          "label": "https://www.khanacademy.org/",
+          "link": "https://www.khanacademy.org/"
+        },
+        "0079d620-35f7-4cf2-a76e-1c5673bc524e": {
+          "id": "0079d620-35f7-4cf2-a76e-1c5673bc524e",
+          "x": 92234,
+          "y": -9642,
+          "label": "https://www.memrise.com/",
+          "link": "https://www.memrise.com/"
+        },
+        "64298ed1-fe9d-4a11-a941-07dc0ec434ad": {
+          "id": "64298ed1-fe9d-4a11-a941-07dc0ec434ad",
+          "x": 92226,
+          "y": -9702,
+          "label": "https://www.busuu.com/",
+          "link": "https://www.busuu.com/"
+        },
+        "c7851249-22b2-456a-80bf-cfd203120aa6": {
+          "id": "c7851249-22b2-456a-80bf-cfd203120aa6",
+          "x": 92211,
+          "y": -9751,
+          "label": "https://lingvist.com/",
+          "link": "https://lingvist.com/"
+        },
+        "47e94da7-5a78-41bc-9815-c06d8058c12b": {
+          "id": "47e94da7-5a78-41bc-9815-c06d8058c12b",
+          "x": 92233,
+          "y": -9795,
+          "label": "https://www.duolingo.com/",
+          "link": "https://www.duolingo.com/"
+        },
+        "1f70cdf6-5182-4057-9693-67f8464d7f85": {
+          "id": "1f70cdf6-5182-4057-9693-67f8464d7f85",
+          "x": 79922,
+          "y": -7164,
+          "label": "movieweb.com"
+        },
+        "10b423ae-1652-4e9e-a495-112c72c21640": {
+          "id": "10b423ae-1652-4e9e-a495-112c72c21640",
+          "x": 79938,
+          "y": -7109,
+          "label": "rottentomatoes.com"
+        },
+        "8a45bb02-f123-42ab-aeed-6bb92a0c7854": {
+          "id": "8a45bb02-f123-42ab-aeed-6bb92a0c7854",
+          "x": 79753,
+          "y": -6532,
+          "label": "Онлайн базы и архивы",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "0dda0426-f37b-4935-971c-c7810a49b257": {
+          "id": "0dda0426-f37b-4935-971c-c7810a49b257",
+          "x": 80003,
+          "y": -6536,
+          "label": "imdb.com"
+        },
+        "5c99cb9f-dbc1-4cea-9166-75b513fa1088": {
+          "id": "5c99cb9f-dbc1-4cea-9166-75b513fa1088",
+          "x": 80200,
+          "y": -7109,
+          "label": "https://www.rottentomatoes.com/",
+          "link": "https://www.rottentomatoes.com/"
+        },
+        "c6562ec0-847a-45d0-85c8-4b273444a56c": {
+          "id": "c6562ec0-847a-45d0-85c8-4b273444a56c",
+          "x": 80176,
+          "y": -7167,
+          "label": "https://movieweb.com/",
+          "link": "https://movieweb.com/"
+        },
+        "07540f96-c54e-4e28-ab09-d5e567c1c583": {
+          "id": "07540f96-c54e-4e28-ab09-d5e567c1c583",
+          "x": 80219,
+          "y": -6532,
+          "label": "https://www.imdb.com/",
+          "link": "https://www.imdb.com/"
+        },
+        "fe7799e8-7253-4d0d-b84f-365501748ce6": {
+          "id": "fe7799e8-7253-4d0d-b84f-365501748ce6",
+          "x": 61449,
+          "y": -9617,
+          "label": "Фото"
+        },
+        "c722ea62-79f5-4c92-973c-ae962d05370c": {
+          "id": "c722ea62-79f5-4c92-973c-ae962d05370c",
+          "x": 101633,
+          "y": -973,
+          "label": "Jim Gaffigan"
+        },
+        "2d230a24-bb08-499f-977b-4b344649ce7d": {
+          "id": "2d230a24-bb08-499f-977b-4b344649ce7d",
+          "x": 91739,
+          "y": 217,
+          "label": "Балет"
+        },
+        "553c21aa-fabf-4543-b12b-6a6fe08e85c2": {
+          "id": "553c21aa-fabf-4543-b12b-6a6fe08e85c2",
+          "x": 80320,
+          "y": 14120,
+          "label": "Онлайн"
+        },
+        "a212c08b-0c9e-4515-8467-0fd03b3f9904": {
+          "id": "a212c08b-0c9e-4515-8467-0fd03b3f9904",
+          "x": 80679,
+          "y": 14066,
+          "label": "https://archive.org/search.php",
+          "link": "https://archive.org/search.php"
+        },
+        "fb5750b9-73cc-4b74-941f-717090c60201": {
+          "id": "fb5750b9-73cc-4b74-941f-717090c60201",
+          "x": 80488,
+          "y": 14063,
+          "label": "archive.org"
+        },
+        "534eea4c-47d0-491d-aad0-c4a841c708f7": {
+          "id": "534eea4c-47d0-491d-aad0-c4a841c708f7",
+          "x": 80472,
+          "y": 14132,
+          "label": "libgen"
+        },
+        "9c3280c9-96ae-4ba5-a53a-10fdf70cf669": {
+          "id": "9c3280c9-96ae-4ba5-a53a-10fdf70cf669",
+          "x": 80631,
+          "y": 14131,
+          "label": "http://libgen.is/",
+          "link": "http://libgen.is/"
+        },
+        "cb70d01c-dada-4ffa-96db-21c1fd1f4d1d": {
+          "id": "cb70d01c-dada-4ffa-96db-21c1fd1f4d1d",
+          "x": 80478,
+          "y": 14188,
+          "label": "Sci-Hub"
+        },
+        "3ba7272b-e63c-4f49-a816-598ec208c10c": {
+          "id": "3ba7272b-e63c-4f49-a816-598ec208c10c",
+          "x": 80698,
+          "y": 14180,
+          "label": "https://en.wikipedia.org/wiki/Sci-Hub",
+          "link": "https://en.wikipedia.org/wiki/Sci-Hub"
+        },
+        "5502b25c-ab94-49e7-a8c0-cdeef964fb97": {
+          "id": "5502b25c-ab94-49e7-a8c0-cdeef964fb97",
+          "x": 80650,
+          "y": 14210,
+          "label": "https://mg.scihub.ltd/",
+          "link": "https://mg.scihub.ltd/"
+        },
+        "aecd29a0-3b8c-4edd-975b-4a0872992ce6": {
+          "id": "aecd29a0-3b8c-4edd-975b-4a0872992ce6",
+          "x": 80095,
+          "y": 11162,
+          "label": "Онлайн"
+        },
+        "b6d58edc-e73d-4079-85de-00e4cb68c94c": {
+          "id": "b6d58edc-e73d-4079-85de-00e4cb68c94c",
+          "x": 80395,
+          "y": 11158,
+          "label": "https://artsandculture.google.com/partner?hl=en",
+          "link": "https://artsandculture.google.com/partner?hl=en"
+        },
+        "b94a2024-c3c3-421a-9db1-82ddc04911c4": {
+          "id": "b94a2024-c3c3-421a-9db1-82ddc04911c4",
+          "x": 80337,
+          "y": 11206,
+          "label": "http://www.artcyclopedia.com/",
+          "link": "http://www.artcyclopedia.com/"
+        },
+        "0192371a-d1a4-458a-a3d3-d2ebc30d72ee": {
+          "id": "0192371a-d1a4-458a-a3d3-d2ebc30d72ee",
+          "x": 102557,
+          "y": -7840,
+          "label": "кавказец в шашлычной - \"12 стульев\" Захарова"
+        },
+        "967dae0c-9507-4941-b7c6-080ff888326b": {
+          "id": "967dae0c-9507-4941-b7c6-080ff888326b",
+          "x": 102416,
+          "y": -9287,
+          "label": "герцог Бэкингем"
+        },
+        "f4d0d1f9-370b-4a25-8894-364b65e8847c936313": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 72,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Сериалы",
+          "x": 79488,
+          "y": -3820,
+          "id": "f4d0d1f9-370b-4a25-8894-364b65e8847c936313",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "19000757-4b0a-4e92-92da-14975a083702936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Development",
+          "x": 79788,
+          "y": -3371,
+          "id": "19000757-4b0a-4e92-92da-14975a083702936313"
+        },
+        "04e78b73-13a2-490c-98e1-ac7755f8bf1f936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "11/21/2019",
+          "x": 79947,
+          "y": -3368,
+          "id": "04e78b73-13a2-490c-98e1-ac7755f8bf1f936313"
+        },
+        "90e31606-419f-4d46-a841-c825e014c94b936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "init",
+          "x": 80070,
+          "y": -3369,
+          "id": "90e31606-419f-4d46-a841-c825e014c94b936313"
+        },
+        "5be52f1f-0a7b-4923-948a-a95ddf36a255936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Notes",
+          "x": 79788,
+          "y": -4221,
+          "id": "5be52f1f-0a7b-4923-948a-a95ddf36a255936313"
+        },
+        "ae4f11d6-5a7f-4a39-b893-6bd89792036f936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Dictionary of\nconcepts",
+          "x": 79949,
+          "y": -4779,
+          "id": "ae4f11d6-5a7f-4a39-b893-6bd89792036f936313"
+        },
+        "b25415a6-fdcc-480d-8f36-a6a5986e1bd9936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Details, thoughts",
+          "x": 79938,
+          "y": -4221,
+          "id": "b25415a6-fdcc-480d-8f36-a6a5986e1bd9936313"
+        },
+        "01920d36-225d-4772-8c06-2da1c06b35ca936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sections",
+          "x": 79938,
+          "y": -3971,
+          "id": "01920d36-225d-4772-8c06-2da1c06b35ca936313"
+        },
+        "60c86ee0-b22f-48cc-b02c-5ec877d42fdf936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Books",
+          "x": 80002,
+          "y": -4120,
+          "id": "60c86ee0-b22f-48cc-b02c-5ec877d42fdf936313"
+        },
+        "c91dd356-efcf-4fc2-b3ff-4faa7a2fc9c6936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "R&D institutions",
+          "x": 80032,
+          "y": -4095,
+          "id": "c91dd356-efcf-4fc2-b3ff-4faa7a2fc9c6936313"
+        },
+        "bc420d78-9f8d-4c1e-af20-debedff8f1fc936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sites",
+          "x": 79998,
+          "y": -4070,
+          "id": "bc420d78-9f8d-4c1e-af20-debedff8f1fc936313"
+        },
+        "8947774d-2a98-4551-a56d-1b8c7bc278ee936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Magazines",
+          "x": 80017,
+          "y": -4045,
+          "id": "8947774d-2a98-4551-a56d-1b8c7bc278ee936313"
+        },
+        "d4a802d6-bf9e-4202-9058-21624859d5e9936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Articles",
+          "x": 80005,
+          "y": -4020,
+          "id": "d4a802d6-bf9e-4202-9058-21624859d5e9936313"
+        },
+        "abfb799b-d672-4a91-8141-007dba1a9833936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Media content",
+          "x": 80027,
+          "y": -3995,
+          "id": "abfb799b-d672-4a91-8141-007dba1a9833936313"
+        },
+        "4a113d36-e4d7-4454-97fd-7ad5a89892e5936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Misc. web links",
+          "x": 80030,
+          "y": -3970,
+          "id": "4a113d36-e4d7-4454-97fd-7ad5a89892e5936313"
+        },
+        "46dcf54a-3931-4be1-b015-7483fb18593c936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Projects",
+          "x": 80008,
+          "y": -3945,
+          "id": "46dcf54a-3931-4be1-b015-7483fb18593c936313"
+        },
+        "d85491f1-b959-4874-b078-652098bd0853936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Tools",
+          "x": 79999,
+          "y": -3920,
+          "id": "d85491f1-b959-4874-b078-652098bd0853936313"
+        },
+        "325c86c3-18d8-448f-86e3-a18d663c1f29936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Organizations",
+          "x": 80026,
+          "y": -3895,
+          "id": "325c86c3-18d8-448f-86e3-a18d663c1f29936313"
+        },
+        "aa9095ca-c09c-4737-892d-b2ce76779dd4936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Standarts",
+          "x": 80013,
+          "y": -3870,
+          "id": "aa9095ca-c09c-4737-892d-b2ce76779dd4936313"
+        },
+        "6b1309ea-d23a-43cf-9bd9-108edddb2939936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Forums, Groups",
+          "x": 80034,
+          "y": -3845,
+          "id": "6b1309ea-d23a-43cf-9bd9-108edddb2939936313"
+        },
+        "8d8720c6-d0ab-4a15-8474-ae2bfb122658936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Laws",
+          "x": 79999,
+          "y": -3820,
+          "id": "8d8720c6-d0ab-4a15-8474-ae2bfb122658936313"
+        },
+        "d1fea730-cd85-4427-b3c4-45c0446185a6936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Adjacent Themes",
+          "x": 80038,
+          "y": -3795,
+          "id": "d1fea730-cd85-4427-b3c4-45c0446185a6936313"
+        },
+        "55436d3d-28fc-43e9-b39d-9562e884edc8936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Questions",
+          "x": 79788,
+          "y": -3671,
+          "id": "55436d3d-28fc-43e9-b39d-9562e884edc8936313"
+        },
+        "09a8257c-a941-4b37-931c-bc39a470f45b936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Problems",
+          "x": 79788,
+          "y": -3571,
+          "id": "09a8257c-a941-4b37-931c-bc39a470f45b936313"
+        },
+        "b8bc8b61-4739-4c64-ab15-fb27f01d4904936313": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Goals",
+          "x": 79788,
+          "y": -3471,
+          "id": "b8bc8b61-4739-4c64-ab15-fb27f01d4904936313"
+        },
+        "a1c64132-1789-457e-9b43-f1e12eab3df3936568": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 72,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Артисты\nкомедии",
+          "x": 100574,
+          "y": 173,
+          "id": "a1c64132-1789-457e-9b43-f1e12eab3df3936568",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "568a93e7-1e2a-4ebb-8732-20547137969b936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Development",
+          "x": 100874,
+          "y": 623,
+          "id": "568a93e7-1e2a-4ebb-8732-20547137969b936568"
+        },
+        "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "11/21/2019",
+          "x": 101058,
+          "y": 621,
+          "id": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936568"
+        },
+        "b9609706-aefe-40f0-89a0-a4f8d62433ea936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "init",
+          "x": 101169,
+          "y": 621,
+          "id": "b9609706-aefe-40f0-89a0-a4f8d62433ea936568"
+        },
+        "3b7b3c06-c296-4186-b318-8ab5a0cbe252936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Notes",
+          "x": 100874,
+          "y": -227,
+          "id": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936568"
+        },
+        "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Details, thoughts",
+          "x": 101024,
+          "y": -227,
+          "id": "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936568"
+        },
+        "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sections",
+          "x": 101024,
+          "y": 23,
+          "id": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568"
+        },
+        "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Books",
+          "x": 101148,
+          "y": -129,
+          "id": "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936568"
+        },
+        "16f49b41-b2ba-4484-a1e2-edce245fd872936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "R&D institutions",
+          "x": 101178,
+          "y": -104,
+          "id": "16f49b41-b2ba-4484-a1e2-edce245fd872936568"
+        },
+        "ef10ac5d-d5ad-45de-90b2-466bd9577043936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sites",
+          "x": 101144,
+          "y": -79,
+          "id": "ef10ac5d-d5ad-45de-90b2-466bd9577043936568"
+        },
+        "b48d2597-2c0f-4224-aff7-767b851c1a44936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Magazines",
+          "x": 101163,
+          "y": -54,
+          "id": "b48d2597-2c0f-4224-aff7-767b851c1a44936568"
+        },
+        "54a0e200-9170-4c28-8bfd-6d355d53328b936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Articles",
+          "x": 101151,
+          "y": -29,
+          "id": "54a0e200-9170-4c28-8bfd-6d355d53328b936568"
+        },
+        "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Media content",
+          "x": 101173,
+          "y": -4,
+          "id": "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936568"
+        },
+        "e61d9625-849b-4ed8-aaac-e9ae27532598936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Misc. web links",
+          "x": 101176,
+          "y": 21,
+          "id": "e61d9625-849b-4ed8-aaac-e9ae27532598936568"
+        },
+        "3d4bec96-a27b-4c21-bed3-62792eb01073936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Projects",
+          "x": 101154,
+          "y": 46,
+          "id": "3d4bec96-a27b-4c21-bed3-62792eb01073936568"
+        },
+        "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Tools",
+          "x": 101145,
+          "y": 71,
+          "id": "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936568"
+        },
+        "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Organizations",
+          "x": 101172,
+          "y": 96,
+          "id": "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936568"
+        },
+        "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Standarts",
+          "x": 101159,
+          "y": 121,
+          "id": "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936568"
+        },
+        "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Forums, Groups",
+          "x": 101180,
+          "y": 146,
+          "id": "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936568"
+        },
+        "6cc54441-5d50-4182-a740-5ea376b13ba0936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Laws",
+          "x": 101145,
+          "y": 171,
+          "id": "6cc54441-5d50-4182-a740-5ea376b13ba0936568"
+        },
+        "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Adjacent Themes",
+          "x": 101184,
+          "y": 196,
+          "id": "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936568"
+        },
+        "043279af-1c14-4d06-ae4f-97ae177e05e7936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Questions",
+          "x": 100874,
+          "y": 323,
+          "id": "043279af-1c14-4d06-ae4f-97ae177e05e7936568"
+        },
+        "bbad87b1-5f6d-449e-a027-5aba17eef50c936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Problems",
+          "x": 100874,
+          "y": 423,
+          "id": "bbad87b1-5f6d-449e-a027-5aba17eef50c936568"
+        },
+        "d562aae2-1f4d-418c-814a-dcb24c91fdf7936568": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Goals",
+          "x": 100874,
+          "y": 523,
+          "id": "d562aae2-1f4d-418c-814a-dcb24c91fdf7936568"
+        },
+        "a1c64132-1789-457e-9b43-f1e12eab3df3936921": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 72,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Комедия",
+          "x": 100862,
+          "y": 4566,
+          "id": "a1c64132-1789-457e-9b43-f1e12eab3df3936921",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "568a93e7-1e2a-4ebb-8732-20547137969b936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Development",
+          "x": 101163,
+          "y": 5016,
+          "id": "568a93e7-1e2a-4ebb-8732-20547137969b936921"
+        },
+        "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "11/21/2019",
+          "x": 101347,
+          "y": 5014,
+          "id": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936921"
+        },
+        "b9609706-aefe-40f0-89a0-a4f8d62433ea936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "init",
+          "x": 101458,
+          "y": 5014,
+          "id": "b9609706-aefe-40f0-89a0-a4f8d62433ea936921"
+        },
+        "3b7b3c06-c296-4186-b318-8ab5a0cbe252936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Notes",
+          "x": 101163,
+          "y": 4166,
+          "id": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936921"
+        },
+        "a306e5dc-4dae-4ecf-9429-c5ac8b720165936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Dictionary of\nconcepts",
+          "x": 101471,
+          "y": 2228,
+          "id": "a306e5dc-4dae-4ecf-9429-c5ac8b720165936921"
+        },
+        "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Details, thoughts",
+          "x": 101313,
+          "y": 4166,
+          "id": "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936921"
+        },
+        "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sections",
+          "x": 101313,
+          "y": 4416,
+          "id": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921"
+        },
+        "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Books",
+          "x": 101437,
+          "y": 4264,
+          "id": "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936921"
+        },
+        "16f49b41-b2ba-4484-a1e2-edce245fd872936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "R&D institutions",
+          "x": 101467,
+          "y": 4289,
+          "id": "16f49b41-b2ba-4484-a1e2-edce245fd872936921"
+        },
+        "ef10ac5d-d5ad-45de-90b2-466bd9577043936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sites",
+          "x": 101433,
+          "y": 4314,
+          "id": "ef10ac5d-d5ad-45de-90b2-466bd9577043936921"
+        },
+        "b48d2597-2c0f-4224-aff7-767b851c1a44936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Magazines",
+          "x": 101452,
+          "y": 4339,
+          "id": "b48d2597-2c0f-4224-aff7-767b851c1a44936921"
+        },
+        "54a0e200-9170-4c28-8bfd-6d355d53328b936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Articles",
+          "x": 101440,
+          "y": 4364,
+          "id": "54a0e200-9170-4c28-8bfd-6d355d53328b936921"
+        },
+        "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Media content",
+          "x": 101462,
+          "y": 4389,
+          "id": "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936921"
+        },
+        "e61d9625-849b-4ed8-aaac-e9ae27532598936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Misc. web links",
+          "x": 101465,
+          "y": 4414,
+          "id": "e61d9625-849b-4ed8-aaac-e9ae27532598936921"
+        },
+        "3d4bec96-a27b-4c21-bed3-62792eb01073936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Projects",
+          "x": 101443,
+          "y": 4439,
+          "id": "3d4bec96-a27b-4c21-bed3-62792eb01073936921"
+        },
+        "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Tools",
+          "x": 101434,
+          "y": 4464,
+          "id": "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936921"
+        },
+        "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Organizations",
+          "x": 101461,
+          "y": 4489,
+          "id": "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936921"
+        },
+        "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Standarts",
+          "x": 101448,
+          "y": 4514,
+          "id": "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936921"
+        },
+        "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Forums, Groups",
+          "x": 101469,
+          "y": 4539,
+          "id": "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936921"
+        },
+        "6cc54441-5d50-4182-a740-5ea376b13ba0936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Laws",
+          "x": 101434,
+          "y": 4564,
+          "id": "6cc54441-5d50-4182-a740-5ea376b13ba0936921"
+        },
+        "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Adjacent Themes",
+          "x": 101473,
+          "y": 4589,
+          "id": "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936921"
+        },
+        "043279af-1c14-4d06-ae4f-97ae177e05e7936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Questions",
+          "x": 101163,
+          "y": 4716,
+          "id": "043279af-1c14-4d06-ae4f-97ae177e05e7936921"
+        },
+        "bbad87b1-5f6d-449e-a027-5aba17eef50c936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Problems",
+          "x": 101163,
+          "y": 4816,
+          "id": "bbad87b1-5f6d-449e-a027-5aba17eef50c936921"
+        },
+        "d562aae2-1f4d-418c-814a-dcb24c91fdf7936921": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Goals",
+          "x": 101163,
+          "y": 4916,
+          "id": "d562aae2-1f4d-418c-814a-dcb24c91fdf7936921"
+        },
+        "e3ce911d-dcd9-495d-b64e-4927cc6b1c47444": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Комедия",
+          "id": "e3ce911d-dcd9-495d-b64e-4927cc6b1c47444",
+          "x": 105546,
+          "y": 2471,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "21b2b854-668c-47a9-934e-8e93464153a2": {
+          "id": "21b2b854-668c-47a9-934e-8e93464153a2",
+          "x": 101663,
+          "y": 2287,
+          "label": "Список"
+        },
+        "cc7a610e-7c25-453a-bfe3-80efa686f1e2": {
+          "id": "cc7a610e-7c25-453a-bfe3-80efa686f1e2",
+          "x": 101942,
+          "y": 2262,
+          "label": "Benny Hill"
+        },
+        "fa3ff2e7-7371-4cfb-9920-0cf60f9ba315": {
+          "id": "fa3ff2e7-7371-4cfb-9920-0cf60f9ba315",
+          "x": 101954,
+          "y": 2291,
+          "label": "Monty Python"
+        },
+        "91c25b5a-f5d1-465f-9bae-af966079a98d": {
+          "id": "91c25b5a-f5d1-465f-9bae-af966079a98d",
+          "x": 101968,
+          "y": 2323,
+          "label": "The Muppet Show"
+        },
+        "954596f7-c7ab-45ef-8cab-840b70302fbf": {
+          "id": "954596f7-c7ab-45ef-8cab-840b70302fbf",
+          "x": 101801,
+          "y": 2286,
+          "label": "Телешоу"
+        },
+        "5ff8f560-ea30-47b9-8200-824bdddb0995": {
+          "id": "5ff8f560-ea30-47b9-8200-824bdddb0995",
+          "x": 101947,
+          "y": 2354,
+          "label": "Маски-Шоу"
+        },
+        "93cbc05e-5595-4119-9793-5c1737a5f811": {
+          "id": "93cbc05e-5595-4119-9793-5c1737a5f811",
+          "x": 101936,
+          "y": 2383,
+          "label": "Оба-на!"
+        },
+        "a1c64132-1789-457e-9b43-f1e12eab3df393627": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 72,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Отдых",
+          "x": 101043,
+          "y": 7461,
+          "id": "a1c64132-1789-457e-9b43-f1e12eab3df393627",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "568a93e7-1e2a-4ebb-8732-20547137969b93627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Development",
+          "x": 101343,
+          "y": 7911,
+          "id": "568a93e7-1e2a-4ebb-8732-20547137969b93627"
+        },
+        "0a322fa4-5dba-4cb0-b75c-ab588a80b96f93627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "11/21/2019",
+          "x": 101527,
+          "y": 7909,
+          "id": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f93627"
+        },
+        "b9609706-aefe-40f0-89a0-a4f8d62433ea93627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "init",
+          "x": 101638,
+          "y": 7909,
+          "id": "b9609706-aefe-40f0-89a0-a4f8d62433ea93627"
+        },
+        "3b7b3c06-c296-4186-b318-8ab5a0cbe25293627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Notes",
+          "x": 101343,
+          "y": 7061,
+          "id": "3b7b3c06-c296-4186-b318-8ab5a0cbe25293627"
+        },
+        "a306e5dc-4dae-4ecf-9429-c5ac8b72016593627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Dictionary of\nconcepts",
+          "x": 101562,
+          "y": 6231,
+          "id": "a306e5dc-4dae-4ecf-9429-c5ac8b72016593627"
+        },
+        "0d96aa90-86b1-4cff-ba7e-85d7e3f169c093627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Details, thoughts",
+          "x": 101493,
+          "y": 7061,
+          "id": "0d96aa90-86b1-4cff-ba7e-85d7e3f169c093627"
+        },
+        "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sections",
+          "x": 101493,
+          "y": 7311,
+          "id": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627"
+        },
+        "e1bbbe1d-e5af-48ab-b717-b0118142f6e793627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Books",
+          "x": 101617,
+          "y": 7159,
+          "id": "e1bbbe1d-e5af-48ab-b717-b0118142f6e793627"
+        },
+        "16f49b41-b2ba-4484-a1e2-edce245fd87293627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "R&D institutions",
+          "x": 101647,
+          "y": 7184,
+          "id": "16f49b41-b2ba-4484-a1e2-edce245fd87293627"
+        },
+        "ef10ac5d-d5ad-45de-90b2-466bd957704393627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Sites",
+          "x": 101613,
+          "y": 7209,
+          "id": "ef10ac5d-d5ad-45de-90b2-466bd957704393627"
+        },
+        "b48d2597-2c0f-4224-aff7-767b851c1a4493627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Magazines",
+          "x": 101632,
+          "y": 7234,
+          "id": "b48d2597-2c0f-4224-aff7-767b851c1a4493627"
+        },
+        "54a0e200-9170-4c28-8bfd-6d355d53328b93627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Articles",
+          "x": 101620,
+          "y": 7259,
+          "id": "54a0e200-9170-4c28-8bfd-6d355d53328b93627"
+        },
+        "ae93cac5-ff1c-4bb4-baba-d6f7fc73862493627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Media content",
+          "x": 101642,
+          "y": 7284,
+          "id": "ae93cac5-ff1c-4bb4-baba-d6f7fc73862493627"
+        },
+        "e61d9625-849b-4ed8-aaac-e9ae2753259893627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Misc. web links",
+          "x": 101645,
+          "y": 7309,
+          "id": "e61d9625-849b-4ed8-aaac-e9ae2753259893627"
+        },
+        "3d4bec96-a27b-4c21-bed3-62792eb0107393627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Projects",
+          "x": 101623,
+          "y": 7334,
+          "id": "3d4bec96-a27b-4c21-bed3-62792eb0107393627"
+        },
+        "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca4593627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Tools",
+          "x": 101614,
+          "y": 7359,
+          "id": "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca4593627"
+        },
+        "1d3698e0-98fb-4d43-91c3-7572a5f7a6c293627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Organizations",
+          "x": 101641,
+          "y": 7384,
+          "id": "1d3698e0-98fb-4d43-91c3-7572a5f7a6c293627"
+        },
+        "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d93627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Standarts",
+          "x": 101628,
+          "y": 7409,
+          "id": "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d93627"
+        },
+        "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f593627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Forums, Groups",
+          "x": 101649,
+          "y": 7434,
+          "id": "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f593627"
+        },
+        "6cc54441-5d50-4182-a740-5ea376b13ba093627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Laws",
+          "x": 101614,
+          "y": 7459,
+          "id": "6cc54441-5d50-4182-a740-5ea376b13ba093627"
+        },
+        "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc93627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Adjacent Themes",
+          "x": 101653,
+          "y": 7484,
+          "id": "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc93627"
+        },
+        "043279af-1c14-4d06-ae4f-97ae177e05e793627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Questions",
+          "x": 101343,
+          "y": 7611,
+          "id": "043279af-1c14-4d06-ae4f-97ae177e05e793627"
+        },
+        "bbad87b1-5f6d-449e-a027-5aba17eef50c93627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Problems",
+          "x": 101343,
+          "y": 7711,
+          "id": "bbad87b1-5f6d-449e-a027-5aba17eef50c93627"
+        },
+        "d562aae2-1f4d-418c-814a-dcb24c91fdf793627": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Goals",
+          "x": 101343,
+          "y": 7811,
+          "id": "d562aae2-1f4d-418c-814a-dcb24c91fdf793627"
+        },
+        "e3ce911d-dcd9-495d-b64e-4927cc6b1c47537": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Отдых",
+          "id": "e3ce911d-dcd9-495d-b64e-4927cc6b1c47537",
+          "x": 105026,
+          "y": 6419,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "0590eaa6-d799-4ac1-910e-ed78e2d333b9": {
+          "id": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "x": 101832,
+          "y": 6231,
+          "label": "Activities"
+        },
+        "3cba6a25-90e7-4547-a656-a0d8fc242333": {
+          "id": "3cba6a25-90e7-4547-a656-a0d8fc242333",
+          "x": 102017,
+          "y": 6085,
+          "label": "dancing"
+        },
+        "ee57fe3f-9830-47a0-a725-b95818dfe564": {
+          "id": "ee57fe3f-9830-47a0-a725-b95818dfe564",
+          "x": 102010,
+          "y": 6116,
+          "label": "riding"
+        },
+        "ad3c3756-9eb6-4cb9-a09c-a5151bc71a4a": {
+          "id": "ad3c3756-9eb6-4cb9-a09c-a5151bc71a4a",
+          "x": 102024,
+          "y": 6150,
+          "label": "swimming"
+        },
+        "2a662043-0f66-4e9c-9732-7d1225ce0e43": {
+          "id": "2a662043-0f66-4e9c-9732-7d1225ce0e43",
+          "x": 102041,
+          "y": 6182,
+          "label": "playing a game"
+        },
+        "206342bf-0b26-47c2-8c0b-fac343376d92": {
+          "id": "206342bf-0b26-47c2-8c0b-fac343376d92",
+          "x": 102013,
+          "y": 6210,
+          "label": "talking"
+        },
+        "ba860a3a-d3cc-4c45-a58c-56cc49ee4904": {
+          "id": "ba860a3a-d3cc-4c45-a58c-56cc49ee4904",
+          "x": 102011,
+          "y": 6240,
+          "label": "joking"
+        },
+        "e8c9cea8-ecd2-4947-b2e1-1fd9bad6b195": {
+          "id": "e8c9cea8-ecd2-4947-b2e1-1fd9bad6b195",
+          "x": 102013,
+          "y": 6267,
+          "label": "writing"
+        },
+        "a2a4d06c-dfe4-4a20-9dab-5e99b20c116e": {
+          "id": "a2a4d06c-dfe4-4a20-9dab-5e99b20c116e",
+          "x": 102047,
+          "y": 6299,
+          "label": "listening to music"
+        },
+        "f2bc1e25-645b-4ba0-ba96-99df7aa565e9": {
+          "id": "f2bc1e25-645b-4ba0-ba96-99df7aa565e9",
+          "x": 102056,
+          "y": 6328,
+          "label": "looking at a painting"
+        },
+        "2fc1c7b5-92f1-4c26-9171-92a5721ca8eb": {
+          "id": "2fc1c7b5-92f1-4c26-9171-92a5721ca8eb",
+          "x": 102016,
+          "y": 6355,
+          "label": "reading"
+        },
+        "928c2f01-208a-491f-890d-e906a710c8e3": {
+          "id": "928c2f01-208a-491f-890d-e906a710c8e3",
+          "x": 102064,
+          "y": 6391,
+          "label": "watching a play, movie"
+        },
+        "124cfc69-efd0-4aac-baea-70bfbf915d0e": {
+          "id": "124cfc69-efd0-4aac-baea-70bfbf915d0e",
+          "x": 91881,
+          "y": -9719,
+          "label": "Разобрать"
+        },
+        "fe96f10e-948e-42f5-87d4-af8effdd1b44": {
+          "id": "fe96f10e-948e-42f5-87d4-af8effdd1b44",
+          "x": 91881,
+          "y": -8845,
+          "label": "Разобрать"
+        },
+        "4bd0950f-23c0-4b93-998a-01c0d74b6e48": {
+          "id": "4bd0950f-23c0-4b93-998a-01c0d74b6e48",
+          "x": 92032,
+          "y": -9366,
+          "label": "Notes"
+        },
+        "6357e618-7a50-470b-bfd9-e8f135db9282": {
+          "id": "6357e618-7a50-470b-bfd9-e8f135db9282",
+          "x": 92302,
+          "y": -9394,
+          "label": "Равномерное и методичное объяснение деталей каждой темы"
+        },
+        "0256102c-d64b-42fa-95a5-bbc728651778": {
+          "id": "0256102c-d64b-42fa-95a5-bbc728651778",
+          "x": 92419,
+          "y": -9307,
+          "label": "Но без особых объяснений внутренних концептуальных философских, исторических связей идей.\nКому этого не хватает - может быть скучновато.\nХотя потом появилось несколько роликов специально по этой сфере.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "70393d26-2a27-4c4a-aacf-0949e1633ab8": {
+          "id": "70393d26-2a27-4c4a-aacf-0949e1633ab8",
+          "x": 92032,
+          "y": -9101,
+          "label": "Notes"
+        },
+        "ee3440e3-4794-4d6d-a6b5-ce43830aa853": {
+          "id": "ee3440e3-4794-4d6d-a6b5-ce43830aa853",
+          "x": 92403,
+          "y": -9097,
+          "label": "Смотрел курсы где-то до 2016 года. Каждый курс состоит из серии роликов по теме. \nИ в целом, все курсы довольно качественные, подробные, без воды, в хорошем темпе.\nСоответствует профессиональному уровню, по крайней мере в темах IT и полиграфии.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "1fc66f1c-ddb2-447f-ae1d-fbb6fe525c39": {
+          "id": "1fc66f1c-ddb2-447f-ae1d-fbb6fe525c39",
+          "x": 92327,
+          "y": -9358,
+          "label": "Спокойный, вдумчивый, доброжелательный, заинтересованный голос."
+        },
+        "2a517415-a965-467a-b94c-8d5b73bf7818": {
+          "id": "2a517415-a965-467a-b94c-8d5b73bf7818",
+          "x": 92300,
+          "y": -9259,
+          "label": "Ролики по истории и экономике - в контексте культуры штатов."
         }
       },
       "length": 0,
@@ -34023,6 +40000,5653 @@ var schemeData =
           "id": "765f4b8a-a51f-445b-a3f9-2cd73c49ef99899359111147338",
           "from": "d4628ef8-97af-4c5a-b900-7c3b16d9d989899359111147338",
           "to": "e93af4ee-6ab3-4857-8283-128dcf629ab3210609247158728875145680296120294430899359111147338"
+        },
+        "3e9e53c5-b28a-400d-91d3-d0a2cecbe00a": {
+          "from": "01b8216c-25dc-4884-bd2a-4a1a61a32300936",
+          "to": "ceff0d47-9aef-4aa2-ba61-1df29b1d9a02",
+          "id": "3e9e53c5-b28a-400d-91d3-d0a2cecbe00a"
+        },
+        "f08e026f-66f7-489b-b494-6bb19f7135ce": {
+          "from": "01b8216c-25dc-4884-bd2a-4a1a61a32300936",
+          "to": "4665c9f0-5456-4db3-a7b9-ca1c1653d394",
+          "id": "f08e026f-66f7-489b-b494-6bb19f7135ce"
+        },
+        "14b9dc68-c4cb-4dde-b7d2-41cb798e485d": {
+          "from": "01b8216c-25dc-4884-bd2a-4a1a61a32300936",
+          "to": "2b234b35-e9f5-4963-a51a-070623d987cf",
+          "id": "14b9dc68-c4cb-4dde-b7d2-41cb798e485d"
+        },
+        "3bd633bc-c02b-4dba-a458-c06af497c9b3": {
+          "from": "01b8216c-25dc-4884-bd2a-4a1a61a32300936",
+          "to": "842f30dc-efa0-4c27-a4cb-893e928aa82f",
+          "id": "3bd633bc-c02b-4dba-a458-c06af497c9b3"
+        },
+        "69799d85-500e-4765-bbf5-c3966a59cc24": {
+          "from": "01b8216c-25dc-4884-bd2a-4a1a61a32300936",
+          "to": "6c1e97d8-0493-4bc7-9e08-244ea49d47bb",
+          "id": "69799d85-500e-4765-bbf5-c3966a59cc24"
+        },
+        "a31f5cec-396c-46de-a5f3-1e0862f456a1": {
+          "from": "01b8216c-25dc-4884-bd2a-4a1a61a32300936",
+          "to": "b36078ca-9e62-40f5-b8e0-ec994b8ef451",
+          "id": "a31f5cec-396c-46de-a5f3-1e0862f456a1"
+        },
+        "0073f9c0-bcb9-4ed5-86fd-8b1562b6ffa3": {
+          "from": "dfa9632b-3766-4da2-90c0-91372455e548",
+          "to": "f9d270c0-97ad-4a02-991e-dc74f4c74cdf",
+          "id": "0073f9c0-bcb9-4ed5-86fd-8b1562b6ffa3"
+        },
+        "bae488db-f659-4add-b858-ee64c5d3e127": {
+          "from": "6bc6dcd2-59ec-4d20-9af2-27f3f4959012",
+          "to": "f057fcac-fbcf-46b9-829b-3c196a3032ed",
+          "id": "bae488db-f659-4add-b858-ee64c5d3e127"
+        },
+        "39d89fbb-0be2-4483-91a3-4d6db121900f": {
+          "from": "cc6db21b-4c00-452f-9cc1-50536c8c8606",
+          "to": "776d7ec7-0d57-4157-800b-41a36db92ffb",
+          "id": "39d89fbb-0be2-4483-91a3-4d6db121900f"
+        },
+        "9d09eaa3-c006-416a-829e-0da9a9f86bb5": {
+          "from": "d6f55f02-43c9-4583-b21b-bec2829eb4fa",
+          "to": "d28505e9-d122-4754-b7e6-bc018bd53609",
+          "id": "9d09eaa3-c006-416a-829e-0da9a9f86bb5"
+        },
+        "dbcdd9af-1c11-44e1-a320-7142dc852a4c": {
+          "from": "c829c4ca-e77b-4292-90e1-0300d13d3f11",
+          "to": "22c54e07-11df-4cda-aef1-cdceda0edb59",
+          "id": "dbcdd9af-1c11-44e1-a320-7142dc852a4c"
+        },
+        "aaed2240-b099-44ac-b4b3-a150980ef737": {
+          "from": "3b0bd358-b1fb-4d1a-9bcc-f4b08c82f0ec",
+          "to": "770cea25-2389-4aa5-9fa6-f995cab90f6a",
+          "id": "aaed2240-b099-44ac-b4b3-a150980ef737"
+        },
+        "d84b834d-7404-4593-baad-3b66829238f8": {
+          "from": "a9d70f46-a294-47e4-9571-e92683ce73aa",
+          "to": "d1ce3ebe-e2cd-4a2b-b28e-4f2177d0ba52",
+          "id": "d84b834d-7404-4593-baad-3b66829238f8"
+        },
+        "e0a2fd1c-ff48-44b9-9ab1-d2ca8f3bfb5b": {
+          "from": "d5501c5c-6acf-4db7-ab4f-06138978c5a3",
+          "to": "da216dc1-92af-45e4-a6f4-fb5b9fbf08b9",
+          "id": "e0a2fd1c-ff48-44b9-9ab1-d2ca8f3bfb5b"
+        },
+        "e61ab9b1-941a-4caa-bcbb-2a73abb04245": {
+          "from": "d4e10679-fb19-4d01-ba66-316393ba69b4",
+          "to": "0e966b58-f91b-4f1f-bccf-82bd5c7dd3a0",
+          "id": "e61ab9b1-941a-4caa-bcbb-2a73abb04245"
+        },
+        "761c506b-6a69-4c89-ba9f-95a901644482": {
+          "from": "aa01b152-954a-47fe-8f5d-dc50d9c28328",
+          "to": "c8a1c294-ba18-46ec-8b31-aa5559fd424a",
+          "id": "761c506b-6a69-4c89-ba9f-95a901644482"
+        },
+        "06a9492d-378d-4790-8f9b-4dff6f32aa35": {
+          "from": "15991f56-4f0d-4cbb-98dc-60104edfe922",
+          "to": "5928f6f9-e5e1-46cf-a0b3-c9700ed10f00",
+          "id": "06a9492d-378d-4790-8f9b-4dff6f32aa35"
+        },
+        "1234d372-519f-46a0-9389-180db2f44557": {
+          "from": "aeaa5464-0bfe-420b-a756-e0379b7699a9",
+          "to": "78f66c3e-9cf1-4117-a034-54095d0698b5",
+          "id": "1234d372-519f-46a0-9389-180db2f44557"
+        },
+        "3887a180-5e68-4d8b-a024-6dfe9fb279c2": {
+          "from": "8022a647-d55a-4b02-ab26-da90dd6b2612",
+          "to": "2563af08-1a17-494f-ab8c-2f35949e345e",
+          "id": "3887a180-5e68-4d8b-a024-6dfe9fb279c2"
+        },
+        "727cc42e-678b-496f-82b8-486dcaa072a3": {
+          "from": "7ae15ede-b006-4425-b615-6836fba59118",
+          "to": "390720c1-51c6-46b9-8773-b355044d4b06",
+          "id": "727cc42e-678b-496f-82b8-486dcaa072a3"
+        },
+        "b5724ec3-62ad-4429-a612-f72a83c19639": {
+          "from": "a38bbcab-6152-400c-9cad-a723376f7f37",
+          "to": "922dc659-e01f-4ea7-933c-d2378caccc51",
+          "id": "b5724ec3-62ad-4429-a612-f72a83c19639"
+        },
+        "d450eb36-4e45-42d5-abe1-276ed066ced8": {
+          "from": "872b51e0-20f7-49f4-a14d-eceac618c20e",
+          "to": "76295dce-4d49-4a9e-85db-2c034ace79ed",
+          "id": "d450eb36-4e45-42d5-abe1-276ed066ced8"
+        },
+        "d8ec39e8-f5b6-4d0b-80a1-95d0d094a867": {
+          "from": "e0537c91-b6ff-476e-9a50-4bdf6afdf1ea",
+          "to": "cbc54534-ecd2-4006-afd8-e992a26aed1d",
+          "id": "d8ec39e8-f5b6-4d0b-80a1-95d0d094a867"
+        },
+        "b1cbcc70-114b-4aa9-b912-77d23df52b67": {
+          "from": "6d82fa59-16b6-40c2-9dee-ec7492bda610",
+          "to": "fe8d7d0e-ba46-4d9e-b0d8-6b3b9446b972",
+          "id": "b1cbcc70-114b-4aa9-b912-77d23df52b67"
+        },
+        "b1322743-0e1b-4ff3-92a8-68c5cd3b5c6e": {
+          "from": "26174ef1-3fd7-4905-9c8b-6162a434365a",
+          "to": "0dcd77d3-d7da-4e56-a2a2-e99820b172d8",
+          "id": "b1322743-0e1b-4ff3-92a8-68c5cd3b5c6e"
+        },
+        "d8a82228-29c3-42a9-a417-49428dba670d": {
+          "from": "37a56d25-7a82-4d95-8d49-65f6aa253c17",
+          "to": "90dcb784-680d-4d27-9a01-b34c4176b2ac",
+          "id": "d8a82228-29c3-42a9-a417-49428dba670d"
+        },
+        "9a39226c-34e7-4430-882c-48dd7ef6bada": {
+          "from": "f0064ede-05cd-474c-a334-ae51a042f625",
+          "to": "74c0a29c-11f9-4a40-b55c-ec3cde267935",
+          "id": "9a39226c-34e7-4430-882c-48dd7ef6bada"
+        },
+        "0340904b-7d58-446d-8d51-fa998ad7ebd1": {
+          "from": "9582b5af-ba55-454d-9e84-871e9481f6dd",
+          "to": "d03ba10a-f756-4bfa-9130-ca78d38c833b",
+          "id": "0340904b-7d58-446d-8d51-fa998ad7ebd1"
+        },
+        "30d4b60d-27f0-4457-9268-fd440196928c": {
+          "from": "c5864e89-58eb-412e-af9d-2c27188ad9ce",
+          "to": "5b0b8fc3-0e2f-4014-ac1d-a2613059c880",
+          "id": "30d4b60d-27f0-4457-9268-fd440196928c"
+        },
+        "79874dc3-1073-4241-a407-0331b2c7a938": {
+          "from": "2ad7282e-0c42-451e-a4d2-62aeb8419a59",
+          "to": "60c0cd09-3923-464c-ae83-1b2222d9f3bd",
+          "id": "79874dc3-1073-4241-a407-0331b2c7a938"
+        },
+        "515987e1-fc1b-4ef2-b306-381c1d6c7b11": {
+          "from": "a2001ec5-be55-4e04-a3a4-1fed41873183",
+          "to": "1c29d6f2-406a-4110-9518-d7408b640b86",
+          "id": "515987e1-fc1b-4ef2-b306-381c1d6c7b11"
+        },
+        "e2bffb3f-09a8-4ff0-81a9-664ee4eba9bb": {
+          "from": "62039472-4e19-41ef-9d15-9becae890c65",
+          "to": "395ee108-1f3e-4f77-b29e-4f1544d6c356",
+          "id": "e2bffb3f-09a8-4ff0-81a9-664ee4eba9bb"
+        },
+        "97218f13-a474-4244-adb5-edd4222e42e6": {
+          "from": "1a7f60de-f228-4c7a-b716-f267d618933e",
+          "to": "c9112efd-5bbf-4cbf-9b3b-89de7cc318d8",
+          "id": "97218f13-a474-4244-adb5-edd4222e42e6"
+        },
+        "39c5e327-79c2-4e9d-89e1-10634a4fe914": {
+          "from": "cdf20ae8-b5b5-468d-9b51-464f02a83178",
+          "to": "5eb114e5-e3fc-46c2-8dad-c5555a468365",
+          "id": "39c5e327-79c2-4e9d-89e1-10634a4fe914"
+        },
+        "634f41c7-dc30-4806-9582-a848407cc1b8": {
+          "from": "ae978692-1a38-4909-8d45-a72a16758c7e",
+          "to": "ab841037-1051-4e04-b21e-70f868623abf",
+          "id": "634f41c7-dc30-4806-9582-a848407cc1b8"
+        },
+        "0b43ae7b-4ca2-4b08-a0c6-04744eafc69e": {
+          "from": "26278965-fbdf-4cf1-b9a7-f65ca5e770b9",
+          "to": "0ae93cfd-7bec-49b4-b3db-7ed23e87d0f6",
+          "id": "0b43ae7b-4ca2-4b08-a0c6-04744eafc69e"
+        },
+        "674b0044-ba06-4f0b-aeba-56c8caee7ed3": {
+          "from": "5b809b37-f569-4264-b27e-1582115e05ec",
+          "to": "5b2f4ba7-64e9-40d6-8e6c-9d24f3c95b2b",
+          "id": "674b0044-ba06-4f0b-aeba-56c8caee7ed3"
+        },
+        "63973edd-1c58-4652-965d-0118b8da3fa4": {
+          "from": "99965935-5927-4139-bbb3-33fd0e8483e4",
+          "to": "dd6bae9f-793b-479b-90d0-75e1dde16561",
+          "id": "63973edd-1c58-4652-965d-0118b8da3fa4"
+        },
+        "40496e47-cd39-460e-a2bc-1d172b0c4b09": {
+          "from": "d986a168-5712-49e8-bb60-3b372be3747f",
+          "to": "b2b1bed4-ff0a-4015-8e3b-180f01ff8cee",
+          "id": "40496e47-cd39-460e-a2bc-1d172b0c4b09"
+        },
+        "9e48ad23-d9f9-4b6d-b77d-4ba2018776c8": {
+          "from": "3ff2755a-b87e-498d-b2bf-3a949a79f738",
+          "to": "a7932c6d-4b9a-4041-a8dc-baf9df9945e8",
+          "id": "9e48ad23-d9f9-4b6d-b77d-4ba2018776c8"
+        },
+        "658bb82a-345b-4e36-a460-7633c5896c2b": {
+          "from": "28467475-a6cd-4a17-b5b0-aeb9e15e1af0",
+          "to": "e5b0ab93-cf87-4a7c-8ebb-233a7b695842",
+          "id": "658bb82a-345b-4e36-a460-7633c5896c2b"
+        },
+        "9fc2cded-be00-4341-8c0d-6c1108d880b9": {
+          "from": "97a7d3ac-f134-45e1-be5c-13a2724efd8f",
+          "to": "c9a42d6d-7e54-4101-be74-3dcfcb875752",
+          "id": "9fc2cded-be00-4341-8c0d-6c1108d880b9"
+        },
+        "efbd5d50-ee6c-4183-a0d4-b360e7032436": {
+          "from": "5ed62783-79e2-4d7b-8f2f-eac7a8539d45",
+          "to": "3f74127b-70ef-4e2e-81c9-37f8129c27ca",
+          "id": "efbd5d50-ee6c-4183-a0d4-b360e7032436"
+        },
+        "7d603be0-3f86-46d9-8de9-d0cc5aa3eb3f": {
+          "from": "e991d575-c053-4ff0-9ae7-65c8a9e67fde",
+          "to": "517c8c7c-b729-4d99-9103-71d505228d3d",
+          "id": "7d603be0-3f86-46d9-8de9-d0cc5aa3eb3f"
+        },
+        "426740ed-63da-42c8-9773-d94fd67bacdd": {
+          "from": "a62f3a6d-bebd-4a2f-ac96-749d767126be",
+          "to": "a63f0161-5831-4572-9b79-bf9517463e53",
+          "id": "426740ed-63da-42c8-9773-d94fd67bacdd"
+        },
+        "d031796b-10fe-4147-a3da-6526d7ff3885": {
+          "from": "b6d20d6e-cba7-4cec-9001-477acef84c37",
+          "to": "3efd556c-f607-4d47-9d8c-6cc458497f6f",
+          "id": "d031796b-10fe-4147-a3da-6526d7ff3885"
+        },
+        "4bdfaee7-1a65-436e-a978-999f4797afb3": {
+          "from": "41d903b1-b115-4b54-bcf2-3efc840ee711",
+          "to": "8420f709-e1fc-4dbd-9a60-bc6f4ad37442",
+          "id": "4bdfaee7-1a65-436e-a978-999f4797afb3"
+        },
+        "8c88245e-396e-49bd-8929-b64604b9971e": {
+          "from": "ab99fdfb-594b-4f6d-9713-1b855be42dd5",
+          "to": "b8b3971a-f05d-4e22-9029-357b092d4755",
+          "id": "8c88245e-396e-49bd-8929-b64604b9971e"
+        },
+        "2f0f7356-7f5f-450d-8110-abc84157833b": {
+          "from": "5d13f79e-768c-4171-9109-c315b578d4f1",
+          "to": "5bb3b614-cc21-45ce-9aef-fa257ae9b725",
+          "id": "2f0f7356-7f5f-450d-8110-abc84157833b"
+        },
+        "03c4786b-6030-496b-aa8e-ab18f3820327": {
+          "from": "6a3efcb0-ffc1-4227-ac7f-d3efc1b9e085",
+          "to": "9287e632-54fe-42db-a13f-7f13d3ceb503",
+          "id": "03c4786b-6030-496b-aa8e-ab18f3820327"
+        },
+        "503c045c-b3d9-43c5-9d9e-e87d9bd3c2d1": {
+          "from": "230c32f9-7d85-4df7-8a01-4c14c0bc23bb",
+          "to": "4bc2fbad-eca6-4d74-9942-44d7d49b3b52",
+          "id": "503c045c-b3d9-43c5-9d9e-e87d9bd3c2d1"
+        },
+        "cc80d319-77f8-4ff1-99bd-14b174d5f593": {
+          "from": "61b6d720-4ccd-45df-9a69-6a987f238ae5",
+          "to": "857bb312-54e2-427d-b591-ff2ef0bbdc03",
+          "id": "cc80d319-77f8-4ff1-99bd-14b174d5f593"
+        },
+        "bc084284-d7db-4be3-a735-8dc9893762f5": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "77dc5a2f-a507-4ed0-8452-c4200d8ea872",
+          "id": "bc084284-d7db-4be3-a735-8dc9893762f5"
+        },
+        "28ea0558-67b4-457b-8b87-ace985decc0b": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "e714daab-ab1f-46ac-a697-ea2af0cf963e",
+          "id": "28ea0558-67b4-457b-8b87-ace985decc0b"
+        },
+        "96733e2a-b421-4e66-8395-cb45ed296d72": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "213ab181-d9e7-42c9-a77f-09def5a70305",
+          "id": "96733e2a-b421-4e66-8395-cb45ed296d72"
+        },
+        "a4282da4-b8ea-49d1-a203-39808c44f352": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "b54b1232-1651-4a01-8166-99b2d80cdd63",
+          "id": "a4282da4-b8ea-49d1-a203-39808c44f352"
+        },
+        "76144c17-b698-4a6b-8fcd-2af8a05d8c46": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "8ed4e222-6da6-4d95-9cbc-580e41fd5d0a",
+          "id": "76144c17-b698-4a6b-8fcd-2af8a05d8c46"
+        },
+        "38f022c5-a4d4-4ec1-859e-14a6333d5f04": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "df65b00f-e4cb-4914-9bd8-3e69d768dfe9",
+          "id": "38f022c5-a4d4-4ec1-859e-14a6333d5f04"
+        },
+        "397cdbf3-83e0-4b01-a525-c79647df9a98": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "34bae777-c4b1-4bdd-adea-40b95e4f38fa",
+          "id": "397cdbf3-83e0-4b01-a525-c79647df9a98"
+        },
+        "10536662-9117-4336-8e0c-313c00eb9b03": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "42f64ea2-eaf7-46bd-a076-c9aa74071a7b",
+          "id": "10536662-9117-4336-8e0c-313c00eb9b03"
+        },
+        "d0bb587c-5411-485f-8dc8-aee2e8509922": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "65c8e923-ca5d-49ab-ad2a-ad34dcf5fb95",
+          "id": "d0bb587c-5411-485f-8dc8-aee2e8509922"
+        },
+        "11bd70f8-2f44-490b-97a8-8b001e56c9fc": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "cd2aff54-bb6f-4fbb-a658-c7aee6c2388d",
+          "id": "11bd70f8-2f44-490b-97a8-8b001e56c9fc"
+        },
+        "9048d2be-fe69-4d7d-a8e8-29bcde43077e": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "581654c6-bc44-4956-8dae-0ef9ad1556fd",
+          "id": "9048d2be-fe69-4d7d-a8e8-29bcde43077e"
+        },
+        "fcf6621c-665d-4f33-af0e-8ca882ba07a6": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "05c824ad-5e94-4a5f-8201-619743ac4018",
+          "id": "fcf6621c-665d-4f33-af0e-8ca882ba07a6"
+        },
+        "f7e00175-9245-46d2-872b-32dbef458a23": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "b823bdb6-c7ad-4b73-ada1-beaad7314b53",
+          "id": "f7e00175-9245-46d2-872b-32dbef458a23"
+        },
+        "6564aabe-5772-4d95-8502-db578ae03eae": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "29676ef9-6a40-45e7-a618-fe507f65b570",
+          "id": "6564aabe-5772-4d95-8502-db578ae03eae"
+        },
+        "d33aea84-dc09-421f-801a-3cd6893e7a4f": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "bd75ed2b-5c0c-4523-9a0e-bbea6cfde9aa",
+          "id": "d33aea84-dc09-421f-801a-3cd6893e7a4f"
+        },
+        "f91dac7f-31c3-45c6-876e-819d51e5286d": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "b6436f9b-9e56-4dea-9d7b-acebbda5f296",
+          "id": "f91dac7f-31c3-45c6-876e-819d51e5286d"
+        },
+        "6543f0ee-dfae-46fb-8c9d-5f7a8dd32299": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "94d73f00-22f5-426a-b95a-d07647edec8a",
+          "id": "6543f0ee-dfae-46fb-8c9d-5f7a8dd32299"
+        },
+        "1212b367-3d42-4e56-97d3-a405301e5fcf": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "5be51f43-04da-4fa5-9b6a-dc270f87629c",
+          "id": "1212b367-3d42-4e56-97d3-a405301e5fcf"
+        },
+        "f8a8e272-725a-488e-9cc5-5fe454f07aba": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "494ab655-9274-4d7a-ad6c-2557aa6aee49",
+          "id": "f8a8e272-725a-488e-9cc5-5fe454f07aba"
+        },
+        "793cb645-5744-413f-be80-5bf18b474a0b": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "6c63b0d1-7a25-4521-b823-d07044160110",
+          "id": "793cb645-5744-413f-be80-5bf18b474a0b"
+        },
+        "341fc3d6-3c11-440f-b1cb-b4e07f25f805": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "6bc6dcd2-59ec-4d20-9af2-27f3f4959012",
+          "id": "341fc3d6-3c11-440f-b1cb-b4e07f25f805"
+        },
+        "950c0fdd-4c6e-4bb4-8952-b67bfce144cb": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "2770d9e1-fb60-416c-9d7b-d8185dd43769",
+          "id": "950c0fdd-4c6e-4bb4-8952-b67bfce144cb"
+        },
+        "232c030f-379a-423d-b429-7758a75dce4d": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "c9c2c068-a907-4737-9a4e-3fc217f5b24a",
+          "id": "232c030f-379a-423d-b429-7758a75dce4d"
+        },
+        "3b3038b4-50ac-4cf9-9488-ba974242fcf7": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "a52b967e-1c7e-4922-acf0-f7b138b67304",
+          "id": "3b3038b4-50ac-4cf9-9488-ba974242fcf7"
+        },
+        "d40dbf6a-a3b2-44cd-b44c-ec6d9eb14a8d": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "d1709439-5508-4951-ae79-80dfd65db20c",
+          "id": "d40dbf6a-a3b2-44cd-b44c-ec6d9eb14a8d"
+        },
+        "c091f5a0-dbe6-4981-be33-202747db8c76": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "f24c9f5e-dcd4-4b71-8a97-8acbd976816f",
+          "id": "c091f5a0-dbe6-4981-be33-202747db8c76"
+        },
+        "c1f24f18-7723-44ce-9127-521c4e6c5a7d": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "3477cbb6-25bc-41bd-8d06-3aa54d0f3c32",
+          "id": "c1f24f18-7723-44ce-9127-521c4e6c5a7d"
+        },
+        "1699d294-f880-467e-801e-990358bf86e6": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "dfa9632b-3766-4da2-90c0-91372455e548",
+          "id": "1699d294-f880-467e-801e-990358bf86e6"
+        },
+        "bb5118f5-9998-48de-98b9-8f0cd1eeef6c": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "cc6db21b-4c00-452f-9cc1-50536c8c8606",
+          "id": "bb5118f5-9998-48de-98b9-8f0cd1eeef6c"
+        },
+        "dadd4656-b5d7-420f-a599-3bf9090dfbe7": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "61b6d720-4ccd-45df-9a69-6a987f238ae5",
+          "id": "dadd4656-b5d7-420f-a599-3bf9090dfbe7"
+        },
+        "8041776f-29bf-4fa9-b551-3c1ee3548e32": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "2f27b370-915e-40d1-827b-7ba4d5151dd7",
+          "id": "8041776f-29bf-4fa9-b551-3c1ee3548e32"
+        },
+        "f25c6cbc-e928-4763-9abe-a93f42f83d3a": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "78c5d601-972f-4fd9-9a20-401c71b3ed9f",
+          "id": "f25c6cbc-e928-4763-9abe-a93f42f83d3a"
+        },
+        "b1ef3f1d-cbf0-4fcf-91d0-9b3c1735de18": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "897bbd00-c91b-4027-a2fb-9d6aa538daa3",
+          "id": "b1ef3f1d-cbf0-4fcf-91d0-9b3c1735de18"
+        },
+        "7a1936c9-505f-47c2-a102-a10a2850779c": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "b11291e0-b6c8-4757-b239-f58a91c96838",
+          "id": "7a1936c9-505f-47c2-a102-a10a2850779c"
+        },
+        "4f12c8b4-cd47-4064-adad-3a32f568a9c6": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "2162e5e8-6b56-412e-a035-367f93e021d1",
+          "id": "4f12c8b4-cd47-4064-adad-3a32f568a9c6"
+        },
+        "f9fde0ec-cc0c-4e9a-a5cc-991e572f81ef": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "eef9d39a-1b5c-47b3-afbf-069e3af607de",
+          "id": "f9fde0ec-cc0c-4e9a-a5cc-991e572f81ef"
+        },
+        "6e0c03d6-a640-4cd4-b38c-753253a83340": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "93fe7bce-0a4a-4d26-a16f-7a444b9e3732",
+          "id": "6e0c03d6-a640-4cd4-b38c-753253a83340"
+        },
+        "8da75a84-7f5c-408e-8911-d83e7bee6493": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "fbc5c1c0-560f-4765-bb8f-7ac35447b46e",
+          "id": "8da75a84-7f5c-408e-8911-d83e7bee6493"
+        },
+        "75613f79-350e-4141-abd9-9794df9bf3ad": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "c91658cd-031c-463e-a0e3-d06cc729b143",
+          "id": "75613f79-350e-4141-abd9-9794df9bf3ad"
+        },
+        "7fa7c955-c0d3-4c1e-8a7e-508b43a25236": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "230c32f9-7d85-4df7-8a01-4c14c0bc23bb",
+          "id": "7fa7c955-c0d3-4c1e-8a7e-508b43a25236"
+        },
+        "f952e938-f884-4c86-b978-6edc3c4f4df8": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "6a3efcb0-ffc1-4227-ac7f-d3efc1b9e085",
+          "id": "f952e938-f884-4c86-b978-6edc3c4f4df8"
+        },
+        "d83ec956-1177-4072-be3b-f9bf8493a4e7": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "900e8145-1bd4-427c-ad37-43b60c277615",
+          "id": "d83ec956-1177-4072-be3b-f9bf8493a4e7"
+        },
+        "cd1c51e8-1269-4686-8f97-caec88588c1e": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "a75594ad-2b5a-41f9-928e-7bd3cc182fe1",
+          "id": "cd1c51e8-1269-4686-8f97-caec88588c1e"
+        },
+        "96ec056a-4aee-4fe1-abc6-504c0014ce5b": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "ad0c1b65-10ae-4c53-8451-20d34f4cd096",
+          "id": "96ec056a-4aee-4fe1-abc6-504c0014ce5b"
+        },
+        "b79a5084-5721-4c86-bd9b-109c1925113a": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "e55a0b7c-e039-474c-8b0c-cd708abe27b3",
+          "id": "b79a5084-5721-4c86-bd9b-109c1925113a"
+        },
+        "2f60b481-0742-46d4-9a0a-59ad5fa47f6d": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "d4e5b1ca-89e2-4917-bb4d-be9551f66bee",
+          "id": "2f60b481-0742-46d4-9a0a-59ad5fa47f6d"
+        },
+        "0e3f3d60-7466-486c-a805-28fbe87a4738": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "5b497d24-af92-4b17-9e84-624dfb1d3bcd",
+          "id": "0e3f3d60-7466-486c-a805-28fbe87a4738"
+        },
+        "0f8d1e2b-d82b-4ede-9d88-d05a1abf6880": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "bcd089af-6b77-4906-b057-f58615bcb709",
+          "id": "0f8d1e2b-d82b-4ede-9d88-d05a1abf6880"
+        },
+        "7c779ae9-a657-4e58-a150-13cf662f7a02": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "5d13f79e-768c-4171-9109-c315b578d4f1",
+          "id": "7c779ae9-a657-4e58-a150-13cf662f7a02"
+        },
+        "6f4744d8-348d-4afc-9c89-9a55ed807cb6": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "ab99fdfb-594b-4f6d-9713-1b855be42dd5",
+          "id": "6f4744d8-348d-4afc-9c89-9a55ed807cb6"
+        },
+        "0ce9c48d-b81d-4810-b581-3befefd65fa2": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "41d903b1-b115-4b54-bcf2-3efc840ee711",
+          "id": "0ce9c48d-b81d-4810-b581-3befefd65fa2"
+        },
+        "0062513c-fe16-4348-a597-4864cae9e661": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "b6d20d6e-cba7-4cec-9001-477acef84c37",
+          "id": "0062513c-fe16-4348-a597-4864cae9e661"
+        },
+        "822d5135-9c2a-40dc-9204-7b4422170a36": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "a62f3a6d-bebd-4a2f-ac96-749d767126be",
+          "id": "822d5135-9c2a-40dc-9204-7b4422170a36"
+        },
+        "c56104da-6a42-4e79-9c03-5ad56f1b051e": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "e991d575-c053-4ff0-9ae7-65c8a9e67fde",
+          "id": "c56104da-6a42-4e79-9c03-5ad56f1b051e"
+        },
+        "d2d2df6f-23ca-4260-9303-f8d693aeead8": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "a760b8e6-e84f-4757-8035-b2426a08ef7b",
+          "id": "d2d2df6f-23ca-4260-9303-f8d693aeead8"
+        },
+        "502966ab-e6db-4f83-8f02-973a216e3d88": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "5ed62783-79e2-4d7b-8f2f-eac7a8539d45",
+          "id": "502966ab-e6db-4f83-8f02-973a216e3d88"
+        },
+        "cd16b101-02f3-4278-9bb8-d529fdfb8c30": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "97a7d3ac-f134-45e1-be5c-13a2724efd8f",
+          "id": "cd16b101-02f3-4278-9bb8-d529fdfb8c30"
+        },
+        "4beece81-86af-4064-8114-93b73c3f93e9": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "12071832-5f4b-45f0-9b8c-8da69de0c2d4",
+          "id": "4beece81-86af-4064-8114-93b73c3f93e9"
+        },
+        "1fe0e159-a4c8-4cbd-8a23-d79db0b543a1": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "28467475-a6cd-4a17-b5b0-aeb9e15e1af0",
+          "id": "1fe0e159-a4c8-4cbd-8a23-d79db0b543a1"
+        },
+        "51ae99b2-c408-4cfe-ac9e-d84f3d72f685": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "3ff2755a-b87e-498d-b2bf-3a949a79f738",
+          "id": "51ae99b2-c408-4cfe-ac9e-d84f3d72f685"
+        },
+        "09c255a6-8995-4026-8cd1-2152f89d5de1": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "d986a168-5712-49e8-bb60-3b372be3747f",
+          "id": "09c255a6-8995-4026-8cd1-2152f89d5de1"
+        },
+        "349abd46-f310-4c84-b3d4-7b0ca36b120f": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "b369d6f6-ec91-414b-92be-1810dc323a54",
+          "id": "349abd46-f310-4c84-b3d4-7b0ca36b120f"
+        },
+        "bf9980d7-b9ff-4858-a438-b00819c238a2": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "99965935-5927-4139-bbb3-33fd0e8483e4",
+          "id": "bf9980d7-b9ff-4858-a438-b00819c238a2"
+        },
+        "e12366fb-4192-477c-8c8b-8bf191cad275": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "7e8b2d47-e6e0-4d10-b02c-1f50c5e0f8ca",
+          "id": "e12366fb-4192-477c-8c8b-8bf191cad275"
+        },
+        "7bc2c6a1-7693-4af3-9545-a1bc9e462034": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "5e255a2d-0459-47c3-9742-e4229d22043c",
+          "id": "7bc2c6a1-7693-4af3-9545-a1bc9e462034"
+        },
+        "24a29195-5e79-4d73-9d34-0d199efdbbb1": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "6152fd5e-f314-45c8-906c-ab4005d495a9",
+          "id": "24a29195-5e79-4d73-9d34-0d199efdbbb1"
+        },
+        "deeba7b5-1987-4213-b841-229dc53454ce": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "d6f55f02-43c9-4583-b21b-bec2829eb4fa",
+          "id": "deeba7b5-1987-4213-b841-229dc53454ce"
+        },
+        "63228a56-0aed-4412-8df0-e2d59c5661d7": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "cdf20ae8-b5b5-468d-9b51-464f02a83178",
+          "id": "63228a56-0aed-4412-8df0-e2d59c5661d7"
+        },
+        "a33877d7-9a88-4392-b7c2-b0c8c6473787": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "1a7f60de-f228-4c7a-b716-f267d618933e",
+          "id": "a33877d7-9a88-4392-b7c2-b0c8c6473787"
+        },
+        "4a4672ea-ec16-468f-93c9-57ed5bf152f3": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "62039472-4e19-41ef-9d15-9becae890c65",
+          "id": "4a4672ea-ec16-468f-93c9-57ed5bf152f3"
+        },
+        "e15269e0-d8f6-4c34-95f0-8d7a5417aaee": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "a2001ec5-be55-4e04-a3a4-1fed41873183",
+          "id": "e15269e0-d8f6-4c34-95f0-8d7a5417aaee"
+        },
+        "170f633b-1e71-4bf1-b6a1-a45f7491eecd": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "e6d09131-c42d-4292-a8d4-1083706fea2f",
+          "id": "170f633b-1e71-4bf1-b6a1-a45f7491eecd"
+        },
+        "ef104f1c-a8d7-4f2d-9ccf-1adc50b5db40": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "2ad7282e-0c42-451e-a4d2-62aeb8419a59",
+          "id": "ef104f1c-a8d7-4f2d-9ccf-1adc50b5db40"
+        },
+        "1257b158-4873-4029-bed5-bfe03819d31a": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "c5864e89-58eb-412e-af9d-2c27188ad9ce",
+          "id": "1257b158-4873-4029-bed5-bfe03819d31a"
+        },
+        "5c14e93d-6e30-463e-94e2-4b4d86928e37": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "9582b5af-ba55-454d-9e84-871e9481f6dd",
+          "id": "5c14e93d-6e30-463e-94e2-4b4d86928e37"
+        },
+        "1b4d7ae6-fd50-4e04-86b4-88f648392fde": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "ece76b44-7ba9-410d-a521-56ec1b84143b",
+          "id": "1b4d7ae6-fd50-4e04-86b4-88f648392fde"
+        },
+        "33fa7d41-33c5-477f-aefb-feb804d053c5": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "9be81562-2c37-4116-b94e-7b1beb0af0cb",
+          "id": "33fa7d41-33c5-477f-aefb-feb804d053c5"
+        },
+        "566d0cc0-12f1-4b3b-b008-a1ba684dd69d": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "ddf959f1-d577-454d-a691-de5282b4b9f0",
+          "id": "566d0cc0-12f1-4b3b-b008-a1ba684dd69d"
+        },
+        "65989744-93d3-423c-a3bb-8ca8eca14c6b": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "cb14170b-e360-4547-8a00-d5e3278e31fa",
+          "id": "65989744-93d3-423c-a3bb-8ca8eca14c6b"
+        },
+        "adcc8c4b-590f-40c5-bb99-301b83f32668": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "18a21dfe-a022-4ecd-abdd-d9632d18553c",
+          "id": "adcc8c4b-590f-40c5-bb99-301b83f32668"
+        },
+        "3e6287f4-e153-4378-a1f8-b2ad1d33d6f2": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "e31a0de7-0deb-4947-b04f-cae4b3d91cf6",
+          "id": "3e6287f4-e153-4378-a1f8-b2ad1d33d6f2"
+        },
+        "f40e3c67-2815-475d-9527-4b2c5d397231": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "f0064ede-05cd-474c-a334-ae51a042f625",
+          "id": "f40e3c67-2815-475d-9527-4b2c5d397231"
+        },
+        "5c814d07-abe4-44ea-88bf-50267957dcc6": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "3b0bd358-b1fb-4d1a-9bcc-f4b08c82f0ec",
+          "id": "5c814d07-abe4-44ea-88bf-50267957dcc6"
+        },
+        "59787b26-386b-48e5-b4a6-2f88f86ab42f": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "37a56d25-7a82-4d95-8d49-65f6aa253c17",
+          "id": "59787b26-386b-48e5-b4a6-2f88f86ab42f"
+        },
+        "e2eef7a5-db2d-484d-b0c9-15071b22f5a7": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "a9d70f46-a294-47e4-9571-e92683ce73aa",
+          "id": "e2eef7a5-db2d-484d-b0c9-15071b22f5a7"
+        },
+        "ca5cbf00-f56c-4bcd-bf67-55b1d983cd99": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "d5501c5c-6acf-4db7-ab4f-06138978c5a3",
+          "id": "ca5cbf00-f56c-4bcd-bf67-55b1d983cd99"
+        },
+        "b80adc26-689d-4135-a4e2-bccba5bfbed8": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "37dd14ce-bae9-46b0-b0e5-3e1573937382",
+          "id": "b80adc26-689d-4135-a4e2-bccba5bfbed8"
+        },
+        "39a9a70b-c992-4d5d-9b2f-5b95d8930321": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "ffe7d0d1-3094-4c7f-a36f-6842d44fbda7",
+          "id": "39a9a70b-c992-4d5d-9b2f-5b95d8930321"
+        },
+        "d423977d-e7de-412b-b33a-19378c029bd9": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "d62f762e-91f6-41c3-9144-e5c5babd4dc6",
+          "id": "d423977d-e7de-412b-b33a-19378c029bd9"
+        },
+        "2a9a7c83-a93d-4dcd-b9d6-a1f7108ecbf4": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "108768d7-7f55-445a-bd07-336a0cf8bd40",
+          "id": "2a9a7c83-a93d-4dcd-b9d6-a1f7108ecbf4"
+        },
+        "9dac99b6-6cad-4c69-acd2-08e3a0543e98": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "8b2ec241-906f-4907-93e3-5a9a9e1180a9",
+          "id": "9dac99b6-6cad-4c69-acd2-08e3a0543e98"
+        },
+        "f5515c51-bfb5-4941-88a6-50834aca0844": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "3dfc2a24-721f-4e2d-a119-42f2b5bc5c66",
+          "id": "f5515c51-bfb5-4941-88a6-50834aca0844"
+        },
+        "bda44b85-3ee9-41c0-8b83-89d4b3848416": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "ddc2a77c-77bd-4ede-9546-f8cc750558a7",
+          "id": "bda44b85-3ee9-41c0-8b83-89d4b3848416"
+        },
+        "34b40c24-f2b0-4781-93a1-8deb8d9d8cd4": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "7d9ea721-bdf0-4977-bdda-4d937b8b2dc0",
+          "id": "34b40c24-f2b0-4781-93a1-8deb8d9d8cd4"
+        },
+        "5238d2fd-cc4c-4f7d-8b63-4507fd937228": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "d76eb903-820d-47e2-a662-94091c5b16ff",
+          "id": "5238d2fd-cc4c-4f7d-8b63-4507fd937228"
+        },
+        "a482a79d-4b13-4741-a079-315e82a029e4": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "26174ef1-3fd7-4905-9c8b-6162a434365a",
+          "id": "a482a79d-4b13-4741-a079-315e82a029e4"
+        },
+        "96772d4b-3583-4e56-8bf0-f2e5ed11d45b": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "15991f56-4f0d-4cbb-98dc-60104edfe922",
+          "id": "96772d4b-3583-4e56-8bf0-f2e5ed11d45b"
+        },
+        "650880a6-6bf4-4eaa-b30d-45c8ee38e0b2": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "aeaa5464-0bfe-420b-a756-e0379b7699a9",
+          "id": "650880a6-6bf4-4eaa-b30d-45c8ee38e0b2"
+        },
+        "2221d81d-52c6-4171-8ce8-b6c65e7dcbf1": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "6d82fa59-16b6-40c2-9dee-ec7492bda610",
+          "id": "2221d81d-52c6-4171-8ce8-b6c65e7dcbf1"
+        },
+        "2b1bdf68-0537-40ed-97d7-ab2d50e4edc9": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "0d5a3ea0-c3c0-47b5-b784-9578d13710c4",
+          "id": "2b1bdf68-0537-40ed-97d7-ab2d50e4edc9"
+        },
+        "4fbbe774-8f94-467b-bd18-e5a59a7bfaf9": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "7a1d0259-0394-4a05-91b9-8709ef2ba38f",
+          "id": "4fbbe774-8f94-467b-bd18-e5a59a7bfaf9"
+        },
+        "bdf58ae8-7d20-4b9d-9262-deeac6e73836": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "5c2e9166-f3a0-451a-83f9-29fbc50656a1",
+          "id": "bdf58ae8-7d20-4b9d-9262-deeac6e73836"
+        },
+        "eef57ebb-bc69-4dd0-abcc-45d028d6d87e": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "c735e16f-0071-470b-a50a-456b86bab0e6",
+          "id": "eef57ebb-bc69-4dd0-abcc-45d028d6d87e"
+        },
+        "29c8ab8a-5719-43e9-b0c6-90a41c65fbec": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "8c3e0631-b920-4b76-9bbb-d44d2dd23465",
+          "id": "29c8ab8a-5719-43e9-b0c6-90a41c65fbec"
+        },
+        "fcce694b-4354-4498-b403-d29d1237ec8b": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "6d63cf4c-de4b-47ee-bf1c-9f06512c9902",
+          "id": "fcce694b-4354-4498-b403-d29d1237ec8b"
+        },
+        "ec683dcb-45bf-4631-9741-b2ec5754b44d": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "241be8ae-5546-4f1e-b8b5-3ee07453791c",
+          "id": "ec683dcb-45bf-4631-9741-b2ec5754b44d"
+        },
+        "ba7e184a-7ed0-4882-9aff-5f6dcaf6e7a5": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "7ae15ede-b006-4425-b615-6836fba59118",
+          "id": "ba7e184a-7ed0-4882-9aff-5f6dcaf6e7a5"
+        },
+        "a078dfea-1481-42df-992b-0a31f6f8566d": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "e0537c91-b6ff-476e-9a50-4bdf6afdf1ea",
+          "id": "a078dfea-1481-42df-992b-0a31f6f8566d"
+        },
+        "9563f8f9-edd9-4642-a5d9-8ea5d80d98fb": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "2b86876a-7135-4de9-abf7-11a071896800",
+          "id": "9563f8f9-edd9-4642-a5d9-8ea5d80d98fb"
+        },
+        "05017dc9-cc91-436c-a6ab-7ff0faf7f32a": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "a38bbcab-6152-400c-9cad-a723376f7f37",
+          "id": "05017dc9-cc91-436c-a6ab-7ff0faf7f32a"
+        },
+        "1e32b657-a118-444c-baea-bb1dd39bf873": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "15522b54-f2e8-49c4-93a5-2bf41c119e4a",
+          "id": "1e32b657-a118-444c-baea-bb1dd39bf873"
+        },
+        "2b8bd534-e834-49ee-9782-1d6a8a23852e": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "046bc232-62c4-491e-9dbd-70cb43a95a44",
+          "id": "2b8bd534-e834-49ee-9782-1d6a8a23852e"
+        },
+        "549f57ce-55c9-4821-b3c9-d84d89120bf2": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "4fed6ef0-02f2-4050-91a2-7651dc1b1d77",
+          "id": "549f57ce-55c9-4821-b3c9-d84d89120bf2"
+        },
+        "3284f07e-b9b8-4e1a-a041-2f537705edf2": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "5e56e49f-495c-4c17-994f-0a6f25080f9f",
+          "id": "3284f07e-b9b8-4e1a-a041-2f537705edf2"
+        },
+        "4ea4ff68-e4a6-49e7-837c-e6baf4a2e2cb": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "872b51e0-20f7-49f4-a14d-eceac618c20e",
+          "id": "4ea4ff68-e4a6-49e7-837c-e6baf4a2e2cb"
+        },
+        "73bf3426-14c5-4a94-b37c-39905342c4e8": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "8022a647-d55a-4b02-ab26-da90dd6b2612",
+          "id": "73bf3426-14c5-4a94-b37c-39905342c4e8"
+        },
+        "f9f87d60-571e-464f-9c6f-7d3cd54641ba": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "aa01b152-954a-47fe-8f5d-dc50d9c28328",
+          "id": "f9f87d60-571e-464f-9c6f-7d3cd54641ba"
+        },
+        "fffdd292-c9f2-4f58-88d5-ccbe3fe7c1a1": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "d4e10679-fb19-4d01-ba66-316393ba69b4",
+          "id": "fffdd292-c9f2-4f58-88d5-ccbe3fe7c1a1"
+        },
+        "4f9d212c-c623-44fe-a499-662401ba1fad": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "c829c4ca-e77b-4292-90e1-0300d13d3f11",
+          "id": "4f9d212c-c623-44fe-a499-662401ba1fad"
+        },
+        "aa76d212-62c7-494c-9052-e39186bd180e": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "26278965-fbdf-4cf1-b9a7-f65ca5e770b9",
+          "id": "aa76d212-62c7-494c-9052-e39186bd180e"
+        },
+        "c65ae362-6901-4b9b-9a69-47d98f21eac6": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "ae978692-1a38-4909-8d45-a72a16758c7e",
+          "id": "c65ae362-6901-4b9b-9a69-47d98f21eac6"
+        },
+        "37c401ba-7052-445f-8565-f770bbb2b3c2": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "04a0a7eb-2550-4d76-9635-c33f28351280",
+          "id": "37c401ba-7052-445f-8565-f770bbb2b3c2"
+        },
+        "b16e64a1-75ac-4a51-8a8f-66a60944d3b3": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "5b809b37-f569-4264-b27e-1582115e05ec",
+          "id": "b16e64a1-75ac-4a51-8a8f-66a60944d3b3"
+        },
+        "1bd5f5fc-9ffb-46d4-8c81-e4fe8453f2f1": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "3e57fa2b-571d-4d7f-b772-b1298c28dbb1",
+          "id": "1bd5f5fc-9ffb-46d4-8c81-e4fe8453f2f1"
+        },
+        "dc5101e2-c185-44ef-950a-5f545522517f": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "83110a25-16d5-4b57-9b26-bf7c1b3a29b6",
+          "id": "dc5101e2-c185-44ef-950a-5f545522517f"
+        },
+        "0fa52321-15e6-4b60-8079-7371ea0d2824": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "026a3fc7-7f98-4d9c-b657-bff203edb92e",
+          "id": "0fa52321-15e6-4b60-8079-7371ea0d2824"
+        },
+        "3722f817-4997-4087-bb7e-cb0217df18fb": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "dfce57a2-f8bb-4e96-91b4-ce673ebf5a7e",
+          "id": "3722f817-4997-4087-bb7e-cb0217df18fb"
+        },
+        "44dbdaad-9159-47f6-99a6-1fdc92f6ed4b": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "c3505416-dfe9-4e6d-9474-d2bd39a95f98",
+          "id": "44dbdaad-9159-47f6-99a6-1fdc92f6ed4b"
+        },
+        "dd87c42e-988a-4804-ba16-de08cd06f7c2": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "299504da-0d6a-4a5e-8238-e80a889f5a0e",
+          "id": "dd87c42e-988a-4804-ba16-de08cd06f7c2"
+        },
+        "ada01c85-06dc-4d8b-9f11-9d7a2deff747": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "4060ee95-7613-411e-b2f0-4621bee4f65b",
+          "id": "ada01c85-06dc-4d8b-9f11-9d7a2deff747"
+        },
+        "fa281f4d-b0c4-4f18-b276-ba024f806a83": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "76f9eb3c-6fe2-4517-be7c-2288a3a9acff",
+          "id": "fa281f4d-b0c4-4f18-b276-ba024f806a83"
+        },
+        "45dbb253-7ee8-42e5-aeff-37e88c9c13a3": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "52f9b6f7-1695-4e91-9fbc-6c813cb266cd",
+          "id": "45dbb253-7ee8-42e5-aeff-37e88c9c13a3"
+        },
+        "e71e15ba-17b7-412b-a44b-58211b41a01f": {
+          "from": "73e0c065-0794-4edf-b844-a289790f6791",
+          "to": "791c4be5-6926-4247-b5ff-109ca6d892b6",
+          "id": "e71e15ba-17b7-412b-a44b-58211b41a01f"
+        },
+        "228330da-52a1-48d4-a83f-32d7a9de0939": {
+          "from": "a306e5dc-4dae-4ecf-9429-c5ac8b720165936",
+          "to": "73e0c065-0794-4edf-b844-a289790f6791",
+          "id": "228330da-52a1-48d4-a83f-32d7a9de0939"
+        },
+        "129dd12d-af8c-479d-ad82-f241523a92e7": {
+          "from": "a19b2797-ca13-46aa-92a3-f3a5bb82f6a4",
+          "to": "5df77ee7-8737-4913-9176-a6f6facf5e04",
+          "id": "129dd12d-af8c-479d-ad82-f241523a92e7"
+        },
+        "13ac1a96-6521-4c06-b0d6-c4c7a9b64609": {
+          "from": "ebb293e4-e189-4057-a311-6ebb84dce371",
+          "to": "87b21f06-0b63-477c-8b61-d9ab1771357f",
+          "id": "13ac1a96-6521-4c06-b0d6-c4c7a9b64609"
+        },
+        "9628fd0e-d29d-4fb7-92f1-e7e2f3a883a0": {
+          "from": "370a7f11-766c-476b-add4-73452cfe5281",
+          "to": "073466f9-0ee0-4670-b1e2-aec3c1beab83",
+          "id": "9628fd0e-d29d-4fb7-92f1-e7e2f3a883a0"
+        },
+        "657a7d01-820f-43a8-a6f1-6b40a17b362d": {
+          "from": "ab60dfe0-3b8a-4ce6-9e2e-89d9820fca1b",
+          "to": "61a5d4a3-4bfc-4610-aebe-c5f759f8d5ff",
+          "id": "657a7d01-820f-43a8-a6f1-6b40a17b362d"
+        },
+        "dea23111-35b3-4cf4-8e05-43f9bd64b8ca": {
+          "from": "ab60dfe0-3b8a-4ce6-9e2e-89d9820fca1b",
+          "to": "5aa6e89a-aa0b-4214-9e0c-add570257911",
+          "id": "dea23111-35b3-4cf4-8e05-43f9bd64b8ca"
+        },
+        "3c7d096f-835a-4791-a635-d4e1d9c4b533": {
+          "from": "d10c9db6-89a7-4d11-a234-4dccedf5da95",
+          "to": "abfde41f-b327-4a79-bf21-357f7fe96abe",
+          "id": "3c7d096f-835a-4791-a635-d4e1d9c4b533"
+        },
+        "caa55a8c-03de-40c6-9028-c98da691a60d": {
+          "from": "d10c9db6-89a7-4d11-a234-4dccedf5da95",
+          "to": "1c66db8a-cd09-4a58-a387-475890d57bb2",
+          "id": "caa55a8c-03de-40c6-9028-c98da691a60d"
+        },
+        "7c9d4a90-5972-4c6f-84a1-7e0819919f74": {
+          "from": "d10c9db6-89a7-4d11-a234-4dccedf5da95",
+          "to": "df8286fe-3c26-4f6d-ac7c-735bfcbf1d3d",
+          "id": "7c9d4a90-5972-4c6f-84a1-7e0819919f74"
+        },
+        "32f07d29-bf07-4284-9868-13cdb47ed4d6": {
+          "from": "d10c9db6-89a7-4d11-a234-4dccedf5da95",
+          "to": "a3a82e8a-410a-49af-904f-d46d41a29244",
+          "id": "32f07d29-bf07-4284-9868-13cdb47ed4d6"
+        },
+        "e27dd10d-c344-46c8-8cda-fc786bfcca6e": {
+          "from": "d10c9db6-89a7-4d11-a234-4dccedf5da95",
+          "to": "921cfbb6-d2a6-4552-8a04-d99b4fccae59",
+          "id": "e27dd10d-c344-46c8-8cda-fc786bfcca6e"
+        },
+        "23e2f86b-ba8c-4490-8967-9c16f3bf7f69": {
+          "from": "d10c9db6-89a7-4d11-a234-4dccedf5da95",
+          "to": "ab60dfe0-3b8a-4ce6-9e2e-89d9820fca1b",
+          "id": "23e2f86b-ba8c-4490-8967-9c16f3bf7f69"
+        },
+        "8b4b1b67-72e7-4342-90d3-7b4ae3121c19": {
+          "from": "2fe50647-80d4-4a27-86a6-4d5f56887b54",
+          "to": "0dd42c93-9cc4-4bce-9ff0-2545b124e1a4",
+          "id": "8b4b1b67-72e7-4342-90d3-7b4ae3121c19"
+        },
+        "bf20a083-f624-49e5-83ec-4beee57fec70": {
+          "from": "3da154f1-5dd9-4295-9c9e-d7bd651ceb23",
+          "to": "2c52184b-e228-4d7a-86cd-4f68121a8840",
+          "id": "bf20a083-f624-49e5-83ec-4beee57fec70"
+        },
+        "7ba22d1e-c83b-47dd-8988-1fea258f0e7c": {
+          "from": "14e994cb-71e3-4f9c-99ca-abcd8b739fe5",
+          "to": "0ec8a373-c07e-4f69-a098-622872d779a9",
+          "id": "7ba22d1e-c83b-47dd-8988-1fea258f0e7c"
+        },
+        "bd4b30c2-c54d-47d9-a6dd-f5c815c624b1": {
+          "from": "14e994cb-71e3-4f9c-99ca-abcd8b739fe5",
+          "to": "6bff37d2-66e9-4967-a3b9-777bc18077fe",
+          "id": "bd4b30c2-c54d-47d9-a6dd-f5c815c624b1"
+        },
+        "45a1af9a-7727-49cb-bc8c-6f47dbad3b0e": {
+          "from": "14e994cb-71e3-4f9c-99ca-abcd8b739fe5",
+          "to": "31241b65-798d-461d-9063-547007c767d5",
+          "id": "45a1af9a-7727-49cb-bc8c-6f47dbad3b0e"
+        },
+        "252c7d02-d83f-470e-84cf-1700b2c30d3b": {
+          "from": "14e994cb-71e3-4f9c-99ca-abcd8b739fe5",
+          "to": "fc019af5-c730-46f5-a5f1-41a13f255604",
+          "id": "252c7d02-d83f-470e-84cf-1700b2c30d3b"
+        },
+        "165d08c9-0f6c-4f0c-9f90-a855b5dbe0db": {
+          "from": "14e994cb-71e3-4f9c-99ca-abcd8b739fe5",
+          "to": "3da154f1-5dd9-4295-9c9e-d7bd651ceb23",
+          "id": "165d08c9-0f6c-4f0c-9f90-a855b5dbe0db"
+        },
+        "8a2ec798-1caf-4214-b724-d8448d018e96": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "2a04ee9e-3b3d-4718-afe5-e4560553dc4e",
+          "id": "8a2ec798-1caf-4214-b724-d8448d018e96"
+        },
+        "fc202ab4-280a-475c-b66c-fe395d311e22": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "72609a41-ed23-4daa-860a-366d9c6a38d8",
+          "id": "fc202ab4-280a-475c-b66c-fe395d311e22"
+        },
+        "9d7faec7-ac15-4caf-9da0-3962e0196aac": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "82b1a7ee-b7d5-422f-9918-3bbeda612c33",
+          "id": "9d7faec7-ac15-4caf-9da0-3962e0196aac"
+        },
+        "888cc4bd-8637-42fe-894b-dd6e747228e0": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "2a7f3cf4-fb10-45eb-b9a4-8ff2f137ef37",
+          "id": "888cc4bd-8637-42fe-894b-dd6e747228e0"
+        },
+        "71d2bd9b-be8f-4cf5-9da7-7bd3230a1c9d": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "8a556158-aae7-41b1-83b3-c3cfe9d08fcb",
+          "id": "71d2bd9b-be8f-4cf5-9da7-7bd3230a1c9d"
+        },
+        "d9ba118d-33f1-4fb3-98f2-d668c6b99520": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "537af669-fad5-40f2-bb8d-c520a75c5afc",
+          "id": "d9ba118d-33f1-4fb3-98f2-d668c6b99520"
+        },
+        "2cf8269c-e647-4627-9b8a-2b5c9cf60ebf": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "5cd429b1-e5fc-4a65-b822-7b578a4f63c3",
+          "id": "2cf8269c-e647-4627-9b8a-2b5c9cf60ebf"
+        },
+        "5dad0cb4-eec1-465a-ad2b-44e8ddb321cf": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "4576eac4-9731-4a12-b918-7fd2a5c16416",
+          "id": "5dad0cb4-eec1-465a-ad2b-44e8ddb321cf"
+        },
+        "57715289-b520-464b-9e4e-c96477b9f183": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "083a4f43-f064-4b64-b7cc-95ad46ead0a9",
+          "id": "57715289-b520-464b-9e4e-c96477b9f183"
+        },
+        "7bb3e029-b139-4eea-a223-854e91173868": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "fa4b44af-a426-4c7a-9f9c-9e687a360425",
+          "id": "7bb3e029-b139-4eea-a223-854e91173868"
+        },
+        "421d0b08-2eaf-4479-9343-655a01c4dd79": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "a19b2797-ca13-46aa-92a3-f3a5bb82f6a4",
+          "id": "421d0b08-2eaf-4479-9343-655a01c4dd79"
+        },
+        "4840b46e-8a81-4a75-935d-05e0e0df94be": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "14e994cb-71e3-4f9c-99ca-abcd8b739fe5",
+          "id": "4840b46e-8a81-4a75-935d-05e0e0df94be"
+        },
+        "e90c2718-2eff-427c-93aa-64401e235352": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "370a7f11-766c-476b-add4-73452cfe5281",
+          "id": "e90c2718-2eff-427c-93aa-64401e235352"
+        },
+        "0dbd111d-17f0-40eb-b4b4-cf271a2d1469": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "ebb293e4-e189-4057-a311-6ebb84dce371",
+          "id": "0dbd111d-17f0-40eb-b4b4-cf271a2d1469"
+        },
+        "0705912d-aa98-4a0d-acc1-4e5caa43b6dc": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "c4122676-3301-4006-9a98-79db5714aaf3",
+          "id": "0705912d-aa98-4a0d-acc1-4e5caa43b6dc"
+        },
+        "9939514a-722d-4c68-979b-01f7c713c4b2": {
+          "from": "dcb3ea6f-1950-4b49-aba4-76ef0d61c4ac",
+          "to": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "id": "9939514a-722d-4c68-979b-01f7c713c4b2"
+        },
+        "502c182d-acda-4859-bdd8-77468b2f5e88": {
+          "from": "dcb3ea6f-1950-4b49-aba4-76ef0d61c4ac",
+          "to": "d10c9db6-89a7-4d11-a234-4dccedf5da95",
+          "id": "502c182d-acda-4859-bdd8-77468b2f5e88"
+        },
+        "4348f6f5-920b-4433-b156-a376d4a5b0e0": {
+          "from": "dcb3ea6f-1950-4b49-aba4-76ef0d61c4ac",
+          "to": "d549fc16-b9c4-4509-8bfb-27aef725e37c",
+          "id": "4348f6f5-920b-4433-b156-a376d4a5b0e0"
+        },
+        "f3b6fcf8-ea69-40bb-8f03-9948eae01007": {
+          "from": "dcb3ea6f-1950-4b49-aba4-76ef0d61c4ac",
+          "to": "afebd20f-424a-4611-81d8-6079131cd1f2",
+          "id": "f3b6fcf8-ea69-40bb-8f03-9948eae01007"
+        },
+        "70a8e677-6810-4360-b534-7e2e9e74d1da": {
+          "from": "d549fc16-b9c4-4509-8bfb-27aef725e37c",
+          "to": "27fe9c15-2e77-4d93-b4e0-e91825ec5a42",
+          "id": "70a8e677-6810-4360-b534-7e2e9e74d1da"
+        },
+        "8de43d2e-70bf-4890-aa5f-a413e9eb2192": {
+          "from": "afebd20f-424a-4611-81d8-6079131cd1f2",
+          "to": "634f4d22-fc03-4112-931a-64a521d6891e",
+          "id": "8de43d2e-70bf-4890-aa5f-a413e9eb2192"
+        },
+        "412e9f02-e076-48e1-aecc-909b7cfb1366": {
+          "from": "d9a5cfe3-c67f-4518-a62e-d9e2c1e0bb63",
+          "to": "dcb3ea6f-1950-4b49-aba4-76ef0d61c4ac",
+          "id": "412e9f02-e076-48e1-aecc-909b7cfb1366"
+        },
+        "ee6fb1a8-942b-4cf7-8500-05a8581ed05a": {
+          "from": "f4c9024f-16c2-42ab-a9cd-f4362e33a762",
+          "to": "e8cd6451-caa1-4fca-a56a-02e61bd99127",
+          "id": "ee6fb1a8-942b-4cf7-8500-05a8581ed05a"
+        },
+        "13d64d06-35c4-4415-a6ee-c3158da81ed9": {
+          "from": "dcb3ea6f-1950-4b49-aba4-76ef0d61c4ac",
+          "to": "f4c9024f-16c2-42ab-a9cd-f4362e33a762",
+          "id": "13d64d06-35c4-4415-a6ee-c3158da81ed9"
+        },
+        "81f0d732-9764-469d-a3f0-694bfdadbe05": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "144c2fa1-8cd2-4972-851b-824ad5d49765",
+          "id": "81f0d732-9764-469d-a3f0-694bfdadbe05"
+        },
+        "20540cc1-8061-484a-bd60-a84be3275f9f": {
+          "from": "71a3a65f-d477-4ddf-aa60-08dabba0f4cb",
+          "to": "2862efd7-cc97-4116-a7a3-846adfc55c5d",
+          "id": "20540cc1-8061-484a-bd60-a84be3275f9f"
+        },
+        "535490a2-3cab-45d1-bca1-34c0ddeb0b0b": {
+          "from": "ae4f11d6-5a7f-4a39-b893-6bd89792036f936",
+          "to": "ab280bc9-1316-4e6c-99ea-26cd24c03de8",
+          "id": "535490a2-3cab-45d1-bca1-34c0ddeb0b0b"
+        },
+        "0b26c2a3-1a82-4795-83e5-4cf2b63064bd": {
+          "from": "b8559929-24a6-4595-884a-5b04c9aa8048936",
+          "to": "622479d5-279f-4920-901d-7ded103762a3",
+          "id": "0b26c2a3-1a82-4795-83e5-4cf2b63064bd"
+        },
+        "9cc79532-1e53-4865-9d3e-a60b67b0a5cd": {
+          "from": "b8559929-24a6-4595-884a-5b04c9aa8048936",
+          "to": "9229a78c-5566-4e4d-ae69-1dbfdb5037f0",
+          "id": "9cc79532-1e53-4865-9d3e-a60b67b0a5cd"
+        },
+        "82894e62-fd02-480e-95ef-a6509995f487": {
+          "from": "b8559929-24a6-4595-884a-5b04c9aa8048936",
+          "to": "6a25df7b-8ded-4d06-af00-2cc8bc3605dc",
+          "id": "82894e62-fd02-480e-95ef-a6509995f487"
+        },
+        "5535c4c4-82c2-4011-97c3-b8b1f4337ee4": {
+          "from": "b8559929-24a6-4595-884a-5b04c9aa8048936",
+          "to": "2b19bf7f-d568-496b-bf4d-b06eff5dc2db",
+          "id": "5535c4c4-82c2-4011-97c3-b8b1f4337ee4"
+        },
+        "1b4127fb-d486-4828-b9fc-efbad8938b26": {
+          "from": "b8559929-24a6-4595-884a-5b04c9aa8048936",
+          "to": "01020712-c42c-4157-a01c-1e7698e30538",
+          "id": "1b4127fb-d486-4828-b9fc-efbad8938b26"
+        },
+        "9dee7745-18f5-4e98-8db0-3beb4099404b": {
+          "from": "ae4f11d6-5a7f-4a39-b893-6bd89792036f936",
+          "to": "d95b96e8-f7f8-4ea2-b380-9b0f3f1b106a",
+          "id": "9dee7745-18f5-4e98-8db0-3beb4099404b"
+        },
+        "c318de70-c61c-49cf-a8f8-f5db3fffac99": {
+          "from": "ae4f11d6-5a7f-4a39-b893-6bd89792036f936",
+          "to": "474d0b90-0c0c-40c3-bf10-da3ca39ce5cc",
+          "id": "c318de70-c61c-49cf-a8f8-f5db3fffac99"
+        },
+        "cea651a8-87be-4b1e-bf72-c654bfc8198f": {
+          "from": "ae4f11d6-5a7f-4a39-b893-6bd89792036f936",
+          "to": "14ac782b-9737-465c-aa75-26308d610cd9",
+          "id": "cea651a8-87be-4b1e-bf72-c654bfc8198f"
+        },
+        "1bf638fb-962e-45f7-b551-dcf57c048018": {
+          "from": "ae4f11d6-5a7f-4a39-b893-6bd89792036f936",
+          "to": "21f2f4cf-f40d-4aa5-922e-8d8e78d2b23e",
+          "id": "1bf638fb-962e-45f7-b551-dcf57c048018"
+        },
+        "abe23cb0-daec-48d4-a6ff-40d2198dc666": {
+          "from": "ee173416-ab39-45d1-87f1-8b6598d3ff9f",
+          "to": "17958e54-1195-49d7-ac38-91f23acf272d",
+          "id": "abe23cb0-daec-48d4-a6ff-40d2198dc666"
+        },
+        "a740602e-f2bb-425e-bcaf-7f809ab2ea8f": {
+          "from": "ee173416-ab39-45d1-87f1-8b6598d3ff9f",
+          "to": "7021a2ce-d09f-42ab-a67f-e721a9bc1ae9",
+          "id": "a740602e-f2bb-425e-bcaf-7f809ab2ea8f"
+        },
+        "0b20b2e3-b53d-4100-b747-6786e9afd1f6": {
+          "from": "ee173416-ab39-45d1-87f1-8b6598d3ff9f",
+          "to": "d5f891c5-fa15-45ff-baa1-0ec9c04c13f3",
+          "id": "0b20b2e3-b53d-4100-b747-6786e9afd1f6"
+        },
+        "e6635641-8ca9-4753-b927-a2ee29e8b448": {
+          "from": "ee173416-ab39-45d1-87f1-8b6598d3ff9f",
+          "to": "36873fc2-0f90-45b5-afb1-8995b127b48c",
+          "id": "e6635641-8ca9-4753-b927-a2ee29e8b448"
+        },
+        "8fb71812-1a01-4302-9c3d-3b42a4b0ddf3": {
+          "from": "ee173416-ab39-45d1-87f1-8b6598d3ff9f",
+          "to": "02d6993c-7bf7-4b0a-bd51-7c141a3f7365",
+          "id": "8fb71812-1a01-4302-9c3d-3b42a4b0ddf3"
+        },
+        "90942c59-363d-498f-be60-eeb691e5b722": {
+          "from": "ee173416-ab39-45d1-87f1-8b6598d3ff9f",
+          "to": "3aea7643-ffc0-4c29-803e-2f00c68e3f90",
+          "id": "90942c59-363d-498f-be60-eeb691e5b722"
+        },
+        "32d7e406-95ce-4922-8ab5-f2dfcc201b18": {
+          "from": "9289c398-eb51-4cbc-b22b-b0289d17b8c5",
+          "to": "62759c51-4d0b-4639-a50d-21dc7dd547c3",
+          "id": "32d7e406-95ce-4922-8ab5-f2dfcc201b18"
+        },
+        "c99e1e65-624e-4dbe-8e02-dc7df8b8a7f5": {
+          "from": "9289c398-eb51-4cbc-b22b-b0289d17b8c5",
+          "to": "f5dfecd5-56ee-45d5-86cc-a598a6f88fe1",
+          "id": "c99e1e65-624e-4dbe-8e02-dc7df8b8a7f5"
+        },
+        "47895730-fc09-46d0-a5d8-c7b3ef2c0876": {
+          "from": "9289c398-eb51-4cbc-b22b-b0289d17b8c5",
+          "to": "a4fc58c1-dbb3-4ebe-9997-913c2262ac8a",
+          "id": "47895730-fc09-46d0-a5d8-c7b3ef2c0876"
+        },
+        "7a2d9448-8e2b-467f-a6b7-331207d5b949": {
+          "from": "8eb1893e-ee75-45a5-b0f1-8b7b3f67c754",
+          "to": "fa37c46a-bf55-4531-8d07-c468f90e9d06",
+          "id": "7a2d9448-8e2b-467f-a6b7-331207d5b949"
+        },
+        "ccfefaa6-5fec-4ab7-ae35-09ee26363998": {
+          "from": "e5109370-6a01-4df6-a8be-78fdfc50c24b",
+          "to": "463c1665-a77e-4c0a-a15f-de12eb75a46a",
+          "id": "ccfefaa6-5fec-4ab7-ae35-09ee26363998"
+        },
+        "ddc6527e-008e-4c0f-a659-9dedcc8da1b4": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "cc8ce276-bbbd-426f-a842-623f6d176caf",
+          "id": "ddc6527e-008e-4c0f-a659-9dedcc8da1b4"
+        },
+        "9f1a0735-e3be-4a0a-82e7-757b0d460bad": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "4644d37f-7d87-49e9-ac74-b1566d6dfe74",
+          "id": "9f1a0735-e3be-4a0a-82e7-757b0d460bad"
+        },
+        "6356ae5e-b7dc-446e-a968-610f4f6c06a8": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "455ed708-6f9f-4cb5-a06b-34cae71700dc",
+          "id": "6356ae5e-b7dc-446e-a968-610f4f6c06a8"
+        },
+        "b5716681-5e1b-4aaa-b571-05891deeb3bf": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "70c0f511-e672-40ca-a2e8-d241950df02e",
+          "id": "b5716681-5e1b-4aaa-b571-05891deeb3bf"
+        },
+        "8ef6a2c0-9ab7-414b-9e9e-dac2b07238c5": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "e62ddd2a-50ed-4a17-9495-548626af4c41",
+          "id": "8ef6a2c0-9ab7-414b-9e9e-dac2b07238c5"
+        },
+        "509df8a4-84fb-455c-a032-92547c30cec2": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "8eb1893e-ee75-45a5-b0f1-8b7b3f67c754",
+          "id": "509df8a4-84fb-455c-a032-92547c30cec2"
+        },
+        "c7b6dff5-0a6f-4df1-8ea1-e6637570967b": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "c053cf98-bd1f-4941-aa8c-e7f2c283316f",
+          "id": "c7b6dff5-0a6f-4df1-8ea1-e6637570967b"
+        },
+        "3101ebcb-49d2-42bd-ba79-3fa738ea0e6c": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "85aed7d7-ee08-4eab-9d5b-8c382ed50791",
+          "id": "3101ebcb-49d2-42bd-ba79-3fa738ea0e6c"
+        },
+        "8b4f041e-a38d-4929-a11a-1b44b51a7106": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "8521b285-2118-41ec-82f6-7429f026fa53",
+          "id": "8b4f041e-a38d-4929-a11a-1b44b51a7106"
+        },
+        "73dbc4fa-0245-4ec8-afcc-ac1fbd8aa2e8": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "16d2f860-f4fc-4aeb-9df5-d771e25871e9",
+          "id": "73dbc4fa-0245-4ec8-afcc-ac1fbd8aa2e8"
+        },
+        "56991545-86f5-4243-9e94-7dc05dc84b9c": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "edad63de-4f4a-4bf1-8a65-77855170f8d8",
+          "id": "56991545-86f5-4243-9e94-7dc05dc84b9c"
+        },
+        "1190383e-7e0a-4ef7-bc38-d8446b255402": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "f5c2651e-2e62-45d6-90bf-37175ce4d96b",
+          "id": "1190383e-7e0a-4ef7-bc38-d8446b255402"
+        },
+        "8e85b066-6a35-46ec-a71d-e58df4362e0c": {
+          "from": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "to": "5cce9e44-3662-4571-845b-ee4c32ac3501",
+          "id": "8e85b066-6a35-46ec-a71d-e58df4362e0c"
+        },
+        "c2ac7401-c4f8-4010-9764-be1c63c03535": {
+          "from": "ae850e8b-cd9a-45b2-adfc-5e834a2cbab7",
+          "to": "de2bf6cf-5e60-4d07-950a-a0ed16282a25",
+          "id": "c2ac7401-c4f8-4010-9764-be1c63c03535"
+        },
+        "4ab71d4d-2592-4bb1-8c46-17555f669670": {
+          "from": "ae850e8b-cd9a-45b2-adfc-5e834a2cbab7",
+          "to": "d41c7b4b-5500-4ecc-acb0-4e76b3ba556d",
+          "id": "4ab71d4d-2592-4bb1-8c46-17555f669670"
+        },
+        "2d62930e-598f-4835-8e67-c9d826a2c711": {
+          "from": "ae850e8b-cd9a-45b2-adfc-5e834a2cbab7",
+          "to": "2df328f5-8da9-45a0-a950-e2f5027f0e77",
+          "id": "2d62930e-598f-4835-8e67-c9d826a2c711"
+        },
+        "5e193ecc-c84b-4749-b645-a5e0a5247995": {
+          "from": "79844c57-0467-4de9-89dd-970173899ecf",
+          "to": "0b8d27b0-20c4-4d92-8a0d-c64bcb3bb2e6",
+          "id": "5e193ecc-c84b-4749-b645-a5e0a5247995"
+        },
+        "93dcd601-734c-4b46-9d79-e85e65c91236": {
+          "from": "fb85c28d-7265-4709-a0be-73be7405f924",
+          "to": "fcb8f6d6-220f-4de5-b8a5-7d5b68da6953",
+          "id": "93dcd601-734c-4b46-9d79-e85e65c91236"
+        },
+        "ee66b22d-bcd2-41b3-9692-164d73e39762": {
+          "from": "fb85c28d-7265-4709-a0be-73be7405f924",
+          "to": "b6a999a1-cc7a-49b8-bf09-5e9ef0f2c33c",
+          "id": "ee66b22d-bcd2-41b3-9692-164d73e39762"
+        },
+        "14ed126e-2ef4-45b4-b0cd-8b7fee1667e6": {
+          "from": "fb85c28d-7265-4709-a0be-73be7405f924",
+          "to": "7d8342a4-3664-4540-bfae-e89dbeda4912",
+          "id": "14ed126e-2ef4-45b4-b0cd-8b7fee1667e6"
+        },
+        "0e513c81-70fd-4e62-95e8-d5e0d6236e65": {
+          "from": "674e9d3b-efcb-46a0-bb79-7b8aa8bdcc08",
+          "to": "6f219ce1-576e-41ec-8cf2-16b49222133e",
+          "id": "0e513c81-70fd-4e62-95e8-d5e0d6236e65"
+        },
+        "1274cb6d-0912-45d6-b5b7-835f5d616a1b": {
+          "from": "ae74faf2-4beb-47a5-a9e2-af885a5d9f2f",
+          "to": "7be0b7b5-118a-42dd-acef-4347c44b4a00",
+          "id": "1274cb6d-0912-45d6-b5b7-835f5d616a1b"
+        },
+        "714419d5-5bcc-4313-8caa-c544e3b5622b": {
+          "from": "ae74faf2-4beb-47a5-a9e2-af885a5d9f2f",
+          "to": "63f5a15d-dc7a-4f26-ba7f-9de26fe31747",
+          "id": "714419d5-5bcc-4313-8caa-c544e3b5622b"
+        },
+        "c4955d58-e71f-4ba5-914f-cc06ebe01254": {
+          "from": "ae74faf2-4beb-47a5-a9e2-af885a5d9f2f",
+          "to": "f921580c-c079-4a50-90e5-9cf3535de159",
+          "id": "c4955d58-e71f-4ba5-914f-cc06ebe01254"
+        },
+        "58e7d34d-9ed8-4d12-8783-c97f776b9e3e": {
+          "from": "ae74faf2-4beb-47a5-a9e2-af885a5d9f2f",
+          "to": "f6c340c7-368c-4e05-a55f-e073da641c79",
+          "id": "58e7d34d-9ed8-4d12-8783-c97f776b9e3e"
+        },
+        "81faf99f-1186-4f66-9e12-cfc07c19f183": {
+          "from": "8aedb945-57f6-4c27-b370-48c76bd9c265",
+          "to": "23b7a0b4-49dd-4e79-91b9-2b3706191451",
+          "id": "81faf99f-1186-4f66-9e12-cfc07c19f183"
+        },
+        "b6a6d81a-7ca2-4edc-a234-ae25d77f0cd6": {
+          "from": "8aedb945-57f6-4c27-b370-48c76bd9c265",
+          "to": "0854e009-5241-4c97-931d-8e31ea5101d4",
+          "id": "b6a6d81a-7ca2-4edc-a234-ae25d77f0cd6"
+        },
+        "e5ebaf33-7b81-41ac-bb8a-461b479cceec": {
+          "from": "8aedb945-57f6-4c27-b370-48c76bd9c265",
+          "to": "e8eef7a2-b4b6-4528-ab03-44c595f33bf1",
+          "id": "e5ebaf33-7b81-41ac-bb8a-461b479cceec"
+        },
+        "9152e732-ad91-4d7d-a7a0-2ccb451df9b5": {
+          "from": "8aedb945-57f6-4c27-b370-48c76bd9c265",
+          "to": "7b6d298d-8aa5-4abc-b1e9-39f4532cdd00",
+          "id": "9152e732-ad91-4d7d-a7a0-2ccb451df9b5"
+        },
+        "7be9891f-33c0-4c6a-b9cf-22d886e74e0e": {
+          "from": "c8f925c1-c6eb-4965-87fc-3aed3f999564",
+          "to": "bf7235d4-761c-4eab-bd05-09182ce063bd",
+          "id": "7be9891f-33c0-4c6a-b9cf-22d886e74e0e"
+        },
+        "60e163f6-a4b0-4c27-94eb-c20dadcfe53b": {
+          "from": "c8f925c1-c6eb-4965-87fc-3aed3f999564",
+          "to": "e3693d32-de8c-47a2-8602-c2c82b801196",
+          "id": "60e163f6-a4b0-4c27-94eb-c20dadcfe53b"
+        },
+        "0e3acd52-037d-42ba-80e1-403109205f83": {
+          "from": "7600f1bd-ace2-4fc9-870c-0e23bd1f66d1936",
+          "to": "631e3b1f-5bb0-4b6c-a0fc-1b5378b84cfe",
+          "id": "0e3acd52-037d-42ba-80e1-403109205f83"
+        },
+        "121a259a-65cf-483f-9604-a57a8a54de98": {
+          "from": "631e3b1f-5bb0-4b6c-a0fc-1b5378b84cfe",
+          "to": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "id": "121a259a-65cf-483f-9604-a57a8a54de98"
+        },
+        "ea48ec4b-d6b6-425b-9ca1-7c6a2d0ece1a": {
+          "from": "561edd99-8a2f-4bda-b261-cb80abe6c67a",
+          "to": "5f3979c7-5391-40bf-8aa7-bdf49b7ae369",
+          "id": "ea48ec4b-d6b6-425b-9ca1-7c6a2d0ece1a"
+        },
+        "b76f9212-535a-45e0-a104-7f703ce7a904": {
+          "from": "561edd99-8a2f-4bda-b261-cb80abe6c67a",
+          "to": "064bdd01-a5f5-4a9c-aed3-9261bf41bbc4",
+          "id": "b76f9212-535a-45e0-a104-7f703ce7a904"
+        },
+        "296a0921-575c-4e3c-90a3-e5a7015366e6": {
+          "from": "561edd99-8a2f-4bda-b261-cb80abe6c67a",
+          "to": "9289c398-eb51-4cbc-b22b-b0289d17b8c5",
+          "id": "296a0921-575c-4e3c-90a3-e5a7015366e6"
+        },
+        "6d146eb9-3b60-4986-8e58-9f218925a533": {
+          "from": "561edd99-8a2f-4bda-b261-cb80abe6c67a",
+          "to": "ee173416-ab39-45d1-87f1-8b6598d3ff9f",
+          "id": "6d146eb9-3b60-4986-8e58-9f218925a533"
+        },
+        "c942b3ee-f1a1-4908-b7e9-743bc23a1205": {
+          "from": "561edd99-8a2f-4bda-b261-cb80abe6c67a",
+          "to": "e5109370-6a01-4df6-a8be-78fdfc50c24b",
+          "id": "c942b3ee-f1a1-4908-b7e9-743bc23a1205"
+        },
+        "e72153b8-104f-4bda-a9eb-a5e3a759f8d6": {
+          "from": "561edd99-8a2f-4bda-b261-cb80abe6c67a",
+          "to": "0914c63a-7789-4a1b-a26e-669fddde6b0e",
+          "id": "e72153b8-104f-4bda-a9eb-a5e3a759f8d6"
+        },
+        "655db871-892c-4543-8230-630c553c2dce": {
+          "from": "561edd99-8a2f-4bda-b261-cb80abe6c67a",
+          "to": "51465755-e2f5-4d90-a116-6e545309c4f9",
+          "id": "655db871-892c-4543-8230-630c553c2dce"
+        },
+        "fea472ce-61df-43a1-bbd8-6d960e20515b": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "c685e199-53e2-46b0-95b4-006106d749ea",
+          "id": "fea472ce-61df-43a1-bbd8-6d960e20515b"
+        },
+        "c19e8022-f9dc-474c-bcd8-eb6356dc9757": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "fa4f44be-ab7e-4e70-b4a9-18f0e4625635",
+          "id": "c19e8022-f9dc-474c-bcd8-eb6356dc9757"
+        },
+        "196d54e5-fa22-4407-b492-9f4e4133eba1": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "efc4fea5-b3e7-410a-bea3-20e0927155f7",
+          "id": "196d54e5-fa22-4407-b492-9f4e4133eba1"
+        },
+        "a0aead95-5fe0-497e-9f3a-7057aa2751f0": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "9a25b0ba-e090-41cf-85c6-232c58d8b938",
+          "id": "a0aead95-5fe0-497e-9f3a-7057aa2751f0"
+        },
+        "cfda2a06-788c-4a45-b740-a5bfb0f10728": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "8de4db96-19fe-4e09-9796-0cbc206a09e7",
+          "id": "cfda2a06-788c-4a45-b740-a5bfb0f10728"
+        },
+        "99e3df19-1464-45e9-9d08-f2b8d8f4f77e": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "c8f925c1-c6eb-4965-87fc-3aed3f999564",
+          "id": "99e3df19-1464-45e9-9d08-f2b8d8f4f77e"
+        },
+        "3aef7339-f16a-43db-88cd-1a92a2d9884f": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "8aedb945-57f6-4c27-b370-48c76bd9c265",
+          "id": "3aef7339-f16a-43db-88cd-1a92a2d9884f"
+        },
+        "789a00cc-54e7-46bc-bff2-6181cfc9543f": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "ae74faf2-4beb-47a5-a9e2-af885a5d9f2f",
+          "id": "789a00cc-54e7-46bc-bff2-6181cfc9543f"
+        },
+        "a75da3c5-3701-4805-9ad1-4169daf9563f": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "674e9d3b-efcb-46a0-bb79-7b8aa8bdcc08",
+          "id": "a75da3c5-3701-4805-9ad1-4169daf9563f"
+        },
+        "d4a3bf69-ef9d-43da-8e90-540bf4ff1e07": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "d6ad02dc-ce9d-4fac-bf92-29551a859c5b",
+          "id": "d4a3bf69-ef9d-43da-8e90-540bf4ff1e07"
+        },
+        "900e2fb1-002d-44f3-8a62-93ab223b102d": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "fb85c28d-7265-4709-a0be-73be7405f924",
+          "id": "900e2fb1-002d-44f3-8a62-93ab223b102d"
+        },
+        "1e27ddb4-2faa-4274-8f80-2e24ea09e44c": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "4903177a-d49b-4ed6-b318-772e240f2adc",
+          "id": "1e27ddb4-2faa-4274-8f80-2e24ea09e44c"
+        },
+        "94998bee-41dd-45f3-95f0-2cfd91469be8": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "79844c57-0467-4de9-89dd-970173899ecf",
+          "id": "94998bee-41dd-45f3-95f0-2cfd91469be8"
+        },
+        "d69bb8eb-e414-41f8-8efc-f470c47694ad": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "af936921-845d-4ee2-bb83-2fa15649ae73",
+          "id": "d69bb8eb-e414-41f8-8efc-f470c47694ad"
+        },
+        "9a59a610-03cd-4d62-91a8-4a37c8136803": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "ae850e8b-cd9a-45b2-adfc-5e834a2cbab7",
+          "id": "9a59a610-03cd-4d62-91a8-4a37c8136803"
+        },
+        "f11d3ce2-a7f8-4aa1-8ebd-18e8cf7b7e89": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "04ab0b34-95e9-4d1a-a973-be0a0b506057",
+          "id": "f11d3ce2-a7f8-4aa1-8ebd-18e8cf7b7e89"
+        },
+        "a33a6ee5-25a3-4da2-a81f-64f94bfc6b2f": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "79806137-7542-4c72-ab49-49cee15bd439",
+          "id": "a33a6ee5-25a3-4da2-a81f-64f94bfc6b2f"
+        },
+        "c7f78fbf-0b98-4b8e-b968-c0ed52770ac9": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "52e22de1-1c82-4411-b6c6-f4dac05250b9",
+          "id": "c7f78fbf-0b98-4b8e-b968-c0ed52770ac9"
+        },
+        "cf957028-5f09-49aa-a00a-b1fa720d4255": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "67c38c82-67d4-407f-bb31-09af032a8ffb",
+          "id": "cf957028-5f09-49aa-a00a-b1fa720d4255"
+        },
+        "4c744eaf-bbc7-4ebc-8209-c249980dc524": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "45fb69d5-55e4-4e61-9e0a-0b85afc297ba",
+          "id": "4c744eaf-bbc7-4ebc-8209-c249980dc524"
+        },
+        "2d86fba2-54f6-44fb-9d3e-44b28a34a7a3": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "2ed2577e-3cb4-4cf6-b22e-20b8a6729430",
+          "id": "2d86fba2-54f6-44fb-9d3e-44b28a34a7a3"
+        },
+        "6a009e2a-a012-4bf2-80cc-864cd3cb1e9e": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "6f75a38b-46f5-4b79-9d07-5eb2e8c85b95",
+          "id": "6a009e2a-a012-4bf2-80cc-864cd3cb1e9e"
+        },
+        "824fd2c9-b2b3-4b0b-a265-fa53bcfe3b38": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "321ca7a1-4597-407a-a6f2-0f3f99162730",
+          "id": "824fd2c9-b2b3-4b0b-a265-fa53bcfe3b38"
+        },
+        "7599e2f1-b0ff-4fed-bdb7-d804ba02b81d": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "6c15cdbc-80db-4ec7-a80a-24020c4099bf",
+          "id": "7599e2f1-b0ff-4fed-bdb7-d804ba02b81d"
+        },
+        "5a7405ad-e2f1-4ed9-beeb-72aa1204778c": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "62de7a0a-8fbe-416a-8406-8b62d81f44c6",
+          "id": "5a7405ad-e2f1-4ed9-beeb-72aa1204778c"
+        },
+        "8ca5e32c-acff-4842-8993-c87e128f7ba2": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "efde6dd4-3445-4ea0-8c31-2740f510390e",
+          "id": "8ca5e32c-acff-4842-8993-c87e128f7ba2"
+        },
+        "43bc9ed9-2869-4f16-b6fc-9beabf6070be": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "38bfda18-513e-494e-babd-5ec7bd3913de",
+          "id": "43bc9ed9-2869-4f16-b6fc-9beabf6070be"
+        },
+        "5722a60c-5a5e-40a6-b066-ab8803704de0": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "ce051997-92e9-49c7-a116-0649990edb69",
+          "id": "5722a60c-5a5e-40a6-b066-ab8803704de0"
+        },
+        "03f2c87e-fd98-4bc5-b427-e3513ee4a4ee": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "038b6906-aabb-426e-bfe8-2bffe2752772",
+          "id": "03f2c87e-fd98-4bc5-b427-e3513ee4a4ee"
+        },
+        "8d4de6ae-beaa-474f-9a58-5278c1233043": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "4c4ecbf9-70d0-45e1-b2d0-3b24f1c23aea",
+          "id": "8d4de6ae-beaa-474f-9a58-5278c1233043"
+        },
+        "d122327a-7940-49d6-a691-bb6af53891aa": {
+          "from": "fe3a9747-d62f-4251-a95c-e51876749f32",
+          "to": "ab6a9b25-7dbe-450f-a7d2-7ae6624b1d53",
+          "id": "d122327a-7940-49d6-a691-bb6af53891aa"
+        },
+        "212881df-a915-4dd2-96a4-2d65df349f2a": {
+          "from": "631e3b1f-5bb0-4b6c-a0fc-1b5378b84cfe",
+          "to": "5b95b0d7-9e74-4ef4-adcd-819d28e2bbfe",
+          "id": "212881df-a915-4dd2-96a4-2d65df349f2a"
+        },
+        "fb7522b7-5479-4492-9fff-4d23dfe427a7": {
+          "from": "631e3b1f-5bb0-4b6c-a0fc-1b5378b84cfe",
+          "to": "561edd99-8a2f-4bda-b261-cb80abe6c67a",
+          "id": "fb7522b7-5479-4492-9fff-4d23dfe427a7"
+        },
+        "1d50d3e5-9d79-4b02-803a-871098a8afe4": {
+          "from": "141cbf9e-c635-4e0b-a98b-c7f7f66eab39",
+          "to": "0579b349-8d36-4c4b-83ed-2fde07ee3d33",
+          "id": "1d50d3e5-9d79-4b02-803a-871098a8afe4"
+        },
+        "57bc1a7e-6f50-4878-9270-5dca03be429b": {
+          "from": "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936",
+          "to": "a543cb7a-06da-4b5f-9cbc-89533b88ea1d",
+          "id": "57bc1a7e-6f50-4878-9270-5dca03be429b"
+        },
+        "824007b7-bcb2-4710-9b5f-e10f65c6dc99": {
+          "from": "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936",
+          "to": "d38a0c38-5b4e-4930-999a-d0c150d077ec",
+          "id": "824007b7-bcb2-4710-9b5f-e10f65c6dc99"
+        },
+        "40d30fa0-5796-43a2-a519-dd03361cc882": {
+          "from": "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936",
+          "to": "141cbf9e-c635-4e0b-a98b-c7f7f66eab39",
+          "id": "40d30fa0-5796-43a2-a519-dd03361cc882"
+        },
+        "4fc62527-5dff-4bc7-ad43-154579aa0447": {
+          "from": "3e8ad32a-f515-42e9-abce-c40b5d4d12a7",
+          "to": "53ccdfc5-eb5d-4d94-bcb6-1bf7918dec0f",
+          "id": "4fc62527-5dff-4bc7-ad43-154579aa0447"
+        },
+        "ffe07d6b-983a-41c4-bdcf-405019d47cb7": {
+          "from": "72a0eecd-98a0-4eff-b1c1-9a36f41f10f0",
+          "to": "1c612536-dd24-49fc-a54f-7a8bb56c2e89",
+          "id": "ffe07d6b-983a-41c4-bdcf-405019d47cb7"
+        },
+        "512852fe-a20e-4a82-984a-c4874d047f4d": {
+          "from": "089a82de-dc74-43be-868c-41f64fab2692936",
+          "to": "72a0eecd-98a0-4eff-b1c1-9a36f41f10f0",
+          "id": "512852fe-a20e-4a82-984a-c4874d047f4d"
+        },
+        "743fa135-fab9-4c90-b801-2ac0581171a2": {
+          "from": "2ad022cd-7467-4192-b247-6f8d13578e5f",
+          "to": "47bda7e5-46cf-4530-afbb-63250ffe20bc",
+          "id": "743fa135-fab9-4c90-b801-2ac0581171a2"
+        },
+        "19187443-234a-46ab-944b-e3b101f6d1a9": {
+          "from": "2ad022cd-7467-4192-b247-6f8d13578e5f",
+          "to": "fca35f7b-993e-4e11-94fb-85e6be202591",
+          "id": "19187443-234a-46ab-944b-e3b101f6d1a9"
+        },
+        "0ae3fce3-884e-4f2e-a839-a6dff9b355d8": {
+          "from": "72a0eecd-98a0-4eff-b1c1-9a36f41f10f0",
+          "to": "2ad022cd-7467-4192-b247-6f8d13578e5f",
+          "id": "0ae3fce3-884e-4f2e-a839-a6dff9b355d8"
+        },
+        "002cf7bf-cb15-4922-a3f6-248339d9db3c": {
+          "from": "2eba03d2-87cd-4c6d-a62f-4e62e740364a",
+          "to": "1589fcd1-5cde-491a-a20f-c754434d8cff",
+          "id": "002cf7bf-cb15-4922-a3f6-248339d9db3c"
+        },
+        "3f600c30-baf4-49a7-86f5-5a75b8c3dbbb": {
+          "from": "2e9cf1fb-7d4a-4b53-9eb5-c95c9da5c49e",
+          "to": "b82b4afe-639d-4112-977d-505e45704ac3",
+          "id": "3f600c30-baf4-49a7-86f5-5a75b8c3dbbb"
+        },
+        "02b1a395-3a65-4934-a9ab-beb676bf0472": {
+          "from": "21f84dba-506f-4b50-9e2e-a02f4642a556",
+          "to": "16a97b5c-7b05-4f6a-bbf0-72da07c70056",
+          "id": "02b1a395-3a65-4934-a9ab-beb676bf0472"
+        },
+        "8809a384-c35e-461e-b158-c541e3807ea8": {
+          "from": "47bda7e5-46cf-4530-afbb-63250ffe20bc",
+          "to": "ce1b5304-4e02-4fa1-b45d-2efe46a80c67",
+          "id": "8809a384-c35e-461e-b158-c541e3807ea8"
+        },
+        "bac2f7f1-c106-49fd-ac38-3cb3ea1aaf1e": {
+          "from": "37153745-b0f5-4e05-bb9b-3ff26da40310",
+          "to": "2b570da9-93e1-4f5c-97b8-4f61a7a64806",
+          "id": "bac2f7f1-c106-49fd-ac38-3cb3ea1aaf1e"
+        },
+        "5daf6db9-fd89-4ed4-a047-ca562f173301": {
+          "from": "e1c4b9b6-754a-4b90-a73d-f88261ef6efd",
+          "to": "1cd08ce3-bb14-4b9c-8661-00f3b91b2deb",
+          "id": "5daf6db9-fd89-4ed4-a047-ca562f173301"
+        },
+        "1f50891b-261f-41ec-9355-4a5a3e8e92fa": {
+          "from": "cc2f9250-200b-4ee6-bd5f-095376f25c6a",
+          "to": "d639aa28-2237-4cf7-b102-148e31732edf",
+          "id": "1f50891b-261f-41ec-9355-4a5a3e8e92fa"
+        },
+        "897ffaee-a5fa-4e9c-8aef-619b3d81d0a2": {
+          "from": "fca35f7b-993e-4e11-94fb-85e6be202591",
+          "to": "7de23056-b017-4680-9113-c749d519a489",
+          "id": "897ffaee-a5fa-4e9c-8aef-619b3d81d0a2"
+        },
+        "07689100-9063-4bdb-aaab-94ad3e765800": {
+          "from": "3e8ad32a-f515-42e9-abce-c40b5d4d12a7",
+          "to": "0079d620-35f7-4cf2-a76e-1c5673bc524e",
+          "id": "07689100-9063-4bdb-aaab-94ad3e765800"
+        },
+        "f94c8000-edcf-45b1-9410-36e1bea5b10e": {
+          "from": "7ecacacb-e8f9-4c57-b636-2b4594cf2e61",
+          "to": "64298ed1-fe9d-4a11-a941-07dc0ec434ad",
+          "id": "f94c8000-edcf-45b1-9410-36e1bea5b10e"
+        },
+        "dd13ab82-f796-4064-bcc9-5f7a7dd32d81": {
+          "from": "856f9946-61b3-40ed-b582-9e7900f90373",
+          "to": "c7851249-22b2-456a-80bf-cfd203120aa6",
+          "id": "dd13ab82-f796-4064-bcc9-5f7a7dd32d81"
+        },
+        "a2897e96-965c-43ca-a491-8c51ccc18c47": {
+          "from": "574fa6e9-94ef-4115-9e33-d1a48872a250",
+          "to": "47e94da7-5a78-41bc-9815-c06d8058c12b",
+          "id": "a2897e96-965c-43ca-a491-8c51ccc18c47"
+        },
+        "e90d7251-bb29-470f-9adb-abbe8059dbe5": {
+          "from": "ac3765fd-6edd-4e2e-b9ce-4b71cec018b1936",
+          "to": "1f70cdf6-5182-4057-9693-67f8464d7f85",
+          "id": "e90d7251-bb29-470f-9adb-abbe8059dbe5"
+        },
+        "ab417d82-d8ac-4503-b074-2863d2a4c95d": {
+          "from": "ac3765fd-6edd-4e2e-b9ce-4b71cec018b1936",
+          "to": "10b423ae-1652-4e9e-a495-112c72c21640",
+          "id": "ab417d82-d8ac-4503-b074-2863d2a4c95d"
+        },
+        "7d5bf5b3-42c7-47ea-b5ca-ff2b17ac7cdd": {
+          "from": "10b423ae-1652-4e9e-a495-112c72c21640",
+          "to": "5c99cb9f-dbc1-4cea-9166-75b513fa1088",
+          "id": "7d5bf5b3-42c7-47ea-b5ca-ff2b17ac7cdd"
+        },
+        "4eb51c74-1b8b-47e2-98ae-cf954e707b75": {
+          "from": "1f70cdf6-5182-4057-9693-67f8464d7f85",
+          "to": "c6562ec0-847a-45d0-85c8-4b273444a56c",
+          "id": "4eb51c74-1b8b-47e2-98ae-cf954e707b75"
+        },
+        "ddf1b505-9bcf-453e-9869-3757dbe1c1ef": {
+          "from": "0dda0426-f37b-4935-971c-c7810a49b257",
+          "to": "07540f96-c54e-4e28-ab09-d5e567c1c583",
+          "id": "ddf1b505-9bcf-453e-9869-3757dbe1c1ef"
+        },
+        "b3e739a9-59c8-4897-9a3b-e47383e6de82": {
+          "from": "8a45bb02-f123-42ab-aeed-6bb92a0c7854",
+          "to": "0dda0426-f37b-4935-971c-c7810a49b257",
+          "id": "b3e739a9-59c8-4897-9a3b-e47383e6de82"
+        },
+        "8aa3f278-e0ae-4dc5-983c-9d1f530a2610": {
+          "from": "ae4f11d6-5a7f-4a39-b893-6bd89792036f936",
+          "to": "8a45bb02-f123-42ab-aeed-6bb92a0c7854",
+          "id": "8aa3f278-e0ae-4dc5-983c-9d1f530a2610"
+        },
+        "388e596b-68d8-4e62-aaab-ec38ce790532": {
+          "from": "60c2d97b-fdf5-4b9b-b53a-f9d9db63bd6d",
+          "to": "fe7799e8-7253-4d0d-b84f-365501748ce6",
+          "id": "388e596b-68d8-4e62-aaab-ec38ce790532"
+        },
+        "1af3ed0c-1d1e-4b96-bf8e-d8e31cf579ca": {
+          "from": "d10c9db6-89a7-4d11-a234-4dccedf5da95",
+          "to": "c722ea62-79f5-4c92-973c-ae962d05370c",
+          "id": "1af3ed0c-1d1e-4b96-bf8e-d8e31cf579ca"
+        },
+        "c81f985a-cb28-4896-8445-7b272d042427": {
+          "from": "b1fc1e7f-c5f1-4501-8ac5-7c6bf257b262936",
+          "to": "2d230a24-bb08-499f-977b-4b344649ce7d",
+          "id": "c81f985a-cb28-4896-8445-7b272d042427"
+        },
+        "afa33db7-fa4f-47eb-a69e-b86db1da5cda": {
+          "from": "6a4ea9ab-a1d0-4f2a-b459-4533891546ea936",
+          "to": "553c21aa-fabf-4543-b12b-6a6fe08e85c2",
+          "id": "afa33db7-fa4f-47eb-a69e-b86db1da5cda"
+        },
+        "794be10e-7738-4702-86ca-15633ab1db92": {
+          "from": "534eea4c-47d0-491d-aad0-c4a841c708f7",
+          "to": "9c3280c9-96ae-4ba5-a53a-10fdf70cf669",
+          "id": "794be10e-7738-4702-86ca-15633ab1db92"
+        },
+        "bfc4a849-3d2b-4d19-bac4-9c1aa99852e0": {
+          "from": "fb5750b9-73cc-4b74-941f-717090c60201",
+          "to": "a212c08b-0c9e-4515-8467-0fd03b3f9904",
+          "id": "bfc4a849-3d2b-4d19-bac4-9c1aa99852e0"
+        },
+        "bc5c4a7f-20ed-4d72-b4ba-98b42fb4dbe6": {
+          "from": "553c21aa-fabf-4543-b12b-6a6fe08e85c2",
+          "to": "fb5750b9-73cc-4b74-941f-717090c60201",
+          "id": "bc5c4a7f-20ed-4d72-b4ba-98b42fb4dbe6"
+        },
+        "35ab0a4c-a653-4c64-a9bd-ef557d212fd5": {
+          "from": "553c21aa-fabf-4543-b12b-6a6fe08e85c2",
+          "to": "534eea4c-47d0-491d-aad0-c4a841c708f7",
+          "id": "35ab0a4c-a653-4c64-a9bd-ef557d212fd5"
+        },
+        "c6bdb591-7967-47fa-a4ee-4a1fee17f62c": {
+          "from": "cb70d01c-dada-4ffa-96db-21c1fd1f4d1d",
+          "to": "3ba7272b-e63c-4f49-a816-598ec208c10c",
+          "id": "c6bdb591-7967-47fa-a4ee-4a1fee17f62c"
+        },
+        "8bf75fcc-25bd-4862-98dc-94c94629b44f": {
+          "from": "cb70d01c-dada-4ffa-96db-21c1fd1f4d1d",
+          "to": "5502b25c-ab94-49e7-a8c0-cdeef964fb97",
+          "id": "8bf75fcc-25bd-4862-98dc-94c94629b44f"
+        },
+        "5e691ae2-ac8a-4cd8-ba69-77e9f598cfb9": {
+          "from": "553c21aa-fabf-4543-b12b-6a6fe08e85c2",
+          "to": "cb70d01c-dada-4ffa-96db-21c1fd1f4d1d",
+          "id": "5e691ae2-ac8a-4cd8-ba69-77e9f598cfb9"
+        },
+        "9e9b55d7-a8c6-4c7c-bb70-65cd5df99a72": {
+          "from": "449b5ed6-e097-48d3-af14-b5f2578f3feb936",
+          "to": "aecd29a0-3b8c-4edd-975b-4a0872992ce6",
+          "id": "9e9b55d7-a8c6-4c7c-bb70-65cd5df99a72"
+        },
+        "97ff2170-e7ec-4468-b112-a40de1a95334": {
+          "from": "aecd29a0-3b8c-4edd-975b-4a0872992ce6",
+          "to": "b6d58edc-e73d-4079-85de-00e4cb68c94c",
+          "id": "97ff2170-e7ec-4468-b112-a40de1a95334"
+        },
+        "1811ea09-4962-42a9-bb89-1c55e6cf9966": {
+          "from": "aecd29a0-3b8c-4edd-975b-4a0872992ce6",
+          "to": "b94a2024-c3c3-421a-9db1-82ddc04911c4",
+          "id": "1811ea09-4962-42a9-bb89-1c55e6cf9966"
+        },
+        "29915002-a132-480f-bf27-2636564e6113": {
+          "from": "026a3fc7-7f98-4d9c-b657-bff203edb92e",
+          "to": "0192371a-d1a4-458a-a3d3-d2ebc30d72ee",
+          "id": "29915002-a132-480f-bf27-2636564e6113"
+        },
+        "f4c10192-bb3d-4900-89d9-22c7dd8ee4a5": {
+          "from": "c3505416-dfe9-4e6d-9474-d2bd39a95f98",
+          "to": "967dae0c-9507-4941-b7c6-080ff888326b",
+          "id": "f4c10192-bb3d-4900-89d9-22c7dd8ee4a5"
+        },
+        "3c71d41a-419f-4bea-906f-ff1a35fbadc2936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "3c71d41a-419f-4bea-906f-ff1a35fbadc2936313",
+          "from": "f4d0d1f9-370b-4a25-8894-364b65e8847c936313",
+          "to": "19000757-4b0a-4e92-92da-14975a083702936313"
+        },
+        "dec8c22b-7d8f-49b4-8699-26ceaaa3990f936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "dec8c22b-7d8f-49b4-8699-26ceaaa3990f936313",
+          "from": "f4d0d1f9-370b-4a25-8894-364b65e8847c936313",
+          "to": "5be52f1f-0a7b-4923-948a-a95ddf36a255936313"
+        },
+        "9169d8a5-d8ee-4702-84c7-640eeebee992936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "9169d8a5-d8ee-4702-84c7-640eeebee992936313",
+          "from": "f4d0d1f9-370b-4a25-8894-364b65e8847c936313",
+          "to": "55436d3d-28fc-43e9-b39d-9562e884edc8936313"
+        },
+        "a1e9d232-8f4f-43cd-8f3a-27006f7ae5bb936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "a1e9d232-8f4f-43cd-8f3a-27006f7ae5bb936313",
+          "from": "f4d0d1f9-370b-4a25-8894-364b65e8847c936313",
+          "to": "09a8257c-a941-4b37-931c-bc39a470f45b936313"
+        },
+        "639a40d3-5014-4bd9-8fa0-c6535fe8b135936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "639a40d3-5014-4bd9-8fa0-c6535fe8b135936313",
+          "from": "f4d0d1f9-370b-4a25-8894-364b65e8847c936313",
+          "to": "b8bc8b61-4739-4c64-ab15-fb27f01d4904936313"
+        },
+        "fa59f19c-2cee-4625-b19b-8fafd2810c78936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "fa59f19c-2cee-4625-b19b-8fafd2810c78936313",
+          "from": "19000757-4b0a-4e92-92da-14975a083702936313",
+          "to": "04e78b73-13a2-490c-98e1-ac7755f8bf1f936313"
+        },
+        "a9221ed0-2ef2-4495-be2d-7b83f02e0594936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "a9221ed0-2ef2-4495-be2d-7b83f02e0594936313",
+          "from": "04e78b73-13a2-490c-98e1-ac7755f8bf1f936313",
+          "to": "90e31606-419f-4d46-a841-c825e014c94b936313"
+        },
+        "7f7ab99c-94a0-4353-8f20-4b33cfbea7d1936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "7f7ab99c-94a0-4353-8f20-4b33cfbea7d1936313",
+          "from": "5be52f1f-0a7b-4923-948a-a95ddf36a255936313",
+          "to": "ae4f11d6-5a7f-4a39-b893-6bd89792036f936313"
+        },
+        "415d02e8-0b7d-40f3-948c-db9b5a38d053936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "415d02e8-0b7d-40f3-948c-db9b5a38d053936313",
+          "from": "5be52f1f-0a7b-4923-948a-a95ddf36a255936313",
+          "to": "b25415a6-fdcc-480d-8f36-a6a5986e1bd9936313"
+        },
+        "a014f2f4-414f-4900-abcd-2effe15b7e40936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "a014f2f4-414f-4900-abcd-2effe15b7e40936313",
+          "from": "5be52f1f-0a7b-4923-948a-a95ddf36a255936313",
+          "to": "01920d36-225d-4772-8c06-2da1c06b35ca936313"
+        },
+        "ddbede42-f781-4a6c-8661-f3815f4e3779936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "ddbede42-f781-4a6c-8661-f3815f4e3779936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "60c86ee0-b22f-48cc-b02c-5ec877d42fdf936313"
+        },
+        "540dc602-5c78-430f-94ca-657b2923e873936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "540dc602-5c78-430f-94ca-657b2923e873936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "c91dd356-efcf-4fc2-b3ff-4faa7a2fc9c6936313"
+        },
+        "a50d149e-e2f8-4953-ac36-1131af9b5e93936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "a50d149e-e2f8-4953-ac36-1131af9b5e93936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "bc420d78-9f8d-4c1e-af20-debedff8f1fc936313"
+        },
+        "39f78478-42f7-4084-8294-b4e73d2e23e8936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "39f78478-42f7-4084-8294-b4e73d2e23e8936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "8947774d-2a98-4551-a56d-1b8c7bc278ee936313"
+        },
+        "767920a0-3692-4997-a04d-f9d899596e94936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "767920a0-3692-4997-a04d-f9d899596e94936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "d4a802d6-bf9e-4202-9058-21624859d5e9936313"
+        },
+        "076d1403-947e-47b2-b554-43d64b135f9d936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "076d1403-947e-47b2-b554-43d64b135f9d936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "abfb799b-d672-4a91-8141-007dba1a9833936313"
+        },
+        "a6609d80-452f-4df4-ae7b-19e48e48368f936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "a6609d80-452f-4df4-ae7b-19e48e48368f936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "4a113d36-e4d7-4454-97fd-7ad5a89892e5936313"
+        },
+        "8c3eddc9-00a7-4976-97d6-c5bd70d42bc6936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "8c3eddc9-00a7-4976-97d6-c5bd70d42bc6936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "46dcf54a-3931-4be1-b015-7483fb18593c936313"
+        },
+        "18f4acd5-ea67-4f51-9ac6-3abc0cf99497936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "18f4acd5-ea67-4f51-9ac6-3abc0cf99497936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "d85491f1-b959-4874-b078-652098bd0853936313"
+        },
+        "2fbb81ee-4b04-4586-86c5-fc6efd5aa2ad936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "2fbb81ee-4b04-4586-86c5-fc6efd5aa2ad936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "325c86c3-18d8-448f-86e3-a18d663c1f29936313"
+        },
+        "4181e737-db06-4194-acd5-91eae6ca8850936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "4181e737-db06-4194-acd5-91eae6ca8850936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "aa9095ca-c09c-4737-892d-b2ce76779dd4936313"
+        },
+        "bfd24e02-57e4-4e11-a521-8ef7b45ee13f936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "bfd24e02-57e4-4e11-a521-8ef7b45ee13f936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "6b1309ea-d23a-43cf-9bd9-108edddb2939936313"
+        },
+        "1b6be92f-3773-4538-bde9-ce5cae0a2c16936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "1b6be92f-3773-4538-bde9-ce5cae0a2c16936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "8d8720c6-d0ab-4a15-8474-ae2bfb122658936313"
+        },
+        "f8dd350f-ebd8-4b4f-ad99-04f1a25e5c4d936313": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "f8dd350f-ebd8-4b4f-ad99-04f1a25e5c4d936313",
+          "from": "01920d36-225d-4772-8c06-2da1c06b35ca936313",
+          "to": "d1fea730-cd85-4427-b3c4-45c0446185a6936313"
+        },
+        "60f1678c-bdf5-424d-bf23-f6fba8454f88936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "60f1678c-bdf5-424d-bf23-f6fba8454f88936568",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936568",
+          "to": "568a93e7-1e2a-4ebb-8732-20547137969b936568"
+        },
+        "68eaf17b-6301-4b26-b6d1-09ae724b86c9936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "68eaf17b-6301-4b26-b6d1-09ae724b86c9936568",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936568",
+          "to": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936568"
+        },
+        "2cbcd9ff-3281-4647-899f-bf585b3c0830936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "2cbcd9ff-3281-4647-899f-bf585b3c0830936568",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936568",
+          "to": "043279af-1c14-4d06-ae4f-97ae177e05e7936568"
+        },
+        "8a73aea0-0e49-4b2b-8fe9-b40733c51c30936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "8a73aea0-0e49-4b2b-8fe9-b40733c51c30936568",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936568",
+          "to": "bbad87b1-5f6d-449e-a027-5aba17eef50c936568"
+        },
+        "1cc72826-48d9-4f0e-b3b6-2e2348abe344936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "1cc72826-48d9-4f0e-b3b6-2e2348abe344936568",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936568",
+          "to": "d562aae2-1f4d-418c-814a-dcb24c91fdf7936568"
+        },
+        "e749726a-0e53-467d-9069-3a523c2a357c936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e749726a-0e53-467d-9069-3a523c2a357c936568",
+          "from": "568a93e7-1e2a-4ebb-8732-20547137969b936568",
+          "to": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936568"
+        },
+        "89d5a74f-7ad7-44f4-9078-0f05a51ab546936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "89d5a74f-7ad7-44f4-9078-0f05a51ab546936568",
+          "from": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936568",
+          "to": "b9609706-aefe-40f0-89a0-a4f8d62433ea936568"
+        },
+        "d723ebda-e85f-46e5-9a4b-a68088b4a51a936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d723ebda-e85f-46e5-9a4b-a68088b4a51a936568",
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936568",
+          "to": "a306e5dc-4dae-4ecf-9429-c5ac8b720165936568"
+        },
+        "f856633e-becc-4057-9dc5-a209f0d7e65f936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "f856633e-becc-4057-9dc5-a209f0d7e65f936568",
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936568",
+          "to": "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936568"
+        },
+        "f80981a1-4696-4e24-9c74-2a37e8dc0d75936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "f80981a1-4696-4e24-9c74-2a37e8dc0d75936568",
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936568",
+          "to": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568"
+        },
+        "15f43668-9b37-4e70-939f-02b7829f1854936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "15f43668-9b37-4e70-939f-02b7829f1854936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936568"
+        },
+        "e32ec807-8158-45dc-9e45-a748bd636b81936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e32ec807-8158-45dc-9e45-a748bd636b81936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "16f49b41-b2ba-4484-a1e2-edce245fd872936568"
+        },
+        "ccb723eb-3fb9-4884-a797-51b42c4f7c68936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "ccb723eb-3fb9-4884-a797-51b42c4f7c68936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "ef10ac5d-d5ad-45de-90b2-466bd9577043936568"
+        },
+        "8a054225-ca6d-403b-85ac-ee410d1bfa68936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "8a054225-ca6d-403b-85ac-ee410d1bfa68936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "b48d2597-2c0f-4224-aff7-767b851c1a44936568"
+        },
+        "250cfd83-3d3b-4ea1-8da6-583f88e22a67936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "250cfd83-3d3b-4ea1-8da6-583f88e22a67936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "54a0e200-9170-4c28-8bfd-6d355d53328b936568"
+        },
+        "e48e38a2-9e44-4df9-8c44-826438643103936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e48e38a2-9e44-4df9-8c44-826438643103936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936568"
+        },
+        "14dfd9e2-1ead-45eb-9850-3c4e667ca50a936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "14dfd9e2-1ead-45eb-9850-3c4e667ca50a936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "e61d9625-849b-4ed8-aaac-e9ae27532598936568"
+        },
+        "926552d7-7d43-475c-ae24-56195e2341fc936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "926552d7-7d43-475c-ae24-56195e2341fc936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "3d4bec96-a27b-4c21-bed3-62792eb01073936568"
+        },
+        "0667c3b1-71dc-4d91-970e-9200c217d6ac936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0667c3b1-71dc-4d91-970e-9200c217d6ac936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936568"
+        },
+        "d40c1e16-1c80-466b-9b73-576e6c813183936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d40c1e16-1c80-466b-9b73-576e6c813183936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936568"
+        },
+        "861988dc-a3ce-4949-9642-c5a48019c6a2936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "861988dc-a3ce-4949-9642-c5a48019c6a2936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936568"
+        },
+        "4d5b63e1-da5c-49c8-a760-ca0fe06a18f5936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "4d5b63e1-da5c-49c8-a760-ca0fe06a18f5936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936568"
+        },
+        "d7d452ae-49f1-4aa3-9e40-520cf5c05ef8936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d7d452ae-49f1-4aa3-9e40-520cf5c05ef8936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "6cc54441-5d50-4182-a740-5ea376b13ba0936568"
+        },
+        "6562e243-26cc-416c-b8b9-4cd1f55f641f936568": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "6562e243-26cc-416c-b8b9-4cd1f55f641f936568",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936568",
+          "to": "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936568"
+        },
+        "641f254a-f94a-4a1a-b93d-d3a03bb16aa0": {
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936568",
+          "to": "d9a5cfe3-c67f-4518-a62e-d9e2c1e0bb63",
+          "id": "641f254a-f94a-4a1a-b93d-d3a03bb16aa0"
+        },
+        "60f1678c-bdf5-424d-bf23-f6fba8454f88936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "60f1678c-bdf5-424d-bf23-f6fba8454f88936921",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936921",
+          "to": "568a93e7-1e2a-4ebb-8732-20547137969b936921"
+        },
+        "68eaf17b-6301-4b26-b6d1-09ae724b86c9936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "68eaf17b-6301-4b26-b6d1-09ae724b86c9936921",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936921",
+          "to": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936921"
+        },
+        "2cbcd9ff-3281-4647-899f-bf585b3c0830936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "2cbcd9ff-3281-4647-899f-bf585b3c0830936921",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936921",
+          "to": "043279af-1c14-4d06-ae4f-97ae177e05e7936921"
+        },
+        "8a73aea0-0e49-4b2b-8fe9-b40733c51c30936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "8a73aea0-0e49-4b2b-8fe9-b40733c51c30936921",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936921",
+          "to": "bbad87b1-5f6d-449e-a027-5aba17eef50c936921"
+        },
+        "1cc72826-48d9-4f0e-b3b6-2e2348abe344936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "1cc72826-48d9-4f0e-b3b6-2e2348abe344936921",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df3936921",
+          "to": "d562aae2-1f4d-418c-814a-dcb24c91fdf7936921"
+        },
+        "e749726a-0e53-467d-9069-3a523c2a357c936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e749726a-0e53-467d-9069-3a523c2a357c936921",
+          "from": "568a93e7-1e2a-4ebb-8732-20547137969b936921",
+          "to": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936921"
+        },
+        "89d5a74f-7ad7-44f4-9078-0f05a51ab546936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "89d5a74f-7ad7-44f4-9078-0f05a51ab546936921",
+          "from": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f936921",
+          "to": "b9609706-aefe-40f0-89a0-a4f8d62433ea936921"
+        },
+        "d723ebda-e85f-46e5-9a4b-a68088b4a51a936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d723ebda-e85f-46e5-9a4b-a68088b4a51a936921",
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936921",
+          "to": "a306e5dc-4dae-4ecf-9429-c5ac8b720165936921"
+        },
+        "f856633e-becc-4057-9dc5-a209f0d7e65f936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "f856633e-becc-4057-9dc5-a209f0d7e65f936921",
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936921",
+          "to": "0d96aa90-86b1-4cff-ba7e-85d7e3f169c0936921"
+        },
+        "f80981a1-4696-4e24-9c74-2a37e8dc0d75936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "f80981a1-4696-4e24-9c74-2a37e8dc0d75936921",
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe252936921",
+          "to": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921"
+        },
+        "228330da-52a1-48d4-a83f-32d7a9de0939921": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "228330da-52a1-48d4-a83f-32d7a9de0939921",
+          "from": "a306e5dc-4dae-4ecf-9429-c5ac8b720165936921",
+          "to": "73e0c065-0794-4edf-b844-a289790f6791921"
+        },
+        "15f43668-9b37-4e70-939f-02b7829f1854936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "15f43668-9b37-4e70-939f-02b7829f1854936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "e1bbbe1d-e5af-48ab-b717-b0118142f6e7936921"
+        },
+        "e32ec807-8158-45dc-9e45-a748bd636b81936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e32ec807-8158-45dc-9e45-a748bd636b81936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "16f49b41-b2ba-4484-a1e2-edce245fd872936921"
+        },
+        "ccb723eb-3fb9-4884-a797-51b42c4f7c68936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "ccb723eb-3fb9-4884-a797-51b42c4f7c68936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "ef10ac5d-d5ad-45de-90b2-466bd9577043936921"
+        },
+        "8a054225-ca6d-403b-85ac-ee410d1bfa68936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "8a054225-ca6d-403b-85ac-ee410d1bfa68936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "b48d2597-2c0f-4224-aff7-767b851c1a44936921"
+        },
+        "250cfd83-3d3b-4ea1-8da6-583f88e22a67936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "250cfd83-3d3b-4ea1-8da6-583f88e22a67936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "54a0e200-9170-4c28-8bfd-6d355d53328b936921"
+        },
+        "e48e38a2-9e44-4df9-8c44-826438643103936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e48e38a2-9e44-4df9-8c44-826438643103936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "ae93cac5-ff1c-4bb4-baba-d6f7fc738624936921"
+        },
+        "14dfd9e2-1ead-45eb-9850-3c4e667ca50a936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "14dfd9e2-1ead-45eb-9850-3c4e667ca50a936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "e61d9625-849b-4ed8-aaac-e9ae27532598936921"
+        },
+        "926552d7-7d43-475c-ae24-56195e2341fc936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "926552d7-7d43-475c-ae24-56195e2341fc936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "3d4bec96-a27b-4c21-bed3-62792eb01073936921"
+        },
+        "0667c3b1-71dc-4d91-970e-9200c217d6ac936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0667c3b1-71dc-4d91-970e-9200c217d6ac936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca45936921"
+        },
+        "d40c1e16-1c80-466b-9b73-576e6c813183936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d40c1e16-1c80-466b-9b73-576e6c813183936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "1d3698e0-98fb-4d43-91c3-7572a5f7a6c2936921"
+        },
+        "861988dc-a3ce-4949-9642-c5a48019c6a2936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "861988dc-a3ce-4949-9642-c5a48019c6a2936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d936921"
+        },
+        "4d5b63e1-da5c-49c8-a760-ca0fe06a18f5936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "4d5b63e1-da5c-49c8-a760-ca0fe06a18f5936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f5936921"
+        },
+        "d7d452ae-49f1-4aa3-9e40-520cf5c05ef8936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d7d452ae-49f1-4aa3-9e40-520cf5c05ef8936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "6cc54441-5d50-4182-a740-5ea376b13ba0936921"
+        },
+        "6562e243-26cc-416c-b8b9-4cd1f55f641f936921": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "6562e243-26cc-416c-b8b9-4cd1f55f641f936921",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab6936921",
+          "to": "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc936921"
+        },
+        "32eddd88-7d5c-487d-b2fd-9a89ee0004f2": {
+          "from": "a306e5dc-4dae-4ecf-9429-c5ac8b720165936921",
+          "to": "21b2b854-668c-47a9-934e-8e93464153a2",
+          "id": "32eddd88-7d5c-487d-b2fd-9a89ee0004f2"
+        },
+        "1e75fddc-e1c8-411c-962e-35cd9a857c74": {
+          "from": "954596f7-c7ab-45ef-8cab-840b70302fbf",
+          "to": "cc7a610e-7c25-453a-bfe3-80efa686f1e2",
+          "id": "1e75fddc-e1c8-411c-962e-35cd9a857c74"
+        },
+        "6801da04-cf7d-4db3-a8a5-b304ccfd592c": {
+          "from": "954596f7-c7ab-45ef-8cab-840b70302fbf",
+          "to": "fa3ff2e7-7371-4cfb-9920-0cf60f9ba315",
+          "id": "6801da04-cf7d-4db3-a8a5-b304ccfd592c"
+        },
+        "916e6652-bb90-4bd2-a788-8c44e819d8df": {
+          "from": "954596f7-c7ab-45ef-8cab-840b70302fbf",
+          "to": "91c25b5a-f5d1-465f-9bae-af966079a98d",
+          "id": "916e6652-bb90-4bd2-a788-8c44e819d8df"
+        },
+        "2d4be047-8e22-43fb-8c85-13254be56b5c": {
+          "from": "21b2b854-668c-47a9-934e-8e93464153a2",
+          "to": "954596f7-c7ab-45ef-8cab-840b70302fbf",
+          "id": "2d4be047-8e22-43fb-8c85-13254be56b5c"
+        },
+        "deb39f10-eee7-4101-a4e1-09ccd00cbe9c": {
+          "from": "954596f7-c7ab-45ef-8cab-840b70302fbf",
+          "to": "5ff8f560-ea30-47b9-8200-824bdddb0995",
+          "id": "deb39f10-eee7-4101-a4e1-09ccd00cbe9c"
+        },
+        "bf2401af-7800-4074-bb62-da02a5d698e6": {
+          "from": "954596f7-c7ab-45ef-8cab-840b70302fbf",
+          "to": "93cbc05e-5595-4119-9793-5c1737a5f811",
+          "id": "bf2401af-7800-4074-bb62-da02a5d698e6"
+        },
+        "60f1678c-bdf5-424d-bf23-f6fba8454f8893627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "60f1678c-bdf5-424d-bf23-f6fba8454f8893627",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df393627",
+          "to": "568a93e7-1e2a-4ebb-8732-20547137969b93627"
+        },
+        "68eaf17b-6301-4b26-b6d1-09ae724b86c993627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "68eaf17b-6301-4b26-b6d1-09ae724b86c993627",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df393627",
+          "to": "3b7b3c06-c296-4186-b318-8ab5a0cbe25293627"
+        },
+        "2cbcd9ff-3281-4647-899f-bf585b3c083093627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "2cbcd9ff-3281-4647-899f-bf585b3c083093627",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df393627",
+          "to": "043279af-1c14-4d06-ae4f-97ae177e05e793627"
+        },
+        "8a73aea0-0e49-4b2b-8fe9-b40733c51c3093627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "8a73aea0-0e49-4b2b-8fe9-b40733c51c3093627",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df393627",
+          "to": "bbad87b1-5f6d-449e-a027-5aba17eef50c93627"
+        },
+        "1cc72826-48d9-4f0e-b3b6-2e2348abe34493627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "1cc72826-48d9-4f0e-b3b6-2e2348abe34493627",
+          "from": "a1c64132-1789-457e-9b43-f1e12eab3df393627",
+          "to": "d562aae2-1f4d-418c-814a-dcb24c91fdf793627"
+        },
+        "e749726a-0e53-467d-9069-3a523c2a357c93627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e749726a-0e53-467d-9069-3a523c2a357c93627",
+          "from": "568a93e7-1e2a-4ebb-8732-20547137969b93627",
+          "to": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f93627"
+        },
+        "89d5a74f-7ad7-44f4-9078-0f05a51ab54693627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "89d5a74f-7ad7-44f4-9078-0f05a51ab54693627",
+          "from": "0a322fa4-5dba-4cb0-b75c-ab588a80b96f93627",
+          "to": "b9609706-aefe-40f0-89a0-a4f8d62433ea93627"
+        },
+        "d723ebda-e85f-46e5-9a4b-a68088b4a51a93627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d723ebda-e85f-46e5-9a4b-a68088b4a51a93627",
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe25293627",
+          "to": "a306e5dc-4dae-4ecf-9429-c5ac8b72016593627"
+        },
+        "f856633e-becc-4057-9dc5-a209f0d7e65f93627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "f856633e-becc-4057-9dc5-a209f0d7e65f93627",
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe25293627",
+          "to": "0d96aa90-86b1-4cff-ba7e-85d7e3f169c093627"
+        },
+        "f80981a1-4696-4e24-9c74-2a37e8dc0d7593627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "f80981a1-4696-4e24-9c74-2a37e8dc0d7593627",
+          "from": "3b7b3c06-c296-4186-b318-8ab5a0cbe25293627",
+          "to": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627"
+        },
+        "228330da-52a1-48d4-a83f-32d7a9de093927": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "228330da-52a1-48d4-a83f-32d7a9de093927",
+          "from": "a306e5dc-4dae-4ecf-9429-c5ac8b72016593627",
+          "to": "73e0c065-0794-4edf-b844-a289790f679127"
+        },
+        "15f43668-9b37-4e70-939f-02b7829f185493627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "15f43668-9b37-4e70-939f-02b7829f185493627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "e1bbbe1d-e5af-48ab-b717-b0118142f6e793627"
+        },
+        "e32ec807-8158-45dc-9e45-a748bd636b8193627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e32ec807-8158-45dc-9e45-a748bd636b8193627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "16f49b41-b2ba-4484-a1e2-edce245fd87293627"
+        },
+        "ccb723eb-3fb9-4884-a797-51b42c4f7c6893627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "ccb723eb-3fb9-4884-a797-51b42c4f7c6893627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "ef10ac5d-d5ad-45de-90b2-466bd957704393627"
+        },
+        "8a054225-ca6d-403b-85ac-ee410d1bfa6893627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "8a054225-ca6d-403b-85ac-ee410d1bfa6893627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "b48d2597-2c0f-4224-aff7-767b851c1a4493627"
+        },
+        "250cfd83-3d3b-4ea1-8da6-583f88e22a6793627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "250cfd83-3d3b-4ea1-8da6-583f88e22a6793627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "54a0e200-9170-4c28-8bfd-6d355d53328b93627"
+        },
+        "e48e38a2-9e44-4df9-8c44-82643864310393627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e48e38a2-9e44-4df9-8c44-82643864310393627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "ae93cac5-ff1c-4bb4-baba-d6f7fc73862493627"
+        },
+        "14dfd9e2-1ead-45eb-9850-3c4e667ca50a93627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "14dfd9e2-1ead-45eb-9850-3c4e667ca50a93627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "e61d9625-849b-4ed8-aaac-e9ae2753259893627"
+        },
+        "926552d7-7d43-475c-ae24-56195e2341fc93627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "926552d7-7d43-475c-ae24-56195e2341fc93627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "3d4bec96-a27b-4c21-bed3-62792eb0107393627"
+        },
+        "0667c3b1-71dc-4d91-970e-9200c217d6ac93627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0667c3b1-71dc-4d91-970e-9200c217d6ac93627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "3e6fa6e4-f9d8-4591-bd8e-d9aea97cca4593627"
+        },
+        "d40c1e16-1c80-466b-9b73-576e6c81318393627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d40c1e16-1c80-466b-9b73-576e6c81318393627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "1d3698e0-98fb-4d43-91c3-7572a5f7a6c293627"
+        },
+        "861988dc-a3ce-4949-9642-c5a48019c6a293627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "861988dc-a3ce-4949-9642-c5a48019c6a293627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "9a9673c6-e9cb-417a-aefa-ddaaaee5c05d93627"
+        },
+        "4d5b63e1-da5c-49c8-a760-ca0fe06a18f593627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "4d5b63e1-da5c-49c8-a760-ca0fe06a18f593627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "37bb42d9-a6f9-4f0e-b812-e1ffaba2d5f593627"
+        },
+        "d7d452ae-49f1-4aa3-9e40-520cf5c05ef893627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "d7d452ae-49f1-4aa3-9e40-520cf5c05ef893627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "6cc54441-5d50-4182-a740-5ea376b13ba093627"
+        },
+        "6562e243-26cc-416c-b8b9-4cd1f55f641f93627": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "6562e243-26cc-416c-b8b9-4cd1f55f641f93627",
+          "from": "2cac70a4-05f6-4d89-b743-ea3248ea6ab693627",
+          "to": "f18f5832-5ba7-41bf-ad5c-fd612f55f3dc93627"
+        },
+        "98630aa4-900d-4a9e-8a65-51d91c4822f1": {
+          "from": "a306e5dc-4dae-4ecf-9429-c5ac8b72016593627",
+          "to": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "id": "98630aa4-900d-4a9e-8a65-51d91c4822f1"
+        },
+        "b761c35e-83b4-4133-91c6-674701b39457": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "3cba6a25-90e7-4547-a656-a0d8fc242333",
+          "id": "b761c35e-83b4-4133-91c6-674701b39457"
+        },
+        "29574111-3928-462c-b9aa-46963153fb8a": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "ee57fe3f-9830-47a0-a725-b95818dfe564",
+          "id": "29574111-3928-462c-b9aa-46963153fb8a"
+        },
+        "85883d73-48c5-4502-926a-f60456230aa5": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "ad3c3756-9eb6-4cb9-a09c-a5151bc71a4a",
+          "id": "85883d73-48c5-4502-926a-f60456230aa5"
+        },
+        "3bedd0ff-4603-49b6-af92-02d034c4c8b0": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "2a662043-0f66-4e9c-9732-7d1225ce0e43",
+          "id": "3bedd0ff-4603-49b6-af92-02d034c4c8b0"
+        },
+        "14a05b14-d6d2-4db4-882e-6daa8238311c": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "206342bf-0b26-47c2-8c0b-fac343376d92",
+          "id": "14a05b14-d6d2-4db4-882e-6daa8238311c"
+        },
+        "e430e14d-4b42-4212-ad08-12a1a57efae5": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "ba860a3a-d3cc-4c45-a58c-56cc49ee4904",
+          "id": "e430e14d-4b42-4212-ad08-12a1a57efae5"
+        },
+        "f3979de3-254a-4d07-b3d2-6c27d66af269": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "e8c9cea8-ecd2-4947-b2e1-1fd9bad6b195",
+          "id": "f3979de3-254a-4d07-b3d2-6c27d66af269"
+        },
+        "bc9cc3c3-01b0-40e4-addc-dbadb4079639": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "a2a4d06c-dfe4-4a20-9dab-5e99b20c116e",
+          "id": "bc9cc3c3-01b0-40e4-addc-dbadb4079639"
+        },
+        "cb9295a2-b2db-4486-b4da-d41f68486f60": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "f2bc1e25-645b-4ba0-ba96-99df7aa565e9",
+          "id": "cb9295a2-b2db-4486-b4da-d41f68486f60"
+        },
+        "ad4f11af-3317-4cca-af8b-42c63c3a5db8": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "2fc1c7b5-92f1-4c26-9171-92a5721ca8eb",
+          "id": "ad4f11af-3317-4cca-af8b-42c63c3a5db8"
+        },
+        "ad17287e-3d0c-48e9-96ec-af1b429f7e22": {
+          "from": "0590eaa6-d799-4ac1-910e-ed78e2d333b9",
+          "to": "928c2f01-208a-491f-890d-e906a710c8e3",
+          "id": "ad17287e-3d0c-48e9-96ec-af1b429f7e22"
+        },
+        "783cb2fd-1b02-4d63-b2c1-04778595e72f": {
+          "from": "124cfc69-efd0-4aac-baea-70bfbf915d0e",
+          "to": "574fa6e9-94ef-4115-9e33-d1a48872a250",
+          "id": "783cb2fd-1b02-4d63-b2c1-04778595e72f"
+        },
+        "79f05d57-782c-424b-a5e4-7d2325f79020": {
+          "from": "124cfc69-efd0-4aac-baea-70bfbf915d0e",
+          "to": "856f9946-61b3-40ed-b582-9e7900f90373",
+          "id": "79f05d57-782c-424b-a5e4-7d2325f79020"
+        },
+        "aae4cb8a-b900-4d59-b9c2-f1c64da5e698": {
+          "from": "124cfc69-efd0-4aac-baea-70bfbf915d0e",
+          "to": "7ecacacb-e8f9-4c57-b636-2b4594cf2e61",
+          "id": "aae4cb8a-b900-4d59-b9c2-f1c64da5e698"
+        },
+        "26421bfe-05a5-4eaf-8916-27ddee9dc15b": {
+          "from": "124cfc69-efd0-4aac-baea-70bfbf915d0e",
+          "to": "3e8ad32a-f515-42e9-abce-c40b5d4d12a7",
+          "id": "26421bfe-05a5-4eaf-8916-27ddee9dc15b"
+        },
+        "6ff3b0b5-44be-4755-a1d4-2d1c6827bb6e": {
+          "from": "1c612536-dd24-49fc-a54f-7a8bb56c2e89",
+          "to": "124cfc69-efd0-4aac-baea-70bfbf915d0e",
+          "id": "6ff3b0b5-44be-4755-a1d4-2d1c6827bb6e"
+        },
+        "87ecd8f4-963e-4551-9e0e-2ec6253f794c": {
+          "from": "fe96f10e-948e-42f5-87d4-af8effdd1b44",
+          "to": "2eba03d2-87cd-4c6d-a62f-4e62e740364a",
+          "id": "87ecd8f4-963e-4551-9e0e-2ec6253f794c"
+        },
+        "4a04ea7e-fea3-46c0-a200-e3c4a02e3ab2": {
+          "from": "fe96f10e-948e-42f5-87d4-af8effdd1b44",
+          "to": "2e9cf1fb-7d4a-4b53-9eb5-c95c9da5c49e",
+          "id": "4a04ea7e-fea3-46c0-a200-e3c4a02e3ab2"
+        },
+        "02e99dbc-3eb1-43fa-b0c8-6211396613c8": {
+          "from": "fe96f10e-948e-42f5-87d4-af8effdd1b44",
+          "to": "21f84dba-506f-4b50-9e2e-a02f4642a556",
+          "id": "02e99dbc-3eb1-43fa-b0c8-6211396613c8"
+        },
+        "d6db15ab-ee34-416b-bd7f-f86aca18c471": {
+          "from": "fe96f10e-948e-42f5-87d4-af8effdd1b44",
+          "to": "e1c4b9b6-754a-4b90-a73d-f88261ef6efd",
+          "id": "d6db15ab-ee34-416b-bd7f-f86aca18c471"
+        },
+        "c3d6bec5-2eec-4156-a4c0-a70b986f8c03": {
+          "from": "fe96f10e-948e-42f5-87d4-af8effdd1b44",
+          "to": "37153745-b0f5-4e05-bb9b-3ff26da40310",
+          "id": "c3d6bec5-2eec-4156-a4c0-a70b986f8c03"
+        },
+        "c288e72c-dfb2-4911-802d-c87071cffb9f": {
+          "from": "fe96f10e-948e-42f5-87d4-af8effdd1b44",
+          "to": "cc2f9250-200b-4ee6-bd5f-095376f25c6a",
+          "id": "c288e72c-dfb2-4911-802d-c87071cffb9f"
+        },
+        "b589bcc9-c5be-4f44-8775-1e96829d4196": {
+          "from": "2ad022cd-7467-4192-b247-6f8d13578e5f",
+          "to": "fe96f10e-948e-42f5-87d4-af8effdd1b44",
+          "id": "b589bcc9-c5be-4f44-8775-1e96829d4196"
+        },
+        "f11cada0-ec37-4f06-a60a-5729afa01021": {
+          "from": "4bd0950f-23c0-4b93-998a-01c0d74b6e48",
+          "to": "90195373-0367-42f6-831b-d2f67977ee94",
+          "id": "f11cada0-ec37-4f06-a60a-5729afa01021"
+        },
+        "4e662868-908f-40e9-a702-e20bdfd0d009": {
+          "from": "4bd0950f-23c0-4b93-998a-01c0d74b6e48",
+          "to": "6357e618-7a50-470b-bfd9-e8f135db9282",
+          "id": "4e662868-908f-40e9-a702-e20bdfd0d009"
+        },
+        "7308b0c2-0511-4bb8-a37d-340d51ebc25f": {
+          "from": "4bd0950f-23c0-4b93-998a-01c0d74b6e48",
+          "to": "0256102c-d64b-42fa-95a5-bbc728651778",
+          "id": "7308b0c2-0511-4bb8-a37d-340d51ebc25f"
+        },
+        "360e3f99-2777-41c8-b2ae-ae311eff0ea2": {
+          "from": "fca35f7b-993e-4e11-94fb-85e6be202591",
+          "to": "4bd0950f-23c0-4b93-998a-01c0d74b6e48",
+          "id": "360e3f99-2777-41c8-b2ae-ae311eff0ea2"
+        },
+        "b877722a-be24-4728-9b1a-dad7e24c5d31": {
+          "from": "70393d26-2a27-4c4a-aacf-0949e1633ab8",
+          "to": "ee3440e3-4794-4d6d-a6b5-ce43830aa853",
+          "id": "b877722a-be24-4728-9b1a-dad7e24c5d31"
+        },
+        "a1ccb9da-d16c-4416-9a4b-2009731ce3a6": {
+          "from": "47bda7e5-46cf-4530-afbb-63250ffe20bc",
+          "to": "70393d26-2a27-4c4a-aacf-0949e1633ab8",
+          "id": "a1ccb9da-d16c-4416-9a4b-2009731ce3a6"
+        },
+        "a3ffc734-a8db-4ca7-a80d-318415e56db9": {
+          "from": "4bd0950f-23c0-4b93-998a-01c0d74b6e48",
+          "to": "1fc66f1c-ddb2-447f-ae1d-fbb6fe525c39",
+          "id": "a3ffc734-a8db-4ca7-a80d-318415e56db9"
+        },
+        "f4c16ffb-3307-4063-b9bf-2f895089b3ed": {
+          "from": "4bd0950f-23c0-4b93-998a-01c0d74b6e48",
+          "to": "2a517415-a965-467a-b94c-8d5b73bf7818",
+          "id": "f4c16ffb-3307-4063-b9bf-2f895089b3ed"
         }
       },
       "length": 0,
@@ -34063,7 +45687,7 @@ var schemeData =
     "scale": 0.0177,
     "viewPosition": {
       "x": 95402.99999892655,
-      "y": 7199.999996384184
+      "y": 7199.999996384177
     }
   }
 }

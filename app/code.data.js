@@ -40322,8 +40322,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Natural \nLanguage \nProcessing \n(NLP)",
           "id": "c12ff828-9aae-4a52-85a6-83409a52d06c862",
-          "x": 93614,
-          "y": 27336,
+          "x": 93706,
+          "y": 27751,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -40351,6 +40351,450 @@ var schemeData =
           "y": 27888,
           "label": "https://www.isi.edu/research_groups/nlg/home ",
           "link": "https://www.isi.edu/research_groups/nlg/home"
+        },
+        "c42b98bb-1c24-42ef-adda-c7b5c4a5b5c0": {
+          "label": "Vim",
+          "x": 88977,
+          "y": 32244,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "c42b98bb-1c24-42ef-adda-c7b5c4a5b5c0",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "dddc9d9d-a204-4ef1-8eb8-775016285e1f": {
+          "label": "Development",
+          "x": 89277,
+          "y": 32694,
+          "id": "dddc9d9d-a204-4ef1-8eb8-775016285e1f"
+        },
+        "f201a133-f696-41a8-b6d3-18aedaf45abd": {
+          "label": "3/29/2020",
+          "x": 89406,
+          "y": 32694,
+          "id": "f201a133-f696-41a8-b6d3-18aedaf45abd"
+        },
+        "9f4c22ae-f6e6-461a-9736-b2a58f1a9efd": {
+          "label": "init",
+          "x": 89527,
+          "y": 32694,
+          "id": "9f4c22ae-f6e6-461a-9736-b2a58f1a9efd"
+        },
+        "fb84feea-745e-451b-b838-72bf5303e497": {
+          "label": "Notes",
+          "x": 89254,
+          "y": 31613,
+          "id": "fb84feea-745e-451b-b838-72bf5303e497"
+        },
+        "acdd416b-f897-4518-b41e-5f08236646b8": {
+          "label": "Dictionary of\nconcepts",
+          "x": 89423,
+          "y": 31307,
+          "id": "acdd416b-f897-4518-b41e-5f08236646b8"
+        },
+        "83611ed0-2fb0-4259-bf0c-c787478acb60": {
+          "label": "Details, thoughts",
+          "x": 89427,
+          "y": 31613,
+          "id": "83611ed0-2fb0-4259-bf0c-c787478acb60"
+        },
+        "208a9d8b-a29c-4f2b-b916-6d6d423b2282": {
+          "label": "Sections",
+          "x": 89401,
+          "y": 31978,
+          "id": "208a9d8b-a29c-4f2b-b916-6d6d423b2282"
+        },
+        "2c706d96-a6d3-4cc6-ae65-297006dd9f85": {
+          "label": "Books",
+          "x": 89491,
+          "y": 31713,
+          "id": "2c706d96-a6d3-4cc6-ae65-297006dd9f85"
+        },
+        "3717c82c-c23f-41ce-9956-af3290ea3208": {
+          "label": "R&D institutions",
+          "x": 89522,
+          "y": 31738,
+          "id": "3717c82c-c23f-41ce-9956-af3290ea3208"
+        },
+        "de0f41a6-de67-4e3e-8853-67b8e704f5c1": {
+          "label": "Sites",
+          "x": 89487,
+          "y": 31763,
+          "id": "de0f41a6-de67-4e3e-8853-67b8e704f5c1"
+        },
+        "a100e3f8-02a6-4094-a51b-124f50c3ecc1": {
+          "label": "Magazines",
+          "x": 89506,
+          "y": 31788,
+          "id": "a100e3f8-02a6-4094-a51b-124f50c3ecc1"
+        },
+        "040ac3b0-303d-4d10-9019-d5dde6b1fc48": {
+          "label": "Articles",
+          "x": 89495,
+          "y": 31813,
+          "id": "040ac3b0-303d-4d10-9019-d5dde6b1fc48"
+        },
+        "af766754-035d-4144-b896-f51b58fbe653": {
+          "label": "Media content",
+          "x": 89517,
+          "y": 31838,
+          "id": "af766754-035d-4144-b896-f51b58fbe653"
+        },
+        "0ccec56e-5756-4008-bd24-69e462fd5d88": {
+          "label": "Misc. web links",
+          "x": 89519,
+          "y": 31972,
+          "id": "0ccec56e-5756-4008-bd24-69e462fd5d88"
+        },
+        "caf2a117-0be6-4f46-a725-160b59b98cb3": {
+          "label": "Projects",
+          "x": 89497,
+          "y": 32119,
+          "id": "caf2a117-0be6-4f46-a725-160b59b98cb3"
+        },
+        "91ad7016-69c6-4b42-b1b6-c84d05c682f3": {
+          "label": "Tools",
+          "x": 89489,
+          "y": 32144,
+          "id": "91ad7016-69c6-4b42-b1b6-c84d05c682f3"
+        },
+        "ad27be9d-d53a-4171-b24f-2d37a6fcfcd0": {
+          "label": "Organizations",
+          "x": 89516,
+          "y": 32169,
+          "id": "ad27be9d-d53a-4171-b24f-2d37a6fcfcd0"
+        },
+        "b1ad4138-6fdf-41e6-ae8c-9a826c8420f8": {
+          "label": "Standarts",
+          "x": 89502,
+          "y": 32194,
+          "id": "b1ad4138-6fdf-41e6-ae8c-9a826c8420f8"
+        },
+        "fbe6822c-8a51-43e4-9975-306d8966080e": {
+          "label": "Forums, Groups",
+          "x": 89524,
+          "y": 32219,
+          "id": "fbe6822c-8a51-43e4-9975-306d8966080e"
+        },
+        "b270fd64-30f4-4d17-b472-370299bf16d9": {
+          "label": "Laws",
+          "x": 89488,
+          "y": 32244,
+          "id": "b270fd64-30f4-4d17-b472-370299bf16d9"
+        },
+        "a6d607dd-e809-421c-bc49-108c3706ad28": {
+          "label": "Adjacent Themes",
+          "x": 89527,
+          "y": 32269,
+          "id": "a6d607dd-e809-421c-bc49-108c3706ad28"
+        },
+        "b55173d1-6ce0-4d62-9057-6a42d522b2bc": {
+          "label": "Questions",
+          "x": 89267,
+          "y": 32394,
+          "id": "b55173d1-6ce0-4d62-9057-6a42d522b2bc"
+        },
+        "eebf08f3-4fa3-4768-9106-1c1f6cb8e32d": {
+          "label": "Problems",
+          "x": 89265,
+          "y": 32494,
+          "id": "eebf08f3-4fa3-4768-9106-1c1f6cb8e32d"
+        },
+        "243c72cb-1d3c-4d89-85fc-11c755c4c7f3": {
+          "label": "Goals",
+          "x": 89254,
+          "y": 32594,
+          "id": "243c72cb-1d3c-4d89-85fc-11c755c4c7f3"
+        },
+        "c12ff828-9aae-4a52-85a6-83409a52d06c862370": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Vim",
+          "id": "c12ff828-9aae-4a52-85a6-83409a52d06c862370",
+          "x": 91960,
+          "y": 31507,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "befb2df5-e194-4dcc-b682-2ef1e17ffedc": {
+          "label": "Emacs",
+          "x": 89176,
+          "y": 34515,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "befb2df5-e194-4dcc-b682-2ef1e17ffedc",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e3e0e1db-4fa0-4dc7-b639-ee96658559a6": {
+          "label": "Development",
+          "x": 89476,
+          "y": 34965,
+          "id": "e3e0e1db-4fa0-4dc7-b639-ee96658559a6"
+        },
+        "ef9cda06-244d-4fe3-b06d-b48e539f8a54": {
+          "label": "3/29/2020",
+          "x": 89605,
+          "y": 34965,
+          "id": "ef9cda06-244d-4fe3-b06d-b48e539f8a54"
+        },
+        "a9e41319-5af1-4efa-8340-604cf6e014e1": {
+          "label": "init",
+          "x": 89726,
+          "y": 34965,
+          "id": "a9e41319-5af1-4efa-8340-604cf6e014e1"
+        },
+        "66193d59-2872-4dcb-86e2-2fca87de17a0": {
+          "label": "Notes",
+          "x": 89449,
+          "y": 33892,
+          "id": "66193d59-2872-4dcb-86e2-2fca87de17a0"
+        },
+        "1a0b3c34-b3eb-4995-ba18-b12415957611": {
+          "label": "Dictionary of\nconcepts",
+          "x": 89609,
+          "y": 33642,
+          "id": "1a0b3c34-b3eb-4995-ba18-b12415957611"
+        },
+        "6f4e8b54-4c61-4dc3-8e07-55eceaf1dfb2": {
+          "label": "Details, thoughts",
+          "x": 89622,
+          "y": 33892,
+          "id": "6f4e8b54-4c61-4dc3-8e07-55eceaf1dfb2"
+        },
+        "5cb78704-24e7-4b30-841c-636c431013fe": {
+          "label": "Sections",
+          "x": 89596,
+          "y": 34261,
+          "id": "5cb78704-24e7-4b30-841c-636c431013fe"
+        },
+        "41429a95-78b5-4c3a-b2d2-04c46f50fbd8": {
+          "label": "Books",
+          "x": 89686,
+          "y": 33992,
+          "id": "41429a95-78b5-4c3a-b2d2-04c46f50fbd8"
+        },
+        "7185db43-ff74-4014-8e9a-939911d5a947": {
+          "label": "R&D institutions",
+          "x": 89717,
+          "y": 34017,
+          "id": "7185db43-ff74-4014-8e9a-939911d5a947"
+        },
+        "850e0737-5e0b-4032-849c-e2d4a678201b": {
+          "label": "Sites",
+          "x": 89682,
+          "y": 34042,
+          "id": "850e0737-5e0b-4032-849c-e2d4a678201b"
+        },
+        "36865b43-6312-4b6b-995d-9896406573e4": {
+          "label": "Magazines",
+          "x": 89701,
+          "y": 34067,
+          "id": "36865b43-6312-4b6b-995d-9896406573e4"
+        },
+        "2f00e3ca-c3a4-4018-8339-b9c8ee36097c": {
+          "label": "Articles",
+          "x": 89690,
+          "y": 34092,
+          "id": "2f00e3ca-c3a4-4018-8339-b9c8ee36097c"
+        },
+        "ad025bda-42ee-4690-aea4-9ed7b872b6ee": {
+          "label": "Media content",
+          "x": 89712,
+          "y": 34117,
+          "id": "ad025bda-42ee-4690-aea4-9ed7b872b6ee"
+        },
+        "79cbc112-ae82-45b0-9a43-6ff4c3d83e7b": {
+          "label": "Misc. web links",
+          "x": 89714,
+          "y": 34243,
+          "id": "79cbc112-ae82-45b0-9a43-6ff4c3d83e7b"
+        },
+        "00298d22-ef07-4ee8-80cc-6d4835079068": {
+          "label": "Projects",
+          "x": 89692,
+          "y": 34390,
+          "id": "00298d22-ef07-4ee8-80cc-6d4835079068"
+        },
+        "57596255-85bf-4bdc-8389-c1ba6cf9d59a": {
+          "label": "Tools",
+          "x": 89683,
+          "y": 34415,
+          "id": "57596255-85bf-4bdc-8389-c1ba6cf9d59a"
+        },
+        "e37a3648-23cf-4763-9796-79f92381a68d": {
+          "label": "Organizations",
+          "x": 89711,
+          "y": 34440,
+          "id": "e37a3648-23cf-4763-9796-79f92381a68d"
+        },
+        "b48ad354-80a4-41c6-80a0-a152e1df22e7": {
+          "label": "Standarts",
+          "x": 89697,
+          "y": 34465,
+          "id": "b48ad354-80a4-41c6-80a0-a152e1df22e7"
+        },
+        "606f17c9-dcac-43f4-9bde-e16c2d98bca8": {
+          "label": "Forums, Groups",
+          "x": 89719,
+          "y": 34490,
+          "id": "606f17c9-dcac-43f4-9bde-e16c2d98bca8"
+        },
+        "789e07b3-c64d-42bb-a537-83a250259ff8": {
+          "label": "Laws",
+          "x": 89683,
+          "y": 34515,
+          "id": "789e07b3-c64d-42bb-a537-83a250259ff8"
+        },
+        "41d4d218-304f-47de-8a13-e3e261468f85": {
+          "label": "Adjacent Themes",
+          "x": 89722,
+          "y": 34540,
+          "id": "41d4d218-304f-47de-8a13-e3e261468f85"
+        },
+        "468dc139-e1c1-449d-82f2-001664e35c40": {
+          "label": "Questions",
+          "x": 89466,
+          "y": 34665,
+          "id": "468dc139-e1c1-449d-82f2-001664e35c40"
+        },
+        "61898033-1971-4082-b6bb-115e2dfeb099": {
+          "label": "Problems",
+          "x": 89464,
+          "y": 34765,
+          "id": "61898033-1971-4082-b6bb-115e2dfeb099"
+        },
+        "4df24c36-cd00-4d18-b3be-d494ca8209ea": {
+          "label": "Goals",
+          "x": 89453,
+          "y": 34865,
+          "id": "4df24c36-cd00-4d18-b3be-d494ca8209ea"
+        },
+        "c12ff828-9aae-4a52-85a6-83409a52d06c862743": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Emacs",
+          "id": "c12ff828-9aae-4a52-85a6-83409a52d06c862743",
+          "x": 92599,
+          "y": 34043,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "edca31fa-1ed6-4005-a7f4-724cf263fc0d": {
+          "id": "edca31fa-1ed6-4005-a7f4-724cf263fc0d",
+          "x": 89788,
+          "y": 31973,
+          "label": "https://en.wikipedia.org/wiki/Vim_(text_editor)",
+          "link": "https://en.wikipedia.org/wiki/Vim_(text_editor)"
+        },
+        "6aefd103-7eb7-4d7f-ae34-018977ed42fb": {
+          "id": "6aefd103-7eb7-4d7f-ae34-018977ed42fb",
+          "x": 89945,
+          "y": 34245,
+          "label": "https://en.wikipedia.org/wiki/Emacs",
+          "link": "https://en.wikipedia.org/wiki/Emacs"
+        },
+        "a209d5a4-9e55-4d70-b74e-9e502c0d2bd8": {
+          "id": "a209d5a4-9e55-4d70-b74e-9e502c0d2bd8",
+          "x": 89760,
+          "y": 33616,
+          "label": "Help",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "300fd22d-acdc-4615-a525-f908facd079e": {
+          "id": "300fd22d-acdc-4615-a525-f908facd079e",
+          "x": 90051,
+          "y": 33632,
+          "label": "https://www.emacswiki.org/emacs/EmacsNewbieHelpReference",
+          "link": "https://www.emacswiki.org/emacs/EmacsNewbieHelpReference"
+        },
+        "a6f63bf2-9d06-4690-971f-c2197c60a510": {
+          "id": "a6f63bf2-9d06-4690-971f-c2197c60a510",
+          "x": 89875,
+          "y": 33578,
+          "label": "C-h C-h"
+        },
+        "5c56c9a1-c8d4-461b-ad2e-8a608ebcb273": {
+          "id": "5c56c9a1-c8d4-461b-ad2e-8a608ebcb273",
+          "x": 89901,
+          "y": 33604,
+          "label": " (‘help-for-help’)"
         }
       },
       "length": 0,
@@ -82077,6 +82521,276 @@ var schemeData =
           "from": "2ed6f3a8-46b0-40a2-b890-109850c63d2c",
           "to": "4596a6e8-09a4-47cc-b344-405526767e96",
           "id": "c6d68919-5db2-43bd-8321-3b03aaeaff45"
+        },
+        "e358a23f-8937-432a-8fb3-671e5a1cc546": {
+          "from": "c42b98bb-1c24-42ef-adda-c7b5c4a5b5c0",
+          "to": "dddc9d9d-a204-4ef1-8eb8-775016285e1f",
+          "id": "e358a23f-8937-432a-8fb3-671e5a1cc546"
+        },
+        "7fd20640-bb77-4092-818a-9f8e1f8cb1b6": {
+          "from": "dddc9d9d-a204-4ef1-8eb8-775016285e1f",
+          "to": "f201a133-f696-41a8-b6d3-18aedaf45abd",
+          "id": "7fd20640-bb77-4092-818a-9f8e1f8cb1b6"
+        },
+        "103edba5-7d93-4f2e-9473-eba06856e810": {
+          "from": "f201a133-f696-41a8-b6d3-18aedaf45abd",
+          "to": "9f4c22ae-f6e6-461a-9736-b2a58f1a9efd",
+          "id": "103edba5-7d93-4f2e-9473-eba06856e810"
+        },
+        "b093b782-c3fa-4d6e-9eff-81bed5798c1b": {
+          "from": "c42b98bb-1c24-42ef-adda-c7b5c4a5b5c0",
+          "to": "fb84feea-745e-451b-b838-72bf5303e497",
+          "id": "b093b782-c3fa-4d6e-9eff-81bed5798c1b"
+        },
+        "99310e10-5352-4ea8-a7d1-37059abb4260": {
+          "from": "fb84feea-745e-451b-b838-72bf5303e497",
+          "to": "acdd416b-f897-4518-b41e-5f08236646b8",
+          "id": "99310e10-5352-4ea8-a7d1-37059abb4260"
+        },
+        "7de98378-e969-4647-92d4-8f9695952259": {
+          "from": "fb84feea-745e-451b-b838-72bf5303e497",
+          "to": "83611ed0-2fb0-4259-bf0c-c787478acb60",
+          "id": "7de98378-e969-4647-92d4-8f9695952259"
+        },
+        "9d1ffb07-50d7-4318-85ba-2024284abc53": {
+          "from": "fb84feea-745e-451b-b838-72bf5303e497",
+          "to": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "id": "9d1ffb07-50d7-4318-85ba-2024284abc53"
+        },
+        "fab19312-6ab3-4375-8a22-cfd7c3a78d45": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "2c706d96-a6d3-4cc6-ae65-297006dd9f85",
+          "id": "fab19312-6ab3-4375-8a22-cfd7c3a78d45"
+        },
+        "edc83074-0657-45c4-9418-71b0542dcfd0": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "3717c82c-c23f-41ce-9956-af3290ea3208",
+          "id": "edc83074-0657-45c4-9418-71b0542dcfd0"
+        },
+        "c4a4c65a-1658-401a-be54-4c358dd37642": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "de0f41a6-de67-4e3e-8853-67b8e704f5c1",
+          "id": "c4a4c65a-1658-401a-be54-4c358dd37642"
+        },
+        "6c37bae2-471d-4521-8a02-05d8b29ab322": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "a100e3f8-02a6-4094-a51b-124f50c3ecc1",
+          "id": "6c37bae2-471d-4521-8a02-05d8b29ab322"
+        },
+        "000652ab-3735-4bce-b154-5327284660b8": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "040ac3b0-303d-4d10-9019-d5dde6b1fc48",
+          "id": "000652ab-3735-4bce-b154-5327284660b8"
+        },
+        "139986fb-15e2-402a-9f82-13fea1c30e27": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "af766754-035d-4144-b896-f51b58fbe653",
+          "id": "139986fb-15e2-402a-9f82-13fea1c30e27"
+        },
+        "cd64b500-700d-4367-8fa7-9d4ea44f36f3": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "0ccec56e-5756-4008-bd24-69e462fd5d88",
+          "id": "cd64b500-700d-4367-8fa7-9d4ea44f36f3"
+        },
+        "8a3c7903-d395-46bc-b712-8dbe7b4a40ef": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "caf2a117-0be6-4f46-a725-160b59b98cb3",
+          "id": "8a3c7903-d395-46bc-b712-8dbe7b4a40ef"
+        },
+        "ec7e7fee-1628-4386-820f-9748f4a743b8": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "91ad7016-69c6-4b42-b1b6-c84d05c682f3",
+          "id": "ec7e7fee-1628-4386-820f-9748f4a743b8"
+        },
+        "27ffd687-b0e3-461f-8bfa-695d18b2d63f": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "ad27be9d-d53a-4171-b24f-2d37a6fcfcd0",
+          "id": "27ffd687-b0e3-461f-8bfa-695d18b2d63f"
+        },
+        "51917792-a06b-4ab4-af48-9d9a4cbf4c47": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "b1ad4138-6fdf-41e6-ae8c-9a826c8420f8",
+          "id": "51917792-a06b-4ab4-af48-9d9a4cbf4c47"
+        },
+        "8b7c8cf9-9d8b-4694-b7a2-d36fe5c353fb": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "fbe6822c-8a51-43e4-9975-306d8966080e",
+          "id": "8b7c8cf9-9d8b-4694-b7a2-d36fe5c353fb"
+        },
+        "f3da1882-2dcf-4290-bdfe-c55ae3ffa690": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "b270fd64-30f4-4d17-b472-370299bf16d9",
+          "id": "f3da1882-2dcf-4290-bdfe-c55ae3ffa690"
+        },
+        "72269b50-2c5a-4291-94f9-1bd729a006aa": {
+          "from": "208a9d8b-a29c-4f2b-b916-6d6d423b2282",
+          "to": "a6d607dd-e809-421c-bc49-108c3706ad28",
+          "id": "72269b50-2c5a-4291-94f9-1bd729a006aa"
+        },
+        "f14a6c97-f9d3-423f-baf3-9e1b3f5b76f3": {
+          "from": "c42b98bb-1c24-42ef-adda-c7b5c4a5b5c0",
+          "to": "b55173d1-6ce0-4d62-9057-6a42d522b2bc",
+          "id": "f14a6c97-f9d3-423f-baf3-9e1b3f5b76f3"
+        },
+        "e2affd1f-135d-421a-b54b-f9d688d1d1de": {
+          "from": "c42b98bb-1c24-42ef-adda-c7b5c4a5b5c0",
+          "to": "eebf08f3-4fa3-4768-9106-1c1f6cb8e32d",
+          "id": "e2affd1f-135d-421a-b54b-f9d688d1d1de"
+        },
+        "83d1ea75-fc55-4858-a689-e1d3b8ae41f8": {
+          "from": "c42b98bb-1c24-42ef-adda-c7b5c4a5b5c0",
+          "to": "243c72cb-1d3c-4d89-85fc-11c755c4c7f3",
+          "id": "83d1ea75-fc55-4858-a689-e1d3b8ae41f8"
+        },
+        "d9b12e26-4428-4aab-a9e0-b0e4e4ae0a65": {
+          "from": "befb2df5-e194-4dcc-b682-2ef1e17ffedc",
+          "to": "e3e0e1db-4fa0-4dc7-b639-ee96658559a6",
+          "id": "d9b12e26-4428-4aab-a9e0-b0e4e4ae0a65"
+        },
+        "fa6e2842-7edd-4998-bf8b-6cec40deba64": {
+          "from": "e3e0e1db-4fa0-4dc7-b639-ee96658559a6",
+          "to": "ef9cda06-244d-4fe3-b06d-b48e539f8a54",
+          "id": "fa6e2842-7edd-4998-bf8b-6cec40deba64"
+        },
+        "af20cddb-0f6a-4fdb-96a7-fe5728a3afcd": {
+          "from": "ef9cda06-244d-4fe3-b06d-b48e539f8a54",
+          "to": "a9e41319-5af1-4efa-8340-604cf6e014e1",
+          "id": "af20cddb-0f6a-4fdb-96a7-fe5728a3afcd"
+        },
+        "9ecb57c4-df86-47ea-ad65-66d4727a2abe": {
+          "from": "befb2df5-e194-4dcc-b682-2ef1e17ffedc",
+          "to": "66193d59-2872-4dcb-86e2-2fca87de17a0",
+          "id": "9ecb57c4-df86-47ea-ad65-66d4727a2abe"
+        },
+        "4d5840f9-bddd-48a2-b3d2-2e945f02f0c6": {
+          "from": "66193d59-2872-4dcb-86e2-2fca87de17a0",
+          "to": "1a0b3c34-b3eb-4995-ba18-b12415957611",
+          "id": "4d5840f9-bddd-48a2-b3d2-2e945f02f0c6"
+        },
+        "cfba5b18-58fc-420f-ba33-90412847b495": {
+          "from": "66193d59-2872-4dcb-86e2-2fca87de17a0",
+          "to": "6f4e8b54-4c61-4dc3-8e07-55eceaf1dfb2",
+          "id": "cfba5b18-58fc-420f-ba33-90412847b495"
+        },
+        "5dbc84ed-78eb-41f3-8281-41dd8fb2b63d": {
+          "from": "66193d59-2872-4dcb-86e2-2fca87de17a0",
+          "to": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "id": "5dbc84ed-78eb-41f3-8281-41dd8fb2b63d"
+        },
+        "fe6a36a6-7e69-4f5c-8f94-f0b61e9d589e": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "41429a95-78b5-4c3a-b2d2-04c46f50fbd8",
+          "id": "fe6a36a6-7e69-4f5c-8f94-f0b61e9d589e"
+        },
+        "64f995e4-878d-4b55-a29c-5b75d4821b08": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "7185db43-ff74-4014-8e9a-939911d5a947",
+          "id": "64f995e4-878d-4b55-a29c-5b75d4821b08"
+        },
+        "30a8d985-03e6-4cbc-a17a-8a0398699426": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "850e0737-5e0b-4032-849c-e2d4a678201b",
+          "id": "30a8d985-03e6-4cbc-a17a-8a0398699426"
+        },
+        "fdc80709-ffc3-4d0c-93ac-1f8aaad74895": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "36865b43-6312-4b6b-995d-9896406573e4",
+          "id": "fdc80709-ffc3-4d0c-93ac-1f8aaad74895"
+        },
+        "38a0bc0b-5754-4ab1-bb0d-d8c6233cfca1": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "2f00e3ca-c3a4-4018-8339-b9c8ee36097c",
+          "id": "38a0bc0b-5754-4ab1-bb0d-d8c6233cfca1"
+        },
+        "1044f469-87d6-4f11-8d81-6e30e3e47992": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "ad025bda-42ee-4690-aea4-9ed7b872b6ee",
+          "id": "1044f469-87d6-4f11-8d81-6e30e3e47992"
+        },
+        "2d55e87c-4ecc-42ec-96f5-f4bbbefeea8f": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "79cbc112-ae82-45b0-9a43-6ff4c3d83e7b",
+          "id": "2d55e87c-4ecc-42ec-96f5-f4bbbefeea8f"
+        },
+        "5c6eb4ce-ad83-4212-9f4a-f429473b083f": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "00298d22-ef07-4ee8-80cc-6d4835079068",
+          "id": "5c6eb4ce-ad83-4212-9f4a-f429473b083f"
+        },
+        "bf67d427-33c2-4746-9cc3-3124ea1a660d": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "57596255-85bf-4bdc-8389-c1ba6cf9d59a",
+          "id": "bf67d427-33c2-4746-9cc3-3124ea1a660d"
+        },
+        "3a19f77f-d144-4c97-bcf7-11d96c4c10fd": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "e37a3648-23cf-4763-9796-79f92381a68d",
+          "id": "3a19f77f-d144-4c97-bcf7-11d96c4c10fd"
+        },
+        "6bd374a4-7582-4c88-b8c7-795c392cec10": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "b48ad354-80a4-41c6-80a0-a152e1df22e7",
+          "id": "6bd374a4-7582-4c88-b8c7-795c392cec10"
+        },
+        "de3d0797-c05e-4f45-8656-5a8c0264bbfa": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "606f17c9-dcac-43f4-9bde-e16c2d98bca8",
+          "id": "de3d0797-c05e-4f45-8656-5a8c0264bbfa"
+        },
+        "20fd67a1-429f-479b-9965-65b6581a4c6c": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "789e07b3-c64d-42bb-a537-83a250259ff8",
+          "id": "20fd67a1-429f-479b-9965-65b6581a4c6c"
+        },
+        "dde3cda5-6952-409c-a9c0-c2451f71080b": {
+          "from": "5cb78704-24e7-4b30-841c-636c431013fe",
+          "to": "41d4d218-304f-47de-8a13-e3e261468f85",
+          "id": "dde3cda5-6952-409c-a9c0-c2451f71080b"
+        },
+        "d7bd9868-b646-411b-9245-3ed7c607f064": {
+          "from": "befb2df5-e194-4dcc-b682-2ef1e17ffedc",
+          "to": "468dc139-e1c1-449d-82f2-001664e35c40",
+          "id": "d7bd9868-b646-411b-9245-3ed7c607f064"
+        },
+        "8bf96982-b61a-4f44-a1e9-468471aacb9b": {
+          "from": "befb2df5-e194-4dcc-b682-2ef1e17ffedc",
+          "to": "61898033-1971-4082-b6bb-115e2dfeb099",
+          "id": "8bf96982-b61a-4f44-a1e9-468471aacb9b"
+        },
+        "b320ac29-7f68-4f40-a9ba-d9ecf11bd28b": {
+          "from": "befb2df5-e194-4dcc-b682-2ef1e17ffedc",
+          "to": "4df24c36-cd00-4d18-b3be-d494ca8209ea",
+          "id": "b320ac29-7f68-4f40-a9ba-d9ecf11bd28b"
+        },
+        "bc1be907-2143-48bb-bb8b-634ca36e43e3": {
+          "from": "0ccec56e-5756-4008-bd24-69e462fd5d88",
+          "to": "edca31fa-1ed6-4005-a7f4-724cf263fc0d",
+          "id": "bc1be907-2143-48bb-bb8b-634ca36e43e3"
+        },
+        "d3ea0513-a04a-467e-b4b4-12847a96ee52": {
+          "from": "79cbc112-ae82-45b0-9a43-6ff4c3d83e7b",
+          "to": "6aefd103-7eb7-4d7f-ae34-018977ed42fb",
+          "id": "d3ea0513-a04a-467e-b4b4-12847a96ee52"
+        },
+        "13d1e56c-fda3-448c-a8c5-9403bafb83a5": {
+          "from": "a209d5a4-9e55-4d70-b74e-9e502c0d2bd8",
+          "to": "300fd22d-acdc-4615-a525-f908facd079e",
+          "id": "13d1e56c-fda3-448c-a8c5-9403bafb83a5"
+        },
+        "cf5bdc10-f77e-4988-bc04-db1bffc61b6a": {
+          "from": "a209d5a4-9e55-4d70-b74e-9e502c0d2bd8",
+          "to": "a6f63bf2-9d06-4690-971f-c2197c60a510",
+          "id": "cf5bdc10-f77e-4988-bc04-db1bffc61b6a"
+        },
+        "6fafd3e4-27ce-40f2-af52-7ecc621c431f": {
+          "from": "a209d5a4-9e55-4d70-b74e-9e502c0d2bd8",
+          "to": "5c56c9a1-c8d4-461b-ad2e-8a608ebcb273",
+          "id": "6fafd3e4-27ce-40f2-af52-7ecc621c431f"
+        },
+        "e0203af5-9301-46a1-9989-f542f93c25bc": {
+          "from": "1a0b3c34-b3eb-4995-ba18-b12415957611",
+          "to": "a209d5a4-9e55-4d70-b74e-9e502c0d2bd8",
+          "id": "e0203af5-9301-46a1-9989-f542f93c25bc"
         }
       },
       "length": 0,
@@ -82116,8 +82830,8 @@ var schemeData =
   "setup": {
     "scale": 0.0136,
     "viewPosition": {
-      "x": 108007.00000470589,
-      "y": 19799.999998235297
+      "x": 108007.0000047059,
+      "y": 19799.99999941177
     }
   }
 }

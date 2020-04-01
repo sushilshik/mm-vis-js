@@ -1205,126 +1205,6 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "df5f4410-e137-439e-a57e-3180aea93438856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 40
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Books",
-          "id": "df5f4410-e137-439e-a57e-3180aea93438856173337",
-          "x": 97335,
-          "y": 16540,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "6324bd20-c7d2-4a86-b4e8-a20542f837cd856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Development",
-          "id": "6324bd20-c7d2-4a86-b4e8-a20542f837cd856173337",
-          "x": 97624,
-          "y": 16622
-        },
-        "6ff00da1-79eb-4358-9013-6e4a2b1b07f2856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "init",
-          "id": "6ff00da1-79eb-4358-9013-6e4a2b1b07f2856173337",
-          "x": 97844,
-          "y": 16622
-        },
-        "252e337a-3819-4a4a-8bf5-ea2bbb86b4af856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "2019-11-01 21:45",
-          "id": "252e337a-3819-4a4a-8bf5-ea2bbb86b4af856173337",
-          "x": 98034,
-          "y": 16613
-        },
         "15821d9f-1489-4617-a89b-1ceaba5d528b856173337": {
           "color": {
             "highlight": {},
@@ -1354,195 +1234,11 @@ var schemeData =
           "shapeProperties": {},
           "label": "Programming\ncode\nmaps",
           "id": "15821d9f-1489-4617-a89b-1ceaba5d528b856173337",
-          "x": 102598,
-          "y": 12814,
+          "x": 102579,
+          "y": 13662,
           "shape": "box",
           "link": "",
           "borderWidth": ""
-        },
-        "490ad4b4-d896-4723-8178-d38f698051b6856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Books",
-          "id": "490ad4b4-d896-4723-8178-d38f698051b6856173337",
-          "x": 100987,
-          "y": 16624,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "8201061e-8bbe-4c78-9486-1bdfa4a0d6b3856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 40
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "How to use",
-          "id": "8201061e-8bbe-4c78-9486-1bdfa4a0d6b3856173337",
-          "x": 97461,
-          "y": -8587,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "ec6b35ec-2ca8-4ec6-937a-425d9bc6c1e3856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Themes",
-          "id": "ec6b35ec-2ca8-4ec6-937a-425d9bc6c1e3856173337",
-          "x": 97804,
-          "y": -8775
-        },
-        "e761e4ea-6719-4d45-b496-59483891b9dd856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "These scheme development",
-          "id": "e761e4ea-6719-4d45-b496-59483891b9dd856173337",
-          "x": 97856,
-          "y": -8464
-        },
-        "c470ea73-31e7-4aff-9bf0-a9e896f1a25e856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "init",
-          "id": "c470ea73-31e7-4aff-9bf0-a9e896f1a25e856173337",
-          "x": 98115,
-          "y": -8471
-        },
-        "dfa929ff-3a17-4f83-84db-b3020d96c579856173337": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "2019-11-01 21:45",
-          "id": "dfa929ff-3a17-4f83-84db-b3020d96c579856173337",
-          "x": 98303,
-          "y": -8473
         },
         "e9f35a53-56ce-4e8e-bfc2-d3ff89dfc2ef856173337": {
           "color": {
@@ -1724,8 +1420,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js\ntesting",
           "id": "d01d5904-e285-4ab5-b9be-1aae2ab8091e856173337",
-          "x": 101686,
-          "y": 1489,
+          "x": 101667,
+          "y": 2337,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1756,8 +1452,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Procedure",
           "id": "3a3af8ef-4eeb-4caf-b7bc-cab3c9025926856173337",
-          "x": 98177,
-          "y": 774
+          "x": 98158,
+          "y": 1622
         },
         "921dfca8-6406-4aaf-a107-4e6f50288fef856173337": {
           "color": {
@@ -1785,8 +1481,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Install",
           "id": "921dfca8-6406-4aaf-a107-4e6f50288fef856173337",
-          "x": 98347,
-          "y": 704
+          "x": 98328,
+          "y": 1552
         },
         "8c692781-3645-49b9-83dd-fc722f4221ba856173337": {
           "color": {
@@ -1814,8 +1510,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Docker",
           "id": "8c692781-3645-49b9-83dd-fc722f4221ba856173337",
-          "x": 98480,
-          "y": 676
+          "x": 98461,
+          "y": 1524
         },
         "1436f9f6-c449-4d40-8993-99def1b2f237856173337": {
           "color": {
@@ -1843,8 +1539,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose",
           "id": "1436f9f6-c449-4d40-8993-99def1b2f237856173337",
-          "x": 98512,
-          "y": 728
+          "x": 98493,
+          "y": 1576
         },
         "e9c2a934-a28b-4071-b33d-2d94172b184b856173337": {
           "color": {
@@ -1872,8 +1568,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "pip install docker-compose",
           "id": "e9c2a934-a28b-4071-b33d-2d94172b184b856173337",
-          "x": 98697,
-          "y": 727
+          "x": 98678,
+          "y": 1575
         },
         "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a856173337": {
           "color": {
@@ -1901,8 +1597,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tests run",
           "id": "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a856173337",
-          "x": 98356,
-          "y": 839
+          "x": 98337,
+          "y": 1687
         },
         "94cf1f83-6efb-4377-a4dc-f03b54a9c338856173337": {
           "color": {
@@ -1930,8 +1626,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Open two consoles",
           "id": "94cf1f83-6efb-4377-a4dc-f03b54a9c338856173337",
-          "x": 98515,
-          "y": 799
+          "x": 98496,
+          "y": 1647
         },
         "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202856173337": {
           "color": {
@@ -1959,8 +1655,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "First console",
           "id": "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202856173337",
-          "x": 98493,
-          "y": 856
+          "x": 98474,
+          "y": 1704
         },
         "29dbe588-d883-4d1d-a6d2-fdc78b299cea856173337": {
           "color": {
@@ -1988,8 +1684,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose up --build.",
           "id": "29dbe588-d883-4d1d-a6d2-fdc78b299cea856173337",
-          "x": 98667,
-          "y": 855
+          "x": 98648,
+          "y": 1703
         },
         "3c11d1c8-d28e-4982-8aa2-a5f0ea5d1c20856173337": {
           "color": {
@@ -2017,8 +1713,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Will start container with chrome inside",
           "id": "3c11d1c8-d28e-4982-8aa2-a5f0ea5d1c20856173337",
-          "x": 98951,
-          "y": 840
+          "x": 98932,
+          "y": 1688
         },
         "343c1738-b42b-4f8d-b712-83a9873afb6e856173337": {
           "color": {
@@ -2046,8 +1742,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Process will stay in console",
           "id": "343c1738-b42b-4f8d-b712-83a9873afb6e856173337",
-          "x": 98916,
-          "y": 876
+          "x": 98897,
+          "y": 1724
         },
         "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706856173337": {
           "color": {
@@ -2075,8 +1771,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Second console",
           "id": "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706856173337",
-          "x": 98503,
-          "y": 930
+          "x": 98484,
+          "y": 1778
         },
         "115fa2fa-e68c-4d93-87eb-b45d9309975a856173337": {
           "color": {
@@ -2104,8 +1800,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker exec -it app-express npm run test:e2e",
           "id": "115fa2fa-e68c-4d93-87eb-b45d9309975a856173337",
-          "x": 98739,
-          "y": 927
+          "x": 98720,
+          "y": 1775
         },
         "707d41c8-58ef-4709-beeb-cb327c43afe3856173337": {
           "color": {
@@ -2133,8 +1829,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tests execution",
           "id": "707d41c8-58ef-4709-beeb-cb327c43afe3856173337",
-          "x": 98994,
-          "y": 918
+          "x": 98975,
+          "y": 1766
         },
         "9668f2cc-2d4f-4ca4-ae65-c7b262fbc215856173337": {
           "color": {
@@ -2162,8 +1858,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Process will exit after tests execution",
           "id": "9668f2cc-2d4f-4ca4-ae65-c7b262fbc215856173337",
-          "x": 99062,
-          "y": 951
+          "x": 99043,
+          "y": 1799
         },
         "3277fba8-f3ea-42ac-a348-99b8be53a518856173337": {
           "color": {
@@ -2191,8 +1887,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose down",
           "id": "3277fba8-f3ea-42ac-a348-99b8be53a518856173337",
-          "x": 98666,
-          "y": 992
+          "x": 98647,
+          "y": 1840
         },
         "4d7a6dd7-d682-46dc-88ba-e647a2b56dd3856173337": {
           "color": {
@@ -2220,8 +1916,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "First console process will exit",
           "id": "4d7a6dd7-d682-46dc-88ba-e647a2b56dd3856173337",
-          "x": 98887,
-          "y": 997
+          "x": 98868,
+          "y": 1845
         },
         "e5822941-43d7-4321-adea-2295830fc8f2856173337": {
           "color": {
@@ -2249,8 +1945,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Schemes are built on canvas - HTML5 elemen",
           "id": "e5822941-43d7-4321-adea-2295830fc8f2856173337",
-          "x": 98112,
-          "y": 1851
+          "x": 98093,
+          "y": 2699
         },
         "560ea7ba-7a74-454e-b05f-5386bcbe1fea856173337": {
           "color": {
@@ -2278,8 +1974,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Position of objects on canvas can be tested only as raster graphic",
           "id": "560ea7ba-7a74-454e-b05f-5386bcbe1fea856173337",
-          "x": 98554,
-          "y": 1821
+          "x": 98535,
+          "y": 2669
         },
         "e5ce8a89-bdd3-411d-be10-bc922d6cc884856173337": {
           "color": {
@@ -2307,8 +2003,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "We need to check pixels color canvas",
           "id": "e5ce8a89-bdd3-411d-be10-bc922d6cc884856173337",
-          "x": 98465,
-          "y": 1860
+          "x": 98446,
+          "y": 2708
         },
         "8e40d485-6ead-4da2-af05-24584dd6619b856173337": {
           "color": {
@@ -2336,8 +2032,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "We can use libraries like openCV",
           "id": "8e40d485-6ead-4da2-af05-24584dd6619b856173337",
-          "x": 98449,
-          "y": 1900
+          "x": 98430,
+          "y": 2748
         },
         "cc8e6464-8c63-4dff-bd01-cae948551537856173337": {
           "color": {
@@ -3035,8 +2731,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/sushilshik/mm-vis-js",
           "id": "be11ed2d-69c3-468b-97a3-543494855a1a856173337",
-          "x": 98492,
-          "y": 4376,
+          "x": 98473,
+          "y": 5224,
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
           "borderWidth": ""
@@ -3070,8 +2766,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js code\ndevelopment",
           "id": "c6af84d7-1709-456c-bd31-c32f6b4371cf856173337",
-          "x": 102909,
-          "y": 4482,
+          "x": 102890,
+          "y": 5330,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -3104,8 +2800,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "mm-vis-js code\ndevelopment",
-          "x": 97386,
-          "y": 4533,
+          "x": 97367,
+          "y": 5381,
           "id": "67768fae-0037-4af6-9a58-4c0248f270d0173337",
           "shape": "box",
           "link": "",
@@ -3136,8 +2832,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 98016,
-          "y": 5033,
+          "x": 97997,
+          "y": 5881,
           "id": "fde93f9d-f237-42a7-8082-0318b1513feb173337"
         },
         "b9d0fe1f-9ed9-44ea-9054-6e4d76112447173337": {
@@ -3168,8 +2864,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/5/2019",
-          "x": 98266,
-          "y": 5033,
+          "x": 98247,
+          "y": 5881,
           "id": "b9d0fe1f-9ed9-44ea-9054-6e4d76112447173337",
           "shape": "box",
           "link": "",
@@ -3200,8 +2896,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 98166,
-          "y": 5033,
+          "x": 98147,
+          "y": 5881,
           "id": "42ca8a23-2441-4c4f-bda3-71e155a1d046173337"
         },
         "e9b483ea-b5c9-4cc4-9a8f-5f3e899a3fde173337": {
@@ -3229,8 +2925,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 98012,
-          "y": 4083,
+          "x": 97993,
+          "y": 4931,
           "id": "e9b483ea-b5c9-4cc4-9a8f-5f3e899a3fde173337"
         },
         "a8190c68-bf6b-4a14-973b-ba0b2934af41173337": {
@@ -3258,8 +2954,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 98179,
-          "y": 3557,
+          "x": 98160,
+          "y": 4405,
           "id": "a8190c68-bf6b-4a14-973b-ba0b2934af41173337"
         },
         "8ba6ac5f-a485-41de-ba9f-fbb3f2dcdfae173337": {
@@ -3287,8 +2983,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 98162,
-          "y": 4083,
+          "x": 98143,
+          "y": 4931,
           "id": "8ba6ac5f-a485-41de-ba9f-fbb3f2dcdfae173337"
         },
         "a92b6e54-c8bd-4312-9d81-f963a999b86d173337": {
@@ -3316,8 +3012,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 98166,
-          "y": 4433,
+          "x": 98147,
+          "y": 5281,
           "id": "a92b6e54-c8bd-4312-9d81-f963a999b86d173337"
         },
         "69c69334-0403-445b-b3e9-b0c3ab485a72173337": {
@@ -3345,8 +3041,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 98230,
-          "y": 4183,
+          "x": 98211,
+          "y": 5031,
           "id": "69c69334-0403-445b-b3e9-b0c3ab485a72173337"
         },
         "8cc0a70f-fc8c-49f2-b406-ed0000081675173337": {
@@ -3374,8 +3070,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 98261,
-          "y": 4208,
+          "x": 98242,
+          "y": 5056,
           "id": "8cc0a70f-fc8c-49f2-b406-ed0000081675173337"
         },
         "66de4415-9271-4d35-b447-cd28902467b9173337": {
@@ -3403,8 +3099,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 98226,
-          "y": 4233,
+          "x": 98207,
+          "y": 5081,
           "id": "66de4415-9271-4d35-b447-cd28902467b9173337"
         },
         "68f9a70d-2ac7-472d-a26a-e106ad222012173337": {
@@ -3432,8 +3128,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 98245,
-          "y": 4258,
+          "x": 98226,
+          "y": 5106,
           "id": "68f9a70d-2ac7-472d-a26a-e106ad222012173337"
         },
         "56118665-0329-4d6a-b3a6-048b50b6b960173337": {
@@ -3461,8 +3157,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 98234,
-          "y": 4283,
+          "x": 98215,
+          "y": 5131,
           "id": "56118665-0329-4d6a-b3a6-048b50b6b960173337"
         },
         "1dae0b42-7e18-4f57-b80d-b4cb10884473173337": {
@@ -3490,8 +3186,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 98256,
-          "y": 4308,
+          "x": 98237,
+          "y": 5156,
           "id": "1dae0b42-7e18-4f57-b80d-b4cb10884473173337"
         },
         "12947967-3a35-4642-a1bd-28ed03b2dad7173337": {
@@ -3519,8 +3215,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 98258,
-          "y": 4377,
+          "x": 98239,
+          "y": 5225,
           "id": "12947967-3a35-4642-a1bd-28ed03b2dad7173337"
         },
         "0b82de57-d688-457a-877b-d3990b2d1724173337": {
@@ -3548,8 +3244,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 98236,
-          "y": 4458,
+          "x": 98217,
+          "y": 5306,
           "id": "0b82de57-d688-457a-877b-d3990b2d1724173337"
         },
         "dfe92baa-57e8-40c0-8ab3-75a34691cec3173337": {
@@ -3577,8 +3273,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 98227,
-          "y": 4483,
+          "x": 98208,
+          "y": 5331,
           "id": "dfe92baa-57e8-40c0-8ab3-75a34691cec3173337"
         },
         "6524fd7d-f637-4f11-9a75-17e7ddfafa4e173337": {
@@ -3606,8 +3302,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 98255,
-          "y": 4508,
+          "x": 98236,
+          "y": 5356,
           "id": "6524fd7d-f637-4f11-9a75-17e7ddfafa4e173337"
         },
         "002fd9ff-fbc3-4f77-bf7f-039ed2447bbe173337": {
@@ -3635,8 +3331,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 98241,
-          "y": 4533,
+          "x": 98222,
+          "y": 5381,
           "id": "002fd9ff-fbc3-4f77-bf7f-039ed2447bbe173337"
         },
         "c96eb426-8553-46cb-b25e-9b473a946285173337": {
@@ -3664,8 +3360,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 98263,
-          "y": 4558,
+          "x": 98244,
+          "y": 5406,
           "id": "c96eb426-8553-46cb-b25e-9b473a946285173337"
         },
         "22ed5419-61a7-4c43-9b20-80685a547cbd173337": {
@@ -3693,8 +3389,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 98227,
-          "y": 4583,
+          "x": 98208,
+          "y": 5431,
           "id": "22ed5419-61a7-4c43-9b20-80685a547cbd173337"
         },
         "61e9b556-9255-419b-8882-8df696d230b0173337": {
@@ -3722,8 +3418,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 98266,
-          "y": 4608,
+          "x": 98247,
+          "y": 5456,
           "id": "61e9b556-9255-419b-8882-8df696d230b0173337"
         },
         "3d333352-e343-4adc-989d-182c6054373a173337": {
@@ -3751,8 +3447,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 98016,
-          "y": 4733,
+          "x": 97997,
+          "y": 5581,
           "id": "3d333352-e343-4adc-989d-182c6054373a173337"
         },
         "353c7132-cbb1-47b6-91de-70a6cdc2c0fc173337": {
@@ -3780,8 +3476,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 98016,
-          "y": 4833,
+          "x": 97997,
+          "y": 5681,
           "id": "353c7132-cbb1-47b6-91de-70a6cdc2c0fc173337"
         },
         "fe2f310f-9398-4731-b251-cc6a3f84f2a7173337": {
@@ -3809,8 +3505,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 98016,
-          "y": 4933,
+          "x": 97997,
+          "y": 5781,
           "id": "fe2f310f-9398-4731-b251-cc6a3f84f2a7173337"
         },
         "afac6c88-2410-4e8c-b7ec-ad16fc3dd5e7173337": {
@@ -3841,8 +3537,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "mm-vis-js testing",
-          "x": 97346,
-          "y": 1571,
+          "x": 97327,
+          "y": 2419,
           "id": "afac6c88-2410-4e8c-b7ec-ad16fc3dd5e7173337",
           "shape": "box",
           "link": "",
@@ -3873,8 +3569,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 97827,
-          "y": 2144,
+          "x": 97808,
+          "y": 2992,
           "id": "4e159541-08a9-48d5-ae7e-b904d8ef918c173337"
         },
         "ef933cc4-eeb3-4caf-811d-b3b6f1d903f3173337": {
@@ -3902,8 +3598,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 98077,
-          "y": 2144,
+          "x": 98058,
+          "y": 2992,
           "id": "ef933cc4-eeb3-4caf-811d-b3b6f1d903f3173337"
         },
         "b6817023-c986-451c-8130-17ff2de2d39c173337": {
@@ -3931,8 +3627,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 97977,
-          "y": 2144,
+          "x": 97958,
+          "y": 2992,
           "id": "b6817023-c986-451c-8130-17ff2de2d39c173337"
         },
         "f48119c3-18f0-4604-9ccb-1a8619ee8ef9173337": {
@@ -3960,8 +3656,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 97832,
-          "y": 1146,
+          "x": 97813,
+          "y": 1994,
           "id": "f48119c3-18f0-4604-9ccb-1a8619ee8ef9173337"
         },
         "a552cb45-2e58-4b15-afb4-8b615ce81628173337": {
@@ -3989,8 +3685,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 97988,
-          "y": 775,
+          "x": 97969,
+          "y": 1623,
           "id": "a552cb45-2e58-4b15-afb4-8b615ce81628173337"
         },
         "6ebf1c1d-403a-4093-809c-18cdd2707fed173337": {
@@ -4018,8 +3714,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 97982,
-          "y": 1146,
+          "x": 97963,
+          "y": 1994,
           "id": "6ebf1c1d-403a-4093-809c-18cdd2707fed173337"
         },
         "811b7c90-f238-4349-b7ee-62662202de0e173337": {
@@ -4047,8 +3743,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 97982,
-          "y": 1396,
+          "x": 97963,
+          "y": 2244,
           "id": "811b7c90-f238-4349-b7ee-62662202de0e173337"
         },
         "63364f5c-bfd0-407f-a742-2a1277d47c31173337": {
@@ -4076,8 +3772,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 98046,
-          "y": 1246,
+          "x": 98027,
+          "y": 2094,
           "id": "63364f5c-bfd0-407f-a742-2a1277d47c31173337"
         },
         "532d0ef9-1c78-47bc-8aeb-ce11450eae7b173337": {
@@ -4105,8 +3801,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 98077,
-          "y": 1271,
+          "x": 98058,
+          "y": 2119,
           "id": "532d0ef9-1c78-47bc-8aeb-ce11450eae7b173337"
         },
         "9a498b5d-3843-4284-8a7a-b675b0b64913173337": {
@@ -4134,8 +3830,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 98042,
-          "y": 1296,
+          "x": 98023,
+          "y": 2144,
           "id": "9a498b5d-3843-4284-8a7a-b675b0b64913173337"
         },
         "6b48252b-6956-48ed-90fb-0e66ecad5b5d173337": {
@@ -4163,8 +3859,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 98061,
-          "y": 1321,
+          "x": 98042,
+          "y": 2169,
           "id": "6b48252b-6956-48ed-90fb-0e66ecad5b5d173337"
         },
         "cbeb77e5-9fed-4d5f-9a48-d26f07429f4e173337": {
@@ -4192,8 +3888,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 98050,
-          "y": 1346,
+          "x": 98031,
+          "y": 2194,
           "id": "cbeb77e5-9fed-4d5f-9a48-d26f07429f4e173337"
         },
         "8d10e3cf-5c1b-4859-aeec-1f94aa4aa8dc173337": {
@@ -4221,8 +3917,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 98072,
-          "y": 1371,
+          "x": 98053,
+          "y": 2219,
           "id": "8d10e3cf-5c1b-4859-aeec-1f94aa4aa8dc173337"
         },
         "af16aa26-1b6d-4cfa-96f2-42f3e71c88b4173337": {
@@ -4250,8 +3946,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 98074,
-          "y": 1396,
+          "x": 98055,
+          "y": 2244,
           "id": "af16aa26-1b6d-4cfa-96f2-42f3e71c88b4173337"
         },
         "7bd08947-42fc-402f-8352-47fb7943691a173337": {
@@ -4279,8 +3975,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 98052,
-          "y": 1421,
+          "x": 98033,
+          "y": 2269,
           "id": "7bd08947-42fc-402f-8352-47fb7943691a173337"
         },
         "560f4685-7519-4290-a0bd-702bf6d79969173337": {
@@ -4308,8 +4004,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 98043,
-          "y": 1446,
+          "x": 98024,
+          "y": 2294,
           "id": "560f4685-7519-4290-a0bd-702bf6d79969173337"
         },
         "90c716b8-ba37-492c-a5c3-60d2d204d901173337": {
@@ -4337,8 +4033,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 98071,
-          "y": 1471,
+          "x": 98052,
+          "y": 2319,
           "id": "90c716b8-ba37-492c-a5c3-60d2d204d901173337"
         },
         "63324388-fe4c-457d-80cf-6d1bf0b71e4d173337": {
@@ -4366,8 +4062,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 98057,
-          "y": 1496,
+          "x": 98038,
+          "y": 2344,
           "id": "63324388-fe4c-457d-80cf-6d1bf0b71e4d173337"
         },
         "4e59934c-c60e-42f1-b4fe-7eb1701b4385173337": {
@@ -4395,8 +4091,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 98079,
-          "y": 1521,
+          "x": 98060,
+          "y": 2369,
           "id": "4e59934c-c60e-42f1-b4fe-7eb1701b4385173337"
         },
         "b198b7c3-902e-4285-87f4-2b9cfa243671173337": {
@@ -4424,8 +4120,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 98043,
-          "y": 1546,
+          "x": 98024,
+          "y": 2394,
           "id": "b198b7c3-902e-4285-87f4-2b9cfa243671173337"
         },
         "241eed0e-c5a2-4678-9f8c-7d2b208a3dab173337": {
@@ -4453,8 +4149,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 98082,
-          "y": 1571,
+          "x": 98063,
+          "y": 2419,
           "id": "241eed0e-c5a2-4678-9f8c-7d2b208a3dab173337"
         },
         "c168f576-e0c6-400b-80c8-69c5335653e1173337": {
@@ -4482,8 +4178,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 97832,
-          "y": 1696,
+          "x": 97813,
+          "y": 2544,
           "id": "c168f576-e0c6-400b-80c8-69c5335653e1173337"
         },
         "6099cf7a-f86a-451d-9b87-fdb086f2016a173337": {
@@ -4511,8 +4207,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 97829,
-          "y": 1853,
+          "x": 97810,
+          "y": 2701,
           "id": "6099cf7a-f86a-451d-9b87-fdb086f2016a173337"
         },
         "9ea8b510-8481-4d7d-9cdb-6a64172251ce173337": {
@@ -4540,8 +4236,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 97827,
-          "y": 2044,
+          "x": 97808,
+          "y": 2892,
           "id": "9ea8b510-8481-4d7d-9cdb-6a64172251ce173337"
         },
         "c4367502-9752-421e-9012-eb4448246a4f173337": {
@@ -4572,8 +4268,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Programming code maps",
-          "x": 97355,
-          "y": 12170,
+          "x": 97336,
+          "y": 13018,
           "id": "c4367502-9752-421e-9012-eb4448246a4f173337",
           "shape": "box",
           "link": "",
@@ -4604,8 +4300,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 97981,
-          "y": 12603,
+          "x": 97962,
+          "y": 13451,
           "id": "fa6fdee5-93f8-46a6-9bee-e525c5524553173337"
         },
         "6eaee301-bb47-492c-a9a7-6ce33857259b173337": {
@@ -4636,8 +4332,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
-          "x": 98231,
-          "y": 12603,
+          "x": 98212,
+          "y": 13451,
           "id": "6eaee301-bb47-492c-a9a7-6ce33857259b173337",
           "shape": "box",
           "link": "",
@@ -4668,8 +4364,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 98131,
-          "y": 12603,
+          "x": 98112,
+          "y": 13451,
           "id": "beac0fcf-6ede-4795-babf-9e140f0b9349173337"
         },
         "c25194a6-9964-491b-99d5-2e3cc643b62c173337": {
@@ -4697,8 +4393,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 97981,
-          "y": 11753,
+          "x": 97962,
+          "y": 12601,
           "id": "c25194a6-9964-491b-99d5-2e3cc643b62c173337"
         },
         "703ed7f8-ca3e-437e-b5f0-0a925155b176173337": {
@@ -4726,8 +4422,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 98131,
-          "y": 11503,
+          "x": 98112,
+          "y": 12351,
           "id": "703ed7f8-ca3e-437e-b5f0-0a925155b176173337"
         },
         "7535110e-06ab-4e76-b9db-5940f4164f62173337": {
@@ -4755,8 +4451,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 98131,
-          "y": 11753,
+          "x": 98112,
+          "y": 12601,
           "id": "7535110e-06ab-4e76-b9db-5940f4164f62173337"
         },
         "9611e7ad-f708-4c83-9a44-f3a4fa3adbcc173337": {
@@ -4784,8 +4480,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 98131,
-          "y": 12003,
+          "x": 98112,
+          "y": 12851,
           "id": "9611e7ad-f708-4c83-9a44-f3a4fa3adbcc173337"
         },
         "9384995a-153f-4796-ab37-4f837a60e18d173337": {
@@ -4813,8 +4509,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 98195,
-          "y": 11853,
+          "x": 98176,
+          "y": 12701,
           "id": "9384995a-153f-4796-ab37-4f837a60e18d173337"
         },
         "c3b679fe-a240-414c-a9ad-3ecb53d74c27173337": {
@@ -4842,8 +4538,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 98226,
-          "y": 11878,
+          "x": 98207,
+          "y": 12726,
           "id": "c3b679fe-a240-414c-a9ad-3ecb53d74c27173337"
         },
         "c4cbfe3b-ec6d-4aac-9b08-9bf63db81e88173337": {
@@ -4871,8 +4567,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 98191,
-          "y": 11903,
+          "x": 98172,
+          "y": 12751,
           "id": "c4cbfe3b-ec6d-4aac-9b08-9bf63db81e88173337"
         },
         "e5a17295-9322-419e-b6ea-65b5bcaed8be173337": {
@@ -4900,8 +4596,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 98210,
-          "y": 11928,
+          "x": 98191,
+          "y": 12776,
           "id": "e5a17295-9322-419e-b6ea-65b5bcaed8be173337"
         },
         "d54e0db2-6d31-48f3-acb3-e3368cbbb6d6173337": {
@@ -4929,8 +4625,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 98199,
-          "y": 11953,
+          "x": 98180,
+          "y": 12801,
           "id": "d54e0db2-6d31-48f3-acb3-e3368cbbb6d6173337"
         },
         "da274dd5-2ae1-457d-bf79-b577db1b7397173337": {
@@ -4958,8 +4654,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 98221,
-          "y": 11978,
+          "x": 98202,
+          "y": 12826,
           "id": "da274dd5-2ae1-457d-bf79-b577db1b7397173337"
         },
         "0e445585-3f37-400d-b8e5-8fb316441966173337": {
@@ -4987,8 +4683,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 98223,
-          "y": 12003,
+          "x": 98204,
+          "y": 12851,
           "id": "0e445585-3f37-400d-b8e5-8fb316441966173337"
         },
         "72e0b741-caa3-4a0a-b6c9-2b811111ce3a173337": {
@@ -5016,8 +4712,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 98201,
-          "y": 12028,
+          "x": 98182,
+          "y": 12876,
           "id": "72e0b741-caa3-4a0a-b6c9-2b811111ce3a173337"
         },
         "b24e6680-2a18-4655-b76c-e8801ee8f714173337": {
@@ -5045,8 +4741,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 98192,
-          "y": 12053,
+          "x": 98173,
+          "y": 12901,
           "id": "b24e6680-2a18-4655-b76c-e8801ee8f714173337"
         },
         "f61e9835-e51b-4956-bcb2-21ff16f147ab173337": {
@@ -5074,8 +4770,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 98220,
-          "y": 12078,
+          "x": 98201,
+          "y": 12926,
           "id": "f61e9835-e51b-4956-bcb2-21ff16f147ab173337"
         },
         "74f3fc53-872b-4d5b-93f9-427d57f6adc2173337": {
@@ -5103,8 +4799,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 98206,
-          "y": 12103,
+          "x": 98187,
+          "y": 12951,
           "id": "74f3fc53-872b-4d5b-93f9-427d57f6adc2173337"
         },
         "54fd7997-bbc7-4466-9117-292f2ed55029173337": {
@@ -5132,8 +4828,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 98228,
-          "y": 12128,
+          "x": 98209,
+          "y": 12976,
           "id": "54fd7997-bbc7-4466-9117-292f2ed55029173337"
         },
         "3a9841b2-2d9c-425c-a2c1-2619ef119afc173337": {
@@ -5161,8 +4857,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 98192,
-          "y": 12153,
+          "x": 98173,
+          "y": 13001,
           "id": "3a9841b2-2d9c-425c-a2c1-2619ef119afc173337"
         },
         "9da94a71-92e2-471a-ae51-26264163af67173337": {
@@ -5190,8 +4886,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 98231,
-          "y": 12178,
+          "x": 98212,
+          "y": 13026,
           "id": "9da94a71-92e2-471a-ae51-26264163af67173337"
         },
         "ff472564-6bd0-4ae4-8df0-4370121c12c2173337": {
@@ -5219,8 +4915,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 97981,
-          "y": 12303,
+          "x": 97962,
+          "y": 13151,
           "id": "ff472564-6bd0-4ae4-8df0-4370121c12c2173337"
         },
         "c0768c4b-a550-4b20-aa82-82aa3794acbe173337": {
@@ -5248,8 +4944,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 97981,
-          "y": 12403,
+          "x": 97962,
+          "y": 13251,
           "id": "c0768c4b-a550-4b20-aa82-82aa3794acbe173337"
         },
         "8160a281-6ded-4af3-b461-09a77fc7bf4c173337": {
@@ -5277,8 +4973,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 97981,
-          "y": 12503,
+          "x": 97962,
+          "y": 13351,
           "id": "8160a281-6ded-4af3-b461-09a77fc7bf4c173337"
         },
         "ea25b7ca-7308-4e5d-8d23-becf10837170214337": {
@@ -5538,8 +5234,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Schemes translation",
-          "x": 97698,
-          "y": 8089,
+          "x": 97679,
+          "y": 8937,
           "id": "7e4d7ab3-736e-4013-9208-1d51c0868264337",
           "shape": "box",
           "link": "",
@@ -5568,8 +5264,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 97998,
-          "y": 8539,
+          "x": 97979,
+          "y": 9387,
           "id": "6abb7469-f9c5-4eef-b61f-afa5bc6c0278337"
         },
         "e30c866d-efe9-47ab-8bae-281bfe549805337": {
@@ -5595,8 +5291,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 98248,
-          "y": 8539,
+          "x": 98229,
+          "y": 9387,
           "id": "e30c866d-efe9-47ab-8bae-281bfe549805337"
         },
         "8b358f20-dd77-4391-9787-e1ff1432f64f337": {
@@ -5622,8 +5318,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 98148,
-          "y": 8539,
+          "x": 98129,
+          "y": 9387,
           "id": "8b358f20-dd77-4391-9787-e1ff1432f64f337"
         },
         "f9f3adfe-8004-4014-9985-12589a14405e337": {
@@ -5649,8 +5345,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 97998,
-          "y": 7689,
+          "x": 97979,
+          "y": 8537,
           "id": "f9f3adfe-8004-4014-9985-12589a14405e337"
         },
         "ccb20eb5-1055-4a4f-80d1-54eee8350931337": {
@@ -5676,8 +5372,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 98148,
-          "y": 7439,
+          "x": 98129,
+          "y": 8287,
           "id": "ccb20eb5-1055-4a4f-80d1-54eee8350931337"
         },
         "6d10edef-8afd-4601-a262-0e63278b1d7b337": {
@@ -5703,8 +5399,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 98148,
-          "y": 7689,
+          "x": 98129,
+          "y": 8537,
           "id": "6d10edef-8afd-4601-a262-0e63278b1d7b337"
         },
         "253f03c9-e7e4-44e4-9348-41458028d2bd337": {
@@ -5730,8 +5426,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 98148,
-          "y": 7939,
+          "x": 98129,
+          "y": 8787,
           "id": "253f03c9-e7e4-44e4-9348-41458028d2bd337"
         },
         "8dd8ef78-5643-49e4-8c56-c7a838ced007337": {
@@ -5757,8 +5453,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 98212,
-          "y": 7789,
+          "x": 98193,
+          "y": 8637,
           "id": "8dd8ef78-5643-49e4-8c56-c7a838ced007337"
         },
         "55942fe2-4aa1-494d-a04c-77f6da270c89337": {
@@ -5784,8 +5480,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 98243,
-          "y": 7814,
+          "x": 98224,
+          "y": 8662,
           "id": "55942fe2-4aa1-494d-a04c-77f6da270c89337"
         },
         "ae1201da-ff95-4b03-b779-0f24fbd9b777337": {
@@ -5811,8 +5507,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 98208,
-          "y": 7839,
+          "x": 98189,
+          "y": 8687,
           "id": "ae1201da-ff95-4b03-b779-0f24fbd9b777337"
         },
         "0c08ffb3-0063-4b60-bc5c-7ee0e94f2c7e337": {
@@ -5838,8 +5534,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 98227,
-          "y": 7864,
+          "x": 98208,
+          "y": 8712,
           "id": "0c08ffb3-0063-4b60-bc5c-7ee0e94f2c7e337"
         },
         "6a147493-8151-4738-b5fa-75c25fe5a9ba337": {
@@ -5865,8 +5561,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 98216,
-          "y": 7889,
+          "x": 98197,
+          "y": 8737,
           "id": "6a147493-8151-4738-b5fa-75c25fe5a9ba337"
         },
         "cbf407c7-6685-461c-9e10-8c0e02fd1c95337": {
@@ -5892,8 +5588,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 98238,
-          "y": 7914,
+          "x": 98219,
+          "y": 8762,
           "id": "cbf407c7-6685-461c-9e10-8c0e02fd1c95337"
         },
         "1a543f69-b8a7-41e9-8abd-13bc452ef590337": {
@@ -5919,8 +5615,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 98240,
-          "y": 7939,
+          "x": 98221,
+          "y": 8787,
           "id": "1a543f69-b8a7-41e9-8abd-13bc452ef590337"
         },
         "2ee9e78d-c49f-4e1c-a93d-1bd4798af95e337": {
@@ -5946,8 +5642,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 98218,
-          "y": 7964,
+          "x": 98199,
+          "y": 8812,
           "id": "2ee9e78d-c49f-4e1c-a93d-1bd4798af95e337"
         },
         "477119ea-f942-4f5b-aeb7-06601cdd7106337": {
@@ -5973,8 +5669,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 98210,
-          "y": 7989,
+          "x": 98191,
+          "y": 8837,
           "id": "477119ea-f942-4f5b-aeb7-06601cdd7106337"
         },
         "a9b190a9-1604-4594-aeaf-053fc64f9e49337": {
@@ -6000,8 +5696,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 98237,
-          "y": 8014,
+          "x": 98218,
+          "y": 8862,
           "id": "a9b190a9-1604-4594-aeaf-053fc64f9e49337"
         },
         "1d0df1d3-a24d-4832-a83a-015e67f72fe0337": {
@@ -6027,8 +5723,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 98223,
-          "y": 8039,
+          "x": 98204,
+          "y": 8887,
           "id": "1d0df1d3-a24d-4832-a83a-015e67f72fe0337"
         },
         "8a0b620c-acbe-4531-8fd3-5d0caa200414337": {
@@ -6054,8 +5750,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 98245,
-          "y": 8064,
+          "x": 98226,
+          "y": 8912,
           "id": "8a0b620c-acbe-4531-8fd3-5d0caa200414337"
         },
         "da9e4715-442b-4431-80a4-13e226fef737337": {
@@ -6081,8 +5777,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 98209,
-          "y": 8089,
+          "x": 98190,
+          "y": 8937,
           "id": "da9e4715-442b-4431-80a4-13e226fef737337"
         },
         "5778faef-435e-4f2c-92be-21a38b819da6337": {
@@ -6108,8 +5804,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 98248,
-          "y": 8114,
+          "x": 98229,
+          "y": 8962,
           "id": "5778faef-435e-4f2c-92be-21a38b819da6337"
         },
         "5e5baf9e-1ea9-4a5b-a487-27e7f636e277337": {
@@ -6135,8 +5831,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 97998,
-          "y": 8239,
+          "x": 97979,
+          "y": 9087,
           "id": "5e5baf9e-1ea9-4a5b-a487-27e7f636e277337"
         },
         "dd317cd2-b718-4649-a0d3-f2002975b13a337": {
@@ -6162,8 +5858,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 97998,
-          "y": 8339,
+          "x": 97979,
+          "y": 9187,
           "id": "dd317cd2-b718-4649-a0d3-f2002975b13a337"
         },
         "71f4acaa-fb09-425b-a2ed-86ad7e4b8229337": {
@@ -6189,8 +5885,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 97998,
-          "y": 8439,
+          "x": 97979,
+          "y": 9287,
           "id": "71f4acaa-fb09-425b-a2ed-86ad7e4b8229337"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088337": {
@@ -6222,8 +5918,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Schemes\ntranslation",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088337",
-          "x": 101927,
-          "y": 8335,
+          "x": 101908,
+          "y": 9183,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6254,8 +5950,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Canvas\nviews",
-          "x": 97474,
-          "y": 20143,
+          "x": 97455,
+          "y": 20991,
           "id": "24563732-5cdc-4bae-8256-d7a2cb4faac5337",
           "shape": "box",
           "link": "",
@@ -6284,8 +5980,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 97789,
-          "y": 20608,
+          "x": 97770,
+          "y": 21456,
           "id": "e15ff1c6-a8ba-4729-b234-738076a7ab28337"
         },
         "ecacff12-9dc0-4bd7-b7cc-92c56d5bc5ab337": {
@@ -6311,8 +6007,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 97939,
-          "y": 20608,
+          "x": 97920,
+          "y": 21456,
           "id": "ecacff12-9dc0-4bd7-b7cc-92c56d5bc5ab337"
         },
         "669c037c-cdb1-4288-922e-7b85c9b085f5337": {
@@ -6338,8 +6034,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 98039,
-          "y": 20608,
+          "x": 98020,
+          "y": 21456,
           "id": "669c037c-cdb1-4288-922e-7b85c9b085f5337"
         },
         "8cffdc58-354a-43c3-bbcb-0c617f791cbe337": {
@@ -6365,8 +6061,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 97789,
-          "y": 19758,
+          "x": 97770,
+          "y": 20606,
           "id": "8cffdc58-354a-43c3-bbcb-0c617f791cbe337"
         },
         "d3fe27d4-1999-46b9-aafc-582a6b93d8b1337": {
@@ -6392,8 +6088,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 97939,
-          "y": 19508,
+          "x": 97920,
+          "y": 20356,
           "id": "d3fe27d4-1999-46b9-aafc-582a6b93d8b1337"
         },
         "a0637522-a5ff-48a5-a7f4-0c963c0fc231337": {
@@ -6419,8 +6115,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 97939,
-          "y": 19758,
+          "x": 97920,
+          "y": 20606,
           "id": "a0637522-a5ff-48a5-a7f4-0c963c0fc231337"
         },
         "421559fa-24e6-4ddc-8bbd-2386a138631d337": {
@@ -6446,8 +6142,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 97939,
-          "y": 20008,
+          "x": 97920,
+          "y": 20856,
           "id": "421559fa-24e6-4ddc-8bbd-2386a138631d337"
         },
         "459fab06-1787-41e5-ba93-4f241889128c337": {
@@ -6473,8 +6169,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 98003,
-          "y": 19858,
+          "x": 97984,
+          "y": 20706,
           "id": "459fab06-1787-41e5-ba93-4f241889128c337"
         },
         "d5405adf-61b5-4f9f-9c2d-792e42ef2599337": {
@@ -6500,8 +6196,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 98034,
-          "y": 19883,
+          "x": 98015,
+          "y": 20731,
           "id": "d5405adf-61b5-4f9f-9c2d-792e42ef2599337"
         },
         "b870bc5c-6f4b-4fbc-a18e-1545f7767ced337": {
@@ -6527,8 +6223,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 97999,
-          "y": 19908,
+          "x": 97980,
+          "y": 20756,
           "id": "b870bc5c-6f4b-4fbc-a18e-1545f7767ced337"
         },
         "19984526-6fb6-4297-8224-36b2bd1f1090337": {
@@ -6554,8 +6250,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 98018,
-          "y": 19933,
+          "x": 97999,
+          "y": 20781,
           "id": "19984526-6fb6-4297-8224-36b2bd1f1090337"
         },
         "a31289f0-92b7-464f-bc6f-f9ff0c13784e337": {
@@ -6581,8 +6277,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 98007,
-          "y": 19958,
+          "x": 97988,
+          "y": 20806,
           "id": "a31289f0-92b7-464f-bc6f-f9ff0c13784e337"
         },
         "ebc11b40-9481-417f-b8e0-bcbe4e6b2391337": {
@@ -6608,8 +6304,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 98029,
-          "y": 19983,
+          "x": 98010,
+          "y": 20831,
           "id": "ebc11b40-9481-417f-b8e0-bcbe4e6b2391337"
         },
         "5bf83038-55b6-4a62-824c-c96b789abcd1337": {
@@ -6635,8 +6331,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 98031,
-          "y": 20008,
+          "x": 98012,
+          "y": 20856,
           "id": "5bf83038-55b6-4a62-824c-c96b789abcd1337"
         },
         "d01a9dbc-faa7-43d2-8bf2-9861aef5f977337": {
@@ -6662,8 +6358,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 98009,
-          "y": 20033,
+          "x": 97990,
+          "y": 20881,
           "id": "d01a9dbc-faa7-43d2-8bf2-9861aef5f977337"
         },
         "6fed2ddf-5d8c-493a-a9d1-0559f66cb472337": {
@@ -6689,8 +6385,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 98000,
-          "y": 20058,
+          "x": 97981,
+          "y": 20906,
           "id": "6fed2ddf-5d8c-493a-a9d1-0559f66cb472337"
         },
         "aa81462b-395c-4251-8a6b-209b841c4c61337": {
@@ -6716,8 +6412,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 98028,
-          "y": 20083,
+          "x": 98009,
+          "y": 20931,
           "id": "aa81462b-395c-4251-8a6b-209b841c4c61337"
         },
         "6aad8a87-7f0b-4d8f-981e-194ead41c05a337": {
@@ -6743,8 +6439,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 98014,
-          "y": 20108,
+          "x": 97995,
+          "y": 20956,
           "id": "6aad8a87-7f0b-4d8f-981e-194ead41c05a337"
         },
         "08903e7b-149f-47f1-8653-7b96ba418c1f337": {
@@ -6770,8 +6466,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 98036,
-          "y": 20133,
+          "x": 98017,
+          "y": 20981,
           "id": "08903e7b-149f-47f1-8653-7b96ba418c1f337"
         },
         "4bbee75c-f499-413e-9add-41af2f8f7e89337": {
@@ -6797,8 +6493,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 98000,
-          "y": 20158,
+          "x": 97981,
+          "y": 21006,
           "id": "4bbee75c-f499-413e-9add-41af2f8f7e89337"
         },
         "2c276004-e3d0-4535-802a-c2e880c3efa3337": {
@@ -6824,8 +6520,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 98039,
-          "y": 20183,
+          "x": 98020,
+          "y": 21031,
           "id": "2c276004-e3d0-4535-802a-c2e880c3efa3337"
         },
         "590d1907-6830-4c78-a86f-ebb881754971337": {
@@ -6851,8 +6547,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 97789,
-          "y": 20308,
+          "x": 97770,
+          "y": 21156,
           "id": "590d1907-6830-4c78-a86f-ebb881754971337"
         },
         "a939494e-67ed-4ab7-9dd0-b99365b90625337": {
@@ -6878,8 +6574,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 97789,
-          "y": 20408,
+          "x": 97770,
+          "y": 21256,
           "id": "a939494e-67ed-4ab7-9dd0-b99365b90625337"
         },
         "0f2fef08-f6c1-43ab-80f4-78dfdb611736337": {
@@ -6905,8 +6601,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 97789,
-          "y": 20508,
+          "x": 97770,
+          "y": 21356,
           "id": "0f2fef08-f6c1-43ab-80f4-78dfdb611736337"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088632337": {
@@ -6938,8 +6634,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Canvas\nviews",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088632337",
-          "x": 101316,
-          "y": 20371,
+          "x": 101297,
+          "y": 21219,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6968,8 +6664,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Big theme of canvas views",
           "id": "c0f51beb-5244-4004-9a0b-2bfb1b1badff337",
-          "x": 98205,
-          "y": 19680
+          "x": 98186,
+          "y": 20528
         },
         "901dbd30-a64d-4f30-af12-3774ab5a131b337": {
           "color": {
@@ -6995,8 +6691,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Canvas view means some virtual camera directed on canvas",
           "id": "901dbd30-a64d-4f30-af12-3774ab5a131b337",
-          "x": 98313,
-          "y": 19711
+          "x": 98294,
+          "y": 20559
         },
         "c4e0bdb9-b770-4a4d-b934-00c4dc819e71337": {
           "color": {
@@ -7022,8 +6718,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Views contain high complexity which can be organized.",
           "id": "c4e0bdb9-b770-4a4d-b934-00c4dc819e71337",
-          "x": 98294,
-          "y": 19741
+          "x": 98275,
+          "y": 20589
         },
         "35d48e80-aaa8-483b-9d68-7cbffaef84d8337": {
           "color": {
@@ -7049,8 +6745,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "There can be many collections of views lists",
           "id": "35d48e80-aaa8-483b-9d68-7cbffaef84d8337",
-          "x": 98259,
-          "y": 19772
+          "x": 98240,
+          "y": 20620
         },
         "6df3ceaf-bb1a-4f07-9afa-8eeec64c1288337": {
           "color": {
@@ -7076,8 +6772,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Hotkeys",
           "id": "6df3ceaf-bb1a-4f07-9afa-8eeec64c1288337",
-          "x": 98146,
-          "y": 19800
+          "x": 98127,
+          "y": 20648
         },
         "d72e3512-5f28-439f-82fd-4f12c136870f673431": {
           "color": {
@@ -7107,8 +6803,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Разработка mm-vis-js",
-          "x": 81413,
-          "y": 4392,
+          "x": 81394,
+          "y": 5240,
           "id": "d72e3512-5f28-439f-82fd-4f12c136870f673431",
           "shape": "box",
           "link": "",
@@ -7139,8 +6835,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 82069,
-          "y": 5013,
+          "x": 82050,
+          "y": 5861,
           "id": "c265228f-7a42-4f5b-ae09-4968e660d922673431"
         },
         "72a29b77-7945-40c7-aabf-56d95597916b673431": {
@@ -7168,8 +6864,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 82269,
-          "y": 5007,
+          "x": 82250,
+          "y": 5855,
           "id": "72a29b77-7945-40c7-aabf-56d95597916b673431"
         },
         "01833143-dc1d-4f15-b6dc-71d4232a5dca673431": {
@@ -7197,8 +6893,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 82423,
-          "y": 5007,
+          "x": 82404,
+          "y": 5855,
           "id": "01833143-dc1d-4f15-b6dc-71d4232a5dca673431"
         },
         "adf37994-f52f-43fe-8c46-de3d24f49a5f673431": {
@@ -7226,8 +6922,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 82069,
-          "y": 4001,
+          "x": 82050,
+          "y": 4849,
           "id": "adf37994-f52f-43fe-8c46-de3d24f49a5f673431"
         },
         "18700789-b477-4474-a9d8-a64b504c28f9673431": {
@@ -7255,8 +6951,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 82219,
-          "y": 3751,
+          "x": 82200,
+          "y": 4599,
           "id": "18700789-b477-4474-a9d8-a64b504c28f9673431"
         },
         "46c40acb-8f2f-46fa-a223-88fdf60d1eb7673431": {
@@ -7284,8 +6980,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 82219,
-          "y": 4001,
+          "x": 82200,
+          "y": 4849,
           "id": "46c40acb-8f2f-46fa-a223-88fdf60d1eb7673431"
         },
         "c03a29fb-0bf2-4391-96ec-20658fcf2a96673431": {
@@ -7313,8 +7009,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 82219,
-          "y": 4413,
+          "x": 82200,
+          "y": 5261,
           "id": "c03a29fb-0bf2-4391-96ec-20658fcf2a96673431"
         },
         "bc1799b7-5c57-46ae-8470-74c7694cb4eb673431": {
@@ -7342,8 +7038,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 82283,
-          "y": 4263,
+          "x": 82264,
+          "y": 5111,
           "id": "bc1799b7-5c57-46ae-8470-74c7694cb4eb673431"
         },
         "a6042930-308d-40dc-97ea-9d2deb71784a673431": {
@@ -7371,8 +7067,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 82314,
-          "y": 4288,
+          "x": 82295,
+          "y": 5136,
           "id": "a6042930-308d-40dc-97ea-9d2deb71784a673431"
         },
         "d4e88b34-c5a2-4084-8168-85a39b96518b673431": {
@@ -7400,8 +7096,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 82279,
-          "y": 4313,
+          "x": 82260,
+          "y": 5161,
           "id": "d4e88b34-c5a2-4084-8168-85a39b96518b673431"
         },
         "5e2d9b9e-7956-4d91-b961-a18ccfd10634673431": {
@@ -7429,8 +7125,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 82298,
-          "y": 4338,
+          "x": 82279,
+          "y": 5186,
           "id": "5e2d9b9e-7956-4d91-b961-a18ccfd10634673431"
         },
         "b743ea42-811f-41c8-933d-365f7599f2bb673431": {
@@ -7458,8 +7154,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 82287,
-          "y": 4363,
+          "x": 82268,
+          "y": 5211,
           "id": "b743ea42-811f-41c8-933d-365f7599f2bb673431"
         },
         "0c70927a-6c22-4f8c-a554-8321f73853c1673431": {
@@ -7487,8 +7183,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 82309,
-          "y": 4388,
+          "x": 82290,
+          "y": 5236,
           "id": "0c70927a-6c22-4f8c-a554-8321f73853c1673431"
         },
         "40abf69a-e6bb-4fbc-9c36-1c571d034e9c673431": {
@@ -7516,8 +7212,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 82311,
-          "y": 4413,
+          "x": 82292,
+          "y": 5261,
           "id": "40abf69a-e6bb-4fbc-9c36-1c571d034e9c673431"
         },
         "dcb2c77b-baa1-4044-835f-d5bf6dfbd23c673431": {
@@ -7545,8 +7241,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 82289,
-          "y": 4438,
+          "x": 82270,
+          "y": 5286,
           "id": "dcb2c77b-baa1-4044-835f-d5bf6dfbd23c673431"
         },
         "9ebd4908-ab02-4b2d-96fb-b3e6655279da673431": {
@@ -7574,8 +7270,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 82280,
-          "y": 4463,
+          "x": 82261,
+          "y": 5311,
           "id": "9ebd4908-ab02-4b2d-96fb-b3e6655279da673431"
         },
         "26199d75-b171-4b65-ad6e-66793cce4341673431": {
@@ -7603,8 +7299,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 82308,
-          "y": 4488,
+          "x": 82289,
+          "y": 5336,
           "id": "26199d75-b171-4b65-ad6e-66793cce4341673431"
         },
         "846dbcfc-e517-497e-9fc7-35297ce2f54e673431": {
@@ -7632,8 +7328,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 82294,
-          "y": 4513,
+          "x": 82275,
+          "y": 5361,
           "id": "846dbcfc-e517-497e-9fc7-35297ce2f54e673431"
         },
         "ea3f8386-dd89-485e-8b6d-e4d665943d89673431": {
@@ -7661,8 +7357,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 82316,
-          "y": 4538,
+          "x": 82297,
+          "y": 5386,
           "id": "ea3f8386-dd89-485e-8b6d-e4d665943d89673431"
         },
         "720fdfd4-71bc-4c2f-bf80-df69a9351f9b673431": {
@@ -7690,8 +7386,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 82280,
-          "y": 4563,
+          "x": 82261,
+          "y": 5411,
           "id": "720fdfd4-71bc-4c2f-bf80-df69a9351f9b673431"
         },
         "e4ee609d-39ad-4543-a157-38d8718c20a8673431": {
@@ -7719,8 +7415,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 82319,
-          "y": 4588,
+          "x": 82300,
+          "y": 5436,
           "id": "e4ee609d-39ad-4543-a157-38d8718c20a8673431"
         },
         "eb72029f-bfe4-403d-a720-ff89c2b4f94e673431": {
@@ -7748,8 +7444,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 82069,
-          "y": 4713,
+          "x": 82050,
+          "y": 5561,
           "id": "eb72029f-bfe4-403d-a720-ff89c2b4f94e673431"
         },
         "14a16f63-3b55-489f-bf21-ee639776c71c673431": {
@@ -7777,8 +7473,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 82069,
-          "y": 4813,
+          "x": 82050,
+          "y": 5661,
           "id": "14a16f63-3b55-489f-bf21-ee639776c71c673431"
         },
         "79a3d8ef-2677-4066-8195-a7096bb31a2c673431": {
@@ -7806,8 +7502,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 82069,
-          "y": 4913,
+          "x": 82050,
+          "y": 5761,
           "id": "79a3d8ef-2677-4066-8195-a7096bb31a2c673431"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673431": {
@@ -7839,8 +7535,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Разработка\nmm-vis-js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673431",
-          "x": 87487,
-          "y": 4637,
+          "x": 87468,
+          "y": 5485,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7871,8 +7567,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "id": "bbfa4068-4e91-4d81-aa66-b3a75c20e228673431",
-          "x": 82429,
-          "y": 5050
+          "x": 82410,
+          "y": 5898
         },
         "d723c162-2431-49ca-b38c-70f18ac64ca1673431": {
           "color": {
@@ -7903,131 +7599,11 @@ var schemeData =
           "shapeProperties": {},
           "label": "Add edge label edit function",
           "id": "d723c162-2431-49ca-b38c-70f18ac64ca1673431",
-          "x": 82597,
-          "y": 5076,
+          "x": 82578,
+          "y": 5924,
           "shape": "box",
           "link": "",
           "borderWidth": ""
-        },
-        "d6e24ba4-997d-4555-a7b3-053eb5502e1f856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 40
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Книги",
-          "id": "d6e24ba4-997d-4555-a7b3-053eb5502e1f856673431",
-          "x": 82407,
-          "y": 16698,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "005ed1b3-4245-495b-b924-5a219aca9884856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Разработка",
-          "id": "005ed1b3-4245-495b-b924-5a219aca9884856673431",
-          "x": 82657,
-          "y": 16814
-        },
-        "8be4c57f-d909-4dea-9bea-de69e818d5f0856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "init",
-          "id": "8be4c57f-d909-4dea-9bea-de69e818d5f0856673431",
-          "x": 82797,
-          "y": 16815
-        },
-        "a73fb86f-ff47-4791-80bd-7ccf8187ae40856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "2019-11-01 21:45",
-          "id": "a73fb86f-ff47-4791-80bd-7ccf8187ae40856673431",
-          "x": 82933,
-          "y": 16815
         },
         "30e667e1-e8b2-4be3-b753-2dee5d10c49b856673431": {
           "color": {
@@ -8058,199 +7634,11 @@ var schemeData =
           "shapeProperties": {},
           "label": "Карты\nпрограммного\nкода",
           "id": "30e667e1-e8b2-4be3-b753-2dee5d10c49b856673431",
-          "x": 88118,
-          "y": 12934,
+          "x": 88099,
+          "y": 13782,
           "shape": "box",
           "link": "",
           "borderWidth": ""
-        },
-        "3b4110bb-3909-489d-952e-a464b7cc0f02856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Книги",
-          "id": "3b4110bb-3909-489d-952e-a464b7cc0f02856673431",
-          "x": 86170,
-          "y": 16913,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "190b3905-69c6-4867-bc2e-8a5608ddbf3a856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 40
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Как пользоваться",
-          "id": "190b3905-69c6-4867-bc2e-8a5608ddbf3a856673431",
-          "x": 81462,
-          "y": -6361,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "69df842e-8d76-4bae-a1be-03398edbb34d856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Разработка этой схемы",
-          "id": "69df842e-8d76-4bae-a1be-03398edbb34d856673431",
-          "x": 81974,
-          "y": -5124,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "75f58e5a-a0d0-4f37-a30a-bc954f310151856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "init",
-          "id": "75f58e5a-a0d0-4f37-a30a-bc954f310151856673431",
-          "x": 82095,
-          "y": -5123
-        },
-        "6c08158c-4e66-49f6-a161-a66c3a8d0271856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "2019-11-01 21:45",
-          "id": "6c08158c-4e66-49f6-a161-a66c3a8d0271856673431",
-          "x": 82231,
-          "y": -5126
-        },
-        "918cfa6f-1b63-4ef3-b4a4-aa565848f727856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Разделы",
-          "id": "918cfa6f-1b63-4ef3-b4a4-aa565848f727856673431",
-          "x": 81913,
-          "y": -7168
         },
         "28606e38-66b9-4360-bd26-57e745089b6c856673431": {
           "color": {
@@ -8411,35 +7799,6 @@ var schemeData =
           "link": "",
           "borderWidth": ""
         },
-        "4c5765ea-0499-47fb-a22f-198df80fe409856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Разделы",
-          "id": "4c5765ea-0499-47fb-a22f-198df80fe409856673431",
-          "x": 82646,
-          "y": 16538
-        },
         "f79ec810-7f8f-43e8-b3b3-ff5cf20a66f8856673431": {
           "color": {
             "highlight": {},
@@ -8466,8 +7825,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Ссылка на пример книги \"на холсте\"",
           "id": "f79ec810-7f8f-43e8-b3b3-ff5cf20a66f8856673431",
-          "x": 82909,
-          "y": 16518
+          "x": 82862,
+          "y": 17314
         },
         "cf78bc11-91c8-49c9-b678-3cd9aced5311856673431": {
           "color": {
@@ -8495,8 +7854,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Код генерации книг",
           "id": "cf78bc11-91c8-49c9-b678-3cd9aced5311856673431",
-          "x": 82847,
-          "y": 16583
+          "x": 82806,
+          "y": 17379
         },
         "4eeb91b4-989b-4727-b962-7f59f9f7bda8856673431": {
           "color": {
@@ -8524,8 +7883,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "TODO: добавить ссылку",
           "id": "4eeb91b4-989b-4727-b962-7f59f9f7bda8856673431",
-          "x": 83037,
-          "y": 16581
+          "x": 83095,
+          "y": 17378
         },
         "3d5af2c3-7c46-489f-a80f-f41dd5bbc113856673431": {
           "color": {
@@ -8554,8 +7913,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "id": "3d5af2c3-7c46-489f-a80f-f41dd5bbc113856673431",
-          "x": 83381,
-          "y": 16501,
+          "x": 83439,
+          "y": 17298,
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "borderWidth": ""
@@ -8706,8 +8065,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Примеры",
           "id": "22123149-010b-4f10-8d48-614343676646856673431",
-          "x": 82906,
-          "y": 12160
+          "x": 82887,
+          "y": 13008
         },
         "d72c9ee6-422f-46b9-a2b6-530acbb851c8856673431": {
           "color": {
@@ -8735,8 +8094,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Код генерации примеров",
           "id": "d72c9ee6-422f-46b9-a2b6-530acbb851c8856673431",
-          "x": 83004,
-          "y": 12863
+          "x": 82985,
+          "y": 13711
         },
         "99792996-9990-4de2-8e7a-c7f95c729ccc856673431": {
           "color": {
@@ -9035,35 +8394,6 @@ var schemeData =
           "id": "a93ca548-3213-4562-adca-65ec888cd499856673431",
           "x": 82770,
           "y": -5948
-        },
-        "0259d9ae-d9a0-43fe-a27d-6ef875c42428856673431": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Примечания",
-          "id": "0259d9ae-d9a0-43fe-a27d-6ef875c42428856673431",
-          "x": 82126,
-          "y": -5608
         },
         "54a8ccfe-1e5b-4fa6-b8a4-a619778bc847856673431": {
           "color": {
@@ -10043,8 +9373,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vis-network/vis-network.index.html",
           "id": "73e001ea-c6ee-4573-9173-50a897bc69f7856673431",
-          "x": 83469,
-          "y": 11703,
+          "x": 83450,
+          "y": 12551,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vis-network/vis-network.index.html",
           "borderWidth": ""
@@ -10076,8 +9406,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/jdk/jdk.index.html",
           "id": "148c0f2f-58a0-4278-a284-c4eda5bff4d7856673431",
-          "x": 83415,
-          "y": 11762,
+          "x": 83396,
+          "y": 12610,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/jdk/jdk.index.html",
           "borderWidth": ""
@@ -10108,8 +9438,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Файлы карт загружаются 5-10 секунд.",
           "id": "682e2e0c-de7a-4218-af14-fe0a3b67e228856673431",
-          "x": 82995,
-          "y": 13020
+          "x": 82976,
+          "y": 13868
         },
         "b1c3bfef-9396-429e-97d6-bfea67857091856673431": {
           "color": {
@@ -10138,8 +9468,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/apache_httpd/apache_httpd.index.html",
           "id": "b1c3bfef-9396-429e-97d6-bfea67857091856673431",
-          "x": 83484,
-          "y": 11830,
+          "x": 83465,
+          "y": 12678,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/apache_httpd/apache_httpd.index.html",
           "borderWidth": ""
@@ -10171,8 +9501,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/bash/bash.index.html",
           "id": "502ba7df-60ac-4226-8aa9-e90a6940e36e856673431",
-          "x": 83428,
-          "y": 11870,
+          "x": 83409,
+          "y": 12718,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/bash/bash.index.html",
           "borderWidth": ""
@@ -10204,8 +9534,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/chromium/chromium.index.html",
           "id": "94cbd1d4-bafe-46d9-b811-35517c77c30e856673431",
-          "x": 83460,
-          "y": 11919,
+          "x": 83441,
+          "y": 12767,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/chromium/chromium.index.html",
           "borderWidth": ""
@@ -10236,8 +9566,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/cpython/cpython.index.hml",
           "id": "f6d9d005-6067-440d-9b62-7e1ad92395f0856673431",
-          "x": 83445,
-          "y": 11968
+          "x": 83426,
+          "y": 12816
         },
         "298ee61d-a396-47ea-aa7c-ebb565676a2c856673431": {
           "color": {
@@ -10266,8 +9596,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/emacs/emacs.index.html",
           "id": "298ee61d-a396-47ea-aa7c-ebb565676a2c856673431",
-          "x": 83439,
-          "y": 12016,
+          "x": 83420,
+          "y": 12864,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/emacs/emacs.index.html",
           "borderWidth": ""
@@ -10299,8 +9629,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/firefox/firefox.index.html",
           "id": "b04b14d8-1d14-4acd-a25f-9d5aa64310ec856673431",
-          "x": 83436,
-          "y": 12072,
+          "x": 83417,
+          "y": 12920,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/firefox/firefox.index.html",
           "borderWidth": ""
@@ -10334,8 +9664,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Тестирование\nmm-vis-js",
           "id": "5ea860e4-a966-4328-81bf-8b0a063ae6f1856673431",
-          "x": 88063,
-          "y": 1605,
+          "x": 88044,
+          "y": 2453,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10367,8 +9697,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/gcc/gcc.index.html",
           "id": "35872018-0beb-487b-8de3-9defef972c48856673431",
-          "x": 83419,
-          "y": 12128,
+          "x": 83400,
+          "y": 12976,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/gcc/gcc.index.html",
           "borderWidth": ""
@@ -10400,8 +9730,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ghc/ghc.index.html",
           "id": "5c2e2e96-836e-4af3-a12e-da75651ed7e8856673431",
-          "x": 83420,
-          "y": 12162,
+          "x": 83401,
+          "y": 13010,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ghc/ghc.index.html",
           "borderWidth": ""
@@ -10433,8 +9763,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/git/git.index.html",
           "id": "74834844-1c42-42bf-969e-03f0a79b44da856673431",
-          "x": 83412,
-          "y": 12193,
+          "x": 83393,
+          "y": 13041,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/git/git.index.html",
           "borderWidth": ""
@@ -10466,8 +9796,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/julia/julia.index.html",
           "id": "b08916db-062a-454b-bd39-8f68213c97ce856673431",
-          "x": 83422,
-          "y": 12219,
+          "x": 83403,
+          "y": 13067,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/julia/julia.index.html",
           "borderWidth": ""
@@ -10499,8 +9829,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/hbase/hbase.index.html",
           "id": "1eede9ae-1653-4dda-9fff-c1455e395bb9856673431",
-          "x": 83438,
-          "y": 12263,
+          "x": 83419,
+          "y": 13111,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/hbase/hbase.index.html",
           "borderWidth": ""
@@ -10532,8 +9862,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/linux-core/linux-core.index.html",
           "id": "df5b3d3b-055e-483e-978e-b61a296a29b0856673431",
-          "x": 83463,
-          "y": 12301,
+          "x": 83444,
+          "y": 13149,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/linux-core/linux-core.index.html",
           "borderWidth": ""
@@ -10565,8 +9895,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mm-vis-js/mm-vis-js.index.html",
           "id": "e4495c5a-517f-45e3-a810-be4480d14edf856673431",
-          "x": 83458,
-          "y": 12340,
+          "x": 83439,
+          "y": 13188,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mm-vis-js/mm-vis-js.index.html",
           "borderWidth": ""
@@ -10598,8 +9928,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mysql-server/mysql-server.index.html",
           "id": "f440e7d4-8921-4590-8671-1a81b7fdc8bf856673431",
-          "x": 83479,
-          "y": 12377,
+          "x": 83460,
+          "y": 13225,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mysql-server/mysql-server.index.html",
           "borderWidth": ""
@@ -10630,8 +9960,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/neo4j/neo4j.index.html",
           "id": "1266304d-892d-4786-a37a-aec17829d089856673431",
-          "x": 83432,
-          "y": 12412
+          "x": 83413,
+          "y": 13260
         },
         "312f8def-d468-4d38-b3fe-97c856b4d1e2856673431": {
           "color": {
@@ -10660,8 +9990,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ruby/ruby.index.html",
           "id": "312f8def-d468-4d38-b3fe-97c856b4d1e2856673431",
-          "x": 83425,
-          "y": 12461,
+          "x": 83406,
+          "y": 13309,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ruby/ruby.index.html",
           "borderWidth": ""
@@ -10693,8 +10023,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/sbcl/sbcl.index.html",
           "id": "78f06d8c-497d-4db1-bea9-10775d8338ac856673431",
-          "x": 83422,
-          "y": 12507,
+          "x": 83403,
+          "y": 13355,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/sbcl/sbcl.index.html",
           "borderWidth": ""
@@ -10726,8 +10056,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spark/spark.index.html",
           "id": "f3f4175c-9236-42fd-8757-32ee3ef9bb71856673431",
-          "x": 83432,
-          "y": 12541,
+          "x": 83413,
+          "y": 13389,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spark/spark.index.html",
           "borderWidth": ""
@@ -10759,8 +10089,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spring-framework/spring-framework.index.html",
           "id": "b67fb330-a745-40fe-9bfb-23d326ffdfff856673431",
-          "x": 83508,
-          "y": 12571,
+          "x": 83489,
+          "y": 13419,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spring-framework/spring-framework.index.html",
           "borderWidth": ""
@@ -10792,8 +10122,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/texlive-source/texlive-source.index.html",
           "id": "82f75612-bc2a-4983-bc1e-3e5b2b5308ef856673431",
-          "x": 83485,
-          "y": 12594,
+          "x": 83466,
+          "y": 13442,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/texlive-source/texlive-source.index.html",
           "borderWidth": ""
@@ -10825,8 +10155,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/tomcat/tomcat.index.html",
           "id": "edae5ee3-c836-4cd6-a969-e7de69f2426e856673431",
-          "x": 83440,
-          "y": 12645,
+          "x": 83421,
+          "y": 13493,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/tomcat/tomcat.index.html",
           "borderWidth": ""
@@ -10858,8 +10188,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vim/vim.index.html",
           "id": "5e01434b-c6de-4c84-8340-2bca0811fecf856673431",
-          "x": 83419,
-          "y": 12682,
+          "x": 83400,
+          "y": 13530,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vim/vim.index.html",
           "borderWidth": ""
@@ -10891,8 +10221,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vscode/vscode.index.html",
           "id": "8e0b73ac-bf1d-43f5-9962-1d293d9c95a2856673431",
-          "x": 83442,
-          "y": 12713,
+          "x": 83423,
+          "y": 13561,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vscode/vscode.index.html",
           "borderWidth": ""
@@ -10923,8 +10253,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vis-network",
           "id": "8f1d4ca1-872a-4275-9e5a-c4071e43cfc8856673431",
-          "x": 83038,
-          "y": 11689
+          "x": 83019,
+          "y": 12537
         },
         "aac55059-2104-48d0-afc9-c3c801076487856673431": {
           "color": {
@@ -10952,8 +10282,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "jdk",
           "id": "aac55059-2104-48d0-afc9-c3c801076487856673431",
-          "x": 83011,
-          "y": 11764
+          "x": 82992,
+          "y": 12612
         },
         "44447f9c-f188-43ba-8164-88bda0aae8e1856673431": {
           "color": {
@@ -10981,8 +10311,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "apache_httpd",
           "id": "44447f9c-f188-43ba-8164-88bda0aae8e1856673431",
-          "x": 83045,
-          "y": 11824
+          "x": 83026,
+          "y": 12672
         },
         "9c3a52cb-55a2-4470-a625-33f10ad15153856673431": {
           "color": {
@@ -11010,8 +10340,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "bash",
           "id": "9c3a52cb-55a2-4470-a625-33f10ad15153856673431",
-          "x": 83017,
-          "y": 11870
+          "x": 82998,
+          "y": 12718
         },
         "54a4b213-9ec2-4ed1-b5db-9220107c9311856673431": {
           "color": {
@@ -11039,8 +10369,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "chromium",
           "id": "54a4b213-9ec2-4ed1-b5db-9220107c9311856673431",
-          "x": 83033,
-          "y": 11920
+          "x": 83014,
+          "y": 12768
         },
         "e9710f68-b042-4451-b90c-2b17fb566ea3856673431": {
           "color": {
@@ -11068,8 +10398,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "cpython",
           "id": "e9710f68-b042-4451-b90c-2b17fb566ea3856673431",
-          "x": 83027,
-          "y": 11973
+          "x": 83008,
+          "y": 12821
         },
         "51f703e5-c66a-401f-a872-69951870b25f856673431": {
           "color": {
@@ -11097,8 +10427,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "emacs",
           "id": "51f703e5-c66a-401f-a872-69951870b25f856673431",
-          "x": 83023,
-          "y": 12014
+          "x": 83004,
+          "y": 12862
         },
         "0115c013-c5ef-4a52-9998-fbc97a360322856673431": {
           "color": {
@@ -11126,8 +10456,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "firefox",
           "id": "0115c013-c5ef-4a52-9998-fbc97a360322856673431",
-          "x": 83021,
-          "y": 12063
+          "x": 83002,
+          "y": 12911
         },
         "497f406a-93a9-4283-9ee2-19e6d204f5a0856673431": {
           "color": {
@@ -11155,8 +10485,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "gcc",
           "id": "497f406a-93a9-4283-9ee2-19e6d204f5a0856673431",
-          "x": 83013,
-          "y": 12124
+          "x": 82994,
+          "y": 12972
         },
         "428995a8-1044-4e2f-ad44-215c841d1a41856673431": {
           "color": {
@@ -11184,8 +10514,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ghc",
           "id": "428995a8-1044-4e2f-ad44-215c841d1a41856673431",
-          "x": 83013,
-          "y": 12160
+          "x": 82994,
+          "y": 13008
         },
         "01bea31e-6800-4dd3-8ed5-98181a0d62b3856673431": {
           "color": {
@@ -11213,8 +10543,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "git",
           "id": "01bea31e-6800-4dd3-8ed5-98181a0d62b3856673431",
-          "x": 83009,
-          "y": 12186
+          "x": 82990,
+          "y": 13034
         },
         "218467bc-6c3b-4916-9dd2-b537a99c2c7c856673431": {
           "color": {
@@ -11242,8 +10572,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "julia",
           "id": "218467bc-6c3b-4916-9dd2-b537a99c2c7c856673431",
-          "x": 83014,
-          "y": 12215
+          "x": 82995,
+          "y": 13063
         },
         "6c60a515-6507-42f8-8a1e-71861804b45a856673431": {
           "color": {
@@ -11271,8 +10601,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "hbase",
           "id": "6c60a515-6507-42f8-8a1e-71861804b45a856673431",
-          "x": 83021,
-          "y": 12261
+          "x": 83002,
+          "y": 13109
         },
         "a100e6e9-86eb-4753-8338-307eca40a7d4856673431": {
           "color": {
@@ -11300,8 +10630,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "linux-core",
           "id": "a100e6e9-86eb-4753-8338-307eca40a7d4856673431",
-          "x": 83033,
-          "y": 12293
+          "x": 83014,
+          "y": 13141
         },
         "6c1f4913-43d4-4631-8c79-df8ce5a4f63e856673431": {
           "color": {
@@ -11329,8 +10659,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js",
           "id": "6c1f4913-43d4-4631-8c79-df8ce5a4f63e856673431",
-          "x": 83032,
-          "y": 12333
+          "x": 83013,
+          "y": 13181
         },
         "498482b5-bbdf-40aa-aa3c-452315162413856673431": {
           "color": {
@@ -11358,8 +10688,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mysql-server",
           "id": "498482b5-bbdf-40aa-aa3c-452315162413856673431",
-          "x": 83043,
-          "y": 12376
+          "x": 83024,
+          "y": 13224
         },
         "6887b62d-a46b-4150-9b53-64bb70e8c850856673431": {
           "color": {
@@ -11387,8 +10717,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "neo4j",
           "id": "6887b62d-a46b-4150-9b53-64bb70e8c850856673431",
-          "x": 83019,
-          "y": 12415
+          "x": 83000,
+          "y": 13263
         },
         "c235ef75-7667-4b06-8b6f-491724d4c4b5856673431": {
           "color": {
@@ -11416,8 +10746,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ruby",
           "id": "c235ef75-7667-4b06-8b6f-491724d4c4b5856673431",
-          "x": 83016,
-          "y": 12451
+          "x": 82997,
+          "y": 13299
         },
         "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf856673431": {
           "color": {
@@ -11445,8 +10775,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sbcl",
           "id": "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf856673431",
-          "x": 83014,
-          "y": 12492
+          "x": 82995,
+          "y": 13340
         },
         "f4decd03-bfff-426d-8f3c-40106497e623856673431": {
           "color": {
@@ -11474,8 +10804,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "spark",
           "id": "f4decd03-bfff-426d-8f3c-40106497e623856673431",
-          "x": 83019,
-          "y": 12527
+          "x": 83000,
+          "y": 13375
         },
         "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da856673431": {
           "color": {
@@ -11503,8 +10833,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "spring-framework",
           "id": "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da856673431",
-          "x": 83057,
-          "y": 12559
+          "x": 83038,
+          "y": 13407
         },
         "7b571732-4654-4d9e-a1de-a7f1df712745856673431": {
           "color": {
@@ -11532,8 +10862,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "texlive-source",
           "id": "7b571732-4654-4d9e-a1de-a7f1df712745856673431",
-          "x": 83046,
-          "y": 12595
+          "x": 83027,
+          "y": 13443
         },
         "92fca885-a7ed-49ea-89d1-82fa71c9857e856673431": {
           "color": {
@@ -11561,8 +10891,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "tomcat",
           "id": "92fca885-a7ed-49ea-89d1-82fa71c9857e856673431",
-          "x": 83023,
-          "y": 12639
+          "x": 83004,
+          "y": 13487
         },
         "315153b0-268e-4c6b-9f1b-b0ecf0707073856673431": {
           "color": {
@@ -11590,8 +10920,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vim",
           "id": "315153b0-268e-4c6b-9f1b-b0ecf0707073856673431",
-          "x": 83013,
-          "y": 12677
+          "x": 82994,
+          "y": 13525
         },
         "28c78af2-c055-4907-b879-b40a312664f7856673431": {
           "color": {
@@ -11619,8 +10949,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vscode",
           "id": "28c78af2-c055-4907-b879-b40a312664f7856673431",
-          "x": 83024,
-          "y": 12708
+          "x": 83005,
+          "y": 13556
         },
         "25d82c80-2203-4faa-9747-87120f00ae81856673431": {
           "color": {
@@ -11648,8 +10978,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Процедура",
           "id": "25d82c80-2203-4faa-9747-87120f00ae81856673431",
-          "x": 82332,
-          "y": 893
+          "x": 82313,
+          "y": 1741
         },
         "179b5dcc-0496-4c74-8451-cbb796144379856673431": {
           "color": {
@@ -11678,8 +11008,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Предварительно установить",
           "id": "179b5dcc-0496-4c74-8451-cbb796144379856673431",
-          "x": 82522,
-          "y": 836,
+          "x": 82503,
+          "y": 1684,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11710,8 +11040,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Docker",
           "id": "6fa1e7e0-c5d6-4003-83e1-cea4406fae46856673431",
-          "x": 82715,
-          "y": 794
+          "x": 82696,
+          "y": 1642
         },
         "3263da94-2ce8-402a-8d42-bd22669b945b856673431": {
           "color": {
@@ -11739,8 +11069,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose",
           "id": "3263da94-2ce8-402a-8d42-bd22669b945b856673431",
-          "x": 82747,
-          "y": 849
+          "x": 82728,
+          "y": 1697
         },
         "85e6ba42-7db6-4680-919c-3269559c0fbe856673431": {
           "color": {
@@ -11768,8 +11098,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "pip install docker-compose",
           "id": "85e6ba42-7db6-4680-919c-3269559c0fbe856673431",
-          "x": 82951,
-          "y": 846
+          "x": 82932,
+          "y": 1694
         },
         "8cfea21a-e1f4-400e-b764-c9ef63fef1c8856673431": {
           "color": {
@@ -11797,8 +11127,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выполнение тестов",
           "id": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8856673431",
-          "x": 82502,
-          "y": 1044
+          "x": 82483,
+          "y": 1892
         },
         "c529d633-f904-4990-b1cd-879e8c0b164b856673431": {
           "color": {
@@ -11827,8 +11157,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Необходимо открыть два консоли",
           "id": "c529d633-f904-4990-b1cd-879e8c0b164b856673431",
-          "x": 82814,
-          "y": 914,
+          "x": 82795,
+          "y": 1762,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11860,8 +11190,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В первой консоли выполните команду",
           "id": "532636aa-db78-49e6-be51-3be6ae888b09856673431",
-          "x": 82829,
-          "y": 971,
+          "x": 82810,
+          "y": 1819,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11893,8 +11223,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose up --build.",
           "id": "a2fc6f92-bd21-4679-870f-a3f4d5e301f0856673431",
-          "x": 83124,
-          "y": 967,
+          "x": 83105,
+          "y": 1815,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11926,8 +11256,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Запустится докер-контейнер с браузером chrome внутри.",
           "id": "1724f3cb-c073-4014-8a02-8132f6186803856673431",
-          "x": 83465,
-          "y": 955,
+          "x": 83446,
+          "y": 1803,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11959,8 +11289,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Во второй консоли выполните команды",
           "id": "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9856673431",
-          "x": 82836,
-          "y": 1100,
+          "x": 82817,
+          "y": 1948,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11991,8 +11321,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker exec -it app-express npm run test:e2e",
           "id": "3b1b8717-0bfb-4b5f-a9de-aa39f4f825fd856673431",
-          "x": 83180,
-          "y": 1054
+          "x": 83161,
+          "y": 1902
         },
         "e335fc55-69e7-4f38-b4c6-09e133d6688f856673431": {
           "color": {
@@ -12020,8 +11350,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выполнятся тесты",
           "id": "e335fc55-69e7-4f38-b4c6-09e133d6688f856673431",
-          "x": 83468,
-          "y": 1043
+          "x": 83449,
+          "y": 1891
         },
         "9072fccc-888c-4b01-b039-1d0027a1e73a856673431": {
           "color": {
@@ -12050,8 +11380,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Процесс выйдет после выполнения.",
           "id": "9072fccc-888c-4b01-b039-1d0027a1e73a856673431",
-          "x": 83525,
-          "y": 1081,
+          "x": 83506,
+          "y": 1929,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12082,8 +11412,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Процесс останется запущенным в консоли",
           "id": "76062b6c-58fb-46cc-9370-c59d6f3718c6856673431",
-          "x": 83418,
-          "y": 987
+          "x": 83399,
+          "y": 1835
         },
         "79d0dbf8-19a9-462f-b150-e0ee56523d65856673431": {
           "color": {
@@ -12111,8 +11441,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "docker-compose down",
           "id": "79d0dbf8-19a9-462f-b150-e0ee56523d65856673431",
-          "x": 83108,
-          "y": 1159
+          "x": 83089,
+          "y": 2007
         },
         "3ea5f8fc-f7db-431e-b3f4-024a28f9313c856673431": {
           "color": {
@@ -12141,8 +11471,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Чтобы остановить ее контейнер",
           "id": "3ea5f8fc-f7db-431e-b3f4-024a28f9313c856673431",
-          "x": 83380,
-          "y": 1158,
+          "x": 83361,
+          "y": 2006,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12174,8 +11504,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Схемы строятся на элементе HTML5 - canvas",
           "id": "ecbb486a-5275-4cf9-8b76-9d5cf78756c0856673431",
-          "x": 82294,
-          "y": 1999,
+          "x": 82275,
+          "y": 2847,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12207,8 +11537,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Положение объектов на canvas можно тестировать только как растровую графику",
           "id": "23c491d2-586e-4c27-a9f6-fea8f4bec969856673431",
-          "x": 82784,
-          "y": 1970,
+          "x": 82765,
+          "y": 2818,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12239,8 +11569,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В тестах нужно следить за цветом отдельных пикселей и их групп.",
           "id": "22be0fd6-971b-427a-8209-10438d354494856673431",
-          "x": 82727,
-          "y": 2004
+          "x": 82708,
+          "y": 2852
         },
         "1e266f7a-37e9-468b-911a-fe271dc204ad856673431": {
           "color": {
@@ -12268,8 +11598,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Можно использовать библиотеки из ряда openCV",
           "id": "1e266f7a-37e9-468b-911a-fe271dc204ad856673431",
-          "x": 82671,
-          "y": 2039
+          "x": 82652,
+          "y": 2887
         },
         "28056588-8284-4009-9d1d-cbc9d804a95d856673431": {
           "color": {
@@ -13253,8 +12583,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Тестирование mm-vis-js",
-          "x": 81351,
-          "y": 1720,
+          "x": 81332,
+          "y": 2568,
           "id": "eece73d0-f661-4746-abc6-59492ce78793673431",
           "shape": "box",
           "link": "",
@@ -13285,8 +12615,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 81993,
-          "y": 2293,
+          "x": 81974,
+          "y": 3141,
           "id": "a017755e-776e-4ce6-8a5e-044c579cf8bc673431"
         },
         "ef7e0044-5ad3-4865-a2ad-6e0118fef0cf673431": {
@@ -13317,8 +12647,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
-          "x": 82243,
-          "y": 2293,
+          "x": 82224,
+          "y": 3141,
           "id": "ef7e0044-5ad3-4865-a2ad-6e0118fef0cf673431",
           "shape": "box",
           "link": "",
@@ -13349,8 +12679,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 82143,
-          "y": 2293,
+          "x": 82124,
+          "y": 3141,
           "id": "79aa7764-76fa-4f37-8e81-3265ee9b3d0f673431"
         },
         "22973f39-877f-4c69-bbdf-001db2408034673431": {
@@ -13378,8 +12708,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 82002,
-          "y": 1287,
+          "x": 81983,
+          "y": 2135,
           "id": "22973f39-877f-4c69-bbdf-001db2408034673431"
         },
         "99fc10fd-90d5-4228-9a8e-701248498df2673431": {
@@ -13407,8 +12737,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 82148,
-          "y": 919,
+          "x": 82129,
+          "y": 1767,
           "id": "99fc10fd-90d5-4228-9a8e-701248498df2673431"
         },
         "5c5e4042-6e47-4335-9962-0cdee86b771d673431": {
@@ -13436,8 +12766,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 82152,
-          "y": 1287,
+          "x": 82133,
+          "y": 2135,
           "id": "5c5e4042-6e47-4335-9962-0cdee86b771d673431"
         },
         "564a2015-d7bc-473c-b076-4201b463ca5c673431": {
@@ -13465,8 +12795,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 82152,
-          "y": 1537,
+          "x": 82133,
+          "y": 2385,
           "id": "564a2015-d7bc-473c-b076-4201b463ca5c673431"
         },
         "11dad21f-63aa-4483-8b96-0662e55f0cdb673431": {
@@ -13494,8 +12824,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 82216,
-          "y": 1387,
+          "x": 82197,
+          "y": 2235,
           "id": "11dad21f-63aa-4483-8b96-0662e55f0cdb673431"
         },
         "597174be-3071-484c-a901-85b2943119fb673431": {
@@ -13523,8 +12853,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 82247,
-          "y": 1412,
+          "x": 82228,
+          "y": 2260,
           "id": "597174be-3071-484c-a901-85b2943119fb673431"
         },
         "15970d88-4fc7-4284-821c-bfe8dc7d9968673431": {
@@ -13552,8 +12882,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 82212,
-          "y": 1437,
+          "x": 82193,
+          "y": 2285,
           "id": "15970d88-4fc7-4284-821c-bfe8dc7d9968673431"
         },
         "7974f18b-313a-4f89-a58c-b24a8ee223f3673431": {
@@ -13581,8 +12911,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 82231,
-          "y": 1462,
+          "x": 82212,
+          "y": 2310,
           "id": "7974f18b-313a-4f89-a58c-b24a8ee223f3673431"
         },
         "e9cfa921-21b0-4a6b-aa40-45ce1463cf0e673431": {
@@ -13610,8 +12940,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 82220,
-          "y": 1487,
+          "x": 82201,
+          "y": 2335,
           "id": "e9cfa921-21b0-4a6b-aa40-45ce1463cf0e673431"
         },
         "31fb0461-1908-49c2-8921-6cb8e1b42af5673431": {
@@ -13639,8 +12969,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 82242,
-          "y": 1512,
+          "x": 82223,
+          "y": 2360,
           "id": "31fb0461-1908-49c2-8921-6cb8e1b42af5673431"
         },
         "00a3ee35-7088-49a7-96de-afd66e696112673431": {
@@ -13668,8 +12998,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 82244,
-          "y": 1537,
+          "x": 82225,
+          "y": 2385,
           "id": "00a3ee35-7088-49a7-96de-afd66e696112673431"
         },
         "5bb1563c-775c-4e02-8c08-8a53748f84b2673431": {
@@ -13697,8 +13027,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 82222,
-          "y": 1562,
+          "x": 82203,
+          "y": 2410,
           "id": "5bb1563c-775c-4e02-8c08-8a53748f84b2673431"
         },
         "24b108fe-aa2a-4e47-bc34-e504bf6fd7bd673431": {
@@ -13726,8 +13056,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 82213,
-          "y": 1587,
+          "x": 82194,
+          "y": 2435,
           "id": "24b108fe-aa2a-4e47-bc34-e504bf6fd7bd673431"
         },
         "3974d212-173c-4624-94c0-4df6ebf22f0b673431": {
@@ -13755,8 +13085,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 82241,
-          "y": 1612,
+          "x": 82222,
+          "y": 2460,
           "id": "3974d212-173c-4624-94c0-4df6ebf22f0b673431"
         },
         "294d7bcd-f7d6-4bb7-a6f3-f1740fabe7b7673431": {
@@ -13784,8 +13114,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 82227,
-          "y": 1637,
+          "x": 82208,
+          "y": 2485,
           "id": "294d7bcd-f7d6-4bb7-a6f3-f1740fabe7b7673431"
         },
         "6707cda3-4df4-49dc-934b-0a7373752a29673431": {
@@ -13813,8 +13143,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 82249,
-          "y": 1662,
+          "x": 82230,
+          "y": 2510,
           "id": "6707cda3-4df4-49dc-934b-0a7373752a29673431"
         },
         "3d4e5982-4060-405a-8a32-3c0950e6344d673431": {
@@ -13842,8 +13172,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 82213,
-          "y": 1687,
+          "x": 82194,
+          "y": 2535,
           "id": "3d4e5982-4060-405a-8a32-3c0950e6344d673431"
         },
         "c4060f5e-1e93-4f41-87ff-0fd5097fd466673431": {
@@ -13871,8 +13201,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 82252,
-          "y": 1712,
+          "x": 82233,
+          "y": 2560,
           "id": "c4060f5e-1e93-4f41-87ff-0fd5097fd466673431"
         },
         "f8f305c2-963c-4a5e-a602-d961cede3e67673431": {
@@ -13900,8 +13230,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 82002,
-          "y": 1837,
+          "x": 81983,
+          "y": 2685,
           "id": "f8f305c2-963c-4a5e-a602-d961cede3e67673431"
         },
         "544cab6c-3080-4683-8d30-4377dff9b557673431": {
@@ -13929,8 +13259,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 82006,
-          "y": 2000,
+          "x": 81987,
+          "y": 2848,
           "id": "544cab6c-3080-4683-8d30-4377dff9b557673431"
         },
         "b68c3d2e-6ec6-46c1-a48f-0124fc60a8b6673431": {
@@ -13958,8 +13288,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 81993,
-          "y": 2193,
+          "x": 81974,
+          "y": 3041,
           "id": "b68c3d2e-6ec6-46c1-a48f-0124fc60a8b6673431"
         },
         "18e5ccae-18fc-47d7-b477-869e4f6b6695673431": {
@@ -13990,8 +13320,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Карты программного кода",
-          "x": 82006,
-          "y": 13425,
+          "x": 81987,
+          "y": 14273,
           "id": "18e5ccae-18fc-47d7-b477-869e4f6b6695673431",
           "shape": "box",
           "link": "",
@@ -14022,8 +13352,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 82561,
-          "y": 13869,
+          "x": 82542,
+          "y": 14717,
           "id": "1704383b-3fe2-4770-b7ff-e847fe5b74dc673431"
         },
         "ba544b69-0857-4626-a5a8-2dbda6daa8fa673431": {
@@ -14054,8 +13384,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
-          "x": 82832,
-          "y": 13869,
+          "x": 82813,
+          "y": 14717,
           "id": "ba544b69-0857-4626-a5a8-2dbda6daa8fa673431",
           "shape": "box",
           "link": "",
@@ -14086,8 +13416,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 82711,
-          "y": 13869,
+          "x": 82692,
+          "y": 14717,
           "id": "bb5a3df0-cd10-43c6-a426-f5882f5e09f4673431"
         },
         "1165ae1d-393f-448c-886d-eda66410f74a673431": {
@@ -14115,8 +13445,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 82561,
-          "y": 13019,
+          "x": 82542,
+          "y": 13867,
           "id": "1165ae1d-393f-448c-886d-eda66410f74a673431"
         },
         "0f1c6f59-dfac-430c-b42e-085e62d58b0f673431": {
@@ -14144,8 +13474,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 82715,
-          "y": 12548,
+          "x": 82696,
+          "y": 13396,
           "id": "0f1c6f59-dfac-430c-b42e-085e62d58b0f673431"
         },
         "60f2d9a2-de41-4bf5-b993-b6c870f43400673431": {
@@ -14173,8 +13503,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 82711,
-          "y": 13019,
+          "x": 82692,
+          "y": 13867,
           "id": "60f2d9a2-de41-4bf5-b993-b6c870f43400673431"
         },
         "11b7823a-4fb5-4acd-97bb-141244950a02673431": {
@@ -14202,8 +13532,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 82711,
-          "y": 13269,
+          "x": 82692,
+          "y": 14117,
           "id": "11b7823a-4fb5-4acd-97bb-141244950a02673431"
         },
         "b3491a37-06cb-47de-979f-0c8b1365b0e9673431": {
@@ -14231,8 +13561,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 82775,
-          "y": 13119,
+          "x": 82756,
+          "y": 13967,
           "id": "b3491a37-06cb-47de-979f-0c8b1365b0e9673431"
         },
         "eaf16b4b-dd4c-4f94-93c3-a7caafe19af3673431": {
@@ -14260,8 +13590,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 82806,
-          "y": 13144,
+          "x": 82787,
+          "y": 13992,
           "id": "eaf16b4b-dd4c-4f94-93c3-a7caafe19af3673431"
         },
         "29eade01-7ee1-4b36-8ad3-1f0c2cf995c2673431": {
@@ -14289,8 +13619,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 82771,
-          "y": 13169,
+          "x": 82752,
+          "y": 14017,
           "id": "29eade01-7ee1-4b36-8ad3-1f0c2cf995c2673431"
         },
         "9e1db631-16ef-47c4-a828-e6000749f73b673431": {
@@ -14318,8 +13648,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 82790,
-          "y": 13194,
+          "x": 82771,
+          "y": 14042,
           "id": "9e1db631-16ef-47c4-a828-e6000749f73b673431"
         },
         "c8a04a4d-001f-4dbf-94f1-4ad0982735fb673431": {
@@ -14347,8 +13677,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 82779,
-          "y": 13219,
+          "x": 82760,
+          "y": 14067,
           "id": "c8a04a4d-001f-4dbf-94f1-4ad0982735fb673431"
         },
         "a1669b83-07bd-4b30-919c-93b3bc64a75e673431": {
@@ -14376,8 +13706,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 82801,
-          "y": 13244,
+          "x": 82782,
+          "y": 14092,
           "id": "a1669b83-07bd-4b30-919c-93b3bc64a75e673431"
         },
         "f775615c-40e2-4e5a-a127-be3160df6069673431": {
@@ -14405,8 +13735,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 82803,
-          "y": 13269,
+          "x": 82784,
+          "y": 14117,
           "id": "f775615c-40e2-4e5a-a127-be3160df6069673431"
         },
         "d29c7bca-01b1-4f88-b465-fda42fba9987673431": {
@@ -14434,8 +13764,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 82781,
-          "y": 13294,
+          "x": 82762,
+          "y": 14142,
           "id": "d29c7bca-01b1-4f88-b465-fda42fba9987673431"
         },
         "77cf3de9-3c33-4b11-8875-a1b52d00b312673431": {
@@ -14463,8 +13793,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 82772,
-          "y": 13319,
+          "x": 82753,
+          "y": 14167,
           "id": "77cf3de9-3c33-4b11-8875-a1b52d00b312673431"
         },
         "88473b33-2a08-42ff-897e-fffc090a30c7673431": {
@@ -14492,8 +13822,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 82800,
-          "y": 13344,
+          "x": 82781,
+          "y": 14192,
           "id": "88473b33-2a08-42ff-897e-fffc090a30c7673431"
         },
         "d49e52e0-4f56-41ec-b0b1-cc9b86d88562673431": {
@@ -14521,8 +13851,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 82786,
-          "y": 13369,
+          "x": 82767,
+          "y": 14217,
           "id": "d49e52e0-4f56-41ec-b0b1-cc9b86d88562673431"
         },
         "ee365806-48b0-4565-b6d8-ed1549391fc6673431": {
@@ -14550,8 +13880,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 82808,
-          "y": 13394,
+          "x": 82789,
+          "y": 14242,
           "id": "ee365806-48b0-4565-b6d8-ed1549391fc6673431"
         },
         "ea9ae7f6-1489-466c-b4d1-a43519c0f009673431": {
@@ -14579,8 +13909,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 82772,
-          "y": 13419,
+          "x": 82753,
+          "y": 14267,
           "id": "ea9ae7f6-1489-466c-b4d1-a43519c0f009673431"
         },
         "b5929e45-60c7-4999-a367-56714094a864673431": {
@@ -14608,8 +13938,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 82811,
-          "y": 13444,
+          "x": 82792,
+          "y": 14292,
           "id": "b5929e45-60c7-4999-a367-56714094a864673431"
         },
         "22bead8f-a78d-4630-926b-5158f2b99d87673431": {
@@ -14637,8 +13967,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 82561,
-          "y": 13569,
+          "x": 82542,
+          "y": 14417,
           "id": "22bead8f-a78d-4630-926b-5158f2b99d87673431"
         },
         "a5bf367a-0d60-4392-9047-c134c893385e673431": {
@@ -14666,8 +13996,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 82561,
-          "y": 13669,
+          "x": 82542,
+          "y": 14517,
           "id": "a5bf367a-0d60-4392-9047-c134c893385e673431"
         },
         "bf39d10f-97ac-4cc7-9fec-eb3e97972330673431": {
@@ -14695,8 +14025,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 82561,
-          "y": 13769,
+          "x": 82542,
+          "y": 14617,
           "id": "bf39d10f-97ac-4cc7-9fec-eb3e97972330673431"
         },
         "65a326ea-1281-41f1-9352-6cb0a9e6a2c8673431": {
@@ -14728,8 +14058,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Bug: save nodes don't disappear after delete and page reload.",
           "id": "65a326ea-1281-41f1-9352-6cb0a9e6a2c8673431",
-          "x": 82707,
-          "y": 5048,
+          "x": 82688,
+          "y": 5896,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14761,8 +14091,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/19/2019",
-          "x": 82269,
-          "y": 5158,
+          "x": 82250,
+          "y": 6006,
           "id": "72a29b77-7945-40c7-aabf-56d95597916b559673431",
           "shape": "box",
           "link": "",
@@ -14794,8 +14124,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "id": "bbfa4068-4e91-4d81-aa66-b3a75c20e228263673431",
-          "x": 82425,
-          "y": 5156
+          "x": 82406,
+          "y": 6004
         },
         "d723c162-2431-49ca-b38c-70f18ac64ca1678673431": {
           "color": {
@@ -14826,8 +14156,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Nodes search",
           "id": "d723c162-2431-49ca-b38c-70f18ac64ca1678673431",
-          "x": 82553,
-          "y": 5156,
+          "x": 82534,
+          "y": 6004,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16073,8 +15403,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Перевод\nсхем",
-          "x": 82253,
-          "y": 8423,
+          "x": 82234,
+          "y": 9271,
           "id": "65bdae01-b779-49a8-bf27-bf9027950613431",
           "shape": "box",
           "link": "",
@@ -16103,8 +15433,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 82553,
-          "y": 8873,
+          "x": 82534,
+          "y": 9721,
           "id": "cbfcd0a3-2db1-4314-8b40-e81dda5a4a61431"
         },
         "21b17e12-af56-48de-9520-74ab7ef1f9c6431": {
@@ -16130,8 +15460,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/21/2019",
-          "x": 82749,
-          "y": 8871,
+          "x": 82730,
+          "y": 9719,
           "id": "21b17e12-af56-48de-9520-74ab7ef1f9c6431"
         },
         "7f7e15a7-7f6b-4609-ba38-5b711c7f789f431": {
@@ -16157,8 +15487,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 82869,
-          "y": 8871,
+          "x": 82850,
+          "y": 9719,
           "id": "7f7e15a7-7f6b-4609-ba38-5b711c7f789f431"
         },
         "7fea0cba-8194-4888-87d3-047f1c2fa116431": {
@@ -16184,8 +15514,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 82553,
-          "y": 8023,
+          "x": 82534,
+          "y": 8871,
           "id": "7fea0cba-8194-4888-87d3-047f1c2fa116431"
         },
         "52fcaddc-b3f2-4816-a836-26970d8b8a57431": {
@@ -16211,8 +15541,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 82703,
-          "y": 7773,
+          "x": 82684,
+          "y": 8621,
           "id": "52fcaddc-b3f2-4816-a836-26970d8b8a57431"
         },
         "5f5f9555-b834-478d-9528-8c5383628db2431": {
@@ -16238,8 +15568,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 82703,
-          "y": 8023,
+          "x": 82684,
+          "y": 8871,
           "id": "5f5f9555-b834-478d-9528-8c5383628db2431"
         },
         "d1144991-deec-4f98-9438-d6b89a52722c431": {
@@ -16265,8 +15595,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 82703,
-          "y": 8273,
+          "x": 82684,
+          "y": 9121,
           "id": "d1144991-deec-4f98-9438-d6b89a52722c431"
         },
         "1cd9cde5-7ccf-45fc-a378-3de0cf740d79431": {
@@ -16292,8 +15622,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 82767,
-          "y": 8123,
+          "x": 82748,
+          "y": 8971,
           "id": "1cd9cde5-7ccf-45fc-a378-3de0cf740d79431"
         },
         "03c0061f-5c90-4f20-8c98-059c44b51778431": {
@@ -16319,8 +15649,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 82798,
-          "y": 8148,
+          "x": 82779,
+          "y": 8996,
           "id": "03c0061f-5c90-4f20-8c98-059c44b51778431"
         },
         "090523b1-c1f4-4a4e-8964-cd8176449a6a431": {
@@ -16346,8 +15676,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 82763,
-          "y": 8173,
+          "x": 82744,
+          "y": 9021,
           "id": "090523b1-c1f4-4a4e-8964-cd8176449a6a431"
         },
         "4cc13894-0e93-4073-a2bd-4ad33a644136431": {
@@ -16373,8 +15703,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 82782,
-          "y": 8198,
+          "x": 82763,
+          "y": 9046,
           "id": "4cc13894-0e93-4073-a2bd-4ad33a644136431"
         },
         "48d20873-bfc2-4649-a9d3-162ef2170941431": {
@@ -16400,8 +15730,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 82771,
-          "y": 8223,
+          "x": 82752,
+          "y": 9071,
           "id": "48d20873-bfc2-4649-a9d3-162ef2170941431"
         },
         "55e0a123-ae6a-41a2-85ab-f734ad624ce5431": {
@@ -16427,8 +15757,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 82793,
-          "y": 8248,
+          "x": 82774,
+          "y": 9096,
           "id": "55e0a123-ae6a-41a2-85ab-f734ad624ce5431"
         },
         "35912118-3e92-43e1-9dd2-15a262c64928431": {
@@ -16454,8 +15784,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 82795,
-          "y": 8273,
+          "x": 82776,
+          "y": 9121,
           "id": "35912118-3e92-43e1-9dd2-15a262c64928431"
         },
         "07cbcd14-3571-4867-b45b-85583c17a895431": {
@@ -16481,8 +15811,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 82773,
-          "y": 8298,
+          "x": 82754,
+          "y": 9146,
           "id": "07cbcd14-3571-4867-b45b-85583c17a895431"
         },
         "927afd8a-418d-4a2f-a2a8-26ba39fa4e71431": {
@@ -16508,8 +15838,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 82764,
-          "y": 8323,
+          "x": 82745,
+          "y": 9171,
           "id": "927afd8a-418d-4a2f-a2a8-26ba39fa4e71431"
         },
         "8f30ecae-8c53-4af2-b348-5616dee5138c431": {
@@ -16535,8 +15865,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 82792,
-          "y": 8348,
+          "x": 82773,
+          "y": 9196,
           "id": "8f30ecae-8c53-4af2-b348-5616dee5138c431"
         },
         "93d63b38-55a7-4525-bee3-3aed8054d195431": {
@@ -16562,8 +15892,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 82778,
-          "y": 8373,
+          "x": 82759,
+          "y": 9221,
           "id": "93d63b38-55a7-4525-bee3-3aed8054d195431"
         },
         "0ecf3e03-6c38-4d08-bfce-4256cbee900f431": {
@@ -16589,8 +15919,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 82800,
-          "y": 8398,
+          "x": 82781,
+          "y": 9246,
           "id": "0ecf3e03-6c38-4d08-bfce-4256cbee900f431"
         },
         "977212bb-d18d-4fdf-9bd1-e5a235dc1836431": {
@@ -16616,8 +15946,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 82764,
-          "y": 8423,
+          "x": 82745,
+          "y": 9271,
           "id": "977212bb-d18d-4fdf-9bd1-e5a235dc1836431"
         },
         "d1817121-dd58-4a2a-bf6a-ab4c51bb2334431": {
@@ -16643,8 +15973,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 82803,
-          "y": 8448,
+          "x": 82784,
+          "y": 9296,
           "id": "d1817121-dd58-4a2a-bf6a-ab4c51bb2334431"
         },
         "6dfec417-d1b3-44f3-a455-3a925890742b431": {
@@ -16670,8 +16000,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 82553,
-          "y": 8573,
+          "x": 82534,
+          "y": 9421,
           "id": "6dfec417-d1b3-44f3-a455-3a925890742b431"
         },
         "8dc5351b-9361-41d0-9161-d361b6272b7c431": {
@@ -16697,8 +16027,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 82553,
-          "y": 8673,
+          "x": 82534,
+          "y": 9521,
           "id": "8dc5351b-9361-41d0-9161-d361b6272b7c431"
         },
         "627cfef5-a735-45a5-bdb5-ccf4f7246234431": {
@@ -16724,8 +16054,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 82553,
-          "y": 8773,
+          "x": 82534,
+          "y": 9621,
           "id": "627cfef5-a735-45a5-bdb5-ccf4f7246234431"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673546431": {
@@ -16757,8 +16087,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Перевод\nсхем",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673546431",
-          "x": 86793,
-          "y": 8590,
+          "x": 86774,
+          "y": 9438,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16789,8 +16119,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vim regexes",
           "id": "a78b241c-9214-43ba-9441-5ac8a68d24ad36819",
-          "x": 116342,
-          "y": -10032
+          "x": 111000,
+          "y": -9460
         },
         "aa0764f4-1bfc-455b-9c84-8f88dc928c9136819": {
           "color": {
@@ -16819,8 +16149,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Edit text befor import\nas nodes",
           "id": "aa0764f4-1bfc-455b-9c84-8f88dc928c9136819",
-          "x": 116149,
-          "y": -10027,
+          "x": 110807,
+          "y": -9455,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16851,8 +16181,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "%s/\\(.\\{-}\\), \\(.*\\)/\\1\\r\\2/g",
           "id": "e725d3fe-e16e-4b14-8950-a7402586945836819",
-          "x": 116546,
-          "y": -10025
+          "x": 111204,
+          "y": -9453
         },
         "1f70789f-57ab-4f62-82b2-62f79427ef2636819": {
           "color": {
@@ -16881,8 +16211,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "new line by first comma",
           "id": "1f70789f-57ab-4f62-82b2-62f79427ef2636819",
-          "x": 116768,
-          "y": -10025,
+          "x": 111426,
+          "y": -9453,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16916,8 +16246,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Group nodes operations\ncode snippets.",
           "id": "901aab7c-7285-4ad1-8f46-e6cede12355f36819",
-          "x": 116160,
-          "y": -9889,
+          "x": 110818,
+          "y": -9317,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16949,8 +16279,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes)",
           "id": "54f4f2f1-b816-412d-a39b-e9d75b4e246a36819",
-          "x": 116605,
-          "y": -9957,
+          "x": 111263,
+          "y": -9385,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16984,8 +16314,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "selectedNodes.forEach(function(n) {\nvar node = network.body.data.nodes.get(n.id);\nconsole.log(node);\nnode.link=\"some_link\";\nnetwork.body.data.nodes.update(node);\n});",
           "id": "d839f62d-df50-4e2f-8f05-b60e71f1a38d36819",
-          "x": 116493,
-          "y": -9870,
+          "x": 111151,
+          "y": -9298,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16994,7 +16324,8 @@ var schemeData =
           "color": {
             "highlight": {},
             "hover": {},
-            "background": "red"
+            "background": "red",
+            "border": ""
           },
           "fixed": {},
           "font": {
@@ -17017,9 +16348,9 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "How to work with schemes\non mm-vis-js canvas",
-          "x": 115029,
-          "y": -9110,
+          "label": "How to work with\nschemes on\nmm-vis-js canvas",
+          "x": 109687,
+          "y": -8538,
           "id": "f7a6d7a0-c0a3-408c-810c-56303babed7736819",
           "shape": "box",
           "link": "",
@@ -17050,8 +16381,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 115750,
-          "y": -8643,
+          "x": 110408,
+          "y": -8071,
           "id": "94821b7c-d6f0-4095-a834-bc1607785cc736819"
         },
         "3aab07a8-c83c-42b5-9675-4592c8768c0e36819": {
@@ -17079,8 +16410,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/12/2019",
-          "x": 116000,
-          "y": -8643,
+          "x": 110658,
+          "y": -8071,
           "id": "3aab07a8-c83c-42b5-9675-4592c8768c0e36819"
         },
         "d250c40a-f442-4516-b822-f1393a6898b336819": {
@@ -17108,8 +16439,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 115900,
-          "y": -8643,
+          "x": 110558,
+          "y": -8071,
           "id": "d250c40a-f442-4516-b822-f1393a6898b336819"
         },
         "5d497d7e-3ed2-48a0-a64b-d03ac83c3a7236819": {
@@ -17137,8 +16468,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 115750,
-          "y": -9493,
+          "x": 110408,
+          "y": -8921,
           "id": "5d497d7e-3ed2-48a0-a64b-d03ac83c3a7236819"
         },
         "d90f31a9-e49f-44e8-ba3b-f0907e0d1fbd36819": {
@@ -17166,8 +16497,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 115917,
-          "y": -10038,
+          "x": 110575,
+          "y": -9466,
           "id": "d90f31a9-e49f-44e8-ba3b-f0907e0d1fbd36819"
         },
         "2b4b95c1-5389-4ad4-a850-ab36b827a1ef36819": {
@@ -17195,8 +16526,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 115900,
-          "y": -9493,
+          "x": 110558,
+          "y": -8921,
           "id": "2b4b95c1-5389-4ad4-a850-ab36b827a1ef36819"
         },
         "b5659a12-bafe-4e2b-a9b6-000d705b30b436819": {
@@ -17224,8 +16555,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 115900,
-          "y": -9243,
+          "x": 110558,
+          "y": -8671,
           "id": "b5659a12-bafe-4e2b-a9b6-000d705b30b436819"
         },
         "c1ab8948-129f-44a6-8e86-d5567fc2da1a36819": {
@@ -17253,8 +16584,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 115964,
-          "y": -9393,
+          "x": 110622,
+          "y": -8821,
           "id": "c1ab8948-129f-44a6-8e86-d5567fc2da1a36819"
         },
         "44a68bf9-f1e9-4ba8-979c-2e065a069e9c36819": {
@@ -17282,8 +16613,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 115995,
-          "y": -9368,
+          "x": 110653,
+          "y": -8796,
           "id": "44a68bf9-f1e9-4ba8-979c-2e065a069e9c36819"
         },
         "4815436e-edb6-43f8-91d7-bdc5df1c873536819": {
@@ -17311,8 +16642,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 115960,
-          "y": -9343,
+          "x": 110618,
+          "y": -8771,
           "id": "4815436e-edb6-43f8-91d7-bdc5df1c873536819"
         },
         "efdbc55b-7d32-40e9-809a-8f0ae12dde2f36819": {
@@ -17340,8 +16671,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 115979,
-          "y": -9318,
+          "x": 110637,
+          "y": -8746,
           "id": "efdbc55b-7d32-40e9-809a-8f0ae12dde2f36819"
         },
         "0cd161fa-b4e2-4623-8b5f-9f4f8eb2f8dd36819": {
@@ -17369,8 +16700,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 115968,
-          "y": -9293,
+          "x": 110626,
+          "y": -8721,
           "id": "0cd161fa-b4e2-4623-8b5f-9f4f8eb2f8dd36819"
         },
         "18147dec-0ca6-4b7a-b276-746870d5261236819": {
@@ -17398,8 +16729,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 115990,
-          "y": -9268,
+          "x": 110648,
+          "y": -8696,
           "id": "18147dec-0ca6-4b7a-b276-746870d5261236819"
         },
         "3118dff1-882b-4f81-a3b4-caff866620c236819": {
@@ -17427,8 +16758,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 115992,
-          "y": -9243,
+          "x": 110650,
+          "y": -8671,
           "id": "3118dff1-882b-4f81-a3b4-caff866620c236819"
         },
         "e9b2257f-6381-4810-8df4-9af6da64c28a36819": {
@@ -17456,8 +16787,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 115970,
-          "y": -9218,
+          "x": 110628,
+          "y": -8646,
           "id": "e9b2257f-6381-4810-8df4-9af6da64c28a36819"
         },
         "041da44a-5f85-4515-bb1e-8f681a02d26d36819": {
@@ -17485,8 +16816,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 115961,
-          "y": -9193,
+          "x": 110619,
+          "y": -8621,
           "id": "041da44a-5f85-4515-bb1e-8f681a02d26d36819"
         },
         "8ba2e055-7caf-402e-a6f8-0c154e92b67f36819": {
@@ -17514,8 +16845,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 115989,
-          "y": -9168,
+          "x": 110647,
+          "y": -8596,
           "id": "8ba2e055-7caf-402e-a6f8-0c154e92b67f36819"
         },
         "d206a6ca-f9a1-4296-91cf-b59aff3b447236819": {
@@ -17543,8 +16874,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 115975,
-          "y": -9143,
+          "x": 110633,
+          "y": -8571,
           "id": "d206a6ca-f9a1-4296-91cf-b59aff3b447236819"
         },
         "7c8721b9-fa13-4421-bc0b-4f124e9df66336819": {
@@ -17572,8 +16903,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 115997,
-          "y": -9118,
+          "x": 110655,
+          "y": -8546,
           "id": "7c8721b9-fa13-4421-bc0b-4f124e9df66336819"
         },
         "8e11eae9-0b5c-4f3d-a914-d0749119f62036819": {
@@ -17601,8 +16932,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 115961,
-          "y": -9093,
+          "x": 110619,
+          "y": -8521,
           "id": "8e11eae9-0b5c-4f3d-a914-d0749119f62036819"
         },
         "3ca92460-dd3b-41a2-bffe-908f33486fe336819": {
@@ -17630,8 +16961,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 116000,
-          "y": -9068,
+          "x": 110658,
+          "y": -8496,
           "id": "3ca92460-dd3b-41a2-bffe-908f33486fe336819"
         },
         "16f918a0-000f-4f18-958a-c5a7a58bd02436819": {
@@ -17659,8 +16990,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 115750,
-          "y": -8943,
+          "x": 110408,
+          "y": -8371,
           "id": "16f918a0-000f-4f18-958a-c5a7a58bd02436819"
         },
         "221b1475-d6f4-43d1-be40-c02fb677addf36819": {
@@ -17688,8 +17019,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 115750,
-          "y": -8843,
+          "x": 110408,
+          "y": -8271,
           "id": "221b1475-d6f4-43d1-be40-c02fb677addf36819"
         },
         "a314c3d9-0b2f-4a07-8212-f715e12da32336819": {
@@ -17717,44 +17048,9 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 115750,
-          "y": -8743,
+          "x": 110408,
+          "y": -8171,
           "id": "a314c3d9-0b2f-4a07-8212-f715e12da32336819"
-        },
-        "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931891702581322436819": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffc63b"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 1000,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "How to work with\nschemes on\nmm-vis-js canvas",
-          "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf21425993931891702581322436819",
-          "x": 121256,
-          "y": -8732,
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
         },
         "01c3934b-333e-4a1a-816c-ab4f6de443b319": {
           "color": {
@@ -17780,8 +17076,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Disclamer",
           "id": "01c3934b-333e-4a1a-816c-ab4f6de443b319",
-          "x": 116119,
-          "y": -10195
+          "x": 110777,
+          "y": -9623
         },
         "78a9356c-625a-4019-a424-b84f21bba8d119": {
           "color": {
@@ -17810,8 +17106,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Don't store any sensitive information in here.",
           "id": "78a9356c-625a-4019-a424-b84f21bba8d119",
-          "x": 116380,
-          "y": -10179,
+          "x": 111038,
+          "y": -9607,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17840,8 +17136,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "It is working prototype.",
           "id": "be550294-6652-4c52-b887-c7c9aa124e2219",
-          "x": 116311,
-          "y": -10209
+          "x": 110969,
+          "y": -9637
         },
         "9c358c29-6c95-429f-829f-6e93198d9c8c19": {
           "color": {
@@ -17870,16 +17166,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Start any new scheme with \"addThemeGraph\" template.",
           "id": "9c358c29-6c95-429f-829f-6e93198d9c8c19",
-          "x": 116262,
-          "y": -10109,
+          "x": 110920,
+          "y": -9537,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "2c38f6d8-2762-46c6-9db6-9bcfc4b78d8f": {
           "label": "mm-vis-js\nустановка",
-          "x": 81609,
-          "y": -2024,
+          "x": 81590,
+          "y": -1176,
           "font": {
             "size": 72,
             "align": "left"
@@ -17895,146 +17191,146 @@ var schemeData =
         },
         "2e99b315-ee70-4504-a49e-cce88631b249": {
           "label": "Development",
-          "x": 81909,
-          "y": -1574,
+          "x": 81890,
+          "y": -726,
           "id": "2e99b315-ee70-4504-a49e-cce88631b249"
         },
         "17662323-1cf2-49db-8348-504c13bfeacc": {
           "label": "12/20/2019",
-          "x": 82042,
-          "y": -1574,
+          "x": 82023,
+          "y": -726,
           "id": "17662323-1cf2-49db-8348-504c13bfeacc"
         },
         "2dcae0cc-b9b0-4e4f-9898-aae53c40141d": {
           "label": "init",
-          "x": 82159,
-          "y": -1574,
+          "x": 82140,
+          "y": -726,
           "id": "2dcae0cc-b9b0-4e4f-9898-aae53c40141d"
         },
         "5081cdf7-412c-43e6-bd93-f710c1b5677e": {
           "label": "Notes",
-          "x": 81917,
-          "y": -3068,
+          "x": 81898,
+          "y": -2220,
           "id": "5081cdf7-412c-43e6-bd93-f710c1b5677e"
         },
         "f88f36b0-7188-42ff-99d3-d5ca8ef5f2d5": {
           "label": "Dictionary of\nconcepts",
-          "x": 82093,
-          "y": -3964,
+          "x": 82074,
+          "y": -3116,
           "id": "f88f36b0-7188-42ff-99d3-d5ca8ef5f2d5"
         },
         "d12227ed-9822-4657-b91b-e20f06b81fc7": {
           "label": "Details, thoughts",
-          "x": 82093,
-          "y": -3147,
+          "x": 82074,
+          "y": -2299,
           "id": "d12227ed-9822-4657-b91b-e20f06b81fc7"
         },
         "5e3d6a72-d1b5-4eaf-a8dc-04c470275602": {
           "label": "Sections",
-          "x": 82033,
-          "y": -2174,
+          "x": 82014,
+          "y": -1326,
           "id": "5e3d6a72-d1b5-4eaf-a8dc-04c470275602"
         },
         "c3d0f4b2-8783-4388-9da0-11571bdf98a7": {
           "label": "Books",
-          "x": 82123,
-          "y": -2324,
+          "x": 82104,
+          "y": -1476,
           "id": "c3d0f4b2-8783-4388-9da0-11571bdf98a7"
         },
         "13201123-7f79-464b-a08a-8b376295226a": {
           "label": "R&D institutions",
-          "x": 82154,
-          "y": -2299,
+          "x": 82135,
+          "y": -1451,
           "id": "13201123-7f79-464b-a08a-8b376295226a"
         },
         "dbf7c7f3-5c32-4fbc-8031-73d09e81d426": {
           "label": "Sites",
-          "x": 82119,
-          "y": -2274,
+          "x": 82100,
+          "y": -1426,
           "id": "dbf7c7f3-5c32-4fbc-8031-73d09e81d426"
         },
         "5a4494b4-5603-472d-9f43-d86a48cbaf4c": {
           "label": "Magazines",
-          "x": 82138,
-          "y": -2249,
+          "x": 82119,
+          "y": -1401,
           "id": "5a4494b4-5603-472d-9f43-d86a48cbaf4c"
         },
         "9f259a5b-e84f-45d4-98e0-e959326ce893": {
           "label": "Articles",
-          "x": 82127,
-          "y": -2224,
+          "x": 82108,
+          "y": -1376,
           "id": "9f259a5b-e84f-45d4-98e0-e959326ce893"
         },
         "736f4578-1db3-4fe1-bb1a-08ad7e0a824b": {
           "label": "Media content",
-          "x": 82149,
-          "y": -2199,
+          "x": 82130,
+          "y": -1351,
           "id": "736f4578-1db3-4fe1-bb1a-08ad7e0a824b"
         },
         "480f9246-c642-495f-8c58-b8e6c60cd4ce": {
           "label": "Misc. web links",
-          "x": 82151,
-          "y": -2174,
+          "x": 82132,
+          "y": -1326,
           "id": "480f9246-c642-495f-8c58-b8e6c60cd4ce"
         },
         "bc0fbe6f-f580-4c3d-a761-a406c441dc04": {
           "label": "Projects",
-          "x": 82129,
-          "y": -2149,
+          "x": 82110,
+          "y": -1301,
           "id": "bc0fbe6f-f580-4c3d-a761-a406c441dc04"
         },
         "656de950-502a-48a8-9261-64ba0fb95422": {
           "label": "Tools",
-          "x": 82120,
-          "y": -2124,
+          "x": 82101,
+          "y": -1276,
           "id": "656de950-502a-48a8-9261-64ba0fb95422"
         },
         "360e1fe9-36da-46bd-b248-d7cca7709e73": {
           "label": "Organizations",
-          "x": 82148,
-          "y": -2099,
+          "x": 82129,
+          "y": -1251,
           "id": "360e1fe9-36da-46bd-b248-d7cca7709e73"
         },
         "76705931-c971-4edc-a8dc-6fe7edb05a60": {
           "label": "Standarts",
-          "x": 82134,
-          "y": -2074,
+          "x": 82115,
+          "y": -1226,
           "id": "76705931-c971-4edc-a8dc-6fe7edb05a60"
         },
         "ab421a74-0819-46a8-a3ce-12a130e5e687": {
           "label": "Forums, Groups",
-          "x": 82156,
-          "y": -2049,
+          "x": 82137,
+          "y": -1201,
           "id": "ab421a74-0819-46a8-a3ce-12a130e5e687"
         },
         "5aedb381-0dc2-4ea4-b14d-ffe5b38259a3": {
           "label": "Laws",
-          "x": 82120,
-          "y": -2024,
+          "x": 82101,
+          "y": -1176,
           "id": "5aedb381-0dc2-4ea4-b14d-ffe5b38259a3"
         },
         "99d571e1-61bb-4f68-b9b3-60464a9eefa1": {
           "label": "Adjacent Themes",
-          "x": 82159,
-          "y": -1999,
+          "x": 82140,
+          "y": -1151,
           "id": "99d571e1-61bb-4f68-b9b3-60464a9eefa1"
         },
         "d02dcd4b-3411-40c3-81aa-4b867ce7587e": {
           "label": "Questions",
-          "x": 81899,
-          "y": -1874,
+          "x": 81880,
+          "y": -1026,
           "id": "d02dcd4b-3411-40c3-81aa-4b867ce7587e"
         },
         "de9af640-372c-4874-828b-22d609e928c6": {
           "label": "Problems",
-          "x": 81897,
-          "y": -1774,
+          "x": 81878,
+          "y": -926,
           "id": "de9af640-372c-4874-828b-22d609e928c6"
         },
         "49b7ec6d-c0a8-4bfd-96fe-dc082fce9b4e": {
           "label": "Goals",
-          "x": 81886,
-          "y": -1674,
+          "x": 81867,
+          "y": -826,
           "id": "49b7ec6d-c0a8-4bfd-96fe-dc082fce9b4e"
         },
         "7c785996-b5d2-4800-804e-63541d3fe704856673431998": {
@@ -18067,16 +17363,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js\nустановка",
           "id": "7c785996-b5d2-4800-804e-63541d3fe704856673431998",
-          "x": 87219,
-          "y": -3109,
+          "x": 87200,
+          "y": -2261,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "8f97ecee-b67b-4a00-9825-fdd71fab353d": {
           "label": "mm-vis-js\ninstall",
-          "x": 97273,
-          "y": -3538,
+          "x": 97254,
+          "y": -2690,
           "font": {
             "size": 72,
             "align": "left"
@@ -18092,146 +17388,146 @@ var schemeData =
         },
         "c297a45f-e83c-40f7-a8f6-cb11520ca535": {
           "label": "Development",
-          "x": 97573,
-          "y": -3088,
+          "x": 97554,
+          "y": -2240,
           "id": "c297a45f-e83c-40f7-a8f6-cb11520ca535"
         },
         "ad2b8474-a978-4150-b9f3-a4b318de72a5": {
           "label": "12/20/2019",
-          "x": 97706,
-          "y": -3088,
+          "x": 97687,
+          "y": -2240,
           "id": "ad2b8474-a978-4150-b9f3-a4b318de72a5"
         },
         "05ac2c5e-3c1c-4359-b425-0891fcce68f1": {
           "label": "init",
-          "x": 97823,
-          "y": -3088,
+          "x": 97804,
+          "y": -2240,
           "id": "05ac2c5e-3c1c-4359-b425-0891fcce68f1"
         },
         "9402a386-6aeb-4aca-b05e-2fa6ce1495f8": {
           "label": "Notes",
-          "x": 97550,
-          "y": -3938,
+          "x": 97531,
+          "y": -3090,
           "id": "9402a386-6aeb-4aca-b05e-2fa6ce1495f8"
         },
         "89dd3766-594d-4d70-9aef-f9300799ad93": {
           "label": "Dictionary of\nconcepts",
-          "x": 97710,
-          "y": -4188,
+          "x": 97691,
+          "y": -3340,
           "id": "89dd3766-594d-4d70-9aef-f9300799ad93"
         },
         "c722825e-d959-4d34-bc2f-cef8eaa66970": {
           "label": "Details, thoughts",
-          "x": 97723,
-          "y": -3938,
+          "x": 97704,
+          "y": -3090,
           "id": "c722825e-d959-4d34-bc2f-cef8eaa66970"
         },
         "03726e77-caf7-4032-8c90-9859be0ec429": {
           "label": "Sections",
-          "x": 97697,
-          "y": -3688,
+          "x": 97678,
+          "y": -2840,
           "id": "03726e77-caf7-4032-8c90-9859be0ec429"
         },
         "f5136394-de7a-43d3-bdf5-72bbcadf3176": {
           "label": "Books",
-          "x": 97787,
-          "y": -3838,
+          "x": 97768,
+          "y": -2990,
           "id": "f5136394-de7a-43d3-bdf5-72bbcadf3176"
         },
         "4246e594-0bac-4297-bc5a-4c401ba04a4a": {
           "label": "R&D institutions",
-          "x": 97818,
-          "y": -3813,
+          "x": 97799,
+          "y": -2965,
           "id": "4246e594-0bac-4297-bc5a-4c401ba04a4a"
         },
         "413f5b4c-8d05-4c25-8fce-c25fea9cd575": {
           "label": "Sites",
-          "x": 97783,
-          "y": -3788,
+          "x": 97764,
+          "y": -2940,
           "id": "413f5b4c-8d05-4c25-8fce-c25fea9cd575"
         },
         "74d2a4cb-f71a-4d77-8c7d-5c944057df12": {
           "label": "Magazines",
-          "x": 97802,
-          "y": -3763,
+          "x": 97783,
+          "y": -2915,
           "id": "74d2a4cb-f71a-4d77-8c7d-5c944057df12"
         },
         "50d895fe-304f-46ac-a5b7-2bc7b35c8c78": {
           "label": "Articles",
-          "x": 97791,
-          "y": -3738,
+          "x": 97772,
+          "y": -2890,
           "id": "50d895fe-304f-46ac-a5b7-2bc7b35c8c78"
         },
         "dd620335-5fff-409c-ac60-75ba0bf0ae91": {
           "label": "Media content",
-          "x": 97813,
-          "y": -3713,
+          "x": 97794,
+          "y": -2865,
           "id": "dd620335-5fff-409c-ac60-75ba0bf0ae91"
         },
         "506b0bfb-4756-49c1-b17a-8ec8be625d34": {
           "label": "Misc. web links",
-          "x": 97815,
-          "y": -3688,
+          "x": 97796,
+          "y": -2840,
           "id": "506b0bfb-4756-49c1-b17a-8ec8be625d34"
         },
         "9cce4db0-9f13-43ab-a4f4-73d2e7c4391f": {
           "label": "Projects",
-          "x": 97793,
-          "y": -3663,
+          "x": 97774,
+          "y": -2815,
           "id": "9cce4db0-9f13-43ab-a4f4-73d2e7c4391f"
         },
         "4f2ede40-3884-4ec5-a83b-7a45340a0cec": {
           "label": "Tools",
-          "x": 97784,
-          "y": -3638,
+          "x": 97765,
+          "y": -2790,
           "id": "4f2ede40-3884-4ec5-a83b-7a45340a0cec"
         },
         "32540f04-0df7-4050-b703-4219ee05f8a3": {
           "label": "Organizations",
-          "x": 97812,
-          "y": -3613,
+          "x": 97793,
+          "y": -2765,
           "id": "32540f04-0df7-4050-b703-4219ee05f8a3"
         },
         "b631f606-3fba-4aea-abba-1764e79663b7": {
           "label": "Standarts",
-          "x": 97798,
-          "y": -3588,
+          "x": 97779,
+          "y": -2740,
           "id": "b631f606-3fba-4aea-abba-1764e79663b7"
         },
         "b98438d2-c187-4cc0-86b4-85b210cc0c7d": {
           "label": "Forums, Groups",
-          "x": 97820,
-          "y": -3563,
+          "x": 97801,
+          "y": -2715,
           "id": "b98438d2-c187-4cc0-86b4-85b210cc0c7d"
         },
         "82c64917-b901-4ea3-b369-a5cbf3d2f88b": {
           "label": "Laws",
-          "x": 97784,
-          "y": -3538,
+          "x": 97765,
+          "y": -2690,
           "id": "82c64917-b901-4ea3-b369-a5cbf3d2f88b"
         },
         "d6309bb1-1061-4232-b3d9-804f65c42a00": {
           "label": "Adjacent Themes",
-          "x": 97823,
-          "y": -3513,
+          "x": 97804,
+          "y": -2665,
           "id": "d6309bb1-1061-4232-b3d9-804f65c42a00"
         },
         "b2303894-168a-4621-acca-a006d0ced9aa": {
           "label": "Questions",
-          "x": 97563,
-          "y": -3388,
+          "x": 97544,
+          "y": -2540,
           "id": "b2303894-168a-4621-acca-a006d0ced9aa"
         },
         "980f5be5-48c1-4c63-847b-dae474a3c8d9": {
           "label": "Problems",
-          "x": 97561,
-          "y": -3288,
+          "x": 97542,
+          "y": -2440,
           "id": "980f5be5-48c1-4c63-847b-dae474a3c8d9"
         },
         "b5ae6632-6f75-4c2e-a222-77d4a37ea15e": {
           "label": "Goals",
-          "x": 97550,
-          "y": -3188,
+          "x": 97531,
+          "y": -2340,
           "id": "b5ae6632-6f75-4c2e-a222-77d4a37ea15e"
         },
         "7c785996-b5d2-4800-804e-63541d3fe704856673431998540": {
@@ -18264,16 +17560,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js\ninstall",
           "id": "7c785996-b5d2-4800-804e-63541d3fe704856673431998540",
-          "x": 101811,
-          "y": -3561,
+          "x": 101792,
+          "y": -2713,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "86c2b017-02b9-4cd5-b4ec-d5949b2c4012": {
           "id": "86c2b017-02b9-4cd5-b4ec-d5949b2c4012",
-          "x": 82394,
-          "y": -3141,
+          "x": 82375,
+          "y": -2293,
           "label": "Одна из ключевых особенностей mm-vis-js в том,\nчто многими функциями можно пользоваться\nбез специальной процедуры установки.\n\nНо для полного функционала нужно  \nработать с страницами mm-vjs-js локально\nи запустить сервер mvj-serv.js",
           "shape": "box",
           "link": "",
@@ -18289,8 +17585,8 @@ var schemeData =
         },
         "8b2dc50d-6503-41d7-ac20-a219a467348e": {
           "id": "8b2dc50d-6503-41d7-ac20-a219a467348e",
-          "x": 82661,
-          "y": -3172,
+          "x": 82642,
+          "y": -2324,
           "label": "Объяснение",
           "shape": "box",
           "link": "",
@@ -18306,8 +17602,8 @@ var schemeData =
         },
         "bfb87867-d4e2-4837-960b-c8a2e30c2bef": {
           "id": "bfb87867-d4e2-4837-960b-c8a2e30c2bef",
-          "x": 82945,
-          "y": -3179,
+          "x": 82926,
+          "y": -2331,
           "label": "Просматривать и редактировать схемы можно \nна страницах mm-vis-js в инете.",
           "shape": "box",
           "link": "",
@@ -18323,14 +17619,14 @@ var schemeData =
         },
         "d2579a94-cdc7-4328-b9c2-155efad895d3": {
           "id": "d2579a94-cdc7-4328-b9c2-155efad895d3",
-          "x": 82987,
-          "y": -3108,
+          "x": 82968,
+          "y": -2260,
           "label": "Данные каждой схемы доступны в меню справа \"showData\""
         },
         "457dcfbd-7722-456f-8297-05d8e1985e54": {
           "id": "457dcfbd-7722-456f-8297-05d8e1985e54",
-          "x": 83486,
-          "y": -3108,
+          "x": 83467,
+          "y": -2260,
           "label": "Можно скопировать данные схемы (JSON-код), чтобы сохранить, например,\nлокально на своем компьютере в текстовом виде.",
           "shape": "box",
           "link": "",
@@ -18346,8 +17642,8 @@ var schemeData =
         },
         "9ab40610-9863-4eb5-9109-d407349a1177": {
           "id": "9ab40610-9863-4eb5-9109-d407349a1177",
-          "x": 83474,
-          "y": -3069,
+          "x": 83455,
+          "y": -2221,
           "label": "Можно исправить JSON-код на месте или вставить сохраненную версию",
           "shape": "box",
           "link": "",
@@ -18363,8 +17659,8 @@ var schemeData =
         },
         "f14840c7-25c8-4062-95e4-07df6f606e51": {
           "id": "f14840c7-25c8-4062-95e4-07df6f606e51",
-          "x": 83263,
-          "y": -3183,
+          "x": 83244,
+          "y": -2335,
           "label": "Но при обновлении страницы\nизменения не сохранятся.",
           "shape": "box",
           "link": "",
@@ -18380,8 +17676,8 @@ var schemeData =
         },
         "ba1b9fd1-9a41-4cdf-b021-6025ddf3d79c": {
           "id": "ba1b9fd1-9a41-4cdf-b021-6025ddf3d79c",
-          "x": 82961,
-          "y": -3007,
+          "x": 82942,
+          "y": -2159,
           "label": "Можно сохранить репозиторий mm-vis-js локально,\nто есть на свой комьютер.",
           "shape": "box",
           "link": "",
@@ -18397,32 +17693,32 @@ var schemeData =
         },
         "21c9c12b-eaea-4290-bea5-145e4588b385": {
           "id": "21c9c12b-eaea-4290-bea5-145e4588b385",
-          "x": 83355,
-          "y": -3004,
+          "x": 83336,
+          "y": -2156,
           "label": "Тогда можно открывать страницы в браузере\nи работать с ними также как в интернете"
         },
         "40b00a2b-a93d-459d-9b9a-682dd4b1a1fe": {
           "id": "40b00a2b-a93d-459d-9b9a-682dd4b1a1fe",
-          "x": 83722,
-          "y": -3003,
+          "x": 83703,
+          "y": -2155,
           "label": "При перезагрузке страниц их данные не сохранятся"
         },
         "be21887a-eea6-4873-9ce5-ffec4d97ab2a": {
           "id": "be21887a-eea6-4873-9ce5-ffec4d97ab2a",
-          "x": 83633,
-          "y": -3182,
+          "x": 83614,
+          "y": -2334,
           "label": "Эту проблему можно решить вручную сохраняя и вставляя\nданные схем в меню showData"
         },
         "2be2f6af-ba58-4223-a15a-280637080508": {
           "id": "2be2f6af-ba58-4223-a15a-280637080508",
-          "x": 83721,
-          "y": -2954,
+          "x": 83702,
+          "y": -2106,
           "label": "Проблемы сохранения данных можно решать также\nвручную работая с меню showData"
         },
         "22c489d3-e489-422a-8ce5-613ed0a90e52": {
           "id": "22c489d3-e489-422a-8ce5-613ed0a90e52",
-          "x": 83002,
-          "y": -2866,
+          "x": 82983,
+          "y": -2018,
           "label": "Чтобы пользоваться встроенной функцией сохранения данных\nна страницах mm-vis-js",
           "shape": "box",
           "link": "",
@@ -18439,8 +17735,8 @@ var schemeData =
         "843b3611-f578-4f45-8bce-dc69929b51e6": {
           "label": "нужно сохранить репозиторий mm-vis-js на комьютер и открывать страницы локально",
           "link": "",
-          "x": 83571,
-          "y": -2883,
+          "x": 83552,
+          "y": -2035,
           "id": "843b3611-f578-4f45-8bce-dc69929b51e6",
           "shape": "box",
           "font": {
@@ -18456,20 +17752,20 @@ var schemeData =
         "082fa43f-8e99-4084-9f3f-a14686faf894": {
           "label": "запустить сервер mvj-serv.js из директории mm-vis-js/utils/",
           "link": "",
-          "x": 83478,
-          "y": -2846,
+          "x": 83459,
+          "y": -1998,
           "id": "082fa43f-8e99-4084-9f3f-a14686faf894"
         },
         "19760088-02f8-4507-84cb-14ae4b58a9f3": {
           "id": "19760088-02f8-4507-84cb-14ae4b58a9f3",
-          "x": 83858,
-          "y": -2848,
+          "x": 83839,
+          "y": -2000,
           "label": "mvj-serv.js - программа на языке JavaScript"
         },
         "eba8920a-3ad7-496e-9b0a-4e081c176b19": {
           "id": "eba8920a-3ad7-496e-9b0a-4e081c176b19",
-          "x": 83912,
-          "y": -2810,
+          "x": 83893,
+          "y": -1962,
           "label": "mvj-serv.js запускается локально, в операционной системе,\nа не в браузере",
           "shape": "box",
           "link": "",
@@ -18485,8 +17781,8 @@ var schemeData =
         },
         "5f5b6ea7-b8c9-4778-9f2f-9b5e181e236c": {
           "id": "5f5b6ea7-b8c9-4778-9f2f-9b5e181e236c",
-          "x": 83865,
-          "y": -2766,
+          "x": 83846,
+          "y": -1918,
           "label": "Для работы mvj-serv.js ужно поставить nodejs",
           "shape": "box",
           "link": "",
@@ -18502,15 +17798,15 @@ var schemeData =
         },
         "e2178086-938b-4b7c-904c-a7bf8ddb420c": {
           "id": "e2178086-938b-4b7c-904c-a7bf8ddb420c",
-          "x": 84144,
-          "y": -2763,
+          "x": 84125,
+          "y": -1915,
           "label": "https://nodejs.org/",
           "link": "https://nodejs.org/"
         },
         "cc9ed0fa-086e-4311-ac4f-ecdb9638855f": {
           "id": "cc9ed0fa-086e-4311-ac4f-ecdb9638855f",
-          "x": 82354,
-          "y": -3963,
+          "x": 82335,
+          "y": -3115,
           "label": "Инструкция по установке mm-vis-js",
           "shape": "box",
           "link": "",
@@ -18526,32 +17822,32 @@ var schemeData =
         },
         "cda800cd-c84b-4419-9783-7d2ec20be452": {
           "id": "cda800cd-c84b-4419-9783-7d2ec20be452",
-          "x": 83102,
-          "y": -3960,
+          "x": 83083,
+          "y": -3112,
           "label": "git clone https://github.com/sushilshik/mm-vis-js.git"
         },
         "93331cfd-9ff6-48dc-8b39-295fffebf7d9": {
           "id": "93331cfd-9ff6-48dc-8b39-295fffebf7d9",
-          "x": 82752,
-          "y": -3962,
+          "x": 82733,
+          "y": -3114,
           "label": "Сохранить код проекта из репозитория"
         },
         "0ce3b46f-328d-4f5e-a03d-52d9e1bdb0b2": {
           "id": "0ce3b46f-328d-4f5e-a03d-52d9e1bdb0b2",
-          "x": 82328,
-          "y": -2729,
+          "x": 82309,
+          "y": -1881,
           "label": "Проект является прототипом"
         },
         "ecdf53aa-c881-4e73-9502-a3ed47da07d9": {
           "id": "ecdf53aa-c881-4e73-9502-a3ed47da07d9",
-          "x": 82670,
-          "y": -2724,
+          "x": 82651,
+          "y": -1876,
           "label": "Но разрабатывается так, что им уже можно пользоваться\nв ежедневной работе."
         },
         "57df677e-2f61-4173-a425-460892dfb171": {
           "id": "57df677e-2f61-4173-a425-460892dfb171",
-          "x": 83025,
-          "y": -2725,
+          "x": 83006,
+          "y": -1877,
           "label": "Ведение архива заметок и ссылок",
           "shape": "box",
           "link": "",
@@ -18567,45 +17863,45 @@ var schemeData =
         },
         "a8ea19c3-d1df-42ff-9e06-0a746ab797fd": {
           "id": "a8ea19c3-d1df-42ff-9e06-0a746ab797fd",
-          "x": 83105,
-          "y": -2691,
+          "x": 83086,
+          "y": -1843,
           "label": "Разработка кода mm-vis-js в схемах на странице mm-vis-js"
         },
         "76ca423c-0208-4fcc-ac82-c17fef873f40": {
           "id": "76ca423c-0208-4fcc-ac82-c17fef873f40",
-          "x": 83144,
-          "y": -2657,
+          "x": 83125,
+          "y": -1809,
           "label": "Работа с скриптами, которые можно запускать на страницах mm-vis-js"
         },
         "6e05f344-9a47-46ea-baf2-99f7000b8d6e": {
           "id": "6e05f344-9a47-46ea-baf2-99f7000b8d6e",
-          "x": 82358,
-          "y": -2560,
+          "x": 82339,
+          "y": -1712,
           "label": "Разработка пока идет только на Linux."
         },
         "b29c178e-fe19-41f6-ab46-b1eb86174981": {
           "id": "b29c178e-fe19-41f6-ab46-b1eb86174981",
-          "x": 82729,
-          "y": -2546,
+          "x": 82710,
+          "y": -1698,
           "label": "Все элементы проекта - кросплатформенные, поэтому\nпосле доработки и отладки все должно работать и на\nWindows, Mac."
         },
         "00835d5b-9fb3-4250-a256-46083a4932dc": {
           "id": "00835d5b-9fb3-4250-a256-46083a4932dc",
-          "x": 82685,
-          "y": -3915,
+          "x": 82666,
+          "y": -3067,
           "label": "Установить node.js"
         },
         "2824b9b9-c87d-4533-9597-96d9a3e7c5df": {
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df",
-          "x": 82835,
-          "y": -3911,
+          "x": 82816,
+          "y": -3063,
           "label": "Fedora"
         },
         "d610b996-fcad-4ea7-a404-83d9332ed203": {
           "label": "dnf install nodejs",
           "link": "",
-          "x": 82960,
-          "y": -3912,
+          "x": 82941,
+          "y": -3064,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed203",
           "color": {
             "highlight": {
@@ -18644,8 +17940,8 @@ var schemeData =
         },
         "392b4600-41f2-4011-9399-0441119b3ace": {
           "id": "392b4600-41f2-4011-9399-0441119b3ace",
-          "x": 82684,
-          "y": -3769,
+          "x": 82665,
+          "y": -2921,
           "label": "Установить Python",
           "shape": "box",
           "link": "",
@@ -18683,8 +17979,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Fedora",
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df125",
-          "x": 82833,
-          "y": -3770
+          "x": 82814,
+          "y": -2922
         },
         "d610b996-fcad-4ea7-a404-83d9332ed203125": {
           "color": {
@@ -18725,16 +18021,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "dnf install python python3",
           "link": "",
-          "x": 82984,
-          "y": -3770,
+          "x": 82965,
+          "y": -2922,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed203125",
           "shape": "box",
           "borderWidth": ""
         },
         "64e32ca8-0101-445b-8d0e-b9fdd1fd0248": {
           "id": "64e32ca8-0101-445b-8d0e-b9fdd1fd0248",
-          "x": 82684,
-          "y": -3725,
+          "x": 82665,
+          "y": -2877,
           "label": "Установить SymPy"
         },
         "2824b9b9-c87d-4533-9597-96d9a3e7c5df12569": {
@@ -18763,8 +18059,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Fedora",
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df12569",
-          "x": 82833,
-          "y": -3722
+          "x": 82814,
+          "y": -2874
         },
         "d610b996-fcad-4ea7-a404-83d9332ed20312569": {
           "color": {
@@ -18805,23 +18101,23 @@ var schemeData =
           "shapeProperties": {},
           "label": "dnf install sympy python3-sympy",
           "link": "",
-          "x": 83006,
-          "y": -3723,
+          "x": 82987,
+          "y": -2875,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed20312569",
           "shape": "box",
           "borderWidth": ""
         },
         "6c829389-38cc-4b28-854b-2aeca1bcb4c4": {
           "id": "6c829389-38cc-4b28-854b-2aeca1bcb4c4",
-          "x": 82972,
-          "y": -3874,
+          "x": 82953,
+          "y": -3026,
           "label": "Это основное требование для работы mvj-serv.js."
         },
         "3a64c130-1876-42b9-a41c-19ae64246490": {
           "label": "Достаточно чтобы работало сохранение схем\nи постройка проектов кода.",
           "link": "",
-          "x": 82960,
-          "y": -3834,
+          "x": 82941,
+          "y": -2986,
           "id": "3a64c130-1876-42b9-a41c-19ae64246490",
           "color": {
             "highlight": {
@@ -18890,8 +18186,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Установить TexLive",
           "id": "64e32ca8-0101-445b-8d0e-b9fdd1fd0248981",
-          "x": 82686,
-          "y": -3674,
+          "x": 82667,
+          "y": -2826,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -18922,8 +18218,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Fedora",
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df12569981",
-          "x": 82833,
-          "y": -3671
+          "x": 82814,
+          "y": -2823
         },
         "d610b996-fcad-4ea7-a404-83d9332ed20312569981": {
           "color": {
@@ -18964,8 +18260,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "dnf install texlive-full texlive-collection-latexextra texlive-amsmath tex-preview",
           "link": "",
-          "x": 83147,
-          "y": -3673,
+          "x": 83128,
+          "y": -2825,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed20312569981",
           "shape": "box",
           "borderWidth": ""
@@ -18998,8 +18294,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Установить Ruby",
           "id": "392b4600-41f2-4011-9399-0441119b3ace422",
-          "x": 82678,
-          "y": -3630,
+          "x": 82659,
+          "y": -2782,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -19030,8 +18326,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Fedora",
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df125422",
-          "x": 82833,
-          "y": -3631
+          "x": 82814,
+          "y": -2783
         },
         "d610b996-fcad-4ea7-a404-83d9332ed203125422": {
           "color": {
@@ -19072,16 +18368,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "dnf install ruby",
           "link": "",
-          "x": 82949,
-          "y": -3631,
+          "x": 82930,
+          "y": -2783,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed203125422",
           "shape": "box",
           "borderWidth": ""
         },
         "16f0e17f-3f43-4af6-bb15-175f56043486": {
           "id": "16f0e17f-3f43-4af6-bb15-175f56043486",
-          "x": 82314,
-          "y": -3354,
+          "x": 82295,
+          "y": -2506,
           "label": "Вопросы, техподдержка",
           "shape": "box",
           "link": "",
@@ -19097,41 +18393,41 @@ var schemeData =
         },
         "5000e6b4-652f-41bf-99ef-ed974dc9eb8d": {
           "id": "5000e6b4-652f-41bf-99ef-ed974dc9eb8d",
-          "x": 82931,
-          "y": -3387,
+          "x": 82912,
+          "y": -2539,
           "label": "https://www.facebook.com/mike.ahundov",
           "link": "https://www.facebook.com/mike.ahundov"
         },
         "879f7031-d698-45d3-8225-8e6ace9d8232": {
           "id": "879f7031-d698-45d3-8225-8e6ace9d8232",
-          "x": 82876,
-          "y": -3360,
+          "x": 82857,
+          "y": -2512,
           "label": "https://vk.com/ahundov",
           "link": "https://vk.com/ahundov"
         },
         "dec22996-c5a7-45e9-8100-97ffc9d014ef": {
           "id": "dec22996-c5a7-45e9-8100-97ffc9d014ef",
-          "x": 82655,
-          "y": -3376,
+          "x": 82636,
+          "y": -2528,
           "label": "Пишите"
         },
         "1cbc5c87-627f-4c72-b827-b7033d64312a": {
           "id": "1cbc5c87-627f-4c72-b827-b7033d64312a",
-          "x": 82691,
-          "y": -3582,
+          "x": 82672,
+          "y": -2734,
           "label": "Запустить mvj-serv.js"
         },
         "6d9619db-48e9-44e7-8151-25cd234cd943": {
           "id": "6d9619db-48e9-44e7-8151-25cd234cd943",
-          "x": 82873,
-          "y": -3582,
+          "x": 82854,
+          "y": -2734,
           "label": "cd ./mm-vis-js/utils"
         },
         "53973ec4-9114-46ae-90fd-7d4432633255": {
           "label": "node mvj-serv.js",
           "link": "",
-          "x": 82866,
-          "y": -3557,
+          "x": 82847,
+          "y": -2709,
           "id": "53973ec4-9114-46ae-90fd-7d4432633255",
           "color": {
             "highlight": {
@@ -19170,8 +18466,8 @@ var schemeData =
         },
         "f545dd1b-433d-4a18-8b64-066cda332f13": {
           "id": "f545dd1b-433d-4a18-8b64-066cda332f13",
-          "x": 82340,
-          "y": -3467,
+          "x": 82321,
+          "y": -2619,
           "label": "Инструкция по сборке mm-vis-js",
           "shape": "box",
           "link": "",
@@ -19187,8 +18483,8 @@ var schemeData =
         },
         "d0651135-bb8a-4c28-b846-903339cecfae": {
           "id": "d0651135-bb8a-4c28-b846-903339cecfae",
-          "x": 82893,
-          "y": -3469,
+          "x": 82874,
+          "y": -2621,
           "label": "смотрите на странице mm-vis-js_code.html в схеме mm-vis-js (наверху по центру).",
           "shape": "box",
           "link": "",
@@ -19204,8 +18500,8 @@ var schemeData =
         },
         "a08cf0b6-be28-4c29-a931-a0109e438ad9": {
           "id": "a08cf0b6-be28-4c29-a931-a0109e438ad9",
-          "x": 83289,
-          "y": -3468,
+          "x": 83270,
+          "y": -2620,
           "label": "mm-vis-js_code.html",
           "shape": "box",
           "link": "mm-vis-js_code.html",
@@ -19221,8 +18517,8 @@ var schemeData =
         },
         "2d141747-1b21-4d56-bcc8-57f732cd1d1b": {
           "id": "2d141747-1b21-4d56-bcc8-57f732cd1d1b",
-          "x": 82758,
-          "y": -3318,
+          "x": 82739,
+          "y": -2470,
           "label": "Техподдержка без гарантий, еще бы =)"
         },
         "b0ab9a5c-3969-4305-b107-d656ef662765147138": {
@@ -21079,27 +20375,808 @@ var schemeData =
         },
         "6d6541f1-c62a-463d-8646-f71b80f04bd3": {
           "id": "6d6541f1-c62a-463d-8646-f71b80f04bd3",
-          "x": 98365,
-          "y": 3558,
+          "x": 98346,
+          "y": 4406,
           "label": "Use cases"
         },
         "dfad7933-3ecb-4de2-9299-f93eeb097950": {
           "id": "dfad7933-3ecb-4de2-9299-f93eeb097950",
-          "x": 99158,
-          "y": 3550,
+          "x": 99139,
+          "y": 4398,
           "label": "[protege-user] visualization of ontology"
         },
         "c07f1165-6f39-49f7-ad5e-1212ae16a090": {
           "id": "c07f1165-6f39-49f7-ad5e-1212ae16a090",
-          "x": 98569,
-          "y": 3551,
+          "x": 98550,
+          "y": 4399,
           "label": "protege-user@lists.stanford.edu"
         },
         "602df00a-7651-427c-b508-c9b7ff32ff1b": {
           "id": "602df00a-7651-427c-b508-c9b7ff32ff1b",
-          "x": 98845,
-          "y": 3556,
+          "x": 98826,
+          "y": 4404,
           "label": "Mon, 16 Dec 2019 23:38:23 -0600 (CST)"
+        },
+        "03b1222d-b3ea-402e-9a73-8cb561bb6bf6": {
+          "id": "03b1222d-b3ea-402e-9a73-8cb561bb6bf6",
+          "x": 122621,
+          "y": -1284,
+          "label": ""
+        },
+        "37041d0a-9ac1-464d-916a-381c09d80587": {
+          "id": "37041d0a-9ac1-464d-916a-381c09d80587",
+          "x": 116241,
+          "y": -8263,
+          "label": "How to work with\nschemes on\nmm-vis-js canvas",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 1000,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6a84da71-d158-4664-bf02-08052201778c": {
+          "label": "How to use\nmm-vis-js",
+          "x": 97228,
+          "y": -7982,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "6a84da71-d158-4664-bf02-08052201778c",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "2c3add6e-c2c5-4a2d-8311-545af4f5eb8b": {
+          "label": "Development",
+          "x": 97528,
+          "y": -7532,
+          "id": "2c3add6e-c2c5-4a2d-8311-545af4f5eb8b"
+        },
+        "296e452e-bba4-4e72-8b19-e54632d8c7cd": {
+          "label": "11/01/2019",
+          "x": 97673,
+          "y": -7532,
+          "id": "296e452e-bba4-4e72-8b19-e54632d8c7cd",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "59c2db7b-a8db-4476-94b2-1dd77206b608": {
+          "label": "init",
+          "x": 97778,
+          "y": -7532,
+          "id": "59c2db7b-a8db-4476-94b2-1dd77206b608"
+        },
+        "0783fb9e-8968-42a2-bf0b-56d643a14a06": {
+          "label": "Notes",
+          "x": 97504,
+          "y": -8382,
+          "id": "0783fb9e-8968-42a2-bf0b-56d643a14a06"
+        },
+        "c8637b71-eb8b-44d0-98e4-e44193accf72": {
+          "label": "Dictionary of\nconcepts",
+          "x": 97707,
+          "y": -9210,
+          "id": "c8637b71-eb8b-44d0-98e4-e44193accf72"
+        },
+        "f953a5ff-4679-4ced-af6a-cab0bf0e6b03": {
+          "label": "Details, thoughts",
+          "x": 97678,
+          "y": -8382,
+          "id": "f953a5ff-4679-4ced-af6a-cab0bf0e6b03"
+        },
+        "8319642e-f9c3-48f6-9cf1-a226521600e2": {
+          "label": "Sections",
+          "x": 97652,
+          "y": -8132,
+          "id": "8319642e-f9c3-48f6-9cf1-a226521600e2"
+        },
+        "c3d9140a-72b0-428d-b7c7-a9aba10058dc": {
+          "label": "Books",
+          "x": 97742,
+          "y": -8282,
+          "id": "c3d9140a-72b0-428d-b7c7-a9aba10058dc"
+        },
+        "040a5e73-fef6-448e-a114-2a8207f38ee7": {
+          "label": "R&D institutions",
+          "x": 97772,
+          "y": -8257,
+          "id": "040a5e73-fef6-448e-a114-2a8207f38ee7"
+        },
+        "140b3890-b199-4aa4-a92d-ccd8420d34bd": {
+          "label": "Sites",
+          "x": 97738,
+          "y": -8232,
+          "id": "140b3890-b199-4aa4-a92d-ccd8420d34bd"
+        },
+        "cb7eca3a-f9ff-47a8-981d-1cc1d8a6e2ea": {
+          "label": "Magazines",
+          "x": 97757,
+          "y": -8207,
+          "id": "cb7eca3a-f9ff-47a8-981d-1cc1d8a6e2ea"
+        },
+        "7821da4b-cc51-4471-a3a7-f1f21eb21f84": {
+          "label": "Articles",
+          "x": 97745,
+          "y": -8182,
+          "id": "7821da4b-cc51-4471-a3a7-f1f21eb21f84"
+        },
+        "ee8e274c-ee0b-4e9f-b209-f02ae5425971": {
+          "label": "Media content",
+          "x": 97767,
+          "y": -8157,
+          "id": "ee8e274c-ee0b-4e9f-b209-f02ae5425971"
+        },
+        "4357db3a-8447-46b8-a892-a60ad6034e5e": {
+          "label": "Misc. web links",
+          "x": 97770,
+          "y": -8132,
+          "id": "4357db3a-8447-46b8-a892-a60ad6034e5e"
+        },
+        "9f7340b7-52e1-46cd-9dd5-bc768d511370": {
+          "label": "Projects",
+          "x": 97748,
+          "y": -8107,
+          "id": "9f7340b7-52e1-46cd-9dd5-bc768d511370"
+        },
+        "3eb23cc0-01a0-4d8f-8b0e-eb2bda37ab39": {
+          "label": "Tools",
+          "x": 97739,
+          "y": -8082,
+          "id": "3eb23cc0-01a0-4d8f-8b0e-eb2bda37ab39"
+        },
+        "7b9232b1-a12a-4fe6-b67a-d21a1a6bcbd9": {
+          "label": "Organizations",
+          "x": 97766,
+          "y": -8057,
+          "id": "7b9232b1-a12a-4fe6-b67a-d21a1a6bcbd9"
+        },
+        "430bf543-91f6-4207-ae32-6876d0a88773": {
+          "label": "Standarts",
+          "x": 97753,
+          "y": -8032,
+          "id": "430bf543-91f6-4207-ae32-6876d0a88773"
+        },
+        "b20303ad-d34b-45e0-bb80-9e251e0cff41": {
+          "label": "Forums, Groups",
+          "x": 97774,
+          "y": -8007,
+          "id": "b20303ad-d34b-45e0-bb80-9e251e0cff41"
+        },
+        "2305c3c7-cee2-44be-a9f2-fcc172a5c43d": {
+          "label": "Laws",
+          "x": 97739,
+          "y": -7982,
+          "id": "2305c3c7-cee2-44be-a9f2-fcc172a5c43d"
+        },
+        "87902749-2ff8-4e43-b67d-938f893c8c51": {
+          "label": "Adjacent Themes",
+          "x": 97778,
+          "y": -7957,
+          "id": "87902749-2ff8-4e43-b67d-938f893c8c51"
+        },
+        "420e6578-f12a-41ec-bd00-f3da7a6f4fd1": {
+          "label": "Questions",
+          "x": 97518,
+          "y": -7832,
+          "id": "420e6578-f12a-41ec-bd00-f3da7a6f4fd1"
+        },
+        "ac1c751c-8a2b-44b4-ab64-1abb6f4137f5": {
+          "label": "Problems",
+          "x": 97516,
+          "y": -7732,
+          "id": "ac1c751c-8a2b-44b4-ab64-1abb6f4137f5"
+        },
+        "3bd095d7-4a42-49eb-b77c-113bc95e66fb": {
+          "label": "Goals",
+          "x": 97504,
+          "y": -7632,
+          "id": "3bd095d7-4a42-49eb-b77c-113bc95e66fb"
+        },
+        "1378d5a9-c870-4d2e-b206-6bdb55aaf7b0": {
+          "label": "Как пользоваться\nmm-vis-js",
+          "x": 81249,
+          "y": -5202,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "1378d5a9-c870-4d2e-b206-6bdb55aaf7b0",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "76575a07-749d-43af-951c-eac40fca8fc5": {
+          "label": "Development",
+          "x": 81759,
+          "y": -4735,
+          "id": "76575a07-749d-43af-951c-eac40fca8fc5"
+        },
+        "ea659f91-7bdc-44b7-8ca1-60553201b128": {
+          "label": "11/01/2019",
+          "x": 81888,
+          "y": -4735,
+          "id": "ea659f91-7bdc-44b7-8ca1-60553201b128",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "9fad8a6a-3828-4fef-93da-6a3152564eec": {
+          "label": "init",
+          "x": 82009,
+          "y": -4735,
+          "id": "9fad8a6a-3828-4fef-93da-6a3152564eec"
+        },
+        "3859a4e4-6fc8-4015-be44-3c7680c5aa5e": {
+          "label": "Notes",
+          "x": 81735,
+          "y": -5585,
+          "id": "3859a4e4-6fc8-4015-be44-3c7680c5aa5e"
+        },
+        "42d9ab72-a87a-4262-a99f-cf7e75138d5b": {
+          "label": "Dictionary of\nconcepts",
+          "x": 81883,
+          "y": -7005,
+          "id": "42d9ab72-a87a-4262-a99f-cf7e75138d5b"
+        },
+        "0d6be146-c236-4ac3-9ff1-10a860412e14": {
+          "label": "Details, thoughts",
+          "x": 81909,
+          "y": -5585,
+          "id": "0d6be146-c236-4ac3-9ff1-10a860412e14"
+        },
+        "74db01e9-edaf-4577-9307-d3dc35a9c137": {
+          "label": "Sections",
+          "x": 81883,
+          "y": -5335,
+          "id": "74db01e9-edaf-4577-9307-d3dc35a9c137"
+        },
+        "f0475a46-3c81-49f2-9c20-112c4b5a51f2": {
+          "label": "Books",
+          "x": 81973,
+          "y": -5485,
+          "id": "f0475a46-3c81-49f2-9c20-112c4b5a51f2"
+        },
+        "adf11ddc-9b05-4e6e-a4c5-be2cc00a6fae": {
+          "label": "R&D institutions",
+          "x": 82003,
+          "y": -5460,
+          "id": "adf11ddc-9b05-4e6e-a4c5-be2cc00a6fae"
+        },
+        "41d17162-0d51-4ab5-be40-34980fc2e034": {
+          "label": "Sites",
+          "x": 81969,
+          "y": -5435,
+          "id": "41d17162-0d51-4ab5-be40-34980fc2e034"
+        },
+        "36083fac-f62a-4dcd-9dcd-5d5b4c91614f": {
+          "label": "Magazines",
+          "x": 81988,
+          "y": -5410,
+          "id": "36083fac-f62a-4dcd-9dcd-5d5b4c91614f"
+        },
+        "12eec393-f2e3-4032-8caf-ed4515e3e85a": {
+          "label": "Articles",
+          "x": 81976,
+          "y": -5385,
+          "id": "12eec393-f2e3-4032-8caf-ed4515e3e85a"
+        },
+        "6fcb685b-d192-4a35-8f45-f501bd61af0e": {
+          "label": "Media content",
+          "x": 81998,
+          "y": -5360,
+          "id": "6fcb685b-d192-4a35-8f45-f501bd61af0e"
+        },
+        "6221837c-361b-4dc4-8a77-4c8283185e6f": {
+          "label": "Misc. web links",
+          "x": 82001,
+          "y": -5335,
+          "id": "6221837c-361b-4dc4-8a77-4c8283185e6f"
+        },
+        "e7428080-8744-42eb-9dee-87fccc299526": {
+          "label": "Projects",
+          "x": 81979,
+          "y": -5310,
+          "id": "e7428080-8744-42eb-9dee-87fccc299526"
+        },
+        "769cb09c-fbee-4349-bb19-28bd0cba5cf2": {
+          "label": "Tools",
+          "x": 81970,
+          "y": -5285,
+          "id": "769cb09c-fbee-4349-bb19-28bd0cba5cf2"
+        },
+        "eb0082eb-4e89-4830-8fb0-123c3f2046b2": {
+          "label": "Organizations",
+          "x": 81997,
+          "y": -5260,
+          "id": "eb0082eb-4e89-4830-8fb0-123c3f2046b2"
+        },
+        "1d1712c5-8d49-450b-9ed1-7cdaff3bc457": {
+          "label": "Standarts",
+          "x": 81984,
+          "y": -5235,
+          "id": "1d1712c5-8d49-450b-9ed1-7cdaff3bc457"
+        },
+        "3e4833e8-b9eb-43b1-b520-0331c3c225fd": {
+          "label": "Forums, Groups",
+          "x": 82005,
+          "y": -5210,
+          "id": "3e4833e8-b9eb-43b1-b520-0331c3c225fd"
+        },
+        "c21de6f9-1adb-47b6-8ca6-a8146aab9336": {
+          "label": "Laws",
+          "x": 81970,
+          "y": -5185,
+          "id": "c21de6f9-1adb-47b6-8ca6-a8146aab9336"
+        },
+        "1e1062fe-495a-4f67-a6b9-e3cc6e8a0b49": {
+          "label": "Adjacent Themes",
+          "x": 82009,
+          "y": -5160,
+          "id": "1e1062fe-495a-4f67-a6b9-e3cc6e8a0b49"
+        },
+        "e463c5cb-865f-4170-87ff-014120404af9": {
+          "label": "Questions",
+          "x": 81749,
+          "y": -5035,
+          "id": "e463c5cb-865f-4170-87ff-014120404af9"
+        },
+        "8c0ebfdb-652e-473d-9efd-93925d1f3072": {
+          "label": "Problems",
+          "x": 81747,
+          "y": -4935,
+          "id": "8c0ebfdb-652e-473d-9efd-93925d1f3072"
+        },
+        "5db56f1f-d062-4dd9-953e-932934ce91b1": {
+          "label": "Goals",
+          "x": 81735,
+          "y": -4835,
+          "id": "5db56f1f-d062-4dd9-953e-932934ce91b1"
+        },
+        "b5a75d00-2736-42bc-902e-c1f2973d0a52": {
+          "label": "Работа с книгами\nв mm-vis-js",
+          "x": 81929,
+          "y": 18297,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "b5a75d00-2736-42bc-902e-c1f2973d0a52",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "56b4a16e-7f6f-43dd-8b86-21c907320ef7": {
+          "label": "Development",
+          "x": 82468,
+          "y": 18721,
+          "id": "56b4a16e-7f6f-43dd-8b86-21c907320ef7"
+        },
+        "c26f3d5c-a4d1-4ca3-a6ba-2b7224a9c4d7": {
+          "label": "11/01/2019",
+          "x": 82598,
+          "y": 18721,
+          "id": "c26f3d5c-a4d1-4ca3-a6ba-2b7224a9c4d7",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "6eb3f659-5af2-42c1-8f6e-47899b51c952": {
+          "label": "init",
+          "x": 82718,
+          "y": 18721,
+          "id": "6eb3f659-5af2-42c1-8f6e-47899b51c952"
+        },
+        "197e6cbd-0025-422a-a9e3-6cbaf730c781": {
+          "label": "Notes",
+          "x": 82445,
+          "y": 17871,
+          "id": "197e6cbd-0025-422a-a9e3-6cbaf730c781"
+        },
+        "566c0349-c798-4a31-8cd2-cd2b04e23641": {
+          "label": "Dictionary of\nconcepts",
+          "x": 82597,
+          "y": 17347,
+          "id": "566c0349-c798-4a31-8cd2-cd2b04e23641"
+        },
+        "bb3828c7-a990-4159-a875-b29ffb4f38e4": {
+          "label": "Details, thoughts",
+          "x": 82618,
+          "y": 17871,
+          "id": "bb3828c7-a990-4159-a875-b29ffb4f38e4"
+        },
+        "0572d941-2079-4d80-bb31-a7d7760320f7": {
+          "label": "Sections",
+          "x": 82592,
+          "y": 18121,
+          "id": "0572d941-2079-4d80-bb31-a7d7760320f7"
+        },
+        "feba02fb-7033-490a-81cd-005f142d9b0f": {
+          "label": "Books",
+          "x": 82682,
+          "y": 17971,
+          "id": "feba02fb-7033-490a-81cd-005f142d9b0f"
+        },
+        "8d75ef02-763a-48f1-a2f9-aa463e0b9b4b": {
+          "label": "R&D institutions",
+          "x": 82713,
+          "y": 17996,
+          "id": "8d75ef02-763a-48f1-a2f9-aa463e0b9b4b"
+        },
+        "449f1b32-e07c-48bb-af2e-56f67ef63688": {
+          "label": "Sites",
+          "x": 82678,
+          "y": 18021,
+          "id": "449f1b32-e07c-48bb-af2e-56f67ef63688"
+        },
+        "98656cf6-ed69-45eb-ba97-ffe77bed9e4b": {
+          "label": "Magazines",
+          "x": 82697,
+          "y": 18046,
+          "id": "98656cf6-ed69-45eb-ba97-ffe77bed9e4b"
+        },
+        "184c8949-fbed-412a-ab6a-5dbfc559f9ae": {
+          "label": "Articles",
+          "x": 82686,
+          "y": 18071,
+          "id": "184c8949-fbed-412a-ab6a-5dbfc559f9ae"
+        },
+        "8175b770-d1d8-4aed-9328-df581e0f51e3": {
+          "label": "Media content",
+          "x": 82708,
+          "y": 18096,
+          "id": "8175b770-d1d8-4aed-9328-df581e0f51e3"
+        },
+        "65f5d163-fe0a-4807-a699-c77843633b51": {
+          "label": "Misc. web links",
+          "x": 82710,
+          "y": 18121,
+          "id": "65f5d163-fe0a-4807-a699-c77843633b51"
+        },
+        "3805a5df-267f-4e7e-bc5c-9be9f9f2528c": {
+          "label": "Projects",
+          "x": 82688,
+          "y": 18146,
+          "id": "3805a5df-267f-4e7e-bc5c-9be9f9f2528c"
+        },
+        "969278a5-5973-4dc7-9d78-5d789326e0fc": {
+          "label": "Tools",
+          "x": 82679,
+          "y": 18171,
+          "id": "969278a5-5973-4dc7-9d78-5d789326e0fc"
+        },
+        "44770e28-2c18-4fd2-be26-c8da1daa95ad": {
+          "label": "Organizations",
+          "x": 82707,
+          "y": 18196,
+          "id": "44770e28-2c18-4fd2-be26-c8da1daa95ad"
+        },
+        "e958ae0c-caa4-4b5d-b441-f94efe75c5d3": {
+          "label": "Standarts",
+          "x": 82693,
+          "y": 18221,
+          "id": "e958ae0c-caa4-4b5d-b441-f94efe75c5d3"
+        },
+        "6f96ef13-0310-4ab4-a99b-7f445416bf0c": {
+          "label": "Forums, Groups",
+          "x": 82715,
+          "y": 18246,
+          "id": "6f96ef13-0310-4ab4-a99b-7f445416bf0c"
+        },
+        "71742097-cd13-4a47-9008-1b4cdfc5cccf": {
+          "label": "Laws",
+          "x": 82679,
+          "y": 18271,
+          "id": "71742097-cd13-4a47-9008-1b4cdfc5cccf"
+        },
+        "d4409ad8-b469-4bf3-b456-5039f044f155": {
+          "label": "Adjacent Themes",
+          "x": 82718,
+          "y": 18296,
+          "id": "d4409ad8-b469-4bf3-b456-5039f044f155"
+        },
+        "ecd814ed-2f75-43d9-a3e5-940659d798f9": {
+          "label": "Questions",
+          "x": 82458,
+          "y": 18421,
+          "id": "ecd814ed-2f75-43d9-a3e5-940659d798f9"
+        },
+        "788029fd-ff7e-4802-a8cf-d987328c00e8": {
+          "label": "Problems",
+          "x": 82456,
+          "y": 18521,
+          "id": "788029fd-ff7e-4802-a8cf-d987328c00e8"
+        },
+        "e5bc19d4-d856-41b7-aff5-751cce6ddfbc": {
+          "label": "Goals",
+          "x": 82445,
+          "y": 18621,
+          "id": "e5bc19d4-d856-41b7-aff5-751cce6ddfbc"
+        },
+        "b5a75d00-2736-42bc-902e-c1f2973d0a5246": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Работа с книгами\nв mm-vis-js",
+          "x": 88867,
+          "y": 18130,
+          "id": "b5a75d00-2736-42bc-902e-c1f2973d0a5246",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "b5a75d00-2736-42bc-902e-c1f2973d0a5246642": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Work with books\nin mm-vis-js",
+          "x": 103237,
+          "y": 18103,
+          "id": "b5a75d00-2736-42bc-902e-c1f2973d0a5246642",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "895ec753-df47-4281-ab31-88bdf834cb1f": {
+          "label": "Work with books\nin mm-vis-js",
+          "x": 97559,
+          "y": 17774,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "895ec753-df47-4281-ab31-88bdf834cb1f",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "b40e2b67-2c9d-432a-8bcc-245539e58094": {
+          "label": "Development",
+          "x": 98007,
+          "y": 18224,
+          "id": "b40e2b67-2c9d-432a-8bcc-245539e58094"
+        },
+        "399e7ac6-99a8-46a8-a7d7-db8c203da395": {
+          "label": "11/01/2019",
+          "x": 98136,
+          "y": 18224,
+          "id": "399e7ac6-99a8-46a8-a7d7-db8c203da395",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "2fe7303c-951e-4e4a-bc95-3a0baff958f3": {
+          "label": "init",
+          "x": 98257,
+          "y": 18224,
+          "id": "2fe7303c-951e-4e4a-bc95-3a0baff958f3"
+        },
+        "aaed8227-4a84-4086-83e6-7ef342977314": {
+          "label": "Notes",
+          "x": 97983,
+          "y": 17374,
+          "id": "aaed8227-4a84-4086-83e6-7ef342977314"
+        },
+        "238ab437-41db-4900-bab4-2b25f0976895": {
+          "label": "Dictionary of\nconcepts",
+          "x": 98143,
+          "y": 17124,
+          "id": "238ab437-41db-4900-bab4-2b25f0976895"
+        },
+        "8c88e0b1-f495-4636-8b07-36b0943a4166": {
+          "label": "Details, thoughts",
+          "x": 98157,
+          "y": 17374,
+          "id": "8c88e0b1-f495-4636-8b07-36b0943a4166"
+        },
+        "8190274d-438a-400c-80e2-cffaf203da7c": {
+          "label": "Sections",
+          "x": 98131,
+          "y": 17624,
+          "id": "8190274d-438a-400c-80e2-cffaf203da7c"
+        },
+        "f9d1dfde-5427-4226-8b99-27838382ceb6": {
+          "label": "Books",
+          "x": 98221,
+          "y": 17474,
+          "id": "f9d1dfde-5427-4226-8b99-27838382ceb6"
+        },
+        "6400abd6-ad8a-4b2c-a268-f409c19c1f41": {
+          "label": "R&D institutions",
+          "x": 98251,
+          "y": 17499,
+          "id": "6400abd6-ad8a-4b2c-a268-f409c19c1f41"
+        },
+        "64a5d815-3b0f-43bd-a00c-9d500bde73b8": {
+          "label": "Sites",
+          "x": 98217,
+          "y": 17524,
+          "id": "64a5d815-3b0f-43bd-a00c-9d500bde73b8"
+        },
+        "078cd7b8-8c6c-421b-bc19-2ed5ebcb3623": {
+          "label": "Magazines",
+          "x": 98236,
+          "y": 17549,
+          "id": "078cd7b8-8c6c-421b-bc19-2ed5ebcb3623"
+        },
+        "54e2a0dd-6d6e-4cfe-8996-f92adaf35217": {
+          "label": "Articles",
+          "x": 98224,
+          "y": 17574,
+          "id": "54e2a0dd-6d6e-4cfe-8996-f92adaf35217"
+        },
+        "a749340c-842e-401d-82d3-ae5c882f4e10": {
+          "label": "Media content",
+          "x": 98246,
+          "y": 17599,
+          "id": "a749340c-842e-401d-82d3-ae5c882f4e10"
+        },
+        "e63362b3-d978-430f-bca8-e067c99d2a9a": {
+          "label": "Misc. web links",
+          "x": 98249,
+          "y": 17624,
+          "id": "e63362b3-d978-430f-bca8-e067c99d2a9a"
+        },
+        "064f8c52-1c4b-4835-82dc-0f70e69e188f": {
+          "label": "Projects",
+          "x": 98227,
+          "y": 17649,
+          "id": "064f8c52-1c4b-4835-82dc-0f70e69e188f"
+        },
+        "911fb026-2f39-4473-89e5-a0626029819e": {
+          "label": "Tools",
+          "x": 98218,
+          "y": 17674,
+          "id": "911fb026-2f39-4473-89e5-a0626029819e"
+        },
+        "a0a226c1-66ed-4f14-b2e9-58127d95cbbd": {
+          "label": "Organizations",
+          "x": 98245,
+          "y": 17699,
+          "id": "a0a226c1-66ed-4f14-b2e9-58127d95cbbd"
+        },
+        "4cc827b0-e766-4aaf-b997-6ac82608bf06": {
+          "label": "Standarts",
+          "x": 98232,
+          "y": 17724,
+          "id": "4cc827b0-e766-4aaf-b997-6ac82608bf06"
+        },
+        "4b1d0bc8-ea0a-4883-a944-1d541a5dafd9": {
+          "label": "Forums, Groups",
+          "x": 98253,
+          "y": 17749,
+          "id": "4b1d0bc8-ea0a-4883-a944-1d541a5dafd9"
+        },
+        "19c060a4-fedd-4fb4-bf90-1fb89bc76df1": {
+          "label": "Laws",
+          "x": 98218,
+          "y": 17774,
+          "id": "19c060a4-fedd-4fb4-bf90-1fb89bc76df1"
+        },
+        "e44ca80c-7d91-4ae9-a45e-1a1dfce0f60c": {
+          "label": "Adjacent Themes",
+          "x": 98257,
+          "y": 17799,
+          "id": "e44ca80c-7d91-4ae9-a45e-1a1dfce0f60c"
+        },
+        "07a668c2-4fe8-4258-a5f6-74a037a18fb4": {
+          "label": "Questions",
+          "x": 97997,
+          "y": 17924,
+          "id": "07a668c2-4fe8-4258-a5f6-74a037a18fb4"
+        },
+        "8d9e674a-55d6-40b7-aea1-55462abb8d57": {
+          "label": "Problems",
+          "x": 97995,
+          "y": 18024,
+          "id": "8d9e674a-55d6-40b7-aea1-55462abb8d57"
+        },
+        "f80d41f9-e3e4-4bb1-87b9-d02bfd64cd54": {
+          "label": "Goals",
+          "x": 97983,
+          "y": 18124,
+          "id": "f80d41f9-e3e4-4bb1-87b9-d02bfd64cd54"
         }
       },
       "length": 0,
@@ -25220,302 +25297,6 @@ var schemeData =
           "id": "6a7af8db-6c70-4874-aa0a-b3a9fb616a0a846",
           "from": "556f77a1-e03a-4cc9-88d9-2dda8655e7f1609846",
           "to": "f98845b0-a393-4a51-ba8d-299765f501f2158728875145680296120846"
-        },
-        "c79de2ea-9d9b-4268-9493-956c83da4d0a856173337": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "c79de2ea-9d9b-4268-9493-956c83da4d0a856173337",
-          "from": "df5f4410-e137-439e-a57e-3180aea93438856173337",
-          "to": "6324bd20-c7d2-4a86-b4e8-a20542f837cd856173337"
-        },
-        "87f268d3-6db7-4cc6-a086-4ec28c6c21da856173337": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "87f268d3-6db7-4cc6-a086-4ec28c6c21da856173337",
-          "from": "6324bd20-c7d2-4a86-b4e8-a20542f837cd856173337",
-          "to": "6ff00da1-79eb-4358-9013-6e4a2b1b07f2856173337"
-        },
-        "f14718c3-8c92-49a7-b782-e4a71708d592856173337": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "f14718c3-8c92-49a7-b782-e4a71708d592856173337",
-          "from": "6ff00da1-79eb-4358-9013-6e4a2b1b07f2856173337",
-          "to": "252e337a-3819-4a4a-8bf5-ea2bbb86b4af856173337"
-        },
-        "a754d5ab-234f-4e66-af20-a2b0f7b62d82856173337": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "a754d5ab-234f-4e66-af20-a2b0f7b62d82856173337",
-          "from": "8201061e-8bbe-4c78-9486-1bdfa4a0d6b3856173337",
-          "to": "ec6b35ec-2ca8-4ec6-937a-425d9bc6c1e3856173337"
-        },
-        "7a487cec-4ef2-439c-9933-edbb57862202856173337": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "7a487cec-4ef2-439c-9933-edbb57862202856173337",
-          "from": "8201061e-8bbe-4c78-9486-1bdfa4a0d6b3856173337",
-          "to": "e761e4ea-6719-4d45-b496-59483891b9dd856173337"
-        },
-        "cc73c5f3-47d5-4b2e-9605-1e3e21fd9d43856173337": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "cc73c5f3-47d5-4b2e-9605-1e3e21fd9d43856173337",
-          "from": "ec6b35ec-2ca8-4ec6-937a-425d9bc6c1e3856173337",
-          "to": "e9f35a53-56ce-4e8e-bfc2-d3ff89dfc2ef856173337"
-        },
-        "6e1b941b-d66c-4422-94fe-bddd42b1f9c5856173337": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "6e1b941b-d66c-4422-94fe-bddd42b1f9c5856173337",
-          "from": "e761e4ea-6719-4d45-b496-59483891b9dd856173337",
-          "to": "c470ea73-31e7-4aff-9bf0-a9e896f1a25e856173337"
-        },
-        "5cfeaab4-b774-4062-84e3-b83ddb1275b4856173337": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5cfeaab4-b774-4062-84e3-b83ddb1275b4856173337",
-          "from": "c470ea73-31e7-4aff-9bf0-a9e896f1a25e856173337",
-          "to": "dfa929ff-3a17-4f83-84db-b3020d96c579856173337"
         },
         "2c569b7f-ad42-454a-823c-156b6396e14b856173337": {
           "arrows": {
@@ -32442,413 +32223,6 @@ var schemeData =
           "from": "bbfa4068-4e91-4d81-aa66-b3a75c20e228673431",
           "to": "65a326ea-1281-41f1-9352-6cb0a9e6a2c8673431"
         },
-        "8c77a2d7-8090-41a0-98ff-83f290c0616f856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "8c77a2d7-8090-41a0-98ff-83f290c0616f856673431",
-          "from": "d6e24ba4-997d-4555-a7b3-053eb5502e1f856673431",
-          "to": "005ed1b3-4245-495b-b924-5a219aca9884856673431"
-        },
-        "020e65cc-16bd-455f-8e63-5d74b3e7dde6856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "020e65cc-16bd-455f-8e63-5d74b3e7dde6856673431",
-          "from": "d6e24ba4-997d-4555-a7b3-053eb5502e1f856673431",
-          "to": "4c5765ea-0499-47fb-a22f-198df80fe409856673431"
-        },
-        "de68e514-02b0-4c1d-bc1e-89614576e5e4856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "de68e514-02b0-4c1d-bc1e-89614576e5e4856673431",
-          "from": "005ed1b3-4245-495b-b924-5a219aca9884856673431",
-          "to": "8be4c57f-d909-4dea-9bea-de69e818d5f0856673431"
-        },
-        "017fcbfc-d753-4048-8191-34f9ed95f2da856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "017fcbfc-d753-4048-8191-34f9ed95f2da856673431",
-          "from": "8be4c57f-d909-4dea-9bea-de69e818d5f0856673431",
-          "to": "a73fb86f-ff47-4791-80bd-7ccf8187ae40856673431"
-        },
-        "eeadea31-9284-4920-9987-437cf188d8cf856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "eeadea31-9284-4920-9987-437cf188d8cf856673431",
-          "from": "190b3905-69c6-4867-bc2e-8a5608ddbf3a856673431",
-          "to": "69df842e-8d76-4bae-a1be-03398edbb34d856673431"
-        },
-        "6f4a8678-5b6b-4c2a-933a-40110dd5fdeb856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "6f4a8678-5b6b-4c2a-933a-40110dd5fdeb856673431",
-          "from": "190b3905-69c6-4867-bc2e-8a5608ddbf3a856673431",
-          "to": "918cfa6f-1b63-4ef3-b4a4-aa565848f727856673431"
-        },
-        "5cda2d57-0858-4ee3-8404-5a866851c274856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "5cda2d57-0858-4ee3-8404-5a866851c274856673431",
-          "from": "69df842e-8d76-4bae-a1be-03398edbb34d856673431",
-          "to": "75f58e5a-a0d0-4f37-a30a-bc954f310151856673431"
-        },
-        "e9cc490a-f227-429e-9fbd-0649fe5a882f856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "e9cc490a-f227-429e-9fbd-0649fe5a882f856673431",
-          "from": "75f58e5a-a0d0-4f37-a30a-bc954f310151856673431",
-          "to": "6c08158c-4e66-49f6-a161-a66c3a8d0271856673431"
-        },
-        "cef81e46-ad7f-4526-8778-cb26ee13897d856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "cef81e46-ad7f-4526-8778-cb26ee13897d856673431",
-          "from": "918cfa6f-1b63-4ef3-b4a4-aa565848f727856673431",
-          "to": "28606e38-66b9-4360-bd26-57e745089b6c856673431"
-        },
-        "ba462d48-a2c8-4d2b-9b5b-fa423d1f51d4856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "ba462d48-a2c8-4d2b-9b5b-fa423d1f51d4856673431",
-          "from": "918cfa6f-1b63-4ef3-b4a4-aa565848f727856673431",
-          "to": "99792996-9990-4de2-8e7a-c7f95c729ccc856673431"
-        },
-        "6b8f632e-f127-4529-a319-4536bc0e1b95856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "6b8f632e-f127-4529-a319-4536bc0e1b95856673431",
-          "from": "918cfa6f-1b63-4ef3-b4a4-aa565848f727856673431",
-          "to": "0259d9ae-d9a0-43fe-a27d-6ef875c42428856673431"
-        },
         "c321e187-1773-466d-99dc-bc6712b6be77856673431": {
           "arrows": {
             "to": {
@@ -33441,80 +32815,6 @@ var schemeData =
           "id": "137038da-c4f0-40a9-910f-ce8d52dafc7a856673431",
           "from": "c33cc747-4ea3-44f9-a560-e7084f36fc00856673431",
           "to": "5c16d8af-d405-4411-ba51-0b94e89e01d9856673431"
-        },
-        "be8ff312-1697-4d3b-9317-249aacbf08cd856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "be8ff312-1697-4d3b-9317-249aacbf08cd856673431",
-          "from": "4c5765ea-0499-47fb-a22f-198df80fe409856673431",
-          "to": "f79ec810-7f8f-43e8-b3b3-ff5cf20a66f8856673431"
-        },
-        "6061e2b5-15b0-4d52-a3fb-20167fed6470856673431": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "6061e2b5-15b0-4d52-a3fb-20167fed6470856673431",
-          "from": "4c5765ea-0499-47fb-a22f-198df80fe409856673431",
-          "to": "cf78bc11-91c8-49c9-b678-3cd9aced5311856673431"
         },
         "0917b3bd-ead8-4ccc-8efc-568a4871f524856673431": {
           "arrows": {
@@ -46047,6 +45347,636 @@ var schemeData =
           "from": "602df00a-7651-427c-b508-c9b7ff32ff1b",
           "to": "dfad7933-3ecb-4de2-9299-f93eeb097950",
           "id": "7dca6b68-4f43-4cda-b7ae-d7d380e9d365"
+        },
+        "3411a081-47ad-476b-8bc8-8713560ef220": {
+          "from": "6a84da71-d158-4664-bf02-08052201778c",
+          "to": "2c3add6e-c2c5-4a2d-8311-545af4f5eb8b",
+          "id": "3411a081-47ad-476b-8bc8-8713560ef220"
+        },
+        "0a5fb8c8-45ef-4053-9752-dce6744373b4": {
+          "from": "2c3add6e-c2c5-4a2d-8311-545af4f5eb8b",
+          "to": "296e452e-bba4-4e72-8b19-e54632d8c7cd",
+          "id": "0a5fb8c8-45ef-4053-9752-dce6744373b4"
+        },
+        "6ce5aafb-879b-43a2-8dd0-852b796bb72f": {
+          "from": "296e452e-bba4-4e72-8b19-e54632d8c7cd",
+          "to": "59c2db7b-a8db-4476-94b2-1dd77206b608",
+          "id": "6ce5aafb-879b-43a2-8dd0-852b796bb72f"
+        },
+        "d2cdae9d-7835-4f44-822e-974607c85ce6": {
+          "from": "6a84da71-d158-4664-bf02-08052201778c",
+          "to": "0783fb9e-8968-42a2-bf0b-56d643a14a06",
+          "id": "d2cdae9d-7835-4f44-822e-974607c85ce6"
+        },
+        "817855ca-f09b-4529-8937-16a41dc84e20": {
+          "from": "0783fb9e-8968-42a2-bf0b-56d643a14a06",
+          "to": "c8637b71-eb8b-44d0-98e4-e44193accf72",
+          "id": "817855ca-f09b-4529-8937-16a41dc84e20"
+        },
+        "12120d0e-81eb-44ad-9617-28bb9aef2444": {
+          "from": "0783fb9e-8968-42a2-bf0b-56d643a14a06",
+          "to": "f953a5ff-4679-4ced-af6a-cab0bf0e6b03",
+          "id": "12120d0e-81eb-44ad-9617-28bb9aef2444"
+        },
+        "933c0f94-e245-41c2-a013-673e0542105b": {
+          "from": "0783fb9e-8968-42a2-bf0b-56d643a14a06",
+          "to": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "id": "933c0f94-e245-41c2-a013-673e0542105b"
+        },
+        "f7414998-ad05-459f-aab4-8afb2b983820": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "c3d9140a-72b0-428d-b7c7-a9aba10058dc",
+          "id": "f7414998-ad05-459f-aab4-8afb2b983820"
+        },
+        "41922ee1-3808-4692-9004-016d727d1dd6": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "040a5e73-fef6-448e-a114-2a8207f38ee7",
+          "id": "41922ee1-3808-4692-9004-016d727d1dd6"
+        },
+        "0ada34b9-3552-4abd-a9cc-72f5e481ab8c": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "140b3890-b199-4aa4-a92d-ccd8420d34bd",
+          "id": "0ada34b9-3552-4abd-a9cc-72f5e481ab8c"
+        },
+        "78e31a6b-4678-4e38-9ab5-878624222043": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "cb7eca3a-f9ff-47a8-981d-1cc1d8a6e2ea",
+          "id": "78e31a6b-4678-4e38-9ab5-878624222043"
+        },
+        "bd35e4cd-1c6e-494e-b1a5-ea767c91f3df": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "7821da4b-cc51-4471-a3a7-f1f21eb21f84",
+          "id": "bd35e4cd-1c6e-494e-b1a5-ea767c91f3df"
+        },
+        "46fa1b7d-df6b-478c-bffe-250d38cc96b4": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "ee8e274c-ee0b-4e9f-b209-f02ae5425971",
+          "id": "46fa1b7d-df6b-478c-bffe-250d38cc96b4"
+        },
+        "54964579-e182-4d8c-9e9c-db615c6972a8": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "4357db3a-8447-46b8-a892-a60ad6034e5e",
+          "id": "54964579-e182-4d8c-9e9c-db615c6972a8"
+        },
+        "ea6c1809-8e20-47fc-bc56-09fa967e2ff0": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "9f7340b7-52e1-46cd-9dd5-bc768d511370",
+          "id": "ea6c1809-8e20-47fc-bc56-09fa967e2ff0"
+        },
+        "6498a40f-3856-473d-982c-d156c882932d": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "3eb23cc0-01a0-4d8f-8b0e-eb2bda37ab39",
+          "id": "6498a40f-3856-473d-982c-d156c882932d"
+        },
+        "0a2a5365-0f63-4e63-82f5-9c71335486c6": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "7b9232b1-a12a-4fe6-b67a-d21a1a6bcbd9",
+          "id": "0a2a5365-0f63-4e63-82f5-9c71335486c6"
+        },
+        "207e44a6-b1e9-4c6e-8d37-e179b28bcd8e": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "430bf543-91f6-4207-ae32-6876d0a88773",
+          "id": "207e44a6-b1e9-4c6e-8d37-e179b28bcd8e"
+        },
+        "ac761c8c-a3a4-474d-944e-ecc5296043f1": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "b20303ad-d34b-45e0-bb80-9e251e0cff41",
+          "id": "ac761c8c-a3a4-474d-944e-ecc5296043f1"
+        },
+        "d243defb-c610-4014-a608-82b62f7c0051": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "2305c3c7-cee2-44be-a9f2-fcc172a5c43d",
+          "id": "d243defb-c610-4014-a608-82b62f7c0051"
+        },
+        "6624b0a0-8970-4db6-84e7-d6dd0fcbd81a": {
+          "from": "8319642e-f9c3-48f6-9cf1-a226521600e2",
+          "to": "87902749-2ff8-4e43-b67d-938f893c8c51",
+          "id": "6624b0a0-8970-4db6-84e7-d6dd0fcbd81a"
+        },
+        "6687981e-ef58-4d7b-8e3f-b86331069e2d": {
+          "from": "6a84da71-d158-4664-bf02-08052201778c",
+          "to": "420e6578-f12a-41ec-bd00-f3da7a6f4fd1",
+          "id": "6687981e-ef58-4d7b-8e3f-b86331069e2d"
+        },
+        "64f4c259-89a9-4864-a54b-c1334e5e8088": {
+          "from": "6a84da71-d158-4664-bf02-08052201778c",
+          "to": "ac1c751c-8a2b-44b4-ab64-1abb6f4137f5",
+          "id": "64f4c259-89a9-4864-a54b-c1334e5e8088"
+        },
+        "a5016c2f-fad0-4c70-aad2-b496668973ef": {
+          "from": "6a84da71-d158-4664-bf02-08052201778c",
+          "to": "3bd095d7-4a42-49eb-b77c-113bc95e66fb",
+          "id": "a5016c2f-fad0-4c70-aad2-b496668973ef"
+        },
+        "92c37ef7-1bd7-48bc-b3ca-dd2e8f4eead1": {
+          "from": "c8637b71-eb8b-44d0-98e4-e44193accf72",
+          "to": "e9f35a53-56ce-4e8e-bfc2-d3ff89dfc2ef856173337",
+          "id": "92c37ef7-1bd7-48bc-b3ca-dd2e8f4eead1"
+        },
+        "e0f64497-6c02-4853-a9dc-339417db9cec": {
+          "from": "1378d5a9-c870-4d2e-b206-6bdb55aaf7b0",
+          "to": "76575a07-749d-43af-951c-eac40fca8fc5",
+          "id": "e0f64497-6c02-4853-a9dc-339417db9cec"
+        },
+        "2ab61e2f-dfda-4f26-9aee-98ecdaa8adb8": {
+          "from": "76575a07-749d-43af-951c-eac40fca8fc5",
+          "to": "ea659f91-7bdc-44b7-8ca1-60553201b128",
+          "id": "2ab61e2f-dfda-4f26-9aee-98ecdaa8adb8"
+        },
+        "bf99b105-ae1e-4660-8ca6-8769eb3c0a02": {
+          "from": "ea659f91-7bdc-44b7-8ca1-60553201b128",
+          "to": "9fad8a6a-3828-4fef-93da-6a3152564eec",
+          "id": "bf99b105-ae1e-4660-8ca6-8769eb3c0a02"
+        },
+        "67df51b6-b4e4-4368-9e16-43d8fd739410": {
+          "from": "1378d5a9-c870-4d2e-b206-6bdb55aaf7b0",
+          "to": "3859a4e4-6fc8-4015-be44-3c7680c5aa5e",
+          "id": "67df51b6-b4e4-4368-9e16-43d8fd739410"
+        },
+        "cbd7f9d9-a49d-46f1-b151-6d5d04861358": {
+          "from": "3859a4e4-6fc8-4015-be44-3c7680c5aa5e",
+          "to": "42d9ab72-a87a-4262-a99f-cf7e75138d5b",
+          "id": "cbd7f9d9-a49d-46f1-b151-6d5d04861358"
+        },
+        "64a4cd46-11fb-4f96-af14-e33921792c7f": {
+          "from": "3859a4e4-6fc8-4015-be44-3c7680c5aa5e",
+          "to": "0d6be146-c236-4ac3-9ff1-10a860412e14",
+          "id": "64a4cd46-11fb-4f96-af14-e33921792c7f"
+        },
+        "edd70b41-7d07-45ff-85ed-6f8d3d876450": {
+          "from": "3859a4e4-6fc8-4015-be44-3c7680c5aa5e",
+          "to": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "id": "edd70b41-7d07-45ff-85ed-6f8d3d876450"
+        },
+        "332f8de4-8b9f-4954-a03f-0d6392550cfe": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "f0475a46-3c81-49f2-9c20-112c4b5a51f2",
+          "id": "332f8de4-8b9f-4954-a03f-0d6392550cfe"
+        },
+        "99861f27-d670-4c5c-8582-ba08af205e85": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "adf11ddc-9b05-4e6e-a4c5-be2cc00a6fae",
+          "id": "99861f27-d670-4c5c-8582-ba08af205e85"
+        },
+        "35c49db5-a3d3-43d2-b2b6-74d0d8da961c": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "41d17162-0d51-4ab5-be40-34980fc2e034",
+          "id": "35c49db5-a3d3-43d2-b2b6-74d0d8da961c"
+        },
+        "363ab042-68f4-4cfb-988f-03273246674f": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "36083fac-f62a-4dcd-9dcd-5d5b4c91614f",
+          "id": "363ab042-68f4-4cfb-988f-03273246674f"
+        },
+        "43605647-96ee-40cc-9d73-532506742e78": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "12eec393-f2e3-4032-8caf-ed4515e3e85a",
+          "id": "43605647-96ee-40cc-9d73-532506742e78"
+        },
+        "6634fa6c-e9ce-4055-9400-bfb1b199641b": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "6fcb685b-d192-4a35-8f45-f501bd61af0e",
+          "id": "6634fa6c-e9ce-4055-9400-bfb1b199641b"
+        },
+        "cdf8fe47-2e2a-4725-9546-16af87ecd5e3": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "6221837c-361b-4dc4-8a77-4c8283185e6f",
+          "id": "cdf8fe47-2e2a-4725-9546-16af87ecd5e3"
+        },
+        "ee3d1fc4-c75f-4e15-b4dd-899018fb8595": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "e7428080-8744-42eb-9dee-87fccc299526",
+          "id": "ee3d1fc4-c75f-4e15-b4dd-899018fb8595"
+        },
+        "57338449-c5b0-4940-82e5-2b2267e0835d": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "769cb09c-fbee-4349-bb19-28bd0cba5cf2",
+          "id": "57338449-c5b0-4940-82e5-2b2267e0835d"
+        },
+        "68f4beb6-83b7-4a2a-b633-388d4f428a38": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "eb0082eb-4e89-4830-8fb0-123c3f2046b2",
+          "id": "68f4beb6-83b7-4a2a-b633-388d4f428a38"
+        },
+        "3008999e-6a5b-458c-8597-e190a9323780": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "1d1712c5-8d49-450b-9ed1-7cdaff3bc457",
+          "id": "3008999e-6a5b-458c-8597-e190a9323780"
+        },
+        "4d3270fd-cf2f-4822-a1d8-5500a881e496": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "3e4833e8-b9eb-43b1-b520-0331c3c225fd",
+          "id": "4d3270fd-cf2f-4822-a1d8-5500a881e496"
+        },
+        "ee8802a7-5ad0-4b3d-8070-449da1a0a0ad": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "c21de6f9-1adb-47b6-8ca6-a8146aab9336",
+          "id": "ee8802a7-5ad0-4b3d-8070-449da1a0a0ad"
+        },
+        "a2d58f81-2532-486e-b19f-b0fc6a185168": {
+          "from": "74db01e9-edaf-4577-9307-d3dc35a9c137",
+          "to": "1e1062fe-495a-4f67-a6b9-e3cc6e8a0b49",
+          "id": "a2d58f81-2532-486e-b19f-b0fc6a185168"
+        },
+        "e0526c1b-4bfd-487b-b776-f06223649d62": {
+          "from": "1378d5a9-c870-4d2e-b206-6bdb55aaf7b0",
+          "to": "e463c5cb-865f-4170-87ff-014120404af9",
+          "id": "e0526c1b-4bfd-487b-b776-f06223649d62"
+        },
+        "0f65aced-58b9-4580-ba5f-e6d12206ffc5": {
+          "from": "1378d5a9-c870-4d2e-b206-6bdb55aaf7b0",
+          "to": "8c0ebfdb-652e-473d-9efd-93925d1f3072",
+          "id": "0f65aced-58b9-4580-ba5f-e6d12206ffc5"
+        },
+        "68a4511b-d497-42d8-ba0f-ae74cf02e55f": {
+          "from": "1378d5a9-c870-4d2e-b206-6bdb55aaf7b0",
+          "to": "5db56f1f-d062-4dd9-953e-932934ce91b1",
+          "id": "68a4511b-d497-42d8-ba0f-ae74cf02e55f"
+        },
+        "dd0a6195-7180-413b-9240-78a33c3186ea": {
+          "from": "42d9ab72-a87a-4262-a99f-cf7e75138d5b",
+          "to": "28606e38-66b9-4360-bd26-57e745089b6c856673431",
+          "id": "dd0a6195-7180-413b-9240-78a33c3186ea"
+        },
+        "f06f6ea8-af9f-4210-8865-4d6a0bf31a01": {
+          "from": "42d9ab72-a87a-4262-a99f-cf7e75138d5b",
+          "to": "99792996-9990-4de2-8e7a-c7f95c729ccc856673431",
+          "id": "f06f6ea8-af9f-4210-8865-4d6a0bf31a01"
+        },
+        "7d803088-de7c-4a53-8da3-ecd0b395d700": {
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a52",
+          "to": "56b4a16e-7f6f-43dd-8b86-21c907320ef7",
+          "id": "7d803088-de7c-4a53-8da3-ecd0b395d700"
+        },
+        "2e7095b7-c337-4f18-98a9-92165d20eae2": {
+          "from": "56b4a16e-7f6f-43dd-8b86-21c907320ef7",
+          "to": "c26f3d5c-a4d1-4ca3-a6ba-2b7224a9c4d7",
+          "id": "2e7095b7-c337-4f18-98a9-92165d20eae2"
+        },
+        "2d01392b-cd68-4cb0-b1f6-5eda7867cd05": {
+          "from": "c26f3d5c-a4d1-4ca3-a6ba-2b7224a9c4d7",
+          "to": "6eb3f659-5af2-42c1-8f6e-47899b51c952",
+          "id": "2d01392b-cd68-4cb0-b1f6-5eda7867cd05"
+        },
+        "60765b24-1b61-40ed-b653-3c185e0d241d": {
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a52",
+          "to": "197e6cbd-0025-422a-a9e3-6cbaf730c781",
+          "id": "60765b24-1b61-40ed-b653-3c185e0d241d"
+        },
+        "5e28e929-aaa3-498e-96c3-a54096ce1d2e": {
+          "from": "197e6cbd-0025-422a-a9e3-6cbaf730c781",
+          "to": "566c0349-c798-4a31-8cd2-cd2b04e23641",
+          "id": "5e28e929-aaa3-498e-96c3-a54096ce1d2e"
+        },
+        "b27cad06-3386-41ab-a275-27bc811cb873": {
+          "from": "197e6cbd-0025-422a-a9e3-6cbaf730c781",
+          "to": "bb3828c7-a990-4159-a875-b29ffb4f38e4",
+          "id": "b27cad06-3386-41ab-a275-27bc811cb873"
+        },
+        "ebe20e3f-76b6-4d94-ae31-e69db477e3d5": {
+          "from": "197e6cbd-0025-422a-a9e3-6cbaf730c781",
+          "to": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "id": "ebe20e3f-76b6-4d94-ae31-e69db477e3d5"
+        },
+        "1d636b23-62f7-4e2f-918e-5d14d7e535bc": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "feba02fb-7033-490a-81cd-005f142d9b0f",
+          "id": "1d636b23-62f7-4e2f-918e-5d14d7e535bc"
+        },
+        "0cc5ea12-5a39-423c-ad5f-445d3e52b3e5": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "8d75ef02-763a-48f1-a2f9-aa463e0b9b4b",
+          "id": "0cc5ea12-5a39-423c-ad5f-445d3e52b3e5"
+        },
+        "791bc3f7-ffff-4637-bac1-dd8dcb02aabf": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "449f1b32-e07c-48bb-af2e-56f67ef63688",
+          "id": "791bc3f7-ffff-4637-bac1-dd8dcb02aabf"
+        },
+        "ffa2a68d-54a3-43aa-8d5b-340ee1ea4e78": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "98656cf6-ed69-45eb-ba97-ffe77bed9e4b",
+          "id": "ffa2a68d-54a3-43aa-8d5b-340ee1ea4e78"
+        },
+        "1a372113-2dda-4d63-ac48-a9ddc34993f6": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "184c8949-fbed-412a-ab6a-5dbfc559f9ae",
+          "id": "1a372113-2dda-4d63-ac48-a9ddc34993f6"
+        },
+        "957f9ef6-a10d-46be-bcf1-1abaa614eb07": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "8175b770-d1d8-4aed-9328-df581e0f51e3",
+          "id": "957f9ef6-a10d-46be-bcf1-1abaa614eb07"
+        },
+        "57971440-1883-450e-a1b0-405277020d45": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "65f5d163-fe0a-4807-a699-c77843633b51",
+          "id": "57971440-1883-450e-a1b0-405277020d45"
+        },
+        "a48ddcce-a5ed-4242-b461-1e0eecd8e437": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "3805a5df-267f-4e7e-bc5c-9be9f9f2528c",
+          "id": "a48ddcce-a5ed-4242-b461-1e0eecd8e437"
+        },
+        "95715f67-2a95-437f-b467-4e667512d786": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "969278a5-5973-4dc7-9d78-5d789326e0fc",
+          "id": "95715f67-2a95-437f-b467-4e667512d786"
+        },
+        "26152043-21e8-4082-9691-c706c37f84b7": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "44770e28-2c18-4fd2-be26-c8da1daa95ad",
+          "id": "26152043-21e8-4082-9691-c706c37f84b7"
+        },
+        "8a4f78cc-a2f6-4c4d-bce5-2cdaf2ebd6dd": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "e958ae0c-caa4-4b5d-b441-f94efe75c5d3",
+          "id": "8a4f78cc-a2f6-4c4d-bce5-2cdaf2ebd6dd"
+        },
+        "396fc05b-0717-4ae3-be17-cf1434e67713": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "6f96ef13-0310-4ab4-a99b-7f445416bf0c",
+          "id": "396fc05b-0717-4ae3-be17-cf1434e67713"
+        },
+        "a44b0327-0386-4e1e-ba2b-adc8f2a4356b": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "71742097-cd13-4a47-9008-1b4cdfc5cccf",
+          "id": "a44b0327-0386-4e1e-ba2b-adc8f2a4356b"
+        },
+        "6d90c1f2-aeda-49ec-82c3-91e7bf19d284": {
+          "from": "0572d941-2079-4d80-bb31-a7d7760320f7",
+          "to": "d4409ad8-b469-4bf3-b456-5039f044f155",
+          "id": "6d90c1f2-aeda-49ec-82c3-91e7bf19d284"
+        },
+        "8cc4ec2c-40c7-4384-b7c8-b3a499fd6572": {
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a52",
+          "to": "ecd814ed-2f75-43d9-a3e5-940659d798f9",
+          "id": "8cc4ec2c-40c7-4384-b7c8-b3a499fd6572"
+        },
+        "99433db6-dff7-413a-8d10-7fcc8f4dcbb4": {
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a52",
+          "to": "788029fd-ff7e-4802-a8cf-d987328c00e8",
+          "id": "99433db6-dff7-413a-8d10-7fcc8f4dcbb4"
+        },
+        "a927e9da-eb70-4575-8fed-c5276160df6d": {
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a52",
+          "to": "e5bc19d4-d856-41b7-aff5-751cce6ddfbc",
+          "id": "a927e9da-eb70-4575-8fed-c5276160df6d"
+        },
+        "61be041a-efc8-48e6-a8ef-42803a1ce5e5": {
+          "from": "566c0349-c798-4a31-8cd2-cd2b04e23641",
+          "to": "f79ec810-7f8f-43e8-b3b3-ff5cf20a66f8856673431",
+          "id": "61be041a-efc8-48e6-a8ef-42803a1ce5e5"
+        },
+        "e148f81a-6772-4c8c-a781-af084e31f13c": {
+          "from": "566c0349-c798-4a31-8cd2-cd2b04e23641",
+          "to": "cf78bc11-91c8-49c9-b678-3cd9aced5311856673431",
+          "id": "e148f81a-6772-4c8c-a781-af084e31f13c"
+        },
+        "7d803088-de7c-4a53-8da3-ecd0b395d70046": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7d803088-de7c-4a53-8da3-ecd0b395d70046",
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a5246",
+          "to": "56b4a16e-7f6f-43dd-8b86-21c907320ef746"
+        },
+        "60765b24-1b61-40ed-b653-3c185e0d241d46": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "60765b24-1b61-40ed-b653-3c185e0d241d46",
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a5246",
+          "to": "197e6cbd-0025-422a-a9e3-6cbaf730c78146"
+        },
+        "8cc4ec2c-40c7-4384-b7c8-b3a499fd657246": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8cc4ec2c-40c7-4384-b7c8-b3a499fd657246",
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a5246",
+          "to": "ecd814ed-2f75-43d9-a3e5-940659d798f946"
+        },
+        "99433db6-dff7-413a-8d10-7fcc8f4dcbb446": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "99433db6-dff7-413a-8d10-7fcc8f4dcbb446",
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a5246",
+          "to": "788029fd-ff7e-4802-a8cf-d987328c00e846"
+        },
+        "a927e9da-eb70-4575-8fed-c5276160df6d46": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "a927e9da-eb70-4575-8fed-c5276160df6d46",
+          "from": "b5a75d00-2736-42bc-902e-c1f2973d0a5246",
+          "to": "e5bc19d4-d856-41b7-aff5-751cce6ddfbc46"
+        },
+        "20325eb1-eb2d-483a-92ad-a29cdaaf793c": {
+          "from": "895ec753-df47-4281-ab31-88bdf834cb1f",
+          "to": "b40e2b67-2c9d-432a-8bcc-245539e58094",
+          "id": "20325eb1-eb2d-483a-92ad-a29cdaaf793c"
+        },
+        "3c5a7b7f-e228-4fcc-bb64-0371d2238193": {
+          "from": "b40e2b67-2c9d-432a-8bcc-245539e58094",
+          "to": "399e7ac6-99a8-46a8-a7d7-db8c203da395",
+          "id": "3c5a7b7f-e228-4fcc-bb64-0371d2238193"
+        },
+        "3d570ca4-df49-4346-9759-770b76a92b13": {
+          "from": "399e7ac6-99a8-46a8-a7d7-db8c203da395",
+          "to": "2fe7303c-951e-4e4a-bc95-3a0baff958f3",
+          "id": "3d570ca4-df49-4346-9759-770b76a92b13"
+        },
+        "b25112c6-e80c-4044-a3ca-3ea6dd1ebd2b": {
+          "from": "895ec753-df47-4281-ab31-88bdf834cb1f",
+          "to": "aaed8227-4a84-4086-83e6-7ef342977314",
+          "id": "b25112c6-e80c-4044-a3ca-3ea6dd1ebd2b"
+        },
+        "703fd9f8-8472-42bf-aa44-ab16e6b13a80": {
+          "from": "aaed8227-4a84-4086-83e6-7ef342977314",
+          "to": "238ab437-41db-4900-bab4-2b25f0976895",
+          "id": "703fd9f8-8472-42bf-aa44-ab16e6b13a80"
+        },
+        "6109ff99-38c3-49e2-9251-cc44d98e652f": {
+          "from": "aaed8227-4a84-4086-83e6-7ef342977314",
+          "to": "8c88e0b1-f495-4636-8b07-36b0943a4166",
+          "id": "6109ff99-38c3-49e2-9251-cc44d98e652f"
+        },
+        "5adc3925-a353-4cf6-9dc7-d3003d1065a0": {
+          "from": "aaed8227-4a84-4086-83e6-7ef342977314",
+          "to": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "id": "5adc3925-a353-4cf6-9dc7-d3003d1065a0"
+        },
+        "d4c5df10-1653-4d77-b8c9-cd0462c39081": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "f9d1dfde-5427-4226-8b99-27838382ceb6",
+          "id": "d4c5df10-1653-4d77-b8c9-cd0462c39081"
+        },
+        "faf7db9f-b8d0-4d4f-9c52-cf6084b7fd18": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "6400abd6-ad8a-4b2c-a268-f409c19c1f41",
+          "id": "faf7db9f-b8d0-4d4f-9c52-cf6084b7fd18"
+        },
+        "cd10fc20-caf7-4bdf-afd8-c9aa98aa9b56": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "64a5d815-3b0f-43bd-a00c-9d500bde73b8",
+          "id": "cd10fc20-caf7-4bdf-afd8-c9aa98aa9b56"
+        },
+        "02b7df4b-b095-4cb1-b187-e7e89b91f89e": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "078cd7b8-8c6c-421b-bc19-2ed5ebcb3623",
+          "id": "02b7df4b-b095-4cb1-b187-e7e89b91f89e"
+        },
+        "5916d857-2e77-45dd-a49d-d4830a0567f0": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "54e2a0dd-6d6e-4cfe-8996-f92adaf35217",
+          "id": "5916d857-2e77-45dd-a49d-d4830a0567f0"
+        },
+        "6053dde5-841b-445c-94ee-f4ba76e4415f": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "a749340c-842e-401d-82d3-ae5c882f4e10",
+          "id": "6053dde5-841b-445c-94ee-f4ba76e4415f"
+        },
+        "c734cace-3e7d-4e80-8998-c7c298e63b80": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "e63362b3-d978-430f-bca8-e067c99d2a9a",
+          "id": "c734cace-3e7d-4e80-8998-c7c298e63b80"
+        },
+        "21808969-80d4-479c-a6ca-f774eaaed1a4": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "064f8c52-1c4b-4835-82dc-0f70e69e188f",
+          "id": "21808969-80d4-479c-a6ca-f774eaaed1a4"
+        },
+        "9bc1711a-976a-459e-a0dc-2a1990e6528e": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "911fb026-2f39-4473-89e5-a0626029819e",
+          "id": "9bc1711a-976a-459e-a0dc-2a1990e6528e"
+        },
+        "1b8c8d60-fe47-4e4d-b2fa-6b2b750b1088": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "a0a226c1-66ed-4f14-b2e9-58127d95cbbd",
+          "id": "1b8c8d60-fe47-4e4d-b2fa-6b2b750b1088"
+        },
+        "a968fb57-330a-4f44-ac97-c94377d96ecc": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "4cc827b0-e766-4aaf-b997-6ac82608bf06",
+          "id": "a968fb57-330a-4f44-ac97-c94377d96ecc"
+        },
+        "275537b8-ef47-401c-a42f-d2bf6489ef9a": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "4b1d0bc8-ea0a-4883-a944-1d541a5dafd9",
+          "id": "275537b8-ef47-401c-a42f-d2bf6489ef9a"
+        },
+        "8389bfe9-a8dd-415c-a9e1-875135edfd74": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "19c060a4-fedd-4fb4-bf90-1fb89bc76df1",
+          "id": "8389bfe9-a8dd-415c-a9e1-875135edfd74"
+        },
+        "c9ec0291-751b-4635-8d44-f36c8536709f": {
+          "from": "8190274d-438a-400c-80e2-cffaf203da7c",
+          "to": "e44ca80c-7d91-4ae9-a45e-1a1dfce0f60c",
+          "id": "c9ec0291-751b-4635-8d44-f36c8536709f"
+        },
+        "c253da16-736e-49cf-8ca0-6327d4145e57": {
+          "from": "895ec753-df47-4281-ab31-88bdf834cb1f",
+          "to": "07a668c2-4fe8-4258-a5f6-74a037a18fb4",
+          "id": "c253da16-736e-49cf-8ca0-6327d4145e57"
+        },
+        "3280d089-cde3-4b29-8c4e-3ca7852fc4bc": {
+          "from": "895ec753-df47-4281-ab31-88bdf834cb1f",
+          "to": "8d9e674a-55d6-40b7-aea1-55462abb8d57",
+          "id": "3280d089-cde3-4b29-8c4e-3ca7852fc4bc"
+        },
+        "74728ee2-adc9-468b-a75c-196b78c734ab": {
+          "from": "895ec753-df47-4281-ab31-88bdf834cb1f",
+          "to": "f80d41f9-e3e4-4bb1-87b9-d02bfd64cd54",
+          "id": "74728ee2-adc9-468b-a75c-196b78c734ab"
         }
       },
       "length": 0,
@@ -46084,10 +46014,10 @@ var schemeData =
   },
   "dataCash": {},
   "setup": {
-    "scale": 0.0145,
+    "scale": 0.03562864919067605,
     "viewPosition": {
-      "x": 100403.0000013791,
-      "y": 10000.000003448302
+      "x": 110820.6234383435,
+      "y": -10090.919217790833
     }
   }
 }
