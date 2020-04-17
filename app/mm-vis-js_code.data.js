@@ -4992,8 +4992,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "mm-vis-js",
-          "x": 39560,
-          "y": -12372,
+          "x": 39571,
+          "y": -12185,
           "id": "e2167bbe-693e-4fc7-b91b-062bda693c27206369486",
           "shape": "box",
           "link": "",
@@ -5024,8 +5024,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 40193,
-          "y": -11990,
+          "x": 40204,
+          "y": -11803,
           "id": "24835ccd-b98b-4f2f-bd45-fcaa9f38b03e206369486"
         },
         "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486": {
@@ -5056,8 +5056,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/18/2019",
-          "x": 40443,
-          "y": -11990,
+          "x": 40454,
+          "y": -11803,
           "id": "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486",
           "shape": "box",
           "link": "",
@@ -5088,8 +5088,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 40343,
-          "y": -11990,
+          "x": 40354,
+          "y": -11803,
           "id": "f1d86e21-8dcb-40e1-a445-40bff68d13a2206369486"
         },
         "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486": {
@@ -5117,8 +5117,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 40193,
-          "y": -12840,
+          "x": 40204,
+          "y": -12653,
           "id": "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486"
         },
         "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486": {
@@ -5175,8 +5175,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 40401,
-          "y": -13365,
+          "x": 40412,
+          "y": -13178,
           "id": "636009f4-b1c7-4990-b4f0-2e2b3e654223206369486"
         },
         "8c615a75-12a2-4368-bdb9-f9e04619e711206369486": {
@@ -5204,8 +5204,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 40343,
-          "y": -12590,
+          "x": 40354,
+          "y": -12403,
           "id": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486"
         },
         "dadf8c81-d0a9-4bb9-b3aa-cb0e872ae663206369486": {
@@ -5233,8 +5233,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 40407,
-          "y": -12740,
+          "x": 40418,
+          "y": -12553,
           "id": "dadf8c81-d0a9-4bb9-b3aa-cb0e872ae663206369486"
         },
         "511de7c7-f954-47d9-b9cb-1d25114d124a206369486": {
@@ -5262,8 +5262,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 40437,
-          "y": -12715,
+          "x": 40448,
+          "y": -12528,
           "id": "511de7c7-f954-47d9-b9cb-1d25114d124a206369486"
         },
         "8c186da9-2d90-4752-87d5-9c51f01aaeaa206369486": {
@@ -5291,8 +5291,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 40403,
-          "y": -12690,
+          "x": 40414,
+          "y": -12503,
           "id": "8c186da9-2d90-4752-87d5-9c51f01aaeaa206369486"
         },
         "3ed80ff3-e9c7-41ad-ad41-4adcc9e92c6e206369486": {
@@ -5320,8 +5320,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 40422,
-          "y": -12665,
+          "x": 40433,
+          "y": -12478,
           "id": "3ed80ff3-e9c7-41ad-ad41-4adcc9e92c6e206369486"
         },
         "a15afc99-7e3d-4676-896b-4d56c1b237ac206369486": {
@@ -5349,8 +5349,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 40410,
-          "y": -12640,
+          "x": 40421,
+          "y": -12453,
           "id": "a15afc99-7e3d-4676-896b-4d56c1b237ac206369486"
         },
         "3b475dd0-8619-48b1-8235-0396f1c366b4206369486": {
@@ -5378,8 +5378,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 40432,
-          "y": -12615,
+          "x": 40443,
+          "y": -12428,
           "id": "3b475dd0-8619-48b1-8235-0396f1c366b4206369486"
         },
         "13be3cea-4aa2-4e7d-b72d-f3aabba738ad206369486": {
@@ -5407,8 +5407,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 40435,
-          "y": -12590,
+          "x": 40446,
+          "y": -12403,
           "id": "13be3cea-4aa2-4e7d-b72d-f3aabba738ad206369486"
         },
         "dd8c8df4-29ee-4c7a-b924-24858ff3c682206369486": {
@@ -5436,8 +5436,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 40413,
-          "y": -12565,
+          "x": 40424,
+          "y": -12378,
           "id": "dd8c8df4-29ee-4c7a-b924-24858ff3c682206369486"
         },
         "67d89cae-970e-4780-b211-e8ffa3ee085d206369486": {
@@ -5465,8 +5465,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 40404,
-          "y": -12540,
+          "x": 40415,
+          "y": -12353,
           "id": "67d89cae-970e-4780-b211-e8ffa3ee085d206369486"
         },
         "fc81f614-d532-41dd-aa0c-96a72dbe6b54206369486": {
@@ -5494,8 +5494,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 40431,
-          "y": -12515,
+          "x": 40442,
+          "y": -12328,
           "id": "fc81f614-d532-41dd-aa0c-96a72dbe6b54206369486"
         },
         "5b628386-e316-4c48-a084-b6b643206d6e206369486": {
@@ -5523,8 +5523,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 40418,
-          "y": -12490,
+          "x": 40429,
+          "y": -12303,
           "id": "5b628386-e316-4c48-a084-b6b643206d6e206369486"
         },
         "58b455fb-9348-4474-bcd5-2f5cb83b6804206369486": {
@@ -5552,8 +5552,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 40439,
-          "y": -12465,
+          "x": 40450,
+          "y": -12278,
           "id": "58b455fb-9348-4474-bcd5-2f5cb83b6804206369486"
         },
         "7bdb4374-cad2-40ec-97e8-3f40cfad4ee8206369486": {
@@ -5581,8 +5581,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 40404,
-          "y": -12440,
+          "x": 40415,
+          "y": -12253,
           "id": "7bdb4374-cad2-40ec-97e8-3f40cfad4ee8206369486"
         },
         "d1cae5c0-c183-4be9-a80b-1a59148d879a206369486": {
@@ -5610,8 +5610,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 40443,
-          "y": -12415,
+          "x": 40454,
+          "y": -12228,
           "id": "d1cae5c0-c183-4be9-a80b-1a59148d879a206369486"
         },
         "e7b46853-9d75-4bcc-814c-783971395afa206369486": {
@@ -5639,8 +5639,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 40193,
-          "y": -12290,
+          "x": 40204,
+          "y": -12103,
           "id": "e7b46853-9d75-4bcc-814c-783971395afa206369486"
         },
         "7a0a1963-1d69-425b-a067-3d6c97be0cc1206369486": {
@@ -5668,8 +5668,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 40193,
-          "y": -12190,
+          "x": 40204,
+          "y": -12003,
           "id": "7a0a1963-1d69-425b-a067-3d6c97be0cc1206369486"
         },
         "ec17b97c-f06f-4590-ab22-01ff94faf0eb206369486": {
@@ -5697,8 +5697,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 40193,
-          "y": -12090,
+          "x": 40204,
+          "y": -11903,
           "id": "ec17b97c-f06f-4590-ab22-01ff94faf0eb206369486"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206369486": {
@@ -5837,8 +5837,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj code setup for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c0978206200486",
-          "x": 39749,
-          "y": -11494,
+          "x": 39760,
+          "y": -11307,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5872,8 +5872,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "projectPath: /home/mike/progr/repo/mm-vis-js",
           "id": "1bbcc7a4-45a0-4ea9-9862-fe18f6b37371206200486",
-          "x": 40550,
-          "y": -11557,
+          "x": 40561,
+          "y": -11370,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5907,8 +5907,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "backupPaths: [\n\"/home/mike/progr/repo/mm-vis-js\"\n]",
           "id": "f5989e42-d06f-4d95-908e-2f58107e05aa200486",
-          "x": 40516,
-          "y": -11486,
+          "x": 40527,
+          "y": -11299,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8517,8 +8517,8 @@ var schemeData =
         },
         "b652df51-5798-4b35-86cd-12892f08855c": {
           "id": "b652df51-5798-4b35-86cd-12892f08855c",
-          "x": 40926,
-          "y": -13507,
+          "x": 40937,
+          "y": -13320,
           "label": "This is root scheme for mm-vis-js project. This scheme with red node \"mm-vis-js\"",
           "shape": "box",
           "link": "",
@@ -8534,20 +8534,20 @@ var schemeData =
         },
         "d3319a07-ad98-4ca7-a928-8cc003e5490b": {
           "id": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
-          "x": 40733,
-          "y": -13297,
+          "x": 40744,
+          "y": -13110,
           "label": "How to build project"
         },
         "d6a2f6ee-56a5-4221-be38-49c0a8364a71": {
           "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a71",
-          "x": 41106,
-          "y": -13388,
+          "x": 41117,
+          "y": -13201,
           "label": "start mvj-serv.js from mm-vis-js/utils/"
         },
         "52aee244-a92a-41a3-8b71-373d541e660d": {
           "id": "52aee244-a92a-41a3-8b71-373d541e660d",
-          "x": 41352,
-          "y": -13385,
+          "x": 41363,
+          "y": -13198,
           "label": "$ node mvj-serv.js",
           "shape": "box",
           "link": "",
@@ -8563,8 +8563,8 @@ var schemeData =
         },
         "8dcd7da6-9174-4a9a-92df-19ac2ef25745": {
           "id": "8dcd7da6-9174-4a9a-92df-19ac2ef25745",
-          "x": 41441,
-          "y": -13422,
+          "x": 41452,
+          "y": -13235,
           "label": "check port number in mvj-serv.js script - 3001.",
           "shape": "box",
           "link": "",
@@ -12787,15 +12787,15 @@ var schemeData =
         },
         "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc": {
           "id": "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc",
-          "x": 40714,
-          "y": -14044,
+          "x": 40725,
+          "y": -13857,
           "label": "git and github"
         },
         "44401bba-5383-432e-b905-25e85a0b60ec": {
           "id": "44401bba-5383-432e-b905-25e85a0b60ec",
-          "x": 41116,
-          "y": -14883,
-          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nadmin.html \\\nadmin.data.js \\\n../../sushilshik.github.io/",
+          "x": 41107,
+          "y": -14803,
+          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nnature.html \\\nnature.data.js \\\nadmin.html \\\nadmin.data.js \\\n../../sushilshik.github.io/",
           "shape": "box",
           "link": "",
           "font": {
@@ -12810,26 +12810,26 @@ var schemeData =
         },
         "c2fcf7e4-edc1-4ba0-954f-b05037a6eaf6": {
           "id": "c2fcf7e4-edc1-4ba0-954f-b05037a6eaf6",
-          "x": 40941,
-          "y": -14024,
+          "x": 40952,
+          "y": -13837,
           "label": "git commit -a -m \"...\""
         },
         "2823b7f4-aeee-41a2-a9bb-b779dbb40869": {
           "id": "2823b7f4-aeee-41a2-a9bb-b779dbb40869",
-          "x": 40906,
-          "y": -14074,
+          "x": 40917,
+          "y": -13887,
           "label": "git add ..."
         },
         "16527e97-6d7e-4abc-8608-be7027a620f1": {
           "id": "16527e97-6d7e-4abc-8608-be7027a620f1",
-          "x": 41296,
-          "y": -14076,
+          "x": 41307,
+          "y": -13889,
           "label": "check git add on sushilshik.github repository"
         },
         "5c1bb553-b81a-463c-bfe6-5653dde6fa05": {
           "id": "5c1bb553-b81a-463c-bfe6-5653dde6fa05",
-          "x": 40945,
-          "y": -13987,
+          "x": 40956,
+          "y": -13800,
           "label": "git push origin master"
         },
         "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396984": {
@@ -18216,21 +18216,21 @@ var schemeData =
         },
         "cfc75af6-4f65-4fae-8308-fd2667923cba": {
           "id": "cfc75af6-4f65-4fae-8308-fd2667923cba",
-          "x": 40728,
-          "y": -13638,
+          "x": 40739,
+          "y": -13451,
           "label": "packages to install"
         },
         "c595996f-5983-43b0-b6eb-a9d3e59cc728": {
           "id": "c595996f-5983-43b0-b6eb-a9d3e59cc728",
-          "x": 40947,
-          "y": -13685,
+          "x": 40958,
+          "y": -13498,
           "label": "nodejs"
         },
         "a99c189e-a108-47ac-8a01-aa4678b82167": {
           "label": "python",
           "link": "",
-          "x": 40947,
-          "y": -13661,
+          "x": 40958,
+          "y": -13474,
           "id": "a99c189e-a108-47ac-8a01-aa4678b82167",
           "color": {
             "highlight": {
@@ -18270,8 +18270,8 @@ var schemeData =
         "a75d2fd2-b354-40f0-ab91-4b42b4cecdfe": {
           "label": "TexLive",
           "link": "",
-          "x": 40950,
-          "y": -13637,
+          "x": 40961,
+          "y": -13450,
           "id": "a75d2fd2-b354-40f0-ab91-4b42b4cecdfe",
           "color": {
             "highlight": {
@@ -18311,8 +18311,8 @@ var schemeData =
         "08da45eb-6e33-45ff-9f57-fec8f14cad36": {
           "label": "tex-preview",
           "link": "",
-          "x": 40962,
-          "y": -13613,
+          "x": 40973,
+          "y": -13426,
           "id": "08da45eb-6e33-45ff-9f57-fec8f14cad36",
           "color": {
             "highlight": {
@@ -18352,8 +18352,8 @@ var schemeData =
         "5de10bf4-f4c6-40fe-b74f-b3718dde2a7d": {
           "label": "sympy",
           "link": "",
-          "x": 40946,
-          "y": -13589,
+          "x": 40957,
+          "y": -13402,
           "id": "5de10bf4-f4c6-40fe-b74f-b3718dde2a7d",
           "color": {
             "highlight": {
@@ -18393,8 +18393,8 @@ var schemeData =
         "31cf68ac-5ea0-49d5-b073-a5b00803385c": {
           "label": "texlive-collection-latexextra",
           "link": "",
-          "x": 41011,
-          "y": -13565,
+          "x": 41022,
+          "y": -13378,
           "id": "31cf68ac-5ea0-49d5-b073-a5b00803385c",
           "color": {
             "highlight": {
@@ -18433,14 +18433,14 @@ var schemeData =
         },
         "139b5f79-7cd8-4fdc-98f9-6e7147568804": {
           "id": "139b5f79-7cd8-4fdc-98f9-6e7147568804",
-          "x": 41001,
-          "y": -13877,
+          "x": 41012,
+          "y": -13690,
           "label": "Update links to images in image nodes"
         },
         "1ce3000f-7be3-4a5d-83dc-b2a241c43b13": {
           "id": "1ce3000f-7be3-4a5d-83dc-b2a241c43b13",
-          "x": 41759,
-          "y": -13926,
+          "x": 41770,
+          "y": -13739,
           "label": "network.body.data.nodes.get().forEach(function(node) {\n   if (typeof node[\"image\"] !== 'undefined') {\n      //Line to prepare for push to github.\n      //node.image = node.image.replace(\"https://localhost:3001\",\"\");\n      //Line to prepare for local work.\n      //node.image = node.image.replace(\"/public/imgs\",\"https://localhost:3001/public/imgs\");\n      network.body.data.nodes.update(node);\n   }\n});",
           "shape": "box",
           "link": "",
@@ -18456,8 +18456,8 @@ var schemeData =
         },
         "2865b4bd-3740-4fd2-a836-9593525b027d": {
           "id": "2865b4bd-3740-4fd2-a836-9593525b027d",
-          "x": 41271,
-          "y": -13920,
+          "x": 41282,
+          "y": -13733,
           "label": "run in console for page with images",
           "shape": "box",
           "link": "",
@@ -18473,39 +18473,39 @@ var schemeData =
         },
         "5472e948-ad81-437a-8bd8-f9765e8777f8": {
           "id": "5472e948-ad81-437a-8bd8-f9765e8777f8",
-          "x": 42257,
-          "y": -13935,
+          "x": 42268,
+          "y": -13748,
           "label": "Нужно доработать - съезжают координаты нод"
         },
         "1f688fbc-7696-45df-9d5c-28381d308013": {
           "id": "1f688fbc-7696-45df-9d5c-28381d308013",
-          "x": 41311,
-          "y": -13797,
+          "x": 41322,
+          "y": -13610,
           "label": "Replace paths in ...data.js file with vim. (Fast fix)"
         },
         "8a9c12c1-de84-4f11-a696-d1cc94917a8e": {
           "id": "8a9c12c1-de84-4f11-a696-d1cc94917a8e",
-          "x": 41700,
-          "y": -13795,
+          "x": 41711,
+          "y": -13608,
           "label": "%s/https:\\/\\/localhost:3001\\/public\\/imgs/\\/public\\/imgs/g"
         },
         "183893bf-717f-4c49-b0d4-1b92475efdab": {
           "id": "183893bf-717f-4c49-b0d4-1b92475efdab",
-          "x": 42251,
-          "y": -13895,
+          "x": 42262,
+          "y": -13708,
           "label": "Вместо этого пока исправляем ссылки в vim."
         },
         "3229baad-6f53-4142-bc59-2c8e92f423c2": {
           "id": "3229baad-6f53-4142-bc59-2c8e92f423c2",
-          "x": 41092,
-          "y": -13290,
+          "x": 41103,
+          "y": -13103,
           "label": "Select any mm-vis-js code node"
         },
         "d5e86797-7ced-425a-acf0-098fe10b13a2": {
           "label": "Press alt+b",
           "link": "",
-          "x": 41027,
-          "y": -13256,
+          "x": 41038,
+          "y": -13069,
           "id": "d5e86797-7ced-425a-acf0-098fe10b13a2",
           "color": {
             "highlight": {
@@ -18544,8 +18544,8 @@ var schemeData =
         },
         "cd466597-4aec-4fcd-9c59-d358faf174a7": {
           "id": "cd466597-4aec-4fcd-9c59-d358faf174a7",
-          "x": 41197,
-          "y": -13217,
+          "x": 41208,
+          "y": -13030,
           "label": "Wait for save alert on top right of page. Or even check messages\nin browser console that everything is ok.",
           "shape": "box",
           "link": "",
@@ -18561,8 +18561,8 @@ var schemeData =
         },
         "f02bdbcd-0b1b-4dc7-92fc-1ac7f7865995": {
           "id": "f02bdbcd-0b1b-4dc7-92fc-1ac7f7865995",
-          "x": 41818,
-          "y": -13423,
+          "x": 41829,
+          "y": -13236,
           "label": "Change it in mvj-serv.js and in build script above, if you need."
         },
         "728112b7-4bd1-4b65-84ed-1743b98f38d8": {
@@ -25211,9 +25211,9 @@ var schemeData =
         },
         "0412b23c-532f-4d72-a5f0-639724b79637": {
           "id": "0412b23c-532f-4d72-a5f0-639724b79637",
-          "x": 40479,
-          "y": -11410,
-          "label": "jsFilesLinksParam:120",
+          "x": 40490,
+          "y": -11223,
+          "label": "jsFilesLinksParam:121",
           "shape": "box",
           "link": "",
           "font": {
@@ -25228,8 +25228,8 @@ var schemeData =
         },
         "c190cd19-9713-456e-8ee8-712da7697fcd": {
           "id": "c190cd19-9713-456e-8ee8-712da7697fcd",
-          "x": 41295,
-          "y": -13331,
+          "x": 41306,
+          "y": -13144,
           "label": "Set incremental number in \"mvj code setup for project name: mm-vis-js\"->\"jsFilesLinksParam:...\"",
           "shape": "box",
           "link": "",
@@ -25245,8 +25245,8 @@ var schemeData =
         },
         "9e3d9ebf-0e62-4dd5-99d5-9e332eb78daa": {
           "id": "9e3d9ebf-0e62-4dd5-99d5-9e332eb78daa",
-          "x": 40491,
-          "y": -11357,
+          "x": 40502,
+          "y": -11170,
           "label": "readLocalUserConfig: false",
           "shape": "box",
           "link": "",
@@ -26122,8 +26122,8 @@ var schemeData =
         },
         "9670a512-d5dd-4e91-80f6-ef1c2437d730": {
           "id": "9670a512-d5dd-4e91-80f6-ef1c2437d730",
-          "x": 40715,
-          "y": -11355,
+          "x": 40726,
+          "y": -11168,
           "label": "set \"false\" for Github build",
           "shape": "box",
           "link": "",
@@ -60925,7 +60925,7 @@ var schemeData =
   "setup": {
     "scale": 0.01,
     "viewPosition": {
-      "x": 65673,
+      "x": 65672.99999999996,
       "y": 17507.999999999993
     }
   }
