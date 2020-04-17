@@ -46,11 +46,13 @@ var dontShowShemeDataMenuPagesList = [
    "news1.html",
    "news2.html",
    "news3.html",
+   "news4.html",
    "youtube.html",
    "base.html",
    "start_page.html",
    "tmp.html",
    "tmp1.html",
+   "nature.html",
    "timelines.html"
 ];
 var lastSelectedNodeId = null;
@@ -2377,6 +2379,27 @@ function buildRow(item, index, root) {
                color: {background:"#ffc63b"} 
             });
          });
+      } else if (newLabelLines[0] == "wiki") {
+         newLabelLines.shift();
+         var alignNodesList = [];
+         for (var i=0; i< newLabelLines.length; i++) {
+            var line = newLabelLines[i];
+            console.log(line);
+            link = "";
+            var wikiLinkPart = line.match(/.*?\[\[(.*?)\]\].*/);
+            if (wikiLinkPart != null) {
+               var linkPart = wikiLinkPart[1].replace(/\|.*/,"").trim();
+               link = "https://en.wikipedia.org/wiki/" + linkPart;
+            }
+            var nodeId = network.body.data.nodes.add({
+   	       label:line,
+               link: link,
+   	       x: pNode.x + 500,
+   	       y: pNode.y + 25*i 
+            })[0];
+            alignNodesList.push(network.body.nodes[nodeId]);
+         };
+         alignNodesLeft(alignNodesList);
       } else {
          newLabelLines.forEach(function(line,index) {
             var position = {
@@ -2781,7 +2804,10 @@ runNodeCodeButton.click(function() {
 	$("#network div.vis-network").focus();
    $("#network").keyup(function (event) {
       //Add new node under cursor. alt+n
-      if (event.altKey && event.keyCode === 78) {
+      if (event.altKey == true && 
+          event.shiftKey == false && 
+          event.ctrlKey == false &&
+          event.keyCode === 78) {
          var schemeDataMenuWidth = 0;
          if (document.getElementById("schemeDataMenu").style.display != "none") {
             schemeDataMenuWidth = parseInt(document.getElementById("schemeDataMenu").style.width.replace("px",""), 10);
@@ -2829,6 +2855,61 @@ runNodeCodeButton.click(function() {
          network.selectionHandler.selectObject(node);
          lastEditedNodesIds.push(nodeId);
          network.manipulation.editNode();
+      }
+   });
+   $(document).keyup(function (event) {
+      //Toggle "showData" menu. shift+alt+n
+      if (event.altKey == true && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 78) {
+         var fileName = window.location.href.split("/")[window.location.href.split("/").length-1];
+         var nodes = objectToArray(network.body.nodes);
+         rootCodeNode = null;
+         nodes.forEach(function(node) {
+            var node = getNodeFromNetworkDataById(node.id);
+            if (typeof node.label !== "undefined" &&
+               node.label.match(/.*download news code1.*/) != null) {
+               rootCodeNode = node;
+            }
+         });
+         console.log(rootCodeNode);
+
+         var positions = network.getPositions();
+         var cursorPointer = network.canvasToDOM(positions[rootCodeNode.id]);
+         var positionObject = network.selectionHandler._pointerToPositionObject(cursorPointer);
+         //var overlappingItemsIds = network.selectionHandler._getAllNodesOverlappingWith(positionObject);
+
+         network.selectionHandler.unselectAll();
+
+         //overlappingItemsIds.forEach(function(itemId) {
+         var node = network.body.nodes[rootCodeNode.id];
+         //   if (typeof node !== "undefined" && node != null && itemId != cursorNodeId) {
+            network.selectionHandler.selectObject(node);
+         //   }
+         //});
+         //lastClickPosition = cursorPointer;
+         network.selectionHandler._generateClickEvent('selectNode', event, cursorPointer);
+         network.selectionHandler.body.emitter.emit('_requestRedraw');
+         $("span#runNodeCodeButton").click();
+
+         var nodesIdInDrawing = [];
+         if (fileName == "news1.html") {
+            var newsRootNodeId = "031f622f-3fce-41a6-826f-f0b84fa7afc3";
+            var treeNodes = getTreeNodesAndEdges(newsRootNodeId).nodes;
+            for (var i = 0; i < treeNodes.length; i++) {
+               var node = treeNodes[i];
+               nodesIdInDrawing.push(node.id);
+            }
+         } else {
+            var allNodes = network.body.data.nodes.get();
+            for (var i = 0; i < allNodes.length; i++) {
+               var node = allNodes[i];
+               nodesIdInDrawing.push(node.id);
+            }
+         }
+         network.selectNodes(nodesIdInDrawing);
+         $("span#runNodeCodeButton").click();
       }
    });
    $(document).keyup(function (event) {
@@ -4166,7 +4247,7 @@ var moveCursorRightFast = false;
       }
    });
    $(document).keyup(function (event) {
-      //move to saved view position. shift+alt+n
+      //move to saved view position. shift+alt+number
       if (event.shiftKey && event.altKey 
          && (event.keyCode === 48 ||
              event.keyCode === 49 ||
@@ -4186,7 +4267,7 @@ var moveCursorRightFast = false;
       }
    });
    $(document).keyup(function (event) {
-      //Save view by n number. No nodes must be selected. ctrl+alt+n
+      //Save view by n number. No nodes must be selected. ctrl+alt+number
       if (event.altKey && event.ctrlKey 
          && (event.keyCode === 48 ||
              event.keyCode === 49 ||
@@ -4212,7 +4293,7 @@ var moveCursorRightFast = false;
       }
    });
    $(document).keyup(function (event) {
-      //Move clipboard nodes by n number to last click position. ctrl+alt+n
+      //Move clipboard nodes by n number to last click position. ctrl+shift+number
       if (event.shiftKey && event.ctrlKey 
          && (event.keyCode === 48 ||
              event.keyCode === 49 ||
@@ -4255,7 +4336,7 @@ var moveCursorRightFast = false;
       }
    });
    $(document).keyup(function (event) {
-      //Save selected nodes to clipboard by n number. ctrl+alt+n
+      //Save selected nodes to clipboard by n number. ctrl+alt+number
       if (event.altKey && event.ctrlKey 
          && (event.keyCode === 48 ||
              event.keyCode === 49 ||
