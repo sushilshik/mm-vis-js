@@ -2006,8 +2006,8 @@ var schemeData =
         },
         "58d1ee08-5ba5-4c7b-b71d-8ff90549740a": {
           "label": "Main\nMenu",
-          "x": 16323,
-          "y": 26380,
+          "x": 16300,
+          "y": 28204,
           "font": {
             "size": 72,
             "align": "left"
@@ -2023,26 +2023,26 @@ var schemeData =
         },
         "fad0d2f5-e805-42f8-81eb-34676e57823e": {
           "label": "Development",
-          "x": 16623,
-          "y": 26830,
+          "x": 16600,
+          "y": 28654,
           "id": "fad0d2f5-e805-42f8-81eb-34676e57823e"
         },
         "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8": {
           "label": "12/20/2019",
-          "x": 16756,
-          "y": 26830,
+          "x": 16733,
+          "y": 28654,
           "id": "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8"
         },
         "3749bab6-782f-4012-8bc4-6868c99ae90d": {
           "label": "init",
-          "x": 16873,
-          "y": 26830,
+          "x": 16850,
+          "y": 28654,
           "id": "3749bab6-782f-4012-8bc4-6868c99ae90d"
         },
         "e84a77bd-9fe9-49e4-bd78-36357ed45eac": {
           "label": "Notes",
-          "x": 16600,
-          "y": 25980,
+          "x": 16577,
+          "y": 27804,
           "id": "e84a77bd-9fe9-49e4-bd78-36357ed45eac"
         },
         "e471ec0c-362c-4f2b-b7c4-2841070254df": {
@@ -2053,122 +2053,122 @@ var schemeData =
         },
         "8603b647-7c2d-4c72-a50c-3112d91ae9fd": {
           "label": "Details, thoughts",
-          "x": 16781,
-          "y": 25844,
+          "x": 16758,
+          "y": 27668,
           "id": "8603b647-7c2d-4c72-a50c-3112d91ae9fd"
         },
         "7899b947-be30-4c88-8104-5530af5f2d8e": {
           "label": "Sections",
-          "x": 16747,
-          "y": 26230,
+          "x": 16724,
+          "y": 28054,
           "id": "7899b947-be30-4c88-8104-5530af5f2d8e"
         },
         "774cc87a-d706-4c5e-a071-c3e570be814f": {
           "label": "Books",
-          "x": 16837,
-          "y": 26080,
+          "x": 16814,
+          "y": 27904,
           "id": "774cc87a-d706-4c5e-a071-c3e570be814f"
         },
         "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf": {
           "label": "R&D institutions",
-          "x": 16868,
-          "y": 26105,
+          "x": 16845,
+          "y": 27929,
           "id": "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf"
         },
         "fcb25b61-b679-407b-bad7-328430ba3627": {
           "label": "Sites",
-          "x": 16833,
-          "y": 26130,
+          "x": 16810,
+          "y": 27954,
           "id": "fcb25b61-b679-407b-bad7-328430ba3627"
         },
         "1156c7a0-91c8-415c-bb5d-d716b709e4a9": {
           "label": "Magazines",
-          "x": 16852,
-          "y": 26155,
+          "x": 16829,
+          "y": 27979,
           "id": "1156c7a0-91c8-415c-bb5d-d716b709e4a9"
         },
         "40f5b217-7079-4841-b85d-a4028fec7130": {
           "label": "Articles",
-          "x": 16841,
-          "y": 26180,
+          "x": 16818,
+          "y": 28004,
           "id": "40f5b217-7079-4841-b85d-a4028fec7130"
         },
         "eb4fdd92-f0c9-4b9f-a324-e8c758391efa": {
           "label": "Media content",
-          "x": 16863,
-          "y": 26205,
+          "x": 16840,
+          "y": 28029,
           "id": "eb4fdd92-f0c9-4b9f-a324-e8c758391efa"
         },
         "8e6bd954-292d-4ed8-b7a3-69308a73ae12": {
           "label": "Misc. web links",
-          "x": 16865,
-          "y": 26230,
+          "x": 16842,
+          "y": 28054,
           "id": "8e6bd954-292d-4ed8-b7a3-69308a73ae12"
         },
         "98df6a56-96a2-40aa-b6d0-6c6a7f58f098": {
           "label": "Projects",
-          "x": 16843,
-          "y": 26255,
+          "x": 16820,
+          "y": 28079,
           "id": "98df6a56-96a2-40aa-b6d0-6c6a7f58f098"
         },
         "a35b8d71-f5f4-45f3-88a0-f51a5579b16b": {
           "label": "Tools",
-          "x": 16835,
-          "y": 26280,
+          "x": 16812,
+          "y": 28104,
           "id": "a35b8d71-f5f4-45f3-88a0-f51a5579b16b"
         },
         "763ae497-9ab0-4119-908e-4cc8a0a10757": {
           "label": "Organizations",
-          "x": 16862,
-          "y": 26305,
+          "x": 16839,
+          "y": 28129,
           "id": "763ae497-9ab0-4119-908e-4cc8a0a10757"
         },
         "3ac6cf0e-e35d-4f5c-afa7-54274021773f": {
           "label": "Standarts",
-          "x": 16848,
-          "y": 26330,
+          "x": 16825,
+          "y": 28154,
           "id": "3ac6cf0e-e35d-4f5c-afa7-54274021773f"
         },
         "fa51e725-fed1-41e2-93ff-6c650595f637": {
           "label": "Forums, Groups",
-          "x": 16870,
-          "y": 26355,
+          "x": 16847,
+          "y": 28179,
           "id": "fa51e725-fed1-41e2-93ff-6c650595f637"
         },
         "49872021-d638-4aaf-b83c-98e5bc8dca80": {
           "label": "Laws",
-          "x": 16834,
-          "y": 26380,
+          "x": 16811,
+          "y": 28204,
           "id": "49872021-d638-4aaf-b83c-98e5bc8dca80"
         },
         "d9dc0df7-2a39-497f-a6f2-0b9808f09c69": {
           "label": "Adjacent Themes",
-          "x": 16873,
-          "y": 26405,
+          "x": 16850,
+          "y": 28229,
           "id": "d9dc0df7-2a39-497f-a6f2-0b9808f09c69"
         },
         "768d541a-394e-475e-b29b-03b97ff2be19": {
           "label": "Questions",
-          "x": 16613,
-          "y": 26530,
+          "x": 16590,
+          "y": 28354,
           "id": "768d541a-394e-475e-b29b-03b97ff2be19"
         },
         "c6cef5ea-0ff0-45c3-811a-c416c5d13873": {
           "label": "Problems",
-          "x": 16611,
-          "y": 26630,
+          "x": 16588,
+          "y": 28454,
           "id": "c6cef5ea-0ff0-45c3-811a-c416c5d13873"
         },
         "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06": {
           "label": "Goals",
-          "x": 16600,
-          "y": 26730,
+          "x": 16577,
+          "y": 28554,
           "id": "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06"
         },
         "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c": {
           "id": "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c",
-          "x": 17118,
-          "y": 25691,
+          "x": 17095,
+          "y": 27515,
           "label": "This scheme contains links to mm-vis-js pages.",
           "shape": "box",
           "link": "",
@@ -2184,8 +2184,8 @@ var schemeData =
         },
         "dacb0e5f-35a8-4605-ac1c-4852eddfc77c": {
           "id": "dacb0e5f-35a8-4605-ac1c-4852eddfc77c",
-          "x": 17207,
-          "y": 25800,
+          "x": 17184,
+          "y": 27624,
           "label": "Links to mm-vis-js pages are the same as in \"mm-vis-js pages list\" scheme.",
           "shape": "box",
           "link": "",
@@ -2201,32 +2201,32 @@ var schemeData =
         },
         "b5d67935-0013-48a9-bf36-d44995b85787": {
           "id": "b5d67935-0013-48a9-bf36-d44995b85787",
-          "x": 17667,
-          "y": 25800,
+          "x": 17644,
+          "y": 27624,
           "label": "\"mm-vis-js pages list\" scheme is in top left of this page"
         },
         "06674058-70e6-4712-a3e6-bfb4c2c04a85": {
           "id": "06674058-70e6-4712-a3e6-bfb4c2c04a85",
-          "x": 17740,
-          "y": 25834,
+          "x": 17717,
+          "y": 27658,
           "label": "\"mm-vis-js pages list\" scheme located on all mm-vis-js pages on their top left."
         },
         "29624334-2af8-451d-b675-f1cc64e03380": {
           "id": "29624334-2af8-451d-b675-f1cc64e03380",
-          "x": 17084,
-          "y": 25728,
+          "x": 17061,
+          "y": 27552,
           "label": "This scheme is just for convenience."
         },
         "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3": {
           "id": "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3",
-          "x": 17047,
-          "y": 25975,
+          "x": 17024,
+          "y": 27799,
           "label": "This page is \"index.html\""
         },
         "fa1cdcb3-3273-4708-bcd1-739ee674fba2": {
           "id": "fa1cdcb3-3273-4708-bcd1-739ee674fba2",
-          "x": 17259,
-          "y": 25976,
+          "x": 17236,
+          "y": 27800,
           "label": "It purpose is to be \"main page\"",
           "shape": "box",
           "link": "",
@@ -2242,32 +2242,32 @@ var schemeData =
         },
         "64acc704-cf3f-47a0-8c94-49af5c116831": {
           "id": "64acc704-cf3f-47a0-8c94-49af5c116831",
-          "x": 17149,
-          "y": 25886,
+          "x": 17126,
+          "y": 27710,
           "label": "Each big node with page name contains link to this page."
         },
         "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf": {
           "id": "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf",
-          "x": 17436,
-          "y": 25884,
+          "x": 17413,
+          "y": 27708,
           "label": "How to use this links?"
         },
         "009701c1-d7ed-4fbb-a76f-7502bacdc667": {
           "id": "009701c1-d7ed-4fbb-a76f-7502bacdc667",
-          "x": 17596,
-          "y": 25883,
+          "x": 17573,
+          "y": 27707,
           "label": "1) Select big node"
         },
         "250f8b30-2e4d-47d0-a4de-e382a59e799a": {
           "id": "250f8b30-2e4d-47d0-a4de-e382a59e799a",
-          "x": 17709,
-          "y": 25919,
+          "x": 17686,
+          "y": 27743,
           "label": "2) Click openLinkButton - blue button on the left menu"
         },
         "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc": {
           "id": "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc",
-          "x": 17421,
-          "y": 25729,
+          "x": 17398,
+          "y": 27553,
           "label": "It is easy to select big nodes with pages links from bird view.",
           "shape": "box",
           "link": "",
@@ -2819,7 +2819,7 @@ var schemeData =
           "label": "timelines.html",
           "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289",
           "x": 22306,
-          "y": 23892,
+          "y": 26083,
           "shape": "box",
           "link": "timelines.html",
           "borderWidth": ""
@@ -2853,7 +2853,7 @@ var schemeData =
           "label": "news4.html",
           "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377",
           "x": 21778,
-          "y": 20356,
+          "y": 20440,
           "shape": "box",
           "link": "news4.html",
           "borderWidth": ""
@@ -2889,7 +2889,7 @@ var schemeData =
           "label": "nature.html",
           "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289759",
           "x": 21751,
-          "y": 22142,
+          "y": 24333,
           "shape": "box",
           "link": "nature.html",
           "borderWidth": ""
@@ -4598,6 +4598,42 @@ var schemeData =
           "shape": "box",
           "link": "",
           "borderWidth": "0"
+        },
+        "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562316": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "news5.html",
+          "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562316",
+          "x": 21778,
+          "y": 22362,
+          "shape": "box",
+          "link": "news5.html",
+          "borderWidth": ""
         }
       },
       "length": 0,
@@ -8851,6 +8887,31 @@ var schemeData =
           "from": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981",
           "to": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981549661471",
           "id": "df6ad187-7346-4e2e-95c9-88a37b0cb0aa"
+        },
+        "f623f2b8-abe8-4d05-9c4a-80f6344fa273316": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "f623f2b8-abe8-4d05-9c4a-80f6344fa273316",
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df316",
+          "to": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562316"
         }
       },
       "length": 0,
@@ -8901,7 +8962,7 @@ var schemeData =
     "scale": 0.0167,
     "viewPosition": {
       "x": 15702.999999041913,
-      "y": 7380.000004850302
+      "y": 7380.000004850295
     }
   }
 }

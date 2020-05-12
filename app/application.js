@@ -47,13 +47,16 @@ var dontShowShemeDataMenuPagesList = [
    "news2.html",
    "news3.html",
    "news4.html",
-   "youtube.html",
+   "news5.html",
+   "youtube1.html",
+   "youtube2.html",
    "base.html",
    "start_page.html",
    "tmp.html",
    "tmp1.html",
    "nature.html",
-   "timelines.html"
+   "timelines.html",
+   "music.html"
 ];
 var lastSelectedNodeId = null;
 var userConfData = undefined
@@ -699,6 +702,80 @@ function duplicateGraph(nodes, edges) {
 				network.selectionHandler.selectObject(newEdge);
 			});
 			network.selectionHandler.setSelection(network.selectionHandler.getSelection());
+   return data;
+}
+function multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0) {
+   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
+   var nodes = [];
+   var nodesPositions = network.getPositions();
+   selectedNodes.forEach(function(node) {
+      var nodeD = getNodeFromNetworkDataById(node.id);
+      pNode = nodesPositions[node.id];
+      nodeD.x = pNode.x;
+      nodeD.y = pNode.y;
+      network.body.data.nodes.update(nodeD);
+      nodes.push(getNodeFromNetworkDataById(node.id));
+   });
+   var edges = []
+   selectedEdges.forEach(function(edge) {
+      edges.push(network.body.data.edges.get(edge.id));
+   });
+
+   var data = {
+      nodes: {},
+      edges: {}
+   };
+			
+   nodes1ToCopy = {}; 
+   nodes.forEach(function(item) {
+      nodes1ToCopy[item.id.toString()] = item;
+   });
+   data.nodes = nodes1ToCopy;
+
+   var edges1ToCopy = {}; 
+   edges.forEach(function(item) {
+      edges1ToCopy[item.id.toString()] = item;
+   });
+   data.edges = edges1ToCopy;
+   var label = JSON.stringify(data, undefined, 1);
+   var data = JSON.parse(label);
+   var date = new Date();
+   //var idPostfix = date.getMilliseconds().toString().substring(-7).toString();
+   network.selectionHandler.unselectAll();
+   var nodesArray = objectToArray(data.nodes);
+      for (var j=0; j < nodesArray.length; j++) {
+         var node = nodesArray[j];
+         node.oldId = node.id;
+      }
+   var edgesArray = objectToArray(data.edges);
+      for (var k=0; k < edgesArray.length; k++) {
+         var edge = edgesArray[k];
+         edge.oldId = edge.id;	
+         edge.oldFrom = edge.from;
+         edge.oldTo = edge.to;
+      }
+   for (var i=0; i < multiplyCount; i++) {
+      for (var j=0; j < nodesArray.length; j++) {
+         var node = nodesArray[j];
+         node.id = node.oldId + idPostfix + String(idCounterPostfixStart + i);
+         node.x = node.x + xShift; 
+         node.y = node.y + yShift; 
+         var newNode = network.nodesHandler.create(node);
+         network.body.data.nodes.add(newNode.options);
+         network.selectionHandler.selectObject(newNode);
+      }
+      for (var k=0; k < edgesArray.length; k++) {
+         var edge = edgesArray[k];
+         edge.id = edge.oldId + idPostfix + String(idCounterPostfixStart + i);	
+         edge.from = edge.oldFrom + idPostfix + String(idCounterPostfixStart + i);
+         edge.to = edge.oldTo + idPostfix + String(idCounterPostfixStart + i);
+         var newEdge = network.edgesHandler.create(edge);
+         network.body.data.edges.add(newEdge.options);
+         network.selectionHandler.selectObject(newEdge);
+      }
+   }
+   network.selectionHandler.setSelection(network.selectionHandler.getSelection());
    return data;
 }
 function calcSymPy(symPyData, codeNodeId) {
@@ -1576,33 +1653,37 @@ function draw() {
 	    else {doubleClick = false;}
 	},doubleClickTimeThreshold);
 	}
-	function doOnClick(e) {
-		if (nodesToPaste.length > 0) {
-			//console.log(e.event.srcEvent);
-			var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})
-			var topLeftNodeX = nodesToPaste[0].x;
-			var topLeftNodeY = nodesToPaste[0].y;
-			nodesToPaste.forEach(function(node) {
-				if (node.x < topLeftNodeX && node.y < topLeftNodeY) {
-					topLeftNodeX = node.x;
-					topLeftNodeY = node.y;
-				}
-			});
-			nodesToPaste.forEach(function(node) {
-				var shiftX = - topLeftNodeX + parseFloat((position.x).toFixed(5));
-				var shiftY = - topLeftNodeY + parseFloat((position.y).toFixed(5));
-				node.x = node.x + shiftX;
-				node.y = node.y + shiftY;
-				var newNode = network.nodesHandler.create(node);
-				network.body.data.nodes.add(newNode.options);
-			});
-			edgesToPaste.forEach(function(edge) {
-				var newEdge = network.edgesHandler.create(edge);
-				network.body.data.edges.add(newEdge.options);
-			});
-			nodesToPaste = [];
-			edgesToPaste = [];
-		}
+function doOnClick(e) {
+   if (nodesToPaste.length > 0) {
+      //console.log(e.event.srcEvent);
+      var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})
+      var topLeftNodeX = nodesToPaste[0].x;
+      var topLeftNodeY = nodesToPaste[0].y;
+      for(var i=0; i<nodesToPaste.length; i++) {
+         var node = nodesToPaste[i];
+         if (node.x < topLeftNodeX && node.y < topLeftNodeY) {
+            topLeftNodeX = node.x;
+            topLeftNodeY = node.y;
+         }
+      }
+      for(var i=0; i<nodesToPaste.length; i++) {
+         var node = nodesToPaste[i];
+         var shiftX = - topLeftNodeX + parseFloat((position.x).toFixed(5));
+         var shiftY = - topLeftNodeY + parseFloat((position.y).toFixed(5));
+         node.x = node.x + shiftX;
+         node.y = node.y + shiftY;
+         console.log(i + " " + node.id)
+         var newNode = network.nodesHandler.create(node);
+         network.body.data.nodes.add(newNode.options);
+      }
+      for(var i=0; i<edgesToPaste.length; i++) {
+         var edge = edgesToPaste[i];
+         var newEdge = network.edgesHandler.create(edge);
+         network.body.data.edges.add(newEdge.options);
+      }
+      nodesToPaste = [];
+      edgesToPaste = [];
+   }
       if (themeGraph) {
          var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y});
          buildThemeGraph("New Theme Name", position.x, position.y);
@@ -4698,6 +4779,9 @@ function help() {
    console.log("countSelectedNodesAndEdges()");
    console.log("hideAllToDownloadNews()");
    console.log("restoreAllAfterNewsDownload()");
+   console.log("viewLink()");
+   console.log("tG(multiplyCount, idPostfix, xShift, yShift, dateLine = '', idCounterPostfixStart = 0)");
+   console.log("multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0)");
 }
 
 function hideAllToDownloadNews(selectedNodesIds, selectedEdgesIds) {
@@ -4759,4 +4843,118 @@ function restoreAllAfterNewsDownload() {
 
    delete dataCash["hideAllForNewsDownload"];
    updateMenuFromScheme([],[]);
+}
+var newThemeGraphTemplate = {"nodes":{
+"e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b8565582823680":{"color":{"highlight":{},"hover":{},"background":"#ffc63b"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":1000,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"mm-vis-js pages list","id":"e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b8565582823680","x":10945,"y":-19926,"shape":"box","link":"","borderWidth":"","oldId":"e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558282368"},
+"92f53a00-cf65-456f-bfcf-6f6c88119d5b1471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"R&D institutions","x":4954,"y":-19177,"id":"92f53a00-cf65-456f-bfcf-6f6c88119d5b1471268270","oldId":"92f53a00-cf65-456f-bfcf-6f6c88119d5b147126827"},
+"75ff23b4-3d0f-4c06-8061-4069494a326f1471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Sites","x":4920,"y":-19152,"id":"75ff23b4-3d0f-4c06-8061-4069494a326f1471268270","oldId":"75ff23b4-3d0f-4c06-8061-4069494a326f147126827"},
+"1bc92ea3-79ba-4d40-816c-35cedc1c74bf1471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Magazines","x":4939,"y":-19127,"id":"1bc92ea3-79ba-4d40-816c-35cedc1c74bf1471268270","oldId":"1bc92ea3-79ba-4d40-816c-35cedc1c74bf147126827"},
+"2d9049d8-feaf-41cd-afb1-87515557983e1471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Articles","x":4927,"y":-19102,"id":"2d9049d8-feaf-41cd-afb1-87515557983e1471268270","oldId":"2d9049d8-feaf-41cd-afb1-87515557983e147126827"},
+"51a5b447-fa28-4997-80ca-b7a96a69ef9e1471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Media content","x":4949,"y":-19077,"id":"51a5b447-fa28-4997-80ca-b7a96a69ef9e1471268270","oldId":"51a5b447-fa28-4997-80ca-b7a96a69ef9e147126827"},
+"8a139418-94d2-4121-94a4-dfsa26213d241471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Misc. web links","x":4950,"y":-18945,"id":"8a139418-94d2-4121-94a4-dfsa26213d241471268270","oldId":"8a139418-94d2-4121-94a4-dfsa26213d24147126827"},
+"76fc5be1-7bae-46ec-a649-1bc6509b378d1471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Projects","x":4932,"y":-18811,"id":"76fc5be1-7bae-46ec-a649-1bc6509b378d1471268270","oldId":"76fc5be1-7bae-46ec-a649-1bc6509b378d147126827"},
+"21dc8bf2-6e0c-42cf-b702-d47f24af173a1471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Tools","x":4923,"y":-18786,"id":"21dc8bf2-6e0c-42cf-b702-d47f24af173a1471268270","oldId":"21dc8bf2-6e0c-42cf-b702-d47f24af173a147126827"},
+"1f9b98e7-ca75-443c-952d-a1d0ba4766521471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Organizations","x":4950,"y":-18761,"id":"1f9b98e7-ca75-443c-952d-a1d0ba4766521471268270","oldId":"1f9b98e7-ca75-443c-952d-a1d0ba476652147126827"},
+"f9c77b6e-13d7-4687-9d7f-e858e5cf56851471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Standarts","x":4937,"y":-18736,"id":"f9c77b6e-13d7-4687-9d7f-e858e5cf56851471268270","oldId":"f9c77b6e-13d7-4687-9d7f-e858e5cf5685147126827"},
+"f13fa072-1d46-45b2-b2b1-679177d88ba61471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Laws","x":4923,"y":-18686,"id":"f13fa072-1d46-45b2-b2b1-679177d88ba61471268270","oldId":"f13fa072-1d46-45b2-b2b1-679177d88ba6147126827"},
+"ab382182-58b3-4799-ad70-5340f6f6e88d1471268270":{"color":{"highlight":{},"hover":{}},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Adjacent Themes","x":4962,"y":-18661,"id":"ab382182-58b3-4799-ad70-5340f6f6e88d1471268270","oldId":"ab382182-58b3-4799-ad70-5340f6f6e88d147126827"},
+"1376bcb3-aff5-472c-b93a-4e636983a1672278270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Details, thoughts","id":"1376bcb3-aff5-472c-b93a-4e636983a1672278270","x":4868,"y":-19310,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a167227827"},
+"1376bcb3-aff5-472c-b93a-4e636983a1677768270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Questions","id":"1376bcb3-aff5-472c-b93a-4e636983a1677768270","x":4704,"y":-18556,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a167776827"},
+"1376bcb3-aff5-472c-b93a-4e636983a1678r5t270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Problems","id":"1376bcb3-aff5-472c-b93a-4e636983a1678r5t270","x":4702,"y":-18460,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a1678r5t27"},
+"1376bcb3-aff5-472c-b93a-4e636983a1678678270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Goals","id":"1376bcb3-aff5-472c-b93a-4e636983a1678678270","x":4691,"y":-18366,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a167867827"},
+"1376bcb3-aff5-472c-b93a-4e636983a1677djk270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Development","id":"1376bcb3-aff5-472c-b93a-4e636983a1677djk270","x":4714,"y":-18241,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a1677djk27"},
+"1376bcb3-aff5-472c-b93a-4e636983a167558270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"init","id":"1376bcb3-aff5-472c-b93a-4e636983a167558270","x":5000,"y":-18241,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a16755827"},
+"1376bcb3-aff5-472c-b93a-4e636983a1674785098270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Notes","id":"1376bcb3-aff5-472c-b93a-4e636983a1674785098270","x":4689,"y":-19304,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a167478509827"},
+"1376bcb3-aff5-472c-b93a-4e636983a1672278628270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Sections","id":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","x":4842,"y":-18934,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a167227862827"},
+"1376bcb3-aff5-472c-b93a-4e636983a167227862278270":{"color":{"highlight":{},"hover":{},"background":"#ffd570","border":""},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"4/28/2020","id":"1376bcb3-aff5-472c-b93a-4e636983a167227862278270","x":4853,"y":-18237,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a16722786227827"},
+"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270":{"color":{"highlight":{},"hover":{},"background":"red"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":72,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"mm-vis-js pages list","id":"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270","x":4234,"y":-18709,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a167227862146827"},
+"1376bcb3-aff5-472c-b93a-4e636983a167227862958270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Books","id":"1376bcb3-aff5-472c-b93a-4e636983a167227862958270","x":4924,"y":-19202,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a16722786295827"},
+"1376bcb3-aff5-472c-b93a-4e636983a1672278624278270":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Forums, Groups","id":"1376bcb3-aff5-472c-b93a-4e636983a1672278624278270","x":4958,"y":-18711,"shape":"box","link":"","borderWidth":"0","oldId":"1376bcb3-aff5-472c-b93a-4e636983a167227862427827"},
+"aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330":{"color":{"highlight":{},"hover":{},"background":"#ffd570"},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"Dictionary of\nconcepts","id":"aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330","x":4855,"y":-20050,"shape":"box","link":"","borderWidth":"0","oldId":"aac1163f-fc2b-4f9c-a767-e2e19d8bd93b533"},
+"aky1163f-fc2b-4f9c-a767-e2e19d8bd93b5330521":{"color":{"highlight":{},"hover":{},"background":"#ffd570","border":""},"fixed":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{},"size":14,"align":"left"},"icon":{},"imagePadding":{},"margin":{},"scaling":{"label":{"enabled":false}},"shadow":{"enabled":false},"shapeProperties":{},"label":"some link","id":"aky1163f-fc2b-4f9c-a767-e2e19d8bd93b5330521","x":5248,"y":-18948,"shape":"box","link":"","borderWidth":"0","oldId":"aky1163f-fc2b-4f9c-a767-e2e19d8bd93b533"}},
+"edges":{
+"eaa61b14-72fb-4196-983b-04facd8cb0aa8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"eaa61b14-72fb-4196-983b-04facd8cb0aa8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"92f53a00-cf65-456f-bfcf-6f6c88119d5b1471268270"},
+"f5b51ca3-a326-4f80-8963-5451be1cb7b18270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"f5b51ca3-a326-4f80-8963-5451be1cb7b18270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"75ff23b4-3d0f-4c06-8061-4069494a326f1471268270"},
+"d15d32d4-4a4c-452c-8b7d-ee712d79d46d8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"d15d32d4-4a4c-452c-8b7d-ee712d79d46d8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"1bc92ea3-79ba-4d40-816c-35cedc1c74bf1471268270"},
+"4d124ee3-251c-46ef-b9dc-02259578bd828270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"4d124ee3-251c-46ef-b9dc-02259578bd828270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"2d9049d8-feaf-41cd-afb1-87515557983e1471268270"},
+"84962dff-2ade-4e6e-9736-ff8910f4b84b8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"84962dff-2ade-4e6e-9736-ff8910f4b84b8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"51a5b447-fa28-4997-80ca-b7a96a69ef9e1471268270"},
+"6c7bf4ec-c6d4-461a-9a09-62061ea5d86c8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"6c7bf4ec-c6d4-461a-9a09-62061ea5d86c8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"8a139418-94d2-4121-94a4-dfsa26213d241471268270"},
+"253208f5-9f69-4217-b9c5-7a8a3133126c8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"253208f5-9f69-4217-b9c5-7a8a3133126c8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"76fc5be1-7bae-46ec-a649-1bc6509b378d1471268270"},
+"2a47ff1f-d53c-4ca4-9b90-de236121ef298270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"2a47ff1f-d53c-4ca4-9b90-de236121ef298270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"21dc8bf2-6e0c-42cf-b702-d47f24af173a1471268270"},
+"6e1a4f97-4c23-49f8-a994-767bca90e9bb8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"6e1a4f97-4c23-49f8-a994-767bca90e9bb8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"1f9b98e7-ca75-443c-952d-a1d0ba4766521471268270"},
+"2ed0fb1c-3b49-4e1a-bace-50e38e42cd668270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"2ed0fb1c-3b49-4e1a-bace-50e38e42cd668270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"f9c77b6e-13d7-4687-9d7f-e858e5cf56851471268270"},
+"e0510208-6718-4ea3-97f2-774c7ddfb4c58270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"e0510208-6718-4ea3-97f2-774c7ddfb4c58270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"f13fa072-1d46-45b2-b2b1-679177d88ba61471268270"},
+"05e00442-339d-4ad8-aa08-5035109b9a088270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"05e00442-339d-4ad8-aa08-5035109b9a088270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"ab382182-58b3-4799-ad70-5340f6f6e88d1471268270"},
+"e75445bf-21c5-43ee-ac41-09c54bde5ebd8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"e75445bf-21c5-43ee-ac41-09c54bde5ebd8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1674785098270","to":"1376bcb3-aff5-472c-b93a-4e636983a1672278270"},"c201fb5e-cf1d-4de2-bf7d-cf767486b0418270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"c201fb5e-cf1d-4de2-bf7d-cf767486b0418270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270","to":"1376bcb3-aff5-472c-b93a-4e636983a1677768270"},
+"fa2c2ae2-8508-4761-b4bd-f9d42f6b3ffe8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"fa2c2ae2-8508-4761-b4bd-f9d42f6b3ffe8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270","to":"1376bcb3-aff5-472c-b93a-4e636983a1678r5t270"},
+"18de459f-33b2-4989-aae7-7fc401290c938270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"18de459f-33b2-4989-aae7-7fc401290c938270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270","to":"1376bcb3-aff5-472c-b93a-4e636983a1678678270"},
+"6107d249-e5a4-456b-911e-387569d3ea8b8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"6107d249-e5a4-456b-911e-387569d3ea8b8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1677djk270","to":"1376bcb3-aff5-472c-b93a-4e636983a167227862278270"},"46187ebb-0252-4fe0-aeeb-826cf71cb9008270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"46187ebb-0252-4fe0-aeeb-826cf71cb9008270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270","to":"1376bcb3-aff5-472c-b93a-4e636983a1677djk270"},
+"c3369f43-d9d7-4e36-8744-9763fa687b428270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"c3369f43-d9d7-4e36-8744-9763fa687b428270","from":"1376bcb3-aff5-472c-b93a-4e636983a167227862278270","to":"1376bcb3-aff5-472c-b93a-4e636983a167558270"},
+"2d9e7a46-861e-472b-9e66-09c3b4cb75c78270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"2d9e7a46-861e-472b-9e66-09c3b4cb75c78270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270","to":"1376bcb3-aff5-472c-b93a-4e636983a1674785098270"},
+"d81191c0-c1c7-41ac-96ea-f2f58c8f4b938270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"d81191c0-c1c7-41ac-96ea-f2f58c8f4b938270","from":"1376bcb3-aff5-472c-b93a-4e636983a1674785098270","to":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270"},
+"d8zx91c0-c1c7-41ac-96ea-f2f58c8f4b938270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"d8zx91c0-c1c7-41ac-96ea-f2f58c8f4b938270","from":"8a139418-94d2-4121-94a4-dfsa26213d241471268270","to":"aky1163f-fc2b-4f9c-a767-e2e19d8bd93b5330521"},
+"87983bd7-3df6-tnh2-ac28-188f9abb92ad0":{"arrows":{"to":{},"middle":{},"from":{}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{},"background":{},"smooth":{},"id":"87983bd7-3df6-tnh2-ac28-188f9abb92ad0","from":"1376bcb3-aff5-472c-b93a-4e636983a1674785098270","to":"aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"},"df179721-1673-47fd-8dea-3eeec2f5875b8270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"df179721-1673-47fd-8dea-3eeec2f5875b8270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"1376bcb3-aff5-472c-b93a-4e636983a167227862958270"},
+"da681120-baaa-4b63-bce4-cd22b16a8a558270":{"arrows":{"to":{"enabled":false},"middle":{"enabled":false},"from":{"enabled":false}},"color":{},"font":{"bold":{},"boldital":{},"ital":{},"mono":{}},"scaling":{"label":{"enabled":true}},"shadow":{"enabled":false},"background":{"enabled":false},"smooth":{"enabled":false},"id":"da681120-baaa-4b63-bce4-cd22b16a8a558270","from":"1376bcb3-aff5-472c-b93a-4e636983a1672278628270","to":"1376bcb3-aff5-472c-b93a-4e636983a1672278624278270"}}};
+function tG(multiplyCount, idPostfix, xShift, yShift, dateLine = "", idCounterPostfixStart = 0) {
+
+   var data = newThemeGraphTemplate;
+
+   //set graph init date line
+   data.nodes["1376bcb3-aff5-472c-b93a-4e636983a167227862278270"].label = dateLine;
+
+   network.selectionHandler.unselectAll();
+   network.selectionHandler.updateSelection();
+   var nodesArray = objectToArray(data.nodes);
+      for (var j=0; j < nodesArray.length; j++) {
+         var node = nodesArray[j];
+         node.oldId = node.id;
+      }
+   var edgesArray = objectToArray(data.edges);
+      for (var k=0; k < edgesArray.length; k++) {
+         var edge = edgesArray[k];
+         edge.oldId = edge.id;	
+         edge.oldFrom = edge.from;
+         edge.oldTo = edge.to;
+      }
+   for (var i=0; i < multiplyCount; i++) {
+      for (var j=0; j < nodesArray.length; j++) {
+         var node = nodesArray[j];
+         var json = JSON.stringify(node);
+         node = JSON.parse(json);
+         node.id = node.oldId + idPostfix + String(idCounterPostfixStart + i);
+         node.x = node.x + xShift*i; 
+         node.y = node.y + yShift*i; 
+         nodesToPaste.push(node);
+         //var newNode = network.nodesHandler.create(node);
+         //network.body.data.nodes.add(newNode.options);
+         //network.selectionHandler.selectObject(newNode);
+      }
+      for (var k=0; k < edgesArray.length; k++) {
+         var edge = edgesArray[k];
+         var json = JSON.stringify(edge);
+         edge = JSON.parse(json);
+         edge.id = edge.oldId + idPostfix + String(idCounterPostfixStart + i);	
+         edge.from = edge.oldFrom + idPostfix + String(idCounterPostfixStart + i);
+         edge.to = edge.oldTo + idPostfix + String(idCounterPostfixStart + i);
+         edgesToPaste.push(edge);
+         //var newEdge = network.edgesHandler.create(edge);
+         //network.body.data.edges.add(newEdge.options);
+         //network.selectionHandler.selectObject(newEdge);
+      }
+   }
+   //network.selectionHandler.setSelection(network.selectionHandler.getSelection());
+}
+function viewLink() {
+   var link = window.location.href.split("?")[0];
+   var scale = Number.parseFloat(network.getScale()).toFixed(3);
+   var viewPosition = network.getViewPosition();
+   var x = Number.parseFloat(viewPosition.x).toFixed(3);
+   var y = Number.parseFloat(viewPosition.y).toFixed(3);
+   var scaleParam = "scale=" + String(scale);
+   var xParam = "x=" + String(x);
+   var yParam = "y=" + String(y);
+   var linkParams = "?" + scaleParam + "&" + xParam + "&" + yParam;
+   link = link + linkParams;
+   console.log(link);
+   return link;
 }
