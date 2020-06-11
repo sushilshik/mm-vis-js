@@ -56,12 +56,16 @@ var dontShowShemeDataMenuPagesList = [
    "tmp1.html",
    "nature.html",
    "timelines.html",
-   "music.html"
+   "music.html",
+   "java.html",
+   "java-api.html"
 ];
 var lastSelectedNodeId = null;
 var userConfData = undefined
 var cursorNodeId = null;
 var keyboardMoveSelectedEnabled = false;
+var copiedNodeStyleColor = "";
+var copiedNodeStyleFontSize = "";
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -107,6 +111,23 @@ if (typeof xFromUrl !== "undefined") {
 
 if (typeof yFromUrl !== "undefined") {
 	schemeData.setup.viewPosition.y = yFromUrl;
+}
+
+var goalNodeLabel = getUrlVars()["nodeLabel"];
+var goalNodeFontSize = getUrlVars()["nodeFontSize"];
+var goalNodeColor = getUrlVars()["nodeColor"];
+
+
+if (typeof goalNodeLabel !== "undefined") {
+	schemeData.setup.goalNodeLabel = goalNodeLabel;
+}
+
+if (typeof goalNodeFontSize !== "undefined") {
+	schemeData.setup.goalNodeFontSize = goalNodeFontSize;
+}
+
+if (typeof goalNodeColor !== "undefined") {
+	schemeData.setup.goalNodeColor = goalNodeColor;
 }
 var nodes = null;
 var edges = null;
@@ -201,6 +222,15 @@ function addNodeOnCanvas(label, link, position, shiftX, shiftY, network) {
 		x: position.x + shiftX,
 		y: position.y + shiftY
 	});
+}
+function addNodeWithIdOnCanvas(label, link, position, shiftX, shiftY, network, nodeId) {
+   return network.body.data.nodes.add({
+      id: nodeId,
+      label:label,
+      link: link,
+      x: position.x + shiftX,
+      y: position.y + shiftY
+   });
 }
 function getTreeNodesAndEdges(rootNodeId) {
 
@@ -1622,8 +1652,69 @@ function draw() {
 
 	canvas = network.canvas.frame.canvas;
 	ctx = canvas.getContext('2d');
+        
+        if (typeof schemeData.setup.goalNodeLabel !== "undefined" && 
+            schemeData.setup.goalNodeLabel.length > 0 &&
+            typeof schemeData.setup.goalNodeFontSize !== "undefined" && 
+            schemeData.setup.goalNodeFontSize.length > 0 &&
+            typeof schemeData.setup.goalNodeColor !== "undefined" && 
+            schemeData.setup.goalNodeColor.length > 0) {
+            console.log("nodeLabel: " + schemeData.setup.goalNodeLabel);
+            console.log("nodeFontSize: " + schemeData.setup.goalNodeFontSize);
+            console.log("nodeColor: " + schemeData.setup.goalNodeColor);
+            schemeData.setup.goalNodeLabel = unescape(schemeData.setup.goalNodeLabel);
+            schemeData.setup.goalNodeFontSize = parseInt(schemeData.setup.goalNodeFontSize,10);
+            var nodes = objectToArray(network.body.nodes);
+
+            var foundNodes = [];
+
+            for (var i=0; i < nodes.length; i++) {
+               var node = nodes[i];
+
+               if (typeof node.options === "undefined" || typeof node.options.label === "undefined") continue;
+               var nodeLabel = node.options.label;
+               nodeLabel = nodeLabel.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+               var gNLabel = schemeData.setup.goalNodeLabel.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+               var nodeFontSize;
+               var nodeColor;
+               if (typeof node.options.font !== "undefined" && 
+                   typeof node.options.font.size !== "undefined") {
+                  nodeFontSize = parseInt(node.options.font.size,10);
+               } else {
+                  nodeFontSize = 14;
+               }
+               if (typeof node.options.color !== "undefined" && 
+                   typeof node.options.color.background !== "undefined") {
+                  nodeColor = node.options.color.background;
+               } else {
+                  nodeColor = "#ffd570";
+               }
+
+               if (nodeLabel == gNLabel &&
+                   nodeFontSize == schemeData.setup.goalNodeFontSize &&
+                   nodeColor == schemeData.setup.goalNodeColor) {
+                  foundNodes.push(node);
+               }
+            }
+      
+            if (foundNodes.length == 0) {
+               showAlert("No nodes with this options", 60, 190);
+               console.log("No nodes with this options");
+            }
+            if (foundNodes.length > 1) {
+               showAlert("There are more than one node with this options. Using first.", 60, 190);
+               console.log("There are more than one node with this options. Using first.");
+            }
+            if (foundNodes.length > 0) {
+               schemeData.setup.scale = 0.2;
+               schemeData.setup.viewPosition.x = foundNodes[0].x;
+               schemeData.setup.viewPosition.y = foundNodes[0].y;
+               console.log(schemeData.setup);
+            }
+        }
 
 	var setup = schemeData.setup;
+        
 	var positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));
 	var positionY = parseFloat((setup.viewPosition.y - canvasHeight/(2*setup.scale)).toFixed(5));
 
@@ -2350,13 +2441,14 @@ function buildPagesNodes(level, width, alignMap, parentNodeId) {
          if (typeof labelAndLink[1] !== "undefined") {
             link = "http" + labelAndLink[1].slice(0,-1);
          }
-         var nodeId = addNodeOnCanvas(
+         var nodeId = addNodeWithIdOnCanvas(
             label, 
             link,
             {x:pNode.x, y:pNode.y}, 
             width + level.maxWidth*14/2, 
             25*parseInt(key, 10), 
-            network)[0];
+            network,
+            parentNodeId + "b" + String(index))[0];
          lastNodeId = nodeId;
          if (typeof parentNodeId !== "undefined" && parentNodeId !== null) {
             var edgeData = {from: parentNodeId, to: nodeId};
@@ -2442,7 +2534,7 @@ function buildRow(item, index, root) {
             root = buildRow(line, index, root);
          });
          var alignMap = {};
-         buildPagesNodes(root, 600, alignMap, null);
+         buildPagesNodes(root, 600, alignMap, nodeId);
          for (var key in alignMap) {
             //console.log(key);
             alignNodesLeft(alignMap[key]);
@@ -2453,6 +2545,7 @@ function buildRow(item, index, root) {
             console.log(line);
             buildThemeGraph(line, pNode.x + 500, pNode.y + 1500*index);
             network.body.data.nodes.add({
+               id: nodeId + "b" + index,
    	       label:line,
    	       x: pNode.x + 7000,
    	       y: pNode.y + 1500*index,
@@ -2472,23 +2565,29 @@ function buildRow(item, index, root) {
                var linkPart = wikiLinkPart[1].replace(/\|.*/,"").trim();
                link = "https://en.wikipedia.org/wiki/" + linkPart;
             }
-            var nodeId = network.body.data.nodes.add({
+            var addedNodeId = network.body.data.nodes.add({
+               id: nodeId + "b" + String(i),
    	       label:line,
                link: link,
    	       x: pNode.x + 500,
    	       y: pNode.y + 25*i 
             })[0];
-            alignNodesList.push(network.body.nodes[nodeId]);
+            alignNodesList.push(network.body.nodes[addedNodeId]);
          };
          alignNodesLeft(alignNodesList);
       } else {
          newLabelLines.forEach(function(line,index) {
+            //Add starting "//#1" for comments nodes
+            if (newLabelLines[0].lastIndexOf("//#1", 0) === 0 && line.lastIndexOf("//#1", 0) !== 0) {
+               line = "//#1 " + line;
+            }
             var position = {
                x: pNode.x + 300,
                y: y + (14*line.split("\n").length)/2
             };
-            var nodeId = addNodeOnCanvas(line, "", position, 0, 0, network);
-            newNodesIds.push(nodeId);
+            var newNodeId = nodeId + "b" + String(index);
+            var addedNodeId = addNodeWithIdOnCanvas(line, "", position, 0, 0, network, newNodeId);
+            newNodesIds.push(addedNodeId);
             y = y + 14*line.split("\n").length + 10;
          });
          var nodes = [];
@@ -2938,6 +3037,71 @@ runNodeCodeButton.click(function() {
          network.manipulation.editNode();
       }
    });
+   $(document).keyup(function (event) {
+      //Copy node style. shift+alt+c
+      if (event.altKey == true && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 67) {
+             var node = objectToArray(network.selectionHandler.selectionObj.nodes)[0];
+
+             if (typeof node.options.font !== "undefined" && typeof node.options.font.size !== "undefined") {
+                copiedNodeStyleFontSize = node.options.font.size;
+             } else {
+                copiedNodeStyleFontSize = "14";
+             }
+
+             if (typeof node.options.color !== "undefined" && typeof node.options.color.background !== "undefined") {
+                copiedNodeStyleColor = node.options.color.background;
+             } else {
+                copiedNodeStyleColor = "#ffd570";
+             }
+
+             //console.log(copiedNodeStyleFontSize);
+             //console.log(copiedNodeStyleColor);
+      }
+   });
+   $(document).keyup(function (event) {
+      //Paste node style. shift+alt+v
+      if (event.altKey == true && 
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 86) {
+             var node = objectToArray(network.selectionHandler.selectionObj.nodes)[0];
+
+             //console.log(copiedNodeStyleFontSize);
+             //console.log(copiedNodeStyleColor);
+             if (copiedNodeStyleFontSize == "" && copiedNodeStyleColor == "") return;
+
+             var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);
+
+             var nodes = [];
+             selectedNodes.forEach(function(node) {
+                nodes.push(network.body.data.nodes.get(node.id));
+             });
+
+             nodes.forEach(function(n) {
+                //console.log(n);
+                var node = network.body.data.nodes.get(n.id);
+                var pNode = network.getPositions()[node.id];
+
+                if (typeof node.font === "undefined") node.font={};
+                node.font.size = parseInt(copiedNodeStyleFontSize,10);
+
+                if (typeof node.color === "undefined") node.color={};
+                node.color.background = copiedNodeStyleColor;
+
+                //node.font.align = "left";
+
+                node.x = pNode.x;
+                node.y = pNode.y;
+                network.body.data.nodes.update(node);
+             });
+      }
+   });
+
+
+
    $(document).keyup(function (event) {
       //Toggle "showData" menu. shift+alt+n
       if (event.altKey == true && 
@@ -4181,6 +4345,20 @@ var moveCursorRightFast = false;
 
          var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes)[0];
 
+         var regExp = null;
+         var jumpNavigationDataLabel = null;
+         var selectedNodeLabel = selectedNode.options.label.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+         if (jumpNavigationData != null) {
+             jumpNavigationDataLabel = jumpNavigationData.label.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+         }
+         if (jumpNavigationData != null &&
+             jumpNavigationData.label[0] == "regex" && 
+             typeof jumpNavigationData.label[1] !== "undefined" && 
+             jumpNavigationData.label[1].length > 0) {
+
+             regExp = new RegExp(jumpNavigationData.label[1], "gi");
+         }
+
    if (jumpNavigationData == null && typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] === "undefined") {
       showAlert("Select one node to jump to nodes with same name", 60, 190);
       return;
@@ -4188,14 +4366,31 @@ var moveCursorRightFast = false;
          
    //If node is selected and there were no jumps before or there is different label on selected node.
    if ((typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] !== "undefined") && 
-         (jumpNavigationData == null || jumpNavigationData.label != selectedNode.options.label)) {
+         (jumpNavigationData == null || 
+         (regExp != null && selectedNodeLabel.match(regExp) == null) ||
+         (regExp == null && jumpNavigationDataLabel != selectedNodeLabel) )) {
 
       var nodes = network.body.data.nodes.get();
 
       var foundNodes = [];
 
+      var regExp = null;
+      if (selectedNode.options.label != null &&
+          selectedNode.options.label.split("\n")[0] == "regex" && 
+          typeof selectedNode.options.label.split("\n")[1] !== "undefined" && 
+          selectedNode.options.label.split("\n")[1].length > 0) {
+
+          regExp = new RegExp(selectedNode.options.label.split("\n")[1], "gi");
+      }
+
       nodes.forEach(function(node) {
-         if (node.id != selectedNode.id && node.label == selectedNode.options.label) {
+         var nodeLabel = node.label;
+         nodeLabel = nodeLabel.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+         var sNLabel = selectedNode.options.label.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+         if (regExp != null && node.id != selectedNode.id && nodeLabel.match(regExp) != null) {
+            foundNodes.push(node);
+         }
+         if (regExp == null && node.id != selectedNode.id && nodeLabel == sNLabel) {
             foundNodes.push(node);
          }
       });
@@ -4957,4 +5152,175 @@ function viewLink() {
    link = link + linkParams;
    console.log(link);
    return link;
+}
+//Hide comment nodes
+function hideCommentNodes(hideCommentNodesBool) {
+   var nodes = network.body.data.nodes.get();
+   var foundNodes = [];
+
+   nodes.forEach(function(node) {
+      if (node.label.lastIndexOf("//#1", 0) === 0) {
+         foundNodes.push(node);
+      }
+   });
+
+   foundNodes.forEach(function(node) {
+
+      var nodeId = node.id;
+
+      var n = network.body.data.nodes.get(nodeId);
+
+      if (typeof n.hidden === "undefined" || n.hidden == false) {
+          var nodesPositions = network.getPositions();
+   
+          var nodeD = getNodeFromNetworkDataById(n.id);
+          pNode = nodesPositions[n.id];
+          nodeD.x = pNode.x;
+          nodeD.y = pNode.y;
+          network.body.data.nodes.update(nodeD);
+      }
+
+      n = network.body.data.nodes.get(nodeId);
+      
+      n.hidden = hideCommentNodesBool;
+
+      //toggle nodes
+      //if (typeof n.hidden === "undefined") {
+      //   n.hidden = true;
+      //} else {
+      //   if (n.hidden == true) {
+      //      n.hidden = false;
+      //   } else {
+      //      n.hidden = true;
+      //   }
+      //}
+
+      network.body.data.nodes.update(n);
+      network.selectionHandler.selectObject(network.body.nodes[n.id]);
+
+   });
+
+}
+//hide comment nodes
+function hC() {
+   hideCommentNodes(true);
+}
+//show comment nodes
+function sC() {
+   hideCommentNodes(false);
+}
+//fix (freeze) selected nodes
+function fN() {
+   var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes);
+
+   selectedNode.forEach(function(node) {
+
+      var nodeId = node.id;
+
+      var n = network.body.data.nodes.get(nodeId);
+
+          var nodesPositions = network.getPositions();
+   
+          var nodeD = getNodeFromNetworkDataById(n.id);
+          pNode = nodesPositions[n.id];
+          nodeD.x = pNode.x;
+          nodeD.y = pNode.y;
+          network.body.data.nodes.update(nodeD);
+
+      n = network.body.data.nodes.get(nodeId);
+
+      n.fixed = true;
+
+      network.body.data.nodes.update(n);
+   });
+}
+//unfix (unfreeze) selected nodes
+function uFN() {
+   var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes);
+
+   selectedNode.forEach(function(node) {
+
+      var nodeId = node.id;
+
+      var n = network.body.data.nodes.get(nodeId);
+
+          var nodesPositions = network.getPositions();
+   
+          var nodeD = getNodeFromNetworkDataById(n.id);
+          pNode = nodesPositions[n.id];
+          nodeD.x = pNode.x;
+          nodeD.y = pNode.y;
+          network.body.data.nodes.update(nodeD);
+
+      n = network.body.data.nodes.get(nodeId);
+
+      n.fixed = false;
+
+      network.body.data.nodes.update(n);
+   });
+}
+function distributeVertically(yStep) {
+   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+  
+   if (selectedNodes.length < 3) return;
+
+   var nodesPositions = network.getPositions();
+
+   var updatedNodes = [];
+
+   for (var i in selectedNodes) {
+
+      var nodeId = selectedNodes[i].id;
+
+      var n = network.body.data.nodes.get(nodeId);
+   
+      var nodeD = getNodeFromNetworkDataById(n.id);
+      pNode = nodesPositions[n.id];
+      nodeD.x = pNode.x;
+      nodeD.y = pNode.y;
+      network.body.data.nodes.update(nodeD);
+
+      n = network.body.data.nodes.get(nodeId);
+
+      updatedNodes.push(n);
+
+      //network.body.data.nodes.update(n);
+   }
+
+   function compare( a, b ) {
+      if ( a.y < b.y ){
+         return -1;
+      }
+      if ( a.y > b.y ){
+         return 1;
+      }
+      return 0;
+   }
+
+   var updatedNodesSortedByY = updatedNodes.sort(compare);
+
+   var topNode = updatedNodesSortedByY[0];
+   var bottomNode = updatedNodesSortedByY[updatedNodesSortedByY.length-1];
+
+   if (typeof yStep === "undefined") {
+      yStep = (topNode.y - bottomNode.y)/(updatedNodesSortedByY.length-1);
+   }
+
+   for (var i in updatedNodesSortedByY) {
+
+      var nodeId = updatedNodesSortedByY[i].id;
+
+      var n = network.body.data.nodes.get(nodeId);
+   
+      var nodeD = getNodeFromNetworkDataById(n.id);
+      pNode = nodesPositions[n.id];
+      nodeD.x = pNode.x;
+      nodeD.y = topNode.y - i*yStep;
+      network.body.data.nodes.update(nodeD);
+
+      //n = network.body.data.nodes.get(nodeId);
+
+      //network.body.data.nodes.update(n);
+   }
+
 }

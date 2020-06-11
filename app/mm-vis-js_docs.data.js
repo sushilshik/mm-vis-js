@@ -1235,7 +1235,7 @@ var schemeData =
           "label": "Programming\ncode\nmaps",
           "id": "15821d9f-1489-4617-a89b-1ceaba5d528b856173337",
           "x": 102570,
-          "y": 23227,
+          "y": 26575,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1421,7 +1421,7 @@ var schemeData =
           "label": "mm-vis-js\ntesting",
           "id": "d01d5904-e285-4ab5-b9be-1aae2ab8091e856173337",
           "x": 101658,
-          "y": 11902,
+          "y": 15250,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1453,7 +1453,7 @@ var schemeData =
           "label": "Procedure",
           "id": "3a3af8ef-4eeb-4caf-b7bc-cab3c9025926856173337",
           "x": 98149,
-          "y": 11187
+          "y": 14535
         },
         "921dfca8-6406-4aaf-a107-4e6f50288fef856173337": {
           "color": {
@@ -1482,7 +1482,7 @@ var schemeData =
           "label": "Install",
           "id": "921dfca8-6406-4aaf-a107-4e6f50288fef856173337",
           "x": 98319,
-          "y": 11117
+          "y": 14465
         },
         "8c692781-3645-49b9-83dd-fc722f4221ba856173337": {
           "color": {
@@ -1511,7 +1511,7 @@ var schemeData =
           "label": "Docker",
           "id": "8c692781-3645-49b9-83dd-fc722f4221ba856173337",
           "x": 98452,
-          "y": 11089
+          "y": 14437
         },
         "1436f9f6-c449-4d40-8993-99def1b2f237856173337": {
           "color": {
@@ -1540,7 +1540,7 @@ var schemeData =
           "label": "docker-compose",
           "id": "1436f9f6-c449-4d40-8993-99def1b2f237856173337",
           "x": 98484,
-          "y": 11141
+          "y": 14489
         },
         "e9c2a934-a28b-4071-b33d-2d94172b184b856173337": {
           "color": {
@@ -1569,7 +1569,7 @@ var schemeData =
           "label": "pip install docker-compose",
           "id": "e9c2a934-a28b-4071-b33d-2d94172b184b856173337",
           "x": 98669,
-          "y": 11140
+          "y": 14488
         },
         "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a856173337": {
           "color": {
@@ -1598,7 +1598,7 @@ var schemeData =
           "label": "Tests run",
           "id": "7cbf14c9-76f8-4fd4-a2d4-d246b09b020a856173337",
           "x": 98328,
-          "y": 11252
+          "y": 14600
         },
         "94cf1f83-6efb-4377-a4dc-f03b54a9c338856173337": {
           "color": {
@@ -1627,7 +1627,7 @@ var schemeData =
           "label": "Open two consoles",
           "id": "94cf1f83-6efb-4377-a4dc-f03b54a9c338856173337",
           "x": 98487,
-          "y": 11212
+          "y": 14560
         },
         "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202856173337": {
           "color": {
@@ -1656,7 +1656,7 @@ var schemeData =
           "label": "First console",
           "id": "b3812ed3-0ea1-48ac-b9bf-05bc4a0ad202856173337",
           "x": 98465,
-          "y": 11269
+          "y": 14617
         },
         "29dbe588-d883-4d1d-a6d2-fdc78b299cea856173337": {
           "color": {
@@ -1685,7 +1685,7 @@ var schemeData =
           "label": "docker-compose up --build.",
           "id": "29dbe588-d883-4d1d-a6d2-fdc78b299cea856173337",
           "x": 98639,
-          "y": 11268
+          "y": 14616
         },
         "3c11d1c8-d28e-4982-8aa2-a5f0ea5d1c20856173337": {
           "color": {
@@ -1714,7 +1714,7 @@ var schemeData =
           "label": "Will start container with chrome inside",
           "id": "3c11d1c8-d28e-4982-8aa2-a5f0ea5d1c20856173337",
           "x": 98923,
-          "y": 11253
+          "y": 14601
         },
         "343c1738-b42b-4f8d-b712-83a9873afb6e856173337": {
           "color": {
@@ -1743,7 +1743,7 @@ var schemeData =
           "label": "Process will stay in console",
           "id": "343c1738-b42b-4f8d-b712-83a9873afb6e856173337",
           "x": 98888,
-          "y": 11289
+          "y": 14637
         },
         "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706856173337": {
           "color": {
@@ -1772,7 +1772,7 @@ var schemeData =
           "label": "Second console",
           "id": "d1b29e9c-e1b0-4f00-a4da-e8113d2cb706856173337",
           "x": 98475,
-          "y": 11343
+          "y": 14691
         },
         "115fa2fa-e68c-4d93-87eb-b45d9309975a856173337": {
           "color": {
@@ -1801,7 +1801,7 @@ var schemeData =
           "label": "docker exec -it app-express npm run test:e2e",
           "id": "115fa2fa-e68c-4d93-87eb-b45d9309975a856173337",
           "x": 98711,
-          "y": 11340
+          "y": 14688
         },
         "707d41c8-58ef-4709-beeb-cb327c43afe3856173337": {
           "color": {
@@ -1830,7 +1830,7 @@ var schemeData =
           "label": "Tests execution",
           "id": "707d41c8-58ef-4709-beeb-cb327c43afe3856173337",
           "x": 98966,
-          "y": 11331
+          "y": 14679
         },
         "9668f2cc-2d4f-4ca4-ae65-c7b262fbc215856173337": {
           "color": {
@@ -1859,7 +1859,7 @@ var schemeData =
           "label": "Process will exit after tests execution",
           "id": "9668f2cc-2d4f-4ca4-ae65-c7b262fbc215856173337",
           "x": 99034,
-          "y": 11364
+          "y": 14712
         },
         "3277fba8-f3ea-42ac-a348-99b8be53a518856173337": {
           "color": {
@@ -1888,7 +1888,7 @@ var schemeData =
           "label": "docker-compose down",
           "id": "3277fba8-f3ea-42ac-a348-99b8be53a518856173337",
           "x": 98638,
-          "y": 11405
+          "y": 14753
         },
         "4d7a6dd7-d682-46dc-88ba-e647a2b56dd3856173337": {
           "color": {
@@ -1917,7 +1917,7 @@ var schemeData =
           "label": "First console process will exit",
           "id": "4d7a6dd7-d682-46dc-88ba-e647a2b56dd3856173337",
           "x": 98859,
-          "y": 11410
+          "y": 14758
         },
         "e5822941-43d7-4321-adea-2295830fc8f2856173337": {
           "color": {
@@ -1946,7 +1946,7 @@ var schemeData =
           "label": "Schemes are built on canvas - HTML5 elemen",
           "id": "e5822941-43d7-4321-adea-2295830fc8f2856173337",
           "x": 98084,
-          "y": 12264
+          "y": 15612
         },
         "560ea7ba-7a74-454e-b05f-5386bcbe1fea856173337": {
           "color": {
@@ -1975,7 +1975,7 @@ var schemeData =
           "label": "Position of objects on canvas can be tested only as raster graphic",
           "id": "560ea7ba-7a74-454e-b05f-5386bcbe1fea856173337",
           "x": 98526,
-          "y": 12234
+          "y": 15582
         },
         "e5ce8a89-bdd3-411d-be10-bc922d6cc884856173337": {
           "color": {
@@ -2004,7 +2004,7 @@ var schemeData =
           "label": "We need to check pixels color canvas",
           "id": "e5ce8a89-bdd3-411d-be10-bc922d6cc884856173337",
           "x": 98437,
-          "y": 12273
+          "y": 15621
         },
         "8e40d485-6ead-4da2-af05-24584dd6619b856173337": {
           "color": {
@@ -2033,7 +2033,7 @@ var schemeData =
           "label": "We can use libraries like openCV",
           "id": "8e40d485-6ead-4da2-af05-24584dd6619b856173337",
           "x": 98421,
-          "y": 12313
+          "y": 15661
         },
         "cc8e6464-8c63-4dff-bd01-cae948551537856173337": {
           "color": {
@@ -2732,7 +2732,7 @@ var schemeData =
           "label": "https://github.com/sushilshik/mm-vis-js",
           "id": "be11ed2d-69c3-468b-97a3-543494855a1a856173337",
           "x": 98464,
-          "y": 14789,
+          "y": 18137,
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
           "borderWidth": ""
@@ -2767,7 +2767,7 @@ var schemeData =
           "label": "mm-vis-js code\ndevelopment",
           "id": "c6af84d7-1709-456c-bd31-c32f6b4371cf856173337",
           "x": 102881,
-          "y": 14895,
+          "y": 18243,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -2801,7 +2801,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js code\ndevelopment",
           "x": 97358,
-          "y": 14946,
+          "y": 18294,
           "id": "67768fae-0037-4af6-9a58-4c0248f270d0173337",
           "shape": "box",
           "link": "",
@@ -2833,7 +2833,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 97988,
-          "y": 15446,
+          "y": 18794,
           "id": "fde93f9d-f237-42a7-8082-0318b1513feb173337"
         },
         "b9d0fe1f-9ed9-44ea-9054-6e4d76112447173337": {
@@ -2865,7 +2865,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/5/2019",
           "x": 98238,
-          "y": 15446,
+          "y": 18794,
           "id": "b9d0fe1f-9ed9-44ea-9054-6e4d76112447173337",
           "shape": "box",
           "link": "",
@@ -2897,7 +2897,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 98138,
-          "y": 15446,
+          "y": 18794,
           "id": "42ca8a23-2441-4c4f-bda3-71e155a1d046173337"
         },
         "e9b483ea-b5c9-4cc4-9a8f-5f3e899a3fde173337": {
@@ -2926,7 +2926,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 97984,
-          "y": 14496,
+          "y": 17844,
           "id": "e9b483ea-b5c9-4cc4-9a8f-5f3e899a3fde173337"
         },
         "a8190c68-bf6b-4a14-973b-ba0b2934af41173337": {
@@ -2955,7 +2955,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 98151,
-          "y": 13970,
+          "y": 17318,
           "id": "a8190c68-bf6b-4a14-973b-ba0b2934af41173337"
         },
         "8ba6ac5f-a485-41de-ba9f-fbb3f2dcdfae173337": {
@@ -2984,7 +2984,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 98134,
-          "y": 14496,
+          "y": 17844,
           "id": "8ba6ac5f-a485-41de-ba9f-fbb3f2dcdfae173337"
         },
         "a92b6e54-c8bd-4312-9d81-f963a999b86d173337": {
@@ -3013,7 +3013,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 98138,
-          "y": 14846,
+          "y": 18194,
           "id": "a92b6e54-c8bd-4312-9d81-f963a999b86d173337"
         },
         "69c69334-0403-445b-b3e9-b0c3ab485a72173337": {
@@ -3042,7 +3042,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 98202,
-          "y": 14596,
+          "y": 17944,
           "id": "69c69334-0403-445b-b3e9-b0c3ab485a72173337"
         },
         "8cc0a70f-fc8c-49f2-b406-ed0000081675173337": {
@@ -3071,7 +3071,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 98233,
-          "y": 14621,
+          "y": 17969,
           "id": "8cc0a70f-fc8c-49f2-b406-ed0000081675173337"
         },
         "66de4415-9271-4d35-b447-cd28902467b9173337": {
@@ -3100,7 +3100,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 98198,
-          "y": 14646,
+          "y": 17994,
           "id": "66de4415-9271-4d35-b447-cd28902467b9173337"
         },
         "68f9a70d-2ac7-472d-a26a-e106ad222012173337": {
@@ -3129,7 +3129,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 98217,
-          "y": 14671,
+          "y": 18019,
           "id": "68f9a70d-2ac7-472d-a26a-e106ad222012173337"
         },
         "56118665-0329-4d6a-b3a6-048b50b6b960173337": {
@@ -3158,7 +3158,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 98206,
-          "y": 14696,
+          "y": 18044,
           "id": "56118665-0329-4d6a-b3a6-048b50b6b960173337"
         },
         "1dae0b42-7e18-4f57-b80d-b4cb10884473173337": {
@@ -3187,7 +3187,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 98228,
-          "y": 14721,
+          "y": 18069,
           "id": "1dae0b42-7e18-4f57-b80d-b4cb10884473173337"
         },
         "12947967-3a35-4642-a1bd-28ed03b2dad7173337": {
@@ -3216,7 +3216,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 98230,
-          "y": 14790,
+          "y": 18138,
           "id": "12947967-3a35-4642-a1bd-28ed03b2dad7173337"
         },
         "0b82de57-d688-457a-877b-d3990b2d1724173337": {
@@ -3245,7 +3245,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 98208,
-          "y": 14871,
+          "y": 18219,
           "id": "0b82de57-d688-457a-877b-d3990b2d1724173337"
         },
         "dfe92baa-57e8-40c0-8ab3-75a34691cec3173337": {
@@ -3274,7 +3274,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 98199,
-          "y": 14896,
+          "y": 18244,
           "id": "dfe92baa-57e8-40c0-8ab3-75a34691cec3173337"
         },
         "6524fd7d-f637-4f11-9a75-17e7ddfafa4e173337": {
@@ -3303,7 +3303,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 98227,
-          "y": 14921,
+          "y": 18269,
           "id": "6524fd7d-f637-4f11-9a75-17e7ddfafa4e173337"
         },
         "002fd9ff-fbc3-4f77-bf7f-039ed2447bbe173337": {
@@ -3332,7 +3332,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 98213,
-          "y": 14946,
+          "y": 18294,
           "id": "002fd9ff-fbc3-4f77-bf7f-039ed2447bbe173337"
         },
         "c96eb426-8553-46cb-b25e-9b473a946285173337": {
@@ -3361,7 +3361,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 98235,
-          "y": 14971,
+          "y": 18319,
           "id": "c96eb426-8553-46cb-b25e-9b473a946285173337"
         },
         "22ed5419-61a7-4c43-9b20-80685a547cbd173337": {
@@ -3390,7 +3390,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 98199,
-          "y": 14996,
+          "y": 18344,
           "id": "22ed5419-61a7-4c43-9b20-80685a547cbd173337"
         },
         "61e9b556-9255-419b-8882-8df696d230b0173337": {
@@ -3419,7 +3419,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 98238,
-          "y": 15021,
+          "y": 18369,
           "id": "61e9b556-9255-419b-8882-8df696d230b0173337"
         },
         "3d333352-e343-4adc-989d-182c6054373a173337": {
@@ -3448,7 +3448,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 97988,
-          "y": 15146,
+          "y": 18494,
           "id": "3d333352-e343-4adc-989d-182c6054373a173337"
         },
         "353c7132-cbb1-47b6-91de-70a6cdc2c0fc173337": {
@@ -3477,7 +3477,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 97988,
-          "y": 15246,
+          "y": 18594,
           "id": "353c7132-cbb1-47b6-91de-70a6cdc2c0fc173337"
         },
         "fe2f310f-9398-4731-b251-cc6a3f84f2a7173337": {
@@ -3506,7 +3506,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 97988,
-          "y": 15346,
+          "y": 18694,
           "id": "fe2f310f-9398-4731-b251-cc6a3f84f2a7173337"
         },
         "afac6c88-2410-4e8c-b7ec-ad16fc3dd5e7173337": {
@@ -3538,7 +3538,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js testing",
           "x": 97318,
-          "y": 11984,
+          "y": 15332,
           "id": "afac6c88-2410-4e8c-b7ec-ad16fc3dd5e7173337",
           "shape": "box",
           "link": "",
@@ -3570,7 +3570,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 97799,
-          "y": 12557,
+          "y": 15905,
           "id": "4e159541-08a9-48d5-ae7e-b904d8ef918c173337"
         },
         "ef933cc4-eeb3-4caf-811d-b3b6f1d903f3173337": {
@@ -3599,7 +3599,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/12/2019",
           "x": 98049,
-          "y": 12557,
+          "y": 15905,
           "id": "ef933cc4-eeb3-4caf-811d-b3b6f1d903f3173337"
         },
         "b6817023-c986-451c-8130-17ff2de2d39c173337": {
@@ -3628,7 +3628,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 97949,
-          "y": 12557,
+          "y": 15905,
           "id": "b6817023-c986-451c-8130-17ff2de2d39c173337"
         },
         "f48119c3-18f0-4604-9ccb-1a8619ee8ef9173337": {
@@ -3657,7 +3657,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 97804,
-          "y": 11559,
+          "y": 14907,
           "id": "f48119c3-18f0-4604-9ccb-1a8619ee8ef9173337"
         },
         "a552cb45-2e58-4b15-afb4-8b615ce81628173337": {
@@ -3686,7 +3686,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 97960,
-          "y": 11188,
+          "y": 14536,
           "id": "a552cb45-2e58-4b15-afb4-8b615ce81628173337"
         },
         "6ebf1c1d-403a-4093-809c-18cdd2707fed173337": {
@@ -3715,7 +3715,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 97954,
-          "y": 11559,
+          "y": 14907,
           "id": "6ebf1c1d-403a-4093-809c-18cdd2707fed173337"
         },
         "811b7c90-f238-4349-b7ee-62662202de0e173337": {
@@ -3744,7 +3744,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 97954,
-          "y": 11809,
+          "y": 15157,
           "id": "811b7c90-f238-4349-b7ee-62662202de0e173337"
         },
         "63364f5c-bfd0-407f-a742-2a1277d47c31173337": {
@@ -3773,7 +3773,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 98018,
-          "y": 11659,
+          "y": 15007,
           "id": "63364f5c-bfd0-407f-a742-2a1277d47c31173337"
         },
         "532d0ef9-1c78-47bc-8aeb-ce11450eae7b173337": {
@@ -3802,7 +3802,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 98049,
-          "y": 11684,
+          "y": 15032,
           "id": "532d0ef9-1c78-47bc-8aeb-ce11450eae7b173337"
         },
         "9a498b5d-3843-4284-8a7a-b675b0b64913173337": {
@@ -3831,7 +3831,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 98014,
-          "y": 11709,
+          "y": 15057,
           "id": "9a498b5d-3843-4284-8a7a-b675b0b64913173337"
         },
         "6b48252b-6956-48ed-90fb-0e66ecad5b5d173337": {
@@ -3860,7 +3860,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 98033,
-          "y": 11734,
+          "y": 15082,
           "id": "6b48252b-6956-48ed-90fb-0e66ecad5b5d173337"
         },
         "cbeb77e5-9fed-4d5f-9a48-d26f07429f4e173337": {
@@ -3889,7 +3889,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 98022,
-          "y": 11759,
+          "y": 15107,
           "id": "cbeb77e5-9fed-4d5f-9a48-d26f07429f4e173337"
         },
         "8d10e3cf-5c1b-4859-aeec-1f94aa4aa8dc173337": {
@@ -3918,7 +3918,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 98044,
-          "y": 11784,
+          "y": 15132,
           "id": "8d10e3cf-5c1b-4859-aeec-1f94aa4aa8dc173337"
         },
         "af16aa26-1b6d-4cfa-96f2-42f3e71c88b4173337": {
@@ -3947,7 +3947,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 98046,
-          "y": 11809,
+          "y": 15157,
           "id": "af16aa26-1b6d-4cfa-96f2-42f3e71c88b4173337"
         },
         "7bd08947-42fc-402f-8352-47fb7943691a173337": {
@@ -3976,7 +3976,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 98024,
-          "y": 11834,
+          "y": 15182,
           "id": "7bd08947-42fc-402f-8352-47fb7943691a173337"
         },
         "560f4685-7519-4290-a0bd-702bf6d79969173337": {
@@ -4005,7 +4005,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 98015,
-          "y": 11859,
+          "y": 15207,
           "id": "560f4685-7519-4290-a0bd-702bf6d79969173337"
         },
         "90c716b8-ba37-492c-a5c3-60d2d204d901173337": {
@@ -4034,7 +4034,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 98043,
-          "y": 11884,
+          "y": 15232,
           "id": "90c716b8-ba37-492c-a5c3-60d2d204d901173337"
         },
         "63324388-fe4c-457d-80cf-6d1bf0b71e4d173337": {
@@ -4063,7 +4063,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 98029,
-          "y": 11909,
+          "y": 15257,
           "id": "63324388-fe4c-457d-80cf-6d1bf0b71e4d173337"
         },
         "4e59934c-c60e-42f1-b4fe-7eb1701b4385173337": {
@@ -4092,7 +4092,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 98051,
-          "y": 11934,
+          "y": 15282,
           "id": "4e59934c-c60e-42f1-b4fe-7eb1701b4385173337"
         },
         "b198b7c3-902e-4285-87f4-2b9cfa243671173337": {
@@ -4121,7 +4121,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 98015,
-          "y": 11959,
+          "y": 15307,
           "id": "b198b7c3-902e-4285-87f4-2b9cfa243671173337"
         },
         "241eed0e-c5a2-4678-9f8c-7d2b208a3dab173337": {
@@ -4150,7 +4150,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 98054,
-          "y": 11984,
+          "y": 15332,
           "id": "241eed0e-c5a2-4678-9f8c-7d2b208a3dab173337"
         },
         "c168f576-e0c6-400b-80c8-69c5335653e1173337": {
@@ -4179,7 +4179,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 97804,
-          "y": 12109,
+          "y": 15457,
           "id": "c168f576-e0c6-400b-80c8-69c5335653e1173337"
         },
         "6099cf7a-f86a-451d-9b87-fdb086f2016a173337": {
@@ -4208,7 +4208,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 97801,
-          "y": 12266,
+          "y": 15614,
           "id": "6099cf7a-f86a-451d-9b87-fdb086f2016a173337"
         },
         "9ea8b510-8481-4d7d-9cdb-6a64172251ce173337": {
@@ -4237,7 +4237,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 97799,
-          "y": 12457,
+          "y": 15805,
           "id": "9ea8b510-8481-4d7d-9cdb-6a64172251ce173337"
         },
         "c4367502-9752-421e-9012-eb4448246a4f173337": {
@@ -4269,7 +4269,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Programming code maps",
           "x": 97327,
-          "y": 22583,
+          "y": 25931,
           "id": "c4367502-9752-421e-9012-eb4448246a4f173337",
           "shape": "box",
           "link": "",
@@ -4301,7 +4301,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 97953,
-          "y": 23016,
+          "y": 26364,
           "id": "fa6fdee5-93f8-46a6-9bee-e525c5524553173337"
         },
         "6eaee301-bb47-492c-a9a7-6ce33857259b173337": {
@@ -4333,7 +4333,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
           "x": 98203,
-          "y": 23016,
+          "y": 26364,
           "id": "6eaee301-bb47-492c-a9a7-6ce33857259b173337",
           "shape": "box",
           "link": "",
@@ -4365,7 +4365,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 98103,
-          "y": 23016,
+          "y": 26364,
           "id": "beac0fcf-6ede-4795-babf-9e140f0b9349173337"
         },
         "c25194a6-9964-491b-99d5-2e3cc643b62c173337": {
@@ -4394,7 +4394,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 97953,
-          "y": 22166,
+          "y": 25514,
           "id": "c25194a6-9964-491b-99d5-2e3cc643b62c173337"
         },
         "703ed7f8-ca3e-437e-b5f0-0a925155b176173337": {
@@ -4423,7 +4423,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 98103,
-          "y": 21916,
+          "y": 25264,
           "id": "703ed7f8-ca3e-437e-b5f0-0a925155b176173337"
         },
         "7535110e-06ab-4e76-b9db-5940f4164f62173337": {
@@ -4452,7 +4452,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 98103,
-          "y": 22166,
+          "y": 25514,
           "id": "7535110e-06ab-4e76-b9db-5940f4164f62173337"
         },
         "9611e7ad-f708-4c83-9a44-f3a4fa3adbcc173337": {
@@ -4481,7 +4481,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 98103,
-          "y": 22416,
+          "y": 25764,
           "id": "9611e7ad-f708-4c83-9a44-f3a4fa3adbcc173337"
         },
         "9384995a-153f-4796-ab37-4f837a60e18d173337": {
@@ -4510,7 +4510,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 98167,
-          "y": 22266,
+          "y": 25614,
           "id": "9384995a-153f-4796-ab37-4f837a60e18d173337"
         },
         "c3b679fe-a240-414c-a9ad-3ecb53d74c27173337": {
@@ -4539,7 +4539,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 98198,
-          "y": 22291,
+          "y": 25639,
           "id": "c3b679fe-a240-414c-a9ad-3ecb53d74c27173337"
         },
         "c4cbfe3b-ec6d-4aac-9b08-9bf63db81e88173337": {
@@ -4568,7 +4568,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 98163,
-          "y": 22316,
+          "y": 25664,
           "id": "c4cbfe3b-ec6d-4aac-9b08-9bf63db81e88173337"
         },
         "e5a17295-9322-419e-b6ea-65b5bcaed8be173337": {
@@ -4597,7 +4597,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 98182,
-          "y": 22341,
+          "y": 25689,
           "id": "e5a17295-9322-419e-b6ea-65b5bcaed8be173337"
         },
         "d54e0db2-6d31-48f3-acb3-e3368cbbb6d6173337": {
@@ -4626,7 +4626,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 98171,
-          "y": 22366,
+          "y": 25714,
           "id": "d54e0db2-6d31-48f3-acb3-e3368cbbb6d6173337"
         },
         "da274dd5-2ae1-457d-bf79-b577db1b7397173337": {
@@ -4655,7 +4655,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 98193,
-          "y": 22391,
+          "y": 25739,
           "id": "da274dd5-2ae1-457d-bf79-b577db1b7397173337"
         },
         "0e445585-3f37-400d-b8e5-8fb316441966173337": {
@@ -4684,7 +4684,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 98195,
-          "y": 22416,
+          "y": 25764,
           "id": "0e445585-3f37-400d-b8e5-8fb316441966173337"
         },
         "72e0b741-caa3-4a0a-b6c9-2b811111ce3a173337": {
@@ -4713,7 +4713,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 98173,
-          "y": 22441,
+          "y": 25789,
           "id": "72e0b741-caa3-4a0a-b6c9-2b811111ce3a173337"
         },
         "b24e6680-2a18-4655-b76c-e8801ee8f714173337": {
@@ -4742,7 +4742,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 98164,
-          "y": 22466,
+          "y": 25814,
           "id": "b24e6680-2a18-4655-b76c-e8801ee8f714173337"
         },
         "f61e9835-e51b-4956-bcb2-21ff16f147ab173337": {
@@ -4771,7 +4771,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 98192,
-          "y": 22491,
+          "y": 25839,
           "id": "f61e9835-e51b-4956-bcb2-21ff16f147ab173337"
         },
         "74f3fc53-872b-4d5b-93f9-427d57f6adc2173337": {
@@ -4800,7 +4800,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 98178,
-          "y": 22516,
+          "y": 25864,
           "id": "74f3fc53-872b-4d5b-93f9-427d57f6adc2173337"
         },
         "54fd7997-bbc7-4466-9117-292f2ed55029173337": {
@@ -4829,7 +4829,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 98200,
-          "y": 22541,
+          "y": 25889,
           "id": "54fd7997-bbc7-4466-9117-292f2ed55029173337"
         },
         "3a9841b2-2d9c-425c-a2c1-2619ef119afc173337": {
@@ -4858,7 +4858,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 98164,
-          "y": 22566,
+          "y": 25914,
           "id": "3a9841b2-2d9c-425c-a2c1-2619ef119afc173337"
         },
         "9da94a71-92e2-471a-ae51-26264163af67173337": {
@@ -4887,7 +4887,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 98203,
-          "y": 22591,
+          "y": 25939,
           "id": "9da94a71-92e2-471a-ae51-26264163af67173337"
         },
         "ff472564-6bd0-4ae4-8df0-4370121c12c2173337": {
@@ -4916,7 +4916,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 97953,
-          "y": 22716,
+          "y": 26064,
           "id": "ff472564-6bd0-4ae4-8df0-4370121c12c2173337"
         },
         "c0768c4b-a550-4b20-aa82-82aa3794acbe173337": {
@@ -4945,7 +4945,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 97953,
-          "y": 22816,
+          "y": 26164,
           "id": "c0768c4b-a550-4b20-aa82-82aa3794acbe173337"
         },
         "8160a281-6ded-4af3-b461-09a77fc7bf4c173337": {
@@ -4974,7 +4974,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 97953,
-          "y": 22916,
+          "y": 26264,
           "id": "8160a281-6ded-4af3-b461-09a77fc7bf4c173337"
         },
         "ea25b7ca-7308-4e5d-8d23-becf10837170214337": {
@@ -5235,7 +5235,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Schemes translation",
           "x": 97670,
-          "y": 18502,
+          "y": 21850,
           "id": "7e4d7ab3-736e-4013-9208-1d51c0868264337",
           "shape": "box",
           "link": "",
@@ -5265,7 +5265,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 97970,
-          "y": 18952,
+          "y": 22300,
           "id": "6abb7469-f9c5-4eef-b61f-afa5bc6c0278337"
         },
         "e30c866d-efe9-47ab-8bae-281bfe549805337": {
@@ -5292,7 +5292,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/21/2019",
           "x": 98220,
-          "y": 18952,
+          "y": 22300,
           "id": "e30c866d-efe9-47ab-8bae-281bfe549805337"
         },
         "8b358f20-dd77-4391-9787-e1ff1432f64f337": {
@@ -5319,7 +5319,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 98120,
-          "y": 18952,
+          "y": 22300,
           "id": "8b358f20-dd77-4391-9787-e1ff1432f64f337"
         },
         "f9f3adfe-8004-4014-9985-12589a14405e337": {
@@ -5346,7 +5346,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 97970,
-          "y": 18102,
+          "y": 21450,
           "id": "f9f3adfe-8004-4014-9985-12589a14405e337"
         },
         "ccb20eb5-1055-4a4f-80d1-54eee8350931337": {
@@ -5373,7 +5373,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 98120,
-          "y": 17852,
+          "y": 21200,
           "id": "ccb20eb5-1055-4a4f-80d1-54eee8350931337"
         },
         "6d10edef-8afd-4601-a262-0e63278b1d7b337": {
@@ -5400,7 +5400,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 98120,
-          "y": 18102,
+          "y": 21450,
           "id": "6d10edef-8afd-4601-a262-0e63278b1d7b337"
         },
         "253f03c9-e7e4-44e4-9348-41458028d2bd337": {
@@ -5427,7 +5427,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 98120,
-          "y": 18352,
+          "y": 21700,
           "id": "253f03c9-e7e4-44e4-9348-41458028d2bd337"
         },
         "8dd8ef78-5643-49e4-8c56-c7a838ced007337": {
@@ -5454,7 +5454,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 98184,
-          "y": 18202,
+          "y": 21550,
           "id": "8dd8ef78-5643-49e4-8c56-c7a838ced007337"
         },
         "55942fe2-4aa1-494d-a04c-77f6da270c89337": {
@@ -5481,7 +5481,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 98215,
-          "y": 18227,
+          "y": 21575,
           "id": "55942fe2-4aa1-494d-a04c-77f6da270c89337"
         },
         "ae1201da-ff95-4b03-b779-0f24fbd9b777337": {
@@ -5508,7 +5508,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 98180,
-          "y": 18252,
+          "y": 21600,
           "id": "ae1201da-ff95-4b03-b779-0f24fbd9b777337"
         },
         "0c08ffb3-0063-4b60-bc5c-7ee0e94f2c7e337": {
@@ -5535,7 +5535,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 98199,
-          "y": 18277,
+          "y": 21625,
           "id": "0c08ffb3-0063-4b60-bc5c-7ee0e94f2c7e337"
         },
         "6a147493-8151-4738-b5fa-75c25fe5a9ba337": {
@@ -5562,7 +5562,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 98188,
-          "y": 18302,
+          "y": 21650,
           "id": "6a147493-8151-4738-b5fa-75c25fe5a9ba337"
         },
         "cbf407c7-6685-461c-9e10-8c0e02fd1c95337": {
@@ -5589,7 +5589,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 98210,
-          "y": 18327,
+          "y": 21675,
           "id": "cbf407c7-6685-461c-9e10-8c0e02fd1c95337"
         },
         "1a543f69-b8a7-41e9-8abd-13bc452ef590337": {
@@ -5616,7 +5616,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 98212,
-          "y": 18352,
+          "y": 21700,
           "id": "1a543f69-b8a7-41e9-8abd-13bc452ef590337"
         },
         "2ee9e78d-c49f-4e1c-a93d-1bd4798af95e337": {
@@ -5643,7 +5643,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 98190,
-          "y": 18377,
+          "y": 21725,
           "id": "2ee9e78d-c49f-4e1c-a93d-1bd4798af95e337"
         },
         "477119ea-f942-4f5b-aeb7-06601cdd7106337": {
@@ -5670,7 +5670,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 98182,
-          "y": 18402,
+          "y": 21750,
           "id": "477119ea-f942-4f5b-aeb7-06601cdd7106337"
         },
         "a9b190a9-1604-4594-aeaf-053fc64f9e49337": {
@@ -5697,7 +5697,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 98209,
-          "y": 18427,
+          "y": 21775,
           "id": "a9b190a9-1604-4594-aeaf-053fc64f9e49337"
         },
         "1d0df1d3-a24d-4832-a83a-015e67f72fe0337": {
@@ -5724,7 +5724,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 98195,
-          "y": 18452,
+          "y": 21800,
           "id": "1d0df1d3-a24d-4832-a83a-015e67f72fe0337"
         },
         "8a0b620c-acbe-4531-8fd3-5d0caa200414337": {
@@ -5751,7 +5751,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 98217,
-          "y": 18477,
+          "y": 21825,
           "id": "8a0b620c-acbe-4531-8fd3-5d0caa200414337"
         },
         "da9e4715-442b-4431-80a4-13e226fef737337": {
@@ -5778,7 +5778,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 98181,
-          "y": 18502,
+          "y": 21850,
           "id": "da9e4715-442b-4431-80a4-13e226fef737337"
         },
         "5778faef-435e-4f2c-92be-21a38b819da6337": {
@@ -5805,7 +5805,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 98220,
-          "y": 18527,
+          "y": 21875,
           "id": "5778faef-435e-4f2c-92be-21a38b819da6337"
         },
         "5e5baf9e-1ea9-4a5b-a487-27e7f636e277337": {
@@ -5832,7 +5832,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 97970,
-          "y": 18652,
+          "y": 22000,
           "id": "5e5baf9e-1ea9-4a5b-a487-27e7f636e277337"
         },
         "dd317cd2-b718-4649-a0d3-f2002975b13a337": {
@@ -5859,7 +5859,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 97970,
-          "y": 18752,
+          "y": 22100,
           "id": "dd317cd2-b718-4649-a0d3-f2002975b13a337"
         },
         "71f4acaa-fb09-425b-a2ed-86ad7e4b8229337": {
@@ -5886,7 +5886,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 97970,
-          "y": 18852,
+          "y": 22200,
           "id": "71f4acaa-fb09-425b-a2ed-86ad7e4b8229337"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088337": {
@@ -5919,7 +5919,7 @@ var schemeData =
           "label": "Schemes\ntranslation",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088337",
           "x": 101899,
-          "y": 18748,
+          "y": 22096,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5951,7 +5951,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Canvas\nviews",
           "x": 97446,
-          "y": 30556,
+          "y": 33904,
           "id": "24563732-5cdc-4bae-8256-d7a2cb4faac5337",
           "shape": "box",
           "link": "",
@@ -5981,7 +5981,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 97761,
-          "y": 31021,
+          "y": 34369,
           "id": "e15ff1c6-a8ba-4729-b234-738076a7ab28337"
         },
         "ecacff12-9dc0-4bd7-b7cc-92c56d5bc5ab337": {
@@ -6008,7 +6008,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/21/2019",
           "x": 97911,
-          "y": 31021,
+          "y": 34369,
           "id": "ecacff12-9dc0-4bd7-b7cc-92c56d5bc5ab337"
         },
         "669c037c-cdb1-4288-922e-7b85c9b085f5337": {
@@ -6035,7 +6035,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 98011,
-          "y": 31021,
+          "y": 34369,
           "id": "669c037c-cdb1-4288-922e-7b85c9b085f5337"
         },
         "8cffdc58-354a-43c3-bbcb-0c617f791cbe337": {
@@ -6062,7 +6062,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 97761,
-          "y": 30171,
+          "y": 33519,
           "id": "8cffdc58-354a-43c3-bbcb-0c617f791cbe337"
         },
         "d3fe27d4-1999-46b9-aafc-582a6b93d8b1337": {
@@ -6089,7 +6089,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 97911,
-          "y": 29921,
+          "y": 33269,
           "id": "d3fe27d4-1999-46b9-aafc-582a6b93d8b1337"
         },
         "a0637522-a5ff-48a5-a7f4-0c963c0fc231337": {
@@ -6116,7 +6116,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 97911,
-          "y": 30171,
+          "y": 33519,
           "id": "a0637522-a5ff-48a5-a7f4-0c963c0fc231337"
         },
         "421559fa-24e6-4ddc-8bbd-2386a138631d337": {
@@ -6143,7 +6143,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 97911,
-          "y": 30421,
+          "y": 33769,
           "id": "421559fa-24e6-4ddc-8bbd-2386a138631d337"
         },
         "459fab06-1787-41e5-ba93-4f241889128c337": {
@@ -6170,7 +6170,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 97975,
-          "y": 30271,
+          "y": 33619,
           "id": "459fab06-1787-41e5-ba93-4f241889128c337"
         },
         "d5405adf-61b5-4f9f-9c2d-792e42ef2599337": {
@@ -6197,7 +6197,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 98006,
-          "y": 30296,
+          "y": 33644,
           "id": "d5405adf-61b5-4f9f-9c2d-792e42ef2599337"
         },
         "b870bc5c-6f4b-4fbc-a18e-1545f7767ced337": {
@@ -6224,7 +6224,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 97971,
-          "y": 30321,
+          "y": 33669,
           "id": "b870bc5c-6f4b-4fbc-a18e-1545f7767ced337"
         },
         "19984526-6fb6-4297-8224-36b2bd1f1090337": {
@@ -6251,7 +6251,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 97990,
-          "y": 30346,
+          "y": 33694,
           "id": "19984526-6fb6-4297-8224-36b2bd1f1090337"
         },
         "a31289f0-92b7-464f-bc6f-f9ff0c13784e337": {
@@ -6278,7 +6278,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 97979,
-          "y": 30371,
+          "y": 33719,
           "id": "a31289f0-92b7-464f-bc6f-f9ff0c13784e337"
         },
         "ebc11b40-9481-417f-b8e0-bcbe4e6b2391337": {
@@ -6305,7 +6305,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 98001,
-          "y": 30396,
+          "y": 33744,
           "id": "ebc11b40-9481-417f-b8e0-bcbe4e6b2391337"
         },
         "5bf83038-55b6-4a62-824c-c96b789abcd1337": {
@@ -6332,7 +6332,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 98003,
-          "y": 30421,
+          "y": 33769,
           "id": "5bf83038-55b6-4a62-824c-c96b789abcd1337"
         },
         "d01a9dbc-faa7-43d2-8bf2-9861aef5f977337": {
@@ -6359,7 +6359,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 97981,
-          "y": 30446,
+          "y": 33794,
           "id": "d01a9dbc-faa7-43d2-8bf2-9861aef5f977337"
         },
         "6fed2ddf-5d8c-493a-a9d1-0559f66cb472337": {
@@ -6386,7 +6386,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 97972,
-          "y": 30471,
+          "y": 33819,
           "id": "6fed2ddf-5d8c-493a-a9d1-0559f66cb472337"
         },
         "aa81462b-395c-4251-8a6b-209b841c4c61337": {
@@ -6413,7 +6413,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 98000,
-          "y": 30496,
+          "y": 33844,
           "id": "aa81462b-395c-4251-8a6b-209b841c4c61337"
         },
         "6aad8a87-7f0b-4d8f-981e-194ead41c05a337": {
@@ -6440,7 +6440,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 97986,
-          "y": 30521,
+          "y": 33869,
           "id": "6aad8a87-7f0b-4d8f-981e-194ead41c05a337"
         },
         "08903e7b-149f-47f1-8653-7b96ba418c1f337": {
@@ -6467,7 +6467,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 98008,
-          "y": 30546,
+          "y": 33894,
           "id": "08903e7b-149f-47f1-8653-7b96ba418c1f337"
         },
         "4bbee75c-f499-413e-9add-41af2f8f7e89337": {
@@ -6494,7 +6494,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 97972,
-          "y": 30571,
+          "y": 33919,
           "id": "4bbee75c-f499-413e-9add-41af2f8f7e89337"
         },
         "2c276004-e3d0-4535-802a-c2e880c3efa3337": {
@@ -6521,7 +6521,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 98011,
-          "y": 30596,
+          "y": 33944,
           "id": "2c276004-e3d0-4535-802a-c2e880c3efa3337"
         },
         "590d1907-6830-4c78-a86f-ebb881754971337": {
@@ -6548,7 +6548,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 97761,
-          "y": 30721,
+          "y": 34069,
           "id": "590d1907-6830-4c78-a86f-ebb881754971337"
         },
         "a939494e-67ed-4ab7-9dd0-b99365b90625337": {
@@ -6575,7 +6575,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 97761,
-          "y": 30821,
+          "y": 34169,
           "id": "a939494e-67ed-4ab7-9dd0-b99365b90625337"
         },
         "0f2fef08-f6c1-43ab-80f4-78dfdb611736337": {
@@ -6602,7 +6602,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 97761,
-          "y": 30921,
+          "y": 34269,
           "id": "0f2fef08-f6c1-43ab-80f4-78dfdb611736337"
         },
         "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088632337": {
@@ -6635,7 +6635,7 @@ var schemeData =
           "label": "Canvas\nviews",
           "id": "490ad4b4-d896-4723-8178-d38f698051b68561736943777768088632337",
           "x": 101288,
-          "y": 30784,
+          "y": 34132,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -6665,7 +6665,7 @@ var schemeData =
           "label": "Big theme of canvas views",
           "id": "c0f51beb-5244-4004-9a0b-2bfb1b1badff337",
           "x": 98177,
-          "y": 30093
+          "y": 33441
         },
         "901dbd30-a64d-4f30-af12-3774ab5a131b337": {
           "color": {
@@ -6692,7 +6692,7 @@ var schemeData =
           "label": "Canvas view means some virtual camera directed on canvas",
           "id": "901dbd30-a64d-4f30-af12-3774ab5a131b337",
           "x": 98285,
-          "y": 30124
+          "y": 33472
         },
         "c4e0bdb9-b770-4a4d-b934-00c4dc819e71337": {
           "color": {
@@ -6719,7 +6719,7 @@ var schemeData =
           "label": "Views contain high complexity which can be organized.",
           "id": "c4e0bdb9-b770-4a4d-b934-00c4dc819e71337",
           "x": 98266,
-          "y": 30154
+          "y": 33502
         },
         "35d48e80-aaa8-483b-9d68-7cbffaef84d8337": {
           "color": {
@@ -6746,7 +6746,7 @@ var schemeData =
           "label": "There can be many collections of views lists",
           "id": "35d48e80-aaa8-483b-9d68-7cbffaef84d8337",
           "x": 98231,
-          "y": 30185
+          "y": 33533
         },
         "6df3ceaf-bb1a-4f07-9afa-8eeec64c1288337": {
           "color": {
@@ -6773,7 +6773,7 @@ var schemeData =
           "label": "Hotkeys",
           "id": "6df3ceaf-bb1a-4f07-9afa-8eeec64c1288337",
           "x": 98118,
-          "y": 30213
+          "y": 33561
         },
         "d72e3512-5f28-439f-82fd-4f12c136870f673431": {
           "color": {
@@ -6804,7 +6804,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Разработка mm-vis-js",
           "x": 81360,
-          "y": 15306,
+          "y": 18654,
           "id": "d72e3512-5f28-439f-82fd-4f12c136870f673431",
           "shape": "box",
           "link": "",
@@ -6836,7 +6836,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 82016,
-          "y": 15927,
+          "y": 19275,
           "id": "c265228f-7a42-4f5b-ae09-4968e660d922673431"
         },
         "72a29b77-7945-40c7-aabf-56d95597916b673431": {
@@ -6865,7 +6865,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/12/2019",
           "x": 82216,
-          "y": 15921,
+          "y": 19269,
           "id": "72a29b77-7945-40c7-aabf-56d95597916b673431"
         },
         "01833143-dc1d-4f15-b6dc-71d4232a5dca673431": {
@@ -6894,7 +6894,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 82370,
-          "y": 15921,
+          "y": 19269,
           "id": "01833143-dc1d-4f15-b6dc-71d4232a5dca673431"
         },
         "adf37994-f52f-43fe-8c46-de3d24f49a5f673431": {
@@ -6923,7 +6923,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 82016,
-          "y": 14915,
+          "y": 18263,
           "id": "adf37994-f52f-43fe-8c46-de3d24f49a5f673431"
         },
         "18700789-b477-4474-a9d8-a64b504c28f9673431": {
@@ -6952,7 +6952,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 82191,
-          "y": 14164,
+          "y": 17512,
           "id": "18700789-b477-4474-a9d8-a64b504c28f9673431"
         },
         "46c40acb-8f2f-46fa-a223-88fdf60d1eb7673431": {
@@ -6981,7 +6981,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 82166,
-          "y": 14915,
+          "y": 18263,
           "id": "46c40acb-8f2f-46fa-a223-88fdf60d1eb7673431"
         },
         "c03a29fb-0bf2-4391-96ec-20658fcf2a96673431": {
@@ -7010,7 +7010,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 82166,
-          "y": 15327,
+          "y": 18675,
           "id": "c03a29fb-0bf2-4391-96ec-20658fcf2a96673431"
         },
         "bc1799b7-5c57-46ae-8470-74c7694cb4eb673431": {
@@ -7039,7 +7039,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 82230,
-          "y": 15177,
+          "y": 18525,
           "id": "bc1799b7-5c57-46ae-8470-74c7694cb4eb673431"
         },
         "a6042930-308d-40dc-97ea-9d2deb71784a673431": {
@@ -7068,7 +7068,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 82261,
-          "y": 15202,
+          "y": 18550,
           "id": "a6042930-308d-40dc-97ea-9d2deb71784a673431"
         },
         "d4e88b34-c5a2-4084-8168-85a39b96518b673431": {
@@ -7097,7 +7097,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 82226,
-          "y": 15227,
+          "y": 18575,
           "id": "d4e88b34-c5a2-4084-8168-85a39b96518b673431"
         },
         "5e2d9b9e-7956-4d91-b961-a18ccfd10634673431": {
@@ -7126,7 +7126,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 82245,
-          "y": 15252,
+          "y": 18600,
           "id": "5e2d9b9e-7956-4d91-b961-a18ccfd10634673431"
         },
         "b743ea42-811f-41c8-933d-365f7599f2bb673431": {
@@ -7155,7 +7155,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 82234,
-          "y": 15277,
+          "y": 18625,
           "id": "b743ea42-811f-41c8-933d-365f7599f2bb673431"
         },
         "0c70927a-6c22-4f8c-a554-8321f73853c1673431": {
@@ -7184,7 +7184,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 82256,
-          "y": 15302,
+          "y": 18650,
           "id": "0c70927a-6c22-4f8c-a554-8321f73853c1673431"
         },
         "40abf69a-e6bb-4fbc-9c36-1c571d034e9c673431": {
@@ -7213,7 +7213,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 82258,
-          "y": 15327,
+          "y": 18675,
           "id": "40abf69a-e6bb-4fbc-9c36-1c571d034e9c673431"
         },
         "dcb2c77b-baa1-4044-835f-d5bf6dfbd23c673431": {
@@ -7242,7 +7242,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 82236,
-          "y": 15352,
+          "y": 18700,
           "id": "dcb2c77b-baa1-4044-835f-d5bf6dfbd23c673431"
         },
         "9ebd4908-ab02-4b2d-96fb-b3e6655279da673431": {
@@ -7271,7 +7271,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 82227,
-          "y": 15377,
+          "y": 18725,
           "id": "9ebd4908-ab02-4b2d-96fb-b3e6655279da673431"
         },
         "26199d75-b171-4b65-ad6e-66793cce4341673431": {
@@ -7300,7 +7300,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 82255,
-          "y": 15402,
+          "y": 18750,
           "id": "26199d75-b171-4b65-ad6e-66793cce4341673431"
         },
         "846dbcfc-e517-497e-9fc7-35297ce2f54e673431": {
@@ -7329,7 +7329,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 82241,
-          "y": 15427,
+          "y": 18775,
           "id": "846dbcfc-e517-497e-9fc7-35297ce2f54e673431"
         },
         "ea3f8386-dd89-485e-8b6d-e4d665943d89673431": {
@@ -7358,7 +7358,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 82263,
-          "y": 15452,
+          "y": 18800,
           "id": "ea3f8386-dd89-485e-8b6d-e4d665943d89673431"
         },
         "720fdfd4-71bc-4c2f-bf80-df69a9351f9b673431": {
@@ -7387,7 +7387,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 82227,
-          "y": 15477,
+          "y": 18825,
           "id": "720fdfd4-71bc-4c2f-bf80-df69a9351f9b673431"
         },
         "e4ee609d-39ad-4543-a157-38d8718c20a8673431": {
@@ -7416,7 +7416,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 82266,
-          "y": 15502,
+          "y": 18850,
           "id": "e4ee609d-39ad-4543-a157-38d8718c20a8673431"
         },
         "eb72029f-bfe4-403d-a720-ff89c2b4f94e673431": {
@@ -7445,7 +7445,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 82016,
-          "y": 15627,
+          "y": 18975,
           "id": "eb72029f-bfe4-403d-a720-ff89c2b4f94e673431"
         },
         "14a16f63-3b55-489f-bf21-ee639776c71c673431": {
@@ -7474,7 +7474,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 82016,
-          "y": 15727,
+          "y": 19075,
           "id": "14a16f63-3b55-489f-bf21-ee639776c71c673431"
         },
         "79a3d8ef-2677-4066-8195-a7096bb31a2c673431": {
@@ -7503,7 +7503,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 82016,
-          "y": 15827,
+          "y": 19175,
           "id": "79a3d8ef-2677-4066-8195-a7096bb31a2c673431"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673431": {
@@ -7536,7 +7536,7 @@ var schemeData =
           "label": "Разработка\nmm-vis-js",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673431",
           "x": 87459,
-          "y": 15050,
+          "y": 18398,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7568,7 +7568,7 @@ var schemeData =
           "label": "Goals",
           "id": "bbfa4068-4e91-4d81-aa66-b3a75c20e228673431",
           "x": 82376,
-          "y": 15964
+          "y": 19312
         },
         "d723c162-2431-49ca-b38c-70f18ac64ca1673431": {
           "color": {
@@ -7600,7 +7600,7 @@ var schemeData =
           "label": "Add edge label edit function",
           "id": "d723c162-2431-49ca-b38c-70f18ac64ca1673431",
           "x": 82544,
-          "y": 15990,
+          "y": 19338,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7635,7 +7635,7 @@ var schemeData =
           "label": "Карты\nпрограммного\nкода",
           "id": "30e667e1-e8b2-4be3-b753-2dee5d10c49b856673431",
           "x": 88090,
-          "y": 23347,
+          "y": 26695,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7702,7 +7702,7 @@ var schemeData =
           "label": "Ссылка на пример книги \"на холсте\"",
           "id": "f79ec810-7f8f-43e8-b3b3-ff5cf20a66f8856673431",
           "x": 82853,
-          "y": 26879
+          "y": 30227
         },
         "cf78bc11-91c8-49c9-b678-3cd9aced5311856673431": {
           "color": {
@@ -7731,7 +7731,7 @@ var schemeData =
           "label": "Код генерации книг",
           "id": "cf78bc11-91c8-49c9-b678-3cd9aced5311856673431",
           "x": 82797,
-          "y": 26944
+          "y": 30292
         },
         "4eeb91b4-989b-4727-b962-7f59f9f7bda8856673431": {
           "color": {
@@ -7760,7 +7760,7 @@ var schemeData =
           "label": "TODO: добавить ссылку",
           "id": "4eeb91b4-989b-4727-b962-7f59f9f7bda8856673431",
           "x": 83086,
-          "y": 26943
+          "y": 30291
         },
         "3d5af2c3-7c46-489f-a80f-f41dd5bbc113856673431": {
           "color": {
@@ -7790,7 +7790,7 @@ var schemeData =
           "label": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "id": "3d5af2c3-7c46-489f-a80f-f41dd5bbc113856673431",
           "x": 83430,
-          "y": 26863,
+          "y": 30211,
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "borderWidth": ""
@@ -7822,7 +7822,7 @@ var schemeData =
           "label": "Примеры",
           "id": "22123149-010b-4f10-8d48-614343676646856673431",
           "x": 82878,
-          "y": 22573
+          "y": 25921
         },
         "d72c9ee6-422f-46b9-a2b6-530acbb851c8856673431": {
           "color": {
@@ -7851,7 +7851,7 @@ var schemeData =
           "label": "Код генерации примеров",
           "id": "d72c9ee6-422f-46b9-a2b6-530acbb851c8856673431",
           "x": 82976,
-          "y": 23276
+          "y": 26624
         },
         "73e001ea-c6ee-4573-9173-50a897bc69f7856673431": {
           "color": {
@@ -7881,7 +7881,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vis-network/vis-network.index.html",
           "id": "73e001ea-c6ee-4573-9173-50a897bc69f7856673431",
           "x": 83441,
-          "y": 22116,
+          "y": 25464,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vis-network/vis-network.index.html",
           "borderWidth": ""
@@ -7914,7 +7914,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/jdk/jdk.index.html",
           "id": "148c0f2f-58a0-4278-a284-c4eda5bff4d7856673431",
           "x": 83387,
-          "y": 22175,
+          "y": 25523,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/jdk/jdk.index.html",
           "borderWidth": ""
@@ -7946,7 +7946,7 @@ var schemeData =
           "label": "Файлы карт загружаются 5-10 секунд.",
           "id": "682e2e0c-de7a-4218-af14-fe0a3b67e228856673431",
           "x": 82967,
-          "y": 23433
+          "y": 26781
         },
         "b1c3bfef-9396-429e-97d6-bfea67857091856673431": {
           "color": {
@@ -7976,7 +7976,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/apache_httpd/apache_httpd.index.html",
           "id": "b1c3bfef-9396-429e-97d6-bfea67857091856673431",
           "x": 83456,
-          "y": 22243,
+          "y": 25591,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/apache_httpd/apache_httpd.index.html",
           "borderWidth": ""
@@ -8009,7 +8009,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/bash/bash.index.html",
           "id": "502ba7df-60ac-4226-8aa9-e90a6940e36e856673431",
           "x": 83400,
-          "y": 22283,
+          "y": 25631,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/bash/bash.index.html",
           "borderWidth": ""
@@ -8042,7 +8042,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/chromium/chromium.index.html",
           "id": "94cbd1d4-bafe-46d9-b811-35517c77c30e856673431",
           "x": 83432,
-          "y": 22332,
+          "y": 25680,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/chromium/chromium.index.html",
           "borderWidth": ""
@@ -8074,7 +8074,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/cpython/cpython.index.hml",
           "id": "f6d9d005-6067-440d-9b62-7e1ad92395f0856673431",
           "x": 83417,
-          "y": 22381
+          "y": 25729
         },
         "298ee61d-a396-47ea-aa7c-ebb565676a2c856673431": {
           "color": {
@@ -8104,7 +8104,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/emacs/emacs.index.html",
           "id": "298ee61d-a396-47ea-aa7c-ebb565676a2c856673431",
           "x": 83411,
-          "y": 22429,
+          "y": 25777,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/emacs/emacs.index.html",
           "borderWidth": ""
@@ -8137,7 +8137,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/firefox/firefox.index.html",
           "id": "b04b14d8-1d14-4acd-a25f-9d5aa64310ec856673431",
           "x": 83408,
-          "y": 22485,
+          "y": 25833,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/firefox/firefox.index.html",
           "borderWidth": ""
@@ -8172,7 +8172,7 @@ var schemeData =
           "label": "Тестирование\nmm-vis-js",
           "id": "5ea860e4-a966-4328-81bf-8b0a063ae6f1856673431",
           "x": 88035,
-          "y": 12018,
+          "y": 15366,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8205,7 +8205,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/gcc/gcc.index.html",
           "id": "35872018-0beb-487b-8de3-9defef972c48856673431",
           "x": 83391,
-          "y": 22541,
+          "y": 25889,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/gcc/gcc.index.html",
           "borderWidth": ""
@@ -8238,7 +8238,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ghc/ghc.index.html",
           "id": "5c2e2e96-836e-4af3-a12e-da75651ed7e8856673431",
           "x": 83392,
-          "y": 22575,
+          "y": 25923,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ghc/ghc.index.html",
           "borderWidth": ""
@@ -8271,7 +8271,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/git/git.index.html",
           "id": "74834844-1c42-42bf-969e-03f0a79b44da856673431",
           "x": 83384,
-          "y": 22606,
+          "y": 25954,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/git/git.index.html",
           "borderWidth": ""
@@ -8304,7 +8304,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/julia/julia.index.html",
           "id": "b08916db-062a-454b-bd39-8f68213c97ce856673431",
           "x": 83394,
-          "y": 22632,
+          "y": 25980,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/julia/julia.index.html",
           "borderWidth": ""
@@ -8337,7 +8337,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/hbase/hbase.index.html",
           "id": "1eede9ae-1653-4dda-9fff-c1455e395bb9856673431",
           "x": 83410,
-          "y": 22676,
+          "y": 26024,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/hbase/hbase.index.html",
           "borderWidth": ""
@@ -8370,7 +8370,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/linux-core/linux-core.index.html",
           "id": "df5b3d3b-055e-483e-978e-b61a296a29b0856673431",
           "x": 83435,
-          "y": 22714,
+          "y": 26062,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/linux-core/linux-core.index.html",
           "borderWidth": ""
@@ -8403,7 +8403,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mm-vis-js/mm-vis-js.index.html",
           "id": "e4495c5a-517f-45e3-a810-be4480d14edf856673431",
           "x": 83430,
-          "y": 22753,
+          "y": 26101,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mm-vis-js/mm-vis-js.index.html",
           "borderWidth": ""
@@ -8436,7 +8436,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mysql-server/mysql-server.index.html",
           "id": "f440e7d4-8921-4590-8671-1a81b7fdc8bf856673431",
           "x": 83451,
-          "y": 22790,
+          "y": 26138,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/mysql-server/mysql-server.index.html",
           "borderWidth": ""
@@ -8468,7 +8468,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/neo4j/neo4j.index.html",
           "id": "1266304d-892d-4786-a37a-aec17829d089856673431",
           "x": 83404,
-          "y": 22825
+          "y": 26173
         },
         "312f8def-d468-4d38-b3fe-97c856b4d1e2856673431": {
           "color": {
@@ -8498,7 +8498,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ruby/ruby.index.html",
           "id": "312f8def-d468-4d38-b3fe-97c856b4d1e2856673431",
           "x": 83397,
-          "y": 22874,
+          "y": 26222,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/ruby/ruby.index.html",
           "borderWidth": ""
@@ -8531,7 +8531,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/sbcl/sbcl.index.html",
           "id": "78f06d8c-497d-4db1-bea9-10775d8338ac856673431",
           "x": 83394,
-          "y": 22920,
+          "y": 26268,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/sbcl/sbcl.index.html",
           "borderWidth": ""
@@ -8564,7 +8564,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spark/spark.index.html",
           "id": "f3f4175c-9236-42fd-8757-32ee3ef9bb71856673431",
           "x": 83404,
-          "y": 22954,
+          "y": 26302,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spark/spark.index.html",
           "borderWidth": ""
@@ -8597,7 +8597,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spring-framework/spring-framework.index.html",
           "id": "b67fb330-a745-40fe-9bfb-23d326ffdfff856673431",
           "x": 83480,
-          "y": 22984,
+          "y": 26332,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/spring-framework/spring-framework.index.html",
           "borderWidth": ""
@@ -8630,7 +8630,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/texlive-source/texlive-source.index.html",
           "id": "82f75612-bc2a-4983-bc1e-3e5b2b5308ef856673431",
           "x": 83457,
-          "y": 23007,
+          "y": 26355,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/texlive-source/texlive-source.index.html",
           "borderWidth": ""
@@ -8663,7 +8663,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/tomcat/tomcat.index.html",
           "id": "edae5ee3-c836-4cd6-a969-e7de69f2426e856673431",
           "x": 83412,
-          "y": 23058,
+          "y": 26406,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/tomcat/tomcat.index.html",
           "borderWidth": ""
@@ -8696,7 +8696,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vim/vim.index.html",
           "id": "5e01434b-c6de-4c84-8340-2bca0811fecf856673431",
           "x": 83391,
-          "y": 23095,
+          "y": 26443,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vim/vim.index.html",
           "borderWidth": ""
@@ -8729,7 +8729,7 @@ var schemeData =
           "label": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vscode/vscode.index.html",
           "id": "8e0b73ac-bf1d-43f5-9962-1d293d9c95a2856673431",
           "x": 83414,
-          "y": 23126,
+          "y": 26474,
           "shape": "box",
           "link": "http://www.nkbtr.org/down/mm-vis-js/code_examples/vscode/vscode.index.html",
           "borderWidth": ""
@@ -8761,7 +8761,7 @@ var schemeData =
           "label": "vis-network",
           "id": "8f1d4ca1-872a-4275-9e5a-c4071e43cfc8856673431",
           "x": 83010,
-          "y": 22102
+          "y": 25450
         },
         "aac55059-2104-48d0-afc9-c3c801076487856673431": {
           "color": {
@@ -8790,7 +8790,7 @@ var schemeData =
           "label": "jdk",
           "id": "aac55059-2104-48d0-afc9-c3c801076487856673431",
           "x": 82983,
-          "y": 22177
+          "y": 25525
         },
         "44447f9c-f188-43ba-8164-88bda0aae8e1856673431": {
           "color": {
@@ -8819,7 +8819,7 @@ var schemeData =
           "label": "apache_httpd",
           "id": "44447f9c-f188-43ba-8164-88bda0aae8e1856673431",
           "x": 83017,
-          "y": 22237
+          "y": 25585
         },
         "9c3a52cb-55a2-4470-a625-33f10ad15153856673431": {
           "color": {
@@ -8848,7 +8848,7 @@ var schemeData =
           "label": "bash",
           "id": "9c3a52cb-55a2-4470-a625-33f10ad15153856673431",
           "x": 82989,
-          "y": 22283
+          "y": 25631
         },
         "54a4b213-9ec2-4ed1-b5db-9220107c9311856673431": {
           "color": {
@@ -8877,7 +8877,7 @@ var schemeData =
           "label": "chromium",
           "id": "54a4b213-9ec2-4ed1-b5db-9220107c9311856673431",
           "x": 83005,
-          "y": 22333
+          "y": 25681
         },
         "e9710f68-b042-4451-b90c-2b17fb566ea3856673431": {
           "color": {
@@ -8906,7 +8906,7 @@ var schemeData =
           "label": "cpython",
           "id": "e9710f68-b042-4451-b90c-2b17fb566ea3856673431",
           "x": 82999,
-          "y": 22386
+          "y": 25734
         },
         "51f703e5-c66a-401f-a872-69951870b25f856673431": {
           "color": {
@@ -8935,7 +8935,7 @@ var schemeData =
           "label": "emacs",
           "id": "51f703e5-c66a-401f-a872-69951870b25f856673431",
           "x": 82995,
-          "y": 22427
+          "y": 25775
         },
         "0115c013-c5ef-4a52-9998-fbc97a360322856673431": {
           "color": {
@@ -8964,7 +8964,7 @@ var schemeData =
           "label": "firefox",
           "id": "0115c013-c5ef-4a52-9998-fbc97a360322856673431",
           "x": 82993,
-          "y": 22476
+          "y": 25824
         },
         "497f406a-93a9-4283-9ee2-19e6d204f5a0856673431": {
           "color": {
@@ -8993,7 +8993,7 @@ var schemeData =
           "label": "gcc",
           "id": "497f406a-93a9-4283-9ee2-19e6d204f5a0856673431",
           "x": 82985,
-          "y": 22537
+          "y": 25885
         },
         "428995a8-1044-4e2f-ad44-215c841d1a41856673431": {
           "color": {
@@ -9022,7 +9022,7 @@ var schemeData =
           "label": "ghc",
           "id": "428995a8-1044-4e2f-ad44-215c841d1a41856673431",
           "x": 82985,
-          "y": 22573
+          "y": 25921
         },
         "01bea31e-6800-4dd3-8ed5-98181a0d62b3856673431": {
           "color": {
@@ -9051,7 +9051,7 @@ var schemeData =
           "label": "git",
           "id": "01bea31e-6800-4dd3-8ed5-98181a0d62b3856673431",
           "x": 82981,
-          "y": 22599
+          "y": 25947
         },
         "218467bc-6c3b-4916-9dd2-b537a99c2c7c856673431": {
           "color": {
@@ -9080,7 +9080,7 @@ var schemeData =
           "label": "julia",
           "id": "218467bc-6c3b-4916-9dd2-b537a99c2c7c856673431",
           "x": 82986,
-          "y": 22628
+          "y": 25976
         },
         "6c60a515-6507-42f8-8a1e-71861804b45a856673431": {
           "color": {
@@ -9109,7 +9109,7 @@ var schemeData =
           "label": "hbase",
           "id": "6c60a515-6507-42f8-8a1e-71861804b45a856673431",
           "x": 82993,
-          "y": 22674
+          "y": 26022
         },
         "a100e6e9-86eb-4753-8338-307eca40a7d4856673431": {
           "color": {
@@ -9138,7 +9138,7 @@ var schemeData =
           "label": "linux-core",
           "id": "a100e6e9-86eb-4753-8338-307eca40a7d4856673431",
           "x": 83005,
-          "y": 22706
+          "y": 26054
         },
         "6c1f4913-43d4-4631-8c79-df8ce5a4f63e856673431": {
           "color": {
@@ -9167,7 +9167,7 @@ var schemeData =
           "label": "mm-vis-js",
           "id": "6c1f4913-43d4-4631-8c79-df8ce5a4f63e856673431",
           "x": 83004,
-          "y": 22746
+          "y": 26094
         },
         "498482b5-bbdf-40aa-aa3c-452315162413856673431": {
           "color": {
@@ -9196,7 +9196,7 @@ var schemeData =
           "label": "mysql-server",
           "id": "498482b5-bbdf-40aa-aa3c-452315162413856673431",
           "x": 83015,
-          "y": 22789
+          "y": 26137
         },
         "6887b62d-a46b-4150-9b53-64bb70e8c850856673431": {
           "color": {
@@ -9225,7 +9225,7 @@ var schemeData =
           "label": "neo4j",
           "id": "6887b62d-a46b-4150-9b53-64bb70e8c850856673431",
           "x": 82991,
-          "y": 22828
+          "y": 26176
         },
         "c235ef75-7667-4b06-8b6f-491724d4c4b5856673431": {
           "color": {
@@ -9254,7 +9254,7 @@ var schemeData =
           "label": "ruby",
           "id": "c235ef75-7667-4b06-8b6f-491724d4c4b5856673431",
           "x": 82988,
-          "y": 22864
+          "y": 26212
         },
         "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf856673431": {
           "color": {
@@ -9283,7 +9283,7 @@ var schemeData =
           "label": "sbcl",
           "id": "7ca14280-60e3-4bfe-9d56-a0e67ec6bebf856673431",
           "x": 82986,
-          "y": 22905
+          "y": 26253
         },
         "f4decd03-bfff-426d-8f3c-40106497e623856673431": {
           "color": {
@@ -9312,7 +9312,7 @@ var schemeData =
           "label": "spark",
           "id": "f4decd03-bfff-426d-8f3c-40106497e623856673431",
           "x": 82991,
-          "y": 22940
+          "y": 26288
         },
         "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da856673431": {
           "color": {
@@ -9341,7 +9341,7 @@ var schemeData =
           "label": "spring-framework",
           "id": "a73c0ec1-f4f0-4c10-b8c7-6dfd47f146da856673431",
           "x": 83029,
-          "y": 22972
+          "y": 26320
         },
         "7b571732-4654-4d9e-a1de-a7f1df712745856673431": {
           "color": {
@@ -9370,7 +9370,7 @@ var schemeData =
           "label": "texlive-source",
           "id": "7b571732-4654-4d9e-a1de-a7f1df712745856673431",
           "x": 83018,
-          "y": 23008
+          "y": 26356
         },
         "92fca885-a7ed-49ea-89d1-82fa71c9857e856673431": {
           "color": {
@@ -9399,7 +9399,7 @@ var schemeData =
           "label": "tomcat",
           "id": "92fca885-a7ed-49ea-89d1-82fa71c9857e856673431",
           "x": 82995,
-          "y": 23052
+          "y": 26400
         },
         "315153b0-268e-4c6b-9f1b-b0ecf0707073856673431": {
           "color": {
@@ -9428,7 +9428,7 @@ var schemeData =
           "label": "vim",
           "id": "315153b0-268e-4c6b-9f1b-b0ecf0707073856673431",
           "x": 82985,
-          "y": 23090
+          "y": 26438
         },
         "28c78af2-c055-4907-b879-b40a312664f7856673431": {
           "color": {
@@ -9457,7 +9457,7 @@ var schemeData =
           "label": "vscode",
           "id": "28c78af2-c055-4907-b879-b40a312664f7856673431",
           "x": 82996,
-          "y": 23121
+          "y": 26469
         },
         "25d82c80-2203-4faa-9747-87120f00ae81856673431": {
           "color": {
@@ -9486,7 +9486,7 @@ var schemeData =
           "label": "Процедура",
           "id": "25d82c80-2203-4faa-9747-87120f00ae81856673431",
           "x": 82304,
-          "y": 11306
+          "y": 14654
         },
         "179b5dcc-0496-4c74-8451-cbb796144379856673431": {
           "color": {
@@ -9516,7 +9516,7 @@ var schemeData =
           "label": "Предварительно установить",
           "id": "179b5dcc-0496-4c74-8451-cbb796144379856673431",
           "x": 82494,
-          "y": 11249,
+          "y": 14597,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9548,7 +9548,7 @@ var schemeData =
           "label": "Docker",
           "id": "6fa1e7e0-c5d6-4003-83e1-cea4406fae46856673431",
           "x": 82687,
-          "y": 11207
+          "y": 14555
         },
         "3263da94-2ce8-402a-8d42-bd22669b945b856673431": {
           "color": {
@@ -9577,7 +9577,7 @@ var schemeData =
           "label": "docker-compose",
           "id": "3263da94-2ce8-402a-8d42-bd22669b945b856673431",
           "x": 82719,
-          "y": 11262
+          "y": 14610
         },
         "85e6ba42-7db6-4680-919c-3269559c0fbe856673431": {
           "color": {
@@ -9606,7 +9606,7 @@ var schemeData =
           "label": "pip install docker-compose",
           "id": "85e6ba42-7db6-4680-919c-3269559c0fbe856673431",
           "x": 82923,
-          "y": 11259
+          "y": 14607
         },
         "8cfea21a-e1f4-400e-b764-c9ef63fef1c8856673431": {
           "color": {
@@ -9635,7 +9635,7 @@ var schemeData =
           "label": "Выполнение тестов",
           "id": "8cfea21a-e1f4-400e-b764-c9ef63fef1c8856673431",
           "x": 82474,
-          "y": 11457
+          "y": 14805
         },
         "c529d633-f904-4990-b1cd-879e8c0b164b856673431": {
           "color": {
@@ -9665,7 +9665,7 @@ var schemeData =
           "label": "Необходимо открыть два консоли",
           "id": "c529d633-f904-4990-b1cd-879e8c0b164b856673431",
           "x": 82786,
-          "y": 11327,
+          "y": 14675,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9698,7 +9698,7 @@ var schemeData =
           "label": "В первой консоли выполните команду",
           "id": "532636aa-db78-49e6-be51-3be6ae888b09856673431",
           "x": 82801,
-          "y": 11384,
+          "y": 14732,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9731,7 +9731,7 @@ var schemeData =
           "label": "docker-compose up --build.",
           "id": "a2fc6f92-bd21-4679-870f-a3f4d5e301f0856673431",
           "x": 83096,
-          "y": 11380,
+          "y": 14728,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9764,7 +9764,7 @@ var schemeData =
           "label": "Запустится докер-контейнер с браузером chrome внутри.",
           "id": "1724f3cb-c073-4014-8a02-8132f6186803856673431",
           "x": 83437,
-          "y": 11368,
+          "y": 14716,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9797,7 +9797,7 @@ var schemeData =
           "label": "Во второй консоли выполните команды",
           "id": "ea5d67e7-c760-4ec1-8bc3-ffbd63a895d9856673431",
           "x": 82808,
-          "y": 11513,
+          "y": 14861,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9829,7 +9829,7 @@ var schemeData =
           "label": "docker exec -it app-express npm run test:e2e",
           "id": "3b1b8717-0bfb-4b5f-a9de-aa39f4f825fd856673431",
           "x": 83152,
-          "y": 11467
+          "y": 14815
         },
         "e335fc55-69e7-4f38-b4c6-09e133d6688f856673431": {
           "color": {
@@ -9858,7 +9858,7 @@ var schemeData =
           "label": "Выполнятся тесты",
           "id": "e335fc55-69e7-4f38-b4c6-09e133d6688f856673431",
           "x": 83440,
-          "y": 11456
+          "y": 14804
         },
         "9072fccc-888c-4b01-b039-1d0027a1e73a856673431": {
           "color": {
@@ -9888,7 +9888,7 @@ var schemeData =
           "label": "Процесс выйдет после выполнения.",
           "id": "9072fccc-888c-4b01-b039-1d0027a1e73a856673431",
           "x": 83497,
-          "y": 11494,
+          "y": 14842,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9920,7 +9920,7 @@ var schemeData =
           "label": "Процесс останется запущенным в консоли",
           "id": "76062b6c-58fb-46cc-9370-c59d6f3718c6856673431",
           "x": 83390,
-          "y": 11400
+          "y": 14748
         },
         "79d0dbf8-19a9-462f-b150-e0ee56523d65856673431": {
           "color": {
@@ -9949,7 +9949,7 @@ var schemeData =
           "label": "docker-compose down",
           "id": "79d0dbf8-19a9-462f-b150-e0ee56523d65856673431",
           "x": 83080,
-          "y": 11572
+          "y": 14920
         },
         "3ea5f8fc-f7db-431e-b3f4-024a28f9313c856673431": {
           "color": {
@@ -9979,7 +9979,7 @@ var schemeData =
           "label": "Чтобы остановить ее контейнер",
           "id": "3ea5f8fc-f7db-431e-b3f4-024a28f9313c856673431",
           "x": 83352,
-          "y": 11571,
+          "y": 14919,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10012,7 +10012,7 @@ var schemeData =
           "label": "Схемы строятся на элементе HTML5 - canvas",
           "id": "ecbb486a-5275-4cf9-8b76-9d5cf78756c0856673431",
           "x": 82266,
-          "y": 12412,
+          "y": 15760,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10045,7 +10045,7 @@ var schemeData =
           "label": "Положение объектов на canvas можно тестировать только как растровую графику",
           "id": "23c491d2-586e-4c27-a9f6-fea8f4bec969856673431",
           "x": 82756,
-          "y": 12383,
+          "y": 15731,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10077,7 +10077,7 @@ var schemeData =
           "label": "В тестах нужно следить за цветом отдельных пикселей и их групп.",
           "id": "22be0fd6-971b-427a-8209-10438d354494856673431",
           "x": 82699,
-          "y": 12417
+          "y": 15765
         },
         "1e266f7a-37e9-468b-911a-fe271dc204ad856673431": {
           "color": {
@@ -10106,7 +10106,7 @@ var schemeData =
           "label": "Можно использовать библиотеки из ряда openCV",
           "id": "1e266f7a-37e9-468b-911a-fe271dc204ad856673431",
           "x": 82643,
-          "y": 12452
+          "y": 15800
         },
         "eece73d0-f661-4746-abc6-59492ce78793673431": {
           "color": {
@@ -10137,7 +10137,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Тестирование mm-vis-js",
           "x": 81323,
-          "y": 12133,
+          "y": 15481,
           "id": "eece73d0-f661-4746-abc6-59492ce78793673431",
           "shape": "box",
           "link": "",
@@ -10169,7 +10169,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 81965,
-          "y": 12706,
+          "y": 16054,
           "id": "a017755e-776e-4ce6-8a5e-044c579cf8bc673431"
         },
         "ef7e0044-5ad3-4865-a2ad-6e0118fef0cf673431": {
@@ -10201,7 +10201,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
           "x": 82215,
-          "y": 12706,
+          "y": 16054,
           "id": "ef7e0044-5ad3-4865-a2ad-6e0118fef0cf673431",
           "shape": "box",
           "link": "",
@@ -10233,7 +10233,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 82115,
-          "y": 12706,
+          "y": 16054,
           "id": "79aa7764-76fa-4f37-8e81-3265ee9b3d0f673431"
         },
         "22973f39-877f-4c69-bbdf-001db2408034673431": {
@@ -10262,7 +10262,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 81974,
-          "y": 11700,
+          "y": 15048,
           "id": "22973f39-877f-4c69-bbdf-001db2408034673431"
         },
         "99fc10fd-90d5-4228-9a8e-701248498df2673431": {
@@ -10291,7 +10291,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 82120,
-          "y": 11332,
+          "y": 14680,
           "id": "99fc10fd-90d5-4228-9a8e-701248498df2673431"
         },
         "5c5e4042-6e47-4335-9962-0cdee86b771d673431": {
@@ -10320,7 +10320,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 82124,
-          "y": 11700,
+          "y": 15048,
           "id": "5c5e4042-6e47-4335-9962-0cdee86b771d673431"
         },
         "564a2015-d7bc-473c-b076-4201b463ca5c673431": {
@@ -10349,7 +10349,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 82124,
-          "y": 11950,
+          "y": 15298,
           "id": "564a2015-d7bc-473c-b076-4201b463ca5c673431"
         },
         "11dad21f-63aa-4483-8b96-0662e55f0cdb673431": {
@@ -10378,7 +10378,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 82188,
-          "y": 11800,
+          "y": 15148,
           "id": "11dad21f-63aa-4483-8b96-0662e55f0cdb673431"
         },
         "597174be-3071-484c-a901-85b2943119fb673431": {
@@ -10407,7 +10407,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 82219,
-          "y": 11825,
+          "y": 15173,
           "id": "597174be-3071-484c-a901-85b2943119fb673431"
         },
         "15970d88-4fc7-4284-821c-bfe8dc7d9968673431": {
@@ -10436,7 +10436,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 82184,
-          "y": 11850,
+          "y": 15198,
           "id": "15970d88-4fc7-4284-821c-bfe8dc7d9968673431"
         },
         "7974f18b-313a-4f89-a58c-b24a8ee223f3673431": {
@@ -10465,7 +10465,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 82203,
-          "y": 11875,
+          "y": 15223,
           "id": "7974f18b-313a-4f89-a58c-b24a8ee223f3673431"
         },
         "e9cfa921-21b0-4a6b-aa40-45ce1463cf0e673431": {
@@ -10494,7 +10494,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 82192,
-          "y": 11900,
+          "y": 15248,
           "id": "e9cfa921-21b0-4a6b-aa40-45ce1463cf0e673431"
         },
         "31fb0461-1908-49c2-8921-6cb8e1b42af5673431": {
@@ -10523,7 +10523,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 82214,
-          "y": 11925,
+          "y": 15273,
           "id": "31fb0461-1908-49c2-8921-6cb8e1b42af5673431"
         },
         "00a3ee35-7088-49a7-96de-afd66e696112673431": {
@@ -10552,7 +10552,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 82216,
-          "y": 11950,
+          "y": 15298,
           "id": "00a3ee35-7088-49a7-96de-afd66e696112673431"
         },
         "5bb1563c-775c-4e02-8c08-8a53748f84b2673431": {
@@ -10581,7 +10581,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 82194,
-          "y": 11975,
+          "y": 15323,
           "id": "5bb1563c-775c-4e02-8c08-8a53748f84b2673431"
         },
         "24b108fe-aa2a-4e47-bc34-e504bf6fd7bd673431": {
@@ -10610,7 +10610,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 82185,
-          "y": 12000,
+          "y": 15348,
           "id": "24b108fe-aa2a-4e47-bc34-e504bf6fd7bd673431"
         },
         "3974d212-173c-4624-94c0-4df6ebf22f0b673431": {
@@ -10639,7 +10639,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 82213,
-          "y": 12025,
+          "y": 15373,
           "id": "3974d212-173c-4624-94c0-4df6ebf22f0b673431"
         },
         "294d7bcd-f7d6-4bb7-a6f3-f1740fabe7b7673431": {
@@ -10668,7 +10668,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 82199,
-          "y": 12050,
+          "y": 15398,
           "id": "294d7bcd-f7d6-4bb7-a6f3-f1740fabe7b7673431"
         },
         "6707cda3-4df4-49dc-934b-0a7373752a29673431": {
@@ -10697,7 +10697,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 82221,
-          "y": 12075,
+          "y": 15423,
           "id": "6707cda3-4df4-49dc-934b-0a7373752a29673431"
         },
         "3d4e5982-4060-405a-8a32-3c0950e6344d673431": {
@@ -10726,7 +10726,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 82185,
-          "y": 12100,
+          "y": 15448,
           "id": "3d4e5982-4060-405a-8a32-3c0950e6344d673431"
         },
         "c4060f5e-1e93-4f41-87ff-0fd5097fd466673431": {
@@ -10755,7 +10755,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 82224,
-          "y": 12125,
+          "y": 15473,
           "id": "c4060f5e-1e93-4f41-87ff-0fd5097fd466673431"
         },
         "f8f305c2-963c-4a5e-a602-d961cede3e67673431": {
@@ -10784,7 +10784,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 81974,
-          "y": 12250,
+          "y": 15598,
           "id": "f8f305c2-963c-4a5e-a602-d961cede3e67673431"
         },
         "544cab6c-3080-4683-8d30-4377dff9b557673431": {
@@ -10813,7 +10813,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 81978,
-          "y": 12413,
+          "y": 15761,
           "id": "544cab6c-3080-4683-8d30-4377dff9b557673431"
         },
         "b68c3d2e-6ec6-46c1-a48f-0124fc60a8b6673431": {
@@ -10842,7 +10842,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 81965,
-          "y": 12606,
+          "y": 15954,
           "id": "b68c3d2e-6ec6-46c1-a48f-0124fc60a8b6673431"
         },
         "18e5ccae-18fc-47d7-b477-869e4f6b6695673431": {
@@ -10874,7 +10874,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Карты программного кода",
           "x": 81978,
-          "y": 23838,
+          "y": 27186,
           "id": "18e5ccae-18fc-47d7-b477-869e4f6b6695673431",
           "shape": "box",
           "link": "",
@@ -10906,7 +10906,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 82533,
-          "y": 24282,
+          "y": 27630,
           "id": "1704383b-3fe2-4770-b7ff-e847fe5b74dc673431"
         },
         "ba544b69-0857-4626-a5a8-2dbda6daa8fa673431": {
@@ -10938,7 +10938,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "2019-11-01 21:45",
           "x": 82804,
-          "y": 24282,
+          "y": 27630,
           "id": "ba544b69-0857-4626-a5a8-2dbda6daa8fa673431",
           "shape": "box",
           "link": "",
@@ -10970,7 +10970,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 82683,
-          "y": 24282,
+          "y": 27630,
           "id": "bb5a3df0-cd10-43c6-a426-f5882f5e09f4673431"
         },
         "1165ae1d-393f-448c-886d-eda66410f74a673431": {
@@ -10999,7 +10999,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 82533,
-          "y": 23432,
+          "y": 26780,
           "id": "1165ae1d-393f-448c-886d-eda66410f74a673431"
         },
         "0f1c6f59-dfac-430c-b42e-085e62d58b0f673431": {
@@ -11028,7 +11028,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 82687,
-          "y": 22961,
+          "y": 26309,
           "id": "0f1c6f59-dfac-430c-b42e-085e62d58b0f673431"
         },
         "60f2d9a2-de41-4bf5-b993-b6c870f43400673431": {
@@ -11057,7 +11057,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 82683,
-          "y": 23432,
+          "y": 26780,
           "id": "60f2d9a2-de41-4bf5-b993-b6c870f43400673431"
         },
         "11b7823a-4fb5-4acd-97bb-141244950a02673431": {
@@ -11086,7 +11086,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 82683,
-          "y": 23682,
+          "y": 27030,
           "id": "11b7823a-4fb5-4acd-97bb-141244950a02673431"
         },
         "b3491a37-06cb-47de-979f-0c8b1365b0e9673431": {
@@ -11115,7 +11115,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 82747,
-          "y": 23532,
+          "y": 26880,
           "id": "b3491a37-06cb-47de-979f-0c8b1365b0e9673431"
         },
         "eaf16b4b-dd4c-4f94-93c3-a7caafe19af3673431": {
@@ -11144,7 +11144,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 82778,
-          "y": 23557,
+          "y": 26905,
           "id": "eaf16b4b-dd4c-4f94-93c3-a7caafe19af3673431"
         },
         "29eade01-7ee1-4b36-8ad3-1f0c2cf995c2673431": {
@@ -11173,7 +11173,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 82743,
-          "y": 23582,
+          "y": 26930,
           "id": "29eade01-7ee1-4b36-8ad3-1f0c2cf995c2673431"
         },
         "9e1db631-16ef-47c4-a828-e6000749f73b673431": {
@@ -11202,7 +11202,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 82762,
-          "y": 23607,
+          "y": 26955,
           "id": "9e1db631-16ef-47c4-a828-e6000749f73b673431"
         },
         "c8a04a4d-001f-4dbf-94f1-4ad0982735fb673431": {
@@ -11231,7 +11231,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 82751,
-          "y": 23632,
+          "y": 26980,
           "id": "c8a04a4d-001f-4dbf-94f1-4ad0982735fb673431"
         },
         "a1669b83-07bd-4b30-919c-93b3bc64a75e673431": {
@@ -11260,7 +11260,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 82773,
-          "y": 23657,
+          "y": 27005,
           "id": "a1669b83-07bd-4b30-919c-93b3bc64a75e673431"
         },
         "f775615c-40e2-4e5a-a127-be3160df6069673431": {
@@ -11289,7 +11289,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 82775,
-          "y": 23682,
+          "y": 27030,
           "id": "f775615c-40e2-4e5a-a127-be3160df6069673431"
         },
         "d29c7bca-01b1-4f88-b465-fda42fba9987673431": {
@@ -11318,7 +11318,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 82753,
-          "y": 23707,
+          "y": 27055,
           "id": "d29c7bca-01b1-4f88-b465-fda42fba9987673431"
         },
         "77cf3de9-3c33-4b11-8875-a1b52d00b312673431": {
@@ -11347,7 +11347,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 82744,
-          "y": 23732,
+          "y": 27080,
           "id": "77cf3de9-3c33-4b11-8875-a1b52d00b312673431"
         },
         "88473b33-2a08-42ff-897e-fffc090a30c7673431": {
@@ -11376,7 +11376,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 82772,
-          "y": 23757,
+          "y": 27105,
           "id": "88473b33-2a08-42ff-897e-fffc090a30c7673431"
         },
         "d49e52e0-4f56-41ec-b0b1-cc9b86d88562673431": {
@@ -11405,7 +11405,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 82758,
-          "y": 23782,
+          "y": 27130,
           "id": "d49e52e0-4f56-41ec-b0b1-cc9b86d88562673431"
         },
         "ee365806-48b0-4565-b6d8-ed1549391fc6673431": {
@@ -11434,7 +11434,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 82780,
-          "y": 23807,
+          "y": 27155,
           "id": "ee365806-48b0-4565-b6d8-ed1549391fc6673431"
         },
         "ea9ae7f6-1489-466c-b4d1-a43519c0f009673431": {
@@ -11463,7 +11463,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 82744,
-          "y": 23832,
+          "y": 27180,
           "id": "ea9ae7f6-1489-466c-b4d1-a43519c0f009673431"
         },
         "b5929e45-60c7-4999-a367-56714094a864673431": {
@@ -11492,7 +11492,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 82783,
-          "y": 23857,
+          "y": 27205,
           "id": "b5929e45-60c7-4999-a367-56714094a864673431"
         },
         "22bead8f-a78d-4630-926b-5158f2b99d87673431": {
@@ -11521,7 +11521,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 82533,
-          "y": 23982,
+          "y": 27330,
           "id": "22bead8f-a78d-4630-926b-5158f2b99d87673431"
         },
         "a5bf367a-0d60-4392-9047-c134c893385e673431": {
@@ -11550,7 +11550,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 82533,
-          "y": 24082,
+          "y": 27430,
           "id": "a5bf367a-0d60-4392-9047-c134c893385e673431"
         },
         "bf39d10f-97ac-4cc7-9fec-eb3e97972330673431": {
@@ -11579,7 +11579,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 82533,
-          "y": 24182,
+          "y": 27530,
           "id": "bf39d10f-97ac-4cc7-9fec-eb3e97972330673431"
         },
         "65a326ea-1281-41f1-9352-6cb0a9e6a2c8673431": {
@@ -11612,7 +11612,7 @@ var schemeData =
           "label": "Bug: save nodes don't disappear after delete and page reload.",
           "id": "65a326ea-1281-41f1-9352-6cb0a9e6a2c8673431",
           "x": 82654,
-          "y": 15962,
+          "y": 19310,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11645,7 +11645,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/19/2019",
           "x": 82216,
-          "y": 16072,
+          "y": 19420,
           "id": "72a29b77-7945-40c7-aabf-56d95597916b559673431",
           "shape": "box",
           "link": "",
@@ -11678,7 +11678,7 @@ var schemeData =
           "label": "Goals",
           "id": "bbfa4068-4e91-4d81-aa66-b3a75c20e228263673431",
           "x": 82372,
-          "y": 16070
+          "y": 19418
         },
         "d723c162-2431-49ca-b38c-70f18ac64ca1678673431": {
           "color": {
@@ -11710,7 +11710,7 @@ var schemeData =
           "label": "Nodes search",
           "id": "d723c162-2431-49ca-b38c-70f18ac64ca1678673431",
           "x": 82500,
-          "y": 16070,
+          "y": 19418,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11742,7 +11742,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Перевод\nсхем",
           "x": 82225,
-          "y": 18836,
+          "y": 22184,
           "id": "65bdae01-b779-49a8-bf27-bf9027950613431",
           "shape": "box",
           "link": "",
@@ -11772,7 +11772,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 82525,
-          "y": 19286,
+          "y": 22634,
           "id": "cbfcd0a3-2db1-4314-8b40-e81dda5a4a61431"
         },
         "21b17e12-af56-48de-9520-74ab7ef1f9c6431": {
@@ -11799,7 +11799,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/21/2019",
           "x": 82721,
-          "y": 19284,
+          "y": 22632,
           "id": "21b17e12-af56-48de-9520-74ab7ef1f9c6431"
         },
         "7f7e15a7-7f6b-4609-ba38-5b711c7f789f431": {
@@ -11826,7 +11826,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 82841,
-          "y": 19284,
+          "y": 22632,
           "id": "7f7e15a7-7f6b-4609-ba38-5b711c7f789f431"
         },
         "7fea0cba-8194-4888-87d3-047f1c2fa116431": {
@@ -11853,7 +11853,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 82525,
-          "y": 18436,
+          "y": 21784,
           "id": "7fea0cba-8194-4888-87d3-047f1c2fa116431"
         },
         "52fcaddc-b3f2-4816-a836-26970d8b8a57431": {
@@ -11880,7 +11880,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 82675,
-          "y": 18186,
+          "y": 21534,
           "id": "52fcaddc-b3f2-4816-a836-26970d8b8a57431"
         },
         "5f5f9555-b834-478d-9528-8c5383628db2431": {
@@ -11907,7 +11907,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 82675,
-          "y": 18436,
+          "y": 21784,
           "id": "5f5f9555-b834-478d-9528-8c5383628db2431"
         },
         "d1144991-deec-4f98-9438-d6b89a52722c431": {
@@ -11934,7 +11934,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 82675,
-          "y": 18686,
+          "y": 22034,
           "id": "d1144991-deec-4f98-9438-d6b89a52722c431"
         },
         "1cd9cde5-7ccf-45fc-a378-3de0cf740d79431": {
@@ -11961,7 +11961,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 82739,
-          "y": 18536,
+          "y": 21884,
           "id": "1cd9cde5-7ccf-45fc-a378-3de0cf740d79431"
         },
         "03c0061f-5c90-4f20-8c98-059c44b51778431": {
@@ -11988,7 +11988,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 82770,
-          "y": 18561,
+          "y": 21909,
           "id": "03c0061f-5c90-4f20-8c98-059c44b51778431"
         },
         "090523b1-c1f4-4a4e-8964-cd8176449a6a431": {
@@ -12015,7 +12015,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 82735,
-          "y": 18586,
+          "y": 21934,
           "id": "090523b1-c1f4-4a4e-8964-cd8176449a6a431"
         },
         "4cc13894-0e93-4073-a2bd-4ad33a644136431": {
@@ -12042,7 +12042,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 82754,
-          "y": 18611,
+          "y": 21959,
           "id": "4cc13894-0e93-4073-a2bd-4ad33a644136431"
         },
         "48d20873-bfc2-4649-a9d3-162ef2170941431": {
@@ -12069,7 +12069,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 82743,
-          "y": 18636,
+          "y": 21984,
           "id": "48d20873-bfc2-4649-a9d3-162ef2170941431"
         },
         "55e0a123-ae6a-41a2-85ab-f734ad624ce5431": {
@@ -12096,7 +12096,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 82765,
-          "y": 18661,
+          "y": 22009,
           "id": "55e0a123-ae6a-41a2-85ab-f734ad624ce5431"
         },
         "35912118-3e92-43e1-9dd2-15a262c64928431": {
@@ -12123,7 +12123,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 82767,
-          "y": 18686,
+          "y": 22034,
           "id": "35912118-3e92-43e1-9dd2-15a262c64928431"
         },
         "07cbcd14-3571-4867-b45b-85583c17a895431": {
@@ -12150,7 +12150,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 82745,
-          "y": 18711,
+          "y": 22059,
           "id": "07cbcd14-3571-4867-b45b-85583c17a895431"
         },
         "927afd8a-418d-4a2f-a2a8-26ba39fa4e71431": {
@@ -12177,7 +12177,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 82736,
-          "y": 18736,
+          "y": 22084,
           "id": "927afd8a-418d-4a2f-a2a8-26ba39fa4e71431"
         },
         "8f30ecae-8c53-4af2-b348-5616dee5138c431": {
@@ -12204,7 +12204,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 82764,
-          "y": 18761,
+          "y": 22109,
           "id": "8f30ecae-8c53-4af2-b348-5616dee5138c431"
         },
         "93d63b38-55a7-4525-bee3-3aed8054d195431": {
@@ -12231,7 +12231,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 82750,
-          "y": 18786,
+          "y": 22134,
           "id": "93d63b38-55a7-4525-bee3-3aed8054d195431"
         },
         "0ecf3e03-6c38-4d08-bfce-4256cbee900f431": {
@@ -12258,7 +12258,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 82772,
-          "y": 18811,
+          "y": 22159,
           "id": "0ecf3e03-6c38-4d08-bfce-4256cbee900f431"
         },
         "977212bb-d18d-4fdf-9bd1-e5a235dc1836431": {
@@ -12285,7 +12285,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 82736,
-          "y": 18836,
+          "y": 22184,
           "id": "977212bb-d18d-4fdf-9bd1-e5a235dc1836431"
         },
         "d1817121-dd58-4a2a-bf6a-ab4c51bb2334431": {
@@ -12312,7 +12312,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 82775,
-          "y": 18861,
+          "y": 22209,
           "id": "d1817121-dd58-4a2a-bf6a-ab4c51bb2334431"
         },
         "6dfec417-d1b3-44f3-a455-3a925890742b431": {
@@ -12339,7 +12339,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 82525,
-          "y": 18986,
+          "y": 22334,
           "id": "6dfec417-d1b3-44f3-a455-3a925890742b431"
         },
         "8dc5351b-9361-41d0-9161-d361b6272b7c431": {
@@ -12366,7 +12366,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 82525,
-          "y": 19086,
+          "y": 22434,
           "id": "8dc5351b-9361-41d0-9161-d361b6272b7c431"
         },
         "627cfef5-a735-45a5-bdb5-ccf4f7246234431": {
@@ -12393,7 +12393,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 82525,
-          "y": 19186,
+          "y": 22534,
           "id": "627cfef5-a735-45a5-bdb5-ccf4f7246234431"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673546431": {
@@ -12426,7 +12426,7 @@ var schemeData =
           "label": "Перевод\nсхем",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2673546431",
           "x": 86765,
-          "y": 19003,
+          "y": 22351,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13513,7 +13513,7 @@ var schemeData =
         "2c38f6d8-2762-46c6-9db6-9bcfc4b78d8f": {
           "label": "mm-vis-js\nустановка",
           "x": 81581,
-          "y": 8389,
+          "y": 11737,
           "font": {
             "size": 72,
             "align": "left"
@@ -13530,145 +13530,145 @@ var schemeData =
         "2e99b315-ee70-4504-a49e-cce88631b249": {
           "label": "Development",
           "x": 81881,
-          "y": 8839,
+          "y": 12187,
           "id": "2e99b315-ee70-4504-a49e-cce88631b249"
         },
         "17662323-1cf2-49db-8348-504c13bfeacc": {
           "label": "12/20/2019",
           "x": 82014,
-          "y": 8839,
+          "y": 12187,
           "id": "17662323-1cf2-49db-8348-504c13bfeacc"
         },
         "2dcae0cc-b9b0-4e4f-9898-aae53c40141d": {
           "label": "init",
           "x": 82131,
-          "y": 8839,
+          "y": 12187,
           "id": "2dcae0cc-b9b0-4e4f-9898-aae53c40141d"
         },
         "5081cdf7-412c-43e6-bd93-f710c1b5677e": {
           "label": "Notes",
           "x": 81889,
-          "y": 7345,
+          "y": 10693,
           "id": "5081cdf7-412c-43e6-bd93-f710c1b5677e"
         },
         "f88f36b0-7188-42ff-99d3-d5ca8ef5f2d5": {
           "label": "Dictionary of\nconcepts",
           "x": 82065,
-          "y": 6449,
+          "y": 9797,
           "id": "f88f36b0-7188-42ff-99d3-d5ca8ef5f2d5"
         },
         "d12227ed-9822-4657-b91b-e20f06b81fc7": {
           "label": "Details, thoughts",
           "x": 82065,
-          "y": 7266,
+          "y": 10614,
           "id": "d12227ed-9822-4657-b91b-e20f06b81fc7"
         },
         "5e3d6a72-d1b5-4eaf-a8dc-04c470275602": {
           "label": "Sections",
           "x": 82005,
-          "y": 8239,
+          "y": 11587,
           "id": "5e3d6a72-d1b5-4eaf-a8dc-04c470275602"
         },
         "c3d0f4b2-8783-4388-9da0-11571bdf98a7": {
           "label": "Books",
           "x": 82095,
-          "y": 8089,
+          "y": 11437,
           "id": "c3d0f4b2-8783-4388-9da0-11571bdf98a7"
         },
         "13201123-7f79-464b-a08a-8b376295226a": {
           "label": "R&D institutions",
           "x": 82126,
-          "y": 8114,
+          "y": 11462,
           "id": "13201123-7f79-464b-a08a-8b376295226a"
         },
         "dbf7c7f3-5c32-4fbc-8031-73d09e81d426": {
           "label": "Sites",
           "x": 82091,
-          "y": 8139,
+          "y": 11487,
           "id": "dbf7c7f3-5c32-4fbc-8031-73d09e81d426"
         },
         "5a4494b4-5603-472d-9f43-d86a48cbaf4c": {
           "label": "Magazines",
           "x": 82110,
-          "y": 8164,
+          "y": 11512,
           "id": "5a4494b4-5603-472d-9f43-d86a48cbaf4c"
         },
         "9f259a5b-e84f-45d4-98e0-e959326ce893": {
           "label": "Articles",
           "x": 82099,
-          "y": 8189,
+          "y": 11537,
           "id": "9f259a5b-e84f-45d4-98e0-e959326ce893"
         },
         "736f4578-1db3-4fe1-bb1a-08ad7e0a824b": {
           "label": "Media content",
           "x": 82121,
-          "y": 8214,
+          "y": 11562,
           "id": "736f4578-1db3-4fe1-bb1a-08ad7e0a824b"
         },
         "480f9246-c642-495f-8c58-b8e6c60cd4ce": {
           "label": "Misc. web links",
           "x": 82123,
-          "y": 8239,
+          "y": 11587,
           "id": "480f9246-c642-495f-8c58-b8e6c60cd4ce"
         },
         "bc0fbe6f-f580-4c3d-a761-a406c441dc04": {
           "label": "Projects",
           "x": 82101,
-          "y": 8264,
+          "y": 11612,
           "id": "bc0fbe6f-f580-4c3d-a761-a406c441dc04"
         },
         "656de950-502a-48a8-9261-64ba0fb95422": {
           "label": "Tools",
           "x": 82092,
-          "y": 8289,
+          "y": 11637,
           "id": "656de950-502a-48a8-9261-64ba0fb95422"
         },
         "360e1fe9-36da-46bd-b248-d7cca7709e73": {
           "label": "Organizations",
           "x": 82120,
-          "y": 8314,
+          "y": 11662,
           "id": "360e1fe9-36da-46bd-b248-d7cca7709e73"
         },
         "76705931-c971-4edc-a8dc-6fe7edb05a60": {
           "label": "Standarts",
           "x": 82106,
-          "y": 8339,
+          "y": 11687,
           "id": "76705931-c971-4edc-a8dc-6fe7edb05a60"
         },
         "ab421a74-0819-46a8-a3ce-12a130e5e687": {
           "label": "Forums, Groups",
           "x": 82128,
-          "y": 8364,
+          "y": 11712,
           "id": "ab421a74-0819-46a8-a3ce-12a130e5e687"
         },
         "5aedb381-0dc2-4ea4-b14d-ffe5b38259a3": {
           "label": "Laws",
           "x": 82092,
-          "y": 8389,
+          "y": 11737,
           "id": "5aedb381-0dc2-4ea4-b14d-ffe5b38259a3"
         },
         "99d571e1-61bb-4f68-b9b3-60464a9eefa1": {
           "label": "Adjacent Themes",
           "x": 82131,
-          "y": 8414,
+          "y": 11762,
           "id": "99d571e1-61bb-4f68-b9b3-60464a9eefa1"
         },
         "d02dcd4b-3411-40c3-81aa-4b867ce7587e": {
           "label": "Questions",
           "x": 81871,
-          "y": 8539,
+          "y": 11887,
           "id": "d02dcd4b-3411-40c3-81aa-4b867ce7587e"
         },
         "de9af640-372c-4874-828b-22d609e928c6": {
           "label": "Problems",
           "x": 81869,
-          "y": 8639,
+          "y": 11987,
           "id": "de9af640-372c-4874-828b-22d609e928c6"
         },
         "49b7ec6d-c0a8-4bfd-96fe-dc082fce9b4e": {
           "label": "Goals",
           "x": 81858,
-          "y": 8739,
+          "y": 12087,
           "id": "49b7ec6d-c0a8-4bfd-96fe-dc082fce9b4e"
         },
         "7c785996-b5d2-4800-804e-63541d3fe704856673431998": {
@@ -13702,7 +13702,7 @@ var schemeData =
           "label": "mm-vis-js\nустановка",
           "id": "7c785996-b5d2-4800-804e-63541d3fe704856673431998",
           "x": 87191,
-          "y": 7304,
+          "y": 10652,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13710,7 +13710,7 @@ var schemeData =
         "8f97ecee-b67b-4a00-9825-fdd71fab353d": {
           "label": "mm-vis-js\ninstall",
           "x": 97245,
-          "y": 6875,
+          "y": 10223,
           "font": {
             "size": 72,
             "align": "left"
@@ -13727,145 +13727,145 @@ var schemeData =
         "c297a45f-e83c-40f7-a8f6-cb11520ca535": {
           "label": "Development",
           "x": 97545,
-          "y": 7325,
+          "y": 10673,
           "id": "c297a45f-e83c-40f7-a8f6-cb11520ca535"
         },
         "ad2b8474-a978-4150-b9f3-a4b318de72a5": {
           "label": "12/20/2019",
           "x": 97678,
-          "y": 7325,
+          "y": 10673,
           "id": "ad2b8474-a978-4150-b9f3-a4b318de72a5"
         },
         "05ac2c5e-3c1c-4359-b425-0891fcce68f1": {
           "label": "init",
           "x": 97795,
-          "y": 7325,
+          "y": 10673,
           "id": "05ac2c5e-3c1c-4359-b425-0891fcce68f1"
         },
         "9402a386-6aeb-4aca-b05e-2fa6ce1495f8": {
           "label": "Notes",
           "x": 97522,
-          "y": 6475,
+          "y": 9823,
           "id": "9402a386-6aeb-4aca-b05e-2fa6ce1495f8"
         },
         "89dd3766-594d-4d70-9aef-f9300799ad93": {
           "label": "Dictionary of\nconcepts",
           "x": 97682,
-          "y": 6225,
+          "y": 9573,
           "id": "89dd3766-594d-4d70-9aef-f9300799ad93"
         },
         "c722825e-d959-4d34-bc2f-cef8eaa66970": {
           "label": "Details, thoughts",
           "x": 97695,
-          "y": 6475,
+          "y": 9823,
           "id": "c722825e-d959-4d34-bc2f-cef8eaa66970"
         },
         "03726e77-caf7-4032-8c90-9859be0ec429": {
           "label": "Sections",
           "x": 97669,
-          "y": 6725,
+          "y": 10073,
           "id": "03726e77-caf7-4032-8c90-9859be0ec429"
         },
         "f5136394-de7a-43d3-bdf5-72bbcadf3176": {
           "label": "Books",
           "x": 97759,
-          "y": 6575,
+          "y": 9923,
           "id": "f5136394-de7a-43d3-bdf5-72bbcadf3176"
         },
         "4246e594-0bac-4297-bc5a-4c401ba04a4a": {
           "label": "R&D institutions",
           "x": 97790,
-          "y": 6600,
+          "y": 9948,
           "id": "4246e594-0bac-4297-bc5a-4c401ba04a4a"
         },
         "413f5b4c-8d05-4c25-8fce-c25fea9cd575": {
           "label": "Sites",
           "x": 97755,
-          "y": 6625,
+          "y": 9973,
           "id": "413f5b4c-8d05-4c25-8fce-c25fea9cd575"
         },
         "74d2a4cb-f71a-4d77-8c7d-5c944057df12": {
           "label": "Magazines",
           "x": 97774,
-          "y": 6650,
+          "y": 9998,
           "id": "74d2a4cb-f71a-4d77-8c7d-5c944057df12"
         },
         "50d895fe-304f-46ac-a5b7-2bc7b35c8c78": {
           "label": "Articles",
           "x": 97763,
-          "y": 6675,
+          "y": 10023,
           "id": "50d895fe-304f-46ac-a5b7-2bc7b35c8c78"
         },
         "dd620335-5fff-409c-ac60-75ba0bf0ae91": {
           "label": "Media content",
           "x": 97785,
-          "y": 6700,
+          "y": 10048,
           "id": "dd620335-5fff-409c-ac60-75ba0bf0ae91"
         },
         "506b0bfb-4756-49c1-b17a-8ec8be625d34": {
           "label": "Misc. web links",
           "x": 97787,
-          "y": 6725,
+          "y": 10073,
           "id": "506b0bfb-4756-49c1-b17a-8ec8be625d34"
         },
         "9cce4db0-9f13-43ab-a4f4-73d2e7c4391f": {
           "label": "Projects",
           "x": 97765,
-          "y": 6750,
+          "y": 10098,
           "id": "9cce4db0-9f13-43ab-a4f4-73d2e7c4391f"
         },
         "4f2ede40-3884-4ec5-a83b-7a45340a0cec": {
           "label": "Tools",
           "x": 97756,
-          "y": 6775,
+          "y": 10123,
           "id": "4f2ede40-3884-4ec5-a83b-7a45340a0cec"
         },
         "32540f04-0df7-4050-b703-4219ee05f8a3": {
           "label": "Organizations",
           "x": 97784,
-          "y": 6800,
+          "y": 10148,
           "id": "32540f04-0df7-4050-b703-4219ee05f8a3"
         },
         "b631f606-3fba-4aea-abba-1764e79663b7": {
           "label": "Standarts",
           "x": 97770,
-          "y": 6825,
+          "y": 10173,
           "id": "b631f606-3fba-4aea-abba-1764e79663b7"
         },
         "b98438d2-c187-4cc0-86b4-85b210cc0c7d": {
           "label": "Forums, Groups",
           "x": 97792,
-          "y": 6850,
+          "y": 10198,
           "id": "b98438d2-c187-4cc0-86b4-85b210cc0c7d"
         },
         "82c64917-b901-4ea3-b369-a5cbf3d2f88b": {
           "label": "Laws",
           "x": 97756,
-          "y": 6875,
+          "y": 10223,
           "id": "82c64917-b901-4ea3-b369-a5cbf3d2f88b"
         },
         "d6309bb1-1061-4232-b3d9-804f65c42a00": {
           "label": "Adjacent Themes",
           "x": 97795,
-          "y": 6900,
+          "y": 10248,
           "id": "d6309bb1-1061-4232-b3d9-804f65c42a00"
         },
         "b2303894-168a-4621-acca-a006d0ced9aa": {
           "label": "Questions",
           "x": 97535,
-          "y": 7025,
+          "y": 10373,
           "id": "b2303894-168a-4621-acca-a006d0ced9aa"
         },
         "980f5be5-48c1-4c63-847b-dae474a3c8d9": {
           "label": "Problems",
           "x": 97533,
-          "y": 7125,
+          "y": 10473,
           "id": "980f5be5-48c1-4c63-847b-dae474a3c8d9"
         },
         "b5ae6632-6f75-4c2e-a222-77d4a37ea15e": {
           "label": "Goals",
           "x": 97522,
-          "y": 7225,
+          "y": 10573,
           "id": "b5ae6632-6f75-4c2e-a222-77d4a37ea15e"
         },
         "7c785996-b5d2-4800-804e-63541d3fe704856673431998540": {
@@ -13899,7 +13899,7 @@ var schemeData =
           "label": "mm-vis-js\ninstall",
           "id": "7c785996-b5d2-4800-804e-63541d3fe704856673431998540",
           "x": 101783,
-          "y": 6852,
+          "y": 10200,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13907,7 +13907,7 @@ var schemeData =
         "86c2b017-02b9-4cd5-b4ec-d5949b2c4012": {
           "id": "86c2b017-02b9-4cd5-b4ec-d5949b2c4012",
           "x": 82366,
-          "y": 7272,
+          "y": 10620,
           "label": "Одна из ключевых особенностей mm-vis-js в том,\nчто многими функциями можно пользоваться\nбез специальной процедуры установки.\n\nНо для полного функционала нужно  \nработать с страницами mm-vjs-js локально\nи запустить сервер mvj-serv.js",
           "shape": "box",
           "link": "",
@@ -13924,7 +13924,7 @@ var schemeData =
         "8b2dc50d-6503-41d7-ac20-a219a467348e": {
           "id": "8b2dc50d-6503-41d7-ac20-a219a467348e",
           "x": 82633,
-          "y": 7241,
+          "y": 10589,
           "label": "Объяснение",
           "shape": "box",
           "link": "",
@@ -13941,7 +13941,7 @@ var schemeData =
         "bfb87867-d4e2-4837-960b-c8a2e30c2bef": {
           "id": "bfb87867-d4e2-4837-960b-c8a2e30c2bef",
           "x": 82917,
-          "y": 7234,
+          "y": 10582,
           "label": "Просматривать и редактировать схемы можно \nна страницах mm-vis-js в инете.",
           "shape": "box",
           "link": "",
@@ -13958,13 +13958,13 @@ var schemeData =
         "d2579a94-cdc7-4328-b9c2-155efad895d3": {
           "id": "d2579a94-cdc7-4328-b9c2-155efad895d3",
           "x": 82959,
-          "y": 7305,
+          "y": 10653,
           "label": "Данные каждой схемы доступны в меню справа \"showData\""
         },
         "457dcfbd-7722-456f-8297-05d8e1985e54": {
           "id": "457dcfbd-7722-456f-8297-05d8e1985e54",
           "x": 83458,
-          "y": 7305,
+          "y": 10653,
           "label": "Можно скопировать данные схемы (JSON-код), чтобы сохранить, например,\nлокально на своем компьютере в текстовом виде.",
           "shape": "box",
           "link": "",
@@ -13981,7 +13981,7 @@ var schemeData =
         "9ab40610-9863-4eb5-9109-d407349a1177": {
           "id": "9ab40610-9863-4eb5-9109-d407349a1177",
           "x": 83446,
-          "y": 7344,
+          "y": 10692,
           "label": "Можно исправить JSON-код на месте или вставить сохраненную версию",
           "shape": "box",
           "link": "",
@@ -13998,7 +13998,7 @@ var schemeData =
         "f14840c7-25c8-4062-95e4-07df6f606e51": {
           "id": "f14840c7-25c8-4062-95e4-07df6f606e51",
           "x": 83235,
-          "y": 7230,
+          "y": 10578,
           "label": "Но при обновлении страницы\nизменения не сохранятся.",
           "shape": "box",
           "link": "",
@@ -14015,7 +14015,7 @@ var schemeData =
         "ba1b9fd1-9a41-4cdf-b021-6025ddf3d79c": {
           "id": "ba1b9fd1-9a41-4cdf-b021-6025ddf3d79c",
           "x": 82933,
-          "y": 7406,
+          "y": 10754,
           "label": "Можно сохранить репозиторий mm-vis-js локально,\nто есть на свой комьютер.",
           "shape": "box",
           "link": "",
@@ -14032,31 +14032,31 @@ var schemeData =
         "21c9c12b-eaea-4290-bea5-145e4588b385": {
           "id": "21c9c12b-eaea-4290-bea5-145e4588b385",
           "x": 83327,
-          "y": 7409,
+          "y": 10757,
           "label": "Тогда можно открывать страницы в браузере\nи работать с ними также как в интернете"
         },
         "40b00a2b-a93d-459d-9b9a-682dd4b1a1fe": {
           "id": "40b00a2b-a93d-459d-9b9a-682dd4b1a1fe",
           "x": 83694,
-          "y": 7410,
+          "y": 10758,
           "label": "При перезагрузке страниц их данные не сохранятся"
         },
         "be21887a-eea6-4873-9ce5-ffec4d97ab2a": {
           "id": "be21887a-eea6-4873-9ce5-ffec4d97ab2a",
           "x": 83605,
-          "y": 7231,
+          "y": 10579,
           "label": "Эту проблему можно решить вручную сохраняя и вставляя\nданные схем в меню showData"
         },
         "2be2f6af-ba58-4223-a15a-280637080508": {
           "id": "2be2f6af-ba58-4223-a15a-280637080508",
           "x": 83693,
-          "y": 7459,
+          "y": 10807,
           "label": "Проблемы сохранения данных можно решать также\nвручную работая с меню showData"
         },
         "22c489d3-e489-422a-8ce5-613ed0a90e52": {
           "id": "22c489d3-e489-422a-8ce5-613ed0a90e52",
           "x": 82974,
-          "y": 7547,
+          "y": 10895,
           "label": "Чтобы пользоваться встроенной функцией сохранения данных\nна страницах mm-vis-js",
           "shape": "box",
           "link": "",
@@ -14074,7 +14074,7 @@ var schemeData =
           "label": "нужно сохранить репозиторий mm-vis-js на комьютер и открывать страницы локально",
           "link": "",
           "x": 83543,
-          "y": 7530,
+          "y": 10878,
           "id": "843b3611-f578-4f45-8bce-dc69929b51e6",
           "shape": "box",
           "font": {
@@ -14091,19 +14091,19 @@ var schemeData =
           "label": "запустить сервер mvj-serv.js из директории mm-vis-js/utils/",
           "link": "",
           "x": 83450,
-          "y": 7567,
+          "y": 10915,
           "id": "082fa43f-8e99-4084-9f3f-a14686faf894"
         },
         "19760088-02f8-4507-84cb-14ae4b58a9f3": {
           "id": "19760088-02f8-4507-84cb-14ae4b58a9f3",
           "x": 83830,
-          "y": 7565,
+          "y": 10913,
           "label": "mvj-serv.js - программа на языке JavaScript"
         },
         "eba8920a-3ad7-496e-9b0a-4e081c176b19": {
           "id": "eba8920a-3ad7-496e-9b0a-4e081c176b19",
           "x": 83884,
-          "y": 7603,
+          "y": 10951,
           "label": "mvj-serv.js запускается локально, в операционной системе,\nа не в браузере",
           "shape": "box",
           "link": "",
@@ -14120,7 +14120,7 @@ var schemeData =
         "5f5b6ea7-b8c9-4778-9f2f-9b5e181e236c": {
           "id": "5f5b6ea7-b8c9-4778-9f2f-9b5e181e236c",
           "x": 83837,
-          "y": 7647,
+          "y": 10995,
           "label": "Для работы mvj-serv.js ужно поставить nodejs",
           "shape": "box",
           "link": "",
@@ -14137,14 +14137,14 @@ var schemeData =
         "e2178086-938b-4b7c-904c-a7bf8ddb420c": {
           "id": "e2178086-938b-4b7c-904c-a7bf8ddb420c",
           "x": 84116,
-          "y": 7650,
+          "y": 10998,
           "label": "https://nodejs.org/",
           "link": "https://nodejs.org/"
         },
         "cc9ed0fa-086e-4311-ac4f-ecdb9638855f": {
           "id": "cc9ed0fa-086e-4311-ac4f-ecdb9638855f",
           "x": 82326,
-          "y": 6450,
+          "y": 9798,
           "label": "Инструкция по установке mm-vis-js",
           "shape": "box",
           "link": "",
@@ -14161,31 +14161,31 @@ var schemeData =
         "cda800cd-c84b-4419-9783-7d2ec20be452": {
           "id": "cda800cd-c84b-4419-9783-7d2ec20be452",
           "x": 83074,
-          "y": 6453,
+          "y": 9801,
           "label": "git clone https://github.com/sushilshik/mm-vis-js.git"
         },
         "93331cfd-9ff6-48dc-8b39-295fffebf7d9": {
           "id": "93331cfd-9ff6-48dc-8b39-295fffebf7d9",
           "x": 82724,
-          "y": 6451,
+          "y": 9799,
           "label": "Сохранить код проекта из репозитория"
         },
         "0ce3b46f-328d-4f5e-a03d-52d9e1bdb0b2": {
           "id": "0ce3b46f-328d-4f5e-a03d-52d9e1bdb0b2",
           "x": 82300,
-          "y": 7684,
+          "y": 11032,
           "label": "Проект является прототипом"
         },
         "ecdf53aa-c881-4e73-9502-a3ed47da07d9": {
           "id": "ecdf53aa-c881-4e73-9502-a3ed47da07d9",
           "x": 82642,
-          "y": 7689,
+          "y": 11037,
           "label": "Но разрабатывается так, что им уже можно пользоваться\nв ежедневной работе."
         },
         "57df677e-2f61-4173-a425-460892dfb171": {
           "id": "57df677e-2f61-4173-a425-460892dfb171",
           "x": 82997,
-          "y": 7688,
+          "y": 11036,
           "label": "Ведение архива заметок и ссылок",
           "shape": "box",
           "link": "",
@@ -14202,44 +14202,44 @@ var schemeData =
         "a8ea19c3-d1df-42ff-9e06-0a746ab797fd": {
           "id": "a8ea19c3-d1df-42ff-9e06-0a746ab797fd",
           "x": 83077,
-          "y": 7722,
+          "y": 11070,
           "label": "Разработка кода mm-vis-js в схемах на странице mm-vis-js"
         },
         "76ca423c-0208-4fcc-ac82-c17fef873f40": {
           "id": "76ca423c-0208-4fcc-ac82-c17fef873f40",
           "x": 83116,
-          "y": 7756,
+          "y": 11104,
           "label": "Работа с скриптами, которые можно запускать на страницах mm-vis-js"
         },
         "6e05f344-9a47-46ea-baf2-99f7000b8d6e": {
           "id": "6e05f344-9a47-46ea-baf2-99f7000b8d6e",
           "x": 82330,
-          "y": 7853,
+          "y": 11201,
           "label": "Разработка пока идет только на Linux."
         },
         "b29c178e-fe19-41f6-ab46-b1eb86174981": {
           "id": "b29c178e-fe19-41f6-ab46-b1eb86174981",
           "x": 82701,
-          "y": 7867,
+          "y": 11215,
           "label": "Все элементы проекта - кросплатформенные, поэтому\nпосле доработки и отладки все должно работать и на\nWindows, Mac."
         },
         "00835d5b-9fb3-4250-a256-46083a4932dc": {
           "id": "00835d5b-9fb3-4250-a256-46083a4932dc",
           "x": 82657,
-          "y": 6498,
+          "y": 9846,
           "label": "Установить node.js"
         },
         "2824b9b9-c87d-4533-9597-96d9a3e7c5df": {
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df",
           "x": 82807,
-          "y": 6502,
+          "y": 9850,
           "label": "Fedora"
         },
         "d610b996-fcad-4ea7-a404-83d9332ed203": {
           "label": "dnf install nodejs",
           "link": "",
           "x": 82932,
-          "y": 6501,
+          "y": 9849,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed203",
           "color": {
             "highlight": {
@@ -14279,7 +14279,7 @@ var schemeData =
         "392b4600-41f2-4011-9399-0441119b3ace": {
           "id": "392b4600-41f2-4011-9399-0441119b3ace",
           "x": 82656,
-          "y": 6644,
+          "y": 9992,
           "label": "Установить Python",
           "shape": "box",
           "link": "",
@@ -14318,7 +14318,7 @@ var schemeData =
           "label": "Fedora",
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df125",
           "x": 82805,
-          "y": 6643
+          "y": 9991
         },
         "d610b996-fcad-4ea7-a404-83d9332ed203125": {
           "color": {
@@ -14360,7 +14360,7 @@ var schemeData =
           "label": "dnf install python python3",
           "link": "",
           "x": 82956,
-          "y": 6643,
+          "y": 9991,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed203125",
           "shape": "box",
           "borderWidth": ""
@@ -14368,7 +14368,7 @@ var schemeData =
         "64e32ca8-0101-445b-8d0e-b9fdd1fd0248": {
           "id": "64e32ca8-0101-445b-8d0e-b9fdd1fd0248",
           "x": 82656,
-          "y": 6688,
+          "y": 10036,
           "label": "Установить SymPy"
         },
         "2824b9b9-c87d-4533-9597-96d9a3e7c5df12569": {
@@ -14398,7 +14398,7 @@ var schemeData =
           "label": "Fedora",
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df12569",
           "x": 82805,
-          "y": 6691
+          "y": 10039
         },
         "d610b996-fcad-4ea7-a404-83d9332ed20312569": {
           "color": {
@@ -14440,7 +14440,7 @@ var schemeData =
           "label": "dnf install sympy python3-sympy",
           "link": "",
           "x": 82978,
-          "y": 6690,
+          "y": 10038,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed20312569",
           "shape": "box",
           "borderWidth": ""
@@ -14448,14 +14448,14 @@ var schemeData =
         "6c829389-38cc-4b28-854b-2aeca1bcb4c4": {
           "id": "6c829389-38cc-4b28-854b-2aeca1bcb4c4",
           "x": 82944,
-          "y": 6539,
+          "y": 9887,
           "label": "Это основное требование для работы mvj-serv.js."
         },
         "3a64c130-1876-42b9-a41c-19ae64246490": {
           "label": "Достаточно чтобы работало сохранение схем\nи постройка проектов кода.",
           "link": "",
           "x": 82932,
-          "y": 6579,
+          "y": 9927,
           "id": "3a64c130-1876-42b9-a41c-19ae64246490",
           "color": {
             "highlight": {
@@ -14525,7 +14525,7 @@ var schemeData =
           "label": "Установить TexLive",
           "id": "64e32ca8-0101-445b-8d0e-b9fdd1fd0248981",
           "x": 82658,
-          "y": 6739,
+          "y": 10087,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14557,7 +14557,7 @@ var schemeData =
           "label": "Fedora",
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df12569981",
           "x": 82805,
-          "y": 6742
+          "y": 10090
         },
         "d610b996-fcad-4ea7-a404-83d9332ed20312569981": {
           "color": {
@@ -14599,7 +14599,7 @@ var schemeData =
           "label": "dnf install texlive-full texlive-collection-latexextra texlive-amsmath tex-preview",
           "link": "",
           "x": 83119,
-          "y": 6740,
+          "y": 10088,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed20312569981",
           "shape": "box",
           "borderWidth": ""
@@ -14633,7 +14633,7 @@ var schemeData =
           "label": "Установить Ruby",
           "id": "392b4600-41f2-4011-9399-0441119b3ace422",
           "x": 82650,
-          "y": 6783,
+          "y": 10131,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14665,7 +14665,7 @@ var schemeData =
           "label": "Fedora",
           "id": "2824b9b9-c87d-4533-9597-96d9a3e7c5df125422",
           "x": 82805,
-          "y": 6782
+          "y": 10130
         },
         "d610b996-fcad-4ea7-a404-83d9332ed203125422": {
           "color": {
@@ -14707,7 +14707,7 @@ var schemeData =
           "label": "dnf install ruby",
           "link": "",
           "x": 82921,
-          "y": 6782,
+          "y": 10130,
           "id": "d610b996-fcad-4ea7-a404-83d9332ed203125422",
           "shape": "box",
           "borderWidth": ""
@@ -14715,7 +14715,7 @@ var schemeData =
         "16f0e17f-3f43-4af6-bb15-175f56043486": {
           "id": "16f0e17f-3f43-4af6-bb15-175f56043486",
           "x": 82286,
-          "y": 7059,
+          "y": 10407,
           "label": "Вопросы, техподдержка",
           "shape": "box",
           "link": "",
@@ -14732,40 +14732,40 @@ var schemeData =
         "5000e6b4-652f-41bf-99ef-ed974dc9eb8d": {
           "id": "5000e6b4-652f-41bf-99ef-ed974dc9eb8d",
           "x": 82903,
-          "y": 7026,
+          "y": 10374,
           "label": "https://www.facebook.com/mike.ahundov",
           "link": "https://www.facebook.com/mike.ahundov"
         },
         "879f7031-d698-45d3-8225-8e6ace9d8232": {
           "id": "879f7031-d698-45d3-8225-8e6ace9d8232",
           "x": 82848,
-          "y": 7053,
+          "y": 10401,
           "label": "https://vk.com/ahundov",
           "link": "https://vk.com/ahundov"
         },
         "dec22996-c5a7-45e9-8100-97ffc9d014ef": {
           "id": "dec22996-c5a7-45e9-8100-97ffc9d014ef",
           "x": 82627,
-          "y": 7037,
+          "y": 10385,
           "label": "Пишите"
         },
         "1cbc5c87-627f-4c72-b827-b7033d64312a": {
           "id": "1cbc5c87-627f-4c72-b827-b7033d64312a",
           "x": 82663,
-          "y": 6831,
+          "y": 10179,
           "label": "Запустить mvj-serv.js"
         },
         "6d9619db-48e9-44e7-8151-25cd234cd943": {
           "id": "6d9619db-48e9-44e7-8151-25cd234cd943",
           "x": 82845,
-          "y": 6831,
+          "y": 10179,
           "label": "cd ./mm-vis-js/utils"
         },
         "53973ec4-9114-46ae-90fd-7d4432633255": {
           "label": "node mvj-serv.js",
           "link": "",
           "x": 82838,
-          "y": 6856,
+          "y": 10204,
           "id": "53973ec4-9114-46ae-90fd-7d4432633255",
           "color": {
             "highlight": {
@@ -14805,7 +14805,7 @@ var schemeData =
         "f545dd1b-433d-4a18-8b64-066cda332f13": {
           "id": "f545dd1b-433d-4a18-8b64-066cda332f13",
           "x": 82312,
-          "y": 6946,
+          "y": 10294,
           "label": "Инструкция по сборке mm-vis-js",
           "shape": "box",
           "link": "",
@@ -14822,7 +14822,7 @@ var schemeData =
         "d0651135-bb8a-4c28-b846-903339cecfae": {
           "id": "d0651135-bb8a-4c28-b846-903339cecfae",
           "x": 82865,
-          "y": 6944,
+          "y": 10292,
           "label": "смотрите на странице mm-vis-js_code.html в схеме mm-vis-js (наверху по центру).",
           "shape": "box",
           "link": "",
@@ -14839,7 +14839,7 @@ var schemeData =
         "a08cf0b6-be28-4c29-a931-a0109e438ad9": {
           "id": "a08cf0b6-be28-4c29-a931-a0109e438ad9",
           "x": 83261,
-          "y": 6945,
+          "y": 10293,
           "label": "mm-vis-js_code.html",
           "shape": "box",
           "link": "mm-vis-js_code.html",
@@ -14856,31 +14856,31 @@ var schemeData =
         "2d141747-1b21-4d56-bcc8-57f732cd1d1b": {
           "id": "2d141747-1b21-4d56-bcc8-57f732cd1d1b",
           "x": 82730,
-          "y": 7095,
+          "y": 10443,
           "label": "Техподдержка без гарантий, еще бы =)"
         },
         "6d6541f1-c62a-463d-8646-f71b80f04bd3": {
           "id": "6d6541f1-c62a-463d-8646-f71b80f04bd3",
           "x": 98337,
-          "y": 13971,
+          "y": 17319,
           "label": "Use cases"
         },
         "dfad7933-3ecb-4de2-9299-f93eeb097950": {
           "id": "dfad7933-3ecb-4de2-9299-f93eeb097950",
           "x": 99130,
-          "y": 13963,
+          "y": 17311,
           "label": "[protege-user] visualization of ontology"
         },
         "c07f1165-6f39-49f7-ad5e-1212ae16a090": {
           "id": "c07f1165-6f39-49f7-ad5e-1212ae16a090",
           "x": 98541,
-          "y": 13964,
+          "y": 17312,
           "label": "protege-user@lists.stanford.edu"
         },
         "602df00a-7651-427c-b508-c9b7ff32ff1b": {
           "id": "602df00a-7651-427c-b508-c9b7ff32ff1b",
           "x": 98817,
-          "y": 13969,
+          "y": 17317,
           "label": "Mon, 16 Dec 2019 23:38:23 -0600 (CST)"
         },
         "03b1222d-b3ea-402e-9a73-8cb561bb6bf6": {
@@ -15081,7 +15081,7 @@ var schemeData =
         "b5a75d00-2736-42bc-902e-c1f2973d0a52": {
           "label": "Работа с книгами\nв mm-vis-js",
           "x": 81920,
-          "y": 27862,
+          "y": 31210,
           "font": {
             "size": 72,
             "align": "left"
@@ -15098,13 +15098,13 @@ var schemeData =
         "56b4a16e-7f6f-43dd-8b86-21c907320ef7": {
           "label": "Development",
           "x": 82459,
-          "y": 28286,
+          "y": 31634,
           "id": "56b4a16e-7f6f-43dd-8b86-21c907320ef7"
         },
         "c26f3d5c-a4d1-4ca3-a6ba-2b7224a9c4d7": {
           "label": "11/01/2019",
           "x": 82589,
-          "y": 28286,
+          "y": 31634,
           "id": "c26f3d5c-a4d1-4ca3-a6ba-2b7224a9c4d7",
           "shape": "box",
           "link": "",
@@ -15121,133 +15121,133 @@ var schemeData =
         "6eb3f659-5af2-42c1-8f6e-47899b51c952": {
           "label": "init",
           "x": 82709,
-          "y": 28286,
+          "y": 31634,
           "id": "6eb3f659-5af2-42c1-8f6e-47899b51c952"
         },
         "197e6cbd-0025-422a-a9e3-6cbaf730c781": {
           "label": "Notes",
           "x": 82436,
-          "y": 27436,
+          "y": 30784,
           "id": "197e6cbd-0025-422a-a9e3-6cbaf730c781"
         },
         "566c0349-c798-4a31-8cd2-cd2b04e23641": {
           "label": "Dictionary of\nconcepts",
           "x": 82588,
-          "y": 26912,
+          "y": 30260,
           "id": "566c0349-c798-4a31-8cd2-cd2b04e23641"
         },
         "bb3828c7-a990-4159-a875-b29ffb4f38e4": {
           "label": "Details, thoughts",
           "x": 82609,
-          "y": 27436,
+          "y": 30784,
           "id": "bb3828c7-a990-4159-a875-b29ffb4f38e4"
         },
         "0572d941-2079-4d80-bb31-a7d7760320f7": {
           "label": "Sections",
           "x": 82583,
-          "y": 27686,
+          "y": 31034,
           "id": "0572d941-2079-4d80-bb31-a7d7760320f7"
         },
         "feba02fb-7033-490a-81cd-005f142d9b0f": {
           "label": "Books",
           "x": 82673,
-          "y": 27536,
+          "y": 30884,
           "id": "feba02fb-7033-490a-81cd-005f142d9b0f"
         },
         "8d75ef02-763a-48f1-a2f9-aa463e0b9b4b": {
           "label": "R&D institutions",
           "x": 82704,
-          "y": 27561,
+          "y": 30909,
           "id": "8d75ef02-763a-48f1-a2f9-aa463e0b9b4b"
         },
         "449f1b32-e07c-48bb-af2e-56f67ef63688": {
           "label": "Sites",
           "x": 82669,
-          "y": 27586,
+          "y": 30934,
           "id": "449f1b32-e07c-48bb-af2e-56f67ef63688"
         },
         "98656cf6-ed69-45eb-ba97-ffe77bed9e4b": {
           "label": "Magazines",
           "x": 82688,
-          "y": 27611,
+          "y": 30959,
           "id": "98656cf6-ed69-45eb-ba97-ffe77bed9e4b"
         },
         "184c8949-fbed-412a-ab6a-5dbfc559f9ae": {
           "label": "Articles",
           "x": 82677,
-          "y": 27636,
+          "y": 30984,
           "id": "184c8949-fbed-412a-ab6a-5dbfc559f9ae"
         },
         "8175b770-d1d8-4aed-9328-df581e0f51e3": {
           "label": "Media content",
           "x": 82699,
-          "y": 27661,
+          "y": 31009,
           "id": "8175b770-d1d8-4aed-9328-df581e0f51e3"
         },
         "65f5d163-fe0a-4807-a699-c77843633b51": {
           "label": "Misc. web links",
           "x": 82701,
-          "y": 27686,
+          "y": 31034,
           "id": "65f5d163-fe0a-4807-a699-c77843633b51"
         },
         "3805a5df-267f-4e7e-bc5c-9be9f9f2528c": {
           "label": "Projects",
           "x": 82679,
-          "y": 27711,
+          "y": 31059,
           "id": "3805a5df-267f-4e7e-bc5c-9be9f9f2528c"
         },
         "969278a5-5973-4dc7-9d78-5d789326e0fc": {
           "label": "Tools",
           "x": 82670,
-          "y": 27736,
+          "y": 31084,
           "id": "969278a5-5973-4dc7-9d78-5d789326e0fc"
         },
         "44770e28-2c18-4fd2-be26-c8da1daa95ad": {
           "label": "Organizations",
           "x": 82698,
-          "y": 27761,
+          "y": 31109,
           "id": "44770e28-2c18-4fd2-be26-c8da1daa95ad"
         },
         "e958ae0c-caa4-4b5d-b441-f94efe75c5d3": {
           "label": "Standarts",
           "x": 82684,
-          "y": 27786,
+          "y": 31134,
           "id": "e958ae0c-caa4-4b5d-b441-f94efe75c5d3"
         },
         "6f96ef13-0310-4ab4-a99b-7f445416bf0c": {
           "label": "Forums, Groups",
           "x": 82706,
-          "y": 27811,
+          "y": 31159,
           "id": "6f96ef13-0310-4ab4-a99b-7f445416bf0c"
         },
         "71742097-cd13-4a47-9008-1b4cdfc5cccf": {
           "label": "Laws",
           "x": 82670,
-          "y": 27836,
+          "y": 31184,
           "id": "71742097-cd13-4a47-9008-1b4cdfc5cccf"
         },
         "d4409ad8-b469-4bf3-b456-5039f044f155": {
           "label": "Adjacent Themes",
           "x": 82709,
-          "y": 27861,
+          "y": 31209,
           "id": "d4409ad8-b469-4bf3-b456-5039f044f155"
         },
         "ecd814ed-2f75-43d9-a3e5-940659d798f9": {
           "label": "Questions",
           "x": 82449,
-          "y": 27986,
+          "y": 31334,
           "id": "ecd814ed-2f75-43d9-a3e5-940659d798f9"
         },
         "788029fd-ff7e-4802-a8cf-d987328c00e8": {
           "label": "Problems",
           "x": 82447,
-          "y": 28086,
+          "y": 31434,
           "id": "788029fd-ff7e-4802-a8cf-d987328c00e8"
         },
         "e5bc19d4-d856-41b7-aff5-751cce6ddfbc": {
           "label": "Goals",
           "x": 82436,
-          "y": 28186,
+          "y": 31534,
           "id": "e5bc19d4-d856-41b7-aff5-751cce6ddfbc"
         },
         "b5a75d00-2736-42bc-902e-c1f2973d0a5246": {
@@ -15278,7 +15278,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Работа с книгами\nв mm-vis-js",
           "x": 88858,
-          "y": 27695,
+          "y": 31043,
           "id": "b5a75d00-2736-42bc-902e-c1f2973d0a5246",
           "shape": "box",
           "link": "",
@@ -15314,7 +15314,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Work with books\nin mm-vis-js",
           "x": 103228,
-          "y": 27668,
+          "y": 31016,
           "id": "b5a75d00-2736-42bc-902e-c1f2973d0a5246642",
           "shape": "box",
           "link": "",
@@ -15323,7 +15323,7 @@ var schemeData =
         "895ec753-df47-4281-ab31-88bdf834cb1f": {
           "label": "Work with books\nin mm-vis-js",
           "x": 97550,
-          "y": 27339,
+          "y": 30687,
           "font": {
             "size": 72,
             "align": "left"
@@ -15340,13 +15340,13 @@ var schemeData =
         "b40e2b67-2c9d-432a-8bcc-245539e58094": {
           "label": "Development",
           "x": 97998,
-          "y": 27789,
+          "y": 31137,
           "id": "b40e2b67-2c9d-432a-8bcc-245539e58094"
         },
         "399e7ac6-99a8-46a8-a7d7-db8c203da395": {
           "label": "11/01/2019",
           "x": 98127,
-          "y": 27789,
+          "y": 31137,
           "id": "399e7ac6-99a8-46a8-a7d7-db8c203da395",
           "shape": "box",
           "link": "",
@@ -15363,133 +15363,133 @@ var schemeData =
         "2fe7303c-951e-4e4a-bc95-3a0baff958f3": {
           "label": "init",
           "x": 98248,
-          "y": 27789,
+          "y": 31137,
           "id": "2fe7303c-951e-4e4a-bc95-3a0baff958f3"
         },
         "aaed8227-4a84-4086-83e6-7ef342977314": {
           "label": "Notes",
           "x": 97974,
-          "y": 26939,
+          "y": 30287,
           "id": "aaed8227-4a84-4086-83e6-7ef342977314"
         },
         "238ab437-41db-4900-bab4-2b25f0976895": {
           "label": "Dictionary of\nconcepts",
           "x": 98134,
-          "y": 26689,
+          "y": 30037,
           "id": "238ab437-41db-4900-bab4-2b25f0976895"
         },
         "8c88e0b1-f495-4636-8b07-36b0943a4166": {
           "label": "Details, thoughts",
           "x": 98148,
-          "y": 26939,
+          "y": 30287,
           "id": "8c88e0b1-f495-4636-8b07-36b0943a4166"
         },
         "8190274d-438a-400c-80e2-cffaf203da7c": {
           "label": "Sections",
           "x": 98122,
-          "y": 27189,
+          "y": 30537,
           "id": "8190274d-438a-400c-80e2-cffaf203da7c"
         },
         "f9d1dfde-5427-4226-8b99-27838382ceb6": {
           "label": "Books",
           "x": 98212,
-          "y": 27039,
+          "y": 30387,
           "id": "f9d1dfde-5427-4226-8b99-27838382ceb6"
         },
         "6400abd6-ad8a-4b2c-a268-f409c19c1f41": {
           "label": "R&D institutions",
           "x": 98242,
-          "y": 27064,
+          "y": 30412,
           "id": "6400abd6-ad8a-4b2c-a268-f409c19c1f41"
         },
         "64a5d815-3b0f-43bd-a00c-9d500bde73b8": {
           "label": "Sites",
           "x": 98208,
-          "y": 27089,
+          "y": 30437,
           "id": "64a5d815-3b0f-43bd-a00c-9d500bde73b8"
         },
         "078cd7b8-8c6c-421b-bc19-2ed5ebcb3623": {
           "label": "Magazines",
           "x": 98227,
-          "y": 27114,
+          "y": 30462,
           "id": "078cd7b8-8c6c-421b-bc19-2ed5ebcb3623"
         },
         "54e2a0dd-6d6e-4cfe-8996-f92adaf35217": {
           "label": "Articles",
           "x": 98215,
-          "y": 27139,
+          "y": 30487,
           "id": "54e2a0dd-6d6e-4cfe-8996-f92adaf35217"
         },
         "a749340c-842e-401d-82d3-ae5c882f4e10": {
           "label": "Media content",
           "x": 98237,
-          "y": 27164,
+          "y": 30512,
           "id": "a749340c-842e-401d-82d3-ae5c882f4e10"
         },
         "e63362b3-d978-430f-bca8-e067c99d2a9a": {
           "label": "Misc. web links",
           "x": 98240,
-          "y": 27189,
+          "y": 30537,
           "id": "e63362b3-d978-430f-bca8-e067c99d2a9a"
         },
         "064f8c52-1c4b-4835-82dc-0f70e69e188f": {
           "label": "Projects",
           "x": 98218,
-          "y": 27214,
+          "y": 30562,
           "id": "064f8c52-1c4b-4835-82dc-0f70e69e188f"
         },
         "911fb026-2f39-4473-89e5-a0626029819e": {
           "label": "Tools",
           "x": 98209,
-          "y": 27239,
+          "y": 30587,
           "id": "911fb026-2f39-4473-89e5-a0626029819e"
         },
         "a0a226c1-66ed-4f14-b2e9-58127d95cbbd": {
           "label": "Organizations",
           "x": 98236,
-          "y": 27264,
+          "y": 30612,
           "id": "a0a226c1-66ed-4f14-b2e9-58127d95cbbd"
         },
         "4cc827b0-e766-4aaf-b997-6ac82608bf06": {
           "label": "Standarts",
           "x": 98223,
-          "y": 27289,
+          "y": 30637,
           "id": "4cc827b0-e766-4aaf-b997-6ac82608bf06"
         },
         "4b1d0bc8-ea0a-4883-a944-1d541a5dafd9": {
           "label": "Forums, Groups",
           "x": 98244,
-          "y": 27314,
+          "y": 30662,
           "id": "4b1d0bc8-ea0a-4883-a944-1d541a5dafd9"
         },
         "19c060a4-fedd-4fb4-bf90-1fb89bc76df1": {
           "label": "Laws",
           "x": 98209,
-          "y": 27339,
+          "y": 30687,
           "id": "19c060a4-fedd-4fb4-bf90-1fb89bc76df1"
         },
         "e44ca80c-7d91-4ae9-a45e-1a1dfce0f60c": {
           "label": "Adjacent Themes",
           "x": 98248,
-          "y": 27364,
+          "y": 30712,
           "id": "e44ca80c-7d91-4ae9-a45e-1a1dfce0f60c"
         },
         "07a668c2-4fe8-4258-a5f6-74a037a18fb4": {
           "label": "Questions",
           "x": 97988,
-          "y": 27489,
+          "y": 30837,
           "id": "07a668c2-4fe8-4258-a5f6-74a037a18fb4"
         },
         "8d9e674a-55d6-40b7-aea1-55462abb8d57": {
           "label": "Problems",
           "x": 97986,
-          "y": 27589,
+          "y": 30937,
           "id": "8d9e674a-55d6-40b7-aea1-55462abb8d57"
         },
         "f80d41f9-e3e4-4bb1-87b9-d02bfd64cd54": {
           "label": "Goals",
           "x": 97974,
-          "y": 27689,
+          "y": 31037,
           "id": "f80d41f9-e3e4-4bb1-87b9-d02bfd64cd54"
         },
         "92f53a00-cf65-456f-bfcf-6f6c88119d5b147126317": {
@@ -17581,8 +17581,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Руководство",
           "id": "1c0f6984-94c5-499e-9464-36540302d6bd941",
-          "x": 78876,
-          "y": -2936,
+          "x": 78884,
+          "y": -2446,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17615,8 +17615,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Слои",
           "link": "",
-          "x": 81056,
-          "y": -3104,
+          "x": 81064,
+          "y": -2614,
           "id": "b20449f3-ed30-4f6c-9216-b2e4d6da0981941",
           "shape": "box",
           "borderWidth": ""
@@ -17649,8 +17649,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Настройки страницы",
           "link": "",
-          "x": 81238,
-          "y": -3038,
+          "x": 81246,
+          "y": -2548,
           "id": "f17e359b-f183-4922-a094-c5ee904f79d7941",
           "shape": "box",
           "borderWidth": ""
@@ -17683,8 +17683,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сворачивание веток",
           "link": "",
-          "x": 81248,
-          "y": -2784,
+          "x": 81256,
+          "y": -2294,
           "id": "d1f5700a-24b2-4cb2-9f1b-44fd51b7a34f941",
           "shape": "box",
           "borderWidth": ""
@@ -17717,8 +17717,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Полноэкранный режим",
           "link": "",
-          "x": 81276,
-          "y": -2610,
+          "x": 81284,
+          "y": -2120,
           "id": "4acaf8c0-3cc1-4015-9972-7b69e6bec965941",
           "shape": "box",
           "borderWidth": ""
@@ -17887,8 +17887,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Отображение\nстраницы",
           "link": "",
-          "x": 80122,
-          "y": -3102,
+          "x": 80130,
+          "y": -2612,
           "id": "481735cd-1c99-4287-92f1-05737a2d4934941",
           "shape": "box",
           "borderWidth": ""
@@ -17921,8 +17921,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Семантическое\nмоделирование\nи анализ",
           "link": "",
-          "x": 80192,
-          "y": -1816,
+          "x": 80200,
+          "y": -1326,
           "id": "2c7935f6-c0c6-4eb8-bead-abf02eaab3f5941",
           "shape": "box",
           "borderWidth": ""
@@ -17955,8 +17955,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Поиск",
           "link": "",
-          "x": 79858,
-          "y": -2332,
+          "x": 79866,
+          "y": -1842,
           "id": "205f88a1-7588-4d6c-bb62-3c6ad77bf82f941",
           "shape": "box",
           "borderWidth": ""
@@ -17989,8 +17989,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сохранение, загрузка\nи распространение\nфайлов mm-vis-js",
           "link": "",
-          "x": 80400,
-          "y": -221,
+          "x": 80408,
+          "y": 269,
           "id": "aea4ea11-f93d-4230-ae79-06035d383f4d941",
           "shape": "box",
           "borderWidth": ""
@@ -18023,8 +18023,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Горячие\nклавиши",
           "link": "",
-          "x": 79946,
-          "y": 1151,
+          "x": 79954,
+          "y": 1641,
           "id": "cfd97d6f-d6b0-4ac4-8705-3de56b8057cf941",
           "shape": "box",
           "borderWidth": ""
@@ -18057,8 +18057,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Настройки",
           "link": "",
-          "x": 80010,
-          "y": 1522,
+          "x": 80018,
+          "y": 2012,
           "id": "4f7832ba-cd70-4a3d-8c2c-228e4663ebfd941",
           "shape": "box",
           "borderWidth": ""
@@ -18091,8 +18091,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj-serv.js \n- бэкэнд-сервер",
           "link": "",
-          "x": 80195,
-          "y": 1823,
+          "x": 80203,
+          "y": 2313,
           "id": "ea07364d-f6b9-420e-8eef-4928c3f1a8a3941",
           "shape": "box",
           "borderWidth": ""
@@ -18125,8 +18125,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Устранение\nнеполадок",
           "link": "",
-          "x": 80048,
-          "y": 2199,
+          "x": 80056,
+          "y": 2689,
           "id": "1eb40c53-76a6-462d-9967-5f45c9128087941",
           "shape": "box",
           "borderWidth": ""
@@ -18159,8 +18159,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Работа с наборами данных",
           "link": "",
-          "x": 82504,
-          "y": 14407,
+          "x": 82508,
+          "y": 17809,
           "id": "32e27325-b819-4c01-864d-c52823293e91941",
           "shape": "box",
           "borderWidth": ""
@@ -18193,8 +18193,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Разработка\nmm-vis-js",
           "link": "",
-          "x": 80042,
-          "y": 2593,
+          "x": 80050,
+          "y": 3083,
           "id": "47a6a057-ca86-4d33-a3a2-9264caf40256941",
           "shape": "box",
           "borderWidth": ""
@@ -18227,8 +18227,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Построение карт кода",
           "link": "",
-          "x": 81385,
-          "y": -1842,
+          "x": 81393,
+          "y": -1352,
           "id": "ae148960-4e57-4991-abbe-4078d52a2016941",
           "shape": "box",
           "borderWidth": ""
@@ -18261,8 +18261,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Конфиги в коде",
           "id": "f2c7bc3a-95c8-445b-8667-94c66d6ef3c6941",
-          "x": 81243,
-          "y": 1471,
+          "x": 81251,
+          "y": 1961,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -18330,7 +18330,7 @@ var schemeData =
           "label": "Копирование стилей",
           "link": "",
           "x": 82482,
-          "y": 14251,
+          "y": 17599,
           "id": "a6a12e90-8645-407f-9585-64dae8e2f1ab941",
           "shape": "box",
           "borderWidth": ""
@@ -18495,8 +18495,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "01 Importing a dataset or a RSS feed",
           "link": "",
-          "x": 82876,
-          "y": 14395,
+          "x": 82880,
+          "y": 17797,
           "id": "1bbffb16-3ee3-49f3-a6bf-762194a3680c941"
         },
         "9cda5611-9eaf-4ab6-80c5-7f66f06b71b4941": {
@@ -18523,8 +18523,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "02 Associations",
           "link": "",
-          "x": 82808,
-          "y": 14419,
+          "x": 82812,
+          "y": 17821,
           "id": "9cda5611-9eaf-4ab6-80c5-7f66f06b71b4941"
         },
         "399e2850-247f-482b-a10d-4cae9f899828941": {
@@ -18551,8 +18551,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "03 Importing a matrix dataset",
           "link": "",
-          "x": 82851,
-          "y": 14443,
+          "x": 82855,
+          "y": 17845,
           "id": "399e2850-247f-482b-a10d-4cae9f899828941"
         },
         "bf56f3cd-a516-426b-9e86-59b57b86ec85941": {
@@ -18583,8 +18583,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Building mm-vis-js\nfrom GitHub",
           "id": "bf56f3cd-a516-426b-9e86-59b57b86ec85941",
-          "x": 81285,
-          "y": 2496,
+          "x": 81293,
+          "y": 2986,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -18914,8 +18914,8 @@ var schemeData =
         },
         "cd5ec7f8-c7e3-4011-b4ad-13be480789e2": {
           "id": "cd5ec7f8-c7e3-4011-b4ad-13be480789e2",
-          "x": 79963,
-          "y": -820,
+          "x": 79971,
+          "y": -330,
           "label": "mm-vis-js\nкак IDE",
           "shape": "box",
           "link": "",
@@ -18931,8 +18931,8 @@ var schemeData =
         },
         "59b98ba8-a9b8-40f2-97c8-08b5a3a53f6a": {
           "id": "59b98ba8-a9b8-40f2-97c8-08b5a3a53f6a",
-          "x": 80024,
-          "y": -1336,
+          "x": 80032,
+          "y": -846,
           "label": "JavaScript\nв mm-vis-js",
           "shape": "box",
           "link": "",
@@ -18948,8 +18948,8 @@ var schemeData =
         },
         "cd423460-d5f2-4d5a-a93c-af6e9e81d69e": {
           "id": "cd423460-d5f2-4d5a-a93c-af6e9e81d69e",
-          "x": 81148,
-          "y": -2212,
+          "x": 81156,
+          "y": -1722,
           "label": "Поиск нод по всем страницам mm-vis-js",
           "shape": "box",
           "link": "",
@@ -18966,37 +18966,37 @@ var schemeData =
         "e0c0a072-65fe-417d-843a-fcee41adad54": {
           "id": "e0c0a072-65fe-417d-843a-fcee41adad54",
           "x": 82326,
-          "y": 14190,
+          "y": 17538,
           "label": "TODO"
         },
         "af25f616-ddfc-4110-af0b-932e6c71d7bc": {
           "id": "af25f616-ddfc-4110-af0b-932e6c71d7bc",
           "x": 82510,
-          "y": 14150,
+          "y": 17498,
           "label": "Map-Based Semantic Analysis"
         },
         "9b768e30-5c99-4ee0-af34-dfe4540eafe0": {
           "id": "9b768e30-5c99-4ee0-af34-dfe4540eafe0",
           "x": 82481,
-          "y": 14175,
+          "y": 17523,
           "label": "Connectivity Analysis"
         },
         "1e7442ce-9c75-4493-b05f-0da9b68ef353": {
           "id": "1e7442ce-9c75-4493-b05f-0da9b68ef353",
-          "x": 82448,
-          "y": 14332,
+          "x": 82452,
+          "y": 17734,
           "label": "Ontologies"
         },
         "45dc2d00-3f01-4cd2-913f-3598c4694379": {
           "id": "45dc2d00-3f01-4cd2-913f-3598c4694379",
-          "x": 82332,
-          "y": 14332,
+          "x": 82336,
+          "y": 17734,
           "label": "Themes"
         },
         "f7b5a800-cb61-46ed-9445-e5d27c65138b": {
           "id": "f7b5a800-cb61-46ed-9445-e5d27c65138b",
-          "x": 82061,
-          "y": -3102,
+          "x": 82069,
+          "y": -2612,
           "label": "Нет поддержки слоев в привычном их понимании.\nЕсть второй слой-окно vis-js (под основным) для иллюстраций mm-books, с синхронизированным скроллингом.",
           "shape": "box",
           "link": "",
@@ -19013,7 +19013,7 @@ var schemeData =
         "a03240fa-d137-459f-9a2d-d7c04e967c85": {
           "id": "a03240fa-d137-459f-9a2d-d7c04e967c85",
           "x": 82451,
-          "y": 14215,
+          "y": 17563,
           "label": "Split screen"
         },
         "51a23f2c-ce08-419a-b29d-30571ef01264": {
@@ -19035,14 +19035,14 @@ var schemeData =
         },
         "08afca42-98f0-4266-91dc-1e9f1cc79ca0": {
           "id": "08afca42-98f0-4266-91dc-1e9f1cc79ca0",
-          "x": 81725,
-          "y": -2981,
+          "x": 81733,
+          "y": -2491,
           "label": "Промотка"
         },
         "add36ac8-073d-467e-bdef-3ab4b904ed63": {
           "id": "add36ac8-073d-467e-bdef-3ab4b904ed63",
           "x": 81197,
-          "y": -4490,
+          "y": -4417,
           "label": "\"vim\"-интерфейс",
           "shape": "box",
           "link": "",
@@ -19058,8 +19058,8 @@ var schemeData =
         },
         "4def96ec-f149-4115-98e3-6c6b00344a8f": {
           "id": "4def96ec-f149-4115-98e3-6c6b00344a8f",
-          "x": 81790,
-          "y": -2619,
+          "x": 81798,
+          "y": -2129,
           "label": "F11 - Google Chrome и Firefox",
           "shape": "box",
           "link": "",
@@ -19075,26 +19075,26 @@ var schemeData =
         },
         "b39e35d4-493a-4286-93ca-a0226591e500": {
           "id": "b39e35d4-493a-4286-93ca-a0226591e500",
-          "x": 81761,
-          "y": -2957,
+          "x": 81769,
+          "y": -2467,
           "label": "Прыжки по странице"
         },
         "55b732e4-7423-46c4-9795-f2a15238950c": {
           "id": "55b732e4-7423-46c4-9795-f2a15238950c",
-          "x": 81756,
-          "y": -2932,
+          "x": 81764,
+          "y": -2442,
           "label": "Сохранение \"вида\""
         },
         "726931a3-fd0b-4de7-b09d-702d1efc703b": {
           "id": "726931a3-fd0b-4de7-b09d-702d1efc703b",
-          "x": 81796,
-          "y": -3039,
+          "x": 81804,
+          "y": -2549,
           "label": "Настройки масштаба страницы"
         },
         "1f841207-046c-4237-9072-a8f8306f47e1": {
           "id": "1f841207-046c-4237-9072-a8f8306f47e1",
-          "x": 81269,
-          "y": -2960,
+          "x": 81277,
+          "y": -2470,
           "label": "Навигация по странице",
           "font": {
             "size": 50
@@ -19226,7 +19226,7 @@ var schemeData =
           "label": "Открыть ссылку ноды",
           "id": "02196ab4-9960-4540-81fd-4625f8dc43b2856673431159",
           "x": 81974,
-          "y": -7098,
+          "y": -7001,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -19319,8 +19319,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Оффлайновая\nработа",
           "id": "99792996-9990-4de2-8e7a-c7f95c729ccc856673431159",
-          "x": 81327,
-          "y": 541,
+          "x": 81335,
+          "y": 1031,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -19352,8 +19352,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js может работать без доступа к сети",
           "id": "541e43ae-9406-4a36-9648-8533fbc16f69856673431159",
-          "x": 81792,
-          "y": 461,
+          "x": 81800,
+          "y": 951,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -19385,8 +19385,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нужно сохранить в одну директорию файлы",
           "id": "533b01fa-6d24-48cc-8581-fbd583383385856673431159",
-          "x": 81786,
-          "y": 635,
+          "x": 81794,
+          "y": 1125,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -19417,8 +19417,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "index.html",
           "id": "b5b6d8e1-80be-4076-816a-b4af7f7cb38f856673431159",
-          "x": 82054,
-          "y": 538
+          "x": 82062,
+          "y": 1028
         },
         "4474df06-f883-4579-b820-885c3a171780856673431159": {
           "color": {
@@ -19446,8 +19446,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "index.data.js",
           "id": "4474df06-f883-4579-b820-885c3a171780856673431159",
-          "x": 82061,
-          "y": 568
+          "x": 82069,
+          "y": 1058
         },
         "aaa11c87-8cce-4cfa-ad47-d90271340433856673431159": {
           "color": {
@@ -19475,8 +19475,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "application.js",
           "id": "aaa11c87-8cce-4cfa-ad47-d90271340433856673431159",
-          "x": 82062,
-          "y": 610
+          "x": 82070,
+          "y": 1100
         },
         "6bef3a7e-4585-40bf-9de0-6e5152dbe19f856673431159": {
           "color": {
@@ -19504,8 +19504,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://visjs.github.io/vis-network/dist/vis-network.min.css",
           "id": "6bef3a7e-4585-40bf-9de0-6e5152dbe19f856673431159",
-          "x": 82486,
-          "y": 657
+          "x": 82494,
+          "y": 1147
         },
         "1090a0ca-0455-443b-b48a-2665a678b1bb856673431159": {
           "color": {
@@ -19533,8 +19533,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vis-network.min.css",
           "id": "1090a0ca-0455-443b-b48a-2665a678b1bb856673431159",
-          "x": 82084,
-          "y": 660
+          "x": 82092,
+          "y": 1150
         },
         "a2895f70-16f6-44ba-bb7f-3b1178cdc965856673431159": {
           "color": {
@@ -19562,8 +19562,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://unpkg.com/vis-network@6.3.0/standalone/umd/vis-network.min.js",
           "id": "a2895f70-16f6-44ba-bb7f-3b1178cdc965856673431159",
-          "x": 82540,
-          "y": 712
+          "x": 82548,
+          "y": 1202
         },
         "a93ca548-3213-4562-adca-65ec888cd499856673431159": {
           "color": {
@@ -19591,8 +19591,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "vis-network.min.js",
           "id": "a93ca548-3213-4562-adca-65ec888cd499856673431159",
-          "x": 82080,
-          "y": 713
+          "x": 82088,
+          "y": 1203
         },
         "54a8ccfe-1e5b-4fa6-b8a4-a619778bc847856673431159": {
           "color": {
@@ -19775,14 +19775,18 @@ var schemeData =
         "954369db-66b6-4e97-be9f-5a0e6febd275856673431159": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
             "bold": {},
             "boldital": {},
             "ital": {},
-            "mono": {}
+            "mono": {},
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -19796,51 +19800,29 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "Кликаем по ноде.",
+          "label": "Кликаем по ноде левой клавишей мыши",
           "id": "954369db-66b6-4e97-be9f-5a0e6febd275856673431159",
-          "x": 82223,
-          "y": -7093
-        },
-        "30bfd8ec-c4c8-4688-8112-87a94a4e2ac4856673431159": {
-          "color": {
-            "highlight": {},
-            "hover": {}
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "В открывшемся слева меню нажимаем openLinkButton",
-          "id": "30bfd8ec-c4c8-4688-8112-87a94a4e2ac4856673431159",
           "x": 82542,
-          "y": -7089
+          "y": -7146,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "980b8af5-638f-43da-bae0-564de055219e856673431159": {
           "color": {
             "highlight": {},
-            "hover": {}
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
           },
           "fixed": {},
           "font": {
             "bold": {},
             "boldital": {},
             "ital": {},
-            "mono": {}
+            "mono": {},
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -19854,10 +19836,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "Выделяем с нажатой правой кнопкой мыши",
+          "label": "Выделяем рамкой с нажатой правой кнопкой мыши",
           "id": "980b8af5-638f-43da-bae0-564de055219e856673431159",
-          "x": 81923,
-          "y": -5854
+          "x": 81957,
+          "y": -5858,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
         },
         "a838dc05-c1bb-431a-9dc8-fbcae3f6ebce856673431159": {
           "color": {
@@ -20452,8 +20437,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделяем несколько нод и в верхнем меню нажимаем кнопку \"leftAlignNodes\"",
           "id": "2bb5f8da-7c28-4a79-8ccb-1bec4eac4f29856673431159",
-          "x": 81793,
-          "y": -4775,
+          "x": 81795,
+          "y": -4780,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20488,8 +20473,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "URL ссылка\nна точку\nна странице",
           "id": "28056588-8284-4009-9d1d-cbc9d804a95d856673431159",
-          "x": 81139,
-          "y": -3377,
+          "x": 81146,
+          "y": -2875,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20521,8 +20506,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В ссылке можно задать координаты точки на холсте и масштаб просмотра",
           "id": "6e7616e9-3f7a-4df9-8aac-0c50daf3a3b0856673431159",
-          "x": 81998,
-          "y": -3444,
+          "x": 82006,
+          "y": -2954,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20553,8 +20538,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В конце ссылки добавить",
           "id": "c5d0b881-5d55-454d-adb3-26892dec6b0a856673431159",
-          "x": 81836,
-          "y": -3387
+          "x": 81844,
+          "y": -2897
         },
         "9db85203-fde1-4ec5-afe2-aeb373d60a55856673431159": {
           "color": {
@@ -20582,8 +20567,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "?scale=...&x=...&y=...",
           "id": "9db85203-fde1-4ec5-afe2-aeb373d60a55856673431159",
-          "x": 82043,
-          "y": -3386
+          "x": 82051,
+          "y": -2896
         },
         "00743438-e644-40dd-a573-844be7540f05856673431159": {
           "color": {
@@ -20612,8 +20597,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Получить координаты и масштаб\nтекущего вида холста",
           "id": "00743438-e644-40dd-a573-844be7540f05856673431159",
-          "x": 81862,
-          "y": -3280,
+          "x": 81870,
+          "y": -2790,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20644,8 +20629,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликаем updateMenuFromScheme в меню showData",
           "id": "d4204b1c-b9c1-4b7a-9fbc-2666174ab51e856673431159",
-          "x": 82213,
-          "y": -3321
+          "x": 82221,
+          "y": -2831
         },
         "83215916-1c34-4266-b50e-a43be8e19724856673431159": {
           "color": {
@@ -20673,8 +20658,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Проматываем окно с кодом вниз до конца",
           "id": "83215916-1c34-4266-b50e-a43be8e19724856673431159",
-          "x": 82179,
-          "y": -3283
+          "x": 82187,
+          "y": -2793
         },
         "b550d05e-5a1d-4066-9747-126aa669396c856673431159": {
           "color": {
@@ -20703,8 +20688,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Берем параметры из полей",
           "id": "b550d05e-5a1d-4066-9747-126aa669396c856673431159",
-          "x": 82132,
-          "y": -3228,
+          "x": 82140,
+          "y": -2738,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20735,8 +20720,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "setup.scale",
           "id": "e2adc361-24b6-400e-8140-4538000e3041856673431159",
-          "x": 82318,
-          "y": -3237
+          "x": 82326,
+          "y": -2747
         },
         "d3d62987-0cc6-426d-ab8f-fb5813228773856673431159": {
           "color": {
@@ -20764,8 +20749,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "setup.viewPosition.x",
           "id": "d3d62987-0cc6-426d-ab8f-fb5813228773856673431159",
-          "x": 82346,
-          "y": -3206
+          "x": 82354,
+          "y": -2716
         },
         "420f4069-56f9-43d1-8b4e-bed7ba73aff9856673431159": {
           "color": {
@@ -20793,8 +20778,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "setup.viewPosition.y",
           "id": "420f4069-56f9-43d1-8b4e-bed7ba73aff9856673431159",
-          "x": 82346,
-          "y": -3175
+          "x": 82354,
+          "y": -2685
         },
         "c00144df-8d18-47d6-b3ac-effce2323769856673431159": {
           "color": {
@@ -20823,8 +20808,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Как сохранить?",
           "id": "c00144df-8d18-47d6-b3ac-effce2323769856673431159",
-          "x": 81786,
-          "y": -343,
+          "x": 81794,
+          "y": 147,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20856,8 +20841,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Как загрузить?",
           "id": "7333304b-0641-4095-8128-b3ab5ee7b8a4856673431159",
-          "x": 81783,
-          "y": 110,
+          "x": 81791,
+          "y": 600,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20890,8 +20875,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликните на updateMenuFromScheme\n в меню showData.",
           "id": "51235d2d-d4fb-4f0b-a275-77976c6728ae856673431159",
-          "x": 82294,
-          "y": -392,
+          "x": 82302,
+          "y": 98,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20924,8 +20909,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликните по ноде с датой сохранения.\nПотом кликните в ее меню (слева на экране)\nпо loadSavedProjectToMenu.",
           "id": "3a096daf-6a68-49ae-b74b-b20a0e1fd115856673431159",
-          "x": 83163,
-          "y": -405,
+          "x": 83171,
+          "y": 85,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20957,8 +20942,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Json-код схемы обновится в меню и сохранится\nв локальном хранилище браузера. \nДанные остаются в хранилище постоянно.\nРядом с нодой saveCanvasProjectData\nпоявится нода с датой сохранения.",
           "id": "d6d2c067-4802-47b8-9a26-0651849fe1b2856673431159",
-          "x": 83174,
-          "y": -593,
+          "x": 83182,
+          "y": -103,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20990,8 +20975,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Json-код схемы загрузится в меню и схема обновится.",
           "id": "1fcaf981-ffce-478f-9d43-4f38323119e0856673431159",
-          "x": 83808,
-          "y": -404,
+          "x": 83816,
+          "y": 86,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21022,8 +21007,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вывести в консоли список ключей browser local storage",
           "id": "d4a5eef0-c4e7-4347-9ddd-cda5914df0a1856673431159",
-          "x": 83196,
-          "y": -521
+          "x": 83204,
+          "y": -31
         },
         "f824df76-098b-4d25-9987-a5e2ff505841856673431159": {
           "color": {
@@ -21051,8 +21036,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "showBrowserLocalStorageKeys()",
           "id": "f824df76-098b-4d25-9987-a5e2ff505841856673431159",
-          "x": 83558,
-          "y": -522
+          "x": 83566,
+          "y": -32
         },
         "a2e44315-404d-40f8-bb2a-5f788c69e548856673431159": {
           "color": {
@@ -21080,8 +21065,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В консоли удалить из browser local storage элемент по ключу",
           "id": "a2e44315-404d-40f8-bb2a-5f788c69e548856673431159",
-          "x": 83216,
-          "y": -464
+          "x": 83224,
+          "y": 26
         },
         "e14d58fc-a6ee-40e5-abfa-42be09c2ffb1856673431159": {
           "color": {
@@ -21109,8 +21094,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "localStorage.removeItem(keyName)",
           "id": "e14d58fc-a6ee-40e5-abfa-42be09c2ffb1856673431159",
-          "x": 83733,
-          "y": -462
+          "x": 83741,
+          "y": 28
         },
         "d5cdb95f-43cf-4cb2-b830-3b446b3efc0a344856673431159": {
           "color": {
@@ -21784,8 +21769,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сохранение в localStorage отключено. Возможно, заменой будет встроенная в браузер база indexedDB.",
           "id": "3663b6f1-a0e4-4786-8198-87ab592eff08431159",
-          "x": 82326,
-          "y": -508
+          "x": 82334,
+          "y": -18
         },
         "a497b4eb-23d8-4eda-8caf-b74bbd4a2765431159": {
           "color": {
@@ -21816,8 +21801,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Архивные пункты для localStorage",
           "id": "a497b4eb-23d8-4eda-8caf-b74bbd4a2765431159",
-          "x": 82846,
-          "y": -509,
+          "x": 82854,
+          "y": -19,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21851,8 +21836,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант 1",
           "id": "3e753aa5-d787-4b9d-8f45-1f689620a154431159",
-          "x": 82018,
-          "y": -373,
+          "x": 82026,
+          "y": 117,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21883,8 +21868,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделите (ctrl+a) и скопируйте json-code из меню. Затем сохраните в текстовый файл.",
           "id": "0cc0b953-962a-4be3-902b-de755573478c431159",
-          "x": 82456,
-          "y": -355
+          "x": 82464,
+          "y": 135
         },
         "9ec1e92c-e23f-40c3-946c-50c07d46d846431159": {
           "color": {
@@ -21915,8 +21900,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант 2.",
           "id": "9ec1e92c-e23f-40c3-946c-50c07d46d846431159",
-          "x": 82020,
-          "y": -283,
+          "x": 82028,
+          "y": 207,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21947,8 +21932,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Запустите mvj-serv.js из директории mm-vis-js/utils/",
           "id": "19ac164b-e6b2-4bdf-be8f-de83f8ab658c431159",
-          "x": 82336,
-          "y": -299
+          "x": 82344,
+          "y": 191
         },
         "7ca43b63-bb6b-4d12-b9bb-d92671cf84a6431159": {
           "color": {
@@ -21980,8 +21965,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В коде mvj-serv.js проверьте порт сервер - 3001. Если нужно - поменяйте в mvj-serv.js и в скрипте сохранения на странице. О скрипте сохранения см. ниже.",
           "id": "7ca43b63-bb6b-4d12-b9bb-d92671cf84a6431159",
-          "x": 83100,
-          "y": -300,
+          "x": 83108,
+          "y": 190,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -22012,8 +21997,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Найдите схему \"mm-vis-js save\" - на холсте наверху слева.",
           "id": "9aec0b4d-324d-4420-80d5-d69bdc4a342a431159",
-          "x": 82728,
-          "y": -179
+          "x": 82736,
+          "y": 311
         },
         "9e9e19e4-8a8e-413a-9fae-8f1392eb4ce7431159": {
           "color": {
@@ -22041,8 +22026,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В схеме \"mm-vis-js save\" кликните по большой ноде с кодом, чтобы выделить ее.",
           "id": "9e9e19e4-8a8e-413a-9fae-8f1392eb4ce7431159",
-          "x": 82801,
-          "y": -148
+          "x": 82809,
+          "y": 342
         },
         "651b3068-14ec-45b9-87e5-64f8ac415b45431159": {
           "color": {
@@ -22070,8 +22055,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликните \"runNodeCode\" в меню большой ноды с кодом - меню слева на холсте.",
           "id": "651b3068-14ec-45b9-87e5-64f8ac415b45431159",
-          "x": 82801,
-          "y": -115
+          "x": 82809,
+          "y": 375
         },
         "2dc2a371-7346-4902-bd86-0ac9cebf4349431159": {
           "color": {
@@ -22099,8 +22084,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант 1",
           "id": "2dc2a371-7346-4902-bd86-0ac9cebf4349431159",
-          "x": 82018,
-          "y": 100
+          "x": 82026,
+          "y": 590
         },
         "810ee379-9ec4-4f2b-9cfa-975915715d77431159": {
           "color": {
@@ -22128,8 +22113,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Скопируйте json-код - предварительно сохраненный локально.",
           "id": "810ee379-9ec4-4f2b-9cfa-975915715d77431159",
-          "x": 82381,
-          "y": 67
+          "x": 82389,
+          "y": 557
         },
         "7b238664-8d77-4ee4-a05f-e8ece57646af431159": {
           "color": {
@@ -22157,8 +22142,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Замените им код в меню showData.",
           "id": "7b238664-8d77-4ee4-a05f-e8ece57646af431159",
-          "x": 82291,
-          "y": 109
+          "x": 82299,
+          "y": 599
         },
         "89b4cb34-a94b-4f5c-8c63-8079d87f3c06431159": {
           "color": {
@@ -22186,8 +22171,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Кликните updateSchemeFromMenu",
           "id": "89b4cb34-a94b-4f5c-8c63-8079d87f3c06431159",
-          "x": 82289,
-          "y": 143
+          "x": 82297,
+          "y": 633
         },
         "c7783b6b-db90-4062-ac8c-70997d13d33f431159": {
           "color": {
@@ -22215,8 +22200,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант 2",
           "id": "c7783b6b-db90-4062-ac8c-70997d13d33f431159",
-          "x": 82018,
-          "y": 226
+          "x": 82026,
+          "y": 716
         },
         "7af4f6c1-dd9b-4b88-987b-577986f66403431159": {
           "color": {
@@ -22244,8 +22229,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант для сохранений с помощью mvj-serv.js",
           "id": "7af4f6c1-dd9b-4b88-987b-577986f66403431159",
-          "x": 82331,
-          "y": 187
+          "x": 82339,
+          "y": 677
         },
         "aa512a20-4431-4e50-9cb0-be525b12ba1b431159": {
           "color": {
@@ -22273,8 +22258,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Найдите сохранения в директории /tmp/mm-vis-js_serv_backup/",
           "id": "aa512a20-4431-4e50-9cb0-be525b12ba1b431159",
-          "x": 82381,
-          "y": 233
+          "x": 82389,
+          "y": 723
         },
         "79e6d59e-7f6d-4bbc-a1df-9b6595974201431159": {
           "color": {
@@ -22306,8 +22291,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Замените ...data.js файл холста в mm-vis-js/app",
           "id": "79e6d59e-7f6d-4bbc-a1df-9b6595974201431159",
-          "x": 82329,
-          "y": 284,
+          "x": 82337,
+          "y": 774,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -22341,8 +22326,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сохранения холстов хранятся в директориях с именами projectSaveId холстов.",
           "id": "d0ff5320-023f-428a-8891-8d6abb31ce62431159",
-          "x": 82918,
-          "y": 221,
+          "x": 82926,
+          "y": 711,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -22376,8 +22361,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "projectSaveId холста записан в схеме META. См. наверху слева на холсте.",
           "id": "e5a6b9f9-d591-4e32-9595-491c2a7b34ae431159",
-          "x": 82902,
-          "y": 251,
+          "x": 82910,
+          "y": 741,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -22408,8 +22393,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "rdflib.min.js",
           "id": "41b1cf57-bdfa-4a6e-bcea-869f53317ece431159",
-          "x": 82059,
-          "y": 771
+          "x": 82067,
+          "y": 1261
         },
         "84db30ef-b648-4b85-b464-d4ec4f5ff0c4431159": {
           "color": {
@@ -22437,8 +22422,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js",
           "id": "84db30ef-b648-4b85-b464-d4ec4f5ff0c4431159",
-          "x": 82487,
-          "y": 775
+          "x": 82495,
+          "y": 1265
         },
         "50a2c223-e86e-4218-a5e1-562984a58105431159": {
           "color": {
@@ -22466,8 +22451,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://code.jquery.com/jquery-3.4.1.min.js",
           "id": "50a2c223-e86e-4218-a5e1-562984a58105431159",
-          "x": 82445,
-          "y": 820
+          "x": 82453,
+          "y": 1310
         },
         "1d817d64-49e4-4713-884c-e14d8fe96c0f431159": {
           "color": {
@@ -22495,8 +22480,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "jquery-3.4.1.min.js",
           "id": "1d817d64-49e4-4713-884c-e14d8fe96c0f431159",
-          "x": 82082,
-          "y": 820
+          "x": 82090,
+          "y": 1310
         },
         "1247edb0-ea4c-4ba2-83ce-fe30019d62b8431159": {
           "color": {
@@ -22528,8 +22513,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сборка mm-vjs-js\nна странице \nmm-vis-js_code.html",
           "id": "1247edb0-ea4c-4ba2-83ce-fe30019d62b8431159",
-          "x": 81316,
-          "y": 2716,
+          "x": 81324,
+          "y": 3206,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -22564,8 +22549,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В консоли запустите mvj-serv.js из директории mm-vis-js/utils/",
           "id": "19ac164b-e6b2-4bdf-be8f-de83f8ab658c331431159",
-          "x": 81891,
-          "y": 2708,
+          "x": 81899,
+          "y": 3198,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -22600,8 +22585,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В коде mvj-serv.js проверьте порт сервер - 3001. Если нужно - поменяйте в mvj-serv.js и в скрипте сохранения на странице.",
           "id": "7ca43b63-bb6b-4d12-b9bb-d92671cf84a6331431159",
-          "x": 82666,
-          "y": 2708,
+          "x": 82674,
+          "y": 3198,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -22645,8 +22630,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "переключение между Google Chrome Developer Tools и страницей.",
           "link": "",
-          "x": 82105,
-          "y": 1230,
+          "x": 82113,
+          "y": 1720,
           "id": "20327694-20c0-46cf-b009-72a4581a6703159",
           "shape": "box",
           "borderWidth": ""
@@ -22688,8 +22673,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Плюс табом может понадобиться довести фокус до страницы",
           "link": "",
-          "x": 82674,
-          "y": 1226,
+          "x": 82590,
+          "y": 1700,
           "id": "a8ce251c-eb6c-4aa9-b262-8c5197dfadac159"
         },
         "913ae8db-7f63-47bd-b732-28dfd9cd2104": {
@@ -22711,8 +22696,8 @@ var schemeData =
         },
         "6a5ce314-c659-45ce-8baf-0e0583edcd30": {
           "id": "6a5ce314-c659-45ce-8baf-0e0583edcd30",
-          "x": 81515,
-          "y": -159,
+          "x": 81523,
+          "y": 331,
           "label": "Сохранение\nи загрузка",
           "shape": "box",
           "link": "",
@@ -22847,8 +22832,8 @@ var schemeData =
         },
         "1b934f22-cb2d-4ecc-b1b1-2aaa07afe700": {
           "id": "1b934f22-cb2d-4ecc-b1b1-2aaa07afe700",
-          "x": 81287,
-          "y": 1236,
+          "x": 81295,
+          "y": 1726,
           "label": "Для Google Chrome",
           "font": {
             "size": 50
@@ -22856,8 +22841,8 @@ var schemeData =
         },
         "9d82cbca-1037-42c1-8d56-04f10f534b37": {
           "id": "9d82cbca-1037-42c1-8d56-04f10f534b37",
-          "x": 81771,
-          "y": 1233,
+          "x": 81779,
+          "y": 1723,
           "label": "F6, Shift+F6"
         },
         "5c71c220-f7ff-4a45-9276-ac7f111d1a12941328": {
@@ -22890,8 +22875,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Работа\nонлайн/оффлайн",
           "link": "",
-          "x": 80248,
-          "y": 545,
+          "x": 80256,
+          "y": 1035,
           "id": "5c71c220-f7ff-4a45-9276-ac7f111d1a12941328",
           "shape": "box",
           "borderWidth": ""
@@ -22922,8 +22907,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Как пользоваться\nmm-vis-js",
-          "x": 77236,
-          "y": 4053,
+          "x": 77244,
+          "y": 4543,
           "id": "1378d5a9-c870-4d2e-b206-6bdb55aaf7b0248",
           "shape": "box",
           "link": "",
@@ -22952,8 +22937,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": 77746,
-          "y": 4520,
+          "x": 77754,
+          "y": 5010,
           "id": "76575a07-749d-43af-951c-eac40fca8fc5248"
         },
         "ea659f91-7bdc-44b7-8ca1-60553201b128248": {
@@ -22982,8 +22967,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/01/2019",
-          "x": 77875,
-          "y": 4520,
+          "x": 77883,
+          "y": 5010,
           "id": "ea659f91-7bdc-44b7-8ca1-60553201b128248",
           "shape": "box",
           "link": "",
@@ -23012,8 +22997,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": 77996,
-          "y": 4520,
+          "x": 78004,
+          "y": 5010,
           "id": "9fad8a6a-3828-4fef-93da-6a3152564eec248"
         },
         "3859a4e4-6fc8-4015-be44-3c7680c5aa5e248": {
@@ -23039,8 +23024,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": 77722,
-          "y": 3670,
+          "x": 77730,
+          "y": 4160,
           "id": "3859a4e4-6fc8-4015-be44-3c7680c5aa5e248"
         },
         "42d9ab72-a87a-4262-a99f-cf7e75138d5b248": {
@@ -23066,8 +23051,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": 77872,
-          "y": -2859,
+          "x": 77880,
+          "y": -2369,
           "id": "42d9ab72-a87a-4262-a99f-cf7e75138d5b248"
         },
         "0d6be146-c236-4ac3-9ff1-10a860412e14248": {
@@ -23093,8 +23078,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 77896,
-          "y": 3670,
+          "x": 77904,
+          "y": 4160,
           "id": "0d6be146-c236-4ac3-9ff1-10a860412e14248"
         },
         "74db01e9-edaf-4577-9307-d3dc35a9c137248": {
@@ -23120,8 +23105,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": 77870,
-          "y": 3920,
+          "x": 77878,
+          "y": 4410,
           "id": "74db01e9-edaf-4577-9307-d3dc35a9c137248"
         },
         "f0475a46-3c81-49f2-9c20-112c4b5a51f2248": {
@@ -23147,8 +23132,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": 77960,
-          "y": 3770,
+          "x": 77968,
+          "y": 4260,
           "id": "f0475a46-3c81-49f2-9c20-112c4b5a51f2248"
         },
         "adf11ddc-9b05-4e6e-a4c5-be2cc00a6fae248": {
@@ -23174,8 +23159,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 77990,
-          "y": 3795,
+          "x": 77998,
+          "y": 4285,
           "id": "adf11ddc-9b05-4e6e-a4c5-be2cc00a6fae248"
         },
         "41d17162-0d51-4ab5-be40-34980fc2e034248": {
@@ -23201,8 +23186,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": 77956,
-          "y": 3820,
+          "x": 77964,
+          "y": 4310,
           "id": "41d17162-0d51-4ab5-be40-34980fc2e034248"
         },
         "36083fac-f62a-4dcd-9dcd-5d5b4c91614f248": {
@@ -23228,8 +23213,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 77975,
-          "y": 3845,
+          "x": 77983,
+          "y": 4335,
           "id": "36083fac-f62a-4dcd-9dcd-5d5b4c91614f248"
         },
         "12eec393-f2e3-4032-8caf-ed4515e3e85a248": {
@@ -23255,8 +23240,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": 77963,
-          "y": 3870,
+          "x": 77971,
+          "y": 4360,
           "id": "12eec393-f2e3-4032-8caf-ed4515e3e85a248"
         },
         "6fcb685b-d192-4a35-8f45-f501bd61af0e248": {
@@ -23282,8 +23267,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": 77985,
-          "y": 3895,
+          "x": 77993,
+          "y": 4385,
           "id": "6fcb685b-d192-4a35-8f45-f501bd61af0e248"
         },
         "6221837c-361b-4dc4-8a77-4c8283185e6f248": {
@@ -23309,8 +23294,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 77988,
-          "y": 3920,
+          "x": 77996,
+          "y": 4410,
           "id": "6221837c-361b-4dc4-8a77-4c8283185e6f248"
         },
         "e7428080-8744-42eb-9dee-87fccc299526248": {
@@ -23336,8 +23321,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": 77966,
-          "y": 3945,
+          "x": 77974,
+          "y": 4435,
           "id": "e7428080-8744-42eb-9dee-87fccc299526248"
         },
         "769cb09c-fbee-4349-bb19-28bd0cba5cf2248": {
@@ -23363,8 +23348,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": 77957,
-          "y": 3970,
+          "x": 77965,
+          "y": 4460,
           "id": "769cb09c-fbee-4349-bb19-28bd0cba5cf2248"
         },
         "eb0082eb-4e89-4830-8fb0-123c3f2046b2248": {
@@ -23390,8 +23375,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 77984,
-          "y": 3995,
+          "x": 77992,
+          "y": 4485,
           "id": "eb0082eb-4e89-4830-8fb0-123c3f2046b2248"
         },
         "1d1712c5-8d49-450b-9ed1-7cdaff3bc457248": {
@@ -23417,8 +23402,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 77971,
-          "y": 4020,
+          "x": 77979,
+          "y": 4510,
           "id": "1d1712c5-8d49-450b-9ed1-7cdaff3bc457248"
         },
         "3e4833e8-b9eb-43b1-b520-0331c3c225fd248": {
@@ -23444,8 +23429,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 77992,
-          "y": 4045,
+          "x": 78000,
+          "y": 4535,
           "id": "3e4833e8-b9eb-43b1-b520-0331c3c225fd248"
         },
         "c21de6f9-1adb-47b6-8ca6-a8146aab9336248": {
@@ -23471,8 +23456,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": 77957,
-          "y": 4070,
+          "x": 77965,
+          "y": 4560,
           "id": "c21de6f9-1adb-47b6-8ca6-a8146aab9336248"
         },
         "1e1062fe-495a-4f67-a6b9-e3cc6e8a0b49248": {
@@ -23498,8 +23483,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 77996,
-          "y": 4095,
+          "x": 78004,
+          "y": 4585,
           "id": "1e1062fe-495a-4f67-a6b9-e3cc6e8a0b49248"
         },
         "e463c5cb-865f-4170-87ff-014120404af9248": {
@@ -23525,8 +23510,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": 77736,
-          "y": 4220,
+          "x": 77744,
+          "y": 4710,
           "id": "e463c5cb-865f-4170-87ff-014120404af9248"
         },
         "8c0ebfdb-652e-473d-9efd-93925d1f3072248": {
@@ -23552,8 +23537,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": 77734,
-          "y": 4320,
+          "x": 77742,
+          "y": 4810,
           "id": "8c0ebfdb-652e-473d-9efd-93925d1f3072248"
         },
         "5db56f1f-d062-4dd9-953e-932934ce91b1248": {
@@ -23579,8 +23564,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": 77722,
-          "y": 4420,
+          "x": 77730,
+          "y": 4910,
           "id": "5db56f1f-d062-4dd9-953e-932934ce91b1248"
         },
         "5c71c220-f7ff-4a45-9276-ac7f111d1a12941941": {
@@ -23647,8 +23632,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "alt+y",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c982",
-          "x": 81708,
-          "y": -2726,
+          "x": 81716,
+          "y": -2236,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23681,8 +23666,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "alt+g",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c199",
-          "x": 81709,
-          "y": -2840,
+          "x": 81717,
+          "y": -2350,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23715,8 +23700,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Удобная функция для работы с большими списками веток, особенно\nдля сгенерированной информации",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c434",
-          "x": 82476,
-          "y": -2816,
+          "x": 82484,
+          "y": -2326,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23749,8 +23734,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделить ноду и спрятать/восстановить дерево ее веток.",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c300",
-          "x": 82014,
-          "y": -2740,
+          "x": 82022,
+          "y": -2250,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23783,8 +23768,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделить ноду и свернуть/развернуть ее дерево веток",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c13",
-          "x": 82006,
-          "y": -2843,
+          "x": 82014,
+          "y": -2353,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23817,8 +23802,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сворачивание тут означает выстраивание нод в линию по высоте.",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c636",
-          "x": 82467,
-          "y": -2877,
+          "x": 82475,
+          "y": -2387,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23851,8 +23836,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "При разворачивании веток, в их нодах будет заново сгенерировано положение по высоте.",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c881",
-          "x": 82545,
-          "y": -2851,
+          "x": 82553,
+          "y": -2361,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23885,8 +23870,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Если у ноды есть спрятанное дерево веток, то нода будет обведена черной рамкой.",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c264",
-          "x": 82103,
-          "y": -2712,
+          "x": 82111,
+          "y": -2222,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23919,8 +23904,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Если таких нод несколько, \nто вид будет перемещаться по ним циклически\nс каждым нажатием alt+j.",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c92",
-          "x": 81994,
-          "y": -2401,
+          "x": 82002,
+          "y": -1911,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23953,8 +23938,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "alt+j",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c388",
-          "x": 81021,
-          "y": -2415,
+          "x": 81029,
+          "y": -1925,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23987,8 +23972,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Найти ноду с таким же текстом",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c755",
-          "x": 81279,
-          "y": -2419,
+          "x": 81287,
+          "y": -1929,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24021,8 +24006,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделить ноду и нажать alt+j.",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c469",
-          "x": 81523,
-          "y": -2439,
+          "x": 81531,
+          "y": -1949,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24055,8 +24040,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "И, если на странице есть нода с таким же текстом,\nто вид окна переместится на эту ноду.",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c432",
-          "x": 81593,
-          "y": -2403,
+          "x": 81601,
+          "y": -1913,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24089,8 +24074,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Скрипт на странице mm-vis-js_code.html, в теме \"mm-vis-js visual code\", в ветке \"Search all mm-vis-js pages\"",
           "id": "cd423460-d5f2-4d5a-a93c-af6e9e81d69e452",
-          "x": 81715,
-          "y": -2215,
+          "x": 81723,
+          "y": -1725,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24125,8 +24110,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "В этой функции пока нет поддержки regex",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c755236",
-          "x": 81565,
-          "y": -2346,
+          "x": 81573,
+          "y": -1856,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24161,8 +24146,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Пока для поиска с regex можно использовать скрипт на странице mm-vis-js_code.html, \nв теме \"mm-vis-js visual code\", в ветке \"Search\"",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c755537",
-          "x": 82042,
-          "y": -2345,
+          "x": 82050,
+          "y": -1855,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24197,8 +24182,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Заполняете переменную searchNodeLabelRegex в верхней ноде кода,\nвыделяете эту ноду\nи нажимаете alt+r",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c755518",
-          "x": 82352,
-          "y": -2205,
+          "x": 82360,
+          "y": -1715,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24233,8 +24218,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "utils/mvj-code.js",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c755756",
-          "x": 81830,
-          "y": -1841,
+          "x": 81838,
+          "y": -1351,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24267,8 +24252,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ctrl+alt+s",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88",
-          "x": 82563,
-          "y": -238,
+          "x": 82571,
+          "y": 252,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24303,8 +24288,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Шаг сохранения",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88394",
-          "x": 82226,
-          "y": -197,
+          "x": 82234,
+          "y": 293,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24339,8 +24324,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант с хоткеем",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88394285",
-          "x": 82408,
-          "y": -230,
+          "x": 82416,
+          "y": 260,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24375,8 +24360,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Вариант без хоткея",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88394405",
-          "x": 82410,
-          "y": -155,
+          "x": 82418,
+          "y": 335,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24410,8 +24395,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "На нужной странице нажмите ctrl+alt+s",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88311",
-          "x": 82813,
-          "y": -236,
+          "x": 82821,
+          "y": 254,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24444,8 +24429,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "По умолчанию открывается последняя сохраненная версия страницы",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c68",
-          "x": 82216,
-          "y": 14,
+          "x": 82224,
+          "y": 504,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24478,8 +24463,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Полный список",
           "id": "1b934f22-cb2d-4ecc-b1b1-2aaa07afe700360",
-          "x": 81234,
-          "y": 1080,
+          "x": 81242,
+          "y": 1570,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24512,8 +24497,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Самый свежий список хоткеев смотрите в примечаниях к коду в файле mm-vis-js_code.html, внизу дерева \"mm-vis-js:./app/application.js\"",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c411",
-          "x": 82174,
-          "y": 1073,
+          "x": 82182,
+          "y": 1563,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24548,8 +24533,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Основной код проекта в файле mm-vis-js_code.html, в дереве \"mm-vis-js:./app/application.js\"",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c411713",
-          "x": 81921,
-          "y": 1472,
+          "x": 81929,
+          "y": 1962,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24584,8 +24569,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Смотрите переменные в верхней ноде дерева",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c411713115",
-          "x": 82441,
-          "y": 1469,
+          "x": 82449,
+          "y": 1959,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24618,8 +24603,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "utils/mvj-serv.js",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c787",
-          "x": 81110,
-          "y": 1821,
+          "x": 81118,
+          "y": 2311,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24654,8 +24639,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделите любую ноду дерева кода (например, в \"mm-vis-js:./app/application.js\")",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88684",
-          "x": 81953,
-          "y": 2813,
+          "x": 81961,
+          "y": 3303,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24690,8 +24675,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Откройте страницу mm-vis-js_code.html",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88394684493",
-          "x": 81821,
-          "y": 2764,
+          "x": 81829,
+          "y": 3254,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24726,8 +24711,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js_code.html",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88394684493517",
-          "x": 82104,
-          "y": 2760,
+          "x": 82112,
+          "y": 3250,
           "shape": "box",
           "link": "mm-vis-js_code.html",
           "borderWidth": ""
@@ -24762,8 +24747,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нажмите alt+b",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c8868494",
-          "x": 81738,
-          "y": 2864,
+          "x": 81746,
+          "y": 3354,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24798,8 +24783,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88394684493236",
-          "x": 81709,
-          "y": 2642,
+          "x": 81717,
+          "y": 3132,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24834,8 +24819,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Это основной способ постройки проекта",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88394684493342",
-          "x": 81950,
-          "y": 2633,
+          "x": 81958,
+          "y": 3123,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24870,8 +24855,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "При построении проекта происходит и его сохранение, то есть сохранение страницы mm-vis-js_code.html",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c88394684493236263",
-          "x": 82166,
-          "y": 2658,
+          "x": 82174,
+          "y": 3148,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24906,8 +24891,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Консоль в Developer tools браузера (ctrl+shift+i)",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c787482",
-          "x": 81237,
-          "y": 2204,
+          "x": 81245,
+          "y": 2694,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24941,8 +24926,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "utils/mvj-serv.js",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c787906",
-          "x": 81110,
-          "y": 1821,
+          "x": 81118,
+          "y": 2311,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24977,8 +24962,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Сохранить проект из github",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c7879068",
-          "x": 81780,
-          "y": 2479,
+          "x": 81788,
+          "y": 2969,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25013,8 +24998,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "git clone https://github.com/sushilshik/mm-vis-js",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c78790635",
-          "x": 82074,
-          "y": 2478,
+          "x": 82082,
+          "y": 2968,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25049,8 +25034,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Собрать mm-vis-js на странице mm-vis-js_code.html",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c787906318",
-          "x": 81861,
-          "y": 2522,
+          "x": 81869,
+          "y": 3012,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25083,8 +25068,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Документация в процессе разработки",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c355",
-          "x": 78199,
-          "y": 3671,
+          "x": 78207,
+          "y": 4161,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25545,8 +25530,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js — IDE, CAS and schemes editor.",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c944",
-          "x": 81247,
-          "y": -9627,
+          "x": 81243,
+          "y": -9737,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25581,8 +25566,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "No need to install.\nNo need to register in online services to edit schemes\nSchemes data can be edited from it's text representation\nCode (e.q. from github projects) can be converted to mm-vis-js schemes for visual research\nWrite programs in familiar programming languages and in visual graphs of nodes with code\nBuild files with code (like project building in make and maven) from graphs of nodes with code\nPlace books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content\nWork online and offline\nSymPy math integration (CAS like Mathcad). Dynamic LaTeX expressions and matplotlib plots.\nRun code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c944896",
-          "x": 81653,
-          "y": -9464,
+          "x": 81649,
+          "y": -9574,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25617,8 +25602,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Features",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c944896546",
-          "x": 81139,
-          "y": -9475,
+          "x": 81135,
+          "y": -9585,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25687,7 +25672,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Курсор",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159",
-          "x": 81576,
+          "x": 81560,
           "y": -4505,
           "shape": "box",
           "link": "",
@@ -25721,10 +25706,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "Нажмите \"j\"",
+          "label": "Нажмите \"s\"",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c15987",
-          "x": 81916,
-          "y": -4556,
+          "x": 81944,
+          "y": -4558,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25831,8 +25816,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нажмите \"Esc\"",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c15987693",
-          "x": 81919,
-          "y": -4516,
+          "x": 81952,
+          "y": -4518,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25867,7 +25852,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Переместить курсор",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159554",
-          "x": 81752,
+          "x": 81750,
           "y": -4467,
           "shape": "box",
           "link": "",
@@ -25903,8 +25888,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нажмите h, j, k, l",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159347",
-          "x": 81940,
-          "y": -4468,
+          "x": 81958,
+          "y": -4470,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25975,7 +25960,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделить ноду курсором",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159982",
-          "x": 81768,
+          "x": 81765,
           "y": -4403,
           "shape": "box",
           "link": "",
@@ -26011,8 +25996,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нажмите \"y\"",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159524",
-          "x": 81946,
-          "y": -4391,
+          "x": 81944,
+          "y": -4393,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26047,8 +26032,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Поставьте курсор на ноду",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159322",
-          "x": 81989,
-          "y": -4418,
+          "x": 81988,
+          "y": -4420,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26083,8 +26068,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделение рамкой",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159541",
-          "x": 81752,
-          "y": -4306,
+          "x": 81746,
+          "y": -4298,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26119,7 +26104,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделение",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159920",
-          "x": 81590,
+          "x": 81575,
           "y": -4358,
           "shape": "box",
           "link": "",
@@ -26155,7 +26140,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выделить несколько",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159562",
-          "x": 81753,
+          "x": 81750,
           "y": -4352,
           "shape": "box",
           "link": "",
@@ -26191,8 +26176,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Удерживайте shift",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159654",
-          "x": 81961,
-          "y": -4350,
+          "x": 81962,
+          "y": -4352,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26227,8 +26212,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Перемещение выделенного",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159673",
-          "x": 81646,
-          "y": -4218,
+          "x": 81630,
+          "y": -4179,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26263,8 +26248,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нажмите \"m\"",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c15987404",
-          "x": 81997,
-          "y": -4235,
+          "x": 81998,
+          "y": -4196,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26299,8 +26284,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Выйти из режима",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159461",
-          "x": 81861,
-          "y": -4193,
+          "x": 81862,
+          "y": -4154,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26335,8 +26320,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Включить режим",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c159935",
-          "x": 81859,
-          "y": -4233,
+          "x": 81860,
+          "y": -4194,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26371,8 +26356,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Нажмите \"Esc\"",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c15987404473",
-          "x": 82002,
-          "y": -4191,
+          "x": 82003,
+          "y": -4152,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26407,7 +26392,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Скроллинг страницы",
           "id": "55b732e4-7423-46c4-9795-f2a15238950c15969",
-          "x": 81621,
+          "x": 81605,
           "y": -4640,
           "shape": "box",
           "link": "",
@@ -26479,6 +26464,7162 @@ var schemeData =
           "id": "55b732e4-7423-46c4-9795-f2a15238950c15925272",
           "x": 82055,
           "y": -4643,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941348": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "На странице во всю высоту слева откроется меню",
+          "link": "",
+          "x": 82574,
+          "y": -7120,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941348",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941845": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "В меню нажимаем синюю кнопку \"linkOpenButton\"",
+          "link": "",
+          "x": 82574,
+          "y": -7088,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941845",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b94172": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Ссылка откроется в новой вкладке",
+          "link": "",
+          "x": 82522,
+          "y": -7061,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b94172",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941476": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Вариант 1. (Большое меню)",
+          "link": "",
+          "x": 82215,
+          "y": -7115,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941476",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941972": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Вариант 2. (Выпадающее меню)",
+          "link": "",
+          "x": 82231,
+          "y": -6983,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941972",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941197": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Кликаем по ноде правой клавишей мыши",
+          "link": "",
+          "x": 82546,
+          "y": -7016,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941197",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941195": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Рядом с нодой справа откроется выпадающее меню",
+          "link": "",
+          "x": 82583,
+          "y": -6990,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941195",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941598": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Кликаеме левой клавишей мыши по пункту меню \"Open node link. In new tab.\"",
+          "link": "",
+          "x": 82666,
+          "y": -6960,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941598",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941782": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Ссылка откроется в новой вкладке",
+          "link": "",
+          "x": 82522,
+          "y": -6933,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941782",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941464": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Вариант 3. (Хоткей)",
+          "link": "",
+          "x": 82188,
+          "y": -6863,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941464",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "954369db-66b6-4e97-be9f-5a0e6febd275856673431159822": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Выделяем ноду с помощью левого клика мыши",
+          "id": "954369db-66b6-4e97-be9f-5a0e6febd275856673431159822",
+          "x": 82565,
+          "y": -6877,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b941290": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Нажимаем alt+l",
+          "link": "",
+          "x": 82459,
+          "y": -6852,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b941290",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "06cd960b-5317-451a-a91f-1341bca7dd6b94172802": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Ссылка откроется в новой вкладке",
+          "link": "",
+          "x": 82522,
+          "y": -6827,
+          "id": "06cd960b-5317-451a-a91f-1341bca7dd6b94172802",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "2bb5f8da-7c28-4a79-8ccb-1bec4eac4f29856673431159505": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Пока выравнивание только по левому краю",
+          "id": "2bb5f8da-7c28-4a79-8ccb-1bec4eac4f29856673431159505",
+          "x": 81681,
+          "y": -4748,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c15954128": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Включить",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c15954128",
+          "x": 81935,
+          "y": -4306,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c159541465": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "u",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c159541465",
+          "x": 82068,
+          "y": -4314,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c15954139": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Выделить ноды в рамке и убрать рамку",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c15954139",
+          "x": 82034,
+          "y": -4238,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c159541465652": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "u",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c159541465652",
+          "x": 82225,
+          "y": -4239,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c159541808": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Перед этим должен быть включен курсор - \"s\"",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c159541808",
+          "x": 82215,
+          "y": -4281,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c8539": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Вариант 3",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c8539",
+          "x": 81247,
+          "y": -6522,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c85765": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Вариант 3",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c85765",
+          "x": 81254,
+          "y": -6476,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c85217": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Вариант 3",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c85217",
+          "x": 81259,
+          "y": -6388,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "20327694-20c0-46cf-b009-72a4581a6703159261": {
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "1 клик F6 - из страницы в консоль",
+          "link": "",
+          "x": 82498,
+          "y": 1730,
+          "id": "20327694-20c0-46cf-b009-72a4581a6703159261",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "20327694-20c0-46cf-b009-72a4581a6703159725": {
+          "color": {
+            "highlight": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "hover": {
+              "border": "#2B7CE9",
+              "background": "#D2E5FF"
+            },
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {
+            "x": false,
+            "y": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "3 клика F6 - из консоли на страницу",
+          "link": "",
+          "x": 82505,
+          "y": 1763,
+          "id": "20327694-20c0-46cf-b009-72a4581a6703159725",
+          "shape": "box",
+          "borderWidth": ""
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6",
+          "x": 82524,
+          "y": -9465,
+          "label": "//#1 Тут ситуация?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659",
+          "x": 83609,
+          "y": -8928,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478",
+          "x": 83711,
+          "y": -6556,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575",
+          "x": 83711,
+          "y": -5968,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488",
+          "x": 83711,
+          "y": -4091,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748",
+          "x": 83719,
+          "y": -3097,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424",
+          "x": 83719,
+          "y": -2076,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6528": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6528",
+          "x": 83719,
+          "y": -1578,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363",
+          "x": 83719,
+          "y": -1054,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6853": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6853",
+          "x": 83719,
+          "y": -568,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647",
+          "x": 84864,
+          "y": -97,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f642": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f642",
+          "x": 83561,
+          "y": 907,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6436": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6436",
+          "x": 83576,
+          "y": 1470,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6860": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6860",
+          "x": 83561,
+          "y": 1986,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856",
+          "x": 83561,
+          "y": 2177,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6619": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6619",
+          "x": 83562,
+          "y": 2507,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6567": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6567",
+          "x": 83561,
+          "y": 2931,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6312": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Переведи",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6312",
+          "x": 82715,
+          "y": -9672,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6312289": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 mm-vis-js — IDE, CAS and schemes editor.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6312289",
+          "x": 83046,
+          "y": -9695,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6606": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Features",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6606",
+          "x": 82939,
+          "y": -9648,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6422": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Текст по проекту на github",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6422",
+          "x": 82770,
+          "y": -9251,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6314": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Текст по библиотеке",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6314",
+          "x": 82750,
+          "y": -9204,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6176": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Общий текст по проекту",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6176",
+          "x": 82762,
+          "y": -9458,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Тут вроде бы готово",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490",
+          "x": 82866,
+          "y": -8921,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490962": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Тут надо доделать",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490962",
+          "x": 82857,
+          "y": -8827,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490697": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Тут напиши подробнее - \"от том как сохранить страницу, см. ...\"",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490697",
+          "x": 83000,
+          "y": -8697,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490787": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490787",
+          "x": 82975,
+          "y": -8606,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490571": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490571",
+          "x": 82968,
+          "y": -8427,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490528": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490528",
+          "x": 82943,
+          "y": -8277,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490126": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490126",
+          "x": 82938,
+          "y": -8052,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490346": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490346",
+          "x": 82951,
+          "y": -7851,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490394": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490394",
+          "x": 83396,
+          "y": -7599,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6594903": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6594903",
+          "x": 83119,
+          "y": -7227,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478547": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478547",
+          "x": 81697,
+          "y": -6513,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575184": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Что-то тут пропущено в общем наборе пунктов. Что-то еще не добавил.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575184",
+          "x": 84115,
+          "y": -5966,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f657569": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f657569",
+          "x": 82503,
+          "y": -5899,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "x": 82832,
+          "y": -5560,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575755": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен какой-то вступительный текст-обзор к теме.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575755",
+          "x": 84045,
+          "y": -6002,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748944": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Тут ситуация?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748944",
+          "x": 85021,
+          "y": -2561,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748944265": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Может быть понадобится сокращенная версия доки?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748944265",
+          "x": 85425,
+          "y": -2587,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490432": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490432",
+          "x": 83103,
+          "y": -5312,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488538": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488538",
+          "x": 82671,
+          "y": -4806,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен поясняющий текст. ",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "x": 82550,
+          "y": -4570,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f648847": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f648847",
+          "x": 82045,
+          "y": -3993,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748168": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748168",
+          "x": 82885,
+          "y": -2939,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748936": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Поясняющий текст нужен. Что это за \"отображение страницы\". Дичь ведь.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748936",
+          "x": 84121,
+          "y": -3091,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748642": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 О слоях яснее нужно.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748642",
+          "x": 82759,
+          "y": -2676,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748187": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748187",
+          "x": 82852,
+          "y": -2610,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748652": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748652",
+          "x": 82921,
+          "y": -2501,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748173": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Опиши отдельным текстом юзкей двух видов сворачивания. ",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748173",
+          "x": 83160,
+          "y": -2390,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748801": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748801",
+          "x": 82260,
+          "y": -2149,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424293": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен вводный текст.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424293",
+          "x": 84055,
+          "y": -2066,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424231": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424231",
+          "x": 82552,
+          "y": -1932,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6528788": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен вводный текст",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6528788",
+          "x": 84020,
+          "y": -1584,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6528785": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6528785",
+          "x": 82182,
+          "y": -1389,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363251": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен общий поясняющий текст",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363251",
+          "x": 84030,
+          "y": -1060,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363337": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363337",
+          "x": 80838,
+          "y": -983,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6853341": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6853341",
+          "x": 80650,
+          "y": -493,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363251148": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен общий поясняющий текст.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363251148",
+          "x": 84011,
+          "y": -572,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647731": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Ситуация каши тут наблюдается.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647731",
+          "x": 85135,
+          "y": -127,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363251148364": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен общий поясняющий текст",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363251148364",
+          "x": 85135,
+          "y": -76,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647882": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 А как его тут правильно расположить?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647882",
+          "x": 85480,
+          "y": -77,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647657": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Как-то написать буквально \"пояснение, примечание, общий текстик, о чем тут\"?",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647657",
+          "x": 85969,
+          "y": -74,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f636325114890": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен общий поясняющий текст.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f636325114890",
+          "x": 83848,
+          "y": 887,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f642822": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Прообраз того общего текстика.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f642822",
+          "x": 82252,
+          "y": 943,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f642250": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Напиши:",
+          "id": "273b4e56-956b-456c-920c-617d983c37f642250",
+          "x": 82686,
+          "y": 1041,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f642171": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Опиши юзкейс, что я подразумеваю под \"оффлайн работой\".",
+          "id": "273b4e56-956b-456c-920c-617d983c37f642171",
+          "x": 83942,
+          "y": 1013,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6436569": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Тут вроде ясно.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6436569",
+          "x": 82959,
+          "y": 1542,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6436239": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Поясни, что это хоткеи браузера",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6436239",
+          "x": 83421,
+          "y": 1704,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f686014": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен ориентирующий текст.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f686014",
+          "x": 84000,
+          "y": 2006,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856578": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен поясняющий текст.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "x": 83919,
+          "y": 2219,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748944946": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен пункт о сохранении новостей.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748944946",
+          "x": 85371,
+          "y": -2541,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f656763": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен вводный текст.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f656763",
+          "x": 83904,
+          "y": 2895,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f656718": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 \"building from github\" - нужно отделить \"скачать из github\" и \"разработка\" - между ними нет жесткой зависимости",
+          "id": "273b4e56-956b-456c-920c-617d983c37f656718",
+          "x": 82766,
+          "y": 2924,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6567925": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужно общее объяснение.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "x": 83284,
+          "y": 3145,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659900": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Нужен текст с пояснением,",
+          "id": "273b4e56-956b-456c-920c-617d983c37f659900",
+          "x": 83980,
+          "y": -8937,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6289": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Нужны примеры подобных программ",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6289",
+          "x": 83103,
+          "y": -9582,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6584": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Нужны ссылки на тему моделирования",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6584",
+          "x": 83112,
+          "y": -9531,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478188": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Краткий текст по контексту.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478188",
+          "x": 83986,
+          "y": -6545,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488336": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Контекст нужен.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488336",
+          "x": 84064,
+          "y": -4081,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6325": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 Некий словарик, список сущностей. Из чего проект состоит. Из чего не состоит.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "x": 83240,
+          "y": -9418,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "18700789-b477-4474-a9d8-a64b504c28f9673431852": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Обновление данных о перемещенных нодах в поиске alt+j",
+          "x": 82607,
+          "y": 17637,
+          "id": "18700789-b477-4474-a9d8-a64b504c28f9673431852",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6176389": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 mm-vis-js представляет собой статический сайт.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6176389",
+          "x": 83139,
+          "y": -9317,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6176389849": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 генерация static сайт",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6176389849",
+          "x": 83792,
+          "y": 2987,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c944896470": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Перевод",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "x": 82124,
+          "y": -10109,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6691": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "//#1 среда разработки (IDE), система компьютерной алгебры (computer algebra system - CAS) и редактор схем",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6691",
+          "x": 81713,
+          "y": -10603,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "6c7b8f67-11af-4e81-9136-10c8ebe205da": {
+          "label": "//#1 No need to install.",
+          "link": "",
+          "x": 82346,
+          "y": -10552,
+          "id": "6c7b8f67-11af-4e81-9136-10c8ebe205da",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "cbb86365-a877-49e1-845c-d11c9f668eca": {
+          "label": "//#1 Не нужна процедура установки, инсталляции на компьютер. Просто открывается в браузере.",
+          "link": "",
+          "x": 82798,
+          "y": -10561,
+          "id": "cbb86365-a877-49e1-845c-d11c9f668eca",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "fd77af04-0b57-4143-944d-0867100f069d": {
+          "label": "//#1 Для автоматического сохранения нужно запустить специальный локальный сервер из директории проекта.",
+          "link": "",
+          "x": 82845,
+          "y": -10537,
+          "id": "fd77af04-0b57-4143-944d-0867100f069d",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "5a755545-32b5-4b6d-9278-52063cc15478": {
+          "label": "//#1 No need to register in online services to edit schemes",
+          "link": "",
+          "x": 82458,
+          "y": -10474,
+          "id": "5a755545-32b5-4b6d-9278-52063cc15478",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "fb98000e-90e8-458e-9c4a-1858e24630df": {
+          "label": "//#1 Не нужно регистрироваться, чтобы пользоваться.",
+          "link": "",
+          "x": 82654,
+          "y": -10435,
+          "id": "fb98000e-90e8-458e-9c4a-1858e24630df",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "5fdbb214-989f-4035-bd11-fff4a79f8f27": {
+          "label": "//#1 Schemes data can be edited from it's text representation",
+          "link": "",
+          "x": 82468,
+          "y": -10401,
+          "id": "5fdbb214-989f-4035-bd11-fff4a79f8f27",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "190ed042-3868-4d5c-84c8-3b585a24791f": {
+          "label": "//#1 Схему можно редактировать из ее текстового представления",
+          "link": "",
+          "x": 82693,
+          "y": -10371,
+          "id": "190ed042-3868-4d5c-84c8-3b585a24791f",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "4777f9d9-9c7f-48ad-bdb3-223146c4d91f": {
+          "label": "//#1 Code (e.q. from github projects) can be converted to mm-vis-js schemes for visual research",
+          "link": "",
+          "x": 82578,
+          "y": -10335,
+          "id": "4777f9d9-9c7f-48ad-bdb3-223146c4d91f",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "6d178e6b-41f0-4eea-ac0f-cbc5c11831fa": {
+          "label": "//#1 Программный код, например, из проектов github, можно автоматически конвертировать в схемы mm-vis-js",
+          "link": "",
+          "x": 82842,
+          "y": -10300,
+          "id": "6d178e6b-41f0-4eea-ac0f-cbc5c11831fa",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "91a74c73-e5da-42c3-a3fc-10563a38da63": {
+          "label": "//#1 Write programs in familiar programming languages and in visual graphs of nodes with code",
+          "link": "",
+          "x": 82577,
+          "y": -10266,
+          "id": "91a74c73-e5da-42c3-a3fc-10563a38da63",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "fa62f63a-bb66-4a12-b453-73ac2d2cf356": {
+          "label": "//#1 Можно писать программы на знакомых программных языках и \"в схемах с нодами этого кода\" (!!!!!!!!!!!!!!)",
+          "link": "",
+          "x": 82838,
+          "y": -10236,
+          "id": "fa62f63a-bb66-4a12-b453-73ac2d2cf356",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "c3a740d6-c5d6-42a9-aa30-2fcd3668f537": {
+          "label": "//#1 Build files with code (like project building in make and maven) from graphs of nodes with code",
+          "link": "",
+          "x": 82585,
+          "y": -10205,
+          "id": "c3a740d6-c5d6-42a9-aa30-2fcd3668f537",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "01826bf4-03b2-408d-a04b-f45340d680a9": {
+          "label": "//#1 Можно строить файлы (наподобие построение проекта с помощью make или maven) из схем с нодами кода (!!!!!!!!)",
+          "link": "",
+          "x": 82873,
+          "y": -10172,
+          "id": "01826bf4-03b2-408d-a04b-f45340d680a9",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "06ceea12-28ff-4277-986a-8281ffbcd8d9": {
+          "label": "//#1 Place books and articles pages as images on mm-vis-js canvas to write nodes with comments and annotations for pages content",
+          "link": "",
+          "x": 82695,
+          "y": -10142,
+          "id": "06ceea12-28ff-4277-986a-8281ffbcd8d9",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "8fe8b361-3793-40c6-af5d-d424339c7c2a": {
+          "label": "//#1 Можно помещать страницы книг и статей в виде иллюстраций на страницы mm-vis-js, чтобы \"писать\" ноды с комментариями и аннотациями к содержанию страниц (!!!!!!!!)",
+          "link": "",
+          "x": 83056,
+          "y": -10108,
+          "id": "8fe8b361-3793-40c6-af5d-d424339c7c2a",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "d1c6bad4-7f4b-4773-9999-3ca38b2859ad": {
+          "label": "//#1 Work online and offline",
+          "link": "",
+          "x": 82361,
+          "y": -10076,
+          "id": "d1c6bad4-7f4b-4773-9999-3ca38b2859ad",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "a95ba742-d2fc-4771-bf0d-b1b52f97dde0": {
+          "label": "//#1 mm-vis-js позволяет работать онлайн и оффлайн",
+          "link": "",
+          "x": 82654,
+          "y": -10045,
+          "id": "a95ba742-d2fc-4771-bf0d-b1b52f97dde0",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "bf489cf2-2b26-47ea-9611-5aea82509b3f": {
+          "label": "//#1 SymPy math integration (CAS like Mathcad). Dynamic LaTeX expressions and matplotlib plots.",
+          "link": "",
+          "x": 82587,
+          "y": -10018,
+          "id": "bf489cf2-2b26-47ea-9611-5aea82509b3f",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "5c9e5b7a-8bb0-4c19-b7ba-3e10b2a3457e": {
+          "label": "//#1 Интеграция с SymPy (система компьютерной алгербы наподобие Mathcad). Динамические выражения LaTeX и графики mathplotlib.",
+          "link": "",
+          "x": 82927,
+          "y": -9985,
+          "id": "5c9e5b7a-8bb0-4c19-b7ba-3e10b2a3457e",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "7f4a75e1-612b-4982-b0ed-c4c0a3c779ad": {
+          "label": "//#1 Run code in nodes on canvas to calculate data and edit schemes on canvas (like scripts in Excel)",
+          "link": "",
+          "x": 82596,
+          "y": -9954,
+          "id": "7f4a75e1-612b-4982-b0ed-c4c0a3c779ad",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "85f21747-2eac-45bb-ba54-29f86bb983ed": {
+          "label": "//#1 Можно выполнять код в нодах на страницах mm-vis-js, для рассчетов (наподобие скриптов Excel) в том числе для изменения схем прямо на странице",
+          "link": "",
+          "x": 82989,
+          "y": -9924,
+          "id": "85f21747-2eac-45bb-ba54-29f86bb983ed",
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6289216": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 VUE",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6289216",
+          "x": 83372,
+          "y": -9581,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6584636": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 https://en.wikipedia.org/wiki/Conceptual_model",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6584636",
+          "x": 83538,
+          "y": -9543,
+          "shape": "box",
+          "link": "https://en.wikipedia.org/wiki/Conceptual_model",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6584673": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 https://ru.wikipedia.org/wiki/Концептуальная_модель",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6584673",
+          "x": 83559,
+          "y": -9515,
+          "shape": "box",
+          "link": "https://ru.wikipedia.org/wiki/Концептуальная_модель",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6325462": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 js-код для всего функционала на странице",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6325462",
+          "x": 83735,
+          "y": -9463,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6325462849": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 html код страницы",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6325462849",
+          "x": 83654,
+          "y": -9432,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6325462849694": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 js-код mvj-server.js - для сохранения и скачивания новостей. Запускается с помощью node.js",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6325462849694",
+          "x": 83901,
+          "y": -9403,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6325462418": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 vis.js библиотека",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6325462418",
+          "x": 83650,
+          "y": -9373,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6422926": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Лежит себе там. Можно скачать. Можно там писать баги, например. И т. п.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6422926",
+          "x": 83198,
+          "y": -9256,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6314131": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 mm-vis-js упирается на библиотеку vis.js. Ссылка на нее. Позволяет то, позволяет се. API имеется. Что еще тут нужно сказать?\nСпасибо большое за открытую библиотеку! Вот.",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6314131",
+          "x": 83330,
+          "y": -9201,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6314138": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Кстати, разрабам vis.js надо написать, чтобы добавили в какой-нибудь свой список проектов на основе vis.js",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6314138",
+          "x": 83269,
+          "y": -9165,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363337b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363337b0",
+          "label": "//#1 Как запустить код из ноды.",
+          "link": "",
+          "x": 81102,
+          "y": -1022,
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363337b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363337b1",
+          "label": "//#1 Как работать с библиотекой vis.js.",
+          "link": "",
+          "x": 81125,
+          "y": -998,
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363337b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363337b2",
+          "label": "//#1 Какой код уже есть на страницах mvj.",
+          "link": "",
+          "x": 81138,
+          "y": -974,
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363337b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363337b3",
+          "label": "//#1 Отладка.",
+          "link": "",
+          "x": 81044,
+          "y": -950,
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363337b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363337b4",
+          "label": "//#1 Приемы работы.",
+          "link": "",
+          "x": 81069,
+          "y": -926,
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6853341b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6853341b1",
+          "label": "//#1 Как оформить проект.",
+          "link": "",
+          "x": 80890,
+          "y": -517,
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6853341b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6853341b2",
+          "label": "//#1 Как собрать проект.",
+          "link": "",
+          "x": 80882,
+          "y": -493,
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6853341b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6853341b4",
+          "label": "//#1 \"Метапрограммирование\"",
+          "link": "",
+          "x": 80904,
+          "y": -465,
+          "shape": "box",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b1",
+          "label": "//#1 Что такое vim.",
+          "link": "",
+          "x": 82746,
+          "y": -4661,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b2",
+          "label": "//#1 Что подразумевается под vim-интерфейс.",
+          "link": "",
+          "x": 82837,
+          "y": -4637,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b3",
+          "label": "//#1 Что это дает, для чего может быть удобно.",
+          "link": "",
+          "x": 82838,
+          "y": -4613,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b4",
+          "label": "//#1 Какие есть примеры, аналоги.",
+          "link": "",
+          "x": 82799,
+          "y": -4589,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b5",
+          "label": "//#1 Ссылка на страницу vim и википедию.",
+          "link": "",
+          "x": 82825,
+          "y": -4565,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b6": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b6",
+          "label": "//#1 Короткий юзкейс с примером работы.",
+          "link": "",
+          "x": 82824,
+          "y": -4541,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b7": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b7",
+          "label": "//#1 О том, что будет знакомо тем, кто пользовался vim, и другим может пригодится.",
+          "link": "",
+          "x": 82962,
+          "y": -4517,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b8": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b8",
+          "label": "//#1 \"Выделить курсором ноду\"",
+          "link": "",
+          "x": 82787,
+          "y": -4493,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b9": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b9",
+          "label": "//#1 \"Выделить несколько нод\"",
+          "link": "",
+          "x": 82785,
+          "y": -4469,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b10": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b10",
+          "label": "//#1 \"Выделить ноды внутри рамки\"",
+          "link": "",
+          "x": 82801,
+          "y": -4445,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488874b11": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488874b11",
+          "label": "//#1 Перемещение \"Нажмите h, j, k, l\"",
+          "link": "",
+          "x": 82808,
+          "y": -4421,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6567925b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6567925b1",
+          "label": "//#1 Поместить в контекст,",
+          "link": "",
+          "x": 83546,
+          "y": 3109,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6567925b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6567925b2",
+          "label": "//#1 сравнить с чем-то.",
+          "link": "",
+          "x": 83535,
+          "y": 3133,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6567925b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6567925b3",
+          "label": "//#1 Описать, что это такое.",
+          "link": "",
+          "x": 83550,
+          "y": 3157,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6567925b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6567925b4",
+          "label": "//#1 Что мы получим в итоге.",
+          "link": "",
+          "x": 83554,
+          "y": 3181,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6567925b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6567925b5",
+          "label": "//#1 Сколько времени займет сборка.",
+          "link": "",
+          "x": 83583,
+          "y": 3205,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6567925b6": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6567925b6",
+          "label": "//#1 Как выглядит продукт - в файлах.",
+          "link": "",
+          "x": 83584,
+          "y": 3229,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6567925b7": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6567925b7",
+          "label": "//#1 Что будет изменено и где.",
+          "link": "",
+          "x": 83560,
+          "y": 3253,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f656763b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f656763b1",
+          "label": "//#1 О разработке кода проекта.",
+          "link": "",
+          "x": 84156,
+          "y": 2854,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f656763b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f656763b2",
+          "label": "//#1 Отдельно о разработке содержания страниц mvj.",
+          "link": "",
+          "x": 84227,
+          "y": 2878,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f656763b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f656763b3",
+          "label": "//#1 Как подготовить проект к заливке.",
+          "link": "",
+          "x": 84176,
+          "y": 2902,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f656763b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f656763b4",
+          "label": "//#1 Нужно объяснение - о сборке проекта с страницы проекта.",
+          "link": "",
+          "x": 84260,
+          "y": 2926,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6619987b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6619987b0",
+          "label": "//#1 Добавил этот пункт из-за автоматического подражания?",
+          "link": "",
+          "x": 83945,
+          "y": 2473,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6619987b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6619987b1",
+          "label": "//#1 Или тут собрать FAQ по диагностике всяких возможных проблем?",
+          "link": "",
+          "x": 83979,
+          "y": 2497,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6619987b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6619987b2",
+          "label": "//#1 \"Если случилось это, то скорее всего из-за того, проверить можно так и так, а исправить - сяк и наперекосяк\"",
+          "link": "",
+          "x": 84120,
+          "y": 2521,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856578b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856578b1",
+          "label": "//#1 Юзкейс, как этим в жизни пользоваться.",
+          "link": "",
+          "x": 84197,
+          "y": 2176,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856578b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856578b2",
+          "label": "//#1 \"день из работы оператора\".",
+          "link": "",
+          "x": 84161,
+          "y": 2200,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856578b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856578b3",
+          "label": "//#1 О пределах размеров файлов.",
+          "link": "",
+          "x": 84168,
+          "y": 2224,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856578b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856578b4",
+          "label": "//#1 О скорости сохранения.",
+          "link": "",
+          "x": 84146,
+          "y": 2248,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856578b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856578b5",
+          "label": "//#1 О торможении при сохранении файла на  FS.",
+          "link": "",
+          "x": 84219,
+          "y": 2272,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856578b6": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856578b6",
+          "label": "//#1 О бэкапах.",
+          "link": "",
+          "x": 84102,
+          "y": 2296,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856578b7": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856578b7",
+          "label": "//#1 О внимании - чтобы не перетереть данные.",
+          "link": "",
+          "x": 84211,
+          "y": 2320,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6856578b8": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6856578b8",
+          "label": "//#1 О сохранении лент новостей тоже ведь сюда?",
+          "link": "",
+          "x": 84219,
+          "y": 2344,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f686014b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f686014b1",
+          "label": "//#1 Что это за настройки.",
+          "link": "",
+          "x": 84256,
+          "y": 1955,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f686014b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f686014b2",
+          "label": "//#1 По отношению к проекту. Сходство с подобными проектами - для сравнения.",
+          "link": "",
+          "x": 84441,
+          "y": 1979,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f686014b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f686014b3",
+          "label": "//#1 Настройки интерфейса страницы.",
+          "link": "",
+          "x": 84299,
+          "y": 2003,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f686014b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f686014b4",
+          "label": "//#1 Настройки mvj-code.js.",
+          "link": "",
+          "x": 84261,
+          "y": 2027,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f686014b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f686014b5",
+          "label": "//#1 Настройки mvj-serv.js.",
+          "link": "",
+          "x": 84258,
+          "y": 2051,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f643649b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f643649b0",
+          "label": "//#1 Напиши, что это за горячие клавиши.",
+          "link": "",
+          "x": 83857,
+          "y": 1434,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f643649b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f643649b1",
+          "label": "//#1 Они используются (?) на страницах mm-vis-js.",
+          "link": "",
+          "x": 84226,
+          "y": 1433,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f643649b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f643649b2",
+          "label": "//#1 Нужен пункт о добавлении новых хоткеев.",
+          "link": "",
+          "x": 83876,
+          "y": 1472,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f643649b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f643649b3",
+          "label": "//#1 И пункт - где смотреть в коде основной список.",
+          "link": "",
+          "x": 83889,
+          "y": 1506,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6436239b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6436239b1",
+          "label": "//#1 По хорошему нужно так и сделать отдельный уровень \"Хоткеи браузера\" с пояснением, об использовании тех и тех хоткеев на странице.",
+          "link": "",
+          "x": 84065,
+          "y": 1697,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6436569b1b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6436569b1b0",
+          "label": "//#1 Нужен только отельный корень-список для списка нод о хоткеях.",
+          "link": "",
+          "x": 83293,
+          "y": 1549,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f642250b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f642250b1",
+          "label": "//#1 В какую директорию.",
+          "link": "",
+          "x": 82883,
+          "y": 1026,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f642250b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f642250b2",
+          "label": "//#1 Зачем нужен каждый файл.",
+          "link": "",
+          "x": 82905,
+          "y": 1050,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f642250b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f642250b3",
+          "label": "//#1 Для файлов отдельный корень-список.",
+          "link": "",
+          "x": 82942,
+          "y": 1074,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f642250b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f642250b4",
+          "label": "//#1 Где взять эти файлы, если это внешние библиотеки.",
+          "link": "",
+          "x": 82986,
+          "y": 1098,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f636325114890b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f636325114890b1",
+          "label": "//#1 Поместить в контекст.",
+          "link": "",
+          "x": 84110,
+          "y": 865,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f636325114890b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f636325114890b2",
+          "label": "//#1 Чтобы было с чем сравнить.",
+          "link": "",
+          "x": 84131,
+          "y": 889,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f636325114890b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f636325114890b3",
+          "label": "//#1 Поместить в сцену.",
+          "link": "",
+          "x": 84101,
+          "y": 913,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f636325114890b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f636325114890b4",
+          "label": "//#1 Чтобы было с чем сравнить.",
+          "link": "",
+          "x": 84131,
+          "y": 937,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f636325114890b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f636325114890b5",
+          "label": "//#1 Плюсы и минусы.",
+          "link": "",
+          "x": 84096,
+          "y": 961,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647380317": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "red",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "//#1 Детали",
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647380317",
+          "x": 83889,
+          "y": -107,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "",
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647380b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647380b0",
+          "label": "//#1 Сохранение и загрузка чего?",
+          "link": "",
+          "x": 84129,
+          "y": -190,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647380b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647380b1",
+          "label": "//#1 Что именно мы сохраняем? Какую штуку?",
+          "link": "",
+          "x": 84172,
+          "y": -166,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647380b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647380b2",
+          "label": "//#1 Куда мы эту штуку сохраняем?",
+          "link": "",
+          "x": 84135,
+          "y": -142,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647380b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647380b3",
+          "label": "//#1 Ярко пропиши, что localStorage не используется.",
+          "link": "",
+          "x": 84194,
+          "y": -118,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647380b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647380b4",
+          "label": "//#1 Доку о localStorage можно убрать в tmp.html.",
+          "link": "",
+          "x": 84180,
+          "y": -94,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647380b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647380b5",
+          "label": "//#1 И убери, кстати, в showData кнопку save.",
+          "link": "",
+          "x": 84168,
+          "y": -70,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6647380b6": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6647380b6",
+          "label": "//#1 Вариантам сохранения сразу в нодах вариантов пропиши короткое имя-объяснение.",
+          "link": "",
+          "x": 84315,
+          "y": -46,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363251148b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363251148b1",
+          "label": "//#1 Концептуальное пояснение.",
+          "link": "",
+          "x": 84280,
+          "y": -594,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363251148b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363251148b2",
+          "label": "//#1 Поместить в контекст, в общую сцену.",
+          "link": "",
+          "x": 84311,
+          "y": -570,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363251148b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363251148b3",
+          "label": "//#1 Чтобы было с чем сравнить.",
+          "link": "",
+          "x": 84280,
+          "y": -546,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363251148b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363251148b4",
+          "label": "//#1 На что это похоже.",
+          "link": "",
+          "x": 84248,
+          "y": -522,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6363251148b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6363251148b5",
+          "label": "//#1 Плюсы и минусы.",
+          "link": "",
+          "x": 84245,
+          "y": -498,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6528785b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6528785b1",
+          "label": "//#1 Ссылки на то, что уже есть. Как примеры.",
+          "link": "",
+          "x": 82445,
+          "y": -1402,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6528785b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6528785b2",
+          "label": "//#1 Как пользоваться mvj-code.js - юзкейс.",
+          "link": "",
+          "x": 82434,
+          "y": -1378,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424231b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424231b0",
+          "label": "//#1 О поддержке regex.",
+          "link": "",
+          "x": 82765,
+          "y": -1978,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424231b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424231b1",
+          "label": "//#1 И поправь немного текст.",
+          "link": "",
+          "x": 82783,
+          "y": -1954,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424231b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424231b2",
+          "label": "//#1 Еще о том, что поиск последний сохраняется в памяти до перегрузки страницы.",
+          "link": "",
+          "x": 82965,
+          "y": -1930,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424231b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424231b3",
+          "label": "//#1 И о сбросе последнего поиска.",
+          "link": "",
+          "x": 82803,
+          "y": -1906,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424231b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424231b4",
+          "label": "//#1 О коде поисковом. Как пользоваться - js.",
+          "link": "",
+          "x": 82834,
+          "y": -1882,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748801b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748801b0",
+          "label": "//#1 Тут чуть подробнее напиши. ",
+          "link": "",
+          "x": 82486,
+          "y": -2167,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748801b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748801b1",
+          "label": "//#1 Включение и выключение полноэкранного режима.",
+          "link": "",
+          "x": 82560,
+          "y": -2143,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424293b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424293b1",
+          "label": "//#1 Какой-то юзкейс. Как это все работает.",
+          "link": "",
+          "x": 84355,
+          "y": -2074,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424293b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424293b2",
+          "label": "//#1 О том что ищем по текстам нод.",
+          "link": "",
+          "x": 84335,
+          "y": -2050,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6424293b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6424293b3",
+          "label": "//#1 Поиска по текстам связей пока нет.",
+          "link": "",
+          "x": 84345,
+          "y": -2026,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748173b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748173b1",
+          "label": "//#1 Что дают?",
+          "link": "",
+          "x": 83470,
+          "y": -2387,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748187b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748187b0",
+          "label": "//#1 Где прописывается исходный вид загрузки страницы.",
+          "link": "",
+          "x": 83297,
+          "y": -2626,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748187b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748187b1",
+          "label": "//#1 О alt+h",
+          "link": "",
+          "x": 83144,
+          "y": -2602,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748652b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748652b0",
+          "label": "//#1 На самом деле очень большой раздел.",
+          "link": "",
+          "x": 83179,
+          "y": -2543,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748652b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748652b1",
+          "label": "//#1 Тут и скролл на странице, и скролл мышкой. И vim-скролл.",
+          "link": "",
+          "x": 83243,
+          "y": -2519,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748652b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748652b2",
+          "label": "//#1 Собери тут разные функции \"прыжков\".",
+          "link": "",
+          "x": 83180,
+          "y": -2495,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748652b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748652b3",
+          "label": "//#1 В том числе использования alt+j.",
+          "link": "",
+          "x": 83158,
+          "y": -2471,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748652b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748652b4",
+          "label": "//#1 О ссылках на участки страницы.",
+          "link": "",
+          "x": 83156,
+          "y": -2447,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748652b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748652b5",
+          "label": "//#1 Этот раздел, может быть, поднять уровнем выше? Или другие сделать ниже?",
+          "link": "",
+          "x": 83304,
+          "y": -2423,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748168b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748168b0",
+          "label": "//#1 \"Ссылка на участок на странице.\"",
+          "link": "",
+          "x": 83081,
+          "y": -2964,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748168b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748168b1",
+          "label": "//#1 Функция для генерации такой ссылки.",
+          "link": "",
+          "x": 83096,
+          "y": -2940,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6748168b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6748168b2",
+          "label": "//#1 Остальные подробности поставь уровнем ниже, чтобы не путать.",
+          "link": "",
+          "x": 83185,
+          "y": -2916,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f648847b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f648847b0",
+          "label": "//#1 Как добавить изображение в ноду.",
+          "link": "",
+          "x": 82245,
+          "y": -4053,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f648847b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f648847b1",
+          "label": "//#1 Ссылка на доку в vis.js о настройках отображения иллюстраций.",
+          "link": "",
+          "x": 82345,
+          "y": -4029,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f648847b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f648847b2",
+          "label": "//#1 О работе в меню showData.",
+          "link": "",
+          "x": 82224,
+          "y": -4005,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f648847b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f648847b3",
+          "label": "//#1 О втором слое специально для нод с иллюстрациями.",
+          "link": "",
+          "x": 82312,
+          "y": -3981,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f648847b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f648847b4",
+          "label": "//#1 О синхронизации второго слоя.",
+          "link": "",
+          "x": 82236,
+          "y": -3957,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f648847b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f648847b5",
+          "label": "//#1 О положении данных второго слоя в json.",
+          "link": "",
+          "x": 82269,
+          "y": -3933,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f648847b6": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f648847b6",
+          "label": "//#1 О работе с скриншотами текстов, книг.",
+          "link": "",
+          "x": 82258,
+          "y": -3909,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488336b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488336b1",
+          "label": "//#1 Рамки - где могут быть иллюстрации, где - нет.",
+          "link": "",
+          "x": 84344,
+          "y": -4112,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488336b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488336b2",
+          "label": "//#1 О торможении страницы, когда много иллюстраций.",
+          "link": "",
+          "x": 84363,
+          "y": -4088,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488336b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488336b3",
+          "label": "//#1 О том, что внешний сервер должен поддерживать  параметры \"отдачи\" иллюстраций, чтобы их можно было встроить.",
+          "link": "",
+          "x": 84579,
+          "y": -4064,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488336b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488336b4",
+          "label": "//#1 О хранении и выводе  локальных иллюстраций.",
+          "link": "",
+          "x": 84349,
+          "y": -4040,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488538b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488538b0",
+          "label": "//#1 Добавь о выделении кликом с контролом и рамкой.",
+          "link": "",
+          "x": 82949,
+          "y": -4838,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488538b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488538b1",
+          "label": "//#1 Плюс о хоткее напиши.",
+          "link": "",
+          "x": 82856,
+          "y": -4814,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488538b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488538b2",
+          "label": "//#1 Начни \"Чтобы выравнить по левому краю....\".",
+          "link": "",
+          "x": 82928,
+          "y": -4790,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6488538b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6488538b3",
+          "label": "//#1 Пока есть функция выравнивания только по левому краю.",
+          "link": "",
+          "x": 82971,
+          "y": -4766,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490432b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490432b0",
+          "label": "//#1 Перепиши \"работает иначе\".",
+          "link": "",
+          "x": 83324,
+          "y": -5330,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490432b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490432b1",
+          "label": "//#1 \"Копировать ноды\" - перепиши - ничерта непонятно.",
+          "link": "",
+          "x": 83403,
+          "y": -5306,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422b0",
+          "label": "//#1 Нужно какое-то поясненение - что такое \"сдублировать выделенное\". Или совершенно ясно?",
+          "link": "",
+          "x": 83309,
+          "y": -5637,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422b1",
+          "label": "//#1 О выделении курсором с ctrl.",
+          "link": "",
+          "x": 83097,
+          "y": -5613,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422b2",
+          "label": "//#1 \"процесс дублирования больших схем может идти несколько секунд. Страница будет заморожена, нужно подождать.\"",
+          "link": "",
+          "x": 83389,
+          "y": -5589,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422b3",
+          "label": "//#1 На страницах с множеством нод и связей дублирование тоже будет медленнее.",
+          "link": "",
+          "x": 83264,
+          "y": -5565,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422b4",
+          "label": "//#1 - После нажатия произойдет дублирование. Появится копия выделенного.",
+          "link": "",
+          "x": 83246,
+          "y": -5541,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422b5",
+          "label": "//#1 Выделение исходных нод и связей будет сброшено.",
+          "link": "",
+          "x": 83172,
+          "y": -5517,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422b6": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422b6",
+          "label": "//#1 Выделенной будет уже копия.",
+          "link": "",
+          "x": 83099,
+          "y": -5493,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422b7": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422b7",
+          "label": "//#1 Если сбросите выделение с сдублированного - может быть трудно его потом выделить опять и перетащить. Поэтому надо быть тут внимательнее.",
+          "link": "",
+          "x": 83484,
+          "y": -5469,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6575422b8": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6575422b8",
+          "label": "//#1 Стоит сохраниться перед дублированием крупных схем.",
+          "link": "",
+          "x": 83187,
+          "y": -5445,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f657569b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f657569b0",
+          "label": "//#1 Выделить левым кликом, удерживая Ctrl. Еще запятую проверь.",
+          "link": "",
+          "x": 82803,
+          "y": -5924,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f657569b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f657569b1",
+          "label": "//#1 Еще о выделении с помощью u.",
+          "link": "",
+          "x": 82698,
+          "y": -5900,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f657569b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f657569b2",
+          "label": "//#1 О выделении кодом?",
+          "link": "",
+          "x": 82662,
+          "y": -5876,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478547b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478547b0",
+          "label": "//#1 FAQ",
+          "link": "",
+          "x": 82165,
+          "y": -6565,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478547b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478547b1",
+          "label": "//#1 Нужно собрать инфу обо всем этом.",
+          "link": "",
+          "x": 81954,
+          "y": -6535,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478547b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478547b2",
+          "label": "//#1 О стилях нод в доках vis.js",
+          "link": "",
+          "x": 82328,
+          "y": -6597,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478547b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478547b3",
+          "label": "//#1 О настройке стилей в меню слева.",
+          "link": "",
+          "x": 82355,
+          "y": -6573,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478547b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478547b4",
+          "label": "//#1 О настройке стилей в showData.",
+          "link": "",
+          "x": 82347,
+          "y": -6549,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478547b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478547b5",
+          "label": "//#1 Настройка стилей связей только через showData.",
+          "link": "",
+          "x": 82403,
+          "y": -6525,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478188b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478188b1",
+          "label": "//#1 Что подразумевается под стилями.",
+          "link": "",
+          "x": 84286,
+          "y": -6553,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478188b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478188b2",
+          "label": "//#1 Что имеет стили, что нет.",
+          "link": "",
+          "x": 84253,
+          "y": -6529,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6478188b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6478188b3",
+          "label": "//#1 Для чего нужны стили.",
+          "link": "",
+          "x": 84244,
+          "y": -6505,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6594903b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6594903b0",
+          "label": "//#1 Тут нужно яснее написать сразу. Что за ссылки. Где находятся. Что с их помощью можно делать.",
+          "link": "",
+          "x": 83521,
+          "y": -7267,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6594903b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6594903b1",
+          "label": "//#1 Прямо такой маленький FAQ?",
+          "link": "",
+          "x": 83301,
+          "y": -7243,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6594903b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6594903b2",
+          "label": "//#1 Как работает механизм вывода локальных ресурсов.",
+          "link": "",
+          "x": 83375,
+          "y": -7219,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6594903b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6594903b3",
+          "label": "//#1 Как он настраивается?",
+          "link": "",
+          "x": 83276,
+          "y": -7195,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f6594903b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f6594903b4",
+          "label": "//#1 Наверное, \"Как открыть ссылку ноды\"",
+          "link": "",
+          "x": 83324,
+          "y": -7171,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490394b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490394b0",
+          "label": "//#1 Тут узловую ноду надо бы поправить. Непонятно.",
+          "link": "",
+          "x": 83681,
+          "y": -7645,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490394b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490394b1",
+          "label": "//#1 И нужен еще поясняющй текст - о чем речь.",
+          "link": "",
+          "x": 83663,
+          "y": -7621,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490394b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490394b2",
+          "label": "//#1 \"При загрузке страницы\" - что, чего, куда - непонятно.",
+          "link": "",
+          "x": 83694,
+          "y": -7597,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490394b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490394b3",
+          "label": "//#1 \"Меню showData\" - где находится, как включается, выключается. У некоторых страниц открыто, у других нет. ",
+          "link": "",
+          "x": 83876,
+          "y": -7573,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490394b4": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490394b4",
+          "label": "//#1 Где прописывается - открывать ли его при загрузке страницы.",
+          "link": "",
+          "x": 83721,
+          "y": -7549,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490394b5": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490394b5",
+          "label": "//#1 В общем, тут много.",
+          "link": "",
+          "x": 83583,
+          "y": -7525,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490346b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490346b0",
+          "label": "//#1 \"Про очень удобная\" как-то перепиши. Или убрать в конец списка?",
+          "link": "",
+          "x": 83302,
+          "y": -7881,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490346b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490346b1",
+          "label": "//#1 О выделении еще укажи, что выделяем кликами с нажатым Ctrl",
+          "link": "",
+          "x": 83291,
+          "y": -7857,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490346b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490346b2",
+          "label": "//#1 \"Крайняя слева из всех выделенных\".",
+          "link": "",
+          "x": 83205,
+          "y": -7833,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490346b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490346b3",
+          "label": "//#1 \"Соединятся с ней связями\" - как-то надо переписать. Сочетаются с ней браком.",
+          "link": "",
+          "x": 83348,
+          "y": -7809,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490126b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490126b0",
+          "label": "//#1 Напиши, где находится эта кнопка. И о том, что надо выделить две ноды.",
+          "link": "",
+          "x": 83321,
+          "y": -8077,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490126b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490126b1",
+          "label": "//#1 О втором варианте подробнее. Двойной клик на свободном участке страницы. Потом клик по первой ноде, не отпуская кнопки мыши, появляется значок создания связи, перетаскиваем его на вторую ноду и отпускаем кнопку мыши. Между нодами появится связь.",
+          "link": "",
+          "x": 83948,
+          "y": -8053,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490126b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490126b2",
+          "label": "//#1 Для третьего варианта добавь, что так можно соединять больше двух нод.",
+          "link": "",
+          "x": 83324,
+          "y": -8029,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490528b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490528b0",
+          "label": "//#1 Перепиши \"При клике по ноде...\" - каша. \"Чтобы изменить ноду, ...\"",
+          "link": "",
+          "x": 83295,
+          "y": -8298,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490528b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490528b1",
+          "label": "//#1 Для кнопок save и close напиши подробнее. Где находятся эти кнопки.",
+          "link": "",
+          "x": 83308,
+          "y": -8274,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490528b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490528b2",
+          "label": "//#1 \"Сохранить изменения в ноде, которые вы внесли...\" что - такое.",
+          "link": "",
+          "x": 83288,
+          "y": -8250,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490571b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490571b0",
+          "label": "//#1 Напиши подробнее. \"Чтобы создать ноду, нажмите кнопку \"Add node\" в верхнем меню...\".",
+          "link": "",
+          "x": 83363,
+          "y": -8445,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490571b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490571b1",
+          "label": "//#1 Подробнее: \"Двойной клик и затем одинарный клик по странице в точке, куда надо поставить новую ноду\"",
+          "link": "",
+          "x": 83418,
+          "y": -8421,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490787b0": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490787b0",
+          "label": "//#1 Напиши подробнее - \"Закрывая вкладку браузера мы закрываем и страницу\".",
+          "link": "",
+          "x": 83348,
+          "y": -8631,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490787b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490787b1",
+          "label": "//#1 Тут надо подумать.",
+          "link": "",
+          "x": 83155,
+          "y": -8607,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659490787b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659490787b2",
+          "label": "//#1 \"Перед этим\" - напиши подробнее. Что \"перед этим\".",
+          "link": "",
+          "x": 83266,
+          "y": -8583,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659900b1": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659900b1",
+          "label": "//#1 что подразумевается под моделированием.",
+          "link": "",
+          "x": 84280,
+          "y": -8945,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659900b2": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659900b2",
+          "label": "//#1 Нужны ссылки на ресурсы и книги.",
+          "link": "",
+          "x": 84250,
+          "y": -8921,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "273b4e56-956b-456c-920c-617d983c37f659900b3": {
+          "id": "273b4e56-956b-456c-920c-617d983c37f659900b3",
+          "label": "//#1 Нужны примеры подобных программ.",
+          "link": "",
+          "x": 84261,
+          "y": -8897,
+          "font": {
+            "size": 14
+          },
+          "color": {
+            "background": "red"
+          },
+          "hidden": true
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c159541833": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "URL ссылка\nна ноду\nна странице",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c159541833",
+          "x": 81146,
+          "y": -3119,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "55b732e4-7423-46c4-9795-f2a15238950c159541257": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "?nodeLabel=mm-vis-js%20save&nodeFontSize=72&nodeColor=red",
+          "id": "55b732e4-7423-46c4-9795-f2a15238950c159541257",
+          "x": 81789,
+          "y": -3119,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -47896,43 +55037,6 @@ var schemeData =
           "from": "92deda2e-f34f-4a13-941f-3e76f04c4bde856673431159",
           "to": "56e6d52f-eb95-45fc-98f4-0163b5006455856673431159"
         },
-        "401f5533-2006-44f9-9d1e-4ba7bc41f0eb856673431159": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "401f5533-2006-44f9-9d1e-4ba7bc41f0eb856673431159",
-          "from": "02196ab4-9960-4540-81fd-4625f8dc43b2856673431159",
-          "to": "954369db-66b6-4e97-be9f-5a0e6febd275856673431159"
-        },
         "88dbdc23-87a0-44ca-9b08-a0e2f3887901856673431159": {
           "arrows": {
             "to": {
@@ -48524,43 +55628,6 @@ var schemeData =
           "id": "508d2f4d-93e4-47d6-bd19-c6a050addb9a856673431159",
           "from": "56e6d52f-eb95-45fc-98f4-0163b5006455856673431159",
           "to": "c666fa8f-75f7-43f7-a927-6b367c80c362856673431159"
-        },
-        "9d05bad7-16de-4718-b1b8-455d106ab0af856673431159": {
-          "arrows": {
-            "to": {
-              "enabled": false
-            },
-            "middle": {
-              "enabled": false
-            },
-            "from": {
-              "enabled": false
-            }
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "background": {
-            "enabled": false
-          },
-          "smooth": {
-            "enabled": false
-          },
-          "id": "9d05bad7-16de-4718-b1b8-455d106ab0af856673431159",
-          "from": "954369db-66b6-4e97-be9f-5a0e6febd275856673431159",
-          "to": "30bfd8ec-c4c8-4688-8112-87a94a4e2ac4856673431159"
         },
         "4f3f8a79-3a4f-4200-bbf4-d8c594b10e22856673431159": {
           "arrows": {
@@ -55957,6 +63024,7140 @@ var schemeData =
           "from": "add36ac8-073d-467e-bdef-3ab4b904ed63",
           "to": "55b732e4-7423-46c4-9795-f2a15238950c15969",
           "id": "b365baf8-308c-41e4-9f66-762a815f30f6"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941348": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941348",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941348",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941348"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941348": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941348",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941348",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941348"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8348": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8348",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6348",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941348"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941845": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941845",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941845",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941845"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941845": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941845",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941845",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941845"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8845": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8845",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6845",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941845"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb1086449794172": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb1086449794172",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b94172",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b94172"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af94172": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af94172",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b94172",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c394172"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb872": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb872",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a672",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b94172"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941476": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941476",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941476",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941476"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941476": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941476",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941476",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941476"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8476": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8476",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6476",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941476"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941972": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941972",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941972",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941972"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941972": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941972",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941972",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941972"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8972": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8972",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6972",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941972"
+        },
+        "d6ba7f5a-4a64-4313-9a11-2ca21ee38397": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941476",
+          "to": "954369db-66b6-4e97-be9f-5a0e6febd275856673431159",
+          "id": "d6ba7f5a-4a64-4313-9a11-2ca21ee38397"
+        },
+        "d27b9b8f-8e25-4e1c-9fc9-c237361d1a4b": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941476",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941348",
+          "id": "d27b9b8f-8e25-4e1c-9fc9-c237361d1a4b"
+        },
+        "09eb164e-a231-4a44-ba4f-a23d42e91370": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941476",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941845",
+          "id": "09eb164e-a231-4a44-ba4f-a23d42e91370"
+        },
+        "44102998-61b0-4c29-b4a7-38b630fea512": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941476",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b94172",
+          "id": "44102998-61b0-4c29-b4a7-38b630fea512"
+        },
+        "53f74a1a-a4a1-4149-b972-d267f369154e": {
+          "from": "02196ab4-9960-4540-81fd-4625f8dc43b2856673431159",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941476",
+          "id": "53f74a1a-a4a1-4149-b972-d267f369154e"
+        },
+        "a736b12e-d637-4e45-8a08-b9fe12dc936d": {
+          "from": "02196ab4-9960-4540-81fd-4625f8dc43b2856673431159",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941972",
+          "id": "a736b12e-d637-4e45-8a08-b9fe12dc936d"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941197": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941197",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941197",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941197"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941197": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941197",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941197",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941197"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8197": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8197",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6197",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941197"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941195": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941195",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941195",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941195"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941195": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941195",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941195",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941195"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8195": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8195",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6195",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941195"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941598": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941598",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941598",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941598"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941598": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941598",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941598",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941598"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8598": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8598",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6598",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941598"
+        },
+        "dc6f10d8-cd53-4cc3-89a4-d0b732085463": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941972",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941197",
+          "id": "dc6f10d8-cd53-4cc3-89a4-d0b732085463"
+        },
+        "19522811-4d9a-4027-96e6-cae14989e614": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941972",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941195",
+          "id": "19522811-4d9a-4027-96e6-cae14989e614"
+        },
+        "3bac944e-7d4c-4803-b66a-ede7f12622c2": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941972",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941598",
+          "id": "3bac944e-7d4c-4803-b66a-ede7f12622c2"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941782": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941782",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941782",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941782"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941782": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941782",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941782",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941782"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8782": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8782",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6782",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941782"
+        },
+        "9cae0cdb-49f4-435c-9d6c-d92626a49082": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941972",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941782",
+          "id": "9cae0cdb-49f4-435c-9d6c-d92626a49082"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941464": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941464",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941464",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941464"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941464": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941464",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941464",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941464"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8464": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8464",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6464",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941464"
+        },
+        "80dbf674-b774-4917-ad49-acc100dfeabc": {
+          "from": "02196ab4-9960-4540-81fd-4625f8dc43b2856673431159",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941464",
+          "id": "80dbf674-b774-4917-ad49-acc100dfeabc"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941173": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941173",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941173",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941173"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941173": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941173",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941173",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941173"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8173": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8173",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6173",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941173"
+        },
+        "d6ba7f5a-4a64-4313-9a11-2ca21ee38397822": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d6ba7f5a-4a64-4313-9a11-2ca21ee38397822",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941476822",
+          "to": "954369db-66b6-4e97-be9f-5a0e6febd275856673431159822"
+        },
+        "b6e7d709-82ed-4bec-ade6-f3fb10864497941290": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "b6e7d709-82ed-4bec-ade6-f3fb10864497941290",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941290",
+          "to": "1e949fa4-5677-4fab-abed-73e315ca553b941290"
+        },
+        "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941290": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0fce1f9f-aa8b-4f3a-b174-bf84aa0870af941290",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941290",
+          "to": "a1101019-fcce-486d-9881-9ef1c5eb14c3941290"
+        },
+        "c65b045f-683d-42a3-853d-c5410e3dafb8290": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c65b045f-683d-42a3-853d-c5410e3dafb8290",
+          "from": "24e6190d-b0d2-46df-92ac-01eca35127a6290",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941290"
+        },
+        "7e708cce-0bff-49ad-84a0-c6dacb5825ba": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941464",
+          "to": "954369db-66b6-4e97-be9f-5a0e6febd275856673431159822",
+          "id": "7e708cce-0bff-49ad-84a0-c6dacb5825ba"
+        },
+        "efabe8a9-d5d6-4349-aeea-c2b963fd6a58": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941464",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b941290",
+          "id": "efabe8a9-d5d6-4349-aeea-c2b963fd6a58"
+        },
+        "44102998-61b0-4c29-b4a7-38b630fea512802": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "44102998-61b0-4c29-b4a7-38b630fea512802",
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941476802",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b94172802"
+        },
+        "9ea0b576-e1b1-4a1f-9197-b61354e94887": {
+          "from": "06cd960b-5317-451a-a91f-1341bca7dd6b941464",
+          "to": "06cd960b-5317-451a-a91f-1341bca7dd6b94172802",
+          "id": "9ea0b576-e1b1-4a1f-9197-b61354e94887"
+        },
+        "0d754457-66fa-4e10-b8f9-c118b2e40b84505": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "0d754457-66fa-4e10-b8f9-c118b2e40b84505",
+          "from": "e4db86dc-c56d-4aae-9d39-ce65276c9e21941505",
+          "to": "2bb5f8da-7c28-4a79-8ccb-1bec4eac4f29856673431159505"
+        },
+        "2291d34c-19e1-48bc-8d38-55c0f902f44e": {
+          "from": "e4db86dc-c56d-4aae-9d39-ce65276c9e21941",
+          "to": "2bb5f8da-7c28-4a79-8ccb-1bec4eac4f29856673431159505",
+          "id": "2291d34c-19e1-48bc-8d38-55c0f902f44e"
+        },
+        "6d3c63b9-0c2f-4afe-8a22-bc49a24c119228": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6d3c63b9-0c2f-4afe-8a22-bc49a24c119228",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c15992028",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954128"
+        },
+        "6d3c63b9-0c2f-4afe-8a22-bc49a24c1192465": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6d3c63b9-0c2f-4afe-8a22-bc49a24c1192465",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159920465",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c159541465"
+        },
+        "6d3c63b9-0c2f-4afe-8a22-bc49a24c119239": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6d3c63b9-0c2f-4afe-8a22-bc49a24c119239",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c15992039",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954139"
+        },
+        "cf88bc96-7c0f-4b05-b740-5856385a4936": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c15954139",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c159541465652",
+          "id": "cf88bc96-7c0f-4b05-b740-5856385a4936"
+        },
+        "d8a2bac2-2c2c-494b-a87e-741f0bcce9bd": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c15954128",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c159541465",
+          "id": "d8a2bac2-2c2c-494b-a87e-741f0bcce9bd"
+        },
+        "eacb84be-4e41-450e-af71-98de52af761c": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159541",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954128",
+          "id": "eacb84be-4e41-450e-af71-98de52af761c"
+        },
+        "67854322-bdfd-4fee-85d5-b219285ed3cd": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159541",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954139",
+          "id": "67854322-bdfd-4fee-85d5-b219285ed3cd"
+        },
+        "6d3c63b9-0c2f-4afe-8a22-bc49a24c1192808": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6d3c63b9-0c2f-4afe-8a22-bc49a24c1192808",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159920808",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c159541808"
+        },
+        "eacb84be-4e41-450e-af71-98de52af761c808": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "eacb84be-4e41-450e-af71-98de52af761c808",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159541808",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954128808"
+        },
+        "67854322-bdfd-4fee-85d5-b219285ed3cd808": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "67854322-bdfd-4fee-85d5-b219285ed3cd808",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159541808",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954139808"
+        },
+        "b973e45d-7606-47be-90ee-6d280a2bdd81": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c15954128",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c159541808",
+          "id": "b973e45d-7606-47be-90ee-6d280a2bdd81"
+        },
+        "8d92ff2d-d051-4dcb-bc2a-bab9283f17d839": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8d92ff2d-d051-4dcb-bc2a-bab9283f17d839",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c8539",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c90739"
+        },
+        "1b1cef4b-155a-4d0d-8e7e-15ff1288b17a39": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "1b1cef4b-155a-4d0d-8e7e-15ff1288b17a39",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c8539",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c8511439"
+        },
+        "d0084c05-10e8-45c5-a505-c04e680fb1a839": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d0084c05-10e8-45c5-a505-c04e680fb1a839",
+          "from": "92deda2e-f34f-4a13-941f-3e76f04c4bde85667343115939",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c8539"
+        },
+        "8d92ff2d-d051-4dcb-bc2a-bab9283f17d8765": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8d92ff2d-d051-4dcb-bc2a-bab9283f17d8765",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c85765",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c907765"
+        },
+        "1b1cef4b-155a-4d0d-8e7e-15ff1288b17a765": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "1b1cef4b-155a-4d0d-8e7e-15ff1288b17a765",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c85765",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c85114765"
+        },
+        "d0084c05-10e8-45c5-a505-c04e680fb1a8765": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d0084c05-10e8-45c5-a505-c04e680fb1a8765",
+          "from": "92deda2e-f34f-4a13-941f-3e76f04c4bde856673431159765",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c85765"
+        },
+        "8d92ff2d-d051-4dcb-bc2a-bab9283f17d8217": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8d92ff2d-d051-4dcb-bc2a-bab9283f17d8217",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c85217",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c907217"
+        },
+        "1b1cef4b-155a-4d0d-8e7e-15ff1288b17a217": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "1b1cef4b-155a-4d0d-8e7e-15ff1288b17a217",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c85217",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c85114217"
+        },
+        "d0084c05-10e8-45c5-a505-c04e680fb1a8217": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d0084c05-10e8-45c5-a505-c04e680fb1a8217",
+          "from": "92deda2e-f34f-4a13-941f-3e76f04c4bde856673431159217",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c85217"
+        },
+        "8d92ff2d-d051-4dcb-bc2a-bab9283f17d8694": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8d92ff2d-d051-4dcb-bc2a-bab9283f17d8694",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c85694",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c907694"
+        },
+        "1b1cef4b-155a-4d0d-8e7e-15ff1288b17a694": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "1b1cef4b-155a-4d0d-8e7e-15ff1288b17a694",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c85694",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c85114694"
+        },
+        "d0084c05-10e8-45c5-a505-c04e680fb1a8694": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d0084c05-10e8-45c5-a505-c04e680fb1a8694",
+          "from": "92deda2e-f34f-4a13-941f-3e76f04c4bde856673431159694",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c85694"
+        },
+        "a9aa880a-2f80-4896-a15a-e9c573e5b39a159261": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "a9aa880a-2f80-4896-a15a-e9c573e5b39a159261",
+          "from": "20327694-20c0-46cf-b009-72a4581a6703159261",
+          "to": "a8ce251c-eb6c-4aa9-b262-8c5197dfadac159261"
+        },
+        "ac4fafa7-7c6a-4d7d-a966-aed2b47acbb5261": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ac4fafa7-7c6a-4d7d-a966-aed2b47acbb5261",
+          "from": "9d82cbca-1037-42c1-8d56-04f10f534b37261",
+          "to": "20327694-20c0-46cf-b009-72a4581a6703159261"
+        },
+        "a9aa880a-2f80-4896-a15a-e9c573e5b39a159725": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "a9aa880a-2f80-4896-a15a-e9c573e5b39a159725",
+          "from": "20327694-20c0-46cf-b009-72a4581a6703159725",
+          "to": "a8ce251c-eb6c-4aa9-b262-8c5197dfadac159725"
+        },
+        "ac4fafa7-7c6a-4d7d-a966-aed2b47acbb5725": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ac4fafa7-7c6a-4d7d-a966-aed2b47acbb5725",
+          "from": "9d82cbca-1037-42c1-8d56-04f10f534b37725",
+          "to": "20327694-20c0-46cf-b009-72a4581a6703159725"
+        },
+        "b9486a38-78fe-44ce-aed2-09c1e7a169c8": {
+          "from": "20327694-20c0-46cf-b009-72a4581a6703159",
+          "to": "20327694-20c0-46cf-b009-72a4581a6703159261",
+          "id": "b9486a38-78fe-44ce-aed2-09c1e7a169c8"
+        },
+        "b587cb41-33a3-458a-84ca-021857083703": {
+          "from": "20327694-20c0-46cf-b009-72a4581a6703159",
+          "to": "20327694-20c0-46cf-b009-72a4581a6703159725",
+          "id": "b587cb41-33a3-458a-84ca-021857083703"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05": {
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6",
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a0559": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a0559",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c777091474059",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05478": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05478",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740478",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05575": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05575",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740575",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05488": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05488",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740488",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05748": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05748",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740748",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05424": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05424",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740424",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05528": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05528",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740528",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6528"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05363": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05363",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740363",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05853": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05853",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740853",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6853"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05647": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05647",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740647",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a0542": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a0542",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c777091474042",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05436": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05436",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740436",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6436"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05860": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05860",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740860",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6860"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05856": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05856",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740856",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05619": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05619",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740619",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6619"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05567": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05567",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740567",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567"
+        },
+        "ae8141c4-b783-425e-8a30-5e949f44471f": {
+          "from": "792d0166-e9ae-40ff-abed-07b18161f66e941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659",
+          "id": "ae8141c4-b783-425e-8a30-5e949f44471f"
+        },
+        "43873d80-e8fb-4462-838c-7ced3b21e01c": {
+          "from": "a0ca69ee-fe17-4bb5-ac3c-2a41f7a55598941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478",
+          "id": "43873d80-e8fb-4462-838c-7ced3b21e01c"
+        },
+        "767c2c4f-4491-4c3e-9d14-fdc781f965d0": {
+          "from": "3e84637e-8a32-46dd-a388-69284050c44f941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575",
+          "id": "767c2c4f-4491-4c3e-9d14-fdc781f965d0"
+        },
+        "95845862-6e5b-4327-b61c-4e9c57a2e292": {
+          "from": "3eea182a-5d11-481b-996d-f9cb289cda6a941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488",
+          "id": "95845862-6e5b-4327-b61c-4e9c57a2e292"
+        },
+        "fd31dd40-8f71-437f-a895-895ba173e2e6": {
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748",
+          "id": "fd31dd40-8f71-437f-a895-895ba173e2e6"
+        },
+        "952293fd-18ab-4213-9b7a-8df5d09c105c": {
+          "from": "205f88a1-7588-4d6c-bb62-3c6ad77bf82f941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424",
+          "id": "952293fd-18ab-4213-9b7a-8df5d09c105c"
+        },
+        "7bbdd610-ff44-45bc-9105-82d0b45068d1": {
+          "from": "2c7935f6-c0c6-4eb8-bead-abf02eaab3f5941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6528",
+          "id": "7bbdd610-ff44-45bc-9105-82d0b45068d1"
+        },
+        "957ce996-cb16-40cc-bd21-5c22bf1fe9bb": {
+          "from": "59b98ba8-a9b8-40f2-97c8-08b5a3a53f6a",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363",
+          "id": "957ce996-cb16-40cc-bd21-5c22bf1fe9bb"
+        },
+        "5b68a9ba-7a4e-4657-817a-372ee131701a": {
+          "from": "cd5ec7f8-c7e3-4011-b4ad-13be480789e2",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6853",
+          "id": "5b68a9ba-7a4e-4657-817a-372ee131701a"
+        },
+        "f034ab1c-a96f-4fd3-a397-4310067875b4": {
+          "from": "aea4ea11-f93d-4230-ae79-06035d383f4d941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647",
+          "id": "f034ab1c-a96f-4fd3-a397-4310067875b4"
+        },
+        "605d3930-7e88-4b75-ac71-6b00c933de70": {
+          "from": "5c71c220-f7ff-4a45-9276-ac7f111d1a12941328",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642",
+          "id": "605d3930-7e88-4b75-ac71-6b00c933de70"
+        },
+        "790f78af-3440-4f3d-9264-8839e33f9231": {
+          "from": "cfd97d6f-d6b0-4ac4-8705-3de56b8057cf941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6436",
+          "id": "790f78af-3440-4f3d-9264-8839e33f9231"
+        },
+        "3b07a368-227a-4369-b644-501e8caa7688": {
+          "from": "4f7832ba-cd70-4a3d-8c2c-228e4663ebfd941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6860",
+          "id": "3b07a368-227a-4369-b644-501e8caa7688"
+        },
+        "67ade016-de37-4d4f-be4b-49698b7f6db6": {
+          "from": "ea07364d-f6b9-420e-8eef-4928c3f1a8a3941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856",
+          "id": "67ade016-de37-4d4f-be4b-49698b7f6db6"
+        },
+        "5197dd0e-8448-44c9-986b-356ebbd6182f": {
+          "from": "1eb40c53-76a6-462d-9967-5f45c9128087941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6619",
+          "id": "5197dd0e-8448-44c9-986b-356ebbd6182f"
+        },
+        "180d9d92-8015-42c6-add5-79a4d61ff1ba": {
+          "from": "47a6a057-ca86-4d33-a3a2-9264caf40256941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567",
+          "id": "180d9d92-8015-42c6-add5-79a4d61ff1ba"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05312": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05312",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740312",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312"
+        },
+        "17e77e16-5d15-4bfb-ae4a-9548f7b2900d": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312",
+          "id": "17e77e16-5d15-4bfb-ae4a-9548f7b2900d"
+        },
+        "0136e4ac-2f76-4ad6-9812-0bde58d3c6eb": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6312",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312289",
+          "id": "0136e4ac-2f76-4ad6-9812-0bde58d3c6eb"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05606": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05606",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740606",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6606"
+        },
+        "17e77e16-5d15-4bfb-ae4a-9548f7b2900d606": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "17e77e16-5d15-4bfb-ae4a-9548f7b2900d606",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6606",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312606"
+        },
+        "23f922ce-d613-45a4-93f0-5d3b67f4b8d8": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6312",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6606",
+          "id": "23f922ce-d613-45a4-93f0-5d3b67f4b8d8"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05422": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05422",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422"
+        },
+        "17e77e16-5d15-4bfb-ae4a-9548f7b2900d422": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "17e77e16-5d15-4bfb-ae4a-9548f7b2900d422",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312422"
+        },
+        "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422",
+          "id": "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05314": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05314",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740314",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314"
+        },
+        "17e77e16-5d15-4bfb-ae4a-9548f7b2900d314": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "17e77e16-5d15-4bfb-ae4a-9548f7b2900d314",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6314",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312314"
+        },
+        "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5314": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5314",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6314",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422314"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05176": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05176",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740176",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6176"
+        },
+        "17e77e16-5d15-4bfb-ae4a-9548f7b2900d176": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "17e77e16-5d15-4bfb-ae4a-9548f7b2900d176",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312176"
+        },
+        "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5176": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5176",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422176"
+        },
+        "eca72478-a798-487f-874d-bdc287de1168": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6176",
+          "id": "eca72478-a798-487f-874d-bdc287de1168"
+        },
+        "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314",
+          "id": "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5"
+        },
+        "ae8141c4-b783-425e-8a30-5e949f44471f490": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ae8141c4-b783-425e-8a30-5e949f44471f490",
+          "from": "792d0166-e9ae-40ff-abed-07b18161f66e941490",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572": {
+          "from": "9529b166-399b-4779-bac5-23436af13704",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490",
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572962": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572962",
+          "from": "9529b166-399b-4779-bac5-23436af13704962",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490962"
+        },
+        "520b82c0-c215-4165-a842-be4681daf7d8": {
+          "from": "aa71d20f-524d-4279-a075-51333fb58426",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490962",
+          "id": "520b82c0-c215-4165-a842-be4681daf7d8"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572697": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572697",
+          "from": "9529b166-399b-4779-bac5-23436af13704697",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490697"
+        },
+        "c5762c28-ef4d-46ff-a849-a688b55c0db3": {
+          "from": "93b4462e-7616-467c-9073-ecbeaa8858d8",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490697",
+          "id": "c5762c28-ef4d-46ff-a849-a688b55c0db3"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572787": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572787",
+          "from": "9529b166-399b-4779-bac5-23436af13704787",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490787"
+        },
+        "ccb60e7b-9a09-4a1d-9b8b-eee1d2026303": {
+          "from": "bee67411-b2be-4922-abc9-8b5fca5f018d",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490787",
+          "id": "ccb60e7b-9a09-4a1d-9b8b-eee1d2026303"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572571": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572571",
+          "from": "9529b166-399b-4779-bac5-23436af13704571",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490571"
+        },
+        "0d615222-7062-475f-bb80-6ece15dacdef": {
+          "from": "5826c629-f60f-4dbb-98bb-0e10b94517b6",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490571",
+          "id": "0d615222-7062-475f-bb80-6ece15dacdef"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572528": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572528",
+          "from": "9529b166-399b-4779-bac5-23436af13704528",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490528"
+        },
+        "4edcb5e7-2542-4696-a914-ed9ba645f82d": {
+          "from": "5826c629-f60f-4dbb-98bb-0e10b94517b6559",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490528",
+          "id": "4edcb5e7-2542-4696-a914-ed9ba645f82d"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572126": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572126",
+          "from": "9529b166-399b-4779-bac5-23436af13704126",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490126"
+        },
+        "4481ee58-d0f2-4f20-9e8f-148cfa25d67c": {
+          "from": "92deda2e-f34f-4a13-941f-3e76f04c4bde856673431159",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490126",
+          "id": "4481ee58-d0f2-4f20-9e8f-148cfa25d67c"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572346": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572346",
+          "from": "9529b166-399b-4779-bac5-23436af13704346",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490346"
+        },
+        "9f15698e-1597-48d5-b763-f81470f9c916": {
+          "from": "8c15a57a-91f6-4851-8c77-e6a65d3ca7b0431159",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490346",
+          "id": "9f15698e-1597-48d5-b763-f81470f9c916"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572394": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572394",
+          "from": "9529b166-399b-4779-bac5-23436af13704394",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490394"
+        },
+        "34df7436-a4f6-4a75-bfde-3dd65399bbdd": {
+          "from": "c7be7c86-b637-4e54-a926-7a5c1acb9fc2",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490394",
+          "id": "34df7436-a4f6-4a75-bfde-3dd65399bbdd"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c03645723": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c03645723",
+          "from": "9529b166-399b-4779-bac5-23436af137043",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6594903"
+        },
+        "fee45c43-00e6-4689-9e30-1c115c505c63": {
+          "from": "5c71c220-f7ff-4a45-9276-ac7f111d1a12941941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6594903",
+          "id": "fee45c43-00e6-4689-9e30-1c115c505c63"
+        },
+        "43873d80-e8fb-4462-838c-7ced3b21e01c547": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "43873d80-e8fb-4462-838c-7ced3b21e01c547",
+          "from": "a0ca69ee-fe17-4bb5-ac3c-2a41f7a55598941547",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478547"
+        },
+        "140774d5-4d7d-480d-90ff-6962530d8d47": {
+          "from": "a0ca69ee-fe17-4bb5-ac3c-2a41f7a55598941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478547",
+          "id": "140774d5-4d7d-480d-90ff-6962530d8d47"
+        },
+        "767c2c4f-4491-4c3e-9d14-fdc781f965d0184": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "767c2c4f-4491-4c3e-9d14-fdc781f965d0184",
+          "from": "3e84637e-8a32-46dd-a388-69284050c44f941184",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575184"
+        },
+        "8bab80b7-4e34-49f5-b334-5ea511c191a2": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575184",
+          "id": "8bab80b7-4e34-49f5-b334-5ea511c191a2"
+        },
+        "767c2c4f-4491-4c3e-9d14-fdc781f965d069": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "767c2c4f-4491-4c3e-9d14-fdc781f965d069",
+          "from": "3e84637e-8a32-46dd-a388-69284050c44f94169",
+          "to": "273b4e56-956b-456c-920c-617d983c37f657569"
+        },
+        "8bab80b7-4e34-49f5-b334-5ea511c191a269": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8bab80b7-4e34-49f5-b334-5ea511c191a269",
+          "from": "273b4e56-956b-456c-920c-617d983c37f657569",
+          "to": "273b4e56-956b-456c-920c-617d983c37f657518469"
+        },
+        "82905ba3-07bc-4d19-aa93-b72c2a3bc13b": {
+          "from": "51a23f2c-ce08-419a-b29d-30571ef01264",
+          "to": "273b4e56-956b-456c-920c-617d983c37f657569",
+          "id": "82905ba3-07bc-4d19-aa93-b72c2a3bc13b"
+        },
+        "767c2c4f-4491-4c3e-9d14-fdc781f965d0422": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "767c2c4f-4491-4c3e-9d14-fdc781f965d0422",
+          "from": "3e84637e-8a32-46dd-a388-69284050c44f941422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422"
+        },
+        "8bab80b7-4e34-49f5-b334-5ea511c191a2422": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8bab80b7-4e34-49f5-b334-5ea511c191a2422",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575184422"
+        },
+        "767c2c4f-4491-4c3e-9d14-fdc781f965d0755": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "767c2c4f-4491-4c3e-9d14-fdc781f965d0755",
+          "from": "3e84637e-8a32-46dd-a388-69284050c44f941755",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575755"
+        },
+        "8bab80b7-4e34-49f5-b334-5ea511c191a2755": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8bab80b7-4e34-49f5-b334-5ea511c191a2755",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575755",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575184755"
+        },
+        "c45cfd65-f610-4bd3-aaa2-ec64e19a7563": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575755",
+          "id": "c45cfd65-f610-4bd3-aaa2-ec64e19a7563"
+        },
+        "d65f046e-819c-4d0a-b2e5-1c53f166837b": {
+          "from": "6c4a96ea-d83d-4dba-afff-43a18801e1c6431159",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "id": "d65f046e-819c-4d0a-b2e5-1c53f166837b"
+        },
+        "fd31dd40-8f71-437f-a895-895ba173e2e6944": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fd31dd40-8f71-437f-a895-895ba173e2e6944",
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941944",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748944"
+        },
+        "cab7c225-fc84-4139-97cc-0346f9f96ab4": {
+          "from": "1c0f6984-94c5-499e-9464-36540302d6bd941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748944",
+          "id": "cab7c225-fc84-4139-97cc-0346f9f96ab4"
+        },
+        "cab7c225-fc84-4139-97cc-0346f9f96ab4265": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "cab7c225-fc84-4139-97cc-0346f9f96ab4265",
+          "from": "1c0f6984-94c5-499e-9464-36540302d6bd941265",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748944265"
+        },
+        "30ab08b3-616f-4c2f-ae82-90d30de21921": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748944",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748944265",
+          "id": "30ab08b3-616f-4c2f-ae82-90d30de21921"
+        },
+        "fe4b73b8-8004-4139-a424-41a7c0364572432": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fe4b73b8-8004-4139-a424-41a7c0364572432",
+          "from": "9529b166-399b-4779-bac5-23436af13704432",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490432"
+        },
+        "65c0b947-2e19-489b-9310-a1f4055690aa": {
+          "from": "cb749e7d-4767-44b7-bc8b-1ed1ee749c05",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490432",
+          "id": "65c0b947-2e19-489b-9310-a1f4055690aa"
+        },
+        "95845862-6e5b-4327-b61c-4e9c57a2e292538": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "95845862-6e5b-4327-b61c-4e9c57a2e292538",
+          "from": "3eea182a-5d11-481b-996d-f9cb289cda6a941538",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488538"
+        },
+        "6cc72ba9-c0ac-4943-b90b-8820d9bd2756": {
+          "from": "e4db86dc-c56d-4aae-9d39-ce65276c9e21941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488538",
+          "id": "6cc72ba9-c0ac-4943-b90b-8820d9bd2756"
+        },
+        "95845862-6e5b-4327-b61c-4e9c57a2e292874": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "95845862-6e5b-4327-b61c-4e9c57a2e292874",
+          "from": "3eea182a-5d11-481b-996d-f9cb289cda6a941874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874"
+        },
+        "0287f51f-be1b-4a6f-9cab-b7c4bc1db5f5": {
+          "from": "add36ac8-073d-467e-bdef-3ab4b904ed63",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "id": "0287f51f-be1b-4a6f-9cab-b7c4bc1db5f5"
+        },
+        "95845862-6e5b-4327-b61c-4e9c57a2e29247": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "95845862-6e5b-4327-b61c-4e9c57a2e29247",
+          "from": "3eea182a-5d11-481b-996d-f9cb289cda6a94147",
+          "to": "273b4e56-956b-456c-920c-617d983c37f648847"
+        },
+        "b4020b0f-b9c0-4141-b827-932f9d25464c": {
+          "from": "3eea182a-5d11-481b-996d-f9cb289cda6a941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f648847",
+          "id": "b4020b0f-b9c0-4141-b827-932f9d25464c"
+        },
+        "fd31dd40-8f71-437f-a895-895ba173e2e6168": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fd31dd40-8f71-437f-a895-895ba173e2e6168",
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941168",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748168"
+        },
+        "fd31dd40-8f71-437f-a895-895ba173e2e6936": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fd31dd40-8f71-437f-a895-895ba173e2e6936",
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941936",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748936"
+        },
+        "c524fe2b-7929-41a2-8c74-6c8153af5103": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748936",
+          "id": "c524fe2b-7929-41a2-8c74-6c8153af5103"
+        },
+        "fd31dd40-8f71-437f-a895-895ba173e2e6642": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fd31dd40-8f71-437f-a895-895ba173e2e6642",
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941642",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748642"
+        },
+        "c524fe2b-7929-41a2-8c74-6c8153af5103642": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c524fe2b-7929-41a2-8c74-6c8153af5103642",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748642",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748936642"
+        },
+        "fd31dd40-8f71-437f-a895-895ba173e2e6187": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fd31dd40-8f71-437f-a895-895ba173e2e6187",
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941187",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748187"
+        },
+        "c524fe2b-7929-41a2-8c74-6c8153af5103187": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c524fe2b-7929-41a2-8c74-6c8153af5103187",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748187",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748936187"
+        },
+        "1e951383-f6cd-43da-813c-b4cef50ed9d0": {
+          "from": "f17e359b-f183-4922-a094-c5ee904f79d7941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748187",
+          "id": "1e951383-f6cd-43da-813c-b4cef50ed9d0"
+        },
+        "fd31dd40-8f71-437f-a895-895ba173e2e6652": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fd31dd40-8f71-437f-a895-895ba173e2e6652",
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941652",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748652"
+        },
+        "c524fe2b-7929-41a2-8c74-6c8153af5103652": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c524fe2b-7929-41a2-8c74-6c8153af5103652",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748652",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748936652"
+        },
+        "4b44390b-82bd-4981-9274-939cd68a2537": {
+          "from": "1f841207-046c-4237-9072-a8f8306f47e1",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748652",
+          "id": "4b44390b-82bd-4981-9274-939cd68a2537"
+        },
+        "fd31dd40-8f71-437f-a895-895ba173e2e6173": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fd31dd40-8f71-437f-a895-895ba173e2e6173",
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941173",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748173"
+        },
+        "c524fe2b-7929-41a2-8c74-6c8153af5103173": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c524fe2b-7929-41a2-8c74-6c8153af5103173",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748173",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748936173"
+        },
+        "167e4f6e-c182-49c6-8dd7-084cf4e0389c": {
+          "from": "d1f5700a-24b2-4cb2-9f1b-44fd51b7a34f941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748173",
+          "id": "167e4f6e-c182-49c6-8dd7-084cf4e0389c"
+        },
+        "34834660-053c-458f-87dc-c59fef5b7be5": {
+          "from": "b20449f3-ed30-4f6c-9216-b2e4d6da0981941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748642",
+          "id": "34834660-053c-458f-87dc-c59fef5b7be5"
+        },
+        "b4de9930-6f49-43f7-a42c-f2fbff72d0bb": {
+          "from": "28056588-8284-4009-9d1d-cbc9d804a95d856673431159",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748168",
+          "id": "b4de9930-6f49-43f7-a42c-f2fbff72d0bb"
+        },
+        "fd31dd40-8f71-437f-a895-895ba173e2e6801": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fd31dd40-8f71-437f-a895-895ba173e2e6801",
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941801",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748801"
+        },
+        "c524fe2b-7929-41a2-8c74-6c8153af5103801": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c524fe2b-7929-41a2-8c74-6c8153af5103801",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748801",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748936801"
+        },
+        "81ece9d7-5fa1-4579-bfec-7c674c66b21f": {
+          "from": "4acaf8c0-3cc1-4015-9972-7b69e6bec965941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748801",
+          "id": "81ece9d7-5fa1-4579-bfec-7c674c66b21f"
+        },
+        "952293fd-18ab-4213-9b7a-8df5d09c105c293": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "952293fd-18ab-4213-9b7a-8df5d09c105c293",
+          "from": "205f88a1-7588-4d6c-bb62-3c6ad77bf82f941293",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424293"
+        },
+        "d98000d5-afcd-4121-aac7-c4f7f81970dd": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424293",
+          "id": "d98000d5-afcd-4121-aac7-c4f7f81970dd"
+        },
+        "952293fd-18ab-4213-9b7a-8df5d09c105c231": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "952293fd-18ab-4213-9b7a-8df5d09c105c231",
+          "from": "205f88a1-7588-4d6c-bb62-3c6ad77bf82f941231",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424231"
+        },
+        "d98000d5-afcd-4121-aac7-c4f7f81970dd231": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d98000d5-afcd-4121-aac7-c4f7f81970dd231",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424231",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424293231"
+        },
+        "2ca5cdc5-691b-4506-b942-5556ad6813e5": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c388",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424231",
+          "id": "2ca5cdc5-691b-4506-b942-5556ad6813e5"
+        },
+        "7bbdd610-ff44-45bc-9105-82d0b45068d1788": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7bbdd610-ff44-45bc-9105-82d0b45068d1788",
+          "from": "2c7935f6-c0c6-4eb8-bead-abf02eaab3f5941788",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6528788"
+        },
+        "8fcbcd07-3502-459e-9df2-dea91cac3a1c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6528",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6528788",
+          "id": "8fcbcd07-3502-459e-9df2-dea91cac3a1c"
+        },
+        "7bbdd610-ff44-45bc-9105-82d0b45068d1785": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7bbdd610-ff44-45bc-9105-82d0b45068d1785",
+          "from": "2c7935f6-c0c6-4eb8-bead-abf02eaab3f5941785",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6528785"
+        },
+        "8fcbcd07-3502-459e-9df2-dea91cac3a1c785": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fcbcd07-3502-459e-9df2-dea91cac3a1c785",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6528785",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6528788785"
+        },
+        "c140d7ad-5c41-4550-8eab-0b24fa38b378": {
+          "from": "ae148960-4e57-4991-abbe-4078d52a2016941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6528785",
+          "id": "c140d7ad-5c41-4550-8eab-0b24fa38b378"
+        },
+        "957ce996-cb16-40cc-bd21-5c22bf1fe9bb251": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "957ce996-cb16-40cc-bd21-5c22bf1fe9bb251",
+          "from": "59b98ba8-a9b8-40f2-97c8-08b5a3a53f6a251",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251"
+        },
+        "3cc30643-68e6-4148-9f91-51c619b48d25": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251",
+          "id": "3cc30643-68e6-4148-9f91-51c619b48d25"
+        },
+        "957ce996-cb16-40cc-bd21-5c22bf1fe9bb337": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "957ce996-cb16-40cc-bd21-5c22bf1fe9bb337",
+          "from": "59b98ba8-a9b8-40f2-97c8-08b5a3a53f6a337",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363337"
+        },
+        "3cc30643-68e6-4148-9f91-51c619b48d25337": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "3cc30643-68e6-4148-9f91-51c619b48d25337",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363337",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251337"
+        },
+        "825e843c-305c-4068-a2f4-eaaa312cedc9": {
+          "from": "59b98ba8-a9b8-40f2-97c8-08b5a3a53f6a",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363337",
+          "id": "825e843c-305c-4068-a2f4-eaaa312cedc9"
+        },
+        "5b68a9ba-7a4e-4657-817a-372ee131701a341": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "5b68a9ba-7a4e-4657-817a-372ee131701a341",
+          "from": "cd5ec7f8-c7e3-4011-b4ad-13be480789e2341",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6853341"
+        },
+        "816c19be-9968-459e-8172-bae5ef9ee528": {
+          "from": "cd5ec7f8-c7e3-4011-b4ad-13be480789e2",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6853341",
+          "id": "816c19be-9968-459e-8172-bae5ef9ee528"
+        },
+        "3cc30643-68e6-4148-9f91-51c619b48d25148": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "3cc30643-68e6-4148-9f91-51c619b48d25148",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363148",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148"
+        },
+        "9e5493da-db02-41ce-b5f5-ae12813d2f32": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6853",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148",
+          "id": "9e5493da-db02-41ce-b5f5-ae12813d2f32"
+        },
+        "f034ab1c-a96f-4fd3-a397-4310067875b4731": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "f034ab1c-a96f-4fd3-a397-4310067875b4731",
+          "from": "aea4ea11-f93d-4230-ae79-06035d383f4d941731",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647731"
+        },
+        "7103d454-f7dd-4662-b980-68f0c40afdfd": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647731",
+          "id": "7103d454-f7dd-4662-b980-68f0c40afdfd"
+        },
+        "9e5493da-db02-41ce-b5f5-ae12813d2f32364": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "9e5493da-db02-41ce-b5f5-ae12813d2f32364",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6853364",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148364"
+        },
+        "f034ab1c-a96f-4fd3-a397-4310067875b4882": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "f034ab1c-a96f-4fd3-a397-4310067875b4882",
+          "from": "aea4ea11-f93d-4230-ae79-06035d383f4d941882",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647882"
+        },
+        "7103d454-f7dd-4662-b980-68f0c40afdfd882": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7103d454-f7dd-4662-b980-68f0c40afdfd882",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647882",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647731882"
+        },
+        "fdfa14fb-8728-463a-a984-7f8333a5aeca": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148364",
+          "id": "fdfa14fb-8728-463a-a984-7f8333a5aeca"
+        },
+        "fa5451ff-bf75-44b5-a145-622c57c22307": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363251148364",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647882",
+          "id": "fa5451ff-bf75-44b5-a145-622c57c22307"
+        },
+        "f034ab1c-a96f-4fd3-a397-4310067875b4657": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "f034ab1c-a96f-4fd3-a397-4310067875b4657",
+          "from": "aea4ea11-f93d-4230-ae79-06035d383f4d941657",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647657"
+        },
+        "7103d454-f7dd-4662-b980-68f0c40afdfd657": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7103d454-f7dd-4662-b980-68f0c40afdfd657",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647657",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647731657"
+        },
+        "fdfa14fb-8728-463a-a984-7f8333a5aeca657": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fdfa14fb-8728-463a-a984-7f8333a5aeca657",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647657",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148364657"
+        },
+        "3d297ce0-1de6-4265-825d-298fa527c30e": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647882",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647657",
+          "id": "3d297ce0-1de6-4265-825d-298fa527c30e"
+        },
+        "f034ab1c-a96f-4fd3-a397-4310067875b4380": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "f034ab1c-a96f-4fd3-a397-4310067875b4380",
+          "from": "aea4ea11-f93d-4230-ae79-06035d383f4d941380",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380"
+        },
+        "7103d454-f7dd-4662-b980-68f0c40afdfd380": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7103d454-f7dd-4662-b980-68f0c40afdfd380",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647380",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647731380"
+        },
+        "fdfa14fb-8728-463a-a984-7f8333a5aeca380": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "fdfa14fb-8728-463a-a984-7f8333a5aeca380",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647380",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148364380"
+        },
+        "9e5493da-db02-41ce-b5f5-ae12813d2f3290": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "9e5493da-db02-41ce-b5f5-ae12813d2f3290",
+          "from": "273b4e56-956b-456c-920c-617d983c37f685390",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890"
+        },
+        "7ff86b72-1a65-4f08-9a4c-445a440702da": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f642",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890",
+          "id": "7ff86b72-1a65-4f08-9a4c-445a440702da"
+        },
+        "605d3930-7e88-4b75-ac71-6b00c933de70822": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "605d3930-7e88-4b75-ac71-6b00c933de70822",
+          "from": "5c71c220-f7ff-4a45-9276-ac7f111d1a12941328822",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642822"
+        },
+        "7ff86b72-1a65-4f08-9a4c-445a440702da822": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7ff86b72-1a65-4f08-9a4c-445a440702da822",
+          "from": "273b4e56-956b-456c-920c-617d983c37f642822",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890822"
+        },
+        "bd873abf-d244-41cc-b807-2fa29ebf961a": {
+          "from": "541e43ae-9406-4a36-9648-8533fbc16f69856673431159",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642822",
+          "id": "bd873abf-d244-41cc-b807-2fa29ebf961a"
+        },
+        "605d3930-7e88-4b75-ac71-6b00c933de70250": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "605d3930-7e88-4b75-ac71-6b00c933de70250",
+          "from": "5c71c220-f7ff-4a45-9276-ac7f111d1a12941328250",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642250"
+        },
+        "7ff86b72-1a65-4f08-9a4c-445a440702da250": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7ff86b72-1a65-4f08-9a4c-445a440702da250",
+          "from": "273b4e56-956b-456c-920c-617d983c37f642250",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890250"
+        },
+        "864cca63-e937-4896-b3ab-42c0295f08a3": {
+          "from": "533b01fa-6d24-48cc-8581-fbd583383385856673431159",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642250",
+          "id": "864cca63-e937-4896-b3ab-42c0295f08a3"
+        },
+        "605d3930-7e88-4b75-ac71-6b00c933de70171": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "605d3930-7e88-4b75-ac71-6b00c933de70171",
+          "from": "5c71c220-f7ff-4a45-9276-ac7f111d1a12941328171",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642171"
+        },
+        "7ff86b72-1a65-4f08-9a4c-445a440702da171": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "7ff86b72-1a65-4f08-9a4c-445a440702da171",
+          "from": "273b4e56-956b-456c-920c-617d983c37f642171",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890171"
+        },
+        "107630b5-dee5-434c-a037-207a0fa137c5": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f642",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642171",
+          "id": "107630b5-dee5-434c-a037-207a0fa137c5"
+        },
+        "790f78af-3440-4f3d-9264-8839e33f923149": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "790f78af-3440-4f3d-9264-8839e33f923149",
+          "from": "cfd97d6f-d6b0-4ac4-8705-3de56b8057cf94149",
+          "to": "273b4e56-956b-456c-920c-617d983c37f643649"
+        },
+        "790f78af-3440-4f3d-9264-8839e33f9231569": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "790f78af-3440-4f3d-9264-8839e33f9231569",
+          "from": "cfd97d6f-d6b0-4ac4-8705-3de56b8057cf941569",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6436569"
+        },
+        "9b9452e4-d32c-410d-a270-decbf16b3693569": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "9b9452e4-d32c-410d-a270-decbf16b3693569",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6436569",
+          "to": "273b4e56-956b-456c-920c-617d983c37f643649569"
+        },
+        "d7413fe4-a1a9-4cd8-8074-15dd009f4ad6": {
+          "from": "1b934f22-cb2d-4ecc-b1b1-2aaa07afe700360",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6436569",
+          "id": "d7413fe4-a1a9-4cd8-8074-15dd009f4ad6"
+        },
+        "790f78af-3440-4f3d-9264-8839e33f9231239": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "790f78af-3440-4f3d-9264-8839e33f9231239",
+          "from": "cfd97d6f-d6b0-4ac4-8705-3de56b8057cf941239",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6436239"
+        },
+        "9b9452e4-d32c-410d-a270-decbf16b3693239": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "9b9452e4-d32c-410d-a270-decbf16b3693239",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6436239",
+          "to": "273b4e56-956b-456c-920c-617d983c37f643649239"
+        },
+        "f763cc2a-24e9-4cac-84c4-6f0c861254a4": {
+          "from": "1b934f22-cb2d-4ecc-b1b1-2aaa07afe700",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6436239",
+          "id": "f763cc2a-24e9-4cac-84c4-6f0c861254a4"
+        },
+        "3b07a368-227a-4369-b644-501e8caa768814": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "3b07a368-227a-4369-b644-501e8caa768814",
+          "from": "4f7832ba-cd70-4a3d-8c2c-228e4663ebfd94114",
+          "to": "273b4e56-956b-456c-920c-617d983c37f686014"
+        },
+        "9c81d4fe-a9e3-4f00-a08d-831f36cc7307": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6860",
+          "to": "273b4e56-956b-456c-920c-617d983c37f686014",
+          "id": "9c81d4fe-a9e3-4f00-a08d-831f36cc7307"
+        },
+        "67ade016-de37-4d4f-be4b-49698b7f6db6578": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "67ade016-de37-4d4f-be4b-49698b7f6db6578",
+          "from": "ea07364d-f6b9-420e-8eef-4928c3f1a8a3941578",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578"
+        },
+        "7d2ddb17-a7db-47f6-8f82-97e3bbd2d041": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6856",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "id": "7d2ddb17-a7db-47f6-8f82-97e3bbd2d041"
+        },
+        "cab7c225-fc84-4139-97cc-0346f9f96ab4946": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "cab7c225-fc84-4139-97cc-0346f9f96ab4946",
+          "from": "1c0f6984-94c5-499e-9464-36540302d6bd941946",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748944946"
+        },
+        "30ab08b3-616f-4c2f-ae82-90d30de21921946": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "30ab08b3-616f-4c2f-ae82-90d30de21921946",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748944946",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748944265946"
+        },
+        "de9d9493-8886-4ee1-9d97-5a98a7c80a3e": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748944",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748944946",
+          "id": "de9d9493-8886-4ee1-9d97-5a98a7c80a3e"
+        },
+        "5197dd0e-8448-44c9-986b-356ebbd6182f987": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "5197dd0e-8448-44c9-986b-356ebbd6182f987",
+          "from": "1eb40c53-76a6-462d-9967-5f45c9128087941987",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6619987"
+        },
+        "180d9d92-8015-42c6-add5-79a4d61ff1ba63": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "180d9d92-8015-42c6-add5-79a4d61ff1ba63",
+          "from": "47a6a057-ca86-4d33-a3a2-9264caf4025694163",
+          "to": "273b4e56-956b-456c-920c-617d983c37f656763"
+        },
+        "23f9caa4-9416-41a9-8bcd-37be3493268a": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567",
+          "to": "273b4e56-956b-456c-920c-617d983c37f656763",
+          "id": "23f9caa4-9416-41a9-8bcd-37be3493268a"
+        },
+        "180d9d92-8015-42c6-add5-79a4d61ff1ba18": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "180d9d92-8015-42c6-add5-79a4d61ff1ba18",
+          "from": "47a6a057-ca86-4d33-a3a2-9264caf4025694118",
+          "to": "273b4e56-956b-456c-920c-617d983c37f656718"
+        },
+        "23f9caa4-9416-41a9-8bcd-37be3493268a18": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "23f9caa4-9416-41a9-8bcd-37be3493268a18",
+          "from": "273b4e56-956b-456c-920c-617d983c37f656718",
+          "to": "273b4e56-956b-456c-920c-617d983c37f65676318"
+        },
+        "7b180061-ff2c-4d91-94ae-126c9bf90bcd": {
+          "from": "bf56f3cd-a516-426b-9e86-59b57b86ec85941",
+          "to": "273b4e56-956b-456c-920c-617d983c37f656718",
+          "id": "7b180061-ff2c-4d91-94ae-126c9bf90bcd"
+        },
+        "180d9d92-8015-42c6-add5-79a4d61ff1ba925": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "180d9d92-8015-42c6-add5-79a4d61ff1ba925",
+          "from": "47a6a057-ca86-4d33-a3a2-9264caf40256941925",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567925"
+        },
+        "23f9caa4-9416-41a9-8bcd-37be3493268a925": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "23f9caa4-9416-41a9-8bcd-37be3493268a925",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "to": "273b4e56-956b-456c-920c-617d983c37f656763925"
+        },
+        "340971df-41d5-4bf9-aea3-11edd198643d": {
+          "from": "1247edb0-ea4c-4ba2-83ce-fe30019d62b8431159",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "id": "340971df-41d5-4bf9-aea3-11edd198643d"
+        },
+        "ae8141c4-b783-425e-8a30-5e949f44471f900": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ae8141c4-b783-425e-8a30-5e949f44471f900",
+          "from": "792d0166-e9ae-40ff-abed-07b18161f66e941900",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659900"
+        },
+        "6cd00df8-77d3-4bd1-91fd-85323f2be5e0": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659900",
+          "id": "6cd00df8-77d3-4bd1-91fd-85323f2be5e0"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05289": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05289",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740289",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6289"
+        },
+        "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5289": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5289",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6289",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422289"
+        },
+        "eca72478-a798-487f-874d-bdc287de1168289": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "eca72478-a798-487f-874d-bdc287de1168289",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6289",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6176289"
+        },
+        "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5289": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5289",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6289",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314289"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05584": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05584",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740584",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6584"
+        },
+        "17e77e16-5d15-4bfb-ae4a-9548f7b2900d584": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "17e77e16-5d15-4bfb-ae4a-9548f7b2900d584",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6584",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312584"
+        },
+        "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5584": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5584",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6584",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422584"
+        },
+        "eca72478-a798-487f-874d-bdc287de1168584": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "eca72478-a798-487f-874d-bdc287de1168584",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6584",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6176584"
+        },
+        "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5584": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5584",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6584",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314584"
+        },
+        "63f951bc-c770-4830-ac2c-b1bc3dd5c33a": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6289",
+          "id": "63f951bc-c770-4830-ac2c-b1bc3dd5c33a"
+        },
+        "c18d641f-bd32-4ecf-bdb4-f6a1f69906ff": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6584",
+          "id": "c18d641f-bd32-4ecf-bdb4-f6a1f69906ff"
+        },
+        "43873d80-e8fb-4462-838c-7ced3b21e01c188": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "43873d80-e8fb-4462-838c-7ced3b21e01c188",
+          "from": "a0ca69ee-fe17-4bb5-ac3c-2a41f7a55598941188",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478188"
+        },
+        "cc29952d-5d88-4266-9356-a2c1d0689a6f": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478188",
+          "id": "cc29952d-5d88-4266-9356-a2c1d0689a6f"
+        },
+        "95845862-6e5b-4327-b61c-4e9c57a2e292336": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "95845862-6e5b-4327-b61c-4e9c57a2e292336",
+          "from": "3eea182a-5d11-481b-996d-f9cb289cda6a941336",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488336"
+        },
+        "15b1d7e4-fe60-4f1a-8b2b-ec2f7b6fd26e": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488336",
+          "id": "15b1d7e4-fe60-4f1a-8b2b-ec2f7b6fd26e"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05325": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05325",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740325",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6325"
+        },
+        "17e77e16-5d15-4bfb-ae4a-9548f7b2900d325": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "17e77e16-5d15-4bfb-ae4a-9548f7b2900d325",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312325"
+        },
+        "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5325": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5325",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422325"
+        },
+        "eca72478-a798-487f-874d-bdc287de1168325": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "eca72478-a798-487f-874d-bdc287de1168325",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6176325"
+        },
+        "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5325": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5325",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314325"
+        },
+        "94d60f2b-0df0-48e1-8267-15a402cc8c6a": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "id": "94d60f2b-0df0-48e1-8267-15a402cc8c6a"
+        },
+        "96ddd949-a3e1-4124-9545-6ea9ef5690be673431852": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "96ddd949-a3e1-4124-9545-6ea9ef5690be673431852",
+          "from": "adf37994-f52f-43fe-8c46-de3d24f49a5f673431852",
+          "to": "18700789-b477-4474-a9d8-a64b504c28f9673431852"
+        },
+        "a33dca7a-a381-47a6-af8e-41f27debb7b8852": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "a33dca7a-a381-47a6-af8e-41f27debb7b8852",
+          "from": "18700789-b477-4474-a9d8-a64b504c28f9673431852",
+          "to": "e0c0a072-65fe-417d-843a-fcee41adad54852"
+        },
+        "d79a984d-7e95-4495-ae5a-78d76ab6f57c852": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "d79a984d-7e95-4495-ae5a-78d76ab6f57c852",
+          "from": "18700789-b477-4474-a9d8-a64b504c28f9673431852",
+          "to": "45dc2d00-3f01-4cd2-913f-3598c4694379852"
+        },
+        "3d47a574-60cb-4263-ad5f-ade51da7b442": {
+          "from": "e0c0a072-65fe-417d-843a-fcee41adad54",
+          "to": "18700789-b477-4474-a9d8-a64b504c28f9673431852",
+          "id": "3d47a574-60cb-4263-ad5f-ade51da7b442"
+        },
+        "eca72478-a798-487f-874d-bdc287de1168389": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "eca72478-a798-487f-874d-bdc287de1168389",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6389",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6176389"
+        },
+        "63f951bc-c770-4830-ac2c-b1bc3dd5c33a389": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "63f951bc-c770-4830-ac2c-b1bc3dd5c33a389",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176389",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6289389"
+        },
+        "c18d641f-bd32-4ecf-bdb4-f6a1f69906ff389": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c18d641f-bd32-4ecf-bdb4-f6a1f69906ff389",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176389",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6584389"
+        },
+        "94d60f2b-0df0-48e1-8267-15a402cc8c6a389": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "94d60f2b-0df0-48e1-8267-15a402cc8c6a389",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176389",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6325389"
+        },
+        "bd7d17f2-e3a0-4b91-b19c-e09b559a80d8": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6176389",
+          "id": "bd7d17f2-e3a0-4b91-b19c-e09b559a80d8"
+        },
+        "0d1a253d-f1ea-4af7-91e1-334211964682": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6176389849",
+          "id": "0d1a253d-f1ea-4af7-91e1-334211964682"
+        },
+        "2c26128f-c8db-4750-98c8-ce4f46285d76470": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "2c26128f-c8db-4750-98c8-ce4f46285d76470",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896546470",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c944896470"
+        },
+        "62fccb4b-ec00-4b06-8717-b366a06c9e06": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "id": "62fccb4b-ec00-4b06-8717-b366a06c9e06"
+        },
+        "8fc68f50-b97a-4766-a7ad-0b6e48399a05691": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "8fc68f50-b97a-4766-a7ad-0b6e48399a05691",
+          "from": "4f20fb1d-4af4-47fa-b01f-0c7770914740691",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6691"
+        },
+        "17e77e16-5d15-4bfb-ae4a-9548f7b2900d691": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "17e77e16-5d15-4bfb-ae4a-9548f7b2900d691",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6691",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6312691"
+        },
+        "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5691": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5691",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6691",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422691"
+        },
+        "eca72478-a798-487f-874d-bdc287de1168691": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "eca72478-a798-487f-874d-bdc287de1168691",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6691",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6176691"
+        },
+        "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5691": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5691",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6691",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314691"
+        },
+        "37776302-6a9b-4ef3-8414-62191aa1014c": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6691",
+          "id": "37776302-6a9b-4ef3-8414-62191aa1014c"
+        },
+        "a3e96e6c-e089-41bd-b458-624edb9af447": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "6c7b8f67-11af-4e81-9136-10c8ebe205da",
+          "id": "a3e96e6c-e089-41bd-b458-624edb9af447"
+        },
+        "2400dce9-da92-420b-b085-9a15b0a48f7e": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "5a755545-32b5-4b6d-9278-52063cc15478",
+          "id": "2400dce9-da92-420b-b085-9a15b0a48f7e"
+        },
+        "0f4a5bbf-55aa-4a33-950a-6d5cfd56ce9a": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "5fdbb214-989f-4035-bd11-fff4a79f8f27",
+          "id": "0f4a5bbf-55aa-4a33-950a-6d5cfd56ce9a"
+        },
+        "ecde9fcd-c2a6-4b40-8924-e488354939f3": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "4777f9d9-9c7f-48ad-bdb3-223146c4d91f",
+          "id": "ecde9fcd-c2a6-4b40-8924-e488354939f3"
+        },
+        "7e3c39e8-a958-420c-b023-0e8497f1f704": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "91a74c73-e5da-42c3-a3fc-10563a38da63",
+          "id": "7e3c39e8-a958-420c-b023-0e8497f1f704"
+        },
+        "cb347213-1ce0-4663-9e4b-7abcf5a5f26e": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "c3a740d6-c5d6-42a9-aa30-2fcd3668f537",
+          "id": "cb347213-1ce0-4663-9e4b-7abcf5a5f26e"
+        },
+        "95c3183b-5ced-47dc-93a0-bf9506bd2582": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "06ceea12-28ff-4277-986a-8281ffbcd8d9",
+          "id": "95c3183b-5ced-47dc-93a0-bf9506bd2582"
+        },
+        "06e1933d-d7c1-42e2-a200-1345256c8401": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "d1c6bad4-7f4b-4773-9999-3ca38b2859ad",
+          "id": "06e1933d-d7c1-42e2-a200-1345256c8401"
+        },
+        "9dc66cd9-4e1d-4f9c-abee-69dc6b694905": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "bf489cf2-2b26-47ea-9611-5aea82509b3f",
+          "id": "9dc66cd9-4e1d-4f9c-abee-69dc6b694905"
+        },
+        "e2805601-afff-4fbf-8128-8a32c7cf3533": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c944896470",
+          "to": "7f4a75e1-612b-4982-b0ed-c4c0a3c779ad",
+          "id": "e2805601-afff-4fbf-8128-8a32c7cf3533"
+        },
+        "b974662e-ee26-40a8-b1c5-79a15545d534": {
+          "from": "6c7b8f67-11af-4e81-9136-10c8ebe205da",
+          "to": "cbb86365-a877-49e1-845c-d11c9f668eca",
+          "id": "b974662e-ee26-40a8-b1c5-79a15545d534"
+        },
+        "c24e8c5d-b392-4cd9-9255-46a7fb0f47bc": {
+          "from": "6c7b8f67-11af-4e81-9136-10c8ebe205da",
+          "to": "fd77af04-0b57-4143-944d-0867100f069d",
+          "id": "c24e8c5d-b392-4cd9-9255-46a7fb0f47bc"
+        },
+        "444abef8-a8fb-4a5e-a1d4-fe2e08154db4": {
+          "from": "5a755545-32b5-4b6d-9278-52063cc15478",
+          "to": "fb98000e-90e8-458e-9c4a-1858e24630df",
+          "id": "444abef8-a8fb-4a5e-a1d4-fe2e08154db4"
+        },
+        "22ffd3da-4f84-4aca-8172-621609aedc28": {
+          "from": "5fdbb214-989f-4035-bd11-fff4a79f8f27",
+          "to": "190ed042-3868-4d5c-84c8-3b585a24791f",
+          "id": "22ffd3da-4f84-4aca-8172-621609aedc28"
+        },
+        "e6cfeac7-09d8-493a-bf9f-cec009687201": {
+          "from": "4777f9d9-9c7f-48ad-bdb3-223146c4d91f",
+          "to": "6d178e6b-41f0-4eea-ac0f-cbc5c11831fa",
+          "id": "e6cfeac7-09d8-493a-bf9f-cec009687201"
+        },
+        "dc6e6222-1084-451b-b549-b050a5fce103": {
+          "from": "91a74c73-e5da-42c3-a3fc-10563a38da63",
+          "to": "fa62f63a-bb66-4a12-b453-73ac2d2cf356",
+          "id": "dc6e6222-1084-451b-b549-b050a5fce103"
+        },
+        "0b3e58f7-63c9-4b11-ab50-e29bb4f55d89": {
+          "from": "c3a740d6-c5d6-42a9-aa30-2fcd3668f537",
+          "to": "01826bf4-03b2-408d-a04b-f45340d680a9",
+          "id": "0b3e58f7-63c9-4b11-ab50-e29bb4f55d89"
+        },
+        "76379654-582d-4e8b-838b-c73542be1772": {
+          "from": "06ceea12-28ff-4277-986a-8281ffbcd8d9",
+          "to": "8fe8b361-3793-40c6-af5d-d424339c7c2a",
+          "id": "76379654-582d-4e8b-838b-c73542be1772"
+        },
+        "f8a279fc-3d05-44cf-b40a-85d9f2e02244": {
+          "from": "d1c6bad4-7f4b-4773-9999-3ca38b2859ad",
+          "to": "a95ba742-d2fc-4771-bf0d-b1b52f97dde0",
+          "id": "f8a279fc-3d05-44cf-b40a-85d9f2e02244"
+        },
+        "9fe9168e-d452-4d49-b323-35fbd928e57a": {
+          "from": "bf489cf2-2b26-47ea-9611-5aea82509b3f",
+          "to": "5c9e5b7a-8bb0-4c19-b7ba-3e10b2a3457e",
+          "id": "9fe9168e-d452-4d49-b323-35fbd928e57a"
+        },
+        "59c26794-6b5e-4c24-8786-ddc1c2ee0e25": {
+          "from": "7f4a75e1-612b-4982-b0ed-c4c0a3c779ad",
+          "to": "85f21747-2eac-45bb-ba54-29f86bb983ed",
+          "id": "59c26794-6b5e-4c24-8786-ddc1c2ee0e25"
+        },
+        "63f951bc-c770-4830-ac2c-b1bc3dd5c33a216": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "63f951bc-c770-4830-ac2c-b1bc3dd5c33a216",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176216",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6289216"
+        },
+        "90df98e0-7206-41e3-9b93-f82b1862a76a": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6289",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6289216",
+          "id": "90df98e0-7206-41e3-9b93-f82b1862a76a"
+        },
+        "c18d641f-bd32-4ecf-bdb4-f6a1f69906ff636": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c18d641f-bd32-4ecf-bdb4-f6a1f69906ff636",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176636",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6584636"
+        },
+        "c18d641f-bd32-4ecf-bdb4-f6a1f69906ff673": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "c18d641f-bd32-4ecf-bdb4-f6a1f69906ff673",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176673",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6584673"
+        },
+        "84d66648-1661-4325-a9a3-1ebab9d922ba": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6584",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6584636",
+          "id": "84d66648-1661-4325-a9a3-1ebab9d922ba"
+        },
+        "63ecfe60-7f78-43d8-93dc-7b3abd969266": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6584",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6584673",
+          "id": "63ecfe60-7f78-43d8-93dc-7b3abd969266"
+        },
+        "94d60f2b-0df0-48e1-8267-15a402cc8c6a462": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "94d60f2b-0df0-48e1-8267-15a402cc8c6a462",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6176462",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6325462"
+        },
+        "74310c84-a46e-405c-a616-c9b9c0eb40fc": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6325462",
+          "id": "74310c84-a46e-405c-a616-c9b9c0eb40fc"
+        },
+        "7cd78836-8a31-43b4-a73e-eb33dfa8e3c6": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6325462849",
+          "id": "7cd78836-8a31-43b4-a73e-eb33dfa8e3c6"
+        },
+        "7cab7f53-c7ca-4f2c-bdf9-07634def215e": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6325462849694",
+          "id": "7cab7f53-c7ca-4f2c-bdf9-07634def215e"
+        },
+        "2f1e5f63-93de-43c9-a6d7-c56c77c221ec": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6325",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6325462418",
+          "id": "2f1e5f63-93de-43c9-a6d7-c56c77c221ec"
+        },
+        "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5926": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "b3ac02e3-1201-4b84-ab41-aa13ca1f9cb5926",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6926",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422926"
+        },
+        "b70a131b-5fd6-4201-b29a-2ff1f1e160cf": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6422926",
+          "id": "b70a131b-5fd6-4201-b29a-2ff1f1e160cf"
+        },
+        "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5131": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5131",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6131",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314131"
+        },
+        "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5138": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6469e7a1-7b7b-4031-b9d9-09ca31abb3a5138",
+          "from": "273b4e56-956b-456c-920c-617d983c37f6138",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314138"
+        },
+        "07acbb78-64fa-4675-924e-f3e865ca813c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6314",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314131",
+          "id": "07acbb78-64fa-4675-924e-f3e865ca813c"
+        },
+        "0cb49ac0-053c-4038-9b7d-e1b338172549": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6314",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6314138",
+          "id": "0cb49ac0-053c-4038-9b7d-e1b338172549"
+        },
+        "b725a053-7b01-4eaa-84df-baf11f47ae3a": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363337",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363337b0",
+          "id": "b725a053-7b01-4eaa-84df-baf11f47ae3a"
+        },
+        "4e1a6bf7-3270-4ed9-8b24-81fe7347e0c3": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363337",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363337b1",
+          "id": "4e1a6bf7-3270-4ed9-8b24-81fe7347e0c3"
+        },
+        "ad3cebc8-1789-4d8c-ad8b-c51df4000b41": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363337",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363337b2",
+          "id": "ad3cebc8-1789-4d8c-ad8b-c51df4000b41"
+        },
+        "72bdb513-d8e6-4428-945f-d0c89a7a2e6c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363337",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363337b3",
+          "id": "72bdb513-d8e6-4428-945f-d0c89a7a2e6c"
+        },
+        "88f8ac66-f46b-4e25-9a55-1de22a1d2221": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363337",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363337b4",
+          "id": "88f8ac66-f46b-4e25-9a55-1de22a1d2221"
+        },
+        "9fc03e94-c853-4f59-b31c-442a900a279c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6853341",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6853341b1",
+          "id": "9fc03e94-c853-4f59-b31c-442a900a279c"
+        },
+        "aa81b3c0-a4ed-4c14-9c0e-4343081613ab": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6853341",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6853341b2",
+          "id": "aa81b3c0-a4ed-4c14-9c0e-4343081613ab"
+        },
+        "c21987b1-1dd9-426e-84a4-91e3835eb9ea": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6853341",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6853341b4",
+          "id": "c21987b1-1dd9-426e-84a4-91e3835eb9ea"
+        },
+        "333b7206-e0cb-433a-85df-4abc4fb9ca15": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b1",
+          "id": "333b7206-e0cb-433a-85df-4abc4fb9ca15"
+        },
+        "b317e6bf-ba01-4d23-a11b-54270c6b8405": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b2",
+          "id": "b317e6bf-ba01-4d23-a11b-54270c6b8405"
+        },
+        "d5b156cc-81b2-4891-964e-60a6d867cba0": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b3",
+          "id": "d5b156cc-81b2-4891-964e-60a6d867cba0"
+        },
+        "6b96fe31-3b5a-40d6-8c93-cba476e5e8e1": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b4",
+          "id": "6b96fe31-3b5a-40d6-8c93-cba476e5e8e1"
+        },
+        "72c65c1b-ee09-4fd1-845f-3ac9403ad7a9": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b5",
+          "id": "72c65c1b-ee09-4fd1-845f-3ac9403ad7a9"
+        },
+        "7cf8eb65-5e95-4c2b-a1c2-3a412527632e": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b6",
+          "id": "7cf8eb65-5e95-4c2b-a1c2-3a412527632e"
+        },
+        "9862d21a-768d-46ef-8789-38f921991c65": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b7",
+          "id": "9862d21a-768d-46ef-8789-38f921991c65"
+        },
+        "19b11c83-4fb4-4e64-b727-1a141df06d1d": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b8",
+          "id": "19b11c83-4fb4-4e64-b727-1a141df06d1d"
+        },
+        "3928557d-3073-4a1c-8c86-6d5b7594c4b6": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b9",
+          "id": "3928557d-3073-4a1c-8c86-6d5b7594c4b6"
+        },
+        "b6874f84-054e-4ded-96ab-6a0a51362df3": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b10",
+          "id": "b6874f84-054e-4ded-96ab-6a0a51362df3"
+        },
+        "795cd47d-ffd9-4f46-8d5b-5551380fb077": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488874",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488874b11",
+          "id": "795cd47d-ffd9-4f46-8d5b-5551380fb077"
+        },
+        "900afc1b-dc7a-4911-a52f-fb5ee48f205e": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567925b1",
+          "id": "900afc1b-dc7a-4911-a52f-fb5ee48f205e"
+        },
+        "ae56277e-0c35-4034-ae30-13ade16ef3b3": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567925b2",
+          "id": "ae56277e-0c35-4034-ae30-13ade16ef3b3"
+        },
+        "384f4e18-5da9-4bd4-876e-ed465a7edec6": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567925b3",
+          "id": "384f4e18-5da9-4bd4-876e-ed465a7edec6"
+        },
+        "8f4c0970-fdaa-4df5-8afb-0452167e0b4b": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567925b4",
+          "id": "8f4c0970-fdaa-4df5-8afb-0452167e0b4b"
+        },
+        "e43c312f-026e-4f17-be89-3d8642e9bc07": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567925b5",
+          "id": "e43c312f-026e-4f17-be89-3d8642e9bc07"
+        },
+        "d600df13-8045-4ee4-a920-493c5711648c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567925b6",
+          "id": "d600df13-8045-4ee4-a920-493c5711648c"
+        },
+        "c31a2e57-edfb-4ffc-a5de-0d28b75352ea": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6567925",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6567925b7",
+          "id": "c31a2e57-edfb-4ffc-a5de-0d28b75352ea"
+        },
+        "691e8e05-ec3b-44be-b4f3-6703b100d56f": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f656763",
+          "to": "273b4e56-956b-456c-920c-617d983c37f656763b1",
+          "id": "691e8e05-ec3b-44be-b4f3-6703b100d56f"
+        },
+        "d586288a-c040-4fc7-8fba-9793240e75bd": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f656763",
+          "to": "273b4e56-956b-456c-920c-617d983c37f656763b2",
+          "id": "d586288a-c040-4fc7-8fba-9793240e75bd"
+        },
+        "96b554d9-e36d-4033-a1a8-6910dfcd7822": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f656763",
+          "to": "273b4e56-956b-456c-920c-617d983c37f656763b3",
+          "id": "96b554d9-e36d-4033-a1a8-6910dfcd7822"
+        },
+        "4d281215-abbe-4f68-9458-b7c232403082": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f656763",
+          "to": "273b4e56-956b-456c-920c-617d983c37f656763b4",
+          "id": "4d281215-abbe-4f68-9458-b7c232403082"
+        },
+        "a4f831ae-0369-49e3-9840-ee0e80c05844": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6619",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6619987b0",
+          "id": "a4f831ae-0369-49e3-9840-ee0e80c05844"
+        },
+        "c08c813c-3561-47be-bda4-74798ceeaca0": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6619",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6619987b1",
+          "id": "c08c813c-3561-47be-bda4-74798ceeaca0"
+        },
+        "09d4c2b4-97ba-4abd-ac9b-f60d0cd2172d": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6619",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6619987b2",
+          "id": "09d4c2b4-97ba-4abd-ac9b-f60d0cd2172d"
+        },
+        "b7d8eb69-c2c0-4de6-8867-a840fe79b190": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578b1",
+          "id": "b7d8eb69-c2c0-4de6-8867-a840fe79b190"
+        },
+        "bed2b32a-53dc-4bbe-acf7-42b88b51aa25": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578b2",
+          "id": "bed2b32a-53dc-4bbe-acf7-42b88b51aa25"
+        },
+        "9c1e915e-2c4d-4859-ba8e-f59ef47c1431": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578b3",
+          "id": "9c1e915e-2c4d-4859-ba8e-f59ef47c1431"
+        },
+        "8c1f033e-4401-4245-be55-289ece45dc54": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578b4",
+          "id": "8c1f033e-4401-4245-be55-289ece45dc54"
+        },
+        "2317d3e6-2439-4c02-88dd-a06e6f2dc609": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578b5",
+          "id": "2317d3e6-2439-4c02-88dd-a06e6f2dc609"
+        },
+        "f39b6d3d-57c9-4678-9a93-957b1e8550c1": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578b6",
+          "id": "f39b6d3d-57c9-4678-9a93-957b1e8550c1"
+        },
+        "042a8c18-549f-4ab3-8701-65ba41186924": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578b7",
+          "id": "042a8c18-549f-4ab3-8701-65ba41186924"
+        },
+        "06d06d33-06a3-4202-bf03-b6f5210b6f03": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6856578",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6856578b8",
+          "id": "06d06d33-06a3-4202-bf03-b6f5210b6f03"
+        },
+        "e8527ac8-16b1-49d7-9abe-065e82edef93": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f686014",
+          "to": "273b4e56-956b-456c-920c-617d983c37f686014b1",
+          "id": "e8527ac8-16b1-49d7-9abe-065e82edef93"
+        },
+        "bcffc6cb-0712-48ad-aec4-4719bb2289bc": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f686014",
+          "to": "273b4e56-956b-456c-920c-617d983c37f686014b2",
+          "id": "bcffc6cb-0712-48ad-aec4-4719bb2289bc"
+        },
+        "5412df86-e3bc-4c58-a1e9-a893d96c9346": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f686014",
+          "to": "273b4e56-956b-456c-920c-617d983c37f686014b3",
+          "id": "5412df86-e3bc-4c58-a1e9-a893d96c9346"
+        },
+        "ea52517e-6a36-495c-948e-bd5638ba33ab": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f686014",
+          "to": "273b4e56-956b-456c-920c-617d983c37f686014b4",
+          "id": "ea52517e-6a36-495c-948e-bd5638ba33ab"
+        },
+        "938cd3cb-7210-4721-88d7-adb3c0cac1d3": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f686014",
+          "to": "273b4e56-956b-456c-920c-617d983c37f686014b5",
+          "id": "938cd3cb-7210-4721-88d7-adb3c0cac1d3"
+        },
+        "ae094a1e-6187-4e48-ac30-34d79313454d": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6436",
+          "to": "273b4e56-956b-456c-920c-617d983c37f643649b0",
+          "id": "ae094a1e-6187-4e48-ac30-34d79313454d"
+        },
+        "e622d502-8ae6-4a06-8d93-e660bdcecf70": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6436",
+          "to": "273b4e56-956b-456c-920c-617d983c37f643649b2",
+          "id": "e622d502-8ae6-4a06-8d93-e660bdcecf70"
+        },
+        "bd43a070-636c-4ca4-8d2f-e9c89ca090af": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6436",
+          "to": "273b4e56-956b-456c-920c-617d983c37f643649b3",
+          "id": "bd43a070-636c-4ca4-8d2f-e9c89ca090af"
+        },
+        "1116ef0c-6cbc-4401-9b17-187764dbea2c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f643649b0",
+          "to": "273b4e56-956b-456c-920c-617d983c37f643649b1",
+          "id": "1116ef0c-6cbc-4401-9b17-187764dbea2c"
+        },
+        "a7486076-8010-4687-bd4e-0b61172eac8f": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6436239",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6436239b1",
+          "id": "a7486076-8010-4687-bd4e-0b61172eac8f"
+        },
+        "afd372df-17ed-45e1-96eb-aaae5a2c422f": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6436569",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6436569b1b0",
+          "id": "afd372df-17ed-45e1-96eb-aaae5a2c422f"
+        },
+        "881ada39-3c71-4b2e-b223-307d82693a36": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f642250",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642250b1",
+          "id": "881ada39-3c71-4b2e-b223-307d82693a36"
+        },
+        "7491c168-355a-49d1-b071-034ee8432db2": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f642250",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642250b2",
+          "id": "7491c168-355a-49d1-b071-034ee8432db2"
+        },
+        "9b852849-9c25-48d6-954c-ebbcb32b8f3b": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f642250",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642250b3",
+          "id": "9b852849-9c25-48d6-954c-ebbcb32b8f3b"
+        },
+        "46403136-5d11-4a82-b3ef-4be2868804bd": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f642250",
+          "to": "273b4e56-956b-456c-920c-617d983c37f642250b4",
+          "id": "46403136-5d11-4a82-b3ef-4be2868804bd"
+        },
+        "7b9f6949-675f-44a4-8cd3-708151697185": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f636325114890",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890b1",
+          "id": "7b9f6949-675f-44a4-8cd3-708151697185"
+        },
+        "e3a48816-d466-45fc-a4c2-c6bcf14ab667": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f636325114890",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890b2",
+          "id": "e3a48816-d466-45fc-a4c2-c6bcf14ab667"
+        },
+        "b56676a5-6167-4e58-b506-010d77f586cf": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f636325114890",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890b3",
+          "id": "b56676a5-6167-4e58-b506-010d77f586cf"
+        },
+        "b2b3958e-719f-4090-ba5c-6f3b6a466e80": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f636325114890",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890b4",
+          "id": "b2b3958e-719f-4090-ba5c-6f3b6a466e80"
+        },
+        "7143ac02-7eeb-4d04-823c-aa5a5afa6f8c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f636325114890",
+          "to": "273b4e56-956b-456c-920c-617d983c37f636325114890b5",
+          "id": "7143ac02-7eeb-4d04-823c-aa5a5afa6f8c"
+        },
+        "56870b14-c688-4ed5-930f-d353bfd37b65317": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "56870b14-c688-4ed5-930f-d353bfd37b65317",
+          "from": "6a5ce314-c659-45ce-8baf-0e0583edcd30317",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380317"
+        },
+        "03a0fbc1-1f5e-4b0a-bf00-069d9a2e49df": {
+          "from": "6a5ce314-c659-45ce-8baf-0e0583edcd30",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380317",
+          "id": "03a0fbc1-1f5e-4b0a-bf00-069d9a2e49df"
+        },
+        "d83a7e48-db06-4a25-8d73-f4046aee2794": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647380317",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380b0",
+          "id": "d83a7e48-db06-4a25-8d73-f4046aee2794"
+        },
+        "e62ce135-5e92-481b-a29a-8e4c322ce531": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647380317",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380b1",
+          "id": "e62ce135-5e92-481b-a29a-8e4c322ce531"
+        },
+        "06491b7c-5203-4c6a-b081-a3eaeedadd31": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647380317",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380b2",
+          "id": "06491b7c-5203-4c6a-b081-a3eaeedadd31"
+        },
+        "7b89d961-dbcb-4c20-903e-63501057771f": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647380317",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380b3",
+          "id": "7b89d961-dbcb-4c20-903e-63501057771f"
+        },
+        "2d5e4f15-cd16-406f-9726-0dbcdd93ec58": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647380317",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380b4",
+          "id": "2d5e4f15-cd16-406f-9726-0dbcdd93ec58"
+        },
+        "32157020-9b0a-4b1f-a52e-addd986c1145": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647380317",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380b5",
+          "id": "32157020-9b0a-4b1f-a52e-addd986c1145"
+        },
+        "c70a82ce-f283-4a59-a8a3-d67259c6125d": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6647380317",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6647380b6",
+          "id": "c70a82ce-f283-4a59-a8a3-d67259c6125d"
+        },
+        "e9a0074e-2cfb-485f-a1ba-4889a34ea8ef": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363251148",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148b1",
+          "id": "e9a0074e-2cfb-485f-a1ba-4889a34ea8ef"
+        },
+        "1452e7df-df0f-4a87-81ca-31063922f9be": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363251148",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148b2",
+          "id": "1452e7df-df0f-4a87-81ca-31063922f9be"
+        },
+        "59d104bd-3b95-4cb7-9140-de4364fda102": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363251148",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148b3",
+          "id": "59d104bd-3b95-4cb7-9140-de4364fda102"
+        },
+        "c05abafa-a4fb-43f0-a8c4-954259a81cd6": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363251148",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148b4",
+          "id": "c05abafa-a4fb-43f0-a8c4-954259a81cd6"
+        },
+        "feca443a-4d8d-4299-9c74-32c7cb03f361": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6363251148",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6363251148b5",
+          "id": "feca443a-4d8d-4299-9c74-32c7cb03f361"
+        },
+        "3e39dfd6-b48b-4f9c-b595-7034900fff62": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6528785",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6528785b1",
+          "id": "3e39dfd6-b48b-4f9c-b595-7034900fff62"
+        },
+        "2fef1304-eb51-4264-aa46-fc08cbb5c5c3": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6528785",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6528785b2",
+          "id": "2fef1304-eb51-4264-aa46-fc08cbb5c5c3"
+        },
+        "29186df4-3c1d-4adc-b05c-fa8cc248f8c1": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424231",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424231b0",
+          "id": "29186df4-3c1d-4adc-b05c-fa8cc248f8c1"
+        },
+        "af4ba3d2-2a90-4c7d-a57b-a25eccbb7e73": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424231",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424231b1",
+          "id": "af4ba3d2-2a90-4c7d-a57b-a25eccbb7e73"
+        },
+        "5eb29e0a-2b9c-4190-a58a-bf5bc244c670": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424231",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424231b2",
+          "id": "5eb29e0a-2b9c-4190-a58a-bf5bc244c670"
+        },
+        "5fc7ff63-cb90-4b01-a171-76daffafdf20": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424231",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424231b3",
+          "id": "5fc7ff63-cb90-4b01-a171-76daffafdf20"
+        },
+        "7882f119-a02b-4c3f-9816-aaea7b3cb4fc": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424231",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424231b4",
+          "id": "7882f119-a02b-4c3f-9816-aaea7b3cb4fc"
+        },
+        "35339fba-85cc-4b59-ad86-06f520f97890": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748801",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748801b0",
+          "id": "35339fba-85cc-4b59-ad86-06f520f97890"
+        },
+        "89ce2516-59f0-421a-b42b-46e109e8af1c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748801",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748801b1",
+          "id": "89ce2516-59f0-421a-b42b-46e109e8af1c"
+        },
+        "7e5fd208-7ea8-4e03-81ff-8d20166c072f": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424293",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424293b1",
+          "id": "7e5fd208-7ea8-4e03-81ff-8d20166c072f"
+        },
+        "73f91031-b4f3-4d4d-bdb1-5aab66bda4e1": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424293",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424293b2",
+          "id": "73f91031-b4f3-4d4d-bdb1-5aab66bda4e1"
+        },
+        "b8cf2089-b0f9-4cd4-9ab0-a929dacb79f2": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6424293",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6424293b3",
+          "id": "b8cf2089-b0f9-4cd4-9ab0-a929dacb79f2"
+        },
+        "697a178d-48c1-4b3a-b6ca-038f3da2a006": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748173",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748173b1",
+          "id": "697a178d-48c1-4b3a-b6ca-038f3da2a006"
+        },
+        "c32edeef-0531-4d2b-96b7-a8cabf7f51a2": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748187",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748187b0",
+          "id": "c32edeef-0531-4d2b-96b7-a8cabf7f51a2"
+        },
+        "2665a175-3d91-41f3-ac5c-83dc4b91a123": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748187",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748187b1",
+          "id": "2665a175-3d91-41f3-ac5c-83dc4b91a123"
+        },
+        "fe4b72e8-0861-4dfa-afb5-ca2faac58e28": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748652",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748652b0",
+          "id": "fe4b72e8-0861-4dfa-afb5-ca2faac58e28"
+        },
+        "4bd425ee-a309-470d-b498-c6ae62a23a33": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748652",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748652b1",
+          "id": "4bd425ee-a309-470d-b498-c6ae62a23a33"
+        },
+        "ae5b0eff-5b50-435d-9a52-7459a68bb418": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748652",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748652b2",
+          "id": "ae5b0eff-5b50-435d-9a52-7459a68bb418"
+        },
+        "01b37e31-8391-431c-b730-940e201ee2d0": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748652",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748652b3",
+          "id": "01b37e31-8391-431c-b730-940e201ee2d0"
+        },
+        "68d9f810-b6fe-4563-a30b-9fefa1b08b59": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748652",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748652b4",
+          "id": "68d9f810-b6fe-4563-a30b-9fefa1b08b59"
+        },
+        "9192e488-092d-42fc-8c1c-a126028e205f": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748652",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748652b5",
+          "id": "9192e488-092d-42fc-8c1c-a126028e205f"
+        },
+        "e88b3e94-3562-41b9-8753-bd547bdcaade": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748168",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748168b0",
+          "id": "e88b3e94-3562-41b9-8753-bd547bdcaade"
+        },
+        "d8e20b7d-226c-4163-b06f-30a60e0b284e": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748168",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748168b1",
+          "id": "d8e20b7d-226c-4163-b06f-30a60e0b284e"
+        },
+        "ba76da74-9462-4e0f-b03c-23b34de777c9": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6748168",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6748168b2",
+          "id": "ba76da74-9462-4e0f-b03c-23b34de777c9"
+        },
+        "5d994197-e603-4c58-9e35-24a6df3d52ee": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f648847",
+          "to": "273b4e56-956b-456c-920c-617d983c37f648847b0",
+          "id": "5d994197-e603-4c58-9e35-24a6df3d52ee"
+        },
+        "1bbf1ba9-4089-48e4-a259-12c97f5fabda": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f648847",
+          "to": "273b4e56-956b-456c-920c-617d983c37f648847b1",
+          "id": "1bbf1ba9-4089-48e4-a259-12c97f5fabda"
+        },
+        "6cf2f6ae-a53e-4bd5-ad5e-f8b8d0e73836": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f648847",
+          "to": "273b4e56-956b-456c-920c-617d983c37f648847b2",
+          "id": "6cf2f6ae-a53e-4bd5-ad5e-f8b8d0e73836"
+        },
+        "9a3aa5e9-546f-41f1-aaa3-222a116a4ff1": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f648847",
+          "to": "273b4e56-956b-456c-920c-617d983c37f648847b3",
+          "id": "9a3aa5e9-546f-41f1-aaa3-222a116a4ff1"
+        },
+        "b6b8fc75-f29b-480d-8484-b0ac9cb574c7": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f648847",
+          "to": "273b4e56-956b-456c-920c-617d983c37f648847b4",
+          "id": "b6b8fc75-f29b-480d-8484-b0ac9cb574c7"
+        },
+        "22352f71-0dc5-49b2-9968-e0eef0faa165": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f648847",
+          "to": "273b4e56-956b-456c-920c-617d983c37f648847b5",
+          "id": "22352f71-0dc5-49b2-9968-e0eef0faa165"
+        },
+        "ddc29311-d470-44e2-b28f-48251653e0b8": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f648847",
+          "to": "273b4e56-956b-456c-920c-617d983c37f648847b6",
+          "id": "ddc29311-d470-44e2-b28f-48251653e0b8"
+        },
+        "d954b5e2-3241-49bb-a669-feb9a5abce58": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488336",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488336b1",
+          "id": "d954b5e2-3241-49bb-a669-feb9a5abce58"
+        },
+        "12c39137-bfb4-4b37-b0ff-b6ebde6c9e71": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488336",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488336b2",
+          "id": "12c39137-bfb4-4b37-b0ff-b6ebde6c9e71"
+        },
+        "a0595a84-4c81-4c74-ba24-a3db864863cf": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488336",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488336b3",
+          "id": "a0595a84-4c81-4c74-ba24-a3db864863cf"
+        },
+        "44a4817d-67fd-4458-b91e-90342cddb7c6": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488336",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488336b4",
+          "id": "44a4817d-67fd-4458-b91e-90342cddb7c6"
+        },
+        "b878df21-38a8-416b-8c27-edb4f5260e03": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488538",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488538b0",
+          "id": "b878df21-38a8-416b-8c27-edb4f5260e03"
+        },
+        "ce8287e8-2442-42e1-b985-c20c5033282a": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488538",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488538b1",
+          "id": "ce8287e8-2442-42e1-b985-c20c5033282a"
+        },
+        "7d8af844-c048-4578-aeb6-cc4077b948ac": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488538",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488538b2",
+          "id": "7d8af844-c048-4578-aeb6-cc4077b948ac"
+        },
+        "dbca655d-2d35-4bfc-bb15-baa4d571192b": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6488538",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6488538b3",
+          "id": "dbca655d-2d35-4bfc-bb15-baa4d571192b"
+        },
+        "3177e355-c508-4a8c-927b-e935d2e8024c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490432",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490432b0",
+          "id": "3177e355-c508-4a8c-927b-e935d2e8024c"
+        },
+        "c75025f4-3e76-4edc-9a37-9bc1d4d306a8": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490432",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490432b1",
+          "id": "c75025f4-3e76-4edc-9a37-9bc1d4d306a8"
+        },
+        "a0e431ae-ebc1-4d30-b3c1-cf34d8c24feb": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422b0",
+          "id": "a0e431ae-ebc1-4d30-b3c1-cf34d8c24feb"
+        },
+        "e118e3b7-8abf-4ce5-83f7-05d4e42b5fbd": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422b1",
+          "id": "e118e3b7-8abf-4ce5-83f7-05d4e42b5fbd"
+        },
+        "28595b8d-22cc-4216-ac59-abc872bd2a15": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422b2",
+          "id": "28595b8d-22cc-4216-ac59-abc872bd2a15"
+        },
+        "bee645e1-97f3-4adf-90a3-1534d78795bd": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422b3",
+          "id": "bee645e1-97f3-4adf-90a3-1534d78795bd"
+        },
+        "fff86f47-0061-4680-84e5-0731b684a956": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422b4",
+          "id": "fff86f47-0061-4680-84e5-0731b684a956"
+        },
+        "1278b729-424b-4936-b2cc-a5c17bfa0a54": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422b5",
+          "id": "1278b729-424b-4936-b2cc-a5c17bfa0a54"
+        },
+        "94a59a40-0355-4bb2-b874-785b2e7520bc": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422b6",
+          "id": "94a59a40-0355-4bb2-b874-785b2e7520bc"
+        },
+        "3a74c1d4-2406-499d-b025-915c22b54149": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422b7",
+          "id": "3a74c1d4-2406-499d-b025-915c22b54149"
+        },
+        "f05bf8d1-d424-4efb-89b2-e2e999dc6595": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6575422",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6575422b8",
+          "id": "f05bf8d1-d424-4efb-89b2-e2e999dc6595"
+        },
+        "98df4e73-1621-4ed4-8a28-0f3bf13a79ed": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f657569",
+          "to": "273b4e56-956b-456c-920c-617d983c37f657569b0",
+          "id": "98df4e73-1621-4ed4-8a28-0f3bf13a79ed"
+        },
+        "184e25a0-dba5-4f48-b8d9-4557748593e2": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f657569",
+          "to": "273b4e56-956b-456c-920c-617d983c37f657569b1",
+          "id": "184e25a0-dba5-4f48-b8d9-4557748593e2"
+        },
+        "afdd287b-f664-4eb0-a8d5-bb7d86b94ae4": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f657569",
+          "to": "273b4e56-956b-456c-920c-617d983c37f657569b2",
+          "id": "afdd287b-f664-4eb0-a8d5-bb7d86b94ae4"
+        },
+        "8b7e7f8d-5683-4dfa-8433-7083852c9dd0": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478547",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478547b1",
+          "id": "8b7e7f8d-5683-4dfa-8433-7083852c9dd0"
+        },
+        "abc74181-c4be-4f48-8b3d-644c1b346646": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478547b1",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478547b0",
+          "id": "abc74181-c4be-4f48-8b3d-644c1b346646"
+        },
+        "49ba2531-b5dd-4a56-b923-f49ee2ee3033": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478547b0",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478547b2",
+          "id": "49ba2531-b5dd-4a56-b923-f49ee2ee3033"
+        },
+        "24c87b6c-aa08-4e52-95d9-e7172f57880a": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478547b0",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478547b3",
+          "id": "24c87b6c-aa08-4e52-95d9-e7172f57880a"
+        },
+        "fd0eb9d5-cfb4-471b-bd83-3ae554235acb": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478547b0",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478547b4",
+          "id": "fd0eb9d5-cfb4-471b-bd83-3ae554235acb"
+        },
+        "62b595a4-511b-46c4-9cc4-caa57a2df13b": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478547b0",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478547b5",
+          "id": "62b595a4-511b-46c4-9cc4-caa57a2df13b"
+        },
+        "9fac8b9d-5f78-4cea-9093-e3c2b5ec7d5f": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478188",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478188b1",
+          "id": "9fac8b9d-5f78-4cea-9093-e3c2b5ec7d5f"
+        },
+        "71a53a2d-9fe3-406a-8b77-c37a80015f77": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478188",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478188b2",
+          "id": "71a53a2d-9fe3-406a-8b77-c37a80015f77"
+        },
+        "55923c07-271a-4594-abd6-c49d2c74b5e3": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6478188",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6478188b3",
+          "id": "55923c07-271a-4594-abd6-c49d2c74b5e3"
+        },
+        "09f5ae22-b00a-4ac0-b678-49c0393fbd9c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6594903",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6594903b0",
+          "id": "09f5ae22-b00a-4ac0-b678-49c0393fbd9c"
+        },
+        "db859153-40db-448d-86d4-ec2716d7cebe": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6594903",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6594903b1",
+          "id": "db859153-40db-448d-86d4-ec2716d7cebe"
+        },
+        "1be5d666-1bad-4101-842a-4a70e8402434": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6594903",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6594903b2",
+          "id": "1be5d666-1bad-4101-842a-4a70e8402434"
+        },
+        "6f2c0c14-7637-4188-90d3-a8c8b60d1f81": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6594903",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6594903b3",
+          "id": "6f2c0c14-7637-4188-90d3-a8c8b60d1f81"
+        },
+        "d035e35f-acfc-489f-863e-562f770a4ad1": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f6594903",
+          "to": "273b4e56-956b-456c-920c-617d983c37f6594903b4",
+          "id": "d035e35f-acfc-489f-863e-562f770a4ad1"
+        },
+        "0a625e5b-389b-4dab-bb0b-fd127b90ecba": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490394",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490394b0",
+          "id": "0a625e5b-389b-4dab-bb0b-fd127b90ecba"
+        },
+        "e209a84c-35fe-40df-9c1a-439e436268c2": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490394",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490394b1",
+          "id": "e209a84c-35fe-40df-9c1a-439e436268c2"
+        },
+        "9eb5aec7-ed1d-43d3-a962-c78797edd5f1": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490394",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490394b2",
+          "id": "9eb5aec7-ed1d-43d3-a962-c78797edd5f1"
+        },
+        "23d0a960-c395-42c3-9a20-aa5612bf5b77": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490394",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490394b3",
+          "id": "23d0a960-c395-42c3-9a20-aa5612bf5b77"
+        },
+        "44d24439-9be6-49f1-80c1-957f98258558": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490394",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490394b4",
+          "id": "44d24439-9be6-49f1-80c1-957f98258558"
+        },
+        "d5178fac-7dcc-49c9-ba1e-861b23d1c4ef": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490394",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490394b5",
+          "id": "d5178fac-7dcc-49c9-ba1e-861b23d1c4ef"
+        },
+        "e52b337b-8260-4e10-ba33-8f730db2581e": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490346",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490346b0",
+          "id": "e52b337b-8260-4e10-ba33-8f730db2581e"
+        },
+        "18b258ec-eeff-4966-835d-c273e2e99c5a": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490346",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490346b1",
+          "id": "18b258ec-eeff-4966-835d-c273e2e99c5a"
+        },
+        "008f699f-e1b5-4b28-89c4-9cf2ca0f05a7": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490346",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490346b2",
+          "id": "008f699f-e1b5-4b28-89c4-9cf2ca0f05a7"
+        },
+        "2f9addbc-d6d0-4b6d-bfbc-05db53d5a05c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490346",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490346b3",
+          "id": "2f9addbc-d6d0-4b6d-bfbc-05db53d5a05c"
+        },
+        "3c0fda91-ed82-4d8b-8656-44c8b2525f6d": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490126",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490126b0",
+          "id": "3c0fda91-ed82-4d8b-8656-44c8b2525f6d"
+        },
+        "a88a2e28-77f1-4a5a-a44d-63e0b011b499": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490126",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490126b1",
+          "id": "a88a2e28-77f1-4a5a-a44d-63e0b011b499"
+        },
+        "359a3991-4fc5-4ded-968c-9e06f944afde": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490126",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490126b2",
+          "id": "359a3991-4fc5-4ded-968c-9e06f944afde"
+        },
+        "32ab891f-82ac-402e-b20e-34fa4fa2602a": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490528",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490528b0",
+          "id": "32ab891f-82ac-402e-b20e-34fa4fa2602a"
+        },
+        "534a505a-fc80-43c5-aa19-7d874055caf9": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490528",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490528b1",
+          "id": "534a505a-fc80-43c5-aa19-7d874055caf9"
+        },
+        "bd8cfd92-57e7-4647-90c6-77e422f1b63e": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490528",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490528b2",
+          "id": "bd8cfd92-57e7-4647-90c6-77e422f1b63e"
+        },
+        "d19eefab-12ea-46a1-a098-f60a9e324185": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490571b0",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490571b1",
+          "id": "d19eefab-12ea-46a1-a098-f60a9e324185"
+        },
+        "795975a6-45b5-4cfa-b692-99f8cf67d6f2": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490571",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490571b0",
+          "id": "795975a6-45b5-4cfa-b692-99f8cf67d6f2"
+        },
+        "2ccdc284-26a7-43a7-911f-ea840f1374aa": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490571",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490571b1",
+          "id": "2ccdc284-26a7-43a7-911f-ea840f1374aa"
+        },
+        "6b124562-17e3-4381-9899-383be7a65c6d": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490787",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490787b0",
+          "id": "6b124562-17e3-4381-9899-383be7a65c6d"
+        },
+        "83683907-de7c-4a37-868c-6b6badb2cab1": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490787",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490787b1",
+          "id": "83683907-de7c-4a37-868c-6b6badb2cab1"
+        },
+        "fb6b3d38-f9df-4161-b4cc-07f908993499": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659490787",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659490787b2",
+          "id": "fb6b3d38-f9df-4161-b4cc-07f908993499"
+        },
+        "c07074d7-fd39-4f46-b421-566fa182d94d": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659900",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659900b1",
+          "id": "c07074d7-fd39-4f46-b421-566fa182d94d"
+        },
+        "be6efbdc-955b-417b-895d-8c7e8f5a3c1c": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659900",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659900b2",
+          "id": "be6efbdc-955b-417b-895d-8c7e8f5a3c1c"
+        },
+        "1a00f059-1524-4885-9884-6b04c82f4406": {
+          "from": "273b4e56-956b-456c-920c-617d983c37f659900",
+          "to": "273b4e56-956b-456c-920c-617d983c37f659900b3",
+          "id": "1a00f059-1524-4885-9884-6b04c82f4406"
+        },
+        "6d3c63b9-0c2f-4afe-8a22-bc49a24c1192833": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6d3c63b9-0c2f-4afe-8a22-bc49a24c1192833",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159920833",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c159541833"
+        },
+        "eacb84be-4e41-450e-af71-98de52af761c833": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "eacb84be-4e41-450e-af71-98de52af761c833",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159541833",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954128833"
+        },
+        "67854322-bdfd-4fee-85d5-b219285ed3cd833": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "67854322-bdfd-4fee-85d5-b219285ed3cd833",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159541833",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954139833"
+        },
+        "2b642d24-94fb-4598-9246-10ab08210ba8": {
+          "from": "481735cd-1c99-4287-92f1-05737a2d4934941",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c159541833",
+          "id": "2b642d24-94fb-4598-9246-10ab08210ba8"
+        },
+        "6d3c63b9-0c2f-4afe-8a22-bc49a24c1192257": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "6d3c63b9-0c2f-4afe-8a22-bc49a24c1192257",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159920257",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c159541257"
+        },
+        "eacb84be-4e41-450e-af71-98de52af761c257": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "eacb84be-4e41-450e-af71-98de52af761c257",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159541257",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954128257"
+        },
+        "67854322-bdfd-4fee-85d5-b219285ed3cd257": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "67854322-bdfd-4fee-85d5-b219285ed3cd257",
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159541257",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c15954139257"
+        },
+        "4cfa6ce3-9160-4547-9d85-b7bd8efab22b": {
+          "from": "55b732e4-7423-46c4-9795-f2a15238950c159541833",
+          "to": "55b732e4-7423-46c4-9795-f2a15238950c159541257",
+          "id": "4cfa6ce3-9160-4547-9d85-b7bd8efab22b"
         }
       },
       "length": 0,
@@ -55996,7 +70197,7 @@ var schemeData =
   "setup": {
     "scale": 0.0145,
     "viewPosition": {
-      "x": 100403.0000013793,
+      "x": 100399.99999999994,
       "y": 10000.000003448278
     }
   }
