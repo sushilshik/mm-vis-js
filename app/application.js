@@ -48,6 +48,9 @@ var dontShowShemeDataMenuPagesList = [
    "news3.html",
    "news4.html",
    "news5.html",
+   "news51.html",
+   "news6.html",
+   "news61.html",
    "youtube1.html",
    "youtube2.html",
    "base.html",
@@ -58,7 +61,9 @@ var dontShowShemeDataMenuPagesList = [
    "timelines.html",
    "music.html",
    "java.html",
-   "java-api.html"
+   "java-api.html",
+   "sa1.html",
+   "sa2.html"
 ];
 var lastSelectedNodeId = null;
 var userConfData = undefined
@@ -66,6 +71,7 @@ var cursorNodeId = null;
 var keyboardMoveSelectedEnabled = false;
 var copiedNodeStyleColor = "";
 var copiedNodeStyleFontSize = "";
+var nextOperationMultiplier = "";
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -2523,6 +2529,7 @@ function buildRow(item, index, root) {
       var nodeBBox = network.nodesHandler.getBoundingBox(nodeId);
       var y = nodeBBox["top"];
       var newNodesIds = [];
+      var newNodesIdsCol2 = [];
       if (newLabelLines[0] == "to") {
          newLabelLines.shift();
          var root = {nodes:{}};
@@ -2589,12 +2596,30 @@ function buildRow(item, index, root) {
             var addedNodeId = addNodeWithIdOnCanvas(line, "", position, 0, 0, network, newNodeId);
             newNodesIds.push(addedNodeId);
             y = y + 14*line.split("\n").length + 10;
+            //If use !@!@ delimiter, then take result string and use it first line as
+            //label for new node to the right. E.g. as label for function name.
+            if (nodeLabel.split("!@!@").length > 1) {
+               labelNodeLabel = line.split("\n").length > 0 ? line.split("\n")[0] : "";
+               var labelNodePosition = {x: position.x + 1000, y: position.y};
+               var newLabelNodeId = nodeId + "bb" + String(index);
+               var addedLabelNodeId = addNodeWithIdOnCanvas(labelNodeLabel, "", labelNodePosition, 0, 0, network, newLabelNodeId)[0];
+               newNodesIdsCol2.push(addedLabelNodeId);
+               network.body.data.edges.add({
+                  from:newNodeId,
+                  to:addedLabelNodeId
+               });
+            }
          });
          var nodes = [];
          newNodesIds.forEach(function(nodeId) {      
             nodes.push(network.body.nodes[nodeId]);
          });
          alignNodesLeft(nodes);
+         var nodesCol2 = [];
+         newNodesIdsCol2.forEach(function(nodeId) {      
+            nodesCol2.push(network.body.nodes[nodeId]);
+         });
+         alignNodesLeft(nodesCol2);
       }
    }
 $(document).ready(function() {
@@ -3035,6 +3060,34 @@ runNodeCodeButton.click(function() {
          network.selectionHandler.selectObject(node);
          lastEditedNodesIds.push(nodeId);
          network.manipulation.editNode();
+      }
+   });
+   $(document).keyup(function (event) {
+      //Set nextOperationMultiplier
+      if (event.altKey == false && 
+          event.shiftKey == false && 
+          event.ctrlKey == false && 
+          [49,50,51,52,53,54,55,56,57,48].indexOf(event.keyCode) != -1) {
+             var number = null;
+             if (event.keyCode == 49) number = "1";
+             if (event.keyCode == 50) number = "2";
+             if (event.keyCode == 51) number = "3";
+             if (event.keyCode == 52) number = "4";
+             if (event.keyCode == 53) number = "5";
+             if (event.keyCode == 54) number = "6";
+             if (event.keyCode == 55) number = "7";
+             if (event.keyCode == 56) number = "8";
+             if (event.keyCode == 57) number = "9";
+             if (event.keyCode == 48) number = "0";
+             nextOperationMultiplier = nextOperationMultiplier + number;
+console.log(nextOperationMultiplier);
+      }
+   });
+
+   $(document).keyup(function (event) {
+      //Drop nextOperationMultiplier
+      if (event.keyCode == 13) {
+             nextOperationMultiplier = "";
       }
    });
    $(document).keyup(function (event) {
@@ -4719,9 +4772,15 @@ var moveCursorRightFast = false;
    $("#network").keyup(function (event) {
       //Duplicate. Ctrl+alt+d.
       if (event.ctrlKey && event.altKey && event.keyCode === 68) {
-         selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
-         selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
-         duplicateGraph(selectedNodes, selectedEdges);
+         if (nextOperationMultiplier.length > 0) {
+            var multiplyCount = parseInt(nextOperationMultiplier);
+            multiplySelected(multiplyCount, "c", 0, 30, 0);
+            nextOperationMultiplier = "";
+         } else {
+            selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+            selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
+            duplicateGraph(selectedNodes, selectedEdges);
+         }
       }
    });
    $("div#network").keydown(function (event) {
@@ -4977,6 +5036,10 @@ function help() {
    console.log("viewLink()");
    console.log("tG(multiplyCount, idPostfix, xShift, yShift, dateLine = '', idCounterPostfixStart = 0)");
    console.log("multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0)");
+   console.log("hC()");
+   console.log("sC()");
+   console.log("fN()");
+   console.log("uFN()");
 }
 
 function hideAllToDownloadNews(selectedNodesIds, selectedEdgesIds) {

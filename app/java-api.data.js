@@ -5079,7 +5079,7 @@ var schemeData =
           "label": "Dictionary of\nconcepts",
           "id": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39",
           "x": 66380,
-          "y": -25039,
+          "y": -24958,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -16669,6 +16669,80 @@ var schemeData =
           "link": "https://docs.oracle.com/javase/specs/jls/se8/html/spec-license.html",
           "x": 103998,
           "y": -11649
+        },
+        "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39457": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "https://docs.marklogic.com/guide/java/intro",
+          "id": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39457",
+          "x": 66921,
+          "y": -24920,
+          "shape": "box",
+          "link": "https://docs.marklogic.com/guide/java/intro",
+          "borderWidth": "0",
+          "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
+        },
+        "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39862": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Introduction to the Java API",
+          "id": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39862",
+          "x": 66656,
+          "y": -24918,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         }
       },
       "length": 0,
@@ -70146,6 +70220,140 @@ var schemeData =
           "from": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a133",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a132753650193124b0",
           "id": "73a92d2f-355b-4728-adee-93f991219568"
+        },
+        "87983bd7-3df6-tnh2-ac28-188f9abb92ad0a39457": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "87983bd7-3df6-tnh2-ac28-188f9abb92ad0a39457",
+          "from": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270a39457",
+          "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39457"
+        },
+        "1e01d68e-57f5-49ba-9054-0910ab2b35db457": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "1e01d68e-57f5-49ba-9054-0910ab2b35db457",
+          "from": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39457",
+          "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39821457"
+        },
+        "87983bd7-3df6-tnh2-ac28-188f9abb92ad0a39862": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "87983bd7-3df6-tnh2-ac28-188f9abb92ad0a39862",
+          "from": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270a39862",
+          "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39862"
+        },
+        "1e01d68e-57f5-49ba-9054-0910ab2b35db862": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "1e01d68e-57f5-49ba-9054-0910ab2b35db862",
+          "from": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39862",
+          "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39821862"
+        },
+        "3b90bb5a-e24f-48ee-9bce-6b2f2d061313": {
+          "from": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39862",
+          "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39457",
+          "id": "3b90bb5a-e24f-48ee-9bce-6b2f2d061313"
+        },
+        "2c4ddb99-aade-4d32-b5a7-cb6f9b6e89a5": {
+          "from": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39",
+          "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a39862",
+          "id": "2c4ddb99-aade-4d32-b5a7-cb6f9b6e89a5"
         }
       },
       "length": 0,
@@ -70191,8 +70399,8 @@ var schemeData =
   "setup": {
     "scale": 0.014,
     "viewPosition": {
-      "x": 98799.99999714286,
-      "y": -1449.9999985714242
+      "x": 98799.99999714294,
+      "y": -1449.9999985715217
     }
   }
 }

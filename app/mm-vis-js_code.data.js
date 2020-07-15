@@ -1955,7 +1955,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar selectionRectangleDrag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news2.html\",\n   \"news3.html\",\n   \"news4.html\",\n   \"news5.html\",\n   \"youtube1.html\",\n   \"youtube2.html\",\n   \"base.html\",\n   \"start_page.html\",\n   \"tmp.html\",\n   \"tmp1.html\",\n   \"nature.html\",\n   \"timelines.html\",\n   \"music.html\",\n   \"java.html\",\n   \"java-api.html\"\n];\nvar lastSelectedNodeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\nvar cursorNodeId = null;\nvar keyboardMoveSelectedEnabled = false;\nvar copiedNodeStyleColor = \"\";\nvar copiedNodeStyleFontSize = \"\";\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
+          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditElementsMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar selectionRectangleDrag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news2.html\",\n   \"news3.html\",\n   \"news4.html\",\n   \"news5.html\",\n   \"news51.html\",\n   \"news6.html\",\n   \"news61.html\",\n   \"youtube1.html\",\n   \"youtube2.html\",\n   \"base.html\",\n   \"start_page.html\",\n   \"tmp.html\",\n   \"tmp1.html\",\n   \"nature.html\",\n   \"timelines.html\",\n   \"music.html\",\n   \"java.html\",\n   \"java-api.html\",\n   \"sa1.html\",\n   \"sa2.html\"\n];\nvar lastSelectedNodeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\nvar cursorNodeId = null;\nvar keyboardMoveSelectedEnabled = false;\nvar copiedNodeStyleColor = \"\";\nvar copiedNodeStyleFontSize = \"\";\nvar nextOperationMultiplier = \"\";\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
           "x": 38920,
           "y": -7600,
           "id": "ee38a01b-7b68-4bd4-8b3a-eee22629d252486",
@@ -4053,8 +4053,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "$(document).ready(function() {\n\n\tcontainerJQ[0].oncontextmenu = () => false;\n\t//topMenu = $(\"<div style='margin:0 0 0 0; padding:3px; background-color: black;color:white;z-index:9999'></div>\");\n\t\n\tbody = $(\"body\");\n\n\tshowDataButton = $(\"<div id='showData' style='cursor:pointer;color:black;float:right;position:fixed;top:3px; line-height: 0;right:0;z-index:9999;padding: 15px;margin:-5px 0 5px 0; background-color:white;border: 1px solid #a3a3a3;font-size:12px'>showData</div>\");\n\tbody.append(showDataButton);\n\n\tschemeEditElementsMenu = $(\"<div id='schemeEditElementsMenu' style='height:100%; width:300px; position:fixed; left:0; top:29px;border-right: 1px solid #a3a3a3; background-color:white;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n\tschemeEditElementsMenu.hide();\n\tbody.append(schemeEditElementsMenu);\n\n\tvar elementsSetupTable = $(\"<table id='elementsSetupTable'></table>\");",
-          "x": 40441,
-          "y": 40909,
+          "x": 40471,
+          "y": 41622,
           "id": "5541e730-dc41-48fb-9666-86590c704c68486"
         },
         "7206a9f0-1dcf-4435-89e7-67b6913ada0a486": {
@@ -4084,8 +4084,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar eSRow1 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow1);\n\tvar eSItem11 = $(\"<td></td>\");\n\tvar eSItem12 = $(\"<td></td>\");\n\teSRow1.append(eSItem11);\n\teSRow1.append(eSItem12);\n\tvar nodeIdInputLabel = $(\"<div style=''><span>nodeId: </span></div>\");\n\teSItem11.append(nodeIdInputLabel);\n\tvar nodeIdInput = $(\"<input type='text' id='nodeIdInput'></input>\");\n\teSItem12.append(nodeIdInput);\n\n\tvar eSRow2 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow2);\n\tvar eSItem21 = $(\"<td></td>\");\n\tvar eSItem22 = $(\"<td></td>\");\n\teSRow2.append(eSItem21);\n\teSRow2.append(eSItem22);\n\tvar nodeLabelInputLabel = $(\"<div style=''><span>nodeLabel: </span></div>\");\n\teSItem21.append(nodeLabelInputLabel);\n\tvar nodeLabelTextarea = $(\"<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>\");\n\teSItem22.append(nodeLabelTextarea);\n\n\tvar eSRow3 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow3);\n\tvar eSItem31 = $(\"<td></td>\");\n\tvar eSItem32 = $(\"<td></td>\");\n\teSRow3.append(eSItem31);\n\teSRow3.append(eSItem32);\n\tvar nodeXInputLabel = $(\"<div style=''><span>nodeX: </span></div>\");\n\teSItem31.append(nodeXInputLabel);\n\tvar nodeXInput = $(\"<input type='text' id='nodeXInput'></input>\");\n\teSItem32.append(nodeXInput);\n\n\tvar eSRow4 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow4);\n\tvar eSItem41 = $(\"<td></td>\");\n\tvar eSItem42 = $(\"<td></td>\");\n\teSRow4.append(eSItem41);\n\teSRow4.append(eSItem42);\n\tvar nodeYInputLabel = $(\"<div style=''><span>nodeY: </span></div>\");\n\teSItem41.append(nodeYInputLabel);\n\tvar nodeYInput = $(\"<input type='text' id='nodeYInput'></input>\");\n\teSItem42.append(nodeYInput);\n\n\tvar eSRow5 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow5);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5.append(eSItem51);\n\teSRow5.append(eSItem52);\n\tvar nodeShapeInputLabel = $(\"<div style=''><span>nodeShape: </span></div>\");\n\teSItem51.append(nodeShapeInputLabel);\n\tvar nodeShapeInput = $(\"<input type='text' id='nodeShapeInput'></input>\");\n\teSItem52.append(nodeShapeInput);\n\n\tvar eSRow6 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow6);\n\tvar eSItem61 = $(\"<td></td>\");\n\tvar eSItem62 = $(\"<td></td>\");\n\teSRow6.append(eSItem61);\n\teSRow6.append(eSItem62);\n\tvar nodeLinkTextareaLabel = $(\"<div style=''><span>nodeLink: </span></div>\");\n\teSItem61.append(nodeLinkTextareaLabel);\n\tvar nodeLinkTextarea = $(\"<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>\");\n\teSItem62.append(nodeLinkTextarea);\n\tvar linkOpenButton = $(\"<div style='cursor:pointer;margin: 4px 0 2px 0;' id='linkOpenButton'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>\");\n\teSItem62.append(linkOpenButton);\n\n\tvar eSRow7 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow7);\n\tvar eSItem71 = $(\"<td></td>\");\n\tvar eSItem72 = $(\"<td></td>\");\n\teSRow7.append(eSItem71);\n\teSRow7.append(eSItem72);\n\tvar nodeColorInputLabel = $(\"<div style=''><span>nodeColor: </span></div>\");\n\teSItem71.append(nodeColorInputLabel);\n\tvar nodeColorInput = $(\"<input type='text' id='nodeColorInput'></input>\");\n\teSItem72.append(nodeColorInput);\n\n\tvar eSRow8 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow8);\n\tvar eSItem81 = $(\"<td></td>\");\n\tvar eSItem82 = $(\"<td></td>\");\n\teSRow8.append(eSItem81);\n\teSRow8.append(eSItem82);\n\tvar nodeBorderWidthInputLabel = $(\"<div style=''><span>nodeBorderWidth: </span></div>\");\n\teSItem81.append(nodeBorderWidthInputLabel);\n\tvar nodeBorderWidthInput = $(\"<input type='text' id='nodeBorderWidthInput'></input>\");\n\teSItem82.append(nodeBorderWidthInput);\n\n\tvar eSRow9 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow9);\n\tvar eSItem91 = $(\"<td></td>\");\n\tvar eSItem92 = $(\"<td></td>\");\n\teSRow9.append(eSItem91);\n\teSRow9.append(eSItem92);\n\tvar nodeBorderColorInputLabel = $(\"<div style=''><span>nodeBorderColor: </span></div>\");\n\teSItem91.append(nodeBorderColorInputLabel);\n\tvar nodeBorderColorInput = $(\"<input type='text' id='nodeBorderColorInput'></input>\");\n\teSItem92.append(nodeBorderColorInput);\n\n\tvar eSRow10 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow10);\n\tvar eSItem101 = $(\"<td></td>\");\n\tvar eSItem102 = $(\"<td></td>\");\n\teSRow10.append(eSItem101);\n\teSRow10.append(eSItem102);\n\tvar nodeFontSizeInputLabel = $(\"<div style=''><span>nodeFontSize: </span></div>\");\n\teSItem101.append(nodeFontSizeInputLabel);\n\tvar nodeFontSizeInput = $(\"<input type='text' id='nodeFontSizeInput'></input>\");\n\teSItem102.append(nodeFontSizeInput);\n\n\tvar eSRow11 = $(\"<tr></tr>\");\n\telementsSetupTable.append(eSRow11);\n\tvar eSItem111 = $(\"<td></td>\");\n\tvar eSItem112 = $(\"<td></td>\");\n\teSRow11.append(eSItem111);\n\teSRow11.append(eSItem112);\n\tvar nodeFontAlignInputLabel = $(\"<div style=''><span>nodeFontAlign: </span></div>\");\n\teSItem111.append(nodeFontAlignInputLabel);\n\tvar nodeFontAlignInput = $(\"<input type='text' id='nodeFontAlignInput'></input>\");\n\teSItem112.append(nodeFontAlignInput);",
-          "x": 41390,
-          "y": 41927,
+          "x": 41420,
+          "y": 42640,
           "id": "7206a9f0-1dcf-4435-89e7-67b6913ada0a486",
           "shape": "box",
           "link": "",
@@ -4118,8 +4118,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "   linkOpenButton.click(function() {\n      var link = nodeLinkTextarea.val();\n      //if link starts with userConfData[\"someConfPathKey\"], then we replace this var with path for its key from userConfData\n      if (link.match(/^userConfData/) != null) {\nconsole.log(1);\n         if (typeof userConfData !== \"undefined\") {\nconsole.log(1);\n            var userConfKey = link.replace(/.*userConfData\\[\"(.*?)\"\\].*/g,\"$1\");\nconsole.log(\"userConfKey: \" + userConfKey);\n            var userConfLinkPath = userConfData[userConfKey];\n            if (typeof userConfLinkPath !== \"undefined\" && userConfLinkPath.length > 0) {\n               link = link.replace(/.*userConfData\\[\".*?\"\\]/g,userConfLinkPath);\n            }\n         } else {\n            link = link.replace(/.*userConfData\\[\".*?\"\\]/g,\"Error: no local path for this file. \");\n         }\n      }\n      if (link.length > 0) {\n         window.open(link, '_blank');\n      }\n   });\n\n   schemeEditElementsMenu.append(elementsSetupTable);\n\n   var saveElementEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElement</span></div>\");\n   schemeEditElementsMenu.append(saveElementEditButton);",
-          "x": 41279,
-          "y": 42992,
+          "x": 41309,
+          "y": 43705,
           "id": "cb4ee9f8-9b21-48a4-b19a-c037a9385cbb486",
           "shape": "box",
           "link": "",
@@ -4152,8 +4152,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tsaveElementEditButton.click(function() {\n\t\tvar nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = schemeEditElementsMenu.find(\"textarea#nodeLabelTextarea\");\n\t\tvar nodeXInput = schemeEditElementsMenu.find(\"input#nodeXInput\");\n\t\tvar nodeYInput = schemeEditElementsMenu.find(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = schemeEditElementsMenu.find(\"input#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = schemeEditElementsMenu.find(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = schemeEditElementsMenu.find(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = schemeEditElementsMenu.find(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = schemeEditElementsMenu.find(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = schemeEditElementsMenu.find(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = schemeEditElementsMenu.find(\"input#nodeBorderColorInput\");\n                var nodeD = getNodeFromNetworkDataById(nodeIdInput.val());\n\t\tvar pNode = network.getPositions()[nodeIdInput.val()];\n\t\tnodeXInput.val(pNode.x);\n\t\tnodeYInput.val(pNode.y);\n\t\tnodeD.id = nodeIdInput.val();\n\t\tnodeD.label = nodeLabelTextarea.val();\n\t\tnodeD.x = pNode.x;\n\t\tnodeD.y = pNode.y;\n\t\tnodeD.shape = nodeShapeInput.val();\n\t\tnodeD.link = nodeLinkTextarea.val();\n\t\tif (typeof nodeD.font === \"undefined\") nodeD.font = {size: 14};\n\t\tnodeD.font.size = parseInt(nodeFontSizeInput.val(),10);\n\t\tnodeD.font.align = nodeFontAlignInput.val();\n\t\tif (typeof nodeD.color === \"undefined\") nodeD.color = {};\n\t\tnodeD.color.background = nodeColorInput.val();\n\t\tnodeD.color.border = nodeBorderColorInput.val();\n\t\tnodeD.borderWidth = nodeBorderWidthInput.val();\n\t\tnetwork.body.data.nodes.update(nodeD);\n\t});",
-          "x": 42113,
-          "y": 43393,
+          "x": 42143,
+          "y": 44106,
           "id": "f61061d2-ae48-4aa6-bc30-1b87952ccbcd486",
           "shape": "box",
           "link": "",
@@ -4183,8 +4183,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar closeElementEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeElementEditButton'>closeElement</span></div>\");\n\tschemeEditElementsMenu.append(closeElementEditButton);\n\n\tcloseElementEditButton.click(function() {\n\t\tschemeEditElementsMenu.hide();\n\t});",
-          "x": 42274,
-          "y": 43684,
+          "x": 42304,
+          "y": 44397,
           "id": "19662c04-ac5d-4a11-a4fd-a3547d193e13486"
         },
         "6275abb8-d031-4098-851b-0e023b1aba05486": {
@@ -4214,8 +4214,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "   var splitNodeListLabelButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>\");\n   schemeEditElementsMenu.append(splitNodeListLabelButton);\n\n   splitNodeListLabelButton.click(function() {\n      var nodeIdInput = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n      splitNodeLabelToList(nodeIdInput);\n   });",
-          "x": 42306,
-          "y": 43867,
+          "x": 42336,
+          "y": 44580,
           "id": "6275abb8-d031-4098-851b-0e023b1aba05486",
           "shape": "box",
           "link": "",
@@ -4245,8 +4245,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar runNodeCodeButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='runNodeCodeButton'>runNodeCode</span></div>\");\n\n\tschemeEditElementsMenu.append(runNodeCodeButton);",
-          "x": 42259,
-          "y": 44261,
+          "x": 42289,
+          "y": 44974,
           "id": "716a50bb-4bcd-4b76-9786-935f4a51dd3f486"
         },
         "12528d0c-0743-4f7a-83a8-3160b804fc96486": {
@@ -4276,8 +4276,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "runNodeCodeButton.click(function() {\n   var nodeId = schemeEditElementsMenu.find(\"input#nodeIdInput\").val();\n   var code = collectCodeNodesContent(nodeId);\n   code = code.split(\"\\n\");\n   if (code[0] == \"sympy\") {\n      code.shift();\n      code = code.join(\"\\n\");\n      calcSymPy(code, nodeId);\n   } else {\n      code = code.join(\"\\n\");\n      var codeFunction = new Function('codeNodeId', code);\n      codeFunction(nodeId);\n   }\n});",
-          "x": 42050,
-          "y": 44420,
+          "x": 42080,
+          "y": 45133,
           "id": "12528d0c-0743-4f7a-83a8-3160b804fc96486",
           "shape": "box",
           "link": "",
@@ -4307,8 +4307,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar leftMenuHelpLine1 = $(\"<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>\");\n\tschemeEditElementsMenu.append(leftMenuHelpLine1);\n\t//#FFD570\n\t//#ffc63b\n\tvar leftMenuHelpLine2 = $(\"<div style='margin:10px 0 0 0'><span id='leftMenuHelpLine2'>nodes yellow color - #ffd570</span></div>\");\n\tschemeEditElementsMenu.append(leftMenuHelpLine2);",
-          "x": 42262,
-          "y": 44625,
+          "x": 42292,
+          "y": 45338,
           "id": "963ce1eb-5c03-4df6-8305-6a9f1d28cc8d486"
         },
         "3c05b8b7-4e2d-41b6-bda6-be03883ea398486": {
@@ -4338,8 +4338,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tloadSavedProjectToMenuButton = $(\"<div style='cursor:pointer;margin:80px 0 0 0'><span id='loadSavedProjectToMenuButton'>loadSavedProjectToMenu</span></div>\");\n\tschemeEditElementsMenu.append(loadSavedProjectToMenuButton);\n\tloadSavedProjectToMenuButton.hide();\n\tloadSavedProjectToMenuButton.click(function() {\n\t\tvar saveLabel = loadSavedProjectToMenuButton.saveProjectLabel;\n\t\tloadSavedProjectDataToDataMenuBySaveName(network, saveLabel);\n\t\tupdateSchemeFromMenu([],[]);\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
-          "x": 42359,
-          "y": 44760,
+          "x": 42389,
+          "y": 45473,
           "id": "3c05b8b7-4e2d-41b6-bda6-be03883ea398486",
           "shape": "box",
           "link": "",
@@ -4369,8 +4369,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tdeleteSavedProjectButton = $(\"<div style='cursor:pointer;margin:40px 0 0 0'><span id='deleteSavedProjectButton'>!!deleteSavedProject!!</span></div>\");\n\tschemeEditElementsMenu.append(deleteSavedProjectButton);\n\tdeleteSavedProjectButton.hide();\n\tdeleteSavedProjectButton.click(function() {\n\t\tvar saveLabel = deleteSavedProjectButton.saveProjectLabel;\n\t\tdeleteLocalStorageSaveAndSaveNodeBySaveName(network, saveLabel);\n\t});",
-          "x": 42312,
-          "y": 44899,
+          "x": 42342,
+          "y": 45612,
           "id": "851038ac-04bc-4373-99ce-445e9d30fdd0486"
         },
         "a119be82-a76d-4edb-96c4-34bbf43f614c486": {
@@ -4400,8 +4400,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "   schemeDataMenu = $(\"<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:white;border-left: 1px solid #a3a3a3;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n   //Don't show shemeDataMenu. Menu under \"showMenu\" button on the right.\n   var pageFileName = (new URL(window.location.href)).pathname.split(\"/\").reverse()[0];\n   if (dontShowShemeDataMenuPagesList.indexOf(pageFileName) != -1) {\n      schemeDataMenu.hide()\n   }\n   schemeDataTextArea = $(\"<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>\");\n   schemeDataMenu.append(schemeDataTextArea);\n   saveLoadButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>\");\n   schemeDataMenu.append(saveLoadButton);\n   body.append(schemeDataMenu);",
-          "x": 42532,
-          "y": 45062,
+          "x": 42562,
+          "y": 45775,
           "id": "a119be82-a76d-4edb-96c4-34bbf43f614c486",
           "shape": "box",
           "link": "",
@@ -4431,8 +4431,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tsaveLoadButton.click(function() {\n\t\tvar regex = saveCanvasProjectDataLine;\n\t\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + regex + \"$\"));\n\t\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \"$\"));\n\t\tvar projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \":.*$\"));\n\t\tif ((typeof saveCanvasProjectDataNodes === \"undefined\") || (saveCanvasProjectDataNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdNodes === \"undefined\") || (projectSaveIdNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdWithDataNodes === \"undefined\") || (projectSaveIdWithDataNodes.length == 0)) \n\t\t\t{\n\t\t\talert(\"Add setup nodes for canvas save information: '\" + saveCanvasProjectDataLine + \"', '\" + projectSaveIdLine + \"', '\" +  projectSaveIdLine + \": projectName'.\");\n\t\t} else {\n\t\t\tvar node = saveCanvasProjectDataNodes[0];\n\t\t\tupdateNodePositionData(network, node);\n\t\t\tvar scale = network.getScale();\n\t\t\tvar n1X = parseFloat(node.x.toFixed(5));\n\t\t\tvar n1Y = parseFloat(node.y.toFixed(5));\n\t\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n\t\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\t\t\tnetwork.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t\tnetwork1.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t}\n\t});",
-          "x": 42337,
-          "y": 45419,
+          "x": 42367,
+          "y": 46132,
           "id": "998c7235-6bbf-4e48-bbed-61b6d38602ee486"
         },
         "e08d8881-f4b9-4565-97da-d3f87ce1fdb0486": {
@@ -4459,8 +4459,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tshowDataButton.click(function() {\n\t\tschemeDataMenu.toggle();\n\t});",
-          "x": 41932,
-          "y": 45670,
+          "x": 41962,
+          "y": 46383,
           "id": "e08d8881-f4b9-4565-97da-d3f87ce1fdb0486"
         },
         "d89b86a0-bff8-4360-80b9-3636def7dcbe486": {
@@ -4490,8 +4490,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tdraw();\n\tif (typeof runUpateMenuFromSchemeAtPageReady !== \"undefined\" && runUpateMenuFromSchemeAtPageReady) {\n\t\tupdateMenuFromScheme([], []);\n\t}\n\tremoveSaveNodes();\n\tbuildSaveNodesList();",
-          "x": 41156,
-          "y": 45797,
+          "x": 41186,
+          "y": 46510,
           "id": "d89b86a0-bff8-4360-80b9-3636def7dcbe486",
           "shape": "box",
           "link": "",
@@ -4524,8 +4524,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tvar updateSchemeFromMenuButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateSchemeFromMenuButton' style='background-color:white;color:black;'>updateSchemeFromMenu</span></div>\");\n\tvar updateMenuFromSchemeButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateMenuFromSchemeButton' style='background-color:white;color:black;'>updateMenuFromScheme</span></div>\");\n\tschemeDataMenu.prepend(updateMenuFromSchemeButton);\n\tschemeDataMenu.prepend(updateSchemeFromMenuButton);\n\tupdateSchemeFromMenuButton.click(function() {\n\t\tupdateSchemeFromMenu([],[]);\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
-          "x": 42336,
-          "y": 45994,
+          "x": 42366,
+          "y": 46707,
           "id": "fa8926fb-1ed4-4c5a-819d-5edf7fc101e2486",
           "shape": "box",
           "link": "",
@@ -4555,8 +4555,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction addConnections(elem, index) {\n\t\telem.connections = network.getConnectedNodes(index);\n\t}\n\tfunction exportNetwork() {\n\t\tvar nodes = objectToArray(network.getPositions());\n\t\tvar positions = network.getPositions(item.id);\n\t\titem.positionX = positions[item.id].x;\n\t\titem.positionY = positions[item.id].y;\n\n\t\tnodes.forEach(addConnections);\n\n\t\tvar exportValue = JSON.stringify(nodes, undefined, 2);\n\n\t\treturn exportValue;\n\t}",
-          "x": 41820,
-          "y": 46274,
+          "x": 41850,
+          "y": 46987,
           "id": "85af1170-a5a1-4103-a973-0a3d5b2d371a486"
         },
         "072e065d-822d-4715-8443-5bf850e6a75f486": {
@@ -4583,8 +4583,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction importNetwork() {\n\t\tvar inputValue = exportArea.value;\n\t\tvar inputData = JSON.parse(inputValue);\n\n\t\tvar data = {\n\t\t\tnodes: getNodeData(inputData),\n\t\t\tedges: getEdgeData(inputData)\n\t\t}\n\n\t\tnetwork = new vis.Network(container, data, {});\n\t}",
-          "x": 41784,
-          "y": 46566,
+          "x": 41814,
+          "y": 47279,
           "id": "072e065d-822d-4715-8443-5bf850e6a75f486"
         },
         "f240ef3f-be64-4718-8708-cce54a9a12e6486": {
@@ -4611,8 +4611,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction getNodeData(data) {\n\t\tvar networkNodes = [];\n\n\t\tdata.forEach(function(elem, index, array) {\n\t\t\tnetworkNodes.push({id: elem.id, label: elem.id, x: elem.x, y: elem.y});\n\t\t});\n\n\t\treturn new vis.DataSet(networkNodes);\n\t}",
-          "x": 41873,
-          "y": 46837,
+          "x": 41903,
+          "y": 47550,
           "id": "f240ef3f-be64-4718-8708-cce54a9a12e6486"
         },
         "7413f257-38d2-49c0-aeab-10af492b6ea5486": {
@@ -4639,8 +4639,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tfunction getEdgeData(data) {\n\t\tvar networkEdges = [];\n\n\t\tdata.forEach(function(node) {\n\t\t\tnode.connections.forEach(function(connId, cIndex, conns) {\n\t\t\t\tnetworkEdges.push({from: node.id, to: connId});\n\t\t\t\tvar cNode = getNodeById(data, connId);\n\n\t\t\t\tvar elementConnections = cNode.connections;\n\n\t\t\t\t// remove the connection from the other node to prevent duplicate connections\n\t\t\t\tvar duplicateIndex = elementConnections.findIndex(function(connection) {\n\t\t\t\t\treturn connection == node.id; // double equals since id can be numeric or string\n\t\t\t\t});\n\n\t\t\t\tif (duplicateIndex != -1) {\n\t\t\t\t\telementConnections.splice(duplicateIndex, 1);\n\t\t\t\t};\n\t\t\t});\n\t\t});\n\n\t\treturn new vis.DataSet(networkEdges);\n\t}",
-          "x": 41909,
-          "y": 47246,
+          "x": 41939,
+          "y": 47959,
           "id": "7413f257-38d2-49c0-aeab-10af492b6ea5486"
         },
         "4081ba82-a323-4e4f-946f-daa1d303b2b4486": {
@@ -4670,8 +4670,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tupdateMenuFromSchemeButton.click(function() {\n\t\tremoveSaveNodes();\n\t\tupdateMenuFromScheme([], []);\n\t\t//saveProjectToBrowserLocalStorage(network);\n\t\tlocalStorageSpace();\n\t});\n\tif (showCursorCoordinates) {\n\t\tvar cursorCoordinatesWidget = $(\"<div style='position: fixed;right:330px;font-size:12px'>\" +\n\t\t\t\"<div id='domCursorCoordinates'></div>\" +\n\t\t\t\"<div id='canvasCursorCoordinates'></div>\" +\n\t\t\t\"</div>\");\n\t\t$(\"body\").append(cursorCoordinatesWidget);\n\t\t$(document).mousemove(function(event) {\n\t\t\t$(\"#domCursorCoordinates\").text(event.pageX.toString() + \"x\" + event.pageY.toString());\n\t\t\tvar domX = (event.pageX - containerJQ.position().left).toFixed(0);\n\t\t\tvar domY = (event.pageY - containerJQ.position().top).toFixed(0);\n\t\t\tvar canvasPosition = network.canvas.DOMtoCanvas({x: domX,y: domY});\n\t\t\t$(\"#canvasCursorCoordinates\").text((canvasPosition.x).toFixed(0) + \"x\" + (canvasPosition.y).toFixed(0));\n\t\t});\n\t}\n\t$(\"#network div.vis-network\").focus();",
-          "x": 41980,
-          "y": 47718,
+          "x": 42010,
+          "y": 48431,
           "id": "4081ba82-a323-4e4f-946f-daa1d303b2b4486",
           "shape": "box",
           "link": "",
@@ -4871,7 +4871,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "function help() {\n   console.log(\"localStorageSpace()\");\n   console.log(\"countSelectedNodesAndEdges()\");\n   console.log(\"hideAllToDownloadNews()\");\n   console.log(\"restoreAllAfterNewsDownload()\");\n   console.log(\"viewLink()\");\n   console.log(\"tG(multiplyCount, idPostfix, xShift, yShift, dateLine = '', idCounterPostfixStart = 0)\");\n   console.log(\"multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0)\");\n}\n",
+          "label": "function help() {\n   console.log(\"localStorageSpace()\");\n   console.log(\"countSelectedNodesAndEdges()\");\n   console.log(\"hideAllToDownloadNews()\");\n   console.log(\"restoreAllAfterNewsDownload()\");\n   console.log(\"viewLink()\");\n   console.log(\"tG(multiplyCount, idPostfix, xShift, yShift, dateLine = '', idCounterPostfixStart = 0)\");\n   console.log(\"multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0)\");\n   console.log(\"hC()\");\n   console.log(\"sC()\");\n   console.log(\"fN()\");\n   console.log(\"uFN()\");\n}\n",
           "x": 41740,
           "y": 93786,
           "id": "20602b12-993a-42bc-8dd6-008215220e01486",
@@ -4906,8 +4906,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Add new node under cursor. alt+n\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false &&\n          event.keyCode === 78) {\n         var schemeDataMenuWidth = 0;\n         if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n            schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n         } else {\n            schemeDataMenuWidth = 0;\n         }\n         var lastEditedNodeId;\n         var lastEditedNode;\n         var position;\n         if (lastEditedNodesIds.length == 0) {\n            if (lastClickPosition == null) {\n               position = {\n                  x: (canvasWidth - schemeDataMenuWidth)/2,\n                  y: canvasHeight/2\n               };\n            } else {\n               position = {\n                  x: lastClickPosition.x,\n                  y: lastClickPosition.y\n               };\n            }\n            position = network.canvas.DOMtoCanvas(position);\n         } else {\n            var lastEditedNodeId = lastEditedNodesIds[lastEditedNodesIds.length - 1];\n            var lastEditedNode = getNodeFromNetworkDataById(lastEditedNodeId);\n            var lastEditDOMPosition = network.canvasToDOM({x: lastEditedNode.x, y: lastEditedNode.y});\n            if (lastEditDOMPosition.x < 0 || \n               lastEditDOMPosition.x > canvasWidth || \n               lastEditDOMPosition.y < 0 || \n               lastEditDOMPosition.y > canvasHeight) {\n               position = {\n                  x: (canvasWidth - schemeDataMenuWidth)/2,\n                  y: canvasHeight/2\n               };\n            } else {\n               var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);\n               position = {\n                  x: lastEditedNode.x,\n                  y: nodeBBox[\"top\"] + 28 + 28*lastEditedNode.label.split(\"\\n\").length/2\n               };\n            }\n         }\n         var nodeId = addNodeOnCanvas(\"\", \"\", position, 0, 0, network);\n         var node = network.body.nodes[nodeId];\n         network.selectionHandler.selectObject(node);\n         lastEditedNodesIds.push(nodeId);\n         network.manipulation.editNode();\n      }\n   });",
-          "x": 41101,
-          "y": 48820,
+          "x": 41131,
+          "y": 49533,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
           "shape": "box",
           "link": "",
@@ -5010,8 +5010,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "mm-vis-js",
-          "x": 39583,
-          "y": -11785,
+          "x": 39620,
+          "y": -11422,
           "id": "e2167bbe-693e-4fc7-b91b-062bda693c27206369486",
           "shape": "box",
           "link": "",
@@ -5042,8 +5042,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "x": 40216,
-          "y": -11403,
+          "x": 40253,
+          "y": -11040,
           "id": "24835ccd-b98b-4f2f-bd45-fcaa9f38b03e206369486"
         },
         "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486": {
@@ -5074,8 +5074,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/18/2019",
-          "x": 40395,
-          "y": -11402,
+          "x": 40432,
+          "y": -11039,
           "id": "1146ac46-cb0f-4291-8fa4-33bc217dc78c206369486",
           "shape": "box",
           "link": "",
@@ -5106,8 +5106,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 40478,
-          "y": -11402,
+          "x": 40515,
+          "y": -11039,
           "id": "f1d86e21-8dcb-40e1-a445-40bff68d13a2206369486"
         },
         "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486": {
@@ -5135,8 +5135,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "x": 40216,
-          "y": -12253,
+          "x": 40253,
+          "y": -11890,
           "id": "b6c29f5b-f392-4091-988b-09eff9ff8fb3206369486"
         },
         "39daddae-d1b4-49b8-8e31-31e99b8b340a206369486": {
@@ -5193,8 +5193,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": 40424,
-          "y": -12778,
+          "x": 40461,
+          "y": -12415,
           "id": "636009f4-b1c7-4990-b4f0-2e2b3e654223206369486"
         },
         "8c615a75-12a2-4368-bdb9-f9e04619e711206369486": {
@@ -5222,8 +5222,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "x": 40366,
-          "y": -12003,
+          "x": 40403,
+          "y": -11640,
           "id": "8c615a75-12a2-4368-bdb9-f9e04619e711206369486"
         },
         "dadf8c81-d0a9-4bb9-b3aa-cb0e872ae663206369486": {
@@ -5251,8 +5251,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "x": 40430,
-          "y": -12153,
+          "x": 40467,
+          "y": -11790,
           "id": "dadf8c81-d0a9-4bb9-b3aa-cb0e872ae663206369486"
         },
         "511de7c7-f954-47d9-b9cb-1d25114d124a206369486": {
@@ -5280,8 +5280,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": 40460,
-          "y": -12128,
+          "x": 40497,
+          "y": -11765,
           "id": "511de7c7-f954-47d9-b9cb-1d25114d124a206369486"
         },
         "8c186da9-2d90-4752-87d5-9c51f01aaeaa206369486": {
@@ -5309,8 +5309,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": 40426,
-          "y": -12103,
+          "x": 40463,
+          "y": -11740,
           "id": "8c186da9-2d90-4752-87d5-9c51f01aaeaa206369486"
         },
         "3ed80ff3-e9c7-41ad-ad41-4adcc9e92c6e206369486": {
@@ -5338,8 +5338,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": 40445,
-          "y": -12078,
+          "x": 40482,
+          "y": -11715,
           "id": "3ed80ff3-e9c7-41ad-ad41-4adcc9e92c6e206369486"
         },
         "a15afc99-7e3d-4676-896b-4d56c1b237ac206369486": {
@@ -5367,8 +5367,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": 40433,
-          "y": -12053,
+          "x": 40470,
+          "y": -11690,
           "id": "a15afc99-7e3d-4676-896b-4d56c1b237ac206369486"
         },
         "3b475dd0-8619-48b1-8235-0396f1c366b4206369486": {
@@ -5396,8 +5396,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": 40455,
-          "y": -12028,
+          "x": 40492,
+          "y": -11665,
           "id": "3b475dd0-8619-48b1-8235-0396f1c366b4206369486"
         },
         "13be3cea-4aa2-4e7d-b72d-f3aabba738ad206369486": {
@@ -5425,8 +5425,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": 40458,
-          "y": -12003,
+          "x": 40495,
+          "y": -11640,
           "id": "13be3cea-4aa2-4e7d-b72d-f3aabba738ad206369486"
         },
         "dd8c8df4-29ee-4c7a-b924-24858ff3c682206369486": {
@@ -5454,8 +5454,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": 40436,
-          "y": -11978,
+          "x": 40473,
+          "y": -11615,
           "id": "dd8c8df4-29ee-4c7a-b924-24858ff3c682206369486"
         },
         "67d89cae-970e-4780-b211-e8ffa3ee085d206369486": {
@@ -5483,8 +5483,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": 40427,
-          "y": -11953,
+          "x": 40464,
+          "y": -11590,
           "id": "67d89cae-970e-4780-b211-e8ffa3ee085d206369486"
         },
         "fc81f614-d532-41dd-aa0c-96a72dbe6b54206369486": {
@@ -5512,8 +5512,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": 40454,
-          "y": -11928,
+          "x": 40491,
+          "y": -11565,
           "id": "fc81f614-d532-41dd-aa0c-96a72dbe6b54206369486"
         },
         "5b628386-e316-4c48-a084-b6b643206d6e206369486": {
@@ -5541,8 +5541,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": 40441,
-          "y": -11903,
+          "x": 40478,
+          "y": -11540,
           "id": "5b628386-e316-4c48-a084-b6b643206d6e206369486"
         },
         "58b455fb-9348-4474-bcd5-2f5cb83b6804206369486": {
@@ -5570,8 +5570,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": 40462,
-          "y": -11878,
+          "x": 40499,
+          "y": -11515,
           "id": "58b455fb-9348-4474-bcd5-2f5cb83b6804206369486"
         },
         "7bdb4374-cad2-40ec-97e8-3f40cfad4ee8206369486": {
@@ -5599,8 +5599,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": 40427,
-          "y": -11853,
+          "x": 40464,
+          "y": -11490,
           "id": "7bdb4374-cad2-40ec-97e8-3f40cfad4ee8206369486"
         },
         "d1cae5c0-c183-4be9-a80b-1a59148d879a206369486": {
@@ -5628,8 +5628,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": 40466,
-          "y": -11828,
+          "x": 40503,
+          "y": -11465,
           "id": "d1cae5c0-c183-4be9-a80b-1a59148d879a206369486"
         },
         "e7b46853-9d75-4bcc-814c-783971395afa206369486": {
@@ -5657,8 +5657,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "x": 40216,
-          "y": -11703,
+          "x": 40253,
+          "y": -11340,
           "id": "e7b46853-9d75-4bcc-814c-783971395afa206369486"
         },
         "7a0a1963-1d69-425b-a067-3d6c97be0cc1206369486": {
@@ -5686,8 +5686,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "x": 40216,
-          "y": -11603,
+          "x": 40253,
+          "y": -11240,
           "id": "7a0a1963-1d69-425b-a067-3d6c97be0cc1206369486"
         },
         "ec17b97c-f06f-4590-ab22-01ff94faf0eb206369486": {
@@ -5715,8 +5715,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "x": 40216,
-          "y": -11503,
+          "x": 40253,
+          "y": -11140,
           "id": "ec17b97c-f06f-4590-ab22-01ff94faf0eb206369486"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599206369486": {
@@ -5855,8 +5855,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mvj code setup for project name: mm-vis-js",
           "id": "24ae259c-16ca-4400-acff-c6b8465a30c0978206200486",
-          "x": 39772,
-          "y": -11010,
+          "x": 39809,
+          "y": -10647,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5890,8 +5890,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "projectPath: /home/mike/progr/repo/mm-vis-js",
           "id": "1bbcc7a4-45a0-4ea9-9862-fe18f6b37371206200486",
-          "x": 40573,
-          "y": -11073,
+          "x": 40610,
+          "y": -10710,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5925,8 +5925,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "backupPaths: [\n\"/home/mike/progr/repo/mm-vis-js\"\n]",
           "id": "f5989e42-d06f-4d95-908e-2f58107e05aa200486",
-          "x": 40539,
-          "y": -11002,
+          "x": 40576,
+          "y": -10639,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8535,8 +8535,8 @@ var schemeData =
         },
         "b652df51-5798-4b35-86cd-12892f08855c": {
           "id": "b652df51-5798-4b35-86cd-12892f08855c",
-          "x": 40949,
-          "y": -12920,
+          "x": 40986,
+          "y": -12557,
           "label": "This is root scheme for mm-vis-js project. This scheme with red node \"mm-vis-js\"",
           "shape": "box",
           "link": "",
@@ -8552,20 +8552,20 @@ var schemeData =
         },
         "d3319a07-ad98-4ca7-a928-8cc003e5490b": {
           "id": "d3319a07-ad98-4ca7-a928-8cc003e5490b",
-          "x": 40756,
-          "y": -12710,
+          "x": 40793,
+          "y": -12347,
           "label": "How to build project"
         },
         "d6a2f6ee-56a5-4221-be38-49c0a8364a71": {
           "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a71",
-          "x": 41129,
-          "y": -12801,
+          "x": 41166,
+          "y": -12438,
           "label": "start mvj-serv.js from mm-vis-js/utils/"
         },
         "52aee244-a92a-41a3-8b71-373d541e660d": {
           "id": "52aee244-a92a-41a3-8b71-373d541e660d",
-          "x": 41375,
-          "y": -12798,
+          "x": 41412,
+          "y": -12435,
           "label": "$ node mvj-serv.js",
           "shape": "box",
           "link": "",
@@ -8581,8 +8581,8 @@ var schemeData =
         },
         "8dcd7da6-9174-4a9a-92df-19ac2ef25745": {
           "id": "8dcd7da6-9174-4a9a-92df-19ac2ef25745",
-          "x": 41464,
-          "y": -12835,
+          "x": 41501,
+          "y": -12472,
           "label": "check port number in mvj-serv.js script - 3001.",
           "shape": "box",
           "link": "",
@@ -10561,8 +10561,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "addConnections(elem, index)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883",
-          "x": 44442,
-          "y": 46264,
+          "x": 44472,
+          "y": 46977,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10597,8 +10597,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "importNetwork()",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465",
-          "x": 44145,
-          "y": 46575,
+          "x": 44175,
+          "y": 47288,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10633,8 +10633,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "getNodeData(data)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883465666",
-          "x": 44216,
-          "y": 46770,
+          "x": 44246,
+          "y": 47483,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10669,8 +10669,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "getEdgeData(data)",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b7413245741459490481657161788346566697",
-          "x": 44214,
-          "y": 47137,
+          "x": 44244,
+          "y": 47850,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10990,8 +10990,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "function objectToArray(obj) {\n\treturn Object.keys(obj).map(function (key) {\n\t\tobj[key].id = key;\n\t\treturn obj[key];\n\t});\n}",
-          "x": 39674,
-          "y": -6760,
+          "x": 39675,
+          "y": -6762,
           "id": "982a5710-863b-40df-884d-70b558608e9b486889",
           "shape": "box",
           "link": "",
@@ -12130,13 +12130,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   $(\"#network\").keyup(function (event) {\n      //Duplicate. Ctrl+alt+d.\n      if (event.ctrlKey && event.altKey && event.keyCode === 68) {\n         selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n         duplicateGraph(selectedNodes, selectedEdges);\n      }\n   });",
+          "label": "   $(\"#network\").keyup(function (event) {\n      //Duplicate. Ctrl+alt+d.\n      if (event.ctrlKey && event.altKey && event.keyCode === 68) {\n         if (nextOperationMultiplier.length > 0) {\n            var multiplyCount = parseInt(nextOperationMultiplier);\n            multiplySelected(multiplyCount, \"c\", 0, 30, 0);\n            nextOperationMultiplier = \"\";\n         } else {\n            selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n            selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n            duplicateGraph(selectedNodes, selectedEdges);\n         }\n      }\n   });",
           "x": 41908,
-          "y": 86793,
+          "y": 86758,
           "id": "fcdd0bec-d9eb-412f-810f-075698893dbf486622",
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "fcdd0bec-d9eb-412f-810f-075698893dbf486737": {
           "color": {
@@ -12713,15 +12713,15 @@ var schemeData =
         },
         "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc": {
           "id": "29d5ad3f-b732-4f8e-8ecb-a26eaab38fdc",
-          "x": 40737,
-          "y": -13457,
+          "x": 40774,
+          "y": -13094,
           "label": "git and github"
         },
         "44401bba-5383-432e-b905-25e85a0b60ec": {
           "id": "44401bba-5383-432e-b905-25e85a0b60ec",
-          "x": 41114,
-          "y": -14542,
-          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\nnews5.html \\\nnews5.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nnature.html \\\nnature.data.js \\\njava.html \\\njava.data.js \\\njava-api.html \\\njava-api.data.js \\\nadmin.html \\\nadmin.data.js \\\n../../sushilshik.github.io/",
+          "x": 41144,
+          "y": -14419,
+          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\nnews5.html \\\nnews5.data.js \\\nnews51.html \\\nnews51.data.js \\\nnews6.html \\\nnews6.data.js \\\nnews61.html \\\nnews61.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nnature.html \\\nnature.data.js \\\njava.html \\\njava.data.js \\\njava-api.html \\\njava-api.data.js \\\nsa1.html \\\nsa1.data.js \\\nadmin.html \\\nadmin.data.js \\\n../../sushilshik.github.io/",
           "shape": "box",
           "link": "",
           "font": {
@@ -12736,26 +12736,26 @@ var schemeData =
         },
         "c2fcf7e4-edc1-4ba0-954f-b05037a6eaf6": {
           "id": "c2fcf7e4-edc1-4ba0-954f-b05037a6eaf6",
-          "x": 40964,
-          "y": -13437,
+          "x": 41001,
+          "y": -13074,
           "label": "git commit -a -m \"...\""
         },
         "2823b7f4-aeee-41a2-a9bb-b779dbb40869": {
           "id": "2823b7f4-aeee-41a2-a9bb-b779dbb40869",
-          "x": 40929,
-          "y": -13487,
+          "x": 40966,
+          "y": -13124,
           "label": "git add ..."
         },
         "16527e97-6d7e-4abc-8608-be7027a620f1": {
           "id": "16527e97-6d7e-4abc-8608-be7027a620f1",
-          "x": 41319,
-          "y": -13489,
+          "x": 41356,
+          "y": -13126,
           "label": "check git add on sushilshik.github repository"
         },
         "5c1bb553-b81a-463c-bfe6-5653dde6fa05": {
           "id": "5c1bb553-b81a-463c-bfe6-5653dde6fa05",
-          "x": 40968,
-          "y": -13400,
+          "x": 41005,
+          "y": -13037,
           "label": "git push origin master"
         },
         "24ae259c-16ca-4400-acff-c6b8465a30c020640194248669323250196986396984": {
@@ -13253,9 +13253,9 @@ var schemeData =
         },
         "ce984e4d-6305-4607-be28-7a3bf6cd0723": {
           "id": "ce984e4d-6305-4607-be28-7a3bf6cd0723",
-          "x": 41111,
-          "y": 40124,
-          "label": "   function splitNodeLabelToList(nodeId) {\n      var sourceNode = getNodeFromNetworkDataById(nodeId);\n      var nodeLabel = sourceNode.label.trim();\n      var pNode = network.getPositions()[nodeId];\n      var labelLines;\n      if (nodeLabel.split(\"!@!@\").length > 1) {\n         labelLines = nodeLabel.split(\"\\n!@!@\\n\");\n      } else {\n         labelLines = nodeLabel.split(\"\\n\");\n      }\n      var newLabelLines = [];\n      labelLines.forEach(function(line) {\n         if (line.length > 0) newLabelLines.push(line);\n      });\n      var nodeBBox = network.nodesHandler.getBoundingBox(nodeId);\n      var y = nodeBBox[\"top\"];\n      var newNodesIds = [];\n      if (newLabelLines[0] == \"to\") {\n         newLabelLines.shift();\n         var root = {nodes:{}};\n         root.itemStep = 0;\n         root.lastItemStep = 0;\n         root.maxWidth = 0;\n         root.keys = []\n         newLabelLines.forEach(function(line,index) {\n            root = buildRow(line, index, root);\n         });\n         var alignMap = {};\n         buildPagesNodes(root, 600, alignMap, nodeId);\n         for (var key in alignMap) {\n            //console.log(key);\n            alignNodesLeft(alignMap[key]);\n         }\n      } else if (newLabelLines[0] == \"tg\") {\n         newLabelLines.shift();\n         newLabelLines.forEach(function(line,index) {\n            console.log(line);\n            buildThemeGraph(line, pNode.x + 500, pNode.y + 1500*index);\n            network.body.data.nodes.add({\n               id: nodeId + \"b\" + index,\n   \t       label:line,\n   \t       x: pNode.x + 7000,\n   \t       y: pNode.y + 1500*index,\n               font: {size: 1000},\n               color: {background:\"#ffc63b\"} \n            });\n         });\n      } else if (newLabelLines[0] == \"wiki\") {\n         newLabelLines.shift();\n         var alignNodesList = [];\n         for (var i=0; i< newLabelLines.length; i++) {\n            var line = newLabelLines[i];\n            console.log(line);\n            link = \"\";\n            var wikiLinkPart = line.match(/.*?\\[\\[(.*?)\\]\\].*/);\n            if (wikiLinkPart != null) {\n               var linkPart = wikiLinkPart[1].replace(/\\|.*/,\"\").trim();\n               link = \"https://en.wikipedia.org/wiki/\" + linkPart;\n            }\n            var addedNodeId = network.body.data.nodes.add({\n               id: nodeId + \"b\" + String(i),\n   \t       label:line,\n               link: link,\n   \t       x: pNode.x + 500,\n   \t       y: pNode.y + 25*i \n            })[0];\n            alignNodesList.push(network.body.nodes[addedNodeId]);\n         };\n         alignNodesLeft(alignNodesList);\n      } else {\n         newLabelLines.forEach(function(line,index) {\n            //Add starting \"//#1\" for comments nodes\n            if (newLabelLines[0].lastIndexOf(\"//#1\", 0) === 0 && line.lastIndexOf(\"//#1\", 0) !== 0) {\n               line = \"//#1 \" + line;\n            }\n            var position = {\n               x: pNode.x + 300,\n               y: y + (14*line.split(\"\\n\").length)/2\n            };\n            var newNodeId = nodeId + \"b\" + String(index);\n            var addedNodeId = addNodeWithIdOnCanvas(line, \"\", position, 0, 0, network, newNodeId);\n            newNodesIds.push(addedNodeId);\n            y = y + 14*line.split(\"\\n\").length + 10;\n         });\n         var nodes = [];\n         newNodesIds.forEach(function(nodeId) {      \n            nodes.push(network.body.nodes[nodeId]);\n         });\n         alignNodesLeft(nodes);\n      }\n   }",
+          "x": 41223,
+          "y": 40439,
+          "label": "   function splitNodeLabelToList(nodeId) {\n      var sourceNode = getNodeFromNetworkDataById(nodeId);\n      var nodeLabel = sourceNode.label.trim();\n      var pNode = network.getPositions()[nodeId];\n      var labelLines;\n      if (nodeLabel.split(\"!@!@\").length > 1) {\n         labelLines = nodeLabel.split(\"\\n!@!@\\n\");\n      } else {\n         labelLines = nodeLabel.split(\"\\n\");\n      }\n      var newLabelLines = [];\n      labelLines.forEach(function(line) {\n         if (line.length > 0) newLabelLines.push(line);\n      });\n      var nodeBBox = network.nodesHandler.getBoundingBox(nodeId);\n      var y = nodeBBox[\"top\"];\n      var newNodesIds = [];\n      var newNodesIdsCol2 = [];\n      if (newLabelLines[0] == \"to\") {\n         newLabelLines.shift();\n         var root = {nodes:{}};\n         root.itemStep = 0;\n         root.lastItemStep = 0;\n         root.maxWidth = 0;\n         root.keys = []\n         newLabelLines.forEach(function(line,index) {\n            root = buildRow(line, index, root);\n         });\n         var alignMap = {};\n         buildPagesNodes(root, 600, alignMap, nodeId);\n         for (var key in alignMap) {\n            //console.log(key);\n            alignNodesLeft(alignMap[key]);\n         }\n      } else if (newLabelLines[0] == \"tg\") {\n         newLabelLines.shift();\n         newLabelLines.forEach(function(line,index) {\n            console.log(line);\n            buildThemeGraph(line, pNode.x + 500, pNode.y + 1500*index);\n            network.body.data.nodes.add({\n               id: nodeId + \"b\" + index,\n   \t       label:line,\n   \t       x: pNode.x + 7000,\n   \t       y: pNode.y + 1500*index,\n               font: {size: 1000},\n               color: {background:\"#ffc63b\"} \n            });\n         });\n      } else if (newLabelLines[0] == \"wiki\") {\n         newLabelLines.shift();\n         var alignNodesList = [];\n         for (var i=0; i< newLabelLines.length; i++) {\n            var line = newLabelLines[i];\n            console.log(line);\n            link = \"\";\n            var wikiLinkPart = line.match(/.*?\\[\\[(.*?)\\]\\].*/);\n            if (wikiLinkPart != null) {\n               var linkPart = wikiLinkPart[1].replace(/\\|.*/,\"\").trim();\n               link = \"https://en.wikipedia.org/wiki/\" + linkPart;\n            }\n            var addedNodeId = network.body.data.nodes.add({\n               id: nodeId + \"b\" + String(i),\n   \t       label:line,\n               link: link,\n   \t       x: pNode.x + 500,\n   \t       y: pNode.y + 25*i \n            })[0];\n            alignNodesList.push(network.body.nodes[addedNodeId]);\n         };\n         alignNodesLeft(alignNodesList);\n      } else {\n         newLabelLines.forEach(function(line,index) {\n            //Add starting \"//#1\" for comments nodes\n            if (newLabelLines[0].lastIndexOf(\"//#1\", 0) === 0 && line.lastIndexOf(\"//#1\", 0) !== 0) {\n               line = \"//#1 \" + line;\n            }\n            var position = {\n               x: pNode.x + 300,\n               y: y + (14*line.split(\"\\n\").length)/2\n            };\n            var newNodeId = nodeId + \"b\" + String(index);\n            var addedNodeId = addNodeWithIdOnCanvas(line, \"\", position, 0, 0, network, newNodeId);\n            newNodesIds.push(addedNodeId);\n            y = y + 14*line.split(\"\\n\").length + 10;\n            //If use !@!@ delimiter, then take result string and use it first line as\n            //label for new node to the right. E.g. as label for function name.\n            if (nodeLabel.split(\"!@!@\").length > 1) {\n               labelNodeLabel = line.split(\"\\n\").length > 0 ? line.split(\"\\n\")[0] : \"\";\n               var labelNodePosition = {x: position.x + 1000, y: position.y};\n               var newLabelNodeId = nodeId + \"bb\" + String(index);\n               var addedLabelNodeId = addNodeWithIdOnCanvas(labelNodeLabel, \"\", labelNodePosition, 0, 0, network, newLabelNodeId)[0];\n               newNodesIdsCol2.push(addedLabelNodeId);\n               network.body.data.edges.add({\n                  from:newNodeId,\n                  to:addedLabelNodeId\n               });\n            }\n         });\n         var nodes = [];\n         newNodesIds.forEach(function(nodeId) {      \n            nodes.push(network.body.nodes[nodeId]);\n         });\n         alignNodesLeft(nodes);\n         var nodesCol2 = [];\n         newNodesIdsCol2.forEach(function(nodeId) {      \n            nodesCol2.push(network.body.nodes[nodeId]);\n         });\n         alignNodesLeft(nodesCol2);\n      }\n   }",
           "shape": "box",
           "link": "",
           "font": {
@@ -17802,8 +17802,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "runNodeCodeButton.click(function() {",
           "id": "ab4481fa-a4a1-4381-925a-fa9139633b74132457414594904816571617883968",
-          "x": 44615,
-          "y": 44406,
+          "x": 44645,
+          "y": 45119,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -18140,21 +18140,21 @@ var schemeData =
         },
         "cfc75af6-4f65-4fae-8308-fd2667923cba": {
           "id": "cfc75af6-4f65-4fae-8308-fd2667923cba",
-          "x": 40751,
-          "y": -13051,
+          "x": 40788,
+          "y": -12688,
           "label": "packages to install"
         },
         "c595996f-5983-43b0-b6eb-a9d3e59cc728": {
           "id": "c595996f-5983-43b0-b6eb-a9d3e59cc728",
-          "x": 40970,
-          "y": -13098,
+          "x": 41007,
+          "y": -12735,
           "label": "nodejs"
         },
         "a99c189e-a108-47ac-8a01-aa4678b82167": {
           "label": "python",
           "link": "",
-          "x": 40970,
-          "y": -13074,
+          "x": 41007,
+          "y": -12711,
           "id": "a99c189e-a108-47ac-8a01-aa4678b82167",
           "color": {
             "highlight": {
@@ -18194,8 +18194,8 @@ var schemeData =
         "a75d2fd2-b354-40f0-ab91-4b42b4cecdfe": {
           "label": "TexLive",
           "link": "",
-          "x": 40973,
-          "y": -13050,
+          "x": 41010,
+          "y": -12687,
           "id": "a75d2fd2-b354-40f0-ab91-4b42b4cecdfe",
           "color": {
             "highlight": {
@@ -18235,8 +18235,8 @@ var schemeData =
         "08da45eb-6e33-45ff-9f57-fec8f14cad36": {
           "label": "tex-preview",
           "link": "",
-          "x": 40985,
-          "y": -13026,
+          "x": 41022,
+          "y": -12663,
           "id": "08da45eb-6e33-45ff-9f57-fec8f14cad36",
           "color": {
             "highlight": {
@@ -18276,8 +18276,8 @@ var schemeData =
         "5de10bf4-f4c6-40fe-b74f-b3718dde2a7d": {
           "label": "sympy",
           "link": "",
-          "x": 40969,
-          "y": -13002,
+          "x": 41006,
+          "y": -12639,
           "id": "5de10bf4-f4c6-40fe-b74f-b3718dde2a7d",
           "color": {
             "highlight": {
@@ -18317,8 +18317,8 @@ var schemeData =
         "31cf68ac-5ea0-49d5-b073-a5b00803385c": {
           "label": "texlive-collection-latexextra",
           "link": "",
-          "x": 41034,
-          "y": -12978,
+          "x": 41071,
+          "y": -12615,
           "id": "31cf68ac-5ea0-49d5-b073-a5b00803385c",
           "color": {
             "highlight": {
@@ -18357,14 +18357,14 @@ var schemeData =
         },
         "139b5f79-7cd8-4fdc-98f9-6e7147568804": {
           "id": "139b5f79-7cd8-4fdc-98f9-6e7147568804",
-          "x": 41024,
-          "y": -13290,
+          "x": 41061,
+          "y": -12927,
           "label": "Update links to images in image nodes"
         },
         "1ce3000f-7be3-4a5d-83dc-b2a241c43b13": {
           "id": "1ce3000f-7be3-4a5d-83dc-b2a241c43b13",
-          "x": 41782,
-          "y": -13339,
+          "x": 41819,
+          "y": -12976,
           "label": "network.body.data.nodes.get().forEach(function(node) {\n   if (typeof node[\"image\"] !== 'undefined') {\n      //Line to prepare for push to github.\n      //node.image = node.image.replace(\"https://localhost:3001\",\"\");\n      //Line to prepare for local work.\n      //node.image = node.image.replace(\"/public/imgs\",\"https://localhost:3001/public/imgs\");\n      network.body.data.nodes.update(node);\n   }\n});",
           "shape": "box",
           "link": "",
@@ -18380,8 +18380,8 @@ var schemeData =
         },
         "2865b4bd-3740-4fd2-a836-9593525b027d": {
           "id": "2865b4bd-3740-4fd2-a836-9593525b027d",
-          "x": 41294,
-          "y": -13333,
+          "x": 41331,
+          "y": -12970,
           "label": "run in console for page with images",
           "shape": "box",
           "link": "",
@@ -18397,39 +18397,39 @@ var schemeData =
         },
         "5472e948-ad81-437a-8bd8-f9765e8777f8": {
           "id": "5472e948-ad81-437a-8bd8-f9765e8777f8",
-          "x": 42280,
-          "y": -13348,
+          "x": 42317,
+          "y": -12985,
           "label": "Нужно доработать - съезжают координаты нод"
         },
         "1f688fbc-7696-45df-9d5c-28381d308013": {
           "id": "1f688fbc-7696-45df-9d5c-28381d308013",
-          "x": 41334,
-          "y": -13210,
+          "x": 41371,
+          "y": -12847,
           "label": "Replace paths in ...data.js file with vim. (Fast fix)"
         },
         "8a9c12c1-de84-4f11-a696-d1cc94917a8e": {
           "id": "8a9c12c1-de84-4f11-a696-d1cc94917a8e",
-          "x": 41723,
-          "y": -13208,
+          "x": 41760,
+          "y": -12845,
           "label": "%s/https:\\/\\/localhost:3001\\/public\\/imgs/\\/public\\/imgs/g"
         },
         "183893bf-717f-4c49-b0d4-1b92475efdab": {
           "id": "183893bf-717f-4c49-b0d4-1b92475efdab",
-          "x": 42274,
-          "y": -13308,
+          "x": 42311,
+          "y": -12945,
           "label": "Вместо этого пока исправляем ссылки в vim."
         },
         "3229baad-6f53-4142-bc59-2c8e92f423c2": {
           "id": "3229baad-6f53-4142-bc59-2c8e92f423c2",
-          "x": 41115,
-          "y": -12703,
+          "x": 41152,
+          "y": -12340,
           "label": "Select any mm-vis-js code node"
         },
         "d5e86797-7ced-425a-acf0-098fe10b13a2": {
           "label": "Press alt+b",
           "link": "",
-          "x": 41050,
-          "y": -12669,
+          "x": 41087,
+          "y": -12306,
           "id": "d5e86797-7ced-425a-acf0-098fe10b13a2",
           "color": {
             "highlight": {
@@ -18468,8 +18468,8 @@ var schemeData =
         },
         "cd466597-4aec-4fcd-9c59-d358faf174a7": {
           "id": "cd466597-4aec-4fcd-9c59-d358faf174a7",
-          "x": 41220,
-          "y": -12630,
+          "x": 41257,
+          "y": -12267,
           "label": "Wait for save alert on top right of page. Or even check messages\nin browser console that everything is ok.",
           "shape": "box",
           "link": "",
@@ -18485,8 +18485,8 @@ var schemeData =
         },
         "f02bdbcd-0b1b-4dc7-92fc-1ac7f7865995": {
           "id": "f02bdbcd-0b1b-4dc7-92fc-1ac7f7865995",
-          "x": 41841,
-          "y": -12836,
+          "x": 41878,
+          "y": -12473,
           "label": "Change it in mvj-serv.js and in build script above, if you need."
         },
         "728112b7-4bd1-4b65-84ed-1743b98f38d8": {
@@ -22173,8 +22173,8 @@ var schemeData =
         },
         "b6757a8e-9f2e-49e4-8216-2bcd680fefe5": {
           "id": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5",
-          "x": 21957,
-          "y": 663,
+          "x": 21967,
+          "y": 479,
           "label": "countSelectedNodesAndEdges()"
         },
         "c30b409a-d1fa-460a-b112-3572e4ca1c09": {
@@ -23636,8 +23636,8 @@ var schemeData =
         },
         "c4142c7b-7db2-496f-bb44-eaf22bd6546f": {
           "id": "c4142c7b-7db2-496f-bb44-eaf22bd6546f",
-          "x": 44807,
-          "y": 48732,
+          "x": 44837,
+          "y": 49445,
           "label": "Add new node under cursor. alt+n",
           "shape": "box",
           "link": "",
@@ -25135,9 +25135,9 @@ var schemeData =
         },
         "0412b23c-532f-4d72-a5f0-639724b79637": {
           "id": "0412b23c-532f-4d72-a5f0-639724b79637",
-          "x": 40502,
-          "y": -10926,
-          "label": "jsFilesLinksParam:250",
+          "x": 40539,
+          "y": -10563,
+          "label": "jsFilesLinksParam:256",
           "shape": "box",
           "link": "",
           "font": {
@@ -25152,8 +25152,8 @@ var schemeData =
         },
         "c190cd19-9713-456e-8ee8-712da7697fcd": {
           "id": "c190cd19-9713-456e-8ee8-712da7697fcd",
-          "x": 41318,
-          "y": -12744,
+          "x": 41355,
+          "y": -12381,
           "label": "Set incremental number in \"mvj code setup for project name: mm-vis-js\"->\"jsFilesLinksParam:...\"",
           "shape": "box",
           "link": "",
@@ -25169,8 +25169,8 @@ var schemeData =
         },
         "9e3d9ebf-0e62-4dd5-99d5-9e332eb78daa": {
           "id": "9e3d9ebf-0e62-4dd5-99d5-9e332eb78daa",
-          "x": 40514,
-          "y": -10873,
+          "x": 40551,
+          "y": -10510,
           "label": "readLocalUserConfig: false",
           "shape": "box",
           "link": "",
@@ -26046,8 +26046,8 @@ var schemeData =
         },
         "9670a512-d5dd-4e91-80f6-ef1c2437d730": {
           "id": "9670a512-d5dd-4e91-80f6-ef1c2437d730",
-          "x": 40738,
-          "y": -10871,
+          "x": 40775,
+          "y": -10508,
           "label": "set \"false\" for Github build",
           "shape": "box",
           "link": "",
@@ -29745,15 +29745,15 @@ var schemeData =
         "cd5ab4f8-7188-4c45-82a5-96f3d0c76441": {
           "label": "",
           "link": "",
-          "x": 48144,
-          "y": 50051,
+          "x": 48174,
+          "y": 50764,
           "id": "cd5ab4f8-7188-4c45-82a5-96f3d0c76441"
         },
         "1431eb12-6d68-422e-9674-2b2e3bdf9315": {
           "label": "",
           "link": "",
-          "x": 48144,
-          "y": 50075,
+          "x": 48174,
+          "y": 50788,
           "id": "1431eb12-6d68-422e-9674-2b2e3bdf9315"
         },
         "6341fdf8-d364-4edd-bb95-9f3b036b8cf1844849": {
@@ -32306,9 +32306,9 @@ var schemeData =
         },
         "369cce7c-0207-450b-8ee9-aa2ae73153e4": {
           "id": "369cce7c-0207-450b-8ee9-aa2ae73153e4",
-          "x": 45196,
+          "x": 45064,
           "y": 6639,
-          "label": "function multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0)",
+          "label": "multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0)",
           "shape": "box",
           "link": "",
           "font": {
@@ -37012,6 +37012,1393 @@ var schemeData =
           "id": "c22aab4b-f9d8-4e73-90f4-4f61102aa13c536",
           "x": 89817,
           "y": 57672,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "4590912f-7aa2-45da-93f3-fdd2295ffa4e512975787590": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Нужно еще распределение по расстоянию от краев, а не от центров",
+          "id": "4590912f-7aa2-45da-93f3-fdd2295ffa4e512975787590",
+          "x": 45954,
+          "y": 101383,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101156": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101156",
+          "x": 103240,
+          "y": -17300,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101156": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/sa1.html",
+          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101156",
+          "x": 104222,
+          "y": -17299,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101156": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101156",
+          "x": 104846,
+          "y": -17313
+        },
+        "100eff1f-2de6-4e02-ae43-700c710aaae4244101156": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>SA1 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "100eff1f-2de6-4e02-ae43-700c710aaae4244101156",
+          "x": 105414,
+          "y": -17329,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101156": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101156",
+          "x": 105878,
+          "y": -16987
+        },
+        "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101156": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101156",
+          "x": 106050,
+          "y": -16431
+        },
+        "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101156": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"sa1.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101156",
+          "x": 106176,
+          "y": -14959,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "ad105e2b-063b-4782-8c81-732bf8a2de45244101156": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "ad105e2b-063b-4782-8c81-732bf8a2de45244101156",
+          "x": 105902,
+          "y": -15693
+        },
+        "c22aab4b-f9d8-4e73-90f4-4f61102aa13c156": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/sa1.html",
+          "id": "c22aab4b-f9d8-4e73-90f4-4f61102aa13c156",
+          "x": 111180,
+          "y": -16502,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "e283bb5e-4305-4099-9ada-63f068527a0029998": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "   $(document).keyup(function (event) {\n      //Set nextOperationMultiplier\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          [49,50,51,52,53,54,55,56,57,48].indexOf(event.keyCode) != -1) {\n             var number = null;\n             if (event.keyCode == 49) number = \"1\";\n             if (event.keyCode == 50) number = \"2\";\n             if (event.keyCode == 51) number = \"3\";\n             if (event.keyCode == 52) number = \"4\";\n             if (event.keyCode == 53) number = \"5\";\n             if (event.keyCode == 54) number = \"6\";\n             if (event.keyCode == 55) number = \"7\";\n             if (event.keyCode == 56) number = \"8\";\n             if (event.keyCode == 57) number = \"9\";\n             if (event.keyCode == 48) number = \"0\";\n             nextOperationMultiplier = nextOperationMultiplier + number;\nconsole.log(nextOperationMultiplier);\n      }\n   });\n\n   $(document).keyup(function (event) {\n      //Drop nextOperationMultiplier\n      if (event.keyCode == 13) {\n             nextOperationMultiplier = \"\";\n      }\n   });",
+          "id": "e283bb5e-4305-4099-9ada-63f068527a0029998",
+          "x": 41961,
+          "y": 51793,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "f21281af-0f1a-49ca-89c7-067a692c544029998": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 100,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Set nextOperationMultiplier",
+          "id": "f21281af-0f1a-49ca-89c7-067a692c544029998",
+          "x": 44659,
+          "y": 51774,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c0": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Count all selected nodes and Edges",
+          "id": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c0",
+          "x": 21679,
+          "y": 475,
+          "oldId": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c1": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Count selected nodes filtered by styles",
+          "id": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c1",
+          "x": 21680,
+          "y": 732,
+          "oldId": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c2": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n//var edges = objectToArray(network.body.data.edges);\n\nvar nodes = [];\nselectedNodes.forEach(function(node) {\n   nodes.push(network.body.data.nodes.get(node.id));\n});\n\nvar filteredNodes = [];\nfor (var i in nodes) {\n   var node = network.body.data.nodes.get(nodes[i].id);\n   //if (typeof node.link !== \"undefined\") {}\n   //if (typeof node.font !== \"undefined\" && node.font.size == 100) {}\n   //node.font.align = \"left\";\n   if (typeof node.color !== \"undefined\" && node.color.background == \"red\") {\n      filteredNodes.push(node);\n   }\n   //node.color.background = \"#ffc63b\"\n}\n\nconsole.log(\"Count: \" + String(filteredNodes.length));\n",
+          "id": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c2",
+          "x": 22234,
+          "y": 729,
+          "oldId": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501969863969848332368953373030245265073724410162": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501969863969848332368953373030245265073724410162",
+          "x": 103178,
+          "y": -13754,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969863969848332368953373030245265046824410162": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/sa2.html",
+          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969863969848332368953373030245265046824410162",
+          "x": 104160,
+          "y": -13753,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969863969848332368953373030245265068924410162": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969863969848332368953373030245265068924410162",
+          "x": 104784,
+          "y": -13767
+        },
+        "100eff1f-2de6-4e02-ae43-700c710aaae424410162": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>SA2 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "100eff1f-2de6-4e02-ae43-700c710aaae424410162",
+          "x": 105352,
+          "y": -13783,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d24410162": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d24410162",
+          "x": 105816,
+          "y": -13441
+        },
+        "9df1ccab-bc0b-471e-8708-07ce75cd7ef424410162": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "9df1ccab-bc0b-471e-8708-07ce75cd7ef424410162",
+          "x": 105988,
+          "y": -12885
+        },
+        "bc30156b-9e7c-4b12-b60f-d5abb12a313524410162": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"sa2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "bc30156b-9e7c-4b12-b60f-d5abb12a313524410162",
+          "x": 106114,
+          "y": -11413,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "ad105e2b-063b-4782-8c81-732bf8a2de4524410162": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "ad105e2b-063b-4782-8c81-732bf8a2de4524410162",
+          "x": 105840,
+          "y": -12147
+        },
+        "c22aab4b-f9d8-4e73-90f4-4f61102aa13c62": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/sa2.html",
+          "id": "c22aab4b-f9d8-4e73-90f4-4f61102aa13c62",
+          "x": 111180,
+          "y": -12790,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101510": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101510",
+          "x": 103239,
+          "y": -10182,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101510": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/news6.html",
+          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101510",
+          "x": 104221,
+          "y": -10181,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101510": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101510",
+          "x": 104845,
+          "y": -10195
+        },
+        "100eff1f-2de6-4e02-ae43-700c710aaae4244101510": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 6 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510",
+          "x": 105413,
+          "y": -10211,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101510": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101510",
+          "x": 105877,
+          "y": -9869
+        },
+        "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101510": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101510",
+          "x": 106049,
+          "y": -9313
+        },
+        "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101510": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news6.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101510",
+          "x": 106175,
+          "y": -7841,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ad105e2b-063b-4782-8c81-732bf8a2de45244101510": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "ad105e2b-063b-4782-8c81-732bf8a2de45244101510",
+          "x": 105901,
+          "y": -8575
+        },
+        "c22aab4b-f9d8-4e73-90f4-4f61102aa13c510": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/news6.html",
+          "id": "c22aab4b-f9d8-4e73-90f4-4f61102aa13c510",
+          "x": 111819,
+          "y": -9395,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101510111": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101510111",
+          "x": 103314,
+          "y": -6621,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101510111": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/news61.html",
+          "id": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101510111",
+          "x": 104296,
+          "y": -6620,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101510111": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101510111",
+          "x": 104920,
+          "y": -6634
+        },
+        "100eff1f-2de6-4e02-ae43-700c710aaae4244101510111": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 61 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510111",
+          "x": 105468,
+          "y": -6647,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101510111": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101510111",
+          "x": 105952,
+          "y": -6308
+        },
+        "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101510111": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101510111",
+          "x": 106124,
+          "y": -5752
+        },
+        "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101510111": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news61.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101510111",
+          "x": 106250,
+          "y": -4280,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "ad105e2b-063b-4782-8c81-732bf8a2de45244101510111": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "ad105e2b-063b-4782-8c81-732bf8a2de45244101510111",
+          "x": 105976,
+          "y": -5014
+        },
+        "c22aab4b-f9d8-4e73-90f4-4f61102aa13c510111": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/news61.html",
+          "id": "c22aab4b-f9d8-4e73-90f4-4f61102aa13c510111",
+          "x": 112097,
+          "y": -5865,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -56382,11 +57769,6 @@ var schemeData =
           "from": "e47a9e42-47db-4155-8a2e-b4373ce5fb9d852",
           "to": "81f45ebb-d649-45a4-a6b6-5284382d4a79852"
         },
-        "ad425adb-9001-4bd8-a87f-0e2ef829cf29": {
-          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09",
-          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5",
-          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29"
-        },
         "e5d1c3a1-50eb-4848-9eef-9aff8583b279": {
           "from": "1cd537f0-df33-4713-9b58-7ab0b6cdac06399446364",
           "to": "c30b409a-d1fa-460a-b112-3572e4ca1c09",
@@ -70566,6 +71948,1519 @@ var schemeData =
           "id": "f4066506-c5f6-4f0f-aac5-67155cf4030f244101536",
           "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101536",
           "to": "ad105e2b-063b-4782-8c81-732bf8a2de45244101536"
+        },
+        "0639b36c-0892-437b-8f56-5bc611b459ad975787590": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "0639b36c-0892-437b-8f56-5bc611b459ad975787590",
+          "from": "d3dc26bd-9637-42f5-adab-314965cf56fa993975787590",
+          "to": "4590912f-7aa2-45da-93f3-fdd2295ffa4e512975787590"
+        },
+        "d296494c-a456-42da-839c-a1ce499cf11d": {
+          "from": "4590912f-7aa2-45da-93f3-fdd2295ffa4e512975787",
+          "to": "4590912f-7aa2-45da-93f3-fdd2295ffa4e512975787590",
+          "id": "d296494c-a456-42da-839c-a1ce499cf11d"
+        },
+        "bc388160-d83c-4004-b66b-5d4eb0d3a9d4244101156": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "bc388160-d83c-4004-b66b-5d4eb0d3a9d4244101156",
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101156",
+          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101156"
+        },
+        "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b244101156": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b244101156",
+          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101156",
+          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101156"
+        },
+        "9775bfce-3012-40ce-b4d3-083340dda4c9244101156": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "9775bfce-3012-40ce-b4d3-083340dda4c9244101156",
+          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101156",
+          "to": "100eff1f-2de6-4e02-ae43-700c710aaae4244101156"
+        },
+        "a04dfb4c-1465-45d1-a6b8-01af77d6769b244101156": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "a04dfb4c-1465-45d1-a6b8-01af77d6769b244101156",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101156",
+          "to": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101156"
+        },
+        "0e354c29-ab9b-470b-ac8e-dda6a7bd34c2244101156": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0e354c29-ab9b-470b-ac8e-dda6a7bd34c2244101156",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101156",
+          "to": "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101156"
+        },
+        "0219fe25-9f16-4006-862b-27713558b852244101156": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0219fe25-9f16-4006-862b-27713558b852244101156",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101156",
+          "to": "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101156"
+        },
+        "f4066506-c5f6-4f0f-aac5-67155cf4030f244101156": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "f4066506-c5f6-4f0f-aac5-67155cf4030f244101156",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101156",
+          "to": "ad105e2b-063b-4782-8c81-732bf8a2de45244101156"
+        },
+        "e87393d7-f1fe-4809-9bc3-4d4d229eca4c29998": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "e87393d7-f1fe-4809-9bc3-4d4d229eca4c29998",
+          "from": "e283bb5e-4305-4099-9ada-63f068527a0029998",
+          "to": "f21281af-0f1a-49ca-89c7-067a692c544029998"
+        },
+        "59538ff6-5056-4d0d-be71-0d145ee2c0da98": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "label": "code",
+          "id": "59538ff6-5056-4d0d-be71-0d145ee2c0da98",
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf48698",
+          "to": "e283bb5e-4305-4099-9ada-63f068527a0029998"
+        },
+        "8b11d6b8-aee6-485a-8bdf-82a45f4f0bec": {
+          "from": "fcdd0bec-d9eb-412f-810f-075698893dbf486",
+          "to": "e283bb5e-4305-4099-9ada-63f068527a0029998",
+          "id": "8b11d6b8-aee6-485a-8bdf-82a45f4f0bec",
+          "label": "code"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c0": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c0",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c0",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c0"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c1": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c1",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c1",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c1"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c2": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c2",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c2",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c2"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c3": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c3",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c3",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c3"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c4": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c4",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c4",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c4"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c5": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c5",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c5",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c5"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c6": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c6",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c6",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c6"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c7": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c7",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c7",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c7"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c8": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c8",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c8",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c8"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c9": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c9",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c9",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c9"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c10": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c10",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c10",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c10"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c11": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c11",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c11",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c11"
+        },
+        "ad425adb-9001-4bd8-a87f-0e2ef829cf29c12": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "ad425adb-9001-4bd8-a87f-0e2ef829cf29c12",
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09c12",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c12"
+        },
+        "85bdfbf4-f9f2-4865-a3ba-8340cf3413cf": {
+          "from": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c0",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5",
+          "id": "85bdfbf4-f9f2-4865-a3ba-8340cf3413cf"
+        },
+        "4960d321-4758-481c-93b5-6989b39fd224": {
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c0",
+          "id": "4960d321-4758-481c-93b5-6989b39fd224"
+        },
+        "2e578ee4-3883-44eb-8009-64097957a991": {
+          "from": "c30b409a-d1fa-460a-b112-3572e4ca1c09",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c1",
+          "id": "2e578ee4-3883-44eb-8009-64097957a991"
+        },
+        "2ab4d8af-c266-424b-8fed-956c4403b039": {
+          "from": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c1",
+          "to": "b6757a8e-9f2e-49e4-8216-2bcd680fefe5c2",
+          "id": "2ab4d8af-c266-424b-8fed-956c4403b039"
+        },
+        "bc388160-d83c-4004-b66b-5d4eb0d3a9d424410162": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "bc388160-d83c-4004-b66b-5d4eb0d3a9d424410162",
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c0206401942486693232501969863969848332368953373030245265073724410162",
+          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969863969848332368953373030245265046824410162"
+        },
+        "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b24410162": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b24410162",
+          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab41206401942486693232501969863969848332368953373030245265046824410162",
+          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969863969848332368953373030245265068924410162"
+        },
+        "9775bfce-3012-40ce-b4d3-083340dda4c924410162": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "9775bfce-3012-40ce-b4d3-083340dda4c924410162",
+          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db8206401942486693232501969863969848332368953373030245265068924410162",
+          "to": "100eff1f-2de6-4e02-ae43-700c710aaae424410162"
+        },
+        "a04dfb4c-1465-45d1-a6b8-01af77d6769b24410162": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "a04dfb4c-1465-45d1-a6b8-01af77d6769b24410162",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae424410162",
+          "to": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d24410162"
+        },
+        "0e354c29-ab9b-470b-ac8e-dda6a7bd34c224410162": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0e354c29-ab9b-470b-ac8e-dda6a7bd34c224410162",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae424410162",
+          "to": "9df1ccab-bc0b-471e-8708-07ce75cd7ef424410162"
+        },
+        "0219fe25-9f16-4006-862b-27713558b85224410162": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0219fe25-9f16-4006-862b-27713558b85224410162",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae424410162",
+          "to": "bc30156b-9e7c-4b12-b60f-d5abb12a313524410162"
+        },
+        "f4066506-c5f6-4f0f-aac5-67155cf4030f24410162": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "f4066506-c5f6-4f0f-aac5-67155cf4030f24410162",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae424410162",
+          "to": "ad105e2b-063b-4782-8c81-732bf8a2de4524410162"
+        },
+        "136ab097-2439-4e68-bde0-f16246fe2a17": {
+          "from": "1cd537f0-df33-4713-9b58-7ab0b6cdac06399446364",
+          "to": "029ca70d-94ce-400b-b475-ffd03b229dec964",
+          "id": "136ab097-2439-4e68-bde0-f16246fe2a17"
+        },
+        "bc388160-d83c-4004-b66b-5d4eb0d3a9d4244101510": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "bc388160-d83c-4004-b66b-5d4eb0d3a9d4244101510",
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101510",
+          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101510"
+        },
+        "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b244101510": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b244101510",
+          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101510",
+          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101510"
+        },
+        "9775bfce-3012-40ce-b4d3-083340dda4c9244101510": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "9775bfce-3012-40ce-b4d3-083340dda4c9244101510",
+          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101510",
+          "to": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510"
+        },
+        "a04dfb4c-1465-45d1-a6b8-01af77d6769b244101510": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "a04dfb4c-1465-45d1-a6b8-01af77d6769b244101510",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510",
+          "to": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101510"
+        },
+        "0e354c29-ab9b-470b-ac8e-dda6a7bd34c2244101510": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0e354c29-ab9b-470b-ac8e-dda6a7bd34c2244101510",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510",
+          "to": "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101510"
+        },
+        "0219fe25-9f16-4006-862b-27713558b852244101510": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0219fe25-9f16-4006-862b-27713558b852244101510",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510",
+          "to": "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101510"
+        },
+        "f4066506-c5f6-4f0f-aac5-67155cf4030f244101510": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "f4066506-c5f6-4f0f-aac5-67155cf4030f244101510",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510",
+          "to": "ad105e2b-063b-4782-8c81-732bf8a2de45244101510"
+        },
+        "bc388160-d83c-4004-b66b-5d4eb0d3a9d4244101510111": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "bc388160-d83c-4004-b66b-5d4eb0d3a9d4244101510111",
+          "from": "24ae259c-16ca-4400-acff-c6b8465a30c02064019424866932325019698639698483323689533730302452650737244101510111",
+          "to": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101510111"
+        },
+        "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b244101510111": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "5740aaa1-9b1e-44b6-8c0d-8d82eaaf914b244101510111",
+          "from": "e43574f2-7e4a-49e1-ac45-688ca436ab412064019424866932325019698639698483323689533730302452650468244101510111",
+          "to": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101510111"
+        },
+        "9775bfce-3012-40ce-b4d3-083340dda4c9244101510111": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "9775bfce-3012-40ce-b4d3-083340dda4c9244101510111",
+          "from": "e1ce5d31-e86a-45dc-9080-27f7f04c1db82064019424866932325019698639698483323689533730302452650689244101510111",
+          "to": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510111"
+        },
+        "a04dfb4c-1465-45d1-a6b8-01af77d6769b244101510111": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "a04dfb4c-1465-45d1-a6b8-01af77d6769b244101510111",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510111",
+          "to": "f36b43c3-4f42-4147-8e1b-0adbc9a8b60d244101510111"
+        },
+        "0e354c29-ab9b-470b-ac8e-dda6a7bd34c2244101510111": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0e354c29-ab9b-470b-ac8e-dda6a7bd34c2244101510111",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510111",
+          "to": "9df1ccab-bc0b-471e-8708-07ce75cd7ef4244101510111"
+        },
+        "0219fe25-9f16-4006-862b-27713558b852244101510111": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "0219fe25-9f16-4006-862b-27713558b852244101510111",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510111",
+          "to": "bc30156b-9e7c-4b12-b60f-d5abb12a3135244101510111"
+        },
+        "f4066506-c5f6-4f0f-aac5-67155cf4030f244101510111": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "f4066506-c5f6-4f0f-aac5-67155cf4030f244101510111",
+          "from": "100eff1f-2de6-4e02-ae43-700c710aaae4244101510111",
+          "to": "ad105e2b-063b-4782-8c81-732bf8a2de45244101510111"
         }
       },
       "length": 0,
@@ -70628,7 +73523,7 @@ var schemeData =
   "setup": {
     "scale": 0.01,
     "viewPosition": {
-      "x": 65672.99999999996,
+      "x": 65673.00000000004,
       "y": 17507.999999999993
     }
   }

@@ -12,8 +12,8 @@ var schemeData =
       "_data": {
         "1": {
           "id": "1",
-          "x": 596,
-          "y": 599,
+          "x": 895,
+          "y": -4191,
           "label": "mm-vis-js",
           "shape": "text",
           "font": {
@@ -23,8 +23,8 @@ var schemeData =
         },
         "93190b70-40fd-4ed7-8177-2b78d925134b": {
           "id": "93190b70-40fd-4ed7-8177-2b78d925134b",
-          "x": 892,
-          "y": 1115,
+          "x": 1191,
+          "y": -3675,
           "label": "Пример заметки.",
           "shape": "box",
           "link": "",
@@ -34,8 +34,8 @@ var schemeData =
         },
         "d5d764d3-1dce-4f92-8d64-e7c20e194f6e": {
           "id": "d5d764d3-1dce-4f92-8d64-e7c20e194f6e",
-          "x": 1335,
-          "y": 1114,
+          "x": 1634,
+          "y": -3676,
           "label": "                                       \n   ",
           "shape": "box",
           "borderWidth": "3",
@@ -47,8 +47,8 @@ var schemeData =
         },
         "daaf3999-0238-41fa-948f-9a46c115f00b": {
           "id": "daaf3999-0238-41fa-948f-9a46c115f00b",
-          "x": 919,
-          "y": 644,
+          "x": 1218,
+          "y": -4146,
           "label": "В отличие от стандартного vis.js можно\nстроить схемы с связями\nповерх иллюстраций.",
           "shape": "box",
           "link": "",
@@ -58,42 +58,42 @@ var schemeData =
         },
         "a6fd3d0f-bd20-4470-9806-67267143f507": {
           "id": "a6fd3d0f-bd20-4470-9806-67267143f507",
-          "x": 715,
-          "y": 679,
+          "x": 1014,
+          "y": -4111,
           "label": "Функции",
           "shape": "box",
           "link": ""
         },
         "ea153d3c-e619-4eea-a53e-399b37c850d1": {
           "id": "ea153d3c-e619-4eea-a53e-399b37c850d1",
-          "x": 1031,
-          "y": 320,
+          "x": 1330,
+          "y": -4470,
           "label": "быстро сделать простой инструмент публикации схем и их редактирования.",
           "shape": "box",
           "link": ""
         },
         "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae": {
           "id": "85c9e1e3-7e53-4b2a-a078-08d2bbe7c6ae",
-          "x": 711,
-          "y": 443,
+          "x": 1010,
+          "y": -4347,
           "label": "Простота"
         },
         "2bd3206d-d1ee-4b8f-8225-b81eb9673e74": {
           "id": "2bd3206d-d1ee-4b8f-8225-b81eb9673e74",
-          "x": 974,
-          "y": 368,
+          "x": 1273,
+          "y": -4422,
           "label": "Для работы нужен только браузер и текстовый редактор"
         },
         "21f64c6a-2ff1-41b3-bf77-a962fbed3e35": {
           "id": "21f64c6a-2ff1-41b3-bf77-a962fbed3e35",
-          "x": 903,
-          "y": 413,
+          "x": 1202,
+          "y": -4377,
           "label": "Не нужна база данных и веб-сервер."
         },
         "3f496169-3281-4163-888c-997690d090d3": {
           "id": "3f496169-3281-4163-888c-997690d090d3",
-          "x": 942,
-          "y": 469,
+          "x": 1241,
+          "y": -4321,
           "label": "Чтобы сохранять работу, код с данными схемы \nнужно копировать вручную \nсо страницы в ее же собственный код.",
           "shape": "box",
           "link": "",
@@ -103,36 +103,36 @@ var schemeData =
         },
         "fc4313f9-0d34-4e53-9db6-9064b2389269": {
           "id": "fc4313f9-0d34-4e53-9db6-9064b2389269",
-          "x": 716,
-          "y": 555,
+          "x": 1015,
+          "y": -4235,
           "label": "Кейсы"
         },
         "a52bd703-6566-4b12-8ff8-bb26ce5eaf84": {
           "id": "a52bd703-6566-4b12-8ff8-bb26ce5eaf84",
-          "x": 929,
-          "y": 530,
+          "x": 1228,
+          "y": -4260,
           "label": "Быстро построить схему и положить ее\nна веб-сервер в виде статического файла.",
           "shape": "box",
           "link": ""
         },
         "757fcd36-6bdc-4777-86d5-a07e9771ce13": {
           "id": "757fcd36-6bdc-4777-86d5-a07e9771ce13",
-          "x": 999,
-          "y": 579,
+          "x": 1298,
+          "y": -4211,
           "label": "Сохранить из интернета страницу с схемой на свой компьютер,\nотредактировать и опубликовать свою версию.",
           "shape": "box",
           "link": ""
         },
         "4f8a5b3a-9252-45e5-b3f6-d644e3aef68a": {
           "id": "4f8a5b3a-9252-45e5-b3f6-d644e3aef68a",
-          "x": 705,
-          "y": 320,
+          "x": 1004,
+          "y": -4470,
           "label": "Цель"
         },
         "ee7cf4ac-ceca-4805-9299-80d862b7ba4a": {
           "id": "ee7cf4ac-ceca-4805-9299-80d862b7ba4a",
-          "x": 1194,
-          "y": 642,
+          "x": 1493,
+          "y": -4148,
           "label": "В этой версии такие иллюстрации\nнадо хранить в дереве\nданных JSON \"canvas2Data\"",
           "shape": "box",
           "link": "",
@@ -142,8 +142,8 @@ var schemeData =
         },
         "c3a0125c-bcdd-402f-8caf-d431c2870ea7": {
           "id": "c3a0125c-bcdd-402f-8caf-d431c2870ea7",
-          "x": 946,
-          "y": 711,
+          "x": 1245,
+          "y": -4079,
           "label": "Детально редактировать схему можно прямо в\nJSON данных в меню справа страницы.",
           "shape": "box",
           "link": "",
@@ -153,14 +153,14 @@ var schemeData =
         },
         "77056608-d537-4045-9218-87c0f992eb3a": {
           "id": "77056608-d537-4045-9218-87c0f992eb3a",
-          "x": 725,
-          "y": 778,
+          "x": 1024,
+          "y": -4012,
           "label": "2019.10.17"
         },
         "62e1abf0-15ec-455a-a4ab-20e021624151": {
           "id": "62e1abf0-15ec-455a-a4ab-20e021624151",
-          "x": 911,
-          "y": 827,
+          "x": 1210,
+          "y": -3963,
           "label": "https://github.com/sushilshik/mm-vis-js",
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
@@ -170,20 +170,20 @@ var schemeData =
         },
         "946bccb9-fc9b-42a3-a00c-6ed88f5455eb": {
           "id": "946bccb9-fc9b-42a3-a00c-6ed88f5455eb",
-          "x": 703,
-          "y": 826,
+          "x": 1002,
+          "y": -3964,
           "label": "Код"
         },
         "bc9de21d-dfe5-4b7a-a972-5f22e0faeec3": {
           "id": "bc9de21d-dfe5-4b7a-a972-5f22e0faeec3",
-          "x": 722,
-          "y": 991,
+          "x": 1021,
+          "y": -3799,
           "label": "Примеры"
         },
         "b248fde4-bbe8-4342-8e94-9a3ccaaf74f6": {
           "id": "b248fde4-bbe8-4342-8e94-9a3ccaaf74f6",
-          "x": 1284,
-          "y": 890,
+          "x": 1583,
+          "y": -3900,
           "label": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
@@ -195,8 +195,8 @@ var schemeData =
         },
         "5cb5a670-d957-46bf-ab09-ee85e779742f": {
           "id": "5cb5a670-d957-46bf-ab09-ee85e779742f",
-          "x": 870,
-          "y": 886,
+          "x": 1169,
+          "y": -3904,
           "label": "Cхема книги",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
@@ -208,8 +208,8 @@ var schemeData =
         },
         "de162667-d58a-44a9-b92f-2ce4d491bd77": {
           "id": "de162667-d58a-44a9-b92f-2ce4d491bd77",
-          "x": 880,
-          "y": 947,
+          "x": 1179,
+          "y": -3843,
           "label": "Схема кода vis.js",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/vis.js.html",
@@ -221,8 +221,8 @@ var schemeData =
         },
         "08e86b96-cceb-4c30-8895-efd97ea4642a": {
           "id": "08e86b96-cceb-4c30-8895-efd97ea4642a",
-          "x": 1186,
-          "y": 951,
+          "x": 1485,
+          "y": -3839,
           "label": "https://sushilshik.github.io/examples/vis.js.html",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/vis.js.html",
@@ -234,8 +234,8 @@ var schemeData =
         },
         "ebe21c81-c6d5-403d-a901-3645a36d578c": {
           "id": "ebe21c81-c6d5-403d-a901-3645a36d578c",
-          "x": 688,
-          "y": -7792,
+          "x": 987,
+          "y": -12582,
           "label": "Схема \"главная страница\".",
           "shape": "box",
           "link": "",
@@ -250,14 +250,14 @@ var schemeData =
         },
         "2201cf20-76a4-48f8-9ad2-4dcd1d2cac63": {
           "id": "2201cf20-76a4-48f8-9ad2-4dcd1d2cac63",
-          "x": 879,
-          "y": -7794,
+          "x": 1178,
+          "y": -12584,
           "label": "2019.11.01"
         },
         "564ee48a-51d9-47cd-b116-749073fa8426": {
           "id": "564ee48a-51d9-47cd-b116-749073fa8426",
-          "x": 358,
-          "y": -8307,
+          "x": 657,
+          "y": -13097,
           "label": "mm-vis-js",
           "shape": "box",
           "link": "",
@@ -272,14 +272,14 @@ var schemeData =
         },
         "6165adc3-7cfc-47d6-9908-5c906ca36769": {
           "id": "6165adc3-7cfc-47d6-9908-5c906ca36769",
-          "x": 664,
-          "y": -8674,
+          "x": 963,
+          "y": -13464,
           "label": "Примеры карт кода"
         },
         "5754adff-5941-47ed-921b-fac1ba405a8a": {
           "id": "5754adff-5941-47ed-921b-fac1ba405a8a",
-          "x": 650,
-          "y": -8433,
+          "x": 949,
+          "y": -13223,
           "label": "Примеры книги",
           "shape": "box",
           "link": "",
@@ -294,8 +294,8 @@ var schemeData =
         },
         "8f9583f5-1eba-4dc8-a10d-3d7a88368954": {
           "id": "8f9583f5-1eba-4dc8-a10d-3d7a88368954",
-          "x": 1264,
-          "y": -8057,
+          "x": 1563,
+          "y": -12847,
           "label": "Схема \"Тестирование mm-vis-js\"",
           "shape": "box",
           "link": "",
@@ -310,14 +310,14 @@ var schemeData =
         },
         "188090d8-3678-4031-ab6f-51eef383b3f1": {
           "id": "188090d8-3678-4031-ab6f-51eef383b3f1",
-          "x": 656,
-          "y": -8299,
+          "x": 955,
+          "y": -13089,
           "label": "Как пользоваться"
         },
         "a9a1ffb2-c2bf-4023-b25b-8b283cf80f37": {
           "id": "a9a1ffb2-c2bf-4023-b25b-8b283cf80f37",
-          "x": 928,
-          "y": -8304,
+          "x": 1227,
+          "y": -13094,
           "label": "Схема \"Как пользоваться\"",
           "shape": "box",
           "link": "",
@@ -332,8 +332,8 @@ var schemeData =
         },
         "d4c5cb55-9c89-43a3-af0e-3a78bd7c98b8": {
           "id": "d4c5cb55-9c89-43a3-af0e-3a78bd7c98b8",
-          "x": 6766,
-          "y": 1655,
+          "x": 7065,
+          "y": -3135,
           "label": "Схема \n\"Главная страница\"\nот 2019.10.17",
           "shape": "box",
           "link": "",
@@ -349,8 +349,8 @@ var schemeData =
         },
         "aedd3dc8-1d89-42c3-a236-eeaaeaeb5100": {
           "id": "aedd3dc8-1d89-42c3-a236-eeaaeaeb5100",
-          "x": 576,
-          "y": -3520,
+          "x": 875,
+          "y": -8310,
           "label": "mm-vis-js",
           "shape": "box",
           "link": "",
@@ -365,20 +365,20 @@ var schemeData =
         },
         "d07b952b-852f-41b3-b30b-cf0560fd2375": {
           "id": "d07b952b-852f-41b3-b30b-cf0560fd2375",
-          "x": 901,
-          "y": -3818,
+          "x": 1200,
+          "y": -8608,
           "label": "Programming code maps"
         },
         "1a6b4225-316f-4448-83a8-413b7a76e186": {
           "id": "1a6b4225-316f-4448-83a8-413b7a76e186",
-          "x": 841,
-          "y": -3706,
+          "x": 1140,
+          "y": -8496,
           "label": "Books"
         },
         "8f788278-1d43-4b98-8d31-2ccb052f9682": {
           "id": "8f788278-1d43-4b98-8d31-2ccb052f9682",
-          "x": 921,
-          "y": -3559,
+          "x": 1220,
+          "y": -8349,
           "label": "mm-vis-js code and data tests",
           "shape": "box",
           "link": "",
@@ -393,14 +393,14 @@ var schemeData =
         },
         "cc761a49-70c9-4594-9060-b2679e444a22": {
           "id": "cc761a49-70c9-4594-9060-b2679e444a22",
-          "x": 855,
-          "y": -3417,
+          "x": 1154,
+          "y": -8207,
           "label": "How to use"
         },
         "720f0668-fe35-4c9e-9f59-4d0a526558f9": {
           "id": "720f0668-fe35-4c9e-9f59-4d0a526558f9",
-          "x": 887,
-          "y": -3265,
+          "x": 1186,
+          "y": -8055,
           "label": "\"Main page\" scheme",
           "shape": "box",
           "link": "",
@@ -415,20 +415,20 @@ var schemeData =
         },
         "3e47bd66-39f0-4f0c-a02e-d7cdf1f12f4e": {
           "id": "3e47bd66-39f0-4f0c-a02e-d7cdf1f12f4e",
-          "x": 1054,
-          "y": -3266,
+          "x": 1353,
+          "y": -8056,
           "label": "2019.11.01"
         },
         "5974d2ed-0f65-4fe4-982f-f7293348ab6d": {
           "id": "5974d2ed-0f65-4fe4-982f-f7293348ab6d",
-          "x": 637,
-          "y": -8092,
+          "x": 936,
+          "y": -12882,
           "label": "Разработка"
         },
         "7480bb63-41ee-4edc-8752-ea41bfe6acbc": {
           "id": "7480bb63-41ee-4edc-8752-ea41bfe6acbc",
-          "x": 981,
-          "y": -8156,
+          "x": 1280,
+          "y": -12946,
           "label": "Ссылка на репозиторий с кодом mm-vis-js",
           "shape": "box",
           "link": "",
@@ -443,8 +443,8 @@ var schemeData =
         },
         "1ce98c63-b782-4a88-b65e-f20401f71fe2": {
           "id": "1ce98c63-b782-4a88-b65e-f20401f71fe2",
-          "x": 1371,
-          "y": -8149,
+          "x": 1670,
+          "y": -12939,
           "label": "https://github.com/sushilshik/mm-vis-js",
           "shape": "box",
           "link": "https://github.com/sushilshik/mm-vis-js",
@@ -459,8 +459,8 @@ var schemeData =
         },
         "173fabfe-9055-4500-ac87-1761c1bb1b74": {
           "id": "173fabfe-9055-4500-ac87-1761c1bb1b74",
-          "x": 938,
-          "y": -8057,
+          "x": 1237,
+          "y": -12847,
           "label": "Тестирование кода и данных",
           "shape": "box",
           "link": "",
@@ -475,8 +475,8 @@ var schemeData =
         },
         "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210": {
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210",
-          "x": 7011,
-          "y": -7728,
+          "x": 7310,
+          "y": -12518,
           "label": "\"Главная страница\".\n2019.11.01",
           "shape": "box",
           "link": "",
@@ -492,8 +492,8 @@ var schemeData =
         },
         "c27e5d4a-2c81-4a3c-b046-a99cf8712e82": {
           "id": "c27e5d4a-2c81-4a3c-b046-a99cf8712e82",
-          "x": 5149,
-          "y": -2922,
+          "x": 5448,
+          "y": -7712,
           "label": "\"Main page\".\n2019.11.01",
           "shape": "box",
           "link": "",
@@ -509,20 +509,20 @@ var schemeData =
         },
         "7b7cc59d-7952-4c22-a466-cf492a6626e9": {
           "id": "7b7cc59d-7952-4c22-a466-cf492a6626e9",
-          "x": 641,
-          "y": -7909,
+          "x": 940,
+          "y": -12699,
           "label": "Примечания"
         },
         "1a531265-5ea0-420b-aa70-0b4b81d6fd33": {
           "id": "1a531265-5ea0-420b-aa70-0b4b81d6fd33",
-          "x": 1017,
-          "y": -7914,
+          "x": 1316,
+          "y": -12704,
           "label": "Уменьшите масштаб, чтобы увидеть другие разделы."
         },
         "8b98d292-49c1-41e3-b785-ac904b7b656f": {
           "id": "8b98d292-49c1-41e3-b785-ac904b7b656f",
-          "x": 1364,
-          "y": -8644,
+          "x": 1663,
+          "y": -13434,
           "label": "Карта кода mm-vis-js в общем списке примеров",
           "shape": "box",
           "link": "",
@@ -537,14 +537,14 @@ var schemeData =
         },
         "b72ae6ce-59e1-4d64-8f85-c80943f957d7": {
           "id": "b72ae6ce-59e1-4d64-8f85-c80943f957d7",
-          "x": 980,
-          "y": -8712,
+          "x": 1279,
+          "y": -13502,
           "label": "Пока примеряемся с вариантами верстки"
         },
         "88b9258a-634e-428d-a4c3-bc7c04b5ba8a": {
           "id": "88b9258a-634e-428d-a4c3-bc7c04b5ba8a",
-          "x": 1090,
-          "y": -8405,
+          "x": 1389,
+          "y": -13195,
           "label": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
           "shape": "box",
           "link": "https://sushilshik.github.io/examples/technicheskoe_risovanie_-_sherbina.html",
@@ -559,8 +559,8 @@ var schemeData =
         },
         "a07f49d6-5114-4f7e-aabe-0d63919fd8e1": {
           "id": "a07f49d6-5114-4f7e-aabe-0d63919fd8e1",
-          "x": 957,
-          "y": -8643,
+          "x": 1256,
+          "y": -13433,
           "label": "Схема \"Карты программного кода\"",
           "shape": "box",
           "link": "",
@@ -575,8 +575,8 @@ var schemeData =
         },
         "4142d149-3b9d-4c0c-b65e-db855d03d582": {
           "id": "4142d149-3b9d-4c0c-b65e-db855d03d582",
-          "x": 890,
-          "y": -8471,
+          "x": 1189,
+          "y": -13261,
           "label": "Схема \"Книги\"",
           "shape": "box",
           "link": "",
@@ -591,14 +591,14 @@ var schemeData =
         },
         "49408e40-e33c-46d8-b891-8ada89507c28": {
           "id": "49408e40-e33c-46d8-b891-8ada89507c28",
-          "x": -18915,
-          "y": -7792,
+          "x": -18616,
+          "y": -12582,
           "label": "Help"
         },
         "3dc28efb-58bf-4079-b4bf-fef2db3f2066": {
           "id": "3dc28efb-58bf-4079-b4bf-fef2db3f2066",
-          "x": -18736,
-          "y": -8353,
+          "x": -18437,
+          "y": -13143,
           "label": "META",
           "shape": "box",
           "link": "",
@@ -613,38 +613,38 @@ var schemeData =
         },
         "87acb101-5f15-4dfd-9d17-2b95b9f3a5f5": {
           "id": "87acb101-5f15-4dfd-9d17-2b95b9f3a5f5",
-          "x": -17351,
-          "y": -8172,
+          "x": -17052,
+          "y": -12962,
           "label": "init"
         },
         "1fcad7eb-7ee4-4065-8814-8766eab6bcc1": {
           "id": "1fcad7eb-7ee4-4065-8814-8766eab6bcc1",
-          "x": -17171,
-          "y": -8174,
+          "x": -16872,
+          "y": -12964,
           "label": "2019.11.03"
         },
         "9c017941-92dc-4c0a-8029-19756d681ee6": {
           "id": "9c017941-92dc-4c0a-8029-19756d681ee6",
-          "x": -17568,
-          "y": -8170,
+          "x": -17269,
+          "y": -12960,
           "label": "Development"
         },
         "2701a17b-792c-4cc0-98c7-12a0ae3820d2": {
           "id": "2701a17b-792c-4cc0-98c7-12a0ae3820d2",
-          "x": -19200,
-          "y": -7536,
+          "x": -18901,
+          "y": -12326,
           "label": "saveCanvasProjectData"
         },
         "13d3349a-8ce3-48a7-988f-04179ecb12bf": {
           "id": "13d3349a-8ce3-48a7-988f-04179ecb12bf",
-          "x": -18897,
-          "y": -7567,
+          "x": -18598,
+          "y": -12357,
           "label": "projectSaveId"
         },
         "d3f17392-e238-41e6-9a07-4cbcad530e32": {
           "id": "d3f17392-e238-41e6-9a07-4cbcad530e32",
-          "x": -18693,
-          "y": -7566,
+          "x": -18394,
+          "y": -12356,
           "label": "projectSaveId: mainPage1"
         },
         "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558282368": {
@@ -677,8 +677,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js pages list",
           "id": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558282368",
-          "x": -8212,
-          "y": -8237,
+          "x": -7913,
+          "y": -13027,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -711,8 +711,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "updateMenuFromScheme([],[]);\n\nvar data = document.getElementById(\"schemeDataTextArea\").value;\n\nvar url = \"https://localhost:3001\";\n\nfunction fetchData(url, params) {\n\n   url = url + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          if (response.lastIndexOf(\"ok - \", 0) !== 0 ) {\n             showAlert(response, 10, 65);\n          }\n          console.log(response);\n       })\n       .catch(function(error){\n          console.log(error);\n});\n\n}\n\nfunction chunkString(str, length) {\n  return str.match(new RegExp('(.|[\\r\\n]){1,' + length + '}', 'g'));\n}\n\ndata = encodeURIComponent(data);\nvar dataChunks = chunkString(data, 10000);\nconsole.log(dataChunks.length);\nvar saveTime = new Date();\n\nvar index = 0;\nfunction saveLoop () {           \n   setTimeout(function () {    \n      //var dataChunk = JSON.stringify(dataChunk);\n      var dataChunk = encodeURIComponent(dataChunks[index]);\n      var params = {\n         path: \"/home/mike/progr/repo/mm-vis-js/app/index.data.js\",\n         dataPart: dataChunk,\n         dataPartNumber: index,\n         projectName: \"index_proj1\",\n         saveTime: saveTime.getTime(),\n         dataChunksLength: dataChunks.length,\n         lastDataPart: false\n      };\n\n      fetchData(url, params);         \n      index++;                     \n      if (index < dataChunks.length) {            \n         saveLoop();             \n      }                        \n   }, 3)\n}\n\nsaveLoop();",
           "id": "063a7ffc-4975-4000-9c73-2c221ec4f7f5709",
-          "x": -13233,
-          "y": -5348,
+          "x": -12934,
+          "y": -10138,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -743,8 +743,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "mm-vis-js save",
-          "x": -14910,
-          "y": -3867,
+          "x": -14611,
+          "y": -8657,
           "id": "5f08e9b3-be39-411a-9b7a-67703314f3e9709",
           "shape": "box",
           "link": "",
@@ -773,8 +773,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Development",
-          "x": -14495,
-          "y": -3445,
+          "x": -14196,
+          "y": -8235,
           "id": "fc346e19-9d86-4596-835b-11f1f755d865709"
         },
         "4e8d23e0-2916-468f-ab10-7887edd29781709": {
@@ -800,8 +800,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "11/16/2019",
-          "x": -14301,
-          "y": -3445,
+          "x": -14002,
+          "y": -8235,
           "id": "4e8d23e0-2916-468f-ab10-7887edd29781709"
         },
         "9e05bed3-bcfb-461c-8782-cbb50e700f2b709": {
@@ -827,8 +827,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "init",
-          "x": -14190,
-          "y": -3445,
+          "x": -13891,
+          "y": -8235,
           "id": "9e05bed3-bcfb-461c-8782-cbb50e700f2b709"
         },
         "56b1d0ac-f667-4a67-948e-fe51b137da35709": {
@@ -854,8 +854,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Notes",
-          "x": -14495,
-          "y": -4295,
+          "x": -14196,
+          "y": -9085,
           "id": "56b1d0ac-f667-4a67-948e-fe51b137da35709"
         },
         "f9d3919c-5ba4-4e33-afd7-f6321b559d96709": {
@@ -881,8 +881,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "x": -14325,
-          "y": -5389,
+          "x": -14026,
+          "y": -10179,
           "id": "f9d3919c-5ba4-4e33-afd7-f6321b559d96709"
         },
         "52715514-7cae-4783-a55f-e207e1ce5e23709": {
@@ -908,8 +908,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "x": -14335,
-          "y": -4412,
+          "x": -14036,
+          "y": -9202,
           "id": "52715514-7cae-4783-a55f-e207e1ce5e23709"
         },
         "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709": {
@@ -935,8 +935,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sections",
-          "x": -14345,
-          "y": -4045,
+          "x": -14046,
+          "y": -8835,
           "id": "e1f0744d-f4b7-4f43-84f9-a114877eb9a9709"
         },
         "43c7b180-f8c6-452f-9346-94265b43c0bc709": {
@@ -962,8 +962,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Books",
-          "x": -14281,
-          "y": -4195,
+          "x": -13982,
+          "y": -8985,
           "id": "43c7b180-f8c6-452f-9346-94265b43c0bc709"
         },
         "a6573a2a-17e3-4e51-803a-c79be735c907709": {
@@ -989,8 +989,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": -14251,
-          "y": -4170,
+          "x": -13952,
+          "y": -8960,
           "id": "a6573a2a-17e3-4e51-803a-c79be735c907709"
         },
         "5957177d-5884-4cdf-a0a2-95fedfd8f6ce709": {
@@ -1016,8 +1016,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Sites",
-          "x": -14285,
-          "y": -4145,
+          "x": -13986,
+          "y": -8935,
           "id": "5957177d-5884-4cdf-a0a2-95fedfd8f6ce709"
         },
         "71d85620-d7c1-4f72-b9b3-178f20566934709": {
@@ -1043,8 +1043,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Magazines",
-          "x": -14266,
-          "y": -4120,
+          "x": -13967,
+          "y": -8910,
           "id": "71d85620-d7c1-4f72-b9b3-178f20566934709"
         },
         "8261ea62-4460-4d13-856e-11a89da34460709": {
@@ -1070,8 +1070,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Articles",
-          "x": -14278,
-          "y": -4095,
+          "x": -13979,
+          "y": -8885,
           "id": "8261ea62-4460-4d13-856e-11a89da34460709"
         },
         "c9e649eb-9d6f-4a97-a581-25bc23fb2dc6709": {
@@ -1097,8 +1097,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Media content",
-          "x": -14256,
-          "y": -4070,
+          "x": -13957,
+          "y": -8860,
           "id": "c9e649eb-9d6f-4a97-a581-25bc23fb2dc6709"
         },
         "87acae29-26a1-4dae-aa6c-dad83e7b8983709": {
@@ -1124,8 +1124,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": -14253,
-          "y": -4045,
+          "x": -13954,
+          "y": -8835,
           "id": "87acae29-26a1-4dae-aa6c-dad83e7b8983709"
         },
         "7ca3ffa3-5554-46fb-9e4c-21aaa8768493709": {
@@ -1151,8 +1151,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Projects",
-          "x": -14275,
-          "y": -4020,
+          "x": -13976,
+          "y": -8810,
           "id": "7ca3ffa3-5554-46fb-9e4c-21aaa8768493709"
         },
         "b850ef03-dd7d-48b9-ba43-0ab91574cb14709": {
@@ -1178,8 +1178,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Tools",
-          "x": -14284,
-          "y": -3995,
+          "x": -13985,
+          "y": -8785,
           "id": "b850ef03-dd7d-48b9-ba43-0ab91574cb14709"
         },
         "42b59714-b915-4351-8615-f73dea998d39709": {
@@ -1205,8 +1205,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Organizations",
-          "x": -14257,
-          "y": -3970,
+          "x": -13958,
+          "y": -8760,
           "id": "42b59714-b915-4351-8615-f73dea998d39709"
         },
         "f2417b15-6f28-4533-8d5c-9e91123a14b2709": {
@@ -1232,8 +1232,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Standarts",
-          "x": -14270,
-          "y": -3945,
+          "x": -13971,
+          "y": -8735,
           "id": "f2417b15-6f28-4533-8d5c-9e91123a14b2709"
         },
         "e99e9a6f-f6e1-4312-b003-5878d908f3ce709": {
@@ -1259,8 +1259,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "x": -14249,
-          "y": -3920,
+          "x": -13950,
+          "y": -8710,
           "id": "e99e9a6f-f6e1-4312-b003-5878d908f3ce709"
         },
         "f9a78cba-3904-49d3-b0da-72dbf64df687709": {
@@ -1286,8 +1286,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Laws",
-          "x": -14284,
-          "y": -3895,
+          "x": -13985,
+          "y": -8685,
           "id": "f9a78cba-3904-49d3-b0da-72dbf64df687709"
         },
         "518a2b66-f38b-49a4-9220-52cbdd3a9370709": {
@@ -1313,8 +1313,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": -14245,
-          "y": -3870,
+          "x": -13946,
+          "y": -8660,
           "id": "518a2b66-f38b-49a4-9220-52cbdd3a9370709"
         },
         "675504dd-4410-45b0-a5ec-0bac8ce4a540709": {
@@ -1340,8 +1340,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Questions",
-          "x": -14495,
-          "y": -3745,
+          "x": -14196,
+          "y": -8535,
           "id": "675504dd-4410-45b0-a5ec-0bac8ce4a540709"
         },
         "51096979-4e09-49c1-bed3-08a4925d2ebf709": {
@@ -1367,8 +1367,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Problems",
-          "x": -14495,
-          "y": -3645,
+          "x": -14196,
+          "y": -8435,
           "id": "51096979-4e09-49c1-bed3-08a4925d2ebf709"
         },
         "224747ed-bc32-4069-ab0d-8c3f13f8a51a709": {
@@ -1394,8 +1394,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "Goals",
-          "x": -14495,
-          "y": -3545,
+          "x": -14196,
+          "y": -8335,
           "id": "224747ed-bc32-4069-ab0d-8c3f13f8a51a709"
         },
         "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709": {
@@ -1428,8 +1428,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js save",
           "id": "d322f4c8-89a7-4831-85ac-a5cfdfcb9bf2142599393189555599805765709",
-          "x": -9268,
-          "y": -5286,
+          "x": -8969,
+          "y": -10076,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1458,13 +1458,13 @@ var schemeData =
           "shapeProperties": {},
           "label": "Save operations code",
           "id": "3cebcdde-eb24-4d68-9c6f-85f02e6ca6c6709",
-          "x": -13896,
-          "y": -5453
+          "x": -13597,
+          "y": -10243
         },
         "ea25b7ca-7308-4e5d-8d23-becf10837170": {
           "id": "ea25b7ca-7308-4e5d-8d23-becf10837170",
-          "x": -14028,
-          "y": -4435,
+          "x": -13729,
+          "y": -9225,
           "label": "How to save canvas with script.\n(Like \"Save\" operation\nin desktop program.)",
           "shape": "box",
           "link": "",
@@ -1502,8 +1502,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "start mvj-serv.js from mm-vis-js/utils/",
           "id": "d6a2f6ee-56a5-4221-be38-49c0a8364a7196",
-          "x": -13666,
-          "y": -4456
+          "x": -13367,
+          "y": -9246
         },
         "52aee244-a92a-41a3-8b71-373d541e660d96": {
           "color": {
@@ -1532,8 +1532,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "$ node mvj-serv.js",
           "id": "52aee244-a92a-41a3-8b71-373d541e660d96",
-          "x": -13419,
-          "y": -4453,
+          "x": -13120,
+          "y": -9243,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1565,8 +1565,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "check port number in mvj-serv.js script - 1337. Change it in mvj-serv.js and in build script above, if you need.",
           "id": "8dcd7da6-9174-4a9a-92df-19ac2ef2574596",
-          "x": -13135,
-          "y": -4490,
+          "x": -12836,
+          "y": -9280,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1599,8 +1599,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click big node above with code in it - to select it.",
           "id": "604289ab-7ae3-4401-afdc-44d012b2609c96",
-          "x": -13629,
-          "y": -4409,
+          "x": -13330,
+          "y": -9199,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1633,8 +1633,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Click \"runNodeCode\" in this node menu - on the left.",
           "id": "d98ac5d1-b4ad-4662-9dfb-3c02ee567ced96",
-          "x": -13615,
-          "y": -4370,
+          "x": -13316,
+          "y": -9160,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1642,8 +1642,8 @@ var schemeData =
         "7e39abb2-44d4-4d3c-a65b-56de4051a233": {
           "label": "",
           "link": "",
-          "x": 685,
-          "y": 365,
+          "x": 984,
+          "y": -4425,
           "id": "7e39abb2-44d4-4d3c-a65b-56de4051a233"
         },
         "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210986": {
@@ -1674,8 +1674,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Main\nMenu",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210986",
-          "x": 31922,
-          "y": -7860,
+          "x": 32221,
+          "y": -12650,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1710,8 +1710,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js_code.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906",
-          "x": 23833,
-          "y": -8299,
+          "x": 24132,
+          "y": -13089,
           "shape": "box",
           "link": "mm-vis-js_code.html",
           "borderWidth": ""
@@ -1746,8 +1746,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js_docs.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926",
-          "x": 23805,
-          "y": -6166,
+          "x": 24104,
+          "y": -10956,
           "shape": "box",
           "link": "mm-vis-js_docs.html",
           "borderWidth": ""
@@ -1782,8 +1782,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "base.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854",
-          "x": 21417,
-          "y": -3742,
+          "x": 21716,
+          "y": -8532,
           "shape": "box",
           "link": "base.html",
           "borderWidth": ""
@@ -1818,8 +1818,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "culture.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854325",
-          "x": 21833,
-          "y": -1456,
+          "x": 22132,
+          "y": -6246,
           "shape": "box",
           "link": "culture.html",
           "borderWidth": ""
@@ -1854,8 +1854,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ruby.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854325137",
-          "x": 21268,
-          "y": 760,
+          "x": 21567,
+          "y": -4030,
           "shape": "box",
           "link": "ruby.html",
           "borderWidth": ""
@@ -1890,8 +1890,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "javascript.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f0210905906926854325137704",
-          "x": 22444,
-          "y": 2768,
+          "x": 22743,
+          "y": -2022,
           "shape": "box",
           "link": "javascript.html",
           "borderWidth": ""
@@ -1926,8 +1926,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "music.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426",
-          "x": 21638,
-          "y": 6905,
+          "x": 21937,
+          "y": 2115,
           "shape": "box",
           "link": "music.html",
           "borderWidth": ""
@@ -1962,8 +1962,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "python.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946",
-          "x": 21834,
-          "y": 4846,
+          "x": 22133,
+          "y": 56,
           "shape": "box",
           "link": "python.html",
           "borderWidth": ""
@@ -1998,16 +1998,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "math.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866",
-          "x": 21444,
-          "y": 8933,
+          "x": 21743,
+          "y": 4143,
           "shape": "box",
           "link": "math.html",
           "borderWidth": ""
         },
         "58d1ee08-5ba5-4c7b-b71d-8ff90549740a": {
           "label": "Main\nMenu",
-          "x": 16300,
-          "y": 28204,
+          "x": 15833,
+          "y": 33815,
           "font": {
             "size": 72,
             "align": "left"
@@ -2023,152 +2023,163 @@ var schemeData =
         },
         "fad0d2f5-e805-42f8-81eb-34676e57823e": {
           "label": "Development",
-          "x": 16600,
-          "y": 28654,
+          "x": 16133,
+          "y": 34265,
           "id": "fad0d2f5-e805-42f8-81eb-34676e57823e"
         },
         "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8": {
           "label": "12/20/2019",
-          "x": 16733,
-          "y": 28654,
+          "x": 16266,
+          "y": 34265,
           "id": "b32dfe21-f3f6-4b47-91e8-0f01c497c5f8"
         },
         "3749bab6-782f-4012-8bc4-6868c99ae90d": {
           "label": "init",
-          "x": 16850,
-          "y": 28654,
+          "x": 16383,
+          "y": 34265,
           "id": "3749bab6-782f-4012-8bc4-6868c99ae90d"
         },
         "e84a77bd-9fe9-49e4-bd78-36357ed45eac": {
           "label": "Notes",
-          "x": 16577,
-          "y": 27804,
+          "x": 16110,
+          "y": 33415,
           "id": "e84a77bd-9fe9-49e4-bd78-36357ed45eac"
         },
         "e471ec0c-362c-4f2b-b7c4-2841070254df": {
           "label": "Dictionary of\nconcepts",
-          "x": 18605,
-          "y": 4699,
-          "id": "e471ec0c-362c-4f2b-b7c4-2841070254df"
+          "x": 19022,
+          "y": -96,
+          "id": "e471ec0c-362c-4f2b-b7c4-2841070254df",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "8603b647-7c2d-4c72-a50c-3112d91ae9fd": {
           "label": "Details, thoughts",
-          "x": 16758,
-          "y": 27668,
+          "x": 16291,
+          "y": 33279,
           "id": "8603b647-7c2d-4c72-a50c-3112d91ae9fd"
         },
         "7899b947-be30-4c88-8104-5530af5f2d8e": {
           "label": "Sections",
-          "x": 16724,
-          "y": 28054,
+          "x": 16257,
+          "y": 33665,
           "id": "7899b947-be30-4c88-8104-5530af5f2d8e"
         },
         "774cc87a-d706-4c5e-a071-c3e570be814f": {
           "label": "Books",
-          "x": 16814,
-          "y": 27904,
+          "x": 16347,
+          "y": 33515,
           "id": "774cc87a-d706-4c5e-a071-c3e570be814f"
         },
         "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf": {
           "label": "R&D institutions",
-          "x": 16845,
-          "y": 27929,
+          "x": 16378,
+          "y": 33540,
           "id": "3b8825b6-7eb1-4aec-be5a-57ae2ea0b1cf"
         },
         "fcb25b61-b679-407b-bad7-328430ba3627": {
           "label": "Sites",
-          "x": 16810,
-          "y": 27954,
+          "x": 16343,
+          "y": 33565,
           "id": "fcb25b61-b679-407b-bad7-328430ba3627"
         },
         "1156c7a0-91c8-415c-bb5d-d716b709e4a9": {
           "label": "Magazines",
-          "x": 16829,
-          "y": 27979,
+          "x": 16362,
+          "y": 33590,
           "id": "1156c7a0-91c8-415c-bb5d-d716b709e4a9"
         },
         "40f5b217-7079-4841-b85d-a4028fec7130": {
           "label": "Articles",
-          "x": 16818,
-          "y": 28004,
+          "x": 16351,
+          "y": 33615,
           "id": "40f5b217-7079-4841-b85d-a4028fec7130"
         },
         "eb4fdd92-f0c9-4b9f-a324-e8c758391efa": {
           "label": "Media content",
-          "x": 16840,
-          "y": 28029,
+          "x": 16373,
+          "y": 33640,
           "id": "eb4fdd92-f0c9-4b9f-a324-e8c758391efa"
         },
         "8e6bd954-292d-4ed8-b7a3-69308a73ae12": {
           "label": "Misc. web links",
-          "x": 16842,
-          "y": 28054,
+          "x": 16375,
+          "y": 33665,
           "id": "8e6bd954-292d-4ed8-b7a3-69308a73ae12"
         },
         "98df6a56-96a2-40aa-b6d0-6c6a7f58f098": {
           "label": "Projects",
-          "x": 16820,
-          "y": 28079,
+          "x": 16353,
+          "y": 33690,
           "id": "98df6a56-96a2-40aa-b6d0-6c6a7f58f098"
         },
         "a35b8d71-f5f4-45f3-88a0-f51a5579b16b": {
           "label": "Tools",
-          "x": 16812,
-          "y": 28104,
+          "x": 16345,
+          "y": 33715,
           "id": "a35b8d71-f5f4-45f3-88a0-f51a5579b16b"
         },
         "763ae497-9ab0-4119-908e-4cc8a0a10757": {
           "label": "Organizations",
-          "x": 16839,
-          "y": 28129,
+          "x": 16372,
+          "y": 33740,
           "id": "763ae497-9ab0-4119-908e-4cc8a0a10757"
         },
         "3ac6cf0e-e35d-4f5c-afa7-54274021773f": {
           "label": "Standarts",
-          "x": 16825,
-          "y": 28154,
+          "x": 16358,
+          "y": 33765,
           "id": "3ac6cf0e-e35d-4f5c-afa7-54274021773f"
         },
         "fa51e725-fed1-41e2-93ff-6c650595f637": {
           "label": "Forums, Groups",
-          "x": 16847,
-          "y": 28179,
+          "x": 16380,
+          "y": 33790,
           "id": "fa51e725-fed1-41e2-93ff-6c650595f637"
         },
         "49872021-d638-4aaf-b83c-98e5bc8dca80": {
           "label": "Laws",
-          "x": 16811,
-          "y": 28204,
+          "x": 16344,
+          "y": 33815,
           "id": "49872021-d638-4aaf-b83c-98e5bc8dca80"
         },
         "d9dc0df7-2a39-497f-a6f2-0b9808f09c69": {
           "label": "Adjacent Themes",
-          "x": 16850,
-          "y": 28229,
+          "x": 16383,
+          "y": 33840,
           "id": "d9dc0df7-2a39-497f-a6f2-0b9808f09c69"
         },
         "768d541a-394e-475e-b29b-03b97ff2be19": {
           "label": "Questions",
-          "x": 16590,
-          "y": 28354,
+          "x": 16123,
+          "y": 33965,
           "id": "768d541a-394e-475e-b29b-03b97ff2be19"
         },
         "c6cef5ea-0ff0-45c3-811a-c416c5d13873": {
           "label": "Problems",
-          "x": 16588,
-          "y": 28454,
+          "x": 16121,
+          "y": 34065,
           "id": "c6cef5ea-0ff0-45c3-811a-c416c5d13873"
         },
         "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06": {
           "label": "Goals",
-          "x": 16577,
-          "y": 28554,
+          "x": 16110,
+          "y": 34165,
           "id": "c915fe2b-0ad0-4f3a-a3c7-733c313c4a06"
         },
         "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c": {
           "id": "bcd14667-6c40-4ff2-aa1c-00ec0dd3ee7c",
-          "x": 17095,
-          "y": 27515,
+          "x": 16628,
+          "y": 33126,
           "label": "This scheme contains links to mm-vis-js pages.",
           "shape": "box",
           "link": "",
@@ -2184,8 +2195,8 @@ var schemeData =
         },
         "dacb0e5f-35a8-4605-ac1c-4852eddfc77c": {
           "id": "dacb0e5f-35a8-4605-ac1c-4852eddfc77c",
-          "x": 17184,
-          "y": 27624,
+          "x": 16717,
+          "y": 33235,
           "label": "Links to mm-vis-js pages are the same as in \"mm-vis-js pages list\" scheme.",
           "shape": "box",
           "link": "",
@@ -2201,32 +2212,32 @@ var schemeData =
         },
         "b5d67935-0013-48a9-bf36-d44995b85787": {
           "id": "b5d67935-0013-48a9-bf36-d44995b85787",
-          "x": 17644,
-          "y": 27624,
+          "x": 17177,
+          "y": 33235,
           "label": "\"mm-vis-js pages list\" scheme is in top left of this page"
         },
         "06674058-70e6-4712-a3e6-bfb4c2c04a85": {
           "id": "06674058-70e6-4712-a3e6-bfb4c2c04a85",
-          "x": 17717,
-          "y": 27658,
+          "x": 17250,
+          "y": 33269,
           "label": "\"mm-vis-js pages list\" scheme located on all mm-vis-js pages on their top left."
         },
         "29624334-2af8-451d-b675-f1cc64e03380": {
           "id": "29624334-2af8-451d-b675-f1cc64e03380",
-          "x": 17061,
-          "y": 27552,
+          "x": 16594,
+          "y": 33163,
           "label": "This scheme is just for convenience."
         },
         "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3": {
           "id": "2510921c-2fa7-4f15-b6b5-16cc2d6cd6b3",
-          "x": 17024,
-          "y": 27799,
+          "x": 16557,
+          "y": 33410,
           "label": "This page is \"index.html\""
         },
         "fa1cdcb3-3273-4708-bcd1-739ee674fba2": {
           "id": "fa1cdcb3-3273-4708-bcd1-739ee674fba2",
-          "x": 17236,
-          "y": 27800,
+          "x": 16769,
+          "y": 33411,
           "label": "It purpose is to be \"main page\"",
           "shape": "box",
           "link": "",
@@ -2242,32 +2253,32 @@ var schemeData =
         },
         "64acc704-cf3f-47a0-8c94-49af5c116831": {
           "id": "64acc704-cf3f-47a0-8c94-49af5c116831",
-          "x": 17126,
-          "y": 27710,
+          "x": 16659,
+          "y": 33321,
           "label": "Each big node with page name contains link to this page."
         },
         "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf": {
           "id": "4b02a4c2-8e5e-4b3c-bb6a-7f9d9d383caf",
-          "x": 17413,
-          "y": 27708,
+          "x": 16946,
+          "y": 33319,
           "label": "How to use this links?"
         },
         "009701c1-d7ed-4fbb-a76f-7502bacdc667": {
           "id": "009701c1-d7ed-4fbb-a76f-7502bacdc667",
-          "x": 17573,
-          "y": 27707,
+          "x": 17106,
+          "y": 33318,
           "label": "1) Select big node"
         },
         "250f8b30-2e4d-47d0-a4de-e382a59e799a": {
           "id": "250f8b30-2e4d-47d0-a4de-e382a59e799a",
-          "x": 17686,
-          "y": 27743,
+          "x": 17219,
+          "y": 33354,
           "label": "2) Click openLinkButton - blue button on the left menu"
         },
         "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc": {
           "id": "9f5cec4c-68cf-4cef-a9a3-4e19e1593cbc",
-          "x": 17398,
-          "y": 27553,
+          "x": 16931,
+          "y": 33164,
           "label": "It is easy to select big nodes with pages links from bird view.",
           "shape": "box",
           "link": "",
@@ -2311,8 +2322,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "code.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224",
-          "x": 21417,
-          "y": 10990,
+          "x": 21716,
+          "y": 6200,
           "shape": "box",
           "link": "code.html",
           "borderWidth": ""
@@ -2347,8 +2358,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "engineering.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902",
-          "x": 22945,
-          "y": 12946,
+          "x": 23244,
+          "y": 8156,
           "shape": "box",
           "link": "engineering.html",
           "borderWidth": ""
@@ -2383,8 +2394,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news1.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562",
-          "x": 21778,
-          "y": 14850,
+          "x": 22077,
+          "y": 10060,
           "shape": "box",
           "link": "news1.html",
           "borderWidth": ""
@@ -2419,8 +2430,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news2.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f02109059069268543251377042694686622490256250",
-          "x": 21778,
-          "y": 16779,
+          "x": 22077,
+          "y": 11989,
           "shape": "box",
           "link": "news2.html",
           "borderWidth": ""
@@ -2450,8 +2461,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "R&D institutions",
-          "x": -13979,
-          "y": -7509,
+          "x": -13680,
+          "y": -12299,
           "id": "92f53a00-cf65-456f-bfcf-6f6c88119d5b147126"
         },
         "75ff23b4-3d0f-4c06-8061-4069494a326f147126": {
@@ -2479,8 +2490,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sites",
-          "x": -14013,
-          "y": -7484,
+          "x": -13714,
+          "y": -12274,
           "id": "75ff23b4-3d0f-4c06-8061-4069494a326f147126"
         },
         "1bc92ea3-79ba-4d40-816c-35cedc1c74bf147126": {
@@ -2508,8 +2519,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Magazines",
-          "x": -13994,
-          "y": -7459,
+          "x": -13695,
+          "y": -12249,
           "id": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf147126"
         },
         "2d9049d8-feaf-41cd-afb1-87515557983e147126": {
@@ -2537,8 +2548,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Articles",
-          "x": -14006,
-          "y": -7434,
+          "x": -13707,
+          "y": -12224,
           "id": "2d9049d8-feaf-41cd-afb1-87515557983e147126"
         },
         "51a5b447-fa28-4997-80ca-b7a96a69ef9e147126": {
@@ -2566,8 +2577,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Media content",
-          "x": -13984,
-          "y": -7409,
+          "x": -13685,
+          "y": -12199,
           "id": "51a5b447-fa28-4997-80ca-b7a96a69ef9e147126"
         },
         "8a139418-94d2-4121-94a4-8d2a26213d24147126": {
@@ -2595,8 +2606,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Misc. web links",
-          "x": -13981,
-          "y": -7384,
+          "x": -13682,
+          "y": -12174,
           "id": "8a139418-94d2-4121-94a4-8d2a26213d24147126"
         },
         "76fc5be1-7bae-46ec-a649-1bc6509b378d147126": {
@@ -2624,8 +2635,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Projects",
-          "x": -14003,
-          "y": -7359,
+          "x": -13704,
+          "y": -12149,
           "id": "76fc5be1-7bae-46ec-a649-1bc6509b378d147126"
         },
         "21dc8bf2-6e0c-42cf-b702-d47f24af173a147126": {
@@ -2653,8 +2664,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Tools",
-          "x": -14012,
-          "y": -7334,
+          "x": -13713,
+          "y": -12124,
           "id": "21dc8bf2-6e0c-42cf-b702-d47f24af173a147126"
         },
         "1f9b98e7-ca75-443c-952d-a1d0ba476652147126": {
@@ -2682,8 +2693,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Organizations",
-          "x": -13985,
-          "y": -7309,
+          "x": -13686,
+          "y": -12099,
           "id": "1f9b98e7-ca75-443c-952d-a1d0ba476652147126"
         },
         "f9c77b6e-13d7-4687-9d7f-e858e5cf5685147126": {
@@ -2711,8 +2722,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Standarts",
-          "x": -13998,
-          "y": -7284,
+          "x": -13699,
+          "y": -12074,
           "id": "f9c77b6e-13d7-4687-9d7f-e858e5cf5685147126"
         },
         "f13fa072-1d46-45b2-b2b1-679177d88ba6147126": {
@@ -2740,8 +2751,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Laws",
-          "x": -14012,
-          "y": -7234,
+          "x": -13713,
+          "y": -12024,
           "id": "f13fa072-1d46-45b2-b2b1-679177d88ba6147126"
         },
         "ab382182-58b3-4799-ad70-5340f6f6e88d147126": {
@@ -2769,14 +2780,14 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Adjacent Themes",
-          "x": -13973,
-          "y": -7209,
+          "x": -13674,
+          "y": -11999,
           "id": "ab382182-58b3-4799-ad70-5340f6f6e88d147126"
         },
         "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e": {
           "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e",
-          "x": 21778,
-          "y": 18590,
+          "x": 22077,
+          "y": 13800,
           "label": "news3.html",
           "shape": "box",
           "link": "news3.html",
@@ -2818,8 +2829,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "timelines.html",
           "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289",
-          "x": 22306,
-          "y": 26083,
+          "x": 22596,
+          "y": 26275,
           "shape": "box",
           "link": "timelines.html",
           "borderWidth": ""
@@ -2852,8 +2863,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news4.html",
           "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377",
-          "x": 21778,
-          "y": 20440,
+          "x": 22077,
+          "y": 15650,
           "shape": "box",
           "link": "news4.html",
           "borderWidth": ""
@@ -2888,8 +2899,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "nature.html",
           "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289759",
-          "x": 21751,
-          "y": 24333,
+          "x": 22041,
+          "y": 24525,
           "shape": "box",
           "link": "nature.html",
           "borderWidth": ""
@@ -2922,8 +2933,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a167227",
-          "x": -14065,
-          "y": -7642,
+          "x": -13766,
+          "y": -12432,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -2956,8 +2967,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a167776",
-          "x": -14231,
-          "y": -7104,
+          "x": -13932,
+          "y": -11894,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -2990,8 +3001,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a167854",
-          "x": -14233,
-          "y": -7008,
+          "x": -13934,
+          "y": -11798,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3024,8 +3035,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a167867",
-          "x": -14244,
-          "y": -6914,
+          "x": -13945,
+          "y": -11704,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3058,8 +3069,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a167724",
-          "x": -14221,
-          "y": -6789,
+          "x": -13922,
+          "y": -11579,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3092,8 +3103,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a16755",
-          "x": -13935,
-          "y": -6789,
+          "x": -13636,
+          "y": -11579,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3128,16 +3139,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a167478509",
-          "x": -14244,
-          "y": -7636,
+          "x": -13945,
+          "y": -12426,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
         },
         "6b7b3ebc-0cbc-4c04-b31c-424aa1891981": {
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981",
-          "x": -14078,
-          "y": -8384,
+          "x": -13779,
+          "y": -13174,
           "label": "Dictionary of\nconcepts",
           "shape": "box",
           "link": "",
@@ -3179,8 +3190,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981903",
-          "x": -13569,
-          "y": -8719,
+          "x": -13270,
+          "y": -13509,
           "shape": "box",
           "link": "index.html",
           "borderWidth": "0"
@@ -3213,8 +3224,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/mm-vis-js_code.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981290",
-          "x": -13501,
-          "y": -8675,
+          "x": -13202,
+          "y": -13465,
           "shape": "box",
           "link": "mm-vis-js_code.html",
           "borderWidth": "0"
@@ -3247,8 +3258,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/mm-vis-js_docs.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981654",
-          "x": -13502,
-          "y": -8632,
+          "x": -13203,
+          "y": -13422,
           "shape": "box",
           "link": "mm-vis-js_docs.html",
           "borderWidth": "0"
@@ -3281,8 +3292,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/base.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981640",
-          "x": -13536,
-          "y": -8581,
+          "x": -13237,
+          "y": -13371,
           "shape": "box",
           "link": "base.html",
           "borderWidth": "0"
@@ -3315,8 +3326,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/culture.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981940",
-          "x": -13530,
-          "y": -8530,
+          "x": -13231,
+          "y": -13320,
           "shape": "box",
           "link": "culture.html",
           "borderWidth": "0"
@@ -3349,8 +3360,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/javascript.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981961",
-          "x": -13521,
-          "y": -8435,
+          "x": -13222,
+          "y": -13225,
           "shape": "box",
           "link": "javascript.html",
           "borderWidth": "0"
@@ -3383,8 +3394,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/ruby.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981502",
-          "x": -13538,
-          "y": -8484,
+          "x": -13239,
+          "y": -13274,
           "shape": "box",
           "link": "ruby.html",
           "borderWidth": "0"
@@ -3417,8 +3428,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/python.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981915",
-          "x": -13530,
-          "y": -8386,
+          "x": -13231,
+          "y": -13176,
           "shape": "box",
           "link": "python.html",
           "borderWidth": "0"
@@ -3451,8 +3462,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/music.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981917",
-          "x": -13533,
-          "y": -8344,
+          "x": -13234,
+          "y": -13134,
           "shape": "box",
           "link": "music.html",
           "borderWidth": "0"
@@ -3485,8 +3496,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/math.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981110",
-          "x": -13535,
-          "y": -8304,
+          "x": -13236,
+          "y": -13094,
           "shape": "box",
           "link": "math.html",
           "borderWidth": "0"
@@ -3519,8 +3530,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/code.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981519",
-          "x": -13536,
-          "y": -8257,
+          "x": -13237,
+          "y": -13047,
           "shape": "box",
           "link": "code.html",
           "borderWidth": "0"
@@ -3553,8 +3564,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/engineering.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981989",
-          "x": -13514,
-          "y": -8211,
+          "x": -13215,
+          "y": -13001,
           "shape": "box",
           "link": "engineering.html",
           "borderWidth": "0"
@@ -3587,8 +3598,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/news1.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981217",
-          "x": -13531,
-          "y": -8168,
+          "x": -13232,
+          "y": -12958,
           "shape": "box",
           "link": "news1.html",
           "borderWidth": "0"
@@ -3621,8 +3632,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/news2.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981549",
-          "x": -13531,
-          "y": -8129,
+          "x": -13232,
+          "y": -12919,
           "shape": "box",
           "link": "news2.html",
           "borderWidth": "0"
@@ -3657,8 +3668,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js main page",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981903661",
-          "x": -13805,
-          "y": -8717,
+          "x": -13506,
+          "y": -13507,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3693,8 +3704,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js code",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981290661",
-          "x": -13823,
-          "y": -8673,
+          "x": -13524,
+          "y": -13463,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3729,8 +3740,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js docs",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981654661",
-          "x": -13824,
-          "y": -8630,
+          "x": -13525,
+          "y": -13420,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3765,8 +3776,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent themes",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981640661",
-          "x": -13818,
-          "y": -8579,
+          "x": -13519,
+          "y": -13369,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3801,8 +3812,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Culture",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981940661",
-          "x": -13848,
-          "y": -8528,
+          "x": -13549,
+          "y": -13318,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3837,8 +3848,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Javascript",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981961661",
-          "x": -13839,
-          "y": -8433,
+          "x": -13540,
+          "y": -13223,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3873,8 +3884,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Ruby",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981502661",
-          "x": -13855,
-          "y": -8482,
+          "x": -13556,
+          "y": -13272,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3909,8 +3920,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Python",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981915661",
-          "x": -13849,
-          "y": -8384,
+          "x": -13550,
+          "y": -13174,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3945,8 +3956,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Music",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981917661",
-          "x": -13853,
-          "y": -8342,
+          "x": -13554,
+          "y": -13132,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -3981,8 +3992,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Math",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981110661",
-          "x": -13855,
-          "y": -8302,
+          "x": -13556,
+          "y": -13092,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4017,8 +4028,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Code",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981519661",
-          "x": -13854,
-          "y": -8255,
+          "x": -13555,
+          "y": -13045,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4053,8 +4064,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Engineering",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981989661",
-          "x": -13833,
-          "y": -8209,
+          "x": -13534,
+          "y": -12999,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4089,8 +4100,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "News1",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981217661",
-          "x": -13850,
-          "y": -8166,
+          "x": -13551,
+          "y": -12956,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4125,8 +4136,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "News2",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981549661",
-          "x": -13850,
-          "y": -8127,
+          "x": -13551,
+          "y": -12917,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4161,8 +4172,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "News3",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981519661471",
-          "x": -13850,
-          "y": -8090,
+          "x": -13551,
+          "y": -12880,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4197,8 +4208,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "News4",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981989661471",
-          "x": -13850,
-          "y": -8044,
+          "x": -13551,
+          "y": -12834,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4233,8 +4244,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Nature",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981217661471",
-          "x": -13850,
-          "y": -8001,
+          "x": -13551,
+          "y": -12791,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4269,8 +4280,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Timelines",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981549661471",
-          "x": -13841,
-          "y": -7962,
+          "x": -13542,
+          "y": -12752,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4305,8 +4316,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/news3.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981519457",
-          "x": -13531,
-          "y": -8091,
+          "x": -13232,
+          "y": -12881,
           "shape": "box",
           "link": "news3.html",
           "borderWidth": "0"
@@ -4341,8 +4352,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/news4.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981989457",
-          "x": -13531,
-          "y": -8045,
+          "x": -13232,
+          "y": -12835,
           "shape": "box",
           "link": "news4.html",
           "borderWidth": "0"
@@ -4377,8 +4388,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/nature.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981217457",
-          "x": -13531,
-          "y": -8002,
+          "x": -13232,
+          "y": -12792,
           "shape": "box",
           "link": "nature.html",
           "borderWidth": "0"
@@ -4413,8 +4424,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sushilshik.github.com/timelines.html",
           "id": "6b7b3ebc-0cbc-4c04-b31c-424aa1891981549457",
-          "x": -13523,
-          "y": -7963,
+          "x": -13224,
+          "y": -12753,
           "shape": "box",
           "link": "timelines.html",
           "borderWidth": "0"
@@ -4449,8 +4460,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a167227862",
-          "x": -14091,
-          "y": -7373,
+          "x": -13792,
+          "y": -12163,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4485,8 +4496,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/16/2019",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a16722786227",
-          "x": -14082,
-          "y": -6785,
+          "x": -13783,
+          "y": -11575,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4521,8 +4532,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js pages list",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a167227862146",
-          "x": -14701,
-          "y": -7257,
+          "x": -14402,
+          "y": -12047,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4557,8 +4568,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a16722786295",
-          "x": -14009,
-          "y": -7534,
+          "x": -13710,
+          "y": -12324,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4593,8 +4604,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "id": "1376bcb3-aff5-472c-b93a-4e636983a167227862427",
-          "x": -13977,
-          "y": -7259,
+          "x": -13678,
+          "y": -12049,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -4629,11 +4640,233 @@ var schemeData =
           "shapeProperties": {},
           "label": "news5.html",
           "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562316",
-          "x": 21778,
-          "y": 22362,
+          "x": 22068,
+          "y": 17572,
           "shape": "box",
           "link": "news5.html",
           "borderWidth": ""
+        },
+        "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562316c0": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "news51.html",
+          "id": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562316c0",
+          "x": 22346,
+          "y": 19381,
+          "shape": "box",
+          "link": "news51.html",
+          "borderWidth": "",
+          "oldId": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562316"
+        },
+        "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c0": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "java-api.html",
+          "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c0",
+          "x": 22374,
+          "y": 29876,
+          "shape": "box",
+          "link": "java-api.html",
+          "borderWidth": "",
+          "oldId": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289"
+        },
+        "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c1": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "sa1.html",
+          "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c1",
+          "x": 21429,
+          "y": 31681,
+          "shape": "box",
+          "link": "sa1.html",
+          "borderWidth": "",
+          "oldId": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289"
+        },
+        "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c2": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "java.html",
+          "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c2",
+          "x": 21540,
+          "y": 28118,
+          "shape": "box",
+          "link": "java.html",
+          "borderWidth": "",
+          "oldId": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289"
+        },
+        "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377c0": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "news61.html",
+          "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377c0",
+          "x": 22346,
+          "y": 22803,
+          "shape": "box",
+          "link": "news61.html",
+          "borderWidth": "",
+          "oldId": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377"
+        },
+        "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377c1": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "news6.html",
+          "id": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377c1",
+          "x": 22068,
+          "y": 21094,
+          "shape": "box",
+          "link": "news6.html",
+          "borderWidth": "",
+          "oldId": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377"
         }
       },
       "length": 0,
@@ -8912,6 +9145,151 @@ var schemeData =
           "id": "f623f2b8-abe8-4d05-9c4a-80f6344fa273316",
           "from": "e471ec0c-362c-4f2b-b7c4-2841070254df316",
           "to": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562316"
+        },
+        "75e1c2eb-2b65-411a-9f93-fa6e1b94315d": {
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df",
+          "to": "9bb8c912-8b6c-4d49-8ee8-e68ae07f021090590692685432513770426946866224902562316c0",
+          "id": "75e1c2eb-2b65-411a-9f93-fa6e1b94315d"
+        },
+        "e38d96ef-5c65-436b-93d2-596e0f3ae38fc0": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "e38d96ef-5c65-436b-93d2-596e0f3ae38fc0",
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254dfc0",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c0"
+        },
+        "e38d96ef-5c65-436b-93d2-596e0f3ae38fc1": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "e38d96ef-5c65-436b-93d2-596e0f3ae38fc1",
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254dfc1",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c1"
+        },
+        "e38d96ef-5c65-436b-93d2-596e0f3ae38fc2": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "e38d96ef-5c65-436b-93d2-596e0f3ae38fc2",
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254dfc2",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c2"
+        },
+        "4d5e83e9-126a-404e-9995-8f6bf688359a": {
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c0",
+          "id": "4d5e83e9-126a-404e-9995-8f6bf688359a"
+        },
+        "16defd38-65e2-43c9-b00c-a67601255133": {
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c1",
+          "id": "16defd38-65e2-43c9-b00c-a67601255133"
+        },
+        "9bcef417-9d17-4865-b933-41ab9aa1481d": {
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254df",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e289c2",
+          "id": "9bcef417-9d17-4865-b933-41ab9aa1481d"
+        },
+        "66a6125c-401a-4c2b-8127-5e6a44873949c0": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "66a6125c-401a-4c2b-8127-5e6a44873949c0",
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254dfc0",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377c0"
+        },
+        "66a6125c-401a-4c2b-8127-5e6a44873949c1": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "66a6125c-401a-4c2b-8127-5e6a44873949c1",
+          "from": "e471ec0c-362c-4f2b-b7c4-2841070254dfc1",
+          "to": "c69a7fd1-5fcd-4104-96cc-c2fa72872c6e377c1"
         }
       },
       "length": 0,
@@ -8961,8 +9339,8 @@ var schemeData =
   "setup": {
     "scale": 0.0167,
     "viewPosition": {
-      "x": 15702.999999041913,
-      "y": 7380.000004850295
+      "x": 15702.999999041926,
+      "y": 7380.000004850302
     }
   }
 }

@@ -6893,7 +6893,18 @@ var schemeData =
           "id": "4a2203ad-29d8-46b8-ac36-884beb29e123",
           "x": 89871,
           "y": 14399,
-          "label": "begin\n   raise \"A test exception\"\nrescue StandardError\n   puts e.message\n   return \"some string\"\nensure\n   puts \"printing from ensure\"\nend"
+          "label": "begin\n   raise \"A test exception\"\nrescue StandardError => e\n   puts e.message\n   return \"some string\"\nensure\n   puts \"printing from ensure\"\nend",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": ""
         },
         "070b3d4d-de74-4fee-a769-618c16342bc3": {
           "label": "raise \"error message\"",
@@ -67744,8 +67755,8 @@ var schemeData =
   "setup": {
     "scale": 0.014,
     "viewPosition": {
-      "x": 106403.0000014286,
-      "y": 14200.000001428569
+      "x": 106402.99999714314,
+      "y": 14200.000001428634
     }
   }
 }
