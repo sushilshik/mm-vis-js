@@ -178,7 +178,14 @@ if (!fs.existsSync(backupDirPath)){
 var shell = require('child_process').execSync ; 
 setup["backupPaths"].forEach(function(backupPath) {
    console.log("backupPath: " + backupPath);
-   var command = "cp -r '" + backupPath + "' '" + backupDirPath + "'";
+   var command = "rsync -av " +
+                 "--exclude=.git " +
+                 "--exclude=news*.data.js* " +
+                 "--exclude=news*.data*.js " +
+                 "--exclude=newsDownloadedData " + 
+                 "--exclude=2020.09.01_backup '" + 
+                 backupPath + "' '" + 
+                 backupDirPath + "'";
    console.log(command);
    shell(command);
 });

@@ -8,7 +8,7 @@ var canvasHeight = window.innerHeight;
 var body = null
 
 var showDataButton = null;
-var schemeEditElementsMenu = null;
+var schemeEditNodesMenu = null;
 var schemeDataMenu = null;
 var schemeDataTextArea = null;
 
@@ -30,9 +30,11 @@ var nodesToPaste = [];
 var edgesToPaste = [];
 var themeGraph = false;
 var cancelNodeEdit = false;
+var cancelEdgeEditVar = false;
 var showCursorCoordinates = false;
 var pathDelimiter = "/";
 var lastEditedNodesIds = [];
+var lastEditedEdgesIds = [];
 var lastClickPosition = null;
 var servUrl = "https://localhost:3001/";
 var publicImgsPath = "public/imgs/";
@@ -41,14 +43,17 @@ var viewsSaves = {};
 var jumpNavigationData = null;
 var dataCash = null;
 var nodeLabelTextareaExpanded = false;
+var edgeLabelTextareaExpanded = false;
 var nodesDropDownMenuNodesIds = [];
 var dontShowShemeDataMenuPagesList = [
    "news1.html",
    "news2.html",
    "news3.html",
    "news4.html",
+   "news41.html",
    "news5.html",
    "news51.html",
+   "news52.html",
    "news6.html",
    "news61.html",
    "youtube1.html",
@@ -66,6 +71,7 @@ var dontShowShemeDataMenuPagesList = [
    "sa2.html"
 ];
 var lastSelectedNodeId = null;
+var lastSelectedEdgeId = null;
 var userConfData = undefined
 var cursorNodeId = null;
 var keyboardMoveSelectedEnabled = false;
@@ -300,6 +306,17 @@ function getTreeNodesAndEdges(rootNodeId) {
                      yStep = yStep + 1;
                   });
                } else {
+                  function compare( a, b ) {
+                     if ( nodesPositions[a.id].y < nodesPositions[b.id].y ){
+                        return -1;
+                     }
+                     if ( nodesPositions[a.id].y > nodesPositions[b.id].y ){
+                        return 1;
+                     }
+                     return 0;
+                  }
+
+                  branchesNodesAndEdges.nodes = branchesNodesAndEdges.nodes.sort(compare);
                   dataCash[nodeId] = branchesNodesAndEdges;
                   dataCash[nodeId].nodes.forEach(function(node) {
                      node.y = yStep;
@@ -1921,76 +1938,237 @@ function makeNodeDropDownMenuLines(nodeId) {
          network.showManipulatorToolbar();
       }
    });
-	network.on('selectNode', function (properties) {
-		schemeEditElementsMenu.show();
-		var nodeIdInput = $("input#nodeIdInput");
-		var nodeLabelTextarea = $("textarea#nodeLabelTextarea");
-		var nodeXInput = $("input#nodeXInput");
-		var nodeYInput = $("input#nodeYInput");
-		var nodeShapeInput = $("input#nodeShapeInput");
-		var nodeLinkTextarea = $("textarea#nodeLinkTextarea");
-		var nodeFontSizeInput = $("input#nodeFontSizeInput");
-		var nodeFontAlignInput = $("input#nodeFontAlignInput");
-		var nodeColorInput = $("input#nodeColorInput");
-		var nodeBorderWidthInput = $("input#nodeBorderWidthInput");
-		var nodeBorderColorInput = $("input#nodeBorderColorInput");
+   network.on('selectNode', function (properties) {
+      schemeEditEdgesMenu.hide();
+      schemeEditNodesMenu.show();
+      var nodeIdInput = $("input#nodeIdInput");
+      var nodeLabelTextarea = $("textarea#nodeLabelTextarea");
+      var nodeXInput = $("#nodeXInput");
+      var nodeYInput = $("#nodeYInput");
+      var nodeShapeInput = $("#nodeShapeInput");
+      var nodeLinkTextarea = $("textarea#nodeLinkTextarea");
+      var nodeFontSizeInput = $("input#nodeFontSizeInput");
+      var nodeFontAlignInput = $("input#nodeFontAlignInput");
+      var nodeColorInput = $("input#nodeColorInput");
+      var nodeBorderWidthInput = $("input#nodeBorderWidthInput");
+      var nodeBorderColorInput = $("input#nodeBorderColorInput");
 
-                var nodeD = getNodeFromNetworkDataById(properties.nodes[0]);
-                lastSelectedNodeId = nodeD.id;
+      var nodeD = getNodeFromNetworkDataById(properties.nodes[0]);
+      lastSelectedNodeId = nodeD.id;
 
-		nodeIdInput.val(nodeD.id);
-		nodeLabelTextarea.val(nodeD.label);
-		pNode = network.getPositions()[nodeD.id];
-		nodeXInput.val(pNode.x);
-		nodeYInput.val(pNode.y);
-		if (typeof nodeD.shape !== "undefined" && nodeD.shape.length > 0) {
-			nodeShapeInput.val(nodeD.shape);
-		} else {
-			nodeShapeInput.val("box");
-		}
-		if (typeof nodeD.link !== "undefined" && nodeD.link.length > 0) {
-			nodeLinkTextarea.val(nodeD.link);
-		} else {
-			nodeLinkTextarea.val("");
-		}
-		if (typeof nodeD.font !== "undefined" && typeof nodeD.font.size !== "undefined") {
-			nodeFontSizeInput.val(nodeD.font.size);
-		} else {
-			nodeFontSizeInput.val(14);
-			nodeD.font = {size: 14};
-		}
-		if (typeof nodeD.font !== "undefined" && typeof nodeD.font.align !== "undefined") {
-			nodeFontAlignInput.val(nodeD.font.align);
-		} else {
-			nodeFontAlignInput.val("left");
-			nodeD.font = {align: "left"};
-		}
-		if (typeof nodeD.color !== "undefined" && typeof nodeD.color.background !== "undefined") {
-			nodeColorInput.val(nodeD.color.background);
-		} else {
-			nodeD.color = {background: "", border: ""};
-		}
-		if (typeof nodeD.borderWidth !== "undefined" && nodeD.borderWidth.length > 0) {
-			nodeBorderWidthInput.val(nodeD.borderWidth);
-		}
-		if (typeof nodeD.color !== "undefined" && nodeD.color.length > 0) {
-			nodeBorderColorInput.val(nodeD.color.border);
-		}
-		if (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + ".*")) >= 0) {
-			loadSavedProjectToMenuButton.show();
-			loadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;
-			deleteSavedProjectButton.show();
-			deleteSavedProjectButton.saveProjectLabel = nodeD.label;
-		} else {
-			loadSavedProjectToMenuButton.hide();
-			deleteSavedProjectButton.hide();
-		}
-	});
+      nodeIdInput.val(nodeD.id);
+      nodeLabelTextarea.val(nodeD.label);
+      pNode = network.getPositions()[nodeD.id];
+      nodeXInput.text(String(pNode.x));
+      nodeYInput.text(String(pNode.y));
+      if (typeof nodeD.shape !== "undefined" && nodeD.shape.length > 0) {
+         $('#nodeShapeInput option[value="' + nodeD.shape + '"]').attr("selected", "selected");
+      } else {
+         $('#nodeShapeInput option[value="box"]').attr("selected", "selected");
+      }
+      if (typeof nodeD.link !== "undefined" && nodeD.link.length > 0) {
+         nodeLinkTextarea.val(nodeD.link);
+      } else {
+         nodeLinkTextarea.val("");
+      }
+      if (typeof nodeD.font !== "undefined" && typeof nodeD.font.size !== "undefined") {
+         nodeFontSizeInput.val(nodeD.font.size);
+      } else {
+         nodeFontSizeInput.val(14);
+         nodeD.font = {size: 14};
+      }
+      if (typeof nodeD.font !== "undefined" && typeof nodeD.font.align !== "undefined") {
+         nodeFontAlignInput.val(nodeD.font.align);
+      } else {
+         nodeFontAlignInput.val("left");
+         nodeD.font = {align: "left"};
+      }
+      if (typeof nodeD.color !== "undefined" && typeof nodeD.color.background !== "undefined") {
+         nodeColorInput.val(nodeD.color.background);
+      } else {
+         nodeD.color = {background: "", border: ""};
+      }
+      if (typeof nodeD.borderWidth !== "undefined" && nodeD.borderWidth.length > 0) {
+         nodeBorderWidthInput.val(nodeD.borderWidth);
+      }
+      if (typeof nodeD.color !== "undefined" && nodeD.color.length > 0) {
+         nodeBorderColorInput.val(nodeD.color.border);
+      }
+      if (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + ".*")) >= 0) {
+         loadSavedProjectToMenuButton.show();
+         loadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;
+         deleteSavedProjectButton.show();
+         deleteSavedProjectButton.saveProjectLabel = nodeD.label;
+      } else {
+         loadSavedProjectToMenuButton.hide();
+         deleteSavedProjectButton.hide();
+      }
+   });
 	network.on('resize', function(properties) {
 		canvasWidth = properties.width;
 		canvasHeight = properties.height;
 	});
+   network.on('selectEdge', function (properties) {
+
+      if (properties.nodes.length > 0) return;
+      
+      schemeEditNodesMenu.hide();
+      schemeEditEdgesMenu.show();
+      var edgeIdInput = $("input#edgeIdInput");
+      var edgeLabelTextarea = $("textarea#edgeLabelTextarea");
+
+      var edgeColorInput = schemeEditEdgesMenu.find("#edgeColorInput");
+      var edgeDashesEnabledInput = schemeEditEdgesMenu.find("#edgeDashesEnabledInput");
+
+      var edgeArrowsFromEnabledInput = schemeEditEdgesMenu.find("input#edgeArrowsFromEnabledInput");
+      var edgeArrowsMiddleEnabledInput = schemeEditEdgesMenu.find("input#edgeArrowsMiddleEnabledInput");
+      var edgeArrowsToEnabledInput = schemeEditEdgesMenu.find("input#edgeArrowsToEnabledInput");
+
+      var edgeShadowEnabledInput = schemeEditEdgesMenu.find("input#edgeShadowEnabledInput");
+      var edgeShadowColorInput = schemeEditEdgesMenu.find("input#edgeShadowColorInput");
+      var edgeShadowSizeInput = schemeEditEdgesMenu.find("input#edgeShadowSizeInput");
+      var edgeShadowXInput = schemeEditEdgesMenu.find("input#edgeShadowXInput");
+      var edgeShadowYInput = schemeEditEdgesMenu.find("input#edgeShadowYInput");
+
+      var edgeSmoothEnabledInput = schemeEditEdgesMenu.find("input#edgeSmoothEnabledInput");
+      var edgeSmoothTypeInput = schemeEditEdgesMenu.find("input#edgeSmoothTypeInput");
+      var edgeSmoothForceDirectionInput = schemeEditEdgesMenu.find("input#edgeSmoothForceDirectionInput");
+      var edgeSmoothRoundnessInput = schemeEditEdgesMenu.find("input#edgeSmoothRoundnessInput");
+
+      var edgeD = getEdgeFromNetworkDataById(properties.edges[0]);
+      //console.log(edgeD);
+      lastSelectedEdgeId = edgeD.id;
+
+      edgeIdInput.val(edgeD.id);
+
+      if (typeof edgeD.label === "undefined") {
+         edgeLabelTextarea.val("");
+      } else {
+         edgeLabelTextarea.val(edgeD.label);
+      }
+
+      if (typeof edgeD.color !== "undefined" && 
+          typeof edgeD.color.color !== "undefined" &&
+          edgeD.color.color != "") {
+          $('#edgeColorInput').val(edgeD.color.color);
+      } else {
+          $('#edgeColorInput').val("rgb(0,0,0)");
+      }
+
+      if (typeof edgeD.dashes !== "undefined" &&
+          edgeD.dashes == true) {
+          $('#edgeDashesEnabledInput').prop('checked', true);
+      } else {
+          $('#edgeDashesEnabledInput').prop('checked', false);
+      }
+
+      if (typeof edgeD.arrows !== "undefined" && 
+          typeof edgeD.arrows.from !== "undefined" && 
+          typeof edgeD.arrows.from.enabled !== "undefined" &&
+          edgeD.arrows.from.enabled == true) {
+          $('#edgeArrowsFromEnabledInput').prop('checked', true);
+      } else {
+          $('#edgeArrowsFromEnabledInput').prop('checked', false);
+      }
+
+      if (typeof edgeD.arrows !== "undefined" && 
+          typeof edgeD.arrows.middle !== "undefined" && 
+          typeof edgeD.arrows.middle.enabled !== "undefined" &&
+          edgeD.arrows.middle.enabled == true) {
+          $('#edgeArrowsMiddleEnabledInput').prop('checked', true);
+      } else {
+          $('#edgeArrowsMiddleEnabledInput').prop('checked', false);
+      }
+
+      if (typeof edgeD.arrows !== "undefined" && 
+          typeof edgeD.arrows.to !== "undefined" && 
+          typeof edgeD.arrows.to.enabled !== "undefined" &&
+          edgeD.arrows.to.enabled == true) {
+          $('#edgeArrowsToEnabledInput').prop('checked', true);
+      } else {
+          $('#edgeArrowsToEnabledInput').prop('checked', false);
+      }
+
+      if (typeof edgeD.shadow !== "undefined" && 
+          typeof edgeD.shadow.enabled !== "undefined" &&
+          edgeD.shadow.enabled == true) {
+          $('#edgeShadowEnabledInput').prop('checked', true);
+      } else {
+          $('#edgeShadowEnabledInput').prop('checked', false);
+      }
+
+      if (typeof edgeD.shadow !== "undefined" && 
+          typeof edgeD.shadow.color !== "undefined" &&
+          edgeD.shadow.color != "") {
+          $('#edgeShadowColorInput').val(edgeD.shadow.color);
+      } else {
+          $('#edgeShadowColorInput').val("rgba(0,0,0,0.5)");
+      }
+
+      if (typeof edgeD.shadow !== "undefined" && 
+          typeof edgeD.shadow.size !== "undefined" &&
+          typeof edgeD.shadow.size === "number" &&
+          !isNaN(edgeD.shadow.size)) {
+          $('#edgeShadowSizeInput').val(String(edgeD.shadow.size));
+      } else {
+          $('#edgeShadowSizeInput').val("10");
+      }
+
+      if (typeof edgeD.shadow !== "undefined" && 
+          typeof edgeD.shadow.x !== "undefined" &&
+          typeof edgeD.shadow.x === "number" &&
+          !isNaN(edgeD.shadow.x)) {
+          $('#edgeShadowXInput').val(String(edgeD.shadow.x));
+      } else {
+          $('#edgeShadowXInput').val("5");
+      }
+
+      if (typeof edgeD.shadow !== "undefined" && 
+          typeof edgeD.shadow.y !== "undefined" &&
+          typeof edgeD.shadow.y === "number" &&
+          !isNaN(edgeD.shadow.y)) {
+          $('#edgeShadowYInput').val(String(edgeD.shadow.y));
+      } else {
+          $('#edgeShadowYInput').val("5");
+      }
+
+      if (typeof edgeD.smooth !== "undefined" && 
+          typeof edgeD.smooth.enabled !== "undefined" &&
+          edgeD.smooth.enabled == true) {
+          $('#edgeSmoothEnabledInput').prop('checked', true);
+      } else {
+          $('#edgeSmoothEnabledInput').prop('checked', false);
+      }
+
+      if (typeof edgeD.smooth !== "undefined" && 
+          typeof edgeD.smooth.type !== "undefined" &&
+          edgeD.smooth.type != "") {
+          $('#edgeSmoothTypeInput option[value="' + edgeD.smooth.type + '"]').attr("selected", "selected");
+      } else {
+          $('#edgeSmoothTypeInput option[value="dynamic"]').attr("selected", "selected");
+      }
+
+      if (typeof edgeD.smooth !== "undefined" && 
+          typeof edgeD.smooth.forceDirection !== "undefined" &&
+          edgeD.smooth.forceDirection != "") {
+          $('#edgeSmoothForceDirectionInput option[value="' + edgeD.smooth.forceDirection + '"]').attr("selected", "selected");
+      } else {
+          $('#edgeSmoothForceDirectionInput option[value="none"]').attr("selected", "selected");
+      }
+
+      if (typeof edgeD.smooth !== "undefined" && 
+          typeof edgeD.smooth.roundness !== "undefined" &&
+          typeof edgeD.smooth.roundness == "number" &&
+          !isNaN(edgeD.smooth.roundness)) {
+          $('#edgeSmoothRoundnessInput').val(String(edgeD.smooth.roundness));
+      } else {
+          $('#edgeSmoothRoundnessInput').val("0.5");
+      }
+
+   });
+
 	network.on('deselectEdge', function (properties) {
+		schemeEditEdgesMenu.hide();
 		$(".vis-separator-line").remove();
 		$(".vis-close").remove();
 	});
@@ -2000,7 +2178,7 @@ function makeNodeDropDownMenuLines(nodeId) {
 	network.on("blurNode", function(params) {
 	});
 	network.on('deselectNode', function (properties) {
-		schemeEditElementsMenu.hide();
+		schemeEditNodesMenu.hide();
 		$(".vis-separator-line").remove();
 		$(".vis-close").remove();
 	});
@@ -2431,7 +2609,7 @@ function showBrowserLocalStorageKeys() {
 	}
 }
 function buildPagesNodes(level, width, alignMap, parentNodeId) {
-   var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
+   var nodeIdInput = schemeEditNodesMenu.find("input#nodeIdInput").val();
    var pNode = network.getPositions()[nodeIdInput];
    var keys = level.keys;
    var lastNodeId;
@@ -2632,133 +2810,362 @@ $(document).ready(function() {
 	showDataButton = $("<div id='showData' style='cursor:pointer;color:black;float:right;position:fixed;top:3px; line-height: 0;right:0;z-index:9999;padding: 15px;margin:-5px 0 5px 0; background-color:white;border: 1px solid #a3a3a3;font-size:12px'>showData</div>");
 	body.append(showDataButton);
 
-	schemeEditElementsMenu = $("<div id='schemeEditElementsMenu' style='height:100%; width:300px; position:fixed; left:0; top:29px;border-right: 1px solid #a3a3a3; background-color:white;z-index:5000; padding: 40px 20px 20px 20px'></div>");
-	schemeEditElementsMenu.hide();
-	body.append(schemeEditElementsMenu);
+	schemeEditNodesMenu = $("<div id='schemeEditNodesMenu' style='height:100%; width:300px; position:fixed; left:0; top:29px;border-right: 1px solid #a3a3a3; background-color:white;z-index:5000; padding: 40px 20px 20px 20px'></div>");
+	schemeEditEdgesMenu = $("<div id='schemeEditEdgesMenu' style='height:100%; width:300px; position:fixed; left:0; top:29px;border-right: 1px solid #a3a3a3; background-color:white;z-index:5000; padding: 40px 20px 20px 20px'></div>");
+	schemeEditNodesMenu.hide();
+	schemeEditEdgesMenu.hide();
+	body.append(schemeEditNodesMenu);
+	body.append(schemeEditEdgesMenu);
+	var nodesSetupTable = $("<table id='nodesSetupTable'></table>");
 
-	var elementsSetupTable = $("<table id='elementsSetupTable'></table>");
+	var nSRow1 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow1);
+	var nSItem11 = $("<td></td>");
+	var nSItem12 = $("<td></td>");
+	nSRow1.append(nSItem11);
+	nSRow1.append(nSItem12);
+	var nodeIdInputLabel = $("<div style=''><span>nodeId: </span></div>");
+	nSItem11.append(nodeIdInputLabel);
+	var nodeIdInput = $("<input type='text' id='nodeIdInput'></input>");
+	nSItem12.append(nodeIdInput);
+
+	var nSRow2 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow2);
+	var nSItem21 = $("<td></td>");
+	var nSItem22 = $("<td></td>");
+	nSRow2.append(nSItem21);
+	nSRow2.append(nSItem22);
+	var nodeLabelInputLabel = $("<div style=''><span>nodeLabel: </span></div>");
+	nSItem21.append(nodeLabelInputLabel);
+	var nodeLabelTextarea = $("<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>");
+	nSItem22.append(nodeLabelTextarea);
+
+	var nSRow3 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow3);
+	var nSItem31 = $("<td></td>");
+	var nSItem32 = $("<td></td>");
+	nSRow3.append(nSItem31);
+	nSRow3.append(nSItem32);
+	var nodeXInputLabel = $("<div style=''><span>nodeX: </span></div>");
+	nSItem31.append(nodeXInputLabel);
+	//var nodeXInput = $("<input type='text' id='nodeXInput'></input>");
+	var nodeXInput = $("<div style=''><span id='nodeXInput'></span></div>");
+	nSItem32.append(nodeXInput);
+
+	var nSRow4 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow4);
+	var nSItem41 = $("<td></td>");
+	var nSItem42 = $("<td></td>");
+	nSRow4.append(nSItem41);
+	nSRow4.append(nSItem42);
+	var nodeYInputLabel = $("<div style=''><span>nodeY: </span></div>");
+	nSItem41.append(nodeYInputLabel);
+	//var nodeYInput = $("<input type='text' id='nodeYInput'></input>");
+	var nodeYInput = $("<div style=''><span id='nodeYInput'></span></div>");
+	nSItem42.append(nodeYInput);
+
+	var nSRow5 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow5);
+	var nSItem51 = $("<td></td>");
+	var nSItem52 = $("<td></td>");
+	nSRow5.append(nSItem51);
+	nSRow5.append(nSItem52);
+	var nodeShapeInputLabel = $("<div style=''><span>nodeShape: </span></div>");
+	nSItem51.append(nodeShapeInputLabel);
+        var nodeShapeSelectString = "<select id='nodeShapeInput'>" + 
+                           "<option value='box' selected='selected'>box</option>" +
+                           "<option value='ellipse'>ellipse</option>" +
+                           "<option value='circle'>circle</option>" +
+                           "<option value='database'>database</option>" +
+                           "<option value='text'>text</option>" +
+                           "<option value='image'>image</option>" +
+                           "<option value='circularImage'>circularImage</option>" +
+                           "<option value='diamond'>diamond</option>" +
+                           "<option value='dot'>dot</option>" +
+                           "<option value='star'>star</option>" +
+                           "<option value='triangle'>triangle</option>" +
+                           "<option value='triangleDown'>triangleDown</option>" +
+                           "<option value='hexagon'>hexagon</option>" +
+                           "<option value='square'>square</option></select>";
+	var nodeShapeInput = $(nodeShapeSelectString);
+	nSItem52.append(nodeShapeInput);
+
+	var nSRow6 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow6);
+	var nSItem61 = $("<td></td>");
+	var nSItem62 = $("<td></td>");
+	nSRow6.append(nSItem61);
+	nSRow6.append(nSItem62);
+	var nodeLinkTextareaLabel = $("<div style=''><span>nodeLink: </span></div>");
+	nSItem61.append(nodeLinkTextareaLabel);
+	var nodeLinkTextarea = $("<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>");
+	nSItem62.append(nodeLinkTextarea);
+	var linkOpenButton = $("<div style='cursor:pointer;margin: 4px 0 2px 0;' id='linkOpenButton'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>");
+	nSItem62.append(linkOpenButton);
+
+	var nSRow7 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow7);
+	var nSItem71 = $("<td></td>");
+	var nSItem72 = $("<td></td>");
+	nSRow7.append(nSItem71);
+	nSRow7.append(nSItem72);
+	var nodeColorInputLabel = $("<div style=''><span>nodeColor: </span></div>");
+	nSItem71.append(nodeColorInputLabel);
+	var nodeColorInput = $("<input type='text' id='nodeColorInput'></input>");
+	nSItem72.append(nodeColorInput);
+
+	var nSRow8 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow8);
+	var nSItem81 = $("<td></td>");
+	var nSItem82 = $("<td></td>");
+	nSRow8.append(nSItem81);
+	nSRow8.append(nSItem82);
+	var nodeBorderWidthInputLabel = $("<div style=''><span>nodeBorderWidth: </span></div>");
+	nSItem81.append(nodeBorderWidthInputLabel);
+	var nodeBorderWidthInput = $("<input type='text' id='nodeBorderWidthInput'></input>");
+	nSItem82.append(nodeBorderWidthInput);
+
+	var nSRow9 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow9);
+	var nSItem91 = $("<td></td>");
+	var nSItem92 = $("<td></td>");
+	nSRow9.append(nSItem91);
+	nSRow9.append(nSItem92);
+	var nodeBorderColorInputLabel = $("<div style=''><span>nodeBorderColor: </span></div>");
+	nSItem91.append(nodeBorderColorInputLabel);
+	var nodeBorderColorInput = $("<input type='text' id='nodeBorderColorInput'></input>");
+	nSItem92.append(nodeBorderColorInput);
+
+	var nSRow10 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow10);
+	var nSItem101 = $("<td></td>");
+	var nSItem102 = $("<td></td>");
+	nSRow10.append(nSItem101);
+	nSRow10.append(nSItem102);
+	var nodeFontSizeInputLabel = $("<div style=''><span>nodeFontSize: </span></div>");
+	nSItem101.append(nodeFontSizeInputLabel);
+	var nodeFontSizeInput = $("<input type='text' id='nodeFontSizeInput'></input>");
+	nSItem102.append(nodeFontSizeInput);
+
+	var nSRow11 = $("<tr></tr>");
+	nodesSetupTable.append(nSRow11);
+	var nSItem111 = $("<td></td>");
+	var nSItem112 = $("<td></td>");
+	nSRow11.append(nSItem111);
+	nSRow11.append(nSItem112);
+	var nodeFontAlignInputLabel = $("<div style=''><span>nodeFontAlign: </span></div>");
+	nSItem111.append(nodeFontAlignInputLabel);
+	var nodeFontAlignInput = $("<input type='text' id='nodeFontAlignInput'></input>");
+	nSItem112.append(nodeFontAlignInput);
+
+	var edgesSetupTable = $("<table id='edgesSetupTable'></table>");
+
+   //EDGE ID
 	var eSRow1 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow1);
+	edgesSetupTable.append(eSRow1);
 	var eSItem11 = $("<td></td>");
 	var eSItem12 = $("<td></td>");
 	eSRow1.append(eSItem11);
 	eSRow1.append(eSItem12);
-	var nodeIdInputLabel = $("<div style=''><span>nodeId: </span></div>");
-	eSItem11.append(nodeIdInputLabel);
-	var nodeIdInput = $("<input type='text' id='nodeIdInput'></input>");
-	eSItem12.append(nodeIdInput);
+	var edgeIdInputLabel = $("<div style=''><span>edgeId: </span></div>");
+	eSItem11.append(edgeIdInputLabel);
+	var edgeIdInput = $("<input type='text' id='edgeIdInput'></input>");
+	eSItem12.append(edgeIdInput);
 
+   //EDGE LABEL
 	var eSRow2 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow2);
+	edgesSetupTable.append(eSRow2);
 	var eSItem21 = $("<td></td>");
 	var eSItem22 = $("<td></td>");
 	eSRow2.append(eSItem21);
 	eSRow2.append(eSItem22);
-	var nodeLabelInputLabel = $("<div style=''><span>nodeLabel: </span></div>");
-	eSItem21.append(nodeLabelInputLabel);
-	var nodeLabelTextarea = $("<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>");
-	eSItem22.append(nodeLabelTextarea);
+	var edgeLabelInputLabel = $("<div style=''><span>edgeLabel: </span></div>");
+	eSItem21.append(edgeLabelInputLabel);
+	var edgeLabelTextarea = $("<textarea cols='19' rows='3' id='edgeLabelTextarea'></textarea>");
+	eSItem22.append(edgeLabelTextarea);
 
-	var eSRow3 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow3);
-	var eSItem31 = $("<td></td>");
-	var eSItem32 = $("<td></td>");
-	eSRow3.append(eSItem31);
-	eSRow3.append(eSItem32);
-	var nodeXInputLabel = $("<div style=''><span>nodeX: </span></div>");
-	eSItem31.append(nodeXInputLabel);
-	var nodeXInput = $("<input type='text' id='nodeXInput'></input>");
-	eSItem32.append(nodeXInput);
+   //EDGE COLOR
+	var eSRow2Color = $("<tr></tr>");
+	edgesSetupTable.append(eSRow2Color);
+	var eSItem21Color = $("<td></td>");
+	var eSItem22Color = $("<td></td>");
+	eSRow2Color.append(eSItem21Color);
+	eSRow2Color.append(eSItem22Color);
+	var edgeColorInputLabel = $("<div style=''><span>edgeColor: </span></div>");
+	eSItem21Color.append(edgeColorInputLabel);
+	var edgeColorInput = $("<input type='text' id='edgeColorInput'></input>");
+	eSItem22Color.append(edgeColorInput);
 
-	var eSRow4 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow4);
-	var eSItem41 = $("<td></td>");
-	var eSItem42 = $("<td></td>");
-	eSRow4.append(eSItem41);
-	eSRow4.append(eSItem42);
-	var nodeYInputLabel = $("<div style=''><span>nodeY: </span></div>");
-	eSItem41.append(nodeYInputLabel);
-	var nodeYInput = $("<input type='text' id='nodeYInput'></input>");
-	eSItem42.append(nodeYInput);
+   //EDGE DASHES
+	var eSRow2Dashes = $("<tr></tr>");
+	edgesSetupTable.append(eSRow2Dashes);
+	var eSItem21Dashes = $("<td></td>");
+	var eSItem22Dashes = $("<td></td>");
+	eSRow2Dashes.append(eSItem21Dashes);
+	eSRow2Dashes.append(eSItem22Dashes);
+	var edgeDashesEnabledInputLabel = $("<div style=''><span>edgeDashes: </span></div>");
+	eSItem21Dashes.append(edgeDashesEnabledInputLabel);
+	var edgeDashesEnabledInput = $("<input type='checkbox' id='edgeDashesEnabledInput'></input>");
+	eSItem22Dashes.append(edgeDashesEnabledInput);
 
-	var eSRow5 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow5);
+   //EDGE ARROWS FROM
+	var eSRow5Arrow1 = $("<tr></tr>");
+	edgesSetupTable.append(eSRow5Arrow1);
 	var eSItem51 = $("<td></td>");
 	var eSItem52 = $("<td></td>");
-	eSRow5.append(eSItem51);
-	eSRow5.append(eSItem52);
-	var nodeShapeInputLabel = $("<div style=''><span>nodeShape: </span></div>");
-	eSItem51.append(nodeShapeInputLabel);
-	var nodeShapeInput = $("<input type='text' id='nodeShapeInput'></input>");
-	eSItem52.append(nodeShapeInput);
+	eSRow5Arrow1.append(eSItem51);
+	eSRow5Arrow1.append(eSItem52);
+	var edgeArrowsFromEnabledInputLabel = $("<div style=''><span>arrows.from: </span></div>");
+	eSItem51.append(edgeArrowsFromEnabledInputLabel);
+	var edgeArrowsFromEnabledInput = $("<input type='checkbox' id='edgeArrowsFromEnabledInput'></input>");
+	eSItem52.append(edgeArrowsFromEnabledInput);
 
+   //EDGE ARROWS MIDDLE
+	var eSRow5Arrow2 = $("<tr></tr>");
+	edgesSetupTable.append(eSRow5Arrow2);
+	var eSItem51 = $("<td></td>");
+	var eSItem52 = $("<td></td>");
+	eSRow5Arrow2.append(eSItem51);
+	eSRow5Arrow2.append(eSItem52);
+	var edgeArrowsMiddleEnabledInputLabel = $("<div style=''><span>arrows.middle: </span></div>");
+	eSItem51.append(edgeArrowsMiddleEnabledInputLabel);
+	var edgeArrowsMiddleEnabledInput = $("<input type='checkbox' id='edgeArrowsMiddleEnabledInput'></input>");
+	eSItem52.append(edgeArrowsMiddleEnabledInput);
+
+   //EDGE ARROWS TO
+	var eSRow5Arrow3 = $("<tr></tr>");
+	edgesSetupTable.append(eSRow5Arrow3);
+	var eSItem51 = $("<td></td>");
+	var eSItem52 = $("<td></td>");
+	eSRow5Arrow3.append(eSItem51);
+	eSRow5Arrow3.append(eSItem52);
+	var edgeArrowsToEnabledInputLabel = $("<div style=''><span>arrows.to: </span></div>");
+	eSItem51.append(edgeArrowsToEnabledInputLabel);
+	var edgeArrowsToEnabledInput = $("<input type='checkbox' id='edgeArrowsToEnabledInput'></input>");
+	eSItem52.append(edgeArrowsToEnabledInput);
+
+   //SHADOW ENABLED
 	var eSRow6 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow6);
+	edgesSetupTable.append(eSRow6);
 	var eSItem61 = $("<td></td>");
 	var eSItem62 = $("<td></td>");
 	eSRow6.append(eSItem61);
 	eSRow6.append(eSItem62);
-	var nodeLinkTextareaLabel = $("<div style=''><span>nodeLink: </span></div>");
-	eSItem61.append(nodeLinkTextareaLabel);
-	var nodeLinkTextarea = $("<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>");
-	eSItem62.append(nodeLinkTextarea);
-	var linkOpenButton = $("<div style='cursor:pointer;margin: 4px 0 2px 0;' id='linkOpenButton'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>");
-	eSItem62.append(linkOpenButton);
+	var edgeShadowEnabledInputLabel = $("<div style=''><span>shadow.enabled: </span></div>");
+	eSItem61.append(edgeShadowEnabledInputLabel);
+	var edgeShadowEnabledInput = $("<input type='checkbox' id='edgeShadowEnabledInput'></input>");
+	eSItem62.append(edgeShadowEnabledInput);
 
+   //SHADOW COLOR
 	var eSRow7 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow7);
+	edgesSetupTable.append(eSRow7);
 	var eSItem71 = $("<td></td>");
 	var eSItem72 = $("<td></td>");
 	eSRow7.append(eSItem71);
 	eSRow7.append(eSItem72);
-	var nodeColorInputLabel = $("<div style=''><span>nodeColor: </span></div>");
-	eSItem71.append(nodeColorInputLabel);
-	var nodeColorInput = $("<input type='text' id='nodeColorInput'></input>");
-	eSItem72.append(nodeColorInput);
+	var edgeShadowColorInputLabel = $("<div style='padding: 0 0 0 7px'><span>shadow.color: </span></div>");
+	eSItem71.append(edgeShadowColorInputLabel);
+	var edgeShadowColorInput = $("<input type='text' id='edgeShadowColorInput'></input>");
+	eSItem72.append(edgeShadowColorInput);
 
+   //SHADOW SIZE
 	var eSRow8 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow8);
+	edgesSetupTable.append(eSRow8);
 	var eSItem81 = $("<td></td>");
 	var eSItem82 = $("<td></td>");
 	eSRow8.append(eSItem81);
 	eSRow8.append(eSItem82);
-	var nodeBorderWidthInputLabel = $("<div style=''><span>nodeBorderWidth: </span></div>");
-	eSItem81.append(nodeBorderWidthInputLabel);
-	var nodeBorderWidthInput = $("<input type='text' id='nodeBorderWidthInput'></input>");
-	eSItem82.append(nodeBorderWidthInput);
+	var edgeShadowSizeInputLabel = $("<div style='padding: 0 0 0 7px'><span>shadow.size: </span></div>");
+	eSItem81.append(edgeShadowSizeInputLabel);
+	var edgeShadowSizeInput = $("<input type='text' id='edgeShadowSizeInput'></input>");
+	eSItem82.append(edgeShadowSizeInput);
 
+   //SHADOW X
 	var eSRow9 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow9);
+	edgesSetupTable.append(eSRow9);
 	var eSItem91 = $("<td></td>");
 	var eSItem92 = $("<td></td>");
 	eSRow9.append(eSItem91);
 	eSRow9.append(eSItem92);
-	var nodeBorderColorInputLabel = $("<div style=''><span>nodeBorderColor: </span></div>");
-	eSItem91.append(nodeBorderColorInputLabel);
-	var nodeBorderColorInput = $("<input type='text' id='nodeBorderColorInput'></input>");
-	eSItem92.append(nodeBorderColorInput);
+	var edgeShadowXInputLabel = $("<div style='padding: 0 0 0 7px'><span>shadow.x: </span></div>");
+	eSItem91.append(edgeShadowXInputLabel);
+	var edgeShadowXInput = $("<input type='text' id='edgeShadowXInput'></input>");
+	eSItem92.append(edgeShadowXInput);
 
+   //SHADOW Y
 	var eSRow10 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow10);
+	edgesSetupTable.append(eSRow10);
 	var eSItem101 = $("<td></td>");
 	var eSItem102 = $("<td></td>");
 	eSRow10.append(eSItem101);
 	eSRow10.append(eSItem102);
-	var nodeFontSizeInputLabel = $("<div style=''><span>nodeFontSize: </span></div>");
-	eSItem101.append(nodeFontSizeInputLabel);
-	var nodeFontSizeInput = $("<input type='text' id='nodeFontSizeInput'></input>");
-	eSItem102.append(nodeFontSizeInput);
+	var edgeShadowYInputLabel = $("<div style='padding: 0 0 0 7px'><span>shadow.y: </span></div>");
+	eSItem101.append(edgeShadowYInputLabel);
+	var edgeShadowYInput = $("<input type='text' id='edgeShadowYInput'></input>");
+	eSItem102.append(edgeShadowYInput);
 
+   //SMOOTH ENABLED
 	var eSRow11 = $("<tr></tr>");
-	elementsSetupTable.append(eSRow11);
+	edgesSetupTable.append(eSRow11);
 	var eSItem111 = $("<td></td>");
 	var eSItem112 = $("<td></td>");
 	eSRow11.append(eSItem111);
 	eSRow11.append(eSItem112);
-	var nodeFontAlignInputLabel = $("<div style=''><span>nodeFontAlign: </span></div>");
-	eSItem111.append(nodeFontAlignInputLabel);
-	var nodeFontAlignInput = $("<input type='text' id='nodeFontAlignInput'></input>");
-	eSItem112.append(nodeFontAlignInput);
+	var edgeSmoothEnabledInputLabel = $("<div style=''><span>smooth.enabled: </span></div>");
+	eSItem111.append(edgeSmoothEnabledInputLabel);
+	var edgeSmoothEnabledInput = $("<input type='checkbox' id='edgeSmoothEnabledInput'></input>");
+	eSItem112.append(edgeSmoothEnabledInput);
+
+   //SMOOTH TYPE
+	var eSRow12 = $("<tr></tr>");
+	edgesSetupTable.append(eSRow12);
+	var eSItem121 = $("<td></td>");
+	var eSItem122 = $("<td></td>");
+	eSRow12.append(eSItem121);
+	eSRow12.append(eSItem122);
+	var edgeSmoothTypeInputLabel = $("<div style='padding: 0 0 0 7px'><span>smooth.type: </span></div>");
+	eSItem121.append(edgeSmoothTypeInputLabel);
+        var smoothTypeSelectString = "<select id='edgeSmoothTypeInput'>" + 
+                           "<option value='dynamic' selected='selected'>dynamic</option>" +
+                           "<option value='continuous'>continuous</option>" +
+                           "<option value='discrete'>discrete</option>" +
+                           "<option value='diagonalCross'>diagonalCross</option>" +
+                           "<option value='straightCross'>straightCross</option>" +
+                           "<option value='horizontal'>horizontal</option>" +
+                           "<option value='vertical'>vertical</option>" +
+                           "<option value='curvedCW'>curvedCW</option>" +
+                           "<option value='curvedCCW'>curvedCCW</option>" +
+                           "<option value='cubicBezier'>cubicBezier</option></select>";
+	var edgeSmoothTypeInput = $(smoothTypeSelectString);
+	eSItem122.append(edgeSmoothTypeInput);
+
+   //SMOOTH FORCEDIRECTION
+	var eSRow13 = $("<tr></tr>");
+	edgesSetupTable.append(eSRow13);
+	var eSItem131 = $("<td></td>");
+	var eSItem132 = $("<td></td>");
+	eSRow13.append(eSItem131);
+	eSRow13.append(eSItem132);
+	var edgeSmoothForceDirectionInputLabel = $("<div style='padding: 0 0 0 7px'><span>smooth. forceDirection	: </span></div>");
+	eSItem131.append(edgeSmoothForceDirectionInputLabel);
+        var smoothForceDirectionSelectString = "<select id='edgeSmoothForceDirectionInput'>" + 
+                                               "<option value='none' selected='selected'>none</option>" +
+                                               "<option value='horizontal'>horizontal</option>" +
+                                               "<option value='vertical'>vertical</option></select>";
+	var edgeSmoothForceDirectionInput = $(smoothForceDirectionSelectString);
+	eSItem132.append(edgeSmoothForceDirectionInput);
+
+   //SMOOTH ROUNDNESS
+	var eSRow14 = $("<tr></tr>");
+	edgesSetupTable.append(eSRow14);
+	var eSItem141 = $("<td></td>");
+	var eSItem142 = $("<td></td>");
+	eSRow14.append(eSItem141);
+	eSRow14.append(eSItem142);
+	var edgeSmoothRoundnessInputLabel = $("<div style='padding: 0 0 0 7px'><span>smooth. roundness: </span></div>");
+	eSItem141.append(edgeSmoothRoundnessInputLabel);
+	var edgeSmoothRoundnessInput = $("<input type='text' id='edgeSmoothRoundnessInput'></input>");
+	eSItem142.append(edgeSmoothRoundnessInput);
    linkOpenButton.click(function() {
       var link = nodeLinkTextarea.val();
       //if link starts with userConfData["someConfPathKey"], then we replace this var with path for its key from userConfData
@@ -2781,26 +3188,30 @@ console.log("userConfKey: " + userConfKey);
       }
    });
 
-   schemeEditElementsMenu.append(elementsSetupTable);
+   schemeEditNodesMenu.append(nodesSetupTable);
+   schemeEditEdgesMenu.append(edgesSetupTable);
 
-   var saveElementEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveElementEditButton'>saveElement</span></div>");
-   schemeEditElementsMenu.append(saveElementEditButton);
-	saveElementEditButton.click(function() {
-		var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput");
-		var nodeLabelTextarea = schemeEditElementsMenu.find("textarea#nodeLabelTextarea");
-		var nodeXInput = schemeEditElementsMenu.find("input#nodeXInput");
-		var nodeYInput = schemeEditElementsMenu.find("input#nodeYInput");
-		var nodeShapeInput = schemeEditElementsMenu.find("input#nodeShapeInput");
-		var nodeLinkTextarea = schemeEditElementsMenu.find("textarea#nodeLinkTextarea");
-		var nodeFontSizeInput = schemeEditElementsMenu.find("input#nodeFontSizeInput");
-		var nodeFontAlignInput = schemeEditElementsMenu.find("input#nodeFontAlignInput");
-		var nodeColorInput = schemeEditElementsMenu.find("input#nodeColorInput");
-		var nodeBorderWidthInput = schemeEditElementsMenu.find("input#nodeBorderWidthInput");
-		var nodeBorderColorInput = schemeEditElementsMenu.find("input#nodeBorderColorInput");
+   var saveNodeEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveNodeEditButton'>saveNode</span></div>");
+   schemeEditNodesMenu.append(saveNodeEditButton);
+
+   var saveEdgeEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveEdgeEditButton'>saveEdge</span></div>");
+   schemeEditEdgesMenu.append(saveEdgeEditButton);
+	saveNodeEditButton.click(function() {
+		var nodeIdInput = schemeEditNodesMenu.find("input#nodeIdInput");
+		var nodeLabelTextarea = schemeEditNodesMenu.find("textarea#nodeLabelTextarea");
+		//var nodeXInput = schemeEditNodesMenu.find("input#nodeXInput");
+		//var nodeYInput = schemeEditNodesMenu.find("input#nodeYInput");
+		var nodeShapeInput = schemeEditNodesMenu.find("#nodeShapeInput");
+		var nodeLinkTextarea = schemeEditNodesMenu.find("textarea#nodeLinkTextarea");
+		var nodeFontSizeInput = schemeEditNodesMenu.find("input#nodeFontSizeInput");
+		var nodeFontAlignInput = schemeEditNodesMenu.find("input#nodeFontAlignInput");
+		var nodeColorInput = schemeEditNodesMenu.find("input#nodeColorInput");
+		var nodeBorderWidthInput = schemeEditNodesMenu.find("input#nodeBorderWidthInput");
+		var nodeBorderColorInput = schemeEditNodesMenu.find("input#nodeBorderColorInput");
                 var nodeD = getNodeFromNetworkDataById(nodeIdInput.val());
 		var pNode = network.getPositions()[nodeIdInput.val()];
-		nodeXInput.val(pNode.x);
-		nodeYInput.val(pNode.y);
+		//nodeXInput.val(pNode.x);
+		//nodeYInput.val(pNode.y);
 		nodeD.id = nodeIdInput.val();
 		nodeD.label = nodeLabelTextarea.val();
 		nodeD.x = pNode.x;
@@ -2816,24 +3227,115 @@ console.log("userConfKey: " + userConfKey);
 		nodeD.borderWidth = nodeBorderWidthInput.val();
 		network.body.data.nodes.update(nodeD);
 	});
-	var closeElementEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeElementEditButton'>closeElement</span></div>");
-	schemeEditElementsMenu.append(closeElementEditButton);
 
-	closeElementEditButton.click(function() {
-		schemeEditElementsMenu.hide();
+   saveEdgeEditButton.click(function() {
+      var edgeIdInput = schemeEditEdgesMenu.find("#edgeIdInput");
+      var edgeLabelTextarea = schemeEditEdgesMenu.find("textarea#edgeLabelTextarea");
+
+      var edgeColorInput = schemeEditEdgesMenu.find("#edgeColorInput");
+      var edgeDashesEnabledInput = schemeEditEdgesMenu.find("#edgeDashesEnabledInput");
+
+      var edgeArrowsFromEnabledInput = schemeEditEdgesMenu.find("#edgeArrowsFromEnabledInput");
+      var edgeArrowsMiddleEnabledInput = schemeEditEdgesMenu.find("#edgeArrowsMiddleEnabledInput");
+      var edgeArrowsToEnabledInput = schemeEditEdgesMenu.find("#edgeArrowsToEnabledInput");
+
+      var edgeShadowEnabledInput = schemeEditEdgesMenu.find("#edgeShadowEnabledInput");
+      var edgeShadowColorInput = schemeEditEdgesMenu.find("#edgeShadowColorInput");
+      var edgeShadowSizeInput = schemeEditEdgesMenu.find("#edgeShadowSizeInput");
+      var edgeShadowXInput = schemeEditEdgesMenu.find("#edgeShadowXInput");
+      var edgeShadowYInput = schemeEditEdgesMenu.find("#edgeShadowYInput");
+
+      var edgeSmoothEnabledInput = schemeEditEdgesMenu.find("#edgeSmoothEnabledInput");
+      var edgeSmoothTypeInput = schemeEditEdgesMenu.find("#edgeSmoothTypeInput");
+      var edgeSmoothForceDirectionInput = schemeEditEdgesMenu.find("#edgeSmoothForceDirectionInput");
+      var edgeSmoothRoundnessInput = schemeEditEdgesMenu.find("#edgeSmoothRoundnessInput");
+
+      var edgeD = getEdgeFromNetworkDataById(edgeIdInput.val());
+
+      edgeD.id = edgeIdInput.val();
+      if (typeof edgeLabelTextarea.val() == "undefined" || edgeLabelTextarea.val() == "") {
+         edgeD.label = "\n";
+         network.body.data.edges.update(edgeD);
+         network.edgesHandler.update([edgeD.id]);
+         edgeD.label = "";
+      } else {
+         edgeD.label = edgeLabelTextarea.val();
+      }
+
+      if (typeof edgeD.color === "undefined") edgeD.color = {};
+      if (edgeColorInput.val() == "") {
+         edgeD.color.color = "rgb(0,0,0)";
+      } else {
+         edgeD.color.color = edgeColorInput.val();
+      }
+
+      edgeD.dashes = edgeDashesEnabledInput.prop('checked');
+
+      if (typeof edgeD.arrows === "undefined") edgeD.arrows = {from: {}, middle: {}, to: {}};
+      edgeD.arrows.from.enabled = edgeArrowsFromEnabledInput.prop('checked');
+      edgeD.arrows.middle.enabled = edgeArrowsMiddleEnabledInput.prop('checked');
+      edgeD.arrows.to.enabled = edgeArrowsToEnabledInput.prop('checked');
+
+      if (typeof edgeD.shadow === "undefined") edgeD.shadow = {};
+      edgeD.shadow.enabled = edgeShadowEnabledInput.prop('checked');
+      edgeD.shadow.color = edgeShadowColorInput.val();
+      if (!isNaN(parseInt(edgeShadowSizeInput.val(), 10))) {
+         edgeD.shadow.size = parseInt(edgeShadowSizeInput.val(), 10);
+      } else {
+         delete edgeD.shadow.size;
+      }
+      if (!isNaN(parseInt(edgeShadowXInput.val(), 10))) {
+         edgeD.shadow.x = parseInt(edgeShadowXInput.val(), 10);
+      } else {
+         delete edgeD.shadow.x;
+      }
+      if (!isNaN(parseInt(edgeShadowYInput.val(), 10))) {
+         edgeD.shadow.y = parseInt(edgeShadowYInput.val(), 10);
+      } else {
+         delete edgeD.shadow.y;
+      }
+
+      if (typeof edgeD.smooth === "undefined") edgeD.smooth = {};
+      edgeD.smooth.enabled = edgeSmoothEnabledInput.prop('checked');
+      edgeD.smooth.type = edgeSmoothTypeInput.val();
+      edgeD.smooth.forceDirection = edgeSmoothForceDirectionInput.val();
+
+      if (!isNaN(parseInt(edgeSmoothRoundnessInput.val(), 10))) {
+         edgeD.smooth.roundness = parseInt(edgeSmoothRoundnessInput.val(), 10);
+      } else {
+         delete edgeD.smooth.roundness;
+      }
+      //console.log(edgeD);
+
+      network.body.data.edges.update(edgeD);
+      network.edgesHandler.update([edgeD.id]);
+
+   });
+	var closeNodeEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeNodeEditButton'>closeNodeEdit</span></div>");
+	schemeEditNodesMenu.append(closeNodeEditButton);
+
+	closeNodeEditButton.click(function() {
+		schemeEditNodesMenu.hide();
+	});
+
+	var closeEdgeEditButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeEdgeEditButton'>closeEdgeEdit</span></div>");
+	schemeEditEdgesMenu.append(closeEdgeEditButton);
+
+	closeEdgeEditButton.click(function() {
+		schemeEditEdgesMenu.hide();
 	});
    var splitNodeListLabelButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>");
-   schemeEditElementsMenu.append(splitNodeListLabelButton);
+   schemeEditNodesMenu.append(splitNodeListLabelButton);
 
    splitNodeListLabelButton.click(function() {
-      var nodeIdInput = schemeEditElementsMenu.find("input#nodeIdInput").val();
+      var nodeIdInput = schemeEditNodesMenu.find("input#nodeIdInput").val();
       splitNodeLabelToList(nodeIdInput);
    });
 	var runNodeCodeButton = $("<div style='cursor:pointer;margin:20px 0 0 0'><span id='runNodeCodeButton'>runNodeCode</span></div>");
 
-	schemeEditElementsMenu.append(runNodeCodeButton);
+	schemeEditNodesMenu.append(runNodeCodeButton);
 runNodeCodeButton.click(function() {
-   var nodeId = schemeEditElementsMenu.find("input#nodeIdInput").val();
+   var nodeId = schemeEditNodesMenu.find("input#nodeIdInput").val();
    var code = collectCodeNodesContent(nodeId);
    code = code.split("\n");
    if (code[0] == "sympy") {
@@ -2846,14 +3348,22 @@ runNodeCodeButton.click(function() {
       codeFunction(nodeId);
    }
 });
-	var leftMenuHelpLine1 = $("<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>");
-	schemeEditElementsMenu.append(leftMenuHelpLine1);
-	//#FFD570
-	//#ffc63b
-	var leftMenuHelpLine2 = $("<div style='margin:10px 0 0 0'><span id='leftMenuHelpLine2'>nodes yellow color - #ffd570</span></div>");
-	schemeEditElementsMenu.append(leftMenuHelpLine2);
+   var leftMenuHelpLine1 = $("<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>");
+   schemeEditNodesMenu.append(leftMenuHelpLine1);
+   //#FFD570
+   //#ffc63b
+   var leftMenuHelpLine2 = $("<div style='margin:10px 0 0 0'><span id='leftMenuHelpLine2'>nodes yellow color - #ffd570</span></div>");
+   schemeEditNodesMenu.append(leftMenuHelpLine2);
+   var leftMenuHelpLineNodesDocs = $("<div style='margin:10px 0 0 0'><span id='leftMenuHelpLineNodesDocs'><a href='https://visjs.github.io/vis-network/docs/network/nodes.html' target='_blank'>Nodes docs</a></span></div>");
+   schemeEditNodesMenu.append(leftMenuHelpLineNodesDocs);
+
+
+   var leftMenuHelpLineEdgesDocs = $("<div style='margin:40px 0 0 0'><span id='leftMenuHelpLineEdgesDocs'><a href='https://visjs.github.io/vis-network/docs/network/edges.html' target='_blank'>Edges docs</a></span></div>");
+   schemeEditEdgesMenu.append(leftMenuHelpLineEdgesDocs);
+
+
 	loadSavedProjectToMenuButton = $("<div style='cursor:pointer;margin:80px 0 0 0'><span id='loadSavedProjectToMenuButton'>loadSavedProjectToMenu</span></div>");
-	schemeEditElementsMenu.append(loadSavedProjectToMenuButton);
+	schemeEditNodesMenu.append(loadSavedProjectToMenuButton);
 	loadSavedProjectToMenuButton.hide();
 	loadSavedProjectToMenuButton.click(function() {
 		var saveLabel = loadSavedProjectToMenuButton.saveProjectLabel;
@@ -2863,7 +3373,7 @@ runNodeCodeButton.click(function() {
 		buildSaveNodesList();
 	});
 	deleteSavedProjectButton = $("<div style='cursor:pointer;margin:40px 0 0 0'><span id='deleteSavedProjectButton'>!!deleteSavedProject!!</span></div>");
-	schemeEditElementsMenu.append(deleteSavedProjectButton);
+	schemeEditNodesMenu.append(deleteSavedProjectButton);
 	deleteSavedProjectButton.hide();
 	deleteSavedProjectButton.click(function() {
 		var saveLabel = deleteSavedProjectButton.saveProjectLabel;
@@ -4039,7 +4549,8 @@ var moveCursorRightFast = false;
          var selectedElement = $(document.activeElement);
          if (selectedElement.prop("tagName") == "DIV" &&
              selectedElement.prop("class") == "vis-network" &&
-             document.getElementById('schemeEditElementsMenu').style.display == "none") {
+             document.getElementById('schemeEditNodesMenu').style.display == "none" &&
+             document.getElementById('schemeEditEdgesMenu').style.display == "none") {
 
              if (typeof network.selectionHandler.selectionObj.nodes.length === "undefined" &&
                  typeof network.selectionHandler.selectionObj.edges.length === "undefined") {
@@ -4811,6 +5322,35 @@ var moveCursorRightFast = false;
          }
       }
    });
+
+   $("div#network").keydown(function (event) {
+      //Toggle edgeLabel textarea expansion. ctrl+Space
+      if (event.ctrlKey && event.keyCode === 32) {
+         if (edgeLabelTextareaExpanded) {
+            $("textarea#edgeLabelTextarea").css("width", "167px");
+            $("textarea#edgeLabelTextarea").css("height", "45px");
+            edgeLabelTextareaExpanded = false;
+         } else {
+            $("textarea#edgeLabelTextarea").css("width", "940px");
+            $("textarea#edgeLabelTextarea").css("height", "580px");
+            edgeLabelTextareaExpanded = true;
+         }
+      }
+   });
+   $("textarea#edgeLabelTextarea").keydown(function (event) {
+      //Toggle edgeLabel textarea expansion. ctrl+Space
+      if (event.ctrlKey && event.keyCode === 32) {
+         if (edgeLabelTextareaExpanded) {
+            $("textarea#edgeLabelTextarea").css("width", "167px");
+            $("textarea#edgeLabelTextarea").css("height", "45px");
+            edgeLabelTextareaExpanded = false;
+         } else {
+            $("textarea#edgeLabelTextarea").css("width", "940px");
+            $("textarea#edgeLabelTextarea").css("height", "580px");
+            edgeLabelTextareaExpanded = true;
+         }
+      }
+   });
    $("div#network").keydown(function (event) {
       //Left align nodes. shift+alt+LeftArrow
       if (event.shiftKey && event.altKey && event.keyCode === 37) {
@@ -4880,32 +5420,63 @@ var moveCursorRightFast = false;
       if (event.keyCode === 27) {
          $("input#cancelButton").click();
          cancelNodeEdit = true;
+         cancelEdgeEditVar = true;
          $("#network div.vis-network canvas").focus();
       }
    });
-   $("div#schemeEditElementsMenu").keydown(function (event) {
-      //saveElement. alt+Enter
+   $("div#schemeEditNodesMenu").keydown(function (event) {
+      //saveNode. alt+Enter
       if (event.altKey && event.keyCode === 13) {
-         $("span#saveElementEditButton").click();
+         $("span#saveNodeEditButton").click();
       }
    });
-   $("div#schemeEditElementsMenu").keydown(function (event) {
-      //saveElement and closeElement. ctrl+Enter
+
+   $("div#schemeEditEdgesMenu").keydown(function (event) {
+      //saveEdge. alt+Enter
+      if (event.altKey && event.keyCode === 13) {
+         $("span#saveEdgeEditButton").click();
+      }
+   });
+   $("div#schemeEditNodesMenu").keydown(function (event) {
+      //saveNodes and closeNodes. ctrl+Enter
       if (event.ctrlKey && event.keyCode === 13) {
          $("textarea#nodeLabelTextarea").css("width", "167px");
          $("textarea#nodeLabelTextarea").css("height", "45px");
          nodeLabelTextareaExpanded = false;
-         $("span#saveElementEditButton").click();
-         $("span#closeElementEditButton").click();
+         $("span#saveNodeEditButton").click();
+         $("span#closeNodeEditButton").click();
       }
    });
-   $("div#schemeEditElementsMenu").keydown(function (event) {
+
+   $("div#schemeEditEdgesMenu").keydown(function (event) {
+      //saveEdges and closeEdges. ctrl+Enter
+      if (event.ctrlKey && event.keyCode === 13) {
+         $("textarea#edgeLabelTextarea").css("width", "167px");
+         $("textarea#edgeLabelTextarea").css("height", "45px");
+         edgeLabelTextareaExpanded = false;
+         $("span#saveEdgeEditButton").click();
+         $("span#closeEdgeEditButton").click();
+      }
+   });
+   $("div#schemeEditNodesMenu").keydown(function (event) {
       //Esc
       if (event.keyCode === 27) {
          network.disableEditMode();
          network.selectionHandler.unselectAll();
-         $("span#closeElementEditButton").click();
+         $("span#closeNodeEditButton").click();
          network.editNode();
+         $("#network div.vis-network").focus();
+      }
+   });
+
+   $("div#schemeEditEdgesMenu").keydown(function (event) {
+console.log("asdf");
+      //Esc
+      if (event.keyCode === 27) {
+         network.disableEditMode();
+         network.selectionHandler.unselectAll();
+         $("span#closeEdgeEditButton").click();
+console.log("esc");
          $("#network div.vis-network").focus();
       }
    });
@@ -4914,21 +5485,24 @@ var moveCursorRightFast = false;
       if (event.keyCode === 27 && document.getElementsByClassName("vis-back").length == 0) {
          network.disableEditMode();
          network.selectionHandler.unselectAll();
-         $("span#closeElementEditButton").click();
+         $("span#closeNodeEditButton").click();
+         $("span#closeEdgeEditButton").click();
          network.editNode();
       }
    });
-	$(document).keydown(function (event) {
-		//Esc
-		if (event.keyCode === 27) {
-			if (document.getElementById('network-popUp').style.display == "none" && cancelNodeEdit == false) {
-				network.disableEditMode();
-				network.editNode();
-			} else {
-				cancelNodeEdit = false;
-			}
-		}
-	});
+
+   $(document).keydown(function (event) {
+      //Esc
+      if (event.keyCode === 27) {
+         if (document.getElementById('network-popUp').style.display == "none" && cancelNodeEdit == false && cancelEdgeEditVar == false) {
+            network.disableEditMode();
+            network.editNode();
+         } else {
+            cancelNodeEdit = false;
+            cancelEdgeEditVar = false;
+         }
+      }
+   });
 	$(document).keydown(function (event) {
 		//Connect nodes. ctrl+alt+c.
 		if (event.ctrlKey == true && 
@@ -5040,6 +5614,8 @@ function help() {
    console.log("sC()");
    console.log("fN()");
    console.log("uFN()");
+   console.log("joinNodesLabels()");
+   console.log("distributeVertically(yStep)");
 }
 
 function hideAllToDownloadNews(selectedNodesIds, selectedEdgesIds) {
@@ -5386,4 +5962,49 @@ function distributeVertically(yStep) {
       //network.body.data.nodes.update(n);
    }
 
+}
+function joinNodesLabels() {
+   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+
+   var labels = [];
+   selectedNodes.forEach(function(node) {
+      var nodeLabel = node.options.label;
+      labels.push(nodeLabel);
+   });
+
+   var screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})
+   network.body.data.nodes.add([{
+      label:labels.join("\n"),
+      x:screenCenterPosition.x,
+      y:screenCenterPosition.y
+   }]);
+}
+function getDownloadedNewsData(resolve) {
+
+   url = "http://localhost:1337/getSavedNewsData";
+
+   fetch(url)
+       .then(function(response){return response.json();})
+       .then(function(response) {
+          console.log("getDownloadedNewsData(newsDataFilePath). url: " + url);
+
+          //console.log("fetch response: " + response);
+          //var data = JSON.stringify("Error");
+
+          //var label = JSON.stringify(data, undefined, 1);
+          //var label = response;
+          //var screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})
+          //network.body.data.nodes.add([{
+          //   label:label,
+          //   x:screenCenterPosition.x,
+          //   y:screenCenterPosition.y
+          //}]);
+          resolve(response);
+
+          return response;
+       })
+       .catch(function(error){
+          console.log("Error -> getDownloadedNewsData(newsDataFilePath). url: " + url);
+          console.log(error);
+       });
 }
