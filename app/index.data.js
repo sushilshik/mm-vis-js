@@ -1710,8 +1710,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js_code.html",
           "id": "indx1_213",
-          "x": 24132,
-          "y": -13089,
+          "x": 24279,
+          "y": -13126,
           "shape": "box",
           "link": "mm-vis-js_code.html",
           "borderWidth": ""
@@ -1746,8 +1746,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js_docs.html",
           "id": "indx1_214",
-          "x": 24104,
-          "y": -10956,
+          "x": 24251,
+          "y": -11376,
           "shape": "box",
           "link": "mm-vis-js_docs.html",
           "borderWidth": ""
@@ -1782,8 +1782,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "base.html",
           "id": "indx1_215",
-          "x": 21716,
-          "y": -8532,
+          "x": 21863,
+          "y": -9626,
           "shape": "box",
           "link": "base.html",
           "borderWidth": ""
@@ -1818,8 +1818,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "culture.html",
           "id": "indx1_216",
-          "x": 22132,
-          "y": -6246,
+          "x": 22279,
+          "y": -7876,
           "shape": "box",
           "link": "culture.html",
           "borderWidth": ""
@@ -1854,8 +1854,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "ruby.html",
           "id": "indx1_217",
-          "x": 21567,
-          "y": -4030,
+          "x": 21714,
+          "y": -6126,
           "shape": "box",
           "link": "ruby.html",
           "borderWidth": ""
@@ -1890,8 +1890,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "javascript.html",
           "id": "indx1_218",
-          "x": 22743,
-          "y": -2022,
+          "x": 22890,
+          "y": -4376,
           "shape": "box",
           "link": "javascript.html",
           "borderWidth": ""
@@ -1926,8 +1926,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "music.html",
           "id": "indx1_219",
-          "x": 21937,
-          "y": 2115,
+          "x": 22084,
+          "y": -876,
           "shape": "box",
           "link": "music.html",
           "borderWidth": ""
@@ -1962,8 +1962,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "python.html",
           "id": "indx1_220",
-          "x": 22133,
-          "y": 56,
+          "x": 22280,
+          "y": -2626,
           "shape": "box",
           "link": "python.html",
           "borderWidth": ""
@@ -1998,16 +1998,16 @@ var schemeData =
           "shapeProperties": {},
           "label": "math.html",
           "id": "indx1_221",
-          "x": 21743,
-          "y": 4143,
+          "x": 21890,
+          "y": 874,
           "shape": "box",
           "link": "math.html",
           "borderWidth": ""
         },
         "indx1_222": {
           "label": "Main\nMenu",
-          "x": 15833,
-          "y": 33815,
+          "x": 16004,
+          "y": 36050,
           "font": {
             "size": 72,
             "align": "left"
@@ -2023,32 +2023,32 @@ var schemeData =
         },
         "indx1_223": {
           "label": "Development",
-          "x": 16133,
-          "y": 34265,
+          "x": 16304,
+          "y": 36500,
           "id": "indx1_223"
         },
         "indx1_224": {
           "label": "12/20/2019",
-          "x": 16266,
-          "y": 34265,
+          "x": 16437,
+          "y": 36500,
           "id": "indx1_224"
         },
         "indx1_225": {
           "label": "init",
-          "x": 16383,
-          "y": 34265,
+          "x": 16554,
+          "y": 36500,
           "id": "indx1_225"
         },
         "indx1_226": {
           "label": "Notes",
-          "x": 16110,
-          "y": 33415,
+          "x": 16281,
+          "y": 35650,
           "id": "indx1_226"
         },
         "indx1_227": {
           "label": "Dictionary of\nconcepts",
-          "x": 19022,
-          "y": -96,
+          "x": 19178,
+          "y": -80,
           "id": "indx1_227",
           "shape": "box",
           "link": "",
@@ -2064,122 +2064,122 @@ var schemeData =
         },
         "indx1_228": {
           "label": "Details, thoughts",
-          "x": 16291,
-          "y": 33279,
+          "x": 16462,
+          "y": 35514,
           "id": "indx1_228"
         },
         "indx1_229": {
           "label": "Sections",
-          "x": 16257,
-          "y": 33665,
+          "x": 16428,
+          "y": 35900,
           "id": "indx1_229"
         },
         "indx1_230": {
           "label": "Books",
-          "x": 16347,
-          "y": 33515,
+          "x": 16518,
+          "y": 35750,
           "id": "indx1_230"
         },
         "indx1_231": {
           "label": "R&D institutions",
-          "x": 16378,
-          "y": 33540,
+          "x": 16549,
+          "y": 35775,
           "id": "indx1_231"
         },
         "indx1_232": {
           "label": "Sites",
-          "x": 16343,
-          "y": 33565,
+          "x": 16514,
+          "y": 35800,
           "id": "indx1_232"
         },
         "indx1_233": {
           "label": "Magazines",
-          "x": 16362,
-          "y": 33590,
+          "x": 16533,
+          "y": 35825,
           "id": "indx1_233"
         },
         "indx1_234": {
           "label": "Articles",
-          "x": 16351,
-          "y": 33615,
+          "x": 16522,
+          "y": 35850,
           "id": "indx1_234"
         },
         "indx1_235": {
           "label": "Media content",
-          "x": 16373,
-          "y": 33640,
+          "x": 16544,
+          "y": 35875,
           "id": "indx1_235"
         },
         "indx1_236": {
           "label": "Misc. web links",
-          "x": 16375,
-          "y": 33665,
+          "x": 16546,
+          "y": 35900,
           "id": "indx1_236"
         },
         "indx1_237": {
           "label": "Projects",
-          "x": 16353,
-          "y": 33690,
+          "x": 16524,
+          "y": 35925,
           "id": "indx1_237"
         },
         "indx1_238": {
           "label": "Tools",
-          "x": 16345,
-          "y": 33715,
+          "x": 16516,
+          "y": 35950,
           "id": "indx1_238"
         },
         "indx1_239": {
           "label": "Organizations",
-          "x": 16372,
-          "y": 33740,
+          "x": 16543,
+          "y": 35975,
           "id": "indx1_239"
         },
         "indx1_240": {
           "label": "Standarts",
-          "x": 16358,
-          "y": 33765,
+          "x": 16529,
+          "y": 36000,
           "id": "indx1_240"
         },
         "indx1_241": {
           "label": "Forums, Groups",
-          "x": 16380,
-          "y": 33790,
+          "x": 16551,
+          "y": 36025,
           "id": "indx1_241"
         },
         "indx1_242": {
           "label": "Laws",
-          "x": 16344,
-          "y": 33815,
+          "x": 16515,
+          "y": 36050,
           "id": "indx1_242"
         },
         "indx1_243": {
           "label": "Adjacent Themes",
-          "x": 16383,
-          "y": 33840,
+          "x": 16554,
+          "y": 36075,
           "id": "indx1_243"
         },
         "indx1_244": {
           "label": "Questions",
-          "x": 16123,
-          "y": 33965,
+          "x": 16294,
+          "y": 36200,
           "id": "indx1_244"
         },
         "indx1_245": {
           "label": "Problems",
-          "x": 16121,
-          "y": 34065,
+          "x": 16292,
+          "y": 36300,
           "id": "indx1_245"
         },
         "indx1_246": {
           "label": "Goals",
-          "x": 16110,
-          "y": 34165,
+          "x": 16281,
+          "y": 36400,
           "id": "indx1_246"
         },
         "indx1_247": {
           "id": "indx1_247",
-          "x": 16628,
-          "y": 33126,
+          "x": 16799,
+          "y": 35361,
           "label": "This scheme contains links to mm-vis-js pages.",
           "shape": "box",
           "link": "",
@@ -2195,8 +2195,8 @@ var schemeData =
         },
         "indx1_248": {
           "id": "indx1_248",
-          "x": 16717,
-          "y": 33235,
+          "x": 16888,
+          "y": 35470,
           "label": "Links to mm-vis-js pages are the same as in \"mm-vis-js pages list\" scheme.",
           "shape": "box",
           "link": "",
@@ -2212,32 +2212,32 @@ var schemeData =
         },
         "indx1_249": {
           "id": "indx1_249",
-          "x": 17177,
-          "y": 33235,
+          "x": 17348,
+          "y": 35470,
           "label": "\"mm-vis-js pages list\" scheme is in top left of this page"
         },
         "indx1_250": {
           "id": "indx1_250",
-          "x": 17250,
-          "y": 33269,
+          "x": 17421,
+          "y": 35504,
           "label": "\"mm-vis-js pages list\" scheme located on all mm-vis-js pages on their top left."
         },
         "indx1_251": {
           "id": "indx1_251",
-          "x": 16594,
-          "y": 33163,
+          "x": 16765,
+          "y": 35398,
           "label": "This scheme is just for convenience."
         },
         "indx1_252": {
           "id": "indx1_252",
-          "x": 16557,
-          "y": 33410,
+          "x": 16728,
+          "y": 35645,
           "label": "This page is \"index.html\""
         },
         "indx1_253": {
           "id": "indx1_253",
-          "x": 16769,
-          "y": 33411,
+          "x": 16940,
+          "y": 35646,
           "label": "It purpose is to be \"main page\"",
           "shape": "box",
           "link": "",
@@ -2253,32 +2253,32 @@ var schemeData =
         },
         "indx1_254": {
           "id": "indx1_254",
-          "x": 16659,
-          "y": 33321,
+          "x": 16830,
+          "y": 35556,
           "label": "Each big node with page name contains link to this page."
         },
         "indx1_255": {
           "id": "indx1_255",
-          "x": 16946,
-          "y": 33319,
+          "x": 17117,
+          "y": 35554,
           "label": "How to use this links?"
         },
         "indx1_256": {
           "id": "indx1_256",
-          "x": 17106,
-          "y": 33318,
+          "x": 17277,
+          "y": 35553,
           "label": "1) Select big node"
         },
         "indx1_257": {
           "id": "indx1_257",
-          "x": 17219,
-          "y": 33354,
+          "x": 17390,
+          "y": 35589,
           "label": "2) Click openLinkButton - blue button on the left menu"
         },
         "indx1_258": {
           "id": "indx1_258",
-          "x": 16931,
-          "y": 33164,
+          "x": 17102,
+          "y": 35399,
           "label": "It is easy to select big nodes with pages links from bird view.",
           "shape": "box",
           "link": "",
@@ -2322,8 +2322,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "code.html",
           "id": "indx1_259",
-          "x": 21716,
-          "y": 6200,
+          "x": 21863,
+          "y": 2624,
           "shape": "box",
           "link": "code.html",
           "borderWidth": ""
@@ -2358,8 +2358,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "engineering.html",
           "id": "indx1_260",
-          "x": 23244,
-          "y": 8156,
+          "x": 23391,
+          "y": 4374,
           "shape": "box",
           "link": "engineering.html",
           "borderWidth": ""
@@ -2394,8 +2394,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news1.html",
           "id": "indx1_261",
-          "x": 22077,
-          "y": 10060,
+          "x": 22224,
+          "y": 6124,
           "shape": "box",
           "link": "news1.html",
           "borderWidth": ""
@@ -2430,8 +2430,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news2.html",
           "id": "indx1_262",
-          "x": 22077,
-          "y": 11989,
+          "x": 22224,
+          "y": 7874,
           "shape": "box",
           "link": "news2.html",
           "borderWidth": ""
@@ -2786,8 +2786,8 @@ var schemeData =
         },
         "indx1_275": {
           "id": "indx1_275",
-          "x": 22077,
-          "y": 13800,
+          "x": 22224,
+          "y": 9624,
           "label": "news3.html",
           "shape": "box",
           "link": "news3.html",
@@ -2829,8 +2829,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "timelines.html",
           "id": "indx1_276",
-          "x": 22596,
-          "y": 26275,
+          "x": 22751,
+          "y": 28874,
           "shape": "box",
           "link": "timelines.html",
           "borderWidth": ""
@@ -2863,8 +2863,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news4.html",
           "id": "indx1_277",
-          "x": 22077,
-          "y": 15650,
+          "x": 22224,
+          "y": 11374,
           "shape": "box",
           "link": "news4.html",
           "borderWidth": ""
@@ -2899,8 +2899,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "nature.html",
           "id": "indx1_278",
-          "x": 22041,
-          "y": 24525,
+          "x": 22196,
+          "y": 27124,
           "shape": "box",
           "link": "nature.html",
           "borderWidth": ""
@@ -4640,8 +4640,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news5.html",
           "id": "indx1_328",
-          "x": 22068,
-          "y": 17572,
+          "x": 22224,
+          "y": 14874,
           "shape": "box",
           "link": "news5.html",
           "borderWidth": ""
@@ -4676,8 +4676,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news51.html",
           "id": "indx1_329",
-          "x": 22346,
-          "y": 19381,
+          "x": 22502,
+          "y": 16624,
           "shape": "box",
           "link": "news51.html",
           "borderWidth": "",
@@ -4713,8 +4713,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "java-api.html",
           "id": "indx1_330",
-          "x": 22374,
-          "y": 29876,
+          "x": 22529,
+          "y": 32374,
           "shape": "box",
           "link": "java-api.html",
           "borderWidth": "",
@@ -4750,8 +4750,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "sa1.html",
           "id": "indx1_331",
-          "x": 21429,
-          "y": 31681,
+          "x": 21585,
+          "y": 34124,
           "shape": "box",
           "link": "sa1.html",
           "borderWidth": "",
@@ -4787,8 +4787,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "java.html",
           "id": "indx1_332",
-          "x": 21540,
-          "y": 28118,
+          "x": 21696,
+          "y": 30624,
           "shape": "box",
           "link": "java.html",
           "borderWidth": "",
@@ -4824,8 +4824,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "news61.html",
           "id": "indx1_333",
-          "x": 22346,
-          "y": 22803,
+          "x": 22502,
+          "y": 21874,
           "shape": "box",
           "link": "news61.html",
           "borderWidth": "",
@@ -4861,12 +4861,160 @@ var schemeData =
           "shapeProperties": {},
           "label": "news6.html",
           "id": "indx1_334",
-          "x": 22068,
-          "y": 21094,
+          "x": 22224,
+          "y": 20124,
           "shape": "box",
           "link": "news6.html",
           "borderWidth": "",
           "oldId": "indx1_277"
+        },
+        "indx1_213c0": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "youtube1.html",
+          "id": "indx1_213c0",
+          "x": 22836,
+          "y": 23624,
+          "shape": "box",
+          "link": "youtube1.html",
+          "borderWidth": "",
+          "oldId": "indx1_213"
+        },
+        "indx1_213c1": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "youtube2.html",
+          "id": "indx1_213c1",
+          "x": 22836,
+          "y": 25374,
+          "shape": "box",
+          "link": "youtube2.html",
+          "borderWidth": "",
+          "oldId": "indx1_213"
+        },
+        "indx1_213c1c0": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "news41.html",
+          "id": "indx1_213c1c0",
+          "x": 22502,
+          "y": 13124,
+          "shape": "box",
+          "link": "news41.html",
+          "borderWidth": "",
+          "oldId": "indx1_213c1"
+        },
+        "indx1_213c1c1": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "news52.html",
+          "id": "indx1_213c1c1",
+          "x": 22502,
+          "y": 18374,
+          "shape": "box",
+          "link": "news52.html",
+          "borderWidth": "",
+          "oldId": "indx1_213c1"
         }
       },
       "length": 0,
@@ -9290,6 +9438,121 @@ var schemeData =
           "id": "indx1_849",
           "from": "e471ec0c-362c-4f2b-b7c4-2841070254dfc1",
           "to": "indx1_334"
+        },
+        "indx1_726c0": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_726c0",
+          "from": "indx1_227c0",
+          "to": "indx1_213c0"
+        },
+        "indx1_726c1": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_726c1",
+          "from": "indx1_227c1",
+          "to": "indx1_213c1"
+        },
+        "indx1_1163": {
+          "from": "indx1_227",
+          "to": "indx1_213c0",
+          "id": "indx1_1163"
+        },
+        "indx1_1164": {
+          "from": "indx1_227",
+          "to": "indx1_213c1",
+          "id": "indx1_1164"
+        },
+        "indx1_1165": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_1165",
+          "from": "indx1_227c0",
+          "to": "indx1_213c1c0"
+        },
+        "indx1_1166": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_1166",
+          "from": "indx1_227c1",
+          "to": "indx1_213c1c1"
+        },
+        "indx1_1167": {
+          "from": "indx1_227",
+          "to": "indx1_213c1c0",
+          "id": "indx1_1167"
         }
       },
       "length": 0,
@@ -9337,10 +9600,10 @@ var schemeData =
   },
   "dataCash": {},
   "setup": {
-    "scale": 0.0167,
+    "scale": 0.014586210481898362,
     "viewPosition": {
-      "x": 15702.999999041926,
-      "y": 7380.000004850302
+      "x": 13780.145923025051,
+      "y": 9753.745858495764
     }
   }
 }
