@@ -464,6 +464,13 @@ function getNewsItemDataLink(elem) {
               linkHref.textContent.trim() != "") {
       linkLine = linkHref.textContent.trim();
    }
+
+   //For dzone.com
+   if (typeof link !== "undefined" && 
+              link !== null &&
+              link.textContent.trim().match(/dzone.com\/articles/) != null) {
+      linkLine = link.textContent.trim();
+   }
    
    if (linkLine == "") {
       linkLine = elem.toString().split("\n").join("").replace("<!--","").replace("-->","");
@@ -568,7 +575,7 @@ function getNewsItemData(item, channelNode) {
    var title = getNewsItemDataTitle(item);
    var summaryTextNodeLabel = getNewsItemDataSummaryTextNodeLabel(item);
    var dateLine = getNewsItemDataDateLine(item);
-   if (typeof linkLine !== "undefined") linkLine = linkLine.replace("gen.lib.rus.ec","libgen.is");
+   if (typeof linkLine !== "undefined") linkLine = linkLine.replace("gen.lib.rus.ec","libgen.rs");
    if (channelNode.label == "Libgen | Feed Node") {
       result = summaryTextNodeLabel.match(/Date Added:<\/font><\/td><td>(.*?)<\/td>/);
       if (result != null) dateLine = result[1];
@@ -966,6 +973,7 @@ app.get("/getAllNews", function(request, response){
       treeNodes.forEach(function(node) {
          if (newsData.youtubeDownload) {
             if (typeof node.link !== "undefined" && 
+                node.label.endsWith(" - YouTube") &&
                 node.link.match(/.*youtube.*videos.*/) != null) {
                newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};
                newsData.newsFilesData[dataFileName].channelsNodes.push(node);
@@ -1068,9 +1076,10 @@ app.get("/getSavedNewsData", function(req, res){
    var currentWorkNewsDataDatesList = currentWorkNewsDataDates.split("\n");
    var currentWorkNewsDataDatesListFiltered = [];
    for (var i in currentWorkNewsDataDatesList) {
-      if ((currentWorkNewsDataDatesList[i].lastIndexOf("#", 0) !== 0) && 
-          (currentWorkNewsDataDatesList[i].trim() != "")) {
-         var dateLine = currentWorkNewsDataDatesList[i].replace(/#.*/g, "");
+      var line = currentWorkNewsDataDatesList[i].trim();
+      if ((line.lastIndexOf("#", 0) !== 0) && 
+          (line != "")) {
+         var dateLine = line.replace(/#.*/g, "");
          currentWorkNewsDataDatesListFiltered.push(dateLine);
       }
    }
@@ -1087,13 +1096,15 @@ app.get("/getSavedNewsData", function(req, res){
    var newsData = {};
 
    for (var i in currentWorkNewsDataDatesListFiltered) {
+      var dirDateLine = currentWorkNewsDataDatesListFiltered[i].trim();
+      var fileDateLine = currentWorkNewsDataDatesListFiltered[i].trim().replace(" y", "");
       var workNewsDataPath = "/home/mike/progr/repo/mm-vis-js/utils/newsDownloadedData/" +
-                          "newsDownloadedData_" + currentWorkNewsDataDatesListFiltered[i] + 
-                          "/newsDownloadedData_" + currentWorkNewsDataDatesListFiltered[i] + ".json";
+                          "newsDownloadedData_" + dirDateLine + 
+                          "/newsDownloadedData_" + fileDateLine + ".json";
 
       console.log("workNewsDataPath: " + workNewsDataPath);
 
-      newsData[currentWorkNewsDataDatesListFiltered[i]] = JSON.parse(fs.readFileSync(workNewsDataPath, 'utf8').trim());
+      newsData[fileDateLine] = JSON.parse(fs.readFileSync(workNewsDataPath, 'utf8').trim());
    }
 
    var data = JSON.stringify(newsData);
@@ -1288,6 +1299,13 @@ for (var fileName in filesData) {
 
 var answerLine = JSON.stringify("done");
 response.send(answerLine);
+
+});
+app.get("/test", function(req, res){
+   res.set('Access-Control-Allow-Origin', '*');
+
+   var data = JSON.stringify("Test done.");
+   res.send(data);
 
 });
 app.listen(port, host);
