@@ -1979,7 +1979,7 @@ var schemeData =
         "indx1_200": {
           "label": "jQuery",
           "x": 92833,
-          "y": 5197,
+          "y": 5811,
           "font": {
             "size": 72,
             "align": "left"
@@ -1996,151 +1996,151 @@ var schemeData =
         "indx1_201": {
           "label": "Development",
           "x": 93133,
-          "y": 5647,
+          "y": 6261,
           "id": "indx1_201"
         },
         "indx1_202": {
           "label": "11/30/2019",
           "x": 93266,
-          "y": 5647,
+          "y": 6261,
           "id": "indx1_202"
         },
         "indx1_203": {
           "label": "init",
           "x": 93383,
-          "y": 5647,
+          "y": 6261,
           "id": "indx1_203"
         },
         "indx1_204": {
           "label": "Notes",
           "x": 93109,
-          "y": 4797,
+          "y": 5411,
           "id": "indx1_204"
         },
         "indx1_205": {
           "label": "Dictionary of\nconcepts",
           "x": 93394,
-          "y": 1716,
+          "y": 2245,
           "id": "indx1_205"
         },
         "indx1_206": {
           "label": "Details, thoughts",
           "x": 93283,
-          "y": 4797,
+          "y": 5411,
           "id": "indx1_206"
         },
         "indx1_207": {
           "label": "Sections",
           "x": 93257,
-          "y": 5047,
+          "y": 5661,
           "id": "indx1_207"
         },
         "indx1_208": {
           "label": "Books",
           "x": 93347,
-          "y": 4897,
+          "y": 5511,
           "id": "indx1_208"
         },
         "indx1_209": {
           "label": "R&D institutions",
           "x": 93377,
-          "y": 4922,
+          "y": 5536,
           "id": "indx1_209"
         },
         "indx1_210": {
           "label": "Sites",
           "x": 93343,
-          "y": 4947,
+          "y": 5561,
           "id": "indx1_210"
         },
         "indx1_211": {
           "label": "Magazines",
           "x": 93362,
-          "y": 4972,
+          "y": 5586,
           "id": "indx1_211"
         },
         "indx1_212": {
           "label": "Articles",
           "x": 93350,
-          "y": 4997,
+          "y": 5611,
           "id": "indx1_212"
         },
         "indx1_213": {
           "label": "Media content",
           "x": 93372,
-          "y": 5022,
+          "y": 5636,
           "id": "indx1_213"
         },
         "indx1_214": {
           "label": "Misc. web links",
           "x": 93375,
-          "y": 5047,
+          "y": 5661,
           "id": "indx1_214"
         },
         "indx1_215": {
           "label": "Projects",
           "x": 93353,
-          "y": 5072,
+          "y": 5686,
           "id": "indx1_215"
         },
         "indx1_216": {
           "label": "Tools",
           "x": 93344,
-          "y": 5097,
+          "y": 5711,
           "id": "indx1_216"
         },
         "indx1_217": {
           "label": "Organizations",
           "x": 93371,
-          "y": 5122,
+          "y": 5736,
           "id": "indx1_217"
         },
         "indx1_218": {
           "label": "Standarts",
           "x": 93358,
-          "y": 5147,
+          "y": 5761,
           "id": "indx1_218"
         },
         "indx1_219": {
           "label": "Forums, Groups",
           "x": 93379,
-          "y": 5172,
+          "y": 5786,
           "id": "indx1_219"
         },
         "indx1_220": {
           "label": "Laws",
           "x": 93344,
-          "y": 5197,
+          "y": 5811,
           "id": "indx1_220"
         },
         "indx1_221": {
           "label": "Adjacent Themes",
           "x": 93383,
-          "y": 5222,
+          "y": 5836,
           "id": "indx1_221"
         },
         "indx1_222": {
           "label": "Questions",
           "x": 93123,
-          "y": 5347,
+          "y": 5961,
           "id": "indx1_222"
         },
         "indx1_223": {
           "label": "Problems",
           "x": 93121,
-          "y": 5447,
+          "y": 6061,
           "id": "indx1_223"
         },
         "indx1_224": {
           "label": "Goals",
           "x": 93109,
-          "y": 5547,
+          "y": 6161,
           "id": "indx1_224"
         },
         "indx1_225": {
           "id": "indx1_225",
           "x": 93888,
-          "y": 1715,
+          "y": 2244,
           "label": "Code Chunks"
         },
         "indx1_226": {
@@ -2269,7 +2269,7 @@ var schemeData =
         "indx1_229": {
           "label": "Methods",
           "link": "",
-          "x": 94232,
+          "x": 94231,
           "y": -161,
           "id": "indx1_229",
           "color": {
@@ -2557,7 +2557,7 @@ var schemeData =
           "label": "Array",
           "link": "",
           "x": 94221,
-          "y": 142,
+          "y": 458,
           "id": "indx1_236",
           "color": {
             "highlight": {
@@ -2598,7 +2598,7 @@ var schemeData =
           "label": "$(\"...\").filter(function() { return true });",
           "link": "",
           "x": 94488,
-          "y": 147,
+          "y": 463,
           "id": "indx1_237",
           "color": {
             "highlight": {
@@ -2639,7 +2639,7 @@ var schemeData =
           "label": "If true - value is skipped",
           "link": "",
           "x": 94744,
-          "y": 146,
+          "y": 462,
           "id": "indx1_238",
           "color": {
             "highlight": {
@@ -2679,8 +2679,8 @@ var schemeData =
         "indx1_239": {
           "label": "Iterate",
           "link": "",
-          "x": 94225,
-          "y": 238,
+          "x": 94224,
+          "y": 632,
           "id": "indx1_239",
           "color": {
             "highlight": {
@@ -2721,7 +2721,7 @@ var schemeData =
           "label": "Hash",
           "link": "",
           "x": 94387,
-          "y": 245,
+          "y": 639,
           "id": "indx1_240",
           "color": {
             "highlight": {
@@ -2762,7 +2762,7 @@ var schemeData =
           "label": "for (i in Object.keys(hashObj) { doSmth(obj[keys[i]]);",
           "link": "",
           "x": 94651,
-          "y": 227,
+          "y": 621,
           "id": "indx1_241",
           "color": {
             "highlight": {
@@ -2803,7 +2803,7 @@ var schemeData =
           "label": "$.each(hashObj, function(key, value) {...});",
           "link": "",
           "x": 94620,
-          "y": 266,
+          "y": 660,
           "id": "indx1_242",
           "color": {
             "highlight": {
@@ -2843,8 +2843,8 @@ var schemeData =
         "indx1_243": {
           "label": "$(document).ready()",
           "link": "",
-          "x": 94270,
-          "y": 359,
+          "x": 94269,
+          "y": 753,
           "id": "indx1_243",
           "color": {
             "highlight": {
@@ -2885,7 +2885,7 @@ var schemeData =
           "label": "$(document).ready(function() {\n   console.log(\"ready!\");\n});",
           "link": "",
           "x": 94468,
-          "y": 355,
+          "y": 749,
           "id": "indx1_244",
           "color": {
             "highlight": {
@@ -2925,8 +2925,8 @@ var schemeData =
         "indx1_245": {
           "label": "text()",
           "link": "",
-          "x": 94221,
-          "y": 421,
+          "x": 94220,
+          "y": 845,
           "id": "indx1_245",
           "color": {
             "highlight": {
@@ -2967,7 +2967,7 @@ var schemeData =
           "label": "someJQuyerObj.text() -> \"object text\"",
           "link": "",
           "x": 94489,
-          "y": 417,
+          "y": 841,
           "id": "indx1_246",
           "color": {
             "highlight": {
@@ -3008,7 +3008,7 @@ var schemeData =
           "label": "someJQueryObj.text(\"asdf\")",
           "link": "",
           "x": 94459,
-          "y": 441,
+          "y": 865,
           "id": "indx1_247",
           "color": {
             "highlight": {
@@ -3049,7 +3049,7 @@ var schemeData =
           "label": "val()",
           "link": "",
           "x": 94218,
-          "y": 499,
+          "y": 1352,
           "id": "indx1_248",
           "color": {
             "highlight": {
@@ -3090,7 +3090,7 @@ var schemeData =
           "label": "Use val() (e.q.) to get text from textarea",
           "link": "",
           "x": 94496,
-          "y": 489,
+          "y": 1342,
           "id": "indx1_249",
           "color": {
             "highlight": {
@@ -3131,7 +3131,7 @@ var schemeData =
           "label": "set textarea text with val(\"some text\")",
           "link": "",
           "x": 94488,
-          "y": 513,
+          "y": 1366,
           "id": "indx1_250",
           "color": {
             "highlight": {
@@ -3172,7 +3172,7 @@ var schemeData =
           "label": "tree traversal",
           "link": "",
           "x": 94246,
-          "y": 597,
+          "y": 1462,
           "id": "indx1_251",
           "color": {
             "highlight": {
@@ -3213,7 +3213,7 @@ var schemeData =
           "label": "parent",
           "link": "",
           "x": 94391,
-          "y": 552,
+          "y": 1417,
           "id": "indx1_252",
           "color": {
             "highlight": {
@@ -3254,7 +3254,7 @@ var schemeData =
           "label": "parents",
           "link": "",
           "x": 94395,
-          "y": 576,
+          "y": 1441,
           "id": "indx1_253",
           "color": {
             "highlight": {
@@ -3295,7 +3295,7 @@ var schemeData =
           "label": "first",
           "link": "",
           "x": 94382,
-          "y": 600,
+          "y": 1465,
           "id": "indx1_254",
           "color": {
             "highlight": {
@@ -3336,7 +3336,7 @@ var schemeData =
           "label": "last",
           "link": "",
           "x": 94382,
-          "y": 624,
+          "y": 1489,
           "id": "indx1_255",
           "color": {
             "highlight": {
@@ -3377,7 +3377,7 @@ var schemeData =
           "label": "find",
           "link": "",
           "x": 94382,
-          "y": 648,
+          "y": 1513,
           "id": "indx1_256",
           "color": {
             "highlight": {
@@ -3418,7 +3418,7 @@ var schemeData =
           "label": "ajax",
           "link": "",
           "x": 94217,
-          "y": 1045,
+          "y": 1942,
           "id": "indx1_257",
           "color": {
             "highlight": {
@@ -3459,7 +3459,7 @@ var schemeData =
           "label": "$.ajax({\n   method: \"GET\",\n   url: \"/somePath\",\n   context: document.body,\n   data: {name: \"Name\", location: \"Location\"}\n}).done(function(msg) {\n   jobData.html(\"New Job Data: \" + msg);\n});",
           "link": "",
           "x": 94510,
-          "y": 743,
+          "y": 1640,
           "id": "indx1_258",
           "color": {
             "highlight": {
@@ -3500,7 +3500,7 @@ var schemeData =
           "label": "$.ajax({method:\"GET\", url: \"/someUrl\", data: {name: \"SomeName\"}}).done(function(msg) {\n   console.log(msg);\n});",
           "link": "",
           "x": 94655,
-          "y": 835,
+          "y": 1732,
           "id": "indx1_259",
           "color": {
             "highlight": {
@@ -3541,7 +3541,7 @@ var schemeData =
           "label": "context",
           "link": "",
           "x": 94394,
-          "y": 879,
+          "y": 1776,
           "id": "indx1_260",
           "color": {
             "highlight": {
@@ -3582,7 +3582,7 @@ var schemeData =
           "label": "tag, which then can be used in done as $(this)",
           "link": "",
           "x": 94665,
-          "y": 887,
+          "y": 1784,
           "id": "indx1_261",
           "color": {
             "highlight": {
@@ -3623,7 +3623,7 @@ var schemeData =
           "label": "data",
           "link": "",
           "x": 94385,
-          "y": 927,
+          "y": 1824,
           "id": "indx1_262",
           "color": {
             "highlight": {
@@ -3664,7 +3664,7 @@ var schemeData =
           "label": "data to be sent to the server",
           "link": "",
           "x": 94608,
-          "y": 929,
+          "y": 1826,
           "id": "indx1_263",
           "color": {
             "highlight": {
@@ -3705,7 +3705,7 @@ var schemeData =
           "label": "dataType",
           "link": "",
           "x": 94400,
-          "y": 1014,
+          "y": 1911,
           "id": "indx1_264",
           "color": {
             "highlight": {
@@ -3746,7 +3746,7 @@ var schemeData =
           "label": "The type of data that you're expected back from the server",
           "link": "",
           "x": 94707,
-          "y": 974,
+          "y": 1871,
           "id": "indx1_265",
           "color": {
             "highlight": {
@@ -3787,7 +3787,7 @@ var schemeData =
           "label": "types\n",
           "link": "",
           "x": 94534,
-          "y": 1079,
+          "y": 1976,
           "id": "indx1_266",
           "color": {
             "highlight": {
@@ -3828,7 +3828,7 @@ var schemeData =
           "label": "xml",
           "link": "",
           "x": 94643,
-          "y": 1027,
+          "y": 1924,
           "id": "indx1_267",
           "color": {
             "highlight": {
@@ -3869,7 +3869,7 @@ var schemeData =
           "label": "html",
           "link": "",
           "x": 94646,
-          "y": 1051,
+          "y": 1948,
           "id": "indx1_268",
           "color": {
             "highlight": {
@@ -3910,7 +3910,7 @@ var schemeData =
           "label": "script",
           "link": "",
           "x": 94649,
-          "y": 1075,
+          "y": 1972,
           "id": "indx1_269",
           "color": {
             "highlight": {
@@ -3951,7 +3951,7 @@ var schemeData =
           "label": "json",
           "link": "",
           "x": 94645,
-          "y": 1099,
+          "y": 1996,
           "id": "indx1_270",
           "color": {
             "highlight": {
@@ -3992,7 +3992,7 @@ var schemeData =
           "label": "jsonp",
           "link": "",
           "x": 94649,
-          "y": 1123,
+          "y": 2020,
           "id": "indx1_271",
           "color": {
             "highlight": {
@@ -4033,7 +4033,7 @@ var schemeData =
           "label": "text",
           "link": "",
           "x": 94644,
-          "y": 1147,
+          "y": 2044,
           "id": "indx1_272",
           "color": {
             "highlight": {
@@ -4074,7 +4074,7 @@ var schemeData =
           "label": "multispace, space-separated values",
           "link": "",
           "x": 94746,
-          "y": 1171,
+          "y": 2068,
           "id": "indx1_273",
           "color": {
             "highlight": {
@@ -4115,7 +4115,7 @@ var schemeData =
           "label": "timeout",
           "link": "",
           "x": 94394,
-          "y": 1229,
+          "y": 2126,
           "id": "indx1_274",
           "color": {
             "highlight": {
@@ -4156,7 +4156,7 @@ var schemeData =
           "label": "millis",
           "link": "",
           "x": 94542,
-          "y": 1232,
+          "y": 2129,
           "id": "indx1_275",
           "color": {
             "highlight": {
@@ -4196,8 +4196,8 @@ var schemeData =
         "indx1_276": {
           "label": "var someVar = $(\"<p></p>\").text(\"some text\");",
           "link": "",
-          "x": 94349,
-          "y": 1280,
+          "x": 94348,
+          "y": 909,
           "id": "indx1_276",
           "color": {
             "highlight": {
@@ -4241,8 +4241,8 @@ var schemeData =
         "indx1_277": {
           "label": "var someVar = $(\"<p></p>\").html(\"some line\");",
           "link": "",
-          "x": 94350,
-          "y": 1304,
+          "x": 94349,
+          "y": 933,
           "id": "indx1_277",
           "color": {
             "highlight": {
@@ -4282,14 +4282,14 @@ var schemeData =
         "indx1_278": {
           "id": "indx1_278",
           "x": 94266,
-          "y": 1407,
+          "y": 1209,
           "label": "console.log(jQuery)"
         },
         "indx1_279": {
           "label": "check jQuery loaded",
           "link": "",
-          "x": 94466,
-          "y": 1407,
+          "x": 94436,
+          "y": 1209,
           "id": "indx1_279",
           "color": {
             "highlight": {
@@ -4329,8 +4329,8 @@ var schemeData =
         "indx1_280": {
           "label": "select",
           "link": "",
-          "x": 94244,
-          "y": 1671,
+          "x": 94222,
+          "y": 2432,
           "id": "indx1_280",
           "color": {
             "highlight": {
@@ -4371,7 +4371,7 @@ var schemeData =
           "label": "$(\".someClass\").filter(function() {\n   return new RegExp(\"^.*$\").test($(this).text());\n});",
           "link": "",
           "x": 94521,
-          "y": 1517,
+          "y": 2278,
           "id": "indx1_281",
           "color": {
             "highlight": {
@@ -4412,7 +4412,7 @@ var schemeData =
           "label": "selecte tags with text by regex",
           "link": "",
           "x": 94802,
-          "y": 1512,
+          "y": 2273,
           "id": "indx1_282",
           "color": {
             "highlight": {
@@ -4453,7 +4453,7 @@ var schemeData =
           "label": "$(\"div:contains('John')\")",
           "link": "",
           "x": 94448,
-          "y": 1593,
+          "y": 2354,
           "id": "indx1_283",
           "color": {
             "highlight": {
@@ -4494,7 +4494,7 @@ var schemeData =
           "label": "select tags with text which contains line \"John\"",
           "link": "",
           "x": 94764,
-          "y": 1590,
+          "y": 2351,
           "id": "indx1_284",
           "color": {
             "highlight": {
@@ -4535,7 +4535,7 @@ var schemeData =
           "label": "tr:first-child",
           "link": "",
           "x": 94408,
-          "y": 1639,
+          "y": 2400,
           "id": "indx1_285",
           "color": {
             "highlight": {
@@ -4576,7 +4576,7 @@ var schemeData =
           "label": "tr:first",
           "link": "",
           "x": 94391,
-          "y": 1663,
+          "y": 2424,
           "id": "indx1_286",
           "color": {
             "highlight": {
@@ -4617,7 +4617,7 @@ var schemeData =
           "label": "tr.eq(17)",
           "link": "",
           "x": 94400,
-          "y": 1687,
+          "y": 2448,
           "id": "indx1_287",
           "color": {
             "highlight": {
@@ -4658,7 +4658,7 @@ var schemeData =
           "label": "td[class^='className']",
           "link": "",
           "x": 94444,
-          "y": 1722,
+          "y": 2483,
           "id": "indx1_288",
           "color": {
             "highlight": {
@@ -4699,7 +4699,7 @@ var schemeData =
           "label": "class name starts with",
           "link": "",
           "x": 94630,
-          "y": 1723,
+          "y": 2484,
           "id": "indx1_289",
           "color": {
             "highlight": {
@@ -4740,7 +4740,7 @@ var schemeData =
           "label": "$(\"div, p, span\")",
           "link": "",
           "x": 94423,
-          "y": 1759,
+          "y": 2520,
           "id": "indx1_290",
           "color": {
             "highlight": {
@@ -4781,7 +4781,7 @@ var schemeData =
           "label": "select all object. Condition \"and\"",
           "link": "",
           "x": 94626,
-          "y": 1759,
+          "y": 2520,
           "id": "indx1_291",
           "color": {
             "highlight": {
@@ -4822,7 +4822,7 @@ var schemeData =
           "label": "find(\"td.mapName, td.link1\")",
           "link": "",
           "x": 94462,
-          "y": 1809,
+          "y": 2570,
           "id": "indx1_292",
           "color": {
             "highlight": {
@@ -4863,7 +4863,7 @@ var schemeData =
           "label": "to select tag with several classes like '<td class=\"mapName, link1\">'",
           "link": "",
           "x": 94798,
-          "y": 1809,
+          "y": 2570,
           "id": "indx1_293",
           "color": {
             "highlight": {
@@ -4904,7 +4904,7 @@ var schemeData =
           "label": "input[name1='a1'][name2='a2']",
           "link": "",
           "x": 94470,
-          "y": 1862,
+          "y": 2623,
           "id": "indx1_294",
           "color": {
             "highlight": {
@@ -4945,7 +4945,7 @@ var schemeData =
           "label": "<input name='a1' name2='a2'/>",
           "link": "",
           "x": 94714,
-          "y": 1861,
+          "y": 2622,
           "id": "indx1_295",
           "color": {
             "highlight": {
@@ -4985,8 +4985,8 @@ var schemeData =
         "indx1_296": {
           "label": "$(\"div\").find(\"span\");",
           "link": "",
-          "x": 94289,
-          "y": 1915,
+          "x": 94268,
+          "y": 2676,
           "id": "indx1_296",
           "color": {
             "highlight": {
@@ -5026,8 +5026,8 @@ var schemeData =
         "indx1_297": {
           "label": "append()",
           "link": "",
-          "x": 94254,
-          "y": 1949,
+          "x": 94233,
+          "y": 2710,
           "id": "indx1_297",
           "color": {
             "highlight": {
@@ -5067,8 +5067,8 @@ var schemeData =
         "indx1_298": {
           "label": ".after()",
           "link": "",
-          "x": 94247,
-          "y": 1987,
+          "x": 94225,
+          "y": 2748,
           "id": "indx1_298",
           "color": {
             "highlight": {
@@ -5109,7 +5109,7 @@ var schemeData =
           "label": "insert after object",
           "link": "",
           "x": 94523,
-          "y": 1980,
+          "y": 2741,
           "id": "indx1_299",
           "color": {
             "highlight": {
@@ -5149,8 +5149,8 @@ var schemeData =
         "indx1_300": {
           "label": "each(function() {...});",
           "link": "",
-          "x": 94291,
-          "y": 2025,
+          "x": 94269,
+          "y": 2786,
           "id": "indx1_300",
           "color": {
             "highlight": {
@@ -5190,8 +5190,8 @@ var schemeData =
         "indx1_301": {
           "label": "$(list.get().reverse());",
           "link": "",
-          "x": 94293,
-          "y": 2054,
+          "x": 94271,
+          "y": 2815,
           "id": "indx1_301",
           "color": {
             "highlight": {
@@ -5232,7 +5232,7 @@ var schemeData =
           "label": "mirror an array",
           "link": "",
           "x": 94515,
-          "y": 2046,
+          "y": 2807,
           "id": "indx1_302",
           "color": {
             "highlight": {
@@ -5272,8 +5272,8 @@ var schemeData =
         "indx1_303": {
           "label": "remove()",
           "link": "",
-          "x": 94254,
-          "y": 2107,
+          "x": 94233,
+          "y": 2868,
           "id": "indx1_303",
           "color": {
             "highlight": {
@@ -5314,7 +5314,7 @@ var schemeData =
           "label": "completely delete",
           "link": "",
           "x": 94523,
-          "y": 2101,
+          "y": 2862,
           "id": "indx1_304",
           "color": {
             "highlight": {
@@ -5354,8 +5354,8 @@ var schemeData =
         "indx1_305": {
           "label": "detach()",
           "link": "",
-          "x": 94252,
-          "y": 2155,
+          "x": 94230,
+          "y": 2916,
           "id": "indx1_305",
           "color": {
             "highlight": {
@@ -5396,7 +5396,7 @@ var schemeData =
           "label": "remove from DOM, but save as object. To place back if needed",
           "link": "",
           "x": 94667,
-          "y": 2147,
+          "y": 2908,
           "id": "indx1_306",
           "color": {
             "highlight": {
@@ -5436,8 +5436,8 @@ var schemeData =
         "indx1_307": {
           "label": "Sort",
           "link": "",
-          "x": 94238,
-          "y": 2230,
+          "x": 94217,
+          "y": 2991,
           "id": "indx1_307",
           "color": {
             "highlight": {
@@ -5478,7 +5478,7 @@ var schemeData =
           "label": "l = $(l.get().sort(function(a, b) {\n   return $(a).find(\"td:eq(17)\").text() > $(b).find(\"td:eq(17)\").text();}));",
           "link": "",
           "x": 94588,
-          "y": 2223,
+          "y": 2984,
           "id": "indx1_308",
           "color": {
             "highlight": {
@@ -5518,8 +5518,8 @@ var schemeData =
         "indx1_309": {
           "label": "attr()",
           "link": "",
-          "x": 94241,
-          "y": 2328,
+          "x": 94219,
+          "y": 3089,
           "id": "indx1_309",
           "color": {
             "highlight": {
@@ -5559,8 +5559,8 @@ var schemeData =
         "indx1_310": {
           "label": "css(\"background-color\", \"red\");",
           "link": "",
-          "x": 94323,
-          "y": 2373,
+          "x": 94424,
+          "y": 3133,
           "id": "indx1_310",
           "color": {
             "highlight": {
@@ -5600,8 +5600,8 @@ var schemeData =
         "indx1_311": {
           "label": "first()",
           "link": "",
-          "x": 94242,
-          "y": 2429,
+          "x": 94220,
+          "y": 3289,
           "id": "indx1_311",
           "color": {
             "highlight": {
@@ -5642,7 +5642,7 @@ var schemeData =
           "label": "take first item in array",
           "link": "",
           "x": 94426,
-          "y": 2438,
+          "y": 3298,
           "id": "indx1_312",
           "color": {
             "highlight": {
@@ -5682,8 +5682,8 @@ var schemeData =
         "indx1_313": {
           "label": "attr",
           "link": "",
-          "x": 94236,
-          "y": 2493,
+          "x": 94214,
+          "y": 3353,
           "id": "indx1_313",
           "color": {
             "highlight": {
@@ -5724,7 +5724,7 @@ var schemeData =
           "label": "attr(\"someAttributeName\")",
           "link": "",
           "x": 94441,
-          "y": 2489,
+          "y": 3349,
           "id": "indx1_314",
           "color": {
             "highlight": {
@@ -5765,7 +5765,7 @@ var schemeData =
           "label": "attr(\"someAttributeName\", \"attributeValue\")",
           "link": "",
           "x": 94494,
-          "y": 2513,
+          "y": 3373,
           "id": "indx1_315",
           "color": {
             "highlight": {
@@ -5805,8 +5805,8 @@ var schemeData =
         "indx1_316": {
           "label": "Events",
           "link": "",
-          "x": 94247,
-          "y": 2826,
+          "x": 94225,
+          "y": 3672,
           "id": "indx1_316",
           "color": {
             "highlight": {
@@ -5847,7 +5847,7 @@ var schemeData =
           "label": "Keyboard Events",
           "link": "",
           "x": 94412,
-          "y": 2823,
+          "y": 3669,
           "id": "indx1_317",
           "color": {
             "highlight": {
@@ -5888,7 +5888,7 @@ var schemeData =
           "label": "keydown()",
           "link": "",
           "x": 94566,
-          "y": 2705,
+          "y": 3551,
           "id": "indx1_318",
           "color": {
             "highlight": {
@@ -5929,7 +5929,7 @@ var schemeData =
           "label": "keydown(e)",
           "link": "",
           "x": 94690,
-          "y": 2628,
+          "y": 3474,
           "id": "indx1_319",
           "color": {
             "highlight": {
@@ -5970,7 +5970,7 @@ var schemeData =
           "label": "e.shiftKey",
           "link": "",
           "x": 94879,
-          "y": 2585,
+          "y": 3431,
           "id": "indx1_320",
           "color": {
             "highlight": {
@@ -6011,7 +6011,7 @@ var schemeData =
           "label": "e.keyCode",
           "link": "",
           "x": 94882,
-          "y": 2609,
+          "y": 3455,
           "id": "indx1_321",
           "color": {
             "highlight": {
@@ -6052,7 +6052,7 @@ var schemeData =
           "label": "e.altKey",
           "link": "",
           "x": 94873,
-          "y": 2633,
+          "y": 3479,
           "id": "indx1_322",
           "color": {
             "highlight": {
@@ -6093,7 +6093,7 @@ var schemeData =
           "label": "e.ctrlKey",
           "link": "",
           "x": 94875,
-          "y": 2657,
+          "y": 3503,
           "id": "indx1_323",
           "color": {
             "highlight": {
@@ -6138,7 +6138,7 @@ var schemeData =
           "label": "e.metaKey",
           "link": "",
           "x": 94882,
-          "y": 2681,
+          "y": 3527,
           "id": "indx1_324",
           "color": {
             "highlight": {
@@ -6183,7 +6183,7 @@ var schemeData =
           "label": "kepress()",
           "link": "",
           "x": 94561,
-          "y": 2943,
+          "y": 3789,
           "id": "indx1_325",
           "color": {
             "highlight": {
@@ -6224,7 +6224,7 @@ var schemeData =
           "label": "don't catch shitfKey etc.",
           "link": "",
           "x": 94724,
-          "y": 2943,
+          "y": 3789,
           "id": "indx1_326",
           "color": {
             "highlight": {
@@ -6265,7 +6265,7 @@ var schemeData =
           "label": "keyup()",
           "link": "",
           "x": 94555,
-          "y": 2987,
+          "y": 3833,
           "id": "indx1_327",
           "color": {
             "highlight": {
@@ -7002,8 +7002,8 @@ var schemeData =
         "indx1_345": {
           "label": "Libraries",
           "link": "",
-          "x": 94253,
-          "y": 3085,
+          "x": 94231,
+          "y": 3931,
           "id": "indx1_345",
           "color": {
             "highlight": {
@@ -7044,7 +7044,7 @@ var schemeData =
           "label": "Backbone.js",
           "link": "",
           "x": 94396,
-          "y": 3076,
+          "y": 3922,
           "id": "indx1_346",
           "color": {
             "highlight": {
@@ -7085,7 +7085,7 @@ var schemeData =
           "label": "Underscore.js",
           "link": "",
           "x": 94402,
-          "y": 3101,
+          "y": 3947,
           "id": "indx1_347",
           "color": {
             "highlight": {
@@ -7125,14 +7125,14 @@ var schemeData =
         "indx1_348": {
           "id": "indx1_348",
           "x": 94868,
-          "y": 2716,
+          "y": 3562,
           "label": "e.type"
         },
         "indx1_349": {
           "label": "text()",
           "link": "",
-          "x": 94242,
-          "y": 3161,
+          "x": 94220,
+          "y": 971,
           "id": "indx1_349",
           "color": {
             "highlight": {
@@ -7172,8 +7172,8 @@ var schemeData =
         "indx1_350": {
           "label": "prependTo()",
           "link": "",
-          "x": 94264,
-          "y": 3203,
+          "x": 94243,
+          "y": 4073,
           "id": "indx1_350",
           "color": {
             "highlight": {
@@ -7213,8 +7213,8 @@ var schemeData =
         "indx1_351": {
           "label": "prepend()",
           "link": "",
-          "x": 94257,
-          "y": 3249,
+          "x": 94235,
+          "y": 4119,
           "id": "indx1_351",
           "color": {
             "highlight": {
@@ -7254,8 +7254,8 @@ var schemeData =
         "indx1_352": {
           "label": "appendTo()",
           "link": "",
-          "x": 94262,
-          "y": 3294,
+          "x": 94240,
+          "y": 4164,
           "id": "indx1_352",
           "color": {
             "highlight": {
@@ -7295,8 +7295,8 @@ var schemeData =
         "indx1_353": {
           "label": "append()",
           "link": "",
-          "x": 94254,
-          "y": 3339,
+          "x": 94233,
+          "y": 4209,
           "id": "indx1_353",
           "color": {
             "highlight": {
@@ -7336,8 +7336,8 @@ var schemeData =
         "indx1_354": {
           "label": "html()",
           "link": "",
-          "x": 94244,
-          "y": 3390,
+          "x": 94222,
+          "y": 1013,
           "id": "indx1_354",
           "color": {
             "highlight": {
@@ -7377,8 +7377,8 @@ var schemeData =
         "indx1_355": {
           "label": "Set the HTML contents of each element in the set of matched elements",
           "link": "",
-          "x": 94584,
-          "y": 3398,
+          "x": 94596,
+          "y": 1013,
           "id": "indx1_355",
           "color": {
             "highlight": {
@@ -7418,8 +7418,8 @@ var schemeData =
         "indx1_356": {
           "label": "empty()",
           "link": "",
-          "x": 94250,
-          "y": 3473,
+          "x": 94228,
+          "y": 4319,
           "id": "indx1_356",
           "color": {
             "highlight": {
@@ -7460,7 +7460,7 @@ var schemeData =
           "label": "opposite to attach()",
           "link": "",
           "x": 94420,
-          "y": 3474,
+          "y": 4320,
           "id": "indx1_357",
           "color": {
             "highlight": {
@@ -7500,8 +7500,8 @@ var schemeData =
         "indx1_358": {
           "label": "trigger()",
           "link": "",
-          "x": 94251,
-          "y": 3542,
+          "x": 94229,
+          "y": 4388,
           "id": "indx1_358",
           "color": {
             "highlight": {
@@ -7541,8 +7541,8 @@ var schemeData =
         "indx1_359": {
           "label": "toggleClass()",
           "link": "",
-          "x": 94267,
-          "y": 3607,
+          "x": 94246,
+          "y": 4453,
           "id": "indx1_359",
           "color": {
             "highlight": {
@@ -7582,8 +7582,8 @@ var schemeData =
         "indx1_360": {
           "label": "parents()",
           "link": "",
-          "x": 94254,
-          "y": 3672,
+          "x": 94233,
+          "y": 4518,
           "id": "indx1_360",
           "color": {
             "highlight": {
@@ -7623,8 +7623,8 @@ var schemeData =
         "indx1_361": {
           "label": "parent()",
           "link": "",
-          "x": 94251,
-          "y": 3729,
+          "x": 94229,
+          "y": 4575,
           "id": "indx1_361",
           "color": {
             "highlight": {
@@ -7664,8 +7664,8 @@ var schemeData =
         "indx1_362": {
           "label": "on()",
           "link": "",
-          "x": 94238,
-          "y": 3784,
+          "x": 94217,
+          "y": 4630,
           "id": "indx1_362",
           "color": {
             "highlight": {
@@ -7705,8 +7705,8 @@ var schemeData =
         "indx1_363": {
           "label": "removeClass()",
           "link": "",
-          "x": 94272,
-          "y": 3846,
+          "x": 94250,
+          "y": 4692,
           "id": "indx1_363",
           "color": {
             "highlight": {
@@ -7751,7 +7751,7 @@ var schemeData =
           "label": "remove object css class",
           "link": "",
           "x": 94433,
-          "y": 3851,
+          "y": 4697,
           "id": "indx1_364",
           "color": {
             "highlight": {
@@ -7791,8 +7791,8 @@ var schemeData =
         "indx1_365": {
           "label": "addClass()",
           "link": "",
-          "x": 94260,
-          "y": 3901,
+          "x": 94238,
+          "y": 4747,
           "id": "indx1_365",
           "color": {
             "highlight": {
@@ -7833,7 +7833,7 @@ var schemeData =
           "label": "add css class to object",
           "link": "",
           "x": 94429,
-          "y": 3909,
+          "y": 4755,
           "id": "indx1_366",
           "color": {
             "highlight": {
@@ -7873,8 +7873,8 @@ var schemeData =
         "indx1_367": {
           "label": "blur()",
           "link": "",
-          "x": 94242,
-          "y": 3971,
+          "x": 94221,
+          "y": 4817,
           "id": "indx1_367",
           "color": {
             "highlight": {
@@ -7915,7 +7915,7 @@ var schemeData =
           "label": "remove focus",
           "link": "",
           "x": 94401,
-          "y": 3978,
+          "y": 4824,
           "id": "indx1_368",
           "color": {
             "highlight": {
@@ -7955,8 +7955,8 @@ var schemeData =
         "indx1_369": {
           "label": "focus()",
           "link": "",
-          "x": 94247,
-          "y": 4033,
+          "x": 94226,
+          "y": 4879,
           "id": "indx1_369",
           "color": {
             "highlight": {
@@ -7997,7 +7997,7 @@ var schemeData =
           "label": "set focus",
           "link": "",
           "x": 94386,
-          "y": 4033,
+          "y": 4879,
           "id": "indx1_370",
           "color": {
             "highlight": {
@@ -8120,7 +8120,7 @@ var schemeData =
           "label": "$(document).keydown(function(e) {\n   console.log(e.which + \" \" + e.ctrlKey +\n      e.shiftKey + \" \" +\n      e.altKey + \" \" +\n      e.metaKey);\n});",
           "link": "",
           "x": 94785,
-          "y": 2790,
+          "y": 3636,
           "id": "indx1_373",
           "color": {
             "highlight": {
@@ -8160,7 +8160,7 @@ var schemeData =
         "indx1_374": {
           "id": "indx1_374",
           "x": 94784,
-          "y": 2624,
+          "y": 3470,
           "label": "e"
         },
         "indx1_375": {
@@ -8202,7 +8202,7 @@ var schemeData =
         "indx1_376": {
           "label": "jQuery-ui",
           "x": 93689,
-          "y": 7409,
+          "y": 8427,
           "font": {
             "size": 72,
             "align": "left"
@@ -8219,158 +8219,158 @@ var schemeData =
         "indx1_377": {
           "label": "Development",
           "x": 94074,
-          "y": 7920,
+          "y": 8938,
           "id": "indx1_377"
         },
         "indx1_378": {
           "label": "11/30/2019",
           "x": 94207,
-          "y": 7920,
+          "y": 8938,
           "id": "indx1_378"
         },
         "indx1_379": {
           "label": "init",
           "x": 94324,
-          "y": 7920,
+          "y": 8938,
           "id": "indx1_379"
         },
         "indx1_380": {
           "label": "Notes",
           "x": 94050,
-          "y": 7070,
+          "y": 8088,
           "id": "indx1_380"
         },
         "indx1_381": {
           "label": "Dictionary of\nconcepts",
           "x": 94214,
-          "y": 6591,
+          "y": 7609,
           "id": "indx1_381"
         },
         "indx1_382": {
           "label": "Details, thoughts",
           "x": 94224,
-          "y": 7070,
+          "y": 8088,
           "id": "indx1_382"
         },
         "indx1_383": {
           "label": "Sections",
           "x": 94198,
-          "y": 7320,
+          "y": 8338,
           "id": "indx1_383"
         },
         "indx1_384": {
           "label": "Books",
           "x": 94288,
-          "y": 7170,
+          "y": 8188,
           "id": "indx1_384"
         },
         "indx1_385": {
           "label": "R&D institutions",
           "x": 94318,
-          "y": 7195,
+          "y": 8213,
           "id": "indx1_385"
         },
         "indx1_386": {
           "label": "Sites",
           "x": 94284,
-          "y": 7220,
+          "y": 8238,
           "id": "indx1_386"
         },
         "indx1_387": {
           "label": "Magazines",
           "x": 94303,
-          "y": 7245,
+          "y": 8263,
           "id": "indx1_387"
         },
         "indx1_388": {
           "label": "Articles",
           "x": 94291,
-          "y": 7270,
+          "y": 8288,
           "id": "indx1_388"
         },
         "indx1_389": {
           "label": "Media content",
           "x": 94313,
-          "y": 7295,
+          "y": 8313,
           "id": "indx1_389"
         },
         "indx1_390": {
           "label": "Misc. web links",
           "x": 94316,
-          "y": 7320,
+          "y": 8338,
           "id": "indx1_390"
         },
         "indx1_391": {
           "label": "Projects",
           "x": 94294,
-          "y": 7345,
+          "y": 8363,
           "id": "indx1_391"
         },
         "indx1_392": {
           "label": "Tools",
           "x": 94285,
-          "y": 7370,
+          "y": 8388,
           "id": "indx1_392"
         },
         "indx1_393": {
           "label": "Organizations",
           "x": 94312,
-          "y": 7395,
+          "y": 8413,
           "id": "indx1_393"
         },
         "indx1_394": {
           "label": "Standarts",
           "x": 94299,
-          "y": 7420,
+          "y": 8438,
           "id": "indx1_394"
         },
         "indx1_395": {
           "label": "Forums, Groups",
           "x": 94320,
-          "y": 7445,
+          "y": 8463,
           "id": "indx1_395"
         },
         "indx1_396": {
           "label": "Laws",
           "x": 94285,
-          "y": 7470,
+          "y": 8488,
           "id": "indx1_396"
         },
         "indx1_397": {
           "label": "Adjacent Themes",
           "x": 94324,
-          "y": 7495,
+          "y": 8513,
           "id": "indx1_397"
         },
         "indx1_398": {
           "label": "Questions",
           "x": 94064,
-          "y": 7620,
+          "y": 8638,
           "id": "indx1_398"
         },
         "indx1_399": {
           "label": "Problems",
           "x": 94062,
-          "y": 7720,
+          "y": 8738,
           "id": "indx1_399"
         },
         "indx1_400": {
           "label": "Goals",
           "x": 94050,
-          "y": 7820,
+          "y": 8838,
           "id": "indx1_400"
         },
         "indx1_401": {
           "id": "indx1_401",
           "x": 94411,
-          "y": 6561,
+          "y": 7579,
           "label": "dateFormat"
         },
         "indx1_402": {
           "label": "$(\".selector\").datepicker({\n   dateFormat: \"yy-mm-dd\"\n});",
           "link": "",
           "x": 94610,
-          "y": 6563,
+          "y": 7581,
           "id": "indx1_402",
           "color": {
             "highlight": {
@@ -8442,7 +8442,7 @@ var schemeData =
           "label": "jQuery-ui",
           "id": "indx1_403",
           "x": 98006,
-          "y": 7028,
+          "y": 8046,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8450,7 +8450,7 @@ var schemeData =
         "indx1_404": {
           "label": "AJAX",
           "x": 94111,
-          "y": 10120,
+          "y": 11138,
           "font": {
             "size": 72,
             "align": "left"
@@ -8467,158 +8467,158 @@ var schemeData =
         "indx1_405": {
           "label": "Development",
           "x": 94411,
-          "y": 10569,
+          "y": 11587,
           "id": "indx1_405"
         },
         "indx1_406": {
           "label": "12/1/2019",
           "x": 94540,
-          "y": 10569,
+          "y": 11587,
           "id": "indx1_406"
         },
         "indx1_407": {
           "label": "init",
           "x": 94661,
-          "y": 10569,
+          "y": 11587,
           "id": "indx1_407"
         },
         "indx1_408": {
           "label": "Notes",
           "x": 94387,
-          "y": 9720,
+          "y": 10738,
           "id": "indx1_408"
         },
         "indx1_409": {
           "label": "Dictionary of\nconcepts",
           "x": 94563,
-          "y": 9304,
+          "y": 10322,
           "id": "indx1_409"
         },
         "indx1_410": {
           "label": "Details, thoughts",
           "x": 94561,
-          "y": 9720,
+          "y": 10738,
           "id": "indx1_410"
         },
         "indx1_411": {
           "label": "Sections",
           "x": 94535,
-          "y": 9970,
+          "y": 10988,
           "id": "indx1_411"
         },
         "indx1_412": {
           "label": "Books",
           "x": 94625,
-          "y": 9820,
+          "y": 10838,
           "id": "indx1_412"
         },
         "indx1_413": {
           "label": "R&D institutions",
           "x": 94655,
-          "y": 9845,
+          "y": 10863,
           "id": "indx1_413"
         },
         "indx1_414": {
           "label": "Sites",
           "x": 94621,
-          "y": 9870,
+          "y": 10888,
           "id": "indx1_414"
         },
         "indx1_415": {
           "label": "Magazines",
           "x": 94640,
-          "y": 9895,
+          "y": 10913,
           "id": "indx1_415"
         },
         "indx1_416": {
           "label": "Articles",
           "x": 94628,
-          "y": 9920,
+          "y": 10938,
           "id": "indx1_416"
         },
         "indx1_417": {
           "label": "Media content",
           "x": 94650,
-          "y": 9945,
+          "y": 10963,
           "id": "indx1_417"
         },
         "indx1_418": {
           "label": "Misc. web links",
           "x": 94653,
-          "y": 9970,
+          "y": 10988,
           "id": "indx1_418"
         },
         "indx1_419": {
           "label": "Projects",
           "x": 94631,
-          "y": 9995,
+          "y": 11013,
           "id": "indx1_419"
         },
         "indx1_420": {
           "label": "Tools",
           "x": 94622,
-          "y": 10020,
+          "y": 11038,
           "id": "indx1_420"
         },
         "indx1_421": {
           "label": "Organizations",
           "x": 94649,
-          "y": 10045,
+          "y": 11063,
           "id": "indx1_421"
         },
         "indx1_422": {
           "label": "Standarts",
           "x": 94636,
-          "y": 10070,
+          "y": 11088,
           "id": "indx1_422"
         },
         "indx1_423": {
           "label": "Forums, Groups",
           "x": 94657,
-          "y": 10095,
+          "y": 11113,
           "id": "indx1_423"
         },
         "indx1_424": {
           "label": "Laws",
           "x": 94622,
-          "y": 10120,
+          "y": 11138,
           "id": "indx1_424"
         },
         "indx1_425": {
           "label": "Adjacent Themes",
           "x": 94661,
-          "y": 10144,
+          "y": 11162,
           "id": "indx1_425"
         },
         "indx1_426": {
           "label": "Questions",
           "x": 94401,
-          "y": 10269,
+          "y": 11287,
           "id": "indx1_426"
         },
         "indx1_427": {
           "label": "Problems",
           "x": 94399,
-          "y": 10369,
+          "y": 11387,
           "id": "indx1_427"
         },
         "indx1_428": {
           "label": "Goals",
           "x": 94387,
-          "y": 10469,
+          "y": 11487,
           "id": "indx1_428"
         },
         "indx1_429": {
           "id": "indx1_429",
           "x": 94773,
-          "y": 9289,
+          "y": 10307,
           "label": "Work with different languages on server"
         },
         "indx1_430": {
           "label": "Ruby",
           "link": "",
           "x": 94977,
-          "y": 9278,
+          "y": 10296,
           "id": "indx1_430",
           "color": {
             "highlight": {
@@ -8659,7 +8659,7 @@ var schemeData =
           "label": "To send objects",
           "link": "",
           "x": 95117,
-          "y": 9269,
+          "y": 10287,
           "id": "indx1_431",
           "color": {
             "highlight": {
@@ -8700,7 +8700,7 @@ var schemeData =
           "label": "JSON.parse(object.to_json)",
           "link": "",
           "x": 95363,
-          "y": 9275,
+          "y": 10293,
           "id": "indx1_432",
           "color": {
             "highlight": {
@@ -8741,7 +8741,7 @@ var schemeData =
           "label": "data in type Struct must be converted in Hash - to_h",
           "link": "",
           "x": 95232,
-          "y": 9317,
+          "y": 10335,
           "id": "indx1_433",
           "color": {
             "highlight": {
@@ -8809,7 +8809,7 @@ var schemeData =
           "label": "AJAX",
           "id": "indx1_434",
           "x": 97229,
-          "y": 9621,
+          "y": 10639,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8817,7 +8817,7 @@ var schemeData =
         "indx1_435": {
           "label": "Introspection",
           "x": 93707,
-          "y": 12590,
+          "y": 13608,
           "font": {
             "size": 72,
             "align": "left"
@@ -8834,158 +8834,158 @@ var schemeData =
         "indx1_436": {
           "label": "Development",
           "x": 94300,
-          "y": 12996,
+          "y": 14014,
           "id": "indx1_436"
         },
         "indx1_437": {
           "label": "12/1/2019",
           "x": 94429,
-          "y": 12996,
+          "y": 14014,
           "id": "indx1_437"
         },
         "indx1_438": {
           "label": "init",
           "x": 94550,
-          "y": 12996,
+          "y": 14014,
           "id": "indx1_438"
         },
         "indx1_439": {
           "label": "Notes",
           "x": 94277,
-          "y": 12146,
+          "y": 13164,
           "id": "indx1_439"
         },
         "indx1_440": {
           "label": "Dictionary of\nconcepts",
           "x": 94437,
-          "y": 11896,
+          "y": 12914,
           "id": "indx1_440"
         },
         "indx1_441": {
           "label": "Details, thoughts",
           "x": 94450,
-          "y": 12146,
+          "y": 13164,
           "id": "indx1_441"
         },
         "indx1_442": {
           "label": "Sections",
           "x": 94424,
-          "y": 12396,
+          "y": 13414,
           "id": "indx1_442"
         },
         "indx1_443": {
           "label": "Books",
           "x": 94514,
-          "y": 12246,
+          "y": 13264,
           "id": "indx1_443"
         },
         "indx1_444": {
           "label": "R&D institutions",
           "x": 94545,
-          "y": 12271,
+          "y": 13289,
           "id": "indx1_444"
         },
         "indx1_445": {
           "label": "Sites",
           "x": 94510,
-          "y": 12296,
+          "y": 13314,
           "id": "indx1_445"
         },
         "indx1_446": {
           "label": "Magazines",
           "x": 94529,
-          "y": 12321,
+          "y": 13339,
           "id": "indx1_446"
         },
         "indx1_447": {
           "label": "Articles",
           "x": 94518,
-          "y": 12346,
+          "y": 13364,
           "id": "indx1_447"
         },
         "indx1_448": {
           "label": "Media content",
           "x": 94540,
-          "y": 12371,
+          "y": 13389,
           "id": "indx1_448"
         },
         "indx1_449": {
           "label": "Misc. web links",
           "x": 94542,
-          "y": 12396,
+          "y": 13414,
           "id": "indx1_449"
         },
         "indx1_450": {
           "label": "Projects",
           "x": 94520,
-          "y": 12421,
+          "y": 13439,
           "id": "indx1_450"
         },
         "indx1_451": {
           "label": "Tools",
           "x": 94512,
-          "y": 12446,
+          "y": 13464,
           "id": "indx1_451"
         },
         "indx1_452": {
           "label": "Organizations",
           "x": 94539,
-          "y": 12471,
+          "y": 13489,
           "id": "indx1_452"
         },
         "indx1_453": {
           "label": "Standarts",
           "x": 94525,
-          "y": 12496,
+          "y": 13514,
           "id": "indx1_453"
         },
         "indx1_454": {
           "label": "Forums, Groups",
           "x": 94547,
-          "y": 12521,
+          "y": 13539,
           "id": "indx1_454"
         },
         "indx1_455": {
           "label": "Laws",
           "x": 94511,
-          "y": 12546,
+          "y": 13564,
           "id": "indx1_455"
         },
         "indx1_456": {
           "label": "Adjacent Themes",
           "x": 94550,
-          "y": 12571,
+          "y": 13589,
           "id": "indx1_456"
         },
         "indx1_457": {
           "label": "Questions",
           "x": 94290,
-          "y": 12696,
+          "y": 13714,
           "id": "indx1_457"
         },
         "indx1_458": {
           "label": "Problems",
           "x": 94288,
-          "y": 12796,
+          "y": 13814,
           "id": "indx1_458"
         },
         "indx1_459": {
           "label": "Goals",
           "x": 94277,
-          "y": 12896,
+          "y": 13914,
           "id": "indx1_459"
         },
         "indx1_460": {
           "id": "indx1_460",
           "x": 94689,
-          "y": 11846,
+          "y": 12864,
           "label": "Object.keys(object)"
         },
         "indx1_461": {
           "label": "list of fields",
           "link": "",
           "x": 94854,
-          "y": 11845,
+          "y": 12863,
           "id": "indx1_461",
           "color": {
             "highlight": {
@@ -9026,7 +9026,7 @@ var schemeData =
           "label": "array of a given object's own property names, in the same order as we get with a normal loop",
           "link": "",
           "x": 95258,
-          "y": 11845,
+          "y": 12863,
           "id": "indx1_462",
           "color": {
             "highlight": {
@@ -9067,7 +9067,7 @@ var schemeData =
           "label": "object.hashOwnProperty(\"some_property_name\")",
           "link": "",
           "x": 94786,
-          "y": 11933,
+          "y": 12951,
           "id": "indx1_463",
           "color": {
             "highlight": {
@@ -9108,7 +9108,7 @@ var schemeData =
           "label": "method returns a boolean indicating whether the object has the specified property\nas its own property (as opposed to inheriting it)",
           "link": "",
           "x": 95262,
-          "y": 11933,
+          "y": 12951,
           "id": "indx1_464",
           "color": {
             "highlight": {
@@ -9176,7 +9176,7 @@ var schemeData =
           "label": "Introspection",
           "id": "indx1_465",
           "x": 98808,
-          "y": 12209,
+          "y": 13227,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10840,7 +10840,7 @@ var schemeData =
           "label": "JSON.stringify(localStorage).length",
           "id": "indx1_552",
           "x": 106604,
-          "y": 17223
+          "y": 19200
         },
         "indx1_553": {
           "color": {
@@ -10869,7 +10869,7 @@ var schemeData =
           "label": "Check size",
           "id": "indx1_553",
           "x": 106363,
-          "y": 17219
+          "y": 19196
         },
         "indx1_554": {
           "color": {
@@ -10900,7 +10900,7 @@ var schemeData =
           "label": "var localStorageSpace = function(){\n    var data = '';\n\n    console.log('Current local storage: ');\n\n    for(var key in window.localStorage){\n\n        if(window.localStorage.hasOwnProperty(key)){\n            data += window.localStorage[key];\n            console.log( key + \" = \" + ((window.localStorage[key].length * 16)/(8 * 1024)).toFixed(2) + ' KB' );\n        }\n\n    }\n\n    console.log(data ? '\\n' + 'Total space used: ' + ((data.length * 16)/(8 * 1024)).toFixed(2) + ' KB' : 'Empty (0 KB)');\n    console.log(data ? 'Approx. space remaining: ' + (5120 - ((data.length * 16)/(8 * 1024)).toFixed(2)) + ' KB' : '5 MB');\n};",
           "id": "indx1_554",
           "x": 106700,
-          "y": 17381,
+          "y": 19358,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10932,7 +10932,7 @@ var schemeData =
           "label": "Сколько места осталось",
           "id": "indx1_555",
           "x": 107238,
-          "y": 17380
+          "y": 19357
         },
         "indx1_556": {
           "color": {
@@ -10961,7 +10961,7 @@ var schemeData =
           "label": "localStorage.clear();",
           "id": "indx1_556",
           "x": 106399,
-          "y": 17548
+          "y": 19525
         },
         "indx1_557": {
           "color": {
@@ -10992,7 +10992,7 @@ var schemeData =
           "label": "try {\n  nonExistentFunction();\n}\ncatch(error) {\n  console.error(error);\n  // expected output: ReferenceError: nonExistentFunction is not defined\n  // Note - error messages will vary depending on browser\n}",
           "id": "indx1_557",
           "x": 118807,
-          "y": 23713,
+          "y": 24387,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11026,7 +11026,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "rdflib.js",
           "x": 94136,
-          "y": 18164,
+          "y": 19182,
           "id": "indx1_558",
           "shape": "box",
           "link": "",
@@ -11058,7 +11058,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 94438,
-          "y": 18779,
+          "y": 19797,
           "id": "indx1_559"
         },
         "indx1_560": {
@@ -11087,7 +11087,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/12/2019",
           "x": 94632,
-          "y": 18781,
+          "y": 19799,
           "id": "indx1_560"
         },
         "indx1_561": {
@@ -11116,7 +11116,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 94761,
-          "y": 18781,
+          "y": 19799,
           "id": "indx1_561"
         },
         "indx1_562": {
@@ -11145,7 +11145,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 94413,
-          "y": 17645,
+          "y": 18663,
           "id": "indx1_562"
         },
         "indx1_563": {
@@ -11178,7 +11178,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94586,
-          "y": 17395,
+          "y": 18413,
           "id": "indx1_563",
           "shape": "box",
           "link": "",
@@ -11210,7 +11210,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 94586,
-          "y": 17645,
+          "y": 18663,
           "id": "indx1_564"
         },
         "indx1_565": {
@@ -11239,7 +11239,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 94576,
-          "y": 18048,
+          "y": 19066,
           "id": "indx1_565"
         },
         "indx1_566": {
@@ -11268,7 +11268,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 94650,
-          "y": 17745,
+          "y": 18763,
           "id": "indx1_566"
         },
         "indx1_567": {
@@ -11297,7 +11297,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 94681,
-          "y": 17770,
+          "y": 18788,
           "id": "indx1_567"
         },
         "indx1_568": {
@@ -11326,7 +11326,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 94646,
-          "y": 17795,
+          "y": 18813,
           "id": "indx1_568"
         },
         "indx1_569": {
@@ -11355,7 +11355,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 94665,
-          "y": 17820,
+          "y": 18838,
           "id": "indx1_569"
         },
         "indx1_570": {
@@ -11384,7 +11384,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 94654,
-          "y": 17845,
+          "y": 18863,
           "id": "indx1_570"
         },
         "indx1_571": {
@@ -11413,7 +11413,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 94676,
-          "y": 17870,
+          "y": 18888,
           "id": "indx1_571"
         },
         "indx1_572": {
@@ -11442,7 +11442,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 94680,
-          "y": 18046,
+          "y": 19064,
           "id": "indx1_572"
         },
         "indx1_573": {
@@ -11471,7 +11471,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 94658,
-          "y": 18204,
+          "y": 19222,
           "id": "indx1_573"
         },
         "indx1_574": {
@@ -11500,7 +11500,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 94649,
-          "y": 18229,
+          "y": 19247,
           "id": "indx1_574"
         },
         "indx1_575": {
@@ -11529,7 +11529,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 94677,
-          "y": 18254,
+          "y": 19272,
           "id": "indx1_575"
         },
         "indx1_576": {
@@ -11558,7 +11558,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 94663,
-          "y": 18279,
+          "y": 19297,
           "id": "indx1_576"
         },
         "indx1_577": {
@@ -11587,7 +11587,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 94685,
-          "y": 18304,
+          "y": 19322,
           "id": "indx1_577"
         },
         "indx1_578": {
@@ -11616,7 +11616,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 94649,
-          "y": 18329,
+          "y": 19347,
           "id": "indx1_578"
         },
         "indx1_579": {
@@ -11645,7 +11645,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 94688,
-          "y": 18354,
+          "y": 19372,
           "id": "indx1_579"
         },
         "indx1_580": {
@@ -11674,7 +11674,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 94428,
-          "y": 18479,
+          "y": 19497,
           "id": "indx1_580"
         },
         "indx1_581": {
@@ -11703,7 +11703,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 94426,
-          "y": 18579,
+          "y": 19597,
           "id": "indx1_581"
         },
         "indx1_582": {
@@ -11732,7 +11732,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 94415,
-          "y": 18679,
+          "y": 19697,
           "id": "indx1_582"
         },
         "indx1_583": {
@@ -11765,7 +11765,7 @@ var schemeData =
           "label": "rdflib.js",
           "id": "indx1_583",
           "x": 97562,
-          "y": 17862,
+          "y": 18880,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11799,7 +11799,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "node.js",
           "x": 93107,
-          "y": 26263,
+          "y": 27281,
           "id": "indx1_584",
           "shape": "box",
           "link": "",
@@ -11831,7 +11831,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 93407,
-          "y": 26713,
+          "y": 27731,
           "id": "indx1_585"
         },
         "indx1_586": {
@@ -11860,7 +11860,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/16/2019",
           "x": 93617,
-          "y": 26713,
+          "y": 27731,
           "id": "indx1_586"
         },
         "indx1_587": {
@@ -11889,7 +11889,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 93738,
-          "y": 26715,
+          "y": 27733,
           "id": "indx1_587"
         },
         "indx1_588": {
@@ -11918,7 +11918,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 93401,
-          "y": 25691,
+          "y": 26709,
           "id": "indx1_588"
         },
         "indx1_589": {
@@ -11947,7 +11947,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 93580,
-          "y": 23935,
+          "y": 24953,
           "id": "indx1_589"
         },
         "indx1_590": {
@@ -11976,7 +11976,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 93551,
-          "y": 25691,
+          "y": 26709,
           "id": "indx1_590"
         },
         "indx1_591": {
@@ -12005,7 +12005,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 93557,
-          "y": 26113,
+          "y": 27131,
           "id": "indx1_591"
         },
         "indx1_592": {
@@ -12034,7 +12034,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 93615,
-          "y": 25791,
+          "y": 26809,
           "id": "indx1_592"
         },
         "indx1_593": {
@@ -12063,7 +12063,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 93646,
-          "y": 25816,
+          "y": 26834,
           "id": "indx1_593"
         },
         "indx1_594": {
@@ -12092,7 +12092,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 93611,
-          "y": 25841,
+          "y": 26859,
           "id": "indx1_594"
         },
         "indx1_595": {
@@ -12121,7 +12121,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 93630,
-          "y": 25866,
+          "y": 26884,
           "id": "indx1_595"
         },
         "indx1_596": {
@@ -12150,7 +12150,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 93619,
-          "y": 25891,
+          "y": 26909,
           "id": "indx1_596"
         },
         "indx1_597": {
@@ -12179,7 +12179,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 93641,
-          "y": 25916,
+          "y": 26934,
           "id": "indx1_597"
         },
         "indx1_598": {
@@ -12208,7 +12208,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 93656,
-          "y": 26030,
+          "y": 27048,
           "id": "indx1_598"
         },
         "indx1_599": {
@@ -12237,7 +12237,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 93627,
-          "y": 26138,
+          "y": 27156,
           "id": "indx1_599"
         },
         "indx1_600": {
@@ -12266,7 +12266,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 93619,
-          "y": 26163,
+          "y": 27181,
           "id": "indx1_600"
         },
         "indx1_601": {
@@ -12295,7 +12295,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 93646,
-          "y": 26188,
+          "y": 27206,
           "id": "indx1_601"
         },
         "indx1_602": {
@@ -12324,7 +12324,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 93632,
-          "y": 26213,
+          "y": 27231,
           "id": "indx1_602"
         },
         "indx1_603": {
@@ -12353,7 +12353,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 93654,
-          "y": 26238,
+          "y": 27256,
           "id": "indx1_603"
         },
         "indx1_604": {
@@ -12382,7 +12382,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 93618,
-          "y": 26263,
+          "y": 27281,
           "id": "indx1_604"
         },
         "indx1_605": {
@@ -12411,7 +12411,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 93657,
-          "y": 26288,
+          "y": 27306,
           "id": "indx1_605"
         },
         "indx1_606": {
@@ -12440,7 +12440,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 93407,
-          "y": 26413,
+          "y": 27431,
           "id": "indx1_606"
         },
         "indx1_607": {
@@ -12469,7 +12469,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 93407,
-          "y": 26513,
+          "y": 27531,
           "id": "indx1_607"
         },
         "indx1_608": {
@@ -12498,7 +12498,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 93407,
-          "y": 26613,
+          "y": 27631,
           "id": "indx1_608"
         },
         "indx1_609": {
@@ -12531,7 +12531,7 @@ var schemeData =
           "label": "https://nodejs.org/en/",
           "id": "indx1_609",
           "x": 93828,
-          "y": 25998,
+          "y": 27016,
           "shape": "box",
           "link": "https://nodejs.org/en/",
           "borderWidth": ""
@@ -12566,7 +12566,7 @@ var schemeData =
           "label": "https://en.wikipedia.org/wiki/Node.js",
           "id": "indx1_610",
           "x": 93873,
-          "y": 26065,
+          "y": 27083,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Node.js",
           "borderWidth": ""
@@ -12598,7 +12598,7 @@ var schemeData =
           "label": "File",
           "id": "indx1_611",
           "x": 93825,
-          "y": 22463
+          "y": 23481
         },
         "indx1_612": {
           "color": {
@@ -12630,7 +12630,7 @@ var schemeData =
           "label": "var fs = require('fs');\n \nvar contents = fs.readFileSync('DATA', 'utf8');\nconsole.log(contents);",
           "id": "indx1_612",
           "x": 94501,
-          "y": 23011,
+          "y": 24029,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12662,7 +12662,7 @@ var schemeData =
           "label": "Read file",
           "id": "indx1_613",
           "x": 94002,
-          "y": 23011
+          "y": 24029
         },
         "indx1_614": {
           "color": {
@@ -12691,7 +12691,7 @@ var schemeData =
           "label": "synchronously (blocking)",
           "id": "indx1_614",
           "x": 94205,
-          "y": 23009
+          "y": 24027
         },
         "indx1_615": {
           "color": {
@@ -12720,7 +12720,7 @@ var schemeData =
           "label": "Write file",
           "id": "indx1_615",
           "x": 94002,
-          "y": 23148
+          "y": 24166
         },
         "indx1_616": {
           "color": {
@@ -12749,7 +12749,7 @@ var schemeData =
           "label": "Synchronous Write",
           "id": "indx1_616",
           "x": 94207,
-          "y": 23141
+          "y": 24159
         },
         "indx1_617": {
           "color": {
@@ -12781,7 +12781,7 @@ var schemeData =
           "label": "fs = require('fs');\n\nfs.writeFileSync(\"synchronous.txt\", \"synchronous write!\")",
           "id": "indx1_617",
           "x": 94521,
-          "y": 23145,
+          "y": 24163,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12816,7 +12816,7 @@ var schemeData =
           "label": "node.js",
           "id": "indx1_618",
           "x": 97590,
-          "y": 22020,
+          "y": 23038,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12848,7 +12848,7 @@ var schemeData =
           "label": "Web",
           "id": "indx1_619",
           "x": 93877,
-          "y": 23914
+          "y": 24932
         },
         "indx1_620": {
           "color": {
@@ -12877,7 +12877,7 @@ var schemeData =
           "label": "http-server",
           "id": "indx1_620",
           "x": 94044,
-          "y": 23478
+          "y": 24496
         },
         "indx1_621": {
           "color": {
@@ -12910,7 +12910,7 @@ var schemeData =
           "label": "var http = require('http');\nvar fs = require('fs');\n\nhttp.createServer(function (req, res) {\n    console.dir(req.url);\n\n    res.writeHead(200, {'Content-Type': 'text/html'});\n\n    res.end('ok');\n}).listen(3001);",
           "id": "indx1_621",
           "x": 94664,
-          "y": 23328,
+          "y": 24346,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12946,7 +12946,7 @@ var schemeData =
           "label": "\n    // will get you  '/' or 'index.html' or 'css/styles.css' ...\n    // • you need to isolate extension\n    // • have a small mimetype lookup array/object\n    // • only there and then reading the file\n    // •  delivering it after setting the right content type",
           "id": "indx1_622",
           "x": 95101,
-          "y": 23313,
+          "y": 24331,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12978,7 +12978,7 @@ var schemeData =
           "label": "default",
           "id": "indx1_623",
           "x": 94282,
-          "y": 23326
+          "y": 24344
         },
         "indx1_624": {
           "color": {
@@ -13007,7 +13007,7 @@ var schemeData =
           "label": "Express",
           "id": "indx1_624",
           "x": 94286,
-          "y": 23701
+          "y": 24719
         },
         "indx1_625": {
           "color": {
@@ -13040,7 +13040,7 @@ var schemeData =
           "label": "var fs = require(\"fs\");\nvar host = \"127.0.0.1\";\nvar port = 1337;\nvar express = require(\"express\");\n\nvar app = express();\n//app.use(express.static(__dirname + \"/public\")); //use static files in ROOT/public folder\n\nvar saveData = {};\napp.get(\"/\", function(request, response){ //root dir\n    response.set('access-control-allow-origin', '*');\n    var path = request.query.path;\n    var dataPart = request.query.dataPart;\n    var dataPartNumber = request.query.dataPartNumber;\n    var projectName = request.query.projectName;\n    var saveTime = request.query.saveTime;\n    var lastDataPart = request.query.lastDataPart;\n\n    saveData[dataPartNumber] = JSON.parse(dataPart);\n\n    var answerLine = JSON.stringify(\"ok\");\n\n    process.stdout.write(dataPart);\n    if (lastDataPart == \"true\") {\n        var data = \"\";\n        for (var key in saveData) {\n           data += saveData[key];\n        }\n        console.log(data);\n    }\n    response.send(answerLine);\n});\n\napp.listen(port, host);\n",
           "id": "indx1_625",
           "x": 94793,
-          "y": 23925,
+          "y": 24943,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13075,7 +13075,7 @@ var schemeData =
           "label": "https://expressjs.com/",
           "id": "indx1_626",
           "x": 94596,
-          "y": 23511,
+          "y": 24529,
           "shape": "box",
           "link": "https://expressjs.com/",
           "borderWidth": ""
@@ -13107,7 +13107,7 @@ var schemeData =
           "label": "npm install express --save",
           "id": "indx1_627",
           "x": 94607,
-          "y": 23558
+          "y": 24576
         },
         "indx1_628": {
           "color": {
@@ -13136,7 +13136,7 @@ var schemeData =
           "label": "Headers",
           "id": "indx1_628",
           "x": 94550,
-          "y": 23614
+          "y": 24632
         },
         "indx1_629": {
           "color": {
@@ -13165,7 +13165,7 @@ var schemeData =
           "label": "res.set('Content-Type', 'text/plain');",
           "id": "indx1_629",
           "x": 94788,
-          "y": 23611
+          "y": 24629
         },
         "indx1_630": {
           "color": {
@@ -13194,7 +13194,7 @@ var schemeData =
           "label": "encodeURIComponent(line)",
           "id": "indx1_630",
           "x": 118789,
-          "y": 25574
+          "y": 26248
         },
         "indx1_631": {
           "color": {
@@ -13223,7 +13223,7 @@ var schemeData =
           "label": "script params",
           "id": "indx1_631",
           "x": 93906,
-          "y": 24469
+          "y": 25487
         },
         "indx1_632": {
           "color": {
@@ -13256,7 +13256,7 @@ var schemeData =
           "label": "process.argv.forEach(function (val, index, array) {\n  console.log(index + ': ' + val);\n})",
           "id": "indx1_632",
           "x": 94278,
-          "y": 24472,
+          "y": 25490,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13288,7 +13288,7 @@ var schemeData =
           "label": "Create dir",
           "id": "indx1_633",
           "x": 94006,
-          "y": 22814
+          "y": 23832
         },
         "indx1_634": {
           "color": {
@@ -13320,7 +13320,7 @@ var schemeData =
           "label": "if (!fs.existsSync(dir)){\n    fs.mkdirSync(dir);\n}",
           "id": "indx1_634",
           "x": 94386,
-          "y": 22808,
+          "y": 23826,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13352,7 +13352,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "vis.js",
           "x": 94136,
-          "y": 15749,
+          "y": 16767,
           "id": "indx1_635",
           "shape": "box",
           "link": "",
@@ -13382,7 +13382,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 94675,
-          "y": 16212,
+          "y": 17230,
           "id": "indx1_636"
         },
         "indx1_637": {
@@ -13409,7 +13409,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/21/2019",
           "x": 94925,
-          "y": 16212,
+          "y": 17230,
           "id": "indx1_637"
         },
         "indx1_638": {
@@ -13436,7 +13436,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 94825,
-          "y": 16212,
+          "y": 17230,
           "id": "indx1_638"
         },
         "indx1_639": {
@@ -13463,7 +13463,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 94676,
-          "y": 15001,
+          "y": 16019,
           "id": "indx1_639"
         },
         "indx1_640": {
@@ -13490,7 +13490,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94829,
-          "y": 14547,
+          "y": 15565,
           "id": "indx1_640"
         },
         "indx1_641": {
@@ -13517,7 +13517,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 94851,
-          "y": 14888,
+          "y": 15906,
           "id": "indx1_641"
         },
         "indx1_642": {
@@ -13544,7 +13544,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 94823,
-          "y": 15558,
+          "y": 16576,
           "id": "indx1_642"
         },
         "indx1_643": {
@@ -13571,7 +13571,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 94890,
-          "y": 15100,
+          "y": 16118,
           "id": "indx1_643"
         },
         "indx1_644": {
@@ -13598,7 +13598,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 94921,
-          "y": 15125,
+          "y": 16143,
           "id": "indx1_644"
         },
         "indx1_645": {
@@ -13625,7 +13625,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 94891,
-          "y": 15295,
+          "y": 16313,
           "id": "indx1_645"
         },
         "indx1_646": {
@@ -13652,7 +13652,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 94905,
-          "y": 15594,
+          "y": 16612,
           "id": "indx1_646"
         },
         "indx1_647": {
@@ -13679,7 +13679,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 94893,
-          "y": 15619,
+          "y": 16637,
           "id": "indx1_647"
         },
         "indx1_648": {
@@ -13706,7 +13706,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 94915,
-          "y": 15644,
+          "y": 16662,
           "id": "indx1_648"
         },
         "indx1_649": {
@@ -13733,7 +13733,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 94918,
-          "y": 15669,
+          "y": 16687,
           "id": "indx1_649"
         },
         "indx1_650": {
@@ -13760,7 +13760,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 94896,
-          "y": 15694,
+          "y": 16712,
           "id": "indx1_650"
         },
         "indx1_651": {
@@ -13787,7 +13787,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 94887,
-          "y": 15719,
+          "y": 16737,
           "id": "indx1_651"
         },
         "indx1_652": {
@@ -13814,7 +13814,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 94914,
-          "y": 15744,
+          "y": 16762,
           "id": "indx1_652"
         },
         "indx1_653": {
@@ -13841,7 +13841,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 94901,
-          "y": 15769,
+          "y": 16787,
           "id": "indx1_653"
         },
         "indx1_654": {
@@ -13868,7 +13868,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 94922,
-          "y": 15794,
+          "y": 16812,
           "id": "indx1_654"
         },
         "indx1_655": {
@@ -13895,7 +13895,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 94887,
-          "y": 15819,
+          "y": 16837,
           "id": "indx1_655"
         },
         "indx1_656": {
@@ -13922,7 +13922,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 94926,
-          "y": 15844,
+          "y": 16862,
           "id": "indx1_656"
         },
         "indx1_657": {
@@ -13949,7 +13949,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 94675,
-          "y": 15912,
+          "y": 16930,
           "id": "indx1_657"
         },
         "indx1_658": {
@@ -13976,7 +13976,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 94675,
-          "y": 16012,
+          "y": 17030,
           "id": "indx1_658"
         },
         "indx1_659": {
@@ -14003,7 +14003,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 94675,
-          "y": 16112,
+          "y": 17130,
           "id": "indx1_659"
         },
         "indx1_660": {
@@ -14031,7 +14031,7 @@ var schemeData =
           "label": "vis.js - base library of mm-vis-js. It is responsible for canvas and it's nodes with edges network.",
           "id": "indx1_660",
           "x": 95320,
-          "y": 14871
+          "y": 15889
         },
         "indx1_661": {
           "color": {
@@ -14063,7 +14063,7 @@ var schemeData =
           "label": "vis.js",
           "id": "indx1_661",
           "x": 97089,
-          "y": 14918,
+          "y": 15936,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14096,7 +14096,7 @@ var schemeData =
           "label": "https://visjs.org/",
           "id": "indx1_662",
           "x": 95084,
-          "y": 15217,
+          "y": 16235,
           "shape": "box",
           "link": "https://visjs.org/",
           "borderWidth": ""
@@ -14126,7 +14126,7 @@ var schemeData =
           "label": "main site",
           "id": "indx1_663",
           "x": 95258,
-          "y": 15218
+          "y": 16236
         },
         "indx1_664": {
           "color": {
@@ -14156,7 +14156,7 @@ var schemeData =
           "label": "https://github.com/almende/vis",
           "id": "indx1_664",
           "x": 95134,
-          "y": 15411,
+          "y": 16429,
           "shape": "box",
           "link": "https://github.com/almende/vis",
           "borderWidth": ""
@@ -14186,7 +14186,7 @@ var schemeData =
           "label": "From 2010 to 2017 it was main repository for vis.js.",
           "id": "indx1_665",
           "x": 95467,
-          "y": 15384
+          "y": 16402
         },
         "indx1_666": {
           "color": {
@@ -14213,7 +14213,7 @@ var schemeData =
           "label": "Then code was separated into several repositories.",
           "id": "indx1_666",
           "x": 95467,
-          "y": 15414
+          "y": 16432
         },
         "indx1_667": {
           "color": {
@@ -14240,7 +14240,7 @@ var schemeData =
           "label": "Now this repository is not maintained.",
           "id": "indx1_667",
           "x": 95423,
-          "y": 15443
+          "y": 16461
         },
         "indx1_668": {
           "color": {
@@ -14270,7 +14270,7 @@ var schemeData =
           "label": "https://github.com/visjs/vis-network",
           "id": "indx1_668",
           "x": 95143,
-          "y": 15270,
+          "y": 16288,
           "shape": "box",
           "link": "https://github.com/visjs/vis-network",
           "borderWidth": ""
@@ -14303,7 +14303,7 @@ var schemeData =
           "label": "vis-network repository",
           "id": "indx1_669",
           "x": 95376,
-          "y": 15271,
+          "y": 16289,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14336,7 +14336,7 @@ var schemeData =
           "label": "vis-network docs",
           "id": "indx1_670",
           "x": 95105,
-          "y": 14500,
+          "y": 15518,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14369,7 +14369,7 @@ var schemeData =
           "label": "https://visjs.github.io/vis-network/docs/network/",
           "id": "indx1_671",
           "x": 95547,
-          "y": 14505,
+          "y": 15523,
           "shape": "box",
           "link": "https://visjs.github.io/vis-network/docs/network/",
           "borderWidth": ""
@@ -14399,7 +14399,7 @@ var schemeData =
           "label": "vis-network examples",
           "id": "indx1_672",
           "x": 95121,
-          "y": 14551
+          "y": 15569
         },
         "indx1_673": {
           "color": {
@@ -14429,7 +14429,7 @@ var schemeData =
           "label": "https://visjs.github.io/vis-network/examples/",
           "id": "indx1_673",
           "x": 95536,
-          "y": 14549,
+          "y": 15567,
           "shape": "box",
           "link": "https://visjs.github.io/vis-network/examples/",
           "borderWidth": ""
@@ -14459,7 +14459,7 @@ var schemeData =
           "label": "DataSet",
           "id": "indx1_674",
           "x": 95078,
-          "y": 14598
+          "y": 15616
         },
         "indx1_675": {
           "color": {
@@ -14489,7 +14489,7 @@ var schemeData =
           "label": "https://ww3.arb.ca.gov/ei/tools/lib/vis/docs/dataset.html",
           "id": "indx1_675",
           "x": 95391,
-          "y": 14604,
+          "y": 15622,
           "shape": "box",
           "link": "https://ww3.arb.ca.gov/ei/tools/lib/vis/docs/dataset.html",
           "borderWidth": ""
@@ -14519,7 +14519,7 @@ var schemeData =
           "label": "vis.js docs",
           "id": "indx1_676",
           "x": 95085,
-          "y": 14652
+          "y": 15670
         },
         "indx1_677": {
           "color": {
@@ -14549,7 +14549,7 @@ var schemeData =
           "label": "https://www.l2f.inesc-id.pt/~david/wiki/pt/extensions/vis/docs/",
           "id": "indx1_677",
           "x": 95413,
-          "y": 14650,
+          "y": 15668,
           "shape": "box",
           "link": "https://www.l2f.inesc-id.pt/~david/wiki/pt/extensions/vis/docs/",
           "borderWidth": ""
@@ -14557,7 +14557,7 @@ var schemeData =
         "indx1_678": {
           "label": "JavaScript API",
           "x": 94296,
-          "y": 20282,
+          "y": 21300,
           "font": {
             "size": 72,
             "align": "left"
@@ -14574,145 +14574,145 @@ var schemeData =
         "indx1_679": {
           "label": "Development",
           "x": 94721,
-          "y": 20709,
+          "y": 21727,
           "id": "indx1_679"
         },
         "indx1_680": {
           "label": "12/1/2019",
           "x": 94850,
-          "y": 20709,
+          "y": 21727,
           "id": "indx1_680"
         },
         "indx1_681": {
           "label": "init",
           "x": 94971,
-          "y": 20709,
+          "y": 21727,
           "id": "indx1_681"
         },
         "indx1_682": {
           "label": "Notes",
           "x": 94697,
-          "y": 19859,
+          "y": 20877,
           "id": "indx1_682"
         },
         "indx1_683": {
           "label": "Dictionary of\nconcepts",
           "x": 94857,
-          "y": 19609,
+          "y": 20627,
           "id": "indx1_683"
         },
         "indx1_684": {
           "label": "Details, thoughts",
           "x": 94871,
-          "y": 19859,
+          "y": 20877,
           "id": "indx1_684"
         },
         "indx1_685": {
           "label": "Sections",
           "x": 94845,
-          "y": 20109,
+          "y": 21127,
           "id": "indx1_685"
         },
         "indx1_686": {
           "label": "Books",
           "x": 94935,
-          "y": 19959,
+          "y": 20977,
           "id": "indx1_686"
         },
         "indx1_687": {
           "label": "R&D institutions",
           "x": 94965,
-          "y": 19984,
+          "y": 21002,
           "id": "indx1_687"
         },
         "indx1_688": {
           "label": "Sites",
           "x": 94931,
-          "y": 20009,
+          "y": 21027,
           "id": "indx1_688"
         },
         "indx1_689": {
           "label": "Magazines",
           "x": 94950,
-          "y": 20034,
+          "y": 21052,
           "id": "indx1_689"
         },
         "indx1_690": {
           "label": "Articles",
           "x": 94938,
-          "y": 20059,
+          "y": 21077,
           "id": "indx1_690"
         },
         "indx1_691": {
           "label": "Media content",
           "x": 94960,
-          "y": 20084,
+          "y": 21102,
           "id": "indx1_691"
         },
         "indx1_692": {
           "label": "Misc. web links",
           "x": 94963,
-          "y": 20109,
+          "y": 21127,
           "id": "indx1_692"
         },
         "indx1_693": {
           "label": "Projects",
           "x": 94941,
-          "y": 20134,
+          "y": 21152,
           "id": "indx1_693"
         },
         "indx1_694": {
           "label": "Tools",
           "x": 94932,
-          "y": 20159,
+          "y": 21177,
           "id": "indx1_694"
         },
         "indx1_695": {
           "label": "Organizations",
           "x": 94959,
-          "y": 20184,
+          "y": 21202,
           "id": "indx1_695"
         },
         "indx1_696": {
           "label": "Standarts",
           "x": 94946,
-          "y": 20209,
+          "y": 21227,
           "id": "indx1_696"
         },
         "indx1_697": {
           "label": "Forums, Groups",
           "x": 94967,
-          "y": 20234,
+          "y": 21252,
           "id": "indx1_697"
         },
         "indx1_698": {
           "label": "Laws",
           "x": 94932,
-          "y": 20259,
+          "y": 21277,
           "id": "indx1_698"
         },
         "indx1_699": {
           "label": "Adjacent Themes",
           "x": 94971,
-          "y": 20284,
+          "y": 21302,
           "id": "indx1_699"
         },
         "indx1_700": {
           "label": "Questions",
           "x": 94711,
-          "y": 20409,
+          "y": 21427,
           "id": "indx1_700"
         },
         "indx1_701": {
           "label": "Problems",
           "x": 94709,
-          "y": 20509,
+          "y": 21527,
           "id": "indx1_701"
         },
         "indx1_702": {
           "label": "Goals",
           "x": 94697,
-          "y": 20609,
+          "y": 21627,
           "id": "indx1_702"
         },
         "indx1_703": {
@@ -14746,7 +14746,7 @@ var schemeData =
           "label": "JavaScript API",
           "id": "indx1_703",
           "x": 99257,
-          "y": 19995,
+          "y": 21013,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14754,7 +14754,7 @@ var schemeData =
         "indx1_704": {
           "label": "JavaScript\nCode\nChunks",
           "x": 105581,
-          "y": -8011,
+          "y": -6574,
           "font": {
             "size": 72,
             "align": "left"
@@ -14771,25 +14771,25 @@ var schemeData =
         "indx1_705": {
           "label": "Development",
           "x": 105881,
-          "y": -7561,
+          "y": -6124,
           "id": "indx1_705"
         },
         "indx1_706": {
           "label": "12/1/2019",
           "x": 106010,
-          "y": -7561,
+          "y": -6124,
           "id": "indx1_706"
         },
         "indx1_707": {
           "label": "init",
           "x": 106131,
-          "y": -7561,
+          "y": -6124,
           "id": "indx1_707"
         },
         "indx1_708": {
           "label": "Notes",
           "x": 105857,
-          "y": -8411,
+          "y": -6974,
           "id": "indx1_708"
         },
         "indx1_709": {
@@ -14801,115 +14801,115 @@ var schemeData =
         "indx1_710": {
           "label": "Details, thoughts",
           "x": 106031,
-          "y": -8411,
+          "y": -6974,
           "id": "indx1_710"
         },
         "indx1_711": {
           "label": "Sections",
           "x": 106005,
-          "y": -8161,
+          "y": -6724,
           "id": "indx1_711"
         },
         "indx1_712": {
           "label": "Books",
           "x": 106095,
-          "y": -8311,
+          "y": -6874,
           "id": "indx1_712"
         },
         "indx1_713": {
           "label": "R&D institutions",
           "x": 106125,
-          "y": -8286,
+          "y": -6849,
           "id": "indx1_713"
         },
         "indx1_714": {
           "label": "Sites",
           "x": 106091,
-          "y": -8261,
+          "y": -6824,
           "id": "indx1_714"
         },
         "indx1_715": {
           "label": "Magazines",
           "x": 106110,
-          "y": -8236,
+          "y": -6799,
           "id": "indx1_715"
         },
         "indx1_716": {
           "label": "Articles",
           "x": 106098,
-          "y": -8211,
+          "y": -6774,
           "id": "indx1_716"
         },
         "indx1_717": {
           "label": "Media content",
           "x": 106120,
-          "y": -8186,
+          "y": -6749,
           "id": "indx1_717"
         },
         "indx1_718": {
           "label": "Misc. web links",
           "x": 106123,
-          "y": -8161,
+          "y": -6724,
           "id": "indx1_718"
         },
         "indx1_719": {
           "label": "Projects",
           "x": 106101,
-          "y": -8136,
+          "y": -6699,
           "id": "indx1_719"
         },
         "indx1_720": {
           "label": "Tools",
           "x": 106092,
-          "y": -8111,
+          "y": -6674,
           "id": "indx1_720"
         },
         "indx1_721": {
           "label": "Organizations",
           "x": 106119,
-          "y": -8086,
+          "y": -6649,
           "id": "indx1_721"
         },
         "indx1_722": {
           "label": "Standarts",
           "x": 106106,
-          "y": -8061,
+          "y": -6624,
           "id": "indx1_722"
         },
         "indx1_723": {
           "label": "Forums, Groups",
           "x": 106127,
-          "y": -8036,
+          "y": -6599,
           "id": "indx1_723"
         },
         "indx1_724": {
           "label": "Laws",
           "x": 106092,
-          "y": -8011,
+          "y": -6574,
           "id": "indx1_724"
         },
         "indx1_725": {
           "label": "Adjacent Themes",
           "x": 106131,
-          "y": -7986,
+          "y": -6549,
           "id": "indx1_725"
         },
         "indx1_726": {
           "label": "Questions",
           "x": 105871,
-          "y": -7861,
+          "y": -6424,
           "id": "indx1_726"
         },
         "indx1_727": {
           "label": "Problems",
           "x": 105869,
-          "y": -7761,
+          "y": -6324,
           "id": "indx1_727"
         },
         "indx1_728": {
           "label": "Goals",
           "x": 105857,
-          "y": -7661,
+          "y": -6224,
           "id": "indx1_728"
         },
         "indx1_729": {
@@ -15042,252 +15042,6 @@ var schemeData =
           "x": 106388,
           "y": -9727,
           "id": "indx1_733",
-          "color": {
-            "highlight": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "hover": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "background": "#ffd570",
-            "border": "#2B7CE9"
-          },
-          "fixed": {
-            "x": false,
-            "y": false
-          },
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {}
-        },
-        "indx1_734": {
-          "label": "escape - 27",
-          "link": "",
-          "x": 106539,
-          "y": -9638,
-          "id": "indx1_734",
-          "color": {
-            "highlight": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "hover": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "background": "#ffd570",
-            "border": "#2B7CE9"
-          },
-          "fixed": {
-            "x": false,
-            "y": false
-          },
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {}
-        },
-        "indx1_735": {
-          "label": "enter - 13",
-          "link": "",
-          "x": 106532,
-          "y": -9614,
-          "id": "indx1_735",
-          "color": {
-            "highlight": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "hover": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "background": "#ffd570",
-            "border": "#2B7CE9"
-          },
-          "fixed": {
-            "x": false,
-            "y": false
-          },
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {}
-        },
-        "indx1_736": {
-          "label": "left arrow - 37",
-          "link": "",
-          "x": 106545,
-          "y": -9590,
-          "id": "indx1_736",
-          "color": {
-            "highlight": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "hover": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "background": "#ffd570",
-            "border": "#2B7CE9"
-          },
-          "fixed": {
-            "x": false,
-            "y": false
-          },
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {}
-        },
-        "indx1_737": {
-          "label": "right arrow - 39",
-          "link": "",
-          "x": 106550,
-          "y": -9566,
-          "id": "indx1_737",
-          "color": {
-            "highlight": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "hover": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "background": "#ffd570",
-            "border": "#2B7CE9"
-          },
-          "fixed": {
-            "x": false,
-            "y": false
-          },
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {}
-        },
-        "indx1_738": {
-          "label": "up arrow - 38",
-          "link": "",
-          "x": 106544,
-          "y": -9542,
-          "id": "indx1_738",
-          "color": {
-            "highlight": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "hover": {
-              "border": "#2B7CE9",
-              "background": "#D2E5FF"
-            },
-            "background": "#ffd570",
-            "border": "#2B7CE9"
-          },
-          "fixed": {
-            "x": false,
-            "y": false
-          },
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {}
-        },
-        "indx1_739": {
-          "label": "down arrow - 40",
-          "link": "",
-          "x": 106553,
-          "y": -9518,
-          "id": "indx1_739",
           "color": {
             "highlight": {
               "border": "#2B7CE9",
@@ -15668,32 +15422,32 @@ var schemeData =
         "indx1_771": {
           "id": "indx1_771",
           "x": 106224,
-          "y": -9343,
+          "y": -8346,
           "label": "Key Codes"
         },
         "indx1_772": {
           "id": "indx1_772",
           "x": 106372,
-          "y": -9567,
+          "y": -8780,
           "label": "List"
         },
         "indx1_773": {
           "id": "indx1_773",
           "x": 106379,
-          "y": -9326,
+          "y": -7889,
           "label": "Links"
         },
         "indx1_774": {
           "id": "indx1_774",
           "x": 106871,
-          "y": -9327,
+          "y": -7890,
           "label": "https://stackoverflow.com/questions/3781142/jquery-or-javascript-how-determine-if-shift-key-being-pressed-while-clicking-an",
           "link": "https://stackoverflow.com/questions/3781142/jquery-or-javascript-how-determine-if-shift-key-being-pressed-while-clicking-an"
         },
         "indx1_775": {
           "label": "JavaScript\nEvents",
           "x": 105823,
-          "y": -3957,
+          "y": -1980,
           "font": {
             "size": 72,
             "align": "left"
@@ -15710,145 +15464,145 @@ var schemeData =
         "indx1_776": {
           "label": "Development",
           "x": 106294,
-          "y": -3529,
+          "y": -1552,
           "id": "indx1_776"
         },
         "indx1_777": {
           "label": "12/1/2019",
           "x": 106423,
-          "y": -3529,
+          "y": -1552,
           "id": "indx1_777"
         },
         "indx1_778": {
           "label": "init",
           "x": 106544,
-          "y": -3529,
+          "y": -1552,
           "id": "indx1_778"
         },
         "indx1_779": {
           "label": "Notes",
           "x": 106271,
-          "y": -4658,
+          "y": -2681,
           "id": "indx1_779"
         },
         "indx1_780": {
           "label": "Dictionary of\nconcepts",
           "x": 106431,
-          "y": -4908,
+          "y": -2931,
           "id": "indx1_780"
         },
         "indx1_781": {
           "label": "Details, thoughts",
           "x": 106444,
-          "y": -4658,
+          "y": -2681,
           "id": "indx1_781"
         },
         "indx1_782": {
           "label": "Sections",
           "x": 106418,
-          "y": -4129,
+          "y": -2152,
           "id": "indx1_782"
         },
         "indx1_783": {
           "label": "Books",
           "x": 106508,
-          "y": -4558,
+          "y": -2581,
           "id": "indx1_783"
         },
         "indx1_784": {
           "label": "R&D institutions",
           "x": 106539,
-          "y": -4533,
+          "y": -2556,
           "id": "indx1_784"
         },
         "indx1_785": {
           "label": "Sites",
           "x": 106504,
-          "y": -4508,
+          "y": -2531,
           "id": "indx1_785"
         },
         "indx1_786": {
           "label": "Magazines",
           "x": 106523,
-          "y": -4483,
+          "y": -2506,
           "id": "indx1_786"
         },
         "indx1_787": {
           "label": "Articles",
           "x": 106512,
-          "y": -4458,
+          "y": -2481,
           "id": "indx1_787"
         },
         "indx1_788": {
           "label": "Media content",
           "x": 106534,
-          "y": -4433,
+          "y": -2456,
           "id": "indx1_788"
         },
         "indx1_789": {
           "label": "Misc. web links",
           "x": 106541,
-          "y": -4281,
+          "y": -2304,
           "id": "indx1_789"
         },
         "indx1_790": {
           "label": "Projects",
           "x": 106514,
-          "y": -4104,
+          "y": -2127,
           "id": "indx1_790"
         },
         "indx1_791": {
           "label": "Tools",
           "x": 106506,
-          "y": -4079,
+          "y": -2102,
           "id": "indx1_791"
         },
         "indx1_792": {
           "label": "Organizations",
           "x": 106533,
-          "y": -4054,
+          "y": -2077,
           "id": "indx1_792"
         },
         "indx1_793": {
           "label": "Standarts",
           "x": 106519,
-          "y": -4029,
+          "y": -2052,
           "id": "indx1_793"
         },
         "indx1_794": {
           "label": "Forums, Groups",
           "x": 106541,
-          "y": -4004,
+          "y": -2027,
           "id": "indx1_794"
         },
         "indx1_795": {
           "label": "Laws",
           "x": 106505,
-          "y": -3979,
+          "y": -2002,
           "id": "indx1_795"
         },
         "indx1_796": {
           "label": "Adjacent Themes",
           "x": 106544,
-          "y": -3954,
+          "y": -1977,
           "id": "indx1_796"
         },
         "indx1_797": {
           "label": "Questions",
           "x": 106284,
-          "y": -3829,
+          "y": -1852,
           "id": "indx1_797"
         },
         "indx1_798": {
           "label": "Problems",
           "x": 106282,
-          "y": -3729,
+          "y": -1752,
           "id": "indx1_798"
         },
         "indx1_799": {
           "label": "Goals",
           "x": 106271,
-          "y": -3629,
+          "y": -1652,
           "id": "indx1_799"
         },
         "indx1_800": {
@@ -15882,7 +15636,7 @@ var schemeData =
           "label": "JavaScript\nEvents",
           "id": "indx1_800",
           "x": 109894,
-          "y": -4179,
+          "y": -2202,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -15890,28 +15644,28 @@ var schemeData =
         "indx1_801": {
           "id": "indx1_801",
           "x": 106838,
-          "y": -4308,
+          "y": -2331,
           "label": "https://flaviocopes.com/javascript-events/",
           "link": "https://flaviocopes.com/javascript-events/"
         },
         "indx1_802": {
           "id": "indx1_802",
           "x": 106923,
-          "y": -4284,
+          "y": -2307,
           "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop"
         },
         "indx1_803": {
           "id": "indx1_803",
           "x": 106847,
-          "y": -4245,
+          "y": -2268,
           "label": "https://www.w3schools.com/js/js_events.asp",
           "link": "https://www.w3schools.com/js/js_events.asp"
         },
         "indx1_804": {
           "label": "JavaScript\nClosures",
           "x": 106071,
-          "y": -198,
+          "y": 1779,
           "font": {
             "size": 72,
             "align": "left"
@@ -15928,145 +15682,145 @@ var schemeData =
         "indx1_805": {
           "label": "Development",
           "x": 106371,
-          "y": 252,
+          "y": 2229,
           "id": "indx1_805"
         },
         "indx1_806": {
           "label": "12/1/2019",
           "x": 106500,
-          "y": 252,
+          "y": 2229,
           "id": "indx1_806"
         },
         "indx1_807": {
           "label": "init",
           "x": 106621,
-          "y": 252,
+          "y": 2229,
           "id": "indx1_807"
         },
         "indx1_808": {
           "label": "Notes",
           "x": 106348,
-          "y": -890,
+          "y": 1087,
           "id": "indx1_808"
         },
         "indx1_809": {
           "label": "Dictionary of\nconcepts",
           "x": 106508,
-          "y": -1140,
+          "y": 837,
           "id": "indx1_809"
         },
         "indx1_810": {
           "label": "Details, thoughts",
           "x": 106521,
-          "y": -890,
+          "y": 1087,
           "id": "indx1_810"
         },
         "indx1_811": {
           "label": "Sections",
           "x": 106495,
-          "y": -348,
+          "y": 1629,
           "id": "indx1_811"
         },
         "indx1_812": {
           "label": "Books",
           "x": 106585,
-          "y": -790,
+          "y": 1187,
           "id": "indx1_812"
         },
         "indx1_813": {
           "label": "R&D institutions",
           "x": 106616,
-          "y": -765,
+          "y": 1212,
           "id": "indx1_813"
         },
         "indx1_814": {
           "label": "Sites",
           "x": 106581,
-          "y": -740,
+          "y": 1237,
           "id": "indx1_814"
         },
         "indx1_815": {
           "label": "Magazines",
           "x": 106600,
-          "y": -715,
+          "y": 1262,
           "id": "indx1_815"
         },
         "indx1_816": {
           "label": "Articles",
           "x": 106589,
-          "y": -690,
+          "y": 1287,
           "id": "indx1_816"
         },
         "indx1_817": {
           "label": "Media content",
           "x": 106611,
-          "y": -665,
+          "y": 1312,
           "id": "indx1_817"
         },
         "indx1_818": {
           "label": "Misc. web links",
           "x": 106617,
-          "y": -491,
+          "y": 1486,
           "id": "indx1_818"
         },
         "indx1_819": {
           "label": "Projects",
           "x": 106591,
-          "y": -323,
+          "y": 1654,
           "id": "indx1_819"
         },
         "indx1_820": {
           "label": "Tools",
           "x": 106583,
-          "y": -298,
+          "y": 1679,
           "id": "indx1_820"
         },
         "indx1_821": {
           "label": "Organizations",
           "x": 106610,
-          "y": -273,
+          "y": 1704,
           "id": "indx1_821"
         },
         "indx1_822": {
           "label": "Standarts",
           "x": 106596,
-          "y": -248,
+          "y": 1729,
           "id": "indx1_822"
         },
         "indx1_823": {
           "label": "Forums, Groups",
           "x": 106618,
-          "y": -223,
+          "y": 1754,
           "id": "indx1_823"
         },
         "indx1_824": {
           "label": "Laws",
           "x": 106582,
-          "y": -198,
+          "y": 1779,
           "id": "indx1_824"
         },
         "indx1_825": {
           "label": "Adjacent Themes",
           "x": 106621,
-          "y": -173,
+          "y": 1804,
           "id": "indx1_825"
         },
         "indx1_826": {
           "label": "Questions",
           "x": 106361,
-          "y": -48,
+          "y": 1929,
           "id": "indx1_826"
         },
         "indx1_827": {
           "label": "Problems",
           "x": 106359,
-          "y": 52,
+          "y": 2029,
           "id": "indx1_827"
         },
         "indx1_828": {
           "label": "Goals",
           "x": 106348,
-          "y": 152,
+          "y": 2129,
           "id": "indx1_828"
         },
         "indx1_829": {
@@ -16100,7 +15854,7 @@ var schemeData =
           "label": "JavaScript\nClosures",
           "id": "indx1_829",
           "x": 109894,
-          "y": -429,
+          "y": 1548,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16108,28 +15862,28 @@ var schemeData =
         "indx1_830": {
           "id": "indx1_830",
           "x": 106947,
-          "y": -512,
+          "y": 1465,
           "label": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures",
           "link": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures"
         },
         "indx1_831": {
           "id": "indx1_831",
           "x": 106854,
-          "y": -490,
+          "y": 1487,
           "label": "https://learn.javascript.ru/closure",
           "link": "https://learn.javascript.ru/closure"
         },
         "indx1_832": {
           "id": "indx1_832",
           "x": 106960,
-          "y": -457,
+          "y": 1520,
           "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
         },
         "indx1_833": {
           "id": "indx1_833",
           "x": 106924,
-          "y": -416,
+          "y": 1561,
           "label": "https://www.w3schools.com/js/js_function_closures.asp",
           "link": "https://www.w3schools.com/js/js_function_closures.asp"
         },
@@ -16142,7 +15896,7 @@ var schemeData =
         "indx1_835": {
           "id": "indx1_835",
           "x": 106298,
-          "y": -8909,
+          "y": -7472,
           "label": "Add JavaScript to html page",
           "shape": "box",
           "link": "",
@@ -16159,14 +15913,14 @@ var schemeData =
         "indx1_836": {
           "id": "indx1_836",
           "x": 106577,
-          "y": -8929,
+          "y": -7492,
           "label": "<script src=''></script>"
         },
         "indx1_837": {
           "label": "<script type='text/javascript'>\n   ...some code...\n</script>",
           "link": "",
           "x": 106597,
-          "y": -8891,
+          "y": -7454,
           "id": "indx1_837",
           "color": {
             "highlight": {
@@ -16573,7 +16327,7 @@ var schemeData =
         "indx1_869": {
           "label": "Tampermonkey",
           "x": 104491,
-          "y": 3212,
+          "y": 5189,
           "font": {
             "size": 72,
             "align": "left"
@@ -16590,163 +16344,163 @@ var schemeData =
         "indx1_870": {
           "label": "Development",
           "x": 104791,
-          "y": 3662,
+          "y": 5639,
           "id": "indx1_870"
         },
         "indx1_871": {
           "label": "12/1/2019",
           "x": 104920,
-          "y": 3662,
+          "y": 5639,
           "id": "indx1_871"
         },
         "indx1_872": {
           "label": "init",
           "x": 105041,
-          "y": 3662,
+          "y": 5639,
           "id": "indx1_872"
         },
         "indx1_873": {
           "label": "Notes",
           "x": 104768,
-          "y": 2812,
+          "y": 4789,
           "id": "indx1_873"
         },
         "indx1_874": {
           "label": "Dictionary of\nconcepts",
           "x": 104928,
-          "y": 2562,
+          "y": 4539,
           "id": "indx1_874"
         },
         "indx1_875": {
           "label": "Details, thoughts",
           "x": 104941,
-          "y": 2812,
+          "y": 4789,
           "id": "indx1_875"
         },
         "indx1_876": {
           "label": "Sections",
           "x": 104915,
-          "y": 3062,
+          "y": 5039,
           "id": "indx1_876"
         },
         "indx1_877": {
           "label": "Books",
           "x": 105005,
-          "y": 2912,
+          "y": 4889,
           "id": "indx1_877"
         },
         "indx1_878": {
           "label": "R&D institutions",
           "x": 105036,
-          "y": 2937,
+          "y": 4914,
           "id": "indx1_878"
         },
         "indx1_879": {
           "label": "Sites",
           "x": 105001,
-          "y": 2962,
+          "y": 4939,
           "id": "indx1_879"
         },
         "indx1_880": {
           "label": "Magazines",
           "x": 105020,
-          "y": 2987,
+          "y": 4964,
           "id": "indx1_880"
         },
         "indx1_881": {
           "label": "Articles",
           "x": 105009,
-          "y": 3012,
+          "y": 4989,
           "id": "indx1_881"
         },
         "indx1_882": {
           "label": "Media content",
           "x": 105031,
-          "y": 3037,
+          "y": 5014,
           "id": "indx1_882"
         },
         "indx1_883": {
           "label": "Misc. web links",
           "x": 105033,
-          "y": 3062,
+          "y": 5039,
           "id": "indx1_883"
         },
         "indx1_884": {
           "label": "Projects",
           "x": 105011,
-          "y": 3087,
+          "y": 5064,
           "id": "indx1_884"
         },
         "indx1_885": {
           "label": "Tools",
           "x": 105003,
-          "y": 3112,
+          "y": 5089,
           "id": "indx1_885"
         },
         "indx1_886": {
           "label": "Organizations",
           "x": 105030,
-          "y": 3137,
+          "y": 5114,
           "id": "indx1_886"
         },
         "indx1_887": {
           "label": "Standarts",
           "x": 105016,
-          "y": 3162,
+          "y": 5139,
           "id": "indx1_887"
         },
         "indx1_888": {
           "label": "Forums, Groups",
           "x": 105038,
-          "y": 3187,
+          "y": 5164,
           "id": "indx1_888"
         },
         "indx1_889": {
           "label": "Laws",
           "x": 105002,
-          "y": 3212,
+          "y": 5189,
           "id": "indx1_889"
         },
         "indx1_890": {
           "label": "Adjacent Themes",
           "x": 105041,
-          "y": 3237,
+          "y": 5214,
           "id": "indx1_890"
         },
         "indx1_891": {
           "label": "Questions",
           "x": 104781,
-          "y": 3362,
+          "y": 5339,
           "id": "indx1_891"
         },
         "indx1_892": {
           "label": "Problems",
           "x": 104779,
-          "y": 3462,
+          "y": 5439,
           "id": "indx1_892"
         },
         "indx1_893": {
           "label": "Goals",
           "x": 104768,
-          "y": 3562,
+          "y": 5539,
           "id": "indx1_893"
         },
         "indx1_894": {
           "id": "indx1_894",
           "x": 105308,
-          "y": 2496,
+          "y": 4473,
           "label": "Code Chunks"
         },
         "indx1_895": {
           "id": "indx1_895",
           "x": 105903,
-          "y": 2530,
+          "y": 4507,
           "label": "@match http://kinozal.tv/*\n\nfunction sleep(time) {\n   return new Promise((resolve) => setTimeout(resolve, time));\n}\n\nsleep(2000).then(() => {\n   console.log(\"Waiter 2\");\n   var elmDeleted = document.evaluate(\"//iframe\", document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);\n   for (var i = elmDeleted.snapshotLenght - 1; i >= 0; i--) {\n      elmDeleted.snapshotitem(i).parentNode.removeChild(elmDeleted.snapshotitem(i));\n   }\n});"
         },
         "indx1_896": {
           "id": "indx1_896",
           "x": 106681,
-          "y": 2526,
+          "y": 4503,
           "label": "remove ads from kinozal pages. Ads which adblock cannot remove"
         },
         "indx1_897": {
@@ -16780,7 +16534,7 @@ var schemeData =
           "label": "Tampermonkey",
           "id": "indx1_897",
           "x": 110978,
-          "y": 2584,
+          "y": 4561,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16788,7 +16542,7 @@ var schemeData =
         "indx1_898": {
           "label": "Lexical\nStructure",
           "x": 104788,
-          "y": 7186,
+          "y": 9163,
           "font": {
             "size": 72,
             "align": "left"
@@ -16805,145 +16559,145 @@ var schemeData =
         "indx1_899": {
           "label": "Development",
           "x": 105088,
-          "y": 7636,
+          "y": 9613,
           "id": "indx1_899"
         },
         "indx1_900": {
           "label": "12/1/2019",
           "x": 105217,
-          "y": 7636,
+          "y": 9613,
           "id": "indx1_900"
         },
         "indx1_901": {
           "label": "init",
           "x": 105338,
-          "y": 7636,
+          "y": 9613,
           "id": "indx1_901"
         },
         "indx1_902": {
           "label": "Notes",
           "x": 105064,
-          "y": 6786,
+          "y": 8763,
           "id": "indx1_902"
         },
         "indx1_903": {
           "label": "Dictionary of\nconcepts",
           "x": 105291,
-          "y": 5786,
+          "y": 7763,
           "id": "indx1_903"
         },
         "indx1_904": {
           "label": "Details, thoughts",
           "x": 105238,
-          "y": 6786,
+          "y": 8763,
           "id": "indx1_904"
         },
         "indx1_905": {
           "label": "Sections",
           "x": 105212,
-          "y": 7036,
+          "y": 9013,
           "id": "indx1_905"
         },
         "indx1_906": {
           "label": "Books",
           "x": 105302,
-          "y": 6886,
+          "y": 8863,
           "id": "indx1_906"
         },
         "indx1_907": {
           "label": "R&D institutions",
           "x": 105332,
-          "y": 6911,
+          "y": 8888,
           "id": "indx1_907"
         },
         "indx1_908": {
           "label": "Sites",
           "x": 105298,
-          "y": 6936,
+          "y": 8913,
           "id": "indx1_908"
         },
         "indx1_909": {
           "label": "Magazines",
           "x": 105317,
-          "y": 6961,
+          "y": 8938,
           "id": "indx1_909"
         },
         "indx1_910": {
           "label": "Articles",
           "x": 105305,
-          "y": 6986,
+          "y": 8963,
           "id": "indx1_910"
         },
         "indx1_911": {
           "label": "Media content",
           "x": 105327,
-          "y": 7011,
+          "y": 8988,
           "id": "indx1_911"
         },
         "indx1_912": {
           "label": "Misc. web links",
           "x": 105330,
-          "y": 7036,
+          "y": 9013,
           "id": "indx1_912"
         },
         "indx1_913": {
           "label": "Projects",
           "x": 105308,
-          "y": 7061,
+          "y": 9038,
           "id": "indx1_913"
         },
         "indx1_914": {
           "label": "Tools",
           "x": 105299,
-          "y": 7086,
+          "y": 9063,
           "id": "indx1_914"
         },
         "indx1_915": {
           "label": "Organizations",
           "x": 105326,
-          "y": 7111,
+          "y": 9088,
           "id": "indx1_915"
         },
         "indx1_916": {
           "label": "Standarts",
           "x": 105313,
-          "y": 7136,
+          "y": 9113,
           "id": "indx1_916"
         },
         "indx1_917": {
           "label": "Forums, Groups",
           "x": 105334,
-          "y": 7161,
+          "y": 9138,
           "id": "indx1_917"
         },
         "indx1_918": {
           "label": "Laws",
           "x": 105299,
-          "y": 7186,
+          "y": 9163,
           "id": "indx1_918"
         },
         "indx1_919": {
           "label": "Adjacent Themes",
           "x": 105338,
-          "y": 7211,
+          "y": 9188,
           "id": "indx1_919"
         },
         "indx1_920": {
           "label": "Questions",
           "x": 105078,
-          "y": 7336,
+          "y": 9313,
           "id": "indx1_920"
         },
         "indx1_921": {
           "label": "Problems",
           "x": 105076,
-          "y": 7436,
+          "y": 9413,
           "id": "indx1_921"
         },
         "indx1_922": {
           "label": "Goals",
           "x": 105064,
-          "y": 7536,
+          "y": 9513,
           "id": "indx1_922"
         },
         "indx1_923": {
@@ -16977,7 +16731,7 @@ var schemeData =
           "label": "Lexical\nStructure",
           "id": "indx1_923",
           "x": 109589,
-          "y": 5500,
+          "y": 7477,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -16985,14 +16739,14 @@ var schemeData =
         "indx1_924": {
           "id": "indx1_924",
           "x": 105622,
-          "y": 5376,
+          "y": 7353,
           "label": "Keywords"
         },
         "indx1_925": {
           "label": "abstract",
           "link": "",
           "x": 105862,
-          "y": 4751,
+          "y": 6728,
           "id": "indx1_925",
           "color": {
             "highlight": {
@@ -17033,7 +16787,7 @@ var schemeData =
           "label": "arguments",
           "link": "",
           "x": 105870,
-          "y": 4775,
+          "y": 6752,
           "id": "indx1_926",
           "color": {
             "highlight": {
@@ -17074,7 +16828,7 @@ var schemeData =
           "label": "boolean",
           "link": "",
           "x": 105862,
-          "y": 4799,
+          "y": 6776,
           "id": "indx1_927",
           "color": {
             "highlight": {
@@ -17115,7 +16869,7 @@ var schemeData =
           "label": "break",
           "link": "",
           "x": 105854,
-          "y": 4823,
+          "y": 6800,
           "id": "indx1_928",
           "color": {
             "highlight": {
@@ -17156,7 +16910,7 @@ var schemeData =
           "label": "byte",
           "link": "",
           "x": 105850,
-          "y": 4847,
+          "y": 6824,
           "id": "indx1_929",
           "color": {
             "highlight": {
@@ -17197,7 +16951,7 @@ var schemeData =
           "label": "case",
           "link": "",
           "x": 105851,
-          "y": 4871,
+          "y": 6848,
           "id": "indx1_930",
           "color": {
             "highlight": {
@@ -17238,7 +16992,7 @@ var schemeData =
           "label": "catch",
           "link": "",
           "x": 105853,
-          "y": 4895,
+          "y": 6872,
           "id": "indx1_931",
           "color": {
             "highlight": {
@@ -17279,7 +17033,7 @@ var schemeData =
           "label": "char",
           "link": "",
           "x": 105850,
-          "y": 4919,
+          "y": 6896,
           "id": "indx1_932",
           "color": {
             "highlight": {
@@ -17320,7 +17074,7 @@ var schemeData =
           "label": "const",
           "link": "",
           "x": 105853,
-          "y": 4943,
+          "y": 6920,
           "id": "indx1_933",
           "color": {
             "highlight": {
@@ -17361,7 +17115,7 @@ var schemeData =
           "label": "continue",
           "link": "",
           "x": 105863,
-          "y": 4967,
+          "y": 6944,
           "id": "indx1_934",
           "color": {
             "highlight": {
@@ -17402,7 +17156,7 @@ var schemeData =
           "label": "debugger",
           "link": "",
           "x": 105867,
-          "y": 4991,
+          "y": 6968,
           "id": "indx1_935",
           "color": {
             "highlight": {
@@ -17443,7 +17197,7 @@ var schemeData =
           "label": "default",
           "link": "",
           "x": 105858,
-          "y": 5015,
+          "y": 6992,
           "id": "indx1_936",
           "color": {
             "highlight": {
@@ -17484,7 +17238,7 @@ var schemeData =
           "label": "delete",
           "link": "",
           "x": 105856,
-          "y": 5039,
+          "y": 7016,
           "id": "indx1_937",
           "color": {
             "highlight": {
@@ -17525,7 +17279,7 @@ var schemeData =
           "label": "do",
           "link": "",
           "x": 105844,
-          "y": 5063,
+          "y": 7040,
           "id": "indx1_938",
           "color": {
             "highlight": {
@@ -17566,7 +17320,7 @@ var schemeData =
           "label": "double",
           "link": "",
           "x": 105858,
-          "y": 5087,
+          "y": 7064,
           "id": "indx1_939",
           "color": {
             "highlight": {
@@ -17607,7 +17361,7 @@ var schemeData =
           "label": "else",
           "link": "",
           "x": 105849,
-          "y": 5111,
+          "y": 7088,
           "id": "indx1_940",
           "color": {
             "highlight": {
@@ -17648,7 +17402,7 @@ var schemeData =
           "label": "eval",
           "link": "",
           "x": 105849,
-          "y": 5135,
+          "y": 7112,
           "id": "indx1_941",
           "color": {
             "highlight": {
@@ -17689,7 +17443,7 @@ var schemeData =
           "label": "false",
           "link": "",
           "x": 105851,
-          "y": 5159,
+          "y": 7136,
           "id": "indx1_942",
           "color": {
             "highlight": {
@@ -17730,7 +17484,7 @@ var schemeData =
           "label": "final",
           "link": "",
           "x": 105849,
-          "y": 5183,
+          "y": 7160,
           "id": "indx1_943",
           "color": {
             "highlight": {
@@ -17771,7 +17525,7 @@ var schemeData =
           "label": "finally",
           "link": "",
           "x": 105854,
-          "y": 5207,
+          "y": 7184,
           "id": "indx1_944",
           "color": {
             "highlight": {
@@ -17812,7 +17566,7 @@ var schemeData =
           "label": "float",
           "link": "",
           "x": 105850,
-          "y": 5231,
+          "y": 7208,
           "id": "indx1_945",
           "color": {
             "highlight": {
@@ -17853,7 +17607,7 @@ var schemeData =
           "label": "for",
           "link": "",
           "x": 105845,
-          "y": 5255,
+          "y": 7232,
           "id": "indx1_946",
           "color": {
             "highlight": {
@@ -17894,7 +17648,7 @@ var schemeData =
           "label": "function",
           "link": "",
           "x": 105861,
-          "y": 5279,
+          "y": 7256,
           "id": "indx1_947",
           "color": {
             "highlight": {
@@ -17935,7 +17689,7 @@ var schemeData =
           "label": "goto",
           "link": "",
           "x": 105850,
-          "y": 5303,
+          "y": 7280,
           "id": "indx1_948",
           "color": {
             "highlight": {
@@ -17976,7 +17730,7 @@ var schemeData =
           "label": "if",
           "link": "",
           "x": 105840,
-          "y": 5327,
+          "y": 7304,
           "id": "indx1_949",
           "color": {
             "highlight": {
@@ -18017,7 +17771,7 @@ var schemeData =
           "label": "implements",
           "link": "",
           "x": 105873,
-          "y": 5351,
+          "y": 7328,
           "id": "indx1_950",
           "color": {
             "highlight": {
@@ -18058,7 +17812,7 @@ var schemeData =
           "label": "in",
           "link": "",
           "x": 105842,
-          "y": 5375,
+          "y": 7352,
           "id": "indx1_951",
           "color": {
             "highlight": {
@@ -18099,7 +17853,7 @@ var schemeData =
           "label": "instanceof",
           "link": "",
           "x": 105869,
-          "y": 5399,
+          "y": 7376,
           "id": "indx1_952",
           "color": {
             "highlight": {
@@ -18140,7 +17894,7 @@ var schemeData =
           "label": "int",
           "link": "",
           "x": 105844,
-          "y": 5423,
+          "y": 7400,
           "id": "indx1_953",
           "color": {
             "highlight": {
@@ -18181,7 +17935,7 @@ var schemeData =
           "label": "interface",
           "link": "",
           "x": 105864,
-          "y": 5447,
+          "y": 7424,
           "id": "indx1_954",
           "color": {
             "highlight": {
@@ -18222,7 +17976,7 @@ var schemeData =
           "label": "let",
           "link": "",
           "x": 105844,
-          "y": 5471,
+          "y": 7448,
           "id": "indx1_955",
           "color": {
             "highlight": {
@@ -18263,7 +18017,7 @@ var schemeData =
           "label": "long",
           "link": "",
           "x": 105850,
-          "y": 5495,
+          "y": 7472,
           "id": "indx1_956",
           "color": {
             "highlight": {
@@ -18304,7 +18058,7 @@ var schemeData =
           "label": "native",
           "link": "",
           "x": 105855,
-          "y": 5519,
+          "y": 7496,
           "id": "indx1_957",
           "color": {
             "highlight": {
@@ -18345,7 +18099,7 @@ var schemeData =
           "label": "new",
           "link": "",
           "x": 105849,
-          "y": 5543,
+          "y": 7520,
           "id": "indx1_958",
           "color": {
             "highlight": {
@@ -18386,7 +18140,7 @@ var schemeData =
           "label": "null",
           "link": "",
           "x": 105847,
-          "y": 5567,
+          "y": 7544,
           "id": "indx1_959",
           "color": {
             "highlight": {
@@ -18427,7 +18181,7 @@ var schemeData =
           "label": "package",
           "link": "",
           "x": 105863,
-          "y": 5591,
+          "y": 7568,
           "id": "indx1_960",
           "color": {
             "highlight": {
@@ -18468,7 +18222,7 @@ var schemeData =
           "label": "private",
           "link": "",
           "x": 105858,
-          "y": 5615,
+          "y": 7592,
           "id": "indx1_961",
           "color": {
             "highlight": {
@@ -18509,7 +18263,7 @@ var schemeData =
           "label": "protected",
           "link": "",
           "x": 105866,
-          "y": 5639,
+          "y": 7616,
           "id": "indx1_962",
           "color": {
             "highlight": {
@@ -18550,7 +18304,7 @@ var schemeData =
           "label": "public",
           "link": "",
           "x": 105855,
-          "y": 5663,
+          "y": 7640,
           "id": "indx1_963",
           "color": {
             "highlight": {
@@ -18591,7 +18345,7 @@ var schemeData =
           "label": "return",
           "link": "",
           "x": 105855,
-          "y": 5687,
+          "y": 7664,
           "id": "indx1_964",
           "color": {
             "highlight": {
@@ -18632,7 +18386,7 @@ var schemeData =
           "label": "short",
           "link": "",
           "x": 105852,
-          "y": 5711,
+          "y": 7688,
           "id": "indx1_965",
           "color": {
             "highlight": {
@@ -18673,7 +18427,7 @@ var schemeData =
           "label": "static",
           "link": "",
           "x": 105853,
-          "y": 5735,
+          "y": 7712,
           "id": "indx1_966",
           "color": {
             "highlight": {
@@ -18714,7 +18468,7 @@ var schemeData =
           "label": "switch",
           "link": "",
           "x": 105856,
-          "y": 5759,
+          "y": 7736,
           "id": "indx1_967",
           "color": {
             "highlight": {
@@ -18755,7 +18509,7 @@ var schemeData =
           "label": "synchronized",
           "link": "",
           "x": 105878,
-          "y": 5783,
+          "y": 7760,
           "id": "indx1_968",
           "color": {
             "highlight": {
@@ -18796,7 +18550,7 @@ var schemeData =
           "label": "this",
           "link": "",
           "x": 105847,
-          "y": 5807,
+          "y": 7784,
           "id": "indx1_969",
           "color": {
             "highlight": {
@@ -18837,7 +18591,7 @@ var schemeData =
           "label": "throw",
           "link": "",
           "x": 105854,
-          "y": 5831,
+          "y": 7808,
           "id": "indx1_970",
           "color": {
             "highlight": {
@@ -18878,7 +18632,7 @@ var schemeData =
           "label": "throws",
           "link": "",
           "x": 105857,
-          "y": 5855,
+          "y": 7832,
           "id": "indx1_971",
           "color": {
             "highlight": {
@@ -18919,7 +18673,7 @@ var schemeData =
           "label": "transient",
           "link": "",
           "x": 105864,
-          "y": 5879,
+          "y": 7856,
           "id": "indx1_972",
           "color": {
             "highlight": {
@@ -18960,7 +18714,7 @@ var schemeData =
           "label": "true",
           "link": "",
           "x": 105849,
-          "y": 5903,
+          "y": 7880,
           "id": "indx1_973",
           "color": {
             "highlight": {
@@ -19001,7 +18755,7 @@ var schemeData =
           "label": "try",
           "link": "",
           "x": 105844,
-          "y": 5927,
+          "y": 7904,
           "id": "indx1_974",
           "color": {
             "highlight": {
@@ -19042,7 +18796,7 @@ var schemeData =
           "label": "typeof",
           "link": "",
           "x": 105856,
-          "y": 5951,
+          "y": 7928,
           "id": "indx1_975",
           "color": {
             "highlight": {
@@ -19083,7 +18837,7 @@ var schemeData =
           "label": "var",
           "link": "",
           "x": 105846,
-          "y": 5975,
+          "y": 7952,
           "id": "indx1_976",
           "color": {
             "highlight": {
@@ -19124,7 +18878,7 @@ var schemeData =
           "label": "void",
           "link": "",
           "x": 105849,
-          "y": 5999,
+          "y": 7976,
           "id": "indx1_977",
           "color": {
             "highlight": {
@@ -19165,7 +18919,7 @@ var schemeData =
           "label": "volatile",
           "link": "",
           "x": 105858,
-          "y": 6023,
+          "y": 8000,
           "id": "indx1_978",
           "color": {
             "highlight": {
@@ -19206,7 +18960,7 @@ var schemeData =
           "label": "while",
           "link": "",
           "x": 105852,
-          "y": 6047,
+          "y": 8024,
           "id": "indx1_979",
           "color": {
             "highlight": {
@@ -19247,7 +19001,7 @@ var schemeData =
           "label": "with",
           "link": "",
           "x": 105849,
-          "y": 6071,
+          "y": 8048,
           "id": "indx1_980",
           "color": {
             "highlight": {
@@ -19288,7 +19042,7 @@ var schemeData =
           "label": "yield",
           "link": "",
           "x": 105851,
-          "y": 6095,
+          "y": 8072,
           "id": "indx1_981",
           "color": {
             "highlight": {
@@ -19329,7 +19083,7 @@ var schemeData =
           "label": "ECMAScript 5 new keywords",
           "link": "",
           "x": 105682,
-          "y": 6284,
+          "y": 8261,
           "id": "indx1_982",
           "color": {
             "highlight": {
@@ -19370,7 +19124,7 @@ var schemeData =
           "label": "class",
           "link": "",
           "x": 105868,
-          "y": 6235,
+          "y": 8212,
           "id": "indx1_983",
           "color": {
             "highlight": {
@@ -19411,7 +19165,7 @@ var schemeData =
           "label": "enum",
           "link": "",
           "x": 105870,
-          "y": 6259,
+          "y": 8236,
           "id": "indx1_984",
           "color": {
             "highlight": {
@@ -19452,7 +19206,7 @@ var schemeData =
           "label": "export",
           "link": "",
           "x": 105872,
-          "y": 6283,
+          "y": 8260,
           "id": "indx1_985",
           "color": {
             "highlight": {
@@ -19493,7 +19247,7 @@ var schemeData =
           "label": "extends",
           "link": "",
           "x": 105877,
-          "y": 6307,
+          "y": 8284,
           "id": "indx1_986",
           "color": {
             "highlight": {
@@ -19534,7 +19288,7 @@ var schemeData =
           "label": "import",
           "link": "",
           "x": 105872,
-          "y": 6331,
+          "y": 8308,
           "id": "indx1_987",
           "color": {
             "highlight": {
@@ -19575,7 +19329,7 @@ var schemeData =
           "label": "super",
           "link": "",
           "x": 105870,
-          "y": 6355,
+          "y": 8332,
           "id": "indx1_988",
           "color": {
             "highlight": {
@@ -19615,7 +19369,7 @@ var schemeData =
         "indx1_989": {
           "label": "Scope",
           "x": 104739,
-          "y": 10113,
+          "y": 12090,
           "font": {
             "size": 72,
             "align": "left"
@@ -19632,158 +19386,158 @@ var schemeData =
         "indx1_990": {
           "label": "Development",
           "x": 105039,
-          "y": 10563,
+          "y": 12540,
           "id": "indx1_990"
         },
         "indx1_991": {
           "label": "12/1/2019",
           "x": 105168,
-          "y": 10563,
+          "y": 12540,
           "id": "indx1_991"
         },
         "indx1_992": {
           "label": "init",
           "x": 105289,
-          "y": 10563,
+          "y": 12540,
           "id": "indx1_992"
         },
         "indx1_993": {
           "label": "Notes",
           "x": 105015,
-          "y": 9713,
+          "y": 11690,
           "id": "indx1_993"
         },
         "indx1_994": {
           "label": "Dictionary of\nconcepts",
           "x": 105306,
-          "y": 8861,
+          "y": 10838,
           "id": "indx1_994"
         },
         "indx1_995": {
           "label": "Details, thoughts",
           "x": 105189,
-          "y": 9713,
+          "y": 11690,
           "id": "indx1_995"
         },
         "indx1_996": {
           "label": "Sections",
           "x": 105163,
-          "y": 9963,
+          "y": 11940,
           "id": "indx1_996"
         },
         "indx1_997": {
           "label": "Books",
           "x": 105253,
-          "y": 9813,
+          "y": 11790,
           "id": "indx1_997"
         },
         "indx1_998": {
           "label": "R&D institutions",
           "x": 105283,
-          "y": 9838,
+          "y": 11815,
           "id": "indx1_998"
         },
         "indx1_999": {
           "label": "Sites",
           "x": 105249,
-          "y": 9863,
+          "y": 11840,
           "id": "indx1_999"
         },
         "indx1_1000": {
           "label": "Magazines",
           "x": 105268,
-          "y": 9888,
+          "y": 11865,
           "id": "indx1_1000"
         },
         "indx1_1001": {
           "label": "Articles",
           "x": 105256,
-          "y": 9913,
+          "y": 11890,
           "id": "indx1_1001"
         },
         "indx1_1002": {
           "label": "Media content",
           "x": 105278,
-          "y": 9938,
+          "y": 11915,
           "id": "indx1_1002"
         },
         "indx1_1003": {
           "label": "Misc. web links",
           "x": 105281,
-          "y": 9963,
+          "y": 11940,
           "id": "indx1_1003"
         },
         "indx1_1004": {
           "label": "Projects",
           "x": 105259,
-          "y": 9988,
+          "y": 11965,
           "id": "indx1_1004"
         },
         "indx1_1005": {
           "label": "Tools",
           "x": 105250,
-          "y": 10013,
+          "y": 11990,
           "id": "indx1_1005"
         },
         "indx1_1006": {
           "label": "Organizations",
           "x": 105277,
-          "y": 10038,
+          "y": 12015,
           "id": "indx1_1006"
         },
         "indx1_1007": {
           "label": "Standarts",
           "x": 105264,
-          "y": 10063,
+          "y": 12040,
           "id": "indx1_1007"
         },
         "indx1_1008": {
           "label": "Forums, Groups",
           "x": 105285,
-          "y": 10088,
+          "y": 12065,
           "id": "indx1_1008"
         },
         "indx1_1009": {
           "label": "Laws",
           "x": 105250,
-          "y": 10113,
+          "y": 12090,
           "id": "indx1_1009"
         },
         "indx1_1010": {
           "label": "Adjacent Themes",
           "x": 105289,
-          "y": 10138,
+          "y": 12115,
           "id": "indx1_1010"
         },
         "indx1_1011": {
           "label": "Questions",
           "x": 105029,
-          "y": 10263,
+          "y": 12240,
           "id": "indx1_1011"
         },
         "indx1_1012": {
           "label": "Problems",
           "x": 105027,
-          "y": 10363,
+          "y": 12340,
           "id": "indx1_1012"
         },
         "indx1_1013": {
           "label": "Goals",
           "x": 105015,
-          "y": 10463,
+          "y": 12440,
           "id": "indx1_1013"
         },
         "indx1_1014": {
           "id": "indx1_1014",
           "x": 105560,
-          "y": 8686,
+          "y": 10663,
           "label": "local"
         },
         "indx1_1015": {
           "label": "global",
           "link": "",
           "x": 105564,
-          "y": 8710,
+          "y": 10687,
           "id": "indx1_1015",
           "color": {
             "highlight": {
@@ -19824,7 +19578,7 @@ var schemeData =
           "label": "JS doesn't have block scope",
           "link": "",
           "x": 105635,
-          "y": 8734,
+          "y": 10711,
           "id": "indx1_1016",
           "color": {
             "highlight": {
@@ -19865,7 +19619,7 @@ var schemeData =
           "label": "function scope",
           "link": "",
           "x": 105591,
-          "y": 8758,
+          "y": 10735,
           "id": "indx1_1017",
           "color": {
             "highlight": {
@@ -19906,7 +19660,7 @@ var schemeData =
           "label": "hoisting",
           "link": "",
           "x": 105570,
-          "y": 8782,
+          "y": 10759,
           "id": "indx1_1018",
           "color": {
             "highlight": {
@@ -19947,7 +19701,7 @@ var schemeData =
           "label": "variables are visible before their place of declaration",
           "link": "",
           "x": 105710,
-          "y": 8806,
+          "y": 10783,
           "id": "indx1_1019",
           "color": {
             "highlight": {
@@ -19988,7 +19742,7 @@ var schemeData =
           "label": "No declaration - no assignment",
           "link": "",
           "x": 105644,
-          "y": 8830,
+          "y": 10807,
           "id": "indx1_1020",
           "color": {
             "highlight": {
@@ -20029,7 +19783,7 @@ var schemeData =
           "label": "lexically scoped",
           "link": "",
           "x": 105595,
-          "y": 8854,
+          "y": 10831,
           "id": "indx1_1021",
           "color": {
             "highlight": {
@@ -20070,7 +19824,7 @@ var schemeData =
           "label": "variable resolution",
           "link": "",
           "x": 105603,
-          "y": 8878,
+          "y": 10855,
           "id": "indx1_1022",
           "color": {
             "highlight": {
@@ -20111,7 +19865,7 @@ var schemeData =
           "label": "scope chain",
           "link": "",
           "x": 105583,
-          "y": 9109,
+          "y": 11086,
           "id": "indx1_1023",
           "color": {
             "highlight": {
@@ -20152,7 +19906,7 @@ var schemeData =
           "label": "In top-level JavaScript (i.e. code not contained within any function definitions), the scope chain\nconsists of a single object, the global object",
           "link": "",
           "x": 106007,
-          "y": 8979,
+          "y": 10956,
           "id": "indx1_1024",
           "color": {
             "highlight": {
@@ -20193,7 +19947,7 @@ var schemeData =
           "label": "In a non-nested function, the scope chain consists of two objects. The first is the object\nthat defines the function's parameters and local variable, and the\nsecond is the global object",
           "link": "",
           "x": 105984,
-          "y": 9024,
+          "y": 11001,
           "id": "indx1_1025",
           "color": {
             "highlight": {
@@ -20234,7 +19988,7 @@ var schemeData =
           "label": "In a nested function, the scope chain has three or more objects",
           "link": "",
           "x": 105910,
-          "y": 9062,
+          "y": 11039,
           "id": "indx1_1026",
           "color": {
             "highlight": {
@@ -20275,7 +20029,7 @@ var schemeData =
           "label": "When a function is defined, if stores the scope chain then in effect",
           "link": "",
           "x": 105918,
-          "y": 9086,
+          "y": 11063,
           "id": "indx1_1027",
           "color": {
             "highlight": {
@@ -20316,7 +20070,7 @@ var schemeData =
           "label": "When that function is invoked, it creates a new object to store its local variable, and adds that new object to the stored scope chain to create\na new, longer, chain that represents the scope for that function invocation",
           "link": "",
           "x": 106152,
-          "y": 9117,
+          "y": 11094,
           "id": "indx1_1028",
           "color": {
             "highlight": {
@@ -20357,7 +20111,7 @@ var schemeData =
           "label": "This becomes more interesting for nested functions because each time the outer function is called, the inner function is defined\nagain. Since the scope chain differs on each invocation of the outer function, the inner function will be subtly different\neach time it is defined - the code of the inner function will be identical on each invocation of the outer function,\nbut the scope chain associated with that code will be different",
           "link": "",
           "x": 106111,
-          "y": 9173,
+          "y": 11150,
           "id": "indx1_1029",
           "color": {
             "highlight": {
@@ -20401,7 +20155,7 @@ var schemeData =
         "indx1_1030": {
           "id": "indx1_1030",
           "x": 105988,
-          "y": 9220,
+          "y": 11197,
           "label": "The notion of a scope chain is helpful for understanding the with statement and closures"
         },
         "indx1_1031": {
@@ -20435,7 +20189,7 @@ var schemeData =
           "label": "Scope",
           "id": "indx1_1031",
           "x": 108978,
-          "y": 9164,
+          "y": 11141,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20443,7 +20197,7 @@ var schemeData =
         "indx1_1032": {
           "label": "Functions",
           "x": 105259,
-          "y": 12667,
+          "y": 14644,
           "font": {
             "size": 72,
             "align": "left"
@@ -20460,163 +20214,163 @@ var schemeData =
         "indx1_1033": {
           "label": "Development",
           "x": 105559,
-          "y": 13117,
+          "y": 15094,
           "id": "indx1_1033"
         },
         "indx1_1034": {
           "label": "12/1/2019",
           "x": 105688,
-          "y": 13117,
+          "y": 15094,
           "id": "indx1_1034"
         },
         "indx1_1035": {
           "label": "init",
           "x": 105809,
-          "y": 13117,
+          "y": 15094,
           "id": "indx1_1035"
         },
         "indx1_1036": {
           "label": "Notes",
           "x": 105540,
-          "y": 11981,
+          "y": 13958,
           "id": "indx1_1036"
         },
         "indx1_1037": {
           "label": "Dictionary of\nconcepts",
           "x": 105723,
-          "y": 11350,
+          "y": 13327,
           "id": "indx1_1037"
         },
         "indx1_1038": {
           "label": "Details, thoughts",
           "x": 105713,
-          "y": 11981,
+          "y": 13958,
           "id": "indx1_1038"
         },
         "indx1_1039": {
           "label": "Sections",
           "x": 105683,
-          "y": 12517,
+          "y": 14494,
           "id": "indx1_1039"
         },
         "indx1_1040": {
           "label": "Books",
           "x": 105777,
-          "y": 12081,
+          "y": 14058,
           "id": "indx1_1040"
         },
         "indx1_1041": {
           "label": "R&D institutions",
           "x": 105801,
-          "y": 12253,
+          "y": 14230,
           "id": "indx1_1041"
         },
         "indx1_1042": {
           "label": "Sites",
           "x": 105767,
-          "y": 12278,
+          "y": 14255,
           "id": "indx1_1042"
         },
         "indx1_1043": {
           "label": "Magazines",
           "x": 105786,
-          "y": 12303,
+          "y": 14280,
           "id": "indx1_1043"
         },
         "indx1_1044": {
           "label": "Articles",
           "x": 105774,
-          "y": 12328,
+          "y": 14305,
           "id": "indx1_1044"
         },
         "indx1_1045": {
           "label": "Media content",
           "x": 105796,
-          "y": 12353,
+          "y": 14330,
           "id": "indx1_1045"
         },
         "indx1_1046": {
           "label": "Misc. web links",
           "x": 105801,
-          "y": 12446,
+          "y": 14423,
           "id": "indx1_1046"
         },
         "indx1_1047": {
           "label": "Projects",
           "x": 105779,
-          "y": 12542,
+          "y": 14519,
           "id": "indx1_1047"
         },
         "indx1_1048": {
           "label": "Tools",
           "x": 105770,
-          "y": 12567,
+          "y": 14544,
           "id": "indx1_1048"
         },
         "indx1_1049": {
           "label": "Organizations",
           "x": 105797,
-          "y": 12592,
+          "y": 14569,
           "id": "indx1_1049"
         },
         "indx1_1050": {
           "label": "Standarts",
           "x": 105784,
-          "y": 12617,
+          "y": 14594,
           "id": "indx1_1050"
         },
         "indx1_1051": {
           "label": "Forums, Groups",
           "x": 105805,
-          "y": 12642,
+          "y": 14619,
           "id": "indx1_1051"
         },
         "indx1_1052": {
           "label": "Laws",
           "x": 105770,
-          "y": 12667,
+          "y": 14644,
           "id": "indx1_1052"
         },
         "indx1_1053": {
           "label": "Adjacent Themes",
           "x": 105809,
-          "y": 12692,
+          "y": 14669,
           "id": "indx1_1053"
         },
         "indx1_1054": {
           "label": "Questions",
           "x": 105549,
-          "y": 12817,
+          "y": 14794,
           "id": "indx1_1054"
         },
         "indx1_1055": {
           "label": "Problems",
           "x": 105547,
-          "y": 12917,
+          "y": 14894,
           "id": "indx1_1055"
         },
         "indx1_1056": {
           "label": "Goals",
           "x": 105535,
-          "y": 13017,
+          "y": 14994,
           "id": "indx1_1056"
         },
         "indx1_1057": {
           "id": "indx1_1057",
           "x": 106096,
-          "y": 12086,
+          "y": 14063,
           "label": "JavaScript: The Definitive Guide, 6th Edition"
         },
         "indx1_1058": {
           "id": "indx1_1058",
           "x": 106440,
-          "y": 12120,
+          "y": 14097,
           "label": "Functions as Values"
         },
         "indx1_1059": {
           "id": "indx1_1059",
           "x": 106535,
-          "y": 12068,
+          "y": 14045,
           "label": "http://shop.oreilly.com/product/9780596805531.do",
           "link": "http://shop.oreilly.com/product/9780596805531.do"
         },
@@ -20651,7 +20405,7 @@ var schemeData =
           "label": "Functions",
           "id": "indx1_1060",
           "x": 109728,
-          "y": 11616,
+          "y": 13593,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20659,7 +20413,7 @@ var schemeData =
         "indx1_1061": {
           "label": "Null\ncheck",
           "x": 105549,
-          "y": 14572,
+          "y": 16549,
           "font": {
             "size": 72,
             "align": "left"
@@ -20676,145 +20430,145 @@ var schemeData =
         "indx1_1062": {
           "label": "Development",
           "x": 105849,
-          "y": 15022,
+          "y": 16999,
           "id": "indx1_1062"
         },
         "indx1_1063": {
           "label": "12/1/2019",
           "x": 105978,
-          "y": 15022,
+          "y": 16999,
           "id": "indx1_1063"
         },
         "indx1_1064": {
           "label": "init",
           "x": 106099,
-          "y": 15022,
+          "y": 16999,
           "id": "indx1_1064"
         },
         "indx1_1065": {
           "label": "Notes",
           "x": 105826,
-          "y": 14172,
+          "y": 16149,
           "id": "indx1_1065"
         },
         "indx1_1066": {
           "label": "Dictionary of\nconcepts",
           "x": 106013,
-          "y": 13551,
+          "y": 15528,
           "id": "indx1_1066"
         },
         "indx1_1067": {
           "label": "Details, thoughts",
           "x": 105999,
-          "y": 14172,
+          "y": 16149,
           "id": "indx1_1067"
         },
         "indx1_1068": {
           "label": "Sections",
           "x": 105973,
-          "y": 14422,
+          "y": 16399,
           "id": "indx1_1068"
         },
         "indx1_1069": {
           "label": "Books",
           "x": 106063,
-          "y": 14272,
+          "y": 16249,
           "id": "indx1_1069"
         },
         "indx1_1070": {
           "label": "R&D institutions",
           "x": 106094,
-          "y": 14297,
+          "y": 16274,
           "id": "indx1_1070"
         },
         "indx1_1071": {
           "label": "Sites",
           "x": 106059,
-          "y": 14322,
+          "y": 16299,
           "id": "indx1_1071"
         },
         "indx1_1072": {
           "label": "Magazines",
           "x": 106078,
-          "y": 14347,
+          "y": 16324,
           "id": "indx1_1072"
         },
         "indx1_1073": {
           "label": "Articles",
           "x": 106067,
-          "y": 14372,
+          "y": 16349,
           "id": "indx1_1073"
         },
         "indx1_1074": {
           "label": "Media content",
           "x": 106089,
-          "y": 14397,
+          "y": 16374,
           "id": "indx1_1074"
         },
         "indx1_1075": {
           "label": "Misc. web links",
           "x": 106091,
-          "y": 14422,
+          "y": 16399,
           "id": "indx1_1075"
         },
         "indx1_1076": {
           "label": "Projects",
           "x": 106069,
-          "y": 14447,
+          "y": 16424,
           "id": "indx1_1076"
         },
         "indx1_1077": {
           "label": "Tools",
           "x": 106060,
-          "y": 14472,
+          "y": 16449,
           "id": "indx1_1077"
         },
         "indx1_1078": {
           "label": "Organizations",
           "x": 106088,
-          "y": 14497,
+          "y": 16474,
           "id": "indx1_1078"
         },
         "indx1_1079": {
           "label": "Standarts",
           "x": 106074,
-          "y": 14522,
+          "y": 16499,
           "id": "indx1_1079"
         },
         "indx1_1080": {
           "label": "Forums, Groups",
           "x": 106096,
-          "y": 14547,
+          "y": 16524,
           "id": "indx1_1080"
         },
         "indx1_1081": {
           "label": "Laws",
           "x": 106060,
-          "y": 14572,
+          "y": 16549,
           "id": "indx1_1081"
         },
         "indx1_1082": {
           "label": "Adjacent Themes",
           "x": 106099,
-          "y": 14597,
+          "y": 16574,
           "id": "indx1_1082"
         },
         "indx1_1083": {
           "label": "Questions",
           "x": 105839,
-          "y": 14722,
+          "y": 16699,
           "id": "indx1_1083"
         },
         "indx1_1084": {
           "label": "Problems",
           "x": 105837,
-          "y": 14822,
+          "y": 16799,
           "id": "indx1_1084"
         },
         "indx1_1085": {
           "label": "Goals",
           "x": 105826,
-          "y": 14922,
+          "y": 16899,
           "id": "indx1_1085"
         },
         "indx1_1086": {
@@ -20848,7 +20602,7 @@ var schemeData =
           "label": "Null\ncheck",
           "id": "indx1_1086",
           "x": 108866,
-          "y": 14370,
+          "y": 16347,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -20856,14 +20610,14 @@ var schemeData =
         "indx1_1087": {
           "id": "indx1_1087",
           "x": 106224,
-          "y": 13538,
+          "y": 15515,
           "label": "$.type(some_val) != \"null\""
         },
         "indx1_1088": {
           "label": "check with jQuery",
           "link": "",
           "x": 106419,
-          "y": 13545,
+          "y": 15522,
           "id": "indx1_1088",
           "color": {
             "highlight": {
@@ -21631,7 +21385,7 @@ var schemeData =
           "label": "Сonditional\nstatements",
           "id": "indx1_1149",
           "x": 110061,
-          "y": 21483,
+          "y": 23460,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23418,7 +23172,7 @@ var schemeData =
         "indx1_1195": {
           "label": "Сonditional\nstatements",
           "x": 105837,
-          "y": 21492,
+          "y": 23469,
           "font": {
             "size": 72,
             "align": "left"
@@ -23435,145 +23189,145 @@ var schemeData =
         "indx1_1196": {
           "label": "Development",
           "x": 106137,
-          "y": 21942,
+          "y": 23919,
           "id": "indx1_1196"
         },
         "indx1_1197": {
           "label": "12/1/2019",
           "x": 106266,
-          "y": 21942,
+          "y": 23919,
           "id": "indx1_1197"
         },
         "indx1_1198": {
           "label": "init",
           "x": 106387,
-          "y": 21942,
+          "y": 23919,
           "id": "indx1_1198"
         },
         "indx1_1199": {
           "label": "Notes",
           "x": 106113,
-          "y": 21092,
+          "y": 23069,
           "id": "indx1_1199"
         },
         "indx1_1200": {
           "label": "Dictionary of\nconcepts",
           "x": 106306,
-          "y": 20597,
+          "y": 22574,
           "id": "indx1_1200"
         },
         "indx1_1201": {
           "label": "Details, thoughts",
           "x": 106287,
-          "y": 21092,
+          "y": 23069,
           "id": "indx1_1201"
         },
         "indx1_1202": {
           "label": "Sections",
           "x": 106261,
-          "y": 21342,
+          "y": 23319,
           "id": "indx1_1202"
         },
         "indx1_1203": {
           "label": "Books",
           "x": 106351,
-          "y": 21192,
+          "y": 23169,
           "id": "indx1_1203"
         },
         "indx1_1204": {
           "label": "R&D institutions",
           "x": 106381,
-          "y": 21217,
+          "y": 23194,
           "id": "indx1_1204"
         },
         "indx1_1205": {
           "label": "Sites",
           "x": 106347,
-          "y": 21242,
+          "y": 23219,
           "id": "indx1_1205"
         },
         "indx1_1206": {
           "label": "Magazines",
           "x": 106366,
-          "y": 21267,
+          "y": 23244,
           "id": "indx1_1206"
         },
         "indx1_1207": {
           "label": "Articles",
           "x": 106354,
-          "y": 21292,
+          "y": 23269,
           "id": "indx1_1207"
         },
         "indx1_1208": {
           "label": "Media content",
           "x": 106376,
-          "y": 21317,
+          "y": 23294,
           "id": "indx1_1208"
         },
         "indx1_1209": {
           "label": "Misc. web links",
           "x": 106379,
-          "y": 21342,
+          "y": 23319,
           "id": "indx1_1209"
         },
         "indx1_1210": {
           "label": "Projects",
           "x": 106357,
-          "y": 21367,
+          "y": 23344,
           "id": "indx1_1210"
         },
         "indx1_1211": {
           "label": "Tools",
           "x": 106348,
-          "y": 21392,
+          "y": 23369,
           "id": "indx1_1211"
         },
         "indx1_1212": {
           "label": "Organizations",
           "x": 106375,
-          "y": 21417,
+          "y": 23394,
           "id": "indx1_1212"
         },
         "indx1_1213": {
           "label": "Standarts",
           "x": 106362,
-          "y": 21442,
+          "y": 23419,
           "id": "indx1_1213"
         },
         "indx1_1214": {
           "label": "Forums, Groups",
           "x": 106383,
-          "y": 21467,
+          "y": 23444,
           "id": "indx1_1214"
         },
         "indx1_1215": {
           "label": "Laws",
           "x": 106348,
-          "y": 21492,
+          "y": 23469,
           "id": "indx1_1215"
         },
         "indx1_1216": {
           "label": "Adjacent Themes",
           "x": 106387,
-          "y": 21517,
+          "y": 23494,
           "id": "indx1_1216"
         },
         "indx1_1217": {
           "label": "Questions",
           "x": 106127,
-          "y": 21642,
+          "y": 23619,
           "id": "indx1_1217"
         },
         "indx1_1218": {
           "label": "Problems",
           "x": 106125,
-          "y": 21742,
+          "y": 23719,
           "id": "indx1_1218"
         },
         "indx1_1219": {
           "label": "Goals",
           "x": 106113,
-          "y": 21842,
+          "y": 23819,
           "id": "indx1_1219"
         },
         "indx1_1220": {
@@ -23614,13 +23368,13 @@ var schemeData =
         "indx1_1221": {
           "id": "indx1_1221",
           "x": 106599,
-          "y": 20584,
+          "y": 22561,
           "label": "if (z > 1) {\n   adsf1;\n} else if (z < 1) {\n   asdf2;\n} else {\n   adsf3;\n}"
         },
         "indx1_1222": {
           "label": "Array",
           "x": 117876,
-          "y": 1232,
+          "y": 1448,
           "font": {
             "size": 72,
             "align": "left"
@@ -23637,25 +23391,25 @@ var schemeData =
         "indx1_1223": {
           "label": "Development",
           "x": 118176,
-          "y": 1682,
+          "y": 1898,
           "id": "indx1_1223"
         },
         "indx1_1224": {
           "label": "12/1/2019",
           "x": 118305,
-          "y": 1682,
+          "y": 1898,
           "id": "indx1_1224"
         },
         "indx1_1225": {
           "label": "init",
           "x": 118426,
-          "y": 1682,
+          "y": 1898,
           "id": "indx1_1225"
         },
         "indx1_1226": {
           "label": "Notes",
           "x": 118152,
-          "y": 832,
+          "y": 1048,
           "id": "indx1_1226"
         },
         "indx1_1227": {
@@ -23667,115 +23421,115 @@ var schemeData =
         "indx1_1228": {
           "label": "Details, thoughts",
           "x": 118326,
-          "y": 832,
+          "y": 1048,
           "id": "indx1_1228"
         },
         "indx1_1229": {
           "label": "Sections",
           "x": 118300,
-          "y": 1082,
+          "y": 1298,
           "id": "indx1_1229"
         },
         "indx1_1230": {
           "label": "Books",
           "x": 118390,
-          "y": 932,
+          "y": 1148,
           "id": "indx1_1230"
         },
         "indx1_1231": {
           "label": "R&D institutions",
           "x": 118420,
-          "y": 957,
+          "y": 1173,
           "id": "indx1_1231"
         },
         "indx1_1232": {
           "label": "Sites",
           "x": 118386,
-          "y": 982,
+          "y": 1198,
           "id": "indx1_1232"
         },
         "indx1_1233": {
           "label": "Magazines",
           "x": 118405,
-          "y": 1007,
+          "y": 1223,
           "id": "indx1_1233"
         },
         "indx1_1234": {
           "label": "Articles",
           "x": 118393,
-          "y": 1032,
+          "y": 1248,
           "id": "indx1_1234"
         },
         "indx1_1235": {
           "label": "Media content",
           "x": 118415,
-          "y": 1057,
+          "y": 1273,
           "id": "indx1_1235"
         },
         "indx1_1236": {
           "label": "Misc. web links",
           "x": 118418,
-          "y": 1082,
+          "y": 1298,
           "id": "indx1_1236"
         },
         "indx1_1237": {
           "label": "Projects",
           "x": 118396,
-          "y": 1107,
+          "y": 1323,
           "id": "indx1_1237"
         },
         "indx1_1238": {
           "label": "Tools",
           "x": 118387,
-          "y": 1132,
+          "y": 1348,
           "id": "indx1_1238"
         },
         "indx1_1239": {
           "label": "Organizations",
           "x": 118414,
-          "y": 1157,
+          "y": 1373,
           "id": "indx1_1239"
         },
         "indx1_1240": {
           "label": "Standarts",
           "x": 118401,
-          "y": 1182,
+          "y": 1398,
           "id": "indx1_1240"
         },
         "indx1_1241": {
           "label": "Forums, Groups",
           "x": 118422,
-          "y": 1207,
+          "y": 1423,
           "id": "indx1_1241"
         },
         "indx1_1242": {
           "label": "Laws",
           "x": 118387,
-          "y": 1232,
+          "y": 1448,
           "id": "indx1_1242"
         },
         "indx1_1243": {
           "label": "Adjacent Themes",
           "x": 118426,
-          "y": 1257,
+          "y": 1473,
           "id": "indx1_1243"
         },
         "indx1_1244": {
           "label": "Questions",
           "x": 118166,
-          "y": 1382,
+          "y": 1598,
           "id": "indx1_1244"
         },
         "indx1_1245": {
           "label": "Problems",
           "x": 118164,
-          "y": 1482,
+          "y": 1698,
           "id": "indx1_1245"
         },
         "indx1_1246": {
           "label": "Goals",
           "x": 118152,
-          "y": 1582,
+          "y": 1798,
           "id": "indx1_1246"
         },
         "indx1_1247": {
@@ -24538,7 +24292,7 @@ var schemeData =
         "indx1_1267": {
           "label": "Object",
           "x": 117675,
-          "y": 3883,
+          "y": 4557,
           "font": {
             "size": 72,
             "align": "left"
@@ -24555,158 +24309,158 @@ var schemeData =
         "indx1_1268": {
           "label": "Development",
           "x": 117975,
-          "y": 4333,
+          "y": 5007,
           "id": "indx1_1268"
         },
         "indx1_1269": {
           "label": "12/1/2019",
           "x": 118104,
-          "y": 4333,
+          "y": 5007,
           "id": "indx1_1269"
         },
         "indx1_1270": {
           "label": "init",
           "x": 118225,
-          "y": 4333,
+          "y": 5007,
           "id": "indx1_1270"
         },
         "indx1_1271": {
           "label": "Notes",
           "x": 117952,
-          "y": 3483,
+          "y": 4157,
           "id": "indx1_1271"
         },
         "indx1_1272": {
           "label": "Dictionary of\nconcepts",
           "x": 118112,
-          "y": 2864,
+          "y": 3538,
           "id": "indx1_1272"
         },
         "indx1_1273": {
           "label": "Details, thoughts",
           "x": 118125,
-          "y": 3483,
+          "y": 4157,
           "id": "indx1_1273"
         },
         "indx1_1274": {
           "label": "Sections",
           "x": 118099,
-          "y": 3733,
+          "y": 4407,
           "id": "indx1_1274"
         },
         "indx1_1275": {
           "label": "Books",
           "x": 118189,
-          "y": 3583,
+          "y": 4257,
           "id": "indx1_1275"
         },
         "indx1_1276": {
           "label": "R&D institutions",
           "x": 118220,
-          "y": 3608,
+          "y": 4282,
           "id": "indx1_1276"
         },
         "indx1_1277": {
           "label": "Sites",
           "x": 118185,
-          "y": 3633,
+          "y": 4307,
           "id": "indx1_1277"
         },
         "indx1_1278": {
           "label": "Magazines",
           "x": 118204,
-          "y": 3658,
+          "y": 4332,
           "id": "indx1_1278"
         },
         "indx1_1279": {
           "label": "Articles",
           "x": 118193,
-          "y": 3683,
+          "y": 4357,
           "id": "indx1_1279"
         },
         "indx1_1280": {
           "label": "Media content",
           "x": 118215,
-          "y": 3708,
+          "y": 4382,
           "id": "indx1_1280"
         },
         "indx1_1281": {
           "label": "Misc. web links",
           "x": 118217,
-          "y": 3733,
+          "y": 4407,
           "id": "indx1_1281"
         },
         "indx1_1282": {
           "label": "Projects",
           "x": 118195,
-          "y": 3758,
+          "y": 4432,
           "id": "indx1_1282"
         },
         "indx1_1283": {
           "label": "Tools",
           "x": 118186,
-          "y": 3783,
+          "y": 4457,
           "id": "indx1_1283"
         },
         "indx1_1284": {
           "label": "Organizations",
           "x": 118214,
-          "y": 3808,
+          "y": 4482,
           "id": "indx1_1284"
         },
         "indx1_1285": {
           "label": "Standarts",
           "x": 118200,
-          "y": 3833,
+          "y": 4507,
           "id": "indx1_1285"
         },
         "indx1_1286": {
           "label": "Forums, Groups",
           "x": 118222,
-          "y": 3858,
+          "y": 4532,
           "id": "indx1_1286"
         },
         "indx1_1287": {
           "label": "Laws",
           "x": 118186,
-          "y": 3883,
+          "y": 4557,
           "id": "indx1_1287"
         },
         "indx1_1288": {
           "label": "Adjacent Themes",
           "x": 118225,
-          "y": 3908,
+          "y": 4582,
           "id": "indx1_1288"
         },
         "indx1_1289": {
           "label": "Questions",
           "x": 117965,
-          "y": 4033,
+          "y": 4707,
           "id": "indx1_1289"
         },
         "indx1_1290": {
           "label": "Problems",
           "x": 117963,
-          "y": 4133,
+          "y": 4807,
           "id": "indx1_1290"
         },
         "indx1_1291": {
           "label": "Goals",
           "x": 117952,
-          "y": 4233,
+          "y": 4907,
           "id": "indx1_1291"
         },
         "indx1_1292": {
           "id": "indx1_1292",
           "x": 118417,
-          "y": 2535,
+          "y": 3209,
           "label": "var obj = {key: \"z\"};"
         },
         "indx1_1293": {
           "label": "obj[\"key]",
           "link": "",
           "x": 118384,
-          "y": 2575,
+          "y": 3249,
           "id": "indx1_1293",
           "color": {
             "highlight": {
@@ -24747,7 +24501,7 @@ var schemeData =
           "label": "Check key in hash",
           "link": "",
           "x": 118415,
-          "y": 2632,
+          "y": 3306,
           "id": "indx1_1294",
           "color": {
             "highlight": {
@@ -24788,7 +24542,7 @@ var schemeData =
           "label": "\"key\" in obj",
           "link": "",
           "x": 118584,
-          "y": 2615,
+          "y": 3289,
           "id": "indx1_1295",
           "color": {
             "highlight": {
@@ -24829,7 +24583,7 @@ var schemeData =
           "label": "!(\"key\" in obj)",
           "link": "",
           "x": 118591,
-          "y": 2674,
+          "y": 3348,
           "id": "indx1_1296",
           "color": {
             "highlight": {
@@ -24870,7 +24624,7 @@ var schemeData =
           "label": "Use parenthesis",
           "link": "",
           "x": 118728,
-          "y": 2676,
+          "y": 3350,
           "id": "indx1_1297",
           "color": {
             "highlight": {
@@ -24938,7 +24692,7 @@ var schemeData =
           "label": "Object",
           "id": "indx1_1298",
           "x": 121089,
-          "y": 2883,
+          "y": 3557,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24946,7 +24700,7 @@ var schemeData =
         "indx1_1299": {
           "label": "String",
           "x": 117753,
-          "y": 9660,
+          "y": 11078,
           "font": {
             "size": 72,
             "align": "left"
@@ -24963,158 +24717,158 @@ var schemeData =
         "indx1_1300": {
           "label": "Development",
           "x": 118053,
-          "y": 10110,
+          "y": 11528,
           "id": "indx1_1300"
         },
         "indx1_1301": {
           "label": "12/1/2019",
           "x": 118182,
-          "y": 10110,
+          "y": 11528,
           "id": "indx1_1301"
         },
         "indx1_1302": {
           "label": "init",
           "x": 118303,
-          "y": 10110,
+          "y": 11528,
           "id": "indx1_1302"
         },
         "indx1_1303": {
           "label": "Notes",
           "x": 118030,
-          "y": 9260,
+          "y": 10678,
           "id": "indx1_1303"
         },
         "indx1_1304": {
           "label": "Dictionary of\nconcepts",
           "x": 118268,
-          "y": 7803,
+          "y": 8477,
           "id": "indx1_1304"
         },
         "indx1_1305": {
           "label": "Details, thoughts",
           "x": 118203,
-          "y": 9260,
+          "y": 10678,
           "id": "indx1_1305"
         },
         "indx1_1306": {
           "label": "Sections",
           "x": 118177,
-          "y": 9510,
+          "y": 10928,
           "id": "indx1_1306"
         },
         "indx1_1307": {
           "label": "Books",
           "x": 118267,
-          "y": 9360,
+          "y": 10778,
           "id": "indx1_1307"
         },
         "indx1_1308": {
           "label": "R&D institutions",
           "x": 118298,
-          "y": 9385,
+          "y": 10803,
           "id": "indx1_1308"
         },
         "indx1_1309": {
           "label": "Sites",
           "x": 118263,
-          "y": 9410,
+          "y": 10828,
           "id": "indx1_1309"
         },
         "indx1_1310": {
           "label": "Magazines",
           "x": 118282,
-          "y": 9435,
+          "y": 10853,
           "id": "indx1_1310"
         },
         "indx1_1311": {
           "label": "Articles",
           "x": 118271,
-          "y": 9460,
+          "y": 10878,
           "id": "indx1_1311"
         },
         "indx1_1312": {
           "label": "Media content",
           "x": 118293,
-          "y": 9485,
+          "y": 10903,
           "id": "indx1_1312"
         },
         "indx1_1313": {
           "label": "Misc. web links",
           "x": 118295,
-          "y": 9510,
+          "y": 10928,
           "id": "indx1_1313"
         },
         "indx1_1314": {
           "label": "Projects",
           "x": 118273,
-          "y": 9535,
+          "y": 10953,
           "id": "indx1_1314"
         },
         "indx1_1315": {
           "label": "Tools",
           "x": 118264,
-          "y": 9560,
+          "y": 10978,
           "id": "indx1_1315"
         },
         "indx1_1316": {
           "label": "Organizations",
           "x": 118292,
-          "y": 9585,
+          "y": 11003,
           "id": "indx1_1316"
         },
         "indx1_1317": {
           "label": "Standarts",
           "x": 118278,
-          "y": 9610,
+          "y": 11028,
           "id": "indx1_1317"
         },
         "indx1_1318": {
           "label": "Forums, Groups",
           "x": 118300,
-          "y": 9635,
+          "y": 11053,
           "id": "indx1_1318"
         },
         "indx1_1319": {
           "label": "Laws",
           "x": 118264,
-          "y": 9660,
+          "y": 11078,
           "id": "indx1_1319"
         },
         "indx1_1320": {
           "label": "Adjacent Themes",
           "x": 118303,
-          "y": 9685,
+          "y": 11103,
           "id": "indx1_1320"
         },
         "indx1_1321": {
           "label": "Questions",
           "x": 118043,
-          "y": 9810,
+          "y": 11228,
           "id": "indx1_1321"
         },
         "indx1_1322": {
           "label": "Problems",
           "x": 118041,
-          "y": 9910,
+          "y": 11328,
           "id": "indx1_1322"
         },
         "indx1_1323": {
           "label": "Goals",
           "x": 118030,
-          "y": 10010,
+          "y": 11428,
           "id": "indx1_1323"
         },
         "indx1_1324": {
           "id": "indx1_1324",
           "x": 118502,
-          "y": 6432,
+          "y": 7106,
           "label": "Regex"
         },
         "indx1_1325": {
           "label": "Groups",
           "link": "",
           "x": 118678,
-          "y": 5089,
+          "y": 5763,
           "id": "indx1_1325",
           "color": {
             "highlight": {
@@ -25155,7 +24909,7 @@ var schemeData =
           "label": "()",
           "link": "",
           "x": 118924,
-          "y": 5078,
+          "y": 5752,
           "id": "indx1_1326",
           "color": {
             "highlight": {
@@ -25196,7 +24950,7 @@ var schemeData =
           "label": "$1",
           "link": "",
           "x": 118927,
-          "y": 5102,
+          "y": 5776,
           "id": "indx1_1327",
           "color": {
             "highlight": {
@@ -25237,7 +24991,7 @@ var schemeData =
           "label": "replace(/(.*)/, \"$1\")",
           "link": "",
           "x": 119116,
-          "y": 5098,
+          "y": 5772,
           "id": "indx1_1328",
           "color": {
             "highlight": {
@@ -25278,7 +25032,7 @@ var schemeData =
           "label": "Regex modifiers",
           "link": "",
           "x": 118706,
-          "y": 5237,
+          "y": 5911,
           "id": "indx1_1329",
           "color": {
             "highlight": {
@@ -25319,7 +25073,7 @@ var schemeData =
           "label": "* - zero or more",
           "link": "",
           "x": 118969,
-          "y": 5174,
+          "y": 5848,
           "id": "indx1_1330",
           "color": {
             "highlight": {
@@ -25360,7 +25114,7 @@ var schemeData =
           "label": "*? - zero or more (non-greedy)",
           "link": "",
           "x": 119016,
-          "y": 5198,
+          "y": 5872,
           "id": "indx1_1331",
           "color": {
             "highlight": {
@@ -25401,7 +25155,7 @@ var schemeData =
           "label": "+ - one or more",
           "link": "",
           "x": 118968,
-          "y": 5222,
+          "y": 5896,
           "id": "indx1_1332",
           "color": {
             "highlight": {
@@ -25442,7 +25196,7 @@ var schemeData =
           "label": "+? - one or more (non-greedy)",
           "link": "",
           "x": 119016,
-          "y": 5246,
+          "y": 5920,
           "id": "indx1_1333",
           "color": {
             "highlight": {
@@ -25483,7 +25237,7 @@ var schemeData =
           "label": "? - zero or one",
           "link": "",
           "x": 118966,
-          "y": 5270,
+          "y": 5944,
           "id": "indx1_1334",
           "color": {
             "highlight": {
@@ -25524,7 +25278,7 @@ var schemeData =
           "label": "?? - zero or one (non-greedy)",
           "link": "",
           "x": 119013,
-          "y": 5294,
+          "y": 5968,
           "id": "indx1_1335",
           "color": {
             "highlight": {
@@ -25565,7 +25319,7 @@ var schemeData =
           "label": "replace",
           "link": "",
           "x": 118436,
-          "y": 7541,
+          "y": 8215,
           "id": "indx1_1336",
           "color": {
             "highlight": {
@@ -25606,7 +25360,7 @@ var schemeData =
           "label": "str.replace(\"asdf\", \"111\")",
           "link": "",
           "x": 118725,
-          "y": 7479,
+          "y": 8153,
           "id": "indx1_1337",
           "color": {
             "highlight": {
@@ -25647,7 +25401,7 @@ var schemeData =
           "label": "str.replace(/asdf/g, \"asdf\");",
           "link": "",
           "x": 118731,
-          "y": 7560,
+          "y": 8234,
           "id": "indx1_1338",
           "color": {
             "highlight": {
@@ -25688,7 +25442,7 @@ var schemeData =
           "label": "g - global",
           "link": "",
           "x": 118931,
-          "y": 7523,
+          "y": 8197,
           "id": "indx1_1339",
           "color": {
             "highlight": {
@@ -25729,7 +25483,7 @@ var schemeData =
           "label": "i - case-intensitive",
           "link": "",
           "x": 118959,
-          "y": 7547,
+          "y": 8221,
           "id": "indx1_1340",
           "color": {
             "highlight": {
@@ -25770,7 +25524,7 @@ var schemeData =
           "label": "$ - end of string",
           "link": "",
           "x": 118952,
-          "y": 7571,
+          "y": 8245,
           "id": "indx1_1341",
           "color": {
             "highlight": {
@@ -25811,7 +25565,7 @@ var schemeData =
           "label": "^ - start of string",
           "link": "",
           "x": 118953,
-          "y": 7595,
+          "y": 8269,
           "id": "indx1_1342",
           "color": {
             "highlight": {
@@ -25852,7 +25606,7 @@ var schemeData =
           "label": "string -> int",
           "link": "",
           "x": 118448,
-          "y": 7715,
+          "y": 8389,
           "id": "indx1_1343",
           "color": {
             "highlight": {
@@ -25893,7 +25647,7 @@ var schemeData =
           "label": "parseInt(\"10\") -> 10",
           "link": "",
           "x": 118710,
-          "y": 7716,
+          "y": 8390,
           "id": "indx1_1344",
           "color": {
             "highlight": {
@@ -25934,7 +25688,7 @@ var schemeData =
           "label": "str.length",
           "link": "",
           "x": 118676,
-          "y": 7776,
+          "y": 8450,
           "id": "indx1_1345",
           "color": {
             "highlight": {
@@ -25972,10 +25726,10 @@ var schemeData =
           "shapeProperties": {}
         },
         "indx1_1346": {
-          "label": "str.substing(0, 10)",
+          "label": "str.substring(0, 10)",
           "link": "",
-          "x": 118704,
-          "y": 7822,
+          "x": 118707,
+          "y": 8496,
           "id": "indx1_1346",
           "color": {
             "highlight": {
@@ -25987,7 +25741,7 @@ var schemeData =
               "background": "#D2E5FF"
             },
             "background": "#ffd570",
-            "border": "#2B7CE9"
+            "border": ""
           },
           "fixed": {
             "x": false,
@@ -25997,7 +25751,9 @@ var schemeData =
             "bold": {},
             "boldital": {},
             "ital": {},
-            "mono": {}
+            "mono": {},
+            "size": 14,
+            "align": "left"
           },
           "icon": {},
           "imagePadding": {},
@@ -26010,13 +25766,15 @@ var schemeData =
           "shadow": {
             "enabled": false
           },
-          "shapeProperties": {}
+          "shapeProperties": {},
+          "shape": "box",
+          "borderWidth": ""
         },
         "indx1_1347": {
           "label": "cut string, return chars from one to ten",
           "link": "",
           "x": 119024,
-          "y": 7818,
+          "y": 8492,
           "id": "indx1_1347",
           "color": {
             "highlight": {
@@ -26057,7 +25815,7 @@ var schemeData =
           "label": "parseInt",
           "link": "",
           "x": 118438,
-          "y": 7880,
+          "y": 8554,
           "id": "indx1_1348",
           "color": {
             "highlight": {
@@ -26098,7 +25856,7 @@ var schemeData =
           "label": "parseInt(text, 10)",
           "link": "",
           "x": 118702,
-          "y": 7881,
+          "y": 8555,
           "id": "indx1_1349",
           "color": {
             "highlight": {
@@ -26143,7 +25901,7 @@ var schemeData =
           "label": "always use 10",
           "link": "",
           "x": 118947,
-          "y": 7876,
+          "y": 8550,
           "id": "indx1_1350",
           "color": {
             "highlight": {
@@ -26187,14 +25945,14 @@ var schemeData =
         "indx1_1351": {
           "id": "indx1_1351",
           "x": 118445,
-          "y": 7958,
+          "y": 8632,
           "label": "String(obj)"
         },
         "indx1_1352": {
           "label": "Convert different objects to string",
           "link": "",
           "x": 118752,
-          "y": 7956,
+          "y": 8630,
           "id": "indx1_1352",
           "color": {
             "highlight": {
@@ -26235,7 +25993,7 @@ var schemeData =
           "label": "split(\" \")",
           "link": "",
           "x": 118672,
-          "y": 8004,
+          "y": 8678,
           "id": "indx1_1353",
           "color": {
             "highlight": {
@@ -26276,7 +26034,7 @@ var schemeData =
           "label": "escape(string)",
           "link": "",
           "x": 118458,
-          "y": 8047,
+          "y": 8721,
           "id": "indx1_1354",
           "color": {
             "highlight": {
@@ -26317,7 +26075,7 @@ var schemeData =
           "label": "unescape(string)",
           "link": "",
           "x": 118466,
-          "y": 8077,
+          "y": 8751,
           "id": "indx1_1355",
           "color": {
             "highlight": {
@@ -26358,7 +26116,7 @@ var schemeData =
           "label": "repeat",
           "link": "",
           "x": 118433,
-          "y": 8113,
+          "y": 8787,
           "id": "indx1_1356",
           "color": {
             "highlight": {
@@ -26399,7 +26157,7 @@ var schemeData =
           "label": "\"some string\".repeat(5)",
           "link": "",
           "x": 118721,
-          "y": 8109,
+          "y": 8783,
           "id": "indx1_1357",
           "color": {
             "highlight": {
@@ -26440,7 +26198,7 @@ var schemeData =
           "label": "trim()",
           "link": "",
           "x": 118429,
-          "y": 8145,
+          "y": 8819,
           "id": "indx1_1358",
           "color": {
             "highlight": {
@@ -26481,7 +26239,7 @@ var schemeData =
           "label": "like strip() in Ruby",
           "link": "",
           "x": 118704,
-          "y": 8146,
+          "y": 8820,
           "id": "indx1_1359",
           "color": {
             "highlight": {
@@ -26522,7 +26280,7 @@ var schemeData =
           "label": "Cases",
           "link": "",
           "x": 118429,
-          "y": 8201,
+          "y": 8875,
           "id": "indx1_1360",
           "color": {
             "highlight": {
@@ -26567,7 +26325,7 @@ var schemeData =
           "label": "remove first char in string",
           "link": "",
           "x": 118730,
-          "y": 8197,
+          "y": 8871,
           "id": "indx1_1361",
           "color": {
             "highlight": {
@@ -26608,7 +26366,7 @@ var schemeData =
           "label": "someString.slice(1)",
           "link": "",
           "x": 118963,
-          "y": 8197,
+          "y": 8871,
           "id": "indx1_1362",
           "color": {
             "highlight": {
@@ -26649,7 +26407,7 @@ var schemeData =
           "label": "remove last char in string",
           "link": "",
           "x": 118727,
-          "y": 8245,
+          "y": 8919,
           "id": "indx1_1363",
           "color": {
             "highlight": {
@@ -26690,7 +26448,7 @@ var schemeData =
           "label": "someString.slice(0, -1)",
           "link": "",
           "x": 118973,
-          "y": 8247,
+          "y": 8921,
           "id": "indx1_1364",
           "color": {
             "highlight": {
@@ -26731,7 +26489,7 @@ var schemeData =
           "label": "split string in n-size chunks",
           "link": "",
           "x": 118497,
-          "y": 8323,
+          "y": 8997,
           "id": "indx1_1365",
           "color": {
             "highlight": {
@@ -26772,7 +26530,7 @@ var schemeData =
           "label": "str.match(/.{1,n}/g);",
           "link": "",
           "x": 118708,
-          "y": 8309,
+          "y": 8983,
           "id": "indx1_1366",
           "color": {
             "highlight": {
@@ -26813,7 +26571,7 @@ var schemeData =
           "label": "str.match(/.|[\\r\\n]{1,n}/g)",
           "link": "",
           "x": 118725,
-          "y": 8346,
+          "y": 9020,
           "id": "indx1_1367",
           "color": {
             "highlight": {
@@ -26858,7 +26616,7 @@ var schemeData =
           "label": "if there are new lines in text",
           "link": "",
           "x": 118989,
-          "y": 8344,
+          "y": 9018,
           "id": "indx1_1368",
           "color": {
             "highlight": {
@@ -26899,7 +26657,7 @@ var schemeData =
           "label": "String starts with",
           "link": "",
           "x": 118465,
-          "y": 8424,
+          "y": 9098,
           "id": "indx1_1369",
           "color": {
             "highlight": {
@@ -26980,25 +26738,25 @@ var schemeData =
         "indx1_1371": {
           "id": "indx1_1371",
           "x": 118767,
-          "y": 8426,
+          "y": 9100,
           "label": "haystack.lastIndexOf(needle, 0) === 0"
         },
         "indx1_1372": {
           "id": "indx1_1372",
           "x": 118432,
-          "y": 7777,
+          "y": 8451,
           "label": "length"
         },
         "indx1_1373": {
           "id": "indx1_1373",
           "x": 118441,
-          "y": 7819,
+          "y": 8493,
           "label": "substring"
         },
         "indx1_1374": {
           "id": "indx1_1374",
           "x": 118425,
-          "y": 8002,
+          "y": 8676,
           "label": "split"
         },
         "indx1_1375": {
@@ -27032,7 +26790,7 @@ var schemeData =
           "label": "String",
           "id": "indx1_1375",
           "x": 120950,
-          "y": 5581,
+          "y": 6255,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27040,7 +26798,7 @@ var schemeData =
         "indx1_1376": {
           "label": "Number",
           "x": 117731,
-          "y": 12535,
+          "y": 13209,
           "font": {
             "size": 72,
             "align": "left"
@@ -27057,158 +26815,158 @@ var schemeData =
         "indx1_1377": {
           "label": "Development",
           "x": 118031,
-          "y": 12985,
+          "y": 13659,
           "id": "indx1_1377"
         },
         "indx1_1378": {
           "label": "12/1/2019",
           "x": 118160,
-          "y": 12985,
+          "y": 13659,
           "id": "indx1_1378"
         },
         "indx1_1379": {
           "label": "init",
           "x": 118281,
-          "y": 12985,
+          "y": 13659,
           "id": "indx1_1379"
         },
         "indx1_1380": {
           "label": "Notes",
           "x": 118007,
-          "y": 12135,
+          "y": 12809,
           "id": "indx1_1380"
         },
         "indx1_1381": {
           "label": "Dictionary of\nconcepts",
           "x": 118164,
-          "y": 11580,
+          "y": 12254,
           "id": "indx1_1381"
         },
         "indx1_1382": {
           "label": "Details, thoughts",
           "x": 118181,
-          "y": 12135,
+          "y": 12809,
           "id": "indx1_1382"
         },
         "indx1_1383": {
           "label": "Sections",
           "x": 118155,
-          "y": 12385,
+          "y": 13059,
           "id": "indx1_1383"
         },
         "indx1_1384": {
           "label": "Books",
           "x": 118245,
-          "y": 12235,
+          "y": 12909,
           "id": "indx1_1384"
         },
         "indx1_1385": {
           "label": "R&D institutions",
           "x": 118275,
-          "y": 12260,
+          "y": 12934,
           "id": "indx1_1385"
         },
         "indx1_1386": {
           "label": "Sites",
           "x": 118241,
-          "y": 12285,
+          "y": 12959,
           "id": "indx1_1386"
         },
         "indx1_1387": {
           "label": "Magazines",
           "x": 118260,
-          "y": 12310,
+          "y": 12984,
           "id": "indx1_1387"
         },
         "indx1_1388": {
           "label": "Articles",
           "x": 118248,
-          "y": 12335,
+          "y": 13009,
           "id": "indx1_1388"
         },
         "indx1_1389": {
           "label": "Media content",
           "x": 118270,
-          "y": 12360,
+          "y": 13034,
           "id": "indx1_1389"
         },
         "indx1_1390": {
           "label": "Misc. web links",
           "x": 118273,
-          "y": 12385,
+          "y": 13059,
           "id": "indx1_1390"
         },
         "indx1_1391": {
           "label": "Projects",
           "x": 118251,
-          "y": 12410,
+          "y": 13084,
           "id": "indx1_1391"
         },
         "indx1_1392": {
           "label": "Tools",
           "x": 118242,
-          "y": 12435,
+          "y": 13109,
           "id": "indx1_1392"
         },
         "indx1_1393": {
           "label": "Organizations",
           "x": 118269,
-          "y": 12460,
+          "y": 13134,
           "id": "indx1_1393"
         },
         "indx1_1394": {
           "label": "Standarts",
           "x": 118256,
-          "y": 12485,
+          "y": 13159,
           "id": "indx1_1394"
         },
         "indx1_1395": {
           "label": "Forums, Groups",
           "x": 118277,
-          "y": 12510,
+          "y": 13184,
           "id": "indx1_1395"
         },
         "indx1_1396": {
           "label": "Laws",
           "x": 118242,
-          "y": 12535,
+          "y": 13209,
           "id": "indx1_1396"
         },
         "indx1_1397": {
           "label": "Adjacent Themes",
           "x": 118281,
-          "y": 12560,
+          "y": 13234,
           "id": "indx1_1397"
         },
         "indx1_1398": {
           "label": "Questions",
           "x": 118021,
-          "y": 12685,
+          "y": 13359,
           "id": "indx1_1398"
         },
         "indx1_1399": {
           "label": "Problems",
           "x": 118019,
-          "y": 12785,
+          "y": 13459,
           "id": "indx1_1399"
         },
         "indx1_1400": {
           "label": "Goals",
           "x": 118007,
-          "y": 12885,
+          "y": 13559,
           "id": "indx1_1400"
         },
         "indx1_1401": {
           "id": "indx1_1401",
           "x": 118422,
-          "y": 11450,
+          "y": 12124,
           "label": "num.toString()"
         },
         "indx1_1402": {
           "label": "quotient",
           "link": "",
           "x": 118402,
-          "y": 11497,
+          "y": 12171,
           "id": "indx1_1402",
           "color": {
             "highlight": {
@@ -27249,7 +27007,7 @@ var schemeData =
           "label": "Math.floor(x/y)",
           "link": "",
           "x": 118663,
-          "y": 11495,
+          "y": 12169,
           "id": "indx1_1403",
           "color": {
             "highlight": {
@@ -27290,7 +27048,7 @@ var schemeData =
           "label": "remainder",
           "link": "",
           "x": 118409,
-          "y": 11545,
+          "y": 12219,
           "id": "indx1_1404",
           "color": {
             "highlight": {
@@ -27331,7 +27089,7 @@ var schemeData =
           "label": "x % y",
           "link": "",
           "x": 118634,
-          "y": 11544,
+          "y": 12218,
           "id": "indx1_1405",
           "color": {
             "highlight": {
@@ -27372,7 +27130,7 @@ var schemeData =
           "label": "Raise to power",
           "link": "",
           "x": 118424,
-          "y": 11593,
+          "y": 12267,
           "id": "indx1_1406",
           "color": {
             "highlight": {
@@ -27413,7 +27171,7 @@ var schemeData =
           "label": "Math.pow(4, 2) -> 16",
           "link": "",
           "x": 118684,
-          "y": 11592,
+          "y": 12266,
           "id": "indx1_1407",
           "color": {
             "highlight": {
@@ -27454,7 +27212,7 @@ var schemeData =
           "label": "Round",
           "link": "",
           "x": 118397,
-          "y": 11641,
+          "y": 12315,
           "id": "indx1_1408",
           "color": {
             "highlight": {
@@ -27495,7 +27253,7 @@ var schemeData =
           "label": "parseFloat(val.toFixed(5))",
           "link": "",
           "x": 118700,
-          "y": 11638,
+          "y": 12312,
           "id": "indx1_1409",
           "color": {
             "highlight": {
@@ -27536,7 +27294,7 @@ var schemeData =
           "label": "toFixed - return string",
           "link": "",
           "x": 118933,
-          "y": 11630,
+          "y": 12304,
           "id": "indx1_1410",
           "color": {
             "highlight": {
@@ -27604,7 +27362,7 @@ var schemeData =
           "label": "Number",
           "id": "indx1_1411",
           "x": 121338,
-          "y": 11845,
+          "y": 12519,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27612,7 +27370,7 @@ var schemeData =
         "indx1_1412": {
           "label": "Logic",
           "x": 117859,
-          "y": 14718,
+          "y": 15392,
           "font": {
             "size": 72,
             "align": "left"
@@ -27629,158 +27387,158 @@ var schemeData =
         "indx1_1413": {
           "label": "Development",
           "x": 118159,
-          "y": 15168,
+          "y": 15842,
           "id": "indx1_1413"
         },
         "indx1_1414": {
           "label": "12/1/2019",
           "x": 118288,
-          "y": 15168,
+          "y": 15842,
           "id": "indx1_1414"
         },
         "indx1_1415": {
           "label": "init",
           "x": 118409,
-          "y": 15168,
+          "y": 15842,
           "id": "indx1_1415"
         },
         "indx1_1416": {
           "label": "Notes",
           "x": 118135,
-          "y": 14318,
+          "y": 14992,
           "id": "indx1_1416"
         },
         "indx1_1417": {
           "label": "Dictionary of\nconcepts",
           "x": 118328,
-          "y": 13799,
+          "y": 14473,
           "id": "indx1_1417"
         },
         "indx1_1418": {
           "label": "Details, thoughts",
           "x": 118309,
-          "y": 14318,
+          "y": 14992,
           "id": "indx1_1418"
         },
         "indx1_1419": {
           "label": "Sections",
           "x": 118283,
-          "y": 14568,
+          "y": 15242,
           "id": "indx1_1419"
         },
         "indx1_1420": {
           "label": "Books",
           "x": 118373,
-          "y": 14418,
+          "y": 15092,
           "id": "indx1_1420"
         },
         "indx1_1421": {
           "label": "R&D institutions",
           "x": 118403,
-          "y": 14443,
+          "y": 15117,
           "id": "indx1_1421"
         },
         "indx1_1422": {
           "label": "Sites",
           "x": 118369,
-          "y": 14468,
+          "y": 15142,
           "id": "indx1_1422"
         },
         "indx1_1423": {
           "label": "Magazines",
           "x": 118388,
-          "y": 14493,
+          "y": 15167,
           "id": "indx1_1423"
         },
         "indx1_1424": {
           "label": "Articles",
           "x": 118376,
-          "y": 14518,
+          "y": 15192,
           "id": "indx1_1424"
         },
         "indx1_1425": {
           "label": "Media content",
           "x": 118398,
-          "y": 14543,
+          "y": 15217,
           "id": "indx1_1425"
         },
         "indx1_1426": {
           "label": "Misc. web links",
           "x": 118401,
-          "y": 14568,
+          "y": 15242,
           "id": "indx1_1426"
         },
         "indx1_1427": {
           "label": "Projects",
           "x": 118379,
-          "y": 14593,
+          "y": 15267,
           "id": "indx1_1427"
         },
         "indx1_1428": {
           "label": "Tools",
           "x": 118370,
-          "y": 14618,
+          "y": 15292,
           "id": "indx1_1428"
         },
         "indx1_1429": {
           "label": "Organizations",
           "x": 118397,
-          "y": 14643,
+          "y": 15317,
           "id": "indx1_1429"
         },
         "indx1_1430": {
           "label": "Standarts",
           "x": 118384,
-          "y": 14668,
+          "y": 15342,
           "id": "indx1_1430"
         },
         "indx1_1431": {
           "label": "Forums, Groups",
           "x": 118405,
-          "y": 14693,
+          "y": 15367,
           "id": "indx1_1431"
         },
         "indx1_1432": {
           "label": "Laws",
           "x": 118370,
-          "y": 14718,
+          "y": 15392,
           "id": "indx1_1432"
         },
         "indx1_1433": {
           "label": "Adjacent Themes",
           "x": 118409,
-          "y": 14743,
+          "y": 15417,
           "id": "indx1_1433"
         },
         "indx1_1434": {
           "label": "Questions",
           "x": 118149,
-          "y": 14868,
+          "y": 15542,
           "id": "indx1_1434"
         },
         "indx1_1435": {
           "label": "Problems",
           "x": 118147,
-          "y": 14968,
+          "y": 15642,
           "id": "indx1_1435"
         },
         "indx1_1436": {
           "label": "Goals",
           "x": 118135,
-          "y": 15068,
+          "y": 15742,
           "id": "indx1_1436"
         },
         "indx1_1437": {
           "id": "indx1_1437",
           "x": 118577,
-          "y": 13593,
+          "y": 14267,
           "label": "$.type(some_val) !== null"
         },
         "indx1_1438": {
           "label": "check with jQuery",
           "link": "",
           "x": 118795,
-          "y": 13592,
+          "y": 14266,
           "id": "indx1_1438",
           "color": {
             "highlight": {
@@ -27821,7 +27579,7 @@ var schemeData =
           "label": "&& - and",
           "link": "",
           "x": 118525,
-          "y": 13665,
+          "y": 14339,
           "id": "indx1_1439",
           "color": {
             "highlight": {
@@ -27862,7 +27620,7 @@ var schemeData =
           "label": "|| - or",
           "link": "",
           "x": 118514,
-          "y": 13689,
+          "y": 14363,
           "id": "indx1_1440",
           "color": {
             "highlight": {
@@ -27903,7 +27661,7 @@ var schemeData =
           "label": "! - not",
           "link": "",
           "x": 118516,
-          "y": 13713,
+          "y": 14387,
           "id": "indx1_1441",
           "color": {
             "highlight": {
@@ -27944,7 +27702,7 @@ var schemeData =
           "label": "Comparison operators",
           "link": "",
           "x": 118567,
-          "y": 13790,
+          "y": 14464,
           "id": "indx1_1442",
           "color": {
             "highlight": {
@@ -27985,7 +27743,7 @@ var schemeData =
           "label": "==",
           "link": "",
           "x": 118754,
-          "y": 13753,
+          "y": 14427,
           "id": "indx1_1443",
           "color": {
             "highlight": {
@@ -28026,7 +27784,7 @@ var schemeData =
           "label": "===",
           "link": "",
           "x": 118758,
-          "y": 13785,
+          "y": 14459,
           "id": "indx1_1444",
           "color": {
             "highlight": {
@@ -28067,7 +27825,7 @@ var schemeData =
           "label": "equal value and equal type",
           "link": "",
           "x": 118930,
-          "y": 13785,
+          "y": 14459,
           "id": "indx1_1445",
           "color": {
             "highlight": {
@@ -28108,7 +27866,7 @@ var schemeData =
           "label": "!=",
           "link": "",
           "x": 118752,
-          "y": 13825,
+          "y": 14499,
           "id": "indx1_1446",
           "color": {
             "highlight": {
@@ -28149,7 +27907,7 @@ var schemeData =
           "label": "!==",
           "link": "",
           "x": 118756,
-          "y": 13857,
+          "y": 14531,
           "id": "indx1_1447",
           "color": {
             "highlight": {
@@ -28190,7 +27948,7 @@ var schemeData =
           "label": "not equal value and not equal type",
           "link": "",
           "x": 118948,
-          "y": 13854,
+          "y": 14528,
           "id": "indx1_1448",
           "color": {
             "highlight": {
@@ -28258,7 +28016,7 @@ var schemeData =
           "label": "Logic",
           "id": "indx1_1449",
           "x": 120755,
-          "y": 13981,
+          "y": 14655,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28266,7 +28024,7 @@ var schemeData =
         "indx1_1450": {
           "label": "Variables",
           "x": 118154,
-          "y": 16964,
+          "y": 17638,
           "font": {
             "size": 72,
             "align": "left"
@@ -28283,158 +28041,158 @@ var schemeData =
         "indx1_1451": {
           "label": "Development",
           "x": 118454,
-          "y": 17414,
+          "y": 18088,
           "id": "indx1_1451"
         },
         "indx1_1452": {
           "label": "12/1/2019",
           "x": 118583,
-          "y": 17414,
+          "y": 18088,
           "id": "indx1_1452"
         },
         "indx1_1453": {
           "label": "init",
           "x": 118704,
-          "y": 17414,
+          "y": 18088,
           "id": "indx1_1453"
         },
         "indx1_1454": {
           "label": "Notes",
           "x": 118430,
-          "y": 16564,
+          "y": 17238,
           "id": "indx1_1454"
         },
         "indx1_1455": {
           "label": "Dictionary of\nconcepts",
           "x": 118571,
-          "y": 15800,
+          "y": 16554,
           "id": "indx1_1455"
         },
         "indx1_1456": {
           "label": "Details, thoughts",
           "x": 118604,
-          "y": 16564,
+          "y": 17238,
           "id": "indx1_1456"
         },
         "indx1_1457": {
           "label": "Sections",
           "x": 118578,
-          "y": 16814,
+          "y": 17488,
           "id": "indx1_1457"
         },
         "indx1_1458": {
           "label": "Books",
           "x": 118668,
-          "y": 16664,
+          "y": 17338,
           "id": "indx1_1458"
         },
         "indx1_1459": {
           "label": "R&D institutions",
           "x": 118698,
-          "y": 16689,
+          "y": 17363,
           "id": "indx1_1459"
         },
         "indx1_1460": {
           "label": "Sites",
           "x": 118664,
-          "y": 16714,
+          "y": 17388,
           "id": "indx1_1460"
         },
         "indx1_1461": {
           "label": "Magazines",
           "x": 118683,
-          "y": 16739,
+          "y": 17413,
           "id": "indx1_1461"
         },
         "indx1_1462": {
           "label": "Articles",
           "x": 118671,
-          "y": 16764,
+          "y": 17438,
           "id": "indx1_1462"
         },
         "indx1_1463": {
           "label": "Media content",
           "x": 118693,
-          "y": 16789,
+          "y": 17463,
           "id": "indx1_1463"
         },
         "indx1_1464": {
           "label": "Misc. web links",
           "x": 118696,
-          "y": 16814,
+          "y": 17488,
           "id": "indx1_1464"
         },
         "indx1_1465": {
           "label": "Projects",
           "x": 118674,
-          "y": 16839,
+          "y": 17513,
           "id": "indx1_1465"
         },
         "indx1_1466": {
           "label": "Tools",
           "x": 118665,
-          "y": 16864,
+          "y": 17538,
           "id": "indx1_1466"
         },
         "indx1_1467": {
           "label": "Organizations",
           "x": 118692,
-          "y": 16889,
+          "y": 17563,
           "id": "indx1_1467"
         },
         "indx1_1468": {
           "label": "Standarts",
           "x": 118679,
-          "y": 16914,
+          "y": 17588,
           "id": "indx1_1468"
         },
         "indx1_1469": {
           "label": "Forums, Groups",
           "x": 118700,
-          "y": 16939,
+          "y": 17613,
           "id": "indx1_1469"
         },
         "indx1_1470": {
           "label": "Laws",
           "x": 118665,
-          "y": 16964,
+          "y": 17638,
           "id": "indx1_1470"
         },
         "indx1_1471": {
           "label": "Adjacent Themes",
           "x": 118704,
-          "y": 16989,
+          "y": 17663,
           "id": "indx1_1471"
         },
         "indx1_1472": {
           "label": "Questions",
           "x": 118444,
-          "y": 17114,
+          "y": 17788,
           "id": "indx1_1472"
         },
         "indx1_1473": {
           "label": "Problems",
           "x": 118442,
-          "y": 17214,
+          "y": 17888,
           "id": "indx1_1473"
         },
         "indx1_1474": {
           "label": "Goals",
           "x": 118430,
-          "y": 17314,
+          "y": 17988,
           "id": "indx1_1474"
         },
         "indx1_1475": {
           "id": "indx1_1475",
           "x": 118819,
-          "y": 15743,
+          "y": 16417,
           "label": "typeof variable !== \"undefined\""
         },
         "indx1_1476": {
           "label": "check variable defined",
           "link": "",
           "x": 119060,
-          "y": 15742,
+          "y": 16416,
           "id": "indx1_1476",
           "color": {
             "highlight": {
@@ -28502,7 +28260,7 @@ var schemeData =
           "label": "Variables",
           "id": "indx1_1477",
           "x": 121603,
-          "y": 16016,
+          "y": 16690,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28510,7 +28268,7 @@ var schemeData =
         "indx1_1478": {
           "label": "Evaluate",
           "x": 118190,
-          "y": 18810,
+          "y": 19484,
           "font": {
             "size": 72,
             "align": "left"
@@ -28527,158 +28285,158 @@ var schemeData =
         "indx1_1479": {
           "label": "Development",
           "x": 118490,
-          "y": 19260,
+          "y": 19934,
           "id": "indx1_1479"
         },
         "indx1_1480": {
           "label": "12/1/2019",
           "x": 118619,
-          "y": 19260,
+          "y": 19934,
           "id": "indx1_1480"
         },
         "indx1_1481": {
           "label": "init",
           "x": 118740,
-          "y": 19260,
+          "y": 19934,
           "id": "indx1_1481"
         },
         "indx1_1482": {
           "label": "Notes",
           "x": 118467,
-          "y": 18410,
+          "y": 19084,
           "id": "indx1_1482"
         },
         "indx1_1483": {
           "label": "Dictionary of\nconcepts",
           "x": 118627,
-          "y": 18160,
+          "y": 18834,
           "id": "indx1_1483"
         },
         "indx1_1484": {
           "label": "Details, thoughts",
           "x": 118640,
-          "y": 18410,
+          "y": 19084,
           "id": "indx1_1484"
         },
         "indx1_1485": {
           "label": "Sections",
           "x": 118614,
-          "y": 18660,
+          "y": 19334,
           "id": "indx1_1485"
         },
         "indx1_1486": {
           "label": "Books",
           "x": 118704,
-          "y": 18510,
+          "y": 19184,
           "id": "indx1_1486"
         },
         "indx1_1487": {
           "label": "R&D institutions",
           "x": 118735,
-          "y": 18535,
+          "y": 19209,
           "id": "indx1_1487"
         },
         "indx1_1488": {
           "label": "Sites",
           "x": 118700,
-          "y": 18560,
+          "y": 19234,
           "id": "indx1_1488"
         },
         "indx1_1489": {
           "label": "Magazines",
           "x": 118719,
-          "y": 18585,
+          "y": 19259,
           "id": "indx1_1489"
         },
         "indx1_1490": {
           "label": "Articles",
           "x": 118708,
-          "y": 18610,
+          "y": 19284,
           "id": "indx1_1490"
         },
         "indx1_1491": {
           "label": "Media content",
           "x": 118730,
-          "y": 18635,
+          "y": 19309,
           "id": "indx1_1491"
         },
         "indx1_1492": {
           "label": "Misc. web links",
           "x": 118732,
-          "y": 18660,
+          "y": 19334,
           "id": "indx1_1492"
         },
         "indx1_1493": {
           "label": "Projects",
           "x": 118710,
-          "y": 18685,
+          "y": 19359,
           "id": "indx1_1493"
         },
         "indx1_1494": {
           "label": "Tools",
           "x": 118701,
-          "y": 18710,
+          "y": 19384,
           "id": "indx1_1494"
         },
         "indx1_1495": {
           "label": "Organizations",
           "x": 118729,
-          "y": 18735,
+          "y": 19409,
           "id": "indx1_1495"
         },
         "indx1_1496": {
           "label": "Standarts",
           "x": 118715,
-          "y": 18760,
+          "y": 19434,
           "id": "indx1_1496"
         },
         "indx1_1497": {
           "label": "Forums, Groups",
           "x": 118737,
-          "y": 18785,
+          "y": 19459,
           "id": "indx1_1497"
         },
         "indx1_1498": {
           "label": "Laws",
           "x": 118701,
-          "y": 18810,
+          "y": 19484,
           "id": "indx1_1498"
         },
         "indx1_1499": {
           "label": "Adjacent Themes",
           "x": 118740,
-          "y": 18835,
+          "y": 19509,
           "id": "indx1_1499"
         },
         "indx1_1500": {
           "label": "Questions",
           "x": 118480,
-          "y": 18960,
+          "y": 19634,
           "id": "indx1_1500"
         },
         "indx1_1501": {
           "label": "Problems",
           "x": 118478,
-          "y": 19060,
+          "y": 19734,
           "id": "indx1_1501"
         },
         "indx1_1502": {
           "label": "Goals",
           "x": 118467,
-          "y": 19160,
+          "y": 19834,
           "id": "indx1_1502"
         },
         "indx1_1503": {
           "id": "indx1_1503",
           "x": 118853,
-          "y": 18116,
+          "y": 18790,
           "label": "document.evaluate(\"\")"
         },
         "indx1_1504": {
           "label": "snapshotItem()",
           "link": "",
           "x": 118830,
-          "y": 18140,
+          "y": 18814,
           "id": "indx1_1504",
           "color": {
             "highlight": {
@@ -28719,7 +28477,7 @@ var schemeData =
           "label": "innerHTML",
           "link": "",
           "x": 118818,
-          "y": 18164,
+          "y": 18838,
           "id": "indx1_1505",
           "color": {
             "highlight": {
@@ -28787,7 +28545,7 @@ var schemeData =
           "label": "Evaluate",
           "id": "indx1_1506",
           "x": 121556,
-          "y": 18483,
+          "y": 19157,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28795,7 +28553,7 @@ var schemeData =
         "indx1_1507": {
           "label": "JSON",
           "x": 118439,
-          "y": 20585,
+          "y": 21259,
           "font": {
             "size": 72,
             "align": "left"
@@ -28812,158 +28570,158 @@ var schemeData =
         "indx1_1508": {
           "label": "Development",
           "x": 118739,
-          "y": 21035,
+          "y": 21709,
           "id": "indx1_1508"
         },
         "indx1_1509": {
           "label": "12/1/2019",
           "x": 118868,
-          "y": 21035,
+          "y": 21709,
           "id": "indx1_1509"
         },
         "indx1_1510": {
           "label": "init",
           "x": 118989,
-          "y": 21035,
+          "y": 21709,
           "id": "indx1_1510"
         },
         "indx1_1511": {
           "label": "Notes",
           "x": 118715,
-          "y": 20185,
+          "y": 20859,
           "id": "indx1_1511"
         },
         "indx1_1512": {
           "label": "Dictionary of\nconcepts",
           "x": 118875,
-          "y": 19935,
+          "y": 20609,
           "id": "indx1_1512"
         },
         "indx1_1513": {
           "label": "Details, thoughts",
           "x": 118889,
-          "y": 20185,
+          "y": 20859,
           "id": "indx1_1513"
         },
         "indx1_1514": {
           "label": "Sections",
           "x": 118863,
-          "y": 20435,
+          "y": 21109,
           "id": "indx1_1514"
         },
         "indx1_1515": {
           "label": "Books",
           "x": 118953,
-          "y": 20285,
+          "y": 20959,
           "id": "indx1_1515"
         },
         "indx1_1516": {
           "label": "R&D institutions",
           "x": 118983,
-          "y": 20310,
+          "y": 20984,
           "id": "indx1_1516"
         },
         "indx1_1517": {
           "label": "Sites",
           "x": 118949,
-          "y": 20335,
+          "y": 21009,
           "id": "indx1_1517"
         },
         "indx1_1518": {
           "label": "Magazines",
           "x": 118968,
-          "y": 20360,
+          "y": 21034,
           "id": "indx1_1518"
         },
         "indx1_1519": {
           "label": "Articles",
           "x": 118956,
-          "y": 20385,
+          "y": 21059,
           "id": "indx1_1519"
         },
         "indx1_1520": {
           "label": "Media content",
           "x": 118978,
-          "y": 20410,
+          "y": 21084,
           "id": "indx1_1520"
         },
         "indx1_1521": {
           "label": "Misc. web links",
           "x": 118981,
-          "y": 20435,
+          "y": 21109,
           "id": "indx1_1521"
         },
         "indx1_1522": {
           "label": "Projects",
           "x": 118959,
-          "y": 20460,
+          "y": 21134,
           "id": "indx1_1522"
         },
         "indx1_1523": {
           "label": "Tools",
           "x": 118950,
-          "y": 20485,
+          "y": 21159,
           "id": "indx1_1523"
         },
         "indx1_1524": {
           "label": "Organizations",
           "x": 118977,
-          "y": 20510,
+          "y": 21184,
           "id": "indx1_1524"
         },
         "indx1_1525": {
           "label": "Standarts",
           "x": 118964,
-          "y": 20535,
+          "y": 21209,
           "id": "indx1_1525"
         },
         "indx1_1526": {
           "label": "Forums, Groups",
           "x": 118985,
-          "y": 20560,
+          "y": 21234,
           "id": "indx1_1526"
         },
         "indx1_1527": {
           "label": "Laws",
           "x": 118950,
-          "y": 20585,
+          "y": 21259,
           "id": "indx1_1527"
         },
         "indx1_1528": {
           "label": "Adjacent Themes",
           "x": 118989,
-          "y": 20610,
+          "y": 21284,
           "id": "indx1_1528"
         },
         "indx1_1529": {
           "label": "Questions",
           "x": 118729,
-          "y": 20735,
+          "y": 21409,
           "id": "indx1_1529"
         },
         "indx1_1530": {
           "label": "Problems",
           "x": 118727,
-          "y": 20835,
+          "y": 21509,
           "id": "indx1_1530"
         },
         "indx1_1531": {
           "label": "Goals",
           "x": 118715,
-          "y": 20935,
+          "y": 21609,
           "id": "indx1_1531"
         },
         "indx1_1532": {
           "id": "indx1_1532",
           "x": 119128,
-          "y": 19904,
+          "y": 20578,
           "label": "JSON.parse(some_text)"
         },
         "indx1_1533": {
           "label": "JSON.dump(some_obj)",
           "link": "",
           "x": 119126,
-          "y": 19936,
+          "y": 20610,
           "id": "indx1_1533",
           "color": {
             "highlight": {
@@ -29004,7 +28762,7 @@ var schemeData =
           "label": "JSON.stringify(obj)",
           "link": "",
           "x": 119111,
-          "y": 19973,
+          "y": 20647,
           "id": "indx1_1534",
           "color": {
             "highlight": {
@@ -29045,7 +28803,7 @@ var schemeData =
           "label": "object to string.",
           "link": "",
           "x": 119263,
-          "y": 19973,
+          "y": 20647,
           "id": "indx1_1535",
           "color": {
             "highlight": {
@@ -29113,7 +28871,7 @@ var schemeData =
           "label": "JSON",
           "id": "indx1_1536",
           "x": 120944,
-          "y": 20237,
+          "y": 20911,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29121,7 +28879,7 @@ var schemeData =
         "indx1_1537": {
           "label": "Sleep",
           "x": 118108,
-          "y": 22286,
+          "y": 22960,
           "font": {
             "size": 72,
             "align": "left"
@@ -29138,158 +28896,158 @@ var schemeData =
         "indx1_1538": {
           "label": "Development",
           "x": 118408,
-          "y": 22736,
+          "y": 23410,
           "id": "indx1_1538"
         },
         "indx1_1539": {
           "label": "12/1/2019",
           "x": 118537,
-          "y": 22736,
+          "y": 23410,
           "id": "indx1_1539"
         },
         "indx1_1540": {
           "label": "init",
           "x": 118658,
-          "y": 22736,
+          "y": 23410,
           "id": "indx1_1540"
         },
         "indx1_1541": {
           "label": "Notes",
           "x": 118384,
-          "y": 21886,
+          "y": 22560,
           "id": "indx1_1541"
         },
         "indx1_1542": {
           "label": "Dictionary of\nconcepts",
           "x": 118544,
-          "y": 21636,
+          "y": 22310,
           "id": "indx1_1542"
         },
         "indx1_1543": {
           "label": "Details, thoughts",
           "x": 118558,
-          "y": 21886,
+          "y": 22560,
           "id": "indx1_1543"
         },
         "indx1_1544": {
           "label": "Sections",
           "x": 118532,
-          "y": 22136,
+          "y": 22810,
           "id": "indx1_1544"
         },
         "indx1_1545": {
           "label": "Books",
           "x": 118622,
-          "y": 21986,
+          "y": 22660,
           "id": "indx1_1545"
         },
         "indx1_1546": {
           "label": "R&D institutions",
           "x": 118652,
-          "y": 22011,
+          "y": 22685,
           "id": "indx1_1546"
         },
         "indx1_1547": {
           "label": "Sites",
           "x": 118618,
-          "y": 22036,
+          "y": 22710,
           "id": "indx1_1547"
         },
         "indx1_1548": {
           "label": "Magazines",
           "x": 118637,
-          "y": 22061,
+          "y": 22735,
           "id": "indx1_1548"
         },
         "indx1_1549": {
           "label": "Articles",
           "x": 118625,
-          "y": 22086,
+          "y": 22760,
           "id": "indx1_1549"
         },
         "indx1_1550": {
           "label": "Media content",
           "x": 118647,
-          "y": 22111,
+          "y": 22785,
           "id": "indx1_1550"
         },
         "indx1_1551": {
           "label": "Misc. web links",
           "x": 118650,
-          "y": 22136,
+          "y": 22810,
           "id": "indx1_1551"
         },
         "indx1_1552": {
           "label": "Projects",
           "x": 118628,
-          "y": 22161,
+          "y": 22835,
           "id": "indx1_1552"
         },
         "indx1_1553": {
           "label": "Tools",
           "x": 118619,
-          "y": 22186,
+          "y": 22860,
           "id": "indx1_1553"
         },
         "indx1_1554": {
           "label": "Organizations",
           "x": 118646,
-          "y": 22211,
+          "y": 22885,
           "id": "indx1_1554"
         },
         "indx1_1555": {
           "label": "Standarts",
           "x": 118633,
-          "y": 22236,
+          "y": 22910,
           "id": "indx1_1555"
         },
         "indx1_1556": {
           "label": "Forums, Groups",
           "x": 118654,
-          "y": 22261,
+          "y": 22935,
           "id": "indx1_1556"
         },
         "indx1_1557": {
           "label": "Laws",
           "x": 118619,
-          "y": 22286,
+          "y": 22960,
           "id": "indx1_1557"
         },
         "indx1_1558": {
           "label": "Adjacent Themes",
           "x": 118658,
-          "y": 22311,
+          "y": 22985,
           "id": "indx1_1558"
         },
         "indx1_1559": {
           "label": "Questions",
           "x": 118398,
-          "y": 22436,
+          "y": 23110,
           "id": "indx1_1559"
         },
         "indx1_1560": {
           "label": "Problems",
           "x": 118396,
-          "y": 22536,
+          "y": 23210,
           "id": "indx1_1560"
         },
         "indx1_1561": {
           "label": "Goals",
           "x": 118384,
-          "y": 22636,
+          "y": 23310,
           "id": "indx1_1561"
         },
         "indx1_1562": {
           "id": "indx1_1562",
           "x": 118777,
-          "y": 21615,
+          "y": 22289,
           "label": "Version 1"
         },
         "indx1_1563": {
           "label": "function sleep(ms) {\n   return new Promise((resolve) => setTimeout(resolve, ms)); \n}",
           "link": "",
           "x": 119103,
-          "y": 21611,
+          "y": 22285,
           "id": "indx1_1563",
           "color": {
             "highlight": {
@@ -29333,7 +29091,7 @@ var schemeData =
         "indx1_1564": {
           "id": "indx1_1564",
           "x": 119044,
-          "y": 21661,
+          "y": 22335,
           "label": "sleep(500).then(() => { console.log(\"1\"); });"
         },
         "indx1_1565": {
@@ -29367,7 +29125,7 @@ var schemeData =
           "label": "Sleep",
           "id": "indx1_1565",
           "x": 120889,
-          "y": 22020,
+          "y": 22694,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29572,7 +29330,7 @@ var schemeData =
         "indx1_1592": {
           "label": "LocalStorage",
           "x": 105497,
-          "y": 18040,
+          "y": 20017,
           "font": {
             "size": 72,
             "align": "left"
@@ -29589,151 +29347,151 @@ var schemeData =
         "indx1_1593": {
           "label": "Development",
           "x": 105969,
-          "y": 18483,
+          "y": 20460,
           "id": "indx1_1593"
         },
         "indx1_1594": {
           "label": "12/1/2019",
           "x": 106098,
-          "y": 18483,
+          "y": 20460,
           "id": "indx1_1594"
         },
         "indx1_1595": {
           "label": "init",
           "x": 106219,
-          "y": 18483,
+          "y": 20460,
           "id": "indx1_1595"
         },
         "indx1_1596": {
           "label": "Notes",
           "x": 105946,
-          "y": 17633,
+          "y": 19610,
           "id": "indx1_1596"
         },
         "indx1_1597": {
           "label": "Dictionary of\nconcepts",
           "x": 106106,
-          "y": 17383,
+          "y": 19360,
           "id": "indx1_1597"
         },
         "indx1_1598": {
           "label": "Details, thoughts",
           "x": 106119,
-          "y": 17633,
+          "y": 19610,
           "id": "indx1_1598"
         },
         "indx1_1599": {
           "label": "Sections",
           "x": 106093,
-          "y": 17883,
+          "y": 19860,
           "id": "indx1_1599"
         },
         "indx1_1600": {
           "label": "Books",
           "x": 106183,
-          "y": 17733,
+          "y": 19710,
           "id": "indx1_1600"
         },
         "indx1_1601": {
           "label": "R&D institutions",
           "x": 106214,
-          "y": 17758,
+          "y": 19735,
           "id": "indx1_1601"
         },
         "indx1_1602": {
           "label": "Sites",
           "x": 106179,
-          "y": 17783,
+          "y": 19760,
           "id": "indx1_1602"
         },
         "indx1_1603": {
           "label": "Magazines",
           "x": 106198,
-          "y": 17808,
+          "y": 19785,
           "id": "indx1_1603"
         },
         "indx1_1604": {
           "label": "Articles",
           "x": 106187,
-          "y": 17833,
+          "y": 19810,
           "id": "indx1_1604"
         },
         "indx1_1605": {
           "label": "Media content",
           "x": 106209,
-          "y": 17858,
+          "y": 19835,
           "id": "indx1_1605"
         },
         "indx1_1606": {
           "label": "Misc. web links",
           "x": 106211,
-          "y": 17883,
+          "y": 19860,
           "id": "indx1_1606"
         },
         "indx1_1607": {
           "label": "Projects",
           "x": 106189,
-          "y": 17908,
+          "y": 19885,
           "id": "indx1_1607"
         },
         "indx1_1608": {
           "label": "Tools",
           "x": 106181,
-          "y": 17933,
+          "y": 19910,
           "id": "indx1_1608"
         },
         "indx1_1609": {
           "label": "Organizations",
           "x": 106208,
-          "y": 17958,
+          "y": 19935,
           "id": "indx1_1609"
         },
         "indx1_1610": {
           "label": "Standarts",
           "x": 106194,
-          "y": 17983,
+          "y": 19960,
           "id": "indx1_1610"
         },
         "indx1_1611": {
           "label": "Forums, Groups",
           "x": 106216,
-          "y": 18008,
+          "y": 19985,
           "id": "indx1_1611"
         },
         "indx1_1612": {
           "label": "Laws",
           "x": 106180,
-          "y": 18033,
+          "y": 20010,
           "id": "indx1_1612"
         },
         "indx1_1613": {
           "label": "Adjacent Themes",
           "x": 106219,
-          "y": 18058,
+          "y": 20035,
           "id": "indx1_1613"
         },
         "indx1_1614": {
           "label": "Questions",
           "x": 105959,
-          "y": 18183,
+          "y": 20160,
           "id": "indx1_1614"
         },
         "indx1_1615": {
           "label": "Problems",
           "x": 105957,
-          "y": 18283,
+          "y": 20260,
           "id": "indx1_1615"
         },
         "indx1_1616": {
           "label": "Goals",
           "x": 105946,
-          "y": 18383,
+          "y": 20360,
           "id": "indx1_1616"
         },
         "indx1_1617": {
           "label": "Exceptions",
           "x": 117937,
-          "y": 24442,
+          "y": 25116,
           "font": {
             "size": 72,
             "align": "left"
@@ -29750,151 +29508,151 @@ var schemeData =
         "indx1_1618": {
           "label": "Development",
           "x": 118237,
-          "y": 24892,
+          "y": 25566,
           "id": "indx1_1618"
         },
         "indx1_1619": {
           "label": "12/1/2019",
           "x": 118366,
-          "y": 24892,
+          "y": 25566,
           "id": "indx1_1619"
         },
         "indx1_1620": {
           "label": "init",
           "x": 118487,
-          "y": 24892,
+          "y": 25566,
           "id": "indx1_1620"
         },
         "indx1_1621": {
           "label": "Notes",
           "x": 118213,
-          "y": 24042,
+          "y": 24716,
           "id": "indx1_1621"
         },
         "indx1_1622": {
           "label": "Dictionary of\nconcepts",
           "x": 118373,
-          "y": 23792,
+          "y": 24466,
           "id": "indx1_1622"
         },
         "indx1_1623": {
           "label": "Details, thoughts",
           "x": 118387,
-          "y": 24042,
+          "y": 24716,
           "id": "indx1_1623"
         },
         "indx1_1624": {
           "label": "Sections",
           "x": 118361,
-          "y": 24292,
+          "y": 24966,
           "id": "indx1_1624"
         },
         "indx1_1625": {
           "label": "Books",
           "x": 118451,
-          "y": 24142,
+          "y": 24816,
           "id": "indx1_1625"
         },
         "indx1_1626": {
           "label": "R&D institutions",
           "x": 118481,
-          "y": 24167,
+          "y": 24841,
           "id": "indx1_1626"
         },
         "indx1_1627": {
           "label": "Sites",
           "x": 118447,
-          "y": 24192,
+          "y": 24866,
           "id": "indx1_1627"
         },
         "indx1_1628": {
           "label": "Magazines",
           "x": 118466,
-          "y": 24217,
+          "y": 24891,
           "id": "indx1_1628"
         },
         "indx1_1629": {
           "label": "Articles",
           "x": 118454,
-          "y": 24242,
+          "y": 24916,
           "id": "indx1_1629"
         },
         "indx1_1630": {
           "label": "Media content",
           "x": 118476,
-          "y": 24267,
+          "y": 24941,
           "id": "indx1_1630"
         },
         "indx1_1631": {
           "label": "Misc. web links",
           "x": 118479,
-          "y": 24292,
+          "y": 24966,
           "id": "indx1_1631"
         },
         "indx1_1632": {
           "label": "Projects",
           "x": 118457,
-          "y": 24317,
+          "y": 24991,
           "id": "indx1_1632"
         },
         "indx1_1633": {
           "label": "Tools",
           "x": 118448,
-          "y": 24342,
+          "y": 25016,
           "id": "indx1_1633"
         },
         "indx1_1634": {
           "label": "Organizations",
           "x": 118475,
-          "y": 24367,
+          "y": 25041,
           "id": "indx1_1634"
         },
         "indx1_1635": {
           "label": "Standarts",
           "x": 118462,
-          "y": 24392,
+          "y": 25066,
           "id": "indx1_1635"
         },
         "indx1_1636": {
           "label": "Forums, Groups",
           "x": 118483,
-          "y": 24417,
+          "y": 25091,
           "id": "indx1_1636"
         },
         "indx1_1637": {
           "label": "Laws",
           "x": 118448,
-          "y": 24442,
+          "y": 25116,
           "id": "indx1_1637"
         },
         "indx1_1638": {
           "label": "Adjacent Themes",
           "x": 118487,
-          "y": 24467,
+          "y": 25141,
           "id": "indx1_1638"
         },
         "indx1_1639": {
           "label": "Questions",
           "x": 118227,
-          "y": 24592,
+          "y": 25266,
           "id": "indx1_1639"
         },
         "indx1_1640": {
           "label": "Problems",
           "x": 118225,
-          "y": 24692,
+          "y": 25366,
           "id": "indx1_1640"
         },
         "indx1_1641": {
           "label": "Goals",
           "x": 118213,
-          "y": 24792,
+          "y": 25466,
           "id": "indx1_1641"
         },
         "indx1_1642": {
           "label": "Encoding",
           "x": 118102,
-          "y": 26225,
+          "y": 26899,
           "font": {
             "size": 72,
             "align": "left"
@@ -29911,145 +29669,145 @@ var schemeData =
         "indx1_1643": {
           "label": "Development",
           "x": 118402,
-          "y": 26675,
+          "y": 27349,
           "id": "indx1_1643"
         },
         "indx1_1644": {
           "label": "12/1/2019",
           "x": 118531,
-          "y": 26675,
+          "y": 27349,
           "id": "indx1_1644"
         },
         "indx1_1645": {
           "label": "init",
           "x": 118652,
-          "y": 26675,
+          "y": 27349,
           "id": "indx1_1645"
         },
         "indx1_1646": {
           "label": "Notes",
           "x": 118378,
-          "y": 25825,
+          "y": 26499,
           "id": "indx1_1646"
         },
         "indx1_1647": {
           "label": "Dictionary of\nconcepts",
           "x": 118538,
-          "y": 25575,
+          "y": 26249,
           "id": "indx1_1647"
         },
         "indx1_1648": {
           "label": "Details, thoughts",
           "x": 118552,
-          "y": 25825,
+          "y": 26499,
           "id": "indx1_1648"
         },
         "indx1_1649": {
           "label": "Sections",
           "x": 118526,
-          "y": 26075,
+          "y": 26749,
           "id": "indx1_1649"
         },
         "indx1_1650": {
           "label": "Books",
           "x": 118616,
-          "y": 25925,
+          "y": 26599,
           "id": "indx1_1650"
         },
         "indx1_1651": {
           "label": "R&D institutions",
           "x": 118646,
-          "y": 25950,
+          "y": 26624,
           "id": "indx1_1651"
         },
         "indx1_1652": {
           "label": "Sites",
           "x": 118612,
-          "y": 25975,
+          "y": 26649,
           "id": "indx1_1652"
         },
         "indx1_1653": {
           "label": "Magazines",
           "x": 118631,
-          "y": 26000,
+          "y": 26674,
           "id": "indx1_1653"
         },
         "indx1_1654": {
           "label": "Articles",
           "x": 118619,
-          "y": 26025,
+          "y": 26699,
           "id": "indx1_1654"
         },
         "indx1_1655": {
           "label": "Media content",
           "x": 118641,
-          "y": 26050,
+          "y": 26724,
           "id": "indx1_1655"
         },
         "indx1_1656": {
           "label": "Misc. web links",
           "x": 118644,
-          "y": 26075,
+          "y": 26749,
           "id": "indx1_1656"
         },
         "indx1_1657": {
           "label": "Projects",
           "x": 118622,
-          "y": 26100,
+          "y": 26774,
           "id": "indx1_1657"
         },
         "indx1_1658": {
           "label": "Tools",
           "x": 118613,
-          "y": 26125,
+          "y": 26799,
           "id": "indx1_1658"
         },
         "indx1_1659": {
           "label": "Organizations",
           "x": 118640,
-          "y": 26150,
+          "y": 26824,
           "id": "indx1_1659"
         },
         "indx1_1660": {
           "label": "Standarts",
           "x": 118627,
-          "y": 26175,
+          "y": 26849,
           "id": "indx1_1660"
         },
         "indx1_1661": {
           "label": "Forums, Groups",
           "x": 118648,
-          "y": 26200,
+          "y": 26874,
           "id": "indx1_1661"
         },
         "indx1_1662": {
           "label": "Laws",
           "x": 118613,
-          "y": 26225,
+          "y": 26899,
           "id": "indx1_1662"
         },
         "indx1_1663": {
           "label": "Adjacent Themes",
           "x": 118652,
-          "y": 26250,
+          "y": 26924,
           "id": "indx1_1663"
         },
         "indx1_1664": {
           "label": "Questions",
           "x": 118392,
-          "y": 26375,
+          "y": 27049,
           "id": "indx1_1664"
         },
         "indx1_1665": {
           "label": "Problems",
           "x": 118390,
-          "y": 26475,
+          "y": 27149,
           "id": "indx1_1665"
         },
         "indx1_1666": {
           "label": "Goals",
           "x": 118378,
-          "y": 26575,
+          "y": 27249,
           "id": "indx1_1666"
         },
         "indx1_1667": {
@@ -30083,7 +29841,7 @@ var schemeData =
           "label": "Exceptions",
           "id": "indx1_1667",
           "x": 122056,
-          "y": 23988,
+          "y": 24662,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -30119,7 +29877,7 @@ var schemeData =
           "label": "Encoding",
           "id": "indx1_1668",
           "x": 121695,
-          "y": 25930,
+          "y": 26604,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -30155,7 +29913,7 @@ var schemeData =
           "label": "LocalStorage",
           "id": "indx1_1669",
           "x": 110506,
-          "y": 17505,
+          "y": 19482,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -30881,7 +30639,7 @@ var schemeData =
         "indx1_1696": {
           "id": "indx1_1696",
           "x": 118465,
-          "y": 8825,
+          "y": 9580,
           "label": "Multiline strings",
           "shape": "box",
           "link": "",
@@ -30898,7 +30656,7 @@ var schemeData =
         "indx1_1697": {
           "id": "indx1_1697",
           "x": 118695,
-          "y": 8831,
+          "y": 9505,
           "label": "var a = \"line1 \\\nline2 \\\nline3\";",
           "shape": "box",
           "link": "",
@@ -30915,43 +30673,43 @@ var schemeData =
         "indx1_1698": {
           "id": "indx1_1698",
           "x": 118954,
-          "y": 8826,
+          "y": 9500,
           "label": "some browsers can add \"new line\" after each line."
         },
         "indx1_1699": {
           "id": "indx1_1699",
           "x": 118691,
-          "y": 8906,
+          "y": 9580,
           "label": "var a = `line1\nline2\nline3`;"
         },
         "indx1_1700": {
           "id": "indx1_1700",
           "x": 118824,
-          "y": 8906,
+          "y": 9580,
           "label": "Best way"
         },
         "indx1_1701": {
           "id": "indx1_1701",
           "x": 118704,
-          "y": 5629,
+          "y": 6303,
           "label": "metacharacters"
         },
         "indx1_1702": {
           "id": "indx1_1702",
           "x": 118848,
-          "y": 5410,
+          "y": 6084,
           "label": "\\s - space"
         },
         "indx1_1704": {
           "id": "indx1_1704",
           "x": 118432,
-          "y": 7391,
+          "y": 8065,
           "label": "match"
         },
         "indx1_1705": {
           "id": "indx1_1705",
           "x": 118742,
-          "y": 7367,
+          "y": 8041,
           "label": "\"   \".match(/\\s/g) -> [\" \", \" \", \" \"]",
           "shape": "box",
           "link": "",
@@ -30968,20 +30726,20 @@ var schemeData =
         "indx1_1706": {
           "id": "indx1_1706",
           "x": 118814,
-          "y": 7413,
+          "y": 8087,
           "label": "\"   asdf6\".match(/\\s/) -> [\" \", index: 0, input: \"   asdf6\"]"
         },
         "indx1_1707": {
           "id": "indx1_1707",
           "x": 118696,
-          "y": 7039,
+          "y": 7713,
           "label": "Multiline search"
         },
         "indx1_1708": {
           "label": "[\\s\\S]*",
           "link": "",
           "x": 118841,
-          "y": 7003,
+          "y": 7677,
           "id": "indx1_1708",
           "color": {
             "highlight": {
@@ -31022,7 +30780,7 @@ var schemeData =
           "label": "All through newlines. E.g. to the end of text.",
           "link": "",
           "x": 119053,
-          "y": 7003,
+          "y": 7677,
           "id": "indx1_1709",
           "color": {
             "highlight": {
@@ -31066,32 +30824,32 @@ var schemeData =
         "indx1_1710": {
           "id": "indx1_1710",
           "x": 118988,
-          "y": 7048,
+          "y": 7722,
           "label": "As of ES2018, JavaScript supports the s (dotAll) flag"
         },
         "indx1_1711": {
           "id": "indx1_1711",
           "x": 119101,
-          "y": 7081,
+          "y": 7755,
           "label": "https://stackoverflow.com/questions/1068280/javascript-regex-multiline-flag-doesnt-work",
           "link": "https://stackoverflow.com/questions/1068280/javascript-regex-multiline-flag-doesnt-work"
         },
         "indx1_1712": {
           "id": "indx1_1712",
           "x": 118714,
-          "y": 7144,
+          "y": 7818,
           "label": "Remove empty lines"
         },
         "indx1_1713": {
           "id": "indx1_1713",
           "x": 118854,
-          "y": 7148,
+          "y": 7822,
           "label": "/^\\s*\\n/gm"
         },
         "indx1_1714": {
           "id": "indx1_1714",
           "x": 119079,
-          "y": 7149,
+          "y": 7823,
           "label": "https://stackoverflow.com/questions/16369642",
           "link": "https://stackoverflow.com/questions/16369642/javascript-how-to-use-a-regular-expression-to-remove-blank-lines-from-a-string",
           "shape": "box",
@@ -31108,7 +30866,7 @@ var schemeData =
         "indx1_1715": {
           "id": "indx1_1715",
           "x": 118714,
-          "y": 7229,
+          "y": 7903,
           "label": "use a variable in \na regular expression",
           "shape": "box",
           "link": "",
@@ -31125,33 +30883,33 @@ var schemeData =
         "indx1_1716": {
           "id": "indx1_1716",
           "x": 118931,
-          "y": 7235,
+          "y": 7909,
           "label": "var replace = \"regex\";\nvar re = new RegExp(replace,\"g\");\n\"mystring\".replace(re, \"newstring\");"
         },
         "indx1_1717": {
           "id": "indx1_1717",
           "x": 119201,
-          "y": 7232,
+          "y": 7906,
           "label": "https://stackoverflow.com/questions/494035",
           "link": "https://stackoverflow.com/questions/494035"
         },
         "indx1_1718": {
           "id": "indx1_1718",
           "x": 106904,
-          "y": -4913,
+          "y": -2936,
           "label": "http://gcctech.org/csc/javascript/javascript_keycodes.htm",
           "link": "http://gcctech.org/csc/javascript/javascript_keycodes.htm"
         },
         "indx1_1719": {
           "id": "indx1_1719",
           "x": 106636,
-          "y": -4930,
+          "y": -2953,
           "label": "Keycodes"
         },
         "indx1_1720": {
           "id": "indx1_1720",
           "x": 118533,
-          "y": -776,
+          "y": -732,
           "label": "Sort"
         },
         "indx1_1721": {
@@ -31187,26 +30945,26 @@ var schemeData =
         "indx1_1724": {
           "id": "indx1_1724",
           "x": 94484,
-          "y": 24647,
+          "y": 25665,
           "label": "https://medium.com/stackfame/how-to-run-shell-script-file-or-command-using-nodejs-b9f2455cb6b7",
           "link": "https://medium.com/stackfame/how-to-run-shell-script-file-or-command-using-nodejs-b9f2455cb6b7"
         },
         "indx1_1725": {
           "id": "indx1_1725",
           "x": 93965,
-          "y": 24648,
+          "y": 25666,
           "label": "Run shell script file or command"
         },
         "indx1_1726": {
           "id": "indx1_1726",
           "x": 94370,
-          "y": 24769,
+          "y": 25787,
           "label": "var exec = require('child_process').exec;\nvar cmd = 'prince -v builds/pdf/book.html -o builds/pdf/book.pdf';\n\nexec(cmd, function(error, stdout, stderr) {\n  // command output is in stdout\n});"
         },
         "indx1_1727": {
           "id": "indx1_1727",
           "x": 94458,
-          "y": 24691,
+          "y": 25709,
           "label": "https://stackoverflow.com/questions/20643470/execute-a-command-line-binary-with-node-js",
           "link": "https://stackoverflow.com/questions/20643470/execute-a-command-line-binary-with-node-js"
         },
@@ -31260,14 +31018,14 @@ var schemeData =
         "indx1_1730": {
           "id": "indx1_1730",
           "x": 94166,
-          "y": 24945,
+          "y": 25963,
           "label": "syncronised (?)"
         },
         "indx1_1731": {
           "label": "   var cmd = \"printf \\\"\" + dataPart + \"\\\" | python3\";\n\n   var execSync1 = require('child_process').execSync;\n\n   var options = {\n      encoding: 'utf8'\n   };\n\n   var calcResult = execSync1(cmd, options);\n   var symPyData = JSON.parse(calcResult);",
           "link": "",
           "x": 94436,
-          "y": 24959,
+          "y": 25977,
           "id": "indx1_1731",
           "color": {
             "highlight": {
@@ -31307,44 +31065,44 @@ var schemeData =
         "indx1_1732": {
           "id": "indx1_1732",
           "x": 94012,
-          "y": 22633,
+          "y": 23651,
           "label": "Rename file"
         },
         "indx1_1733": {
           "id": "indx1_1733",
           "x": 94379,
-          "y": 22601,
+          "y": 23619,
           "label": "https://stackoverflow.com/questions/22504566/renaming-files-using-node-js",
           "link": "https://stackoverflow.com/questions/22504566/renaming-files-using-node-js"
         },
         "indx1_1734": {
           "id": "indx1_1734",
           "x": 94329,
-          "y": 22634,
+          "y": 23652,
           "label": "fs.renameSync('/path/to/Afghanistan.png', '/path/to/AF.png')"
         },
         "indx1_1735": {
           "id": "indx1_1735",
           "x": 94358,
-          "y": 22694,
+          "y": 23712,
           "label": "var fs = require('fs');\nfs.rename('/path/to/Afghanistan.png', '/path/to/AF.png', function(err) {\n    if ( err ) console.log('ERROR: ' + err);\n});"
         },
         "indx1_1736": {
           "id": "indx1_1736",
           "x": 94003,
-          "y": 22520,
+          "y": 23538,
           "label": "Move file"
         },
         "indx1_1737": {
           "id": "indx1_1737",
           "x": 94358,
-          "y": 22483,
+          "y": 23501,
           "label": "fs.rename(getFileName, __dirname + '/new_folder/' + getFileName); "
         },
         "indx1_1738": {
           "id": "indx1_1738",
           "x": 94402,
-          "y": 22520,
+          "y": 23538,
           "label": "Be careful this will not work if you try to rename the file between different partitions,\nneither on some virtual file systems (such as docker for instance)",
           "shape": "box",
           "link": "",
@@ -31361,27 +31119,27 @@ var schemeData =
         "indx1_1739": {
           "id": "indx1_1739",
           "x": 94381,
-          "y": 22557,
+          "y": 23575,
           "label": "https://stackoverflow.com/questions/8579055/how-do-i-move-files-in-node-js",
           "link": "https://stackoverflow.com/questions/8579055/how-do-i-move-files-in-node-js"
         },
         "indx1_1740": {
           "id": "indx1_1740",
           "x": 94026,
-          "y": 22166,
+          "y": 23184,
           "label": "Remove file"
         },
         "indx1_1741": {
           "id": "indx1_1741",
           "x": 94360,
-          "y": 22206,
+          "y": 23224,
           "label": "https://stackoverflow.com/questions/5315138/node-js-remove-file",
           "link": "https://stackoverflow.com/questions/5315138/node-js-remove-file"
         },
         "indx1_1742": {
           "id": "indx1_1742",
           "x": 94196,
-          "y": 22088,
+          "y": 23106,
           "label": "Synchronous ",
           "shape": "box",
           "link": "",
@@ -31398,25 +31156,25 @@ var schemeData =
         "indx1_1743": {
           "id": "indx1_1743",
           "x": 94198,
-          "y": 22144,
+          "y": 23162,
           "label": "Asynchronous"
         },
         "indx1_1744": {
           "id": "indx1_1744",
           "x": 94392,
-          "y": 22142,
+          "y": 23160,
           "label": "fs.unlink(path, callback)"
         },
         "indx1_1745": {
           "id": "indx1_1745",
           "x": 94378,
-          "y": 22082,
+          "y": 23100,
           "label": "fs.unlinkSync(path)"
         },
         "indx1_1746": {
           "id": "indx1_1746",
           "x": 94661,
-          "y": 22297,
+          "y": 23315,
           "label": "try{\n   var sourceUrls = \"/sampleFolder/sampleFile.txt\";\n   fs.unlinkSync(sourceUrls);\n}catch(err){\n   console.log(err);\n}",
           "shape": "box",
           "link": "",
@@ -31433,19 +31191,19 @@ var schemeData =
         "indx1_1747": {
           "id": "indx1_1747",
           "x": 94224,
-          "y": 22296,
+          "y": 23314,
           "label": "Need to check if exists"
         },
         "indx1_1748": {
           "id": "indx1_1748",
           "x": 94400,
-          "y": 22294,
+          "y": 23312,
           "label": "or just catch errors"
         },
         "indx1_1749": {
           "label": "Fetch API",
           "x": 117365,
-          "y": 29342,
+          "y": 30016,
           "font": {
             "size": 72,
             "align": "left"
@@ -31462,145 +31220,145 @@ var schemeData =
         "indx1_1750": {
           "label": "Development",
           "x": 117665,
-          "y": 29792,
+          "y": 30466,
           "id": "indx1_1750"
         },
         "indx1_1751": {
           "label": "12/22/2019",
           "x": 117798,
-          "y": 29792,
+          "y": 30466,
           "id": "indx1_1751"
         },
         "indx1_1752": {
           "label": "init",
           "x": 117915,
-          "y": 29792,
+          "y": 30466,
           "id": "indx1_1752"
         },
         "indx1_1753": {
           "label": "Notes",
           "x": 117633,
-          "y": 28569,
+          "y": 29243,
           "id": "indx1_1753"
         },
         "indx1_1754": {
           "label": "Dictionary of\nconcepts",
           "x": 117860,
-          "y": 27663,
+          "y": 28337,
           "id": "indx1_1754"
         },
         "indx1_1755": {
           "label": "Details, thoughts",
           "x": 117807,
-          "y": 28569,
+          "y": 29243,
           "id": "indx1_1755"
         },
         "indx1_1756": {
           "label": "Sections",
           "x": 117789,
-          "y": 29192,
+          "y": 29866,
           "id": "indx1_1756"
         },
         "indx1_1757": {
           "label": "Books",
           "x": 117871,
-          "y": 28669,
+          "y": 29343,
           "id": "indx1_1757"
         },
         "indx1_1758": {
           "label": "R&D institutions",
           "x": 117901,
-          "y": 28694,
+          "y": 29368,
           "id": "indx1_1758"
         },
         "indx1_1759": {
           "label": "Sites",
           "x": 117867,
-          "y": 28719,
+          "y": 29393,
           "id": "indx1_1759"
         },
         "indx1_1760": {
           "label": "Magazines",
           "x": 117886,
-          "y": 28744,
+          "y": 29418,
           "id": "indx1_1760"
         },
         "indx1_1761": {
           "label": "Articles",
           "x": 117874,
-          "y": 28769,
+          "y": 29443,
           "id": "indx1_1761"
         },
         "indx1_1762": {
           "label": "Media content",
           "x": 117896,
-          "y": 28794,
+          "y": 29468,
           "id": "indx1_1762"
         },
         "indx1_1763": {
           "label": "Misc. web links",
           "x": 117899,
-          "y": 29009,
+          "y": 29683,
           "id": "indx1_1763"
         },
         "indx1_1764": {
           "label": "Projects",
           "x": 117877,
-          "y": 29217,
+          "y": 29891,
           "id": "indx1_1764"
         },
         "indx1_1765": {
           "label": "Tools",
           "x": 117868,
-          "y": 29242,
+          "y": 29916,
           "id": "indx1_1765"
         },
         "indx1_1766": {
           "label": "Organizations",
           "x": 117895,
-          "y": 29267,
+          "y": 29941,
           "id": "indx1_1766"
         },
         "indx1_1767": {
           "label": "Standarts",
           "x": 117882,
-          "y": 29292,
+          "y": 29966,
           "id": "indx1_1767"
         },
         "indx1_1768": {
           "label": "Forums, Groups",
           "x": 117903,
-          "y": 29317,
+          "y": 29991,
           "id": "indx1_1768"
         },
         "indx1_1769": {
           "label": "Laws",
           "x": 117868,
-          "y": 29342,
+          "y": 30016,
           "id": "indx1_1769"
         },
         "indx1_1770": {
           "label": "Adjacent Themes",
           "x": 117907,
-          "y": 29367,
+          "y": 30041,
           "id": "indx1_1770"
         },
         "indx1_1771": {
           "label": "Questions",
           "x": 117655,
-          "y": 29492,
+          "y": 30166,
           "id": "indx1_1771"
         },
         "indx1_1772": {
           "label": "Problems",
           "x": 117653,
-          "y": 29592,
+          "y": 30266,
           "id": "indx1_1772"
         },
         "indx1_1773": {
           "label": "Goals",
           "x": 117642,
-          "y": 29692,
+          "y": 30366,
           "id": "indx1_1773"
         },
         "indx1_1774": {
@@ -31634,7 +31392,7 @@ var schemeData =
           "label": "Fetch API",
           "id": "indx1_1774",
           "x": 121806,
-          "y": 27965,
+          "y": 28639,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -31642,49 +31400,49 @@ var schemeData =
         "indx1_1775": {
           "id": "indx1_1775",
           "x": 118231,
-          "y": 28908,
+          "y": 29582,
           "label": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
           "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
         },
         "indx1_1776": {
           "id": "indx1_1776",
           "x": 118273,
-          "y": 28972,
+          "y": 29646,
           "label": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
           "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
         },
         "indx1_1777": {
           "id": "indx1_1777",
           "x": 118121,
-          "y": 29030,
+          "y": 29704,
           "label": "https://javascript.info/fetch",
           "link": "https://javascript.info/fetch"
         },
         "indx1_1778": {
           "id": "indx1_1778",
           "x": 118270,
-          "y": 29073,
+          "y": 29747,
           "label": "https://developers.google.com/web/updates/2015/03/introduction-to-fetch",
           "link": "https://developers.google.com/web/updates/2015/03/introduction-to-fetch"
         },
         "indx1_1779": {
           "id": "indx1_1779",
           "x": 118265,
-          "y": 29113,
+          "y": 29787,
           "label": "https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data",
           "link": "https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data"
         },
         "indx1_1780": {
           "id": "indx1_1780",
           "x": 118372,
-          "y": 29157,
+          "y": 29831,
           "label": "https://codingthesmartway.com/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript/",
           "link": "https://codingthesmartway.com/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript/"
         },
         "indx1_1781": {
           "label": "Web APIs",
           "x": 117221,
-          "y": 31875,
+          "y": 32549,
           "font": {
             "size": 72,
             "align": "left"
@@ -31701,145 +31459,145 @@ var schemeData =
         "indx1_1782": {
           "label": "Development",
           "x": 117521,
-          "y": 32325,
+          "y": 32999,
           "id": "indx1_1782"
         },
         "indx1_1783": {
           "label": "12/22/2019",
           "x": 117654,
-          "y": 32325,
+          "y": 32999,
           "id": "indx1_1783"
         },
         "indx1_1784": {
           "label": "init",
           "x": 117771,
-          "y": 32325,
+          "y": 32999,
           "id": "indx1_1784"
         },
         "indx1_1785": {
           "label": "Notes",
           "x": 117501,
-          "y": 31263,
+          "y": 31937,
           "id": "indx1_1785"
         },
         "indx1_1786": {
           "label": "Dictionary of\nconcepts",
           "x": 117677,
-          "y": 30822,
+          "y": 31496,
           "id": "indx1_1786"
         },
         "indx1_1787": {
           "label": "Details, thoughts",
           "x": 117675,
-          "y": 31263,
+          "y": 31937,
           "id": "indx1_1787"
         },
         "indx1_1788": {
           "label": "Sections",
           "x": 117645,
-          "y": 31725,
+          "y": 32399,
           "id": "indx1_1788"
         },
         "indx1_1789": {
           "label": "Books",
           "x": 117735,
-          "y": 31363,
+          "y": 32037,
           "id": "indx1_1789"
         },
         "indx1_1790": {
           "label": "R&D institutions",
           "x": 117765,
-          "y": 31388,
+          "y": 32062,
           "id": "indx1_1790"
         },
         "indx1_1791": {
           "label": "Sites",
           "x": 117731,
-          "y": 31413,
+          "y": 32087,
           "id": "indx1_1791"
         },
         "indx1_1792": {
           "label": "Magazines",
           "x": 117750,
-          "y": 31438,
+          "y": 32112,
           "id": "indx1_1792"
         },
         "indx1_1793": {
           "label": "Articles",
           "x": 117738,
-          "y": 31463,
+          "y": 32137,
           "id": "indx1_1793"
         },
         "indx1_1794": {
           "label": "Media content",
           "x": 117760,
-          "y": 31488,
+          "y": 32162,
           "id": "indx1_1794"
         },
         "indx1_1795": {
           "label": "Misc. web links",
           "x": 117763,
-          "y": 31620,
+          "y": 32294,
           "id": "indx1_1795"
         },
         "indx1_1796": {
           "label": "Projects",
           "x": 117741,
-          "y": 31750,
+          "y": 32424,
           "id": "indx1_1796"
         },
         "indx1_1797": {
           "label": "Tools",
           "x": 117732,
-          "y": 31775,
+          "y": 32449,
           "id": "indx1_1797"
         },
         "indx1_1798": {
           "label": "Organizations",
           "x": 117759,
-          "y": 31800,
+          "y": 32474,
           "id": "indx1_1798"
         },
         "indx1_1799": {
           "label": "Standarts",
           "x": 117746,
-          "y": 31825,
+          "y": 32499,
           "id": "indx1_1799"
         },
         "indx1_1800": {
           "label": "Forums, Groups",
           "x": 117767,
-          "y": 31850,
+          "y": 32524,
           "id": "indx1_1800"
         },
         "indx1_1801": {
           "label": "Laws",
           "x": 117732,
-          "y": 31875,
+          "y": 32549,
           "id": "indx1_1801"
         },
         "indx1_1802": {
           "label": "Adjacent Themes",
           "x": 117771,
-          "y": 31900,
+          "y": 32574,
           "id": "indx1_1802"
         },
         "indx1_1803": {
           "label": "Questions",
           "x": 117511,
-          "y": 32025,
+          "y": 32699,
           "id": "indx1_1803"
         },
         "indx1_1804": {
           "label": "Problems",
           "x": 117509,
-          "y": 32125,
+          "y": 32799,
           "id": "indx1_1804"
         },
         "indx1_1805": {
           "label": "Goals",
           "x": 117497,
-          "y": 32225,
+          "y": 32899,
           "id": "indx1_1805"
         },
         "indx1_1806": {
@@ -31873,7 +31631,7 @@ var schemeData =
           "label": "Web APIs",
           "id": "indx1_1806",
           "x": 121824,
-          "y": 31260,
+          "y": 31934,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -31881,20 +31639,20 @@ var schemeData =
         "indx1_1807": {
           "id": "indx1_1807",
           "x": 117828,
-          "y": 30755,
+          "y": 31429,
           "label": "List"
         },
         "indx1_1808": {
           "id": "indx1_1808",
           "x": 118081,
-          "y": 31616,
+          "y": 32290,
           "label": "https://developer.mozilla.org/en-US/docs/Web/API",
           "link": "https://developer.mozilla.org/en-US/docs/Web/API"
         },
         "indx1_1809": {
           "label": "Asynchronous\nJavaScript",
           "x": 116760,
-          "y": 35416,
+          "y": 36090,
           "font": {
             "size": 72,
             "align": "left"
@@ -31911,145 +31669,145 @@ var schemeData =
         "indx1_1810": {
           "label": "Development",
           "x": 117060,
-          "y": 35866,
+          "y": 36540,
           "id": "indx1_1810"
         },
         "indx1_1811": {
           "label": "12/22/2019",
           "x": 117193,
-          "y": 35866,
+          "y": 36540,
           "id": "indx1_1811"
         },
         "indx1_1812": {
           "label": "init",
           "x": 117310,
-          "y": 35866,
+          "y": 36540,
           "id": "indx1_1812"
         },
         "indx1_1813": {
           "label": "Notes",
           "x": 117040,
-          "y": 34611,
+          "y": 35285,
           "id": "indx1_1813"
         },
         "indx1_1814": {
           "label": "Dictionary of\nconcepts",
           "x": 117269,
-          "y": 33431,
+          "y": 34105,
           "id": "indx1_1814"
         },
         "indx1_1815": {
           "label": "Details, thoughts",
           "x": 117213,
-          "y": 34611,
+          "y": 35285,
           "id": "indx1_1815"
         },
         "indx1_1816": {
           "label": "Sections",
           "x": 117184,
-          "y": 35266,
+          "y": 35940,
           "id": "indx1_1816"
         },
         "indx1_1817": {
           "label": "Books",
           "x": 117277,
-          "y": 34711,
+          "y": 35385,
           "id": "indx1_1817"
         },
         "indx1_1818": {
           "label": "R&D institutions",
           "x": 117308,
-          "y": 34736,
+          "y": 35410,
           "id": "indx1_1818"
         },
         "indx1_1819": {
           "label": "Sites",
           "x": 117273,
-          "y": 34761,
+          "y": 35435,
           "id": "indx1_1819"
         },
         "indx1_1820": {
           "label": "Magazines",
           "x": 117292,
-          "y": 34786,
+          "y": 35460,
           "id": "indx1_1820"
         },
         "indx1_1821": {
           "label": "Articles",
           "x": 117281,
-          "y": 34811,
+          "y": 35485,
           "id": "indx1_1821"
         },
         "indx1_1822": {
           "label": "Media content",
           "x": 117303,
-          "y": 34836,
+          "y": 35510,
           "id": "indx1_1822"
         },
         "indx1_1823": {
           "label": "Misc. web links",
           "x": 117317,
-          "y": 35079,
+          "y": 35753,
           "id": "indx1_1823"
         },
         "indx1_1824": {
           "label": "Projects",
           "x": 117280,
-          "y": 35291,
+          "y": 35965,
           "id": "indx1_1824"
         },
         "indx1_1825": {
           "label": "Tools",
           "x": 117271,
-          "y": 35316,
+          "y": 35990,
           "id": "indx1_1825"
         },
         "indx1_1826": {
           "label": "Organizations",
           "x": 117299,
-          "y": 35341,
+          "y": 36015,
           "id": "indx1_1826"
         },
         "indx1_1827": {
           "label": "Standarts",
           "x": 117285,
-          "y": 35366,
+          "y": 36040,
           "id": "indx1_1827"
         },
         "indx1_1828": {
           "label": "Forums, Groups",
           "x": 117307,
-          "y": 35391,
+          "y": 36065,
           "id": "indx1_1828"
         },
         "indx1_1829": {
           "label": "Laws",
           "x": 117271,
-          "y": 35416,
+          "y": 36090,
           "id": "indx1_1829"
         },
         "indx1_1830": {
           "label": "Adjacent Themes",
           "x": 117310,
-          "y": 35441,
+          "y": 36115,
           "id": "indx1_1830"
         },
         "indx1_1831": {
           "label": "Questions",
           "x": 117050,
-          "y": 35566,
+          "y": 36240,
           "id": "indx1_1831"
         },
         "indx1_1832": {
           "label": "Problems",
           "x": 117048,
-          "y": 35666,
+          "y": 36340,
           "id": "indx1_1832"
         },
         "indx1_1833": {
           "label": "Goals",
           "x": 117037,
-          "y": 35766,
+          "y": 36440,
           "id": "indx1_1833"
         },
         "indx1_1834": {
@@ -32083,7 +31841,7 @@ var schemeData =
           "label": "Asynchronous\nJavaScript",
           "id": "indx1_1834",
           "x": 122778,
-          "y": 34242,
+          "y": 34916,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32091,13 +31849,13 @@ var schemeData =
         "indx1_1835": {
           "id": "indx1_1835",
           "x": 118044,
-          "y": 27633,
+          "y": 28307,
           "label": "Example"
         },
         "indx1_1836": {
           "id": "indx1_1836",
           "x": 118391,
-          "y": 27712,
+          "y": 28386,
           "label": "var url = \"https://en.wikipedia.org/w/api.php\"; \n\nvar params = {\n    action: \"query\",\n    format: \"json\",\n    prop: \"categories\",\n    titles: \"Janelle Monáe\"\n};\n\nurl = url + \"?origin=*\";\nObject.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\nfetch(url)\n    .then(function(response){return response.json();})\n    .then(function(response) {\n        var pages = response.query.pages;\n        for (var p in pages) {\n            for (var cat of pages[p].categories) {\n                console.log(cat.title);\n            }\n        }\n    })\n    .catch(function(error){console.log(error);});"
         },
         "indx1_1837": {
@@ -32160,7 +31918,7 @@ var schemeData =
         "indx1_1846": {
           "label": "Debugging",
           "x": 105842,
-          "y": 24031,
+          "y": 26008,
           "font": {
             "size": 72,
             "align": "left"
@@ -32177,145 +31935,145 @@ var schemeData =
         "indx1_1847": {
           "label": "Development",
           "x": 106142,
-          "y": 24481,
+          "y": 26458,
           "id": "indx1_1847"
         },
         "indx1_1848": {
           "label": "12/23/2019",
           "x": 106275,
-          "y": 24481,
+          "y": 26458,
           "id": "indx1_1848"
         },
         "indx1_1849": {
           "label": "init",
           "x": 106392,
-          "y": 24481,
+          "y": 26458,
           "id": "indx1_1849"
         },
         "indx1_1850": {
           "label": "Notes",
           "x": 106119,
-          "y": 23631,
+          "y": 25608,
           "id": "indx1_1850"
         },
         "indx1_1851": {
           "label": "Dictionary of\nconcepts",
           "x": 106279,
-          "y": 23381,
+          "y": 25358,
           "id": "indx1_1851"
         },
         "indx1_1852": {
           "label": "Details, thoughts",
           "x": 106292,
-          "y": 23631,
+          "y": 25608,
           "id": "indx1_1852"
         },
         "indx1_1853": {
           "label": "Sections",
           "x": 106266,
-          "y": 23881,
+          "y": 25858,
           "id": "indx1_1853"
         },
         "indx1_1854": {
           "label": "Books",
           "x": 106356,
-          "y": 23731,
+          "y": 25708,
           "id": "indx1_1854"
         },
         "indx1_1855": {
           "label": "R&D institutions",
           "x": 106387,
-          "y": 23756,
+          "y": 25733,
           "id": "indx1_1855"
         },
         "indx1_1856": {
           "label": "Sites",
           "x": 106352,
-          "y": 23781,
+          "y": 25758,
           "id": "indx1_1856"
         },
         "indx1_1857": {
           "label": "Magazines",
           "x": 106371,
-          "y": 23806,
+          "y": 25783,
           "id": "indx1_1857"
         },
         "indx1_1858": {
           "label": "Articles",
           "x": 106360,
-          "y": 23831,
+          "y": 25808,
           "id": "indx1_1858"
         },
         "indx1_1859": {
           "label": "Media content",
           "x": 106382,
-          "y": 23856,
+          "y": 25833,
           "id": "indx1_1859"
         },
         "indx1_1860": {
           "label": "Misc. web links",
           "x": 106384,
-          "y": 23881,
+          "y": 25858,
           "id": "indx1_1860"
         },
         "indx1_1861": {
           "label": "Projects",
           "x": 106362,
-          "y": 23906,
+          "y": 25883,
           "id": "indx1_1861"
         },
         "indx1_1862": {
           "label": "Tools",
           "x": 106353,
-          "y": 23931,
+          "y": 25908,
           "id": "indx1_1862"
         },
         "indx1_1863": {
           "label": "Organizations",
           "x": 106381,
-          "y": 23956,
+          "y": 25933,
           "id": "indx1_1863"
         },
         "indx1_1864": {
           "label": "Standarts",
           "x": 106367,
-          "y": 23981,
+          "y": 25958,
           "id": "indx1_1864"
         },
         "indx1_1865": {
           "label": "Forums, Groups",
           "x": 106389,
-          "y": 24006,
+          "y": 25983,
           "id": "indx1_1865"
         },
         "indx1_1866": {
           "label": "Laws",
           "x": 106353,
-          "y": 24031,
+          "y": 26008,
           "id": "indx1_1866"
         },
         "indx1_1867": {
           "label": "Adjacent Themes",
           "x": 106392,
-          "y": 24056,
+          "y": 26033,
           "id": "indx1_1867"
         },
         "indx1_1868": {
           "label": "Questions",
           "x": 106132,
-          "y": 24181,
+          "y": 26158,
           "id": "indx1_1868"
         },
         "indx1_1869": {
           "label": "Problems",
           "x": 106130,
-          "y": 24281,
+          "y": 26258,
           "id": "indx1_1869"
         },
         "indx1_1870": {
           "label": "Goals",
           "x": 106119,
-          "y": 24381,
+          "y": 26358,
           "id": "indx1_1870"
         },
         "indx1_1871": {
@@ -32349,7 +32107,7 @@ var schemeData =
           "label": "Debugging",
           "id": "indx1_1871",
           "x": 109978,
-          "y": 23867,
+          "y": 25844,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32357,7 +32115,7 @@ var schemeData =
         "indx1_1872": {
           "label": "Logging",
           "x": 105936,
-          "y": 26522,
+          "y": 28499,
           "font": {
             "size": 72,
             "align": "left"
@@ -32374,145 +32132,145 @@ var schemeData =
         "indx1_1873": {
           "label": "Development",
           "x": 106236,
-          "y": 26972,
+          "y": 28949,
           "id": "indx1_1873"
         },
         "indx1_1874": {
           "label": "12/23/2019",
           "x": 106369,
-          "y": 26972,
+          "y": 28949,
           "id": "indx1_1874"
         },
         "indx1_1875": {
           "label": "init",
           "x": 106486,
-          "y": 26972,
+          "y": 28949,
           "id": "indx1_1875"
         },
         "indx1_1876": {
           "label": "Notes",
           "x": 106213,
-          "y": 26122,
+          "y": 28099,
           "id": "indx1_1876"
         },
         "indx1_1877": {
           "label": "Dictionary of\nconcepts",
           "x": 106373,
-          "y": 25872,
+          "y": 27849,
           "id": "indx1_1877"
         },
         "indx1_1878": {
           "label": "Details, thoughts",
           "x": 106386,
-          "y": 26122,
+          "y": 28099,
           "id": "indx1_1878"
         },
         "indx1_1879": {
           "label": "Sections",
           "x": 106360,
-          "y": 26372,
+          "y": 28349,
           "id": "indx1_1879"
         },
         "indx1_1880": {
           "label": "Books",
           "x": 106450,
-          "y": 26222,
+          "y": 28199,
           "id": "indx1_1880"
         },
         "indx1_1881": {
           "label": "R&D institutions",
           "x": 106481,
-          "y": 26247,
+          "y": 28224,
           "id": "indx1_1881"
         },
         "indx1_1882": {
           "label": "Sites",
           "x": 106446,
-          "y": 26272,
+          "y": 28249,
           "id": "indx1_1882"
         },
         "indx1_1883": {
           "label": "Magazines",
           "x": 106465,
-          "y": 26297,
+          "y": 28274,
           "id": "indx1_1883"
         },
         "indx1_1884": {
           "label": "Articles",
           "x": 106454,
-          "y": 26322,
+          "y": 28299,
           "id": "indx1_1884"
         },
         "indx1_1885": {
           "label": "Media content",
           "x": 106476,
-          "y": 26347,
+          "y": 28324,
           "id": "indx1_1885"
         },
         "indx1_1886": {
           "label": "Misc. web links",
           "x": 106478,
-          "y": 26372,
+          "y": 28349,
           "id": "indx1_1886"
         },
         "indx1_1887": {
           "label": "Projects",
           "x": 106456,
-          "y": 26397,
+          "y": 28374,
           "id": "indx1_1887"
         },
         "indx1_1888": {
           "label": "Tools",
           "x": 106447,
-          "y": 26422,
+          "y": 28399,
           "id": "indx1_1888"
         },
         "indx1_1889": {
           "label": "Organizations",
           "x": 106475,
-          "y": 26447,
+          "y": 28424,
           "id": "indx1_1889"
         },
         "indx1_1890": {
           "label": "Standarts",
           "x": 106461,
-          "y": 26472,
+          "y": 28449,
           "id": "indx1_1890"
         },
         "indx1_1891": {
           "label": "Forums, Groups",
           "x": 106483,
-          "y": 26497,
+          "y": 28474,
           "id": "indx1_1891"
         },
         "indx1_1892": {
           "label": "Laws",
           "x": 106447,
-          "y": 26522,
+          "y": 28499,
           "id": "indx1_1892"
         },
         "indx1_1893": {
           "label": "Adjacent Themes",
           "x": 106486,
-          "y": 26547,
+          "y": 28524,
           "id": "indx1_1893"
         },
         "indx1_1894": {
           "label": "Questions",
           "x": 106226,
-          "y": 26672,
+          "y": 28649,
           "id": "indx1_1894"
         },
         "indx1_1895": {
           "label": "Problems",
           "x": 106224,
-          "y": 26772,
+          "y": 28749,
           "id": "indx1_1895"
         },
         "indx1_1896": {
           "label": "Goals",
           "x": 106213,
-          "y": 26872,
+          "y": 28849,
           "id": "indx1_1896"
         },
         "indx1_1897": {
@@ -32546,7 +32304,7 @@ var schemeData =
           "label": "Logging",
           "id": "indx1_1897",
           "x": 109339,
-          "y": 26255,
+          "y": 28232,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32655,60 +32413,60 @@ var schemeData =
         "indx1_1912": {
           "id": "indx1_1912",
           "x": 118046,
-          "y": 27991,
+          "y": 28665,
           "label": "response"
         },
         "indx1_1913": {
           "label": "arrayBuffer()",
           "link": "",
           "x": 118171,
-          "y": 27978,
+          "y": 28652,
           "id": "indx1_1913"
         },
         "indx1_1914": {
           "label": "blob()",
           "link": "",
           "x": 118149,
-          "y": 28002,
+          "y": 28676,
           "id": "indx1_1914"
         },
         "indx1_1915": {
           "label": "json()",
           "link": "",
           "x": 118149,
-          "y": 28026,
+          "y": 28700,
           "id": "indx1_1915"
         },
         "indx1_1916": {
           "label": "text()",
           "link": "",
           "x": 118147,
-          "y": 28050,
+          "y": 28724,
           "id": "indx1_1916"
         },
         "indx1_1917": {
           "label": "formData()",
           "link": "",
           "x": 118165,
-          "y": 28074,
+          "y": 28748,
           "id": "indx1_1917"
         },
         "indx1_1918": {
           "id": "indx1_1918",
           "x": 117484,
-          "y": 33420,
+          "y": 34094,
           "label": "async"
         },
         "indx1_1919": {
           "id": "indx1_1919",
           "x": 117471,
-          "y": 33474,
+          "y": 34148,
           "label": "Promises"
         },
         "indx1_1920": {
           "label": "JS + DOM",
           "x": 105491,
-          "y": 29208,
+          "y": 31185,
           "font": {
             "size": 72,
             "align": "left"
@@ -32725,145 +32483,145 @@ var schemeData =
         "indx1_1921": {
           "label": "Development",
           "x": 105791,
-          "y": 29658,
+          "y": 31635,
           "id": "indx1_1921"
         },
         "indx1_1922": {
           "label": "12/23/2019",
           "x": 105924,
-          "y": 29658,
+          "y": 31635,
           "id": "indx1_1922"
         },
         "indx1_1923": {
           "label": "init",
           "x": 106041,
-          "y": 29658,
+          "y": 31635,
           "id": "indx1_1923"
         },
         "indx1_1924": {
           "label": "Notes",
           "x": 105764,
-          "y": 28515,
+          "y": 30492,
           "id": "indx1_1924"
         },
         "indx1_1925": {
           "label": "Dictionary of\nconcepts",
           "x": 105924,
-          "y": 28047,
+          "y": 30024,
           "id": "indx1_1925"
         },
         "indx1_1926": {
           "label": "Details, thoughts",
           "x": 105938,
-          "y": 28515,
+          "y": 30492,
           "id": "indx1_1926"
         },
         "indx1_1927": {
           "label": "Sections",
           "x": 105915,
-          "y": 29058,
+          "y": 31035,
           "id": "indx1_1927"
         },
         "indx1_1928": {
           "label": "Books",
           "x": 106002,
-          "y": 28615,
+          "y": 30592,
           "id": "indx1_1928"
         },
         "indx1_1929": {
           "label": "R&D institutions",
           "x": 106032,
-          "y": 28640,
+          "y": 30617,
           "id": "indx1_1929"
         },
         "indx1_1930": {
           "label": "Sites",
           "x": 105998,
-          "y": 28665,
+          "y": 30642,
           "id": "indx1_1930"
         },
         "indx1_1931": {
           "label": "Magazines",
           "x": 106017,
-          "y": 28690,
+          "y": 30667,
           "id": "indx1_1931"
         },
         "indx1_1932": {
           "label": "Articles",
           "x": 106005,
-          "y": 28715,
+          "y": 30692,
           "id": "indx1_1932"
         },
         "indx1_1933": {
           "label": "Media content",
           "x": 106027,
-          "y": 28740,
+          "y": 30717,
           "id": "indx1_1933"
         },
         "indx1_1934": {
           "label": "Misc. web links",
           "x": 106030,
-          "y": 28867,
+          "y": 30844,
           "id": "indx1_1934"
         },
         "indx1_1935": {
           "label": "Projects",
           "x": 106011,
-          "y": 29083,
+          "y": 31060,
           "id": "indx1_1935"
         },
         "indx1_1936": {
           "label": "Tools",
           "x": 106002,
-          "y": 29108,
+          "y": 31085,
           "id": "indx1_1936"
         },
         "indx1_1937": {
           "label": "Organizations",
           "x": 106030,
-          "y": 29133,
+          "y": 31110,
           "id": "indx1_1937"
         },
         "indx1_1938": {
           "label": "Standarts",
           "x": 106016,
-          "y": 29158,
+          "y": 31135,
           "id": "indx1_1938"
         },
         "indx1_1939": {
           "label": "Forums, Groups",
           "x": 106038,
-          "y": 29183,
+          "y": 31160,
           "id": "indx1_1939"
         },
         "indx1_1940": {
           "label": "Laws",
           "x": 106002,
-          "y": 29208,
+          "y": 31185,
           "id": "indx1_1940"
         },
         "indx1_1941": {
           "label": "Adjacent Themes",
           "x": 106041,
-          "y": 29233,
+          "y": 31210,
           "id": "indx1_1941"
         },
         "indx1_1942": {
           "label": "Questions",
           "x": 105781,
-          "y": 29358,
+          "y": 31335,
           "id": "indx1_1942"
         },
         "indx1_1943": {
           "label": "Problems",
           "x": 105779,
-          "y": 29458,
+          "y": 31435,
           "id": "indx1_1943"
         },
         "indx1_1944": {
           "label": "Goals",
           "x": 105768,
-          "y": 29558,
+          "y": 31535,
           "id": "indx1_1944"
         },
         "indx1_1945": {
@@ -32897,7 +32655,7 @@ var schemeData =
           "label": "JS + DOM",
           "id": "indx1_1945",
           "x": 109880,
-          "y": 28358,
+          "y": 30335,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32905,28 +32663,28 @@ var schemeData =
         "indx1_1946": {
           "id": "indx1_1946",
           "x": 106332,
-          "y": 28834,
+          "y": 30811,
           "label": "https://www.w3schools.com/xml/xml_parser.asp",
           "link": "https://www.w3schools.com/xml/xml_parser.asp"
         },
         "indx1_1947": {
           "id": "indx1_1947",
           "x": 106329,
-          "y": 28866,
+          "y": 30843,
           "label": "https://www.w3schools.com/xml/dom_intro.asp",
           "link": "https://www.w3schools.com/xml/dom_intro.asp"
         },
         "indx1_1948": {
           "id": "indx1_1948",
           "x": 106351,
-          "y": 28896,
+          "y": 30873,
           "label": "https://en.wikipedia.org/wiki/Document_Object_Model",
           "link": "https://en.wikipedia.org/wiki/Document_Object_Model"
         },
         "indx1_1949": {
           "id": "indx1_1949",
           "x": 106350,
-          "y": 27930,
+          "y": 29907,
           "label": "parser = new DOMParser();\nxmlDoc = parser.parseFromString(text,\"text/xml\");\n\nvar val = xmlDoc.getElementsByTagName(\"title\")[0].childNodes[0].nodeValue;",
           "shape": "box",
           "link": "",
@@ -32943,19 +32701,19 @@ var schemeData =
         "indx1_1950": {
           "id": "indx1_1950",
           "x": 118804,
-          "y": -371,
+          "y": -155,
           "label": "method is used to join two or more arrays."
         },
         "indx1_1951": {
           "id": "indx1_1951",
           "x": 118561,
-          "y": -360,
+          "y": -144,
           "label": "concat()"
         },
         "indx1_1952": {
           "id": "indx1_1952",
           "x": 118765,
-          "y": -332,
+          "y": -116,
           "label": "children = hege.concat(stale);"
         },
         "indx1_1953": {
@@ -32978,7 +32736,7 @@ var schemeData =
         "indx1_1954": {
           "label": "Conditional\nstatements",
           "x": 105598,
-          "y": 31605,
+          "y": 33582,
           "font": {
             "size": 72,
             "align": "left"
@@ -32995,151 +32753,151 @@ var schemeData =
         "indx1_1955": {
           "label": "Development",
           "x": 105898,
-          "y": 32055,
+          "y": 34032,
           "id": "indx1_1955"
         },
         "indx1_1956": {
           "label": "12/26/2019",
           "x": 106031,
-          "y": 32055,
+          "y": 34032,
           "id": "indx1_1956"
         },
         "indx1_1957": {
           "label": "init",
           "x": 106148,
-          "y": 32055,
+          "y": 34032,
           "id": "indx1_1957"
         },
         "indx1_1958": {
           "label": "Notes",
           "x": 105875,
-          "y": 31205,
+          "y": 33182,
           "id": "indx1_1958"
         },
         "indx1_1959": {
           "label": "Dictionary of\nconcepts",
           "x": 106035,
-          "y": 30753,
+          "y": 32730,
           "id": "indx1_1959"
         },
         "indx1_1960": {
           "label": "Details, thoughts",
           "x": 106048,
-          "y": 31205,
+          "y": 33182,
           "id": "indx1_1960"
         },
         "indx1_1961": {
           "label": "Sections",
           "x": 106022,
-          "y": 31455,
+          "y": 33432,
           "id": "indx1_1961"
         },
         "indx1_1962": {
           "label": "Books",
           "x": 106112,
-          "y": 31305,
+          "y": 33282,
           "id": "indx1_1962"
         },
         "indx1_1963": {
           "label": "R&D institutions",
           "x": 106143,
-          "y": 31330,
+          "y": 33307,
           "id": "indx1_1963"
         },
         "indx1_1964": {
           "label": "Sites",
           "x": 106108,
-          "y": 31355,
+          "y": 33332,
           "id": "indx1_1964"
         },
         "indx1_1965": {
           "label": "Magazines",
           "x": 106127,
-          "y": 31380,
+          "y": 33357,
           "id": "indx1_1965"
         },
         "indx1_1966": {
           "label": "Articles",
           "x": 106116,
-          "y": 31405,
+          "y": 33382,
           "id": "indx1_1966"
         },
         "indx1_1967": {
           "label": "Media content",
           "x": 106138,
-          "y": 31430,
+          "y": 33407,
           "id": "indx1_1967"
         },
         "indx1_1968": {
           "label": "Misc. web links",
           "x": 106140,
-          "y": 31455,
+          "y": 33432,
           "id": "indx1_1968"
         },
         "indx1_1969": {
           "label": "Projects",
           "x": 106118,
-          "y": 31480,
+          "y": 33457,
           "id": "indx1_1969"
         },
         "indx1_1970": {
           "label": "Tools",
           "x": 106110,
-          "y": 31505,
+          "y": 33482,
           "id": "indx1_1970"
         },
         "indx1_1971": {
           "label": "Organizations",
           "x": 106137,
-          "y": 31530,
+          "y": 33507,
           "id": "indx1_1971"
         },
         "indx1_1972": {
           "label": "Standarts",
           "x": 106123,
-          "y": 31555,
+          "y": 33532,
           "id": "indx1_1972"
         },
         "indx1_1973": {
           "label": "Forums, Groups",
           "x": 106145,
-          "y": 31580,
+          "y": 33557,
           "id": "indx1_1973"
         },
         "indx1_1974": {
           "label": "Laws",
           "x": 106109,
-          "y": 31605,
+          "y": 33582,
           "id": "indx1_1974"
         },
         "indx1_1975": {
           "label": "Adjacent Themes",
           "x": 106148,
-          "y": 31630,
+          "y": 33607,
           "id": "indx1_1975"
         },
         "indx1_1976": {
           "label": "Questions",
           "x": 105888,
-          "y": 31755,
+          "y": 33732,
           "id": "indx1_1976"
         },
         "indx1_1977": {
           "label": "Problems",
           "x": 105886,
-          "y": 31855,
+          "y": 33832,
           "id": "indx1_1977"
         },
         "indx1_1978": {
           "label": "Goals",
           "x": 105875,
-          "y": 31955,
+          "y": 33932,
           "id": "indx1_1978"
         },
         "indx1_1979": {
           "id": "indx1_1979",
           "x": 110061,
-          "y": 31525,
+          "y": 33502,
           "label": "Conditional\nstatements",
           "shape": "box",
           "link": "",
@@ -33156,7 +32914,7 @@ var schemeData =
         "indx1_1980": {
           "id": "indx1_1980",
           "x": 106459,
-          "y": 30631,
+          "y": 32608,
           "label": "if (condition1) {\n  //  block of code to be executed if condition1 is true\n} else if (condition2) {\n  //  block of code to be executed if the condition1 is false and condition2 is true\n} else {\n  //  block of code to be executed if the condition1 is false and condition2 is false\n}",
           "shape": "box",
           "link": "",
@@ -33173,13 +32931,13 @@ var schemeData =
         "indx1_1981": {
           "id": "indx1_1981",
           "x": 106271,
-          "y": 30824,
+          "y": 32801,
           "label": "switch(expression) {\n  case x:\n    // code block\n    break;\n  case y:\n    // code block\n    break;\n  default:\n    // code block\n}"
         },
         "indx1_1982": {
           "label": "Promise",
           "x": 93514,
-          "y": 31076,
+          "y": 32094,
           "font": {
             "size": 72,
             "align": "left"
@@ -33196,151 +32954,151 @@ var schemeData =
         "indx1_1983": {
           "label": "Development",
           "x": 93813,
-          "y": 31527,
+          "y": 32545,
           "id": "indx1_1983"
         },
         "indx1_1984": {
           "label": "12/28/2019",
           "x": 93946,
-          "y": 31527,
+          "y": 32545,
           "id": "indx1_1984"
         },
         "indx1_1985": {
           "label": "init",
           "x": 94063,
-          "y": 31527,
+          "y": 32545,
           "id": "indx1_1985"
         },
         "indx1_1986": {
           "label": "Notes",
           "x": 93803,
-          "y": 30143,
+          "y": 31161,
           "id": "indx1_1986"
         },
         "indx1_1987": {
           "label": "Dictionary of\nconcepts",
           "x": 94026,
-          "y": 28171,
+          "y": 29189,
           "id": "indx1_1987"
         },
         "indx1_1988": {
           "label": "Details, thoughts",
           "x": 93977,
-          "y": 30143,
+          "y": 31161,
           "id": "indx1_1988"
         },
         "indx1_1989": {
           "label": "Sections",
           "x": 93937,
-          "y": 30927,
+          "y": 31945,
           "id": "indx1_1989"
         },
         "indx1_1990": {
           "label": "Books",
           "x": 94041,
-          "y": 30243,
+          "y": 31261,
           "id": "indx1_1990"
         },
         "indx1_1991": {
           "label": "R&D institutions",
           "x": 94071,
-          "y": 30268,
+          "y": 31286,
           "id": "indx1_1991"
         },
         "indx1_1992": {
           "label": "Sites",
           "x": 94037,
-          "y": 30293,
+          "y": 31311,
           "id": "indx1_1992"
         },
         "indx1_1993": {
           "label": "Magazines",
           "x": 94056,
-          "y": 30318,
+          "y": 31336,
           "id": "indx1_1993"
         },
         "indx1_1994": {
           "label": "Articles",
           "x": 94044,
-          "y": 30343,
+          "y": 31361,
           "id": "indx1_1994"
         },
         "indx1_1995": {
           "label": "Media content",
           "x": 94066,
-          "y": 30368,
+          "y": 31386,
           "id": "indx1_1995"
         },
         "indx1_1996": {
           "label": "Misc. web links",
           "x": 94069,
-          "y": 30665,
+          "y": 31683,
           "id": "indx1_1996"
         },
         "indx1_1997": {
           "label": "Projects",
           "x": 94033,
-          "y": 30952,
+          "y": 31970,
           "id": "indx1_1997"
         },
         "indx1_1998": {
           "label": "Tools",
           "x": 94025,
-          "y": 30977,
+          "y": 31995,
           "id": "indx1_1998"
         },
         "indx1_1999": {
           "label": "Organizations",
           "x": 94052,
-          "y": 31002,
+          "y": 32020,
           "id": "indx1_1999"
         },
         "indx1_2000": {
           "label": "Standarts",
           "x": 94038,
-          "y": 31027,
+          "y": 32045,
           "id": "indx1_2000"
         },
         "indx1_2001": {
           "label": "Forums, Groups",
           "x": 94060,
-          "y": 31052,
+          "y": 32070,
           "id": "indx1_2001"
         },
         "indx1_2002": {
           "label": "Laws",
           "x": 94024,
-          "y": 31077,
+          "y": 32095,
           "id": "indx1_2002"
         },
         "indx1_2003": {
           "label": "Adjacent Themes",
           "x": 94063,
-          "y": 31102,
+          "y": 32120,
           "id": "indx1_2003"
         },
         "indx1_2004": {
           "label": "Questions",
           "x": 93803,
-          "y": 31227,
+          "y": 32245,
           "id": "indx1_2004"
         },
         "indx1_2005": {
           "label": "Problems",
           "x": 93801,
-          "y": 31327,
+          "y": 32345,
           "id": "indx1_2005"
         },
         "indx1_2006": {
           "label": "Goals",
           "x": 93790,
-          "y": 31427,
+          "y": 32445,
           "id": "indx1_2006"
         },
         "indx1_2007": {
           "id": "indx1_2007",
           "x": 97812,
-          "y": 27796,
+          "y": 28814,
           "label": "Promise",
           "shape": "box",
           "link": "",
@@ -33358,116 +33116,116 @@ var schemeData =
           "label": "Promise - JavaScript | MDN",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
           "x": 94314,
-          "y": 30580,
+          "y": 31598,
           "id": "indx1_2008"
         },
         "indx1_2009": {
           "label": "Using Promises - JavaScript | MDN",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises",
           "x": 94616,
-          "y": 30574,
+          "y": 31592,
           "id": "indx1_2009"
         },
         "indx1_2010": {
           "label": "JavaScript | Promises - GeeksforGeeks",
           "link": "https://www.geeksforgeeks.org/javascript-promises/",
           "x": 94351,
-          "y": 30630,
+          "y": 31648,
           "id": "indx1_2010"
         },
         "indx1_2011": {
           "label": "Promise",
           "link": "https://learn.javascript.ru/promise",
           "x": 94252,
-          "y": 30655,
+          "y": 31673,
           "id": "indx1_2011"
         },
         "indx1_2012": {
           "label": "Promise",
           "link": "https://javascript.info/promise-basics",
           "x": 94252,
-          "y": 30680,
+          "y": 31698,
           "id": "indx1_2012"
         },
         "indx1_2013": {
           "label": "JavaScript Promises: an Introduction  |  Web Fundamentals",
           "link": "https://developers.google.com/web/fundamentals/primers/promises",
           "x": 94414,
-          "y": 30705,
+          "y": 31723,
           "id": "indx1_2013"
         },
         "indx1_2014": {
           "label": "JavaScript Promises: an Introduction  |  Web Fundamentals",
           "link": "https://developers.google.com/web/fundamentals/primers/promises#promise-api-reference",
           "x": 94660,
-          "y": 30506,
+          "y": 31524,
           "id": "indx1_2014"
         },
         "indx1_2015": {
           "label": "JavaScript Promises for Dummies ― Scotch.io",
           "link": "https://scotch.io/tutorials/javascript-promises-for-dummies",
           "x": 94373,
-          "y": 30755,
+          "y": 31773,
           "id": "indx1_2015"
         },
         "indx1_2016": {
           "label": "Understanding promises in JavaScript - By",
           "link": "https://hackernoon.com/understanding-promises-in-javascript-13d99df067c1",
           "x": 94361,
-          "y": 30780,
+          "y": 31798,
           "id": "indx1_2016"
         },
         "indx1_2017": {
           "label": "Promises In Javascript A Complete Guide For 2019 - DEV Community 👩‍💻👨‍💻",
           "link": "https://dev.to/nileshsanyal/promises-in-javascript-a-complete-guide-for-2019-4o99",
           "x": 94465,
-          "y": 30805,
+          "y": 31823,
           "id": "indx1_2017"
         },
         "indx1_2018": {
           "id": "indx1_2018",
           "x": 94295,
-          "y": 30511,
+          "y": 31529,
           "label": "Promise API reference"
         },
         "indx1_2019": {
           "id": "indx1_2019",
           "x": 94180,
-          "y": 28350,
+          "y": 29368,
           "label": "API"
         },
         "indx1_2020": {
           "id": "indx1_2020",
           "x": 94340,
-          "y": 28102,
+          "y": 29120,
           "label": "Static Methods"
         },
         "indx1_2021": {
           "label": "Promise.resolve(promise)",
           "link": "",
           "x": 94535,
-          "y": 27972,
+          "y": 28990,
           "id": "indx1_2021"
         },
         "indx1_2022": {
           "label": "Returns promise (only if promise.constructor == Promise)",
           "link": "",
           "x": 94990,
-          "y": 27975,
+          "y": 28993,
           "id": "indx1_2022"
         },
         "indx1_2023": {
           "label": "Promise.resolve(thenable)",
           "link": "",
           "x": 94537,
-          "y": 28022,
+          "y": 29040,
           "id": "indx1_2023"
         },
         "indx1_2024": {
           "label": "Make a new promise from the thenable. A thenable is promise-like\nin as far as it has a `then()` method.",
           "link": "",
           "x": 95018,
-          "y": 28025,
+          "y": 29043,
           "id": "indx1_2024",
           "shape": "box",
           "font": {
@@ -33484,28 +33242,28 @@ var schemeData =
           "label": "Promise.resolve(obj)",
           "link": "",
           "x": 94519,
-          "y": 28072,
+          "y": 29090,
           "id": "indx1_2025"
         },
         "indx1_2026": {
           "label": "Make a promise that fulfills to obj. in this situation.",
           "link": "",
           "x": 94966,
-          "y": 28075,
+          "y": 29093,
           "id": "indx1_2026"
         },
         "indx1_2027": {
           "label": "Promise.reject(obj)",
           "link": "",
           "x": 94514,
-          "y": 28122,
+          "y": 29140,
           "id": "indx1_2027"
         },
         "indx1_2028": {
           "label": "Make a promise that rejects to obj. For consistency and debugging\n(e.g. stack traces), obj should be an instanceof Error.",
           "link": "",
           "x": 95020,
-          "y": 28125,
+          "y": 29143,
           "id": "indx1_2028",
           "shape": "box",
           "font": {
@@ -33522,14 +33280,14 @@ var schemeData =
           "label": "Promise.all(array)",
           "link": "",
           "x": 94510,
-          "y": 28202,
+          "y": 29220,
           "id": "indx1_2029"
         },
         "indx1_2030": {
           "label": "Make a promise that fulfills when every item in the array fulfills, and rejects\nif (and when) any item rejects. Each array item is passed to Promise.resolve, so the\narray can be a mixture of promise-like objects and other objects. The fulfillment\nvalue is an array (in order) of fulfillment values. The rejection value is the\nfirst rejection value.",
           "link": "",
           "x": 95073,
-          "y": 28205,
+          "y": 29223,
           "id": "indx1_2030",
           "shape": "box",
           "font": {
@@ -33546,14 +33304,14 @@ var schemeData =
           "label": "Promise.race(array)",
           "link": "",
           "x": 94517,
-          "y": 28288,
+          "y": 29306,
           "id": "indx1_2031"
         },
         "indx1_2032": {
           "label": "Make a Promise that fulfills as soon as any item fulfills,\nor rejects as soon as any item rejects,\nwhichever happens first.",
           "link": "",
           "x": 94981,
-          "y": 28291,
+          "y": 29309,
           "id": "indx1_2032",
           "shape": "box",
           "font": {
@@ -33569,55 +33327,55 @@ var schemeData =
         "indx1_2033": {
           "id": "indx1_2033",
           "x": 94330,
-          "y": 28422,
+          "y": 29440,
           "label": "Constructor"
         },
         "indx1_2034": {
           "id": "indx1_2034",
           "x": 94583,
-          "y": 28429,
+          "y": 29447,
           "label": "new Promise(function(resolve, reject) {});"
         },
         "indx1_2035": {
           "label": "resolve(thenable)",
           "link": "",
           "x": 94864,
-          "y": 28391,
+          "y": 29409,
           "id": "indx1_2035"
         },
         "indx1_2036": {
           "label": "Your promise will be fulfilled/rejected with the outcome of thenable",
           "link": "",
           "x": 95284,
-          "y": 28394,
+          "y": 29412,
           "id": "indx1_2036"
         },
         "indx1_2037": {
           "label": "resolve(obj)",
           "link": "",
           "x": 94846,
-          "y": 28441,
+          "y": 29459,
           "id": "indx1_2037"
         },
         "indx1_2038": {
           "label": "Your promise is fulfilled with obj",
           "link": "",
           "x": 95168,
-          "y": 28436,
+          "y": 29454,
           "id": "indx1_2038"
         },
         "indx1_2039": {
           "label": "reject(obj)",
           "link": "",
           "x": 94841,
-          "y": 28491,
+          "y": 29509,
           "id": "indx1_2039"
         },
         "indx1_2040": {
           "label": "Your promise is rejected with obj. For consistency and debugging (e.g., stack traces),\nobj should be an instanceof Error. Any errors thrown in the constructor callback will\nbe implicitly passed to reject().",
           "link": "",
           "x": 95336,
-          "y": 28475,
+          "y": 29493,
           "id": "indx1_2040",
           "shape": "box",
           "font": {
@@ -33633,21 +33391,21 @@ var schemeData =
         "indx1_2041": {
           "id": "indx1_2041",
           "x": 94350,
-          "y": 28682,
+          "y": 29700,
           "label": "Instance Methods"
         },
         "indx1_2042": {
           "label": "promise.then(onFulfilled, onRejected)",
           "link": "",
           "x": 94573,
-          "y": 28617,
+          "y": 29635,
           "id": "indx1_2042"
         },
         "indx1_2043": {
           "label": "onFulfilled is called when/if \"promise\" resolves. onRejected is called\nwhen/if \"promise\" rejects. Both are optional, if either/both are omitted\nthe next onFulfilled/onRejected in the chain is called. Both callbacks\nhave a single parameter, the fulfillment value or rejection reason.\nthen() returns a new promise equivalent to the value you return\nfrom onFulfilled/onRejected after being passed through Promise.resolve.\nIf an error is thrown in the callback, the returned promise rejects with that error.",
           "link": "",
           "x": 95059,
-          "y": 28619,
+          "y": 29637,
           "id": "indx1_2043",
           "shape": "box",
           "font": {
@@ -33664,26 +33422,26 @@ var schemeData =
           "label": "promise.catch(onRejected)",
           "link": "",
           "x": 94539,
-          "y": 28750,
+          "y": 29768,
           "id": "indx1_2044"
         },
         "indx1_2045": {
           "label": "Sugar for promise.then(undefined, onRejected)",
           "link": "",
           "x": 94959,
-          "y": 28749,
+          "y": 29767,
           "id": "indx1_2045"
         },
         "indx1_2046": {
           "id": "indx1_2046",
           "x": 94203,
-          "y": 27468,
+          "y": 28486,
           "label": "What is a promise?"
         },
         "indx1_2047": {
           "id": "indx1_2047",
           "x": 94523,
-          "y": 27471,
+          "y": 28489,
           "label": "A promise is an object that represents the eventual completion\nor failure of an asynchronous operation,\nand it's resulting value.",
           "shape": "box",
           "link": "",
@@ -33700,40 +33458,40 @@ var schemeData =
         "indx1_2048": {
           "id": "indx1_2048",
           "x": 106044,
-          "y": 11309,
+          "y": 13286,
           "label": "var sum = new Function('x', 'y', 'return x+y');\nconsole.log(sum(1, 2));"
         },
         "indx1_2049": {
           "id": "indx1_2049",
           "x": 105973,
-          "y": 11391,
+          "y": 13368,
           "label": "Anonymous functions"
         },
         "indx1_2050": {
           "label": "A function that have no name is known as anonymous function.",
           "link": "",
           "x": 106392,
-          "y": 11384,
+          "y": 13361,
           "id": "indx1_2050"
         },
         "indx1_2051": {
           "label": "Anonymous function are self invoked, means it calls itself automatically.",
           "link": "",
           "x": 106420,
-          "y": 11430,
+          "y": 13407,
           "id": "indx1_2051"
         },
         "indx1_2052": {
           "label": "This behavior is also known as immediately invoked function expression(IIFE).",
           "link": "",
           "x": 106942,
-          "y": 11431,
+          "y": 13408,
           "id": "indx1_2052"
         },
         "indx1_2053": {
           "label": "Callbacks",
           "x": 93814,
-          "y": 33530,
+          "y": 34548,
           "font": {
             "size": 72,
             "align": "left"
@@ -33750,145 +33508,145 @@ var schemeData =
         "indx1_2054": {
           "label": "Development",
           "x": 94114,
-          "y": 33980,
+          "y": 34998,
           "id": "indx1_2054"
         },
         "indx1_2055": {
           "label": "12/28/2019",
           "x": 94247,
-          "y": 33980,
+          "y": 34998,
           "id": "indx1_2055"
         },
         "indx1_2056": {
           "label": "init",
           "x": 94364,
-          "y": 33980,
+          "y": 34998,
           "id": "indx1_2056"
         },
         "indx1_2057": {
           "label": "Notes",
           "x": 94090,
-          "y": 33130,
+          "y": 34148,
           "id": "indx1_2057"
         },
         "indx1_2058": {
           "label": "Dictionary of\nconcepts",
           "x": 94265,
-          "y": 32257,
+          "y": 33275,
           "id": "indx1_2058"
         },
         "indx1_2059": {
           "label": "Details, thoughts",
           "x": 94264,
-          "y": 33130,
+          "y": 34148,
           "id": "indx1_2059"
         },
         "indx1_2060": {
           "label": "Sections",
           "x": 94238,
-          "y": 33380,
+          "y": 34398,
           "id": "indx1_2060"
         },
         "indx1_2061": {
           "label": "Books",
           "x": 94328,
-          "y": 33230,
+          "y": 34248,
           "id": "indx1_2061"
         },
         "indx1_2062": {
           "label": "R&D institutions",
           "x": 94358,
-          "y": 33255,
+          "y": 34273,
           "id": "indx1_2062"
         },
         "indx1_2063": {
           "label": "Sites",
           "x": 94324,
-          "y": 33280,
+          "y": 34298,
           "id": "indx1_2063"
         },
         "indx1_2064": {
           "label": "Magazines",
           "x": 94343,
-          "y": 33305,
+          "y": 34323,
           "id": "indx1_2064"
         },
         "indx1_2065": {
           "label": "Articles",
           "x": 94331,
-          "y": 33330,
+          "y": 34348,
           "id": "indx1_2065"
         },
         "indx1_2066": {
           "label": "Media content",
           "x": 94353,
-          "y": 33355,
+          "y": 34373,
           "id": "indx1_2066"
         },
         "indx1_2067": {
           "label": "Misc. web links",
           "x": 94356,
-          "y": 33380,
+          "y": 34398,
           "id": "indx1_2067"
         },
         "indx1_2068": {
           "label": "Projects",
           "x": 94334,
-          "y": 33405,
+          "y": 34423,
           "id": "indx1_2068"
         },
         "indx1_2069": {
           "label": "Tools",
           "x": 94325,
-          "y": 33430,
+          "y": 34448,
           "id": "indx1_2069"
         },
         "indx1_2070": {
           "label": "Organizations",
           "x": 94352,
-          "y": 33455,
+          "y": 34473,
           "id": "indx1_2070"
         },
         "indx1_2071": {
           "label": "Standarts",
           "x": 94339,
-          "y": 33480,
+          "y": 34498,
           "id": "indx1_2071"
         },
         "indx1_2072": {
           "label": "Forums, Groups",
           "x": 94360,
-          "y": 33505,
+          "y": 34523,
           "id": "indx1_2072"
         },
         "indx1_2073": {
           "label": "Laws",
           "x": 94325,
-          "y": 33530,
+          "y": 34548,
           "id": "indx1_2073"
         },
         "indx1_2074": {
           "label": "Adjacent Themes",
           "x": 94364,
-          "y": 33555,
+          "y": 34573,
           "id": "indx1_2074"
         },
         "indx1_2075": {
           "label": "Questions",
           "x": 94104,
-          "y": 33680,
+          "y": 34698,
           "id": "indx1_2075"
         },
         "indx1_2076": {
           "label": "Problems",
           "x": 94102,
-          "y": 33780,
+          "y": 34798,
           "id": "indx1_2076"
         },
         "indx1_2077": {
           "label": "Goals",
           "x": 94090,
-          "y": 33880,
+          "y": 34898,
           "id": "indx1_2077"
         },
         "indx1_2078": {
@@ -33920,7 +33678,7 @@ var schemeData =
           "label": "Callbacks",
           "id": "indx1_2078",
           "x": 98146,
-          "y": 32711,
+          "y": 33729,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -33928,70 +33686,70 @@ var schemeData =
         "indx1_2079": {
           "id": "indx1_2079",
           "x": 105967,
-          "y": 11529,
+          "y": 13506,
           "label": "Invoking a Function"
         },
         "indx1_2080": {
           "id": "indx1_2080",
           "x": 106258,
-          "y": 11527,
+          "y": 13504,
           "label": "The () operator invokes the function."
         },
         "indx1_2081": {
           "id": "indx1_2081",
           "x": 94596,
-          "y": 32237,
+          "y": 33255,
           "label": "What is Javascript Callback Function?"
         },
         "indx1_2082": {
           "id": "indx1_2082",
           "x": 94928,
-          "y": 32225,
+          "y": 33243,
           "label": "As per MDN: A callback function is a function\npassed into another function as an argument,\nwhich is then invoked inside the outer\nfunction to complete some kind of routine\nor action."
         },
         "indx1_2083": {
           "id": "indx1_2083",
           "x": 94600,
-          "y": 32334,
+          "y": 33352,
           "label": "A callback function is actually a pattern."
         },
         "indx1_2084": {
           "id": "indx1_2084",
           "x": 94551,
-          "y": 32399,
+          "y": 33417,
           "label": "Javascript Callback Hell"
         },
         "indx1_2085": {
           "id": "indx1_2085",
           "x": 94684,
-          "y": 32400,
+          "y": 33418,
           "label": "to solv"
         },
         "indx1_2086": {
           "label": "By using promises.",
           "link": "",
           "x": 94825,
-          "y": 32380,
+          "y": 33398,
           "id": "indx1_2086"
         },
         "indx1_2087": {
           "label": "With the help of async await.",
           "link": "",
           "x": 94856,
-          "y": 32404,
+          "y": 33422,
           "id": "indx1_2087"
         },
         "indx1_2088": {
           "label": "By using async.js library.",
           "link": "",
           "x": 94845,
-          "y": 32492,
+          "y": 33510,
           "id": "indx1_2088"
         },
         "indx1_2089": {
           "id": "indx1_2089",
           "x": 95187,
-          "y": 32459,
+          "y": 33477,
           "label": "Async is a utility module which provides straight-forward, powerful\nfunctions for working with asynchronous JavaScript.",
           "shape": "box",
           "link": "",
@@ -34008,7 +33766,7 @@ var schemeData =
         "indx1_2090": {
           "id": "indx1_2090",
           "x": 95032,
-          "y": 32504,
+          "y": 33522,
           "label": "async.waterfall()",
           "shape": "box",
           "link": "",
@@ -34025,59 +33783,53 @@ var schemeData =
         "indx1_2091": {
           "id": "indx1_2091",
           "x": 95024,
-          "y": 32545,
+          "y": 33563,
           "label": "async.series()"
         },
         "indx1_2092": {
           "id": "indx1_2092",
           "x": 94380,
-          "y": 27553,
+          "y": 28571,
           "label": "promises were officially added in the ECMA script 2015 \nspecification and has also implemented\nin all of the latest browsers and in Node Js"
         },
         "indx1_2093": {
           "id": "indx1_2093",
           "x": 94231,
-          "y": 27644,
+          "y": 28662,
           "label": "States In A Promise"
         },
         "indx1_2094": {
           "label": "Pending : The task relating to the promise hasn't fulfilled or rejected yet.",
           "link": "",
           "x": 94594,
-          "y": 27623,
+          "y": 28641,
           "id": "indx1_2094"
         },
         "indx1_2095": {
           "label": "Fulfilled: The task relating to the promise succeeded.",
           "link": "",
           "x": 94534,
-          "y": 27647,
+          "y": 28665,
           "id": "indx1_2095"
         },
         "indx1_2096": {
           "label": "Rejected: The task relating to the promise failed.",
           "link": "",
           "x": 94520,
-          "y": 27671,
+          "y": 28689,
           "id": "indx1_2096"
         },
         "indx1_2097": {
           "label": "The function that creates the promise is able to keep track of the promise states.",
           "link": "",
           "x": 94621,
-          "y": 27695,
+          "y": 28713,
           "id": "indx1_2097"
-        },
-        "indx1_2098": {
-          "id": "indx1_2098",
-          "x": 106520,
-          "y": -9480,
-          "label": "0 - 48\n...\n9 - 57"
         },
         "indx1_2099": {
           "id": "indx1_2099",
           "x": 106500,
-          "y": -9187,
+          "y": -7750,
           "label": "   $(document).keyup(function (event) {\n      //ctrl+alt+n\n      if (event.shiftKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {",
           "shape": "box",
           "link": "",
@@ -34091,16 +33843,10 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "indx1_2100": {
-          "id": "indx1_2100",
-          "x": 106526,
-          "y": -9411,
-          "label": "shiftKey\naltKey\nctrlKey"
-        },
         "indx1_2101": {
           "label": "Express.js",
           "x": 105379,
-          "y": 38071,
+          "y": 40048,
           "font": {
             "size": 72,
             "align": "left"
@@ -34117,151 +33863,151 @@ var schemeData =
         "indx1_2102": {
           "label": "Development",
           "x": 105679,
-          "y": 38521,
+          "y": 40498,
           "id": "indx1_2102"
         },
         "indx1_2103": {
           "label": "1/3/2020",
           "x": 105804,
-          "y": 38521,
+          "y": 40498,
           "id": "indx1_2103"
         },
         "indx1_2104": {
           "label": "init",
           "x": 105929,
-          "y": 38521,
+          "y": 40498,
           "id": "indx1_2104"
         },
         "indx1_2105": {
           "label": "Notes",
           "x": 105651,
-          "y": 37336,
+          "y": 39313,
           "id": "indx1_2105"
         },
         "indx1_2106": {
           "label": "Dictionary of\nconcepts",
           "x": 105932,
-          "y": 35302,
+          "y": 37279,
           "id": "indx1_2106"
         },
         "indx1_2107": {
           "label": "Details, thoughts",
           "x": 105824,
-          "y": 37336,
+          "y": 39313,
           "id": "indx1_2107"
         },
         "indx1_2108": {
           "label": "Sections",
           "x": 105803,
-          "y": 37921,
+          "y": 39898,
           "id": "indx1_2108"
         },
         "indx1_2109": {
           "label": "Books",
           "x": 105888,
-          "y": 37436,
+          "y": 39413,
           "id": "indx1_2109"
         },
         "indx1_2110": {
           "label": "R&D institutions",
           "x": 105919,
-          "y": 37461,
+          "y": 39438,
           "id": "indx1_2110"
         },
         "indx1_2111": {
           "label": "Sites",
           "x": 105884,
-          "y": 37486,
+          "y": 39463,
           "id": "indx1_2111"
         },
         "indx1_2112": {
           "label": "Magazines",
           "x": 105903,
-          "y": 37511,
+          "y": 39488,
           "id": "indx1_2112"
         },
         "indx1_2113": {
           "label": "Articles",
           "x": 105892,
-          "y": 37536,
+          "y": 39513,
           "id": "indx1_2113"
         },
         "indx1_2114": {
           "label": "Media content",
           "x": 105914,
-          "y": 37561,
+          "y": 39538,
           "id": "indx1_2114"
         },
         "indx1_2115": {
           "label": "Misc. web links",
           "x": 105926,
-          "y": 37748,
+          "y": 39725,
           "id": "indx1_2115"
         },
         "indx1_2116": {
           "label": "Projects",
           "x": 105899,
-          "y": 37946,
+          "y": 39923,
           "id": "indx1_2116"
         },
         "indx1_2117": {
           "label": "Tools",
           "x": 105891,
-          "y": 37971,
+          "y": 39948,
           "id": "indx1_2117"
         },
         "indx1_2118": {
           "label": "Organizations",
           "x": 105918,
-          "y": 37996,
+          "y": 39973,
           "id": "indx1_2118"
         },
         "indx1_2119": {
           "label": "Standarts",
           "x": 105904,
-          "y": 38021,
+          "y": 39998,
           "id": "indx1_2119"
         },
         "indx1_2120": {
           "label": "Forums, Groups",
           "x": 105926,
-          "y": 38046,
+          "y": 40023,
           "id": "indx1_2120"
         },
         "indx1_2121": {
           "label": "Laws",
           "x": 105890,
-          "y": 38071,
+          "y": 40048,
           "id": "indx1_2121"
         },
         "indx1_2122": {
           "label": "Adjacent Themes",
           "x": 105929,
-          "y": 38096,
+          "y": 40073,
           "id": "indx1_2122"
         },
         "indx1_2123": {
           "label": "Questions",
           "x": 105669,
-          "y": 38221,
+          "y": 40198,
           "id": "indx1_2123"
         },
         "indx1_2124": {
           "label": "Problems",
           "x": 105667,
-          "y": 38321,
+          "y": 40298,
           "id": "indx1_2124"
         },
         "indx1_2125": {
           "label": "Goals",
           "x": 105656,
-          "y": 38421,
+          "y": 40398,
           "id": "indx1_2125"
         },
         "indx1_2126": {
           "id": "indx1_2126",
           "x": 109866,
-          "y": 33851,
+          "y": 35828,
           "label": "Express.js",
           "shape": "box",
           "link": "",
@@ -34278,28 +34024,28 @@ var schemeData =
         "indx1_2127": {
           "id": "indx1_2127",
           "x": 106143,
-          "y": 37723,
+          "y": 39700,
           "label": "https://expressjs.com/",
           "link": "https://expressjs.com/"
         },
         "indx1_2128": {
           "id": "indx1_2128",
           "x": 106195,
-          "y": 37771,
+          "y": 39748,
           "label": "https://en.wikipedia.org/wiki/Express.js",
           "link": "https://en.wikipedia.org/wiki/Express.js"
         },
         "indx1_2129": {
           "id": "indx1_2129",
           "x": 106110,
-          "y": 34624,
+          "y": 36601,
           "label": "API"
         },
         "indx1_2130": {
           "label": "4.x",
           "link": "",
           "x": 106178,
-          "y": 34617,
+          "y": 36594,
           "id": "indx1_2130",
           "color": {
             "highlight": {
@@ -34340,7 +34086,7 @@ var schemeData =
           "label": "Methods",
           "link": "",
           "x": 106318,
-          "y": 33542,
+          "y": 35519,
           "id": "indx1_2131",
           "color": {
             "highlight": {
@@ -34381,7 +34127,7 @@ var schemeData =
           "label": "express.json()",
           "link": "",
           "x": 106495,
-          "y": 33501,
+          "y": 35478,
           "id": "indx1_2132",
           "color": {
             "highlight": {
@@ -34422,7 +34168,7 @@ var schemeData =
           "label": "express.static()",
           "link": "",
           "x": 106499,
-          "y": 33525,
+          "y": 35502,
           "id": "indx1_2133",
           "color": {
             "highlight": {
@@ -34463,7 +34209,7 @@ var schemeData =
           "label": "express.Router()",
           "link": "",
           "x": 106504,
-          "y": 33549,
+          "y": 35526,
           "id": "indx1_2134",
           "color": {
             "highlight": {
@@ -34504,7 +34250,7 @@ var schemeData =
           "label": "express.urlencoded()",
           "link": "",
           "x": 106518,
-          "y": 33573,
+          "y": 35550,
           "id": "indx1_2135",
           "color": {
             "highlight": {
@@ -34545,7 +34291,7 @@ var schemeData =
           "label": "Application",
           "link": "",
           "x": 106325,
-          "y": 33662,
+          "y": 35639,
           "id": "indx1_2136",
           "color": {
             "highlight": {
@@ -34586,7 +34332,7 @@ var schemeData =
           "label": "Properties",
           "link": "",
           "x": 106476,
-          "y": 33657,
+          "y": 35634,
           "id": "indx1_2137",
           "color": {
             "highlight": {
@@ -34627,7 +34373,7 @@ var schemeData =
           "label": "app.locals",
           "link": "",
           "x": 106606,
-          "y": 33651,
+          "y": 35628,
           "id": "indx1_2138",
           "color": {
             "highlight": {
@@ -34668,7 +34414,7 @@ var schemeData =
           "label": "app.mountpath",
           "link": "",
           "x": 106622,
-          "y": 33676,
+          "y": 35653,
           "id": "indx1_2139",
           "color": {
             "highlight": {
@@ -34709,7 +34455,7 @@ var schemeData =
           "label": "Events",
           "link": "",
           "x": 106465,
-          "y": 33729,
+          "y": 35706,
           "id": "indx1_2140",
           "color": {
             "highlight": {
@@ -34750,7 +34496,7 @@ var schemeData =
           "label": "mount",
           "link": "",
           "x": 106601,
-          "y": 33729,
+          "y": 35706,
           "id": "indx1_2141",
           "color": {
             "highlight": {
@@ -34791,7 +34537,7 @@ var schemeData =
           "label": "Methods",
           "link": "",
           "x": 106471,
-          "y": 33777,
+          "y": 35754,
           "id": "indx1_2142",
           "color": {
             "highlight": {
@@ -34832,7 +34578,7 @@ var schemeData =
           "label": "app.all()",
           "link": "",
           "x": 106612,
-          "y": 33773,
+          "y": 35750,
           "id": "indx1_2143",
           "color": {
             "highlight": {
@@ -34873,7 +34619,7 @@ var schemeData =
           "label": "app.delete()",
           "link": "",
           "x": 106624,
-          "y": 33797,
+          "y": 35774,
           "id": "indx1_2144",
           "color": {
             "highlight": {
@@ -34914,7 +34660,7 @@ var schemeData =
           "label": "app.disable()",
           "link": "",
           "x": 106627,
-          "y": 33821,
+          "y": 35798,
           "id": "indx1_2145",
           "color": {
             "highlight": {
@@ -34955,7 +34701,7 @@ var schemeData =
           "label": "app.disabled()",
           "link": "",
           "x": 106631,
-          "y": 33845,
+          "y": 35822,
           "id": "indx1_2146",
           "color": {
             "highlight": {
@@ -34996,7 +34742,7 @@ var schemeData =
           "label": "app.enable()",
           "link": "",
           "x": 106626,
-          "y": 33869,
+          "y": 35846,
           "id": "indx1_2147",
           "color": {
             "highlight": {
@@ -35037,7 +34783,7 @@ var schemeData =
           "label": "app.engine()",
           "link": "",
           "x": 106626,
-          "y": 33893,
+          "y": 35870,
           "id": "indx1_2148",
           "color": {
             "highlight": {
@@ -35078,7 +34824,7 @@ var schemeData =
           "label": "app.get()",
           "link": "",
           "x": 106615,
-          "y": 33917,
+          "y": 35894,
           "id": "indx1_2149",
           "color": {
             "highlight": {
@@ -35119,7 +34865,7 @@ var schemeData =
           "label": "app.get()",
           "link": "",
           "x": 106615,
-          "y": 33941,
+          "y": 35918,
           "id": "indx1_2150",
           "color": {
             "highlight": {
@@ -35160,7 +34906,7 @@ var schemeData =
           "label": "app.listen()",
           "link": "",
           "x": 106621,
-          "y": 33964,
+          "y": 35941,
           "id": "indx1_2151",
           "color": {
             "highlight": {
@@ -35201,7 +34947,7 @@ var schemeData =
           "label": "app.METHOD()",
           "link": "",
           "x": 106635,
-          "y": 33989,
+          "y": 35966,
           "id": "indx1_2152",
           "color": {
             "highlight": {
@@ -35576,14 +35322,14 @@ var schemeData =
         "indx1_2162": {
           "id": "indx1_2162",
           "x": 106625,
-          "y": 34027,
+          "y": 36004,
           "label": "app.param()"
         },
         "indx1_2163": {
           "label": "app.path()",
           "link": "",
           "x": 106619,
-          "y": 34051,
+          "y": 36028,
           "id": "indx1_2163",
           "color": {
             "highlight": {
@@ -35624,7 +35370,7 @@ var schemeData =
           "label": "app.post()",
           "link": "",
           "x": 106618,
-          "y": 34075,
+          "y": 36052,
           "id": "indx1_2164",
           "color": {
             "highlight": {
@@ -35665,7 +35411,7 @@ var schemeData =
           "label": "app.put()",
           "link": "",
           "x": 106615,
-          "y": 34099,
+          "y": 36076,
           "id": "indx1_2165",
           "color": {
             "highlight": {
@@ -35706,7 +35452,7 @@ var schemeData =
           "label": "app.render()",
           "link": "",
           "x": 106626,
-          "y": 34123,
+          "y": 36100,
           "id": "indx1_2166",
           "color": {
             "highlight": {
@@ -35747,7 +35493,7 @@ var schemeData =
           "label": "app.route()",
           "link": "",
           "x": 106621,
-          "y": 34147,
+          "y": 36124,
           "id": "indx1_2167",
           "color": {
             "highlight": {
@@ -35788,7 +35534,7 @@ var schemeData =
           "label": "app.set()",
           "link": "",
           "x": 106614,
-          "y": 34171,
+          "y": 36148,
           "id": "indx1_2168",
           "color": {
             "highlight": {
@@ -35829,7 +35575,7 @@ var schemeData =
           "label": "app.use()",
           "link": "",
           "x": 106616,
-          "y": 34195,
+          "y": 36172,
           "id": "indx1_2169",
           "color": {
             "highlight": {
@@ -35870,7 +35616,7 @@ var schemeData =
           "label": "Request",
           "link": "",
           "x": 106317,
-          "y": 34276,
+          "y": 36253,
           "id": "indx1_2170",
           "color": {
             "highlight": {
@@ -35911,7 +35657,7 @@ var schemeData =
           "label": "Properties",
           "link": "",
           "x": 106511,
-          "y": 34278,
+          "y": 36255,
           "id": "indx1_2171",
           "color": {
             "highlight": {
@@ -35952,7 +35698,7 @@ var schemeData =
           "label": "req.app",
           "link": "",
           "x": 106644,
-          "y": 34275,
+          "y": 36252,
           "id": "indx1_2172",
           "color": {
             "highlight": {
@@ -35993,7 +35739,7 @@ var schemeData =
           "label": "req.baseUrl",
           "link": "",
           "x": 106657,
-          "y": 34299,
+          "y": 36276,
           "id": "indx1_2173",
           "color": {
             "highlight": {
@@ -36034,7 +35780,7 @@ var schemeData =
           "label": "req.body",
           "link": "",
           "x": 106648,
-          "y": 34323,
+          "y": 36300,
           "id": "indx1_2174",
           "color": {
             "highlight": {
@@ -36075,7 +35821,7 @@ var schemeData =
           "label": "req.cookies",
           "link": "",
           "x": 106656,
-          "y": 34347,
+          "y": 36324,
           "id": "indx1_2175",
           "color": {
             "highlight": {
@@ -36116,7 +35862,7 @@ var schemeData =
           "label": "req.fresh",
           "link": "",
           "x": 106648,
-          "y": 34371,
+          "y": 36348,
           "id": "indx1_2176",
           "color": {
             "highlight": {
@@ -36157,7 +35903,7 @@ var schemeData =
           "label": "req.hostname",
           "link": "",
           "x": 106664,
-          "y": 34395,
+          "y": 36372,
           "id": "indx1_2177",
           "color": {
             "highlight": {
@@ -36198,7 +35944,7 @@ var schemeData =
           "label": "req.ip",
           "link": "",
           "x": 106638,
-          "y": 34419,
+          "y": 36396,
           "id": "indx1_2178",
           "color": {
             "highlight": {
@@ -36239,7 +35985,7 @@ var schemeData =
           "label": "req.ips",
           "link": "",
           "x": 106641,
-          "y": 34443,
+          "y": 36420,
           "id": "indx1_2179",
           "color": {
             "highlight": {
@@ -36280,7 +36026,7 @@ var schemeData =
           "label": "req.method",
           "link": "",
           "x": 106656,
-          "y": 34467,
+          "y": 36444,
           "id": "indx1_2180",
           "color": {
             "highlight": {
@@ -36321,7 +36067,7 @@ var schemeData =
           "label": "req.originalUrl",
           "link": "",
           "x": 106664,
-          "y": 34491,
+          "y": 36468,
           "id": "indx1_2181",
           "color": {
             "highlight": {
@@ -36362,7 +36108,7 @@ var schemeData =
           "label": "req.params",
           "link": "",
           "x": 106656,
-          "y": 34515,
+          "y": 36492,
           "id": "indx1_2182",
           "color": {
             "highlight": {
@@ -36403,7 +36149,7 @@ var schemeData =
           "label": "req.path",
           "link": "",
           "x": 106646,
-          "y": 34539,
+          "y": 36516,
           "id": "indx1_2183",
           "color": {
             "highlight": {
@@ -36444,7 +36190,7 @@ var schemeData =
           "label": "req.protocol",
           "link": "",
           "x": 106658,
-          "y": 34563,
+          "y": 36540,
           "id": "indx1_2184",
           "color": {
             "highlight": {
@@ -36485,7 +36231,7 @@ var schemeData =
           "label": "req.query",
           "link": "",
           "x": 106650,
-          "y": 34587,
+          "y": 36564,
           "id": "indx1_2185",
           "color": {
             "highlight": {
@@ -36526,7 +36272,7 @@ var schemeData =
           "label": "req.route",
           "link": "",
           "x": 106649,
-          "y": 34611,
+          "y": 36588,
           "id": "indx1_2186",
           "color": {
             "highlight": {
@@ -36566,14 +36312,14 @@ var schemeData =
         "indx1_2187": {
           "id": "indx1_2187",
           "x": 106654,
-          "y": 34648,
+          "y": 36625,
           "label": "req.secure"
         },
         "indx1_2188": {
           "label": "req.signedCookies",
           "link": "",
           "x": 106679,
-          "y": 34672,
+          "y": 36649,
           "id": "indx1_2188",
           "color": {
             "highlight": {
@@ -36614,7 +36360,7 @@ var schemeData =
           "label": "req.stale",
           "link": "",
           "x": 106647,
-          "y": 34696,
+          "y": 36673,
           "id": "indx1_2189",
           "color": {
             "highlight": {
@@ -36655,7 +36401,7 @@ var schemeData =
           "label": "req.subdomains",
           "link": "",
           "x": 106671,
-          "y": 34720,
+          "y": 36697,
           "id": "indx1_2190",
           "color": {
             "highlight": {
@@ -36696,7 +36442,7 @@ var schemeData =
           "label": "req.xhr",
           "link": "",
           "x": 106642,
-          "y": 34744,
+          "y": 36721,
           "id": "indx1_2191",
           "color": {
             "highlight": {
@@ -36737,7 +36483,7 @@ var schemeData =
           "label": "Methods",
           "link": "",
           "x": 106506,
-          "y": 34795,
+          "y": 36772,
           "id": "indx1_2192",
           "color": {
             "highlight": {
@@ -36778,7 +36524,7 @@ var schemeData =
           "label": "req.accepts()",
           "link": "",
           "x": 106660,
-          "y": 34791,
+          "y": 36768,
           "id": "indx1_2193",
           "color": {
             "highlight": {
@@ -36819,7 +36565,7 @@ var schemeData =
           "label": "req.acceptsCharsets()",
           "link": "",
           "x": 106689,
-          "y": 34815,
+          "y": 36792,
           "id": "indx1_2194",
           "color": {
             "highlight": {
@@ -36860,7 +36606,7 @@ var schemeData =
           "label": "req.acceptsEncodings()",
           "link": "",
           "x": 106693,
-          "y": 34839,
+          "y": 36816,
           "id": "indx1_2195",
           "color": {
             "highlight": {
@@ -36901,7 +36647,7 @@ var schemeData =
           "label": "req.acceptsLanguages()",
           "link": "",
           "x": 106696,
-          "y": 34863,
+          "y": 36840,
           "id": "indx1_2196",
           "color": {
             "highlight": {
@@ -36942,7 +36688,7 @@ var schemeData =
           "label": "req.get()",
           "link": "",
           "x": 106646,
-          "y": 34887,
+          "y": 36864,
           "id": "indx1_2197",
           "color": {
             "highlight": {
@@ -36983,7 +36729,7 @@ var schemeData =
           "label": "req.is()",
           "link": "",
           "x": 106641,
-          "y": 34911,
+          "y": 36888,
           "id": "indx1_2198",
           "color": {
             "highlight": {
@@ -37024,7 +36770,7 @@ var schemeData =
           "label": "req.param()",
           "link": "",
           "x": 106656,
-          "y": 34935,
+          "y": 36912,
           "id": "indx1_2199",
           "color": {
             "highlight": {
@@ -37065,7 +36811,7 @@ var schemeData =
           "label": "req.range()",
           "link": "",
           "x": 106654,
-          "y": 34959,
+          "y": 36936,
           "id": "indx1_2200",
           "color": {
             "highlight": {
@@ -37106,7 +36852,7 @@ var schemeData =
           "label": "Response",
           "link": "",
           "x": 106323,
-          "y": 35033,
+          "y": 37010,
           "id": "indx1_2201",
           "color": {
             "highlight": {
@@ -37147,7 +36893,7 @@ var schemeData =
           "label": "Properties",
           "link": "",
           "x": 106507,
-          "y": 35035,
+          "y": 37012,
           "id": "indx1_2202",
           "color": {
             "highlight": {
@@ -37188,7 +36934,7 @@ var schemeData =
           "label": "res.app",
           "link": "",
           "x": 106646,
-          "y": 35027,
+          "y": 37004,
           "id": "indx1_2203",
           "color": {
             "highlight": {
@@ -37229,7 +36975,7 @@ var schemeData =
           "label": "res.headersSent",
           "link": "",
           "x": 106674,
-          "y": 35051,
+          "y": 37028,
           "id": "indx1_2204",
           "color": {
             "highlight": {
@@ -37270,7 +37016,7 @@ var schemeData =
           "label": "res.locals",
           "link": "",
           "x": 106652,
-          "y": 35075,
+          "y": 37052,
           "id": "indx1_2205",
           "color": {
             "highlight": {
@@ -37311,7 +37057,7 @@ var schemeData =
           "label": "Methods",
           "link": "",
           "x": 106502,
-          "y": 35131,
+          "y": 37108,
           "id": "indx1_2206",
           "color": {
             "highlight": {
@@ -37352,7 +37098,7 @@ var schemeData =
           "label": "res.append()",
           "link": "",
           "x": 106663,
-          "y": 35125,
+          "y": 37102,
           "id": "indx1_2207",
           "color": {
             "highlight": {
@@ -37393,7 +37139,7 @@ var schemeData =
           "label": "res.attachment()",
           "link": "",
           "x": 106674,
-          "y": 35149,
+          "y": 37126,
           "id": "indx1_2208",
           "color": {
             "highlight": {
@@ -37434,7 +37180,7 @@ var schemeData =
           "label": "res.cookie()",
           "link": "",
           "x": 106659,
-          "y": 35173,
+          "y": 37150,
           "id": "indx1_2209",
           "color": {
             "highlight": {
@@ -37475,7 +37221,7 @@ var schemeData =
           "label": "res.clearCookie()",
           "link": "",
           "x": 106676,
-          "y": 35197,
+          "y": 37174,
           "id": "indx1_2210",
           "color": {
             "highlight": {
@@ -37516,7 +37262,7 @@ var schemeData =
           "label": "res.download()",
           "link": "",
           "x": 106669,
-          "y": 35221,
+          "y": 37198,
           "id": "indx1_2211",
           "color": {
             "highlight": {
@@ -37557,7 +37303,7 @@ var schemeData =
           "label": "res.end()",
           "link": "",
           "x": 106651,
-          "y": 35245,
+          "y": 37222,
           "id": "indx1_2212",
           "color": {
             "highlight": {
@@ -37598,7 +37344,7 @@ var schemeData =
           "label": "res.format()",
           "link": "",
           "x": 106659,
-          "y": 35269,
+          "y": 37246,
           "id": "indx1_2213",
           "color": {
             "highlight": {
@@ -37639,7 +37385,7 @@ var schemeData =
           "label": "res.get()",
           "link": "",
           "x": 106649,
-          "y": 35293,
+          "y": 37270,
           "id": "indx1_2214",
           "color": {
             "highlight": {
@@ -37680,7 +37426,7 @@ var schemeData =
           "label": "res.json()",
           "link": "",
           "x": 106652,
-          "y": 35317,
+          "y": 37294,
           "id": "indx1_2215",
           "color": {
             "highlight": {
@@ -37721,7 +37467,7 @@ var schemeData =
           "label": "res.jsonp()",
           "link": "",
           "x": 106656,
-          "y": 35341,
+          "y": 37318,
           "id": "indx1_2216",
           "color": {
             "highlight": {
@@ -37762,7 +37508,7 @@ var schemeData =
           "label": "res.links()",
           "link": "",
           "x": 106653,
-          "y": 35365,
+          "y": 37342,
           "id": "indx1_2217",
           "color": {
             "highlight": {
@@ -37803,7 +37549,7 @@ var schemeData =
           "label": "res.location()",
           "link": "",
           "x": 106663,
-          "y": 35389,
+          "y": 37366,
           "id": "indx1_2218",
           "color": {
             "highlight": {
@@ -37844,7 +37590,7 @@ var schemeData =
           "label": "res.redirect()",
           "link": "",
           "x": 106663,
-          "y": 35413,
+          "y": 37390,
           "id": "indx1_2219",
           "color": {
             "highlight": {
@@ -37885,7 +37631,7 @@ var schemeData =
           "label": "res.render()",
           "link": "",
           "x": 106660,
-          "y": 35437,
+          "y": 37414,
           "id": "indx1_2220",
           "color": {
             "highlight": {
@@ -37926,7 +37672,7 @@ var schemeData =
           "label": "res.send()",
           "link": "",
           "x": 106654,
-          "y": 35461,
+          "y": 37438,
           "id": "indx1_2221",
           "color": {
             "highlight": {
@@ -37967,7 +37713,7 @@ var schemeData =
           "label": "res.sendFile()",
           "link": "",
           "x": 106666,
-          "y": 35485,
+          "y": 37462,
           "id": "indx1_2222",
           "color": {
             "highlight": {
@@ -38008,7 +37754,7 @@ var schemeData =
           "label": "res.sendStatus()",
           "link": "",
           "x": 106674,
-          "y": 35509,
+          "y": 37486,
           "id": "indx1_2223",
           "color": {
             "highlight": {
@@ -38049,7 +37795,7 @@ var schemeData =
           "label": "res.set()",
           "link": "",
           "x": 106648,
-          "y": 35533,
+          "y": 37510,
           "id": "indx1_2224",
           "color": {
             "highlight": {
@@ -38090,7 +37836,7 @@ var schemeData =
           "label": "res.status()",
           "link": "",
           "x": 106658,
-          "y": 35557,
+          "y": 37534,
           "id": "indx1_2225",
           "color": {
             "highlight": {
@@ -38131,7 +37877,7 @@ var schemeData =
           "label": "res.type()",
           "link": "",
           "x": 106652,
-          "y": 35581,
+          "y": 37558,
           "id": "indx1_2226",
           "color": {
             "highlight": {
@@ -38172,7 +37918,7 @@ var schemeData =
           "label": "res.vary()",
           "link": "",
           "x": 106652,
-          "y": 35605,
+          "y": 37582,
           "id": "indx1_2227",
           "color": {
             "highlight": {
@@ -38213,7 +37959,7 @@ var schemeData =
           "label": "Router",
           "link": "",
           "x": 106312,
-          "y": 35681,
+          "y": 37658,
           "id": "indx1_2228",
           "color": {
             "highlight": {
@@ -38254,7 +38000,7 @@ var schemeData =
           "label": "Methods",
           "link": "",
           "x": 106477,
-          "y": 35675,
+          "y": 37652,
           "id": "indx1_2229",
           "color": {
             "highlight": {
@@ -38295,7 +38041,7 @@ var schemeData =
           "label": "router.all()",
           "link": "",
           "x": 106641,
-          "y": 35663,
+          "y": 37640,
           "id": "indx1_2230",
           "color": {
             "highlight": {
@@ -38336,7 +38082,7 @@ var schemeData =
           "label": "router.METHOD()",
           "link": "",
           "x": 106664,
-          "y": 35687,
+          "y": 37664,
           "id": "indx1_2231",
           "color": {
             "highlight": {
@@ -38377,7 +38123,7 @@ var schemeData =
           "label": "router.param()",
           "link": "",
           "x": 106654,
-          "y": 35711,
+          "y": 37688,
           "id": "indx1_2232",
           "color": {
             "highlight": {
@@ -38418,7 +38164,7 @@ var schemeData =
           "label": "router.route()",
           "link": "",
           "x": 106650,
-          "y": 35735,
+          "y": 37712,
           "id": "indx1_2233",
           "color": {
             "highlight": {
@@ -38459,7 +38205,7 @@ var schemeData =
           "label": "router.use()",
           "link": "",
           "x": 106645,
-          "y": 35759,
+          "y": 37736,
           "id": "indx1_2234",
           "color": {
             "highlight": {
@@ -38499,13 +38245,13 @@ var schemeData =
         "indx1_2235": {
           "id": "indx1_2235",
           "x": 106162,
-          "y": 36053,
+          "y": 38030,
           "label": "Code Chunks"
         },
         "indx1_2236": {
           "id": "indx1_2236",
           "x": 106439,
-          "y": 36165,
+          "y": 38142,
           "label": "app.get(\"/getNews\", function(request, response){\n   response.set('Access-Control-Allow-Origin', '*');\n   var newsUrl = request.query.newsUrl;\n\n   var answerLine = JSON.stringify(\"some line\");\n   response.send(answerLine);\n});",
           "shape": "box",
           "link": "",
@@ -38522,7 +38268,7 @@ var schemeData =
         "indx1_2237": {
           "label": "Node.js\nHTTPS\nModule",
           "x": 116286,
-          "y": 39896,
+          "y": 40570,
           "font": {
             "size": 72,
             "align": "left"
@@ -38539,151 +38285,151 @@ var schemeData =
         "indx1_2238": {
           "label": "Development",
           "x": 116586,
-          "y": 40346,
+          "y": 41020,
           "id": "indx1_2238"
         },
         "indx1_2239": {
           "label": "1/4/2020",
           "x": 116711,
-          "y": 40346,
+          "y": 41020,
           "id": "indx1_2239"
         },
         "indx1_2240": {
           "label": "init",
           "x": 116836,
-          "y": 40346,
+          "y": 41020,
           "id": "indx1_2240"
         },
         "indx1_2241": {
           "label": "Notes",
           "x": 116563,
-          "y": 39496,
+          "y": 40170,
           "id": "indx1_2241"
         },
         "indx1_2242": {
           "label": "Dictionary of\nconcepts",
           "x": 116832,
-          "y": 37463,
+          "y": 38137,
           "id": "indx1_2242"
         },
         "indx1_2243": {
           "label": "Details, thoughts",
           "x": 116736,
-          "y": 39496,
+          "y": 40170,
           "id": "indx1_2243"
         },
         "indx1_2244": {
           "label": "Sections",
           "x": 116710,
-          "y": 39746,
+          "y": 40420,
           "id": "indx1_2244"
         },
         "indx1_2245": {
           "label": "Books",
           "x": 116800,
-          "y": 39596,
+          "y": 40270,
           "id": "indx1_2245"
         },
         "indx1_2246": {
           "label": "R&D institutions",
           "x": 116831,
-          "y": 39621,
+          "y": 40295,
           "id": "indx1_2246"
         },
         "indx1_2247": {
           "label": "Sites",
           "x": 116796,
-          "y": 39646,
+          "y": 40320,
           "id": "indx1_2247"
         },
         "indx1_2248": {
           "label": "Magazines",
           "x": 116815,
-          "y": 39671,
+          "y": 40345,
           "id": "indx1_2248"
         },
         "indx1_2249": {
           "label": "Articles",
           "x": 116804,
-          "y": 39696,
+          "y": 40370,
           "id": "indx1_2249"
         },
         "indx1_2250": {
           "label": "Media content",
           "x": 116826,
-          "y": 39721,
+          "y": 40395,
           "id": "indx1_2250"
         },
         "indx1_2251": {
           "label": "Misc. web links",
           "x": 116828,
-          "y": 39746,
+          "y": 40420,
           "id": "indx1_2251"
         },
         "indx1_2252": {
           "label": "Projects",
           "x": 116806,
-          "y": 39771,
+          "y": 40445,
           "id": "indx1_2252"
         },
         "indx1_2253": {
           "label": "Tools",
           "x": 116797,
-          "y": 39796,
+          "y": 40470,
           "id": "indx1_2253"
         },
         "indx1_2254": {
           "label": "Organizations",
           "x": 116825,
-          "y": 39821,
+          "y": 40495,
           "id": "indx1_2254"
         },
         "indx1_2255": {
           "label": "Standarts",
           "x": 116811,
-          "y": 39846,
+          "y": 40520,
           "id": "indx1_2255"
         },
         "indx1_2256": {
           "label": "Forums, Groups",
           "x": 116833,
-          "y": 39871,
+          "y": 40545,
           "id": "indx1_2256"
         },
         "indx1_2257": {
           "label": "Laws",
           "x": 116797,
-          "y": 39896,
+          "y": 40570,
           "id": "indx1_2257"
         },
         "indx1_2258": {
           "label": "Adjacent Themes",
           "x": 116836,
-          "y": 39921,
+          "y": 40595,
           "id": "indx1_2258"
         },
         "indx1_2259": {
           "label": "Questions",
           "x": 116576,
-          "y": 40046,
+          "y": 40720,
           "id": "indx1_2259"
         },
         "indx1_2260": {
           "label": "Problems",
           "x": 116574,
-          "y": 40146,
+          "y": 40820,
           "id": "indx1_2260"
         },
         "indx1_2261": {
           "label": "Goals",
           "x": 116563,
-          "y": 40246,
+          "y": 40920,
           "id": "indx1_2261"
         },
         "indx1_2262": {
           "id": "indx1_2262",
           "x": 121305,
-          "y": 38535,
+          "y": 39209,
           "label": "Node.js\nHTTPS\nModule",
           "shape": "box",
           "link": "",
@@ -38700,7 +38446,7 @@ var schemeData =
         "indx1_2263": {
           "id": "indx1_2263",
           "x": 117140,
-          "y": 37328,
+          "y": 38002,
           "label": "The HTTPS module provides a way of making Node.js\ntransfer data over HTTP TLS/SSL protocol,\nwhich is the  secure HTTP protocol.",
           "shape": "box",
           "link": "",
@@ -38717,7 +38463,7 @@ var schemeData =
         "indx1_2264": {
           "id": "indx1_2264",
           "x": 117111,
-          "y": 38151,
+          "y": 38825,
           "label": "https.request(options, callback)",
           "link": "https.request(options, callback)"
         },
@@ -38725,7 +38471,7 @@ var schemeData =
           "label": "Makes a request to a secure web server",
           "link": "",
           "x": 117405,
-          "y": 37480,
+          "y": 38154,
           "id": "indx1_2265",
           "color": {
             "highlight": {
@@ -38766,7 +38512,7 @@ var schemeData =
           "label": "Example",
           "link": "",
           "x": 117290,
-          "y": 37966,
+          "y": 38640,
           "id": "indx1_2266",
           "color": {
             "highlight": {
@@ -38807,7 +38553,7 @@ var schemeData =
           "label": "var https = require('https');\n\nvar options = {\n  hostname: 'encrypted.google.com',\n  port: 443,\n  path: '/',\n  method: 'GET'\n};\n\nvar req = https.request(options, function(res) {\n  console.log(\"statusCode: \", res.statusCode);\n  console.log(\"headers: \", res.headers);\n\n  res.on('data', function(d) {\n    process.stdout.write(d);\n  });\n});\nreq.end();\n\nreq.on('error', function(e) {\n  console.error(e);\n});",
           "link": "",
           "x": 117554,
-          "y": 37691,
+          "y": 38365,
           "id": "indx1_2267",
           "color": {
             "highlight": {
@@ -38848,7 +38594,7 @@ var schemeData =
           "label": "The options argument has the following options",
           "link": "",
           "x": 117456,
-          "y": 38712,
+          "y": 39386,
           "id": "indx1_2268",
           "color": {
             "highlight": {
@@ -38889,77 +38635,77 @@ var schemeData =
           "label": "host: A domain name or IP address of the server to issue the request to. Defaults to  'localhost'.",
           "link": "",
           "x": 117997,
-          "y": 38588,
+          "y": 39262,
           "id": "indx1_2269"
         },
         "indx1_2270": {
           "label": "hostname: To support url.parse() hostname is preferred over host",
           "link": "",
           "x": 117903,
-          "y": 38612,
+          "y": 39286,
           "id": "indx1_2270"
         },
         "indx1_2271": {
           "label": "port: Port of remote server. Defaults to 443.",
           "link": "",
           "x": 117833,
-          "y": 38636,
+          "y": 39310,
           "id": "indx1_2271"
         },
         "indx1_2272": {
           "label": "method: A string specifying the HTTP request method. Defaults to 'GET'.",
           "link": "",
           "x": 117925,
-          "y": 38660,
+          "y": 39334,
           "id": "indx1_2272"
         },
         "indx1_2273": {
           "label": "path: Request path. Defaults to '/'. Should include query string if any. E.G.  '/index.html?page=12'",
           "link": "",
           "x": 118001,
-          "y": 38684,
+          "y": 39358,
           "id": "indx1_2273"
         },
         "indx1_2274": {
           "label": "headers: An object containing request headers.",
           "link": "",
           "x": 117846,
-          "y": 38708,
+          "y": 39382,
           "id": "indx1_2274"
         },
         "indx1_2275": {
           "label": "auth: Basic authentication i.e. 'user:password' to compute an Authorization header.",
           "link": "",
           "x": 117957,
-          "y": 38732,
+          "y": 39406,
           "id": "indx1_2275"
         },
         "indx1_2276": {
           "label": "agent: Controls Agent behavior. When an Agent is used request will default to  Connection: keep-alive. Possible values:",
           "link": "",
           "x": 118072,
-          "y": 38756,
+          "y": 39430,
           "id": "indx1_2276"
         },
         "indx1_2277": {
           "label": "undefined (default): use globalAgent for this host and port.",
           "link": "",
           "x": 117880,
-          "y": 38780,
+          "y": 39454,
           "id": "indx1_2277"
         },
         "indx1_2278": {
           "label": "Agent object: explicitly use the passed in Agent.",
           "link": "",
           "x": 117846,
-          "y": 38804,
+          "y": 39478,
           "id": "indx1_2278"
         },
         "indx1_2279": {
           "label": "false: opts out of connection pooling with an Agent, defaults request to Connection: close.",
           "link": "",
           "x": 117978,
-          "y": 38828,
+          "y": 39502,
           "id": "indx1_2279"
         },
         "indx1_2280": {
@@ -38991,7 +38737,7 @@ var schemeData =
           "label": "   var url = require(\"url\");\n   var path = url.parse(newsUrl).path;\n   var host = url.parse(newsUrl).host;\n   const https = require('https');\n\n   //https://www.linux.org.ru/section-rss.jsp\n\n   const options = {\n     hostname: host,\n     port: 443,\n     path: path,\n     method: 'GET'\n   };\n\n   const req = https.request(options, res => {\n\n     console.log(`statusCode: ${res.statusCode}`);\n   \n     res.setEncoding('utf8');\n     res.on('data', d => {\n       process.stdout.write(d);\n       //return d;\n       //process.stdout.write(d);\n       //resultData = d;\n       //r(d);\n\n     });\n   });\n\n   req.on('error', error => {\n     console.error(error);\n     //return error;\n       //var answerLine = JSON.stringify(error);\n       //response.send(answerLine);\n       //r(d);\n\n   });\n\n   req.end();",
           "id": "indx1_2280",
           "x": 117564,
-          "y": 38165,
+          "y": 38839,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -38999,20 +38745,20 @@ var schemeData =
         "indx1_2281": {
           "id": "indx1_2281",
           "x": 117379,
-          "y": 38905,
+          "y": 39579,
           "label": "res.setEncoding('utf8');"
         },
         "indx1_2282": {
           "id": "indx1_2282",
           "x": 106125,
-          "y": 28076,
+          "y": 30053,
           "label": "XPath"
         },
         "indx1_2283": {
           "label": "var xmlString = '<form><name>test</name></form>';\nvar doc = new DOMParser().parseFromString(xmlString,'text/xml');\nvar result = doc.evaluate('/form/name', doc, null, XPathResult.STRING_TYPE, null);\nalert(result.stringValue); // returns 'test'",
           "link": "",
           "x": 106491,
-          "y": 28083,
+          "y": 30060,
           "id": "indx1_2283",
           "color": {
             "highlight": {
@@ -39052,45 +38798,45 @@ var schemeData =
         "indx1_2284": {
           "id": "indx1_2284",
           "x": 106129,
-          "y": 28186,
+          "y": 30163,
           "label": "Results"
         },
         "indx1_2285": {
           "id": "indx1_2285",
           "x": 106556,
-          "y": 28151,
+          "y": 30128,
           "label": "https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMXPathResult",
           "link": "https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMXPathResult"
         },
         "indx1_2286": {
           "id": "indx1_2286",
           "x": 106357,
-          "y": 28213,
+          "y": 30190,
           "label": "UNORDERED_NODE_ITERATOR_TYPE"
         },
         "indx1_2287": {
           "id": "indx1_2287",
           "x": 106680,
-          "y": 28221,
+          "y": 30198,
           "label": "while(node = result.iterateNext()) {\n  tagNames.push(node.localName);\n}"
         },
         "indx1_2288": {
           "id": "indx1_2288",
           "x": 106950,
-          "y": 28202,
+          "y": 30179,
           "label": "node.textContent"
         },
         "indx1_2289": {
           "id": "indx1_2289",
           "x": 106138,
-          "y": 28371,
+          "y": 30348,
           "label": "Attributes"
         },
         "indx1_2290": {
           "label": ".attributes['href'].value",
           "link": "",
           "x": 106302,
-          "y": 28364,
+          "y": 30341,
           "id": "indx1_2290",
           "color": {
             "highlight": {
@@ -39130,13 +38876,13 @@ var schemeData =
         "indx1_2291": {
           "id": "indx1_2291",
           "x": 106291,
-          "y": 28391,
+          "y": 30368,
           "label": ".getAttribute('href')"
         },
         "indx1_2292": {
           "id": "indx1_2292",
           "x": 106941,
-          "y": 28313,
+          "y": 30290,
           "label": "document.evaluate('//a[@id=\"next\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext().attributes['href'].value"
         },
         "indx1_2293": {
@@ -39154,34 +38900,34 @@ var schemeData =
         "indx1_2295": {
           "id": "indx1_2295",
           "x": 106950,
-          "y": 28240,
+          "y": 30217,
           "label": "node.innerHTML"
         },
         "indx1_2296": {
           "id": "indx1_2296",
           "x": 107264,
-          "y": 28242,
+          "y": 30219,
           "label": "https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML",
           "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML"
         },
         "indx1_2297": {
           "id": "indx1_2297",
           "x": 107243,
-          "y": 28202,
+          "y": 30179,
           "label": "https://www.w3schools.com/xml/prop_element_textcontent.asp",
           "link": "https://www.w3schools.com/xml/prop_element_textcontent.asp"
         },
         "indx1_2298": {
           "id": "indx1_2298",
           "x": 118549,
-          "y": -103,
+          "y": 113,
           "label": "uniq"
         },
         "indx1_2299": {
           "label": "https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array",
           "link": "https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array",
           "x": 118953,
-          "y": -239,
+          "y": -23,
           "id": "indx1_2299",
           "color": {
             "highlight": {
@@ -39221,25 +38967,25 @@ var schemeData =
         "indx1_2300": {
           "id": "indx1_2300",
           "x": 118789,
-          "y": -177,
+          "y": 39,
           "label": "function uniq(a) {\n   return Array.from(new Set(a));\n}"
         },
         "indx1_2301": {
           "id": "indx1_2301",
           "x": 118958,
-          "y": -184,
+          "y": 32,
           "label": "for ES6"
         },
         "indx1_2302": {
           "id": "indx1_2302",
           "x": 118776,
-          "y": -25,
+          "y": 191,
           "label": "function uniq_fast(a) {\n    var seen = {};\n    var out = [];\n    var len = a.length;\n    var j = 0;\n    for(var i = 0; i < len; i++) {\n         var item = a[i];\n         if(seen[item] !== 1) {\n               seen[item] = 1;\n               out[j++] = item;\n         }\n    }\n    return out;\n}"
         },
         "indx1_2303": {
           "id": "indx1_2303",
           "x": 119289,
-          "y": 20053,
+          "y": 20727,
           "label": "var person = {firstName:\"John\", lastName:\"Doe\", age:50, eyeColor:\"blue\"};"
         },
         "indx1_2304": {
@@ -39275,141 +39021,141 @@ var schemeData =
         "indx1_2309": {
           "id": "indx1_2309",
           "x": 94588,
-          "y": 29134,
+          "y": 30152,
           "label": "var p2 = new Promise(function(resolve, reject) {\n  resolve(1);\n});\n\np2.then(function(value) {\n  console.log(value); // 1\n  return value + 1;\n}).then(function(value) {\n  console.log(value + ' - A synchronous value works');\n});"
         },
         "indx1_2310": {
           "id": "indx1_2310",
           "x": 94205,
-          "y": 29347,
+          "y": 30365,
           "label": "Examples"
         },
         "indx1_2311": {
           "id": "indx1_2311",
           "x": 94535,
-          "y": 30842,
+          "y": 31860,
           "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then"
         },
         "indx1_2312": {
           "id": "indx1_2312",
           "x": 118567,
-          "y": 203,
+          "y": 419,
           "label": "difference"
         },
         "indx1_2313": {
           "id": "indx1_2313",
           "x": 119045,
-          "y": 282,
+          "y": 498,
           "label": "https://stackoverflow.com/questions/1187518/how-to-get-the-difference-between-two-arrays-in-javascript?noredirect=1&lq=1",
           "link": "https://stackoverflow.com/questions/1187518/how-to-get-the-difference-between-two-arrays-in-javascript?noredirect=1&lq=1"
         },
         "indx1_2314": {
           "id": "indx1_2314",
           "x": 118761,
-          "y": 198,
+          "y": 414,
           "label": "function difference(a1, a2) {\n  var result = [];\n  for (var i = 0; i < a1.length; i++) {\n    if (a2.indexOf(a1[i]) === -1) {\n      result.push(a1[i]);\n    }\n  }\n  return result;\n}"
         },
         "indx1_2315": {
           "id": "indx1_2315",
           "x": 118377,
-          "y": 2759,
+          "y": 3433,
           "label": "delete"
         },
         "indx1_2316": {
           "id": "indx1_2316",
           "x": 118561,
-          "y": 2746,
+          "y": 3420,
           "label": "delete object.keyname;"
         },
         "indx1_2317": {
           "id": "indx1_2317",
           "x": 118568,
-          "y": 2774,
+          "y": 3448,
           "label": "delete object[\"keyname\"];"
         },
         "indx1_2318": {
           "id": "indx1_2318",
           "x": 118557,
-          "y": 11736,
+          "y": 12410,
           "label": "whole number of times a given integer goes into another"
         },
         "indx1_2319": {
           "id": "indx1_2319",
           "x": 118898,
-          "y": 11721,
+          "y": 12395,
           "label": "(-100-(-100%3))/3 "
         },
         "indx1_2320": {
           "id": "indx1_2320",
           "x": 118919,
-          "y": 11760,
+          "y": 12434,
           "label": "var remainder = x % y;\nreturn (x - remainder) / y;"
         },
         "indx1_2321": {
           "id": "indx1_2321",
           "x": 117953,
-          "y": 30699,
+          "y": 31373,
           "label": "URL"
         },
         "indx1_2322": {
           "id": "indx1_2322",
           "x": 118277,
-          "y": 30646,
+          "y": 31320,
           "label": "URL interface is used to parse, construct, normalize, and encode URLs"
         },
         "indx1_2323": {
           "id": "indx1_2323",
           "x": 118323,
-          "y": 30683,
+          "y": 31357,
           "label": "var pageFileName = (new URL(window.location.href)).pathname.split(\"/\").reverse()[0];"
         },
         "indx1_2324": {
           "id": "indx1_2324",
           "x": 118083,
-          "y": 30723,
+          "y": 31397,
           "label": "hostname"
         },
         "indx1_2325": {
           "id": "indx1_2325",
           "x": 118084,
-          "y": 30758,
+          "y": 31432,
           "label": "pathname"
         },
         "indx1_2326": {
           "id": "indx1_2326",
-          "x": 94246,
-          "y": 4156,
+          "x": 94223,
+          "y": 5002,
           "label": "prop()"
         },
         "indx1_2327": {
           "id": "indx1_2327",
           "x": 94411,
-          "y": 4129,
+          "y": 4975,
           "label": "prop(\"tagName\")"
         },
         "indx1_2328": {
           "id": "indx1_2328",
           "x": 94587,
-          "y": 4128,
+          "y": 4974,
           "label": "Get element tag name"
         },
         "indx1_2329": {
           "id": "indx1_2329",
           "x": 94398,
-          "y": 4171,
+          "y": 5017,
           "label": "prop(\"class\")"
         },
         "indx1_2330": {
           "id": "indx1_2330",
           "x": 94555,
-          "y": 4171,
+          "y": 5017,
           "label": "Get element class name"
         },
         "indx1_2331": {
           "id": "indx1_2331",
-          "x": 94314,
-          "y": 4257,
+          "x": 94291,
+          "y": 5103,
           "label": "$(document.activeElement)",
           "shape": "box",
           "link": "",
@@ -39426,53 +39172,53 @@ var schemeData =
         "indx1_2332": {
           "id": "indx1_2332",
           "x": 94527,
-          "y": 4258,
+          "y": 5104,
           "label": "Get focused element"
         },
         "indx1_2333": {
           "id": "indx1_2333",
           "x": 106075,
-          "y": 11240,
+          "y": 13217,
           "label": "Every JavaScript function is actually a Function object"
         },
         "indx1_2334": {
           "id": "indx1_2334",
           "x": 106246,
-          "y": 12456,
+          "y": 14433,
           "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function"
         },
         "indx1_2335": {
           "id": "indx1_2335",
           "x": 106127,
-          "y": 12482,
+          "y": 14459,
           "label": "https://www.w3schools.com/js/js_function_definition.asp",
           "link": "https://www.w3schools.com/js/js_function_definition.asp"
         },
         "indx1_2336": {
           "id": "indx1_2336",
           "x": 106192,
-          "y": 12507,
+          "y": 14484,
           "label": "https://stackoverflow.com/questions/40096704/new-function-vs-new-function",
           "link": "https://stackoverflow.com/questions/40096704/new-function-vs-new-function"
         },
         "indx1_2337": {
           "id": "indx1_2337",
           "x": 106185,
-          "y": 12410,
+          "y": 14387,
           "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
         },
         "indx1_2338": {
           "id": "indx1_2338",
           "x": 118623,
-          "y": 395,
+          "y": 611,
           "label": "Searching and Removing a\nSpecific Element by Value"
         },
         "indx1_2339": {
           "id": "indx1_2339",
           "x": 119055,
-          "y": 402,
+          "y": 618,
           "label": "[\"bar\", \"baz\", \"foo\", \"qux\"]\n \nlist.splice( list.indexOf('foo'), 1 );\n// Find the index position of \"foo,\" then remove one element from that position",
           "shape": "box",
           "link": "",
@@ -39489,19 +39235,19 @@ var schemeData =
         "indx1_2340": {
           "id": "indx1_2340",
           "x": 118467,
-          "y": 11836,
+          "y": 12510,
           "label": "Absolute value of a number"
         },
         "indx1_2341": {
           "id": "indx1_2341",
           "x": 118652,
-          "y": 11842,
+          "y": 12516,
           "label": "Math.abs()"
         },
         "indx1_2342": {
           "label": "XPath",
           "x": 93753,
-          "y": 36381,
+          "y": 37399,
           "font": {
             "size": 72,
             "align": "left"
@@ -39518,151 +39264,151 @@ var schemeData =
         "indx1_2343": {
           "label": "Development",
           "x": 94053,
-          "y": 36831,
+          "y": 37849,
           "id": "indx1_2343"
         },
         "indx1_2344": {
           "label": "3/9/2020",
           "x": 94178,
-          "y": 36831,
+          "y": 37849,
           "id": "indx1_2344"
         },
         "indx1_2345": {
           "label": "init",
           "x": 94303,
-          "y": 36831,
+          "y": 37849,
           "id": "indx1_2345"
         },
         "indx1_2346": {
           "label": "Notes",
           "x": 94029,
-          "y": 35981,
+          "y": 36999,
           "id": "indx1_2346"
         },
         "indx1_2347": {
           "label": "Dictionary of\nconcepts",
           "x": 94190,
-          "y": 35455,
+          "y": 36473,
           "id": "indx1_2347"
         },
         "indx1_2348": {
           "label": "Details, thoughts",
           "x": 94203,
-          "y": 35981,
+          "y": 36999,
           "id": "indx1_2348"
         },
         "indx1_2349": {
           "label": "Sections",
           "x": 94177,
-          "y": 36231,
+          "y": 37249,
           "id": "indx1_2349"
         },
         "indx1_2350": {
           "label": "Books",
           "x": 94267,
-          "y": 36081,
+          "y": 37099,
           "id": "indx1_2350"
         },
         "indx1_2351": {
           "label": "R&D institutions",
           "x": 94297,
-          "y": 36106,
+          "y": 37124,
           "id": "indx1_2351"
         },
         "indx1_2352": {
           "label": "Sites",
           "x": 94263,
-          "y": 36131,
+          "y": 37149,
           "id": "indx1_2352"
         },
         "indx1_2353": {
           "label": "Magazines",
           "x": 94282,
-          "y": 36156,
+          "y": 37174,
           "id": "indx1_2353"
         },
         "indx1_2354": {
           "label": "Articles",
           "x": 94270,
-          "y": 36181,
+          "y": 37199,
           "id": "indx1_2354"
         },
         "indx1_2355": {
           "label": "Media content",
           "x": 94292,
-          "y": 36206,
+          "y": 37224,
           "id": "indx1_2355"
         },
         "indx1_2356": {
           "label": "Misc. web links",
           "x": 94295,
-          "y": 36231,
+          "y": 37249,
           "id": "indx1_2356"
         },
         "indx1_2357": {
           "label": "Projects",
           "x": 94273,
-          "y": 36256,
+          "y": 37274,
           "id": "indx1_2357"
         },
         "indx1_2358": {
           "label": "Tools",
           "x": 94264,
-          "y": 36281,
+          "y": 37299,
           "id": "indx1_2358"
         },
         "indx1_2359": {
           "label": "Organizations",
           "x": 94291,
-          "y": 36306,
+          "y": 37324,
           "id": "indx1_2359"
         },
         "indx1_2360": {
           "label": "Standarts",
           "x": 94278,
-          "y": 36331,
+          "y": 37349,
           "id": "indx1_2360"
         },
         "indx1_2361": {
           "label": "Forums, Groups",
           "x": 94299,
-          "y": 36356,
+          "y": 37374,
           "id": "indx1_2361"
         },
         "indx1_2362": {
           "label": "Laws",
           "x": 94264,
-          "y": 36381,
+          "y": 37399,
           "id": "indx1_2362"
         },
         "indx1_2363": {
           "label": "Adjacent Themes",
           "x": 94303,
-          "y": 36406,
+          "y": 37424,
           "id": "indx1_2363"
         },
         "indx1_2364": {
           "label": "Questions",
           "x": 94043,
-          "y": 36531,
+          "y": 37549,
           "id": "indx1_2364"
         },
         "indx1_2365": {
           "label": "Problems",
           "x": 94041,
-          "y": 36631,
+          "y": 37649,
           "id": "indx1_2365"
         },
         "indx1_2366": {
           "label": "Goals",
           "x": 94029,
-          "y": 36731,
+          "y": 37749,
           "id": "indx1_2366"
         },
         "indx1_2367": {
           "id": "indx1_2367",
           "x": 97341,
-          "y": 35618,
+          "y": 36636,
           "label": "XPath",
           "shape": "box",
           "link": "",
@@ -39679,7 +39425,7 @@ var schemeData =
         "indx1_2368": {
           "id": "indx1_2368",
           "x": 94749,
-          "y": 35255,
+          "y": 36273,
           "label": "var parser = new DOMParser();\n\nvar xmlDoc = parser.parseFromString(data,\"text/html\");\n\nvar rslt1 = xmlDoc.evaluate('//div[@class=\"yt-user-info\"]/a', xmlDoc, null, XPathResult.ANY_TYPE, null);\nvar channelName = rslt1.iterateNext().text;\n\nvar rslt2 = xmlDoc.evaluate('//span[@id=\"eow-title\"]', xmlDoc, null, XPathResult.ANY_TYPE, null);\nvar vidName = rslt2.iterateNext().textContent.trim();\n\nvar rslt3 = xmlDoc.evaluate('//div[@class=\"yt-user-info\"]/a', xmlDoc, null, XPathResult.ANY_TYPE, null);\nvar channelLink = \"https://www.youtube.com\" + rslt3.iterateNext().getAttribute(\"href\");",
           "shape": "box",
           "link": "",
@@ -39696,7 +39442,7 @@ var schemeData =
         "indx1_2369": {
           "id": "indx1_2369",
           "x": 94809,
-          "y": 29350,
+          "y": 30368,
           "label": "var p2 = new Promise(function(resolve, reject) {\n  resolve();\n});\n\np2.then(function() {\n  console.log(1);\n}).then(function() {\n  console.log(2);\n});",
           "shape": "box",
           "link": "",
@@ -39713,7 +39459,7 @@ var schemeData =
         "indx1_2370": {
           "id": "indx1_2370",
           "x": 94474,
-          "y": 29353,
+          "y": 30371,
           "label": "Minimal example",
           "shape": "box",
           "link": "",
@@ -39789,25 +39535,25 @@ var schemeData =
         "indx1_2378": {
           "id": "indx1_2378",
           "x": 118776,
-          "y": 15866,
+          "y": 16540,
           "label": "Get variable type"
         },
         "indx1_2379": {
           "id": "indx1_2379",
           "x": 119118,
-          "y": 15848,
+          "y": 16522,
           "label": "var toType = function(obj) {\n  return ({}).toString.call(obj).match(/\\s([a-zA-Z]+)/)[1].toLowerCase()\n}"
         },
         "indx1_2380": {
           "id": "indx1_2380",
           "x": 118921,
-          "y": 15909,
+          "y": 16583,
           "label": "typeof"
         },
         "indx1_2381": {
           "id": "indx1_2381",
           "x": 118951,
-          "y": 15960,
+          "y": 16634,
           "label": "Array.isArray([])"
         },
         "indx1_2382": {
@@ -39974,77 +39720,77 @@ var schemeData =
         "indx1_2407": {
           "id": "indx1_2407",
           "x": 94457,
-          "y": 35444,
+          "y": 36462,
           "label": "mimeType"
         },
         "indx1_2408": {
           "label": "text/html",
           "link": "",
           "x": 94563,
-          "y": 35382,
+          "y": 36400,
           "id": "indx1_2408"
         },
         "indx1_2409": {
           "label": "Document",
           "link": "",
           "x": 94736,
-          "y": 35381,
+          "y": 36399,
           "id": "indx1_2409"
         },
         "indx1_2410": {
           "label": "text/xml",
           "link": "",
           "x": 94560,
-          "y": 35412,
+          "y": 36430,
           "id": "indx1_2410"
         },
         "indx1_2411": {
           "label": "XMLDocument",
           "link": "",
           "x": 94750,
-          "y": 35415,
+          "y": 36433,
           "id": "indx1_2411"
         },
         "indx1_2412": {
           "label": "application/xml",
           "link": "",
           "x": 94583,
-          "y": 35445,
+          "y": 36463,
           "id": "indx1_2412"
         },
         "indx1_2413": {
           "label": "XMLDocument",
           "link": "",
           "x": 94750,
-          "y": 35446,
+          "y": 36464,
           "id": "indx1_2413"
         },
         "indx1_2414": {
           "label": "application/xhtml+xml",
           "link": "",
           "x": 94604,
-          "y": 35479,
+          "y": 36497,
           "id": "indx1_2414"
         },
         "indx1_2415": {
           "label": "XMLDocument",
           "link": "",
           "x": 94750,
-          "y": 35479,
+          "y": 36497,
           "id": "indx1_2415"
         },
         "indx1_2416": {
           "label": "image/svg+xml",
           "link": "",
           "x": 94583,
-          "y": 35511,
+          "y": 36529,
           "id": "indx1_2416"
         },
         "indx1_2417": {
           "label": "XMLDocument",
           "link": "",
           "x": 94750,
-          "y": 35511,
+          "y": 36529,
           "id": "indx1_2417"
         },
         "indx1_2418": {
@@ -42137,7 +41883,7 @@ var schemeData =
           "label": "RegExp Modifiers",
           "id": "indx1_2479",
           "x": 118703,
-          "y": 6933,
+          "y": 7607,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42146,14 +41892,14 @@ var schemeData =
           "label": "m",
           "link": "",
           "x": 118833,
-          "y": 6964,
+          "y": 7638,
           "id": "indx1_2480"
         },
         "indx1_2481": {
           "label": "Perform multiline matching",
           "link": "",
           "x": 118968,
-          "y": 6962,
+          "y": 7636,
           "id": "indx1_2481"
         },
         "indx1_2482": {
@@ -42185,7 +41931,7 @@ var schemeData =
           "label": "i",
           "id": "indx1_2482",
           "x": 118828,
-          "y": 6898,
+          "y": 7572,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42219,7 +41965,7 @@ var schemeData =
           "label": "Perform case-insensitive matching",
           "id": "indx1_2483",
           "x": 118991,
-          "y": 6897,
+          "y": 7571,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42253,7 +41999,7 @@ var schemeData =
           "label": "g",
           "id": "indx1_2484",
           "x": 118830,
-          "y": 6934,
+          "y": 7608,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42287,7 +42033,7 @@ var schemeData =
           "label": "Perform a global match. Find all matches (do not stop after the first match",
           "id": "indx1_2485",
           "x": 119116,
-          "y": 6931,
+          "y": 7605,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42355,7 +42101,7 @@ var schemeData =
           "label": "null if no result",
           "id": "indx1_2487",
           "x": 119000,
-          "y": 7367,
+          "y": 8041,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42390,7 +42136,7 @@ var schemeData =
           "label": "null if no result",
           "id": "indx1_2488",
           "x": 119102,
-          "y": 7415,
+          "y": 8089,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42435,7 +42181,7 @@ var schemeData =
           "label": "Character case",
           "link": "",
           "x": 118464,
-          "y": 8703,
+          "y": 9377,
           "id": "indx1_2489",
           "shape": "box",
           "borderWidth": ""
@@ -42480,7 +42226,7 @@ var schemeData =
           "label": "\"Your Name\".toLowerCase();",
           "link": "",
           "x": 118741,
-          "y": 8691,
+          "y": 9365,
           "id": "indx1_2490",
           "shape": "box",
           "borderWidth": ""
@@ -42525,7 +42271,7 @@ var schemeData =
           "label": "\"Your Name\".toUpperCase();",
           "link": "",
           "x": 118741,
-          "y": 8720,
+          "y": 9394,
           "id": "indx1_2491",
           "shape": "box",
           "borderWidth": ""
@@ -42598,7 +42344,7 @@ var schemeData =
           "link": "https://en.wikipedia.org/wiki/React_(web_framework)",
           "borderWidth": ""
         },
-        "indx1_2494": {
+        "index-a_179": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -42627,7 +42373,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "GWT",
-          "id": "indx1_2494",
+          "id": "index-a_179",
           "x": 130555,
           "y": -6706,
           "shape": "box",
@@ -42635,7 +42381,7 @@ var schemeData =
           "borderWidth": "",
           "oldId": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b8565582823680"
         },
-        "indx1_2495": {
+        "index-a_180": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42662,10 +42408,10 @@ var schemeData =
           "label": "R&D institutions",
           "x": 127990,
           "y": -6183,
-          "id": "indx1_2495",
+          "id": "index-a_180",
           "oldId": "92f53a00-cf65-456f-bfcf-6f6c88119d5b1471268270"
         },
-        "indx1_2496": {
+        "index-a_181": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42692,10 +42438,10 @@ var schemeData =
           "label": "Sites",
           "x": 127956,
           "y": -6158,
-          "id": "indx1_2496",
+          "id": "index-a_181",
           "oldId": "75ff23b4-3d0f-4c06-8061-4069494a326f1471268270"
         },
-        "indx1_2497": {
+        "index-a_182": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42722,10 +42468,10 @@ var schemeData =
           "label": "Magazines",
           "x": 127975,
           "y": -6133,
-          "id": "indx1_2497",
+          "id": "index-a_182",
           "oldId": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf1471268270"
         },
-        "indx1_2498": {
+        "index-a_183": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42752,10 +42498,10 @@ var schemeData =
           "label": "Articles",
           "x": 127963,
           "y": -6108,
-          "id": "indx1_2498",
+          "id": "index-a_183",
           "oldId": "2d9049d8-feaf-41cd-afb1-87515557983e1471268270"
         },
-        "indx1_2499": {
+        "index-a_184": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42782,10 +42528,10 @@ var schemeData =
           "label": "Media content",
           "x": 127985,
           "y": -6083,
-          "id": "indx1_2499",
+          "id": "index-a_184",
           "oldId": "51a5b447-fa28-4997-80ca-b7a96a69ef9e1471268270"
         },
-        "indx1_2500": {
+        "index-a_185": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42812,10 +42558,10 @@ var schemeData =
           "label": "Misc. web links",
           "x": 127986,
           "y": -5951,
-          "id": "indx1_2500",
+          "id": "index-a_185",
           "oldId": "8a139418-94d2-4121-94a4-dfsa26213d241471268270"
         },
-        "indx1_2501": {
+        "index-a_186": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42842,10 +42588,10 @@ var schemeData =
           "label": "Projects",
           "x": 127968,
           "y": -5817,
-          "id": "indx1_2501",
+          "id": "index-a_186",
           "oldId": "76fc5be1-7bae-46ec-a649-1bc6509b378d1471268270"
         },
-        "indx1_2502": {
+        "index-a_187": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42872,10 +42618,10 @@ var schemeData =
           "label": "Tools",
           "x": 127959,
           "y": -5792,
-          "id": "indx1_2502",
+          "id": "index-a_187",
           "oldId": "21dc8bf2-6e0c-42cf-b702-d47f24af173a1471268270"
         },
-        "indx1_2503": {
+        "index-a_188": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42902,10 +42648,10 @@ var schemeData =
           "label": "Organizations",
           "x": 127986,
           "y": -5767,
-          "id": "indx1_2503",
+          "id": "index-a_188",
           "oldId": "1f9b98e7-ca75-443c-952d-a1d0ba4766521471268270"
         },
-        "indx1_2504": {
+        "index-a_189": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42932,10 +42678,10 @@ var schemeData =
           "label": "Standarts",
           "x": 127973,
           "y": -5742,
-          "id": "indx1_2504",
+          "id": "index-a_189",
           "oldId": "f9c77b6e-13d7-4687-9d7f-e858e5cf56851471268270"
         },
-        "indx1_2505": {
+        "index-a_190": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42962,10 +42708,10 @@ var schemeData =
           "label": "Laws",
           "x": 127959,
           "y": -5692,
-          "id": "indx1_2505",
+          "id": "index-a_190",
           "oldId": "f13fa072-1d46-45b2-b2b1-679177d88ba61471268270"
         },
-        "indx1_2506": {
+        "index-a_191": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -42992,10 +42738,10 @@ var schemeData =
           "label": "Adjacent Themes",
           "x": 127998,
           "y": -5667,
-          "id": "indx1_2506",
+          "id": "index-a_191",
           "oldId": "ab382182-58b3-4799-ad70-5340f6f6e88d1471268270"
         },
-        "indx1_2507": {
+        "index-a_192": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43023,7 +42769,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "id": "indx1_2507",
+          "id": "index-a_192",
           "x": 127904,
           "y": -6316,
           "shape": "box",
@@ -43031,7 +42777,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278270"
         },
-        "indx1_2508": {
+        "index-a_193": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43059,7 +42805,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "id": "indx1_2508",
+          "id": "index-a_193",
           "x": 127740,
           "y": -5562,
           "shape": "box",
@@ -43067,7 +42813,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1677768270"
         },
-        "indx1_2509": {
+        "index-a_194": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43095,7 +42841,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "id": "indx1_2509",
+          "id": "index-a_194",
           "x": 127738,
           "y": -5466,
           "shape": "box",
@@ -43103,7 +42849,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1678r5t270"
         },
-        "indx1_2510": {
+        "index-a_195": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43131,7 +42877,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "id": "indx1_2510",
+          "id": "index-a_195",
           "x": 127727,
           "y": -5372,
           "shape": "box",
@@ -43139,7 +42885,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1678678270"
         },
-        "indx1_2511": {
+        "index-a_196": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43167,7 +42913,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "id": "indx1_2511",
+          "id": "index-a_196",
           "x": 127750,
           "y": -5247,
           "shape": "box",
@@ -43175,7 +42921,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1677djk270"
         },
-        "indx1_2512": {
+        "index-a_197": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43203,7 +42949,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "id": "indx1_2512",
+          "id": "index-a_197",
           "x": 128036,
           "y": -5247,
           "shape": "box",
@@ -43211,7 +42957,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a167558270"
         },
-        "indx1_2513": {
+        "index-a_198": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43239,7 +42985,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "id": "indx1_2513",
+          "id": "index-a_198",
           "x": 127725,
           "y": -6310,
           "shape": "box",
@@ -43247,7 +42993,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270"
         },
-        "indx1_2514": {
+        "index-a_199": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43275,7 +43021,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "id": "indx1_2514",
+          "id": "index-a_199",
           "x": 127878,
           "y": -5940,
           "shape": "box",
@@ -43283,7 +43029,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278628270"
         },
-        "indx1_2515": {
+        "index-a_200": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43311,7 +43057,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "6/10/2020",
-          "id": "indx1_2515",
+          "id": "index-a_200",
           "x": 127889,
           "y": -5243,
           "shape": "box",
@@ -43319,7 +43065,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a167227862278270"
         },
-        "indx1_2516": {
+        "index-a_201": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43348,7 +43094,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "GWT",
-          "id": "indx1_2516",
+          "id": "index-a_201",
           "x": 127270,
           "y": -5715,
           "shape": "box",
@@ -43356,7 +43102,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278621468270"
         },
-        "indx1_2517": {
+        "index-a_202": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43384,7 +43130,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "id": "indx1_2517",
+          "id": "index-a_202",
           "x": 127960,
           "y": -6208,
           "shape": "box",
@@ -43392,7 +43138,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a167227862958270"
         },
-        "indx1_2518": {
+        "index-a_203": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43420,7 +43166,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "id": "indx1_2518",
+          "id": "index-a_203",
           "x": 127994,
           "y": -5717,
           "shape": "box",
@@ -43428,7 +43174,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278624278270"
         },
-        "indx1_2519": {
+        "index-a_204": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43456,7 +43202,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "id": "indx1_2519",
+          "id": "index-a_204",
           "x": 127891,
           "y": -7056,
           "shape": "box",
@@ -43464,7 +43210,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         },
-        "indx1_2520": {
+        "index-a_205": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43493,7 +43239,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Google_Web_Toolkit",
-          "id": "indx1_2520",
+          "id": "index-a_205",
           "x": 128352,
           "y": -5953,
           "shape": "box",
@@ -43501,7 +43247,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aky1163f-fc2b-4f9c-a767-e2e19d8bd93b5330521"
         },
-        "indx1_2521": {
+        "index-a_206": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43530,7 +43276,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Vaading",
-          "id": "indx1_2521",
+          "id": "index-a_206",
           "x": 131185,
           "y": -3932,
           "shape": "box",
@@ -43538,7 +43284,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b8565582823680"
         },
-        "indx1_2522": {
+        "index-a_207": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43565,10 +43311,10 @@ var schemeData =
           "label": "R&D institutions",
           "x": 127990,
           "y": -3183,
-          "id": "indx1_2522",
+          "id": "index-a_207",
           "oldId": "92f53a00-cf65-456f-bfcf-6f6c88119d5b1471268270"
         },
-        "indx1_2523": {
+        "index-a_208": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43595,10 +43341,10 @@ var schemeData =
           "label": "Sites",
           "x": 127956,
           "y": -3158,
-          "id": "indx1_2523",
+          "id": "index-a_208",
           "oldId": "75ff23b4-3d0f-4c06-8061-4069494a326f1471268270"
         },
-        "indx1_2524": {
+        "index-a_209": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43625,10 +43371,10 @@ var schemeData =
           "label": "Magazines",
           "x": 127975,
           "y": -3133,
-          "id": "indx1_2524",
+          "id": "index-a_209",
           "oldId": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf1471268270"
         },
-        "indx1_2525": {
+        "index-a_210": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43655,10 +43401,10 @@ var schemeData =
           "label": "Articles",
           "x": 127963,
           "y": -3108,
-          "id": "indx1_2525",
+          "id": "index-a_210",
           "oldId": "2d9049d8-feaf-41cd-afb1-87515557983e1471268270"
         },
-        "indx1_2526": {
+        "index-a_211": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43685,10 +43431,10 @@ var schemeData =
           "label": "Media content",
           "x": 127985,
           "y": -3083,
-          "id": "indx1_2526",
+          "id": "index-a_211",
           "oldId": "51a5b447-fa28-4997-80ca-b7a96a69ef9e1471268270"
         },
-        "indx1_2527": {
+        "index-a_212": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43715,10 +43461,10 @@ var schemeData =
           "label": "Misc. web links",
           "x": 127986,
           "y": -2951,
-          "id": "indx1_2527",
+          "id": "index-a_212",
           "oldId": "8a139418-94d2-4121-94a4-dfsa26213d241471268270"
         },
-        "indx1_2528": {
+        "index-a_213": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43745,10 +43491,10 @@ var schemeData =
           "label": "Projects",
           "x": 127968,
           "y": -2817,
-          "id": "indx1_2528",
+          "id": "index-a_213",
           "oldId": "76fc5be1-7bae-46ec-a649-1bc6509b378d1471268270"
         },
-        "indx1_2529": {
+        "index-a_214": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43775,10 +43521,10 @@ var schemeData =
           "label": "Tools",
           "x": 127959,
           "y": -2792,
-          "id": "indx1_2529",
+          "id": "index-a_214",
           "oldId": "21dc8bf2-6e0c-42cf-b702-d47f24af173a1471268270"
         },
-        "indx1_2530": {
+        "index-a_215": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43805,10 +43551,10 @@ var schemeData =
           "label": "Organizations",
           "x": 127986,
           "y": -2767,
-          "id": "indx1_2530",
+          "id": "index-a_215",
           "oldId": "1f9b98e7-ca75-443c-952d-a1d0ba4766521471268270"
         },
-        "indx1_2531": {
+        "index-a_216": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43835,10 +43581,10 @@ var schemeData =
           "label": "Standarts",
           "x": 127973,
           "y": -2742,
-          "id": "indx1_2531",
+          "id": "index-a_216",
           "oldId": "f9c77b6e-13d7-4687-9d7f-e858e5cf56851471268270"
         },
-        "indx1_2532": {
+        "index-a_217": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43865,10 +43611,10 @@ var schemeData =
           "label": "Laws",
           "x": 127959,
           "y": -2692,
-          "id": "indx1_2532",
+          "id": "index-a_217",
           "oldId": "f13fa072-1d46-45b2-b2b1-679177d88ba61471268270"
         },
-        "indx1_2533": {
+        "index-a_218": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -43895,10 +43641,10 @@ var schemeData =
           "label": "Adjacent Themes",
           "x": 127998,
           "y": -2667,
-          "id": "indx1_2533",
+          "id": "index-a_218",
           "oldId": "ab382182-58b3-4799-ad70-5340f6f6e88d1471268270"
         },
-        "indx1_2534": {
+        "index-a_219": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43926,7 +43672,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "id": "indx1_2534",
+          "id": "index-a_219",
           "x": 127904,
           "y": -3316,
           "shape": "box",
@@ -43934,7 +43680,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278270"
         },
-        "indx1_2535": {
+        "index-a_220": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43962,7 +43708,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "id": "indx1_2535",
+          "id": "index-a_220",
           "x": 127740,
           "y": -2562,
           "shape": "box",
@@ -43970,7 +43716,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1677768270"
         },
-        "indx1_2536": {
+        "index-a_221": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -43998,7 +43744,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "id": "indx1_2536",
+          "id": "index-a_221",
           "x": 127738,
           "y": -2467,
           "shape": "box",
@@ -44006,7 +43752,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1678r5t270"
         },
-        "indx1_2537": {
+        "index-a_222": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44034,7 +43780,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "id": "indx1_2537",
+          "id": "index-a_222",
           "x": 127727,
           "y": -2373,
           "shape": "box",
@@ -44042,7 +43788,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1678678270"
         },
-        "indx1_2538": {
+        "index-a_223": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44070,7 +43816,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "id": "indx1_2538",
+          "id": "index-a_223",
           "x": 127750,
           "y": -2248,
           "shape": "box",
@@ -44078,7 +43824,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1677djk270"
         },
-        "indx1_2539": {
+        "index-a_224": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44106,7 +43852,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "id": "indx1_2539",
+          "id": "index-a_224",
           "x": 128036,
           "y": -2248,
           "shape": "box",
@@ -44114,7 +43860,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a167558270"
         },
-        "indx1_2540": {
+        "index-a_225": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44142,7 +43888,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "id": "indx1_2540",
+          "id": "index-a_225",
           "x": 127725,
           "y": -3310,
           "shape": "box",
@@ -44150,7 +43896,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270"
         },
-        "indx1_2541": {
+        "index-a_226": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44178,7 +43924,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "id": "indx1_2541",
+          "id": "index-a_226",
           "x": 127878,
           "y": -2940,
           "shape": "box",
@@ -44186,7 +43932,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278628270"
         },
-        "indx1_2542": {
+        "index-a_227": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44214,7 +43960,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "6/10/2020",
-          "id": "indx1_2542",
+          "id": "index-a_227",
           "x": 127889,
           "y": -2244,
           "shape": "box",
@@ -44222,7 +43968,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a167227862278270"
         },
-        "indx1_2543": {
+        "index-a_228": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44251,7 +43997,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Vaadin",
-          "id": "indx1_2543",
+          "id": "index-a_228",
           "x": 127270,
           "y": -2715,
           "shape": "box",
@@ -44259,7 +44005,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278621468270"
         },
-        "indx1_2544": {
+        "index-a_229": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44287,7 +44033,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "id": "indx1_2544",
+          "id": "index-a_229",
           "x": 127960,
           "y": -3208,
           "shape": "box",
@@ -44295,7 +44041,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a167227862958270"
         },
-        "indx1_2545": {
+        "index-a_230": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44323,7 +44069,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "id": "indx1_2545",
+          "id": "index-a_230",
           "x": 127994,
           "y": -2717,
           "shape": "box",
@@ -44331,7 +44077,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278624278270"
         },
-        "indx1_2546": {
+        "index-a_231": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44359,7 +44105,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "id": "indx1_2546",
+          "id": "index-a_231",
           "x": 127891,
           "y": -4056,
           "shape": "box",
@@ -44367,7 +44113,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         },
-        "indx1_2547": {
+        "index-a_232": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44396,7 +44142,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/Vaadin",
-          "id": "indx1_2547",
+          "id": "index-a_232",
           "x": 128284,
           "y": -2954,
           "shape": "box",
@@ -44449,7 +44195,7 @@ var schemeData =
           "shape": "box",
           "borderWidth": ""
         },
-        "indx1_2549": {
+        "index-a_233": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44478,7 +44224,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Javascript\nperformance",
-          "id": "indx1_2549",
+          "id": "index-a_233",
           "x": 132194,
           "y": -162,
           "shape": "box",
@@ -44486,7 +44232,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b8565582823680"
         },
-        "indx1_2550": {
+        "index-a_234": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44513,10 +44259,10 @@ var schemeData =
           "label": "R&D institutions",
           "x": 128070,
           "y": -115,
-          "id": "indx1_2550",
+          "id": "index-a_234",
           "oldId": "92f53a00-cf65-456f-bfcf-6f6c88119d5b1471268270"
         },
-        "indx1_2551": {
+        "index-a_235": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44543,10 +44289,10 @@ var schemeData =
           "label": "Sites",
           "x": 128036,
           "y": -90,
-          "id": "indx1_2551",
+          "id": "index-a_235",
           "oldId": "75ff23b4-3d0f-4c06-8061-4069494a326f1471268270"
         },
-        "indx1_2552": {
+        "index-a_236": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44573,10 +44319,10 @@ var schemeData =
           "label": "Magazines",
           "x": 128055,
           "y": -65,
-          "id": "indx1_2552",
+          "id": "index-a_236",
           "oldId": "1bc92ea3-79ba-4d40-816c-35cedc1c74bf1471268270"
         },
-        "indx1_2553": {
+        "index-a_237": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44603,10 +44349,10 @@ var schemeData =
           "label": "Articles",
           "x": 128043,
           "y": -40,
-          "id": "indx1_2553",
+          "id": "index-a_237",
           "oldId": "2d9049d8-feaf-41cd-afb1-87515557983e1471268270"
         },
-        "indx1_2554": {
+        "index-a_238": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44633,10 +44379,10 @@ var schemeData =
           "label": "Media content",
           "x": 128065,
           "y": -15,
-          "id": "indx1_2554",
+          "id": "index-a_238",
           "oldId": "51a5b447-fa28-4997-80ca-b7a96a69ef9e1471268270"
         },
-        "indx1_2555": {
+        "index-a_239": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44663,10 +44409,10 @@ var schemeData =
           "label": "Misc. web links",
           "x": 128066,
           "y": 117,
-          "id": "indx1_2555",
+          "id": "index-a_239",
           "oldId": "8a139418-94d2-4121-94a4-dfsa26213d241471268270"
         },
-        "indx1_2556": {
+        "index-a_240": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44693,10 +44439,10 @@ var schemeData =
           "label": "Projects",
           "x": 128048,
           "y": 251,
-          "id": "indx1_2556",
+          "id": "index-a_240",
           "oldId": "76fc5be1-7bae-46ec-a649-1bc6509b378d1471268270"
         },
-        "indx1_2557": {
+        "index-a_241": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44723,10 +44469,10 @@ var schemeData =
           "label": "Tools",
           "x": 128039,
           "y": 276,
-          "id": "indx1_2557",
+          "id": "index-a_241",
           "oldId": "21dc8bf2-6e0c-42cf-b702-d47f24af173a1471268270"
         },
-        "indx1_2558": {
+        "index-a_242": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44753,10 +44499,10 @@ var schemeData =
           "label": "Organizations",
           "x": 128066,
           "y": 301,
-          "id": "indx1_2558",
+          "id": "index-a_242",
           "oldId": "1f9b98e7-ca75-443c-952d-a1d0ba4766521471268270"
         },
-        "indx1_2559": {
+        "index-a_243": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44783,10 +44529,10 @@ var schemeData =
           "label": "Standarts",
           "x": 128053,
           "y": 326,
-          "id": "indx1_2559",
+          "id": "index-a_243",
           "oldId": "f9c77b6e-13d7-4687-9d7f-e858e5cf56851471268270"
         },
-        "indx1_2560": {
+        "index-a_244": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44813,10 +44559,10 @@ var schemeData =
           "label": "Laws",
           "x": 128039,
           "y": 376,
-          "id": "indx1_2560",
+          "id": "index-a_244",
           "oldId": "f13fa072-1d46-45b2-b2b1-679177d88ba61471268270"
         },
-        "indx1_2561": {
+        "index-a_245": {
           "color": {
             "highlight": {},
             "hover": {}
@@ -44843,10 +44589,10 @@ var schemeData =
           "label": "Adjacent Themes",
           "x": 128078,
           "y": 401,
-          "id": "indx1_2561",
+          "id": "index-a_245",
           "oldId": "ab382182-58b3-4799-ad70-5340f6f6e88d1471268270"
         },
-        "indx1_2562": {
+        "index-a_246": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44874,7 +44620,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Details, thoughts",
-          "id": "indx1_2562",
+          "id": "index-a_246",
           "x": 127984,
           "y": -248,
           "shape": "box",
@@ -44882,7 +44628,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278270"
         },
-        "indx1_2563": {
+        "index-a_247": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44910,7 +44656,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Questions",
-          "id": "indx1_2563",
+          "id": "index-a_247",
           "x": 127820,
           "y": 506,
           "shape": "box",
@@ -44918,7 +44664,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1677768270"
         },
-        "indx1_2564": {
+        "index-a_248": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44946,7 +44692,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Problems",
-          "id": "indx1_2564",
+          "id": "index-a_248",
           "x": 127818,
           "y": 602,
           "shape": "box",
@@ -44954,7 +44700,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1678r5t270"
         },
-        "indx1_2565": {
+        "index-a_249": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -44982,7 +44728,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Goals",
-          "id": "indx1_2565",
+          "id": "index-a_249",
           "x": 127807,
           "y": 696,
           "shape": "box",
@@ -44990,7 +44736,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1678678270"
         },
-        "indx1_2566": {
+        "index-a_250": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45018,7 +44764,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Development",
-          "id": "indx1_2566",
+          "id": "index-a_250",
           "x": 127830,
           "y": 821,
           "shape": "box",
@@ -45026,7 +44772,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1677djk270"
         },
-        "indx1_2567": {
+        "index-a_251": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45054,7 +44800,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "id": "indx1_2567",
+          "id": "index-a_251",
           "x": 128116,
           "y": 821,
           "shape": "box",
@@ -45062,7 +44808,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a167558270"
         },
-        "indx1_2568": {
+        "index-a_252": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45090,7 +44836,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Notes",
-          "id": "indx1_2568",
+          "id": "index-a_252",
           "x": 127805,
           "y": -242,
           "shape": "box",
@@ -45098,7 +44844,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270"
         },
-        "indx1_2569": {
+        "index-a_253": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45126,7 +44872,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Sections",
-          "id": "indx1_2569",
+          "id": "index-a_253",
           "x": 127958,
           "y": 128,
           "shape": "box",
@@ -45134,7 +44880,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278628270"
         },
-        "indx1_2570": {
+        "index-a_254": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45162,7 +44908,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "6/19/2020",
-          "id": "indx1_2570",
+          "id": "index-a_254",
           "x": 127969,
           "y": 825,
           "shape": "box",
@@ -45170,7 +44916,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a167227862278270"
         },
-        "indx1_2571": {
+        "index-a_255": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45198,7 +44944,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "mm-vis-js pages list",
-          "id": "indx1_2571",
+          "id": "index-a_255",
           "x": 127350,
           "y": 353,
           "shape": "box",
@@ -45206,7 +44952,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278621468270"
         },
-        "indx1_2572": {
+        "index-a_256": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45234,7 +44980,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Books",
-          "id": "indx1_2572",
+          "id": "index-a_256",
           "x": 128040,
           "y": -140,
           "shape": "box",
@@ -45242,7 +44988,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a167227862958270"
         },
-        "indx1_2573": {
+        "index-a_257": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45270,7 +45016,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Forums, Groups",
-          "id": "indx1_2573",
+          "id": "index-a_257",
           "x": 128074,
           "y": 351,
           "shape": "box",
@@ -45278,7 +45024,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "1376bcb3-aff5-472c-b93a-4e636983a1672278624278270"
         },
-        "indx1_2574": {
+        "index-a_258": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45306,7 +45052,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
-          "id": "indx1_2574",
+          "id": "index-a_258",
           "x": 127971,
           "y": -988,
           "shape": "box",
@@ -45314,7 +45060,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         },
-        "indx1_2575": {
+        "index-a_259": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45342,7 +45088,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "some link",
-          "id": "indx1_2575",
+          "id": "index-a_259",
           "x": 128364,
           "y": 114,
           "shape": "box",
@@ -45350,7 +45096,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aky1163f-fc2b-4f9c-a767-e2e19d8bd93b5330521"
         },
-        "indx1_2576": {
+        "index-a_260": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45379,7 +45125,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/4833480/have-i-reached-the-limits-of-the-size-of-objects-javascript-in-my-browser-can-ha?noredirect=1&lq=1",
-          "id": "indx1_2576",
+          "id": "index-a_260",
           "x": 128572,
           "y": -989,
           "shape": "box",
@@ -45387,7 +45133,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         },
-        "indx1_2577": {
+        "index-a_261": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45416,7 +45162,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/1262376/is-there-a-limit-on-how-much-json-can-hold?noredirect=1&lq=1",
-          "id": "indx1_2577",
+          "id": "index-a_261",
           "x": 128455,
           "y": -946,
           "shape": "box",
@@ -45424,7 +45170,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         },
-        "indx1_2578": {
+        "index-a_262": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45453,7 +45199,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/8553939/how-to-store-large-amount-of-data-in-javascript?noredirect=1&lq=1",
-          "id": "indx1_2578",
+          "id": "index-a_262",
           "x": 128469,
           "y": -905,
           "shape": "box",
@@ -45461,7 +45207,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         },
-        "indx1_2579": {
+        "index-a_263": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45490,7 +45236,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/2936782/javascript-memory-limit",
-          "id": "indx1_2579",
+          "id": "index-a_263",
           "x": 128330,
           "y": -861,
           "shape": "box",
@@ -45498,28 +45244,28 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         },
-        "indx1_2580": {
-          "id": "indx1_2580",
+        "index-a_264": {
+          "id": "index-a_264",
           "label": "In Chrome and Chromium OS",
           "link": "",
           "x": 128211,
           "y": -1088
         },
-        "indx1_2581": {
-          "id": "indx1_2581",
+        "index-a_265": {
+          "id": "index-a_265",
           "label": "Developer Tools command-line by hitting F12",
           "link": "",
           "x": 128536,
           "y": -1092
         },
-        "indx1_2582": {
-          "id": "indx1_2582",
+        "index-a_266": {
+          "id": "index-a_266",
           "label": "> window.performance.memory.jsHeapSizeLimit",
           "link": "",
           "x": 128876,
           "y": -1094
         },
-        "indx1_2583": {
+        "index-a_267": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45548,7 +45294,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "https://trackjs.com/blog/monitoring-javascript-memory/",
-          "id": "indx1_2583",
+          "id": "index-a_267",
           "x": 128284,
           "y": -815,
           "shape": "box",
@@ -45556,7 +45302,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         },
-        "indx1_2584": {
+        "index-a_268": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45585,7 +45331,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Max JSON data size",
-          "id": "indx1_2584",
+          "id": "index-a_268",
           "x": 128177,
           "y": -735,
           "shape": "box",
@@ -45593,7 +45339,7 @@ var schemeData =
           "borderWidth": "0",
           "oldId": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330"
         },
-        "indx1_2585": {
+        "index-a_269": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -45622,7 +45368,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "Max JS file",
-          "id": "indx1_2585",
+          "id": "index-a_269",
           "x": 128147,
           "y": -692,
           "shape": "box",
@@ -45660,7 +45406,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/RDFLib",
           "x": 94931,
-          "y": 17934,
+          "y": 18952,
           "id": "indx1_2586",
           "oldId": "indx1_560",
           "shape": "box",
@@ -45697,7 +45443,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/linkeddata/rdflib.js/",
           "x": 94936,
-          "y": 17964,
+          "y": 18982,
           "id": "indx1_2587",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -45734,7 +45480,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://linkeddata.github.io/rdflib.js/doc/",
           "x": 94942,
-          "y": 17994,
+          "y": 19012,
           "id": "indx1_2588",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -45771,7 +45517,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://linkeddata.github.io/rdflib.js/Documentation/webapp-intro.html",
           "x": 95035,
-          "y": 18024,
+          "y": 19042,
           "id": "indx1_2589",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -45808,7 +45554,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/solid/solid-tutorial-rdflib.js",
           "x": 94957,
-          "y": 18054,
+          "y": 19072,
           "id": "indx1_2590",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -45845,7 +45591,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.w3.org/community/rdfjs/wiki/Comparison_of_RDFJS_libraries",
           "x": 95050,
-          "y": 18084,
+          "y": 19102,
           "id": "indx1_2591",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -45882,7 +45628,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "SPARQL",
           "x": 94846,
-          "y": 18114,
+          "y": 19132,
           "id": "indx1_2592",
           "oldId": "indx1_2591",
           "shape": "box",
@@ -45919,7 +45665,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/linkeddata/rdflib.js/issues/160",
           "x": 95090,
-          "y": 18114,
+          "y": 19132,
           "id": "indx1_2593",
           "oldId": "indx1_2591",
           "shape": "box",
@@ -45956,7 +45702,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/linkeddata/rdflib.js/issues/75",
           "x": 94966,
-          "y": 18147,
+          "y": 19165,
           "id": "indx1_2594",
           "oldId": "indx1_2591",
           "shape": "box",
@@ -45993,7 +45739,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Install",
           "x": 94747,
-          "y": 17349,
+          "y": 18367,
           "id": "indx1_2595",
           "shape": "box",
           "link": "",
@@ -46030,7 +45776,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "npm install rdflib solid-auth-client solid-auth-cli",
           "x": 94966,
-          "y": 17349,
+          "y": 18367,
           "id": "indx1_2596",
           "shape": "box",
           "link": "",
@@ -46066,7 +45812,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94778,
-          "y": 17541,
+          "y": 18559,
           "id": "indx1_2597",
           "shape": "box",
           "link": "",
@@ -46102,7 +45848,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94778,
-          "y": 17571,
+          "y": 18589,
           "id": "indx1_2598",
           "shape": "box",
           "link": "",
@@ -46138,7 +45884,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94778,
-          "y": 17601,
+          "y": 18619,
           "id": "indx1_2599",
           "shape": "box",
           "link": "",
@@ -46185,7 +45931,7 @@ var schemeData =
           "label": "string.endsWith(searchvalue, length)",
           "link": "",
           "x": 118763,
-          "y": 8517,
+          "y": 9191,
           "id": "indx1_2600",
           "shape": "box",
           "borderWidth": "",
@@ -46231,7 +45977,7 @@ var schemeData =
           "label": "String ends with",
           "link": "",
           "x": 118463,
-          "y": 8518,
+          "y": 9192,
           "id": "indx1_2601",
           "shape": "box",
           "borderWidth": "",
@@ -46277,7 +46023,7 @@ var schemeData =
           "label": "The endsWith() method determines whether a string ends with the characters of a specified string.",
           "link": "",
           "x": 119279,
-          "y": 8486,
+          "y": 9160,
           "id": "indx1_2602",
           "shape": "box",
           "borderWidth": "",
@@ -46323,7 +46069,7 @@ var schemeData =
           "label": "This method returns true if the string ends with the characters, and false if not.",
           "link": "",
           "x": 119216,
-          "y": 8516,
+          "y": 9190,
           "id": "indx1_2603",
           "shape": "box",
           "borderWidth": "",
@@ -46369,7 +46115,7 @@ var schemeData =
           "label": "The endsWith() method is case sensitive.",
           "link": "",
           "x": 119099,
-          "y": 8546,
+          "y": 9220,
           "id": "indx1_2604",
           "shape": "box",
           "borderWidth": "",
@@ -46415,7 +46161,7 @@ var schemeData =
           "label": "length - Optional. Specify the length of the string to search. If omitted, the default value is the length of the string",
           "link": "",
           "x": 119322,
-          "y": 8576,
+          "y": 9250,
           "id": "indx1_2605",
           "shape": "box",
           "borderWidth": "",
@@ -46451,7 +46197,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "node-fetch",
           "x": 94044,
-          "y": 24281,
+          "y": 25299,
           "id": "indx1_2606",
           "oldId": "indx1_586",
           "shape": "box",
@@ -46488,7 +46234,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.npmjs.com/package/node-fetch",
           "x": 94398,
-          "y": 24277,
+          "y": 25295,
           "id": "indx1_2607",
           "oldId": "indx1_2606",
           "shape": "box",
@@ -46525,7 +46271,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://hackersandslackers.com/making-api-requests-with-nodejs/",
           "x": 94468,
-          "y": 24307,
+          "y": 25325,
           "id": "indx1_2608",
           "oldId": "indx1_2606",
           "shape": "box",
@@ -46562,7 +46308,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "A light-weight module that brings window.fetch to Node.js",
           "x": 94440,
-          "y": 24248,
+          "y": 25266,
           "id": "indx1_2609",
           "oldId": "indx1_2608",
           "shape": "box",
@@ -46597,7 +46343,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Fetch API",
           "x": 117970,
-          "y": 30888,
+          "y": 31562,
           "id": "indx1_2610",
           "oldId": "indx1_1786",
           "shape": "box",
@@ -46634,7 +46380,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
           "x": 118244,
-          "y": 30888,
+          "y": 31562,
           "id": "indx1_2611",
           "oldId": "indx1_2610",
           "shape": "box",
@@ -46671,7 +46417,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "DOM manipulations or XHR",
           "x": 93951,
-          "y": 25274,
+          "y": 26292,
           "id": "indx1_2612",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -46708,7 +46454,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Like browser DOMParser",
           "x": 94197,
-          "y": 25167,
+          "y": 26185,
           "id": "indx1_2613",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -46745,7 +46491,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/11398419/trying-to-use-the-domparser-with-node-js",
           "x": 94396,
-          "y": 25195,
+          "y": 26213,
           "id": "indx1_2614",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -46782,7 +46528,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "jsdom",
           "x": 94136,
-          "y": 25270,
+          "y": 26288,
           "id": "indx1_2615",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -46819,7 +46565,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.npmjs.com/package/jsdom",
           "x": 94358,
-          "y": 25246,
+          "y": 26264,
           "id": "indx1_2616",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -46856,7 +46602,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "const jsdom = require(\"jsdom\");\nconst dom = new jsdom.JSDOM(`<!DOCTYPE html><p>Hello world</p>`);\ndom.window.document.querySelector(\"p\").textContent; // 'Hello world'",
           "x": 94468,
-          "y": 25291,
+          "y": 26309,
           "id": "indx1_2617",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -46893,7 +46639,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "xmldom",
           "x": 94145,
-          "y": 25388,
+          "y": 26406,
           "id": "indx1_2618",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -46930,7 +46676,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/jindw/xmldom",
           "x": 94336,
-          "y": 25372,
+          "y": 26390,
           "id": "indx1_2619",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -46967,7 +46713,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "XPath",
           "x": 93885,
-          "y": 25489,
+          "y": 26507,
           "id": "indx1_2620",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -47004,7 +46750,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.npmjs.com/package/xpath",
           "x": 94358,
-          "y": 25494,
+          "y": 26512,
           "id": "indx1_2621",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -47041,7 +46787,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "xpath",
           "x": 94137,
-          "y": 25492,
+          "y": 26510,
           "id": "indx1_2622",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -47354,7 +47100,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "npm",
           "x": 94003,
-          "y": 21641,
+          "y": 22659,
           "id": "indx1_2629",
           "oldId": "indx1_2606",
           "shape": "box",
@@ -47391,7 +47137,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "--save",
           "x": 94173,
-          "y": 21626,
+          "y": 22644,
           "id": "indx1_2630",
           "oldId": "indx1_2629",
           "shape": "box",
@@ -47428,7 +47174,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-install",
           "x": 94544,
-          "y": 21621,
+          "y": 22639,
           "id": "indx1_2631",
           "oldId": "indx1_2629",
           "shape": "box",
@@ -47465,7 +47211,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.npmjs.com/",
           "x": 94227,
-          "y": 21575,
+          "y": 22593,
           "id": "indx1_2632",
           "oldId": "indx1_2629",
           "shape": "box",
@@ -47502,7 +47248,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Date",
           "x": 94004,
-          "y": 21791,
+          "y": 22809,
           "id": "indx1_2633",
           "oldId": "indx1_2629",
           "shape": "box",
@@ -47539,7 +47285,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "moment",
           "x": 94179,
-          "y": 21760,
+          "y": 22778,
           "id": "indx1_2634",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -47576,7 +47322,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Check in main Date scheme",
           "x": 94390,
-          "y": 21752,
+          "y": 22770,
           "id": "indx1_2635",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -47613,7 +47359,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "npm install moment",
           "x": 94363,
-          "y": 21783,
+          "y": 22801,
           "id": "indx1_2636",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -47650,7 +47396,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "moment.js - for browser and nodejs",
           "x": 94413,
-          "y": 21723,
+          "y": 22741,
           "id": "indx1_2637",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -47687,7 +47433,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://momentjs.com/",
           "x": 94371,
-          "y": 21696,
+          "y": 22714,
           "id": "indx1_2638",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -47761,7 +47507,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "var moment = require('moment'); // require\n\nmoment().format(); ",
           "x": 94437,
-          "y": 21836,
+          "y": 22854,
           "id": "indx1_2640",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -48286,114 +48032,6 @@ var schemeData =
           "link": "",
           "borderWidth": ""
         },
-        "indx1_2655": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "compare dates using momentjs",
-          "x": 119366,
-          "y": -4355,
-          "id": "indx1_2655",
-          "oldId": "indx1_2648",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "indx1_2656": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "compare dates using momentjs",
-          "x": 119366,
-          "y": -4325,
-          "id": "indx1_2656",
-          "oldId": "indx1_2648",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
-        "indx1_2657": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570"
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "compare dates using momentjs",
-          "x": 119366,
-          "y": -4295,
-          "id": "indx1_2657",
-          "oldId": "indx1_2648",
-          "shape": "box",
-          "link": "",
-          "borderWidth": ""
-        },
         "indx1_2658": {
           "color": {
             "highlight": {},
@@ -48460,7 +48098,7 @@ var schemeData =
           "label": "Ignore namespaces",
           "link": "",
           "x": 94657,
-          "y": 35719,
+          "y": 36737,
           "id": "indx1_2659",
           "oldId": "indx1_2417",
           "shape": "box",
@@ -48497,7 +48135,7 @@ var schemeData =
           "label": "//*[local-name()='someTag']",
           "link": "",
           "x": 94874,
-          "y": 35721,
+          "y": 36739,
           "id": "indx1_2660",
           "oldId": "indx1_2659",
           "shape": "box",
@@ -48534,7 +48172,7 @@ var schemeData =
           "label": "Before - //someTag",
           "link": "",
           "x": 95067,
-          "y": 35721,
+          "y": 36739,
           "id": "indx1_2661",
           "oldId": "indx1_2660",
           "shape": "box",
@@ -48570,7 +48208,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Namespaces",
           "x": 94465,
-          "y": 35667,
+          "y": 36685,
           "id": "indx1_2662",
           "oldId": "indx1_2622",
           "shape": "box",
@@ -48607,7 +48245,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://timnew.me/blog/2012/10/25/pitfall-in-nokogiri-xpath-and-namespace/",
           "x": 94833,
-          "y": 35616,
+          "y": 36634,
           "id": "indx1_2663",
           "oldId": "indx1_2622",
           "shape": "box",
@@ -48644,7 +48282,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/51044558/nodejs-xpath-select-expressions",
           "x": 94845,
-          "y": 35643,
+          "y": 36661,
           "id": "indx1_2664",
           "oldId": "indx1_2622",
           "shape": "box",
@@ -48680,7 +48318,7 @@ var schemeData =
           "label": "var a = \"line1\" +\n\"line2\" +\n\"line3\";",
           "id": "indx1_2665",
           "x": 118700,
-          "y": 8987,
+          "y": 9661,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -48714,7 +48352,7 @@ var schemeData =
           "label": "Also usable",
           "id": "indx1_2666",
           "x": 118832,
-          "y": 8985,
+          "y": 9659,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -48748,7 +48386,7 @@ var schemeData =
           "label": "function chunk(arr, chunkSize) {\n  var chunksList = [];\n  for (var i=0,len=arr.length; i<len; i+=chunkSize)\n    chunksList.push(arr.slice(i,i+chunkSize));\n  return chunksList;\n}",
           "id": "indx1_2667",
           "x": 118963,
-          "y": 539,
+          "y": 755,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -48783,7 +48421,7 @@ var schemeData =
           "label": "Split in chunks",
           "id": "indx1_2668",
           "x": 118583,
-          "y": 537,
+          "y": 753,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -48829,7 +48467,7 @@ var schemeData =
           "label": "typeof",
           "link": "",
           "x": 118377,
-          "y": 2933,
+          "y": 3607,
           "id": "indx1_1297c0",
           "oldId": "indx1_1297",
           "shape": "box",
@@ -48875,7 +48513,7 @@ var schemeData =
           "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
           "x": 118810,
-          "y": 2852,
+          "y": 3526,
           "id": "indx1_1297c1",
           "oldId": "indx1_1297",
           "shape": "box",
@@ -48918,10 +48556,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "console.log(typeof 42);\n// expected output: \"number\"\n\nconsole.log(typeof 'blubber');\n// expected output: \"string\"\n\nconsole.log(typeof true);\n// expected output: \"boolean\"\n\nconsole.log(typeof undeclaredVariable);\n// expected output: \"undefined\"",
+          "label": "console.log(typeof 42);\n// expected output: \"number\"\n\nconsole.log(typeof 'blubber');\n// expected output: \"string\"\n\nconsole.log(typeof true);\n// expected output: \"boolean\"\n\nconsole.log(typeof undeclaredVariable);\n// expected output: \"undefined\"\n\n//\"object\"",
           "link": "",
           "x": 118665,
-          "y": 2961,
+          "y": 3635,
           "id": "indx1_1297c2",
           "oldId": "indx1_1297",
           "shape": "box",
@@ -48967,7 +48605,7 @@ var schemeData =
           "label": "instanceof",
           "link": "",
           "x": 118390,
-          "y": 3181,
+          "y": 3855,
           "id": "indx1_1297c4",
           "oldId": "indx1_1297",
           "shape": "box",
@@ -49013,7 +48651,7 @@ var schemeData =
           "label": "function Car(make, model, year) {\n  this.make = make;\n  this.model = model;\n  this.year = year;\n}\nconst auto = new Car('Honda', 'Accord', 1998);\n\nconsole.log(auto instanceof Car);\n// expected output: true\n\nconsole.log(auto instanceof Object);\n// expected output: true",
           "link": "",
           "x": 118687,
-          "y": 3206,
+          "y": 3880,
           "id": "indx1_1297c5",
           "oldId": "indx1_1297",
           "shape": "box",
@@ -49059,7 +48697,7 @@ var schemeData =
           "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof",
           "x": 118823,
-          "y": 3085,
+          "y": 3759,
           "id": "indx1_1297c6",
           "oldId": "indx1_1297",
           "shape": "box",
@@ -49095,7 +48733,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "var doc = new dom().parseFromString(data);",
           "x": 94377,
-          "y": 25415,
+          "y": 26433,
           "id": "indx1_2619c0",
           "oldId": "indx1_2619",
           "shape": "box",
@@ -49132,7 +48770,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "parseFromString(data, 'text/html')",
           "x": 94663,
-          "y": 25402,
+          "y": 26420,
           "id": "indx1_2619c1",
           "oldId": "indx1_2619",
           "shape": "box",
@@ -49169,7 +48807,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "parseFromString(data, 'text/xml')",
           "x": 94661,
-          "y": 25432,
+          "y": 26450,
           "id": "indx1_2619c1c0",
           "oldId": "indx1_2619c1",
           "shape": "box",
@@ -49207,7 +48845,7 @@ var schemeData =
           "label": "Proper way to catch exception from JSON.parse",
           "id": "indx1_557c0",
           "x": 118733,
-          "y": 23866,
+          "y": 24540,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -49244,7 +48882,7 @@ var schemeData =
           "label": "https://stackoverflow.com/questions/4467044/proper-way-to-catch-exception-from-json-parse",
           "id": "indx1_557c0c0",
           "x": 119241,
-          "y": 23826,
+          "y": 24500,
           "shape": "box",
           "link": "https://stackoverflow.com/questions/4467044/proper-way-to-catch-exception-from-json-parse",
           "borderWidth": "",
@@ -49281,7 +48919,7 @@ var schemeData =
           "label": "    try {\n        a = JSON.parse(response);\n    } catch(e) {\n        alert(e); // error in the above string (in this case, yes)!\n    }",
           "id": "indx1_557c0c1",
           "x": 119131,
-          "y": 23895,
+          "y": 24569,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -49316,7 +48954,7 @@ var schemeData =
           "label": "return Promise.reject(\"getSavedNewsData. Error.\");",
           "id": "indx1_2369c2",
           "x": 94821,
-          "y": 29539,
+          "y": 30557,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -49351,7 +48989,7 @@ var schemeData =
           "label": "https://stackoverflow.com/questions/20714460/break-promise-chain-and-call-a-function-based-on-the-step-in-the-chain-where-it",
           "id": "indx1_2369c3",
           "x": 95062,
-          "y": 29498,
+          "y": 30516,
           "shape": "box",
           "link": "https://stackoverflow.com/questions/20714460/break-promise-chain-and-call-a-function-based-on-the-step-in-the-chain-where-it",
           "borderWidth": "",
@@ -49386,7 +49024,7 @@ var schemeData =
           "label": "Break promise chain",
           "id": "indx1_2369c4",
           "x": 94485,
-          "y": 29525,
+          "y": 30543,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -49417,7 +49055,7 @@ var schemeData =
           "label": "Object.keys(object)",
           "id": "indx1_460659",
           "x": 118419,
-          "y": 3336
+          "y": 4010
         },
         "indx1_461659": {
           "color": {
@@ -49457,7 +49095,7 @@ var schemeData =
           "label": "list of fields",
           "link": "",
           "x": 118593,
-          "y": 3335,
+          "y": 4009,
           "id": "indx1_461659"
         },
         "indx1_462659": {
@@ -49498,7 +49136,7 @@ var schemeData =
           "label": "array of a given object's own property names, in the same order as we get with a normal loop",
           "link": "",
           "x": 118997,
-          "y": 3335,
+          "y": 4009,
           "id": "indx1_462659"
         },
         "indx1_1837c0": {
@@ -49567,7 +49205,7 @@ var schemeData =
           "label": "new Promise(function(resolve, reject) {\n  setTimeout(() => resolve(1), 1000);\n}).then(function(result) {\n  alert(result); // 1\n  return new Promise((resolve, reject) => { // (*)\n    setTimeout(() => resolve(result * 2), 1000);\n  });\n}).then(function(result) { // (**)\n  alert(result); // 2\n  return new Promise((resolve, reject) => {\n    setTimeout(() => resolve(result * 2), 1000);\n  });\n}).then(function(result) {\n  alert(result); // 4\n});",
           "id": "indx1_2369c2c0",
           "x": 94806,
-          "y": 29756,
+          "y": 30774,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -49604,7 +49242,7 @@ var schemeData =
           "label": "Make chain",
           "id": "indx1_2369c2c1",
           "x": 94457,
-          "y": 29741,
+          "y": 30759,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -49613,31 +49251,31 @@ var schemeData =
         "indx1_8125": {
           "id": "indx1_8125",
           "x": 119028,
-          "y": 5408,
+          "y": 6082,
           "label": "A space character\nA tab character\nA carriage return character\nA new line character\nA vertical tab character\nA form feed character"
         },
         "indx1_8126": {
           "id": "indx1_8126",
           "x": 118682,
-          "y": 6021,
+          "y": 6695,
           "label": "Brackets"
         },
         "indx1_8127": {
           "id": "indx1_8127",
           "x": 118689,
-          "y": 6247,
+          "y": 6921,
           "label": "Quantifiers"
         },
         "indx1_8128": {
           "id": "indx1_8128",
           "x": 118687,
-          "y": 6513,
+          "y": 7187,
           "label": "RegExp\nObject\nProperties"
         },
         "indx1_8129": {
           "id": "indx1_8129",
           "x": 118682,
-          "y": 6707,
+          "y": 7381,
           "label": "RegExp\nObject\nMethods"
         },
         "indx1_8130": {
@@ -49645,594 +49283,1140 @@ var schemeData =
           "label": ".",
           "link": "",
           "x": 118819,
-          "y": 5484
+          "y": 6158
         },
         "indx1_8131": {
           "id": "indx1_8131",
           "label": "Find a single character, except newline or line terminator",
           "link": "",
           "x": 119122,
-          "y": 5485
+          "y": 6159
         },
         "indx1_8132": {
           "id": "indx1_8132",
           "label": "\\w",
           "link": "",
           "x": 118824,
-          "y": 5509
+          "y": 6183
         },
         "indx1_8133": {
           "id": "indx1_8133",
           "label": "Find a word character",
           "link": "",
           "x": 119012,
-          "y": 5510
+          "y": 6184
         },
         "indx1_8134": {
           "id": "indx1_8134",
           "label": "\\W",
           "link": "",
           "x": 118826,
-          "y": 5534
+          "y": 6208
         },
         "indx1_8135": {
           "id": "indx1_8135",
           "label": "Find a non-word character",
           "link": "",
           "x": 119027,
-          "y": 5535
+          "y": 6209
         },
         "indx1_8136": {
           "id": "indx1_8136",
           "label": "\\d",
           "link": "",
           "x": 118823,
-          "y": 5559
+          "y": 6233
         },
         "indx1_8137": {
           "id": "indx1_8137",
           "label": "Find a digit",
           "link": "",
           "x": 118978,
-          "y": 5560
+          "y": 6234
         },
         "indx1_8138": {
           "id": "indx1_8138",
           "label": "\\D",
           "link": "",
           "x": 118824,
-          "y": 5584
+          "y": 6258
         },
         "indx1_8139": {
           "id": "indx1_8139",
           "label": "Find a non-digit character",
           "link": "",
           "x": 119024,
-          "y": 5585
+          "y": 6259
         },
         "indx1_8140": {
           "id": "indx1_8140",
           "label": "\\S",
           "link": "",
           "x": 118824,
-          "y": 5609
+          "y": 6283
         },
         "indx1_8141": {
           "id": "indx1_8141",
           "label": "Find a non-whitespace character",
           "link": "",
           "x": 119047,
-          "y": 5610
+          "y": 6284
         },
         "indx1_8142": {
           "id": "indx1_8142",
           "label": "\\b",
           "link": "",
           "x": 118823,
-          "y": 5634
+          "y": 6308
         },
         "indx1_8143": {
           "id": "indx1_8143",
           "label": "Find a match at the beginning/end of a word, beginning like this: \\bHI, end like this: HI\\b",
           "link": "",
           "x": 119219,
-          "y": 5635
+          "y": 6309
         },
         "indx1_8144": {
           "id": "indx1_8144",
           "label": "\\B",
           "link": "",
           "x": 118824,
-          "y": 5659
+          "y": 6333
         },
         "indx1_8145": {
           "id": "indx1_8145",
           "label": "Find a match, but not at the beginning/end of a word",
           "link": "",
           "x": 119109,
-          "y": 5660
+          "y": 6334
         },
         "indx1_8146": {
           "id": "indx1_8146",
           "label": "\\0",
           "link": "",
           "x": 118823,
-          "y": 5684
+          "y": 6358
         },
         "indx1_8147": {
           "id": "indx1_8147",
           "label": "Find a NULL character",
           "link": "",
           "x": 119015,
-          "y": 5685
+          "y": 6359
         },
         "indx1_8148": {
           "id": "indx1_8148",
           "label": "\\n",
           "link": "",
           "x": 118823,
-          "y": 5709
+          "y": 6383
         },
         "indx1_8149": {
           "id": "indx1_8149",
           "label": "Find a new line character",
           "link": "",
           "x": 119023,
-          "y": 5710
+          "y": 6384
         },
         "indx1_8150": {
           "id": "indx1_8150",
           "label": "\\f",
           "link": "",
           "x": 118821,
-          "y": 5734
+          "y": 6408
         },
         "indx1_8151": {
           "id": "indx1_8151",
           "label": "Find a form feed character",
           "link": "",
           "x": 119027,
-          "y": 5735
+          "y": 6409
         },
         "indx1_8152": {
           "id": "indx1_8152",
           "label": "\\r",
           "link": "",
           "x": 118822,
-          "y": 5759
+          "y": 6433
         },
         "indx1_8153": {
           "id": "indx1_8153",
           "label": "Find a carriage return character",
           "link": "",
           "x": 119044,
-          "y": 5760
+          "y": 6434
         },
         "indx1_8154": {
           "id": "indx1_8154",
           "label": "\\t",
           "link": "",
           "x": 118821,
-          "y": 5784
+          "y": 6458
         },
         "indx1_8155": {
           "id": "indx1_8155",
           "label": "Find a tab character",
           "link": "",
           "x": 119007,
-          "y": 5785
+          "y": 6459
         },
         "indx1_8156": {
           "id": "indx1_8156",
           "label": "\\v",
           "link": "",
           "x": 118823,
-          "y": 5809
+          "y": 6483
         },
         "indx1_8157": {
           "id": "indx1_8157",
           "label": "Find a vertical tab character",
           "link": "",
           "x": 119031,
-          "y": 5810
+          "y": 6484
         },
         "indx1_8158": {
           "id": "indx1_8158",
           "label": "\\xxx",
           "link": "",
           "x": 118830,
-          "y": 5834
+          "y": 6508
         },
         "indx1_8159": {
           "id": "indx1_8159",
           "label": "Find the character specified by an octal number xxx",
           "link": "",
           "x": 119106,
-          "y": 5835
+          "y": 6509
         },
         "indx1_8160": {
           "id": "indx1_8160",
           "label": "\\xdd",
           "link": "",
           "x": 118831,
-          "y": 5859
+          "y": 6533
         },
         "indx1_8161": {
           "id": "indx1_8161",
           "label": "Find the character specified by a hexadecimal number dd",
           "link": "",
           "x": 119125,
-          "y": 5860
+          "y": 6534
         },
         "indx1_8162": {
           "id": "indx1_8162",
           "label": "\\udddd",
           "link": "",
           "x": 118839,
-          "y": 5899
+          "y": 6573
         },
         "indx1_8163": {
           "id": "indx1_8163",
           "label": "Find the Unicode character specified by a hexadecimal number dddd",
           "link": "",
           "x": 119161,
-          "y": 5885
+          "y": 6559
         },
         "indx1_8164": {
           "id": "indx1_8164",
           "label": "[abc]",
           "link": "",
           "x": 118833,
-          "y": 5979
+          "y": 6653
         },
         "indx1_8165": {
           "id": "indx1_8165",
           "label": "Find any character between the brackets",
           "link": "",
           "x": 119072,
-          "y": 5980
+          "y": 6654
         },
         "indx1_8166": {
           "id": "indx1_8166",
           "label": "[^abc]",
           "link": "",
           "x": 118836,
-          "y": 6004
+          "y": 6678
         },
         "indx1_8167": {
           "id": "indx1_8167",
           "label": "Find any character NOT between the brackets",
           "link": "",
           "x": 119089,
-          "y": 6005
+          "y": 6679
         },
         "indx1_8168": {
           "id": "indx1_8168",
           "label": "[0-9]",
           "link": "",
           "x": 118832,
-          "y": 6029
+          "y": 6703
         },
         "indx1_8169": {
           "id": "indx1_8169",
           "label": "Find any character between the brackets (any digit)",
           "link": "",
           "x": 119106,
-          "y": 6030
+          "y": 6704
         },
         "indx1_8170": {
           "id": "indx1_8170",
           "label": "[^0-9]",
           "link": "",
           "x": 118835,
-          "y": 6054
+          "y": 6728
         },
         "indx1_8171": {
           "id": "indx1_8171",
           "label": "Find any character NOT between the brackets (any non-digit)",
           "link": "",
           "x": 119137,
-          "y": 6055
+          "y": 6729
         },
         "indx1_8172": {
           "id": "indx1_8172",
           "label": "(x|y)",
           "link": "",
           "x": 118831,
-          "y": 6079
+          "y": 6753
         },
         "indx1_8173": {
           "id": "indx1_8173",
           "label": "Find any of the alternatives specified",
           "link": "",
           "x": 119059,
-          "y": 6080
+          "y": 6754
         },
         "indx1_8174": {
           "id": "indx1_8174",
           "label": "n+",
           "link": "",
           "x": 118825,
-          "y": 6141
+          "y": 6815
         },
         "indx1_8175": {
           "id": "indx1_8175",
           "label": "Matches any string that contains at least one n",
           "link": "",
           "x": 119090,
-          "y": 6141
+          "y": 6815
         },
         "indx1_8176": {
           "id": "indx1_8176",
           "label": "n*",
           "link": "",
           "x": 118824,
-          "y": 6166
+          "y": 6840
         },
         "indx1_8177": {
           "id": "indx1_8177",
           "label": "Matches any string that contains zero or more occurrences of n",
           "link": "",
           "x": 119143,
-          "y": 6166
+          "y": 6840
         },
         "indx1_8178": {
           "id": "indx1_8178",
           "label": "n?",
           "link": "",
           "x": 118825,
-          "y": 6191
+          "y": 6865
         },
         "indx1_8179": {
           "id": "indx1_8179",
           "label": "Matches any string that contains zero or one occurrences of n",
           "link": "",
           "x": 119139,
-          "y": 6191
+          "y": 6865
         },
         "indx1_8180": {
           "id": "indx1_8180",
           "label": "n{X}",
           "link": "",
           "x": 118831,
-          "y": 6216
+          "y": 6890
         },
         "indx1_8181": {
           "id": "indx1_8181",
           "label": "Matches any string that contains a sequence of X n's",
           "link": "",
           "x": 119110,
-          "y": 6216
+          "y": 6890
         },
         "indx1_8182": {
           "id": "indx1_8182",
           "label": "n{X,Y}",
           "link": "",
           "x": 118837,
-          "y": 6241
+          "y": 6915
         },
         "indx1_8183": {
           "id": "indx1_8183",
           "label": "Matches any string that contains a sequence of X to Y n's",
           "link": "",
           "x": 119124,
-          "y": 6241
+          "y": 6915
         },
         "indx1_8184": {
           "id": "indx1_8184",
           "label": "n{X,}",
           "link": "",
           "x": 118833,
-          "y": 6266
+          "y": 6940
         },
         "indx1_8185": {
           "id": "indx1_8185",
           "label": "Matches any string that contains a sequence of at least X n's",
           "link": "",
           "x": 119135,
-          "y": 6266
+          "y": 6940
         },
         "indx1_8186": {
           "id": "indx1_8186",
           "label": "n$",
           "link": "",
           "x": 118825,
-          "y": 6291
+          "y": 6965
         },
         "indx1_8187": {
           "id": "indx1_8187",
           "label": "Matches any string with n at the end of it",
           "link": "",
           "x": 119071,
-          "y": 6291
+          "y": 6965
         },
         "indx1_8188": {
           "id": "indx1_8188",
           "label": "^n",
           "link": "",
           "x": 118825,
-          "y": 6316
+          "y": 6990
         },
         "indx1_8189": {
           "id": "indx1_8189",
           "label": "Matches any string with n at the beginning of it",
           "link": "",
           "x": 119090,
-          "y": 6316
+          "y": 6990
         },
         "indx1_8190": {
           "id": "indx1_8190",
           "label": "?=n",
           "link": "",
           "x": 118829,
-          "y": 6341
+          "y": 7015
         },
         "indx1_8191": {
           "id": "indx1_8191",
           "label": "Matches any string that is followed by a specific string n",
           "link": "",
           "x": 119118,
-          "y": 6341
+          "y": 7015
         },
         "indx1_8192": {
           "id": "indx1_8192",
           "label": "?!n",
           "link": "",
           "x": 118827,
-          "y": 6366
+          "y": 7040
         },
         "indx1_8193": {
           "id": "indx1_8193",
           "label": "Matches any string that is not followed by a specific string n",
           "link": "",
           "x": 119130,
-          "y": 6366
+          "y": 7040
         },
         "indx1_8194": {
           "id": "indx1_8194",
           "label": "constructor",
           "link": "",
           "x": 118853,
-          "y": 6450
+          "y": 7124
         },
         "indx1_8195": {
           "id": "indx1_8195",
           "label": "Returns the function that created the RegExp object's prototype",
           "link": "",
           "x": 119144,
-          "y": 6450
+          "y": 7124
         },
         "indx1_8196": {
           "id": "indx1_8196",
           "label": "global",
           "link": "",
           "x": 118836,
-          "y": 6475
+          "y": 7149
         },
         "indx1_8197": {
           "id": "indx1_8197",
           "label": "Checks whether the \"g\" modifier is set",
           "link": "",
           "x": 119063,
-          "y": 6475
+          "y": 7149
         },
         "indx1_8198": {
           "id": "indx1_8198",
           "label": "ignoreCase",
           "link": "",
           "x": 118854,
-          "y": 6500
+          "y": 7174
         },
         "indx1_8199": {
           "id": "indx1_8199",
           "label": "Checks whether the \"i\" modifier is set",
           "link": "",
           "x": 119060,
-          "y": 6500
+          "y": 7174
         },
         "indx1_8200": {
           "id": "indx1_8200",
           "label": "lastIndex",
           "link": "",
           "x": 118846,
-          "y": 6525
+          "y": 7199
         },
         "indx1_8201": {
           "id": "indx1_8201",
           "label": "Specifies the index at which to start the next match",
           "link": "",
           "x": 119103,
-          "y": 6525
+          "y": 7199
         },
         "indx1_8202": {
           "id": "indx1_8202",
           "label": "multiline",
           "link": "",
           "x": 118843,
-          "y": 6550
+          "y": 7224
         },
         "indx1_8203": {
           "id": "indx1_8203",
           "label": "Checks whether the \"m\" modifier is set",
           "link": "",
           "x": 119065,
-          "y": 6550
+          "y": 7224
         },
         "indx1_8204": {
           "id": "indx1_8204",
           "label": "source",
           "link": "",
           "x": 118839,
-          "y": 6575
+          "y": 7249
         },
         "indx1_8205": {
           "id": "indx1_8205",
           "label": "Returns the text of the RegExp pattern",
           "link": "",
           "x": 119065,
-          "y": 6575
+          "y": 7249
         },
         "indx1_8206": {
           "id": "indx1_8206",
           "label": "compile()",
           "link": "",
           "x": 118847,
-          "y": 6665
+          "y": 7339
         },
         "indx1_8207": {
           "id": "indx1_8207",
           "label": "Deprecated in version 1.5. Compiles a regular expression",
           "link": "",
           "x": 119125,
-          "y": 6667
+          "y": 7341
         },
         "indx1_8208": {
           "id": "indx1_8208",
           "label": "exec()",
           "link": "",
           "x": 118837,
-          "y": 6690
+          "y": 7364
         },
         "indx1_8209": {
           "id": "indx1_8209",
           "label": "Tests for a match in a string. Returns the first match",
           "link": "",
           "x": 119107,
-          "y": 6692
+          "y": 7366
         },
         "indx1_8210": {
           "id": "indx1_8210",
           "label": "test()",
           "link": "",
           "x": 118834,
-          "y": 6715
+          "y": 7389
         },
         "indx1_8211": {
           "id": "indx1_8211",
           "label": "Tests for a match in a string. Returns true or false",
           "link": "",
           "x": 119100,
-          "y": 6717
+          "y": 7391
         },
         "indx1_8212": {
           "id": "indx1_8212",
           "label": "toString()",
           "link": "",
           "x": 118847,
-          "y": 6740
+          "y": 7414
         },
         "indx1_8213": {
           "id": "indx1_8213",
           "label": "Returns the string value of the regular expression",
           "link": "",
           "x": 119099,
-          "y": 6742
+          "y": 7416
         },
         "indx1_8214": {
           "id": "indx1_8214",
           "x": 118991,
-          "y": 5915,
+          "y": 6589,
           "label": "\\u0020 - space"
+        },
+        "indx1_8394": {
+          "id": "indx1_8394",
+          "x": 106571,
+          "y": -8774,
+          "label": "backspace           8\ntab                 9\nenter               13\nshift               16\nctrl                17\nalt                 18\npause/break         19\ncaps lock           20\nescape              27\npage up             33\npage down           34\nend                 35\nhome                36\nleft arrow          37\nup arrow            38\nright arrow         39\ndown arrow          40\ninsert              45\ndelete              46\n0                   48\n1                   49\n2                   50\n3                   51\n4                   52\n5                   53\n6                   54\n7                   55\n8                   56\n9                   57\na                   65\nb                   66\nc                   67\nd                   68\ne                   69\nf                   70\ng                   71\nh                   72\ni                   73\nj                   74\nk                   75\nl                   76\nm                   77\nn                   78\no                   79\np                   80\nq                   81\nr                   82\ns                   83\nt                   84\nu                   85\nv                   86\nw                   87\nx                   88\ny                   89\nz                   90\nleft window key     91\nright window key    92\nselect key          93\nnumpad 0            96\nnumpad 1            97\nnumpad 2            98\nnumpad 3            99\nnumpad 4            100\nnumpad 5            101\nnumpad 6            102\nnumpad 7            103\nnumpad 8            104\nnumpad 9            105\nmultiply            106\nadd                 107\nsubtract            109\ndecimal point       110\ndivide              111\nf1                  112\nf2                  113\nf3                  114\nf4                  115\nf5                  116\nf6                  117\nf7                  118\nf8                  119\nf9                  120\nf10                 121\nf11                 122\nf12                 123\nnum lock            144\nscroll lock         145\nsemi-colon          186\nequal sign          187\ncomma               188\ndash                189\nperiod              190\nforward slash       191\ngrave accent        192\nopen bracket        219\nback slash          220\nclose braket        221\nsingle quote        222"
+        },
+        "indx1_8395": {
+          "id": "indx1_8395",
+          "x": 94214,
+          "y": 3154,
+          "label": "css"
+        },
+        "indx1_8396": {
+          "id": "indx1_8396",
+          "x": 94388,
+          "y": 3161,
+          "label": "css(\"top\", \"500px\");"
+        },
+        "indx1_8397": {
+          "id": "indx1_8397",
+          "x": 94249,
+          "y": 1065,
+          "label": ".is(\":checked\")",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "indx1_8398": {
+          "id": "indx1_8398",
+          "x": 94457,
+          "y": 1065,
+          "label": "check checkbox is selected"
+        },
+        "indx1_8399": {
+          "id": "indx1_8399",
+          "x": 94284,
+          "y": 1278,
+          "label": "$(\".form-control\").focus();"
+        },
+        "indx1_8400": {
+          "id": "indx1_8400",
+          "x": 94531,
+          "y": 1278,
+          "label": "Define which element will get focus",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "indx1_8401": {
+          "id": "indx1_8401",
+          "x": 94258,
+          "y": 1133,
+          "label": "$(\"..\").is(\":focus\")"
+        },
+        "indx1_8402": {
+          "id": "indx1_8402",
+          "x": 94451,
+          "y": 1133,
+          "label": "check element is focused"
+        },
+        "indx2_8392": {
+          "id": "indx2_8392",
+          "x": 118739,
+          "y": 16730,
+          "label": "Copy"
+        },
+        "indx2_8393": {
+          "id": "indx2_8393",
+          "x": 118959,
+          "y": 16707,
+          "label": "primitives - value copied"
+        },
+        "indx2_8394": {
+          "id": "indx2_8394",
+          "x": 118993,
+          "y": 16749,
+          "label": "objects and functions - links copied"
+        },
+        "index-a_270": {
+          "label": "Data\ntypes",
+          "x": 127583,
+          "y": 3365,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "index-a_270",
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "index-a_271": {
+          "label": "Development",
+          "x": 127882,
+          "y": 3815,
+          "id": "index-a_271"
+        },
+        "index-a_272": {
+          "label": "11/12/2020",
+          "x": 128015,
+          "y": 3815,
+          "id": "index-a_272"
+        },
+        "index-a_273": {
+          "label": "init",
+          "x": 128132,
+          "y": 3815,
+          "id": "index-a_273"
+        },
+        "index-a_274": {
+          "label": "Notes",
+          "x": 127859,
+          "y": 2701,
+          "id": "index-a_274"
+        },
+        "index-a_275": {
+          "label": "Dictionary of\nconcepts",
+          "x": 128019,
+          "y": 2187,
+          "id": "index-a_275"
+        },
+        "index-a_276": {
+          "label": "Details, thoughts",
+          "x": 128032,
+          "y": 2701,
+          "id": "index-a_276"
+        },
+        "index-a_277": {
+          "label": "Sections",
+          "x": 128006,
+          "y": 3215,
+          "id": "index-a_277"
+        },
+        "index-a_278": {
+          "label": "Books",
+          "x": 128096,
+          "y": 2801,
+          "id": "index-a_278"
+        },
+        "index-a_279": {
+          "label": "R&D institutions",
+          "x": 128127,
+          "y": 2826,
+          "id": "index-a_279"
+        },
+        "index-a_280": {
+          "label": "Sites",
+          "x": 128092,
+          "y": 2851,
+          "id": "index-a_280"
+        },
+        "index-a_281": {
+          "label": "Magazines",
+          "x": 128111,
+          "y": 2876,
+          "id": "index-a_281"
+        },
+        "index-a_282": {
+          "label": "Articles",
+          "x": 128100,
+          "y": 2901,
+          "id": "index-a_282"
+        },
+        "index-a_283": {
+          "label": "Media content",
+          "x": 128122,
+          "y": 2926,
+          "id": "index-a_283"
+        },
+        "index-a_284": {
+          "label": "Misc. web links",
+          "x": 128124,
+          "y": 3093,
+          "id": "index-a_284"
+        },
+        "index-a_285": {
+          "label": "Projects",
+          "x": 128102,
+          "y": 3240,
+          "id": "index-a_285"
+        },
+        "index-a_286": {
+          "label": "Tools",
+          "x": 128094,
+          "y": 3265,
+          "id": "index-a_286"
+        },
+        "index-a_287": {
+          "label": "Organizations",
+          "x": 128121,
+          "y": 3290,
+          "id": "index-a_287"
+        },
+        "index-a_288": {
+          "label": "Standarts",
+          "x": 128107,
+          "y": 3315,
+          "id": "index-a_288"
+        },
+        "index-a_289": {
+          "label": "Forums, Groups",
+          "x": 128129,
+          "y": 3340,
+          "id": "index-a_289"
+        },
+        "index-a_290": {
+          "label": "Laws",
+          "x": 128093,
+          "y": 3365,
+          "id": "index-a_290"
+        },
+        "index-a_291": {
+          "label": "Adjacent Themes",
+          "x": 128132,
+          "y": 3390,
+          "id": "index-a_291"
+        },
+        "index-a_292": {
+          "label": "Questions",
+          "x": 127872,
+          "y": 3515,
+          "id": "index-a_292"
+        },
+        "index-a_293": {
+          "label": "Problems",
+          "x": 127870,
+          "y": 3615,
+          "id": "index-a_293"
+        },
+        "index-a_294": {
+          "label": "Goals",
+          "x": 127859,
+          "y": 3715,
+          "id": "index-a_294"
+        },
+        "index-a_295": {
+          "label": "Data\nstructures",
+          "x": 127753,
+          "y": 6381,
+          "font": {
+            "size": 72,
+            "align": "left"
+          },
+          "color": {
+            "background": "red",
+            "border": ""
+          },
+          "id": "index-a_295",
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "index-a_296": {
+          "label": "Development",
+          "x": 128053,
+          "y": 6831,
+          "id": "index-a_296"
+        },
+        "index-a_297": {
+          "label": "11/12/2020",
+          "x": 128186,
+          "y": 6831,
+          "id": "index-a_297"
+        },
+        "index-a_298": {
+          "label": "init",
+          "x": 128303,
+          "y": 6831,
+          "id": "index-a_298"
+        },
+        "index-a_299": {
+          "label": "Notes",
+          "x": 128029,
+          "y": 5709,
+          "id": "index-a_299"
+        },
+        "index-a_300": {
+          "label": "Dictionary of\nconcepts",
+          "x": 128189,
+          "y": 5459,
+          "id": "index-a_300"
+        },
+        "index-a_301": {
+          "label": "Details, thoughts",
+          "x": 128203,
+          "y": 5709,
+          "id": "index-a_301"
+        },
+        "index-a_302": {
+          "label": "Sections",
+          "x": 128177,
+          "y": 6099,
+          "id": "index-a_302"
+        },
+        "index-a_303": {
+          "label": "Books",
+          "x": 128267,
+          "y": 5809,
+          "id": "index-a_303"
+        },
+        "index-a_304": {
+          "label": "R&D institutions",
+          "x": 128297,
+          "y": 5834,
+          "id": "index-a_304"
+        },
+        "index-a_305": {
+          "label": "Sites",
+          "x": 128263,
+          "y": 5859,
+          "id": "index-a_305"
+        },
+        "index-a_306": {
+          "label": "Magazines",
+          "x": 128282,
+          "y": 5884,
+          "id": "index-a_306"
+        },
+        "index-a_307": {
+          "label": "Articles",
+          "x": 128270,
+          "y": 5909,
+          "id": "index-a_307"
+        },
+        "index-a_308": {
+          "label": "Media content",
+          "x": 128292,
+          "y": 5934,
+          "id": "index-a_308"
+        },
+        "index-a_309": {
+          "label": "Misc. web links",
+          "x": 128295,
+          "y": 6091,
+          "id": "index-a_309"
+        },
+        "index-a_310": {
+          "label": "Projects",
+          "x": 128273,
+          "y": 6256,
+          "id": "index-a_310"
+        },
+        "index-a_311": {
+          "label": "Tools",
+          "x": 128264,
+          "y": 6281,
+          "id": "index-a_311"
+        },
+        "index-a_312": {
+          "label": "Organizations",
+          "x": 128291,
+          "y": 6306,
+          "id": "index-a_312"
+        },
+        "index-a_313": {
+          "label": "Standarts",
+          "x": 128278,
+          "y": 6331,
+          "id": "index-a_313"
+        },
+        "index-a_314": {
+          "label": "Forums, Groups",
+          "x": 128299,
+          "y": 6356,
+          "id": "index-a_314"
+        },
+        "index-a_315": {
+          "label": "Laws",
+          "x": 128264,
+          "y": 6381,
+          "id": "index-a_315"
+        },
+        "index-a_316": {
+          "label": "Adjacent Themes",
+          "x": 128303,
+          "y": 6406,
+          "id": "index-a_316"
+        },
+        "index-a_317": {
+          "label": "Questions",
+          "x": 128043,
+          "y": 6531,
+          "id": "index-a_317"
+        },
+        "index-a_318": {
+          "label": "Problems",
+          "x": 128041,
+          "y": 6631,
+          "id": "index-a_318"
+        },
+        "index-a_319": {
+          "label": "Goals",
+          "x": 128029,
+          "y": 6731,
+          "id": "index-a_319"
+        },
+        "index-a_320": {
+          "id": "index-a_320",
+          "x": 130583,
+          "y": 2991,
+          "label": "Data\ntypes",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 1000,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "borderWidth": "0"
+        },
+        "index-a_321": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {},
+          "shapeProperties": {},
+          "label": "Data\nstructures",
+          "id": "index-a_321",
+          "x": 131583,
+          "y": 6382,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "index-a_322": {
+          "id": "index-a_322",
+          "x": 128489,
+          "y": 3090,
+          "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+        },
+        "index-a_323": {
+          "id": "index-a_323",
+          "x": 128633,
+          "y": 6091,
+          "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+        },
+        "indx2_8449": {
+          "id": "indx2_8449",
+          "x": 94514,
+          "y": 175,
+          "label": "How to “fadeOut” & “remove” a div in jQuery?",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": "0"
+        },
+        "indx2_8450": {
+          "id": "indx2_8450",
+          "x": 94908,
+          "y": 175,
+          "label": "$(\".notificationClose\").click(function() {\n    $(\"#notification\").fadeOut(\"normal\", function() {\n        $(this).remove();\n    });\n});"
+        },
+        "indx2_8451": {
+          "id": "indx2_8451",
+          "x": 118543,
+          "y": 9836,
+          "label": "JavaScript character escape sequences"
+        },
+        "indx2_8452": {
+          "id": "indx2_8452",
+          "x": 119119,
+          "y": 9874,
+          "label": "\\b: backspace (U+0008 BACKSPACE)\n\\f: form feed (U+000C FORM FEED)\n\\n: line feed (U+000A LINE FEED)\n\\r: carriage return (U+000D CARRIAGE RETURN)\n\\t: horizontal tab (U+0009 CHARACTER TABULATION)\n\\v: vertical tab (U+000B LINE TABULATION)\n\\0: null character (U+0000 NULL) (only if the next character is not a decimal digit; else it’s an octal escape sequence)\n\\': single quote (U+0027 APOSTROPHE)\n\\\": double quote (U+0022 QUOTATION MARK)\n\\\\: backslash (U+005C REVERSE SOLIDUS)"
+        },
+        "indx2_8453": {
+          "id": "indx2_8453",
+          "x": 118776,
+          "y": 9755,
+          "label": "'\\u01C2'"
+        },
+        "indx2_8574": {
+          "id": "indx2_8574",
+          "x": 118777,
+          "y": -359,
+          "label": "Sort an array of integers correctly"
+        },
+        "indx2_8575": {
+          "id": "indx2_8575",
+          "x": 119174,
+          "y": -403,
+          "label": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].sort() => [0, 1, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9]"
+        },
+        "indx2_8576": {
+          "id": "indx2_8576",
+          "x": 119101,
+          "y": -359,
+          "label": "numArray.sort((a, b) => a - b); // For ascending sort\nnumArray.sort((a, b) => b - a); // For descending sort"
+        },
+        "indx2_8577": {
+          "id": "indx2_8577",
+          "x": 119217,
+          "y": -316,
+          "label": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].sort((a, b) => a - b) => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
         }
       },
       "length": 0,
@@ -55058,11 +55242,6 @@ var schemeData =
           "from": "indx1_225",
           "to": "indx1_309",
           "id": "indx1_5582"
-        },
-        "indx1_5583": {
-          "from": "indx1_225",
-          "to": "indx1_310",
-          "id": "indx1_5583"
         },
         "indx1_5584": {
           "from": "indx1_225",
@@ -60178,36 +60357,6 @@ var schemeData =
           "from": "indx1_732",
           "to": "indx1_733",
           "id": "indx1_5962"
-        },
-        "indx1_5963": {
-          "from": "indx1_772",
-          "to": "indx1_734",
-          "id": "indx1_5963"
-        },
-        "indx1_5964": {
-          "from": "indx1_772",
-          "to": "indx1_735",
-          "id": "indx1_5964"
-        },
-        "indx1_5965": {
-          "from": "indx1_772",
-          "to": "indx1_736",
-          "id": "indx1_5965"
-        },
-        "indx1_5966": {
-          "from": "indx1_772",
-          "to": "indx1_737",
-          "id": "indx1_5966"
-        },
-        "indx1_5967": {
-          "from": "indx1_772",
-          "to": "indx1_738",
-          "id": "indx1_5967"
-        },
-        "indx1_5968": {
-          "from": "indx1_772",
-          "to": "indx1_739",
-          "id": "indx1_5968"
         },
         "indx1_5969": {
           "from": "indx1_771",
@@ -67199,20 +67348,10 @@ var schemeData =
           "to": "indx1_2093",
           "id": "indx1_7239"
         },
-        "indx1_7240": {
-          "from": "indx1_772",
-          "to": "indx1_2098",
-          "id": "indx1_7240"
-        },
         "indx1_7241": {
           "from": "indx1_771",
           "to": "indx1_2099",
           "id": "indx1_7241"
-        },
-        "indx1_7242": {
-          "from": "indx1_772",
-          "to": "indx1_2100",
-          "id": "indx1_7242"
         },
         "indx1_7243": {
           "from": "indx1_2101",
@@ -71603,8 +71742,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7670",
-          "from": "indx1_2514",
-          "to": "indx1_2495"
+          "from": "index-a_199",
+          "to": "index-a_180"
         },
         "indx1_7671": {
           "arrows": {
@@ -71640,8 +71779,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7671",
-          "from": "indx1_2514",
-          "to": "indx1_2496"
+          "from": "index-a_199",
+          "to": "index-a_181"
         },
         "indx1_7672": {
           "arrows": {
@@ -71677,8 +71816,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7672",
-          "from": "indx1_2514",
-          "to": "indx1_2497"
+          "from": "index-a_199",
+          "to": "index-a_182"
         },
         "indx1_7673": {
           "arrows": {
@@ -71714,8 +71853,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7673",
-          "from": "indx1_2514",
-          "to": "indx1_2498"
+          "from": "index-a_199",
+          "to": "index-a_183"
         },
         "indx1_7674": {
           "arrows": {
@@ -71751,8 +71890,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7674",
-          "from": "indx1_2514",
-          "to": "indx1_2499"
+          "from": "index-a_199",
+          "to": "index-a_184"
         },
         "indx1_7675": {
           "arrows": {
@@ -71788,8 +71927,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7675",
-          "from": "indx1_2514",
-          "to": "indx1_2500"
+          "from": "index-a_199",
+          "to": "index-a_185"
         },
         "indx1_7676": {
           "arrows": {
@@ -71825,8 +71964,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7676",
-          "from": "indx1_2514",
-          "to": "indx1_2501"
+          "from": "index-a_199",
+          "to": "index-a_186"
         },
         "indx1_7677": {
           "arrows": {
@@ -71862,8 +72001,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7677",
-          "from": "indx1_2514",
-          "to": "indx1_2502"
+          "from": "index-a_199",
+          "to": "index-a_187"
         },
         "indx1_7678": {
           "arrows": {
@@ -71899,8 +72038,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7678",
-          "from": "indx1_2514",
-          "to": "indx1_2503"
+          "from": "index-a_199",
+          "to": "index-a_188"
         },
         "indx1_7679": {
           "arrows": {
@@ -71936,8 +72075,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7679",
-          "from": "indx1_2514",
-          "to": "indx1_2504"
+          "from": "index-a_199",
+          "to": "index-a_189"
         },
         "indx1_7680": {
           "arrows": {
@@ -71973,8 +72112,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7680",
-          "from": "indx1_2514",
-          "to": "indx1_2505"
+          "from": "index-a_199",
+          "to": "index-a_190"
         },
         "indx1_7681": {
           "arrows": {
@@ -72010,8 +72149,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7681",
-          "from": "indx1_2514",
-          "to": "indx1_2506"
+          "from": "index-a_199",
+          "to": "index-a_191"
         },
         "indx1_7682": {
           "arrows": {
@@ -72047,8 +72186,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7682",
-          "from": "indx1_2513",
-          "to": "indx1_2507"
+          "from": "index-a_198",
+          "to": "index-a_192"
         },
         "indx1_7683": {
           "arrows": {
@@ -72084,8 +72223,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7683",
-          "from": "indx1_2516",
-          "to": "indx1_2508"
+          "from": "index-a_201",
+          "to": "index-a_193"
         },
         "indx1_7684": {
           "arrows": {
@@ -72121,8 +72260,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7684",
-          "from": "indx1_2516",
-          "to": "indx1_2509"
+          "from": "index-a_201",
+          "to": "index-a_194"
         },
         "indx1_7685": {
           "arrows": {
@@ -72158,8 +72297,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7685",
-          "from": "indx1_2516",
-          "to": "indx1_2510"
+          "from": "index-a_201",
+          "to": "index-a_195"
         },
         "indx1_7686": {
           "arrows": {
@@ -72195,8 +72334,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7686",
-          "from": "indx1_2511",
-          "to": "indx1_2515"
+          "from": "index-a_196",
+          "to": "index-a_200"
         },
         "indx1_7687": {
           "arrows": {
@@ -72232,8 +72371,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7687",
-          "from": "indx1_2516",
-          "to": "indx1_2511"
+          "from": "index-a_201",
+          "to": "index-a_196"
         },
         "indx1_7688": {
           "arrows": {
@@ -72269,8 +72408,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7688",
-          "from": "indx1_2515",
-          "to": "indx1_2512"
+          "from": "index-a_200",
+          "to": "index-a_197"
         },
         "indx1_7689": {
           "arrows": {
@@ -72306,8 +72445,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7689",
-          "from": "indx1_2516",
-          "to": "indx1_2513"
+          "from": "index-a_201",
+          "to": "index-a_198"
         },
         "indx1_7690": {
           "arrows": {
@@ -72343,8 +72482,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7690",
-          "from": "indx1_2513",
-          "to": "indx1_2514"
+          "from": "index-a_198",
+          "to": "index-a_199"
         },
         "indx1_7691": {
           "arrows": {
@@ -72380,8 +72519,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7691",
-          "from": "indx1_2500",
-          "to": "indx1_2520"
+          "from": "index-a_185",
+          "to": "index-a_205"
         },
         "indx1_7692": {
           "arrows": {
@@ -72417,8 +72556,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7692",
-          "from": "indx1_2513",
-          "to": "indx1_2519"
+          "from": "index-a_198",
+          "to": "index-a_204"
         },
         "indx1_7693": {
           "arrows": {
@@ -72454,8 +72593,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7693",
-          "from": "indx1_2514",
-          "to": "indx1_2517"
+          "from": "index-a_199",
+          "to": "index-a_202"
         },
         "indx1_7694": {
           "arrows": {
@@ -72491,8 +72630,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7694",
-          "from": "indx1_2514",
-          "to": "indx1_2518"
+          "from": "index-a_199",
+          "to": "index-a_203"
         },
         "indx1_7695": {
           "arrows": {
@@ -72528,8 +72667,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7695",
-          "from": "indx1_2541",
-          "to": "indx1_2522"
+          "from": "index-a_226",
+          "to": "index-a_207"
         },
         "indx1_7696": {
           "arrows": {
@@ -72565,8 +72704,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7696",
-          "from": "indx1_2541",
-          "to": "indx1_2523"
+          "from": "index-a_226",
+          "to": "index-a_208"
         },
         "indx1_7697": {
           "arrows": {
@@ -72602,8 +72741,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7697",
-          "from": "indx1_2541",
-          "to": "indx1_2524"
+          "from": "index-a_226",
+          "to": "index-a_209"
         },
         "indx1_7698": {
           "arrows": {
@@ -72639,8 +72778,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7698",
-          "from": "indx1_2541",
-          "to": "indx1_2525"
+          "from": "index-a_226",
+          "to": "index-a_210"
         },
         "indx1_7699": {
           "arrows": {
@@ -72676,8 +72815,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7699",
-          "from": "indx1_2541",
-          "to": "indx1_2526"
+          "from": "index-a_226",
+          "to": "index-a_211"
         },
         "indx1_7700": {
           "arrows": {
@@ -72713,8 +72852,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7700",
-          "from": "indx1_2541",
-          "to": "indx1_2527"
+          "from": "index-a_226",
+          "to": "index-a_212"
         },
         "indx1_7701": {
           "arrows": {
@@ -72750,8 +72889,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7701",
-          "from": "indx1_2541",
-          "to": "indx1_2528"
+          "from": "index-a_226",
+          "to": "index-a_213"
         },
         "indx1_7702": {
           "arrows": {
@@ -72787,8 +72926,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7702",
-          "from": "indx1_2541",
-          "to": "indx1_2529"
+          "from": "index-a_226",
+          "to": "index-a_214"
         },
         "indx1_7703": {
           "arrows": {
@@ -72824,8 +72963,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7703",
-          "from": "indx1_2541",
-          "to": "indx1_2530"
+          "from": "index-a_226",
+          "to": "index-a_215"
         },
         "indx1_7704": {
           "arrows": {
@@ -72861,8 +73000,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7704",
-          "from": "indx1_2541",
-          "to": "indx1_2531"
+          "from": "index-a_226",
+          "to": "index-a_216"
         },
         "indx1_7705": {
           "arrows": {
@@ -72898,8 +73037,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7705",
-          "from": "indx1_2541",
-          "to": "indx1_2532"
+          "from": "index-a_226",
+          "to": "index-a_217"
         },
         "indx1_7706": {
           "arrows": {
@@ -72935,8 +73074,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7706",
-          "from": "indx1_2541",
-          "to": "indx1_2533"
+          "from": "index-a_226",
+          "to": "index-a_218"
         },
         "indx1_7707": {
           "arrows": {
@@ -72972,8 +73111,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7707",
-          "from": "indx1_2540",
-          "to": "indx1_2534"
+          "from": "index-a_225",
+          "to": "index-a_219"
         },
         "indx1_7708": {
           "arrows": {
@@ -73009,8 +73148,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7708",
-          "from": "indx1_2543",
-          "to": "indx1_2535"
+          "from": "index-a_228",
+          "to": "index-a_220"
         },
         "indx1_7709": {
           "arrows": {
@@ -73046,8 +73185,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7709",
-          "from": "indx1_2543",
-          "to": "indx1_2536"
+          "from": "index-a_228",
+          "to": "index-a_221"
         },
         "indx1_7710": {
           "arrows": {
@@ -73083,8 +73222,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7710",
-          "from": "indx1_2543",
-          "to": "indx1_2537"
+          "from": "index-a_228",
+          "to": "index-a_222"
         },
         "indx1_7711": {
           "arrows": {
@@ -73120,8 +73259,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7711",
-          "from": "indx1_2538",
-          "to": "indx1_2542"
+          "from": "index-a_223",
+          "to": "index-a_227"
         },
         "indx1_7712": {
           "arrows": {
@@ -73157,8 +73296,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7712",
-          "from": "indx1_2543",
-          "to": "indx1_2538"
+          "from": "index-a_228",
+          "to": "index-a_223"
         },
         "indx1_7713": {
           "arrows": {
@@ -73194,8 +73333,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7713",
-          "from": "indx1_2542",
-          "to": "indx1_2539"
+          "from": "index-a_227",
+          "to": "index-a_224"
         },
         "indx1_7714": {
           "arrows": {
@@ -73231,8 +73370,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7714",
-          "from": "indx1_2543",
-          "to": "indx1_2540"
+          "from": "index-a_228",
+          "to": "index-a_225"
         },
         "indx1_7715": {
           "arrows": {
@@ -73268,8 +73407,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7715",
-          "from": "indx1_2540",
-          "to": "indx1_2541"
+          "from": "index-a_225",
+          "to": "index-a_226"
         },
         "indx1_7716": {
           "arrows": {
@@ -73305,8 +73444,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7716",
-          "from": "indx1_2527",
-          "to": "indx1_2547"
+          "from": "index-a_212",
+          "to": "index-a_232"
         },
         "indx1_7717": {
           "arrows": {
@@ -73342,8 +73481,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7717",
-          "from": "indx1_2540",
-          "to": "indx1_2546"
+          "from": "index-a_225",
+          "to": "index-a_231"
         },
         "indx1_7718": {
           "arrows": {
@@ -73379,8 +73518,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7718",
-          "from": "indx1_2541",
-          "to": "indx1_2544"
+          "from": "index-a_226",
+          "to": "index-a_229"
         },
         "indx1_7719": {
           "arrows": {
@@ -73416,8 +73555,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7719",
-          "from": "indx1_2541",
-          "to": "indx1_2545"
+          "from": "index-a_226",
+          "to": "index-a_230"
         },
         "indx1_7720": {
           "arrows": {
@@ -73508,8 +73647,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7723",
-          "from": "indx1_2569",
-          "to": "indx1_2550"
+          "from": "index-a_253",
+          "to": "index-a_234"
         },
         "indx1_7724": {
           "arrows": {
@@ -73545,8 +73684,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7724",
-          "from": "indx1_2569",
-          "to": "indx1_2551"
+          "from": "index-a_253",
+          "to": "index-a_235"
         },
         "indx1_7725": {
           "arrows": {
@@ -73582,8 +73721,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7725",
-          "from": "indx1_2569",
-          "to": "indx1_2552"
+          "from": "index-a_253",
+          "to": "index-a_236"
         },
         "indx1_7726": {
           "arrows": {
@@ -73619,8 +73758,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7726",
-          "from": "indx1_2569",
-          "to": "indx1_2553"
+          "from": "index-a_253",
+          "to": "index-a_237"
         },
         "indx1_7727": {
           "arrows": {
@@ -73656,8 +73795,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7727",
-          "from": "indx1_2569",
-          "to": "indx1_2554"
+          "from": "index-a_253",
+          "to": "index-a_238"
         },
         "indx1_7728": {
           "arrows": {
@@ -73693,8 +73832,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7728",
-          "from": "indx1_2569",
-          "to": "indx1_2555"
+          "from": "index-a_253",
+          "to": "index-a_239"
         },
         "indx1_7729": {
           "arrows": {
@@ -73730,8 +73869,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7729",
-          "from": "indx1_2569",
-          "to": "indx1_2556"
+          "from": "index-a_253",
+          "to": "index-a_240"
         },
         "indx1_7730": {
           "arrows": {
@@ -73767,8 +73906,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7730",
-          "from": "indx1_2569",
-          "to": "indx1_2557"
+          "from": "index-a_253",
+          "to": "index-a_241"
         },
         "indx1_7731": {
           "arrows": {
@@ -73804,8 +73943,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7731",
-          "from": "indx1_2569",
-          "to": "indx1_2558"
+          "from": "index-a_253",
+          "to": "index-a_242"
         },
         "indx1_7732": {
           "arrows": {
@@ -73841,8 +73980,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7732",
-          "from": "indx1_2569",
-          "to": "indx1_2559"
+          "from": "index-a_253",
+          "to": "index-a_243"
         },
         "indx1_7733": {
           "arrows": {
@@ -73878,8 +74017,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7733",
-          "from": "indx1_2569",
-          "to": "indx1_2560"
+          "from": "index-a_253",
+          "to": "index-a_244"
         },
         "indx1_7734": {
           "arrows": {
@@ -73915,8 +74054,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7734",
-          "from": "indx1_2569",
-          "to": "indx1_2561"
+          "from": "index-a_253",
+          "to": "index-a_245"
         },
         "indx1_7735": {
           "arrows": {
@@ -73952,8 +74091,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7735",
-          "from": "indx1_2568",
-          "to": "indx1_2562"
+          "from": "index-a_252",
+          "to": "index-a_246"
         },
         "indx1_7736": {
           "arrows": {
@@ -73989,8 +74128,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7736",
-          "from": "indx1_2571",
-          "to": "indx1_2563"
+          "from": "index-a_255",
+          "to": "index-a_247"
         },
         "indx1_7737": {
           "arrows": {
@@ -74026,8 +74165,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7737",
-          "from": "indx1_2571",
-          "to": "indx1_2564"
+          "from": "index-a_255",
+          "to": "index-a_248"
         },
         "indx1_7738": {
           "arrows": {
@@ -74063,8 +74202,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7738",
-          "from": "indx1_2571",
-          "to": "indx1_2565"
+          "from": "index-a_255",
+          "to": "index-a_249"
         },
         "indx1_7739": {
           "arrows": {
@@ -74100,8 +74239,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7739",
-          "from": "indx1_2566",
-          "to": "indx1_2570"
+          "from": "index-a_250",
+          "to": "index-a_254"
         },
         "indx1_7740": {
           "arrows": {
@@ -74137,8 +74276,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7740",
-          "from": "indx1_2571",
-          "to": "indx1_2566"
+          "from": "index-a_255",
+          "to": "index-a_250"
         },
         "indx1_7741": {
           "arrows": {
@@ -74174,8 +74313,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7741",
-          "from": "indx1_2570",
-          "to": "indx1_2567"
+          "from": "index-a_254",
+          "to": "index-a_251"
         },
         "indx1_7742": {
           "arrows": {
@@ -74211,8 +74350,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7742",
-          "from": "indx1_2571",
-          "to": "indx1_2568"
+          "from": "index-a_255",
+          "to": "index-a_252"
         },
         "indx1_7743": {
           "arrows": {
@@ -74248,8 +74387,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7743",
-          "from": "indx1_2568",
-          "to": "indx1_2569"
+          "from": "index-a_252",
+          "to": "index-a_253"
         },
         "indx1_7744": {
           "arrows": {
@@ -74285,8 +74424,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7744",
-          "from": "indx1_2555",
-          "to": "indx1_2575"
+          "from": "index-a_239",
+          "to": "index-a_259"
         },
         "indx1_7745": {
           "arrows": {
@@ -74322,8 +74461,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7745",
-          "from": "indx1_2568",
-          "to": "indx1_2574"
+          "from": "index-a_252",
+          "to": "index-a_258"
         },
         "indx1_7746": {
           "arrows": {
@@ -74359,8 +74498,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7746",
-          "from": "indx1_2569",
-          "to": "indx1_2572"
+          "from": "index-a_253",
+          "to": "index-a_256"
         },
         "indx1_7747": {
           "arrows": {
@@ -74396,8 +74535,8 @@ var schemeData =
             "enabled": false
           },
           "id": "indx1_7747",
-          "from": "indx1_2569",
-          "to": "indx1_2573"
+          "from": "index-a_253",
+          "to": "index-a_257"
         },
         "indx1_7748": {
           "arrows": {
@@ -74434,7 +74573,7 @@ var schemeData =
           },
           "id": "indx1_7748",
           "from": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270a3873",
-          "to": "indx1_2576"
+          "to": "index-a_260"
         },
         "indx1_7749": {
           "arrows": {
@@ -74471,7 +74610,7 @@ var schemeData =
           },
           "id": "indx1_7749",
           "from": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270a3181",
-          "to": "indx1_2577"
+          "to": "index-a_261"
         },
         "indx1_7750": {
           "arrows": {
@@ -74508,7 +74647,7 @@ var schemeData =
           },
           "id": "indx1_7750",
           "from": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270a3537",
-          "to": "indx1_2578"
+          "to": "index-a_262"
         },
         "indx1_7751": {
           "arrows": {
@@ -74545,7 +74684,7 @@ var schemeData =
           },
           "id": "indx1_7751",
           "from": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270a318",
-          "to": "indx1_2579"
+          "to": "index-a_263"
         },
         "indx1_7752": {
           "arrows": {
@@ -74585,38 +74724,38 @@ var schemeData =
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3389"
         },
         "indx1_7753": {
-          "from": "indx1_2580",
-          "to": "indx1_2581",
+          "from": "index-a_264",
+          "to": "index-a_265",
           "id": "indx1_7753"
         },
         "indx1_7754": {
-          "from": "indx1_2581",
-          "to": "indx1_2582",
+          "from": "index-a_265",
+          "to": "index-a_266",
           "id": "indx1_7754"
         },
         "indx1_7755": {
-          "from": "indx1_2574",
-          "to": "indx1_2576",
+          "from": "index-a_258",
+          "to": "index-a_260",
           "id": "indx1_7755"
         },
         "indx1_7756": {
-          "from": "indx1_2574",
-          "to": "indx1_2577",
+          "from": "index-a_258",
+          "to": "index-a_261",
           "id": "indx1_7756"
         },
         "indx1_7757": {
-          "from": "indx1_2574",
-          "to": "indx1_2578",
+          "from": "index-a_258",
+          "to": "index-a_262",
           "id": "indx1_7757"
         },
         "indx1_7758": {
-          "from": "indx1_2574",
-          "to": "indx1_2579",
+          "from": "index-a_258",
+          "to": "index-a_263",
           "id": "indx1_7758"
         },
         "indx1_7759": {
-          "from": "indx1_2574",
-          "to": "indx1_2580",
+          "from": "index-a_258",
+          "to": "index-a_264",
           "id": "indx1_7759"
         },
         "indx1_7760": {
@@ -74654,7 +74793,7 @@ var schemeData =
           },
           "id": "indx1_7760",
           "from": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270a3727",
-          "to": "indx1_2583"
+          "to": "index-a_267"
         },
         "indx1_7761": {
           "arrows": {
@@ -74678,7 +74817,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7761",
-          "from": "indx1_2583",
+          "from": "index-a_267",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3873727"
         },
         "indx1_7762": {
@@ -74703,7 +74842,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7762",
-          "from": "indx1_2583",
+          "from": "index-a_267",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3181727"
         },
         "indx1_7763": {
@@ -74728,7 +74867,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7763",
-          "from": "indx1_2583",
+          "from": "index-a_267",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3537727"
         },
         "indx1_7764": {
@@ -74753,7 +74892,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7764",
-          "from": "indx1_2583",
+          "from": "index-a_267",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a318727"
         },
         "indx1_7765": {
@@ -74778,12 +74917,12 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7765",
-          "from": "indx1_2583",
+          "from": "index-a_267",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3389b0727"
         },
         "indx1_7766": {
-          "from": "indx1_2574",
-          "to": "indx1_2583",
+          "from": "index-a_258",
+          "to": "index-a_267",
           "id": "indx1_7766"
         },
         "indx1_7767": {
@@ -74821,7 +74960,7 @@ var schemeData =
           },
           "id": "indx1_7767",
           "from": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270a3743",
-          "to": "indx1_2584"
+          "to": "index-a_268"
         },
         "indx1_7768": {
           "arrows": {
@@ -74845,7 +74984,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7768",
-          "from": "indx1_2584",
+          "from": "index-a_268",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3873743"
         },
         "indx1_7769": {
@@ -74870,7 +75009,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7769",
-          "from": "indx1_2584",
+          "from": "index-a_268",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3181743"
         },
         "indx1_7770": {
@@ -74895,7 +75034,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7770",
-          "from": "indx1_2584",
+          "from": "index-a_268",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3537743"
         },
         "indx1_7771": {
@@ -74920,7 +75059,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7771",
-          "from": "indx1_2584",
+          "from": "index-a_268",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a318743"
         },
         "indx1_7772": {
@@ -74945,7 +75084,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7772",
-          "from": "indx1_2584",
+          "from": "index-a_268",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3389b0743"
         },
         "indx1_7773": {
@@ -74970,7 +75109,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7773",
-          "from": "indx1_2584",
+          "from": "index-a_268",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3727743"
         },
         "indx1_7774": {
@@ -75008,7 +75147,7 @@ var schemeData =
           },
           "id": "indx1_7774",
           "from": "1376bcb3-aff5-472c-b93a-4e636983a1674785098270a3987",
-          "to": "indx1_2585"
+          "to": "index-a_269"
         },
         "indx1_7775": {
           "arrows": {
@@ -75032,7 +75171,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7775",
-          "from": "indx1_2585",
+          "from": "index-a_269",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3873987"
         },
         "indx1_7776": {
@@ -75057,7 +75196,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7776",
-          "from": "indx1_2585",
+          "from": "index-a_269",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3181987"
         },
         "indx1_7777": {
@@ -75082,7 +75221,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7777",
-          "from": "indx1_2585",
+          "from": "index-a_269",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3537987"
         },
         "indx1_7778": {
@@ -75107,7 +75246,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7778",
-          "from": "indx1_2585",
+          "from": "index-a_269",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a318987"
         },
         "indx1_7779": {
@@ -75132,7 +75271,7 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7779",
-          "from": "indx1_2585",
+          "from": "index-a_269",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3389b0987"
         },
         "indx1_7780": {
@@ -75157,17 +75296,17 @@ var schemeData =
           "background": {},
           "smooth": {},
           "id": "indx1_7780",
-          "from": "indx1_2585",
+          "from": "index-a_269",
           "to": "aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330a3727987"
         },
         "indx1_7781": {
-          "from": "indx1_2574",
-          "to": "indx1_2584",
+          "from": "index-a_258",
+          "to": "index-a_268",
           "id": "indx1_7781"
         },
         "indx1_7782": {
-          "from": "indx1_2574",
-          "to": "indx1_2585",
+          "from": "index-a_258",
+          "to": "index-a_269",
           "id": "indx1_7782"
         },
         "indx1_7783": {
@@ -82392,6 +82531,366 @@ var schemeData =
           "from": "indx1_1324",
           "to": "indx1_8129",
           "id": "indx1_11172"
+        },
+        "indx1_11360": {
+          "from": "indx1_772",
+          "to": "indx1_8394",
+          "id": "indx1_11360"
+        },
+        "indx1_11361": {
+          "from": "indx1_225",
+          "to": "indx1_8395",
+          "id": "indx1_11361"
+        },
+        "indx1_11362": {
+          "from": "indx1_8395",
+          "to": "indx1_310",
+          "id": "indx1_11362"
+        },
+        "indx1_11363": {
+          "from": "indx1_8395",
+          "to": "indx1_8396",
+          "id": "indx1_11363"
+        },
+        "indx1_11364": {
+          "from": "indx1_8397",
+          "to": "indx1_8398",
+          "id": "indx1_11364"
+        },
+        "indx1_11365": {
+          "from": "indx1_225",
+          "to": "indx1_8397",
+          "id": "indx1_11365"
+        },
+        "indx1_11366": {
+          "from": "indx1_8399",
+          "to": "indx1_8400",
+          "id": "indx1_11366"
+        },
+        "indx1_11367": {
+          "from": "indx1_225",
+          "to": "indx1_8399",
+          "id": "indx1_11367"
+        },
+        "indx1_11368": {
+          "from": "indx1_8401",
+          "to": "indx1_8402",
+          "id": "indx1_11368"
+        },
+        "indx1_11369": {
+          "from": "indx1_225",
+          "to": "indx1_8401",
+          "id": "indx1_11369"
+        },
+        "indx2_11413": {
+          "from": "indx2_8392",
+          "to": "indx2_8393",
+          "id": "indx2_11413"
+        },
+        "indx2_11414": {
+          "from": "indx2_8392",
+          "to": "indx2_8394",
+          "id": "indx2_11414"
+        },
+        "indx2_11415": {
+          "from": "indx1_1455",
+          "to": "indx2_8392",
+          "id": "indx2_11415"
+        },
+        "indx2_11416": {
+          "from": "index-a_270",
+          "to": "index-a_271",
+          "id": "indx2_11416"
+        },
+        "indx2_11417": {
+          "from": "index-a_271",
+          "to": "index-a_272",
+          "id": "indx2_11417"
+        },
+        "indx2_11418": {
+          "from": "index-a_272",
+          "to": "index-a_273",
+          "id": "indx2_11418"
+        },
+        "indx2_11419": {
+          "from": "index-a_270",
+          "to": "index-a_274",
+          "id": "indx2_11419"
+        },
+        "indx2_11420": {
+          "from": "index-a_274",
+          "to": "index-a_275",
+          "id": "indx2_11420"
+        },
+        "indx2_11421": {
+          "from": "index-a_274",
+          "to": "index-a_276",
+          "id": "indx2_11421"
+        },
+        "indx2_11422": {
+          "from": "index-a_274",
+          "to": "index-a_277",
+          "id": "indx2_11422"
+        },
+        "indx2_11423": {
+          "from": "index-a_277",
+          "to": "index-a_278",
+          "id": "indx2_11423"
+        },
+        "indx2_11424": {
+          "from": "index-a_277",
+          "to": "index-a_279",
+          "id": "indx2_11424"
+        },
+        "indx2_11425": {
+          "from": "index-a_277",
+          "to": "index-a_280",
+          "id": "indx2_11425"
+        },
+        "indx2_11426": {
+          "from": "index-a_277",
+          "to": "index-a_281",
+          "id": "indx2_11426"
+        },
+        "indx2_11427": {
+          "from": "index-a_277",
+          "to": "index-a_282",
+          "id": "indx2_11427"
+        },
+        "indx2_11428": {
+          "from": "index-a_277",
+          "to": "index-a_283",
+          "id": "indx2_11428"
+        },
+        "indx2_11429": {
+          "from": "index-a_277",
+          "to": "index-a_284",
+          "id": "indx2_11429"
+        },
+        "indx2_11430": {
+          "from": "index-a_277",
+          "to": "index-a_285",
+          "id": "indx2_11430"
+        },
+        "indx2_11431": {
+          "from": "index-a_277",
+          "to": "index-a_286",
+          "id": "indx2_11431"
+        },
+        "indx2_11432": {
+          "from": "index-a_277",
+          "to": "index-a_287",
+          "id": "indx2_11432"
+        },
+        "indx2_11433": {
+          "from": "index-a_277",
+          "to": "index-a_288",
+          "id": "indx2_11433"
+        },
+        "indx2_11434": {
+          "from": "index-a_277",
+          "to": "index-a_289",
+          "id": "indx2_11434"
+        },
+        "indx2_11435": {
+          "from": "index-a_277",
+          "to": "index-a_290",
+          "id": "indx2_11435"
+        },
+        "indx2_11436": {
+          "from": "index-a_277",
+          "to": "index-a_291",
+          "id": "indx2_11436"
+        },
+        "indx2_11437": {
+          "from": "index-a_270",
+          "to": "index-a_292",
+          "id": "indx2_11437"
+        },
+        "indx2_11438": {
+          "from": "index-a_270",
+          "to": "index-a_293",
+          "id": "indx2_11438"
+        },
+        "indx2_11439": {
+          "from": "index-a_270",
+          "to": "index-a_294",
+          "id": "indx2_11439"
+        },
+        "indx2_11440": {
+          "from": "index-a_295",
+          "to": "index-a_296",
+          "id": "indx2_11440"
+        },
+        "indx2_11441": {
+          "from": "index-a_296",
+          "to": "index-a_297",
+          "id": "indx2_11441"
+        },
+        "indx2_11442": {
+          "from": "index-a_297",
+          "to": "index-a_298",
+          "id": "indx2_11442"
+        },
+        "indx2_11443": {
+          "from": "index-a_295",
+          "to": "index-a_299",
+          "id": "indx2_11443"
+        },
+        "indx2_11444": {
+          "from": "index-a_299",
+          "to": "index-a_300",
+          "id": "indx2_11444"
+        },
+        "indx2_11445": {
+          "from": "index-a_299",
+          "to": "index-a_301",
+          "id": "indx2_11445"
+        },
+        "indx2_11446": {
+          "from": "index-a_299",
+          "to": "index-a_302",
+          "id": "indx2_11446"
+        },
+        "indx2_11447": {
+          "from": "index-a_302",
+          "to": "index-a_303",
+          "id": "indx2_11447"
+        },
+        "indx2_11448": {
+          "from": "index-a_302",
+          "to": "index-a_304",
+          "id": "indx2_11448"
+        },
+        "indx2_11449": {
+          "from": "index-a_302",
+          "to": "index-a_305",
+          "id": "indx2_11449"
+        },
+        "indx2_11450": {
+          "from": "index-a_302",
+          "to": "index-a_306",
+          "id": "indx2_11450"
+        },
+        "indx2_11451": {
+          "from": "index-a_302",
+          "to": "index-a_307",
+          "id": "indx2_11451"
+        },
+        "indx2_11452": {
+          "from": "index-a_302",
+          "to": "index-a_308",
+          "id": "indx2_11452"
+        },
+        "indx2_11453": {
+          "from": "index-a_302",
+          "to": "index-a_309",
+          "id": "indx2_11453"
+        },
+        "indx2_11454": {
+          "from": "index-a_302",
+          "to": "index-a_310",
+          "id": "indx2_11454"
+        },
+        "indx2_11455": {
+          "from": "index-a_302",
+          "to": "index-a_311",
+          "id": "indx2_11455"
+        },
+        "indx2_11456": {
+          "from": "index-a_302",
+          "to": "index-a_312",
+          "id": "indx2_11456"
+        },
+        "indx2_11457": {
+          "from": "index-a_302",
+          "to": "index-a_313",
+          "id": "indx2_11457"
+        },
+        "indx2_11458": {
+          "from": "index-a_302",
+          "to": "index-a_314",
+          "id": "indx2_11458"
+        },
+        "indx2_11459": {
+          "from": "index-a_302",
+          "to": "index-a_315",
+          "id": "indx2_11459"
+        },
+        "indx2_11460": {
+          "from": "index-a_302",
+          "to": "index-a_316",
+          "id": "indx2_11460"
+        },
+        "indx2_11461": {
+          "from": "index-a_295",
+          "to": "index-a_317",
+          "id": "indx2_11461"
+        },
+        "indx2_11462": {
+          "from": "index-a_295",
+          "to": "index-a_318",
+          "id": "indx2_11462"
+        },
+        "indx2_11463": {
+          "from": "index-a_295",
+          "to": "index-a_319",
+          "id": "indx2_11463"
+        },
+        "indx2_11464": {
+          "from": "index-a_284",
+          "to": "index-a_322",
+          "id": "indx2_11464"
+        },
+        "indx2_11465": {
+          "from": "index-a_309",
+          "to": "index-a_323",
+          "id": "indx2_11465"
+        },
+        "indx2_11466": {
+          "from": "indx2_8449",
+          "to": "indx2_8450",
+          "id": "indx2_11466"
+        },
+        "indx2_11467": {
+          "from": "indx1_229",
+          "to": "indx2_8449",
+          "id": "indx2_11467"
+        },
+        "indx2_11468": {
+          "from": "indx2_8451",
+          "to": "indx2_8452",
+          "id": "indx2_11468"
+        },
+        "indx2_11469": {
+          "from": "indx2_8451",
+          "to": "indx2_8453",
+          "id": "indx2_11469"
+        },
+        "indx2_11470": {
+          "from": "indx1_1304",
+          "to": "indx2_8451",
+          "id": "indx2_11470"
+        },
+        "indx2_11595": {
+          "from": "indx2_8574",
+          "to": "indx2_8575",
+          "id": "indx2_11595"
+        },
+        "indx2_11596": {
+          "from": "indx2_8574",
+          "to": "indx2_8576",
+          "id": "indx2_11596"
+        },
+        "indx2_11597": {
+          "from": "indx2_8574",
+          "to": "indx2_8577",
+          "id": "indx2_11597"
+        },
+        "indx2_11598": {
+          "from": "indx1_1720",
+          "to": "indx2_8574",
+          "id": "indx2_11598"
         }
       },
       "length": 0,
@@ -82431,8 +82930,8 @@ var schemeData =
   "setup": {
     "scale": 0.0156,
     "viewPosition": {
-      "x": 102403.00000128205,
-      "y": 11799.999998205136
+      "x": 102403.00000205128,
+      "y": 11799.999998205129
     }
   }
 }

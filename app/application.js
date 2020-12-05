@@ -47,6 +47,7 @@ var edgeLabelTextareaExpanded = false;
 var nodesDropDownMenuNodesIds = [];
 var dontShowShemeDataMenuPagesList = [
    "news1.html",
+   "news11.html",
    "news2.html",
    "news3.html",
    "news4.html",
@@ -54,21 +55,26 @@ var dontShowShemeDataMenuPagesList = [
    "news5.html",
    "news51.html",
    "news52.html",
+   "news53.html",
    "news6.html",
    "news61.html",
+   "news62.html",
    "youtube1.html",
    "youtube2.html",
+   "youtube3.html",
    "base.html",
    "start_page.html",
    "tmp.html",
    "tmp1.html",
    "nature.html",
    "timelines.html",
-   "music.html",
+   "music1.html",
+   "music2.html",
    "java.html",
    "java-api.html",
    "sa1.html",
-   "sa2.html"
+   "sa2.html",
+   "lisp.html"
 ];
 var lastSelectedNodeId = null;
 var lastSelectedEdgeId = null;
@@ -78,6 +84,7 @@ var keyboardMoveSelectedEnabled = false;
 var copiedNodeStyleColor = "";
 var copiedNodeStyleFontSize = "";
 var nextOperationMultiplier = "";
+document.alertCounter = 0;
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -479,44 +486,58 @@ function hideListOfTreesToDataCash(treesList) {
 function alignNodesLeft(nodes) {
 	var minLeft;
         var nodesPositions = network.getPositions();
-	nodes.forEach(function(node) {
-                var nodeD = getNodeFromNetworkDataById(node.id);
-		var pNode = nodesPositions[node.id];
-		nodeD.x = pNode.x;
-		nodeD.y = pNode.y;
-		network.body.data.nodes.update(nodeD);
-	});
+	//nodes.forEach(function(node) {
+        //        var nodeD = getNodeFromNetworkDataById(node.id);
+	//	var pNode = nodesPositions[node.id];
+	//	nodeD.x = pNode.x;
+	//	nodeD.y = pNode.y;
+	//	network.body.data.nodes.update(nodeD);
+	//});
 
-	for (i = 0; i < nodes.length; i++) {
-		if (i == 0) minLeft = nodes[i].shape.left;
-		if (minLeft > nodes[i].shape.left) {
-			minLeft = nodes[i].shape.left;
-		};
-	}
+	//for (i = 0; i < nodes.length; i++) {
+	//	if (i == 0) minLeft = nodes[i].shape.left;
+	//	if (minLeft > nodes[i].shape.left) {
+	//		minLeft = nodes[i].shape.left;
+	//	};
+	//}
 
-	for (i = 0; i < nodes.length; i++) {
-		var leftDiff = nodes[i].shape.left - parseFloat(minLeft.toFixed(5));
-		network.body.nodes[nodes[i].id].x = nodes[i].x - leftDiff;
-	}
+	//for (i = 0; i < nodes.length; i++) {
+	//	var leftDiff = nodes[i].shape.left - parseFloat(minLeft.toFixed(5));
+	//	network.body.nodes[nodes[i].id].x = nodes[i].x - leftDiff;
+	//}
 
-	var scale = network.getScale();
-        var viewPosition = network.getViewPosition();
-	var n1X = parseFloat(viewPosition.x.toFixed(5));
-	var n1Y = parseFloat(viewPosition.y.toFixed(5));
-	var positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));
-	var positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));
+        for (i = 0; i < nodes.length; i++) {
+                if (i == 0) minLeft = nodes[i].shape.left;
+                if (minLeft > nodes[i].shape.left) {
+                        minLeft = nodes[i].shape.left;
+                };
+        }
 
-	network.moveTo({
-		position: {x: positionX, y: positionY},
-		offset: {x: -canvasWidth/2, y: -canvasHeight/2},
-		scale: scale,
-	});
+        for (i = 0; i < nodes.length; i++) {
+                var leftDiff = nodes[i].shape.left - parseFloat(minLeft.toFixed(5));
+                //network.body.nodes[nodes[i].id].x = nodes[i].x - leftDiff;
+                network.body.nodes[nodes[i].id].x = Number(nodesPositions[nodes[i].id].x - leftDiff);
+        }
+        network.body.emitter.emit("startSimulation");
 
-	network1.moveTo({
-		position: {x: positionX, y: positionY},
-		offset: {x: -canvasWidth/2, y: -canvasHeight/2},
-		scale: scale,
-	});
+	//var scale = network.getScale();
+        //var viewPosition = network.getViewPosition();
+	//var n1X = parseFloat(viewPosition.x.toFixed(5));
+	//var n1Y = parseFloat(viewPosition.y.toFixed(5));
+	//var positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));
+	//var positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));
+
+	//network.moveTo({
+	//	position: {x: positionX, y: positionY},
+	//	offset: {x: -canvasWidth/2, y: -canvasHeight/2},
+	//	scale: scale,
+	//});
+
+	//network1.moveTo({
+	//	position: {x: positionX, y: positionY},
+	//	offset: {x: -canvasWidth/2, y: -canvasHeight/2},
+	//	scale: scale,
+	//});
 }
 function showAlert(alertLine, rightShift, width) {
         console.log("Alert: " + alertLine);
@@ -526,9 +547,18 @@ function showAlert(alertLine, rightShift, width) {
         } else {
                 schemeDataMenuWidth = 59;
         }
+        $("#alertLine").remove();
         var saveAlertWidget = $("<div id='alertLine' style='z-index:9999;position: fixed;right:" + String(schemeDataMenuWidth + rightShift) + "px;top:0;font-family:sans-serif;font-size:14px; margin:5px; width:" + String(width) + "px;'>" + alertLine + "</div>");
         $("body").append(saveAlertWidget);
-        setTimeout(() => $("#alertLine").remove(), 5000);
+        var alertCounterCopy = document.alertCounter + 1;
+        document.alertCounter = document.alertCounter + 1;
+        setTimeout(function() {
+           if (document.alertCounter != alertCounterCopy) return;
+           $("#alertLine").fadeOut("normal", function() {
+              $("#alertLine").remove();
+           });
+        },
+        5000);
 }
 function mkdirRecursiveSync(path, pathDelimiter) {
     var paths = path.split(pathDelimiter);
@@ -739,21 +769,27 @@ function duplicateGraph(nodes, edges) {
 			var date = new Date();
 			var idPostfix = date.getMilliseconds().toString().substring(-7).toString();
 			network.selectionHandler.unselectAll();
-			objectToArray(data.nodes).forEach(function(node) {
+                        var nodesArray = objectToArray(data.nodes);
+                        for (var i in nodesArray) {
+                                var node = nodesArray[i];
+                                console.log("duplicateGraph. Nodes: " + String(i) + ", " + String(nodesArray.length));
 				node.id = node.id + idPostfix;
 				node.y = node.y; 
 				var newNode = network.nodesHandler.create(node);
 				network.body.data.nodes.add(newNode.options);
 				network.selectionHandler.selectObject(newNode);
-			});
-			objectToArray(data.edges).forEach(function(edge) {
+			};
+                        var edgesArray = objectToArray(data.edges);
+                        for (var i in edgesArray) {
+                                var edge = edgesArray[i];
+                                console.log("duplicateGraph. Edges: " + String(i) + ", " + String(edgesArray.length));
 				edge.id = edge.id + idPostfix;	
 				edge.from = edge.from + idPostfix;
 				edge.to = edge.to + idPostfix;
 				var newEdge = network.edgesHandler.create(edge);
 				network.body.data.edges.add(newEdge.options);
 				network.selectionHandler.selectObject(newEdge);
-			});
+			};
 			network.selectionHandler.setSelection(network.selectionHandler.getSelection());
    return data;
 }
@@ -809,6 +845,7 @@ function multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPos
          edge.oldTo = edge.to;
       }
    for (var i=0; i < multiplyCount; i++) {
+      console.log("multiplySelected: " + String(i) + ", " + String(multiplyCount) + ". Nodes: " + String(nodesArray.length) + ", Edges: " + String(edgesArray.length));
       for (var j=0; j < nodesArray.length; j++) {
          var node = nodesArray[j];
          node.id = node.oldId + idPostfix + String(idCounterPostfixStart + i);
@@ -2717,6 +2754,7 @@ function buildRow(item, index, root) {
          root.keys = []
          newLabelLines.forEach(function(line,index) {
             root = buildRow(line, index, root);
+            console.log("splitNode. Add node. to: " + String(index) + ", " + String(newLabelLines.length));
          });
          var alignMap = {};
          buildPagesNodes(root, 600, alignMap, nodeId);
@@ -2737,6 +2775,7 @@ function buildRow(item, index, root) {
                font: {size: 1000},
                color: {background:"#ffc63b"} 
             });
+            console.log("splitNode. Add node. tg: " + String(index) + ", " + String(newLabelLines.length));
          });
       } else if (newLabelLines[0] == "wiki") {
          newLabelLines.shift();
@@ -2757,6 +2796,7 @@ function buildRow(item, index, root) {
    	       x: pNode.x + 500,
    	       y: pNode.y + 25*i 
             })[0];
+            console.log("splitNode. Add node. wiki: " + String(i) + ", " + String(newLabelLines.length));
             alignNodesList.push(network.body.nodes[addedNodeId]);
          };
          alignNodesLeft(alignNodesList);
@@ -2772,6 +2812,7 @@ function buildRow(item, index, root) {
             };
             var newNodeId = nodeId + "b" + String(index);
             var addedNodeId = addNodeWithIdOnCanvas(line, "", position, 0, 0, network, newNodeId);
+            console.log("splitNode. Add node: " + String(index) + ", " + String(newLabelLines.length));
             newNodesIds.push(addedNodeId);
             y = y + 14*line.split("\n").length + 10;
             //If use !@!@ delimiter, then take result string and use it first line as
@@ -2788,6 +2829,7 @@ function buildRow(item, index, root) {
                });
             }
          });
+         console.log("splitNode. Align nodes");
          var nodes = [];
          newNodesIds.forEach(function(nodeId) {      
             nodes.push(network.body.nodes[nodeId]);
@@ -5193,7 +5235,10 @@ var moveCursorRightFast = false;
    });
    $(document).keyup(function (event) {
       //Run node code. alt+r
-      if (event.altKey && event.keyCode === 82) {
+      if (event.altKey == true &&
+          event.shiftKey == false &&
+          event.ctrlKey == false &&
+          event.keyCode === 82) {
          $("span#runNodeCodeButton").click();
       }
    });
@@ -5233,6 +5278,45 @@ var moveCursorRightFast = false;
 			codeFunction(buildProjectCodeNode.id);
 		}
 	});
+   $("#network").keyup(function (event) {
+      //Build and run project. shift+alt+r
+      if (event.altKey == true &&
+          event.shiftKey == true && 
+          event.ctrlKey == false && 
+          event.keyCode === 82) {
+         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);
+         if (selectedNodes.length != 1) {
+            console.log("Select one node");
+            showAlert("Select one node", 80, 150);
+            return;
+         }
+         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);
+         var rootNode = getNodeFromNetworkDataById(rootNodeId);
+         var projectName = rootNode.label.replace("mvj code file for project name: ","");
+         var buildProjectParentNode;
+         var buildProjectParentNodeName = "buildProject code: " + projectName;
+         var nodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + buildProjectParentNodeName + "$"));
+         if (nodes.length == 0) {
+            console.log("ERROR: no " + buildProjectParentNodeName + " node");
+            return;
+         }
+         buildProjectParentNode = nodes[0];
+         var edges = network.body.nodes[buildProjectParentNode.id].edges;
+         var buildProjectCodeNode;
+         for (var key in edges) {
+            if (edges[key].fromId == buildProjectParentNode.id) {
+               buildProjectCodeNode = edges[key].to;
+            }
+         }	
+         if (typeof buildProjectCodeNode === "undefined") {
+            console.log("ERROR: no buildProjectCodeNode");
+            return;
+         }
+         var code = collectCodeNodesContent(buildProjectCodeNode.id);
+         var codeFunction = new Function('codeNodeId', 'runProject', 'selectedCodeNodeId', code);
+         codeFunction(buildProjectCodeNode.id, "true", selectedNodes[0].id);
+      }
+   });
    $("#network").keyup(function (event) {
                 //Save canvas. Ctrl+alt+s
 		if (event.ctrlKey && event.altKey && event.keyCode === 83) {
@@ -5335,9 +5419,62 @@ var moveCursorRightFast = false;
       //Left align nodes. shift+alt+LeftArrow
       if (event.shiftKey && event.altKey && event.keyCode === 37) {
          var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
-         alignNodesLeft(nodes);
+         var minLeft;
+         var nodesPositions = network.getPositions();
+         //for (var i in nodes) {
+         //        var nodeD = getNodeFromNetworkDataById(nodes[i].id);
+         //        var pNode = nodesPositions[nodes[i].id];
+         //        nodeD.x = pNode.x;
+         //        nodeD.y = pNode.y;
+         //        network.body.data.nodes.update(nodeD);
+         //}
+
+         for (i = 0; i < nodes.length; i++) {
+                 if (i == 0) minLeft = nodes[i].shape.left;
+                 if (minLeft > nodes[i].shape.left) {
+                         minLeft = nodes[i].shape.left;
+                 };
+         }
+
+         for (i = 0; i < nodes.length; i++) {
+                 var leftDiff = nodes[i].shape.left - parseFloat(minLeft.toFixed(5));
+                 //network.body.nodes[nodes[i].id].x = nodes[i].x - leftDiff;
+                 network.body.nodes[nodes[i].id].x = Number(nodesPositions[nodes[i].id].x - leftDiff);
+         }
+         network.body.emitter.emit("startSimulation");
+
+       }
+   });
+   $("div#network").keydown(function (event) {
+      //Align nodes top. shift+alt+TopArrow
+      if (event.shiftKey && event.altKey && event.keyCode === 38) {
+         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+
+        var maxTop;
+        var nodesPositions = network.getPositions();
+        for (var i in nodes) {
+                var nodeD = getNodeFromNetworkDataById(nodes[i].id);
+                var pNode = nodesPositions[nodes[i].id];
+                nodeD.x = pNode.x;
+                nodeD.y = pNode.y;
+                network.body.data.nodes.update(nodeD);
+        }
+
+        for (i = 0; i < nodes.length; i++) {
+                if (i == 0) maxTop = nodes[i].shape.top;
+                if (maxTop > nodes[i].shape.top) {
+                        maxTop = nodes[i].shape.top;
+                };
+        }
+
+        for (i = 0; i < nodes.length; i++) {
+                var topDiff = nodes[i].shape.top - parseFloat(maxTop.toFixed(5));
+                network.body.nodes[nodes[i].id].y = nodes[i].y - topDiff;
+        }
+
       }
    });
+//TODO. Align nodes horizontal center. ???
    $("div#network").keydown(function (event) {
       //Zoom out. shift+alt+d
       if (event.shiftKey && event.altKey && event.keyCode === 68) {
@@ -5390,7 +5527,7 @@ var moveCursorRightFast = false;
 		}
 	});
 	$("div#network-popUp").keydown(function (event) {
-		//ctrl+Enter
+		//Click "Save" in "Add node" form. ctrl+Enter
 		if (event.ctrlKey && event.keyCode === 13) {
 			$("#saveButton").click();
 		}
@@ -5439,8 +5576,9 @@ var moveCursorRightFast = false;
       }
    });
    $("div#schemeEditNodesMenu").keydown(function (event) {
-      //Esc
-      if (event.keyCode === 27) {
+      //Close node left menu.Esc
+      if (event.keyCode === 27 &&
+          $("div#searchMenu").length == 0) {
          network.disableEditMode();
          network.selectionHandler.unselectAll();
          $("span#closeNodeEditButton").click();
@@ -5451,8 +5589,9 @@ var moveCursorRightFast = false;
 
    $("div#schemeEditEdgesMenu").keydown(function (event) {
 console.log("asdf");
-      //Esc
-      if (event.keyCode === 27) {
+      //Close edge left menu. Esc
+      if (event.keyCode === 27 &&
+          $("div#searchMenu").length == 0) {
          network.disableEditMode();
          network.selectionHandler.unselectAll();
          $("span#closeEdgeEditButton").click();
@@ -5461,8 +5600,10 @@ console.log("esc");
       }
    });
    $("div#network").keydown(function (event) {
-      //Esc
-      if (event.keyCode === 27 && document.getElementsByClassName("vis-back").length == 0) {
+      //Cancel add node/edge. Esc
+      if (event.keyCode === 27 &&
+          document.getElementsByClassName("vis-back").length == 0 &&
+          $("div#searchMenu").length == 0) {
          network.disableEditMode();
          network.selectionHandler.unselectAll();
          $("span#closeNodeEditButton").click();
@@ -5470,11 +5611,14 @@ console.log("esc");
          network.editNode();
       }
    });
-
+   //TODO. Not working now.
    $(document).keydown(function (event) {
-      //Esc
+      //Cancel node edit. Esc
       if (event.keyCode === 27) {
-         if (document.getElementById('network-popUp').style.display == "none" && cancelNodeEdit == false && cancelEdgeEditVar == false) {
+         if (document.getElementById('network-popUp').style.display == "none" && 
+             cancelNodeEdit == false && 
+             cancelEdgeEditVar == false &&
+             $("div#searchMenu").length == 0) {
             network.disableEditMode();
             network.editNode();
          } else {
@@ -5483,36 +5627,417 @@ console.log("esc");
          }
       }
    });
-	$(document).keydown(function (event) {
-		//Connect nodes. ctrl+alt+c.
-		if (event.ctrlKey == true && 
-                    event.altKey == true &&
-                    event.shiftKey == false &&
-                    event.keyCode === 67) {
-                        var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();
-			if (selectedNodesCount < 2) return;
-                        var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
-			var rootNodeId;
-                        var minLeft;
-                        for (i = 0; i < selectedNodesCount; i++) {
-				if (i == 0) {
-					minLeft = nodes[0].x;
-					rootNodeId = nodes[0].id;
-				}
-                                if (minLeft > nodes[i].x) {
-                                        minLeft = nodes[i].x;
-					rootNodeId = nodes[i].id;
-                                };
-                        }
-                        for (i = 0; i < selectedNodesCount; i++) {
-				if (nodes[i].id != rootNodeId) {
-					var edgeData = {from: rootNodeId, to: nodes[i].id};
-					network.body.data.edges.getDataSet().add(edgeData);
-				}
-                        }
-			network.selectionHandler.unselectAll();
-		}
-	});
+   $(document).keydown(function (event) {
+      //Close search menu. Esc
+      if (event.keyCode === 27 && $("div#searchMenu").length != 0) {
+         console.log("close search menu");
+         $("div#searchMenu").remove();
+         $("div#closeSearchMenu").remove();
+      }
+   });
+   $(document).keydown(function (event) {
+      //Connect nodes. ctrl+alt+c.
+      if (event.ctrlKey == true && 
+          event.altKey == true &&
+          event.shiftKey == false &&
+          event.keyCode === 67) {
+         var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();
+         if (selectedNodesCount < 2) return;
+         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+         var rootNodeId;
+         var minLeft;
+         for (i = 0; i < selectedNodesCount; i++) {
+            if (i == 0) {
+               minLeft = nodes[0].x;
+               rootNodeId = nodes[0].id;
+            }
+            if (minLeft > nodes[i].x) {
+               minLeft = nodes[i].x;
+               rootNodeId = nodes[i].id;
+            };
+         }
+         var index = 0;
+         for (i = 0; i < selectedNodesCount; i++) {
+            if (nodes[i].id != rootNodeId) {
+               var edgeData = {from: rootNodeId, to: nodes[i].id};
+               network.body.data.edges.getDataSet().add(edgeData);
+               console.log("Connect nodes: " + String(index) + ", " + String(Number(selectedNodesCount)-Number(1)));
+               index += 1;
+            }
+         }
+         network.selectionHandler.unselectAll();
+      }
+   });
+   $(document).keydown(function (event) {
+      //Search nodes. ctrl+alt+f.
+      if (event.ctrlKey == true && 
+          event.altKey == true &&
+          event.shiftKey == false &&
+          event.keyCode === 70) {
+
+         if ($("div#searchMenu").length != 0) {
+            $("div#runSearchMenu span").click();
+         }
+
+         if ($("div#searchMenu").length == 0) {
+            console.log("show search menu");
+            var searchMenu = $("<div id='searchMenu'></div>");
+
+            var closeSearchMenu = $("<div id='closeSearchMenu'><span>close</span></div>");
+            closeSearchMenu.css("margin","20px");
+            closeSearchMenu.css("position","absolute");
+            closeSearchMenu.css("bottom","0");
+            closeSearchMenu.css("left","0");
+            closeSearchMenu.find("span").css("cursor","pointer");
+            searchMenu.append(closeSearchMenu);
+            closeSearchMenu.find("span").click(function() {
+               $("div#searchMenu").remove();
+               $("div#closeSearchMenu").remove();
+            });
+
+            var runSearchMenu = $("<div id='runSearchMenu'><span>search</span></div>");
+            runSearchMenu.css("margin","20px");
+            runSearchMenu.css("position","absolute");
+            runSearchMenu.css("bottom","0");
+            runSearchMenu.css("right","0");
+            runSearchMenu.find("span").css("cursor","pointer");
+            searchMenu.append(runSearchMenu);
+            runSearchMenu.find("span").click(function() {
+               var inputLine = $("input#inputLineSearchMenu").val();
+               console.log("inputLine: " + inputLine);
+               var regexCheckboxChecked = $("input#regexCheckboxSearchMenu").is(":checked");
+               console.log("regexCheckboxChecked: " + String(regexCheckboxChecked));
+
+
+
+
+         var regExp = null;
+         var jumpNavigationDataLabel = null;
+         var selectedNodeLabel = inputLine.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+         if (jumpNavigationData != null) {
+             jumpNavigationDataLabel = jumpNavigationData.label.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+         }
+         if (jumpNavigationData != null &&
+             regexCheckboxChecked && 
+             typeof jumpNavigationData.label !== "undefined" && 
+             jumpNavigationData.label.length > 0) {
+
+             regExp = new RegExp(jumpNavigationData.label, "gi");
+         }
+
+   if (jumpNavigationData == null && inputLine == "") {
+      showAlert("Insert search line", 60, 190);
+      return;
+   }
+         
+   //If node is selected and there were no jumps before or there is different label on selected node.
+   if ((inputLine != "") && 
+         (jumpNavigationData == null || 
+         (regExp != null && selectedNodeLabel.match(regExp) == null) ||
+         (regExp == null && jumpNavigationDataLabel != selectedNodeLabel) )) {
+
+      var nodes = network.body.data.nodes.get();
+
+      var foundNodes = [];
+
+      var scale = network.getScale();
+      var viewPosition = network.getViewPosition();
+      var n1X = parseFloat(viewPosition.x.toFixed(5));
+      var n1Y = parseFloat(viewPosition.y.toFixed(5));
+      var positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));
+      var positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));
+
+      //foundNodes.push({x: positionX, y: positionY});
+      foundNodes.push({x: viewPosition.x, y: viewPosition.y});
+
+      var regExp = null;
+      if (inputLine != "" &&
+          regexCheckboxChecked) {
+
+          regExp = new RegExp(inputLine, "gi");
+      }
+
+      var preparedSearchLine = inputLine.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+
+      nodes.forEach(function(node) {
+         var nodeLabel = node.label;
+         nodeLabel = nodeLabel.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+
+         if (regExp != null && nodeLabel.match(regExp) != null) {
+            foundNodes.push(node);
+         }
+         if (regExp == null && nodeLabel == preparedSearchLine) {
+            foundNodes.push(node);
+         }
+      });
+      
+      if (foundNodes.length == 1) {
+         showAlert("No nodes found", 60, 190);
+         return;
+      }
+
+      var nodesPositions = network.getPositions();
+
+      foundNodes.forEach(function(node) {
+         if (typeof node.id === "undefined") return;
+         var nodeD = getNodeFromNetworkDataById(node.id);
+         pNode = nodesPositions[node.id];
+         nodeD.x = pNode.x;
+         nodeD.y = pNode.y;
+         network.body.data.nodes.update(nodeD);
+      });
+
+      jumpNavigationData = {
+         label: inputLine,
+         foundNodes: foundNodes,
+         lastJumpNodeNumber: 0
+      };
+      var jumpNumber = 1;
+
+      $("#alertLine").remove();
+      showAlert("Nodes found: " + String(jumpNumber) + "/" + String(jumpNavigationData.foundNodes.length - 1), 40, 190);
+
+      moveViewTo(
+         jumpNavigationData.foundNodes[jumpNumber].x,
+         jumpNavigationData.foundNodes[jumpNumber].y, 
+         network.getScale()
+      );
+      jumpNavigationData.lastJumpNodeNumber = jumpNumber;
+   } else {
+      var jumpNumber = null;
+      if (jumpNavigationData.lastJumpNodeNumber == jumpNavigationData.foundNodes.length - 1) {
+         jumpNumber = 0;
+      } else {
+         jumpNumber = jumpNavigationData.lastJumpNodeNumber + 1;
+      }
+
+      $("#alertLine").remove();
+      showAlert("Nodes found: " + String(jumpNumber) + "/" + String(jumpNavigationData.foundNodes.length - 1), 40, 190);
+
+      moveViewTo(
+         jumpNavigationData.foundNodes[jumpNumber].x,
+         jumpNavigationData.foundNodes[jumpNumber].y, 
+         network.getScale()
+      );
+      jumpNavigationData.lastJumpNodeNumber = jumpNumber;
+   }
+
+
+
+
+
+
+            });
+
+
+
+
+
+            var runBackwardsSearchMenu = $("<div id='runBackwardsSearchMenu'><span>backwards</span></div>");
+            runBackwardsSearchMenu.css("margin","20px");
+            runBackwardsSearchMenu.css("position","absolute");
+            runBackwardsSearchMenu.css("bottom","0");
+            runBackwardsSearchMenu.css("right","70px");
+            runBackwardsSearchMenu.find("span").css("cursor","pointer");
+            searchMenu.append(runBackwardsSearchMenu);
+            runBackwardsSearchMenu.find("span").click(function() {
+               var inputLine = $("input#inputLineSearchMenu").val();
+               console.log("inputLine: " + inputLine);
+               var regexCheckboxChecked = $("input#regexCheckboxSearchMenu").is(":checked");
+               console.log("regexCheckboxChecked: " + String(regexCheckboxChecked));
+
+
+
+
+         var regExp = null;
+         var jumpNavigationDataLabel = null;
+         var selectedNodeLabel = inputLine.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+         if (jumpNavigationData != null) {
+             jumpNavigationDataLabel = jumpNavigationData.label.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+         }
+         if (jumpNavigationData != null &&
+             regexCheckboxChecked && 
+             typeof jumpNavigationData.label !== "undefined" && 
+             jumpNavigationData.label.length > 0) {
+
+             regExp = new RegExp(jumpNavigationData.label, "gi");
+         }
+
+   if (jumpNavigationData == null && inputLine == "") {
+      showAlert("Insert search line", 60, 190);
+      return;
+   }
+         
+   //If node is selected and there were no jumps before or there is different label on selected node.
+   if ((inputLine != "") && 
+         (jumpNavigationData == null || 
+         (regExp != null && selectedNodeLabel.match(regExp) == null) ||
+         (regExp == null && jumpNavigationDataLabel != selectedNodeLabel) )) {
+
+      var nodes = network.body.data.nodes.get();
+
+      var foundNodes = [];
+
+      var scale = network.getScale();
+      var viewPosition = network.getViewPosition();
+      var n1X = parseFloat(viewPosition.x.toFixed(5));
+      var n1Y = parseFloat(viewPosition.y.toFixed(5));
+      var positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));
+      var positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));
+
+      //foundNodes.push({x: positionX, y: positionY});
+      foundNodes.push({x: viewPosition.x, y: viewPosition.y});
+
+      var regExp = null;
+      if (inputLine != "" &&
+          regexCheckboxChecked) {
+
+          regExp = new RegExp(inputLine, "gi");
+      }
+
+      var preparedSearchLine = inputLine.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+
+      nodes.forEach(function(node) {
+         var nodeLabel = node.label;
+         nodeLabel = nodeLabel.replace(/\n+/g," ").replace(/\s+/g," ").toLowerCase();
+
+         if (regExp != null && nodeLabel.match(regExp) != null) {
+            foundNodes.push(node);
+         }
+         if (regExp == null && nodeLabel == preparedSearchLine) {
+            foundNodes.push(node);
+         }
+      });
+      
+      if (foundNodes.length == 1) {
+         showAlert("No nodes found", 60, 190);
+         return;
+      }
+
+      var nodesPositions = network.getPositions();
+
+      foundNodes.forEach(function(node) {
+         if (typeof node.id === "undefined") return;
+         var nodeD = getNodeFromNetworkDataById(node.id);
+         pNode = nodesPositions[node.id];
+         nodeD.x = pNode.x;
+         nodeD.y = pNode.y;
+         network.body.data.nodes.update(nodeD);
+      });
+
+      jumpNavigationData = {
+         label: inputLine,
+         foundNodes: foundNodes,
+         lastJumpNodeNumber: 0
+      };
+      var jumpNumber = jumpNavigationData.foundNodes.length - 1;
+
+      $("#alertLine").remove();
+      showAlert("Nodes found: " + String(jumpNumber) + "/" + String(jumpNavigationData.foundNodes.length - 1), 40, 190);
+
+      moveViewTo(
+         jumpNavigationData.foundNodes[jumpNumber].x,
+         jumpNavigationData.foundNodes[jumpNumber].y, 
+         network.getScale()
+      );
+      jumpNavigationData.lastJumpNodeNumber = jumpNumber;
+   } else {
+      var jumpNumber = null;
+      if (jumpNavigationData.lastJumpNodeNumber == 0) {
+         jumpNumber = jumpNavigationData.foundNodes.length - 1;
+      } else {
+         jumpNumber = jumpNavigationData.lastJumpNodeNumber - 1;
+      }
+
+      $("#alertLine").remove();
+      showAlert("Nodes found: " + String(jumpNumber) + "/" + String(jumpNavigationData.foundNodes.length - 1), 40, 190);
+
+      moveViewTo(
+         jumpNavigationData.foundNodes[jumpNumber].x,
+         jumpNavigationData.foundNodes[jumpNumber].y, 
+         network.getScale()
+      );
+      jumpNavigationData.lastJumpNodeNumber = jumpNumber;
+   }
+
+
+
+
+
+
+            });
+
+
+
+
+            var inputLineSearchMenu = $("<input id='inputLineSearchMenu' type='text'>");
+            inputLineSearchMenu.css("border","1px solid #a3a3a3");
+            inputLineSearchMenu.css("background","white");
+            inputLineSearchMenu.css("font","10pt sans");
+            inputLineSearchMenu.css("margin","20px");
+            inputLineSearchMenu.css("position","absolute");
+            inputLineSearchMenu.css("top","0");
+            inputLineSearchMenu.css("left","0");
+            inputLineSearchMenu.css("width","258px");
+            searchMenu.append(inputLineSearchMenu);
+
+            var regexCheckboxSearchMenu = $("<input id='regexCheckboxSearchMenu' type='checkbox'>");
+            var regexCheckboxRowSearchMenu = $("<div id='regexCheckboxRowSearchMenu'><span>regex</span></div>");
+            regexCheckboxRowSearchMenu.prepend(regexCheckboxSearchMenu);
+            regexCheckboxSearchMenu.css("border","1px solid #a3a3a3");
+            regexCheckboxSearchMenu.css("background","white");
+            regexCheckboxSearchMenu.find("span").css("margin-left","10px");
+            regexCheckboxRowSearchMenu.css("margin","60px 20px 20px 20px");
+            regexCheckboxRowSearchMenu.css("position","absolute");
+            regexCheckboxRowSearchMenu.css("top","0");
+            regexCheckboxRowSearchMenu.css("left","0");
+            searchMenu.append(regexCheckboxRowSearchMenu);
+
+            var documentWidth = $(document).width();
+            var documentHeigth = $(document).height();
+            var documentCenter = documentWidth / 2;
+            var searchMenuLeft = documentCenter - 150;
+            var searchMenuLeftLine = String(searchMenuLeft) + "px";
+            searchMenu.css("width", "300px");
+            searchMenu.css("height", "150px");
+            searchMenu.css("position", "fixed");
+            searchMenu.css("bottom", "0");
+            searchMenu.css("left", searchMenuLeftLine);
+            searchMenu.css("border-top", "1px solid #a3a3a3");
+            searchMenu.css("border-left", "1px solid #a3a3a3");
+            searchMenu.css("border-right", "1px solid #a3a3a3");
+            searchMenu.css("border-bottom", "0");
+            searchMenu.css("background", "white");
+            searchMenu.css("z-index", "9999");
+
+            $("body").append(searchMenu);
+            
+            $("input#inputLineSearchMenu").focus();
+         }
+
+      }
+   });
+   $(document).keydown(function (event) {
+      //Search nodes. ctrl+alt+f.
+      if (event.ctrlKey == true && 
+          event.altKey == true &&
+          event.shiftKey == false &&
+          event.keyCode === 66) {
+
+         $("div#searchMenu div#runBackwardsSearchMenu span").click();
+      }
+   });
+
+   $(document).keydown(function (event) {
+      //Run search when search line in focus. Enter
+
+      if ($("div#searchMenu").length != 0 && 
+          event.keyCode === 13 &&
+          $("input#inputLineSearchMenu").is(":focus")) {
+         $("div#searchMenu div#runSearchMenu span").click();
+      }
+   });
+
 });
 //End of $(document).ready(
 function c(x, y) {
@@ -5573,14 +6098,14 @@ function makeNodeJsonLine(id, label, link, x, y) {
 	return json;
 }
 function countSelectedNodesAndEdges() {
-	var nodes = objectToArray(network.body.data.nodes);
-	var edges = objectToArray(network.body.data.edges);
-	console.log("All nodes: " + nodes.length);
-	console.log("All edges: " + edges.length);
-	var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
-	var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
-	console.log("Selected nodes: " + selectedNodes.length);
-	console.log("Selected edges: " + selectedEdges.length);
+   var nodes = objectToArray(network.body.nodes);
+   var edges = objectToArray(network.body.edges);
+   console.log("All nodes: " + nodes.length);
+   console.log("All edges: " + edges.length);
+   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
+   console.log("Selected nodes: " + selectedNodes.length);
+   console.log("Selected edges: " + selectedEdges.length);
 }
 function help() {
    console.log("localStorageSpace()");
@@ -5597,8 +6122,8 @@ function help() {
    console.log("joinNodesLabels()");
    console.log("distributeVertically(yStep)");
    console.log("addBranchToEachSelectedNode(newNodeLabel, stepYFromSelectedNodesRightSide)");
+   console.log("editNodesIds()");
 }
-
 function hideAllToDownloadNews(selectedNodesIds, selectedEdgesIds) {
    var nodes = objectToArray(network.body.nodes);
    var edges = objectToArray(network.body.edges);
@@ -5885,6 +6410,7 @@ function distributeVertically(yStep) {
   
    if (selectedNodes.length < 2) return;
 
+   //!!network.body.emitter.emit("startSimulation");
    var nodesPositions = network.getPositions();
 
    var updatedNodes = [];
@@ -5940,11 +6466,14 @@ function distributeVertically(yStep) {
       nodeD.y = topNode.y - i*yStep;
       network.body.data.nodes.update(nodeD);
 
+      //!!network.body.nodes[nodeId].y = Number(nodesPositions[nodeId].y - i*yStep);
+
       //n = network.body.data.nodes.get(nodeId);
 
       //network.body.data.nodes.update(n);
    }
 
+   //!!network.body.emitter.emit("startSimulation");
 }
 function joinNodesLabels() {
    var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
@@ -6026,12 +6555,15 @@ function addBranchToEachSelectedNode(newNodeLabel, stepYFromSelectedNodesRightSi
       }
    }
 
+   var date = new Date();
+   var idPostfix = date.getMilliseconds().toString().substring(-7).toString();
+
    for (var i in selectedNodes) {
 
       var rootNodeId = selectedNodes[i].id;
 
       var addedNodeId = network.body.data.nodes.add({
-         id: rootNodeId + "k" + String(i),
+         id: rootNodeId + "k" + idPostfix + String(i),
          label: newNodeLabel,
          x: selectedNodesMaxRightSide + stepYFromSelectedNodesRightSide,
          y: selectedNodes[i].y 
@@ -6043,4 +6575,99 @@ function addBranchToEachSelectedNode(newNodeLabel, stepYFromSelectedNodesRightSi
       });
 
    }
+}
+function editNodesIds() {
+
+   var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);
+
+   var nodes = [];
+   selectedNodes.forEach(function(node) {
+      nodes.push(network.body.data.nodes.get(node.id));
+   });
+
+   var prefix = "index-a_";
+
+   var pageNodes = objectToArray(network.body.nodes)
+   var pageNodeIds = [];
+   for (var i in pageNodes) {
+      pageNodeIds.push(pageNodes[i].id);
+   }
+
+   var pageNodeIdsWithPrefix = [];
+   for (var i in pageNodeIds) {
+      if (pageNodeIds[i].lastIndexOf(prefix, 0) === 0) pageNodeIdsWithPrefix.push(pageNodeIds[i]);
+   }
+
+   var prefixedNodeIdsNumbersParts = [];
+   for (var i in pageNodeIdsWithPrefix) {
+      prefixedNodeIdsNumbersParts.push(parseInt(pageNodeIdsWithPrefix[i].replace(prefix,""),10));
+   }
+   prefixedNodeIdsNumbersParts = prefixedNodeIdsNumbersParts.sort((a, b) => a - b);
+
+   var startingPrefixedNodeId = prefixedNodeIdsNumbersParts.slice(-1)[0];
+
+   if (typeof startingPrefixedNodeId === "undefined") {
+      startingPrefixedNodeId = 0;
+   } else {
+      startingPrefixedNodeId = parseInt(startingPrefixedNodeId, 10) + 1;
+   }
+
+   var nodeLabel = "";
+
+   nodeLabel += "#!/usr/bin/ruby\n" +
+                "#encoding: utf-8\n" +
+                "require 'fileutils'\n\n";
+
+   nodeLabel += "def newIndex(index)\n" + 
+               "   prefix = \"" + prefix + "\"\n" + 
+               "   newIndex = prefix + index.to_s\n" + 
+               "   newIndex\n" +
+               "end\n\n";
+
+   nodeLabel += "def backupFile(filePath)\n" + 
+               "   timeString = Time.new.strftime('%Y_%m_%d_%H_%M_%S')\n" + 
+               "   backupFilePath = filePath + '_' + timeString\n" + 
+               "   FileUtils.cp(filePath, backupFilePath)\n" + 
+               "end\n\n";
+
+   var filePath = window.location.href.replace("file://","").replace("html","") + "data.js";
+
+   nodeLabel += "filePath = '" + filePath + "'\n\n";
+
+   nodeLabel += "backupFile(filePath)\n\n";
+
+   function compare( a, b ) {
+      if ( a.y < b.y ){
+         return -1;
+      }
+      if ( a.y > b.y ){
+         return 1;
+      }
+      return 0;
+   }
+
+   nodes.sort(compare);
+
+   for (var i in nodes) {
+      console.log(String(i) + ", " + String(nodes.length - 1));
+      var n = nodes[i];
+      var newIndex = String(Number(i) + Number(startingPrefixedNodeId));
+      var regexLine = "s/\\\"" + String(n.id) + "\\\"/\\\"" + "#{newIndex(" + newIndex + ")}" + "\\\"/g";
+      var sedCommandLine = "sed -i '" + regexLine + "' #{filePath}" ;
+      var nodeLine = "p '" + String(i) + ". " + String(nodes.length - 1) + ". ' + filePath\n";
+      nodeLine += "system(\"" + sedCommandLine + "\")";
+      nodeLine += " #" + String(i) + ". " + n.label.replace(/\n/g," ").substring(0, 30) + "\n";
+      console.log(nodeLine);
+      nodeLabel += nodeLine;
+   }
+
+   var editNodeIdCodeNodeOptions = {
+      id: create_UUID(),
+      label: nodeLabel,
+      x: 0,
+      y: 0
+   };
+   
+   nodesToPaste.push(editNodeIdCodeNodeOptions);
+
 }

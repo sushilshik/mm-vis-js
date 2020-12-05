@@ -17,7 +17,7 @@ var getAllNewsProcessUp = false;
 
 var mvjCodePath = "/home/mike/progr/repo/mm-vis-js/utils/mvj-code.js";
 
-var rootBackupDirPath = "/tmp/mm-vis-js_serv_backup/";
+var rootBackupDirPath = "/home/mike/mm-vis-js_serv_backup/";
 if (!fs.existsSync(rootBackupDirPath)){
    fs.mkdirSync(rootBackupDirPath);
 }
@@ -50,6 +50,9 @@ app.get("/", function(request, response){ //root dir
     var lastDataPart = request.query.lastDataPart;
     var dataChunksLength = parseInt(request.query.dataChunksLength, 10);
     var buildProjectName = request.query.buildProjectName;
+    var runProject = request.query.runProject;
+
+    if (typeof runProject === "undefined" && runProject != "true") runProject = "false";
     
     //saveData[dataPartNumber] = JSON.parse(dataPart);
  
@@ -64,6 +67,7 @@ app.get("/", function(request, response){ //root dir
     }
 
     //process.stdout.write(dataPart);
+    fs.writeFileSync("./debug/dataPart" + String(dataPartNumber) + ".txt", dataPart);
     saveData[saveJobKey][dataPartNumber] = dataPart;
 
     console.log(dataPartNumber + ": " + saveTime + ", " + dataChunksLength + ", " + Object.keys(saveData[saveJobKey]).length);
@@ -93,18 +97,38 @@ app.get("/", function(request, response){ //root dir
 	fs.writeFileSync(path, data)
 	saveData[saveJobKey] = {};
 
-	if (typeof buildProjectName !== "undefined") {
-		var exec = require("child_process").exec;
-		var script = exec(mvjCodePath + " '" + path + "' '" + buildProjectName + "'",
-			(error, stdout, stderr) => {
-			    console.log(stdout);
-			    console.log(stderr);
-			    if (error !== null) {
-				console.log(`exec error: ${error}`);
-			    }
-			});
-                answerLine = JSON.stringify("saveAndBuild: " + buildProjectName);
-	}
+   if (typeof buildProjectName !== "undefined") {
+
+      var answerData = {buildProjectName: buildProjectName};
+      answerData.errorVal = "";
+      answerData.stdoutVal = "";
+      answerData.stderrVal = "";
+
+      var exec = require("child_process").execSync;
+      var scriptResult = exec(mvjCodePath + " '" + path + "' '" + buildProjectName + "' '" + runProject + "'",
+         (error, stdout, stderr) => {
+            if (error != null && error.trim() != "") {
+               answerData.errorVal = error.trim();
+               console.log("exec error: " + error);
+            }
+            if (stdout != null && stdout.trim() != "") {
+               answerData.stdoutVal = stdout.trim();
+               console.log("stdout: " + stdout);   
+            }
+            if (stderr != null && stderr.trim() != "") {
+               answerData.stderrVal = stderr.trim();
+               console.log("stderr: " + stderr); 
+            }
+            //console.log(`exec error: ${error}`);
+         }).toString();
+      answerData.scriptResult = scriptResult;
+      if (runProject == "true") {
+         answerData.runProjectCommandResult = answerData.scriptResult.split("runProjectResult:")[1].trim();
+      }
+      console.log(answerData.scriptResult);
+      //console.log(JSON.stringify(answerData));
+      answerLine = JSON.stringify(answerData);
+   }
     }
     response.send(answerLine);
 });
@@ -910,6 +934,7 @@ app.get("/getAllNews", function(request, response){
    };
    newsData.newsFilesData = {};
    newsData.newsFilesData["news1.data.js"] = {rootNodeId: "indx1_571"};
+   newsData.newsFilesData["news11.data.js"] = {rootNodeId: "indx1_571"};
    newsData.newsFilesData["news2.data.js"] = {rootNodeId: "indx1_352"};
    newsData.newsFilesData["news3.data.js"] = {rootNodeId: "indx1_274"};
    newsData.newsFilesData["news4.data.js"] = {rootNodeId: "indx1_459"};
@@ -917,8 +942,10 @@ app.get("/getAllNews", function(request, response){
    newsData.newsFilesData["news5.data.js"] = {rootNodeId: "indx1_287"};
    newsData.newsFilesData["news51.data.js"] = {rootNodeId: "indx1_245"};
    newsData.newsFilesData["news52.data.js"] = {rootNodeId: "indx1_219"};
+   newsData.newsFilesData["news53.data.js"] = {rootNodeId: "indx1_219"};
    newsData.newsFilesData["news6.data.js"] = {rootNodeId: "indx1_287"};
    newsData.newsFilesData["news61.data.js"] = {rootNodeId: "indx1_251"};
+   newsData.newsFilesData["news62.data.js"] = {rootNodeId: "indx1_251"};
    var newsDataYoutube = {
       channelsDownloadTimeStep: 1,
       allChannelsMap: {},
@@ -930,6 +957,7 @@ app.get("/getAllNews", function(request, response){
    newsDataYoutube.newsFilesData = {};
    newsDataYoutube.newsFilesData["youtube1.data.js"] = {rootNodeId: "indx1_1005"};
    newsDataYoutube.newsFilesData["youtube2.data.js"] = {rootNodeId: "indx1_1786"};
+   newsDataYoutube.newsFilesData["youtube3.data.js"] = {rootNodeId: "indx1_1786"};
 
    console.log("request.query.youtube: " + request.query.youtube);
    if (typeof queryYoutubeDownload !== "undefined" && queryYoutubeDownload == "true") {
@@ -1049,6 +1077,22 @@ app.get("/getWebPage", function(req, res){
    var answerLine = getPage(urlString, getRSSAnswer);
 */
 
+   var urlsToProxy = [
+      "http://gen.lib.rus.ec/rss/index.php"
+   ];
+
+   if (urlsToProxy.indexOf(urlString) != -1) {
+      var execSync1 = require('child_process').execSync;
+
+      var options = {encoding: 'utf8'};
+
+      var result = execSync1("/usr/bin/ruby /home/mike/progr/repo/mm-vis-js/utils/ruby_proxy.rb " + urlString, options);
+
+     var data = JSON.stringify(result);
+
+     res.send(data);
+   } else {
+
     var userAgentString = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"
 
     axios.get(urlString, { headers: { 'User-Agent': userAgentString }  })
@@ -1063,6 +1107,7 @@ app.get("/getWebPage", function(req, res){
         var data = JSON.stringify("Error");
         res.send(data);
     });
+   }
 
 });
 app.get("/getSavedNewsData", function(req, res){
@@ -1097,7 +1142,7 @@ app.get("/getSavedNewsData", function(req, res){
 
    for (var i in currentWorkNewsDataDatesListFiltered) {
       var dirDateLine = currentWorkNewsDataDatesListFiltered[i].trim();
-      var fileDateLine = currentWorkNewsDataDatesListFiltered[i].trim().replace(" y", "");
+      var fileDateLine = currentWorkNewsDataDatesListFiltered[i].trim().replace(" y", "").replace(" rss", "");
       var workNewsDataPath = "/home/mike/progr/repo/mm-vis-js/utils/newsDownloadedData/" +
                           "newsDownloadedData_" + dirDateLine + 
                           "/newsDownloadedData_" + fileDateLine + ".json";
@@ -1121,6 +1166,7 @@ app.get("/indexes", function(request, response){
 
 filesData = {};
 filesData["news1.data.js"] = "news1.data.js";
+filesData["news11.data.js"] = "news11.data.js";
 filesData["news2.data.js"] = "news2.data.js";
 filesData["news3.data.js"] = "news3.data.js";
 filesData["news4.data.js"] = "news4.data.js";
@@ -1128,10 +1174,13 @@ filesData["news41.data.js"] = "news41.data.js";
 filesData["news5.data.js"] = "news5.data.js";
 filesData["news51.data.js"] = "news51.data.js";
 filesData["news52.data.js"] = "news52.data.js";
+filesData["news53.data.js"] = "news53.data.js";
 filesData["news6.data.js"] = "news6.data.js";
 filesData["news61.data.js"] = "news61.data.js";
+filesData["news62.data.js"] = "news62.data.js";
 filesData["youtube1.data.js"] = "youtube1.data.js";
 filesData["youtube2.data.js"] = "youtube2.data.js";
+filesData["youtube3.data.js"] = "youtube3.data.js";
 filesData["mm-vis-js_code.data.js"] = "mm-vis-js_code.data.js";
 filesData["mm-vis-js_docs.data.js"] = "mm-vis-js_docs.data.js";
 filesData["index.data.js"] = "index.data.js";
@@ -1140,16 +1189,17 @@ filesData["culture.data.js"] = "culture.data.js";
 filesData["ruby.data.js"] = "ruby.data.js";
 filesData["javascript.data.js"] = "javascript.data.js";
 filesData["python.data.js"] = "python.data.js";
-filesData["music.data.js"] = "music.data.js";
+filesData["music1.data.js"] = "music1.data.js";
+filesData["music2.data.js"] = "music2.data.js";
 filesData["math.data.js"] = "math.data.js";
 filesData["code.data.js"] = "code.data.js";
 filesData["engineering.data.js"] = "engineering.data.js";
-filesData["music.data.js"] = "music.data.js";
 filesData["nature.data.js"] = "nature.data.js";
 filesData["timelines.data.js"] = "timelines.data.js";
 filesData["java.data.js"] = "java.data.js";
 filesData["java-api.data.js"] = "java-api.data.js";
 filesData["sa1.data.js"] = "sa1.data.js";
+filesData["lisp.data.js"] = "lisp.data.js";
 
 function rebuildIndexes(fileName) {
 
@@ -1258,7 +1308,7 @@ function rebuildIndexes(fileName) {
          //console.log("Short id: " + id);
          continue;
       }
-      var prefix = "indx1_";
+      var prefix = "indx2_";
       var newIdShift = parseInt(totalShortIds.length, 10) + 109;
       var newId = parseInt(i, 10) + newIdShift;
 

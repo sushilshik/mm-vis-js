@@ -273,7 +273,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "11/16/2019",
-          "x": 64303,
+          "x": 64229,
           "y": -4513,
           "id": "indx1_127"
         },
@@ -302,7 +302,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "init",
-          "x": 64203,
+          "x": 64338,
           "y": -4513,
           "id": "indx1_128"
         },
@@ -7322,7 +7322,7 @@ var schemeData =
         "indx1_592": {
           "label": "support POST",
           "link": "",
-          "x": 126696,
+          "x": 126680,
           "y": -9659,
           "id": "indx1_592",
           "color": {
@@ -7363,7 +7363,7 @@ var schemeData =
         "indx1_593": {
           "label": "require 'net/http'\nurl = URI.parse(\"http://localhost/\")\nreq = Net::HTTP::Get.new(url.to_s)\nres = NET::HTTP.start(url.host, url.port) {|http|\n   http.request(req)\n}\nputs res.body",
           "link": "",
-          "x": 126795,
+          "x": 126780,
           "y": -9568,
           "id": "indx1_593",
           "color": {
@@ -7403,7 +7403,7 @@ var schemeData =
         },
         "indx1_594": {
           "id": "indx1_594",
-          "x": 126872,
+          "x": 126858,
           "y": -9411,
           "label": "require 'open-uri'\nrequire 'net/http'\n\nuri = \"http://localhost:1234/...\"\nresponse = Net::HTTP.post_form(URI.parse(uri), {\"param1\" => \"asdf\"})\n\np response.code\np response.message\np response.body"
         },
@@ -7457,7 +7457,7 @@ var schemeData =
         "indx1_597": {
           "label": "installing with nokogiri",
           "link": "",
-          "x": 126715,
+          "x": 126704,
           "y": -9259,
           "id": "indx1_597",
           "color": {
@@ -7498,7 +7498,7 @@ var schemeData =
         "indx1_598": {
           "label": "don't support POST",
           "link": "",
-          "x": 126708,
+          "x": 126698,
           "y": -9235,
           "id": "indx1_598",
           "color": {
@@ -7539,7 +7539,7 @@ var schemeData =
         "indx1_599": {
           "label": "require 'open-uri'\nresponse = open(\"http://localhost/\").read",
           "link": "",
-          "x": 126774,
+          "x": 126763,
           "y": -9204,
           "id": "indx1_599",
           "color": {
@@ -7580,7 +7580,7 @@ var schemeData =
         "indx1_600": {
           "label": "require 'open-uri'\ncontent = URI(url).read",
           "link": "",
-          "x": 126719,
+          "x": 126708,
           "y": -9166,
           "id": "indx1_600",
           "color": {
@@ -49617,7 +49617,7 @@ var schemeData =
           "label": "11/16/2019",
           "id": "indx1_2695",
           "x": 64462,
-          "y": -7738,
+          "y": -7742,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -49726,6 +49726,53 @@ var schemeData =
           "shape": "box",
           "link": "",
           "borderWidth": "0"
+        },
+        "index-a_0": {
+          "id": "index-a_0",
+          "x": 126507,
+          "y": -9021,
+          "label": "socksify",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "index-a_1": {
+          "id": "index-a_1",
+          "x": 126884,
+          "y": -9033,
+          "label": "http://rpm.repo.onapp.com/sources/rubygem-socksify-1.7.1/socksify-1.7.1/doc/",
+          "link": "http://rpm.repo.onapp.com/sources/rubygem-socksify-1.7.1/socksify-1.7.1/doc/"
+        },
+        "index-a_2": {
+          "id": "index-a_2",
+          "x": 126943,
+          "y": -9059,
+          "label": "SOCKSify Ruby redirects any TCP connection initiated by a Ruby script through a SOCKS5 proxy."
+        },
+        "index-a_3": {
+          "id": "index-a_3",
+          "x": 126747,
+          "y": -8973,
+          "label": "require 'socksify'\nrequire 'open-uri'\nSocksify::proxy(\"127.0.0.1\", 9050) {\n  p open('http://rubyforge.org').read\n}",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         }
       },
       "length": 0,
@@ -67716,6 +67763,26 @@ var schemeData =
           "id": "indx1_7845",
           "from": "indx1_2694",
           "to": "indx1_2698"
+        },
+        "indx2_10419": {
+          "from": "index-a_0",
+          "to": "index-a_1",
+          "id": "indx2_10419"
+        },
+        "indx2_10420": {
+          "from": "index-a_0",
+          "to": "index-a_2",
+          "id": "indx2_10420"
+        },
+        "indx2_10421": {
+          "from": "index-a_0",
+          "to": "index-a_3",
+          "id": "indx2_10421"
+        },
+        "indx2_10422": {
+          "from": "indx1_571",
+          "to": "index-a_0",
+          "id": "indx2_10422"
         }
       },
       "length": 0,
@@ -67755,8 +67822,8 @@ var schemeData =
   "setup": {
     "scale": 0.014,
     "viewPosition": {
-      "x": 106403.00000142859,
-      "y": 14199.999995714286
+      "x": 106402.99999714288,
+      "y": 14200.000001428569
     }
   }
 }

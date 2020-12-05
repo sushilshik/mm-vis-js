@@ -16,6 +16,10 @@ console.log("mvj-code->dataPath: " + path);
 var projectName = process.argv[3]; 
 console.log("mvj-code->projectName: " + projectName);
 
+var runProject = process.argv[4];
+if (typeof runProject === "undefined" && runProject != "true") runProject = "false";
+console.log("mvj-code->runProject: " + runProject);
+
 var contents = fs.readFileSync(path, 'utf8');
 //contents = contents.replace(/^var schemeData =/, "");
 contents = contents.split("\n");
@@ -67,23 +71,26 @@ for (var key in nodes) {
 	}
 }
 for (var keyE in edges) {
-	if (edges[keyE].from == setupNodeId && (typeof nodes[edges[keyE].to] !== "undefined")) {
-		var nodeId = edges[keyE].to;
-		if (nodes[nodeId].label.startsWith("projectPath")) {
-			setup["projectPath"] = nodes[nodeId].label.replace("projectPath: ", "");
-		}
-		if (nodes[nodeId].label.startsWith("backupPaths")) {
-			setup["backupPaths"] = nodes[nodeId].label.replace("backupPaths: ", "");
-			setup["backupPaths"] = JSON.parse(setup["backupPaths"]);
-		}
-		if (nodes[nodeId].label.startsWith("jsFilesLinksParam")) {
-			setup["jsFilesLinksParam"] = nodes[nodeId].label.replace("jsFilesLinksParam:", "").trim();
-			setup["jsFilesLinksParam"] = parseInt(setup["jsFilesLinksParam"], 10);
-		}
-		if (nodes[nodeId].label.startsWith("readLocalUserConfig")) {
-			setup["readLocalUserConfig"] = nodes[nodeId].label.replace("readLocalUserConfig:", "").trim();
-		}
-	}
+   if (edges[keyE].from == setupNodeId && (typeof nodes[edges[keyE].to] !== "undefined")) {
+      var nodeId = edges[keyE].to;
+      if (nodes[nodeId].label.startsWith("projectPath")) {
+         setup["projectPath"] = nodes[nodeId].label.replace("projectPath: ", "");
+      }
+      if (nodes[nodeId].label.startsWith("backupPaths")) {
+         setup["backupPaths"] = nodes[nodeId].label.replace("backupPaths: ", "");
+         setup["backupPaths"] = JSON.parse(setup["backupPaths"]);
+      }
+      if (nodes[nodeId].label.startsWith("jsFilesLinksParam")) {
+         setup["jsFilesLinksParam"] = nodes[nodeId].label.replace("jsFilesLinksParam:", "").trim();
+         setup["jsFilesLinksParam"] = parseInt(setup["jsFilesLinksParam"], 10);
+      }
+      if (nodes[nodeId].label.startsWith("readLocalUserConfig")) {
+         setup["readLocalUserConfig"] = nodes[nodeId].label.replace("readLocalUserConfig:", "").trim();
+      }
+      if (nodes[nodeId].label.startsWith("runProjectCommand")) {
+         setup["runProjectCommand"] = nodes[nodeId].label.replace("runProjectCommand:", "").trim();
+      }
+   }
 }
 if (typeof setup["readLocalUserConfig"] !== "undefined" && setup["readLocalUserConfig"] == "true") {
    setup["userConfData"] = fs.readFileSync(userConfPath, 'utf8');
@@ -175,7 +182,7 @@ if (!fs.existsSync(backupDirPath)){
    fs.mkdirSync(backupDirPath);
 }
 
-var shell = require('child_process').execSync ; 
+var shell1 = require('child_process').execSync ; 
 setup["backupPaths"].forEach(function(backupPath) {
    console.log("backupPath: " + backupPath);
    var command = "rsync -av " +
@@ -187,7 +194,7 @@ setup["backupPaths"].forEach(function(backupPath) {
                  backupPath + "' '" + 
                  backupDirPath + "'";
    console.log(command);
-   shell(command);
+   shell1(command);
 });
 
 var projectPath = setup["projectPath"];
@@ -206,4 +213,27 @@ for (var key in files) {
    var fileContent = files[key].fileContent;
    console.log("filePath: " + filePath);
    fs.writeFileSync(filePath, fileContent);
+}
+
+if (runProject == "true" && typeof setup["runProjectCommand"] === "undefined") {
+   //"runProjectResult:" - delimiter. In mvj-serv.js output of mvj-code.js is separated by this delimiter.
+   //to return result of "runProject" operation
+   console.log("runProjectResult:");
+   console.log("ERROR: typeof runProjectCommand === 'undefined'");
+}
+if (runProject == "true" && typeof setup["runProjectCommand"] !== "undefined" &&
+    setup["runProjectCommand"] == "") {
+   console.log("runProjectResult:");
+   console.log("ERROR: runProjectCommand == ''");
+}
+
+var shell2 = require('child_process').execSync;
+
+if (typeof setup["runProjectCommand"] !== "undefined" &&
+    setup["runProjectCommand"] != "" &&
+    runProject == "true") {
+   console.log("runProjectCommand: " + setup["runProjectCommand"]);
+   result = shell2(setup["runProjectCommand"]).toString();
+   console.log("runProjectResult:");
+   console.log(result);
 }
