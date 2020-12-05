@@ -12776,7 +12776,7 @@ var schemeData =
           "id": "indx1_593",
           "x": 41148,
           "y": -14076,
-          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\nnews41.html \\\nnews41.data.js \\\nnews5.html \\\nnews5.data.js \\\nnews51.html \\\nnews51.data.js \\\nnews52.html \\\nnews52.data.js \\\nnews6.html \\\nnews6.data.js \\\nnews61.html \\\nnews61.data.js \\\nyoutube1.html \\\nyoutube1.data.js \\\nyoutube2.html \\\nyoutube2.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nnature.html \\\nnature.data.js \\\njava.html \\\njava.data.js \\\njava-api.html \\\njava-api.data.js \\\nsa1.html \\\nsa1.data.js \\\nadmin.html \\\nadmin.data.js \\\n../../sushilshik.github.io/",
+          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\nnews41.html \\\nnews41.data.js \\\nnews5.html \\\nnews5.data.js \\\nnews51.html \\\nnews51.data.js \\\nnews52.html \\\nnews52.data.js \\\nnews6.html \\\nnews6.data.js \\\nnews61.html \\\nnews61.data.js \\\nyoutube1.html \\\nyoutube1.data.js \\\nyoutube2.html \\\nyoutube2.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nnature.html \\\nnature.data.js \\\njava.html \\\njava.data.js \\\njava-api.html \\\njava-api.data.js \\\nsa1.html \\\nsa1.data.js \\\nadmin.html \\\nadmin.data.js \\\nmusic1.html \\\nmusic1.data.js \\\nmusic2.html \\\nmusic2.data.js \\\n../../sushilshik.github.io/",
           "shape": "box",
           "link": "",
           "font": {
@@ -25197,7 +25197,7 @@ var schemeData =
           "id": "indx1_1361",
           "x": 40539,
           "y": -10326,
-          "label": "jsFilesLinksParam:267",
+          "label": "jsFilesLinksParam:270",
           "shape": "box",
           "link": "",
           "font": {
@@ -88797,10 +88797,10 @@ var schemeData =
     }
   },
   "setup": {
-    "scale": 0.017403404764006595,
+    "scale": 0.01,
     "viewPosition": {
-      "x": 49309.406560978416,
-      "y": 117816.02090778093
+      "x": 65673,
+      "y": 17507.999999999993
     }
   }
 }
