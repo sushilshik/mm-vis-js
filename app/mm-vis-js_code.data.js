@@ -1955,7 +1955,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditNodesMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar selectionRectangleDrag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar cancelEdgeEditVar = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastEditedEdgesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar edgeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news11.html\",\n   \"news2.html\",\n   \"news3.html\",\n   \"news4.html\",\n   \"news41.html\",\n   \"news5.html\",\n   \"news51.html\",\n   \"news52.html\",\n   \"news53.html\",\n   \"news6.html\",\n   \"news61.html\",\n   \"news62.html\",\n   \"youtube1.html\",\n   \"youtube2.html\",\n   \"youtube3.html\",\n   \"base.html\",\n   \"start_page.html\",\n   \"tmp.html\",\n   \"tmp1.html\",\n   \"nature.html\",\n   \"timelines.html\",\n   \"music1.html\",\n   \"music2.html\",\n   \"java.html\",\n   \"java-api.html\",\n   \"sa1.html\",\n   \"sa2.html\",\n   \"lisp.html\"\n];\nvar lastSelectedNodeId = null;\nvar lastSelectedEdgeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\nvar cursorNodeId = null;\nvar keyboardMoveSelectedEnabled = false;\nvar copiedNodeStyleColor = \"\";\nvar copiedNodeStyleFontSize = \"\";\nvar nextOperationMultiplier = \"\";\ndocument.alertCounter = 0;\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
+          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditNodesMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar selectionRectangleDrag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar cancelEdgeEditVar = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastEditedEdgesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar edgeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news11.html\",\n   \"news2.html\",\n   \"news3.html\",\n   \"news4.html\",\n   \"news41.html\",\n   \"news5.html\",\n   \"news51.html\",\n   \"news52.html\",\n   \"news53.html\",\n   \"news6.html\",\n   \"news61.html\",\n   \"news7.html\",\n   \"youtube1.html\",\n   \"youtube2.html\",\n   \"youtube3.html\",\n   \"base.html\",\n   \"start_page.html\",\n   \"tmp.html\",\n   \"tmp1.html\",\n   \"nature.html\",\n   \"timelines.html\",\n   \"music1.html\",\n   \"music2.html\",\n   \"java.html\",\n   \"java-api.html\",\n   \"sa1.html\",\n   \"sa2.html\",\n   \"lisp.html\"\n];\nvar lastSelectedNodeId = null;\nvar lastSelectedEdgeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\nvar cursorNodeId = null;\nvar keyboardMoveSelectedEnabled = false;\nvar copiedNodeStyleColor = \"\";\nvar copiedNodeStyleFontSize = \"\";\nvar nextOperationMultiplier = \"\";\ndocument.alertCounter = 0;\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
           "x": 38920,
           "y": -5938,
           "id": "indx1_189",
@@ -5065,7 +5065,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "mm-vis-js",
           "x": 39620,
-          "y": -11192,
+          "y": -10460,
           "id": "indx1_289",
           "shape": "box",
           "link": "",
@@ -5097,7 +5097,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 40253,
-          "y": -10810,
+          "y": -10078,
           "id": "indx1_290"
         },
         "indx1_291": {
@@ -5129,7 +5129,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/18/2019",
           "x": 40432,
-          "y": -10809,
+          "y": -10077,
           "id": "indx1_291",
           "shape": "box",
           "link": "",
@@ -5161,7 +5161,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 40515,
-          "y": -10809,
+          "y": -10077,
           "id": "indx1_292"
         },
         "indx1_293": {
@@ -5190,7 +5190,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 40253,
-          "y": -11660,
+          "y": -10928,
           "id": "indx1_293"
         },
         "indx1_294": {
@@ -5248,7 +5248,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 40462,
-          "y": -11980,
+          "y": -11248,
           "id": "indx1_295"
         },
         "indx1_296": {
@@ -5277,7 +5277,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 40403,
-          "y": -11410,
+          "y": -10678,
           "id": "indx1_296"
         },
         "indx1_297": {
@@ -5306,7 +5306,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 40467,
-          "y": -11560,
+          "y": -10828,
           "id": "indx1_297"
         },
         "indx1_298": {
@@ -5335,7 +5335,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 40497,
-          "y": -11535,
+          "y": -10803,
           "id": "indx1_298"
         },
         "indx1_299": {
@@ -5364,7 +5364,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 40463,
-          "y": -11510,
+          "y": -10778,
           "id": "indx1_299"
         },
         "indx1_300": {
@@ -5393,7 +5393,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 40482,
-          "y": -11485,
+          "y": -10753,
           "id": "indx1_300"
         },
         "indx1_301": {
@@ -5422,7 +5422,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 40470,
-          "y": -11460,
+          "y": -10728,
           "id": "indx1_301"
         },
         "indx1_302": {
@@ -5451,7 +5451,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 40492,
-          "y": -11435,
+          "y": -10703,
           "id": "indx1_302"
         },
         "indx1_303": {
@@ -5480,7 +5480,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 40495,
-          "y": -11410,
+          "y": -10678,
           "id": "indx1_303"
         },
         "indx1_304": {
@@ -5509,7 +5509,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 40473,
-          "y": -11385,
+          "y": -10653,
           "id": "indx1_304"
         },
         "indx1_305": {
@@ -5538,7 +5538,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 40464,
-          "y": -11360,
+          "y": -10628,
           "id": "indx1_305"
         },
         "indx1_306": {
@@ -5567,7 +5567,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 40491,
-          "y": -11335,
+          "y": -10603,
           "id": "indx1_306"
         },
         "indx1_307": {
@@ -5596,7 +5596,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 40478,
-          "y": -11310,
+          "y": -10578,
           "id": "indx1_307"
         },
         "indx1_308": {
@@ -5625,7 +5625,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 40499,
-          "y": -11285,
+          "y": -10553,
           "id": "indx1_308"
         },
         "indx1_309": {
@@ -5654,7 +5654,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 40464,
-          "y": -11260,
+          "y": -10528,
           "id": "indx1_309"
         },
         "indx1_310": {
@@ -5683,7 +5683,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 40503,
-          "y": -11235,
+          "y": -10503,
           "id": "indx1_310"
         },
         "indx1_311": {
@@ -5712,7 +5712,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 40253,
-          "y": -11110,
+          "y": -10378,
           "id": "indx1_311"
         },
         "indx1_312": {
@@ -5741,7 +5741,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 40253,
-          "y": -11010,
+          "y": -10278,
           "id": "indx1_312"
         },
         "indx1_313": {
@@ -5770,7 +5770,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 40253,
-          "y": -10910,
+          "y": -10178,
           "id": "indx1_313"
         },
         "indx1_314": {
@@ -5911,7 +5911,7 @@ var schemeData =
           "label": "mvj code setup for project name: mm-vis-js",
           "id": "indx1_317",
           "x": 39809,
-          "y": -10410,
+          "y": -9678,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5946,7 +5946,7 @@ var schemeData =
           "label": "projectPath: /home/mike/progr/repo/mm-vis-js",
           "id": "indx1_318",
           "x": 40610,
-          "y": -10473,
+          "y": -9741,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -5981,7 +5981,7 @@ var schemeData =
           "label": "backupPaths: [\n\"/home/mike/progr/repo/mm-vis-js\"\n]",
           "id": "indx1_319",
           "x": 40576,
-          "y": -10402,
+          "y": -9670,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8187,13 +8187,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0121, x: 112580, y: 28012};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.012, x: 109274, y: 26359};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68147,
           "y": 35962,
           "id": "indx1_449",
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_450": {
           "color": {
@@ -8591,7 +8591,7 @@ var schemeData =
         "indx1_464": {
           "id": "indx1_464",
           "x": 40987,
-          "y": -12122,
+          "y": -11390,
           "label": "This is root scheme for mm-vis-js project. This scheme with red node \"mm-vis-js\"",
           "shape": "box",
           "link": "",
@@ -8608,19 +8608,19 @@ var schemeData =
         "indx1_465": {
           "id": "indx1_465",
           "x": 40794,
-          "y": -11912,
+          "y": -11180,
           "label": "How to build project"
         },
         "indx1_466": {
           "id": "indx1_466",
           "x": 41167,
-          "y": -12003,
+          "y": -11271,
           "label": "start mvj-serv.js from mm-vis-js/utils/"
         },
         "indx1_467": {
           "id": "indx1_467",
           "x": 41413,
-          "y": -12000,
+          "y": -11268,
           "label": "$ node mvj-serv.js",
           "shape": "box",
           "link": "",
@@ -8637,7 +8637,7 @@ var schemeData =
         "indx1_468": {
           "id": "indx1_468",
           "x": 41502,
-          "y": -12037,
+          "y": -11305,
           "label": "check port number in mvj-serv.js script - 3001.",
           "shape": "box",
           "link": "",
@@ -9651,13 +9651,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0177, x: 95403, y: 7200};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"culture.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.016, x: 95937, y: 8521};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"culture.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68178,
           "y": 38943,
           "id": "indx1_498",
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_499": {
           "id": "indx1_499",
@@ -11679,13 +11679,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 106403, y: 14200};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"ruby.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.015, x: 98162, y: 11141};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"ruby.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68133,
           "y": 42312,
           "id": "indx1_557",
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_558": {
           "id": "indx1_558",
@@ -12769,14 +12769,14 @@ var schemeData =
         "indx1_592": {
           "id": "indx1_592",
           "x": 40775,
-          "y": -12659,
+          "y": -11927,
           "label": "git and github"
         },
         "indx1_593": {
           "id": "indx1_593",
           "x": 41148,
-          "y": -14076,
-          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic.html \\\nmusic.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\nnews41.html \\\nnews41.data.js \\\nnews5.html \\\nnews5.data.js \\\nnews51.html \\\nnews51.data.js \\\nnews52.html \\\nnews52.data.js \\\nnews6.html \\\nnews6.data.js \\\nnews61.html \\\nnews61.data.js \\\nyoutube1.html \\\nyoutube1.data.js \\\nyoutube2.html \\\nyoutube2.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nnature.html \\\nnature.data.js \\\njava.html \\\njava.data.js \\\njava-api.html \\\njava-api.data.js \\\nsa1.html \\\nsa1.data.js \\\nadmin.html \\\nadmin.data.js \\\nmusic1.html \\\nmusic1.data.js \\\nmusic2.html \\\nmusic2.data.js \\\n../../sushilshik.github.io/",
+          "y": -13710,
+          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic1.html \\\nmusic1.data.js \\\nmusic2.html \\\nmusic2.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews11.html \\\nnews11.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\nnews41.html \\\nnews41.data.js \\\nnews5.html \\\nnews5.data.js \\\nnews51.html \\\nnews51.data.js \\\nnews52.html \\\nnews52.data.js \\\nnews53.html \\\nnews53.data.js \\\nnews6.html \\\nnews6.data.js \\\nnews61.html \\\nnews61.data.js \\\nnews7.html \\\nnews7.data.js \\\nyoutube1.html \\\nyoutube1.data.js \\\nyoutube2.html \\\nyoutube2.data.js \\\nyoutube3.html \\\nyoutube3.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nnature.html \\\nnature.data.js \\\njava.html \\\njava.data.js \\\njava-api.html \\\njava-api.data.js \\\nsa1.html \\\nsa1.data.js \\\nadmin.html \\\nadmin.data.js \\\nlisp.html \\\nlisp.data.js \\\n../../sushilshik.github.io/",
           "shape": "box",
           "link": "",
           "font": {
@@ -12792,25 +12792,25 @@ var schemeData =
         "indx1_594": {
           "id": "indx1_594",
           "x": 41002,
-          "y": -12639,
+          "y": -11907,
           "label": "git commit -a -m \"...\""
         },
         "indx1_595": {
           "id": "indx1_595",
           "x": 40967,
-          "y": -12689,
+          "y": -11957,
           "label": "git add ..."
         },
         "indx1_596": {
           "id": "indx1_596",
           "x": 41357,
-          "y": -12691,
+          "y": -11959,
           "label": "check git add on sushilshik.github repository"
         },
         "indx1_597": {
           "id": "indx1_597",
           "x": 41006,
-          "y": -12602,
+          "y": -11870,
           "label": "git push origin master"
         },
         "indx1_598": {
@@ -13118,7 +13118,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0113, x: 105403, y: 24500};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music1.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98173, y: 12615};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music1.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68325,
           "y": 49556,
           "id": "indx1_606",
@@ -18173,13 +18173,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.011, x: 110003, y: 17300};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"python.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.018, x: 88793, y: 6860};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"python.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84692,
           "y": 16184,
           "id": "indx1_764",
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_765": {
           "id": "indx1_765",
@@ -18201,20 +18201,20 @@ var schemeData =
         "indx1_766": {
           "id": "indx1_766",
           "x": 40789,
-          "y": -12253,
+          "y": -11521,
           "label": "packages to install"
         },
         "indx1_767": {
           "id": "indx1_767",
           "x": 41008,
-          "y": -12300,
+          "y": -11568,
           "label": "nodejs"
         },
         "indx1_768": {
           "label": "python",
           "link": "",
           "x": 41008,
-          "y": -12276,
+          "y": -11544,
           "id": "indx1_768",
           "color": {
             "highlight": {
@@ -18255,7 +18255,7 @@ var schemeData =
           "label": "TexLive",
           "link": "",
           "x": 41011,
-          "y": -12252,
+          "y": -11520,
           "id": "indx1_769",
           "color": {
             "highlight": {
@@ -18296,7 +18296,7 @@ var schemeData =
           "label": "tex-preview",
           "link": "",
           "x": 41023,
-          "y": -12228,
+          "y": -11496,
           "id": "indx1_770",
           "color": {
             "highlight": {
@@ -18337,7 +18337,7 @@ var schemeData =
           "label": "sympy",
           "link": "",
           "x": 41007,
-          "y": -12204,
+          "y": -11472,
           "id": "indx1_771",
           "color": {
             "highlight": {
@@ -18378,7 +18378,7 @@ var schemeData =
           "label": "texlive-collection-latexextra",
           "link": "",
           "x": 41072,
-          "y": -12180,
+          "y": -11448,
           "id": "indx1_772",
           "color": {
             "highlight": {
@@ -18418,13 +18418,13 @@ var schemeData =
         "indx1_773": {
           "id": "indx1_773",
           "x": 41062,
-          "y": -12492,
+          "y": -11760,
           "label": "Update links to images in image nodes"
         },
         "indx1_774": {
           "id": "indx1_774",
           "x": 41820,
-          "y": -12541,
+          "y": -11809,
           "label": "network.body.data.nodes.get().forEach(function(node) {\n   if (typeof node[\"image\"] !== 'undefined') {\n      //Line to prepare for push to github.\n      //node.image = node.image.replace(\"https://localhost:3001\",\"\");\n      //Line to prepare for local work.\n      //node.image = node.image.replace(\"/public/imgs\",\"https://localhost:3001/public/imgs\");\n      network.body.data.nodes.update(node);\n   }\n});",
           "shape": "box",
           "link": "",
@@ -18441,7 +18441,7 @@ var schemeData =
         "indx1_775": {
           "id": "indx1_775",
           "x": 41332,
-          "y": -12535,
+          "y": -11803,
           "label": "run in console for page with images",
           "shape": "box",
           "link": "",
@@ -18458,38 +18458,38 @@ var schemeData =
         "indx1_776": {
           "id": "indx1_776",
           "x": 42318,
-          "y": -12550,
+          "y": -11818,
           "label": "Нужно доработать - съезжают координаты нод"
         },
         "indx1_777": {
           "id": "indx1_777",
           "x": 41372,
-          "y": -12412,
+          "y": -11680,
           "label": "Replace paths in ...data.js file with vim. (Fast fix)"
         },
         "indx1_778": {
           "id": "indx1_778",
           "x": 41761,
-          "y": -12410,
+          "y": -11678,
           "label": "%s/https:\\/\\/localhost:3001\\/public\\/imgs/\\/public\\/imgs/g"
         },
         "indx1_779": {
           "id": "indx1_779",
           "x": 42312,
-          "y": -12510,
+          "y": -11778,
           "label": "Вместо этого пока исправляем ссылки в vim."
         },
         "indx1_780": {
           "id": "indx1_780",
           "x": 41153,
-          "y": -11905,
+          "y": -11173,
           "label": "Select any mm-vis-js code node"
         },
         "indx1_781": {
           "label": "Press alt+b",
           "link": "",
           "x": 41088,
-          "y": -11871,
+          "y": -11139,
           "id": "indx1_781",
           "color": {
             "highlight": {
@@ -18529,7 +18529,7 @@ var schemeData =
         "indx1_782": {
           "id": "indx1_782",
           "x": 41258,
-          "y": -11832,
+          "y": -11100,
           "label": "Wait for save alert on top right of page. Or even check messages\nin browser console that everything is ok.",
           "shape": "box",
           "link": "",
@@ -18546,7 +18546,7 @@ var schemeData =
         "indx1_783": {
           "id": "indx1_783",
           "x": 41879,
-          "y": -12038,
+          "y": -11306,
           "label": "Change it in mvj-serv.js and in build script above, if you need."
         },
         "indx1_784": {
@@ -22496,13 +22496,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news1.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 97442, y: 8764};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news1.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1153",
           "x": 84777,
           "y": 24162,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1154": {
           "color": {
@@ -25196,8 +25196,8 @@ var schemeData =
         "indx1_1361": {
           "id": "indx1_1361",
           "x": 40539,
-          "y": -10326,
-          "label": "jsFilesLinksParam:270",
+          "y": -9594,
+          "label": "jsFilesLinksParam:271",
           "shape": "box",
           "link": "",
           "font": {
@@ -25213,7 +25213,7 @@ var schemeData =
         "indx1_1362": {
           "id": "indx1_1362",
           "x": 41356,
-          "y": -11946,
+          "y": -11214,
           "label": "Set incremental number in \"mvj code setup for project name: mm-vis-js\"->\"jsFilesLinksParam:...\"",
           "shape": "box",
           "link": "",
@@ -25230,7 +25230,7 @@ var schemeData =
         "indx1_1363": {
           "id": "indx1_1363",
           "x": 40551,
-          "y": -10273,
+          "y": -9541,
           "label": "readLocalUserConfig: false",
           "shape": "box",
           "link": "",
@@ -25291,7 +25291,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1365",
           "x": 81880,
-          "y": 25295,
+          "y": 29498,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25327,7 +25327,7 @@ var schemeData =
           "label": "file path: ./app/news2.html",
           "id": "indx1_1366",
           "x": 82862,
-          "y": 25296,
+          "y": 29499,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25359,7 +25359,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1367",
           "x": 83486,
-          "y": 25282
+          "y": 29485
         },
         "indx1_1368": {
           "color": {
@@ -25392,7 +25392,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 2 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_1368",
           "x": 84054,
-          "y": 25266,
+          "y": 29469,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25424,7 +25424,7 @@ var schemeData =
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "id": "indx1_1369",
           "x": 84518,
-          "y": 25608
+          "y": 29811
         },
         "indx1_1370": {
           "color": {
@@ -25453,7 +25453,7 @@ var schemeData =
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "id": "indx1_1370",
           "x": 84690,
-          "y": 26164
+          "y": 30367
         },
         "indx1_1371": {
           "color": {
@@ -25483,13 +25483,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 92571, y: 5488};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1371",
           "x": 84816,
-          "y": 27636,
+          "y": 31839,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1372": {
           "color": {
@@ -25518,12 +25518,12 @@ var schemeData =
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "id": "indx1_1372",
           "x": 84542,
-          "y": 26902
+          "y": 31105
         },
         "indx1_1373": {
           "id": "indx1_1373",
           "x": 89511,
-          "y": 26159,
+          "y": 30362,
           "label": "mm-vis-js:\n./app/news2.html",
           "shape": "box",
           "link": "",
@@ -26107,7 +26107,7 @@ var schemeData =
         "indx1_1446": {
           "id": "indx1_1446",
           "x": 40775,
-          "y": -10271,
+          "y": -9539,
           "label": "set \"false\" for Github build",
           "shape": "box",
           "link": "",
@@ -27986,7 +27986,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1515",
           "x": 81997,
-          "y": 29045,
+          "y": 33248,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28022,7 +28022,7 @@ var schemeData =
           "label": "file path: ./app/news3.html",
           "id": "indx1_1516",
           "x": 82979,
-          "y": 29046,
+          "y": 33249,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28054,7 +28054,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1517",
           "x": 83603,
-          "y": 29032
+          "y": 33235
         },
         "indx1_1518": {
           "color": {
@@ -28087,7 +28087,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 3 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_1518",
           "x": 84171,
-          "y": 29016,
+          "y": 33219,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28119,7 +28119,7 @@ var schemeData =
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "id": "indx1_1519",
           "x": 84635,
-          "y": 29358
+          "y": 33561
         },
         "indx1_1520": {
           "color": {
@@ -28148,7 +28148,7 @@ var schemeData =
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "id": "indx1_1520",
           "x": 84807,
-          "y": 29914
+          "y": 34117
         },
         "indx1_1521": {
           "color": {
@@ -28178,13 +28178,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news3.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 91977, y: 3878};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news3.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1521",
           "x": 84933,
-          "y": 31386,
+          "y": 35589,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1522": {
           "color": {
@@ -28213,7 +28213,7 @@ var schemeData =
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "id": "indx1_1522",
           "x": 84659,
-          "y": 30652
+          "y": 34855
         },
         "indx1_1523": {
           "color": {
@@ -28244,7 +28244,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/news3.html",
           "id": "indx1_1523",
           "x": 89511,
-          "y": 29909,
+          "y": 34112,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28374,7 +28374,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1530",
           "x": 82105,
-          "y": 39794,
+          "y": 43997,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28410,7 +28410,7 @@ var schemeData =
           "label": "file path: ./app/timelines.html",
           "id": "indx1_1531",
           "x": 83130,
-          "y": 39787,
+          "y": 43990,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28442,7 +28442,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1532",
           "x": 83649,
-          "y": 39773
+          "y": 43976
         },
         "indx1_1533": {
           "color": {
@@ -28473,7 +28473,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 84624,
-          "y": 40037,
+          "y": 44240,
           "id": "indx1_1533",
           "shape": "box",
           "link": "",
@@ -28508,7 +28508,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 84796,
-          "y": 40567,
+          "y": 44770,
           "id": "indx1_1534",
           "shape": "box",
           "link": "",
@@ -28543,7 +28543,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 84648,
-          "y": 41267,
+          "y": 45470,
           "id": "indx1_1535",
           "shape": "box",
           "link": "",
@@ -28579,7 +28579,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0145, x: 106371, y: 12854};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"timelines.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84958,
-          "y": 42022,
+          "y": 46225,
           "id": "indx1_1536",
           "shape": "box",
           "link": "",
@@ -28616,7 +28616,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/timelines.html",
           "id": "indx1_1537",
           "x": 90039,
-          "y": 40658,
+          "y": 44861,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28859,7 +28859,7 @@ var schemeData =
         "indx1_1546": {
           "id": "indx1_1546",
           "x": 84207,
-          "y": 39733,
+          "y": 43936,
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Timelines &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "shape": "box",
           "link": "",
@@ -28903,7 +28903,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1547",
           "x": 82139,
-          "y": 43389,
+          "y": 47592,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28939,7 +28939,7 @@ var schemeData =
           "label": "file path: ./app/nature.html",
           "id": "indx1_1548",
           "x": 83164,
-          "y": 43382,
+          "y": 47585,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -28971,7 +28971,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1549",
           "x": 83683,
-          "y": 43368
+          "y": 47571
         },
         "indx1_1550": {
           "color": {
@@ -29002,7 +29002,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 84658,
-          "y": 43632,
+          "y": 47835,
           "id": "indx1_1550",
           "shape": "box",
           "link": "",
@@ -29037,7 +29037,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 84830,
-          "y": 44162,
+          "y": 48365,
           "id": "indx1_1551",
           "shape": "box",
           "link": "",
@@ -29072,7 +29072,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 84682,
-          "y": 44862,
+          "y": 49065,
           "id": "indx1_1552",
           "shape": "box",
           "link": "",
@@ -29108,7 +29108,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0145, x: 106371, y: 12854};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"nature.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84992,
-          "y": 45617,
+          "y": 49820,
           "id": "indx1_1553",
           "shape": "box",
           "link": "",
@@ -29145,7 +29145,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/nature.html",
           "id": "indx1_1554",
           "x": 89484,
-          "y": 44320,
+          "y": 48523,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29179,7 +29179,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Nature &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_1555",
           "x": 84241,
-          "y": 43328,
+          "y": 47531,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29214,7 +29214,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1556",
           "x": 82109,
-          "y": 46845,
+          "y": 51048,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29250,7 +29250,7 @@ var schemeData =
           "label": "file path: ./app/economy.html",
           "id": "indx1_1557",
           "x": 83134,
-          "y": 46838,
+          "y": 51041,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29282,7 +29282,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1558",
           "x": 83653,
-          "y": 46824
+          "y": 51027
         },
         "indx1_1559": {
           "color": {
@@ -29313,7 +29313,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 84628,
-          "y": 47088,
+          "y": 51291,
           "id": "indx1_1559",
           "shape": "box",
           "link": "",
@@ -29348,7 +29348,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 84800,
-          "y": 47618,
+          "y": 51821,
           "id": "indx1_1560",
           "shape": "box",
           "link": "",
@@ -29383,7 +29383,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 84652,
-          "y": 48318,
+          "y": 52521,
           "id": "indx1_1561",
           "shape": "box",
           "link": "",
@@ -29419,7 +29419,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0145, x: 106371, y: 12854};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"economy.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84962,
-          "y": 49073,
+          "y": 53276,
           "id": "indx1_1562",
           "shape": "box",
           "link": "",
@@ -29456,7 +29456,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/economy.html",
           "id": "indx1_1563",
           "x": 90057,
-          "y": 47690,
+          "y": 51893,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29492,7 +29492,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Economy &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_1564",
           "x": 84211,
-          "y": 46784,
+          "y": 50987,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29527,7 +29527,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1565",
           "x": 82093,
-          "y": 50148,
+          "y": 54351,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29563,7 +29563,7 @@ var schemeData =
           "label": "file path: ./app/languages.html",
           "id": "indx1_1566",
           "x": 83119,
-          "y": 50141,
+          "y": 54344,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29595,7 +29595,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1567",
           "x": 83637,
-          "y": 50127
+          "y": 54330
         },
         "indx1_1568": {
           "color": {
@@ -29626,7 +29626,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 84612,
-          "y": 50391,
+          "y": 54594,
           "id": "indx1_1568",
           "shape": "box",
           "link": "",
@@ -29661,7 +29661,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 84784,
-          "y": 50921,
+          "y": 55124,
           "id": "indx1_1569",
           "shape": "box",
           "link": "",
@@ -29696,7 +29696,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 84636,
-          "y": 51621,
+          "y": 55824,
           "id": "indx1_1570",
           "shape": "box",
           "link": "",
@@ -29732,7 +29732,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0145, x: 106371, y: 12854};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"languages.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 84946,
-          "y": 52376,
+          "y": 56579,
           "id": "indx1_1571",
           "shape": "box",
           "link": "",
@@ -29769,7 +29769,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/languages.html",
           "id": "indx1_1572",
           "x": 90373,
-          "y": 50935,
+          "y": 55138,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29803,7 +29803,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Languages &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_1573",
           "x": 84196,
-          "y": 50087,
+          "y": 54290,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29924,7 +29924,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1578",
           "x": 81931,
-          "y": 32696,
+          "y": 36899,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29960,7 +29960,7 @@ var schemeData =
           "label": "file path: ./app/news4.html",
           "id": "indx1_1579",
           "x": 82913,
-          "y": 32697,
+          "y": 36900,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29992,7 +29992,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1580",
           "x": 83537,
-          "y": 32683
+          "y": 36886
         },
         "indx1_1581": {
           "color": {
@@ -30025,7 +30025,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 4 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_1581",
           "x": 84105,
-          "y": 32667,
+          "y": 36870,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -30057,7 +30057,7 @@ var schemeData =
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "id": "indx1_1582",
           "x": 84569,
-          "y": 33009
+          "y": 37212
         },
         "indx1_1583": {
           "color": {
@@ -30086,7 +30086,7 @@ var schemeData =
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "id": "indx1_1583",
           "x": 84741,
-          "y": 33565
+          "y": 37768
         },
         "indx1_1584": {
           "color": {
@@ -30116,13 +30116,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news4.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 91687, y: 4624};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news4.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1584",
           "x": 84867,
-          "y": 35037,
+          "y": 39240,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1585": {
           "color": {
@@ -30151,7 +30151,7 @@ var schemeData =
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "id": "indx1_1585",
           "x": 84593,
-          "y": 34303
+          "y": 38506
         },
         "indx1_1586": {
           "color": {
@@ -30182,7 +30182,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/news4.html",
           "id": "indx1_1586",
           "x": 89511,
-          "y": 33560,
+          "y": 37763,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32470,7 +32470,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1656",
           "x": 81929,
-          "y": 36068,
+          "y": 40271,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32506,7 +32506,7 @@ var schemeData =
           "label": "file path: ./app/news5.html",
           "id": "indx1_1657",
           "x": 82911,
-          "y": 36069,
+          "y": 40272,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32538,7 +32538,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1658",
           "x": 83535,
-          "y": 36055
+          "y": 40258
         },
         "indx1_1659": {
           "color": {
@@ -32571,7 +32571,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 5 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_1659",
           "x": 84103,
-          "y": 36039,
+          "y": 40242,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -32603,7 +32603,7 @@ var schemeData =
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "id": "indx1_1660",
           "x": 84567,
-          "y": 36381
+          "y": 40584
         },
         "indx1_1661": {
           "color": {
@@ -32632,7 +32632,7 @@ var schemeData =
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "id": "indx1_1661",
           "x": 84739,
-          "y": 36937
+          "y": 41140
         },
         "indx1_1662": {
           "color": {
@@ -32662,13 +32662,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news5.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 92840, y: 4996};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news5.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1662",
           "x": 84865,
-          "y": 38409,
+          "y": 42612,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1663": {
           "color": {
@@ -32697,7 +32697,7 @@ var schemeData =
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "id": "indx1_1663",
           "x": 84591,
-          "y": 37675
+          "y": 41878
         },
         "indx1_1664": {
           "color": {
@@ -32728,7 +32728,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/news5.html",
           "id": "indx1_1664",
           "x": 89511,
-          "y": 36944,
+          "y": 41147,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -35310,13 +35310,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0145, x: 100400, y: 10000};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_docs.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.016, x: 95591, y: 10639};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_docs.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68352,
           "y": 60351,
           "id": "indx1_1741",
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "index-a_394": {
           "color": {
@@ -36114,7 +36114,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1831",
           "x": 81959,
-          "y": 53404,
+          "y": 57607,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -36150,7 +36150,7 @@ var schemeData =
           "label": "file path: ./app/java.html",
           "id": "indx1_1832",
           "x": 82941,
-          "y": 53405,
+          "y": 57608,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -36182,7 +36182,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1833",
           "x": 83565,
-          "y": 53391
+          "y": 57594
         },
         "indx1_1834": {
           "color": {
@@ -36215,7 +36215,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Java &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_1834",
           "x": 84133,
-          "y": 53375,
+          "y": 57578,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -36247,7 +36247,7 @@ var schemeData =
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "id": "indx1_1835",
           "x": 84597,
-          "y": 53717
+          "y": 57920
         },
         "indx1_1836": {
           "color": {
@@ -36276,7 +36276,7 @@ var schemeData =
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "id": "indx1_1836",
           "x": 84769,
-          "y": 54273
+          "y": 58476
         },
         "indx1_1837": {
           "color": {
@@ -36306,13 +36306,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"java.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -878};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"java.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1837",
           "x": 84921,
-          "y": 55756,
+          "y": 59959,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1838": {
           "color": {
@@ -36341,7 +36341,7 @@ var schemeData =
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "id": "indx1_1838",
           "x": 84621,
-          "y": 55011
+          "y": 59214
         },
         "indx1_1839": {
           "color": {
@@ -36372,7 +36372,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/java.html",
           "id": "indx1_1839",
           "x": 88983,
-          "y": 54268,
+          "y": 58471,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -36819,7 +36819,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1852",
           "x": 81996,
-          "y": 56863,
+          "y": 61066,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -36855,7 +36855,7 @@ var schemeData =
           "label": "file path: ./app/java-api.html",
           "id": "indx1_1853",
           "x": 82978,
-          "y": 56864,
+          "y": 61067,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -36887,7 +36887,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1854",
           "x": 83602,
-          "y": 56850
+          "y": 61053
         },
         "indx1_1855": {
           "color": {
@@ -36920,7 +36920,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Java API &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_1855",
           "x": 84170,
-          "y": 56834,
+          "y": 61037,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -36952,7 +36952,7 @@ var schemeData =
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "id": "indx1_1856",
           "x": 84634,
-          "y": 57176
+          "y": 61379
         },
         "indx1_1857": {
           "color": {
@@ -36981,7 +36981,7 @@ var schemeData =
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "id": "indx1_1857",
           "x": 84806,
-          "y": 57732
+          "y": 61935
         },
         "indx1_1858": {
           "color": {
@@ -37011,13 +37011,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"java-api.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 79157, y: -1307};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"java-api.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1858",
           "x": 84932,
-          "y": 59204,
+          "y": 63407,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1859": {
           "color": {
@@ -37046,7 +37046,7 @@ var schemeData =
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "id": "indx1_1859",
           "x": 84658,
-          "y": 58470
+          "y": 62673
         },
         "indx1_1860": {
           "color": {
@@ -37077,7 +37077,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/java-api.html",
           "id": "indx1_1860",
           "x": 89817,
-          "y": 57672,
+          "y": 61875,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -38103,13 +38103,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news6.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 91508, y: 3801};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news6.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1891",
           "x": 107103,
           "y": -7793,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1892": {
           "color": {
@@ -38396,13 +38396,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news61.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.018, x: 91603, y: 2021};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news61.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_1900",
           "x": 107178,
           "y": -4232,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_1901": {
           "color": {
@@ -38571,7 +38571,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "app.get(\"/getAllNews\", function(request, response){\n   if (getAllNewsProcessUp) return;\n   getAllNewsProcessUp = true;\n   response.set('Access-Control-Allow-Origin', '*');\n   //2020-08-27T16:45:00\n   //https://localhost:3001/getAllNews?startDateLine=2020-08-27T10:20:10\n   //http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\n   //curl \"http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\"\n   console.log(\"request.query: \" + request.query);\n   var queryStartDateLine = request.query.startDateLine;\n   var queryYoutubeDownload = request.query.youtube;\n\n   console.log(\"getAllNews\");\n\n   downloadedChannelsList = [];\n\n   var newsData = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: false,\n      downloadErrorsChannelsList: []\n   };\n   newsData.newsFilesData = {};\n   newsData.newsFilesData[\"news1.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news11.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news2.data.js\"] = {rootNodeId: \"indx1_352\"};\n   newsData.newsFilesData[\"news3.data.js\"] = {rootNodeId: \"indx1_274\"};\n   newsData.newsFilesData[\"news4.data.js\"] = {rootNodeId: \"indx1_459\"};\n   newsData.newsFilesData[\"news41.data.js\"] = {rootNodeId: \"indx1_273\"};\n   newsData.newsFilesData[\"news5.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news51.data.js\"] = {rootNodeId: \"indx1_245\"};\n   newsData.newsFilesData[\"news52.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news53.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news6.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news61.data.js\"] = {rootNodeId: \"indx1_251\"};\n   newsData.newsFilesData[\"news62.data.js\"] = {rootNodeId: \"indx1_251\"};\n   var newsDataYoutube = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: true,\n      downloadErrorsChannelsList: []\n   };\n   newsDataYoutube.newsFilesData = {};\n   newsDataYoutube.newsFilesData[\"youtube1.data.js\"] = {rootNodeId: \"indx1_1005\"};\n   newsDataYoutube.newsFilesData[\"youtube2.data.js\"] = {rootNodeId: \"indx1_1786\"};\n   newsDataYoutube.newsFilesData[\"youtube3.data.js\"] = {rootNodeId: \"indx1_1786\"};\n\n   console.log(\"request.query.youtube: \" + request.query.youtube);\n   if (typeof queryYoutubeDownload !== \"undefined\" && queryYoutubeDownload == \"true\") {\n      //console.log(\"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\");\n      newsData = newsDataYoutube;\n   }\n\n   console.log(\"queryStartDateLine: \" + queryStartDateLine);\n   newsData.queryStartDate = moment(queryStartDateLine);\n\n   var fs = require('fs');\n\n   //var filePathPart = \"../app/\";\n\n   //newsData.allChannelsNodes = [];\n\n   //Collect news channels data from news files\n   Object.keys(newsData.newsFilesData).forEach(function(dataFileName, index) {\n      console.log(dataFileName);\n//if (index != 0) return;\n      var contents = fs.readFileSync(newsData.filePathPart + dataFileName, 'utf8');\n      var dataFileData = contents.trim();\n\n      dataFileData = dataFileData.split(\"\\n\");\n      dataFileData.shift();\n      dataFileData.pop();\n      dataFileData = dataFileData.join(\"\\n\");\n      dataFileData = JSON.parse(dataFileData);\n      newsData.newsFilesData[dataFileName].data = dataFileData;\n      newsData.newsFilesData[dataFileName].nodes = dataFileData.canvas1Data.nodes._data;\n      newsData.newsFilesData[dataFileName].edges = dataFileData.canvas1Data.edges._data;\n      newsData.newsFilesData[dataFileName].channelsNodes = [];\n\n      var rootNodeId = newsData.newsFilesData[dataFileName].rootNodeId;\n\n      var treeNodes = getTreeNodesAndEdges(\n         rootNodeId, \n         newsData.newsFilesData[dataFileName].nodes, \n         newsData.newsFilesData[dataFileName].edges).nodes;\n      console.log(\"treeNodes.length: \" + treeNodes.length);\n      treeNodes.forEach(function(node) {\n         if (newsData.youtubeDownload) {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" - YouTube\") &&\n                node.link.match(/.*youtube.*videos.*/) != null) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         } else {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" | Feed Node\")) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         }\n      });      \n   });\n\n   console.log(Object.keys(newsData.allChannelsMap).sort(function (a, b) {\n      return a.toLowerCase().localeCompare(b.toLowerCase());\n   }));\n\n   //var dataFileData = {\"data\": contents};\n   //var answerLine = JSON.stringify(contents);\n\n   waitForTime(newsData.queryStartDate, true);\n\n   var allDownloadedData = newsDownloadProcess(newsData);\n   //saveAllDownloadedDataToFile(allDownloadedData, filePath);\n\n});",
+          "label": "app.get(\"/getAllNews\", function(request, response){\n   if (getAllNewsProcessUp) return;\n   getAllNewsProcessUp = true;\n   response.set('Access-Control-Allow-Origin', '*');\n   //2020-08-27T16:45:00\n   //https://localhost:3001/getAllNews?startDateLine=2020-08-27T10:20:10\n   //http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\n   //curl \"http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\"\n   console.log(\"request.query: \" + request.query);\n   var queryStartDateLine = request.query.startDateLine;\n   var queryYoutubeDownload = request.query.youtube;\n\n   console.log(\"getAllNews\");\n\n   downloadedChannelsList = [];\n\n   var newsData = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: false,\n      downloadErrorsChannelsList: []\n   };\n   newsData.newsFilesData = {};\n   newsData.newsFilesData[\"news1.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news11.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news2.data.js\"] = {rootNodeId: \"indx1_352\"};\n   newsData.newsFilesData[\"news3.data.js\"] = {rootNodeId: \"indx1_274\"};\n   newsData.newsFilesData[\"news4.data.js\"] = {rootNodeId: \"indx1_459\"};\n   newsData.newsFilesData[\"news41.data.js\"] = {rootNodeId: \"indx1_273\"};\n   newsData.newsFilesData[\"news5.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news51.data.js\"] = {rootNodeId: \"indx1_245\"};\n   newsData.newsFilesData[\"news52.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news53.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news6.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news61.data.js\"] = {rootNodeId: \"indx1_251\"};\n   newsData.newsFilesData[\"news7.data.js\"] = {rootNodeId: \"indx1_251\"};\n   var newsDataYoutube = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: true,\n      downloadErrorsChannelsList: []\n   };\n   newsDataYoutube.newsFilesData = {};\n   newsDataYoutube.newsFilesData[\"youtube1.data.js\"] = {rootNodeId: \"indx1_1005\"};\n   newsDataYoutube.newsFilesData[\"youtube2.data.js\"] = {rootNodeId: \"indx1_1786\"};\n   newsDataYoutube.newsFilesData[\"youtube3.data.js\"] = {rootNodeId: \"indx1_1786\"};\n\n   console.log(\"request.query.youtube: \" + request.query.youtube);\n   if (typeof queryYoutubeDownload !== \"undefined\" && queryYoutubeDownload == \"true\") {\n      //console.log(\"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\");\n      newsData = newsDataYoutube;\n   }\n\n   console.log(\"queryStartDateLine: \" + queryStartDateLine);\n   newsData.queryStartDate = moment(queryStartDateLine);\n\n   var fs = require('fs');\n\n   //var filePathPart = \"../app/\";\n\n   //newsData.allChannelsNodes = [];\n\n   //Collect news channels data from news files\n   Object.keys(newsData.newsFilesData).forEach(function(dataFileName, index) {\n      console.log(dataFileName);\n//if (index != 0) return;\n      var contents = fs.readFileSync(newsData.filePathPart + dataFileName, 'utf8');\n      var dataFileData = contents.trim();\n\n      dataFileData = dataFileData.split(\"\\n\");\n      dataFileData.shift();\n      dataFileData.pop();\n      dataFileData = dataFileData.join(\"\\n\");\n      dataFileData = JSON.parse(dataFileData);\n      newsData.newsFilesData[dataFileName].data = dataFileData;\n      newsData.newsFilesData[dataFileName].nodes = dataFileData.canvas1Data.nodes._data;\n      newsData.newsFilesData[dataFileName].edges = dataFileData.canvas1Data.edges._data;\n      newsData.newsFilesData[dataFileName].channelsNodes = [];\n\n      var rootNodeId = newsData.newsFilesData[dataFileName].rootNodeId;\n\n      var treeNodes = getTreeNodesAndEdges(\n         rootNodeId, \n         newsData.newsFilesData[dataFileName].nodes, \n         newsData.newsFilesData[dataFileName].edges).nodes;\n      console.log(\"treeNodes.length: \" + treeNodes.length);\n      treeNodes.forEach(function(node) {\n         if (newsData.youtubeDownload) {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" - YouTube\") &&\n                node.link.match(/.*youtube.*videos.*/) != null) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         } else {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" | Feed Node\")) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         }\n      });      \n   });\n\n   console.log(Object.keys(newsData.allChannelsMap).sort(function (a, b) {\n      return a.toLowerCase().localeCompare(b.toLowerCase());\n   }));\n\n   //var dataFileData = {\"data\": contents};\n   //var answerLine = JSON.stringify(contents);\n\n   waitForTime(newsData.queryStartDate, true);\n\n   var allDownloadedData = newsDownloadProcess(newsData);\n   //saveAllDownloadedDataToFile(allDownloadedData, filePath);\n\n});",
           "id": "indx1_1905",
           "x": 65239,
           "y": 17680,
@@ -41376,7 +41376,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "app.get(\"/indexes\", function(request, response){\n   response.set('Access-Control-Allow-Origin', '*');\n   var fileName = request.query.fileName;\n   console.log(\"/indexes -> fileName: \" + fileName);\n   //https://localhost:3001/indexes?fileName=news2.data.js\n\n   var fs = require('fs');\n\nfilesData = {};\nfilesData[\"news1.data.js\"] = \"news1.data.js\";\nfilesData[\"news11.data.js\"] = \"news11.data.js\";\nfilesData[\"news2.data.js\"] = \"news2.data.js\";\nfilesData[\"news3.data.js\"] = \"news3.data.js\";\nfilesData[\"news4.data.js\"] = \"news4.data.js\";\nfilesData[\"news41.data.js\"] = \"news41.data.js\";\nfilesData[\"news5.data.js\"] = \"news5.data.js\";\nfilesData[\"news51.data.js\"] = \"news51.data.js\";\nfilesData[\"news52.data.js\"] = \"news52.data.js\";\nfilesData[\"news53.data.js\"] = \"news53.data.js\";\nfilesData[\"news6.data.js\"] = \"news6.data.js\";\nfilesData[\"news61.data.js\"] = \"news61.data.js\";\nfilesData[\"news62.data.js\"] = \"news62.data.js\";\nfilesData[\"youtube1.data.js\"] = \"youtube1.data.js\";\nfilesData[\"youtube2.data.js\"] = \"youtube2.data.js\";\nfilesData[\"youtube3.data.js\"] = \"youtube3.data.js\";\nfilesData[\"mm-vis-js_code.data.js\"] = \"mm-vis-js_code.data.js\";\nfilesData[\"mm-vis-js_docs.data.js\"] = \"mm-vis-js_docs.data.js\";\nfilesData[\"index.data.js\"] = \"index.data.js\";\nfilesData[\"base.data.js\"] = \"base.data.js\";\nfilesData[\"culture.data.js\"] = \"culture.data.js\";\nfilesData[\"ruby.data.js\"] = \"ruby.data.js\";\nfilesData[\"javascript.data.js\"] = \"javascript.data.js\";\nfilesData[\"python.data.js\"] = \"python.data.js\";\nfilesData[\"music1.data.js\"] = \"music1.data.js\";\nfilesData[\"music2.data.js\"] = \"music2.data.js\";\nfilesData[\"math.data.js\"] = \"math.data.js\";\nfilesData[\"code.data.js\"] = \"code.data.js\";\nfilesData[\"engineering.data.js\"] = \"engineering.data.js\";\nfilesData[\"nature.data.js\"] = \"nature.data.js\";\nfilesData[\"timelines.data.js\"] = \"timelines.data.js\";\nfilesData[\"java.data.js\"] = \"java.data.js\";\nfilesData[\"java-api.data.js\"] = \"java-api.data.js\";\nfilesData[\"sa1.data.js\"] = \"sa1.data.js\";\nfilesData[\"lisp.data.js\"] = \"lisp.data.js\";\n\nfunction rebuildIndexes(fileName) {\n\n   console.log(\"Process file: \" + fileName);\n\n   var filePathPart = \"../app/\";\n\n   var fileString = fs.readFileSync(filePathPart + fileName, 'utf8');\n   var fileString = fileString.trim();\n\n   fileString = fileString.split(\"\\n\");\n   fileString.shift();\n   fileString.pop();\n   fileString = fileString.join(\"\\n\");\n   fileData = JSON.parse(fileString);\n\n   workData = {};\n\n   workData.data = fileData;\n   workData.nodes = fileData.canvas1Data.nodes._data;\n   workData.edges = fileData.canvas1Data.edges._data;\n",
+          "label": "app.get(\"/indexes\", function(request, response){\n   response.set('Access-Control-Allow-Origin', '*');\n   var fileName = request.query.fileName;\n   console.log(\"/indexes -> fileName: \" + fileName);\n   //https://localhost:3001/indexes?fileName=news2.data.js\n\n   var fs = require('fs');\n\nfilesData = {};\nfilesData[\"news1.data.js\"] = \"news1.data.js\";\nfilesData[\"news11.data.js\"] = \"news11.data.js\";\nfilesData[\"news2.data.js\"] = \"news2.data.js\";\nfilesData[\"news3.data.js\"] = \"news3.data.js\";\nfilesData[\"news4.data.js\"] = \"news4.data.js\";\nfilesData[\"news41.data.js\"] = \"news41.data.js\";\nfilesData[\"news5.data.js\"] = \"news5.data.js\";\nfilesData[\"news51.data.js\"] = \"news51.data.js\";\nfilesData[\"news52.data.js\"] = \"news52.data.js\";\nfilesData[\"news53.data.js\"] = \"news53.data.js\";\nfilesData[\"news6.data.js\"] = \"news6.data.js\";\nfilesData[\"news61.data.js\"] = \"news61.data.js\";\nfilesData[\"news7.data.js\"] = \"news7.data.js\";\nfilesData[\"youtube1.data.js\"] = \"youtube1.data.js\";\nfilesData[\"youtube2.data.js\"] = \"youtube2.data.js\";\nfilesData[\"youtube3.data.js\"] = \"youtube3.data.js\";\nfilesData[\"mm-vis-js_code.data.js\"] = \"mm-vis-js_code.data.js\";\nfilesData[\"mm-vis-js_docs.data.js\"] = \"mm-vis-js_docs.data.js\";\nfilesData[\"index.data.js\"] = \"index.data.js\";\nfilesData[\"base.data.js\"] = \"base.data.js\";\nfilesData[\"culture.data.js\"] = \"culture.data.js\";\nfilesData[\"ruby.data.js\"] = \"ruby.data.js\";\nfilesData[\"javascript.data.js\"] = \"javascript.data.js\";\nfilesData[\"python.data.js\"] = \"python.data.js\";\nfilesData[\"music1.data.js\"] = \"music1.data.js\";\nfilesData[\"music2.data.js\"] = \"music2.data.js\";\nfilesData[\"math.data.js\"] = \"math.data.js\";\nfilesData[\"code.data.js\"] = \"code.data.js\";\nfilesData[\"engineering.data.js\"] = \"engineering.data.js\";\nfilesData[\"nature.data.js\"] = \"nature.data.js\";\nfilesData[\"timelines.data.js\"] = \"timelines.data.js\";\nfilesData[\"java.data.js\"] = \"java.data.js\";\nfilesData[\"java-api.data.js\"] = \"java-api.data.js\";\nfilesData[\"sa1.data.js\"] = \"sa1.data.js\";\nfilesData[\"lisp.data.js\"] = \"lisp.data.js\";\n\nfunction rebuildIndexes(fileName) {\n\n   console.log(\"Process file: \" + fileName);\n\n   var filePathPart = \"../app/\";\n\n   var fileString = fs.readFileSync(filePathPart + fileName, 'utf8');\n   var fileString = fileString.trim();\n\n   fileString = fileString.split(\"\\n\");\n   fileString.shift();\n   fileString.pop();\n   fileString = fileString.join(\"\\n\");\n   fileData = JSON.parse(fileString);\n\n   workData = {};\n\n   workData.data = fileData;\n   workData.nodes = fileData.canvas1Data.nodes._data;\n   workData.edges = fileData.canvas1Data.edges._data;\n",
           "id": "indx1_1992",
           "x": 65071,
           "y": 21575,
@@ -41785,7 +41785,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_2003",
           "x": 104190,
-          "y": -2783,
+          "y": 1289,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -41821,7 +41821,7 @@ var schemeData =
           "label": "file path: ./app/news51.html",
           "id": "indx1_2004",
           "x": 105172,
-          "y": -2782,
+          "y": 1290,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -41853,7 +41853,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_2005",
           "x": 105796,
-          "y": -2796
+          "y": 1276
         },
         "indx1_2006": {
           "color": {
@@ -41886,7 +41886,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 51 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_2006",
           "x": 106364,
-          "y": -2812,
+          "y": 1260,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -41918,7 +41918,7 @@ var schemeData =
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "id": "indx1_2007",
           "x": 106828,
-          "y": -2470
+          "y": 1602
         },
         "indx1_2008": {
           "color": {
@@ -41947,7 +41947,7 @@ var schemeData =
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "id": "indx1_2008",
           "x": 107000,
-          "y": -1914
+          "y": 2158
         },
         "indx1_2009": {
           "color": {
@@ -41977,10 +41977,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news51.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 92298, y: 4809};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news51.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_2009",
           "x": 107126,
-          "y": -442,
+          "y": 3630,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -42012,7 +42012,7 @@ var schemeData =
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "id": "indx1_2010",
           "x": 106852,
-          "y": -1176
+          "y": 2896
         },
         "indx1_2011": {
           "color": {
@@ -42045,7 +42045,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/news51.html",
           "id": "indx1_2011",
           "x": 112097,
-          "y": -1829,
+          "y": 2153,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -42080,7 +42080,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_2012",
           "x": 104241,
-          "y": 1289,
+          "y": 5361,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42116,7 +42116,7 @@ var schemeData =
           "label": "file path: ./app/news52.html",
           "id": "indx1_2013",
           "x": 105223,
-          "y": 1290,
+          "y": 5362,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -42148,7 +42148,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_2014",
           "x": 105847,
-          "y": 1276
+          "y": 5348
         },
         "indx1_2015": {
           "color": {
@@ -42181,7 +42181,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 52 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_2015",
           "x": 106415,
-          "y": 1260,
+          "y": 5332,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -42213,7 +42213,7 @@ var schemeData =
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "id": "indx1_2016",
           "x": 106879,
-          "y": 1602
+          "y": 5674
         },
         "indx1_2017": {
           "color": {
@@ -42242,7 +42242,7 @@ var schemeData =
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "id": "indx1_2017",
           "x": 107051,
-          "y": 2158
+          "y": 6230
         },
         "indx1_2018": {
           "color": {
@@ -42272,10 +42272,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news52.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 91782, y: 5992};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news52.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_2018",
           "x": 107177,
-          "y": 3630,
+          "y": 7702,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -42307,7 +42307,7 @@ var schemeData =
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "id": "indx1_2019",
           "x": 106903,
-          "y": 2896
+          "y": 6968
         },
         "indx1_2020": {
           "color": {
@@ -42340,7 +42340,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/news52.html",
           "id": "indx1_2020",
           "x": 112097,
-          "y": 2242,
+          "y": 6314,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -42622,7 +42622,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_2033",
           "x": 104224,
-          "y": 4972,
+          "y": 13650,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42658,7 +42658,7 @@ var schemeData =
           "label": "file path: ./app/news41.html",
           "id": "indx1_2034",
           "x": 105206,
-          "y": 4973,
+          "y": 13651,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42690,7 +42690,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_2035",
           "x": 105830,
-          "y": 4959
+          "y": 13637
         },
         "indx1_2036": {
           "color": {
@@ -42723,7 +42723,7 @@ var schemeData =
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 41 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "id": "indx1_2036",
           "x": 106398,
-          "y": 4943,
+          "y": 13621,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -42755,7 +42755,7 @@ var schemeData =
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "id": "indx1_2037",
           "x": 106862,
-          "y": 5285
+          "y": 13963
         },
         "indx1_2038": {
           "color": {
@@ -42784,7 +42784,7 @@ var schemeData =
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "id": "indx1_2038",
           "x": 107034,
-          "y": 5841
+          "y": 14519
         },
         "indx1_2039": {
           "color": {
@@ -42814,13 +42814,13 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98800, y: -1450};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news41.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.018, x: 93872, y: 3922};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news41.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_2039",
           "x": 107160,
-          "y": 7313,
+          "y": 15991,
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_2040": {
           "color": {
@@ -42849,7 +42849,7 @@ var schemeData =
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "id": "indx1_2040",
           "x": 106886,
-          "y": 6579
+          "y": 15257
         },
         "indx1_2041": {
           "color": {
@@ -42882,7 +42882,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/news41.html",
           "id": "indx1_2041",
           "x": 112097,
-          "y": 5836,
+          "y": 14514,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -47246,10 +47246,2075 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0113, x: 105403, y: 24500};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.012, x: 104807, y: 18023};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68391,
           "y": 53281,
           "id": "indx1_606586",
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_189447": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "indx1_189447",
+          "x": 104331,
+          "y": -2574,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "indx1_189547": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/news7.html",
+          "id": "indx1_189547",
+          "x": 105313,
+          "y": -2573,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_189647": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "indx1_189647",
+          "x": 105937,
+          "y": -2587
+        },
+        "indx1_189747": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 7 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "indx1_189747",
+          "x": 106485,
+          "y": -2600,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_189847": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "indx1_189847",
+          "x": 106969,
+          "y": -2261
+        },
+        "indx1_189947": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "indx1_189947",
+          "x": 107141,
+          "y": -1705
+        },
+        "indx1_190047": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 92550, y: 1374};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news7.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "indx1_190047",
+          "x": 107267,
+          "y": -233,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_190147": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "indx1_190147",
+          "x": 106993,
+          "y": -967
+        },
+        "indx1_190247": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/news7.html",
+          "id": "indx1_190247",
+          "x": 111819,
+          "y": -1866,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_1146641": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/news11.html",
+          "id": "indx1_1146641",
+          "x": 89789,
+          "y": 26405,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_1147641": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "indx1_1147641",
+          "x": 81919,
+          "y": 25557,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "indx1_1148641": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/news11.html",
+          "id": "indx1_1148641",
+          "x": 82901,
+          "y": 25558,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_1149641": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "indx1_1149641",
+          "x": 83525,
+          "y": 25544
+        },
+        "indx1_1150641": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 11 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "indx1_1150641",
+          "x": 84093,
+          "y": 25528,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_1151641": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "indx1_1151641",
+          "x": 84557,
+          "y": 25870
+        },
+        "indx1_1152641": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "indx1_1152641",
+          "x": 84729,
+          "y": 26426
+        },
+        "indx1_1153641": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98247, y: 8451};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news11.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "indx1_1153641",
+          "x": 84855,
+          "y": 27898,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_1154641": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "indx1_1154641",
+          "x": 84581,
+          "y": 27164
+        },
+        "indx1_2012552": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "indx1_2012552",
+          "x": 104367,
+          "y": 9389,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "indx1_2013552": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/news53.html",
+          "id": "indx1_2013552",
+          "x": 105349,
+          "y": 9390,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2014552": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "indx1_2014552",
+          "x": 105973,
+          "y": 9376
+        },
+        "indx1_2015552": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>News 53 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "indx1_2015552",
+          "x": 106541,
+          "y": 9360,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2016552": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "indx1_2016552",
+          "x": 107005,
+          "y": 9702
+        },
+        "indx1_2017552": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "indx1_2017552",
+          "x": 107177,
+          "y": 10258
+        },
+        "indx1_2018552": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 93088, y: 6516};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"news53.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "indx1_2018552",
+          "x": 107303,
+          "y": 11730,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2019552": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "indx1_2019552",
+          "x": 107029,
+          "y": 10996
+        },
+        "indx1_2020552": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/news53.html",
+          "id": "indx1_2020552",
+          "x": 112097,
+          "y": 10342,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2003236": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "indx1_2003236",
+          "x": 104256,
+          "y": 17695,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "indx1_2004236": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/lisp.html",
+          "id": "indx1_2004236",
+          "x": 105238,
+          "y": 17696,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2005236": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "indx1_2005236",
+          "x": 105862,
+          "y": 17682
+        },
+        "indx1_2006236": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Lisp &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "indx1_2006236",
+          "x": 106430,
+          "y": 17666,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2007236": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "indx1_2007236",
+          "x": 106894,
+          "y": 18008
+        },
+        "indx1_2008236": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "indx1_2008236",
+          "x": 107066,
+          "y": 18564
+        },
+        "indx1_2009236": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 94014, y: 15478};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"lisp.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "indx1_2009236",
+          "x": 107192,
+          "y": 20036,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2010236": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "indx1_2010236",
+          "x": 106918,
+          "y": 19302
+        },
+        "indx1_2011236": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/lisp.html",
+          "id": "indx1_2011236",
+          "x": 111124,
+          "y": 18649,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2003622": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "indx1_2003622",
+          "x": 104249,
+          "y": 21816,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "indx1_2004622": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/youtube1.html",
+          "id": "indx1_2004622",
+          "x": 105231,
+          "y": 21817,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2005622": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "indx1_2005622",
+          "x": 105855,
+          "y": 21803
+        },
+        "indx1_2006622": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Youtube 1 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "indx1_2006622",
+          "x": 106423,
+          "y": 21787,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2007622": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "indx1_2007622",
+          "x": 106886,
+          "y": 22129
+        },
+        "indx1_2008622": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "indx1_2008622",
+          "x": 107059,
+          "y": 22685
+        },
+        "indx1_2009622": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.017, x: 135530, y: 5781};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"youtube1.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "indx1_2009622",
+          "x": 107222,
+          "y": 24162,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2010622": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "indx1_2010622",
+          "x": 106911,
+          "y": 23423
+        },
+        "indx1_2011622": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/youtube1.html",
+          "id": "indx1_2011622",
+          "x": 112431,
+          "y": 22659,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2003190": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "indx1_2003190",
+          "x": 104216,
+          "y": 25833,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "indx1_2004190": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/youtube2.html",
+          "id": "indx1_2004190",
+          "x": 105198,
+          "y": 25834,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2005190": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "indx1_2005190",
+          "x": 105822,
+          "y": 25820
+        },
+        "indx1_2006190": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Youtube 2 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "indx1_2006190",
+          "x": 106390,
+          "y": 25804,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2007190": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "indx1_2007190",
+          "x": 106853,
+          "y": 26146
+        },
+        "indx1_2008190": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "indx1_2008190",
+          "x": 107026,
+          "y": 26702
+        },
+        "indx1_2009190": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.015, x: 113036, y: 6016};\"\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"youtube2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "indx1_2009190",
+          "x": 107189,
+          "y": 28174,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2010190": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "indx1_2010190",
+          "x": 106878,
+          "y": 27440
+        },
+        "indx1_2011190": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/youtube2.html",
+          "id": "indx1_2011190",
+          "x": 112431,
+          "y": 26715,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2003357": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mvj code file for project name: mm-vis-js",
+          "id": "indx1_2003357",
+          "x": 104220,
+          "y": 29810,
+          "shape": "box",
+          "link": "",
+          "borderWidth": ""
+        },
+        "indx1_2004357": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "file path: ./app/youtube3.html",
+          "id": "indx1_2004357",
+          "x": 105202,
+          "y": 29811,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2005357": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "fileContent",
+          "id": "indx1_2005357",
+          "x": 105826,
+          "y": 29797
+        },
+        "indx1_2006357": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Youtube 3 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
+          "id": "indx1_2006357",
+          "x": 106394,
+          "y": 29781,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2007357": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
+          "id": "indx1_2007357",
+          "x": 106858,
+          "y": 30123
+        },
+        "indx1_2008357": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
+          "id": "indx1_2008357",
+          "x": 107030,
+          "y": 30679
+        },
+        "indx1_2009357": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.011, x: 123640.530, y: 17065.242};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"youtube3.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "id": "indx1_2009357",
+          "x": 107194,
+          "y": 32145,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0"
+        },
+        "indx1_2010357": {
+          "color": {
+            "highlight": {},
+            "hover": {}
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
+          "id": "indx1_2010357",
+          "x": 106882,
+          "y": 31417
+        },
+        "indx1_2011357": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "mm-vis-js:\n./app/youtube3.html",
+          "id": "indx1_2011357",
+          "x": 112431,
+          "y": 30657,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -88737,6 +90802,1847 @@ var schemeData =
           "id": "indx1_4601586",
           "from": "indx1_602586",
           "to": "indx1_606586"
+        },
+        "indx1_626047": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_626047",
+          "from": "indx1_189447",
+          "to": "indx1_189547"
+        },
+        "indx1_626147": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_626147",
+          "from": "indx1_189547",
+          "to": "indx1_189647"
+        },
+        "indx1_626247": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_626247",
+          "from": "indx1_189647",
+          "to": "indx1_189747"
+        },
+        "indx1_626347": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_626347",
+          "from": "indx1_189747",
+          "to": "indx1_189847"
+        },
+        "indx1_626447": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_626447",
+          "from": "indx1_189747",
+          "to": "indx1_189947"
+        },
+        "indx1_626547": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_626547",
+          "from": "indx1_189747",
+          "to": "indx1_190047"
+        },
+        "indx1_626647": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_626647",
+          "from": "indx1_189747",
+          "to": "indx1_190147"
+        },
+        "indx1_5358641": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_5358641",
+          "from": "indx1_1147641",
+          "to": "indx1_1148641"
+        },
+        "indx1_5359641": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_5359641",
+          "from": "indx1_1148641",
+          "to": "indx1_1149641"
+        },
+        "indx1_5360641": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_5360641",
+          "from": "indx1_1149641",
+          "to": "indx1_1150641"
+        },
+        "indx1_5361641": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_5361641",
+          "from": "indx1_1150641",
+          "to": "indx1_1151641"
+        },
+        "indx1_5362641": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_5362641",
+          "from": "indx1_1150641",
+          "to": "indx1_1152641"
+        },
+        "indx1_5363641": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_5363641",
+          "from": "indx1_1150641",
+          "to": "indx1_1153641"
+        },
+        "indx1_5364641": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_5364641",
+          "from": "indx1_1150641",
+          "to": "indx1_1154641"
+        },
+        "indx1_6380552": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6380552",
+          "from": "indx1_2012552",
+          "to": "indx1_2013552"
+        },
+        "indx1_6381552": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6381552",
+          "from": "indx1_2013552",
+          "to": "indx1_2014552"
+        },
+        "indx1_6382552": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6382552",
+          "from": "indx1_2014552",
+          "to": "indx1_2015552"
+        },
+        "indx1_6383552": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6383552",
+          "from": "indx1_2015552",
+          "to": "indx1_2016552"
+        },
+        "indx1_6384552": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6384552",
+          "from": "indx1_2015552",
+          "to": "indx1_2017552"
+        },
+        "indx1_6385552": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6385552",
+          "from": "indx1_2015552",
+          "to": "indx1_2018552"
+        },
+        "indx1_6386552": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6386552",
+          "from": "indx1_2015552",
+          "to": "indx1_2019552"
+        },
+        "indx1_6373236": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6373236",
+          "from": "indx1_2003236",
+          "to": "indx1_2004236"
+        },
+        "indx1_6374236": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6374236",
+          "from": "indx1_2004236",
+          "to": "indx1_2005236"
+        },
+        "indx1_6375236": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6375236",
+          "from": "indx1_2005236",
+          "to": "indx1_2006236"
+        },
+        "indx1_6376236": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6376236",
+          "from": "indx1_2006236",
+          "to": "indx1_2007236"
+        },
+        "indx1_6377236": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6377236",
+          "from": "indx1_2006236",
+          "to": "indx1_2008236"
+        },
+        "indx1_6378236": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6378236",
+          "from": "indx1_2006236",
+          "to": "indx1_2009236"
+        },
+        "indx1_6379236": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6379236",
+          "from": "indx1_2006236",
+          "to": "indx1_2010236"
+        },
+        "indx1_6373622": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6373622",
+          "from": "indx1_2003622",
+          "to": "indx1_2004622"
+        },
+        "indx1_6374622": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6374622",
+          "from": "indx1_2004622",
+          "to": "indx1_2005622"
+        },
+        "indx1_6375622": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6375622",
+          "from": "indx1_2005622",
+          "to": "indx1_2006622"
+        },
+        "indx1_6376622": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6376622",
+          "from": "indx1_2006622",
+          "to": "indx1_2007622"
+        },
+        "indx1_6377622": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6377622",
+          "from": "indx1_2006622",
+          "to": "indx1_2008622"
+        },
+        "indx1_6378622": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6378622",
+          "from": "indx1_2006622",
+          "to": "indx1_2009622"
+        },
+        "indx1_6379622": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6379622",
+          "from": "indx1_2006622",
+          "to": "indx1_2010622"
+        },
+        "indx1_6373190": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6373190",
+          "from": "indx1_2003190",
+          "to": "indx1_2004190"
+        },
+        "indx1_6374190": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6374190",
+          "from": "indx1_2004190",
+          "to": "indx1_2005190"
+        },
+        "indx1_6375190": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6375190",
+          "from": "indx1_2005190",
+          "to": "indx1_2006190"
+        },
+        "indx1_6376190": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6376190",
+          "from": "indx1_2006190",
+          "to": "indx1_2007190"
+        },
+        "indx1_6377190": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6377190",
+          "from": "indx1_2006190",
+          "to": "indx1_2008190"
+        },
+        "indx1_6378190": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6378190",
+          "from": "indx1_2006190",
+          "to": "indx1_2009190"
+        },
+        "indx1_6379190": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6379190",
+          "from": "indx1_2006190",
+          "to": "indx1_2010190"
+        },
+        "indx1_6373357": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6373357",
+          "from": "indx1_2003357",
+          "to": "indx1_2004357"
+        },
+        "indx1_6374357": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6374357",
+          "from": "indx1_2004357",
+          "to": "indx1_2005357"
+        },
+        "indx1_6375357": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6375357",
+          "from": "indx1_2005357",
+          "to": "indx1_2006357"
+        },
+        "indx1_6376357": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6376357",
+          "from": "indx1_2006357",
+          "to": "indx1_2007357"
+        },
+        "indx1_6377357": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6377357",
+          "from": "indx1_2006357",
+          "to": "indx1_2008357"
+        },
+        "indx1_6378357": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6378357",
+          "from": "indx1_2006357",
+          "to": "indx1_2009357"
+        },
+        "indx1_6379357": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "label": "code",
+          "id": "indx1_6379357",
+          "from": "indx1_2006357",
+          "to": "indx1_2010357"
         }
       },
       "length": 0,
@@ -88800,7 +92706,7 @@ var schemeData =
     "scale": 0.01,
     "viewPosition": {
       "x": 65673,
-      "y": 17507.999999999993
+      "y": 17508.000000000004
     }
   }
 }
