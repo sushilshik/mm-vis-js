@@ -58,7 +58,7 @@ var dontShowShemeDataMenuPagesList = [
    "news53.html",
    "news6.html",
    "news61.html",
-   "news62.html",
+   "news7.html",
    "youtube1.html",
    "youtube2.html",
    "youtube3.html",

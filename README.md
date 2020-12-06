@@ -44,33 +44,11 @@ SymPy integration. With dynamic equations and plots in LaTeX and matplotlib.
 * https://sushilshik.github.io/ruby.html
 * https://sushilshik.github.io/javascript.html
 * https://sushilshik.github.io/python.html
-* https://sushilshik.github.io/music1.html
-* https://sushilshik.github.io/music2.html
+* https://sushilshik.github.io/music.html
 * https://sushilshik.github.io/math.html
 * https://sushilshik.github.io/code.html
 * https://sushilshik.github.io/engineering.html
-* https://sushilshik.github.io/news1.html
-* https://sushilshik.github.io/news11.html
-* https://sushilshik.github.io/news2.html
-* https://sushilshik.github.io/news3.html
-* https://sushilshik.github.io/news4.html
-* https://sushilshik.github.io/news41.html
-* https://sushilshik.github.io/news5.html
-* https://sushilshik.github.io/news51.html
-* https://sushilshik.github.io/news52.html
-* https://sushilshik.github.io/news53.html
-* https://sushilshik.github.io/news6.html
-* https://sushilshik.github.io/news61.html
-* https://sushilshik.github.io/news7.html
-* https://sushilshik.github.io/youtube1.html
-* https://sushilshik.github.io/youtube2.html
-* https://sushilshik.github.io/youtube3.html
-* https://sushilshik.github.io/nature.html
-* https://sushilshik.github.io/timelines.html
-* https://sushilshik.github.io/java.html
-* https://sushilshik.github.io/java-api.html
-* https://sushilshik.github.io/sa1.html
-* https://sushilshik.github.io/lisp.html
+* https://sushilshik.github.io/news.html
 
 ### Tests:
 

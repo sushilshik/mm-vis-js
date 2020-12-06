@@ -945,7 +945,7 @@ app.get("/getAllNews", function(request, response){
    newsData.newsFilesData["news53.data.js"] = {rootNodeId: "indx1_219"};
    newsData.newsFilesData["news6.data.js"] = {rootNodeId: "indx1_287"};
    newsData.newsFilesData["news61.data.js"] = {rootNodeId: "indx1_251"};
-   newsData.newsFilesData["news62.data.js"] = {rootNodeId: "indx1_251"};
+   newsData.newsFilesData["news7.data.js"] = {rootNodeId: "indx1_251"};
    var newsDataYoutube = {
       channelsDownloadTimeStep: 1,
       allChannelsMap: {},
@@ -1177,7 +1177,7 @@ filesData["news52.data.js"] = "news52.data.js";
 filesData["news53.data.js"] = "news53.data.js";
 filesData["news6.data.js"] = "news6.data.js";
 filesData["news61.data.js"] = "news61.data.js";
-filesData["news62.data.js"] = "news62.data.js";
+filesData["news7.data.js"] = "news7.data.js";
 filesData["youtube1.data.js"] = "youtube1.data.js";
 filesData["youtube2.data.js"] = "youtube2.data.js";
 filesData["youtube3.data.js"] = "youtube3.data.js";
