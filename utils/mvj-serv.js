@@ -1267,12 +1267,18 @@ function rebuildIndexes(fileName) {
    var totalShortNodesIds = [];
    for (var i in totalNodesIds) {
       var id = totalNodesIds[i];
-      if (id.length < 15) totalShortNodesIds.push(id);
+      if (id.length < 15 ||
+          id.lastIndexOf("index-a_", 0) === 0 ||
+          id.lastIndexOf("indx1_", 0) === 0 ||
+          id.lastIndexOf("indx2_", 0) === 0) totalShortNodesIds.push(id);
    }
    var totalShortEdgesIds = [];
    for (var i in totalEdgesIds) {
       var id = totalEdgesIds[i];
-      if (id.length < 15) totalShortEdgesIds.push(id);
+      if (id.length < 15 ||
+          id.lastIndexOf("index-a_", 0) === 0 ||
+          id.lastIndexOf("indx1_", 0) === 0 ||
+          id.lastIndexOf("indx2_", 0) === 0) totalShortEdgesIds.push(id);
    }
    console.log("totalShortNodesIds.length: " + totalShortNodesIds.length);
    console.log("totalShortEdgesIds.length: " + totalShortEdgesIds.length);
@@ -1286,7 +1292,10 @@ function rebuildIndexes(fileName) {
    var totalShortIds = [];
    for (var i in totalIds) {
       var id = totalIds[i];
-      if (id.length < 15) totalShortIds.push(id);
+      if (id.length < 15 ||
+          id.lastIndexOf("index-a_", 0) === 0 ||
+          id.lastIndexOf("indx1_", 0) === 0 ||
+          id.lastIndexOf("indx2_", 0) === 0) totalShortIds.push(id);
    }
    console.log("totalShortIds.length: " + totalShortIds.length);
    console.log("Unprocessed ids: " + (totalIds.length - totalShortIds.length));
@@ -1304,7 +1313,10 @@ function rebuildIndexes(fileName) {
    var regexesList = [];
    for (var i in totalIds) {
       var id = totalIds[i];
-      if (id.length < 15) {
+      if (id.length < 15 ||
+          id.lastIndexOf("index-a_", 0) === 0 ||
+          id.lastIndexOf("indx1_", 0) === 0 ||
+          id.lastIndexOf("indx2_", 0) === 0) {
          //console.log("Short id: " + id);
          continue;
       }
@@ -1355,6 +1367,7 @@ app.get("/test", function(req, res){
    res.set('Access-Control-Allow-Origin', '*');
 
    var data = JSON.stringify("Test done.");
+   console.log("Test done.");
    res.send(data);
 
 });
@@ -1366,4 +1379,6 @@ var options = {
 };
 https.createServer( options, function(req,res) {
     app.handle( req, res );
-}).listen(httpsPort);
+}).listen(httpsPort, function() {
+    console.log("mvj-serv.js started");
+});

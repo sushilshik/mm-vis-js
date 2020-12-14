@@ -589,12 +589,6 @@ var schemeData =
           },
           "borderWidth": ""
         },
-        "indx1_168": {
-          "id": "indx1_168",
-          "x": -18616,
-          "y": -12582,
-          "label": "Help"
-        },
         "indx1_169": {
           "id": "indx1_169",
           "x": -18437,
@@ -614,7 +608,7 @@ var schemeData =
         "indx1_170": {
           "id": "indx1_170",
           "x": -17052,
-          "y": -12962,
+          "y": -12964,
           "label": "init"
         },
         "indx1_171": {
@@ -626,13 +620,13 @@ var schemeData =
         "indx1_172": {
           "id": "indx1_172",
           "x": -17269,
-          "y": -12960,
+          "y": -12964,
           "label": "Development"
         },
         "indx1_173": {
           "id": "indx1_173",
           "x": -18901,
-          "y": -12326,
+          "y": -12357,
           "label": "saveCanvasProjectData"
         },
         "indx1_174": {
@@ -644,7 +638,7 @@ var schemeData =
         "indx1_175": {
           "id": "indx1_175",
           "x": -18394,
-          "y": -12356,
+          "y": -12357,
           "label": "projectSaveId: mainPage1"
         },
         "indx1_176": {
@@ -5241,7 +5235,7 @@ var schemeData =
           "borderWidth": "",
           "oldId": "indx1_219c29"
         },
-        "indx1_219c29c3579": {
+        "indx2_888": {
           "color": {
             "highlight": {},
             "hover": {},
@@ -5270,7 +5264,7 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "python.html",
-          "id": "indx1_219c29c3579",
+          "id": "indx2_888",
           "x": 23241,
           "y": -2937,
           "shape": "box",
@@ -5541,11 +5535,6 @@ var schemeData =
           "from": "indx1_172",
           "to": "indx1_170",
           "id": "indx1_598"
-        },
-        "indx1_599": {
-          "from": "indx1_173",
-          "to": "indx1_168",
-          "id": "indx1_599"
         },
         "indx1_600": {
           "from": "indx1_169",
@@ -10621,175 +10610,175 @@ var schemeData =
           "from": "indx1_227c29",
           "to": "indx1_219c29"
         },
-        "6354815d-74ae-44e5-afda-1525ef8ace15": {
+        "indx2_1210": {
           "from": "indx1_227",
           "to": "indx1_219c0",
-          "id": "6354815d-74ae-44e5-afda-1525ef8ace15"
+          "id": "indx2_1210"
         },
-        "8168025b-062f-4ef8-a747-910af0d8e340": {
+        "indx2_1211": {
           "from": "indx1_227",
           "to": "indx1_219c1",
-          "id": "8168025b-062f-4ef8-a747-910af0d8e340"
+          "id": "indx2_1211"
         },
-        "4269e646-9695-48ef-84dd-4f9762505dfe": {
+        "indx2_1212": {
           "from": "indx1_227",
           "to": "indx1_219c2",
-          "id": "4269e646-9695-48ef-84dd-4f9762505dfe"
+          "id": "indx2_1212"
         },
-        "87d7b928-e0c5-441d-b4fe-13ee69bde69d": {
+        "indx2_1213": {
           "from": "indx1_227",
           "to": "indx1_219c3",
-          "id": "87d7b928-e0c5-441d-b4fe-13ee69bde69d"
+          "id": "indx2_1213"
         },
-        "74763184-3da9-4a29-ba63-7277ee4a1acc": {
+        "indx2_1214": {
           "from": "indx1_227",
           "to": "indx1_219c4",
-          "id": "74763184-3da9-4a29-ba63-7277ee4a1acc"
+          "id": "indx2_1214"
         },
-        "44c9bd45-5f07-4a02-bc9b-400bf1c39345": {
+        "indx2_1215": {
           "from": "indx1_227",
           "to": "indx1_219c5",
-          "id": "44c9bd45-5f07-4a02-bc9b-400bf1c39345"
+          "id": "indx2_1215"
         },
-        "26fc446b-805e-4c42-b619-6127f6364a4b": {
+        "indx2_1216": {
           "from": "indx1_227",
           "to": "indx1_219c6",
-          "id": "26fc446b-805e-4c42-b619-6127f6364a4b"
+          "id": "indx2_1216"
         },
-        "4c089f9b-6467-4f29-b9ce-34b679f81e20": {
+        "indx2_1217": {
           "from": "indx1_227",
           "to": "indx1_219c7",
-          "id": "4c089f9b-6467-4f29-b9ce-34b679f81e20"
+          "id": "indx2_1217"
         },
-        "89cd4fd9-53f7-4e88-8566-3a0190ce8d7a": {
+        "indx2_1218": {
           "from": "indx1_227",
           "to": "indx1_219c8",
-          "id": "89cd4fd9-53f7-4e88-8566-3a0190ce8d7a"
+          "id": "indx2_1218"
         },
-        "207bc570-bc5a-442f-9f23-4b1e8c721d8e": {
+        "indx2_1219": {
           "from": "indx1_227",
           "to": "indx1_219c9",
-          "id": "207bc570-bc5a-442f-9f23-4b1e8c721d8e"
+          "id": "indx2_1219"
         },
-        "8530b058-fe64-42fa-bc9f-c503788ded04": {
+        "indx2_1220": {
           "from": "indx1_227",
           "to": "indx1_219c10",
-          "id": "8530b058-fe64-42fa-bc9f-c503788ded04"
+          "id": "indx2_1220"
         },
-        "6a70e7be-76af-40b5-9bfa-1338886daa45": {
+        "indx2_1221": {
           "from": "indx1_227",
           "to": "indx1_219c11",
-          "id": "6a70e7be-76af-40b5-9bfa-1338886daa45"
+          "id": "indx2_1221"
         },
-        "d04e7d09-8cf2-450f-8c5e-7057670e9c14": {
+        "indx2_1222": {
           "from": "indx1_227",
           "to": "indx1_219c12",
-          "id": "d04e7d09-8cf2-450f-8c5e-7057670e9c14"
+          "id": "indx2_1222"
         },
-        "268e727f-db38-4280-896b-d3fc1fa27e2f": {
+        "indx2_1223": {
           "from": "indx1_227",
           "to": "indx1_219c13",
-          "id": "268e727f-db38-4280-896b-d3fc1fa27e2f"
+          "id": "indx2_1223"
         },
-        "8538094b-5ddc-4360-a272-6f3264042830": {
+        "indx2_1224": {
           "from": "indx1_227",
           "to": "indx1_219c14",
-          "id": "8538094b-5ddc-4360-a272-6f3264042830"
+          "id": "indx2_1224"
         },
-        "5a0cae83-ac91-45ce-a39d-c4f772382588": {
+        "indx2_1225": {
           "from": "indx1_227",
           "to": "indx1_219c16",
-          "id": "5a0cae83-ac91-45ce-a39d-c4f772382588"
+          "id": "indx2_1225"
         },
-        "eb51b268-86b5-4932-8a0b-13a9ecee1fb2": {
+        "indx2_1226": {
           "from": "indx1_227",
           "to": "indx1_219c17",
-          "id": "eb51b268-86b5-4932-8a0b-13a9ecee1fb2"
+          "id": "indx2_1226"
         },
-        "ce1c450d-649a-4389-8224-f4c9e98f88f9": {
+        "indx2_1227": {
           "from": "indx1_227",
           "to": "indx1_219c18",
-          "id": "ce1c450d-649a-4389-8224-f4c9e98f88f9"
+          "id": "indx2_1227"
         },
-        "cbd4f376-d1c2-4443-982e-3908e4d030a1": {
+        "indx2_1228": {
           "from": "indx1_227",
           "to": "indx1_219c19",
-          "id": "cbd4f376-d1c2-4443-982e-3908e4d030a1"
+          "id": "indx2_1228"
         },
-        "b29d127c-b780-4303-a9bd-8fff744e0950": {
+        "indx2_1229": {
           "from": "indx1_227",
           "to": "indx1_219c20",
-          "id": "b29d127c-b780-4303-a9bd-8fff744e0950"
+          "id": "indx2_1229"
         },
-        "50f40f4a-50fb-4c17-a86f-9da2eebef579": {
+        "indx2_1230": {
           "from": "indx1_227",
           "to": "indx1_219c21",
-          "id": "50f40f4a-50fb-4c17-a86f-9da2eebef579"
+          "id": "indx2_1230"
         },
-        "7e321d30-7b46-4242-8978-7dfafab9c0f7": {
+        "indx2_1231": {
           "from": "indx1_227",
           "to": "indx1_219c22",
-          "id": "7e321d30-7b46-4242-8978-7dfafab9c0f7"
+          "id": "indx2_1231"
         },
-        "70f2dba6-1389-4739-b9a1-69862812c18a": {
+        "indx2_1232": {
           "from": "indx1_227",
           "to": "indx1_219c23",
-          "id": "70f2dba6-1389-4739-b9a1-69862812c18a"
+          "id": "indx2_1232"
         },
-        "0d31617b-d25f-4ed4-b23e-f8437890eb2f": {
+        "indx2_1233": {
           "from": "indx1_227",
           "to": "indx1_219c24",
-          "id": "0d31617b-d25f-4ed4-b23e-f8437890eb2f"
+          "id": "indx2_1233"
         },
-        "b4f3c73b-5c90-4d7f-90e2-562f0286dc7a": {
+        "indx2_1234": {
           "from": "indx1_227",
           "to": "indx1_219c25",
-          "id": "b4f3c73b-5c90-4d7f-90e2-562f0286dc7a"
+          "id": "indx2_1234"
         },
-        "dab291f6-9b3c-4391-9be5-c044d4e5ca66": {
+        "indx2_1235": {
           "from": "indx1_227",
           "to": "indx1_219c26",
-          "id": "dab291f6-9b3c-4391-9be5-c044d4e5ca66"
+          "id": "indx2_1235"
         },
-        "9d9ddf34-ea9a-45d5-b346-5ad3f3b7e00c": {
+        "indx2_1236": {
           "from": "indx1_227",
           "to": "indx1_219c27",
-          "id": "9d9ddf34-ea9a-45d5-b346-5ad3f3b7e00c"
+          "id": "indx2_1236"
         },
-        "f30cb48f-dab8-426e-8ffd-5f467160fad2": {
+        "indx2_1237": {
           "from": "indx1_227",
           "to": "indx1_219c28",
-          "id": "f30cb48f-dab8-426e-8ffd-5f467160fad2"
+          "id": "indx2_1237"
         },
-        "108ed51d-f5d4-4def-ad53-200ba1ad6127": {
+        "indx2_1238": {
           "from": "indx1_227",
           "to": "indx1_219c29",
-          "id": "108ed51d-f5d4-4def-ad53-200ba1ad6127"
+          "id": "indx2_1238"
         },
-        "c0696623-6747-4867-9adb-e5c537f71db4": {
+        "indx2_1239": {
           "from": "indx1_227",
           "to": "indx1_219c29c0",
-          "id": "c0696623-6747-4867-9adb-e5c537f71db4"
+          "id": "indx2_1239"
         },
-        "5db93ef2-0b7a-4a37-bdde-185940b5dd54": {
+        "indx2_1240": {
           "from": "indx1_227",
           "to": "indx1_219c29c1",
-          "id": "5db93ef2-0b7a-4a37-bdde-185940b5dd54"
+          "id": "indx2_1240"
         },
-        "c7f54eb0-e921-466e-a1e8-ce5d8a37304d": {
+        "indx2_1241": {
           "from": "indx1_227",
           "to": "indx1_219c29c2",
-          "id": "c7f54eb0-e921-466e-a1e8-ce5d8a37304d"
+          "id": "indx2_1241"
         },
-        "60ca3ad7-6e8c-4c24-9186-d45090f1a329": {
+        "indx2_1242": {
           "from": "indx1_227",
           "to": "indx1_219c29c3",
-          "id": "60ca3ad7-6e8c-4c24-9186-d45090f1a329"
+          "id": "indx2_1242"
         },
-        "6d335053-5d91-4c31-8788-75d229c7ec86": {
+        "indx2_1243": {
           "from": "indx1_227",
-          "to": "indx1_219c29c3579",
-          "id": "6d335053-5d91-4c31-8788-75d229c7ec86"
+          "to": "indx2_888",
+          "id": "indx2_1243"
         }
       },
       "length": 0,
@@ -10839,7 +10828,7 @@ var schemeData =
   "setup": {
     "scale": 0.0167,
     "viewPosition": {
-      "x": 15702.999998802394,
+      "x": 15702.999999041913,
       "y": 7380.000004850295
     }
   }

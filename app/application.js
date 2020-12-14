@@ -1823,13 +1823,14 @@ function doOnClick(e) {
          var shiftY = - topLeftNodeY + parseFloat((position.y).toFixed(5));
          node.x = node.x + shiftX;
          node.y = node.y + shiftY;
-         console.log(i + " " + node.id)
+         console.log(i + ". " + String(nodesToPaste.length) + ". " + node.id)
          var newNode = network.nodesHandler.create(node);
          network.body.data.nodes.add(newNode.options);
       }
       for(var i=0; i<edgesToPaste.length; i++) {
          var edge = edgesToPaste[i];
          var newEdge = network.edgesHandler.create(edge);
+         console.log(i + ". " + String(edgesToPaste.length) + ". " + edge.id)
          network.body.data.edges.add(newEdge.options);
       }
       nodesToPaste = [];
