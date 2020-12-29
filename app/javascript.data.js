@@ -1990,7 +1990,7 @@ var schemeData =
         "indx1_200": {
           "label": "jQuery",
           "x": 92833,
-          "y": 5811,
+          "y": 6187,
           "font": {
             "size": 72,
             "align": "left"
@@ -2007,158 +2007,158 @@ var schemeData =
         "indx1_201": {
           "label": "Development",
           "x": 93133,
-          "y": 6261,
+          "y": 6637,
           "id": "indx1_201"
         },
         "indx1_202": {
           "label": "11/30/2019",
           "x": 93266,
-          "y": 6261,
+          "y": 6637,
           "id": "indx1_202"
         },
         "indx1_203": {
           "label": "init",
           "x": 93383,
-          "y": 6261,
+          "y": 6637,
           "id": "indx1_203"
         },
         "indx1_204": {
           "label": "Notes",
           "x": 93109,
-          "y": 5411,
+          "y": 5787,
           "id": "indx1_204"
         },
         "indx1_205": {
           "label": "Dictionary of\nconcepts",
           "x": 93394,
-          "y": 2245,
+          "y": 2621,
           "id": "indx1_205"
         },
         "indx1_206": {
           "label": "Details, thoughts",
           "x": 93283,
-          "y": 5411,
+          "y": 5787,
           "id": "indx1_206"
         },
         "indx1_207": {
           "label": "Sections",
           "x": 93257,
-          "y": 5661,
+          "y": 6037,
           "id": "indx1_207"
         },
         "indx1_208": {
           "label": "Books",
           "x": 93347,
-          "y": 5511,
+          "y": 5887,
           "id": "indx1_208"
         },
         "indx1_209": {
           "label": "R&D institutions",
           "x": 93377,
-          "y": 5536,
+          "y": 5912,
           "id": "indx1_209"
         },
         "indx1_210": {
           "label": "Sites",
           "x": 93343,
-          "y": 5561,
+          "y": 5937,
           "id": "indx1_210"
         },
         "indx1_211": {
           "label": "Magazines",
           "x": 93362,
-          "y": 5586,
+          "y": 5962,
           "id": "indx1_211"
         },
         "indx1_212": {
           "label": "Articles",
           "x": 93350,
-          "y": 5611,
+          "y": 5987,
           "id": "indx1_212"
         },
         "indx1_213": {
           "label": "Media content",
           "x": 93372,
-          "y": 5636,
+          "y": 6012,
           "id": "indx1_213"
         },
         "indx1_214": {
           "label": "Misc. web links",
           "x": 93375,
-          "y": 5661,
+          "y": 6037,
           "id": "indx1_214"
         },
         "indx1_215": {
           "label": "Projects",
           "x": 93353,
-          "y": 5686,
+          "y": 6062,
           "id": "indx1_215"
         },
         "indx1_216": {
           "label": "Tools",
           "x": 93344,
-          "y": 5711,
+          "y": 6087,
           "id": "indx1_216"
         },
         "indx1_217": {
           "label": "Organizations",
           "x": 93371,
-          "y": 5736,
+          "y": 6112,
           "id": "indx1_217"
         },
         "indx1_218": {
           "label": "Standarts",
           "x": 93358,
-          "y": 5761,
+          "y": 6137,
           "id": "indx1_218"
         },
         "indx1_219": {
           "label": "Forums, Groups",
           "x": 93379,
-          "y": 5786,
+          "y": 6162,
           "id": "indx1_219"
         },
         "indx1_220": {
           "label": "Laws",
           "x": 93344,
-          "y": 5811,
+          "y": 6187,
           "id": "indx1_220"
         },
         "indx1_221": {
           "label": "Adjacent Themes",
           "x": 93383,
-          "y": 5836,
+          "y": 6212,
           "id": "indx1_221"
         },
         "indx1_222": {
           "label": "Questions",
           "x": 93123,
-          "y": 5961,
+          "y": 6337,
           "id": "indx1_222"
         },
         "indx1_223": {
           "label": "Problems",
           "x": 93121,
-          "y": 6061,
+          "y": 6437,
           "id": "indx1_223"
         },
         "indx1_224": {
           "label": "Goals",
           "x": 93109,
-          "y": 6161,
+          "y": 6537,
           "id": "indx1_224"
         },
         "indx1_225": {
           "id": "indx1_225",
           "x": 93888,
-          "y": 2244,
+          "y": 2620,
           "label": "Code Chunks"
         },
         "indx1_226": {
           "label": "Connecting jQuery",
           "link": "",
           "x": 94263,
-          "y": -502,
+          "y": -126,
           "id": "indx1_226",
           "color": {
             "highlight": {
@@ -2199,7 +2199,7 @@ var schemeData =
           "label": "CDN",
           "link": "",
           "x": 94386,
-          "y": -504,
+          "y": -128,
           "id": "indx1_227",
           "color": {
             "highlight": {
@@ -2240,7 +2240,7 @@ var schemeData =
           "label": "<script src='https://code.jquery.com/jquery-3.4.1.min.js'></scripts>",
           "link": "",
           "x": 94723,
-          "y": -507,
+          "y": -131,
           "id": "indx1_228",
           "color": {
             "highlight": {
@@ -2281,7 +2281,7 @@ var schemeData =
           "label": "Methods",
           "link": "",
           "x": 94231,
-          "y": -161,
+          "y": 215,
           "id": "indx1_229",
           "color": {
             "highlight": {
@@ -2322,7 +2322,7 @@ var schemeData =
           "label": "Get tag text without it branch tags text",
           "link": "",
           "x": 94491,
-          "y": -311,
+          "y": 65,
           "id": "indx1_230",
           "color": {
             "highlight": {
@@ -2363,7 +2363,7 @@ var schemeData =
           "label": "$(\".foo\").clone().children().remove().end().text()",
           "link": "",
           "x": 94808,
-          "y": -311,
+          "y": 65,
           "id": "indx1_231",
           "color": {
             "highlight": {
@@ -2404,7 +2404,7 @@ var schemeData =
           "label": "end() - again go back to selected element",
           "link": "",
           "x": 95153,
-          "y": -308,
+          "y": 68,
           "id": "indx1_232",
           "color": {
             "highlight": {
@@ -2445,7 +2445,7 @@ var schemeData =
           "label": "Add element into link text. Element will have it own behavior\nand will not start this link on click on this element",
           "link": "",
           "x": 94559,
-          "y": -152,
+          "y": 224,
           "id": "indx1_233",
           "color": {
             "highlight": {
@@ -2486,7 +2486,7 @@ var schemeData =
           "label": "var elem = $(\"<span style='display:inline; position: absolute;'>asdf</span>\");\nelem.click(function(elem) {\n   event.preventDefault();\n   event.stopPropagation();\n   console.log(\"start\");\n   return false;\n});\n\n$(\".some_a\").hover(\n   function() {\n      $(this).append(elem);\n   }, function() {\n      elem.detach();\n   }\n);",
           "link": "",
           "x": 95047,
-          "y": -147,
+          "y": 229,
           "id": "indx1_234",
           "color": {
             "highlight": {
@@ -2527,7 +2527,7 @@ var schemeData =
           "label": "return false - don't let link to start",
           "link": "",
           "x": 95453,
-          "y": -125,
+          "y": 251,
           "id": "indx1_235",
           "color": {
             "highlight": {
@@ -2568,7 +2568,7 @@ var schemeData =
           "label": "Array",
           "link": "",
           "x": 94221,
-          "y": 458,
+          "y": 834,
           "id": "indx1_236",
           "color": {
             "highlight": {
@@ -2609,7 +2609,7 @@ var schemeData =
           "label": "$(\"...\").filter(function() { return true });",
           "link": "",
           "x": 94488,
-          "y": 463,
+          "y": 839,
           "id": "indx1_237",
           "color": {
             "highlight": {
@@ -2650,7 +2650,7 @@ var schemeData =
           "label": "If true - value is skipped",
           "link": "",
           "x": 94744,
-          "y": 462,
+          "y": 838,
           "id": "indx1_238",
           "color": {
             "highlight": {
@@ -2691,7 +2691,7 @@ var schemeData =
           "label": "Iterate",
           "link": "",
           "x": 94224,
-          "y": 632,
+          "y": 1008,
           "id": "indx1_239",
           "color": {
             "highlight": {
@@ -2732,7 +2732,7 @@ var schemeData =
           "label": "Hash",
           "link": "",
           "x": 94387,
-          "y": 639,
+          "y": 1015,
           "id": "indx1_240",
           "color": {
             "highlight": {
@@ -2773,7 +2773,7 @@ var schemeData =
           "label": "for (i in Object.keys(hashObj) { doSmth(obj[keys[i]]);",
           "link": "",
           "x": 94651,
-          "y": 621,
+          "y": 997,
           "id": "indx1_241",
           "color": {
             "highlight": {
@@ -2814,7 +2814,7 @@ var schemeData =
           "label": "$.each(hashObj, function(key, value) {...});",
           "link": "",
           "x": 94620,
-          "y": 660,
+          "y": 1036,
           "id": "indx1_242",
           "color": {
             "highlight": {
@@ -2855,7 +2855,7 @@ var schemeData =
           "label": "$(document).ready()",
           "link": "",
           "x": 94269,
-          "y": 753,
+          "y": 1129,
           "id": "indx1_243",
           "color": {
             "highlight": {
@@ -2896,7 +2896,7 @@ var schemeData =
           "label": "$(document).ready(function() {\n   console.log(\"ready!\");\n});",
           "link": "",
           "x": 94468,
-          "y": 749,
+          "y": 1125,
           "id": "indx1_244",
           "color": {
             "highlight": {
@@ -2937,7 +2937,7 @@ var schemeData =
           "label": "text()",
           "link": "",
           "x": 94220,
-          "y": 845,
+          "y": 1221,
           "id": "indx1_245",
           "color": {
             "highlight": {
@@ -2978,7 +2978,7 @@ var schemeData =
           "label": "someJQuyerObj.text() -> \"object text\"",
           "link": "",
           "x": 94489,
-          "y": 841,
+          "y": 1217,
           "id": "indx1_246",
           "color": {
             "highlight": {
@@ -3019,7 +3019,7 @@ var schemeData =
           "label": "someJQueryObj.text(\"asdf\")",
           "link": "",
           "x": 94459,
-          "y": 865,
+          "y": 1241,
           "id": "indx1_247",
           "color": {
             "highlight": {
@@ -3060,7 +3060,7 @@ var schemeData =
           "label": "val()",
           "link": "",
           "x": 94218,
-          "y": 1352,
+          "y": 1728,
           "id": "indx1_248",
           "color": {
             "highlight": {
@@ -3101,7 +3101,7 @@ var schemeData =
           "label": "Use val() (e.q.) to get text from textarea",
           "link": "",
           "x": 94496,
-          "y": 1342,
+          "y": 1718,
           "id": "indx1_249",
           "color": {
             "highlight": {
@@ -3142,7 +3142,7 @@ var schemeData =
           "label": "set textarea text with val(\"some text\")",
           "link": "",
           "x": 94488,
-          "y": 1366,
+          "y": 1742,
           "id": "indx1_250",
           "color": {
             "highlight": {
@@ -3183,7 +3183,7 @@ var schemeData =
           "label": "tree traversal",
           "link": "",
           "x": 94246,
-          "y": 1462,
+          "y": 1838,
           "id": "indx1_251",
           "color": {
             "highlight": {
@@ -3224,7 +3224,7 @@ var schemeData =
           "label": "parent",
           "link": "",
           "x": 94391,
-          "y": 1417,
+          "y": 1793,
           "id": "indx1_252",
           "color": {
             "highlight": {
@@ -3265,7 +3265,7 @@ var schemeData =
           "label": "parents",
           "link": "",
           "x": 94395,
-          "y": 1441,
+          "y": 1817,
           "id": "indx1_253",
           "color": {
             "highlight": {
@@ -3306,7 +3306,7 @@ var schemeData =
           "label": "first",
           "link": "",
           "x": 94382,
-          "y": 1465,
+          "y": 1841,
           "id": "indx1_254",
           "color": {
             "highlight": {
@@ -3347,7 +3347,7 @@ var schemeData =
           "label": "last",
           "link": "",
           "x": 94382,
-          "y": 1489,
+          "y": 1865,
           "id": "indx1_255",
           "color": {
             "highlight": {
@@ -3388,7 +3388,7 @@ var schemeData =
           "label": "find",
           "link": "",
           "x": 94382,
-          "y": 1513,
+          "y": 1889,
           "id": "indx1_256",
           "color": {
             "highlight": {
@@ -3429,7 +3429,7 @@ var schemeData =
           "label": "ajax",
           "link": "",
           "x": 94217,
-          "y": 1942,
+          "y": 2318,
           "id": "indx1_257",
           "color": {
             "highlight": {
@@ -3470,7 +3470,7 @@ var schemeData =
           "label": "$.ajax({\n   method: \"GET\",\n   url: \"/somePath\",\n   context: document.body,\n   data: {name: \"Name\", location: \"Location\"}\n}).done(function(msg) {\n   jobData.html(\"New Job Data: \" + msg);\n});",
           "link": "",
           "x": 94510,
-          "y": 1640,
+          "y": 2016,
           "id": "indx1_258",
           "color": {
             "highlight": {
@@ -3511,7 +3511,7 @@ var schemeData =
           "label": "$.ajax({method:\"GET\", url: \"/someUrl\", data: {name: \"SomeName\"}}).done(function(msg) {\n   console.log(msg);\n});",
           "link": "",
           "x": 94655,
-          "y": 1732,
+          "y": 2108,
           "id": "indx1_259",
           "color": {
             "highlight": {
@@ -3552,7 +3552,7 @@ var schemeData =
           "label": "context",
           "link": "",
           "x": 94394,
-          "y": 1776,
+          "y": 2152,
           "id": "indx1_260",
           "color": {
             "highlight": {
@@ -3593,7 +3593,7 @@ var schemeData =
           "label": "tag, which then can be used in done as $(this)",
           "link": "",
           "x": 94665,
-          "y": 1784,
+          "y": 2160,
           "id": "indx1_261",
           "color": {
             "highlight": {
@@ -3634,7 +3634,7 @@ var schemeData =
           "label": "data",
           "link": "",
           "x": 94385,
-          "y": 1824,
+          "y": 2200,
           "id": "indx1_262",
           "color": {
             "highlight": {
@@ -3675,7 +3675,7 @@ var schemeData =
           "label": "data to be sent to the server",
           "link": "",
           "x": 94608,
-          "y": 1826,
+          "y": 2202,
           "id": "indx1_263",
           "color": {
             "highlight": {
@@ -3716,7 +3716,7 @@ var schemeData =
           "label": "dataType",
           "link": "",
           "x": 94400,
-          "y": 1911,
+          "y": 2287,
           "id": "indx1_264",
           "color": {
             "highlight": {
@@ -3757,7 +3757,7 @@ var schemeData =
           "label": "The type of data that you're expected back from the server",
           "link": "",
           "x": 94707,
-          "y": 1871,
+          "y": 2247,
           "id": "indx1_265",
           "color": {
             "highlight": {
@@ -3798,7 +3798,7 @@ var schemeData =
           "label": "types\n",
           "link": "",
           "x": 94534,
-          "y": 1976,
+          "y": 2352,
           "id": "indx1_266",
           "color": {
             "highlight": {
@@ -3839,7 +3839,7 @@ var schemeData =
           "label": "xml",
           "link": "",
           "x": 94643,
-          "y": 1924,
+          "y": 2300,
           "id": "indx1_267",
           "color": {
             "highlight": {
@@ -3880,7 +3880,7 @@ var schemeData =
           "label": "html",
           "link": "",
           "x": 94646,
-          "y": 1948,
+          "y": 2324,
           "id": "indx1_268",
           "color": {
             "highlight": {
@@ -3921,7 +3921,7 @@ var schemeData =
           "label": "script",
           "link": "",
           "x": 94649,
-          "y": 1972,
+          "y": 2348,
           "id": "indx1_269",
           "color": {
             "highlight": {
@@ -3962,7 +3962,7 @@ var schemeData =
           "label": "json",
           "link": "",
           "x": 94645,
-          "y": 1996,
+          "y": 2372,
           "id": "indx1_270",
           "color": {
             "highlight": {
@@ -4003,7 +4003,7 @@ var schemeData =
           "label": "jsonp",
           "link": "",
           "x": 94649,
-          "y": 2020,
+          "y": 2396,
           "id": "indx1_271",
           "color": {
             "highlight": {
@@ -4044,7 +4044,7 @@ var schemeData =
           "label": "text",
           "link": "",
           "x": 94644,
-          "y": 2044,
+          "y": 2420,
           "id": "indx1_272",
           "color": {
             "highlight": {
@@ -4085,7 +4085,7 @@ var schemeData =
           "label": "multispace, space-separated values",
           "link": "",
           "x": 94746,
-          "y": 2068,
+          "y": 2444,
           "id": "indx1_273",
           "color": {
             "highlight": {
@@ -4126,7 +4126,7 @@ var schemeData =
           "label": "timeout",
           "link": "",
           "x": 94394,
-          "y": 2126,
+          "y": 2502,
           "id": "indx1_274",
           "color": {
             "highlight": {
@@ -4167,7 +4167,7 @@ var schemeData =
           "label": "millis",
           "link": "",
           "x": 94542,
-          "y": 2129,
+          "y": 2505,
           "id": "indx1_275",
           "color": {
             "highlight": {
@@ -4208,7 +4208,7 @@ var schemeData =
           "label": "var someVar = $(\"<p></p>\").text(\"some text\");",
           "link": "",
           "x": 94348,
-          "y": 909,
+          "y": 1285,
           "id": "indx1_276",
           "color": {
             "highlight": {
@@ -4253,7 +4253,7 @@ var schemeData =
           "label": "var someVar = $(\"<p></p>\").html(\"some line\");",
           "link": "",
           "x": 94349,
-          "y": 933,
+          "y": 1309,
           "id": "indx1_277",
           "color": {
             "highlight": {
@@ -4293,14 +4293,14 @@ var schemeData =
         "indx1_278": {
           "id": "indx1_278",
           "x": 94266,
-          "y": 1209,
+          "y": 1585,
           "label": "console.log(jQuery)"
         },
         "indx1_279": {
           "label": "check jQuery loaded",
           "link": "",
           "x": 94436,
-          "y": 1209,
+          "y": 1585,
           "id": "indx1_279",
           "color": {
             "highlight": {
@@ -4341,7 +4341,7 @@ var schemeData =
           "label": "select",
           "link": "",
           "x": 94222,
-          "y": 2432,
+          "y": 2808,
           "id": "indx1_280",
           "color": {
             "highlight": {
@@ -4382,7 +4382,7 @@ var schemeData =
           "label": "$(\".someClass\").filter(function() {\n   return new RegExp(\"^.*$\").test($(this).text());\n});",
           "link": "",
           "x": 94521,
-          "y": 2278,
+          "y": 2654,
           "id": "indx1_281",
           "color": {
             "highlight": {
@@ -4423,7 +4423,7 @@ var schemeData =
           "label": "selecte tags with text by regex",
           "link": "",
           "x": 94802,
-          "y": 2273,
+          "y": 2649,
           "id": "indx1_282",
           "color": {
             "highlight": {
@@ -4464,7 +4464,7 @@ var schemeData =
           "label": "$(\"div:contains('John')\")",
           "link": "",
           "x": 94448,
-          "y": 2354,
+          "y": 2730,
           "id": "indx1_283",
           "color": {
             "highlight": {
@@ -4505,7 +4505,7 @@ var schemeData =
           "label": "select tags with text which contains line \"John\"",
           "link": "",
           "x": 94764,
-          "y": 2351,
+          "y": 2727,
           "id": "indx1_284",
           "color": {
             "highlight": {
@@ -4546,7 +4546,7 @@ var schemeData =
           "label": "tr:first-child",
           "link": "",
           "x": 94408,
-          "y": 2400,
+          "y": 2776,
           "id": "indx1_285",
           "color": {
             "highlight": {
@@ -4587,7 +4587,7 @@ var schemeData =
           "label": "tr:first",
           "link": "",
           "x": 94391,
-          "y": 2424,
+          "y": 2800,
           "id": "indx1_286",
           "color": {
             "highlight": {
@@ -4628,7 +4628,7 @@ var schemeData =
           "label": "tr.eq(17)",
           "link": "",
           "x": 94400,
-          "y": 2448,
+          "y": 2824,
           "id": "indx1_287",
           "color": {
             "highlight": {
@@ -4669,7 +4669,7 @@ var schemeData =
           "label": "td[class^='className']",
           "link": "",
           "x": 94444,
-          "y": 2483,
+          "y": 2859,
           "id": "indx1_288",
           "color": {
             "highlight": {
@@ -4710,7 +4710,7 @@ var schemeData =
           "label": "class name starts with",
           "link": "",
           "x": 94630,
-          "y": 2484,
+          "y": 2860,
           "id": "indx1_289",
           "color": {
             "highlight": {
@@ -4751,7 +4751,7 @@ var schemeData =
           "label": "$(\"div, p, span\")",
           "link": "",
           "x": 94423,
-          "y": 2520,
+          "y": 2896,
           "id": "indx1_290",
           "color": {
             "highlight": {
@@ -4792,7 +4792,7 @@ var schemeData =
           "label": "select all object. Condition \"and\"",
           "link": "",
           "x": 94626,
-          "y": 2520,
+          "y": 2896,
           "id": "indx1_291",
           "color": {
             "highlight": {
@@ -4833,7 +4833,7 @@ var schemeData =
           "label": "find(\"td.mapName, td.link1\")",
           "link": "",
           "x": 94462,
-          "y": 2570,
+          "y": 2946,
           "id": "indx1_292",
           "color": {
             "highlight": {
@@ -4874,7 +4874,7 @@ var schemeData =
           "label": "to select tag with several classes like '<td class=\"mapName, link1\">'",
           "link": "",
           "x": 94798,
-          "y": 2570,
+          "y": 2946,
           "id": "indx1_293",
           "color": {
             "highlight": {
@@ -4915,7 +4915,7 @@ var schemeData =
           "label": "input[name1='a1'][name2='a2']",
           "link": "",
           "x": 94470,
-          "y": 2623,
+          "y": 2999,
           "id": "indx1_294",
           "color": {
             "highlight": {
@@ -4956,7 +4956,7 @@ var schemeData =
           "label": "<input name='a1' name2='a2'/>",
           "link": "",
           "x": 94714,
-          "y": 2622,
+          "y": 2998,
           "id": "indx1_295",
           "color": {
             "highlight": {
@@ -4997,7 +4997,7 @@ var schemeData =
           "label": "$(\"div\").find(\"span\");",
           "link": "",
           "x": 94268,
-          "y": 2676,
+          "y": 3052,
           "id": "indx1_296",
           "color": {
             "highlight": {
@@ -5038,7 +5038,7 @@ var schemeData =
           "label": "append()",
           "link": "",
           "x": 94233,
-          "y": 2710,
+          "y": 3086,
           "id": "indx1_297",
           "color": {
             "highlight": {
@@ -5079,7 +5079,7 @@ var schemeData =
           "label": ".after()",
           "link": "",
           "x": 94225,
-          "y": 2748,
+          "y": 3124,
           "id": "indx1_298",
           "color": {
             "highlight": {
@@ -5120,7 +5120,7 @@ var schemeData =
           "label": "insert after object",
           "link": "",
           "x": 94523,
-          "y": 2741,
+          "y": 3117,
           "id": "indx1_299",
           "color": {
             "highlight": {
@@ -5161,7 +5161,7 @@ var schemeData =
           "label": "each(function() {...});",
           "link": "",
           "x": 94269,
-          "y": 2786,
+          "y": 3162,
           "id": "indx1_300",
           "color": {
             "highlight": {
@@ -5202,7 +5202,7 @@ var schemeData =
           "label": "$(list.get().reverse());",
           "link": "",
           "x": 94271,
-          "y": 2815,
+          "y": 3191,
           "id": "indx1_301",
           "color": {
             "highlight": {
@@ -5243,7 +5243,7 @@ var schemeData =
           "label": "mirror an array",
           "link": "",
           "x": 94515,
-          "y": 2807,
+          "y": 3183,
           "id": "indx1_302",
           "color": {
             "highlight": {
@@ -5284,7 +5284,7 @@ var schemeData =
           "label": "remove()",
           "link": "",
           "x": 94233,
-          "y": 2868,
+          "y": 3244,
           "id": "indx1_303",
           "color": {
             "highlight": {
@@ -5325,7 +5325,7 @@ var schemeData =
           "label": "completely delete",
           "link": "",
           "x": 94523,
-          "y": 2862,
+          "y": 3238,
           "id": "indx1_304",
           "color": {
             "highlight": {
@@ -5366,7 +5366,7 @@ var schemeData =
           "label": "detach()",
           "link": "",
           "x": 94230,
-          "y": 2916,
+          "y": 3292,
           "id": "indx1_305",
           "color": {
             "highlight": {
@@ -5407,7 +5407,7 @@ var schemeData =
           "label": "remove from DOM, but save as object. To place back if needed",
           "link": "",
           "x": 94667,
-          "y": 2908,
+          "y": 3284,
           "id": "indx1_306",
           "color": {
             "highlight": {
@@ -5448,7 +5448,7 @@ var schemeData =
           "label": "Sort",
           "link": "",
           "x": 94217,
-          "y": 2991,
+          "y": 3367,
           "id": "indx1_307",
           "color": {
             "highlight": {
@@ -5489,7 +5489,7 @@ var schemeData =
           "label": "l = $(l.get().sort(function(a, b) {\n   return $(a).find(\"td:eq(17)\").text() > $(b).find(\"td:eq(17)\").text();}));",
           "link": "",
           "x": 94588,
-          "y": 2984,
+          "y": 3360,
           "id": "indx1_308",
           "color": {
             "highlight": {
@@ -5530,7 +5530,7 @@ var schemeData =
           "label": "attr()",
           "link": "",
           "x": 94219,
-          "y": 3089,
+          "y": 3465,
           "id": "indx1_309",
           "color": {
             "highlight": {
@@ -5571,7 +5571,7 @@ var schemeData =
           "label": "css(\"background-color\", \"red\");",
           "link": "",
           "x": 94424,
-          "y": 3133,
+          "y": 3509,
           "id": "indx1_310",
           "color": {
             "highlight": {
@@ -5612,7 +5612,7 @@ var schemeData =
           "label": "first()",
           "link": "",
           "x": 94220,
-          "y": 3289,
+          "y": 3665,
           "id": "indx1_311",
           "color": {
             "highlight": {
@@ -5653,7 +5653,7 @@ var schemeData =
           "label": "take first item in array",
           "link": "",
           "x": 94426,
-          "y": 3298,
+          "y": 3674,
           "id": "indx1_312",
           "color": {
             "highlight": {
@@ -5694,7 +5694,7 @@ var schemeData =
           "label": "attr",
           "link": "",
           "x": 94214,
-          "y": 3353,
+          "y": 3729,
           "id": "indx1_313",
           "color": {
             "highlight": {
@@ -5735,7 +5735,7 @@ var schemeData =
           "label": "attr(\"someAttributeName\")",
           "link": "",
           "x": 94441,
-          "y": 3349,
+          "y": 3725,
           "id": "indx1_314",
           "color": {
             "highlight": {
@@ -5776,7 +5776,7 @@ var schemeData =
           "label": "attr(\"someAttributeName\", \"attributeValue\")",
           "link": "",
           "x": 94494,
-          "y": 3373,
+          "y": 3749,
           "id": "indx1_315",
           "color": {
             "highlight": {
@@ -5817,7 +5817,7 @@ var schemeData =
           "label": "Events",
           "link": "",
           "x": 94225,
-          "y": 3672,
+          "y": 4048,
           "id": "indx1_316",
           "color": {
             "highlight": {
@@ -5858,7 +5858,7 @@ var schemeData =
           "label": "Keyboard Events",
           "link": "",
           "x": 94412,
-          "y": 3669,
+          "y": 4045,
           "id": "indx1_317",
           "color": {
             "highlight": {
@@ -5899,7 +5899,7 @@ var schemeData =
           "label": "keydown()",
           "link": "",
           "x": 94566,
-          "y": 3551,
+          "y": 3927,
           "id": "indx1_318",
           "color": {
             "highlight": {
@@ -5940,7 +5940,7 @@ var schemeData =
           "label": "keydown(e)",
           "link": "",
           "x": 94690,
-          "y": 3474,
+          "y": 3850,
           "id": "indx1_319",
           "color": {
             "highlight": {
@@ -5981,7 +5981,7 @@ var schemeData =
           "label": "e.shiftKey",
           "link": "",
           "x": 94879,
-          "y": 3431,
+          "y": 3807,
           "id": "indx1_320",
           "color": {
             "highlight": {
@@ -6022,7 +6022,7 @@ var schemeData =
           "label": "e.keyCode",
           "link": "",
           "x": 94882,
-          "y": 3455,
+          "y": 3831,
           "id": "indx1_321",
           "color": {
             "highlight": {
@@ -6063,7 +6063,7 @@ var schemeData =
           "label": "e.altKey",
           "link": "",
           "x": 94873,
-          "y": 3479,
+          "y": 3855,
           "id": "indx1_322",
           "color": {
             "highlight": {
@@ -6104,7 +6104,7 @@ var schemeData =
           "label": "e.ctrlKey",
           "link": "",
           "x": 94875,
-          "y": 3503,
+          "y": 3879,
           "id": "indx1_323",
           "color": {
             "highlight": {
@@ -6149,7 +6149,7 @@ var schemeData =
           "label": "e.metaKey",
           "link": "",
           "x": 94882,
-          "y": 3527,
+          "y": 3903,
           "id": "indx1_324",
           "color": {
             "highlight": {
@@ -6194,7 +6194,7 @@ var schemeData =
           "label": "kepress()",
           "link": "",
           "x": 94561,
-          "y": 3789,
+          "y": 4165,
           "id": "indx1_325",
           "color": {
             "highlight": {
@@ -6235,7 +6235,7 @@ var schemeData =
           "label": "don't catch shitfKey etc.",
           "link": "",
           "x": 94724,
-          "y": 3789,
+          "y": 4165,
           "id": "indx1_326",
           "color": {
             "highlight": {
@@ -6276,7 +6276,7 @@ var schemeData =
           "label": "keyup()",
           "link": "",
           "x": 94555,
-          "y": 3833,
+          "y": 4209,
           "id": "indx1_327",
           "color": {
             "highlight": {
@@ -7014,7 +7014,7 @@ var schemeData =
           "label": "Libraries",
           "link": "",
           "x": 94231,
-          "y": 3931,
+          "y": 4307,
           "id": "indx1_345",
           "color": {
             "highlight": {
@@ -7055,7 +7055,7 @@ var schemeData =
           "label": "Backbone.js",
           "link": "",
           "x": 94396,
-          "y": 3922,
+          "y": 4298,
           "id": "indx1_346",
           "color": {
             "highlight": {
@@ -7096,7 +7096,7 @@ var schemeData =
           "label": "Underscore.js",
           "link": "",
           "x": 94402,
-          "y": 3947,
+          "y": 4323,
           "id": "indx1_347",
           "color": {
             "highlight": {
@@ -7136,14 +7136,14 @@ var schemeData =
         "indx1_348": {
           "id": "indx1_348",
           "x": 94868,
-          "y": 3562,
+          "y": 3938,
           "label": "e.type"
         },
         "indx1_349": {
           "label": "text()",
           "link": "",
           "x": 94220,
-          "y": 971,
+          "y": 1347,
           "id": "indx1_349",
           "color": {
             "highlight": {
@@ -7184,7 +7184,7 @@ var schemeData =
           "label": "prependTo()",
           "link": "",
           "x": 94243,
-          "y": 4073,
+          "y": 4449,
           "id": "indx1_350",
           "color": {
             "highlight": {
@@ -7225,7 +7225,7 @@ var schemeData =
           "label": "prepend()",
           "link": "",
           "x": 94235,
-          "y": 4119,
+          "y": 4495,
           "id": "indx1_351",
           "color": {
             "highlight": {
@@ -7266,7 +7266,7 @@ var schemeData =
           "label": "appendTo()",
           "link": "",
           "x": 94240,
-          "y": 4164,
+          "y": 4540,
           "id": "indx1_352",
           "color": {
             "highlight": {
@@ -7307,7 +7307,7 @@ var schemeData =
           "label": "append()",
           "link": "",
           "x": 94233,
-          "y": 4209,
+          "y": 4585,
           "id": "indx1_353",
           "color": {
             "highlight": {
@@ -7348,7 +7348,7 @@ var schemeData =
           "label": "html()",
           "link": "",
           "x": 94222,
-          "y": 1013,
+          "y": 1389,
           "id": "indx1_354",
           "color": {
             "highlight": {
@@ -7389,7 +7389,7 @@ var schemeData =
           "label": "Set the HTML contents of each element in the set of matched elements",
           "link": "",
           "x": 94596,
-          "y": 1013,
+          "y": 1389,
           "id": "indx1_355",
           "color": {
             "highlight": {
@@ -7430,7 +7430,7 @@ var schemeData =
           "label": "empty()",
           "link": "",
           "x": 94228,
-          "y": 4319,
+          "y": 4695,
           "id": "indx1_356",
           "color": {
             "highlight": {
@@ -7471,7 +7471,7 @@ var schemeData =
           "label": "opposite to attach()",
           "link": "",
           "x": 94420,
-          "y": 4320,
+          "y": 4696,
           "id": "indx1_357",
           "color": {
             "highlight": {
@@ -7512,7 +7512,7 @@ var schemeData =
           "label": "trigger()",
           "link": "",
           "x": 94229,
-          "y": 4388,
+          "y": 4764,
           "id": "indx1_358",
           "color": {
             "highlight": {
@@ -7553,7 +7553,7 @@ var schemeData =
           "label": "toggleClass()",
           "link": "",
           "x": 94246,
-          "y": 4453,
+          "y": 4829,
           "id": "indx1_359",
           "color": {
             "highlight": {
@@ -7594,7 +7594,7 @@ var schemeData =
           "label": "parents()",
           "link": "",
           "x": 94233,
-          "y": 4518,
+          "y": 4894,
           "id": "indx1_360",
           "color": {
             "highlight": {
@@ -7635,7 +7635,7 @@ var schemeData =
           "label": "parent()",
           "link": "",
           "x": 94229,
-          "y": 4575,
+          "y": 4951,
           "id": "indx1_361",
           "color": {
             "highlight": {
@@ -7676,7 +7676,7 @@ var schemeData =
           "label": "on()",
           "link": "",
           "x": 94217,
-          "y": 4630,
+          "y": 5006,
           "id": "indx1_362",
           "color": {
             "highlight": {
@@ -7717,7 +7717,7 @@ var schemeData =
           "label": "removeClass()",
           "link": "",
           "x": 94250,
-          "y": 4692,
+          "y": 5068,
           "id": "indx1_363",
           "color": {
             "highlight": {
@@ -7762,7 +7762,7 @@ var schemeData =
           "label": "remove object css class",
           "link": "",
           "x": 94433,
-          "y": 4697,
+          "y": 5073,
           "id": "indx1_364",
           "color": {
             "highlight": {
@@ -7803,7 +7803,7 @@ var schemeData =
           "label": "addClass()",
           "link": "",
           "x": 94238,
-          "y": 4747,
+          "y": 5123,
           "id": "indx1_365",
           "color": {
             "highlight": {
@@ -7844,7 +7844,7 @@ var schemeData =
           "label": "add css class to object",
           "link": "",
           "x": 94429,
-          "y": 4755,
+          "y": 5131,
           "id": "indx1_366",
           "color": {
             "highlight": {
@@ -7885,7 +7885,7 @@ var schemeData =
           "label": "blur()",
           "link": "",
           "x": 94221,
-          "y": 4817,
+          "y": 5193,
           "id": "indx1_367",
           "color": {
             "highlight": {
@@ -7926,7 +7926,7 @@ var schemeData =
           "label": "remove focus",
           "link": "",
           "x": 94401,
-          "y": 4824,
+          "y": 5200,
           "id": "indx1_368",
           "color": {
             "highlight": {
@@ -7967,7 +7967,7 @@ var schemeData =
           "label": "focus()",
           "link": "",
           "x": 94226,
-          "y": 4879,
+          "y": 5255,
           "id": "indx1_369",
           "color": {
             "highlight": {
@@ -8008,7 +8008,7 @@ var schemeData =
           "label": "set focus",
           "link": "",
           "x": 94386,
-          "y": 4879,
+          "y": 5255,
           "id": "indx1_370",
           "color": {
             "highlight": {
@@ -8049,7 +8049,7 @@ var schemeData =
           "label": "$(\"selector\").click(function() {\n   console.log($(\"selector\").index(this));\n});",
           "link": "",
           "x": 94806,
-          "y": 36,
+          "y": 412,
           "id": "indx1_371",
           "color": {
             "highlight": {
@@ -8090,7 +8090,7 @@ var schemeData =
           "label": "show selected object number",
           "link": "",
           "x": 94463,
-          "y": 35,
+          "y": 411,
           "id": "indx1_372",
           "color": {
             "highlight": {
@@ -8131,7 +8131,7 @@ var schemeData =
           "label": "$(document).keydown(function(e) {\n   console.log(e.which + \" \" + e.ctrlKey +\n      e.shiftKey + \" \" +\n      e.altKey + \" \" +\n      e.metaKey);\n});",
           "link": "",
           "x": 94785,
-          "y": 3636,
+          "y": 4012,
           "id": "indx1_373",
           "color": {
             "highlight": {
@@ -8171,7 +8171,7 @@ var schemeData =
         "indx1_374": {
           "id": "indx1_374",
           "x": 94784,
-          "y": 3470,
+          "y": 3846,
           "label": "e"
         },
         "indx1_375": {
@@ -8213,7 +8213,7 @@ var schemeData =
         "indx1_376": {
           "label": "jQuery-ui",
           "x": 93689,
-          "y": 8427,
+          "y": 9147,
           "font": {
             "size": 72,
             "align": "left"
@@ -8230,158 +8230,158 @@ var schemeData =
         "indx1_377": {
           "label": "Development",
           "x": 94074,
-          "y": 8938,
+          "y": 9658,
           "id": "indx1_377"
         },
         "indx1_378": {
           "label": "11/30/2019",
           "x": 94207,
-          "y": 8938,
+          "y": 9658,
           "id": "indx1_378"
         },
         "indx1_379": {
           "label": "init",
           "x": 94324,
-          "y": 8938,
+          "y": 9658,
           "id": "indx1_379"
         },
         "indx1_380": {
           "label": "Notes",
           "x": 94050,
-          "y": 8088,
+          "y": 8808,
           "id": "indx1_380"
         },
         "indx1_381": {
           "label": "Dictionary of\nconcepts",
           "x": 94214,
-          "y": 7609,
+          "y": 8329,
           "id": "indx1_381"
         },
         "indx1_382": {
           "label": "Details, thoughts",
           "x": 94224,
-          "y": 8088,
+          "y": 8808,
           "id": "indx1_382"
         },
         "indx1_383": {
           "label": "Sections",
           "x": 94198,
-          "y": 8338,
+          "y": 9058,
           "id": "indx1_383"
         },
         "indx1_384": {
           "label": "Books",
           "x": 94288,
-          "y": 8188,
+          "y": 8908,
           "id": "indx1_384"
         },
         "indx1_385": {
           "label": "R&D institutions",
           "x": 94318,
-          "y": 8213,
+          "y": 8933,
           "id": "indx1_385"
         },
         "indx1_386": {
           "label": "Sites",
           "x": 94284,
-          "y": 8238,
+          "y": 8958,
           "id": "indx1_386"
         },
         "indx1_387": {
           "label": "Magazines",
           "x": 94303,
-          "y": 8263,
+          "y": 8983,
           "id": "indx1_387"
         },
         "indx1_388": {
           "label": "Articles",
           "x": 94291,
-          "y": 8288,
+          "y": 9008,
           "id": "indx1_388"
         },
         "indx1_389": {
           "label": "Media content",
           "x": 94313,
-          "y": 8313,
+          "y": 9033,
           "id": "indx1_389"
         },
         "indx1_390": {
           "label": "Misc. web links",
           "x": 94316,
-          "y": 8338,
+          "y": 9058,
           "id": "indx1_390"
         },
         "indx1_391": {
           "label": "Projects",
           "x": 94294,
-          "y": 8363,
+          "y": 9083,
           "id": "indx1_391"
         },
         "indx1_392": {
           "label": "Tools",
           "x": 94285,
-          "y": 8388,
+          "y": 9108,
           "id": "indx1_392"
         },
         "indx1_393": {
           "label": "Organizations",
           "x": 94312,
-          "y": 8413,
+          "y": 9133,
           "id": "indx1_393"
         },
         "indx1_394": {
           "label": "Standarts",
           "x": 94299,
-          "y": 8438,
+          "y": 9158,
           "id": "indx1_394"
         },
         "indx1_395": {
           "label": "Forums, Groups",
           "x": 94320,
-          "y": 8463,
+          "y": 9183,
           "id": "indx1_395"
         },
         "indx1_396": {
           "label": "Laws",
           "x": 94285,
-          "y": 8488,
+          "y": 9208,
           "id": "indx1_396"
         },
         "indx1_397": {
           "label": "Adjacent Themes",
           "x": 94324,
-          "y": 8513,
+          "y": 9233,
           "id": "indx1_397"
         },
         "indx1_398": {
           "label": "Questions",
           "x": 94064,
-          "y": 8638,
+          "y": 9358,
           "id": "indx1_398"
         },
         "indx1_399": {
           "label": "Problems",
           "x": 94062,
-          "y": 8738,
+          "y": 9458,
           "id": "indx1_399"
         },
         "indx1_400": {
           "label": "Goals",
           "x": 94050,
-          "y": 8838,
+          "y": 9558,
           "id": "indx1_400"
         },
         "indx1_401": {
           "id": "indx1_401",
           "x": 94411,
-          "y": 7579,
+          "y": 8299,
           "label": "dateFormat"
         },
         "indx1_402": {
           "label": "$(\".selector\").datepicker({\n   dateFormat: \"yy-mm-dd\"\n});",
           "link": "",
           "x": 94610,
-          "y": 7581,
+          "y": 8301,
           "id": "indx1_402",
           "color": {
             "highlight": {
@@ -8453,7 +8453,7 @@ var schemeData =
           "label": "jQuery-ui",
           "id": "indx1_403",
           "x": 98006,
-          "y": 8046,
+          "y": 8766,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8461,7 +8461,7 @@ var schemeData =
         "indx1_404": {
           "label": "AJAX",
           "x": 94111,
-          "y": 11138,
+          "y": 11858,
           "font": {
             "size": 72,
             "align": "left"
@@ -8478,158 +8478,158 @@ var schemeData =
         "indx1_405": {
           "label": "Development",
           "x": 94411,
-          "y": 11587,
+          "y": 12307,
           "id": "indx1_405"
         },
         "indx1_406": {
           "label": "12/1/2019",
           "x": 94540,
-          "y": 11587,
+          "y": 12307,
           "id": "indx1_406"
         },
         "indx1_407": {
           "label": "init",
           "x": 94661,
-          "y": 11587,
+          "y": 12307,
           "id": "indx1_407"
         },
         "indx1_408": {
           "label": "Notes",
           "x": 94387,
-          "y": 10738,
+          "y": 11458,
           "id": "indx1_408"
         },
         "indx1_409": {
           "label": "Dictionary of\nconcepts",
           "x": 94563,
-          "y": 10322,
+          "y": 11042,
           "id": "indx1_409"
         },
         "indx1_410": {
           "label": "Details, thoughts",
           "x": 94561,
-          "y": 10738,
+          "y": 11458,
           "id": "indx1_410"
         },
         "indx1_411": {
           "label": "Sections",
           "x": 94535,
-          "y": 10988,
+          "y": 11708,
           "id": "indx1_411"
         },
         "indx1_412": {
           "label": "Books",
           "x": 94625,
-          "y": 10838,
+          "y": 11558,
           "id": "indx1_412"
         },
         "indx1_413": {
           "label": "R&D institutions",
           "x": 94655,
-          "y": 10863,
+          "y": 11583,
           "id": "indx1_413"
         },
         "indx1_414": {
           "label": "Sites",
           "x": 94621,
-          "y": 10888,
+          "y": 11608,
           "id": "indx1_414"
         },
         "indx1_415": {
           "label": "Magazines",
           "x": 94640,
-          "y": 10913,
+          "y": 11633,
           "id": "indx1_415"
         },
         "indx1_416": {
           "label": "Articles",
           "x": 94628,
-          "y": 10938,
+          "y": 11658,
           "id": "indx1_416"
         },
         "indx1_417": {
           "label": "Media content",
           "x": 94650,
-          "y": 10963,
+          "y": 11683,
           "id": "indx1_417"
         },
         "indx1_418": {
           "label": "Misc. web links",
           "x": 94653,
-          "y": 10988,
+          "y": 11708,
           "id": "indx1_418"
         },
         "indx1_419": {
           "label": "Projects",
           "x": 94631,
-          "y": 11013,
+          "y": 11733,
           "id": "indx1_419"
         },
         "indx1_420": {
           "label": "Tools",
           "x": 94622,
-          "y": 11038,
+          "y": 11758,
           "id": "indx1_420"
         },
         "indx1_421": {
           "label": "Organizations",
           "x": 94649,
-          "y": 11063,
+          "y": 11783,
           "id": "indx1_421"
         },
         "indx1_422": {
           "label": "Standarts",
           "x": 94636,
-          "y": 11088,
+          "y": 11808,
           "id": "indx1_422"
         },
         "indx1_423": {
           "label": "Forums, Groups",
           "x": 94657,
-          "y": 11113,
+          "y": 11833,
           "id": "indx1_423"
         },
         "indx1_424": {
           "label": "Laws",
           "x": 94622,
-          "y": 11138,
+          "y": 11858,
           "id": "indx1_424"
         },
         "indx1_425": {
           "label": "Adjacent Themes",
           "x": 94661,
-          "y": 11162,
+          "y": 11882,
           "id": "indx1_425"
         },
         "indx1_426": {
           "label": "Questions",
           "x": 94401,
-          "y": 11287,
+          "y": 12007,
           "id": "indx1_426"
         },
         "indx1_427": {
           "label": "Problems",
           "x": 94399,
-          "y": 11387,
+          "y": 12107,
           "id": "indx1_427"
         },
         "indx1_428": {
           "label": "Goals",
           "x": 94387,
-          "y": 11487,
+          "y": 12207,
           "id": "indx1_428"
         },
         "indx1_429": {
           "id": "indx1_429",
           "x": 94773,
-          "y": 10307,
+          "y": 11027,
           "label": "Work with different languages on server"
         },
         "indx1_430": {
           "label": "Ruby",
           "link": "",
           "x": 94977,
-          "y": 10296,
+          "y": 11016,
           "id": "indx1_430",
           "color": {
             "highlight": {
@@ -8670,7 +8670,7 @@ var schemeData =
           "label": "To send objects",
           "link": "",
           "x": 95117,
-          "y": 10287,
+          "y": 11007,
           "id": "indx1_431",
           "color": {
             "highlight": {
@@ -8711,7 +8711,7 @@ var schemeData =
           "label": "JSON.parse(object.to_json)",
           "link": "",
           "x": 95363,
-          "y": 10293,
+          "y": 11013,
           "id": "indx1_432",
           "color": {
             "highlight": {
@@ -8752,7 +8752,7 @@ var schemeData =
           "label": "data in type Struct must be converted in Hash - to_h",
           "link": "",
           "x": 95232,
-          "y": 10335,
+          "y": 11055,
           "id": "indx1_433",
           "color": {
             "highlight": {
@@ -8820,7 +8820,7 @@ var schemeData =
           "label": "AJAX",
           "id": "indx1_434",
           "x": 97229,
-          "y": 10639,
+          "y": 11359,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8828,7 +8828,7 @@ var schemeData =
         "indx1_435": {
           "label": "Introspection",
           "x": 93707,
-          "y": 13608,
+          "y": 14328,
           "font": {
             "size": 72,
             "align": "left"
@@ -8845,158 +8845,158 @@ var schemeData =
         "indx1_436": {
           "label": "Development",
           "x": 94300,
-          "y": 14014,
+          "y": 14734,
           "id": "indx1_436"
         },
         "indx1_437": {
           "label": "12/1/2019",
           "x": 94429,
-          "y": 14014,
+          "y": 14734,
           "id": "indx1_437"
         },
         "indx1_438": {
           "label": "init",
           "x": 94550,
-          "y": 14014,
+          "y": 14734,
           "id": "indx1_438"
         },
         "indx1_439": {
           "label": "Notes",
           "x": 94277,
-          "y": 13164,
+          "y": 13884,
           "id": "indx1_439"
         },
         "indx1_440": {
           "label": "Dictionary of\nconcepts",
           "x": 94437,
-          "y": 12914,
+          "y": 13634,
           "id": "indx1_440"
         },
         "indx1_441": {
           "label": "Details, thoughts",
           "x": 94450,
-          "y": 13164,
+          "y": 13884,
           "id": "indx1_441"
         },
         "indx1_442": {
           "label": "Sections",
           "x": 94424,
-          "y": 13414,
+          "y": 14134,
           "id": "indx1_442"
         },
         "indx1_443": {
           "label": "Books",
           "x": 94514,
-          "y": 13264,
+          "y": 13984,
           "id": "indx1_443"
         },
         "indx1_444": {
           "label": "R&D institutions",
           "x": 94545,
-          "y": 13289,
+          "y": 14009,
           "id": "indx1_444"
         },
         "indx1_445": {
           "label": "Sites",
           "x": 94510,
-          "y": 13314,
+          "y": 14034,
           "id": "indx1_445"
         },
         "indx1_446": {
           "label": "Magazines",
           "x": 94529,
-          "y": 13339,
+          "y": 14059,
           "id": "indx1_446"
         },
         "indx1_447": {
           "label": "Articles",
           "x": 94518,
-          "y": 13364,
+          "y": 14084,
           "id": "indx1_447"
         },
         "indx1_448": {
           "label": "Media content",
           "x": 94540,
-          "y": 13389,
+          "y": 14109,
           "id": "indx1_448"
         },
         "indx1_449": {
           "label": "Misc. web links",
           "x": 94542,
-          "y": 13414,
+          "y": 14134,
           "id": "indx1_449"
         },
         "indx1_450": {
           "label": "Projects",
           "x": 94520,
-          "y": 13439,
+          "y": 14159,
           "id": "indx1_450"
         },
         "indx1_451": {
           "label": "Tools",
           "x": 94512,
-          "y": 13464,
+          "y": 14184,
           "id": "indx1_451"
         },
         "indx1_452": {
           "label": "Organizations",
           "x": 94539,
-          "y": 13489,
+          "y": 14209,
           "id": "indx1_452"
         },
         "indx1_453": {
           "label": "Standarts",
           "x": 94525,
-          "y": 13514,
+          "y": 14234,
           "id": "indx1_453"
         },
         "indx1_454": {
           "label": "Forums, Groups",
           "x": 94547,
-          "y": 13539,
+          "y": 14259,
           "id": "indx1_454"
         },
         "indx1_455": {
           "label": "Laws",
           "x": 94511,
-          "y": 13564,
+          "y": 14284,
           "id": "indx1_455"
         },
         "indx1_456": {
           "label": "Adjacent Themes",
           "x": 94550,
-          "y": 13589,
+          "y": 14309,
           "id": "indx1_456"
         },
         "indx1_457": {
           "label": "Questions",
           "x": 94290,
-          "y": 13714,
+          "y": 14434,
           "id": "indx1_457"
         },
         "indx1_458": {
           "label": "Problems",
           "x": 94288,
-          "y": 13814,
+          "y": 14534,
           "id": "indx1_458"
         },
         "indx1_459": {
           "label": "Goals",
           "x": 94277,
-          "y": 13914,
+          "y": 14634,
           "id": "indx1_459"
         },
         "indx1_460": {
           "id": "indx1_460",
           "x": 94689,
-          "y": 12864,
+          "y": 13584,
           "label": "Object.keys(object)"
         },
         "indx1_461": {
           "label": "list of fields",
           "link": "",
           "x": 94854,
-          "y": 12863,
+          "y": 13583,
           "id": "indx1_461",
           "color": {
             "highlight": {
@@ -9037,7 +9037,7 @@ var schemeData =
           "label": "array of a given object's own property names, in the same order as we get with a normal loop",
           "link": "",
           "x": 95258,
-          "y": 12863,
+          "y": 13583,
           "id": "indx1_462",
           "color": {
             "highlight": {
@@ -9078,7 +9078,7 @@ var schemeData =
           "label": "object.hashOwnProperty(\"some_property_name\")",
           "link": "",
           "x": 94786,
-          "y": 12951,
+          "y": 13671,
           "id": "indx1_463",
           "color": {
             "highlight": {
@@ -9119,7 +9119,7 @@ var schemeData =
           "label": "method returns a boolean indicating whether the object has the specified property\nas its own property (as opposed to inheriting it)",
           "link": "",
           "x": 95262,
-          "y": 12951,
+          "y": 13671,
           "id": "indx1_464",
           "color": {
             "highlight": {
@@ -9187,7 +9187,7 @@ var schemeData =
           "label": "Introspection",
           "id": "indx1_465",
           "x": 98808,
-          "y": 13227,
+          "y": 13947,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11037,7 +11037,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "rdflib.js",
           "x": 94136,
-          "y": 19182,
+          "y": 19902,
           "id": "indx1_558",
           "shape": "box",
           "link": "",
@@ -11069,7 +11069,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 94438,
-          "y": 19797,
+          "y": 20517,
           "id": "indx1_559"
         },
         "indx1_560": {
@@ -11098,7 +11098,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/12/2019",
           "x": 94632,
-          "y": 19799,
+          "y": 20519,
           "id": "indx1_560"
         },
         "indx1_561": {
@@ -11127,7 +11127,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 94761,
-          "y": 19799,
+          "y": 20519,
           "id": "indx1_561"
         },
         "indx1_562": {
@@ -11156,7 +11156,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 94413,
-          "y": 18663,
+          "y": 19383,
           "id": "indx1_562"
         },
         "indx1_563": {
@@ -11189,7 +11189,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94586,
-          "y": 18413,
+          "y": 19133,
           "id": "indx1_563",
           "shape": "box",
           "link": "",
@@ -11221,7 +11221,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 94586,
-          "y": 18663,
+          "y": 19383,
           "id": "indx1_564"
         },
         "indx1_565": {
@@ -11250,7 +11250,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 94576,
-          "y": 19066,
+          "y": 19786,
           "id": "indx1_565"
         },
         "indx1_566": {
@@ -11279,7 +11279,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 94650,
-          "y": 18763,
+          "y": 19483,
           "id": "indx1_566"
         },
         "indx1_567": {
@@ -11308,7 +11308,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 94681,
-          "y": 18788,
+          "y": 19508,
           "id": "indx1_567"
         },
         "indx1_568": {
@@ -11337,7 +11337,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 94646,
-          "y": 18813,
+          "y": 19533,
           "id": "indx1_568"
         },
         "indx1_569": {
@@ -11366,7 +11366,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 94665,
-          "y": 18838,
+          "y": 19558,
           "id": "indx1_569"
         },
         "indx1_570": {
@@ -11395,7 +11395,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 94654,
-          "y": 18863,
+          "y": 19583,
           "id": "indx1_570"
         },
         "indx1_571": {
@@ -11424,7 +11424,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 94676,
-          "y": 18888,
+          "y": 19608,
           "id": "indx1_571"
         },
         "indx1_572": {
@@ -11453,7 +11453,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 94680,
-          "y": 19064,
+          "y": 19784,
           "id": "indx1_572"
         },
         "indx1_573": {
@@ -11482,7 +11482,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 94658,
-          "y": 19222,
+          "y": 19942,
           "id": "indx1_573"
         },
         "indx1_574": {
@@ -11511,7 +11511,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 94649,
-          "y": 19247,
+          "y": 19967,
           "id": "indx1_574"
         },
         "indx1_575": {
@@ -11540,7 +11540,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 94677,
-          "y": 19272,
+          "y": 19992,
           "id": "indx1_575"
         },
         "indx1_576": {
@@ -11569,7 +11569,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 94663,
-          "y": 19297,
+          "y": 20017,
           "id": "indx1_576"
         },
         "indx1_577": {
@@ -11598,7 +11598,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 94685,
-          "y": 19322,
+          "y": 20042,
           "id": "indx1_577"
         },
         "indx1_578": {
@@ -11627,7 +11627,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 94649,
-          "y": 19347,
+          "y": 20067,
           "id": "indx1_578"
         },
         "indx1_579": {
@@ -11656,7 +11656,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 94688,
-          "y": 19372,
+          "y": 20092,
           "id": "indx1_579"
         },
         "indx1_580": {
@@ -11685,7 +11685,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 94428,
-          "y": 19497,
+          "y": 20217,
           "id": "indx1_580"
         },
         "indx1_581": {
@@ -11714,7 +11714,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 94426,
-          "y": 19597,
+          "y": 20317,
           "id": "indx1_581"
         },
         "indx1_582": {
@@ -11743,7 +11743,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 94415,
-          "y": 19697,
+          "y": 20417,
           "id": "indx1_582"
         },
         "indx1_583": {
@@ -11776,7 +11776,7 @@ var schemeData =
           "label": "rdflib.js",
           "id": "indx1_583",
           "x": 97562,
-          "y": 18880,
+          "y": 19600,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11810,7 +11810,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "node.js",
           "x": 93107,
-          "y": 27281,
+          "y": 28001,
           "id": "indx1_584",
           "shape": "box",
           "link": "",
@@ -11842,7 +11842,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 93407,
-          "y": 27731,
+          "y": 28451,
           "id": "indx1_585"
         },
         "indx1_586": {
@@ -11871,7 +11871,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/16/2019",
           "x": 93617,
-          "y": 27731,
+          "y": 28451,
           "id": "indx1_586"
         },
         "indx1_587": {
@@ -11900,7 +11900,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 93738,
-          "y": 27733,
+          "y": 28453,
           "id": "indx1_587"
         },
         "indx1_588": {
@@ -11929,7 +11929,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 93401,
-          "y": 26709,
+          "y": 27429,
           "id": "indx1_588"
         },
         "indx1_589": {
@@ -11958,7 +11958,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 93580,
-          "y": 24953,
+          "y": 25673,
           "id": "indx1_589"
         },
         "indx1_590": {
@@ -11987,7 +11987,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 93551,
-          "y": 26709,
+          "y": 27429,
           "id": "indx1_590"
         },
         "indx1_591": {
@@ -12016,7 +12016,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 93557,
-          "y": 27131,
+          "y": 27851,
           "id": "indx1_591"
         },
         "indx1_592": {
@@ -12045,7 +12045,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 93615,
-          "y": 26809,
+          "y": 27529,
           "id": "indx1_592"
         },
         "indx1_593": {
@@ -12074,7 +12074,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 93646,
-          "y": 26834,
+          "y": 27554,
           "id": "indx1_593"
         },
         "indx1_594": {
@@ -12103,7 +12103,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 93611,
-          "y": 26859,
+          "y": 27579,
           "id": "indx1_594"
         },
         "indx1_595": {
@@ -12132,7 +12132,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 93630,
-          "y": 26884,
+          "y": 27604,
           "id": "indx1_595"
         },
         "indx1_596": {
@@ -12161,7 +12161,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 93619,
-          "y": 26909,
+          "y": 27629,
           "id": "indx1_596"
         },
         "indx1_597": {
@@ -12190,7 +12190,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 93641,
-          "y": 26934,
+          "y": 27654,
           "id": "indx1_597"
         },
         "indx1_598": {
@@ -12219,7 +12219,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 93656,
-          "y": 27048,
+          "y": 27768,
           "id": "indx1_598"
         },
         "indx1_599": {
@@ -12248,7 +12248,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 93627,
-          "y": 27156,
+          "y": 27876,
           "id": "indx1_599"
         },
         "indx1_600": {
@@ -12277,7 +12277,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 93619,
-          "y": 27181,
+          "y": 27901,
           "id": "indx1_600"
         },
         "indx1_601": {
@@ -12306,7 +12306,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 93646,
-          "y": 27206,
+          "y": 27926,
           "id": "indx1_601"
         },
         "indx1_602": {
@@ -12335,7 +12335,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 93632,
-          "y": 27231,
+          "y": 27951,
           "id": "indx1_602"
         },
         "indx1_603": {
@@ -12364,7 +12364,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 93654,
-          "y": 27256,
+          "y": 27976,
           "id": "indx1_603"
         },
         "indx1_604": {
@@ -12393,7 +12393,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 93618,
-          "y": 27281,
+          "y": 28001,
           "id": "indx1_604"
         },
         "indx1_605": {
@@ -12422,7 +12422,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 93657,
-          "y": 27306,
+          "y": 28026,
           "id": "indx1_605"
         },
         "indx1_606": {
@@ -12451,7 +12451,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 93407,
-          "y": 27431,
+          "y": 28151,
           "id": "indx1_606"
         },
         "indx1_607": {
@@ -12480,7 +12480,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 93407,
-          "y": 27531,
+          "y": 28251,
           "id": "indx1_607"
         },
         "indx1_608": {
@@ -12509,7 +12509,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 93407,
-          "y": 27631,
+          "y": 28351,
           "id": "indx1_608"
         },
         "indx1_609": {
@@ -12542,7 +12542,7 @@ var schemeData =
           "label": "https://nodejs.org/en/",
           "id": "indx1_609",
           "x": 93828,
-          "y": 27016,
+          "y": 27736,
           "shape": "box",
           "link": "https://nodejs.org/en/",
           "borderWidth": ""
@@ -12577,7 +12577,7 @@ var schemeData =
           "label": "https://en.wikipedia.org/wiki/Node.js",
           "id": "indx1_610",
           "x": 93873,
-          "y": 27083,
+          "y": 27803,
           "shape": "box",
           "link": "https://en.wikipedia.org/wiki/Node.js",
           "borderWidth": ""
@@ -12609,7 +12609,7 @@ var schemeData =
           "label": "File",
           "id": "indx1_611",
           "x": 93825,
-          "y": 23481
+          "y": 24201
         },
         "indx1_612": {
           "color": {
@@ -12641,7 +12641,7 @@ var schemeData =
           "label": "var fs = require('fs');\n \nvar contents = fs.readFileSync('DATA', 'utf8');\nconsole.log(contents);",
           "id": "indx1_612",
           "x": 94501,
-          "y": 24029,
+          "y": 24749,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12673,7 +12673,7 @@ var schemeData =
           "label": "Read file",
           "id": "indx1_613",
           "x": 94002,
-          "y": 24029
+          "y": 24749
         },
         "indx1_614": {
           "color": {
@@ -12702,7 +12702,7 @@ var schemeData =
           "label": "synchronously (blocking)",
           "id": "indx1_614",
           "x": 94205,
-          "y": 24027
+          "y": 24747
         },
         "indx1_615": {
           "color": {
@@ -12731,7 +12731,7 @@ var schemeData =
           "label": "Write file",
           "id": "indx1_615",
           "x": 94002,
-          "y": 24166
+          "y": 24886
         },
         "indx1_616": {
           "color": {
@@ -12760,7 +12760,7 @@ var schemeData =
           "label": "Synchronous Write",
           "id": "indx1_616",
           "x": 94207,
-          "y": 24159
+          "y": 24879
         },
         "indx1_617": {
           "color": {
@@ -12792,7 +12792,7 @@ var schemeData =
           "label": "fs = require('fs');\n\nfs.writeFileSync(\"synchronous.txt\", \"synchronous write!\")",
           "id": "indx1_617",
           "x": 94521,
-          "y": 24163,
+          "y": 24883,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12827,7 +12827,7 @@ var schemeData =
           "label": "node.js",
           "id": "indx1_618",
           "x": 97590,
-          "y": 23038,
+          "y": 23758,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12859,7 +12859,7 @@ var schemeData =
           "label": "Web",
           "id": "indx1_619",
           "x": 93877,
-          "y": 24932
+          "y": 25652
         },
         "indx1_620": {
           "color": {
@@ -12888,7 +12888,7 @@ var schemeData =
           "label": "http-server",
           "id": "indx1_620",
           "x": 94044,
-          "y": 24496
+          "y": 25216
         },
         "indx1_621": {
           "color": {
@@ -12921,7 +12921,7 @@ var schemeData =
           "label": "var http = require('http');\nvar fs = require('fs');\n\nhttp.createServer(function (req, res) {\n    console.dir(req.url);\n\n    res.writeHead(200, {'Content-Type': 'text/html'});\n\n    res.end('ok');\n}).listen(3001);",
           "id": "indx1_621",
           "x": 94664,
-          "y": 24346,
+          "y": 25066,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12957,7 +12957,7 @@ var schemeData =
           "label": "\n    // will get you  '/' or 'index.html' or 'css/styles.css' ...\n    // • you need to isolate extension\n    // • have a small mimetype lookup array/object\n    // • only there and then reading the file\n    // •  delivering it after setting the right content type",
           "id": "indx1_622",
           "x": 95101,
-          "y": 24331,
+          "y": 25051,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12989,7 +12989,7 @@ var schemeData =
           "label": "default",
           "id": "indx1_623",
           "x": 94282,
-          "y": 24344
+          "y": 25064
         },
         "indx1_624": {
           "color": {
@@ -13018,7 +13018,7 @@ var schemeData =
           "label": "Express",
           "id": "indx1_624",
           "x": 94286,
-          "y": 24719
+          "y": 25439
         },
         "indx1_625": {
           "color": {
@@ -13051,7 +13051,7 @@ var schemeData =
           "label": "var fs = require(\"fs\");\nvar host = \"127.0.0.1\";\nvar port = 1337;\nvar express = require(\"express\");\n\nvar app = express();\n//app.use(express.static(__dirname + \"/public\")); //use static files in ROOT/public folder\n\nvar saveData = {};\napp.get(\"/\", function(request, response){ //root dir\n    response.set('access-control-allow-origin', '*');\n    var path = request.query.path;\n    var dataPart = request.query.dataPart;\n    var dataPartNumber = request.query.dataPartNumber;\n    var projectName = request.query.projectName;\n    var saveTime = request.query.saveTime;\n    var lastDataPart = request.query.lastDataPart;\n\n    saveData[dataPartNumber] = JSON.parse(dataPart);\n\n    var answerLine = JSON.stringify(\"ok\");\n\n    process.stdout.write(dataPart);\n    if (lastDataPart == \"true\") {\n        var data = \"\";\n        for (var key in saveData) {\n           data += saveData[key];\n        }\n        console.log(data);\n    }\n    response.send(answerLine);\n});\n\napp.listen(port, host);\n",
           "id": "indx1_625",
           "x": 94793,
-          "y": 24943,
+          "y": 25663,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13086,7 +13086,7 @@ var schemeData =
           "label": "https://expressjs.com/",
           "id": "indx1_626",
           "x": 94596,
-          "y": 24529,
+          "y": 25249,
           "shape": "box",
           "link": "https://expressjs.com/",
           "borderWidth": ""
@@ -13118,7 +13118,7 @@ var schemeData =
           "label": "npm install express --save",
           "id": "indx1_627",
           "x": 94607,
-          "y": 24576
+          "y": 25296
         },
         "indx1_628": {
           "color": {
@@ -13147,7 +13147,7 @@ var schemeData =
           "label": "Headers",
           "id": "indx1_628",
           "x": 94550,
-          "y": 24632
+          "y": 25352
         },
         "indx1_629": {
           "color": {
@@ -13176,7 +13176,7 @@ var schemeData =
           "label": "res.set('Content-Type', 'text/plain');",
           "id": "indx1_629",
           "x": 94788,
-          "y": 24629
+          "y": 25349
         },
         "indx1_630": {
           "color": {
@@ -13234,7 +13234,7 @@ var schemeData =
           "label": "script params",
           "id": "indx1_631",
           "x": 93906,
-          "y": 25487
+          "y": 26207
         },
         "indx1_632": {
           "color": {
@@ -13267,7 +13267,7 @@ var schemeData =
           "label": "process.argv.forEach(function (val, index, array) {\n  console.log(index + ': ' + val);\n})",
           "id": "indx1_632",
           "x": 94278,
-          "y": 25490,
+          "y": 26210,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13299,7 +13299,7 @@ var schemeData =
           "label": "Create dir",
           "id": "indx1_633",
           "x": 94006,
-          "y": 23832
+          "y": 24552
         },
         "indx1_634": {
           "color": {
@@ -13331,7 +13331,7 @@ var schemeData =
           "label": "if (!fs.existsSync(dir)){\n    fs.mkdirSync(dir);\n}",
           "id": "indx1_634",
           "x": 94386,
-          "y": 23826,
+          "y": 24546,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -13363,7 +13363,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "vis.js",
           "x": 94136,
-          "y": 16767,
+          "y": 17487,
           "id": "indx1_635",
           "shape": "box",
           "link": "",
@@ -13393,7 +13393,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Development",
           "x": 94675,
-          "y": 17230,
+          "y": 17950,
           "id": "indx1_636"
         },
         "indx1_637": {
@@ -13420,7 +13420,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "11/21/2019",
           "x": 94925,
-          "y": 17230,
+          "y": 17950,
           "id": "indx1_637"
         },
         "indx1_638": {
@@ -13447,7 +13447,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "init",
           "x": 94825,
-          "y": 17230,
+          "y": 17950,
           "id": "indx1_638"
         },
         "indx1_639": {
@@ -13474,7 +13474,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Notes",
           "x": 94676,
-          "y": 16019,
+          "y": 16739,
           "id": "indx1_639"
         },
         "indx1_640": {
@@ -13501,7 +13501,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94829,
-          "y": 15565,
+          "y": 16285,
           "id": "indx1_640"
         },
         "indx1_641": {
@@ -13528,7 +13528,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Details, thoughts",
           "x": 94851,
-          "y": 15906,
+          "y": 16626,
           "id": "indx1_641"
         },
         "indx1_642": {
@@ -13555,7 +13555,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sections",
           "x": 94823,
-          "y": 16576,
+          "y": 17296,
           "id": "indx1_642"
         },
         "indx1_643": {
@@ -13582,7 +13582,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Books",
           "x": 94890,
-          "y": 16118,
+          "y": 16838,
           "id": "indx1_643"
         },
         "indx1_644": {
@@ -13609,7 +13609,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "R&D institutions",
           "x": 94921,
-          "y": 16143,
+          "y": 16863,
           "id": "indx1_644"
         },
         "indx1_645": {
@@ -13636,7 +13636,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Sites",
           "x": 94891,
-          "y": 16313,
+          "y": 17033,
           "id": "indx1_645"
         },
         "indx1_646": {
@@ -13663,7 +13663,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Magazines",
           "x": 94905,
-          "y": 16612,
+          "y": 17332,
           "id": "indx1_646"
         },
         "indx1_647": {
@@ -13690,7 +13690,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Articles",
           "x": 94893,
-          "y": 16637,
+          "y": 17357,
           "id": "indx1_647"
         },
         "indx1_648": {
@@ -13717,7 +13717,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Media content",
           "x": 94915,
-          "y": 16662,
+          "y": 17382,
           "id": "indx1_648"
         },
         "indx1_649": {
@@ -13744,7 +13744,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Misc. web links",
           "x": 94918,
-          "y": 16687,
+          "y": 17407,
           "id": "indx1_649"
         },
         "indx1_650": {
@@ -13771,7 +13771,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Projects",
           "x": 94896,
-          "y": 16712,
+          "y": 17432,
           "id": "indx1_650"
         },
         "indx1_651": {
@@ -13798,7 +13798,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Tools",
           "x": 94887,
-          "y": 16737,
+          "y": 17457,
           "id": "indx1_651"
         },
         "indx1_652": {
@@ -13825,7 +13825,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Organizations",
           "x": 94914,
-          "y": 16762,
+          "y": 17482,
           "id": "indx1_652"
         },
         "indx1_653": {
@@ -13852,7 +13852,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Standarts",
           "x": 94901,
-          "y": 16787,
+          "y": 17507,
           "id": "indx1_653"
         },
         "indx1_654": {
@@ -13879,7 +13879,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Forums, Groups",
           "x": 94922,
-          "y": 16812,
+          "y": 17532,
           "id": "indx1_654"
         },
         "indx1_655": {
@@ -13906,7 +13906,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Laws",
           "x": 94887,
-          "y": 16837,
+          "y": 17557,
           "id": "indx1_655"
         },
         "indx1_656": {
@@ -13933,7 +13933,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Adjacent Themes",
           "x": 94926,
-          "y": 16862,
+          "y": 17582,
           "id": "indx1_656"
         },
         "indx1_657": {
@@ -13960,7 +13960,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Questions",
           "x": 94675,
-          "y": 16930,
+          "y": 17650,
           "id": "indx1_657"
         },
         "indx1_658": {
@@ -13987,7 +13987,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Problems",
           "x": 94675,
-          "y": 17030,
+          "y": 17750,
           "id": "indx1_658"
         },
         "indx1_659": {
@@ -14014,7 +14014,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Goals",
           "x": 94675,
-          "y": 17130,
+          "y": 17850,
           "id": "indx1_659"
         },
         "indx1_660": {
@@ -14042,7 +14042,7 @@ var schemeData =
           "label": "vis.js - base library of mm-vis-js. It is responsible for canvas and it's nodes with edges network.",
           "id": "indx1_660",
           "x": 95320,
-          "y": 15889
+          "y": 16609
         },
         "indx1_661": {
           "color": {
@@ -14074,7 +14074,7 @@ var schemeData =
           "label": "vis.js",
           "id": "indx1_661",
           "x": 97089,
-          "y": 15936,
+          "y": 16656,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14107,7 +14107,7 @@ var schemeData =
           "label": "https://visjs.org/",
           "id": "indx1_662",
           "x": 95084,
-          "y": 16235,
+          "y": 16955,
           "shape": "box",
           "link": "https://visjs.org/",
           "borderWidth": ""
@@ -14137,7 +14137,7 @@ var schemeData =
           "label": "main site",
           "id": "indx1_663",
           "x": 95258,
-          "y": 16236
+          "y": 16956
         },
         "indx1_664": {
           "color": {
@@ -14167,7 +14167,7 @@ var schemeData =
           "label": "https://github.com/almende/vis",
           "id": "indx1_664",
           "x": 95134,
-          "y": 16429,
+          "y": 17149,
           "shape": "box",
           "link": "https://github.com/almende/vis",
           "borderWidth": ""
@@ -14197,7 +14197,7 @@ var schemeData =
           "label": "From 2010 to 2017 it was main repository for vis.js.",
           "id": "indx1_665",
           "x": 95467,
-          "y": 16402
+          "y": 17122
         },
         "indx1_666": {
           "color": {
@@ -14224,7 +14224,7 @@ var schemeData =
           "label": "Then code was separated into several repositories.",
           "id": "indx1_666",
           "x": 95467,
-          "y": 16432
+          "y": 17152
         },
         "indx1_667": {
           "color": {
@@ -14251,7 +14251,7 @@ var schemeData =
           "label": "Now this repository is not maintained.",
           "id": "indx1_667",
           "x": 95423,
-          "y": 16461
+          "y": 17181
         },
         "indx1_668": {
           "color": {
@@ -14281,7 +14281,7 @@ var schemeData =
           "label": "https://github.com/visjs/vis-network",
           "id": "indx1_668",
           "x": 95143,
-          "y": 16288,
+          "y": 17008,
           "shape": "box",
           "link": "https://github.com/visjs/vis-network",
           "borderWidth": ""
@@ -14314,7 +14314,7 @@ var schemeData =
           "label": "vis-network repository",
           "id": "indx1_669",
           "x": 95376,
-          "y": 16289,
+          "y": 17009,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14347,7 +14347,7 @@ var schemeData =
           "label": "vis-network docs",
           "id": "indx1_670",
           "x": 95105,
-          "y": 15518,
+          "y": 16238,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14380,7 +14380,7 @@ var schemeData =
           "label": "https://visjs.github.io/vis-network/docs/network/",
           "id": "indx1_671",
           "x": 95547,
-          "y": 15523,
+          "y": 16243,
           "shape": "box",
           "link": "https://visjs.github.io/vis-network/docs/network/",
           "borderWidth": ""
@@ -14410,7 +14410,7 @@ var schemeData =
           "label": "vis-network examples",
           "id": "indx1_672",
           "x": 95121,
-          "y": 15569
+          "y": 16289
         },
         "indx1_673": {
           "color": {
@@ -14440,7 +14440,7 @@ var schemeData =
           "label": "https://visjs.github.io/vis-network/examples/",
           "id": "indx1_673",
           "x": 95536,
-          "y": 15567,
+          "y": 16287,
           "shape": "box",
           "link": "https://visjs.github.io/vis-network/examples/",
           "borderWidth": ""
@@ -14470,7 +14470,7 @@ var schemeData =
           "label": "DataSet",
           "id": "indx1_674",
           "x": 95078,
-          "y": 15616
+          "y": 16336
         },
         "indx1_675": {
           "color": {
@@ -14500,7 +14500,7 @@ var schemeData =
           "label": "https://ww3.arb.ca.gov/ei/tools/lib/vis/docs/dataset.html",
           "id": "indx1_675",
           "x": 95391,
-          "y": 15622,
+          "y": 16342,
           "shape": "box",
           "link": "https://ww3.arb.ca.gov/ei/tools/lib/vis/docs/dataset.html",
           "borderWidth": ""
@@ -14530,7 +14530,7 @@ var schemeData =
           "label": "vis.js docs",
           "id": "indx1_676",
           "x": 95085,
-          "y": 15670
+          "y": 16390
         },
         "indx1_677": {
           "color": {
@@ -14560,7 +14560,7 @@ var schemeData =
           "label": "https://www.l2f.inesc-id.pt/~david/wiki/pt/extensions/vis/docs/",
           "id": "indx1_677",
           "x": 95413,
-          "y": 15668,
+          "y": 16388,
           "shape": "box",
           "link": "https://www.l2f.inesc-id.pt/~david/wiki/pt/extensions/vis/docs/",
           "borderWidth": ""
@@ -14568,7 +14568,7 @@ var schemeData =
         "indx1_678": {
           "label": "JavaScript API",
           "x": 94296,
-          "y": 21300,
+          "y": 22020,
           "font": {
             "size": 72,
             "align": "left"
@@ -14585,145 +14585,145 @@ var schemeData =
         "indx1_679": {
           "label": "Development",
           "x": 94721,
-          "y": 21727,
+          "y": 22447,
           "id": "indx1_679"
         },
         "indx1_680": {
           "label": "12/1/2019",
           "x": 94850,
-          "y": 21727,
+          "y": 22447,
           "id": "indx1_680"
         },
         "indx1_681": {
           "label": "init",
           "x": 94971,
-          "y": 21727,
+          "y": 22447,
           "id": "indx1_681"
         },
         "indx1_682": {
           "label": "Notes",
           "x": 94697,
-          "y": 20877,
+          "y": 21597,
           "id": "indx1_682"
         },
         "indx1_683": {
           "label": "Dictionary of\nconcepts",
           "x": 94857,
-          "y": 20627,
+          "y": 21347,
           "id": "indx1_683"
         },
         "indx1_684": {
           "label": "Details, thoughts",
           "x": 94871,
-          "y": 20877,
+          "y": 21597,
           "id": "indx1_684"
         },
         "indx1_685": {
           "label": "Sections",
           "x": 94845,
-          "y": 21127,
+          "y": 21847,
           "id": "indx1_685"
         },
         "indx1_686": {
           "label": "Books",
           "x": 94935,
-          "y": 20977,
+          "y": 21697,
           "id": "indx1_686"
         },
         "indx1_687": {
           "label": "R&D institutions",
           "x": 94965,
-          "y": 21002,
+          "y": 21722,
           "id": "indx1_687"
         },
         "indx1_688": {
           "label": "Sites",
           "x": 94931,
-          "y": 21027,
+          "y": 21747,
           "id": "indx1_688"
         },
         "indx1_689": {
           "label": "Magazines",
           "x": 94950,
-          "y": 21052,
+          "y": 21772,
           "id": "indx1_689"
         },
         "indx1_690": {
           "label": "Articles",
           "x": 94938,
-          "y": 21077,
+          "y": 21797,
           "id": "indx1_690"
         },
         "indx1_691": {
           "label": "Media content",
           "x": 94960,
-          "y": 21102,
+          "y": 21822,
           "id": "indx1_691"
         },
         "indx1_692": {
           "label": "Misc. web links",
           "x": 94963,
-          "y": 21127,
+          "y": 21847,
           "id": "indx1_692"
         },
         "indx1_693": {
           "label": "Projects",
           "x": 94941,
-          "y": 21152,
+          "y": 21872,
           "id": "indx1_693"
         },
         "indx1_694": {
           "label": "Tools",
           "x": 94932,
-          "y": 21177,
+          "y": 21897,
           "id": "indx1_694"
         },
         "indx1_695": {
           "label": "Organizations",
           "x": 94959,
-          "y": 21202,
+          "y": 21922,
           "id": "indx1_695"
         },
         "indx1_696": {
           "label": "Standarts",
           "x": 94946,
-          "y": 21227,
+          "y": 21947,
           "id": "indx1_696"
         },
         "indx1_697": {
           "label": "Forums, Groups",
           "x": 94967,
-          "y": 21252,
+          "y": 21972,
           "id": "indx1_697"
         },
         "indx1_698": {
           "label": "Laws",
           "x": 94932,
-          "y": 21277,
+          "y": 21997,
           "id": "indx1_698"
         },
         "indx1_699": {
           "label": "Adjacent Themes",
           "x": 94971,
-          "y": 21302,
+          "y": 22022,
           "id": "indx1_699"
         },
         "indx1_700": {
           "label": "Questions",
           "x": 94711,
-          "y": 21427,
+          "y": 22147,
           "id": "indx1_700"
         },
         "indx1_701": {
           "label": "Problems",
           "x": 94709,
-          "y": 21527,
+          "y": 22247,
           "id": "indx1_701"
         },
         "indx1_702": {
           "label": "Goals",
           "x": 94697,
-          "y": 21627,
+          "y": 22347,
           "id": "indx1_702"
         },
         "indx1_703": {
@@ -14757,7 +14757,7 @@ var schemeData =
           "label": "JavaScript API",
           "id": "indx1_703",
           "x": 99257,
-          "y": 21013,
+          "y": 21733,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21944,7 +21944,7 @@ var schemeData =
           "label": "new Date(\"2019-10-02T00:10:20Z\");",
           "link": "",
           "x": 118377,
-          "y": -5906,
+          "y": -5908,
           "id": "indx1_1164",
           "color": {
             "highlight": {
@@ -22487,7 +22487,7 @@ var schemeData =
           "label": "manipulation",
           "link": "",
           "x": 118489,
-          "y": -5035,
+          "y": -4939,
           "id": "indx1_1178",
           "color": {
             "highlight": {
@@ -30956,26 +30956,26 @@ var schemeData =
         "indx1_1724": {
           "id": "indx1_1724",
           "x": 94484,
-          "y": 25665,
+          "y": 26385,
           "label": "https://medium.com/stackfame/how-to-run-shell-script-file-or-command-using-nodejs-b9f2455cb6b7",
           "link": "https://medium.com/stackfame/how-to-run-shell-script-file-or-command-using-nodejs-b9f2455cb6b7"
         },
         "indx1_1725": {
           "id": "indx1_1725",
           "x": 93965,
-          "y": 25666,
+          "y": 26386,
           "label": "Run shell script file or command"
         },
         "indx1_1726": {
           "id": "indx1_1726",
           "x": 94370,
-          "y": 25787,
+          "y": 26507,
           "label": "var exec = require('child_process').exec;\nvar cmd = 'prince -v builds/pdf/book.html -o builds/pdf/book.pdf';\n\nexec(cmd, function(error, stdout, stderr) {\n  // command output is in stdout\n});"
         },
         "indx1_1727": {
           "id": "indx1_1727",
           "x": 94458,
-          "y": 25709,
+          "y": 26429,
           "label": "https://stackoverflow.com/questions/20643470/execute-a-command-line-binary-with-node-js",
           "link": "https://stackoverflow.com/questions/20643470/execute-a-command-line-binary-with-node-js"
         },
@@ -31029,14 +31029,14 @@ var schemeData =
         "indx1_1730": {
           "id": "indx1_1730",
           "x": 94166,
-          "y": 25963,
+          "y": 26683,
           "label": "syncronised (?)"
         },
         "indx1_1731": {
           "label": "   var cmd = \"printf \\\"\" + dataPart + \"\\\" | python3\";\n\n   var execSync1 = require('child_process').execSync;\n\n   var options = {\n      encoding: 'utf8'\n   };\n\n   var calcResult = execSync1(cmd, options);\n   var symPyData = JSON.parse(calcResult);",
           "link": "",
           "x": 94436,
-          "y": 25977,
+          "y": 26697,
           "id": "indx1_1731",
           "color": {
             "highlight": {
@@ -31076,44 +31076,44 @@ var schemeData =
         "indx1_1732": {
           "id": "indx1_1732",
           "x": 94012,
-          "y": 23651,
+          "y": 24371,
           "label": "Rename file"
         },
         "indx1_1733": {
           "id": "indx1_1733",
           "x": 94379,
-          "y": 23619,
+          "y": 24339,
           "label": "https://stackoverflow.com/questions/22504566/renaming-files-using-node-js",
           "link": "https://stackoverflow.com/questions/22504566/renaming-files-using-node-js"
         },
         "indx1_1734": {
           "id": "indx1_1734",
           "x": 94329,
-          "y": 23652,
+          "y": 24372,
           "label": "fs.renameSync('/path/to/Afghanistan.png', '/path/to/AF.png')"
         },
         "indx1_1735": {
           "id": "indx1_1735",
           "x": 94358,
-          "y": 23712,
+          "y": 24432,
           "label": "var fs = require('fs');\nfs.rename('/path/to/Afghanistan.png', '/path/to/AF.png', function(err) {\n    if ( err ) console.log('ERROR: ' + err);\n});"
         },
         "indx1_1736": {
           "id": "indx1_1736",
           "x": 94003,
-          "y": 23538,
+          "y": 24258,
           "label": "Move file"
         },
         "indx1_1737": {
           "id": "indx1_1737",
           "x": 94358,
-          "y": 23501,
+          "y": 24221,
           "label": "fs.rename(getFileName, __dirname + '/new_folder/' + getFileName); "
         },
         "indx1_1738": {
           "id": "indx1_1738",
           "x": 94402,
-          "y": 23538,
+          "y": 24258,
           "label": "Be careful this will not work if you try to rename the file between different partitions,\nneither on some virtual file systems (such as docker for instance)",
           "shape": "box",
           "link": "",
@@ -31130,27 +31130,27 @@ var schemeData =
         "indx1_1739": {
           "id": "indx1_1739",
           "x": 94381,
-          "y": 23575,
+          "y": 24295,
           "label": "https://stackoverflow.com/questions/8579055/how-do-i-move-files-in-node-js",
           "link": "https://stackoverflow.com/questions/8579055/how-do-i-move-files-in-node-js"
         },
         "indx1_1740": {
           "id": "indx1_1740",
           "x": 94026,
-          "y": 23184,
+          "y": 23904,
           "label": "Remove file"
         },
         "indx1_1741": {
           "id": "indx1_1741",
           "x": 94360,
-          "y": 23224,
+          "y": 23944,
           "label": "https://stackoverflow.com/questions/5315138/node-js-remove-file",
           "link": "https://stackoverflow.com/questions/5315138/node-js-remove-file"
         },
         "indx1_1742": {
           "id": "indx1_1742",
           "x": 94196,
-          "y": 23106,
+          "y": 23826,
           "label": "Synchronous ",
           "shape": "box",
           "link": "",
@@ -31167,25 +31167,25 @@ var schemeData =
         "indx1_1743": {
           "id": "indx1_1743",
           "x": 94198,
-          "y": 23162,
+          "y": 23882,
           "label": "Asynchronous"
         },
         "indx1_1744": {
           "id": "indx1_1744",
           "x": 94392,
-          "y": 23160,
+          "y": 23880,
           "label": "fs.unlink(path, callback)"
         },
         "indx1_1745": {
           "id": "indx1_1745",
           "x": 94378,
-          "y": 23100,
+          "y": 23820,
           "label": "fs.unlinkSync(path)"
         },
         "indx1_1746": {
           "id": "indx1_1746",
           "x": 94661,
-          "y": 23315,
+          "y": 24035,
           "label": "try{\n   var sourceUrls = \"/sampleFolder/sampleFile.txt\";\n   fs.unlinkSync(sourceUrls);\n}catch(err){\n   console.log(err);\n}",
           "shape": "box",
           "link": "",
@@ -31202,13 +31202,13 @@ var schemeData =
         "indx1_1747": {
           "id": "indx1_1747",
           "x": 94224,
-          "y": 23314,
+          "y": 24034,
           "label": "Need to check if exists"
         },
         "indx1_1748": {
           "id": "indx1_1748",
           "x": 94400,
-          "y": 23312,
+          "y": 24032,
           "label": "or just catch errors"
         },
         "indx1_1749": {
@@ -32948,7 +32948,7 @@ var schemeData =
         "indx1_1982": {
           "label": "Promise",
           "x": 93514,
-          "y": 32094,
+          "y": 32814,
           "font": {
             "size": 72,
             "align": "left"
@@ -32965,151 +32965,151 @@ var schemeData =
         "indx1_1983": {
           "label": "Development",
           "x": 93813,
-          "y": 32545,
+          "y": 33265,
           "id": "indx1_1983"
         },
         "indx1_1984": {
           "label": "12/28/2019",
           "x": 93946,
-          "y": 32545,
+          "y": 33265,
           "id": "indx1_1984"
         },
         "indx1_1985": {
           "label": "init",
           "x": 94063,
-          "y": 32545,
+          "y": 33265,
           "id": "indx1_1985"
         },
         "indx1_1986": {
           "label": "Notes",
           "x": 93803,
-          "y": 31161,
+          "y": 31881,
           "id": "indx1_1986"
         },
         "indx1_1987": {
           "label": "Dictionary of\nconcepts",
           "x": 94026,
-          "y": 29189,
+          "y": 29909,
           "id": "indx1_1987"
         },
         "indx1_1988": {
           "label": "Details, thoughts",
           "x": 93977,
-          "y": 31161,
+          "y": 31881,
           "id": "indx1_1988"
         },
         "indx1_1989": {
           "label": "Sections",
           "x": 93937,
-          "y": 31945,
+          "y": 32665,
           "id": "indx1_1989"
         },
         "indx1_1990": {
           "label": "Books",
           "x": 94041,
-          "y": 31261,
+          "y": 31981,
           "id": "indx1_1990"
         },
         "indx1_1991": {
           "label": "R&D institutions",
           "x": 94071,
-          "y": 31286,
+          "y": 32006,
           "id": "indx1_1991"
         },
         "indx1_1992": {
           "label": "Sites",
           "x": 94037,
-          "y": 31311,
+          "y": 32031,
           "id": "indx1_1992"
         },
         "indx1_1993": {
           "label": "Magazines",
           "x": 94056,
-          "y": 31336,
+          "y": 32056,
           "id": "indx1_1993"
         },
         "indx1_1994": {
           "label": "Articles",
           "x": 94044,
-          "y": 31361,
+          "y": 32081,
           "id": "indx1_1994"
         },
         "indx1_1995": {
           "label": "Media content",
           "x": 94066,
-          "y": 31386,
+          "y": 32106,
           "id": "indx1_1995"
         },
         "indx1_1996": {
           "label": "Misc. web links",
           "x": 94069,
-          "y": 31683,
+          "y": 32403,
           "id": "indx1_1996"
         },
         "indx1_1997": {
           "label": "Projects",
           "x": 94033,
-          "y": 31970,
+          "y": 32690,
           "id": "indx1_1997"
         },
         "indx1_1998": {
           "label": "Tools",
           "x": 94025,
-          "y": 31995,
+          "y": 32715,
           "id": "indx1_1998"
         },
         "indx1_1999": {
           "label": "Organizations",
           "x": 94052,
-          "y": 32020,
+          "y": 32740,
           "id": "indx1_1999"
         },
         "indx1_2000": {
           "label": "Standarts",
           "x": 94038,
-          "y": 32045,
+          "y": 32765,
           "id": "indx1_2000"
         },
         "indx1_2001": {
           "label": "Forums, Groups",
           "x": 94060,
-          "y": 32070,
+          "y": 32790,
           "id": "indx1_2001"
         },
         "indx1_2002": {
           "label": "Laws",
           "x": 94024,
-          "y": 32095,
+          "y": 32815,
           "id": "indx1_2002"
         },
         "indx1_2003": {
           "label": "Adjacent Themes",
           "x": 94063,
-          "y": 32120,
+          "y": 32840,
           "id": "indx1_2003"
         },
         "indx1_2004": {
           "label": "Questions",
           "x": 93803,
-          "y": 32245,
+          "y": 32965,
           "id": "indx1_2004"
         },
         "indx1_2005": {
           "label": "Problems",
           "x": 93801,
-          "y": 32345,
+          "y": 33065,
           "id": "indx1_2005"
         },
         "indx1_2006": {
           "label": "Goals",
           "x": 93790,
-          "y": 32445,
+          "y": 33165,
           "id": "indx1_2006"
         },
         "indx1_2007": {
           "id": "indx1_2007",
           "x": 97812,
-          "y": 28814,
+          "y": 29534,
           "label": "Promise",
           "shape": "box",
           "link": "",
@@ -33127,116 +33127,116 @@ var schemeData =
           "label": "Promise - JavaScript | MDN",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
           "x": 94314,
-          "y": 31598,
+          "y": 32318,
           "id": "indx1_2008"
         },
         "indx1_2009": {
           "label": "Using Promises - JavaScript | MDN",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises",
           "x": 94616,
-          "y": 31592,
+          "y": 32312,
           "id": "indx1_2009"
         },
         "indx1_2010": {
           "label": "JavaScript | Promises - GeeksforGeeks",
           "link": "https://www.geeksforgeeks.org/javascript-promises/",
           "x": 94351,
-          "y": 31648,
+          "y": 32368,
           "id": "indx1_2010"
         },
         "indx1_2011": {
           "label": "Promise",
           "link": "https://learn.javascript.ru/promise",
           "x": 94252,
-          "y": 31673,
+          "y": 32393,
           "id": "indx1_2011"
         },
         "indx1_2012": {
           "label": "Promise",
           "link": "https://javascript.info/promise-basics",
           "x": 94252,
-          "y": 31698,
+          "y": 32418,
           "id": "indx1_2012"
         },
         "indx1_2013": {
           "label": "JavaScript Promises: an Introduction  |  Web Fundamentals",
           "link": "https://developers.google.com/web/fundamentals/primers/promises",
           "x": 94414,
-          "y": 31723,
+          "y": 32443,
           "id": "indx1_2013"
         },
         "indx1_2014": {
           "label": "JavaScript Promises: an Introduction  |  Web Fundamentals",
           "link": "https://developers.google.com/web/fundamentals/primers/promises#promise-api-reference",
           "x": 94660,
-          "y": 31524,
+          "y": 32244,
           "id": "indx1_2014"
         },
         "indx1_2015": {
           "label": "JavaScript Promises for Dummies ― Scotch.io",
           "link": "https://scotch.io/tutorials/javascript-promises-for-dummies",
           "x": 94373,
-          "y": 31773,
+          "y": 32493,
           "id": "indx1_2015"
         },
         "indx1_2016": {
           "label": "Understanding promises in JavaScript - By",
           "link": "https://hackernoon.com/understanding-promises-in-javascript-13d99df067c1",
           "x": 94361,
-          "y": 31798,
+          "y": 32518,
           "id": "indx1_2016"
         },
         "indx1_2017": {
           "label": "Promises In Javascript A Complete Guide For 2019 - DEV Community 👩‍💻👨‍💻",
           "link": "https://dev.to/nileshsanyal/promises-in-javascript-a-complete-guide-for-2019-4o99",
           "x": 94465,
-          "y": 31823,
+          "y": 32543,
           "id": "indx1_2017"
         },
         "indx1_2018": {
           "id": "indx1_2018",
           "x": 94295,
-          "y": 31529,
+          "y": 32249,
           "label": "Promise API reference"
         },
         "indx1_2019": {
           "id": "indx1_2019",
           "x": 94180,
-          "y": 29368,
+          "y": 30088,
           "label": "API"
         },
         "indx1_2020": {
           "id": "indx1_2020",
           "x": 94340,
-          "y": 29120,
+          "y": 29840,
           "label": "Static Methods"
         },
         "indx1_2021": {
           "label": "Promise.resolve(promise)",
           "link": "",
           "x": 94535,
-          "y": 28990,
+          "y": 29710,
           "id": "indx1_2021"
         },
         "indx1_2022": {
           "label": "Returns promise (only if promise.constructor == Promise)",
           "link": "",
           "x": 94990,
-          "y": 28993,
+          "y": 29713,
           "id": "indx1_2022"
         },
         "indx1_2023": {
           "label": "Promise.resolve(thenable)",
           "link": "",
           "x": 94537,
-          "y": 29040,
+          "y": 29760,
           "id": "indx1_2023"
         },
         "indx1_2024": {
           "label": "Make a new promise from the thenable. A thenable is promise-like\nin as far as it has a `then()` method.",
           "link": "",
           "x": 95018,
-          "y": 29043,
+          "y": 29763,
           "id": "indx1_2024",
           "shape": "box",
           "font": {
@@ -33253,28 +33253,28 @@ var schemeData =
           "label": "Promise.resolve(obj)",
           "link": "",
           "x": 94519,
-          "y": 29090,
+          "y": 29810,
           "id": "indx1_2025"
         },
         "indx1_2026": {
           "label": "Make a promise that fulfills to obj. in this situation.",
           "link": "",
           "x": 94966,
-          "y": 29093,
+          "y": 29813,
           "id": "indx1_2026"
         },
         "indx1_2027": {
           "label": "Promise.reject(obj)",
           "link": "",
           "x": 94514,
-          "y": 29140,
+          "y": 29860,
           "id": "indx1_2027"
         },
         "indx1_2028": {
           "label": "Make a promise that rejects to obj. For consistency and debugging\n(e.g. stack traces), obj should be an instanceof Error.",
           "link": "",
           "x": 95020,
-          "y": 29143,
+          "y": 29863,
           "id": "indx1_2028",
           "shape": "box",
           "font": {
@@ -33291,14 +33291,14 @@ var schemeData =
           "label": "Promise.all(array)",
           "link": "",
           "x": 94510,
-          "y": 29220,
+          "y": 29940,
           "id": "indx1_2029"
         },
         "indx1_2030": {
           "label": "Make a promise that fulfills when every item in the array fulfills, and rejects\nif (and when) any item rejects. Each array item is passed to Promise.resolve, so the\narray can be a mixture of promise-like objects and other objects. The fulfillment\nvalue is an array (in order) of fulfillment values. The rejection value is the\nfirst rejection value.",
           "link": "",
           "x": 95073,
-          "y": 29223,
+          "y": 29943,
           "id": "indx1_2030",
           "shape": "box",
           "font": {
@@ -33315,14 +33315,14 @@ var schemeData =
           "label": "Promise.race(array)",
           "link": "",
           "x": 94517,
-          "y": 29306,
+          "y": 30026,
           "id": "indx1_2031"
         },
         "indx1_2032": {
           "label": "Make a Promise that fulfills as soon as any item fulfills,\nor rejects as soon as any item rejects,\nwhichever happens first.",
           "link": "",
           "x": 94981,
-          "y": 29309,
+          "y": 30029,
           "id": "indx1_2032",
           "shape": "box",
           "font": {
@@ -33338,55 +33338,55 @@ var schemeData =
         "indx1_2033": {
           "id": "indx1_2033",
           "x": 94330,
-          "y": 29440,
+          "y": 30160,
           "label": "Constructor"
         },
         "indx1_2034": {
           "id": "indx1_2034",
           "x": 94583,
-          "y": 29447,
+          "y": 30167,
           "label": "new Promise(function(resolve, reject) {});"
         },
         "indx1_2035": {
           "label": "resolve(thenable)",
           "link": "",
           "x": 94864,
-          "y": 29409,
+          "y": 30129,
           "id": "indx1_2035"
         },
         "indx1_2036": {
           "label": "Your promise will be fulfilled/rejected with the outcome of thenable",
           "link": "",
           "x": 95284,
-          "y": 29412,
+          "y": 30132,
           "id": "indx1_2036"
         },
         "indx1_2037": {
           "label": "resolve(obj)",
           "link": "",
           "x": 94846,
-          "y": 29459,
+          "y": 30179,
           "id": "indx1_2037"
         },
         "indx1_2038": {
           "label": "Your promise is fulfilled with obj",
           "link": "",
           "x": 95168,
-          "y": 29454,
+          "y": 30174,
           "id": "indx1_2038"
         },
         "indx1_2039": {
           "label": "reject(obj)",
           "link": "",
           "x": 94841,
-          "y": 29509,
+          "y": 30229,
           "id": "indx1_2039"
         },
         "indx1_2040": {
           "label": "Your promise is rejected with obj. For consistency and debugging (e.g., stack traces),\nobj should be an instanceof Error. Any errors thrown in the constructor callback will\nbe implicitly passed to reject().",
           "link": "",
           "x": 95336,
-          "y": 29493,
+          "y": 30213,
           "id": "indx1_2040",
           "shape": "box",
           "font": {
@@ -33402,21 +33402,21 @@ var schemeData =
         "indx1_2041": {
           "id": "indx1_2041",
           "x": 94350,
-          "y": 29700,
+          "y": 30420,
           "label": "Instance Methods"
         },
         "indx1_2042": {
           "label": "promise.then(onFulfilled, onRejected)",
           "link": "",
           "x": 94573,
-          "y": 29635,
+          "y": 30355,
           "id": "indx1_2042"
         },
         "indx1_2043": {
           "label": "onFulfilled is called when/if \"promise\" resolves. onRejected is called\nwhen/if \"promise\" rejects. Both are optional, if either/both are omitted\nthe next onFulfilled/onRejected in the chain is called. Both callbacks\nhave a single parameter, the fulfillment value or rejection reason.\nthen() returns a new promise equivalent to the value you return\nfrom onFulfilled/onRejected after being passed through Promise.resolve.\nIf an error is thrown in the callback, the returned promise rejects with that error.",
           "link": "",
           "x": 95059,
-          "y": 29637,
+          "y": 30357,
           "id": "indx1_2043",
           "shape": "box",
           "font": {
@@ -33433,26 +33433,26 @@ var schemeData =
           "label": "promise.catch(onRejected)",
           "link": "",
           "x": 94539,
-          "y": 29768,
+          "y": 30488,
           "id": "indx1_2044"
         },
         "indx1_2045": {
           "label": "Sugar for promise.then(undefined, onRejected)",
           "link": "",
           "x": 94959,
-          "y": 29767,
+          "y": 30487,
           "id": "indx1_2045"
         },
         "indx1_2046": {
           "id": "indx1_2046",
           "x": 94203,
-          "y": 28486,
+          "y": 29206,
           "label": "What is a promise?"
         },
         "indx1_2047": {
           "id": "indx1_2047",
           "x": 94523,
-          "y": 28489,
+          "y": 29209,
           "label": "A promise is an object that represents the eventual completion\nor failure of an asynchronous operation,\nand it's resulting value.",
           "shape": "box",
           "link": "",
@@ -33502,7 +33502,7 @@ var schemeData =
         "indx1_2053": {
           "label": "Callbacks",
           "x": 93814,
-          "y": 34548,
+          "y": 35268,
           "font": {
             "size": 72,
             "align": "left"
@@ -33519,145 +33519,145 @@ var schemeData =
         "indx1_2054": {
           "label": "Development",
           "x": 94114,
-          "y": 34998,
+          "y": 35718,
           "id": "indx1_2054"
         },
         "indx1_2055": {
           "label": "12/28/2019",
           "x": 94247,
-          "y": 34998,
+          "y": 35718,
           "id": "indx1_2055"
         },
         "indx1_2056": {
           "label": "init",
           "x": 94364,
-          "y": 34998,
+          "y": 35718,
           "id": "indx1_2056"
         },
         "indx1_2057": {
           "label": "Notes",
           "x": 94090,
-          "y": 34148,
+          "y": 34868,
           "id": "indx1_2057"
         },
         "indx1_2058": {
           "label": "Dictionary of\nconcepts",
           "x": 94265,
-          "y": 33275,
+          "y": 33995,
           "id": "indx1_2058"
         },
         "indx1_2059": {
           "label": "Details, thoughts",
           "x": 94264,
-          "y": 34148,
+          "y": 34868,
           "id": "indx1_2059"
         },
         "indx1_2060": {
           "label": "Sections",
           "x": 94238,
-          "y": 34398,
+          "y": 35118,
           "id": "indx1_2060"
         },
         "indx1_2061": {
           "label": "Books",
           "x": 94328,
-          "y": 34248,
+          "y": 34968,
           "id": "indx1_2061"
         },
         "indx1_2062": {
           "label": "R&D institutions",
           "x": 94358,
-          "y": 34273,
+          "y": 34993,
           "id": "indx1_2062"
         },
         "indx1_2063": {
           "label": "Sites",
           "x": 94324,
-          "y": 34298,
+          "y": 35018,
           "id": "indx1_2063"
         },
         "indx1_2064": {
           "label": "Magazines",
           "x": 94343,
-          "y": 34323,
+          "y": 35043,
           "id": "indx1_2064"
         },
         "indx1_2065": {
           "label": "Articles",
           "x": 94331,
-          "y": 34348,
+          "y": 35068,
           "id": "indx1_2065"
         },
         "indx1_2066": {
           "label": "Media content",
           "x": 94353,
-          "y": 34373,
+          "y": 35093,
           "id": "indx1_2066"
         },
         "indx1_2067": {
           "label": "Misc. web links",
           "x": 94356,
-          "y": 34398,
+          "y": 35118,
           "id": "indx1_2067"
         },
         "indx1_2068": {
           "label": "Projects",
           "x": 94334,
-          "y": 34423,
+          "y": 35143,
           "id": "indx1_2068"
         },
         "indx1_2069": {
           "label": "Tools",
           "x": 94325,
-          "y": 34448,
+          "y": 35168,
           "id": "indx1_2069"
         },
         "indx1_2070": {
           "label": "Organizations",
           "x": 94352,
-          "y": 34473,
+          "y": 35193,
           "id": "indx1_2070"
         },
         "indx1_2071": {
           "label": "Standarts",
           "x": 94339,
-          "y": 34498,
+          "y": 35218,
           "id": "indx1_2071"
         },
         "indx1_2072": {
           "label": "Forums, Groups",
           "x": 94360,
-          "y": 34523,
+          "y": 35243,
           "id": "indx1_2072"
         },
         "indx1_2073": {
           "label": "Laws",
           "x": 94325,
-          "y": 34548,
+          "y": 35268,
           "id": "indx1_2073"
         },
         "indx1_2074": {
           "label": "Adjacent Themes",
           "x": 94364,
-          "y": 34573,
+          "y": 35293,
           "id": "indx1_2074"
         },
         "indx1_2075": {
           "label": "Questions",
           "x": 94104,
-          "y": 34698,
+          "y": 35418,
           "id": "indx1_2075"
         },
         "indx1_2076": {
           "label": "Problems",
           "x": 94102,
-          "y": 34798,
+          "y": 35518,
           "id": "indx1_2076"
         },
         "indx1_2077": {
           "label": "Goals",
           "x": 94090,
-          "y": 34898,
+          "y": 35618,
           "id": "indx1_2077"
         },
         "indx1_2078": {
@@ -33689,7 +33689,7 @@ var schemeData =
           "label": "Callbacks",
           "id": "indx1_2078",
           "x": 98146,
-          "y": 33729,
+          "y": 34449,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -33709,58 +33709,58 @@ var schemeData =
         "indx1_2081": {
           "id": "indx1_2081",
           "x": 94596,
-          "y": 33255,
+          "y": 33975,
           "label": "What is Javascript Callback Function?"
         },
         "indx1_2082": {
           "id": "indx1_2082",
           "x": 94928,
-          "y": 33243,
+          "y": 33963,
           "label": "As per MDN: A callback function is a function\npassed into another function as an argument,\nwhich is then invoked inside the outer\nfunction to complete some kind of routine\nor action."
         },
         "indx1_2083": {
           "id": "indx1_2083",
           "x": 94600,
-          "y": 33352,
+          "y": 34072,
           "label": "A callback function is actually a pattern."
         },
         "indx1_2084": {
           "id": "indx1_2084",
           "x": 94551,
-          "y": 33417,
+          "y": 34137,
           "label": "Javascript Callback Hell"
         },
         "indx1_2085": {
           "id": "indx1_2085",
           "x": 94684,
-          "y": 33418,
+          "y": 34138,
           "label": "to solv"
         },
         "indx1_2086": {
           "label": "By using promises.",
           "link": "",
           "x": 94825,
-          "y": 33398,
+          "y": 34118,
           "id": "indx1_2086"
         },
         "indx1_2087": {
           "label": "With the help of async await.",
           "link": "",
           "x": 94856,
-          "y": 33422,
+          "y": 34142,
           "id": "indx1_2087"
         },
         "indx1_2088": {
           "label": "By using async.js library.",
           "link": "",
           "x": 94845,
-          "y": 33510,
+          "y": 34230,
           "id": "indx1_2088"
         },
         "indx1_2089": {
           "id": "indx1_2089",
           "x": 95187,
-          "y": 33477,
+          "y": 34197,
           "label": "Async is a utility module which provides straight-forward, powerful\nfunctions for working with asynchronous JavaScript.",
           "shape": "box",
           "link": "",
@@ -33777,7 +33777,7 @@ var schemeData =
         "indx1_2090": {
           "id": "indx1_2090",
           "x": 95032,
-          "y": 33522,
+          "y": 34242,
           "label": "async.waterfall()",
           "shape": "box",
           "link": "",
@@ -33794,47 +33794,47 @@ var schemeData =
         "indx1_2091": {
           "id": "indx1_2091",
           "x": 95024,
-          "y": 33563,
+          "y": 34283,
           "label": "async.series()"
         },
         "indx1_2092": {
           "id": "indx1_2092",
           "x": 94380,
-          "y": 28571,
+          "y": 29291,
           "label": "promises were officially added in the ECMA script 2015 \nspecification and has also implemented\nin all of the latest browsers and in Node Js"
         },
         "indx1_2093": {
           "id": "indx1_2093",
           "x": 94231,
-          "y": 28662,
+          "y": 29382,
           "label": "States In A Promise"
         },
         "indx1_2094": {
           "label": "Pending : The task relating to the promise hasn't fulfilled or rejected yet.",
           "link": "",
           "x": 94594,
-          "y": 28641,
+          "y": 29361,
           "id": "indx1_2094"
         },
         "indx1_2095": {
           "label": "Fulfilled: The task relating to the promise succeeded.",
           "link": "",
           "x": 94534,
-          "y": 28665,
+          "y": 29385,
           "id": "indx1_2095"
         },
         "indx1_2096": {
           "label": "Rejected: The task relating to the promise failed.",
           "link": "",
           "x": 94520,
-          "y": 28689,
+          "y": 29409,
           "id": "indx1_2096"
         },
         "indx1_2097": {
           "label": "The function that creates the promise is able to keep track of the promise states.",
           "link": "",
           "x": 94621,
-          "y": 28713,
+          "y": 29433,
           "id": "indx1_2097"
         },
         "indx1_2099": {
@@ -39032,19 +39032,19 @@ var schemeData =
         "indx1_2309": {
           "id": "indx1_2309",
           "x": 94588,
-          "y": 30152,
+          "y": 30872,
           "label": "var p2 = new Promise(function(resolve, reject) {\n  resolve(1);\n});\n\np2.then(function(value) {\n  console.log(value); // 1\n  return value + 1;\n}).then(function(value) {\n  console.log(value + ' - A synchronous value works');\n});"
         },
         "indx1_2310": {
           "id": "indx1_2310",
           "x": 94205,
-          "y": 30365,
+          "y": 31085,
           "label": "Examples"
         },
         "indx1_2311": {
           "id": "indx1_2311",
           "x": 94535,
-          "y": 31860,
+          "y": 32580,
           "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then",
           "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then"
         },
@@ -39136,37 +39136,37 @@ var schemeData =
         "indx1_2326": {
           "id": "indx1_2326",
           "x": 94223,
-          "y": 5002,
+          "y": 5378,
           "label": "prop()"
         },
         "indx1_2327": {
           "id": "indx1_2327",
           "x": 94411,
-          "y": 4975,
+          "y": 5351,
           "label": "prop(\"tagName\")"
         },
         "indx1_2328": {
           "id": "indx1_2328",
           "x": 94587,
-          "y": 4974,
+          "y": 5350,
           "label": "Get element tag name"
         },
         "indx1_2329": {
           "id": "indx1_2329",
           "x": 94398,
-          "y": 5017,
+          "y": 5393,
           "label": "prop(\"class\")"
         },
         "indx1_2330": {
           "id": "indx1_2330",
           "x": 94555,
-          "y": 5017,
+          "y": 5393,
           "label": "Get element class name"
         },
         "indx1_2331": {
           "id": "indx1_2331",
           "x": 94291,
-          "y": 5103,
+          "y": 5479,
           "label": "$(document.activeElement)",
           "shape": "box",
           "link": "",
@@ -39183,7 +39183,7 @@ var schemeData =
         "indx1_2332": {
           "id": "indx1_2332",
           "x": 94527,
-          "y": 5104,
+          "y": 5480,
           "label": "Get focused element"
         },
         "indx1_2333": {
@@ -39258,7 +39258,7 @@ var schemeData =
         "indx1_2342": {
           "label": "XPath",
           "x": 93753,
-          "y": 37399,
+          "y": 38119,
           "font": {
             "size": 72,
             "align": "left"
@@ -39275,151 +39275,151 @@ var schemeData =
         "indx1_2343": {
           "label": "Development",
           "x": 94053,
-          "y": 37849,
+          "y": 38569,
           "id": "indx1_2343"
         },
         "indx1_2344": {
           "label": "3/9/2020",
           "x": 94178,
-          "y": 37849,
+          "y": 38569,
           "id": "indx1_2344"
         },
         "indx1_2345": {
           "label": "init",
           "x": 94303,
-          "y": 37849,
+          "y": 38569,
           "id": "indx1_2345"
         },
         "indx1_2346": {
           "label": "Notes",
           "x": 94029,
-          "y": 36999,
+          "y": 37719,
           "id": "indx1_2346"
         },
         "indx1_2347": {
           "label": "Dictionary of\nconcepts",
           "x": 94190,
-          "y": 36473,
+          "y": 37193,
           "id": "indx1_2347"
         },
         "indx1_2348": {
           "label": "Details, thoughts",
           "x": 94203,
-          "y": 36999,
+          "y": 37719,
           "id": "indx1_2348"
         },
         "indx1_2349": {
           "label": "Sections",
           "x": 94177,
-          "y": 37249,
+          "y": 37969,
           "id": "indx1_2349"
         },
         "indx1_2350": {
           "label": "Books",
           "x": 94267,
-          "y": 37099,
+          "y": 37819,
           "id": "indx1_2350"
         },
         "indx1_2351": {
           "label": "R&D institutions",
           "x": 94297,
-          "y": 37124,
+          "y": 37844,
           "id": "indx1_2351"
         },
         "indx1_2352": {
           "label": "Sites",
           "x": 94263,
-          "y": 37149,
+          "y": 37869,
           "id": "indx1_2352"
         },
         "indx1_2353": {
           "label": "Magazines",
           "x": 94282,
-          "y": 37174,
+          "y": 37894,
           "id": "indx1_2353"
         },
         "indx1_2354": {
           "label": "Articles",
           "x": 94270,
-          "y": 37199,
+          "y": 37919,
           "id": "indx1_2354"
         },
         "indx1_2355": {
           "label": "Media content",
           "x": 94292,
-          "y": 37224,
+          "y": 37944,
           "id": "indx1_2355"
         },
         "indx1_2356": {
           "label": "Misc. web links",
           "x": 94295,
-          "y": 37249,
+          "y": 37969,
           "id": "indx1_2356"
         },
         "indx1_2357": {
           "label": "Projects",
           "x": 94273,
-          "y": 37274,
+          "y": 37994,
           "id": "indx1_2357"
         },
         "indx1_2358": {
           "label": "Tools",
           "x": 94264,
-          "y": 37299,
+          "y": 38019,
           "id": "indx1_2358"
         },
         "indx1_2359": {
           "label": "Organizations",
           "x": 94291,
-          "y": 37324,
+          "y": 38044,
           "id": "indx1_2359"
         },
         "indx1_2360": {
           "label": "Standarts",
           "x": 94278,
-          "y": 37349,
+          "y": 38069,
           "id": "indx1_2360"
         },
         "indx1_2361": {
           "label": "Forums, Groups",
           "x": 94299,
-          "y": 37374,
+          "y": 38094,
           "id": "indx1_2361"
         },
         "indx1_2362": {
           "label": "Laws",
           "x": 94264,
-          "y": 37399,
+          "y": 38119,
           "id": "indx1_2362"
         },
         "indx1_2363": {
           "label": "Adjacent Themes",
           "x": 94303,
-          "y": 37424,
+          "y": 38144,
           "id": "indx1_2363"
         },
         "indx1_2364": {
           "label": "Questions",
           "x": 94043,
-          "y": 37549,
+          "y": 38269,
           "id": "indx1_2364"
         },
         "indx1_2365": {
           "label": "Problems",
           "x": 94041,
-          "y": 37649,
+          "y": 38369,
           "id": "indx1_2365"
         },
         "indx1_2366": {
           "label": "Goals",
           "x": 94029,
-          "y": 37749,
+          "y": 38469,
           "id": "indx1_2366"
         },
         "indx1_2367": {
           "id": "indx1_2367",
           "x": 97341,
-          "y": 36636,
+          "y": 37356,
           "label": "XPath",
           "shape": "box",
           "link": "",
@@ -39436,7 +39436,7 @@ var schemeData =
         "indx1_2368": {
           "id": "indx1_2368",
           "x": 94749,
-          "y": 36273,
+          "y": 36993,
           "label": "var parser = new DOMParser();\n\nvar xmlDoc = parser.parseFromString(data,\"text/html\");\n\nvar rslt1 = xmlDoc.evaluate('//div[@class=\"yt-user-info\"]/a', xmlDoc, null, XPathResult.ANY_TYPE, null);\nvar channelName = rslt1.iterateNext().text;\n\nvar rslt2 = xmlDoc.evaluate('//span[@id=\"eow-title\"]', xmlDoc, null, XPathResult.ANY_TYPE, null);\nvar vidName = rslt2.iterateNext().textContent.trim();\n\nvar rslt3 = xmlDoc.evaluate('//div[@class=\"yt-user-info\"]/a', xmlDoc, null, XPathResult.ANY_TYPE, null);\nvar channelLink = \"https://www.youtube.com\" + rslt3.iterateNext().getAttribute(\"href\");",
           "shape": "box",
           "link": "",
@@ -39453,7 +39453,7 @@ var schemeData =
         "indx1_2369": {
           "id": "indx1_2369",
           "x": 94809,
-          "y": 30368,
+          "y": 31088,
           "label": "var p2 = new Promise(function(resolve, reject) {\n  resolve();\n});\n\np2.then(function() {\n  console.log(1);\n}).then(function() {\n  console.log(2);\n});",
           "shape": "box",
           "link": "",
@@ -39470,7 +39470,7 @@ var schemeData =
         "indx1_2370": {
           "id": "indx1_2370",
           "x": 94474,
-          "y": 30371,
+          "y": 31091,
           "label": "Minimal example",
           "shape": "box",
           "link": "",
@@ -39731,77 +39731,77 @@ var schemeData =
         "indx1_2407": {
           "id": "indx1_2407",
           "x": 94457,
-          "y": 36462,
+          "y": 37182,
           "label": "mimeType"
         },
         "indx1_2408": {
           "label": "text/html",
           "link": "",
           "x": 94563,
-          "y": 36400,
+          "y": 37120,
           "id": "indx1_2408"
         },
         "indx1_2409": {
           "label": "Document",
           "link": "",
           "x": 94736,
-          "y": 36399,
+          "y": 37119,
           "id": "indx1_2409"
         },
         "indx1_2410": {
           "label": "text/xml",
           "link": "",
           "x": 94560,
-          "y": 36430,
+          "y": 37150,
           "id": "indx1_2410"
         },
         "indx1_2411": {
           "label": "XMLDocument",
           "link": "",
           "x": 94750,
-          "y": 36433,
+          "y": 37153,
           "id": "indx1_2411"
         },
         "indx1_2412": {
           "label": "application/xml",
           "link": "",
           "x": 94583,
-          "y": 36463,
+          "y": 37183,
           "id": "indx1_2412"
         },
         "indx1_2413": {
           "label": "XMLDocument",
           "link": "",
           "x": 94750,
-          "y": 36464,
+          "y": 37184,
           "id": "indx1_2413"
         },
         "indx1_2414": {
           "label": "application/xhtml+xml",
           "link": "",
           "x": 94604,
-          "y": 36497,
+          "y": 37217,
           "id": "indx1_2414"
         },
         "indx1_2415": {
           "label": "XMLDocument",
           "link": "",
           "x": 94750,
-          "y": 36497,
+          "y": 37217,
           "id": "indx1_2415"
         },
         "indx1_2416": {
           "label": "image/svg+xml",
           "link": "",
           "x": 94583,
-          "y": 36529,
+          "y": 37249,
           "id": "indx1_2416"
         },
         "indx1_2417": {
           "label": "XMLDocument",
           "link": "",
           "x": 94750,
-          "y": 36529,
+          "y": 37249,
           "id": "indx1_2417"
         },
         "index-a_19931": {
@@ -42941,7 +42941,7 @@ var schemeData =
           "label": "How To Get HTML Elements' Text Excluding Children Using JQuery And JavaScript?",
           "link": "https://www.designcise.com/web/tutorial/how-to-get-html-elements-text-excluding-children-using-jquery-and-javascript",
           "x": 94637,
-          "y": -375,
+          "y": 1,
           "id": "indx1_2548",
           "shape": "box",
           "borderWidth": ""
@@ -44157,7 +44157,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://en.wikipedia.org/wiki/RDFLib",
           "x": 94931,
-          "y": 18952,
+          "y": 19672,
           "id": "indx1_2586",
           "oldId": "indx1_560",
           "shape": "box",
@@ -44194,7 +44194,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/linkeddata/rdflib.js/",
           "x": 94936,
-          "y": 18982,
+          "y": 19702,
           "id": "indx1_2587",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -44231,7 +44231,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://linkeddata.github.io/rdflib.js/doc/",
           "x": 94942,
-          "y": 19012,
+          "y": 19732,
           "id": "indx1_2588",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -44268,7 +44268,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://linkeddata.github.io/rdflib.js/Documentation/webapp-intro.html",
           "x": 95035,
-          "y": 19042,
+          "y": 19762,
           "id": "indx1_2589",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -44305,7 +44305,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/solid/solid-tutorial-rdflib.js",
           "x": 94957,
-          "y": 19072,
+          "y": 19792,
           "id": "indx1_2590",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -44342,7 +44342,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.w3.org/community/rdfjs/wiki/Comparison_of_RDFJS_libraries",
           "x": 95050,
-          "y": 19102,
+          "y": 19822,
           "id": "indx1_2591",
           "oldId": "indx1_2586",
           "shape": "box",
@@ -44379,7 +44379,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "SPARQL",
           "x": 94846,
-          "y": 19132,
+          "y": 19852,
           "id": "indx1_2592",
           "oldId": "indx1_2591",
           "shape": "box",
@@ -44416,7 +44416,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/linkeddata/rdflib.js/issues/160",
           "x": 95090,
-          "y": 19132,
+          "y": 19852,
           "id": "indx1_2593",
           "oldId": "indx1_2591",
           "shape": "box",
@@ -44453,7 +44453,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/linkeddata/rdflib.js/issues/75",
           "x": 94966,
-          "y": 19165,
+          "y": 19885,
           "id": "indx1_2594",
           "oldId": "indx1_2591",
           "shape": "box",
@@ -44490,7 +44490,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Install",
           "x": 94747,
-          "y": 18367,
+          "y": 19087,
           "id": "indx1_2595",
           "shape": "box",
           "link": "",
@@ -44527,7 +44527,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "npm install rdflib solid-auth-client solid-auth-cli",
           "x": 94966,
-          "y": 18367,
+          "y": 19087,
           "id": "indx1_2596",
           "shape": "box",
           "link": "",
@@ -44563,7 +44563,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94778,
-          "y": 18559,
+          "y": 19279,
           "id": "indx1_2597",
           "shape": "box",
           "link": "",
@@ -44599,7 +44599,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94778,
-          "y": 18589,
+          "y": 19309,
           "id": "indx1_2598",
           "shape": "box",
           "link": "",
@@ -44635,7 +44635,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Dictionary of\nconcepts",
           "x": 94778,
-          "y": 18619,
+          "y": 19339,
           "id": "indx1_2599",
           "shape": "box",
           "link": "",
@@ -44948,7 +44948,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "node-fetch",
           "x": 94044,
-          "y": 25299,
+          "y": 26019,
           "id": "indx1_2606",
           "oldId": "indx1_586",
           "shape": "box",
@@ -44985,7 +44985,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.npmjs.com/package/node-fetch",
           "x": 94398,
-          "y": 25295,
+          "y": 26015,
           "id": "indx1_2607",
           "oldId": "indx1_2606",
           "shape": "box",
@@ -45022,7 +45022,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://hackersandslackers.com/making-api-requests-with-nodejs/",
           "x": 94468,
-          "y": 25325,
+          "y": 26045,
           "id": "indx1_2608",
           "oldId": "indx1_2606",
           "shape": "box",
@@ -45059,7 +45059,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "A light-weight module that brings window.fetch to Node.js",
           "x": 94440,
-          "y": 25266,
+          "y": 25986,
           "id": "indx1_2609",
           "oldId": "indx1_2608",
           "shape": "box",
@@ -45168,7 +45168,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "DOM manipulations or XHR",
           "x": 93951,
-          "y": 26292,
+          "y": 27012,
           "id": "indx1_2612",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -45205,7 +45205,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Like browser DOMParser",
           "x": 94197,
-          "y": 26185,
+          "y": 26905,
           "id": "indx1_2613",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -45242,7 +45242,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/11398419/trying-to-use-the-domparser-with-node-js",
           "x": 94396,
-          "y": 26213,
+          "y": 26933,
           "id": "indx1_2614",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -45279,7 +45279,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "jsdom",
           "x": 94136,
-          "y": 26288,
+          "y": 27008,
           "id": "indx1_2615",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -45316,7 +45316,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.npmjs.com/package/jsdom",
           "x": 94358,
-          "y": 26264,
+          "y": 26984,
           "id": "indx1_2616",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -45353,7 +45353,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "const jsdom = require(\"jsdom\");\nconst dom = new jsdom.JSDOM(`<!DOCTYPE html><p>Hello world</p>`);\ndom.window.document.querySelector(\"p\").textContent; // 'Hello world'",
           "x": 94468,
-          "y": 26309,
+          "y": 27029,
           "id": "indx1_2617",
           "oldId": "indx1_2609",
           "shape": "box",
@@ -45390,7 +45390,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "xmldom",
           "x": 94145,
-          "y": 26406,
+          "y": 27126,
           "id": "indx1_2618",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -45427,7 +45427,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://github.com/jindw/xmldom",
           "x": 94336,
-          "y": 26390,
+          "y": 27110,
           "id": "indx1_2619",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -45464,7 +45464,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "XPath",
           "x": 93885,
-          "y": 26507,
+          "y": 27227,
           "id": "indx1_2620",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -45501,7 +45501,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.npmjs.com/package/xpath",
           "x": 94358,
-          "y": 26512,
+          "y": 27232,
           "id": "indx1_2621",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -45538,7 +45538,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "xpath",
           "x": 94137,
-          "y": 26510,
+          "y": 27230,
           "id": "indx1_2622",
           "oldId": "indx1_2617",
           "shape": "box",
@@ -45851,7 +45851,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "npm",
           "x": 94003,
-          "y": 22659,
+          "y": 23379,
           "id": "indx1_2629",
           "oldId": "indx1_2606",
           "shape": "box",
@@ -45888,7 +45888,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "--save",
           "x": 94173,
-          "y": 22644,
+          "y": 23364,
           "id": "indx1_2630",
           "oldId": "indx1_2629",
           "shape": "box",
@@ -45925,7 +45925,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-install",
           "x": 94544,
-          "y": 22639,
+          "y": 23359,
           "id": "indx1_2631",
           "oldId": "indx1_2629",
           "shape": "box",
@@ -45962,7 +45962,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://www.npmjs.com/",
           "x": 94227,
-          "y": 22593,
+          "y": 23313,
           "id": "indx1_2632",
           "oldId": "indx1_2629",
           "shape": "box",
@@ -45999,7 +45999,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Date",
           "x": 94004,
-          "y": 22809,
+          "y": 23529,
           "id": "indx1_2633",
           "oldId": "indx1_2629",
           "shape": "box",
@@ -46036,7 +46036,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "moment",
           "x": 94179,
-          "y": 22778,
+          "y": 23498,
           "id": "indx1_2634",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -46073,7 +46073,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Check in main Date scheme",
           "x": 94390,
-          "y": 22770,
+          "y": 23490,
           "id": "indx1_2635",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -46110,7 +46110,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "npm install moment",
           "x": 94363,
-          "y": 22801,
+          "y": 23521,
           "id": "indx1_2636",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -46147,7 +46147,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "moment.js - for browser and nodejs",
           "x": 94413,
-          "y": 22741,
+          "y": 23461,
           "id": "indx1_2637",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -46184,7 +46184,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://momentjs.com/",
           "x": 94371,
-          "y": 22714,
+          "y": 23434,
           "id": "indx1_2638",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -46258,7 +46258,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "var moment = require('moment'); // require\n\nmoment().format(); ",
           "x": 94437,
-          "y": 22854,
+          "y": 23574,
           "id": "indx1_2640",
           "oldId": "indx1_2633",
           "shape": "box",
@@ -46849,7 +46849,7 @@ var schemeData =
           "label": "Ignore namespaces",
           "link": "",
           "x": 94657,
-          "y": 36737,
+          "y": 37457,
           "id": "indx1_2659",
           "oldId": "indx1_2417",
           "shape": "box",
@@ -46886,7 +46886,7 @@ var schemeData =
           "label": "//*[local-name()='someTag']",
           "link": "",
           "x": 94874,
-          "y": 36739,
+          "y": 37459,
           "id": "indx1_2660",
           "oldId": "indx1_2659",
           "shape": "box",
@@ -46923,7 +46923,7 @@ var schemeData =
           "label": "Before - //someTag",
           "link": "",
           "x": 95067,
-          "y": 36739,
+          "y": 37459,
           "id": "indx1_2661",
           "oldId": "indx1_2660",
           "shape": "box",
@@ -46959,7 +46959,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Namespaces",
           "x": 94465,
-          "y": 36685,
+          "y": 37405,
           "id": "indx1_2662",
           "oldId": "indx1_2622",
           "shape": "box",
@@ -46996,7 +46996,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://timnew.me/blog/2012/10/25/pitfall-in-nokogiri-xpath-and-namespace/",
           "x": 94833,
-          "y": 36634,
+          "y": 37354,
           "id": "indx1_2663",
           "oldId": "indx1_2622",
           "shape": "box",
@@ -47033,7 +47033,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "https://stackoverflow.com/questions/51044558/nodejs-xpath-select-expressions",
           "x": 94845,
-          "y": 36661,
+          "y": 37381,
           "id": "indx1_2664",
           "oldId": "indx1_2622",
           "shape": "box",
@@ -47484,7 +47484,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "var doc = new dom().parseFromString(data);",
           "x": 94377,
-          "y": 26433,
+          "y": 27153,
           "id": "indx1_2619c0",
           "oldId": "indx1_2619",
           "shape": "box",
@@ -47521,7 +47521,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "parseFromString(data, 'text/html')",
           "x": 94663,
-          "y": 26420,
+          "y": 27140,
           "id": "indx1_2619c1",
           "oldId": "indx1_2619",
           "shape": "box",
@@ -47558,7 +47558,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "parseFromString(data, 'text/xml')",
           "x": 94661,
-          "y": 26450,
+          "y": 27170,
           "id": "indx1_2619c1c0",
           "oldId": "indx1_2619c1",
           "shape": "box",
@@ -47705,7 +47705,7 @@ var schemeData =
           "label": "return Promise.reject(\"getSavedNewsData. Error.\");",
           "id": "indx1_2369c2",
           "x": 94821,
-          "y": 30557,
+          "y": 31277,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -47740,7 +47740,7 @@ var schemeData =
           "label": "https://stackoverflow.com/questions/20714460/break-promise-chain-and-call-a-function-based-on-the-step-in-the-chain-where-it",
           "id": "indx1_2369c3",
           "x": 95062,
-          "y": 30516,
+          "y": 31236,
           "shape": "box",
           "link": "https://stackoverflow.com/questions/20714460/break-promise-chain-and-call-a-function-based-on-the-step-in-the-chain-where-it",
           "borderWidth": "",
@@ -47775,7 +47775,7 @@ var schemeData =
           "label": "Break promise chain",
           "id": "indx1_2369c4",
           "x": 94485,
-          "y": 30543,
+          "y": 31263,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -47956,7 +47956,7 @@ var schemeData =
           "label": "new Promise(function(resolve, reject) {\n  setTimeout(() => resolve(1), 1000);\n}).then(function(result) {\n  alert(result); // 1\n  return new Promise((resolve, reject) => { // (*)\n    setTimeout(() => resolve(result * 2), 1000);\n  });\n}).then(function(result) { // (**)\n  alert(result); // 2\n  return new Promise((resolve, reject) => {\n    setTimeout(() => resolve(result * 2), 1000);\n  });\n}).then(function(result) {\n  alert(result); // 4\n});",
           "id": "indx1_2369c2c0",
           "x": 94806,
-          "y": 30774,
+          "y": 31494,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -47993,7 +47993,7 @@ var schemeData =
           "label": "Make chain",
           "id": "indx1_2369c2c1",
           "x": 94457,
-          "y": 30759,
+          "y": 31479,
           "shape": "box",
           "link": "",
           "borderWidth": "",
@@ -48632,19 +48632,19 @@ var schemeData =
         "indx1_8395": {
           "id": "indx1_8395",
           "x": 94214,
-          "y": 3154,
+          "y": 3530,
           "label": "css"
         },
         "indx1_8396": {
           "id": "indx1_8396",
           "x": 94388,
-          "y": 3161,
+          "y": 3537,
           "label": "css(\"top\", \"500px\");"
         },
         "indx1_8397": {
           "id": "indx1_8397",
           "x": 94249,
-          "y": 1065,
+          "y": 1441,
           "label": ".is(\":checked\")",
           "shape": "box",
           "link": "",
@@ -48661,19 +48661,19 @@ var schemeData =
         "indx1_8398": {
           "id": "indx1_8398",
           "x": 94457,
-          "y": 1065,
+          "y": 1441,
           "label": "check checkbox is selected"
         },
         "indx1_8399": {
           "id": "indx1_8399",
           "x": 94284,
-          "y": 1278,
+          "y": 1654,
           "label": "$(\".form-control\").focus();"
         },
         "indx1_8400": {
           "id": "indx1_8400",
           "x": 94531,
-          "y": 1278,
+          "y": 1654,
           "label": "Define which element will get focus",
           "shape": "box",
           "link": "",
@@ -48690,13 +48690,13 @@ var schemeData =
         "indx1_8401": {
           "id": "indx1_8401",
           "x": 94258,
-          "y": 1133,
+          "y": 1509,
           "label": "$(\"..\").is(\":focus\")"
         },
         "indx1_8402": {
           "id": "indx1_8402",
           "x": 94451,
-          "y": 1133,
+          "y": 1509,
           "label": "check element is focused"
         },
         "indx2_8392": {
@@ -49107,7 +49107,7 @@ var schemeData =
         "indx2_8449": {
           "id": "indx2_8449",
           "x": 94514,
-          "y": 175,
+          "y": 551,
           "label": "How to “fadeOut” & “remove” a div in jQuery?",
           "shape": "box",
           "link": "",
@@ -49124,7 +49124,7 @@ var schemeData =
         "indx2_8450": {
           "id": "indx2_8450",
           "x": 94908,
-          "y": 175,
+          "y": 551,
           "label": "$(\".notificationClose\").click(function() {\n    $(\"#notification\").fadeOut(\"normal\", function() {\n        $(this).remove();\n    });\n});"
         },
         "indx2_8451": {
@@ -51622,6 +51622,105 @@ var schemeData =
           "shape": "box",
           "link": "lisp.html",
           "borderWidth": "0"
+        },
+        "indx2_8872": {
+          "id": "indx2_8872",
+          "x": 118785,
+          "y": -5908,
+          "label": "takes \"2019-10-02T00:10:20Z\" - GMT time, not local, and creates local time"
+        },
+        "indx2_8873": {
+          "id": "indx2_8873",
+          "x": 119055,
+          "y": -4525,
+          "label": "moment().subtract(1, 'days').toString()"
+        },
+        "indx2_8874": {
+          "id": "indx2_8874",
+          "x": 118770,
+          "y": -4525,
+          "label": "Get yesterday date with current timing"
+        },
+        "indx2_8875": {
+          "id": "indx2_8875",
+          "label": "Get yesterday date with start of the day",
+          "link": "",
+          "x": 118774,
+          "y": -4472
+        },
+        "indx2_8876": {
+          "id": "indx2_8876",
+          "label": "moment().subtract(1, 'days').startOf('day').toString()      ",
+          "link": "",
+          "x": 119110,
+          "y": -4472
+        },
+        "indx2_8877": {
+          "id": "indx2_8877",
+          "label": "Get yesterday date with end of the day",
+          "link": "",
+          "x": 118773,
+          "y": -4418
+        },
+        "indx2_8878": {
+          "id": "indx2_8878",
+          "label": "moment().subtract(1, 'days').endOf('day').toString()",
+          "link": "",
+          "x": 119096,
+          "y": -4418
+        },
+        "7f79115e-0561-4e03-b939-f01e5e617230": {
+          "id": "7f79115e-0561-4e03-b939-f01e5e617230",
+          "x": 94250,
+          "y": -255,
+          "label": ".mousedown()"
+        },
+        "1e751b8a-1beb-4a90-9b1a-9215f78eaebb": {
+          "id": "1e751b8a-1beb-4a90-9b1a-9215f78eaebb",
+          "x": 94481,
+          "y": -349,
+          "label": "https://api.jquery.com/mousedown/",
+          "link": "https://api.jquery.com/mousedown/"
+        },
+        "7a6ab36b-a9d4-45ac-91b2-96fa4e674bc1": {
+          "id": "7a6ab36b-a9d4-45ac-91b2-96fa4e674bc1",
+          "x": 94676,
+          "y": -324,
+          "label": "Bind an event handler to the \"mousedown\" JavaScript event, or trigger that event on an element."
+        },
+        "90994e97-435e-4c42-943c-a2a3bd8f308f": {
+          "id": "90994e97-435e-4c42-943c-a2a3bd8f308f",
+          "x": 94526,
+          "y": -265,
+          "label": "$(document).ready(function(){\n   $('.myclass').mousedown(function(event) {\n      if (event.which == 3) console.log(\"right click\");\n   });\n});",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "d3ec5ac2-c2cd-45b5-a806-b5e09cb5ed10": {
+          "id": "d3ec5ac2-c2cd-45b5-a806-b5e09cb5ed10",
+          "x": 94402,
+          "y": -191,
+          "label": "1 - left\n2 - middle\n3 - right",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
         }
       },
       "length": 0,
@@ -90100,6 +90199,66 @@ var schemeData =
           "from": "index-a_19926",
           "to": "indx2_8663",
           "id": "indx2_11897"
+        },
+        "indx2_12112": {
+          "from": "indx1_1164",
+          "to": "indx2_8872",
+          "id": "indx2_12112"
+        },
+        "indx2_12113": {
+          "from": "indx1_1178",
+          "to": "indx2_8874",
+          "id": "indx2_12113"
+        },
+        "indx2_12114": {
+          "from": "indx1_1178",
+          "to": "indx2_8875",
+          "id": "indx2_12114"
+        },
+        "indx2_12115": {
+          "from": "indx1_1178",
+          "to": "indx2_8877",
+          "id": "indx2_12115"
+        },
+        "indx2_12116": {
+          "from": "indx2_8874",
+          "to": "indx2_8873",
+          "id": "indx2_12116"
+        },
+        "indx2_12117": {
+          "from": "indx2_8875",
+          "to": "indx2_8876",
+          "id": "indx2_12117"
+        },
+        "indx2_12118": {
+          "from": "indx2_8877",
+          "to": "indx2_8878",
+          "id": "indx2_12118"
+        },
+        "24c37da0-0328-4f3a-95ec-8bce06c0b716": {
+          "from": "7f79115e-0561-4e03-b939-f01e5e617230",
+          "to": "1e751b8a-1beb-4a90-9b1a-9215f78eaebb",
+          "id": "24c37da0-0328-4f3a-95ec-8bce06c0b716"
+        },
+        "2512ec2c-878c-42e6-9317-276867a58f53": {
+          "from": "7f79115e-0561-4e03-b939-f01e5e617230",
+          "to": "7a6ab36b-a9d4-45ac-91b2-96fa4e674bc1",
+          "id": "2512ec2c-878c-42e6-9317-276867a58f53"
+        },
+        "ce7271b5-1f7f-4f1a-8411-bd38f33b79c8": {
+          "from": "7f79115e-0561-4e03-b939-f01e5e617230",
+          "to": "90994e97-435e-4c42-943c-a2a3bd8f308f",
+          "id": "ce7271b5-1f7f-4f1a-8411-bd38f33b79c8"
+        },
+        "7edb55f1-819f-4a07-9de9-7dd726367715": {
+          "from": "7f79115e-0561-4e03-b939-f01e5e617230",
+          "to": "d3ec5ac2-c2cd-45b5-a806-b5e09cb5ed10",
+          "id": "7edb55f1-819f-4a07-9de9-7dd726367715"
+        },
+        "1a6d12d8-47dc-475f-9e02-9d6e58cd7ed8": {
+          "from": "indx1_225",
+          "to": "7f79115e-0561-4e03-b939-f01e5e617230",
+          "id": "1a6d12d8-47dc-475f-9e02-9d6e58cd7ed8"
         }
       },
       "length": 0,
@@ -90139,8 +90298,8 @@ var schemeData =
   "setup": {
     "scale": 0.0156,
     "viewPosition": {
-      "x": 102403.00000128208,
-      "y": 11799.999998205143
+      "x": 102403.00000128255,
+      "y": 11799.999998205129
     }
   }
 }

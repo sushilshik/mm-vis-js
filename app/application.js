@@ -85,6 +85,7 @@ var copiedNodeStyleColor = "";
 var copiedNodeStyleFontSize = "";
 var nextOperationMultiplier = "";
 document.alertCounter = 0;
+var duplicateGraphPrefix = "index-a_";
 //Colors:
 //"#ffc63b"
 //"#FFD570" - lighter
@@ -729,68 +730,98 @@ function create_UUID(){
     });
     return uuid;
 }
+   function getNextNumberForPrefixedNodeId(prefix) {
+      var pageNodes = objectToArray(network.body.nodes)
+      var pageNodeIds = [];
+      for (var i in pageNodes) {
+         pageNodeIds.push(pageNodes[i].id);
+      }
+
+      var pageNodeIdsWithPrefix = [];
+      for (var i in pageNodeIds) {
+         if (pageNodeIds[i].lastIndexOf(prefix, 0) === 0) pageNodeIdsWithPrefix.push(pageNodeIds[i]);
+      }
+
+      var prefixedNodeIdsNumbersParts = [];
+      for (var i in pageNodeIdsWithPrefix) {
+         prefixedNodeIdsNumbersParts.push(parseInt(pageNodeIdsWithPrefix[i].replace(prefix,""),10));
+      }
+      prefixedNodeIdsNumbersParts = prefixedNodeIdsNumbersParts.sort((a, b) => a - b);
+
+      var startingPrefixedNodeId = prefixedNodeIdsNumbersParts.slice(-1)[0];
+
+      if (typeof startingPrefixedNodeId === "undefined") {
+         startingPrefixedNodeId = 0;
+      } else {
+         startingPrefixedNodeId = parseInt(startingPrefixedNodeId, 10) + 1;
+      }
+      return startingPrefixedNodeId
+   }
 function duplicateGraph(nodes, edges) {
-			var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
-			var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
-			var nodes = [];
-                        var nodesPositions = network.getPositions();
-			selectedNodes.forEach(function(node) {
-				var nodeD = getNodeFromNetworkDataById(node.id);
-				pNode = nodesPositions[node.id];
-				nodeD.x = pNode.x;
-				nodeD.y = pNode.y;
-				network.body.data.nodes.update(nodeD);
+   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);
+   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);
 
-				nodes.push(getNodeFromNetworkDataById(node.id));
-			});
-			var edges = []
-			selectedEdges.forEach(function(edge) {
-				edges.push(network.body.data.edges.get(edge.id));
-			});
+   var startingPrefixedNodeIdNumber = getNextNumberForPrefixedNodeId(duplicateGraphPrefix);
 
-			var data = {
-				nodes: {},
-				edges: {}
-			};
+   var nodes = [];
+   var nodesPositions = network.getPositions();
+   selectedNodes.forEach(function(node) {
+      var nodeD = getNodeFromNetworkDataById(node.id);
+      pNode = nodesPositions[node.id];
+      nodeD.x = pNode.x;
+      nodeD.y = pNode.y;
+      network.body.data.nodes.update(nodeD);
+
+      nodes.push(getNodeFromNetworkDataById(node.id));
+   });
+   var edges = []
+   selectedEdges.forEach(function(edge) {
+      edges.push(network.body.data.edges.get(edge.id));
+   });
+
+   var data = {
+      nodes: {},
+      edges: {}
+   };
 			
-			nodes1ToCopy = {}; 
-			nodes.forEach(function(item) {
-				nodes1ToCopy[item.id.toString()] = item;
-			});
-			data.nodes = nodes1ToCopy;
+   nodes1ToCopy = {}; 
+   nodes.forEach(function(item) {
+      nodes1ToCopy[item.id.toString()] = item;
+   });
+   data.nodes = nodes1ToCopy;
 
-			var edges1ToCopy = {}; 
-			edges.forEach(function(item) {
-				edges1ToCopy[item.id.toString()] = item;
-			});
-			data.edges = edges1ToCopy;
-			var label = JSON.stringify(data, undefined, 1);
-			var data = JSON.parse(label);
-			var date = new Date();
-			var idPostfix = date.getMilliseconds().toString().substring(-7).toString();
-			network.selectionHandler.unselectAll();
-                        var nodesArray = objectToArray(data.nodes);
-                        for (var i in nodesArray) {
-                                var node = nodesArray[i];
-                                console.log("duplicateGraph. Nodes: " + String(i) + ", " + String(nodesArray.length));
-				node.id = node.id + idPostfix;
-				node.y = node.y; 
-				var newNode = network.nodesHandler.create(node);
-				network.body.data.nodes.add(newNode.options);
-				network.selectionHandler.selectObject(newNode);
-			};
-                        var edgesArray = objectToArray(data.edges);
-                        for (var i in edgesArray) {
-                                var edge = edgesArray[i];
-                                console.log("duplicateGraph. Edges: " + String(i) + ", " + String(edgesArray.length));
-				edge.id = edge.id + idPostfix;	
-				edge.from = edge.from + idPostfix;
-				edge.to = edge.to + idPostfix;
-				var newEdge = network.edgesHandler.create(edge);
-				network.body.data.edges.add(newEdge.options);
-				network.selectionHandler.selectObject(newEdge);
-			};
-			network.selectionHandler.setSelection(network.selectionHandler.getSelection());
+   var edges1ToCopy = {}; 
+   edges.forEach(function(item) {
+      edges1ToCopy[item.id.toString()] = item;
+   });
+   data.edges = edges1ToCopy;
+   var label = JSON.stringify(data, undefined, 1);
+   var data = JSON.parse(label);
+   var date = new Date();
+   var idPostfix = date.getMilliseconds().toString().substring(-7).toString();
+   network.selectionHandler.unselectAll();
+   var nodesArray = objectToArray(data.nodes);
+   for (var i in nodesArray) {
+      var node = nodesArray[i];
+      console.log("duplicateGraph. Nodes: " + String(i) + ", " + String(nodesArray.length));
+      node.id = duplicateGraphPrefix + String(Number(startingPrefixedNodeIdNumber) + Number(i));
+      node.y = node.y; 
+      var newNode = network.nodesHandler.create(node);
+      network.body.data.nodes.add(newNode.options);
+      network.selectionHandler.selectObject(newNode);
+   };
+   var edgesArray = objectToArray(data.edges);
+   for (var i in edgesArray) {
+      var edge = edgesArray[i];
+      console.log("duplicateGraph. Edges: " + String(i) + ", " + String(edgesArray.length));
+      edge.id = edge.id + idPostfix;	
+      edge.from = edge.from + idPostfix;
+      edge.to = edge.to + idPostfix;
+      var newEdge = network.edgesHandler.create(edge);
+      network.body.data.edges.add(newEdge.options);
+      network.selectionHandler.selectObject(newEdge);
+   };
+   network.selectionHandler.setSelection(network.selectionHandler.getSelection());
    return data;
 }
 function multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0) {
@@ -3430,39 +3461,9 @@ runNodeCodeButton.click(function() {
    }
    schemeDataTextArea = $("<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>");
    schemeDataMenu.append(schemeDataTextArea);
-   saveLoadButton = $("<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>");
-   schemeDataMenu.append(saveLoadButton);
+   //saveLoadButton = $("<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>");
+   //schemeDataMenu.append(saveLoadButton);
    body.append(schemeDataMenu);
-	saveLoadButton.click(function() {
-		var regex = saveCanvasProjectDataLine;
-		var saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + regex + "$"));
-		var projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + projectSaveIdLine + "$"));
-		var projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp("^" + projectSaveIdLine + ":.*$"));
-		if ((typeof saveCanvasProjectDataNodes === "undefined") || (saveCanvasProjectDataNodes.length == 0) ||
-			(typeof projectSaveIdNodes === "undefined") || (projectSaveIdNodes.length == 0) ||
-			(typeof projectSaveIdWithDataNodes === "undefined") || (projectSaveIdWithDataNodes.length == 0)) 
-			{
-			alert("Add setup nodes for canvas save information: '" + saveCanvasProjectDataLine + "', '" + projectSaveIdLine + "', '" +  projectSaveIdLine + ": projectName'.");
-		} else {
-			var node = saveCanvasProjectDataNodes[0];
-			updateNodePositionData(network, node);
-			var scale = network.getScale();
-			var n1X = parseFloat(node.x.toFixed(5));
-			var n1Y = parseFloat(node.y.toFixed(5));
-			var positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));
-			var positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));
-			network.moveTo({
-				position: {x: positionX, y: positionY},
-				offset: {x: -canvasWidth/2, y: -canvasHeight/2},
-				scale: scale,
-			});
-			network1.moveTo({
-				position: {x: positionX, y: positionY},
-				offset: {x: -canvasWidth/2, y: -canvasHeight/2},
-				scale: scale,
-			});
-		}
-	});
 	showDataButton.click(function() {
 		schemeDataMenu.toggle();
 	});

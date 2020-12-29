@@ -919,7 +919,7 @@ var schemeData =
           "label": "mm-vis-js\nstats",
           "id": "index-a_26",
           "x": 27270,
-          "y": 19954,
+          "y": 20222,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -953,7 +953,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_165",
           "x": 65437,
-          "y": 26455,
+          "y": 29642,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -987,7 +987,7 @@ var schemeData =
           "label": "file path: ./utils/mvj-code.js",
           "id": "indx1_166",
           "x": 66319,
-          "y": 26450,
+          "y": 29637,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1017,7 +1017,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_167",
           "x": 66821,
-          "y": 26438
+          "y": 29625
         },
         "indx1_168": {
           "color": {
@@ -1048,7 +1048,7 @@ var schemeData =
           "label": "#!/usr/local/bin/node\n\nvar pathDelimiter = \"/\";\n\nvar fs = require('fs');\n\nvar userConfPath = \"../user-conf.json\";\nvar rootBackupDirPath = \"/tmp/mm-vis-js_code_backup/\";\nif (!fs.existsSync(rootBackupDirPath)){\n   fs.mkdirSync(rootBackupDirPath);\n}\n\nvar path = process.argv[2]; \nconsole.log(\"mvj-code->dataPath: \" + path);\n\nvar projectName = process.argv[3]; \nconsole.log(\"mvj-code->projectName: \" + projectName);\n\nvar runProject = process.argv[4];\nif (typeof runProject === \"undefined\" && runProject != \"true\") runProject = \"false\";\nconsole.log(\"mvj-code->runProject: \" + runProject);\n\nvar contents = fs.readFileSync(path, 'utf8');\n//contents = contents.replace(/^var schemeData =/, \"\");\ncontents = contents.split(\"\\n\");\ncontents.shift();\ncontents.pop();\ncontents = contents.join(\"\\n\");\n\nvar data = JSON.parse(contents);\n\nvar nodes = data.canvas1Data.nodes._data;\nvar edges = data.canvas1Data.edges._data;\n\nvar files = {};\nvar setupNodeId;\nvar setup = {};",
           "id": "indx1_168",
           "x": 67132,
-          "y": 26348,
+          "y": 29535,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -1083,7 +1083,7 @@ var schemeData =
           "label": "for (var key in nodes) {\n\tif (nodes[key].label.startsWith(\"mvj code file for project name: \" + projectName)) {\n\t\tfiles[key] = {rootNodeId: key, projectName: projectName};\n\t}\n}\n",
           "id": "indx1_169",
           "x": 67629,
-          "y": 26731,
+          "y": 29918,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1118,7 +1118,7 @@ var schemeData =
           "label": "for (var key in files) {\n\tvar rootNodeId = files[key].rootNodeId;\n\tvar filePath;\n\tvar filePathNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == rootNodeId) {\n\t\t\tfilePathNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].filePathNodeId = filePathNodeId\n\t\tfilePath = nodes[filePathNodeId].label.replace(\"file path: \", \"\");\n\tfiles[key].filePath = filePath;\n}\n",
           "id": "indx1_170",
           "x": 67569,
-          "y": 26889,
+          "y": 30076,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1153,7 +1153,7 @@ var schemeData =
           "label": "for (var key in files) {\n\tvar filePathNodeId = files[key].filePathNodeId;\n\tvar fileContentPointNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == filePathNodeId) {\n\t\t\tfileContentPointNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].fileContentPointNodeId = fileContentPointNodeId\n}",
           "id": "indx1_171",
           "x": 67557,
-          "y": 27075,
+          "y": 30262,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1189,7 +1189,7 @@ var schemeData =
           "label": "function collectCodeNodesContent(rootCodeNodeId, nodes, edges) {\n   var nodeCode = nodes[rootCodeNodeId].label;\n\n   var matchResults = nodeCode.match(/generate$k$Code1[\\s\\S]*?generate$k$Code2/g);\n   if (matchResults !== null) {\n      for (var i = 0; i < matchResults.length; i++) {\n         //console.log(matchResults[i]);\n         var codeToRun = matchResults[i].replace(/generate$k$Code1([\\s\\S]*?)generate$k$Code2/g, \"$1\");\n         //console.log(codeToRun);\n         var codeFunction = new Function(\"setup\", codeToRun);\n         var fResult = codeFunction(setup);\n         //console.log(fResult);\n         nodeCode = nodeCode.replace(matchResults[i],fResult);\n      }\n   }\n   nodeCode = nodeCode.replace(/generate\\$k\\$Code/g,\"generateCode\");\n\n   var code = nodeCode + \"\\n\";\n\tvar nodeBranchesNodesIds = [];\n\tfor (var keyE in edges) {\n\t\tif ((edges[keyE].from == rootCodeNodeId) && (edges[keyE].label == \"code\")) {\n\t\t\tnodeBranchesNodesIds.push(edges[keyE].to);\n\t\t}\n\t}\n\tvar branchCodeNodes = [];\n\tnodeBranchesNodesIds.forEach(function(branchNodeId) {\n\t\tbranchCodeNodes.push(nodes[branchNodeId]);\n\t});\n        if (branchCodeNodes.length > 0 && typeof branchCodeNodes[0] === \"undefined\") {\n           var z = [];\n           nodeBranchesNodesIds.forEach(function(nodeId) {\n                for(var key1 in edges) {\n                        if (edges[key1].to == nodeId) {\n                                z.push(key1);\n                        }\n                }\n           });\n                console.log(z);\n        }\n\n\tfunction compare( a, b ) {\n\t\tif ( a.y < b.y ){\n\t\t\treturn -1;\n\t\t}\n\t\tif ( a.y > b.y ){\n\t\t\treturn 1;\n\t\t}\n\t\treturn 0;\n\t}\n\n\tvar branchCodeNodes = branchCodeNodes.sort(compare);\n\tbranchCodeNodes.forEach(function(branchNode) {\n\t\t\tcode = code + collectCodeNodesContent(branchNode.id, nodes, edges);\n\t\t\t});\n\treturn code;\n}",
           "id": "indx1_172",
           "x": 67700,
-          "y": 28137,
+          "y": 31324,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1224,7 +1224,7 @@ var schemeData =
           "label": "for (var key in files) {\n\tvar fileContentPointNodeId = files[key].fileContentPointNodeId;\n\tvar fileContentNodeId;\n\tfor (var keyE in edges) {\n\t\tif (edges[keyE].from == fileContentPointNodeId) {\n\t\t\tfileContentNodeId = edges[keyE].to;\n\t\t}\n\t}\n\tfiles[key].fileContentNodeId = fileContentNodeId\n\tfileContent = collectCodeNodesContent(fileContentNodeId, nodes, edges);\n\tfiles[key].fileContent = fileContent;\n}",
           "id": "indx1_173",
           "x": 67608,
-          "y": 28832,
+          "y": 32019,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1259,7 +1259,7 @@ var schemeData =
           "label": "for (var key in nodes) {\n\tif (nodes[key].label.startsWith(\"mvj code setup for project name: \" + projectName)) {\n\t\tsetupNodeId = key;\n\t}\n}",
           "id": "indx1_174",
           "x": 67638,
-          "y": 27203,
+          "y": 30390,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1295,7 +1295,7 @@ var schemeData =
           "label": "for (var keyE in edges) {\n   if (edges[keyE].from == setupNodeId && (typeof nodes[edges[keyE].to] !== \"undefined\")) {\n      var nodeId = edges[keyE].to;\n      if (nodes[nodeId].label.startsWith(\"projectPath\")) {\n         setup[\"projectPath\"] = nodes[nodeId].label.replace(\"projectPath: \", \"\");\n      }\n      if (nodes[nodeId].label.startsWith(\"backupPaths\")) {\n         setup[\"backupPaths\"] = nodes[nodeId].label.replace(\"backupPaths: \", \"\");\n         setup[\"backupPaths\"] = JSON.parse(setup[\"backupPaths\"]);\n      }\n      if (nodes[nodeId].label.startsWith(\"jsFilesLinksParam\")) {\n         setup[\"jsFilesLinksParam\"] = nodes[nodeId].label.replace(\"jsFilesLinksParam:\", \"\").trim();\n         setup[\"jsFilesLinksParam\"] = parseInt(setup[\"jsFilesLinksParam\"], 10);\n      }\n      if (nodes[nodeId].label.startsWith(\"readLocalUserConfig\")) {\n         setup[\"readLocalUserConfig\"] = nodes[nodeId].label.replace(\"readLocalUserConfig:\", \"\").trim();\n      }\n      if (nodes[nodeId].label.startsWith(\"runProjectCommand\")) {\n         setup[\"runProjectCommand\"] = nodes[nodeId].label.replace(\"runProjectCommand:\", \"\").trim();\n      }\n   }\n}",
           "id": "indx1_175",
           "x": 67688,
-          "y": 27412,
+          "y": 30599,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -1331,7 +1331,7 @@ var schemeData =
           "label": "var date = new Date();\nvar backupDirPath = rootBackupDirPath + projectName + \"_\" + date + \"/\";\nif (!fs.existsSync(backupDirPath)){\n   fs.mkdirSync(backupDirPath);\n}\n\nvar shell1 = require('child_process').execSync ; \nsetup[\"backupPaths\"].forEach(function(backupPath) {\n   console.log(\"backupPath: \" + backupPath);\n   var command = \"rsync -av \" +\n                 \"--exclude=.git \" +\n                 \"--exclude=news*.data.js* \" +\n                 \"--exclude=news*.data*.js \" +\n                 \"--exclude=newsDownloadedData \" + \n                 \"--exclude=2020.09.01_backup '\" + \n                 backupPath + \"' '\" + \n                 backupDirPath + \"'\";\n   console.log(command);\n   shell1(command);\n});\n\nvar projectPath = setup[\"projectPath\"];\nif (!fs.existsSync(projectPath)){\n   console.log(\"fs.mkdirSync(projectPath): \" +  projectPath);\n   //fs.mkdirSync(projectPath);\n   mkdirRecursiveSync(projectPath, pathDelimiter);\n}\n\nfor (var key in files) {\n   var filePath = projectPath + \"/\" + files[key].filePath;\n   var fileDirPath = filePath.split(pathDelimiter);\n   fileDirPath.pop();\n   fileDirPath = fileDirPath.join(pathDelimiter);\n   mkdirRecursiveSync(fileDirPath, pathDelimiter);\n   var fileContent = files[key].fileContent;\n   console.log(\"filePath: \" + filePath);\n   fs.writeFileSync(filePath, fileContent);\n}\n\nif (runProject == \"true\" && typeof setup[\"runProjectCommand\"] === \"undefined\") {\n   //\"runProjectResult:\" - delimiter. In mvj-serv.js output of mvj-code.js is separated by this delimiter.\n   //to return result of \"runProject\" operation\n   console.log(\"runProjectResult:\");\n   console.log(\"ERROR: typeof runProjectCommand === 'undefined'\");\n}\nif (runProject == \"true\" && typeof setup[\"runProjectCommand\"] !== \"undefined\" &&\n    setup[\"runProjectCommand\"] == \"\") {\n   console.log(\"runProjectResult:\");\n   console.log(\"ERROR: runProjectCommand == ''\");\n}\n\nvar shell2 = require('child_process').execSync;\n\nif (typeof setup[\"runProjectCommand\"] !== \"undefined\" &&\n    setup[\"runProjectCommand\"] != \"\" &&\n    runProject == \"true\") {\n   console.log(\"runProjectCommand: \" + setup[\"runProjectCommand\"]);\n   result = shell2(setup[\"runProjectCommand\"]).toString();\n   console.log(\"runProjectResult:\");\n   console.log(result);\n}",
           "id": "indx1_176",
           "x": 67681,
-          "y": 29362,
+          "y": 32549,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -1777,7 +1777,7 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditNodesMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar selectionRectangleDrag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar cancelEdgeEditVar = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastEditedEdgesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar edgeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news11.html\",\n   \"news2.html\",\n   \"news3.html\",\n   \"news4.html\",\n   \"news41.html\",\n   \"news5.html\",\n   \"news51.html\",\n   \"news52.html\",\n   \"news53.html\",\n   \"news6.html\",\n   \"news61.html\",\n   \"news7.html\",\n   \"youtube1.html\",\n   \"youtube2.html\",\n   \"youtube3.html\",\n   \"base.html\",\n   \"start_page.html\",\n   \"tmp.html\",\n   \"tmp1.html\",\n   \"nature.html\",\n   \"timelines.html\",\n   \"music1.html\",\n   \"music2.html\",\n   \"java.html\",\n   \"java-api.html\",\n   \"sa1.html\",\n   \"sa2.html\",\n   \"lisp.html\"\n];\nvar lastSelectedNodeId = null;\nvar lastSelectedEdgeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\nvar cursorNodeId = null;\nvar keyboardMoveSelectedEnabled = false;\nvar copiedNodeStyleColor = \"\";\nvar copiedNodeStyleFontSize = \"\";\nvar nextOperationMultiplier = \"\";\ndocument.alertCounter = 0;\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
+          "label": "//var canvasWidth = 1200;\n//var canvasHeight = 800;\n\nvar canvasWidthSetup = 100;\nvar canvasHeightSetup = 100;\nvar canvasWidth = window.innerWidth;\nvar canvasHeight = window.innerHeight;\nvar body = null\n\nvar showDataButton = null;\nvar schemeEditNodesMenu = null;\nvar schemeDataMenu = null;\nvar schemeDataTextArea = null;\n\nvar network = null;\nvar canvas;\nvar ctx;\nvar rect = {}\nvar selectionRectangleDrag = false;\nvar drawingSurfaceImageData;\nvar containerJQ = $(\"div#network\");\nvar doubleClickTimeThreshold = 300;\nvar doubleClick = false;\nvar loadSavedProjectToMenuButton;\nvar deleteSavedProjectButton;\nvar projectSaveNodeNamePrefix = \"projectSave_\";\nvar saveCanvasProjectDataLine = \"saveCanvasProjectData\";\nvar projectSaveIdLine = \"projectSaveId\";\nvar nodesToPaste = [];\nvar edgesToPaste = [];\nvar themeGraph = false;\nvar cancelNodeEdit = false;\nvar cancelEdgeEditVar = false;\nvar showCursorCoordinates = false;\nvar pathDelimiter = \"/\";\nvar lastEditedNodesIds = [];\nvar lastEditedEdgesIds = [];\nvar lastClickPosition = null;\nvar servUrl = \"https://localhost:3001/\";\nvar publicImgsPath = \"public/imgs/\";\nvar clipboard = {};\nvar viewsSaves = {};\nvar jumpNavigationData = null;\nvar dataCash = null;\nvar nodeLabelTextareaExpanded = false;\nvar edgeLabelTextareaExpanded = false;\nvar nodesDropDownMenuNodesIds = [];\nvar dontShowShemeDataMenuPagesList = [\n   \"news1.html\",\n   \"news11.html\",\n   \"news2.html\",\n   \"news3.html\",\n   \"news4.html\",\n   \"news41.html\",\n   \"news5.html\",\n   \"news51.html\",\n   \"news52.html\",\n   \"news53.html\",\n   \"news6.html\",\n   \"news61.html\",\n   \"news7.html\",\n   \"youtube1.html\",\n   \"youtube2.html\",\n   \"youtube3.html\",\n   \"base.html\",\n   \"start_page.html\",\n   \"tmp.html\",\n   \"tmp1.html\",\n   \"nature.html\",\n   \"timelines.html\",\n   \"music1.html\",\n   \"music2.html\",\n   \"java.html\",\n   \"java-api.html\",\n   \"sa1.html\",\n   \"sa2.html\",\n   \"lisp.html\"\n];\nvar lastSelectedNodeId = null;\nvar lastSelectedEdgeId = null;\nvar userConfData = generateCode1 return setup[\"userConfData\"]; generateCode2\nvar cursorNodeId = null;\nvar keyboardMoveSelectedEnabled = false;\nvar copiedNodeStyleColor = \"\";\nvar copiedNodeStyleFontSize = \"\";\nvar nextOperationMultiplier = \"\";\ndocument.alertCounter = 0;\nvar duplicateGraphPrefix = \"index-a_\";\n//Colors:\n//\"#ffc63b\"\n//\"#FFD570\" - lighter\n//\"#af55f4\" - goals and questions\n//\"DodgerBlue\" - blue\n///////////////////////////////////",
           "x": 38920,
           "y": -5938,
           "id": "indx1_189",
@@ -2064,7 +2064,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function draw() {\n\tdestroy();\n\t// create a network\n\tvar container = document.getElementById('network');\n\tvar container1 = document.getElementById('forImage');\n\n\t//Colors:\n\t//\"#ffc63b\"\n\t//\"#FFD570\"",
           "x": 40944,
-          "y": 15591,
+          "y": 18863,
           "id": "indx1_198"
         },
         "indx1_199": {
@@ -2095,7 +2095,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tvar options = {\n\t\theight: canvasHeightSetup + '%',\n\t\twidth: canvasWidthSetup + '%',\n\t\tlayout: {randomSeed:seed}, \n\t\tphysics: {enabled: false},\n\t\tedges: { \n\t\t\tsmooth: { \n\t\t\t\tenabled: false, \n\t\t\t\ttype: \"dynamic\", \n\t\t\t\troundness: 0.5 \n\t\t\t}, \n\t\t\tcolor: \"#404040\"\n\t\t},\n\t\tnodes: { \n\t\t\tshape: \"box\",\n\t\t\tcolor: {\n\t\t\t\tbackground: \"#ffd570\"\n\t\t\t},\n\t\t\tlabelHighlightBold: false,\n\t\t\tborderWidth: 0,\n                        font: {\n                           align: \"left\"\n                        }\n\t\t},\n\t\tautoResize: true,\n\t\tinteraction: {\n\t\t\tdragNodes: true,\n\t\t\tzoomView: true, \n\t\t\tdragView: true, \n\t\t\thover: false,\n\t\t\tmultiselect: true\n\t\t},\n\t\tmanipulation: {\n\t\t\taddNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tvar clickPosition = network.canvasToDOM({x: data.x, y: data.y});\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Add Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n\t\t\t\t//document.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('node-label').value = \"\";\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = clearPopUp.bind();\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n\t\t\t\tvar schemeDataMenuWidth = 0;\n\t\t\t\tif (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n\t\t\t\t\tschemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n\t\t\t\t} else {\n\t\t\t\t\tschemeDataMenuWidth = 0;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.x + 390) > (canvasWidth - schemeDataMenuWidth)) {\n\t\t\t\t\tclickPosition.x = clickPosition.x - 340;\n\t\t\t\t}\n\t\t\t\tif ((clickPosition.y + 240) > canvasHeight) {\n\t\t\t\t\tclickPosition.y = clickPosition.y - 260;\n\t\t\t\t}\n\t\t\t\tdocument.getElementById('network-popUp').style.top = (clickPosition.y + 20) + \"px\";\n\t\t\t\tdocument.getElementById('network-popUp').style.left = (clickPosition.x + 20) + \"px\";\n\t\t\t\t$(\"textarea#node-label\").focus();\n                                lastEditedNodesIds = [data.id];\n                                lastClickPosition = null;\n\t\t\t},\n\t\t\teditNode: function (data, callback) {\n\t\t\t\t// filling in the popup DOM elements\n\t\t\t\tdocument.getElementById('operation').innerHTML = \"Edit Node\";\n\t\t\t\tdocument.getElementById('node-id').value = data.id;\n                                if (typeof data.label === \"undefined\") data.label = \"\";\n\t\t\t\tdocument.getElementById('node-label').value = data.label;\n\t\t\t\tdocument.getElementById('saveButton').onclick = saveData.bind(this, data, callback);\n\t\t\t\tdocument.getElementById('cancelButton').onclick = cancelEdit.bind(this,callback);\n\t\t\t\tdocument.getElementById('network-popUp').style.display = 'block';\n                                $(\"#node-label\").focus();\n\t\t\t},\n\t\t\taddEdge: function (data, callback) {\n\t\t\t\tif (data.from == data.to) {\n\t\t\t\t\tvar r = confirm(\"Do you want to connect the node to itself?\");\n\t\t\t\t\tif (r == true) {\n\t\t\t\t\t\tcallback(data);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tcallback(data);\n\t\t\t\t}\n\t\t\t},\n                        editEdge: {\n                           editWithoutDrag: function(data, callback) {\n                              document.getElementById('edge-operation').innerHTML = \"Edit Edge\";\n                              editEdgeWithoutDrag(data,callback);\n                                var schemeDataMenuWidth = 0;\n                                if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n                                        schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n                                } else {\n                                        schemeDataMenuWidth = 0;\n                                }\n                                var positionX = (canvasWidth - schemeDataMenuWidth)/2;\n                                var positionY = (canvasHeight)/2;\n                                document.getElementById('edge-popUp').style.top = (positionY - 30) + \"px\";\n                                document.getElementById('edge-popUp').style.left = (positionX - 125) + \"px\";\n                                $(\"input#edge-label\").focus();\n\n                           }\n                        },\n\t\t\tdeleteNode: function (data, callback) {\n\t\t\t\tcallback(data);\n\t\t\t}\n\t\t}\n\t};",
           "x": 42037,
-          "y": 16550,
+          "y": 19822,
           "id": "indx1_199",
           "shape": "box",
           "link": "",
@@ -2126,7 +2126,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tvar options1 = {\n\t\theight: canvasHeightSetup + '%',\n\t\twidth: canvasWidthSetup + '%',\n\t\tlayout: {randomSeed:seed},\n\t\tphysics: {enabled: false},\n\t\tedges: { \n\t\t\tsmooth: { \n\t\t\t\tenabled: false, \n\t\t\t\ttype: \"dynamic\", \n\t\t\t\troundness: 0.5 \n\t\t\t}, \n\t\t\tcolor: \"#404040\"\n\t\t},\n\t\tnodes: { \n\t\t\tshape: \"box\",\n\t\t\tcolor: {\n\t\t\t\tbackground: \"#FFD570\"\n\t\t\t},\n\t\t\tlabelHighlightBold: false,\n\t\t\tborderWidth: 0\n\t\t},\n\t\tautoResize: true,\n\t\tinteraction: {\n\t\t\tdragNodes: true,\n\t\t\tzoomView: true, \n\t\t\tdragView: true  \n\t\t},\n\t\tmanipulation: {\n\t\t\tenabled: false\n\t\t}\n\t};",
           "x": 41705,
-          "y": 18473,
+          "y": 21745,
           "id": "indx1_200"
         },
         "indx1_201": {
@@ -2154,7 +2154,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork = new vis.Network(container, data, options);\n\tnetwork1 = new vis.Network(container1, data1, options1);\n\n\tnetwork.defaultOptions.labelHighlightBold = false;\n\tnetwork1.defaultOptions.labelHighlightBold = false;",
           "x": 40848,
-          "y": 18656,
+          "y": 21928,
           "id": "indx1_201"
         },
         "indx1_202": {
@@ -2182,7 +2182,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\t/*\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t\tnode = network.body.data.nodes.get(item.id);\n\t\t//node.labelHighlightBold = false;\n\t\tif (typeof node.color === \"undefined\") node.color = {};\n\t\tnode.color.background = \"#ffc63b\";\n\t\t//node.borderWidth = 0;\n\t\t//node.color = \"#404040\";\n\t\tnode = network.body.data.nodes.update(node);\n\t});\n\t*/",
           "x": 41787,
-          "y": 18787,
+          "y": 22059,
           "id": "indx1_202"
         },
         "indx1_203": {
@@ -2210,7 +2210,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.leftAlignNodes = function () {\n\t\tnetwork.manipulation.leftAlignNodes = function() {\n\t\t\t//var selectedNodesCount = this.selectionHandler._getSelectedNodeCount();\n\t\t\tvar nodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\talignNodesLeft(nodes);\n\n\t\t};\n\n\n\t\treturn network.manipulation.leftAlignNodes.apply(network.manipulation, arguments);\n\t};",
           "x": 41883,
-          "y": 18951,
+          "y": 22223,
           "id": "indx1_203"
         },
         "indx1_204": {
@@ -2238,7 +2238,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.createLeftAlignNodesButton = function () {\n\t\tnetwork.manipulation.createLeftAlignNodesButton = function() {\n\t\t\tvar leftAlignBtnClass;\n\n\t\t\tleftAlignBtnClass = 'vis-button vis-leftAlignBtn';\n\n\t\t\tvar button = this._createButton('leftAlignNodesButton', leftAlignBtnClass, \"leftAlignNodes\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.leftAlignNodes.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createLeftAlignNodesButton.apply(network.manipulation, arguments);\n\t};",
           "x": 41926,
-          "y": 19143,
+          "y": 22415,
           "id": "indx1_204"
         },
         "indx1_205": {
@@ -2266,7 +2266,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.createMakeJsonNodeFromSelectionButton = function () {\n\t\tnetwork.manipulation.createMakeJsonNodeFromSelectionButton = function() {\n\t\t\tvar makeJsonNodeFromSelectionNodesClass;\n\n\t\t\tmakeJsonNodeFromSelectionNodesClass = 'vis-button vis-makeJsonNodeFromSelectionNodesBtn';\n\n\t\t\tvar button = this._createButton('makeJsonNodeFromSelectionNodes', makeJsonNodeFromSelectionNodesClass, \"toJson\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.makeJsonNodeFromSelectionNodes.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createMakeJsonNodeFromSelectionButton.apply(network.manipulation, arguments);\n\t};",
           "x": 42009,
-          "y": 19363,
+          "y": 22635,
           "id": "indx1_205"
         },
         "indx1_206": {
@@ -2297,7 +2297,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.makeJsonNodeFromSelectionNodes = function () {\n\t\tnetwork.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes = function() {\n\t\t\tvar selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\tvar selectedEdges = objectToArray(this.selectionHandler.selectionObj.edges);\n\t\t\tvar nodes = []\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tnodes.push(getNodeFromNetworkDataById(node.id));\n\t\t\t});\n\t\t\tvar edges = []\n\t\t\tselectedEdges.forEach(function(edge) {\n\t\t\t\tedges.push(network.body.data.edges.get(edge.id));\n\t\t\t});\n\t\t\t//console.log(nodes);\n\t\t\t//console.log(edges);\n\n\t\t\tvar data = {\n\t\t\t\tnodes: [],\n\t\t\t\tedges: []\n\t\t\t};\n\n\t\t\tvar positions1 = network.getPositions();\n\t\t\tnodes1ToCopy = {}; \n\t\t\tnodes.forEach(function(item) {\n\t\t\t\tnodes1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tobjectToArray(positions1).forEach(function(position) {\n\t\t\t\t\tif (node.id == position.id) {\n\t\t\t\t\t\tnode.x = position.x;\n\t\t\t\t\t\tnode.y = position.y;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t});\n\t\t\tdata.nodes = nodes1ToCopy;\n\n\t\t\tvar edges1ToCopy = {}; \n\t\t\tedges.forEach(function(item) {\n\t\t\t\tedges1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.edges = edges1ToCopy;\n                        var ids = [];\n                        objectToArray(data.nodes).forEach(function(node) {ids.push(node.id);});\n                        objectToArray(data.edges).forEach(function(edge) {ids.push(edge.id);});\n                        console.log(ids);\n\t\t\tvar label = JSON.stringify(data, undefined, 1);\n\t\t\t//var label = JSON.stringify(data);\n\t\t\tvar screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n\t\t\tnetwork.body.data.nodes.add([{\n\t\t\t\tlabel:label,\n\t\t\t\tx:screenCenterPosition.x,\n\t\t\t\ty:screenCenterPosition.y\n\t\t\t}]);\n\t\t};\n\t\treturn network.manipulation.makeJsonNodeFromSelectionNodesleftAlignNodes.apply(network.manipulation, arguments);\n\t};",
           "x": 42011,
-          "y": 20058,
+          "y": 23330,
           "id": "indx1_206",
           "shape": "box",
           "link": "",
@@ -2328,7 +2328,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.createMakeNodesFromJsonNodeButton = function () {\n\t\tnetwork.manipulation.createMakeNodesFromJsonNodeButton = function() {\n\t\t\tvar makeNodesFromJsonNodeClass;\n\n\t\t\tmakeNodesFromJsonNodeClass = 'vis-button vis-makeNodesFromJsonNodeBtn';\n\n\t\t\tvar button = this._createButton('makeNodesFromJsonNode', makeNodesFromJsonNodeClass, \"fromJson\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.makeNodesFromJsonNode.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createMakeNodesFromJsonNodeButton.apply(network.manipulation, arguments);\n\t};",
           "x": 41958,
-          "y": 20735,
+          "y": 24007,
           "id": "indx1_207"
         },
         "indx1_208": {
@@ -2359,7 +2359,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.makeNodesFromJsonNode = function () {\n\t\tnetwork.manipulation.makeNodesFromJsonNode = function() {\n\t\t\tvar selectedNodes = objectToArray(this.selectionHandler.selectionObj.nodes);\n\t\t\tvar jsonNode = getNodeFromNetworkDataById(selectedNodes[0].id);\n\t\t\tvar label = jsonNode.label;\n\t\t\tvar data = JSON.parse(label);\n\t\t\tvar date = new Date();\n\t\t\tvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\t\t\tobjectToArray(data.nodes).forEach(function(node) {\n\t\t\t\tnode.id = node.id + idPostfix;\n\t\t\t\tnodesToPaste.push(node);\n\t\t\t\t//var newNode = network.nodesHandler.create(node);\n\t\t\t\t//network.body.data.nodes.add(newNode.options);\n\t\t\t});\n\t\t\tvar screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n\t\t\tnetwork.selectionHandler.unselectAll();\n\t\t\tnetwork.selectionHandler.updateSelection();\n\t\t\tobjectToArray(data.edges).forEach(function(edge) {\n\t\t\t\tedge.id = edge.id + idPostfix;\t\n\t\t\t\tedge.from = edge.from + idPostfix;\n\t\t\t\tedge.to = edge.to + idPostfix;\n\t\t\t\tedgesToPaste.push(edge);\n\t\t\t\t//var newEdge = network.edgesHandler.create(edge);\n\t\t\t\t//network.body.data.edges.add(newEdge.options);\n\t\t\t});\n\t\t};\n\t\treturn network.manipulation.makeNodesFromJsonNode.apply(network.manipulation, arguments);\n\t};",
           "x": 41918,
-          "y": 21083,
+          "y": 24355,
           "id": "indx1_208",
           "shape": "box",
           "link": "",
@@ -2390,7 +2390,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.createAddThemeGraphButton = function () {\n\t\tnetwork.manipulation.createAddThemeGraphButton = function() {\n\t\t\tvar addThemeGraphClass;\n\n\t\t\taddThemeGraphClass = 'vis-button vis-addThemeGraphBtn';\n\n\t\t\tvar button = this._createButton('addThemeGraph', addThemeGraphClass, \"addThemeGraph\");\n\n\t\t\tthis.manipulationDiv.appendChild(button);\n\n\t\t\tthis._bindHammerToDiv(button, network.addThemeGraph.bind(network.manipulation));\n\n\t\t};\n\t\treturn network.manipulation.createAddThemeGraphButton.apply(network.manipulation, arguments);\n\t};",
           "x": 41929,
-          "y": 21408,
+          "y": 24680,
           "id": "indx1_209"
         },
         "indx1_210": {
@@ -2421,7 +2421,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.addThemeGraph = function () {\n\t\tnetwork.manipulation.addThemeGraph = function() {\n\t\t\tthemeGraph = true;\n\t\t};\n\t\treturn network.manipulation.addThemeGraph.apply(network.manipulation, arguments);\n\t};\n\n  /**\n   * connect two nodes with a new edge.\n   *\n   * @param {Node.id} sourceNodeId\n   * @param {Node.id} targetNodeId\n   * @private\n   */\n  network.manipulation._performEditEdge = function(sourceNodeId, targetNodeId) {\n    let defaultData = {id: network.manipulation.edgeBeingEditedId, from: sourceNodeId, to: targetNodeId, label: network.body.data.edges.get(network.manipulation.edgeBeingEditedId).label };\n    let eeFunct = network.manipulation.options.editEdge;\n    if (typeof eeFunct === 'object') {\n      eeFunct = eeFunct.editWithoutDrag;\n    }\n    if (typeof eeFunct === 'function') {\n      if (eeFunct.length === 2) {\n        eeFunct(defaultData, (finalizedData) => {\n          if (finalizedData === null || finalizedData === undefined || network.manipulation.inMode !== 'editEdge') { // if for whatever reason the mode has changes (due to dataset change) disregard the callback) {\n            network.manipulation.body.edges[defaultData.id].updateEdgeType();\n            network.manipulation.body.emitter.emit('_redraw');\n            network.manipulation.showManipulatorToolbar();\n          } else {\n            var tmpNodeVar;\n            if (finalizedData.label == \"\") {\n               tmpNodeVar = true;\n               finalizedData.label = \" \";\n            }\n            network.manipulation.body.data.edges.getDataSet().update(finalizedData);\n            if (tmpNodeVar) finalizedData.label = \"\";\n            network.manipulation.body.data.edges.getDataSet().update(finalizedData);\n            network.manipulation.selectionHandler.unselectAll();\n            network.manipulation.showManipulatorToolbar();\n          }\n        });\n      } else {\n        throw new Error('The function for edit does not support two arguments (data, callback)');\n      }\n    } else {\n      network.manipulation.body.data.edges.getDataSet().update(defaultData);\n      network.manipulation.selectionHandler.unselectAll();\n      network.manipulation.showManipulatorToolbar();\n    }\n    network.edgesHandler.reconnectEdges();\n  }\n",
           "x": 41063,
-          "y": 22173,
+          "y": 25445,
           "id": "indx1_210",
           "shape": "box",
           "link": "",
@@ -2452,7 +2452,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.showManipulatorToolbar = function () {\n\t\tthis.manipulation.showManipulatorToolbar = function () {\n\t\t\t// restore the state of any bound functions or events, remove control nodes, restore physics\n\t\t\tthis._clean(); // reset global variables\n\n\t\t\tthis.manipulationDOM = {}; // if the gui is enabled, draw all elements.\n\n\t\t\tif (this.guiEnabled === true) {\n\t\t\t\t// a _restore will hide these menus\n\t\t\t\tthis.editMode = true;\n\t\t\t\tthis.manipulationDiv.style.display = 'block';\n\t\t\t\tthis.closeDiv.style.display = 'block';\n\n\t\t\t\tvar selectedNodeCount = this.selectionHandler._getSelectedNodeCount();\n\n\t\t\t\tvar selectedEdgeCount = this.selectionHandler._getSelectedEdgeCount();\n\n\t\t\t\tvar selectedTotalCount = selectedNodeCount + selectedEdgeCount;\n\t\t\t\tvar locale = this.options.locales[this.options.locale];\n\t\t\t\tvar needSeperator = false;\n\n\t\t\t\tif (this.options.addNode !== false) {\n\t\t\t\t\tthis._createAddNodeButton(locale);\n\t\t\t\t}\n\n\t\t\t\tif (this.options.addEdge !== false) {\n\t\t\t\t\tthis._createAddEdgeButton(locale);\n\t\t\t\t}\n\n\t\t\t\tif (selectedNodeCount === 1 && typeof this.options.editNode === 'function') {\n\t\t\t\t\tthis._createEditNodeButton(locale);\n\t\t\t\t} else if (selectedEdgeCount === 1 && selectedNodeCount === 0 && this.options.editEdge !== false) {\n\t\t\t\t\tthis._createEditEdgeButton(locale);\n\t\t\t\t} // remove buttons\n\n\n\t\t\t\tif (selectedTotalCount !== 0) {\n\t\t\t\t\tif (selectedNodeCount > 0 && this.options.deleteNode !== false) {\n\t\t\t\t\t\tthis._createDeleteButton(locale);\n\t\t\t\t\t} else if (selectedNodeCount === 0 && this.options.deleteEdge !== false) {\n\t\t\t\t\t\tthis._createDeleteButton(locale);\n\t\t\t\t\t}\n\t\t\t\t} // bind the close button\n\t\t\t\t\n\t\t\t\tif (selectedNodeCount > 0) {\n\t\t\t\t\tnetwork.createLeftAlignNodesButton();\n\t\t\t\t\tnetwork.createMakeJsonNodeFromSelectionButton();\n\t\t\t\t}\n\t\t\t\tif (selectedNodeCount == 1) {\n\t\t\t\t\tnetwork.createMakeNodesFromJsonNodeButton();\n\t\t\t\t}\n\t\t\t\tif (selectedNodeCount == 0) {\n\t\t\t\t\tnetwork.createAddThemeGraphButton();\n\t\t\t\t}\n\n\t\t\t\tthis._bindHammerToDiv(this.closeDiv, this.toggleEditMode.bind(this)); // refresh this bar based on what has been selected\n\n\n\t\t\t\tthis._temporaryBindEvent('select', this.showManipulatorToolbar.bind(this));\n\t\t\t} // redraw to show any possible changes\n\n\n\t\t\tthis.body.emitter.emit('_redraw');\n\t\t}\n\t\treturn this.manipulation.showManipulatorToolbar.apply(this.manipulation, arguments);\n\t};",
           "x": 42087,
-          "y": 23098,
+          "y": 26370,
           "id": "indx1_211"
         },
         "indx1_212": {
@@ -2483,7 +2483,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.showManipulatorToolbar();\n\n\tcanvas = network.canvas.frame.canvas;\n\tctx = canvas.getContext('2d');\n        \n        if (typeof schemeData.setup.goalNodeLabel !== \"undefined\" && \n            schemeData.setup.goalNodeLabel.length > 0 &&\n            typeof schemeData.setup.goalNodeFontSize !== \"undefined\" && \n            schemeData.setup.goalNodeFontSize.length > 0 &&\n            typeof schemeData.setup.goalNodeColor !== \"undefined\" && \n            schemeData.setup.goalNodeColor.length > 0) {\n            console.log(\"nodeLabel: \" + schemeData.setup.goalNodeLabel);\n            console.log(\"nodeFontSize: \" + schemeData.setup.goalNodeFontSize);\n            console.log(\"nodeColor: \" + schemeData.setup.goalNodeColor);\n            schemeData.setup.goalNodeLabel = unescape(schemeData.setup.goalNodeLabel);\n            schemeData.setup.goalNodeFontSize = parseInt(schemeData.setup.goalNodeFontSize,10);\n            var nodes = objectToArray(network.body.nodes);\n\n            var foundNodes = [];\n\n            for (var i=0; i < nodes.length; i++) {\n               var node = nodes[i];\n\n               if (typeof node.options === \"undefined\" || typeof node.options.label === \"undefined\") continue;\n               var nodeLabel = node.options.label;\n               nodeLabel = nodeLabel.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n               var gNLabel = schemeData.setup.goalNodeLabel.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n               var nodeFontSize;\n               var nodeColor;\n               if (typeof node.options.font !== \"undefined\" && \n                   typeof node.options.font.size !== \"undefined\") {\n                  nodeFontSize = parseInt(node.options.font.size,10);\n               } else {\n                  nodeFontSize = 14;\n               }\n               if (typeof node.options.color !== \"undefined\" && \n                   typeof node.options.color.background !== \"undefined\") {\n                  nodeColor = node.options.color.background;\n               } else {\n                  nodeColor = \"#ffd570\";\n               }\n\n               if (nodeLabel == gNLabel &&\n                   nodeFontSize == schemeData.setup.goalNodeFontSize &&\n                   nodeColor == schemeData.setup.goalNodeColor) {\n                  foundNodes.push(node);\n               }\n            }\n      \n            if (foundNodes.length == 0) {\n               showAlert(\"No nodes with this options\", 60, 190);\n               console.log(\"No nodes with this options\");\n            }\n            if (foundNodes.length > 1) {\n               showAlert(\"There are more than one node with this options. Using first.\", 60, 190);\n               console.log(\"There are more than one node with this options. Using first.\");\n            }\n            if (foundNodes.length > 0) {\n               schemeData.setup.scale = 0.2;\n               schemeData.setup.viewPosition.x = foundNodes[0].x;\n               schemeData.setup.viewPosition.y = foundNodes[0].y;\n               console.log(schemeData.setup);\n            }\n        }\n\n\tvar setup = schemeData.setup;\n        \n\tvar positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));\n\tvar positionY = parseFloat((setup.viewPosition.y - canvasHeight/(2*setup.scale)).toFixed(5));\n",
           "x": 41099,
-          "y": 24101,
+          "y": 27373,
           "id": "indx1_212",
           "shape": "box",
           "link": "",
@@ -2514,7 +2514,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\n\tnetwork1.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});",
           "x": 41817,
-          "y": 24764,
+          "y": 28036,
           "id": "indx1_213"
         },
         "indx1_214": {
@@ -2542,7 +2542,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.on('click', function(e) {\n\t\t onClick(e)\n\t});\n\n\tnetwork.on('doubleClick', function(e) {\n\t\tonDoubleClick(e)\n\t});",
           "x": 40832,
-          "y": 24961,
+          "y": 28233,
           "id": "indx1_214"
         },
         "indx1_215": {
@@ -2570,7 +2570,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tfunction onClick(e) {\n\t  setTimeout(function () {\n\t    if (doubleClick == false) {\n\t      doOnClick(e);\n\t    }\n\t    else {doubleClick = false;}\n\t},doubleClickTimeThreshold);\n\t}",
           "x": 41745,
-          "y": 25136,
+          "y": 28408,
           "id": "indx1_215"
         },
         "indx1_216": {
@@ -2601,7 +2601,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function doOnClick(e) {\n   if (nodesToPaste.length > 0) {\n      //console.log(e.event.srcEvent);\n      var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y})\n      var topLeftNodeX = nodesToPaste[0].x;\n      var topLeftNodeY = nodesToPaste[0].y;\n      for(var i=0; i<nodesToPaste.length; i++) {\n         var node = nodesToPaste[i];\n         if (node.x < topLeftNodeX && node.y < topLeftNodeY) {\n            topLeftNodeX = node.x;\n            topLeftNodeY = node.y;\n         }\n      }\n      for(var i=0; i<nodesToPaste.length; i++) {\n         var node = nodesToPaste[i];\n         var shiftX = - topLeftNodeX + parseFloat((position.x).toFixed(5));\n         var shiftY = - topLeftNodeY + parseFloat((position.y).toFixed(5));\n         node.x = node.x + shiftX;\n         node.y = node.y + shiftY;\n         console.log(i + \". \" + String(nodesToPaste.length) + \". \" + node.id)\n         var newNode = network.nodesHandler.create(node);\n         network.body.data.nodes.add(newNode.options);\n      }\n      for(var i=0; i<edgesToPaste.length; i++) {\n         var edge = edgesToPaste[i];\n         var newEdge = network.edgesHandler.create(edge);\n         console.log(i + \". \" + String(edgesToPaste.length) + \". \" + edge.id)\n         network.body.data.edges.add(newEdge.options);\n      }\n      nodesToPaste = [];\n      edgesToPaste = [];\n   }",
           "x": 41943,
-          "y": 25453,
+          "y": 28725,
           "id": "indx1_216",
           "shape": "box",
           "link": "",
@@ -2635,7 +2635,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "      if (themeGraph) {\n         var position = network.canvas.DOMtoCanvas({x:e.event.srcEvent.x,y:e.event.srcEvent.y});\n         buildThemeGraph(\"New Theme Name\", position.x, position.y);\n         themeGraph = false;\n      }\n   }",
           "x": 41949,
-          "y": 25744,
+          "y": 29016,
           "id": "indx1_217",
           "shape": "box",
           "link": "",
@@ -2666,7 +2666,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tfunction onDoubleClick(e) {\n\t\tif (e.event.srcEvent.ctrlKey) {\n\t\t\tnetwork.addEdgeMode();\n\t\t} else {\n\t\t\tnetwork.addNodeMode();\n\t\t}\n\t}",
           "x": 41742,
-          "y": 25867,
+          "y": 29139,
           "id": "indx1_218"
         },
         "indx1_219": {
@@ -2697,7 +2697,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\t$(\"div#network-popUp\").keydown(function (event) {\n\t\t//Click \"Save\" in \"Add node\" form. ctrl+Enter\n\t\tif (event.ctrlKey && event.keyCode === 13) {\n\t\t\t$(\"#saveButton\").click();\n\t\t}\n\t});",
           "x": 41996,
-          "y": 102946,
+          "y": 106218,
           "id": "indx1_219",
           "shape": "box",
           "link": "",
@@ -2731,7 +2731,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#network-popUp\").keydown(function (event) {\n      //Cancel node edit. Esc  //ToFix\n      if (event.keyCode === 27) {\n         $(\"input#cancelButton\").click();\n         cancelNodeEdit = true;\n         cancelEdgeEditVar = true;\n         $(\"#network div.vis-network canvas\").focus();\n      }\n   });",
           "x": 41995,
-          "y": 103084,
+          "y": 106356,
           "id": "indx1_220",
           "shape": "box",
           "link": "",
@@ -2765,7 +2765,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   //TODO. Not working now.\n   $(document).keydown(function (event) {\n      //Cancel node edit. Esc\n      if (event.keyCode === 27) {\n         if (document.getElementById('network-popUp').style.display == \"none\" && \n             cancelNodeEdit == false && \n             cancelEdgeEditVar == false &&\n             $(\"div#searchMenu\").length == 0) {\n            network.disableEditMode();\n            network.editNode();\n         } else {\n            cancelNodeEdit = false;\n            cancelEdgeEditVar = false;\n         }\n      }\n   });",
           "x": 42085,
-          "y": 104546,
+          "y": 107818,
           "id": "indx1_221",
           "shape": "box",
           "link": "",
@@ -2799,7 +2799,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keydown(function (event) {\n      //Connect nodes. ctrl+alt+c.\n      if (event.ctrlKey == true && \n          event.altKey == true &&\n          event.shiftKey == false &&\n          event.keyCode === 67) {\n         var selectedNodesCount = network.selectionHandler._getSelectedNodeCount();\n         if (selectedNodesCount < 2) return;\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         var rootNodeId;\n         var minLeft;\n         for (i = 0; i < selectedNodesCount; i++) {\n            if (i == 0) {\n               minLeft = nodes[0].x;\n               rootNodeId = nodes[0].id;\n            }\n            if (minLeft > nodes[i].x) {\n               minLeft = nodes[i].x;\n               rootNodeId = nodes[i].id;\n            };\n         }\n         var index = 0;\n         for (i = 0; i < selectedNodesCount; i++) {\n            if (nodes[i].id != rootNodeId) {\n               var edgeData = {from: rootNodeId, to: nodes[i].id};\n               network.body.data.edges.getDataSet().add(edgeData);\n               console.log(\"Connect nodes: \" + String(index) + \", \" + String(Number(selectedNodesCount)-Number(1)));\n               index += 1;\n            }\n         }\n         network.selectionHandler.unselectAll();\n      }\n   });",
           "x": 42192,
-          "y": 105171,
+          "y": 108443,
           "id": "indx1_222",
           "shape": "box",
           "link": "",
@@ -2833,7 +2833,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tcontainerJQ.on(\"mousemove\", function(e) {\n\t\tif (selectionRectangleDrag) { \n\t\t\trestoreDrawingSurface();\n\t\t\trect.w = (e.pageX - this.offsetLeft) - rect.startX;\n\t\t\trect.h = (e.pageY - this.offsetTop) - rect.startY ;\n\n\t\t\t//ctx.setLineDash([5]);\n\t\t\tctx.lineWidth = 1;\n\t\t\tctx.strokeStyle = \"gray\";\n\t\t\tctx.strokeRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t\tctx.setLineDash([]);\n\t\t\tctx.fillStyle = \"rgba(255, 255, 255, 0)\";\n\t\t\tctx.fillRect(rect.startX, rect.startY, rect.w, rect.h);\n\t\t}\n\t});",
           "x": 40744,
-          "y": 26035,
+          "y": 29307,
           "id": "indx1_223",
           "shape": "box",
           "link": "",
@@ -2867,7 +2867,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   containerJQ.on(\"mousedown\", function(e) {\n      lastClickPosition = {x: e.pageX, y: e.pageY};\n      runNodeMenuItems(e);\n      nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n         network.body.data.nodes.remove(nodeId);\n      });     \n      nodesDropDownMenuNodesIds = [];    \n      if (e.button == 2) { \n         selectedNodes = e.ctrlKey ? network.getSelectedNodes() : null;\n         saveDrawingSurface();\n         var that = this;\n         rect.startX = e.pageX - this.offsetLeft;\n         rect.startY = e.pageY - this.offsetTop;\n         selectionRectangleDrag = true;\n         containerJQ[0].style.cursor = \"crosshair\";\n      }\n   }); ",
           "x": 41669,
-          "y": 27004,
+          "y": 30276,
           "id": "indx1_224",
           "shape": "box",
           "link": "",
@@ -2901,7 +2901,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   containerJQ.on(\"mouseup\", function(e) {\n      if (e.button == 2) { \n         restoreDrawingSurface();\n         selectionRectangleDrag = false;\n      \n         containerJQ[0].style.cursor = \"default\";\n      \n         if (rect.startX == (e.pageX - this.offsetLeft) &&\n            rect.startY == (e.pageY - this.offsetTop)) {\n            var pointer = {x: e.pageX, y: e.pageY};\n            var clickedNode = network.selectionHandler.getNodeAt(pointer);\n            var clickedNodeIsMenu = getNodeFromNetworkDataById(clickedNode.id).menuNode;\n            var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n            if (typeof clickedNode !== \"undefined\" &&\n                (typeof clickedNodeIsMenu === \"undefined\") &&\n                selectedNodes.length <= 1) {\n               var menuLines = makeNodeDropDownMenuLines(clickedNode.id);\n               if (menuLines.length == 0) return;\n               var menuLabel = menuLines.join(\"\\n\");\n               var scale = network.getScale();\n               var nodeId = network.body.data.nodes.add([{\n                  label: menuLabel,\n                  font: {size: 14/scale},\n                  x: clickedNode.x + clickedNode.shape.width/2,\n                  y: clickedNode.y + clickedNode.shape.height/2,\n                  menuNode: true,\n                  menuRootNodeId: clickedNode.id\n               }]);\n               var node = network.body.nodes[nodeId];\n               if (typeof node !== \"undefined\" && node !== null) {\n                  network.nodesHandler.moveNode(\n                     node.id, \n                     node.x + node.shape.width/2, \n                     node.y + node.shape.height/2);\n               }\n               nodesDropDownMenuNodesIds.push(node.id);\n               return;\n            }\n         }\n      \n         selectNodesFromHighlight();\n         network.showManipulatorToolbar();\n      }\n   });",
           "x": 41746,
-          "y": 27901,
+          "y": 31173,
           "id": "indx1_225",
           "shape": "box",
           "link": "",
@@ -2935,7 +2935,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   network.on('selectNode', function (properties) {\n      schemeEditEdgesMenu.hide();\n      schemeEditNodesMenu.show();\n      var nodeIdInput = $(\"input#nodeIdInput\");\n      var nodeLabelTextarea = $(\"textarea#nodeLabelTextarea\");\n      var nodeXInput = $(\"#nodeXInput\");\n      var nodeYInput = $(\"#nodeYInput\");\n      var nodeShapeInput = $(\"#nodeShapeInput\");\n      var nodeLinkTextarea = $(\"textarea#nodeLinkTextarea\");\n      var nodeFontSizeInput = $(\"input#nodeFontSizeInput\");\n      var nodeFontAlignInput = $(\"input#nodeFontAlignInput\");\n      var nodeColorInput = $(\"input#nodeColorInput\");\n      var nodeBorderWidthInput = $(\"input#nodeBorderWidthInput\");\n      var nodeBorderColorInput = $(\"input#nodeBorderColorInput\");\n\n      var nodeD = getNodeFromNetworkDataById(properties.nodes[0]);\n      lastSelectedNodeId = nodeD.id;\n\n      nodeIdInput.val(nodeD.id);\n      nodeLabelTextarea.val(nodeD.label);\n      pNode = network.getPositions()[nodeD.id];\n      nodeXInput.text(String(pNode.x));\n      nodeYInput.text(String(pNode.y));\n      if (typeof nodeD.shape !== \"undefined\" && nodeD.shape.length > 0) {\n         $('#nodeShapeInput option[value=\"' + nodeD.shape + '\"]').attr(\"selected\", \"selected\");\n      } else {\n         $('#nodeShapeInput option[value=\"box\"]').attr(\"selected\", \"selected\");\n      }\n      if (typeof nodeD.link !== \"undefined\" && nodeD.link.length > 0) {\n         nodeLinkTextarea.val(nodeD.link);\n      } else {\n         nodeLinkTextarea.val(\"\");\n      }\n      if (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.size !== \"undefined\") {\n         nodeFontSizeInput.val(nodeD.font.size);\n      } else {\n         nodeFontSizeInput.val(14);\n         nodeD.font = {size: 14};\n      }\n      if (typeof nodeD.font !== \"undefined\" && typeof nodeD.font.align !== \"undefined\") {\n         nodeFontAlignInput.val(nodeD.font.align);\n      } else {\n         nodeFontAlignInput.val(\"left\");\n         nodeD.font = {align: \"left\"};\n      }\n      if (typeof nodeD.color !== \"undefined\" && typeof nodeD.color.background !== \"undefined\") {\n         nodeColorInput.val(nodeD.color.background);\n      } else {\n         nodeD.color = {background: \"\", border: \"\"};\n      }\n      if (typeof nodeD.borderWidth !== \"undefined\" && nodeD.borderWidth.length > 0) {\n         nodeBorderWidthInput.val(nodeD.borderWidth);\n      }\n      if (typeof nodeD.color !== \"undefined\" && nodeD.color.length > 0) {\n         nodeBorderColorInput.val(nodeD.color.border);\n      }\n      if (nodeD.label.search(new RegExp(projectSaveNodeNamePrefix + \".*\")) >= 0) {\n         loadSavedProjectToMenuButton.show();\n         loadSavedProjectToMenuButton.saveProjectLabel = nodeD.label;\n         deleteSavedProjectButton.show();\n         deleteSavedProjectButton.saveProjectLabel = nodeD.label;\n      } else {\n         loadSavedProjectToMenuButton.hide();\n         deleteSavedProjectButton.hide();\n      }\n   });",
           "x": 41743,
-          "y": 28790,
+          "y": 32062,
           "id": "indx1_226",
           "shape": "box",
           "link": "",
@@ -2966,7 +2966,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.on('resize', function(properties) {\n\t\tcanvasWidth = properties.width;\n\t\tcanvasHeight = properties.height;\n\t});",
           "x": 41583,
-          "y": 29793,
+          "y": 33065,
           "id": "indx1_227"
         },
         "indx1_228": {
@@ -2997,7 +2997,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.on('deselectNode', function (properties) {\n\t\tschemeEditNodesMenu.hide();\n\t\t$(\".vis-separator-line\").remove();\n\t\t$(\".vis-close\").remove();\n\t});",
           "x": 41610,
-          "y": 32372,
+          "y": 35644,
           "id": "indx1_228",
           "shape": "box",
           "link": "",
@@ -3031,7 +3031,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.on('deselectEdge', function (properties) {\n\t\tschemeEditEdgesMenu.hide();\n\t\t$(\".vis-separator-line\").remove();\n\t\t$(\".vis-close\").remove();\n\t});\n\tnetwork.on(\"hoverNode\", function(params) {\n\t});\n\n\tnetwork.on(\"blurNode\", function(params) {\n\t});",
           "x": 41609,
-          "y": 32234,
+          "y": 35506,
           "id": "indx1_229",
           "shape": "box",
           "link": "",
@@ -3062,7 +3062,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tvar lastPositionX = \"a\";\n\tvar startN1X = null;\n\tvar startN1Y = null;\n\tvar startN2X = null;\n\tvar startN2Y = null;\n\tnetwork.on(\"release\", function(event) {\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\t//От окончательного положения драга отнимаем начальное положение\n\t\tvar diffN1X = parseFloat((n1X-startN1X).toFixed(5));\n\t\tvar diffN1Y = parseFloat((n1Y-startN1Y).toFixed(5));\n\t\t//Прибавляем к начальному положению нижней network дифф из предыдущег подсчета.\n\t\t//Чтобы сдвинуть нижний network на тот же шаг\n\t\tvar lastN2X = parseFloat((startN2X+diffN1X).toFixed(5));\n\t\tvar lastN2Y = parseFloat((startN2Y+diffN1Y).toFixed(5));\n\t\tvar network1Scale = network1.getScale();\n\t\tvar positionX = parseFloat((lastN2X - canvasWidth/(2*network1Scale)).toFixed(5));\n\t\tvar positionY = parseFloat((lastN2Y - canvasHeight/(2*network1Scale)).toFixed(5));\n\t\tnetwork1.moveTo({\n\t\t\tposition: {x:positionX, y:positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: network1Scale,\n\t\t});\n\t});",
           "x": 40921,
-          "y": 32639,
+          "y": 35911,
           "id": "indx1_230"
         },
         "indx1_231": {
@@ -3090,7 +3090,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tnetwork.on(\"dragging\", function(event) {\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\tvar n2X = parseFloat(network1.getViewPosition().x.toFixed(5));\n\t\tvar n2Y = parseFloat(network1.getViewPosition().y.toFixed(5));\n\t\tif ($.type(startN1X) == \"null\") {startN1X = n1X;}\n\t\tif ($.type(startN1Y) == \"null\") {startN1Y = n1Y;}\n\t\tif ($.type(startN2X) == \"null\") {startN2X = n2X;}\n\t\tif ($.type(startN2Y) == \"null\") {startN2Y = n2Y;}\n\t\tif (n1X != n2X && n1Y != n2Y) {\n\t\t\tvar eventCenterX = event.event.center.x;\n\t\t\tvar eventCenterY = event.event.center.y;\n\t\t\tvar network1Scale = network1.getScale();\n\t\t\t//var positionX = parseFloat((lastN2X - canvasWidth/(2*network1Scale)).toFixed(5));\n\t\t\t//var positionY = parseFloat((lastN2Y - canvasHeight/(2*network1Scale)).toFixed(5));\n\t\t\tvar positionX = (n1X - n2X) - (network1.body.view.translation.x*(1/network1Scale));\n\t\t\tvar positionY = (n1Y - n2Y) - (network1.body.view.translation.y*(1/network1Scale));\n\t\t\tnetwork1.moveTo({\n\t\t\t\tposition: {x:positionX, y:positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: network1Scale,\n\t\t\t});\n\t\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\t\tvar n2X = parseFloat(network1.getViewPosition().x.toFixed(5));\n\t\t\tvar n2Y = parseFloat(network1.getViewPosition().y.toFixed(5));\n\t\t\tlastPositionX = positionX;\n\t\t} else {\n\t\t}\n\t});",
           "x": 41765,
-          "y": 33096,
+          "y": 36368,
           "id": "indx1_231"
         },
         "indx1_232": {
@@ -3121,7 +3121,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   network.on(\"zoom\", function(event) {\n      nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n         network.body.data.nodes.remove(nodeId);\n      });\n      nodesDropDownMenuNodesIds = [];\n\n\t\tvar scale = network.getScale();\n         if (cursorNodeId != null) {\n                node = network.body.data.nodes.get(cursorNodeId);\n                node.font.size = 5/scale;\n                node = network.body.data.nodes.update(node);\n         }\n\t\tvar n1X = parseFloat(network.getViewPosition().x.toFixed(5));\n\t\tvar n1Y = parseFloat(network.getViewPosition().y.toFixed(5));\n\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*event.scale)).toFixed(5));\n\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*event.scale)).toFixed(5));\n\t\t//var positionX = parseFloat((event.pointer.x).toFixed(5));\n\t\t//var positionY = parseFloat((event.pointer.y).toFixed(5));\n\t\tnetwork.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t\tnetwork1.moveTo({\n\t\t\tposition: {x: positionX, y: positionY},\n\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\tscale: event.scale,\n\t\t});\n\t});",
           "x": 41737,
-          "y": 33529,
+          "y": 36801,
           "id": "indx1_232",
           "shape": "box",
           "link": "",
@@ -3155,7 +3155,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\t//network.editNode();\n\t$(\".vis-separator-line\").remove();\n\t$(\".vis-close\").remove();\n}\n//End of draw function",
           "x": 41595,
-          "y": 33956,
+          "y": 37228,
           "id": "indx1_233",
           "shape": "box",
           "link": "",
@@ -3189,7 +3189,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function updateSchemeFromMenu(newNodes, newEdges) {\n\tvar schemeDataJsonFromMenu = $(\"textarea#schemeDataTextArea\").val();\n\tvar schemeData = JSON.parse(schemeDataJsonFromMenu);\n        var nodesData = objectToArray(schemeData.canvas1Data.nodes._data);\n        nodesData = nodesData.concat(newNodes);\n\tvar nodes = new vis.DataSet(nodesData);\n        var edgesData = objectToArray(schemeData.canvas1Data.edges._data);\n        edgesData = edgesData.concat(newEdges);\n\tvar edges = new vis.DataSet(edgesData);\n\tvar nodes1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.nodes._data));\n\tvar edges1 = new vis.DataSet(objectToArray(schemeData.canvas2Data.edges._data));\n\tdata = {\n\t\tnodes: nodes,\n\t\tedges: edges\n\t};\n\tdata1 = {\n\t\tnodes: nodes1,\n\t\tedges: edges1\n\t};\n        dataCash = schemeData.dataCash;\n\tdraw();\n\tvar setup = schemeData.setup;\n\tvar positionX = parseFloat((setup.viewPosition.x - canvasWidth/(2*setup.scale)).toFixed(5));\n\tvar positionY = parseFloat((setup.viewPosition.y - canvasHeight/(2*setup.scale)).toFixed(5));\n\tnetwork.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\tnetwork1.moveTo({\n\t\tposition: {x:positionX, y:positionY},\n\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\tscale: setup.scale,\n\t});\n\tconsole.log(\"Scheme updated\");\n}",
           "x": 40053,
-          "y": 34333,
+          "y": 37605,
           "id": "indx1_234",
           "shape": "box",
           "link": "",
@@ -3223,7 +3223,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function updateMenuFromScheme(removeNodesIds, removeEdgesIds) {\n\tvar scale = network.getScale();\n\tvar viewPosition = network.getViewPosition();\n\tvar data = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar data1 = {\n\t\tnodes: new vis.DataSet([]),\n\t\tedges: new vis.DataSet([])\n\t};\n\tvar schemeData = {\n\t\tcanvas1Data: data,\n\t\tcanvas2Data: data1,\n                dataCash: dataCash,\n\t\tsetup: {\n\t\t\tscale: scale,\n\t\t\tviewPosition: viewPosition\n\t\t}\n\t};\n\tvar positions1 = network.getPositions();\n\tvar positions2 = network1.getPositions();\n\tnodes1ToSave = {}; \n\tnetwork.body.data.nodes.get().forEach(function(item) {\n                if (removeNodesIds.indexOf(item.id) == -1 &&\n                    item.id != cursorNodeId) {\n\t\t   nodes1ToSave[item.id.toString()] = item;\n                }\n\t});\n\tobjectToArray(positions1).forEach(function(position) {\n                if (removeNodesIds.indexOf(position.id) == -1 &&\n                    position.id != cursorNodeId) {\n\t\t   var node = nodes1ToSave[position.id.toString()];\n\t\t   node.x = position.x;\n\t\t   node.y = position.y;\n                }\n\t});\n\tschemeData.canvas1Data.nodes._data = nodes1ToSave;\n\tvar edges1ToSave = {}; \n\tnetwork.body.data.edges.get().forEach(function(item) {\n                if (removeEdgesIds.indexOf(item.id) == -1) {\n\t\t   edges1ToSave[item.id.toString()] = item;\n                }\n\t});\n\tschemeData.canvas1Data.edges._data = edges1ToSave;\n\tvar nodes2ToSave = {}; \n\tnetwork1.body.data.nodes.get().forEach(function(item) {\n\t\tnodes2ToSave[item.id.toString()] = item;\n\t});\n\tobjectToArray(positions2).forEach(function(position) {\n\t\tvar node = nodes2ToSave[position.id.toString()];\n\t\tnode.x = position.x;\n\t\tnode.y = position.y;\n\t});\n\tschemeData.canvas2Data.nodes._data = nodes2ToSave;\n\tvar edges2ToSave = {}; \n\tnetwork1.body.data.edges.get().forEach(function(item) {\n\t\tedges2ToSave[item.id.toString()] = item;\n\t});\n\tschemeData.canvas2Data.edges._data = edges2ToSave;\n\tvar schemeDataJson = JSON.stringify(schemeData, undefined, 2);\n\t$(\"textarea#schemeDataTextArea\").val(schemeDataJson);\n}",
           "x": 41130,
-          "y": 35052,
+          "y": 38324,
           "id": "indx1_235",
           "shape": "box",
           "link": "",
@@ -3257,7 +3257,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function clearPopUp() {\n\tdocument.getElementById('saveButton').onclick = null;\n\tdocument.getElementById('cancelButton').onclick = null;\n\tdocument.getElementById('network-popUp').style.display = 'none';\n        network.selectionHandler.unselectAll();\n        $(\"#network div.vis-network\").focus();\n}",
           "x": 41132,
-          "y": 35754,
+          "y": 39026,
           "id": "indx1_236",
           "shape": "box",
           "link": "",
@@ -3288,7 +3288,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function cancelEdit(callback) {\n\tclearPopUp();\n\tcallback(null);\n}",
           "x": 41015,
-          "y": 35867,
+          "y": 39139,
           "id": "indx1_237"
         },
         "indx1_238": {
@@ -3319,7 +3319,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function saveData(data,callback) {\n\tdata.id = document.getElementById('node-id').value;\n\tdata.label = document.getElementById('node-label').value;\n\tclearPopUp();\n        if (data.label.split(\"\\n\").length > 1) {\n           var labelHeightShift = 14*data.label.split(\"\\n\").length/2 - 7;\n           lastEditedNodesIds.forEach(function(nodeId) {\n              var nodeD = getNodeFromNetworkDataById(nodeId);\n              if (typeof nodeD !== \"undefined\" && nodeD !== null) {\n                 var pNode = network.getPositions()[nodeId];\n                 nodeD.x = pNode.x;\n                 nodeD.y = pNode.y - labelHeightShift;\n                 network.nodesHandler.moveNode(nodeD.id, nodeD.x, nodeD.y);\n              }\n           });\n        }\n   if (data.label.lastIndexOf(\"http\", 0) === 0) {\n      data.link = data.label.trim();\n   }\n   callback(data);\n}",
           "x": 41156,
-          "y": 36077,
+          "y": 39349,
           "id": "indx1_238",
           "shape": "box",
           "link": "",
@@ -3353,7 +3353,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function init() {\n\tdraw();\n}",
           "x": 39976,
-          "y": 36375,
+          "y": 39647,
           "id": "indx1_239",
           "shape": "box",
           "link": "",
@@ -3387,7 +3387,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function selectNodesFromHighlight() {\n    var fromX, toX, fromY, toY;\n    var nodesIdInDrawing = [];\n    var xRange = getStartToEnd(rect.startX, rect.w);\n    var yRange = getStartToEnd(rect.startY, rect.h);\n\n    var allNodes = network.body.data.nodes.get();\n    for (var i = 0; i < allNodes.length; i++) {\n        var curNode = allNodes[i];\n        var nodePosition = network.getPositions([curNode.id]);\n        var nodeXY = network.canvasToDOM({x: nodePosition[curNode.id].x, y: nodePosition[curNode.id].y});\n        if (xRange.start <= nodeXY.x && nodeXY.x <= xRange.end && yRange.start <= nodeXY.y && nodeXY.y <= yRange.end) {\n            nodesIdInDrawing.push(curNode.id);\n        }\n    }\n    network.selectNodes(nodesIdInDrawing);\n}",
           "x": 41264,
-          "y": 36971,
+          "y": 40243,
           "id": "indx1_240",
           "shape": "box",
           "link": "",
@@ -3418,7 +3418,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function getStartToEnd(start, theLen) {\n    return theLen > 0 ? {start: start, end: start + theLen} : {start: start + theLen, end: start};\n}",
           "x": 41141,
-          "y": 37253,
+          "y": 40525,
           "id": "indx1_241"
         },
         "indx1_242": {
@@ -3446,7 +3446,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function getNodesByRegexSearchInLabel(network, regex) {\n\tvar nodes = network.body.data.nodes.get();\n\tvar foundNodes = []\n\tfor (var n = 0; n < nodes.length; n++) {\n\t\tif ((typeof nodes[n].label !== \"undefined\") && (nodes[n].label.search(regex) >= 0)) { \n\t\t\tfoundNodes.push(nodes[n]);\n\t\t}\n\t};\n\treturn foundNodes;\n}",
           "x": 41129,
-          "y": 37454,
+          "y": 40726,
           "id": "indx1_242"
         },
         "indx1_243": {
@@ -3474,7 +3474,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function updateNodePositionData(network, node) {\n\tvar nodesPositions = objectToArray(network.getPositions());\n\tfor (var n = 0; n < nodesPositions.length; n++) {\n\t\tif (nodesPositions[n].id == node.id) { \n\t\t\tnode.x = nodesPositions[n].x;\n\t\t\tnode.y = nodesPositions[n].y;\n\t\t}\n\t};\n}",
           "x": 41059,
-          "y": 37732,
+          "y": 41004,
           "id": "indx1_243"
         },
         "indx1_244": {
@@ -3502,7 +3502,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function makeSaveProjectToBrowserNode(label, positionX, positionY) {\n\tnetwork.body.data.nodes.add([{\n\t\tlabel:label,\n\t\tx:positionX,\n\t\ty:positionY\n\t}]);\n}",
           "x": 39941,
-          "y": 37998,
+          "y": 41270,
           "id": "indx1_244"
         },
         "indx1_245": {
@@ -3530,7 +3530,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function findProjectSavesKeys() {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn [];\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\tvar saveNameRegex = new RegExp(projectSaveNodeNamePrefix + projectSaveId + \"_.*\");\n\tvar storageItemsSize = localStorage.length;\n\tvar keys = [];\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar storageKey = localStorage.key(i);\n\t\tif (storageKey.search(saveNameRegex) >= 0) {\n\t\t\tkeys.push(localStorage.key(i));\n\t\t}\n\t}\n\treturn keys;\n}",
           "x": 41242,
-          "y": 38526,
+          "y": 41798,
           "id": "indx1_245"
         },
         "indx1_246": {
@@ -3558,7 +3558,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function deleteNodesIfTheyAreProjectSaves(network, nodes) {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn;\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\tobjectToArray(data.nodes).forEach(function(nodeId) {\n\t\tvar node = getNodeById(network.body.data.nodes.get(), nodeId);\n\t\tif (node.label.search(new RegExp(projectSaveNodeNamePrefix + projectSaveId + \"_.*\")) >= 0) {\n\t\t\tlocalStorage.removeItem(node.label);\n\t\t}\n\t});\n}",
           "x": 41242,
-          "y": 38956,
+          "y": 42228,
           "id": "indx1_246"
         },
         "indx1_247": {
@@ -3586,7 +3586,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function removeSaveNodes() {\n\tvar oldSavesKeys = findProjectSavesKeys();\n\tvar nodes = network.body.data.nodes;\n\tfor (var i = 0; i < oldSavesKeys.length; i++) {\n\t\tvar key = oldSavesKeys[i];\n\t\tvar saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(key));\n\t\tsaveCanvasProjectDateNodes.forEach(function(node) {\n\t\t\tnodes.remove(node.id);\n\t\t});\n\t}\n}",
           "x": 41132,
-          "y": 39290,
+          "y": 42562,
           "id": "indx1_247"
         },
         "indx1_248": {
@@ -3614,7 +3614,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function getProjectId(saveCanvasProjectDataNode, network) {\n\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(projectSaveIdLine));\n\tif (projectSaveIdNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no \" + projectSaveIdLine + \" node\");\n\t\treturn;\n\t}\n\tvar projectSaveIdNode = projectSaveIdNodes[0];\n\tvar connectedNodesIds = network.getConnectedNodes(projectSaveIdNode.id);\n\tvar projectIdNode;\n\tconnectedNodesIds.forEach(function(nodeId) {\n\t\tvar node = getNodeById(network.body.data.nodes.get(), nodeId);\n\t\tif (node.label.split(\": \")[0] == \"projectSaveId\") {\n\t\t\tprojectIdNode = node;\n\t\t}\n\t});\n\treturn projectIdNode.label.split(\": \")[1]; \n}",
           "x": 41143,
-          "y": 39661,
+          "y": 42933,
           "id": "indx1_248"
         },
         "indx1_249": {
@@ -3642,7 +3642,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function buildSaveNodesList() {\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\treturn;\n\t}\n\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\tupdateNodePositionData(network, saveCanvasProjectDataNode);\n\tvar oldSavesKeys = findProjectSavesKeys();\n\toldSavesKeys.forEach(function(key,i) {\n\t\tmakeSaveProjectToBrowserNode(\n\t\t\tkey,\n\t\t\tsaveCanvasProjectDataNode.x + 400, \n\t\t\tsaveCanvasProjectDataNode.y + 40*i);\n\t});\n}",
           "x": 41242,
-          "y": 40055,
+          "y": 43327,
           "id": "indx1_249"
         },
         "indx1_250": {
@@ -3670,7 +3670,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function deleteProjectLocalStorageSaves(network) {\n\tvar oldSavesKeys = findProjectSavesKeys();\n\tfor (var i = 0; i < oldSavesKeys.length; i++) {\n\t\tvar key = oldSavesKeys[i];\n\t\tlocalStorage.removeItem(key);\n\t}\n}",
           "x": 40979,
-          "y": 40349,
+          "y": 43621,
           "id": "indx1_250"
         },
         "indx1_251": {
@@ -3698,7 +3698,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function deleteLocalStorageSavesAndSaveNodes(network) {\n\tremoveSaveNodes();\n\tdeleteProjectLocalStorageSaves(network);\n}",
           "x": 41006,
-          "y": 40533,
+          "y": 43805,
           "id": "indx1_251"
         },
         "indx1_252": {
@@ -3726,7 +3726,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveName) {\n\tlocalStorage.removeItem(saveName);\n\tvar saveCanvasProjectDateNodes = getNodesByRegexSearchInLabel(network, new RegExp(saveName));\n\tsaveCanvasProjectDateNodes.forEach(function(node) {\n\t\tnodes.remove(node.id);\n\t});\n}",
           "x": 41153,
-          "y": 40716,
+          "y": 43988,
           "id": "indx1_252"
         },
         "indx1_253": {
@@ -3754,7 +3754,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function loadSavedProjectDataToDataMenuBySaveName(network, saveName) {\n\tvar jsonString = localStorage.getItem(saveName);\n\t$(\"textarea#schemeDataTextArea\").val(jsonString);\n}",
           "x": 41068,
-          "y": 40917,
+          "y": 44189,
           "id": "indx1_253"
         },
         "indx1_254": {
@@ -3782,7 +3782,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function saveProjectToBrowserLocalStorage(network) {\n\tvar regex = saveCanvasProjectDataLine;\n\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + regex + \"$\"));\n\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \"$\"));\n\tvar projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \":.*$\"));\n\tif ((typeof saveCanvasProjectDataNodes === \"undefined\") || (saveCanvasProjectDataNodes.length == 0) ||\n\t\t(typeof projectSaveIdNodes === \"undefined\") || (projectSaveIdNodes.length == 0) ||\n\t\t(typeof projectSaveIdWithDataNodes === \"undefined\") || (projectSaveIdWithDataNodes.length == 0)) \n\t{\n\t\talert(\"Add setup nodes for canvas save information: '\" + saveCanvasProjectDataLine + \"', '\" + projectSaveIdLine + \"', '\" +  projectSaveIdLine + \": projectName'.\");\n\t} else {\n\t\tremoveSaveNodes();\n\t\tvar date = new Date().toLocaleString(\"ru-RU\");\n\t\tdate = date.replace(/\\./g,\"-\");\n\t\tdate = date.replace(/:/g,\"-\");\n\t\tdate = date.replace(/,/g,\"_\");\n\t\tdate = date.replace(\" \",\"\");\n\t\tvar projectJson = $(\"textarea#schemeDataTextArea\").val();\n\t\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveCanvasProjectDataLine + \"$\"));\n\t\tif (saveCanvasProjectDataNodes.length == 0) {\n\t\t\tconsole.log(\"ERROR: no saveCanvasProjectData node\");\n\t\t\treturn;\n\t\t}\n\t\tvar saveCanvasProjectDataNode = saveCanvasProjectDataNodes[0];\n\t\tvar projectSaveId = getProjectId(saveCanvasProjectDataNode, network);\n\t\tlocalStorage.setItem(projectSaveNodeNamePrefix + projectSaveId + \"_\" + date,projectJson);\n\t\tbuildSaveNodesList();\n\t}\n}",
           "x": 41323,
-          "y": 41238,
+          "y": 44510,
           "id": "indx1_254"
         },
         "indx1_255": {
@@ -3810,7 +3810,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function clearBrowserLocalStorage() {\n\tvar storageItemsSize = localStorage.length;\n\tvar keys = [];\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tkeys.push(localStorage.key(i));\n\t}\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = keys[i];\n\t\tlocalStorage.removeItem(key);\n\t}\n}",
           "x": 40954,
-          "y": 41610,
+          "y": 44882,
           "id": "indx1_255"
         },
         "indx1_256": {
@@ -3838,7 +3838,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function showBrowserLocalStorage() {\n\tvar storageItemsSize = localStorage.length;\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = localStorage.key(i);\n\t}\n}",
           "x": 40954,
-          "y": 41811,
+          "y": 45083,
           "id": "indx1_256"
         },
         "indx1_257": {
@@ -3866,7 +3866,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function showBrowserLocalStorageKeys() {\n\tvar storageItemsSize = localStorage.length;\n\tfor (var i = 0; i < storageItemsSize; i++) {\n\t\tvar key = localStorage.key(i);\n\t}\n}",
           "x": 40954,
-          "y": 41964,
+          "y": 45236,
           "id": "indx1_257"
         },
         "indx1_258": {
@@ -3897,7 +3897,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "$(document).ready(function() {\n\n\tcontainerJQ[0].oncontextmenu = () => false;\n\t//topMenu = $(\"<div style='margin:0 0 0 0; padding:3px; background-color: black;color:white;z-index:9999'></div>\");\n\t\n\tbody = $(\"body\");\n\n\tshowDataButton = $(\"<div id='showData' style='cursor:pointer;color:black;float:right;position:fixed;top:3px; line-height: 0;right:0;z-index:9999;padding: 15px;margin:-5px 0 5px 0; background-color:white;border: 1px solid #a3a3a3;font-size:12px'>showData</div>\");\n\tbody.append(showDataButton);\n\n\tschemeEditNodesMenu = $(\"<div id='schemeEditNodesMenu' style='height:100%; width:300px; position:fixed; left:0; top:29px;border-right: 1px solid #a3a3a3; background-color:white;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n\tschemeEditEdgesMenu = $(\"<div id='schemeEditEdgesMenu' style='height:100%; width:300px; position:fixed; left:0; top:29px;border-right: 1px solid #a3a3a3; background-color:white;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n\tschemeEditNodesMenu.hide();\n\tschemeEditEdgesMenu.hide();\n\tbody.append(schemeEditNodesMenu);\n\tbody.append(schemeEditEdgesMenu);",
           "x": 40564,
-          "y": 45930,
+          "y": 49202,
           "id": "indx1_258",
           "shape": "box",
           "link": "",
@@ -3931,7 +3931,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tvar nodesSetupTable = $(\"<table id='nodesSetupTable'></table>\");\n\n\tvar nSRow1 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow1);\n\tvar nSItem11 = $(\"<td></td>\");\n\tvar nSItem12 = $(\"<td></td>\");\n\tnSRow1.append(nSItem11);\n\tnSRow1.append(nSItem12);\n\tvar nodeIdInputLabel = $(\"<div style=''><span>nodeId: </span></div>\");\n\tnSItem11.append(nodeIdInputLabel);\n\tvar nodeIdInput = $(\"<input type='text' id='nodeIdInput'></input>\");\n\tnSItem12.append(nodeIdInput);\n\n\tvar nSRow2 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow2);\n\tvar nSItem21 = $(\"<td></td>\");\n\tvar nSItem22 = $(\"<td></td>\");\n\tnSRow2.append(nSItem21);\n\tnSRow2.append(nSItem22);\n\tvar nodeLabelInputLabel = $(\"<div style=''><span>nodeLabel: </span></div>\");\n\tnSItem21.append(nodeLabelInputLabel);\n\tvar nodeLabelTextarea = $(\"<textarea cols='19' rows='3' id='nodeLabelTextarea'></textarea>\");\n\tnSItem22.append(nodeLabelTextarea);\n\n\tvar nSRow3 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow3);\n\tvar nSItem31 = $(\"<td></td>\");\n\tvar nSItem32 = $(\"<td></td>\");\n\tnSRow3.append(nSItem31);\n\tnSRow3.append(nSItem32);\n\tvar nodeXInputLabel = $(\"<div style=''><span>nodeX: </span></div>\");\n\tnSItem31.append(nodeXInputLabel);\n\t//var nodeXInput = $(\"<input type='text' id='nodeXInput'></input>\");\n\tvar nodeXInput = $(\"<div style=''><span id='nodeXInput'></span></div>\");\n\tnSItem32.append(nodeXInput);\n\n\tvar nSRow4 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow4);\n\tvar nSItem41 = $(\"<td></td>\");\n\tvar nSItem42 = $(\"<td></td>\");\n\tnSRow4.append(nSItem41);\n\tnSRow4.append(nSItem42);\n\tvar nodeYInputLabel = $(\"<div style=''><span>nodeY: </span></div>\");\n\tnSItem41.append(nodeYInputLabel);\n\t//var nodeYInput = $(\"<input type='text' id='nodeYInput'></input>\");\n\tvar nodeYInput = $(\"<div style=''><span id='nodeYInput'></span></div>\");\n\tnSItem42.append(nodeYInput);\n\n\tvar nSRow5 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow5);\n\tvar nSItem51 = $(\"<td></td>\");\n\tvar nSItem52 = $(\"<td></td>\");\n\tnSRow5.append(nSItem51);\n\tnSRow5.append(nSItem52);\n\tvar nodeShapeInputLabel = $(\"<div style=''><span>nodeShape: </span></div>\");\n\tnSItem51.append(nodeShapeInputLabel);\n        var nodeShapeSelectString = \"<select id='nodeShapeInput'>\" + \n                           \"<option value='box' selected='selected'>box</option>\" +\n                           \"<option value='ellipse'>ellipse</option>\" +\n                           \"<option value='circle'>circle</option>\" +\n                           \"<option value='database'>database</option>\" +\n                           \"<option value='text'>text</option>\" +\n                           \"<option value='image'>image</option>\" +\n                           \"<option value='circularImage'>circularImage</option>\" +\n                           \"<option value='diamond'>diamond</option>\" +\n                           \"<option value='dot'>dot</option>\" +\n                           \"<option value='star'>star</option>\" +\n                           \"<option value='triangle'>triangle</option>\" +\n                           \"<option value='triangleDown'>triangleDown</option>\" +\n                           \"<option value='hexagon'>hexagon</option>\" +\n                           \"<option value='square'>square</option></select>\";\n\tvar nodeShapeInput = $(nodeShapeSelectString);\n\tnSItem52.append(nodeShapeInput);\n\n\tvar nSRow6 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow6);\n\tvar nSItem61 = $(\"<td></td>\");\n\tvar nSItem62 = $(\"<td></td>\");\n\tnSRow6.append(nSItem61);\n\tnSRow6.append(nSItem62);\n\tvar nodeLinkTextareaLabel = $(\"<div style=''><span>nodeLink: </span></div>\");\n\tnSItem61.append(nodeLinkTextareaLabel);\n\tvar nodeLinkTextarea = $(\"<textarea cols='19' rows='1' id='nodeLinkTextarea'></input>\");\n\tnSItem62.append(nodeLinkTextarea);\n\tvar linkOpenButton = $(\"<div style='cursor:pointer;margin: 4px 0 2px 0;' id='linkOpenButton'><span style='background-color: #97c2fc;padding: 4px;'>linkOpenButton</span></div>\");\n\tnSItem62.append(linkOpenButton);\n\n\tvar nSRow7 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow7);\n\tvar nSItem71 = $(\"<td></td>\");\n\tvar nSItem72 = $(\"<td></td>\");\n\tnSRow7.append(nSItem71);\n\tnSRow7.append(nSItem72);\n\tvar nodeColorInputLabel = $(\"<div style=''><span>nodeColor: </span></div>\");\n\tnSItem71.append(nodeColorInputLabel);\n\tvar nodeColorInput = $(\"<input type='text' id='nodeColorInput'></input>\");\n\tnSItem72.append(nodeColorInput);\n\n\tvar nSRow8 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow8);\n\tvar nSItem81 = $(\"<td></td>\");\n\tvar nSItem82 = $(\"<td></td>\");\n\tnSRow8.append(nSItem81);\n\tnSRow8.append(nSItem82);\n\tvar nodeBorderWidthInputLabel = $(\"<div style=''><span>nodeBorderWidth: </span></div>\");\n\tnSItem81.append(nodeBorderWidthInputLabel);\n\tvar nodeBorderWidthInput = $(\"<input type='text' id='nodeBorderWidthInput'></input>\");\n\tnSItem82.append(nodeBorderWidthInput);\n\n\tvar nSRow9 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow9);\n\tvar nSItem91 = $(\"<td></td>\");\n\tvar nSItem92 = $(\"<td></td>\");\n\tnSRow9.append(nSItem91);\n\tnSRow9.append(nSItem92);\n\tvar nodeBorderColorInputLabel = $(\"<div style=''><span>nodeBorderColor: </span></div>\");\n\tnSItem91.append(nodeBorderColorInputLabel);\n\tvar nodeBorderColorInput = $(\"<input type='text' id='nodeBorderColorInput'></input>\");\n\tnSItem92.append(nodeBorderColorInput);\n\n\tvar nSRow10 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow10);\n\tvar nSItem101 = $(\"<td></td>\");\n\tvar nSItem102 = $(\"<td></td>\");\n\tnSRow10.append(nSItem101);\n\tnSRow10.append(nSItem102);\n\tvar nodeFontSizeInputLabel = $(\"<div style=''><span>nodeFontSize: </span></div>\");\n\tnSItem101.append(nodeFontSizeInputLabel);\n\tvar nodeFontSizeInput = $(\"<input type='text' id='nodeFontSizeInput'></input>\");\n\tnSItem102.append(nodeFontSizeInput);\n\n\tvar nSRow11 = $(\"<tr></tr>\");\n\tnodesSetupTable.append(nSRow11);\n\tvar nSItem111 = $(\"<td></td>\");\n\tvar nSItem112 = $(\"<td></td>\");\n\tnSRow11.append(nSItem111);\n\tnSRow11.append(nSItem112);\n\tvar nodeFontAlignInputLabel = $(\"<div style=''><span>nodeFontAlign: </span></div>\");\n\tnSItem111.append(nodeFontAlignInputLabel);\n\tvar nodeFontAlignInput = $(\"<input type='text' id='nodeFontAlignInput'></input>\");\n\tnSItem112.append(nodeFontAlignInput);",
           "x": 41861,
-          "y": 47168,
+          "y": 50440,
           "id": "indx1_259",
           "shape": "box",
           "link": "",
@@ -3965,7 +3965,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   linkOpenButton.click(function() {\n      var link = nodeLinkTextarea.val();\n      //if link starts with userConfData[\"someConfPathKey\"], then we replace this var with path for its key from userConfData\n      if (link.match(/^userConfData/) != null) {\nconsole.log(1);\n         if (typeof userConfData !== \"undefined\") {\nconsole.log(1);\n            var userConfKey = link.replace(/.*userConfData\\[\"(.*?)\"\\].*/g,\"$1\");\nconsole.log(\"userConfKey: \" + userConfKey);\n            var userConfLinkPath = userConfData[userConfKey];\n            if (typeof userConfLinkPath !== \"undefined\" && userConfLinkPath.length > 0) {\n               link = link.replace(/.*userConfData\\[\".*?\"\\]/g,userConfLinkPath);\n            }\n         } else {\n            link = link.replace(/.*userConfData\\[\".*?\"\\]/g,\"Error: no local path for this file. \");\n         }\n      }\n      if (link.length > 0) {\n         window.open(link, '_blank');\n      }\n   });\n\n   schemeEditNodesMenu.append(nodesSetupTable);\n   schemeEditEdgesMenu.append(edgesSetupTable);\n\n   var saveNodeEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveNodeEditButton'>saveNode</span></div>\");\n   schemeEditNodesMenu.append(saveNodeEditButton);\n\n   var saveEdgeEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='saveEdgeEditButton'>saveEdge</span></div>\");\n   schemeEditEdgesMenu.append(saveEdgeEditButton);",
           "x": 42019,
-          "y": 51392,
+          "y": 54664,
           "id": "indx1_260",
           "shape": "box",
           "link": "",
@@ -3999,7 +3999,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tsaveNodeEditButton.click(function() {\n\t\tvar nodeIdInput = schemeEditNodesMenu.find(\"input#nodeIdInput\");\n\t\tvar nodeLabelTextarea = schemeEditNodesMenu.find(\"textarea#nodeLabelTextarea\");\n\t\t//var nodeXInput = schemeEditNodesMenu.find(\"input#nodeXInput\");\n\t\t//var nodeYInput = schemeEditNodesMenu.find(\"input#nodeYInput\");\n\t\tvar nodeShapeInput = schemeEditNodesMenu.find(\"#nodeShapeInput\");\n\t\tvar nodeLinkTextarea = schemeEditNodesMenu.find(\"textarea#nodeLinkTextarea\");\n\t\tvar nodeFontSizeInput = schemeEditNodesMenu.find(\"input#nodeFontSizeInput\");\n\t\tvar nodeFontAlignInput = schemeEditNodesMenu.find(\"input#nodeFontAlignInput\");\n\t\tvar nodeColorInput = schemeEditNodesMenu.find(\"input#nodeColorInput\");\n\t\tvar nodeBorderWidthInput = schemeEditNodesMenu.find(\"input#nodeBorderWidthInput\");\n\t\tvar nodeBorderColorInput = schemeEditNodesMenu.find(\"input#nodeBorderColorInput\");\n                var nodeD = getNodeFromNetworkDataById(nodeIdInput.val());\n\t\tvar pNode = network.getPositions()[nodeIdInput.val()];\n\t\t//nodeXInput.val(pNode.x);\n\t\t//nodeYInput.val(pNode.y);\n\t\tnodeD.id = nodeIdInput.val();\n\t\tnodeD.label = nodeLabelTextarea.val();\n\t\tnodeD.x = pNode.x;\n\t\tnodeD.y = pNode.y;\n\t\tnodeD.shape = nodeShapeInput.val();\n\t\tnodeD.link = nodeLinkTextarea.val();\n\t\tif (typeof nodeD.font === \"undefined\") nodeD.font = {size: 14};\n\t\tnodeD.font.size = parseInt(nodeFontSizeInput.val(),10);\n\t\tnodeD.font.align = nodeFontAlignInput.val();\n\t\tif (typeof nodeD.color === \"undefined\") nodeD.color = {};\n\t\tnodeD.color.background = nodeColorInput.val();\n\t\tnodeD.color.border = nodeBorderColorInput.val();\n\t\tnodeD.borderWidth = nodeBorderWidthInput.val();\n\t\tnetwork.body.data.nodes.update(nodeD);\n\t});",
           "x": 42246,
-          "y": 52016,
+          "y": 55288,
           "id": "indx1_261",
           "shape": "box",
           "link": "",
@@ -4033,7 +4033,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tvar closeNodeEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeNodeEditButton'>closeNodeEdit</span></div>\");\n\tschemeEditNodesMenu.append(closeNodeEditButton);\n\n\tcloseNodeEditButton.click(function() {\n\t\tschemeEditNodesMenu.hide();\n\t});\n\n\tvar closeEdgeEditButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='closeEdgeEditButton'>closeEdgeEdit</span></div>\");\n\tschemeEditEdgesMenu.append(closeEdgeEditButton);\n\n\tcloseEdgeEditButton.click(function() {\n\t\tschemeEditEdgesMenu.hide();\n\t});",
           "x": 42401,
-          "y": 54104,
+          "y": 57376,
           "id": "indx1_262",
           "shape": "box",
           "link": "",
@@ -4067,7 +4067,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   var splitNodeListLabelButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='splitNodeListLabelButton'>splitNodeListLabel</span></div>\");\n   schemeEditNodesMenu.append(splitNodeListLabelButton);\n\n   splitNodeListLabelButton.click(function() {\n      var nodeIdInput = schemeEditNodesMenu.find(\"input#nodeIdInput\").val();\n      splitNodeLabelToList(nodeIdInput);\n   });",
           "x": 42442,
-          "y": 54283,
+          "y": 57555,
           "id": "indx1_263",
           "shape": "box",
           "link": "",
@@ -4101,7 +4101,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tvar runNodeCodeButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0'><span id='runNodeCodeButton'>runNodeCode</span></div>\");\n\n\tschemeEditNodesMenu.append(runNodeCodeButton);",
           "x": 42398,
-          "y": 54393,
+          "y": 57665,
           "id": "indx1_264",
           "shape": "box",
           "link": "",
@@ -4135,7 +4135,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "runNodeCodeButton.click(function() {\n   var nodeId = schemeEditNodesMenu.find(\"input#nodeIdInput\").val();\n   var code = collectCodeNodesContent(nodeId);\n   code = code.split(\"\\n\");\n   if (code[0] == \"sympy\") {\n      code.shift();\n      code = code.join(\"\\n\");\n      calcSymPy(code, nodeId);\n   } else {\n      code = code.join(\"\\n\");\n      var codeFunction = new Function('codeNodeId', code);\n      codeFunction(nodeId);\n   }\n});",
           "x": 42181,
-          "y": 54552,
+          "y": 57824,
           "id": "indx1_265",
           "shape": "box",
           "link": "",
@@ -4169,7 +4169,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   var leftMenuHelpLine1 = $(\"<div style='margin:40px 0 0 0'><span id='leftMenuHelpLine1'>transparent color - rgba(0,0,0,0)</span></div>\");\n   schemeEditNodesMenu.append(leftMenuHelpLine1);\n   //#FFD570\n   //#ffc63b\n   var leftMenuHelpLine2 = $(\"<div style='margin:10px 0 0 0'><span id='leftMenuHelpLine2'>nodes yellow color - #ffd570</span></div>\");\n   schemeEditNodesMenu.append(leftMenuHelpLine2);\n   var leftMenuHelpLineNodesDocs = $(\"<div style='margin:10px 0 0 0'><span id='leftMenuHelpLineNodesDocs'><a href='https://visjs.github.io/vis-network/docs/network/nodes.html' target='_blank'>Nodes docs</a></span></div>\");\n   schemeEditNodesMenu.append(leftMenuHelpLineNodesDocs);\n\n\n   var leftMenuHelpLineEdgesDocs = $(\"<div style='margin:40px 0 0 0'><span id='leftMenuHelpLineEdgesDocs'><a href='https://visjs.github.io/vis-network/docs/network/edges.html' target='_blank'>Edges docs</a></span></div>\");\n   schemeEditEdgesMenu.append(leftMenuHelpLineEdgesDocs);\n\n",
           "x": 42680,
-          "y": 54774,
+          "y": 58046,
           "id": "indx1_266",
           "shape": "box",
           "link": "",
@@ -4203,7 +4203,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tloadSavedProjectToMenuButton = $(\"<div style='cursor:pointer;margin:80px 0 0 0'><span id='loadSavedProjectToMenuButton'>loadSavedProjectToMenu</span></div>\");\n\tschemeEditNodesMenu.append(loadSavedProjectToMenuButton);\n\tloadSavedProjectToMenuButton.hide();\n\tloadSavedProjectToMenuButton.click(function() {\n\t\tvar saveLabel = loadSavedProjectToMenuButton.saveProjectLabel;\n\t\tloadSavedProjectDataToDataMenuBySaveName(network, saveLabel);\n\t\tupdateSchemeFromMenu([],[]);\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
           "x": 42496,
-          "y": 54992,
+          "y": 58264,
           "id": "indx1_267",
           "shape": "box",
           "link": "",
@@ -4237,7 +4237,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tdeleteSavedProjectButton = $(\"<div style='cursor:pointer;margin:40px 0 0 0'><span id='deleteSavedProjectButton'>!!deleteSavedProject!!</span></div>\");\n\tschemeEditNodesMenu.append(deleteSavedProjectButton);\n\tdeleteSavedProjectButton.hide();\n\tdeleteSavedProjectButton.click(function() {\n\t\tvar saveLabel = deleteSavedProjectButton.saveProjectLabel;\n\t\tdeleteLocalStorageSaveAndSaveNodeBySaveName(network, saveLabel);\n\t});",
           "x": 42445,
-          "y": 55131,
+          "y": 58403,
           "id": "indx1_268",
           "shape": "box",
           "link": "",
@@ -4269,13 +4269,13 @@ var schemeData =
           },
           "shadow": {},
           "shapeProperties": {},
-          "label": "   schemeDataMenu = $(\"<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:white;border-left: 1px solid #a3a3a3;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n   //Don't show shemeDataMenu. Menu under \"showMenu\" button on the right.\n   var pageFileName = (new URL(window.location.href)).pathname.split(\"/\").reverse()[0];\n   if (dontShowShemeDataMenuPagesList.indexOf(pageFileName) != -1) {\n      schemeDataMenu.hide()\n   }\n   schemeDataTextArea = $(\"<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>\");\n   schemeDataMenu.append(schemeDataTextArea);\n   saveLoadButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>\");\n   schemeDataMenu.append(saveLoadButton);\n   body.append(schemeDataMenu);",
+          "label": "   schemeDataMenu = $(\"<div id='schemeDataMenu' style='height:100%; width:260px; position:fixed; right:0; top:0; background-color:white;border-left: 1px solid #a3a3a3;z-index:5000; padding: 40px 20px 20px 20px'></div>\");\n   //Don't show shemeDataMenu. Menu under \"showMenu\" button on the right.\n   var pageFileName = (new URL(window.location.href)).pathname.split(\"/\").reverse()[0];\n   if (dontShowShemeDataMenuPagesList.indexOf(pageFileName) != -1) {\n      schemeDataMenu.hide()\n   }\n   schemeDataTextArea = $(\"<div style='margin:0;padding:0;'><textarea id='schemeDataTextArea' cols='30' rows='45'></textarea></div>\");\n   schemeDataMenu.append(schemeDataTextArea);\n   //saveLoadButton = $(\"<div style='cursor:pointer;margin:20px 0 0 0;padding:0;'><span id='saveLoadButton' style='background-color:white; color: black;'>Save/Load</span></div>\");\n   //schemeDataMenu.append(saveLoadButton);\n   body.append(schemeDataMenu);",
           "x": 42669,
-          "y": 55294,
+          "y": 58566,
           "id": "indx1_269",
           "shape": "box",
           "link": "",
-          "borderWidth": ""
+          "borderWidth": "0"
         },
         "indx1_270": {
           "color": {
@@ -4301,8 +4301,8 @@ var schemeData =
           "shadow": {},
           "shapeProperties": {},
           "label": "\tsaveLoadButton.click(function() {\n\t\tvar regex = saveCanvasProjectDataLine;\n\t\tvar saveCanvasProjectDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + regex + \"$\"));\n\t\tvar projectSaveIdNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \"$\"));\n\t\tvar projectSaveIdWithDataNodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + projectSaveIdLine + \":.*$\"));\n\t\tif ((typeof saveCanvasProjectDataNodes === \"undefined\") || (saveCanvasProjectDataNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdNodes === \"undefined\") || (projectSaveIdNodes.length == 0) ||\n\t\t\t(typeof projectSaveIdWithDataNodes === \"undefined\") || (projectSaveIdWithDataNodes.length == 0)) \n\t\t\t{\n\t\t\talert(\"Add setup nodes for canvas save information: '\" + saveCanvasProjectDataLine + \"', '\" + projectSaveIdLine + \"', '\" +  projectSaveIdLine + \": projectName'.\");\n\t\t} else {\n\t\t\tvar node = saveCanvasProjectDataNodes[0];\n\t\t\tupdateNodePositionData(network, node);\n\t\t\tvar scale = network.getScale();\n\t\t\tvar n1X = parseFloat(node.x.toFixed(5));\n\t\t\tvar n1Y = parseFloat(node.y.toFixed(5));\n\t\t\tvar positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n\t\t\tvar positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\t\t\tnetwork.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t\tnetwork1.moveTo({\n\t\t\t\tposition: {x: positionX, y: positionY},\n\t\t\t\toffset: {x: -canvasWidth/2, y: -canvasHeight/2},\n\t\t\t\tscale: scale,\n\t\t\t});\n\t\t}\n\t});",
-          "x": 42470,
-          "y": 55651,
+          "x": 42911,
+          "y": 58894,
           "id": "indx1_270"
         },
         "indx1_271": {
@@ -4330,7 +4330,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tshowDataButton.click(function() {\n\t\tschemeDataMenu.toggle();\n\t});",
           "x": 42065,
-          "y": 55902,
+          "y": 59174,
           "id": "indx1_271"
         },
         "indx1_272": {
@@ -4361,7 +4361,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tdraw();\n\tif (typeof runUpateMenuFromSchemeAtPageReady !== \"undefined\" && runUpateMenuFromSchemeAtPageReady) {\n\t\tupdateMenuFromScheme([], []);\n\t}\n\tremoveSaveNodes();\n\tbuildSaveNodesList();",
           "x": 41405,
-          "y": 58155,
+          "y": 61427,
           "id": "indx1_272",
           "shape": "box",
           "link": "",
@@ -4395,7 +4395,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tvar updateSchemeFromMenuButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateSchemeFromMenuButton' style='background-color:white;color:black;'>updateSchemeFromMenu</span></div>\");\n\tvar updateMenuFromSchemeButton = $(\"<div style='cursor:pointer;margin: 0 0 20px 0;'><span id='updateMenuFromSchemeButton' style='background-color:white;color:black;'>updateMenuFromScheme</span></div>\");\n\tschemeDataMenu.prepend(updateMenuFromSchemeButton);\n\tschemeDataMenu.prepend(updateSchemeFromMenuButton);\n\tupdateSchemeFromMenuButton.click(function() {\n\t\tupdateSchemeFromMenu([],[]);\n\t\tremoveSaveNodes();\n\t\tbuildSaveNodesList();\n\t});",
           "x": 42632,
-          "y": 58622,
+          "y": 61894,
           "id": "indx1_273",
           "shape": "box",
           "link": "",
@@ -4426,7 +4426,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tfunction addConnections(elem, index) {\n\t\telem.connections = network.getConnectedNodes(index);\n\t}\n\tfunction exportNetwork() {\n\t\tvar nodes = objectToArray(network.getPositions());\n\t\tvar positions = network.getPositions(item.id);\n\t\titem.positionX = positions[item.id].x;\n\t\titem.positionY = positions[item.id].y;\n\n\t\tnodes.forEach(addConnections);\n\n\t\tvar exportValue = JSON.stringify(nodes, undefined, 2);\n\n\t\treturn exportValue;\n\t}",
           "x": 42116,
-          "y": 58902,
+          "y": 62174,
           "id": "indx1_274"
         },
         "indx1_275": {
@@ -4454,7 +4454,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tfunction importNetwork() {\n\t\tvar inputValue = exportArea.value;\n\t\tvar inputData = JSON.parse(inputValue);\n\n\t\tvar data = {\n\t\t\tnodes: getNodeData(inputData),\n\t\t\tedges: getEdgeData(inputData)\n\t\t}\n\n\t\tnetwork = new vis.Network(container, data, {});\n\t}",
           "x": 42080,
-          "y": 59194,
+          "y": 62466,
           "id": "indx1_275"
         },
         "indx1_276": {
@@ -4482,7 +4482,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tfunction getNodeData(data) {\n\t\tvar networkNodes = [];\n\n\t\tdata.forEach(function(elem, index, array) {\n\t\t\tnetworkNodes.push({id: elem.id, label: elem.id, x: elem.x, y: elem.y});\n\t\t});\n\n\t\treturn new vis.DataSet(networkNodes);\n\t}",
           "x": 42169,
-          "y": 59465,
+          "y": 62737,
           "id": "indx1_276"
         },
         "indx1_277": {
@@ -4510,7 +4510,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tfunction getEdgeData(data) {\n\t\tvar networkEdges = [];\n\n\t\tdata.forEach(function(node) {\n\t\t\tnode.connections.forEach(function(connId, cIndex, conns) {\n\t\t\t\tnetworkEdges.push({from: node.id, to: connId});\n\t\t\t\tvar cNode = getNodeById(data, connId);\n\n\t\t\t\tvar elementConnections = cNode.connections;\n\n\t\t\t\t// remove the connection from the other node to prevent duplicate connections\n\t\t\t\tvar duplicateIndex = elementConnections.findIndex(function(connection) {\n\t\t\t\t\treturn connection == node.id; // double equals since id can be numeric or string\n\t\t\t\t});\n\n\t\t\t\tif (duplicateIndex != -1) {\n\t\t\t\t\telementConnections.splice(duplicateIndex, 1);\n\t\t\t\t};\n\t\t\t});\n\t\t});\n\n\t\treturn new vis.DataSet(networkEdges);\n\t}",
           "x": 42205,
-          "y": 59874,
+          "y": 63146,
           "id": "indx1_277"
         },
         "indx1_278": {
@@ -4541,7 +4541,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\tupdateMenuFromSchemeButton.click(function() {\n\t\tremoveSaveNodes();\n\t\tupdateMenuFromScheme([], []);\n\t\t//saveProjectToBrowserLocalStorage(network);\n\t\tlocalStorageSpace();\n\t});\n\tif (showCursorCoordinates) {\n\t\tvar cursorCoordinatesWidget = $(\"<div style='position: fixed;right:330px;font-size:12px'>\" +\n\t\t\t\"<div id='domCursorCoordinates'></div>\" +\n\t\t\t\"<div id='canvasCursorCoordinates'></div>\" +\n\t\t\t\"</div>\");\n\t\t$(\"body\").append(cursorCoordinatesWidget);\n\t\t$(document).mousemove(function(event) {\n\t\t\t$(\"#domCursorCoordinates\").text(event.pageX.toString() + \"x\" + event.pageY.toString());\n\t\t\tvar domX = (event.pageX - containerJQ.position().left).toFixed(0);\n\t\t\tvar domY = (event.pageY - containerJQ.position().top).toFixed(0);\n\t\t\tvar canvasPosition = network.canvas.DOMtoCanvas({x: domX,y: domY});\n\t\t\t$(\"#canvasCursorCoordinates\").text((canvasPosition.x).toFixed(0) + \"x\" + (canvasPosition.y).toFixed(0));\n\t\t});\n\t}\n\t$(\"#network div.vis-network\").focus();",
           "x": 42276,
-          "y": 60346,
+          "y": 63618,
           "id": "indx1_278",
           "shape": "box",
           "link": "",
@@ -4572,7 +4572,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function c(x, y) {\n\tvar imgData = false;\n\tvar ctxColor;\n\tif (imgData === false) {\n\t\t//console.log(document.getElementById(\"network\").getContext('2d'));\n\t\t//ctxColor = document.getElementById(\"network\").getContext(\"2d\");\n\t\tctxColor = canvas.getContext('2d');\n\t\timgData = ctxColor.getImageData(0,0,canvas.width, canvas.height);\n\t}\t\n\tvar index = (y * imgData.width + x) * 4;\n\tvar red = imgData.data[index];\n\tvar green = imgData.data[index+1];\n\tvar blue = imgData.data[index+2];\n\tvar alpha = imgData.data[index+3];\n\t//console.log('pix x ' + x + ' y ' + y + ' index ' + index + ' COLOR ' + red + ', ' + green + ', ' + blue + ', ' + alpha);\n}",
           "x": 40814,
-          "y": 111462,
+          "y": 114734,
           "id": "indx1_279"
         },
         "indx1_280": {
@@ -4600,7 +4600,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function rdf() {\n\tvar store = $rdf.graph();\n\tconsole.log($rdf);\n\tconsole.log(store);\n\tconsole.log(network);\n\tnetwork.body.data.nodes.get().forEach(function(node) {\n\t\tstore.add($rdf.literal(node.id), FOAF('name'), $rdf.literal(node.id));\n\t\t//store.add(node.id, \"name\",);\n\t});\n\tnetwork.body.data.nodes.get().forEach(function(item) {\n\t});\n\tconsole.log(store.length);\n}",
           "x": 41858,
-          "y": 111794,
+          "y": 115066,
           "id": "indx1_280"
         },
         "indx1_281": {
@@ -4628,7 +4628,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function localStorageSpace() {\n    var data = '';\n\n    console.log('Current local storage: ');\n\n    for(var key in window.localStorage){\n\n        if(window.localStorage.hasOwnProperty(key)){\n            data += window.localStorage[key];\n            console.log( key + \" = \" + ((window.localStorage[key].length * 16)/(8 * 1024)).toFixed(2) + ' KB' );\n        }\n\n    }\n\n    console.log(data ? '\\n' + 'Total space used: ' + ((data.length * 16)/(8 * 1024)).toFixed(2) + ' KB' : 'Empty (0 KB)');\n    console.log(data ? 'Approx. space remaining: ' + (5120 - ((data.length * 16)/(8 * 1024)).toFixed(2)) + ' KB' : '5 MB');\n};",
           "x": 42025,
-          "y": 112147,
+          "y": 115419,
           "id": "indx1_281"
         },
         "indx1_282": {
@@ -4656,7 +4656,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function makeNodeJsonLine(id, label, link, x, y) {\n\tlabel = label.replace(\":\",\"\\:\");\n\tlink = link.replace(\":\",\"\\:\");\n\tvar json = \"\";\n\tjson += \"\\\"\" + id + \"\\\": { \\\"id\\\": \\\"\" + id + \"\\\",\";\n\tjson += \"\\\"x\\\": \" + x.toString() + \", \\\"y\\\": \" + y.toString() + \",\";\n\tjson += \"\\\"label\\\": \\\"\" + label + \"\\\",\";\n\tjson += \"\\\"link\\\": \\\"\" + link + \"\\\"\";\n\tjson += \"}\";\n\treturn json;\n}",
           "x": 41839,
-          "y": 112490,
+          "y": 115762,
           "id": "indx1_282"
         },
         "indx1_283": {
@@ -4715,7 +4715,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function countSelectedNodesAndEdges() {\n   var nodes = objectToArray(network.body.nodes);\n   var edges = objectToArray(network.body.edges);\n   console.log(\"All nodes: \" + nodes.length);\n   console.log(\"All edges: \" + edges.length);\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n   console.log(\"Selected nodes: \" + selectedNodes.length);\n   console.log(\"Selected edges: \" + selectedEdges.length);\n}",
           "x": 41899,
-          "y": 113009,
+          "y": 116281,
           "id": "indx1_284",
           "shape": "box",
           "link": "",
@@ -4749,7 +4749,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function help() {\n   console.log(\"localStorageSpace()\");\n   console.log(\"countSelectedNodesAndEdges()\");\n   console.log(\"hideAllToDownloadNews()\");\n   console.log(\"restoreAllAfterNewsDownload()\");\n   console.log(\"viewLink()\");\n   console.log(\"tG(multiplyCount, idPostfix, xShift, yShift, dateLine = '', idCounterPostfixStart = 0)\");\n   console.log(\"multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0)\");\n   console.log(\"hC()\");\n   console.log(\"sC()\");\n   console.log(\"fN()\");\n   console.log(\"uFN()\");\n   console.log(\"joinNodesLabels()\");\n   console.log(\"distributeVertically(yStep)\");\n   console.log(\"addBranchToEachSelectedNode(newNodeLabel, stepYFromSelectedNodesRightSide)\");\n   console.log(\"editNodesIds()\");\n}",
           "x": 41960,
-          "y": 113253,
+          "y": 116525,
           "id": "indx1_285",
           "shape": "box",
           "link": "",
@@ -4783,7 +4783,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Add new node under cursor. alt+n\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false &&\n          event.keyCode === 78) {\n         var schemeDataMenuWidth = 0;\n         if (document.getElementById(\"schemeDataMenu\").style.display != \"none\") {\n            schemeDataMenuWidth = parseInt(document.getElementById(\"schemeDataMenu\").style.width.replace(\"px\",\"\"), 10);\n         } else {\n            schemeDataMenuWidth = 0;\n         }\n         var lastEditedNodeId;\n         var lastEditedNode;\n         var position;\n         if (lastEditedNodesIds.length == 0) {\n            if (lastClickPosition == null) {\n               position = {\n                  x: (canvasWidth - schemeDataMenuWidth)/2,\n                  y: canvasHeight/2\n               };\n            } else {\n               position = {\n                  x: lastClickPosition.x,\n                  y: lastClickPosition.y\n               };\n            }\n            position = network.canvas.DOMtoCanvas(position);\n         } else {\n            var lastEditedNodeId = lastEditedNodesIds[lastEditedNodesIds.length - 1];\n            var lastEditedNode = getNodeFromNetworkDataById(lastEditedNodeId);\n            var lastEditDOMPosition = network.canvasToDOM({x: lastEditedNode.x, y: lastEditedNode.y});\n            if (lastEditDOMPosition.x < 0 || \n               lastEditDOMPosition.x > canvasWidth || \n               lastEditDOMPosition.y < 0 || \n               lastEditDOMPosition.y > canvasHeight) {\n               position = {\n                  x: (canvasWidth - schemeDataMenuWidth)/2,\n                  y: canvasHeight/2\n               };\n            } else {\n               var nodeBBox = network.nodesHandler.getBoundingBox(lastEditedNodeId);\n               position = {\n                  x: lastEditedNode.x,\n                  y: nodeBBox[\"top\"] + 28 + 28*lastEditedNode.label.split(\"\\n\").length/2\n               };\n            }\n         }\n         var nodeId = addNodeOnCanvas(\"\", \"\", position, 0, 0, network);\n         var node = network.body.nodes[nodeId];\n         network.selectionHandler.selectObject(node);\n         lastEditedNodesIds.push(nodeId);\n         network.manipulation.editNode();\n      }\n   });",
           "x": 41397,
-          "y": 61448,
+          "y": 64720,
           "id": "indx1_286",
           "shape": "box",
           "link": "",
@@ -4816,7 +4816,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\t$(\"#network\").keydown(function (event) {\n\t\t//Delete or Backspace\n\t\t//if (event.ctrlKey && event.keyCode === 13) {\n\t\tif (event.keyCode === 46 || event.keyCode === 8) {\n\t\t\tnetwork.manipulation.deleteSelected();\n\t\t}\n\t});",
           "x": 41998,
-          "y": 102802,
+          "y": 106074,
           "id": "indx1_287",
           "shape": "box",
           "link": "",
@@ -4853,7 +4853,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/ruby.html",
           "id": "indx1_288",
           "x": 72461,
-          "y": 40936,
+          "y": 44123,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -6595,7 +6595,7 @@ var schemeData =
           "label": "function mkdirRecursiveSync(path, pathDelimiter) {\n    var paths = path.split(pathDelimiter);\n    var fullPath = '';\n    paths.forEach((path) => {\n\n        fullPath = fullPath + path + pathDelimiter;\n\n        if (!fs.existsSync(fullPath)) {\n            fs.mkdirSync(fullPath);\n        }\n    });\n};\n",
           "id": "indx1_343",
           "x": 67532,
-          "y": 28643,
+          "y": 31830,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7522,7 +7522,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_432",
           "x": 65257,
-          "y": 30479,
+          "y": 33666,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7558,7 +7558,7 @@ var schemeData =
           "label": "file path: ./app/index.html",
           "id": "indx1_433",
           "x": 66282,
-          "y": 30472,
+          "y": 33659,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7590,7 +7590,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_434",
           "x": 66801,
-          "y": 30458
+          "y": 33645
         },
         "indx1_435": {
           "color": {
@@ -7623,7 +7623,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/index.html",
           "id": "indx1_435",
           "x": 72721,
-          "y": 31317,
+          "y": 34504,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7631,7 +7631,7 @@ var schemeData =
         "indx1_436": {
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Index &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67371,
-          "y": 30400,
+          "y": 33587,
           "id": "indx1_436",
           "shape": "box",
           "link": "",
@@ -7648,7 +7648,7 @@ var schemeData =
         "indx1_437": {
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67780,
-          "y": 30722,
+          "y": 33909,
           "id": "indx1_437",
           "shape": "box",
           "link": "",
@@ -7665,7 +7665,7 @@ var schemeData =
         "indx1_438": {
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 67950,
-          "y": 31252,
+          "y": 34439,
           "id": "indx1_438",
           "shape": "box",
           "link": "",
@@ -7682,7 +7682,7 @@ var schemeData =
         "indx1_439": {
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67798,
-          "y": 31943,
+          "y": 35130,
           "id": "indx1_439",
           "shape": "box",
           "link": "",
@@ -7699,7 +7699,7 @@ var schemeData =
         "indx1_440": {
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0167, x: 15703, y: 7380};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"index.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68076,
-          "y": 32650,
+          "y": 35837,
           "id": "indx1_440",
           "shape": "box",
           "link": "",
@@ -7743,7 +7743,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_441",
           "x": 65329,
-          "y": 33777,
+          "y": 36964,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7779,7 +7779,7 @@ var schemeData =
           "label": "file path: ./app/base.html",
           "id": "indx1_442",
           "x": 66354,
-          "y": 33770,
+          "y": 36957,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7811,7 +7811,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_443",
           "x": 66873,
-          "y": 33756
+          "y": 36943
         },
         "indx1_444": {
           "color": {
@@ -7844,7 +7844,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/base.html",
           "id": "indx1_444",
           "x": 72610,
-          "y": 34538,
+          "y": 37725,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -7877,7 +7877,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Base &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67443,
-          "y": 33698,
+          "y": 36885,
           "id": "indx1_445",
           "shape": "box",
           "link": "",
@@ -7910,7 +7910,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67852,
-          "y": 34020,
+          "y": 37207,
           "id": "indx1_446",
           "shape": "box",
           "link": "",
@@ -7943,7 +7943,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68022,
-          "y": 34550,
+          "y": 37737,
           "id": "indx1_447",
           "shape": "box",
           "link": "",
@@ -7977,7 +7977,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67869,
-          "y": 35240,
+          "y": 38427,
           "id": "indx1_448",
           "shape": "box",
           "link": "",
@@ -8011,7 +8011,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.012, x: 109274, y: 26359};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"base.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68147,
-          "y": 35962,
+          "y": 39149,
           "id": "indx1_449",
           "shape": "box",
           "link": "",
@@ -8048,7 +8048,7 @@ var schemeData =
           "label": "file path: ./utils/templates/index.data.js.erb",
           "id": "indx1_450",
           "x": 67194,
-          "y": 61585,
+          "y": 64772,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8083,7 +8083,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "var schemeData = \n{\n\t\"canvas1Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"canvas2Data\": {\n\t\t\"nodes\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {\n\t\t\t},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t},\n\t\t\"edges\": {\n\t\t\t\"_subscribers\": {\n\t\t\t\t\"*\": [],\n\t\t\t\t\"add\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"remove\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t],\n\t\t\t\t\"update\": [\n\t\t\t\t{},\n\t\t\t\t{},\n\t\t\t\t{}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"_options\": {},\n\t\t\t\"_data\": {},\n\t\t\t\"length\": 0,\n\t\t\t\"_idProp\": \"id\",\n\t\t\t\"_type\": {}\n\t\t}\n\t},\n\t\"setup\": {\n\t\t\"scale\": 1,\n\t\t\"viewPosition\": {\n\t\t\t\"x\": 827.4214000000001,\n\t\t\t\"y\": 697.1176\n\t\t}\n\t}\n}\n;",
           "x": 68409,
-          "y": 62303,
+          "y": 65490,
           "id": "indx1_451",
           "shape": "box",
           "link": "",
@@ -8120,7 +8120,7 @@ var schemeData =
           "label": "mm-vis-js:\n./utils/templates/\nindex.data.js.erb",
           "id": "indx1_452",
           "x": 72808,
-          "y": 62803,
+          "y": 65990,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8155,7 +8155,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_453",
           "x": 66177,
-          "y": 61568,
+          "y": 64755,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8187,7 +8187,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_454",
           "x": 67931,
-          "y": 61584
+          "y": 64771
         },
         "indx1_455": {
           "color": {
@@ -8220,7 +8220,7 @@ var schemeData =
           "label": "file path: ./utils/templates/index.html.erb",
           "id": "indx1_455",
           "x": 66307,
-          "y": 65706,
+          "y": 68893,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8256,7 +8256,7 @@ var schemeData =
           "label": "mm-vis-js:\n./utils/templates/\nindex.html.erb",
           "id": "indx1_456",
           "x": 72752,
-          "y": 67059,
+          "y": 70246,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8291,7 +8291,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_457",
           "x": 65289,
-          "y": 65689,
+          "y": 68876,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8323,12 +8323,12 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_458",
           "x": 67043,
-          "y": 65705
+          "y": 68892
         },
         "indx1_459": {
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title><%= pageTitle %></title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67578,
-          "y": 65675,
+          "y": 68862,
           "id": "indx1_459",
           "shape": "box",
           "link": "",
@@ -8345,7 +8345,7 @@ var schemeData =
         "indx1_460": {
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68011,
-          "y": 66002,
+          "y": 69189,
           "id": "indx1_460",
           "shape": "box",
           "link": "",
@@ -8362,7 +8362,7 @@ var schemeData =
         "indx1_461": {
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68184,
-          "y": 66516,
+          "y": 69703,
           "id": "indx1_461",
           "shape": "box",
           "link": "",
@@ -8379,7 +8379,7 @@ var schemeData =
         "indx1_462": {
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:350px;\n\tleft:170px;\n\tz-index:299;\n\twidth:250px;\n\theight:120px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n</style>",
           "x": 68026,
-          "y": 67079,
+          "y": 70266,
           "id": "indx1_462",
           "shape": "box",
           "link": "",
@@ -8396,7 +8396,7 @@ var schemeData =
         "indx1_463": {
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = false; \n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><input id=\"node-label\" value=\"new value\" /></td>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.0/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"<%= pageDataJsFileName %>?generateCode1 return setup['jsFilesLinksParam']; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup['jsFilesLinksParam']; generateCode2\"></script>\n</body>\n</html>",
           "x": 68394,
-          "y": 67552,
+          "y": 70739,
           "id": "indx1_463",
           "shape": "box",
           "link": "",
@@ -8682,7 +8682,7 @@ var schemeData =
           "label": "file path: ./e2eTests/common_test.js",
           "id": "indx1_475",
           "x": 66453,
-          "y": 70448,
+          "y": 73635,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8717,7 +8717,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "Feature('Basic test');\n\nScenario('navigate to homepage', I => {\n  I.amOnPage('http://app-express:3000/index.html');\n  I.saveScreenshot('frontpageScreenshot.png');\n  I.see('showData');\n});",
           "x": 67579,
-          "y": 70454,
+          "y": 73641,
           "id": "indx1_476",
           "shape": "box",
           "link": "",
@@ -8754,7 +8754,7 @@ var schemeData =
           "label": "mm-vis-js:\n./e2eTests/\ncommon_test.js",
           "id": "indx1_477",
           "x": 72640,
-          "y": 71555,
+          "y": 74742,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8789,7 +8789,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_478",
           "x": 65475,
-          "y": 70448,
+          "y": 73635,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8821,7 +8821,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_479",
           "x": 67088,
-          "y": 70437
+          "y": 73624
         },
         "indx1_480": {
           "color": {
@@ -8854,7 +8854,7 @@ var schemeData =
           "label": "file path: ./e2eTests/docker.conf.js",
           "id": "indx1_480",
           "x": 66468,
-          "y": 74484,
+          "y": 77671,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8889,7 +8889,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "exports.config = {\n  tests: './*-test.js',\n  output: './output',\n  helpers: {\n    WebDriver: {\n      url: 'http://app-express:3000',\n      host: 'chrome-container',\n      browser: 'chrome',\n      smartWait: 5000,\n      restart: false,\n      waitForTimeout: 10000,\n      timeouts: {\n        script: 60000,\n        'page load': 60000,\n      },\n      coloredLogs: true,\n      desiredCapabilities: {\n        chromeOptions: {\n          // https://peter.sh/experiments/chromium-command-line-switches/\n          args: [\n            '--headless',\n            '--disable-gpu', // Temporarily needed if running headless on Windows\n            // '--no-sandbox',\n            // '--disable-setuid-sandbox',\n          ],\n        },\n      },\n    },\n  },\n  bootstrap: false,\n  mocha: {},\n  name: 'codeceptjs-docker',\n};",
           "x": 67621,
-          "y": 74670,
+          "y": 77857,
           "id": "indx1_481",
           "shape": "box",
           "link": "",
@@ -8926,7 +8926,7 @@ var schemeData =
           "label": "mm-vis-js:\n./e2eTests/\ndocker.conf.js",
           "id": "indx1_482",
           "x": 72196,
-          "y": 75792,
+          "y": 78979,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8961,7 +8961,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_483",
           "x": 65490,
-          "y": 74484,
+          "y": 77671,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -8993,7 +8993,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_484",
           "x": 67103,
-          "y": 74473
+          "y": 77660
         },
         "indx1_485": {
           "color": {
@@ -9026,7 +9026,7 @@ var schemeData =
           "label": "file path: ./e2eTests/testServer.js",
           "id": "indx1_485",
           "x": 66509,
-          "y": 78736,
+          "y": 81923,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9061,7 +9061,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "const express = require('express');\n\nconst app = express();\n\nvar path = require('path');\n\napp.use(express.static(\"/home/node/public\"));\napp.get('/', function(req, res) {\n\tres.sendFile(path.join(__dirname, \"home/node/public\", \"index.html\"));\n});\n\nconst server = app.listen(3000, () => {\n  const { port } = server.address();\n  console.log(`Example app listening on port ${port}`);\n});",
           "x": 67630,
-          "y": 78814,
+          "y": 82001,
           "id": "indx1_486",
           "shape": "box",
           "link": "",
@@ -9098,7 +9098,7 @@ var schemeData =
           "label": "mm-vis-js:\n./e2eTests/\ntestServer.js",
           "id": "indx1_487",
           "x": 71890,
-          "y": 80044,
+          "y": 83231,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9133,7 +9133,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_488",
           "x": 65531,
-          "y": 78736,
+          "y": 81923,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9165,7 +9165,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_489",
           "x": 67144,
-          "y": 78725
+          "y": 81912
         },
         "indx1_490": {
           "color": {
@@ -9197,7 +9197,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_490",
           "x": 65367,
-          "y": 36723,
+          "y": 39910,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9233,7 +9233,7 @@ var schemeData =
           "label": "file path: ./app/culture.html",
           "id": "indx1_491",
           "x": 66392,
-          "y": 36716,
+          "y": 39903,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9265,7 +9265,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_492",
           "x": 66911,
-          "y": 36702
+          "y": 39889
         },
         "indx1_493": {
           "color": {
@@ -9298,7 +9298,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/culture.html",
           "id": "indx1_493",
           "x": 73026,
-          "y": 37410,
+          "y": 40597,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9333,7 +9333,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Culture &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67481,
-          "y": 36644,
+          "y": 39831,
           "id": "indx1_494",
           "shape": "box",
           "link": "",
@@ -9368,7 +9368,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67890,
-          "y": 36966,
+          "y": 40153,
           "id": "indx1_495",
           "shape": "box",
           "link": "",
@@ -9403,7 +9403,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68060,
-          "y": 37496,
+          "y": 40683,
           "id": "indx1_496",
           "shape": "box",
           "link": "",
@@ -9439,7 +9439,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67910,
-          "y": 38196,
+          "y": 41383,
           "id": "indx1_497",
           "shape": "box",
           "link": "",
@@ -9475,7 +9475,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.016, x: 95937, y: 8521};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"culture.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68178,
-          "y": 38943,
+          "y": 42130,
           "id": "indx1_498",
           "shape": "box",
           "link": "",
@@ -9484,7 +9484,7 @@ var schemeData =
         "indx1_499": {
           "id": "indx1_499",
           "x": 44471,
-          "y": 34247,
+          "y": 37519,
           "label": "updateSchemeFromMenu()",
           "shape": "box",
           "link": "",
@@ -9527,7 +9527,7 @@ var schemeData =
           "label": "updateMenuFromScheme()",
           "id": "indx1_500",
           "x": 44448,
-          "y": 34796,
+          "y": 38068,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9563,7 +9563,7 @@ var schemeData =
           "label": "clearPopUp()",
           "id": "indx1_501",
           "x": 44130,
-          "y": 35749,
+          "y": 39021,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9599,7 +9599,7 @@ var schemeData =
           "label": "cancelEdit(callback)",
           "id": "indx1_502",
           "x": 44280,
-          "y": 35895,
+          "y": 39167,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9635,7 +9635,7 @@ var schemeData =
           "label": "saveData(data,callback)",
           "id": "indx1_503",
           "x": 44373,
-          "y": 36048,
+          "y": 39320,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9671,7 +9671,7 @@ var schemeData =
           "label": "init()",
           "id": "indx1_504",
           "x": 43932,
-          "y": 36434,
+          "y": 39706,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9679,7 +9679,7 @@ var schemeData =
         "indx1_505": {
           "id": "indx1_505",
           "x": 41147,
-          "y": 36587,
+          "y": 39859,
           "label": "function saveDrawingSurface() {\n   drawingSurfaceImageData = ctx.getImageData(0, 0, canvas.width, canvas.height);\n}",
           "shape": "box",
           "link": "",
@@ -9696,7 +9696,7 @@ var schemeData =
         "indx1_506": {
           "id": "indx1_506",
           "x": 41047,
-          "y": 36736,
+          "y": 40008,
           "label": "function restoreDrawingSurface() {\n    ctx.putImageData(drawingSurfaceImageData, 0, 0);\n}",
           "shape": "box",
           "link": "",
@@ -9741,7 +9741,7 @@ var schemeData =
           "label": "saveDrawingSurface()",
           "id": "indx1_507",
           "x": 44330,
-          "y": 36627,
+          "y": 39899,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9777,7 +9777,7 @@ var schemeData =
           "label": "restoreDrawingSurface()",
           "id": "indx1_508",
           "x": 44380,
-          "y": 36764,
+          "y": 40036,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9813,7 +9813,7 @@ var schemeData =
           "label": "selectNodesFromHighlight()",
           "id": "indx1_509",
           "x": 44455,
-          "y": 36931,
+          "y": 40203,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9849,7 +9849,7 @@ var schemeData =
           "label": "getStartToEnd(start, theLen)",
           "id": "indx1_510",
           "x": 44466,
-          "y": 37259,
+          "y": 40531,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9885,7 +9885,7 @@ var schemeData =
           "label": "getNodesByRegexSearchInLabel(network, regex)",
           "id": "indx1_511",
           "x": 44939,
-          "y": 37419,
+          "y": 40691,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9921,7 +9921,7 @@ var schemeData =
           "label": "updateNodePositionData(network, node)",
           "id": "indx1_512",
           "x": 44742,
-          "y": 37705,
+          "y": 40977,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9957,7 +9957,7 @@ var schemeData =
           "label": "makeSaveProjectToBrowserNode(label, positionX, positionY)",
           "id": "indx1_513",
           "x": 45201,
-          "y": 38011,
+          "y": 41283,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -9993,7 +9993,7 @@ var schemeData =
           "label": "findProjectSavesKeys()",
           "id": "indx1_514",
           "x": 44356,
-          "y": 38431,
+          "y": 41703,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10029,7 +10029,7 @@ var schemeData =
           "label": "deleteNodesIfTheyAreProjectSaves(network, nodes)",
           "id": "indx1_515",
           "x": 44977,
-          "y": 38892,
+          "y": 42164,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10065,7 +10065,7 @@ var schemeData =
           "label": "removeSaveNodes()",
           "id": "indx1_516",
           "x": 44268,
-          "y": 39229,
+          "y": 42501,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10100,7 +10100,7 @@ var schemeData =
           "label": "removeSaveNodes()",
           "id": "indx1_517",
           "x": 44268,
-          "y": 39565,
+          "y": 42837,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10108,7 +10108,7 @@ var schemeData =
         "indx1_518": {
           "id": "indx1_518",
           "x": 44971,
-          "y": 39910,
+          "y": 43182,
           "label": "getProjectId(saveCanvasProjectDataNode, network)",
           "shape": "box",
           "link": "",
@@ -10151,7 +10151,7 @@ var schemeData =
           "label": "deleteProjectLocalStorageSaves(network)",
           "id": "indx1_519",
           "x": 44745,
-          "y": 40360,
+          "y": 43632,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10187,7 +10187,7 @@ var schemeData =
           "label": "deleteLocalStorageSavesAndSaveNodes(network)",
           "id": "indx1_520",
           "x": 44938,
-          "y": 40523,
+          "y": 43795,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10223,7 +10223,7 @@ var schemeData =
           "label": "deleteLocalStorageSaveAndSaveNodeBySaveName(network, saveName)",
           "id": "indx1_521",
           "x": 45462,
-          "y": 40687,
+          "y": 43959,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10259,7 +10259,7 @@ var schemeData =
           "label": "loadSavedProjectDataToDataMenuBySaveName(network, saveName)",
           "id": "indx1_522",
           "x": 45374,
-          "y": 40882,
+          "y": 44154,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10295,7 +10295,7 @@ var schemeData =
           "label": "saveProjectToBrowserLocalStorage(network)",
           "id": "indx1_523",
           "x": 44811,
-          "y": 41201,
+          "y": 44473,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10331,7 +10331,7 @@ var schemeData =
           "label": "clearBrowserLocalStorage()",
           "id": "indx1_524",
           "x": 44429,
-          "y": 41570,
+          "y": 44842,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10367,7 +10367,7 @@ var schemeData =
           "label": "showBrowserLocalStorage()",
           "id": "indx1_525",
           "x": 44438,
-          "y": 41791,
+          "y": 45063,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10403,7 +10403,7 @@ var schemeData =
           "label": "showBrowserLocalStorageKeys()",
           "id": "indx1_526",
           "x": 44549,
-          "y": 41964,
+          "y": 45236,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10439,7 +10439,7 @@ var schemeData =
           "label": "addConnections(elem, index)",
           "id": "indx1_527",
           "x": 44738,
-          "y": 58892,
+          "y": 62164,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10475,7 +10475,7 @@ var schemeData =
           "label": "importNetwork()",
           "id": "indx1_528",
           "x": 44441,
-          "y": 59203,
+          "y": 62475,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10511,7 +10511,7 @@ var schemeData =
           "label": "getNodeData(data)",
           "id": "indx1_529",
           "x": 44512,
-          "y": 59398,
+          "y": 62670,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10547,7 +10547,7 @@ var schemeData =
           "label": "getEdgeData(data)",
           "id": "indx1_530",
           "x": 44510,
-          "y": 59765,
+          "y": 63037,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10583,7 +10583,7 @@ var schemeData =
           "label": "c(x, y)",
           "id": "indx1_531",
           "x": 44787,
-          "y": 111350,
+          "y": 114622,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10619,7 +10619,7 @@ var schemeData =
           "label": "rdf()",
           "id": "indx1_532",
           "x": 44743,
-          "y": 111773,
+          "y": 115045,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10655,7 +10655,7 @@ var schemeData =
           "label": "localStorageSpace()",
           "id": "indx1_533",
           "x": 45106,
-          "y": 112112,
+          "y": 115384,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10691,7 +10691,7 @@ var schemeData =
           "label": "makeNodeJsonLine(id, label, link, x, y)",
           "id": "indx1_534",
           "x": 45510,
-          "y": 112477,
+          "y": 115749,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10763,7 +10763,7 @@ var schemeData =
           "label": "countSelectedNodesAndEdges()",
           "id": "indx1_536",
           "x": 45380,
-          "y": 112992,
+          "y": 116264,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -10799,7 +10799,7 @@ var schemeData =
           "label": "help()",
           "id": "indx1_537",
           "x": 44779,
-          "y": 113239,
+          "y": 116511,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11226,7 +11226,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_549",
           "x": 65322,
-          "y": 40092,
+          "y": 43279,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11262,7 +11262,7 @@ var schemeData =
           "label": "file path: ./app/ruby.html",
           "id": "indx1_550",
           "x": 66347,
-          "y": 40085,
+          "y": 43272,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -11294,7 +11294,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_551",
           "x": 66866,
-          "y": 40071
+          "y": 43258
         },
         "indx1_552": {
           "color": {
@@ -11362,7 +11362,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Ruby &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67436,
-          "y": 40013,
+          "y": 43200,
           "id": "indx1_553",
           "shape": "box",
           "link": "",
@@ -11397,7 +11397,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67845,
-          "y": 40335,
+          "y": 43522,
           "id": "indx1_554",
           "shape": "box",
           "link": "",
@@ -11432,7 +11432,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68015,
-          "y": 40865,
+          "y": 44052,
           "id": "indx1_555",
           "shape": "box",
           "link": "",
@@ -11467,7 +11467,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67865,
-          "y": 41565,
+          "y": 44752,
           "id": "indx1_556",
           "shape": "box",
           "link": "",
@@ -11503,7 +11503,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.015, x: 98162, y: 11141};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"ruby.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68133,
-          "y": 42312,
+          "y": 45499,
           "id": "indx1_557",
           "shape": "box",
           "link": "",
@@ -11643,7 +11643,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditNodesMenu\").keydown(function (event) {\n      //Close node left menu.Esc\n      if (event.keyCode === 27 &&\n          $(\"div#searchMenu\").length == 0) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeNodeEditButton\").click();\n         network.editNode();\n         $(\"#network div.vis-network\").focus();\n      }\n   });\n\n   $(\"div#schemeEditEdgesMenu\").keydown(function (event) {\nconsole.log(\"asdf\");\n      //Close edge left menu. Esc\n      if (event.keyCode === 27 &&\n          $(\"div#searchMenu\").length == 0) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeEdgeEditButton\").click();\nconsole.log(\"esc\");\n         $(\"#network div.vis-network\").focus();\n      }\n   });",
           "x": 42027,
-          "y": 103907,
+          "y": 107179,
           "id": "indx1_562",
           "shape": "box",
           "link": "",
@@ -11679,7 +11679,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditNodesMenu\").keydown(function (event) {\n      //saveNode. alt+Enter\n      if (event.altKey && event.keyCode === 13) {\n         $(\"span#saveNodeEditButton\").click();\n      }\n   });\n\n   $(\"div#schemeEditEdgesMenu\").keydown(function (event) {\n      //saveEdge. alt+Enter\n      if (event.altKey && event.keyCode === 13) {\n         $(\"span#saveEdgeEditButton\").click();\n      }\n   });",
           "x": 42028,
-          "y": 103265,
+          "y": 106537,
           "id": "indx1_563",
           "shape": "box",
           "link": "",
@@ -11715,7 +11715,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#schemeEditNodesMenu\").keydown(function (event) {\n      //saveNodes and closeNodes. ctrl+Enter\n      if (event.ctrlKey && event.keyCode === 13) {\n         $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n         $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n         nodeLabelTextareaExpanded = false;\n         $(\"span#saveNodeEditButton\").click();\n         $(\"span#closeNodeEditButton\").click();\n      }\n   });\n\n   $(\"div#schemeEditEdgesMenu\").keydown(function (event) {\n      //saveEdges and closeEdges. ctrl+Enter\n      if (event.ctrlKey && event.keyCode === 13) {\n         $(\"textarea#edgeLabelTextarea\").css(\"width\", \"167px\");\n         $(\"textarea#edgeLabelTextarea\").css(\"height\", \"45px\");\n         edgeLabelTextareaExpanded = false;\n         $(\"span#saveEdgeEditButton\").click();\n         $(\"span#closeEdgeEditButton\").click();\n      }\n   });",
           "x": 42027,
-          "y": 103528,
+          "y": 106800,
           "id": "indx1_564",
           "shape": "box",
           "link": "",
@@ -11751,7 +11751,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Cancel add node/edge. Esc\n      if (event.keyCode === 27 &&\n          document.getElementsByClassName(\"vis-back\").length == 0 &&\n          $(\"div#searchMenu\").length == 0) {\n         network.disableEditMode();\n         network.selectionHandler.unselectAll();\n         $(\"span#closeNodeEditButton\").click();\n         $(\"span#closeEdgeEditButton\").click();\n         network.editNode();\n      }\n   });",
           "x": 42054,
-          "y": 104210,
+          "y": 107482,
           "id": "indx1_565",
           "shape": "box",
           "link": "",
@@ -11787,7 +11787,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom out. shift+alt+d\n      if (event.shiftKey && event.altKey && event.keyCode === 68) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n\n         var scale = network.getScale();\n         var newScale = scale / 1.5;\n\n         if (cursorNodeId != null) {\n                node = network.body.data.nodes.get(cursorNodeId);\n                node.font.size = 5/newScale;\n                node = network.body.data.nodes.update(node);\n         }\n\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
           "x": 42048,
-          "y": 102138,
+          "y": 105410,
           "id": "indx1_566",
           "shape": "box",
           "link": "",
@@ -11823,7 +11823,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Zoom in. shfit+alt+f\n      if (event.shiftKey && event.altKey && event.keyCode === 70) {\n         nodesDropDownMenuNodesIds.forEach(function(nodeId) {\n            network.body.data.nodes.remove(nodeId);\n         });\n         nodesDropDownMenuNodesIds = [];\n\n         var scale = network.getScale();\n         var newScale = scale * 1.5;\n\n         if (cursorNodeId != null) {\n                node = network.body.data.nodes.get(cursorNodeId);\n                node.font.size = 5/newScale;\n                node = network.body.data.nodes.update(node);\n         }\n\n         var position = network.getViewPosition();\n         position = network.canvasToDOM(position);\n         network.interactionHandler.zoom(newScale, position);\n      }\n   });",
           "x": 42043,
-          "y": 102548,
+          "y": 105820,
           "id": "indx1_567",
           "shape": "box",
           "link": "",
@@ -11859,7 +11859,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Left align nodes. shift+alt+LeftArrow\n      if (event.shiftKey && event.altKey && event.keyCode === 37) {\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         var minLeft;\n         var nodesPositions = network.getPositions();\n         //for (var i in nodes) {\n         //        var nodeD = getNodeFromNetworkDataById(nodes[i].id);\n         //        var pNode = nodesPositions[nodes[i].id];\n         //        nodeD.x = pNode.x;\n         //        nodeD.y = pNode.y;\n         //        network.body.data.nodes.update(nodeD);\n         //}\n\n         for (i = 0; i < nodes.length; i++) {\n                 if (i == 0) minLeft = nodes[i].shape.left;\n                 if (minLeft > nodes[i].shape.left) {\n                         minLeft = nodes[i].shape.left;\n                 };\n         }\n\n         for (i = 0; i < nodes.length; i++) {\n                 var leftDiff = nodes[i].shape.left - parseFloat(minLeft.toFixed(5));\n                 //network.body.nodes[nodes[i].id].x = nodes[i].x - leftDiff;\n                 network.body.nodes[nodes[i].id].x = Number(nodesPositions[nodes[i].id].x - leftDiff);\n         }\n         network.body.emitter.emit(\"startSimulation\");\n\n       }\n   });",
           "x": 42091,
-          "y": 100603,
+          "y": 103875,
           "id": "indx1_568",
           "shape": "box",
           "link": "",
@@ -11901,7 +11901,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Toggle nodeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (nodeLabelTextareaExpanded) {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n            nodeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"580px\");\n            nodeLabelTextareaExpanded = true;\n         }\n      }\n   });\n   $(\"textarea#nodeLabelTextarea\").keydown(function (event) {\n      //Toggle nodeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (nodeLabelTextareaExpanded) {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"45px\");\n            nodeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#nodeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#nodeLabelTextarea\").css(\"height\", \"580px\");\n            nodeLabelTextareaExpanded = true;\n         }\n      }\n   });\n\n   $(\"div#network\").keydown(function (event) {\n      //Toggle edgeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (edgeLabelTextareaExpanded) {\n            $(\"textarea#edgeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#edgeLabelTextarea\").css(\"height\", \"45px\");\n            edgeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#edgeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#edgeLabelTextarea\").css(\"height\", \"580px\");\n            edgeLabelTextareaExpanded = true;\n         }\n      }\n   });\n   $(\"textarea#edgeLabelTextarea\").keydown(function (event) {\n      //Toggle edgeLabel textarea expansion. ctrl+Space\n      if (event.ctrlKey && event.keyCode === 32) {\n         if (edgeLabelTextareaExpanded) {\n            $(\"textarea#edgeLabelTextarea\").css(\"width\", \"167px\");\n            $(\"textarea#edgeLabelTextarea\").css(\"height\", \"45px\");\n            edgeLabelTextareaExpanded = false;\n         } else {\n            $(\"textarea#edgeLabelTextarea\").css(\"width\", \"940px\");\n            $(\"textarea#edgeLabelTextarea\").css(\"height\", \"580px\");\n            edgeLabelTextareaExpanded = true;\n         }\n      }\n   });",
           "x": 42051,
-          "y": 99909,
+          "y": 103181,
           "id": "indx1_570",
           "shape": "box",
           "link": "",
@@ -12009,7 +12009,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Duplicate. Ctrl+alt+d.\n      if (event.ctrlKey && event.altKey && event.keyCode === 68) {\n         if (nextOperationMultiplier.length > 0) {\n            var multiplyCount = parseInt(nextOperationMultiplier);\n            multiplySelected(multiplyCount, \"c\", 0, 30, 0);\n            nextOperationMultiplier = \"\";\n         } else {\n            selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n            selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n            duplicateGraph(selectedNodes, selectedEdges);\n         }\n      }\n   });",
           "x": 42115,
-          "y": 99375,
+          "y": 102647,
           "id": "indx1_573",
           "shape": "box",
           "link": "",
@@ -12045,7 +12045,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n                //Save canvas. Ctrl+alt+s\n\t\tif (event.ctrlKey && event.altKey && event.keyCode === 83) {\n\t\t\tvar saveOperationsParentNode;\n\t\t\tvar saveOperationsParentNodeName = \"Save operations code\";\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + saveOperationsParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + saveOperationsParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tsaveOperationsParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[saveOperationsParentNode.id].edges;\n\t\t\tvar saveOperationsCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == saveOperationsParentNode.id) {\n\t\t\t\t\tsaveOperationsCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof saveOperationsCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no saveOperationsCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(saveOperationsCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(saveOperationsCodeNode.id);\n\t\t}\n\t});",
           "x": 42221,
-          "y": 99018,
+          "y": 102290,
           "id": "indx1_574",
           "shape": "box",
           "link": "",
@@ -12081,7 +12081,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Build project. alt+b\n      if (event.altKey && event.keyCode === 66) {\n         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 1) {\n            console.log(\"Select one node\");\n            showAlert(\"Select one node\", 80, 150);\n            return;\n         }\n         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);\n         var rootNode = getNodeFromNetworkDataById(rootNodeId);\n         var projectName = rootNode.label.replace(\"mvj code file for project name: \",\"\");\n\t\t\tvar buildProjectParentNode;\n\t\t\tvar buildProjectParentNodeName = \"buildProject code: \" + projectName;\n\t\t\tvar nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + buildProjectParentNodeName + \"$\"));\n\t\t\tif (nodes.length == 0) {\n\t\t\t\tconsole.log(\"ERROR: no \" + buildProjectParentNodeName + \" node\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tbuildProjectParentNode = nodes[0];\n\t\t\tvar edges = network.body.nodes[buildProjectParentNode.id].edges;\n\t\t\tvar buildProjectCodeNode;\n\t\t\tfor (var key in edges) {\n\t\t\t\tif (edges[key].fromId == buildProjectParentNode.id) {\n\t\t\t\t\tbuildProjectCodeNode = edges[key].to;\n\t\t\t\t}\n\t\t\t}\t\n\t\t\tif (typeof buildProjectCodeNode === \"undefined\") {\n\t\t\t\tconsole.log(\"ERROR: no buildProjectCodeNode\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar code = collectCodeNodesContent(buildProjectCodeNode.id);\n\t\t\tvar codeFunction = new Function('codeNodeId', code);\n\t\t\tcodeFunction(buildProjectCodeNode.id);\n\t\t}\n\t});",
           "x": 42208,
-          "y": 96797,
+          "y": 100069,
           "id": "indx1_575",
           "shape": "box",
           "link": "",
@@ -12117,7 +12117,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "    function editEdgeWithoutDrag(data, callback) {\n      // filling in the popup DOM elements\n      document.getElementById('edge-label').value = data.label;\n      document.getElementById('edge-saveButton').onclick = saveEdgeData.bind(this, data, callback);\n      document.getElementById('edge-cancelButton').onclick = cancelEdgeEdit.bind(this,callback);\n      document.getElementById('edge-popUp').style.display = 'block';\n    }",
           "x": 42996,
-          "y": 17573,
+          "y": 20845,
           "id": "indx1_576",
           "shape": "box",
           "link": "",
@@ -12153,7 +12153,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "    function saveEdgeData(data, callback) {\n      if (typeof data.to === 'object')\n        data.to = data.to.id\n      if (typeof data.from === 'object')\n        data.from = data.from.id\n      data.label = document.getElementById('edge-label').value;\n      clearEdgePopUp();\n      callback(data);\n    }",
           "x": 42876,
-          "y": 17950,
+          "y": 21222,
           "id": "indx1_577",
           "shape": "box",
           "link": "",
@@ -12189,7 +12189,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "    function cancelEdgeEdit(callback) {\n      clearEdgePopUp();\n      callback(null);\n    }",
           "x": 42798,
-          "y": 17809,
+          "y": 21081,
           "id": "indx1_578",
           "shape": "box",
           "link": "",
@@ -12225,7 +12225,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "    function clearEdgePopUp() {\n      document.getElementById('edge-saveButton').onclick = null;\n      document.getElementById('edge-cancelButton').onclick = null;\n      document.getElementById('edge-popUp').style.display = 'none';\n    }",
           "x": 42892,
-          "y": 17702,
+          "y": 20974,
           "id": "indx1_579",
           "shape": "box",
           "link": "",
@@ -12307,7 +12307,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_583",
           "x": 65357,
-          "y": 43646,
+          "y": 46833,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12342,7 +12342,7 @@ var schemeData =
           "label": "file path: ./app/javascript.html",
           "id": "indx1_584",
           "x": 66382,
-          "y": 43639,
+          "y": 46826,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12374,7 +12374,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_585",
           "x": 66901,
-          "y": 43625
+          "y": 46812
         },
         "indx1_586": {
           "color": {
@@ -12406,7 +12406,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/javascript.html",
           "id": "indx1_586",
           "x": 73637,
-          "y": 44323,
+          "y": 47510,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12441,7 +12441,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>JavaScript &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67471,
-          "y": 43567,
+          "y": 46754,
           "id": "indx1_587",
           "shape": "box",
           "link": "",
@@ -12476,7 +12476,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 67876,
-          "y": 43889,
+          "y": 47076,
           "id": "indx1_588",
           "shape": "box",
           "link": "",
@@ -12511,7 +12511,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68048,
-          "y": 44419,
+          "y": 47606,
           "id": "indx1_589",
           "shape": "box",
           "link": "",
@@ -12546,7 +12546,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 67900,
-          "y": 45119,
+          "y": 48306,
           "id": "indx1_590",
           "shape": "box",
           "link": "",
@@ -12582,7 +12582,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.0156, x: 102403, y: 11800};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"javascript.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68168,
-          "y": 45866,
+          "y": 49053,
           "id": "indx1_591",
           "shape": "box",
           "link": "",
@@ -12598,7 +12598,7 @@ var schemeData =
           "id": "indx1_593",
           "x": 41148,
           "y": -13710,
-          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic1.html \\\nmusic1.data.js \\\nmusic2.html \\\nmusic2.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews11.html \\\nnews11.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\nnews41.html \\\nnews41.data.js \\\nnews5.html \\\nnews5.data.js \\\nnews51.html \\\nnews51.data.js \\\nnews52.html \\\nnews52.data.js \\\nnews53.html \\\nnews53.data.js \\\nnews6.html \\\nnews6.data.js \\\nnews61.html \\\nnews61.data.js \\\nnews7.html \\\nnews7.data.js \\\nyoutube1.html \\\nyoutube1.data.js \\\nyoutube2.html \\\nyoutube2.data.js \\\nyoutube3.html \\\nyoutube3.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nnature.html \\\nnature.data.js \\\njava.html \\\njava.data.js \\\njava-api.html \\\njava-api.data.js \\\nsa1.html \\\nsa1.data.js \\\nadmin.html \\\nadmin.data.js \\\nlisp.html \\\nlisp.data.js \\\n../../sushilshik.github.io/",
+          "label": "cp -r application.js \\\nindex.html \\\nindex.data.js \\\nbase.html \\\nbase.data.js \\\nculture.html \\\nculture.data.js \\\nruby.html \\\nruby.data.js \\\njavascript.html \\\njavascript.data.js \\\nmusic1.html \\\nmusic1.data.js \\\nmusic2.html \\\nmusic2.data.js \\\nmm-vis-js_code.html \\\nmm-vis-js_code.data.js \\\nmm-vis-js_docs.html \\\nmm-vis-js_docs.data.js \\\nmath.html \\\nmath.data.js \\\npublic \\\npython.html \\\npython.data.js \\\nengineering.html \\\nengineering.data.js \\\ncode.html \\\ncode.data.js \\\n../README.md \\\nnews1.html \\\nnews1.data.js \\\nnews11.html \\\nnews11.data.js \\\nnews2.html \\\nnews2.data.js \\\nnews3.html \\\nnews3.data.js \\\nnews4.html \\\nnews4.data.js \\\nnews41.html \\\nnews41.data.js \\\nnews5.html \\\nnews5.data.js \\\nnews51.html \\\nnews51.data.js \\\nnews52.html \\\nnews52.data.js \\\nnews53.html \\\nnews53.data.js \\\nnews6.html \\\nnews6.data.js \\\nnews61.html \\\nnews61.data.js \\\nnews7.html \\\nnews7.data.js \\\nyoutube1.html \\\nyoutube1.data.js \\\nyoutube2.html \\\nyoutube2.data.js \\\nyoutube3.html \\\nyoutube3.data.js \\\ntimelines.html \\\ntimelines.data.js \\\nnature.html \\\nnature.data.js \\\njava.html \\\njava.data.js \\\njava-api.html \\\njava-api.data.js \\\nsa1.html \\\nsa1.data.js \\\nadmin.html \\\nadmin.data.js \\\nlisp.html \\\nlisp.data.js \\\nlang.html \\\nlang.data.js \\\n../../sushilshik.github.io/",
           "shape": "box",
           "link": "",
           "font": {
@@ -12665,7 +12665,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_598",
           "x": 65514,
-          "y": 47336,
+          "y": 50523,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -12701,7 +12701,7 @@ var schemeData =
           "label": "file path: ./app/music1.html",
           "id": "indx1_599",
           "x": 66539,
-          "y": 47329,
+          "y": 50516,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -12733,7 +12733,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_600",
           "x": 67058,
-          "y": 47315
+          "y": 50502
         },
         "indx1_601": {
           "color": {
@@ -12766,7 +12766,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/music1.html",
           "id": "indx1_601",
           "x": 73109,
-          "y": 48013,
+          "y": 51200,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -12801,7 +12801,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Music1 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67628,
-          "y": 47257,
+          "y": 50444,
           "id": "indx1_602",
           "shape": "box",
           "link": "",
@@ -12836,7 +12836,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68033,
-          "y": 47579,
+          "y": 50766,
           "id": "indx1_603",
           "shape": "box",
           "link": "",
@@ -12871,7 +12871,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68205,
-          "y": 48109,
+          "y": 51296,
           "id": "indx1_604",
           "shape": "box",
           "link": "",
@@ -12906,7 +12906,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 68057,
-          "y": 48809,
+          "y": 51996,
           "id": "indx1_605",
           "shape": "box",
           "link": "",
@@ -12942,7 +12942,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.014, x: 98173, y: 12615};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music1.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68325,
-          "y": 49556,
+          "y": 52743,
           "id": "indx1_606",
           "shape": "box",
           "link": "",
@@ -12978,7 +12978,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Run node code. alt+r\n      if (event.altKey == true &&\n          event.shiftKey == false &&\n          event.ctrlKey == false &&\n          event.keyCode === 82) {\n         $(\"span#runNodeCodeButton\").click();\n      }\n   });",
           "x": 42000,
-          "y": 96429,
+          "y": 99701,
           "id": "indx1_607",
           "shape": "box",
           "link": "",
@@ -13014,7 +13014,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function getLevelLastBranch(tree, levelNumber) {\n   var branch = tree;\n   var lastKey = tree.keys.slice(-1)[0];\n   for (var i = 0; i < levelNumber; i++) {\n      branch = branch.nodes[lastKey];\n      if (typeof branch === \"undefined\") {\n         return branch;\n      }\n      console.log(branch);\n      lastKey = branch.keys.slice(-1)[0];\n   }\n   return branch;\n}",
           "x": 40970,
-          "y": 43106,
+          "y": 46378,
           "id": "indx1_608",
           "shape": "box",
           "link": "",
@@ -13050,7 +13050,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function buildRow(item, index, root) {\n\n   var currentItemStep = item.match(/^\\s*/g)[0].split(\"    \").length - 1;\n\n   var key = index.toString();\n\n   var labelAndLink = item.trim().split(\" (http\");\n   var label = labelAndLink[0].trim();\n\n   if (root.lastItemStep < currentItemStep) {\n      var branch = {nodes:{}};\n      branch.keys = [key];\n      branch.nodes[key] = item.trim();\n      branch.maxWidth = label.length;\n      branch.itemStep = currentItemStep;\n      branch.lastItemStep = currentItemStep;\n      var parentLevel = getLevelLastBranch(root, currentItemStep - 1);\n      parentLevel.nodes[key] = branch;\n      parentLevel.keys.push(key);\n   } else {\n      var parentLevel = getLevelLastBranch(root, currentItemStep);\n      parentLevel.nodes[key] = item.trim();\n      if (parentLevel.maxWidth < label.length) {\n         parentLevel.maxWidth = label.length;\n      }\n      parentLevel.keys.push(key);\n   }\n\n   root.lastItemStep = item.match(/^\\s*/g)[0].split(\"    \").length - 1;\n\n   return root;\n}",
           "x": 41032,
-          "y": 43520,
+          "y": 46792,
           "id": "indx1_609",
           "shape": "box",
           "link": "",
@@ -13086,7 +13086,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function buildPagesNodes(level, width, alignMap, parentNodeId) {\n   var nodeIdInput = schemeEditNodesMenu.find(\"input#nodeIdInput\").val();\n   var pNode = network.getPositions()[nodeIdInput];\n   var keys = level.keys;\n   var lastNodeId;\n   level.keys.forEach(function(key, index) {\n      if (typeof level.nodes[key].nodes !== \"undefined\") {\n         var newWidth = width + level.maxWidth*14;\n         buildPagesNodes(level.nodes[key], newWidth, alignMap, lastNodeId);\n      } else {\n         var line = level.nodes[key];\n         var labelAndLink = line.split(\" (http\");\n         var label = labelAndLink[0].trim();\n         var link = \"\";\n         if (typeof labelAndLink[1] !== \"undefined\") {\n            link = \"http\" + labelAndLink[1].slice(0,-1);\n         }\n         var nodeId = addNodeWithIdOnCanvas(\n            label, \n            link,\n            {x:pNode.x, y:pNode.y}, \n            width + level.maxWidth*14/2, \n            25*parseInt(key, 10), \n            network,\n            parentNodeId + \"b\" + String(index))[0];\n         lastNodeId = nodeId;\n         if (typeof parentNodeId !== \"undefined\" && parentNodeId !== null) {\n            var edgeData = {from: parentNodeId, to: nodeId};\n            network.body.data.edges.getDataSet().add(edgeData);\n         }\n         if (typeof alignMap[keys[0]] === \"undefined\") {\n            alignMap[keys[0]] = [];\n         }\n         alignMap[keys[0]].push(network.body.nodes[nodeId]);\n      }\n   });\n}",
           "x": 41062,
-          "y": 42484,
+          "y": 45756,
           "id": "indx1_610",
           "shape": "box",
           "link": "",
@@ -13122,7 +13122,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keyup(function (event) {\n      //Split node label. ctrl+alt+v\n      if (event.ctrlKey && event.altKey && event.keyCode === 86) {\n         $(\"span#splitNodeListLabelButton\").click();\n      }\n   });",
           "x": 42054,
-          "y": 96293,
+          "y": 99565,
           "id": "indx1_611",
           "shape": "box",
           "link": "",
@@ -13131,7 +13131,7 @@ var schemeData =
         "indx1_612": {
           "id": "indx1_612",
           "x": 41237,
-          "y": 44753,
+          "y": 48025,
           "label": "   function splitNodeLabelToList(nodeId) {\n      var sourceNode = getNodeFromNetworkDataById(nodeId);\n      var nodeLabel = sourceNode.label.trim();\n      var pNode = network.getPositions()[nodeId];\n      var labelLines;\n      if (nodeLabel.split(\"!@!@\").length > 1) {\n         labelLines = nodeLabel.split(\"\\n!@!@\\n\");\n      } else {\n         labelLines = nodeLabel.split(\"\\n\");\n      }\n      var newLabelLines = [];\n      labelLines.forEach(function(line) {\n         if (line.length > 0) newLabelLines.push(line);\n      });\n      var nodeBBox = network.nodesHandler.getBoundingBox(nodeId);\n      var y = nodeBBox[\"top\"];\n      var newNodesIds = [];\n      var newNodesIdsCol2 = [];\n      if (newLabelLines[0] == \"to\") {\n         newLabelLines.shift();\n         var root = {nodes:{}};\n         root.itemStep = 0;\n         root.lastItemStep = 0;\n         root.maxWidth = 0;\n         root.keys = []\n         newLabelLines.forEach(function(line,index) {\n            root = buildRow(line, index, root);\n            console.log(\"splitNode. Add node. to: \" + String(index) + \", \" + String(newLabelLines.length));\n         });\n         var alignMap = {};\n         buildPagesNodes(root, 600, alignMap, nodeId);\n         for (var key in alignMap) {\n            //console.log(key);\n            alignNodesLeft(alignMap[key]);\n         }\n      } else if (newLabelLines[0] == \"tg\") {\n         newLabelLines.shift();\n         newLabelLines.forEach(function(line,index) {\n            console.log(line);\n            buildThemeGraph(line, pNode.x + 500, pNode.y + 1500*index);\n            network.body.data.nodes.add({\n               id: nodeId + \"b\" + index,\n   \t       label:line,\n   \t       x: pNode.x + 7000,\n   \t       y: pNode.y + 1500*index,\n               font: {size: 1000},\n               color: {background:\"#ffc63b\"} \n            });\n            console.log(\"splitNode. Add node. tg: \" + String(index) + \", \" + String(newLabelLines.length));\n         });\n      } else if (newLabelLines[0] == \"wiki\") {\n         newLabelLines.shift();\n         var alignNodesList = [];\n         for (var i=0; i< newLabelLines.length; i++) {\n            var line = newLabelLines[i];\n            console.log(line);\n            link = \"\";\n            var wikiLinkPart = line.match(/.*?\\[\\[(.*?)\\]\\].*/);\n            if (wikiLinkPart != null) {\n               var linkPart = wikiLinkPart[1].replace(/\\|.*/,\"\").trim();\n               link = \"https://en.wikipedia.org/wiki/\" + linkPart;\n            }\n            var addedNodeId = network.body.data.nodes.add({\n               id: nodeId + \"b\" + String(i),\n   \t       label:line,\n               link: link,\n   \t       x: pNode.x + 500,\n   \t       y: pNode.y + 25*i \n            })[0];\n            console.log(\"splitNode. Add node. wiki: \" + String(i) + \", \" + String(newLabelLines.length));\n            alignNodesList.push(network.body.nodes[addedNodeId]);\n         };\n         alignNodesLeft(alignNodesList);\n      } else {\n         newLabelLines.forEach(function(line,index) {\n            //Add starting \"//#1\" for comments nodes\n            if (newLabelLines[0].lastIndexOf(\"//#1\", 0) === 0 && line.lastIndexOf(\"//#1\", 0) !== 0) {\n               line = \"//#1 \" + line;\n            }\n            var position = {\n               x: pNode.x + 300,\n               y: y + (14*line.split(\"\\n\").length)/2\n            };\n            var newNodeId = nodeId + \"b\" + String(index);\n            var addedNodeId = addNodeWithIdOnCanvas(line, \"\", position, 0, 0, network, newNodeId);\n            console.log(\"splitNode. Add node: \" + String(index) + \", \" + String(newLabelLines.length));\n            newNodesIds.push(addedNodeId);\n            y = y + 14*line.split(\"\\n\").length + 10;\n            //If use !@!@ delimiter, then take result string and use it first line as\n            //label for new node to the right. E.g. as label for function name.\n            if (nodeLabel.split(\"!@!@\").length > 1) {\n               labelNodeLabel = line.split(\"\\n\").length > 0 ? line.split(\"\\n\")[0] : \"\";\n               var labelNodePosition = {x: position.x + 1000, y: position.y};\n               var newLabelNodeId = nodeId + \"bb\" + String(index);\n               var addedLabelNodeId = addNodeWithIdOnCanvas(labelNodeLabel, \"\", labelNodePosition, 0, 0, network, newLabelNodeId)[0];\n               newNodesIdsCol2.push(addedLabelNodeId);\n               network.body.data.edges.add({\n                  from:newNodeId,\n                  to:addedLabelNodeId\n               });\n            }\n         });\n         console.log(\"splitNode. Align nodes\");\n         var nodes = [];\n         newNodesIds.forEach(function(nodeId) {      \n            nodes.push(network.body.nodes[nodeId]);\n         });\n         alignNodesLeft(nodes);\n         var nodesCol2 = [];\n         newNodesIdsCol2.forEach(function(nodeId) {      \n            nodesCol2.push(network.body.nodes[nodeId]);\n         });\n         alignNodesLeft(nodesCol2);\n      }\n   }",
           "shape": "box",
           "link": "",
@@ -13176,7 +13176,7 @@ var schemeData =
           "label": "splitNodeLabelToList(nodeId)",
           "id": "indx1_613",
           "x": 44443,
-          "y": 44321,
+          "y": 47593,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14736,7 +14736,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_662",
           "x": 65564,
-          "y": 54769,
+          "y": 57956,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14772,7 +14772,7 @@ var schemeData =
           "label": "file path: ./app/mm-vis-js_code.html",
           "id": "indx1_663",
           "x": 66589,
-          "y": 54762,
+          "y": 57949,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14804,7 +14804,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_664",
           "x": 67108,
-          "y": 54748
+          "y": 57935
         },
         "indx1_665": {
           "color": {
@@ -14837,7 +14837,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/mm-vis-js_code.html",
           "id": "indx1_665",
           "x": 75026,
-          "y": 55446,
+          "y": 58633,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -14872,7 +14872,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js code &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67678,
-          "y": 54690,
+          "y": 57877,
           "id": "indx1_666",
           "shape": "box",
           "link": "",
@@ -14907,7 +14907,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68083,
-          "y": 55012,
+          "y": 58199,
           "id": "indx1_667",
           "shape": "box",
           "link": "",
@@ -14942,7 +14942,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68255,
-          "y": 55542,
+          "y": 58729,
           "id": "indx1_668",
           "shape": "box",
           "link": "",
@@ -14977,7 +14977,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 68107,
-          "y": 56242,
+          "y": 59429,
           "id": "indx1_669",
           "shape": "box",
           "link": "",
@@ -15013,7 +15013,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.01, x: 65673, y: 17508};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_code.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68375,
-          "y": 56989,
+          "y": 60176,
           "id": "indx1_670",
           "shape": "box",
           "link": "",
@@ -15785,7 +15785,7 @@ var schemeData =
         "indx1_698": {
           "id": "indx1_698",
           "x": 42037,
-          "y": 96161,
+          "y": 99433,
           "label": "   $(document).keyup(function (event) {\n      //move view to position from birdView variable. alt+h\n      if (event.altKey && event.keyCode === 72) {\n         if(typeof birdView !== \"undefined\") {\n            moveViewTo(birdView.x, birdView.y, birdView.scale);\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -17418,7 +17418,7 @@ var schemeData =
           "label": "app.listen(port, host);\n\nvar options = {\n  key: fs.readFileSync('server.key'),\n  cert: fs.readFileSync('server.cert')\n};\nhttps.createServer( options, function(req,res) {\n    app.handle( req, res );\n}).listen(httpsPort, function() {\n    console.log(\"mvj-serv.js started\");\n});",
           "id": "indx1_746",
           "x": 65026,
-          "y": 24848,
+          "y": 28139,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -17454,15 +17454,15 @@ var schemeData =
           "label": "app.get(\"/sympy\", function(request, response){ //root dir\n   response.set('Access-Control-Allow-Origin', '*');\n   var dataPart = request.query.dataPart;\n\n   console.log(dataPart);\n\n   var cmd1 = \"printf \\\"\" + dataPart + \"\\\" | python3\";\n\n   var execSync1 = require('child_process').execSync;\n\n   var options1 = {\n      encoding: 'utf8'\n   };\n\n   var calcResult1 = execSync1(cmd1, options1);\n   var symPyData = JSON.parse(calcResult1);\n   //console.log(\"symPyData:\");\n   //console.log(symPyData);\n   console.log(\"calcResult1:\");\n   console.log(calcResult1);\n\n   try{fs.unlinkSync(\"host.aux\"); }catch(err){ console.log(err); }\n   try{fs.unlinkSync(\"host.log\"); }catch(err){ console.log(err); }\n   try{fs.unlinkSync(\"host.pdf\"); }catch(err){ console.log(err); }\n   try{fs.unlinkSync(\"host.tex\"); }catch(err){ console.log(err); }\n   try{fs.unlinkSync(\"main.aux\"); }catch(err){ console.log(err); }\n   try{fs.unlinkSync(\"main.log\"); }catch(err){ console.log(err); }\n   try{fs.unlinkSync(\"main.pdf\"); }catch(err){ console.log(err); }\n   try{fs.unlinkSync(\"main.tex\"); }catch(err){ console.log(err); }\n\n   var texFile = `\\\\documentclass[preview,border=12pt,12pt]{standalone}\n\\\\usepackage{filecontents}\n\\\\usepackage{amsmath}\n\\\\begin{filecontents*}{main.tex}\n\\\\documentclass[12pt]{article}\n\\\\usepackage[active,tightpage]{preview}\n\\\\PreviewBorder=12pt\\\\relax\n\\\\begin{document}\n\\\\preview\n\\\\(` + \"\\n\" +\nsymPyData['latexLine'] + \"\\n\" +\n`\\\\)\n\\\\endpreview\n\\\\end{document}\n\\\\end{filecontents*}\n\\\\usepackage{graphicx}\n\\\\immediate\\\\write18{pdflatex main.tex}\n\\\\immediate\\\\write18{convert -density 300 -background white -alpha remove main.pdf main.png}\n\\\\begin{document}\nThe following is a PNG image.\\\\newline\n\\\\fbox{\\\\includegraphics{main.png}}\n\\\\end{document}`;\n\n   if (typeof symPyData['latexLine'] !== 'undefined') {\n      fs.writeFileSync(\"host.tex\", texFile);\n   }\n   if (typeof symPyData['latexImgName'] !== 'undefined') {\n      var execSync2 = require('child_process').execSync;\n\n      var options2 = {encoding: 'utf8'};\n\n      var cmd2 = \"pdflatex --shell-escape host.tex\";\n      execSync2(cmd2, options2);\n   \n      fs.renameSync('main.png', '../app/public/imgs/' + symPyData['latexImgName']);\n   }\n\n   if (typeof symPyData['plotImgName'] !== 'undefined') {\n      fs.renameSync(symPyData['plotImgName'], '../app/public/imgs/' + symPyData['plotImgName']);\n   }\n\n   //console.log(texFile);\n\n   answerLine = JSON.stringify(calcResult1);\n   response.send(answerLine);\n});",
           "id": "indx1_747",
           "x": 65176,
-          "y": -917,
+          "y": -755,
           "shape": "box",
           "link": "",
           "borderWidth": ""
         },
         "indx1_748": {
           "id": "indx1_748",
-          "x": 41165,
-          "y": 10286,
+          "x": 41106,
+          "y": 10959,
           "label": "function calcSymPy(symPyData, codeNodeId) {\n   var url = \"https://localhost:3001/sympy\";\n   \n   var nodesPositions = network.getPositions();\n   var mathScriptNodeP = nodesPositions[codeNodeId];\n   \n   var mathScriptNode = getNodeFromNetworkDataById(codeNodeId);\n   mathScriptNode.x = mathScriptNodeP.x;\n   mathScriptNode.y = mathScriptNodeP.y;\n   network.body.data.nodes.update(mathScriptNode);\n   \n   function fetchData(url, params, mathScriptNodeP) {\n      var calcResult = \"\";\n      url = url + \"?origin=*\";\n      Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n   \n      fetch(url)\n          .then(function(response){\n             return response.json();})\n          .then(function(response) {\n             calcResult = response;\n\n             console.log(response);\n             var symPyData = JSON.parse(response);\n             console.log(symPyData);\n             var mathScriptNode = network.body.nodes[codeNodeId];\n             var topY = mathScriptNode.y - mathScriptNode.shape.height/2;\n             var maxBranchWidth = 0;\n             var resultBranches = [];\n             if (typeof symPyData[\"plotImgName\"] !== 'undefined') {\n                var d = new Date();\n                var millis = String(d.getTime());\n                var imgPath = servUrl + publicImgsPath + symPyData[\"plotImgName\"] + \"?\" + millis;\n                console.log(imgPath);\n                var imgNodeId = network.body.data.nodes.add([{\n                   label: \"\",\n                   image: imgPath,\n                   shape: \"image\",\n                   size: 200,\n                   x:mathScriptNodeP.x + mathScriptNode.shape.width/2 + 300,\n                   y:mathScriptNodeP.y,\n                   font: {face: \"monospace\"}\n                }])[0];\n                var imgNode = network.body.nodes[imgNodeId];\n                imgNode.imageObj.image.crossOrigin = \"Anonymous\";\n                imgNode.y = topY + imgNode.shape.height/2;\n                topY = topY + imgNode.shape.height;\n                network.body.data.edges.add({\n                   from:codeNodeId,\n                   to:imgNodeId\n                });\n                resultBranches.push(imgNode);\n                if (imgNode.shape.width > maxBranchWidth) maxBranchWidth = imgNode.shape.width;\n             }\n             if (typeof symPyData[\"latexImgName\"] !== 'undefined') {\n                var d = new Date();\n                var millis = String(d.getTime());\n                var imgPath = servUrl + publicImgsPath + symPyData[\"latexImgName\"] + \"?\" + millis;\n                console.log(imgPath);\n                var imgNodeId = network.body.data.nodes.add([{\n                   label: \"\",\n                   image: imgPath,\n                   shape: \"image\",\n                   size: 70,\n                   x:mathScriptNodeP.x + mathScriptNode.shape.width/2 + 300,\n                   y:mathScriptNodeP.y,\n                   font: {face: \"monospace\"}\n                }])[0];\n                var imgNode = network.body.nodes[imgNodeId];\n                imgNode.imageObj.image.crossOrigin = \"Anonymous\";\n                imgNode.y = topY + imgNode.shape.height/2;\n                topY = topY + imgNode.shape.height;\n                network.body.data.edges.add({\n                   from:codeNodeId,\n                   to:imgNodeId\n                });\n                resultBranches.push(imgNode);\n                if (imgNode.shape.width > maxBranchWidth) maxBranchWidth = imgNode.shape.width;\n             }\n             if (typeof symPyData[\"expression\"] !== 'undefined') {\n                var nodeId = network.body.data.nodes.add([{\n                   label: symPyData[\"expression\"],\n                   x:mathScriptNodeP.x + mathScriptNode.shape.width/2 + 300,\n                   y:mathScriptNodeP.y,\n                   font: {face: \"monospace\"}\n                }])[0];\n                var node = network.body.nodes[nodeId];\n                node.y = topY + node.shape.height/2;\n                network.body.data.edges.add({\n                   from:codeNodeId,\n                   to:nodeId\n                });\n                resultBranches.push(node);\n                if (node.shape.width > maxBranchWidth) maxBranchWidth = node.shape.width;\n             }\n             for (var i=0; i < resultBranches.length; i++) {\n                resultBranches[i].x = mathScriptNodeP.x + mathScriptNode.shape.width/2 + 200 + maxBranchWidth/2;\n             }\n          })\n          .catch(function(error){\n             console.log(error);\n          });\n      return calcResult;\n   }\n   \n   dataChunk = encodeURIComponent(symPyData);\n   var params = {\n      dataPart: dataChunk,\n      codeNodeId: codeNodeId\n   };\n   \n   fetchData(url, params, mathScriptNodeP);\n}",
           "shape": "box",
           "link": "",
@@ -17507,7 +17507,7 @@ var schemeData =
           "label": "calcSymPy(symPyData, codeNodeId)",
           "id": "indx1_749",
           "x": 44086,
-          "y": 9759,
+          "y": 10432,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17543,7 +17543,7 @@ var schemeData =
           "label": "buildRow(item, index, root)",
           "id": "indx1_750",
           "x": 44390,
-          "y": 43486,
+          "y": 46758,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17579,7 +17579,7 @@ var schemeData =
           "label": "buildPagesNodes(level, width, alignMap, parentNodeId)",
           "id": "indx1_751",
           "x": 45047,
-          "y": 42259,
+          "y": 45531,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17615,7 +17615,7 @@ var schemeData =
           "label": "getLevelLastBranch(tree, levelNumber)",
           "id": "indx1_752",
           "x": 44666,
-          "y": 43061,
+          "y": 46333,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -17685,7 +17685,7 @@ var schemeData =
           "label": "runNodeCodeButton.click(function() {",
           "id": "indx1_755",
           "x": 44741,
-          "y": 54538,
+          "y": 57810,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -18006,7 +18006,7 @@ var schemeData =
         "indx1_765": {
           "id": "indx1_765",
           "x": 41960,
-          "y": 9738,
+          "y": 10411,
           "label": "sympy\nfrom sympy import *\nfrom sympy import Symbol, sin\nfrom sympy.plotting import plot, textplot\nimport json\njsonData = {}\n\n#t = Symbol('t')\n\nx, y, z, t = symbols('x y z t')\n\ninteg = Integral((x**6 + x**2*exp(x) - x**2 - 2*x*exp(x) - 2*x - exp(x))*exp(x)/((x - 1)**2*(x + 1)**2*(exp(x) + 1)), x)\n\nexpression1 = sin(t)*t\n\njsonData['expression'] = str(expression1)\n#jsonData['latexLine'] = latex(integ)\n#jsonData['latexImgName'] = 'latexImg.png'\n\np = plot(expression1, 0, 15, show=False)\n\njsonData['plotImgName'] = 'plot.png'\np.save(jsonData['plotImgName'])\n\nprint(json.dumps(jsonData))",
           "shape": "box",
           "link": "",
@@ -18428,7 +18428,7 @@ var schemeData =
           "label": "app.get(\"/getPageDataJsFile\", function(request, response){\n   response.set('Access-Control-Allow-Origin', '*');\n   var dataFileName = request.query.dataFileName;\n\n   console.log(dataFileName);\n   var fs = require('fs');\n\n   var filePathPart = \"../app/\";\n\n   var contents = fs.readFileSync(filePathPart + dataFileName, 'utf8');\n   //console.log(contents);\n   //var dataFileData = {\"data\": contents};\n   var answerLine = JSON.stringify(contents);\n   //console.log(answerLine);\n   response.send(answerLine);\n});",
           "id": "indx1_786",
           "x": 65078,
-          "y": 45,
+          "y": 207,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -18625,7 +18625,7 @@ var schemeData =
           "label": "mm-vis-js:\n./utils/mvj-code.js",
           "id": "indx1_812",
           "x": 73026,
-          "y": 26971,
+          "y": 30158,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -20713,7 +20713,7 @@ var schemeData =
         "indx1_1009": {
           "id": "indx1_1009",
           "x": 65026,
-          "y": 18847,
+          "y": 19009,
           "label": "function getPage(newsUrl, getRSSAnswer) {\n   var url = require(\"url\");\n   var path = url.parse(newsUrl).path;\n   var host = url.parse(newsUrl).host;\n   const https = require('https')\n   //https://www.linux.org.ru/section-rss.jsp\n   const options = {\n     hostname: host,\n     port: 443,\n     path: path,\n     method: 'GET',\n     headers: {\n        'Content-Type': 'text/html'\n     }\n   }\n\n   var req = https.request(options, function(res) {\n      //console.log(\"statusCode: \", res.statusCode);\n      //console.log(\"headers: \", res.headers);\n\n      res.setEncoding('utf8');\n      res.on('data', function(d) {\n         //process.stdout.write(d);\n         getRSSAnswer(d);\n      });\n   });\n\n   req.end();\n\n   req.on('error', function(e) {\n      console.error(e);\n   });\n}",
           "shape": "box",
           "link": "",
@@ -21548,7 +21548,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function buildThemeGraph(themeGraphLabel, x, y) {\n   var newNode1Id = network.body.data.nodes.add({\n   \tlabel: themeGraphLabel,\n   \tx: x,\n   \ty: y,\n   \tfont: {size: 72},\n   \tcolor: {background:\"red\"}\n   })[0];\n   var newNode2Id = network.body.data.nodes.add({\n   \tlabel:\"Development\",\n   \tx: x+300,\n   \ty: y+450 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:newNode2Id\n   });\n   var newNode4Id = network.body.data.nodes.add({\n   \tlabel:(new Date().toLocaleDateString()),\n   \tx: x+450,\n   \ty: y+450 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode2Id,\n   \tto:newNode4Id\n   });\n   var newNode3Id = network.body.data.nodes.add({\n   \tlabel:\"init\",\n   \tx: x+550,\n   \ty: y+450 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode4Id,\n   \tto:newNode3Id\n   });\n   var newNode5Id = network.body.data.nodes.add({\n   \tlabel:\"Notes\",\n   \tx: x+300,\n   \ty: y-400 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:newNode5Id\n   });\n   var newNode6Id = network.body.data.nodes.add({\n   \tlabel:\"Dictionary of\\nconcepts\",\n   \tx: x+450,\n   \ty: y-650 \n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode5Id,\n   \tto:newNode6Id\n   });\n   var newNode7Id = network.body.data.nodes.add({\n   \tlabel:\"Details, thoughts\",\n   \tx: x+450,\n   \ty: y-400\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode5Id,\n   \tto:newNode7Id\n   });\n   var sectionsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Sections\",\n   \tx: x+450,\n   \ty: y-150\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode5Id,\n   \tto:sectionsNodeId\n   });\n   var booksNodeId = network.body.data.nodes.add({\n   \tlabel:\"Books\",\n   \tx: x+550,\n   \ty: y-300\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:booksNodeId\n   });\n   var rDInstitutionsNodeId = network.body.data.nodes.add({\n   \tlabel:\"R&D institutions\",\n   \tx: x+550,\n   \ty: y-275\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:rDInstitutionsNodeId\n   });\n   var sitesNodeId = network.body.data.nodes.add({\n   \tlabel:\"Sites\",\n   \tx: x+550,\n   \ty: y-250\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:sitesNodeId\n   });\n   var magazinesNodeId = network.body.data.nodes.add({\n   \tlabel:\"Magazines\",\n   \tx: x+550,\n   \ty: y-225\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:magazinesNodeId\n   });\n   var articlesNodeId = network.body.data.nodes.add({\n   \tlabel:\"Articles\",\n   \tx: x+550,\n   \ty: y-200\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:articlesNodeId\n   });\n   var mediaContentNodeId = network.body.data.nodes.add({\n   \tlabel:\"Media content\",\n   \tx: x+550,\n   \ty: y-175\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:mediaContentNodeId\n   });\n   var miscWebLinksNodeId = network.body.data.nodes.add({\n   \tlabel:\"Misc. web links\",\n   \tx: x+550,\n   \ty: y-150\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:miscWebLinksNodeId\n   });\n   var projectsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Projects\",\n   \tx: x+550,\n   \ty: y-125\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:projectsNodeId\n   });\n   var toolsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Tools\",\n   \tx: x+550,\n   \ty: y-100\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:toolsNodeId\n   });\n   var organizationsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Organizations\",\n   \tx: x+550,\n   \ty: y-75\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:organizationsNodeId\n   });\n   var standartsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Standarts\",\n   \tx: x+550,\n   \ty: y-50\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:standartsNodeId\n   });\n   var forumsGroupsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Forums, Groups\",\n   \tx: x+550,\n   \ty: y-25\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:forumsGroupsNodeId\n   });\n   var lawsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Laws\",\n   \tx: x+550,\n   \ty: y\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:lawsNodeId\n   });\n   var adjacentThemesNodeId = network.body.data.nodes.add({\n   \tlabel:\"Adjacent Themes\",\n   \tx: x+550,\n   \ty: y+25\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:sectionsNodeId,\n   \tto:adjacentThemesNodeId\n   });\n   var questionsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Questions\",\n   \tx: x+300,\n   \ty: y+150\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:questionsNodeId\n   });\n   var problemsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Problems\",\n   \tx: x+300,\n   \ty: y+250\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:problemsNodeId\n   });\n   var goalsNodeId = network.body.data.nodes.add({\n   \tlabel:\"Goals\",\n   \tx: x+300,\n   \ty: y+350\n   })[0];\n   network.body.data.edges.add({\n   \tfrom:newNode1Id,\n   \tto:goalsNodeId\n   });\n   newNodesIds1 = [\n      booksNodeId,\n      rDInstitutionsNodeId,\n      sitesNodeId,\n      magazinesNodeId,\n      articlesNodeId,\n      mediaContentNodeId,\n      miscWebLinksNodeId,\n      projectsNodeId,\n      toolsNodeId,\n      organizationsNodeId,\n      standartsNodeId,\n      forumsGroupsNodeId,\n      lawsNodeId,\n      adjacentThemesNodeId\n   ];\n   var nodes1 = [];\n   newNodesIds1.forEach(function(nodeId) {\n      nodes1.push(network.body.nodes[nodeId]);\n   });\n   alignNodesLeft(nodes1);\n   newNodesIds2 = [\n      newNode5Id,\n      questionsNodeId,\n      problemsNodeId,\n      goalsNodeId,\n      newNode2Id\n   ];\n   var nodes2 = [];\n   newNodesIds2.forEach(function(nodeId) {\n      nodes2.push(network.body.nodes[nodeId]);\n   });\n   alignNodesLeft(nodes2);\n   newNodesIds3 = [\n      newNode6Id,\n      newNode7Id,\n      sectionsNodeId,\n      newNode4Id\n   ];\n   var nodes3 = [];\n   newNodesIds3.forEach(function(nodeId) {\n      nodes3.push(network.body.nodes[nodeId]);\n   });\n   alignNodesLeft(nodes3);\n}",
           "x": 40975,
-          "y": 13496,
+          "y": 16768,
           "id": "indx1_1081",
           "shape": "box",
           "link": "",
@@ -21585,7 +21585,7 @@ var schemeData =
           "label": "buildThemeGraph()",
           "id": "indx1_1082",
           "x": 43648,
-          "y": 11645,
+          "y": 15246,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -21593,7 +21593,7 @@ var schemeData =
         "indx1_1083": {
           "id": "indx1_1083",
           "x": 43934,
-          "y": 25135,
+          "y": 28407,
           "label": "onClick(e)",
           "shape": "box",
           "link": "",
@@ -21610,7 +21610,7 @@ var schemeData =
         "indx1_1084": {
           "id": "indx1_1084",
           "x": 44001,
-          "y": 25275,
+          "y": 28547,
           "label": "doOnClick(e)",
           "shape": "box",
           "link": "",
@@ -21627,7 +21627,7 @@ var schemeData =
         "indx1_1085": {
           "id": "indx1_1085",
           "x": 44093,
-          "y": 25752,
+          "y": 29024,
           "label": "onDoubleClick(e)",
           "shape": "box",
           "link": "",
@@ -21687,7 +21687,7 @@ var schemeData =
         "indx1_1088": {
           "id": "indx1_1088",
           "x": 42127,
-          "y": 94496,
+          "y": 97768,
           "label": "   $(document).keyup(function (event) {\n      //Save view by n number. No nodes must be selected. ctrl+alt+number\n      if (event.altKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length == 0) {\n            var scale = network.getScale();\n            var position = network.getViewPosition();\n            viewsSaves[event.keyCode] = {position: position, scale: scale};\n            console.log(event.keyCode);\n            console.log(scale);\n            console.log(position);\n            console.log(viewsSaves);\n         }\n         \n      }\n   });",
           "shape": "box",
           "link": "",
@@ -21704,7 +21704,7 @@ var schemeData =
         "indx1_1089": {
           "id": "indx1_1089",
           "x": 42175,
-          "y": 95224,
+          "y": 98496,
           "label": "   $(document).keyup(function (event) {\n      //Move clipboard nodes by n number to last click position. ctrl+shift+number\n      if (event.shiftKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         //clipboard[event.keyCode] = selectedNodes;\n         console.log(event.keyCode);\n         console.log(clipboard);\n         console.log(clipboard[event.keyCode]);\n         var nodesToMove = clipboard[event.keyCode];\n         if (typeof nodesToMove !== \"undefined\" && nodesToMove !== null && nodesToMove.length != 0) {\n            var positions = network.getPositions();\n            var maxLeftX = positions[nodesToMove[0].id].x;\n            var maxTopY = positions[nodesToMove[0].id].y;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  if (positions[node.id].x < maxLeftX) maxLeftX = positions[node.id].x;\n                  if (positions[node.id].y < maxTopY) maxTopY = positions[node.id].y;\n               }\n            });\n            var lastClickCanvasPosition = network.canvas.DOMtoCanvas(lastClickPosition);\n            var moveShiftX = lastClickCanvasPosition.x - maxLeftX;\n            var moveShiftY = lastClickCanvasPosition.y - maxTopY;\n            nodesToMove.forEach(function(node) {\n               if (typeof node !== \"undefined\" && node !== null) {\n                  var pNode = positions[node.id];\n                  var x = pNode.x + moveShiftX;\n                  var y = pNode.y + moveShiftY;\n                  network.nodesHandler.moveNode(node.id, x, y);\n               }\n            });\n         }\n\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -21721,7 +21721,7 @@ var schemeData =
         "indx1_1090": {
           "id": "indx1_1090",
           "x": 42052,
-          "y": 94045,
+          "y": 97317,
           "label": "   $(document).keyup(function (event) {\n      //move to saved view position. shift+alt+number\n      if (event.shiftKey && event.altKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var view = viewsSaves[event.keyCode];\n         if (typeof view !== \"undefined\" && view !== null) {\n            var newPosition = network.canvasToDOM(view.position);\n            moveViewTo(view.position.x, view.position.y, view.scale);\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -22698,7 +22698,7 @@ var schemeData =
         "indx1_1212": {
           "id": "indx1_1212",
           "x": 42274,
-          "y": 93321,
+          "y": 96593,
           "label": "   $(document).keyup(function (event) {\n      //wrap-unwrap tree. alt+g\n      if (event.altKey && event.keyCode == 71 ) {\n\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         \n         var rootNode = selectedNodes[0];\n         \n         var nodesPositions = network.getPositions();\n\n         function collectNodesYPositions(nodeId, rootNode, nodesPositions) {\n\n            var nodeEdges = network.body.nodes[nodeId].edges;\n            var codeEdges = [];\n            nodeEdges.forEach(function(edge) {\n               if (edge.fromId == nodeId) {\n                  codeEdges.push(edge);\n               }\n            });\n\n            var branchCodeNodes = [];\n            codeEdges.forEach(function(codeEdge) {\n               branchCodeNodes.push(getNodeFromNetworkDataById(codeEdge.toId));\n            });\n            var branchesPositionsData = [];\n            branchCodeNodes.forEach(function(branchNode) {\n               branchesPositionsData.push({\n                  top: network.body.nodes[branchNode.id].shape.top,\n                  height: network.body.nodes[branchNode.id].shape.height\n               });\n               branchesPositionsData = branchesPositionsData.concat(collectNodesYPositions(branchNode.id, rootNode, nodesPositions));\n            });\n            return branchesPositionsData;\n         }\n\n         var branchesPositionsData = collectNodesYPositions(rootNode.id, rootNode, nodesPositions);\n\n            function compareBPD( a, b ) {\n               if ( a.top < b.top ){\n                  return -1;\n               }\n               if ( a.top > b.top ){\n                  return 1;\n               }\n               return 0;\n            }\n\n            branchesPositionsData = branchesPositionsData.sort(compareBPD);\n\n         var needToUnwrap = false;\n         var lastBranchPositionData = null;\n         for (var i = 0; i < branchesPositionsData.length; i++) {\n            if (lastBranchPositionData != null) {\n               var lastNodeBottom = lastBranchPositionData.top + lastBranchPositionData.height;\n               if (lastNodeBottom > branchesPositionsData[i].top) {\n                  needToUnwrap = true;\n                  break;\n               }\n            }\n            lastBranchPositionData = branchesPositionsData[i];\n         }\n         \n         if (needToUnwrap) {\n\n            unwrapNodeBranches(rootNode.id);\n         \n         } else {\n\n            wrapNodeBranches(rootNode.id);\n         \n         }\n         \n      }\n   });",
           "shape": "box",
           "link": "",
@@ -22831,9 +22831,9 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function duplicateGraph(nodes, edges) {\n\t\t\tvar selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\t\t\tvar selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\t\t\tvar nodes = [];\n                        var nodesPositions = network.getPositions();\n\t\t\tselectedNodes.forEach(function(node) {\n\t\t\t\tvar nodeD = getNodeFromNetworkDataById(node.id);\n\t\t\t\tpNode = nodesPositions[node.id];\n\t\t\t\tnodeD.x = pNode.x;\n\t\t\t\tnodeD.y = pNode.y;\n\t\t\t\tnetwork.body.data.nodes.update(nodeD);\n\n\t\t\t\tnodes.push(getNodeFromNetworkDataById(node.id));\n\t\t\t});\n\t\t\tvar edges = []\n\t\t\tselectedEdges.forEach(function(edge) {\n\t\t\t\tedges.push(network.body.data.edges.get(edge.id));\n\t\t\t});\n\n\t\t\tvar data = {\n\t\t\t\tnodes: {},\n\t\t\t\tedges: {}\n\t\t\t};\n\t\t\t\n\t\t\tnodes1ToCopy = {}; \n\t\t\tnodes.forEach(function(item) {\n\t\t\t\tnodes1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.nodes = nodes1ToCopy;\n\n\t\t\tvar edges1ToCopy = {}; \n\t\t\tedges.forEach(function(item) {\n\t\t\t\tedges1ToCopy[item.id.toString()] = item;\n\t\t\t});\n\t\t\tdata.edges = edges1ToCopy;\n\t\t\tvar label = JSON.stringify(data, undefined, 1);\n\t\t\tvar data = JSON.parse(label);\n\t\t\tvar date = new Date();\n\t\t\tvar idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\t\t\tnetwork.selectionHandler.unselectAll();\n                        var nodesArray = objectToArray(data.nodes);\n                        for (var i in nodesArray) {\n                                var node = nodesArray[i];\n                                console.log(\"duplicateGraph. Nodes: \" + String(i) + \", \" + String(nodesArray.length));\n\t\t\t\tnode.id = node.id + idPostfix;\n\t\t\t\tnode.y = node.y; \n\t\t\t\tvar newNode = network.nodesHandler.create(node);\n\t\t\t\tnetwork.body.data.nodes.add(newNode.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newNode);\n\t\t\t};\n                        var edgesArray = objectToArray(data.edges);\n                        for (var i in edgesArray) {\n                                var edge = edgesArray[i];\n                                console.log(\"duplicateGraph. Edges: \" + String(i) + \", \" + String(edgesArray.length));\n\t\t\t\tedge.id = edge.id + idPostfix;\t\n\t\t\t\tedge.from = edge.from + idPostfix;\n\t\t\t\tedge.to = edge.to + idPostfix;\n\t\t\t\tvar newEdge = network.edgesHandler.create(edge);\n\t\t\t\tnetwork.body.data.edges.add(newEdge.options);\n\t\t\t\tnetwork.selectionHandler.selectObject(newEdge);\n\t\t\t};\n\t\t\tnetwork.selectionHandler.setSelection(network.selectionHandler.getSelection());\n   return data;\n}",
-          "x": 41140,
-          "y": 7302,
+          "label": "function duplicateGraph(nodes, edges) {\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n\n   var startingPrefixedNodeIdNumber = getNextNumberForPrefixedNodeId(duplicateGraphPrefix);\n\n   var nodes = [];\n   var nodesPositions = network.getPositions();\n   selectedNodes.forEach(function(node) {\n      var nodeD = getNodeFromNetworkDataById(node.id);\n      pNode = nodesPositions[node.id];\n      nodeD.x = pNode.x;\n      nodeD.y = pNode.y;\n      network.body.data.nodes.update(nodeD);\n\n      nodes.push(getNodeFromNetworkDataById(node.id));\n   });\n   var edges = []\n   selectedEdges.forEach(function(edge) {\n      edges.push(network.body.data.edges.get(edge.id));\n   });\n\n   var data = {\n      nodes: {},\n      edges: {}\n   };\n\t\t\t\n   nodes1ToCopy = {}; \n   nodes.forEach(function(item) {\n      nodes1ToCopy[item.id.toString()] = item;\n   });\n   data.nodes = nodes1ToCopy;\n\n   var edges1ToCopy = {}; \n   edges.forEach(function(item) {\n      edges1ToCopy[item.id.toString()] = item;\n   });\n   data.edges = edges1ToCopy;\n   var label = JSON.stringify(data, undefined, 1);\n   var data = JSON.parse(label);\n   var date = new Date();\n   var idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n   network.selectionHandler.unselectAll();\n   var nodesArray = objectToArray(data.nodes);\n   for (var i in nodesArray) {\n      var node = nodesArray[i];\n      console.log(\"duplicateGraph. Nodes: \" + String(i) + \", \" + String(nodesArray.length));\n      node.id = duplicateGraphPrefix + String(Number(startingPrefixedNodeIdNumber) + Number(i));\n      node.y = node.y; \n      var newNode = network.nodesHandler.create(node);\n      network.body.data.nodes.add(newNode.options);\n      network.selectionHandler.selectObject(newNode);\n   };\n   var edgesArray = objectToArray(data.edges);\n   for (var i in edgesArray) {\n      var edge = edgesArray[i];\n      console.log(\"duplicateGraph. Edges: \" + String(i) + \", \" + String(edgesArray.length));\n      edge.id = edge.id + idPostfix;\t\n      edge.from = edge.from + idPostfix;\n      edge.to = edge.to + idPostfix;\n      var newEdge = network.edgesHandler.create(edge);\n      network.body.data.edges.add(newEdge.options);\n      network.selectionHandler.selectObject(newEdge);\n   };\n   network.selectionHandler.setSelection(network.selectionHandler.getSelection());\n   return data;\n}",
+          "x": 41064,
+          "y": 7919,
           "id": "indx1_1219",
           "shape": "box",
           "link": "",
@@ -22842,7 +22842,7 @@ var schemeData =
         "indx1_1220": {
           "id": "indx1_1220",
           "x": 43868,
-          "y": 7148,
+          "y": 7821,
           "label": "duplicateGraph(nodes, edges)",
           "shape": "box",
           "link": "",
@@ -22908,7 +22908,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Jump to nodes with same label. alt+j\n      if (event.altKey && event.keyCode == 74 ) {\n\n         var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes)[0];\n\n         var regExp = null;\n         var jumpNavigationDataLabel = null;\n         var selectedNodeLabel = selectedNode.options.label.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n         if (jumpNavigationData != null) {\n             jumpNavigationDataLabel = jumpNavigationData.label.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n         }\n         if (jumpNavigationData != null &&\n             jumpNavigationData.label[0] == \"regex\" && \n             typeof jumpNavigationData.label[1] !== \"undefined\" && \n             jumpNavigationData.label[1].length > 0) {\n\n             regExp = new RegExp(jumpNavigationData.label[1], \"gi\");\n         }\n\n   if (jumpNavigationData == null && typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] === \"undefined\") {\n      showAlert(\"Select one node to jump to nodes with same name\", 60, 190);\n      return;\n   }\n         \n   //If node is selected and there were no jumps before or there is different label on selected node.\n   if ((typeof objectToArray(network.selectionHandler.selectionObj.nodes)[0] !== \"undefined\") && \n         (jumpNavigationData == null || \n         (regExp != null && selectedNodeLabel.match(regExp) == null) ||\n         (regExp == null && jumpNavigationDataLabel != selectedNodeLabel) )) {\n\n      var nodes = network.body.data.nodes.get();\n\n      var foundNodes = [];\n\n      var regExp = null;\n      if (selectedNode.options.label != null &&\n          selectedNode.options.label.split(\"\\n\")[0] == \"regex\" && \n          typeof selectedNode.options.label.split(\"\\n\")[1] !== \"undefined\" && \n          selectedNode.options.label.split(\"\\n\")[1].length > 0) {\n\n          regExp = new RegExp(selectedNode.options.label.split(\"\\n\")[1], \"gi\");\n      }\n\n      nodes.forEach(function(node) {\n         var nodeLabel = node.label;\n         nodeLabel = nodeLabel.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n         var sNLabel = selectedNode.options.label.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n         if (regExp != null && node.id != selectedNode.id && nodeLabel.match(regExp) != null) {\n            foundNodes.push(node);\n         }\n         if (regExp == null && node.id != selectedNode.id && nodeLabel == sNLabel) {\n            foundNodes.push(node);\n         }\n      });\n      \n      if (foundNodes.length == 0) {\n         showAlert(\"No nodes with same name\", 60, 190);\n         return;\n      }\n\n      if (foundNodes.length > 50) {\n         showAlert(\"Too big list of jump nodes. More than 50.\", 60, 190);\n         return;\n      }\n\n      //first node in the list will be \"selectedNode\" - so we start scrolling through nodes from second node\n      //in this list\n      foundNodes = [selectedNode].concat(foundNodes);\n\n      var nodesPositions = network.getPositions();\n\n      foundNodes.forEach(function(node) {\n         var nodeD = getNodeFromNetworkDataById(node.id);\n         pNode = nodesPositions[node.id];\n         nodeD.x = pNode.x;\n         nodeD.y = pNode.y;\n         network.body.data.nodes.update(nodeD);\n      });\n\n      jumpNavigationData = {\n         label: selectedNode.options.label,\n         foundNodes: foundNodes,\n         lastJumpNodeNumber: 0\n      };\n      var jumpNumber = 1;\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   } else {\n      var jumpNumber = null;\n      if (jumpNavigationData.lastJumpNodeNumber == jumpNavigationData.foundNodes.length - 1) {\n         jumpNumber = 0;\n      } else {\n         jumpNumber = jumpNavigationData.lastJumpNodeNumber + 1;\n      }\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   }\n       \n      }\n   });",
           "id": "indx1_1223",
           "x": 42248,
-          "y": 91961,
+          "y": 95233,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -22916,7 +22916,7 @@ var schemeData =
         "indx1_1224": {
           "id": "indx1_1224",
           "x": 42153,
-          "y": 90959,
+          "y": 94231,
           "label": "   $(document).keyup(function (event) {\n      //Move/restore branches of selected node to/from dataCash. alt+y\n      if (event.altKey && event.keyCode === 89) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length == 0) return;\n\n         var branchesNodesAndEdges = getTreeNodesAndEdges(selectedNodes[0].id);\n\n         if (branchesNodesAndEdges.nodes.length > 0) {\n\n            hideNodeBranchesToDataCash(selectedNodes[0].id, null);\n\n         } else {\n\n            restoreNodeBranchesFromDataCash(selectedNodes[0].id);\n\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -22933,7 +22933,7 @@ var schemeData =
         "indx1_1225": {
           "id": "indx1_1225",
           "x": 45071,
-          "y": 91606,
+          "y": 94878,
           "label": "Jump to nodes with same label. alt+j",
           "shape": "box",
           "link": "",
@@ -22950,7 +22950,7 @@ var schemeData =
         "indx1_1226": {
           "id": "indx1_1226",
           "x": 45691,
-          "y": 90884,
+          "y": 94156,
           "label": "Move/restore branches of selected node to/from dataCash. alt+y",
           "shape": "box",
           "link": "",
@@ -22967,7 +22967,7 @@ var schemeData =
         "indx1_1227": {
           "id": "indx1_1227",
           "x": 44799,
-          "y": 93199,
+          "y": 96471,
           "label": "Wrap-unwrap tree. alt+g",
           "shape": "box",
           "link": "",
@@ -22984,7 +22984,7 @@ var schemeData =
         "indx1_1228": {
           "id": "indx1_1228",
           "x": 45289,
-          "y": 94025,
+          "y": 97297,
           "label": "Move to saved view position. shift+alt+number",
           "shape": "box",
           "link": "",
@@ -23001,7 +23001,7 @@ var schemeData =
         "indx1_1229": {
           "id": "indx1_1229",
           "x": 45905,
-          "y": 95180,
+          "y": 98452,
           "label": "Move clipboard nodes by n number to last click position. ctrl+shift+number",
           "shape": "box",
           "link": "",
@@ -23018,7 +23018,7 @@ var schemeData =
         "indx1_1230": {
           "id": "indx1_1230",
           "x": 45792,
-          "y": 94435,
+          "y": 97707,
           "label": "Save view by n number. No nodes must be selected. ctrl+alt+number",
           "shape": "box",
           "link": "",
@@ -23035,7 +23035,7 @@ var schemeData =
         "indx1_1231": {
           "id": "indx1_1231",
           "x": 45387,
-          "y": 96158,
+          "y": 99430,
           "label": "Move view to position from birdView variable. alt+h",
           "shape": "box",
           "link": "",
@@ -23052,7 +23052,7 @@ var schemeData =
         "indx1_1232": {
           "id": "indx1_1232",
           "x": 44835,
-          "y": 96288,
+          "y": 99560,
           "label": "Split node label. ctrl+alt+v",
           "shape": "box",
           "link": "",
@@ -23069,7 +23069,7 @@ var schemeData =
         "indx1_1233": {
           "id": "indx1_1233",
           "x": 44729,
-          "y": 96424,
+          "y": 99696,
           "label": "Run node code. alt+r",
           "shape": "box",
           "link": "",
@@ -23086,7 +23086,7 @@ var schemeData =
         "indx1_1234": {
           "id": "indx1_1234",
           "x": 44675,
-          "y": 96724,
+          "y": 99996,
           "label": "Build project. alt+b",
           "shape": "box",
           "link": "",
@@ -23103,7 +23103,7 @@ var schemeData =
         "indx1_1235": {
           "id": "indx1_1235",
           "x": 44790,
-          "y": 98932,
+          "y": 102204,
           "label": "Save canvas. Ctrl+alt+s",
           "shape": "box",
           "link": "",
@@ -23120,7 +23120,7 @@ var schemeData =
         "indx1_1236": {
           "id": "indx1_1236",
           "x": 44715,
-          "y": 99310,
+          "y": 102582,
           "label": "Duplicate. Ctrl+alt+d",
           "shape": "box",
           "link": "",
@@ -23137,7 +23137,7 @@ var schemeData =
         "indx1_1237": {
           "id": "indx1_1237",
           "x": 45603,
-          "y": 99857,
+          "y": 103129,
           "label": "Toggle nodeLabel/edgeLabel textarea expansion. ctrl+Space",
           "shape": "box",
           "link": "",
@@ -23154,7 +23154,7 @@ var schemeData =
         "indx1_1238": {
           "id": "indx1_1238",
           "x": 45053,
-          "y": 100589,
+          "y": 103861,
           "label": "Left align nodes. shift+alt+LeftArrow",
           "shape": "box",
           "link": "",
@@ -23171,7 +23171,7 @@ var schemeData =
         "indx1_1239": {
           "id": "indx1_1239",
           "x": 44723,
-          "y": 102143,
+          "y": 105415,
           "label": "Zoom out. shift+alt+d",
           "shape": "box",
           "link": "",
@@ -23188,7 +23188,7 @@ var schemeData =
         "indx1_1240": {
           "id": "indx1_1240",
           "x": 44678,
-          "y": 102498,
+          "y": 105770,
           "label": "Zoom in. shfit+alt+f",
           "shape": "box",
           "link": "",
@@ -23205,7 +23205,7 @@ var schemeData =
         "indx1_1241": {
           "id": "indx1_1241",
           "x": 44708,
-          "y": 102770,
+          "y": 106042,
           "label": "Delete or Backspace",
           "shape": "box",
           "link": "",
@@ -23222,7 +23222,7 @@ var schemeData =
         "indx1_1242": {
           "id": "indx1_1242",
           "x": 45194,
-          "y": 102920,
+          "y": 106192,
           "label": "Click \"Save\" in \"Add node\" form. ctrl+Enter",
           "shape": "box",
           "link": "",
@@ -23239,7 +23239,7 @@ var schemeData =
         "indx1_1243": {
           "id": "indx1_1243",
           "x": 45035,
-          "y": 103059,
+          "y": 106331,
           "label": "Cancel node/edge edit. Esc  //ToFix",
           "shape": "box",
           "link": "",
@@ -23256,7 +23256,7 @@ var schemeData =
         "indx1_1244": {
           "id": "indx1_1244",
           "x": 44959,
-          "y": 103234,
+          "y": 106506,
           "label": "saveNode. saveEdge. alt+Enter",
           "shape": "box",
           "link": "",
@@ -23273,7 +23273,7 @@ var schemeData =
         "indx1_1245": {
           "id": "indx1_1245",
           "x": 45838,
-          "y": 103540,
+          "y": 106812,
           "label": "saveNode and closeNodeEdit. saveEdge and closeEdgeEdit. ctrl+Enter",
           "shape": "box",
           "link": "",
@@ -23290,7 +23290,7 @@ var schemeData =
         "indx1_1246": {
           "id": "indx1_1246",
           "x": 44966,
-          "y": 103883,
+          "y": 107155,
           "label": "Close node/edge left menu. Esc",
           "shape": "box",
           "link": "",
@@ -23307,7 +23307,7 @@ var schemeData =
         "indx1_1247": {
           "id": "indx1_1247",
           "x": 44870,
-          "y": 104204,
+          "y": 107476,
           "label": "Cancel add node/edge. Esc",
           "shape": "box",
           "link": "",
@@ -23324,7 +23324,7 @@ var schemeData =
         "indx1_1248": {
           "id": "indx1_1248",
           "x": 44736,
-          "y": 104525,
+          "y": 107797,
           "label": "Cancel node edit. Esc",
           "shape": "box",
           "link": "",
@@ -23341,7 +23341,7 @@ var schemeData =
         "indx1_1249": {
           "id": "indx1_1249",
           "x": 44810,
-          "y": 105157,
+          "y": 108429,
           "label": "Connect nodes. ctrl+alt+c",
           "shape": "box",
           "link": "",
@@ -23410,7 +23410,7 @@ var schemeData =
         },
         "indx1_1252": {
           "id": "indx1_1252",
-          "x": 41064,
+          "x": 41009,
           "y": 6612,
           "label": "function create_UUID(){\n    var dt = new Date().getTime();\n    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n        var r = (dt + Math.random()*16)%16 | 0;\n        dt = Math.floor(dt/16);\n        return (c=='x' ? r :(r&0x3|0x8)).toString(16);\n    });\n    return uuid;\n}"
         },
@@ -23434,7 +23434,7 @@ var schemeData =
         "indx1_1254": {
           "id": "indx1_1254",
           "x": 41864,
-          "y": 113927,
+          "y": 117199,
           "label": "function hideAllToDownloadNews(selectedNodesIds, selectedEdgesIds) {\n   var nodes = objectToArray(network.body.nodes);\n   var edges = objectToArray(network.body.edges);\n   var nodesToHide = [];\n   var edgesToHide = [];\n   nodes.forEach(function(node) {\n      var node = getNodeFromNetworkDataById(node.id);\n      if ((typeof node.label !== \"undefined\" && \n         node.label != \"newsList\" &&\n         node.label.match(/.*\\| Feed Node/) == null &&\n         node.label.match(/.*download news code.*/) == null &&\n         (typeof node.link === \"undefined\" || (\n         typeof node.link !== \"undefined\" &&\n         node.link.match(/.*youtube.*videos.*/) == null))) ||\n         selectedNodesIds.indexOf(node.id) === -1) {\n         nodesToHide.push(node);\n      }\n   });\n   edges.forEach(function(edge) {\n      var edge = getEdgeFromNetworkDataById(edge.id);\n      var nodeFrom = getNodeFromNetworkDataById(edge.from);\n      var nodeTo = getNodeFromNetworkDataById(edge.to);\n      if ((typeof nodeFrom.label !== \"undefined\" &&\n          nodeFrom.label.match(/.*\\| Feed Node/) == null &&\n          typeof nodeTo.label !== \"undefined\" &&\n          nodeTo.label != \"newsList\" &&\n          (typeof nodeFrom.link === \"undefined\" || (\n          typeof nodeFrom.link !== \"undefined\" &&\n          nodeFrom.link.match(/.*youtube.*videos.*/) == null))) ||\n         selectedEdgesIds.indexOf(edge.id) === -1) {\n         edgesToHide.push(edge);\n      }\n\n   });\n\n   dataCash[\"hideAllForNewsDownload\"] = {\n      nodes: nodesToHide,\n      edges: edgesToHide\n   };\n\n   var removeNodesIds = [];\n   nodesToHide.forEach(function(node, index) {\n      removeNodesIds.push(node.id);\n   });\n   var removeEdgesIds = [];\n   edgesToHide.forEach(function(edge, index) {\n      removeEdgesIds.push(edge.id);\n   });\n   updateMenuFromScheme(removeNodesIds, removeEdgesIds);\n   updateSchemeFromMenu([],[]);\n}",
           "shape": "box",
           "link": "",
@@ -23451,7 +23451,7 @@ var schemeData =
         "indx1_1255": {
           "id": "indx1_1255",
           "x": 45216,
-          "y": 113749,
+          "y": 117021,
           "label": "hideAllToDownloadNews()",
           "shape": "box",
           "link": "",
@@ -23494,7 +23494,7 @@ var schemeData =
           "label": "function restoreAllAfterNewsDownload() {\n   var branchesNodesAndEdges = dataCash[\"hideAllForNewsDownload\"];\n   if (typeof branchesNodesAndEdges === \"undefined\") return;\n   updateMenuFromScheme([],[]);\n   updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n   delete dataCash[\"hideAllForNewsDownload\"];\n   updateMenuFromScheme([],[]);\n}",
           "id": "indx1_1256",
           "x": 41989,
-          "y": 114777,
+          "y": 118049,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23502,7 +23502,7 @@ var schemeData =
         "indx1_1257": {
           "id": "indx1_1257",
           "x": 45370,
-          "y": 114652,
+          "y": 117924,
           "label": "restoreAllAfterNewsDownload()",
           "shape": "box",
           "link": "",
@@ -23519,7 +23519,7 @@ var schemeData =
         "indx1_1258": {
           "id": "indx1_1258",
           "x": 45103,
-          "y": 61360,
+          "y": 64632,
           "label": "Add new node under cursor. alt+n",
           "shape": "box",
           "link": "",
@@ -23536,7 +23536,7 @@ var schemeData =
         "indx1_1259": {
           "id": "indx1_1259",
           "x": 41367,
-          "y": 111190,
+          "y": 114462,
           "label": "});\n//End of $(document).ready(",
           "shape": "box",
           "link": "",
@@ -23655,7 +23655,7 @@ var schemeData =
         "indx1_1266": {
           "id": "indx1_1266",
           "x": 42392,
-          "y": 114108,
+          "y": 117380,
           "label": "Hide selected nodes and edges"
         },
         "indx1_1267": {
@@ -23687,7 +23687,7 @@ var schemeData =
           "label": "function hideSelected() {\n   var nodesToHide = [];\n   var edgesToHide = [];\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n   selectedNodes.forEach(function(node) {\n      var node = getNodeFromNetworkDataById(node.id);\n      nodesToHide.push(node);\n   });\n   selectedEdges.forEach(function(edge) {\n      var edge = getEdgeFromNetworkDataById(edge.id);\n      edgesToHide.push(edge);\n   });\n\n   dataCash[\"hideSelected\"] = {\n      nodes: nodesToHide,\n      edges: edgesToHide\n   };\n\n   var removeNodesIds = [];\n   nodesToHide.forEach(function(node, index) {\n      removeNodesIds.push(node.id);\n   });\n   var removeEdgesIds = [];\n   edgesToHide.forEach(function(edge, index) {\n      removeEdgesIds.push(edge.id);\n   });\n   updateMenuFromScheme(removeNodesIds, removeEdgesIds);\n   updateSchemeFromMenu([],[]);\n}",
           "id": "indx1_1267",
           "x": 42880,
-          "y": 114231,
+          "y": 117503,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23695,7 +23695,7 @@ var schemeData =
         "indx1_1268": {
           "id": "indx1_1268",
           "x": 42585,
-          "y": 114902,
+          "y": 118174,
           "label": "Restore selected and hidden nodes and edges"
         },
         "indx1_1269": {
@@ -23729,7 +23729,7 @@ var schemeData =
           "label": "function restoreSelected() {\n   var branchesNodesAndEdges = dataCash[\"hideSelected\"];\n   if (typeof branchesNodesAndEdges === \"undefined\") return;\n   updateMenuFromScheme([],[]);\n   updateSchemeFromMenu(branchesNodesAndEdges.nodes, branchesNodesAndEdges.edges);\n\n   delete dataCash[\"hideSelected\"];\n   updateMenuFromScheme([],[]);\n}",
           "id": "indx1_1269",
           "x": 43161,
-          "y": 114987,
+          "y": 118259,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23737,7 +23737,7 @@ var schemeData =
         "indx1_1270": {
           "id": "indx1_1270",
           "x": 41852,
-          "y": 26547,
+          "y": 29819,
           "label": "function runNodeMenuItems(e) {\n   var pointer = {x: e.pageX, y: e.pageY};\n   var menuNode = network.selectionHandler.getNodeAt(pointer);\n   if (typeof menuNode !== \"undefined\" &&\n       nodesDropDownMenuNodesIds.indexOf(menuNode.id) != -1) {\n      var rootNodeId = getNodeFromNetworkDataById(menuNode.id).menuRootNodeId;\n      var label = menuNode.options.label;\n      var lines = label.split(\"\\n\");\n      var linesCount = lines.length;\n      var menuNodeHeight = menuNode.shape.textSize.height;\n      var menuItemsHeight = menuNodeHeight/linesCount;\n      var canvasPointer = network.canvas.DOMtoCanvas(pointer);\n      var fromMenuTopToClickPoint = canvasPointer.y - menuNode.shape.top - menuNode.shape.margin.top - 1;\n      var menuLineNumber = (fromMenuTopToClickPoint - (fromMenuTopToClickPoint % menuItemsHeight)) / menuItemsHeight;\n      console.log(menuLineNumber);  \n      console.log(\"menuLineNumber: \" + lines[menuLineNumber]);\n      if (lines[menuLineNumber] == \"Restore node's branches (alt+y)\") {\n         restoreNodeBranchesFromDataCash(rootNodeId);\n      }\n      if (lines[menuLineNumber] == \"Wrap node's branches (alt+y)\") {\n         hideNodeBranchesToDataCash(rootNodeId, null);\n      }\n      if (lines[menuLineNumber] == \"Open node link. In new tab. (alt+l)\") {\n         var rootNode = getNodeFromNetworkDataById(rootNodeId);\n         if (typeof rootNode.link !== \"undefined\" && rootNode.link.length > 0) {\n            window.open(rootNode.link, '_blank');\n         }\n      }\n   }\n}",
           "shape": "box",
           "link": "",
@@ -23754,7 +23754,7 @@ var schemeData =
         "indx1_1271": {
           "id": "indx1_1271",
           "x": 44237,
-          "y": 26582,
+          "y": 29854,
           "label": "runNodeMenuItems(e)",
           "shape": "box",
           "link": "",
@@ -23771,7 +23771,7 @@ var schemeData =
         "indx1_1272": {
           "id": "indx1_1272",
           "x": 41666,
-          "y": 27353,
+          "y": 30625,
           "label": "function makeNodeDropDownMenuLines(nodeId) {\n\n   var lines = [];\n\n   var node = getNodeFromNetworkDataById(nodeId);\n\n   var branchesNodesAndEdges = getTreeNodesAndEdges(nodeId);\n   if (branchesNodesAndEdges.nodes.length > 0) {\n      lines.push(\"Wrap node's branches (alt+y)\");\n   } else {\n      if (typeof dataCash[nodeId] !== \"undefined\" &&\n          dataCash[nodeId].nodes.length > 0) {\n         lines.push(\"Restore node's branches (alt+y)\");\n      }\n   }\n   if (typeof node.link !== \"undefined\" && node.link.length > 0) {\n      lines.push(\"Open node link. In new tab. (alt+l)\");\n   }\n   //\n   return lines;\n}",
           "shape": "box",
           "link": "",
@@ -23788,7 +23788,7 @@ var schemeData =
         "indx1_1273": {
           "id": "indx1_1273",
           "x": 44675,
-          "y": 27277,
+          "y": 30549,
           "label": "makeNodeDropDownMenuLabels(nodeId)",
           "shape": "box",
           "link": "",
@@ -23831,7 +23831,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Open node link. alt+l\n      if (event.altKey && event.keyCode === 76) {\n         $(\"div#linkOpenButton\").click();\n      }\n   });",
           "id": "indx1_1274",
           "x": 42026,
-          "y": 90644,
+          "y": 93916,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23865,7 +23865,7 @@ var schemeData =
           "label": "Open node link. alt+l",
           "id": "indx1_1275",
           "x": 44720,
-          "y": 90582,
+          "y": 93854,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -23873,7 +23873,7 @@ var schemeData =
         "indx1_1276": {
           "id": "indx1_1276",
           "x": 42034,
-          "y": 90355,
+          "y": 93627,
           "label": "   $(document).keyup(function (event) {\n      //Jump to last selected (by click) node. alt+;\n      if (event.altKey && event.keyCode === 186) {\n\n         if (lastSelectedNodeId == null) return;\n\n         var nodesPositions = network.getPositions();\n\n         moveViewTo(\n            nodesPositions[lastSelectedNodeId].x,\n            nodesPositions[lastSelectedNodeId].y, \n            network.getScale()\n         );\n\n      }\n   });\n",
           "shape": "box",
           "link": "",
@@ -23890,7 +23890,7 @@ var schemeData =
         "indx1_1277": {
           "id": "indx1_1277",
           "x": 45194,
-          "y": 90317,
+          "y": 93589,
           "label": "Jump to last selected (by click) node. alt+;",
           "shape": "box",
           "link": "",
@@ -23907,7 +23907,7 @@ var schemeData =
         "indx1_1278": {
           "id": "indx1_1278",
           "x": 42111,
-          "y": 86709,
+          "y": 89981,
           "label": "   $(document).keyup(function (event) {\n      //Move view down 1/10. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/10, \n               network.getScale());\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -23950,7 +23950,7 @@ var schemeData =
           "label": "Move view down 1/10. j",
           "id": "indx1_1279",
           "x": 44783,
-          "y": 86699,
+          "y": 89971,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24476,7 +24476,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Move view left 1/10. h\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "indx1_1345",
           "x": 42113,
-          "y": 87148,
+          "y": 90420,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24512,7 +24512,7 @@ var schemeData =
           "label": "Move view left 1/10. h",
           "id": "indx1_1346",
           "x": 44747,
-          "y": 87125,
+          "y": 90397,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24548,7 +24548,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Move view up 1/10. k\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/10, \n               network.getScale());\n         }\n      }\n   });",
           "id": "indx1_1347",
           "x": 42116,
-          "y": 87595,
+          "y": 90867,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24584,7 +24584,7 @@ var schemeData =
           "label": "Move view up 1/10. k",
           "id": "indx1_1348",
           "x": 44733,
-          "y": 87572,
+          "y": 90844,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24620,7 +24620,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Move view right 1/10. l\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/10, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "indx1_1349",
           "x": 42125,
-          "y": 88045,
+          "y": 91317,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24656,7 +24656,7 @@ var schemeData =
           "label": "Move view right 1/10. l",
           "id": "indx1_1350",
           "x": 44760,
-          "y": 88022,
+          "y": 91294,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24690,7 +24690,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Move view down 1/2. shift+j\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y + height/2, \n               network.getScale());\n         }\n      }\n   });",
           "id": "indx1_1351",
           "x": 42132,
-          "y": 88597,
+          "y": 91869,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24726,7 +24726,7 @@ var schemeData =
           "label": "Move view down 1/2. shift+j",
           "id": "indx1_1352",
           "x": 44876,
-          "y": 88587,
+          "y": 91859,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24762,7 +24762,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Move view left 1/2. shift+h\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x - width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "indx1_1353",
           "x": 42123,
-          "y": 89048,
+          "y": 92320,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24798,7 +24798,7 @@ var schemeData =
           "label": "Move view left 1/2. shift+h",
           "id": "indx1_1354",
           "x": 44840,
-          "y": 89025,
+          "y": 92297,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24834,7 +24834,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Move view up 1/2. shift+k\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var height = windowRightBottomPosition.y - windowLeftTopPosition.y;\n            moveViewTo(\n               viewPosition.x, \n               viewPosition.y - height/2, \n               network.getScale());\n         }\n      }\n   });",
           "id": "indx1_1355",
           "x": 42132,
-          "y": 89482,
+          "y": 92754,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24870,7 +24870,7 @@ var schemeData =
           "label": "Move view up 1/2. shift+k",
           "id": "indx1_1356",
           "x": 44826,
-          "y": 89459,
+          "y": 92731,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24906,7 +24906,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Move view right 1/2. shift+l\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null &&\n             keyboardMoveSelectedEnabled == false) {\n            var viewPosition = network.getViewPosition();\n            var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n               x: 0, \n               y: 0});\n            var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n               x: network.canvas.frame.canvas.clientWidth, \n               y: network.canvas.frame.canvas.clientHeight});\n            var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n            moveViewTo(\n               viewPosition.x + width/2, \n               viewPosition.y, \n               network.getScale());\n         }\n      }\n   });",
           "id": "indx1_1357",
           "x": 42129,
-          "y": 89915,
+          "y": 93187,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24942,7 +24942,7 @@ var schemeData =
           "label": "Move view right 1/2. shift+l",
           "id": "indx1_1358",
           "x": 44853,
-          "y": 89892,
+          "y": 93164,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -24976,7 +24976,7 @@ var schemeData =
           "label": "Save selected nodes to clipboard by n number. ctrl+alt+number",
           "id": "indx1_1359",
           "x": 45667,
-          "y": 95711,
+          "y": 98983,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25010,7 +25010,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Save selected nodes to clipboard by n number. ctrl+alt+number\n      if (event.altKey && event.ctrlKey \n         && (event.keyCode === 48 ||\n             event.keyCode === 49 ||\n             event.keyCode === 50 ||\n             event.keyCode === 51 ||\n             event.keyCode === 52 ||\n             event.keyCode === 53 ||\n             event.keyCode === 54 ||\n             event.keyCode === 55 ||\n             event.keyCode === 56 ||\n             event.keyCode === 57) ) {\n         var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 0) {\n            console.log(selectedNodes);\n            clipboard[event.keyCode] = selectedNodes;\n            console.log(event.keyCode);\n            console.log(clipboard);\n         }\n      }\n   });",
           "id": "indx1_1360",
           "x": 42127,
-          "y": 95769,
+          "y": 99041,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25019,7 +25019,7 @@ var schemeData =
           "id": "indx1_1361",
           "x": 40539,
           "y": -9594,
-          "label": "jsFilesLinksParam:276",
+          "label": "jsFilesLinksParam:277",
           "shape": "box",
           "link": "",
           "font": {
@@ -25069,7 +25069,7 @@ var schemeData =
         "indx1_1364": {
           "id": "indx1_1364",
           "x": 67686,
-          "y": 27636,
+          "y": 30823,
           "label": "if (typeof setup[\"readLocalUserConfig\"] !== \"undefined\" && setup[\"readLocalUserConfig\"] == \"true\") {\n   setup[\"userConfData\"] = fs.readFileSync(userConfPath, 'utf8');\n}",
           "shape": "box",
           "link": "",
@@ -25832,7 +25832,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Shift selected nodes left (500). alt+c\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 67) {\n             var leftShift = 500;\n             var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n             var positions = network.getPositions();\n             selectedNodes.forEach(function(node) {\n                var nodeD = getNodeFromNetworkDataById(node.id);\n                var pNode = positions[node.id];\n                nodeD.x = pNode.x;\n                nodeD.y = pNode.y;\n                network.body.data.nodes.update(nodeD);\n                network.nodesHandler.moveNode(node.id, nodeD.x - leftShift, nodeD.y);\n             });\n      }\n   });",
           "id": "indx1_1442",
           "x": 42154,
-          "y": 86305,
+          "y": 89577,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25868,7 +25868,7 @@ var schemeData =
           "label": "Shift selected nodes left (500). alt+c",
           "id": "indx1_1443",
           "x": 45061,
-          "y": 86259,
+          "y": 89531,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25876,7 +25876,7 @@ var schemeData =
         "indx1_1444": {
           "id": "indx1_1444",
           "x": 42185,
-          "y": 85531,
+          "y": 88803,
           "label": "   $(document).keyup(function (event) {\n      //Connect nodes columns. alt+m\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 77) {\n             var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n             var positions = network.getPositions();\n             var columns = {};\n             var minLeftNode = null;\n             for (i = 0; i < selectedNodes.length; i++) {\n                if (i == 0) minLeftNode = selectedNodes[i];\n                if (minLeftNode.shape.left > selectedNodes[i].shape.left) {\n                        minLeftNode = selectedNodes[i];\n                };\n             }\n\n             var leftColumn = [];\n             var rightColumn = [];\n             selectedNodes.forEach(function(node) {\n                var nodeD = getNodeFromNetworkDataById(node.id);\n                var pNode = positions[node.id];\n                nodeD.x = pNode.x;\n                nodeD.y = pNode.y;\n                network.body.data.nodes.update(nodeD);\n                if (typeof columns[node.shape.left] === \"undefined\" || columns[node.shape.left] == null) {\n                   columns[node.shape.left] = [];\n                }\n                columns[node.shape.left].push(node);\n                var leftPositionDiff = Math.abs(minLeftNode.shape.left - node.shape.left);\n                if (leftPositionDiff < 2) {\n                   leftColumn.push(node);\n                } else {\n                   rightColumn.push(node);\n                }\n             });\n\n             var lastLeftNode = null;\n             leftColumn.reverse().forEach(function(leftNode, leftColumnIndex) {\n                rightColumn.forEach(function(rightNode, index) {\n                   if (rightNode.y >= leftNode.y && (lastLeftNode == null || rightNode.y < lastLeftNode.y)) {\n                      var edgeData = {from: leftNode.id, to: rightNode.id};\n                      network.body.data.edges.getDataSet().add(edgeData);\n                   }\n                   if (leftColumnIndex == (leftColumn.length-1) && rightNode.y < leftNode.y) {\n                      var edgeData = {from: leftNode.id, to: rightNode.id};\n                      network.body.data.edges.getDataSet().add(edgeData);\n                   }\n                });\n                lastLeftNode = leftNode;\n             });\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -25921,7 +25921,7 @@ var schemeData =
           "label": "Connect nodes columns. alt+m",
           "id": "indx1_1445",
           "x": 44951,
-          "y": 85295,
+          "y": 88567,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -25946,7 +25946,7 @@ var schemeData =
         "indx1_1447": {
           "id": "indx1_1447",
           "x": 42067,
-          "y": 84237,
+          "y": 87509,
           "label": "   $(document).keyup(function (event) {\n      //Show cursor on page. i\n      //Green dot color - #1EB117\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 73) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId == null) {\n             var viewPosition = network.getViewPosition();\n             var scale = network.getScale();\n             cursorNodeId = network.body.data.nodes.add({\n                label: \" \",\n                x: viewPosition.x,\n                y: viewPosition.y,\n                font: {size: 5/scale},\n                color: {background:\"black\"},\n                shape: \"circle\"\n             })[0];\n             node = network.body.data.nodes.get(cursorNodeId);\n             network.body.data.nodes.update(node);\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -25963,7 +25963,7 @@ var schemeData =
         "indx1_1448": {
           "id": "indx1_1448",
           "x": 44775,
-          "y": 84183,
+          "y": 87455,
           "label": "Show cursor on page. i",
           "shape": "box",
           "link": "",
@@ -25980,7 +25980,7 @@ var schemeData =
         "indx1_1449": {
           "id": "indx1_1449",
           "x": 42157,
-          "y": 84729,
+          "y": 88001,
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Remove cursor node or disable moving selected nodes from keyboard. Esc\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 27) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             document.getElementById('schemeEditNodesMenu').style.display == \"none\" &&\n             document.getElementById('schemeEditEdgesMenu').style.display == \"none\") {\n\n             if (typeof network.selectionHandler.selectionObj.nodes.length === \"undefined\" &&\n                 typeof network.selectionHandler.selectionObj.edges.length === \"undefined\") {\n                if (cursorNodeId != null) {\n                   if (selectionRectangleDrag == true) {\n                      var positions = network.getPositions();\n                      selectionRectangleDrag = false;\n                      ctx.lineWidth = 0;\n                      ctx.strokeStyle = \"white\";\n                      ctx.setLineDash([]);\n                      ctx.fillStyle = \"rgba(255, 255, 255, 0)\";\n                      ctx.strokeRect(0, 0, 0, 0);\n                      ctx.fillRect(0, 0, 0, 0);\n                      var nodeD = getNodeFromNetworkDataById(cursorNodeId);\n                      var pNode = positions[cursorNodeId];\n                      nodeD.x = pNode.x;\n                      nodeD.y = pNode.y;\n                      network.body.data.nodes.update(nodeD);\n                   } else {\n                      network.body.data.nodes.remove(cursorNodeId);\n                      cursorNodeId = null;\n                   }\n                }\n                if (keyboardMoveSelectedEnabled == true) {\n                   keyboardMoveSelectedEnabled = false;\n                }\n             }\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -26025,7 +26025,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move cursor right. l\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorRight == false) {\n                moveCursorRight = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                moveCursor(cursorNodeId, event, width/150, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n          moveCursorRight = false;\n      }\n   });",
           "id": "indx1_1450",
           "x": 42132,
-          "y": 80151,
+          "y": 83423,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26061,7 +26061,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move cursor up. k\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorUp == false) {\n                moveCursorUp = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                moveCursor(cursorNodeId, event, 0, -height/150);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n          moveCursorUp = false;\n      }\n   });",
           "id": "indx1_1451",
           "x": 42154,
-          "y": 79426,
+          "y": 82698,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26097,7 +26097,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move cursor left. h\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorLeft == false) {\n                moveCursorLeft = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                moveCursor(cursorNodeId, event, -width/150, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n          moveCursorLeft = false;\n      }\n   });",
           "id": "indx1_1452",
           "x": 42143,
-          "y": 78738,
+          "y": 82010,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26131,7 +26131,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move cursor down. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorDown == false) {\n                moveCursorDown = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                moveCursor(cursorNodeId, event, 0, height/150);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      //Move cursor down 1/10. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n          moveCursorDown = false;\n      }\n   });",
           "id": "indx1_1453",
           "x": 42149,
-          "y": 78129,
+          "y": 81401,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26167,7 +26167,7 @@ var schemeData =
           "label": "Move cursor down. j",
           "id": "indx1_1454",
           "x": 44710,
-          "y": 78149,
+          "y": 81421,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26203,7 +26203,7 @@ var schemeData =
           "label": "Move cursor left. h",
           "id": "indx1_1455",
           "x": 44674,
-          "y": 78695,
+          "y": 81967,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26239,7 +26239,7 @@ var schemeData =
           "label": "Move cursor up. k",
           "id": "indx1_1456",
           "x": 44660,
-          "y": 79383,
+          "y": 82655,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26275,7 +26275,7 @@ var schemeData =
           "label": "Move cursor right. l",
           "id": "indx1_1457",
           "x": 44687,
-          "y": 80108,
+          "y": 83380,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26283,7 +26283,7 @@ var schemeData =
         "indx1_1458": {
           "id": "indx1_1458",
           "x": 45148,
-          "y": 84680,
+          "y": 87952,
           "label": "Remove cursor node or disable moving \nselected nodes from keyboard or\nremove selection rectangle. Esc",
           "shape": "box",
           "link": "",
@@ -26300,7 +26300,7 @@ var schemeData =
         "indx1_1459": {
           "id": "indx1_1459",
           "x": 42096,
-          "y": 77043,
+          "y": 80315,
           "label": "   function sleep(ms) {\n      return new Promise((resolve) => setTimeout(resolve, ms)); \n   }",
           "shape": "box",
           "link": "",
@@ -26317,7 +26317,7 @@ var schemeData =
         "indx1_1460": {
           "id": "indx1_1460",
           "x": 42138,
-          "y": 77451,
+          "y": 80723,
           "label": "   function moveCursor(cursorNodeId, event, xStep, yStep) {\n      var positions = network.getPositions();\n      if (network.body.nodes[cursorNodeId] !== undefined) {\n         var nodeD = getNodeFromNetworkDataById(cursorNodeId);\n         var pNode = positions[cursorNodeId];\n         nodeD.x = pNode.x + xStep;\n         nodeD.y = pNode.y + yStep;\n         network.body.data.nodes.update(nodeD);\n      }\n      sleep(70).then((resolve) => {\n         if (selectionRectangleDrag) {\n            positions = network.getPositions();\n            var cursorNode = network.body.nodes[cursorNodeId];\n            var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n\n            rect.w = cursorPointer.x - rect.startX;\n            rect.h = cursorPointer.y - rect.startY;\n\n            ctx.lineWidth = 1;\n            ctx.strokeStyle = \"gray\";\n            ctx.strokeRect(rect.startX, rect.startY, rect.w, rect.h);\n            ctx.setLineDash([]);\n            ctx.fillStyle = \"rgba(255, 255, 255, 0)\";\n            ctx.fillRect(rect.startX, rect.startY, rect.w, rect.h);\n         }\n         if(moveCursorDown == true ||\n            moveCursorUp == true ||\n            moveCursorLeft == true ||\n            moveCursorRight == true ||\n            moveCursorDownFast == true ||\n            moveCursorUpFast == true ||\n            moveCursorLeftFast == true ||\n            moveCursorRightFast == true) {\n               moveCursor(cursorNodeId, event, xStep, yStep);\n         }\n      });\n   }",
           "shape": "box",
           "link": "",
@@ -26334,7 +26334,7 @@ var schemeData =
         "indx1_1461": {
           "id": "indx1_1461",
           "x": 45407,
-          "y": 77297,
+          "y": 80569,
           "label": "moveCursor(cursorNodeId, positions, xStep, yStep)",
           "shape": "box",
           "link": "",
@@ -26351,7 +26351,7 @@ var schemeData =
         "indx1_1462": {
           "id": "indx1_1462",
           "x": 44481,
-          "y": 77029,
+          "y": 80301,
           "label": "sleep(ms)",
           "shape": "box",
           "link": "",
@@ -26368,7 +26368,7 @@ var schemeData =
         "indx1_1463": {
           "id": "indx1_1463",
           "x": 42013,
-          "y": 76860,
+          "y": 80132,
           "label": "var moveCursorDown = false;\nvar moveCursorUp = false;\nvar moveCursorLeft = false;\nvar moveCursorRight = false;\n\nvar moveCursorDownFast = false;\nvar moveCursorUpFast = false;\nvar moveCursorLeftFast = false;\nvar moveCursorRightFast = false;",
           "shape": "box",
           "link": "",
@@ -26411,7 +26411,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Click by cursor node. y\n      //TODO. Select edges.\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 89) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId != null) {\n             var cursorNode = network.body.nodes[cursorNodeId];\n             var positions = network.getPositions();\n             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n             var positionObject = network.selectionHandler._pointerToPositionObject(cursorPointer);\n             var overlappingItemsIds = network.selectionHandler._getAllNodesOverlappingWith(positionObject);\n             \n             network.selectionHandler.unselectAll();\n\n             overlappingItemsIds.forEach(function(itemId) {\n                var node = network.body.nodes[itemId];\n                if (typeof node !== \"undefined\" && node != null && itemId != cursorNodeId) {\n                   network.selectionHandler.selectObject(node);\n                }\n             }); \n             lastClickPosition = cursorPointer;\n             network.selectionHandler._generateClickEvent('selectNode', event, cursorPointer);\n             network.selectionHandler.body.emitter.emit('_requestRedraw');\n         }\n      }\n   });",
           "id": "indx1_1464",
           "x": 42239,
-          "y": 75246,
+          "y": 78518,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26419,7 +26419,7 @@ var schemeData =
         "indx1_1465": {
           "id": "indx1_1465",
           "x": 44768,
-          "y": 75230,
+          "y": 78502,
           "label": "Click by cursor node. y",
           "shape": "box",
           "link": "",
@@ -26464,7 +26464,7 @@ var schemeData =
           "label": "   var nodeCursorDoubleKeyPressDelta = 300;\n   var nodeCursorDoubleKeyPressLastKeypressTime = 0;\n   $(document).keyup(function (event) {\n      //Make new node by double click with cursor node. yy\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 89) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId != null) {\n             var cursorNode = network.body.nodes[cursorNodeId];\n             var positions = network.getPositions();\n             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n\n             var thisKeypressTime = new Date();\n             if ( thisKeypressTime - nodeCursorDoubleKeyPressLastKeypressTime <= nodeCursorDoubleKeyPressDelta ) {\n                var nodeId = addNodeOnCanvas(\"\", \"\", positions[cursorNodeId], 0, 0, network);\n                var node = network.body.nodes[nodeId];\n                network.selectionHandler.selectObject(node);\n                lastEditedNodesIds.push(nodeId);\n                network.manipulation.editNode();\n                thisKeypressTime = 0;\n             }\n             nodeCursorDoubleKeyPressLastKeypressTime = thisKeypressTime;\n\n             network.selectionHandler.body.emitter.emit('_requestRedraw');\n         }\n      }\n   });",
           "id": "indx1_1466",
           "x": 42271,
-          "y": 76386,
+          "y": 79658,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26472,7 +26472,7 @@ var schemeData =
         "indx1_1467": {
           "id": "indx1_1467",
           "x": 45419,
-          "y": 76288,
+          "y": 79560,
           "label": "Make new node by double click with cursor node. yy",
           "shape": "box",
           "link": "",
@@ -26532,7 +26532,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move cursor down fast. shift+j\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorDownFast == false) {\n                moveCursorDownFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                moveCursor(cursorNodeId, event, 0, height/30);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n          moveCursorDownFast = false;\n      }\n   });",
           "id": "indx1_1470",
           "x": 42137,
-          "y": 80830,
+          "y": 84102,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26568,7 +26568,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move cursor left fast. shift+h\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorLeftFast == false) {\n                moveCursorLeftFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                moveCursor(cursorNodeId, event, -width/30, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n          moveCursorLeftFast = false;\n      }\n   });",
           "id": "indx1_1471",
           "x": 42132,
-          "y": 81667,
+          "y": 84939,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26604,7 +26604,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move cursor up fast. shift+k\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorUpFast == false) {\n                moveCursorUpFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                moveCursor(cursorNodeId, event, 0, -height/30);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n          moveCursorUpFast = false;\n      }\n   });",
           "id": "indx1_1472",
           "x": 42137,
-          "y": 82355,
+          "y": 85627,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26640,7 +26640,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move cursor right fast. shift+l\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (cursorNodeId != null && \n                 keyboardMoveSelectedEnabled == false &&\n                 moveCursorRightFast == false) {\n                moveCursorRightFast = true;\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                moveCursor(cursorNodeId, event, width/30, 0);\n             }\n          }\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n          moveCursorRightFast = false;\n      }\n   });",
           "id": "indx1_1473",
           "x": 42132,
-          "y": 83080,
+          "y": 86352,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26676,7 +26676,7 @@ var schemeData =
           "label": "Move cursor right fast. shift+l",
           "id": "indx1_1474",
           "x": 44903,
-          "y": 83029,
+          "y": 86301,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26712,7 +26712,7 @@ var schemeData =
           "label": "Move cursor up fast. shift+k",
           "id": "indx1_1475",
           "x": 44876,
-          "y": 82304,
+          "y": 85576,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26748,7 +26748,7 @@ var schemeData =
           "label": "Move cursor left fast. shift+h",
           "id": "indx1_1476",
           "x": 44890,
-          "y": 81616,
+          "y": 84888,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26784,7 +26784,7 @@ var schemeData =
           "label": "Move cursor down fast. shift+j",
           "id": "indx1_1477",
           "x": 44926,
-          "y": 80842,
+          "y": 84114,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26792,13 +26792,13 @@ var schemeData =
         "indx1_1478": {
           "id": "indx1_1478",
           "x": 42180,
-          "y": 33437,
+          "y": 36709,
           "label": "Cursor scale code"
         },
         "indx1_1479": {
           "id": "indx1_1479",
           "x": 42494,
-          "y": 84064,
+          "y": 87336,
           "label": "Look for scale cursor code",
           "shape": "box",
           "link": "",
@@ -26815,19 +26815,19 @@ var schemeData =
         "indx1_1480": {
           "id": "indx1_1480",
           "x": 42800,
-          "y": 84038,
+          "y": 87310,
           "label": "network.on(\"zoom\", function(event) {"
         },
         "indx1_1481": {
           "id": "indx1_1481",
           "x": 42751,
-          "y": 84063,
+          "y": 87335,
           "label": "Zoom out. shift+alt+d"
         },
         "indx1_1482": {
           "id": "indx1_1482",
           "x": 42745,
-          "y": 84087,
+          "y": 87359,
           "label": "Zoom in. shfit+alt+f"
         },
         "indx1_1483": {
@@ -26859,7 +26859,7 @@ var schemeData =
           "label": "Add to selection by cursor node click. shift+y",
           "id": "indx1_1483",
           "x": 45250,
-          "y": 75833,
+          "y": 79105,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26895,7 +26895,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Add to selection by cursor node click. shift+y\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 89) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId != null) {\n             var cursorNode = network.body.nodes[cursorNodeId];\n             var positions = network.getPositions();\n             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n             var positionObject = network.selectionHandler._pointerToPositionObject(cursorPointer);\n             var overlappingItemsIds = network.selectionHandler._getAllNodesOverlappingWith(positionObject);\n             \n             overlappingItemsIds.forEach(function(itemId) {\n                var node = network.body.nodes[itemId];\n                if (typeof node !== \"undefined\" && node != null && itemId != cursorNodeId) {\n                   network.selectionHandler.selectObject(node);\n                }\n             }); \n             lastClickPosition = cursorPointer;\n             network.selectionHandler.body.emitter.emit('_requestRedraw');\n         }\n      }\n   });",
           "id": "indx1_1484",
           "x": 42239,
-          "y": 75839,
+          "y": 79111,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26903,7 +26903,7 @@ var schemeData =
         "indx1_1485": {
           "id": "indx1_1485",
           "x": 42154,
-          "y": 69875,
+          "y": 73147,
           "label": "   $(document).keydown(function (event) {\n      //Move selected left. h\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true) {\n\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, -width/150, 0);\n             }\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -26920,7 +26920,7 @@ var schemeData =
         "indx1_1486": {
           "id": "indx1_1486",
           "x": 42346,
-          "y": 67873,
+          "y": 71145,
           "label": "   function moveSelectedNodes(nodesIdsList, xStep, yStep) {\n\n      var positions = network.getPositions();\n      for (var i in nodesIdsList) {\n         network.body.nodes[nodesIdsList[i]].x = Number(positions[nodesIdsList[i]].x + xStep);\n         network.body.nodes[nodesIdsList[i]].y = Number(positions[nodesIdsList[i]].y + yStep);\n      }\n      network.body.emitter.emit(\"startSimulation\");\n\n      console.log(\"moveSelectedNodes(nodesIdsList, xStep, yStep): \" + String(nodesIdsList.length) + \", \" + String(xStep) + \", \" + String(yStep));\n   }",
           "shape": "box",
           "link": "",
@@ -26963,7 +26963,7 @@ var schemeData =
           "label": "var moveSelectedDown = false;\nvar moveSelectedUp = false;\nvar moveSelectedLeft = false;\nvar moveSelectedRight = false;\n\nvar moveSelectedDownFast = false;\nvar moveSelectedUpFast = false;\nvar moveSelectedLeftFast = false;\nvar moveSelectedRightFast = false;",
           "id": "indx1_1487",
           "x": 42015,
-          "y": 67551,
+          "y": 70823,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -26997,7 +26997,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Toggle moving selected nodes from keyboard. m\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 77) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n             if (cursorNodeId != null) {\n                network.body.data.nodes.remove(cursorNodeId);\n                cursorNodeId = null;\n             }\n             if (keyboardMoveSelectedEnabled == false) {\n                keyboardMoveSelectedEnabled = true;\n             } else {\n                keyboardMoveSelectedEnabled = false;\n             }\n         }\n      }\n   });",
           "id": "indx1_1488",
           "x": 42088,
-          "y": 67222,
+          "y": 70494,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27005,7 +27005,7 @@ var schemeData =
         "indx1_1489": {
           "id": "indx1_1489",
           "x": 45352,
-          "y": 67871,
+          "y": 71143,
           "label": "moveSelectedNodes(nodesIdsList, xStep, yStep)",
           "shape": "box",
           "link": "",
@@ -27022,7 +27022,7 @@ var schemeData =
         "indx1_1490": {
           "id": "indx1_1490",
           "x": 44722,
-          "y": 69830,
+          "y": 73102,
           "label": "Move selected left. h",
           "shape": "box",
           "link": "",
@@ -27039,7 +27039,7 @@ var schemeData =
         "indx1_1491": {
           "id": "indx1_1491",
           "x": 45341,
-          "y": 67225,
+          "y": 70497,
           "label": "Toggle moving selected nodes from keyboard. m",
           "shape": "box",
           "link": "",
@@ -27084,7 +27084,7 @@ var schemeData =
           "label": "Move selected right fast. shift+l",
           "id": "indx1_1492",
           "x": 44957,
-          "y": 74451,
+          "y": 77723,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27120,7 +27120,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move selected right fast. shift+l\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true) {\n\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, width/30, 0);\n             }\n         }\n      }\n   });",
           "id": "indx1_1493",
           "x": 42154,
-          "y": 74502,
+          "y": 77774,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -27156,7 +27156,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move selected up fast. shift+k\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true) {\n\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, 0, -height/30);\n             }\n         }\n      }\n   });",
           "id": "indx1_1494",
           "x": 42154,
-          "y": 73680,
+          "y": 76952,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -27192,7 +27192,7 @@ var schemeData =
           "label": "Move selected up fast. shift+k",
           "id": "indx1_1495",
           "x": 44924,
-          "y": 73629,
+          "y": 76901,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27228,7 +27228,7 @@ var schemeData =
           "label": "Move selected left fast. shift+h",
           "id": "indx1_1496",
           "x": 44938,
-          "y": 72831,
+          "y": 76103,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27264,7 +27264,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move selected left fast. shift+h\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 72) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true) {\n\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, -width/30, 0);\n             }\n         }\n      }\n   });",
           "id": "indx1_1497",
           "x": 42154,
-          "y": 72882,
+          "y": 76154,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -27300,7 +27300,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move selected down fast. shift+j\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true) {\n\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, 0, height/30);\n             }\n         }\n      }\n   });",
           "id": "indx1_1498",
           "x": 42154,
-          "y": 72155,
+          "y": 75427,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -27336,7 +27336,7 @@ var schemeData =
           "label": "Move selected down fast. shift+j",
           "id": "indx1_1499",
           "x": 44974,
-          "y": 72167,
+          "y": 75439,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27372,7 +27372,7 @@ var schemeData =
           "label": "Move selected right. l",
           "id": "indx1_1500",
           "x": 44735,
-          "y": 71433,
+          "y": 74705,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27408,7 +27408,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move selected right. l\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 76) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true) {\n\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var width = windowRightBottomPosition.x - windowLeftTopPosition.x;\n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, width/150, 0);\n             }\n         }\n      }\n   });",
           "id": "indx1_1501",
           "x": 42154,
-          "y": 71476,
+          "y": 74748,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -27444,7 +27444,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move selected up. k\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 75) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true) {\n\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, 0, -height/150);\n             }\n         }\n      }\n   });\n",
           "id": "indx1_1502",
           "x": 42154,
-          "y": 70751,
+          "y": 74023,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -27480,7 +27480,7 @@ var schemeData =
           "label": "Move selected up. k",
           "id": "indx1_1503",
           "x": 44708,
-          "y": 70708,
+          "y": 73980,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27516,7 +27516,7 @@ var schemeData =
           "label": "   $(document).keydown(function (event) {\n      //Move selected down. j\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n\n      }\n   });\n   $(document).keyup(function (event) {\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 74) {\n\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\") {\n\n             if (keyboardMoveSelectedEnabled == true) {\n\n                var nodesPositions = network.getPositions();\n                var windowLeftTopPosition = network.canvas.DOMtoCanvas({\n                   x: 0, \n                   y: 0});\n                var windowRightBottomPosition = network.canvas.DOMtoCanvas({\n                   x: network.canvas.frame.canvas.clientWidth, \n                   y: network.canvas.frame.canvas.clientHeight});\n                var height = windowRightBottomPosition.y - windowLeftTopPosition.y; \n                var nodesIdsList = network.selectionHandler.getSelectedNodes();\n                moveSelectedNodes(nodesIdsList, 0, height/150);\n             }\n         }\n      }\n   });",
           "id": "indx1_1504",
           "x": 42154,
-          "y": 69226,
+          "y": 72498,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -27552,7 +27552,7 @@ var schemeData =
           "label": "Move selected down. j",
           "id": "indx1_1505",
           "x": 44758,
-          "y": 69246,
+          "y": 72518,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27560,7 +27560,7 @@ var schemeData =
         "indx1_1506": {
           "id": "indx1_1506",
           "x": 42180,
-          "y": 66080,
+          "y": 69352,
           "label": "   $(document).keyup(function (event) {\n      //Toggle selection rectangle for cursor node. u\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 85) {\n         var selectedElement = $(document.activeElement);\n         if (selectedElement.prop(\"tagName\") == \"DIV\" &&\n             selectedElement.prop(\"class\") == \"vis-network\" &&\n             cursorNodeId != null) {\n\n             var cursorNode = network.body.nodes[cursorNodeId];\n             var positions = network.getPositions();\n             var cursorPointer = network.canvasToDOM(positions[cursorNodeId]);\n\n             if (selectionRectangleDrag == false) {\n                saveDrawingSurface();\n                rect.startX = cursorPointer.x;\n                rect.startY = cursorPointer.y;\n                selectionRectangleDrag = true;\n             } else {\n                selectNodesFromHighlight();\n                selectionRectangleDrag = false;\n                network.selectionHandler.deselectObject(cursorNode);\n             }\n         }\n      }\n   });",
           "shape": "box",
           "link": "",
@@ -27577,7 +27577,7 @@ var schemeData =
         "indx1_1507": {
           "id": "indx1_1507",
           "x": 44697,
-          "y": 26090,
+          "y": 29362,
           "label": "containerJQ.on(\"mousemove\", function(e) {",
           "shape": "box",
           "link": "",
@@ -27594,7 +27594,7 @@ var schemeData =
         "indx1_1508": {
           "id": "indx1_1508",
           "x": 44664,
-          "y": 26955,
+          "y": 30227,
           "label": "containerJQ.on(\"mousedown\", function(e)",
           "shape": "box",
           "link": "",
@@ -27611,7 +27611,7 @@ var schemeData =
         "indx1_1509": {
           "id": "indx1_1509",
           "x": 43355,
-          "y": 15520,
+          "y": 18792,
           "label": "draw()",
           "shape": "box",
           "link": "",
@@ -27628,7 +27628,7 @@ var schemeData =
         "indx1_1510": {
           "id": "indx1_1510",
           "x": 45249,
-          "y": 66037,
+          "y": 69309,
           "label": "Toggle selection rectangle for cursor node. u",
           "shape": "box",
           "link": "",
@@ -27671,7 +27671,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Toggle \"showData\" menu. alt+\\\n      if (event.altKey == true && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          event.keyCode === 220) {\n          $(\"div#showData\").click();\n      }\n   });",
           "id": "indx1_1511",
           "x": 42060,
-          "y": 65060,
+          "y": 68332,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -27705,7 +27705,7 @@ var schemeData =
           "label": "Toggle \"showData\" menu. alt+\\",
           "id": "indx1_1512",
           "x": 44945,
-          "y": 65070,
+          "y": 68342,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29634,14 +29634,14 @@ var schemeData =
           "label": "",
           "link": "",
           "x": 48381,
-          "y": 61635,
+          "y": 64907,
           "id": "indx1_1574"
         },
         "indx1_1575": {
           "label": "",
           "link": "",
           "x": 48381,
-          "y": 61659,
+          "y": 64931,
           "id": "indx1_1575"
         },
         "indx1_1576": {
@@ -29675,7 +29675,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Toggle \"showData\" menu. shift+alt+n\n      if (event.altKey == true && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 78) {\n         var fileName = window.location.href.split(\"/\")[window.location.href.split(\"/\").length-1];\n         var nodes = objectToArray(network.body.nodes);\n         rootCodeNode = null;\n         nodes.forEach(function(node) {\n            var node = getNodeFromNetworkDataById(node.id);\n            if (typeof node.label !== \"undefined\" &&\n               node.label.match(/.*download news code1.*/) != null) {\n               rootCodeNode = node;\n            }\n         });\n         console.log(rootCodeNode);\n\n         var positions = network.getPositions();\n         var cursorPointer = network.canvasToDOM(positions[rootCodeNode.id]);\n         var positionObject = network.selectionHandler._pointerToPositionObject(cursorPointer);\n         //var overlappingItemsIds = network.selectionHandler._getAllNodesOverlappingWith(positionObject);\n\n         network.selectionHandler.unselectAll();\n\n         //overlappingItemsIds.forEach(function(itemId) {\n         var node = network.body.nodes[rootCodeNode.id];\n         //   if (typeof node !== \"undefined\" && node != null && itemId != cursorNodeId) {\n            network.selectionHandler.selectObject(node);\n         //   }\n         //});\n         //lastClickPosition = cursorPointer;\n         network.selectionHandler._generateClickEvent('selectNode', event, cursorPointer);\n         network.selectionHandler.body.emitter.emit('_requestRedraw');\n         $(\"span#runNodeCodeButton\").click();\n\n         var nodesIdInDrawing = [];\n         if (fileName == \"news1.html\") {\n            var newsRootNodeId = \"031f622f-3fce-41a6-826f-f0b84fa7afc3\";\n            var treeNodes = getTreeNodesAndEdges(newsRootNodeId).nodes;\n            for (var i = 0; i < treeNodes.length; i++) {\n               var node = treeNodes[i];\n               nodesIdInDrawing.push(node.id);\n            }\n         } else {\n            var allNodes = network.body.data.nodes.get();\n            for (var i = 0; i < allNodes.length; i++) {\n               var node = allNodes[i];\n               nodesIdInDrawing.push(node.id);\n            }\n         }\n         network.selectNodes(nodesIdInDrawing);\n         $(\"span#runNodeCodeButton\").click();\n      }\n   });",
           "id": "indx1_1576",
           "x": 42278,
-          "y": 64357,
+          "y": 67629,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -29711,7 +29711,7 @@ var schemeData =
           "label": "Download news. shift+alt+n",
           "id": "indx1_1577",
           "x": 44874,
-          "y": 64340,
+          "y": 67612,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -30806,8 +30806,8 @@ var schemeData =
           },
           "shapeProperties": {},
           "label": "function multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0) {\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n   var selectedEdges = objectToArray(network.selectionHandler.selectionObj.edges);\n   var nodes = [];\n   var nodesPositions = network.getPositions();\n   selectedNodes.forEach(function(node) {\n      var nodeD = getNodeFromNetworkDataById(node.id);\n      pNode = nodesPositions[node.id];\n      nodeD.x = pNode.x;\n      nodeD.y = pNode.y;\n      network.body.data.nodes.update(nodeD);\n      nodes.push(getNodeFromNetworkDataById(node.id));\n   });\n   var edges = []\n   selectedEdges.forEach(function(edge) {\n      edges.push(network.body.data.edges.get(edge.id));\n   });\n\n   var data = {\n      nodes: {},\n      edges: {}\n   };\n\t\t\t\n   nodes1ToCopy = {}; \n   nodes.forEach(function(item) {\n      nodes1ToCopy[item.id.toString()] = item;\n   });\n   data.nodes = nodes1ToCopy;\n\n   var edges1ToCopy = {}; \n   edges.forEach(function(item) {\n      edges1ToCopy[item.id.toString()] = item;\n   });\n   data.edges = edges1ToCopy;\n   var label = JSON.stringify(data, undefined, 1);\n   var data = JSON.parse(label);\n   var date = new Date();\n   //var idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n   network.selectionHandler.unselectAll();\n   var nodesArray = objectToArray(data.nodes);\n      for (var j=0; j < nodesArray.length; j++) {\n         var node = nodesArray[j];\n         node.oldId = node.id;\n      }\n   var edgesArray = objectToArray(data.edges);\n      for (var k=0; k < edgesArray.length; k++) {\n         var edge = edgesArray[k];\n         edge.oldId = edge.id;\t\n         edge.oldFrom = edge.from;\n         edge.oldTo = edge.to;\n      }\n   for (var i=0; i < multiplyCount; i++) {\n      console.log(\"multiplySelected: \" + String(i) + \", \" + String(multiplyCount) + \". Nodes: \" + String(nodesArray.length) + \", Edges: \" + String(edgesArray.length));\n      for (var j=0; j < nodesArray.length; j++) {\n         var node = nodesArray[j];\n         node.id = node.oldId + idPostfix + String(idCounterPostfixStart + i);\n         node.x = node.x + xShift; \n         node.y = node.y + yShift; \n         var newNode = network.nodesHandler.create(node);\n         network.body.data.nodes.add(newNode.options);\n         network.selectionHandler.selectObject(newNode);\n      }\n      for (var k=0; k < edgesArray.length; k++) {\n         var edge = edgesArray[k];\n         edge.id = edge.oldId + idPostfix + String(idCounterPostfixStart + i);\t\n         edge.from = edge.oldFrom + idPostfix + String(idCounterPostfixStart + i);\n         edge.to = edge.oldTo + idPostfix + String(idCounterPostfixStart + i);\n         var newEdge = network.edgesHandler.create(edge);\n         network.body.data.edges.add(newEdge.options);\n         network.selectionHandler.selectObject(newEdge);\n      }\n   }\n   network.selectionHandler.setSelection(network.selectionHandler.getSelection());\n   return data;\n}",
-          "x": 41312,
-          "y": 8331,
+          "x": 41253,
+          "y": 9004,
           "id": "indx1_1647",
           "shape": "box",
           "link": "",
@@ -30935,7 +30935,7 @@ var schemeData =
         "indx1_1653": {
           "id": "indx1_1653",
           "x": 45064,
-          "y": 8301,
+          "y": 8974,
           "label": "multiplySelected(multiplyCount, idPostfix, xShift, yShift, idCounterPostfixStart = 0)",
           "shape": "box",
           "link": "",
@@ -30952,7 +30952,7 @@ var schemeData =
         "indx1_1654": {
           "id": "indx1_1654",
           "x": 44754,
-          "y": 115699,
+          "y": 118971,
           "label": "var newThemeGraphTemplate = {\"nodes\":{\n\"e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b8565582823680\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffc63b\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":1000,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"mm-vis-js pages list\",\"id\":\"e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b8565582823680\",\"x\":10945,\"y\":-19926,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"\",\"oldId\":\"e16c5a8d-aa54-4c24-bcb1-c9c0fd216e3b856558282368\"},\n\"92f53a00-cf65-456f-bfcf-6f6c88119d5b1471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"R&D institutions\",\"x\":4954,\"y\":-19177,\"id\":\"92f53a00-cf65-456f-bfcf-6f6c88119d5b1471268270\",\"oldId\":\"92f53a00-cf65-456f-bfcf-6f6c88119d5b147126827\"},\n\"75ff23b4-3d0f-4c06-8061-4069494a326f1471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Sites\",\"x\":4920,\"y\":-19152,\"id\":\"75ff23b4-3d0f-4c06-8061-4069494a326f1471268270\",\"oldId\":\"75ff23b4-3d0f-4c06-8061-4069494a326f147126827\"},\n\"1bc92ea3-79ba-4d40-816c-35cedc1c74bf1471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Magazines\",\"x\":4939,\"y\":-19127,\"id\":\"1bc92ea3-79ba-4d40-816c-35cedc1c74bf1471268270\",\"oldId\":\"1bc92ea3-79ba-4d40-816c-35cedc1c74bf147126827\"},\n\"2d9049d8-feaf-41cd-afb1-87515557983e1471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Articles\",\"x\":4927,\"y\":-19102,\"id\":\"2d9049d8-feaf-41cd-afb1-87515557983e1471268270\",\"oldId\":\"2d9049d8-feaf-41cd-afb1-87515557983e147126827\"},\n\"51a5b447-fa28-4997-80ca-b7a96a69ef9e1471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Media content\",\"x\":4949,\"y\":-19077,\"id\":\"51a5b447-fa28-4997-80ca-b7a96a69ef9e1471268270\",\"oldId\":\"51a5b447-fa28-4997-80ca-b7a96a69ef9e147126827\"},\n\"8a139418-94d2-4121-94a4-dfsa26213d241471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Misc. web links\",\"x\":4950,\"y\":-18945,\"id\":\"8a139418-94d2-4121-94a4-dfsa26213d241471268270\",\"oldId\":\"8a139418-94d2-4121-94a4-dfsa26213d24147126827\"},\n\"76fc5be1-7bae-46ec-a649-1bc6509b378d1471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Projects\",\"x\":4932,\"y\":-18811,\"id\":\"76fc5be1-7bae-46ec-a649-1bc6509b378d1471268270\",\"oldId\":\"76fc5be1-7bae-46ec-a649-1bc6509b378d147126827\"},\n\"21dc8bf2-6e0c-42cf-b702-d47f24af173a1471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Tools\",\"x\":4923,\"y\":-18786,\"id\":\"21dc8bf2-6e0c-42cf-b702-d47f24af173a1471268270\",\"oldId\":\"21dc8bf2-6e0c-42cf-b702-d47f24af173a147126827\"},\n\"1f9b98e7-ca75-443c-952d-a1d0ba4766521471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Organizations\",\"x\":4950,\"y\":-18761,\"id\":\"1f9b98e7-ca75-443c-952d-a1d0ba4766521471268270\",\"oldId\":\"1f9b98e7-ca75-443c-952d-a1d0ba476652147126827\"},\n\"f9c77b6e-13d7-4687-9d7f-e858e5cf56851471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Standarts\",\"x\":4937,\"y\":-18736,\"id\":\"f9c77b6e-13d7-4687-9d7f-e858e5cf56851471268270\",\"oldId\":\"f9c77b6e-13d7-4687-9d7f-e858e5cf5685147126827\"},\n\"f13fa072-1d46-45b2-b2b1-679177d88ba61471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Laws\",\"x\":4923,\"y\":-18686,\"id\":\"f13fa072-1d46-45b2-b2b1-679177d88ba61471268270\",\"oldId\":\"f13fa072-1d46-45b2-b2b1-679177d88ba6147126827\"},\n\"ab382182-58b3-4799-ad70-5340f6f6e88d1471268270\":{\"color\":{\"highlight\":{},\"hover\":{}},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Adjacent Themes\",\"x\":4962,\"y\":-18661,\"id\":\"ab382182-58b3-4799-ad70-5340f6f6e88d1471268270\",\"oldId\":\"ab382182-58b3-4799-ad70-5340f6f6e88d147126827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a1672278270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Details, thoughts\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278270\",\"x\":4868,\"y\":-19310,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a167227827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a1677768270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Questions\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a1677768270\",\"x\":4704,\"y\":-18556,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a167776827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a1678r5t270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Problems\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a1678r5t270\",\"x\":4702,\"y\":-18460,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a1678r5t27\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a1678678270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Goals\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a1678678270\",\"x\":4691,\"y\":-18366,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a167867827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a1677djk270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Development\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a1677djk270\",\"x\":4714,\"y\":-18241,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a1677djk27\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a167558270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"init\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a167558270\",\"x\":5000,\"y\":-18241,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a16755827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a1674785098270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Notes\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a1674785098270\",\"x\":4689,\"y\":-19304,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a167478509827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Sections\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"x\":4842,\"y\":-18934,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a167227862827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a167227862278270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\",\"border\":\"\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"4/28/2020\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a167227862278270\",\"x\":4853,\"y\":-18237,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a16722786227827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"red\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":72,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"mm-vis-js pages list\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270\",\"x\":4234,\"y\":-18709,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a167227862146827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a167227862958270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Books\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a167227862958270\",\"x\":4924,\"y\":-19202,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a16722786295827\"},\n\"1376bcb3-aff5-472c-b93a-4e636983a1672278624278270\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Forums, Groups\",\"id\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278624278270\",\"x\":4958,\"y\":-18711,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"1376bcb3-aff5-472c-b93a-4e636983a167227862427827\"},\n\"aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"Dictionary of\\nconcepts\",\"id\":\"aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330\",\"x\":4855,\"y\":-20050,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"aac1163f-fc2b-4f9c-a767-e2e19d8bd93b533\"},\n\"aky1163f-fc2b-4f9c-a767-e2e19d8bd93b5330521\":{\"color\":{\"highlight\":{},\"hover\":{},\"background\":\"#ffd570\",\"border\":\"\"},\"fixed\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{},\"size\":14,\"align\":\"left\"},\"icon\":{},\"imagePadding\":{},\"margin\":{},\"scaling\":{\"label\":{\"enabled\":false}},\"shadow\":{\"enabled\":false},\"shapeProperties\":{},\"label\":\"some link\",\"id\":\"aky1163f-fc2b-4f9c-a767-e2e19d8bd93b5330521\",\"x\":5248,\"y\":-18948,\"shape\":\"box\",\"link\":\"\",\"borderWidth\":\"0\",\"oldId\":\"aky1163f-fc2b-4f9c-a767-e2e19d8bd93b533\"}},\n\"edges\":{\n\"eaa61b14-72fb-4196-983b-04facd8cb0aa8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"eaa61b14-72fb-4196-983b-04facd8cb0aa8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"92f53a00-cf65-456f-bfcf-6f6c88119d5b1471268270\"},\n\"f5b51ca3-a326-4f80-8963-5451be1cb7b18270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"f5b51ca3-a326-4f80-8963-5451be1cb7b18270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"75ff23b4-3d0f-4c06-8061-4069494a326f1471268270\"},\n\"d15d32d4-4a4c-452c-8b7d-ee712d79d46d8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"d15d32d4-4a4c-452c-8b7d-ee712d79d46d8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"1bc92ea3-79ba-4d40-816c-35cedc1c74bf1471268270\"},\n\"4d124ee3-251c-46ef-b9dc-02259578bd828270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"4d124ee3-251c-46ef-b9dc-02259578bd828270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"2d9049d8-feaf-41cd-afb1-87515557983e1471268270\"},\n\"84962dff-2ade-4e6e-9736-ff8910f4b84b8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"84962dff-2ade-4e6e-9736-ff8910f4b84b8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"51a5b447-fa28-4997-80ca-b7a96a69ef9e1471268270\"},\n\"6c7bf4ec-c6d4-461a-9a09-62061ea5d86c8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"6c7bf4ec-c6d4-461a-9a09-62061ea5d86c8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"8a139418-94d2-4121-94a4-dfsa26213d241471268270\"},\n\"253208f5-9f69-4217-b9c5-7a8a3133126c8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"253208f5-9f69-4217-b9c5-7a8a3133126c8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"76fc5be1-7bae-46ec-a649-1bc6509b378d1471268270\"},\n\"2a47ff1f-d53c-4ca4-9b90-de236121ef298270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"2a47ff1f-d53c-4ca4-9b90-de236121ef298270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"21dc8bf2-6e0c-42cf-b702-d47f24af173a1471268270\"},\n\"6e1a4f97-4c23-49f8-a994-767bca90e9bb8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"6e1a4f97-4c23-49f8-a994-767bca90e9bb8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"1f9b98e7-ca75-443c-952d-a1d0ba4766521471268270\"},\n\"2ed0fb1c-3b49-4e1a-bace-50e38e42cd668270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"2ed0fb1c-3b49-4e1a-bace-50e38e42cd668270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"f9c77b6e-13d7-4687-9d7f-e858e5cf56851471268270\"},\n\"e0510208-6718-4ea3-97f2-774c7ddfb4c58270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"e0510208-6718-4ea3-97f2-774c7ddfb4c58270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"f13fa072-1d46-45b2-b2b1-679177d88ba61471268270\"},\n\"05e00442-339d-4ad8-aa08-5035109b9a088270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"05e00442-339d-4ad8-aa08-5035109b9a088270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"ab382182-58b3-4799-ad70-5340f6f6e88d1471268270\"},\n\"e75445bf-21c5-43ee-ac41-09c54bde5ebd8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"e75445bf-21c5-43ee-ac41-09c54bde5ebd8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1674785098270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278270\"},\"c201fb5e-cf1d-4de2-bf7d-cf767486b0418270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"c201fb5e-cf1d-4de2-bf7d-cf767486b0418270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a1677768270\"},\n\"fa2c2ae2-8508-4761-b4bd-f9d42f6b3ffe8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"fa2c2ae2-8508-4761-b4bd-f9d42f6b3ffe8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a1678r5t270\"},\n\"18de459f-33b2-4989-aae7-7fc401290c938270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"18de459f-33b2-4989-aae7-7fc401290c938270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a1678678270\"},\n\"6107d249-e5a4-456b-911e-387569d3ea8b8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"6107d249-e5a4-456b-911e-387569d3ea8b8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1677djk270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a167227862278270\"},\"46187ebb-0252-4fe0-aeeb-826cf71cb9008270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"46187ebb-0252-4fe0-aeeb-826cf71cb9008270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a1677djk270\"},\n\"c3369f43-d9d7-4e36-8744-9763fa687b428270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"c3369f43-d9d7-4e36-8744-9763fa687b428270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a167227862278270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a167558270\"},\n\"2d9e7a46-861e-472b-9e66-09c3b4cb75c78270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"2d9e7a46-861e-472b-9e66-09c3b4cb75c78270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278621468270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a1674785098270\"},\n\"d81191c0-c1c7-41ac-96ea-f2f58c8f4b938270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"d81191c0-c1c7-41ac-96ea-f2f58c8f4b938270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1674785098270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\"},\n\"d8zx91c0-c1c7-41ac-96ea-f2f58c8f4b938270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"d8zx91c0-c1c7-41ac-96ea-f2f58c8f4b938270\",\"from\":\"8a139418-94d2-4121-94a4-dfsa26213d241471268270\",\"to\":\"aky1163f-fc2b-4f9c-a767-e2e19d8bd93b5330521\"},\n\"87983bd7-3df6-tnh2-ac28-188f9abb92ad0\":{\"arrows\":{\"to\":{},\"middle\":{},\"from\":{}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{},\"background\":{},\"smooth\":{},\"id\":\"87983bd7-3df6-tnh2-ac28-188f9abb92ad0\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1674785098270\",\"to\":\"aac1163f-fc2b-4f9c-a767-e2e19d8bd93b5330\"},\"df179721-1673-47fd-8dea-3eeec2f5875b8270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"df179721-1673-47fd-8dea-3eeec2f5875b8270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a167227862958270\"},\n\"da681120-baaa-4b63-bce4-cd22b16a8a558270\":{\"arrows\":{\"to\":{\"enabled\":false},\"middle\":{\"enabled\":false},\"from\":{\"enabled\":false}},\"color\":{},\"font\":{\"bold\":{},\"boldital\":{},\"ital\":{},\"mono\":{}},\"scaling\":{\"label\":{\"enabled\":true}},\"shadow\":{\"enabled\":false},\"background\":{\"enabled\":false},\"smooth\":{\"enabled\":false},\"id\":\"da681120-baaa-4b63-bce4-cd22b16a8a558270\",\"from\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278628270\",\"to\":\"1376bcb3-aff5-472c-b93a-4e636983a1672278624278270\"}}};",
           "shape": "box",
           "link": "",
@@ -30996,7 +30996,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "function tG(multiplyCount, idPostfix, xShift, yShift, dateLine = \"\", idCounterPostfixStart = 0) {\n\n   var data = newThemeGraphTemplate;\n\n   //set graph init date line\n   data.nodes[\"1376bcb3-aff5-472c-b93a-4e636983a167227862278270\"].label = dateLine;\n\n   network.selectionHandler.unselectAll();\n   network.selectionHandler.updateSelection();\n   var nodesArray = objectToArray(data.nodes);\n      for (var j=0; j < nodesArray.length; j++) {\n         var node = nodesArray[j];\n         node.oldId = node.id;\n      }\n   var edgesArray = objectToArray(data.edges);\n      for (var k=0; k < edgesArray.length; k++) {\n         var edge = edgesArray[k];\n         edge.oldId = edge.id;\t\n         edge.oldFrom = edge.from;\n         edge.oldTo = edge.to;\n      }\n   for (var i=0; i < multiplyCount; i++) {\n      for (var j=0; j < nodesArray.length; j++) {\n         var node = nodesArray[j];\n         var json = JSON.stringify(node);\n         node = JSON.parse(json);\n         node.id = node.oldId + idPostfix + String(idCounterPostfixStart + i);\n         node.x = node.x + xShift*i; \n         node.y = node.y + yShift*i; \n         nodesToPaste.push(node);\n         //var newNode = network.nodesHandler.create(node);\n         //network.body.data.nodes.add(newNode.options);\n         //network.selectionHandler.selectObject(newNode);\n      }\n      for (var k=0; k < edgesArray.length; k++) {\n         var edge = edgesArray[k];\n         var json = JSON.stringify(edge);\n         edge = JSON.parse(json);\n         edge.id = edge.oldId + idPostfix + String(idCounterPostfixStart + i);\t\n         edge.from = edge.oldFrom + idPostfix + String(idCounterPostfixStart + i);\n         edge.to = edge.oldTo + idPostfix + String(idCounterPostfixStart + i);\n         edgesToPaste.push(edge);\n         //var newEdge = network.edgesHandler.create(edge);\n         //network.body.data.edges.add(newEdge.options);\n         //network.selectionHandler.selectObject(newEdge);\n      }\n   }\n   //network.selectionHandler.setSelection(network.selectionHandler.getSelection());\n}",
           "x": 41968,
-          "y": 116804,
+          "y": 120076,
           "id": "indx1_1655",
           "shape": "box",
           "link": "",
@@ -31298,7 +31298,7 @@ var schemeData =
         "indx1_1665": {
           "id": "indx1_1665",
           "x": 46688,
-          "y": 116751,
+          "y": 120023,
           "label": "function tG(multiplyCount, idPostfix, xShift, yShift, dateLine = \"\", idCounterPostfixStart = 0)",
           "shape": "box",
           "link": "",
@@ -31625,7 +31625,7 @@ var schemeData =
           "label": "function viewLink() {\n   var link = window.location.href.split(\"?\")[0];\n   var scale = Number.parseFloat(network.getScale()).toFixed(3);\n   var viewPosition = network.getViewPosition();\n   var x = Number.parseFloat(viewPosition.x).toFixed(3);\n   var y = Number.parseFloat(viewPosition.y).toFixed(3);\n   var scaleParam = \"scale=\" + String(scale);\n   var xParam = \"x=\" + String(x);\n   var yParam = \"y=\" + String(y);\n   var linkParams = \"?\" + scaleParam + \"&\" + xParam + \"&\" + yParam;\n   link = link + linkParams;\n   console.log(link);\n   return link;\n}",
           "id": "indx1_1674",
           "x": 41934,
-          "y": 118195,
+          "y": 121467,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -31659,7 +31659,7 @@ var schemeData =
           "label": "viewLink()",
           "id": "indx1_1675",
           "x": 44908,
-          "y": 118178,
+          "y": 121450,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33238,7 +33238,7 @@ var schemeData =
           "label": "//Hide comment nodes\nfunction hideCommentNodes(hideCommentNodesBool) {\n   var nodes = network.body.data.nodes.get();\n   var foundNodes = [];\n\n   nodes.forEach(function(node) {\n      if (node.label.lastIndexOf(\"//#1\", 0) === 0) {\n         foundNodes.push(node);\n      }\n   });\n\n   foundNodes.forEach(function(node) {\n\n      var nodeId = node.id;\n\n      var n = network.body.data.nodes.get(nodeId);\n\n      if (typeof n.hidden === \"undefined\" || n.hidden == false) {\n          var nodesPositions = network.getPositions();\n   \n          var nodeD = getNodeFromNetworkDataById(n.id);\n          pNode = nodesPositions[n.id];\n          nodeD.x = pNode.x;\n          nodeD.y = pNode.y;\n          network.body.data.nodes.update(nodeD);\n      }\n\n      n = network.body.data.nodes.get(nodeId);\n      \n      n.hidden = hideCommentNodesBool;\n\n      //toggle nodes\n      //if (typeof n.hidden === \"undefined\") {\n      //   n.hidden = true;\n      //} else {\n      //   if (n.hidden == true) {\n      //      n.hidden = false;\n      //   } else {\n      //      n.hidden = true;\n      //   }\n      //}\n\n      network.body.data.nodes.update(n);\n      network.selectionHandler.selectObject(network.body.nodes[n.id]);\n\n   });\n\n}",
           "id": "indx1_1723",
           "x": 41935,
-          "y": 118690,
+          "y": 121962,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33274,7 +33274,7 @@ var schemeData =
           "label": "showOrHideCommentNodes(showCommentNodesBool)",
           "id": "indx1_1724",
           "x": 45933,
-          "y": 118521,
+          "y": 121793,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33310,7 +33310,7 @@ var schemeData =
           "label": "//fix (freeze) selected nodes\nfunction fN() {\n   var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes);\n\n   selectedNode.forEach(function(node) {\n\n      var nodeId = node.id;\n\n      var n = network.body.data.nodes.get(nodeId);\n\n          var nodesPositions = network.getPositions();\n   \n          var nodeD = getNodeFromNetworkDataById(n.id);\n          pNode = nodesPositions[n.id];\n          nodeD.x = pNode.x;\n          nodeD.y = pNode.y;\n          network.body.data.nodes.update(nodeD);\n\n      n = network.body.data.nodes.get(nodeId);\n\n      n.fixed = true;\n\n      network.body.data.nodes.update(n);\n   });\n}",
           "id": "indx1_1725",
           "x": 42002,
-          "y": 119872,
+          "y": 123144,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33346,7 +33346,7 @@ var schemeData =
           "label": "fN();",
           "id": "indx1_1726",
           "x": 44780,
-          "y": 119835,
+          "y": 123107,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33382,7 +33382,7 @@ var schemeData =
           "label": "//unfix (unfreeze) selected nodes\nfunction uFN() {\n   var selectedNode = objectToArray(network.selectionHandler.selectionObj.nodes);\n\n   selectedNode.forEach(function(node) {\n\n      var nodeId = node.id;\n\n      var n = network.body.data.nodes.get(nodeId);\n\n          var nodesPositions = network.getPositions();\n   \n          var nodeD = getNodeFromNetworkDataById(n.id);\n          pNode = nodesPositions[n.id];\n          nodeD.x = pNode.x;\n          nodeD.y = pNode.y;\n          network.body.data.nodes.update(nodeD);\n\n      n = network.body.data.nodes.get(nodeId);\n\n      n.fixed = false;\n\n      network.body.data.nodes.update(n);\n   });\n}",
           "id": "indx1_1727",
           "x": 42002,
-          "y": 120352,
+          "y": 123624,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33418,7 +33418,7 @@ var schemeData =
           "label": "uFN()",
           "id": "indx1_1728",
           "x": 44811,
-          "y": 120315,
+          "y": 123587,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33454,7 +33454,7 @@ var schemeData =
           "label": "//hide comment nodes\nfunction hC() {\n   hideCommentNodes(true);\n}",
           "id": "indx1_1729",
           "x": 41807,
-          "y": 119156,
+          "y": 122428,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33490,7 +33490,7 @@ var schemeData =
           "label": "hC()",
           "id": "indx1_1730",
           "x": 44780,
-          "y": 119139,
+          "y": 122411,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33526,7 +33526,7 @@ var schemeData =
           "label": "//show comment nodes\nfunction sC() {\n   hideCommentNodes(false);\n}",
           "id": "indx1_1731",
           "x": 41809,
-          "y": 119418,
+          "y": 122690,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33562,7 +33562,7 @@ var schemeData =
           "label": "sC()",
           "id": "indx1_1732",
           "x": 44777,
-          "y": 119401,
+          "y": 122673,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -33597,7 +33597,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_1733",
           "x": 65541,
-          "y": 58131,
+          "y": 61318,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -33633,7 +33633,7 @@ var schemeData =
           "label": "file path: ./app/mm-vis-js_docs.html",
           "id": "indx1_1734",
           "x": 66566,
-          "y": 58124,
+          "y": 61311,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -33665,7 +33665,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_1735",
           "x": 67085,
-          "y": 58110
+          "y": 61297
         },
         "indx1_1736": {
           "color": {
@@ -33698,7 +33698,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/mm-vis-js_docs.html",
           "id": "indx1_1736",
           "x": 74998,
-          "y": 58808,
+          "y": 61995,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -33733,7 +33733,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>mm-vis-js docs &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67655,
-          "y": 58052,
+          "y": 61239,
           "id": "indx1_1737",
           "shape": "box",
           "link": "",
@@ -33768,7 +33768,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68060,
-          "y": 58374,
+          "y": 61561,
           "id": "indx1_1738",
           "shape": "box",
           "link": "",
@@ -33803,7 +33803,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68232,
-          "y": 58904,
+          "y": 62091,
           "id": "indx1_1739",
           "shape": "box",
           "link": "",
@@ -33838,7 +33838,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 68084,
-          "y": 59604,
+          "y": 62791,
           "id": "indx1_1740",
           "shape": "box",
           "link": "",
@@ -33874,7 +33874,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.016, x: 95591, y: 10639};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"mm-vis-js_docs.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68352,
-          "y": 60351,
+          "y": 63538,
           "id": "indx1_1741",
           "shape": "box",
           "link": "",
@@ -34049,7 +34049,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Copy node style. shift+alt+c\n      if (event.altKey == true && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 67) {\n             var node = objectToArray(network.selectionHandler.selectionObj.nodes)[0];\n\n             if (typeof node.options.font !== \"undefined\" && typeof node.options.font.size !== \"undefined\") {\n                copiedNodeStyleFontSize = node.options.font.size;\n             } else {\n                copiedNodeStyleFontSize = \"14\";\n             }\n\n             if (typeof node.options.color !== \"undefined\" && typeof node.options.color.background !== \"undefined\") {\n                copiedNodeStyleColor = node.options.color.background;\n             } else {\n                copiedNodeStyleColor = \"#ffd570\";\n             }\n\n             //console.log(copiedNodeStyleFontSize);\n             //console.log(copiedNodeStyleColor);\n      }\n   });",
           "id": "indx1_1746",
           "x": 42298,
-          "y": 63131,
+          "y": 66403,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -34083,7 +34083,7 @@ var schemeData =
           "label": "Copy node style. shift+alt+c",
           "id": "indx1_1747",
           "x": 44877,
-          "y": 63112,
+          "y": 66384,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -34119,7 +34119,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Paste node style. shift+alt+v\n      if (event.altKey == true && \n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 86) {\n             var node = objectToArray(network.selectionHandler.selectionObj.nodes)[0];\n\n             //console.log(copiedNodeStyleFontSize);\n             //console.log(copiedNodeStyleColor);\n             if (copiedNodeStyleFontSize == \"\" && copiedNodeStyleColor == \"\") return;\n\n             var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n\n             var nodes = [];\n             selectedNodes.forEach(function(node) {\n                nodes.push(network.body.data.nodes.get(node.id));\n             });\n\n             nodes.forEach(function(n) {\n                //console.log(n);\n                var node = network.body.data.nodes.get(n.id);\n                var pNode = network.getPositions()[node.id];\n\n                if (typeof node.font === \"undefined\") node.font={};\n                node.font.size = parseInt(copiedNodeStyleFontSize,10);\n\n                if (typeof node.color === \"undefined\") node.color={};\n                node.color.background = copiedNodeStyleColor;\n\n                //node.font.align = \"left\";\n\n                node.x = pNode.x;\n                node.y = pNode.y;\n                network.body.data.nodes.update(node);\n             });\n      }\n   });\n\n\n",
           "id": "indx1_1748",
           "x": 42232,
-          "y": 63611,
+          "y": 66883,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -34155,7 +34155,7 @@ var schemeData =
           "label": "Paste node style. shift+alt+v",
           "id": "indx1_1749",
           "x": 44889,
-          "y": 63592,
+          "y": 66864,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -35310,7 +35310,7 @@ var schemeData =
           "label": "function distributeVertically(yStep) {\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n   console.log(\"selectedNodes.length: \" + String(selectedNodes.length));\n  \n   if (selectedNodes.length < 2) return;\n\n   //!!network.body.emitter.emit(\"startSimulation\");\n   var nodesPositions = network.getPositions();\n\n   var updatedNodes = [];\n\n   for (var i in selectedNodes) {\n\n      var nodeId = selectedNodes[i].id;\n\n      var n = network.body.data.nodes.get(nodeId);\n   \n      var nodeD = getNodeFromNetworkDataById(n.id);\n      pNode = nodesPositions[n.id];\n      nodeD.x = pNode.x;\n      nodeD.y = pNode.y;\n      network.body.data.nodes.update(nodeD);\n\n      n = network.body.data.nodes.get(nodeId);\n\n      updatedNodes.push(n);\n\n      //network.body.data.nodes.update(n);\n   }\n\n   function compare( a, b ) {\n      if ( a.y < b.y ){\n         return -1;\n      }\n      if ( a.y > b.y ){\n         return 1;\n      }\n      return 0;\n   }\n\n   var updatedNodesSortedByY = updatedNodes.sort(compare);\n\n   var topNode = updatedNodesSortedByY[0];\n   var bottomNode = updatedNodesSortedByY[updatedNodesSortedByY.length-1];\n\n   if (typeof yStep === \"undefined\") {\n      yStep = (topNode.y - bottomNode.y)/(updatedNodesSortedByY.length-1);\n      console.log(\"calculated yStep: \" + String(yStep));\n   }\n\n   for (var i in updatedNodesSortedByY) {\n\n      var nodeId = updatedNodesSortedByY[i].id;\n\n      var n = network.body.data.nodes.get(nodeId);\n   \n      var nodeD = getNodeFromNetworkDataById(n.id);\n      pNode = nodesPositions[n.id];\n      nodeD.x = pNode.x;\n      nodeD.y = topNode.y - i*yStep;\n      network.body.data.nodes.update(nodeD);\n\n      //!!network.body.nodes[nodeId].y = Number(nodesPositions[nodeId].y - i*yStep);\n\n      //n = network.body.data.nodes.get(nodeId);\n\n      //network.body.data.nodes.update(n);\n   }\n\n   //!!network.body.emitter.emit(\"startSimulation\");\n}",
           "id": "indx1_1850",
           "x": 42002,
-          "y": 121065,
+          "y": 124337,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -35346,7 +35346,7 @@ var schemeData =
           "label": "distributeVertically(yStep)",
           "id": "indx1_1851",
           "x": 45249,
-          "y": 120887,
+          "y": 124159,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -35675,7 +35675,7 @@ var schemeData =
           "label": "Нужно еще распределение по расстоянию от краев, а не от центров",
           "id": "indx1_1861",
           "x": 46161,
-          "y": 120890,
+          "y": 124162,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -36004,7 +36004,7 @@ var schemeData =
           "label": "   $(document).keyup(function (event) {\n      //Set nextOperationMultiplier\n      if (event.altKey == false && \n          event.shiftKey == false && \n          event.ctrlKey == false && \n          [49,50,51,52,53,54,55,56,57,48].indexOf(event.keyCode) != -1) {\n             var number = null;\n             if (event.keyCode == 49) number = \"1\";\n             if (event.keyCode == 50) number = \"2\";\n             if (event.keyCode == 51) number = \"3\";\n             if (event.keyCode == 52) number = \"4\";\n             if (event.keyCode == 53) number = \"5\";\n             if (event.keyCode == 54) number = \"6\";\n             if (event.keyCode == 55) number = \"7\";\n             if (event.keyCode == 56) number = \"8\";\n             if (event.keyCode == 57) number = \"9\";\n             if (event.keyCode == 48) number = \"0\";\n             nextOperationMultiplier = nextOperationMultiplier + number;\nconsole.log(nextOperationMultiplier);\n      }\n   });\n\n   $(document).keyup(function (event) {\n      //Drop nextOperationMultiplier\n      if (event.keyCode == 13) {\n             nextOperationMultiplier = \"\";\n      }\n   });",
           "id": "indx1_1871",
           "x": 42168,
-          "y": 62664,
+          "y": 65936,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -36040,7 +36040,7 @@ var schemeData =
           "label": "Set nextOperationMultiplier",
           "id": "indx1_1872",
           "x": 44866,
-          "y": 62645,
+          "y": 65917,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -37062,7 +37062,7 @@ var schemeData =
           "label": "function joinNodesLabels() {\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\n   var labels = [];\n   selectedNodes.forEach(function(node) {\n      var nodeLabel = node.options.label;\n      labels.push(nodeLabel);\n   });\n\n   var screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n   network.body.data.nodes.add([{\n      label:labels.join(\"\\n\"),\n      x:screenCenterPosition.x,\n      y:screenCenterPosition.y\n   }]);\n}",
           "id": "indx1_1903",
           "x": 42047,
-          "y": 121708,
+          "y": 124980,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37099,7 +37099,7 @@ var schemeData =
           "label": "joinNodesLabels()",
           "id": "indx1_1904",
           "x": 45088,
-          "y": 121703,
+          "y": 124975,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37133,10 +37133,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "app.get(\"/getAllNews\", function(request, response){\n   if (getAllNewsProcessUp) return;\n   getAllNewsProcessUp = true;\n   response.set('Access-Control-Allow-Origin', '*');\n   //2020-08-27T16:45:00\n   //https://localhost:3001/getAllNews?startDateLine=2020-08-27T10:20:10\n   //http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\n   //curl \"http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\"\n   console.log(\"request.query: \" + request.query);\n   var queryStartDateLine = request.query.startDateLine;\n   var queryYoutubeDownload = request.query.youtube;\n\n   console.log(\"getAllNews\");\n\n   downloadedChannelsList = [];\n\n   var newsData = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: false,\n      downloadErrorsChannelsList: []\n   };\n   newsData.newsFilesData = {};\n   newsData.newsFilesData[\"news1.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news11.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news2.data.js\"] = {rootNodeId: \"indx1_352\"};\n   newsData.newsFilesData[\"news3.data.js\"] = {rootNodeId: \"indx1_274\"};\n   newsData.newsFilesData[\"news4.data.js\"] = {rootNodeId: \"indx1_459\"};\n   newsData.newsFilesData[\"news41.data.js\"] = {rootNodeId: \"indx1_273\"};\n   newsData.newsFilesData[\"news5.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news51.data.js\"] = {rootNodeId: \"indx1_245\"};\n   newsData.newsFilesData[\"news52.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news53.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news6.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news61.data.js\"] = {rootNodeId: \"indx1_251\"};\n   newsData.newsFilesData[\"news7.data.js\"] = {rootNodeId: \"indx1_251\"};\n   var newsDataYoutube = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: true,\n      downloadErrorsChannelsList: []\n   };\n   newsDataYoutube.newsFilesData = {};\n   newsDataYoutube.newsFilesData[\"youtube1.data.js\"] = {rootNodeId: \"indx1_1005\"};\n   newsDataYoutube.newsFilesData[\"youtube2.data.js\"] = {rootNodeId: \"indx1_1786\"};\n   newsDataYoutube.newsFilesData[\"youtube3.data.js\"] = {rootNodeId: \"indx1_1786\"};\n\n   console.log(\"request.query.youtube: \" + request.query.youtube);\n   if (typeof queryYoutubeDownload !== \"undefined\" && queryYoutubeDownload == \"true\") {\n      //console.log(\"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\");\n      newsData = newsDataYoutube;\n   }\n\n   console.log(\"queryStartDateLine: \" + queryStartDateLine);\n   newsData.queryStartDate = moment(queryStartDateLine);\n\n   var fs = require('fs');\n\n   //var filePathPart = \"../app/\";\n\n   //newsData.allChannelsNodes = [];\n\n   //Collect news channels data from news files\n   Object.keys(newsData.newsFilesData).forEach(function(dataFileName, index) {\n      console.log(dataFileName);\n//if (index != 0) return;\n      var contents = fs.readFileSync(newsData.filePathPart + dataFileName, 'utf8');\n      var dataFileData = contents.trim();\n\n      dataFileData = dataFileData.split(\"\\n\");\n      dataFileData.shift();\n      dataFileData.pop();\n      dataFileData = dataFileData.join(\"\\n\");\n      dataFileData = JSON.parse(dataFileData);\n      newsData.newsFilesData[dataFileName].data = dataFileData;\n      newsData.newsFilesData[dataFileName].nodes = dataFileData.canvas1Data.nodes._data;\n      newsData.newsFilesData[dataFileName].edges = dataFileData.canvas1Data.edges._data;\n      newsData.newsFilesData[dataFileName].channelsNodes = [];\n\n      var rootNodeId = newsData.newsFilesData[dataFileName].rootNodeId;\n\n      var treeNodes = getTreeNodesAndEdges(\n         rootNodeId, \n         newsData.newsFilesData[dataFileName].nodes, \n         newsData.newsFilesData[dataFileName].edges).nodes;\n      console.log(\"treeNodes.length: \" + treeNodes.length);\n      treeNodes.forEach(function(node) {\n         if (newsData.youtubeDownload) {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" - YouTube\") &&\n                node.link.match(/.*youtube.*videos.*/) != null) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         } else {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" | Feed Node\")) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         }\n      });      \n   });\n\n   console.log(Object.keys(newsData.allChannelsMap).sort(function (a, b) {\n      return a.toLowerCase().localeCompare(b.toLowerCase());\n   }));\n\n   //var dataFileData = {\"data\": contents};\n   //var answerLine = JSON.stringify(contents);\n\n   waitForTime(newsData.queryStartDate, true);\n\n   var allDownloadedData = newsDownloadProcess(newsData);\n   //saveAllDownloadedDataToFile(allDownloadedData, filePath);\n\n});",
+          "label": "app.get(\"/getAllNews\", function(request, response){\n   if (getAllNewsProcessUp) return;\n   getAllNewsProcessUp = true;\n   response.set('Access-Control-Allow-Origin', '*');\n   //2020-08-27T16:45:00\n   //https://localhost:3001/getAllNews?startDateLine=2020-08-27T10:20:10\n   //http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\n   //curl \"http://localhost:1337/getAllNews?startDateLine=2020-08-27T10:20:10&youtube=false\"\n   console.log(\"request.query: \" + request.query);\n   var queryStartDateLine = request.query.startDateLine;\n   var queryYoutubeDownload = request.query.youtube;\n\n   console.log(\"getAllNews\");\n\n   downloadedChannelsList = [];\n\n   var newsData = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: false,\n      downloadErrorsChannelsList: []\n   };\n   newsData.newsFilesData = {};\n   newsData.newsFilesData[\"news1.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news11.data.js\"] = {rootNodeId: \"indx1_571\"};\n   newsData.newsFilesData[\"news2.data.js\"] = {rootNodeId: \"indx1_352\"};\n   newsData.newsFilesData[\"news3.data.js\"] = {rootNodeId: \"indx1_274\"};\n   newsData.newsFilesData[\"news4.data.js\"] = {rootNodeId: \"indx1_459\"};\n   newsData.newsFilesData[\"news41.data.js\"] = {rootNodeId: \"indx1_273\"};\n   newsData.newsFilesData[\"news5.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news51.data.js\"] = {rootNodeId: \"indx1_245\"};\n   newsData.newsFilesData[\"news52.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news53.data.js\"] = {rootNodeId: \"indx1_219\"};\n   newsData.newsFilesData[\"news6.data.js\"] = {rootNodeId: \"indx1_287\"};\n   newsData.newsFilesData[\"news61.data.js\"] = {rootNodeId: \"indx1_251\"};\n   newsData.newsFilesData[\"news7.data.js\"] = {rootNodeId: \"indx1_251\"};\n   var newsDataYoutube = {\n      channelsDownloadTimeStep: 1,\n      allChannelsMap: {},\n      getNewsResponse: response,\n      filePathPart: \"../app/\",\n      youtubeDownload: true,\n      downloadErrorsChannelsList: []\n   };\n   newsDataYoutube.newsFilesData = {};\n   newsDataYoutube.newsFilesData[\"youtube1.data.js\"] = {rootNodeId: \"indx1_1005\"};\n   newsDataYoutube.newsFilesData[\"youtube2.data.js\"] = {rootNodeId: \"indx1_1786\"};\n   newsDataYoutube.newsFilesData[\"youtube3.data.js\"] = {rootNodeId: \"indx1_1786\"};\n\n   console.log(\"request.query.youtube: \" + request.query.youtube);\n   if (typeof queryYoutubeDownload !== \"undefined\" && queryYoutubeDownload == \"true\") {\n      //console.log(\"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\");\n      newsData = newsDataYoutube;\n   }\n\n   console.log(\"queryStartDateLine: \" + queryStartDateLine);\n   newsData.queryStartDate = moment(queryStartDateLine);\n\n   var fs = require('fs');\n\n   //var filePathPart = \"../app/\";\n\n   //newsData.allChannelsNodes = [];\n\n   //Collect news channels data from news files\n   Object.keys(newsData.newsFilesData).forEach(function(dataFileName, index) {\n      console.log(dataFileName);\n//if (index != 0) return;\n      var contents = fs.readFileSync(newsData.filePathPart + dataFileName, 'utf8');\n      var dataFileData = contents.trim();\n\n      dataFileData = dataFileData.split(\"\\n\");\n      dataFileData.shift();\n      dataFileData.pop();\n      dataFileData = dataFileData.join(\"\\n\");\n      dataFileData = JSON.parse(dataFileData);\n      newsData.newsFilesData[dataFileName].data = dataFileData;\n      newsData.newsFilesData[dataFileName].nodes = dataFileData.canvas1Data.nodes._data;\n      newsData.newsFilesData[dataFileName].edges = dataFileData.canvas1Data.edges._data;\n      newsData.newsFilesData[dataFileName].channelsNodes = [];\n\n      var rootNodeId = newsData.newsFilesData[dataFileName].rootNodeId;\n\n      var treeNodes = getTreeNodesAndEdges(\n         rootNodeId, \n         newsData.newsFilesData[dataFileName].nodes, \n         newsData.newsFilesData[dataFileName].edges).nodes;\n      console.log(\"treeNodes.length: \" + treeNodes.length);\n      treeNodes.forEach(function(node) {\n         if (newsData.youtubeDownload) {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" - YouTube\") &&\n                node.link.match(/.*youtube.*videos.*/) != null) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         } else {\n            if (typeof node.link !== \"undefined\" && \n                node.label.endsWith(\" | Feed Node\")) {\n               newsData.allChannelsMap[node.label] = {channelNode: node, channelFileName: dataFileName};\n               newsData.newsFilesData[dataFileName].channelsNodes.push(node);\n            }\n         }\n      });      \n   });\n\n   //Test data\n   //newsData.newsFilesData[\"youtube2.data.js\"].channelsNodes = [];\n   //newsData.newsFilesData[\"youtube3.data.js\"].channelsNodes = [];\n   //newsData.newsFilesData[\"youtube3.data.js\"].channelsNodes = [\n      //{link: \"https://www.youtube.com/user/JimmyKimmelLive/videos\", \n      //label: \"Jimmy Kimmel Live - YouTube\", id:\"indx1_391\"}];\n   //newsData.allChannelsMap = {};\n   //newsData.allChannelsMap[\"Jimmy Kimmel Live - YouTube\"] = {\n   //channelNode: {link: \"https://www.youtube.com/user/JimmyKimmelLive/videos\", \n   //label: \"Jimmy Kimmel Live - YouTube\", id:\"indx1_391\"},\n   //channelFileName: \"youtube3.data.js\"};\n\n   console.log(Object.keys(newsData.allChannelsMap).sort(function (a, b) {\n      return a.toLowerCase().localeCompare(b.toLowerCase());\n   }));\n\n   //var dataFileData = {\"data\": contents};\n   //var answerLine = JSON.stringify(contents);\n\n   waitForTime(newsData.queryStartDate, true);\n\n   var allDownloadedData = newsDownloadProcess(newsData);\n   //saveAllDownloadedDataToFile(allDownloadedData, filePath);\n\n});",
           "id": "indx1_1905",
-          "x": 65239,
-          "y": 17680,
+          "x": 65207,
+          "y": 17801,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37145,7 +37145,7 @@ var schemeData =
         "indx1_1906": {
           "id": "indx1_1906",
           "x": 65078,
-          "y": 1075,
+          "y": 1237,
           "label": "var waitForTimeLine = \"\";\nvar jobStartTime;\nvar jobEndTime;\n\nfunction alignRawNodesLeft(nodes) {\n   var canvas = network.canvas.frame.canvas;\n   var ctx = canvas.getContext('2d');\n   var minLeft;\n\n   for (i = 0; i < nodes.length; i++) {\n      var lines = nodes[i].label.match(/.{1,45}/g);\n      if (lines == null) lines = [\"\"];\n      var line = lines[0];\n      var width = ctx.measureText(line).width*1.37 + 10;\n      if (i == 0) minLeft = nodes[i].x - width/2;\n      if (minLeft > (nodes[i].x - width/2)) {\n         minLeft = (nodes[i].x - width/2);\n      };\n   }\n\n   for (i = 0; i < nodes.length; i++) {\n      var lines = nodes[i].label.match(/.{1,45}/g);\n      if (lines == null) lines = [\"\"];\n      var line = lines[0];\n      var width = ctx.measureText(line).width*1.37 + 10;\n      var leftDiff = nodes[i].x - width/2 - parseFloat(minLeft.toFixed(5));\n      nodes[i].x = nodes[i].x - leftDiff;\n   }\n\n}",
           "shape": "box",
           "link": "",
@@ -37188,7 +37188,7 @@ var schemeData =
           "label": "function saveNewsChannelsDownloadedData(newsData) {\n\n   //console.log(newsChannelsData);\n\n   //return;\n\n   var rootSaveDir = \"newsDownloadedData\";\n\n   if (!fs.existsSync(rootSaveDir)){\n       fs.mkdirSync(rootSaveDir);\n   }\n\n   var newsChannelsDataString = JSON.stringify(newsData.newsChannelsData, undefined, 2);\n\n   var dirName = \"newsDownloadedData_\" + newsDateFormat(newsData.jobStartTime.toDate());\n   var fileName = \"newsDownloadedData_\" + newsDateFormat(newsData.jobStartTime.toDate()) + \".json\"\n\n   if (!fs.existsSync(rootSaveDir + \"/\" + dirName)){\n       fs.mkdirSync(rootSaveDir + \"/\" + dirName);\n   }  \n\n   //prepare and save data for each news file.\n   Object.keys(newsData.newsFilesData).forEach(function(dataFileName) {\n      var fileNewsChannelsData = {\n         downloadStartDate: newsData.newsChannelsData.downloadStartDate,\n         newsChannelsDataList: []\n      };\n\n      var newsFileData = newsData.newsFilesData[dataFileName];\n\n      newsFileData.channelsNodes.forEach(function(channelNode) {\n         newsData.newsChannelsData.newsChannelsDataList.forEach(function(toCheckNewsChannelData) {\n            if (toCheckNewsChannelData.channelNode.label == channelNode.label) {\n               fileNewsChannelsData.newsChannelsDataList.push(toCheckNewsChannelData);\n            }\n         });\n      });\n\n      fileNewsChannelsData.channelsList = [];\n      newsFileData.channelsNodes.forEach(function(channelNode) {\n         fileNewsChannelsData.channelsList.push(channelNode.label);\n      });\n\n      fileNewsChannelsData.channelsList.sort(function (a, b) {\n         return a.toLowerCase().localeCompare(b.toLowerCase());\n      });\n\n      fileNewsChannelsData.downloadedDataStats = {};\n      fileNewsChannelsData.downloadedDataStats.downloadedChannelsStats = [];\n\n      fileNewsChannelsData.newsChannelsDataList.forEach(function(data, index) {\n         fileNewsChannelsData.downloadedDataStats.downloadedChannelsStats.push(data.channelDownloadDate + \", \" + index + \". \" + data.channelNode.label + \": \" + data.newNewsList.length);\n      });\n\n      fileNewsChannelsData.downloadedDataStats.downloadedChannelsStats.jobSeconds = newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.jobSeconds;\n      fileNewsChannelsData.downloadedDataStats.downloadedChannelsStats.jobTime = newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.jobTime;\n   \n      var fileNewsChannelsDataString = JSON.stringify(fileNewsChannelsData, undefined, 2);\n\n      var fileName1 = \"newsDownloadedData_\" + dataFileName + \"_\" + newsDateFormat(newsData.jobStartTime.toDate()) + \".json\"\n      fs.writeFileSync(rootSaveDir + \"/\" + dirName + \"/\" + fileName1, fileNewsChannelsDataString);    \n   });\n\n   fs.writeFileSync(rootSaveDir + \"/\" + dirName + \"/\" + fileName, newsChannelsDataString);\n\n   console.log(\"DONE. Save to file\");\n}",
           "id": "indx1_1907",
           "x": 66163,
-          "y": 5966,
+          "y": 6128,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37225,7 +37225,7 @@ var schemeData =
           "label": "function getNewsItemDataDateLine(elem) {\n\n   var dateLine = \"\";\n   var doc1 = new dom().parseFromString(elem.toString());\n   var pubDate = xpath.evaluate(\"//*[local-name()='pubDate']\", doc1, null, xpath.XPathResult.ANY_TYPE, null).iterateNext();\n\n   var doc2 = new dom().parseFromString(elem.toString());\n   var dcDate = xpath.select('//*[name()=\"dc:date\"]', doc2)[0];\n\n   var doc3 = new dom().parseFromString(elem.toString());\n   var published = xpath.select(\"//*[local-name()='published']\", doc3)[0];\n\n   var doc4 = new dom().parseFromString(elem.toString());\n   var updated = xpath.select(\"//*[local-name()='updated']\", doc4)[0];\n\n   if (typeof pubDate !== \"undefined\" && \n       pubDate !== null && \n       pubDate.textContent.trim() != \"\") {\n      pubDate = pubDate.textContent.trim();\n      dateLine = pubDate;\n   } else if (typeof dcDate !== \"undefined\" && \n              dcDate !== null && \n              dcDate.textContent.trim() != \"\") {\n      dcDate = dcDate.textContent.trim();\n      dateLine = dcDate;\n   } else if (typeof published !== \"undefined\" && \n              published !== null && \n              published.textContent.trim() != \"\") {\n      published = published.textContent.trim();\n      dateLine = published;\n   } else if (typeof updated !== \"undefined\" && \n              updated !== null && \n              updated.textContent.trim() != \"\") {\n      updated = updated.textContent.trim();\n      dateLine = updated;\n   }\n   return dateLine;\n}",
           "id": "indx1_1908",
           "x": 65936,
-          "y": 7404,
+          "y": 7566,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37262,7 +37262,7 @@ var schemeData =
           "label": "function getNewsItemDataLink(elem) {\n\n   var linkLine = \"\";\n\n   var doc1 = new dom().parseFromString(elem.toString());\n   var guid = xpath.select(\"//*[local-name()='guid']\", doc1)[0];\n\n   var doc2 = new dom().parseFromString(elem.toString());\n   var link = xpath.select(\"//*[local-name()='link']\", doc2)[0];\n\n   var linkHref = xpath.select(\"//*[local-name()='link']/@href\", doc2)[0];\n\n   if (typeof guid !== \"undefined\" && \n       guid !== null && \n       guid.textContent.trim() != \"\" && \n       guid.textContent.trim().match(/^http/) != null) {\n      guid = guid.textContent.trim();\n      linkLine = guid;\n   } else if (typeof link !== \"undefined\" && \n              link !== null && \n              link.textContent.trim() != \"\") {\n      linkLine = link.textContent.trim();\n   } else if (typeof linkHref !== \"undefined\" && \n              linkHref !== null && \n              linkHref.textContent.trim() != \"\") {\n      linkLine = linkHref.textContent.trim();\n   }\n\n   //For dzone.com\n   if (typeof link !== \"undefined\" && \n              link !== null &&\n              link.textContent.trim().match(/dzone.com\\/articles/) != null) {\n      linkLine = link.textContent.trim();\n   }\n   \n   if (linkLine == \"\") {\n      linkLine = elem.toString().split(\"\\n\").join(\"\").replace(\"<!--\",\"\").replace(\"-->\",\"\");\n      linkLine = linkLine.replace(/.*?<link>(.*?http.+?)<.*/g,\"$1\");\n      linkLine = linkLine.replace(\"<!--\",\"\").replace(\"-->\",\"\");\n      linkLine = linkLine.replace(/\\[CDATA\\[ /g,\"\");\n      linkLine = linkLine.replace(/ \\]\\]/g,\"\").trim();\n  \n   }\n   return linkLine;\n}",
           "id": "indx1_1909",
           "x": 65799,
-          "y": 8134,
+          "y": 8296,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37299,7 +37299,7 @@ var schemeData =
           "label": "function getNewsItemDataTitle(elem) {\n\n   var doc = new dom().parseFromString(elem.toString());\n   var title = xpath.select(\"//*[local-name()='title']\", doc);\n   title = title[0].textContent.trim();\n   \n   title = title.replace(/<\\!\\[CDATA\\[/,\"\");\n   title = title.replace(/\\]\\]>/,\"\");\n   \n   var titleNodeLines = [];\n   var parts = title.match(/.{1,45}/g);\n   if (parts != null) {\n      parts.forEach(function(part) {\n         part = part.trim();\n         if (part != \"\") {\n            titleNodeLines.push(part);\n         }\n      });\n   }\n   var title = titleNodeLines.join(\"\\n\");\n   return title\n}",
           "id": "indx1_1910",
           "x": 65736,
-          "y": 8763,
+          "y": 8925,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37336,7 +37336,7 @@ var schemeData =
           "label": "function getNewsItemDataSummaryTextNodeLabel(elem) {\n\n   var summaryText = \"\";\n   \n   var doc1 = new dom().parseFromString(elem.toString());\n   var description = xpath.select(\"//*[local-name()='description']\", doc1)[0];\n\n   var doc2 = new dom().parseFromString(elem.toString());\n   var summary = xpath.select(\"//*[local-name()='summary']\", doc2)[0];\n\n   var doc3 = new dom().parseFromString(elem.toString());\n   var content = xpath.select(\"//*[local-name()='content']\", doc3)[0];\n\n   var doc4 = new dom().parseFromString(elem.toString());\n   var fullText = xpath.select(\"//*[local-name()='full-text']\", doc4)[0];\n\n   var doc5 = new dom().parseFromString(elem.toString());\n   var contentEncoded = xpath.select('//*[name()=\"content:encoded\"]', doc5)[0];\n\n   if (typeof fullText !== \"undefined\" && \n       fullText !== null && \n       fullText.toString().trim() != \"\" && \n       fullText.toString().trim().length > 30) {\n      fullText = fullText.toString().trim();\n      summaryText = fullText;\n   } else if (typeof description !== \"undefined\" && \n              description !== null && \n              description.toString().trim() != \"\") {\n      description = description.toString().trim();\n      summaryText = description;\n   } else if (typeof summary !== \"undefined\" && \n              summary !== null && \n              summary.toString().trim() != \"\") {\n      summaryText = summary.toString().trim();\n   } else if (typeof content !== \"undefined\" && \n              content !== null && \n              content.toString().trim() != \"\") {\n      summaryText = content.toString().trim();\n   } else if (typeof contentEncoded !== \"undefined\" && \n              contentEncoded !== null && \n              contentEncoded.toString().trim() != \"\") {\n      summaryText = contentEncoded.toString().trim();\n   }\n   \n   //summaryText = summaryText.replace(/-->[\\s\\S]*.*/g,\"-->\");\n   summaryText = summaryText.replace(/We Recommend:<\\/font>[\\s\\S]*.*/g,\"\");\n   summaryText = summaryText.replace(/<item>[\\s\\S]*.*/g,\"\");\n\n   var newNodeLines = [];\n   var lines = summaryText.split(\"\\n\");\n   lines.forEach(function(line) {\n      var parts = line.match(/.{1,100}/g);\n      if (parts != null) {\n         parts.forEach(function(part) {\n            part = part.trim();\n            if (part != \"\") {\n               newNodeLines.push(part);\n            }\n         });\n      }\n   });\n\n   var summaryTextNodeLabel = newNodeLines.join(\"\\n\");\n   return summaryTextNodeLabel;\n}",
           "id": "indx1_1911",
           "x": 65802,
-          "y": 9696,
+          "y": 9858,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37370,10 +37370,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function getNewsItemData(item, channelNode) {\n\n   var linkLine = getNewsItemDataLink(item);\n   var title = getNewsItemDataTitle(item);\n   var summaryTextNodeLabel = getNewsItemDataSummaryTextNodeLabel(item);\n   var dateLine = getNewsItemDataDateLine(item);\n   if (typeof linkLine !== \"undefined\") linkLine = linkLine.replace(\"gen.lib.rus.ec\",\"libgen.rs\");\n   if (channelNode.label == \"Libgen | Feed Node\") {\n      result = summaryTextNodeLabel.match(/Date Added:<\\/font><\\/td><td>(.*?)<\\/td>/);\n      if (result != null) dateLine = result[1];\n   }\n   \n   object = {}\n   object.pubDate = dateLine;\n   object.title = title;\n   object.link = linkLine;\n   object.summaryTextNodeLabel = summaryTextNodeLabel;\n   return object;\n}",
+          "label": "function getNewsItemData(item, channelNode) {\n\n   var linkLine = getNewsItemDataLink(item);\n   var title = getNewsItemDataTitle(item);\n   var summaryTextNodeLabel = getNewsItemDataSummaryTextNodeLabel(item);\n   var dateLine = getNewsItemDataDateLine(item);\n   if (typeof linkLine !== \"undefined\") linkLine = linkLine.replace(\"gen.lib.rus.ec\",\"libgen.gs\");\n   if (channelNode.label == \"Libgen | Feed Node\") {\n      result = summaryTextNodeLabel.match(/Date Added:<\\/font><\\/td><td>(.*?)<\\/td>/);\n      if (result != null) dateLine = result[1];\n   }\n   \n   object = {}\n   object.pubDate = dateLine;\n   object.title = title;\n   object.link = linkLine;\n   object.summaryTextNodeLabel = summaryTextNodeLabel;\n   return object;\n}",
           "id": "indx1_1912",
           "x": 65829,
-          "y": 10414,
+          "y": 10576,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37407,10 +37407,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsData, channelStartTime, index) {\n\n   var dataFileName = newsData.allChannelsMap[channelNode.label].channelFileName;\n\n   //var channelDownloadDate = newsDateFormat(new Date());\n   var channelDownloadDate = newsDateFormat(channelStartTime.toDate());\n   \n   waitForTime(channelStartTime, false);\n\n   console.log(\"channelDownloadDate: \" + channelDownloadDate + \", downloadStartDate: \" + newsChannelsData.downloadStartDate);\n\n   return fetch(url)\n      .then(function(response){\n         return response.json();\n      })\n      .then(function(response) {\n   \n         var data = response.trim();\n\n         if (data == \"Error\") {\n            console.log(\"Youtube Download Error!!!\");\n            newsData.downloadErrorsChannelsList.push([dataFileName, channelNode.label]);\n         }\n\n         var itemsObjects = [];\n         var itemsObjectsFilteredByLinks = [];\n     \n         if (newsData.youtubeDownload) {\n\n            var doc = new dom().parseFromString(data, 'text/html');\n            var rslt = xpath.evaluate(\"//*[local-name()='script']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n            var pageDataCode = \"\";\n            while(node = rslt.iterateNext()) {\n               if (node.toString().match(/window\\[\"ytInitialData\"\\]/g,\"\") !== null) {\n                  pageDataCode = node.toString();\n               }\n            }\n\n            //var vidsMatches = pageDataCode.match(/\"title\":\\{\"accessibility\":\\{\"accessibilityData.*?\\}\\},\"simpleText.*?publishedTimeText.*?webPageType/g);\n            var vidsMatches = pageDataCode.match(/title\":\\{\"runs\":\\[\\{\"text\":\".*?\"\\}\\],\"access.*?webCommandMetadata\":\\{\"url\":\".*?\",/g);\n            if (vidsMatches !== null) {\n               vidsMatches.forEach(function(vidMatch) {\n                  var object = {};\n                  //object.title = vidMatch.replace(/.*\\}\\},\"simpleText\":\"(.*?)\"\\},\".*/,\"$1\");\n                  object.title = vidMatch.replace(/.*title\":\\{\"runs\":\\[\\{\"text\":\"(.*?)\"\\}.*?webCommandMetadata.*/,\"$1\");\n                  object.link = \"https://www.youtube.com\" + vidMatch.replace(/.*\\{\"url\":\"(.*?)\",.*/,\"$1\");\n                  itemsObjects.push(object);\n               });\n            }\n            //Check new news item\n            itemsObjects.forEach(function(item) {\n               if (treeCurrentLinks.indexOf(item.link) < 0 && item.link.match(/watch\\?v=/) != null) {\n                  itemsObjectsFilteredByLinks.push(item);\n               }   \n            });\n\n         } else {\n\n            var doc = new dom().parseFromString(data);\n            var rslt = xpath.evaluate(\"//*[local-name()='item']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n\n            var items = [];\n            while(node = rslt.iterateNext()) {\n               items.push(node);\n            }\n\n            if (items.length == 0) {\n\n            var doc = new dom().parseFromString(data);\n            var rslt = xpath.evaluate(\"//*[local-name()='entry']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n               while(node = rslt.iterateNext()) {\n                  items.push(node);\n               }\n            }\n\n            //items = items.slice(0,50);\n   \n            console.log(\"items.length: \" + items.length);\n            items.forEach(function(item) {\n               var itemData = getNewsItemData(item, channelNode);\n               itemsObjects.push(itemData);\n            });\n\n            //Check new news item\n            itemsObjects.forEach(function(item) {\n               if (treeCurrentLinks.indexOf(item.link) < 0) {\n                  itemsObjectsFilteredByLinks.push(item);\n               }   \n            });\n         \n         }\n\n         var channelData = {\n            channelNode: newsData.newsFilesData[dataFileName].nodes[channelNode.id],\n            newNewsList: itemsObjectsFilteredByLinks,\n            channelDownloadDate: channelDownloadDate\n         };\n\n         if (itemsObjectsFilteredByLinks.length > 0) {\n            newsChannelsData.newsChannelsDataList.push(channelData);\n         }\n\n         console.log(\"itemsObjectsFilteredByLinks.length: \" + itemsObjectsFilteredByLinks.length);\n\n         downloadedChannelsList.push(channelNode.label);\n\n         console.log(\"downloadedChannelsList.length: \" + downloadedChannelsList.length);\n\n         console.log(\"newsData.downloadErrorsChannelsList: \" + newsData.downloadErrorsChannelsList);\n\n         var showLastChannelsListSize = 5;\n         if (newsData.youtubeDownload) showLastChannelsListSize = 80;\n\n         if ( ( Object.keys(newsData.allChannelsMap).length - downloadedChannelsList.length ) < showLastChannelsListSize ) {\n            var diffArray = arraysDiffLeftFromRight(Object.keys(newsData.allChannelsMap), downloadedChannelsList);\n            diffArray.forEach(function(item, index) {\n               var fileName = newsData.allChannelsMap[item].channelFileName;\n               console.log(index + \". \" + fileName + \". \" + item);\n            });\n         } \n\n         //if (downloadedChannelsList.length == (Object.keys(newsData.allChannelsMap).length)) {\n         if ((index + 1) == (Object.keys(newsData.allChannelsMap).length)) {\n            closingNewsDownloadProcess(newsData);\n\n            var answerLine = \"\";\n            for (var key in newsData.allChannelsMap) {\n               answerLine += newsData.allChannelsMap[key].channelNode.label + \"<br>\";\n               answerLine += newsData.allChannelsMap[key].channelNode.link + \"<br>\";\n            }\n\n            newsData.getNewsResponse.send(answerLine);\n            getAllNewsProcessUp = false;\n\n         }\n\n         return response;\n      })\n      .catch(function(error){console.log(error);});\n}",
+          "label": "function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsData, channelStartTime, index) {\n\n   var dataFileName = newsData.allChannelsMap[channelNode.label].channelFileName;\n\n   //var channelDownloadDate = newsDateFormat(new Date());\n   var channelDownloadDate = newsDateFormat(channelStartTime.toDate());\n   \n   waitForTime(channelStartTime, false);\n\n   console.log(\"channelDownloadDate: \" + channelDownloadDate + \", downloadStartDate: \" + newsChannelsData.downloadStartDate);\n\n   return fetch(url)\n      .then(function(response){\n         return response.json();\n      })\n      .then(function(response) {\n   \n         var data = response.trim();\n\n         if (data == \"Error\") {\n            console.log(\"Youtube Download Error!!!\");\n            newsData.downloadErrorsChannelsList.push([dataFileName, channelNode.label]);\n         }\n\n         var itemsObjects = [];\n         var itemsObjectsFilteredByLinks = [];\n     \n         if (newsData.youtubeDownload) {\n\n            var doc = new dom().parseFromString(data, 'text/html');\n            var rslt = xpath.evaluate(\"//*[local-name()='script']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n            var pageDataCode = \"\";\n            while(node = rslt.iterateNext()) {\n               //Debug: fs.writeFileSync(\"newsDownloadedData/pageDataCode\" + String(i) + \".txt\", node.toString());\n               //if (node.toString().match(/window\\[\"ytInitialData\"\\]/g,\"\") !== null) {\n               if (node.toString().match(/var ytInitialData/g,\"\") !== null) {\n                  pageDataCode = node.toString();\n               }\n            }\n\n            //var vidsMatches = pageDataCode.match(/\"title\":\\{\"accessibility\":\\{\"accessibilityData.*?\\}\\},\"simpleText.*?publishedTimeText.*?webPageType/g);\n            //var vidsMatches = pageDataCode.match(/\"title\":\\{\"accessibility\":\\{\"accessibilityData.*?webCommandMetadata\":\\{\"url\":\".watch.v=.*?\",/g);\n            //For debug - save page source to file and search by regex\n            //fs.writeFileSync(\"newsDownloadedData/pageDataCode.txt\", pageDataCode);\n            var vidsMatches = pageDataCode.match(/title\":\\{\"runs\":\\[\\{\"text\":\".*?\"\\}\\],\"access.*?webCommandMetadata\":\\{\"url\":\".*?\",/g);\n            if (vidsMatches !== null) {\n               vidsMatches.forEach(function(vidMatch) {\n                  var object = {};\n                  //object.title = vidMatch.replace(/.*\\}\\},\"simpleText\":\"(.*?)\"\\},\".*/,\"$1\");\n                  //object.title = vidMatch.replace(/.*\\}\\},\"simpleText\":\"(.*?)\"\\}.*/,\"$1\");\n                  object.title = vidMatch.replace(/.*title\":\\{\"runs\":\\[\\{\"text\":\"(.*?)\"\\}.*?webCommandMetadata.*/,\"$1\");\n                  object.pubDateCurrentLine = vidMatch.replace(/.*publishedTimeText\":\\{\"simpleText\":\"(.*?)\"\\}.*/,\"$1\");\n                  object.link = \"https://www.youtube.com\" + vidMatch.replace(/.*\\{\"url\":\"(.*?)\",.*/,\"$1\");\n                  itemsObjects.push(object);\n               });\n            }\n            //Check new news item\n            itemsObjects.forEach(function(item) {\n               if (treeCurrentLinks.indexOf(item.link) < 0 && item.link.match(/watch\\?v=/) != null) {\n                  itemsObjectsFilteredByLinks.push(item);\n               }   \n            });\n\n         } else {\n\n            var doc = new dom().parseFromString(data);\n            var rslt = xpath.evaluate(\"//*[local-name()='item']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n\n            var items = [];\n            while(node = rslt.iterateNext()) {\n               items.push(node);\n            }\n\n            if (items.length == 0) {\n\n            var doc = new dom().parseFromString(data);\n            var rslt = xpath.evaluate(\"//*[local-name()='entry']\", doc, null, xpath.XPathResult.ANY_TYPE, null);\n               while(node = rslt.iterateNext()) {\n                  items.push(node);\n               }\n            }\n\n            //items = items.slice(0,50);\n   \n            console.log(\"items.length: \" + items.length);\n            items.forEach(function(item) {\n               var itemData = getNewsItemData(item, channelNode);\n               itemsObjects.push(itemData);\n            });\n\n            //Check new news item\n            itemsObjects.forEach(function(item) {\n               if (treeCurrentLinks.indexOf(item.link) < 0) {\n                  itemsObjectsFilteredByLinks.push(item);\n               }   \n            });\n         \n         }\n\n         var channelData = {\n            channelNode: newsData.newsFilesData[dataFileName].nodes[channelNode.id],\n            newNewsList: itemsObjectsFilteredByLinks,\n            channelDownloadDate: channelDownloadDate\n         };\n\n         if (itemsObjectsFilteredByLinks.length > 0) {\n            newsChannelsData.newsChannelsDataList.push(channelData);\n         }\n\n         console.log(\"itemsObjectsFilteredByLinks.length: \" + itemsObjectsFilteredByLinks.length);\n\n         downloadedChannelsList.push(channelNode.label);\n\n         console.log(\"downloadedChannelsList.length: \" + downloadedChannelsList.length);\n\n         console.log(\"newsData.downloadErrorsChannelsList: \" + newsData.downloadErrorsChannelsList);\n\n         var showLastChannelsListSize = 5;\n         if (newsData.youtubeDownload) showLastChannelsListSize = 80;\n\n         if ( ( Object.keys(newsData.allChannelsMap).length - downloadedChannelsList.length ) < showLastChannelsListSize ) {\n            var diffArray = arraysDiffLeftFromRight(Object.keys(newsData.allChannelsMap), downloadedChannelsList);\n            diffArray.forEach(function(item, index) {\n               var fileName = newsData.allChannelsMap[item].channelFileName;\n               console.log(index + \". \" + fileName + \". \" + item);\n            });\n         } \n\n         //if (downloadedChannelsList.length == (Object.keys(newsData.allChannelsMap).length)) {\n         if ((index + 1) == (Object.keys(newsData.allChannelsMap).length)) {\n            closingNewsDownloadProcess(newsData);\n\n            var answerLine = \"\";\n            for (var key in newsData.allChannelsMap) {\n               answerLine += newsData.allChannelsMap[key].channelNode.label + \"<br>\";\n               answerLine += newsData.allChannelsMap[key].channelNode.link + \"<br>\";\n            }\n\n            newsData.getNewsResponse.send(answerLine);\n            getAllNewsProcessUp = false;\n\n         }\n\n         return response;\n      })\n      .catch(function(error){console.log(error);});\n}",
           "id": "indx1_1913",
           "x": 65994,
-          "y": 12940,
+          "y": 13102,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37447,7 +37447,7 @@ var schemeData =
           "label": "function getChannelNewsData(ytbChannelNode, index, sessionDateNodeId, newsChannelsData, newsData, channelStartTime) {\n\n   console.log(ytbChannelNode.label + \". \" + String(index + 1) + \". \" + String(Object.keys(newsData.allChannelsMap).length));\n\n   var urlString = ytbChannelNode.link;\n\n   var params = {\n      urlString: urlString\n   };\n\n   url = \"http://localhost:1337/getWebPage\" + \"?origin=*\";\n   Object.keys(params).forEach(function(key){url += \"&\" + key + \"=\" + params[key];});\n\n   var dataFileName = newsData.allChannelsMap[ytbChannelNode.label].channelFileName;\n   var allFileEdges = newsData.newsFilesData[dataFileName].edges;\n   var newsListNodes = [];\n   Object.keys(allFileEdges).forEach(function(edgeKey) {\n      var edge = allFileEdges[edgeKey];\n      if (edge.from == ytbChannelNode.id) {\n         endNode = newsData.newsFilesData[dataFileName].nodes[edge.to];\n         if (typeof endNode !== \"undefined\" && endNode.label == \"newsList\") {\n            newsListNodes.push(endNode);\n         }\n      }\n   });\n\n   if (newsListNodes.length == 0) {\n      if ((index+1) == Object.keys(newsData.allChannelsMap).length) {\n         console.log(\"restoreAllAfterNewsDownload()\");\n         //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n         //restoreAllAfterNewsDownload();\n      }\n      return;\n   }\n\n   var nListNode = newsListNodes[0];\n   var nLNode = newsListNodes[0];\n\n   var treeCurrentLinks = getTreeCurrentLinks(nListNode.id, newsData.newsFilesData[dataFileName]);\n\n   return fetchData(url, ytbChannelNode, treeCurrentLinks, newsChannelsData, newsData, channelStartTime, index);\n}",
           "id": "indx1_1914",
           "x": 65915,
-          "y": 14639,
+          "y": 14801,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37484,7 +37484,7 @@ var schemeData =
           "label": "function newsDownloadProcess(newsData) {\n\nvar sessionDateNodeId = null;\nvar promise1 = null;\n\n//newsData.jobStartTime = new Date();\nnewsData.jobStartTime = newsData.queryStartDate;\n\nnewsData.newsChannelsData = {\n   downloadStartDate: newsDateFormat(newsData.jobStartTime.toDate()),\n   newsChannelsDataList: []\n};\n\nnewsData.newsChannelsData.channelsList = Object.keys(newsData.allChannelsMap).sort(function (a, b) {\n   return a.toLowerCase().localeCompare(b.toLowerCase());\n});\n\nfunction waitForTime(dateLine) {\n   var lastDate = \"\"; \n   while(1 < 2) {\n      var date = new Date().toLocaleString(\"ru-RU\");\n      if (lastDate != date) {\n         console.log(date + \". dateLine to wait: \" + dateLine);\n      }\n      if (dateLine == date) {\n         return;\n      }\n      lastDate = date;\n   };\n}\n",
           "id": "indx1_1915",
           "x": 65860,
-          "y": 15432,
+          "y": 15594,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37521,7 +37521,7 @@ var schemeData =
           "label": "function getLinksFromDataCash(nodeId, newsFileData) {\n   links = [];\n   if (typeof newsFileData.data.dataCash === \"undefined\") return links;\n   if (typeof newsFileData.data.dataCash[nodeId] === \"undefined\") return links;\n   newsFileData.data.dataCash[nodeId].nodes.forEach(function(node) {\n      if (typeof node.link !== \"undefined\") {\n         links.push(node.link);\n      }\n   });\n   return links;\n}",
           "id": "indx1_1916",
           "x": 65795,
-          "y": 2977,
+          "y": 3139,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37558,7 +37558,7 @@ var schemeData =
           "label": "function getTreeCurrentLinks(rootNodeId, newsFileData) {\n   var codeEdges = [];\n   Object.keys(newsFileData.edges).forEach(function(edgeKey) {\n      var edge = newsFileData.edges[edgeKey];\n      if (edge.from == rootNodeId) {\n         codeEdges.push(edge);\n      }\n   });\n\n   var branchCodeNodes = [];\n   codeEdges.forEach(function(codeEdge) {\n      var endNode = newsFileData.nodes[codeEdge.to];\n      if (typeof endNode !== \"undefined\") {\n            branchCodeNodes.push(endNode);\n      }\n   });\n   var links = [];\n   links = links.concat(getLinksFromDataCash(rootNodeId, newsFileData));\n   branchCodeNodes.forEach(function(branchNode) {\n      if (typeof branchNode.link !== \"undefined\" && branchNode.link != null) {\n         links.push(branchNode.link);\n      }\n      links = links.concat(getTreeCurrentLinks(branchNode.id, newsFileData));\n      links = links.concat(getLinksFromDataCash(branchNode.id, newsFileData));\n   });\n   return links;\n}",
           "id": "indx1_1917",
           "x": 65777,
-          "y": 3822,
+          "y": 3984,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37595,7 +37595,7 @@ var schemeData =
           "label": "function moveNewNewsTreeToTop(nodes, rootNode) {\n   var bottomNode = nodes[0];\n   nodes.forEach(function(node) {\n      if (node.y > bottomNode.y) {\n         bottomNode = node;\n      }\n   });\n   var rootNodeAndTreeBottomNodeCurrentDiff = bottomNode.y - rootNode.y;\n   var rootNodeAndTreeBottomNodeSetupDiff = 50;\n   var yShift = rootNodeAndTreeBottomNodeCurrentDiff + rootNodeAndTreeBottomNodeSetupDiff;\n   nodes.forEach(function(node) {\n      //network.nodesHandler.moveNode(node.id, node.x, node.y - yShift);\n      node.y = node.y - yShift;\n   });\n}",
           "id": "indx1_1918",
           "x": 65866,
-          "y": 4482,
+          "y": 4644,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37632,7 +37632,7 @@ var schemeData =
           "label": "function getTreeNodesAndEdges(rootNodeId, allNodes, allEdges) {\n\n   if (typeof allNodes[rootNodeId] === \"undefined\") {\n      return null;\n   }\n\n   var rootBranchesEdges = [];\n   Object.keys(allEdges).forEach(function(edgeNodeId) {\n      var edge = allEdges[edgeNodeId];\n      if (edge.from == rootNodeId) {\n         rootBranchesEdges.push(edge);\n      }\n   });\n\n   var branchNodes = [];\n   rootBranchesEdges.forEach(function(rootBranchesEdge) {\n      if (typeof allNodes[rootBranchesEdge.to] === \"undefined\") return;\n      branchNodes.push(allNodes[rootBranchesEdge.to]);\n   });\n\n   var branchesNodesAndEdges = {\n      nodes:  [],\n      edges: rootBranchesEdges\n   };\n\n   branchNodes.forEach(function(branchNode) {\n      branchesNodesAndEdges.nodes.push(branchNode);\n      var branchesData = getTreeNodesAndEdges(branchNode.id, allNodes, allEdges);\n      branchesNodesAndEdges.nodes = branchesNodesAndEdges.nodes.concat(branchesData.nodes);\n      branchesNodesAndEdges.edges = branchesNodesAndEdges.edges.concat(branchesData.edges);\n   });\n   return branchesNodesAndEdges;\n}",
           "id": "indx1_1919",
           "x": 65873,
-          "y": 5207,
+          "y": 5369,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37669,7 +37669,7 @@ var schemeData =
           "label": "getLinksFromDataCash(nodeId)",
           "id": "indx1_1920",
           "x": 67191,
-          "y": 2898,
+          "y": 3060,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37706,7 +37706,7 @@ var schemeData =
           "label": "getTreeCurrentLinks(rootNodeId)",
           "id": "indx1_1921",
           "x": 67203,
-          "y": 3576,
+          "y": 3738,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37743,7 +37743,7 @@ var schemeData =
           "label": "moveNewNewsTreeToTop(nodes, rootNode)",
           "id": "indx1_1922",
           "x": 67329,
-          "y": 4224,
+          "y": 4386,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37780,7 +37780,7 @@ var schemeData =
           "label": "getTreeNodesAndEdges(rootNodeId, allNodes, allEdges)",
           "id": "indx1_1923",
           "x": 67470,
-          "y": 4920,
+          "y": 5082,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37817,7 +37817,7 @@ var schemeData =
           "label": "saveNewsChannelsDownloadedData(newsData)",
           "id": "indx1_1924",
           "x": 67375,
-          "y": 5612,
+          "y": 5774,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37854,7 +37854,7 @@ var schemeData =
           "label": "getNewsItemDataDateLine(elem)",
           "id": "indx1_1925",
           "x": 67228,
-          "y": 7160,
+          "y": 7322,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37891,7 +37891,7 @@ var schemeData =
           "label": "getNewsItemDataLink(elem)",
           "id": "indx1_1926",
           "x": 67173,
-          "y": 7854,
+          "y": 8016,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37928,7 +37928,7 @@ var schemeData =
           "label": "getNewsItemDataTitle(elem)",
           "id": "indx1_1927",
           "x": 67174,
-          "y": 8537,
+          "y": 8699,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -37965,7 +37965,7 @@ var schemeData =
           "label": "getNewsItemDataSummaryTextNodeLabel(elem)",
           "id": "indx1_1928",
           "x": 67402,
-          "y": 9358,
+          "y": 9520,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38002,7 +38002,7 @@ var schemeData =
           "label": "getNewsItemData(item, channelNode)",
           "id": "indx1_1929",
           "x": 67282,
-          "y": 10278,
+          "y": 10440,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38039,7 +38039,7 @@ var schemeData =
           "label": "fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsData, channelStartTime, index)",
           "id": "indx1_1930",
           "x": 68022,
-          "y": 12654,
+          "y": 12816,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38076,7 +38076,7 @@ var schemeData =
           "label": "getChannelNewsData(ytbChannelNode, index, ytbChannelsNodes, sessionDateNodeId, newsChannelsData, channelStartTime)",
           "id": "indx1_1931",
           "x": 68279,
-          "y": 14409,
+          "y": 14571,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38113,7 +38113,7 @@ var schemeData =
           "label": "newsDownloadProcess(newsData)",
           "id": "indx1_1932",
           "x": 67245,
-          "y": 15375,
+          "y": 15537,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38150,7 +38150,7 @@ var schemeData =
           "label": "app.get(\"/getAllNews\". query.startDateLine",
           "id": "indx1_1933",
           "x": 67157,
-          "y": 17369,
+          "y": 17531,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38187,7 +38187,7 @@ var schemeData =
           "label": "getPage(newsUrl, getRSSAnswer)",
           "id": "indx1_1934",
           "x": 67113,
-          "y": 18665,
+          "y": 18827,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38224,7 +38224,7 @@ var schemeData =
           "label": "alignRawNodesLeft(nodes)",
           "id": "indx1_1935",
           "x": 66306,
-          "y": 876,
+          "y": 1038,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38260,8 +38260,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "app.get(\"/sympy\"",
           "id": "indx1_1936",
-          "x": 66201,
-          "y": -1034,
+          "x": 66196,
+          "y": -872,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38335,7 +38335,7 @@ var schemeData =
           "label": "Смотрим в dataCash все свернутые ноды для данной корневой ноды\nи возвращаем список всех их линков, какие есть в этих нодах.",
           "id": "indx1_1938",
           "x": 67061,
-          "y": 2960,
+          "y": 3122,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38372,7 +38372,7 @@ var schemeData =
           "label": "Рекурсивно проходим по всем нодам в дереве для данной корневой ноды \n(в том числе для нод из dataCash) и возвращаем список их ссылок.",
           "id": "indx1_1939",
           "x": 67080,
-          "y": 3632,
+          "y": 3794,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38409,7 +38409,7 @@ var schemeData =
           "label": "app.get(\"/getPageDataJsFile\". query.dataFileName",
           "id": "indx1_1940",
           "x": 66589,
-          "y": -151,
+          "y": 11,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38446,7 +38446,7 @@ var schemeData =
           "label": "??? Поднимаем свежедобавленные ноды новостей надо теми, \nчто уже были в данном канале, \nчтобы они были выше в развернутом списке?",
           "id": "indx1_1941",
           "x": 67042,
-          "y": 4284,
+          "y": 4446,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38483,7 +38483,7 @@ var schemeData =
           "label": "Выравниваем ноды приблизительно по левому краю. \nРассчитывая их ширину по количеству знаков в строке",
           "id": "indx1_1942",
           "x": 66182,
-          "y": 932,
+          "y": 1094,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38520,7 +38520,7 @@ var schemeData =
           "label": "Скачать и вернуть .data.js файл",
           "id": "indx1_1943",
           "x": 66125,
-          "y": -101,
+          "y": 61,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38556,8 +38556,8 @@ var schemeData =
           "shapeProperties": {},
           "label": "Интеграция с sympy и LaTeX",
           "id": "indx1_1944",
-          "x": 66106,
-          "y": -986,
+          "x": 66100,
+          "y": -824,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38631,7 +38631,7 @@ var schemeData =
           "label": "Рекурсивно проходим по веткам для данной корневой ноды \nи возвращаем список нод и список связей ее дерева",
           "id": "indx1_1946",
           "x": 67033,
-          "y": 4978,
+          "y": 5140,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38668,7 +38668,7 @@ var schemeData =
           "label": "Создаем одну большую ноду для JSON всех полученных новостей",
           "id": "indx1_1947",
           "x": 67052,
-          "y": 5664,
+          "y": 5826,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38705,7 +38705,7 @@ var schemeData =
           "label": "Парсим данные новости и возвращаем ее дату",
           "id": "indx1_1948",
           "x": 67012,
-          "y": 7210,
+          "y": 7372,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38742,7 +38742,7 @@ var schemeData =
           "label": "Парсим данные новости и возвращаем ее ссылку",
           "id": "indx1_1949",
           "x": 67020,
-          "y": 7904,
+          "y": 8066,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38779,7 +38779,7 @@ var schemeData =
           "label": "Парсим данные новости и возвращаем ее заголовок",
           "id": "indx1_1950",
           "x": 67029,
-          "y": 8585,
+          "y": 8747,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38816,7 +38816,7 @@ var schemeData =
           "label": "Парсим данные новости и возвращаем ее основной текст",
           "id": "indx1_1951",
           "x": 67047,
-          "y": 9410,
+          "y": 9572,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38853,7 +38853,7 @@ var schemeData =
           "label": "Возвращаем объект, в котором собраны распарсенные данные новости",
           "id": "indx1_1952",
           "x": 67093,
-          "y": 10329,
+          "y": 10491,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38890,7 +38890,7 @@ var schemeData =
           "label": "Скачиваем данные канала новостей, отбираем новые и возвращаем список новостей",
           "id": "indx1_1953",
           "x": 67149,
-          "y": 12705,
+          "y": 12867,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38927,7 +38927,7 @@ var schemeData =
           "label": "Достаем ссылку на канал и запускаем закачку его новостей",
           "id": "indx1_1954",
           "x": 67052,
-          "y": 14463,
+          "y": 14625,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -38964,7 +38964,7 @@ var schemeData =
           "label": "Запускаем процессы закачки новостей для каждого канала",
           "id": "indx1_1955",
           "x": 67051,
-          "y": 15421,
+          "y": 15583,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39001,7 +39001,7 @@ var schemeData =
           "label": "Собираем список всех каналов из всех news файлов mm-vis-js и запускаем закачку их новостей",
           "id": "indx1_1956",
           "x": 66999,
-          "y": 17420,
+          "y": 17582,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39038,7 +39038,7 @@ var schemeData =
           "label": "Скачиваем данные новостного канала (?)",
           "id": "indx1_1957",
           "x": 66866,
-          "y": 18715,
+          "y": 18877,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39075,7 +39075,7 @@ var schemeData =
           "label": "   Object.keys(newsData.allChannelsMap).sort().forEach(function(channelLabel, index) {\n\n      var channelStartTime = newsData.jobStartTime.clone().add(newsData.channelsDownloadTimeStep*index, 's');\n\n      if (promise1 == null) {\n\n         //#promisePrepare = new Promise(function(resolve, reject) {\n                 //#waitForTime(waitForTimeLine);\n                 //#waitForTimeLine = \"07.08.2020, 0:25:05\";\n                 //#if (waitForTimeLine != \"\") {\n                 //#   newsChannelsData.downloadStartDate = waitForTimeLine;\n                 //#   waitForTime(waitForTimeLine);\n                 //#}\n\n         //#        //#resolve();\n         //#});\n\n         promise1 = getChannelNewsData(newsData.allChannelsMap[channelLabel].channelNode, index, sessionDateNodeId, newsData.newsChannelsData, newsData, channelStartTime);\n\n      } else {\n\n         promise1 = promise1.then(function(value) {\n            console.log(\"Object.keys(newsData.allChannelsMap).length: \" + Object.keys(newsData.allChannelsMap).length);\n            console.log(\"index: \" + index);\n           \n            var channelNewsData = getChannelNewsData(newsData.allChannelsMap[channelLabel].channelNode, index, sessionDateNodeId, newsData.newsChannelsData, newsData, channelStartTime);\n\n            return channelNewsData;\n         });\n      }\n   });\n}",
           "id": "indx1_1958",
           "x": 66535,
-          "y": 16365,
+          "y": 16527,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39110,7 +39110,7 @@ var schemeData =
           "label": "app.get(\"/getWebPage\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n   var urlString = req.query.urlString;\n   console.log(\"/getWebPage -> urlString: \" + urlString);\n\n/*\n   function getRSSAnswer(answerLine) {\n      answerLine = encodeURIComponent(answerLine)\n      answerLine = JSON.stringify(answerLine);\n      response.send(answerLine);\n   }\n\n   var answerLine = getPage(urlString, getRSSAnswer);\n*/\n\n   var urlsToProxy = [\n      \"http://gen.lib.rus.ec/rss/index.php\"\n   ];\n\n   if (urlsToProxy.indexOf(urlString) != -1) {\n      var execSync1 = require('child_process').execSync;\n\n      var options = {encoding: 'utf8'};\n\n      var result = execSync1(\"/usr/bin/ruby /home/mike/progr/repo/mm-vis-js/utils/ruby_proxy.rb \" + urlString, options);\n\n     var data = JSON.stringify(result);\n\n     res.send(data);\n   } else {\n\n    var userAgentString = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\"\n\n    axios.get(urlString, { headers: { 'User-Agent': userAgentString }  })\n    .then(function (response) {\n        var data = JSON.stringify(response.data);\n        //console.log(data);\n        res.send(data);\n    })\n    .catch(function (error) {\n        console.log(\"Error\");\n        //console.log(error);\n        var data = JSON.stringify(\"Error\");\n        res.send(data);\n    });\n   }\n\n});",
           "id": "indx1_1959",
           "x": 65341,
-          "y": 19756,
+          "y": 19918,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39147,7 +39147,7 @@ var schemeData =
           "label": "app.get(\"/getWebPage\". query.urlString",
           "id": "indx1_1960",
           "x": 67166,
-          "y": 19553,
+          "y": 19715,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39184,7 +39184,7 @@ var schemeData =
           "label": "Get web page data",
           "id": "indx1_1961",
           "x": 66789,
-          "y": 19614,
+          "y": 19776,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39221,7 +39221,7 @@ var schemeData =
           "label": "function closingNewsDownloadProcess(newsData) {\n   //promise1 = promise1.then(function(value) {\n   newsData.jobEndTime = new Date();\n\n   function compare( a, b ) {\n      var a = a.channelNode.label.toLowerCase();\n      var b = b.channelNode.label.toLowerCase();\n      if ( a > b ){\n         return -1;\n      }\n      if ( a < b ){\n         return 1;\n      }\n      return 0;\n   }\n   newsData.newsChannelsData.newsChannelsDataList = newsData.newsChannelsData.newsChannelsDataList.sort(compare);\n\n   newsData.newsChannelsData.newsChannelsDataList.forEach(function(data, index) {\n      console.log(data.channelDownloadDate + \", \" + index + \". \" + data.channelNode.label + \": \" + data.newNewsList.length);\n   });\n\n   newsData.newsChannelsData.downloadedDataStats = {};\n   newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats = [];\n\n   newsData.newsChannelsData.newsChannelsDataList.forEach(function(data, index) {\n      newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.push(data.channelDownloadDate + \", \" + index + \". \" + data.channelNode.label + \": \" + data.newNewsList.length);\n   });\n\n   var jobMillis = newsData.jobEndTime.getTime() - newsData.jobStartTime.toDate().getTime();\n\n   var jobFullSecondsMillisRemainder = jobMillis%1000;\n   var jobFullSeconds = (jobMillis - jobFullSecondsMillisRemainder)/1000;\n\n   var jobFullMinutesSecondsRemainder = jobFullSeconds%60;\n   var jobFullMinutes = (jobFullSeconds - jobFullMinutesSecondsRemainder)/60;\n\n   var jobFullSecondsRemainder = jobFullSeconds - 60*jobFullMinutes;\n\n   var jobSeconds = \"Job seconds: \" + String(jobFullSeconds);\n   console.log(jobSeconds);\n   var jobTime = \"Job time: \"+String(jobFullMinutes)+\"m \"+String(jobFullSecondsRemainder)+\"s\";\n   console.log(jobTime);\n   console.log(\"newsData.jobStartTime: \" + newsDateFormat(newsData.jobStartTime.toDate()));\n\n   newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.jobSeconds = jobSeconds;\n   newsData.newsChannelsData.downloadedDataStats.downloadedChannelsStats.jobTime = jobTime;\n\n   saveNewsChannelsDownloadedData(newsData);\n   //});\n   //return promise1;\n}",
           "id": "indx1_1962",
           "x": 66144,
-          "y": 11155,
+          "y": 11317,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39258,7 +39258,7 @@ var schemeData =
           "label": "closingNewsDownloadProcess(newsData)",
           "id": "indx1_1963",
           "x": 67327,
-          "y": 11047,
+          "y": 11209,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39295,7 +39295,7 @@ var schemeData =
           "label": "Save all downloaded news data and show download process stats",
           "id": "indx1_1964",
           "x": 67065,
-          "y": 11101,
+          "y": 11263,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39332,7 +39332,7 @@ var schemeData =
           "label": "newsDateFormat(date)",
           "id": "indx1_1972",
           "x": 67091,
-          "y": 2276,
+          "y": 2438,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39369,7 +39369,7 @@ var schemeData =
           "label": "Format date like \"26.08.2020, 23:37:01\"",
           "id": "indx1_1973",
           "x": 66960,
-          "y": 2331,
+          "y": 2493,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39406,7 +39406,7 @@ var schemeData =
           "label": "function newsDateFormat(date) {\n   return (\"0\" + date.getDate()).slice(-2) + \".\" + (\"0\"+(date.getMonth()+1)).slice(-2) + \".\" +\n    date.getFullYear() + \", \" + date.getHours() + \":\" + (\"0\" + date.getMinutes()).slice(-2) + \":\" + (\"0\" + date.getSeconds()).slice(-2);\n}",
           "id": "indx1_1974",
           "x": 65944,
-          "y": 2478,
+          "y": 2640,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39443,7 +39443,7 @@ var schemeData =
           "label": "waitForTime(checkDate, verboseBool)",
           "id": "indx1_1975",
           "x": 67260,
-          "y": 1591,
+          "y": 1753,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39480,7 +39480,7 @@ var schemeData =
           "label": "function waitForTime(checkDate, verboseBool) {\n   var lastDateString = \"\"; \n   while(checkDate > moment()) {\n      var currentDateString = newsDateFormat(moment().toDate());\n      if (lastDateString != currentDateString) {\n         if (verboseBool) {\n            console.log(\"CurrentDateString: \" + currentDateString + \". dateLine to wait: \" + newsDateFormat(checkDate.toDate()));\n         }\n         lastDateString = currentDateString;\n      }\n   };\n}",
           "id": "indx1_1976",
           "x": 65930,
-          "y": 1845,
+          "y": 2007,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39517,7 +39517,7 @@ var schemeData =
           "label": "Run function until time.\nTakes date in moment.js format",
           "id": "indx1_1977",
           "x": 66933,
-          "y": 1657,
+          "y": 1819,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39525,8 +39525,8 @@ var schemeData =
         },
         "indx1_1978": {
           "id": "indx1_1978",
-          "x": 65960,
-          "y": 17160,
+          "x": 67037,
+          "y": 17098,
           "label": "   var newsData = {\n      channelsDownloadTimeStep: 1,\n      \"newsFilesData\": {\n       \"news1.data.js\": {rootNodeId: \"49dab2fa-bf4b-4bb5-9a42-35495b3953df\"},\n      \"news2.data.js\": {rootNodeId: \"c72a9f5a-45a9-4f90-a97c-0ab0e40c27eb\"},\n      \"news3.data.js\": {rootNodeId: \"49dab2fa-bf4b-4bb5-9a42-35495b3953df956\"},\n      \"news4.data.js\": {rootNodeId: \"dfcedad5-31d1-4e02-b997-a6b47f007998\"},\n      \"news41.data.js\": {rootNodeId: \"dfcedad5-31d1-4e02-b997-a6b47f007998\"},\n      \"news5.data.js\": {rootNodeId: \"817e10c2-d501-4234-9877-4fec1a1c72ea\"},\n      \"news51.data.js\": {rootNodeId: \"20208620-edc2-4ea3-b8b1-cb0e841caa65\"},\n      \"news52.data.js\": {rootNodeId: \"817e10c2-d501-4234-9877-4fec1a1c72ea\"},\n      \"news6.data.js\": {rootNodeId: \"6f710fd9-c490-4a47-8990-02f3789b0906\"},\n      \"news61.data.js\": {rootNodeId: \"6f710fd9-c490-4a47-8990-02f3789b0906\"}},\n      allChannelsMap: {},\n      getNewsResponse: response\n   };",
           "shape": "box",
           "link": "",
@@ -39571,7 +39571,7 @@ var schemeData =
           "label": "Date From News",
           "id": "indx1_1979",
           "x": 68355,
-          "y": 7455,
+          "y": 7617,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39608,7 +39608,7 @@ var schemeData =
           "label": "Title From News",
           "id": "indx1_1981",
           "x": 68303,
-          "y": 8821,
+          "y": 8983,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39645,7 +39645,7 @@ var schemeData =
           "label": "Link From News",
           "id": "indx1_1982",
           "x": 68300,
-          "y": 8149,
+          "y": 8311,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39682,7 +39682,7 @@ var schemeData =
           "label": "Wait To Time",
           "id": "indx1_1983",
           "x": 67984,
-          "y": 1905,
+          "y": 2067,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39719,7 +39719,7 @@ var schemeData =
           "label": "Date Formating",
           "id": "indx1_1984",
           "x": 68210,
-          "y": 2559,
+          "y": 2721,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39756,7 +39756,7 @@ var schemeData =
           "label": "Links From dataCash",
           "id": "indx1_1985",
           "x": 68732,
-          "y": 3202,
+          "y": 3364,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39793,7 +39793,7 @@ var schemeData =
           "label": "Tree Links",
           "id": "indx1_1986",
           "x": 67758,
-          "y": 3885,
+          "y": 4047,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39830,7 +39830,7 @@ var schemeData =
           "label": "Move Tree To Top",
           "id": "indx1_1987",
           "x": 68424,
-          "y": 4531,
+          "y": 4693,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39867,7 +39867,7 @@ var schemeData =
           "label": "Nodes of Tree",
           "id": "indx1_1988",
           "x": 68091,
-          "y": 5226,
+          "y": 5388,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39904,7 +39904,7 @@ var schemeData =
           "label": "Save To Dir",
           "id": "indx1_1989",
           "x": 67866,
-          "y": 5907,
+          "y": 6069,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39941,7 +39941,7 @@ var schemeData =
           "label": "app.get(\"/indexes\", function(request, response){\n   response.set('Access-Control-Allow-Origin', '*');\n   var fileName = request.query.fileName;\n   console.log(\"/indexes -> fileName: \" + fileName);\n   //https://localhost:3001/indexes?fileName=news2.data.js\n\n   var fs = require('fs');\n\nfilesData = {};\nfilesData[\"news1.data.js\"] = \"news1.data.js\";\nfilesData[\"news11.data.js\"] = \"news11.data.js\";\nfilesData[\"news2.data.js\"] = \"news2.data.js\";\nfilesData[\"news3.data.js\"] = \"news3.data.js\";\nfilesData[\"news4.data.js\"] = \"news4.data.js\";\nfilesData[\"news41.data.js\"] = \"news41.data.js\";\nfilesData[\"news5.data.js\"] = \"news5.data.js\";\nfilesData[\"news51.data.js\"] = \"news51.data.js\";\nfilesData[\"news52.data.js\"] = \"news52.data.js\";\nfilesData[\"news53.data.js\"] = \"news53.data.js\";\nfilesData[\"news6.data.js\"] = \"news6.data.js\";\nfilesData[\"news61.data.js\"] = \"news61.data.js\";\nfilesData[\"news7.data.js\"] = \"news7.data.js\";\nfilesData[\"youtube1.data.js\"] = \"youtube1.data.js\";\nfilesData[\"youtube2.data.js\"] = \"youtube2.data.js\";\nfilesData[\"youtube3.data.js\"] = \"youtube3.data.js\";\nfilesData[\"mm-vis-js_code.data.js\"] = \"mm-vis-js_code.data.js\";\nfilesData[\"mm-vis-js_docs.data.js\"] = \"mm-vis-js_docs.data.js\";\nfilesData[\"index.data.js\"] = \"index.data.js\";\nfilesData[\"base.data.js\"] = \"base.data.js\";\nfilesData[\"culture.data.js\"] = \"culture.data.js\";\nfilesData[\"ruby.data.js\"] = \"ruby.data.js\";\nfilesData[\"javascript.data.js\"] = \"javascript.data.js\";\nfilesData[\"python.data.js\"] = \"python.data.js\";\nfilesData[\"music1.data.js\"] = \"music1.data.js\";\nfilesData[\"music2.data.js\"] = \"music2.data.js\";\nfilesData[\"math.data.js\"] = \"math.data.js\";\nfilesData[\"code.data.js\"] = \"code.data.js\";\nfilesData[\"engineering.data.js\"] = \"engineering.data.js\";\nfilesData[\"nature.data.js\"] = \"nature.data.js\";\nfilesData[\"timelines.data.js\"] = \"timelines.data.js\";\nfilesData[\"java.data.js\"] = \"java.data.js\";\nfilesData[\"java-api.data.js\"] = \"java-api.data.js\";\nfilesData[\"sa1.data.js\"] = \"sa1.data.js\";\nfilesData[\"lisp.data.js\"] = \"lisp.data.js\";\n\nfunction rebuildIndexes(fileName) {\n\n   console.log(\"Process file: \" + fileName);\n\n   var filePathPart = \"../app/\";\n\n   var fileString = fs.readFileSync(filePathPart + fileName, 'utf8');\n   var fileString = fileString.trim();\n\n   fileString = fileString.split(\"\\n\");\n   fileString.shift();\n   fileString.pop();\n   fileString = fileString.join(\"\\n\");\n   fileData = JSON.parse(fileString);\n\n   workData = {};\n\n   workData.data = fileData;\n   workData.nodes = fileData.canvas1Data.nodes._data;\n   workData.edges = fileData.canvas1Data.edges._data;\n",
           "id": "indx1_1992",
           "x": 65071,
-          "y": 21575,
+          "y": 23244,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -39978,7 +39978,7 @@ var schemeData =
           "label": "Server For All News Download",
           "id": "indx1_1993",
           "x": 69417,
-          "y": 17656,
+          "y": 17818,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40015,7 +40015,7 @@ var schemeData =
           "label": "Make All Download Processes",
           "id": "indx1_1994",
           "x": 69555,
-          "y": 15663,
+          "y": 15825,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40052,7 +40052,7 @@ var schemeData =
           "label": "Start Channel Download",
           "id": "indx1_1995",
           "x": 69022,
-          "y": 14706,
+          "y": 14868,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40089,7 +40089,7 @@ var schemeData =
           "label": "Download Channel Data",
           "id": "indx1_1996",
           "x": 69032,
-          "y": 12937,
+          "y": 13099,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40126,7 +40126,7 @@ var schemeData =
           "label": "Close Download Process",
           "id": "indx1_1997",
           "x": 69089,
-          "y": 11343,
+          "y": 11505,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40163,7 +40163,7 @@ var schemeData =
           "label": "Collect News Data To Object",
           "id": "indx1_1998",
           "x": 69399,
-          "y": 10572,
+          "y": 10734,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40200,7 +40200,7 @@ var schemeData =
           "label": "Text From News",
           "id": "indx1_1999",
           "x": 68299,
-          "y": 9649,
+          "y": 9811,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40237,7 +40237,7 @@ var schemeData =
           "label": "Align Nodes Left",
           "id": "indx1_2000",
           "x": 67475,
-          "y": 1181,
+          "y": 1343,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -40274,7 +40274,7 @@ var schemeData =
           "label": "Sympy, LaTeX Integration",
           "id": "indx1_2001",
           "x": 68278,
-          "y": -729,
+          "y": -567,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -41077,10 +41077,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   var allNodes = workData.nodes;\n   Object.keys(allNodes).forEach(function(key,index) {\n      if (index < 10) {\n         //console.log(allNodes[key].id);\n      }\n   });\n   var allEdges = workData.edges;\n   Object.keys(allEdges).forEach(function(key,index) {\n      if (index < 10) {\n         //console.log(allEdges[key].id);\n      }\n   });\n   console.log(\"allNodes.length: \" + Object.keys(allNodes).length);\n   console.log(\"allEdges.length: \" + Object.keys(allEdges).length);\n\n   console.log(\"Object.keys(dataCash).length: \" + Object.keys(workData.data.dataCash).length);\n\n   var dataCashNodesIds = [];\n   var dataCashEdgesIds = [];\n\n   Object.keys(workData.data.dataCash).forEach(function(dataCashKey) {\n      //console.log(dataCashKey);\n      var tree = workData.data.dataCash[dataCashKey];\n      tree.nodes.forEach(function(node) {\n         //console.log(node.id);\n         dataCashNodesIds.push(node.id);\n      });\n      tree.edges.forEach(function(edge) {\n         //console.log(edge.id);\n         dataCashEdgesIds.push(edge.id);\n      });\n   });\n\n   console.log(\"dataCashNodesIds.length: \" + dataCashNodesIds.length);\n   console.log(\"dataCashEdgesIds.length: \" + dataCashEdgesIds.length);\n\n   var totalNodesIds = Object.keys(allNodes).concat(dataCashNodesIds);\n   var totalEdgesIds = Object.keys(allEdges).concat(dataCashEdgesIds);\n\n   console.log(\"totalNodes.length: \" + totalNodesIds.length);\n   console.log(\"totalEdges.length: \" + totalEdgesIds.length);\n\n   var totalShortNodesIds = [];\n   for (var i in totalNodesIds) {\n      var id = totalNodesIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0) totalShortNodesIds.push(id);\n   }\n   var totalShortEdgesIds = [];\n   for (var i in totalEdgesIds) {\n      var id = totalEdgesIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0) totalShortEdgesIds.push(id);\n   }\n   console.log(\"totalShortNodesIds.length: \" + totalShortNodesIds.length);\n   console.log(\"totalShortEdgesIds.length: \" + totalShortEdgesIds.length);\n   console.log(\"Unprocessed nodesIds.length: \" + (totalNodesIds.length - totalShortNodesIds.length));\n   console.log(\"Unprocessed edgesIds.length: \" + (totalEdgesIds.length - totalShortEdgesIds.length));\n\n   var totalIds = totalNodesIds.concat(totalEdgesIds);\n\n   console.log(\"totalIds.length: \" + totalIds.length);\n\n   var totalShortIds = [];\n   for (var i in totalIds) {\n      var id = totalIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0) totalShortIds.push(id);\n   }\n   console.log(\"totalShortIds.length: \" + totalShortIds.length);\n   console.log(\"Unprocessed ids: \" + (totalIds.length - totalShortIds.length));",
+          "label": "   var allNodes = workData.nodes;\n   Object.keys(allNodes).forEach(function(key,index) {\n      if (index < 10) {\n         //console.log(allNodes[key].id);\n      }\n   });\n   var allEdges = workData.edges;\n   Object.keys(allEdges).forEach(function(key,index) {\n      if (index < 10) {\n         //console.log(allEdges[key].id);\n      }\n   });\n   console.log(\"allNodes.length: \" + Object.keys(allNodes).length);\n   console.log(\"allEdges.length: \" + Object.keys(allEdges).length);\n\n   console.log(\"Object.keys(dataCash).length: \" + Object.keys(workData.data.dataCash).length);\n\n   var dataCashNodesIds = [];\n   var dataCashEdgesIds = [];\n\n   Object.keys(workData.data.dataCash).forEach(function(dataCashKey) {\n      //console.log(dataCashKey);\n      var tree = workData.data.dataCash[dataCashKey];\n      tree.nodes.forEach(function(node) {\n         //console.log(node.id);\n         dataCashNodesIds.push(node.id);\n      });\n      tree.edges.forEach(function(edge) {\n         //console.log(edge.id);\n         dataCashEdgesIds.push(edge.id);\n      });\n   });\n\n   console.log(\"dataCashNodesIds.length: \" + dataCashNodesIds.length);\n   console.log(\"dataCashEdgesIds.length: \" + dataCashEdgesIds.length);\n\n   var totalNodesIds = Object.keys(allNodes).concat(dataCashNodesIds);\n   var totalEdgesIds = Object.keys(allEdges).concat(dataCashEdgesIds);\n\n   console.log(\"totalNodes.length: \" + totalNodesIds.length);\n   console.log(\"totalEdges.length: \" + totalEdgesIds.length);\n\n   var totalShortNodesIds = [];\n   for (var i in totalNodesIds) {\n      var id = totalNodesIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0 ||\n          id.lastIndexOf(\"indx5_\", 0) === 0) totalShortNodesIds.push(id);\n   }\n   var totalShortEdgesIds = [];\n   for (var i in totalEdgesIds) {\n      var id = totalEdgesIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0 ||\n          id.lastIndexOf(\"indx5_\", 0) === 0) totalShortEdgesIds.push(id);\n   }\n   console.log(\"totalShortNodesIds.length: \" + totalShortNodesIds.length);\n   console.log(\"totalShortEdgesIds.length: \" + totalShortEdgesIds.length);\n   console.log(\"Unprocessed nodesIds.length: \" + (totalNodesIds.length - totalShortNodesIds.length));\n   console.log(\"Unprocessed edgesIds.length: \" + (totalEdgesIds.length - totalShortEdgesIds.length));\n\n   var totalIds = totalNodesIds.concat(totalEdgesIds);\n\n   console.log(\"totalIds.length: \" + totalIds.length);\n\n   var totalShortIds = [];\n   for (var i in totalIds) {\n      var id = totalIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0 ||\n          id.lastIndexOf(\"indx5_\", 0) === 0) totalShortIds.push(id);\n   }\n   console.log(\"totalShortIds.length: \" + totalShortIds.length);\n   console.log(\"Unprocessed ids: \" + (totalIds.length - totalShortIds.length));",
           "id": "indx1_2025",
           "x": 65630,
-          "y": 22563,
+          "y": 24300,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42368,7 +42368,7 @@ var schemeData =
           "label": "app.get(\"/indexes\". query.fileName",
           "id": "indx1_2069",
           "x": 67116,
-          "y": 21289,
+          "y": 22958,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42405,7 +42405,7 @@ var schemeData =
           "label": "data.js ids",
           "id": "indx1_2070",
           "x": 66763,
-          "y": 21335,
+          "y": 23004,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42442,7 +42442,7 @@ var schemeData =
           "label": "Rebuild Indexes",
           "id": "indx1_2071",
           "x": 68163,
-          "y": 21568,
+          "y": 23237,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42479,7 +42479,7 @@ var schemeData =
           "label": "Download Web Page",
           "id": "indx1_2072",
           "x": 68602,
-          "y": 19844,
+          "y": 20006,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42516,7 +42516,7 @@ var schemeData =
           "label": "Download RSS Data",
           "id": "indx1_2073",
           "x": 68562,
-          "y": 18946,
+          "y": 19108,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42553,7 +42553,7 @@ var schemeData =
           "label": "Get data.js File Data",
           "id": "indx1_2074",
           "x": 67842,
-          "y": 143,
+          "y": 305,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42587,10 +42587,10 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "   var options = {\n      encoding: 'utf8'\n   };\n\n   function chunk(arr, chunkSize) {\n      var chunksList = [];\n      for (var i=0,len=arr.length; i<len; i+=chunkSize)\n      chunksList.push(arr.slice(i,i+chunkSize));\n      return chunksList;\n   }\n\n   var regexesList = [];\n   for (var i in totalIds) {\n      var id = totalIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0) {\n         //console.log(\"Short id: \" + id);\n         continue;\n      }\n      var prefix = \"indx2_\";\n      var newIdShift = parseInt(totalShortIds.length, 10) + 109;\n      var newId = parseInt(i, 10) + newIdShift;\n\n      regexesList.push(\"s/\\\"\" + id + \"\\\"/\\\"\" + prefix + String(newId) + \"\\\"/g\");\n      \n   }\n\n   var chunksList = chunk(regexesList, 100);\n  \n   for (var i in chunksList) {\n      var checkForBreakSignal = fs.readFileSync('stopSedJob.txt', 'utf8').trim();\n      if (checkForBreakSignal == \"stop\") {\n         console.log(\"Job Stopped\");\n         break;\n      }\n      var regex = chunksList[i].join(\"; \");\n      var cmd = \"sed -i '\" + regex + \"' \" + filePathPart + fileName;\n      //console.log(i + \". \" + cmd);\n      console.log(i + \". \" + chunksList[i].length + \". \" + fileName);\n\n      //if (i > 100) break;\n      \n      var execResult = execSync(cmd, options);\n   }\n   console.log(fileName + \". Done\");\n\n}\n\nconsole.log(\"Files Queue: \");\nconsole.log(filesData);\nconsole.log(\"------\");\nfor (var fileName in filesData) {\n   console.log(\"---\");\n   console.log(\"Process run: \" + fileName);\n   rebuildIndexes(filesData[fileName]);\n}\n\n\nvar answerLine = JSON.stringify(\"done\");\nresponse.send(answerLine);\n\n});",
+          "label": "   var options = {\n      encoding: 'utf8'\n   };\n\n   function chunk(arr, chunkSize) {\n      var chunksList = [];\n      for (var i=0,len=arr.length; i<len; i+=chunkSize)\n      chunksList.push(arr.slice(i,i+chunkSize));\n      return chunksList;\n   }\n\n   var prefix = \"indx5_\";\n   var newIdShift = getNextNumberForPrefixedId(totalIds, prefix) + 109;\n   var regexesList = [];\n   var counter = 0;\n   for (var i in totalIds) {\n      var id = totalIds[i];\n      if (id.length < 15 ||\n          id.lastIndexOf(\"index-a_\", 0) === 0 ||\n          id.lastIndexOf(\"indx1_\", 0) === 0 ||\n          id.lastIndexOf(\"indx2_\", 0) === 0 ||\n          id.lastIndexOf(\"indx5_\", 0) === 0) {\n         //console.log(\"Short id: \" + id);\n         continue;\n      }\n\n\n      var newId = parseInt(counter, 10) + Number(newIdShift);\n      counter = counter + 1;\n\n      regexesList.push(\"s/\\\"\" + id + \"\\\"/\\\"\" + prefix + String(newId) + \"\\\"/g\");\n      \n   }\n\n   var chunksList = chunk(regexesList, 100);\n  \n   for (var i in chunksList) {\n      var checkForBreakSignal = fs.readFileSync('stopSedJob.txt', 'utf8').trim();\n      if (checkForBreakSignal == \"stop\") {\n         console.log(\"Job Stopped\");\n         break;\n      }\n      var regex = chunksList[i].join(\"; \");\n      var cmd = \"sed -i '\" + regex + \"' \" + filePathPart + fileName;\n      //console.log(i + \". \" + cmd);\n      console.log(i + \". \" + chunksList[i].length + \". \" + fileName);\n\n      //if (i > 100) break;\n      \n      var execResult = execSync(cmd, options);\n   }\n   console.log(fileName + \". Done\");\n\n}\n\nconsole.log(\"Files Queue: \");\nconsole.log(filesData);\nconsole.log(\"------\");\nfor (var fileName in filesData) {\n   console.log(\"---\");\n   console.log(\"Process run: \" + fileName);\n   rebuildIndexes(filesData[fileName]);\n}\n\n\nvar answerLine = JSON.stringify(\"done\");\nresponse.send(answerLine);\n\n});",
           "id": "indx1_2075",
           "x": 65555,
-          "y": 23599,
+          "y": 25404,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42627,7 +42627,7 @@ var schemeData =
           "label": "$(document).ready(",
           "id": "indx1_2076",
           "x": 45615,
-          "y": 45919,
+          "y": 49191,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42664,7 +42664,7 @@ var schemeData =
           "label": "network.on('selectEdge'",
           "id": "indx1_2076c6",
           "x": 45952,
-          "y": 30483,
+          "y": 33755,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42701,7 +42701,7 @@ var schemeData =
           "label": "network.on('selectNode'",
           "id": "indx1_2076c7",
           "x": 45963,
-          "y": 28613,
+          "y": 31885,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42738,7 +42738,7 @@ var schemeData =
           "label": "draw()",
           "id": "indx1_2076c8",
           "x": 44552,
-          "y": 58106,
+          "y": 61378,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42775,7 +42775,7 @@ var schemeData =
           "label": "saveNodeEditButton.click(",
           "id": "indx1_2076c9",
           "x": 46470,
-          "y": 51778,
+          "y": 55050,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42811,7 +42811,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   network.on('selectEdge', function (properties) {\n\n      if (properties.nodes.length > 0) return;\n      \n      schemeEditNodesMenu.hide();\n      schemeEditEdgesMenu.show();\n      var edgeIdInput = $(\"input#edgeIdInput\");\n      var edgeLabelTextarea = $(\"textarea#edgeLabelTextarea\");\n\n      var edgeColorInput = schemeEditEdgesMenu.find(\"#edgeColorInput\");\n      var edgeDashesEnabledInput = schemeEditEdgesMenu.find(\"#edgeDashesEnabledInput\");\n\n      var edgeArrowsFromEnabledInput = schemeEditEdgesMenu.find(\"input#edgeArrowsFromEnabledInput\");\n      var edgeArrowsMiddleEnabledInput = schemeEditEdgesMenu.find(\"input#edgeArrowsMiddleEnabledInput\");\n      var edgeArrowsToEnabledInput = schemeEditEdgesMenu.find(\"input#edgeArrowsToEnabledInput\");\n\n      var edgeShadowEnabledInput = schemeEditEdgesMenu.find(\"input#edgeShadowEnabledInput\");\n      var edgeShadowColorInput = schemeEditEdgesMenu.find(\"input#edgeShadowColorInput\");\n      var edgeShadowSizeInput = schemeEditEdgesMenu.find(\"input#edgeShadowSizeInput\");\n      var edgeShadowXInput = schemeEditEdgesMenu.find(\"input#edgeShadowXInput\");\n      var edgeShadowYInput = schemeEditEdgesMenu.find(\"input#edgeShadowYInput\");\n\n      var edgeSmoothEnabledInput = schemeEditEdgesMenu.find(\"input#edgeSmoothEnabledInput\");\n      var edgeSmoothTypeInput = schemeEditEdgesMenu.find(\"input#edgeSmoothTypeInput\");\n      var edgeSmoothForceDirectionInput = schemeEditEdgesMenu.find(\"input#edgeSmoothForceDirectionInput\");\n      var edgeSmoothRoundnessInput = schemeEditEdgesMenu.find(\"input#edgeSmoothRoundnessInput\");\n\n      var edgeD = getEdgeFromNetworkDataById(properties.edges[0]);\n      //console.log(edgeD);\n      lastSelectedEdgeId = edgeD.id;\n\n      edgeIdInput.val(edgeD.id);\n\n      if (typeof edgeD.label === \"undefined\") {\n         edgeLabelTextarea.val(\"\");\n      } else {\n         edgeLabelTextarea.val(edgeD.label);\n      }\n\n      if (typeof edgeD.color !== \"undefined\" && \n          typeof edgeD.color.color !== \"undefined\" &&\n          edgeD.color.color != \"\") {\n          $('#edgeColorInput').val(edgeD.color.color);\n      } else {\n          $('#edgeColorInput').val(\"rgb(0,0,0)\");\n      }\n\n      if (typeof edgeD.dashes !== \"undefined\" &&\n          edgeD.dashes == true) {\n          $('#edgeDashesEnabledInput').prop('checked', true);\n      } else {\n          $('#edgeDashesEnabledInput').prop('checked', false);\n      }\n\n      if (typeof edgeD.arrows !== \"undefined\" && \n          typeof edgeD.arrows.from !== \"undefined\" && \n          typeof edgeD.arrows.from.enabled !== \"undefined\" &&\n          edgeD.arrows.from.enabled == true) {\n          $('#edgeArrowsFromEnabledInput').prop('checked', true);\n      } else {\n          $('#edgeArrowsFromEnabledInput').prop('checked', false);\n      }\n\n      if (typeof edgeD.arrows !== \"undefined\" && \n          typeof edgeD.arrows.middle !== \"undefined\" && \n          typeof edgeD.arrows.middle.enabled !== \"undefined\" &&\n          edgeD.arrows.middle.enabled == true) {\n          $('#edgeArrowsMiddleEnabledInput').prop('checked', true);\n      } else {\n          $('#edgeArrowsMiddleEnabledInput').prop('checked', false);\n      }\n\n      if (typeof edgeD.arrows !== \"undefined\" && \n          typeof edgeD.arrows.to !== \"undefined\" && \n          typeof edgeD.arrows.to.enabled !== \"undefined\" &&\n          edgeD.arrows.to.enabled == true) {\n          $('#edgeArrowsToEnabledInput').prop('checked', true);\n      } else {\n          $('#edgeArrowsToEnabledInput').prop('checked', false);\n      }\n\n      if (typeof edgeD.shadow !== \"undefined\" && \n          typeof edgeD.shadow.enabled !== \"undefined\" &&\n          edgeD.shadow.enabled == true) {\n          $('#edgeShadowEnabledInput').prop('checked', true);\n      } else {\n          $('#edgeShadowEnabledInput').prop('checked', false);\n      }\n\n      if (typeof edgeD.shadow !== \"undefined\" && \n          typeof edgeD.shadow.color !== \"undefined\" &&\n          edgeD.shadow.color != \"\") {\n          $('#edgeShadowColorInput').val(edgeD.shadow.color);\n      } else {\n          $('#edgeShadowColorInput').val(\"rgba(0,0,0,0.5)\");\n      }\n\n      if (typeof edgeD.shadow !== \"undefined\" && \n          typeof edgeD.shadow.size !== \"undefined\" &&\n          typeof edgeD.shadow.size === \"number\" &&\n          !isNaN(edgeD.shadow.size)) {\n          $('#edgeShadowSizeInput').val(String(edgeD.shadow.size));\n      } else {\n          $('#edgeShadowSizeInput').val(\"10\");\n      }\n\n      if (typeof edgeD.shadow !== \"undefined\" && \n          typeof edgeD.shadow.x !== \"undefined\" &&\n          typeof edgeD.shadow.x === \"number\" &&\n          !isNaN(edgeD.shadow.x)) {\n          $('#edgeShadowXInput').val(String(edgeD.shadow.x));\n      } else {\n          $('#edgeShadowXInput').val(\"5\");\n      }\n\n      if (typeof edgeD.shadow !== \"undefined\" && \n          typeof edgeD.shadow.y !== \"undefined\" &&\n          typeof edgeD.shadow.y === \"number\" &&\n          !isNaN(edgeD.shadow.y)) {\n          $('#edgeShadowYInput').val(String(edgeD.shadow.y));\n      } else {\n          $('#edgeShadowYInput').val(\"5\");\n      }\n\n      if (typeof edgeD.smooth !== \"undefined\" && \n          typeof edgeD.smooth.enabled !== \"undefined\" &&\n          edgeD.smooth.enabled == true) {\n          $('#edgeSmoothEnabledInput').prop('checked', true);\n      } else {\n          $('#edgeSmoothEnabledInput').prop('checked', false);\n      }\n\n      if (typeof edgeD.smooth !== \"undefined\" && \n          typeof edgeD.smooth.type !== \"undefined\" &&\n          edgeD.smooth.type != \"\") {\n          $('#edgeSmoothTypeInput option[value=\"' + edgeD.smooth.type + '\"]').attr(\"selected\", \"selected\");\n      } else {\n          $('#edgeSmoothTypeInput option[value=\"dynamic\"]').attr(\"selected\", \"selected\");\n      }\n\n      if (typeof edgeD.smooth !== \"undefined\" && \n          typeof edgeD.smooth.forceDirection !== \"undefined\" &&\n          edgeD.smooth.forceDirection != \"\") {\n          $('#edgeSmoothForceDirectionInput option[value=\"' + edgeD.smooth.forceDirection + '\"]').attr(\"selected\", \"selected\");\n      } else {\n          $('#edgeSmoothForceDirectionInput option[value=\"none\"]').attr(\"selected\", \"selected\");\n      }\n\n      if (typeof edgeD.smooth !== \"undefined\" && \n          typeof edgeD.smooth.roundness !== \"undefined\" &&\n          typeof edgeD.smooth.roundness == \"number\" &&\n          !isNaN(edgeD.smooth.roundness)) {\n          $('#edgeSmoothRoundnessInput').val(String(edgeD.smooth.roundness));\n      } else {\n          $('#edgeSmoothRoundnessInput').val(\"0.5\");\n      }\n\n   });\n",
           "x": 41840,
-          "y": 30954,
+          "y": 34226,
           "id": "indx1_229c0",
           "oldId": "indx1_229",
           "shape": "box",
@@ -42848,7 +42848,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\n\tvar edgesSetupTable = $(\"<table id='edgesSetupTable'></table>\");\n\n   //EDGE ID\n\tvar eSRow1 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow1);\n\tvar eSItem11 = $(\"<td></td>\");\n\tvar eSItem12 = $(\"<td></td>\");\n\teSRow1.append(eSItem11);\n\teSRow1.append(eSItem12);\n\tvar edgeIdInputLabel = $(\"<div style=''><span>edgeId: </span></div>\");\n\teSItem11.append(edgeIdInputLabel);\n\tvar edgeIdInput = $(\"<input type='text' id='edgeIdInput'></input>\");\n\teSItem12.append(edgeIdInput);\n\n   //EDGE LABEL\n\tvar eSRow2 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow2);\n\tvar eSItem21 = $(\"<td></td>\");\n\tvar eSItem22 = $(\"<td></td>\");\n\teSRow2.append(eSItem21);\n\teSRow2.append(eSItem22);\n\tvar edgeLabelInputLabel = $(\"<div style=''><span>edgeLabel: </span></div>\");\n\teSItem21.append(edgeLabelInputLabel);\n\tvar edgeLabelTextarea = $(\"<textarea cols='19' rows='3' id='edgeLabelTextarea'></textarea>\");\n\teSItem22.append(edgeLabelTextarea);\n\n   //EDGE COLOR\n\tvar eSRow2Color = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow2Color);\n\tvar eSItem21Color = $(\"<td></td>\");\n\tvar eSItem22Color = $(\"<td></td>\");\n\teSRow2Color.append(eSItem21Color);\n\teSRow2Color.append(eSItem22Color);\n\tvar edgeColorInputLabel = $(\"<div style=''><span>edgeColor: </span></div>\");\n\teSItem21Color.append(edgeColorInputLabel);\n\tvar edgeColorInput = $(\"<input type='text' id='edgeColorInput'></input>\");\n\teSItem22Color.append(edgeColorInput);\n\n   //EDGE DASHES\n\tvar eSRow2Dashes = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow2Dashes);\n\tvar eSItem21Dashes = $(\"<td></td>\");\n\tvar eSItem22Dashes = $(\"<td></td>\");\n\teSRow2Dashes.append(eSItem21Dashes);\n\teSRow2Dashes.append(eSItem22Dashes);\n\tvar edgeDashesEnabledInputLabel = $(\"<div style=''><span>edgeDashes: </span></div>\");\n\teSItem21Dashes.append(edgeDashesEnabledInputLabel);\n\tvar edgeDashesEnabledInput = $(\"<input type='checkbox' id='edgeDashesEnabledInput'></input>\");\n\teSItem22Dashes.append(edgeDashesEnabledInput);\n\n   //EDGE ARROWS FROM\n\tvar eSRow5Arrow1 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow5Arrow1);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5Arrow1.append(eSItem51);\n\teSRow5Arrow1.append(eSItem52);\n\tvar edgeArrowsFromEnabledInputLabel = $(\"<div style=''><span>arrows.from: </span></div>\");\n\teSItem51.append(edgeArrowsFromEnabledInputLabel);\n\tvar edgeArrowsFromEnabledInput = $(\"<input type='checkbox' id='edgeArrowsFromEnabledInput'></input>\");\n\teSItem52.append(edgeArrowsFromEnabledInput);\n\n   //EDGE ARROWS MIDDLE\n\tvar eSRow5Arrow2 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow5Arrow2);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5Arrow2.append(eSItem51);\n\teSRow5Arrow2.append(eSItem52);\n\tvar edgeArrowsMiddleEnabledInputLabel = $(\"<div style=''><span>arrows.middle: </span></div>\");\n\teSItem51.append(edgeArrowsMiddleEnabledInputLabel);\n\tvar edgeArrowsMiddleEnabledInput = $(\"<input type='checkbox' id='edgeArrowsMiddleEnabledInput'></input>\");\n\teSItem52.append(edgeArrowsMiddleEnabledInput);\n\n   //EDGE ARROWS TO\n\tvar eSRow5Arrow3 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow5Arrow3);\n\tvar eSItem51 = $(\"<td></td>\");\n\tvar eSItem52 = $(\"<td></td>\");\n\teSRow5Arrow3.append(eSItem51);\n\teSRow5Arrow3.append(eSItem52);\n\tvar edgeArrowsToEnabledInputLabel = $(\"<div style=''><span>arrows.to: </span></div>\");\n\teSItem51.append(edgeArrowsToEnabledInputLabel);\n\tvar edgeArrowsToEnabledInput = $(\"<input type='checkbox' id='edgeArrowsToEnabledInput'></input>\");\n\teSItem52.append(edgeArrowsToEnabledInput);\n\n   //SHADOW ENABLED\n\tvar eSRow6 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow6);\n\tvar eSItem61 = $(\"<td></td>\");\n\tvar eSItem62 = $(\"<td></td>\");\n\teSRow6.append(eSItem61);\n\teSRow6.append(eSItem62);\n\tvar edgeShadowEnabledInputLabel = $(\"<div style=''><span>shadow.enabled: </span></div>\");\n\teSItem61.append(edgeShadowEnabledInputLabel);\n\tvar edgeShadowEnabledInput = $(\"<input type='checkbox' id='edgeShadowEnabledInput'></input>\");\n\teSItem62.append(edgeShadowEnabledInput);\n\n   //SHADOW COLOR\n\tvar eSRow7 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow7);\n\tvar eSItem71 = $(\"<td></td>\");\n\tvar eSItem72 = $(\"<td></td>\");\n\teSRow7.append(eSItem71);\n\teSRow7.append(eSItem72);\n\tvar edgeShadowColorInputLabel = $(\"<div style='padding: 0 0 0 7px'><span>shadow.color: </span></div>\");\n\teSItem71.append(edgeShadowColorInputLabel);\n\tvar edgeShadowColorInput = $(\"<input type='text' id='edgeShadowColorInput'></input>\");\n\teSItem72.append(edgeShadowColorInput);\n\n   //SHADOW SIZE\n\tvar eSRow8 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow8);\n\tvar eSItem81 = $(\"<td></td>\");\n\tvar eSItem82 = $(\"<td></td>\");\n\teSRow8.append(eSItem81);\n\teSRow8.append(eSItem82);\n\tvar edgeShadowSizeInputLabel = $(\"<div style='padding: 0 0 0 7px'><span>shadow.size: </span></div>\");\n\teSItem81.append(edgeShadowSizeInputLabel);\n\tvar edgeShadowSizeInput = $(\"<input type='text' id='edgeShadowSizeInput'></input>\");\n\teSItem82.append(edgeShadowSizeInput);\n\n   //SHADOW X\n\tvar eSRow9 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow9);\n\tvar eSItem91 = $(\"<td></td>\");\n\tvar eSItem92 = $(\"<td></td>\");\n\teSRow9.append(eSItem91);\n\teSRow9.append(eSItem92);\n\tvar edgeShadowXInputLabel = $(\"<div style='padding: 0 0 0 7px'><span>shadow.x: </span></div>\");\n\teSItem91.append(edgeShadowXInputLabel);\n\tvar edgeShadowXInput = $(\"<input type='text' id='edgeShadowXInput'></input>\");\n\teSItem92.append(edgeShadowXInput);\n\n   //SHADOW Y\n\tvar eSRow10 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow10);\n\tvar eSItem101 = $(\"<td></td>\");\n\tvar eSItem102 = $(\"<td></td>\");\n\teSRow10.append(eSItem101);\n\teSRow10.append(eSItem102);\n\tvar edgeShadowYInputLabel = $(\"<div style='padding: 0 0 0 7px'><span>shadow.y: </span></div>\");\n\teSItem101.append(edgeShadowYInputLabel);\n\tvar edgeShadowYInput = $(\"<input type='text' id='edgeShadowYInput'></input>\");\n\teSItem102.append(edgeShadowYInput);\n\n   //SMOOTH ENABLED\n\tvar eSRow11 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow11);\n\tvar eSItem111 = $(\"<td></td>\");\n\tvar eSItem112 = $(\"<td></td>\");\n\teSRow11.append(eSItem111);\n\teSRow11.append(eSItem112);\n\tvar edgeSmoothEnabledInputLabel = $(\"<div style=''><span>smooth.enabled: </span></div>\");\n\teSItem111.append(edgeSmoothEnabledInputLabel);\n\tvar edgeSmoothEnabledInput = $(\"<input type='checkbox' id='edgeSmoothEnabledInput'></input>\");\n\teSItem112.append(edgeSmoothEnabledInput);\n\n   //SMOOTH TYPE\n\tvar eSRow12 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow12);\n\tvar eSItem121 = $(\"<td></td>\");\n\tvar eSItem122 = $(\"<td></td>\");\n\teSRow12.append(eSItem121);\n\teSRow12.append(eSItem122);\n\tvar edgeSmoothTypeInputLabel = $(\"<div style='padding: 0 0 0 7px'><span>smooth.type: </span></div>\");\n\teSItem121.append(edgeSmoothTypeInputLabel);\n        var smoothTypeSelectString = \"<select id='edgeSmoothTypeInput'>\" + \n                           \"<option value='dynamic' selected='selected'>dynamic</option>\" +\n                           \"<option value='continuous'>continuous</option>\" +\n                           \"<option value='discrete'>discrete</option>\" +\n                           \"<option value='diagonalCross'>diagonalCross</option>\" +\n                           \"<option value='straightCross'>straightCross</option>\" +\n                           \"<option value='horizontal'>horizontal</option>\" +\n                           \"<option value='vertical'>vertical</option>\" +\n                           \"<option value='curvedCW'>curvedCW</option>\" +\n                           \"<option value='curvedCCW'>curvedCCW</option>\" +\n                           \"<option value='cubicBezier'>cubicBezier</option></select>\";\n\tvar edgeSmoothTypeInput = $(smoothTypeSelectString);\n\teSItem122.append(edgeSmoothTypeInput);\n\n   //SMOOTH FORCEDIRECTION\n\tvar eSRow13 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow13);\n\tvar eSItem131 = $(\"<td></td>\");\n\tvar eSItem132 = $(\"<td></td>\");\n\teSRow13.append(eSItem131);\n\teSRow13.append(eSItem132);\n\tvar edgeSmoothForceDirectionInputLabel = $(\"<div style='padding: 0 0 0 7px'><span>smooth. forceDirection\t: </span></div>\");\n\teSItem131.append(edgeSmoothForceDirectionInputLabel);\n        var smoothForceDirectionSelectString = \"<select id='edgeSmoothForceDirectionInput'>\" + \n                                               \"<option value='none' selected='selected'>none</option>\" +\n                                               \"<option value='horizontal'>horizontal</option>\" +\n                                               \"<option value='vertical'>vertical</option></select>\";\n\tvar edgeSmoothForceDirectionInput = $(smoothForceDirectionSelectString);\n\teSItem132.append(edgeSmoothForceDirectionInput);\n\n   //SMOOTH ROUNDNESS\n\tvar eSRow14 = $(\"<tr></tr>\");\n\tedgesSetupTable.append(eSRow14);\n\tvar eSItem141 = $(\"<td></td>\");\n\tvar eSItem142 = $(\"<td></td>\");\n\teSRow14.append(eSItem141);\n\teSRow14.append(eSItem142);\n\tvar edgeSmoothRoundnessInputLabel = $(\"<div style='padding: 0 0 0 7px'><span>smooth. roundness: </span></div>\");\n\teSItem141.append(edgeSmoothRoundnessInputLabel);\n\tvar edgeSmoothRoundnessInput = $(\"<input type='text' id='edgeSmoothRoundnessInput'></input>\");\n\teSItem142.append(edgeSmoothRoundnessInput);",
           "x": 41701,
-          "y": 49646,
+          "y": 52918,
           "id": "indx1_259c0",
           "shape": "box",
           "borderWidth": "0",
@@ -42885,7 +42885,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "\n   saveEdgeEditButton.click(function() {\n      var edgeIdInput = schemeEditEdgesMenu.find(\"#edgeIdInput\");\n      var edgeLabelTextarea = schemeEditEdgesMenu.find(\"textarea#edgeLabelTextarea\");\n\n      var edgeColorInput = schemeEditEdgesMenu.find(\"#edgeColorInput\");\n      var edgeDashesEnabledInput = schemeEditEdgesMenu.find(\"#edgeDashesEnabledInput\");\n\n      var edgeArrowsFromEnabledInput = schemeEditEdgesMenu.find(\"#edgeArrowsFromEnabledInput\");\n      var edgeArrowsMiddleEnabledInput = schemeEditEdgesMenu.find(\"#edgeArrowsMiddleEnabledInput\");\n      var edgeArrowsToEnabledInput = schemeEditEdgesMenu.find(\"#edgeArrowsToEnabledInput\");\n\n      var edgeShadowEnabledInput = schemeEditEdgesMenu.find(\"#edgeShadowEnabledInput\");\n      var edgeShadowColorInput = schemeEditEdgesMenu.find(\"#edgeShadowColorInput\");\n      var edgeShadowSizeInput = schemeEditEdgesMenu.find(\"#edgeShadowSizeInput\");\n      var edgeShadowXInput = schemeEditEdgesMenu.find(\"#edgeShadowXInput\");\n      var edgeShadowYInput = schemeEditEdgesMenu.find(\"#edgeShadowYInput\");\n\n      var edgeSmoothEnabledInput = schemeEditEdgesMenu.find(\"#edgeSmoothEnabledInput\");\n      var edgeSmoothTypeInput = schemeEditEdgesMenu.find(\"#edgeSmoothTypeInput\");\n      var edgeSmoothForceDirectionInput = schemeEditEdgesMenu.find(\"#edgeSmoothForceDirectionInput\");\n      var edgeSmoothRoundnessInput = schemeEditEdgesMenu.find(\"#edgeSmoothRoundnessInput\");\n\n      var edgeD = getEdgeFromNetworkDataById(edgeIdInput.val());\n\n      edgeD.id = edgeIdInput.val();\n      if (typeof edgeLabelTextarea.val() == \"undefined\" || edgeLabelTextarea.val() == \"\") {\n         edgeD.label = \"\\n\";\n         network.body.data.edges.update(edgeD);\n         network.edgesHandler.update([edgeD.id]);\n         edgeD.label = \"\";\n      } else {\n         edgeD.label = edgeLabelTextarea.val();\n      }\n\n      if (typeof edgeD.color === \"undefined\") edgeD.color = {};\n      if (edgeColorInput.val() == \"\") {\n         edgeD.color.color = \"rgb(0,0,0)\";\n      } else {\n         edgeD.color.color = edgeColorInput.val();\n      }\n\n      edgeD.dashes = edgeDashesEnabledInput.prop('checked');\n\n      if (typeof edgeD.arrows === \"undefined\") edgeD.arrows = {from: {}, middle: {}, to: {}};\n      edgeD.arrows.from.enabled = edgeArrowsFromEnabledInput.prop('checked');\n      edgeD.arrows.middle.enabled = edgeArrowsMiddleEnabledInput.prop('checked');\n      edgeD.arrows.to.enabled = edgeArrowsToEnabledInput.prop('checked');\n\n      if (typeof edgeD.shadow === \"undefined\") edgeD.shadow = {};\n      edgeD.shadow.enabled = edgeShadowEnabledInput.prop('checked');\n      edgeD.shadow.color = edgeShadowColorInput.val();\n      if (!isNaN(parseInt(edgeShadowSizeInput.val(), 10))) {\n         edgeD.shadow.size = parseInt(edgeShadowSizeInput.val(), 10);\n      } else {\n         delete edgeD.shadow.size;\n      }\n      if (!isNaN(parseInt(edgeShadowXInput.val(), 10))) {\n         edgeD.shadow.x = parseInt(edgeShadowXInput.val(), 10);\n      } else {\n         delete edgeD.shadow.x;\n      }\n      if (!isNaN(parseInt(edgeShadowYInput.val(), 10))) {\n         edgeD.shadow.y = parseInt(edgeShadowYInput.val(), 10);\n      } else {\n         delete edgeD.shadow.y;\n      }\n\n      if (typeof edgeD.smooth === \"undefined\") edgeD.smooth = {};\n      edgeD.smooth.enabled = edgeSmoothEnabledInput.prop('checked');\n      edgeD.smooth.type = edgeSmoothTypeInput.val();\n      edgeD.smooth.forceDirection = edgeSmoothForceDirectionInput.val();\n\n      if (!isNaN(parseInt(edgeSmoothRoundnessInput.val(), 10))) {\n         edgeD.smooth.roundness = parseInt(edgeSmoothRoundnessInput.val(), 10);\n      } else {\n         delete edgeD.smooth.roundness;\n      }\n      //console.log(edgeD);\n\n      network.body.data.edges.update(edgeD);\n      network.edgesHandler.update([edgeD.id]);\n\n   });",
           "x": 42301,
-          "y": 53005,
+          "y": 56277,
           "id": "indx1_261c0",
           "shape": "box",
           "link": "",
@@ -42923,7 +42923,7 @@ var schemeData =
           "label": "saveEdgeEditButton.click(",
           "id": "indx1_2076c9c0",
           "x": 46459,
-          "y": 52858,
+          "y": 56130,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -42997,7 +42997,7 @@ var schemeData =
           "label": "app.get(\"/getSavedNewsData\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n   var newsDataFilePath = req.query.newsDataFilePath;\n   console.log(\"/getSavedNewsData -> newsDataFilePath: \" + newsDataFilePath);\n\n   var currentWorkNewsDataDateSetupFilePath = \"/home/mike/progr/repo/mm-vis-js/utils/currentNewsDataDate.txt\";\n\n   var currentWorkNewsDataDates = fs.readFileSync(currentWorkNewsDataDateSetupFilePath, 'utf8').trim();\n   var currentWorkNewsDataDatesList = currentWorkNewsDataDates.split(\"\\n\");\n   var currentWorkNewsDataDatesListFiltered = [];\n   for (var i in currentWorkNewsDataDatesList) {\n      var line = currentWorkNewsDataDatesList[i].trim();\n      if ((line.lastIndexOf(\"#\", 0) !== 0) && \n          (line != \"\")) {\n         var dateLine = line.replace(/#.*/g, \"\");\n         currentWorkNewsDataDatesListFiltered.push(dateLine);\n      }\n   }\n\n   if (currentWorkNewsDataDatesListFiltered.length == 0) {\n      console.log(\"currentWorkNewsDataDatesListFiltered.length == 0\");\n      console.log(\"currentWorkNewsDataDateSetupFilePath: \" + currentWorkNewsDataDateSetupFilePath);\n      console.log(\"currentWorkNewsDataDates: \" + currentWorkNewsDataDates);\n      var data = JSON.stringify(\"Error. mvj-serv.js. /getSavedNewsData. currentWorkNewsDataDatesListFiltered.length == 0\");\n      res.send(data);\n      return;\n   }\n\n   var newsData = {};\n\n   for (var i in currentWorkNewsDataDatesListFiltered) {\n      var dirDateLine = currentWorkNewsDataDatesListFiltered[i].trim();\n      var fileDateLine = currentWorkNewsDataDatesListFiltered[i].trim().replace(\" y\", \"\").replace(\" rss\", \"\");\n      var workNewsDataPath = \"/home/mike/progr/repo/mm-vis-js/utils/newsDownloadedData/\" +\n                          \"newsDownloadedData_\" + dirDateLine + \n                          \"/newsDownloadedData_\" + fileDateLine + \".json\";\n\n      console.log(\"workNewsDataPath: \" + workNewsDataPath);\n\n      newsData[fileDateLine] = JSON.parse(fs.readFileSync(workNewsDataPath, 'utf8').trim());\n   }\n\n   var data = JSON.stringify(newsData);\n   res.send(data);\n\n});",
           "id": "indx1_1959c0",
           "x": 65261,
-          "y": 20752,
+          "y": 20914,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -43034,7 +43034,7 @@ var schemeData =
           "label": "function getDownloadedNewsData(resolve) {\n\n   url = \"http://localhost:1337/getSavedNewsData\";\n\n   fetch(url)\n       .then(function(response){return response.json();})\n       .then(function(response) {\n          console.log(\"getDownloadedNewsData(newsDataFilePath). url: \" + url);\n\n          //console.log(\"fetch response: \" + response);\n          //var data = JSON.stringify(\"Error\");\n\n          //var label = JSON.stringify(data, undefined, 1);\n          //var label = response;\n          //var screenCenterPosition = network.canvas.DOMtoCanvas({x:canvasWidth/2,y:canvasHeight/2})\n          //network.body.data.nodes.add([{\n          //   label:label,\n          //   x:screenCenterPosition.x,\n          //   y:screenCenterPosition.y\n          //}]);\n          resolve(response);\n\n          return response;\n       })\n       .catch(function(error){\n          console.log(\"Error -> getDownloadedNewsData(newsDataFilePath). url: \" + url);\n          console.log(error);\n       });\n}",
           "id": "indx1_1903c0",
           "x": 42063,
-          "y": 122050,
+          "y": 125322,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -43071,7 +43071,7 @@ var schemeData =
           "label": "getDownloadedNewsData(newsDataFilePath)",
           "id": "indx1_1904c0",
           "x": 45704,
-          "y": 122019,
+          "y": 125291,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -43108,7 +43108,7 @@ var schemeData =
           "label": "app.get(\"/getSavedNewsData\". query.newsDataFilePath",
           "id": "indx1_1960c0",
           "x": 67352,
-          "y": 20575,
+          "y": 20737,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -43145,7 +43145,7 @@ var schemeData =
           "label": "Get news data from file system to add then to page",
           "id": "indx1_1961c0",
           "x": 66890,
-          "y": 20624,
+          "y": 20786,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -43182,7 +43182,7 @@ var schemeData =
           "label": "Get Saved News Data",
           "id": "indx1_2072c0",
           "x": 68705,
-          "y": 20847,
+          "y": 21009,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -44487,7 +44487,7 @@ var schemeData =
           "label": "function addBranchToEachSelectedNode(newNodeLabel, stepYFromSelectedNodesRightSide) {\n\n   var selectedNodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n   console.log(\"selectedNodes.length: \" + String(selectedNodes.length));\n  \n   if (selectedNodes.length == 0) {\n      console.log(\"No nodes selected.\");\n      return;\n   }\n\n   var nodesPositions = network.getPositions();\n\n   var updatedNodes = [];\n\n   for (var i in selectedNodes) {\n\n      var nodeId = selectedNodes[i].id;\n   \n      var nodeD = getNodeFromNetworkDataById(nodeId);\n      pNode = nodesPositions[nodeId];\n      nodeD.x = pNode.x;\n      nodeD.y = pNode.y;\n      network.body.data.nodes.update(nodeD);\n\n   }\n\n   var selectedNodesMaxRightSide = selectedNodes[0].x + (selectedNodes[0].x - selectedNodes[0].shape.left);\n\n   for (var i in selectedNodes) {\n      var selectedNodeRightSide = selectedNodes[i].x + (selectedNodes[i].x - selectedNodes[i].shape.left);\n      if (selectedNodeRightSide > selectedNodesMaxRightSide) {\n         selectedNodesMaxRightSide = selectedNodeRightSide;\n      }\n   }\n\n   var date = new Date();\n   var idPostfix = date.getMilliseconds().toString().substring(-7).toString();\n\n   for (var i in selectedNodes) {\n\n      var rootNodeId = selectedNodes[i].id;\n\n      var addedNodeId = network.body.data.nodes.add({\n         id: rootNodeId + \"k\" + idPostfix + String(i),\n         label: newNodeLabel,\n         x: selectedNodesMaxRightSide + stepYFromSelectedNodesRightSide,\n         y: selectedNodes[i].y \n      })[0];\n\n      network.body.data.edges.add({\n         from:rootNodeId,\n         to:addedNodeId\n      });\n\n   }\n}",
           "id": "indx1_1903c099",
           "x": 42067,
-          "y": 122816,
+          "y": 126088,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -44524,7 +44524,7 @@ var schemeData =
           "label": "addBranchToEachSelectedNode(newNodeLabel, stepYFromSelectedNodesRightSide)",
           "id": "indx1_6940",
           "x": 46609,
-          "y": 122780,
+          "y": 126052,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -44608,122 +44608,11 @@ var schemeData =
           "label": "app.get(\"/test\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n\n   var data = JSON.stringify(\"Test done.\");\n   console.log(\"Test done.\");\n   res.send(data);\n\n});",
           "id": "indx1_1959743",
           "x": 65015,
-          "y": 24333,
+          "y": 26044,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
           "oldId": "indx1_1009"
-        },
-        "indx1_2069883": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 50,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "app.get(\"/test\". query.fileName",
-          "id": "indx1_2069883",
-          "x": 67070,
-          "y": 24130,
-          "shape": "box",
-          "link": "",
-          "borderWidth": "0",
-          "oldId": "indx1_1992"
-        },
-        "indx1_2070883": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 14,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "just test server running",
-          "id": "indx1_2070883",
-          "x": 66803,
-          "y": 24176,
-          "shape": "box",
-          "link": "",
-          "borderWidth": "0",
-          "oldId": "indx1_1992"
-        },
-        "indx1_2071883": {
-          "color": {
-            "highlight": {},
-            "hover": {},
-            "background": "#ffd570",
-            "border": ""
-          },
-          "fixed": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {},
-            "size": 400,
-            "align": "left"
-          },
-          "icon": {},
-          "imagePadding": {},
-          "margin": {},
-          "scaling": {
-            "label": {
-              "enabled": false
-            }
-          },
-          "shadow": {
-            "enabled": false
-          },
-          "shapeProperties": {},
-          "label": "Test",
-          "id": "indx1_2071883",
-          "x": 67097,
-          "y": 24409,
-          "shape": "box",
-          "link": "",
-          "borderWidth": "0",
-          "oldId": "indx1_1992"
         },
         "indx1_661413": {
           "color": {
@@ -44827,7 +44716,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"div#network\").keydown(function (event) {\n      //Align nodes top. shift+alt+TopArrow\n      if (event.shiftKey && event.altKey && event.keyCode === 38) {\n         var nodes = objectToArray(network.selectionHandler.selectionObj.nodes);\n\n        var maxTop;\n        var nodesPositions = network.getPositions();\n        for (var i in nodes) {\n                var nodeD = getNodeFromNetworkDataById(nodes[i].id);\n                var pNode = nodesPositions[nodes[i].id];\n                nodeD.x = pNode.x;\n                nodeD.y = pNode.y;\n                network.body.data.nodes.update(nodeD);\n        }\n\n        for (i = 0; i < nodes.length; i++) {\n                if (i == 0) maxTop = nodes[i].shape.top;\n                if (maxTop > nodes[i].shape.top) {\n                        maxTop = nodes[i].shape.top;\n                };\n        }\n\n        for (i = 0; i < nodes.length; i++) {\n                var topDiff = nodes[i].shape.top - parseFloat(maxTop.toFixed(5));\n                network.body.nodes[nodes[i].id].y = nodes[i].y - topDiff;\n        }\n\n      }\n   });",
           "x": 42091,
-          "y": 101190,
+          "y": 104462,
           "id": "indx1_56884",
           "shape": "box",
           "link": "",
@@ -44862,7 +44751,7 @@ var schemeData =
           "label": "Align nodes top. shift+alt+TopArrow",
           "id": "indx1_1238562",
           "x": 45041,
-          "y": 101188,
+          "y": 104460,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -44897,7 +44786,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keydown(function (event) {\n      //Search nodes. ctrl+alt+f.\n      if (event.ctrlKey == true && \n          event.altKey == true &&\n          event.shiftKey == false &&\n          event.keyCode === 70) {\n\n         if ($(\"div#searchMenu\").length != 0) {\n            $(\"div#runSearchMenu span\").click();\n         }\n\n         if ($(\"div#searchMenu\").length == 0) {\n            console.log(\"show search menu\");\n            var searchMenu = $(\"<div id='searchMenu'></div>\");\n\n            var closeSearchMenu = $(\"<div id='closeSearchMenu'><span>close</span></div>\");\n            closeSearchMenu.css(\"margin\",\"20px\");\n            closeSearchMenu.css(\"position\",\"absolute\");\n            closeSearchMenu.css(\"bottom\",\"0\");\n            closeSearchMenu.css(\"left\",\"0\");\n            closeSearchMenu.find(\"span\").css(\"cursor\",\"pointer\");\n            searchMenu.append(closeSearchMenu);\n            closeSearchMenu.find(\"span\").click(function() {\n               $(\"div#searchMenu\").remove();\n               $(\"div#closeSearchMenu\").remove();\n            });\n\n            var runSearchMenu = $(\"<div id='runSearchMenu'><span>search</span></div>\");\n            runSearchMenu.css(\"margin\",\"20px\");\n            runSearchMenu.css(\"position\",\"absolute\");\n            runSearchMenu.css(\"bottom\",\"0\");\n            runSearchMenu.css(\"right\",\"0\");\n            runSearchMenu.find(\"span\").css(\"cursor\",\"pointer\");\n            searchMenu.append(runSearchMenu);\n            runSearchMenu.find(\"span\").click(function() {\n               var inputLine = $(\"input#inputLineSearchMenu\").val();\n               console.log(\"inputLine: \" + inputLine);\n               var regexCheckboxChecked = $(\"input#regexCheckboxSearchMenu\").is(\":checked\");\n               console.log(\"regexCheckboxChecked: \" + String(regexCheckboxChecked));\n\n\n\n\n         var regExp = null;\n         var jumpNavigationDataLabel = null;\n         var selectedNodeLabel = inputLine.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n         if (jumpNavigationData != null) {\n             jumpNavigationDataLabel = jumpNavigationData.label.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n         }\n         if (jumpNavigationData != null &&\n             regexCheckboxChecked && \n             typeof jumpNavigationData.label !== \"undefined\" && \n             jumpNavigationData.label.length > 0) {\n\n             regExp = new RegExp(jumpNavigationData.label, \"gi\");\n         }\n\n   if (jumpNavigationData == null && inputLine == \"\") {\n      showAlert(\"Insert search line\", 60, 190);\n      return;\n   }\n         \n   //If node is selected and there were no jumps before or there is different label on selected node.\n   if ((inputLine != \"\") && \n         (jumpNavigationData == null || \n         (regExp != null && selectedNodeLabel.match(regExp) == null) ||\n         (regExp == null && jumpNavigationDataLabel != selectedNodeLabel) )) {\n\n      var nodes = network.body.data.nodes.get();\n\n      var foundNodes = [];\n\n      var scale = network.getScale();\n      var viewPosition = network.getViewPosition();\n      var n1X = parseFloat(viewPosition.x.toFixed(5));\n      var n1Y = parseFloat(viewPosition.y.toFixed(5));\n      var positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n      var positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\n      //foundNodes.push({x: positionX, y: positionY});\n      foundNodes.push({x: viewPosition.x, y: viewPosition.y});\n\n      var regExp = null;\n      if (inputLine != \"\" &&\n          regexCheckboxChecked) {\n\n          regExp = new RegExp(inputLine, \"gi\");\n      }\n\n      var preparedSearchLine = inputLine.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n\n      nodes.forEach(function(node) {\n         var nodeLabel = node.label;\n         nodeLabel = nodeLabel.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n\n         if (regExp != null && nodeLabel.match(regExp) != null) {\n            foundNodes.push(node);\n         }\n         if (regExp == null && nodeLabel == preparedSearchLine) {\n            foundNodes.push(node);\n         }\n      });\n      \n      if (foundNodes.length == 1) {\n         showAlert(\"No nodes found\", 60, 190);\n         return;\n      }\n\n      var nodesPositions = network.getPositions();\n\n      foundNodes.forEach(function(node) {\n         if (typeof node.id === \"undefined\") return;\n         var nodeD = getNodeFromNetworkDataById(node.id);\n         pNode = nodesPositions[node.id];\n         nodeD.x = pNode.x;\n         nodeD.y = pNode.y;\n         network.body.data.nodes.update(nodeD);\n      });\n\n      jumpNavigationData = {\n         label: inputLine,\n         foundNodes: foundNodes,\n         lastJumpNodeNumber: 0\n      };\n      var jumpNumber = 1;\n\n      $(\"#alertLine\").remove();\n      showAlert(\"Nodes found: \" + String(jumpNumber) + \"/\" + String(jumpNavigationData.foundNodes.length - 1), 40, 190);\n\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   } else {\n      var jumpNumber = null;\n      if (jumpNavigationData.lastJumpNodeNumber == jumpNavigationData.foundNodes.length - 1) {\n         jumpNumber = 0;\n      } else {\n         jumpNumber = jumpNavigationData.lastJumpNodeNumber + 1;\n      }\n\n      $(\"#alertLine\").remove();\n      showAlert(\"Nodes found: \" + String(jumpNumber) + \"/\" + String(jumpNavigationData.foundNodes.length - 1), 40, 190);\n\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   }\n\n\n\n\n\n\n            });\n\n\n\n\n\n            var runBackwardsSearchMenu = $(\"<div id='runBackwardsSearchMenu'><span>backwards</span></div>\");\n            runBackwardsSearchMenu.css(\"margin\",\"20px\");\n            runBackwardsSearchMenu.css(\"position\",\"absolute\");\n            runBackwardsSearchMenu.css(\"bottom\",\"0\");\n            runBackwardsSearchMenu.css(\"right\",\"70px\");\n            runBackwardsSearchMenu.find(\"span\").css(\"cursor\",\"pointer\");\n            searchMenu.append(runBackwardsSearchMenu);\n            runBackwardsSearchMenu.find(\"span\").click(function() {\n               var inputLine = $(\"input#inputLineSearchMenu\").val();\n               console.log(\"inputLine: \" + inputLine);\n               var regexCheckboxChecked = $(\"input#regexCheckboxSearchMenu\").is(\":checked\");\n               console.log(\"regexCheckboxChecked: \" + String(regexCheckboxChecked));\n\n\n\n\n         var regExp = null;\n         var jumpNavigationDataLabel = null;\n         var selectedNodeLabel = inputLine.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n         if (jumpNavigationData != null) {\n             jumpNavigationDataLabel = jumpNavigationData.label.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n         }\n         if (jumpNavigationData != null &&\n             regexCheckboxChecked && \n             typeof jumpNavigationData.label !== \"undefined\" && \n             jumpNavigationData.label.length > 0) {\n\n             regExp = new RegExp(jumpNavigationData.label, \"gi\");\n         }\n\n   if (jumpNavigationData == null && inputLine == \"\") {\n      showAlert(\"Insert search line\", 60, 190);\n      return;\n   }\n         \n   //If node is selected and there were no jumps before or there is different label on selected node.\n   if ((inputLine != \"\") && \n         (jumpNavigationData == null || \n         (regExp != null && selectedNodeLabel.match(regExp) == null) ||\n         (regExp == null && jumpNavigationDataLabel != selectedNodeLabel) )) {\n\n      var nodes = network.body.data.nodes.get();\n\n      var foundNodes = [];\n\n      var scale = network.getScale();\n      var viewPosition = network.getViewPosition();\n      var n1X = parseFloat(viewPosition.x.toFixed(5));\n      var n1Y = parseFloat(viewPosition.y.toFixed(5));\n      var positionX = parseFloat((n1X - canvasWidth/(2*scale)).toFixed(5));\n      var positionY = parseFloat((n1Y - canvasHeight/(2*scale)).toFixed(5));\n\n      //foundNodes.push({x: positionX, y: positionY});\n      foundNodes.push({x: viewPosition.x, y: viewPosition.y});\n\n      var regExp = null;\n      if (inputLine != \"\" &&\n          regexCheckboxChecked) {\n\n          regExp = new RegExp(inputLine, \"gi\");\n      }\n\n      var preparedSearchLine = inputLine.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n\n      nodes.forEach(function(node) {\n         var nodeLabel = node.label;\n         nodeLabel = nodeLabel.replace(/\\n+/g,\" \").replace(/\\s+/g,\" \").toLowerCase();\n\n         if (regExp != null && nodeLabel.match(regExp) != null) {\n            foundNodes.push(node);\n         }\n         if (regExp == null && nodeLabel == preparedSearchLine) {\n            foundNodes.push(node);\n         }\n      });\n      \n      if (foundNodes.length == 1) {\n         showAlert(\"No nodes found\", 60, 190);\n         return;\n      }\n\n      var nodesPositions = network.getPositions();\n\n      foundNodes.forEach(function(node) {\n         if (typeof node.id === \"undefined\") return;\n         var nodeD = getNodeFromNetworkDataById(node.id);\n         pNode = nodesPositions[node.id];\n         nodeD.x = pNode.x;\n         nodeD.y = pNode.y;\n         network.body.data.nodes.update(nodeD);\n      });\n\n      jumpNavigationData = {\n         label: inputLine,\n         foundNodes: foundNodes,\n         lastJumpNodeNumber: 0\n      };\n      var jumpNumber = jumpNavigationData.foundNodes.length - 1;\n\n      $(\"#alertLine\").remove();\n      showAlert(\"Nodes found: \" + String(jumpNumber) + \"/\" + String(jumpNavigationData.foundNodes.length - 1), 40, 190);\n\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   } else {\n      var jumpNumber = null;\n      if (jumpNavigationData.lastJumpNodeNumber == 0) {\n         jumpNumber = jumpNavigationData.foundNodes.length - 1;\n      } else {\n         jumpNumber = jumpNavigationData.lastJumpNodeNumber - 1;\n      }\n\n      $(\"#alertLine\").remove();\n      showAlert(\"Nodes found: \" + String(jumpNumber) + \"/\" + String(jumpNavigationData.foundNodes.length - 1), 40, 190);\n\n      moveViewTo(\n         jumpNavigationData.foundNodes[jumpNumber].x,\n         jumpNavigationData.foundNodes[jumpNumber].y, \n         network.getScale()\n      );\n      jumpNavigationData.lastJumpNodeNumber = jumpNumber;\n   }\n\n\n\n\n\n\n            });\n\n\n\n\n            var inputLineSearchMenu = $(\"<input id='inputLineSearchMenu' type='text'>\");\n            inputLineSearchMenu.css(\"border\",\"1px solid #a3a3a3\");\n            inputLineSearchMenu.css(\"background\",\"white\");\n            inputLineSearchMenu.css(\"font\",\"10pt sans\");\n            inputLineSearchMenu.css(\"margin\",\"20px\");\n            inputLineSearchMenu.css(\"position\",\"absolute\");\n            inputLineSearchMenu.css(\"top\",\"0\");\n            inputLineSearchMenu.css(\"left\",\"0\");\n            inputLineSearchMenu.css(\"width\",\"258px\");\n            searchMenu.append(inputLineSearchMenu);\n\n            var regexCheckboxSearchMenu = $(\"<input id='regexCheckboxSearchMenu' type='checkbox'>\");\n            var regexCheckboxRowSearchMenu = $(\"<div id='regexCheckboxRowSearchMenu'><span>regex</span></div>\");\n            regexCheckboxRowSearchMenu.prepend(regexCheckboxSearchMenu);\n            regexCheckboxSearchMenu.css(\"border\",\"1px solid #a3a3a3\");\n            regexCheckboxSearchMenu.css(\"background\",\"white\");\n            regexCheckboxSearchMenu.find(\"span\").css(\"margin-left\",\"10px\");\n            regexCheckboxRowSearchMenu.css(\"margin\",\"60px 20px 20px 20px\");\n            regexCheckboxRowSearchMenu.css(\"position\",\"absolute\");\n            regexCheckboxRowSearchMenu.css(\"top\",\"0\");\n            regexCheckboxRowSearchMenu.css(\"left\",\"0\");\n            searchMenu.append(regexCheckboxRowSearchMenu);\n\n            var documentWidth = $(document).width();\n            var documentHeigth = $(document).height();\n            var documentCenter = documentWidth / 2;\n            var searchMenuLeft = documentCenter - 150;\n            var searchMenuLeftLine = String(searchMenuLeft) + \"px\";\n            searchMenu.css(\"width\", \"300px\");\n            searchMenu.css(\"height\", \"150px\");\n            searchMenu.css(\"position\", \"fixed\");\n            searchMenu.css(\"bottom\", \"0\");\n            searchMenu.css(\"left\", searchMenuLeftLine);\n            searchMenu.css(\"border-top\", \"1px solid #a3a3a3\");\n            searchMenu.css(\"border-left\", \"1px solid #a3a3a3\");\n            searchMenu.css(\"border-right\", \"1px solid #a3a3a3\");\n            searchMenu.css(\"border-bottom\", \"0\");\n            searchMenu.css(\"background\", \"white\");\n            searchMenu.css(\"z-index\", \"9999\");\n\n            $(\"body\").append(searchMenu);\n            \n            $(\"input#inputLineSearchMenu\").focus();\n         }\n\n      }\n   });",
           "x": 42203,
-          "y": 108041,
+          "y": 111313,
           "id": "indx1_222541",
           "shape": "box",
           "link": "",
@@ -44932,7 +44821,7 @@ var schemeData =
           "label": "Search nodes. ctrl+alt+f",
           "id": "indx1_1249541",
           "x": 44771,
-          "y": 108008,
+          "y": 111280,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -44967,7 +44856,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keydown(function (event) {\n      //Close search menu. Esc\n      if (event.keyCode === 27 && $(\"div#searchMenu\").length != 0) {\n         console.log(\"close search menu\");\n         $(\"div#searchMenu\").remove();\n         $(\"div#closeSearchMenu\").remove();\n      }\n   });",
           "x": 42045,
-          "y": 104791,
+          "y": 108063,
           "id": "indx1_221746",
           "shape": "box",
           "link": "",
@@ -45002,7 +44891,7 @@ var schemeData =
           "label": "Close search menu. Esc",
           "id": "indx1_1248746",
           "x": 44791,
-          "y": 104770,
+          "y": 108042,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -45037,7 +44926,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "//TODO. Align nodes horizontal center. ???",
           "x": 41977,
-          "y": 101704,
+          "y": 104976,
           "id": "indx1_56884148",
           "shape": "box",
           "link": "",
@@ -45074,7 +44963,7 @@ var schemeData =
           "label": "TODO. Align nodes horizontal center. ???",
           "id": "indx1_6960",
           "x": 45511,
-          "y": 101702,
+          "y": 104974,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -45109,7 +44998,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keydown(function (event) {\n      //Run search when search line in focus. Enter\n\n      if ($(\"div#searchMenu\").length != 0 && \n          event.keyCode === 13 &&\n          $(\"input#inputLineSearchMenu\").is(\":focus\")) {\n         $(\"div#searchMenu div#runSearchMenu span\").click();\n      }\n   });\n",
           "x": 42008,
-          "y": 110954,
+          "y": 114226,
           "id": "indx1_563675",
           "shape": "box",
           "link": "",
@@ -45144,7 +45033,7 @@ var schemeData =
           "label": "Run search when search line in focus. Enter",
           "id": "indx1_1244675",
           "x": 45224,
-          "y": 110933,
+          "y": 114205,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -45179,7 +45068,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(document).keydown(function (event) {\n      //Search nodes. ctrl+alt+f.\n      if (event.ctrlKey == true && \n          event.altKey == true &&\n          event.shiftKey == false &&\n          event.keyCode === 66) {\n\n         $(\"div#searchMenu div#runBackwardsSearchMenu span\").click();\n      }\n   });\n",
           "x": 42042,
-          "y": 110704,
+          "y": 113976,
           "id": "indx2_7005",
           "shape": "box",
           "link": "",
@@ -45216,7 +45105,7 @@ var schemeData =
           "label": "Run search backwards. ctrl+alt+b",
           "id": "indx2_7006",
           "x": 44986,
-          "y": 110683,
+          "y": 113955,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -45371,7 +45260,7 @@ var schemeData =
           "label": "Build and run project. shft+alt+r",
           "id": "indx1_123452",
           "x": 44958,
-          "y": 97453,
+          "y": 100725,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -45406,7 +45295,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "   $(\"#network\").keyup(function (event) {\n      //Build and run project. shift+alt+r\n      if (event.altKey == true &&\n          event.shiftKey == true && \n          event.ctrlKey == false && \n          event.keyCode === 82) {\n         var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n         if (selectedNodes.length != 1) {\n            console.log(\"Select one node\");\n            showAlert(\"Select one node\", 80, 150);\n            return;\n         }\n         var rootNodeId = findTreeRootNodeId(selectedNodes[0].id);\n         var rootNode = getNodeFromNetworkDataById(rootNodeId);\n         var projectName = rootNode.label.replace(\"mvj code file for project name: \",\"\");\n         var buildProjectParentNode;\n         var buildProjectParentNodeName = \"buildProject code: \" + projectName;\n         var nodes = getNodesByRegexSearchInLabel(network, new RegExp(\"^\" + buildProjectParentNodeName + \"$\"));\n         if (nodes.length == 0) {\n            console.log(\"ERROR: no \" + buildProjectParentNodeName + \" node\");\n            return;\n         }\n         buildProjectParentNode = nodes[0];\n         var edges = network.body.nodes[buildProjectParentNode.id].edges;\n         var buildProjectCodeNode;\n         for (var key in edges) {\n            if (edges[key].fromId == buildProjectParentNode.id) {\n               buildProjectCodeNode = edges[key].to;\n            }\n         }\t\n         if (typeof buildProjectCodeNode === \"undefined\") {\n            console.log(\"ERROR: no buildProjectCodeNode\");\n            return;\n         }\n         var code = collectCodeNodesContent(buildProjectCodeNode.id);\n         var codeFunction = new Function('codeNodeId', 'runProject', 'selectedCodeNodeId', code);\n         codeFunction(buildProjectCodeNode.id, \"true\", selectedNodes[0].id);\n      }\n   });",
           "x": 42208,
-          "y": 97464,
+          "y": 100736,
           "id": "indx1_575227",
           "shape": "box",
           "link": "",
@@ -45415,7 +45304,7 @@ var schemeData =
         "indx2_7031": {
           "id": "indx2_7031",
           "x": 66100,
-          "y": 19867,
+          "y": 20029,
           "label": "require 'socksify'\nrequire 'open-uri'\n\nurl = ARGV[0]\np url\nSocksify::proxy(\"127.0.0.1\", some_socks_port) {\n   p open(url).read\n}\n",
           "shape": "box",
           "link": "",
@@ -45460,7 +45349,7 @@ var schemeData =
           "label": "function editNodesIds() {\n\n   var selectedNodes = objectToArray( network.selectionHandler.selectionObj.nodes);\n\n   var nodes = [];\n   selectedNodes.forEach(function(node) {\n      nodes.push(network.body.data.nodes.get(node.id));\n   });\n\n   var prefix = \"index-a_\";\n\n   var pageNodes = objectToArray(network.body.nodes)\n   var pageNodeIds = [];\n   for (var i in pageNodes) {\n      pageNodeIds.push(pageNodes[i].id);\n   }\n\n   var pageNodeIdsWithPrefix = [];\n   for (var i in pageNodeIds) {\n      if (pageNodeIds[i].lastIndexOf(prefix, 0) === 0) pageNodeIdsWithPrefix.push(pageNodeIds[i]);\n   }\n\n   var prefixedNodeIdsNumbersParts = [];\n   for (var i in pageNodeIdsWithPrefix) {\n      prefixedNodeIdsNumbersParts.push(parseInt(pageNodeIdsWithPrefix[i].replace(prefix,\"\"),10));\n   }\n   prefixedNodeIdsNumbersParts = prefixedNodeIdsNumbersParts.sort((a, b) => a - b);\n\n   var startingPrefixedNodeId = prefixedNodeIdsNumbersParts.slice(-1)[0];\n\n   if (typeof startingPrefixedNodeId === \"undefined\") {\n      startingPrefixedNodeId = 0;\n   } else {\n      startingPrefixedNodeId = parseInt(startingPrefixedNodeId, 10) + 1;\n   }\n\n   var nodeLabel = \"\";\n\n   nodeLabel += \"#!/usr/bin/ruby\\n\" +\n                \"#encoding: utf-8\\n\" +\n                \"require 'fileutils'\\n\\n\";\n\n   nodeLabel += \"def newIndex(index)\\n\" + \n               \"   prefix = \\\"\" + prefix + \"\\\"\\n\" + \n               \"   newIndex = prefix + index.to_s\\n\" + \n               \"   newIndex\\n\" +\n               \"end\\n\\n\";\n\n   nodeLabel += \"def backupFile(filePath)\\n\" + \n               \"   timeString = Time.new.strftime('%Y_%m_%d_%H_%M_%S')\\n\" + \n               \"   backupFilePath = filePath + '_' + timeString\\n\" + \n               \"   FileUtils.cp(filePath, backupFilePath)\\n\" + \n               \"end\\n\\n\";\n\n   var filePath = window.location.href.replace(\"file://\",\"\").replace(\"html\",\"\") + \"data.js\";\n\n   nodeLabel += \"filePath = '\" + filePath + \"'\\n\\n\";\n\n   nodeLabel += \"backupFile(filePath)\\n\\n\";\n\n   function compare( a, b ) {\n      if ( a.y < b.y ){\n         return -1;\n      }\n      if ( a.y > b.y ){\n         return 1;\n      }\n      return 0;\n   }\n\n   nodes.sort(compare);\n\n   for (var i in nodes) {\n      console.log(String(i) + \", \" + String(nodes.length - 1));\n      var n = nodes[i];\n      var newIndex = String(Number(i) + Number(startingPrefixedNodeId));\n      var regexLine = \"s/\\\\\\\"\" + String(n.id) + \"\\\\\\\"/\\\\\\\"\" + \"#{newIndex(\" + newIndex + \")}\" + \"\\\\\\\"/g\";\n      var sedCommandLine = \"sed -i '\" + regexLine + \"' #{filePath}\" ;\n      var nodeLine = \"p '\" + String(i) + \". \" + String(nodes.length - 1) + \". ' + filePath\\n\";\n      nodeLine += \"system(\\\"\" + sedCommandLine + \"\\\")\";\n      nodeLine += \" #\" + String(i) + \". \" + n.label.replace(/\\n/g,\" \").substring(0, 30) + \"\\n\";\n      console.log(nodeLine);\n      nodeLabel += nodeLine;\n   }\n\n   var editNodeIdCodeNodeOptions = {\n      id: create_UUID(),\n      label: nodeLabel,\n      x: 0,\n      y: 0\n   };\n   \n   nodesToPaste.push(editNodeIdCodeNodeOptions);\n\n}",
           "id": "indx2_7058",
           "x": 42030,
-          "y": 123903,
+          "y": 127234,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -45497,7 +45386,7 @@ var schemeData =
           "label": "editNodesIds()",
           "id": "indx2_7059",
           "x": 45010,
-          "y": 123880,
+          "y": 127152,
           "shape": "box",
           "link": "",
           "borderWidth": "0",
@@ -45533,7 +45422,7 @@ var schemeData =
           "label": "mvj code file for project name: mm-vis-js",
           "id": "indx1_598586",
           "x": 65580,
-          "y": 51061,
+          "y": 54248,
           "shape": "box",
           "link": "",
           "borderWidth": ""
@@ -45569,7 +45458,7 @@ var schemeData =
           "label": "file path: ./app/music2.html",
           "id": "indx1_599586",
           "x": 66605,
-          "y": 51054,
+          "y": 54241,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -45601,7 +45490,7 @@ var schemeData =
           "label": "fileContent",
           "id": "indx1_600586",
           "x": 67124,
-          "y": 51040
+          "y": 54227
         },
         "indx1_601586": {
           "color": {
@@ -45634,7 +45523,7 @@ var schemeData =
           "label": "mm-vis-js:\n./app/music2.html",
           "id": "indx1_601586",
           "x": 73109,
-          "y": 51738,
+          "y": 54925,
           "shape": "box",
           "link": "",
           "borderWidth": "0"
@@ -45669,7 +45558,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<!doctype html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n<title>Music2 &mdash; mm-vis-js</title>\n\n<link href=\"https://visjs.github.io/vis-network/dist/vis-network.min.css\" rel=\"stylesheet\" type=\"text/css\" />",
           "x": 67694,
-          "y": 50982,
+          "y": 54169,
           "id": "indx1_602586",
           "shape": "box",
           "link": "",
@@ -45704,7 +45593,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<style type=\"text/css\">\nhead {\n\theight: 100%;\n\twidth: 100%;\n}\nbody {\n\theight: 100%;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}\nbody, select {\n\tfont: 10pt sans;\n}\n/*\nwidth: 1200px;\nheight: 800px;\n*/\ndiv#network {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 10;\n}\ndiv#forImage {\n\tposition:relative;\n\twidth: 100%;\n\theight: 100%;\n\tborder: 0;\n\tz-index: 0;\n}",
           "x": 68099,
-          "y": 51304,
+          "y": 54491,
           "id": "indx1_603586",
           "shape": "box",
           "link": "",
@@ -45739,7 +45628,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "div#network div.vis-network div.vis-manipulation {\n\theight: 20px;\n\tbackground: none;\n}\ndiv.vis-network div.vis-manipulation div.vis-button.vis-add, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-connect, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-edit, \ndiv.vis-network div.vis-manipulation div.vis-button.vis-delete, \ndiv.vis-network div.vis-edit-mode div.vis-button.vis-edit {\n\tbackground-image: none !important;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-button {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: sans-serif;\n\tborder-radius: 0;\t\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-button:hover {\n\tbox-shadow: none;\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-button, \ndiv#network div.vis-network div.vis-edit-mode div.vis-edit {\n/*\n\tbox-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);\n*/\n}\ndiv#network div.vis-network div.vis-edit-mode div.vis-edit div.vis-label{\n}\ndiv#network div.vis-network div.vis-manipulation div.vis-label {\n\tpadding: 15px;\n\tmargin: -5px -1px 3px 0;\n\tline-height: 0;\n\tbackground-color: white;\n\tborder-bottom: 1px solid #a3a3a3;\n\tborder-right: 1px solid #a3a3a3;\n}",
           "x": 68271,
-          "y": 51834,
+          "y": 55021,
           "id": "indx1_604586",
           "shape": "box",
           "link": "",
@@ -45774,7 +45663,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "table.legend_table {\n\tfont-size: 11px;\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n}\ntable.legend_table,td {\n\tborder-width:1px;\n\tborder-color:#d3d3d3;\n\tborder-style:solid;\n\tpadding: 2px;\n}\ndiv.table_content {\n\twidth:80px;\n\ttext-align:center;\n}\ndiv.table_description {\n\twidth:100px;\n}\n\n#operation {\n\tfont-size:28px;\n}\n#network-popUp {\n\tdisplay:none;\n\tposition:absolute;\n\ttop:50%;\n\tleft:50%;\n\tz-index:299;\n\twidth:280px;\n\theight:200px;\n\tbackground-color: #f9f9f9;\n\tborder-style:solid;\n\tborder-width:3px;\n\tborder-color: #5394ed;\n\tpadding:10px;\n\ttext-align: center;\n}\n#edge-popUp {\n      display:none;\n      position:absolute;\n      top:350px;\n      left:170px;\n      z-index:299;\n      width:250px;\n      height:90px;\n      background-color: #f9f9f9;\n      border-style:solid;\n      border-width:3px;\n      border-color: #5394ed;\n      padding:10px;\n      text-align: center;\n    }\n</style>",
           "x": 68123,
-          "y": 52534,
+          "y": 55721,
           "id": "indx1_605586",
           "shape": "box",
           "link": "",
@@ -45810,7 +45699,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.012, x: 104807, y: 18023};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"music2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "x": 68391,
-          "y": 53281,
+          "y": 56468,
           "id": "indx1_606586",
           "shape": "box",
           "link": "",
@@ -47513,7 +47402,7 @@ var schemeData =
             "enabled": false
           },
           "shapeProperties": {},
-          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.015, x: 113036, y: 6016};\"\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"youtube2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
+          "label": "<script type=\"text/javascript\">\nvar runUpateMenuFromSchemeAtPageReady = true;\nvar birdView = {scale: 0.032, x: 94513, y: -3664};\n</script>\n\n</head>\n\n<div id=\"network-popUp\">\n\t<span id=\"operation\">node</span> <br>\n\t<table style=\"margin:auto;\"><tr>\n\t\t\t<td>id</td><td><input id=\"node-id\" value=\"new value\" /></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>label</td><td><textarea id=\"node-label\" cols='25' rows='6' value=\"new value\" /></textarea>\n\t</tr></table>\n\t<input type=\"button\" value=\"save\" id=\"saveButton\" />\n\t<input type=\"button\" value=\"cancel\" id=\"cancelButton\" />\n</div>\n<div id=\"edge-popUp\">\n  <span id=\"edge-operation\">edge</span> <br>\n  <table style=\"margin:auto;\">\n    <tr>\n      <td>label</td><td><input id=\"edge-label\" value=\"new value\" /></td>\n    </tr></table>\n  <input type=\"button\" value=\"save\" id=\"edge-saveButton\" />\n  <input type=\"button\" value=\"cancel\" id=\"edge-cancelButton\" />\n</div>\n<!--\n<script type=\"text/javascript\" src=\"https://visjs.github.io/vis-network/dist/vis-network.min.js\"></script>\n-->\n<div id=\"forImage\" style=\"position:fixed;left:0;top:0;\"></div>\n<div id=\"network\" style=\"position:fixed;left:0;top:0;\"></div>\n\n<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/rdflib@1.0.6/dist/rdflib.min.js\"></script>\n<script type=\"text/javascript\" src=\"https://unpkg.com/vis-network@6.3.1/standalone/umd/vis-network.min.js\"></script>\n<script type=\"text/javascript\" src=\"youtube2.data.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n<script type=\"text/javascript\" src=\"application.js?generateCode1 return setup[\"jsFilesLinksParam\"]; generateCode2\"></script>\n\n</body>\n</html>",
           "id": "indx1_2009190",
           "x": 107189,
           "y": 28174,
@@ -50303,6 +50192,465 @@ var schemeData =
           "y": -16063,
           "shape": "box",
           "link": "lisp.html",
+          "borderWidth": "0"
+        },
+        "indx2_7390": {
+          "id": "indx2_7390",
+          "x": 41069,
+          "y": 7055,
+          "label": "   function getNextNumberForPrefixedNodeId(prefix) {\n      var pageNodes = objectToArray(network.body.nodes)\n      var pageNodeIds = [];\n      for (var i in pageNodes) {\n         pageNodeIds.push(pageNodes[i].id);\n      }\n\n      var pageNodeIdsWithPrefix = [];\n      for (var i in pageNodeIds) {\n         if (pageNodeIds[i].lastIndexOf(prefix, 0) === 0) pageNodeIdsWithPrefix.push(pageNodeIds[i]);\n      }\n\n      var prefixedNodeIdsNumbersParts = [];\n      for (var i in pageNodeIdsWithPrefix) {\n         prefixedNodeIdsNumbersParts.push(parseInt(pageNodeIdsWithPrefix[i].replace(prefix,\"\"),10));\n      }\n      prefixedNodeIdsNumbersParts = prefixedNodeIdsNumbersParts.sort((a, b) => a - b);\n\n      var startingPrefixedNodeId = prefixedNodeIdsNumbersParts.slice(-1)[0];\n\n      if (typeof startingPrefixedNodeId === \"undefined\") {\n         startingPrefixedNodeId = 0;\n      } else {\n         startingPrefixedNodeId = parseInt(startingPrefixedNodeId, 10) + 1;\n      }\n      return startingPrefixedNodeId\n   }"
+        },
+        "indx2_7391": {
+          "id": "indx2_7391",
+          "x": 44120,
+          "y": 7041,
+          "label": "getNextNumberForPrefixedNodeId(prefix)",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 100,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": "0"
+        },
+        "indx2_7392": {
+          "id": "indx2_7392",
+          "x": 43665,
+          "y": 58883,
+          "label": "To save data in browser local storage. Function not used now.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "",
+            "border": ""
+          },
+          "borderWidth": ""
+        },
+        "index-a_635": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "app.get(\"/showNews\", function(req, res){\n   res.set('Access-Control-Allow-Origin', '*');\n   var fileName = req.query.fileName;\n   var selectHours = req.query.selectHours;\n   var path = \"./newsDownloadedData/\" + fileName + \"/\" + fileName + \".json\"\n\n   var contents = fs.readFileSync(path, 'utf8');\n   var dataFileData = contents.trim();\n\n   data = JSON.parse(dataFileData);\n\n   var lines = \"\";\n   lines += \"<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\\n\";\n   for (var i in data.newsChannelsDataList) {\n      var channelData = data.newsChannelsDataList[i];\n      data.newsChannelsDataList[i].filteredNews = [];\n      for (var j in channelData.newNewsList) {\n         var news = channelData.newNewsList[j];\n         if (typeof news.pubDateCurrentLine !== \"undefined\") {\n            if (news.pubDateCurrentLine.match(/.*час.*/g) ||\n                news.pubDateCurrentLine.match(/.*день.*/g) ||\n                news.pubDateCurrentLine.match(/.*hour.*/g) ||\n                news.pubDateCurrentLine.match(/.*day.*/g)) {\n               data.newsChannelsDataList[i].filteredNews.push(news);\n            }\n         } else {\n            var startOfYesterday = moment().subtract(1, 'days').startOf('day');\n            if (startOfYesterday < moment(new Date(news.pubDate)) ||\n                news.link.match(/.*libgen.*/g) != null) {\n               data.newsChannelsDataList[i].filteredNews.push(news);\n            }\n         }\n      }\n   }\n   for (var i in data.newsChannelsDataList) {\n      var channelData = data.newsChannelsDataList[i];\n      if (channelData.filteredNews.length == 0) continue;\n      lines += \"<b><a href='\" + channelData.channelNode.link + \"'>\" + channelData.channelNode.label + \"</a></b><br>\\n\";\n      for (var j in channelData.filteredNews) {\n         var news = channelData.filteredNews[j];\n\n         if (typeof news.pubDateCurrentLine !== \"undefined\") {\n            var dateLine = news.pubDateCurrentLine;\n            if ((news.pubDateCurrentLine.match(/.*час.*/g) ||\n                news.pubDateCurrentLine.match(/.*hour.*/g)) && (\n                typeof selectHours !== \"undefined\" && selectHours != \"\")) {\n               var selectHours = parseInt(selectHours, 10);\n               var dateHour = dateLine.replace(/.*?(\\d+).*/g,\"$1\");\n               dateHour = parseInt(dateHour, 10);\n               if (dateHour < selectHours) dateLine = \"<b>\" + dateLine + \"</b>\";\n            }\n            lines += \"<a style='margin-left: 20px' href='\" + news.link + \"'>\" + news.title + \"</a> \" + dateLine + \"<br>\\n\";\n         } else {\n            lines += \"<a style='margin-left: 20px' href='\" + news.link + \"'>\" + news.title + \"</a> \" + news.pubDate + \"<br>\\n\";\n         }\n      }\n   }\n\n   lines += \"<script>\\n\";\n   lines += \"$(document).ready(function(){\\n\";\n   lines += \"   $('a').mousedown(function(event) {\\n\";\n   lines += \"      if (event.which == 3) console.log('right click');\\n\";\n   lines += \"   });\\n\";\n   lines += \"});\\n\";\n   lines += \"</script>\\n\";\n\n   //var data = JSON.stringify(lines);\n   console.log(\"showNews\");\n   res.send(lines);\n\n});",
+          "id": "index-a_635",
+          "x": 65259,
+          "y": 26799,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1009"
+        },
+        "index-a_636": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 400,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Test",
+          "id": "index-a_636",
+          "x": 67096,
+          "y": 26108,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1992"
+        },
+        "index-a_637": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570"
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "just test server running",
+          "id": "index-a_637",
+          "x": 66802,
+          "y": 25883,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1992"
+        },
+        "index-a_638": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "app.get(\"/test\"",
+          "id": "index-a_638",
+          "x": 66888,
+          "y": 25829,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1992"
+        },
+        "index-a_639": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 400,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Show News",
+          "id": "index-a_639",
+          "x": 67785,
+          "y": 26866,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1992"
+        },
+        "index-a_640": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Show list of news from new downloaded rss or youtube data",
+          "id": "index-a_640",
+          "x": 66920,
+          "y": 26641,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1992"
+        },
+        "index-a_641": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "app.get(\"/showNews. query.fileName",
+          "id": "index-a_641",
+          "x": 67141,
+          "y": 26587,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1992"
+        },
+        "indx5_2361": {
+          "id": "indx5_2361",
+          "x": 65186,
+          "y": 22027,
+          "label": "   function getNextNumberForPrefixedId(idsList, prefix) {\n\n      var pageNodeIdsWithPrefix = [];\n      for (var i in idsList) {\n         if (idsList[i].lastIndexOf(prefix, 0) === 0) pageNodeIdsWithPrefix.push(idsList[i]);\n      }\n\n      var prefixedNodeIdsNumbersParts = [];\n      for (var i in pageNodeIdsWithPrefix) {\n         prefixedNodeIdsNumbersParts.push(parseInt(pageNodeIdsWithPrefix[i].replace(prefix,\"\"),10));\n      }\n      prefixedNodeIdsNumbersParts = prefixedNodeIdsNumbersParts.sort((a, b) => a - b);\n\n      var startingPrefixedNodeId = prefixedNodeIdsNumbersParts.slice(-1)[0];\n\n      if (typeof startingPrefixedNodeId === \"undefined\") {\n         startingPrefixedNodeId = 0;\n      } else {\n         startingPrefixedNodeId = parseInt(startingPrefixedNodeId, 10) + 1;\n      }\n      return startingPrefixedNodeId\n   }",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": "0"
+        },
+        "index-a_645": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 50,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "getNextNumberForPrefixedId(idsList, prefix)",
+          "id": "index-a_645",
+          "x": 67221,
+          "y": 21846,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1920"
+        },
+        "index-a_646": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 14,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "Get new number for a row of nodeIds with specific prefix",
+          "id": "index-a_646",
+          "x": 66909,
+          "y": 21894,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_1939"
+        },
+        "index-a_647": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffd570",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 400,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "New prefixed nodeId",
+          "id": "index-a_647",
+          "x": 68563,
+          "y": 22151,
+          "shape": "box",
+          "link": "",
+          "borderWidth": "0",
+          "oldId": "indx1_2000"
+        },
+        "indx5_2365": {
+          "id": "indx5_2365",
+          "x": 65493,
+          "y": 23351,
+          "label": "Using dataCash",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
+          "borderWidth": "0"
+        },
+        "indx5_2366": {
+          "id": "indx5_2366",
+          "x": 65815,
+          "y": 22104,
+          "label": "TO FIX: Ids like \"a_1c\", \"a_1b\", \"a_1d\" will be all counted as \"1\", not as 3 different ids.",
+          "shape": "box",
+          "link": "",
+          "font": {
+            "size": 14,
+            "align": "left"
+          },
+          "color": {
+            "background": "#ffd570",
+            "border": ""
+          },
           "borderWidth": "0"
         }
       },
@@ -53817,32 +54165,6 @@ var schemeData =
           "id": "indx1_4252",
           "from": "indx1_260",
           "to": "indx1_269"
-        },
-        "indx1_4253": {
-          "arrows": {
-            "to": {},
-            "middle": {},
-            "from": {}
-          },
-          "color": {},
-          "font": {
-            "bold": {},
-            "boldital": {},
-            "ital": {},
-            "mono": {}
-          },
-          "scaling": {
-            "label": {
-              "enabled": true
-            }
-          },
-          "shadow": {},
-          "background": {},
-          "smooth": {},
-          "label": "code",
-          "id": "indx1_4253",
-          "from": "indx1_260",
-          "to": "indx1_270"
         },
         "indx1_4254": {
           "arrows": {
@@ -89478,21 +89800,6 @@ var schemeData =
           "from": "indx1_1992883",
           "to": "indx1_2071883"
         },
-        "indx1_9539": {
-          "from": "indx1_1959743",
-          "to": "indx1_2069883",
-          "id": "indx1_9539"
-        },
-        "indx1_9540": {
-          "from": "indx1_1959743",
-          "to": "indx1_2070883",
-          "id": "indx1_9540"
-        },
-        "indx1_9541": {
-          "from": "indx1_1959743",
-          "to": "indx1_2071883",
-          "id": "indx1_9541"
-        },
         "indx1_4627413": {
           "arrows": {
             "to": {
@@ -96640,6 +96947,773 @@ var schemeData =
           "from": "indx1_1652",
           "to": "indx2_7220",
           "id": "indx2_10001"
+        },
+        "indx1_6487121106": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "background": {
+            "enabled": false
+          },
+          "smooth": {
+            "enabled": false
+          },
+          "id": "indx1_6487121106",
+          "from": "indx2_7058106",
+          "to": "indx2_7059106"
+        },
+        "indx2_9701106": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {
+            "color": "rgb(0,0,0)",
+            "inherit": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "rgba(0,0,0,0.5)",
+            "size": 10,
+            "x": 5,
+            "y": 5
+          },
+          "background": {},
+          "smooth": {
+            "enabled": false,
+            "type": "dynamic",
+            "forceDirection": "none",
+            "roundness": 0
+          },
+          "label": "code",
+          "id": "indx2_9701106",
+          "from": "indx1_279106",
+          "to": "indx2_7058106",
+          "dashes": false
+        },
+        "indx2_10178": {
+          "from": "indx2_7390",
+          "to": "indx2_7391",
+          "id": "indx2_10178"
+        },
+        "indx2_10179": {
+          "from": "indx1_193",
+          "to": "indx2_7390",
+          "id": "indx2_10179",
+          "label": "code",
+          "color": {
+            "color": "rgb(0,0,0)"
+          },
+          "dashes": false,
+          "arrows": {
+            "from": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "to": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "rgba(0,0,0,0.5)",
+            "size": 10,
+            "x": 5,
+            "y": 5
+          },
+          "smooth": {
+            "enabled": false,
+            "type": "dynamic",
+            "forceDirection": "none",
+            "roundness": 0
+          }
+        },
+        "indx2_10180": {
+          "from": "indx1_270",
+          "to": "indx2_7392",
+          "id": "indx2_10180"
+        },
+        "indx1_9535352": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {
+            "color": "rgb(0,0,0)",
+            "inherit": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "rgba(0,0,0,0.5)",
+            "size": 10,
+            "x": 5,
+            "y": 5
+          },
+          "background": {},
+          "smooth": {
+            "enabled": false,
+            "type": "dynamic",
+            "forceDirection": "none",
+            "roundness": 0
+          },
+          "label": "code",
+          "id": "indx1_9535352",
+          "from": "indx1_181352",
+          "to": "indx1_1959743352",
+          "dashes": false
+        },
+        "indx1_9539352": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_9539352",
+          "from": "indx1_1959743352",
+          "to": "indx1_2069883352"
+        },
+        "indx1_9540352": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_9540352",
+          "from": "indx1_1959743352",
+          "to": "indx1_2070883352"
+        },
+        "indx1_9541352": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_9541352",
+          "from": "indx1_1959743352",
+          "to": "indx1_2071883352"
+        },
+        "indx1_9535916": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {
+            "color": "rgb(0,0,0)",
+            "inherit": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "rgba(0,0,0,0.5)",
+            "size": 10,
+            "x": 5,
+            "y": 5
+          },
+          "background": {},
+          "smooth": {
+            "enabled": false,
+            "type": "dynamic",
+            "forceDirection": "none",
+            "roundness": 0
+          },
+          "label": "code",
+          "id": "indx1_9535916",
+          "from": "indx1_181916",
+          "to": "indx1_1959743916",
+          "dashes": false
+        },
+        "indx1_9539916": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_9539916",
+          "from": "indx1_1959743916",
+          "to": "indx1_2069883916"
+        },
+        "indx1_9540916": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_9540916",
+          "from": "indx1_1959743916",
+          "to": "indx1_2070883916"
+        },
+        "indx1_9541916": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_9541916",
+          "from": "indx1_1959743916",
+          "to": "indx1_2071883916"
+        },
+        "indx2_10189": {
+          "from": "indx1_181",
+          "to": "index-a_635",
+          "id": "indx2_10189",
+          "label": "code",
+          "color": {
+            "color": "rgb(0,0,0)"
+          },
+          "dashes": false,
+          "arrows": {
+            "from": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "to": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "rgba(0,0,0,0.5)",
+            "size": 10,
+            "x": 5,
+            "y": 5
+          },
+          "smooth": {
+            "enabled": false,
+            "type": "dynamic",
+            "forceDirection": "none",
+            "roundness": 0
+          }
+        },
+        "indx1_9541864": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_9541864",
+          "from": "indx1_1959743864",
+          "to": "indx1_2071883864"
+        },
+        "indx1_9540816": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_9540816",
+          "from": "indx1_1959743816",
+          "to": "indx1_2070883816"
+        },
+        "indx1_9539759": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_9539759",
+          "from": "indx1_1959743759",
+          "to": "indx1_2069883759"
+        },
+        "indx2_10193": {
+          "from": "indx1_1959743",
+          "to": "index-a_636",
+          "id": "indx2_10193"
+        },
+        "indx2_10194": {
+          "from": "indx1_1959743",
+          "to": "index-a_637",
+          "id": "indx2_10194"
+        },
+        "indx2_10195": {
+          "from": "indx1_1959743",
+          "to": "index-a_638",
+          "id": "indx2_10195"
+        },
+        "indx2_10196": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx2_10196",
+          "from": "indx1_1959743155",
+          "to": "index-a_636155"
+        },
+        "indx2_10197": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx2_10197",
+          "from": "indx1_1959743155",
+          "to": "index-a_637155"
+        },
+        "indx2_10198": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx2_10198",
+          "from": "indx1_1959743155",
+          "to": "index-a_638155"
+        },
+        "indx2_10199": {
+          "from": "index-a_635",
+          "to": "index-a_639",
+          "id": "indx2_10199"
+        },
+        "indx2_10200": {
+          "from": "index-a_635",
+          "to": "index-a_640",
+          "id": "indx2_10200"
+        },
+        "indx2_10201": {
+          "from": "index-a_635",
+          "to": "index-a_641",
+          "id": "indx2_10201"
+        },
+        "indx2_10202": {
+          "arrows": {
+            "to": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "from": {
+              "enabled": false
+            }
+          },
+          "color": {
+            "color": "rgb(0,0,0)",
+            "inherit": false
+          },
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "rgba(0,0,0,0.5)",
+            "size": 10,
+            "x": 5,
+            "y": 5
+          },
+          "background": {},
+          "smooth": {
+            "enabled": false,
+            "type": "dynamic",
+            "forceDirection": "none",
+            "roundness": 0
+          },
+          "label": "code",
+          "id": "indx2_10202",
+          "from": "indx1_181305",
+          "to": "index-a_635305",
+          "dashes": false
+        },
+        "indx1_6289653": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6289653",
+          "from": "indx1_747653",
+          "to": "indx1_1936653"
+        },
+        "indx1_6325653": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6325653",
+          "from": "indx1_747653",
+          "to": "indx1_1944653"
+        },
+        "indx1_6372653": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx1_6372653",
+          "from": "indx1_747653",
+          "to": "indx1_2001653"
+        },
+        "indx5_5173": {
+          "from": "indx5_2361",
+          "to": "index-a_645",
+          "id": "indx5_5173"
+        },
+        "indx5_5174": {
+          "from": "indx5_2361",
+          "to": "index-a_646",
+          "id": "indx5_5174"
+        },
+        "indx5_5175": {
+          "from": "indx5_2361",
+          "to": "index-a_647",
+          "id": "indx5_5175"
+        },
+        "indx5_5176": {
+          "from": "indx1_181",
+          "to": "indx5_2361",
+          "id": "indx5_5176",
+          "label": "code",
+          "color": {
+            "color": "rgb(0,0,0)"
+          },
+          "dashes": false,
+          "arrows": {
+            "from": {
+              "enabled": false
+            },
+            "middle": {
+              "enabled": false
+            },
+            "to": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false,
+            "color": "rgba(0,0,0,0.5)",
+            "size": 10,
+            "x": 5,
+            "y": 5
+          },
+          "smooth": {
+            "enabled": false,
+            "type": "dynamic",
+            "forceDirection": "none",
+            "roundness": 0
+          }
+        },
+        "indx5_5177": {
+          "from": "indx1_1992",
+          "to": "indx5_2365",
+          "id": "indx5_5177"
+        },
+        "indx5_5178": {
+          "from": "indx5_2361",
+          "to": "indx5_2366",
+          "id": "indx5_5178"
         }
       },
       "length": 0,
@@ -96702,7 +97776,7 @@ var schemeData =
   "setup": {
     "scale": 0.01,
     "viewPosition": {
-      "x": 65673.00000000032,
+      "x": 65672.99999999996,
       "y": 17507.999999999993
     }
   }

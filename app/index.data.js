@@ -1677,7 +1677,7 @@ var schemeData =
         "indx1_222": {
           "label": "Main\nMenu",
           "x": 16004,
-          "y": 45245,
+          "y": 46994,
           "font": {
             "size": 72,
             "align": "left"
@@ -1694,25 +1694,25 @@ var schemeData =
         "indx1_223": {
           "label": "Development",
           "x": 16304,
-          "y": 45695,
+          "y": 47444,
           "id": "indx1_223"
         },
         "indx1_224": {
           "label": "12/20/2019",
           "x": 16437,
-          "y": 45695,
+          "y": 47444,
           "id": "indx1_224"
         },
         "indx1_225": {
           "label": "init",
           "x": 16554,
-          "y": 45695,
+          "y": 47444,
           "id": "indx1_225"
         },
         "indx1_226": {
           "label": "Notes",
           "x": 16281,
-          "y": 44845,
+          "y": 46594,
           "id": "indx1_226"
         },
         "indx1_227": {
@@ -1735,121 +1735,121 @@ var schemeData =
         "indx1_228": {
           "label": "Details, thoughts",
           "x": 16462,
-          "y": 44709,
+          "y": 46458,
           "id": "indx1_228"
         },
         "indx1_229": {
           "label": "Sections",
           "x": 16428,
-          "y": 45095,
+          "y": 46844,
           "id": "indx1_229"
         },
         "indx1_230": {
           "label": "Books",
           "x": 16518,
-          "y": 44945,
+          "y": 46694,
           "id": "indx1_230"
         },
         "indx1_231": {
           "label": "R&D institutions",
           "x": 16549,
-          "y": 44970,
+          "y": 46719,
           "id": "indx1_231"
         },
         "indx1_232": {
           "label": "Sites",
           "x": 16514,
-          "y": 44995,
+          "y": 46744,
           "id": "indx1_232"
         },
         "indx1_233": {
           "label": "Magazines",
           "x": 16533,
-          "y": 45020,
+          "y": 46769,
           "id": "indx1_233"
         },
         "indx1_234": {
           "label": "Articles",
           "x": 16522,
-          "y": 45045,
+          "y": 46794,
           "id": "indx1_234"
         },
         "indx1_235": {
           "label": "Media content",
           "x": 16544,
-          "y": 45070,
+          "y": 46819,
           "id": "indx1_235"
         },
         "indx1_236": {
           "label": "Misc. web links",
           "x": 16546,
-          "y": 45095,
+          "y": 46844,
           "id": "indx1_236"
         },
         "indx1_237": {
           "label": "Projects",
           "x": 16524,
-          "y": 45120,
+          "y": 46869,
           "id": "indx1_237"
         },
         "indx1_238": {
           "label": "Tools",
           "x": 16516,
-          "y": 45145,
+          "y": 46894,
           "id": "indx1_238"
         },
         "indx1_239": {
           "label": "Organizations",
           "x": 16543,
-          "y": 45170,
+          "y": 46919,
           "id": "indx1_239"
         },
         "indx1_240": {
           "label": "Standarts",
           "x": 16529,
-          "y": 45195,
+          "y": 46944,
           "id": "indx1_240"
         },
         "indx1_241": {
           "label": "Forums, Groups",
           "x": 16551,
-          "y": 45220,
+          "y": 46969,
           "id": "indx1_241"
         },
         "indx1_242": {
           "label": "Laws",
           "x": 16515,
-          "y": 45245,
+          "y": 46994,
           "id": "indx1_242"
         },
         "indx1_243": {
           "label": "Adjacent Themes",
           "x": 16554,
-          "y": 45270,
+          "y": 47019,
           "id": "indx1_243"
         },
         "indx1_244": {
           "label": "Questions",
           "x": 16294,
-          "y": 45395,
+          "y": 47144,
           "id": "indx1_244"
         },
         "indx1_245": {
           "label": "Problems",
           "x": 16292,
-          "y": 45495,
+          "y": 47244,
           "id": "indx1_245"
         },
         "indx1_246": {
           "label": "Goals",
           "x": 16281,
-          "y": 45595,
+          "y": 47344,
           "id": "indx1_246"
         },
         "indx1_247": {
           "id": "indx1_247",
           "x": 16799,
-          "y": 44556,
+          "y": 46305,
           "label": "This scheme contains links to mm-vis-js pages.",
           "shape": "box",
           "link": "",
@@ -1866,7 +1866,7 @@ var schemeData =
         "indx1_248": {
           "id": "indx1_248",
           "x": 16888,
-          "y": 44665,
+          "y": 46414,
           "label": "Links to mm-vis-js pages are the same as in \"mm-vis-js pages list\" scheme.",
           "shape": "box",
           "link": "",
@@ -1883,31 +1883,31 @@ var schemeData =
         "indx1_249": {
           "id": "indx1_249",
           "x": 17348,
-          "y": 44665,
+          "y": 46414,
           "label": "\"mm-vis-js pages list\" scheme is in top left of this page"
         },
         "indx1_250": {
           "id": "indx1_250",
           "x": 17421,
-          "y": 44699,
+          "y": 46448,
           "label": "\"mm-vis-js pages list\" scheme located on all mm-vis-js pages on their top left."
         },
         "indx1_251": {
           "id": "indx1_251",
           "x": 16765,
-          "y": 44593,
+          "y": 46342,
           "label": "This scheme is just for convenience."
         },
         "indx1_252": {
           "id": "indx1_252",
           "x": 16728,
-          "y": 44840,
+          "y": 46589,
           "label": "This page is \"index.html\""
         },
         "indx1_253": {
           "id": "indx1_253",
           "x": 16940,
-          "y": 44841,
+          "y": 46590,
           "label": "It purpose is to be \"main page\"",
           "shape": "box",
           "link": "",
@@ -1924,31 +1924,31 @@ var schemeData =
         "indx1_254": {
           "id": "indx1_254",
           "x": 16830,
-          "y": 44751,
+          "y": 46500,
           "label": "Each big node with page name contains link to this page."
         },
         "indx1_255": {
           "id": "indx1_255",
           "x": 17117,
-          "y": 44749,
+          "y": 46498,
           "label": "How to use this links?"
         },
         "indx1_256": {
           "id": "indx1_256",
           "x": 17277,
-          "y": 44748,
+          "y": 46497,
           "label": "1) Select big node"
         },
         "indx1_257": {
           "id": "indx1_257",
           "x": 17390,
-          "y": 44784,
+          "y": 46533,
           "label": "2) Click openLinkButton - blue button on the left menu"
         },
         "indx1_258": {
           "id": "indx1_258",
           "x": 17102,
-          "y": 44594,
+          "y": 46343,
           "label": "It is easy to select big nodes with pages links from bird view.",
           "shape": "box",
           "link": "",
@@ -5228,7 +5228,7 @@ var schemeData =
           "shapeProperties": {},
           "label": "lisp.html",
           "id": "indx1_219c29c3",
-          "x": 22489,
+          "x": 22485,
           "y": 42963,
           "shape": "box",
           "link": "lisp.html",
@@ -5269,6 +5269,43 @@ var schemeData =
           "y": -2937,
           "shape": "box",
           "link": "python.html",
+          "borderWidth": "",
+          "oldId": "indx1_219c29"
+        },
+        "index-a_0": {
+          "color": {
+            "highlight": {},
+            "hover": {},
+            "background": "#ffc63b",
+            "border": ""
+          },
+          "fixed": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {},
+            "size": 1000,
+            "align": "left"
+          },
+          "icon": {},
+          "imagePadding": {},
+          "margin": {},
+          "scaling": {
+            "label": {
+              "enabled": false
+            }
+          },
+          "shadow": {
+            "enabled": false
+          },
+          "shapeProperties": {},
+          "label": "lang.html",
+          "id": "index-a_0",
+          "x": 22680,
+          "y": 44758,
+          "shape": "box",
+          "link": "lang.html",
           "borderWidth": "",
           "oldId": "indx1_219c29"
         }
@@ -10779,6 +10816,36 @@ var schemeData =
           "from": "indx1_227",
           "to": "indx2_888",
           "id": "indx2_1243"
+        },
+        "indx2_1242274": {
+          "arrows": {
+            "to": {},
+            "middle": {},
+            "from": {}
+          },
+          "color": {},
+          "font": {
+            "bold": {},
+            "boldital": {},
+            "ital": {},
+            "mono": {}
+          },
+          "scaling": {
+            "label": {
+              "enabled": true
+            }
+          },
+          "shadow": {},
+          "background": {},
+          "smooth": {},
+          "id": "indx2_1242274",
+          "from": "indx1_227274",
+          "to": "indx1_219c29c3274"
+        },
+        "49b9557a-580e-46c6-8cf7-662b39531e5e": {
+          "from": "indx1_227",
+          "to": "index-a_0",
+          "id": "49b9557a-580e-46c6-8cf7-662b39531e5e"
         }
       },
       "length": 0,
@@ -10828,7 +10895,7 @@ var schemeData =
   "setup": {
     "scale": 0.0167,
     "viewPosition": {
-      "x": 15702.999999041913,
+      "x": 15702.999998802406,
       "y": 7380.000004850295
     }
   }

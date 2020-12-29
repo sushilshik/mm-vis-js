@@ -599,7 +599,7 @@ function getNewsItemData(item, channelNode) {
    var title = getNewsItemDataTitle(item);
    var summaryTextNodeLabel = getNewsItemDataSummaryTextNodeLabel(item);
    var dateLine = getNewsItemDataDateLine(item);
-   if (typeof linkLine !== "undefined") linkLine = linkLine.replace("gen.lib.rus.ec","libgen.rs");
+   if (typeof linkLine !== "undefined") linkLine = linkLine.replace("gen.lib.rus.ec","libgen.gs");
    if (channelNode.label == "Libgen | Feed Node") {
       result = summaryTextNodeLabel.match(/Date Added:<\/font><\/td><td>(.*?)<\/td>/);
       if (result != null) dateLine = result[1];
@@ -696,18 +696,25 @@ function fetchData(url, channelNode, treeCurrentLinks, newsChannelsData, newsDat
             var rslt = xpath.evaluate("//*[local-name()='script']", doc, null, xpath.XPathResult.ANY_TYPE, null);
             var pageDataCode = "";
             while(node = rslt.iterateNext()) {
-               if (node.toString().match(/window\["ytInitialData"\]/g,"") !== null) {
+               //Debug: fs.writeFileSync("newsDownloadedData/pageDataCode" + String(i) + ".txt", node.toString());
+               //if (node.toString().match(/window\["ytInitialData"\]/g,"") !== null) {
+               if (node.toString().match(/var ytInitialData/g,"") !== null) {
                   pageDataCode = node.toString();
                }
             }
 
             //var vidsMatches = pageDataCode.match(/"title":\{"accessibility":\{"accessibilityData.*?\}\},"simpleText.*?publishedTimeText.*?webPageType/g);
+            //var vidsMatches = pageDataCode.match(/"title":\{"accessibility":\{"accessibilityData.*?webCommandMetadata":\{"url":".watch.v=.*?",/g);
+            //For debug - save page source to file and search by regex
+            //fs.writeFileSync("newsDownloadedData/pageDataCode.txt", pageDataCode);
             var vidsMatches = pageDataCode.match(/title":\{"runs":\[\{"text":".*?"\}\],"access.*?webCommandMetadata":\{"url":".*?",/g);
             if (vidsMatches !== null) {
                vidsMatches.forEach(function(vidMatch) {
                   var object = {};
                   //object.title = vidMatch.replace(/.*\}\},"simpleText":"(.*?)"\},".*/,"$1");
+                  //object.title = vidMatch.replace(/.*\}\},"simpleText":"(.*?)"\}.*/,"$1");
                   object.title = vidMatch.replace(/.*title":\{"runs":\[\{"text":"(.*?)"\}.*?webCommandMetadata.*/,"$1");
+                  object.pubDateCurrentLine = vidMatch.replace(/.*publishedTimeText":\{"simpleText":"(.*?)"\}.*/,"$1");
                   object.link = "https://www.youtube.com" + vidMatch.replace(/.*\{"url":"(.*?)",.*/,"$1");
                   itemsObjects.push(object);
                });
@@ -1016,6 +1023,18 @@ app.get("/getAllNews", function(request, response){
       });      
    });
 
+   //Test data
+   //newsData.newsFilesData["youtube2.data.js"].channelsNodes = [];
+   //newsData.newsFilesData["youtube3.data.js"].channelsNodes = [];
+   //newsData.newsFilesData["youtube3.data.js"].channelsNodes = [
+      //{link: "https://www.youtube.com/user/JimmyKimmelLive/videos", 
+      //label: "Jimmy Kimmel Live - YouTube", id:"indx1_391"}];
+   //newsData.allChannelsMap = {};
+   //newsData.allChannelsMap["Jimmy Kimmel Live - YouTube"] = {
+   //channelNode: {link: "https://www.youtube.com/user/JimmyKimmelLive/videos", 
+   //label: "Jimmy Kimmel Live - YouTube", id:"indx1_391"},
+   //channelFileName: "youtube3.data.js"};
+
    console.log(Object.keys(newsData.allChannelsMap).sort(function (a, b) {
       return a.toLowerCase().localeCompare(b.toLowerCase());
    }));
@@ -1156,6 +1175,28 @@ app.get("/getSavedNewsData", function(req, res){
    res.send(data);
 
 });
+   function getNextNumberForPrefixedId(idsList, prefix) {
+
+      var pageNodeIdsWithPrefix = [];
+      for (var i in idsList) {
+         if (idsList[i].lastIndexOf(prefix, 0) === 0) pageNodeIdsWithPrefix.push(idsList[i]);
+      }
+
+      var prefixedNodeIdsNumbersParts = [];
+      for (var i in pageNodeIdsWithPrefix) {
+         prefixedNodeIdsNumbersParts.push(parseInt(pageNodeIdsWithPrefix[i].replace(prefix,""),10));
+      }
+      prefixedNodeIdsNumbersParts = prefixedNodeIdsNumbersParts.sort((a, b) => a - b);
+
+      var startingPrefixedNodeId = prefixedNodeIdsNumbersParts.slice(-1)[0];
+
+      if (typeof startingPrefixedNodeId === "undefined") {
+         startingPrefixedNodeId = 0;
+      } else {
+         startingPrefixedNodeId = parseInt(startingPrefixedNodeId, 10) + 1;
+      }
+      return startingPrefixedNodeId
+   }
 app.get("/indexes", function(request, response){
    response.set('Access-Control-Allow-Origin', '*');
    var fileName = request.query.fileName;
@@ -1270,7 +1311,8 @@ function rebuildIndexes(fileName) {
       if (id.length < 15 ||
           id.lastIndexOf("index-a_", 0) === 0 ||
           id.lastIndexOf("indx1_", 0) === 0 ||
-          id.lastIndexOf("indx2_", 0) === 0) totalShortNodesIds.push(id);
+          id.lastIndexOf("indx2_", 0) === 0 ||
+          id.lastIndexOf("indx5_", 0) === 0) totalShortNodesIds.push(id);
    }
    var totalShortEdgesIds = [];
    for (var i in totalEdgesIds) {
@@ -1278,7 +1320,8 @@ function rebuildIndexes(fileName) {
       if (id.length < 15 ||
           id.lastIndexOf("index-a_", 0) === 0 ||
           id.lastIndexOf("indx1_", 0) === 0 ||
-          id.lastIndexOf("indx2_", 0) === 0) totalShortEdgesIds.push(id);
+          id.lastIndexOf("indx2_", 0) === 0 ||
+          id.lastIndexOf("indx5_", 0) === 0) totalShortEdgesIds.push(id);
    }
    console.log("totalShortNodesIds.length: " + totalShortNodesIds.length);
    console.log("totalShortEdgesIds.length: " + totalShortEdgesIds.length);
@@ -1295,7 +1338,8 @@ function rebuildIndexes(fileName) {
       if (id.length < 15 ||
           id.lastIndexOf("index-a_", 0) === 0 ||
           id.lastIndexOf("indx1_", 0) === 0 ||
-          id.lastIndexOf("indx2_", 0) === 0) totalShortIds.push(id);
+          id.lastIndexOf("indx2_", 0) === 0 ||
+          id.lastIndexOf("indx5_", 0) === 0) totalShortIds.push(id);
    }
    console.log("totalShortIds.length: " + totalShortIds.length);
    console.log("Unprocessed ids: " + (totalIds.length - totalShortIds.length));
@@ -1310,19 +1354,24 @@ function rebuildIndexes(fileName) {
       return chunksList;
    }
 
+   var prefix = "indx5_";
+   var newIdShift = getNextNumberForPrefixedId(totalIds, prefix) + 109;
    var regexesList = [];
+   var counter = 0;
    for (var i in totalIds) {
       var id = totalIds[i];
       if (id.length < 15 ||
           id.lastIndexOf("index-a_", 0) === 0 ||
           id.lastIndexOf("indx1_", 0) === 0 ||
-          id.lastIndexOf("indx2_", 0) === 0) {
+          id.lastIndexOf("indx2_", 0) === 0 ||
+          id.lastIndexOf("indx5_", 0) === 0) {
          //console.log("Short id: " + id);
          continue;
       }
-      var prefix = "indx2_";
-      var newIdShift = parseInt(totalShortIds.length, 10) + 109;
-      var newId = parseInt(i, 10) + newIdShift;
+
+
+      var newId = parseInt(counter, 10) + Number(newIdShift);
+      counter = counter + 1;
 
       regexesList.push("s/\"" + id + "\"/\"" + prefix + String(newId) + "\"/g");
       
@@ -1369,6 +1418,77 @@ app.get("/test", function(req, res){
    var data = JSON.stringify("Test done.");
    console.log("Test done.");
    res.send(data);
+
+});
+app.get("/showNews", function(req, res){
+   res.set('Access-Control-Allow-Origin', '*');
+   var fileName = req.query.fileName;
+   var selectHours = req.query.selectHours;
+   var path = "./newsDownloadedData/" + fileName + "/" + fileName + ".json"
+
+   var contents = fs.readFileSync(path, 'utf8');
+   var dataFileData = contents.trim();
+
+   data = JSON.parse(dataFileData);
+
+   var lines = "";
+   lines += "<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>\n";
+   for (var i in data.newsChannelsDataList) {
+      var channelData = data.newsChannelsDataList[i];
+      data.newsChannelsDataList[i].filteredNews = [];
+      for (var j in channelData.newNewsList) {
+         var news = channelData.newNewsList[j];
+         if (typeof news.pubDateCurrentLine !== "undefined") {
+            if (news.pubDateCurrentLine.match(/.*час.*/g) ||
+                news.pubDateCurrentLine.match(/.*день.*/g) ||
+                news.pubDateCurrentLine.match(/.*hour.*/g) ||
+                news.pubDateCurrentLine.match(/.*day.*/g)) {
+               data.newsChannelsDataList[i].filteredNews.push(news);
+            }
+         } else {
+            var startOfYesterday = moment().subtract(1, 'days').startOf('day');
+            if (startOfYesterday < moment(new Date(news.pubDate)) ||
+                news.link.match(/.*libgen.*/g) != null) {
+               data.newsChannelsDataList[i].filteredNews.push(news);
+            }
+         }
+      }
+   }
+   for (var i in data.newsChannelsDataList) {
+      var channelData = data.newsChannelsDataList[i];
+      if (channelData.filteredNews.length == 0) continue;
+      lines += "<b><a href='" + channelData.channelNode.link + "'>" + channelData.channelNode.label + "</a></b><br>\n";
+      for (var j in channelData.filteredNews) {
+         var news = channelData.filteredNews[j];
+
+         if (typeof news.pubDateCurrentLine !== "undefined") {
+            var dateLine = news.pubDateCurrentLine;
+            if ((news.pubDateCurrentLine.match(/.*час.*/g) ||
+                news.pubDateCurrentLine.match(/.*hour.*/g)) && (
+                typeof selectHours !== "undefined" && selectHours != "")) {
+               var selectHours = parseInt(selectHours, 10);
+               var dateHour = dateLine.replace(/.*?(\d+).*/g,"$1");
+               dateHour = parseInt(dateHour, 10);
+               if (dateHour < selectHours) dateLine = "<b>" + dateLine + "</b>";
+            }
+            lines += "<a style='margin-left: 20px' href='" + news.link + "'>" + news.title + "</a> " + dateLine + "<br>\n";
+         } else {
+            lines += "<a style='margin-left: 20px' href='" + news.link + "'>" + news.title + "</a> " + news.pubDate + "<br>\n";
+         }
+      }
+   }
+
+   lines += "<script>\n";
+   lines += "$(document).ready(function(){\n";
+   lines += "   $('a').mousedown(function(event) {\n";
+   lines += "      if (event.which == 3) console.log('right click');\n";
+   lines += "   });\n";
+   lines += "});\n";
+   lines += "</script>\n";
+
+   //var data = JSON.stringify(lines);
+   console.log("showNews");
+   res.send(lines);
 
 });
 app.listen(port, host);
